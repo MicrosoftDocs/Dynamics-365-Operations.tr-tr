@@ -33,9 +33,8 @@ Kuruluşunuzun stoğunu yönetmek için aşağıdaki belge türlerini kullanabil
 
 ## <a name="purchase-orders"></a>Satınalma siparişleri
 Satınalma siparişleri merkez ofiste oluşturulur. Perakende ambar satınalma siparişi başlığında eklenirse, Modern POS (MPOS) veya Bulut POS işlemleri - perakende Microsoft Dynamics 365 kullanarak sipariş mağazada alınabilirler. Mağazada alınan miktarların girildikten sonra ek değiştirilmek üzere yerel olarak kaydedilebilir. Alternatif olarak, miktarlar ayrılıp merkez ofise gönderilebilir. Merkez ofiste mağazada alınan miktarların işlemleri için Dynamics 365 içinde görüntülenir **Şimdi Al** alanında bulunan satınalma siparişi.
-Transfer emirleri
----------------
 
+## <a name="transfer-orders"></a>Transfer emirleri
 Transfer emri belirli bir mağazanın maddelerin sevk edilebileceği bir konum olduğunu belirtebilir. Bu durumda, transfer emri malzeme çekme isteği MPOS veya Bulut POS olarak mağazada görünür. Talep edilen miktarlar çekilir sonra bunlar ilenir ve merkez ofise gönderilir. Merkez ofiste mağazada Çekilen miktar işlemleri için Dynamics 365 içinde görüntülenir **Şimdi sevk et** transfer emrindeki alan. Transfer emri belirli bir mağazanın maddelerin sevk edilebileceği bir konum olduğunu belirtebilir. Bu durumda, transfer emrini teslim alma isteği MPOS veya Bulut POS olarak mağazada görünür. Mağazada alınan miktarların girildikten sonra ek değiştirilmek üzere yerel olarak kaydedilebilir. Alternatif olarak, miktarlar ayrılıp merkez ofise gönderilebilir. Merkez ofiste mağazada alınan miktarların işlemleri için Dynamics 365 içinde görüntülenir **Şimdi Al** transfer emrindeki alan.
 
 ## <a name="stock-counts"></a>Stok sayımları
