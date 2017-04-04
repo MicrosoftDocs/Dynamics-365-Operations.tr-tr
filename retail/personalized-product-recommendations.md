@@ -41,14 +41,14 @@ ms.lasthandoff: 03/31/2017
 
 [![proddetails](./media/proddetails.png)](./media/proddetails.png)
 
-1.  Üzerinde **hareket** sayfa:
+2.  Üzerinde **hareket** sayfa:
 
 -   Öneri motoru sepetindeki öğeleri tüm listeyi temel alan öğeleri önerir.
 -   Mağaza ilişkilendirirseniz harekete bir müşteri ekler, öneri motoru sepette müşteri hareket geçmişini ve öğelerin listesini kullanarak kişisel öneriler sağlar.
 
 **Not** önerilerini görüntülemek için **hareket** sayfa, satıcıya gereken işlemleri için Dynamics 365 ekran düzende güncelleştirmek. **Önerileri** denetimi atlanıyor, üzerinde **hareket** sayfa. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-1.  Üzerinde **Müşteri ayrıntıları** sayfa:
+3.  Üzerinde **Müşteri ayrıntıları** sayfa:
     -   Kullanıcı kimliği ve müşterinin istek listesindeki öğeleri temel alarak madde öneri motoru önerir.
 
 [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
