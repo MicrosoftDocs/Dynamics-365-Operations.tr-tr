@@ -1,0 +1,70 @@
+---
+title: "Ürün boyutları"
+description: "Dört ürün boyutu - Renk, konfigürasyon, boyut ve stil yok. Ürün boyutlarını boyut gruplarında birleştirebilirsiniz ve ürün master öğelerine boyut grupları atayabilirsiniz. Ürün boyutlarının kombinasyonları, ürün çeşitlerinin nasıl tanımlanacağını belirler."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle
+audience: Application User
+ms.reviewer: YuyuScheller
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 19171
+ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
+ms.search.region: Global
+ms.search.industry: Retail
+ms.author: yuyus
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
+ms.openlocfilehash: 8854ab94a71cc363bcd073d2df47bc01a243b6cd
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="product-dimensions"></a>Ürün boyutları
+
+Dört ürün boyutu - Renk, konfigürasyon, boyut ve stil yok. Ürün boyutlarını boyut gruplarında birleştirebilirsiniz ve ürün master öğelerine boyut grupları atayabilirsiniz. Ürün boyutlarının kombinasyonları, ürün çeşitlerinin nasıl tanımlanacağını belirler.
+
+Ürün boyutları, ürün varyantı tanımlamaya hizmet eden özelliklerdir. Ürün boyutlarının birleşimleri, ürün varyantları tanımlamak için kullanabilirsiniz. Bir ürün varyantı oluşturmak için bir ana ürüne en az bir ürün boyutu tanımlamanız gerekir.
+Ürün çeşitleri
+----------------
+
+Ürün varyantlarına maddeler de denilir. Bir madde bir hizmet olarak aynı değil somut bir üründür. Ürün ana hizmet türünü tanımlamak mümkündür. Hizmet türü kullanarak hizmetleri içerecek ürün varyantları belirtebilirsiniz. Örneğin, Danışmanlık işi için bir ana ürün ve üst düzey danışmanlar ve alt düzey danışmanlar tarafından gerçekleştirilen iş için ürün varyantları belirtebilirsiniz.
+
+## <a name="product-dimensions"></a>Ürün boyutları
+Aşağıdaki Ürün boyutları vardır: yapılandırma, rengi, boyutu ve stili. Ürün boyut değerlerini temel alan bir ürün değişken oluşturulabilir.
+
+Ürün boyutları değerleri gibi boyut, renk ve stil üzerinde oluşturulabilir **boyutu**, **renk** ve **stili** aşağıdaki konumlardan erişilebilir sayfalar,: **ürün bilgi yönetimi**&gt;**Kurulum**&gt;**boyut ve değişken grupları**&gt;**renkleri/boyut/stilleri**. Yapılandırma boyutuna yönelik ürün boyutu genellikle ya Ürün yapılandırıcısı ya da Boyut bazlı yapılandırıcı kullanılarak oluşturulur. Ürün boyutları, aşağıdaki konumlardan erişilebilecek **Ürün boyutları** sayfasında da oluşturulup muhafaza edilebilir:
+-   ' I **ürün bilgi yönetimi**&gt;**ürünleri**&gt;**ürün yöneticileri**. Üzerinde **eylem bölmesi**,'ı **Ürün boyutları**.
+-   ' I **ürün bilgi yönetimi**&gt;**ürünleri**&gt;**tüm ürünleri ve ürün yöneticileri**. Bir ana ürün seçin. Üzerinde **eylem bölmesi**,'ı **Ürün boyutları**.
+-   ' I **ürün bilgi yönetimi**&gt;**ürünleri piyasaya**. Bir ana ürün seçin. Üzerinde **eylem bölmesi**,'ı **ürün**. **Ana ürün** grubunda **Ürün boyutları**'na tıklayın.
+
+Maddeler için oluşturabileceğiniz varyant sayısı, olası ürün boyutu kombinasyonlarının sayısı ile sınırlıdır.
+| **İpucu **                                                                                                                                              |
+|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Bir ürünü örneğin bir emir satırında kullanırken, birlikle çalışmak istediğiniz ürün varyantını tanımlamak için ürün boyutlarını seçerseniz. |
+
+## <a name="example"></a>Örnek
+Bir şirket kot kumaşından ürünler satıyor. Kot kumaşı maddesi Renk ve Ebat boyutlarını kullanıyor. Kot kumaşları üç farklı renk ve altı farklı ebatta satılıyor. Renkler: Mavi, Siyah, Kahverengi Boyutlar: XS, S, M, L, XL, XXL Tüm rengin tümünde tüm ebatlar yoktur. Kombinasyonların tümü mevcut olsaydı, 18 farklı kot türü oluşturacaktı. Bu örnekte, yalnızca aşağıdaki dokuz ürün varyantı kombinasyonu üretilir.
+
+| Renk | Ebat |
+|-------|------|
+| Mavi  | XS   |
+| Mavi  | S    |
+| Mavi  | P    |
+| Siyah | P    |
+| Siyah | L    |
+| Siyah | XL   |
+| Kahverengi | L    |
+| Kahverengi | XL   |
+| Kahverengi | XXL  |
+
+
+
+

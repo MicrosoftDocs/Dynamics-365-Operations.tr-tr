@@ -1,0 +1,91 @@
+---
+title: "Nakit İndirim döneminin dışındaki bir nakit iskontosu almak"
+description: "Bu makalede, bir nakit indiriminin ödeme nakit indirimi periyodu dışında yapılsa bile nasıl alınabileceğini gösteren iki senaryo verilmiştir."
+author: twheeloc
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 14301
+ms.assetid: bad10b7f-e550-4742-9261-8a094c9c624d
+ms.search.region: Global
+ms.author: kweekley
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
+ms.openlocfilehash: bea9565f488c01e5e6aede8cabe73ac13b75dacb
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Nakit İndirim döneminin dışındaki bir nakit iskontosu almak
+
+Bu makalede, bir nakit indiriminin ödeme nakit indirimi periyodu dışında yapılsa bile nasıl alınabileceğini gösteren iki senaryo verilmiştir.
+
+Nisan 28 Haziran 2,000.00 3052 satıcı için bir fatura oluşturur. Fatura, fatura 14 günde ödeniyorsa yüzde 1'lik bir nakit iskontosu vardır.
+
+## <a name="use-cash-discount-option--always"></a>Nakit iskontosu seçeneği kullan = Her zaman
+April, iskonto tarihinden sonraya denk gelen 1 Temmuz tarihinde bir ödeme yapıyor. April, kapatılabilecek hareketleri görmek için **Hareketleri kapat** sayfasını açıyor. 
+
+April, ödeme için faturayı işaretliyor. Ödeme, iskonto tarihinden sonra yapıldığı için nakit iskontosu alınmıyor. Ancak, satıcı nakit iskontosu yine de almak için Nisan onay verdiği. Bu yüzden, Nisan değerini değiştirir **nakit iskontosu kullan** alanı **her zaman**.
+
+| İşaret     | Nakit iskontosu kullan | Fiş   | Hesap | Nakit iskontosu tarihi | Vade tarihi  | Fatura | Hareket para birimi cinsinden tutar | Para Birimi | Kapatılacak tutar |
+|----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
+| Seçildi | Her zaman            | Inv-10030 | 3052    | 28/6/2015          | 12/7/2015 | 10030   | -2.000,00                      | ABD Doları      | -1.980,00        |
+
+İskonto bilgileri **Hareketleri kapat** sayfasının altında görüntülenir.
+
+|                              |           |
+|------------------------------|-----------|
+| Nakit iskontosu tarihi           | 12/7/2015 |
+| Nakit iskontosu tutarı         | -20,00    |
+| Nakit iskontosu kullan            | Her zaman    |
+| Alınan nakit iskontosu          | 0,00      |
+| Alınacak nakit iskontosu tutarı | -20,00    |
+
+## <a name="date-to-use-for-calculating-discounts--selected-date"></a>İskontoların hesaplanması için kullanılacak tarih = Seçilen tarih
+Hem fatura hem ödeme nakledilirse, **Hareketleri kapat** sayfasında hareketler kapatıldığında nakit iskontosu alınabilir. April, **İskontoların hesaplanması için kullanılacak tarih** alanındaki değeri **Seçilen tarih** olarak değiştiriyor. Ardından, fatura için nakit iskontosu dönemi içinde kalan 28 Haziran tarihini giriyor. Bu tarih, hareket için bir nakit iskontosunun hesaplanması için kullanılır. **Açık hareketleri kapat** sayfasında April, varsayılan olarak, 20.00 tutarında tam iskontonun görüntülendiğini görüyor. Fatura satırı, kapatılacak tutarın 1,980.00 olduğunu gösteriyor.
+
+| İşaret                     | Nakit iskontosu kullan | Fiş   | Hesap | Nakit iskontosu tarihi | Vade tarihi  | Fatura | Hareket para birimi cinsinden tutar | Para Birimi | Kapatılacak tutar |
+|--------------------------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
+| Seçildi ve vurgulandı | Normal            | Inv-10030 | 3052    | 28/6/2015          | 12/7/2015 | 10030   | -2.000,00                      | ABD Doları      | -1.980,00        |
+| Seçildi                 | Normal            | APP-10030 | 3052    | 15/7/2015          | 15/7/2015 |         | 500,00                         | ABD Doları      | 500,00           |
+
+İskonto bilgileri **Açık işlemleri düzelt** sayfasının altında görüntülenir. Alınan iskonto tutarı 20,00'dir, çünkü fatura için kapatılacak tutar, varsayılan tutar olan 1.980,00'dır.
+
+|                              |           |
+|------------------------------|-----------|
+| Nakit iskontosu tarihi           | 12/7/2015 |
+| Nakit iskontosu tutarı         | -20,00    |
+| Nakit iskontosu kullan            | Normal    |
+| Alınan nakit iskontosu          | 0,00      |
+| Alınacak nakit iskontosu tutarı | -20,00    |
+
+April, **Kapatılacak tutar** alanındaki değeri **500,00** olarak güncelliyor. **Alınacak nakit iskontosu tutarı** alanındaki değer **5,05** olarak hesaplanıyor.
+
+| İşaret                     | Nakit iskontosu kullan | Fiş   | Hesap | Tarih      | Vade tarihi  | Fatura | Hareket para birimi cinsinden tutar | Para Birimi | Kapatılacak tutar |
+|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
+| Seçildi ve vurgulandı | Normal            | Inv-10030 | 3052    | 28/6/2015 | 12/7/2015 | 10030   | 2.000,00                       | ABD Doları      | -500,00          |
+| Seçildi                 | Normal            | APP-10030 | 3052    | 15/7/2015 | 15/7/2015 |         | 500,00                         | ABD Doları      | 500,00           |
+
+İskonto bilgileri **Açık işlemleri düzelt** sayfasının altında görüntülenir. **Alınacak nakit iskontosu tutarı** alanındaki değer **5,05**'dir çünkü fatura için kapatılacak tutar, ödeme tutarı olan 500,00 olarak değiştirilmiştir.
+
+|                              |           |
+|------------------------------|-----------|
+| Nakit iskontosu tarihi           | 12/7/2015 |
+| Nakit iskontosu tutarı         | -20,00    |
+| Nakit iskontosu kullan            | Normal    |
+| Alınan nakit iskontosu          | 0,00      |
+| Alınacak nakit iskontosu tutarı | -5,05     |
+
+
+
+

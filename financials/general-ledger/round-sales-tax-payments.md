@@ -1,0 +1,66 @@
+---
+title: "Satış vergisi ödemeleri ve yuvarlama kuralları"
+description: "Bu makalede, Satış vergisi makamlarında yuvarlama kuralı ayarlarının nasıl çalıştığı ve Satış vergilerini kapatma ve deftere nakletme işi sırasında satış vergisi bilançosunun yuvarlanması açıklanmaktadır."
+author: twheeloc
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: TaxAuthority
+audience: Application User
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 6134
+ms.assetid: 7dcd3cf5-ebdf-4a9f-806c-1296c7da0331
+ms.search.region: Global
+ms.author: vstehman
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: ecd32549b6067ed4c1211996e846e210f77f5013
+ms.openlocfilehash: 8f28ab4ea0fed975edbed60ddf5630d2d26ba0bc
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="sales-tax-payments-and-rounding-rules"></a>Satış vergisi ödemeleri ve yuvarlama kuralları
+
+Bu makalede, Satış vergisi makamlarında yuvarlama kuralı ayarlarının nasıl çalıştığı ve Satış vergilerini kapatma ve deftere nakletme işi sırasında satış vergisi bilançosunun yuvarlanması açıklanmaktadır.
+
+Satış vergilerinin düzenli olarak vergi dairelerine bildirilmesi ve ödenmesi gerekir. Bu kapatma çalıştırarak yapılabilir ve sayfada satış vergisi satış vergisi işlemi deftere nakledin. Bir dönem için satış vergisi, satış vergisi hesaplarını karşı kapatılır ve satış vergisi bakiyesi, vergi mahsup hesabına nakledilir. Satış verghisi kapatma hesabına nakledilen satış vergisi bakiyesi, Satş vergisi sayfasında bir yuvarlama kuralı ayarlanarak vergi kurumlarının gerektirdiği şekilde yuvarlanabilir. 
+
+Yuvarlama farkı, Genel muhasebenin Otomatik hareketler için hesaplar alanında seçilen Satış vergisi yuvarlama hesabına nakledilir.
+
+Aşağıdaki örnekte, Satış vergisi dairesinde yuvarlama kuralının nasıl işlediği gösterilmektedir.
+
+### <a name="example"></a>Örnek:
+
+Bir döneme ilişkin toplam satış vergisi alacak bakiyesi -98.765,43 olarak görünmektedir. Tüzel kişilik ödediğinden daha fazla satış vergisi tahsil etmiştir. Bu nedenle, tüzel kişiliğin vergi dairesine ödeme yapması gerekir. 
+
+Tüzel kişilik bakiyeyi en yakın 1,00 değerine yuvarlayan bir yuvarlama yöntemi kullanmak istemektedir. Satış vergisi muhasebesinden sorumlu kullanıcı aşağıdaki adımlardan birini gerçekleştirmelidir:
+
+1.  Vergi'ı &gt;dolaylı vergiler &gt;vergi &gt;vergi dairesi
+2.  Genel hızlı sekmesinde, Yuvarlama formu alanından Normal seçeneğini seçin.
+3.  Yuvarlama alanına 1,00 girin.
+4.  Satış vergisini vergi dairesine ödeme zamanı geldiğinde, Satış vergisini kapat ve naklet sayfasını açın. (Tıklatın vergi &gt;bildirimleri &gt;vergi &gt;kapatmak ve satış vergisi deftere nakledin.)
+5.  Satış vergisi kapatma hesabındaki 98.765,43 tutarındaki vergi borcu 98.765'e yuvarlanır.
+
+Aşağıdaki tabloda, 98.765,43 tutarının Satış vergisi dairesi sayfasındaki Yuvarlama formu alanında bulunan her yuvarlama yöntemi kullanılarak nasıl yuvarlandığı gösterilmektedir.
+
+| Yuvarlama formu seçeneği                | Yuvarlama değeri = 0,01 | Yuvarlama değeri = 0,10 | Yuvarlama değeri = 1,00 | Yuvarlama değeri = 100,00 |
+|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|
+| Normal                              | 98.765,43              | 98.765,40              | 98.765,00              | 98.800,00                |
+| Aşağı yuvarlama                            | 98.765,43              | 98.765,40              | 98.765,00              | 98.700,00                |
+| Yukarı yuvarlama                         | 98.765,43              | 98.765,50              | 98.766,00              | 98.800,00                |
+| Kendi avantajı, alacak bakiyesi için | 98.765,43              | 98.765,40              | 98.765,00              | 98.700,00                |
+| Kendi avantajı, borç bakiyesi için  | 98.765,43              | 98.765,50              | 98.766,00              | 98.800,00                |
+
+> [!NOTE]                                                                                  
+> Kendi avantajı seçeneğini seçerseniz, yuvarlama daima tüzel kişiliğin yararına yapılır. 
+
+Daha fazla bilgi için bkz: [satış vergisi genel](indirect-taxes-overview.md). 
+
+

@@ -1,0 +1,58 @@
+---
+title: "Muhasebe dağılımları"
+description: "Bu makalede, muhasebe dağılımları hakkında bilgiler verilmekte ve muhasebe dağılımlarını işlemek için kullanılabilecek seçenekler açıklanmaktadır. Muhasebe dağılımları, bir kaynak belgenin parasal tutarlarını belirli genel muhasebe hesaplarına tahsis etmek için kullanılır."
+author: twheeloc
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: AccountingDistribution
+audience: Application User
+ms.reviewer: annbe
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 17231
+ms.assetid: 9030355d-8e6e-408b-9e7d-7b346eaa652c
+ms.search.region: Global
+ms.author: peakerbl
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: a98ce08dc115bc96cec07c2d6ced10d774785fe9
+ms.openlocfilehash: b1057caae6f47e5a17e194834fbbcb9d7d731605
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="accounting-distributions"></a>Muhasebe dağılımları
+
+Bu makalede, muhasebe dağılımları hakkında bilgiler verilmekte ve muhasebe dağılımlarını işlemek için kullanılabilecek seçenekler açıklanmaktadır. Muhasebe dağılımları, bir kaynak belgenin parasal tutarlarını belirli genel muhasebe hesaplarına tahsis etmek için kullanılır. 
+
+Hesap dağıtımları örneğin satın alma emri, satıcı faturası, gider raporu ve serbest metin faturası gibi her bir kaynak belge tarafından kullanılan ve genişletilen, program genelinde geçerli bir özelliktir. Varsayılan olarak, her bir kaynak belge satırı ve parasal tutar için bir varsayılan hesap dağıtımı üretilir ve bu dağıtım, değişikler için koşullu olarak etkinleştirilir. 
+
+> [!Note] 
+> Bazı belgeleri üstbilgi belgesi parasal tutarlar, siparişler ve faturalar için giderleri gibi de destekler. 
+
+Genel muhasebe dağıtım özellikleri, hesap dağıtımlarının işlenmesi için aşağıdaki seçenekleri sağlar:
+
+-   **Tutarları dağıtma** – Vergiler ve masraflar gibi tek bir belge başlığı veya satırı ve tüm alt satırların muhasebe dağılımlarını görüntüleyin ve düzenleyin.
+    -   Üst parasal tutar dağıtımları (ana dağıtımlar) için, ana hesap ve mali boyutlar doğrudan ızgaradaki segmentlenmiş giriş kontrolünde düzenlenebilir. Genişletilmiş fiyat, böyle bir ana dağıtımın tipik bir örneğidir.
+    -   Dağıtım tutarları, belgenin belirtilen para birimine dayalıdır. Tipik olarak, bu para birimi hareket para birimidir. Muhasebe ve raporlama para birimi tutarları alt defte hesaplarının bir parçası oluşturulur.
+    -   Dağıtımlar, hesap tarihini ve hesap olayını gösterir. Tipik olarak, belge nakledilene/günlüğe kaydedilene kadar hesap olayı **ok** olarak ayarlanır. Bu noktada, hesap olayı **Orijinal** durumuna gelir. Dağıtımlar nakledildikten sonra dağıtımları değiştiremezsiniz.
+    -   **Bölme** düğmesi ana dağıtımlar için etkinleştirilebilir. **Bölme** yeni hesap dağıtımları oluşturur ve bölme işlemi yüzdeye, tutara veya miktara dayalı olabilir.
+    -   ** Eşit olarak dağıt** düğmesi, tutarın tüm dağıtımlar arasında otomatik olarak tahsis edilmesi için **Bölme** düğmesiyle birlikte kullanılabilir.
+    -   **Sıfırlama** düğmesi birden fazla dağıtım mevcut olduğundan ana dağıtımlar için etkinleştirilebilir. **Sıfırla** tüm mevcut dağıtımları silerek ve varsayılan dağıtımları yeniden oluşturarak dağıtımda el ile yapılan değişiklikleri sıfırlar.
+    -   İskonto, masraf ve satış vergisi gibi herhangi bir alt dağıtım her zaman ana dağıtımı izler. En üst/alt ilişkisi görüntüleyebilirsiniz **başvuru**&gt;**üst bilgi**.
+    -   Ana hesap ve mali boyut alt dağıtımlar için de düzenlenebilir.
+    -   Hesap dağıtımları üzerindeki mali boyutlar bir belgenin genişletilebildiği varsayılan düzeni takip eder. Daha fazla bilgi için ilgili makalelere bakın.
+    -   Fark dağıtımları bir satıcı faturası ile bir satın alma emri arasındaki eşleşme vb. gibi eşleşen senaryolarda oluşturulabilir. Hesap dağılım arasında eşleşen ilişkileri görüntüleyebilirsiniz **başvuru**&gt;**belge bilgileri**.
+    -   **Doğru** düğmesi, düzeltmeyi destekleyen belgeler için görüntülenir ve etkinleştirilir. **Doğru** yeni dağıtımları oluşturur. İlk olarak, özgün dağıtımları ters dağıtımları oluşturulur. Bu dağıtımlar değiştirilemez. Sonraki, yeni doğru hesap dağıtımları oluşturulur. Bu dağıtımlar, orijinal dağıtımların değiştirilmesi durumunda değiştirilebilir.
+    -   ** Proje bilgileri** düğmesi bir satır bir projeyle ilişkili olduğunda etkinleştirilir. Proje hesap dağıtımları, finansman kaynağı ve hat özelliği gibi bilgileri değiştirmenize izin verir.
+    -   Geçerli belge hesap durumunu görüntüleyebilirsiniz **başvuru**. Durumu için tüm belge ve belge işlenmekte olduğu veya tamamlanmış olup olmadığını belirtir.
+-   ** Dağıtımları ** görüntülemek – tüm satırları ve parasal tutarlar için hesap dağıtımları belgeyi görüntüleyin. Hesap dağılımlarını bu görünümden değiştiremezsiniz.
+
+
+Daha fazla bilgi için bkz: [hesap dağıtımları ve muavin defteri günlük girdilerini serbest metin faturaları](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
+

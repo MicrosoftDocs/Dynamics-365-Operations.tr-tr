@@ -1,0 +1,67 @@
+---
+title: "Sistem tanımlı ve kullanıcı tanımlı tablo kısıtlamaları"
+description: "Bu makalede, iki tür kullanıcı tanımlı ve sistem tanımlı bir ürün modelindeki yapılandırma - bileşenleri için tablo kısıtlamaları açıklar. Tablo sınırlandırmaları, her bir satırın bir pozitif öznitelik değeri setine karşılık geldiği, izin verilen öznitelik kombinasyonlarının matrislerini temsil eder."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: PCTableConstraintAttachAttributeTree, PCTableConstraintColumnSystem, PCTableConstraintContentUserDef, PCTableConstraintDefinition, PCTableConstraintWizard
+audience: Application User
+ms.reviewer: YuyuScheller
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 19781
+ms.assetid: 0a4ea930-b344-43a8-871e-d5cd077892c4
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: yuyus
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: b21fd97426b331726c12ea29f89817a46dd445c3
+ms.openlocfilehash: 510ee819e6bc69b72df767f6cfd284230baba729
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="system-defined-and-user-defined-table-constraints"></a>Sistem tanımlı ve kullanıcı tanımlı tablo kısıtlamaları
+
+Bu makalede, iki tür kullanıcı tanımlı ve sistem tanımlı bir ürün modelindeki yapılandırma - bileşenleri için tablo kısıtlamaları açıklar. Tablo sınırlandırmaları, her bir satırın bir pozitif öznitelik değeri setine karşılık geldiği, izin verilen öznitelik kombinasyonlarının matrislerini temsil eder.
+
+Tablo kısıtlamaları, ürün yapılandırma modelindeki bileşenler için izin verilen özniteliklerin birleşimlerinin matrislerini temsil eder. Tablodaki her satır bir dizi olası öznitelik değerini tanımlar. Ürün yapılandırma modelindeki kısıtlamaları iki türde bildirebilirsiniz:
+
+-   **İfade kısıtlaması** – Ürün yapılandırması sırasında yalnızca uyumlu değerlerin seçilebileceğini güvence altına almak için öznitelikler arasındaki ilişkileri tanımlayan bir ifade oluşturun.
+-   **Tablo kısıtlaması** – Belirtilen öznitelikler kümesi için izin verilen tüm kombinasyonları tanımlayan bir tablo oluşturun. İki türde tablo kısıtlaması vardır: Kullanıcı tanımlı tablo kısıtlamaları ve sistem tanımlı tablo kısıtlamaları.
+
+Bu makalede, ürün yapılandırma modelinde bileşenler için kullanıcı tanımlı ve sistem tanımlı tablo kısıtlamaları açıklanmaktadır.
+
+## <a name="user-defined-table-constraints"></a>Kullanıcı tanımlı tablo kısıtlamaları
+Kullanıcı tanımlı bir tablo kısıtlaması öznitelik türleri tarafından tanımlanan öznitelik değerlerinin bir dizi kombinasyonunu tanımlamak için kullanılan bir matris türüdür. Örneğin, hoparlör üretiyorsanız kullanıcı tanımlı tablo kısıtlamasında kabin rengi ve ızgara rengi için sütunlar ekleyebilirsiniz. Kabin renginin öznitelik türünde dört; ızgara renginin öznitelik türünde üç değer vardır. Bu nedenle, kısıtlamalar kullanılmazsa 4 × 3 = 12 olası kombinasyon oluşur. Ancak, bu örnekte aşağıdaki tabloda gösterildiği şekilde yalnızca altı kombinasyona izin verilir. Bu bilgiler **Tablo kısıtlamasını düzenle** sayfasında **İzin verilen kombinasyonlar** sekmesinde görüntülenir.
+
+| Kabin rengi | Izgara rengi |
+|----------------|-------------|
+| Siyah          | Siyah       |
+| Siyah          | Metal       |
+| Meşe            | Siyah       |
+| Pelesenk       | Beyaz       |
+| Beyaz          | Siyah       |
+| Beyaz          | Beyaz       |
+
+Kullanıcı tanımlı tablo kısıtlamaları ifade kısıtlamasıyla aynı şekilde işleyen statik tablo girişiyle tanımlanır. Kullanıcı tanımlı bir tablo kısıtlaması kullandığınızda tabloları oluşturmanın, anlamanın ve sağlamanın genellikle uzun ifade kısıtlamalarından daha kolay olması bir avantaj sağlar.
+
+## <a name="system-defined-table-constraints"></a>Sistem tanımlı tablo kısıtlamaları
+Sistem tanımlı bir tablo kısıtlaması, bir tablodaki öznitelik türü ile alan arasındaki dinamik eşlemeyi temsil eder. Sistem tanımlı bir tablo kısıtlaması bir ürün yapılandırma modeline dahil edildiğinde, öznitelik türü değerlerinin yerine tablodaki verileri güvence altına alan eşleme gösterilir. Tablo içeriği değiştirilebileceğinden (örneğin, diğer modüller tarafından) sonuçta dinamik bir kısıtlama ortaya çıkar.  
+
+Sistem tanımlı bir tablo kısıtlaması oluşturduğunuzda, bir tablo seçer, isteğe bağlı olarak kullanmak istediğiniz sorguyu tanımlar ve ardından seçilen tablodaki alanlarla öznitelik türlerini ilişkilendirirsiniz. Alanların türleri öznitelik türlerinin türleriyle eşleşmelidir.  
+
+Bir tablo kısıtlaması ürün yapılandırma model üzerinde etkili olması için önce bir tablo kısıtlaması modelinin bileşenlerden biri üzerinde bir kısıtlama dahil edilmelidir. Yordam kullanmak için tablo kısıtlaması tanımı'nı seçin, tablo kısıtlaması türü seçin ve yeni bir kısıtlama oluşturmak için kullanılır. Son olarak, tablo kısıtlamasındaki tüm alanlar ürün yapılandırma modelindeki özniteliklerle eşlenmelidir.
+
+<a name="see-also"></a>Ayrıca bkz.
+--------
+
+[Ürün konfigürasyon modellerinde kilit konseptler](product-configuration-models.md)
+
+

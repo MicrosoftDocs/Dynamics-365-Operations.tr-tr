@@ -1,0 +1,51 @@
+---
+title: Genel defter hesap bakiyeleri
+description: "Bu makalede, genel muhasebe hesabı bakiyelerini - mizan listesi sayfası ve mali raporları görüntülemek için iki yöntem açıklanmaktadır. Makalede, boyut kümesi bakiyelerinin nasıl güncelleştirileceği de ele alınmaktadır."
+author: RobinARH
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: LedgerTrialBalanceListPage
+audience: Application User
+ms.reviewer: RobinARH
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 13191
+ms.assetid: ea3650ac-34a0-4516-b75b-801c2164107d
+ms.search.region: Global
+ms.author: aolson
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 9f4d7fdd8cfa7a540fce219f6ae4792e57dfbe44
+ms.openlocfilehash: 5cda4509d3d793e29982698a3d8e4aa298f5c643
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="general-ledger-account-balances"></a>Genel defter hesap bakiyeleri
+
+Bu makalede, genel muhasebe hesabı bakiyelerini - mizan listesi sayfası ve mali raporları görüntülemek için iki yöntem açıklanmaktadır. Makalede, boyut kümesi bakiyelerinin nasıl güncelleştirileceği de ele alınmaktadır.
+
+Kullanıcıların genel defterdeki bakiyeleri görebilmesi için çeşitli yöntemler mevcuttur. En yaygın kullanılan seçeneklerden bazıları şunlardır:
+
+-   Mizan
+-   Mali raporlar
+-   Fiş hareketleri
+-   Genel muhasebe raporları
+
+En yaygın yöntemler arasında mizan liste sayfası ve mali raporlar yer alır.
+
+## <a name="trial-balance"></a>Mizan
+Mizan, bir hesabın bakiyelerinin ve/veya belirli bir zaman dilimi için boyutların tümünü gösteren bir liste sayfasıdır. Mizan ilk kez açıldığında, Parametreler altında ayarlanmış olan tarih ve özellik bilgileri için bakiyelerle birlikte yenilenir. Tarihler, nakil katmanı, açılış bakiyelerinin nasıl görüntüleneceği ve hangi kapatma hareket türlerinin görüntüleneceği Parametreler altında değiştirilebilen özellikler arasındadır. 
+
+Bir kullanıcı parametreleri değiştiğinde bakiyeleri yenilenir. Kullanıcı ayrıca bakiyeleri hangi boyut grubu için görüntülemek istediğini ve boyutların her birinin ayrı sütunlarda görüntülenip görüntülenmeyeceğini seçebilir. 
+
+Kullanıcılar, bakiyeyi oluşturan hareketleri görüntülemek için bakiyeleri ayrıntılı olarak gözden geçirebilirler.    
+
+Daha fazla bilgi için bkz: [finansal raporlar görüntülemek](view-financial-reports.md).
+
+
