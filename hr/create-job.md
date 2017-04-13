@@ -48,10 +48,10 @@ Bu konuda bir proje içerebilir ve bu öğeleri, kuruluşunuzda nasıl kullanabi
 ## <a name="job-functions"></a>İş işlevleri
 İşi kavşakları üst düzey işlev kategorileri açıklar ve üst düzey görevleri ilişkilendirebilirsiniz. İş işlevlerini gerekli değildir. İşi İşlevler, iş türleri, maaş planları belirli projeler için filtre uygulamak için kullanabilirsiniz. Görev ve proje türleri ile maaş planları üzerinde uygunluğu kurallar ayarlayarak ilişkilendirmenize **uygunluk kuralları** sayfa. Sonra iş türü ve bir Uygunluk kuralı ile tanımladığınız iş işlevi belirli birleşimi için geçerli bir tazminat planı çevreleyen düzeyler kümesi ekleyebilirsiniz. (Bu özellikler sabit maaş planları ve değişken maaş planları için geçerlidir.) Ancak, maaş yönetimi için uygunluk kuralları oluşturduğunuzda iş işlevlerini kullanmayı planlıyorsanız, işler ayarlamak için önce iş işlevlerini ayarlamanız gerekir. Aşağıdaki tabloda bazı örnekler iş işlevlerini gösterir.
 
-| İş           | İş işlevi      |
-|---------------|-------------------|
-| Satış yöneticisi | Orta düzey yönetici |
-| Muhasebeci    | Uzmanları     |
+| İş           | İş işlevi         |
+|---------------|----------------------|
+| Satış yöneticisi | Orta düzey yönetici    |
+| Muhasebeci    | Uzmanları        |
 
 İş işlevlerini kullanarak korumak **iş işlevleri** sayfa. Üzerinde **iş işlevleri** sayfasında, bir kimlik kodu ve iş işlevine ilişkin kısa bir açıklama girin.
 

@@ -56,10 +56,6 @@ Bir iş, işi gerçekleştiren birinden beklenen görev ve sorumluluklar toplam�
 O işe yönelik pozisyondaki bir işçinin tamamlaması gereken temel görevleri açıklayan iş görevleri oluşturabilirsiniz. Birden fazla işe aynı iş görevi eklenebilir ve bu işlere yönelik pozisyonlar bu iş görevlerini alacaktır. İş görevlerine örnekler aşağıdaki tabloda listelenmiştir.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>İş</th>
