@@ -1,0 +1,157 @@
+# [Cost management](cost-management/TOC.md)
+# [Inventory management](inventory/TOC.md)
+# Master planlama
+## Talep tahmini oluşturun
+### [Talep tahmini genel bakış](master-planning/introduction-demand-forecasting.md)
+### [Tahmin isteğe bağlı Ayarla](master-planning/demand-forecasting-setup.md)
+### [Tahmin Temel İstatistik oluştur](master-planning/generate-statistical-baseline-forecast.md)
+### [Tahmini taban el ile düzeltme yapmak](master-planning/manual-adjustments-baseline-forecast.md)
+### [Ayarlanmış olan bir tahmini yetkilendirmek](master-planning/authorize-adjusted-forecast.md)
+### [Monitör tahmin doğruluk](master-planning/monitor-forecast-accuracy.md)
+### [Outliers geçmiş işlem verilerinden kaldırabilir.](master-planning/remove-historical-outliers-calculating-demand-forecast.md)
+### [Reduction keys](master-planning/reduction-keys.md)
+## Master plan
+### [Action messages](master-planning/action-messages.md)
+### [Kapsam ayarları](master-planning/coverage-settings.md)
+### [Delays](master-planning/delays.md)
+### [Master plans](master-planning/master-plans.md)
+### [Master planları ve çoklu tesis işlevi](master-planning/master-plan-multisite-functionality.md)
+#### [Site kapsamı, zorunlu ambar için plan](master-planning/master-plan-site-coverage-warehouse-mandatory.md)
+#### [Site kapsamı zorunlu ambar planlayın](master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
+#### [Tesis ve ambar için kapsamı, zorunlu ambar planlayın](master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+#### [Tesis ve ambar için kapsamı, zorunlu ambar planlayın](master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+#### [Ürün reçetesi versiyonunu belirlemek](master-planning/master-plan-bom-version-determined.md)
+### [Bir ürün reçetesi açılımı](master-planning/master-plan-explosion-bom-version.md)
+### [Maintain planned orders](master-planning/maintain-planned-orders.md)
+### [Bir açılım İzle](master-planning/trace-explosion.md)
+# Tedarik ve kaynak atama
+## [Procurement and sourcing overview](procurement/procurement-sourcing-overview.md)
+## [Satın alma ve kaynak Hizmeti'nden iş akışı](procurement/procurement-sourcing-workflows.md)
+## [Purchasing policies](procurement/purchase-policies.md)
+## [Procurement catalogs](procurement/procurement-catalogs.md)
+## [Purchase requisitions](procurement/purchase-requisitions-overview.md)
+### [Purchase requisition workflow](procurement/purchase-requisitions-workflow.md) 
+## [Teklifler (RFQs) için istek](procurement/request-quotations.md)
+## Satınalma siparişleri
+### [Purchase order overview](procurement/purchase-order-overview.md)
+### [Create purchase orders](procurement/purchase-order-creation.md)
+### [Onayla ve satınalma siparişleri Onayla](procurement/purchase-order-approval-confirmation.md)
+## Satıcı yönetimi ve iş birliği
+### [Satıcı iş birliğini ayarlama ve koruma](procurement/set-up-maintain-vendor-collaboration.md)
+### [Satıcı iş birliği kullanıcılarını yönetme](procurement/manage-vendor-collaboration-users.md)
+### [Satıcı hesaplarını ayarlama](procurement/set-up-vendor-accounts.md)
+### [Harici satıcılarla satıcı iş birliği](procurement/vendor-collaboration-work-external-vendors.md)
+### [Müşterilerle satıcı iş birliği](procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+### [Satıcı portal kullanarak satıcılar ile işbirliği](procurement/collaborate-vendors-vendor-portal.md)
+### [Satıcı işbirliği mobil çalışma alanı](procurement/vendor-collaboration-mobile-workspace.md)
+### [Satıcı portal kullanıcı güvenliği](procurement/configure-security-vendor-portal-users.md)
+## Fiyatlar ve iskontolar
+### [Purchase agreements](procurement/purchase-agreements.md)
+## Ürün giriş ve faturalama
+### [Ürün girişine karşılık satınalma siparişleri](procurement/product-receipt-against-purchase-orders.md)
+### [Satıcı faturalarına genel bakış](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
+### [Vendor posting profiles](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+# Ürün bilgileri yönetimi
+## Ürün bilgileri
+### [Ürün reçetesi ve formülü](production-control/bill-of-material-bom.md)
+### [BOM designer functionality](production-control/bom-designer-functionality.md)
+### [Product dimension](pim/product-dimensions.md)
+### [Ürün numarası terminolojisi](pim/product-variant-identification-nomenclature.md)
+### [Çeviri ürün ile ilgili sık sorulan sorular](pim/translations-product-related-information.md)
+### [Satış işlemindeki kayıt seri numarası](sales-marketing/register-serial-numbers-sales-process.md)
+### [Sipariş girişi sırasında ürün arama](pim/search-products-product-variants.md)
+## Ürün konfigürasyon oluştur
+### [Ürün yapılandırma modeli oluşturma](pim/build-product-configuration-model.md)
+### [Hesaplama için ürün yapılandırma modeli hakkında SSS](pim/calculate-product-configuration-models.md)
+### [Konfigürasyon kuralı](pim/configuration-rules.md)
+### [Dimension-based configuration](pim/dimension-based-product-configuration.md)
+### [İfade kısıtlaması ile tablo](pim/expression-constraints-table-constraints-product-configuration-models.md)
+### [Ürün Konfigürasyonu yeniden](pim/reuse-product-configurations.md)
+### [Yapılandırma modeli kurmak](pim/set-up-maintain-product-configuration-model.md)
+### [Kullanıcı tanımlı ve sistem tanımlı tablo kısıtlaması](pim/system-defined-user-defined-table-constraints.md)
+# Üretim denetimi
+## Üretim süreci    
+### [Etkinlik tabanlı Taşeron](production-control/activity-based-subcontracting.md)
+### [Batch attributes](production-control/batch-attributes.md)
+### [BOMs and formulas](production-control/bill-of-material-bom.md)
+### [BOM designer functionality](production-control/bom-designer-functionality.md)
+### [Consolidated batch orders](production-control/consolidated-batch-orders.md)
+### [Üretimde Taşeron iş yönetme](production-control/manage-subcontract-work-production.md)
+### [Mixed mode planning: Combine discrete, process, and lean sourcing](production-control/mixed-mode-plan.md)
+### [Production process](production-control/production-process-overview.md)
+### [Production setup requirements](production-control/production-set-up-requirements.md)
+### [Yollar ve işlemleri](production-control/routes-operations.md)
+## Üretim emirleri
+### [Create production orders](production-control/create-production-orders.md)
+### [Varsayılan boyutları ve ürün çeşitleri için sipariş ayarları](production-control/default-order-settings.md)
+### [Üretim emirlerini serbest bırakmak](production-control/release-production-orders.md)
+### [Üretim emrinin durumunun ters](production-control/reverse-production-order-status.md)
+### [Ürün reçetelerini tamamlandı olarak rapor](production-control/report-boms-as-finished.md)
+### [Rapor üretim emirlerini tamamlandı olarak](production-control/report-production-orders-as-finished.md)
+## Yalın üretim 
+### [Kanban transfer Panosu barkod tarayıcılar için destek](production-control/kanban-transfer-board-support-barcode-scanner.md) 
+### [Kanban iş için yalın üretim planlama](production-control/lean-manufacturing-kanban-job-scheduling.md)
+### [Yalın üretim genel bakış](production-control/lean-manufacturing-overview.md)
+### [Yalın organizasyon modeli](production-control/lean-manufacturing-modeling-lean-organization.md)
+## İşlemleri ve işleri zamanlamak
+### [Bir iş grubundaki işler için zaman ayırmak](production-control/allocate-time-jobs-job-bundle.md)
+### [Job scheduling](production-control/job-scheduling.md)
+### [Operations scheduling options](production-control/operation-scheduling-options.md)
+### [Operations scheduling](production-control/operations-scheduling.md)
+## Kaynaklar
+### [Operations resources](production-control/operations-resources.md)
+### [Resource capabilities](production-control/resource-capabilities.md)
+### [Time and attendance registration](production-control/time-attendance-registrations.md)
+## Üretim yürütme
+### [Material substitution in manufacturing](production-control/substitute-items-bom-lines.md)
+### [Malzeme Tüketimi Hesapla](production-control/consumption.md)
+### [Production feedback](production-control/production-feedback.md)
+### [Yürütme üretim, üretim emri Varsayılanları](production-control/production-order-defaults-manufacturing-execution.md)
+### [Production posting](cost-management/production-posting.md)
+### [Registration for manufacturing execution](production-control/registration-manufacturing-execution.md)
+# Satış ve pazarlama
+## [Marketing](sales-marketing/overview-sales-marketing.md)
+## Satış siparişleri
+### [Order promising](sales-marketing/delivery-dates-available-promise-calculations.md)
+### [Order entry deadlines](sales-marketing/order-entry-deadlines.md)
+### [Direct deliveries](sales-marketing/direct-deliveries.md)
+### [Delivery schedules](sales-marketing/delivery-schedules.md)
+### [Satış sürecinde seri numaraları](sales-marketing/register-serial-numbers-sales-process.md)
+### [Aynı toplu işten ayırma](sales-marketing/reserve-same-batch-sales-order.md)
+## [Sales agreements](sales-marketing/sales-agreements.md)
+## Satış teklifleri
+### [Price simulation](sales-marketing/price-simulation.md)
+## İadeler
+### [Sales returns](warehousing/sales-returns.md)
+# Taşıma yönetimi
+## [Yeni bir ulaşım altyapısı](transportation/create-new-transportation-management-engine.md)
+## [Bir konşimento oluştur](transportation/create-bill-of-lading.md)
+## [Navlun taşımacılık yollarını planlayın](transportation/plan-freight-transportation-routes-multiple-stops.md)
+## [Hub birleştirme kullanarak yükleri planlama](transportation/plan-loads-hub-consolidation.md)
+## [Navlun arasında mutabakat](transportation/reconcile-freight-transportation-management.md)
+## [Transportation management](transportation/transportation-management-overview.md)
+## [Ulaşım altyapısı](transportation/transportation-management-engines.md)
+# Ambar yönetimi
+## Kurulum 
+### [İş Şablonları ve konum yönergeleri kullanarak iş denetimi](warehousing/control-warehouse-location-directives.md)
+### [Ambar çalışanlarını yönetme](warehousing/manage-warehouse-workers.md)
+### [Düzenini Ayarla](warehousing/warehouse-configuration.md)
+### [Warehouse work policies](warehousing/warehouse-work-policies.md)
+### [Ölçü birimi ve stoklama politikaları](warehousing/unit-measure-stocking-policies.md)
+## Malzeme çekme ve paketleme
+### [Ambalaj malzemeleri ve ücretler](warehousing/pack-materials-packing-material-fees.md)
+## Stok sayımı
+### [Block inventory](inventory/inventory-blocking.md)
+### [Cycle counting](warehousing/cycle-counting.md)
+### [Inventory journal](inventory/inventory-journals.md)
+### [Inventory location](inventory/inventory-locations.md)
+### [Inventory status](inventory/inventory-statuses.md)
+### [Stok etiket sayımı](inventory/inventory-tag-counting.md)
+## Konteyner kullanımı 
+## Stok yenileme
+### [Stok yenileme](warehousing/replenishment.md)
+## Taşınabilir aygıtlar
+### [App depolama yer alan adlarını yapılandırın](warehousing/configure-app-field-names-priorities-warehouse.md)
+### [Mobil aygıtlar için ambar çalışma ayarlayın](warehousing/configure-mobile-devices-warehouse.md)
+### [Ambar mobil Portal (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
+### [Ambar mobil cihazı görüntüleme ayarları](warehousing/change-warehouse-mobile-device-displays.md)

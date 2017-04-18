@@ -3,7 +3,7 @@ title: "Nakit ve banka yönetimi ana sayfası"
 description: "Tüzel kişinin banka hesaplarını ve mali araçları bu banka hesabıyla ilişkili korumak için nakit ve banka Yönetimi&quot;ni kullanabilirsiniz."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,9 +18,9 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 translationtype: Human Translation
-ms.sourcegitcommit: 00f022da597b1de2454e93123de31731c6a65962
-ms.openlocfilehash: eb3104ebebf0e94d91eb5b4df82900dccb5c75ea
-ms.lasthandoff: 03/31/2017
+ms.sourcegitcommit: efe4493396ac73ed07c00e96bb791735046e8e4d
+ms.openlocfilehash: 60a1c9d6b32c71bf921def1d4066841d9074d0cf
+ms.lasthandoff: 04/12/2017
 
 
 ---
@@ -52,7 +52,7 @@ Bu araçlar havale makbuzları, çekler, kambiyo senetleri ve senetleri içerir.
 -   [Vendor payments for a partial amount](../accounts-payable/vendor-payments-partial-amount.md)
 -   [Peşinat faturalar ve ödemeler genel bakış](../accounts-payable/prepayments-invoices-vs-prepayments.md)
 -   [Scenario: Settle a partial vendor payment and settle the final payment in full before the discount date](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
--   [Scenario: Settle a partial vendor payment before the discount date with a final payment after the discount date](/accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+-   [Scenario: Settle a partial vendor payment before the discount date with a final payment after the discount date](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 -   [Scenario: Settle a partial vendor payment that has discounts on vendor credit notes](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 -   [Scenario: Settle a partial vendor payment that has multiple discount periods](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
 -   [Scenario: Take a discount that is more than the calculated discount for a vendor payment](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)

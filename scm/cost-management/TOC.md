@@ -1,0 +1,43 @@
+# Güç BI İçerik Paketi
+## [Maliyet Yönetimi İçerik Paketi](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+# Önceden belirlenmiş maliyet
+## [Costing sheet](costing-sheets.md)
+## [Costing version](costing-versions.md)
+## [Maliyet değişikliği için planlanan maliyeti Maliyet sürümü kullanılarak benzetimi](simulate-cost-changes-costing-version-planned-costs.md)
+# Stok maliyetlendirme
+## [Eldeki stok maliyet değerini düzeltebilir](adjust-hand-inventory-cost-values.md)
+## [Cost object](cost-object.md)
+## [Cost entry](cost-entries.md)
+## [Cost group](cost-groups.md)
+## [Fiziksel değer ve işaretleme ile FIFO](fifo-physical-value-marking.md)
+## [Include physical value](include-physical-value.md)
+## [Nesne stokları](physical-quantity.md)
+## [Inventory close](inventory-close.md)
+## [Fiziksel değer ve işaretleme ile LIFO Tarihi](lifo-date-physical-value-marking.md)
+## [LIFO with physical value and marking](lifo-physical-value-marking.md)
+## [Moving average](moving-average.md)
+## [Fiziksel ve mali güncelleştirme](physical-financial-updates.md)
+## [Running average cost price](running-average-cost-price.md)
+## [Tracking running average cost per inventory dimension](track-running-average-cost-per-inventory-dimension.md)
+## [Weighted average date](weighted-average-date.md)
+## [Fiziksel değeri dahil et seçeneği ile ağırlıklı ortalama](weighted-average-physical-value-marking.md)
+# Üretim maliyet
+## [Ürün reçetesi hesaplama grubu](bom-calculation-groups.md)
+## [Üretim farkı, genel kaynakları](common-sources-of-production-variances.md)
+## [Üretim kullanılan maliyet kategorisi](cost-categories-used-production-routings.md)
+## [Üretim denetimi ve proje yönetim muhasebesi kullanılan maliyet kategorisi](cost-categories-used-production-control-project-management-accounting.md)
+## [Production order cost analysis](production-order-cost-analysis.md)
+## [Production order cost estimation](production-order-cost-estimation.md)
+## [Production posting](production-posting.md)
+## [Üretilen veya temin bir ürün ayarlamak](manufactured-items-treated-as-purchased-items.md)
+## [Total cost allocation method](methodology-total-cost-allocation.md)
+# Standart maliyet
+## [Ürün reçetesi hesaplamaları ile standart maliyet](information-used-bom-calculations-standard-costs.md)
+## [Standart Maliyeti Güncelleştir yönetme](manage-standard-cost-updates.md)
+## [Standart maliyet dönüştürme için önkoşul](prerequisites-standard-cost-conversion.md)
+## [Standard cost conversion overview](standard-cost-conversion-overview.md)
+## [Bir üretim ortamında Standart Maliyeti Güncelleştir](update-standard-costs-manufacturing-environment.md)
+## [Yeni üretilen maddenin standart maliyeti güncelleştir](update-standard-costs-new-manufactured-item.md)
+## [Olmayan üretim ortamında Standart Maliyeti Güncelleştir](update-standard-costs-non-manufacturing-environment.md)
+
+
