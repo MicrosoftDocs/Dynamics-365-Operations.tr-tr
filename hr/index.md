@@ -98,3 +98,5 @@ Microsoft Dynamics AX, diğerlerinin yanı sıra Engelli Amerikalılar Yasası i
 -   [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md)
 
 
+
+

@@ -27,6 +27,9 @@ ms.lasthandoff: 04/12/2017
 
 # <a name="cash-and-bank-management-home-page"></a>Nakit ve banka yönetimi ana sayfası
 
+[!include[banner](../includes/banner.md)]
+
+
 Tüzel kişinin banka hesaplarını ve mali araçları bu banka hesabıyla ilişkili korumak için nakit ve banka Yönetimi'ni kullanabilirsiniz. 
 
 Bu araçlar havale makbuzları, çekler, kambiyo senetleri ve senetleri içerir. Ayrıca banka ekstrelerinde mutabakat sağlayabilir ve standart raporlarda banka verilerini yazdırabilirsiniz.
@@ -69,4 +72,6 @@ Bu araçlar havale makbuzları, çekler, kambiyo senetleri ve senetleri içerir.
 -   [Scenario: Settle a partial customer payment that has discounts on credit notes](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
 -   [Scenario: Settle a partial customer payment that has multiple discount periods](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
 -   [Senaryo: bir müşteri ödeme birden fazla indirim dönemleri kapsayan birden çok fatura kapatmak için kullanın.](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+
+
 

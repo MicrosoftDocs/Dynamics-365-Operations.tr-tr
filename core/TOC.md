@@ -75,3 +75,4 @@
 # Diğer kaynaklar
 ## [Dynamics 365 işlemleri sözlüğü](get-started/glossary.md)
 ## [Yeni veya değişenler nedir](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/toc.json)
+

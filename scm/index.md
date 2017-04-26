@@ -55,3 +55,5 @@ Git <a href="https://roadmap.dynamics.com/">Dynamics 365 Haritası</a> geliştir
 ## <a name="elearning-courses"></a>e-öğrenim kursları
 Microsoft Dynamics 365 işlemleri hakkında bilgi için bkz: eğitim, <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics öğrenme portalı</a>. (müşteri kaynağı hesabı gerektirir) 
 
+
+
