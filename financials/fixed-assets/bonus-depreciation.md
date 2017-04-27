@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bonus-depreciation"></a>Bonus amortisman
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, bonus amortisman işlevselliğine bir genel bakış verilmektedir.
 
 Ek amortisman için, kıymetin hizmete girdiği ve amortisman uygulandığı ilk yıl boyunca ek amortisman tutarları alabilirsiniz. Ek amortismanın, diğer her türlü amortisman hesaplamasından önce alınması gerekir. Bu nedenle, genel muhasebe işlemlerine nakil devre dışı olduğunda defterlerle ek amortismanı kullanmak en iyisidir. Genel muhasebeye nakledilmeyen defterler için geçmiş hareketleri silmek için **Genel muhasebe defterine nakledilmeyen hareketleri sil** seçeneğini kullanabilirsiniz. Daha önceden nakledilen amortisman hareketlerini silerek kıymet yaşam döngüsünde ek amortismanı barındırabilirsiniz. 
@@ -61,5 +64,7 @@ Ek amortisman, teklif işlemi kullanılarak hesaplandığında kıymet defteriyl
 Sınırsız sayıda bonus amortisman kaydı oluşturabilirsiniz. Bu kayıtlar, kıymet grubu defterine atandıktan sonra kıymet defterine uygulanır. 
 
 Bonus amortisman bir yüzde veya sabit bir tutar olarak girilir. Amortisman tekliflerini deftere naklettiğinizde, ek amortisman hareketleri amortisman defterine amortisman hareketlerinden ayrı hareketler olarak nakledilir.
+
+
 
 

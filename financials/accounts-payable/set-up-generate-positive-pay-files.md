@@ -26,12 +26,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-generate-positive-pay-files"></a>Pozitif ödeme dosyaları kurma ve oluşturma
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede pozitif ödemenin nasıl kurulacağı ve pozitif ödeme dosyalarının nasıl oluşturulacağı açıklanmıştır. 
 
 Bankaya sunulan çeklerin bir elektronik listesini oluşturmak için pozitif ödeme kurun. Ardından, bankaya bir çek sunulduğunda, banka bunu çek listesiyle karşılaştırır. Çek, çek listesindeki bir çekle uyuşuyorsa banka çeki serbest bırakır. Çek, listedeki bir çekle uyuşmuyorsa banka, çeki gözden geçirmek için tutar.
 
 ## <a name="security-for-positive-pay-files"></a>Pozitif ödeme dosyaları için güvenlik
-Pozitif ödeme dosyaları, alacaklar ve çek tutarları hakkında hassas bilgiler içermektedir. Bu nedenle, banka tarafından alınana kadar dosyaların oluşturulduğu süreden itibaren uygun güvenlik önlemlerini uyguladığınızdan emin olun. Pozitif ödeme dosyaları, web tarayıcınız tarafından belirtilen konuma indirilir. Pozitif ödeme dosyaları hassas bilgiler içerebileceğinden, yalnızca yetkili kullanıcılar oluşturmak ve Microsoft Dynamics 365 işlemleri için bu bilgileri görüntülemek için erişim olması önemlidir. Gerekli olan ayrıcalıkları belirlerken aşağıdaki tabloyu kullanın.
+Pozitif ödeme dosyaları, alacaklar ve çek tutarları hakkında hassas bilgiler içermektedir. Bu nedenle, banka tarafından alınana kadar dosyaların oluşturulduğu süreden itibaren uygun güvenlik önlemlerini uyguladığınızdan emin olun. Pozitif ödeme dosyaları, web tarayıcınız tarafından belirtilen konuma indirilir. Pozitif ödeme dosyaları hassas bilgiler içerebileceğinden, Microsoft Dynamics 365 for Operations'ta bu bilgilerin oluşturulması ve görüntülenmesinin yalnızca yetkili kullanıcılarla sınırlandırılması önemlidir. Gerekli olan ayrıcalıkları belirlerken aşağıdaki tabloyu kullanın.
 
 <table>
 <colgroup>
@@ -156,5 +159,7 @@ Bir pozitif ödeme dosyasında listelenen çekler ödendikten sonra bankanızdan
 
 ## <a name="recall-a-positive-pay-file"></a>Bir pozitif ödeme dosyasını geri çağırma
 Bir pozitif ödeme dosyasını değiştirmeniz gerekiyorsa, bunu geri çağırabilirsiniz. **Pozitif ödeme dosyası özeti** sayfasında, durumu **Oluşturuldu** olan bir pozitif ödeme dosyası seçin ve ardından **Geri çağır** eylemini seçin. Pozitif ödeme dosyasındaki her bir çek için, çekin bir pozitif ödeme dosyasına dahil edilip edilmeyeceğini gösteren alan sıfırlanır. Geri çağrılan çeki içeren, yeni bir pozitif ödeme dosyası oluşturabilirsiniz.
+
+
 
 

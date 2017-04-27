@@ -1,6 +1,6 @@
 ---
 title: "Perakende kanallarını tanımla ve koru"
-description: "Bu makalede, Microsoft Dynamics 365 perakende mağazasında işlemleri için olarak adlandırılır Tuğla Dibek mağazalar ayarlama işlemine genel bakış sağlar. Makalede, perakende mağaza ayarlamanızdan önce ve sonra tamamlamanız gereken görevleri hakkında bilgiler yer almaktadır."
+description: "Bu makalede, Microsoft Dynamics 365 for Operations perakende mağazaları olarak adlandırılan geleneksel mağazaları ayarlama işlemine genel bakış verilmektedir. Makalede, perakende mağaza ayarlamanızdan önce ve sonra tamamlamanız gereken görevleri hakkında bilgiler yer almaktadır."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16481
 ms.assetid: 14496d96-1c72-43ce-a2e7-8467bab4ae46
 ms.search.region: Global
@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="define-and-maintain-retail-channels"></a>Perakende kanallarını tanımla ve koru
 
-Bu makalede, Microsoft Dynamics 365 perakende mağazasında işlemleri için olarak adlandırılır Tuğla Dibek mağazalar ayarlama işlemine genel bakış sağlar. Makalede, perakende mağaza ayarlamanızdan önce ve sonra tamamlamanız gereken görevleri hakkında bilgiler yer almaktadır.
+[!include[banner](includes/banner.md)]
 
-Perakende ve ticaret işlemleri için Dynamics 365, çevrimiçi mağazalar, çağrı merkezleri ve Tuğla Dibek depoları gibi birden fazla perakende kanal destekler. Perakende ve ticarette, tuğla dibek mağazaya perakende mağaza adı verilir. Her perakende mağazasının kendi ödeme türleri, fiyat grupları, satış noktası (POS) kasaları, gelir hesapları ve gider hesapları ve personeli olabilir. Bir perakende mağazası oluşturmadan önce tüm bu öğeleri ayarlamanız gerekir. Perakende mağaza oluşturduktan sonra gerçekleştirmek istediğiniz ürünleri atarsınız. Ayrıca mağazaya çalışanlar, kasalar ve müşteriler atarsınız. Son olarak, yeni mağazayı bir organizasyon hiyerarşisine eklersiniz.
+
+Bu makalede, Microsoft Dynamics 365 for Operations perakende mağazaları olarak adlandırılan geleneksel mağazaları ayarlama işlemine genel bakış verilmektedir. Makalede, perakende mağaza ayarlamanızdan önce ve sonra tamamlamanız gereken görevleri hakkında bilgiler yer almaktadır.
+
+Microsoft Dynamics 365 for Operations'taki perakende ve ticaret, çevrimiçi mağazalar, çağrı merkezleri ve tuğla dibek mağazalar gibi birden fazla perakende kanalını destekler. Perakende ve ticarette, tuğla dibek mağazaya perakende mağaza adı verilir. Her perakende mağazasının kendi ödeme türleri, fiyat grupları, satış noktası (POS) kasaları, gelir hesapları ve gider hesapları ve personeli olabilir. Bir perakende mağazası oluşturmadan önce tüm bu öğeleri ayarlamanız gerekir. Perakende mağaza oluşturduktan sonra gerçekleştirmek istediğiniz ürünleri atarsınız. Ayrıca mağazaya çalışanlar, kasalar ve müşteriler atarsınız. Son olarak, yeni mağazayı bir organizasyon hiyerarşisine eklersiniz.
 
 ## <a name="setting-up-retail-stores"></a>Perakende mağazaları kurma
-Dynamics 365 işlemleri için de bir perakende mağaza ayarlayabilirsiniz önce bazı önkoşul görevleri tamamlamanız gerekir. Sonrasında perakende mağazayı oluşturabilir ve ayrıntılar ekleyebilirsiniz.
+Microsoft Dynamics 365 for Operations, bir perakende mağaza kurmadan önce bazı önkoşul görevleri tamamlamanız gerekir. Sonrasında perakende mağazayı oluşturabilir ve ayrıntılar ekleyebilirsiniz.
 
 ### <a name="prerequisites"></a>Önkoşullar
 
@@ -49,7 +52,7 @@ Bir perakende mağaza kurmadan önce aşağıdaki görevleri tamamlamanız gerek
 8.  Perakende ürünleri ayarlayın. Bu görevin bir parçası olarak, ayrıca perakende ürün hiyerarşileri, ürün çeşitleri ve ürün sınıflamaları ayarlayın.
 9.  Ürün fiyat gruplarını ayarlayın.
 10. Perakende ürün fiyatlandırmasını ayarlayın. Bu görevin bir parçası olarak, aynı zamanda fiyat ayarlamaları, iskontolar ve iskonto dönemlerini ayarlayın.
-11. Personeli ayarlayın. **Not:** oturum açma ve Retail POS sistemi işlemleri için Dynamics 365 kullanarak görevleri gerçekleştirmek için işçilere uygun izinleri de atamalısınız.
+11. Personeli ayarlayın. **Not:** Perakende POS sistemi için oturum açıp Microsoft Dynamics 365 for Operations kullanarak görevleri yürütebilmeleri için, çalışanlara uygun izinleri de atamanız gerekir.
 12. Mağazaya atamak için Perakende POS profillerini yapılandırın. Bu görev kayıtları ayarlamak, çevrimdışı profilleri ayarlamak ve makbuz biçimleri ve profilleri ayarlamak gibi birçok diğer görevi içerir.
 
 Önkoşula dahil tüm görevleri gözden geçirin ve yalnızca sizin için geçerli görevleri tamamlayın.
@@ -77,5 +80,7 @@ Perakende mağaza için ayrıntıları girdikten sonra, yeni perakende mağaza v
 
 ## <a name="organization-hierarchies"></a>Kuruluş hiyerarşileri
 Perakende, perakende kanallarını yapılandırmak için Microsoft Dynamics AX'teki kuruluş hiyerarşilerini kullanır. Organizasyon hiyerarşileri, organizasyonlar arasındaki işinizi meydana getiren ilişkileri temsil eder. Mağazalar kurduğunuzda, onları bir organizasyon hiyerarşisine ekleyebilirsiniz. Ardından mağazalar ürün çeşitleri, stok yenileme ve raporlama için kullanılan verileri paylaşır.
+
+
 
 

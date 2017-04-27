@@ -1,5 +1,5 @@
 ---
-title: "Ödeme yöntemleri bir çağrı merkezi"
+title: "Bir çağrı merkezindeki ödeme yöntemleri"
 description: "Bu konu Perakende ve ticarette bir çağrı merkezinde kullanabileceğiniz farklı ödeme yöntemlerini ele alır."
 author: josaw1
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="payment-methods-in-a-call-center"></a>Ödeme yöntemleri bir çağrı merkezi
+# <a name="payment-methods-in-a-call-center"></a>Bir çağrı merkezindeki ödeme yöntemleri
+
+[!include[banner](includes/banner.md)]
+
 
 Bu konu Perakende ve ticarette bir çağrı merkezinde kullanabileceğiniz farklı ödeme yöntemlerini ele alır.
 
@@ -43,6 +46,8 @@ Microsoft Dynamics AX uygulamasında Perakende ve ticaretin diğer kanallarında
 
 -   Çek tutmaları finans personelinin ödeme yöntemi olarak çekin kullanıldığı ve çek tutması eşiği tutarının aşıldığı siparişleri işlemesine olanak tanır. Çek tutma durumu el ile serbest bırakılabilir veya yapılandırılan süre sonunda otomatik olarak sona erer.
 -   Çek ve kredi kartı üzerinden yapılan geri ödemelerin el ile onaylanması gereken tutarın üzerinde eşikler ayarlayabilirsiniz. Eşik tutarını aşan tüm geri ödemeler onay sırasına eklenir. Geri ödemeyi onayladıktan sonra iade satış siparişi faturalandırılabilir.
+
+
 
 
 

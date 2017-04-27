@@ -1,6 +1,6 @@
 ---
-title: Kambiyo senedi Ayarla
-description: "Bu konu, kambiyo ayarlama adımlarını açıklar."
+title: Kambiyo senetlerini ayarlama
+description: "Bu konuda, kambiyo senetlerini ayarlama adımları açıklar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,57 +24,62 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-bills-of-exchange"></a>Kambiyo senedi Ayarla
+# <a name="set-up-bills-of-exchange"></a>Kambiyo senetlerini ayarlama
 
-Bu konu, kambiyo ayarlama adımlarını açıklar.
+[!include[banner](../includes/banner.md)]
 
-Kambiyo senedi belirten başka bir şahıs, genellikle banka, şirket için belirtilen bir tutarı ödemesi gereken bir müşteriden gelen yazılı veya elektronik bir sıradır. Bir satış siparişi faturası veya serbest metin faturası için ödeme olarak kambiyo senedi kullandığınızda müşteri hesabını alacaklandırırsınız. Müşteri kambiyo senedini bankaya ödeyene kadar bu alacak tutarı kambiyo senedi tarafından teminat altına alınır. Genellikle, vade tarihinde kambiyo senedi faturayla kapatmayacağını. Bankanızdan kambiyo senedinin karşılığının ödendiğine ilişkin bir bildirim aldığınızda kambiyo senedini kapatabilirsiniz. Aşağıdaki durumlarda biri de, bankanız aracılığıyla bir kambiyo senedi çizebilirsiniz:
 
--   Vade tarihinde. Bu yaklaşım, tahsilat için havale olarak bilinir.
--   Vade tarihinden önce genellikle müşteri için ayarlanan ödeme koşulları formunda belirtilen iskonto tarihi. İskonto Tutarı, bir hareketi deftere naklettiğinizde bir gider hesabına nakledilir. Banka ödeme müşteriden alıncaya kadar kalan tutarı de borçtur. Bu yaklaşım, iskonto için havale olarak bilinir.
+Bu konuda, kambiyo senetlerini ayarlama adımları açıklar.
+
+Kambiyo senedi bir müşteriden gelen ve belirtilen bir tutarı, genelde bir banka olan, başka bir tarafın şirkete ödemesi gerektiğini belirten yazılı veya elektronik bir sipariştir. Bir satış siparişi faturası veya serbest metin faturası için ödeme olarak kambiyo senedi kullandığınızda müşteri hesabını alacaklandırırsınız. Müşteri kambiyo senedini bankaya ödeyene kadar bu alacak tutarı kambiyo senedi tarafından teminat altına alınır. Genelde faturayı vade tarihinde kambiyo senediyle kapatırsınız. Bankanızdan kambiyo senedinin karşılığının ödendiğine ilişkin bir bildirim aldığınızda kambiyo senedini kapatabilirsiniz. Kambiyo senedini aşağıdaki zamanlardan birinde bankanız üzerinden düzenleyebilirsiniz:
+
+-   Vade tarihinde. Bu yaklaşıma tahsilat için havale adı verilir.
+-   Vade tarihinden önce, genelde müşteri için ayarlanan ödeme şartlarında belirtilen iskonto tarihinde. Hareketi deftere naklettiğiniz zaman iskonto tutarı bir gider hesabına nakledilir. Banka müşteriden ödeme alana kadar, kalan tutar sizde pasif olarak tutulur. Bu yaklaşıma iskonto için havale adı verilir.
 
 ## <a name="set-up-posting-profiles-for-bills-of-exchange"></a>Kambiyo senetleri için deftere nakil profilleri ayarlama
-Kullanmak **müşteri nakil profilleri** deftere nakil kambiyo senedi, protestolu kambiyo senedi, havaleler için toplama ve havaleler için indirim ile kullanabileceğiniz profilleri ayarlamak için sayfa. İçinde **hesap özeti** alan, özet hesabı için kambiyo senedi tutarlarını deftere nakletmek için seçin. Bu hesaba borç veya alacak, kambiyo senedi hareket türüne bağlı olarak:
--   Kambiyo senedi deftere nakledilir ve iskonto için havale veya tahsilat için havale nakledildiğinde alacak kambiyo senedi için bu hesaba borç kaydedilir.
+Kambiyo senetleri, protestolu kambiyo senetleri, tahsilat için havale ve iskonto için havale ile kullanabileceğiniz deftere nakil profilleri ayarlamak için **Müşteri deftere nakil profilleri** sayfasını kullanın. **Özet hesap** alanında, kambiyo senedi tutarlarının nakledileceği özet hesabı seçin. Kambiyo senedi hareket türüne bağlı olarak bu hesaba borç veya alacak yazılır:
+-   Kambiyo senetlerinde, bu hesap bir kambiyo senedi nakledildiğinde borçlandırılır ve iskonto için havale veya tahsilat için havale nakledildiğinde alacaklandırılır.
 -   Protestolu kambiyo senetlerinde, bu hesap protestolu bir kambiyo senedi nakledildiğinde borçlandırılır.
 -   Tahsilat için havalelerde, bu hesap bir tahsilat için havale nakledildiğinde borçlandırılır.
 -   İskonto için havalelerde, bu hesap bir iskonto için havale nakledildiğinde borçlandırılır.
 
-İçinde **kapatma hesabı** alanında, nakit hesabı için kambiyo senedi tutarlarını deftere nakletmek için seçin. Hesap, bir kambiyo senedi kapatıldığında borçlandırılır. İçinde **satış vergisi ön ödemeleri** alan, ödemeler için kambiyo senedi kullanıldığında için satış vergisi tutarlarını deftere nakletmek için özet hesabı seçin. İçinde **iskonto hesabı pasifi** alanında, havaleler için iskonto iskonto tutarını deftere nakletmek için bir hesap seçin. Bu hesap, bir iskonto için havale deftere nakledildiğinde alacaklandırılır.
+**Kapatma hesabı** alanında, kambiyo senedi tutarlarının nakledileceği nakit hesabını seçin. Hesap, bir kambiyo senedi kapatıldığında borçlandırılır. **Satış vergisi ön ödemeleri** alanında, ön ödemeler için kambiyo senetleri kullanıldığında, satış vergisi tutarlarının nakledileceği özet hesabı seçin. **İskonto hesabı borçları** alanında, iskonto havaleleri için iskonto tutarının deftere nakledileceği hesabı seçin. Bu hesap, bir iskonto için havale deftere nakledildiğinde alacaklandırılır.
 
-## <a name="set-up-accounts-receivable-parameters-for-bills-of-exchange"></a>Kambiyo senedi Alacak hesapları parametrelerini hesaplarını ayarlama
-Üzerinde **Accounts receivable parameters**, kambiyo senedi girilen deftere nakil profilleri varsayılan sayfa **muhasebe ve vergi** sekme. Numara serileri üzerinde tanımlanan **Number sequences** sekme.
+## <a name="set-up-accounts-receivable-parameters-for-bills-of-exchange"></a>Kambiyo senetleri için Alacak hesapları parametrelerini ayarlama
+**Alacak hesapları parametreleri** sayfasında, kambiyo senetleri için varsayılan deftere nakletme profilleri **Genel muhasebe ve satış vergisi** sekmesine girilir. Numara serileri, **Numara serileri** sekmesinde tanımlanır.
 Kambiyo senetleri için günlük adları ayarlama
 ------------------------------------------
 
-Üzerinde **günlük adları** sayfasında, kambiyo senedi için kullanmak üzere en az beş günlük adları oluşturun. Günlük türleri şunlardır:
--   **Müşteri düzenlenen kambiyo senedi** – düzenlenen kambiyo senedi günlüğü için bir günlük adı oluşturun.
--   **Müşteri protestolu kambiyo senedi** -protestolu kambiyo senedi günlüğü için bir günlük adı oluşturun.
--   **Müşteri yeniden düzenlenen kambiyo senedi** – yeniden düzenlenen kambiyo senedi günlüğü için bir günlük adı oluşturun.
--   **Müşteri Banka havalesi** – havale günlüğü için bir günlük adı oluşturun.
--   **Müşteri ödenen kambiyo senedi** – ödenen kambiyo senedi günlüğü için bir günlük adı oluşturun.
+**Günlük adları** sayfasında, kambiyo senetleri için kullanılmak üzere en az beş günlük adı oluşturun. Günlük türleri şunlardır:
+-   **Müşteriye düzenlenen kambiyo senedi** – Düzenlenen kambiyo senetleri günlüğü için bir günlük adı oluşturun.
+-   **Müşteri protestolu kambiyo senedi** – Protestolu kambiyo senedi günlüğü için bir günlük adı oluşturun.
+-   **Müşteriye yeniden düzenlenen kambiyo senedi** – Yeniden düzenlenen kambiyo senetleri günlüğü için bir günlük adı oluşturun.
+-   **Müşteri banka havalesi** – Havale günlüğü için bir günlük adı oluşturun.
+-   **Müşteri tarafından ödenen kambiyo senedi** – Kambiyo senetleri kapatma günlüğü için bir günlük adı oluşturun.
 
-Her kambiyo senedi günlüğü için günlük fişi sayfasında, kambiyo senedi hakkında bilgi girmek **kambiyo senedi** sekme. Kambiyo senedi günlüğü satırlarını deftere nakledildikten sonra üzerinde görebilmek için **kambiyo senedi günlüğü sorgu** sayfa ve **kambiyo senedi istatistikleri** sayfa.
+Her kambiyo senedi günlüğünün günlük fişi sayfasındaki **Kambiyo senedi** sekmesine kambiyo senedi hakkındaki bilgileri girin. Kambiyo senedi günlüğü satırları deftere nakledildikten sonra bu satırları **Kambiyo senedi günlüğü sorgusu** sayfasında ve **Kambiyo senedi istatistikleri** sayfasında görüntüleyebilirsiniz.
 Kambiyo senetleri için ödeme yöntemleri ayarlama
 -----------------------------------------------
 
-Üzerinde **ödeme yöntemleri** sayfa, kambiyo senedi için en az bir ödeme yöntemi ayarlamak. Birden fazla banka ile iş yapıyorsanız, kambiyo senedi gerektiren her banka havale biçimine karşılık gelen bir ödeme yöntemi ayarlamak.
+**Ödeme yöntemleri** sayfasında, kambiyo senetleri için en az bir ödeme yöntemi ayarlayın. Birden fazla bankayla iş yapıyorsanız, her bankanın kambiyo senedi için istediği havale biçimine karşılık gelen bir ödeme yöntemi ayarlayın.
 Kambiyo senetleri için ödeme masrafları ayarlama
 -----------------------------------------
 
-Ödeme masrafı müşterilerden gelen ödemeleri toplama işlemi ile ilişkili bir şarj olur. Satırları olabilir birden fazla ödeme ücreti kurulumu her ödeme ücretiyle ilişkili. Kurulum satırları, ödeme masrafları için varsayılan tutarların nasıl hesaplandığını denetlemek için kullanabilirsiniz. Örneğin, ödeme, ödeme belirtimleri, para birimleri ve dönemleri yöntemleri için Kurulum satırları oluşturabilirsiniz. Kurulum satırları yüzdesi veya günün belirli aralıklarla dayalı tutar için de oluşturabilirsiniz. Örneğin, bir ödeme vadesi geçmiş zaman uzunluğuna bağlı bir vade farkı yüzdesini ayarlayabilirsiniz. Farklı havale türleri için farklı masraflar Banka gibi giderler **koleksiyonu** veya **indirim**, bir havale her türü için ayrı bir ödeme ücreti satır ayarlayın.
+Ödeme masrafı, müşterilerden ödeme tahsil etme işlemiyle ilişkili bir masraftır. Her ödeme masrafıyla birden fazla ödeme masrafı kurulum satırı ilişkilendirilebilir. Ödeme masrafları için varsayılan tutarların nasıl hesaplanacağını denetlemek için ayar satırlarını kullanabilirsiniz. Örneğin, ödeme yöntemleri, ödeme belirtimleri, para birimleri ve dönemler için kurulum satırları oluşturabilirsiniz. Gün aralıklarına dayanarak yüzde veya tutar için kurulum satırları da oluşturabilirsiniz. Örneğin, bir ödemenin vade gecikmesi zaman uzunluğuna bağlı bir vade farkı yüzdesi ayarlayabilirsiniz. Banka **Tahsilat** veya **İskonto** gibi farklı havale türleri için ayrı masraflar borçlandırıyorsa, her havale türü için ayrı bir ödeme masrafı satırı ayarlayın.
 Banka havale dosyaları için havale ücretleri ayarlama
 ------------------------------------------------
 
-Üzerinde **banka hesaplarını** sayfasında, oluşturulan her Havale dosyası için bir banka giderler havale ücretleri ayarlayabilirsiniz. Havale ücretleri havale onaylandığında ve gerçekleşen ücret tutarları bilindiğinde nakledilir. Havale ücretleri Müşterilerden toplanan ve günlük satırlarına iliştirilen ödeme masrafları farklıdır.
+**Banka hesapları** sayfasında, oluşturulan her havale dosyası için bir banka tarafından borçlandırılan havale masrafları ayarlayabilirsiniz. Havale ücretleri havale onaylandığında ve gerçekleşen ücret tutarları bilindiğinde nakledilir. Havale masrafları, müşterilerden tahsil edilen ve günlük satırlarına iliştirilen ödeme masraflarından farklıdır.
 Kambiyo senetleri için belge düzenleri ayarlama
 ---------------------------------------------
 
-Üzerinde **banka hesaplarını** sayfa, tıklatın **ayarlamak**ve yazdırılan kambiyo senedi oluşturacak olan her banka hesabı için belgeler için gerekli belge düzeni belirtin.
+**Banka hesapları** sayfasında **Ayarla**'ya tıklayın ve basılı kambiyo senedi belgeleri oluşturacağınız her banka hesabı için gerekli belge düzenini belirtin.
 Kambiyo senetleri için müşteri ayarlama
 --------------------------------------
 
-Üzerinde **müşteriler** sayfasında, bir kambiyo senedi kullanarak ödeme kabul her müşteri için bir varsayılan ödeme yöntemi kambiyo senedi üzerinde ayarlayabilirsiniz **ödeme varsayılanları** sekme.
+**Müşteriler** sayfasındaki **Ödeme varsayılanları** sekmesinde, bir kambiyo senedi kullanarak ödeme yapmayı kabul etmiş her müşteri için, kambiyo senetlerine yönelik varsayılan bir ödeme yöntemi ayarlayabilirsiniz.
+
+
 
 
 

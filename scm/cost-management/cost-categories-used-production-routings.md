@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>Üretim rotasında kullanılan maliyet kategorileri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, rota kullanan imalat ortamlarına uygulanan maliyet kategorileri hakkında bilgiler sağlanmaktadır.
 
 Maliyet kategorileri rota kullanan imalat ortamları için geçerlidir. Maliyet kategorileri, imal edilmiş bir maddenin hesaplanmış maliyetlerindeki saatlik maliyetleri tanımlamak ve maliyet katkılarını bölümlendirmek için operasyon kaynaklarına ve rota operasyonlarına atanır. Maliyet kategorilerine atanan maliyet grupları, imalat maliyeti katkılarını operasyon kaynaklarına ve örneğin kurulum ve çalıştırma zamanı gibi faaliyetin tipine göre sınıflandırır. Maliyet grubu atamalarının özgüllüğü, imalat genel giderlerinin rota bilgilerine dayalı olarak hesaplanmasını mümkün kılar. 
@@ -51,5 +54,7 @@ Bir maliyet kategorisine yönelik maliyet kaydı tesise özel veya şirket çap�
 Rota operasyonu normalde operasyon kaynağına veya master operasyona atanan maliyet kategorilerini devralır. Bir üretim emri oluşturulurken, üretim rotasındaki rota operasyonları seçilen rota sürümünü yansıtır. Üretim rotasındaki operasyonlara atanan maliyet kategorilerinin üzerine yazabilirsiniz. 
 
 Bazı üretim iş türleri, proje süresi tahminlerine ve raporlamaya uygulanabilir. Bu durumda, üretim ve proje amaçları için bir maliyet kategorisi gereklidir. Bir maliyet kategorisi projelerde kullanılmak üzere bayrakla işaretlendiğinde projeyle ilgili ek bilgiler tanımlamanız gerekir.
+
+
 
 

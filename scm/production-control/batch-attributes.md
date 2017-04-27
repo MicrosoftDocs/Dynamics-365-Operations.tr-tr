@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="batch-attributes"></a>Toplu iş öznitelikleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede toplu iş öznitelikleri hakkında bilgiler verilmiştir. Toplu iş öznitelikleri, stok toplu işlerini oluşturan hammaddelerin ve tamamlanan ürünlerin özellikleridir. Bu makalede ayrıca toplu iş özniteliklernin nasıl atanacağı ve toplu işleri rezere ettiğinizde bunları nasıl ayaryacağınız açıklanmaktadır.
 
 Toplu iş öznitelikleri, stok toplu işlerini oluşturan hammaddelerin ve tamamlanan ürünlerin özellikleridir. Toplu iş öznitelikleri, ortam koşulları veya toplu işi oluşturmak için kullanılan hammaddelerin kalitesi ya da bitmiş ürünün sonucu gibi çeşitli etkenlere bağlı olarak değişiklik gösterebilir. Kullanılan toplu iş özniteliklerinin sayısı ve tipleri, endüstriler arasında büyük değişiklikler gösterebilir. Toplu iş özniteliklerinin nasıl kullanıldığını gösteren iki örnek aşağıda verilmiştir:
@@ -42,12 +45,14 @@ Toplu iş öznitelikleri, stok toplu işlerini oluşturan hammaddelerin ve tamam
 Toplu iş özniteliklerini, stok toplu işlerinde tutulan ürünlere tek tek atayabilir veya bunları belirli müşterilerle ilişkili ürünlere atarsınız. Müşteri düzeyinde bir toplu iş özniteliği atamadan önce, ürün düzeyinde atamanız gerekir. Ürünün toplu iş boyutu izleme boyut grubunda **Etkin** olarak ayarlanmış olmalıdır. Ayrı bir ürüne bir toplu iş özniteliği atamak için, ürüne özel sayfayı kullanın. Öznitelik, bir müşteriye yönelik bir ürüne özelse, müşteriye özel sayfayı kullanın. Bir ürüne öznitelik eklediğinizde, diğer parametreleri de tanımlarsınız. Burada bazı örnekler verilmiştir:
 
 -   **Tamsayı** veya **Kesir** türünün özniteliği için minimum veya maksimum aralıklar.
--   Bir öznitelik için tolerans eylemleri **tamsayı** veya **kesir** türü. Özniteliğinin değeri en düşük ve en yüksek aralığın dışında kalırsa, işlem bir uyarı iletisi veya bir hata iletisi olabilir.
+-   **Tamsayı** veya **Kesir** türündeki bir öznitelik için tolerans eylemleri. Özniteliğin değeri minimum ve maksimum aralığı dışında kalıyorsa, eylem bir uyarı mesajı veya hata mesajı olabilir.
 -   Öznitelik için hedef değer. Bu değer, özniteliğin optimum değeridir ve tüm öznitelik türleri için geçerlidir.
 
 **Serbest bırakılan ürünler** sayfasında seçtiğiniz ürünlere yönelik sayfalara Ürün bilgileri yönetiminde erişebilirsiniz. Bir ürüne toplu iş öznitelikleri atadıktan sonra, **Stok toplu iş öznitelikleri** sayfasında özniteliklere belirli değerler ekleyebilirsiniz.
 
 ## <a name="reserve-batches"></a>Toplu iş rezerve etme
 Bir müşterinin siparişini yerine getirmek üzere bir satış emrine yönelik toplu iş rezervasyonları yaparken veya bir üretim emri için toplu işler çekip rezerve ederken toplu iş özniteliklerinde arama yapabilirsiniz. Arama istediğiniz toplu iş özniteliğine sahip ürünü içeren bir stok toplu işini bulmaya yardımcı olur. Toplu işi veya toplu işleri bulduktan sonra, ürünü kaynak stok hareket satırı için rezerve edebilirsiniz.
+
+
 
 

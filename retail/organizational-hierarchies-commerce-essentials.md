@@ -1,6 +1,6 @@
 ---
-title: "Kuruluşlar ve kuruluş hiyerarşileri (ticaret essentials)"
-description: "Ticaret essentials kuruluş taşıyan bir iş işlemini veya bir amaca ulaşmak amacıyla tanımlayabilirsiniz iç kuruluşların üç tür vardır."
+title: "Organizasyonlar ve organizasyon hiyerarşileri (Ticaretle ilgili temel bilgiler)"
+description: "Ticaretle ilgili temel bilgilerde, bir organizasyonun bir iş sürecini uygulamasına veya bir hedefe ulaşmasına yardımcı olmak üzere belirleyebileceğiniz üç iç organizasyon türü vardır."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 21251
 ms.assetid: 2bfc6bfe-784b-42e8-8bf0-116e9f0a558e
 ms.search.region: global
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>Kuruluşlar ve kuruluş hiyerarşileri (ticaret essentials)
+# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>Organizasyonlar ve organizasyon hiyerarşileri (Ticaretle ilgili temel bilgiler)
 
-Ticaret essentials kuruluş taşıyan bir iş işlemini veya bir amaca ulaşmak amacıyla tanımlayabilirsiniz iç kuruluşların üç tür vardır. 
+[!include[banner](includes/banner.md)]
+
+
+Ticaretle ilgili temel bilgilerde, bir organizasyonun bir iş sürecini uygulamasına veya bir hedefe ulaşmasına yardımcı olmak üzere belirleyebileceğiniz üç iç organizasyon türü vardır. 
 
 Bir organizasyon, bir iş sürecini gerçekleştirmek veya bir hedefe ulaşmak için birlikte çalışan bir grup insandır. Bir organizasyon hiyerarşisi, organizasyonunuzu meydana getiren ticari birimler arasındaki ilişkileri temsil eder.
 
@@ -47,7 +50,7 @@ Bir işletme birimi bir işletmenin ekonomik kaynaklarının ve yönetimsel işl
 | Perakende kanalı          | Bir işletme birimi bir fiziksel mağazayı temsil etmektedir.                             | Tüzel kişilikler içinde veya arasında bir veya daha fazla mağazayı yönetmek ve kontrol etmek için kullanın.                                                               |
 
 ## <a name="organizational-hierarchies"></a>Organizasyonel hiyerarşiler
-Ticaretle ilgili temel bilgileri altında her bir hiyerarşiye bir amaç atanır. Bir hiyerarşinin amacı, hiyerarşiye dahil edilebilecek organizasyon türlerini belirlemektir. Amaç ayrıca bir hiyerarşinin hangi uygulama senaryolarında kullanılabileceğini de belirler. Örneğin, perakende hiyerarşisi perakende satış mağazasında ürünleri satmak ve satın almak için kullanılabilir. Bir hiyerarşi içindeki kuruluşlar parametreleri, politikaları ve hareketleri paylaşabilir. Bir organizasyon, ana organizasyonun parametrelerini devralabilir veya bu parametreleri değiştirebilir. Ancak, ürünler ve adres defterleri gibi paylaşılan master veriler tüm organizasyon için geçerlidir ve tek tek organizasyonlar tarafından değiştirilemez.
+Ticaretle ilgili temel bilgileri altında her bir hiyerarşiye bir amaç atanır. Bir hiyerarşinin amacı, hiyerarşiye dahil edilebilecek organizasyon türlerini belirlemektir. Amaç ayrıca bir hiyerarşinin hangi uygulama senaryolarında kullanılabileceğini de belirler. Örneğin, perakende hiyerarşisi perakende satış mağazasındaki ürünleri satmak ve satın almak için kullanılabilir. Bir hiyerarşi içindeki kuruluşlar parametreleri, politikaları ve hareketleri paylaşabilir. Bir organizasyon, ana organizasyonun parametrelerini devralabilir veya bu parametreleri değiştirebilir. Ancak, ürünler ve adres defterleri gibi paylaşılan master veriler tüm organizasyon için geçerlidir ve tek tek organizasyonlar tarafından değiştirilemez.
 ### <a name="best-practices-for-setting-up-an-organization-in-a-hierarchy"></a>bir hiyerarşi içinde bir kuruluş oluşturulması için en iyi uygulamalar
 
 Bir organizasyon hiyerarşisi uygularken aşağıdaki en iyi uygulamaları dikkate alın:
@@ -68,6 +71,8 @@ Aşağıdaki tabloda, organizasyon hiyerarşilerinin kullanılabildiği Ticaretl
 | Perakende stok yenilemesini yönetme                                                    | Stok yenileme kurallarına dayalı olarak stok yenilemesi için mağazaları gruplandırın.                                                                                                                                                                                                                                          | Perakende stok yenilemesi |
 | Mağazalar için veri raporlama                                                         | Raporlama için mağazaları gruplandırın.                                                                                                                                                                                                                                                                                | Perakende raporlaması     |
 | Stok nakledin, bildirimleri hesaplayın ve bir mağaza grubu için bildirimleri nakledin | Bir toplu iş için atanabilecek bir mağaza grubu oluşturun. Stok nakletmek, bildirim hesaplamak veya bildirim nakletmek üzere bir toplu iş tanımladığınıza işin hangi hiyerarşi için uygulanacağını seçebilirsiniz. Mağazalar hiyerarşiye eklendiğinde veya hiyerarşiden çıkarıldığında toplu işi değiştirmenize gerek olmaz. | Retail POS nakli   |
+
+
 
 
 

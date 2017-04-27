@@ -1,5 +1,5 @@
 ---
-title: "Ürün reçetesi hesaplamaları standart maliyetler"
+title: "Standart maliyetlere sahip ürün reçetesi hesaplamaları."
 description: 
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bom-calculations-with-standard-costs"></a>Ürün reçetesi hesaplamaları standart maliyetler
+# <a name="bom-calculations-with-standard-costs"></a>Standart maliyetlere sahip ürün reçetesi hesaplamaları.
+
+[!include[banner](../includes/banner.md)]
+
 
 
 
@@ -78,6 +81,8 @@ Standart maliyet ürün reçetesi hesaplamasında kullanılan maliyetlendirme bi
 -   Maliyet versiyonunun içeriği maliyetleri içermelidir − İçerik maliyetleri içermelidir. Üretilen maddeler için önerilen satış fiyatlarını hesaplamak üzere, isteğe bağlı olarak satış fiyatlarını içerebilir.
 
 Bir ürün reçetesi hesaplamasını başlatırken birkaç bilgi kaynağı belirtilebilir. Bu kaynaklara tesis, hesaplama tarihi ve maliyet versiyonu dahildir.
+
+
 
 
 

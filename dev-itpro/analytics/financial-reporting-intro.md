@@ -85,6 +85,6 @@ Daha fazla bilgi için <a href="https://technet.microsoft.com/en-us/library/dn46
 
 #<a name="see-also"></a>Ayrıca bkz.
 
-[Finansal rapor oluşturmak] ((dynamics365\operations\financials\general-ledger\generate-mali-rapor)
+[Finansal rapor oluşturmak] ((dynamics365\operations\financials\general-ledger\generate-financial-report)
 
 

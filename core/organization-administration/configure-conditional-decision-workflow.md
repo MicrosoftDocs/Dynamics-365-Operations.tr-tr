@@ -1,5 +1,5 @@
 ---
-title: "Koşullu bir karar bir iş akışında yapılandırma"
+title: "Bir iş akışında koşullu bir kararı yapılandırma"
 description: "Koşullu kararın özelliklerini yapılandırmak için aşağıdaki yordamı kullanın."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-conditional-decision-in-a-workflow"></a>Koşullu bir karar bir iş akışında yapılandırma
+# <a name="configure-a-conditional-decision-in-a-workflow"></a>Bir iş akışında koşullu bir kararı yapılandırma
+
+[!include[banner](../includes/banner.md)]
+
 
 Koşullu kararın özelliklerini yapılandırmak için aşağıdaki yordamı kullanın.
 
@@ -38,14 +41,16 @@ Koşullu bir karara bir ad vermek için aşağıdaki adımları uygulayın.
 ## <a name="set-conditions"></a> Koşulları ayarlama
 Sistem, gönderilen belgeyi belirli koşulları karşılayıp karşılamadığını belirlemek için değerlendirerek hangi dalın kullanıldığını belirler.
 1.  Sol bölmede **Temel Ayarlar**'a tıklayın.
-2.  Click **Add condition**.
+2.  **Koşul ekle** seçeneğini tıklatın.
 3.  Koşulu girin.
 4.  Gerekiyorsa ek koşulları girin.
 5.  Girdiğiniz koşulların doğru biçimde yapılandırıldığını doğrulamak için aşağıdaki adımları tamamlayın:
     1.  **Sınama iş akışı koşulu** formunu açmak için **Sına**'ya tıklayın.
     2.  Formdaki **Koşulu doğrula** alanından bir kayıt seçin.
     3.  **Sına**'ya tıklayın. Sistem, belirtmiş olduğunuz koşullarını yerine getirip getirmediğini belirlemek için kaydı değerlendirir.
-    4.  ' I **Tamam** veya **iptal** dönmek için **Özellikler** formu.
+    4.  **Özellikler** formuna geri dönmek için **Tamam** veya **İptal**'e tıklayın.
+
+
 
 
 

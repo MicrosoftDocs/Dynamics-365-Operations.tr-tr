@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="replenishment"></a>Stok yenileme
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede Ambar yönetiminde bulunan işlevi kullanan ambarlarda kullanılabilen stok yenileme stratejileri açıklanmaktadır.
 
 Bu makalede Ambar yönetiminde bulunan işlevi kullanan ambarlarda kullanılabilen stok yenileme stratejileri açıklanmaktadır. Bu bilgiler Stok yönetiminde bulunan ambar çözümü için geçerli değildir. Kullanılabilen üç stok yenileme stratejisi bulunmaktadır:
@@ -67,6 +70,8 @@ Yük talebi stok birkaç yüke ait talebi toplar ve ilgili malzeme çekme yerle�
 | Konum profilleri       | Yerleşim profilleri yerleşimleri oluşturmak için gereklidir.                                                                                                                                                                                       |
 | Konum yönergeleri     | Yerleşim yönergeleri işi stok yenilemenin gerektiği yerleşimlere ve stok kaynağı olarak kullanılacak yerleşimlere yönlendirmek için gereklidir.                                                                                     |
 | İş şablonları          | **Stok yenileme** türünün iş şablonları stoğu istenen yerleşimlere taşıyabilmek üzere stok yenileme işi oluşturmak için gereklidir.                                                                                           |
+
+
 
 
 

@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consignment"></a>Konsinye
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu konuda, gelen konsinye stok işlemlerinin nasıl yapılacağı açıklanır.
 
-Konsinye stok, satıcıya ait olan ancak tesisinizde depolanan stoktur. Stoğu tüketmeye veya kullanmaya hazır olduğunuzda stoğun sahipliği size geçer. Bu konu, eldeki stokun satıcıya ait genel muhasebe hareketlerini oluşturmadan fiziksel olarak alma hakkında bilgi içerir nasıl burada satıcıya ait stok fiziksel olarak rezerve üretim işlemi başlatılır. Ve tüketimi üretim emri işlem bir parçası olarak işlem yapabilmek için hammadde sahipliğini değiştirmek nasıl. Satıcıların, satıcı iş birliği arabirimini kullanarak nasıl kendi stok tüketimlerini izleyebilecekleri hakkında bazı bilgiler de bulunur. Gelen konsinye işlemlerini etkinleştirme ve yapılandırma hakkında daha fazla bilgi için bkz. [Konsinyeyi ayarlama](set-up-consignment.md).
+Konsinye stok, satıcıya ait olan ancak tesisinizde depolanan stoktur. Stoğu tüketmeye veya kullanmaya hazır olduğunuzda stoğun sahipliği size geçer. Bu konu, genel muhasebe defteri hareketleri oluşturmadan satıcının sahip olduğu eldeki stoku fiziksel olarak alma, satıcının sahip olduğu stokun fiziksel olarak ayrılabildiği bir üretimi başlatma hakkında bilgiler içerir. ve hammadde sahipliğinin, tüketimi, üretim siparişi işlemini yapabilmek için nasıl değiştirilebileceği. Satıcıların, satıcı iş birliği arabirimini kullanarak nasıl kendi stok tüketimlerini izleyebilecekleri hakkında bazı bilgiler de bulunur. Gelen konsinye işlemlerini etkinleştirme ve yapılandırma hakkında daha fazla bilgi için bkz. [Konsinyeyi ayarlama](set-up-consignment.md).
 
 ## <a name="overview-of-the-consignment-process"></a>Konsinye işlemine genel bakış
 Bu örnek senaryoda, USMF şirketinin ABD-104 satıcısıyla hammadde M9211CI üzerine bir konsinye sözleşmesi bulunuyor.
@@ -57,9 +60,9 @@ USMF ilave periyodik işlemleri gerçekleştirir:
 Satıcı, ABD-104 **Eldeki konsinye stok** sayfasını kullanarak güncelleştirmeleri izleyebilir.
 
 ## <a name="consignment-replenishment-orders"></a>Konsinye stok yenileme siparişleri
-Konsinye stok yenileme siparişi, satıcının sipariş edilen stok hareketleri oluşturarak belirli bir tarih aralığında teslim etmeyi planladığı ürün stok miktarlarının talebi ve takibi için kullanılan belgedir. Bu belge genellikle, belirli ürünlerin tahmini ve fiili talebine dayalıdır. Konsinye stok yenileme halinde alınacak stok, satıcının sahipliğinde kalır. Yalnızca fiziksel giriş güncelleştirmesine bağlı ürünlerin sahipliği kayıt altına alınır ve bu nedenle de genel muhasebe hareketi güncelleştirmeleri bulunmaz. **Sahip** boyutu hangi stoğun satıcıya, hangisinin ise teslim alma tüzel kişiliğine ait oluğunu ayırmak için kullanılır. Konsinye stok yenileme emri satırları içerir bir **açık sipariş** durum satırları tam miktarı alınan veya iptal edildiği değil sürece. Tam miktarı alınan ya da iptal durumu değiştirildi **tamamlandı**. Konsinye stok yenileme siparişiyle bağlantılı olan fiziksel eldeki stok, Kayıt işlemi veya Ürün girişi güncelleştirme işlemi kullanılarak kaydedilir. Madde varışı işleminin bir parçası olarak ya da sipariş satırları el ile güncelleştirilerek kayıt yapılır. Ürün girişi güncelleştirme işlemi kullanıldığında, satıcılara malların teslim alınma bilgilendirmesinde de kullanılabilen ürün girişi günlüğüne kayıt yapılır. 
+Konsinye stok yenileme siparişi, satıcının sipariş edilen stok hareketleri oluşturarak belirli bir tarih aralığında teslim etmeyi planladığı ürün stok miktarlarının talebi ve takibi için kullanılan belgedir. Bu belge genellikle, belirli ürünlerin tahmini ve fiili talebine dayalıdır. Konsinye stok yenileme halinde alınacak stok, satıcının sahipliğinde kalır. Yalnızca fiziksel giriş güncelleştirmesine bağlı ürünlerin sahipliği kayıt altına alınır ve bu nedenle de genel muhasebe hareketi güncelleştirmeleri bulunmaz. **Sahip** boyutu hangi stoğun satıcıya, hangisinin ise teslim alma tüzel kişiliğine ait oluğunu ayırmak için kullanılır. Konsinye stok yenileme emir satırları, satırların tam miktarı alınmadığı veya iptal edilmediği sürece **Açık sipariş** durumuna sahiptirler. Tam miktar alındığında veya iptal edildiğinde, durum **Tamamlandı** olarak değişir. Konsinye stok yenileme siparişiyle bağlantılı olan fiziksel eldeki stok, Kayıt işlemi veya Ürün girişi güncelleştirme işlemi kullanılarak kaydedilir. Madde varışı işleminin bir parçası olarak ya da sipariş satırları el ile güncelleştirilerek kayıt yapılır. Ürün girişi güncelleştirme işlemi kullanıldığında, satıcılara malların teslim alınma bilgilendirmesinde de kullanılabilen ürün girişi günlüğüne kayıt yapılır. 
 
-[![konsinye stok yenileme emri](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
+[![konsinye-stok-yenileme-siparisi](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Stok sahipliği değişiklik günlüğü
 Stok sahibinin satıcı yerine teslim alma tüzel kişiliği olarak değiştirilmesi, Stok sahipliği değişiklik günlüğü kullanılarak yapılır. Günlük için herhangi bir beklenen stok hareketi oluşturulmaz. Oluşturulan stok hareketleri, yalnızca nakledilen günlük ile ilişkili olanlardır. Günlük nakledildiğinde:
@@ -69,14 +72,16 @@ Stok sahibinin satıcı yerine teslim alma tüzel kişiliği olarak değiştiril
 
 Sipariş oluşturulduktan sonra konsinye satınalma sipariş satırları miktarının güncelleştirilmesi mümkün değildir. 
 
-[![Stok mülkiyet değişiklik günlüğü](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+[![stok-sahiplik-degistirme-gunlugu](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Konsinye işlemlerdeki satıcı iş birliği
 Gelen konsinye işlemlerle alakalı satıcı işbirliği arabiriminin üç sayfası vardır:
 
--   **Satınalma siparişleri****konsinye stok tüketme** -konsinye işleminden sahiplik değişikliğiyle ilgili sipariş bilgilerini gösterir ayrıntılı satın.
+-   **Konsinye stoğu tüketen** **satınalma siparişleri** - Konsinye işleminden kaynaklanan sahiplik değişikliğiyle ilişkili satınalma siparişi bilgilerini detaylı olarak gösterir.
 -   **Konsinye stoktan alınan ürünler**: Sahiplik değişikliği işlemi sırasında güncelleştirilen ürün girişleri bulunan maddeler ve miktarlar hakkında bilgileri gösterir.
 -   **Eldeki konsinye stok**: Teslim edilmesi beklenen konsinye maddeler ve müşterinin işyerinde halihazırda fiziksel olarak bulunan maddeler hakkında bilgileri gösterir.
+
+
 
 
 

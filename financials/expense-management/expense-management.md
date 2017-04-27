@@ -26,8 +26,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="expense-management"></a>Gider yönetimi
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 [Gider yönetimi planlama](plan-expense-management.md) Daha fazla bilgi daha sonra eklenecek, yakında kontrol edin.
+
+
 
 

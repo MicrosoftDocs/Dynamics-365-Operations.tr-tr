@@ -68,14 +68,14 @@ Hareketli ortalama ile, ürünün maliyeti satınalma girişi tarafından belirl
 3.  Miktar olarak 1, birim fiyatı olarak 10,00 şeklinde bir satış emri oluşturun.
 4.  Miktar olarak 2, birim fiyatı olarak 12,00 şeklinde bir satınalma faturası oluşturun.
 
-Birim fiyatındaki fark olan 2,00, satınalma faturası nakledilirken Hareketli ortalama için fiyat farkı hesabına nakledilir. Bunun sebebi, iki ürünün 20,00 maliyetine satın alınmış olmasıdır. Ürünlerden biri 10,00 birim fiyatına satılmıştır. 12,00 2 miktarını içeren bir birim fiyatla satınalma faturası deftere nakledildi. Ürünün birim fiyatını 14.00 at deftere nakledilemez.
+Birim fiyatındaki fark olan 2,00, satınalma faturası nakledilirken Hareketli ortalama için fiyat farkı hesabına nakledilir. Bunun sebebi, iki ürünün 20,00 maliyetine satın alınmış olmasıdır. Ürünlerden biri 10,00 birim fiyatına satılmıştır. Satınalma faturası 12,00 birim fiyattan 2 adet miktarla deftere nakledildi. Ürünün birim fiyatı deftere 14,00'dan nakledilemez.
 
 ## <a name="moving-average-product-and-inventory-adjustment"></a>Hareketli ortalama ürün ve stok düzeltmesi
 Bir ürünün hareketli ortalama maliyetini ayarlamanız gerekiyorsa, stok ayarlamalarına bugünün tarihi itibariyle izin verilir. Bir stok ayarlamasına bir ürünün hareketli ortalama maliyetini düzeltmek için eski bir tarih atamazsınız. Ardışık hareketler üzerinden maliyet akışınız olamaz. Bu örnekte, bir ürün için hareketli ortalama maliyet ayarlanmaktadır.
 1.  Hareketli ortalama maliyetini ayarlamak istediğiniz ürünü seçin.
-    | **Note**                                                                                    |
+    | **Not**                                                                                    |
     |---------------------------------------------------------------------------------------------|
-    | ** Hareketli Ortalama için yeniden değerleme ** sayfa bir ürün için kullanılabilir stoku inceler. |
+    | **Hareketli ortalama için yeniden değerleme** sayfası, bir ürün için mevcut stoğu inceler. |
 
     Seçilen ürünün deftere nakledilen miktarı 1, deftere nakledilen değeri 12,00, deftere nakledilen birim maliyeti 12,00 ve birim maliyeti 12,00'dir.
 2.  **Birim maliyeti** alanını 16,00 olarak güncelleyin. Sistem geri kalan alanları hesaplar.
@@ -88,7 +88,7 @@ Bir ürünün hareketli ortalama maliyetini ayarlamanız gerekiyorsa, stok ayarl
 **Fişe ait kapatmalar** sayfasında, Hareketli ortalama için maliyet yeniden değerleme hesabına 4,00'lık bir ayarlama nakledildiğini görebilirsiniz.
 
 ## <a name="moving-average-with-production"></a>Üretim ile hareketli ortalama
-Hareketli ortalama, üretilen maddeleri destekler. Hareketli ortalama bir üretim ortamında kullanmayı planlıyorsanız, **tahmini maliyet fiyatını kullan** sürgüsünü ** üretim kontrol parametreleri ** sayfa seçili olmalıdır. Bu, fiili ürün reçetesi hesaplama maliyet fiyatı yerine tahmin sırasında hesaplanan maliyet fiyatının kullanılacağı anlamına gelir.
+Hareketli ortalama, üretilen maddeleri destekler. Hareketli ortalamayı bir üretim ortamında kullanmayı planlıyorsanız, **Üretim kontrol parametreleri** sayfasındaki **Tahmini maliyet fiyatını kullan** kaydırıcısı seçili olmalıdır. Bu, fiili ürün reçetesi hesaplama maliyet fiyatı yerine tahmin sırasında hesaplanan maliyet fiyatının kullanılacağı anlamına gelir.
 
 ## <a name="moving-average-with-a-backdated-transaction"></a>Geriye dönük tarihli işlemli hareketli ortalama
 Geçerli hareketli ortalama maliyete geriye dönük tarih atılmış hareketler atanır ve ürünün fiziksel miktarı güncellenir ama ürünün hareketli ortalama maliyeti etkilenmez. Bu hareketli ortalama örneğinde, bir hareketli ortalama ürünü için deftere geriye dönük tarihli bir hareket nakledilir.

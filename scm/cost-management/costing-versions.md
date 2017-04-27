@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-versions"></a>Maliyet sürümleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, maliyetlendirme sürümleri, bu sürümlerin nasıl sürdürüleceği ve bu sürümlere ekleyebileceğiniz veri türleri hakkında bilgiler verilmektedir. Maliyetlendirme versiyonunun birincil amacı madde, maliyet kategorileri için dolaylı maliyet hesaplama formülleri hakkındaki maliyet kayıtlarını içermektir.
 
 Bir maliyetlendirme versiyonu, içerisinde bulunan verilere bağlı olarak bir veya daha fazla amaca hizmet edebilir. Maliyetlendirme versiyonunun birincil amacı madde, maliyet kategorileri için dolaylı maliyet hesaplama formülleri hakkındaki maliyet kayıtlarını içermektir. Maliyetlendirme versiyonu, maliyetlendirme versiyonuna atanan maliyetlendirme tipine dayanan bir standart maliyet kayıtları veya planlanan maliyet kayıtları kümesi içerebilir.
@@ -63,5 +66,7 @@ Satınalma fiyatı verilerinin bulunmasına olanak sağlamanın birincil amacı,
 Satınalma fiyat içeriğini etkinleştirmek için, öncelikle maddenin satınalma fiyatını için bir maliyet fiyatı modeli içeren bir ürün reçetesi hesaplama grubunu tanımlamalı ve ürün reçetesi hesaplama grubunu satın alınmış maddelere atayın. Sonra ürün reçetesi hesaplama grubu için bir maliyet fiyatı modeli kullanarak üretilen maddelerin satış fiyatlarını hesaplamak için planlanan maliyetleri ürün reçetesi hesaplamalarını kullanın. 
 
 Maddeler için satınalma fiyatı kayıtları da başvuru bilgisi olarak kullanılır. Satınalma fiyatı kaydından bir öğenin durumunu **Bekleyen**'den **Etkin**'e değiştirerek, maddenin temel satınalma fiyatı güncelleştirebilirsiniz. Ancak, temel satınalma fiyatı tesise özgü değildir ve el ile geçersiz kılınabilir. Maddenin temel satınalma fiyatı satınalma siparişlerinde varsayılan satınalma fiyatı olarak kullanılır.
+
+
 
 

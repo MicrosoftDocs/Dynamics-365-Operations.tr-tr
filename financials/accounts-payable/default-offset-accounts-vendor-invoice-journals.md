@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Satıcı faturası günlükleri ve fatura onay günlükleri için varsayılan mahsup hesaplar
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Varsayılan mahsup hesapları, aşağıdaki satıcı faturası günlük sayfalarında kullanılır:
@@ -92,6 +95,8 @@ Fatura günlükleri için varsayılan hesaplar atamanız gerekip gerekmediğine 
 </tr>
 </tbody>
 </table>
+
+
 
 
 

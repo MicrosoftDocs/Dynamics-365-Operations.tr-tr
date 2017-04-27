@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="physical-and-financial-updates"></a>Fiziksel ve mali güncellemeler
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu konu hangi türdeki hareketlerin miktarları arttırdığı veya azalttığına ilişkin genel bir bakış sağlar. 
 
-Stok hareketlerinin fiziksel olarak güncelleştirilen ve Microsoft Dynamics 365 işlemleri için de mali olarak güncelleştirilmiş. Bazı fiziksel ve mali hareket türleri stok miktarlarını artırırken, bazıları bu miktarlar azaltır.
+Stok hareketleri, Microsoft Dynamics 365 for Operations'da fiziksel olarak ve mali olarak güncelleştirilebilir. Bazı fiziksel ve mali hareket türleri stok miktarlarını artırırken, bazıları bu miktarlar azaltır.
 
 ## <a name="physical-increases"></a>Fiziksel artışlar
 Bir fiziksel hareket nakledildiğinde, hareket kaydının durumu **Alındı** olur. Aşağıdaki hareketler fiziksel artış olarak kabul edilir:
@@ -49,10 +52,10 @@ Bir mali giriş hareketi nakledildiğinde, miktarı artıran hareket kaydının 
 -   Hareket, kar ve zarar, sayım, malzeme listesi ve transfer vb. gibi pozitif miktar stok günlükleri
 
 ## <a name="transactions-that-increase-quantity"></a>Miktarı artıran hareketler
-Miktarı artıran hareketler çalışan ortalama maliyet fiyatı üzerinden nakledilir. Dynamics 365 işlemleri için her mali olarak izlenmekte olan her stok boyutu için bu işlemlerin maliyetini temel alan bir ortalama maliyet fiyatı hesaplar. Çalışan ortalama maliyet fiyatları hakkında daha fazla bilgi için [Çalışan ortalama maliyet fiyatı](running-average-cost-price.md) bölümüne bakın.
+Miktarı artıran hareketler çalışan ortalama maliyet fiyatı üzerinden nakledilir. Dynamics 365 for Operations, mali olarak takip edilen her bir stok boyutu için bu hareketlerin her birinin maliyetine dayalı olarak bir çalışan ortalama maliyeti fiyatı hesaplar. Çalışan ortalama maliyet fiyatları hakkında daha fazla bilgi için [Çalışan ortalama maliyet fiyatı](running-average-cost-price.md) bölümüne bakın.
 
 ## <a name="transactions-that-decrease-quantity"></a>Miktarı azaltan hareketler
-Miktarı azaltır bir hareketi deftere naklettiğinizde hesaplanan ortalama maliyet fiyatı dynamics 365 işlemler için kullanır, bu stok ile ilişkili stok modeli ne olursa olsun. Miktarı azaltan hareket kesinlikle nakledilmeden önce başka bir harekete işaretlenmemiş olmalıdır. Dynamics 365 işlemleri için fiziksel eldeki stokun negatif duruma gelirse, madde için tanımlanan Stok maliyeti kullanır **madde** sayfa. **Not:** Birden fazla saha içeren bir işlev etkinleştirilirse maliyet yerine bir saha için **Varsayılan sipariş ayarları** sayfasında tanımlanan envanter maliyeti kullanılacaktır.
+Dynamics 365 for Operations, miktarı azaltan bir hareket nakledildiğinde bu stokla bağlantılı stok modelinden bağımsız olarak, hesaplanan ortalama maliyet fiyatını kullanır. Miktarı azaltan hareket kesinlikle nakledilmeden önce başka bir harekete işaretlenmemiş olmalıdır. Fiziksel eldeki stokun negatif olması durumunda Dynamics 365 for Operations, madde için **Madde** sayfasında tanımlanan stok maliyetini kullanır. **Not:** Birden fazla saha içeren bir işlev etkinleştirilirse maliyet yerine bir saha için **Varsayılan sipariş ayarları** sayfasında tanımlanan envanter maliyeti kullanılacaktır.
 
 ## <a name="physical-issues-vs-financial-issues"></a>Fiziksel çıkışlar ile mali çıkışlar karşılaştırması
 Bir fiziksel çıkış hareketi nakledildiğinde, hareket kaydının durumu **Kesinti yapıldı** olur. Aşağıdaki hareketler fiziksel çıkışlar olarak kabul edilir:
@@ -69,5 +72,7 @@ Bir finansal hareket nakledildiğinde, hareket kaydının durumu **Satılan** ol
 -   Hareket, kar ve zarar, sayım, malzeme listesi ve transfer vb. gibi negatif miktar stok günlükleri
 
 Miktarı azaltan hareketler çalışan ortalama maliyet fiyatı üzerinden nakledilir. Bu nedenle, her bir maddeye atanan stok modeline dayalı olarak, çıkış hareketlerinin giriş hareketlerine kapatılması için stok kapanışı prosedürü uygulanmalıdır.
+
+
 
 

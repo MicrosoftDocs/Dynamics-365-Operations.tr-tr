@@ -43,11 +43,11 @@ Satıcı iş birliği faturalama çalışma alanı
 Bir kutucuğa tıklandığında **Faturalar listesi** sayfasının filtrelenmiş bir görünümü açılır.
 ### <a name="tabular-lists"></a>Sekmeli listeler
 
-**Sekmeli listeler **bölümünde, faturalamanın durumu özet kutucuklardaki gibi, Taslak ve Gönderildi, onaylanmadı listelerine benzer şekilde ayrılır. Taslak durumunda, fatura iş akışına gönderilebilir veya silinebilir. Son sekmeli liste faturaları bulmak için bir seçenektir. Daha hızlı arama için izin vermek için arama süzebilirsiniz.
+**Sekmeli listeler **bölümünde, faturalamanın durumu özet kutucuklardaki gibi, Taslak ve Gönderildi, onaylanmadı listelerine benzer şekilde ayrılır. Taslak durumunda, fatura iş akışına gönderilebilir veya silinebilir. Son sekmeli liste, faturaları bulmak için bir seçenektir. Ararken filtreleyerek daha hızlı arama yapabilirsiniz.
 Tüm satıcı faturaları liste sayfası
 -----------------------------
 
-Tüm deftere nakledilmemiş ve deftere nakledilen satıcı faturaları görüntüleyebilirsiniz **satıcı işbirliği faturaları** listesi sayfası. Bu liste sayfası, fatura ödeme durumunu görüntülemek için kullanabilirsiniz. Ödeme durumları Nakledilmedi, Ödenmedi, Kısmen ödendi ve Tamamen ödendi durumlarını içerir.
+Tüm deftere nakledilmiş ve nakledilmemiş satıcı faturalarını **Satıcı işbirliği faturaları** listesi sayfasında görüntüleyebilirsiniz. Faturaların ödeme durumunu görüntülemek için bu liste sayfasını kullanabilirsiniz. Ödeme durumları Nakledilmedi, Ödenmedi, Kısmen ödendi ve Tamamen ödendi durumlarını içerir.
 Satınalma siparişinden yeni fatura oluşturma
 --------------------------------------------
 
@@ -55,6 +55,6 @@ Satınalma siparişinden yeni fatura oluşturma
 
 
 
-Daha fazla bilgi için bkz: [satıcı portal kullanarak satıcılar ile işbirliği yapma](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
+Daha fazla bilgi için bkz. [Satıcılarla Satıcı portalını kullanarak işbirliği yapma](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
 
 

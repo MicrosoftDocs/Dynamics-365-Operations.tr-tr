@@ -1,5 +1,5 @@
 ---
-title: "Ürün yapılandırma modeli oluşturma"
+title: "Ürün konfigürasyon modeli oluşturun"
 description: "Ürünleri özel gereksinimleri karşılamak üzere yapılandırma gerekliliği hem işletmeden işletmeye hem de hem işletme-müşteri ilişkilerinde istisna yerine bir kural haline gelmektedir."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="build-a-product-configuration-model"></a>Ürün yapılandırma modeli oluşturma
+# <a name="build-a-product-configuration-model"></a>Ürün konfigürasyon modeli oluşturun
+
+[!include[banner](../includes/banner.md)]
+
 
 Ürünleri özel gereksinimleri karşılamak üzere yapılandırma gerekliliği hem işletmeden işletmeye hem de hem işletme-müşteri ilişkilerinde istisna yerine bir kural haline gelmektedir.
 
@@ -34,7 +37,7 @@ Sipariş ile yapılandırmak senaryoları destekleyen üretici müşteri gereksi
 
 Üretimi hisse senedi kurulumundan yapılandırma siparişi kurulumuna başarılı bir taşıma ürün yapılarının dikkatli analizini, ürün ailelerinin tanımlanması ve bileşenleştirme gerektirir. Bölümlerinin sayısını azaltmak ve Hazırlanmakta olan mal sayısını en aza indirmek için ürün arabirimleri anlamak ve yeniden kullanılabilirlik için tasarım büyük önem taşımaktadır.  
 
-Birkaç ürün yapılandırma modelleme ilkesi vardır, kural tabanlı, boyut tabanlı ve kısıtlama tabanlı modelleme gibi. Çalışmalar karşılaştırıldığında diğer modelleme ilkelerine göre kısıtlama tabanlı Metodoloji modellerinde kod satır sayısını yaklaşık yüzde 50 azaltabilir gösterir. Bu nedenle, bu yöntem toplam maliyetini (TCO) sahipliği azaltabilir. Kısıtlama tabanlı bir modeline X ++ kodu temel alan bir kural tabanlı modelinden taşıyarak, artık bir geliştirici lisans ürün modellerinin korumak gerektirir.
+Birkaç ürün yapılandırma modelleme ilkesi vardır, kural tabanlı, boyut tabanlı ve kısıtlama tabanlı modelleme gibi. Çalışmalar karşılaştırıldığında diğer modelleme ilkelerine göre kısıtlama tabanlı Metodoloji modellerinde kod satır sayısını yaklaşık yüzde 50 azaltabilir gösterir. Bu nedenle, bu yöntem toplam maliyetini (TCO) sahipliği azaltabilir. X ++ kodunu temel alan kural tabanlı Kısıtlama tabanlı modelin kısıtlama tabanlı modele taşıyarak, artık ürün modellerini korumak için bir geliştirici lisans gerekli değildir.
 
 ## <a name="product-configuration"></a>Ürün yapılandırması
 Endüstrileşme dönemi için uygun fiyata yüksek kalitede ve zengin özellikli ürünler üretme içinde harika başarılar neden olmuştur. Ölçek ekonomileri endüstriyelleşmiş dünyada çoğumuzun gündelik yaşamın gerekli bir parçası olduğunu düşündüğü arabalar, TV'ler, ev aletleri ve diğer malları almasını sağlamıştır.  
@@ -64,11 +67,11 @@ Kısıtlama tabanlı ürün yapılandırma model kullanımı kullanıcı çeşit
 
 ### <a name="table-constraints"></a>Tablo sınırlamaları
 
-Kullanıcı tanımlı veya sistem tarafından tanımlanan tablo kısıtlamaları olabilir.  
+Tablo kısıtlamaları kullanıcı veya sistem tanımlı olabilir.  
 
 Bir kullanıcı tanımlı tablo kısıtlaması kullanıcı tarafından üretilmiştir. Kullanıcı tablonun sütunları göstermek için öznitelik türleri birleşimini seçer ve sonra satır içinde tablo kısıtlaması oluşturmak için seçili öznitelik türlerinin etki alanlarındaki değerleri girer.  
 
-Hangi Microsoft Dynamics bir referans olarak kullanmak üzere 365 işlemleri tablosu için seçerek ve alanları kısıtlama sütunlar için bu tabloyu seçtikten sonra bir sistem tanımlı tablo kısıtlaması tanımlı. Tablo kısıtlaması yapılandırma anda Dynamics 365 işlemleri tablo için satır satırlarıdır.  
+Bir sistem tanımlı tablo kısıtlaması hangi Microsoft Dynamics 365 for Operations tablosunun başvuru olarak kullanılacağını seçerek ve sonra kısıtlamada sütunlar oluşturmak için bu tablodan alanları seçerek tanımlanır. Tablo kısıtlaması satırları, yapılandırma sırasında mevcut Dynamics 365 for Operations tablosu satırlarıdır.  
 
 Bir tablo kısıtlaması tablo kısıtlaması tanımına referans vererek ve modelde ilgili öznitelikleri tablo kısıtlamasındaki sütunlara eşleyerek bir ürün yapılandırma modeline dahil edilir.
 
@@ -103,7 +106,7 @@ Son olarak, bir tam ürün yapılandırma modeli için tam sözdizimi doğru old
 
 ### <a name="testing"></a>Test etme
 
-Bir modeli test etmek için gerçek yapılandırma oturumu çalıştıran benzer. Kullanıcı yapılandırma sayfaları arasında yürüyüş ve modeli yapısını yapılandırma işlemi desteklediğini doğrulayın. Kullanıcı, öznitelik değerlerinin doğru olduğunu ve öznitelik tanımlarının kullanıcının doğru değerleri seçmesine yol gösterdiğini doğrulayabilir. Son olarak, bir test oturumu tamamlandıktan sonra sistem ürün reçetesi ve seçilen öznitelik değerlerine karşılık gelen rotayı oluşturmaya çalışır ve herhangi bir hata oluşursa hata iletisi sunar.
+Bir modeli test etmek, gerçek bir yapılandırma oturumuna benzerlik taşır. Kullanıcı, yapılandırma sayfaları arasında gezinebilir ve model yapısının, yapılandırma işlemini desteklediğini doğrulayabilir. Kullanıcı, öznitelik değerlerinin doğru olduğunu ve öznitelik tanımlarının kullanıcının doğru değerleri seçmesine yol gösterdiğini doğrulayabilir. Son olarak, bir test oturumu tamamlandıktan sonra sistem ürün reçetesi ve seçilen öznitelik değerlerine karşılık gelen rotayı oluşturmaya çalışır ve herhangi bir hata oluşursa hata iletisi sunar.
 
 ### <a name="the-configuration-page"></a>Yapılandırma sayfası
 
@@ -129,17 +132,17 @@ Yapılandırma işlemini hızlandırmak için bir veya daha fazla yapılandırma
 Sonlandırılma işleminde son ve en önemli adım bir ürün yapılandırma modeli için sürüm oluşturmaktır. Sürüm bir sipariş veya teklif satırındaki yapılandırma için seçilebilecek ürün yöneticisi ve ürün modeli yapılandırması arasındaki ilişkiyi temsil eder. Yapılandırma oturumunda kullanılmadan önce, sürümün onaylanması ve etkinleştirilmesi gerekir.
 
 ## <a name="extending-a-product-configuration-model-through-the-api"></a>Ürün yapılandırma modeli API aracılığıyla genişletme
-İş ortakları ve geliştirici lisansına sahip diğerleri bir ürün yapılandırma modeli yeteneklerini genişletebilecek şekilde, özel uygulama programlama arabirimi (API) kullanılmıştır. Diyelim ki ortakları ve varolan Ürün Oluşturucu kullanan müşteriler Ürün Oluşturucu modellerinde API katıştırılmış kod geçirmek bir mekanizma kurmak için ana hedef olmuştur. Bu şekilde, onlar modellerini Ürün Oluşturucusu'ndan bir ürün yapılandırmaya geçirebilir. Ancak, yeni ortaklar ve müşteriler de yeni ürün yapılandırma modellerini genişletmek için API kullanarak yararlanabilir.
+İş ortakları ve geliştirici lisansına sahip diğerleri bir ürün yapılandırma modeli yeteneklerini genişletebilecek şekilde, özel uygulama programlama arabirimi (API) kullanılmıştır. Ana hedef, ortakların ve mevcut Ürün Oluşturucu kullanan müşterilerin Ürün Oluşturucu modellerine yerleşik kodu API'ye geçiş yapmasını sağlayan bir mekanizma kurmaktır. Bu şekilde, onlar modellerini Ürün Oluşturucusu'ndan bir ürün yapılandırmaya geçirebilir. Ancak, yeni ortaklar ve müşteriler de yeni ürün yapılandırma modellerini genişletmek için API kullanarak yararlanabilir.
 
 ### <a name="pcadaptor-class"></a>PCAdaptor sınıfı
 
-API ürün yapılandırma modellerinin veri yapısını sergileyen**PCAdaptor** sınıfları kümesini kullanarak uygulanır. Örneği **PCAdaptor** uzatılacağını her model için sınıfı oluşturulmalıdır. Yapılandırma oturumu tamamlandığında, sistemi bu sınıfın bir örneği için denetler ve bulunursa onu çalıştırır.  
+API ürün yapılandırma modellerinin veri yapısını sergileyen**PCAdaptor** sınıfları kümesini kullanarak uygulanır. **PCAdaptor** sınıfının bir örneği, genişletilecek her model için oluşturulmalıdır. Bir yapılandırma oturumu tamamlandıktan sonra, sistem bu sınıfın bir örneğini denetler ve bulursa onu çalıştırır.  
 
 Aşağıdaki akış diyagramı işlemi özetlenmektedir.  
 
-[![Akış Diyagramı](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
+[![Akış diyagramı](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
 
-Ürün yapılandırma API Akış Diyagramı
+Ürün yapılandırma API akış diyagramı
 
 ## <a name="product-configuration"></a>Ürün yapılandırması
 Ürün yapılandırma aşağıdaki yerlerden gerçekleştirilebilir:
@@ -155,5 +158,7 @@ Müşterinin gereksinimini karşılayan ürünün ayrı bir değişkenini oluşt
 ### <a name="multiple-sites-and-intercompany"></a>Birden çok site ve şirketler arası
 
 Yapılandırma üretim gerçekleşeceği site veya şirketten ayrı bir site veya bir şirkette bile yapılır, ürün reçetesi ve rota oluşturulur ve tedarik şirketindeki tedarikçi sitesine yerleştirilir. Ürün çeşidi tedarik zincirinde yer alan tüm şirketlerde yayımlanacaktır.
+
+
 
 

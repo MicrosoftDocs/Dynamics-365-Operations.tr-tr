@@ -1,6 +1,6 @@
 ---
 title: "Yeni görev kılavuzları (Şubat 2016)"
-description: "Bu wiki Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan görev kılavuzları listeler.  (Şubat 2016) yayımlanan kitaplıklar dahil birleştirilmiş Başlarken kitaplığı Microsoft Dynamics 365 işlemleri ve (Şubat 2016) için APQC."
+description: "Bu wiki Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev kılavuzlarını listeler.  Yayımlanan kitaplıklar (Şubat 2016) Microsoft Dynamics 365 for Operations için APQC Birleştirilmiş Kitaplık ve (Şubat 2016) Başlarken kılavuzunu içerir."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,12 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="new-task-guides-february-2016"></a>Yeni görev kılavuzları (Şubat 2016)
 
-Bu wiki Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan görev kılavuzları listeler.  (Şubat 2016) yayımlanan kitaplıklar dahil birleştirilmiş Başlarken kitaplığı Microsoft Dynamics 365 işlemleri ve (Şubat 2016) için APQC.
+Bu wiki Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev kılavuzlarını listeler.  Yayımlanan kitaplıklar (Şubat 2016) Microsoft Dynamics 365 for Operations için APQC Birleştirilmiş Kitaplık ve (Şubat 2016) Başlarken kılavuzunu içerir.
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Görev kılavuzları (Şubat 2016) işlemleri için Microsoft Dynamics 365 APQC birleşik kitaplığı
+<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Microsoft Dynamics 365 for Operations için (Şubat 2016) APQC Birleştirilmiş Kitaplığı'ndaki görev kılavuzları
 ---------------------------------------------------------------------------------
 
-(Şubat 2016) işlemleri 7.0.0 yayın için Dynamics 365 ile ilgili Yardım için kullanılması düşünülen görev kılavuzları APQC birleşik kitaplığı içerir. Bu görev Kılavuzları'nın yerelleştirilmiş sürümleri gereksiniminiz varsa, bunlar (Mayıs 2016) kullanılabilir işlemleri için Microsoft Dynamics 365 APQC birleşik kitaplığı. Görev Kılavuzu Kitaplığı'na Yardım sistemine bağlanma hakkında daha fazla bilgi için bkz: [Yardımı ile başlamak](help-overview.md).
+(Şubat 2016) APQC Birleştirilmiş kitaplığı Dynamics 365 for Operations 7.0.0 sürümünün Yardım'ı için kullanılmak üzere tasarlanmış Görev kılavuzlarını içerir. Bu görev kılavuzlarının yerelleştirilmiş sürümleri gerekiyorsa, bunları Microsoft Dynamics 365 for Operations için (Mayıs 2016) APQC Birleştirilmiş Kitaplığı'nda bulabilirsiniz. Yardım sistemini bir Görev kılavuzu kitaplığına bağlama hakkında daha fazla bilgi için bkz. [Yardıma Giriş](help-overview.md).
 
 ### <a name="accounts-payable"></a>Borç hesapları
 
@@ -531,7 +531,7 @@ Bu wiki Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan görev
 | Bir ürün yapılandırma modeline hesaplama ekleme    | Genel             |
 | Ürün konfigürasyon modelini onayla                 | Genel             |
 | Yayımlanan ana ürünün temel kurulumunu tamamlama | Genel             |
-| Oluşturma bir... \financial-dimensions\dimension-based ürün Yöneticisi               | Genel             |
+| ..\mali-boyutlar\boyut tabanlı ana ürün oluşturma               | Genel             |
 | Ürün sınıflandırması için bir hiyerarşi oluşturma          | Genel             |
 | Bir ürün yapılandırma modeli oluşturma                  | Genel             |
 | Bir ana ürün oluşturma                               | Genel             |
@@ -544,7 +544,7 @@ Bu wiki Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan görev
 | Ürün yapılandırma modeli için ürün reçetesi sağlama        | Genel             |
 | Bir ürün modeli için rotayı koruma                    | Genel             |
 | Sunulan ürünleri yönet                              | Genel             |
-| Yayın bir... \financial-dimensions\dimension-based ürün Yöneticisi              | Genel             |
+| ..\mali-boyutlar\boyut tabanlı ana ürün serbest bırakma              | Genel             |
 | Ürün modelleri için verileri aktarma                      | Genel             |
 
  
@@ -718,10 +718,10 @@ Bu wiki Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan görev
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Yeni veya güncelleştirilmiş görev (Mayıs 2016) size yol gösterir.](new-updated-task-guides-available-may-2016.md)
+[Yeni veya güncelleştirilmiş görev kılavuzları (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Yeni veya güncelleştirilmiş görev (Ağustos 2016) size yol gösterir.](new-updated-task-guides-available-august-2016.md)
+[Yeni veya güncelleştirilmiş Görev kılavuzları (Ağustos 2016)](new-updated-task-guides-available-august-2016.md)
 
-[Yeni veya güncelleştirilmiş görev (Kasım 2016) size yol gösterir.](new-task-guides-november-2016.md)
+[Yeni veya güncelleştirilmiş Görev kılavuzları (Kasım 2016)](new-task-guides-november-2016.md)
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Onayla ve satınalma siparişleri Onayla"
+title: "Satınalma siparişlerini onaylama ve doğrulama"
 description: "Bu makalede oluşturulduktan sonra bir satınalma siparişinin (PO) geçtiği durumlar ve değişiklik yönetiminin etkinleştirilmesinin PO&quot;lara etkisi tanımlanır."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="approve-and-confirm-purchase-orders"></a>Onayla ve satınalma siparişleri Onayla
+# <a name="approve-and-confirm-purchase-orders"></a>Satınalma siparişlerini onaylama ve doğrulama
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede oluşturulduktan sonra bir satınalma siparişinin (PO) geçtiği durumlar ve değişiklik yönetiminin etkinleştirilmesinin PO'lara etkisi tanımlanır.
 
@@ -73,12 +76,14 @@ Bir sipariş teyit edildikten sonra artık onu silemezsiniz. Ancak, miktarın al
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Satınalma siparişine genel bakış](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Satınalma siparişi oluşturma](purchase-order-creation.md)
 
 [Ürün girişine karşılık satınalma siparişleri](product-receipt-against-purchase-orders.md)
 
 [Satıcı faturalarına genel bakış](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

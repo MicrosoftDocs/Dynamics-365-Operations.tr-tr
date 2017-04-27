@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="transportation-management-overview"></a>Taşıma yönetimine genel bakış
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu konuda, Microsoft Dynamics 365 for Operations'daki taşıma yönetimi işlevine genel bir bakış sunulur.
 
 Taşıma yönetimi, şirketinizin taşımalarını yönetmenize olanak tanır ve satıcı ile gelen ve giden siparişler için yönlendirme çözümlerini belirlemenizi sağlar. Örneğin bir sevkiyat için en hızlı yolu veya en ucuz oranı tanımlayabilirsiniz. Aşağıdaki tablo, Microsoft Dynamics 365 for Operations'daki Taşıma yönetiminin kullanılmasına ilişkin ana senaryoları açıklar.
@@ -67,19 +70,21 @@ Taşıma yönetimi, şirketinizin taşımalarını yönetmenize olanak tanır ve
 ## <a name="planning-transportation-in-dynamics-365-for-operations"></a>Dynamics 365 for Operations'da taşımayı planlama
 Taşıma yönetiminde , taşıma planlaması için siparişler veya bu siparişlere göre oluşturulan sevkiyatlar temel alınır. Sevkiyatlar daima zaman içinde bir noktada bulunmaktadır ancak taşıma planlaması için gerekli değildir. Transfer emirleri giden senaryosunun bir parçasıdır ve satış siparişleriyle birlikte planlanabilir. 
 
-![Yük çizme](./media/Load-drawing1-1024x477.jpg)
+![Yük çekme](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Gelen taşıma
-Bir satıcıdan madde siparişi ve sizin ambarınıza maddeler teslim edilmelidir öğeleri taşıma kendiniz düzenlemek isteyebilirsiniz. Nakliye ve gelen yük alınması planlamak için Dynamics 365 işlemleri için kullanabilirsiniz. Aşağıdaki şekilde, gelen yük için taşıma planlamasına ilişkin iş süreci akışı gösterilmektedir. 
+Bir satıcıya madde siparişi verdiğiniz zaman ve bu maddelerin sizin ambarınıza teslim edilmesi gerektiğinde maddeleri taşımayı kendiniz düzenlemek isteyebilirsiniz. Gelen yükün taşıma ve girişini planlamak için Dynamics 365 for Operations kullanabilirsiniz. Aşağıdaki şekilde, gelen yük için taşıma planlamasına ilişkin iş süreci akışı gösterilmektedir. 
 
 ![Gelen yükün taşınmasına ilişkin iş süreci akışı](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Giden taşıma
 Belirli maddeleri şirketin ambarından müşteriye sevk etmek için giden yük planlaması yapabilir ve işleme koyabilirsiniz. Giden yük için taşıma ve sevkiyat planlaması yapmak için Dynamics 365 for Operations kullanabilirsiniz. Aşağıdaki şekilde, giden yükün sevkiyat için planlaması ve işleme konmasına ilişkin iş süreci akışı gösterilmektedir. 
 
-![Planlama ve giden işlem yükler](./media/Planningandprocessingoutboundloads.jpg)
+![Giden yükleri planlama ve işleme](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Yapıyı yükle
 Dynamics 365 for Operations, Hacim tabanlı yük oluşturma stratejisi olarak adlandırılan bir yük oluşturma stratejisi sunar. Bu strateji, yük şablonunda yükseklik ve ağırlık için belirtilen maksimum değerleri kullanmanıza olanak tanır; veya yeni değerler girerek ayarları geçersiz kılabilirsiniz. Kullanmak için **Yük oluşturma workbench'i** sayfasında bulunan **Ayar** Hızlı sekmesindeki **Yük oluşturma stratejisi** alanından bu stratejiyi seçebilirsiniz. Ayrıca, Uygulama Nesne Ağacı'nda (AOT) yeni bir sınıf oluşturarak kendi yük oluşturma stratejinizi ekleyebilirsiniz.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Eleme kuralları"
-description: "Bu konu, eleme kuralları ve elemeler hakkında raporlama için çeşitli seçenekler hakkında bilgi sağlar."
+description: "Bu konuda, eleme kuralları ve elemeler hakkında raporlama için çeşitli seçenekler ile ilgili bilgiler verilmektedir."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="elimination-rules"></a>Eleme kuralları
 
-Bu konu, eleme kuralları ve elemeler hakkında raporlama için çeşitli seçenekler hakkında bilgi sağlar.
+[!include[banner](../includes/banner.md)]
 
-Bir ana tüzel kişilik bir veya daha fazla tüzel kişilikle iş yapıyor ve konsolide finansal raporlama kullanıyorsa eleme hareketleri gerekir. Konsolide mali tablolar yalnızca konsolide kuruluş ve bu kuruluşların dışındaki diğer varlıklar arasındaki hareketleri içerebilir. Bu nedenle, aynı kuruluşun parçası olan tüzel kişilikler arasındaki işlemleri kaldırılmalı, veya finansal raporlarda görünür olmayan şekilde, Genel muhasebeden ortadan kalkar. Elemeler hakkında rapor hazırlamanın birden çok yolu vardır:
+
+Bu konuda, eleme kuralları ve elemeler hakkında raporlama için çeşitli seçenekler ile ilgili bilgiler verilmektedir.
+
+Bir ana tüzel kişilik bir veya daha fazla tüzel kişilikle iş yapıyor ve konsolide finansal raporlama kullanıyorsa eleme hareketleri gerekir. Konsolide mali tablolar yalnızca konsolide kuruluş ve bu kuruluşların dışındaki diğer varlıklar arasındaki hareketleri içerebilir. Bu nedenle, aynı kuruluşun parçası olan tüzel kişilikler arasındaki hareketler genel muhasebeden kaldırılarak veya elenerek mali raporlarda görünmemesi sağlanmalıdır. Elemeler hakkında rapor hazırlamanın birden çok yolu vardır:
 
 -   Konsolidasyon veya eleme şirketinde bir eleme kuralı oluşturabilir veya işlenebilir.
 -   Elemeler hesaplarını ve boyutlarını belirli satır veya sütunda göstermek için mali raporlama kullanılabilir.
@@ -129,27 +132,29 @@ Tüzel kişiliğiniz (A tüzel kişiliği) kuruluşunuzdaki başka bir tüzel ki
 Tüm bu hareketler, borç ve alacak hesaplarına nakledilen şirketlerarası hareketleri oluşturur. Ayrıca bu hareketler, şirketlerarası satış ve satılan malların maliyeti eşit olmadığı zaman artırma ve azaltma tutarlarını da içerebilir.
 
 ## <a name="set-up-elimination-rules"></a>Eliminasyon kurallarını ayarlama
-Dynamics 365 işlemleri için eleme kuralları kurarken eleme amacıyla özellikle mali boyut oluşturmanızı öneririz. Müşterilerin çoğu ticaret ortağı veya benzeri adlandırın. Ardından mali boyut kullanmamaya karar verirseniz, yalnızca şirketlerarası hareketler belirli ana hesaplarına sahip emin olun. 
+Dynamics 365 for Operations içinde eleme kuralları ayarlanırken, eleme amaçlı ayrı bir mali boyut oluşturmanızı öneririz. Müşterilerin çoğu buna Ticaret Ortağı veya benzer bir ad verirler. Bir mali boyut kullanmamaya karar verirseniz, yalnızca şirketlerarası harektelere özel bir ana hesaba sahip olduğunuzdan emin olun. 
 
-Elemeler için Kurulum Konsolidasyonları modülü Kurulum alanında bulunur. Kural için bir açıklama girin sonra Eliminasyon günlüğünün deftere nakleder şirket seçmeniz gerekir. Bu sahip bir şirket olması gerekir **kullanılmak üzere mali eleme işlemi** tüzel kurulumda seçili. 
+Elemeler için kurulum, Konsolidasyonlar modülünün kurulum alanında bulunur. Bir kural için bir açıklama girdikten sonra, eleme günlüğünün nakledeceği şirketi seçmeniz gerekir. Bu, Tüzel varlık kurulumunda **Mali eleme sürecini kullan**'ın seçilmiş olduğu bir şirket olmalıdır. 
 
-Gerekirse, Eliminasyon kuralının geçerli olur ve ne zaman dolmuş, üzerinde bir tarihi ayarlayabilirsiniz. Ayarlamanız gerekir **etkin** için **Evet** eleme öneri işlemine kullanılabilir olmasını istiyorsanız. Bir tür olan bir günlük adı seçin **eleme**.
+Gerekirse, eleme kuralının ne zaman geçerli olacağını ve ne süresinin ne zaman dolacağını seçebilirsiniz. Eleme öneri işleminde kullanılabilir olmasını istiyorsanız **Etkin**'i **Evet** olarak ayarlamanız gerekir. Bir tür **Eleme**'ye sahip bir günlük adı seçin.
 
-Temel tanımladıktan sonra tıklatarak gerçek işleme kuralları tanımlayabilirsiniz **satırları**. Net tutara elemek veya sabit bir tutar tanımlama elemeler için iki seçenek vardır. 
+Temelleri tanımladıktan sonra, **Satırlar** üzerine tıklatarak gerçek işleme kurallarını tanımlayabilirsiniz. Elemeler için iki seçenek mevcuttur; net değişim tutarını eleme veya sabit bir tutar tanımlama. 
 
-Kaynak hesabınızı seçin. Yıldız kullanabilirsiniz (\*) joker kart olarak. Örneğin, 1\* ayırma için veri kaynağı olarak 1 ile başlayan tüm hesapların seçersiniz. 
+Kaynak hesabınızı seçin. Joker karakter olarak bir yıldız (\*) kullanabilirsiniz. Örneğin, 1\* tahsisat için veri kaynağı olarak 1 ile başlayan tüm hesapları seçer. 
 
-Kaynak hesaplarınızı seçtikten sonra **hesap belirtimi** kullanılan hedef şirket hesabından belirler. Seçin **kaynak** tanımlanan aynı ana hesabı kullanmak isterseniz, **kaynak** hesabı. Seçerseniz **kullanıcı tanımlı**, sonra da hedef hesabı belirtmeniz gerekir. 
+Kaynak hesaplarınızı seçtikten sonra **Hesap belirtimi**, hedef şirketinden kullanılan hesabı belirler. **Kaynak** hesabında tanımlanan aynı ana hesabı kullanmak istiyorsanız **Kaynak**'ı seçin. **Kullanıcı tanımlı**'yı seçerseniz, bir hedef hesabı belirtmeniz gerekir. 
 
-Boyut belirtimi aynı şekilde davranır. Seçerseniz **kaynak**, onu aynı boyutları hedef şirket kaynak şirket olarak kullanır. Seçerseniz **kullanıcı tanımlı**, tıklatarak hedef şirkete ait boyutları belirtmek gerekir **hedef boyutları** menü öğesi. 
+Boyut belirtimi de aynı şekilde davranır. **Kaynak**'ı seçerseniz, hedef şirkette de kaynak şirkette kullandığı aynı boyutları kullanır. **Kullanıcı tanımlı**'yı seçerseniz, hedef şirketteki boyutları **Hedef boyutları** menü öğesini seçerek belirtmeniz gerekir. 
 
-Kaynak boyutları ve mali boyutları ve eleme kaynağı olarak kullanılan değerleri seçin.
+Kaynak boyutları ve eleme için kaynakta kullanılacak finansal boyutları ve değerleri seçin.
 
 ## <a name="process-elimination-transactions"></a>Eliminasyon hareketlerini işleme koy
-Çevrimiçi birleştirme işlemi sırasında veya eleme günlük oluşturma ve eleme teklif işlemini çalıştırarak işlemi eleme hareketleri için iki yol vardır. Bu bölümde, günlük oluşturma ve eleme işlemi çalıştıran odaklanır. 
+Eleme hareketlerini işlemenin iki yolu vardır; birleştirme işlemi sırasında veya bir eleme günlüğü oluşturarak ve eleme teklif işlemini yürüterek. Bu bölüm, günlüğü oluşturmaya ve eleme işlemini çalıştırmaya odaklanır. 
 
-Bir eleme şirket olarak tanımlanan bir şirkette seçin **eleme günlük** Konsolidasyonlar modülünde. Günlük adı seçtikten sonra'ı **satırları**. Teklifi seçerek çalıştırabilirsiniz **tekliflerini** menü ve daha sonra seçerek **eleme teklif**.
+Bir eleme şirketi olarak tanımlanan bir şirkette, Birleştirme modülü içerisinde **Eleme günlüğü**'nü seçin. Günlük adını seçtikten sonra, **Satırlar**'ı tıklatın. **Teklifler** menüsünü seçtikten sonra **Eleme teklifi**'ni seçerek teklifi çalıştırabilirsiniz.
 
-Şirket konsolide veri kaynağını seçin ve sonra işlem yapmak istediğiniz kuralı seçin. Eleme tutarlar için aramayı başlatmak için bir başlangıç tarihi ve bitiş eleme tutarlar için arama tarihi bitiş tarihi girin. **G/m deftere nakil tarihi** günlüğü genel muhasebeye nakletmek için kullanılan tarih bir alandır. Siz tıklattıktan sonra **Tamam**, tutarları gözden geçirin ve günlüğü deftere nakledin.
+Birleştirilmiş verinin kaynağı olan şirketi seçin ve sonra işlemek istediğiniz kuralı seçin. Eleme tutarlarını aramaya başlamak için bir başlangıç tarihi ve eleme tutarları bitişi için bir bitiş tarihi girin. **GL deftere nakil tarihi** alanı, günlüğü genel muhasebe defterine nakletmek için kullanılan tarihtir. **Tamam**'ı tıklattıktan sonra, tutarları görebilir ve günlüğü deftere nakledebilirsiniz.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Karma müşteri siparişleri"
-description: "Karma müşteri siparişi toplanma veya daha sonra sevk edilen ürünlerin yanı sıra deposundan müşteri tarafından gerçekleştirilmesi ürünleri içeren tek bir sıradır."
+description: "Bir karma müşteri siparişi, hem müşteri tarafından mağazadan alınabilecek ürünler içeren hem de daha sonra çekilecek veya sevk edilecek tek bir sipariştir."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,18 +27,23 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="hybrid-customer-orders"></a>Karma müşteri siparişleri
 
-Karma müşteri siparişi toplanma veya daha sonra sevk edilen ürünlerin yanı sıra deposundan müşteri tarafından gerçekleştirilmesi ürünleri içeren tek bir sıradır.
+[!include[banner](includes/banner.md)]
 
-Microsoft Dynamics 365 - işlemleri için perakende, ya da tüm ürünler Yürüt seçebilir veya seçili ürünler için müşteri siparişi yerine getirmek. Ürün siparişi oluşturulduktan sonra işaretlenen satırlar yürütmek gibi otomatik olarak faturalandırılır, benzer şekilde bu siparişi oluşturulduktan sonra çekilen-up için olan sipariş için aynıdır. Borç Tutarı üzerinde karma siparişleri depozito yüzdesi çekme ekleyerek ve sevk ürün satırları satırları Yürüt tutarının tamamı ile belirlenir. Karma siparişler için sistem müşteri sipariş ve Öde ve Al modları arasında şöyle geçer:
 
--   Sepetinizdeki tüm ürünler ayarlanmışsa, **teslim taşıyan**, sipariş Öde ve Al hareketi olarak ele alınır.
--   Arabası satırlarında herhangi biri veya tümü olarak ayarlanmışsa, **çekme** veya **sevk teslim**, sipariş müşteri sipariş işlem olarak ele alınacaktır.
+Bir karma müşteri siparişi, hem müşteri tarafından mağazadan alınabilecek ürünler içeren hem de daha sonra çekilecek veya sevk edilecek tek bir sipariştir.
 
-Sepeti satır seçiliyse ve **seçilen çekme**, **seçilen sevk**, veya **seçili yürütmek** ise seçiliyken, yalnızca belirli arabası satırı Bu teslim yöntemi ile ayarlanır. Bu durumda, işlem akış akışını her zaman olduğu gibi devam eder. Ancak, **seçilen çekme**, **seçilen sevk**, veya **seçili yürütmek** seçildiği, arabası olmadan çizgi sepeti satırları listeler yeni bir sayfa açar seçili. Bu ekranda aynı anda teslim yöntemini ayarlamak için birden çok satır seçebilirsiniz. Satırları seçmek için bu yöntemi kullandığınızda, satıra atanan tüm önceki teslim yöntemi geçersiz kılınır.
+Microsoft Dynamics 365 for Operations - Perakende içerisinde, bir müşteri siparişi için tüm ürünleri yerine getirmeyi veya yalnızca seçilen ürünleri yerine getirmeyi seçebilirsiniz. Yerine getirilmek üzere işaretlenmiş ürün satırları, sipariş oluşturulduktan sonra otomatik olarak faturalanır, sipariş oluşturulduktan sonra çekilecek bir sipariş için de aynı şey geçerlidir. Karma siparişlerde kalan tutar, ürün çekme ve sevk satırlarındaki depozito yüzdesini, yürütülecek satırların toplam tutarına eklenerek belirlenir. Sistem, karma siparişler için müşteri sipariş modur ve nakit ve taşı modları arasında şöyle geçiş yapar:
+
+-   Sepetteki tüm ürünler **Teslim alınan taşıma** olarak ayarlanmışsa, sipariş Öde ve Al hareketi olarak ele alınır.
+-   Sepetteki tüm veya bazı satırlar **Çekme** veya **sevk nakliyesi** olarak ayarlanmışsa, sipariş Müşteri sipariş hareketi olarak ele alınır.
+
+Bir sepet satırı seçildiyse ve **Seçileni çek**, **Seçileni sevk et** veya **Seçileni al git** seçiliyse, sadece belirli sepet satırları bu teslim yöntemiyle ayarlanır. Bu durumda, işlem akışı her zaman olduğu gibi devam eder. Ancak, **Seçileni çek**, **Seçileni sevk et** veya **Seçileni al git**, sepet satırı seçmeden seçildiyse, tüm sepet satırlarını listeleyen yeni bir sayfa açılır. Bu ekranda, bir teslim yöntemi ayarlamak için birden fazla satırı aynı anda seçebilirsiniz. Satırları seçmek için bu yöntemi kullandığınızda, satıra daha önce atanan tüm teslim yöntemleri geçersiz kılınır.
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Müşteri siparişleri genel bakış](customer-orders-overview.md)
+[Müşteri siparişlerine genel bakış](customer-orders-overview.md)
+
+
 
 

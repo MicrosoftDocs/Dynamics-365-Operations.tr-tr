@@ -1,6 +1,6 @@
 ---
-title: "Bilgi bulmak için arama kullanma"
-description: "İşlemler için Microsoft Dynamics 365 içinde birçok alanları kolayca doğru veya istenen değeri bulmanıza yardımcı olabilir arama sahiptir. Bu denetimler daha kullanışlı yapabilir ve kullanıcıların daha verimli aramalar için çeşitli geliştirmeler eklenmiştir. Bu konuda bu yeni arama özellikleri hakkında bilgi edineceksiniz ve sistemdeki en iyi kullanım dışı aramaları almak için bazı yararlı ipuçları alacaksınız."
+title: "Bilgi bulmak için aramaları kullanma"
+description: "Microsoft Dynamics 365 for Operations&quot;taki birçok alanda, doğru veya istediğiniz değeri bulmanıza yardımcı olabilecek aramalar vardır. Bu denetimleri daha kullanışlı hale getiren ve kullanıcıları daha üretken hale getiren aramalara çeşitli geliştirmeler eklendi. Bu konuda, bu yeni arama özellikleri hakkında bilgi edineceksiniz ve sistemdeki aramalardan en iyi sonucu almak için bazı yararlı ipuçları edineceksiniz."
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,59 +24,64 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-lookups-to-find-information"></a>Bilgi bulmak için arama kullanma
+# <a name="use-lookups-to-find-information"></a>Bilgi bulmak için aramaları kullanma
 
-İşlemler için Microsoft Dynamics 365 içinde birçok alanları kolayca doğru veya istenen değeri bulmanıza yardımcı olabilir arama sahiptir. Bu denetimler daha kullanışlı yapabilir ve kullanıcıların daha verimli aramalar için çeşitli geliştirmeler eklenmiştir. Bu konuda bu yeni arama özellikleri hakkında bilgi edineceksiniz ve sistemdeki en iyi kullanım dışı aramaları almak için bazı yararlı ipuçları alacaksınız.  
+[!include[banner](../includes/banner.md)]
+
+
+Microsoft Dynamics 365 for Operations'taki birçok alanda, doğru veya istediğiniz değeri bulmanıza yardımcı olabilecek aramalar vardır. Bu denetimleri daha kullanışlı hale getiren ve kullanıcıları daha üretken hale getiren aramalara çeşitli geliştirmeler eklendi. Bu konuda, bu yeni arama özellikleri hakkında bilgi edineceksiniz ve sistemdeki aramalardan en iyi sonucu almak için bazı yararlı ipuçları edineceksiniz.  
 
 <a name="responsive-lookups"></a>Duyarlı aramalar
 ------------------
 
-Arama denetimi ile kullanılırken işlemleri için Dynamics 365 önceki sürümlerinde, kullanıcı açılan menüsünü açmak için açık bir eylem etmesi gerekir. Bu yıldız yazarak olabilir (\*) kullanarak veya denetime denetim geçerli değerini temel alarak arama filtre uygulamak için aşağı açılan düğmesini tıklatarak **Alt**+**aşağı ok** klavye kısayolu. Arama denetimleri geçerli web uygulamaları ile daha iyi hizalamak için aşağıdaki şekilde değiştirildi:
+Dynamics 365 for Operations'ın önceki sürümlerinde, bir arama denetimiyle etkileşim kurarken, kullanıcının açılır menüyü açmak için açık bir eylem yapması gerekir. Bu, denetimin geçerli değerine göre aramayı filtrelemek için denetimde bir yıldız (\*) yazarak, açılır menü düğmesine tıklayarak veya **Alt**+**Aşağı ok** klavye kısayollarını kullanarak yapılmış olabilir Arama denetimleri, geçerli web uygulamalarıyla daha uyumlu olması için aşağıdaki şekilde değiştirildi:
 
--   Arama açılan menüleri şimdi açılır otomatik olarak, açılan ile yazarak, hafif duraklamadan sonra menü içeriklerini arama denetimin değerine göre filtre.
-    -   Unutmayın eski yıldız yazdıktan sonra açılan otomatik olarak açma davranışını (\*) düşürülmüştür.
--   Arama açılan menü açtıktan sonra aşağıdaki olur:
-    -   İmlecin (odak açılan menü taşımak) yerine arama denetimi içinde kalır böylece denetimin değeri değişiklik yapmak devam edebilirsiniz. Ancak, kullanıcı hala kullanabilirsiniz **yukarı ok** ve **aşağı ok** aþaðý açýlan menüsünden satır değiştirme ve geçerli satır aşağı açılan menüden seçmek için girin.
-    -   Arama denetimin değeri için herhangi bir değişiklik yapıldıktan sonra açılır menüsünün içeriğini ayarlar.
+-   Arama açılır menüleri artık yazarken hafif bir duraklamadan sonra otomatik olarak açılır ve içerikleri arama denetiminin değerine göre filtrelenmiş haldedir.
+    -   Yıldız işareti (\*) yazdıktan sonra açılır menünün otomatik açıldığı eski davranışın kullanımdan kaldırıldığına dikkat edin.
+-   Arama açılır menü açıldıktan sonra şunlar olur:
+    -   İmleç, denetimin değerinde değişiklik yapmaya devam edebilmeniz için (açılır menüye odaklama yerine) arama denetiminde kalır. Ancak, kullanıcı açılır menüdeki satırları değiştirmek ve açılır menüdeki geçerli satırı seçmek üzere giriş yapmak için **Yukarı ok**'u ve **Aşağı ok**'u kullanmaya devam edebilir.
+    -   Arama denetiminin değerinde değişiklik yapıldıktan sonra açılır menünün içeriği ayarlanır.
 
-Örneğin, adlı bir arama alanı düşünün **Şehir**. 
+Örneğin **Şehir** adlı bir arama alanı düşünün. 
 
-Odak olduğunda **Şehir** alan, "süt" gibi birkaç harf yazarak istediğiniz şehir arayan başlayabilir  Yazmayı bırakın sonra arama "süt" ile başlayan bu şehirler için filtre otomatik olarak açılır. 
+Odak **Şehir** (City) alanındayken, "col" gibi birkaç harf yazarak istediğiniz şehir için arama başlatabilirsiniz.  Siz yazmayı durdurduktan sonra arama "col" ile başlayan şehirler filtre edilerek gösterilmiş halde otomatik olarak açılır. 
 
 [![typeaheadLookupExample](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png) 
 
-Bu noktada, hala arama alanında imlecidir. "Sütu" değeri olacak şekilde yazmaya devam ederseniz, arama içeriği denetimi son değeri yansıtacak şekilde otomatik olarak ayarlanır. 
+Bu noktada imleç hala arama alanındadır. Değer "colum" olacak şekilde yazmaya devam ederseniz, arama içeriği denetimdeki son değeri yansıtacak şekilde otomatik olarak ayarlanır. 
 
 ![updateFilterLookupExample](./media/updatefilterlookupexample.png) 
 
-Odak arama denetimi yine olsa da kullanabilirsiniz **yukarı ok** veya **aşağı ok** tuşlarını kullanarak seçmek istediğiniz satırı vurgulayın. Basarsanız **Enter** vurgulanmış satıra aramasından seçilir ve denetimin değeri güncelleştirilir. 
+Odak arama denetiminde olsa da, seçmek istediğiniz satırı vurgulamak için **Yukarı ok** veya **Aşağı ok** tuşlarını da kullanabilirsiniz. **Enter** tuşuna basarsanız, vurgulanmış satır aramada seçilir ve denetimin değeri güncelleştirilir. 
 
 ![changingSelectionLookup](./media/changingselectionlookup.png)
 
-## <a name="typing-in-more-than-ids"></a>Birden çok kimlik yazmakta
-Veri girerken, kullanıcıların bir müşteri veya satıcı, adı yerine bir tanımlayıcıyı temsil eden varlık açısından gibi bir varlık tanımlamak denemek doğaldır. Dynamics 365 işlemleri için geçerli sürümünde, çoğu (ancak tüm) aramaları artık bağlamsal veri girişine olanak verir. Bu güçlü özellik kullanıcı kimliği veya karşılık gelen ad arama denetimi yazmak izin verir. 
+## <a name="typing-in-more-than-ids"></a>Koddan daha fazlasını yazma
+Veri girerken kullanıcıların, bir varlığı temsil eden bir tanımlayıcı yerine, bir müşteri veya satıcı gibi bir varlığı tanımlamaya çalışması doğaldır. Dynamics 365 for Operations'ın geçerli sürümünde birçok aramada (tümünde değil) bağlamsal veri girişine artık izin veriliyor. Bu güçlü özellik kullanıcının arama denetiminde kodu veya karşılık gelen adı yazmasına izin veriyor. 
 
-Örneğin, düşünün **müşteri hesabı** alan bir satış siparişi oluştururken. Bu alanda gösterilir **hesap kimliği** müşteri, ancak bir kullanıcı genellikle girmek tercih için bir **hesap adı** yerine bir **hesap kimliği** "Orman Wholesales" yerine "ABD-003." gibi bir satış siparişi oluştururken, bu alan için
+Örneğin bir satış siparişi oluştururken **Müşteri hesabı** alanını düşünün. Bu alanda müşteri için **Hesap kodu** gösterilir ancak bir kullanıcı satış siparişi oluştururken genellikle **Hesap kodu** yerine **Hesap adı** girmeyi tercih edecektir (örneğin "ABD-003" yerine "Forest Wholesales").
 
-Kullanıcı girmeye başladı, bir **hesap kimliği** arama denetimine, önceki bölümde açıklandığı şekilde otomatik olarak açılan menüyü açar ve kullanıcı arama aşağıda gösterildiği gibi görür.
+Kullanıcı arama denetimine bir **Hesap kodu** girmeye başladığı zaman açılır menü önceki bölümde açıklandığı şekilde otomatik olarak açılır ve kullanıcı aramayı aşağıda gösterildiği gibi görür.
 
-[![Müşteri hesap kodu girildiğinde, bağlamsal arama](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
+[![Müşteri hesap kodu girildiğinde bağlamsal arama](./media/howtocontextuallookups-1.png)](./media/howtocontextuallookups-1.png)
 
-Ancak, kullanıcı başına da şimdi girebilirsiniz bir **hesap adı** de. Algılanırsa, kullanıcı şu arama bakın. Bildirimi nasıl **adı** sütun ilk sütunda arama olarak taşındığı ve arama nasıl sıralanmış ve filtre temel **adı** sütun.
+Ancak, kullanıcı artık bir **Hesap adının** baş kısmını da girebilir. Bu algılandığı zaman kullanıcı aşağıdaki aramayı görecektir. Aramada **Ad** (Name) sütununun ilk sütun olacak şekilde nasıl taşındığına ve aramanın **Ad** sütununa göre nasıl sıralanıp filtrelendiğine dikkat edin.
 
-[![Müşteri adı girildiğinde, bağlamsal arama](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
+[![Müşteri adı girildiğinde bağlamsal arama](./media/howtocontextuallookups-2.png)](./media/howtocontextuallookups-2.png)
 
 ## <a name="using-grid-column-headers-for-more-advanced-filtering-and-sorting"></a>Daha gelişmiş filtreleme ve sıralama için kılavuz sütun başlıklarını kullanma
-Büyük ölçüde önceki iki bölümde ele alınan arama geliştirmeleri satırları bir "ile başlar" arama üzerinde temel alan bir arama gitmek için bir kullanıcının yeteneklerini geliştirmek **ID** veya **adı** arama alanındaki. Ancak, içinde daha gelişmiş filtreleme (veya sıralama) doğru satır bulmak için gerekli durumlar vardır. Bu durumda, kullanıcının arama içinde kılavuz sütun üstbilgileri filtreleme ve sıralama seçeneklerini kullanmak gerekir. Örneğin, bir satış siparişi satırına girerek bir ürün olarak "kablo" sağ bulmak için gereken çalışan düşünün. "Kablo" içine yazmaya **madde numarası** "kablo" ile başlayan hiçbir ürün adları gibi denetim yardımcı değil 
+Önceki iki bölümde ele alınan arama geliştirmeleri kullanıcının bir aramada **Kod** veya **Alan** alanının "ile başlar" şeklinde aranmasına göre satırlar arasında gezinme yeteneğini büyük ölçüde geliştiriyor. Bununla birlikte, doğru satırı bulmak için daha gelişmiş filtrelemenin (veya sıralamanın) gerekli olduğu durumlar vardır. Böyle durumlarda kullanıcının arama içinde kılavuz sütun başlıklarında filtreleme ve sıralama seçeneklerini kullanması gerekir. Örneğin, bir satış siparişi satırı girerken ürün olarak doğru "kabloyu" bulması gereken bir çalışan düşünün. "Kablo" ile başlayan ürün adı olmadığı için, **Madde numarası** denetimine "kablo" yazmak yardımcı olmaz. 
 
 ![emptyitemlookup](./media/emptyitemlookup.png) 
 
-Bunun yerine, kullanıcının arama denetiminin değerini temizleyin, arama açılır menüsünü açın ve aşağıda gösterildiği gibi filtre kılavuz sütun başlığını kullanarak açılan menüsü gerekir. Fare (veya dokunma) bir kullanıcı yalnızca tıklatın (dokunmatik filtreleme ve sıralama seçenekleri için o sütundaki erişmek için herhangi bir sütun başlığını veya). Klavye kullanıcı için kullanıcının yalnızca basın gerekir **Alt**+**aşağı****oku** sonra kullanıcı sekme için doğru sütunu ve tuşuna basarak açılan menüye, odağı taşımak için ikinci kez **Ctrl**+**G** kılavuz sütun başlığındaki açılan menüsünü açmak için. 
+Bunun yerine, kullanıcı arama denetiminin değerini temizlemeli, arama açılır menüsünü açmalı ve aşağıda gösterildiği gibi ızgara sütun başlığını kullanarak açılır menüyü filtrelemelidir. Bir kullanıcı sütun başlığına fareyle tıklayarak veya dokunarak o sütunun filtreleme ve sıralama seçeneklerine erişebilir. Klavye kullananlar için, kullanıcının odağı açılır menüye getirmesi için, doğru sütuna gelmek üzere ikinci kez **Alt**+**Aşağı** **oka** basması, ardından **Ctrl**+**G** tuşlarına basarak ızgara sütunu başlığının açılır menüsünü açması gerekir. 
 
 [![gridfilteritemlookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png) 
 
-(Aşağıdaki resme bakın) filtre uygulandıktan sonra bulmak ve her zamanki şekilde satır seçin. 
+Filtre uygulandıktan sonra (aşağıdaki resme bakın) kullanıcı her zamanki gibi satırı bulup seçebilir. 
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
+
+
 
 

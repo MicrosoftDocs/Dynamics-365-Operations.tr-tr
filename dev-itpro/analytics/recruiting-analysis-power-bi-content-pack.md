@@ -1,6 +1,6 @@
 ---
-title: "Güç BI içeriği işe alma"
-description: "Bu konuda Dynamics 365 işlemleri - güç BI işe alma içeriği açıklar. İçerik paketinde bulunan raporlara erişimi açıklar ve içerik paketi oluşturmak için kullanılan varlıkları ve veri modeli hakkında bilgi sağlar."
+title: "İşe alma Power BI içeriği"
+description: "Bu konu Dynamics 365 for Operations - İşe Alma Power BI içeriğini açıklar. Bu ayrıca, içerik paketine dahil edilen raporların nasıl kullanılacağını açıklar ve içerik paketini oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,49 +24,52 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recruiting-power-bi-content"></a>Güç BI içeriği işe alma
+# <a name="recruiting-power-bi-content"></a>İşe alma Power BI içeriği
 
-Bu konuda Dynamics 365 işlemleri - güç BI işe alma içeriği açıklar. İçerik paketinde bulunan raporlara erişimi açıklar ve içerik paketi oluşturmak için kullanılan varlıkları ve veri modeli hakkında bilgi sağlar.
+[!include[banner](../includes/banner.md)]
 
-<a name="accessing-the-content-pack"></a>İçerik Paketi erişme
+
+Bu konu Dynamics 365 for Operations - İşe Alma Power BI içeriğini açıklar. Bu ayrıca, içerik paketine dahil edilen raporların nasıl kullanılacağını açıklar ve içerik paketini oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
+
+<a name="accessing-the-content-pack"></a>İçerik paketine erişmek
 --------------------------
 
-İşe alma içerik paketi paylaşılan varlıkları kitaplığı Microsoft Dynamics ömrü Hizmetleri (LCS) bulabilirsiniz. İçerik paketini karşıdan yüklemek ve veri işlemleri için Microsoft Dynamics 365 bağlanma hakkında daha fazla bilgi için bkz: [Microsoft ve ortaklarınız LCS içeriğinde güç BI](power-bi-content-microsoft-partners.md).
+İşe Alma içerik paketini, Microsoft Dynamics Lifecycle Services (LCS) içindeki Paylaşılan varlık kütüphanesinde bulabilirsiniz. İçerik paketini indirmek ve Microsoft Dynamics 365 for Operations verinize bağlamak hakkında daha fazla bilgi için bkz. [Microsoft ve ortaklarınızdan LCS içerisindeki Power BI içeriği](power-bi-content-microsoft-partners.md).
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>İçerik paketinde bulunan raporlar
-İşlem verileri, Dynamics 365 içerik paketi bağlandıktan sonra kuruluşunuzun veri raporlarını göster. Microsoft Power BI önce hiç kullanmadıysanız, daha fazla bilgi üzerinde öğrenebilirsiniz [BI güç destekli öğrenme sayfasını](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Hem grafik hem de ek bilgi içeren tablolar içerik paketinde bulunan raporlar vardır. Aşağıdaki tablo bu raporları açıklar.
+İçerik paketini Dynamics 365 for Operations verinize bağladıktan sonra, raporlar kuruluşunuzun verilerinde görünür. Daha önce hiç Microsoft Power BI kullanmadıysanız, daha fazla bilgiyi şuradan edinin: [Power BI için Destekli Öğrenme sayfası](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). İçerik paketinde bulunan raporlar, ek bilgiler içeren hem grafiklere hem de tablolara sahiptir. Aşağıdaki tablo bu raporları açıklar.
 
 | Rapor                       | İçindekiler                                                                                               |
 |------------------------------|--------------------------------------------------------------------------------------------------------|
-| Başvuranın analizi           | Başvuranlar iş, başvuran kaynakları, başvuranların konumu ve başvuranların toplam sayısı           |
-| Başvuranın durumu             | Başvuranlar tarafından türünü, durumunu ve Başvuranın durumu                                                    |
-| Başvuranın demografisi       | Başvuranların yaş ve cinsiyet ve eğitim düzeyi ve durum Başvuranlar                             |
-| Analiz işe alma          | İşe alma oranı net, işe almak, hatalı hires ve personel arama maliyetleri yüzde gün ortalama                    |
-| İşe alma projesi analizi | İşe alma projeleri, işe alma projesi tarafından delikler ve işe alma projesi tarafından başvuranların sayısı |
+| Başvuranın Analizi           | İşe başvuranlar, başvuran kaynakları, başvuranların konumu ve başvuranların toplam sayısı           |
+| Başvuranın Durumu             | Türe ve duruma göre başvuranlar ve başvuranın durumu                                                    |
+| Başvuranın Demografisi       | Başvuranların yaşı ve cinsiyeti ve başvuranların eğitim düzeyi ve durumu                             |
+| İşe Alma Analizi          | Net işe alma oranı, ortalama işe alma gün sayısı, hatalı işe alımların yüzdesi ve işe alma maliyetleri                    |
+| İşe Alma Projesi Analizi | İşe alma projesi sayısı, işe alma projesiyle açılan yerler ve işe alma projesine başvuranların sayısı |
 
-Grafikleri ve döşeme bu raporlarda filtre uygulayabilir ve grafikleri ve Pano döşemelere Sabitle. Filtre ve güç BI PIN'i hakkında daha fazla bilgi için bkz: [oluşturma ve yapılandırma bir Pano](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve kutuları panoya sabitleyebilirsiniz. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano Oluşturma ve Yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
-Dynamics 365 veri işlemleri için işe alma içerik paketinde raporları doldurmak için kullanılır. Aşağıdaki tabloda, içerik paketi üzerinde dayandırıldığı varlıkları gösterir.
+Dynamics 365 for Operations verisi, İşe Alma içerik paketindeki raporları doldurmak için kullanılır. Aşağıdaki tablo, içerik paketinin üzerine dayandırıldığı varlıkları gösterir.
 
 | Varlık                          | İçindekiler                                                         | Diğer varlıklarla ilişkiler                                                                                                                                                                                                                 |
 |---------------------------------|------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| İşe alma\_başvuran           | Başvuranlar, işe alınan Başvuranlar, net işe alma oranı ve maliyetleri          | İşe alma\_ApplicantName işe alma\_şirketin işe alma\_CalendarOffset Recuriting\_işe alma tarihi\_GeographicLocation işe\_işe alma demografisi\_işe alma işi\_medya işe alma\_RecruitmentProject                                |
-| İşe alma\_ApplicantName       | Başvuranın adı, Soyadı ve tam adı                   | İşe alma\_işe başvuran\_işe EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
-| İşe alma\_CalendarOffset      | Dilim raporları için Takvim kaydırır                                | İşe alma\_işe başvuran\_işe EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
-| İşe alma\_şirket             | Şirketler tarafından raporlara filtre uygulamak için                                   | İşe alma\_işe başvuran\_işe EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
-| İşe alma\_tarihi                | Gün, hafta, ay ve yıl                                   | İşe alma\_işe başvuran\_işe EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
-| İşe alma\_demografisi        | Doğum, cinsiyet, etnik köken ve Medeni durum tarihi         | İşe alma\_işe başvuran\_işe EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
-| İşe alma\_EmployedApplicant   | Başvuran, performans, başlangıç tarihi ve başvuran yazın           | İşe alma\_şirketin işe alma\_CalendarOffset işe alma\_işe alma tarihi\_GeographicLocation işe\_ApplicantName işe\_İstihdam işe alma\_performans işe alma\_işe alma işi\_medya işe alma\_RecruitmentProject          |
-| İşe alma\_çalışma          | Başlangıç tarihi, bitiş tarihi ve geçiş tarihi                        | İşe alma\_işe başvuran\_işe EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
-| İşe alma\_GeographicLocation  | Şehir, ilçe, posta kodu ve eyalet veya bölge                 | İşe alma\_işe başvuran\_işe EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
-| İşe alma\_işi                 | İşlevi, türü ve başlık                                        | İşe alma\_işe başvuran\_işe EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
-| İşe alma\_ortam               | Başvuranlar kaynağı                                             | İşe alma\_işe başvuran\_işe EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
-| İşe alma\_performans         | Derecelendirme, açıklama ve değerlendirme modeli                            | İşe alma\_işe başvuran\_işe EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
-| İşe alma\_RecruitmentProject  | Proje açıklaması, proje durumu ve delikler                | İşe alma\_işe başvuran\_işe EmployedApplicant\_TerminatedApplicant                                                                                                                                                               |
-| İşe alma\_TerminatedApplicant | Başvuranlar, neden, performans ve sonlandırma tarihi sona erdi | İşe alma\_şirketin işe alma\_CalendarOffset işe alma\_işe alma tarihi\_GeographicLocation işe alma\_performans işe alma\_işe alma demografisi\_İstihdam işe alma\_ortam işe alma\_RecruitmentProject işe\_ApplicantName |
+| İşe alma\_Başvuran           | Başvuranlar, işe alınan başvuranlar, net işe alma oranı ve maliyetleri          | İşe alma\_ApplicantName İşe alma\_Şirket İşe alma\_CalendarOffset İşe alma\_Tarih İşe alma\_GeographicLocation İşe alma\_Demografi İşe alma\_İş İşe Alma\_Medya İşe alma\_RecruitmentProject                                |
+| İşe alma\_ApplicantName       | Başvuranın ilk adı, soyadı ve tam adı                   | İşe alma\_Başvuran İşe Alma\_EmployedApplicant İşe Alma\_TerminatedApplicant                                                                                                                                                               |
+| İşe Alma\_CalendarOffset      | Raporları dilimlemek için takvim kaydırmaları                                | İşe alma\_Başvuran İşe Alma\_EmployedApplicant İşe Alma\_TerminatedApplicant                                                                                                                                                               |
+| İşe alma\_Şirket             | Raporların filtreleneceği şirketler                                   | İşe alma\_Başvuran İşe Alma\_EmployedApplicant İşe Alma\_TerminatedApplicant                                                                                                                                                               |
+| İşe alma\_Tarihi                | Günler, haftalar, aylar ve yıllar                                   | İşe alma\_Başvuran İşe Alma\_EmployedApplicant İşe Alma\_TerminatedApplicant                                                                                                                                                               |
+| İşe alma\_Demografi        | Doğum tarihi, cinsiyet, etnik köken ve medeni hal         | İşe alma\_Başvuran İşe Alma\_EmployedApplicant İşe Alma\_TerminatedApplicant                                                                                                                                                               |
+| İşe alma\_EmployedApplicant   | Başvuran, performans, başlangıç tarihi ve başvuran türü           | İşe alma\_Şirket İşe Alma\_CalendarOffset İşe Alma\_Tarih İşe Alma\_GeographicLocation İşe Alma\_ApplicantName İşe Alma\_Employment İşe Alma\_Performans İşe Alma\_İş İşe Alma\_Media İşe Alma\_RecruitmentProject          |
+| İşe alma\_İstihdam          | Başlangıç tarihi, bitiş tarihi ve geçiş tarihi                        | İşe alma\_Başvuran İşe Alma\_EmployedApplicant İşe Alma\_TerminatedApplicant                                                                                                                                                               |
+| İşe alma\_GeographicLocation  | Şehir, ilçe, posta kodu ve eyalet veya bölge                 | İşe alma\_Başvuran İşe Alma\_EmployedApplicant İşe Alma\_TerminatedApplicant                                                                                                                                                               |
+| İşe Alma\_İş                 | İşlev, tür ve başlık                                        | İşe alma\_Başvuran İşe Alma\_EmployedApplicant İşe Alma\_TerminatedApplicant                                                                                                                                                               |
+| İşe alma\_Medya               | Başvuran kaynağı                                             | İşe alma\_Başvuran İşe Alma\_EmployedApplicant İşe Alma\_TerminatedApplicant                                                                                                                                                               |
+| İşe alma\_Performans         | Değerlendirme, açıklama ve derecelendirme modeli                            | İşe alma\_Başvuran İşe Alma\_EmployedApplicant İşe Alma\_TerminatedApplicant                                                                                                                                                               |
+| İşe alma\_RecruitmentProject  | Proje açıklaması, proje durumu ve açılan yerler                | İşe alma\_Başvuran İşe Alma\_EmployedApplicant İşe Alma\_TerminatedApplicant                                                                                                                                                               |
+| İşe alma\_TerminatedApplicant | Sonlandırılan başvuranlar, neden, performans ve sonlandırma tarihi | İşe Alma\_Şirket İşe Alma\_CalendarOffset İşe Alma\_Tarih İşe Alma\_GeographicLocation İşe Alma\_Performans İşe Alma\_Demografi İşe Alma\_İstihdam İşe Alma\_Medya İşe Alma\_RecruitmentProject İşe Alma\_ApplicantName |
 
-Bu varlıklar, hesaplanmış ölçüler oluşturmakta kullanılmış. Bunlar hesaplanmış ölçüler sonra anahtar performans göstergeleri (APG) hesaplamak için kullanılır ve içerik paketinde kullanılan raporlar. Raporları ve gösterge tablosu ek hesaplamalara dahil etmek isterseniz, karşıdan yükleyip LCS Recruiting.pbix dosyasından değiştirin. Bu dosyayı içerik paketi oluşturmak için kullanılan varsayılan veri modelidir. Değişiklikleri yaptıktan sonra bir Kuruluş İçerik Paketi ve eklediğiniz bilgiler içeren Pano oluşturabilirsiniz.
+Bu varlıklar hesaplanmış ölçümler oluşturmak için kullanılıyordu. Bu hesaplanmış ölçümler daha sonra anahtar performans göstergeleri (KPI'ları) hesaplamak ve içerik paketinde kullanıla raporları hesaplamakta kullanılır. Raporlarınıza ve panonuza ek hesaplamalar dahil etmek istiyorsanız, Recruiting.pbix dosyasını LCS'den indirebilir ve değiştirebilirsiniz. Bu dosya, içerik paketini oluşturmak için kullanılan varsayılan veri modelidir. Değişikliklerinizi yaptıktan sonra, eklediğiniz içerikleri kapsayan bir kuruluş içerik paketi ve panosu oluşturabilirsiniz.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 Power BI içeriği oluşturmak ve varlıklarla ilgili bazı yararlı bağlantılar şunlardır:
@@ -75,6 +78,8 @@ Power BI içeriği oluşturmak ve varlıklarla ilgili bazı yararlı bağlantıl
 -   [Kuruluş içerik paketleri oluşturma](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Power BI kullanarak veri modelleme](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Çalışma alanlarına Power BI kutucukları ekleme](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
+
+
 
 
 

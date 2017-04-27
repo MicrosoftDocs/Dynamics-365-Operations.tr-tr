@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Alacak hesapları, Alacak ve Tahsilatları yapılandır
 
+[!include[banner](../includes/banner.md)]
+
+
 Faturaları ve müşterilerden gelen ödemeleri izlemek için Alacak hesaplarını ve Alacak ve Tahsilatları yapılandırın.
 
 Müşteri grupları, müşteriler, nakil profilleri, çeşitli ödeme seçenekleri, faiz notları, tahsilat mektupları, komisyon ücretleri, müşterilerle ilgili parametreler, giderler, teslimatlar ve teslimat yerleri ve diğer Alacak hesapları ve Alacaklar ile Tahsilatların bilgilerini oluşturabilirsiniz.
@@ -98,14 +101,16 @@ Aşağıdaki tablo, Alacak hesapları ve kredi ve tahsilatların yapılandırma 
 |                                                      | Müşteri kişileri ve e-posta ayarları | Müşteriler için kişileri, e-posta adresleriyle ayarlayın. Bu adresler Tahsilatlar sayfasında görünür ve müşterilere giden e-postaları oluşturmak için kullanılır. Ayrıca her bir müşteri için, Tahsilatlar sayfasında ilk sırada görüntülenecek varsayılan Tahsilat kişisini oluşturun. |
 |                                                      | Müşteri havuzları                       | Tahsilatlar veya yaşlandırma işlemleri için görüntülenebilen veya yönetilebilen müşteri hesaplarının bir grubunu tanımlayan müşteri havuzları ayarlayın.                                                                                                                           |
 |                                                      | Müşteri nakil profili             | Müşteri hareketlerinin genel muhasebeye naklini kontrol eden profilleri ayarlayın.                                                                                                                                                                                      |
-|                                                      | Müşteri neden kodları                | Müşteri nedeni kodları ayarlamak.                                                                                                                                                                                                                                                    |
-|                                                      | Müşteriye göre yok edilen değerler neden kodları      | Göre yok edilen değerler hareketler için kullanılacak müşteri göre yok edilen değerler nedenleri kodlarını ayarlayın.                                                                                                                                                                                             |
+|                                                      | Müşteri neden kodları                | Müşteri neden kodlarını ayarlayın.                                                                                                                                                                                                                                                    |
+|                                                      | Müşteri silme neden kodları      | Silme hareketleri için kullanılacak müşteri sebep kodları ayarlayın.                                                                                                                                                                                             |
 |                                                      | Form kurulumu                           | Teklifler, teyitler, malzeme çekme listeleri, sevk irsaliyeleri, müşteri faturaları, serbest metin faturaları ve vade farkı dekontları için form not parametreleri tanımlayın.                                                                                                                               |
 |                                                      | İlgi Alanı                             | Faiz kodlarını ayarlayın ve yönetin.                                                                                                                                                                                                                                                 |
 |                                                      | NSF bilgisi                     | Banka hesabındaki bir ödemenin Tahsilatlar sayfasında bir NSF hareketi olarak işaretlendiğinde, kullanılacak NSF bilgilerini ayarlayın.                                                                                                                                              |
 |                                                      | Satış temsilcisi bilgileri              | Satış temsilcileri için e-posta adresi ayarlayın. Bu adresler Tahsilatlar sayfasında görünür ve bu sayfadan bir satış temsilcisine e-posta göndermek için kullanabilirsiniz.                                                                                                                |
 
  
-Daha fazla bilgi için bkz: [alacak ve Alacak hesapları koleksiyonlarında](collections-credit-accounts-receivable.md).
+Daha fazla bilgi için bkz. [Alacak hesaplarındaki borç ve alacaklar](collections-credit-accounts-receivable.md).
+
+
 
 

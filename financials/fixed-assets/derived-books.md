@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="derived-books"></a>Türetilen defterler
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makale, türetilmiş defter işlevselliğine genel bir bakış sağlar.
 
-Türetilmiş kitaplar amacı, düzenli aralıklarla planlanan sabit kıymet defteri hareketlerinin deftere nakil kolaylaştırmaktır.  Bir kitap birincil defteri seçmeniz gerekir. Bu, genellikle amortisman muhasebesi için kullanılan defterdir. Ardından, hareketleri birincil defterle aynı aralıklarda nakletmek için kurulan diğer defterlere eklersiniz. Vergi amortisman defterleri genellikle türetilmiş defterler olarak oluşturulur. 
+Türetilmiş kitapların amacı, düzenli aralıklarla planlanan sabit kıymet kitap hareketlerinin nakledilmesini kolaylaştırmaktır.  Bir kitabı birincil kitap olarak seçebilirsiniz. Bu, genellikle amortisman muhasebesi için kullanılan defterdir. Ardından, hareketleri birincil defterle aynı aralıklarda nakletmek için kurulan diğer defterlere eklersiniz. Vergi amortisman defterleri genellikle türetilmiş defterler olarak oluşturulur. 
 
 Türetilmiş defterlere nakletmek için ayarlanan en yaygın hareketler alımlar, alım düzeltmeleri ve çıkışlardır. 
 
@@ -42,6 +45,8 @@ Hareket nakledildiğinde, defter B için kıymet 123 içinde bir alım hareketi 
 > [!NOTE]                                                                                                                               
 > Birincil defter aralıkları dışındaki aralıklarda hareketleri nakletmek için oluşturulan defterler türetilmiş defterler olarak değil, ayrı defterler olarak sabit kıymete eklenmelidir.  
 
-Daha fazla bilgi için bkz: [türetilmiş Defterleriyle deftere nakil](post-derived-value-models.md).
+Daha fazla bilgi için bkz: [Türetilmiş defterlerle deftere nakil](post-derived-value-models.md).
+
+
 
 

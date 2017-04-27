@@ -1,5 +1,5 @@
 ---
-title: "Kısmi Müşteri ödeme iskontosu tarihinden önce son bir ödeme iskontosu tarihinden sonra ile tasfiye et"
+title: "Kısmi müşteri ödemesini iskonto tarihinden önce, iskonto tarihinden sonraki son bir ödeme ile tasfiye et"
 description: "Bu makalede müşteriler için ödemelerin kapatılmasının faturalar üzerindeki etkisi tartışılmıştır. Senaryo, Genel muhasebeye değil, yardımcı deftere etkileri üzerinde durmaktadır."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Kısmi Müşteri ödeme iskontosu tarihinden önce son bir ödeme iskontosu tarihinden sonra ile tasfiye et
+# <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Kısmi müşteri ödemesini iskonto tarihinden önce, iskonto tarihinden sonraki son bir ödeme ile tasfiye et
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede müşteriler için ödemelerin kapatılmasının faturalar üzerindeki etkisi tartışılmıştır. Senaryo, Genel muhasebeye değil, yardımcı deftere etkileri üzerinde durmaktadır.
 
-Fabrikam 4027 müşteriye mal satmaktadır. 14 gün içinde faturası ödeniyorsa Fabrikam yüzde 1'lik bir nakit iskontosu sunar. Faturaların 30 gün içinde ödenmesi gerekir. Fabrikam, kısmi ödemeler için de nakit iskontoları sunmaktadır. Kapatma parametreleri üzerinde bulunan **Accounts receivable parameters** sayfa.
+Fabrikam 4027 müşteriye mal satmaktadır. Fabrikam, fatura 14 gün içerisinde ödenirse yüzde 1'lik nakit iskontosu sunar. Faturaların 30 gün içinde ödenmesi gerekir. Fabrikam, kısmi ödemeler için de nakit iskontoları sunmaktadır. Kapatma parametreleri, **Alacak hesapları parametreleri** sayfasında bulunur.
 
 ## <a name="invoice"></a>Fatura
-25 Haziran Tamer girer ve 1.000,00 4027 müşteri için bir fatura deftere nakleder. Tamer, bu fatura kullanarak görüntüleyebileceğiniz **hareketleri** düğmesini **müşteriler** sayfa.
+25 Haziran Tamer 4027 müşteri için 1.000,00 değerinde bir faturayı girip deftere nakleder. Tamer, bu faturayı **Müşteriler** sayfasındaki **Hareketler** düğmesini kullanarak görüntüleyebilir.
 
 | Fiş   | Hareket türü | Tarih      | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Kalan  | Para Birimi |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -46,7 +49,7 @@ Fabrikam 4027 müşteriye mal satmaktadır. 14 gün içinde faturası ödeniyors
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
 | Seçildi | Normal            | FTI-10020 | 4027    | 25/6/2015 | 25/7/2015 | 10020   | 1.000,00                             | ABD Doları      | 297,00           |
 
-İskonto bilgileri **Açık işlemleri düzelt** sayfasının altında görüntülenir. **Kapatılacak tutar** değerini 297,00 olarak değiştirmezseniz, görünen **Nakit iskontosu tutarı** değerleri farklı olur. Ödemeyi deftere nakledildiğinde, kapatma otomatik olarak ayarlar çünkü ancak 3,00 nakit iskontosu alınır ** kapatılacak tutar ** sizin için değer.
+İskonto bilgileri **Açık işlemleri düzelt** sayfasının altında görüntülenir. **Kapatılacak tutar** değerini 297,00 olarak değiştirmezseniz, görünen **Nakit iskontosu tutarı** değerleri farklı olur. Ancak, kapatma işlemi, **Kapatılacak tutar** değerini sizin için otomatik olarak düzenleyeceğinden ödeme nakledildiğinde nakit iskontosu olarak 3,00 alınacaktır.
 
 |                              |           |
 |------------------------------|-----------|
@@ -106,6 +109,8 @@ Tamer, bu müşterinin 7.00'lik kalan nakit iskontosunu almasına izin vermediğ
 | ARP-10020  |                  | 1/7/2015  |         |                                      | 297,00                                | 0,00    | ABD Doları      |
 | DISC-10020 |                  | 1/7/2015  |         |                                      | 3,00                                  | 0,00    | ABD Doları      |
 | ARP-10021  |                  | 11/7/2015 |         |                                      | 700,00                                | 0,00    | ABD Doları      |
+
+
 
 
 

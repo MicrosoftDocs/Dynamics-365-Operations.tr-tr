@@ -1,5 +1,5 @@
 ---
-title: Konsinye Ayarla
+title: Konsinyeyi ayarlama
 description: "Bu konu gelen konsinye stok operasyonlarının nasıl yapılandırılacağını açıklar."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-consignment"></a>Konsinye Ayarla
+# <a name="set-up-consignment"></a>Konsinyeyi ayarlama
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu konu gelen konsinye stok operasyonlarının nasıl yapılandırılacağını açıklar. 
 
@@ -34,19 +37,21 @@ Konsinye stok, satıcıya ait olan ancak tesisinizde depolanan stoktur. Stoğu t
 ## <a name="inventory-owners"></a>Stok sahipleri
 Fiziksel gelen konsinye stoğu kaydetmek için bir satıcı sahibi tanımlamanız gerekir. Bu **Stok sahibi** sayfasında yapılır. **Satıcı hesabı**'nı seçtiğinizde bu **Ad** ve **Sahip** alanları için varsayılan değerleri oluşturur. **Sahip** alanındaki değer satıcıya görünür olacaktır, bu nedenle satıcı hesabı adlarınız şirket dışı insanların tanımaları için kolay değilse değiştirmek isteyebilirsiniz. **Sahip** alanını yalnızca **Stok sahibi** kaydını kaydettiğiniz zamana kadar düzenlemek mümkündür. **Ad** alanı satıcı hesabının ilişkilendirildiği tarafın adıyla doldurulur ve değiştirilemez. 
 
-[![Stok sahipleri](./media/inventory-owners.png)](./media/inventory-owners.png)
+[![stok-sahipleri](./media/inventory-owners.png)](./media/inventory-owners.png)
 
 ## <a name="tracking-dimension-group"></a>İzleme boyut grubu
 Konsinye işlemlerinde kullanılacak maddeler **Sahip** boyutunun **Etkin** olarak ayarlandığı bir **İzleme boyut grubu** ile ilişkilendirilmelidir. Sahip boyutunda her zaman **Fiziksel stok** ve **Mali stok** seçenekleri seçili olmalıdır. **Boyuta göre tedarik planı** kesinlikle seçilmemelidir. 
 
-[![İzleme boyut grubu](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
+[![izleme-boyut-grubu](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Stok sahipliği değişiklik günlüğü
 Konsinye stoğun sahipliğinin satıcıdan konsinye stoğu tüketecek tüzel kişiliğe transferini kaydetmek için **Stok sahipliği değişiklik **günlüğü kullanılır. Diğer stok günlükleri gibi bir stok günlüğü adı ile tanımlanmalıdır. Bu adlar **Stok günlüklerinin adları** sayfasında oluşturulur ve **Günlük türü**, **Sahiplik değişikliği** olarak ayarlanmalıdır. 
 
-[![Stok mülkiyet değişiklik günlüğü](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+[![stok-sahiplik-değiştirme-günlüğü](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Konsinye işlemlerdeki satıcı iş birliği
 Satıcılar, satıcı iş birliği arabirimini kullanıyorsa bunu, tesisinizdeki stoğun tüketimini izlemek için kullanabilirler. Satıcı iş birliğini kullanmak için satıcıların yapılandırması hakkında daha fazla bilgi için bkz. [Satıcı iş birliği kullanıcıları için güvenlik yapılandırması](../procurement/configure-security-vendor-portal-users.md).
+
+
 
 

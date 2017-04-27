@@ -1,5 +1,5 @@
 ---
-title: "Müşteri ödeme birden fazla indirim dönemleri kapsayan birden çok fatura kapatmak için kullanın"
+title: "Birden fazla iskonto dönemine yayılan birden fazla faturayı kapatmak için bir müşteri ödemesi kullanın"
 description: "Bu makalede, her bir fatura nakit indirimine uygunsa birden fazla faturanın nasıl ödeneceği gösterilmektedir. Bu makaledeki senaryolar, alınan nakit indirimlerinin ödemenin ne zaman yapıldığına bağlı olarak nasıl değiştiğini açıklamaktadır."
 author: twheeloc
 manager: AnnBe
@@ -26,18 +26,21 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Müşteri ödeme birden fazla indirim dönemleri kapsayan birden çok fatura kapatmak için kullanın
+# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Birden fazla iskonto dönemine yayılan birden fazla faturayı kapatmak için bir müşteri ödemesi kullanın
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, her bir fatura nakit indirimine uygunsa birden fazla faturanın nasıl ödeneceği gösterilmektedir. Bu makaledeki senaryolar, alınan nakit indirimlerinin ödemenin ne zaman yapıldığına bağlı olarak nasıl değiştiğini açıklamaktadır.
 
-Fabrikam 4032 müşteriye mal satmaktadır. 14 gün içinde faturası ödeniyorsa Fabrikam yüzde 1'lik bir nakit iskontosu sunar. Fabrikam, kısmi ödemeler için de nakit iskontoları sunmaktadır. Settement parametreleri üzerinde bulunan **Accounts receivable parameters** sayfa.
+Fabrikam, 4032 müşteriye mal satmaktadır. Fabrikam, fatura 14 gün içerisinde ödenirse yüzde 1'lik nakit iskontosu sunar. Fabrikam, kısmi ödemeler için de nakit iskontoları sunmaktadır. Kapatma parametreleri, **Alacak hesapları parametreleri** sayfasında bulunur.
 
 ## <a name="invoices"></a>Faturalar
 Müşteri 4032'nin toplam tutarı 3.000,00 olan üç faturası vardır:
 
--   İçin 1.000,00, fatura FTI-10040, 15 Mayıs'ta girildi. Bu faturanın yüzde 1'lik bir nakit iskontosu için uygun ise 14 gün içinde ödenir.
--   İçin 1.000,00, fatura FTI-10041, 25 Haziran girilmedi. Bu faturanın yüzde 1'lik bir nakit iskontosu için uygun ise 14 gün içinde ödenir.
--   İçin 1.000,00, fatura FTI-10042, 25 Haziran girilmedi. Bu fatura 14 günde ödeniyorsa beş gün ve yüzde 1'lik bir indirim ödenir ise yüzde 2 oranında nakit iskontosu için uygundur.
+-   1.000,00 için fatura FTI-10040, 15 Mayıs'ta girildi. Bu fatura 14 gün içerisinde ödenirse, yüzde 1'lik nakit iskontosuna uygundur.
+-   1.000,00 için fatura FTI-10041, 25 Haziran'da girildi. Bu fatura 14 gün içerisinde ödenirse, yüzde 1'lik nakit iskontosuna uygundur.
+-   1.000,00 için fatura FTI-10042, 25 Haziran'da girildi. Bu fatura, beş gün içerisinde ödenirse yüzde 2'lik nakit iskontosuna hak kazanır ve 14 gün içerisinde ödenirse yüzde 1'lik nakit iskontosuna hak kazanır.
 
 ## <a name="settle-all-invoices-on-june-29"></a>Tüm faturaları 29 Haziran'da kapatma
 Arnie, bu faturaların tamamını 29 Haziran'da kapatmak üzere bir ödeme günlüğü oluşturursa, ödeme tutarı 2.970,00 olur. Tüm iskonto tutarları toplamı 30,00'dur. Arnie müşteri 4032 için bir ödeme oluşturur ve **Kapatma hareketleri** sayfasını açar. **Kapatma hareketleri** sayfasında, Arnie üç fatura satırını da kapatmak üzere işaretler:
@@ -76,7 +79,7 @@ Müşteri 4032 her fatura yarısı gibi kısmi bir tutarı ödeyebilir. Arnie m�
 | Seçildi                 | Normal            | FTI-10041 | 4032    | 25/6/2015 | 25/7/2015 | 10041   | 1.000,00                             |                                       | ABD Doları      | 495,00           |
 | Seçildi ve vurgulandı | Normal            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | ABD Doları      | 490,00           |
 
-Tamer el ile de girebilirsiniz 1,485.00 ödeme miktarını kendisi açılmadan önce **kapatma hareketleri** sayfa. Tamer el ile ödeme tutarı girer ve sonra tüm üç hareketleri işaretler, ancak kendisinin değerini ayarlamak olmayan **kapatılacak tutar** alan o sayfa kapandığında her hareket için kendisinin aşağıdaki iletiyi alır:
+Tamer, 1.485,00'lik ödeme tutarını, **Hareketleri kapatma** sayfasını açmadan önce el ile de girebilir. Tamer ödeme tutarını el ile girerse ve daha sonra her üç hareketi de seçerse ancak **Kapatılacak tutar** alanının değerini her bir hareket için ayarlamazsa, sayfayı kapattığında aşağıdaki iletiyi alır:
 
 > İşaretlenen hareketlerin toplam tutarı günlük tutarından farklı. Günlükteki tutar değiştirilsin mi?
 
@@ -95,6 +98,8 @@ Arnie, bilgileri **Müşteri hareketleri** sayfasında görür.
 | FTI-10042  | Fatura          | 25/6/2015 | 10042   | 1.000,00                             |                                       | 505,10   | ABD Doları      |
 | ARP-10040  | Ödeme          | 29/6/2015 |         |                                      | 1.485,00                              | 0,00     | ABD Doları      |
 | DISC-10040 | Nakit iskontosu    | 29/6/2015 |         |                                      | 9,90                                  | 0,00     | ABD Doları      |
+
+
 
 
 

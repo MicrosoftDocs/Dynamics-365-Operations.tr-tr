@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-methods-and-conventions"></a>Amortisman yöntemleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, Microsoft Dynamics AX tarafından desteklenen amortisman dönüştürmelerine ve amortisman yöntemlerine bir genel bakış sunulmuştur.
 
 Çeşitli amortisman yöntemleri ve kuralları seçebilirsiniz. Yöntemlerin amacı, sabit kıymetin amorti edilebilir değerini mali dönemlerine tahsis etmektir. Sabit kıymetin amorti edilebilir değeri, varsa bir ıskarta değeri tarafından azaltılan alım fiyatıdır. 
@@ -66,26 +69,27 @@ Aşağıdaki amortisman yöntemlerinden birini seçebilirsiniz.
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Sabit kıymet amortismanı](fixed-asset-depreciation.md)
 
-[Straight line service life depreciation](Straight-line-service-life-depreciation.md)
+[Sabit servis ömrü amortismanı](Straight-line-service-life-depreciation.md)
 
-[Reducing balance depreciation](reduce-balance-depreciation.md)
+[Azalan bakiyeli amortisman](reduce-balance-depreciation.md)
 
-[Manual depreciation](manual-depreciation.md)
+[El ile amortisman](manual-depreciation.md)
 
-[Factor depreciation](factor-depreciation.md)
+[Faktör amortisman](factor-depreciation.md)
 
-[Consumption depreciation](consumption-depreciation.md)
+[Tüketim esasına göre amortisman](consumption-depreciation.md)
 
-[Straight line life remaining depreciation](straight-line-life-remaining-depreciation.md)
+[Sabit kalan ömür amortismanı](straight-line-life-remaining-depreciation.md)
 
-[% 125 azalan bakiyeli amortisman](125-percent-reducing-balance-depreciation.md)
+[Yüzde 125 azalan bakiyeli amortisman](125-percent-reducing-balance-depreciation.md)
 
-[% 150 azalan bakiyeli amortisman](150-percent-reducing-balance-depreciation.md)
+[Yüzde 150 azalan bakiyeli amortisman](150-percent-reducing-balance-depreciation.md)
 
-[% 175 azalan bakiyeli amortisman](175-percent-reducing-balance-depreciation.md)
+[Yüzde 175 azalan bakiyeli amortisman](175-percent-reducing-balance-depreciation.md)
 
-[% 200 azalan bakiyeli amortisman](200-percent-reducing-balance-depreciation.md)
+[%200 azalan bakiyeli amortisman](200-percent-reducing-balance-depreciation.md)
+
 
 

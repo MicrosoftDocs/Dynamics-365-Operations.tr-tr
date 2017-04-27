@@ -1,5 +1,5 @@
 ---
-title: "Stok nesne değerleri"
+title: "Stok nesnesi değerleri"
 description: "Bu makalede, stok nesnesi değerlerinin nasıl hesaplandığı hakkında bilgiler verilmektedir."
 author: YuyuScheller
 manager: AnnBe
@@ -27,14 +27,14 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="inventory-object-values"></a>Stok nesne değerleri
+# <a name="inventory-object-values"></a>Stok nesnesi değerleri
 
 Bu makalede, stok nesnesi değerlerinin nasıl hesaplandığı hakkında bilgiler verilmektedir. 
 
-Adlı yeni bir işlevsellik ** fiziksel miktar ** belirli stok nesnenin değerlerini görmenizi sağlar. Maliyet nesnesi, stok muhasebesinin uygulandığı varlık düzeyini temsil eder. Maliyet nesneleri hakkında daha fazla bilgi için bkz. [Maliyet nesneleri](cost-object.md). Belirli stok nesnenin değerlerini görmek için tıklatın **fiziksel miktar** üzerinde **Maliyet nesnesine** sayfa. İşte bir stok nesnesinin değeri nasıl hesaplanır: Inventory nesnesi. Değer = maliyet nesne. Ortalama birim maliyeti × Inventory nesnesi. Aşağıdaki örnek miktarı, Inventory nesnesi ve maliyet nesnesi değerleri nasıl hesaplandığını gösterir. A maddesinde iki ürün girişi etkinliği kayıtlıdır:
+**Fiziksel miktar ** adlı yeni bir işlev, belirli bir stok nesnesine ilişkin değerleri görmenizi sağlar. Maliyet nesnesi, stok muhasebesinin uygulandığı varlık düzeyini temsil eder. Maliyet nesneleri hakkında daha fazla bilgi için bkz. [Maliyet nesneleri](cost-object.md). Belirli stok nesnesinin değerlerini görmek için **Maliyet nesnesi** sayfasında **Fiziksel miktar**'a tıklayın. Stok nesnesinin değeri şöyle hesaplanır: Stok nesnesi.Değer = Maliyet nesnesi.Ortalama birim maliyeti × Stok nesnesi.Miktar. Aşağıdaki örnek, bir stok nesnesi değerlerinin ve bir maliyet nesnesinin nasıl hesaplandığını gösterir. A maddesinde iki ürün girişi etkinliği kayıtlıdır:
 
--   Ürün bilgisi 1: miktar = 100 pcs., tutarı = $1,000.00, Site = 1, ambar = 11, toplu işlem No = B1
--   Ürün Bilgisi 2: Miktar = 50 pcs., tutarı = $800.00, Site = 1, ambar = 11, toplu işlem No = B2
+-   Ürün girişi 1: Miktar = 100 parça, Tutar = $1.000,00, Tesis = 1, Ambar = 11, Toplu İşlem No. = B1
+-   Ürün girişi 2: Miktar = 50 parça, Tutar = $800,00, Tesis = 1, Ambar = 11, Toplu İşlem No. = B2
 
 Aşağıdaki tabloda, bir maliyet nesnesi için yapılan hesaplamanın sonucu gösteriliyor. Sonucu **Maliyet nesnesi** sayfasında görüntüleyebilirsiniz.
 
@@ -130,10 +130,10 @@ Aşağıdaki tabloda, bir stok nesnesi için yapılan hesaplamanın sonucu göst
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Cost objects](cost-object.md)
+[Maliyet nesneleri](cost-object.md)
 
-[Cost entries](cost-entries.md)
+[Maliyet girişleri](cost-entries.md)
 
-[Yeni ve değiştirilen Microsoft Dynamics AX'te nedir](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+[Microsoft Dynamics AX'teki yenilikler ve değişiklikler](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
 

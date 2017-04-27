@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-integration-with-other-modules"></a>Diğer modüller ile bütçe planlama tümleştirmesi
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 <a name="periodic-processes-for-generating-budget-plans"></a>Bütçe planları oluşturmaya yönelik periyodik işlemler
@@ -49,13 +52,13 @@ Periyodik işlemin temel unsurları tüm işlemlerde aynıdır. Sekmeler, size v
 
 Her oluşturma işlemi için üç eylem uygulanabilir:
 
--   **Yeni bir bütçe planı oluşturma** içinde seçilen özniteliklere sahip yeni bir plan oluşturur ** hedef ** bölümü. Bu özniteliklerin benzersiz olması gerekmez. Bu nedenle, iki planın adları ve diğer değerleri aynı olabilir.
+-   **Yeni bir bütçe planı oluşturmak**, **Hedef bölümünde **seçilen özniteliklere sahip yeni bir plan oluşturur. Bu özniteliklerin benzersiz olması gerekmez. Bu nedenle, iki planın adları ve diğer değerleri aynı olabilir.
 -   **Var olan bütçe planı senaryosunu değiştirmek** seçilen bütçe planı senaryosunda hedef bütçe planındaki tüm verileri siler ve seçilen kaynak verilerini kullanan yeni satırlar oluşturur.
 -   **Var olan bütçe planı senaryosunu güncelleştirmek ve yeni veriler eklemek** hedef planda kaynak satırlarla eşleşen mevcut satırları günceller ve yeni veriler için yeni satırlar ekler. Eşleşme, genel muhasebe hesabına, tarihe, bütçe sınıfına ve diğer muhtelif alanlara dayanır. Örneğin, tahmin konumlarından bütçe planlarını oluştururken, konum numarası önemli bir alandır. Kaynak konum numarasıyla eşleşen bir konum numarası olan tüm satırlar, kaynaktan yeni satırlar ile değiştirilir.
 
 ### <a name="source"></a>Kaynak
 
-Tüm işlemler için **kaynak** sekmesi sağlar veri kullanarak filtre **filtre** düğmesi. Varsayılan olarak, her işlem için filtre belirli alanlara eklenir. Örneğin, **Genel muhasebeden bütçe planı oluştur** işleminde, **Genel muhasebe hesabı** ve **Ana hesap** kategorileri kullanılabilir ve oluşturma sayfasında görüntülenir. Filtreye eklediğiniz her alan, eklediğiniz her kriterle birlikte sayfaya da eklenir.
+Tüm işlemler için **Kaynak** sekmesi veriyi **Filtrele** düğmesini kullanarak filtrelemenizi sağlar. Varsayılan olarak, her işlem için filtreye belirli alanlar eklenir. Örneğin, **Genel muhasebeden bütçe planı oluştur** işleminde, **Genel muhasebe hesabı** ve **Ana hesap** kategorileri kullanılabilir ve oluşturma sayfasında görüntülenir. Filtreye eklediğiniz her alan, eklediğiniz her kriterle birlikte sayfaya da eklenir.
 
 ### <a name="target"></a>Hedef
 
@@ -63,7 +66,7 @@ Tüm işlemler için **kaynak** sekmesi sağlar veri kullanarak filtre **filtre*
 
 Sayfanın üstündeki **Toplama göre toplam** alanı da kullanılan tarihi belirler. Bu alan tutarları toplar ve yürürlük tarihini isteğe bağlı olarak mali yılın veya mali dönemin ilk gününe ayarlar. 
 
-**Hedef** öğesindeki alanların çoğu seçtiğiniz eyleme bağlı olarak düzenlenebilir veya salt okunur olabilir. Yeni bir bütçe planı oluşturmaktan mevcut bir planı güncellemeye geçtiğinizde, **Bütçe planı adı** kullanılamaz olur ve mevcut bir planı seçmekle ilgili alanlar kullanılabilir hale gelir. Her iki **hedef** sekmesini ve ** kaynak ** sekmesinde, **defter** alan değil her zaman kullanılabilir, çünkü değer seçili bütçe planlama işleminin tarafından belirlenir. 
+**Hedef** öğesindeki alanların çoğu seçtiğiniz eyleme bağlı olarak düzenlenebilir veya salt okunur olabilir. Yeni bir bütçe planı oluşturmaktan mevcut bir planı güncellemeye geçtiğinizde, **Bütçe planı adı** kullanılamaz olur ve mevcut bir planı seçmekle ilgili alanlar kullanılabilir hale gelir. Hem **Hedef** sekmesinde hem de **Kaynak *sekmesinde, **Genel muhasebe** alanı her zaman kullanılamaz, çünkü değer seçili bütçe planlama süreci ile belirlenir. 
 
 **Bütçe sınıfı** alanı size bütçe planı satırlarını masraf hareketleri veya gelir hareketleri olarak ayarlama olanağı sağlar. Genellikle gelir hareketleri bir genel muhasebe hesabına geçirilir ve bu nedenle negatif tutarlar olarak saklanır. Genellikle, bu hareketler bütçe planında da negatif tutarlar olarak görünür. Ancak, bütçe sınıfını plan düzeninde bir alan olarak ekleyerek, gelirin pozitif tutarlar olarak görünmesini sağlayabilirsiniz.
 
@@ -73,7 +76,7 @@ Sayfanın üstündeki **Toplama göre toplam** alanı da kullanılan tarihi beli
 
 **Faktör** alanındaki değer, bütçe planındaki tutarı ayarlamak için kaynak tutarı ile çarpılır. Bütçe planı satırları oluşturduğunuzda, ayarlamalar yapabilirsiniz. Örneğin, yüzde 3'lük bir artış için **1,03** girebilirsiniz. Faktör pozitif bir sayı olmalıdır. 
 
-**Minimum** alanı size bir bütçe planı satırı oluşturmak için eşik tutarını belirleme olanağı sağlar. Kaynak tutarı bu sayıdan az ise, bütçe planı satırı oluşturulmaz. Değeri **0,00** tüm tutarlar verir ancak pozitif tutarlar için Satır limiti yoktur. (Hiçbir değer pozitif tutarlar satırlarını kısıtlar. Negatif tutarlar her zaman dahil edilir ve genellikle alacak girişlerinin temsil eder.)
+**Minimum** alanı size bir bütçe planı satırı oluşturmak için eşik tutarını belirleme olanağı sağlar. Kaynak tutarı bu sayıdan az ise, bütçe planı satırı oluşturulmaz. Bir **0,00** değeri, tüm tutarlara izin verir ancak satırları pozitif tutarlara kısıtlamaz. (Pozitif tutarlara değer kısıtlama satırları yok. Negatif tutarlar her zaman dahildir ve genellikle alacak girişlerini temsil eder.)
 
 **Yuvarlama kuralı** alanı oluşturulan bütçe planı satırlarının kesinliğini ayarlamanızı sağlar. Tutarları para biriminin en yakın 1,00, 10,00, 100,00 vb değerlerine yuvarlayabilirsiniz.
 
@@ -86,13 +89,13 @@ Hedefte, **Bütçe sınıfı** alanı **Gider** veya **Gelir** olarak ayarlanır
 
 ### <a name="generate-budget-plan-from-fixed-assets"></a>Sabit kıymetlerden bütçe planı oluştur
 
-**Sabit kıymetlerden bütçe planı oluştur** işleminde döneme veya güne göre toplam alma seçeneği yoktur. Ayrıca plan tarihsel olarak ayarlama seçeneği yoktur. Planlama bütçe sabit kıymetler için öngörülen hareketlerini dahil etmek için Dönemsel bu işlemi kullanabilirsiniz.
+**Sabit kıymetlerden bütçe planı oluştur** işleminde döneme veya güne göre toplam alma seçeneği yoktur. Bir planı tarihsel olarak ayarlamak için bir seçenek yoktur. Bu periyodik işlemi, sabit varlıklar için öngörülen hareketleri bütçe planlamanıza dahil etmek için kullanabilirsiniz.
 
 ### <a name="generate-budget-plan-from-forecast-positions"></a>Tahmin konumlarından bütçe planı oluştur
 
 **Tahmin konumlarından bütçe planı oluştur** işlemi, kaynak tahmin konumunu bütçe plan satırına atar. Tahmin konumunu bütçe planı düzeninde bir satır olarak eklemek veya **Bütçe planı satırları** sorgulamasını kullanmak suretiyle konumu görüntüleyebilirsiniz. Tahmin konumunun bütçe planı satırlarına atanmasını istemiyorsanız, **Konumu bütçe planı satırına ekle** seçeneğini **Hayır** olarak ayarlayın.
 
-Bütçe planı satırları genel muhasebe hesabı ve konumu tarafından toplanır. Ancak, satır genel muhasebe hesabına göre toplanan böylece konum numarası dışlayabilirsiniz. **Hedef** öğesinde, **Konumu bütçe planına ekle** seçeneğini **Hayır** olarak ayarlayın.
+Bütçe planındaki satırlar genel muhasebe hesabı ve konumuna göre toplanır. Ancak, satırların yalnızca genel muhasebe hesabına göre toplanması için konum numarasını hariç bırakabilirsiniz. **Hedef** öğesinde, **Konumu bütçe planına ekle** seçeneğini **Hayır** olarak ayarlayın.
 
 **Bütçe planı FTE senaryosu** alanında, bütçe planında tam zamanlı eşdeğerlerin (FTE'ler) sayısını eklemek için bir senaryo seçebilirsiniz. Bu alan, hedef bütçe plan düzeninde bulunan miktar türü senaryolar ile sınırlıdır. Bir FTE senaryosu seçerseniz, ayrıca FTE ana hesabını da seçmeniz gerekir. Bu hesap miktar bütçe planı satırları oluşturmak için kullanılır. 
 
@@ -140,5 +143,7 @@ Bir satırı seçin ve **Bütçe planı satırları** sorgulamasını çalışt�
 Bu sorgulamaları yürütmek için **Tedarik tahmini** ve **Talep tahmini** düğmelerini kullanın. Her iki durumda da, sorgulama bütçe planı satırları oluşturmuş olabilecek tahmin satırlarını arar. 
 
 Mevcut ek raporlar **Bütçe planına göre tahmin konumları** raporunu içerir. Bu rapor bilhassa bir konumun bütçe planlarına doğru şekilde tahsis edilip edilmediğini belirlemek istediğinizde yararlıdır.
+
+
 
 

@@ -86,5 +86,5 @@ Kısmen sahip olduğunuz bağlı kuruluşlar için birden fazla seçeneğiniz bu
 Bir sürümden dışa aktarma yapmak için **Şirket bakiyelerini dışa aktar** seçeneğini kullanabilir ve ardından diğer sürümde **İçe aktararak birleştir** seçeneğini kullanarak verileri birleştirebilirsiniz.
 
 
-Daha fazla bilgi için bkz: [konsolidasyon şirket para birimi revalution](\finanicials\general-ledger\currency-revaluation-consolidation-company).
+Daha fazla bilgi için bkz: [Bir konsolide şirkette para birimi yeniden değerlemesi](\finanicials\general-ledger\currency-revaluation-consolidation-company).
 

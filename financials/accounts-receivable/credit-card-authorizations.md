@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="credit-card-setup-authorization-and-capture"></a>Kredi kartı ayarlama, onaylama ve tutma
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, Microsoft Dynamics AX'te kredi kartı onayına genel bir bakış sağlanmıştır. Nasıl ödeme hizmeti ayarlanacağı, satış emrine kredi kartı ekleneceği ve yetkilendirme iptal edileceğine dair bilgiler içerir.
 
 <a name="setting-up-the-credit-card-payment-service"></a>Kredi kartı ödeme hizmeti ayarlama
@@ -55,7 +58,7 @@ Bazen kredi kartı güvenlik kodu olarak belirtilen kart doğrulama değerini is
 
 ### <a name="address-verification"></a>Adres doğrulama
 
-Adres doğrulama bilgileri her zaman ödeme sağlayıcısına gönderilir. Ne kadar bilgi bir hareketi kabul edilmesi gerekli olan karar verebilirsiniz. Bu bilgileri kabul edip etmeyeceğini belirlemek için sağlayıcınıza danışın emin olun. Adres doğrulama seçenekleri şunlardır:
+Adres doğrulama bilgileri her zaman ödeme sağlayıcısına gönderilir. Bir hareketi kabul edilmesi için ne kadar bilginin gerekli olduğuna karar verebilirsiniz. Sağlayıcınızın bu bilgileri kabul edip edemeyeceğini kontrol ettiğinizden emin olun. Adres doğrulama seçenekleri şunlardır:
 -   **Hareketi her zaman kabul et** – Adres doğrulama sonucuna bakılmaksınız hareketi kabul et.
 -   **Hesap sahibi** – Harekette belirtilen kart sahibi adını kredi kartı şirketinin bilgileriyle karşılaştır.
 -   **Fatura adresi** – Harekette belirtilen kart sahibi adını ve fatura adresini kredi kartı şirketinin bilgileriyle karşılaştır.
@@ -68,10 +71,12 @@ Desteklenen her kredi kartı türü için veri desteği düzeyini belirtebilirsi
 -   **Düzey 3** – Düzey 2'deki tüm bilgilere ek olarak sipariş satırı bilgilerini de aktar.
 
 ## <a name="partial-payments"></a>Kısmi ödemeler
-Sipariş parçası gönderirseniz, kısmi sipariş miktarını yakalanır ve miktarı tüm sipariş edildi, yetkilendirme kapalı. Yeni bir yetkilendirme sonra kalan miktarı taşınmadığından sevk emri için gönderilir.
+Bir siparişin parçası olarak gönderirseniz, kısmi siparişin tutarı yakalanır ve tüm siparişin tutarı için olan yetkilendirme, kapatılır. Daha sonra yeni bir yetkilendirme, gönderilmemiş olan siparişin bir kalan tutarı için gönderilir.
 
 ## <a name="voiding-an-authorization"></a>Onayı hükümsüz kılma 
 Kredi kartı onayını hükümsüz kılmak için, ödeme türü Kredi kartı olmayan başka bir ödeme yöntemi belirleyebilirsiniz.
+
+
 
 
 

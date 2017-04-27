@@ -1,5 +1,5 @@
 ---
-title: "Yönetim Reporter - tasarımcılar ve web istemcisi"
+title: "Yönetim Raporlayıcısı - Tasarımcı ve web istemcisi"
 description: 
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="management-reporter----the-designer-and-web-client"></a>Yönetim Reporter - tasarımcılar ve web istemcisi
+# <a name="management-reporter----the-designer-and-web-client"></a>Yönetim Raporlayıcısı - Tasarımcı ve web istemcisi
+
+[!include[banner](../includes/banner.md)]
+
+
+
 
 
 

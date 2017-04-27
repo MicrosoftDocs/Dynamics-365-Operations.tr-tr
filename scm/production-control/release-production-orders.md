@@ -1,5 +1,5 @@
 ---
-title: "Üretim emirlerini serbest bırakmak"
+title: "Üretim emirlerini serbest bırakma"
 description: "Serbest bırakılmış bir üretim emri, üretim için yetkilendirilmiş bir emirdir. Serbest bırakılmış terimi, üretim emri yaşam döngüsünde, üretim emrinin üretim atölye katında uygulamaya geçirilmeye ve ambar işlemlerine hazır olduğu bir durumu ifade eder."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="release-production-orders"></a>Üretim emirlerini serbest bırakmak
+# <a name="release-production-orders"></a>Üretim emirlerini serbest bırakma
+
+[!include[banner](../includes/banner.md)]
+
 
 Serbest bırakılmış bir üretim emri, üretim için yetkilendirilmiş bir emirdir. Serbest bırakılmış terimi, üretim emri yaşam döngüsünde, üretim emrinin üretim atölye katında uygulamaya geçirilmeye ve ambar işlemlerine hazır olduğu bir durumu ifade eder. 
 
@@ -42,7 +45,7 @@ Serbest bırakılmış bir üretim emri, üretim için yetkilendirilmiş bir emi
 -   Fiziksel olarak rezerve edilmiş malzemelerde, üretim emri için malzeme çekmek üzere ambar çalışması üretilir.
 
 ## <a name="releasing-jobs-to-the-shop-floor"></a>İşleri atölyeye serbest bırakma
-Bir üretim emri serbest bırakıldıktan sonra, siparişle ilgili üretim işleri görünür ve kayda hazır durumdadır. İşleçler, iş kayıtları, Start, Stop ve tamamlama, gibi ya da yapabilirsiniz **iş kartı terminal** sayfa veya **iş kartı aygıt** sayfa. Otomatik olarak kaydedilen süre ve miktar kayıt sayfalarından miktar ve tüketilen saat izlemek için üretim günlüklerini aktarılır.
+Bir üretim emri serbest bırakıldıktan sonra, siparişle ilgili üretim işleri görünür ve kayda hazır durumdadır. İşleçler **İş kartı terminali** veya **İş kartı cihazı** sayfasında Başlatma, Durdurma ve Tamamlama gibi iş kayıtları yapabilirler. Kaydedilen süre ve miktar, harcanan süre ve miktarın izlenmesi için otomatik olarak kayıt sayfalarından üretim günlüklerine transfer edilir.
 
 ## <a name="route-cards"></a>Rota kartları
 Rota kartı, rota ve operasyon ayarları ve operasyon ve iş çizelgeleme yöntemlerinden gelen bilgiler için bir genel bakış sağlar.
@@ -54,11 +57,13 @@ Bir rota işi, bir operasyonun her işini ayrıntılı olarak listeler ve kurulu
 Bir iş kartı, belirli bir operasyonun tek tek iş numaralarını listeler. Her sayfada bir iş görünür. Bir iş kartına dahil olan işler ve tahmini süreleri rotadan ve operasyon kurulum bilgilerinden gelir. Bir iş kartından, **Üretim günlüğü satırları**, **iş kartı ** sayfasını açabilirsiniz. Operasyon kaynaklarını çalıştıran kişiler üretim sürecinde geri bildirim sağlayabilir. Bunlar, tüketim istatistikleri ve hata miktarı gibi bilgileri girebileceğiniz alanlardır.
 
 ## <a name="warehouse-work-for-raw-material-picking"></a>Hammadde çekmek için ambar çalışması
-Hammadde çekme işi, serbest bırakma sırasında üretilir. İş siparişi yayınlanmadan önce üretim emri için fiziksel olarak rezerve edilen yalnızca malzeme miktarının için oluşturulur. Aşağıdaki Kurulum hammadde malzeme çekme için ambar çalışma üretmek için gereklidir:
+Hammadde çekme işi, serbest bırakma sırasında üretilir. İş yalnızca sipariş serbest bırakılmadan önce üretim emri için fiziksel olarak rezerve edilmiş olan miktarda malzeme için üretilir. Aşağıdaki kurulum hammadde çekme için ambar oluşturma işi için gereklidir:
 
 -   Hammadde çekmeye yönelik ve malzemelerin çekileceği ambar konumunu belirleyen bir konum yönergesi
 -   Hammaddeler için, ambar çalışmasının yürütülmesine yönelik politikaların yapılandırıldığı bir dalga şablonu
 -   Malzemelerin koyulacağı yeri belirleyen bir üretim girdisi konumu
+
+
 
 
 

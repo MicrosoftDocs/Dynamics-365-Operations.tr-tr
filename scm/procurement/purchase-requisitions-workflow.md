@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-workflow"></a>Satınalma talebi iş akışı
 
+[!include[banner](../includes/banner.md)]
+
+
 İş akışı süreci, satın alma talebini, ilk durum olan Taslak durumundan son durum olan Onaylandı durumuna, gözden geçirme sürecine geçirir. Bir satınalma talebi gözden geçirme amacıyla gönderildiğinde iş akışı süreci başlatılır. Bir Satın alma talebi onaylandıktan sonra, satın alma talebi satırları için bir satın alma emri oluşturulabilir ve siparişin gerçekleştirilmesi için satıcıya sunulabilir.
 
 Bir satınalma talebinin gözden geçirilmek üzere gönderilebilmesi için bir iş akışı yapılandırmanız gerekir. İş akışı işlemine herhangi bir sırada bir veya daha fazla gözden geçirme adımı eklenebilir. İş akışı işlemi, gözden geçirme görevi atlanacak ve satınalma talebi otomatik olarak onaylanacak şekilde de yapılandırılabilir. İş akışını satınalma talebine tek bir belge olarak yönlendirilecek şekilde yapılandırabilir veya tek tek satınalma talebi satırlarını uygun gözden geçirenlere yönlendirebilirsiniz. Satınalma talebinin bazı gözden geçirenlere tek bir belge olarak yönlendirildiği ve seçilen satınalma talebi satırlarının diğer gözden geçirenlere yönlendirildiği bir senaryo da oluşturabilirsiniz.  
@@ -106,12 +109,14 @@ Bir iş akışında ayarladığınız harcama gözden geçirenlerinin birini kul
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Tüketim (görev Kılavuzu) için bir talep oluştur](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Tüketim için bir talep oluşturma (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
 [Satınalma talepleri için iş süreci iş akışları tanımlama](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Procurement and sourcing workflows](procurement-sourcing-workflows.md)
+[Tedarik ve kaynak atama iş akışları](procurement-sourcing-workflows.md)
 
-[Purchase requisition overview](purchase-requisitions-overview.md)
+[Satınalma talebine genel bakış](purchase-requisitions-overview.md)
+
+
 
 

@@ -32,7 +32,7 @@ Bu makalede, toplam maliyet tahsisatı (TCA) kullanma yönergeleri sağlanmışt
 
 Toplam maliyet tahsisi (TCA), bir toplu iş emrine yönelik ana formül maddesi ile formül için tanımlanmış ortak ürünler arasındaki maliyet farklarının hesaplanmasına yönelik bir yöntemdir. Bu dinamik bir yöntemdir. Maliyeti, formül maddesi ve ortak ürün için bitmiş olarak raporlanan miktarlar arasındaki bir ağırlıklı ortalama olarak hesaplar. TCA kullanıldığında, her toplu iş emri için maliyet tahsisatı gözden geçirmeniz gerekmez. TCA kullanılmıyorsa, formül hesaplaması mevcut işlevi kullanır.
 
-## <a name="using-tca-for-coproducts"></a>TCA için coproducts kullanma
+## <a name="using-tca-for-coproducts"></a>Ortak ürünler için TCA kullanma
 Ortak ürünler için TCA kullanmaya yönelik bazı yönergeler şunlardır:
 
 -   Bir formül sürümü için **Toplam Maliyet Tahsisi** kaydırıcısını **Evet** olarak ayarlarsanız, ortak ürünlerin maliyet fiyatı 0'dan (sıfır) fazla olacaktır. Değer aynı tesise veya formülün tesise özel olmadığı ilk tesise yönelik etkin maliyet sürümünden alınabilir. Bu koşul formül onaylandığında doğrulanır.
@@ -46,7 +46,7 @@ Ortak ürünler için TCA kullanmaya yönelik bazı yönergeler şunlardır:
 -   Bir toplu iş emri el ile oluşturulduğunda veya planlı bir toplu iş emri kesinleştiğinde formül sürümü için **Toplam Maliyet Tahsisatı** kaydırıcısının değeri toplu iş emrine kopyalanır. Ancak, bu ayarı toplu iş emri üzerinde değiştirebilirsiniz. Formül sürümü için **Toplam Maliyet Tahsisatı** kaydırıcısı **Hayır** olarak ayarlı ise ve sonrasında toplu iş emri için **Evet** olarak değiştirilirse, her bir satır için **Manuel** olarak ayarlanmış olan maliyet tahsisatı yöntemi **TCA** olarak değiştirilir. Maliyet tahsisatı **Hiç** olarak kalır. Formül sürümü için **Toplam Maliyet Tahsisatı** kaydırıcısı **Evet** olarak ayarlı ise ve sonrasında toplu iş emri için **Hayır** olarak değiştirilirse, **Üretim** tipinin her bir ortak ürünü için maliyet tahsisatı yöntemi **TCA** olarak değiştirilir. Tahmini maliyet tahsisatı yüzdesi değişmez.
 -   **Ortak ürün maliyet tahsisatı** sayfası hesaplanan maliyet tahsisatı yüzdesini gösterir. Bu sayfayı **Toplu iş emri** sayfasından açabilirsiniz. Bu bilgiler, raporlanan ürün ve miktarlar toplu iş emri üzerinde zamanlanan veya başlatılan miktarlardan farklı olduğunda yararlıdır. Maliyet tamamlandığında, TCA'dan bu yeni yüzde tahsisatları **Ortak ürün maliyet tahsisatı** sayfasında gösterilir.
 
-## <a name="calculating-the-burden-for-byproducts"></a>Yan ürünler için yük hesaplanıyor
+## <a name="calculating-the-burden-for-byproducts"></a>Yan ürünler için yükü hesaplama
 **Ortak ürünler** sayfasındaki **Yan ürün maliyet tahsisatı** alanı yalnızca yan ürünler için kullanılan bir numaralandırıcı alandır. Ortak ürünler için bu alanın değeri her zaman **Hiç**'tir. Yan ürün satırları için bu alan yan ürün satırı için maliyet tutarının toplam üretim maliyetine nasıl ekleneceğini belirler. Aşağıdaki seçenekler bulunur:
 
 -   **Hiç** ─ Bu yan ürün satırı için toplam üretim maliyetine hiçbir tutar eklenmez.

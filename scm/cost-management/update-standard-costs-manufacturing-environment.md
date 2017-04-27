@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>Bir üretim ortamındaki standart maliyetleri güncelleştirme
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makale, bir üretim ortamındaki standart maliyetleri güncelleştirme konusunda rehberlik sağlar. 
 
 Güncelleştirmeler yeni maddeler, maliyet kategorileri veya dolaylı maliyet hesaplama formüllerini yansıtabilir. Ayrıca, düzeltmeleri ve maliyet değişikliklerini yansıtabilir. Güncelleştirme tipi, aşağıdaki durumlarda gösterildiği gibi standart maliyetleri güncelleştirmek için yerine getirmeniz gereken adımları etkiler:
@@ -43,5 +46,7 @@ Güncelleştirmeler yeni maddeler, maliyet kategorileri veya dolaylı maliyet he
 -   Yeni üretilmiş maddenin maliyetlerini tanımlı, onaylı ve etkin ürün reçetesi ve rota bilgilerine dayanarak hesaplayın.
 
 Her durumda, standart maliyetlerin nasıl güncelleştirileceği dikkatle ele alınmalıdır.
+
+
 
 

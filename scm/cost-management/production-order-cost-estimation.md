@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="production-order-cost-estimation"></a>Üretim emri maliyet tahmini
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, üretim maliyet tahmini hakkında bilgiler verilmektedir. Üretim maliyeti tahmini, bir maddeyi planlanan üretim emri miktarında üretmek için gereken tahmini malzeme ve kapasite tüketim maliyetlerini sağlar. 
 
 Bir üretim emri oluşturduktan sonra üretim maliyetlerini tahmin etmeniz gerekir. Bu tahminler sonraki planlama ve üretim süreçlerinde baz olarak kullanıldığı için, amaç, üretim süreci için madde ve rota tüketimini tahmin etmektir.
@@ -59,6 +62,8 @@ Maliyet tahmini, aşağıdaki bilgileri de sağlar:
 -   Önceki üretimlerin maliyet bilgilerinin karşılaştırılması
 -   Bütçe ve tahmin bilgileri
 -   Belirli bir maliyeti korumak için gereken üretim boyutu tahminleri
+
+
 
 
 

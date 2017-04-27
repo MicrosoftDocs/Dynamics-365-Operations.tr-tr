@@ -41,23 +41,23 @@ En son sürüme yükseltmek için bkz. [En son Dynamics 365 for Operations günc
 <thead>
 <tr class="header">
 <th><strong>Serbest bırak</strong></th>
-<th><strong><strong>Version</strong></strong></th>
-<th><strong><strong>Build number</strong></strong></th>
-<th><strong><strong>Availability</strong></strong></th>
-<th><strong><strong>Daha fazla bilgi için</strong></strong></th>
+<th><strong><strong>Sürüm</strong></strong></th>
+<th><strong><strong>Yapı numarası</strong></strong></th>
+<th><strong><strong>Kullanılabilirlik</strong></strong></th>
+<th><strong><strong>Daha fazla bilgi edinmek için</strong></strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Operations platformu</td>
-<td>Platform Güncelleştirmesi 4</td>
+<td>Platform güncelleştirmesi 4</td>
 <td>7.0.4425.16160</td>
 <td>Şubat 2017</td>
 <td><ol>
-<li>Git <a href="https://roadmap.dynamics.com/">yol haritasını Dynamics 365</a>.</li>
-<li>Seçin <strong>yenilikler</strong> sekme.</li>
-<li>İçinde <strong>uygulamalar</strong> bölümünde, select <strong>Dynamics 365 işlemleri için</strong>.</li>
-<li>İçinde <strong>alanları</strong> bölümünde, select <strong>bulut platformu</strong>.</li>
+<li><a href="https://roadmap.dynamics.com/">Dynamics 365 Roadmap</a>'e gidin.</li>
+<li><strong>Yenilikler</strong> sekmesini seçin.</li>
+<li><strong>Uygulamalar</strong> bölümünde <strong>Dynamics 365 for Operations</strong>'ı seçin.</li>
+<li><strong>Alanlar</strong> bölümünde <strong>Bulut Platformu</strong>'nu seçin.</li>
 </ol></td>
 </tr>
 <tr class="even">

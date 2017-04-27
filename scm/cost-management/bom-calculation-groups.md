@@ -1,5 +1,5 @@
 ---
-title: "Ürün reçetesi hesaplama grupları"
+title: "Ürün reçetesi hesaplamaları grupları"
 description: "Bu makalede, ürün reçeteleri için hesaplama grupları ve bunların nasıl ayarlanacağı hakkında bilgi verilmektedir. Bir ürün reçetesi hesaplaması çalıştırmak için ya hesaplama grupları ayarlamalı ve bunları tek tek maddelere atamalısınız ya da varsayılan bir hesaplama grubu ayarlamalısınız. Ardından, hesaplama grubundaki hesaplama ayarları, ürün reçetesi hesaplaması sayfasında ürün reçetesi hesaplamasında varsayılan değerler olarak kullanılır."
 author: YuyuScheller
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bom-calculations-groups"></a>Ürün reçetesi hesaplama grupları
+# <a name="bom-calculations-groups"></a>Ürün reçetesi hesaplamaları grupları
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, ürün reçeteleri için hesaplama grupları ve bunların nasıl ayarlanacağı hakkında bilgi verilmektedir. Bir ürün reçetesi hesaplaması çalıştırmak için ya hesaplama grupları ayarlamalı ve bunları tek tek maddelere atamalısınız ya da varsayılan bir hesaplama grubu ayarlamalısınız. Ardından, hesaplama grubundaki hesaplama ayarları, ürün reçetesi hesaplaması sayfasında ürün reçetesi hesaplamasında varsayılan değerler olarak kullanılır. 
 
-**Stok ve ambar yönetim parametreleri** sayfasında varsayılan bir hesaplama grubu veya **Serbest bırakılan ürün ayrıntıları** sayfasında ürüne özel hesaplama grubu gereklidir. Sistem ilk hesaplama grubu kurulumu için bakar **Ürün Ayrıntıları Serbest** sayfa. Hesaplama grubu orada bulamazsa, görünüyor **stok ve ambar yönetimi parametreleri** sayfa. Kullanıcı, sistem hesaplama grubu bulamıyorsanız, hesaplama sırasında bir hata iletisi alır. Hesaplama grubu maliyet fiyatı modeli, satış fiyatı modeli ve uyarılar kontrol listesi ilkelerini içerir. Hesaplama grubundaki hesaplama ayarları, **Ürün reçetesi hesaplaması** sayfasında ürün reçetesi hesaplamasında varsayılan değerler olarak kullanılır.
+**Stok ve ambar yönetim parametreleri** sayfasında varsayılan bir hesaplama grubu veya **Serbest bırakılan ürün ayrıntıları** sayfasında ürüne özel hesaplama grubu gereklidir. Sistem, ilk olarak **Serbest bırakılan ürün ayrıntıları** sayfasında hesaplama grubu ayarına bakar. Orada bir hesaplama grubu bulamazsa, **Stok ve ambar yönetim parametreleri** sayfasında bakar. Sistem, bir hesaplama grubu bulamazsa kullanıcı, hesaplama sırasında bir hata iletisi alır. Hesaplama grubu maliyet fiyatı modeli, satış fiyatı modeli ve uyarılar kontrol listesi ilkelerini içerir. Hesaplama grubundaki hesaplama ayarları, **Ürün reçetesi hesaplaması** sayfasında ürün reçetesi hesaplamasında varsayılan değerler olarak kullanılır.
 
 ## <a name="purposes-of-bom-calculation-groups"></a>Ürün reçetesi hesaplama gruplarının amaçları
 Maddelere ürün reçetesi hesaplama grubunu çeşitli nedenlerle atarsınız:
@@ -72,7 +75,7 @@ Hesaplama gruplarını, maliyet yönetiminde **Önceden tanımlanan maliyet ilke
 Stok ve ambar yönetimi parametrelerinde varsayılan ayar
 --------------------------------------------------------------
 
-Hesaplamaları çalıştırmak için hesaplama grupları gerekli olduğundan, Stok yönetimi parametrelerinde varsayılan hesaplama grubunu ayarlamanız gerekir. Bu ayar, şirketlerin tüm maddeler için standart maliyet grupları ve kar ayarları olmasını sağlar. Ardından, belirli bir maddenin özel hesaplama gereksinimleri varsa, kullanıcı bu madde için farklı bir hesaplama grubu atayabilir. Normalde, ürün reçetesi maddeleri yerine ürün reçetesinin bileşen maddelerinde hesaplama grupları ayarlayabilirsiniz. Ancak, uyarı iletileri gösterildiğinde hesaplama grupları uygulanabilir. Maddelere atanmış bir hesaplama grubu, Stok yönetimi parametrelerinde ayarlanan varsayılan değeri geçersiz kılar. Varsayılan parametre ayarlayabilirsiniz **Yönetimi maliyet**&gt;**stok hesap ilkeleri Kurulumu**&gt;**parametreleri**&gt;**stok hesap**&gt;**hesaplama grubu**. Varsayılan yapılandırma grubu ayarlayarak, ürün reçetesi hesaplama sürecinde kullanıcılara, seçili bileşenlerin hesaplama hatalarına neden olabileceğini belirtecek uyarı koşullarını da yapılandırabilirsiniz.
+Hesaplamaları çalıştırmak için hesaplama grupları gerekli olduğundan, Stok yönetimi parametrelerinde varsayılan hesaplama grubunu ayarlamanız gerekir. Bu ayar, şirketlerin tüm maddeler için standart maliyet grupları ve kar ayarları olmasını sağlar. Ardından, belirli bir maddenin özel hesaplama gereksinimleri varsa, kullanıcı bu madde için farklı bir hesaplama grubu atayabilir. Normalde, ürün reçetesi maddeleri yerine ürün reçetesinin bileşen maddelerinde hesaplama grupları ayarlayabilirsiniz. Ancak, uyarı iletileri gösterildiğinde hesaplama grupları uygulanabilir. Maddelere atanmış bir hesaplama grubu, Stok yönetimi parametrelerinde ayarlanan varsayılan değeri geçersiz kılar. Varsayılan parametreyi, **Maliyet yönetimi** &gt; **Stok muhasebesi politikaları kurulumu** &gt; **Parametreler** &gt; **Stok muhasebesi** &gt; **Hesaplama grubu** üzerinde ayarlayabilirsiniz. Varsayılan yapılandırma grubu ayarlayarak, ürün reçetesi hesaplama sürecinde kullanıcılara, seçili bileşenlerin hesaplama hatalarına neden olabileceğini belirtecek uyarı koşullarını da yapılandırabilirsiniz.
 Tamamla sayfasında uyarı iletileri görüntüleme
 ------------------------------------------
 
@@ -85,5 +88,7 @@ Tamamla sayfasında uyarı iletileri görüntüleme
 -   Ürün reçetesi satırındaki maddenin istediğinizden daha düşük bir karlılık yüzdesi olduğunda tespit edin.
 
 Uyarı iletilerindeki değişim gereksinimlerinize bağlı olarak birden fazla ürün reçetesi hesaplama grubu tanımlayabilirsiniz. Örneğin, etkin bir ürün reçetesi, bileşen miktarı 0 (sıfır) ve bileşen maliyeti 0 (sıfır) hakkında uyarı koşulları olan bir ürün reçetesi hesaplama grubu yeterli olabilir. Ürün reçetesi hesaplamasına başladığınızda, ürün reçetesi hesaplama grubuyla ilişkili olan uyarı koşullarını geçersiz hale getirilebilirsiniz. Ayrıca uyarı koşulları ekleyebilir veya kaldırabilirsiniz. Örneğin, mevcut durum rota verilerini içermiyorsa etkin rota hakkındaki uyarı koşulunu kaldırabilirsiniz. **Not:** Saat ve işe devam, bir **Hesaplama grupları** sayfası içerir ancak bu sayfanın ürün reçetesi hesaplama gruplarıyla ilişkisi bulunmaz. Saat ve işe devamda, çalışanlar aynı gözetmen veya yönetici ile ilişkili çalışanların gruplanmasını yansıtan hesaplama gruplarına atanabilir. Çalışan kayıtlarının hesaplaması, bir gözetmen veya yönetici tarafından otomatik veya el ile yapılabilir.
+
+
 
 

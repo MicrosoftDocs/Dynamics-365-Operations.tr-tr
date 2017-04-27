@@ -1,6 +1,6 @@
 ---
 title: "Ürün boyutları"
-description: "Dört ürün boyutu - Renk, konfigürasyon, boyut ve stil yok. Ürün boyutlarını boyut gruplarında birleştirebilirsiniz ve ürün master öğelerine boyut grupları atayabilirsiniz. Ürün boyutlarının kombinasyonları, ürün çeşitlerinin nasıl tanımlanacağını belirler."
+description: "Dört ürün boyutu bulunur - Renk, Yapılandırma, Boyut ve Stil. Ürün boyutlarını boyut gruplarında birleştirebilirsiniz ve ürün master öğelerine boyut grupları atayabilirsiniz. Ürün boyutlarının kombinasyonları, ürün çeşitlerinin nasıl tanımlanacağını belirler."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,21 +29,24 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="product-dimensions"></a>Ürün boyutları
 
-Dört ürün boyutu - Renk, konfigürasyon, boyut ve stil yok. Ürün boyutlarını boyut gruplarında birleştirebilirsiniz ve ürün master öğelerine boyut grupları atayabilirsiniz. Ürün boyutlarının kombinasyonları, ürün çeşitlerinin nasıl tanımlanacağını belirler.
+[!include[banner](../includes/banner.md)]
+
+
+Dört ürün boyutu bulunur - Renk, Yapılandırma, Boyut ve Stil. Ürün boyutlarını boyut gruplarında birleştirebilirsiniz ve ürün master öğelerine boyut grupları atayabilirsiniz. Ürün boyutlarının kombinasyonları, ürün çeşitlerinin nasıl tanımlanacağını belirler.
 
 Ürün boyutları, ürün varyantı tanımlamaya hizmet eden özelliklerdir. Ürün boyutlarının birleşimleri, ürün varyantları tanımlamak için kullanabilirsiniz. Bir ürün varyantı oluşturmak için bir ana ürüne en az bir ürün boyutu tanımlamanız gerekir.
 Ürün çeşitleri
 ----------------
 
-Ürün varyantlarına maddeler de denilir. Bir madde bir hizmet olarak aynı değil somut bir üründür. Ürün ana hizmet türünü tanımlamak mümkündür. Hizmet türü kullanarak hizmetleri içerecek ürün varyantları belirtebilirsiniz. Örneğin, Danışmanlık işi için bir ana ürün ve üst düzey danışmanlar ve alt düzey danışmanlar tarafından gerçekleştirilen iş için ürün varyantları belirtebilirsiniz.
+Ürün varyantlarına maddeler de denilir. Bir madde bir hizmetten farklı olarak somut bir üründür. Hizmet türüyle bir ana ürün tanımlamak da mümkündür. Hizmet türü kullanarak hizmetleri içerecek ürün varyantları belirtebilirsiniz. Örneğin, Danışmanlık işi için bir ana ürün ve üst düzey danışmanlar ve alt düzey danışmanlar tarafından gerçekleştirilen iş için ürün varyantları belirtebilirsiniz.
 
 ## <a name="product-dimensions"></a>Ürün boyutları
-Aşağıdaki Ürün boyutları vardır: yapılandırma, rengi, boyutu ve stili. Ürün boyut değerlerini temel alan bir ürün değişken oluşturulabilir.
+Aşağıdaki ürün boyutları mevcuttur: Yapılandırma, Renk, Boyut ve Stil. Ürün boyut değerlerini temel alan bir ürün çeşidi oluşturulabilir.
 
-Ürün boyutları değerleri gibi boyut, renk ve stil üzerinde oluşturulabilir **boyutu**, **renk** ve **stili** aşağıdaki konumlardan erişilebilir sayfalar,: **ürün bilgi yönetimi**&gt;**Kurulum**&gt;**boyut ve değişken grupları**&gt;**renkleri/boyut/stilleri**. Yapılandırma boyutuna yönelik ürün boyutu genellikle ya Ürün yapılandırıcısı ya da Boyut bazlı yapılandırıcı kullanılarak oluşturulur. Ürün boyutları, aşağıdaki konumlardan erişilebilecek **Ürün boyutları** sayfasında da oluşturulup muhafaza edilebilir:
--   ' I **ürün bilgi yönetimi**&gt;**ürünleri**&gt;**ürün yöneticileri**. Üzerinde **eylem bölmesi**,'ı **Ürün boyutları**.
--   ' I **ürün bilgi yönetimi**&gt;**ürünleri**&gt;**tüm ürünleri ve ürün yöneticileri**. Bir ana ürün seçin. Üzerinde **eylem bölmesi**,'ı **Ürün boyutları**.
--   ' I **ürün bilgi yönetimi**&gt;**ürünleri piyasaya**. Bir ana ürün seçin. Üzerinde **eylem bölmesi**,'ı **ürün**. **Ana ürün** grubunda **Ürün boyutları**'na tıklayın.
+Boyut, Renk ve Stil gibi ürün boyutu değerleri **Boyut**, **Renk** ve **Stil** sayfalarında oluşturulabilir ve bu sayfalara şu konumlardan erişilebilir: **Ürün bilgileri yönetimi** &gt; **Kurulum** &gt; **Boyut ve çeşit Grupları** &gt; **Boyutlar/Renkler/Stiller**. Yapılandırma boyutuna yönelik ürün boyutu genellikle ya Ürün yapılandırıcısı ya da Boyut bazlı yapılandırıcı kullanılarak oluşturulur. Ürün boyutları, aşağıdaki konumlardan erişilebilecek **Ürün boyutları** sayfasında da oluşturulup muhafaza edilebilir:
+-   **Ürün bilgileri yönetimi** &gt; **Ürünler** &gt; **Ana ürünler**'e tıklayın. **Eylem Bölmesi**'nde **Ürün boyutları**'na tıklayın.
+-   **Ürün bilgileri yönetimi** &gt; **Ürünler** &gt; **Tüm ürünler ve ana ürünler**'e tıklayın. Bir ana ürün seçin. **Eylem Bölmesi**'nde **Ürün boyutları**'na tıklayın.
+-   **Ürün bilgileri yönetimi** &gt; **Serbest bırakılan ürünler**'e tıklayın. Bir ana ürün seçin. **Eylem Bölmesi**'nde, **Ürün**'e tıklayın. **Ana ürün** grubunda **Ürün boyutları**'na tıklayın.
 
 Maddeler için oluşturabileceğiniz varyant sayısı, olası ürün boyutu kombinasyonlarının sayısı ile sınırlıdır.
 | **İpucu **                                                                                                                                              |
@@ -64,6 +67,8 @@ Bir şirket kot kumaşından ürünler satıyor. Kot kumaşı maddesi Renk ve Eb
 | Kahverengi | L    |
 | Kahverengi | XL   |
 | Kahverengi | XXL  |
+
+
 
 
 

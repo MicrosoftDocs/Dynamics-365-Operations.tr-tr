@@ -28,15 +28,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Borç hesapları ve Alacak hesapları için yabancı para biriminde yeniden değerleme
 
+[!include[banner](../includes/banner.md)]
+
+
 Döviz kuru dalgalanmaları, yabancı para birimlerindeki açık hareketlerin teorik değerinin (defter değerinin) zaman içinde değişmesine neden olur. Bu makalede, Borç hesapları ve Alacak hesaplarındaki açık hareketlerin değerini güncelleştirmek için çalıştırdığınız yabancı para birimi yeniden değerleme işlemi hakkında bilgiler verilmektedir. 
 
-Yabancı para birimlerindeki açık hareketlerinin teorik değeri veya defter değeri, döviz kurlarındaki dalgalanmalar nedeniyle zaman içinde değişiklik gösterebilir. Borç hesapları ve Alacak hesapları altındaki açık hareketlerin değerini güncelleştirmek için yabancı para birimi yeniden değerleme sürecini işletin. Yabancı para biriminde yeniden değerleme hem Borç hesapları hem Alacak hesapları için yürütülebilir. Süreç, belirli bir tarihteki açık hesapları veya kapatılmamış tutarları yeniden değerlemek için yeni bir döviz kuru kullanır. Bir gerçekleşmemiş kazanç veya kayıp her açık hareket için deftere nakledilen tutarların orijinal tutarlarla yeniden değerlendirilen tutarlar arasındaki farkı neden olur. Borç hesapları ve Alacak hesapları subledgers sonra gerçekleşmemiş kazanç veya kayıp yansıtacak şekilde güncelleştirilir ve muhasebe girişi genel muhasebeye nakledilir.
+Yabancı para birimlerindeki açık hareketlerinin teorik değeri veya defter değeri, döviz kurlarındaki dalgalanmalar nedeniyle zaman içinde değişiklik gösterebilir. Borç hesapları ve Alacak hesapları altındaki açık hareketlerin değerini güncelleştirmek için yabancı para birimi yeniden değerleme sürecini işletin. Yabancı para biriminde yeniden değerleme hem Borç hesapları hem Alacak hesapları için yürütülebilir. Süreç, belirli bir tarihteki açık hesapları veya kapatılmamış tutarları yeniden değerlemek için yeni bir döviz kuru kullanır. Gönderilen orijinal tutarlar ve yeniden değerlenen tutarlar, her açık hareketten gerçekleşmemiş kazanç veya kayıp ile sonuçlanmış olabilir. Borç hesapları ve alacak hesapları alt muhasebe defterleri daha sonra gerçekleşmemiş kazanç veya zararı yansıtmak için güncelleştirilir ve bir muhasebe girişi Genel muhasebe defterine nakledilir.
 
 ## <a name="simulate-a-foreign-currency-revaluation"></a>Yabancı para birimi yeniden değerleme simülasyonu
 Açık hareketlerde yabancı para birimi tutarlarını yeniden değerlemeden önce aynı tarih ve yöntem için yabancı para birimi yeniden değerleme simülasyon raporu çalıştırabilirsiniz. Simülasyon raporunu çalıştırmak için **Yabancı para birimi yeniden değerleme** sayfasında **Simülasyon** düğmesine basın. Rapor, simülasyon için tanımlanan parametrelere dayalı olarak gerçekleşmemiş kazanç veya kayıp tutarının önizlenmesini sağlar.
 
 ## <a name="process-a-foreign-currency-revaluation"></a>Bir yabancı para birimi yeniden değerleme işlemi gerçekleştirin
-Kullanım **yabancı para birimi yeniden değerleme** altında sayfa **periyodik görevler** açık hareketler yeniden değerlemek için. Süreci gerçek zamanlı olarak yürütebilir veya bir toplu işlem kullanarak yürütülmek üzere programlayabilirsiniz. Yeniden değerleme işlemi ayarlarını tanımlarken, sonuçları bir rapor yazdırmak istediğinizi doğrulamak emin olun. İşlem tamamlandıktan sonra yeniden değerleme raporu yeniden yazdırılmaları olamaz. Yabancı para birimi yeniden değerleme raporu oluşturduğunuzda müşteri/satıcı düzeyinde ve para birimi düzeyinde çeşitli bakiyeler gösterilir:
+Açık hareketleri yeniden değerlemek için **Periyodik görevler** altında **Yabancı para birimi yeniden değerleme işlemi** sayfasını kullanın. Süreci gerçek zamanlı olarak yürütebilir veya bir toplu işlem kullanarak yürütülmek üzere programlayabilirsiniz. Yeniden değerleme işlemi için ayarları tanımladığınızda, sonuçların raporunu yazdırmak istediğinizi doğruladığınızdan emin olun. Yeniden değerleme raporu, işlem sonuçlandıktan sonra yeniden yazdırılamaz. Yabancı para birimi yeniden değerleme raporu oluşturduğunuzda müşteri/satıcı düzeyinde ve para birimi düzeyinde çeşitli bakiyeler gösterilir:
 
 -   Yeniden değerlenen yabancı para birimlerinde hareketlere sahip olan müşterilerin veya satıcıların bakiyeleri. Şu bakiyeler gösterilir:
     -   Yabancı para birimindeki toplam orijinal bakiye.
@@ -45,7 +48,7 @@ Kullanım **yabancı para birimi yeniden değerleme** altında sayfa **periyodik
     -   Önceki ve güncel yeniden değerleme arasındaki fark. Bu fark ilave gerçekleşmemiş kazanç veya kayıptır.
 -   Her bir para birimi için toplam gerçekleşmemiş kazanç veya kayıp.
 
-Bir yabancı para birimi yeniden değerleme işlemi yürüttüğünüzde her seferinde bir kayıt tutulur. **Yabancı para birimi yeniden değerleme** sayfasındaki kayıttan, yeniden değerleme nedeniyle oluşturulmuş hareketlerin ayrıntılı listesini görmek için **Hareketler** öğesini seçin. Her fiş hareketi Yeniden Değerlenmiş açık hareket temsil eder. Açık bir hareketi birden fazla kez yeniden Değerlenmiş aynı fiş kullanan iki kayıtları görürsünüz. Önceki gerçekleşmemiş kazanç veya kayıp ters işlem için bir kayıt olur ve diğer kayıt için yeni gerçekleşmemiş kazanç veya kayıp olacaktır. Yeniden değerleme süresini yürütmek için **Yabancı para birimi yeniden değerleme işlemi** düğmesini tıklayın. Aşağıdaki parametreler için doğru ayarları yapılandırın:
+Bir yabancı para birimi yeniden değerleme işlemi yürüttüğünüzde her seferinde bir kayıt tutulur. **Yabancı para birimi yeniden değerleme** sayfasındaki kayıttan, yeniden değerleme nedeniyle oluşturulmuş hareketlerin ayrıntılı listesini görmek için **Hareketler** öğesini seçin. Her fiş hareketi, yeniden değerlenmiş açık hareketi temsil eder. Bir açık hareket birden fazla defa yeniden değerlenirse, aynı fişi kullanan iki kayıt görürsünüz. Önceki gerçekleşmemiş kazanç veya kayıp ters işlem için bir kayıt olur ve diğer kayıt için yeni gerçekleşmemiş kazanç veya kayıp olacaktır. Yeniden değerleme süresini yürütmek için **Yabancı para birimi yeniden değerleme işlemi** düğmesini tıklayın. Aşağıdaki parametreler için doğru ayarları yapılandırın:
 
 -   **Yöntem** – Seçilen yabancı para birimi yeniden değerleme işleminde kullanılan yöntem:
     -   **Standart** – Yabancı para birimi yeniden değerleme işlerinin sonucun kar ya da zarar olmasından bağımsız olarak nakledildiği anlamına gelir.
@@ -61,6 +64,8 @@ Bir yabancı para birimi yeniden değerleme işlemi yürüttüğünüzde her sef
     -   **Yok** – Hiçbir mali boyut nakledilmez. Hesap yapınızda bir zorunlu mali boyut bulunuyorsa yeniden değerleme süreci hala çalışır ve mali boyutları olmayan muhasebe girişleri oluşturur. Öncelikle bir uyarı mesajı alırsınız, ardından yeniden değerlemeyi iptal edebilirsiniz.
     -   **Tablo** – Yabancı para birimi yeniden değerleme işlemi ayarlama hareketlerinde müşteri hesabı veya satıcı hesabı mali boyutlarının nakledildiği anlamına gelir.
     -   **Nakletme** – Yeniden değerleme yapılan hareketin mali boyutlarının yabancı para birimi yeniden değerleme işlemi hareketlerine nakledildiğini gösterir. Varsayılan olarak, orijinal hareketlerin AR/AP genel muhasebe hesabındaki mali boyutlar, yeniden değerleme hareketlerinin AR/AP ana hesabı için kullanılırken, orijinal hareketlerin gider/kıymet/gelir ana muhasebe hesabındaki mali boyutlar yeniden değerleme hareketinin gerçekleşmemiş kazanç/kayıt ana hesabı için kullanılır.
+
+
 
 
 

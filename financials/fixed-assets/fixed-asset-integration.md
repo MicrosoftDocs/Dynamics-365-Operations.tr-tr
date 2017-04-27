@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-integration"></a>Sabit kıymet tümleştirmesi
 
+[!include[banner](../includes/banner.md)]
+
+
 Sabit kıymetler Genel muhasebe, Stok yönetimi, Alacak hesapları ve Borç hesapları ile entegre olabilir. Sabit kıymetleri satınalma emirleri ile entegre olacak biçimde de ayarlayabilirsiniz.
 
 <a name="general-ledger"></a>Genel muhasebe
@@ -82,7 +85,7 @@ Defter türetilmiş bir amortisman defteri içeriyorsa, satıcı faturasını de
 ## <a name="project-management-and-accounting"></a>Proje yönetimi ve muhasebe
 Projeyi, projeden etkilenen bir kıymetle ilişkilendirebilirsiniz. Aynı zamanda her aşama, görev veya alt projeyi farklı bir kıymetle ilişkilendirebilirsiniz. Bir kıymet her proje kaydıyla ilişkilendirilebilir. **Projeler** sayfasındaki **Sabit kıymet** numarası alanına sabit kıymet numarasını girdiğinizde ilişkilendirmeyi oluşturursunuz. Proje türü **Dahili** veya **Maliyet projesi** olmalıdır. 
 
-Projelerle ilişkili kıymetlerle ilgili ayrıntıları görüntülemek için **Projeler** sayfasını da kullanabilirsiniz. Sabit kıymet kaydını görüntülemek amacıyla **Sabit kıymetler** sayfasını açmak için **Kurulum** Hızlı Sekmesinde kıymet bağlantısına tıklayın. ' I **projeleri**&gt;**tüm projeleri** sabit kıymet ile ilgili projeleri görüntülemek için. 
+Projelerle ilişkili kıymetlerle ilgili ayrıntıları görüntülemek için **Projeler** sayfasını da kullanabilirsiniz. Sabit kıymet kaydını görüntülemek amacıyla **Sabit kıymetler** sayfasını açmak için **Kurulum** Hızlı Sekmesinde kıymet bağlantısına tıklayın. Ardından, sabit kıymetle ilişkilendirilen projeleri görüntülemek için **Projeler** &gt; **Tüm projeler**'e tıklayın. 
 
 Genel olarak projeler iş, bakım veya kıymet gelişimleriyle ilgili olduğunda sabit kıymetleri projelerle ilişkilendirirsiniz. Proje tamamlandığında, kıymet için otomatik olarak bir değer artırma düzeltmesi oluşturulmaz. Bu nedenle, değer artırma düzeltmesi gerekiyorsa değer artırma düzeltmesini el ile oluşturmanız gerekir. 
 
@@ -90,6 +93,8 @@ Proje ile kıymet arasındaki ilişkilendirmeyi silmek için, **Projeler** sayfa
 
 Ayrıca, tahmini bir projenin bir parçası olarak oluşturduğunuz veya ürettiğiniz bir sabit kıymet de atayabilirsiniz. Tahmini projenin sonunda, bir kıymet alım hareketi otomatik olarak deftere nakledebilirsiniz.
 
-Daha fazla bilgi için bkz: [kıymetleri aracılığıyla satın alma](acquire-assets-procurement.md)
+Daha fazla bilgi için bkz: [Satınalma aracılığıyla kıymet alma](acquire-assets-procurement.md)
+
+
 
 

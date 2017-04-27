@@ -1,5 +1,5 @@
 ---
-title: "Uzun oturum açma işlevselliği bulut POS ve MPOS için ayarlayın."
+title: "Bulut POS ve MPOS için genişletilmiş oturum açma işlevselliğinin ayarlaması"
 description: "Bu wiki Bulut POS ve Perakende Modern POS (MPOS) için genişletilmiş oturum açma seçeneğini ayarlamada kullanabileceğiniz seçenekleri ele alır."
 author: josaw1
 manager: AnnBe
@@ -25,14 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Uzun oturum açma işlevselliği bulut POS ve MPOS için ayarlayın.
+# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Bulut POS ve MPOS için genişletilmiş oturum açma işlevselliğinin ayarlaması
 
 Bu wiki Bulut POS ve Perakende Modern POS (MPOS) için genişletilmiş oturum açma seçeneğini ayarlamada kullanabileceğiniz seçenekleri ele alır.
 
 <a name="setting-up-extended-logon"></a>Genişletilmiş oturum açma ayarlaması
 =========================
 
-Barkod maskeleri Kurulum bulabilirsiniz **perakende ve ticaret**&gt;**kanal Kurulumu**&gt;**POS Kurulumu**&gt;**POS profilleri**&gt;**işlevsellik profilleri**. **İşlevler** Hızlı Sekmesi genişletilmiş oturum açma ile ilgili aşağıdaki seçenekleri içerir.
+Barkod maskeleri ayarını **Perakende ve ticaret** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **İşlevsellik profilleri** menüsünden bulabilirsiniz. **İşlevler** Hızlı Sekmesi genişletilmiş oturum açma ile ilgili aşağıdaki seçenekleri içerir.
 
 ### <a name="staff-bar-code-logon"></a>Personel barkod oturum açma işlemi
 
@@ -53,7 +53,7 @@ Barkod maskeleri Kurulum bulabilirsiniz **perakende ve ticaret**&gt;**kanal Kuru
 <a name="assigning-an-extended-logon"></a>Genişletilmiş oturum açma ataması
 ===========================
 
-Varsayılan olarak, yalnızca yöneticiler çalışanlara genişletilmiş oturum açma atayabilir. Genişletilmiş oturum atamak için Git **genişletilmiş oturum açma** POS içinde. Sonra işçi kendi operatör kodu arama alanına girerek arama yapın. Çalışanı seçip **Ata** öğesine tıklayın. Bir sonraki sayfada, çalışana atamak için genişletilmiş oturum açma kartını geçirin veya taratın. Kart geçirme veya tarama başarıyla okunursa, **Tamam **düğmesi kullanılabilir olur. O çalışan için genişletilmiş oturum açmayı kaydetmek için **Tamam** düğmesine tıklayın.
+Varsayılan olarak, yalnızca yöneticiler çalışanlara genişletilmiş oturum açma atayabilir. Genişletilmiş oturum atamak için POS içinde **Genişletilmiş oturum açma**'ya gidin. Daha sonra, operatör kimliğini arama alanına girerek çalışanı arayın. Çalışanı seçip **Ata** öğesine tıklayın. Bir sonraki sayfada, çalışana atamak için genişletilmiş oturum açma kartını geçirin veya taratın. Kart geçirme veya tarama başarıyla okunursa, **Tamam **düğmesi kullanılabilir olur. O çalışan için genişletilmiş oturum açmayı kaydetmek için **Tamam** düğmesine tıklayın.
 
 <a name="deleting-an-extended-logon"></a>Genişletilmiş oturum açmanın silinmesi
 ==========================

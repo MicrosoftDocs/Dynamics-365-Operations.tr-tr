@@ -1,6 +1,6 @@
 ---
 title: "Numara serilerine genel bakış"
-description: "Microsoft Dynamics 365 işlemleri için numara serilerini ana veri kayıtları ve tanımlayıcıları gerektiren işlem kayıtları okunabilir ve benzersiz tanımlayıcılarını oluşturmak için kullanılır. Tanımlayıcı gerektiren bir ana veri kaydı veya hareket kaydı, <em>referans</em> olarak adlandırılır."
+description: "Microsoft Dynamics 365 for Operations&quot;daki numara serileri, kimlik tanımlayıcıları gerektiren ana veri kayıtları ve hareket kayıtları için okunabilir ve benzersiz tanımlayıcılar oluşturmada kullanılır. Tanımlayıcı gerektiren bir ana veri kaydı veya hareket kaydı, <em>referans</em> olarak adlandırılır."
 author: MargoC
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="number-sequence-overview"></a>Numara serilerine genel bakış
 
-Microsoft Dynamics 365 işlemleri için numara serilerini ana veri kayıtları ve tanımlayıcıları gerektiren işlem kayıtları okunabilir ve benzersiz tanımlayıcılarını oluşturmak için kullanılır. Tanımlayıcı gerektiren bir ana veri kaydı veya hareket kaydı, <em>referans</em> olarak adlandırılır.
+[!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 işlemleri için yeni kayıtlar için bir başvuru oluşturmak için önce bir numara sırası oluşturun ve başvuru ile ilişkilendirin. Numara sıralarını ayarlamak için **Kuruluş yönetimi**'ndeki sayfaları kullanmanızı öneririz. Modüle özgü ayarları gerekiyorsa, bu modül içindeki referans için numara serileri belirtmek için bir modüldeki parametreleri sayfasını kullanabilirsiniz. Örneğin, **Alacak hesapları** ve **Borç hesapları**'nda, belirli müşteriler veya satıcılar için özel numara serileri tahsis etmek için numara serisi grupları ayarlayabilirsiniz. Bir numara sırası ayarlarsanız, hangi kuruluşun bu numara serisini kullanacağını tanımlayan bir kapsam belirtmelisiniz. Kapsam **Paylaşımlı**, **Şirket**, **Tüzel kişilik** veya **İşletim birimi** olabilir. **Tüzel kişilik** ve **Şirket**, **Mali takvim dönemi** kapsamları ile daha özel numara serileri oluşturmak için birleştirilebilir. Numara sırası biçimleri segmentlerden oluşur. **Paylaşımlı** dışında kapsamlara sahip seriler, kapsama karşılık gelen segmentler içerebilir. Örneğin, **Tüzel kişilik** kapsamını içeren bir numara serisi, bir tüzel kişilik segmenti içerebilir. Sayı dizisi biçiminde bir kapsam kesimi dahil ederek, numarasına bakarak belirli bir kaydın kapsamını tanımlayabilirsiniz. Segmentlere karşılık gelen kapsamların yanı sıra, numara sırası biçimleri **Sabit** ve **Alfasayısal parçaları** içerebilir. **Sabit** bir segment bir dizi değişmez harf, sayı veya simge kümesi içerir. Bir **Alfasayısal** segment, bir sayının kullanıldığı her seferde artan bir harf veya sayı kümesi içerir. Sayı işareti kullanın (\#) artan harflerle için artan bir sayı ve bir ampersan göstermek için (&). Örneğin, Biçim \#\#\#\#\#\_2017 00001 sırası oluşturur\_, 2017 00002\_2017 vb..
+
+Microsoft Dynamics 365 for Operations'daki numara serileri, kimlik tanımlayıcıları gerektiren ana veri kayıtları ve hareket kayıtları için okunabilir ve benzersiz tanımlayıcılar oluşturmada kullanılır. Tanımlayıcı gerektiren bir ana veri kaydı veya hareket kaydı, <em>referans</em> olarak adlandırılır.
+
+Microsoft Dynamics 365 for Operations'da bir referans için yeni kayıtlar oluşturmadan önce, bir numara serisi oluşturmalı ve bunu referans ile ilişkilendirmelisiniz. Numara sıralarını ayarlamak için **Kuruluş yönetimi**'ndeki sayfaları kullanmanızı öneririz. Modüle özgü ayarları gerekiyorsa, bu modül içindeki referans için numara serileri belirtmek için bir modüldeki parametreleri sayfasını kullanabilirsiniz. Örneğin, **Alacak hesapları** ve **Borç hesapları**'nda, belirli müşteriler veya satıcılar için özel numara serileri tahsis etmek için numara serisi grupları ayarlayabilirsiniz. Bir numara sırası ayarlarsanız, hangi kuruluşun bu numara serisini kullanacağını tanımlayan bir kapsam belirtmelisiniz. Kapsam **Paylaşımlı**, **Şirket**, **Tüzel kişilik** veya **İşletim birimi** olabilir. **Tüzel kişilik** ve **Şirket**, **Mali takvim dönemi** kapsamları ile daha özel numara serileri oluşturmak için birleştirilebilir. Numara sırası biçimleri segmentlerden oluşur. **Paylaşımlı** dışında kapsamlara sahip seriler, kapsama karşılık gelen segmentler içerebilir. Örneğin, **Tüzel kişilik** kapsamını içeren bir numara serisi, bir tüzel kişilik segmenti içerebilir. Sayı dizisi biçiminde bir kapsam kesimi dahil ederek, numarasına bakarak belirli bir kaydın kapsamını tanımlayabilirsiniz. Segmentlere karşılık gelen kapsamların yanı sıra, numara sırası biçimleri **Sabit** ve **Alfasayısal parçaları** içerebilir. **Sabit** bir segment bir dizi değişmez harf, sayı veya simge kümesi içerir. Bir **Alfasayısal** segment, bir sayının kullanıldığı her seferde artan bir harf veya sayı kümesi içerir. Artan sayıları göstermek için (\#) ve artan harfleri göstermek için (&) simgelerini kullanın. Örneğin, \#\#\#\#\#\_2017 biçimi, 00001\_2017, 00002\_2017 sırasını ve devamını oluşturur.
 Numara serisi örnekleri
 ------------------------
 
@@ -73,6 +76,8 @@ Numara serileri sürekli veya sürekli olmayan şekillerde bulunabilir. Sürekli
 ### <a name="automatic-cleanup-of-number-sequences"></a>Numara serilerinin otomatik temizlemesi
 
 Güç kesintisi, bir uygulama hatası veya diğer beklenmeyen bir hata olması durumunda, sistem sürekli numara serileri için numaraların geri dönüşünü gerçekleştiremez. Kayıp numaraları kurtarmak için temizleme işlemini otomatik olarak veya el ile çalıştırabilirsiniz. Temizleme işlemi planlarken sunucu kullanımını dikkate alın. Temizleme işlemini yoğun olmayan saatlerde toplu iş olarak gerçekleştirmenizi öneririz.
+
+
 
 
 

@@ -27,9 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-receivable-home-page"></a>Alacak hesapları giriş sayfası
 
-Müşteri faturalarını ve gelen ödemeleri izlemek için Alacak hesaplarını kullanın.
+[!include[banner](../includes/banner.md)]
+
+
+Müşteri faturalarını ve gelen ödemeleri izlemek için Alacak hesaplarını kullanın. 
 
 Müşteri faturaları, satış siparişlerini veya sevk irsaliyeleri göre oluşturabilirsiniz. Satış siparişleriyle ilgili olmayan serbest metin faturaları da girebilirsiniz. Ödemeleri, birkaç farklı ödeme tipleri kullanarak alabilirsiniz. Bunlar, kambiyo senedi, nakit, Çek, kredi kartları ve elektronik ödemeler içerir. Kuruluşunuz birden çok tüzel kişilikler içeriyorsa, diğer tüzel kişilikler adına tek bir tüzel kişilik içinde merkezi ödemeler kayıt ödemeleri için kullanabilirsiniz.
+
+
 
 
 

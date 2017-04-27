@@ -1,6 +1,6 @@
 ---
-title: "Satış ve Karlılık performansı güç BI içeriği"
-description: "Dynamics 365 işlemleri - satış ve Karlılık performansı içerik paketi Microsoft Power BI de dahil bu konuda açıklanmıştır. Bu içerik paketinde raporlara erişimi açıklar ve içerik paketi oluşturmak için kullanılan varlıkları ve veri modeli hakkında bilgi sağlar."
+title: "Satış ve karlılık performansı Power BI içeriği"
+description: "Bu konuda, Dynamics 365 for Operations - Microsoft Power BI için satış ve karlılık performansı içerik paketinin içeriği açıklanmaktadır. Bu ayrıca, içerik paketine dahil edilen raporların nasıl kullanılacağını açıklar ve içerik paketini oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,84 +24,84 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="sales-and-profitability-performance-power-bi-content"></a>Satış ve Karlılık performansı güç BI içeriği
+# <a name="sales-and-profitability-performance-power-bi-content"></a>Satış ve karlılık performansı Power BI içeriği
 
-Dynamics 365 işlemleri - satış ve Karlılık performansı içerik paketi Microsoft Power BI de dahil bu konuda açıklanmıştır. Bu içerik paketinde raporlara erişimi açıklar ve içerik paketi oluşturmak için kullanılan varlıkları ve veri modeli hakkında bilgi sağlar.
+Bu konuda, Dynamics 365 for Operations - Microsoft Power BI için satış ve karlılık performansı içerik paketinin içeriği açıklanmaktadır. Bu ayrıca, içerik paketine dahil edilen raporların nasıl kullanılacağını açıklar ve içerik paketini oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar.
 
 <a name="overview"></a>Özet
 --------
 
-Bu içerik paketi satış yöneticilerinin gelir, brüt kar ve kar marjlarını anahtar satış ölçümlerini izlemek oluşturuldu. Dynamics 365 satış işlem verilerinden işlemler için kullanır ve müşteriler ve ürünler için hem toplam şirket çapındaki satış rakamlarının görünümünü ve dökümünü satış performansı sağlar. Zaman içinde gelir ve kazanç büyüme değişiklikleri vurgulayarak raporları pozitif ve negatif eğilimleri hakkında uyarı yöneticileri için tek tek müşteriler ve ürünleri için kullanılabilir. Kategori ve bölgesel yöneticileri geliri ve Karlılığı farklı ürün kategorileri ve müşteri gruplarına birbirlerine sona kalanlar ve liderleri tek karşılaştıran grafikler yararlı bulacaksınız. Bireysel Müşteri geliri Kar marjı teklifleri hesap yöneticileri ve satış ve pazarlama çabalarını attune her müşterinin ilgili profil için bir veri yedeği temel çizim kapsamlı bir rapor. Satış ve Karlılık performansı içerik paketi tarafından satış performansını çözümlemek satış yöneticileri sağlar:
+Bu içerik paketi, satış yöneticilerinin gelir, brüt kar ve kar marjları anahtar satış ölçümlerini izlemesi için oluşturulmuştur. Dynamics 365 for Operations'tan alınan satış işlem verilerini kullanır ve hem şirket çapında satış rakamlarının toplam görünümünü hem de müşteriler ve ürünler için satış performansının dağılımını verir. Zaman içindeki gelir ve kar büyümesindeki değişiklikleri vurgulayarak, raporlar yöneticileri bireysel müşteriler ve ürünler için olumlu ve olumsuz eğilimler konusunda uyarmak için kullanılabilir. Kategori ve bölge müdürleri, geride kalanları ve liderleri birbirinden ayırmak için farklı ürün kategorilerinin ve müşteri gruplarının gelir ve karlılıklarını karşılaştıran çizelgeleri yararlı bulacaktır. Bireysel müşteri gelirini kar marjıyla karşılaştıran kapsamlı bir rapor, hesap yöneticilerine satış ve pazarlama çabalarını her bir müşterinin ilgili profiline uyumlu hale getirmek için verilere dayalı bir zemin sunar. Satış ve karlılık performansı içerik paketi Satış yöneticilerinin satış performansını şu ölçütlerle çözümlemesini sağlar:
 
--   Gelir, yıl-(müşteri grubu tek tek müşteriler, satış kategorilerini ve tek tek ürünler ve geographies tarafından) tarih
--   Yıl-over-(müşteri bölgeler ve satışları kategorilere göre) yıllık geliri değiştirme
+-   Gelir, yılbaşından bugüne (müşteri grubu ve bireysel müşteriler, satış kategorileri ve bireysel ürünler ve coğrafyalara göre)
+-   Gelir değişimi, yıldan yıla (müşteri bölgelerine ve satışları kategorilerine göre)
 
-Karlılık tarafından çözümlenebilir:
+Karlılık şu ölçütlere göre çözümlenebilir:
 
--   Brüt Kar ve kar marjıyla (müşteri grupları ve satış ürün kategorileri)
--   Brüt Kar değiştirme, yıl üzerinden yıl
--   Müşteri Karlılığı (tarafından brüt kar marjı karşılık gelir)
+-   Brüt kar ve kar marjı (müşteri gruplarına ve ürün satış kategorilerine göre)
+-   Brüt kar değişikliği, yıldan yıla
+-   Müşteri karlılığı (gelir - brüt kar marjı karşılaştırması)
 
-## <a name="accessing-the-content-pack"></a>İçerik Paketi erişme
-Satış ve Karlılık performansı BI Power pack bir uygulama malın ömrü Hizmetleri (LCS) olarak yayınlanır ve Dynamics 365 işlemleri için erişilebilir içerik. Erişim ve güç BI raporları başlatma hakkında daha fazla bilgi için bkz: [Microsoft ve ortaklarınız LCS içeriğinde güç BI](power-bi-content-microsoft-partners.md).
+## <a name="accessing-the-content-pack"></a>İçerik paketine erişmek
+Satış ve karlılık performansı Power BI içerik paketi, Lifecycle Services'da (LCS) bir uygulama varlığı olarak yayınlanır ve Dynamics 365 for Operations'tan erişilebilir. Power BI raporlarına erişme ve raporları başlatma hakkında daha fazla bilgi için bkz. [Microsoft ve iş ortaklarınızdan LCS'de Power BI içeriği](power-bi-content-microsoft-partners.md).
 
-## <a name="metrics-included-in-the-content-pack"></a>İçerik paketinde ölçümleri
-İçerik Paketi ölçümleri grafikler, döşeme ve tablo görünür kümesi oluşturan bir raporu içerir. Aşağıdaki tabloda içerik Pack visualisations genel bakış sağlar.
+## <a name="metrics-included-in-the-content-pack"></a>İçerik paketindeki ölçümler
+İçerik paketi ölçümleri grafikler, kutucuklar ve tablolar halinde görselleştirilmiş bir dizi ölçümden oluşan bir rapor içerir. Aşağıdaki tabloda içerik paketindeki görselleştirmelere bir genel bakış sunulmaktadır.
 
 |                        |                                            |                                                         |
 |------------------------|--------------------------------------------|---------------------------------------------------------|
-| **Rapor sayfası**        | **Charts**                                 | **Döşeme**                                               |
-| Müşteriye göre gelir    | Gelire göre ilk 10 müşteriler                | Toplam gelir                                           |
-|                        | Toplam Gelire göre müşteri grubu            | Yıllara göre gelir büyüme                                      |
-|                        | Müşteri grubuna göre ortalama Müşteri geliri | Brüt kar                                            |
-|                        | Gelir ve müşteri grubuna göre brüt kar   |                                                         |
-| Ürüne göre gelir     | Gelir ve satış kategoriye göre brüt kar   | Toplam \#ürünleri                                    |
-|                        | Gelire göre ilk 10 ürün                 | Etkin Ürünler ve toplamın yüzdesi toplam sayısı |
-|                        | Toplam Gelire göre satış kategorisi            | Ürünlerin % 80 gelir için hesap numarası           |
-| Döneme göre gelir\*    | Aya göre gelir                           | Yıllara göre gelir büyüme                                      |
-|                        | Sonunda gelir farkı, yıllara göre             | Yıllara göre gelir büyüme %                                    |
-|                        | Müşteri bölgeye göre satış toplam sapma    |                                                         |
-| Konuma göre gelir    | Şehre göre satış geliri                      |                                                         |
-|                        | Yıllara göre gelir büyüme %                       |                                                         |
-|                        | Bölgeye göre satış geliri                    |                                                         |
-| Müşteri Karlılığı | Brüt Kar / müşteriye göre gelir   | Brüt kar, brüt kar marjı, yıllara göre gelir büyüme          |
-| Karlılık analizi | Gelir ve aylık brüt kar          |                                                         |
-|                        | Brüt Kar marjı bazında ilk 15 müşteriler           |                                                         |
-|                        | Aylara, yıllara göre brüt kar                 |                                                         |
+| **Rapor sayfası**        | **Grafikler**                                 | **Kutucuklar**                                               |
+| Müşteriye göre gelir    | Gelire göre ilk 10 müşteri                | Toplam gelir                                           |
+|                        | Müşteri grubuna göre toplam gelir            | Yıldan yıla gelir büyümesi                                      |
+|                        | Müşteri grubuna göre ortalama müşteri geliri | Brüt kar                                            |
+|                        | Müşteri grubuna göre gelir ve brüt kar   |                                                         |
+| Ürüne göre gelir     | Satış kategorisine göre gelir ve brüt kar   | Toplam \# ürün sayısı                                    |
+|                        | Gelire göre ilk 10 ürün                 | Etkin ürünlerin toplam sayısı ve toplamdaki yüzdesi |
+|                        | Satış kategorisine göre toplam gelir            | Gelirin %80'ini oluşturan ürünlerin sayısı           |
+| Gelir, döneme göre\*    | Gelir, aya göre                           | Gelir büyümesi, yıldan yıla                                      |
+|                        | Son bütçe farkı, yıldan yıla             | Gelir büyümesi yüzdesi, yıldan yıla                                    |
+|                        | Satış toplamı farkı, müşteri bölgesine göre    |                                                         |
+| Gelir, yerleşime göre    | Satış geliri, şehre göre                      |                                                         |
+|                        | Gelir büyümesi yüzdesi, yıldan yıla                       |                                                         |
+|                        | Satış geliri, bölgeye göre                    |                                                         |
+| Müşteri karlılığı | Brüt marj - gelir karşılaştırması, müşteriye göre   | Brüt kar, brüt marj, yıldan yıla gelir büyümesi          |
+| Karlılık analizi | Gelir ve brüt kar, aya göre          |                                                         |
+|                        | İlk 15 müşteri, brüt kara göre           |                                                         |
+|                        | Brüt kar, aya göre, yıldan yıla                 |                                                         |
 
-\*Gelir bu ve son yıl ve satış kategoriye göre büyüme.
+\* Bu yılki ve geçen yılki gelir ve büyüme, satış kategorisine göre.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
-İşlemler veri 365 Dynamics satış ve Karlılık performansı içerik paketi raporu doldurmak için kullanılır. Bu hazırlanır toplam ölçüleri ile temsil edilir varlık deposunda olduğu analytics için en iyi duruma getirilmiş Microsoft SQL veritabanı. Hakkında daha fazla bilgi blog içinde [Dynamics varlık deposu ile tümleştirme güç BI](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Bu içerik paketi toplam ölçüleri Dynamics AX 2012 ve AX 2012 R3 satış küpteki kullanılabilir toplama ölçümlerin alt kümesidir. Toplama küp ölçüleri varlık deposundaki hazırlamak için konuşlandırılabilir yapmanız gerekir. Blog varlık deposunda toplama ölçülerin aşama hakkında daha fazla bilgi için ilgili yordama bakın [Dynamics varlık deposu ile tümleştirme güç BI](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Aşağıdaki anahtar toplama ölçümleri fatura satırları varlık İçerik Paketi için temel olarak kullanılır.
+Dynamics 365 for Operations verileri, Satış ve karlılık performansı içerik paketindeki raporu doldurmak için kullanılır. Bu, analiz için optimize edilmiş bir Microsoft SQL veritabanı olan Varlık Deposunda hazırlanmış toplama ölçümler olarak temsil edilir. Hakkında daha fazla bilgi için blog yazısına bakın: [Dynamics'te Power BI ile Varlık Deposu tümleştirmesi](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Bu içerik paketindeki toplama ölçümler, Dynamics AX 2012 ve AX 2012 R3'teki Satış Küpü'nde bulunan toplama ölçümlerin alt kümesidir. Varlık deposundaki küpün toplama ölçülerini hazırlamak için bu ölçümleri dağıtılabilir yapmanız gerekir. Daha fazla bilgi için, şu blog yazısındaki toplama ölçümlerini Varlık Deposuna ekleme prosedürüne bakın: [Dynamics'te Power BI ile Varlık deposu tümleştirmesi](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Fatura satırları varlığının aşağıda verilen önemli toplama ölçümleri, içerik paketinin temeli olarak kullanılır.
 
 |               |                                              |                                                 |                                              |                                          |
 |---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|------------------------------------------|
-| **Entity**    | **Anahtar toplam ölçüleri**               | **Dynamics 365 işlemleri için veri kaynağı** | **Field**                                    | **Description**                          |
+| **Varlık**    | **Önemli toplama ölçümler**               | **Dynamics 365 for Operations için veri kaynağı** | **Alan**                                    | **Açıklama**                          |
 | Fatura satırları | Gelir                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Muhasebe para birimi cinsinden tutar            |
-|               | Satılan malların maliyeti                           | InventTrans                                     | TOPLAMI (CostAmountPosted + CostAmountAdjustment) | Maliyet tutarı + düzeltme                 |
-|               | Komisyon satır tutarı – hesap para birimi | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Hesap para birimi cinsinden komisyon tutarı |
+|               | Satılan malların maliyeti                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | Maliyet tutarı + düzeltme                 |
+|               | Komisyon satırı tutarı – muhasebe para birimi | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Komisyon satırı tutarı, muhasebe para birimi cinsinden |
 
-Aşağıdaki tablo içerik paketinin veri kümesinde birden çok hesaplanmış ölçüler oluşturmak için kullanılan anahtar toplama ölçümleri fatura satırları varlık gösterir.
+Aşağıdaki tabloda, içerik paketinde veri kümesini oluşturmak için kullanılan fatura satırları varlığı önemli toplama ölçümleri gösterilmektedir.
 
 |                   |                                                                                                  |
 |-------------------|--------------------------------------------------------------------------------------------------|
-| **Measure**       | **Olarak hesaplanan**                                                                                |
-| Brüt kar      | SUM (gelir – SMM – komisyon – satış vergisi (müşteri fatura satır tutarına dahil))          |
-| Brüt kar      | SUM (Brüt Kar / (gelir - Satış vergisi (müşteri fatura satır tutarına dahil)))             |
-| Geçen yıl gelir | Geliri hesapla geçen yıl = (toplam ('Fatura satırlarını'\[gelir\]), SAMEPERIODLASTYEAR (tarihleri\[tarih\]) |
+| **Ölçüm**       | **Hesaplama şekli**                                                                                |
+| Brüt kar      | SUM(Gelir – SMM – Komisyon – Satış vergisi (müşteri faturası satır tutarı dahil))          |
+| Brüt kar      | SUM(Brüt kar / (Gelir – Satış vergisi (müşteri faturası satır tutarı dahil)))             |
+| Geçen yılın geliri | Geçen yılın geliri = CALCULATE(SUM('Fatura satırları'\[Gelir\]), SAMEPERIODLASTYEAR (Tarihler\[Tarih\]) |
 
-Aşağıdaki anahtar boyutları **satış küpü** daha parçalı yapı ve analitik daha derin incelemeler elde etmek için toplam ölçüleri dilim için filtre olarak kullanılır.
+Aşağıdaki **Satış küpü** anahtar boyutları, daha büyük hassasiyet ve daha derin analiz bilgileri elde etmek üzere toplama ölçümleri bölmek için filtre olarak kullanılır.
 
 |                  |                                                      |
 |------------------|------------------------------------------------------|
-| **Entity**       | **Öznitelik örnekleri**                           |
-| Müşteriler        | Müşteri gruplarını, müşteri bölgeleri, adres, endüstri |
-| Ürünler         | Ürün numarası, ürün adı, madde grupları adı       |
-| Satış kategorileri | Satış kategori adları                                 |
-| Tüzel kişilikler   | Yasal varlık adları                                   |
+| **Varlık**       | **Öznitelik örnekleri**                           |
+| Müşteriler        | Müşteri grupları, Müşteri bölgeleri, Adres, Sektör |
+| Ürünler         | Ürün numarası, Ürün adı, Madde grupları adı       |
+| Satış kategorileri | Satış kategorisi adları                                 |
+| Tüzel kişilikler   | Tüzel kişilik adları                                   |
 | Tarihler            | Tarihler                                                |
 
-Varsayılan olarak, İçerik Paketi için geçerli takvim yılı verilerini görüntüler, ancak rapor filtreleri bölümü açın ve tarih filtresi değiştirme. Şirket Filtresi de değiştirebilirsiniz.
+Varsayılan olarak, içerik paketi, geçerli takvim yılının verilerini görüntüler ancak rapor filtreleri bölümü açıp tarih filtresini değiştirebilirsiniz. Şirket filtresini de değiştirebilirsiniz.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 Power BI içeriği oluşturmak ve varlıklarla ilgili bazı yararlı bağlantılar şunlardır:

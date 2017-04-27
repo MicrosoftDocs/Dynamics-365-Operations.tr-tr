@@ -1,5 +1,5 @@
 ---
-title: "Yürütme üretim, üretim emri Varsayılanları"
+title: "İmalatın yürütülmesinde üretim emri varsayılanları"
 description: 
 author: YuyuScheller
 manager: AnnBe
@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="production-order-defaults-in-manufacturing-execution"></a>Yürütme üretim, üretim emri Varsayılanları
+# <a name="production-order-defaults-in-manufacturing-execution"></a>İmalatın yürütülmesinde üretim emri varsayılanları
+
+[!include[banner](../includes/banner.md)]
 
 
 
-Tüm ayarları üzerinde dikkatlice düşünmelisiniz **üretim emri varsayılan** çalışanlarının kayıtları üretim işleri yapmaya başlamadan önce sayfa. Şirketinizin çoklu tesis işlevini kullanıyorsa, her site için üretim emirleri için farklı varsayılan değerleri ayarlamak isteyebilirsiniz. Üretim denetimiyle entegrasyon için sipariş varsayılanları **Üretim emri varsayılanları** sayfasındaki şu sekmelerden ayarlanır:
+
+Çalışanlar üretim işleri üzerinde kayıtlar yapmaya başlamadan önce **Üretim emri varsayılanları** sayfasındaki tüm ayarları üzerinde dikkatlice düşünmelisiniz. Şirketiniz çoklu tesis işlevini kullanıyorsa, her tesis için üretim emirleri için farklı varsayılan değerler ayarlamak isteyebilirsiniz. Üretim denetimiyle entegrasyon için sipariş varsayılanları **Üretim emri varsayılanları** sayfasındaki şu sekmelerden ayarlanır:
 
 -   **Genel** – Üretim yürütmedeki üretim işlerine ilişkin genel sipariş varsayılanları.
 -   **Başlat** – Üretim işleri veya operasyonları başladığında kullanılan sipariş varsayılan değerleri.
@@ -68,6 +71,8 @@ Bir üretim emri Tamamlandı olarak bildirildiğinde malzeme tüketimi **Tamamla
 -   **Otomatik tüketim kuralı** – Bir üretim emri tamamlandı olarak bildirildiğinde, malzeme miktarları üretim ürün reçetesi satırlarında ayarlanan otomatik tüketim kuralına göre tüketilir. Yalnızca otomatik tüketim kuralının **Bitir** olarak ayarlandığı malzeme satırları tüketilir.
 -   **Her zaman** – Tamamlandı olarak bildirilen miktara orantılı malzeme miktarları her zaman tüketilir.
 -   **Hiçbir zaman** – Malzeme miktarları hiçbir zaman tüketilmez.
+
+
 
 
 

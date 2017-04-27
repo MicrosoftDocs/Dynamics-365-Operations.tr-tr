@@ -1,6 +1,6 @@
 ---
-title: "Yollar ve işlemleri"
-description: "Bu konu, yollar ve işlemleri hakkında bilgi sağlar. Bir yol, bir ürün veya ürün çeşit üretme işlemini tanımlar. Üretim süreci ve bu adımları gerçekleştirilmesi gereken sipariş (işlem) her adımı açıklar. Her adım için yol gerekli işlemleri kaynakları gerekli hazırlık süresi ve çalışma süresi ve maliyeti nasıl hesaplanacağını tanımlar."
+title: Rotalar ve operasyonlar
+description: "Bu konu rotalar ve operasyonlar hakkında bilgi sağlar. Rota, bir ürün veya ürün çeşidini üretme sürecini tanımlar. Üretim sürecindeki her adımı (operasyonu) ve bu adımların gerçekleştirilmesi gereken sırayı açıklar. Rota her adım için gerekli operasyon kaynaklarını, gerekli hazırlık süresini ve çalışma süresini, maliyetin nasıl hesaplanacağını tanımlar."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,77 +26,80 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="routes-and-operations"></a>Yollar ve işlemleri
+# <a name="routes-and-operations"></a>Rotalar ve operasyonlar
 
-Bu konu, yollar ve işlemleri hakkında bilgi sağlar. Bir yol, bir ürün veya ürün çeşit üretme işlemini tanımlar. Üretim süreci ve bu adımları gerçekleştirilmesi gereken sipariş (işlem) her adımı açıklar. Her adım için yol gerekli işlemleri kaynakları gerekli hazırlık süresi ve çalışma süresi ve maliyeti nasıl hesaplanacağını tanımlar.
+[!include[banner](../includes/banner.md)]
+
+
+Bu konu rotalar ve operasyonlar hakkında bilgi sağlar. Rota, bir ürün veya ürün çeşidini üretme sürecini tanımlar. Üretim sürecindeki her adımı (operasyonu) ve bu adımların gerçekleştirilmesi gereken sırayı açıklar. Rota her adım için gerekli operasyon kaynaklarını, gerekli hazırlık süresini ve çalışma süresini, maliyetin nasıl hesaplanacağını tanımlar.
 
 <a name="overview"></a>Özet
 --------
 
-Bir yol, bir ürün veya ürün çeşit üretmek için gereken işlemlerin sırasını açıklar. Her operasyon için yol da ayarlamak ve işlem ve maliyeti nasıl hesaplanacağını gerçekleştirmek için gereken zamanı gereklidir işlem kaynakları tanımlar. Birden fazla ürün üretmek için aynı rotayı kullanabilirsiniz veya her ürün veya ürün çeşit için benzersiz bir yol tanımlayabilirsiniz. Aynı ürün için birden fazla yol bile olabilir. Bu durumda, kullanılan yol, üretilmesi gereken miktar gibi etkenlere bağlı olarak değişir. Bir rotaya operasyonlar için Microsoft Dynamics 365 tanımı, birlikte, üretim sürecini açıklayan dört ayrı öğelerden oluşur:
+Rota, bir ürünü veya ürün çeşidini üretmek için gereken operasyonların sırasını açıklar. Rota gerekli operasyon kaynaklarını, operasyonu hazırlayıp gerçekleştirmek için gereken süreyi ve maliyetin nasıl hesaplanacağını da tanımlar. Birden fazla ürün üretmek için aynı rotayı kullanabilirsiniz veya her ürün ya da ürün çeşidi için birer benzersiz rota tanımlayabilirsiniz. Hatta aynı ürün için birden fazla rotanız bile olabilir. Bu durumda, kullanılan rota, üretilmesi gereken miktar gibi etkenlere bağlı olarak değişir. Microsoft Dynamics 365 for Operations'ta rotanın tanımı, birlikte üretim sürecini açıklayan dört ayrı öğeden oluşur:
 
--   **Yol** – bir rota üretim süreci yapısını tanımlar. Diğer bir deyişle, işlemlerin sırasını tanımlar.
--   **İşlem** – bir işlemi tanımlayan bir yolu, adlandırılmış bir adım gibi **derleme**. Aynı işlem içinde birden çok yol oluşabilir ve farklı operasyon numaraları olabilir.
--   **Operasyon ilişkisi** – operasyon ilişkisi hazırlık süresi ve çalışma süresi, maliyet kategorileri, tüketim parametreleri ve kaynak gereksinimleri bir operasyon, operasyon özelliklerini tanımlar. Operasyon ilişkisi operasyonel işlem içinde kullanılan rota veya üretilmekte ürünleri bağlı olarak değişen bir işlem özelliklerini etkinleştirir.
--   **Rota versiyonu** – bir rota versiyonu, bir ürün veya ürün çeşit üretmek için kullanılan yolu tanımlar. Rota versiyonları ürünler arasında yeniden veya zamanla değişimi için bir yol sağlar. Onlar da aynı ürünü üretmek için kullanılmak üzere farklı yollar sağlar. Bu durumda, kullanılan rota konumu veya üretilmesi gereken miktar gibi etkenlere bağlıdır.
+-   **Rota** – üretim sürecinin yapısını tanımlar. Diğer bir deyişle, operasyonların sırasını tanımlar.
+-   **Operasyon** – rotadaki adlandırılmış bir adımı tanımlar (örneğin **Montaj**). Aynı operasyon birden çok rotada yapılabilir ve bunların farklı operasyon numaraları olabilir.
+-   **Operasyon ilişkisi** – bir operasyonun hazırlık süresi ve çalışma süresi, maliyet kategorileri, tüketim parametreleri ve kaynak gereksinimleri gibi operasyonel özelliklerini tanımlar. Operasyon ilişkisi, bir operasyonun operasyonel özelliklerinin, içinde o operasyonun kullanıldığı veya ürünlerin üretilmekte olduğu rotaya göre değişmesini sağlar.
+-   **Rota sürümü** – bir ürünü veya ürün çeşidini üretmek için kullanılan rotayı tanımlar. Rota sürümleri rotaların farklı ürünlerde yeniden kullanılabilmesini veya zamanla değişebilmesini sağlar. Sürümler aynı ürünü üretmek için farklı rotaların kullanılabilmesini de sağlar. Bu durumda, kullanılan rota, lokasyon veya üretilmesi gereken miktar gibi etkenlere bağlı olarak değişir.
 
 ## <a name="routes"></a>Rotalar
-Bir yol, bir ürün veya ürün çeşit üretmek için kullanılan işlemlerin sırasını açıklar. Her operasyonun operasyon numarası ve ardıl işlem atanmıştır. Bir veya daha fazla başlangıç noktaları ve tek bir bitiş noktası olan yönlendirilmiş bir grafik tarafından temsil edilebilir bir rota ağındaki işlemlerin sırasını oluşturur. İşlemler için Dynamics 365 içinde yollar yapı türüne göre ayrılırlar. Basit yollar ve yol yollar iki tür olan ağlar. Üretim denetimi parametrelerinde yalnızca basit yollar kullanılıp kullanılamayacağı veya daha karmaşık bir rota ağları kullanılabilir olup olmadığını belirtebilirsiniz.
+Rota, bir ürünü veya ürün çeşidini üretmek için kullanılan operasyonların sırasını açıklar. Her operasyona bir operasyon numarası ve bir ardıl operasyon atanır. Operasyonların sırası bir veya birden fazla başlangıç noktası ve tek bir bitiş noktası olan yönlü bir grafikle temsil edilebilen bir rota ağı oluşturur. Dynamics 365 for Operations'ta rotalar yapı türüne göre ayrılır. İki tür, basit rotalar ve rota ağlarıdır. Üretim denetim parametrelerinde yalnızca basit rotalar veya daha karmaşık rota ağları kullanılıp kullanılamayacağını belirtebilirsiniz.
 
-### <a name="simple-routes"></a>Basit yollar
+### <a name="simple-routes"></a>Basit rotalar
 
-Basit bir yol sıralı olduğundan ve yol için tek bir başlangıç noktası vardır.  
+Basit rota sıralıdır ve rotanın yalnızca bir başlangıç noktası vardır.  
 
-[![Basit yol](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![Basit rota](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-Üretim kontrol parametreleri yalnızca basit yollar etkinleştirirseniz, Dynamics 365 işlemleri için operasyon numaralarını otomatik olarak oluşturur (10, 20, 30 vb.) yol tanımladığınızda.
+Üretim denetim parametrelerinde yalnızca basit rotaları etkinleştirirseniz, rotayı tanımladığınız zaman Dynamics 365 for Operations operasyon numaralarını otomatik olarak üretir (10, 20, 30 vb.).
 
 ### <a name="route-networks"></a>Rota ağları
 
-Daha karmaşık bir rota ağları üretim denetimi parametrelerinde etkinleştirirseniz, birden çok başlangıç noktaları ve paralel olarak çalışan işlemleri yolları tanımlayabilirsiniz.  
+Üretim denetim parametrelerinde daha karmaşık rota ağlarını etkinleştirirseniz, birden çok başlangıç noktasının ve paralel işleyen operasyonların bulunduğu rotalar tanımlayabilirsiniz.  
 
-[![Route network](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Rota ağı](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 **Notlar:**
 
--   Her operasyonun tek bir ardıl işlem olabilir ve tek bir işlemle tüm rota bitmelidir.
--   Aynı ardıl işlem (örneğin, 30 ve 40 önceki çizimde işlem) sahip birden çok işlemleri gerçekten paralel olarak çalıştıracağı garantisi yoktur. Kullanılabilirlik ve kaynakların kapasitesini operasyonlar planlanır yolu üzerinde kısıtlamalar koyabilirsiniz.
--   Operasyon numarası olarak 0 (sıfır) kullanamazsınız. O numarayı ayrılmıştır ve hiçbir ardıl operasyonun rotadaki son operasyon olduğunu belirtmek için kullanılır.
+-   Her operasyonun tek bir ardıl operasyonu olabilir ve tüm rota tek bir operasyonla bitmek zorundadır.
+-   Birden fazla operasyonun paralel olarak çalışacak aynı ardıl operasyonu olacağının garantisi yoktur (örneğin önceki şekilde görülen 30 ve 40 operasyonları). Kaynakların kullanılabilirliği ve kapasitesi nedeniyle operasyonların zamanlanma yöntemine kısıtlamalar getirilebilir.
+-   Operasyon numarası olarak 0 (sıfır) kullanamazsınız. Bu numara rezervedir ve rotadaki son operasyonun ardıl operasyonu olmadığını belirtmek için kullanılır.
 
 ### <a name="parallel-operations"></a>Paralel operasyonlar
 
-Bazı durumlarda, farklı özelliklere sahip birden çok işlem kaynaklarının birleşimi bir işlemi gerçekleştirmek için gereklidir. Örneğin, derleme işlemi bir makine, araç ve her iki makine için bir alt işlem denetleyecek gerektirebilir. Bu örnek, burada bir operasyonun birincil operasyon belirlenmiş ve diğer ikincil paralel işlemleri kullanarak modellenebilir.  
+Bazen, bir operasyonu gerçekleştirmek için farklı özelliklere sahip birden fazla operasyon kaynağı kombinasyonu gerekir. Örneğin, bir montaj operasyonu için bir makine, bir alet ve operasyonu denetlemek üzere her iki makine için bir işçi gerekebilir. Bu örnek, bir operasyonun birincil operasyon olarak ve diğerlerinin ikincil olarak belirlendiği paralel operasyonlarla modellenebilir.  
 
-[![Birincil ve ikincil operasyonlar sahip rotayı](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Birincil ve ikincil operasyonları olan rota](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
-Genellikle birincil operasyon darboğaz kaynağı temsil eder ve ikincil operasyonlar için çalışma süresi belirler. Ancak, sınırlı kapasite gerektirir planlama sırasında operasyon birincil ve ikincil operasyonlar için zamanlanmış kaynaklar kullanılabilir ve aynı zamanda ücretsiz kapasitesine sahip.  
+Genellikle birincil operasyon darboğaz kaynağını temsil eder ve ikincil operasyonlar için çalışma süresini belirler. Bununla birlikte, sınırlı kapasite içeren zaman planlamasında hem birincil operasyon hem de ikincil operasyonlar için planlanan kaynaklar aynı anda mevcut ve boş kapasiteli olmalıdır.  
 
-Birincil operasyon hem de ikincil operasyonlar aynı operasyon numarası (30 önceki çizimde) olması gerekir.  
+Hem birincil operasyonun hem de ikincil operasyonların operasyon numarası aynı olmalıdır (önceki şekilde 30).  
 
-İkincil operasyonlar (30' ve 30'') için kaynak gereksinimleri araç ve işçi ise yukarıdaki örnekte, kaynak (30) birincil operasyon için makine gereksinimdir. Yüzde elli - yük zamanlanan alt aynı anda iki makine denetleyecek olduğunu garanti yardımcı olur.
+Önceki örnekte birincil operasyonun (30) kaynak gereksinimi makine, ikincil operasyonların (30' ve 30'') kaynak gereksinimleri alet ve çalışandır. Yüzde ellilik bir yük, planlanan çalışanın iki makineyi aynı anda denetleyebilmesini garantilemeye yardımcı olur.
 
 ### <a name="approval-of-routes"></a>Rotaların onaylanması
 
-Bir rota planlama veya üretim işleminde kullanılmadan önce onaylanmalıdır. Onay yolu tasarım tamamlandığını gösterir. Aynı ürünün piyasaya veya yayımlanan ürün çeşit birden fazla onaylanmış yollar sağlayabilirsiniz. Genellikle ilk ilgili rota versiyonu onaylandığında bir rotanın onaylanması gerçekleşir. Ancak, bazı senaryolarda, rota ve rota versiyonunun onaylanması farklı işlem sahiplerinin gerektirebilir ayrı faaliyetler vardır.  
+Bir rotanın planlama veya üretim sürecinde kullanılabilmesi için onaylanması gerekir. Onay, rota tasarımının tamamlandığını gösterir. Piyasaya sürülen bir ürünün veya ürün çeşidinin birden fazla onaylanmış rotası olabilir. Rota onayı genellikle ilgili ilk rota sürümü onaylandığında gerçekleşir. Bununla birlikte, bazı iş senaryolarında, rotanın ve rota sürümünün onayları farklı süreç sahiplerini içerebilecek ayrı faaliyetlerdir.  
 
-Her rota onaylanmış veya onaylanmamış ayrı ayrı olabilir. Ancak, onaylanmamış bir rota olduğunda, tüm ilgili rota versiyonları da onaylanmamış olduğunu unutmayın. Üretim denetimi parametrelerinde yollar onaylanmamış olabilir ve onaylı rotalar değişip olup olmadığını belirtebilirsiniz.  
+Her rota ayrı olarak onaylanabilir veya onayı kaldırılabilir. Bununla birlikte bir rotanın onayı kaldırıldığında ilgili tüm rota sürümlerinin onayının da kaldırılacağını unutmayın. Üretim denetim parametrelerinde rotaların onayının kaldırılıp kaldırılamayacağını ve onaylanmış rotaların değiştirilip değiştirilemeyeceğini belirtebilirsiniz.  
 
-Her yol onaylayan kaydeden bir günlük tutmak, elektronik imza için Rota onayı gerektirebilir. Kullanıcıların kullanarak kimliklerini onaylamak sahip olur bir [elektronik imza](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Her rotanın onaylayanının kaydedildiği bir günlük tutmanız gerekiyorsa, rota onayı için elektronik imzalar isteyebilirsiniz. Bu durumda kullanıcılar bir [elektronik imza](/dynamics365/operations/organization-administration/electronic-signature-overview) kullanarak kimliklerini onaylatmak zorundadır.
 
 ## <a name="operations"></a>İşlemler
-Üretim sürecindeki bir adım bir işlemdir. İşlemleri için Dynamics 365 içinde her işlem ID'si ve basit bir açıklama var. Aşağıdaki tablolarda, bir makine Atölye işlemlerinden tipik örnekleri gösterir.
+Operasyon üretim sürecindeki bir adıma karşılık gelir. Dynamics 365 for Operations'ta her operasyonun bir kodu ve basit bir açıklaması vardır. Aşağıdaki tablolarda, bir atölyeye ait tipik operasyon örnekleri gösterilmektedir.
 
 | Operasyon  | Açıklama        |
 |------------|--------------------|
-| PipeCut    | Boru kesme       |
-| TIGweld    | TIG kaynak        |
-| JigAssy    | Jig derleme       |
-| Denetleme | Kalite incelemesi |
+| BoruKesim    | Boru kesme       |
+| TIGkaynak    | TIG kaynak        |
+| JigMontaj    | Jig montajı       |
+| Denetleme | Kalite inceleme |
 
-Makine Hazırlık süresi ve çalışma süresi, kaynak gereksinimleri, maliyet bilgileri ve Tüketim hesaplaması, operasyon, operasyon özelliklerini operasyon ilişkisi üzerinde belirtilir. (Operasyon ilişkileri hakkında daha fazla bilgi için sonraki bölüme bakın.)
+Operasyonun hazırlık süresi ve çalışma süresi, kaynak gereksinimleri, maliyet bilgileri ve tüketim hesaplama gibi operasyonel özellikleri operasyon ilişkisinde belirtilir. (Operasyon ilişkileri hakkında daha fazla bilgi için sonraki bölüme bakın.)
 
 ## <a name="operation-relations"></a>Operasyon ilişkileri
-Operasyon ilişkisi üzerinde işlem aşağıdaki kullanım özelliklerini tutulur:
+Operasyon ilişkisinde bir operasyonun şu operasyonel özellikleri tutulur:
 
 -   Maliyet kategorileri
 -   Tüketim parametreleri
@@ -105,137 +108,139 @@ Operasyon ilişkisi üzerinde işlem aşağıdaki kullanım özelliklerini tutul
 -   Kaynak gereksinimleri
 -   Notlar ve yönergeler
 
-Aynı işlem için birden fazla operasyon ilişkileri tanımlayabilirsiniz. Ancak, her operasyon ilişkisi belirli bir operasyona ve belirli bir yol, yayımlanmış bir ürün veya bir madde grubuyla ilgili serbest bırakılan ürün kümesi özelliklerini saklar. Bu nedenle, aynı işlem içinde farklı kullanım özelliklerine sahip birden çok yol kullanılabilir. Ayrıca, kullanılan rota ve üretilen ürün ne olursa olsun aynı kullanım özelliklerine sahip standart operasyonlar kullanırsanız daha kolay ana verilerinizi koruyabilirsiniz. Operasyon ilişkisi kapsamı ile tanımlanan **madde kodu**, **Madde ilişkisi**, **rota kodu** ve **Rota ilişkisi** aşağıdaki tabloda gösterildiği gibi özellikler.
+Aynı operasyon için birden fazla operasyon ilişkisi tanımlayabilirsiniz. Ancak, her operasyon ilişkisi belirli bir operasyona özgüdür ve belirli bir madde grubuyla ilgili bir rotaya, serbest bırakılan bir ürüne veya bir serbest bırakılan ürünler grubuna özgü özellikleri saklar. Bu nedenle, farklı operasyonel özellikleri olan birden fazla rotada aynı operasyon kullanılabilir. Ayrıca, kullanılan rotadan ve üretilen üründen bağımsız olarak, aynı operasyonel özellikleri taşıyan standart operasyonlar kullanırsanız ana verilerinizi daha kolay yönetebilirsiniz. Operasyon ilişkisinin kapsamı, aşağıdaki tabloda gösterildiği gibi, **Madde kodu**, **Madde ilişkisi**, **Rota kodu** ve **Rota ilişkisi** özellikleriyle tanımlanır.
 
 | Madde kodu | Madde ilişkisi         | Rota kodu | Rota ilişkisi   | Operasyon ilişkisinin kapsamı                                                                                                                                                                                                                                                                              |
 |-----------|-----------------------|------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tablo     | &lt;Madde Kodu&gt;       | Rota      | &lt;Rota kodu&gt; | Operasyon rotasında kullanıldığında, işlem özelliklerini burada **rota numarası**=&lt;kimliği yönlendirmek&gt; yayınlanan ürün üretmek için burada **madde numarası**=&lt;kimliği madde&gt;.                                                                                                                        |
-| Tablo     | &lt;Madde Kodu&gt;       | Tümü        |                  | Yayımlanan ürün üretmek için kullanıldığında, işlem varsayılan çalışma özelliklerini burada **madde numarası**=&lt;kimliği madde&gt;. Diğer bir deyişle, serbest bırakılan ürün için hiçbir özel rota operasyon ilişkisi olduğunda bu işlem özellikleri uygulayın.                                     |
-| Grup     | &lt;Madde grubu kodu&gt; | Rota      | &lt;Rota kodu&gt; | Operasyon rotasında kullanıldığında, işlem özelliklerini burada **rota numarası**=&lt;yol kimliği&gt; madde grubu ile ilişkili yayımlanmış ürünler üretmek için &lt;grup kodunu madde&gt;, serbest bırakılan ürün için bir yol özel operasyon ilişkisi olmadığı sürece.                         |
-| Grup     | &lt;Madde grubu kodu&gt; | Tümü        |                  | Madde grubu ile ilişkili yayımlanmış ürünler üretmek için kullanıldığında, işlem varsayılan çalışma özelliklerini &lt;Grup Kimliği madde&gt;, daha özel bir operasyon ilişkisi yoksa.                                                                                                  |
-| Tümü       |                       | Rota      | &lt;Rota kodu&gt; | Rotada kullanıldığında, işlem varsayılan çalışma özelliklerini burada **rota numarası**=&lt;kimliği yol&gt;. Diğer bir deyişle, bu kullanım özellikleri yayımlanan ürün ya da belirli bu yolu hiç operasyon ilişkisi olduğunda veya madde grubu ilişkilendirilmiş uygulayın. |
-| Tümü       |                       | Tümü        |                  | Varsayılan işlem işlem özelliklerini. Daha özel bir operasyon ilişkisi yok, bu kullanım özellikleri uygular.                                                                                                                                                                |
+| Tablo     | &lt;Madde Kodu&gt;       | Rota      | &lt;Rota kodu&gt; | **Madde numarası**=&lt;madde kodu&gt; olan serbest bırakılan ürünü üretmek için **Rota numarası**=&lt;rota kodu&gt; olan rotada kullanılan bir operasyonun operasyonel özellikleri.                                                                                                                        |
+| Tablo     | &lt;Madde Kodu&gt;       | Tümü        |                  | **Madde numarası**=&lt;madde kodu&gt; olan serbest bırakılan ürünü üretmek için kullanılan bir operasyonun varsayılan operasyonel özellikleri. Diğer bir deyişle, serbest bırakılan ürüne ilişkin rotaya özgü bir operasyon ilişkisi yoksa bu operasyonel özellikler uygulanır.                                     |
+| Grup     | &lt;Madde grubu kodu&gt; | Rota      | &lt;Rota kodu&gt; | Kodu &lt;madde grubu kodu&gt;, olan madde grubuyla ilişkili serbest bırakılan ürünleri üretmek için **Rota numarası**=&lt;rota kodu&gt; olan kotada kullanılan bir operasyonun operasyonel özellikleri (serbest bırakılan ürün için rotaya özgü bir operasyon ilişkisi olmadığı sürece).                         |
+| Grup     | &lt;Madde grubu kodu&gt; | Tümü        |                  | Numarası &lt;madde grubu kodu&gt; olan madde grubuyla ilişkili serbest bırakılan ürünleri üretmek için kullanılan bir operasyonun varsayılan operasyonel özellikleri (daha spesifik bir operasyon ilişkisi olmadığı sürece).                                                                                                  |
+| Tümü       |                       | Rota      | &lt;Rota kodu&gt; | **Rota numarası**=&lt;rota kodu&gt; olan rotada kullanılan operasyonun varsayılan operasyonel özellikleri. Diğer bir deyişle, bu rota için serbest bırakılan ürüne veya ilişkili madde grubuna özgü bir operasyon ilişkisi yoksa bu operasyonel özellikler uygulanır. |
+| Tümü       |                       | Tümü        |                  | Bir operasyonun varsayılan operasyonel özellikleri. Daha spesifik bir operasyon ilişkisi yoksa bu operasyonel özellikler uygulanır.                                                                                                                                                                |
 
-Operasyon ilişkisi belirli bir siteye de belirtebilirsiniz. Bu şekilde, işlemsel özelliklerin bir işlemin, işlemin gerçekleştirildiği konumuna göre (site) değişebilir. Yapılandırılmış ürünler için her ürün konfigürasyonu için farklı kullanım özelliklerini de belirtebilirsiniz.  
+Bir operasyon ilişkisinin bir tesise özgü olduğunu da belirtebilirsiniz. Bu şekilde, bir operasyonun operasyonel özellikleri, operasyonun yapıldığı lokasyona (yani tesise) göre değişebilir. Yapılandırılmış ürünlerde, her ürün yapılandırması için farklı operasyonel özellikler de belirtebilirsiniz.  
 
-Operasyon ilişkilerini, yollar tanımladığınızda çok fazla esneklik verir. Ayrıca, varsayılan özelliklerini tanımlama yeteneği sürdürmesi gereken ana veri miktarını azaltmaya yardımcı olur. Ancak, bu esneklik de bir operasyon ilişkisi içinde değiştirmek içeriğinin farkında olmalıdır anlamına gelir.  
+Operasyon ilişkileri, rotaları tanımlarken size çok esneklik sağlar. Ayrıca, varsayılan özellikleri tanımlayabilmek, yönetmeniz gereken ana veri miktarını azaltmaya yardımcı olur. Ancak, bu esneklik, bir operasyon ilişkisini değiştirdiğiniz bağlamı bilmeniz gerektiği anlamına gelir.  
 
-**Not:** aynı işlemi (örneğin, derleme) tüm tekrarlamalarını işlemsel özelliklerin operasyona göre rota operasyon ilişkilerini saklandığından, aynı makine hazırlık süresi, çalışma süresi, kaynak gereksinimlerini ve benzeri vardır. Bu nedenle, bir işlem iki oluşumu aynı rotada gerçekleşir ancak farklı çalışma süreleri olması, Assembly1 ve Assembly2 gibi iki farklı işlemler oluşturmalısınız.
+**Not:** Operasyonel özellikler rota başına her operasyon için operasyon ilişkilerinde depolandığından, aynı operasyonun (örneğin Montaj) tüm tekrarlarında aynı hazırlık süresi, çalışma süresi, kaynak gereksinimleri vb. kullanılır. Bu nedenle, bir operasyon aynı rotada iki kez uygulanıyorsa ama farklı çalışma süreleri varsa iki farklı operasyon oluşturmanız gerekir (Montaj1, Montaj2 gibi).
 
-### <a name="modifying-product-specific-routes"></a>Ürüne özgü yollar değiştirme
+### <a name="modifying-product-specific-routes"></a>Ürüne özgü rotalarda değişiklik
 
-Açtığınızda **yol** gelen sayfa **Ürün Ayrıntıları Serbest** sayfasında, seçilen yayınlanan ürünüyle ilişkili rota versiyonları gösterilir. Bu bağlamda, her işlem için en iyi rota sürümü ile eşleşen işlemleri için Dynamics 365 operasyon ilişkisi kullanım özelliklerinden gösterir. İşlemlerin listesini içerdiğini görürsünüz **madde kodu** ve **rota kodu** operasyon ilişkisi özelliklerinden. Bu nedenle, hangi operasyon ilişkisi gösterilen belirleyebilirsiniz.  
+**Serbest bırakılan ürün ayrıntıları** sayfasından **Rota** sayfasını açtığınız zaman, seçili serbest bırakılan ürünle ilişkili rota sürümleri gösterilir. Bu bağlamda Dynamics 365 for Operations, her operasyon için, rota sürümüyle en iyi eşleşen operasyon ilişkisinden operasyonel özellikleri gösterir. Operasyon ilişkisindeki **Madde kodu** ve **Rota kodu** özelliklerini içeren operasyonlar listesini göreceksiniz. Bu sayede, hangi operasyon ilişkisinin gösterildiğini belirleyebilirsiniz.  
 
-Üzerinde **yol** sayfası, çalışma zamanı veya maliyet kategorilerini operasyon, operasyon özelliklerini değiştirebilirsiniz. Rota ve geçerli rota versiyonunu başvurulan yayımlanan ürün özgü operasyon ilişkisi üzerinde yaptığınız değişiklikler depolanır. Operasyon ilişkisi gösterilen yol ve serbest bırakılan ürün için özel değilse, değişikliklerinizi depolanmadan önce Sistem operasyon ilişkisi bir kopyasını oluşturur. Bu kopya *olan* belirli rota ve serbest bırakılan ürün için. Bu nedenle, yaptığınız değişiklikler diğer yollar etkilemez veya ürünleri serbest. Hangi operasyon ilişkisi üzerinde değiştirilmekte olan doğrulamak için **yol** sayfasında, bakmak **madde kodu** ve **rota kodu** alanlar.  
+**Rota** sayfasında, operasyonun çalışma süresi veya maliyet kategorileri gibi operasyonel özelliklerinde değişiklik yapabilirsiniz. Değişiklikleriniz, geçerli rota sürümünde gösterilen rotaya ve serbest bırakılan ürüne özgü operasyon ilişkisinde depolanır. Gösterilen operasyon ilişkisi rotaya ve serbest bırakılan ürüne özgü değilse, değişiklikleriniz depolanmadan önce sistem o operasyon ilişkisinin bir kopyasını oluşturur. Bu kopya o rota ve serbest bırakılan ürüne *özgüdür*. Bu sayede, yaptığınız değişiklikler diğer rotaları veya serbest bırakılan ürünleri etkilemez. **Rota** sayfasında değişiklik yapılmakta olan operasyonun hangisi olduğunu doğrulamak için **Madde kodu** ve **Rota kodu** alanlarına bakın.  
 
-Kullanarak bir yol ve serbest bırakılan ürün için belirli bir işlemi el ile de oluşturabilirsiniz **kopya ve ilişki düzenleme** işlev.  
+Rotaya ve serbest bırakılan ürüne özgü bir operasyonu **İlişkiyi kopyala ve düzenle** işleviyle kendiniz oluşturabilirsiniz.  
 
-**Not:** üzerinde yeni bir operasyon rota eklemek isterseniz **yol** sayfa, operasyon ilişkisi yalnızca geçerli serbest bırakılan ürün için oluşturulur. Bu nedenle, yol da yayınlanan diğer ürünleri üretmek için kullanılan bu yayımlanmış ürünler için hiçbir ilgili operasyon ilişkisi vardır ve rota bu yayımlanmış ürünler için artık kullanılabilir.
+**Not:** **Rota** sayfasındaki bir rotaya yeni bir operasyon eklerseniz yalnızca mevcut serbest bırakılan ürün için bir operasyon ilişkisi oluşturulur. Bu nedenle, rota başka serbest bırakılan ürünleri üretmek için de kullanıldığı zaman o serbest bırakılan ürünler için geçerli bir operasyon ilişkisi olmaz rota artık o serbest bırakılan ürünler için kullanılamaz.
 
-### <a name="maintaining-operation-relations-per-route"></a>Her rota operasyon ilişkilerini sürdürme
+### <a name="maintaining-operation-relations-per-route"></a>Rotanın operasyon ilişkilerini yönetme
 
-Açtığınızda **rota ayrıntıları** gelen sayfa **yolları** listesi sayfası uygulamak için seçili rota operasyon ilişkilerini listesi gösterilir. Bu nedenle, hangi işlemsel özelliklerin hangi ürünler için kullanılan kolayca doğrulayabilirsiniz. Varsayılan özellik değerleri hem ürüne özgü özellik değerlerini değiştirebilirsiniz.  
+**Rotalar** liste sayfasında **Rota ayrıntıları** sayfasını açtığınız zaman, seçili rotaya ilişkin tüm operasyon ilişkilerinin listesi gösterilir. Bu nedenle, hangi operasyonel özelliklerin hangi ürünler için kullanıldığını kolayca doğrulayabilirsiniz. Hem varsayılan özellik değerlerinde hem de ürüne özgü özellik değerlerinde değişiklik yapabilirsiniz.  
 
-Yeni bir operasyon ilişkisi eklerseniz **rota ayrıntıları** sayfası, **rota kodu** otomatik olarak ayarlanırsa **yol**ve **Rota ilişkisi** geçerli rota için rota numarası alanında ayarlanır.
+**Rota ayrıntıları** sayfasında yeni bir operasyon ilişkisi eklerseniz, **Rota kodu** alanı ayarı otomatik olarak **Rota** yapılır ve **Rota ilişkisi** alanı ayarı geçerli rotanın rota numarasına getirilir.
 
-### <a name="maintaining-operation-relations-per-operation"></a>Her operasyon operasyon ilişkilerini sürdürme
+### <a name="maintaining-operation-relations-per-operation"></a>Operasyonun özgü operasyon ilişkilerini yönetme
 
-Gelen **işlemleri** sayfa açabilir **operasyon ilişkilerini** sayfa. Bu sayfada, belirli bir işlem için tüm operasyon ilişkilerini değiştirebilirsiniz. Varsayılan değerler içeren operasyon ilişkileri bile değiştirebilirsiniz.  
+**Operasyonlar** sayfasından **Operasyon ilişkileri** sayfasını açabilirsiniz. Bu sayfada, belirli bir operasyonun tüm operasyon ilişkilerinde değişiklik yapabilirsiniz. Varsayılan değerler içeren operasyon ilişkilerini bile değiştirebilirsiniz.  
 
-Standart operasyonlar kullanılıyorsa ve tüm ürünleri ve süreçleri, işletim parametrelerini aynı olması durumunda **operasyon ilişkilerini** sayfası, bu işlemlerin varsayılan çalışma Özellikleri korumak için kullanışlı bir yol sağlar.
+İşletmeniz standart operasyonlar kullanıyorsa ve operasyonel parametreler tüm ürün ve süreçlerde aynıysa, **Operasyon ilişkileri** sayfasında bu operasyonların varsayılan operasyonel özelliklerini yönetmek için uygun bir yol belirtilir.
 
-### <a name="applying-operation-relations"></a>Operasyon ilişkilerini uygulanıyor
+### <a name="applying-operation-relations"></a>Operasyon ilişkilerini uygulama
 
-Bazı durumlarda, bir operasyon için işlemsel özelliklerin işlemleri için Dynamics 365 bulmanız gerekir. Satınalma siparişi oluşturulduğunda, örneğin, işlemsel özelliklerin her operasyonun üretim rotası için operasyon ilişkilerini kopyalanmalıdır. Bu gibi durumlarda, Dynamics 365 işlemleri için en özel birleşimini az belirli birleşimi için ilgili operasyon ilişkilerini arar.  
+Bazı durumlarda, Dynamics 365 for Operations'ın bir operasyonun operasyonel özelliklerini bulması gerekir. Örneğin, bir satınalma siparişi oluşturulduğunda, her operasyonun operasyonel özellikleri operasyon ilişkilerinden üretim rotasına kopyalanmalıdır. Böyle durumlarda, Dynamics 365 for Operations ilgili operasyon ilişkilerini en spesifik kombinasyondan en az spesifik kombinasyona doğru arar.  
 
-Bir operasyon ilişkisi üzerinde eşleşme madde grubu kimliği tercih edilen Dynamics 365 işlemleri aramak için en uygun operasyon ilişkisi için yayımlanmış bir ürün, serbest bırakılan ürün madde Kimliğini eşleşen bir operasyon ilişkisi olduğunda Buna karşılık, madde grubu kimliği ile eşleşen bir operasyon ilişkisi varsayılan iş ilişkisi tercih edilir. Arama aşağıdaki sıraya göre yapılır:
+Dynamics 365 for Operations, serbest bırakılan bir ürün için en uygun operasyon ilişkisini arar ve bu aramada, serbest bırakılan ürünün madde koduyla eşleşen bir operasyon ilişkisi, madde grubu koduyla eşleşen bir operasyon ilişkisine tercih edilir. Buna karşılık, madde grubu koduyla eşleşen bir operasyon ilişkisi, varsayılan operasyon ilişkisine tercih edilir. Arama aşağıdaki sıraya göre yapılır:
 
-1.  **Madde kodu**=**tablo** ve **Madde ilişkisi**=&lt;öğesi kimliği&gt;
-2.  **Madde kodu**=**grup** ve **Madde ilişkisi**=&lt;madde grubu kodu&gt;
-3.  **Madde kodu**=**tüm**
-4.  **Rota kodu**=**yol** ve **Rota ilişkisi**=&lt;yol kimliği&gt;
-5.  **Rota kodu**=**tüm**
-6.  **Yapılandırma**=&lt;konfigürasyon kimliği&gt;
-7.  **Configuration**=
-8.  **Site**=&lt;site kimliği&gt;
-9.  **Site**=
+1.  **Madde kodu**=**Tablo** ve **Madde ilişkisi**=&lt;madde kodu&gt;
+2.  **Madde kodu**=**Grup** ve **Madde ilişkisi**=&lt;madde grubu kodu&gt;
+3.  **Madde kodu**=**Tümü**
+4.  **Rota kodu**=**Rota** ve **Rota ilişkisi**=&lt;rota kodu&gt;
+5.  **Rota kodu**=**Tümü**
+6.  **Yapılandırma**=&lt;yapılandırma kodu&gt;
+7.  **Yapılandırma**=
+8.  **Tesis**=&lt;Tesis kodu&gt;
+9.  **Tesis**=
 
-Bu nedenle, bir işlemi her rota için yalnızca bir kez kullanılmalıdır. İşlem aynı Rotadaki birden çok kez oluşursa, bu işlem tüm tekrarlamalarını aynı operasyon ilişkisi vardır ve her örneği için (örneğin, çalışma zamanları) farklı özelliklere sahip olmayacaktır.
+Bu nedenle, bir operasyon her rota için yalnızca bir kez kullanılmalıdır. Operasyon aynı rotada birden çok kez gerçekleşirse, o operasyonun tüm tekrarları aynı operasyon ilişkisini taşıyamaz ve her tekrar için farklı özelliklere (örneğin çalışma süreleri) sahip olamazsınız.
 
 ## <a name="route-versions"></a>Rota sürümleri
-Rota versiyonları ürünlerin üretimini çeşitlemelerine uyum ya da üretim işlemi üzerinde daha fazla denetim sağlamak için kullanılır. Belirli bir ürünün piyasaya hangi yol kullanılmalıdır tanımlarlar veya yayımlanan ürün çeşit üretilir. Aşağıdaki kısıtlamalar, yayımlanmış bir ürün için hangi yol kullanılır tanımlamak için kullanabilirsiniz:
+Rota sürümleri ürünlerin üretimindeki varyasyonları karşılamak veya üretim süreci üzerinde daha fazla kontrol sağlamak için kullanılır. Bu sürümler belirli bir serbest bırakılan ürün veya serbest bırakılan ürün çeşidi üretilirken kullanılması gereken rotayı tanımlar. Serbest bırakılan bir üründe hangi rotanın kullanılacağını tanımlamak için aşağıdaki kısıtlamaları kullanabilirsiniz:
 
 -   Ürün boyutları (boyut, renk, stil veya yapılandırma)
 -   Üretim miktarı
 -   Üretim tesisi
 -   Üretim tarihi
 
-Zaman içinde belirli bir miktar, belirli bir sitede ürün üreten veya belirli bir dönemde, özel bir rota versiyonu varsayılan rota versiyonu belirleyebilirsiniz. Ancak, bu yalnızca bir etkin rota verilen yayımlanmış bir ürün ve belirli kısıtlamalar kümesi için izin unutmayın.  
+Ürünü belirli bir tesiste, miktarda veya bir süre içinde üretirken, varsayılan rota sürümü olarak belirli bir rota sürümü belirleyebilirsiniz. Bununla birlikte, belirli bir serbest bırakılan ürün ve belirli bir kısıtlama grubu için yalnızca bir adet etkin rotaya izin verildiğini unutmayın.  
 
-Üretim denetimi parametrelerinde bir rota versiyonu geçerlilik süresi her zaman belirtilmesi gerekir.
+Üretim denetim parametrelerinde, bir rota sürümünün geçerlilik süresinin her zaman belirtilmesini zorunlu kılabilirsiniz.
 
-### <a name="approval-of-route-versions"></a>Rota versiyonlarının onayı
+### <a name="approval-of-route-versions"></a>Rota sürümlerini onaylama
 
-Planlama veya üretim süreci içinde bir rota versiyonu kullanılmadan önce onaylanmalıdır. İlgili rota, rota versiyonunu onayladığınızda, ayrıca onaylayabilirsiniz. Ancak, yalnızca ilgili rota da onaylanırsa bir rota versiyonu onaylanabilir unutmayın.
+Bir rota sürümünün planlama veya üretim sürecinde kullanılabilmesi için onaylanması gerekir. Bir rota sürümünü onaylarken ilgili rotayı da onaylayabilirsiniz. Bununla birlikte, bir rota sürümünün ancak ilgili rotanın da onaylanması durumunda onaylanabileceğini unutmayın.
 
-### <a name="activating-the-default-route-version"></a>Varsayılan rota versiyon etkinleştirme
+### <a name="activating-the-default-route-version"></a>Varsayılan rota sürümünü etkinleştirme
 
-Bir rota versiyonu etkinleştirdiğinizde, master planlama varsayılan rota versiyonu kullanır veya üretim emirleri oluşturmak için kullanılacak şekilde belirleyin. Kısıtlamalar (örneğin, dönem, site veya miktar) belirli bir kümesi için yalnızca bir etkin rota sürümü olabilir. Bir sürüm çakışmaları etkinleştirmeye çalıştığınız sürüm, zaten etkinse, bir hata iletisi alırsınız. Belirsiz bir etkinleştirme önlemek için daha sonra ya da çakışan versiyonun veya kısıtlamalar (genellikle dönem) rota versiyonunun değiştirmeniz gerekir.
+Bir rota sürümünü etkinleştirdiğinizde, onu ana planlamanın kullanacağı varsayılan rota sürümü olarak ya da üretim emirleri oluşturmak için kullanılacak şekilde belirtirsiniz. Belirli bir kısıtlama grubu için yalnızca bir etkin rota sürümü kullanabilirsiniz (örneğin, dönem, tesis veya miktar). Etkinleştirmeye çalıştığınız sürüm zaten etkin olan bir sürümle çakışırsa, bir hata iletisi alırsınız. Bu durumda belirsiz bir etkinleştirmeyi önlemek için, çakışan sürümü devre dışı bırakmanız veya rotanın sürümündeki kısıtlamaları (genellikle dönemi) değiştirmeniz gerekir.
 
-### <a name="electronic-signatures"></a>Elektronik imza
+### <a name="electronic-signatures"></a>Elektronik imzalar
 
-Kim onaylar ve her bir rota versiyonu etkinleştirir kaydeden bir günlük tutmak, bu görevler için elektronik imza gerektirebilir. Onayla ve rota versiyonları etkinleştirmek kullanıcıların kullanarak kimliklerini onaylamak sahip olur bir [elektronik imza](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Her rota sürümünü kimin onayladığının ve etkinleştirdiğinin kaydedildiği bir günlük tutmanız gerekiyorsa, bu görevler için elektronik imzalar isteyebilirsiniz. Böylece rota sürümlerini onaylayan ve etkinleştiren kullanıcıların [elektronik imza](/dynamics365/operations/organization-administration/electronic-signature-overview) kullanarak kimliklerini doğrulamaları gerekir.
 
-### <a name="product-change-that-uses-case-management"></a>Servis talebi yönetimi kullanan Ürün değişikliği
+### <a name="product-change-that-uses-case-management"></a>Servis talebi yönetiminin kullanıldığı ürün değişikliği
 
-Ürün onayı için Harf Değiştir ve yeni veya değiştirilmiş yollar ve rota versiyonlarının etkinleştirme rota sürümü kısıtlamaları özetini görmek için kolay bir yol sağlar. Onayla ve Ürün değişikliği durumunda sonuçları belge ve belirli bir değişikliği tek bir işlemde ilgili tüm yolları etkinleştir.
+Yeni veya değiştirilmiş rotaları ve rota sürümlerini onaylamak ve etkinleştirmek için yapılan ürün değişikliği servis talebi, rota sürümü kısıtlamalarını genel bir açıdan görmenin kolay bir yoludur. Ayrıca, tek bir işlemde belirli bir değişiklikle ilgili tüm rotaları onaylayıp etkinleştirebilir ve sonuçları ürün değişikliği servis talebinde belgeleyebilirsiniz.
 
-## <a name="maintaining-routes"></a>Yolların bakımını yapma
-İş gereksinimlerinize bağlı olarak, işlem tanımları sağlamak için gerekli çabayı azaltmak mümkün olabilir.
+## <a name="maintaining-routes"></a>Rotaları yönetme
+İş gereksinimlerinize bağlı olarak, işlem tanımlarınızı korumak için gereken iş yükünü azaltabilirsiniz.
 
-### <a name="making-routes-independent-of-resources"></a>Yol kaynaklarının bağımsız yapma
+### <a name="making-routes-independent-of-resources"></a>Kaynaklardan bağımsız rota yapma
 
-Birçok sisteminde rotadaki işlemleri kaynak veya bir işlem gerçekleştirmesi gereken kaynak grubu belirtilmelidir. Ancak, operasyonlar için Dynamics 365 içinde işlemleri kaynak işlemi için uygun olması için yerine getirmesi gereken gereksinimler kümesi tanımlayabilirsiniz. Bu nedenle, belirli işlemleri kaynak veya kullanılması gereken kaynak grubu işlem aslında zamanlandığı süreye kadar belirlenecek yok. Birçok çalışanlar veya aynı işlemi gerçekleştiren makineler varsa, bu işlev özellikle yararlıdır.  
+Birçok sistemde, bir operasyonu gerçekleştirmesi gereken operasyon kaynaklarının veya kaynak grubunun rotada belirtilmesi gerekir. Bununla birlikte, Dynamics 365 for Operations'ta bir operasyon kaynağının operasyona uygun olması için karşılaması gereken bir dizi gereksinimi tanımlayabilirsiniz. Bu nedenle, kullanılması gereken belirli operasyon kaynaklarının veya kaynak grubunun, operasyon fiilen planlanana kadar belirlenmesine gerek yoktur. Bu işlevsellik, özellikle, aynı operasyonu gerçekleştirebilecek birçok çalışan veya makineye sahip olduğunuzda yararlıdır.  
 
-Örneğin, bir işlem, bir işlem kaynağı gerektirdiğini belirtmek **makine** olan bir tür bir **Stamping** 20 ton yeteneğini. İşlem planlandığında zamanlama motoru belirli işlemleri kaynak veya kaynak grubu için daha sonra bu gereksinimleri çözer. Yalnızca belirli bir makine bağlama işlemi yerine bu gereksinimleri belirleyebilirsiniz olduğundan çok daha fazla esnekliğe sahip olursunuz. Ayrıca, bakım kaynaklar taşınır ve yeni kaynaklar eklenmeden kolay olur.  
+Örneğin bir operasyon için 20 tonluk **Damgalama** kapasiteli **Makine** tipinde bir operasyon kaynağı gerektiğini belirtiyorsunuz. Planlama altyapısı, operasyon planlanırken bu gereksinimleri belirli bir operasyon kaynağına veya kaynak grubuna bağlar. İşlemi belirli bir makineye bağlamak yerine yalnızca bu gereksinimleri belirtebildiğiniz için daha fazla esneklik elde edersiniz. Ayrıca, kaynaklar taşınırken veya yeni kaynaklar eklenirken yönetim daha kolay hale gelir.  
 
-Çeşitli kaynak gereksinimlerini ve nasıl kullanılacakları hakkında daha fazla bilgi için bkz: işlem kaynak gereksinimleri ve [kaynak yetenekleri](resource-capabilities.md).
+Çeşitli kaynak gereksinimi türleri ve bunların nasıl kullanılacağı hakkında daha fazla bilgi için bkz. Operasyon kaynağı gereksinimleri ve [Kaynak yetenekleri](resource-capabilities.md).
 
-### <a name="sharing-routes-across-sites"></a>Siteler arasında yollar paylaşımı
+### <a name="sharing-routes-across-sites"></a>Rotaları tesisler arasında paylaştırma
 
-Aynı ürünün birden fazla üretim sitesinde üretmek ve ürün üretmek için tüm siteler aynı adımlardır, genellikle tüm üretim siteler arasında kullanılan paylaşılan bir yol tasarlayabilirsiniz. Paylaşılan bir yol oluşturmak için bir site rotasında belirtmeyin. Ancak, hala, ürünün her sitede paylaşılan rota ilişkilendiren bir rota versiyonunu oluşturmanız gerekir.  
+Aynı ürünü birden fazla üretim tesisinde üretiyorsanız ve ürünün üretilmesi için gereken adımlar tüm tesislerde aynı ise, genellikle tüm üretim tesislerinde kullanılmak üzere paylaşılan bir rota tasarlayabilirsiniz. Paylaşılan bir rota oluştururken rotada tesis belirtmeyin. Ancak yine de, paylaşılan rotayı her bir sitedeki ürünle ilişkilendiren bir rota sürümü oluşturmanız gerekir.  
 
-Ayrıca rotasındaki her operasyon için kaynak gereksinimleri belirli işlemleri kaynaklar veya kaynak grupları için arama yok, ancak bunun yerine gerekli kaynakları açısından özelliklerini ifade edilir emin olmanız gerekir. Zamanlama altyapısı sonra üretim üzerinde zamanlanmış sitesinden uygun işlem kaynakları atamak mümkün olacaktır. Örneğin, çalışma süresi içinde küçük farklılıklar varsa veya belirli bir operasyon için ayar süresini siteye ise, bu site için bir ek operasyon ilişkisi ekleyerek bu bilgileri belirtebilirsiniz.  
+Ayrıca, rotadaki her operasyon için kaynak gereksinimlerinin belirli operasyon kaynakları veya kaynak grupları için değil, bunun yerine gerekli kaynakların özellikleri açısından ifade edildiğinden emin olmanız gerekir. Planlama altyapısı, bunun üzerine, üretimin planlandığı tesisten uygun operasyon kaynaklarını atayabilir. Örneğin, çalışma süresinde küçük farklılıklar varsa veya belirli bir operasyon için hazırlık süresi tesise özgüyse, bu tesis için bir ek operasyon ilişkisi ekleyerek bu bilgileri belirtebilirsiniz.  
 
-Paylaşılan yollar yararlarını tam olarak yararlanabilmek için kaynak tüketimi de ilgili ürün reçetesini (BOM) kullanmanız gerekir. Ürün reçetesi satırı için kaynak tüketimi bayrağını ayarladığınızda, Hammadde tüketilen yeri ve ambar sözcüğünden çıkarıldığında işlemi üzerinde zamanlanmış işlemleri kaynak. Bu nedenle, yeri ve ambar üretim gerçekten zamanlandığı süreye kadar belirlenmesi gerekmez. Bu yolla, hem bir BOM ve rota ürün burada üretilen fiziksel konumunu bağımsız duruma getirebilirsiniz.
+Paylaşılan rotaların avantajlarından tam olarak yararlanabilmek için, ilgili ürün reçetelerinde (BOM) kaynak tüketimini de kullanmanız gerekir. Ürün reçetesi satırındaki kaynak tüketimi için bayrağı belirlediğinizde, ambar ve ham maddelerin tüketilmesi gereken lokasyon, operasyonun üzerinde planlandığı operasyon kaynaklarından çıkarsanır. Dolayısıyla, üretim fiilen planlanıncaya kadar ambar ve lokasyonun belirlenmesi gerekmez. Bu şekilde, ürün reçetesini hem rota hem de ürünün üretildiği fiziksel lokasyondan bağımsız kılabilirsiniz.
 
 ### <a name="standard-operation-relations"></a>Standart operasyon ilişkileri
 
-İşinizi standart işlem üretim boyunca kullanıyorsa ve makine hazırlık süresini çok az veya hiç Değişim ise, çalışma süresi, Tüketim hesaplaması, maliyet hesaplaması, ve vb., varsayılan tüm işlemler için operasyon ilişkilerini oluşturmaktan yarar. Bu durumda, belirli herhangi bir yol veya ürünün piyasaya operasyon ilişkilerini oluşturmaktan kaçının.  
+İşletmeniz tüm üretim sürecinde standartlaştırılmış operasyonlar kullanıyorsa ve hazırlık süresi, çalışma süresi, tüketim hesaplaması, maliyet hesaplaması vb. özelliklerde çok az değişiklik varsa veya hiç değişiklik yoksa, tüm operasyonlar için varsayılan operasyon ilişkileri oluşturmanız yararlı olabilir. Bu durumda, herhangi bir rotaya veya serbest bırakılan ürüne özgü operasyon ilişkileri oluşturmaktan kaçının.  
 
-Ayrıca kaynak gereksinimleri beceri ve yetenekleri açısından express ve site bağımsız, yollar yapmak, İş süreçlerinizi devam eden bakımının minimumda tutabilirsiniz yardımcı olabilir.  
+Ayrıca, beceri ve yetenek türünde kaynak gereksinimleri belirliyorsanız ve rotalarınızı tesisten bağımsız yaparsanız, iş süreçlerinizin sürekli yönetimini minimumda tutmaya yardımcı olabilirsiniz.  
 
-Bu yaklaşımı kullanırsanız, **operasyon ilişkilerini** sayfa Çalıştırma süreleri ve diğer özellikleri korumak için birincil hedefi haline gelir.
+Bu yaklaşımı kullandığınız zaman, **Operasyon ilişkileri** sayfası, çalışma süreleri ve diğer özelliklerin yönetimi için birincil hedefiniz haline gelir.
 
-### <a name="resource-specific-process-times"></a>Kaynak özel işlem süreleri
+### <a name="resource-specific-process-times"></a>Kaynağa özgü işlem süreleri
 
-Bir operasyon için kaynak gereksinimleri bir parçası olarak bir işlem kaynağı veya kaynak grubunu belirtmezseniz, ilgili kaynaklara farklı hızlarda çalışmıyor olabilir. Bu nedenle, bir işlemi yürütmek için gereken süre değişebilir. Bu sorunu gidermek için kullanabileceğiniz **formül** işlem süresinin nasıl hesaplanacağını belirtmek için Operasyon ilişkisi alanını. Aşağıdaki seçenekler bulunur:
+Bir operasyonun kaynak gereksinimlerinin bir parçası olarak bir operasyon kaynağı veya kaynak grubu belirtmezseniz, geçerli kaynaklar farklı hızlarda çalışabilir. Bu nedenle, bir operasyonu yürütmek için gereken süre değişebilir. Bu sorunu gidermek amacıyla, işlem süresinin nasıl hesaplanacağını belirtmek için, operasyon ilişkisindeki **Formül** alanını kullanabilirsiniz. Aşağıdaki seçenekler bulunur:
 
--   **Standart** – (varsayılan seçenek) hesaplama yalnızca operasyon ilişkisi alanları kullanır ve belirtilen çalışma zamanı tarafından sipariş miktarı çarpar.
--   **Kapasite** – hesaplama içerir **kapasite** işlemleri kaynaktan alan. Bu nedenle, kaynak bağımlı zamanı gelmiştir. İşlemleri kaynakta belirtilen saat başına kapasite değerdir. Bu değer Sipariş miktarla çarpılır ve **faktör** operasyon ilişkisi değer.
--   **Toplu** – operasyon ilişkisi bilgilerini kullanarak toplu kapasite hesaplanır. Toplu işlemleri ve bu nedenle, işlem süresi sayısı sonra göre sipariş miktarı hesaplanabilir.
--   **Kaynak toplu** – bu seçenek temelde aynı olan **toplu** seçeneği. Bununla birlikte, hesaplama içerir **toplu kapasite** işlemleri kaynaktan alan. Bu nedenle, kaynak bağımlı zamanı gelmiştir.
+-   **Standart** – (Varsayılan seçenek) Hesaplama, yalnızca operasyon ilişkisindeki alanları kullanır ve belirtilen çalışma süresini sipariş miktarıyla çarpar.
+-   **Kapasite** – Hesaplamaya, operasyon kaynağındaki **Kapasite** alanı dahil edilir. Bu nedenle, süre kaynağa bağlıdır. Operasyon kaynağında belirtilen değer saat başına kapasitedir. Bu değer operasyon ilişkisinden alınan sipariş miktarıyla ve **Faktör** değeriyle çarpılır.
+-   **Parti** – Parti kapasitesi, operasyon ilişkisinden alınan bilgilerle hesaplanır. Parti sayısı ve dolayısıyla işlem süresi sipariş miktarına göre hesaplanabilir.
+-   **Kaynak parti** – Bu seçenek temelde **Parti** seçeneğiyle aynıdır. Ancak, hesaplamaya, operasyon kaynağındaki **Parti kapasitesi** alanı dahil edilir. Bu nedenle, süre kaynağa bağlıdır.
 
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Bills of materials and formulas](bill-of-material-bom.md)
+[Ürün reçeteleri ve formüller](bill-of-material-bom.md)
 
-[Cost categories used in production routing](../cost-management/cost-categories-used-production-routings.md)
+[Üretim rotasında kullanılan maliyet kategorileri](../cost-management/cost-categories-used-production-routings.md)
 
-[Resource capabilities](resource-capabilities.md)
+[Kaynak yetenekleri](resource-capabilities.md)
 
-[Electronic signature overview](/dynamics365/operations/organization-administration/electronic-signature-overview)
+[Elektronik imzalara genel bakış](/dynamics365/operations/organization-administration/electronic-signature-overview)
+
+
 
 

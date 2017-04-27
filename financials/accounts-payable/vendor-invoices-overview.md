@@ -1,5 +1,5 @@
 ---
-title: "Satıcı faturaları genel bakış"
+title: "Satıcı faturalarına genel bakış"
 description: "Bu makalede, satıcı faturaları hakkında genel bilgiler verilmektedir. Satıcı faturaları, alınan ürün ve hizmetler için ödeme talepleridir. Satıcı faturaları, devam eden hizmetler için bir faturayı temsil edebileceği gibi, belirli madde ve hizmetler için satınalma siparişlerine de dayanabilir."
 author: twheeloc
 manager: AnnBe
@@ -25,20 +25,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vendor-invoices-overview"></a>Satıcı faturaları genel bakış
+# <a name="vendor-invoices-overview"></a>Satıcı faturalarına genel bakış
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, satıcı faturaları hakkında genel bilgiler verilmektedir. Satıcı faturaları, alınan ürün ve hizmetler için ödeme talepleridir. Satıcı faturaları, devam eden hizmetler için bir faturayı temsil edebileceği gibi, belirli madde ve hizmetler için satınalma siparişlerine de dayanabilir. 
 
 <a name="vendor-invoices"></a>Satıcı faturaları
 ---------------
 
-Bir satınalma siparişinden bir satıcı faturası, satıcıya verilmiş satınalma siparişine göre ürünler veya hizmetler alındığında, oluşturulan bir faturadır. Satıcı faturası, bir başlık ve öğeler veya hizmetler için bir veya daha fazla satır içerir. Satıcı Fatura döngüsüne satınalma siparişine ait satıcı faturası için ürün bilgisi tamamlar. 
+Bir satınalma siparişinden bir satıcı faturası, satıcıya verilmiş satınalma siparişine göre ürünler veya hizmetler alındığında, oluşturulan bir faturadır. Satıcı faturası, mallar veya hizmetler için bir başlık ve bir veya daha fazla satır içerir. Satıcı faturası, satınalma siparişinden ürün girişine ve oradan satıcı faturasına doğru oluşan döngüyü tamamlar. 
 
 Bazı satıcı faturaları bir satınalma siparişine bağlı olsalar da, satıcı faturaları satınalma siparişi satırlarına karşılık gelmeyen satırlar da içerebilirler. Herhangi bir satınalma siparişi ile ilişkili olmayan satıcı faturaları da oluşturabilirsiniz. Bu satıcı faturaları bir hizmet faturası gibi fatura devam etmekte olan hizmetleri gösterebilir ve bunları eklediğinizde, bir satınalma siparişine referans göstermeniz gerekmez. 
 
 Satıcı faturası girmek için çeşitli yollar vardır:
 
--   Satıcı fatura kaydına gider tahakkuk böylece bir satınalma siparişine referans yok faturaları hızla girmenizi sağlar. Satıcı Fatura onay günlüğü kullanarak, bu faturaları seçin ve tahakkuk tersine çevirmek için satıcı bakiyesi nakledin.
+-   Satıcı faturası kaydı, bir satınalma siparişine referans bulunmayan faturaları hızla girmenize ve bu sayede gideri tahakkuk ettirmenize olanak sağlar. Satıcı fatura onay günlüğünü kullanarak bu faturaları seçebilir ve tahakkuku tersine çevirmek için satıcı bakiyesine nakledebilirsiniz.
 -   Satıcı fatura günlüğü tek adımda bir satınalma siparişine referans göstermeyen faturaları hızla girmenizi sağlar.
 -   Satıcı faturası havuzu ile birlikte satıcı fatura kaydı, hızla gider tahakkuk etmek için faturaları girmenizi sağlar. Daha sonra gider hesabına karşı faturayı deftere nakletmek için ilişkili satınalma siparişlerini açabilirsiniz.
 -   **Açık satıcı faturaları** ve **Bekleyen satıcı faturaları** sayfaları onaylanmış satınalma siparişlerinden satıcı faturaları oluşturmanızı sağlar.
@@ -57,7 +60,7 @@ Bir satıcı faturasını ilgili satınalma siparişinden açarsanız, fatura sa
 Tüzel kişiliğiniz fatura eşleştirmesi kullanıyorsa, miktar eşleştirme sonuçlarını **Ürün alış irsaliyesi miktar eşleşmesi** sütununda görüntüleyebilirsiniz. Ayrıca **İnceleme** sekmesindeki **Eşleştirme ayrıntıları** menü komutunu miktar eşleştirmesinin sonuçlarını görüntülemek için kullanabilirsiniz.
 
 ## <a name="adding-a-line-that-wasnt-on-the-purchase-order"></a>Satınalma siparişinde olmayan bir satır ekleme
-Satınalma siparişine satıcı faturası için değildi yeni bir satır ekleyebilirsiniz. Madde numarası veya tedarik kategori seçmelisiniz. Daha sonra satıra miktarları, fiyatları ve tutarları ekleyebilirsiniz. Satır, sadece fatura toplamları için eşleştirme ilkeleri içine eklenecektir.
+Satıcı faturasına satınalma siparişinde bulunmayan yeni bir satır ekleyebilirsiniz. Madde numarası veya tedarik kategori seçmelisiniz. Daha sonra satıra miktarları, fiyatları ve tutarları ekleyebilirsiniz. Satır, sadece fatura toplamları için eşleştirme ilkeleri içine eklenecektir.
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Satıcı faturasını değerlendirilmek üzere gönderme
 Kuruluşunuz, satıcı faturalarını gözden geçirme işlemini yönetmek için iş akışlarını kullanabilir. İş akışını gözden geçirmesi, faturası başlığı, fatura satırı veya her ikisi için de gerekli olabilir. İş akışı denetimleri başlığa veya satıra uygulanabilir, denetimi tıkladığınızda odağın nere olduğuna bağlı olarak. **Naklet** düğmesi yerine, bir **Gönder** düğmesi göreceksiniz ve bunu satıcı faturasını gözden geçirme sürecine göndermek için kullanabilirsiniz.
@@ -74,6 +77,8 @@ Bu seçenek, satınalma siparişi için en az bir ürün girişinin deftere nakl
 ## <a name="working-with-multiple-invoices"></a>Birden çok fatura ile çalışma
 
 Aynı anda birden çok fatura ile çalışabilir ve bunların tümünü aynı anda deftere nakledebilirsiniz. Birden çok fatura oluşturmanız gerekiyorsa, **Bekleyen satıcı faturaları** sayfasını kullanın. Birden çok satıcı faturalarını deftere nakletmeniz ve yazdırmanız gerekiyorsa, fatura onay günlüğü sayfası kullanın. Fatura onay günlüğünü kullanıyorsanız, bu satınalma siparişi için en az bir ürün girişinin deftere nakledilmesi gerekir ve bir faturanın bu satınalma siparişi için fatura kaydına nakledilmesi gerekir. Faturanın mali bilgileri, kayda nakledilmiş faturadan gelir.
+
+
 
 
 

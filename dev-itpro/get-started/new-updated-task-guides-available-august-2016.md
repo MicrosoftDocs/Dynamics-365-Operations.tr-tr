@@ -1,6 +1,6 @@
 ---
 title: "Yeni veya güncelleştirilmiş görev kılavuzları (Ağustos 2016)"
-description: "Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Ağustos 2016 - tüm diller) Microsoft&quot;a listeler Microsoft Dynamics AX APQC birleşik kitaplığı. Başlangıç Kitaplığı yayımlanmamıştır."
+description: "Bu konu, Microsoft Dynamics AX için Microsoft (Ağustos 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı&quot;nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,12 +26,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="new-or-updated-task-guides-august-2016"></a>Yeni veya güncelleştirilmiş görev kılavuzları (Ağustos 2016)
 
-Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Ağustos 2016 - tüm diller) Microsoft'a listeler Microsoft Dynamics AX APQC birleşik kitaplığı. Başlangıç Kitaplığı yayımlanmamıştır.
+[!include[banner](../includes/banner.md)]
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Görev APQC Unified kitaplığı (Ağustos 2016'de - tüm diller), Microsoft Dynamics AX için yönlendirir.
+
+Bu konu, Microsoft Dynamics AX için Microsoft (Ağustos 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır.
+
+<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Microsoft Dynamics AX için (Ağustos 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'ndaki görev kılavuzları
 ---------------------------------------------------------------------------------------------------
 
-(Ağustos 2016 - tüm diller) APQC birleşik kitaplığı içeren Yardım için Microsoft Dynamics AX platform Güncelleştirmesi (Ağustos 2016) 2 Dynamics AX ile kullanılmak üzere tasarlanmıştır görev kılavuzları 2016 uygulama güncelleştirebilir ve Microsoft Dynamics AX Şubat 2016 bırakın. Bu sürümleri hakkında daha fazla bilgi için bkz: [yeni veya değişen nedir](whats-new-changed.md). Bu belge kitaplığında görev Kılavuzları'nın yerelleştirilmiş sürümleri kullanılabilir. Görev Kılavuzu Kitaplığı'na Yardım sistemine bağlanma hakkında daha fazla bilgi için bkz: [Yardımı ile başlamak](help-overview.md).
+(Ağustos 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı, Microsoft Dynamics AX platformu güncelleştirmesi 2 (Ağustos 2016), Dynamics AX Mayıs 2016 uygulama güncelleştirmesi ve Microsoft Dynamics AX Şubat 2016 sürümünün Yardım'ı için kullanılması planlanan görev kılavuzlarını içerir. Bu sürümler hakkında daha fazla bilgi için bkz. [Yenilikler veya değişiklikler](whats-new-changed.md). Görev kılavuzlarının yerelleştirilmiş sürümleri bu kitaplıkta mevcuttur. Yardım sistemini bir Görev kılavuzu kitaplığına bağlama hakkında daha fazla bilgi için bkz. [Yardıma Giriş](help-overview.md).
 
 ### <a name="data-access"></a>Veri erişimi
 
@@ -97,10 +100,12 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Ağus
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Yeni Görev (Şubat 2016) size yol gösterir.](new-task-guides-available-february-2016.md)
+[Yeni Görev kılavuzları (Şubat 2016)](new-task-guides-available-february-2016.md)
 
-[Yeni veya güncelleştirilmiş görev (Mayıs 2016) size yol gösterir.](new-updated-task-guides-available-may-2016.md)
+[Yeni veya güncelleştirilmiş görev kılavuzları (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Yeni veya güncelleştirilmiş görev (Kasım 2016) size yol gösterir.](new-task-guides-november-2016.md)
+[Yeni veya güncelleştirilmiş Görev kılavuzları (Kasım 2016)](new-task-guides-november-2016.md)
+
+
 
 

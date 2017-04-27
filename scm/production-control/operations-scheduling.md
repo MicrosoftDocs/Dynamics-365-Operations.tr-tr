@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling"></a>Operasyon planlama çizelgeleme
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu konu operasyon planlaması hakkındaki bilgileri sağlar. Operasyon planlama çizelgelemesini zaman içinde üretim süresine dair genel bir tahmin yapmak için kullanabilirsiniz.
 
 Üretimi operasyon düzeyinde ve iş düzeyinde planlayabilirsiniz. İş planlamadan farklı olarak, operasyon planlama üretim rotasının operasyonlarını işlere ayırmaz. Planlamaya geçerli kapasite hakkında bilgiler gibi daha fazla ayrıntı eklemek isterseniz iş planlamayı operasyon planlamadan sonra çalıştırabilirsiniz. Yalnızca iş planlamayı da çalıştırabilirsiniz. İş planlama genellikle atölyedeki tek tek işleri anlık veya kısa bir zaman aralığında planlamak için kullanılır.
@@ -76,5 +79,7 @@ Sınırlı malzemeyle çalışıyorsanız planlama üretim için gerekli olan ma
 --------
 
 [Operasyon planlama çizelgeleme seçenekleri](operation-scheduling-options.md)
+
+
 
 

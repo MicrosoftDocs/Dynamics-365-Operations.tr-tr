@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="audit-policy-violations-and-cases"></a>İlke ihlallerini ve vakalarını denetleme
 
+[!include[banner](../includes/banner.md)]
+
+
 Makalede, denetim ilkesi kuralları ihlallerinden nasıl denetim çalışmaları oluşturulduğu açıklanmaktadır. Makalede, denetim ilkelerinin belge seçim tarihi aralığını kullanmasının çeşitli yolları da yer almaktadır.
 
 <a name="how-audit-cases-are-generated"></a>Denetim vakaları nasıl oluşturulur
@@ -39,10 +42,10 @@ Denetim ilkeleri toplu iş modunda çalışır. Bir denetim İlkesini çalışt�
 
 Her bir ilke kuralı bir belgeler kümesini değerlendirir. İlke kuralı, belge seçim tarihi aralığında bulunan ve belirtilen ölçütle eşleşen belgeleri seçer. Örneğin, bir ilke kuralı 50.00 tutarını aşan yemek faturaları içeren gider raporlarını seçebilir. Başka bir ilke kuralı belirli bir satıcıya ödenecek satıcı faturalarını seçebilir. Kümede seçilen her bir belge için bir ihlal oluşturulur. Bu ihlal, örneğin fatura 12345 gibi belirli bir belgenin ilke kuralı ile uyumlu olmadığını gösteren bir kayıttır. 
 
-Birden fazla denetim ihlali kaydı gruplandırılır ve denetim vakaları ile ilişkilendirilir. Varsayılan olarak, her denetim ilkesi için vakalar denetim ilkesi kuralına göre gruplandırılır. İsterseniz, **Vaka gruplandırma ölçütleri** sayfasını kullanarak diğer gruplandırma ölçütlerini de seçebileceğiniz. Örneğin, proje kodu ve satıcı faturaları gider üstbilgileri satıcı hesabına göre gruplandırabilirsiniz. Bu durumda, aynı durumda aynı proje Kimliğine sahip tüm gider başlığı ihlalleri gruplandırılır ve aynı durumda aynı satıcı hesabı olan tüm satıcı faturalarını gruplandırılır. 
+Birden fazla denetim ihlali kaydı gruplandırılır ve denetim vakaları ile ilişkilendirilir. Varsayılan olarak, her denetim ilkesi için vakalar denetim ilkesi kuralına göre gruplandırılır. İsterseniz, **Vaka gruplandırma ölçütleri** sayfasını kullanarak diğer gruplandırma ölçütlerini de seçebileceğiniz. Örneğin, proje kodu ve satıcı faturaları gider üstbilgilerini satıcı hesabına göre gruplandırabilirsiniz. Bu durumda, aynı proje kimliğine sahip olan tüm gider başlığı ihlalleri aynı vakada gruplandırılır ve aynı satıcı hesabına sahip tüm satıcı faturaları aynı vakada gruplandırılır. 
 
 > [!NOTE]
-> Esas alan bir denetim ilkesi kuralları için bir **yinelenen** sorgu türü, ihlalleri ilke kuralı veya üzerinde belirtilen ölçütlere göre gruplandırılmış olmayan **Case gruplandırma ölçütlerini** sayfa. Bunun yerine, denetim ilkesi kuralına entegre edilen ölçütlere göre gruplandırılır. Örneğin, bir ilke kuralı aynı tutar, satıcı kimliği ve tarih ile tekrarlanan giderler için gider raporlarını değerlendiriyorsa bu alanlarda aynı değerlere sahip olan tüm giderler bir vakada toplanır. Farklı değerlere sahip giderler ise ayrı bir vaka olur.
+> Bir **Tekrarlanan** sorgu türüne dayalı denetim ilkesi kuralları için ihlaller, ilke kuralına veya **Vaka gruplandırma ölçütleri** sayfasında belirtilen ölçütlere göre gruplandırılmaz. Bunun yerine, denetim ilkesi kuralına entegre edilen ölçütlere göre gruplandırılır. Örneğin, bir ilke kuralı aynı tutar, satıcı kimliği ve tarih ile tekrarlanan giderler için gider raporlarını değerlendiriyorsa bu alanlarda aynı değerlere sahip olan tüm giderler bir vakada toplanır. Farklı değerlere sahip giderler ise ayrı bir vaka olur.
 
 Denetim vakaları oluşturulduktan sonra standart vaka yönetimi süreçleri kullanılarak işlenir.
 
@@ -57,5 +60,7 @@ Burada, bir denetim ilkesinin, belge seçim tarihi aralığını nasıl başka �
 
 
 Daha fazla bilgi için bkz: [Denetim İlkesi kuralları](audit-policy-rules.md)
+
+
 
 

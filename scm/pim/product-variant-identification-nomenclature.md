@@ -1,6 +1,6 @@
 ---
-title: "Ürün numarası terminolojisi"
-description: "Bu konuda ana ürün numarası, etkin ürün boyutları ve seçtiğiniz metin sınırlayıcılar içeren bir hedef biçimiyle bir ürün numarası terminolojisi [Ürün ana sayı - yapılandırma - boyutu - Renk - stili], sabit biçimi değiştirmek için nasıl ayarlanacağı açıklanmaktadır. Kısıtlama tabanlı ürün yapılandırıcısı ile oluşturulan yapılandırmaları belirlemek için de bir terminoloji oluşturabilirsiniz. Bu terminolojiler istediğiniz öznitelikleri içerebilir."
+title: "Ürün numara terminolojisi"
+description: "Bu konu, sabit biçimi [Ürün ana numarası - Yapılandırma - Boyut - Renk - Stil] ürün ana numarasını, etkin ürün boyutlarını ve istediğiniz metin ayırıcılarını da içeren bir hedeflenmiş biçimle değiştirmek için bir ürün numara terminolojisini nasıl ayarlayacağınızı açıklar. Kısıtlama tabanlı ürün yapılandırıcısı ile oluşturulan yapılandırmaları belirlemek için de bir terminoloji oluşturabilirsiniz. Bu terminolojiler istediğiniz öznitelikleri içerebilir."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="product-number-nomenclature"></a>Ürün numarası terminolojisi
+# <a name="product-number-nomenclature"></a>Ürün numara terminolojisi
 
-Bu konuda ana ürün numarası, etkin ürün boyutları ve seçtiğiniz metin sınırlayıcılar içeren bir hedef biçimiyle bir ürün numarası terminolojisi [Ürün ana sayı - yapılandırma - boyutu - Renk - stili], sabit biçimi değiştirmek için nasıl ayarlanacağı açıklanmaktadır. Kısıtlama tabanlı ürün yapılandırıcısı ile oluşturulan yapılandırmaları belirlemek için de bir terminoloji oluşturabilirsiniz. Bu terminolojiler istediğiniz öznitelikleri içerebilir.
+[!include[banner](../includes/banner.md)]
+
+
+Bu konu, sabit biçimi [Ürün ana numarası - Yapılandırma - Boyut - Renk - Stil] ürün ana numarasını, etkin ürün boyutlarını ve istediğiniz metin ayırıcılarını da içeren bir hedeflenmiş biçimle değiştirmek için bir ürün numara terminolojisini nasıl ayarlayacağınızı açıklar. Kısıtlama tabanlı ürün yapılandırıcısı ile oluşturulan yapılandırmaları belirlemek için de bir terminoloji oluşturabilirsiniz. Bu terminolojiler istediğiniz öznitelikleri içerebilir.
 
 Yeni ürün çeşidi numarası terminolojisi, ürün çeşidi tanımlayıcılarınıza segmentler dahil etmenizi sağlar. Bu segmentler; ürün ana numarası, ürün boyutları, numara serileri, sabit metinler ve öznitelikler içerebilir. Bu işlev, bir satış siparişi veya satınalma siparişi oluşturduğunuzda belirli bir ürün çeşidini hızlı bir şekilde bulmanızı sağlar.
 
@@ -66,8 +69,8 @@ Bir tişört (TS1234), toplamda 24 olası ürün çeşidi olarak 3 farklı beden
 
 Kırmızı, Small beden, Polo tişörtün ürün çeşidi numarası TS1234-Kırmızı-Small-Polo olur.
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>Constraintbased yapılandırmaları terminolojisi
-Kısıtlama tabanlı yapılandırmalar için adanmış bir terminolojisi konfigürasyon ürün boyutu için oluşturulabilir. **Ürün terminolojisi** sayfasından aşağıdaki segmentleri seçebilirsiniz.
+## <a name="nomenclature-of-constraintbased-configurations"></a>Kısıtlama tabanlı yapılandırma terminolojisi
+Kısıtlama tabanlı yapılandırmalar için, yapılandırma ürün boyutuna yönelik adanmış bir terminoloji oluşturulabilir. **Ürün terminolojisi** sayfasından aşağıdaki segmentleri seçebilirsiniz.
 
 -   Numara serisi değeri
 -   Metin sabiti
@@ -90,8 +93,8 @@ Yapılandırma terminolojisi aşağıdaki segmentler kullanılarak tanımlanır:
 
 Uzunluğu 78 olan ahşap bir malzemenin yapılandırma kodu AhşapAAA78 olur.
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>Dimensionbased yapılandırmaları terminolojisi
-Boyut tabanlı yapılandırmalar için adanmış bir terminolojisi konfigürasyon ürün boyutu için oluşturulabilir. **Ürün terminolojisi** sayfasından aşağıdaki segmentleri seçebilirsiniz.
+## <a name="nomenclature-of-dimensionbased-configurations"></a>Boyut tabanlı yapılandırmaların terminolojisi
+Boyut tabanlı yapılandırmalar için, yapılandırma ürün boyutuna yönelik adanmış bir terminoloji oluşturulabilir. **Ürün terminolojisi** sayfasından aşağıdaki segmentleri seçebilirsiniz.
 
 -   Numara serisi değeri
 -   Metin sabiti
@@ -147,7 +150,7 @@ Segmentler için aşağıdaki değerleri girebilirsiniz:
 -   Malzeme = Plastik
 -   Uzunluk = 12
 
-Ürün varyant numarasını olur: M0099\_PlasticAAA12.
+Ürün çeşidi numarası M0099\_PlastikAAA12 olur.
 
 ### <a name="example-for-dimension-based-configurations"></a>Boyut tabanlı yapılandırmalar için örnek
 
@@ -180,7 +183,7 @@ Bir veya birden çok ürün çeşidinin aynı ürün çeşidi numarasını alaca
 
 ### <a name="constraint-based-configurations"></a>Kısıtlama tabanlı yapılandırma
 
-Terminolojiye bağlı olarak, sistem, yapılandırmaya benzersiz olmayan bir ürün numarası atama denemesinde bulunabilir. Bu durumda, sistem numara serisi için konfigürasyon boyutu ürün varyant numarasını yerine kullanır. Bu durumda, bir uyarı alırsınız. Bunu önlemek için, benzersizliği sağlamak adına terminolojiye yeterli öznitelikleri dahil etmelisiniz ve **Yeniden kullan** seçeneğinin bileşen için açık olduğuna emin olmalısınız.
+Terminolojiye bağlı olarak, sistem, yapılandırmaya benzersiz olmayan bir ürün numarası atama denemesinde bulunabilir. Bu durumda, sistem yapılandırma boyutu için ürün çeşidi numarası yerine numara serisi kullanır. Bu durumda, bir uyarı alırsınız. Bunu önlemek için, benzersizliği sağlamak adına terminolojiye yeterli öznitelikleri dahil etmelisiniz ve **Yeniden kullan** seçeneğinin bileşen için açık olduğuna emin olmalısınız.
 
 ### <a name="dimension-based-configurations"></a>Boyut tabanlı yapılandırmalar
 
@@ -191,8 +194,10 @@ Yapılandırma işlemi, sistemin terminolojiye göre bir yapılandırma değeri 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Ürün numarası terminolojisi önceden tanımlanmış ürün çeşitlerinde (görev Kılavuzu) oluşturma](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
+[Önceden tanımlanmış ürün çeşitleri için bir ürün numara terminolojisi oluşturma (Görev kılavuzu)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
 
-[Ürün numarası terminolojisi yapılandırılmış ürün çeşitlerinde (görev Kılavuzu) oluşturma](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
+[Önceden yapılandırılmış ürün çeşitleri için bir ürün numara terminolojisi oluşturma (Görev kılavuzu)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
+
+
 
 

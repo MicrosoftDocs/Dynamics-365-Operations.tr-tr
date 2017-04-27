@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consumption-depreciation"></a>Tüketim esasına göre amortisman
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, amortismanın Tüketim yöntemi hakkında genel bir bakış verilmektedir.
 
 Sabit kıymetler için bir amortisman profili ayarladıysanız ve **Amortisman profilleri** sayfasındaki **Yöntem** alanında **Tüketim** seçeneğini işaretlerseniz, sabit kıymetler kullanımlarına göre amortisman profili atanır. **Amortisman profilleri** sayfasında yüzdeleri ve aralıkları ayarlamak zorunda değilsiniz. Tüketim yöntemini kullanan bir amortisman profili oluşturduktan sonra yöntemi çeşitli şekillerde ayarlayabilirsiniz.
@@ -64,5 +67,7 @@ Aşağıdaki tüketim amortismanına yönelik faktör, 31 Ocak için oluşturulm
 -   Sabit kıymetin tahmini miktarı 2.000'dir.
 
 31 Ocak tarihindeki amortisman teklifi aşağıdaki gibidir: Tahmini miktarı x Yüzde × Birim amortisman 2,000 × ,10 × 1,5 = 300
+
+
 
 

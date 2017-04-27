@@ -1,6 +1,6 @@
 ---
 title: "Soru formları"
-description: "Bu konuda soru ve daha ayrıntılı bilgilere bağlantılar hakkında genel bilgiler sağlar. Bir anket çeşitli amaçlarla bilgi toplamak için kullanılan bir soru kümesidir. Soru formları tasarlayabilir, oluşturabilir, dağıtabilir, doldurabilir ve ardından sonuçları çözümleyebilirsiniz."
+description: "Bu konu, anketler hakkında genel bilgi ve daha ayrıntılı bilgiler için bağlantılar sağlar. Bir anket çeşitli amaçlarla bilgi toplamak için kullanılan bir soru kümesidir. Soru formları tasarlayabilir, oluşturabilir, dağıtabilir, doldurabilir ve ardından sonuçları çözümleyebilirsiniz."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="questionnaires"></a>Soru formları
 
-Bu konuda soru ve daha ayrıntılı bilgilere bağlantılar hakkında genel bilgiler sağlar. Bir anket çeşitli amaçlarla bilgi toplamak için kullanılan bir soru kümesidir. Soru formları tasarlayabilir, oluşturabilir, dağıtabilir, doldurabilir ve ardından sonuçları çözümleyebilirsiniz. 
+[!include[banner](includes/banner.md)]
 
-Bir soru formu Microsoft Dynamics 365 işlemleri için kullanılabilen çeşitli özelliklerini kullanarak, belirli gereksinimlerinize uyacak şekilde özelleştirebilirsiniz. Anketleri nasıl kullanabileceğinizin bazı örnekleri şunlardır:
+
+Bu konu, anketler hakkında genel bilgi ve daha ayrıntılı bilgiler için bağlantılar sağlar. Bir anket çeşitli amaçlarla bilgi toplamak için kullanılan bir soru kümesidir. Soru formları tasarlayabilir, oluşturabilir, dağıtabilir, doldurabilir ve ardından sonuçları çözümleyebilirsiniz. 
+
+Microsoft Dynamics 365 for Operations'da kullanılabilen çeşitli özellikleri kullanarak bir anketi belirli gereksinimlerinize uyacak şekilde özelleştirebilirsiniz. Anketleri nasıl kullanabileceğinizin bazı örnekleri şunlardır:
 
 -   Çalışanların ve başvuranların mesleki yeteneklerini sınama
 -   Kurs katılımcılarının kurs malzemesini öğrenip öğrenmediğini değerlendirin.
@@ -42,9 +45,9 @@ Aşağıdaki tablo çekirdek anket görevleri hakkındaki bilgilerin bağlantıl
 
 | Konu| Açıklama|
 |------|------------|
-| [Design a questionnaire](design-questionnaires.md)  | Bu makale bir anketin nasıl tasarlanacağı hakkında bilgi sağlar. Tasarım işlemi önkoşullar, yanıtlar ve sorular ayarlama ve ardından bunları bir ankette birleştirmeyi kapsar. |
-| [Distribute and complete a questionnaire](distribute-questionnaires.md)  | Bu makale bir anketin yanıtlayanlara nasıl dağıtılacağı ve anketlerin nasıl tamamlanacağı hakkında bilgi sağlar.                                                                       |
-| [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md) | Bu makale tamamlanmış anketlerin sonuçlarının nasıl görüntüleneceği ve değerlendirileceği hakkında bilgi sağlar.                                                                                        |
+| [Bir soru formu tasarlama](design-questionnaires.md)  | Bu makale bir anketin nasıl tasarlanacağı hakkında bilgi sağlar. Tasarım işlemi önkoşullar, yanıtlar ve sorular ayarlama ve ardından bunları bir ankette birleştirmeyi kapsar. |
+| [Bir anketi dağıtma ve tamamlama](distribute-questionnaires.md)  | Bu makale bir anketin yanıtlayanlara nasıl dağıtılacağı ve anketlerin nasıl tamamlanacağı hakkında bilgi sağlar.                                                                       |
+| [Bir anketin sonuçlarını görüntüleme ve değerlendirme](evaluate-questionnaire-results.md) | Bu makale tamamlanmış anketlerin sonuçlarının nasıl görüntüleneceği ve değerlendirileceği hakkında bilgi sağlar.                                                                                        |
 
 
 
@@ -55,6 +58,8 @@ Aşağıdaki tablo çekirdek anket görevleri hakkındaki bilgilerin bağlantıl
 
 [Soru formlarını dağıtma ve tamamlama](distribute-questionnaires.md)
 
-[Soru formlarının sonuçlarını değerlendirmek ve görüntüleme](evaluate-questionnaire-results.md)
+[Soru formlarının sonuçlarını görüntüleyin ve değerlendirin](evaluate-questionnaire-results.md)
+
+
 
 

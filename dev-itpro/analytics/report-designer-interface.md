@@ -49,7 +49,7 @@ Aşağıdaki tablolarda, finansal raporlar tasarlarken kullanabileceğiniz menü
 | Farklı Kaydet                           | Mevcut satır tanımını, sütun tanımını, raporlama ağacı tanımını veya rapor tanımını farklı bir adla kaydedin.                                                                            |
 | Özellikler                        | **Özellikler** iletişim kutusunu açın; burada bir raporun adını ve açıklamasını değiştirebilirsiniz.                                                                                                   |
 | Oluştur                          | Mevcut raporu oluşturun. Bu komut, bir rapor tanımında kullanılabilir.                                                                                                                 |
-| Raporu Görüntüle                       | Dynamics 365 işlemleri için oluşturulan rapor en son sürümünü açın. Bu komut en az bir rapor oluşturduğunuzda bir rapor tanımında kullanılabilir.                                 |
+| Raporu Görüntüle                       | Oluşturulan raporun en güncel sürümünü Dynamics 365 for Operations'da açın. Bu komut en az bir rapor oluşturduğunuzda bir rapor tanımında kullanılabilir.                                 |
 | Son Rapor Tanımları         | Kısa bir süre önce oluşturulmuş veya değiştirilmiş raporların bir listesini gösterir. Listeden bir rapor seçebilirsiniz.                                                                                    |
 | Son Satır Tanımları            | Kısa bir süre önce oluşturulmuş veya değiştirilmiş satır tanımlarının bir listesini gösterir. Listeden bir satır tanımı seçebilirsiniz.                                                                    |
 | Son Sütun Tanımları         | Kısa bir süre önce oluşturulmuş veya değiştirilmiş sütun tanımlarının bir listesini gösterir. Listeden bir sütun tanımı seçebilirsiniz.                                                              |
@@ -80,7 +80,7 @@ Aşağıdaki tablolarda, finansal raporlar tasarlarken kullanabileceğiniz menü
 | Sütun Ekle                          | Sütun tanımına boş bir sütun ekleyin. Bu komut bir sütun tanımında kullanılabilir.                                                                                                             |
 | Sütun Sil                          | Sütun tanımından seçilen sütunu silin. Bu komut bir sütun tanımında kullanılabilir.                                                                                                         |
 | Boyutlardan Raporlama Birimleri Ekle | **Boyutlardan Raporlama Birimleri Ekle** iletişim kutusunu açın; burada raporlama ağacı tanımına dahil edilecek boyut değerlerini seçebileceğiniz. Bu komut, bir raporlama ağacı tanımında kullanılabilir. |
-| Boyut Kümesi Hiyerarşisini İçe Aktar         | **Boyut Kümesi Hiyerarşisi** iletişim kutusunu açın; burada mali verilerden bir boyut kümesi hiyerarşisini içe aktarabilirsiniz. Bu komut için raporlama ağaç tanımından kullanılabilir bir... \financial-dimensions\dimension-based sistemi.  |
+| Boyut Kümesi Hiyerarşisini İçe Aktar         | **Boyut Kümesi Hiyerarşisi** iletişim kutusunu açın; burada mali verilerden bir boyut kümesi hiyerarşisini içe aktarabilirsiniz. Bu komut, ..\mali-boyutlar\boyuta bağlı bir sistem için bir raporlama ağacı tanımında kullanılabilir.  |
 | Raporlama Birimi Ekle                  | Raporlama ağacı tanımına bir boş satır ekleyin. Bu komut, bir raporlama ağacı tanımında kullanılabilir.                                                                                                |
 | Raporlama Birimini Sil                  | Seçilen raporlama birimi satırını raporlama ağacı tanımından silin. Bu komut, bir raporlama ağacı tanımında kullanılabilir.                                                                             |
 
@@ -159,7 +159,7 @@ Aşağıdaki tablolarda, finansal raporlar tasarlarken kullanabileceğiniz menü
 
 | Komut | Açıklama                                                  |
 |---------|--------------------------------------------------------------|
-| Yardım    | Dynamics 365 finansal raporlama işlemleri Yardım wiki sayfası açın. |
+| Yardım    | Finansal raporlama için Dynamics 365 for Operations yardım wiki sayfasını açın. |
 |         |                                                              |
 
 ## <a name="report-designer-toolbar-buttons"></a>Rapor Tasarımcısı araç çubuğu düğmeleri
@@ -171,21 +171,21 @@ Standart araç çubuğundan dosya ve düzenleme komutlarına hızlı şekilde er
 
 | Düğme                                                                                                                                                                                   | Açıklama                                                                                                                                                                            |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [![New button](./media/rowc130389.png)](./media/rowc130389.png)                              | Yeni bir (boş) rapor tanımı, satır tanımını, sütun tanımını veya raporlama ağacı tanımını oluşturun.                                                                               |
+| [![Yeni düğme](./media/rowc130389.png)](./media/rowc130389.png)                              | Yeni bir (boş) rapor tanımı, satır tanımını, sütun tanımını veya raporlama ağacı tanımını oluşturun.                                                                               |
 | [![Aç düğmesi](./media/openfolderc130389.png)](./media/openfolderc130389.png)               | Mevcut bir satır tanımını, sütun tanımını, raporlama ağacı tanımını veya rapor tanımını açın.                                                                                   |
 | [![Kaydet düğmesi](./media/savec130389.png)](./media/savec130389.png)                           | Mevcut satır tanımını, sütun tanımını, raporlama ağacı tanımını veya rapor tanımını kaydedin.                                                                                   |
-| [![Kopyala düğmesini](./media/copyc130389.png)](./media/copyc130389.png)                           | Seçilen metni panoya kopyalayın.                                                                                                                                               |
+| [![Kopyala düğmesi](./media/copyc130389.png)](./media/copyc130389.png)                           | Seçilen metni panoya kopyalayın.                                                                                                                                               |
 | [![Kes düğmesi](./media/cutc130389.png)](./media/cutc130389.png)                              | Seçilen metni silin ve panoya kopyalayın.                                                                                                                                |
 | [![Yapıştır düğmesi](./media/pastec130389.png)](./media/pastec130389.png)                        | Metni panodan ekleyin.                                                                                                                                                    |
 | [![Geri Al düğmesi](./media/undoc130389.png)](./media/undoc130389.png)                           | Son eylemi geri alın.                                                                                                                                                                  |
 | [![Yinele düğmesi](./media/redoc130389.png)](./media/redoc130389.png)                           | Son eylemi yineleyin.                                                                                                                                                          |
 | [![Bul düğmesi](./media/findc130389.png)](./media/findc130389.png)                           | **Bul ve Değiştir** iletişim kutusunu açın; burada aktif penceredeki metni arayabilir ve değiştirebilirsiniz.                                                                                  |
-| [![Satır düğmesi Ekle](./media/insertrowc130389.png)](./media/insertrowc130389.png)           | Satır tanımına boş bir satır veya sütun tanımına boş bir üstbilgi satırı ekleyin. Bu düğme bir satır tanımında ya da bir sütun tanımında kullanılabilir.                    |
-| [![Sütun düğmesi ekleme](./media/insertcolumnc130389.png)](./media/insertcolumnc130389.png)  | Sütun tanımına boş bir sütun ekleyin. Bu düğme bir sütun tanımında kullanılabilir.                                                                                  |
-| [![Kilit düğmesi](./media/lockc130389.png)](./media/lockc130389.png)                           | Mevcut yapı taşına bir parola uygular. Bu düğme, **Tasarımcı** veya **Yönetici** görevine sahip kullanıcılar tarafından kullanılabilir.                                                 |
-| [![Satır bağlantı düğmesi](./media/rowlinkc130389.png)](./media/rowlinkc130389.png)                 | **Satır Bağlantıları** iletişim kutusunu açın; burada satır tanımlarındaki ve raporlama ağacı tanımlarındaki veri bağlantıları için kaynakları belirleyebilirsiniz. Bu düğme bir satır tanımında kullanılabilir. |
-| [![Yükselt düğmesini](./media/promotec130389.png)](./media/promotec130389.png)                  | Raporlama ağacı tanımındaki bir birimi yükseltir. Bir alt birim seçtikten sonra **Yükselt** düğmesini tıklarsanız alt birim, ana birimle aynı düzeye taşınır.                |
-| [![İndirge düğmesi](./media/demotec130389.png)](./media/demotec130389.png)                     | Raporlama ağacı tanımındaki bir birimi alçaltır. Bir birim seçtikten sonra **Alçalt** düğmesini tıklarsanız birim, takip eden birimin bir alt birimi haline gelir.                               |
+| [![Satır ekle düğmesi](./media/insertrowc130389.png)](./media/insertrowc130389.png)           | Satır tanımına boş bir satır veya sütun tanımına boş bir üstbilgi satırı ekleyin. Bu düğme bir satır tanımında ya da bir sütun tanımında kullanılabilir.                    |
+| [![Sütun ekle düğmesi](./media/insertcolumnc130389.png)](./media/insertcolumnc130389.png)  | Sütun tanımına boş bir sütun ekleyin. Bu düğme bir sütun tanımında kullanılabilir.                                                                                  |
+| [![Kilitle düğmesi](./media/lockc130389.png)](./media/lockc130389.png)                           | Mevcut yapı taşına bir parola uygular. Bu düğme, **Tasarımcı** veya **Yönetici** görevine sahip kullanıcılar tarafından kullanılabilir.                                                 |
+| [![Satır bağlantısı düğmesi](./media/rowlinkc130389.png)](./media/rowlinkc130389.png)                 | **Satır Bağlantıları** iletişim kutusunu açın; burada satır tanımlarındaki ve raporlama ağacı tanımlarındaki veri bağlantıları için kaynakları belirleyebilirsiniz. Bu düğme bir satır tanımında kullanılabilir. |
+| [![Yükselt düğmesi](./media/promotec130389.png)](./media/promotec130389.png)                  | Raporlama ağacı tanımındaki bir birimi yükseltir. Bir alt birim seçtikten sonra **Yükselt** düğmesini tıklarsanız alt birim, ana birimle aynı düzeye taşınır.                |
+| [![Alçalt düğmesi](./media/demotec130389.png)](./media/demotec130389.png)                     | Raporlama ağacı tanımındaki bir birimi alçaltır. Bir birim seçtikten sonra **Alçalt** düğmesini tıklarsanız birim, takip eden birimin bir alt birimi haline gelir.                               |
 | [![Genişlet düğmesi](./media/expandtreebuttonc130389.png)](./media/expandtreebuttonc130389.png) | Raporlama ağacı tanımının seçilen birim düzeyindeki tüm birimlerini genişletir.                                                                                                   |
 | [![Daralt düğmesi](./media/collapsec130389.png)](./media/collapsec130389.png)               | Raporlama ağacını daraltır.                                                                                                                                                           |
 | [![Yardım düğmesi](./media/helpc130389.png)](./media/helpc130389.png)                           | Yardım'ı açın.                                                                                                                                                                             |
@@ -196,16 +196,16 @@ Biçimlendirme araç çubuğu, stil komutlarına kolay erişim sağlar. Bu araç
 
 | Düğme                                                                                                                                                                                                   | Açıklama                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [![Yazı tipi stili düğmesini](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Mevcut metne seçilen yazı tipi stilini uygular.      |
+| [![Yazı tipi stili düğmesi](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Mevcut metne seçilen yazı tipi stilini uygular.      |
 | [![Yazı tipi düğmesi](./media/fonttype.png)](./media/fonttype.png)                                                 | Mevcut metni seçilen yazı tipine ayarlar.              |
 | [![Yazı tipi boyutu düğmesi](./media/fontsize.png)](./media/fontsize.png)                                            | Mevcut metni seçilen yazı tipi boyutuna (punto cinsinden) ayarlar. |
 | [![Kalın düğmesi](./media/boldc130389.png)](./media/boldc130389.png)                                           | Mevcut metni kalın yapar.                             |
 | [![İtalik düğmesi](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Mevcut metni italik yapar.                           |
-| [![Altı çizili düğmesini](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Mevcut metni altı çizili hale getirir.                             |
-| [![Girintiyi Azalt düğmesi](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Mevcut metnin girintisini azaltır.                |
-| [![Girintiyi Artır düğmesi](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Mevcut metnin girintisini artırır.                |
-| [![Arka plan rengi düğmesinin](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Mevcut hücrenin arkaplan rengini değiştirir.        |
-| [![Yazı tipi rengi düğmesinin](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Mevcut metnin rengini değiştirir.                   |
+| [![Alt çizgi düğmesi](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Mevcut metni altı çizili hale getirir.                             |
+| [![Girintiyi azalt düğmesi](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Mevcut metnin girintisini azaltır.                |
+| [![Girintiyi artır düğmesi](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Mevcut metnin girintisini artırır.                |
+| [![Arkaplan rengi düğmesi](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Mevcut hücrenin arkaplan rengini değiştirir.        |
+| [![Yazı tipi rengi düğmesi](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Mevcut metnin rengini değiştirir.                   |
 
 ### <a name="report-designer-toolbar"></a>Rapor tasarımcısı araç çubuğu
 
@@ -214,11 +214,11 @@ Rapor tasarımcısı araç çubuğu, rapor tasarımcısı içinde gezinmek için
 | Düğme                                                                                                                                                                                          | Açıklama                                                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [![Rapor tanımı düğmesi](./media/reportc130389.png)](./media/reportc130389.png)                 | **Pencere** menüsünde listelenen rapor tanımını gösterir.                                                                                                            |
-| [![Satır tanım düğmesi](./media/rowc130389.png)](./media/rowc130389.png)                          | Aktif rapor tanımına atanan satır tanımını gösterir.                                                                                                    |
+| [![Satır tanımını düğmesi](./media/rowc130389.png)](./media/rowc130389.png)                          | Aktif rapor tanımına atanan satır tanımını gösterir.                                                                                                    |
 | [![Sütun tanımı düğmesi](./media/columnc130389.png)](./media/columnc130389.png)                 | Aktif rapor tanımına atanan sütun tanımını gösterir.                                                                                                 |
-| [![Raporlama ağaç tanım düğmesi](./media/treec130389.png)](./media/treec130389.png)             | Aktif rapor tanımına atanan raporlama ağacı tanımını gösterir.                                                                                         |
+| [![Raporlama ağacı tanımı düğmesi](./media/treec130389.png)](./media/treec130389.png)             | Aktif rapor tanımına atanan raporlama ağacı tanımını gösterir.                                                                                         |
 | [![Rapor Görüntüleyicisi düğmesi](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Rapor Görüntüleyicisini başlatır ve oluşturulan raporun en güncel sürümünü gösterir. Bu düğme en az bir rapor oluşturduğunuzda bir rapor tanımında kullanılabilir. |
-| [![Raporu düğmesi oluşturma](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Aktif rapor tanımından bir rapor oluşturur. Bu düğme bir rapor tanımında kullanılabilir.                                                                      |
+| [![Rapor oluştur düğmesi](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Aktif rapor tanımından bir rapor oluşturur. Bu düğme bir rapor tanımında kullanılabilir.                                                                      |
 
 
 
@@ -227,6 +227,6 @@ Rapor tasarımcısı araç çubuğu, rapor tasarımcısı içinde gezinmek için
 
 [Microsoft Dynamics ERP için finansal raporlama](financial-reporting-intro.md)
 
-[Generate a financial report](\financials\general-ledger\generate-financial-report.md)
+[Bir mali rapor oluşturma](\financials\general-ledger\generate-financial-report.md)
 
 

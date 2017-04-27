@@ -27,13 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-tag-counting"></a>Stok etiket sayımı
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, ambardaki mevcut içeriği eldeki stokla karşılaştırmak için kullanabileceğiniz etiket sayımı hakkında bilgiler verilmektedir. 
 
-Üzerinde çizgiler oluşturarak **etiket sayımı** sayfa, 500 ile 1 arasında bir sayı gibi her stok öğesi etiket numarasını yerleştirin. Sayım sırasında karşılık gelen bir etiket üzerinde madde numarası ve miktarı girin. Bunun üzerine, bu etiket, etiket sayım günlüğü girişi için temel olarak kullanılabilir. Siz etiket sayımı günlüğünü naklettikten sonra, **Sayım** sayfasında yeni bir sayım günlüğü oluşturulur. Yeni günlük, oluşturduğunuz etiket sayım günlüğü satırlarını temel alır. Maddeleri belirli bir stok boyutuna göre etiket sayımına tabi tutmak için, etiket sayım günlüğünü oluşturduğunuz zaman görüntülenen **Boyutu görüntüle** sayfasında boyutu seçin. Örneğin, belirli bir ambardaki maddeleri saymak için **Ambar** onay kutusunu işaretleyin. **Stok ve ambar yönetim parametreleri** sayfasındaki **Sayım sırasında madde kilitlemesi** sürgüsü seçilirse, sayım sırasında maddeler fiziksel olarak güncelleştirilemez. Ancak, etiket sayım günlüklerindeki maddeler etiket sayımı sırasında kilitlenmez. Etiket sayım satırları deftere nakil sırasında sayım günlüğüne aktarılana kadar stok hareketleri oluşturulmaz. Etiketler rastgele girilirse ve eksik etiketleri belirlemek isterseniz, satırları etikete göre sıralamak için **Etiket** sütun başlığına tıklayın.
+**Etiket sayımı** sayfasında satırlar oluşturarak, her bir stok maddesine bir etiket numarası verirsiniz, örneğin 1-500 arasında. Sayım sırasında, karşılık gelen bir etikette madde numarasını ve miktarı girersiniz. Bunun üzerine, bu etiket, etiket sayım günlüğü girişi için temel olarak kullanılabilir. Siz etiket sayımı günlüğünü naklettikten sonra, **Sayım** sayfasında yeni bir sayım günlüğü oluşturulur. Yeni günlük, oluşturduğunuz etiket sayım günlüğü satırlarını temel alır. Maddeleri belirli bir stok boyutuna göre etiket sayımına tabi tutmak için, etiket sayım günlüğünü oluşturduğunuz zaman görüntülenen **Boyutu görüntüle** sayfasında boyutu seçin. Örneğin, belirli bir ambardaki maddeleri saymak için **Ambar** onay kutusunu işaretleyin. **Stok ve ambar yönetim parametreleri** sayfasındaki **Sayım sırasında madde kilitlemesi** sürgüsü seçilirse, sayım sırasında maddeler fiziksel olarak güncelleştirilemez. Ancak, etiket sayım günlüklerindeki maddeler etiket sayımı sırasında kilitlenmez. Etiket sayım satırları deftere nakil sırasında sayım günlüğüne aktarılana kadar stok hareketleri oluşturulmaz. Etiketler rastgele girilirse ve eksik etiketleri belirlemek isterseniz, satırları etikete göre sıralamak için **Etiket** sütun başlığına tıklayın.
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Cycle counting](../warehousing/cycle-counting.md)
+[Döngü sayımı](../warehousing/cycle-counting.md)
+
+
 
 

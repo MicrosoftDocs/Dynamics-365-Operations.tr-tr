@@ -1,5 +1,5 @@
 ---
-title: "Malzeme Tüketimi Hesapla"
+title: "Malzeme tüketimini hesapla"
 description: "Bu makalede, malzeme tüketiminin hesaplanmasına ilişkin çeşitli seçenekler hakkında bilgiler sağlanmaktadır."
 author: YuyuScheller
 manager: AnnBe
@@ -27,22 +27,25 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="calculate-material-consumption"></a>Malzeme Tüketimi Hesapla
+# <a name="calculate-material-consumption"></a>Malzeme tüketimini hesapla
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, malzeme tüketiminin hesaplanmasına ilişkin çeşitli seçenekler hakkında bilgiler sağlanmaktadır. 
 
 Malzeme tüketiminin hesaplanmasına ilişkin aşağıdaki seçenekler **Ürün reçetesi** sayfasının **Satır ayrıntıları** hızlı sekmesinde bulunan **Ayar** ve **Adım tüketimi** sekmelerinde bulunur.
 
 ## <a name="variable-and-constant-consumption"></a>Değişken ve sabit tüketim
-İçinde **tüketim** alan, sabit bir miktar veya değişken bir miktar olarak Tüketimin hesaplanması gerekip gerekmediğini seçebilirsiniz. Seçin **sabit** sabit bir miktar veya birim üretim için gerekli ise, miktarı ne olursa olsun, üretileceğini. Varsayılan ayar olan **Değişken** seçeneğini, mamul ürünler için gereken malzeme tutarı üretilen mamul ürün sayısına orantılı olduğunda seçin.
+**Tüketim** alanında, tüketimin bir sabit miktar mı yoksa değişken miktar olarak mı hesaplanacağını seçebilirsiniz. Üretim için sabit miktar veya hacim gerekiyorsa **Sabit**'i seçin, üretilen miktardan bağımsız olarak. Varsayılan ayar olan **Değişken** seçeneğini, mamul ürünler için gereken malzeme tutarı üretilen mamul ürün sayısına orantılı olduğunda seçin.
 
 ## <a name="calculating-consumption-from-a-formula"></a>Tüketimi bir formülden hesaplama
 **Formül** alanında, malzeme tüketimini hesaplamak için çeşitli formüller ayarlayabilirsiniz. Varsayılan değeri olan **Standart**'ı kullanırsanız, tüketim bir formülle hesaplanmaz. Aşağıdaki formüller **Yükseklik**, **Genişlik**, **Derinlik**, **Yoğunluk** ve **Sabit** alanlarıyla birlikte çalışır:
 
--   Yükseklik \*sabit
--   Yükseklik \*genişliği \*sabit
--   Yükseklik \*genişliği \*derinlik \*sabit
--   (Yükseklik \*genişliği \*derinlik / yoğunluk) \*Sabit
+-   Yükseklik \* Sabit
+-   Yükseklik \* Genişlik \* Sabit
+-   Yükseklik \* Genişlik \* Derinlik \* Sabit
+-   (Yükseklik \* Genişlik \* Derinlik / Yoğunluk) \* Sabit
 
 ## <a name="rounding-up-and-multiples"></a>Yuvarlama ve katları
 **Yuvarlama** ve **Katları** alanları birlikte kullanıldığında, malzeme tüketim değerini yuvarlamanıza olanak tanır. Örneğin, değeri hammaddenin üretim için çekildiği işleme birimine göre yuvarlayabilirsiniz. **Yuvarlama** alanında şu seçenekler kullanılabilir: **Miktar**, **Ölçüm** ve **Tüketim**.
@@ -53,7 +56,7 @@ Yuvarlama mekanizması olarak **Miktar** seçerseniz, miktarın belirtilen mikta
 
 ### <a name="measurement"></a>Ölçüm
 
-Genellikle, hammaddenin belirli boyutlarda gelmesi durumunda yuvarlama mekanizması olarak **Ölçüm** seçilir. Örneğin, bir mamul ürün için 2 metre uzunluğunda metal boru parçası gereklidir ve metal boru 4,5 metre uzunluğunda depolanmıştır. Bu durumda, mamul üründen belirli sayıda üretmek için ne kadar metal boru gerektiğini hesaplamak için **Ölçüm** yuvarlama mekanizması kullanılabilir. Bu örnek için **formül** ayarlanırsa **yüksekliği \*sabit**. **Yüksekliği** ayarlanırsa **2** tamamlanmış mal için gerekli olan tüp uzunluğunu belirtmek için. Borunun 4,5 metre uzunluğunda alındığını belirtmek için **Katı** alanı **4,5** olarak ayarlanır. Hesaplama aşağıdaki gibidir:
+Genellikle, hammaddenin belirli boyutlarda gelmesi durumunda yuvarlama mekanizması olarak **Ölçüm** seçilir. Örneğin, bir mamul ürün için 2 metre uzunluğunda metal boru parçası gereklidir ve metal boru 4,5 metre uzunluğunda depolanmıştır. Bu durumda, mamul üründen belirli sayıda üretmek için ne kadar metal boru gerektiğini hesaplamak için **Ölçüm** yuvarlama mekanizması kullanılabilir. Bu örnek için **Formül** alanı **Yükseklik \* Sabit** olarak ayarlanır. **Yükseklik** alanı, tamamlanmış mal için gerekli olan borunun boru uzunluğunu belirtmek için **2** olarak ayarlanmıştır. Borunun 4,5 metre uzunluğunda alındığını belirtmek için **Katı** alanı **4,5** olarak ayarlanır. Hesaplama aşağıdaki gibidir:
 
 1.  10 adet mamul için gereken katları sayısı: 10 ÷ 2 = 5 parça
 2.  Toplam tüketim: 4,5 × 5 = 22,5 metre metal boru
@@ -78,5 +81,7 @@ Adım tüketimi, miktar aralıklarındaki sabit tüketimi hesaplamak için kulla
 | 200,00      | 40,0000  |
 
 Ürün reçetesi (BOM) miktarı 1 ve üretim miktarı 110'dur. Tüketim formülü Başlangıç serisi (Miktar) = Tüketim'dir. Ürün miktarı 110 olduğundan, "100 seriden başlayarak" ayarına düşer. Bu nedenle miktar 20'dir.
+
+
 
 

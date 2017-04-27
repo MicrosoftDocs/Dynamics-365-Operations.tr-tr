@@ -1,5 +1,5 @@
 ---
-title: "İş akışı içinde bir onay işlemi yapılandırma"
+title: "Bir onay işlemini bir iş akışında yapılandır"
 description: "Onay işleminin özelliklerini yapılandırmak için aşağıdaki yordamı kullanın."
 author: sericks007
 manager: AnnBe
@@ -24,11 +24,11 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-approval-process-in-a-workflow"></a>İş akışı içinde bir onay işlemi yapılandırma
+# <a name="configure-an-approval-process-in-a-workflow"></a>Bir onay işlemini bir iş akışında yapılandır
 
 Onay işleminin özelliklerini yapılandırmak için aşağıdaki yordamı kullanın.
 
-İş akışı düzenleyicisinde bir onay işlemini yapılandırmak için onay öğeye sağ tıklayın ve sonra **Özellikler** açmak için **Özellikler** formu.
+Onay işlemini yapılandırmak için iş akışı düzenleyicisinde, onay öğesine sağ tıklayın ve ardından **Özellikler** formunu açmak için **Özellikler**'e tıklayın.
 Onay işlemini adlandırma
 -------------------------
 
@@ -40,14 +40,14 @@ Onay işlemi için bir ad girmek üzere aşağıdaki adımları izleyin.
 Sistemi belirli koşullar karşılandığında belge üstünde otomatik olarak işlem yapacak şekilde yapılandırabilirsiniz. Örneğin, sistem toplam tutarı 100 ABD Dolarından az olan gider raporlarını onaylayabilir. Sistemin belge üzerinde eylem alması gereken zamanı belirtmek için aşağıdaki adımları izleyin.
 1.  Sol bölmede **Otomatik eylemler**'a tıklayın.
 2.  **Otomatik eylemleri etkinleştir** onay kutusunu işaretleyin.
-3.  Click **Add condition**.
+3.  **Koşul ekle** seçeneğini tıklatın.
 4.  Koşulu girin.
 5.  Gerekirse başka koşullar da girin.
 6.  Girdiğiniz koşulların doğru biçimde yapılandırıldığını doğrulamak için aşağıdaki adımları tamamlayın:
     1.  **Sınama iş akışı koşulu** formunu açmak için **Sına**'ya tıklayın.
     2.  Formdaki **Koşulu doğrula** alanından bir kayıt seçin.
     3.  **Sına**'ya tıklayın. Sistem, belirtmiş olduğunuz koşullarını yerine getirip getirmediğini belirlemek için kaydı değerlendirir.
-    4.  ' I **Tamam** veya **iptal** dönmek için **Özellikler** formu.
+    4.  **Özellikler** formuna geri dönmek için **Tamam** veya **İptal**'e tıklayın.
 
 7.  **Eylemi otomatik tamamla** listesinden sistemin belge üzerinde gerçekleştirmesi gereken eylemi seçin.
 
@@ -55,11 +55,11 @@ Sistemi belirli koşullar karşılandığında belge üstünde otomatik olarak i
 Bir belge onaylandığında, reddedildiğinde, temsilci atandığında, ilerletildiğinde veya bir değişiklik istendiğinde kişilere bildirim gönderebilirsiniz. Bildirimlerin ne zaman ve kime gönderileceğini belirlemek için aşağıdaki adımları izleyin.
 1.  Sol bölmede **Bildirimler**'e tıklayın.
 2.  Bildirim gönderilecek etkinliklerin yanındaki onay kutusunu seçin:
-    -   **Temsilci** – bir belgeyi onay için başka bir kullanıcıya atandığında.
-    -   **İlerlet** – zaman atanan kullanıcı bir belge üzerinde ayrılan sürede hedefler değil.
-    -   **Onaylama** – bir belge onaylandığında.
-    -   **Reddetme** – bir belge reddedildiğinde.
-    -   **Değişiklik iste** – gönderilen bir belgede atanan kullanıcının istediği zaman.
+    -   **Temsilci Seç** – Belge onay için başka kullanıcıya atandığında.
+    -   **İlerlet** – Atanmış kullanıcı ayrılan sürede belge üzerinde eylem gerçekleştirmediğinde.
+    -   **Onayla** – Belge onaylandığında.
+    -   **Reddet** – Belge reddedildiğinde.
+    -   **Değişiklik iste** – Atanmış kullanıcı gönderilmiş olan belgede bir değişiklik talep ettiğinde.
 
 3.  2. adımda seçtiğiniz bir olay için bir satır seçin.
 4.  **Bildirim metni** sekmesine tıklayın.
@@ -70,8 +70,8 @@ Bir belge onaylandığında, reddedildiğinde, temsilci atandığında, ilerleti
     3.  Görüntülenen listede, eklenecek yer tutucuyu seçin.
     4.  **Ekle**'ye tıklayın.
 
-7.  Bildirimin Çeviriler eklemek için tıklatın **çevirileri**. Görüntülenen formda, aşağıdaki adımları izleyin:
-    1.  Click **Add**.
+7.  Bildirimin çevirilerini eklemek için **Çeviriler**'e tıklayın. Görüntülenen formda, aşağıdaki adımları izleyin:
+    1.  **Ekle** seçeneğini tıklatın.
     2.  Görüntülenen listede, metni gireceğiniz dili seçin.
     3.  **Çevrilmiş metin** metin kutusuna metni girin.
     4.  Metni kişiselleştirmek için yer tutucular ekleyin.
@@ -112,11 +112,11 @@ Bir belge onaylandığında, reddedildiğinde, temsilci atandığında, ilerleti
     </ol></td>
     </tr>
     <tr class="odd">
-    <td><strong>User</strong></td>
-    <td>İşlemleri kullanıcılar için belirli Microsoft Dynamics 365</td>
+    <td><strong>Kullanıcı</strong></td>
+    <td>Belirli Microsoft Dynamics 365 for Operations kullanıcıları</td>
     <td><ol>
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
-    <li><strong>Kullanılabilir kullanıcılar</strong>: tüm Microsoft Dynamics 365 işlemlerini kullanıcılar için liste içerir. Bildirimlerin gönderileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar:</strong> listesine taşıyın.</li>
+    <li><strong>Mevcut kullanıcılar</strong>: listesi mevcut tüm Microsoft Dynamics 365 for Operations kullanıcılarını içerir. Bildirimlerin gönderileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar:</strong> listesine taşıyın.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -150,10 +150,10 @@ Onay işleminin belirli bir süre içerisinde tamamlanması gerekiyorsa bu adım
 ## <a name="specify-which-actions-are-available-to-the-user"></a>Hangi eylemlerin kullanıcı tarafından kullanılabilir olacağını belirtin
 Bu belge onay için bir kullanıcıya atandığında kullanıcı belge üstünde işlem yapmalıdır. Kullanıcının gönderilmiş olan belge üzerinde hangi eylemleri yapabileceğini belirtmek için bu adımları izler.
 1.  Sol bölmede **Gelişmiş ayarlar**'a tıklayın.
-2.  Seçin **Onayla** kullanıcı belgeyi onaylamak için kullanabileceğiniz onay kutusunu.
-3.  Seçin **reddetme** onay kutusunu kullanıcı belgeyi geri çevir.
-4.  Seçin **değişikliği isteği** onay kutusu kullanıcının belgede yapılan değişiklikleri isteyebilir.
-5.  Seçin **temsilci** kullanıcı belgeyi onay için başka bir kullanıcıya atayabilirsiniz onay kutusunu.
+2.  Kullanıcı belgeyi onaylayabiliyorsa **Onayla** onay kutusunu seçin.
+3.  Kullanıcı belgeyi reddedebiliyorsa **Reddet** onay kutusunu seçin.
+4.  Kullanıcıların belgelerde değişiklik talep edebilmesi için **Değişiklik iste** onay kutusunu seçin.
+5.  Kullanıcı belgeyi başka bir kullanıcıya atayabilecekse **Temsilci Seç** onay kutusunu işaretleyin.
 
 **Not**: **Kurumsal Portal içindeki iş listesinden eylemleri etkinleştir ** onay kutusu kullanımdan kaldırılmıştır.
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="ledger-allocation-rules"></a>Genel muhasebe tahsisat kuralları
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede genel muhasebe atama kuralları hakkında bilgiler sağlanmıştır. Bu atama kurallarının çeşitli bileşenleri ve bunlar için kullanılabilecek atama yöntemleri açıklanmıştır.
 
 Genel muhasebe tahsisat kuralları, otomatik olarak hesaplama yapmak ve sabit tutarların veya genel muhasebe bakiyelerinin tahsisatı için tahsisat günlükleri ve hesap girişleri oluşturmak için kullanılır. Tahsisat yöntemleri, değişken veya sabit olabilir. Aşağıdaki tahsisat yöntemleri genel muhasebe tahsisat kuralları için kullanılabilir:
@@ -42,10 +45,12 @@ Bir tahsisat kuralının tahsisat yöntemi olarak Temel kullanılırsa, başka b
 Her tahsisat kuralının dört bileşenini vardır: Genel, kaynak, hedef ve mahsup. Tahsisat yöntemi olarak Temel kullanılıyorsa, ek bir bileşen ve genel muhasebe tahsisat kuralları gereklidir. Her bir bileşen tahsisatları işleme almak için gerekli bilgilerin önemli bir kısmını sağlar.
 
 -   **Genel** – Bu bileşen; tahsisat yöntemi, şirketlerarası kural ayarı ve kuralın etkin olup olmadığı gibi seçenekleri belirlediği yerdir.
--   **Kaynak** – Bu bileşen; kullanıcının tahsisat için veri kaynaklarını belirlediği yerdir. Ayırma üzerinde genel muhasebe bakiyeleri temel alabilir (**veri kaynağı** = **defter**) veya sabit tutarlar (**veri kaynağı** = **sabit değer**). **Veri kaynağı**, **Genel muhasebe** olarak ayarlandığında, kaynak filtresi ölçütünün genel muhasebe kuralı için (örneğin reklam giderleri için) tanımlanması gerekir.
+-   **Kaynak** – Bu bileşen; kullanıcının tahsisat için veri kaynaklarını belirlediği yerdir. Tahsisat, genel muhasebeye (**Veri kaynağı** =  **Genel muhasebe**) veya sabit tutarlara (**Veri kaynağı** =  **Sabit değer**) dayalı olabilir. **Veri kaynağı**, **Genel muhasebe** olarak ayarlandığında, kaynak filtresi ölçütünün genel muhasebe kuralı için (örneğin reklam giderleri için) tanımlanması gerekir.
 -   **Hedef** – Bu bileşen, tahsisat sonucunun nasıl dağıtılacağını ve hesaplanacağını tanımlar. Örneğin, her departman için bir hedef satır olabilir.
 -   **Mahsup** – Bu bileşen, ana hesapların ve boyutların bakiye hedef girişleri için nasıl belirlenmesi gerektiğini tanımlar. Kullanıcı tanımlı seçenekler genellikle kaynağa dayalı hesapların ve boyutların yerine kullanılır. **Veri kaynağı** **Sabit değer** olarak ayarlandığında, **Kaynak** bir seçenek olarak kullanılamaz.
 -   **Temel genel muhasebe kuralları** – Bu kurallar, tahsisat için hangi genel muhasebe bakiyesinin (örneğin, departman başına gelir) kullanılması gerektiğini belirlemek için kullanılır. Her bir genel tahsisat kuralı birden çok tahsisat kuralıyla birlikte kullanılabilir.
+
+
 
 
 

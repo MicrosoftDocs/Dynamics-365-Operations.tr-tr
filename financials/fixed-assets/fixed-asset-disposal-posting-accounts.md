@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-disposal-posting-accounts"></a>Sabit kıymet elden çıkarma deftere nakil hesapları
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, genel muhasebe deftere nakil hesaplarının kıymetlerin elden çıkarılmasına yönelik nasıl ayarlanacağı açıklanmaktadır.
 
 Sabit kıymet deftere nakil profilleri sayfasında, Genel muhasebe hesapları FastTab'de, Elden çıkarma - satış ve Elden çıkarma - ıskarta seçeneklerini belirleyerek genel muhasebeye nakilleri ayarlayın.
@@ -37,6 +40,8 @@ Her iki hareket tipi için de, sabit kıymetin elden çıkarma değeri için gen
 Elden çıkarma seçeneğine, ardından Satış veya Iskarta seçeneğine tıklayın, sonra da sabit kıymetin net defter değerini tersine çevirmek için ayrıntılı hesaplar ayarlayın. Ayrıca Elden çıkarma parametreleri sayfasındaki Nakledilecek değer ve Satış değeri alanlarına bilgi de girebilirsiniz. 
 
 Düşük değer havuzundaki bir kıymete ilişkin elden çıkarma hareketi, düşük değer havuzunun net defter değerini yalnızca elden çıkarılan tutar kadar düşürür. Ancak, bir kıymetin satışı düşük değer havuzunun net defter değerini geçtiğinde, net defter değeri sıfıra düşer.
+
+
 
 
 

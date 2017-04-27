@@ -1,6 +1,6 @@
 ---
-title: "Finansal raporlar görünümü ve tasarım"
-description: "Bu makale Microsoft Dynamics 365 işlemleri için finansal raporlar oluşturma ve görüntüleme için açıklayan alıştırmaları sağlar. Finansal raporlama oluşur Dynamics 365 içinde bir görüntüleme deneyimi işlemleri ve tıklama için-bir kez finansal raporlar oluşturup biçimlendirebilir Rapor Tasarımcısı."
+title: "Mali raporları görüntüleme ve tasarlama"
+description: "Bu makale, Microsoft Dynamics 365 for Operations için mali raporları görüntüleme ve oluşturma konusunda size yol gösteren alıştırmalar sağlar. Mali raporlama, Dynamics 365 for Operations içerisinde bulunan görüntüleme deneyimlerinden ve mali raporları oluşturmanızı ve düzenlemenizi sağlayan tek tıkla rapor tasarlayıcısından oluşur."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="view-and-design-financial-reports"></a>Finansal raporlar görünümü ve tasarım
+# <a name="view-and-design-financial-reports"></a>Mali raporları görüntüleme ve tasarlama
 
-Bu makale Microsoft Dynamics 365 işlemleri için finansal raporlar oluşturma ve görüntüleme için açıklayan alıştırmaları sağlar. Finansal raporlama oluşur Dynamics 365 içinde bir görüntüleme deneyimi işlemleri ve tıklama için-bir kez finansal raporlar oluşturup biçimlendirebilir Rapor Tasarımcısı.  
+[!include[banner](../includes/banner.md)]
+
+
+Bu makale, Microsoft Dynamics 365 for Operations için mali raporları görüntüleme ve oluşturma konusunda size yol gösteren alıştırmalar sağlar. Mali raporlama, Dynamics 365 for Operations içerisinde bulunan görüntüleme deneyimlerinden ve mali raporları oluşturmanızı ve düzenlemenizi sağlayan tek tıkla rapor tasarlayıcısından oluşur.  
 
 <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>Alıştırma 1: Bir varsayılan mali rapor oluşturma ve keşfetme
 -----------------------------------------------------------
@@ -45,7 +48,7 @@ Bu alıştırma için mevcut bir varsayılan raporu oluşturacak ve keşfedeceks
 3.  Boyut yapılandırmasını kaydedin. Ardından, bir rapor oluşturacağız ve rapordaki verileri inceleyeceğiz.
 4.  Genel muhasebede **Sorgular ve raporlar** altındaki **Mali raporlar** öğesine gelin.
 5.  **GM Ayrıntısı – Varsayılan** adlı rapor satırını seçin.
-6.  **Düzenle** öğesini seçin. Not: Size tıklatın yüklemek istenir-kez Rapor Tasarımcısı ve oturum açma. Oturum açma kimlik bilgilerinizi kullanın.
+6.  **Düzenle** öğesini seçin. Not: Tek tıklamayla rapor tasarımcısını indirmeniz ve oturum açmanız istenecektir. Oturum açmak için bilgilerinizi girin.
 7.  Taban yılı 2012 olarak değiştirin ve **Oluştur** öğesini seçin. Rapor tasarımcısından bir rapor oluşturulduğunda yeni bir tarayıcı sekmesinde açılır. Raporu yeni tarayıcı sekmesinde inceleyebilir veya orijinal tarayıcı sekmesine gidebilir ve raporu **Mali raporlar** listesinden seçerek burada açabilirsiniz.
 8.  Açılan raporda, raporun hesap bilgilerini ayrıntılı şekilde incelemek için tutarlardan birini seçin.
 9.  Hesap bilgilerine geldikten sonra verileri içeren bir hesap seçin **rapor hareket düzeyini** ayrıntılı şekilde inceleyin. Rapor hareket düzeyinde bu raporun tasarımına dahil edilen özellikleri (öznitelikleri) görebilirsiniz. Harekete ve hesaba bağlı olarak, özniteliklerden bazıları veya tümü görüntülenebilir.
@@ -55,7 +58,7 @@ Bu alıştırma için mevcut bir varsayılan raporu oluşturacak ve keşfedeceks
 13. **Rapor Seçenekleri** öğesini seçin.
 14. **Bir boyut filtresi ekle** öğesini ve **İş Birimi** öğesini seçin.
 15. Alana 001 yazın ve **Tamam** öğesini seçin. Raporda sadece 001 İş Birimi ile ilgili verileri görüntüler. Bu, raporun kişiselleştirilmiş bir görünümüdür ve başkalarının görüntülemesi için kullanılamaz.
-16. Filtrelenen raporu kapatın. Dynamics 365 işlemleri için eklenmiş olan para birimi cinsinden finansal raporlar görüntülenebilir.
+16. Filtrelenen raporu kapatın. Mali raporlar, Dynamics 365 for Operations'a eklenmiş olan herhangi bir para biriminde görüntülenebilir.
 17. **Para birimini** öğesini seçin ve ardından **EUR** seçimini yapın. Rapor şimdi Euro cinsinde görüntüler. Bu rapor tasarıma dahil edilen tüm para birimi kodları veya para birimi simgeleri artık uygulanan para biriminde görüntülenmeye başlar. Bir para birimi için para birimi simgesi tanımlanmamışsa para birimi simgesi görüntülenmez.
 18. **GL Ayrıntıları** raporunu kapatın.
 19. **Rapor Tasarımcısını** kapatın.
@@ -66,7 +69,7 @@ Bu alıştırmada mevcut bir varsayılan raporu değiştireceksiniz. Hem satır 
 1.  Genel muhasebede Sorgular ve raporlar altındaki **Mali raporlar** öğesine gelin.
 2.  **Özet Mizan – Varsayılan** adlı rapor satırını seçin.
 3.  **Düzenle** öğesini seçin. **Özet Mizan – Varsayılan**, rapor tasarımcısında açılacaktır.
-4.  **Dosya** ve ardından **Farklı Kaydet** seçimlerini yapın ve Rapor Öznitelikler İçeren Ayrıntılı Mizan adın verin. Not: her zaman yeni bir rapor Rapor Tasarımcısı'nda oluşturulan işlemleri için Dynamics 365 finansal raporlar listesi güncellenir.
+4.  **Dosya** ve ardından **Farklı Kaydet** seçimlerini yapın ve Rapor Öznitelikler İçeren Ayrıntılı Mizan adın verin. Not: Rapor tasarımcısında ne zaman yeni bir rapor oluşturulsa Dynamics 365 for Operations'ta mali raporlar listesi güncelleştirilir.
 5.  Rapor tanımından, **Mizan – Varsayılan satır tanımını** açmak için satır tanım simgesini seçin.
 6.  Satır tanımını **Özniteliklere Sahip Ayrıntılı Mizan** olarak farklı kaydedin
 7.  İmleç, satır 50'deyken **Düzenle** ve ardından **Boyutlardan Satır Ekle** seçimlerini yapın. Boyutlardan satır eklenmesi, satır tanımınıza hangi boyutların dahil edileceğini seçmenize izin verir.  Bu alıştırma için, Ana Hesabı kullanarak satır tanımı oluşturacağız.
@@ -96,7 +99,7 @@ Bu alıştırmada mevcut bir varsayılan raporu değiştireceksiniz. Hem satır 
 25. **Özniteliklere Sahip Ayrıntılı Mizan **raporunu kapatın.
 26. **Rapor Tasarımcısını** kapatın.
 
-## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Alıştırma 3: çok boyutlu raporlama ağaç kullanarak rapor oluşturma
+## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Alıştırma 3: Bir raporlama ağacı kullanarak bir çok boyutlu rapor oluşturma
 Bu alıştırma için mevcut bir varsayılan raporu değiştireceksiniz. Bir raporlama ağacı oluşturacak ve bir Maliyet Merkezi/Bölgesel Gelir Beyanı oluşturmak üzere bunu bir rapor tanımına ekleyeceksiniz. Güncelleştirmeler tamamlandıktan sonra Maliyet Merkezini/Bölgesel Gelir Beyanını oluşturacak ve raporlama ağacını kullanarak raporu inceleyeceksiniz. Mali raporlar listesinden başlayacağız.
 
 1.  Genel muhasebede Sorgular ve raporlar altındaki **Mali raporlar** öğesine gelin.
@@ -138,7 +141,7 @@ Bu alıştırma için mevcut bir varsayılan raporu değiştireceksiniz. Bir Kon
 1.  Genel muhasebede Sorgular ve raporlar altındaki **Mali raporlar** öğesine gelin.
 2.  **Bilanço ve Gelir Beyanı Yan Yana – Varsayılan** adlı rapor satırını seçin
 3.  **Düzenle** öğesini seçin. **Bilanço ve Gelir Beyanı Yan Yana – Varsayılan**, rapor tasarlayıcıda açılacaktır.
-4.  Seçin **dosya**&gt;**Kaydet** ve rapor adını **konsolide bilanço ve gelir tablosu yan yana**.
+4.  **Dosya** &gt; **Farklı Kaydet** seçimlerini yapın ve rapora **Konsolide Bilanço ve Gelir Beyannamesi Yan Yana** adını verin.
 5.  Taban yılını 2012 olarak değiştirin.
 6.  Ağaç türü açılır okunu tıklayın ve **Organizasyon Hiyerarşileri**seçimini yapın.
 7.  Ağaç açılır okunu tıklayın ve **Contoso Holdings**seçimini yapın.
@@ -151,7 +154,7 @@ Bu alıştırma için mevcut bir varsayılan raporu değiştireceksiniz. Bir Kon
 14. **Konsolide Bilanço ve Gelir Beyanı Yan Yana** öğesini kapatın.
 15. **Rapor Tasarımcısını** kapatın.
 
-## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Alıştırma 5: sidebyside bölüme özel rapor oluşturma
+## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Alıştırma 5: Yan yana bir departman raporu oluşturma
 Bu alıştırmada yeni bir rapor oluşturacaksınız. Bu rapor, yan yana bir departman gelir beyanıdır. Mevcut bir sıra tanımını kullanın, ancak farklı olarak, boyut filtrelerini kullanan yeni bir rapor tanımı ve yeni bir sütun tanımı oluşturun. Mali raporlar listesinden başlayacağız.
 
 1.  Genel muhasebede Sorgular ve raporlar altındaki **Mali raporlar** öğesine gelin.
@@ -179,8 +182,10 @@ Bu alıştırmada yeni bir rapor oluşturacaksınız. Bu rapor, yan yana bir dep
 18. Değişikliklerinizi **Kaydedin** ve **Oluştur** öğesini seçin. Raporun oluşturulması tamamlandıktan ve rapor açıldıktan sonra raporu inceleyebilirsiniz.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
-[Finansal raporlama](\financials\general-ledger\financial-reporting-getting-started.md)<ph id="t1">
-</ph>[finansal raporlar görüntülemek](\financials\general-ledger\view-financial-reports.md)<ph id="t2">
-</ph>[Dynamics finansal raporlama Blog](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Mali raporlama](\financials\general-ledger\financial-reporting-getting-started.md) 
+[Mali raporları görüntüle](\financials\general-ledger\view-financial-reports.md) 
+[Dynamics Mali Raporlama Blogu](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

@@ -54,9 +54,9 @@ Amortisman yılı olarak **Takvim** seçerseniz, **Dönem sıklığı** alanınd
 
 ### <a name="fiscal"></a>Mali
 
-**Amortisman yılı** alanında **Mali** seçeneğini belirlerseniz, %175 azalan bakiyeli amortisman defter için belirtilen mali takvim için veya **Genel muhasebe** sayfasında seçilen mali takvim için mali yıla dayalı olarak hesaplanır. Mali takvimler, **Mali Takvimler** sayfasında ayarlanır. Daha fazla bilgi için bkz: [Mali Takvimler, mali yılı ve dönemleri.](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md).
+**Amortisman yılı** alanında **Mali** seçeneğini belirlerseniz, %175 azalan bakiyeli amortisman defter için belirtilen mali takvim için veya **Genel muhasebe** sayfasında seçilen mali takvim için mali yıla dayalı olarak hesaplanır. Mali takvimler, **Mali Takvimler** sayfasında ayarlanır. Daha fazla bilgi için bkz. [Mali Takvimler, mali yıllar ve dönemler.](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md).
 
-Örneğin, 30 Haziran-1 Temmuz mali yıl için amortisman hesaplaması 1 Temmuz tarihinde başlar. Mali yıl 12 aydan daha uzun veya daha kısa olabilir. Amortisman, her mali dönem için otomatik olarak düzeltilir ve bir sonraki mali yılın uzunluğu, **Mali takvimler** sayfasındaki dönem ayarları tarafından belirlenir. 
+Örneğin, 1 Temmuz ile 30 Haziran arasındaki mali yıl için amortisman hesaplaması 1 Temmuz'da başlar. Mali yıl 12 aydan daha uzun veya daha kısa olabilir. Amortisman, her mali dönem için otomatik olarak düzeltilir ve bir sonraki mali yılın uzunluğu, **Mali takvimler** sayfasındaki dönem ayarları tarafından belirlenir. 
 
 Amortisman yılı olarak **Mali** seçerseniz, **Dönem sıklığı** alanında şu seçenekler kullanılabilir:
 
@@ -81,6 +81,6 @@ Amortisman yılı olarak **Mali** seçerseniz, **Dönem sıklığı** alanında 
 | 3. yıl | 4.225 × %35 = 1.478,75                        | 5.225 - 1.478,75 = 3.746,25 | 4.225 - 1.478,75 = 2.746,25           |
 
 > [!NOTE] 
-> Genellikle, duruma geldiğinde % 175 azalan bakiye amortisman yöntemi kullanılarak hesaplanan tutar düz çizgi yöntemini kullanarak bir düz çizgi yöntemi geri kalan ömürde dönüştürme yok hesaplanacaktı tutardan daha az.
+> Tipik olarak, %175 azalan bakiye amortismanı yöntemi kullanılarak hesaplanan tutar sabit amortisman yöntemi kullanılarak hesaplanacak yöntemden daha az olduğunda, kalan ömür için sabit amortisman yöntemine bir dönüş olur.
 
 

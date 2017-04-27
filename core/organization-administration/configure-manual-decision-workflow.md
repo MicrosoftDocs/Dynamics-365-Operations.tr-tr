@@ -1,5 +1,5 @@
 ---
-title: "El ile bir karar bir iş akışında yapılandırma"
+title: "Bir iş akışında bir el ile kararı yapılandırma"
 description: "Bu konu, el ile bir kararın özelliklerini yapılandırmayı açıklar."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-manual-decision-in-a-workflow"></a>El ile bir karar bir iş akışında yapılandırma
+# <a name="configure-a-manual-decision-in-a-workflow"></a>Bir iş akışında bir el ile kararı yapılandırma
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu konu, el ile bir kararın özelliklerini yapılandırmayı açıklar.
 
@@ -95,8 +98,8 @@ Bir karar alındığında, ilerletildiğinde veya yetkilendirildiğinde insanlar
 
 1.  Sol bölmede **Bildirimler**'i tıklatın.
 2.  Bildirimlerin gönderilmesi gerektiği etkinlikler için yanlarındaki onay kutusunu işaretleyin:
-    -   **\[Seçenek 1\]** – atanan kullanıcının seçtiği **\[seçim 1\]**.
-    -   **\[Seçenek 2\]** – atanan kullanıcının seçtiği **\[seçim 2\]**.
+    -   **\[Seçim 1\]** – Atanan kullanıcı **\[Seçim 1\]**'i işaretledi.
+    -   **\[Seçim 2\]** – Atanan kullanıcı **\[Seçim 2\]**'i işaretledi.
     -   **Temsilci** – Atanmış kullanıcı kararı başka bir kullanıcıya atadı.
     -   **İlerlet** – Atanmış kullanıcı, ayrılan sürede karar vermedi.
 
@@ -148,10 +151,10 @@ Bir karar alındığında, ilerletildiğinde veya yetkilendirildiğinde insanlar
     </tr>
     <tr class="odd">
     <td>Kullanıcı</td>
-    <td>İşlemleri kullanıcılar için belirli Microsoft Dynamics 365</td>
+    <td>Belirli Microsoft Dynamics 365 for Operations kullanıcıları</td>
     <td><ol>
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
-    <li><strong>Kullanılabilir kullanıcılar</strong> işlemleri kullanıcılar için tüm Dynamics 365 listesi içerir. Bildirimlerin gönderileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
+    <li><strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Dynamics 365 for Operations kullanıcılarını içerir. Bildirimlerin gönderileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -213,10 +216,10 @@ El ile kararın kime atanacağını belirtmek için şu adımları izleyin.
     </tr>
     <tr class="even">
     <td>Kullanıcı</td>
-    <td>İşlemleri kullanıcılar için belirli Dynamics 365</td>
+    <td>Belirli Dynamics 365 for Operations kullanıcıları</td>
     <td><ol>
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
-    <li><strong>Kullanılabilir kullanıcılar</strong> işlemleri kullanıcılar için tüm Dynamics 365 listesi içerir. Kararın atanacağı kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
+    <li><strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Dynamics 365 for Operations kullanıcılarını içerir. Kararın atanacağı kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -234,8 +237,8 @@ El ile kararın kime atanacağını belirtmek için şu adımları izleyin.
     <li><strong>Kuyruk türü</strong> listesinde, <strong>Koşullu iş öğesi kuyrukları</strong>'nı seçin.</li>
     <li><strong>Kuyruk adı</strong> listesinde, <strong>Koşullu kuyruk</strong>'u seçin.</li>
     </ol></li>
-    </ol><ph id="t1">
-    </ph><strong>Not:</strong> bu seçenek yalnızca birkaç iş akışları için servis talebi yönetimi gibi kullanılır.</td>
+    </ol>
+    <strong>Not:</strong> Bu seçenek yalnızca servis talebi yönetimi gibi bazı iş akışları için kullanılır.</td>
     </tr>
     </tbody>
     </table>
@@ -258,9 +261,9 @@ Eğer bir kullanıcı ayırılan zaman içerisinde kararı alamazsa, kararın va
     |----------|----------------------------|
     | 1        | Şu kişiye ata: Donna           |
     | 2        | Şu kişiye ata: Erin            |
-    | 3        | Son eylem: \[seçenek 1\] |
+    | 3        | Son eylem: \[Karar 1\] |
 
-    Bu örnekte sistem süresi geçen kararı Donna'ya atar. Eğer Donna ayırılan süre içerisinde kararı alamazsa, sistem kararı Erin'e atar. Erin ayrılan sürede karar çıkartmazsa sistem seçer **\[seçim 1\]** olarak karar.
+    Bu örnekte sistem süresi geçen kararı Donna'ya atar. Eğer Donna ayırılan süre içerisinde kararı alamazsa, sistem kararı Erin'e atar. Eğer Erin ayırılan süre içerisinde kararı alamazsa, sistem karar olarak **\[Karar 1\]**'i karar olarak seçer
 3.  Bir kullanıcıyı ilerletme yoluna eklemek için **İlerletme ekle**'yi tıklatın. Aşağıdaki tablodaki seçeneklerden birini seçin ve 4. adıma geçmeden önce ilgili seçeneğin ek adımlarını uygulayın.
     <table>
     <colgroup>
@@ -303,10 +306,10 @@ Eğer bir kullanıcı ayırılan zaman içerisinde kararı alamazsa, kararın va
     </tr>
     <tr class="odd">
     <td>Kullanıcı</td>
-    <td>İşlemleri kullanıcılar için belirli Dynamics 365</td>
+    <td>Belirli Dynamics 365 for Operations kullanıcıları</td>
     <td><ol>
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
-    <li><strong>Kullanılabilir kullanıcılar</strong> işlemleri kullanıcılar için tüm Dynamics 365 listesi içerir. Kararın ilerletileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
+    <li><strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Dynamics 365 for Operations kullanıcılarını içerir. Kararın ilerletileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -335,6 +338,8 @@ Kararın belirli bir süre içerisinde alınması gerekiyorsa bu adımları izle
     -   **Yıllar** – Kararın alınmış olması gereken günü, haftayı ve ayı seçin. Örneğin kararın Aralık ayının üçüncü haftasının Cuma gününden önce alınmış olmasını isteyebilirsiniz.
 
 4.  Zaman limiti aşılırsa sistem kararı kendi alır. **Eylem** listesinden sistemin tercih etmesi gereken seçeneği seçin.
+
+
 
 
 

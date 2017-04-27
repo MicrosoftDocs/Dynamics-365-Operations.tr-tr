@@ -1,5 +1,5 @@
 ---
-title: "Onay adımı akışında yapılandırma"
+title: "Bir onay adımını bir iş akışında yapılandır"
 description: "Bu konu, bir onay adımının özelliklerini yapılandırmayı açıklar."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-approval-step-in-a-workflow"></a>Onay adımı akışında yapılandırma
+# <a name="configure-an-approval-step-in-a-workflow"></a>Bir onay adımını bir iş akışında yapılandır
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu konu, bir onay adımının özelliklerini yapılandırmayı açıklar.
 
@@ -124,10 +127,10 @@ Onay adımının kime atanacağını belirtmek için şu adımları izleyin:
     </tr>
     <tr class="even">
     <td>Kullanıcı</td>
-    <td>İşlemleri kullanıcılar için belirli Microsoft Dynamics 365</td>
+    <td>Belirli Microsoft Dynamics 365 for Operations kullanıcıları</td>
     <td><ol>
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
-    <li><strong>Kullanılabilir kullanıcılar</strong> işlemleri kullanıcılar için tüm Dynamics 365 listesi içerir. Adımların atanacağı kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
+    <li><strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Dynamics 365 for Operations kullanıcılarını içerir. Adımların atanacağı kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -229,10 +232,10 @@ Eğer bir kullanıcı bu zaman içerisinde bir belge üzerinde eyleme geçmezse,
     </tr>
     <tr class="odd">
     <td>Kullanıcı</td>
-    <td>İşlemleri kullanıcılar için belirli Dynamics 365</td>
+    <td>Belirli Dynamics 365 for Operations kullanıcıları</td>
     <td><ol>
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
-    <li><strong>Kullanılabilir kullanıcılar</strong> işlemleri kullanıcılar için tüm Dynamics 365 listesi içerir. Belgenin ilerletileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
+    <li><strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Dynamics 365 for Operations kullanıcılarını içerir. Belgenin ilerletileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -247,6 +250,8 @@ Eğer bir kullanıcı bu zaman içerisinde bir belge üzerinde eyleme geçmezse,
 
 5.  İlerletme yoluna eklenecek tüm kullanıcılar için 3. adım ve 4. adımlar arasındaki süreci yineleyin. Kullanıcıların sıralamasını değiştirebilirsiniz.
 6.  İlerletme yolundaki kullanıcılar verilen süre içinde yanıt vermezlerse, sistem belge üstünde otomatik olarak eylem yapar. Sistemin alacağı eylemi belirtmek için **Eylem** satırını seçin ve sonra **Eylemi bitir** sekmesi üzerinde bir eylem seçin.
+
+
 
 
 

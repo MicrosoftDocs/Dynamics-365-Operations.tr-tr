@@ -1,5 +1,5 @@
 ---
-title: "Kanban transfer Panosu barkod tarayıcılar için destek"
+title: "Barkod tarayıcıları desteği için kanban transfer panosu"
 description: "Kanban transfer panosunu, bir kanban işini Seçmek, Başlatmak, Tamamlamak ve Boşaltmak için bir pencere öğesi barkod tarayıcısından tarayıcı girişini destekler."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Kanban transfer Panosu barkod tarayıcılar için destek
+# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Barkod tarayıcıları desteği için kanban transfer panosu
+
+[!include[banner](../includes/banner.md)]
+
 
 Kanban transfer panosunu, bir kanban işini Seçmek, Başlatmak, Tamamlamak ve Boşaltmak için bir pencere öğesi barkod tarayıcısından tarayıcı girişini destekler.
 
@@ -46,13 +49,13 @@ Kanban transfer panosunu, bir kanban işini Seçmek, Başlatmak, Tamamlamak ve B
 <a name="registration-mode-select"></a>Kayıt modu Seç
 ------------------------
 
-Bir işi kanban Tahta değişiklikleri görüntüleme modunu seçmek için bir çubuk kod okuyucusu kullandığınızda. Bu modda, aşağıdaki koşullar geçerlidir:
+İş seçmek için barkod okuyucuyu kullandığınızda, kanban panosunun görüntüleme modu değişir. Bu modda, aşağıdaki koşullar geçerlidir:
 
 -   Yalnızca taranan kanban işi görüntülenir.
 -   Seçilen işin ayrıntıları **Ayrıntılar** FastTab'inde görüntülenir.
 -   **İletiler** FastTab'i, yalnızca seçilen işin iletilerini görüntüler.
 -   İşin durumunu, Eylem Bölmesi'nde bulunan işlevleri kullanarak değiştirebilirsiniz. Kanban transfer panosu, bu süre boyunca yalnızca tek bir işi görüntülemeye devam eder.
--   Tıklatarak işlerinin listesindeki bilgileri el ile güncelleştirebilirsiniz **yenileme** (ÜSTKRKT + F5) eylem bölmesi. Bilgileri güncelledikten sonra, iş filtresi için tüm sonuçlar yeniden görüntülenir.
+-   İşler listesindeki bilgileri Eylem Bölmesi'ndeki **Yenile** (Shift+F5) seçeneğini tıklayarak el ile güncelleyebilirsiniz. Bilgileri güncelledikten sonra, iş filtresi için tüm sonuçlar yeniden görüntülenir.
 
 ## <a name="job-status-and-possible-actions"></a>İş durumu ve olası eylemler
 İşi daha fazla işleyip işleyemeyeceğinizi, seçilen işin durumu ve etkinlik kanban'ları için ilişkilendirilmiş işlerin durumu belirler. Aşağıdaki tabloda bu durum ve görevler hakkındaki bilgiler görüntülenmektedir:
@@ -185,6 +188,8 @@ Bir işi kanban Tahta değişiklikleri görüntüleme modunu seçmek için bir �
 </tr>
 </tbody>
 </table>
+
+
 
 
 

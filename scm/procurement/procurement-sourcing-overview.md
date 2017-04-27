@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-and-sourcing-overview"></a>Tedarik ve kaynak atama genel özeti
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, Tedarik ve kaynak atama modülündeki kullanılabilir işlevlere genel bakış sağlar.
 
 Tedarik ve kaynak atama, ürün ve hizmet ihtiyacını belirlemeden ürünü satın alma, giriş, faturalama ve satıcılarla ödeme işlemlerine kadar tüm adımları kapsar. Tedarik işlemleri; satınalma ilkeleri ve iş akışları tanımlanarak özel iş ihtiyaçlarına yönelik olarak yapılandırılabilir.
@@ -37,14 +40,14 @@ Tedarik ve kaynak atama, ürün ve hizmet ihtiyacını belirlemeden ürünü sat
   
 Tedarik departmanı gerekli ürün ve hizmetler için tedarikçileri belirler ve bunun içinde birden çok potansiyel tedarikçiye gönderilen bir *teklif talebi *de bulunabilir. Talep edilen ürünün teknik özelliklerini paylaşmak mümkündür ve potansiyel satıcılar bu özelliklere uygun bir ürün teslim edip edemeyeceklerini görmek için bu özellikleri görüntüleyebilir. Satıcılar tekliflerini geri gönderir ve sonrasında bu teklifler satınalma departmanı tarafından alışveriş yapmak istedikleri tedarikçiyi seçmeden önce gözden geçirilir.  
 
-Satınalma siparişleri daha kapsamlı bir teklif talebi sürecine alternatif olarak satıcıya bir *satınalma sorgulaması *gönderme seçeneği içerir. Satınalma sorgulaması, fiyatlar, iskontolar ve sipariş teslimat tarihi gibi şartları belirlemeye yardımcı olmak için kullanılabilir. Satıcılar kullanacak şekilde ayarlanmamışsa **satıcı** portal, * * satınalma Sorgulama işlevi devre dışı bırakıldı. Bunun yerine sipariş** Satıcı** portalında paylaşılır ve bir *onay isteği* gönderildiğinde, satıcı doğrudan sipariş onaylayabilir.  
+Satınalma siparişleri daha kapsamlı bir teklif talebi sürecine alternatif olarak satıcıya bir *satınalma sorgulaması *gönderme seçeneği içerir. Satınalma sorgulaması, fiyatlar, iskontolar ve sipariş teslimat tarihi gibi şartları belirlemeye yardımcı olmak için kullanılabilir. Satıcılar **Satıcı** portalını kullanacak şekilde ayarlanmışsa, * * satınalma sorgulaması işlevi devre dışı bırakılır. Bunun yerine sipariş** Satıcı** portalında paylaşılır ve bir *onay isteği* gönderildiğinde, satıcı doğrudan sipariş onaylayabilir.  
 
 *Satıcı katalogları *satıcıların tedarik edebileceği ürün çeşidine ilişkin bilgileri toplamak için kullanılabilir. Satıcılar kendi kataloglarını yayınlayabilir, böylece kataloğu güncel tutmak daha kolaylaşır. Bir ürüne *onaylı satıcı listesi* eklemek mümkündür, bu liste yeni satınalma siparişleri açıldığında satıcı seçiminde yol göstermeye ve istenmeyen satıcıların kullanılmasını önlemeye yardımcı olabilir.
 
 ## <a name="procurement"></a>Tedarik
 *Satınalma siparişleri *aşağıda belirtilenleri içeren farklı şekillerde oluşturulabilir:
 
--   Master planlama, isteğe bağlı belirlemiştir bir sonucu, bir satın alma gerektirir. Bu işlem planlı satınalma siparişleri oluşturur ve bunlar yayımlandığında, satınalma siparişi oluşturulur.
+-   Bir satın alma işlemi gerektiren bir talep belirlemiş olan master planlamanın sonucu olarak. Bu işlem planlı satınalma siparişleri oluşturur ve bunlar serbest bırakıldığında, satınalma siparişi oluşturulur.
 -   Sonucunda tedariki sağlayan satınalma taleplerinin işlenmesi yoluyla.
 -   Satınalma siparişlerinin anlaşmalardan serbest bırakılmış siparişler olarak oluşturulduğu satınalma anlaşmalarına ilişkin işlemler yoluyla. Bu yoldan genellikle satınalma anlaşmaları paket siparişleri temsil etmek için kullanıldığında yararlanılır.
 -   Oluşturulan satınalma siparişi başka bir belgeye dayalı olmadığında, el ile.
@@ -53,7 +56,7 @@ Satınalma siparişleri daha kapsamlı bir teklif talebi sürecine alternatif ol
 
 Satınalma siparişleri, satıcıyla bir anlaşmaya varıldığını ifade etmek için *teyit edilir*. Satınalma siparişi daha sonra en son faturalandırılana veya iptal edilene kadar kademeli olarak farklı durumlardan geçecektir.  
 
-Bir satınalma siparişi oluşturduğunuzda, alanların çoğu satıcı hakkında depolanan bilgileri varsayılan değerlerle önceden girilmiş **satıcılar** sayfa. Bu durum, varsayılan değerleri geçersiz kılmak seçeneğiniz bulunmakla birlikte, satınalma siparişinde doldurulması gereken sınırlı sayıda alan olduğu anlamına gelir.
+Bir satınalma siparişi oluşturduğunuzda, alanların çoğu **Satıcılar** sayfasında satıcılar hakkında depolanan bilgilerden varsayılan olarak alınan değerlerle önceden doldurulmuştur. Bu durum, varsayılan değerleri geçersiz kılmak seçeneğiniz bulunmakla birlikte, satınalma siparişinde doldurulması gereken sınırlı sayıda alan olduğu anlamına gelir.
 
 ### <a name="prices-and-discounts"></a>Fiyatlar ve iskontolar
 
@@ -86,5 +89,7 @@ Faturalanan satınalma siparişleri, borcu borç hesapları içindeki satıcı h
 
 ## <a name="vendor-performance"></a>Satıcı performansı
 Satınalma performansı ve incelemesi, içinde harcama analizinin ve satıcı performans analizinin bulunduğu *tedarik ve borç hesabı raporları* yoluyla desteklenir.
+
+
 
 

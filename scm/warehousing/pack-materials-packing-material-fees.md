@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="packing-materials-and-fees"></a>Ambalaj malzemeleri ve ücretler
 
+[!include[banner](../includes/banner.md)]
+
+
 Ambalaj malzemesi masrafları, belirli aralıklarla bir geri dönüştürme şirketine ödenmektedir. Bir ambalaj birimini meydana getiren her malzeme için ağırlık birimi başına bir tutar ödenir. Ambalaj malzemesi masrafları hesaplanır ve raporlanır, fakat masraflar bir kuruma ödenecek vergiler olarak görülmediğinden, genel muhasebeye hareket nakledilmez.
 
 Ambalaj malzemesi ağırlıkları ve masrafları satış sipariş satırları ve satınalma siparişi satırları için hesaplanır.
@@ -52,7 +55,7 @@ Bir satış sipariş satırı oluşturduğunuzda, ambalaj birimlerinin madde iç
 ## <a name="packing-units-on-purchase-order-lines"></a>Satınalma siparişi satırlarındaki ambalaj birimleri
 Sistem tarafından bir satınalma siparişi satırı için ambalaj malzemesi hareketleri oluşturulmaz. Faturalanmış sipariş satırları için hareketleri **Ambalaj malzemesi hareketleri** sayfasında el ile oluşturabilirsiniz.
 
-## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Müşteri packagingmaterialfee lisans numaralarını ayarlama
+## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Müşteri ambalaj malzemesi ücreti lisans numaralarını ayarlama
 Müşteriler ambalaj malzemesi ücretlerini ödüyorsa, müşterilerin ambalaj malzemesi ücreti lisans numaralarını **Müşteriler** sayfasında belirtin. Müşteriye lisans numarası atandığında, satış siparişleri faturalandığında ambalaj malzemesi ücretleri otomatik olarak hesaplanacaktır. Faturalamadan sonra **Ambalaj malzemesi hareketleri** sayfasındaki **Ücreti hesapla** onay kutusu temizlenir çünkü hesaplamanıza ve bir rapor yazdırmanıza gerek kalmamıştır. Ambalaj malzemesi ağırlıklarını faturaya yazdırmayı ve müşterileri ücretleri ödemeleri konusunda bilgilendirebilirsiniz. 
 
 Şirketinizin ambalaj malzemesi ücretlerini ödemesi durumunda, müşteri lisans numaralarını belirtmeyin. Faturalama sonra **Ambalaj malzemesi hareketleri** sayfasında **Ücreti hesapla** onay kutusu seçilidir. Bu da rapor oluşturulduğunda ücretlerin hesaplandığını gösterir. Ağırlıkları faturaya yazdırmayı ve şirketinizin ücretleri ödediğini belirtebilirsiniz.
@@ -60,6 +63,8 @@ Müşteriler ambalaj malzemesi ücretlerini ödüyorsa, müşterilerin ambalaj m
 ## <a name="print-packaging-material-weights-on-invoices"></a>Faturalarda ambalaj malzemesi ağırlıklarını yazdırma
 Ambalaj malzemesi ağırlıklarını yazdırmayı ve faturadaki ambalaj malzemesi ücretlerini kimin ödeyeceğini belirtebilirsiniz. Ambalaj koduna göre ağırlıklar özetlenmiştir.
  
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Bir anketin sonuçlarını görüntüleyin ve değerlendirin"
-description: "Bu konu, görüntülemek ve katılımcıların tamamlamak soru formlarının sonuçlarını değerlendirmek nasıl açıklar."
+description: "Bu konu yanıtlayanların tamamladığı anketlerin sonuçlarını nasıl görüntüleyeceğinizi ve değerlendireceğinizi açıklar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Bir anketin sonuçlarını görüntüleyin ve değerlendirin
 
-Bu konu, görüntülemek ve katılımcıların tamamlamak soru formlarının sonuçlarını değerlendirmek nasıl açıklar. 
+Bu konu yanıtlayanların tamamladığı anketlerin sonuçlarını nasıl görüntüleyeceğinizi ve değerlendireceğinizi açıklar. 
 
 Yanıtlayanlar bir anketi tamamladıktan sonra, anket sonuçlarını aşağıdaki yollardan görüntüleyebilir ve değerlendirebilirsiniz:
 

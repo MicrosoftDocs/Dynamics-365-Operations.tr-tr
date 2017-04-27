@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Kaynak alanında satış vergisi hesaplama yöntemleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede satış vergisi kodları sayfasında Başlangıç alanındaki seçenekler ve satış vergisinin bir satış vergisi kodu için belirlenen seçeneğe göre nasıl hesaplanacağı hakkında bilgiler verilmiştir.
 
 Satış vergisi kodları sayfasında oluşturduğunuz her satış vergisi kodu için, Kaynak alanında vergi tabanı tutarına uygulanacak hesaplama yöntemini seçmelisiniz.
@@ -124,5 +127,7 @@ Belge / günlük Satış vergisi içeren tutarlar = Hayır olarak ayarlanır Har
 [Marjinal taban ve hesaplama yöntemi alanları temel alınarak satış vergisi oranlarını belirleme](marginal-base-field.md)
 
 [Satış vergisi kodları için tüm tutar ve Aralık hesaplaması seçenekleri](whole-amount-interval-options-sales-tax-codes.md)
+
+
 
 

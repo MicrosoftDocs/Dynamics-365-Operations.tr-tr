@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Fatura eşleştirme ve şirketlerarası satınalma siparişleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bir şirketlerarası ticaret hareketinde yer alan satın alma tüzel kişiliği, borç hesapları fatura eşleştirmesini kullanacak şekilde ayarlanabilir. Bu durumda, şirketlerarası satıcı faturalarının deftere nakledilebilmesi için, hem şirketlerarası ticaret için, hem de borç hesapları fatura eşleştirmesi için deftere nakil gereksinimleri karşılanmalıdır.
 
 Bu başlıktaki örnekler aşağıdaki şirketlerarası ticaret ayarlarını kullanır:
@@ -35,8 +38,8 @@ Bu başlıktaki örnekler aşağıdaki şirketlerarası ticaret ayarlarını kul
 -   Fabrikam Satış, satış yapan yasal varlıktır.
 -   Müşteri 4020, Fabrikam Satışlar içinde yer alır.
 -   Satıcı 3024, Fabrikam Satınalma içinde yer alır.
--   Fabrikam satınalma 3024 satıcı için şirketlerarası bilgileri belirtilir. Fabrikam satış müşteri şirkete belirtilir ve müşteri 4020 Fabrikam satınalma tüzel kişilik karşılık gelen müşteri hesabı olarak belirtilir.
--   Fabrikam Satışlar, müşteri 4020 için şirketlerarası bilgileri belirtilir. Fabrikam satınalma satıcı şirket olarak belirtilir ve satıcı 3024 Fabrikam satış tüzel kişilik karşılık gelen satıcı hesabı olarak belirtilir.
+-   Fabrikam Satınalma, satıcı 3024 için şirketlerarası bilgiler belirtilir. Fabrikam Satışlar, müşteri şirketi olarak belirtilir ve müşteri 4020, Fabrikam Satınalma tüzel varlığa karşılık gelen müşteri hesabı olarak belirtilir.
+-   Fabrikam Satış, müşteri 4020 için şirketlerarası bilgiler belirtilir. Fabrikam Satınalma, satıcı şirketi olarak belirtilir ve satıcı 3024, Fabrikam Satınalma tüzel varlığa karşılık gelen satıcı hesabı olarak belirtilir.
 
 Örnekler Fabrikam Satınalma için aşağıdaki borçlar hesabı fatura eşleştirme ayarlarını kullanır:
 -   Borç hesapları parametreleri sayfasında, fatura eşleşmesi doğrulama seçeneğini etkinleştirin.
@@ -45,7 +48,7 @@ Bu başlıktaki örnekler aşağıdaki şirketlerarası ticaret ayarlarını kul
 
 ## <a name="example-price-matching-and-intercompany-trade"></a> Örnek: Fiyat eşleme ve şirketlerarası ticaret
 Şirketlerarası satıcısı faturası ve şirketlerarası müşteri siparişi faturasının net tutarları eşit olmalıdır. Bu zorunluluk, uygulanan tüm fatura eşleştirme onaylarını veya fiyat toleransı yüzdelerini geçersiz kılar. Örneğin, aşağıdaki adımları izleyin.
-1.  Fabrikam satınalma 4020 müşteri için satış siparişi SO888 oluşturun. Şirketlerarası satınalma siparişi ICPO222 Fabrikam satınalma 3024 satıcı için otomatik olarak oluşturulur ve ICSO888 otomatik olarak Fabrikam satış oluşturulan satış siparişi.
+1.  Fabrikam Satınalma'da müşteri 4020 için SO888 satış siparişini oluşturun. Şirketlerarası satınalma siparişi ICPO222, satıcı 3024 için Fabrikam Satınalma'da otomatik olarak oluşturulur ve satış siparişi ICSO888 Fabrikam Satışlar'da otomatik olarak oluşturulur.
 2.  Maddelerin alındığını Fabrikam Satışlar'da kaydedin ve bir sevk irsaliyesini deftere nakledin. ICSO888'in durumu Teslim Edildi olarak değişir. ICPO222'nin durumu Alındı olarak değişir.
 3.  Fabrikam Satışlar'da ICSO888 için bir fatura güncelleştirmesi gerçekleştirin. Birim fiyat 0,45 olur ve 100 madde güncelleştirilir.
 4.  Fabrikam Satınalma'da ICPO222 için bir fatura oluşturun. Net fiyatı yanlışlıkla 45,00'ten 54,00'e değiştirin. Fiyatın, izin verilen yüzde 2'lik fiyat toleransını aştığını belirtmek üzere bir simge görüntülenir.
@@ -60,10 +63,12 @@ Bu örnek Fabrikam Satınalma borç hesapları fatura eşleştirme için aşağ�
 -   Madde B-R14 için eldeki miktar 0'dır (sıfır).
 
 Örneğin, aşağıdaki adımları izleyin.
-1.  Fabrikam satınalma 4020 müşteri için satış siparişi SO999 oluşturun. Sipariş bir satır öğesi içerir: 1,00 her birim fiyata 100 piller (madde B R14). Şirketlerarası satınalma siparişi ICPO333, satıcı 3024 için Fabrikam Satınalma'da otomatik olarak oluşturulur ve satış siparişi ICSO999 Fabrikam Satışlar'da otomatik olarak oluşturulur.
+1.  Fabrikam Satınalma'da müşteri 4020 için SO999 satış siparişini oluşturun. Sipariş bir satır öğesi içerir: birim fiyatı her biri için 1,00 olan, 100 pil (madde B-R14). Şirketlerarası satınalma siparişi ICPO333, satıcı 3024 için Fabrikam Satınalma'da otomatik olarak oluşturulur ve satış siparişi ICSO999 Fabrikam Satışlar'da otomatik olarak oluşturulur.
 2.  Fabrikam Satışlar'da ICSO999 için bir fatura güncelleştirmesi gerçekleştirin. Madde stokta olmadığı ve henüz alınmadığı için deftere nakil başarısız olur. Bu nedenle, mali bilgileri güncelleştirilemez.
 3.  Maddelerin alındığını Fabrikam Satışlar'da kaydedin ve ICSO999 için bir sevk irsaliyesini deftere nakledin. Fabrikam Satınalma'da ICPO333 için bir ürün girişi otomatik olarak deftere nakledilir. Fabrikam Satınalma'da B-R14 maddesi için alınan miktar 100 olarak değişir.
 4.  Fabrikam Satışlar'da ICSO999 için bir fatura güncelleştirmesi gerçekleştirin. Deftere nakil her iki düzel kişilikte de başarılı olur. Fabrikam Satınalma'da B-R14 maddesi için satın alınan miktar 100 olarak değişir. 
+
+
 
 
 

@@ -46,7 +46,7 @@ Yaz aylarında şirketinizdeki açık stajyer pozisyonlarını doldurmak için g
 
 Stajyer pozisyonları için işe alacağınız öğrencileri seçtikten sonra, her bir öğrencinin bilgilerini o öğrenciyi işe aldığınız pozisyon için **Pozisyon bilgileri** altına gireceksiniz. Tüm pozisyon bilgilerini girdikten sonra Toplu işe alma projesi sayfasından projeyi seçin ve **İşe alma** düğmesini tıklayın. Her bir pozisyon için bir pozisyon kaydı oluşturulacak ve bir çalışan kaydı oluşturulacak ve işe aldığınız her bir kişi için doğru pozisyona atanacaktır.
 
-## <a name="masshire-project-statuses"></a>Masshire proje durumu
+## <a name="masshire-project-statuses"></a>Toplu işe alma projesi durumları
 Bir toplu işe alma projesi aşağıdaki durumlara sahip olabilir.
 -   Oluşturulma
 -   Açık

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="factor-depreciation"></a>Faktör amortisman
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makale, faktör amortisman yöntemi hakkında genel bir bakış sağlar.
 
 Faktörler, kıymetlere amortisman uygulamak için kullanılan yüzdelerdir. Bir sabit kıymet amortisman profili ayarlayıp **Amortisman profilleri** sayfasındaki **Yöntem** alanında **Faktör**'ü seçtiğinizde, artan paylı, azalan paylı, eşit paylı amortisman ayarlayabilirsiniz:
@@ -39,14 +42,14 @@ Faktörler, kıymetlere amortisman uygulamak için kullanılan yüzdelerdir. Bir
 Aşağıdaki kurallar ve örnekler, her tip amortisman için faktörleri nasıl ayarlayacağınızı gösterir. 
 
 > [!NOTE] 
-> Seçtiğinizde **faktör** içinde **yöntemi** alan, **faktör** alan ve **aralık** alan görüntülenir.
+> **Yöntem** alanında **Faktör**'ü seçtiğinizde, **Faktör** alanı ve **Aralık** alanı görüntülenir.
 
 ## <a name="progressive-depreciation"></a>Artan paylı amortisman
 **Faktör** alanındaki değer **50**'den büyüktür.
 
 ### <a name="example"></a>Örnek
 
-Alım fiyatının 100.000 olduğunu, faktör 70'tir, servis ömrü 10 yıl olduğu ve amortisman 1 Ocak'ta başlar. Yalnızca ilk altı yılı için servis ömrü amortisman tutarları ve net defter değeri tutarları gösterilir.
+Alım fiyatı 100.000, faktör 70, hizmet ömrü 10 yıl ve amortisman 1 Ocak'ta başlıyor. Amortisman tutarları ve net defter değeri tutarları yalnızca hizmet ömrünün ilk altı yılı için gösterilir.
 
 | Yıl | Dönem      | Amortisman tutarı | Net defter değeri tutarı |
 |------|-------------|---------------------|-----------------------|
@@ -62,7 +65,7 @@ Alım fiyatının 100.000 olduğunu, faktör 70'tir, servis ömrü 10 yıl oldu�
 
 ### <a name="example"></a>Örnek
 
-Alım fiyatının 100.000 olduğunu, faktör 20'dir, servis ömrü 10 yıl olduğu ve amortisman 1 Ocak'ta başlar. Yalnızca ilk altı yılı için servis ömrü amortisman tutarları ve net defter değeri tutarları gösterilir.
+Alım fiyatı 100.000, faktör 20, hizmet ömrü 10 yıl ve amortisman 1 Ocak'ta başlıyor. Amortisman tutarları ve net defter değeri tutarları yalnızca hizmet ömrünün ilk altı yılı için gösterilir.
 
 | Yıl | Dönem      | Amortisman tutarı | Net defter değeri tutarı |
 |------|-------------|---------------------|-----------------------|
@@ -75,5 +78,7 @@ Alım fiyatının 100.000 olduğunu, faktör 20'dir, servis ömrü 10 yıl oldu�
 
 ## <a name="straight-line-depreciation"></a>Eşit paylı amortisman
 **Faktör** alanındaki değer **50**'ye eşittir. Bu durumda, amortisman her dönemde aynıdır ve [Sabit servis ömrü amortismanı](straight-line-service-life-depreciation.md) içinde açıklandığı gibi, diğer alanlarda belirttiğiniz değerlerin etkilerini değerlendirmeniz gerekir.
+
+
 
 

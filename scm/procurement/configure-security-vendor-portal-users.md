@@ -1,6 +1,6 @@
 ---
 title: "Satıcı portal kullanıcı güvenliği"
-description: "Bu makale, Satıcı portalını kullanan dış satıcılar için güvenliğin nasıl ayarlanacağını açıklamaktadır. Bu bilgiler yalnızca Şubat 2016 için geçerlidir &amp;Dynamics AX Mayıs 2016 sürümleri."
+description: "Bu makale, Satıcı portalını kullanan dış satıcılar için güvenliğin nasıl ayarlanacağını açıklamaktadır. Bu bilgiler, Dynamics AX&quot;in yalnızca Şubat 2016 &amp; Mayıs 2016 sürümleri için geçerlidir."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-portal-user-security"></a>Satıcı portal kullanıcı güvenliği
 
-Bu makale, Satıcı portalını kullanan dış satıcılar için güvenliğin nasıl ayarlanacağını açıklamaktadır. Bu bilgiler yalnızca Şubat 2016 için geçerlidir &amp;Dynamics AX Mayıs 2016 sürümleri.
+[!include[banner](../includes/banner.md)]
 
-Dynamics 365 içinde genişletilmiş satıcı işbirliği işlevselliği için işlemleri sürüm 1611 satıcı portal işlevi almıştır. Satıcı işbirliği için güvenliği ayarlama hakkında daha fazla bilgi için bkz: [Set up ve satıcı işbirliği korumak](set-up-maintain-vendor-collaboration.md). Satıcı portal dış satıcı için satın alma siparişleri (PO'lar) hakkında sınırlı bir bilgi kümesini sunar. Satıcılar Dynamics AX yüklemenizdeki ek bilgilere erişimi olmasın diye, Microsoft Dynamics AX'te satıcı portalı için kullanıcı izinlerini doğru ayarlamanız önemlidir. **Önemli:** diğer kullanıcılardan farklı olarak, harici satıcılarda **SystemUser** rolü olmamalıdır. **SystemUser** rolü dış kullanıcılar için uygun olmayan ayrıcalıklar kümesine erişim verir.
+
+Bu makale, Satıcı portalını kullanan dış satıcılar için güvenliğin nasıl ayarlanacağını açıklamaktadır. Bu bilgiler, Dynamics AX'in yalnızca Şubat 2016 &amp; Mayıs 2016 sürümleri için geçerlidir.
+
+Satıcı portal işlevi, Dynamics 365 for Operations sürüm 1611'de genişletilmiş satıcı işbirliği işlevleri ile değiştirilmiştir. Satıcı iş birliğini için satıcıların güvenliğinin yapılandırması hakkında daha fazla bilgi için bkz. [Satıcı işbirliğini kurulumu ve bakımı](set-up-maintain-vendor-collaboration.md). Satıcı portal dış satıcı için satın alma siparişleri (PO'lar) hakkında sınırlı bir bilgi kümesini sunar. Satıcılar Dynamics AX yüklemenizdeki ek bilgilere erişimi olmasın diye, Microsoft Dynamics AX'te satıcı portalı için kullanıcı izinlerini doğru ayarlamanız önemlidir. **Önemli:** diğer kullanıcılardan farklı olarak, harici satıcılarda **SystemUser** rolü olmamalıdır. **SystemUser** rolü dış kullanıcılar için uygun olmayan ayrıcalıklar kümesine erişim verir.
 
 ## <a name="setting-up-a-vendor-portal-user"></a>Bir tedarikçi portalı kullanıcısı kurma
 Tedarikçi portalı kullanan birisi için bir kullanıcı hesabı oluşturmadan önce satıcıyı satıcı portal işbirliği için izin verecek şekilde ayarlamanız gerekir. **satıcılar** sayfasında **genel** sekmesinde **satın alma siparişi işbirliği** alanını seçin. Tedarikçi portalı kullanan harici satıcılarda aşağıdaki Kurulum olması gerekir:
@@ -44,6 +47,8 @@ Aynı kişi için birden çok satıcı hesapları satıcı portal erişimi gerek
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Vendor collaboration](collaborate-vendors-vendor-portal.md)
+[Satıcı işbirliği](collaborate-vendors-vendor-portal.md)
+
+
 
 

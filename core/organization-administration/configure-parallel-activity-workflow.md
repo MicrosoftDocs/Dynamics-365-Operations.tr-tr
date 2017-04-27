@@ -1,5 +1,5 @@
 ---
-title: "Paralel bir etkinlik içinde bir iş akışı yapılandırma"
+title: "Bir iş akışında bir paralel etkinlik yapılandırma"
 description: "Paralel faaliyet yapılandırmak için iş akışı düzenleyicisinde aşağıdaki yordamları tamamlayın."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-parallel-activity-in-a-workflow"></a>Paralel bir etkinlik içinde bir iş akışı yapılandırma
+# <a name="configure-a-parallel-activity-in-a-workflow"></a>Bir iş akışında bir paralel etkinlik yapılandırma
 
 Paralel faaliyet yapılandırmak için iş akışı düzenleyicisinde aşağıdaki yordamları tamamlayın.
 
@@ -32,7 +32,7 @@ Paralel faaliyet aynı anda çalışan iş akışı dallarından oluşur.
 
 ## <a name="name-a-parallel-activity"></a>Paralel faaliyete ad verme
 Paralel faaliyete bir ad vermek için aşağıdaki adımları uygulayın.
-1.  Paralel etkinlik sağ tıklatın ve ardından **Özellikler** açmak için **Özellikler** formu.
+1.  Paralel faaliyete sağ tıklayın ve ardından **Özellikler** formunu açmak için **Özellikler**'e tıklayın.
 2.  Sol bölmede **Temel Ayarlar**'a tıklayın.
 3.  Paralel faaliyet için **Ad** alanına benzersiz bir ad girin.
 4.  **Kapat**'a tıklayın.

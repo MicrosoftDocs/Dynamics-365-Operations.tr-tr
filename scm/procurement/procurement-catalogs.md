@@ -27,12 +27,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-catalogs"></a>Tedarik katalogları
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede yüksek bir düzeyde, satın alma uzmanlarının satın alma kataloglarını nasıl kurabilecekleri ve tutabilecekleri açıklanmıştır. Tedarik katalogları, şirket çalışanlarının şirket içi kullanım için sipariş edebileceği maddeleri ve hizmetleri tanımlar.
 
 Satınalma uzmanları bir kuruluşta dahili kullanım için satın alınabilir ürün ve hizmetlerin bir kataloğunu oluşturabilir ve sürdürebilir. Kataloglar ayarlandıktan sonra, şirket çalışanları bunlardan sipariş vermek için satınalma talepleri oluşturabilir. Çalışanların yalnızca satın alma tüzel kişiliği için izin verilen ürün ve hizmetleri sipariş edebilmesi için satın alma ilkelerini zorlamak üzere kataloglar kullanılabilir. Bir tedarik kataloğu oluşturduğunuzda aşağıdaki görevleri dikkate almanız gerekir:
 
 -   Katalog oluşturmadan önce tedarik kategori hiyerarşinizi yapılandırın.
--   Hangi ürünleri sipariş yapabilmek için çalışanlarınıza istediğiniz belirler. Göster veya belirli ürünleri katalog düğüm gizlemek veya göstermek veya gizlemek bir düğümdeki tüm ürünler.
+-   Personelinizin hangi ürünleri sipariş verebilmelerini istediğinizi belirleyin. Belirli ürünleri katalog düğümünde gösterebilir veya gizleyebilir ya da tüm ürünleri bir düğümde gizleyebilir veya gösterebilirsiniz.
 -   Kaç adet tedarik kataloğuna ihtiyacınız olduğunu belirleyin. Tedarik kataloğuna erişim, tüzel ve bir kişilik için yapılandırdığınız katalog ilkesi kuralına ve bir çalışanın atandığı faaliyet birimine göre belirlenir.
 
 Bir satınalma talebi oluşturduklarında çalışanların sipariş edebileceği ürünleri ve kullanabilecekleri tedarik kategorilerini şu gibi çeşitli faktörler belirler:
@@ -52,7 +55,7 @@ Aşağıdaki tabloda, bir satın alma uzmanının tedarik kataloğu oluşturabil
 ## <a name="setting-up-a-catalog"></a>Bir kataloğu ayarlama
 Önkoşullar karşılandıktan sonra katalogları ayarlayabilirsiniz. Kuruluşunuzun tamamında kullanılan tek bir katalog veya kuruluşunuzdaki çeşitli bölümlerin kullandığı birden çok katalog oluşturabilirsiniz. Kuruluşun tamamı için tek bir katalog oluşturmak istiyorsanız, katalog satın alma İlkesi kurallarınız tarafından denetlenir.  
 
-Katalog, satınalma talepleri oluşturulduğunda hangi ürünün kullanılabilir olacağını tanımlar, ancak ek kısıtlamalar uygulamak için kategori erişim ilkeleri kurallarını kullanabilirsiniz. Katalogdaki düğümler tedarik kategorileri olduğundan, bir kategori erişimi ilkesi kuralı tarafından kaldırılabilir. Bu durumda, o kategorideki ürünler çalışanların taleplerini temel kullanımı kullanılabilir değildir. Kategori erişimi ilke kuralları tanımlamak **ilkeleri satın** sayfa. Aşağıdaki tabloda bir kataloğu ayarlamak için tamamlanması gereken görevler açıklanmaktadır.
+Katalog, satınalma talepleri oluşturulduğunda hangi ürünün kullanılabilir olacağını tanımlar, ancak ek kısıtlamalar uygulamak için kategori erişim ilkeleri kurallarını kullanabilirsiniz. Katalogdaki düğümler tedarik kategorileri olduğundan, bir kategori erişimi ilkesi kuralı tarafından kaldırılabilir. Bu durumda, o kategorideki ürünler çalışanlar tarafından taleplerde kullanılamaz. Kategori erişimi ilke kurallarını **Satınalma ilkeleri** sayfasında tanımlarsınız. Aşağıdaki tabloda bir kataloğu ayarlamak için tamamlanması gereken görevler açıklanmaktadır.
 
 | Görev                                                   | Rol             | Açıklama                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -70,6 +73,8 @@ Güncellemeler, **Katalog** sayfasında **Varsayılan güncelleme türü** alan�
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Bir tedarik kategorisi hiyerarşi (görev Kılavuzu) ayarlayın](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/)
+[Tedarik kategori hiyerarşisi ayarlama (Görev kılavuzu)](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/)
+
+
 
 

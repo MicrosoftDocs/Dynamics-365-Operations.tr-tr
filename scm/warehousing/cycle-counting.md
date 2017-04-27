@@ -102,7 +102,7 @@ Döngü sayım işinin tekrarlı oluşturulmasının iki yolu vardır: döngü s
 
 ### <a name="create-cycle-counting-work-based-on-threshold-parameters-for-items"></a>Maddeler için eşik parametrelerine dayalı olarak döngü sayım işi oluşturma
 
-Döngü sayım işi, bir konumdaki madde sayısının belirli bir eşik değerinin altına düşmesi durumunda oluşturulabilir. Örneğin, bir döngü sayımı eşiği 40 bir konumda 60 öğeler vardır. Bir satış siparişi hareketi sırasında 25 öğe konumundan çekilen ve hazırlama bir yere koymak. 35 olan yeni madde sayısı, eşik miktarından az olduğundan döngü sayım işi bu konum için otomatik olarak oluşturulur.
+Döngü sayım işi, bir konumdaki madde sayısının belirli bir eşik değerinin altına düşmesi durumunda oluşturulabilir. Örneğin, döngü sayımı eşiği 40 olan bir konumda 60 öğe vardır. Bir satış siparişi hareketi sırasında, 25 öğe konumdan alınır ve bir hazırlama konumuna koyulur. 35 olan yeni madde sayısı, eşik miktarından az olduğundan döngü sayım işi bu konum için otomatik olarak oluşturulur.
 
 ### <a name="schedule-cycle-counting-work"></a>Döngü sayım işi planlama
 
@@ -129,7 +129,7 @@ Aşağıdaki örneklerde, nokta döngü sayımını mobil cihaz kullanarak nası
 ## <a name="resolve-cycle-counting-differences"></a>Döngü sayım farklarını düzeltme
 Aşağıdaki senaryolarda, bir iş kullanıcısı kimliği için **Bir döngü sayım denetimi** seçeneği **Hayır** olarak ayarlı ise bir döngü sayım farkı ortaya çıkar:
 
--   Sayılan değer **İş kullanıcıları** sayfasındaki **Maksimum yüzde sınırı** veya **Maksimum miktar sınırı** alanlarında belirtilen sapma sınırları dahilinde değilse. Örneğin, bir konumda eldeki stok miktarı 50'dir ve iş kullanıcı sapma sınırı 10'dur. İş kullanıcı olmayan 40 ile 60 arasında bir değer girerse, bir fark oluşur.
+-   Sayılan değer **İş kullanıcıları** sayfasındaki **Maksimum yüzde sınırı** veya **Maksimum miktar sınırı** alanlarında belirtilen sapma sınırları dahilinde değilse. Örneğin, bir konumdaki eldeki stok miktarı 50'dir ve iş kullanıcısı için sapma sınırı 10'dur. İş kullanıcısı, 40 ile 60 arasında olmayan bir değer girdiğinde, bir fark ortaya çıkar.
 -   Sayılan döngü değeri, eldeki stok miktarından farklı olur ve ayarlanmış sapma sınırları yoktur.
 
 Sayılan değerdeki farkları düzeltebilir ve ardından sayılan değeri **Gözden geçirilmeyi bekleyen döngü sayımı** sayfasında kabul edebilirsiniz. Madde miktarının değiştirilen sayısını **Konuma göre eldeki** sayfasında doğrulayabilirsiniz. Fark onaylanamıyorsa, sayılan değer reddedilir.

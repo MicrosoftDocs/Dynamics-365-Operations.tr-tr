@@ -1,5 +1,5 @@
 ---
-title: "Tahmini taban el ile yapılan düzenlemeler"
+title: "Temel tahminde manüel ayarlamalar yapma"
 description: "Bu makalede bir temel tahminde manüel ayarlamalar yapma ve tahminin ayrıntılarını görüntüleme yolları açıklanmıştır."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Tahmini taban el ile yapılan düzenlemeler
+# <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Temel tahminde manüel ayarlamalar yapma
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede bir temel tahminde manüel ayarlamalar yapma ve tahminin ayrıntılarını görüntüleme yolları açıklanmıştır. 
 
@@ -35,11 +38,11 @@ Manüel ayarlamalar yapmadan önce, çeşitli sayfalarda bulunan birkaç kavram�
 ## <a name="grid-on-the-adjusted-demand-forecast-page"></a>Ayarlanan talep tahmini sayfası kılavuzu
 **Ayarlanmış talep tahmini** sayfası aşağıdaki yapıya sahip bir kılavuz içerir:
 
--   İlk sütunda tahminin oluşturulma amacı olan maddeler, madde tahsisat anahtarları, şirketler vb. gösterilir. Sayfanın alt başlığı kılavuzda gösterilen geçerli tahmin boyutları için bir açıklama sağlar. Örneğin, sayfanın alt başlığı ise **şirket / Site / madde tahsisat anahtarı**, ve kılavuzdaki satır başlıkları biri **USMF / 1 / D\_ayırma**, USMF şirketin tahmini satır gösterir, 1, site ve **D\_ayırma** madde tahsisat anahtarı.
+-   İlk sütunda tahminin oluşturulma amacı olan maddeler, madde tahsisat anahtarları, şirketler vb. gösterilir. Sayfanın alt başlığı kılavuzda gösterilen geçerli tahmin boyutları için bir açıklama sağlar. Örneğin, sayfanın alt başlığı **Şirket / Tesis / Madde tahsisat anahtarı** ve kılavuzdaki satır başlıklarından biri **USMF / 1 / D\_Alloc** ise, bu satır USMF şirketi, 1. tesis ve **D\_Alloc** madde tahsisat anahtarına ilişkin tahmini gösterir.
 -   Sonraki sütunlar tahminin oluşturulma amacı olan tahmin aralıklarını temsil eder. Her sütun başlığı sütunun gösterdiği tahmin aralığının ilk tarihidir.
 -   Hücrelerdeki değerler, o özel tahmin aralığında bir maddeyi, madde tahsisat anahtarını, vb. temsil eder.
 
-## <a name="forecast-aggregation-and-deaggregation"></a>Tahmin toplama ve deaggregation
+## <a name="forecast-aggregation-and-deaggregation"></a>Tahmin toplama ve toplamayı kaldırma
 Sayfanın alt başlığı tahmin toplama düzeyini gösterir. 
 
 Örneğin, sayfanın alt başlığı **Şirket / Tesis / Tahsisat anahtarı / Madde numarası / Renk / Boyut / Yapılandırma / Stil** ise, hiç tahmin toplama yoktur ve tahmin madde ve boyutları düzeyinde gösterilir. Toplamı değiştirmek için, uygulama menüsünden açabileceğiniz** Tahmin boyutlarını değiştir** sayfasını kullanabilirsiniz. 
@@ -50,7 +53,7 @@ Sayfanın daha toplanmış veriler göstermesini sağlamak için toplamı deği�
 
 Örneğin, tahmini madde düzeyinde oluşturdunuz, ancak bu maddeye talebin bir promosyon veya başka benzer bir etkinlik nedeniyle tüm tesiste artacağını biliyorsunuz. Bu durumda, toplamı **Tahmin boyutlarını değiştir** sayfasındaki **Şirket / Madde tahsisat anahtarı / Madde** seçeneğine ayarlayabilirsiniz. Tüm tesislerde maddeye ilişkin global tahmini **Ayarlanmış talep tahmini** kılavuzunda ayarlayabilirsiniz. Tüm tesisler arasında yaptığınız değişikliğin etkisini görmek için, **Talep tahmin satırları** sayfasını açın. Bu sayfada, her tesise ait madde, ayarlanan tahmin miktarı ve orijinal tahmin miktarı için bir satır görürsünüz. 
 
-Tahmin edilen miktar ayarlamasını toplanmış bir düzeyde yapıldığında sistem ağırlıklı ayırma değişikliği toplama oluşturmak satırları arasında dağıtmak için kullanır. 
+Tahmin edilen miktar ayarlaması toplanmış bir düzeyde yapıldığında, sistem değişikliği toplamı oluşturan satırlar arasında dağıtmak için ağırlıklı tahsisatı kullanır. 
 
 Ayrıca manüel ayarlamaları **Talep tahmin satırları** sayfasında, toplamı kaldırma kılavuzundaki **Toplam miktar** değerini veya **Miktar** hücrelerini değiştirerek de yapabilirsiniz.
 
@@ -69,15 +72,17 @@ Tahmin hakkında daha fazla bilgi görüntülemek için** Talep tahmini ayrınt�
 **Notlar:**
 
 -   Sayfanın **tahmin** bölümünde görülen güven aralığı, güven aralığı üst sınırı ile güven aralığı alt sınırı arasındaki farkı temsil eder. Üst ve alt sınırların değerlerini görmek için, **Grafiksel olarak geçmiş talep ve tahmin** bölümündeki grafikte gezinin.
--   Dynamics 365 işlemleri isteğe bağlı Microsoft Azure makine öğrenme hizmeti tahmini için kullanırsanız, oluşturulan tahmin olması gereken güven düzeyi yüzdesi belirtebilirsiniz. Güven aralığı talep tahmini için iyi tahminler olarak hareket eden bir değerler aralığından oluşur. Yüzde 95'lik bir güven düzeyi yüzdesi, talep tahmininin güven aralığı sınırlarının dışına çıkma konusunda yüzde 5'lik bir risk bulunduğunu gösterir.
+-   Dynamics 365 for Operations Talep tahmini Microsoft Azure Machine Learning hizmetini kullanırsanız, oluşturulan tahminde olması gereken güven düzeyi yüzdesini belirtebilirsiniz. Güven aralığı talep tahmini için iyi tahminler olarak hareket eden bir değerler aralığından oluşur. Yüzde 95'lik bir güven düzeyi yüzdesi, talep tahmininin güven aralığı sınırlarının dışına çıkma konusunda yüzde 5'lik bir risk bulunduğunu gösterir.
 
 Manüel ayarlamaları, **Talep tahmini ayrıntıları** sayfasında, **Tahmin** bölümündeki **Tahmin** satırında belirtilen değerleri değiştirerek de yapabilirsiniz.
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Tahmin doğruluğunu izleme](monitor-forecast-accuracy.md)
 
-[Generating a statistical baseline forecast](generate-statistical-baseline-forecast.md)
+[İstatistik temel tahmin oluşturma](generate-statistical-baseline-forecast.md)
+
+
 
 

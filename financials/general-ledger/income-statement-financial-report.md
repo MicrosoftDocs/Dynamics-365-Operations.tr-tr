@@ -1,6 +1,6 @@
 ---
 title: Gelir tablosu mali raporu
-description: "Bu makalede varsayılan rapor için gelir tabloları açıklar. Ayrıca, bu raporla ilişkili olan yapı taşlarını açıklanır."
+description: "Bu makale varsayılan rapor için gelir tablolarını açıklar. Ayrıca, bu raporla ilişkili olan yapı taşlarını açıklar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="income-statement-financial-report"></a>Gelir tablosu mali raporu
 
-Bu makalede varsayılan rapor için gelir tabloları açıklar. Ayrıca, bu raporla ilişkili olan yapı taşlarını açıklanır. 
+[!include[banner](../includes/banner.md)]
+
+
+Bu makale varsayılan rapor için gelir tablolarını açıklar. Ayrıca, bu raporla ilişkili olan yapı taşlarını açıklar. 
 
 <a name="default-income-statement-report"></a>Varsayılan gelir tablosu raporu
 -------------------------------
@@ -61,10 +64,12 @@ Sütun tanımları, farklı ayrıntı ve mali veri düzeyleri sunmak üzere fark
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Mali raporlama](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Mali raporları görüntüle](view-financial-reports.md)
 
-[Dynamics finansal raporlama Blog](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamics Mali Raporlama Blogu](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

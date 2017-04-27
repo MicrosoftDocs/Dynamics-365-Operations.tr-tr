@@ -1,6 +1,6 @@
 ---
 title: "Bütçe planlaması veri tahsisatı"
-description: "Bu makalede, Microsoft Dynamics 365 işlemleri ve nasıl kullanılabilecekleri için kullanılabilen çeşitli ayırma yöntemlerini açıklar."
+description: "Bu makale, Microsoft Dynamics 365 for Operations içerisindeki çeşitli tahsisat yöntemlerini ve bunların nasıl kullanılabileceklerini açıklar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,15 +28,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-data-allocation"></a>Bütçe planlaması veri tahsisatı
 
-Bu makalede, Microsoft Dynamics 365 işlemleri ve nasıl kullanılabilecekleri için kullanılabilen çeşitli ayırma yöntemlerini açıklar.  
+[!include[banner](../includes/banner.md)]
+
+
+Bu makale, Microsoft Dynamics 365 for Operations içerisindeki çeşitli tahsisat yöntemlerini ve bunların nasıl kullanılabileceklerini açıklar.  
 
 Kestirilen tutarları doğru şekilde değerlendirebilmek için bir bütçe planındaki verileri farklı şekillerde dağıtabilirsiniz.
 
 ## <a name="allocation-methods"></a>Tahsisat yöntemleri
 Aynı bütçe planında bulunan satırlara dayalı olarak bütçe plan satırları oluşturulması için kullanılabilecek üç tahsisat yöntemi (Dönemler arasında tahsis et, Boyutlara tahsis et ve Genel muhasebe tahsisat kurallarını kullan) bulunmaktadır. Diğer bütçe planlarında bütçe planı satırları oluşturulması için kullanılabilecek üç yöntem (Toplama, Dağıtma ve Bütçe planından kopyalama) daha vardır. Altı tahsisat yönteminin her birinde hedef senaryoyu belirtirsiniz. Hedef senaryo, kaynak senaryoyla aynı veya kaynak senaryodan farklı olabilir. Ek olarak, yeni satırların bütçe planına dahil mi edileceğini, yoksa bütçe planındaki mevcut satırların yerini mi alacağını tanımlayabilirsiniz.
 
-[![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)<ph id="t1">
-</ph>**tahsis edilecek dönem boyunca** – dönem tahsisat kategori hedef senaryoda dönemleri arasında kaynak bütçe planı senaryodan bütçe planı satırları ayırmak için kullanılır. Kaynak tutarı, dönem tahsisat kategorisinde tanımlanan yüzdeye ve tarihe dayalı olarak hedef senaryodaki birden fazla satıra tahsis edilir.         
+[![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
+**Dönemler Arasında Tahsis Et** – Bütçe planı satırlarını kaynak bütçe planı senaryosundan hedef senaryodaki dönemler arasında tahsis etmek için bir dönem tahsisat kategorisi kullanılır. Kaynak tutarı, dönem tahsisat kategorisinde tanımlanan yüzdeye ve tarihe dayalı olarak hedef senaryodaki birden fazla satıra tahsis edilir.         
 
 [![AllocateToDimensions](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
 **Boyutlara tahsis et** – Bütçe planı satırları, seçilen bir bütçe tahsisat koşulunda tanımlanan yüzdelere ve mali boyutlara dayalı olarak, kaynak bütçe planlama senaryosundan hedef senaryodaki bir veya daha fazla sayıda satıra tahsis edilir.           
@@ -58,7 +61,7 @@ Bütçe planı sayfasında tahsisatlar gerçekleştirmek için, tahsis edilecek 
 
 [![AllocateBudgetButton](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
 
-Ardından, tahsisat yöntemini seçin. Kalan alanlar, seçtiğiniz yönteme dayalı olarak ayarlanır. Bu alanlara bütçe planı verilerinin kaynağı ve hedefi ve ayrıca toplu iş ayarının kolaylaşması açısından hedef tutarları oluşturulduğunda kaynağı belirtilen bir faktörle çarpmanıza izin veren bir seçenek dahildir. Ayrıca, **Planla ekle** seçeneğini de kullanabilirsiniz. Mevcut bütçe planı satırlarını değiştirmek için **Hayır** öğesini veya mevcut bütçe planı satırlarını tutmak ve tahsis edilen tutarlar için yeni satırlar eklemek için **Evet** öğesini seçin.
+Ardından, bir tahsisat yöntemi seçin. Kalan alanlar, seçtiğiniz yönteme dayalı olarak ayarlanır. Bu alanlara bütçe planı verilerinin kaynağı ve hedefi ve ayrıca toplu iş ayarının kolaylaşması açısından hedef tutarları oluşturulduğunda kaynağı belirtilen bir faktörle çarpmanıza izin veren bir seçenek dahildir. Ayrıca, **Planla ekle** seçeneğini de kullanabilirsiniz. Mevcut bütçe planı satırlarını değiştirmek için **Hayır** öğesini veya mevcut bütçe planı satırlarını tutmak ve tahsis edilen tutarlar için yeni satırlar eklemek için **Evet** öğesini seçin.
 
 ## <a name="automating-allocations-during-a-workflow"></a>Bir iş akışı sırasında tahsisatları otomatik hale getirme
 Tahsisatların bir bütçe planlama iş akışının bir parçası olarak otomatik şekilde gerçekleştirilmesini sağlayan önemli bir özelliktir. Bir bütçe planı, iş akışından geçerken, otomatik hale getirilmiş görevler, belirtilen bir bütçe planlama aşamasında tahsisatı etkinleştirebilir. 
@@ -70,5 +73,7 @@ Ardından, **Bütçe Planlama Yapılandırma** sayfasından bir aşama tahsisat�
 Son olarak, istediğiniz iş akışı aşamasında bütçe planlama aşama tahsisatı için bir otomatik görev ekleyin. Aşağıdaki örnekte, iş akışına iki adet bütçe planlama aşaması tahsisatı (kırmızı çerçeve içine alınmıştır) eklenmiştir.
 
 [![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
+
+
 
 

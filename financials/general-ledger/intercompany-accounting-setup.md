@@ -1,6 +1,6 @@
 ---
-title: "Şirketlerarası Hesap Kurulumu"
-description: "Bu konu, defter tahsisleri ve günlük günlüklerini, Satıcı Fatura günlükleri ve ödeme günlükleri gibi mali günlükler için şirketlerarası günlükleri kullanabilirsiniz böylece şirketlerarası muhasebesi ayarlama açıklar."
+title: "Şirketlerarası muhasebeyi ayarlama"
+description: "Bu konu, defter tahsisatları ve mali günlükleri, örneğin günlük günlükler, satıcı faturası günlükleri ve ödeme günlükleri gibi şirketlerarası günlükleri kullanabilmeniz için şirketlerarası muhasebeyi ayarlamayı açıklar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,25 +25,30 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="intercompany-accounting-setup"></a>Şirketlerarası Hesap Kurulumu
+# <a name="intercompany-accounting-setup"></a>Şirketlerarası muhasebeyi ayarlama
 
-Bu konu, defter tahsisleri ve günlük günlüklerini, Satıcı Fatura günlükleri ve ödeme günlükleri gibi mali günlükler için şirketlerarası günlükleri kullanabilirsiniz böylece şirketlerarası muhasebesi ayarlama açıklar.
+[!include[banner](../includes/banner.md)]
 
-Şirketlerarası günlükleri çeşitli senaryolarda olduğu gibi günlük günlüklerin, Satıcı Fatura günlükleri, genel muhasebe Tahsisatlar ve merkezi ödemeler için oluşturulabilir. Bu senaryoları etkinleştirmek için şirketler arası muhasebeyi kurmanız gerekir.
 
-## <a name="define-main-accounts"></a>Ana hesaplarını tanımlayın
-İlk olarak, Vade sonu ve Vade başlangıcı hesap girişleri için kullanılmak üzere şirketler arası ana hesaplar oluşturmanız gerekir. Şirketler arası muhasebe girişlerinin mutabakatını ve eliminasyonunu basitleştirmek amacıyla her bir şirket için özgün ana hesapların kullanılması iyi bir fikirdir. Şirketlerarası şirketlerin tanıtmak için bir ticaret ortağı veya karşılık gelen boyut kullanıyorsanız, Şirketlerarası muhasebede tanımlanan ana hesap üzerinde sabit bir boyut olarak bu boyut tanımlayabilirsiniz. Ana hesapları ayarladığınızda, ayarlamanız gerekir **ana hesap türü** alanı **Bilanço** üzerinde **ana hesaplar** sayfa.
+Bu konu, defter tahsisatları ve mali günlükleri, örneğin günlük günlükler, satıcı faturası günlükleri ve ödeme günlükleri gibi şirketlerarası günlükleri kullanabilmeniz için şirketlerarası muhasebeyi ayarlamayı açıklar.
 
-## <a name="define-journal-names"></a>Günlük adları tanımlama
-Ardından, bir günlük adı tanımlamalısınız. Set **günlük türü** alanı **günlük** üzerinde **günlük adları** sayfa. Şirketler arası muhasebe için özel bir günlük adı kullanmak iyi bir fikirdir.
+Şirketler arası günlükler günlük günlükler, satıcı faturası günlükleri, genel muhasebe tahsisatları ve merkezi ödemeler vb. gibi çeşitli senaryolarda oluşturulabilir. Bu senaryoları etkinleştirmek için şirketler arası muhasebeyi kurmanız gerekir.
 
-## <a name="define-intercompany-accounting-setup"></a>Şirketlerarası hesap kurulumu tanımlayın
-**Şirketlerarası muhasebe** sayfa birbirleri ile transact tüzel kişilikler çiftleri oluşturmak için kullanılır. Şirketlerarası hesap kurulum Kur tüm tüzel kişilikler görünür olacak şekilde paylaşılır. Yeni bir tüzel kişilik çifti oluştururken, hangi bir tüzel kişilik kaynak şirketini hedef şirket karşılık olarak tanımlanır farkında olduğunuzdan emin olun. Şirketlerarası hareketleri girerken, hareketin hangi bir tüzel kişilik başlatma veya hareket kaynaklanan belirler. Örneğin, şirketlerarası muhasebe USMF (kaynak) ve USSI (hedef) için ayarlanır. Kullanıcı etkin USSI ve USMF içeren şirketlerarası bir hareket girer, yalnızca şirketlerarası muhasebe için USMF tanımlanmadığı için hareket kaynağı olan deftere nakletmez. Bir hareket her iki şirket kaynaklanan karşılıklı kurulum için ikinci bir tüzel kişilik çifti oluşturmak gerekecektir. 
+## <a name="define-main-accounts"></a>Ana hesapları tanımla
+İlk olarak, Vade sonu ve Vade başlangıcı hesap girişleri için kullanılmak üzere şirketler arası ana hesaplar oluşturmanız gerekir. Şirketler arası muhasebe girişlerinin mutabakatını ve eliminasyonunu basitleştirmek amacıyla her bir şirket için özgün ana hesapların kullanılması iyi bir fikirdir. Şirketler arası tarafı tanımlamak üzere bir ticari ortak veya karşı boyut kullanıyorsanız bu boyutu şirketler arası muhasebede tanımlanan ana hesap üzerinde bir sabit boyut olarak tanımlayabilirsiniz. Ana hesapları ayarladığınızda, **Ana hesaplar** sayfasındaki **Ana hesap türü** alanını **Bilanço olarak** ayarlamanız gerekir.
 
-Seçin **Borç hesabı (ödeyeceği)** ve **kredi hesabına (son)** için hem kaynak hem de hedef tüzel kişilik. Tanımladığınız **günlük adı** hedef şirkette hareketi oluşturulurken kullanılacak. Günlük kaynak şirket için şirketlerarası hareket oluştururken, kullanıcı tarafından seçilen çünkü zaten biliniyor. 
+## <a name="define-journal-names"></a>Varsayılan günlük tanımla
+Ardından, bir günlük adı tanımlamalısınız. **Günlük adları** sayfası üzerindeki **Günlük türü** alanını **Günlük** olarak ayarlayın. Şirketler arası muhasebe için özel bir günlük adı kullanmak iyi bir fikirdir.
 
-Son olarak, muhasebe, nakit iskontosu veya Gerçekleşmiş kazançları/zararları merkezi ödeme tutarları desteklemek için hangi bir tüzel kişilik alacağını seçin. 
+## <a name="define-intercompany-accounting-setup"></a>Şirketlerarası muhasebeyi kurulumunu tanımlama
+**Şirketlerarası muhasebe** sayfası, birbiriyle işlemler gerçekleştirebilen tüzel varlık çiftleri oluşturmak için kullanılır. Şirketlerarası muhasebe kurulumu paylaşımlıdır, yani kurulum tüm tüzel varlıklar içerisinden görünür. Yeni bir tüzel varlık çifti oluştururken, hangi şirketin kaynak şirket, hangisinin ise hedef şirket olduğunun farkında olduğunuzdan emin olun. Şirketlerarası hareketler girerken, hareket, hangi tüzel varlığın hareketi başlattığını veya kaynağı olduğunu belirler. Örneğin, USMF (kaynak) ve USSI (hedef) için şirketlerarası muhasebe ayarlanır. Bir kullanıcı USSI içerisinde etkinse ve bir şirketlerarası hareketi USMF ile girerse, hareket şirketlerarası muhasebe yalnızca USMF'nin kaynak olarak tanımlandığı için hareket deftere aktarılmaz. Her iki şirketten biri hareketi başlatabiliyorsa, karşılıklı kurulum için ikinci bir varlık çifti oluşturmanız gerekir. 
 
-Karşılıklı ilişki kolayca üzerinde ayarlanabilir **Şirketlerarası muhasebe** kullanarak sayfayı **karşılıklı ilişki oluşturmak** ilk tüzel çifti oluşturulduktan sonra düğme. Karşılıklı çifti oluşturulduğunda, şirkete kaynak ve hedef şirket için bilgiler kopyalanır. Hedef şirket için tanımlanan günlük kalacak. Günlük adının aynı olması çoğu kuruluş için günlük adları, aynı adlandırma kuralını kullanın. Günlük adı farklı ise, alanında bulunan günlük yok ve çeşitli günlük seçili bildiren bir uyarı görüntülenir.
+Hem kaynak hem de hedef tüzel varlığı için **Borç hesabı (başlangıç)** ve **Borç hesabı (Bitiş)** seçin. Hangi **Günlük adı**'nın hareket hedef şirkette oluşturulduğunda kullanılacağını seçin. Kaynak şirketin günlüğü zaten bilinmektedir çünkü kullanıcı tarafından şirketlerarası hareketi oluştururken seçilmiştir. 
+
+Son olarak, destekleyen tutarlar için hangi varlığın muhasebeyi alacağını seçin, örneğin nakit iskontosu veya merkezi ödemeler için gerçekleşmiş kazançlar/zararlar. 
+
+Karşılıklı bir ilişki, **Şirketlerarası muhasebe** sayfasında, **Karşılıklı ilişki oluştur** düğmesine ilk tüzel kişilik oluşturulduktan sonra basılarak kolayca ayarlanabilir. Karşılıklı çift oluşturulduğunda, hedef şirketin bilgisi, kaynak şirkete ve tam tersi de diğerine kopyalanır. Hedef şirket için tanımlanan günlük kalacaktır. Çoğu kuruluş, günlük adlarında aynı adlandırma kuralını kullanır, böylece günlük adı aynıdır. Günlük adı farklıysa, günlüğün mevcut olmadığını ve başka bir günlüğün seçilebileceğini belirten bir uyarı, alanda gösterilir.
+
+
 
 

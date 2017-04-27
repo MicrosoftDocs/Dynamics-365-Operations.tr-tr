@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-actions"></a>İş akışı eylemleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, onay bir iş akışı onay sürecindeki her katılımcının gerçekleştirebileceği eylemler açıklanmaktadır.
 
-Bir iş akışı çeşitli gruplarda kişiler içerebilir: Başlatıcı, görev alanlar, karar vericiler ve onaylayıcılar. Örneğin, aşağıdaki gider raporu iş akışında, Sam başlatandır, sıranın üyeleri görevin atananlarıdır, John karar vericidir ve Frank, Sue ve Ann de onaylayıcılardır.   [![İş akışı\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif), her grubun gerçekleştirebileceği iş akışı eylemleri aşağıdaki bölümlerde açıklanmaktadır.
+Bir iş akışı çeşitli gruplarda kişiler içerebilir: Başlatıcı, görev alanlar, karar vericiler ve onaylayıcılar. Örneğin, aşağıdaki gider raporu iş akışında, Sam başlatandır, sıranın üyeleri görevin atananlarıdır, John karar vericidir ve Frank, Sue ve Ann de onaylayıcılardır.   [![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif) Her grubun gerçekleştirebileceği iş akışı eylemleri aşağıdaki bölümlerde açıklanmaktadır.
 
 ## <a name="actions-that-an-originator-can-perform"></a>Başlatanın yerine getirebileceği eylemler
 Başlatan, işlenmek üzere bir belge göndererek bir iş akışı örneğini başlatır. Örneğin, Sam kendi gider raporu göndermek için **Gider raporu** sayfasında **Gönder** düğmesini tıklatmalıdır.
@@ -63,7 +66,7 @@ Bazen, bir iş maddesi kuyruğu üyesi görevi kabul eder, ancak daha sonra gör
 ## <a name="actions-that-a-decision-maker-can-perform"></a>Bir karar vericinin gerçekleştirebileceği eylemler
 Genellikle, karar vericinin yanıtlaması gereken bir soru olduğundan, belge bir karar vericiye atanır. Sorunun yanıtı genellikle **Evet** veya **Hayır** ya da **Doğru** veya **Yanlış** olur. Karar verici bu seçeneklerden birini seçmezse, kararı başkasına devredebilir.
 
-### <a name="choice-1-or-choice-2"></a>\[Seçenek 1\] veya \[2 seçim\]
+### <a name="choice-1-or-choice-2"></a>\[Seçenek 1\] veya \[Seçenek 2\]
 
 Karar vericinin belgeyle ilgili bir soruyu yanıtlaması gerekir. Sorunun yanıtı genellikle **Evet** veya **Hayır** ya da **Doğru** veya **Yanlış** olur. Karar vericinin seçtiği cevap, belgeyi işlemek için kullanılacak iş akışı dalını belirler. Örneğin, Sam'in gider raporu John'a atanır. Belgedeki bilginin Sam'in yöneticisini aramaya gerektirip gerektirmediğine karar vermesi gerekir. John çağrının gerekli olduğuna karar verirse, gider raporu Aretha'ya atanır, onun da bunun üzerine Sam'in yöneticisini araması gerekir. Eğer John, aramanın gerekli olmadığına karar verirse, gider raporu onay için Frank'e atanır.
 
@@ -89,5 +92,7 @@ Onaylayan bir belgeyi devrettiğinde, belge onay için başka bir kullanıcıya 
 ### <a name="request-change"></a>Değişiklik iste
 
 Onaylayan bir belgede değişiklik yapılmasını talep ederse, belge başlatana geri gönderilir. Örneğin, Sam 12.000 ABD Doları için bir gider raporu gönderdi ve bu belge Sue'ya atandı. Eğer Sue bir değişiklik isteğinde bulunursa, gider raporu Sam'e geri gönderilir. Sam, daha sonra gider raporunu yeniden gönderebilir. Önce talep edilen değişiklikleri yapabilir veya gider raporunun ilk sürümünü yeniden gönderebilir. Sam gider raporunu yeniden gönderirse, onaylama işleminde ilk onaylayan Frank olduğu için belge onaylanmak üzere Frank'e gönderilir.
+
+
 
 

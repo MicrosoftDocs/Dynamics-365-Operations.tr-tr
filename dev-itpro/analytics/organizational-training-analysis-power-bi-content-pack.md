@@ -1,6 +1,6 @@
 ---
-title: "Kuruluş eğitim güç BI içeriği"
-description: "Bu konuda Dynamics 365 işlemleri - kuruluş eğitim güç BI içeriği açıklar. İçerik Paketi erişimi açıklar ve veri modeli ve içerik paketi oluşturmak için kullanılan varlıkları tanımlar."
+title: "Kurumsal Eğitim Power BI içeriği"
+description: "Bu konu Dynamics 365 for Operations - Kurumsal Eğitim Power BI içeriğini açıklar. İçerik paketine nasıl erişileceğini açıklar ve içerik paketini oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,45 +24,48 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organizational-training-power-bi-content"></a>Kuruluş eğitim güç BI içeriği
+# <a name="organizational-training-power-bi-content"></a>Kurumsal Eğitim Power BI içeriği
 
-Bu konuda Dynamics 365 işlemleri - kuruluş eğitim güç BI içeriği açıklar. İçerik Paketi erişimi açıklar ve veri modeli ve içerik paketi oluşturmak için kullanılan varlıkları tanımlar.
+[!include[banner](../includes/banner.md)]
 
-<a name="accessing-the-content-pack"></a>İçerik Paketi erişme
+
+Bu konu Dynamics 365 for Operations - Kurumsal Eğitim Power BI içeriğini açıklar. İçerik paketine nasıl erişileceğini açıklar ve içerik paketini oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
+
+<a name="accessing-the-content-pack"></a>İçerik paketine erişmek
 --------------------------
 
-Paylaşılan varlıkları kitaplığı Microsoft Dynamics ömrü Hizmetleri (LCS), kuruluş eğitim içerik paketi bulabilirsiniz. İçerik paketini karşıdan yüklemek ve veri işlemleri için Microsoft Dynamics 365 bağlanma hakkında daha fazla bilgi için bkz: [Microsoft ve ortaklarınız LCS içeriğinde güç BI](power-bi-content-microsoft-partners.md).
+Kurumsal Eğitim içerik paketini, Microsoft Dynamics Lifecycle Services (LCS) içindeki Paylaşılan varlık kütüphanesinde bulabilirsiniz. İçerik paketini indirmek ve Microsoft Dynamics 365 for Operations verinize bağlamak hakkında daha fazla bilgi için bkz. [Microsoft ve ortaklarınızdan LCS içerisindeki Power BI içeriği](power-bi-content-microsoft-partners.md).
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>İçerik paketinde bulunan raporlar
-İşlem verileri, Dynamics 365 içerik paketi bağlandıktan sonra kuruluşunuzun veri raporlarını göster. Microsoft Power BI önce hiç kullanmadıysanız, daha fazla bilgi üzerinde öğrenebilirsiniz [BI güç destekli öğrenme sayfasını](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Hem grafik hem de ek bilgi içeren tablolar içerik paketinde bulunan raporlar vardır. Aşağıdaki tablo bu raporları açıklar.
+İçerik paketini Dynamics 365 for Operations verinize bağladıktan sonra, raporlar kuruluşunuzun verilerinde görünür. Daha önce hiç Microsoft Power BI kullanmadıysanız, daha fazla bilgiyi şuradan edinin: [Power BI için Destekli Öğrenme sayfası](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). İçerik paketinde bulunan raporlar, ek bilgiler içeren hem grafiklere hem de tablolara sahiptir. Aşağıdaki tablo bu raporları açıklar.
 
 | Rapor          | İçindekiler                                                                    |
 |-----------------|-----------------------------------------------------------------------------|
-| Kurs çözümlemesi | Kayıt konumu, durumu ve kayıt listesi tarafından Kurs katılımcıları tarafından |
-| Kurs tipleri    | Yeteneğe göre kurs türleri                                                       |
+| Kurs Analizi | Konuma göre kayıt, duruma göre kurs katılımcıları ve kayıt listesi |
+| Kurs Türleri    | Yeteneğe göre kurs türleri                                                       |
 
-Grafikleri ve döşeme bu raporlarda filtre uygulayabilir ve grafikleri ve Pano döşemelere Sabitle. Filtre ve güç BI PIN'i hakkında daha fazla bilgi için bkz: [oluşturma ve yapılandırma bir Pano](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve kutuları panoya sabitleyebilirsiniz. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano Oluşturma ve Yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
-Dynamics 365 işlemler veri için raporlar kuruluş eğitim içerik paketinde doldurmak için kullanılır. Aşağıdaki tabloda, içerik paketi üzerinde dayandırıldığı varlıkları gösterir.
+Dynamics 365 for Operations verisi, Kurumsal Eğitim içerik paketindeki raporları doldurmak için kullanılır. Aşağıdaki tablo, içerik paketinin üzerine dayandırıldığı varlıkları gösterir.
 
 | Varlık                    | İçindekiler                                                         | Diğer varlıklarla ilişkiler                                                                                                                                                                  |
 |---------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Eğitim\_CalendarOffset  | Dilim raporları için Takvim kaydırır                                | Eğitim\_CourseAgenda eğitim\_CourseAttendees                                                                                                                                                   |
-| Eğitim\_şirket         | Şirketler tarafından raporlara filtre uygulamak için                                   | Eğitim\_CourseAgenda eğitim\_CourseAttendees                                                                                                                                                   |
-| Eğitim\_kursu          | Kurs, açıklama, eğitmen adını, konumunu, yer ve durum | Eğitim\_CourseAgenda eğitim\_CourseAttendees eğitim\_CourseSkill                                                                                                                             |
-| Eğitim\_CourseAgenda    | Gündem, kurs ve başlangıç ve bitiş saatlerini                          | Eğitim\_şirket eğitim\_CalendarOffset eğitim\_tarih eğitim\_kursu                                                                                                                         |
-| Eğitim\_CourseAttendees | Ad, durum, iş ve kayıt tarihi                         | Eğitim\_şirket eğitim\_CalendarOffset eğitim\_tarih eğitim\_demografisi eğitim\_İstihdam eğitim\_kurs eğitim\_WorkerName eğitim\_WorkerTitle eğitim\_iş eğitim\_konumu |
-| Eğitim\_CourseSkill     | Beceri, yetenek tipini ve düzeyi                                     | Eğitim\_kursu                                                                                                                                                                                   |
-| Eğitim\_tarihi            | Gün, hafta, ay ve yıl                                   | Eğitim\_CourseAgenda eğitim\_CourseAttendees                                                                                                                                                   |
-| Eğitim\_demografisi    | Doğum, cinsiyet, etnik köken ve Medeni durum tarihi         | Eğitim\_CourseAgenda eğitim\_CourseAttendees                                                                                                                                                   |
-| Eğitim\_çalışma      | Başlangıç tarihi, bitiş tarihi ve geçiş tarihi                        | Eğitim\_CourseAgenda eğitim\_CourseAttendees                                                                                                                                                   |
-| Eğitim\_işi             | İşlevi, türü ve başlık                                        | Eğitim\_CourseAgenda eğitim\_CourseAttendees                                                                                                                                                   |
-| Eğitim\_konumu        | Konum, başlık ve tam zamanlı eşdeğeri (FTE)                  | Eğitim\_CourseAgenda eğitim\_CourseAttendees                                                                                                                                                   |
-| Eğitim\_WorkerName      | İlk adı, Soyadı ve tam adı                             | Eğitim\_CourseAttendees                                                                                                                                                                          |
+| Eğitim\_CalendarOffset  | Raporları dilimlemek için takvim kaydırmaları                                | Eğitim\_CourseAgenda Eğitim\_CourseAttendees                                                                                                                                                   |
+| Eğitim\_Şirket         | Raporların filtreleneceği şirketler                                   | Eğitim\_CourseAgenda Eğitim\_CourseAttendees                                                                                                                                                   |
+| Eğitim\_Kurs          | Kurs, açıklama, eğitmen adı, konum, yer ve durum | Eğitim\_CourseAgenda Eğitim\_CourseAttendees Eğitim\_CourseSkill                                                                                                                             |
+| Eğitim\_CourseAgenda    | Gündem, kurs, başlangıç ve bitiş saatleri                          | Eğitim\_Şirket Eğitim\_CalendarOffset Eğitim\_Tarih Eğitim\_Kurs                                                                                                                         |
+| Eğitim\_CourseAttendees | Ad, durum, iş ve kayıt tarihi                         | Eğitim\_Şirket Eğitim\_CalendarOffset Eğitim\_Tarih Eğitim\_Demografi Eğitim\_İstihdam Eğitim\_Kurs Eğitim\_WorkerName Eğitim\_WorkerTitle Eğitim\_İş Eğitim\_Pozisyon |
+| Eğitim\_CourseSkill     | Beceri, beceri türü ve düzey                                     | Eğitim\_Kurs                                                                                                                                                                                   |
+| Eğitim\_Tarih            | Günler, haftalar, aylar ve yıllar                                   | Eğitim\_CourseAgenda Eğitim\_CourseAttendees                                                                                                                                                   |
+| Eğitim\_Demografi    | Doğum tarihi, cinsiyet, etnik köken ve medeni hal         | Eğitim\_CourseAgenda Eğitim\_CourseAttendees                                                                                                                                                   |
+| Eğitim\_İstihdam      | Başlangıç tarihi, bitiş tarihi ve geçiş tarihi                        | Eğitim\_CourseAgenda Eğitim\_CourseAttendees                                                                                                                                                   |
+| Eğitim\_İş             | İşlev, tür ve başlık                                        | Eğitim\_CourseAgenda Eğitim\_CourseAttendees                                                                                                                                                   |
+| Eğitim\_Pozisyon        | Pozisyon, unvan ve tam zamanlı eşdeğeri (FTE)                  | Eğitim\_CourseAgenda Eğitim\_CourseAttendees                                                                                                                                                   |
+| Eğitim\_WorkerName      | Adı, ikinci ad ve tam adı                             | Eğitim\_CourseAttendees                                                                                                                                                                          |
 | Eğitim\_WorkerTitle     | Başlık ve kıdem tarihi                                         | Eğitim\_CourseAttendees                                                                                                                                                                          |
 
-Bu varlıklar, hesaplanmış ölçüler veri modelleri oluşturmak için kullanılıyordu. Bunlar hesaplanmış ölçüler sonra anahtar performans göstergeleri (APG) hesaplamak için kullanılır ve içerik paketinde kullanılan raporlar. Raporları ve gösterge tablosu ek hesaplamalara dahil etmek isterseniz, karşıdan yükleyip LCS Training.pbix dosyasından değiştirin. Bu dosyayı içerik paketi oluşturmak için kullanılan varsayılan veri modelidir. Değişiklikleri yaptıktan sonra bir Kuruluş İçerik Paketi ve eklediğiniz bilgiler içeren Pano oluşturabilirsiniz.
+Bu varlıklar, veri modelinde hesaplanmış ölçümler oluşturmak için kullanılıyordu. Bu hesaplanmış ölçümler daha sonra anahtar performans göstergeleri (KPI'ları) hesaplamak ve içerik paketinde kullanıla raporları hesaplamakta kullanılır. Raporlarınıza ve panonuza ek hesaplamalar dahil etmek istiyorsanız, Training.pbix dosyasını LCS'den indirebilir ve değiştirebilirsiniz. Bu dosya, içerik paketini oluşturmak için kullanılan varsayılan veri modelidir. Değişikliklerinizi yaptıktan sonra, eklediğiniz içerikleri kapsayan bir kuruluş içerik paketi ve panosu oluşturabilirsiniz.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 Power BI içeriği oluşturmak ve varlıklarla ilgili bazı yararlı bağlantılar şunlardır:
@@ -71,6 +74,8 @@ Power BI içeriği oluşturmak ve varlıklarla ilgili bazı yararlı bağlantıl
 -   [Kuruluş içerik paketleri oluşturma](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Power BI kullanarak veri modelleme](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Çalışma alanlarına Power BI kutucukları ekleme](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Kısmi Satıcı ödeme ve son ödeme iskontosu tarihinden önce tam olarak kapatma"
+title: "İskonto tarihinden önce bir kısmi satıcı ödemesini ve nihai ödemeyi tam olarak kapatın"
 description: "Bu makale size, satıcı faturası için kısmi ödemelerin yapıldığı ve nakit iskontosunun alındığı bir senaryo sunar."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Kısmi Satıcı ödeme ve son ödeme iskontosu tarihinden önce tam olarak kapatma
+# <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>İskonto tarihinden önce bir kısmi satıcı ödemesini ve nihai ödemeyi tam olarak kapatın
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makale size, satıcı faturası için kısmi ödemelerin yapıldığı ve nakit iskontosunun alındığı bir senaryo sunar.
 
-Fabrikam, 3064 satıcıdan malları satın alıyor. 14 gün içinde faturası ödeniyorsa satıcı nakit iskontosu yüzde 1'lik Fabrikam verir. Faturaların 30 gün içinde ödenmesi gerekir. Satıcı ayrıca Fabrikam'ın kısmi ödemelerde nakit iskontolar alabilmesine izin verir. Kapatma parametreleri üzerinde bulunan **hesaplarına borç parametreleri** sayfa. 25 Haziran tarihinde April, satıcı 3064 için 1.000,00 tutarında bir fatura giriyor.
+Fabrikam 3064 numaralı satıcıdan mal satın alıyor. Satıcı, bir faturanın 14 gün içinde ödenmesi durumunda Fabrikam'a yüzde 1 oranında bir nakit iskontosu veriyor. Faturaların 30 gün içinde ödenmesi gerekir. Satıcı ayrıca Fabrikam'ın kısmi ödemelerde nakit iskontolar alabilmesine izin verir. Kapatma parametreleri **Borç hesapları parametreleri** sayfasındadır. 25 Haziran tarihinde April, satıcı 3064 için 1.000,00 tutarında bir fatura giriyor.
 
 ## <a name="vendor-invoice-on-june-25"></a>25 Haziran tarihindeki satıcı faturası
-Haziran 25 Nisan girer ve satıcı 3064 için 1.000,00 ait faturayı deftere nakleder. April bu hareketi **Satıcı hareketleri** sayfasında görüntüleyebilir.
+25 Haziran tarihinde April 3064 numaralı satıcı için 1.000,00 tutarında bir fatura giriyor ve deftere naklediyor. April bu hareketi **Satıcı hareketleri** sayfasında görüntüleyebilir.
 
 | Fiş   | Tarih      | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Kalan   | Para Birimi |
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
@@ -63,7 +66,7 @@ April, iskonto tutarını görmek için **Nakit iskontosu** sekmesini tıklıyor
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
 ## <a name="partial-payment-on-july-1-by-using-the-settle-transactions-page"></a>Kapatma hareketleri sayfası kullanılarak 1 Temmuz tarihli kısmi ödeme
-April, Borç hesapları altındaki **Ödeme günlüğü** sayfasını açarak bu ödeme için bir ödeme günlüğü oluşturabilir. Filiz, yeni bir günlük oluşturun ve 3064 satıcı için bir satır girer. Daha sonra açılır **kapatma hareketleri** sayfa, böylece o fatura kapatması için işaretleyebilirsiniz. April, faturayı işaretliyor ve **Kapatılacak tutar** alanındaki değeri **-500,00** olarak değiştiriyor. **Nakit iskonto tutarı** alanındaki değerin tam fatura için **-10,00** olduğunu ve **Alınacak nakit iskonto tutarı** alanındaki değerin **-5,05** olduğunu görüyor. Bu nedenle, April bu fatura için-505,05 tutarını kapatıyor.
+April, Borç hesapları altındaki **Ödeme günlüğü** sayfasını açarak bu ödeme için bir ödeme günlüğü oluşturabilir. Yeni bir günlük oluşturuyor ve 3064 numaralı satıcı için bir satır giriyor. Ardından, kapatılacak faturayı işaretleyebilmek için **Hareketleri kapat** sayfasını açıyor. April, faturayı işaretliyor ve **Kapatılacak tutar** alanındaki değeri **-500,00** olarak değiştiriyor. **Nakit iskonto tutarı** alanındaki değerin tam fatura için **-10,00** olduğunu ve **Alınacak nakit iskonto tutarı** alanındaki değerin **-5,05** olduğunu görüyor. Bu nedenle, April bu fatura için-505,05 tutarını kapatıyor.
 
 | İşaret     | Nakit iskontosu kullan | Fiş   | Hesap | Tarih      | Vade tarihi  | Fatura | Hareket para birimi cinsinden tutar | Para Birimi | Kapatılacak tutar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -95,7 +98,7 @@ April faturanın tam olarak yarısını kapatmak istiyor. Bu nedenle, **Kapatıl
 | Alınan nakit iskontosu          | 0,00      |
 | Alınacak nakit iskontosu tutarı | -5,00     |
 
-April, **Kapatma hareketleri** sayfasını kapatıyor. Günlükte 495,00 tutarı için bir ödeme satırı oluşturuluyor ve April daha sonra günlüğü naklediyor. Nisan gözden geçirebilirsiniz satıcı hareketleri üzerinde **satıcı hareketleri** sayfa. Fatura-500.00 dengesi olduğunu görür. Ayrıca, 495.00 tutarında bir ödeme ve 5,00 tutarında bir nakit iskontosu görüyor.
+April, **Kapatma hareketleri** sayfasını kapatıyor. Günlükte 495,00 tutarı için bir ödeme satırı oluşturuluyor ve April daha sonra günlüğü naklediyor. April satıcı hareketlerini **Satıcı hareketleri** sayfasında görüntüleyebiliyor. Faturanın -500.00 bakiyede olduğunu görüyor. Ayrıca, 495.00 tutarında bir ödeme ve 5,00 tutarında bir nakit iskontosu görüyor.
 
 | Fiş    | Hareket türü | Tarih      | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Kalan | Para Birimi |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
@@ -136,6 +139,8 @@ April, ödeme günlüğünü naklediyor ve **Satıcı hareketleri** sayfasından
 | DISC-10010 | Nakit iskontosu    | 1/7/2015  |         | 5,00                                 |                                       | 0,00    | ABD Doları      |
 | APP-10011  | Ödeme          | 8/7/2015  |         | 495,00                               |                                       | 0,00    | ABD Doları      |
 | DISC-10011 | Nakit iskontosu    | 8/7/2015  |         | 5,00                                 |                                       | 0,00    | ABD Doları      |
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling-options"></a>Operasyon planlama çizelgeleme seçenekleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu konu, Operasyon planlama çizelgelemesi seçeneklerini açıklar. Operasyon planlama çizelgelemesini zaman içinde üretim süresine dair genel bir tahmin yapmak için kullanabilirsiniz.
 
 Operasyon planlama çizelgeleme, bir üretim emri için aşağıdaki bilgileri hesaplar:
@@ -128,6 +131,8 @@ Geçerli değerleri, varsayılan değerler olarak kaydedebilirsiniz. İki seçen
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Operations scheduling](operations-scheduling.md)
+[Operasyon planlama çizelgeleme](operations-scheduling.md)
+
+
 
 

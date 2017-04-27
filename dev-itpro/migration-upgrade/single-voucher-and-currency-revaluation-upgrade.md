@@ -1,6 +1,6 @@
 ---
-title: "Tek fiş ve para birimi yeniden değerleme işlemleri 1611 sürümü için Microsoft Dynamics 365 için yükseltme"
-description: "Bazı kuruluşlar, birden fazla müşteri veya satıcı olan tek bir fiş içeren günlükleri girin ve ayrıca Alacak hesapları veya hesapları ödenecek yabancı para birimi yeniden değerleme işlemi çalıştırın. Bu konu, 1611 işlemleri sürümü için Microsoft Dynamics 365 arası yükselttiğinizde bu kuruluşlar adımları açıklar."
+title: "Microsoft Dynamics 365 for Operations sürüm 1611 için tek fiş ve para birimi yeniden değerleme yükseltmesi"
+description: "Bazı kuruluşlar, birden fazla müşteri veya satıcı olan tek bir fiş içeren günlükler girer ve ayrıca Alacak hesapları veya Borç hesapları yabancı para birimi yeniden değerleme işlemini çalıştırır. Bu konuda, bu kuruluşlar Microsoft Dynamics 365 for Operations&quot;ı sürüm 1611&quot;e yükseltirken izlemeleri gereken adımlar açıklanmaktadır."
 author: twheeloc
 manager: AnnBe
 ms.date: 2016-12-28 16 - 04 - 17
@@ -24,15 +24,15 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="single-voucher-and-currency-revaluation-upgrade-for-microsoft-dynamics-365-for-operations-version-1611"></a>Tek fiş ve para birimi yeniden değerleme işlemleri 1611 sürümü için Microsoft Dynamics 365 için yükseltme
+# <a name="single-voucher-and-currency-revaluation-upgrade-for-microsoft-dynamics-365-for-operations-version-1611"></a>Microsoft Dynamics 365 for Operations sürüm 1611 için tek fiş ve para birimi yeniden değerleme yükseltmesi
 
-Bazı kuruluşlar, birden fazla müşteri veya satıcı olan tek bir fiş içeren günlükleri girin ve ayrıca Alacak hesapları veya hesapları ödenecek yabancı para birimi yeniden değerleme işlemi çalıştırın. Bu konu, 1611 işlemleri sürümü için Microsoft Dynamics 365 arası yükselttiğinizde bu kuruluşlar adımları açıklar.
+Bazı kuruluşlar, birden fazla müşteri veya satıcı olan tek bir fiş içeren günlükler girer ve ayrıca Alacak hesapları veya Borç hesapları yabancı para birimi yeniden değerleme işlemini çalıştırır. Bu konuda, bu kuruluşlar Microsoft Dynamics 365 for Operations'ı sürüm 1611'e yükseltirken izlemeleri gereken adımlar açıklanmaktadır.
 
-Microsoft Dynamics 365 arası işlemler için sürüm 1611'e yükselttiğinizde, aşağıdaki adımları izleyin.
+Microsoft Dynamics 365 for Operations'ı sürüm 1611'e yükseltirken aşağıdaki adımları izleyin.
 
-1.  Dynamics 365 işlemleri için yükseltmeden önce yabancı para birimi yeniden değerleme işlemleri için Alacak hesapları ve Borç hesapları çalışır. Set **yöntemi** alanı **fatura tarihi**. Son yabancı para birimi yeniden değerleme tersine çevirir yeniden değerleme hareketi oluşturulur. Bu nedenle, açık hareketler kendi orijinal hesap para biriminden değerli.
-2.  Dynamics 365 arası 1611 işlemleri sürüm için yükseltme.
-3.  Alacak hesapları ve hesapları ödenecek yabancı para birimi yeniden değerleme işlemleri yeniden çalıştırın. Bu kez, set **yöntemi** alanı **standart**. Geçerli döviz kurları üzerinde temel alan yeni bir yeniden değerleme hareketi oluşturulur. Bu işlem gerçekleşmemiş kazanç/kayıp ve doğru Özet genel muhasebe hesabına kaydeder.
+1.  Dynamics 365 for Operations'ı yükseltmeden önce Alacak hesapları ve Borç hesapları için yabancı para birimi yeniden değerleme işlemlerini çalıştırın. **Yöntem** alanı ayarını **Fatura tarihi** yapın. Son yabancı para birimi yeniden değerleme işlemini tersine çeviren bir yeniden değerleme hareketi oluşturulur. Bu nedenle, açık hareketler orijinal muhasebe para birimleriyle değerlendirilir.
+2.  Dynamics 365 for Operations'ı sürüm 1611'e yükseltin.
+3.  Alacak hesapları ve Borç hesapları yabancı para birimi yeniden değerleme işlemlerini yeniden çalıştırın. Bu kez, **Yöntem** alanı ayarını **Standart** yapın. Geçerli döviz kurları temel alınarak yeni bir yeniden değerleme hareketi oluşturulur. Bu hareket gerçekleşmemiş kazanç/kayıp ve doğru özet genel muhasebe hesabını kaydeder.
 
 
 

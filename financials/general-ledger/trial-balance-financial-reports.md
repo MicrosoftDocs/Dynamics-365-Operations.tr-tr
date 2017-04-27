@@ -1,6 +1,6 @@
 ---
 title: "Mizan mali raporları"
-description: "Bu makalede, mizanlar için varsayılan raporları açıklar. Ayrıca, bu raporlar ve iş gereksinimlerinize uyacak şekilde raporların nasıl değiştirileceği ile ilgili olan yapı taşlarını açıklanır."
+description: "Bu makalede, mizanlar için varsayılan raporlar açıklanmaktadır. Ayrıca, bu raporlarla ilgili yapı taşları ve raporların iş gereksinimlerinize uyacak şekilde nasıl değiştirileceği açıklanmaktadır."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="trial-balance-financial-reports"></a>Mizan mali raporları
 
-Bu makalede, mizanlar için varsayılan raporları açıklar. Ayrıca, bu raporlar ve iş gereksinimlerinize uyacak şekilde raporların nasıl değiştirileceği ile ilgili olan yapı taşlarını açıklanır. 
+[!include[banner](../includes/banner.md)]
+
+
+Bu makalede, mizanlar için varsayılan raporlar açıklanmaktadır. Ayrıca, bu raporlarla ilgili yapı taşları ve raporların iş gereksinimlerinize uyacak şekilde nasıl değiştirileceği açıklanmaktadır. 
 
 <a name="default-trial-balance-reports"></a>Varsayılan mizan raporları
 -----------------------------
@@ -51,7 +54,7 @@ Mizan mali raporları aşağıdaki yapı taşlarını kullanır.
 
 ### <a name="row-definition"></a>Satır tanımı
 
-Satır tanımı Mizan – varsayılan, tüm ana hesaplarında çeker, tek bir satır içerir. Bu nedenle, herhangi biri hiçbir değişiklik yapmasına gerek kalmadan rapor oluşturabilir. Raporu görüntülediğinizde, her bir hesap hakkında ayrıntılı bilgileri görmek için tek bir satıra bakarsınız. Satır tanımını daha fazla ayrıntı içerecek şekilde değiştirebilirsiniz. Mizan – Varsayılan satır tanımını tüm hesaplar için satırları içerecek şekilde değiştirmek için, bu adımları takip edin.
+Satır tanımı, Mizan – Varsayılan, tüm ana hesaplardan veri çeken tek bir satır içerir. Bu nedenle, herhangi biri hiçbir değişiklik yapmasına gerek kalmadan rapor oluşturabilir. Raporu görüntülediğinizde, her bir hesap hakkında ayrıntılı bilgileri görmek için tek bir satıra bakarsınız. Satır tanımını daha fazla ayrıntı içerecek şekilde değiştirebilirsiniz. Mizan – Varsayılan satır tanımını tüm hesaplar için satırları içerecek şekilde değiştirmek için, bu adımları takip edin.
 
 1.  **Düzenle** öğesini ve ardından **Boyutlardan Satır Ekle** öğesini tıklayın. **Boyutlardan Satır Ekle** komutu, satır tanımınızda olmasını istediğiniz boyutları seçmenize izin verir. Bu satır tanımı için **Ana Hesap** kullanılacaktır.
 2.  **Ana Hesabın** tüm işaretleri içerdiğinden emin olun ve ardından **Tamam** öğesini tıklayın.
@@ -100,10 +103,12 @@ Her bir mizan raporunu farklı bir sütun tanımı kullanır. Bu sütun tanımla
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Mali raporlama](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Mali raporları görüntüleme](view-financial-reports.md)
 
-[Dynamics finansal raporlama Blog](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamics Mali Raporlama Blogu](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

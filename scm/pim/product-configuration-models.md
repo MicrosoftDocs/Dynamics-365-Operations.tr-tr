@@ -1,6 +1,6 @@
 ---
-title: "Ürün yapılandırma modelleri genel bakış"
-description: "Bu makalede, hüküm ve ürün yapılandırma modelleriyle ilgili kavramlar tanımlanmaktadır. Ürün yapılandırma modelleri, tek bir ürün için pek çok ürün çeşitleri yapılandırmak için kullanılan bir genel ürün yapı sağlar."
+title: "Ürün yapılandırma modellerine genel bakış"
+description: "Bu makalede, ürün yapılandırma modelleriyle ilgili koşullar ve kavramlar tanımlanmaktadır. Ürün yapılandırma modelleri, tek bir ürün için pek çok ürün çeşitleri yapılandırmak için kullanılan bir genel ürün yapısı oluşturmanızı sağlar."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="product-configuration-models-overview"></a>Ürün yapılandırma modelleri genel bakış
+# <a name="product-configuration-models-overview"></a>Ürün yapılandırma modellerine genel bakış
 
-Bu makalede, hüküm ve ürün yapılandırma modelleriyle ilgili kavramlar tanımlanmaktadır. Ürün yapılandırma modelleri, tek bir ürün için pek çok ürün çeşitleri yapılandırmak için kullanılan bir genel ürün yapı sağlar.
+Bu makalede, ürün yapılandırma modelleriyle ilgili koşullar ve kavramlar tanımlanmaktadır. Ürün yapılandırma modelleri, tek bir ürün için pek çok ürün çeşitleri yapılandırmak için kullanılan bir genel ürün yapısı oluşturmanızı sağlar.
 
 Ürün yapılandırma modelleri genel bir ürün yapısını temsil etmek üzere oluşturulur. Bir ürün yapılandırma modeli ayarladıktan sonra benzersiz bir ürün reçetesi (BOM) ve benzersiz bir rotası olan farklı bir ürün çeşidi yapılandırabilirsiniz. Ürün yapılandırma modelleri hem bildirime dayalı kısıtlamalar hem de kesinlik temelli hesaplamaları kullanarak farklı ürün çeşitleri arasındaki ilişkileri ve sınırlamaları işler. Satış siparişleri, satış teklifleri, satınalma siparişleri ve üretim emirlerindeki öğeleri yapılandırabilirsiniz. Aşağıdaki tablo, tablo kısıtlaması tabanlı terimleri ve kavramları açıklar.
 <table>
@@ -69,16 +69,16 @@ Ayrıca, öznitelikler için bir koşul belirtebilirsiniz. Koşul karşılanırs
 <li>Sabit bir listesi olan veya olmayan, <strong>Metin</strong> .</li>
 <li><strong>Boole</strong></li>
 </ul>
-Eğer öznitelik türü <strong>Boolean</strong>, aralığa sahip bir <strong>Tamsayı</strong> veya sabit bir listesi olan <strong>Metin</strong> ise, bir ürün yapılandırma modeli ayarlanırken değerleri kümesi kullanılabilir. <strong>Not:</strong> ürün yapılandırma Çözücü aşağıdaki öznitelik türlerini tanır: <strong>Boolean</strong>, <strong>metin</strong> sabit bir liste ile ve <strong>tamsayı</strong> bir aralık ile. Bu nedenle, yalnızca bu öznitelik türleri deyim kısıtlamaları ve şartları için kullanılabilir.</td>
+Eğer öznitelik türü <strong>Boolean</strong>, aralığa sahip bir <strong>Tamsayı</strong> veya sabit bir listesi olan <strong>Metin</strong> ise, bir ürün yapılandırma modeli ayarlanırken değerleri kümesi kullanılabilir. <strong>Not:</strong> Ürün yapılandırma çözüm sağlayıcısı yalnızca şu öznitelik türlerini tanır: <strong>Boolean</strong>, sabit listeye sahip <strong>Metin</strong> ve bir aralığa sahip <strong>Tamsayı</strong>. Bu nedenle, yalnızca bu öznitelik türleri deyim kısıtlamaları ve şartları için kullanılabilir.</td>
 </tr>
 <tr class="even">
 <td>Sınırlamalar</td>
 <td>Kısıtlamalar, ürün modeli yapılandırmasının kısıtlamalarını açıklamaktadır. Kısıtlamalar, bir ürün yapılandırılırken yalnızca geçerli değerlerin seçildiğini güvence altına almak için kullanılır. Kısıtlamalar ya ifade kısıtlamaları ya da tablo kısıtlamaları olabilirler.
 <ul>
 <li>İfade kısıtlamaları yalnızca bağlı oldukları bileşen için kullanılabilirler. Bir bileşen için deyim kısıtlamaları, bileşenin alt bileşenlerinin özniteliklerini referans gösterebilir. Ürün yapılandırma çözücüsü kısıtlamaları çözmek için kullanılır ve kısıtlamaları yazarken çözücü sözdizimi kullanmanız gerekir. Daha fazla bilgi için ifade kısıtlamaları ve tablo kısıtlamaları wiki bağlantısına bakınız.</li>
-<li>Ürün yapılandırma modelinde bir bileşen için uygulanabilir önce tablo kısıtlamaları tanımlanmalıdır. Kullanıcı tanımlı veya sistem tarafından tanımlanan tablo kısıtlamaları olabilir. Bir kullanıcı tanımlı tablo kısıtlaması öznitelik türleri tarafından tanımlanan öznitelik değerleri için bir dizi kombinasyonu tanımlamak için kullanılabilecek bir matris türüdür. Örneğin üretilecek şey bir hoparlör ise, kullanıcı tanımlı tablo kısıtlaması için matris, hoparlörün yüzey rengi için sütunlara sahip olabilir.</li>
+<li>Ürün yapılandırma modelindeki bir bileşene uygulanabilmesi için tablo kısıtlamaları belirlenmelidir. Tablo kısıtlamaları kullanıcı tanımlı veya sistem tanımlı olabilir. Bir kullanıcı tanımlı tablo kısıtlaması öznitelik türleri tarafından tanımlanan öznitelik değerleri için bir dizi kombinasyonu tanımlamak için kullanılabilecek bir matris türüdür. Örneğin üretilecek şey bir hoparlör ise, kullanıcı tanımlı tablo kısıtlaması için matris, hoparlörün yüzey rengi için sütunlara sahip olabilir.</li>
 </ul>
-<strong>Örnek</strong> Hoperlörler dört yüzey rengine veya türüne sahip olabilir: Siyah, Meşe, Venge ve Beyaz. Hoparlör üç ön ızgara birine sahip olabilirsiniz: siyah, Metal veya beyaz. Siyah bitirme tüm ızgara için kullanılabilir, ancak diğer bitirdiğinde özel ızgara için sınırlıdır. Aşağıdaki tablo <strong>Tablo kısıtlamasını düzenle</strong> sayfasındaki <strong>İzin verilen birleşimler</strong> sekmesindeki görüntülenen örnek bilgiyi gösterir.
+<strong>Örnek</strong> Hoperlörler dört yüzey rengine veya türüne sahip olabilir: Siyah, Meşe, Venge ve Beyaz. Hoparlörde üç ön ızgaradan biri bulunabilir: Siyah, Metal veya Beyaz. Siyah yüzey tüm ızgaralar için kullanılabilir, ancak diğerleri belirli ızgaralar için sınırlıdır. Aşağıdaki tablo <strong>Tablo kısıtlamasını düzenle</strong> sayfasındaki <strong>İzin verilen birleşimler</strong> sekmesindeki görüntülenen örnek bilgiyi gösterir.
 <table>
 <thead>
 <tr class="header">
@@ -117,11 +117,11 @@ Eğer öznitelik türü <strong>Boolean</strong>, aralığa sahip bir <strong>Ta
 </tr>
 </tbody>
 </table>
-Bir sistem tanımlı tablo kısıtlaması bir öznitelik türü ve Dynamics 365 işlemleri tablosu için bir alan arasındaki bir eşlemeyi temsil eder. Bir sistem tanımlı tablo kısıtlaması öznitelik türü alanı için dinamik olarak bağlar. Bağlantı, Dynamics 365 işlemleri tablosu için alanı verileri göstermek için ürün yapılandırma modelinde özniteliği etkinleştirir.</td>
+Sistem tanımlı bir tablo kısıtlaması, bir Dynamics 365 for Operations tablosundaki bir alan ile bir öznitelik türü arasındaki bir eşlemeyi temsil eder. Sistem tanımlı tablo kısıtlaması öznitelik türünü alana dinamik olarak bağlar. Bağlantı, bir ürün yapılandırması modelindeki özniteliği Dynamics 365 for Operations tablosundaki alanlarda bulunan verileri göstermek üzere etkinleştirir.</td>
 </tr>
 <tr class="odd">
 <td>Hesaplamalar</td>
-<td>Hesaplamalar kısıtlamalar için bir ek olarak temsil eder. Özniteliklerini aritmetik işlemleri gerçekleştirmek için bir hesaplama kullanmak <strong>ondalık</strong> ve <strong>tamsayı</strong> türleri veya özniteliklerini içeren mantıksal işlemleri <strong>metin</strong> sabit bir liste ile ve <strong>Boolean</strong> türleri. Bir hesaplamanın, hesaplama ifadesinin sonucunu tutacak bir hedef özniteliği vardır. Hesaplama ifadesi, ifade düzenleyicisi kullanılarak üretilmiştir.</td>
+<td>Hesaplamalar kısıtlamalar için bir ektir. <strong>Ondalık</strong> ve <strong>Tamsayı</strong> türlerindeki öznitelikler üzerinde aritmetik işlemler gerçekleştirmek için bir işlem yapmak veya sabit listeli <strong>Metin</strong> ve <strong>Boolean</strong> türleri için mantık işlemleri yapmak için hesaplamayı kullanabilirsiniz. Bir hesaplamanın, hesaplama ifadesinin sonucunu tutacak bir hedef özniteliği vardır. Hesaplama ifadesi, ifade düzenleyicisi kullanılarak üretilmiştir.</td>
 </tr>
 <tr class="even">
 <td>Alt bileşenler</td>

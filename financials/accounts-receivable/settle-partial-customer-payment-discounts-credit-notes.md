@@ -1,5 +1,5 @@
 ---
-title: "Kısmi Müşteri ödeme iskontoları alacak dekontları olan tasfiye et"
+title: "Alacak dekontlarında iskontolar içeren bir kısmi müşteri ödemesini kapatma"
 description: "Bu makalede orijinal fatura da bir nakit iskontosu içeriyorken bir credit note&quot;a nakit iskontosunun uygulandığı bir senaryo açıklanmıştır."
 author: twheeloc
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Kısmi Müşteri ödeme iskontoları alacak dekontları olan tasfiye et
+# <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Alacak dekontlarında iskontolar içeren bir kısmi müşteri ödemesini kapatma
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede orijinal fatura da bir nakit iskontosu içeriyorken bir credit note'a nakit iskontosunun uygulandığı bir senaryo açıklanmıştır. 
 
-Fabrikam, kısmi ödemelerde ve de alacak dekontlarında (alacak makbuzları) müşterilerin nakit iskontoları almasını sağlar. Nakit iskontosu, alacak dekontu müşterinin nakit iskontosu aldığı fatura için kesildiğinde bir alacak dekontunda da alınabilir. Tam tutar için bir alacak oluşturmak yerine, müşteri bakiyesini müşterinin nakit iskontosu yüzdesini dışarıda tutan bit tutarla alacaklandırabilirsiniz. Kapatma parametreleri üzerinde bulunan **Accounts receivable parameters** sayfa.
+Fabrikam, kısmi ödemelerde ve de alacak dekontlarında (alacak makbuzları) müşterilerin nakit iskontoları almasını sağlar. Nakit iskontosu, alacak dekontu müşterinin nakit iskontosu aldığı fatura için kesildiğinde bir alacak dekontunda da alınabilir. Tam tutar için bir alacak oluşturmak yerine, müşteri bakiyesini müşterinin nakit iskontosu yüzdesini dışarıda tutan bit tutarla alacaklandırabilirsiniz. Kapatma parametreleri, **Alacak hesapları parametreleri** sayfasında bulunur.
 
 ## <a name="invoice-and-credit-note"></a>Fatura ve alacak dekontu
 Müşteri 4035'in tutarı 1.000,00 olan bir faturası ve 100,00 tutarında bir alacak dekontu vardır. 14 günde ödeniyorsa, her belgede yüzde 1'lik bir indirim olur. Tamer, bu bilgileri **Müşteri hareketleri** sayfasında görüntüleyebilir.
@@ -59,5 +62,7 @@ Tamer, **Müşteri hareketleri** sayfasında **Hareketleri kapat** sayfasın aç
 | Alınacak nakit iskontosu tutarı | -1,00     |
 
 Kapatma 100,00 tutarında olur ve 99,00 tutarında bir ödeme ve 1,00 tutarında iskonto içerir.
+
+
 
 

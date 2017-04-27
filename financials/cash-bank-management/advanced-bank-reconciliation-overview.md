@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advanced-bank-reconciliation-overview"></a>Gelişmiş banka mutabakatına genel bakış
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makale gelişmiş banka mutabakat işleminin akışını açıklar. Gelişmiş banka mutabakatı özelliği, banka hareketleri içinden otomatik olarak mutabakatı alınan banka ekstrelerini içe aktarmanıza izin verir.
 
 Gelişmiş banka mutabakatı özelliği banka ekstrelerini içe aktarmanıza izin verir. İçe aktarılan banka ekstresi için daha sonra banka hareketleri içinde otomatik olarak mutabakat sağlanabilir. Burada, gelişmiş banka mutabakatı akış içindeki adımlar açıklanmıştır.
@@ -38,13 +41,15 @@ Gelişmiş banka mutabakatı özelliği banka ekstrelerini içe aktarmanıza izi
     -   Bu işlev herhangi bir formata genişletilebilir.
 
 2.  Gelişmiş banka mutabakatı için kullanılacak bir numara sırası oluşturun ve banka mutabakatı eşleştirme kurallarını tanımlayın.
-    -   Mutabakat eşleştirme kuralı banka ekstresi satırları ve Microsoft Dynamics 365 mutabakat işlemi sırasında işlemleri banka hareket satırları süzmek için kullanılan ölçüt kümesidir. İş deneyim bağlı olarak, otomatikleştirmek ve mutabakat işleminizin en iyi duruma getirmek için birden fazla eşleşen kural ayarlayabilirsiniz.
+    -   Bir mutabakat eşleştirme kuralı, mutabakat süreci sırasında banka ekstresi satırlarını ve Microsoft Dynamics 365 for Operations banka hareket satırlarını filtrelemek için kullanılan bir ölçüt kümesidir. İş yönteminize bağlı olarak, birden fazla eşleşme kuralını, mutabakat sürecinizi otomatikleştirme ve optimize etmek için ayarlayabilirsiniz.
 
-3.  Dynamics 365 banka ekstreleri işlemleri banka hareketleri arasında mutabakat.
+3.  Banka ekstrelerinin Dynamics 365 for Operations banka hareketleriyle mutabakatını sağlayın.
     -   Mutabakat günlükleri için otomatik eşleştirme ve oluşturma işlemleri yürütün.
-    -   Banka Ekstrelerini görüntülemek ve Dynamics 365 işlemleri banka hareketleri yan yana.
-    -   Otomatik olarak banka ekstresinde görüntülenmesine karşın işlemleri için Dynamics 365 görünmüyor Dynamics 365 işlemleri banka hareketlerini deftere nakledin.
+    -   Banka ekstrelerini ve Dynamics 365 for Operations banka hareketlerini yan yana görüntüleyin.
+    -   Bir banka ekstresinde görüntülenmesine karşın Dynamics 365 for Operations'ta görüntülenmiyorsa, Dynamics 365 for Operations banka hareketlerini otomatik olarak nakledin.
     -   Bir mutabakat tablosu oluşturun.
+
+
 
 
 

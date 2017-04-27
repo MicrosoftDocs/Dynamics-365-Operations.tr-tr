@@ -1,5 +1,5 @@
 ---
-title: "İş akışı içinde elle oluşturulmuş görev yapılandırma"
+title: "Bir görev akışında el ile yapılan görevi yapılandır"
 description: "Bu konu, el ile bir görevin özelliklerini yapılandırmayı açıklar."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-manual-task-in-a-workflow"></a>İş akışı içinde elle oluşturulmuş görev yapılandırma
+# <a name="configure-a-manual-task-in-a-workflow"></a>Bir görev akışında el ile yapılan görevi yapılandır
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu konu, el ile bir görevin özelliklerini yapılandırmayı açıklar.
 
@@ -124,10 +127,10 @@ El ile görev kime atanacağını belirtmek için şu adımları izleyin:
     </tr>
     <tr class="even">
     <td>Kullanıcı</td>
-    <td>İşlemleri kullanıcılar için belirli Microsoft Dynamics 365</td>
+    <td>Belirli Microsoft Dynamics 365 for Operations kullanıcıları</td>
     <td><ol>
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
-    <li><strong>Kullanılabilir kullanıcılar</strong> işlemleri kullanıcılar için tüm Dynamics 365 listesi içerir. Görevin atanacağı kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
+    <li><strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Dynamics 365 for Operations kullanıcılarını içerir. Görevin atanacağı kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -145,8 +148,8 @@ El ile görev kime atanacağını belirtmek için şu adımları izleyin:
     <li><strong>Kuyruk türü</strong> listesinde, <strong>Koşullu iş öğesi kuyrukları</strong>'nı seçin.</li>
     <li><strong>Kuyruk adı</strong> listesinde, <strong>Koşullu kuyruk</strong>'u seçin.</li>
     </ol></li>
-    </ol><ph id="t1">
-    </ph><strong>Not:</strong> bu seçenek yalnızca birkaç iş akışları için servis talebi yönetimi gibi kullanılır.</td>
+    </ol>
+    <strong>Not:</strong> Bu seçenek yalnızca servis talebi yönetimi gibi bazı iş akışları için kullanılır.</td>
     </tr>
     </tbody>
     </table>
@@ -214,10 +217,10 @@ Eğer bir kullanıcı ayırılan zaman içerisinde el ile görevi tamamlamazsa, 
     </tr>
     <tr class="odd">
     <td>Kullanıcı</td>
-    <td>İşlemleri kullanıcılar için belirli Dynamics 365</td>
+    <td>Belirli Dynamics 365 for Operations kullanıcıları</td>
     <td><ol>
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
-    <li><strong>Kullanılabilir kullanıcılar</strong> işlemleri kullanıcılar için tüm Dynamics 365 listesi içerir. Görevin ilerletileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
+    <li><strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Dynamics 365 for Operations kullanıcılarını içerir. Görevin ilerletileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -234,7 +237,7 @@ Eğer bir kullanıcı ayırılan zaman içerisinde el ile görevi tamamlamazsa, 
 6.  İlerletme yolundaki kullanıcılar verilen süre içinde görevi tamamlamazsa, sistem görev üstünde otomatik olarak eylem alır. Sistemin alacağı eylemi belirtmek için **Eylem** satırını seçin ve sonra **Eylemi bitir** sekmesi üzerinde bir eylem seçin.
 
 ## <a name="specify-when-the-system-automatically-acts-on-the-task"></a>Sistemin ne zaman görev üzerinde otomatik olarak eylem alacağını belirtin
-Belirli koşullar sağlandığında sistemin el ile görevler üzerinde eylem almasını yapılandırabilirsiniz. Örneğin, bir görev, Gider raporları departmanının bir üyesinin, bir gider raporu ile birlikte gönderilen girişleri gözden geçirmesini gerektirmektedir. Gider raporu toplam miktarı USD 100 birden fazla ise, şirket ilkesine göre bu görev gerçekleştirilmelidir. Bu senaryoda, sistem otomatik olarak görev olarak işaretlemek için yapılandırabilirsiniz **tam** toplam tutarı 100'den küçük olduğunda. Sistemin bir el ile görev üzerinde ne zaman eylem alması gerektiğin belirtmek için aşağıdaki adımları izleyin:
+Belirli koşullar sağlandığında sistemin el ile görevler üzerinde eylem almasını yapılandırabilirsiniz. Örneğin, bir görev, Gider raporları departmanının bir üyesinin, bir gider raporu ile birlikte gönderilen girişleri gözden geçirmesini gerektirmektedir. Şirket ilkesi uyarınca, bu görev, gider raporunun toplam tutarı 100 USD'den fazlaysa gerçekleştirilmek zorundadır. Bu senaryoda, toplam tutar 100'den az ise sistemi, görevi otomatik olarak **Tamamlandı** olarak işaretlemek üzere yapılandırabilirsiniz. Sistemin bir el ile görev üzerinde ne zaman eylem alması gerektiğin belirtmek için aşağıdaki adımları izleyin:
 
 1.  Sol bölmede **Otomatik eylemler**'ı tıklatın.
 2.  **Otomatik eylemleri etkinleştir** onay kutusunu işaretleyin.
@@ -308,10 +311,10 @@ Bir el ile görev tamamlandığında, temsilci atandığında, ilerletildiğinde
     </tr>
     <tr class="odd">
     <td>Kullanıcı</td>
-    <td>İşlemleri kullanıcılar için belirli Dynamics 365</td>
+    <td>Belirli Dynamics 365 for Operations kullanıcıları</td>
     <td><ol>
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
-    <li><strong>Kullanılabilir kullanıcılar</strong> işlemleri kullanıcılar için tüm Dynamics 365 listesi içerir. Bildirimlerin gönderileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
+    <li><strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Dynamics 365 for Operations kullanıcılarını içerir. Bildirimlerin gönderileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -325,8 +328,8 @@ El ile görevin belirli bir süre içerisinde tamamlanması gerekiyorsa bu adım
 1.  Sol bölmede **Gelişmiş ayarlar**'ı tıklatın.
 2.  **İş akışı öğesi için bir zaman sınırı ayarlayın** onay kutusunu işaretleyin.
 3.  **Süre** alanında, görevin ne zaman tamamlanması gerektiğini belirtin. Aşağıdaki seçeneklerden birini belirleyin:
-    -   **Saat** – görevin tamamlanması gereken saat sayısını girin. Daha sonra kuruluşunuzun kullandığı takvimi seçin ve kuruluşunuz iş haftası hakkında bilgi girin.
-    -   **Gün** – görevin tamamlanması gereken gün sayısını girin. Daha sonra kuruluşunuzun kullandığı takvimi seçin ve kuruluşunuz iş haftası hakkında bilgi girin.
+    -   **Saatler** – Görevin tamamlaması gereken saat sayısını girin. Daha sonra kuruluşunuzun kullandığı takvimi seçin ve kuruluşunuz iş haftası hakkında bilgi girin.
+    -   **Günler** – Görevin tamamlaması gereken gün sayısını girin. Daha sonra kuruluşunuzun kullandığı takvimi seçin ve kuruluşunuz iş haftası hakkında bilgi girin.
     -   **Haftalar** – Görevin tamamlaması gereken hafta sayısını girin.
     -   **Aylar** – Görevin tamamlamış olması gereken günü ve haftayı seçin. Örneğin görevin ayın üçüncü haftasının Cuma gününden önce tamamlanmış olmasını isteyebilirsiniz.
     -   **Yıllar** – Görevin tamamlamış olması gereken günü, haftayı ve ayı seçin. Örneğin görevin Aralık ayının üçüncü haftasının Cuma gününden önce tamamlanmış olmasını isteyebilirsiniz.
@@ -343,6 +346,8 @@ El ile görev bir kullanıcıya atandığında kullanıcı görev üstünde eyle
 5.  Kullanıcı görevi başka bir kullanıcıya atayabilecekse **Temsilci seç** onay kutusunu işaretleyin.
 6.  Kullanıcı görevi, iş öğesi kuyruğundaki başka bir kullanıcıya yeniden atayabilecekse **Yeniden Ata** onay kutusunu işaretleyin.
 7.  Kullanıcı görevi, iş öğesi kuyruğundaki başka bir kullanıcıya serbest bırakabilecekse, **Serbest Bırak** onay kutusunu işaretleyin. Daha sonra başka bir kullanıcı bu görevi tamamlayabilir.
+
+
 
 
 

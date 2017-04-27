@@ -1,5 +1,5 @@
 ---
-title: "Nonconformance Yönetimi"
+title: "Uygunsuzluk yönetimi"
 description: "Bu makalede, uygunsuzlukları kullanmak için gereken temel kurulum açıklanmaktadır. Kalite emirleri kullanmak istiyorsanız ek kurulum gereklidir."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="nonconformance-management"></a>Nonconformance Yönetimi
+# <a name="nonconformance-management"></a>Uygunsuzluk yönetimi
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, uygunsuzlukları kullanmak için gereken temel kurulum açıklanmaktadır. Kalite emirleri kullanmak istiyorsanız ek kurulum gereklidir. 
 
@@ -34,7 +37,7 @@ Uygunsuzluk yönetimini etkinleştirmek için şu adımları izleyin:
 1.  Uygunsuzlukla bağlantılı olan Envanter ve depo yönetimi parametrelerini tanımlayın:
     -   **Kalite yönetimini kullan** seçeneğini **Evet** konumuna ayarlayın.
     -   **Saatlik ücret** alanına saatlik işçilik ücretini yerel para birimi cinsinden girin. Saatlik ücret, uygunsuzlukla ilgili operasyonlar için maliyetlerin hesaplanmasında kullanılır. Saatlik ücret ve hesaplanan maliyetler bir uyumsuzluk için referans bilgileri sağlar. Diğer işlevlerle bir etkileşimi yoktur.
-    -   Kullanım **Kalite Yönetimi** üzerinde sekme **rapor Kurulumu** sayfa yazdırmak için belgenin türünü tanımlamak için. Nonconformance raporu, nonconformance etiket veya düzeltme raporu yazdırabilirsiniz. Bir raporda farklı belge türlerini yazdırmak veya dahili ve harici notları yazdırmak için birden fazla kayıt tanımlayabilirsiniz. Uygunsuzluk ve düzeltmeler için ayrı ayrı benzersiz belge türleri tanımlamak için **Belge türü** sayfasını kullanabilirsiniz. Örneğin, benzersiz uygunsuzluk belge türünü kullanarak bir uygunsuzluk hakkında notlar girmek için istiyorsunuz. Bu durumda, benzersiz belge türünü rapor seçeneklerinde belirleyin.
+    -   **Rapor kurulumum** sayfası üzerindeki **Kalite yönetimi** sekmesini kullanarak yazdırılacak belge türünü tanımlayın. Bir uygunsuzluk raporunu, uygunsuzluk etiketini veya düzeltme raporunu yazdırabilirsiniz. Bir raporda farklı belge türlerini yazdırmak veya dahili ve harici notları yazdırmak için birden fazla kayıt tanımlayabilirsiniz. Uygunsuzluk ve düzeltmeler için ayrı ayrı benzersiz belge türleri tanımlamak için **Belge türü** sayfasını kullanabilirsiniz. Örneğin, benzersiz uygunsuzluk belge türünü kullanarak bir uygunsuzluk hakkında notlar girmek için istiyorsunuz. Bu durumda, benzersiz belge türünü rapor seçeneklerinde belirleyin.
     -   Uygunsuzluk ve düzeltme referansları için numara serilerini etkinleştirin.
 
 2.  Uygunsuzluğun kullanıcı tarafından onaylanmasını etkinleştirin. Bir uygunsuzluğu onaylaması gereken her bir kullanıcıya bir personel atamak için **Kullanıcılar** sayfasındaki **Ad** alanını kullanın. Sistem, uygunsuzluk geçmişini izlemek için bir uygunsuzluk durumunu değiştiren personeli kullanır. Kullanıcılar bir personel tanımlayıcı atanmadığı sürece bir uygunsuzluğu onaylayamazlar.
@@ -47,10 +50,12 @@ Uygunsuzluk yönetimini etkinleştirmek için şu adımları izleyin:
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Oluşturma ve işleme uyumsuzluğu (görev Kılavuzu)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
+[Bir uyumsuzluk oluştur ve işle (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
 
-[Quality management processes](quality-management-processes.md)
+[Kalite yönetimi işlemleri](quality-management-processes.md)
 
-[Uyumsuzluk Yönetimi (görev Kılavuzu) için önkoşulları ayarlayın](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+[Uyumlu olmayan yönetimi için ön şartları ayarlama (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+
+
 
 

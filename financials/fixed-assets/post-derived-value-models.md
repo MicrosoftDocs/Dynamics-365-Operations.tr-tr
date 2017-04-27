@@ -1,5 +1,5 @@
 ---
-title: "Türetilmiş Defterleriyle deftere naklet"
+title: "Türetilmiş defterlerle deftere nakletme"
 description: "Bu makale, türetilmiş defterlerin nasıl kullanılacağını açıklar."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="post-with-derived-books"></a>Türetilmiş Defterleriyle deftere naklet
+# <a name="post-with-derived-books"></a>Türetilmiş defterlerle deftere nakletme
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makale, türetilmiş defterlerin nasıl kullanılacağını açıklar.
 
@@ -49,11 +52,13 @@ Aşağıdaki bilgiler, türetilmiş defter işleviyle alım hareketlerinin nası
 
 Ardından, defterler belirli sabit kıymetlere eklenebilir. 
 
-Bir alım defteri VM 1 olan bir sabit kıymet için deftere nakledildiğinde, alım yalnızca VM 1'de değil, aynı zamanda türetilmiş defteri VM 2'de de deftere nakledilmiştir. Her iki sabit kıymet defterleri durumunu açık olarak güncelleştirilir.
+Bir alım, defter VM 1'e sahip bir sabit kıymet için deftere nakledildiğinde, alım yalnızca VM 1'de değil, aynı zamanda türetilmiş defter VM 2'de de deftere nakledilmiştir. Her iki sabit kıymet defterinin durumu da Açık olarak güncelleştirilir.
 
 > [!NOTE]                                                                                                         
 > Türetilmiş defterleri kullanmıyorsanız sabit kıymet alımını hem VM 1 defteri, hem de VM 2 defteri için deftere nakletmeniz gerekir.
 
-Daha fazla bilgi için bkz: [türetilmiş kitaplar](derived-books.md)
+Daha fazla bilgi için bkz. [Türetilmiş defterler](derived-books.md).
+
+
 
 

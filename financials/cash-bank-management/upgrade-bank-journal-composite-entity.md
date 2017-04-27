@@ -1,5 +1,5 @@
 ---
-title: "Banka günlük Bileşik varlık güncelleştirmek"
+title: "Banka günlüğü birleşik varlığını güncelleştirme"
 description: "Ek BankaHareketTürü alanını birleşik BankaGünlükVarlığı&quot;na eklemek için aşağıdaki adımlar gereklidir."
 author: twheeloc
 manager: AnnBe
@@ -24,20 +24,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="update-the-bank-journal-composite-entity"></a>Banka günlük Bileşik varlık güncelleştirmek
+# <a name="update-the-bank-journal-composite-entity"></a>Banka günlüğü birleşik varlığını güncelleştirme
+
+[!include[banner](../includes/banner.md)]
+
 
 Ek BankaHareketTürü alanını birleşik BankaGünlükVarlığı'na eklemek için aşağıdaki adımlar gereklidir.
 
 Ek BankaHareketTürü alanını birleşik BankaGünlükVarlığı'na eklemek için aşağıdaki adımları kullanın.
 
 1.  Aşağıdaki banka günlüğü birleşik varlıklarını, varlıkları ve aşamalandırma tablolarını derleyin ve eşitleyin:
-    -   Bileşik varlık\\BankJournalEntity
-    -   Varlık\\BankJournalHeaderEntity
-    -   Varlık\\BankJournalLineEntity
-    -   Tablo\\BankJournalHeaderStaging
-    -   Tablo\\BankJournalLineStaging
+    -   Birleşik Varlık\\BankaGünlükVarlığı
+    -   Varlık\\BankaGünlüğüBaşlıkVarlığı
+    -   Varlık\\BankaGünlüğüSatırVarlığı
+    -   Tablo\\BankaGünlüğüBaşlıkHazırlığı
+    -   Tablo\\BankaGünlüğüSatırHazırlığı
 
-2.  Veri Yönetimi\\veri projeleri
+2.  Veri yönetimi\\veri projeleri
     -   **Kaynak Veri **yerleşiminde **Banka Hareketi **türünü gösterin.
         -   Kaynak veri biçimi = XML Öğesi
         -   Varlık adı = Banka Günlüğü
@@ -49,6 +52,8 @@ Ek BankaHareketTürü alanını birleşik BankaGünlükVarlığı'na eklemek iç
             -   Banka Hareket Türü'nün Kaynak'tan Aşamalandırma'ya eşleştiğini doğrulayın.
 
 3.  Yeni ekstreyi içe aktarın.
+
+
 
 
 

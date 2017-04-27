@@ -52,13 +52,13 @@ Ambar düzenini etkinleştirme işleminin bir parçası olarak, ambar bölge gru
 -   **Konum türleri** – Ambar konumlarının mantıksal veya fiziksel bir gruplandırması. Örneğin, tüm hazırlama konumları için bir konum türü oluşturabilirsiniz. **Ambar yönetimi parametreleri** sayfasındaki zorunlu ayarlar, hazırlama konum türleri ve son teslim konum türünü tanımlama işlemini çalıştırır.
 -   **Konumlar** – En düşük düzeyde konum bilgileri. Konumlar eldeki stokun nerede depolanacağını ve hangi ambardan çekileceğini izlemek için kullanılır.
 
-Ambar düzeninizi tanımlamak için oluşturduğunuz bir varlıklar, ambarda iş siparişlerini başlatmak için oluşturduğunuz iş şablonlarında ayarladığınız sorgularda kullanılır. Bu nedenle, bölgeleri, konum türlerini ve benzerlerini tanımlarken, ambardaki farklı alanların farklı işlemler için nasıl kullanıldığını göz önünde bulundurun. Ayrıca, belirli bir alanın fiziksel özellikleri gibi etkenleri göz önünde bulundurun. Örneğin, burada, yalnızca belirli türde forklift aracıyla kullanabileceğiniz alanları olabilir. Ya da, şirketinizin hem üretim hem de mamuller aynı tesis içinde varsa, Dynamics 365 işlemleri için tek bir ambar oluşturun, ancak iki bölge grupları oluşturarak iki işlemi sonra ayırmak isteyebilirsiniz. Şablon sorgularda kullandığınızda tanımak kolaydır böylece varlıklarınızı açıklayıcı adlar verin.
+Ambar düzeninizi tanımlamak için oluşturduğunuz bir varlıklar, ambarda iş siparişlerini başlatmak için oluşturduğunuz iş şablonlarında ayarladığınız sorgularda kullanılır. Bu nedenle, bölgeleri, konum türlerini ve benzerlerini tanımlarken, ambardaki farklı alanların farklı işlemler için nasıl kullanıldığını göz önünde bulundurun. Ayrıca, belirli bir alanın fiziksel özellikleri gibi etkenleri göz önünde bulundurun. Örneğin, yalnızca belirli türde forklift kullanabileceğiniz alanlar olabilir. Veya şirketiniz aynı tesis içerisinde hem üretime yönelik hem de mamul mallara sahipse, Dynamics 365 for Operations'ta tek bir depo oluşturmak ancak iki bölge grubu oluşturarak iki operasyonu ayırmak isteyebilirsiniz. Varlıklarınıza açıklayıcı adlar verirseniz şablon sorgularında kullanırken tanımanız kolay olur.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Konum stoklama sınırları, konum profilleri ve sabit çekme konumları
 
 Ambarın fiziksel düzenini, hem depolama kapasitesini (konum stoklama sınırları ve konum profilleri) belirlemek hem de en iyi ambar işlemlerini elde etme çabanızın bir parçası olarak dikkate almanız gerekir. 
 
-Bu stok istemek için çalışma oluþturulmaz garanti sınırları yardımcı konum stoklama fiziksel envanter taşıyan yeteneği olmayan bir konumda konması. Örneğin, bazı yerlerde ambar içinde konum yalnızca bir palet olmuyorsa sınırları stoklama konumu etkinleştirilebilir. ** Miktar ** değer ayarlanabilir **1**ve ** birim ** değer ayarlanabilir **PL** içinde belirli bir konuma profil gruplandırma. 
+Konum stoklama limitleri, stok miktarını taşıyacak fiziksel kapasitenin mevcut olmadığı konumlara yerleştirilmesini talep edecek işlerin oluşturulmasının önüne geçmeye yardımcı olur. Örneğin, ambardaki bazı konumlarda konum başına yalnızca bir palet tutulabiliyorsa, konum stoklama limitleri etkinleştirilebilir. **Miktar** değeri **1** olarak ayarlanabilir ve **Birim** değeri belirli bir konum profili gruplandırmasında **PL** olarak ayarlanabilir. 
 
 Konum kapasitesi kısıtlamalarını denetlemek için daha gelişmiş hesaplamalar gerekiyorsa, konum profili ayarları kullanılabilir. Bu durumda, ağırlık ve hacim, kapasite hesaplamaları gerçekleştirildiğinde göz önünde tutulur. 
 
@@ -66,7 +66,7 @@ En iyi giden işlemleri elde etmek için, sabit malzeme çekme konumları ve/vey
 
 ### <a name="location-setup-wizard"></a>Konum kurulum sihirbazı
 
-Konumların ambar içinde hızlı bir şekilde oluşturmak için kullanabileceğiniz ** konum Kurulumu ** Sihirbazı. Bu işlemin bir parçası olarak konum adlarının biçimini kolayca koruyabilirsiniz.
+Konumları ambar içinde hızlı bir şekilde oluşturmak için **Konum kurulumu** sihirbazını kullanabilirsiniz. Bu işlemin bir parçası olarak konum adlarının biçimini kolayca koruyabilirsiniz.
 
 ## <a name="warehouse-processes"></a>Ambar işlemleri
 Ambar yapılandırmasının bir parçası olarak, ambar işlemlerini iş gereksinimlerine göre etkinleştirmek önemlidir. Yapılandırmanız gereken en önemli bileşenler dalga şablonları, iş şablonları, iş havuzları ve konum yönergeleridir.
@@ -75,7 +75,7 @@ Ambar yapılandırmasının bir parçası olarak, ambar işlemlerini iş gereksi
 
 Dalga şablonları, giden "Ambara serbest bırak" işlemini etkinleştirmeye yardımcı olur. Sipariş satırları serbest bırakıldıktan (toplu işlem aracılığıyla veya önceden oluşturulmuş yükler ile doğrudan kaynak belgelerden) hemen sonra, dalga şablon işlevi kullanılır. 
 
-Dalga Şablonları üç tür oluşturabilirsiniz: **Kargo**, **üretim emri**, ve **Kanban**. Parametreleri ne kadar sistem otomatik olarak giden iş işlenmesinde gitmesi gereken tanımlamak için kullanılır. Bir dalga şablonu, dalga şablonu serisi ve şablonda belirtilmiş olan ölçütler temel alınarak seçilir. Eğer bir şablon sıranın başında listeleniyorsa, o şablondaki ölçütler önce denetlenir. Eğer ölçütler karşılanıyorsa, dalga şablonu işlenir. Aksi takdirde, bir sonraki şablonun ölçütleri denetlenir ve bu şekilde devam eder. Bu nedenle, ilk önce işlenmesi için dalga şablonu sıralama listesinin en başına, en fazla belirli ölçüte sahip şablonu koymak için bir fikirdir. Örneğin, belirli bir taşıyıcı için tüm işi bugün işlemek ve diğer taşıyıcılar için işleme işini geçici olarak geciktirmek istiyorsunuz. Bu durumda, söz konusu taşıyıcı için dalga şablonu, sıradaki diğer şablonlardan daha üstte listelenmelidir. Aksi takdirde, bu taşıyıcı için iş tamamlanmadan önce diğer taşıyıcılar için işler, işlemeye girebilir. 
+Üç tür dalga şablonu oluşturabilirsiniz: **Sevkiyat**, **Üretim emri** ve **Kanban**. Parametreler, sistemin otomatik olarak giden iş işlenmesinde ne kadar ileri gideceğini tanımlamak için kullanılır. Bir dalga şablonu, dalga şablonu serisi ve şablonda belirtilmiş olan ölçütler temel alınarak seçilir. Eğer bir şablon sıranın başında listeleniyorsa, o şablondaki ölçütler önce denetlenir. Eğer ölçütler karşılanıyorsa, dalga şablonu işlenir. Aksi takdirde, bir sonraki şablonun ölçütleri denetlenir ve bu şekilde devam eder. Bu nedenle, ilk önce işlenmesi için dalga şablonu sıralama listesinin en başına, en fazla belirli ölçüte sahip şablonu koymak için bir fikirdir. Örneğin, belirli bir taşıyıcı için tüm işi bugün işlemek ve diğer taşıyıcılar için işleme işini geçici olarak geciktirmek istiyorsunuz. Bu durumda, söz konusu taşıyıcı için dalga şablonu, sıradaki diğer şablonlardan daha üstte listelenmelidir. Aksi takdirde, bu taşıyıcı için iş tamamlanmadan önce diğer taşıyıcılar için işler, işlemeye girebilir. 
 
 Her dalga şablonundaki dalga işleme yöntemlerini belirtmeniz gerekir. Mevcut olan yöntemler, dalga şablonu türüne göre farklılık gösterir.
 
@@ -107,6 +107,6 @@ Her bir konum yönergesi satırı ile ilişkili eylemleri tanımlamak daha hızl
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[WMS etkin depoda (görev Kılavuzu) konumlarını yapılandır](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
+[WMS etkin bir ambarda konumları yapılandırma (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
 
 

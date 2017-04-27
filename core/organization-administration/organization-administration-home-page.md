@@ -1,6 +1,6 @@
 ---
 title: "Kuruluş yönetimi giriş sayfası"
-description: "Bu konuda noktaları yardımcı olacak kaynaklara Microsoft Dynamics 365 kuruluşunuzda işlemleri için kullanın."
+description: "Bu konu sizi Microsoft Dynamics 365 for Operations&quot;ı kuruluşunuzda kullanmanıza yardımcı olacak kaynaklara yönlendirir."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,56 +26,61 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="organization-administration-home-page"></a>Kuruluş yönetimi giriş sayfası
 
-Bu konuda noktaları yardımcı olacak kaynaklara Microsoft Dynamics 365 kuruluşunuzda işlemleri için kullanın.
+[!include[banner](../includes/banner.md)]
+
+
+Bu konu sizi Microsoft Dynamics 365 for Operations'ı kuruluşunuzda kullanmanıza yardımcı olacak kaynaklara yönlendirir.
 
 <a name="number-sequences"></a>Numara serileri
 ----------------
 
--   [Number sequence overview](number-sequence-overview.md)
--   [Bir sihirbaz kullanarak set up Number sequences](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (görev Kılavuzu)
--   [Birebir numara serilerini ayarlayın](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (görev Kılavuzu)
+-   [Numara serilerine genel bakış](number-sequence-overview.md)
+-   [Bir sihirbaz kullanarak satınalma için numara serilerini ayarlama](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (Görev kılavuzu)
+-   [Bireysel olarak numara serileri ayarlama](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (Görev kılavuzu)
 
 ## <a name="address-books"></a>Adres defterleri
--   [Address books](qa-address-books.md)
--   [Genel Bakış: Genel adres defteri](overview-global-address-book.md)
--   [Ek adres defteri ve genel adres defteri yapılandırmasını planlama](plan-configuration-global-address-book-additional-address-books.md)
+-   [Adres defterleri](qa-address-books.md)
+-   [Genel bakış: Genel adres defteri](overview-global-address-book.md)
+-   [Genel adres defteri ve diğer adres defteri yapılandırmasını planlama](plan-configuration-global-address-book-additional-address-books.md)
 
 ## <a name="workflow"></a>İş Akışı
--   [Overview of the workflow system](overview-workflow-system.md)
--   [İş akışı sistem mimarisi](workflow-system-architecture.md)
--   [Workflow elements](workflow-elements.md)
--   [Workflow actions](workflow-actions.md)
+-   [İş akışı sistemine genel bakış](overview-workflow-system.md)
+-   [İş akışı sistemi mimarisi](workflow-system-architecture.md)
+-   [İş akışı öğeleri](workflow-elements.md)
+-   [İş akışı eylemleri](workflow-actions.md)
 -   [İş akışı oluşturma](create-workflow.md)
--   [Configure the properties of a workflow](configure-workflow-properties.md)
+-   [Bir iş akışının özelliklerini yapılandırma](configure-workflow-properties.md)
 -   [El ile girilen bir görev yapılandırma](configure-manual-task-workflow.md)
 -   [Otomatik bir görev yapılandırma](configure-automated-task-workflow.md)
--   [Configure an approval process](configure-approval-process-workflow.md)
+-   [Onay süreci konfigüre etme](configure-approval-process-workflow.md)
 -   [Onay adımı konfigüre etme](configure-approval-step-workflow.md)
 -   [El ile girilen bir karar yapılandırma](configure-manual-decision-workflow.md)
 -   [Koşullu bir kararı yapılandırma](configure-conditional-decision-workflow.md)
 -   [Paralel faaliyet yapılandırma](configure-parallel-activity-workflow.md)
 -   [Paralel dal yapılandırma](configure-parallel-branch-workflow.md)
--   [Bir satır öğesi iş akışı öğesi yapılandırma](configure-line-item-workflow.md)
+-   [Satır maddesi iş akışı öğesi yapılandırma](configure-line-item-workflow.md)
 
 ## <a name="case-management"></a>Servis talebi yönetimi
--   [Planlama: Servis talebi Kur'u](plan-case-management.md)
+-   [Planlama: Servis talebi kurulumu](plan-case-management.md)
 -   [Servis talebi yönetimi örnekleri](cases.md)
 
-## <a name="electronic-signatures"></a>Elektronik imza
--   [Electronic signature overview](electronic-signature-overview.md)
--   [Elektronik imza ayarlamak](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (görev Kılavuzu)
+## <a name="electronic-signatures"></a>Elektronik imzalar
+-   [Elektronik imzalara genel bakış](electronic-signature-overview.md)
+-   [Elektronik imzaları ayarlama](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (Görev kılavuzu)
 
 ## <a name="organizations"></a>Kuruluşlar
--   [Organizations and organizational hierarchies](organizations-organizational-hierarchies.md)
--   [Organizasyon hiyerarşisini planlayın](plan-organizational-hierarchy.md)
--   [Bir işletme birimi oluşturmak](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (görev Kılavuzu)
--   [Kuruluş hiyerarşisi oluşturmak](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (görev Kılavuzu)
--   [Yasal bir varlık oluşturma](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (görev Kılavuzu)
+-   [Organizasyonlar ve organizasyon hiyerarşileri](organizations-organizational-hierarchies.md)
+-   [Kuruluş hiyerarşisi planlama](plan-organizational-hierarchy.md)
+-   [Bir işletme birimi oluşturma](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (Görev kılavuzu)
+-   [Bir kuruluş hiyerarşisi oluşturma](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (Görev kılavuzu)
+-   [Tüzel kişilik oluşturma](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (Görev kılavuzu)
 
-## <a name="general-administration"></a>Genel Yönetim
--   [Başlık sayfası veya logo değiştirme](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (görev Kılavuzu)
--   [About date/time data and time zones](date-time-zones.md)
--   [Record templates](record-templates.md)
+## <a name="general-administration"></a>Genel yönetim
+-   [Başlık resmi veya logoyu değiştirme](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (Görev kılavuzu)
+-   [Tarih/saat verileri ve saat dilimleri hakkında](date-time-zones.md)
+-   [Kayıt şablonları](record-templates.md)
+
+
 
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="position-forecasting"></a>Pozisyon tahmini
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Çalışanlar ile ilgili giderler sıklıkla bir kuruluşun maliyetlerinin büyük bir kısmını teşkil eder. Pozisyon tahmini bu giderleri planlamanızı ve bunları bütçe planlamasına dahil etmenizi sağlar.
@@ -35,7 +38,7 @@ ms.lasthandoff: 03/31/2017
 
 [![Grafik üst](./media/graphic-top.png)](./media/graphic-top.png) 
 
-Konum tahmini için konum giderleri doğru bütçe tutarlarını sağlamak için üç ana bileşen kullanır. Bu tutarlar, daha sonra bütçe hesaplamaları için bir bütçe planı haline getirilebilir. 
+Pozisyon tahmini, pozisyon giderleri için doğru bütçe tutarlarını sağlamak amacıyla üç ana bileşenden yararlanır. Bu tutarlar, daha sonra bütçe hesaplamaları için bir bütçe planı haline getirilebilir. 
 
 Birincil bileşen, tek bir pozisyonla ilgili tüm maliyet verilerini temsil eden **tahmin pozisyonudur**. Her sürüme farklı bir bütçe planı senaryosu atayarak bir tahmin pozisyonunun farklı sürümlerini oluşturabilirsiniz. Birden çok sürüm, bütçeleme için yinelemeli bir yaklaşım olanağı sunar ve "ne yapmalı" senaryolarını karşılaştırmanızı sağlar. Her tahmin pozisyonunun İnsan Kaynakları'nda ilgili bir pozisyonu vardır.
 
@@ -47,7 +50,7 @@ Birincil bileşen, tek bir pozisyonla ilgili tüm maliyet verilerini temsil eden
 
 [![graphic1b](./media/graphic1b.png)](./media/graphic1b.png) 
 
-Konum tahmin için normal işlem sırasında ilk kurulum bileşenleri (Bütçe maliyet elemanları ve maaş grupları) oluşturun. Tahmin pozisyonları daha sonra mevcut pozisyonlar esas alınarak oluşturulur. Sonra ayarlamalar yapabilirsiniz. Örneğin, pozisyon ekleyebilir veya sonlandırabilir, ödeme oranlarını ve kazanç maliyetlerini değiştirebilir ve ücret zammı ekleyebilirsiniz. Farklı bütçeleme senaryoları arasındaki karşılaştırmaları kolaylaştırmak için birden çok tahmin pozisyonu sürümü oluşturabilirsiniz. Ardından, tahmin pozisyonlarını bütçe planlarına dahil edebilir ve tahmin pozisyonlarından maliyetleri bütçe planı satırları olarak ekleyebilirsiniz.
+Tipik bir pozisyon tahmin işleminde, öncelikle ayar bileşenlerini (bütçe maliyet öğeleri ve ücret grupları) oluşturursunuz. Tahmin pozisyonları daha sonra mevcut pozisyonlar esas alınarak oluşturulur. Sonra ayarlamalar yapabilirsiniz. Örneğin, pozisyon ekleyebilir veya sonlandırabilir, ödeme oranlarını ve kazanç maliyetlerini değiştirebilir ve ücret zammı ekleyebilirsiniz. Farklı bütçeleme senaryoları arasındaki karşılaştırmaları kolaylaştırmak için birden çok tahmin pozisyonu sürümü oluşturabilirsiniz. Ardından, tahmin pozisyonlarını bütçe planlarına dahil edebilir ve tahmin pozisyonlarından maliyetleri bütçe planı satırları olarak ekleyebilirsiniz.
 
 Bütçe planları revize edilirken ek tahmin pozisyonu sürümleri oluşturabilirsiniz. Bu yeni sürümler, revizyonlar için bir temel oluşturur.
 
@@ -64,9 +67,9 @@ Bütçe maliyeti öğesinin maliyet tutarının hesaplamasında, aynı maliyet �
 
 Maliyet öğesi yüzdeye dayalı ise, hesaplama için temel olarak kullanılan bütçe maliyeti öğelerini belirtmeniz gerekir.
 
-**Example** 
+**Örnek** 
 
-Jodi'nın kuruluş bir çalışanın temel ödeme yüzde 5 olan bir eğitim indirimi sağlamaktadır. Jodi bu maliyet için bir bütçe maliyet öğesi oluşturmak istiyor. Yeni bir bütçe maliyet öğesi oluşturuyor ve **Kazanç** bütçe maliyet türünü atıyor.
+Jodi'nin kuruluşu, bir çalışanın temel ödemesinin yüzde 5'i kadar bir eğitim tahsisatı sağlıyor. Jodi bu maliyet için bir bütçe maliyet öğesi oluşturmak istiyor. Yeni bir bütçe maliyet öğesi oluşturuyor ve **Kazanç** bütçe maliyet türünü atıyor.
 
 Jodi yöneticilerin kazanç miktarını değiştirmesini istemiyor. Bu nedenle, **Tahmin pozisyonunu geçersiz kılma** alanında **Maliyet değişikliklerine izin verme** seçeneğini seçiyor. Kuruluş bu maliyetin her aya eşit olarak atanmasını istiyor. Bu nedenle, Jodi **Tahsisat yöntemi** alanında **Üç aylık** seçeneğini seçiyor. 
 
@@ -82,7 +85,7 @@ Son olarak, Jodi temel ödeme için hesaplama tabanları olarak kullanılan tüm
 
 Ücret grupları bir tahmin pozisyonuna ait kazanç oranlarını da belirleyebilir. Tahmin pozisyonu kazançlarını hesaplamak için bir grubu saat başı temelinde veya yıllık ücret temelinde ayarlayabilirsiniz. **Ücret oranı tabloları** öğesinde, ödeme oranları ücret kılavuzu, atanmış bir düzey ve adım temelinde bir tahmin pozisyonuna eklenen kazançları belirler. Bu kılavuzlar İnsan Kaynakları'ndaki mevcut ücret kılavuzlarına dayanabilir. Alternatif olarak, bütçe planlama için yeni ücret kılavuzları oluşturabilirsiniz. 
 
-Ücret oranı tablolarındaki geçerlilik tarihleri ve bitiş tarihleri ödeme oranlarını istediğiniz tarihte değiştirmenizi sağlar. Bu özellik, bir pazarlık biriminin bir bütçe döngüsünün ortasında geniş kapsamlı maaş zammı için görüşmelerde bulunduğu zaman yararlıdır. Bu durumda, varolan bir tabloyu sona erme tarihini oran değişikliği tarihinden önceki gün değiştirin ve yeni tarihinde başlayan yeni bir fiyatı tablosu ekleyin. Oluşturduğunuzda, yeni bir oranı tablo seçerseniz **varolan bir kılavuzdan bir yeni maaş kılavuzu oluşturmak**, varolan bir fiyatı tablosu insan kaynakları seçin. Oluşturulan oran tablosunda, **Toplu Değişiklik** seçeneği, kılavuzdaki tüm oranlara bir yüzde veya sabit tutar artışı veya azalması uygulamanızı sağlar. 
+Ücret oranı tablolarındaki geçerlilik tarihleri ve bitiş tarihleri ödeme oranlarını istediğiniz tarihte değiştirmenizi sağlar. Bu özellik, bir pazarlık biriminin bir bütçe döngüsünün ortasında geniş kapsamlı maaş zammı için görüşmelerde bulunduğu zaman yararlıdır. Bu durumda, varolan bir tablonun sona erme tarihini oran değişikliği tarihinden önceki güne değiştirin ve yeni tarihte başlayan yeni bir fiyatı tablosu ekleyin. Yeni bir oran tablosu oluşturduğunuzda **Mevcut bir kılavuzdan yeni bir tazminat kılavuzu oluştur**'u seçerseniz, İnsan Kaynaklarından varolan bir fiyat tablosunu seçebilirsiniz. Oluşturulan oran tablosunda, **Toplu Değişiklik** seçeneği, kılavuzdaki tüm oranlara bir yüzde veya sabit tutar artışı veya azalması uygulamanızı sağlar. 
 
 Ücret grubundaki **Artış planı** ve **Artış tarihi** alanları, pozisyonlar bir adımdan diğerine geçtiği için ödeme artışları oluşturmanız gerektiğinde kullanılır. Bir yıllık ödeme artışı tipik bir senaryodur. Artış planı, adım artışı için pozisyonun yıldönümü tarihinin mi, yoksa tek bir ortak tarihin mi kullanılacağını belirler. Artış planı ücret grubundaki tüm tahmin pozisyonlarına uygulanır. 
 
@@ -93,7 +96,7 @@ Son olarak, Jodi temel ödeme için hesaplama tabanları olarak kullanılan tüm
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Mevcut pozisyonlar için tahmin pozisyonları oluşturma
 
-En doğru bütçe planlama, tahmin pozisyonları ayrıntıları Microsoft Dynamics 365 içinde varolan konumlardan olup konumu şu anda dolu doldurulmaz veya ne olursa olsun işlemleri için kullanarak oluşturabilirsiniz. 
+En doğru bütçe planlama için, pozisyonun o anda doldurulmuş veya boş olmasından bağımsız olarak, Microsoft Dynamics Dynamics 365 for Operations'daki mevcut pozisyonlardan ayrıntılar ile tahmin pozisyonları oluşturabilirsiniz. 
 
 **Mevcut pozisyonları ekle** işlevi bir kuruluşa ait tüm pozisyonları görüntüler. ** Başlangıç** tarihini ayarlayarak, pozisyonlar listesini geçmişteki veya daha yaygın olarak gelecekte bir tarihteki mevcut pozisyonları içerecek şekilde değiştirebilirsiniz (örneğin, bir sonraki bütçe döngüsünün başlangıcı). Bir bütçe planlama süreci ve bütçe planı senaryosu seçin, listede pozisyonları seçin ve seçilen pozisyonlar için tahmin pozisyonları oluşturmak için **Tamam** düğmesine tıklayın. Bir bütçe planlama süreci ve senaryosundaki her bir mevcut pozisyon için sadece bir tahmin pozisyonu oluşturabileceğinizi unutmayın. Ancak, farklı bütçe planı senaryoları atayarak ek sürümler oluşturabilirsiniz. 
 
@@ -103,11 +106,11 @@ Bütçe maliyet öğesi seçili ise, atanan çalışanın bir sabit ücret plan�
 
 **Bir ücret grubu ata** seçeneği **Evet** olarak ayarlanmış ise, pozisyona atanmış çalışanın bir ücret grubuna bağlı olan adım temelli bir sabit ücret planının olması durumunda (daha önce tarif edilen şekilde), çalışana ait düzey ve adım ücret grubu ile birlikte tahmin pozisyonuna atanır. Ücret grubundan kazanç bütçe maliyet öğesi, tahmin pozisyonuna eklenir ve ücret grubundan düzey ve adımdaki ödeme oranı kullanılır. 
 
-**Bir ücret grubu ata** seçeneği ayarı, **Bütçe maliyet öğesi atama** ayarından daha önceliklidir. Aynı anda iki ayarları kullanılabilir. 
+**Bir ücret grubu ata** seçeneği ayarı, **Bütçe maliyet öğesi atama** ayarından daha önceliklidir. Aynı anda iki ayar kullanılabilir. 
 
 [![graphic4](./media/graphic4.png)](./media/graphic4.png) 
 
-Yıldönümü tarihi atamak için başka bir seçenek olur. Daha sonra, atanan çalışandan seçilen tarih (ayarlanan başlangıç tarihi, çalışan başlangıç tarihi, işe alma başlangıç tarihi veya kıdemlilik tarihi) tahmin pozisyonunun yıldönümü tarihi olarak ayarlanır ve bilgilendirme amacıyla ve ödeme artışları oluşturulduğunda kullanılır.
+Diğer seçenek yıldönümü tarihi atamaktır. Daha sonra, atanan çalışandan seçilen tarih (ayarlanan başlangıç tarihi, çalışan başlangıç tarihi, işe alma başlangıç tarihi veya kıdemlilik tarihi) tahmin pozisyonunun yıldönümü tarihi olarak ayarlanır ve bilgilendirme amacıyla ve ödeme artışları oluşturulduğunda kullanılır.
 
 ### <a name="creating-new-forecast-positions"></a>Yeni tahmin pozisyonları oluşturma
 
@@ -138,9 +141,9 @@ Bütçe maliyet öğeleri bütçe planları için temel bilgileri sağlar: büt�
 
 FTE değeri tahmin pozisyonunda değiştirildiğinde bütçe maliyet öğesi satırları yeniden hesaplanmalıdır. Satırlar etkinleştirme tarihleri veya kaldırma tarihleri değiştirildiğinde de yeniden hesaplanmalıdır. Bu tarihlerde yapılan değişiklikler, bütçe maliyet öğesinin başlangıç ve bitiş tarihlerinin güncellenmesine yol açar ve bu tarihlerin tahmin pozisyonunun tarih aralığında olması gerekir. Yeniden hesaplama gerektiğinde, **Yeniden hesapla** düğmesi kullanılabilir olur ve bir "Hesaplama gerekli" iletisi görüntülenir. Yeniden hesaplama, bir bütçe maliyet öğesi eklemeniz veya kaldırmanız durumunda da gereklidir.
 
-**Example** 
+**Örnek** 
 
-Kuruluşun muhasebeci konum maliyetini azaltmak için iki seçenek hazırlamayı planlamaktadır. Birinci seçenek, pozisyonu yıl bitmeden kaldırmaktır. Diğer seçenek, pozisyonu tüm yıl boyunca yarı zamanlı olarak değiştirmektir. Brad bir başlangıç senaryosunda mevcut muhasebeci pozisyonu için bir tahmin pozisyonu oluşturdu. Bu başlangıç tahmin senaryosunu A senaryosuna kopyalayıp kaldırma tarihini 31 Mayıs olarak ayarladı ve yeniden hesapladı. Sonra Brad başlangıç tahmin pozisyonunu B senaryosuna kopyalayıp FTE değerini **0,50** olarak değiştirdi ve yeniden hesapladı. Brad'in şimdi üç sürümü ve her bir sürümün kendi seçenekleri ile uyumlu maliyet toplamları vardır.
+Kuruluş bir muhasebeci pozisyonunun maliyetini azaltmak için iki seçenek düşünüyor. Birinci seçenek, pozisyonu yıl bitmeden kaldırmaktır. Diğer seçenek, pozisyonu tüm yıl boyunca yarı zamanlı olarak değiştirmektir. Brad bir başlangıç senaryosunda mevcut muhasebeci pozisyonu için bir tahmin pozisyonu oluşturdu. Bu başlangıç tahmin senaryosunu A senaryosuna kopyalayıp kaldırma tarihini 31 Mayıs olarak ayarladı ve yeniden hesapladı. Sonra Brad başlangıç tahmin pozisyonunu B senaryosuna kopyalayıp FTE değerini **0,50** olarak değiştirdi ve yeniden hesapladı. Brad'in şimdi üç sürümü ve her bir sürümün kendi seçenekleri ile uyumlu maliyet toplamları vardır.
 
 #### <a name="assigning-a-compensation-group"></a>Bir ücret grubu atama
 
@@ -160,9 +163,9 @@ Geçerli kazanç bütçe maliyet öğesinin bitiş tarihi artış tarihinden ön
 
 Tahmin pozisyonlarına yapılan güncelleştirmeler, bütçe maliyet öğesi ve ücret grubu ayar sayfaları gibi diğer alanlardan da gelebilir. Tahmin pozisyonlarını toplu güncelleştirme işlemini kullanarak da değiştirebilirsiniz. 
 
-İki seçenek vardır **Bütçe maliyet öğesi** kurulum sayfası: **konumlara ekleyin** ve **güncelleştirme konumlarını**. **Pozisyonlara ekle** seçeneği, bütçe maliyet öğesini seçilen tahmin pozisyonlarına ekler. Öğe halihazırda bir tahmin pozisyonuna atanmışsa, o tahmin pozisyonu atlanır. **Pozisyonları güncelleştir** seçeneği mevcut değerleri (ana hesap, yüzde, yıllık tutar, vb..) seçilen tahmin pozisyonlarına uygular. 
+** Bütçe maliyet öğesi** ayar sayfasında iki seçenek bulunur: **Pozisyonlara ekle** ve **Pozisyonları güncelleştir**. **Pozisyonlara ekle** seçeneği, bütçe maliyet öğesini seçilen tahmin pozisyonlarına ekler. Öğe halihazırda bir tahmin pozisyonuna atanmışsa, o tahmin pozisyonu atlanır. **Pozisyonları güncelleştir** seçeneği mevcut değerleri (ana hesap, yüzde, yıllık tutar, vb..) seçilen tahmin pozisyonlarına uygular. 
 
-Her işlemin, tahmin pozisyonlarını seçebileceğiniz benzer bir sayfası bulunur. **Pozisyonlara ekle** sayfası seçim için kullanılabilir olan tüm tahmin pozisyonlarını, **Pozisyonları güncelle** sayfası sadece halihazırda atanmış bütçe maliyet öğesi bulunan tahmin pozisyonlarını gösterir. (Bu nedenle, **güncelleştirme konumlarını** sayfası dışarı tahmin pozisyonları iliştirilmiş maliyet öğesi zaten bulmak için bir yol sunar.) Güncelleştirmeye dahil etmek için bir alt ızgara için bir üst kılavuzdan tahmin pozisyonları taşıyın. 
+Her işlemin, tahmin pozisyonlarını seçebileceğiniz benzer bir sayfası bulunur. **Pozisyonlara ekle** sayfası seçim için kullanılabilir olan tüm tahmin pozisyonlarını, **Pozisyonları güncelle** sayfası sadece halihazırda atanmış bütçe maliyet öğesi bulunan tahmin pozisyonlarını gösterir. (Bu nedenle, **Pozisyonları güncelleştir** sayfası hangi tahmin pozisyonlarına zaten maliyet öğesi eklendiğini bulmak için bir yol sunar.) Güncelleştirmeye dahil etmek için tahmin pozisyonlarını üst kılavuzdan alt kılavuza taşıyın. 
 
 **Maliyet hesaplaması** öğesindeki **Tarihleri değiştir** işlevinin tahmin pozisyonlarındaki bütçe maliyet öğesinin başlangıç ve bitiş tarihlerini hemen değiştirdiğini unutmayın. Hiçbir seçim seçeneği kullanılamaz. 
 
@@ -176,7 +179,7 @@ Yeniden hesaplama işlemi değiştirilen tüm tahmin pozisyonlarında otomatik o
 
 [![graphic6](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
-Bütçe planı en doğru bütçe tutarlarını içerir böylece tahmin konumlarını değiştirme ve oluşturma amacı bunları bütçe planlarına eklemektir. Tahmin pozisyonlarını bütçe planlarına eklemek için iki yöntem vardır. Bütçe planında oluşturma işlemini veya seçim işlemini kullanabilirsiniz.
+Tahmin pozisyonları oluşturma ve değiştirmenin amacı bunları bütçe planlarına eklemektir, böylece bütçe planları en doğru bütçe tutarlarını içerir. Tahmin pozisyonlarını bütçe planlarına eklemek için iki yöntem vardır. Bütçe planında oluşturma işlemini veya seçim işlemini kullanabilirsiniz.
 
 ### <a name="generating-a-budget-plan-from-forecast-positions"></a>Tahmin pozisyonlarından bütçe planı oluşturma
 
@@ -215,5 +218,7 @@ Hem oluşturma süreci hem de seçim süreci için, bütçe maliyet öğesi sat�
 Bütçe planı satırları, bütçe tutarlarının kaynağını (tahmin pozisyonu numarası) gösterir ancak bağlı değildir. Bu nedenle, tahmin pozisyonlarındaki değişiklikler bütçe planı satırında gösterilmez ve bütçe planı satırındaki değişiklikler tahmin pozisyonunda gösterilir. Bir tahmin pozisyonunu değiştirir ve güncelleştirmeleri bir bütçe planına eklemek isterseniz, tahmin pozisyonunu tekrar plana getirmeniz gerekir. Bununla birlikte, bu işlemin, o tahmin pozisyonunun atandığı tüm satırları kaldıracağını unutmayın. Bu nedenle, bu satırlarda yaptığınız tüm değişiklikler kaldırılır. 
 
 Bir tahmin pozisyonunun hangi bütçe planlarına eklendiğini görmek için, **Bütçe planına göre tahmin pozisyonları** raporu oluşturabilirsiniz. Alternatif olarak, tahmin pozisyonunda, planları görüntülemek için **İlişkilendirilmiş bütçe planları** Bilgi Kutusunu açabilirsiniz.
+
+
 
 

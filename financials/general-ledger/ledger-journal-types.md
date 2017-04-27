@@ -1,6 +1,6 @@
 ---
 title: "Genel muhasebe günlük tabloları"
-description: "Bu makale, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Kullanabileceğiniz Microsoft Dynamics 365 işlemleri için günlükleri ayarlamak için günlük adları sayfasını kullanın."
+description: "Bu makale, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Microsoft Dynamics 365 for Operations&quot;ta kullanabileceğiniz günlükleri ayarlamak için günlük adları sayfasını kullanın."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="ledger-journal-types"></a>Genel muhasebe günlük tabloları
 
-Bu makale, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Kullanabileceğiniz Microsoft Dynamics 365 işlemleri için günlükleri ayarlamak için günlük adları sayfasını kullanın.
+[!include[banner](../includes/banner.md)]
+
+
+Bu makale, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Microsoft Dynamics 365 for Operations'ta kullanabileceğiniz günlükleri ayarlamak için günlük adları sayfasını kullanın.
 
 | Günlük türü:                      | Amaç                                                                                                                                                                                                                                                                                                                                                     | Bu sayfada hareketleri girin                                |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
@@ -60,6 +63,8 @@ Bu makale, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri
 | Satıcı faturası kaydı          | Defterde olan satıcı faturalarını nakledin.                                                                                                                                                                                                                                                                                                                 | Fatura günlüğü                                                |
 | Satıcı yeniden düzenlenen senedi     | Daha önce bankanız tarafından kabul edilip ödenmiş bir senedi yeniden düzenleyin.                                                                                                                                                                                                                                                                      | Yeniden düzenlenen senet günlüğü                                 |
 | Satıcıya ödenen vadeli senet     | Satıcıya ödenen vadeli senet hareketleri oluşturun.                                                                                                                                                                                                                                                                                                          | Senet kapatma günlüğü                                 |
+
+
 
 
 

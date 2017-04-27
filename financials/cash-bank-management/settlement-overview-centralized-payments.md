@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="settlement-overview-for-centralized-payments"></a>Merkezi ödemeler için kapatmaya genel bakış
 
+[!include[banner](../includes/banner.md)]
+
+
 Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten bir tüzel kişilik kullanarak ödemeleri oluşturabilir ve yönetebilirler. Bu, aynı hareketi birden fazla tüzel kişiliğe girme gereksinimini ortadan kaldırır ve merkezi ödemeler için ödeme teklifi işlemi, kapatma işlemi, açık hareket düzenleme ve kapalı hareket düzenleme akışını sağlayarak zaman kazandırır. 
 
 Bir tüzel kişiliğe müşteri veya satıcı ödemesi girildiğinde ve başka bir tüzel kişilik için girilen bir faturayla kapatıldığında, uygulanabilen kapatma, vade sonu ve vade başlangıç hareketleri her tüzel kişilik için otomatik olarak oluşturulur. Hareketteki her fatura ve ödeme birleşimi için bir kapatma kaydı oluşturulur. Her kapatma kaydına, müşteriler için **Alacak hesapları parametreleri** sayfasında ve satıcılar için **Borç hesapları parametreleri** sayfasında belirtilen ödeme fişi numara serisini temel alan yeni bir fiş numarası atanır. 
@@ -108,6 +111,8 @@ Satıcı ödemelerinde, ödemenin tüzel kişiliğindeki vade sonu ve vade başl
 
 ## <a name="withholding-tax"></a>Stopaj vergisi
 Fatura ile ilişkili satıcı hesabı stopaj vergisinin hesaplanmasının gerekip gerekmediğini belirlemek için kullanılır. Stopaj vergisi varsa, faturayla ilişkilendirilmiş tüzel kişilikte hesaplanır. Tüzel kişilikler farklı para birimleri kullanıyorsa fatura ile ilişkilendirilmiş tüzel kişiliğin döviz kuru kullanılır.
+
+
 
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-overview"></a>Satınalma talebine genel bakış
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, satınalma talebi iş akışı ve satınalma talebinin sahip olabileceği farklı durumlar anlatılmaktadır.
 
 Organizasyonunuzun kurulumuna bağlı olarak, organizasyonunuzun kullandığı ürünler için satın alma talepleri oluşturabilirsiniz. Bir satın alma talebi, Satın alma departmanına madde veya hizmet satın alma yetkisini veren bir belgedir.  
@@ -48,7 +51,7 @@ Bir satın alma talebini gözden geçirme sürecinden tek bir belge olarak geçi
 
 Aşağıdaki şemada bir satın alma talebine ve bir satın alma talebi satırına atanan durumlar iş akışı sürecindeki ilerlemesine göre gösterilmiştir.  
 
-[![Satınalma talebi başlığı ve satır durumları](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Satın alma talebi başlık ve satır durumları](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Satın alma talebi başlık ve satır durumu ilişkileri
 
@@ -77,7 +80,7 @@ Bir satın alma talebinin genel durumu, satın alma talebi satırlarının durum
 <td>İş akışı, her bir gözden geçiriciye satın alma talebi satırları yönlendirecek şekilde yapılandırılırsa, her bir satırın durumu <strong>Gözden geçiriliyor</strong> veya <strong>Reddedildi</strong> olur. Gözden geçirme süreci tüm satın alma talebi satırları için tamamlandığında ve satın alma talebi için gözden geçirme adımı kalmadığında satın alma talebi durumu güncelleştirilir.
 <ul>
 <li><strong>Gözden geçiriliyor</strong> – Satın alma talebi satırları gözden geçirilmek üzere gönderilmiştir. İş akışı süreci bir satın alma talebi satırı için tamamlandığında satırın durumu, kalan tüm satın alma talebi satırları gözden geçirilinceye kadar <strong>Gözden geçiriliyor</strong> durumunda kalır.</li>
-<li><strong>Reddedilen</strong> – satınalma talep satırını kabul edilmedi. Satınalma talebi reddedilen satırları değiştiren ve yeniden gönderildi.</li>
+<li><strong>Reddedildi</strong> – Satınalma talep satırı reddedilmiştir. Reddedilen satın alma talebi satırları değiştirilip yeniden gönderilebilir.</li>
 </ul>
 Reddedilen bir satın alma talebi satırını yeniden gönderirseniz gözden geçirme süreci, hala gözden geçirilmekte olan satın alma talebindeki tüm satırlar için baştan başlar. <strong>Not:</strong> Halihazırda gönderilmiş bir satın alma talebini geri çağırabilirsiniz. Bir satın alma talebini geri çağırdığınızda diğer tüm satın alma talebi satırları da geri çağrılır. Geri çağrılan satın alma talebi satırları silinebilir.</td>
 </tr>
@@ -133,7 +136,7 @@ Reddedilen bir satın alma talebi satırını yeniden gönderirseniz gözden ge�
 Bir satın alma talebinde yer alan bir ürünün maliyetini birden fazla mali hesaba dağıtabilirsiniz. Organizasyonunuz maliyet merkezleri ve departmanlar gibi boyutlar kullanıyorsa bir ürünün maliyetini mali hesaplar için boyutlara dağıtabilirsiniz.
 
 ## <a name="requisition-purposes"></a>Talep amaçları
-Talep amaçları, talep amacının yerine getirilmesi sürecini daha esnek hale getirmektedir. Bir talep oluşturduğunuzda, iki amaç birini atayabilirsiniz: Tüketim veya yenileme. Talep amacı ve kuruluşunuzun kurulumuna bağlı olarak, talep talep, satınalma siparişi, transfer emri, üretim emri veya kanban tarafından karşılanabileceği.  
+Talep amaçları, talep amacının yerine getirilmesi sürecini daha esnek hale getirmektedir. Bir talep oluşturduğunuzda, buna iki amaçtan birini atayabilirsiniz: tüketim veya stok yenileme. Talebin amacına ve organizasyonunuzun kurulumuna bağlı olarak, talep isteği bir satınalma siparişi, transfer emri, üretim emri veya kanban ile karşılanabilir.  
 
 Tedarik politikalarında, organizasyonunuz için bir talep oluşturulduğunda kullanılabilecek talep amaçlarını kontrol edebilirsiniz.
 
@@ -152,7 +155,7 @@ Bir stok yenileme amacına sahip olan satın alma taleplerini kullanabilmek içi
 ## <a name="purchase-requisitions-and-requests-for-quotation"></a>Satın alma talepleri ve teklif talepleri
 Bazı durumlarda bir satın alma talebinde talep edilen ürünlerin satıcısını ve fiyatını tanımlamak için bir teklif talebi (RFQ) süreci başlatmanız gerekir. Satın alma talebi gözden geçirme aşamasındayken bir RFQ oluşturulabilir. Bir teklifi kabul ettiğinizde satıcı, fiyat vb. hakkındaki bilgiler talebe aktarılır.  
 
-Tutulan satınalma talebi seçerek koyabilirsiniz **tutulan** onay kutusunu **satınalma talebi ayrıntıları** sayfa. Onay kutusunu temizleyerek ayrı tutmayı kaldırmak sonra satınalma talebini işleme devam edebilirsiniz.  
+Bir satınalma talebini **Satınalma talebi ayrıntıları** sayfasında **Beklemede** onay kutusunu seçerek beklemeye alabilirsiniz. Satınalma talebinin işlenmesine yalnızca beklemede onay kutusu seçimini kaldırdıktan sonra devam edebilirsiniz.  
 
 **Not:** eProcurement altında satın alma talebiniz için RFQ, satıcıların ilave satırlar eklemesine izin verebilir. Bu durumda satın alma talebiniz onaylanan alternatifleri yansıtır.
 
@@ -178,7 +181,7 @@ Talep birleştirme için uygun olmayan veya bir birleştirme talebi için seçil
 
 Talep birleştirme süreci bir iş akışında bir satın alma talebi onaylandığında ve organizasyonunuz için bütçe kontrolü yapılandırılmışsa bütçe rezervasyonları ve ön yükümlülükler kaydedildiğinde başlar. Aşağıdaki şemada talep birleştirme süreç akışı gösterilmiştir.  
 
-[![İsteğe bağlı Konsolidasyon için işlem akışı](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![İsteğe bağlı konsolidasyon için işlem akışı](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Onaylanan satınalma talep satırlarını birleştirmek için şu adımları izleyin:
 
@@ -192,8 +195,10 @@ Onaylanan satınalma talep satırlarını birleştirmek için şu adımları izl
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Tüketim (görev Kılavuzu) için bir talep oluştur](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Tüketim için bir talep oluşturma (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
-[Purchase requisition workflow](purchase-requisitions-workflow.md)
+[Satınalma talebi iş akışı](purchase-requisitions-workflow.md)
+
+
 
 

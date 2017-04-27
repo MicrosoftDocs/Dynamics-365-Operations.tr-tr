@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="performance-management-overview"></a>Performans yönetimine genel bakış
 
+[!include[banner](includes/banner.md)]
+
+
 Performans yönetimi işlemi, personelin performanslarını belgelendirmelerini ve yöneticileriyle tartışmalarını sağlar. Bu sayede, yöneticiler de personele geri bildirim ve kılavuzluk sağlayabilir.  
 
 Aşağıdaki çizimde gösterildiği gibi, işlemi yönetmenize yardımcı olacak üç sayfa bulunur:
@@ -132,7 +135,7 @@ Gözden geçirme onayını denetlemek için Çalışanı Gözden Geçir iş akı
 Çalışanı Gözden Geçir iş akışında iki öğe vardır:
 
 1.  Gözden geçirmeyi onayla. **İşlemde** yerine **Gözden geçirme için hazır** olarak değişen durumu kontrol etmek için bu öğeyi ekleyin. Atamayı, personel.bölüm müdürü düzeyinin 1 olduğu yönetim hiyerarşisi kullanılacak şekilde değiştirin.
-2.  Son gözden geçirme. Durum değişikliği karşı denetlemek için bu öğe Ekle **gözden geçirmeye hazır** için **son gözden**. Yönetim hiyerarşisini kullanmak üzere atamayı değiştirebilirsiniz nerede Employee.line Yöneticisi düzeyi Yöneticisi son gözden onaylamak için Dilerseniz = 1. Personelin onaylamasını istiyorsanız atamayı, İş akışı kullanıcısı olarak değiştirin. Hem yöneticinin hem de personelin onaylamasını istiyorsanız iş akışına iki adım ekleyin ve onayların takip etmesini istediğiniz sırada, her adım için uygun atamayı yapın.
+2.  Son gözden geçirme. **Gözden geçirme için hazır** durumunun **Son gözden geçirme** olarak değiştirilmesi durumunu denetlemek için bu öğeyi ekleyin. Yöneticinin son gözden geçirmeyi onaylamasını istiyorsanız, Personel.bölüm yönetici düzeyi = 1 olan yönetim hiyerarşisini kullanmak için atamayı değiştirin. Personelin onaylamasını istiyorsanız atamayı, İş akışı kullanıcısı olarak değiştirin. Hem yöneticinin hem de personelin onaylamasını istiyorsanız iş akışına iki adım ekleyin ve onayların takip etmesini istediğiniz sırada, her adım için uygun atamayı yapın.
 
 ## <a name="setup"></a>Kurulum
 Performans işlemini tamamlamak için gereken bilgileri ayarlamanıza yardımcı olacak üç sayfa vardır: **Ölçümler** sayfası, **performans günlüğü kaynak türleri** sayfası ve **gözden geçirme türleri** sayfası.
@@ -148,5 +151,7 @@ Performans günlüğü kaynak türleri, performans günlüğünün nereden geldi
 ### <a name="review-types"></a>Gözden geçirme türleri
 
 Performans gözden geçirme türleri, bir gözden geçirmenin davranışını denetlemenize yardımcı olur. Gözden geçirme için iş akışını etkinleştirebilir veya devre dışı bırakabilirsiniz. Gözden geçirme iş akışı kullanmıyorsa gözden geçirme oluşturulduğunda kullanılacak varsayılan durumu tanımlayabilirsiniz. Ayrıca personel, yönetici veya her ikisinin birden gözden geçirmede oturumu kapatıp kapatmaması gerektiğine de karar verebilirsiniz.
+
+
 
 

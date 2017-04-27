@@ -1,5 +1,5 @@
 ---
-title: "Ürün yapılandırma modeli kurmak"
+title: "Ürün yapılandırma modelini ayarlama"
 description: "Bu makalede, bir ürün yapılandırma modelinin ayarlanmasına ve oluşturulmasına yönelik adımlar açıklanmaktadır."
 author: YuyuScheller
 manager: AnnBe
@@ -27,13 +27,16 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-a-product-configuration-model"></a>Ürün yapılandırma modeli kurmak
+# <a name="set-up-a-product-configuration-model"></a>Ürün yapılandırma modelini ayarlama
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, bir ürün yapılandırma modelinin ayarlanmasına ve oluşturulmasına yönelik adımlar açıklanmaktadır.
 
 | Görev                                                        | Açıklama                                                                                                                                                                                                                                                                                                                                                                                        |
 |-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Bir ana ürün oluşturun.                                    | **Ana ürün** listesinden bir ana ürün oluşturun. Ürün ana ilgili tüm şirketler için serbest bırakın. Ürün yapılandırma modeli için veya bir alt bileşeni olarak bir sürüm olarak kullanılan bir ürün yöneticisinin **kısıtlama tabanlı yapılandırma** yalnızca ürün boyut grubu için yapılandırma teknolojisi ve konfigürasyon boyutu seçilmelidir olarak seçilmelidir. |
+| Bir ana ürün oluşturun.                                    | **Ana ürün** listesinden bir ana ürün oluşturun. Ana ürünü ilgili tüm şirketlere serbest bırakın. Bir ürün yapılandırma modeli sürümü veya bir alt bileşen olarak kullanılan bir ana ürün için yapılandırma teknolojisi olarak **Kısıtlama tabanlı yapılandırma** seçilmeli ve yapılandırma boyutu yalnızca bir ürün boyutu grubu için seçilmelidir. |
 | Bileşenleri oluşturun.                                          | **Bileşenleri** sayfasında bileşenleri oluşturun. Bileşenler ürün yapılandırma modelinin yapı taşlarıdır ve birden fazla ürün yapılandırma modelinde yeniden kullanılabilir.                                                                                                                                                                                                                      |
 | Öznitelik türleri oluşturun.                                     | **Öznitelik türleri** sayfasında öznitelik türleri oluşturun. Öznitelik türleri, ürün yapılandırma modellerinde kullanılan tüm özniteliklere ilişkin veri türleri kümesini belirler. **Boole**, sabit listeyle **Metin** ve aralığa sahip **Tamsayı** öznitelikleri, ürün yapılandırma modelini temel alan bir ürün varyantı yapılandırırken kullanabileceğiniz değer kümesini listeler.       |
 | Bir ürün yapılandırma modeli oluşturun.                       | **Yeni ürün yapılandırma modeli** sayfasında bir ürün yapılandırma modeli oluşturun.                                                                                                                                                                                                                                                                                                              |
@@ -47,6 +50,8 @@ Bu makalede, bir ürün yapılandırma modelinin ayarlanmasına ve oluşturulmas
 | Bir ürün yapılandırma modelini test edin.                         | Ürün yapılandırma modeli **Kısıtlama tabanlı ürün yapılandırma modeli ayrıntıları** sayfasından veya **Ürün yapılandırma modelleri listesi** sayfasından test edin. Ürün yapılandırma modelleri testi, sipariş işleme sırasında oluşan ürün modeli yapılandırma işlemi benzetimi yapar.                                                                                                |
 | Ürün yapılandırma modeli şablonu oluşturun.                | **Yapılandırma şablonları** sayfasında bir ürün yapılandırma modeli şablonu oluşturun. Ürün yapılandırma şablonu, ürün yapılandırma modelindeki özniteliklere ilişkin değerleri içerir. **Satırı yapılandırma** sayfasındaki öznitelik değerlerini seçin. Ürün modeli yapılandırma sırasında bir ürün modeli yapılandırma şablonu yüklemeyi seçebilirsiniz.                                                   |
 | Bir maddeyi yapılandırın.                                          | Ürün yapılandırma modelleri satış siparişinden, satış teklifinden, satınalma siparişinden veya üretim emrinden yapılandırılabilir.                                                                                                                                                                                                                                                                           |
+
+
 
 
 

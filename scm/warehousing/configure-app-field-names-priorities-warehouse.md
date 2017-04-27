@@ -1,6 +1,6 @@
 ---
-title: "Warehousing app içinde App alan adlarını yapılandırın"
-description: "Bu konuda nasıl tanımlanacağını ve ambar app alan adları ve öncelikleri Dynamics 365 işlemleri için yapılandırma açıklanmaktadır."
+title: "Ambarlama uygulaması içerisinde alan adlarını yapılandırma"
+description: "Bu konu, Dynamics 365 for Operations için ambar uygulaması alan adlarını ve önceliklerini tanımlamayı ve yapılandırmayı açıklamaktadır."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-app-field-names-in-warehousing-app"></a>Warehousing app içinde App alan adlarını yapılandırın
+# <a name="configure-app-field-names-in-warehousing-app"></a>Ambarlama uygulaması içerisinde alan adlarını yapılandırma
 
-Bu konuda nasıl tanımlanacağını ve ambar app alan adları ve öncelikleri Dynamics 365 işlemleri için yapılandırma açıklanmaktadır. 
+[!include[banner](../includes/banner.md)]
 
-**Not:** Bu konu için ambar yönetimi özellikleri için geçerlidir. Stok Yönetimi özellikleri için geçerli değildir. Operasyon - 365 Dynamics depolama ambar görevleri gerçekleştirmek için kullanabileceğiniz bir uygulamadır. Siz tanımlamak ve app içinde kullanılan alan adlarını yapılandırın yanı alan adları atanması gereken önceliği yapılandırmak. Bu konuda nasıl tanımlanacağını ve bu ambar app alan adları ve öncelikleri yapılandırmak ve Dynamics 365 içinde depolama işlemleri için - nasıl kullanıldıkları açıklanmıştır. Başvurmak için öğretici Dynamics 365 işlemleri - depolama, bağlantıyı yapılandırma hakkında ayrıntılı bilgi için [yükleme ve yapılandırma işlemleri - depolama için Dynamics 365](install-configure-warehousing-app.md).
 
-<a name="configure-warehouse-app-field-names"></a>Ambar app alan adlarını yapılandırın
+Bu konu, Dynamics 365 for Operations için ambar uygulaması alan adlarını ve önceliklerini tanımlamayı ve yapılandırmayı açıklamaktadır. 
+
+**Not:** Bu konu, Ambar yönetimindeki özellikler için geçerlidir. Stok yönetimindeki özellikler için geçerli değildir. Dynamics 365 for Operations - Ambarlama, ambar görevlerini gerçekleştirmek için kullanabileceğiniz bir uygulamadır. Uygulama içerisinde kullanılan alan adlarını tanımlayabilir ve yapılandırabilirsiniz ve ayrıca alan adlarının atanacağı önceliği de yapılandırabilirsiniz. Bu konu, bu ambar uygulamaların alan adlarını ve önceliklerini nasıl tanımlayacağını ve yapılandıracağını ve bunların Dynamics 365 for Operations - Ambarlama içerisinde nasıl kullanıldıklarını açıklar. Dynamics 365 for Operations - Ambarlama'ya bağlantıyı yapılandırmak hakkında ayrıntılı bilgi için şu kılavuza bakınız [Dynamics 365 for Operations - Ambarlama'yı kurma ve yapılandırma](install-configure-warehousing-app.md).
+
+<a name="configure-warehouse-app-field-names"></a>Ambar uygulaması alan adlarını yapılandırın
 ===================================
 
-Dynamics 365 - işlemlerinde kullanmak, mobil aygıtınızda depolama aygıtınızda üzerinde meta verilerin nasıl görüntüleneceğini yapılandırabilirsiniz **ambar app alan adları** sayfa. Dynamics 365 işlemleri için de yeni bir şirkette seçin **varsayılan kurulum oluşturma** ambar mobil aygıt iş akışlarında kullanılan ve sonra tercih edilen giriş modunu ve giriş türü atayabilirsiniz tüm alan adları oluşturmak için. Tüm alan adları oluşturduktan sonra aşağıdaki giriş seçenekleri seçebilirsiniz.
+Dynamics 365 for Operations - Ambarlama'yı mobil cihazınızda kullandığınızda, meta verini cihazınızda nasıl görüntüleceğini **Ambar uygulaması alan adları** sayfasından ayarlayabilirsiniz. Dynamics 365 for Operations içerisindeki yeni bir şirkette ambar mobil cihaz iş akışlarında kullanılacak tüm alan adlarını oluşturmak için **Varsayılan kurulum oluşturma**'yı seçin ve daha sonra tercih edilen giriş modunu ve giriş türünü bunlara atayın. Tüm alan adlarını oluşturduktan sonra, aşağıdaki giriş seçeneklerini seçebilirsiniz.
 
 <table>
 <colgroup>
@@ -51,25 +54,25 @@ Dynamics 365 - işlemlerinde kullanmak, mobil aygıtınızda depolama aygıtın�
 <tbody>
 <tr class="odd">
 <td>Tercih edilen giriş modu</td>
-<td>Bu seçenek bir tarama alanı olup olmadığını tanımlar veya el ile giriş giriş alanı için seçilen alan adı gösterilecek. Bu alan için barkodlar kullandıysanız alanlara bağlı olarak ayırt etmek kullanışlıdır. <strong>Not:</strong> alan adları ile tercih edilen giriş modunu ayarlamak için <strong>tarama</strong>, barkod okunamaz veya zarar görmüşse, bilgileri el ile girebilirsiniz.</td>
+<td>Bu seçenek, seçilen alan adı için bir tarama alanının mı yoksa elle girdi girişi alanının mı gösterileceğini belirler. Bu, barkodlar alanda kullanılıyorsa alanların ayırt edilmesi için kullanışlıdır. <strong>Not:</strong> Tercih edilen giriş modu <strong>Tarama</strong> olarak ayarlanmış alanlar için, barkod okunamaz veya zarar görmüşse, bilgileri el ile girebilirsiniz.</td>
 </tr>
 <tr class="even">
 <td>Giriş türü</td>
-<td>Bu seçenek, giriş türü için seçilen alan adı kullanılması gerektiğini tanımlar. Dört seçenek vardır:
+<td>Bu seçenek, seçilen alan adı için hangi giriş türünün kullanılacağını tanımlar. Dört seçenek kullanılabilir:
 <ul>
-<li><strong>Seçim</strong> - aralarından seçim yapabileceğiniz seçeneklerin listesini içerir. Bu seçenekle alan adları düzenlenebilir değildir.</li>
-<li><strong>Tarih</strong> - alan adları belirtilen bir tarih biçimi etiketli tarih gösterilir. Bu tarihi girmek için hangi biçimde bkz: Ambar çalışanlarına yardımcı olur. Bu seçenekle alan adları düzenlenebilir değildir.</li>
-<li><strong>Alfa</strong> - seçtiyseniz, klavye aygıtı el ile app içinde bilgi girerken kullanılacak. Hangi aygıt kullanılan klavye deneyimini değiştirilebilir.</li>
-<li><strong>Sayısal</strong> - yalnızca giriş o kullanım sayısal alan adlarına ilişkin bir özel sayısal tuş takımıyla aygıtı klavye yerine giriş alanını görüntülemek için bu seçeneği seçin.</li>
+<li><strong>Seçim</strong> - Aralarından seçim yapabileceğiniz seçeneklerin listesini içerir. Bu seçenekle alan adları düzenlenebilir değildir.</li>
+<li><strong>Tarih</strong> - Tarih olarak belirtilen alan adları etiket ile bir tarih biçimi gösterir. Bu, ambar çalışanlarının tarihi hangi biçimde gireceklerini görmelerine yardımcı olur. Bu seçenekle alan adları düzenlenebilir değildir.</li>
+<li><strong>Alfa</strong> - Seçiliyse, cihazın klavyesi bilgiyi uygulamaya el ile girmek için kullanılır. Klavye deneyimi, hangi cihazın kullanıldığına göre değiştirilebilir.</li>
+<li><strong>Sayısal</strong> - Yalnızca sayısal giriş kullanan alan adları için giriş alanında cihaz klavyesi yerine özel bir sayısal klavye görüntülemek için bu seçeneği kullanabilirsiniz.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-<a name="configure-warehouse-app-field-priority"></a>Ambar uygulama alanını önceliğini yapılandırma
+<a name="configure-warehouse-app-field-priority"></a>Ambar uygulaması alan önceliğini yapılandırma
 ======================================
 
-Üzerinde **ambar uygulama alanını öncelik** sayfasında, alan adları farklı öncelik gruplar halinde koyabilirsiniz. Ambar çalışanlarına app kullanarak görevleri gerçekleştirdiğinizde ana görev sayfasında hangi bilgilerin görüntülenmesi gereken karar mümkün kılar. ' İ tıklatırsanız **varsayılan kurulum oluşturma**, varsayılan öncelik grupları kümesi oluşturulur. Gereken sayıda öncelik grubu oluşturmak mümkündür, ancak yalnızca üç öncelik grupları Görev sayfasında gösterilir. Dynamics 365 işlemleri için app için meta veri gönderdiğinde, her alan kendi öncelik grubuna bağlı olarak göreceli bir öncelik atar ve app meta verileri görev sayfasında yer alan ilk üç öncelik grupları görüntüler. Taşan meta verileri geri kalanı İkincil Ayrıntıları sayfasında görüntülenir. Aşağıdaki tablo beş öncelikli Grup örneği gösterir.
+**Ambar uygulaması alan önceliği** sayfasında, alan adlarını farklı öncelik gruplarına yerleştirebilirsiniz. Ambar çalışanları uygulamayı kullanırlarken ana görev sayfasında hangi bilginin gösterileceğini belirlemeyi mümkün kılar. **Varsayılan kurulum oluştur** üzerine tıklarsanız, öncelik gruplarının varsayılan bir kümesi oluşturulur. İhtiyaç duyulduğu kadar öncelik grubu oluşturmak mümkündür, ancak görev sayfasında sadece üç öncelik grubu gösterilir. Dynamics 365 for Operations uygulamaya meta veri gönderdiğinde her alanın öncelik grubuna göre bir göreceli öncelik atar ve uygulama, görev sayfası içerisindeki meta veride içerilen ilk üç öncelik grubunu görüntüler. Taşan meta verinin geri kalanı, ikincil ayrıntılar sayfasında görüntülenir. Aşağıdaki tablo beş öncelik grubu örneğini gösterir.
 
 <table>
 <colgroup>
@@ -78,13 +81,13 @@ Dynamics 365 - işlemlerinde kullanmak, mobil aygıtınızda depolama aygıtın�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grup önceliği</th>
+<th>Önceli grubu</th>
 <th>Atanan alanlar</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td> Öncelik 10</td>
+<td> Ölçüt 10</td>
 <td><ul>
 <li>Madde</li>
 <li>Miktar</li>
@@ -92,20 +95,20 @@ Dynamics 365 - işlemlerinde kullanmak, mobil aygıtınızda depolama aygıtın�
 </ul></td>
 </tr>
 <tr class="even">
-<td> Öncelik 20</td>
+<td> Ölçüt 20</td>
 <td><ul>
 <li>Küme konumu</li>
 <li>Küme</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td> Öncelik 30</td>
+<td> Ölçüt 30</td>
 <td><ul>
 <li>Madde açıklaması</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td> Öncelik 40</td>
+<td> Ölçüt 40</td>
 <td><ul>
 <li>Yapılandırma</li>
 <li>Renk</li>
@@ -114,7 +117,7 @@ Dynamics 365 - işlemlerinde kullanmak, mobil aygıtınızda depolama aygıtın�
 </ul></td>
 </tr>
 <tr class="odd">
-<td> Priority 50</td>
+<td> Ölçüt 50</td>
 <td><ul>
 <li>Yer</li>
 <li>Plaka</li>
@@ -123,25 +126,27 @@ Dynamics 365 - işlemlerinde kullanmak, mobil aygıtınızda depolama aygıtın�
 </tbody>
 </table>
 
-App içinde görüntülenen meta verileri şu alanlardan oluşur, örneğin, ne zaman bir ambar çalışanı görev bir mobil aygıtta gerçekleştiriyor:
+Örneğin bir ambar çalışanı mobil cihaz üzerinde bir görev yerine getirdiğinde, uygulamada görüntülenen meta veri aşağıdaki alanlardan oluşuyorsa:
 
 -   Madde
 -   Miktar
 -   Ölçü birimi
 -   Madde açıklaması
--   Boyut ve konum
+-   Boyut ve Konum
 
-Yukarıdaki tabloda ayarladığınız ambar app alan öncelik bağlı olarak, aşağıdaki 3 satır bilgisi görev sayfasında görüntülenir:
+Yukarıdaki tabloda ayarlanmış olan ambar uygulaması alan öncelik kümesine dayanarak, aşağıdaki 3 bilgi satırı görev sayfasında görüntülenir.
 
--   Satır 1: Madde, miktar, ölçü birimi
--   2. satır: Madde açıklaması
--   Satır 3: boyut
+-   Satır 1: Madde, Miktar ve Ölçü Birimi
+-   Satır 2: Madde açıklaması
+-   Satır 3: Boyut
 
-Örneğin, konum, kalan meta verileri görev sayfasında görüntülenmez, ancak Ayrıntıları sayfasında görüntülenir. Daha fazla bilgi edinmek ve kullanıcı arabirim örnekleri görmek için blog postasının bakın [Dynamics 365 duyuran işlemleri - depolama için](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+Kalan meta veri, örneğin Konum, görev sayfasında görüntülenmeyecektir, ancak bir ayrıntılar sayfasında görüntülenir. Kullanıcı arabirimi hakkında daha fazla bilgi almak ve örnekler görmek için şu blog gönderisine bakın [Dynamics 365 for Operations - Ambarlama](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/)
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Yüklemek ve yapılandırmak için depolama işlemleri – Microsoft Dynamics 365](install-configure-warehousing-app.md)
+[Microsoft Dynamics 365 for Operations – Ambarlama yükleme ve yapılandırma](install-configure-warehousing-app.md)
+
+
 
 

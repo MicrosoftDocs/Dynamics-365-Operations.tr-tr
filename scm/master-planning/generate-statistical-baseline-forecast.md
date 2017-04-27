@@ -1,5 +1,5 @@
 ---
-title: "Tahmin Temel İstatistik oluştur"
+title: "Bir istatistik temel tahmin oluştur"
 description: "Bu makalede, talep tahmini hesaplamasında kullanılan parametreler ve filtreler hakkında bilgiler verilmektedir."
 author: YuyuScheller
 manager: AnnBe
@@ -26,32 +26,35 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="generate-a-statistical-baseline-forecast"></a>Tahmin Temel İstatistik oluştur
+# <a name="generate-a-statistical-baseline-forecast"></a>Bir istatistik temel tahmin oluştur
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, talep tahmini hesaplamasında kullanılan parametreler ve filtreler hakkında bilgiler verilmektedir. 
 
 Bir temel tahmini oluştururken, öncelikle hesaplamada kullanılan parametreleri ve filtreleri belirtmelisiniz. Örneğin, belli bir şirket için, gelecek ay için ve belli bir seçilen madde grubu için önceki yıla ait hareket verilerine göre talebi tahmin eden bir temel tahmin oluşturabilirsiniz. 
 
-Tahmini bir istek oluşturmak için aşağıdaki adrese gidin **Master planlama &gt;tahmin &gt;talep tahmin &gt;Tahmin oluştur istatistiksel temel**. 
+Bir talep tahmini oluşturmak için **Master planlama &gt; Tahmin &gt; Talep tahmini &gt; İstatistik temel tahmin oluştur** menüsüne gidin. 
 
 Tahmin aralığı tahmin oluşturma zamanında seçilebilir. Kullanılabilir değerler: Gün, Hafta ve Ay. 
 
 Bir tahminin oluşturulduğu aralıkların sayısı,** Tahmin dönemi** alanında ayarlanır. 
 
-Tahmin stratejisi **Geçmişteki talep üzerine kopyala** olarak ayarlandığında, geçmiş dönem sonu yok sayılır. Sistem belirtilen demetleri sayısını kopyalar **tahmin ufku** alan kümesinde tarihinden başlayarak tahmin talep **tarihinden** altında alan **geçmiş ufku**. Geçmiş talebi belli bir tarihten ileriye doğru kopyalamakla, üretim planlayıcıları sonraki üç aylık dönemin planını iki şekilde yapabilir:
+Tahmin stratejisi **Geçmişteki talep üzerine kopyala** olarak ayarlandığında, geçmiş dönem sonu yok sayılır. Sistem, **Tahmin dönemi** alanında belirtilen aralıkların sayısını **Geçmiş dönem** öğesi altındaki **Başlangıç tarihi** alanından başlayarak tahmini talebe kopyalar. Geçmiş talebi belli bir tarihten ileriye doğru kopyalamakla, üretim planlayıcıları sonraki üç aylık dönemin planını iki şekilde yapabilir:
 
 -   Talebi geçen yılki aynı üç aydan başlayarak kopyalamak suretiyle.
 -   Talebi önceki üç aydan başlayarak kopyalamak suretiyle.
 
 Üretim planlarında karışıklığı önlemek için, belirli bir sayıda tahmin aralığı dondurulabilir. Bu numara **Dondurma zaman dilimi** alanında ayarlanır. **Düzeltilmiş talep tahmini **sayfasında, dondurulan aralık hücreleri, bu değerlerin değiştirilmemesi gerektiğine dair görsel bir uyarı vermek için devre dışı bırakılır. 
 
-Temel Talep tahmini için başlangıç tarihinin geçerli tarih veya gelecekteki bir tarih olması gerekmez. Farklı bir başlangıç tarihi ayarlamak için, **Temel tahmin Başlangıç tarihi - Başlangıç tarihi** alanı. Örneğin, Haziran ayında, kullanıcılar gelecek yıl için tahmin oluşturabilir. Geçmiş talebin sonu ile temel başlangıcı arasındaki tahmin aralıkları eksik olduğu için, öngörüler doğru olmayabilir. Microsoft Dynamics 365 işlemleri Talep tahmini hizmeti kullanıyorsanız, eksik boşlukları doldurmak için dört yolu vardır. EKSİK ayarlayarak istediğiniz yöntemi seçebilirsiniz\_değer\_yerine KOYMA parametresi **isteğe bağlı parametreleri tahmin** sayfa. 
+Temel Talep tahmini için başlangıç tarihinin geçerli tarih veya gelecekteki bir tarih olması gerekmez. Farklı bir başlangıç tarihi ayarlamak için, **Temel tahmin Başlangıç tarihi - Başlangıç tarihi** alanı. Örneğin, Haziran ayında, kullanıcılar gelecek yıl için tahmin oluşturabilir. Geçmiş talebin sonu ile temel başlangıcı arasındaki tahmin aralıkları eksik olduğu için, öngörüler doğru olmayabilir. Microsoft Dynamics 365 for Operations Talep tahmini hizmeti kullanıyorsanız, eksik boşlukları doldurabileceğiniz dört yolu vardır. İstediğiniz yöntemi **Talep tahmini parametreleri** sayfasındaki MISSING\_VALUE\_SUBSTITUTION parametresini ayarlayarak seçebilirsiniz. 
 
-**Temel başlangıç tarihini tahmin** - **tarihinden** tahmin kova, örneğin, başlangıcına kadar Amerika Birleşik Devletleri'nde bir pazar hafta tahmin kova ise ayarlanacak alanı vardır. Sistem otomatik olarak ayarlar **temel başlangıç tarihini tahmin** - **tarihinden** tahmin kova başlangıcını eşleştirmek için alan. 
+**Temel tahmin başlangıç tarihi** - **Başlangıç tarihi** alanının, bir tahmin aralığının başlangıcına, örneğin ABD'de, tahmin aralığı hafta ise, Pazar gününe ayarlanması gerekir. Sistem, **Temel tahmin başlangıç tarihi** - **Başlangıç tarihi** alanını bir tahmin aralığının başlangıcıyla eşleşecek şekilde otomatik olarak ayarlar. 
 
-**Temel başlangıç tarihini tahmin** - **tarihinden** alan, geçmişteki bir tarih için ayarlanabilir. Diğer bir deyişle, geçmişte bir talep tahminini oluşturmak mümkündür. Bu işlem, kullanıcıların tahmin hizmet parametrelerinde geçmişte üretilen istatistiksel tahminin gerçek geçmiş talebiyle eşleşecek şekilde ufak düzeltmeler yapmasına olanak verdiği için yararlıdır. Daha sonra kullanıcılar geleceğe yönelik istatistik temel tahmini oluşturmak için bu parametre ayarlarını kullanmaya devam edebilir. 
+**Temel tahmin başlangıç tarihi** - **Başlangıç tarihi** alanı geçmişteki bir tarihe ayarlanabilir. Diğer bir deyişle, geçmişte bir talep tahminini oluşturmak mümkündür. Bu işlem, kullanıcıların tahmin hizmet parametrelerinde geçmişte üretilen istatistiksel tahminin gerçek geçmiş talebiyle eşleşecek şekilde ufak düzeltmeler yapmasına olanak verdiği için yararlıdır. Daha sonra kullanıcılar geleceğe yönelik istatistik temel tahmini oluşturmak için bu parametre ayarlarını kullanmaya devam edebilir. 
 
-**Manüel ayarlamaları talep tahminine aktar** onay kutusu seçiliyse, önceki talep tahmini yinelemelerinde yapılan manüel ayarlamalar, yeni temel tahmine otomatik olarak uygulanabilir. Onay kutusu temizlenirse, manüel ayarlamalar temel tahmine eklenmez, ancak silinmezler. Bir tahminde yapılan manüel ayarlamalar, yalnızca tahmini içe aktarma sırasında, **Temel talep tahmininde yapılan manüel ayarlamaları kaydet** onay kutusundaki işaret kaldırılarak silinebilir. Manüel ayarlamalar yetkilendirme anında kaydedilir. Bu nedenle, bir kullanıcı, tahmin için el ile ayarlama yapar ancak tahmine Dynamics 365 işlemleri için yetki vermez, değişiklikler kaybolur. El ile ayarlama ve nasıl çalıştıkları hakkında daha fazla bilgi için bkz: [ayarlanmış tahmin yetkilendirme](authorize-adjusted-forecast.md). 
+**Manüel ayarlamaları talep tahminine aktar** onay kutusu seçiliyse, önceki talep tahmini yinelemelerinde yapılan manüel ayarlamalar, yeni temel tahmine otomatik olarak uygulanabilir. Onay kutusu temizlenirse, manüel ayarlamalar temel tahmine eklenmez, ancak silinmezler. Bir tahminde yapılan manüel ayarlamalar, yalnızca tahmini içe aktarma sırasında, **Temel talep tahmininde yapılan manüel ayarlamaları kaydet** onay kutusundaki işaret kaldırılarak silinebilir. Manüel ayarlamalar yetkilendirme anında kaydedilir. Bu nedenle, bir kullanıcı, tahminde manüel ayarlamalar yapar, ancak tahmini Dynamics 365 for Operations'ta yeniden yetkilendirmezse, değişiklikler kaybolur. Manüel ayarlamalar ve bunların çalışma şekilleri hakkında daha fazla bilgi için, bkz. [Ayarlanmış tahmini yetkilendirme](authorize-adjusted-forecast.md). 
 
 Talep tahmini oluşturmada, kullanıcıların oluşturulan tahmini tanımalarına yardımcı olacak bir ad ve yorumlar bulunabilir. Bu değerler **İstatistik temel tahmin oluşturma geçmişi** sayfasındaki tahmin oluşturma geçmişinde görülür. 
 
@@ -59,15 +62,17 @@ Tahmin oluşturma zamanında şirketlerarası planlama grubu, madde tahsisat ana
 
 **İpucu**: Bazen kullanıcılar bir talep tahmini oluştururken veya tahmin oluşturma hiçbir oturum günlüğü olmadan tamamlandığında hata iletisi alabilir. Bu durum, daha önce tahmin oluşturmak için kullanılan sorguda arda kalan veriler nedeniyle oluşabilir. Bu sorunu gidermek amacıyla, **Sorgu** sayfasını açmak için **Seç** öğesine tıklayın, **Sıfırla** öğesine tıklayın ve sonra temel tahmini yeniden oluşturun. 
 
-Tahmin büyük öğeler kümesi için ancak, örneğin, bir öğe veya bir madde tahsisat anahtarı için bir kerede oluşturulmaz sonra daha iyi performans almak için seçebileceğiniz **istek yanıt modu kullan** onay kutusunu **Master planlama - Setup - Talep tahmini** - **isteğe bağlı parametreler - Azure makine öğrenme tahmin** sekme.
+Tahmin büyük öğeler kümesi için oluşturulmamış, ancak söz gelimi, bir öğe veya bir madde tahsisat anahtarı için bir kerede oluşturulmuşsa, bu durumda daha iyi performans almak için, **Master planlama - Ayar - Talep tahmini** - **Talep tahmini parametreleri - Azure Machine Learning** sekmesindeki **Talep yanıt modunu kullan** onay kutusunu seçebilirsiniz.
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Demand forecasting setup](demand-forecasting-setup.md)
+[Talep tahmini kurulumu](demand-forecasting-setup.md)
 
-[Making manual adjustments to the baseline forecast](manual-adjustments-baseline-forecast.md)
+[Temel tahminde manüel ayarlamalar yapma](manual-adjustments-baseline-forecast.md)
 
-[Authorizing the adjusted forecast](authorize-adjusted-forecast.md)
+[Ayarlanmış tahmini yetkilendirme](authorize-adjusted-forecast.md)
+
+
 
 

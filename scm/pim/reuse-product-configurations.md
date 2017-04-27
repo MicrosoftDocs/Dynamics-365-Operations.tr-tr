@@ -1,5 +1,5 @@
 ---
-title: "Ürün konfigürasyonları yeniden kullan"
+title: "Ürün yapılandırmalarını yeniden kullanma"
 description: "Ürün için mevcut bir yapılandırmayı otomatik olarak yeniden kullanmak istediğinizi belirtebilirsiniz. Ardından bir kullanıcı bir yapılandırma oturumunu tamamladığında sistem, kullanıcının seçimiyle eşleşen bir yapılandırma olup olmadığını doğrular. Eşleşen bir yapılandırma bulunursa ürün reçetesine (BOM) karşılık gelen yapılandırma kodu ve rota yeniden kullanılır."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reuse-product-configurations"></a>Ürün konfigürasyonları yeniden kullan
+# <a name="reuse-product-configurations"></a>Ürün yapılandırmalarını yeniden kullanma
+
+[!include[banner](../includes/banner.md)]
+
 
 Ürün için mevcut bir yapılandırmayı otomatik olarak yeniden kullanmak istediğinizi belirtebilirsiniz. Ardından bir kullanıcı bir yapılandırma oturumunu tamamladığında sistem, kullanıcının seçimiyle eşleşen bir yapılandırma olup olmadığını doğrular. Eşleşen bir yapılandırma bulunursa ürün reçetesine (BOM) karşılık gelen yapılandırma kodu ve rota yeniden kullanılır.
 
@@ -41,5 +44,7 @@ Yapılandırmaları yeniden kullanmayı etkinleştirmek için **Ürün yapıland
 
 ## <a name="resetting-configuration-reuse"></a>Yapılandırma yeniden kullanmayı sıfırlama
 Yapılandırma yeniden kullanmayı sıfırladığınızda önceden oluşturduğunuz yapılandırmalar artık değerlendirilmez. Ürün reçetesi veya rota değiştiğinde ancak ilgili öznitelikler değişmediğinde yapılandırma yeniden kullanmayı sıfırlamak isteyebilirsiniz. Yapılandırma yeniden kullanmayı bileşen için **Genel** Hızlı Sekmesinde sıfırlarsınız.
+
+
 
 

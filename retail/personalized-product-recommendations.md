@@ -1,6 +1,6 @@
 ---
-title: "Kişiselleştirilmiş ürün önerileri genel bakış"
-description: "İşlemler için Dynamics 365 içinde ürün önerileri on the point of satış (POS) aygıtı görüntülenebilir. Öneriler müşteri kendi satın alma geçmişi, onların istek listesindeki öğeleri ve diğer müşterilerin çevrimiçi satın alınan maddeleri ve Tuğla Dibek depolarında göre ilgilenebileceğiniz maddelerdir. Büyük kataloglar ile Perakendeciler için öneriler müşteri ile ürün bulma yardımı. Bir müşterinin ilgi ve satın alma alışkanlıkları hedeflenen ürünleri vitrini, ürün önerileri Perakendeciler satışını ve çapraz satış ile yardımcı olabilir ve müşteri tutma geliştirebilirsiniz. İşlemler için Dynamics 365 içinde ürün önerileri kavrama Hizmetleri ve Microsoft Azure makine öğrenme tarafından güç sağlar."
+title: "Kişiselleştirilmiş ürün önerilerine genel bakış"
+description: "Dynamics 365 for Operations&quot;da, ürün önerileri satış noktası cihazında (POS) görüntülenebilir. Öneriler satınalma geçmişi, istek listelerindeki maddeler ve diğer müşterilerin çevrimiçi ve fiziksel mağazalardan aldıkları maddelere dayanarak müşterilerin ilgi duyabilecekleri maddelerdir. Büyük kataloglara sahip perakendeciler için öneriler müşterinin ürün bulmasına yardımcı olur. Müşterinin ilgi alanlarını ve satın alma alışkanlıklarını hedefleyen ürünleri sunarak , ürün önerileri perakendecilere çapraz satış ve yukarı satış konusunda yardımı olabilir ve müşteri tutmayı geliştirebilir. Dynamics 365 for Operations&quot;da, ürün önerileri bilişsel hizmetler ve Microsoft Azure makine öğrenimi ile desteklenir."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,59 +25,64 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="personalized-product-recommendations-overview"></a>Kişiselleştirilmiş ürün önerileri genel bakış
+# <a name="personalized-product-recommendations-overview"></a>Kişiselleştirilmiş ürün önerilerine genel bakış
 
-İşlemler için Dynamics 365 içinde ürün önerileri on the point of satış (POS) aygıtı görüntülenebilir. Öneriler müşteri kendi satın alma geçmişi, onların istek listesindeki öğeleri ve diğer müşterilerin çevrimiçi satın alınan maddeleri ve Tuğla Dibek depolarında göre ilgilenebileceğiniz maddelerdir. Büyük kataloglar ile Perakendeciler için öneriler müşteri ile ürün bulma yardımı. Bir müşterinin ilgi ve satın alma alışkanlıkları hedeflenen ürünleri vitrini, ürün önerileri Perakendeciler satışını ve çapraz satış ile yardımcı olabilir ve müşteri tutma geliştirebilirsiniz. İşlemler için Dynamics 365 içinde ürün önerileri kavrama Hizmetleri ve Microsoft Azure makine öğrenme tarafından güç sağlar.
+[!include[banner](includes/banner.md)]
+
+
+Dynamics 365 for Operations'da, ürün önerileri satış noktası cihazında (POS) görüntülenebilir. Öneriler satınalma geçmişi, istek listelerindeki maddeler ve diğer müşterilerin çevrimiçi ve fiziksel mağazalardan aldıkları maddelere dayanarak müşterilerin ilgi duyabilecekleri maddelerdir. Büyük kataloglara sahip perakendeciler için öneriler müşterinin ürün bulmasına yardımcı olur. Müşterinin ilgi alanlarını ve satın alma alışkanlıklarını hedefleyen ürünleri sunarak , ürün önerileri perakendecilere çapraz satış ve yukarı satış konusunda yardımı olabilir ve müşteri tutmayı geliştirebilir. Dynamics 365 for Operations'da, ürün önerileri bilişsel hizmetler ve Microsoft Azure makine öğrenimi ile desteklenir.
 
 <a name="scenarios"></a>Senaryolar
 ---------
 
-Ürün önerileri POS aşağıdaki senaryolar için etkinleştirilir. Bunlar, bulut POS veya Modern POS (MPOS) kullanılabilir.
+Ürün önerileri aşağıdaki POS senaryoları için etkinleştirilir. Bulut POS veya Modern POS'da (MPOS) kullanılabilir.
 
-1.  Üzerinde **ürün ayrıntıları** sayfa:
+1.  **Ürün ayrıntıları** sayfasında:
 
--   Mağaza ziyaret ilişkilendirirseniz bir **ürün ayrıntıları** önceki hareketleri sırasında farklı kanallar arasında öneri motoru önerdiği ek bakarak bu öğeler, sayfa büyük olasılıkla birlikte satın alınması.
--   Mağaza ilişkilendirirseniz müşteri harekete ekler ve daha sonra ziyaret bir **ürün ayrıntıları** sayfa, öneri motoru müşteri hareket geçmişini kullanarak kişiselleştirilmiş öneriler sağlar.
+-   Bir mağaza çalışanı farklı kanallardan gerçekleştirilen önceki hareketlere bakarken **Ürün ayrıntıları** sayfasını ziyaret ederse, öneri altyapısı birlikte satın alınabilecek ek maddeleri önerir.
+-   Mağaza çalışanı müşteriyi harekete ekler ve **Ürün ayrıntıları** sayfasını ziyaret ederse, öneri altyapısı müşteri hareket geçmişini kullanarak kişiselleştirilmiş öneriler sağlar.
 
 [![proddetails](./media/proddetails.png)](./media/proddetails.png)
 
-2.  Üzerinde **hareket** sayfa:
+2.  **Hareket** sayfasında:
 
--   Öneri motoru sepetindeki öğeleri tüm listeyi temel alan öğeleri önerir.
--   Mağaza ilişkilendirirseniz harekete bir müşteri ekler, öneri motoru sepette müşteri hareket geçmişini ve öğelerin listesini kullanarak kişisel öneriler sağlar.
+-   Öneri altyapısı sepetteki maddelerin tam listesini temel olarak maddeler önerir.
+-   Mağaza çalışanı müşteriyi harekete eklerse, öneri altyapısı müşteri hareket geçmişini ve sepetteki maddelerin listesini kullanarak kişiselleştirilmiş öneriler sağlar.
 
-**Not** önerilerini görüntülemek için **hareket** sayfa, satıcıya gereken işlemleri için Dynamics 365 ekran düzende güncelleştirmek. **Önerileri** denetimi atlanıyor, üzerinde **hareket** sayfa. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+**Not** **Hareket** sayfasında önerileri görüntülemek için, perakendecinin Dynamics 365 for Operations'da ekran düzenini güncelleştirmesi gerekir. **Öneriler** denetimi, **Hareket** sayfasında atlanmalıdır. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-3.  Üzerinde **Müşteri ayrıntıları** sayfa:
-    -   Kullanıcı kimliği ve müşterinin istek listesindeki öğeleri temel alarak madde öneri motoru önerir.
+3.  **Müşteri ayrıntıları** sayfasında:
+    -   Öneri altyapısı Kullanıcı kimliğini ve müşteri istek listesindeki maddeleri temel olarak maddeler önerir.
 
 [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
 
-## <a name="configure-dynamics-365-for-operations-to-enable-pos-recommendations"></a>Dynamics 365 POS önerileri etkinleştirme işlemleri için yapılandırma
-Ürün önerileri ayarlamak için aşağıdakileri yapmanız gerekir.
+## <a name="configure-dynamics-365-for-operations-to-enable-pos-recommendations"></a>Dynamics 365 for Operations'ı POS önerileri etkinleştirme işlemleri için yapılandırma
+Ürün önerilerini ayarlamak için aşağıdakileri yapmanız gerekir:
 
-1.  Doğru seçtiğinizden emin olun **tüzel kişilik**.
-2.  Gidin **varlık deposu**seçin **perakende satış**ı **yenileme**. ** ** Bu demo verileri (veya veri) operasyonel veritabanınızdan kullanın ve varlık deposuna taşıyın.
-3.  İsteğe bağlı: öneriler hareket ekranda görüntülemek için Git ** ekran düzeni, **ekran Mizanpaj, başlatma **ekran düzeni tasarımcısı**,** ** ve sonra bırak ** öneriler denetim ** gereken yerde.
-4.  Git **perakende parametreleri**seçin **makine öğrenme**, select ** Evet ** altında **POS etkinleştirmek önerileri**.
-5.  POS üzerinde önerileri görmek için genel yapılandırma işlemi çalıştırmak **1110**. POS ekran düzeni tasarımcısı için yapılan değişiklikleri yansıtacak şekilde kanalı yapılandırma işlemi çalıştırmak **1070**.
+1.  Doğru **Tüzel kişilik** seçimi yaptığınızdan emin olun.
+2.  **Varlık deposu**'na gidin **Perakende satış**'ı seçin ve **Yenile**'ye tıklayın. ** ** Bu, işlem veritabanınızdaki demo verileri (veya verilerinizi) kullanacak ve bunları Varlık deposuna taşıyacaktır.
+3.  İsteğe bağlı: Hareket ekranında önerileri görüntülemek için **Ekran düzeni'ne gidin ** ekran düzeninizi seçin, **Ekran düzeni tasarımcısı**'nı başlatın** **ve sonra **öneriler denetimini** gereken yere bırakın.
+4.  **Perakende parametreleri**'ne gidin, **Makine öğrenimi**'ni seçin, **POS önerilerini etkinleştir** altından ** Evet ** seçeneğini seçin.
+5.  Önerileri POS'ta görmek için genel yapılandırma işini **1110** çalıştırın. Yapılan değişiklikleri POS ekran düzeni tasarımcısına yansıtmak için, kanal yapılandırma işini **1070** çalıştırın.
 
 ## <a name="how-does-it-work"></a>[]()Nasıl çalışır?
-Yenilediğinizde **varlık deposu** varlığı, aşağıdaki eylemleri yer.
+**Varlık deposu** varlığını yenilediğinizde, aşağıdaki eylemleri gerçekleşir.
 
--   Algılama hizmetleri tarafından gerekli biçiminde veri işlemsel veritabanı işlemleri için Dynamics 365 ayıklanacağı ve varlık depoya gönderilen.
--   Veri ADF etkinlikleri kapsamında kovanı komut dosyaları kullanarak veri temizlemeyi Azure veri fabrikası (ADF) tarafından kullanılır. Cleansed veri blob deposunda saklanır.
--   Blob depolama biriminden verileri bir öneri modeli eğitmek için API algılama hizmetleri tarafından kullanılır.
+-   Bilişsel hizmetler tarafından istenen biçimdeki veriler Dynamics 365 for Operations işlem veritabanından çıkarılır ve Varlık deposuna gönderilir.
+-   Veriler, Azure Data Factory (ADF) tarafından ADF etkinliklerinin bir parçası olarak Hive betiği kullanan verileri temizlemek için kullanılır. Temizlenen veriler blob depolamada saklanır.
+-   Blob depolamadaki veriler öneri modelini eğitmek amacıyla Bilişsel hizmetler API'sı tarafından kullanılır.
 
-Açmak ne zaman **önerileri etkinleştirme** ve yapılandırma işlemlerini çalıştıracak, aşağıdaki eylemler gerçekleşir.
+**Önerileri etkinleştir**'i açıp yapılandırma işlerini çalıştırdığınızda, aşağıdaki eylemler gerçekleşir.
 
--   Model kimlik ve kimlik API'dan toplanma ve işlemsel veritabanı işlemleri için Dynamics 365, AOS için Web.config dosyasında ve ayrıca perakende sunucusunda depolanır.
--   Çevrimiçi modda bulut POS ve MPOS ürün önerileri aramaları kabul edilir böylece model kimlik ve kimlik CRT için kullanılabilir yapılır.
+-   Model kimlik bilgileri ve kimliği API'dan toplanır ve Dynamics 365 for Operations işlem veritabanında, AOS için web.config'de ve ayrıca perakende sunucusunda depolanır.
+-   Model kimlik bilgileri ve kimliği CRT'nin kullanımına sunulur, böylece Bulut POS ve MPOS'tan çevrimiçi modda gelen ürün önerileri çağrıları değerlendirilir.
 
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[POS aygıt hareket sayfasında önerileri denetimi ekleyin](add-recommendations-control-pos-screen.md)
+[POS cihazındaki hareket sayfasına öneriler denetimi ekleme](add-recommendations-control-pos-screen.md)
+
+
 
 

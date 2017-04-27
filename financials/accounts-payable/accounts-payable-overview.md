@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-accounts-payable"></a>Borç hesaplarını yapılandırın
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, Microsoft Dynamics AX'te Borç hesapları için temel ve isteğe bağlı işlevleri ayarlamada kullanacağınız sayfalar açıklanmaktadır. Ayrıca, Borç hesaplarını ayarlamaya başlamadan önce tamamlamanız gereken kurulum adımları da açıklanmaktadır.
 
 <a name="prerequisites-for-accounts-payable-setup"></a>Borç hesapları kurulumu için ön gereksinimler
@@ -40,7 +43,7 @@ Borç hesaplarını ayarlamadan önce aşağıdaki kurulumu tamamlamanız gereki
     -   Döviz kuru ayarlamalarını çalıştırmayı planlıyorsanız, Para birimleri sayfasında para birimi kodlarını, Döviz kurları türleri sayfasında döviz kuru türlerini ve Para birimi döviz kuru sayfasında, para birimi döviz kurlarını ayarlayın.
 -   Nakit ve banka yönetimi bölümünde, ödeme yöntemleriyle kullanılacak banka hesaplarını ayarlayın.
 
-## <a name="setup-pages-for-accounts-payable"></a>Borç hesapları kurulumu sayfaları
+## <a name="setup-pages-for-accounts-payable"></a>Borç hesapları için kurulum sayfaları
 
 Her tüzel kişilik için temel Borç hesapları işlevlerini ayarlamak üzere aşağıdaki sayfaları kullanın. Sayfalar önerilen kurulum sırasıyla listelenmiştir. Kurulum işlemini kolaylaştırmak için, oluşturduğunuz ilk kayıtlardan şablonları oluşturabilirsiniz. Bir şablonda, değerler genellikle kuruluşun belirli bir satıcı tipi için uygulamak istediği özellikleri yansıtan değerleri içerir.
 1.  Satış siparişlerine, satınalma siparişlerine, müşterilere ve satıcılara atadığınız ve fatura vade tarihlerini belirleyen ödeme koşullarını, Ödeme koşulları sayfasında tanımlayın.
@@ -56,10 +59,10 @@ Temel işlevselliğe ek olarak, Borç hesapları ayarlayabileceğiniz başka iş
 
 İşleve göre ek kurulum sayfaları düzenlenir.
 
-**Policies**
+**İlkeler**
 -   Satıcı Fatura ilkesi sayfasında satıcı fatura ilkelerini ayarlayın.
 
-**Invoice matching**
+**Fatura eşleştirme**
 
 -   Fatura toplamları farkları sayfasında, fatura toplamları için fakları ayarlayın.
 -   Eşleşme ilkesi sayfasında iki yönlü ve üç yollu eşleştirme ilkeleri ayarlayın.
@@ -68,39 +71,39 @@ Temel işlevselliğe ek olarak, Borç hesapları ayarlayabileceğiniz başka iş
 -   Satıcı fiyatı farkı grupları sayfasında satıcı fiyatları için fark grupları ayarlayın.
 -   Gider farkları sayfasında giderler için farkları ayarlayın.
 
-**Workflow**
+**İş Akışı**
 
 -   Borç hesapları iş akışı sayfasında, Satınalma talepleri ve günlük onayları için iş akışı yapılandırmaları ayarlayın.
 
-**Reasons**
+**Nedenler**
 
 -   Satıcı nedenleri sayfasında neden kodlarını ayarlayın.
 
-**Charges**
+**Masraflar**
 
 -   Gider kodu sayfasında kullanılan satınalma siparişlerindeki giderleri için kodlar ayarlayın.
--   Satıcı giderler grubu sayfasında, oluşturmak ve satıcılar için masraf gruplarını sürdürmek.
+-   Satıcı giderleri grubu üzerinde sayfa oluşturun ve satıcılar için masraf gruplarını güncelleştirin.
 -   Madde giderini grupları sayfasında, maddeler için giderler grupları oluşturun ve sürdürün.
 -   Otomatik masraflar sayfasında, siparişlere otomatik olarak atanan giderleri tanımlayın.
 
-**Supplementary items**
+**Tamamlayıcı maddeler**
 
 -   Tamamlayıcı madde grupları üzerinde- Satıcı sayfasında, satıcılar için tamamlayıcı madde grupları oluşturun ve sürdürün.
 -   Tamamlayıcı madde grupları üzerinde-Stok sayfasında, maddeler için tamamlayıcı madde grupları oluşturun ve sürdürün.
 
-**Distribution**
+**Dağıtım**
 
 -   Teslimat koşulları sayfasında , satıcıdan müşteriye bir madde naklinin koşullarını oluşturun ve sürdürün.
 -   Teslimat modları sayfasında, bir sipariş satıcıdan alıcıya teslim edildiğinde, kullanılacak taşıma yöntemlerini oluşturun ve yönetin.
 -   Hedef kodları sayfasında, teslimat hedefleri için tanımlayıcılar ve tarifler oluşturun ve sürdürün.
 
-**Forms**
+**Formlar**
 
 -   Form notlarısayfasında, çeşitli sayfalarda görüntülenecek standar metni oluşturun.
 -   Form sıralaması parametreleri sayfasında, talepler, giriş listeleri, sevk irsaliyeleri ve faturalar için bir sıralama düzeni ayarlayın.
 -   Yazdırma yönetimi kurulumu sayfasında, sayfaların orjinali ve kopyası için baskı yönetim bilgisini ayarlayın.
 
-**Payments**
+**Ödemeler**
 
 -   Nakit iskontosu sayfasında, nakit iskontoları edinmek için şartları ayarlayın ve yönetin. Nakit iskonto kodları satıcılara bağlıdır ve satınalma siparişlerine uygulanır.
 -   Ödeme planları sayfasında, satıcılara yapılacak taksit ödemelerini yönetmek için kullanılan ödeme planlarını ayarlayın.
@@ -108,17 +111,17 @@ Temel işlevselliğe ek olarak, Borç hesapları ayarlayabileceğiniz başka iş
 -   Ödeme masrafları sayfasında, satıcılar ile ilişkili ödeme masraflarını oluşturun ve sürdürün.
 -   Ödeme talimatı sayfasında, ödeme talimatları oluşturun ve sürdürün.
 
-**Statistics**
+**İstatistikler**
 
 -   Yaşlandırma dönemi tanımları sayfasında, satıcı hesaplarının vade dağılımını analiz etmede kullanılacak, kullanıcı tarafından tanımlanan aralıkları ayarlayın.
 -   İş kolu sayfasında, satıcılara atanan iş kolu (LOB) kodlarını oluşturun.
 
 **Vergi 1099**
 
--   Üzerinde **1099 alanlarına** sayfa ve güncelleştirmek için iç Revenue Service'teki (en son IRS gereksinimlerine bağlı IRS), bildirilen en az tutarı doğrulayın.
+-   **1099 alanları** sayfasında, en güncel gereksinimlerine göre ABD İç Gelir Servisi'ne (IRS) bildirilecek minimum tutarları onaylayın ve güncelleyin.
 
-## <a name="optional-setup-for-other-modules"></a>**Diğer modülleri için isteğe bağlı kurulum**
-**Organization administration**
+## <a name="optional-setup-for-other-modules"></a>**Diğer modüller için isteğe bağlı kurulum**
+**Kuruluş yönetimi**
 
 -   Numara serileri sayfasında, fatura numaraları için numara serisi grupları ayarlayın.
 -   Aşağıdaki sayfalarda adres bilgilerini ayarlayın:
@@ -126,7 +129,7 @@ Temel işlevselliğe ek olarak, Borç hesapları ayarlayabileceğiniz başka iş
     -   NAF kodları
     -   Posta kodlarını içe aktar
 
-**General ledger**
+**Genel muhasebe**
 
 -   Finansal boyutlar sayfasında, finansal boyutları ayarlayın.
 -   Aşağıdaki sayfalarda, vergi bilgilerini ayarlayın:
@@ -139,9 +142,10 @@ Temel işlevselliğe ek olarak, Borç hesapları ayarlayabileceğiniz başka iş
     -   Satış vergisi makamları
     -   Satış vergisi kapatma dönemleri
 
-**Cash and bank management**
+**Nakit ve banka yönetimi**
 
 -   Ödeme amaçları kodları sayfasında, Merkezi Banka amaç kodunu ayarlayın.
+
 
 
 

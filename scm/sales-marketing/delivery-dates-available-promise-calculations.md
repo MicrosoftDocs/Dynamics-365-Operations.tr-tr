@@ -28,23 +28,26 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="order-promising"></a>Sipariş taahhüdü
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede sipariş taahhütleri hakkında bilgiler verilmiştir. Sipariş Taahhüdü müşterileriniz için güvenilir teslimat tarihleri taahhüt etmenize yardımcı olur ve böylece bu tarihleri karşılayabilmeniz için esneklik sağlar.
 
 Sipariş taahhüdü erken sevk ve giriş tarihlerini hesaplar ve teslim tarihi kontrol yöntemi ve taşıma günlerini temel alır. Dört teslim tarihi kontrol yöntemi arasından seçim yapabilirsiniz:
 
--   **Satış sağlama süresi** – satış sağlama süresi satış siparişinin oluşturulmasından maddelerin sevk irsaliyesini arasındaki zamanı demektir. Teslim tarihi hesaplamasını bir varsayılan gün sayısına göre ve stok kullanılabilirliği, bilinen talep veya planlanan tedarik dikkate almaz.
--   **ATP (kullanılabilir taahhüt)** – KM olan bulunan ve müşteriye belirli bir tarihte taahhüt bir madde miktarı. KM hesaplaması kaydedilmemiş stok, sağlama süreleri, planlanan girişler ve sorunları içerir.
+-   **Satış sağlama süresi** – Satış sağlama süresi, satış siparişinin oluşturulmasından maddelerin sevk edilmesi arasındaki zaman anlamına gelir. Teslim tarihi hesaplaması, bir varsayılan gün sayısına dayanır ve stok kullanılabilirliğini, bilinen talebi veya planlanan tedariki dikkate almaz.
+-   **KM (kullanılabilir taahhüt)** – KM mevcut bulunan ve müşteriye belirli bir tarihte taahhüt edilebilecek bir madde miktarıdır. KM hesaplaması kaydedilmemiş stok, sağlama süreleri, planlanan girişler ve sorunları içerir.
 -   **KM + Çıkış marjı** sevkiyat tarihi karşılanabilir miktar KM tarihi ile maddenin çıkış marjının toplamına eşittir. Çıkış marjı, maddelerin sevkiyata hazırlanması için gereken süredir.
 -   **CTP (Teslim edilebilir miktar) **– Kullanılabilirlik açılım ile hesaplanır.
 
 ## <a name="atp-calculations"></a>ATP hesaplamaları
-ATP miktarı "toplu ATP ile bakma" yöntemi kullanılarak hesaplanır. Girişler arasında sorunlar toplamı en geç giriş (örneğin, bir önceki alış irsaliyesinden gelen ve bir miktar bir gereksinimi karşılamak üzere kullanılmalıdır) birden fazla olduğu durumlarda işleyebilir bu KM hesaplama yöntemi başlıca yararı olur. Verilecek kümülatif miktar almak için toplu miktarı aşıyor kadar tüm sorunları "toplu ATP ile bakma" hesaplama yöntemini içerir. Bu nedenle, KM hesaplama yöntemi, bir önceki dönemden bazı miktarların sonraki dönemde kullanılıp kullanılamayacağını değerlendirir.  
+Karşılanabilir miktar (ATP) “ileriye dönük toplam ATP” yöntemini kullanarak hesaplanır. Bu ATP hesaplama yönteminin temel avantajı, girişler arasındaki çıkışların toplamı son girişten fazla olduğunda, /(örneğin bir gereksinimi karşılamak için önceki bir girişten bir miktar kullanılması zorunlu olduğunda) örnekleri yönetebilmesidir. "İleriyi görebilmeli kümülatif ATP" hesaplama yöntemi, alınacak kümülatif miktar, verilecek kümülatif miktarı aşana kadarki tüm sorunları içerir. Bu nedenle, KM hesaplama yöntemi, bir önceki dönemden bazı miktarların sonraki dönemde kullanılıp kullanılamayacağını değerlendirir.  
 
 ATP miktarı, ilk dönemdeki kaydedilmemiş stok bakiyesinin miktarıdır. Genellikle, bir giriş planlanan her dönem için hesaplanır. Program ATP dönemini gün olarak hesaplar ve geçerli tarihi ATP miktarının ilk tarihi olarak hesaplar. İlk dönemde ATP, vadesi gelmiş ve geçmiş müşteri siparişlerinin çıkarıldığı eldeki stoku dahil eder.  
 
 ATP aşağıdaki formülü kullanarak hesaplanır:  
 
-KM KM önceki dönem + girişler için geçerli dönem – geçerli dönem için sorunlar – Net bir sorun için ne zaman alış irsaliyeleri ve Gelecek dönem, gelecekteki tüm dönemler için toplam aşan sorunlar toplamı kadar dönemine kadar ileride her dönem için = miktar ve Gelecek dönem dahil olmak üzere.  
+ATP = Önceki dönemin ATP'si + Geçerli dönemin girişleri – Geçerli dönemin çıkışları – Gelecek döneme kadar ve gelecek dönem dahil olmak üzere, tüm gelecek dönemlerdeki girişlerin toplamı, gelecek döneme kadar ve gelecek dönem dahil olmak üzere, çıkışların toplamını geçene kadar her gelecek dönem için net giriş miktarı.  
 
 Değerlendirilmesi gereken başka çıkış veya giriş kalmadığında, aşağıdaki tarihlerin ATP miktarı hesaplanan son ATP miktarıyla aynı olur.  
 
@@ -66,8 +69,10 @@ Bir müşteri arayıp aynı üründen 150 adet sipariş vermek istediğinde. Ür
 
 Ürün için bir satış siparişi satırı oluşturun ve miktarı **150** olarak belirleyin.  
 
-Teslimat tarihi kontrolü ATP yöntemi olduğu için, ATP verisi en erken olası sevk tarihini bulmak için hesaplanır. Ayarlarına bağlı olarak, geciken satınalma siparişi ve satış siparişi olarak kabul edilir ve geçerli tarih için elde edilen ATP miktarı 0 olmasına. Gecikmiş Sipariş alınması gerekirken, yarın, ATP miktarı fazla 0 hesaplanır (Bu durumda, 125 hesaplanır). Ancak, şimdi, ne zaman 100 parça için ek bir satınalma siparişi alınabilmesi için beklenen gelen 10 gün ATP miktarı 150'den fazla olur.  
+Teslimat tarihi kontrolü ATP yöntemi olduğu için, ATP verisi en erken olası sevk tarihini bulmak için hesaplanır. Ayarlara dayanarak, geciktirilmiş olan satınalma siparişi ve satış siparişi dikkate alınır ve sonucundaki ATP miktarı geçerli tarih için 0'dır. Yarın, gecikmiş satınalma siparişinin alınması beklendiğinde, ATP miktarı 0'dan fazla olarak hesaplanır (bu durumda, 125 olarak hesaplanır). Ancak, bundan 10 gün sonra, 100 parçalık ek satınalma siparişinin alınması beklendiğinde, ATP miktarı 150'den fazla olur.  
 
-Bu nedenle, sevk tarihi şu andan itibaren 10 gün olarak ayarlamak, ATP hesaplamaya dayalı. Bu nedenle, müşteri talep edilen miktarın şu andan itibaren 10 gün sonra teslim edilebileceğini söylersiniz.
+Bu nedenle, ATP hesaplamaya dayanarak, sevk tarihi şu andan itibaren 10 gün olarak ayarlanır. Bu nedenle, müşteri talep edilen miktarın şu andan itibaren 10 gün sonra teslim edilebileceğini söylersiniz.
+
+
 
 

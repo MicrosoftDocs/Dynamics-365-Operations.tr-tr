@@ -1,6 +1,6 @@
 ---
-title: "Yeni veya güncelleştirilmiş görev kılavuzları (Mayıs 2016)"
-description: "Bu makalede, Microsoft tarafından yayımlanan kılavuzları 2016 - tüm diller APQC Unified kitaplığı Microsoft Dynamics AX yeni veya güncelleştirilmiş görev listelenir. Başlangıç Kitaplığı yayımlanmamıştır."
+title: "Yeni veya güncelleştirilmiş kılavuzlar (Mayıs 2016)"
+description: "Bu konu, Microsoft Dynamics AX için Microsoft (Mayıs 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı&quot;nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-may-2016"></a>Yeni veya güncelleştirilmiş görev kılavuzları (Mayıs 2016)
+# <a name="new-or-updated-task-guides-may-2016"></a>Yeni veya güncelleştirilmiş kılavuzlar (Mayıs 2016)
 
-Bu makalede, Microsoft tarafından yayımlanan kılavuzları 2016 - tüm diller APQC Unified kitaplığı Microsoft Dynamics AX yeni veya güncelleştirilmiş görev listelenir. Başlangıç Kitaplığı yayımlanmamıştır. 
+[!include[banner](../includes/banner.md)]
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Görev APQC Unified kitaplığı (Mayıs 2016'de - tüm diller), Microsoft Dynamics AX için yönlendirir.
+
+Bu konu, Microsoft Dynamics AX için Microsoft (Mayıs 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır. 
+
+<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Microsoft Dynamics AX için (Mayıs 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'ndaki görev kılavuzları
 ------------------------------------------------------------------------------------------------
 
-(Mayıs 2016) Microsoft Dynamics AX ile ilgili Yardım için kullanılmaya yönelik Kılavuzlar 2016 güncelleştirmek görev APQC birleşik kitaplığı içerir ve Microsoft Dynamics AX Şubat 2016 bırakın. Yerelleştirilmiş sürümleri (Şubat 2016) yayımlanan görev kılavuzları APQC birleşik kitaplığı kullanılabilir bu Kitaplığı'nda. Görev Kılavuzu Kitaplığı'na Yardım sistemine bağlanma hakkında daha fazla bilgi için bkz: [Yardımı ile başlamak](help-overview.md). **Not:** yıldız (**\***) Dynamics AX 2016 güncelleştirebilir ve Microsoft Dynamics AX önceki sürümlerinde desteklenmeyen görev Kılavuzu, iş süreci için oluşturulmuş bir iş süreci modeler (BPM) başlığının yanındaki satır gösterir.
+(Mayıs 2016) APQC Birleştirilmiş Kitaplığı, Microsoft Dynamics AX Mayıs 2016 güncelleştirmesi ve Microsoft Dynamics AX Şubat 2016 sürümünün Yardım'ı için kullanılması planlanan Görev kılavuzlarını içerir. (Şubat 2016) APQC Birleştirilmiş Kitaplığı'nda yayımlanan Görev kılavuzlarının yerelleştirilmiş sürümleri bu kitaplıkta bulunabilir. Yardım sistemini bir Görev kılavuzu kitaplığına bağlama hakkında daha fazla bilgi için bkz. [Yardıma Giriş](help-overview.md). **Not:** İş süreci modelleyici (BPM) satırı başlığının yanında bulunan yıldız **\*** işareti bu iş sürecine ilişkin Görev kılavuzunun Dynamics AX Mayıs 2016 güncelleştirmesi için oluşturulduğunu ve Microsoft Dynamics AX uygulamasının önceki sürümlerinde desteklenmediğini gösterir.
 
 ### <a name="countryregion-functionality"></a>Ülke/bölge işlevleri
 
@@ -65,7 +68,7 @@ Bu makalede, Microsoft tarafından yayımlanan kılavuzları 2016 - tüm diller 
 | ER OPENXML formatında raporların oluşturulması için bir yapılandırma tasarlama         | Genel         |
 | ER Biçim yapılandırmayı kullanarak ödemeler için elektronik belgeler oluşturma | Genel         |
 | ER Lifecycle Services'tan bir yapılandırmayı içe aktarma                          | Genel         |
-| **\***ER Select service provider                                           | Genel         |
+| **\***ER Hizmet sağlayıcısı seçme                                           | Genel         |
 | ER Formatınızı, o formatın yeni bir temel sürümünü benimseyerek yükseltme      | Genel         |
 | ER Lifecycle Services'a bir yapılandırma yükleme                          | Genel         |
 
@@ -126,7 +129,7 @@ Bu makalede, Microsoft tarafından yayımlanan kılavuzları 2016 - tüm diller 
 | BPM satırı                                                 | Ülke/bölge |
 |----------------------------------------------------------|----------------|
 | Yeni bir ürün oluştur                                     | Genel         |
-| Oluştur... \financial-dimensions\dimension-based yapılandırmaları                    | Genel         |
+| ..\mali-boyutlar\boyut tabanlı yapılandırmalar oluşturma                    | Genel         |
 | Önceden tanımlı ürün çeşitleri oluşturma                       | Genel         |
 | Satış fiyatı seçim ölçütü oluşturma                    | Genel         |
 | Yapılandırılabilir ürünler için sipariş girme                   | Genel         |
@@ -176,22 +179,24 @@ Bu makalede, Microsoft tarafından yayımlanan kılavuzları 2016 - tüm diller 
 | BPM satırı                                                            | Ülke/bölge |
 |---------------------------------------------------------------------|----------------|
 | Dalga işlemeyi yapılandırma                                           | Genel         |
-| **\***Araba plakası kontrollü bir konuma tamamlandı bildirimi | Genel         |
+| **\***Plaka kontrollü olmayan bir konuma tamamlandı olarak rapor etme | Genel         |
 | Min-maks yenileme işlemi ayarlama                              | Genel         |
 | Konteyner kullanımını ayarlama                                             | Genel         |
 | Manuel ambalajlamayı ayarlama                                               | Genel         |
 | Bir madde için taşıma sınırlamalarını ayarlama                       | Genel         |
-| **\***Set up warehouse work policies                                | Genel         |
+| **\***Ambar iş ilkelerini ayarlama                                | Genel         |
 
 
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Yeni Görev (Şubat 2016) size yol gösterir.](new-task-guides-available-february-2016.md)
+[Yeni Görev kılavuzları (Şubat 2016)](new-task-guides-available-february-2016.md)
 
-[Yeni veya güncelleştirilmiş görev (Ağustos 2016) size yol gösterir.](new-updated-task-guides-available-august-2016.md)
+[Yeni veya güncelleştirilmiş Görev kılavuzları (Ağustos 2016)](new-updated-task-guides-available-august-2016.md)
 
-[Yeni veya güncelleştirilmiş görev (Kasım 2016) size yol gösterir.](new-task-guides-november-2016.md)
+[Yeni veya güncelleştirilmiş Görev kılavuzları (Kasım 2016)](new-task-guides-november-2016.md)
+
+
 
 

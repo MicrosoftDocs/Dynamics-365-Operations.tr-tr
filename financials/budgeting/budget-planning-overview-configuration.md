@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-overview"></a>Bütçe planlama genel bakış
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makale bütçe planlamayı tanıtır ve bütçe planlamayı yapılandırmanıza ve bütçe planlama süreçleri oluşturmanıza yardımcı olacak bilgileri içerir.
 
 <a name="overview-of-budget-planning"></a>Bütçe planlamaya genel bakış
@@ -34,7 +37,7 @@ Bu makale bütçe planlamayı tanıtır ve bütçe planlamayı yapılandırmanı
 
 Bir organizasyonun uygulayacağı bütçeleri hazırlanırken, bütçe planlama gerçekleştirirsiniz. Bir organizasyon, bütçe planlamayı yapılandırabilir ve ardından bütçe hazırlama ilkelerini, prosedürlerini ve gereksinimlerini karşılamak için bütçe planlama işlemleri ayarlayabilir. 
 
-Kavramları ve Microsoft Dynamics 365 içinde işlemleri için kullanılan terminolojiyi anlamanız, bütçe planlama kuruluşunuza uygulamak size daha kolay olur.
+Microsoft Dynamics 365 for Operations'ta kullanılan kavramları ve terimleri anladığınızda organizasyonunuzda bütçe planlama uygulamanız kolaylaşacaktır.
 
 ### <a name="key-terms"></a>Önemli terimler
 
@@ -46,7 +49,7 @@ Kavramları ve Microsoft Dynamics 365 içinde işlemleri için kullanılan termi
 
 [![Bütçe planlama terminolojisi](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
 
-### <a name="common-tasks"></a>Yaygın görevler  
+### <a name="common-tasks"></a>Yaygın görevler 
 
 Bütçe planlamayı şu görevleri gerçekleştirmek için kullanabilirsiniz:
 
@@ -55,7 +58,7 @@ Bütçe planlamayı şu görevleri gerçekleştirmek için kullanabilirsiniz:
 -   Bütçe planlarını çalışma sayfaları, gerekçe belgeleri ve diğer eklerle birlikte gözden geçirme ve onay aşamalarına yönlendirin.
 -   Organizasyonun bir alt düzeyindeki birden fazla bütçe planını organizasyonun daha yüksek bir düzeyindeki tek bir ana bütçe planına birleştirin. Ayrıca, organizasyonun daha yüksek bir düzeyinde tek bir bütçe planı geliştirebilir ve bu bütçeyi organizasyonun daha düşük düzeylerine atayabilirsiniz.
 
-Bütçe planlama işlemleri modülleri için diğer Microsoft Dynamics 365 ile tümleşiktir. Bu nedenle, önceki bütçelere, fiili harcamalara, sabit kıymetlere ve insan kaynaklarına ait bilgi çağırabilirsiniz. Bütçe planlama ayrıca Microsoft Excel ve Microsoft Word ile de tümleşik olduğundan, bu programları kullanarak bütçe planlama verileri ile çalışabilirsiniz. Örneğin, bir bütçe yöneticisi bir bütçe planı senaryosundaki bir departmanın bütçe talebini bir Excel çalışma sayfasına aktarabilir. Veriler çalışma sayfasında analiz edilebilir, güncelleştirilebilir ve çizelge ile gösterilebilir ve ardından bütçe planı satırlarına geri yayınlanabilir.
+Bütçe planlama diğer Microsoft Dynamics 365 for Operations modülleri ile tümleşiktir. Bu nedenle, önceki bütçelere, fiili harcamalara, sabit kıymetlere ve insan kaynaklarına ait bilgi çağırabilirsiniz. Bütçe planlama ayrıca Microsoft Excel ve Microsoft Word ile de tümleşik olduğundan, bu programları kullanarak bütçe planlama verileri ile çalışabilirsiniz. Örneğin, bir bütçe yöneticisi bir bütçe planı senaryosundaki bir departmanın bütçe talebini bir Excel çalışma sayfasına aktarabilir. Veriler çalışma sayfasında analiz edilebilir, güncelleştirilebilir ve çizelge ile gösterilebilir ve ardından bütçe planı satırlarına geri yayınlanabilir.
 
 ## <a name="configuring-budget-planning"></a>Bütçe planlamasını yapılandırma
 **Bütçe planlama yapılandırma** sayfası, bütçe planlama oluşturmak için ihtiyaç duyduğunuz ayarların birçoğunu içerir. Aşağıdaki bölümlerde bütçe planlama yapılandırılırken dikkate almanız gereken bazı önemli faktörler açıklanmıştır. Yapılandırmayı tamamladıktan sonra bütçe planlama sürecini ayarlarsınız.
@@ -64,9 +67,9 @@ Bütçe planlama işlemleri modülleri için diğer Microsoft Dynamics 365 ile t
 
 Bu isteğe bağlı, ancak önerilen ilk adım organizasyonunuzun bir bütçeyi formüle etme prosedürünü gösteren bir şema oluşturmaktır. Bu şemayı oluşturmak istediğiniz herhangi bir yöntemini kullanabilirsiniz. Aşağıdaki şekilde, farklı organizasyon düzeyleri için ayrı bütçe planlama iş akışlarının oluşturulduğu genel bir örnek gösterilmiştir. Aşamalar her bir iş akışında tanımlanır ve bütçe verilerini tutmak için her bir aşamaya özel senaryolar atanır. Görevler, verilerin bir aşamadan diğerine taşınması için yerine getirilir. Örneğin, tutarlar farklı hesaplara, onaylara veya diğer gözden geçirmelere atanabilir veya bunlar altında birleştirilebilir. Bu örnekte, italik yazılan metin bu aşamada düzenlenemeyen bir senaryoyu ve geçmişe ait olan veya daha erken bir aşamada onaylanmış olan ve bu nedenle değiştirilemeyen verileri gösterir. 
 
-[![Bütçe planlama genel şeması](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
+[![Bütçe planlama genel şema](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
 
-Aşağıdaki örnekte, şirket genel müdürlüğü tahminleri temel başlangıç bütçe tutarları ve bunları satış departmanlarına dağıtır. Satış departmanları ardından tahminlerini kestirir ve bunları genel merkezlere gönderir ve burada bütçe yöneticisi tahminleri bir araya getirir ve düzenler. Son olarak, bütçe yöneticisi, ayarlanmış bütçe tutarlarını gözden geçirilmesi, nihai düzenlemeler ve onay için CFO'ya gönderir. 
+Aşağıdaki örnekte, şirket genel merkezleri, başlangıç bütçe temel tutarlarını tahmin eder ve bunları satış departmanlarına dağıtır. Satış departmanları ardından tahminlerini kestirir ve bunları genel merkezlere gönderir ve burada bütçe yöneticisi tahminleri bir araya getirir ve düzenler. Son olarak, bütçe yöneticisi, ayarlanmış bütçe tutarlarını gözden geçirilmesi, nihai düzenlemeler ve onay için CFO'ya gönderir. 
 
 [![Bütçe planlama şeması örneği](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
 
@@ -84,17 +87,17 @@ Bütçe planlama, kullanıcı izinlerinin tanımlanması için iki güvenlik mod
 
 Bütçe planlama iş akışları, bütçe planlarının oluşturulması ve geliştirilmesi için Bütçeleme iş akışlarıyla birlikte kullanılır.
 
-Bir bütçe planlama iş akışı bir bütçe planının geçtiği, belirlenen bir aşama grubundan meydana gelir. Her bir bütçe planlama iş akışı bir Bütçeleme iş akışı ile ilişkilidir. Bütçeleme iş akışları iş akışı işlemleri için kullanılan Microsoft Dynamics 365 türlerini biridir. Bütçeleme iş akışları, gözden geçirme ve onay için çalışma sayfaları, gerekçeler ve ekler ile birlikte bütçe planlarını organizasyonda yönlendirir. 
+Bir bütçe planlama iş akışı bir bütçe planının geçtiği, belirlenen bir aşama grubundan meydana gelir. Her bir bütçe planlama iş akışı bir Bütçeleme iş akışı ile ilişkilidir. Bütçeleme iş akışları, Microsoft Dynamics 365 for Operations'ta kullanılan iş akışı türlerinden biridir. Bütçeleme iş akışları, gözden geçirme ve onay için çalışma sayfaları, gerekçeler ve ekler ile birlikte bütçe planlarını organizasyonda yönlendirir. 
 
 **Bütçe planlama yapılandırma** sayfasının**İş akışı aşamaları** bölümünde bütçe planlama iş akışı oluşturursunuz. Burada, kullanılacak aşamaları ve Bütçeleme iş akışını seçebilir ve ayrıca ek ayarları yapılandırabilirsiniz. 
 
 Bir bütçeleme hiyerarşisinin her bir düzeyi için bir bütçe planlama iş akışının oluşturulması iyi bir uygulamadır. Ardından, bütçe planlama iş akışındaki aşamalara karşılık gelen öğeleri içeren bir Bütçeleme iş akışı atarsınız. Bu makalenin başında verilen örnek şemada, satış departmanları için bir bütçe planlama iş akışı ve genel merkezler için başka bir bütçe planlama iş akışı oluşturulacaktır. Bir Bütçeleme iş akışı, bütçe planlarını aşamalardan geçirir. 
 
-**Bütçeleme iş akışları** sayfasında bütçe planlama için Bütçeleme iş akışı oluşturursunuz. Bu işlem Microsoft Dynamics 365 işlemleri için de diğer iş akışları oluşturma süreci benzer. Aşağıdaki şekilde bir Genel merkez iş akışı örneği gösterilmiştir. 
+**Bütçeleme iş akışları** sayfasında bütçe planlama için Bütçeleme iş akışı oluşturursunuz. Bu süreç, Microsoft Dynamics 365 for Operations'ta diğer iş akışlarının oluşturulması için kullanılan sürece benzerdir. Aşağıdaki şekilde bir Genel merkez iş akışı örneği gösterilmiştir. 
 
-[![Bütçe planlama, bütçeleme iş akışı](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
+[![Bütçe planlama için bütçeleme iş akışı](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 
-İş akışı öğelerini ayırmak için satış departmanlarına ve toplama onların gönderimleri, bütçe Yöneticisi tarafından gözden geçirme, CFO tarafından onaylanması ve arasındaki her aşama aşama geçişleri içerir. 
+İş akışı satış departmanlarına atama ve gönderilerin toplanması, bütçe yöneticisi tarafından yapılacak gözden geçirme, CFO tarafından verilecek onay ve her bir aşama arasındaki aşama geçişleri için öğeler içermektedir. 
 
 **Bütçe planlama yapılandırma** sayfasının **İş akışı aşamaları** sayfasında Bütçeleme iş akışını her bir bütçe planlama iş akışına atarsınız.
 
@@ -112,8 +115,8 @@ Bütçe planlamada, bütçe planlama satırlarındaki tutarları veya miktarlar�
 
 Tahsisat programları, iş akışının işlenmesi sırasında otomatik olarak bütçe planı satırlarını tahsis eder. Tahsisat işlemlerini **Tahsisat yöntemi** listesinde bulunan, aşağıdaki yöntemlerden herhangi birini kullanarak gerçekleştirebilirsiniz:
 
--   **Dönemler arasında tahsis et** – Bütçe planı satırlarını kaynak bütçe planı senaryosundan hedef senaryodaki dönemler arasında tahsis etmek için bir dönem tahsisat anahtarı kullanırsınız. **Not:** dönem ayırabilirsiniz önce üzerinde dönem tahsisat anahtarlarını ayarlamanız gerekir *** dönem tahsisat kategoriler *** sayfa.
--   **Boyutlara tahsis et** – Bütçe planı satırları kaynak bütçe planı senaryosundan hedef senaryodaki mali boyutlara tahsis edilir. **Not:** boyutları ayırabilirsiniz önce üzerinde bütçe Tahsisat koşulları ayarlamanız gerekir *** bütçe Tahsisat koşulları *** sayfa.
+-   **Dönemler arasında tahsis et** – Bütçe planı satırlarını kaynak bütçe planı senaryosundan hedef senaryodaki dönemler arasında tahsis etmek için bir dönem tahsisat anahtarı kullanırsınız. **Not:** Dönemler arasında tahsisat yapmadan önce mutlaka ****Dönem tahsisat kategorileri**** sayfasında dönem tahsisat anahtarlarını ayarlamanız gerekir.
+-   **Boyutlara tahsis et** – Bütçe planı satırları kaynak bütçe planı senaryosundan hedef senaryodaki mali boyutlara tahsis edilir. **Not:** Boyutlara tahsis etmeden önce mutlaka ****Bütçe tahsisat koşulları**** sayfasında bütçe tahsisat koşullarını ayarlamanız gerekir.
 -   **Toplama** – Bütçe planı satırları, ilgili bütçe planlarındaki kaynak bütçe planı senaryodan ana bütçe planındaki hedef senaryoya toplanır.
 -   **Dağıtma** – Bütçe planı satırları, ana bütçe planındaki kaynak bütçe planı senaryodan ilişkili bütçe planlarındaki hedef senaryoya dağıtılır.
 -   **Genel muhasebe tahsisat kurallarını kullan** – Bütçe planı satırları, seçilen genel muhasebe tahsisat kuralına dayalı olarak kaynak bütçe planı hedef senaryoya dağıtılır.
@@ -123,15 +126,15 @@ Tahsisat programları, iş akışının işlenmesi sırasında otomatik olarak b
 
 Aşama tahsisatları, iş akışının işlenmesi sırasında bütçe planı satırlarının otomatik olarak atanması için kullanılır. Aşama tahsisatları kullanıldığında hedef senaryodaki bütçe planı satırları, bütçe planını hazırlayan veya gözden geçiren kişinin müdahalesi olmaksızın oluşturulabilir ve değiştirilebilir.
 
-Bir aşama tahsisatı kurduğunuzda, bütçe planlama iş akışını ve aşamasını tahsisat programıyla ilişkilendirirsiniz. Bütçe planlama iş akışı kullanan bir bütçeleme akışıyla ilişkili *** bütçe planlama aşaması ayırma *** otomatik iş akışı görevi. İş akışı, belirtilen aşamaya ulaştığında tahsisat otomatik olarak gerçekleşir. Bu otomatik görev yeni bir senaryoda bütçe planı oluşturulması için kullanılabilir. 
+Bir aşama tahsisatı kurduğunuzda, bütçe planlama iş akışını ve aşamasını tahsisat programıyla ilişkilendirirsiniz. Bütçe planlama iş akışı mutlaka ****Bütçe planlama aşama tahsisatı**** otomatik iş akışı görevini kullanan bir Bütçeleme iş akışıyla ilişkilendirilmelidir. İş akışı, belirtilen aşamaya ulaştığında tahsisat otomatik olarak gerçekleşir. Bu otomatik görev yeni bir senaryoda bütçe planı oluşturulması için kullanılabilir. 
 
 Bu makalenin başında verilen örnek şemada, bir bütçe planındaki tutarların ve genel merkez temel aşamasındaki senaryoların başka bütçe planına ve Satış departmanı Tahmin aşamasındaki senaryolara aktarılması için bir tahsisat gerçekleştirilmektedir. Aşağıdaki şekilde örnek şemanın ilgili bölümü gösterilmiştir.
 
-[![Sahne alanı ayırma](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
+[![Aşama tahsisatı](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 
-Ayrıca, örnek Şeması'nda, bir toplama bütçe planları ve satış departmanında gönderildi Sahne senaryoları için HQ toplama aşamasında ana plan yapılır. Aşağıdaki şekilde örnek şemanın ilgili bölümü gösterilmiştir.
+Ek olarak, örnek şemada Satış departmanı Gönderilen aşamasındaki bütçe planlarından ve senaryolardan Genel merkez toplama aşamasındaki bir ana plana bir toplama işlemi gerçekleştirilmektedir. Aşağıdaki şekilde örnek şemanın ilgili bölümü gösterilmiştir.
 
-[![Aggregation](./media/aggregation-109x300.png)](./media/aggregation.png)
+[![Toplam](./media/aggregation-109x300.png)](./media/aggregation.png)
 
 ### <a name="priorities"></a>Öncelikler
 
@@ -149,9 +152,9 @@ Bütçe tutarları sütunlarına ek olarak proje, teklif edilen proje, kıymet v
 
 Örnek şemada PY Satışları, Sözleşmeler ve Tahmin senaryoları için sütunlar oluşturmak isteyebilirsiniz (aşağıdaki şekilde şemanın ilgili bölümü gösterilmiştir). Ardından, mali yılın her bir çeyreği için bu senaryoların birini veya tümünü ayrı sütunlara dağıtabilirsiniz, böylece satış departmanı yöneticisi her bir dönem için tahmin tutarlarını doğru şekilde girebilir.
 
-[![Columns](./media/columns.png)](./media/columns.png) 
+[![Sütunlar](./media/columns.png)](./media/columns.png) 
 
-Ayrıca her Düzen öğesi (sütun) düzenlenebilir olup olmadığını ve bu düzen için oluşturulan herhangi bir çalışma sayfası şablonu kullanılabilir olup olmadığını belirleyin. Örnek şemada, Tahmin aşaması için kullanılan düzende Tahmin sütunları düzenlenebilirken, PY Satışları ve Sözleşmeler sütunları salt okunurdur.
+Her bir düzen öğesinin (sütunun) düzenlenebilir olup olmayacağını ve bu düzen için oluşturulan bir çalışma sayfası şablonunda mevcut olup olmayacağını da belirleyebilirsiniz. Örnek şemada, Tahmin aşaması için kullanılan düzende Tahmin sütunları düzenlenebilirken, PY Satışları ve Sözleşmeler sütunları salt okunurdur.
 
 ### <a name="templates"></a>Şablonlar
 
@@ -160,7 +163,7 @@ Ayrıca her Düzen öğesi (sütun) düzenlenebilir olup olmadığını ve bu d�
 Her bir düzen için bir şablon oluşturabilir, görüntüleyebilir veya yükleyebilirsiniz. Bir şablon oluşturulduğunda düzen kilitlenir ve düzenlenemez. Bu kilitleme özelliği, şablon formatının bütçe planı düzenine uygun olmasını ve aynı verileri içermesini garanti eder. Bir şablon oluşturulduğunda görüntülenebilir ve düzenlenebilir. Örneğin, şablona çizelgeler ekleyebilir veya bunların görünümünü özelleştirebilirsiniz.
 
 > [!NOTE] 
-> Böylece düzenleme tamamlandıktan sonra bu düzene yüklenebilir şablon için kullanıcının erişebileceği bir konuma kaydedilmesi gerekir. Bu şekilde şablon, düzeni kullanan bütçe planlarıyla birlikte kullanılacaktır.
+> Şablon, kullanıcının erişimi olan bir konuma kaydedilmelidir, böylece düzenleme tamamlandıktan sonra düzene yüklenebilir. Bu şekilde şablon, düzeni kullanan bütçe planlarıyla birlikte kullanılacaktır.
 
 ### <a name="descriptions"></a>Açıklamalar
 
@@ -184,6 +187,8 @@ Nihai aşama, **Eylemler** menüsünden bütçe planlama sürecini etkinleştirm
 
 **Eylemler** menüsündeki bir diğer kullanışlı komut da **Bütçe sürecinin durumunu göster** komutudur. Bu komut, planların iş akışı durumu, tutara ve birime göre özetler ve bütçe planlarına tek tıklamayla ulaşma vb. gibi ilgili verilerle birlikte, bir süreç içindeki bütçe planlarını grafiksel olarak gösterir.
 
-[![Budget planning process status](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+[![Bütçe planlama süreci durumu](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
 
 

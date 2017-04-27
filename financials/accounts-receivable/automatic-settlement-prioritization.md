@@ -1,5 +1,5 @@
 ---
-title: "Otomatik kapatma ve önceliği"
+title: "Otomatik kapatma ve önceliklendirme"
 description: "Bu makalede Alacak hesapları parametreleri sayfasında Otomatik kapatmayı seçtiğinizde hareketlerin nasıl kapatılacağı açıklanmıştır. Ayrıca, otomatik kapatmanın ödeme önceliği ile birlikte nasıl kullanılabileceği de açıklanmıştır."
 author: twheeloc
 manager: AnnBe
@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="automatic-settlement-and-prioritization"></a>Otomatik kapatma ve önceliği
+# <a name="automatic-settlement-and-prioritization"></a>Otomatik kapatma ve önceliklendirme
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede Alacak hesapları parametreleri sayfasında Otomatik kapatmayı seçtiğinizde hareketlerin nasıl kapatılacağı açıklanmıştır. Ayrıca, otomatik kapatmanın ödeme önceliği ile birlikte nasıl kullanılabileceği de açıklanmıştır.
 
-Ödemeleri faturalar ve diğer hareketlerle kapatma sırasında iki seçeneğiniz vardır. Hareketleri kapatmak için el ile seçebilir veya Microsoft Dynamics 365 işlemleri için hareketleri otomatik olarak otomatik kapatma işlevini kullanarak seçebilirsiniz. **Kapatma önceliklendirme** seçeneğini kullanarak otomatik kapatmaların nasıl işleneceğini de özelleştirebilirsiniz. Bu seçenekler üzerinde tanımlanan kapanış parametreleri parçası olan **Accounts receivable parameters** sayfa. Hareketlerin otomatik olarak kapatılabileceği yollar, otomatik kapatma için kullandığınız yönteme bağlı olarak farklılık gösterebilir. Aşağıdaki yöntemler kullanılabilir:
+Ödemeleri faturalar ve diğer hareketlerle kapatma sırasında iki seçeneğiniz vardır. Microsoft Dynamics 365 for Operations hareketleri otomatik olarak otomatik kapatma işlevini kullanarak seçebilir veya kapatmak için hareketleri el ile seçebilirsiniz. **Kapatma önceliklendirme** seçeneğini kullanarak otomatik kapatmaların nasıl işleneceğini de özelleştirebilirsiniz. Tüm bu özellikler, **Alacak hesapları parametreleri** sayfasında tanımlanan kapatma parametrelerinin parçasıdır. Hareketlerin otomatik olarak kapatılabileceği yollar, otomatik kapatma için kullandığınız yönteme bağlı olarak farklılık gösterebilir. Aşağıdaki yöntemler kullanılabilir:
 
 -   Kullanıcı tanımlı kapatma önceliği
 -   Varsayılan otomatik kapatma
@@ -45,7 +48,7 @@ Bu makalenin sonraki bölümlerindeki kapatma örnekleri, aşağıdaki hareketle
 | Fatura 1     | 15 Ağustos   | 100,00 | %2 14, Net 30        | 29 Ağustos          |                                                                                                                                                                                               |
 | Fatura 2     | 1 Eylül | 250,00 | %2 14, Net 30        | 15 Eylül       |                                                                                                                                                                                               |
 | Fatura 3     | 15 Ekim  | 500,00 | %2 14/Net 30        | 29 Ekim         |                                                                                                                                                                                               |
-| Vade farkı dekontu | 15 Ekim  | 7,00   |                     |                    | Bu vade farkı dekontu 1 ve 2 fatura için fatura edilir. Tutar, yüzde 2 oranında faiz en az 30 gün olan tutarları üzerinden hesaplanır Kaçırılmış. Örneğin, 0,02 × (100,00 + 250,00) = 7,00. |
+| Vade farkı dekontu | 15 Ekim  | 7,00   |                     |                    | Bu vade farkı dekontu fatura 1 ve fatura 2 içindir. Tutar, süresi 30 gün veya daha fazla geçen tutarlar üzerinde yüzde 2 faiz olarak hesaplanır. Örneğin, 0,02 × (100,00 + 250,00) = 7,00. |
 
 ## <a name="userdefined-settlement-priority"></a>Kullanıcı tanımlı kapatma önceliği
 **Otomatik kapatmalar için öncelik kullan** ayarını **Alacak hesapları parametreleri** sayfasında **Evet** yaparsanız, otomatik kapatma için hareketler seçilirken **Kapatma önceliği** sayfasında tanımladığınız kapatma önceliği kullanılır. Bu örnekte, aşağıdaki kapatma önceliği tanımlanır:
@@ -77,6 +80,8 @@ Kullanıcı tanımlı bir kapatma önceliği yoksa, hareketler otomatik olarak v
 | Fatura 2     | 1/9/2015   | 10002   | 250,00                         | 250,00           | 0,00    | ABD Doları      |
 | Fatura 3     | 15/10/2015 |         | 500,00                         | 350,00           | 150,00  | ABD Doları      |
 | Vade farkı dekontu | 15/10/2015 |         | 7,00                           | 0,00             | 0,00    | ABD Doları      |
+
+
 
 
 

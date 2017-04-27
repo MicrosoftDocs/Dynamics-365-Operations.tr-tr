@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="compensation-plans"></a>Ücret planları
 
+[!include[banner](includes/banner.md)]
+
+
 Ücret ve Kazanç Yöneticileri, kuruluşun çalışanları için sabit veya değişken ücret planlarını korumak ve işlemek için Ücret yönetimi kullanabilirler.
 
 ### <a name="introduction"></a>Giriş
 
-Maaş Yönetimi temel ödeme ve ödüller teslimini kontrol etmek için kullanılır. Bir çalışanın sabit Bankası ödeme ve merit artar Sabit maaş planları denetlenir. İkramiyelerin ödemesi, örneğin prim ödemeleri, performans ödülleri, hisseler, hibeler ve ayrıca da tek seferlik ödüller, değişken ücret planları tarafından denetlenir. 
+Ücret yönetimi, temel maaş ve ikramiyelerin teslimatının denetimi için kullanılır. Bir personelin sabit temel maaşı ve başarı artışı, sabit ücret planları aracılığıyla denetlenir. İkramiyelerin ödemesi, örneğin prim ödemeleri, performans ödülleri, hisseler, hibeler ve ayrıca da tek seferlik ödüller, değişken ücret planları tarafından denetlenir. 
 
 Çalışanlar her iki tipteki bir veya daha çok plana kayıtlı olabilir. Bir çalışanın ücret planındaki kayıt için uygun olması için aşağıdaki gereksinimleri karşılaması gerekir:
 -   Çalışanın aktif bir pozisyon atamasının olması gerekir.
@@ -54,7 +57,7 @@ Aşağıdaki tablo, Şirketinizin ücretlendirme planını ayarlarken ücretlend
 <td>Sabit ücret eylemleri iki amacı gerçekleştirir:
 <ul>
 <li>Eylemler, bir çalışanın ücreti değiştiğinde kayıt edilmesi gereken bilgileri belirleyebilir. Örneğin, promosyon veya indirme gibi bir değişim için bir sebebin kaydedilmesini gerektirebilirsiniz.</li>
-<li>Eylemler, bir hesaplama Sabit maaş planları işlendiğinde geçerli olduğunu emin olabilirsiniz.  Örneğin, hisse senedi türdeki eylemleri düzeyinin üzerinde çalışan en az bir referans noktasına çalışanların ödeme karşılaştırmak ve en az çalışan en az ödenen emin olun.</li>
+<li>Eylemler, bir hesaplamanın bir sabit ücret planı işlendiğinde uygulandığından emin olunması sağlayabilir.  Örneğin, öz varlık türündeki eylemler, çalışanın ücretini, çalışanın seviyesinin en düşük referans noktasıyla kıyaslar ve çalışanın en az minimum miktar kadar ücret aldığından emin olunmasını sağlar.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -83,7 +86,7 @@ Aşağıdaki tablo, Şirketinizin ücretlendirme planını ayarlarken ücretlend
 </tr>
 <tr class="even">
 <td>Ödeme sıklıkları</td>
-<td>Ödeme sıklığı maaş için belirtilen süreyi tanımlamak için kullanılır.  Örneğin, maaş tutarı karşı bir saatlik bir yıllık maaş olarak belirtilmiş olup olmadığını anlamak ödeme sıklığı yardımcı ödeme oranı. Ödeme sıklığı da aylık, haftalık kaynağı maaş tutarlarını dönüştürmek için dönüştürme faktörlerini ayarlama için kullanılan, kullanıcılarının ve saatlik ödeme sıklığı için bir yıllık ödeme sıklığı.</td>
+<td>Ödeme sıklıkları, ücretin belirtildiği zaman aralığını belirtmek için kullanılır.  Örneğin, ödeme sıklığı, saatlik ödeme oranına karşılık, yıllık bir maaş olarak mı belirtilmiş olduğunu anlamanıza yardımcı olur. Ödeme sıklıkları ayrıca dönüşüm faktörlerini, aylık, haftalık, iki haftalık ve saatlik ödeme sıklıklarını, yıllık ödeme sıklığına dönüştürmek için dönüşüm faktörlerini ayarlamak için kullanılır.</td>
 </tr>
 <tr class="odd">
 <td>Tazminat bölgeleri</td>
@@ -107,7 +110,7 @@ Aşağıdaki tablo, Şirketinizin ücretlendirme planını ayarlarken ücretlend
 </tr>
 <tr class="even">
 <td>Maaş kılavuzları</td>
-<td>Maaş kılavuzları maaş yapısı içerir.  Maaş kılavuzları bir veya daha fazla maaş planları tarafından kullanılabilir.</td>
+<td>Ücret yapısını içeren ücret kılavuzları.  Ücret kılavuzları, bir veya birden fazla ücret planları tarafından kullanılabilir.</td>
 </tr>
 <tr class="odd">
 <td>Performans planları</td>
@@ -126,9 +129,11 @@ Bir işleme olayı, bir veya daha fazla sabit ya da değişken tazminat planına
 <a name="compensation-events"></a>Maaş olayları
 -------------------
 
-İşlem olayı her çalıştırıldığında, maaş olayı oluşturulur.  Bu işlem olayına dahil her çalışanın maaş işleminin sonuçlarını maaş olayları içerir.  Hesaplamaların doğru olduğunda, işlem olayı tarafından etkilenen çalışanların maaş kayıtları güncelleştirmek için maaş olayı yükleyebilirsiniz.
+İşlem etkinliği her çalıştırıldığında bir ücret etkinliği oluşturulur.  Ücret etkinlikleri, bu işlem etkinliğine dahil edilmiş her personel ücret işleminin sonucunu içerirler.  Hesaplamalar doğru olduğunda, işlem etkinliklerinden etkilenen personellerin ücret kayıtlarını güncelleştirmek için ücret etkinliğini yükleyebilirsiniz.
 
 ## <a name="recommendations"></a> Öneriler
 İşlem olayını çalıştırdıktan sonra, bir çalışanın başarı artış veya ikramiye tutarına, işleme olayında hesaplanan yönergelere göre ayarlamalar yapılması önerilir. Çalışanlar için öneriler yapmak için ücret planlarını veya işlem olayını ayarladığınızda, önerileri etkinleştirmeniz gerekir.
+
+
 
 

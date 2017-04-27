@@ -36,7 +36,7 @@ Tüm sayfaların alan açıklamaları yoktur. Kullanımı belirgin olan alanlar�
 Microsoft Dynamics 365 for Operations geliştirme ortamına erişiminiz varsa yeni alan açıklamalarınızı ekleyebilirsiniz ve mevcut açıklamaları özelleştirebilirsiniz. Örneğin, bir alan açıklamasına şirkete özgü bilgiler ekleyebilirsiniz. Daha fazla bilgi için, [Alanı özelleştirme yardımı](/dynamics365/operations/dev-itpro/user-interface/customize-field-help) sayfasına bakın.
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Kullanıcı arabirimindeki alan açıklamalarına bakın
-Alanın üzerine getirerek alan açıklamaları görüntüleyebilirsiniz. Açıklama yoksa, üzerine getirdiğinizde alan adını görürsünüz. (Not: alan açıklamalarına 7.0.0 sürümünde yalnızca görüntülenebilir **alan açıklamaları** sayfa.) Üzerine getirdiğinizde görüntülenen alan açıklaması aşağıda gösterilmiştir **maddeler sayım sırasında kilitleme** alan. 
+Alanın üzerine getirerek alan açıklamaları görüntüleyebilirsiniz. Açıklama yoksa, üzerine getirdiğinizde alan adını görürsünüz. (Not: 7.0.0 sürümünde alan açıklamaları yalnızca **Alan açıklamaları** sayfasında görüntülenebilir.) Aşağıdaki şekilde, **Sayım sırasında madde kilitlemesi** alanına fare imlecini getirdiğiniz zaman görünen alan açıklaması gösterilmektedir. 
 
 [![Alan açıklaması örneği](./media/field-description.png)](./media/field-description.png)
 
@@ -73,7 +73,7 @@ Bir sayfanın açıklamalarını dışa aktarmak için, aşağıdaki adımları 
     -   Birden fazla tam eşleşme varsa hiçbir açıklama gösterilmez. Açılır listeyi açıp istediğiniz sayfayı seçmelisiniz.
     -   Yazdığınız ad, başka bir sayfanın adının parçası ise sayfanızın açıklamalarını görürsünüz. Ancak, açılır listeyi açarsanız bu adı içeren ek sayfaları da görürsünüz.
 
-Yazarken hiçbir açıklamaları gibi gösterilen **sayım** de *** sayfa *** alanı seçin. Açılır listeyi açın ve adı **Sayım** olan iki sayfa ve adı, "Sayım" kelimesini içeren birkaç sayfa olduğunu görün. AOT adı **InventJournalCount** olan sayfayı seçerseniz, bu sayfanın alan açıklamaları gösterilir. Ancak açılır listeyi yeniden açarsanız listenin artık AOT adında "InventJournalCount" geçen tüm sayfaları içerdiğini görürsünüz.
+Örneğin ****Sayfa seçin**** alanında **Sayım** yazarken hiçbir açıklama gösterilmez. Açılır listeyi açın ve adı **Sayım** olan iki sayfa ve adı, "Sayım" kelimesini içeren birkaç sayfa olduğunu görün. AOT adı **InventJournalCount** olan sayfayı seçerseniz, bu sayfanın alan açıklamaları gösterilir. Ancak açılır listeyi yeniden açarsanız listenin artık AOT adında "InventJournalCount" geçen tüm sayfaları içerdiğini görürsünüz.
 
 ## <a name="troubleshooting"></a>Sorun Giderme
 Bu bölüm, alan açıklamalarını kullanırken karşılaşabileceğiniz sorunları gidermenize yardımcı olacak bilgiler içerir.

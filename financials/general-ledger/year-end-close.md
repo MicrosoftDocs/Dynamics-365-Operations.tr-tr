@@ -1,6 +1,6 @@
 ---
 title: "Yıl sonu kapanışı"
-description: "Bu konuda gerekli Kurulum ve genel muhasebe yıl sonu kapatma işlemini çalıştırmak için gereken adımları açıklar."
+description: "Bu başlık, genel muhasebe yıl sonu kapatma işlemini çalıştırmak için gerekli kurulum ve adımları açıklar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,61 +27,66 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="year-end-close"></a>Yıl sonu kapanışı
 
-Bu konuda gerekli Kurulum ve genel muhasebe yıl sonu kapatma işlemini çalıştırmak için gereken adımları açıklar. 
+[!include[banner](../includes/banner.md)]
 
-Mali yıl sonunda, yeni yıl için açılış bakiyelerini transfer etmesini yıl sonu kapatma işlemi çalıştırmanız gerekir. Çoğu kuruluş yıl sonu kapatma işlemi birden çok kez çalıştırmak. İlk kez yeni bir mali yıl içinde taşınan bakiyeleri almak için olacaktır. Yıl Sonu Kapanış sonra tekrar defalarca bakiyelerin girişler yeni mali yıl içinde ayarlaması taşımak için gerekli olduğu gibi çalıştırabilirsiniz. 
 
-Kapatma işlemi sırasında yıl sonu, oluşturulan olası hareketlerinin iki türü vardır. Açılış hareketi her zaman oluşturulur ve yeni mali yıldaki açılış bakiyelerini oluşturmak için kullanılır. Açılış hareketi yeni mali yıldaki bilanço genel muhasebe hesap bakiyelerini gösterir ve kar ve zarar genel muhasebe hesap bakiyelerindeki Akçe genel muhasebe hesabı'ndan yeni mali yıldaki dengeler. Kapanış hareketleri Kapatılan Mali yılın sıfır kadar kar ve zarar hesaplarına ait bakiyeler arasında getirmek için isteğe bağlı olarak oluşturulur.
+Bu başlık, genel muhasebe yıl sonu kapatma işlemini çalıştırmak için gerekli kurulum ve adımları açıklar. 
 
-## <a name="prepare-to-run-the-year-end-close"></a>Yıl Sonu Kapanış çalıştırmak hazırlama
-Yıl sonu kapatma işlemi çalıştırmadan önce aşağıdaki ayarları doğrulayın: 
+Bir mali dönem sonunda, açılış bakiyelerini yeni yıla aktarmak için yıl sonu kapanış sürecini yürütmeniz gerekir. Çoğu kuruluş yıl sonu kapatma işlemini birden çok kez yürütür. İlk kez, bakiyeleri yeni mali yıla aktarmak olacaktır. Bu yıl sonu kapatma daha sonra yeniden çalıştırılabilir, gerek duyduğu kadar, bakiyeleri ayarlanmış girişlerden yeni mali yıla taşımak için. 
+
+Yıl sonu kapatma işlemi sırasında, olası hareketlerin iki türü oluşturulur. Bir Açılış hareketi her zaman oluşturulur ve açılış bakiyesini yeni mali yılda oluşturmak için kullanılır. Açılış hareketi, bilanço genel muhasebe hesap defteri bakiyelerini yeni mali yılda gösterir ve kar ve zarar genel muhasebe defteri bakiyelerini kalan gelirler genel muhasebe defteri hesabında yeni mali yılda dengeler. Kapanış hareketi, kapatılan mali yıldaki kar ve zarar hesaplarının bakiyesini sıfıra indirmek için isteğe bağlı oluşturulur.
+
+## <a name="prepare-to-run-the-year-end-close"></a>Yıl sonu kapamayı çalıştırmaya hazırlamak
+Yıl sonu kapanış işlemini çalıştırmadan önce, aşağıdakiler için ayarları doğrulayın: 
 
 **Ana hesap** sayfasında:
 
--   Doğrulamak **ana hesap türü** ana her hesap için doğru olarak tanımlanır. Ana hesap türü, ana hesap bakiyesini Açılış bakiyesi olarak ileri veya kapalı karı içine açılış hareket güncelleştirilecektir olup olmadığını belirlemek için kullanılır.
--   **Hesap açma** alanına ana hesap bakiyesini kapatın yıl sonu sırasında yeni bir ana hesap aktarmak için kullanılabilir. Yeni ana hesap girildiğini **hesap açma** alan. Genellikle bu ana bilanço hesapları için ana hesap devre dışı bırakılan ve yeni bir ana hesap yeni mali yıl için kullanıldığında kullanılacaktır.
+-   **Ana hesap türü**nün her ana hesap için doğru tanımlandığını doğrulayın. Ana hesap türü, ana hesabın bakiyesinin bir açılış bakiyesi olarak mı yoksa kapalı olarak mı kalan gelirlere Açılış hareketinde ileri taşınacağı belirlemek için kullanılır.
+-   **Açılış hesabı** alanı, ana hesabın bakiyesinin yıl sonu kapama sırasında yeni bir hesaba aktarılması için kullanılabilir. Yeni ana hesap, **Açılış hesabı** alanına girilir. Genellikle bu, bilanço ana hesapları için, ana hesap devre dışı bırakıldığında ve yeni bir ana hesap, yeni mali yıl için kullanıldığında kullanılacaktır.
 
-Üzerinde **genel muhasebe parametreleri** altında sayfa **mali yıl kapanışı**:
+**Genel muhasebe parametreleri** sayfasında **Mali yıl kapanışı** altında:
 
--   **Sil yıl hareketlerini kapat** seçeneği, yıl sonu kapanış yeniden çalıştırdığınızda, sistem tarafından oluşturulan açılış hareketten alınan bir önceki yıl sonu kapanış silinip silinmeyeceğini belirtmek için kullanılır. Bu seçenek ayarlanırsa **Evet**, önceki açılış hareketi silinir ve yeni bir açılış hareket geçerli bakiyelere göre oluşturulur. Bu seçenek ayarlanırsa **No**, önceki açılış hareketi kalır ve önceki yıl sonu kapattıktan sonra deftere nakledilen hareketler ayarlaması bakiyeleri ileri taşımak için ek bir açılış hareketi oluşturulur.
--   **Aktarma sırasında kapanış hareketleri oluşturması** seçeneği, kar ve zarar hesaplarına ait bakiyeler arasında sıfıra duruma getirmek için kapatılan mali yılın kapanış hareketleri oluşturması için kullanılır. Bu seçenek ayarlanırsa **Evet**, hareket açılış ve kapanış hareketi oluşturulur. Bu seçenek ayarlanırsa **No**, bakiyelerini transfer etmesini sonraki mali yıl açılış hareketi oluşturulur. Kar ve zarar hesabı bakiyelerini, mali yılın sonunda kalır.
--   **Ayarlanmış mali yıl durum tamamen kapalı** seçenek mali yıl kalıcı olarak kapalı durumuna ayarlamak için kullanılır. Mali yılda deftere nakledildi gelen ayarlamaları önleme tamamen kapalı durumundaki tüm dönemler açılamaz çünkü dikkatli olun, bu ayarı kullanın. Bunu ayarlamak için en iyi yöntem olduğu **No**.
--   **Fiş numarası doldurulmalıdır** seçeneği bir fiş numarası yıl sonu kapatma işlemi çalıştırırken gerekip gerekmediğini tanımlamak için kullanılır. Kolayca açılış hareketi tanımlamak için bir fiş numarası istemek için iyi bir uygulamadır.
+-   **Yıl sonu hareketlerini silerek kapa** seçeneği, sistem tarafından oluşturulan önceki yıl kapanışının Açılış hareketinin, yıl sonu kapanışı tekrar çalıştırıldığında silinip silinmeyeceğini belirtmek için kullanılır. Bu seçenek **Evet** olarak ayarlanırsa, önceki Açılış hareketi silinir ve yeni bir Açılış hareketi geçerli bakiyelere göre oluşturulur. Bu seçenek **Hayır** olarak ayarlanırsa, önceki Açılış hareketi kalır ve ek bir Açılış hareketi, bakiyeleri ileriye doğru, önceki yıl kapanışı hareketlerinden ileriye doğru ayarlamak için oluşturulur.
+-   **Aktarma sırasında kapanış hareketlerinin oluşturması** seçeneği, kar ve zarar hesaplarına ait bakiyeler arasında sıfır durumuna getirmek için kapatılan mali yılın kapanış hareketlerini oluşturması için kullanılır. Bu seçenek **Evet** olarak ayarlanırsa, hem Açılış hareketi hem de Kapanış hareketi oluşturulur. Bu seçenek **Hayır** olarak ayarlanırsa, yalnızca Açılış hareketi bir sonraki mali yılda, bakiyeleri aktarmak için oluşturulur. Kar ve zarar hesabı bakiyelerini, mali yılın sonunda kalır.
+-   **Mali yıl durumunu kalıcı kapalı olarak ayarlama** seçeneği, mali yılı kalıcı olarak kapalı duruma ayarlamak için kullanılır. Bu ayarı dikkatle kullanın çünkü kalıcı olarak kapalı tüm dönemlerin durumu, önceki mali yıla ayarlama yapmayı engellemek için yeniden açılamaz. En iyi uygulama bunu **Hayır**olarak ayarlamaktır.
+-   **Fiş numarası doldurulmalıdır** seçeneği, bir fiş numarasının yıl sonu kapatma işlemi çalıştırırken gerekip gerekmediğini tanımlamak için kullanılır. Açılış hareketini kolayca tanımlamak için en iyi uygulama, bir fiş numarasını zorunlu kılmaktır.
 
-Üzerinde **mali takvim** sayfa:
+**Mali takvim** sayfası üzerinde:
 
--   Bir sonraki mali yılın yıl sonu kapanış çalıştırmadan önce varolmalıdır. Sonraki mali yılın açılış dönemi içinde başlayan bakiyeleri oluşturmak için gereklidir.
+-   Yıl sonu kapanışını çalıştırmadan önce bir sonraki mali mevcut olmalıdır. Sonraki mali yıl, açılış döneminde açılış bakiyelerini oluşturmak için gereklidir.
 
-Üzerinde **defter Takvim** sayfa:
+**Genel muhasebe takvimi** sayfasında:
 
--   İsteğe bağlı: Her mali dönem için kapatılan mali yılın ayarlanabilir **tutulan** yeni hareketlerin girilmesini önlemek için. Ayarlama girdileri belirlenen zaman yıl sonu kapatma işlemi zaten çalıştırıyor olsa açık tutma dönemleri ayarlama girişlerini deftere nakletmek için yeniden açılabilir.
+-   İsteğe bağlı: Yeni hareketlerin girilmesini önlemek için kapatılan mali için her mali dönem **Tutulan** olarak ayarlanabilir. Ayarlama girdileri tanımlandıktan sonra, ayarlama girişleri göndermek için tutulan dönemler yeniden açılabilir, yıl sonu kapanış işlemi çalıştırılmış olsa bile.
 
-## <a name="define-year-end-close-templates"></a>Yıl sonu kapatma şablonları tanımlama
-Sistemi yapılandırdıktan sonra yıl sonu kapatma işlemi çalıştırabilirsiniz. Üzerinde **yıl sonu Kapat** sayfası, Grup tüzel yıl sonu kapatma işlemini çalıştırmak için bir şablon tanımlanabilir. Şablonu Kapat her yıl sonu yeniden, ancak kuruluşunuz değiştiğinde değiştirilebilir. 
+## <a name="define-year-end-close-templates"></a>Yıl sonu kapanış şablonlarını tanımlama
+Sistem yapılandırıldıktan sonra, yıl sonu kapanış işlemi çalıştırılabilir. **Yıl sonu kapanış** sayfası üzerinde, yıl sonu kapanışının çalıştırılacağı tüzel varlıklar grubu için bir şablon tanımlanabilir. Bu şablon, her yıl sonu kapanışında yeniden kullanılır ancak kuruluşunuz değişim gösterirse değiştirilebilir. 
 
-İlk olarak tanımlayan **grup adı** için şablon ve mali takvimi seçin. Grup adı, Grup dahil tüzel tanımlamalıdır.  Örneğin, şablonlar Coğrafya üzerinde Kuzey Amerika tüzel kişilikler, Orta Doğu ve Afrika tüzel kişilikler ve APAC tüzel kişilikler için oluşturulan ayrı gruplar ile göre ayarlanabilir. 
+Öncelikle, şablon için **Grup adı** belirleyin ve mali takvimi seçin. Grup adı, tüzel varlıkların dahil olduğu grubu tanımlamalıdır.  Örneğin şablonlar, Kuzey Amerika tüzel varlıkları, EMEA tüzel varlıkları ve APAC tüzel varlıkları için ayrı gruplar ile coğrafyaya dayanarak ayarlanabilir. 
 
-Ardından, tüzel kişilikler şablonuna eklenebilir. Tüzel bir organizasyon hiyerarşisine seçerek veya tüzel seçip eklenebilir. Bir organizasyon hiyerarşisine seçtiyseniz, seçili mali takvimi kullanan tüzel kişilikler hiyerari içindeki şablona eklenir. Tüzel kişilikler için şablon eklemek için kullanırsanız, yalnızca aynı mali takvimle tüzel kişilikler eklenebilir. Aynı mali takvimi, Takvim Takvim değişebilir bir mali yıl, seçerek yıl sonu yakın çalıştığı için gereklidir. 
+Ardından, tüzel varlıklar şablona eklenebilir. Tüzel varlıklar, bir kuruluş hiyerarşisi seçerek veya tüzel varlıkları seçerek eklenebilir. Bir kuruluş hiyerarşisi seçilirse, sadece bu hiyerarşi içerisindeki, bu seçili mali takvimi kullanan tüzel varlıklar şablona eklenecektir. Tüzel varlıkları şablona eklemek için kullanırsanız, sadece aynı mali takvimi kullanan tüzel varlıklar eklenebilir. Yıl sonu kapanışı, takvimden takvime farklılık gösterebilen bir mali yıl seçilerek çalıştırıldığı için aynı mali takvim kullanılabilir. 
 
-Tüzel kişilikler eklendikten sonra her bir tüzel kişilik yedek akçe ana hesaplar tanımlayın. **Geçen yıl bitiş tarihi Kapat** yıl sonu yakın her çalıştırdığınızda bir tüzel kişilik için alan güncelleştirilir. 
+Tüzel varlıklar eklendikten sonra, her bir tüzel varlık için kalan kazançlar ana hesaplarını tanımlayın. **Son yıl sonu kapanışın tarihi** alanı, tüzel kişilik için yıl sonu kapanışının her çalıştırıldığında güncelleştirilir. 
 
-**Mali boyut** sekmesini mali boyutları açılış hareket için kullanılacak tanımlamak için kullanılır. Olduğunu tanımlama ayarları yalnızca seçilen tüzel kişilik ilgili olduğuna dikkat edin **tüzel** kılavuz. Kur, kılavuzdaki her tüzel kişilik için yinelenir. 
+**Mali boyut** sekmesi, Açılış hareketinde kullanılacak mali boyutları tanımlamak için kullanılır. Tanımladığınız ayarların, sadece **Tüzel varlıklar** kılavuzunda seçmiş olduğunuz tüzel varlık için geçerli olduğunu unutmayın. Kılavuzdaki her tüzel varlık için kurulumu tekrar edeceksiniz. 
 
-**Transfer Bilanço boyutları** bilanço hesaplarına nakledilen hareketler üzerindeki mali boyutları açılış hareketi üzerinde tutulan olduğunu tanımlamak için kullanılır. Bu seçeneği belirlemek en iyi yöntemdir **Evet**. **Transfer kar ve zarar boyutları** Akçe ana hesap hangi mali boyutları hareket nakledilen kar ve zarar hesabına aktarılır tanımlamak için kullanılır. Öncelikle, yasal varlıkla ilgili mali boyutları tanımlayın. Mali boyut etkin firma yapısının parçası olmasa bile bu karşı yıl boyunca, deftere nakledilen tüm mali boyutları içerir. Ardından, her boyut olarak tanımlamak **Kapat tek** veya **Tümünü Kapat**.  Varsayılan değer **Tümünü Kapat**, hangi orijinal mali boyut tutan değerleri deftere nakledilen hareketleri ve yedek akçe hesabı oluşturma Açılış bakiyeleri için bunları kullanır. Başlangıç bakiyelerini ayrı Akçe benzersiz her mali boyut değerleri birleşimi için oluşturulur. Yoksa **Kapat tek** olan seçili, o ile mali boyut deftere nakledilen tüm hareketleri Başlangıç Bakiyesi alanından sonra girdiğiniz boyut değeri için bir yedek akçe içine özetlenir **Kapat tek**. Örneğin, tüm hareketler için mali yıl ana hesap - departman hesabı yapısıyla deftere nakledilen varsayalım. Şablonu Bölümü mali boyut üzerinde **Kapat tek** seçilir ve girilen değer 100'dür. $100,000 200, 300 ve 400 Departmanlar için deftere nakledilen tüm hareketlerin toplam gelir ise, bir açılış bakiyesi Retained yedek akçe - 100 oluşturulur. Seçerseniz **Kapat tek** ve Finans boyut değerini boş bırakın, tüm hareketleri için yedek akçe boş olan bu boyut değeri deftere nakleder. 
+**Transfer bilanço boyutları**, bilançoya hesaplarına nakledilen hareketlerdeki finansal boyutların, Açılış hareketinde tutulup tutulmayacağını belirlemek için kullanılır. En iyi uygulama bunu **Evet** olarak ayarlamaktır. **Aktarıma kar ve zarar boyutları**, kar ve zarar hesaplarına nakledilmiş olan hangi finansal boyutların, kalan gelirler ana hesabına aktarılacağını belirlemek için kullanılır. Öncelikle, hangi finansal boyutların seçilen tüzel varlıkla ilişkili olduğunu tanımlayın. Bu, yıl boyunca nakledilmiş olan tüm mali boyutları dahil edecektir, finansal boyut aktif bir yapının parçası olmasa bile. Daha sonra, her bir boyutu **Kapalı tek** veya **Tümü kapalı** olarak tanımlayın.  Varsayılan **Tümü kapalı** olmaktadır, bu da orijinal mali boyut değerlerini nakledilmiş hareketlerden tutar ve onları kalan gelirler hesapları için açılış bakiyeleri oluşturmakta kullanır. Ayrı kalan gelir açılış bakiyeleri daha sonra her bir benzersiz mali boyut değer birleşimleri için oluşturulur. **Kapalı tek** seçiliyse, bu mali boyut ile nakledilmiş olan tüm hareketler, **Kapalı tek** içerisinde girilmiş olan başlangıç bakiyesinde kalan gelir başlangıç bakiyesinde özetlenir. Örneğin, mali yıl için tüm hareketlerin Ana hesap - Departman hesap yapısıyla nakledilmiş olduğunu varsayalım. Departman mali boyut üzerindeki şablonda, **Kapalı tek** seçilir ve 100 değeri girilmiştir. Departmanlar 200, 300 ve 400'e nakledilen tüm hareketleri toplam geliri 100.000$ ise, Kalan gelirler - 100 için bir açılış bakiyesi oluşturulacaktır. **Kapalı tek** seçerseniz ve mali boyut değerini boş bırakırsanız, tüm hareketler bu boyut değeri boş olarak kalan gelirlere nakledilir. 
 
-Yıl sonu kapatma işlemi hesap yapılarına uymayan. Bu mali yıl hesap yapıları değiştirebilir ve her zaman ilgili hesap yapısı nedeniyle bu değişiklikleri belirlemek mümkün değildir çünkü.  Açılış hareketleri oluşturulurken bakiyeleri İleri mali boyutları ile yıl sonu kapatma şablonda tanımlanan şekilde güncelleştirilecektir. Başlangıç bakiyelerin girişler mali boyutları artık artık geçerli hesap yapısı içinde geçerli Cari hesap yapısı ve segment birleşimlerini içerebilir. Kuruluşunuzun tutulan getirisi Başlangıç bakiyesi, mali boyut ayarlamak için mali boyut dışlanacak istiyorsa, **Kapat tek** ve boyut değerini boş bırakın.
+Yıl sonu kapama işlemi hesap yapılarına uymaz. Bunun sebebi, hesap yapılarının mali yıl boyunca değişebilmesi ve her zaman ilgili hesap yapısını bu değişiklikler yüzünden tespit edilememesidir.  Açılış hareketleri oluşturulduğunda, bakiyeler yıl sonu kapanış şablonunda tanımlanmış olan mali boyutlarla ileri aktarılacaktır. Açılış bakiyeleri girişi, geçerli hesap yapısında bulunmayan mali boyutları ve geçerli hesap yapısında geçerli olmayan bölüm kombinasyonlarını içerebilir. Kuruluşunuz kalan gelirler başlangıç bakiyesi için bir mali boyutu dışarıda bırakmak istiyorsa, mali boyutu **Kapalı tek** olarak ayarlayın ve boyut değerini boş bırakın.
 
-## <a name="run-the-year-end-close-process"></a>Yıl sonu kapatma işlemini çalıştırın.
-Yıl sonu kapatma şablonları oluşturulduktan sonra yıl sonu kapatma işlemi seçerek başlatılır **mali yıl** eylem bölmesi. Tümünü Seç veya bir alt kümesi için yıl sonu kapanış çalıştırılacak şablondan tüzel kişilikler. Yıl sonu çalışan kapattığınızda bir mali yıldaki ilk kez, büyük olasılıkla tüm tüzel kişilikler için Başlangıç bakiyelerini oluşturmak için tüm tüzel kişilikler seçecektir. Yıl Sonu Kapanış yeniden çalıştırıyorsanız, işlem yalnızca kendisi için ayarlama girişlerinin deftere nakledildiği tüzel kişilikler için çalıştırmayı seçebilirsiniz. 
+## <a name="run-the-year-end-close-process"></a>Yıl sonu kapanış işlemini çalıştırın
+Yıl sonu kapanış şablonları oluşturulduktan sonra, yıl sonu kapanış işlemi **Yıl sonunu çalıştır** seçeneğini Eylem bölmesinde seçerek başlatılır. Yıl sonu kapanışını çalıştırmak için şablondan tüzel kişiliklerin tamamını ya da alt kümesini seçin. Yıl sonu kapanışı bir mali yılda ilk defa çalıştırılırken, çoğu tüzel varlık için yıl sonu bakiyeleri oluşturmak için tüm tüzel varlıkları kapatmanız olasıdır. Yıl sonu kapanışın yeniden çalıştırırsanız, bunu yalnızca ayarlanmış girişlerin nakledildiği tüzel varlıklar için çalıştırmayı tercih edebilirsiniz. 
 
-Yıl sonu Kapat uygulamalarına karşı çalıştırmak istediğiniz mali yılı seçin. Birden fazla kapanış dönemi için mali yılın son döneminden varsa **dönem adı** kapanış hareketi oluşturmak için ayarı tanımlıysa kapanış hareketi nakletmek için hangi kapanış dönemi seçebilmeniz için alan kullanılabilir olacak. 
+Yıl sonu kapanış işlemini karşıt çalıştırmak istediğiniz mali yılı seçin. Mali yılın son dönemi için birden fazla kapanış dönemi mevcutsa, **Dönem adı** alanı kullanılabilir duruma gelir ve böylece siz hangi kapanış döneminin Kapanış hareketine nakledileceğini seçebilirsiniz, eğer kurulum Kapanış hareketini oluşturmak üzere tanımlandıysa. 
 
-Girin bir fiş numarası, hangi veya, Kur'un genel muhasebe parametreleri bağlı olarak, gerekli olmayabilir. Yıl sonu kapatma işlem için seçilen tüzel kişilikler için aynı fiş numarası kullanılır. Fiş numarası, numara serisini kullanan oluşturulmaz. Gerekli değildir olsa bile bir fiş numarasını girmek için iyi bir uygulamadır. Fiş numarası girerek yeni mali yıldaki açılış hareketi bulmayı kolaylaştırır. Fiş numarası olmayan girdiyseniz, fiş için açılış hareketi boş olacaktır. 
+Bir fiş numarası girin, bu durum Genel muhasebe parametrelerine bağlı olarak gerekli olabilir veya olmayabilir. Aynı fiş numarası, yıl sonu kapanış işlemi için seçilen tüm tüzel varlıklar için kullanılır. Fiş numarası, bir sayı serisi kullanılarak oluşturulmaz. Gerekli olmasa bile bir fiş numarası girmek en iyi uygulamadır. Fiş numarası giymek, yeni mali yıldaki Açılış hareketini bulmayı kolaylaştırır. Bir fiş numarası girilmezse, fiş Açılış hareketi için boş olacaktır. 
 
-Bir önceki yıl sonu kapanışı seçili mali yıl için tersine çevirmek isterseniz, set **yakın önceki geri** için **Evet**. Yıl Sonu Kapanış tersine, ancak işlemin herhangi bir zamanda yeniden çalıştırabilirsiniz. Yıl sonu kapatma, ters **geçen yıl bitiş tarihi Kapat** kullanılamayacak. 
+Bir önceki yıl kapanışını seçilen yıl için tersine çevirmek isterseniz, **Önceki kapanışı geri al** seçeneğini **Evet** olarak ayarlayın. Yıl sonu kapanışı geri çevrilir, ancak işlem istenildiği zaman yeniden çalıştırılabilir. Yıl sonu kapanışı geri çevirirseniz, **Son yıl sonu kapanışı tarihi** kullanılamayacaktır. 
 
-Toplu iş modunda çalıştırmak için yıl sonu kapatma işlemi Varsayılanları. Toplu iş modunda, diğer etkinlikler için dönmek kullanıcı izin vermek için işlemi çalıştırmak için iyi bir uygulamadır. Yıl sonu kapatma işlemi tamamlandıktan sonra **geçen yıl bitiş tarihi Kapat** oturum tarihle güncelleştirilir.
+Yıl sonu kapanış işlemi, toplu iş modu varsayılanına döner. Kullanıcının diğer faaliyetlerine dönmesine izin vermek için işlemi toplu iş modunda çalıştırmak bir en iyi uygulamadır. Yıl sonu kapanış süreci tamamlandığında, **Son yıl sonu kapanışının tarihi**, oturum tarihi ile güncelleştirilecektir.
 
-Daha fazla bilgi için bkz: [dönem sonu genel muhasebede Kapat](close-general-ledger-at-period-end.md).
+Daha fazla bilgi için bkz. [Genel muhasebe defterini dönem sonunda kapatmak](close-general-ledger-at-period-end.md).
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Borç hesapları giriş sayfası"
-description: "Bu konu, Borç hesapları genel bir bakış sağlar."
+description: "Bu konu borç hesapları konusuna genel bir bakış sağlar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,8 +27,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-payable-home-page"></a>Borç hesapları giriş sayfası
 
-Bu konu, Borç hesapları genel bir bakış sağlar.
+[!include[banner](../includes/banner.md)]
 
-Satıcı faturalarını el ile girebilir veya bir veri varlığıyla elektronik olarak alabilirsiniz. Faturaları girilen veya sonra gözden geçirin ve bir fatura onay günlüğü kullanarak faturaları onaylamak veya **satıcı faturası** sayfa. Belirli ölçütlere uyan faturaların otomatik olarak onaylanması için fatura eşleştirme, satıcı fatura ilkeleri ve iş akışını kullanarak gözden geçirme işlemini otomatikleştirebilirsiniz ve kalan faturalar yetkili kullanıcı tarafından gözden geçirilmek üzere işaretlenir.
+
+Bu konu borç hesapları konusuna genel bir bakış sağlar. 
+
+Satıcı faturalarını el ile girebilir veya bir veri varlığıyla elektronik olarak alabilirsiniz. Faturalar girildikten veya alındıktan sonra, bir fatura onay günlüğü veya **Satıcı faturası** sayfasını kullanarak faturaları gözden geçirebilir veya onaylayabilirsiniz. Belirli ölçütlere uyan faturaların otomatik olarak onaylanması için fatura eşleştirme, satıcı fatura ilkeleri ve iş akışını kullanarak gözden geçirme işlemini otomatikleştirebilirsiniz ve kalan faturalar yetkili kullanıcı tarafından gözden geçirilmek üzere işaretlenir.
+
+
 
 

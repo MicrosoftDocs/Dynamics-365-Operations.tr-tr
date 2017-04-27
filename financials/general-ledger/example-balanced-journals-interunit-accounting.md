@@ -1,5 +1,5 @@
 ---
-title: "İnterunit hesap için dengeli günlükleri"
+title: "Birimlerarası muhasebe için dengelenmiş günlükler"
 description: "Bu makalede Genel muhasebe sayfasında bir karşı mali boyut seçildiğinde bir defterin nasıl otomatik olarak dengeleneceği açıklanmıştır."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="balanced-journals-for-interunit-accounting"></a>İnterunit hesap için dengeli günlükleri
+# <a name="balanced-journals-for-interunit-accounting"></a>Birimlerarası muhasebe için dengelenmiş günlükler
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede Genel muhasebe sayfasında bir karşı mali boyut seçildiğinde bir defterin nasıl otomatik olarak dengeleneceği açıklanmıştır. 
 
@@ -47,8 +50,10 @@ Bu nedenle, günlüğü mali boyut değerlerinin düzeyinde dengelemek için aş
 
 |                                   |           |
 |-----------------------------------|-----------|
-| (İnterunit borç) – MSP – OU\_256 | 100,00 DR |
-| (İnterunit alacak) – NY – OU\_249 | 100,00 CR |
+| (Birimlerarası Borç) – MSP – OU\_256 | 100,00 DR |
+| (Birimlerarası Alacak) – NY – OU\_249 | 100,00 CR |
+
+
 
 
 

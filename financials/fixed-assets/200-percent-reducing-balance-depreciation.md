@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="200-percent-reducing-balance-depreciation"></a>%200 azalan bakiyeli amortisman
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, yüzde 200 amortisman bilanço azaltma yöntemine genel bakış sunulmuştur.
 
 Bir sabit kıymet amortisman profili ayarlayıp **Amortisman profilleri** sayfasındaki **Yöntem** alanında **%200 azalan bakiye** seçeneğini belirlediğinizde, amortisman profiline atanan sabit kıymetlerin amortismanı her amortisman döneminde aynı yüzdeyi içerir. Yüzde, sabit kıymetin servis ömrü temel alınarak hesaplanır. Örneğin, bir sabit kıymetin beş yıllık servis ömrü varsa, yüzde %40 (%200 ÷ 5) olarak hesaplanır. 
@@ -44,7 +47,7 @@ Seçiminiz, **Dönem sıklığı** alanında bulunan seçenekleri belirler. Bu a
 
 **Amortisman yılı** alanında varsayılan değer olan **Takvim** seçeneğini bırakabilirsiniz. 
 
-**Takvim** seçeneği, amortisman tabanını her yılın Ocak 1 tarihinde günceller. Tipik olarak, net defter değeri eksi ıskarta değeri içerir. Bu konunun devamındaki örneklerde, amortisman tabanı hesaplamalar sütunundaki yer alan ilk ifadedeki pay olur. 
+**Takvim** seçeneği, amortisman tabanını her yılın Ocak 1 tarihinde günceller. Tipik olarak, amortisman net defter değeri eksi ıskarta değeridir. Bu konunun devamındaki örneklerde, amortisman tabanı hesaplamalar sütunundaki yer alan ilk ifadedeki pay olur. 
 
 Amortisman yılı olarak **Takvim** seçerseniz, **Dönem sıklığı** alanında şu seçenekler kullanılabilir :
 
@@ -58,7 +61,7 @@ Amortisman yılı olarak **Takvim** seçerseniz, **Dönem sıklığı** alanınd
 
 **Amortisman** yılı alanında **Mali** seçeneğini belirlerseniz, %200 azalan bakiyeli amortisman defter için belirtilen mali takvim için veya **Genel muhasebe** sayfasında seçilen mali takvim için mali yıla dayalı olarak hesaplanır. Mali takvimler, **Mali Takvimler** sayfasında ayarlanır. 
 
-Örneğin, 30 Haziran-1 Temmuz mali yıl için amortisman hesaplaması 1 Temmuz tarihinde başlar. Mali yıl 12 aydan daha uzun veya daha kısa olabilir. Amortisman her dönem için ayarlanır. Bir sonraki mali yılın uzunluğu, **Mali takvimler** sayfasında ayarlanan mali dönemler tarafından belirlenir. 
+Örneğin, 1 Temmuz ile 30 Haziran arasındaki mali yıl için amortisman hesaplaması 1 Temmuz'da başlar. Mali yıl 12 aydan daha uzun veya daha kısa olabilir. Amortisman her dönem için ayarlanır. Bir sonraki mali yılın uzunluğu, **Mali takvimler** sayfasında ayarlanan mali dönemler tarafından belirlenir. 
 
 Amortisman yılı olarak **Mali** seçildiğinde, **Dönem sıklığı** alanında şu seçenekler kullanılabilir:
 
@@ -83,6 +86,8 @@ Amortisman yılı olarak **Mali** seçildiğinde, **Dönem sıklığı** alanın
 | 3. yıl | 3.600 × %40 = 1.440                           | 4.600 – 1.440 = 3.160  | 3.600 – 1.440 = 2.160                 |
 
 > [!NOTE] 
-> Genellikle, % 200 azalan bakiye amortisman yöntemi kullanılarak hesaplanan tutar ne zaman olur düz çizgi yöntemini kullanarak bir düz çizgi yöntemi geri kalan ömürde dönüştürme yok hesaplanacaktı tutardan daha az.
+> Tipik olarak, %200 azalan bakiye amortismanı yöntemi kullanılarak hesaplanan tutar sabit amortisman yöntemi kullanılarak hesaplanacak yöntemden daha az olduğunda, kalan ömür için sabit amortisman yöntemine bir dönüş olur.
+
+
 
 

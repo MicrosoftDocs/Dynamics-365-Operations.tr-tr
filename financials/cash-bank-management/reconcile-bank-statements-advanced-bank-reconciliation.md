@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Gelişmiş banka mutabakatı kullanarak banka ekstreleri arasında mutabakat sağlayın
 
+[!include[banner](../includes/banner.md)]
+
+
 Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Operations uygulamasındaki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda mutabakat işlemi açıklanmaktadır.  
 
 <a name="import-an-electronic-bank-statement"></a>Elektronik banka ekstresini içe aktarma
@@ -74,7 +77,7 @@ Banka ekstresi hareketlerini eşleştirmek veya mutabakatlarını sağlamak içi
 -   Hareketleri ters banka ekstresi hareketiyle eşleştirin.
 -   Hareketleri, daha sonra Dynamics 365 for Operations uygulamasında bir banka hareketi olarak nakledilebilmeleri için **Yeni** olarak işaretleyin.
 
-Hareketleri el ile eşleştirmek için hareketleri seçin **banka ekstresi hareketlerinin** kılavuz, karşılık gelen hareketlerde seçin **işlemleri banka hareketleri** ızgara ve sonra **aynı**. Seçili hareketler eşleşmemiş hareketler için olan üst kılavuzlardan eşleşmiş hareketler için olan alt kılavuzlara taşınır. Buna ek olarak, eşleşen ve eşleşmeyen toplam tutarlar güncelleştirilir. Bire bir, çoğa bir ve çoğa çok hareket eşleştirmelerine sahip olabilirsiniz. Eşleştirmeler izin verilen tarih farkı ve hareket türü eşleşmesine dair kurallara uymalıdır. Bu kurallar **Nakit ve banka yönetimi parametreleri** sayfasından ayarlanır.
+Hareketleri el ile eşleştirmek için **Banka ekstresi hareketleri** kılavuzundaki hareketleri seçin, **Operations banka hareketleri** kılavuzundaki ilgili hareketleri seçin ve sonra **Eşleştir**'e tıklayın. Seçili hareketler eşleşmemiş hareketler için olan üst kılavuzlardan eşleşmiş hareketler için olan alt kılavuzlara taşınır. Buna ek olarak, eşleşen ve eşleşmeyen toplam tutarlar güncelleştirilir. Bire bir, çoğa bir ve çoğa çok hareket eşleştirmelerine sahip olabilirsiniz. Eşleştirmeler izin verilen tarih farkı ve hareket türü eşleşmesine dair kurallara uymalıdır. Bu kurallar **Nakit ve banka yönetimi parametreleri** sayfasından ayarlanır.
 
 Mutabakatınızda kuruş farkları oluşabilir. Kuruş farkları, banka hesabındaki **İzin verilen kuruş farkı** alanı tarafından tanımlanan tolerans tutarı dahilinde ise kuruş farkına sahip tek bir banka ekstresini ve tek bir Operations banka hareketini eşleştirebilirsiniz. Tutar, eşleşen Operations banka hareketlerinde **Düzeltme tutarı** alanında gösterilir. Banka mutabakatı mutabakat sağlandı olarak işaretlendiğinde, düzeltmeler ilişkili banka hareketi türü ile tanımlanan ana hesap kullanılarak otomatik olarak deftere nakledilir. **Çek** ve **Havale** belge türleri için düzeltmeler desteklenmez. 
 
@@ -90,5 +93,7 @@ Tüm ekstre satırları işlendikten sonra Banka mutabakat çalışma sayfasın�
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Mutabakatla ilişkili yeni hareketleri nakletme
 Mutabakat çalışma sayfasında **Yeni** olarak işaretlediğiniz banka ekstresi hareketleri **Banka ekstresi** sayfasında nakledilir. **Banka ekstresi** sayfasında ekstre ayrıntılarını görüntülemek için ekstre kimliğini seçin. Yeni hareketler ve ilişkili muhasebe girişleri haricindeki ayrıntıları görüntülemek için **Muhasebe** menüsündeki **Dağıtımları görüntüle** ve **Muhasebeyi görüntüle** seçeneklerini kullanabilirsiniz. **Yeni** olarak işaretlenmiş banka ekstresi satırlarını genel muhasebeye nakletmek için **Naklet** seçeneğini seçin. Deftere naklin banka ekstresi başına yalnızca tek seferde tamamlanabildiğini unutmayın.
+
+
 
 

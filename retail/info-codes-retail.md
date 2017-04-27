@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
 ms.search.region: global
@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="info-codes"></a>Bilgi kodları
 
+[!include[banner](includes/banner.md)]
+
+
 Bu makalede bilgi kodları, bilgi kodu grupları ve bunların nasıl kullanılacağı hakkında genel bir bakış sunulmuştur.
 
 Bilgi kodları, satış noktası (POS) kasasındaki verileri yakalamanın bir yolunu sunar. Bilgi kodlarını ürün satışları, ürün iadeleri veya müşterileri seçme gibi çeşitli POS işlemleri sırasında kasiyerden bilgileri girmesinin istenmesi için kullanabilirsiniz. Kasiyerler listeden bir giriş seçebilir ya da bilgiyi bir kod, sayı, tarih veya metin olarak girebilir. Bilgi kodlarını, önceden tanımlanmış mağaza eylemlerine, perakende ürünlerine, ödeme yöntemlerine, müşterilere veya belirli satış noktası etkinliklerine atayabilirsiniz. Bilgi kodlarını, aşağıdakileri yapmak için kullanabilirsiniz:
@@ -38,7 +41,7 @@ Bilgi kodları, satış noktası (POS) kasasındaki verileri yakalamanın bir yo
 -   Bir satış işlemi gerçekleştirilmeden kasa çekmecesi açıldığında kasiyerin bir değer girmesini veya bir alt kodlar listesinden seçim yapmasını istemek.
 
 ## <a name="info-codes-group-in-retail-and-commerce"></a>Perakende ve ticaret alanında bilgi kodları grubu
-Perakende, Dynamics 365 - operasyonlar için de bilgi kodları grupları oluşturabilirsiniz. Bilgi kodları grupları, daha az bilgi kodu tanımlamanızı ve bunları çok yönlü şekilde kullanmanızı sağlayan esneklik kazandırır. Bilgi kodu gruplarını aşağıdaki yollarla kullanabilirsiniz:
+Dynamics 365 for Operations - Perakende, bilgi kodları grupları oluşturabilirsiniz. Bilgi kodları grupları, daha az bilgi kodu tanımlamanızı ve bunları çok yönlü şekilde kullanmanızı sağlayan esneklik kazandırır. Bilgi kodu gruplarını aşağıdaki yollarla kullanabilirsiniz:
 -   Daha az bilgi kodu tanımlamak ve bunları kolayca yeniden kullanmak. Bilgi kodu gruplarına dahil edilen bilgi kodlarının diğer bilgi kodlarında önceden tanımlanmış bir bağımlılığı yoktur. Aynı bilgi kodlarını birden çok bilgi kodu grubuna ekleyebilir ve sonra aynı bilgi kodlarını belirli bir duruma uygun sırada sunmak için öncelik belirlemeyi kullanabilirsiniz.
 -   Her senaryo için bağlantılı bilgi kodu veya ayrı bilgi kodu tanımlamanız gerekmeden bir ürün veya hareket hakkında bilgi toplamak için bilgi kodlarını diğer bilgi kodlarına veya bilgi kodu gruplarına bağlayın.
 
@@ -47,6 +50,8 @@ Perakende, Dynamics 365 - operasyonlar için de bilgi kodları grupları oluştu
 
  
 -
+
+
 
 
 

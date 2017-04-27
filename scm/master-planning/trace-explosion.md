@@ -1,5 +1,5 @@
 ---
-title: "İzlemeyi kullanmak için Açılım"
+title: "Açılım için izlemeyi kullanma"
 description: "Bu makalede, bir siparişi açılımının sonucu arkasındaki nedenleri keşfetmek için izlemeyi nasıl kullanabileceğiniz açıklanmaktadır."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-tracing-for-explosion"></a>İzlemeyi kullanmak için Açılım
+# <a name="use-tracing-for-explosion"></a>Açılım için izlemeyi kullanma
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, bir siparişi açılımının sonucu arkasındaki nedenleri keşfetmek için izlemeyi nasıl kullanabileceğiniz açıklanmaktadır.
 
@@ -43,6 +46,8 @@ Seçili sipariş hakkındaki vadeli işlem ve eylem ayrıntılarını görüntü
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Master plans](master-plans.md)
+[Master planlar](master-plans.md)
+
+
 
 

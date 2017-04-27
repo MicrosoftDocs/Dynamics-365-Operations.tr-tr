@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-element-dimensions"></a>Maliyet öğesi boyutları
 
+[!include[banner](../includes/banner.md)]
+
+
 Maliyet muhasebesinin temel direklerinden biri olarak maliyet öğesi boyutları maliyetlerin akış gerçekleştirdiği alanları sınıflandırmak ve izlemek için kullanılır. 
 
 Maliyet öğesi hesap planında maliyetle ilgili bir öğeye karşılık gelir. Temel olarak, maliyetlerin akış sağlayabileceği bir işletmenin en alt düzeyindeki herhangi bir öğe türü olabilir. Genel muhasebe hesaplarından maliyetle ilgili tüm kaynaklara bir kavram aralığı olarak maliyet öğeleri. Şu anda, Maliyet muhasebesi genel muhasebe hesaplarını desteklemektedir.
@@ -64,12 +67,14 @@ Birincil maliyet öğeleri ve ikincil maliyet öğeleri olmak üzere iki tür ma
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Maliyet öğesi boyutları ve maliyet öğesi boyut üyeleri
 Maliyet öğeleri, *maliyet öğesi boyutları* olarak adlandırılır. Tek tek boyut değerleri *maliyet öğesi boyut üyeleri* olarak adlandırılır. Örneğin, yasal raporlamanızın temeli olan bir ABD hesap planı yapınız (COA) olsun. Bu COA maliyet öğesi boyutu olarak kullanılır. Birincil maliyet öğesi olan hesaplar Maliyet muhasebesinde maliyet öğesi boyut üyeleri olarak temsil edilir. Aşağıdaki ekran görüntüsünde fiili ana hesapları maliyet öğesi boyut üyesi olarak, Ana Hesapların maliyet öğesi boyutu olduğu bir örnek gösterilmektedir. 
 
-[![Maliyet öğesi boyutları](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![maliyet-ogeleri-boyutlari](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Veri bağlayıcıları üzerinden maliyet öğesi boyut üyelerini içe aktarma
 Maliyet muhasebesinde maliyet öğesi boyut üyelerinin kurulumunu kolaylaştırmak için bir veya daha fazla kaynak sistemden birincil maliyet öğelerini almak üzere önceden inşa edilmiş veya sizin özel olarak inşa ettiğiniz veri bağlayıcılarını kullanabilirsiniz.
 
 ## <a name="implementation-considerations"></a>Uygulama ile ilgili hususlar
 Maliyet öğeleri, maliyet ayrıntılarınızın en düşük düzeyini temsil ettiğinden, maliyet öğesi yapısını uygularken yönetim raporlaması yapmak için gerekli tüm maliyet öğelerinin dahil edildiğinden emin olun. Maliyet denetimi için uygun sayıda maliyet öğesi bulmak zor olabilir. Binlerce maliyet öğesi bulundurmak her maliyet öğesini denetlemeyi zorlaştırabilir. Alternatif olarak, maliyet öğelerini gruplandırabilir ve maliyet denetimini toplu düzeyde yönetebilirsiniz.
+
+
 
 

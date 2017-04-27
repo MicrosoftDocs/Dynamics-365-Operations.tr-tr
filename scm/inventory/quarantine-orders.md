@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="quarantine-orders"></a>Karantina emirleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, karantina emirlerinin stok durdurma için nasıl kullanıldığını açıklanmaktadır. 
 
-Karantina emirleri stok durdurma için kullanılabilir. Örneğin, öğeleri kalite kontrol nedeniyle karantinaya isteyebilirsiniz. Karantinaya alınan stok bir karantina ambarına transfer edilir. **Not:** (Ambar yönetiminde) gelişmiş ambar yönetimi işlemleri kullanıyorsanız, karantina emri işleme yalnızca iade satış siparişleri için kullanılır.
+Karantina emirleri stok durdurma için kullanılabilir. Örneğin, maddeleri kalite kontrol nedeniyle karantinaya almak isteyebilirsiniz. Karantinaya alınan stok bir karantina ambarına transfer edilir. **Not:** (Ambar yönetiminde) gelişmiş ambar yönetimi işlemleri kullanıyorsanız, karantina emri işleme yalnızca iade satış siparişleri için kullanılır.
 
-## <a name="quarantine-onhand-inventory-items"></a>Eldeki stok maddeleri karantina
+## <a name="quarantine-onhand-inventory-items"></a>Eldeki stok maddelerini karantinaya alma
 Maddeleri karantinaya aldığınızda, karantina emirlerini el ile oluşturabilirsiniz veya gelen işleme sırasında karantina emirlerini otomatik olarak oluşturmak için sistemi ayarlayabilirsiniz. Karantina emirlerini otomatik olarak oluşturmak için **Madde modeli grupları** sayfasındaki **Stok ilkeleri** sekmesinde **Karantina yönetimi** seçeneğini seçin. Teslim alma ambarları için **Ambarı karantinaya al** alanında varsayılan bir ambar belirtmeniz de gerekir. Eldeki fiziksel stok satınalma siparişi veya üretim emrinde kaydedildiğinde, karantinaya alınan maddeler otomatik olarak Microsoft Dynamics 365 for Operations içindeki karantina ambarına taşınır. Bu taşımanın gerçekleşmesinin nedeni karantina emrinin durumunun **Başladı** olarak değişmesidir. Karantina emirlerini el ile oluşturduğunuzda, ilişkili madde model grubunda karantina yönetimi için maddenin ayarlanmasına gerek yoktur. Bu işlem için karantinaya alınması gereken eldeki stoğu ve kullanılması gereken karantina ambarını belirtmeniz gerekir. Süreci planlamaya yardımcı olması için karantina emri durumlarını kullanabilirsiniz.
 
 ## <a name="quarantine-order-statuses"></a>Karantina emri durumları
@@ -64,6 +67,8 @@ Karantina emri işleminin bir parçası olarak stoğu hurdaya çıkartabilirsini
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Inventory blocking](inventory-blocking.md)
+[Stok durdurma](inventory-blocking.md)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Tahsisatları işleme"
-description: "Bu makalede, ayırma, bunları Microsoft Dynamics 365 işlemleri için ve nasıl bütçe planlamasında kullanılabilmesi için işleme seçenekleri hakkında bilgi sağlar. Tahsisatlar, tutarları birden fazla genel muhasebe hesabı birleşimleri arasında dağıtmak için kullanılır. Gider ve gelirlerin muhasebede doğru nesneye yazılmasının garanti altına alınmasına yardımcı olurlar."
+description: "Bu makalede tahsisatlar, Microsoft Dynamics 365 for Operations&quot;da tahsisatları işleme seçenekleri ve bütçe planlamasında tahsisatların nasıl kullanılabileceği hakkında bilgiler verilmektedir. Tahsisatlar, tutarları birden fazla genel muhasebe hesabı birleşimleri arasında dağıtmak için kullanılır. Gider ve gelirlerin muhasebede doğru nesneye yazılmasının garanti altına alınmasına yardımcı olurlar."
 author: twheeloc
 manager: AnnBe
 ms.date: 2017-04-04
@@ -28,17 +28,17 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="process-allocations"></a>Tahsisatları işleme
 
-Bu makalede, ayırma, bunları Microsoft Dynamics 365 işlemleri için ve nasıl bütçe planlamasında kullanılabilmesi için işleme seçenekleri hakkında bilgi sağlar. Tahsisatlar, tutarları birden fazla genel muhasebe hesabı birleşimleri arasında dağıtmak için kullanılır. Gider ve gelirlerin muhasebede doğru nesneye yazılmasının garanti altına alınmasına yardımcı olurlar.
+Bu makalede tahsisatlar, Microsoft Dynamics 365 for Operations'da tahsisatları işleme seçenekleri ve bütçe planlamasında tahsisatların nasıl kullanılabileceği hakkında bilgiler verilmektedir. Tahsisatlar, tutarları birden fazla genel muhasebe hesabı birleşimleri arasında dağıtmak için kullanılır. Gider ve gelirlerin muhasebede doğru nesneye yazılmasının garanti altına alınmasına yardımcı olurlar.
 
-Microsoft Dynamics 365 işlemleri için bu işlemi desteklemek için aşağıdaki yetenekleri sağlar:
+Microsoft Dynamics 365 for Operations bu süreci desteklemek için şu özellikleri sağlar:
 
--   El ile hareket tutarları mali boyut varsayılan şablonları uygulayarak belgeye veya hesap dağılımda bölünmüş eylem kullanarak ayırın. Daha fazla bilgi için bkz: [hesap dağıtımları.](\accounts-payable\accounting-distributions.md)
+-   Muhasebe dağılımlarında Böl eylemini kullanarak veya bir belgeye mali boyut varsayılan şablonları uygulayarak hareket tutarlarını el ile atayabilirsiniz. Daha fazla bilgi için bkz.  [Hesap dağıtımları.](\accounts-payable\accounting-distributions.md)
 -   Her bir ana hesapta tanımlanan atama şartlarına dayalı olarak hareket tutarlarını otomatik olarak atayın. Tahsisat hesabı girişleri, bir muhasebe girişinin kaynak defter hesabı olarak tanımlanan kriterleri karşılaması durumunda her bir günlük için yüzdeye ve hedef defter hesabına dayalı olarak üretilecektir.
 -   Defter bakiyelerini veya sabit tutarları defter tahsisat kurallarına dayalı olarak otomatik olarak atayın. Defter tahsisat kuralları, atama günlükleri kullanılarak düzenli olarak işlenir. 
 
 ###  <a name="allocations-in-budget-planning"></a>Bütçe planlamasında tahsisatlar
 
-Defter tahsisat kuralları, bütçe planları için kullanılabilir. Defter tahsisat kurallarını bütçe planlamada kullanıyorsanız, tahsisat kuralları, defterdekiyle aynı şekilde çalışacaktır, ancak kaynak verileri ve hedef verileri bütçe planından gelir. Bütçe planları için kullanılacak genel muhasebe tahsisat kuralları el ile seçebilirsiniz. Alternatif olarak, bir iş akışı işleminin bir parçası çalışan bir ayırma tablosu kullanabilirsiniz.
+Defter tahsisat kuralları, bütçe planları için kullanılabilir. Defter tahsisat kurallarını bütçe planlamada kullanıyorsanız, tahsisat kuralları, defterdekiyle aynı şekilde çalışacaktır, ancak kaynak verileri ve hedef verileri bütçe planından gelir. Bütçe planları için kullanılacak genel muhasebe tahsisat kurallarını el ile seçebilirsiniz. Alternatif olarak, bir iş akışı işleminin bir parçası olarak çalışan bir tahsisat zamanlaması kullanabilirsiniz.
 
 > [!NOTE]
 > Bütçe planlama için şirketler arası defter tahsisat kurallarını kullanamazsınız.

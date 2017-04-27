@@ -1,6 +1,6 @@
 ---
 title: "Banka ekstresi dosya alma sorunlarını giderme"
-description: "Bankadan gelen banka ekstresi dosya işlemleri için Microsoft Dynamics 365 destekleyen Düzen eşleşmesi önemlidir. Banka ekstreleri için sıkı standartlar bulunduğundan çoğu tümleştirme doğru şekilde çalışacaktır. Ancak, bazen ekstre dosyası alınamayabilir veya hatalı sonuçlara sahip olabilir. Genellikle, bu sorunlar banka ekstresi dosyasındaki küçük farklılıklar nedeniyle ortaya çıkar. Bu makale, bu farklılıkları gidermeyi ve sorunların nasıl çözüleceğini açıklar."
+description: "Bankadan gelen banka ekstresi dosyasının, Microsoft Dynamics 365 for Operations tarafından desteklenen düzenle eşleşmesi önemlidir. Banka ekstreleri için sıkı standartlar bulunduğundan çoğu tümleştirme doğru şekilde çalışacaktır. Ancak, bazen ekstre dosyası alınamayabilir veya hatalı sonuçlara sahip olabilir. Genellikle, bu sorunlar banka ekstresi dosyasındaki küçük farklılıklar nedeniyle ortaya çıkar. Bu makale, bu farklılıkları gidermeyi ve sorunların nasıl çözüleceğini açıklar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bank-statement-file-import-troubleshooting"></a>Banka ekstresi dosya alma sorunlarını giderme
 
-Bankadan gelen banka ekstresi dosya işlemleri için Microsoft Dynamics 365 destekleyen Düzen eşleşmesi önemlidir. Banka ekstreleri için sıkı standartlar bulunduğundan çoğu tümleştirme doğru şekilde çalışacaktır. Ancak, bazen ekstre dosyası alınamayabilir veya hatalı sonuçlara sahip olabilir. Genellikle, bu sorunlar banka ekstresi dosyasındaki küçük farklılıklar nedeniyle ortaya çıkar. Bu makale, bu farklılıkları gidermeyi ve sorunların nasıl çözüleceğini açıklar.
+[!include[banner](../includes/banner.md)]
+
+
+Bankadan gelen banka ekstresi dosyasının, Microsoft Dynamics 365 for Operations tarafından desteklenen düzenle eşleşmesi önemlidir. Banka ekstreleri için sıkı standartlar bulunduğundan çoğu tümleştirme doğru şekilde çalışacaktır. Ancak, bazen ekstre dosyası alınamayabilir veya hatalı sonuçlara sahip olabilir. Genellikle, bu sorunlar banka ekstresi dosyasındaki küçük farklılıklar nedeniyle ortaya çıkar. Bu makale, bu farklılıkları gidermeyi ve sorunların nasıl çözüleceğini açıklar.
 
 <a name="what-is-the-error"></a>Hata nedir?
 ------------------
@@ -34,16 +37,16 @@ Bankadan gelen banka ekstresi dosya işlemleri için Microsoft Dynamics 365 dest
 Bir banka ekstresi doyasını içe aktarmaya çalıştıktan sonra, hatayı bulmak için Veri yönetimi iş geçmişine ve yürütme ayrıntılarına gidin. Hata, ekstre, bilanço ya da ekstre satırına yönlendirerek yardımcı olabilir. Ancak soruna neden olan alan veya öğeyi tanımlamanıza yardımcı olmaya yeterli olacak bilgi vermesi olası değildir.
 
 ## <a name="what-are-the-differences"></a>Farklar nelerdir?
-Banka dosya düzen tanımı işlem alma tanımı için Microsoft Dynamics 365 karşılaştırır ve farkları alanları ve öğeleri not alın. İlgili örnek Dynamics 365 dosya işlemleri için banka ekstresi dosyasıyla karşılaştırılır. ISO20022 dosyalarında farkları görmek kolay olmalıdır.
+Banka dosya düzeni tanımını, Microsoft Dynamics 365 for Operations içe aktarma tanımıyla kıyaslayın ve alanlar ve öğelerdeki farklılıkları not edin. Banka ekstreleri dosyasını ilgili örnek Dynamics 365 for Operations dosyasıyla karşılaştırın. ISO20022 dosyalarında farkları görmek kolaydır.
 
 ## <a name="transformations"></a>Dönüşümler
 Genellikle, bu değişiklikler üç dönüşümden birinde yapılmalıdır. Her bir dönüşüm belirli bir standart için yazılır.
 
 | Kaynak adı                                         | Dosya adı                          |
 |-------------------------------------------------------|------------------------------------|
-| BankStmtImport\_BAI2CSV\_için\_BAI2XML\_xslt            | BAI2CSV-to-BAI2XML.xslt            |
-| BankStmtImport\_ISO20022XML\_için\_mutabakat\_xslt | ISO20022XML-to-Reconciliation.xslt |
-| BankStmtImport\_MT940TXT\_için\_MT940XML\_xslt          | MT940TXT-to-MT940XML.xslt          |
+| BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt            | BAI2CSV-to-BAI2XML.xslt            |
+| BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt | ISO20022XML-to-Reconciliation.xslt |
+| BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt          | MT940TXT-to-MT940XML.xslt          |
 
 ## <a name="debugging-transformations"></a>Hata ayıklama dönüştürmeleri
 ### <a name="adjust-the-bai2-and-mt940-files"></a>BAI2 ve MT940 dosyalarını ayarlama
@@ -68,7 +71,7 @@ Daha fazla bilgi için, bkz. <https://msdn.microsoft.com/en-us/library/ms255605.
 5.  Girişi, banka ekstresi dosyasının konumuna ayarlayın.
 6.  Çıktı için bir konum ve dosya adı tanımlayın.
 7.  Gerekli kesme noktalarını ayarlayın.
-8.  Menüsünde **XML**&gt;**XSLT Start Debugging komutunu**.
+8.  Menüde **XML** &gt; **XSLT Hata Ayıklamayı Başlat**'ı tıklatın.
 
 ### <a name="format-the-xslt-output"></a>XSLT çıktısını biçimlendirin
 
@@ -76,7 +79,7 @@ Dönüşüm yürütüldüğünde, Visual Studio'da görüntüleyebileceğiniz bi
 
 ### <a name="adjust-the-transformation"></a>Dönüştürmeyi ayarlayın
 
-Banka ekstresi dosyasında uygun bir alan veya öğeyi almak için dönüştürmeyi ayarlayın. Sonra uygun Dynamics 365 işlemleri öğe için alan veya öğe eşleştirin.
+Banka ekstresi dosyasında uygun bir alan veya öğeyi almak için dönüştürmeyi ayarlayın. Sonra bu alanı veya öğeyi uygun Dynamics 365 for Operations öğesine eşleyin.
 
 ### <a name="debitcredit-indicator"></a>Borç/Alacak göstergesi
 
@@ -87,7 +90,7 @@ Bazı durumlarda, borçlar alacak olarak ve alacaklar borç olarak içeri aktar�
 -   MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator şablonu
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Banka ekstresi biçimleri ve teknik düzenlerine örnekler
-Aşağıdaki tablo gelişmiş banka mutabakatı içe alma dosyaları ve üç ilgili banka ekstresi örnek dosyalarının teknik düzen tanımlarını örnek olarak verir. Burada teknik düzenleri ve örnek dosya indirebilirsiniz: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+Aşağıdaki tablo gelişmiş banka mutabakatı içe alma dosyaları ve üç ilgili banka ekstresi örnek dosyalarının teknik düzen tanımlarını örnek olarak verir. Teknik düzenleri ve örnek dosya buradan indirebilirsiniz: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 
 | Teknik düzen tanımı                             | Banka ekstresi örnek dosya          |
@@ -95,6 +98,8 @@ Aşağıdaki tablo gelişmiş banka mutabakatı içe alma dosyaları ve üç ilg
 | DynamicsAXMT940Layout                                   | MT940StatementExample                |
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+
+
 
 
 

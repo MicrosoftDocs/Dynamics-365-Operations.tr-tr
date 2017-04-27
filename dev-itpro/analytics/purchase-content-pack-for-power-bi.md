@@ -1,6 +1,6 @@
 ---
-title: "Satınalma Analiz güç BI içeriği harcadığınız"
-description: "Bu konuda ne dahil olduğunu açıklar Satınalma Analiz İçerik Paketi için Microsoft Power BI harcamak. İçerik paketinde bulunan raporlara erişimi açıklar ve içerik paketi oluşturmak için kullanılan varlıkları ve veri modeli hakkında bilgi sağlar."
+title: "Satınalma harcaması analizi Power BI içeriği"
+description: "Bu konu, Microsoft Power BI Satınalma harcaması analizi içerik paketinde nelerin bulunduğunu açıklar. Bu ayrıca, içerik paketine dahil edilen raporların nasıl kullanılacağını açıklar ve içerik paketini oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2016-12-30 09 - 40 - 51
@@ -24,23 +24,23 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="purchase-spend-analysis-power-bi-content"></a>Satınalma Analiz güç BI içeriği harcadığınız
+# <a name="purchase-spend-analysis-power-bi-content"></a>Satınalma harcaması analizi Power BI içeriği
 
-Bu konuda ne dahil olduğunu açıklar Satınalma Analiz İçerik Paketi için Microsoft Power BI harcamak. İçerik paketinde bulunan raporlara erişimi açıklar ve içerik paketi oluşturmak için kullanılan varlıkları ve veri modeli hakkında bilgi sağlar.
+Bu konu, Microsoft Power BI Satınalma harcaması analizi içerik paketinde nelerin bulunduğunu açıklar. Bu ayrıca, içerik paketine dahil edilen raporların nasıl kullanılacağını açıklar ve içerik paketini oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar.
 
 <a name="overview"></a>Özet
 --------
 
-Satınalma Analiz paketi Microsoft Power BI yöneticileri ve bütçeler için sorumlu yöneticileri satın aldığınız için oluşturulmuş içerik ayırın. Satınalma harcama üzerinde bir göz tutmak yardımcı olmak için tasarladı. Microsoft Dynamics 365 işlem verilerinden satınalma işlemleri için kullanır ve iki şirket genelinde satınalma rakamları toplam görünümünü ve bir harcama satıcı ve ürünlere göre satınalma dökümü sağlar. Rapor zamanla harcama satınalma değişikliklere yer verilmiştir. Bu nedenle, bunlar pozitif ve negatif harcama eğilimleri hakkında uyarı yöneticileri için tek tek satıcılara ve ürünleri için kullanılabilir. Grafikleri kategoriler farklı satın alma ve Satıcı grupları için harcama satınalma gösterir. Kategori ve bölgesel yöneticileri fazla harcama davranış değişiklikleri tanımlamanıza yardımcı olması için bu grafikler kullanmak yararlı olabilir. İçerik paketi aşağıdaki şekillerde harcama satınalma satınalma yöneticileri ve bütçeler için sorumlu yöneticileri yapalım çözümleyin:
+Microsoft Power BI için satınalma harcaması analiz paketi, satınalma yöneticileri ve bütçelerden sorumlu yöneticiler için oluşturulmuştur. Satınalma harcamasını izlemelerine yardımcı olmak amacıyla tasarlanmıştır. Microsoft Dynamics 365 for Operations'tan alınan satınalma hareketi verilerini kullanır ve hem şirket çapında satınalma rakamlarının toplam görünümünü hem de satıcı ve ürünler için satınalma harcamasının dağılımını verir. Raporlar satınalma harcamalarında zaman içindeki değişiklikleri öne çıkarır. Bu nedenle, yöneticileri ayrı satıcılar ve ürünlerle ilgili olarak pozitif ve negatif harcama eğilimleri hakkında uyarmak için kullanılabilir. Grafikler, farklı tedarik kategorileri ve satıcı grupları için satınalma harcamasını gösterir. Kategori ve bölgesel yöneticiler, harcama davranışındaki değişiklikleri tanımlamaya yardımcı olması açısından bu grafikleri kullanmayı yararlı bulabilirler. İçerik paketi satınalma yöneticilerinin ve bütçelerden sorumlu yöneticilerin satınalma harcamasını aşağıdaki şekillerde analiz etmesine olanak tanır:
 
--   Yıl satınalma (satıcı grubu ve tek tek satıcılara, tedarik kategori ve bireysel ürün ve satıcı konum)
--   Yıl üzerinden yıl satınalma Değiştir (satıcı grubu ve tedarik kategoriye göre)
+-   Yılbaşından bugüne satınalma (satıcı grubu ve tek tek satıcılara, tedarik kategorisine ve bireysel ürünlere ve satıcı konumuna göre)
+-   Yıldan yıla satınalma değişikliği (satıcı grubu ve tedarik kategorisine göre)
 
-## <a name="accessing-the-content-pack"></a>İçerik Paketi erişme
-Satınalma Analiz paketi Microsoft Dynamics ömrü Hizmetleri (LCS) bir uygulama varlığı olarak yayınlanır ve Microsoft Dynamics 365 işlemleri için erişilebilir içerik ayırın. Erişim ve açık güç BI raporları hakkında daha fazla bilgi için bkz: [Microsoft ve ortaklarınız LCS içeriğinde güç BI](power-bi-content-microsoft-partners.md).
+## <a name="accessing-the-content-pack"></a>İçerik paketine erişmek
+Satınalma harcaması analizi içerik paketi, Microsoft Dynamics Lifecycle Services'da (LCS) bir uygulama varlığı olarak yayınlanır ve Microsoft Dynamics 365 for Operations'tan erişilebilir. Power BI raporlarına erişme ve raporları açma hakkında daha fazla bilgi için bkz. [Microsoft ve iş ortaklarınızdan LCS'de Power BI içeriği](power-bi-content-microsoft-partners.md).
 
-## <a name="metrics-that-are-included-in-the-content-pack"></a>İçerik paketinde bulunan ölçümleri
-Satınalma harcamak analiz ölçümler kümesinden oluşan bir rapor içerik paketi içerir. Bu ölçümler, grafikler, döşeme ve tablolar görünür. Aşağıdaki tabloda, görsel içerik paketinde genel bir bakış sağlar.
+## <a name="metrics-that-are-included-in-the-content-pack"></a>İçerik paketinde bulunan ölçümler
+Satın alma harcaması analizi içerik paketi bir dizi ölçümden oluşan bir rapor içerir. Bu ölçümler grafikler, kutucuklar ve tablolar şeklinde görüntülenir. Aşağıdaki tabloda içerik paketindeki görselleştirmelere genel bakış sunulmaktadır.
 
 <table>
 <colgroup>
@@ -52,108 +52,108 @@ Satınalma harcamak analiz ölçümler kümesinden oluşan bir rapor içerik pak
 <tr class="header">
 <th>Rapor sayfası</th>
 <th>Grafikler</th>
-<th>Döşeme</th>
+<th>Kutucuklar</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Satıcı tarafından satın</td>
+<td>Satıcıya göre satınalma</td>
 <td><ul>
-<li>En iyi 10 satıcıları tarafından satınalma (yığılmış çubuk grafik)</li>
-<li>Toplam satınalma satıcıya göre grup / ülke / name (pasta grafik)</li>
-<li>Satınalma satıcıya göre grup / ülke / name (sütun grafiği)</li>
-<li>Ortalama satınalma satıcıya göre grup / ülke / name (sütun grafiği)</li>
+<li>Satınalmaya göre en iyi 10 satıcı (yığılmış çubuk grafik)</li>
+<li>Satıcı grubuna / ülkeye / ada göre toplam satınalma (pasta grafik)</li>
+<li>Satıcı grubuna / ülkeye / ada göre satınalma (sütun grafik)</li>
+<li>Satıcı grubuna / ülkeye / ada göre ortalama satınalma (sütun grafik)</li>
 </ul></td>
 <td><ul>
 <li>Satınalma toplamı</li>
-<li>Yıllara göre satınalma büyüme</li>
-<li>Toplam # satıcılar</li>
-<li>Etkin satıcılara toplam sayısı</li>
+<li>Yıllara göre satınalmadaki büyüme</li>
+<li>Toplam satıcı sayısı</li>
+<li>Toplam etkin satıcı sayısı</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Ürüne göre satın alma</td>
 <td><ul>
-<li>Satınalma tedarik kategoriye göre / ürün adı (sütun grafiği)</li>
-<li>Toplam Satınalma tedarik kategoriye göre / ürün adı (pasta grafik)</li>
-<li>Satınalma (yığılmış çubuk grafik) göre ilk 10 ürünler</li>
+<li>Tedarik kategorisine / ürün adına göre satınalma (sütun grafiği)</li>
+<li>Tedarik kategorisine / ürün adına göre toplam satınalma (pasta grafik)</li>
+<li>Satınalmaya göre en iyi 10 ürün (yığılmış çubuk grafik)</li>
 </ul></td>
 <td><ul>
 <li>Toplam ürün sayısı</li>
-<li>Toplam etkin ürünler ürünler toplam sayısı yüzdesi</li>
-<li>Ürünlerin % 80 satınalma için hesap numarası</li>
+<li>Etkin ürünlerin toplam sayısının toplam etkin ürünlere yüzdesi</li>
+<li>Satınalmanın %80'ini oluşturan ürünlerin sayısı</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Dönem * tarafından satın</td>
+<td>Döneme göre satınalma*</td>
 <td><ul>
-<li>Aya göre satınalma / gün (sütun grafiği)</li>
-<li>Toplam Satınalma yıllara göre varyans (waterfall grafik)</li>
-<li>Toplam Satınalma yıllara göre büyüme (sütun grafiği)</li>
-<li>Satın alma deyimi (matrix)</li>
+<li>Aya / güne göre satınalma (sütun grafiği)</li>
+<li>Toplam satınalmanın yıllara görefarkı (şelale grafik)</li>
+<li>Toplam satınalmada yıllara göre büyüme (sütun grafik)</li>
+<li>Tedarik ekstresi (matriks)</li>
 </ul></td>
 <td><ul>
-<li>Yıllara göre satınalma büyüme</li>
-<li>Yıllara göre satınalma büyüme %</li>
+<li>Yıllara göre satınalmadaki büyüme</li>
+<li>Yıllara göre satınalmadaki büyüme yüzdesi</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Satıcı konumuna göre satın alma</td>
+<td>Satıcı konumuna göre satınalma</td>
 <td><ul>
-<li>Şehir tarafından satın</li>
-<li>Satınalma yıllara göre büyüme %</li>
-<li>Ülkeye göre satın alma</li>
+<li>Şehre göre satınalma</li>
+<li>Satınalmada yıldan yıla büyüme yüzdesi</li>
+<li>Ülkeye göre satınalma</li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Satınalma Analiz tarafından zaman harcayın</td>
+<td>Zaman göre satınalma harcaması analizi</td>
 <td><ul>
-<li>Aya göre bu yıl satınalma / gün (çizgi grafiği)</li>
-<li>Satınalma geçerli ve geçen yıl (satır ve sütun grafiği)</li>
+<li>Aya / güne göre geçerli yıldaki satın alma (çizgi grafiği)</li>
+<li>Geçerli yıl ve önceki yıldaki satınalma (satır ve sütun grafiği)</li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Satınalma Analiz satıcı tarafından harcamak</td>
+<td>Satıcıya göre satınalma harcaması analizi</td>
 <td><ul>
-<li>Satınalma (Huni) ilk 10 satıcı satınalma %</li>
-<li>Top 10 satıcılarla artan harcama yıllara göre</li>
-<li>Top 10 satıcı ile azalan harcama yıllara göre</li>
+<li>İlk 10 satıcı satınalmanın satınalmaya göre yüzdesi (huni)</li>
+<li>Yıllara göre artan harcamayla en iyi 10 satıcı</li>
+<li>Yıllara göre azalan harcamayla en iyi 10 satıcı</li>
 </ul></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-\*Bu yıl ve geçen yıl satınalma ve tedarik kategoriye göre büyüme
+\* Bu yılki ve geçen yılki satınalma ve tedarik kategorisine göre büyüme.
 
 ## <a name="data-model-and-entities"></a>Veri modeli ve varlıklar
-İçerik Paketi analiz raporu satınalma için kullanılan veri işlemleri için Dynamics 365 ayırın. Bu veriler hazırlanır toplama ölçümleri temsil varlık deposunda olduğu analytics için en iyi duruma getirilmiş bir Microsoft SQL veritabanı. Varlık deposu hakkında daha fazla bilgi için bkz: [Dynamics varlık deposu ile tümleştirme güç BI](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) blog postası. Bu içerik paketi toplam ölçüleri Microsoft Dynamics AX 2012 ve Microsoft Dynamics 365 işlemleri 2012 R3 için satınalma küpteki kullanılabilir toplama ölçümlerin alt kümesidir. Toplama küp ölçüleri varlık deposundaki hazırlamak için konuşlandırılabilir yapmanız gerekir. Toplam ölçüleri varlık deposunda hazırlama işlemini daha fazla bilgi için bkz: [Dynamics varlık deposu ile tümleştirme güç BI](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) blog postası. Aşağıdaki anahtar toplam ölçüleri doğrudan fatura satırları varlıktan kullanılabilir ve İçerik Paketi için temel olarak kullanılır.
+Dynamics 365 for Operations verileri Satınalma harcaması analizi içerik paketindeki rapor için kullanılır. Bu veri, analytics için en iyi duruma getirilen bir Microsoft SQL veritabanı olan Varlık mağazasında hazırlanmış toplam ölçümler olarak temsil edilir. Varlık deposu hakkında daha fazla bilgi için [Dynamics'te Power BI ile Varlık Deposu tümleştirmesi](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) blog gönderisine bakın. Bu içerik paketindeki toplam ölçümler, Microsoft Dynamics AX 2012 ve Microsoft Dynamics 365 for Operations 2012 R3'teki Satınalma Küpü'nde bulunan toplama ölçümlerin alt kümesidir. Varlık deposundaki küpün toplama ölçülerini hazırlamak için bu ölçümleri dağıtılabilir yapmanız gerekir. Daha fazla bilgi için, şu blog yazısındaki toplama ölçümlerini Varlık Deposuna ekleme yordamına bakın: [Dynamics'te Power BI ile Varlık deposu tümleştirmesi](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Aşağıda verilen önemli toplama ölçümleri doğrudan Fatura satırları varlığından kullanılabilir ve içerik paketinin temeli olarak kullanılır.
 
-| Varlık        | Anahtar toplam ölçüleri | Dynamics 365 işlemleri için veri kaynağı | Alan              | Açıklama                           |
+| Varlık        | Önemli toplam ölçümler | Dynamics 365 for Operations için veri kaynağı | Alan              | Açıklama                           |
 |---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
 | Fatura satırları | Satınalma                   | VendInvoiceTrans                            | SUM(LineAmountMST) | Muhasebe para birimi cinsinden tutar |
 
-Aşağıdaki tablo içerik paketinde fatura satırları varlıktan hesaplanan anahtar ölçüleri gösterir.
+Aşağıdaki tablo içerik paketinde Fatura satırları varlığından hesaplanan anahtar ölçümleri gösterir.
 
 | Ölçü               | Hesaplama                                                                                         |
 |-----------------------|-----------------------------------------------------------------------------------------------------|
-| Satınalma cari yıl | Satınalma bu yıl = TOPLA ('Fatura satırlarını'\[satınalma\])                                            |
-| Geçen yıl satın    | Satınalma hesapla geçen yıl = (toplam ('Fatura satırlarını'\[satınalma\]), SAMEPERIODLASTYEAR (tarihleri\[tarih\])) |
-| Yıllara göre satınalma büyüme   | Yıllara göre büyüme satın = \[bu yıl satın\] – \[geçen yıl satın\]                            |
+| Geçerli yıldaki satınalma | Geçerli yıldaki satınalma = TOPLA('Fatura satırları'\[Satınalma\])                                            |
+| Geçen yılki satınalma    | Geçen yılki satınalma = HESAPLA(TOPLA('Fatura satırları'\[Satınalma\]), SAMEPERIODLASTYEAR (Tarihler\[Tarih\]) |
+| Yıllara göre satınalmadaki büyüme   | Yıllara göre satınalmadaki büyüme = \[Geçerli yıldaki satınalma\] – \[Geçen yıldaki satınalma\]                            |
 
-Daha fazla tanecik ve analitik daha derin incelemeler elde edebilirsiniz böylece içerik paketinde aşağıdaki anahtar boyutları toplam ölçüleri, dilim için filtre olarak kullanılır.
+İçerik paketinde bulunan aşağıdaki temel boyutları, daha büyük hassasiyet ve daha derin analiz bilgileri elde edebilmeniz amacıyla toplama ölçümlerini bölmek üzere filtre olarak kullanılır.
 
 | Varlık                 | Öznitelik örnekleri                                |
 |------------------------|-------------------------------------------------------|
-| Satıcılar                | Satıcı grupları, satıcı ülke veya bölgelerde, satıcı adı |
-| Ürünler               | Ürün numarası, ürün adı, madde grupları adı        |
-| Tedarik kategorileri | Tedarik kategori, kategori adlarını tedarik      |
+| Satıcılar                | Satıcı grupları, Satıcı ülkesi veya bölgeleri, Satıcı adı |
+| Ürünler               | Ürün numarası, Ürün adı, Madde grupları adı        |
+| Tedarik kategorileri | Tedarik kategorisi, Tedarik kategorisi adları      |
 | Tüzel kişilikler         | Tüzel kişiliğin adı                                     |
-| Tarihler                  | Tarih, yıl farkı                                    |
+| Tarihler                  | Tarihler, Yıl denkleştirme                                    |
 
-Varsayılan olarak, İçerik Paketi için geçerli takvim yılı verileri gösterir. Ancak Tarih Filtresi alanında filtreler bölümünde raporu değiştirebilirsiniz. Şirket Filtresi de değiştirebilirsiniz.
+Varsayılan olarak, içerik paketi geçerli takvim yılına ilişkin verileri gösterir. Ancak, rapor filtreleri bölümünden tarih filtresini değiştirebilirsiniz. Şirket filtresini de değiştirebilirsiniz.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 Power BI içeriği oluşturmak ve varlıklarla ilgili bazı yararlı bağlantılar şunlardır:

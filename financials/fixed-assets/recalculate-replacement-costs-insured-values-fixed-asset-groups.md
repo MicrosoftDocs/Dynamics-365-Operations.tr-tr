@@ -1,5 +1,5 @@
 ---
-title: "Sabit kıymet grupları için yenileme maliyetlerini ve Sigortalı değerleri yeniden hesapla"
+title: "Sabit kıymet grupları için yenileme maliyetlerini ve sigortalı değerleri yeniden hesaplama"
 description: "Bu makalede, sabit kıymetlerin yenileme maliyetlerini ve sigortalanan değerlerini güncelleştirme işlemi açıklanmaktadır."
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Sabit kıymet grupları için yenileme maliyetlerini ve Sigortalı değerleri yeniden hesapla
+# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Sabit kıymet grupları için yenileme maliyetlerini ve sigortalı değerleri yeniden hesaplama
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, sabit kıymetlerin yenileme maliyetlerini ve sigortalanan değerlerini güncelleştirme işlemi açıklanmaktadır.
 
@@ -38,18 +41,18 @@ Sabit kıymet grupları için yenileme maliyetlerini ve sigortalanan değerlerin
 
 Kıymetler için yenileme maliyetini ve sigortalanan değeri yeniden hesaplamak için yenileme maliyetlerini ve sigortalanan değerleri güncelleme formunu kullanırken şu formüllerden yararlanabilirsiniz:
 
--   \[(Yenileme maliyeti faktörü kıymet grup / 100) + 1\]\* kıymet varolan yenileme maliyeti
--   \[(Sigortalanan Değer faktörü kıymet grubu / 100) + 1\]\* kıymetin varolan Sigortalanan Değer
+-   \[(Kıymet grubunun yenileme maliyeti faktörü / 100) + 1\]\* Kıymetin varolan yenileme maliyeti
+-   \[(Kıymet grubunun sigortalanan değer faktörü / 100) + 1\]\* Kıymetin varolan sigortalanan değeri
 
 > [!NOTE] 
 > Yenileme maliyetlerini ve sigortalanan değerleri güncelleme formunu kullandığınızda, seçili kıymetlerin hem yenileme maliyeti hem de sigortalanan değeri güncelleştirilir; yalnızca bir değerin güncelleştirilmesini belirtemezsiniz. Bir değeri aynı bırakmak ve diğer değeri güncelleştirmek için, Sabit kıymet grubu formunda faktör olarak 0 (sıfır) değerini girin. Sıfır veya boş faktör, güncelleştirmede hesaplamanın atlanmasına neden olur. Sabit kıymetlerin defter değeri ve net defter değeri periyodik güncelleştirmeden etkilenmez. 
 
 ## <a name="how-to-use-a-date-to-select-which-items-to-update"></a> Hangi maddelerin güncelleştirileceğini seçmek için tarih kullanma
-Varsayılan olarak, güncelleştirme işlemi geçerli günde güncelleştirilmemiş ancak önceki günlerde güncelleştirilmiş olabilen seçili kıymetleri güncelleştirir. Örneğin, &lt;geçerli tarih anlamına gelir "bugünün tarihinden önce." Güncelleştirme değiştirme maliyetlerini ve Sigortalı değerler formunda Tarih Seç düğmesini tıklatarak değiştirebilirsiniz. Belirlediğiniz tarih kriteri, kıymet için son düzenli güncelleştirme tarihiyle karşılaştırılır (Sabit kıymetler formundaki Son düzenli değer/maliyet güncelleştirme alanı). Bir sabit kıymet için yenileme maliyetini veya sigortalanan değeri her güncelleştirdiğinizde Son düzenli değer/maliyet güncelleştirme alanı, güncel tarihle otomatik olarak güncelleştirilir. 
+Varsayılan olarak, güncelleştirme işlemi geçerli günde güncelleştirilmemiş ancak önceki günlerde güncelleştirilmiş olabilen seçili kıymetleri güncelleştirir. Örneğin, &lt; geçerli tarih "bugünün tarihinden önce" anlamına gelir. Tarihi Yenileme maliyetlerini ve sigortalı değerleri güncelleştir formunda Seç düğmesine tıklayarak değiştirebilirsiniz. Belirlediğiniz tarih kriteri, kıymet için son düzenli güncelleştirme tarihiyle karşılaştırılır (Sabit kıymetler formundaki Son düzenli değer/maliyet güncelleştirme alanı). Bir sabit kıymet için yenileme maliyetini veya sigortalanan değeri her güncelleştirdiğinizde Son düzenli değer/maliyet güncelleştirme alanı, güncel tarihle otomatik olarak güncelleştirilir. 
 
 Örnek 
 
-Taşıtlar, ofis mobilyası ve bina grupları yenileme maliyetini yüzde 5 dün güncelleştirildi ve artık doğru şekilde güncelleştirilmesini bu varlıkları düşünün. Son tarih girdiğiniz tüm diğer sabit kıymetler bugün güncelleştirdiğinizde bu varlıkları dışlamak için Dönemsel değer/maliyet güncelleştirme alanı olan dün önce (&lt; dünün tarihiyle), son güncelleştirme taşıtlar, ofis mobilyası ve bina grupları için girdiğiniz tarih ölçütü dışında oluştu.
+Dün Araçlar, Ofis Mobilyaları ve Binaların gruplarının yenileme maliyetini yüzde 5 güncelleştirdiniz ve şimdi bu kıymetlerin doğru bir şekilde güncelleştirilmesini düşünüyorsunuz. Diğer tüm sabit kıymetleri bugün güncelleştirdiğinizde bu kıymetleri dışarıda bırakmak için, Son dönemsel değer/maliyet güncelleştirme alanına dünden önce olan bir tarih girersiniz (&lt;dünün tarihi); çünkü Araçlar, Ofis Mobilyaları ve Binalar grupları için son güncelleştirme girdiğiniz tarih kriterleri dışında gerçekleşmiştir.
 
 ## <a name="cumulative-effect-of-each-update"></a> Her güncelleştirmenin toplam etkisi
 Her güncelleştirme bir toplam etkiye sahiptir. Bu nedenle, güncelleştirmelerinizi dikkatle planlamalısınız. Örneğin, Salı günü tüm kıymetleri yüzde 3 oranında yükseltir ve ardından Cuma günü ofis mobilyalarını yüzde 4 oranında arttırırsanız, ofis mobilyalarını toplamda yüzde 7,12 oranında artar.
@@ -72,6 +75,8 @@ Ertesi gün yöneticiniz bilgisayarlarınızın yüzde 10 yerine yüzde 8 oranı
 
 > [!NOTE]  
 > Tutarlar amaçladığınız gibi hesaplanmayacağından, –10 faktörünü tersine çevirmek için pozitif 10 faktörü giremezsiniz (veya –10 ile –8 arasındaki fark için 2 faktörü). 
+
+
 
 
 

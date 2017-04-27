@@ -28,18 +28,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-fixed-compensation-plans"></a>Sabit ücret planları oluşturma
 
-Sabit ücret, çalışanın düzenli brüt maaşını veya ücretlerini ifade eder. Bu konu Sabit maaş planı oluşturmak ve çalışanların kayıt önce ayarlanmış olması gerekir bileşenleri açıklar.
+[!include[banner](includes/banner.md)]
 
-Sabit ücret tutarları performans, bölge ve bütçe artışları gibi faktörlere dayalı olarak çalışanlarınız için hesaplanabilir. Microsoft Dynamics 365 işlemleri için adım, sınıf ve bant maaş türlerini destekler.
+
+Sabit ücret, çalışanın düzenli brüt maaşını veya ücretlerini ifade eder. Bu konuda, sabit maaş planı oluşturabilmeniz veya çalışanları kaydedebilmeniz için ayarlamanız gereken bileşenler açıklanmaktadır.
+
+Sabit ücret tutarları performans, bölge ve bütçe artışları gibi faktörlere dayalı olarak çalışanlarınız için hesaplanabilir. Microsoft Dynamics 365 for Operations adım, sınıf ve bant ücret türlerini destekler.
 
 ## <a name="fixed-compensation-components"></a>Sabit ücret bileşenleri
 ### <a name="compensation-levels"></a>Ücret düzeyleri
 
-Kullanabileceğiniz **maaş düzeyleri** bu görevlerde çalışanları oldukça ödenen sağlanmasına yardımcı olmak için çeşitli işleri için maaş ayarlamak için. Üzerinde **maaş düzeyleri** sayfa, her adım, sınıf ve bant planı için gerekli olan maaş düzeyleri ayarlayabilirsiniz. Türüne göre düzeyleri doğru sıraya koymak için **Yukarı** ve **Aşağı** düğmelerini kullanın. Bir işteki ücret seviyelerini ayarlayarak, bu iş için bir pozisyonda çalışan tüm çalışanların aynı düzeyde ödeme aldığını garanti edersiniz.
+Çeşitli işler için ücret ayarlamak için **ücret düzeyleri**'ni kullanabilir ve bu işleri gerçekleştiren personellerin adil bir şekilde ücretler aldıklarını garanti edebilirsiniz. **Ücret düzeyleri** sayfasında, her adım, sınıf ve bant planı için gerekli olan ücret düzeylerini ayarlayabilirsiniz. Türüne göre düzeyleri doğru sıraya koymak için **Yukarı** ve **Aşağı** düğmelerini kullanın. Bir işteki ücret seviyelerini ayarlayarak, bu iş için bir pozisyonda çalışan tüm çalışanların aynı düzeyde ödeme aldığını garanti edersiniz.
 
 ### <a name="reference-points"></a>Referans noktaları
 
-**Referans noktaları** ızgarada her bir düzey için ücret aralıklarını tanımlayan sütunlardır. Ücret düzeyi ızgaradaki satırdır. Normal başvuru sınıf türü bir planı için en az bir orta nokta ve en noktalarıdır. Referans noktaları oluşturmak **referans noktası kurulumlarının** sayfa.
+**Referans noktaları** ızgarada her bir düzey için ücret aralıklarını tanımlayan sütunlardır. Ücret düzeyi ızgaradaki satırdır. Sınıf türü için tipik referans noktaları bir minimum, orta nokta ve maksimumdur. Referans noktalarını **Referans noktası kurulumları** sayfasında oluşturabilirsiniz.
 
 ### <a name="compensation-grids"></a>Maaş kılavuzları
 
@@ -56,11 +59,11 @@ Yapılandırıldığınız tüm bileşenleri birleştirmek için sabit ücret pl
 
 **Aralık dışı tolerans** ayarı, ücret tutarlarının minimum ve maksimum tutarlar arasında olduğundan emin olmak için ne ölçüde katı olduğunu belirlemenize izin verir. Bir **Sabit** tolerans, ücretin belirli bir düzey için tanımlanan aralık içinde olmasını gerektirir. Bir **Yumuşak** toleransı, ücret tutarının aralık dışında olduğunda sizi uyarır, ancak devam etmenize izin verir. Toleransı **Yok** olarak ayarlarsanız uyarı veya hata mesajları almadan bir çalışan için herhangi bir ücret tutarı girebilirsiniz. 
 
-**İşe alma kuralı** ayarı tüm çalışanları işe alınan tarihi ne olursa olsun aynı artış alması gereken belirtmenize olanak verir (**işe alma kuralı** = **yok**), veya olup çalışanların yüzde ne kadar bunlar döngüsü sırasında görevli temel alarak ödül alması gereken (**işe alma kuralı** = **yüzde**). 
+**İşe alma kuralı** ayarı, tüm çalışanların işe alınma tarihinden bağımsız olarak aynı artışı alıp almayacağını (**İşe alma kuralı** = **Yok**) veya çalışanların döngü sırasında ne kadar süreyle çalıştıklarına bağlı olarak ikramiyeden bir yüzde alıp almayacağını (**İşe alma kuralı** = **Yüzde**) belirlemenize izin verir. 
 
 Bir **aralık yararlanma matrisi**, çalışanların aralığın orta noktasına ulaşmaları için gereken süreyi azaltmak veya çalışanların aralıktaki maksimum referans noktasına ulaşmaları için gereken süreyi artırmak istediğinizde kullanışlı olacaktır. Örneğin, bulundukları aralıkta alttaki yüzde 25'lik dilim içinde bulunan çalışanlara hedef ikramiyesinden yüzde 110 ve bulundukları aralıkta üstteki yüzde 25'lik dilim içinde bulunan çalışanlara maksimum düzeye kısa sürede ulaşmalarını önlemek için hedef ikramiyesinden yüzde 80 vermek istiyorsunuz. 
 
-Sabit ücret planının temelleri tanımladıktan sonra plan için ücret yapısını oluşturabilirsiniz. ' I **maaş Ayarla**. Üç seçenek verir iletişim kaydırıcı açılır:
+Sabit ücret planının temelleri tanımladıktan sonra plan için ücret yapısını oluşturabilirsiniz. **Ücret ayarla**'ya tıklayın. Bir iletişim kaydırıcı açılarak size üç seçenek sağlar:
 
 -   Bir referans nokta kurulumu seçerek ve ızgaraya bir ad vererek yeni bir ücret ızgarası oluşturabilirsiniz.
 -   Bir başlangıç noktası olarak kullanabileceğiniz, mevcut bir ızgaranın kopyasını oluşturarak yeni bir ücret ızgarası oluşturabilirsiniz.
@@ -71,7 +74,7 @@ Bir seçenek belirlediğinizde **Ücret yapısı** sayfası açılır ve yeni ü
 ## <a name="fixed-compensation-enrollment"></a>Sabit ücret kaydı
 ### <a name="determine-who-is-eligible-for-the-plan"></a>Plan için kimlerin uygun olduğunu belirleme
 
-Çalışanların bir sabit ücret planına kaydedilmesinin ilk adımı, planda tanımlanan ücret için kimlerin uygun olduğunu belirlemektir. Uygunluğunu belirleyene kadar planı hiçbir çalışana atayamazsınız. Uygunluk ayarlamak için açık **uygunluk kuralları** sayfa. Burada, yeni bir uygunluk oluşturduğunuz kural maaş planınız için ve bir çalışan için bir plan uygun olması için uyması gereken ölçütleri tanımlayın. Uygunluğu departmana, işçi sendikasına, ücret bölgesine (konuma), işe, iş görevine, iş türüne veya ücret seviyesine göre sınırlayabilirsiniz. Çalışanlar bir ücret planına ancak uygunluk kuralında belirlenen tüm koşulları karşılamaları şartıyla kaydedilebilir. 
+Çalışanların bir sabit ücret planına kaydedilmesinin ilk adımı, planda tanımlanan ücret için kimlerin uygun olduğunu belirlemektir. Uygunluğunu belirleyene kadar planı hiçbir çalışana atayamazsınız. Uygunluk ayarlamak için **Uygunluk kuralları** sayfasını açın. Burada, ücret planınız için yeni bir uygunluk kuralı oluşturabilir ve bir personelin bir planın uygunluğunu karşılamak için sahip olması gereken ölçütleri tanımlayabilirsiniz. Uygunluğu departmana, işçi sendikasına, ücret bölgesine (konuma), işe, iş görevine, iş türüne veya ücret seviyesine göre sınırlayabilirsiniz. Çalışanlar bir ücret planına ancak uygunluk kuralında belirlenen tüm koşulları karşılamaları şartıyla kaydedilebilir. 
 
 **Not:** Uygunluk kuralları hem sabit hem de değişken ücret planları için uygunluğun belirlenmesinde kullanılır. 
 
@@ -83,7 +86,7 @@ Uygunluk kuralı bir çalışanın bir ücret planı için uygun olup olmadığ�
     -   **Ücret** sekmesinde **Düzey** alanı
 -   **Pozisyonlar** sayfasında uygunluk kuralı, **Departman** ve **Ücret bölgesi** alanlarını dikkate alır.
 
-Uygunluk kuralı çalışanı ile ilişkili olan işçi Sendikaları da dikkate alır (üzerinde **çalışanları** sayfa üzerinde **alt** sekmesini tıklatın, **kişisel bilgiler**&gt;**işçi Sendikaları**).
+Uygunluk kuralı ayrıca çalışanla bağlantılı işçi sendikalarını da dikkate alır (**Personeller** sayfasında **Çalışan** sekmesinden **Kişisel bilgiler** &gt; **İşçi sendikaları** öğelerini tıklayın).
 
 ### <a name="define-fixed-compensation-actions"></a>Sabit ücret eylemlerini tanımlama
 
@@ -93,7 +96,7 @@ Uygunluk kuralı çalışanı ile ilişkili olan işçi Sendikaları da dikkate 
 
 ### <a name="enroll-the-employee"></a>Çalışanı kaydetme
 
-Şimdi bir sabit ücret planına bir çalışan atayabilirsiniz. **Çalışanları** sayfasını açın ve ücret planına kaydedilecek çalışanı seçin. Eylem bölmesinde tıklatın **maaş**&gt;**sabit planı**. Şimdi bu çalışan için yeni bir sabit maaş eylem oluşturabilirsiniz. 
+Şimdi bir sabit ücret planına bir çalışan atayabilirsiniz. **Çalışanları** sayfasını açın ve ücret planına kaydedilecek çalışanı seçin. Eylem Bölmesinde, **Ücret** &gt; **Sabit plan** üzerine tıklayın. Şimdi bu personel için yeni bir sabit ücret eylemi oluşturabilirsiniz. 
 
 **Not:** Ücret planı alanı, her bir plan için oluşturulan uygunluk kuralları altında sadece çalışanın uygun olduğu planları gösterir. Bir plan için hiçbir uygunluk kuralı oluşturulmamışsa o plan için hiçbir çalışan uygun olmayacaktır. 
 
@@ -103,5 +106,7 @@ Sistem, derece veya bant türündeki bir ücret planı için belirtilen ücret t
 --------
 
 [Ücret planları](compensation-plans.md)
+
+
 
 

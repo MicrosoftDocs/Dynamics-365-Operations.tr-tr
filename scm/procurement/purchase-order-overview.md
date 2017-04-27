@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-order-overview"></a>Satınalma siparişine genel bakış
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makale, satınalma siparişleri (PO) ve bir PO'nun geçtiği çeşitli aşamalarla ilgili ek makalelere bağlantılar hakkında genel bilgi verir.
 
 Satınalma siparişi (PO) mallar veya hizmetler satın almak için bir satıcıyla yapılan anlaşmayı temsil eden bir belgedir. Ayrıca belge, ürün girişlerinin siparişe uygun yapıldığının ve sonrasında siparişe uygun olarak satıcı faturalarının muhasebesinin yapıldığının takip edilmesine yardımcı olur.  
 
-**Satınalma siparişleri** sayfası, mevcut siparişlerin bir özetini içerir ve bu siparişleri değiştirmenize olanak tanır. Bir PO açtığınızda, satıcı detayları gibi her PO için yalnızca bir kez tanımlanan bilgileri içeren **Başlık** görünümünü seçebilirsiniz. Alternatif olarak, sipariş satırlarında değişiklik yapabileceğiniz **Satırlar** görünümünü seçebilirsiniz. Genellikle, POs değiştirirken bu iki görünüm arasında geçiş. Giderler doğrudan listede olmayan **satınalma siparişleri** sayfa, ancak sipariş başlığı ve satırları menüleri yoluyla erişilir.  
+**Satınalma siparişleri** sayfası, mevcut siparişlerin bir özetini içerir ve bu siparişleri değiştirmenize olanak tanır. Bir PO açtığınızda, satıcı detayları gibi her PO için yalnızca bir kez tanımlanan bilgileri içeren **Başlık** görünümünü seçebilirsiniz. Alternatif olarak, sipariş satırlarında değişiklik yapabileceğiniz **Satırlar** görünümünü seçebilirsiniz. Genellikle, satınalma siparişlerini değiştirirken bu iki görünüm arasında geçiş yaparsınız. Giderler doğrudan **Satınalma siparişleri** sayfasında listelenmez, ancak sipariş başlığı ve satırları menüleri aracılığıyla erişilir.  
 
 PO'lar, ürün girişleri ve satıcı faturaları hakkındaki bilgileri görüntüleyebileceğiniz birçok rapor bulunur. Bu raporlar, **Tedarik ve kaynak atama** ve **Borç hesapları** modüllerinde bulunur.  
 
-**Satınalma siparişi hazırlama** ve **Satınalma siparişi girişi ve izleme** çalışma alanları ilerlemiş oldukları çeşitli aşamalarda bulunan PO'ların listesini görüntülemenize olanak tanır. Ayrıca alınması gereken eylemlerin bir özetini de sağlar. **Satınalma siparişi hazırlama** çalışma alanı, PO oluşturma ve gözden geçirme, siparişten onaya kadar işleme ve satıcı onayı işlemlerine odaklanır. **Satınalma sipariş girişi ve takip** çalışma alanı odaklanmış mal veya hizmet POs karşı alındığını işleme. Bu anlayış, vadesi geçmiş ya da, yakında sona ermesi tedarikçi tarafından teslim edilmesi için gereken giriş vermek listeleri içerir. Bu çalışma alanları, ambarda gerçekleştirilen ilgili giriş eylemleri için kullanılmaz. Bu eylemler, **Stok yönetimi** ve **Ambar yönetimi** modüllerindeki sayfalar kullanılarak gerçekleştirilir. Satıcı faturalarının işlenmesi **Satıcı faturası girişi** çalışma alanı kullanılarak yapılmalıdır ve ödemeler de **Satıcı ödemeleri** çalışma alanı kullanılarak yapılmalıdır.  
+**Satınalma siparişi hazırlama** ve **Satınalma siparişi girişi ve izleme** çalışma alanları ilerlemiş oldukları çeşitli aşamalarda bulunan PO'ların listesini görüntülemenize olanak tanır. Ayrıca alınması gereken eylemlerin bir özetini de sağlar. **Satınalma siparişi hazırlama** çalışma alanı, PO oluşturma ve gözden geçirme, siparişten onaya kadar işleme ve satıcı onayı işlemlerine odaklanır. **Satınalma sipariş girişi ve takip** çalışma alanı PO karşılığında mal veya hizmet girişini işlemeye odaklanır. Vadesi geçmiş ya da tedarikçi tarafından teslim edilmesi gereken süre yakında sona erecek olan girişler hakkında bilgi veren listeleri içerir. Bu çalışma alanları, ambarda gerçekleştirilen ilgili giriş eylemleri için kullanılmaz. Bu eylemler, **Stok yönetimi** ve **Ambar yönetimi** modüllerindeki sayfalar kullanılarak gerçekleştirilir. Satıcı faturalarının işlenmesi **Satıcı faturası girişi** çalışma alanı kullanılarak yapılmalıdır ve ödemeler de **Satıcı ödemeleri** çalışma alanı kullanılarak yapılmalıdır.  
 
 Aşağıdaki makaleler, bir PO'nun geçtiği çeşitli aşamalara genel bir bakış sağlar:
 
@@ -45,7 +48,7 @@ Aşağıdaki makaleler, bir PO'nun geçtiği çeşitli aşamalara genel bir bak�
 -   [Satıcı faturalarına genel bakış](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
 
 ## <a name="types-of-purchase-orders"></a>Satınalma siparişlerinin türleri
-POs üç tür vardır. Bir satınalma siparişi oluşturduğunuzda türünü belirtmeniz gerekir. Yeni siparişler için varsayılan sipariş türünü **Tedarik ve kaynak atama parametreleri** sayfasından ayarlayabilirsiniz.
+Üç tip satınalma siparişi vardır: Bir satınalma siparişi oluşturduğunuzda türünü belirtmeniz gerekir. Yeni siparişler için varsayılan sipariş türünü **Tedarik ve kaynak atama parametreleri** sayfasından ayarlayabilirsiniz.
 
 | PO türü        | Açıklama                                                                                                                                                                                                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -80,12 +83,14 @@ PO'lar, siparişin ilerlemesini gösteren çeşitli durum alanları içerir. Tü
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Purchase order creation](purchase-order-creation.md)
+[Satınalma siparişi oluşturma](purchase-order-creation.md)
 
 [Satınalma siparişi onayı ve doğrulaması](purchase-order-approval-confirmation.md)
 
 [Ürün girişine karşılık satınalma siparişleri](product-receipt-against-purchase-orders.md)
 
 [Satıcı faturalarına genel bakış](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

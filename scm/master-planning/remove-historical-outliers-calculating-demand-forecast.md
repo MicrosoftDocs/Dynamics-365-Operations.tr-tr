@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Bir talep tahmin hesaplarken, geçmiş işlem verilerinden aykırı değerleri kaldırın.
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makale bir talep tahmini hesaplamak için kullanılan geçmiş verilerden aykırı değerlerin nasıl dışarıda bırakılabileceğini açıklamaktadır. Aykırı değerleri dışarıda bırakarak tahmin doğruluğunu artırabilirsiniz.
 
-Tahmin doğruluğunu iyileştirmek için outliers dışlayabilirsiniz. Bu isteğe bağlı bir görevdir. İşleme genel bakış:
+Tahmin doğruluğunu artırmak için aykırı değerleri dışarıda bırakabilirsiniz. Bu isteğe bağlı bir görevdir. İşleme genel bakış:
 
-1.  ' I **Master planlama**&gt;**Kurulum**&gt;**talep tahmin**&gt;**Outlier Temizleme** açmak için **Outlier Temizleme** sayfası, burada bir sorgu dışlamak için hareketleri seçmek için kullanabilirsiniz.
+1.  Dışarıda bırakılacak hareketleri seçmek için bir sorgu kullanabileceğiniz **Aykırı değerleri temizleme** sayfasını açmak için **Master planlama** &gt; **Kurulum** &gt; **Talep tahmini** &gt; **Aykırı değerleri temizle** seçeneğine tıklayın.
 2.  Sorgunun uygulandığı şirketi seçin ve sonra isim ve açıklama girin. **Sorgu tarihi** alanı otomatik olarak mevcut tarih olarak ayarlanır.
 3.  Sorgunun bulacağı hareketlerden geçmişe dönük verileri çıkarmak için **Etkin** onay kutusunu seçin. Bu ayar, bir temel tahmin oluşturduğunuzda etkin olacaktır.
 4.  **Aykırı değer temizleme sorgu** sayfası üzerinde ekleme, kaldırma ve temel tahmini hesaplanırken hangi hareketlerin hariç tutulacağını tanımlayan ölçütü seçin. Örneğin, dışlamak için belirli bir madde veya sipariş hareketini seçin.
@@ -43,8 +46,10 @@ Tahmin doğruluğunu iyileştirmek için outliers dışlayabilirsiniz. Bu isteğ
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Introduction to demand forecasting](introduction-demand-forecasting.md)
+[Talep tahminine giriş](introduction-demand-forecasting.md)
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Tahmin doğruluğunu izleme](monitor-forecast-accuracy.md)
+
+
 
 

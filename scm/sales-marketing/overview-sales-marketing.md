@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-and-marketing"></a>Satış ve pazarlama
 
+[!include[banner](../includes/banner.md)]
+
+
 Satış akışında çeşitli veri türlerini elde etmek, depolamak ve kullanmak için Satış ve pazarlamayı kullanabilirsiniz. Bu veriler, özgün satış girişimini, gelecekteki takip eylemini ve ek satışları içerir.
 
 <a name="marketing"></a>Pazarlama
@@ -39,10 +42,10 @@ Satış ve pazarlamada potansiyel müşterilerle yaptığınız ilk etkileşimle
 
 ### <a name="campaigns"></a>Kampanyalar
 
-Kampanya, aday müşterilerin ilgili kişilerini, müşteri adaylarını, iş fırsatlarını ve kampanyaya katılmak için seçilmiş müşterileri hedefler. İşlemler için Microsoft Dynamics 365 kampanyalar, telefonla pazarlama, posta ve e-posta kampanyaları, potansiyel müşteri en üst düzeye çıkarmak gibi çeşitli türleri oluşturabilirsiniz. Kampanyanız ilerledikçe ve olumlu yanıtlar aldıkça kampanyaya olumlu yanıt veren alıcılarla satış sürecine başlayabilirsiniz.
+Kampanya, aday müşterilerin ilgili kişilerini, müşteri adaylarını, iş fırsatlarını ve kampanyaya katılmak için seçilmiş müşterileri hedefler. Microsoft Dynamics 365 for Operations'da, müşteri potansiyelini en üst düzeye çıkarmak için telefonla pazarlama, postalama ve e-posta kampanyaları gibi çeşitli kampanya türleri oluşturabilirsiniz. Kampanyanız ilerledikçe ve olumlu yanıtlar aldıkça kampanyaya olumlu yanıt veren alıcılarla satış sürecine başlayabilirsiniz.
 
 ## <a name="sales"></a>Satış
-Teklifler oluşturmak, yeni ve mevcut müşterilere dikey ve çapraz satış yapmak, satış siparişleri oluşturmak ve müşteriler için satış faturaları oluşturmak için satış işlevlerini kullanın. Aşağıdaki süreç akışı, satış için iş sürecini gösterir. [![İş süreci için satış](./media/sales01.jpg)](./media/sales01.jpg)
+Teklifler oluşturmak, yeni ve mevcut müşterilere dikey ve çapraz satış yapmak, satış siparişleri oluşturmak ve müşteriler için satış faturaları oluşturmak için satış işlevlerini kullanın. Aşağıdaki süreç akışı, satış için iş sürecini gösterir. [![Satış için iş süreci](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Satış teklifleri
 
@@ -50,7 +53,7 @@ Müşterilere sağladığınız malların veya hizmetlerin teklifini sunmak içi
 
 ### <a name="up-sellcross-sell"></a>Dikey satış/çapraz satış
 
-Dikey satış ve çapraz satış, müşteri için bir sipariş girildiğindeki ürün satış teknikleridir. Dikey satışta mevcut ürün yerine bir başka ürün önerilir. Çapraz satışta mevcut ürüne ek olarak bir ürün önerilir. Ürün Listesi, ne zaman bir ürün satışını ya da çapraz satış ürün olarak önerilen belirtmek için belirli kurallar oluşturabilirsiniz.
+Dikey satış ve çapraz satış, müşteri için bir sipariş girildiğindeki ürün satış teknikleridir. Dikey satışta mevcut ürün yerine bir başka ürün önerilir. Çapraz satışta mevcut ürüne ek olarak bir ürün önerilir. Ürün listelerini ayarladığınızda, bir ürünün ne zaman çapraz satış veya dikey satış olarak önerilmesi gerektiğini belirtmek için belirli kurallar oluşturabilirsiniz.
 
 ### <a name="sales-orders"></a>Satış siparişleri
 
@@ -117,5 +120,7 @@ Serbest metin faturası satış siparişiyle ilişkili bir fatura değildir. Gen
 #### <a name="pro-forma-invoice"></a>Proforma fatura
 
 Proforma fatura, fatura deftere nakledilmeden önce gerçek fatura tutarının bir tahmini olarak hazırlanan faturadır. Müşteri faturası veya serbest metin faturası için bir proforma fatura yazdırabilirsiniz.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Konsolidasyon hesap grupları ve ek konsolidasyon hesabı"
-description: "Bu konuda konsolidasyon hesap grupları ve ek konsolidasyon hesabı hakkında bilgi sağlar ve Microsoft Dynamics 365 operasyonlar için nasıl kullanıldıkları açıklanmıştır."
+title: "Konsolidasyon hesabı grupları ve ek konsolidasyon hesapları"
+description: "Bu konu, konsolidasyon hesabı grupları ve ek konsolidasyon hesapları oluşturma ve bunların Microsoft Dynamics 365 for Operations içerisinde nasıl kullanıldıkları hakkında bilgi sağlar."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,27 +24,32 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Konsolidasyon hesap grupları ve ek konsolidasyon hesabı
+# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Konsolidasyon hesabı grupları ve ek konsolidasyon hesapları
 
-Bu konuda konsolidasyon hesap grupları ve ek konsolidasyon hesabı hakkında bilgi sağlar ve Microsoft Dynamics 365 operasyonlar için nasıl kullanıldıkları açıklanmıştır.
+[!include[banner](../includes/banner.md)]
+
+
+Bu konu, konsolidasyon hesabı grupları ve ek konsolidasyon hesapları oluşturma ve bunların Microsoft Dynamics 365 for Operations içerisinde nasıl kullanıldıkları hakkında bilgi sağlar.
 
 <a name="consolidation-account-groups"></a>Konsolidasyon hesap grupları
 ----------------------------
 
-Konsolidasyon hesabı grupları verileri birleştirmek için kullanmasını istediğiniz hesap grupları oluşturmanıza olanak sağlar. Çoğunlukla, konsolidasyon hesabı grubu temsil eden bir devlet-zorunlu olarak Hesap planı veya şirketin Yönetim Merkezleri tarafından tanımlanan bir grup hesapları eşleştirir. Konsolidasyon hesabı gruplarında bulabilirsiniz **Kurulum** alan **konsolidasyon** modülü. Yeni bir grup eklediğinizde, hesap grubu ve bir ad için benzersiz bir tanımlayıcı girin.
+Konsolidasyon hesabı grupları, verileri konsolide etmek için kullanmak isteyebileceğiniz hesap gruplarını oluşturmanıza olanak sağlar. Çoğunlukla, bir konsolidasyon hesabı grubu, devletin zorunlu kıldığı hesap planlarını veya eşleşme hesaplarını, şirketin yönetim merkezi tarafından tanımlanmış bir gruba temsilini sağlar. Konsolidasyon hesap gruplarını **Konsolidasyonlar** modülünün **Kurulum** alanında bulabilirsiniz. Yeni bir grup eklediğinizde, hesap grubu için bir kimlik tanımlayıcısı ve bir ad girersiniz.
 
 ## <a name="additional-consolidation-accounts"></a>İlave konsolidasyon hesapları
-Ek konsolidasyon hesaplarını konsolidasyon hesabı grubu için varolan bir hesap planından bir hesap atamanıza olanak sağlar. Sonra konsolidasyon hesabı değeri ve adı belirtebilirsiniz. 
+Ek konsolidasyon hesapları, mevcut bir hesap planlarından bir hesabı, bir konsolidasyon hesabı grubuna atamanıza olanak sağlar. Daha sonra bir konsolidasyon hesabı değeri ve adı belirtebilirsiniz. 
 
-İçinde ek konsolidasyon hesabı bulabilirsiniz **Kurulum** alan **konsolidasyon** modülü. Yeni bir konsolidasyon hesabı oluşturduğunuzda, aşağıdaki bilgileri belirtmeniz gerekir:
+Ek konsolidasyon hesaplarını **Konsolidasyonlar** modülünün **Kurulum** alanında bulabilirsiniz. Yeni bir konsolidasyon hesabı oluşturduğunuzda, aşağıdaki bilgileri belirtmeniz gerekir:
 
--   **Ana hesap** – bu hesap planında seçtiğiniz sayfada dayalı ana hesapları gösteren bir arama alanıdır. Bir hesabı seçtiğinizde, adı otomatik olarak girildiğini **ana hesap adını** alan.
--   **Konsolidasyon hesabı grubu** – hesabına atamak için grubu belirtmek için bu alanı kullanın. İki farklı şekilde birleştirirseniz, tüm dört konsolidasyon hesap grupları için aynı hesabı eklemeniz gerekir.
--   **Konsolidasyon hesabı** – konsolidasyon hesabı değerini girin. Bu değer, hesap planındaki bir hesaptan olmak zorunda değildir. Bunu gerektiren herhangi bir değer olabilir.
--   **Konsolidasyon hesabı adı** – Sorgulamalar ve raporlar üzerinde görünmesini istediğiniz hesabın adını girin.
--   **DOY düzey** – hesap ekstrelerini Meksika vergi yetkililerine rapor etmek için bu alan kullanılır. 
+-   **Ana hesap** – Bu alan, bu sayfada seçmiş olduğunuz hesap planlarına dayanan tüm ana hesapları gösteren bir arama alanıdır. Bir hesabı seçtiğinizde, adı otomatik olarak **Ana hesap adı** alanına girilir.
+-   **Konsolidasyon hesabı grubu** – Bu alanı, hesabı atayacağınız grubu belirtmek için kullanın. İki farklı şekilde konsolide ederseniz, aynı hesabı dört konsolidasyon hesabı grubunun tümüne de eklemeniz gerekir.
+-   **Konsolidasyon hesabı** – Konsolidasyon hesabının değerini girin. Bu değer, hesap planındaki bir hesap olmak zorunda değildir. İhtiyaç duyduğunuz herhangi bir değer olabilir.
+-   **Konsolidasyon hesabı adı** - Hesabın adını, sorgular ve raporlarda belirmesini istediğiniz şekilde girin.
+-   **SAT düzeyi** – Bu alan, hesap ekstrelerini Meksika vergi otoritelerine bildirmek için kullanılır. 
 
-Konsolidasyon hesap grupları ve ek konsolidasyon hesabı oluşturma işlemini bitirdiğinizde, konsolide et çevrimiçi işlem grubu seçebilirsiniz.
+Konsolidasyon hesapları gruplarınızı ve ek konsolidasyon hesaplarınızı oluşturmayı tamamladıktan sonra, grubu Konsolidasyon çevrimiçi işleminde seçebilirsiniz.
+
+
 
 
 

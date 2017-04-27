@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="acquire-assets-through-procurement"></a>Kıymetleri tedarikle alma
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, satınalma emirlerinden veya satıcı faturalarından otomatik olarak sabit kıymetler oluşturmak veya sabit kıymetler için alım ve alım ayar hareketlerini otomatik olarak deftere nakletmek için Sabit kıymetler ile Borç hesapları arasında nasıl entegrasyon kurulacağı açıklanmaktadır.
 
  Sabit kıymetlerle ve Borç hesaplarını tümleştirmek için aşağıdaki yöntemler kullanılabilir ve tüm sabit kıymetler için aynı yöntemi kullanmanız gerekir:
@@ -103,6 +106,8 @@ Aşağıda bu senaryonun çeşitlemeleri verilmektedir:
 -   Yalnızca kısmi bir miktar alınmışsa, kullanıcı grubu kısıtlamaları nedeniyle ilk satıcı faturası için bir kıymet alımı oluşturulmaz. Sipariş edilen miktarı tamamlayan ikinci satıcı faturası için bir alımın nakledilebilmesi için ilk satıcı faturası için bir alım hareketinin girilmiş olması ve alım nakletme iznine sahip bir kullanıcı grubunun bir üyesi olmanız gerekir.
 
 
-Daha fazla bilgi için bkz: [sabit kıymet tümleştirmesi](fixed-asset-integration.md).
+Daha fazla bilgi için bkz: [Sabit kıymet tümleştirmesi](fixed-asset-integration.md).
+
+
 
 

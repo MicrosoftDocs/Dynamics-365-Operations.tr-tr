@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="centralized-payments-for-accounts-receivable"></a>Alacaklar hesapları için merkezi ödemeler
 
+[!include[banner](../includes/banner.md)]
+
+
 Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten tek bir tüzel kişilik kullanarak ödemeleri oluşturabilir ve yönetebilirler. Bu nedenle, birden çok tüzel kişilikte aynı hareketin girilmesi gerekmez. Bu makalede, çeşitli senaryolarda deftere nakletmenin merkezi ödemeler için nasıl işlendiğini gösteren örnekler yer almaktadır.
 
 Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten bir tüzel kişilik kullanarak ödemeleri oluşturabilir ve yönetebilirler. Bu nedenle, birden çok tüzel kişilikte aynı hareketin girilmesi gerekmez. Ayrıca kuruluş, ödeme teklifleri, kapatmalar ve merkezi ödemeler için açık ve kapalı hareketlerin düzenleme işlemleri verimli hale getirileceği için zamandan tasarruf sağlar. 
 
-Merkezi ödeme kuruluşunuzdaki işlemleri için birçok yasal varlık vardır ve her bir işletme tüzel kişilik kendi faturalarını alacak bilgi yönetir. Tüm işletme tüzel kişilikler için ödemeler, ödeme tüzel kişilik bilinen tek bir tüzel kişilik tarafından alınır. Kapatma işlemi sırasında, ilgili vade sonu ve vade başlangıcı hareketleri oluşturulur. Organizasyondaki hangi tüzel kişiliğin gerçekleşmiş kar veya gerçekleşmiş zarar hareketlerini alacağını ve merkezi ödeme ile ilgili nakit iskonto işlemlerinin nasıl halledileceğini belirleyebilirsiniz. 
+Bir merkezi ödeme organizasyonunda, işlemler için birçok tüzel kişilik vardır ve işlem yapan her bir tüzel kişilik kendi faturalarının alacak bilgilerini yönetir. İşlem yapan tüm tüzel kişilikler için ödemeler tek bir tüzel varlık tarafından alınır ve bu, ödemenin tüzel kişiliği olarak bilinir. Kapatma işlemi sırasında, ilgili vade sonu ve vade başlangıcı hareketleri oluşturulur. Organizasyondaki hangi tüzel kişiliğin gerçekleşmiş kar veya gerçekleşmiş zarar hareketlerini alacağını ve merkezi ödeme ile ilgili nakit iskonto işlemlerinin nasıl halledileceğini belirleyebilirsiniz. 
 
 Aşağıdaki örneklerde, naklin çeşitli senaryolarda nasıl yönetildiği gösterilmektedir. Tüm bu örnekler için aşağıdaki yapılandırma varsayılır:
 
@@ -66,14 +69,14 @@ Fabrikam, Fabrikam müşteri hesabı 4000, Northwind Traders için 600,00 tutar�
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam ödemesinin Fabrikam East faturasıyla kapatılması
 
-**Fabrikam posting**
+**Fabrikam nakli**
 
 | Hesap                         | Borç tutarı | Alacak tutarı |
 |---------------------------------|--------------|---------------|
 | Alacak hesapları (Fabrikam)  | 600,00       |               |
 | Vade sonu Fabrikam East (Fabrikam) |              | 600,00        |
 
-**Fabrikam East posting**
+**Fabrikam East nakli**
 
 | Hesap                             | Borç tutarı | Alacak tutarı |
 |-------------------------------------|--------------|---------------|
@@ -81,7 +84,7 @@ Fabrikam, Fabrikam müşteri hesabı 4000, Northwind Traders için 600,00 tutar�
 | Alacak hesapları (Fabrikam East) |              | 600,00        |
 
 ## <a name="example-2-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>Örnek 2: Başka bir tüzel kişilikten nakit iskontosu ile müşterinin fatura ödemesi
-Fabrikam, Fabrikam müşterisi 4000, Northwind Traders için 580,00 tutarında bir ödeme alıyor. Fabrikam Doğu 4000 müşteri için açık bir fatura var. Fatura 20,00'lik nakit iskontosu içeriyor. Ödeme, Fabrikam East faturalarıyla kapatılıyor. Nakit iskontosu faturanın tüzel kişiliği olan Fabrikam East'e naklediliyor.
+Fabrikam, Fabrikam müşterisi 4000, Northwind Traders için 580,00 tutarında bir ödeme alıyor. Fabrikam East, müşteri 4000, Fourth Coffee için açık bir faturaya sahip. Fatura 20,00'lik nakit iskontosu içeriyor. Ödeme, Fabrikam East faturalarıyla kapatılıyor. Nakit iskontosu faturanın tüzel kişiliği olan Fabrikam East'e naklediliyor.
 
 ### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a>Faturanın, Fabrikam East müşterisi 4000 için Fabrikam East'e nakledilmesi
 
@@ -99,14 +102,14 @@ Fabrikam, Fabrikam müşterisi 4000, Northwind Traders için 580,00 tutarında b
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam ödemesinin Fabrikam East faturasıyla kapatılması
 
-**Fabrikam posting**
+**Fabrikam nakli**
 
 | Hesap                         | Borç tutarı | Alacak tutarı |
 |---------------------------------|--------------|---------------|
 | Alacak hesapları (Fabrikam)  | 580,00       |               |
 | Vade sonu Fabrikam East (Fabrikam) |              | 580,00        |
 
-**Fabrikam East posting**
+**Fabrikam East nakli**
 
 | Hesap                             | Borç tutarı | Alacak tutarı |
 |-------------------------------------|--------------|---------------|
@@ -137,7 +140,7 @@ Fabrikam, Fabrikam müşterisi 4000, Northwind Traders'dan 600,00 tutarında bir
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam ödemesinin Fabrikam East faturasıyla kapatılması
 
-**Fabrikam posting**
+**Fabrikam nakli**
 
 | Hesap                         | Borç tutarı            | Alacak tutarı           |
 |---------------------------------|-------------------------|-------------------------|
@@ -146,7 +149,7 @@ Fabrikam, Fabrikam müşterisi 4000, Northwind Traders'dan 600,00 tutarında bir
 | Vade sonu Fabrikam East (Fabrikam) | 0,00 EUR / 12,90 USD    |                         |
 | Gerçekleşen kazanç (Fabrikam)        |                         | 0,00 EUR / 12,90 USD    |
 
-**Fabrikam East posting**
+**Fabrikam East nakli**
 
 | Hesap                             | Borç tutarı            | Alacak tutarı           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -178,7 +181,7 @@ Fabrikam, Fabrikam East'teki açık bir fatura için, Fabrikam müşterisi 4000,
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam ödemesinin Fabrikam East faturasıyla kapatılması
 
-**Fabrikam posting**
+**Fabrikam nakli**
 
 | Hesap                         | Borç tutarı            | Alacak tutarı           |
 |---------------------------------|-------------------------|-------------------------|
@@ -187,7 +190,7 @@ Fabrikam, Fabrikam East'teki açık bir fatura için, Fabrikam müşterisi 4000,
 | Vade sonu Fabrikam East (Fabrikam) | 0,00 EUR / 13,46 USD    |                         |
 | Gerçekleşen kazanç (Fabrikam)        |                         | 0,00 EUR / 13,46 USD    |
 
-**Fabrikam East posting**
+**Fabrikam East nakli**
 
 | Hesap                             | Borç tutarı            | Alacak tutarı           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -199,7 +202,7 @@ Fabrikam, Fabrikam East'teki açık bir fatura için, Fabrikam müşterisi 4000,
 | Alacak hesapları (Fabrikam East) |                         | 12,00 EUR / 14,47 USD   |
 
 ## <a name="example-5-customer-credit-note-with-primary-payment"></a>Örnek 5: Birincil ödeme ile müşteri alacak dekontu
-Fabrikam, müşteri 4000, Northwind Traders için 75,00'lik bir ödeme alıyor. Ödeme, Fabrikam West müşteri 10000 için olan bir açık faturayla ve Fabrikam East müşterisi 4000 için açık bir alacak dekontu ile kapatılıyor. Ödemeyi birincil ödeme olarak seçili **kapatma hareketleri** sayfa.
+Fabrikam, müşteri 4000, Northwind Traders için 75,00'lik bir ödeme alıyor. Ödeme, Fabrikam West müşteri 10000 için olan bir açık faturayla ve Fabrikam East müşterisi 4000 için açık bir alacak dekontu ile kapatılıyor. Ödeme, **Hareketleri kapatma** sayfasında birincil ödeme olarak seçilmiştir.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>Faturanın müşteri 10000 için Fabrikam West'e nakledilmesi
 
@@ -224,7 +227,7 @@ Fabrikam, müşteri 4000, Northwind Traders için 75,00'lik bir ödeme alıyor. 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam ödemesinin, Fabrikam West faturası ve Fabrikam East alacak dekontuyla kapatılması
 
-**Fabrikam posting**
+**Fabrikam nakli**
 
 | Hesap                           | Borç tutarı | Alacak tutarı |
 |-----------------------------------|--------------|---------------|
@@ -233,14 +236,14 @@ Fabrikam, müşteri 4000, Northwind Traders için 75,00'lik bir ödeme alıyor. 
 | Alacak hesapları (Fabrikam)    | 100,00       |               |
 | Vade sonu Fabrikam West (Fabrikam)   |              | 100,00        |
 
-**Fabrikam East posting**
+**Fabrikam East nakli**
 
 | Hesap                             | Borç tutarı | Alacak tutarı |
 |-------------------------------------|--------------|---------------|
 | Alacak hesapları (Fabrikam East) | 25,00        |               |
 | Vade sonu Fabrikam (Fabrikam East)     |              | 25,00         |
 
-**Fabrikam West posting**
+**Fabrikam West nakli**
 
 | Hesap                             | Borç tutarı | Alacak tutarı |
 |-------------------------------------|--------------|---------------|
@@ -248,7 +251,7 @@ Fabrikam, müşteri 4000, Northwind Traders için 75,00'lik bir ödeme alıyor. 
 | Alacak hesapları (Fabrikam West) |              | 100,00        |
 
 ## <a name="example-6-customer-credit-note-without-primary-payment"></a>Örnek 6: Birincil ödeme olmadan müşteri alacak dekontu
-Fabrikam, müşteri 4000, Northwind Traders için 75,00'lik bir ödeme alıyor. Ödeme, Fabrikam West müşteri 10000 için olan bir açık faturayla ve Fabrikam East müşterisi 4000 için açık bir alacak dekontu ile kapatılıyor. Ödemeyi birincil ödeme olarak üzerinde seçili değilse **kapatma hareketleri** sayfa.
+Fabrikam, müşteri 4000, Northwind Traders için 75,00'lik bir ödeme alıyor. Ödeme, Fabrikam West müşteri 10000 için olan bir açık faturayla ve Fabrikam East müşterisi 4000 için açık bir alacak dekontu ile kapatılıyor. Ödeme, **Hareketleri kapatma** sayfasında birincil ödeme olarak seçilmemiştir.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>Faturanın müşteri 10000 için Fabrikam West'e nakledilmesi
 
@@ -273,21 +276,21 @@ Fabrikam, müşteri 4000, Northwind Traders için 75,00'lik bir ödeme alıyor. 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam ödemesinin Fabrikam West faturası ve Fabrikam East alacak dekontuyla kapatılması
 
-**Fabrikam posting**
+**Fabrikam nakli**
 
 | Hesap                         | Borç tutarı | Alacak tutarı |
 |---------------------------------|--------------|---------------|
 | Alacak hesapları (Fabrikam)  | 75,00        |               |
 | Vade sonu Fabrikam West (Fabrikam) |              | 75,00         |
 
-**Fabrikam East posting**
+**Fabrikam East nakli**
 
 | Hesap                              | Borç tutarı | Alacak tutarı |
 |--------------------------------------|--------------|---------------|
 | Alacak hesapları (Fabrikam East)  | 25,00        |               |
 | Vade sonu Fabrikam West (Fabrikam East) |              | 25,00         |
 
-**Fabrikam West posting**
+**Fabrikam West nakli**
 
 | Hesap                                | Borç tutarı | Alacak tutarı |
 |----------------------------------------|--------------|---------------|
@@ -295,6 +298,8 @@ Fabrikam, müşteri 4000, Northwind Traders için 75,00'lik bir ödeme alıyor. 
 | Alacak hesapları (Fabrikam West)    |              | 75,00         |
 | Vade başlangıcı Fabrikam East (Fabrikam West) | 25,00        |               |
 | Alacak hesapları (Fabrikam West)    |              | 25,00         |
+
+
 
 
 

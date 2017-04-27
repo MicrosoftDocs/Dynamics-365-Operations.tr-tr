@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manual-depreciation"></a>El ile amortisman
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, el ile amortisman yöntemi hakkında genel bir bakış verilmektedir.
 
 Sabit kıymet amortisman profilini ayarlayıp **Amortisman profilleri** sayfasının **Yöntem** alanındaki **El ile** seçeneğini işaretlediğinize, amortisman profiline atanan sabit kıymetlerin amortismanı, takvim yılında her aralık için girdiğiniz yüzdeyle saptanır. Yüzdeler ayarladığını aralıklar **Amortisman profilleri** sayfasının **Dönem sıklığı** alanındaki **Genel** hızlı sekmesinde seçtiğiniz değere göre deftere nakledilir. Seçebileceğiniz değerler şunlardır:
@@ -63,13 +66,15 @@ Aşağıdaki tablo, her aralık için amortismanın nasıl hesaplandığını g�
 | Ocak  | (11.000 – 1.000) × %10 = 1.000 |
 | Şubat | (11.000 – 1.000) × %50 = 5.000 |
 
-Seçerseniz **yarı yıllık**, *** ** dönem sıklığı alanında **, belirlediğiniz iki el ile zamanlama aralığı. Aşağıdaki tablo, bu iki aralık için amortisman tutarlarını gösterir.
+****Dönem sıklığı** alanında** **Yarım Yıllık** seçeneğini işaretlerseniz , el ile en fazla iki planlama aralığı ayarlarsınız. Aşağıdaki tablo, bu iki aralık için amortisman tutarlarını gösterir.
 
 | Aralık    | Amortisman tutarı            |
 |-------------|--------------------------------|
 | 30 Haziran     | (11.000 – 1.000) × %10 = 1.000 |
 | 31 Aralık | (11.000 – 1.000) × %50 = 5.000 |
 
-Tüm aralıkların yüzde toplamı 100 olmak zorunda değildir. Ancak, bir ileti alırsınız değer **birikimli yüzde** alanına **kıymet amortisman profili planları sabit** sayfa değil **100**.
+Tüm aralıkların yüzde toplamı 100 olmak zorunda değildir. Ancak, **Sabit kıymet amortisman profili planları ** sayfasındaki **Toplam yüzde** alanındaki değer **100** değilse bir ileti alırsınız.
+
+
 
 

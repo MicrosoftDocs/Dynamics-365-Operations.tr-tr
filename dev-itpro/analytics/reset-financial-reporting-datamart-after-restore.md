@@ -1,6 +1,6 @@
 ---
-title: "Bir veritabanını geri yükledikten sonra mali raporlama veri merkezini Sıfırla"
-description: "Bu konu Microsoft Dynamics 365 işlemleri veritabanı geri yüklendikten sonra mali raporlama veri merkezini sıfırlamak nasıl açıklar."
+title: "Bir veritabanını geri yükledikten sonra mali raporlama veri reyonunu sıfırlama"
+description: "Bu konu Microsoft Dynamics 365 for Operations veritabanını geri yüklendikten sonra mali raporlama veri reyonunun nasıl sıfırlanacağını açıklar."
 author: twheeloc
 manager: AnnBe
 ms.date: 2016-12-08 16 - 20 - 13
@@ -24,86 +24,86 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>Bir veritabanını geri yükledikten sonra mali raporlama veri merkezini Sıfırla
+# <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>Bir veritabanını geri yükledikten sonra mali raporlama veri reyonunu sıfırlama
 
-Bu konu Microsoft Dynamics 365 işlemleri veritabanı geri yüklendikten sonra mali raporlama veri merkezini sıfırlamak nasıl açıklar. 
+Bu konu Microsoft Dynamics 365 for Operations veritabanını geri yüklendikten sonra mali raporlama veri reyonunun nasıl sıfırlanacağını açıklar. 
 
-Burada, Dynamics 365 işlemleri veritabanı için bir yedek kopyasından geri yükleyin veya veritabanını başka bir ortamdan kopyalamak gerekebilir birkaç senaryo vardır. Bu durumda, aynı zamanda işlemleri için veritabanı geri yüklenen Dynamics 365, finansal raporlama veri merkezini doğru kullanıyor olmak için uygun olan adımları izleyin gerekir. Finansal raporlama veri merkezini Dynamics 365 veritabanı işlemleri için geri dışında bir nedenle sıfırlama hakkında sorularınız varsa, bakın [Management Reporter veri merkezini sıfırlama](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) daha fazla bilgi için. Bu işlemdeki adımlar için operasyon için Dynamics 365 desteklenmediğine dikkat edin Mayıs 2016 release (App yapı 7.0.1265.23014 ve finansal raporlama yapı 7.0.10000.4) ve daha yeni sürümleri. Lütfen Dynamics 365 işlemleri için önceki bir sürümü varsa, Yardım için destek ekibimize başvurun.
+Dynamics 365 for Operations veritabanınızı bir yedeklemeden geri yüklemenizi veya veritabanını başka bir ortamdan kopyalamanızı gerektirecek birçok senaryo vardır. Bu durum söz konusu olduğunda, mali raporlama veri reyonunun geri yüklenen Dynamics 365 for Operations veritabanını düzgün şekilde kullanmasını sağlamak için gerekli olan adımları da izlemeniz gerekir. Mali raporlama veri reyonunu Dynamics 365 for Operations veritabanı geri yüklemesi dışında bi rnedenle sıfırlama konusundaki sorularınız için bkz. [Yönetim Raporlayıcısı veri reyonunu sıfırlama](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/). Bu işlemdeki adımların Dynamics 365 for Operation Mayıs 2016 sürümü (Uygulama yapısı 7.0.1265.23014 ve mali raporlama yapısı 7.0.10000.4) ve daha yeni sürümler için desteklendiğini unutmayın. Dynamics 365 for Operations'ın önceki bir sürümüne sahipseniz, yardım için Destek ekibimize başvurun.
 
-## <a name="export-report-definitions"></a>Rapor tanımlarını dışa aktar
-İlk olarak, aşağıdaki adımları kullanarak Rapor Tasarımcısı'nda bulunan rapor tasarımları verin:
+## <a name="export-report-definitions"></a>Rapor tanımlarını dışa aktarma
+İlk olarak, Rapor Tasarımcısı'nda bulunan rapor tasarımlarını aşağıdaki adımları uygulayarak dışa aktarın:
 
-1.  Rapor Tasarımcısı'nda Git **şirket**&gt;**yapıtaşı grupları**.
-2.  Dışa aktar öğesini tıklatıp yapı taşı grubu seçin **ver**. **Not:** işlemleri için Dynamics 365 için yalnızca bir yapı taşı grubu desteklenir, **varsayılan**.
-3.  Verilecek rapor tanımını seçin:
+1.  Rapor Tasarımcısında, **Şirket** &gt; **Yapı Taşı Grupları**'na gidin.
+2.  Dışa aktarılacak yapı taşı grubunu seçin ve **Dışa Aktar**'a tıklayın. **Not:** Dynamics 365 for Operations için yalnızca bir yapı taşı grubu desteklenir, **Varsayılan**.
+3.  Dışa aktarılacak rapor tanımlarını seçin:
     -   Tüm rapor tanımlarını ve ilgili yapı taşlarını dışa aktarmak için **Tümünü Seç** öğesini tıklayın.
-    -   Belirli raporları, satırları, sütunları, ağaçları veya boyut kümelerini dışa aktarmak için ilgili sekmeye tıklayın ve ardından dışa aktarılacak maddeleri seçin. Bir sekmede birden fazla madde seçmek için CTRL tuşunu basılı tutun. Rapor vermek için seçtiğinizde, ilişkili satırlar, sütunlar, ağaçları ve boyut kümeleri seçilir.
+    -   Belirli raporları, satırları, sütunları, ağaçları veya boyut kümelerini dışa aktarmak için ilgili sekmeye tıklayın ve ardından dışa aktarılacak maddeleri seçin. Bir sekmede birden fazla madde seçmek için CTRL tuşunu basılı tutun. Dışa aktarılacak raporları seçtiğinizde ilişkili satırlar, sütunlar, ağaçlar ve boyut kümeleri seçilir.
 
-4.  ' I **ver**.
-5.  Bir dosya adı girin ve güvenli bir yerde verilen rapor tanımlarını kaydetmek istediğiniz yeri seçin.
-6.  Click **Save**.
+4.  **Dışa Aktar**'a tıklayın.
+5.  Bir dosya adı girin ve dışarı aktarılan rapor tanımlarını kaydetmek için istediğiniz güvenli bir konumu seçin.
+6.  **Kaydet**'e tıklayın.
 
-Dosya kopyalanır veya, başka bir zamanda farklı bir ortama aktarılacak sağlayan güvenli bir konuma karşıya. Microsoft Azure depolama hesabı hakkında bilgi bulunabilir [Transfer AzCopy komut satırı yardımcı programı ile veri](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). **Not:** Microsoft olmayan sağlar depolama hesabı, Dynamics 365 bir parçası olarak işlemleri anlaşması için. Depolama hesabı satın veya ayrı bir Azure abonelik depolama hesabından kullanın. **Önemli:** D sürücüsüne Azure sanal makineler üzerinde'nın davranışını dikkate alın. Burada verilen yapı taşı gruplarınızı kalıcı olarak tutma. Geçici sürücüler hakkında daha fazla bilgi için bkz: [geçici sürücü üzerinde Windows Azure sanal makineleri anlama](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
+Dosya güvenli bir konuma kopyalanabilir veya yüklenebilir; bu dosyanın daha sonra farklı bir ortama aktarılmasını sağlar. Microsoft Azure depolama hesabı kullanma hakkındaki bilgileri [>AzCopy Komut Satırı Yardımcı Programı ile veri transferi](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy) bölümünde bulabilirsiniz. **Not:** Microsoft, Dynamics 365 for Operations sözleşmenizin bir parçası olarak bir depolama hesabı sağlamaz. Bir depolama hesabı satın almanız veya ayrı bir Azure aboneliğine ait bir depolama hesabını kullanmanız gerekir. **Önemli:** Azure Sanal Makineler'de D sürücüsünün davranışını dikkate alın. Dışa aktarılan yapı taşı gruplarınızı burada kalıcı olarak saklamayın. Geçici sürücüler hakkında daha fazla bilgi için bkz. [Microsoft Azure Sanal Makinelerindeki geçici sürücüyü anlama](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
 
 ## <a name="stop-services"></a>Hizmetleri durdurma
-Services.msc kullanarak aşağıdaki Windows Hizmetleri durdurmak ve ortamdaki tüm bilgisayarlara bağlanmak için Uzak Masaüstü'nü kullanın:
+Ortamdaki tüm bilgisayarlara bağlanmak ve services.msc'yi kullanarak aşağıdaki Windows hizmetlerini durdurmak için Uzak Masaüstü'nü kullanın:
 
--   World wide web publishing service (tüm bilgisayarlarda AOS)
--   Microsoft Dynamics 365 işlemleri toplu Yönetimi hizmeti için (yalnızca özel olmayan AOS bilgisayarları)
--   Management Reporter 2012 işlem hizmeti (yalnızca BI bilgisayarlarda)
+-   World wide web publishing service (tüm AOS bilgisayarlarda)
+-   Microsoft Dynamics 365 for Operations Toplu İŞ Yönetmini Hizmeti (yalnızca özel olmayan AOS bilgisayarlarda)
+-   Management Reporter 2012 İşlem Hizmeti (yalnızca BI bilgisayarlarda)
 
-Bu hizmetler veritabanı işlemleri için Dynamics 365 açık bağlantıları olacaktır.
+Bu hizmetlerin Dynamics 365 for Operations veritabanına açık bağlantıları olacaktır.
 
 ## <a name="reset"></a>Sıfırla
-#### <a name="locate-the-latest-dataupgradezip-package"></a>Son DataUpgrade.zip paketi bulun
+#### <a name="locate-the-latest-dataupgradezip-package"></a>Son DataUpgrade.zip paketini bulma
 
-Bulunan yönergeleri kullanarak son DataUpgrade.zip paketi bulun [DataUpgrade.zip komut dosyası karşıdan](..\migration-upgrade\upgrade-data-to-latest-update.md). Veri yükseltme paketini ortamınız için doğru sürümünü bulma yönergeleri açıklanmaktadır.
+[DataUpgrade.zip komut dosyasını indirme](..\migration-upgrade\upgrade-data-to-latest-update.md) konusundaki yönergeleri kullanarak en son DataUpgrade.zip paketini bulun. Yönergeler veri yükseltme paketinin ortamınız için doğru sürümünü nasıl bulacağınızı açıklar.
 
-#### <a name="execute-scripts-against-dynamics-365-for-operations-database"></a>Dynamics 365 karşı operasyonlar veritabanı komut dosyalarını yürütme
+#### <a name="execute-scripts-against-dynamics-365-for-operations-database"></a>Dynamics 365 for Operations veritabanı için komut dosyalarını çalıştırma
 
-Karşı Dynamics 365 (değil karşı finansal raporlama veritabanı) veritabanı işlemleri için aşağıdaki komut dosyasını çalıştırın.
+Aşağıdaki komut dosyalarını Dynamics 365 for Operations veritabanı için çalıştırın (finansal raporlama veritabanı için değil).
 
--   DataUpgrade.zip\\AosService\\komut dosyaları\\ConfigureAxReportingIntegration.sql
--   DataUpgrade.zip\\AosService\\komut dosyaları\\GrantAzViewChangeTracking.sql
+-   DataUpgrade.zip\\AosService\\Scripts\\ConfigureAxReportingIntegration.sql
+-   DataUpgrade.zip\\AosService\\Scripts\\GrantAzViewChangeTracking.sql
 
-Bu komut dosyaları, kullanıcılar, roller ve değişiklik izleme ayarları doğru olduğundan emin olun.
+Bu komut dosyaları kullanıcıların, rollerin ve değişiklik izleme ayarlarının doğru olmasını sağlar.
 
-#### <a name="execute-powershell-command-to-reset-database"></a>Veritabanı sıfırlamak için PowerShell komut yürütme
+#### <a name="execute-powershell-command-to-reset-database"></a>Veritabanını sıfırlamak için PowerShell komutunu çalıştırma
 
-Dynamics 365 işlemleri ve mali raporlama bütünleşmesi sıfırlamak için doğrudan AOS bilgisayarındaki, aşağıdaki komutu yürütün:
+Dynamics 365 for Operations ve mali raporlama tümleştirmesini sıfırlamak için doğrudan AOS bilgisayarındaki aşağıdaki komutu çalıştırın:
 
-1.  Windows PowerShell'i yönetici olarak açın.
-2.  Yürütme: F:
-3.  Yürütün: cd F:\\MRApplicationService\\MRInstallDirectory
-4.  Yürütme: Import-Module. \\Server\\MRDeploy\\MRDeploy.psd1
-5.  Yürütme: Reset-DatamartIntegration-neden diğer - ReasonDetail "&lt;sıfırlamak için benim neden&gt;"
+1.  Windows PowerShell'i Yönetici olarak açın.
+2.  Execute: F:
+3.  Execute: cd F:\\MRApplicationService\\MRInstallDirectory
+4.  Execute: Import-Module .\\Server\\MRDeploy\\MRDeploy.psd1
+5.  Execute: Reset-DatamartIntegration -Reason OTHER -ReasonDetail “&lt;my reason for resetting&gt;”
     -   Onaylamak için "Y" girmeniz istenir.
 
 Parametre açıklaması:
 
--   Neden - için geçerli değerler şunlardır: bakımı, BADDATA, OTHER.
--   Serbest metin - ReasonDetail parametresidir.
--   Telemetry/ortam izleme nedeni ve reasonDetail kaydedilir.
+-   Neden - için geçerli değerler şunlardır: SERVICING, BADDATA, OTHER
+-   - ReasonDetail parametresi serbest metindir.
+-   Neden ve reasonDetail telemetri/ortam izlemede kaydedilecektir.
 
 ## <a name="start-services"></a>Hizmetleri başlatma
-Services.msc, daha önce durdurduğu hizmetleri yeniden başlatmak için kullanın:
+Daha önce durdurduğunuz hizmetleri yeniden başlatmak için services.msc'yi kullanın:
 
--   World wide web publishing service (tüm bilgisayarlarda AOS)
--   Microsoft Dynamics 365 işlemleri toplu Yönetimi hizmeti için (yalnızca özel olmayan AOS bilgisayarları)
--   Management Reporter 2012 işlem hizmeti (yalnızca BI bilgisayarlarda)
+-   World wide web publishing service (tüm AOS bilgisayarlarda)
+-   Microsoft Dynamics 365 for Operations Toplu İŞ Yönetmini Hizmeti (yalnızca özel olmayan AOS bilgisayarlarda)
+-   Management Reporter 2012 İşlem Hizmeti (yalnızca BI bilgisayarlarda)
 
 ## <a name="import-report-definitions"></a>Rapor tanımlarını içe aktarma
-Rapor Tasarımcısı'ndan rapor tasarımlarınızı alma, verme işlemi sırasında oluşturulan dosyayı kullanıyor:
+Rapor Tasarımcısı'ndan rapor tanımlarınızı dışa aktarma sırasında oluşturulan dosyayı kullanarak içe aktarın:
 
-1.  Rapor Tasarımcısı'nda Git **şirket**&gt;**yapıtaşı grupları**.
-2.  Dışa aktar öğesini tıklatıp yapı taşı grubu seçin **ver**. **Not:** işlemleri için Dynamics 365 için yalnızca bir yapı taşı grubu desteklenir, **varsayılan**.
-3.  Seçin **varsayılan** oluşturma bloğu ve click **alma**.
-4.  Verilen rapor tanımlarını içeren dosyayı seçin ve'ı **açık**.
+1.  Rapor Tasarımcısında, **Şirket** &gt; **Yapı Taşı Grupları**'na gidin.
+2.  Dışa aktarılacak yapı taşı grubunu seçin ve **Dışa Aktar**'a tıklayın. **Not:** Dynamics 365 for Operations için yalnızca bir yapı taşı grubu desteklenir, **Varsayılan**.
+3.  **Varsayılan** yapı bloğunu seçin ve **İçe Aktar**'a tıklayın.
+4.  Dışa aktarılan rapor tanımlarını içeren dosyayı seçin **Aç**'a tıklayın.
 5.  İçe Aktar iletişim kutusunda, içe aktarılacak rapor tanımlarını seçin:
     -   Rapor tanımlarının ve destekleyici yapı taşlarının tümünü içe aktarmak için **Tümünü Seç** öğesine tıklayın.
     -   Belirli raporları, satırları, sütunları, ağaçları veya boyut kümelerini içe aktarmak için, içe aktarılacak raporları, satırları, sütunları, ağaçları veya boyut kümelerini seçin.
 
-6.  Click **Import**.
+6.  **İçe aktar**'a tıklayın.
 
 
 

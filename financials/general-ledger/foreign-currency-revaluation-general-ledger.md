@@ -1,6 +1,6 @@
 ---
 title: "Genel muhasebe için yabancı para birimi yeniden değerleme"
-description: "Bu konu aşağıdaki genel muhasebe yabancı para birimi yeniden değerleme işlemi - Kurulum, gerekirse işlem hesaplama süreci ve nasıl yeniden değerleme hareketlerinin tersine çevirmek için çalışan için genel bakış sağlar."
+description: "Bu konu, kurulum, işlemi çalıştırma, işlem için hesaplama ve gerekirse yeniden değerleme işlemi hareketlerinin nasıl tersine çevrildiği de dahil olmak üzere genel muhasebe yabancı para birimi yeniden değerleme işlemine genel bir bakış sunar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,14 +27,17 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Genel muhasebe için yabancı para birimi yeniden değerleme
 
-Bu konu aşağıdaki genel muhasebe yabancı para birimi yeniden değerleme işlemi - Kurulum, gerekirse işlem hesaplama süreci ve nasıl yeniden değerleme hareketlerinin tersine çevirmek için çalışan için genel bakış sağlar. 
+[!include[banner](../includes/banner.md)]
+
+
+Bu konu, kurulum, işlemi çalıştırma, işlem için hesaplama ve gerekirse yeniden değerleme işlemi hareketlerinin nasıl tersine çevrildiği de dahil olmak üzere genel muhasebe yabancı para birimi yeniden değerleme işlemine genel bir bakış sunar. 
 
 Dönem sonunun bir parçası olarak muhasebe uygulamaları farklı döviz kuru türleri (cari, geçmiş, ortalama vb.) kullanılarak yeniden değerlenen yabancı para birimlerinde genel muhasebe hesabı bakiyelerini gerektirir. Örneğin, bir muhasebe uygulaması cari döviz kurunda yeniden değerlenecek aktifler ve pasiflere, geçmiş döviz kurundaki sabit kıymetlere ve aylık ortalama kar ve zarar hesaplarına gerek duyar. Yevmiye defteri yabancı para birimi yeniden değerleme işlemi, bilanço ile kar ve zarar hesaplarını yeniden değerlemek için kullanılabilir. 
 
 > [!NOTE]
-> Yabancı para birimi yeniden değerleme (AR) Alacak hesapları ve Borç hesapları (AP) de kullanılabilir. Bu modüllerde kullanıyorsanız, bekleyen hareketler bu modüllerde yabancı para birimi yeniden değerleme kullanarak yeniden değerlenmiş. AR ve AP yabancı para birimi yeniden değerleme işlemi, alt defterlerde ve genel muhasebede mutabakat sağlandığından emin olunarak gerçekleşmemiş kazancı ve zararı yansıtmak amacıyla genel muhasebede bir muhasebe girişi oluşturur. AR ve AP yabancı para birimi yeniden değerleme işlemi Genel Muhasebede muhasebe girişleri oluşturduğundan alacak hesapları ve borç hesapları ana hesapları Genel muhasebe yabancı para birimi değerleme işleminin dışında tutulmalıdır. 
+> Yabancı para birimi yeniden değerleme işlemi, Alacak hesapları (AR) ve Borç hesapları (AP) içerisinde de kullanılabilir. Bu modülleri kullanıyorsanız, bekleyen hareketler bu modüller içerisinde yabancı para birimi yeniden değerleme işlemi ile yeniden değerlenmelidir. AR ve AP yabancı para birimi yeniden değerleme işlemi, alt defterlerde ve genel muhasebede mutabakat sağlandığından emin olunarak gerçekleşmemiş kazancı ve zararı yansıtmak amacıyla genel muhasebede bir muhasebe girişi oluşturur. AR ve AP yabancı para birimi yeniden değerleme işlemi Genel Muhasebede muhasebe girişleri oluşturduğundan alacak hesapları ve borç hesapları ana hesapları Genel muhasebe yabancı para birimi değerleme işleminin dışında tutulmalıdır. 
 
-Yeniden değerleme işlemini çalıştırdığınızda bir yabancı para birimine nakledilen her ana hesaptaki bakiye yeniden değerlenir. Yeniden değerleme işlemi sırasında oluşturulan gerçekleşmemiş kazanç veya zarar hareketleri sistem tarafından oluşturulur. İki hareket, bir hesap para birimi ve raporlama para birimi için ikinci bir uygunsa oluşturulmuş olabilir. Her hesap girişi gerçekleşmemiş kazanç veya kayıp ve Yeniden Değerlenmiş ana hesap için deftere nakleder.
+Yeniden değerleme işlemini çalıştırdığınızda bir yabancı para birimine nakledilen her ana hesaptaki bakiye yeniden değerlenir. Yeniden değerleme işlemi sırasında oluşturulan gerçekleşmemiş kazanç veya zarar hareketleri sistem tarafından oluşturulur. Uygunsa, biri muhasebe para birimi biri diğeri de raporlama para birimi için iki hareket oluşturulabilir. Her muhasebe girişi, gerçekleşmemiş kazanç veya zarar ve değerlendirilmekte olan ana muhasebe hesabına nakledilir.
 
 ## <a name="prepare-to-run-foreign-currency-revaluation"></a>Yabancı para birimi yeniden değerleme işlemini çalıştırmaya hazırlanma
 Yeniden değerleme işlemini çalıştırmadan önce aşağıdaki kurulum gereklidir.
@@ -57,29 +60,29 @@ Kurulum tamamlandıktan sonra ana hesapların bakiyelerini yeniden değerlemek i
 
 **Başlangıç tarihi** ve **Bitiş tarihi** değerleri yeniden değerlenecek yabancı para birimi bakiyesini hesaplamak için tarih aralığını tanımlar. Kar ve kayıp hesaplarını yeniden değerlediğinizde tarih aralığında meydana gelen tüm hareketlerin toplamı yeniden değerlenir. Bilanço hesaplarını yeniden değerlediğinizde, Başlangıç tarihi göz ardı edilir. Bunun yerine, yeniden değerlemesi yapılacak bakiye mali yılın başlangıcından Bitiş tarihine kadar gelerek belirlenir. 
 
-**Oran tarihi** döviz kuru için varsayılan tarih tanımlamak için kullanılabilir. Örneğin, tarih aralığı, Ocak 1-31 Ocak arasında bakiyeleri yeniden değerlemek ancak 1 Şubat için tanımlanan döviz kuru kullanın. 
+**Oran tarihi**, döviz kurunun varsayılan tarihini belirlemek için kullanılabilir. Örneğin, 1 Ocak ile 31 Ocak tarih aralığındaki bakiyeleri yeniden değerlendirebilirsiniz, ancak 1 Şubat'taki döviz kurunu kullanabilirsiniz. 
 
-Hangi ana hesapların yeniden değerleneceğini seçin: Tümü, Bilanço veya Kar ve zarar. Yalnızca ana hesaplar için yeniden değerleme (sayfada ana hesap) işaretli değerlenir. Ana hesap aralığında daha fazla kısıtlamak istiyorsanız, kayıtları kullan **dahil etmek için** sekmesinde, ana firma ya da tek tek ana hesaplar bir aralık tanımlamak için. 
+Hangi ana hesapların yeniden değerleneceğini seçin: Tümü, Bilanço veya Kar ve zarar. Yalnızca (Ana hesap sayfasında) yeniden değerlenmek üzere işaretlenmiş ana hesaplar yeniden değerlenir. Ana hesapların aralığını daha da kısıtlamak istiyorsanız, **dahil edilecek** sekmesi kayıtlarını ana hesap veya tekil ana hesap aralığını tanımlamak için kullanın. 
 
-Yeniden değerleme işlemi, bir veya daha fazla tüzel kişilikler için çalıştırabilirsiniz. Arama yalnızca erişiminiz olan tüzel kişilikler görüntüler. Yeniden değerleme işlemi çalıştırmak istediğiniz yasal varlıkları seçin. 
+Yeniden değerleme işlemi bir veya daha fazla tüzel varlık için çalıştırılabilir. Arama yalnızca erişiminizin olduğu tüzel varlıkları görüntüler. Yeniden değerleme işlemini çalıştırmak istediğiniz tüzel varlıkları seçin. 
 
-Yeniden değerleme işlemi bir veya daha fazla yabancı para birimi için çalıştırılabilir. Arama tarih aralığı içinde yeniden değerlemek için seçilen tüzel kişilikler için ana hesap (bilanço veya kar ve zarar) türünün ilgili deftere nakledilen tüm para birimleri içerir. Hesap para birimi listede dahil edilecek, ancak hesap para seçilirse, hiçbir şey değerlenir. 
+Yeniden değerleme işlemi bir veya daha fazla yabancı para birimi için çalıştırılabilir. Arama, yeniden değerlenecek tüzel varlıklar için ana hesap türü (Bilanço veya Kar ve Zarar) ile ilgili zaman aralığında deftere nakledilen tüm para birimlerini içerecektir. Muhasebe para birimi listeye dahil edilir, ancak muhasebe para birimi seçilirse hiçbir şey yeniden değerlenmez. 
 
-Set **deftere nakletmeden önce önizleme** için **Evet** genel muhasebe yeniden değerleme sonucu incelemek isterseniz. Önizleme genel muhasebe AR ve AP yabancı para birimi yeniden değerleme benzetim farklıdır. AR ve AP benzetim bir rapor, ancak genel muhasebe yeniden değerleme işlemi yeniden çalıştırmak zorunda kalmadan nakledilebilecek bir önizleme sahip. Tutarların nasıl hesaplandığına dair geçmişi tutmak için önizleme sonuçları Microsoft Excel'e aktarılabilir. Yeniden değerleme işleminin sonuçlarının önizlemesini görüntülemek istiyorsanız toplu işi kullanamazsınız. Kullanıcı, önizlemeden **Deftere naklet** düğmesini kullanarak tüm tüzel kişiliklerin sonuçlarını deftere nakletme seçeneğine sahiptir. Tüzel kişilik için sonuçlarla ilgili bir sorun varsa kullanıcı ayrıca **Deftere nakledilecek tüzel kişilikleri seç** düğmesini kullanarak tüzel kişiliklerin alt kümesini deftere nakletme seçeneğine de sahiptir. 
+Genel muhasebe değerlemesinin sonucunu önizlemek istiyorsanız, **Deftere nakletmeden önce önizle**'yi **Evet** olarak ayarlayın. Genel muhasebedeki önizleme, AR ve AP yabancı para birimi yeniden değerleme işlemindeki benzetimden farklıdır. AR ve AP içindeki benzetim bir rapordur, ancak genel muhasebedekinin, deftere nakletmeden önce yeniden değerleme yapmayı gerektirmeyen bir önizlemesi vardır. Tutarların nasıl hesaplandığına dair geçmişi tutmak için önizleme sonuçları Microsoft Excel'e aktarılabilir. Yeniden değerleme işleminin sonuçlarının önizlemesini görüntülemek istiyorsanız toplu işi kullanamazsınız. Kullanıcı, önizlemeden **Deftere naklet** düğmesini kullanarak tüm tüzel kişiliklerin sonuçlarını deftere nakletme seçeneğine sahiptir. Tüzel kişilik için sonuçlarla ilgili bir sorun varsa kullanıcı ayrıca **Deftere nakledilecek tüzel kişilikleri seç** düğmesini kullanarak tüzel kişiliklerin alt kümesini deftere nakletme seçeneğine de sahiptir. 
 
-Yabancı para birimi yeniden değerleme işlemi tamamlandıktan sonra her çalışma geçmişini izlemek için bir kayıt oluşturulur.  Her bir tüzel kişilik ve deftere nakil katmanı için ayrı bir kayıt oluşturulur.
+Yabancı para birimi yeniden değerleme işlemi tamamlandıktan sonra, her çalıştırmanın kaydını tutmak için bir kayıt oluşturulur.  Her bir tüzel varlık ve deftere nakil katmanı için ayrı bir kayıt oluşturulur.
 
 ## <a name="calculate-unrealized-gainloss"></a>Gerçekleşmemiş kazancı/zararı hesaplama
-Gerçekleşmemiş kazanç/zarar hareketleri Genel muhasebe yeniden değerleme işlemi ile AR ve AP yeniden değerleme işlemi arasında farklı bir şekilde oluşturulur. AR ve AP'de önceki yeniden değerleme işlemi tamamen tersine çevrilir (hareketin henüz kapatılmadığı varsayılarak) ve yeni bir döviz kuruna göre gerçekleşmemiş kazanç/zarar için yeni bir yeniden değerleme işlemi hareketi oluşturulur. Bunun nedeni AR ve AP'de her hareketi tek tek yeniden değerlememizdir. Genel muhasebedeki önceki yeniden değerleme ters değil. Bunun yerine, önceki tüm yeniden değerleme tutarları ve tarihi kuru, döviz kurunu temel alarak yeni bir değer de dahil olmak üzere ana hesap bakiyesi arasındaki aralığı için bir hareket oluşturulur. 
+Gerçekleşmemiş kazanç/zarar hareketleri Genel muhasebe yeniden değerleme işlemi ile AR ve AP yeniden değerleme işlemi arasında farklı bir şekilde oluşturulur. AR ve AP'de önceki yeniden değerleme işlemi tamamen tersine çevrilir (hareketin henüz kapatılmadığı varsayılarak) ve yeni bir döviz kuruna göre gerçekleşmemiş kazanç/zarar için yeni bir yeniden değerleme işlemi hareketi oluşturulur. Bunun nedeni AR ve AP'de her hareketi tek tek yeniden değerlememizdir. Genel muhasebede, önceki yeniden değerleme tersine çevrilmez. Bunun yerine, herhangi bir önceki yeniden değerleme tutarları ve Oran Tarihi için döviz kurunu temel alan yeni değer de dahil olmak üzere ana hesabın bakiye farkı için bir hareket oluşturulur. 
 
-**Örnek** aşağıdaki bakiyeleri ana hesap 110110 mevcut.
+**Örnek** Aşağıdaki bakiyeler 110110 ana hesabı için mevcuttur.
 
 |            |                    |                        |                       |
 |------------|--------------------|------------------------|-----------------------|
 | **Tarih**   | **Genel muhasebe hesabı** | **Hareket tutarı** | **Muhasebe tutarı** |
 | 20 Ocak | 110110 (Nakit)      | 500 Euro (Borç)        | 1000 ABD Doları (Borç)      |
 
-Kebir 31 Ocak Yeniden Değerlenmiş.  Gerçekleşmemiş Kazanç/Kayıp aşağıdaki gibi hesaplanır.
+Ana hesap 31 Ocak'ta yeniden değerlenir.  Gerçekleşmemiş kazanç/zarar, aşağıdaki şekilde hesaplanır.
 
 |                                             |                                            |                                  |                                    |                             |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
@@ -94,7 +97,7 @@ Aşağıdaki muhasebe girişi oluşturulur.
 | 31 Ocak | 110110 (Nakit)            |           | 166,67     |
 | 31 Ocak | 801400 (Gerçekleşmemiş zarar) | 166,67    |            |
 
-Şubat ayında hiçbir yeni hareketler deftere nakledilir.  Ana hesap 28 Şubat Yeniden Değerlenmiş.
+Şubat ayı için yeni hiçbir hareket nakledilmez.  Ana hesap, 28 Şubat'ta yeniden değerlenir.
 
 |                                             |                                            |                                  |                                    |                             |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
@@ -112,6 +115,8 @@ Aşağıdaki muhasebe girişi oluşturulur.
 ## <a name="reverse-foreign-currency-revaluation"></a>Yabancı para birimi yeniden değerleme işlemini tersine çevirme
 Yeniden değerleme işlemi hareketini tersine çevirmeniz gerekiyorsa **Yabancı para birimi yeniden değerleme işlemi** sayfasında **Ters hareket** düğmesini seçin. Yeniden değerleme işlemi oluştuğunda veya tersine çevrildiğinde geçmiş hesap denetimi kılavuzunu düzenlemek için yeni bir yabancı para birimi yeniden değerleme işlemi geçmiş kaydı oluşturulur. 
 
-Tarih sırası yeniden değerleme sonuçlarını ters kaydedebilirsiniz, ancak doğru değerleme her ana hesap bakiyesinin sağlamak için daha güncel bir yeniden değerleme de ters gerekebilir. Hangi ana hesapların değerlemeye denetlemek için bir yol ve ne zaman değerlemeye sıklığı olduğundan eski sipariş iptalleri oluşabilir. Örneğin, bir kuruluşun aylık üç aylık aralıklarla ana nakit hesaplarını, ancak diğer tüm ana hesap yeniden değerlemek seçebilirsiniz.
+Tarih sırasına göre değerlendirme sonuçlarını terse çevirebilirsiniz, ancak her yeniden değerlenen ana hesap için doğru bakiyeleri sağlamak için daha güncel bir yeniden değerlemeyi de tersine çevirmeniz gerekebilir. Bu tersine çevirmeler, tarih sırasının dışında gerçekleşebilir çünkü hangi ana hesapların yeniden değerleneceğinin ve ne zaman yeniden değerleneceklerinin sıklığını denetlemenin bir yolu yoktur. Örneğin, bir kuruluş nakit ana hesaplarını üç ayda bir, diğer ana hesaplarını ise ayda bir yeniden değerlemeyi seçebilir.
+
+
 
 

@@ -27,14 +27,17 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-collaboration-with-customers"></a>Müşterilerle satıcı iş birliği
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu konu, Microsoft Dynamics 365 for Operations'da PO'lar ile çalışmak ve konsinye stoğu görüntülemek için satıcı iş birliğini nasıl kullanabileceğinizi açıklar.
 
-Bu konu, Microsoft Dynamics 365 for Operations'da müşteriler ile çalışmak için satıcı iş birliğini nasıl kullanabileceğinizi açıklar. Bunu nasıl izleneceğini ve satınalma siparişleri için yanıt ve konsinye envanter izleme hakkında bilgi içerir. İşbirliği satıcı faturaları ile çalışmak için kullanmak da mümkündür. Daha fazla bilgi için bkz: [satıcı işbirliği çalışma alanı faturalama](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+Bu konu, Microsoft Dynamics 365 for Operations'da müşteriler ile çalışmak için satıcı iş birliğini nasıl kullanabileceğinizi açıklar. Satınalma siparişlerinin nasıl izleneceği ve yanıtlanacağı, konsinye envanterin nasıl izleneceği hakkında bilgiler içerir. Faturalarla çalışmak için satıcı işbirliğini kullanmak da mümkündür. Daha fazla bilgi için bkz. [Satıcı işbirliği faturalama çalışma alanı](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
 
 ## <a name="working-with-purchase-orders"></a>Satınalma siparişleriyle çalışma
 **Satınalma siparişi onayı** çalışma alanı gözden geçirme için tarafınıza gönderilen PO'ları yanıtlamanıza olanak tanır. Ayrıca, müşteriden eylem bekleyen PO'lar ve onaylandıkları halde hala açık olan PO'lar hakkında bilgileri görüntülemenizi sağlar. **Satınalma siparişi onayı** çalışma alanında üç liste bulunur:
 
--   **Satınalma siparişleri gözden** -bu liste size gönderilen ve sizden bir yanıt bekleyen POs gösterir. Size yanıt sonra PO listeden kaybolur. Siz önceki sürümüne yanıt vermeden önce müşteri PO'nun yeni bir sürümünü gönderirse yalnızca en son sürüm gösterilir.
+-   **İncelenecek satınalma siparişleri**: Bu liste size gönderilmiş ve sizden bir yanıt bekleyen satınalma siparişlerini gösterir. Siz yanıtladıktan sonra satınalma siparişi listeden kaybolur. Siz önceki sürümüne yanıt vermeden önce müşteri PO'nun yeni bir sürümünü gönderirse yalnızca en son sürüm gösterilir.
 -   **Müşteri eylemi bekleniyor**: Bu liste, yanıtladığınız ancak müşteri tarafından henüz onaylanmamış PO'ları görmenize olanak tanır. PO'yı kabul ederseniz durumu **Onaylandı**'ya değişene kadar PO'yu bu listede izleyebilirsiniz. PO'yu reddettiyseniz veya değişikliklerle kabul ettiyseniz müşteri yeni bir sürümünü gönderene kadar PO'yu burada izleyebilirsiniz.
 -   **Açık onaylanan satınalma siparişleri**: Bu liste, hesabınız için durumu **Onaylandı** olan tüm PO'ları içerir. PO'da bulunan ürünlerin veya hizmetlerin tamamı alındığında PO listeden kaybolur.
 
@@ -47,7 +50,7 @@ Aşağıdaki liste satınalma siparişleriyle çalışabileceğiniz dört sayfas
 
 ### <a name="responding-to-purchase-orders"></a>Satınalma siparişlerine yanıt verme
 
-Müşteri gözden geçirme için gönderilen satınalma siparişleri görülebilir **satınalma sipariş teyidi** çalışma alanı ve **satınalma siparişleri gözden** sayfa. Bir PO açtıktan sonra onu kabul etmek, reddetmek veya değişikliklerle kabul seçebilirsiniz. PO başlığında veya tek tek satırlarda ekler olabilir. Ayrıca, PO başlığında veya tek tek satırlarda yanıt için bilgiler eklemeniz de mümkündür. Örneğin, satırlardan biri için alternatif bir madde önerebilirsiniz. **Önizleme/Yazdır** seçeneğini kullanarak PO'yu önizleyebilir ve PDF dosyası olarak yazdırabilirsiniz. **Boyutları görüntüle** eylemini kullanarak aşağıdaki boyut sütunlarını gizleyebilir veya gösterebilirsiniz: Tesis, Ambar, Renk, Ebat, Stil, Yapılandırma. Kullanırsanız, **değişikliklerle kabul** seçeneği, kabul etmek veya reddetmek tek tek satırlara. Satırları için de aşağıdaki değişiklikleri yapabilirsiniz:
+Müşterinin inceleme için gönderdiği satınalma siparişleri **Satınalma siparişi onayı** çalışma alanında ve **İncelenecek satınalma siparişleri** sayfasında görünür. Bir satınalma siparişini açtıktan sonra bunu kabul etmeyi, reddetmeyi veya değişikliklerle kabul etmeyi seçebilirsiniz. PO başlığında veya tek tek satırlarda ekler olabilir. Ayrıca, PO başlığında veya tek tek satırlarda yanıt için bilgiler eklemeniz de mümkündür. Örneğin, satırlardan biri için alternatif bir madde önerebilirsiniz. **Önizleme/Yazdır** seçeneğini kullanarak PO'yu önizleyebilir ve PDF dosyası olarak yazdırabilirsiniz. **Boyutları görüntüle** eylemini kullanarak aşağıdaki boyut sütunlarını gizleyebilir veya gösterebilirsiniz: Tesis, Ambar, Renk, Ebat, Stil, Yapılandırma. **Değişikliklerle kabul et** seçeneğini kullanırsanız, tek tek satırları kabul edebilir veya reddedebilirsiniz. Satırlarda aşağıdaki değişiklikleri de yapabilirsiniz:
 
 -   Tarihleri veya miktarları değiştirebilirsiniz. Tüm satırlarda onaylanan teslimat tarihini güncelleştirmek isterseniz PO başlığında **Teslimat tarihini güncelleştir** seçeneğini kullanabilirsiniz.
 -   Farklı teslimat tarihleri veya miktarlar için satırları bölebilirsiniz
@@ -58,7 +61,7 @@ Fiyatlandırma bilgilerini veya masrafları değiştiremezsiniz, ancak notları 
 ## <a name="monitoring-consignment-inventory"></a>Konsinye stoğu izleme
 Konsinye stok kullanıyorsanız aşağıdaki sayfalarda bilgileri görüntülemek için satıcı iş birliği arabirimi kullanabilirsiniz:
 
--   **Satınalma siparişleri konsinye stok tüketme** -konsinye stok için satınalma siparişleri, müşteri stok sahipliğini aldığında oluşturulur. Bu konsinye satınalma siparişleri yalnızca **Konsinye stoğu tüketen satınalma siparişleri** sayfasında görüntülenir. **Tüm onaylanan satınalma siparişleri** sayfasında bulunmazlar.
+-   **Konsinye stoğu tüketen satınalma siparişleri** - Konsinye stok için yapılan satınalma siparişleri, müşteri stoğun sahipliğini üstlenince üretilir. Bu konsinye satınalma siparişleri yalnızca **Konsinye stoğu tüketen satınalma siparişleri** sayfasında görüntülenir. **Tüm onaylanan satınalma siparişleri** sayfasında bulunmazlar.
 -   **Konsinye stoktan alınan ürünler**: Bu sayfa ürünlerin sahipliğinin, stoğu tüketen şirkete aktarıldığı tüm hareketleri listeler. Bu bilgiyi müşteriye faturalamak için kullanabilirsiniz.
 -   **Eldeki konsinye stok**: Bu sayfa müşterinin ambarında bulunan şirketinize ait eldeki konsinye stoğu gösterir.
 
@@ -67,5 +70,7 @@ Konsinye stok kullanıyorsanız aşağıdaki sayfalarda bilgileri görüntüleme
 --------
 
 [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Satıcı portal kullanarak satıcılar ile işbirliği"
-description: "Bu konu, satın alma aracılarının satın alma sipariş onay sürecinde dış satıcılarla iş birliği yapmak için Satıcı portalının nasıl kullanabileceğini açıklar. Bu bilgiler yalnızca Şubat 2016 için geçerlidir &amp;Dynamics AX Mayıs 2016 sürümleri."
+title: "Satıcılarla Satıcı portalını kullanarak işbirliği yapın"
+description: "Bu konu, satın alma aracılarının satın alma sipariş onay sürecinde dış satıcılarla iş birliği yapmak için Satıcı portalının nasıl kullanabileceğini açıklar. Bu bilgiler, Dynamics AX&quot;in yalnızca Şubat 2016 &amp; Mayıs 2016 sürümleri için geçerlidir."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Satıcı portal kullanarak satıcılar ile işbirliği
+# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Satıcılarla Satıcı portalını kullanarak işbirliği yapın
 
-Bu konu, satın alma aracılarının satın alma sipariş onay sürecinde dış satıcılarla iş birliği yapmak için Satıcı portalının nasıl kullanabileceğini açıklar. Bu bilgiler yalnızca Şubat 2016 için geçerlidir &amp;Dynamics AX Mayıs 2016 sürümleri.
+[!include[banner](../includes/banner.md)]
 
-Bu konudaki bilgiler, Dynamics AX'in yalnızca Şubat 2016 ve Mayıs 2016 sürümleri için geçerlidir. Dynamics 365 içinde genişletilmiş satıcı işbirliği işlevselliği için işlemleri sürüm 1611 satıcı portal işlevi almıştır. Yeni satıcı işbirliği işlevselliği hakkında daha fazla bilgi için bkz: [dış satıcılar ile çalışmak için satıcı işbirliği kullanarak](vendor-collaboration-work-external-vendors.md).  
+
+Bu konu, satın alma aracılarının satın alma sipariş onay sürecinde dış satıcılarla iş birliği yapmak için Satıcı portalının nasıl kullanabileceğini açıklar. Bu bilgiler, Dynamics AX'in yalnızca Şubat 2016 &amp; Mayıs 2016 sürümleri için geçerlidir.
+
+Bu konudaki bilgiler, Dynamics AX'in yalnızca Şubat 2016 ve Mayıs 2016 sürümleri için geçerlidir. Satıcı portal işlevi, Dynamics 365 for Operations sürüm 1611'de genişletilmiş satıcı işbirliği işlevleri ile değiştirilmiştir. Yeni satıcı işbirliği işlevselliği hakkında daha fazla bilgi için bkz. [Harici satıcılarla çalışmak için satıcı işbirliğini kullanma](vendor-collaboration-work-external-vendors.md).  
 
 Satıcı portalı, satınalma siparişi (PO) bilgilerinin değiş tokuşu için Microsoft Dynamics AX ile elektronik veri değişim (EDI) tümleştirmesi olamayan satıcılar için hedeflenir. Portal, satın alma aracılarının satıcıya PO göndermelerine ve doğrudan Dynamics AX'ten Onaylandı ya da Reddedildi yanıtı almalarına olanak tanır.  
 
@@ -66,9 +69,9 @@ Aşağıdaki tablo, PO'nun geçebileceği durum ve sürüm değişikliklerine bi
 | Satıcı portalına PO'nun yeni sürümünü gönderirsiniz. | Satıcı portalında yeni sürüm kaydedilir ve durum **Dış İncelemede** olarak değiştirilir. |
 | Satıcı PO'nun yeni sürümünü onaylar.           | Durum **Onaylandı** olarak değişir.                                                                |
 
-Satıcı ve satıcı yanıtları gönderilen satınalma siparişi sürümlerini görmek için tıklatın **günlükleri**&gt;**onay isteklerini** PO dan.  
+Satıcıya gönderilen PO sürümlerini ve yanıtları görmek için satın alma siparişinden **Günlükler** &gt; **Onay istekleri**'ne tıklayın.  
 
-Bir yanıt için satıcıya gönderilen ve durumu **Dış İncelemede** olan siparişler **Satıcı portalına gönderilen, yanıt bekleyen satınalma siparişleri** veya **Satıcı portalına gönderilen, eylem gerektiren satınalma siparişleri** listesinde görünür. Satıcıya gönderilmiş olan bir siparişte değişiklik yaptığınızda, durum **Onaylandı** olarak değişir ve sipariş artık bu listelerde görüntülenmez. Daha önce olup olmadığını satıcıdan sipariş yanıt görmek için tıklatın **günlükleri**&gt;**onay isteklerini**.  
+Bir yanıt için satıcıya gönderilen ve durumu **Dış İncelemede** olan siparişler **Satıcı portalına gönderilen, yanıt bekleyen satınalma siparişleri** veya **Satıcı portalına gönderilen, eylem gerektiren satınalma siparişleri** listesinde görünür. Satıcıya gönderilmiş olan bir siparişte değişiklik yaptığınızda, durum **Onaylandı** olarak değişir ve sipariş artık bu listelerde görüntülenmez. Sipariş için daha önce satıcıdan gelen bir yanıt olup olmadığını görüntülemek için **Günlükler** &gt; **Onay istekleri**'ne tıklayın.  
 
 Satıcılar, PO'yu Satıcı portalından onaylamak zorunda değildir. E-posta iletisi gönderebilir veya PO'yu kabul ettiklerini başka kanallar aracılığıyla bildirebilirler. Dynamics AX'de siparişi el ile onaylayabilirsiniz. Bu durumda, satıcıdan yanıt olmasa bile siparişin onaylandığını belirten bir uyarı alırsınız. Daha sonra PO Satıcı portalındaki onay geçmişinde herhangi bir yanıt alınmamış açık onaylanmış sipariş olarak görünür. Ayrıca, satıcının artık PO'yu onaylama veya reddetme seçeneği yoktur.  
 
@@ -97,5 +100,7 @@ Aşağıdaki tablo, değişim yönetimi etkinleştirildiğinde PO'nun geçebilec
 [Satıcı iş birliği kullanıcıları için güvenlik yapılandırması](configure-security-vendor-portal-users.md)
 
 [Satıcı iş birliği faturalama çalışma alanı](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace)
+
+
 
 

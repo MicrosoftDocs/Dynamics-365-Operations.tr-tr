@@ -39,18 +39,18 @@ ms.lasthandoff: 03/31/2017
 Bir kişiye veya işe bir yetenek atayabilmek, bir yetenek eşleme araması ya da bir yetenek profili oluşturabilmek için, **Yetenekler** sayfasında yeteneklerle ilgili bilgileri girmeniz gerekir. Her bir yetenek için yetenek türünü ve değerlendirme modelini seçebilirsiniz.
 
 ## <a name="rating-models"></a>Değerlendirme modelleri
-Değerlendirme modelleri bir kişinin gerçek yetenek düzeyini, elde etmek için çalışmaları gereken düzeyi veya iş için gerekli olan yetenek düzeyini değerlendirmenize yardımcı olur. En fazla 10 düzeyleri için bir derecelendirme modeli girebilirsiniz.  Her düzey derecelendirme modelinde bir faktör atanır.  Farklı değerlendirme modelleri kullanma becerileri skorunu normalize etmek faktörü değeri kullanılır.  Faktör benzersiz bir faktörü 0-9 ve her düzey arasında bir sayı olmalıdır olmalıdır.  Düzeyleri daha yüksek faktörü değerleri ile bir derecelendirme modelinde daha fazla ağırlık taşır.
+Değerlendirme modelleri bir kişinin gerçek yetenek düzeyini, elde etmek için çalışmaları gereken düzeyi veya iş için gerekli olan yetenek düzeyini değerlendirmenize yardımcı olur. Bir derecelendirme modeli için en fazla 10 düzey girebilirsiniz.  Derecelendirme modelindeki her düzeye bir faktör atanır.  Faktör değeri, farklı değerlendirme modelleri kullanılan yetenek skorlarını normalleştirmek için kullanılır.  Faktörün 0-9 arasında bir numarası ve her düzeyin benzersiz bir faktörü olmalıdır.  Faktör değerleri yüksek düzeyler bir derecelendirme modelinde daha fazla ağırlık taşır.
 
 ## <a name="specify-job-skills"></a> İş yeteneklerini belirtme
-Bir işi hakkındaki bilgileri girdiğinizde, bir kişi proje için gereken işi gerçekleştirmek için sahip olması gereken becerileri belirtebilirsiniz.  Ayrıca, istenen her beceri için düzey, Yeteneğin önem düzeyini belirtebilirsiniz. Farklı işler, aynı yeteneğin farklı düzeylerini gerektirebilir.
+Bir iş hakkındaki bilgileri girerken, bir kişinin o işte gereken çalışmayı yapması için sahip olması gereken yetenekleri belirtebilirsiniz.  Ayrıca, istenen her yetenek için istenen düzeyi ve o yeteneğin önem düzeyini belirtebilirsiniz. Farklı işler, aynı yeteneğin farklı düzeylerini gerektirebilir.
 
 ## <a name="enter-skills-for-workers-applicants-or-contacts"></a> Çalışanlar, başvuranlar veya ilgili kişiler için yetenekleri girme
 Çalışanlar, başvuranlar veya ilgili kişiler için hedef yetenekler veya gerçek yetenekler girebilirsiniz. Hedef yetenek, bir kişinin elde etmeyi planladığı yetenektir. Gerçek yetenek, bir kişinin sahip olduğu yetenektir.
 
 ## <a name="skill-mapping-and-skill-mapping-profiles"></a> Yetenek eşleme ve Yetenek eşleme profilleri
-Bir çalışan, başvuran veya belirli türdeki bir görevi gerçekleştirmek yetkili olan kişi bulmak için bir yetenek eşleme araması oluşturabilirsiniz. Yetenek eşleme aramalar arama becerileri, eğitim, sertifikalar arasında güven ve proje konumlarını deneyimi ve girilen ölçütlere uyan sonuçlar döndürebilir.  Örneğin, kuruluşunuzda hangi çalışanların kendi CPA kazanılan bilmek yararlı olabilir.
+Belirli türde bir görevi yerine getirmeye uygun nitelikte bir işçi, başvuru sahibi veya ilgili kişi bulmak için bir yetenek eşleştirme araması oluşturabilirsiniz. Yetenek eşleştirme aramaları yetenekleri, eğitimi, sertifikaları, güven gerektiren pozisyonları ve proje deneyimini arayıp, girilen ölçütlere uyan sonuçları döndürür.  Örneğin, kuruluşunuzda hangi çalışanların CPA kazandığını bilmek yararlı olabilir.
 
-Yetenek eşleme-profiller geçerli çalışanlar veya doğrudan karşılık gelen nitelikleri iş gereksinimleriniz için adaylara bulmak izin verir.  Örneğin, kuruluşunuzdaki bir açık pozisyon için bir yetenek eşleme profili oluşturabilir. Belirli bir iş için bir profil oluşturarak ve o işteki yetenekleri, eğitimi ve sertifikaları profile kopyalayarak profilde girilen bir veya daha fazla ölçüte uyan çalışanları, başvuranları ve ilgili kişileri hızlıca arayabilir ve bir iş için gereken yeteneklere en uygun adayların listesini görüntüleyebilirsiniz.
+Yetenek eşleştirme profilleri, iş gereksinimlerine doğrudan karşılık gelen nitelikleri taşıyan mevcut çalışanları veya adayları bulmanıza olanak sağlar.  Örneğin, kuruluşunuzdaki bir açık pozisyon için yetenek eşleştirme profili oluşturabilirsiniz. Belirli bir iş için bir profil oluşturarak ve o işteki yetenekleri, eğitimi ve sertifikaları profile kopyalayarak profilde girilen bir veya daha fazla ölçüte uyan çalışanları, başvuranları ve ilgili kişileri hızlıca arayabilir ve bir iş için gereken yeteneklere en uygun adayların listesini görüntüleyebilirsiniz.
 
 <table>
 <thead>
@@ -79,6 +79,6 @@ Bir çalışan, başvuran veya ilgili kişinin belirli bir tarih itibariyle sahi
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Human resources](index.md)
+[İnsan kaynakları](index.md)
 
 

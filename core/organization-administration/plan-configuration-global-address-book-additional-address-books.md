@@ -1,6 +1,6 @@
 ---
-title: "Genel adres defteri yapılandırma"
-description: "Bu makalede, ayarlamak ve Microsoft Dynamics 365 işlemleri için herhangi bir ek adres defterlerini ve genel adres defteri yapılandırma önce planlama sürecinde, yapmanız gereken kararları ve dikkat edilmesi gereken noktalar açıklanır. Kararlardan bazılarında, üretimin diğer alanları için verilen kararları (örneğin organizasyon hiyerarşisini) onaylamanız gerekir."
+title: "Genel adres defterini yapılandırma"
+description: "Bu makalede, Microsoft Dynamics 365 for Operations&quot;da genel adres defteri ve diğer ek adres defterlerini kurup yapılandırmadan önce planlama sürecinde değerlendirmeniz gereken noktalar ve almanız gereken kararlar açıklanmaktadır. Kararlardan bazılarında, üretimin diğer alanları için verilen kararları (örneğin organizasyon hiyerarşisini) onaylamanız gerekir."
 author: kfend
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-global-address-books"></a>Genel adres defteri yapılandırma
+# <a name="configure-global-address-books"></a>Genel adres defterini yapılandırma
 
-Bu makalede, ayarlamak ve Microsoft Dynamics 365 işlemleri için herhangi bir ek adres defterlerini ve genel adres defteri yapılandırma önce planlama sürecinde, yapmanız gereken kararları ve dikkat edilmesi gereken noktalar açıklanır. Kararlardan bazılarında, üretimin diğer alanları için verilen kararları (örneğin organizasyon hiyerarşisini) onaylamanız gerekir.
+[!include[banner](../includes/banner.md)]
+
+
+Bu makalede, Microsoft Dynamics 365 for Operations'da genel adres defteri ve diğer ek adres defterlerini kurup yapılandırmadan önce planlama sürecinde değerlendirmeniz gereken noktalar ve almanız gereken kararlar açıklanmaktadır. Kararlardan bazılarında, üretimin diğer alanları için verilen kararları (örneğin organizasyon hiyerarşisini) onaylamanız gerekir.
 
 <a name="global-address-book"></a>Genel adres defteri
 -------------------
@@ -61,6 +64,8 @@ Genel Adres Defteri'ni oluşturduktan sonra her iş kolu veya kuruluşunuzdaki h
 Herhangi bir anda adres defterleri oluşturabilirsiniz ve herhangi bir zamanda da adres defterleri için güvenlik parametreleri ayarlayabilirsiniz. Adres defteri için güvenlik ayrıcalıklarını ayarlamak zorunda değilsiniz, ancak bunu yapmazsanız, kuruluşunuzdaki tüm çalışanlar bu adres defterindeki tüm taraf kayıtlarını görüntüleyebilirler. Taraf kayıtlarına güvenlik ayrıcalıklarını adres defterlerinden ayarlayabilirsiniz. Güvenlik ayrıcalıkları takımları temel alır. Bu yaklaşım, sadece bir adres defterine erişimi olan bir takıma atanmış olan çalışanların bu Adres Defteri'ndeki taraf kayıtlarını görüntüleyebileceklerini garanti eder. Her bir adres defterine erişimi olan takımları seçmeniz gerekir. Her adres defteri için belirli takımlara erişim izni veren veya reddeden güvenlik ayrıcalıkları ayarlayabilirsiniz. Eğer bir ekibe adres defterine erişim ayrıcalığı verirseniz, o ekibin tüm üyeleri o adres defterindeki kayıtları görebilirler. Eğer bir ekibe adres defterine erişim vermezseniz, o ekibin üyeleri o adres defterindeki kayıtları veya içeriklerini göremezler. **Karar:**
 
 -   Hangi takımların oluşturduğunuz her yeni adres defterine erişimi olmalıdır?
+
+
 
 
 

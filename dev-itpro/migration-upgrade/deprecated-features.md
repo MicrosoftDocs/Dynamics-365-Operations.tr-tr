@@ -118,7 +118,7 @@ eGiro müşteri ödemelerinin otomatik deftere nakil işleminde kullanılan ulus
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Kaldırılma nedeni       | Ödeme biçimi artık kullanılmamaktadır.                                                     |
-| Başka bir özellik ile değiştirildi? | Hayır. ISO 20022 ifade alma biçimleri gelecekteki sürümlerde biçiminde değiştirilir. |
+| Başka bir özellik ile değiştirildi? | Hayır. Biçim gelecekteki sürümlerde ISO 20022 ekstre içe aktarma biçimleri ile değiştirilecektir. |
 | Etkilenen modüller             | Alacak hesapları                                                                       |
 
 ### <a name="external-inventory-for-poland"></a>Polonya için harici stok
@@ -138,7 +138,7 @@ Muhasebe ve vergi raporları için veri toplamak ve XLS ve DOC rapor şablonlar�
 |                              |                                                                                          |
 |------------------------------|------------------------------------------------------------------------------------------|
 | Kaldırılma nedeni       | Sınırlı kullanım                                                                            |
-| Başka bir özellik ile değiştirildi? | Hayır. Araç yapılandırmaları gelecekteki güncelleştirmeleri bildirdiği elektronik tarafından değiştirilecektir. |
+| Başka bir özellik ile değiştirildi? | Hayır. Araç gelecekteki sürümlerde Elektronik raporlama yapılandırmaları ile değiştirilecektir. |
 | Etkilenen modüller             | Genel Muhasebe                                                                           |
 
 ### <a name="import-of-customer-payment-transactions-for-finland"></a>Finlandiya için müşteri ödeme hareketlerini içe aktarma
@@ -148,7 +148,7 @@ Finlandiya ödemelerinde müşteri ödeme hareketlerini banka tarafından sağla
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Kaldırılma nedeni       | Ödeme biçimi artık kullanılmamaktadır.                                                     |
-| Başka bir özellik ile değiştirildi? | Hayır. ISO 20022 ifade alma biçimleri gelecekteki sürümlerde biçiminde değiştirilir. |
+| Başka bir özellik ile değiştirildi? | Hayır. Biçim gelecekteki sürümlerde ISO 20022 ekstre içe aktarma biçimleri ile değiştirilecektir. |
 | Etkilenen modüller             | Alacak hesapları                                                                       |
 
 ### <a name="import-of-payment-transactions-into-a-general-ledger-journal-for-finland"></a>Finlandiya için ödeme hareketlerini genel muhasebe günlüğüne içe aktarma
@@ -158,7 +158,7 @@ Muhasebe hareketlerini genel muhasebeye içe aktarmak için Finlandiya'ya özgü
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Kaldırılma nedeni       | Ödeme biçimi artık kullanılmamaktadır.                                                     |
-| Başka bir özellik ile değiştirildi? | Hayır. ISO 20022 ifade alma biçimleri gelecekteki sürümlerde biçiminde değiştirilir. |
+| Başka bir özellik ile değiştirildi? | Hayır. Biçim gelecekteki sürümlerde ISO 20022 ekstre içe aktarma biçimleri ile değiştirilecektir. |
 | Etkilenen modüller             | Alacak hesapları                                                                       |
 
 ### <a name="integration-with-isabel-synchronized-cis-for-belgium"></a>Belçika için Isabel ile tümleştirme eşitlendi (CIS)
@@ -168,7 +168,7 @@ Isabel, elektronik bankacılık için Avrupa'daki çerçevedir ve Belçika'da fi
 |                              |                                                                                                                      |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Kaldırılma nedeni       | Isabel istemcisi ile tümleştirme kaldırıldı.                                                                |
-| Başka bir özellik ile değiştirildi? | Hayır. Artık kullanılan ödeme biçimleri, Belçika için ISO20022 kredi transfer ödeme biçimi tarafından değiştirilir. |
+| Başka bir özellik ile değiştirildi? | Hayır. Belçika için artık kullanılmayan ödeme biçimleri, ISO20022 Alacak transferi ödeme biçimi ile değiştirildi. |
 | Etkilenen modüller             | Borç hesapları                                                                                                     |
 
 ### <a name="modifications-in-the-chart-of-accounts-and-accounting-rules-for-spain"></a>İspanya için hesap planı ve muhasebe kurallarındaki değişiklikler
@@ -218,7 +218,7 @@ Telehansa ve TeleTeenus biçimleri banka ödemesi içe aktarımı için kullanı
 |                              |                                                                                            |
 |------------------------------|--------------------------------------------------------------------------------------------|
 | Kaldırılma nedeni       | Ödeme biçimleri artık kullanılmamaktadır.                                                    |
-| Başka bir özellik ile değiştirildi? | Hayır. Biçimleri ISO 20022 ifade alma biçimleri gelecekteki sürümlerde değiştirilir. |
+| Başka bir özellik ile değiştirildi? | Hayır. Biçimler gelecekteki sürümlerde ISO 20022 ekstre içe aktarma biçimleri ile değiştirilecektir. |
 | Etkilenen modüller             | Alacak hesapları                                                                        |
 
 ### <a name="performance-management-goal-workflow"></a>Performans yönetimi hedefi iş akışı
@@ -228,7 +228,7 @@ Performans yönetimi, hedef yönetimini ve performans gözden geçirmeleri ile t
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Kaldırılma nedeni       | Performans yönetimi yeniden tasarlanmıştır ve hedef sayfalarının sayısı işlemi basitleştirecek şekilde azaltılmıştır.                 |
-| Başka bir özellik ile değiştirildi? | Hayır. Hedefleri yöneticileri Yöneticisi Self Servis Portalı aracılığıyla görülebilir ve değişti ve yönetici tarafından görüntülenebilir. |
+| Başka bir özellik ile değiştirildi? | Hayır. Hedefler yöneticiler tarafından Yönetici Self Servis portalından görülebilir, değiştirilebilir ve görüntülenebilir. |
 | Etkilenen modüller             | İnsan sermayesi yönetimi                                                                                                 |
 
 ### <a name="postgirot-and-postgirot-utland-payment-formats-for-sweden"></a>İsveç için Postgirot ve Postgirot Utland ödeme biçimleri
@@ -241,19 +241,19 @@ Performans yönetimi, hedef yönetimini ve performans gözden geçirmeleri ile t
 | Başka bir özellik ile değiştirildi? | Evet, İsveç için ISO20022 Alacak transferi ödeme biçimi |
 | Etkilenen modüller             | Borç hesapları                                        |
 
-### <a name="radio-frequency-identifier"></a>Radyo frekansı kimliği
+### <a name="radio-frequency-identifier"></a>Radyo frekansı kimlik tanımlayıcı
 
-Radyo frekansı tanımlama (RFID) elektronik etiket kimliği veri ve kimlik verileri yakalamak için bir görüş, Hayır satırı gereksinimin okuyucu depolamak için kullandığı veri toplama teknolojisidir.
+Radyo Frekans Kimlik Belirleme (RFID), kimlik bilgilerini saklamak için elektronik etiket kullanan ve okuyucunun kimlik saptama verisini yakalaması için doğrudan yöneltmeye gerek duymayan bir veri toplama teknolojisidir.
 
 |                              |                                               |
 |------------------------------|-----------------------------------------------|
-| Kaldırılma nedeni       | Düşük müşteri kullanım ve sınırlı özellik kümesi. |
+| Kaldırılma nedeni       | Düşük müşteri kullanımı ve sınırlı özellik kümesi. |
 | Başka bir özellik ile değiştirildi? | Hayır                                            |
 | Etkilenen modüller             | Stok Yönetimi                          |
 
 ### <a name="report-about-state-invoices-numbering-for-latvia"></a>Letonya için Fatura numarasının belirtilmesi hakkında rapor
 
-Letonya mevzuatı satış faturalarının numaralandırılması hakkında belirli kurallar sağlar. Satış faturaları, kullanıcı veya kullanıcı grubunun temel alan belirli numaraları atamak işlevselliği sağlar. Sonra bir rapor veya bir XML dosyası oluşturabilirsiniz. Ayrıca, kullanılan fatura numaraları hakkında bir rapor yazdırabilirsiniz.
+Letonya mevzuatı satış faturalarının numaralandırılması hakkında belirli kurallar sağlar. İşlev, kullanıcı veya kullanıcı grubuna göre satış faturalarına belirli numaralar atamanızı sağlar. Ardından bir rapor veya bir XML dosyası oluşturabilirsiniz. Ayrıca, kullanılan fatura numaraları hakkında bir rapor yazdırabilirsiniz.
 
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
@@ -312,7 +312,7 @@ Personel hedeflerini oluşturmayı yöneten iş akışı, performans yönetim i�
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF, AxD ve AxBC entegrasyonlar
 
-Uygulama Tümleştirme Çerçevesi (AIF) içerisinde veriler, hizmetler olarak gösterilen iş mantığı üzerinden dış sistemlerle değiştirilebilir. Dynamics AX, .NET Business Connector (AxBC) ve belgelere dayanan hizmetleri içerir. Bir belge, XML kullanılarak oluşturulur. XML, bir *ileti* oluşturmak için eklenen ve Dynamics AX içine veya dışına transfer edilebilen üstbilgi bilgilerini içerir. Belgelerin örnekleri satınalma siparişleri ve satış siparişlerini içerir. Ancak, bir müşteri gibi hemen hemen her varlık, bir belge tarafından temsil edilebilir. Belgeleri kullanım dayanarak Hizmetleri **Axd &lt;*belge*&gt;** sınıfları.
+Uygulama Tümleştirme Çerçevesi (AIF) içerisinde veriler, hizmetler olarak gösterilen iş mantığı üzerinden dış sistemlerle değiştirilebilir. Dynamics AX, .NET Business Connector (AxBC) ve belgelere dayanan hizmetleri içerir. Bir belge, XML kullanılarak oluşturulur. XML, bir *ileti* oluşturmak için eklenen ve Dynamics AX içine veya dışına transfer edilebilen üstbilgi bilgilerini içerir. Belgelerin örnekleri satınalma siparişleri ve satış siparişlerini içerir. Ancak, bir müşteri gibi hemen hemen her varlık, bir belge tarafından temsil edilebilir. Belgelere dayanan hizmetler **Axd &lt;*Belge*&gt;** sınıflarını kullanır.
 
 |                              |                                                                                                                                                                                                          |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -347,7 +347,7 @@ ICMS vergisi için federal vergi ekstresi
 |                              |                                                                                                                       |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Kaldırılma nedeni       | Bu ekstre bazı Brezilya eyaletlerinde artık kullanılmamaktadır.                                                     |
-| Başka bir özellik ile değiştirildi? | Hayır. Kullanıcılar genel Raporlama Aracı deyimi belirli durumlar altında gerekirse yapılandırmak için elektronik kullanabilirsiniz. |
+| Başka bir özellik ile değiştirildi? | Hayır. Kullanıcılar Genel Elektronik raporlama aracını belirli durumlarda gerektiğinde ekstreyi yapılandırmak için kullanabilir. |
 | Etkilenen modüller             | Mali defterler                                                                                                          |
 
 ### <a name="brazilian-scan-contingency-mode-for-nf-e"></a>NF-e için Brezilya SCAN yedeği modu
@@ -631,7 +631,7 @@ Microsoft Dynamics AX 2012 gerçekleşmemiş katma değer vergisi (KDV) Meksika 
 |                              |                                                                                                                                                                                                                                                                                                                              |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kaldırılma nedeni       | Bu işlevin yerini temel Bordro ve İnsan Kaynakları sayfaları almıştır.                                                                                                                                                                                                                                              |
-| Başka bir özellik ile değiştirildi? | **Avantajlar**, **Kazançlar** ve daha önce ABD Bordro'da olan diğer ilgili sayfalar yeniden yapılandırıldı ve artık harici bordro işlemeyi desteklemeye yardımcı olacak temel İnsan Kaynakları yapılandırmasının bir parçasılar. Bu işlev kullanılarak erişilen **İnsan Kaynakları 1**&gt;**Bordro** konfigürasyon anahtarı. |
+| Başka bir özellik ile değiştirildi? | **Avantajlar**, **Kazançlar** ve daha önce ABD Bordro'da olan diğer ilgili sayfalar yeniden yapılandırıldı ve artık harici bordro işlemeyi desteklemeye yardımcı olacak temel İnsan Kaynakları yapılandırmasının bir parçasılar. Bu işleve **İnsan Kaynakları 1** &gt; **Bordro** konfigürasyon anahtarı kullanılarak erişilir. |
 | Etkilenen modüller             | İnsan kaynaklarını, Bordro                                                                                                                                                                                                                                                                                                     |
 
 ### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a>Stok ve Ambar yönetim günlüklerinin özel durdurması
@@ -698,12 +698,12 @@ Site Hizmetleri, BT desteği olmadan iş süreçlerinizi internete genişleten w
 | Başka bir özellik ile değiştirildi? | Hayır                                                                                                                                       |
 | Etkilenen modüller             | İK işe alma, Vaka yönetimi, Teklif talebi, Satıcı kaydı                                                                  |
 
-### <a name="ssas-demand-forecasting-strategy"></a>Strateji tahmin SSAS isteğe bağlı
+### <a name="ssas-demand-forecasting-strategy"></a>SSASS talep tahmin stratejisi
 
 |                              |                                                                              |
 |------------------------------|------------------------------------------------------------------------------|
-| Kaldırılma nedeni       | Bu özellik tasarım yeni bulut mimarisinde desteklenemiyor. |
-| Başka bir özellik ile değiştirildi? | Azure makine öğrenme Talep tahmini stratejisi                           |
+| Kaldırılma nedeni       | Özelliğin tasarımı yeni bulut mimarisinde desteklenemez. |
+| Başka bir özellik ile değiştirildi? | Azure Makine Öğrenimi talep tahmini stratejisi                           |
 | Etkilenen modüller             | Planlama                                                                     |
 
 ### <a name="travel-requisitions"></a>Seyahat talepleri

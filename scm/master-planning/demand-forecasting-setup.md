@@ -28,32 +28,35 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="demand-forecasting-setup"></a>Talep tahmini kurulumu
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu konu başlığı, talep tahmini için hazırlamak üzere gerçekleştirmeniz gereken kurulum görevlerini açıklar.  
 
 Kurulum görevleri, aşağıdaki veri ve parametreleri ayarlamayı içerir.
 
 ## <a name="item-allocation-key"></a>Madde dağıtım anahtarı
-Talep tahmini, bir öğe ve boyutları için, yalnızca o öğe bir madde tahsisat anahtarının parçasıysa hesaplanır. Böylece talep tahminleri daha hızlı bir şekilde oluşturulabilir Grup çok sayıda öğe için bu kural uygulanır. Talep tahminleri yaratılırken madde tahsisat anahtarı yüzdesi yok sayılır. Tahminler yalnızca geçmiş veriler temel alınarak oluşturulur. 
+Talep tahmini, bir öğe ve boyutları için, yalnızca o öğe bir madde tahsisat anahtarının parçasıysa hesaplanır. Bu kural, büyük öğe sayılarını gruplamak için uygulanır, böylece talep tahminleri daha hızlı oluşturulabilir. Madde tahsisatı kilit yüzdesi, talep tahmini oluştururken yok sayılır. Tahminler yalnızca geçmiş veriler temel alınarak oluşturulur. 
 
 Tahmin oluşturma sırasında madde tahsisat anahtarı kullanılıyorsa, bir madde ve boyutları sadece bir madde tahsisat anahtarının parçası olmalıdır. 
 
-Bir madde tahsisat anahtarı için bir stok tutma birimi (STB) eklemek için Git **Master planlama**&gt;**Kurulum**&gt;**talep tahmin**&gt;**madde tahsisat anahtarları**. Bir maddeyi bir tahsisat anahtarına atamak için **Maddeleri ata** sayfasını kullanın.
+Bir madde tahsisat anahtarına bir stok tutma birimi (SKU) eklemek için, **Master planlama** &gt; **Kurulum** &gt; **Talep tahmini** &gt; **Madde tahsisat anahtarları** menüsüne gidin. Bir maddeyi bir tahsisat anahtarına atamak için **Maddeleri ata** sayfasını kullanın.
 
 ## <a name="intercompany-planning-groups"></a>Şirketlerarası planlama grupları
-Talep tahmini, şirketler arası tahminler oluşturur. İşlemler için Microsoft Dynamics 365 içinde birlikte planlanan şirketler bir şirketlerarası planlama Grup gruplandırılır. , Hangi madde tahsisat anahtarları sayılacağı Talep tahmini için şirket bazında belirtmek için bir madde tahsisat anahtarı giderek grup üyesi planlama şirketlerarası ilişkilendirmek **Master planlama**&gt;**Kurulum**&gt;**şirketlerarası planlama grupları**. 
+Talep tahmini, şirketler arası tahminler oluşturur. Microsoft Dynamics 365 for Operations'ta, birlikte planlanan şirketler bir şirketlerarası planlama grubu olarak gruplandırılır. Her şirket için talep tahmininde hangi madde tahsisat anahtarlarının düşünülmesi gerektiğini belirlemek için, **Master planlama** &gt; **Kurulum** &gt; **Şirketlerarası planlama grupları** menüsüne giderek bir madde tahsisat anahtarını şirketlerarası planlama grubu üyesi ile ilişkilendirin. 
 
-Hiçbir madde tahsisat anahtarları şirketlerarası planlama Grup üyelerinin, atanmış olan, varsayılan olarak, tüm madde tahsisat anahtarları için tüm Dynamics 365 işlemleri şirketler için atanmış olan tüm öğeler için bir talep tahmin hesaplanır. Şirketler ve madde tahsisat anahtarları için ek filtreleme seçenekleri **İstatistik temel tahmin oluştur** sayfasında mevcuttur. 
+Varsayılan olarak, şirketlerarası planlama grubu üyelerine hiçbir madde tahsisat anahtarı atanmamışsa, tüm Dynamics 365 for Operations şirketlerinden tüm madde tahsisat anahtarlarına atanan tüm maddeler için bir talep tahmini hesaplanır. Şirketler ve madde tahsisat anahtarları için ek filtreleme seçenekleri **İstatistik temel tahmin oluştur** sayfasında mevcuttur. 
 
 Tahmin edilen maddelerin sayısını gözden geçirin. Microsoft Azure Machine Learning'i kullandığınızda, gereksiz maddeler artan maliyetlere yol açabilir.
 
 ## <a name="demand-forecasting-parameters"></a>Talep tahmin parametreleri
-İsteğe bağlı parametreleri tahmini ayarlamak için Git **Master planlama**&gt;**Kurulum**&gt;**isteğe bağlı parametreleri tahmin**. Talep tahmini şirketler arası gerçekleştirildiği için, ayar geneldir. Diğer bir deyişle, ayar tüm şirketler için geçerlidir. 
+Talep tahmin parametrelerini ayarlamak için, **Master planlama** &gt; **Kurulum** &gt; **Talep tahmin parametreleri** menüsüne gidin. Talep tahmini şirketler arası gerçekleştirildiği için, ayar geneldir. Diğer bir deyişle, ayar tüm şirketler için geçerlidir. 
 
 Talep tahmini, tahmini miktar cinsinden oluşturur. Bu yüzden, miktarın ifade edileceği ölçü birimi **Talep tahmin birimi** alanında belirtilmelidir. Ölçü birimi, toplam ve yüzde dağılımının anlamlı olmasını garantiye almak için benzersiz olmalıdır. Toplam ve yüzde dağılımı hakkında daha fazla bilgi için, bkz. [Temel tahmine manüel ayarlar yapma](manual-adjustments-baseline-forecast.md). Talep tahminine dahil edilen SKU'lar için kullanılan her ölçü birimi konusunda, ölçü birimi ve genel tahmin ölçü birimi için bir dönüştürme kuralı olduğundan emin olun. Tahmin oluşturma çalıştırıldığında, ölçü birimi dönüşümü olmayan öğelerin listesi kaydedilir, böylece ayarı kolayca düzeltebilirsiniz. 
 
 Talep tahmini bağımlı ve bağımsız talebi tahmin etmek için kullanılabilir. Örneğin, yalnızca **Satış emri** onay kutusu seçiliyse ve talep tahmini için kabul edilen tüm öğeler satılan öğeler ise, sistem bağımsız talebi hesaplar. Ancak, kritik alt bileşenler madde tahsisat anahtarlarına eklenebilir ve talep tahminine eklenebilir. Bu durumda, **Üretim satırı** onay kutusu seçildiğinde, bağımlı bir tahmin hesaplanır. 
 
-Temel işlemleri için Dynamics 365, tahmin oluşturmak için iki yöntem vardır. Geçmiş verilerin üstündeki tahmin modellerini kullanabilir veya sadece geçmiş verileri tahmine kopyalayabilirsiniz. **Tahmin oluşturma stratejisi** alanı bu iki yöntem arasında seçim yapmanıza olanak verir. Tahmin modellerini kullanmak için, **Azure Machine Learning** seçeneğini seçin. 
+Dynamics 365 for Operations'ta bir temel tahmin oluşturmak için iki yöntem vardır. Geçmiş verilerin üstündeki tahmin modellerini kullanabilir veya sadece geçmiş verileri tahmine kopyalayabilirsiniz. **Tahmin oluşturma stratejisi** alanı bu iki yöntem arasında seçim yapmanıza olanak verir. Tahmin modellerini kullanmak için, **Azure Machine Learning** seçeneğini seçin. 
 
 **Talep tahmini parametreleri** sayfasının sol bölmesinde **Tahmin boyutları** seçeneğine tıklayarak, talep tahmini oluşturulurken kullanılacak tahmin boyutları kümesini de seçebilirsiniz. Bir tahmin boyutu tahminin tanımlandığı ayrıntı düzeyini gösterir. Şirket, tesis ve madde tahsisat anahtarı zorunlu tahmin boyutlarıdır, ancak ayrıca depo, envanter durumu, müşteri grubu, müşteri hesabı, ülke/bölge, şehir ve öğe artı tüm öğe boyut seviyelerinde de tahminler oluşturabilirsiniz. 
 
@@ -61,27 +64,29 @@ Herhangi bir aşamada, talep tahmini için kullanılan boyutların listesine tah
 
 Tüm öğeler talep tahmini perspektifinden aynı şekilde davranmaz. Benzer öğeler bir madde tahsisat anahtarında gruplandırılabilir ve hareket türleri ile tahmin yöntem ayarları gibi parametreler her madde tahsisat anahtarı için ayarlanabilir. **Talep tahmin parametreleri** sayfasının sol bölmesindeki **Madde tahsisat anahtarları** öğesine tıklayın. 
 
-Tahmin oluşturmak için bir makine öğrenme web hizmet işlemleri için Dynamics 365 kullanır. Microsoft Azure makine öğrenme Studio oturum hizmetine bağlanmak için Dynamics 365 işlemleri için aşağıdaki bilgileri sağlamalısınız:
+Dynamics 365 for Operations, tahmin oluşturmak için bir Machine Learning ağ hizmeti kullanır. Hizmete bağlanmak için, Microsoft Azure Machine Learning Studio'da oturum açarsanız, Dynamics 365 for Operations'a aşağıdaki bilgileri sağlamanız gerekir:
 
 -   Ağ hizmeti uygulama programlama arabirimi (API) anahtarı
 -   Ağ hizmeti sonlanım noktası URL'si
 -   Azure depolama hesap adı
 -   Azure depolama hesap anahtarı
 
-**Not:** Sadece özel bir depolama hesabı kullanıyorsanız Azure depolama hesap adı ve anahtarı gerekir. Şirket içi sürüm dağıtırsanız, makine öğrenme hizmeti geçmiş verilerini erişebilmesi için Azure, özel depolama hesabında olmalıdır. 
+**Not:** Sadece özel bir depolama hesabı kullanıyorsanız Azure depolama hesap adı ve anahtarı gerekir. Şirket içi sürümünü kullanıyorsanız, Makine Öğrenimi hizmetinin geçmiş verilere ulaşabilmesi için Azure üzerinde özel bir depolama hesabınızın olması gerekir. 
 
-İsteğe bağlı Öngörüler oluşturmak için kendi servis işlemleri Talep tahmini deneyler makine öğrenme Studio veya Dynamics 365 kullanarak dağıtabilirsiniz. İşlemler için kullanılabilir Dynamics 365 deneyler bir web hizmeti olarak tahmin işlemlerinin talep için Dynamics 365 dağıtma yönergeleri verilmiştir. **Demand forecasting parameters** sayfasında, **Azure Machine Learning** öğesine tıklayın.
+Talep tahminleri oluşturmak için, Machine Learning Studio veya Dynamics 365 for Operations Talep tahmin deneylerini kullanarak kendi hizmetinizi uygulayabilirsiniz. Dynamics 365 for Operations talep tahmin deneylerini bir ağ hizmeti olarak kullanma talimatları Dynamics 365 for Operations'ta mevcuttur. **Demand forecasting parameters** sayfasında, **Azure Machine Learning** öğesine tıklayın.
 
-## <a name="settings-for-the-dynamics-365-for-operations-demand-forecasting-machine-learning-service"></a>Tahmin makine öğrenme hizmeti ayarlarını Dynamics 365 işlemleri için talep
-Tahmin hizmet işlemleri talep için Dynamics 365 için yapılandırılabilir parametreleri görüntülemek için Git **Master planlama**&gt;**Kurulum**&gt;**talep tahmin**&gt;**algoritma parametreleri tahmin**. **Algoritma parametreleri tahmin** sayfa parametreler için varsayılan değerleri gösterir. Bu parametreler üzerine yazabilir **isteğe bağlı parametreleri tahmin** sayfa. Genel olarak parametrelerin üzerine yazmak için **Genel** öğesini kullanın veya her bir madde tahsisat anahtarı için parametrelerin üzerine yazmak istiyorsanız **Madde tahsisat anahtarları** öğesini kullanın. Bir madde tahsisat anahtarı için üzerine yazılan parametreler sadece o madde tahsisat anahtarı ile ilişkilendirilen öğelerin tahminini etkiler.
+## <a name="settings-for-the-dynamics-365-for-operations-demand-forecasting-machine-learning-service"></a>Dynamics 365 for Operations talep tahmini makine öğrenimi hizmeti için ayarlar
+Dynamics 365 for Operations talep tahmini hizmeti için yapılandırılabilecek parametreleri görmek için, **Master planlama** &gt; **Kurulum** &gt; **Talep tahmini** &gt; **Tahmin algoritma parametreleri** konumuna gidin. **Tahmin algoritma parametreleri** sayfası, parametreler için varsayılan değerleri gösterir. Bu parametrelerin üzerine **Talep tahmini parametreleri** sayfasında yazabilirsiniz. Genel olarak parametrelerin üzerine yazmak için **Genel** öğesini kullanın veya her bir madde tahsisat anahtarı için parametrelerin üzerine yazmak istiyorsanız **Madde tahsisat anahtarları** öğesini kullanın. Bir madde tahsisat anahtarı için üzerine yazılan parametreler sadece o madde tahsisat anahtarı ile ilişkilendirilen öğelerin tahminini etkiler.
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Introduction to demand forecasting](introduction-demand-forecasting.md)
+[Talep tahminine giriş](introduction-demand-forecasting.md)
 
-[Generating a statistical baseline forecast](generate-statistical-baseline-forecast.md)
+[İstatistik temel tahmin oluşturma](generate-statistical-baseline-forecast.md)
 
-[Making manual adjustments to the baseline forecast](manual-adjustments-baseline-forecast.md)
+[Temel tahminde manüel ayarlamalar yapma](manual-adjustments-baseline-forecast.md)
+
+
 
 

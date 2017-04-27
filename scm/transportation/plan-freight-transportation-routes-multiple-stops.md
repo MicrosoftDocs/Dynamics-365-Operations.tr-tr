@@ -1,5 +1,5 @@
 ---
-title: "Birden fazla duraklı navlun taşımacılık yollarını planlayın"
+title: "Birden fazla duraklı navlun taşıma rotaları planlama"
 description: "Bu makalede Microsoft Dynamics AX uygulamasında ulaşım yolları planlamak için kullandığınız çeşitli öğeler açıklanmaktadır."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Birden fazla duraklı navlun taşımacılık yollarını planlayın
+# <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Birden fazla duraklı navlun taşıma rotaları planlama
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede Microsoft Dynamics AX uygulamasında ulaşım yolları planlamak için kullandığınız çeşitli öğeler açıklanmaktadır.
 
@@ -48,5 +51,7 @@ Planlanan bir rota sevkiyat tarihleri için bir planı olan, önceden tanımlanm
 
 ## <a name="load-building-workbench"></a>Yük oluşturma çalışma ekranı
 Yük oluşturma çalışma ekranı yük önermek için, satış siparişlerinden alınan müşteri adreslerini ve teslimat tarihleri ile kullanılabilen planlanan rotaları kullanır. Varsayılan olarak rotanın değerleri çalışma ekranına girilir. Ancak rotadaki "başlangıç" tarihinden önceki bir "başlangıç" tarihi seçebilirsiniz. Yük önerildiğinde tüm açık satış siparişlerinin teslimat adresi ve teslimat tarihi denetlenir. Teslimat adresinin posta kodu rota planındaki bir hub'ın posta kodu ile eşleşirse ve teslimat tarihi ölçütlerde seçilen aralığın içindeyse satış siparişi yük için önerilir. Yük şablonunun kapasitesi de dikkate alınır. Bir defada yalnızca bir yük önerilir. Dahil edilmeyen bir satış siparişiniz varsa, farklı bir yük şablonu kullanmanız (örneğin daha büyük bir kamyon veya konteyner için bir yük şablonu) veya ek teslimat planlamanız gerekebilir.
+
+
 
 

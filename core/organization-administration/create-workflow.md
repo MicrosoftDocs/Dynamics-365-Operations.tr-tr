@@ -26,15 +26,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-workflow"></a>İş akışı oluşturma
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu konular bir iş akışının nasıl oluşturulacağını açıklar.
 
 <a name="open-the-workflow-editor"></a>İş akışı düzenleyicisini açma
 ------------------------
 
-Microsoft Dynamics 365 çalıştığınız işlemleri modülü için oluşturabileceğiniz bir iş akışı türlerini belirler. Oluşturmak için iş akışı türünü seçmek ve iş akışı düzenleyicisini açmak için aşağıdaki adımları izleyin.
+Oluşturabileceğiniz iş akışı türleri, çalışmakta olduğunuz Microsoft Dynamics 365 for Operations modülüne göre belirlenir. Oluşturmak için iş akışı türünü seçmek ve iş akışı düzenleyicisini açmak için aşağıdaki adımları izleyin.
 
 1.  Yeni bir iş akışı oluşturmak istediğiniz modülü açın. Örneğin, satınalma talepleri için bir iş akışı oluşturmak için **Tedarik ve kaynak atama**'ya tıklayın.
-2.  ' I **Kurulum**&gt;**\[modül adı\] iş akışları**.
+2.  **Kurulum** &gt; **\[Modül adı\] iş akışları'na** tıklayın.
 3.  Eylem Bölmesi'nde görüntülenen liste sayfasında **Yeni**'ye tıklayın.
 4.  **İş akışı oluştur** sayfasında oluşturmak için iş akışı türünü seçin ve ardından **İş akışı oluştur**'a tıklayın. İş akışı düzenleyicisi görüntülenir. İş akışını tasarlamak için artık aşağıdaki yordamları kullanabilirsiniz.
 
@@ -75,6 +78,8 @@ Tuvalin üzerine sürüklediğiniz tüm öğeleri yapılandırın. Tüm iş akı
 3.  Tüm hatalar ve uyarılar çözümlenirse **İş akışını etkinleştir** sayfası görüntülenir. Aşağıdaki seçeneklerden birini belirleyin:
     -   İş akışının bu sürümünü etkinleştirmek için **Yeni sürümü etkinleştir**'e tıklayın. İş akışı etkinken kullanıcılar işlenmesi için iş akışına belgeler gönderebilir.
     -   Bu sürümü etkinleştirmek istemiyorsanız **Yeni sürümü etkinleştirme**'ye tıklayın. İş akışını daha sonra etkinleştirebilirsiniz.
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Master planlama tesis ve ambar için kapsamı, zorunlu ambar"
+title: "Tesis ve ambar kapsamı için master planlama, ambar zorunlu değil"
 description: "Bu konu, site ve ambarın kapsam olduğu bir maddenin nasıl planlanacağını anlatır. Ambar boyutu zorunlu değildir."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Master planlama tesis ve ambar için kapsamı, zorunlu ambar
+# <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Tesis ve ambar kapsamı için master planlama, ambar zorunlu değil
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu konu, site ve ambarın kapsam olduğu bir maddenin nasıl planlanacağını anlatır. Ambar boyutu zorunlu değildir.
 
@@ -38,10 +41,10 @@ Bu master planlama senaryosu aşağıdaki koşulları kapsar:
 -   Tesis ve ambar boyutları tedarik planlama için ayarlanmıştır. Ayrıca, diğer boyutlar da tedarik planlama için ayarlanmış olabilir. Ancak, bunlar birden çok tesis işlevselliğinden etkilenmemiştir.
 
 Aşağıdaki grafikte, master plan planlamasının ne şekilde ilerlediği gösterilmiştir. Grafikte söz edilen parametreler ve bunların konumları aşağıdaki gibidir:
--   Ambar El ile olarak ayarlanmıştır. ' I **Stok Yönetimi &gt;Kurulum &gt;Stok dökümü &gt;Ambarlar**. **Master planlama** hızlı sekmesi üzerindeki **El ile** alanına bakınız.
--   Madde karşılama, madde için tanımlanmıştır. ' I **ürün bilgi yönetimi &gt;ürünleri&gt; ürünleri piyasaya**. Öğeyi seçin ve ardından eylem bölmesinde, üzerinde **Plan** sekmesini tıklatın, **Madde kapsamı**.
--   Stok yenileme ilişkileri ambar için tanımlanmıştır. ' I **Stok Yönetimi &gt;Kurulum &gt;Stok dökümü &gt;Ambarlar**. **Master planlama** hızlı sekmesi üzerindeki **Ana ambar** alan grubuna bakınız.
--   Varsayılan sipariş türü Ürün, Satınalma siparişi veya Kanban olarak ayarlıdır. ' I **ürün bilgi yönetimi &gt;ürünleri&gt; ürünleri piyasaya**. Öğeyi seçin ve ardından eylem bölmesinde, üzerinde **Plan** sekmesini tıklatın, **sipariş ayarları varsayılan**. **Varsayılan sipariş ayarları** formunda **Varsayılan sipariş türü**'ne bakınız.
+-   Ambar El ile olarak ayarlanmıştır. Şu öğeleri tıklatın: **Stok yönetimi &gt; Kurulum &gt; Stok dökümü &gt; Ambarlar**. **Master planlama** hızlı sekmesi üzerindeki **El ile** alanına bakınız.
+-   Madde karşılama, madde için tanımlanmıştır. **Ürün bilgileri yönetimi &gt; Ürünler&gt; Serbest bırakılan ürünler** seçeneğine tıklayın. Maddeyi seçin ve sonra Eylem bölmesi üzerindeki **Plan** sekmesinde, **Madde kapsamı** seçeneğini tıklatın.
+-   Stok yenileme ilişkileri ambar için tanımlanmıştır. Şu öğeleri tıklatın: **Stok yönetimi &gt; Kurulum &gt; Stok dökümü &gt; Ambarlar**. **Master planlama** hızlı sekmesi üzerindeki **Ana ambar** alan grubuna bakınız.
+-   Varsayılan sipariş türü Ürün, Satınalma siparişi veya Kanban olarak ayarlıdır. **Ürün bilgileri yönetimi &gt; Ürünler&gt; Serbest bırakılan ürünler** seçeneğine tıklayın. Maddeyi seçin ve sonra Eylem bölmesi üzerindeki **Plan** sekmesinde, **Varsayılan sipariş ayarları** seçeneğini tıklatın. **Varsayılan sipariş ayarları** formunda **Varsayılan sipariş türü**'ne bakınız.
 
 ![Tesis ve ambar talebi, ambar zorunlu değil](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousenotmandatory.jpg)
 
@@ -53,7 +56,7 @@ Aşağıdaki grafikte, master plan planlamasının ne şekilde ilerlediği göst
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Master planlama ve birden çok tesis işlevi](master-plan-multisite-functionality.md)
 
 [Master planlama - tesis ve ambar kapsamı, ambar zorunlu](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
@@ -62,5 +65,7 @@ Aşağıdaki grafikte, master plan planlamasının ne şekilde ilerlediği göst
 [Master planlama - tesis kapsamı, ambar zorunlu değil](master-plan-site-coverage-warehouse-not-mandatory.md)
 
 [Master planlama - Ürün reçetesi sürümünün nasıl belirlendiği](master-plan-bom-version-determined.md)
+
+
 
 

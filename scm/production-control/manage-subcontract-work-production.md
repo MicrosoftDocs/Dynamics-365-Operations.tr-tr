@@ -1,6 +1,6 @@
 ---
-title: "Üretimde Taşeron iş yönetme"
-description: "Bu konu açıklar nasıl Taşeron işlemleri Microsoft Dynamics 365 işlemleri için yönetilir. Diğer bir deyişle, üretim işlemlerinin bir kaynağa ayrılmış satıcı tarafından nasıl yönetildiğini açıklar."
+title: "Üretimdeki alt sözleşme işini yönetme"
+description: "Bu konu, alt sözleşmeli operasyonların Microsoft Dynamics 365 for Operations&quot;ta nasıl yönetileceğini açıklar. Başka bir deyişle, bir kaynağa atanan üretim operasyonlarının bir satıcı tarafından nasıl yönetileceğini açıklar."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,77 +26,82 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="manage-subcontracting-work-in-production"></a>Üretimde Taşeron iş yönetme
+# <a name="manage-subcontracting-work-in-production"></a>Üretimdeki alt sözleşme işini yönetme
 
-Bu konu açıklar nasıl Taşeron işlemleri Microsoft Dynamics 365 işlemleri için yönetilir. Diğer bir deyişle, üretim işlemlerinin bir kaynağa ayrılmış satıcı tarafından nasıl yönetildiğini açıklar.
+[!include[banner](../includes/banner.md)]
 
-İçinde [üretim işlemleri](production-process-overview.md), iş sahibi veya satıcılar tarafından yönetilen kaynaklar tarafından yapılabilir. Genellikle, satıcı kaynakları kullanılır, şirketin kullanılabilir kapasitesini karşıladığından düzey dönemsel aşırı talep için kaynaklara sahip. Satıcı Ayrıca belirli sunmak mümkün olabilir [kaynak yetenekleri](resource-capabilities.md)veya daha düşük bir fiyatla kaynakları.  
 
-Bir üretim sürecinde kullanılan satıcı kaynaklara bağlı olarak bir [yol](routes-operations.md) malzeme ve yarı bitmiş ürünler öncelikle satıcının siteye taşınmasını gerekir çünkü genellikle Lojistik ek gereksinimleri vardır. Taşeron işleminin sonucu ya da sonraki operasyon veya mamul malların ambar için ayrılan yere taşınmasını sonra.  
+Bu konu, alt sözleşmeli operasyonların Microsoft Dynamics 365 for Operations'ta nasıl yönetileceğini açıklar. Başka bir deyişle, bir kaynağa atanan üretim operasyonlarının bir satıcı tarafından nasıl yönetileceğini açıklar.
 
-Taşeron işlemler veya etkinlikler kullanıldığında, tüm işlemleri, üretim, maliyetlendirme, tahmini, planlama ve zamanlama, malzeme, yarı bitmiş ürünler ve Mamul mallar için Lojistik yönetimi için gerekli işlemleri tanımından aşamalarını etkilerler. Son olarak, bu kaynaklar için hesap ve maliyet denetimi kendi işlemlerinin izlenmesini gerektirir.  
+[Üretim işlemlerinde](production-process-overview.md) iş, satıcıların sahip olduğu veya onlar tarafından yönetilen kaynaklar tarafından yapılabilir. Genellikle satıcı kaynakları, bir şirketin kendi kaynaklarını aşan düzenli fazla talebi düzenlemek için kullanılır. Satıcı aynı zaman çeşitli [kaynak yetenekleri](resource-capabilities.md)veya kaynakları daha düşük fiyattan sunabilir.  
 
-İç kaynaklar için sabit maliyet oranı genellikle bir dönem için tahsis edilir. Bunun tersine, Taşeron kaynakların maliyeti ilgili hizmeti satın alma fiyatına dayanır. Hizmet başka bir ürün olarak tanımlanır ve tedarik sürücü ve satın alma işlemleri için verilen bir taşeron işlemi için kullanılır.  
+Bir üretim sürecinde kullanılan satıcı kaynaklarına bağlı olarak, bir [yol](routes-operations.md) çoğu zaman ek lojistik gereksinimlere sahiptir çünkü kaynaklar ve yarı bitirilmiş ürünler ilk önce satıcının sitesine taşınmak zorundadır. Daha sonra, alt sözleşmeli operasyonun sonucu bir sonraki operasyona atanmış konuma ya da bir mamul mal deposuna taşınmalıdır.  
 
-Şu anda, yarı bitmiş ürünler, Microsoft Dynamics 365 işlemleri için açık kavramı yoktur. Hammadde tamamlanmış mal dönüştürmek üzere birden çok işlem gerektiren bir üretim emri için Tamamlanan malın son operasyondan stoka yalnızca uygulamasına geri nakledilir. Süren İş'de Süren iş (WIP) önceki işlemleri üretmek yarı bitmiş ürünler hesaba katılmış, ancak deftere olmayan veya stokta izlenir. Rota ve ürün reçeteleri (BOM), birden çok daha küçük birimlere bölebilirsiniz olsa da, bu yaklaşım ürünler, ürün reçeteleri ve yönetilmelidir yolların sayısı artar.  
+Alt sözleşme operasyonları veya etkinlikleri kullanıldığında, bunlar operasyonun tüm aşamalarını etkiler, üretimde, maliyetlendirmede, öngörü oluşturmada, planlamada ve zamanlamada gerekli olan operasyonların tanımından, malzemelerin, yarı bitmiş ürünlerin ve mamul malların yönetimine kadar. Son olarak, bu kaynaklar muhasebe ve maliyet denetimi için kendi işlemlerine ihtiyaç duyarlar.  
 
-Taşeron üretim operasyonları için iş modelleme için iki yöntem vardır. Bu yöntemler, Taşeron işlemi, yarı bitmiş ürünler, süreç içinde temsil edilir ve maliyet denetimi şekilde yönetilen yolu modellenebilir emin bir şekilde farklılık gösterir.
+Dahili kaynaklar için, sabit maliyet oranı genellikle bir dönem için tahsis edilir. Bunun tersine, alt sözleşmeli kaynakların maliyeti, ilgili hizmetin satınalma fiyatına dayanır. Hizmet, başka bir ürün olarak tanımlanır ve belirli bir alt sözleşmeli operasyonun satın alınması ve satınalma işlemlerini yürütmek için kullanılır.  
 
--   Rota operasyonları üretim emirleri veya toplu iş emirleri, Taşeron
-    -   Servis Ürün stoklu ürün olmalı ve ürün Reçetesinin parçası olmalıdır.
-    -   Bu yöntem, ilk giren ilk çıkar (FIFO) veya standart maliyet destekler.
-    -   Yarı bitmiş ürünler hizmet ürün işlemi tarafından temsil edilir.
-    -   Taşeron iş malzeme maliyetleri ile ilişkilendirilmiş maliyetler maliyet kontrol ayırır.
--   Yalın üretim akışını üretim akışı faaliyetlerinin Taşeron
-    -   Servis hizmeti stoğu olmayan bir üründür ve ürün Reçetesinin parçası değildir.
-    -   Bu yöntem, satın alma anlaşmaları servis anlaşmaları kullanır.
-    -   Bu yöntemi tamamlandığında malzeme çek maliyetlendirme kullanır.
-    -   Bu yöntem için toplanmış ve zaman uyumsuz tedarik sağlar. (Malzeme akışı tedarik sürecinin bağımsızdır.)
-    -   Maliyet kontrolü kendi Maliyet dökümü bloktaki Taşeron iş ayırır.
+Şu anda, yarı bitmiş ürünler için Microsoft Dynamics 365 for Operations'ta açık bir kavram yoktur. Ham maddeleri mamul mala dönüştürmek için birden fazla operasyona ihtiyaç duyan bir üretim emri için mamul mal, sadece son operasyonda tekrardan stoklara geri nakledilir. Daha önceki operasyonların ürettiği yarı bitmiş ürünler, süren iş (WIP) olarak hesaba katılır, ancak stokta izlenmez veya gönderilmez. Rotaları ve ürün reçetelerini (BOM'lar) birden fazla küçük birime bölebiliyor olsanız da, bu yaklaşım yönetilmesi gereken ürünlerin, BOM'ların ve rotaların sayısını artırır.  
 
-## <a name="subcontracting-of-route-operations"></a>Rota operasyonlarında Taşeron
-Rota operasyonları üretim veya toplu siparişler için Taşeron kullanmak için hizmet satın alma için kullanılan hizmet ürün bir ürün olarak tanımlanan **hizmet** türü. Ayrıca, olan bir madde model grubu olması gerekir **Stocked ürün** altında seçenek **stok İlkesi** ayarlamak **Evet**. Bu seçenek bir ürün stok ürün alış irsaliyesindeki aldığından olup olmadığını tanımlar (**Stocked ürün** = **Evet**), veya kar ve zarar hesabında ürünü olup expensed (**Stocked ürün** = **yok**). Bu davranış çelişkili görünse de, bu ilke ayarının yapılmış olduğu ürünleri kullanılabilir stok hareketlerini hesaplamak Planlanan Maliyet ve fiili maliyeti üretim siparişi sonlandığında belirlemek için Maliyet kontrolü oluşturacak dayanarak gerçeğine olur.  
+Üretim operasyonları için alt sözleşmeli işleri modellemenin iki yöntemi vardır. Bu yöntemler alt sözleşmeli sürecin modellenme şeklinde, yarı bitmiş ürünlerin süreçte temsil edilmesinde ve maliyet yönetiminin yönetilme şeklinde farklılık gösterir.
 
-Planlama ve maliyet hesaplamasına değerlendirilmesi için hizmet ürün reçetesi ile eklenmesi gerekir. Ürün reçetesi satırı olması gerekir **satıcı** türü ve gerekir tahsis edildiği servis tahsis edilen Rota operasyonu. Bu rota operasyonu maliyetlendirme kaynak ve bir kaynağa işaret eden kaynak gereksinimi olan **satıcı**, operasyon ve ilgili hizmet ilgili satıcı hesabına bağlanan türü.  
+-   Üretim emirleri veya toplu iş emirlerinde rota operasyonlarının alt sözleşmeyle verilmesi
+    -   Hizmet ürünü stoklu bir mal ve BOM'un parçası olmak zorundadır.
+    -   Bu yöntem ilk giren ilk çıkar (FIFO) veya standart maliyeti destekler.
+    -   Yarı bitmiş ürünler, işlemdeki hizmet ürünü tarafından temsil edilir.
+    -   Maliyet kontrolü, alt sözleşmeli işin maliyetlerini malzeme maliyetleriyle ilişkilendirir.
+-   Yalın imalat akışındaki üretim akışı etkinliklerinin alt sözleşmeyle verilmesi
+    -   Hizmet stoksuz bir hizmet ürünüdür ve BOM'un parçası değildir.
+    -   Bu yöntem, satınalma anlaşmalarını servis anlaşmaları olarak kullanır.
+    -   Bu yöntem geyi dönük maliyetlendirme kullanır
+    -   Bu yöntem toplanmış ve uyumsuz tedarik sağlar. (Malzeme akışı tedarik sürecinden bağımsızdır.)
+    -   Maliyet kontrolü, alt sözleşmeli işi kendi maliyet dökümü bloğuna tahsis eder.
 
-Bu yapılandırma kullanıldığında, bir üretim emrinin tahmin hakkında temel servisle ilgili ürün için bir satınalma siparişi oluşturulur. Satınalma siparişi hizmetinin bir tutturucu olarak Taşeron işlemleri için kullanılır. Taşeron iş üzerinden yönetilen **Taşeron iş** üretim Denetim Listesi sayfasında. Taşeron Çalışma operasyon için hazırlık satıcıya hammadde ve en sonunda, yarı bitmiş ürün sevk etmek için kullanılır. Bu da Madde varışı Taşeron işleminin sonuç ürünü almak için hizmet ürün yarı mamulü gelişini tanımlamak için kullanıldığı kullanılır. Satınalma siparişi satırında alındığında, üretim işlemi tamamlandı olarak güncelleştirilir.  
+## <a name="subcontracting-of-route-operations"></a>Rota operasyonlarının alt sözleşmeyle verilmesi
+Rota operasyonlarının üretim veya toplu iş emirleri için alt sözleşmeyle verilmesinde kullanılması için, hizmetin tedarik edilmesinde kullanılan hizmet ürünü, **Hizmet** türündeki bir ürün olarak tanımlanmış olmalıdır. Ek olarak, **Stok ilkesi** altındaki **Stoklu ürün** seçeneği **Evet** olarak ayarlanmış bir madde model grubuna sahip olmalıdır. Bu seçenek, bir ürünün, ürün girişinde (**Stoklu ürün** = **Evet**) stok olarak hesaba geçmiş olup olmadığını veya ürünün bir kar veya zarar hesabında harcanmış olup olmadığını (**Stoklu ürün** = **Hayır**) tanımlar. Bu davranış çelişkili görünse de, sadece bu ilkeye sahip ürünlerin maliyeti kontrolünde, planlanmış maliyeti hesaplamak ve bir üretim emri sona erdiğinde fiili maliyeti belirlemek için stok hareketlerine sahip olacakları gerçeğine dayanmaktadır.  
 
-Bir üretim emri birçok işlemi olabilir ve her işlem için farklı bir satıcı tahsis edilebilir. Bu nedenle, bir uçtan uca üretim emri birden çok satınalma siparişleri tetikleyebilir.
+Planlama ve maliyet hesaplamada değerlendirilmesi için hizmetin BOM'a eklenmesi gerekir. BOM satırının **Satıcı** türünde olması ve hizmetin tahsis edildiği rota operasyonuna tahsis edilmiş olması gerekir. Bu rota operasyonu, operasyonu ve ilgili hizmetleri karşılık gelen satıcı hesabına bağlayan **Satıcı** türüne yönlendiren bir maliyetlendirme kaynağı ve maliyet gereksinimine sahip olmalıdır.  
 
-## <a name="subcontracting-of-production-flow-activities"></a>Üretim akışı etkinliklerini Taşeron
-[Yalın üretim](lean-manufacturing-overview.md)çözüm modelleri Taşeron iş aktivite için ilgili bir hizmet olarak bir [üretim akışı](http://ax.help.dynamics.com/en/wiki/create-a-production-flow-version/) (görev Kılavuzu konusu). Bu nedenle, bu tür Taşeron da olarak bilinir [etkinlik tabanlı Taşeron.](activity-based-subcontracting.md) Özel bir maliyet grubu türü **dış kaynak doğrudan**, kullanılmaya başlanan, ve taşeron Hizmetleri tamamlanmış malların ürün Reçetesinin parçası değildir. Yalın üretim kullandığınızda, tüm faaliyetleri bir veya birden çok üretim akışı aktiviteleriyle ilgili kanbans tarafından tanımlanır. Şu ana kadar bu açıklama yalnızca üretim emirlerinin bir açıklama gibi sesleri. Ancak, üretim emirleri her zaman bitmiş bir ürün ile bitmelidir gelirken, yarı bitmiş ürün sağlamak için kanbans oluşturabilirsiniz. Yeni ürün ve ürün reçetesi düzeyi tanıtmak zorunda değilsiniz.  
+Bu yapılandırma kullanıldığında, ilgili hizmet ürünü için bir üretim emrinin tahminine dayalı olarak bir üretim emri oluşturulur. Hizmetin satınalma emri, alt sözleşmeli operasyonlar için bir dayanak noktası olarak kullanılır. Alt sözleşmeli iş, Üretim kontrolü'nde **Alt sözleşmeli iş** listesi sayfası üzerinden yönetilebilir. Alt sözleşmeli iş, bu hizmetin hazırlığındaki satıcıya hammadde ve en sonunda, bir yarı bitmiş ürünü sevk etmek için kullanılır. Ayrıca, alt sözleşmeli işin sonunda ortaya çıkan elde edilen ürünü, hizmet ürününün gelen yarı bitmiş ürünü tanımlamak için kullanıldığı, ürün alımında teslim almak için kullanılır. Satınalma siparişi satırı alındığında, üretim operasyonu tamamlandı olarak güncelleştirilir.  
 
-Kanban kuralları çok dinamik olabileceğinden, bir üretim akışı üzerinde farklı türevleri için aynı Ürün tedarik modelleyebilirsiniz. Yalın kullandığınızda, Taşeron, malzeme akışını ve finansal akışı kesinlikle ayrılır. Tüm malzeme akışı kanban etkinlikler tarafından temsil edilir. Üretim akışındaki kanban işlerinin durumunu temel hizmet ürünleri ve bu hizmetlerin alış irsaliyesi deftere nakiller için satınalma siparişleri otomatikleştirilebilir. Kanban işleri başladı ve satınalma siparişleri bile oluşturulmadan önce tamamlandı. Taşeron belgeleri (satınalma siparişi ve satınalma alış irsaliyesi servisin) dönemi ve hizmeti tarafından toplanabilir. Bu nedenle, satınalma belgeleri ve satırların sayısını bile burada satıcıları Taşeron hizmetlerinde tek parça akış sağlamak çok yinelenen işlemler küçük tutulabilir.
+Bir üretim emrinin birçok işlemi olabilir ve her işlem farklı bir satıcıya tahsis edilebilir. Bu nedenle, uçtan uca üretim emri çok sayıda satınalma siparişini tetikleyebilir.
 
-### <a name="modeling-subcontracting-in-a-production-flow"></a>Taşeron üretim akışında modelleme
+## <a name="subcontracting-of-production-flow-activities"></a>Üretim akışı etkinliklerinin alt sözleşmeyle verilmesi
+[Yalın imalat](lean-manufacturing-overview.md)çözümü, alt sözleşmeli işi bir [üretim akışı](http://ax.help.dynamics.com/en/wiki/create-a-production-flow-version/) (görev kılavuzu konusu) aktivitesiyle ilişkili bir hizmet olarak modeller. Bu nedenle, bu tür alt sözleşmeler [etkinlik tabanlı alt sözleşme](activity-based-subcontracting.md) olarak da bilinir. **Doğrudan dış kaynak kullanımı** olarak bilinen bir özel maliyet grup türü kullanılmaya başlamıştır ve alt sözleşme hizmetleri, mamul malın BOM'unun parçası değildir. Yalın imalat kullandığınızda, tüm etkinlikler bir ya da birçok üretim akış etkinliğiyle ilişkilendirilebilir kanbanlar ile tanımlanır. Şu ana kadar bu açıklama, üretim emirleri açıklamasına benzemektedir. Ancak üretim emirleri her zaman bir mamul mal ile sonlanmak zorundayken, bir yarı bitmiş ürün sağlamak için kanbanlar oluşturabilirsiniz. Yeni ürün ve ürün reçetesi düzeyi tanıtmak zorunda değilsiniz.  
 
-İçinde bir [Yasla üretim akışı](lean-manufacturing-modeling-lean-organization.md), bir işlem etkinliği tek satıcı kaynak olan bir iş hücre (kaynak grubu) tahsis edilirken Taşeron olarak tanımlanabilir. İlgili işlem etkinliklerini iş hücre Taşeron, servis maddesi ve hizmetin fiyatını içeren bir etkin satın alma anlaşması satırına bağlanması gerekir. Aktivitesinin servis anlaşması da kanban işin ürün miktarı ile elde edilen hizmet miktarı arasındaki hesaplama oranını tanımlar. İşleri, işlerine bildirilen iyi ürün miktarını veya toplam ürün miktarı (ıskarta ürünleri bu toplam miktarı içerir) sayısına göre hesaplanan hizmet miktar seçebilirsiniz.  
+Kanban kuralları çok dinamik olabileceğinden, bir üretim akışı üzerinde aynı ürün için farklı tedarik türevleri modelleyebilirsiniz. Yalın alt sözleşme kullandığınızda, üretim akışı ve finansal akış katı bir biçimde ayrılır. Tüm malzeme akışı kanban etkinlikleri ile temsil edilir. Hizmet ürünleri ve bu hizmetlerin alış irsaliyesi deftere nakilleri, üretim akışındaki kanban işlerinin durumuna dayalı olarak otomatikleştirilebilir. Kanban işleri satınalma siparişleri başlamadan hatta oluşturulmadan önce başlatılabilir.a Alt sözleşme belgeleri (satınalma emri ve hizmetin satınalma alış irsaliyesi) dönem ve hizmet ile toplanabilmektedir. Bu nedenle, satınalma belgeleri ve satırları küçük tutulabilir, satıcıların tek bir parça akışında alt sözleşmeli hizmetler sağladığı büyük ölçüde tekrar eden operasyonlarda bile.
 
-Transfer etkinlikleri, Taşeron olarak tanımlanabilir. Bu tanım dolaylı olarak sorumlu parti sevkiyat için transfer etkinliğinde seçtiğinizde oluşur. Seçtiğinizde, **taşıyıcı** veya **alıcı**, satıcı tarafından yönetilen bir ambar ise, karşılık gelen kaynak veya hedef ambar faaliyeti olarak kabul edilir Taşeron. Seçtiğinizde, **taşıyıcı**, etkinlik her zaman Taşeron. Gibi Taşeron işlem etkinliklerini, üretim akışı etkinleştirilebilmesi için önce bir taşeron transfer etkinliği servis anlaşmasına bağlı olması gerekir.
+### <a name="modeling-subcontracting-in-a-production-flow"></a>Bir üretim akışında alt sözleşmeyi modellemek
+
+Bir [yalın imalat akışında](lean-manufacturing-modeling-lean-organization.md), bir işlem etkinliği, tek bir satıcı kaynağına sahip bir çalışma hücresine (kaynak grubuna) tahsis edildiğinde, alt sözleşmeli olarak tanımlanabilir. Bir iş hücresi alt sözleşmeyle verildiğinde, ilgili işlem etkinlikleri, servis maddesi ve hizmetin fiyatını içeren etkin bir satınalma sözleşmesi satırıyla ilişkilendirilmek zorundadır. Etkinliğin hizmet sözleşmesi ayrıca kanban işinin ürün miktarı ve bundan doğan hizmet miktarı hesaplaması oranını tanımlar. Hizmet miktarının iş sayısı mı, işlerde raporlanan iyi ürün miktarı veya toplam ürün miktarına (bu toplam miktar ıskarta ürünleri de içerir) dayanarak mı hesaplanacağını seçebilirsiniz.  
+
+Transfer etkinlikleri de alt sözleşmeli olarak tanımlanabilir. Bu tanım, transfer etkinliğindeki sevkten sorumlu tarafı dolaylı olarak seçtiğinizde oluşur. **Nakliyeci** veya **Alıcı** seçtiğinizde, karşılık gelen kaynak veya hedef ambar satıcı tarafından yönetilen bir ambarsa, etkinlik alt sözleşmeli olarak kabul edilir. **Taşıyıcı** seçtiğinizde, etkinlik her zaman alt sözleşmelidir. Alt sözleşmeli işlem etkinlikleri gibi, bir alt sözleşmeli transfer etkinliğinin de üretim akışı etkinleştirilebilmeden önce bir hizmet sözleşmesine bağlanması gerekir.
 
 ### <a name="backflush-costing"></a>Geriye dönük maliyetlendirme
 
-Taşeron İş Maliyet muhasebesi (tamamlandığında malzeme çek maliyetlendirme) yalın üretim çözümü için maliyetlendirme içine tamamen tümleşiktir. Hizmet satınalma sipariş girişi deftere nakledildiğinde veya faturalama ortaya çıktığında, servis maliyeti üretim akışı için tahsis edilir. Tamamlandığında malzeme çek maliyetlendirme için Taşeron Hizmetleri farkını gerçek alındı ve Faturalandı servis miktarları karşı alınan ürünlerin standart maliyet Taşeron bloğunu mahsubu tarafından hesaplanır.
+Alt sözleşmeli işin maliyet muhasebesi, yalın üretim çözümünün (geri dönük maliyetlendirme) maliyetlendirmesine tümüyle entegre edilmiştir. Hizmetin satınalma emri girişi deftere nakledildiğinde veya faturalandırma gerçekleştiğinde, hizmetin maliyeti üretim akışına tahsis edilir. Geri dönük maliyetlendirme için alt sözleşmeli hizmetlerin farkı, alınan malların standart maliyetinin alt sözleşme blokunun, gerçek alınan ve faturalandırılan hizmet miktarlarına mahsup edilmesiyle hesaplanır.
 
-## <a name="material-supply-for-subcontracted-operations"></a>Taşeron operasyonları için malzeme tedarik
-Yarı bitmiş ürünler ve diğer ilgili malzemeleri iş fiziksel olarak gerçekleştirildiği konumun aktarılması gerekir. Taşeron operasyonlarını ve etkinlikleri kullandığınızda, bu transfer genellikle bir satıcı işletilen sitesine ek taşıma ilişkilidir. Malzeme Taşeron operasyon için ürün reçetesinde ayırarak malzeme için tahsis edilen kaynağın kaynak grubunun giriş konumda hazırlanmalıdır bildirin. Master planlama veya yalın yenileme sonra o konuma malzeme sağlar.  
+## <a name="material-supply-for-subcontracted-operations"></a>Alt sözleşmeli operasyonlar için malzeme tedariki
+Yarı bitmiş ürünler ve ilgili diğer malzemelerin, işin fiziksel olarak gerçekleştirildiği konuma nakledilmesi zorunludur. Alt sözleşmeli operasyonlar ve etkinlikler kullandığınızda, bu transfer çoğu zaman satıcı tarafından yönetilen bir siteye ek nakliye ile ilişkilidir. Ürün reçetesinde malzemeyi alt sözleşmeli operasyona tahsis ederek, malzemenin tahsis edilmiş kaynak için kaynak grubu giriş konumunda hazırlanması gerektiğini bildirmiş olursunuz. Master planlama veya yalın yenileme daha sonra malzemeyi o konuma sağlar.  
 
-Satıcı sitesinde bulunur stok model oluşturmak için satıcı tarafından yönetilen bir ambar tanımlamak için sektörde en iyi yöntem olduğunu. Satıcı tarafından yönetilen bir ambar, yeni bir ambar ve satıcı hesabı atama tarafından kolayca tanımlayabilirsiniz. İşlem gerçekleştirilmeden önce bu malzeme belgelemek için satıcıya aktarılması gerekir, satıcı tarafından yönetilen ambar giriş ambarına tutan kaynağın kaynak grubunun tahsis.  
+Bir satıcı sitesinde bulunan stoku modellemek için sektördeki en iyi yöntem, satıcı tarafından yönetilen bir ambar tanımlamaktır. Yeni bir ambar oluşturarak ve satıcı hesabını atayarak, satıcı tarafından yönetilen bir ambarı kolaylıkla oluşturabilirsiniz. Bir operasyonun gerçekleştirilebilmesinden önce malzemenin satıcıya nakledilmesi gerektiğini belgelemek için, satıcı tarafından yönetilen ambarı, kaynağı bulundurmakta olan kaynak grubunun giriş ambarına atamalısınız.  
 
-Bu ambarda malzeme stoğunu yenilemek için çoklu stratejiler kullanabilirsiniz:
+Bu ambardaki malzemeyi yenilemek için birden fazla stratejiyi kullanabilirsiniz:
 
 -   Transfer emirleri
 -   Transfer günlükleri
--   Mevzuatı kanbans
+-   Çekme kanbanları
 -   Satıcı konumuna doğrudan satınalma
 
-Bu kuralın istisnası yarı bitmiş ürünler şunlardır. Yarı bitmiş ürünler transfer etmek için bu seçenekleri sınırlı:
+Yarı bitmiş ürünler bu kuralın istisnasıdır. Yarı bitmiş ürünleri transfer etmek için şu seçeneklerle sınırlısınız:
 
--   Üretim ve toplu siparişler için yarı bitmiş ürünler yalnızca mantıksal olarak malzeme çekme listesi günlüğü'nden kullanarak transfer edilebilir **Taşeron iş** listesi sayfası. Bu günlük, yarı bitmiş aktarmak için kullanılan teslimat notu belge ve hammadde satıcıya oluşturur.
--   Üretim akışları, Taşeron işlemleri için satıcı konumda mevzuatı veya üretim kanbans alındığını tarafından yarı bitmiş ürünler transferini belgelenmiştir. Açık transfer aktivite modellemek için bir üretim kanbanı ek transfer etkinliği ile sona erdirebilir.
+-   Üretim ve toplu iş siparişleri için, yarı bitmiş ürünler yalnızca mantıksal olarak Malzeme çekme listesini **Alt sözleşmeli iş** listesi sayfasından kullanarak transfer edilebilir. Bu günlük, yarı bitmiş ürünleri ve hammaddeleri satıcıya transfer etmek için bir teslimat notu belgesi oluşturacaktır.
+-   Üretim akışlarındaki alt sözleşmeli operasyonlar için yarı bitmiş ürünlerin transferi, satıcı konumundaki çekme alımı veya üretim kanbanları tarafından belgelenir. Açık transfer aktivitesini modellemek için bir üretim kanbanı, ek bir transfer etkinliğiyle sona erdirebilirsiniz.
 
-**Not:** bir tek bir üretim emri için üretim rotasında birden çok siteler arası olamaz. Bu kural, Taşeron iş için de geçerlidir. Bu nedenle, ambarlar, satıcı tarafından yönetilen malzeme konumları aynı sitede rotada kullanılan iç kaynaklar olarak tanımlanmalıdır temsil eder. Üretim akışları siteler arası, ancak bu işlem maliyeti bağlam değişikliği gösterdiğinden bunların bir siteden diğerine, yarı bitmiş ürünler aktarım olamaz.  
+**Not:** Tek bir üretim emri için bir üretim rotası, birden fazla site arası olamaz. Bu kural, alt sözleşmeli iş için de geçerlidir. Bu nedenle, satıcı tarafından yönetilen malzeme konumlarını temsil eden ambarlar, söz konusu rotada kullanılan dahili kaynaklarla aynı sitede tanımlanmalıdır. Üretim akışları siteler arası geçiş yapabilse de, yarı bitmiş ürünleri bir siteden diğerine aktaramazlar, çünkü bu operasyon maliyet bağlamında bir değişimi belirtir.  
 
-Genellikle, bir taşeron kaynak grubunun konumunu ve çıkış ambarı doğrudan operasyon rota veya üretim akışındaki sonraki adıma konumunu ve ambar için ayrılır. Bu kurulum işi oluşan raporlama veya model alınacak sayı ek aktarım işlemleri azaltmak yardımcı olur.
+Genellikle çıkış ambarı ve alt sözleşmeli kaynak grubunun konumu, doğrudan ambar ve operasyonun üretim akışı rotasındaki bir sonraki adımına doğrudan tahsis edilmiştir. Bu kurulum, gerçekleşen iş raporlama miktarını veya modellenmesi gereken ek transfer operasyonlarını azaltmaya yardımcı olur.
+
+
 
 

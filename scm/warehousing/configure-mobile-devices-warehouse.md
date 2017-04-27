@@ -1,5 +1,5 @@
 ---
-title: "Mobil aygıtlar için ambar çalışma ayarlayın"
+title: "Mobil cihazları ambar işi için ayarlama"
 description: "Bu makalede, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek için kullandığı menü öğelerinin nasıl yapılandırılacağı açıklanmaktadır."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobil aygıtlar için ambar çalışma ayarlayın
+# <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobil cihazları ambar işi için ayarlama
 
 Bu makalede, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek için kullandığı menü öğelerinin nasıl yapılandırılacağı açıklanmaktadır.
 
@@ -35,7 +35,7 @@ Bu makalede, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek i
 -   Başka bir süreç üzerinden gerçekleştirilecek bir iş oluşturun. Örneğin, bir satınalma emrine yönelik bir madde almak, başka bir çalışan için yerine koyma işi oluşturabilir.
 -   Bir satınalma emrine yönelik bir madde alındığında oluşturulan yerine koyma işi gibi, başka bir süreç tarafından oluşturulmuş (mevcut iş) işi gerçekleştirin.
 
-Aktivite veya sorgulama için bir menü öğesi oluşturmak için **mod** alanı **dolaylı**. Listesi **faaliyet kodu** seçenekleri sonra sorgulama veya menü öğesi için olan etkinlik türü seçebilmeniz için kullanılabilir. Ambar çalışma üretmek için bir menü öğesi oluşturmak için **mod** alanı **iş**. Listesi **oluşturma işlemi çalışma** seçenekleri sonra kullanılabilir hale gelir. Mevcut ambar işini işlemek üzere bir menü öğesi oluşturmak için, **Mod** alanını **İş** olarak ayarlayın ve ardından **Mevcut işi kullan** seçeneğini **Evet** olarak ayarlayın. **Not:** ek alanlar menü öğeleri için kullanılabilir, madde ve olup olmadığı için menüyü seçme moduna bağlı menü öğesi varolan çalışma gerçekleştirmek için kullanılır. Ek alan seçimleri hakkında daha fazla bilgi için bu makalenin "ek menü öğesi Seçenekleri" bölümüne bakın.
+Bir etkinlik veya sorgulama için bir menü öğesi oluşturmak için, **Mod** alanını **Dolaylı** olarak ayarlayın. **Etkinlik kodu** seçeneklerinin listesi etkin hale gelir, böylece menü öğesinin hangi sorgu ve etkinlik türünü seçebilirsiniz. Ambarlama işi oluşturma için bir menü öğesi oluşturabilmek için **Mod** alanını **İş** olarak ayarlayın. **İş oluşturma işlemi** seçeneklerinin bir listesi kullanılabilir hale gelir. Mevcut ambar işini işlemek üzere bir menü öğesi oluşturmak için, **Mod** alanını **İş** olarak ayarlayın ve ardından **Mevcut işi kullan** seçeneğini **Evet** olarak ayarlayın. **Not:** Ek alanlar menü öğeleri için kullanılabilir olabilir, menü öğesi için seçtiğiniz moda ve menü öğesinin varolan işi gerçekleştirmek için kullanılıp kullanılmayacağına bağlı olarak. Ek alan seçimleri hakkında daha fazla bilgi için, bu makalenin ilerleyen noktalarındaki "Ek menü maddesi seçenekleri" bölümüne bakınız.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Etkinlik ve sorgular için menü öğeleri yapılandırma
 Bir menü öğesine yönelik **Mod** alanı **Dolaylı** olarak ayarlı ise, iş oluşturmayan bir genel etkinlik veya sorgu gerçekleştirmek için bir menü öğesi oluşturabilirsiniz. Plaka etiketlerini yeniden yazdırmak ve bir konumdaki maddeler hakkında sorgu yapmak örnekler arasındadır. Aşağıdaki tabloda, kullanılabilecek seçenekler listelenmiştir.
@@ -190,7 +190,7 @@ Bir menü öğesine yönelik **Mod** alanı **Dolaylı** olarak ayarlı ise, iş
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Mevcut işi işlemek için menü öğeleri yapılandırma
-Ambar işi oluşturmak için menü öğeleri ayarlamaya ek olarak, önceden oluşturulmuş işi işlemek için menü öğeleri de ayarlayabilirsiniz. **Mod** alanını **İş** olarak ayarlayın ve **Geçerli işi kullan** seçeneğini belirleyin. Sonra bazı ek seçenekler kullanılabilir hale **genel** sekme. Üzerinde bir veya daha fazla iş sınıflar atayarak menü maddesine erişimi kontrol edebilirsiniz **çalışması sınıfının** hızlı. İş sınıfları, menü öğesinin işleyebileceği işi tanımlar. İş sınıfı aynı zamanda belirli kullanıcı rollerine erişim vermek veya farklı operasyon türleri için işlemeyi ayırmak üzere de kullanılabilir. Aşağıdaki tabloda, kullanılabilecek seçenekler açıklanmıştır.
+Ambar işi oluşturmak için menü öğeleri ayarlamaya ek olarak, önceden oluşturulmuş işi işlemek için menü öğeleri de ayarlayabilirsiniz. **Mod** alanını **İş** olarak ayarlayın ve **Geçerli işi kullan** seçeneğini belirleyin. Bazı ek seçenekler **Genel** sekmesinde kullanılabilir hale gelir. Menü öğesine erişimi **Çalışma sınıfı** hızlı sekmesinde bir veya birden fazla iş sınıfını atayarak denetleyebilirsiniz. İş sınıfları, menü öğesinin işleyebileceği işi tanımlar. İş sınıfı aynı zamanda belirli kullanıcı rollerine erişim vermek veya farklı operasyon türleri için işlemeyi ayırmak üzere de kullanılabilir. Aşağıdaki tabloda, kullanılabilecek seçenekler açıklanmıştır.
 
 <table>
 
@@ -210,7 +210,7 @@ Ambar işi oluşturmak için menü öğeleri ayarlamaya ek olarak, önceden olu�
 </tr>
 <tr class="even">
 <td>Sistem yönlendirmesinde</td>
-<td>Microsoft Dynamics 365 işlemleri için işçi ve işçi iş yapan sipariş için atanan iş türünü denetler. Bu seçeneği belirlediğinizde, tıklatabileceğiniz <strong>sistem yönlendirilmiş çalışma</strong> açmak için eylem bölmesi <strong>sistem-yönlendirilmiş sıralama düzeni</strong> nereye ayarlayabileceğiniz sıralama ölçütlerini çalışma sayfası. Sıralama ölçütleri işçi iş yapan sırasını denetleyin. Gereksinim duyduğunuz kadar çok ölçüt ekleyebilirsiniz.</td>
+<td>Microsoft Dynamics 365 for Operations denetimleri, bir çalışana atanan iş türlerini ve çalışanın işi gerçekleştirdiği sıralamayı denetler. Bu seçeneği seçtiğinizde, <strong>Sistem tarafından yönlendirilen çalışma</strong> seçeneğine Eylem panosunda, iş için sıralama ölçütünü ayarlayabileceğiniz <strong>Sistem tarafından sıralanan sıralama</strong> sayfasını açmak için tıklayabilirsiniz. Bu sıralama kriteri, çalışanın işi hangi sırada yapacağını denetler. İhtiyaç duyduğunuz sayıda ölçüt ekleyebilirsiniz.</td>
 </tr>
 <tr class="odd">
 <td>Kullanıcı yönlendirmesinde</td>
@@ -230,7 +230,7 @@ Ambar işi oluşturmak için menü öğeleri ayarlamaya ek olarak, önceden olu�
 </tr>
 <tr class="even">
 <td>Doğrulanmış kullanıcının yönlendirmesinde</td>
-<td>Çalışan, iş yük veya sevkıyat gibi daha büyük bir varlıkla ilişkiliyken gerçekleştirilecek işi seçer. Alt öğeleri içinde çekilir sipariş belirler. Bu seçeneği belirlemeniz halinde, aşağıdaki alanlar gereklidir:
+<td>Çalışan, iş yük veya sevkıyat gibi daha büyük bir varlıkla ilişkiliyken gerçekleştirilecek işi seçer. Çalışan, öğelerin çekileceği sıraları belirler. Bu seçeneği belirlemeniz halinde, aşağıdaki alanlar gereklidir:
 <ul>
 <li><strong>Doğrulanmış kullanıcı yönlendirmesindeki alan</strong> – Çalışanın işi gruplandırmak için tarayacağı alanı seçin.</li>
 <li><strong>Doğrulanmış kullanıcı yönlendirmesindeki etiket</strong> – Çalışana çekme işi sistem tarafından gruplandığında ne tarayacağını bildiren metni girin.</li>
@@ -271,7 +271,7 @@ Aşağıdaki tablo bu seçenekleri açıklar.
 </tr>
 <tr class="even">
 <td>Bağlama</td>
-<td>Çalışanların önerilen hazırlama veya yükleme konumunu geçersiz kılan bir konum belirtmelerine izin vermek için bu seçeneği seçin. Kalan tüm yerine koyma işi yeni konuma yönlendirilir. Bu seçenek örneğin, bir çalışanın sipariş 1 için Nokta 1'in hazırlık konumunda maddeleri yerine koyması gerekiyorsa ancak önceki yük konumdan kaldırılmadığı için bunu yapamıyorsa kullanışlıdır. Stok konumu hazırlama kullanılabilir olana kadar 1 için beklemek yerine, çalışan için Dock 2 basamak konumu kullanmak karar verebilirsiniz. Bu durumda, alt önerilen hazırlama yeri geçersiz kılar. Bunun ardından iş emri için kalan tüm maddelerin yerine koyma konumu Nokta 2 hazırlama konumu olarak güncelleştirilir. Bu seçeneği belirlerseniz, <strong>Bağlayan</strong> alanını ayarlamanız gerekir.</td>
+<td>Çalışanların önerilen hazırlama veya yükleme konumunu geçersiz kılan bir konum belirtmelerine izin vermek için bu seçeneği seçin. Kalan tüm yerine koyma işi yeni konuma yönlendirilir. Bu seçenek örneğin, bir çalışanın sipariş 1 için Nokta 1'in hazırlık konumunda maddeleri yerine koyması gerekiyorsa ancak önceki yük konumdan kaldırılmadığı için bunu yapamıyorsa kullanışlıdır. Dock 1 hazırlama konumunun kullanılır olmasını beklemek yerine, çalışan Dock 2 için hazırlama konumunu kullanmaya karar verebilir. Bu durumda, çalışan önerilen hazırlama konumunu geçersiz kılar. Bunun ardından iş emri için kalan tüm maddelerin yerine koyma konumu Nokta 2 hazırlama konumu olarak güncelleştirilir. Bu seçeneği belirlerseniz, <strong>Bağlayan</strong> alanını ayarlamanız gerekir.</td>
 </tr>
 <tr class="odd">
 <td>Bağlayan</td>
@@ -380,7 +380,7 @@ Aşağıdaki tablo bu seçenekleri açıklar.
 </tr>
 <tr class="odd">
 <td>İş şablonu kodu</td>
-<td>Bir işlem için işi oluşturacak iş şablonunu seçin. Bir satınalma siparişi için bir madde alırsanız, örneğin, yerine koyma çalışma iş şablonu temel alarak oluşturulur. İş şablonu seçmezseniz, Microsoft Dynamics 365 işlemleri için sorgu ölçütleri temel alarak bir şablonu atar. İş Şablonları hakkında daha fazla bilgi için bkz. <a href="control-warehouse-location-directives.md">İş şablonları ve konum yönergeleri ile ambar çalışmasını denetleme</a>.</td>
+<td>Bir işlem için işi oluşturacak iş şablonunu seçin. Örneğin, bir satınalma siparişi için bir ürün alırsanız, yerine koyma işi iş şablonuna dayalı olarak oluşturulur. Bir iş şablonunu seçmezseniz, Microsoft Dynamics 365 for Operations, sorgu ölçütüne dayalı olarak bir şablon atar. İş Şablonları hakkında daha fazla bilgi için bkz. <a href="control-warehouse-location-directives.md">İş şablonları ve konum yönergeleri ile ambar çalışmasını denetleme</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -409,8 +409,8 @@ Aşağıdaki tabloda, iş doğrulamalarını birlikte kullanabileceğiniz çeşi
 
 [Ambar mobil cihazı görüntüleme ayarları](change-warehouse-mobile-device-displays.md)
 
-[Bir mobil aygıt menü öğesi türü iş tamamlamak için satınalma siparişi (görev Kılavuzu) ayarlayın](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
+[Satınalma siparişi iş türünü tamamlamak için bir mobil cihaz menü öğesi ayarlama (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
-[Alınan maddeleri (görev Kılavuzu) kaydetmek için bir mobil aygıtı menüsünde öğeyi ayarlamak](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Alınan maddeleri kaydetmek için bir mobil cihaz menü öğesi ayarlama (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
 
 

@@ -40,7 +40,7 @@ Bir transfer günlüğü olayı kaydedilmiştir. Olay, bir parça A maddesini A 
 
 ### <a name="example-2-cost-entries-are-created"></a>Örnek 2: Maliyet girişleri oluşturulur.
 
-Bir transfer günlüğü olayı kaydedilmiştir. Olay bir parçasının 1 siteden siteye 2 aktarır. Site stok boyutu maliyet nesnenin bir parçası olarak kabul edilir. Bu nedenle, olay iki stok hareketi ve iki maliyet girişi oluşturur.
+Bir transfer günlüğü olayı kaydedilmiştir. Olay bir madde parasını 1. siteden 2. siteye aktarır. Site stok boyutu, maliyet nesnenin bir parçası olarak kabul edilir. Bu nedenle, olay iki stok hareketi ve iki maliyet girişi oluşturur.
 
 ### <a name="example-3-one-cost-entry-is-created"></a>Örnek 3: Bir maliyet girişi oluşturulur.
 
@@ -59,11 +59,11 @@ Yeni **Maliyet girişleri** sayfası, miktar ve maliyet kayıtlarını görünt�
 | 00002   | 20-01-2015 | Satın alma siparişi | 100001 | 0000101 |               |               |          | 100,00  |
 | 00003   | 31-01-2015 | Ayarlama     | 100001 | 0000101 |               |               |          | 15,00   |
 
-**Maliyet girişleri** sayfası, belge numarasına ve belge tarihine göre filtrelemeye olanak sağlar. **Not:** maliyeti girişleri yalnızca için kullanılabilir [nesneleri maliyet](cost-object.md) veya ürünleri serbest.
+**Maliyet girişleri** sayfası, belge numarasına ve belge tarihine göre filtrelemeye olanak sağlar. **Not:** Maliyet girişleri yalnızca [maliyet nesneleri](cost-object.md) veya serbest bırakılan ürünler için kullanılabilir.
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Cost objects](cost-object.md)
+[Maliyet nesneleri](cost-object.md)
 
 

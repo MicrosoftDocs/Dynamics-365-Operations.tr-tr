@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-effects-with-reversals"></a>Ters işlemli amortismanın etkileri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, sabit kıymet hareketini ters kaydetmenin olası etkileri ele alınmaktadır. 
 
 Sabit kıymet hareketlerine ve sabit kıymetle ilişkili hareketlere ters işlem uygulayabilirsiniz. Ayrıca tersine çevrilmiş bir hareketi de iptal edebilirsiniz. 
@@ -90,6 +93,8 @@ Amortisman 16,95 değeri kadar daha az belirtilir (983,62 - 966,67).
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Sabit kıymet amortismanı](fixed-asset-depreciation.md)
+
+
 
 

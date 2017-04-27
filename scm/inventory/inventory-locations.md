@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-locations"></a>Stok konumları
 
+[!include[banner](../includes/banner.md)]
+
+
 Stok konumları ile temel depolama (WSM I) birlikte kullanılarak maddelerin nerede depolandıkları ve maddelerin bir WMS I ambarında nereden çekildikleri belirlenir.
 
 Bu konu, Stok yönetimi modülündeki özellikler için geçerlidir. Ambar yönetimi modülündeki özellikler için geçerli değildir.
@@ -64,6 +67,8 @@ Konumları bir ambardan diğerine kopyalamak ve sihirbaz üzerinden konum oluşt
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Yeni bir ambar düzeni (görev Kılavuzu) oluşturur](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+[Yeni bir ambar düzeni oluştur (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+
+
 
 

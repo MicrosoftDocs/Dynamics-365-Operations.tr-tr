@@ -1,5 +1,5 @@
 ---
-title: "Birden fazla indirim dönemleri olan bir kısmi Satıcı ödeme kapatma"
+title: "Birden fazla iskonto dönemi olan bir kısmi satıcı ödemesini kapatma"
 description: "Bu makalede, birden fazla nakit indirimi öneren bir satıcıya birden fazla kısmi ödemenin yapıldığı bir senaryo açıklanmaktadır."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Birden fazla indirim dönemleri olan bir kısmi Satıcı ödeme kapatma
+# <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Birden fazla iskonto dönemi olan bir kısmi satıcı ödemesini kapatma
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, birden fazla nakit indirimi öneren bir satıcıya birden fazla kısmi ödemenin yapıldığı bir senaryo açıklanmaktadır. 
 
 Satıcı 3054, Fabrikam'a ilk beş gün içinde ödenen fatura için yüzde 2 nakit iskontosu ve faturanın 14 gün içinde ödenmesi durumunda %1 nakit iskontosu yapmaktadır.
 
 ## <a name="invoice"></a>Fatura
-Nisan 28 Haziran için 1.000,00 3054 satıcı fatura oluşturur. April bu hareketi **Satıcı hareketleri** sayfasında görüntüleyebilir.
+28 Haziran tarihinde April 3054 numaralı satıcı için 1.000,00 tutarında bir fatura oluşturuyor. April bu hareketi **Satıcı hareketleri** sayfasında görüntüleyebilir.
 
 | Fiş   | Tarih      | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Kalan   | Para Birimi |
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
@@ -48,7 +51,7 @@ Aşağıdaki nakit iskontosu tarihleri ve tutarları bu fatura için kullanılab
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
 ## <a name="payment-on-july-2"></a>2 Temmuz'da ödeme
-2 Temmuz Nisan 300.00 karşı bu faturayı ödemek istiyor. Filiz kullanarak özel bir ödeme oluşturur **ödeme günlüğü** Borç hesapları sayfasında. Satıcı 3054 için bir satır ekler ve **300,00** değerinde ödeme tutarı girer. Ardından April, kapatılacak faturayı işaretleyeceği **Kapatma hareketleri** sayfasını açar. **Kapatılacak tutar** alanındaki değeri **300,00** olarak günceller ve **Alınacak nakit iskontosu tutarı** alanındaki değerin **6.12** olarak değiştiğini görür. Bu ödeme ilk indirim döneminde yapıldığından, yüzde 2 oranında iskonto alınır.
+2 Temmuz'da, April bu faturanın 300,00'ünü ödemek istiyor. Borç hesapları'nda **Ödeme günlüğü** sayfasını kullanarak tek seferlik bir ödeme oluşturuyor. Satıcı 3054 için bir satır ekler ve **300,00** değerinde ödeme tutarı girer. Ardından April, kapatılacak faturayı işaretleyeceği **Kapatma hareketleri** sayfasını açar. **Kapatılacak tutar** alanındaki değeri **300,00** olarak günceller ve **Alınacak nakit iskontosu tutarı** alanındaki değerin **6.12** olarak değiştiğini görür. Bu ödeme ilk indirim döneminde yapıldığından, yüzde 2 oranında iskonto alınır.
 
 | İşaret | Nakit iskontosu kullan | Fiş   | Hesap | Tarih      | Vade tarihi  | Fatura | Hareket para birimi cinsinden tutar | Para Birimi | Kapatılacak tutar |
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -134,6 +137,8 @@ April, 495,00 tutarında ödeme yapmaya karar verir ve 5,00 tutarında nakit isk
 | APP-10061  | 12/7/2015 |         | 495,00                               |                                       | 0,00    | ABD Doları      |
 | DISC-10061 | 12/7/2015 |         | 5,00                                 |                                       | 0,00    | ABD Doları      |
 | APP-10062  | 20/7/2015 |         | 200,00                               |                                       | 0,00    | ABD Doları      |
+
+
 
 
 

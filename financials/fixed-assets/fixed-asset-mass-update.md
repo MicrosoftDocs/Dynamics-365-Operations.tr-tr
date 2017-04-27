@@ -1,6 +1,6 @@
 ---
 title: "Sabit kıymet toplu olarak güncelleştirme"
-description: "Defterleri kullanıyorsanız, aynı kitabın bir parçası olan kıymet grupları için amortisman kurallarını değiştirebilirsiniz."
+description: "Defterleri kullanıyorsanız, aynı defterlerin parçası olan kıymet grupları için amortisman yöntemlerini değiştirebilirsiniz."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-mass-update"></a>Sabit kıymet toplu olarak güncelleştirme
 
-Defterleri kullanıyorsanız, aynı kitabın bir parçası olan kıymet grupları için amortisman kurallarını değiştirebilirsiniz.
+[!include[banner](../includes/banner.md)]
+
+
+Defterleri kullanıyorsanız, aynı defterlerin parçası olan kıymet grupları için amortisman yöntemlerini değiştirebilirsiniz.
 
 Örneğin, ABD'deyseniz ve kıymetlerinizin yüzde 40'ından fazlasını yılın dördüncü çeyreği sırasında hizmete soktuysanız, çeyrek ortası amortisman yöntemini kullanmanız gerekir. Yeni amortisman yöntemi gerektiren tüm kıymetleri değiştirmek için toplu güncelleştirme süresini kullanabilirsiniz. 
 
@@ -36,6 +39,8 @@ Kıymetler için amortisman dönüştürmeyi güncelleştirdiğinizde, bu kıyme
 Zaten elden çıkarılmış kıymetlerin amortisman yöntemini güncelleştirmek için, mevcut elde çıkarma hareketlerini silmeniz gerekir. Ayrıca, elden çıkarma süreci nedeniyle oluşturulan tüm hareketlerini de silmeniz gerekir. 
 
 Kıymetler için amortisman dönüştürmeyi güncelleştirdiğinizde her kıymet için amortismanı ve olağandışı amortismanı işleyebilirsiniz. Ayrıca, gerekirse el ile amortisman düzeltmeleri de yapabilirsiniz.
+
+
 
 
 

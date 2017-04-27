@@ -1,6 +1,6 @@
 ---
-title: "Amortisman defteri yükseltmeye genel bakış"
-description: "Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri için iki değerleme kavram vardı. Microsoft Dynamics 365 for Operations sürüm 1611 ile, değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir. Bu konu yükseltme işleminde dikkate alınması gereken bazı noktaları ele alır."
+title: "Amortisman defteri yükseltme genel bakışı"
+description: "Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri olmak üzere iki değerleme kavramı vardı. Microsoft Dynamics 365 for Operations sürüm 1611 ile, değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir. Bu konu yükseltme işleminde dikkate alınması gereken bazı noktaları ele alır."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,59 +24,64 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="depreciation-book-upgrade-overview"></a>Amortisman defteri yükseltmeye genel bakış
+# <a name="depreciation-book-upgrade-overview"></a>Amortisman defteri yükseltme genel bakışı
 
-Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri için iki değerleme kavram vardı. Microsoft Dynamics 365 for Operations sürüm 1611 ile, değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir. Bu konu yükseltme işleminde dikkate alınması gereken bazı noktaları ele alır. 
+[!include[banner](../includes/banner.md)]
 
-Yükseltme işlemi var olan kurulumunuzu ve var olan tüm hareketlerinizi yeni defter yapısına taşır. Değer modelleri oldukları gibi genel muhasebeye nakleden defterler olarak kalır. Amortisman defterleri **Genel muhasebeye naklet** seçeneği **Hayır** olarak ayarlanmış bir deftere taşınır. Amortisman defteri günlük adlarını taşınabilir bir genel muhasebe günlüğü deftere nakil katmanı ayarlanmış olan **yok**. Amortisman defteri hareketleri için sabit kıymet hareketlerini taşınacaktır. 
+
+Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri olmak üzere iki değerleme kavramı vardı. Microsoft Dynamics 365 for Operations sürüm 1611 ile, değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir. Bu konu yükseltme işleminde dikkate alınması gereken bazı noktaları ele alır. 
+
+Yükseltme işlemi var olan kurulumunuzu ve var olan tüm hareketlerinizi yeni defter yapısına taşır. Değer modelleri oldukları gibi genel muhasebeye nakleden defterler olarak kalır. Amortisman defterleri **Genel muhasebeye naklet** seçeneği **Hayır** olarak ayarlanmış bir deftere taşınır. Amortisman defteri günlük adları deftere nakil katmanı **Yok** ile ayarlanmış bir genel muhasebe günlük adına taşınır. Amortisman defteri hareketleri, Sabit kıymet hareketlerine taşınacaktır. 
 
 Veri yükseltmesini çalıştırmadan önce, amortisman defteri günlük satırlarını hareket fişlerine yükseltmek için kullanabileceğiniz iki seçeneği ve fiş serileri için kullanılacak numara serisini anlamanız gerekir. 
 
-1. Seçenek: **Sistem tarafından tanımlanan numara serisi** - Bu, yükseltme performansını en iyi duruma getirmek için varsayılan seçenektir. Yükseltme numara serisi çerçevesini kullanmaz, bunun yerine fişleri küme tabanlı bir yaklaşım ile tahsis eder. Yükseltme sonrasında, yeni numara serisi ile oluşturulacak **numara tandır** uygun şekilde yükseltilen hareketlere dayalı. Varsayılan olarak, FADBUpgr içinde kullanılan numara serisi olacak\#\#\#\#\#\#\#\#\# biçimi. Bu yaklaşım kullanırken biçimini ayarlamak için kullanabileceğiniz birkaç parametre vardır:
+1. Seçenek: **Sistem tarafından tanımlanan numara serisi** - Bu, yükseltme performansını en iyi duruma getirmek için varsayılan seçenektir. Yükseltme numara serisi çerçevesini kullanmaz, bunun yerine fişleri küme tabanlı bir yaklaşım ile tahsis eder. Yükseltmeden sonra, yeni numara serisi **Sonraki numara kümesi** ile yükseltme hareketlerine uygun şekilde dayanarak oluşturulacaktır. Varsayılan olarak, kullanılan numara serisi FADBUpgr\#\#\#\#\#\#\#\#\# biçiminde olacaktır. Bu yaklaşımı kullanırken biçimi ayarlayabilmeniz için birkaç parametre vardır:
 
--   **Numara sırası kodu** – tanımlayan numara serisi kodu. Yükseltme tarafından oluşturulacağından, bu numara serisi kodu bulunamaz.
+-   **Numara serisi kodu** – Numara serisini belirlemek için kod. Yükseltme tarafından oluşturulacağından, bu numara serisi kodu mevcut olamaz.
     -   Sabit adı: **NumberSequenceDefaultCode**
     -   Varsayılan değer: "FADBUpgr"
 -   **Önek** – Fiş numaraları için önek olarak kullanılacak sabit dize değeri.
     -   Sabit adı: **NumberSequenceDefaultParameterPrefix**
     -   Varsayılan değer: "FADBUpgr"
 -   **Alfasayısal uzunluk** – Numara serisinin alfasayısal kesiminin uzunluğu.
-    -   Sabit adı: ** NumberSequenceDefaultParameterAlpanumericLength **
+    -   Sabit adı: **NumberSequenceDefaultParameterAlpanumericLength **
     -   Varsayılan değer: 9
 -   **Başlangıç numarası** - Numara serisinde kullanılacak ilk numara.
-    -   Sabit adı: ** NumberSequenceDefaultParameterStartNumber **
+    -   Sabit adı: **NumberSequenceDefaultParameterStartNumber  **
     -   Varsayılan değer: 1
 
-Seçenek 2: **varolan kullanıcı tanımlı numara serisi** -bu seçenek yükseltme için kullanılacak numara serisini tanımlamanıza izin verir. Gelişmiş numara sırası yapılandırma gerekiyorsa bu seçeneği kullanmayı düşünün. Bir numara serisi kullanmak için yükseltme sınıf ReleaseUpdateDB70 değiştirmek\_FixedAssetJournalDepBookRemovalDepBookJournalTrans aşağıdaki bilgilerle:
+Seçenek 2: **Mevcut kullanıcı tarafından belirlenmiş numara serisi** - Bu seçenek, bu yükseltme için kullanılacak numara serisini tanımlamanıza izin verir. Bu seçeneği, gelişmiş numara serisi yapılandırmasına ihtiyaç duyarsanız kullanın. Bir numara serisini kullanmak için, ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans yükseltme sınıfını aşağıdaki bilgilerle değiştirmelisiniz:
 
 -   **Numara serisi kodu** – Numara serisinin kodu.
-    -   Sabit adı: ** NumberSequenceExistingCode **
+    -   Sabit adı: **NumberSequenceExistingCode **
     -   Varsayılan değer: Varsayılan değer yoktur, bu değer numara serisi koduna güncelleştirilmelidir.
--   **Paylaşılan numara serisi** – Numara serisinin kapsamını tanımlayan Boole değeri. Tüm şirketler arasında paylaşılan numara serileri için "true", şirkete özel kapsam için "false" değerini kullanın. "False" kullanırken, belirtilen ada sahip bir numara sırası amortisman defteri hareketlerini içeren her şirkette bulunması gerekir. Amortisman defteri hareketleri içeren her bölümün paylaşılan numara serileri mevcut.
-    -   Sabit adı: ** NumberSequenceExistingIsShared **
+-   **Paylaşılan numara serisi** – Numara serisinin kapsamını tanımlayan Boole değeri. Tüm şirketler arasında paylaşılan numara serileri için "true", şirkete özel kapsam için "false" değerini kullanın. "False" kullanırken, belirtilen ada sahip numara serisi, amortisman defteri hareketleri içeren her şirkette mevcut olmalıdır. Paylaşılan numara serileri, amortisman defter hareketleri içeren her bölümde mevcuttur.
+    -   Sabit adı: **NumberSequenceExistingIsShared **
     -   Varsayılan değer: true
 
-Parametreler ReleaseUpdateDB70 başında bulunan\_FixedAssetJournalDepBookRemovalDepBookJournalTrans sınıf. 
+Parametreler ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans sınıfının başında yer alır. 
 
-*Fişleri ayırma tercih bir yaklaşım belirtmek*<ph id="t1">
-</ph>*/ / true, varolan bir numara sırası kodu kullanmak isterseniz*<ph id="t2">
-</ph>*/ / yanlış, sistem tarafından tanımlanan numara sırası (varsayılan) kullanmayı düşünüyorsanız,* boolean const NumberSequenceUseExistingCode = false;  
+*// Fiş tahsisatı için tercih edilebilir yaklaşım belirtin* 
+*// true, mevcut bir numara serisi kodu kullanmak istiyorsanız* 
+*// false, sistem tarafından tanımlanan numara serisini (varsayılan) kullanmaya niyetliyseniz* const boolean NumberSequenceUseExistingCode = false;  
 
-*Sistem tarafından tanımlanan numara sırası yaklaşımı kullanarak, numara serisi için parametreleri belirtin. *<ph id="t3">
-</ph>*/ / Bu parametrelerle yeni bir numara serisi oluşturulacaktır.* Str const NumberSequenceDefaultCode = 'FADBUpgr'; str const NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
+*// Sistem tarafından tanımlanan numara serisi yaklaşımını kullanırsanız, numara serisi için parametreleri belirtin.*
+*// Bu parametrelerle yeni bir numara serisi oluşturulur.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
 
-*Mevcut numara serisi yaklaşımı kullanarak, varolan bir numara sırası kodu belirtin. *<ph id="t4">
-</ph>*/ / Fiş tahsisat satır satır gider için numara serileri mevcut.* Str const NumberSequenceExistingCode = ''; */ / Mevcut numara serisi kodu kapsamını belirtmek*<ph id="t5">
-</ph>*/ / belirtilen numara sırasındaki paylaşılan, doğru*<ph id="t6">
-</ph>*/ / yanlış belirtilen numara sırasındaki her şirket ise*<ph id="t7">
-</ph>*/ / varsayılan sistem tarafından tanımlanan numara serisinden bir numara sırası kodu ile belirtilen kapsam bulunamazsa, kullanılacak.* const boolean NumberSequenceExistingIsShared = true; 
+*// Mevcut numara serisi yaklaşımını kullanıyorsanız, mevcut numara serisi kodunu belirtin.* 
+*// Fiş tahsisatı mevcut numara serileri için satır satır gidecektir.* const str NumberSequenceExistingCode = ''; *// Mevcut numara serisi kodunun kapsamını belirtin* 
+*// true, belirtilen numara serisi paylaşımlıysa* 
+*// false, belirtilen numara serisi şirket başına ise* 
+*// Varsayılan sistem tanımlı numara serisi, belirtilen kapsama sahip bir numara serisi kodu bulunmazsa kullanılacaktır.* const boolean NumberSequenceExistingIsShared = true; 
 
 Sabitler değiştirildikten sonra sınıfı içeren projeyi yeniden oluşturun. 
 
-Sistem tarafından oluşturulan numara sırası yaklaşım (seçenek 1) kullanırken, yükseltme yükseltme komut dosyası parametreleri belirtilen fiş numaraları ayırmaya kümesi tabanlı işleme kullanır. Belirtilen parametrelerle ayırmadan sonra da yeni bir numara sırası oluşturur. 
+Sistem tarafından oluşturulan bir numara serisi yaklaşımı kullanırken (seçenk 1), yükseltme fiş numaralarını yükseltme komut doyası parametrelerinde belirtildiği üzere tahsis etmek için set tabanlı işlem kullanır. Ayrıca tahsisattan sonra belirtilen parametrelerle yeni bir numara serisi oluşturacaktır. 
 
-Kullanıcı tarafından tanımlanan var olan numara serisi yaklaşımı (2. seçenek) kullanılırken, veri yükseltme işlemi belirtilen kapsama sahip numara serisinin her bölüm ve şirket için amortisman defteri hareketlerinde var olup olmadığını denetler. Yükseltme yoksa, satır satır işleme müteselsil numara sırası Framework'ü kullanarak belirtildiği gibi fiş numaraları tahsis etmek amacıyla kullanır. Numara sırası ile belirtilen kapsam yoksa yükseltme fiş numaraları tahsis etmek amacıyla varsayılan sistem tarafından tanımlanan numara sırası yaklaşımı kullanacaksınız ve yeni bir numara sırası ayırmadan sonra belirtilen varsayılan parametreler ile oluşturur.
+Kullanıcı tarafından tanımlanan var olan numara serisi yaklaşımı (2. seçenek) kullanılırken, veri yükseltme işlemi belirtilen kapsama sahip numara serisinin her bölüm ve şirket için amortisman defteri hareketlerinde var olup olmadığını denetler. Mevcut değilse, yükseltme fiş numaralarını, numara serisinde belirtildiği gibi numara serisi çerçevesini kullanarak satır satır tahsis edecektir. Numara serisi belirtilen kapsamla mevcut değilse, yükseltme varsayılan sistem tanımlı numara serisi yaklaşımını, fiş numaralarını tahsis etmek için kullanacaktır ve tahsisat sonunda belirtilen varsayılan parametrelere sahip yeni bir numara serisi oluşturacaktır.
 
 İki yaklaşımda da veri yükseltme komut dosyası eski amortisman defteri günlük adları için oluşturulan yeni genel muhasebe günlük adlarındaki **Fiş serisi** alanının numara serisini kullanır.
+
+
 
 

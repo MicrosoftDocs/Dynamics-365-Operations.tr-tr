@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="common-sources-of-production-variances"></a>Üretim farklılıklarının ortak kaynakları
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makale, üretim farkı türlerinin çeşitli kaynaklarını açıklamaktadır. 
 
 Burada bazı tipik **lot boyutu** farkı kaynakları yer almaktadır:
@@ -57,6 +60,8 @@ Burada bazı tipik **üretim yedekleme** farkı kaynakları yer almaktadır:
 -   Bir işlemi üretim rotasına el il eklediniz ve işlemi tüketildi olarak raporladınız.
 -   Üretim emrini oluşturduğunuzda, standart maliyet hesaplamasında kullanılan ürün reçetesi sürümünden farklı bir ürün reçetesi sürümü seçtiniz.
 -   Üretim emrini oluşturduğunuzda, standart maliyet hesaplamasında kullanılan rota sürümünden farklı bir rota sürümü seçtiniz.
+
+
 
 
 

@@ -49,18 +49,18 @@ Aynı anda birden çok rapor oluşturmak için rapor tanımlarını gruplandıra
 ### <a name="create-a-report-group"></a>Rapor grubu oluşturma
 
 1.  Rapor Tasarımcısı'nda gezinme bölmesinde **Rapor Grupları** seçeneğine tıklayın.
-2.  Üzerinde **dosya** menüsünde tıklatın **yeni**&gt;**rapor grup tanımı** yeni bir rapor grup Görüntüleyicisi penceresinde açmak için. Alternatif olarak, **rapor grubu** düğmesini ![rapor grubu](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "rapor grubu") araç.
+2.  **Dosya** menüsünde, **Yeni** &gt; **Rapor Grubu Tanımı**'na tıklayarak görüntüleyici penceresinde yeni bir rapor grubu açın. Alternatif olarak, araç çubuğundaki **Rapor Grubu** düğmesine ![Rapor Grubu](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Rapor Grubu") tıklayın.
 3.  **Rapor Grubu** sekmesini tıklatın. Bu raporun oluşturulması için ayrı ayrı rapor tanımlarındaki bilgileri geçersiz kılmak için **Tek tek rapor tanımlarından şirket, ayrıntı ve tarih ayarlarını geçersiz kıl** onay kutusunu seçin. Şirket adı, ayrıntı düzeyi, geçici ayar ve tarih bilgileri otomatik olarak girilir ancak güncelleştirmeleri yapabilirsiniz.
 4.  Raporlama para birimlerini gösteren birden çok rapor oluşturmak için **Tüm raporlama para birimlerini dahil et** onay kutusunu seçin. Bundan sonra, raporu görüntülediğinizde Web Görüntüleyicisi üzerinde **Para** düğmesine tıklayarak birden çok görünüme erişebilirsiniz.
 5.  **Grup içindeki raporlar** alanında, **Ekle** öğesine tıklayarak raporları rapor grubuna eklemek için seçin. **Ekle** iletişim kutusunda birden fazla rapor seçmek için raporları seçerken Ctrl tuşunu basılı tutun. Rapor seçme işlemini tamamladığınızda **Tamam** öğesine tıklayın.
-6.  ' I **dosya**&gt;**kaydetmek** yeni rapor grubu kaydetmek için.
+6.  Yeni rapor grubu kaydetmek için **Dosya** &gt; **Kaydet**'e tıklayın.
 
 ### <a name="modify-a-report-group"></a>Bir rapor grubu değiştirin
 
 1.  Rapor Tasarımcısı'nda gezinme bölmesinde **Rapor Grupları** seçeneğine tıklayın.
 2.  Rapor grubunu değiştirmek için çift tıklatın.
 3.  **Rapor Grubu** sekmesinde istediğiniz değişiklikleri yapın.
-4.  Üzerinde **dosya** menüsünde tıklatın **kaydetmek** alternatif olarak, değiştirilmiş rapor grubu kaydetmek için tıklatın **kaydetmek** düğmesini ![kaydetmek](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "kaydetmek") araç.
+4.  Değiştirilen rapor grubunu kaydetmek için **Dosya** menüsünde **Kaydet**'e tıklayın veya araç çubuğunda **Kaydet** düğmesine ![Kaydet](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Kaydet")  tıklayın.
 
 **Not:** Belirli aralıklarla oluşturulacak zamanlanmış raporlarınız varsa, bu ayarları geçersiz kılabilir ve hemen bir rapor üretebilirsiniz.
 
@@ -68,7 +68,7 @@ Aynı anda birden çok rapor oluşturmak için rapor tanımlarını gruplandıra
 
 1.  Rapor Tasarımcısı'nda gezinme bölmesinde **Rapor Grupları** seçeneğine tıklayın.
 2.  Oluşturmak için rapor grubunu açın.
-3.  ' I **rapor oluştur** düğmesini ![rapor oluştur](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "rapor oluştur") raporlar üretmek için.
+3.  Rapor oluşturmak için **Rapor Oluştur** düğmesine ![Rapor Oluştur](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Rapor Oluştur") tıklayın.
 
 ### <a name="delete-a-report-group"></a>Bir rapor grubu silme
 
@@ -104,8 +104,8 @@ Aşağıdaki tablo **Rapor Grubu** sekmesindeki denetimlerle ilgili açıklamala
 <td>Raporların içereceği ayrıntı düzeyini belirtin.
 <ul>
 <li><strong>Finansal</strong>− Yüksek düzeyde özet raporu. Raporlama ağacıyla eklenen hesaplar ve boyutlar dışında, hesaplarda ve boyutlarda ayrıntıya gidemezsiniz.</li>
-<li><strong>Finansal &amp;hesap</strong> üst düzey bir Özet ve hesap ayrıntıları içeren A − rapor.</li>
-<li><strong>Finans, hesabı, &amp;hareket</strong> üst düzey bir Özet ve hareket ayrıntılarını içeren A − rapor.</li>
+<li><strong>Finans &amp; Hesap</strong> - Üst düzey bir özet ve hesap ayrıntıları içeren bir rapor.</li>
+<li><strong>Finans, Hesap &amp; İşlem</strong> - Üst düzey bir özet ve işlem ayrıntıları içeren bir rapor.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -154,6 +154,6 @@ Yalnızca varsayılan esas dönem ayarları rapor tanımı ile kaydedilir.</td>
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Finansal raporlama için Microsoft Dynamics 365 işlemleri için](financial-reporting-intro.md)
+[Microsoft Dynamics 365 for Operations için mali raporlama](financial-reporting-intro.md)
 
 

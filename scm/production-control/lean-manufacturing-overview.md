@@ -1,5 +1,5 @@
 ---
-title: "Yalın üretim genel bakış"
+title: "Yalın imalata genel bakış"
 description: "Bu makale Microsoft Dynamics AX içindeki yalın imalat özelliklerinin genel bakışını ve açıklamasını sağlar."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="lean-manufacturing-overview"></a>Yalın üretim genel bakış
+# <a name="lean-manufacturing-overview"></a>Yalın imalata genel bakış
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makale Microsoft Dynamics AX içindeki yalın imalat özelliklerinin genel bakışını ve açıklamasını sağlar.
 
@@ -49,7 +52,7 @@ Yalın üretim için bir temel oluşturmak için üretim ve lojistik işlemlerin
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a> Talep gereksinimlerinin sinyalini vermek için kanbanlar kullanmak
 Bir çekme sistemi, sadece mal gerektiğinde mal üretir. Bu yöntem fazladan stok ve teslimat sağlama sürelerini azaltır. Kanbanları üretim akışlarına dayalı olan gereksinimleri planlamak, izlemek ve işlemek için kullanabilirsiniz. Bir kanban çerçevesi oluşturmak için, kanbanların ne zaman oluşturulacağını ve gereksinimlerin nasıl karşılanacağını tanımlayan kurallar oluşturun. İki tür kanban kuralı oluşturabilirsiniz. Üretim kuralları işlem kanban işlerini oluşturur. Çekme kanban kuralları, hareket kanban işlerini oluşturur. Aşağıdaki stok yenileme stratejilerini ayarlayabilirsiniz:
--   **Sabit miktar** kanban kuralları sabir sayıda işleme birimiyle ilişkilidir, bu da etkin kanbanların sayısının sabit olduğu anlamına gelir. El ile işleme birimleri boşaltılır ve tüm ürünleri bir Kanban tüketilen zaman, aynı türde yeni bir kanban oluşturulur. Sabit miktar kanban kuralları oluşturduğunuzda, optimum bir kanban miktarları ve kullanılan ürün miktarları hesaplayabilirsiniz. Hesaplama maddeleri yenilemek için tahminleri, açık siparişlerden fiili talebi, sağlaması süresini ve geçmiş talepleri dikkate alır.
+-   **Sabit miktar** kanban kuralları sabir sayıda işleme birimiyle ilişkilidir, bu da etkin kanbanların sayısının sabit olduğu anlamına gelir. Bir Kanban'dan tüm ürünler tüketildiğinde ve işleme birimleri el ile boşaltıldığında, aynı türde yeni bir kanban oluşturulur. Sabit miktar kanban kuralları oluşturduğunuzda, en iyi kanban miktarlarını ve kullanılan ürün miktarlarını hesaplayabilirsiniz. Hesaplama maddeleri yenilemek için tahminleri, açık siparişlerden fiili talebi, sağlaması süresini ve geçmiş talepleri dikkate alır.
 -   **Zamanlanmış** kanban kuralları master planlama tarafından hesaplanan gereksinimleri yeniler. Master planlama, kanbanlara kesinleştirilebilecek planlı kanbanları oluşturur.
 -   **Olay** kanban kuralları, satış siparişi satırlarından, üretim ürün reçetesi satırlarından, kanban satırlarından ya da minimum stok ayarlarından ileri gelen gereksinimleri yeniler. Olay kanbanları oluşturulduğunda, bunlar kaynak gereksinimleriyle ilişkilendirilir.
 
@@ -76,6 +79,8 @@ Kanban işleri Microsoft Dynamics AX'te stok hareketleri için geçerli işlemle
 Ek olarak, yalın üretim taşeron etkinlikler tarafından referans gösterilen hizmetleri satın alma ve faturalama işlemlerini de destekler.
 -   Satınalma sözleşmesi satırlarını ve hizmetlerini taşeron faaliyetlerine atayabilirsiniz.
 -   Hizmetlerin satınalınması ve faturalamasına destek için dönemsel satınalma siparişleri ve giriş önerileri oluşturabilirsiniz.
+
+
 
 
 

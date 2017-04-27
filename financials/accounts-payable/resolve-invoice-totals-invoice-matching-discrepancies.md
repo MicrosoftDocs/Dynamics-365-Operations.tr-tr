@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="resolve-discrepancies-during-invoice-totals-matching"></a>Fatura toplamları eşleştirme sırasındaki tutarsızlıkları çözümleme
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Bir fatura doğrulama karşılaştırma türü eşleşen fatura toplamlarıdır. Sistemin eşleşen fatura toplamları gerçekleştirmesi gerektiğini belirtmek için **Borç hesapları parametreleri** sayfası **fatura doğrulama** sekmesinde, **fatura toplamları eşleştir** seçeneğini **Evet** olarak ayarlayın. 
@@ -39,6 +42,8 @@ Farklılığı belirledikten sonra, faturadaki bilgilerin yanlış olduğunu dü
 -   Fiyat farkını kabul edin ve eşleşme tutarsızlıkları içeren faturayı nakledin. Eşleşen çelişki olursa deftere nakletmeden önce onay gerektirecek şekilde sisteminiz ayarlanmış olabilir. Bu durumda, eşleşen bir tutarsızlık onaylamanız gerekir ve isteğe bağlı olarak bir onay yorumu girebilirsiniz. Sonra faturayı nakletmeyi seçebilirsiniz.
 -   Fatura tutarını beklenen tutarla değiştirin ve faturayı nakledin.
 -   Satıcıdan tam kredi ve düzeltilmiş yeni bir fatura talep edin.
+
+
 
 
 

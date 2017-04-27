@@ -1,6 +1,6 @@
 ---
 title: "Öznitelikler oluşturmak ve yönetmek"
-description: "Bu makale Microsoft Dynamics 365 işlemleri için öznitelikleri açıklar. Öznitelikler kullanıcı tanımlı alanlar aracılığıyla ürün ve özellikleri açıklamanızı sağlar."
+description: "Bu makale Microsoft Dynamics 365 for Operations&quot;taki öznitelikleri açıklar. Öznitelikler kullanıcı tanımlı alanlar aracılığıyla ürün ve özellikleri açıklamanızı sağlar."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-and-manage-attributes"></a>Öznitelikler oluşturmak ve yönetmek
 
-Bu makale Microsoft Dynamics 365 işlemleri için öznitelikleri açıklar. Öznitelikler kullanıcı tanımlı alanlar aracılığıyla ürün ve özellikleri açıklamanızı sağlar.
+Bu makale Microsoft Dynamics 365 for Operations'taki öznitelikleri açıklar. Öznitelikler kullanıcı tanımlı alanlar aracılığıyla ürün ve özellikleri açıklamanızı sağlar.
 
 Öznitelikler kullanıcı tanımlı alanlar aracılığıyla ürün ve özellikleri açıklamanızı sağlar. Örneğin, ürünün bellek boyutu ve sabit disk kapasitesi belirtebilir ve ürünün Energy star uyumlu olup olmadığını belirtebilirsiniz. Öznitelikleri ürün kategorileri ve perakende kanalları gibi çeşitli perakende varlıklar ile ilişkili olabilir ve bunlar için varsayılan değerler ayarlanabilir. Ürün kategorileri veya perakende kanalları ile ilişkili olduğunda ürünleri özniteliklerini ve bu öznitelikleri için varsayılan değerleri devralır. Varsayılan değerleri tek tek ürün, perakende kanal düzeyinde veya perakende Kataloğu düzeyinde geçersiz kılınabilir.
 
@@ -130,49 +130,49 @@ Projeksiyon tüp garanti
 
 **12**
 
-\#Projeksiyon Tüpleri
+\# Projeksiyon Tüplerinin sayısı
 
 **1**–**5**
 
 **3**
 
 ## <a name="attribute-type"></a>Öznitelik türü
-  [![öznitelikler sabit kopya](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) özniteliklerin öznitelik türlerini temel alan. Öznitelik türleri, belirli bir öznitelik için girilen veri türünü tanımlar. Şu anda Microsoft Dynamics 365 işlemleri için aşağıdaki öznitelik türlerini destekler:
+  [![öznitelikler-sabit-kopya](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) Öznitelikler, öznitelik türlerine dayanmaktadır. Öznitelik türleri, belirli bir öznitelik için girilen veri türünü tanımlar. Şu anda, Microsoft Dynamics 365 for Operations aşağıdaki öznitelik türlerini destekler:
 
 -   **Para** – bu öznitelik türü para birimi değerlerini destekler. Bağlantılı olmalıdır (diğer bir deyişle, bir değer aralığı destekleyebilir) veya açık bırakılabilir.
 -   **DateTime** – bu öznitelik türü, tarih ve saat değerlerini destekler. Bağlantılı olmalıdır (diğer bir deyişle, bir değer aralığı destekleyebilir) veya açık bırakılabilir.
 -   **Ondalık** – bu öznitelik türü, ondalık basamak içeren sayısal değerleri destekler. Ayrıca, ölçü birimleri destekler. Bağlantılı olmalıdır (diğer bir deyişle, bir değer aralığı destekleyebilir) veya açık bırakılabilir.
 -   **Tamsayı** – bu öznitelik türü sayısal değerleri destekler. Ayrıca, ölçü birimleri destekler. Bağlantılı olmalıdır (diğer bir deyişle, bir değer aralığı destekleyebilir) veya açık bırakılabilir.
 -   **Metin** – bu öznitelik türü metin değerlerini destekler. önceden tanımlanmış bir dizi olası değerleri de (numaralandırma) destekler.
--   **Boole** – bu öznitelik türü ikili değerleri destekler (**doğru**/**yanlış**).
+-   **Boolean** – Bu öznitelik türü ikili değerleri destekler (**doğru**/**yanlış**).
 -   **Referans**.
 
 ## <a name="attribute"></a>Öznitelik
-  [![createandmanageattribute-8](./media/createandmanageattribute-8.png)](./media/createandmanageattribute-8.png) adı, kolay ad, açıklama ve Yardım metni ek olarak, aşağıdaki bilgi türlerinden bir veya bir öznitelik için yakalanabilir:
+  [![createandmanageattribute-8](./media/createandmanageattribute-8.png)](./media/createandmanageattribute-8.png) Adı, kolay ad, açıklama ve Yardım metni ek olarak, aşağıdaki bilgi türlerinden bir veya bir öznitelik için yakalanabilir:
 
 -   Varsayılan değer
 -   Öznitelik aradı, Siyah Zeminli veya sıralanabilecek olup olmadığını gösterir meta veriler gibi öznitelik meta verileri
 
 ## <a name="attribute-group"></a>Öznitelik grubu
-  [![createandmanageattribute-10](./media/createandmanageattribute-10.png)](./media/createandmanageattribute-10.png) özniteliklerin tanımladıktan sonra öznitelik gruplar halinde gruplandırılabilir. Öznitelik grupları bireysel niteliklerini gruplandırmaları sağlar ve perakende kategoriler veya perakende kanalları için atanabilir.
+  [![createandmanageattribute-10](./media/createandmanageattribute-10.png)](./media/createandmanageattribute-10.png) Öznitelikler tanımladıktan sonra öznitelik gruplar halinde gruplandırılabilir. Öznitelik grupları bireysel niteliklerini gruplandırmaları sağlar ve perakende kategoriler veya perakende kanalları için atanabilir.
 
 ## <a name="assigning-attribute-groups-to-retail-categories"></a>Öznitelik gruplarını perakende kategorilere atama
-  [![createandmanageattribute-12](./media/createandmanageattribute-12.png)](./media/createandmanageattribute-12.png) bir veya daha fazla öznitelik gruplarýný perakende ürün kategori sıradüzenindeki kategori düğümleri ile ilişkili olabilir. Ürünler kategorize edildiğinde, öznitelik gruplarına dahil edilen öznitelikleri devralır.
+  [![createandmanageattribute-12](./media/createandmanageattribute-12.png)](./media/createandmanageattribute-12.png) Bir veya daha fazla öznitelik grupları perakende ürün kategori sıradüzenindeki kategori düğümleri ile ilişkili olabilir. Ürünler kategorize edildiğinde, öznitelik gruplarına dahil edilen öznitelikleri devralır.
 
 ## <a name="assigning-attribute-groups-to-retail-stores"></a>Öznitelik gruplarını perakende mağazalarına atama
-  [![createandmanageattribute-13-1024 x 576](./media/createandmanageattribute-13-1024x576.png)](./media/createandmanageattribute-13-1024x576.png) bir veya daha fazla öznitelik gruplarý olabilir ilişkili bir veya daha fazla perakende mağazaları perakende mağazaları hiyerarşisinde ile. Ürünler belirli perakende mağazaları için zenginleştirildiğinde, öznitelik gruplarına dahil edilen öznitelikleri devralır.
+  [![createandmanageattribute-13](./media/createandmanageattribute-13-1024x576.png)](./media/createandmanageattribute-13-1024x576.png) Bir veya daha fazla öznitelik grupları perakende ürün kategori sıradüzenindeki bir veya daha fazla perakende mağazası ile ilişkili olabilir. Ürünler belirli perakende mağazaları için zenginleştirildiğinde, öznitelik gruplarına dahil edilen öznitelikleri devralır.
 
 ## <a name="overriding-attribute-values"></a>Geçersiz kılınan öznitelik değerleri
 ### <a name="at-the-product-level"></a>Ürün düzeyinde
 
-  [![createandmanageattribute-14-1024 x 576](./media/createandmanageattribute-14-1024x576.png)](./media/createandmanageattribute-14-1024x576.png) ürün düzeyinde geçersiz kılınabilir özniteliklerinin varsayılan değerlerini (diğer bir deyişle, tek tek ürünler için).
+  [![createandmanageattribute-14-1024x576](./media/createandmanageattribute-14-1024x576.png)](./media/createandmanageattribute-14-1024x576.png) Ürün düzeyinde geçersiz kılınabilir özniteliklerinin varsayılan değerleri (diğer bir deyişle, tek tek ürünler için).
 
 ### <a name="in-a-retail-catalog"></a>Perakende kataloğunda
 
-  [![createandmanageattribute-2](./media/createandmanageattribute-2.png)](./media/createandmanageattribute-2.png) tek tek ürünlerin belirli perakende kanalları için hedeflenen belirli kataloglar özniteliklerinin varsayılan değerlerini geçersiz kılınabilir.
+  [![createandmanageattribute-2](./media/createandmanageattribute-2.png)](./media/createandmanageattribute-2.png) Tek tek ürünlerin belirli perakende kanalları için hedeflenen belirli kataloglar özniteliklerinin varsayılan değerlerini geçersiz kılınabilir.
 
 ### <a name="at-the-retail-channel-level"></a>Perakende kanalı düzeyinde
 
-  [![createandmanageattribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) özel perakende kanalları için hedeflenen belirli kataloglar bireysel ürünlerin özniteliklerinin varsayılan değerlerini geçersiz kılınabilir.
+  [![createandmanageattribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) Tek tek ürünlerin belirli perakende kanalları için hedeflenen belirli kataloglar özniteliklerinin varsayılan değerlerini geçersiz kılınabilir.
 
 

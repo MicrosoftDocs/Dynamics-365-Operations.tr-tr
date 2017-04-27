@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-guarantee"></a>Teminat mektupları
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, teminat mektupları hakkında bilgiler verilmektedir. Teminat mektubunda bir banka, müşterilerinin bir kişiye ödeme veya yükümlülüğünü varsayılan olarak belirlediği zaman, o banka o kişiye belirli tutarda bir parayı ödemeyi kabul eder. 
 
 Garanti mektubu, bir banka (garantör) tarafından verilen bir anlaşmadır ve banka bu anlaşmayla banka müşterisinin (muhatap) bir kişiye (lehtar) ödemesini yapmaması veya bu kişiye karşı bir yükümlülüğünü yerine getirmemesi durumunda bu kişiye belirlenen miktarda parayı ödemeyi garanti eder. Garanti mektupları transfer edilemez. Sadece anlaşmada adı geçen lehtar için geçerlidir. Muhatap, anlaşma hükümlerine bağlı olarak, garanti mektubunun değerinde artış veya azaltma talep edebilir. 
@@ -55,6 +58,8 @@ Aşağıdaki tabloda garanti mektubunda gerçekleştirebileceğiniz eylemler aç
 | Uzat              | Garanti mektubunu lehtara verdikten sonra, uzatma gerekiyorsa geçerlilik süresini uzatın. |
 | İptal              | Garanti mektubunun talep edildiği amaç artık geçerli değilse, anlaşmayı iptal edin.                  |
 | Tasfiye et           | Lehtar, garanti mektubunu bankaya sunduğunda garanti mektubunu paraya çevirin.                      |
+
+
 
 
 

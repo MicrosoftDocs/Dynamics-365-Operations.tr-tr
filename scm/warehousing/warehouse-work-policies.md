@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="warehouse-work-policies"></a>Ambar iş ilkeleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Microsoft Dynamics AX 7.0.1 (Mayıs 2016 güncelleştirmesi) ile yeni bir ambar işi ilkesi eklenmiştir. Bu iş ilkesi ambar işinin üretimdeki ambar işlemleri için oluşturulup oluşturulmadığını denetler.
 
-Bu iş ilkesi ambar işinin üretimdeki ambar işlemleri için oluşturulup oluşturulmadığını denetler. **İş emri türleri**, bir **stok konumu** ve bir **ürün** birleşimini kullanarak iş ilkesini ayarlayabilirsiniz. Örneğin, L0101 olarak bildirilen ürün çıktı konuma 001 bitti. Tamamlanan malın daha sonra başka bir üretim emrinde 001 çıktı konumundaki tüketilir. Bu durumda, 001 çıktı konuma tamamlandı olarak L0101 ürün raporlama yaptığınızda oluşturulan yerine koyma mamuller için iş önlemek için bir çalışma ilkesi ayarlayabilirsiniz. İş ilkesi, aşağıdaki bilgilerle açıklanabilen ayrı bir varlıktır:
+Bu iş ilkesi ambar işinin üretimdeki ambar işlemleri için oluşturulup oluşturulmadığını denetler. **İş emri türleri**, bir **stok konumu** ve bir **ürün** birleşimini kullanarak iş ilkesini ayarlayabilirsiniz. Örneğin, L0101 numaralı ürün 001 numaralı çıktı konumuna tamamlandı olarak bildirilir. Bunun üzerine, tamamlanan mal 001 numaralı çıktı konumundaki başka bir üretim emrinde tüketilir. Bu durumda, L0101 numaralı ürünü 001 numaralı çıktı konumuna tamamlandı olarak bildirdiğiniz zaman mamul mallara yönelik işin oluşturulmasını önlemek için bir iş ilkesi ayarlayabilirsiniz. İş ilkesi, aşağıdaki bilgilerle açıklanabilen ayrı bir varlıktır:
 
 -   **İş ilkesi adı **(iş ilkesinin benzersiz tanımlayıcısı)
 -   **İş emri türleri **ve** İş oluşturma yöntemi**
@@ -55,7 +58,7 @@ Aşağıdaki iş emri türlerini seçebilirsiniz:
 ## <a name="example"></a>Örnek
 Aşağıdaki örnekte, PRD-001 ve PRD-00*2* olmak üzere iki üretim emri bulunmaktadır. Üretim emri PRD-001, SC1 ürününün O1 konumuna tamamlandı olarak bildirildiği **Derleme** adlı bir işleme sahiptir. Üretim emri PRD-002 **Boyama** adlı bir işleme sahiptir ve O1 konumundan SC1 ürününü kullanır. Üretim emri PRD-002 ayrıca O1 konumundan RM1 hammaddesini de kullanır. RM1, BULK-001 ambar konumunda depolanır ve hammadde çekme işlemi için ambar işi tarafından O1 konumuna çekilir. Malzeme çekme işi PRD-002 üretimi serbest bırakıldığında oluşturulur. 
 
-[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
+[![Ambar iş ilkeleri](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
 
 Bu senaryo için bir ambar işi ilkesi yapılandırmayı planlarken, aşağıdaki bilgileri göz önünde bulundurmalısınız:
 
@@ -66,12 +69,12 @@ Bu noktalara göre, ayarlayabileceğiniz iş ilkesine bir örneği aşağıda bu
 
 |                                         |                                                       |
 |-----------------------------------------|-------------------------------------------------------|
-|**Work policy name**<br>                 |**Work order types**<br>                               |
-| Hayır, 01' yerine koy                    |-Tamamlanmış mal koy<br>                           |
-|                                         |**Locations**<br>                                      |
-|                                         |-O1   |                                               |
-|                                         |**Products** <br>                                      |
-|                                         |-SC1                                                  |
+|**İş ilkesi adı**<br>                 |**İş emri türleri**<br>                               |
+| Yerine koyma yok - 01     `                    |- Mamul ürünü yerine koy<br>                           |
+|                                         |**Yerleşimler**<br>                                      |
+|                                         |- O1   |                                               |
+|                                         |**Ürünler** <br>                                      |
+|                                         |- SC1                                                  |
 
 Aşağıdaki yordamlar bu senaryo için ambar iş ilkesini ayarlama konusunda adım adım yönergeler sağlar. Bir üretim emrinin plaka denetimli olmayan bir konuma tamamlandı olarak nasıl bildirileceğini gösteren örnek bir kurulum da açıklanmıştır.
 
@@ -244,5 +247,7 @@ ADIMLAR (25)
 </tr>
 </tbody>
 </table>
+
+
 
 

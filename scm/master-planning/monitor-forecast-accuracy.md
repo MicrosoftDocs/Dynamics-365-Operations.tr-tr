@@ -1,6 +1,6 @@
 ---
-title: "Monitör tahmin doğruluk"
-description: "Bu makale Microsoft Dynamics 365 işlemleri için hesaplar ve doğruluk değerleri görüntüleme biçimini açıklar tahmin doğruluk türlerini açıklar."
+title: "Tahmin doğruluğunu izleme"
+description: "Bu makalede, Microsoft Dynamics 365 for Operations&quot;ın hesapladığı tahmin doğruluğu türleri anlatılmakta ve doğruluk değerlerini nasıl görüntüleyebileceğiniz açıklanmaktadır."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,23 +25,28 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="monitor-forecast-accuracy"></a>Monitör tahmin doğruluk
+# <a name="monitor-forecast-accuracy"></a>Tahmin doğruluğunu izleme
 
-Bu makale Microsoft Dynamics 365 işlemleri için hesaplar ve doğruluk değerleri görüntüleme biçimini açıklar tahmin doğruluk türlerini açıklar.
+[!include[banner](../includes/banner.md)]
 
-Dynamics 365 işlemleri için tahmin doğruluğunu aşağıdaki türde hesaplar:
+
+Bu makalede, Microsoft Dynamics 365 for Operations'ın hesapladığı tahmin doğruluğu türleri anlatılmakta ve doğruluk değerlerini nasıl görüntüleyebileceğiniz açıklanmaktadır.
+
+Dynamics 365 for Operations, aşağıdaki tahmin doğruluğu türlerini hesaplar:
 
 -   Ana Planlamanın kullandığı geçmiş tahmini geçmiş taleple karşılaştırmak suretiyle, geçmiş tahmin doğruluğu. Geçmiş tahmin doğruluğuna ait değerleri (hem mutlak değerler hem de yüzde değerleri) görüntülemek için, **Talep tahmini ayrıntıları** sayfasındaki **Doğruluğu göster** öğesine tıklayın.
 -   Öngörüler oluşturmak için kullanılan tahmin modelinin tahmini doğruluğu. Doğruluk yüzdesini **Talep tahmini ayrıntıları** sayfasındaki **Model ayrıntıları - MAPE** öğesi altında görüntüleyebilirsiniz. 
 
-**Not:** Dynamics 365 işlemleri isteğe bağlı Microsoft Azure makine öğrenme hizmeti tahmini için kullanırsanız, iç modeli doğruluğunu sınama veri kümesi üzerinde dayanır. Test veri kümesi boyutunu belirtmek için set **TEST\_AYARLAMAK\_BOYUTU\_yüzde** parametresi **isteğe bağlı parametreleri tahmin** sayfa. Örneğin, değeri **20** olarak ayarlamak için, iç model doğruluğunu hesaplamada geçmiş verilerin son yüzde 20'si kullanılacaktır.
+**Not:** Dynamics 365 for Operations Talep tahmini Microsoft Azure Machine Learning hizmeti kullanıyorsanız, iç model doğruluğu hesaplaması test verileri kümesine dayanır. Test verileri kümesinin boyutunu belirtmek için, **Talep tahmini parametreleri** sayfasında **TEST\_SET\_SIZE\_PERCENT** parametresini ayarlayın. Örneğin, değeri **20** olarak ayarlamak için, iç model doğruluğunu hesaplamada geçmiş verilerin son yüzde 20'si kullanılacaktır.
 
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Authorizing the adjusted forecast](authorize-adjusted-forecast.md)
+[Ayarlanmış tahmini yetkilendirme](authorize-adjusted-forecast.md)
 
-[Remove outliers from historical transaction data when calculating a demand forecast](remove-historical-outliers-calculating-demand-forecast.md)
+[Bir talep tahmin hesaplarken, geçmiş işlem verilerinden aykırı değerleri kaldırın.](remove-historical-outliers-calculating-demand-forecast.md)
+
+
 
 

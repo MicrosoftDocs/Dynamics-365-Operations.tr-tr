@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-items-lent-to-workers"></a>Çalışanlara ödünç verilen öğeleri yönetme
 
+[!include[banner](includes/banner.md)]
+
+
 Ödünç verilen maddeler, yöneticilerin şirketin çalışanlarına ödünç verdiği fiziksel öğeleri izlemede yardımcı kayıtlardır. 
 
 Aşağıdaki noktalar şirket çalışanlarına ödünç verilebilecek öğeleri listeler:
@@ -39,7 +42,7 @@ Her fiziksel öğeye karşılık gelen bir ödünç verilen madde olmalıdır. �
 
 Bir maddeyi ödünç verirken, maddenin ödünç verildiği tarihi ve planlanan iade tarihini girin. Madde iade edildiğinde, asıl iade tarihini girin.
 
-Çalışanlar, kendi kendine çalışan çalışma kullanarak bunları ödünç maddelerin kayıtlarını görüntüleyebilirsiniz. Bunlar ayrıca varolan kayıtları düzenleyebilir veya yeni bir ödünç verilen maddeler, ek fiziksel öğeleri alıp almadığınızı girin.  İş akışı onay sürecinde yeni veya varolan bir ödünç verilen maddelere rota değişiklikleri için ayarlanabilir. 
+Çalışanlar, kendilerine ödünç verilen maddelerin kaydını görüntülemek için Çalışan self servis çalışma alanını kullanabilirler. Ek fiziksel öğeler alırlarsa, mevcut kayıtlarını düzenleyebilir veya yeni ödünç verilen maddeler girebilirler.  İş akışı, yeni veya mevcut ödün verilen öğeleri onay işleminden yönlendirmek üzere ayarlanabilir. 
 
 Yöneticiler doğrudan raporları aracılığıyla ödünç öğeleri görüntüleyebilirler. Ayrıca çalışanları adına yeni bir ödünç verilen maddeler ekleme izni de verilebilirler.
 
@@ -52,6 +55,8 @@ Bir madde hasar görürse veya yanlış yere yerleştirilirse, hayali bir iade k
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Human resources](index.md)
+[İnsan kaynakları](index.md)
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-agreements"></a>Satınalma sözleşmeleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, satınalma anlaşmalarıyla ilgili bilgiler verilmektedir. Bir satınalma anlaşması, kuruluşun belirli bir süre içinde birden fazla satınalma siparişi kullanarak, belirli bir miktarda veya tutarda alım yapacağını taahhüt eden bir sözleşmedir. Bu taahhüt karşılığında, alıcıya özel fiyatlar ve iskontolar verilir. 
 
 Satınalma sözleşmesi bir belirli bir miktardaki ürüne, belirli bir para birimi tutarındaki ürüne, tedarik kategorisinde bulunan belirli bir para biri miktarındaki ürünlere uygulanabilir. Mevcut herhangi bir ticaret sözleşmesinde belirtilen fiyatlar ve indirimler, satınalma sözleşmesindeki fiyatlar ve indirimler tarafından geçersiz kılınır.  
@@ -70,7 +73,7 @@ Karşılama miktarları ve tutarları **Satınalma anlaşmaları** sayfasının 
 Satınalma siparişi satırlarına ve karşılama hesaplamasına katkıda bulunan fatura satırlarına, satırlarda bulunan **İlgili bilgi** eyleminden veya bir satınalma sözleşmesinin başlığından erişebilirsiniz.
 
 ## <a name="confirmations-and-version-history-for-purchase-agreements"></a>Satınalma sözleşmeleri için sürüm ve onay geçmişi
-Bir satınalma sözleşmesini teyit ettiğinizde bu satınalma sözleşmenin geçerli sürümü, geçmiş tablosunda depolanır. Satın alma sözleşmesini değiştirirseniz, geçmişini satınalma sözleşmesinin başka bir sürümünde saklamak için yeniden onaylayabilirsiniz. Bir satın alma sözleşmesi onay isteme, onu POs oluşturmak için kullanmaya devam edebilirsiniz. Ancak, geçmiş bilgilerini satın alma sözleşmesi saklanmıyor. Sözleşmenin tüm sürümlerini yazdırabilir veya önizleyebilirsiniz. Daha sonra onay almak için düzeltmeleri satıcınızla paylaşabilirsiniz.
+Bir satınalma sözleşmesini teyit ettiğinizde bu satınalma sözleşmenin geçerli sürümü, geçmiş tablosunda depolanır. Satın alma sözleşmesini değiştirirseniz, geçmişini satınalma sözleşmesinin başka bir sürümünde saklamak için yeniden onaylayabilirsiniz. Bir satınalma anlaşmasını onaylamazsanız, satınalma siparişleri oluşturmak için kullanmaya devam edebilirsiniz. Ancak, satınalma anlaşmasının geçmiş bilgileri saklanmaz. Sözleşmenin tüm sürümlerini yazdırabilir veya önizleyebilirsiniz. Daha sonra onay almak için düzeltmeleri satıcınızla paylaşabilirsiniz.
 
 ## <a name="applying-purchase-agreements-in-the-ordering-process"></a>Satınalma sözleşmelerini sipariş işlemlerinde uygulamak
 Bir satınalma siparişi oluşturduğunuzda buna bir satın alma sözleşmesi uygulayabilirsiniz. Ödeme koşulları, teslim koşulları ve teslim adresi gibi anlaşmadan koşullarından gelen bilgiler sonra satınalma siparişi başlığına kopyalanır. Satınalma siparişi, ürünler veya anlaşma kapsamında olan kategoriler için bir veya daha fazla satır içeriyorsa, satınalma sözleşmesindeki fiyatlar ve iskontolar bu satırlar için kullanılır. Sipariş satırı üzerindeki miktar ya da tutar, satınalma sözleşmesindeki taahhüdün yerine getirilmesine katkıda bulunur. Aynı satınalma siparişi hem bir satın alma sözleşmesi için ilişkili olmayan satırlar hem de satın alma sözleşmesi için bir taahhüdü olan satırları içerebilir.  
@@ -91,8 +94,10 @@ Finansal boyutları belge başlıklarına ve satınalma sözleşmelerinin tekil 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Bir satın alma Sözleşmesi (görev Kılavuzu) oluşturma](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
+[Satınalma sözleşmesi oluşturma (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
 
-[Satınalma sevk emri oluşturmak bir satın alma Sözleşmesi (görev Kılavuzu)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+[Satınalma sözleşmesinden satınalma sevk emri oluşturma (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+
+
 
 

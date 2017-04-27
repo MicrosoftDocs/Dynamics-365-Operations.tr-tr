@@ -1,6 +1,6 @@
 ---
-title: "Bütçe planlama bloklama belgeleri"
-description: "Belgeleri yaslama biçiminde anlatı belirli bir bütçeyi neden gerekli olduğunu açıklamak için bir bütçe isteyen kişiler için sağlar."
+title: "Bütçe planlama gerekçe belgeleri"
+description: "Gerekçe belgeleri, belirli bir bütçenin neden gerekli olduğunu açıklamak isteyenler için açıklama sağlar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,47 +24,52 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="budget-planning-justification-documents"></a>Bütçe planlama bloklama belgeleri
+# <a name="budget-planning-justification-documents"></a>Bütçe planlama gerekçe belgeleri
 
-Belgeleri yaslama biçiminde anlatı belirli bir bütçeyi neden gerekli olduğunu açıklamak için bir bütçe isteyen kişiler için sağlar. 
+[!include[banner](../includes/banner.md)]
 
-Bütçe planı şablonu Microsoft Word'de bütçe Yöneticisi tarafından oluşturulan ve atanan geçerli bütçe planlama işleminin. Bütçe sahipleri sonra şablonu açın ve Word içindeki otomatik olarak doldurulan veri kendi bütçe isteği doğrultusunda vardır. Daha sonra ek metin veya veri kaydetme ve bütçe planlarına kendi kişiselleştirilmiş bloklama belge iliştirme önce ekleyebilirsiniz.
 
-##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Microsoft Dynamics Office eklenti Microsoft Word için ayarlayın.
+Gerekçe belgeleri, belirli bir bütçenin neden gerekli olduğunu açıklamak isteyenler için açıklama sağlar. 
+
+Bir bütçe planı şablonu, bütçe yöneticisi tarafından Microsoft Word içerisinde oluşturulur ve geçerli bütçe planlama işlemine atanır. Bütçe sahipleri daha sonra şablonu açabilir ve verinin bütçe isteklerine göre Word içerisinde otomatik doldurulmasını sağlayabilir. Daha sonra, kaydetmeden önce ek metin veya veri ekleyebilir ve kişiselleştirilmiş gerekçe belgelerini bütçe planına ekleyebilirler.
+
+##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Microsoft Word için Microsoft Dynamics Office eklentisini ayarlama
 
 1.  Yeni bir Microsoft Word belgesi açın.
-2.  ' I **Ekle** tıklatın ve Şerit üzerindeki **deposu**.
-3.  ' I tıklatın ve arama için Microsoft Dynamics Office eklenti **Ekle**.
-4.  Word'de sağ bölmede **sunucu bilgileri eklemek**.
-5.  Yazın veya sunucu URL'sini yapıştırın ve **Tamam**.
+2.  Şerit üzerinde **Ekle**'yi tıklatın ve **Depola**'yı tıklatın.
+3.  Microsoft Dynamics Office Eklentisi'ni aratın ve **Ekle**'yi tıklatın.
+4.  Word içerisinde, sağdaki bölmede **Sunucu bilgisi ekle**'yi tıklatın.
+5.  Sunucu URL'sini yazın veya yapıştırın ve **Tamam**'ı tıklatın.
 
-##### <a name="define-the-justification-template-in-microsoft-word"></a>Microsoft Word'de bloklama şablonu tanımlama
+##### <a name="define-the-justification-template-in-microsoft-word"></a>Microsoft Word içerisinde Gerekçe şablonunu tanımlama
 
-1.  ' I **tasarım** Microsoft Dynamics ofisini sonra oturum açtığınız eklenti içinde.
-2.  Başlık bilgilerini kullanmak **alanlar eklemek** düğmesi.
-3.  BudgetPlanJustification varlık veri kaynağını seçin ve tıklatın **İleri**. **Not:** bu varlık için herhangi bir gerekçe belge gereklidir. Diğer varlıkları kullanılabilir ancak bu varlık gelmediyse Microsoft Dynamics 365 işlemleri için geri yükleme başarısız olur.
-4.  BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter ve DocumentNumber etiketler ve değerler, Word belgesine ekleyin. **Not:** gerekirse standart etiketler yerine kendi özel etiketlerinizi kullanabilirsiniz.
-5.  ' I **yapılan** üstbilgi bölümünü tamamlamak için.
-6.  Satır düzey ayrıntılarını bütçe planı tutarlar için ' ı **Tablo Ekle**.
-7.  Yine, BudgetPlanJustification varlık veri kaynağını seçin ve'ı **İleri**.
-8.  EffectiveDate, ScenarioName, AccountDisplayValue ve AccountingCurrencyExpenseAmount alanları ekleyin. **Not:** yorumlar içinde tek bir bütçe planı satırları eklemek varsa, bu burada tabloya eklenebilir.
-9.  Son kullanıcıya sağlamak için tüm ek yönergeleri eklemek ve gerekli biçimlendirme veya belgenin stil gerçekleştirin.
+1.  Microsoft Dynamics Office Ekletisi'ne oturum açtıktan sonra **Tasarım**'ı tıklatın.
+2.  Başlık bilgisi için **Alanlar ekle** düğmesini kullanın.
+3.  BudgetPlanJustification varlık veri kaynağını seçin ve **İleri**'yi tıklatın. **Not:** Bu varlık tüm gerekçe belgeleri için gereklidir. Diğer varlıklar da kullanılabilir ancak bu varlık dahil edilmemişse Microsoft Dynamics 365 for Operations'a geri yüklerken başarısız olur.
+4.  BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter ve DocumentNumber etiketlerini ve değerlerini Word dosyasına ekleyin. **Not:** Gerekirse standart etiketler yerine kendi özel etiketlerinizi kullanabilirsiniz.
+5.  Başlık bölümünü tamamlamak için **Tamam**'ı tıklatın.
+6.  Bütçe planı tutarlarının satır düzeyi ayrıntıları için **Tablo ekle**'yi tıklatın.
+7.  Daha sonra yine BudgetPlanJustification varlık veri kaynağını seçin ve **İleri**'yi tıklatın.
+8.  EffectiveDate, ScenarioName, AccountDisplayValue ve AccountingCurrencyExpenseAmount için alanlar ekleyin. **Not:** Yorumlar, Tekil bütçe planı satırlarına eklenmek için kullanılabilirse, bunlar buradaki tabloya eklenebilir.
+9.  Son kullanıcıya sağlamak için varsa ek yönergeleri ekleyin ve belge üzerinde gerekli biçimlendirme ve stilleri gerçekleştirin.
 10. Belgeyi yerel bilgisayarınıza kaydedin ve devam etmeden önce dosyayı kapatın.
 
-##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Bloklama şablonu kullanmak için bütçe planlama işleminin ayarlamak
+##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Gerekçe şablonunu kullanmak için Bütçe planlama işlemini ayarlama
 
-1.  İşlemler için Microsoft Dynamics 365 içinde gitmek **bütçeleme**&gt;**Kurulum**&gt;**bütçe planlama**&gt;**bloklama belge şablonları**.
-2.  ' I **yeni** ve yeni oluşturulan Microsoft Word belgenizi gösterin.
-3.  Şablon görüntü adı ve açıklama girin. Click **OK**.
-4.  Git **bütçeleme**&gt;**Kurulum**&gt;**bütçe****planlama**&gt;**bütçe planlama işleminin**.
-5.  Burada bloklama şablonu kullanılması gerektiğini ve'ı tıklatın işlem **düzenleme**.
-6.  İçinde **bloklama belge şablonu** alanında uygun şablonu seçin ve kaydedin.
+1.  Microsoft Dynamics 365 for Operations içerisinde **Bütçelendirme** &gt; **Kurulum** &gt; **Bütçe planlama** &gt; **Gerekçe belge şablonları**'na gidin.
+2.  **Yeni**'yi tıklatın ve yeni oluşturulan Microsoft Word belgenize gidin.
+3.  Şablon görüntüleme adı ve açıklama girin. **Tamam** seçeneğini tıklatın.
+4.  **Bütçeleme** &gt; **Kurulum** &gt; **Bütçe** **planlama** &gt; **Bütçe planlama işlemi**'ne gidin.
+5.  Gerekçe şablonunun kullanılacağı işlemi seçin ve **Düzenle**'yi tıklatın.
+6.  **Gerekçe belge şablonu** alanında, uygun şablonu seçin ve kaydedin.
 
-##### <a name="edit-and-save-personalized-justification-documents"></a>Düzenleme ve kişiselleştirilmiş bloklama belgeleri kaydetme
+##### <a name="edit-and-save-personalized-justification-documents"></a>Kişiselleştirilmiş gerekçe belgelerini düzenleme ve kaydetme
 
-1.  Dynamics 365 işlemleri için yeni bir bütçe planı oluşturun veya varolan bir bütçe planı açın.
-2.  İçinde **gerekçe** aþaðý açýlan menüsünden, select **yeni yaslama oluşturmak**.
-3.  Ayrıntılar doldurduktan sonra kişiselleştirilmiş belgeyi karşıya yüklemek için seçin **gerekçe** aþaðý açýlan menü.
+1.  Dynamics 365 for Operations içerisinde, yeni bir bütçe planı oluşturun veya var olan bir bütçe planını açın.
+2.  **Gerekçe** aşağı açılan menüsünden **Yeni gerekçe oluşturma**'yı seçin.
+3.  Ayrıntılar doldurduktan sonra, karşıya yüklemek için **Gerekçe** aşağı açılan menü üzerinden kişiselleştirilmiş belgeyi seçin.
+
+
 
 
 

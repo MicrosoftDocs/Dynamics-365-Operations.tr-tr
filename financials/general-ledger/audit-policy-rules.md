@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="audit-policy-rules"></a>Denetim ilkesi kuralları
 
+[!include[banner](../includes/banner.md)]
+
+
 Gider raporlarını, satıcı faturalarını ve satınalma siparişlerini değerlendirerek, oluşturduğunuz ilke kurallarına uygun olup olmadıklarından emin olmak için denetim ilkelerini kullanabilirsiniz. Bir denetim ilkesiyle ilişkili kuralların tümü, belirlediğiniz bir zaman planına göre top iş modunda çalıştırılır.  Her ilke kuralı, ilke kuralı türünün bir örneğidir. Her ilke kuralı türü için aynı anda yalnızca bir ilke kuralı etkin olabilir. 
 
 <a name="queries-and-query-types"></a>Sorgular ve sorgu türleri
@@ -97,5 +100,7 @@ Belirli bir denetim ilkesi için ilke kurallarının tümü aynı toplu iş para
 --------
 
 [İlke ihlallerini ve vakalarını denetleme](audit-policy-violations-cases.md)
+
+
 
 

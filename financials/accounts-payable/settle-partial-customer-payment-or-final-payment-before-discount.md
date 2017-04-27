@@ -1,5 +1,5 @@
 ---
-title: "Kısmi Müşteri ödeme ve son ödeme iskontosu tarihinden önce tam olarak kapatma"
+title: "İskonto tarihinden önce bir kısmi müşteri ödemesini ve nihai ödemeyi tam olarak kapatın"
 description: "Bu makalede, bir müşteri için nasıl kısmi ödeme kaydı yapılacağına ve nakit indirimi periyodu içinde nakit indirimler alınacağına yönelik senaryolar verilmektedir."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Kısmi Müşteri ödeme ve son ödeme iskontosu tarihinden önce tam olarak kapatma
+# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>İskonto tarihinden önce bir kısmi müşteri ödemesini ve nihai ödemeyi tam olarak kapatın
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, bir müşteri için nasıl kısmi ödeme kaydı yapılacağına ve nakit indirimi periyodu içinde nakit indirimler alınacağına yönelik senaryolar verilmektedir.
 
-Fabrikam 4028 müşteriye mal satmaktadır. 14 gün içinde faturası ödeniyorsa Fabrikam yüzde 1'lik bir nakit iskontosu sunar. Faturaların 30 gün içinde ödenmesi gerekir. Fabrikam, kısmi ödemeler için de nakit iskontoları sunmaktadır. Kapatma parametreleri üzerinde bulunan **Accounts receivable parameters** sayfa.
+Fabrikam 4028 müşteriye mal satmaktadır. Fabrikam, fatura 14 gün içerisinde ödenirse yüzde 1'lik nakit iskontosu sunar. Faturaların 30 gün içinde ödenmesi gerekir. Fabrikam, kısmi ödemeler için de nakit iskontoları sunmaktadır. Kapatma parametreleri, **Alacak hesapları parametreleri** sayfasında bulunur.
 
 ## <a name="customer-invoice"></a>Müşteri faturası
-25 Haziran Tamer girer ve 1.000,00 4028 müşteri için bir fatura deftere nakleder. Arnie bu hareketi **Müşteri hareketleri** sayfasında görüntüleyebilir.
+25 Haziran Tamer 4028 müşteri için 1.000,00 değerinde bir faturayı girip deftere naklediyor. Arnie bu hareketi **Müşteri hareketleri** sayfasında görüntüleyebilir.
 
 | Fiş   | Hareket türü | Tarih      | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Kalan  | Para Birimi |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -63,14 +66,14 @@ Arnie, iskonto tutarını görmek için **Nakit iskontosu** sekmesini tıklıyor
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
 ## <a name="partial-payment-by-using-the-enter-customer-payments-page"></a>Müşteri ödemelerini girme sayfası kullanılarak kısmi ödeme
-Temmuz 1 500,00 için bir ödeme müşteri 4028 gönderir. Bu ödeme girmek için Tamer tıklatın olmayan **satırları**. Bunun yerine, yeni bir ödeme günlüğü oluşturarak ve ardından **Müşteri ödemelerini gir** sayfasını açarak ödemeyi kaydediyor. Ödeme bilgilerini giriyor ve girdiği faturayı işaretliyor. Arnie, tutar olarak **500,00** girdiğinde aynı zamanda ızgaradaki **Ödenecek tutar** alanına **500,00** tutarını giriyor. Fabrikam, kısmi ödemelerde bir nakit iskontosu verdiğinden, 5.05 tutarında bir kısmi nakit iskontosunun da alınacağını görüyor. Bu iskonto hesaplaması şu şekildedir; 500.00 ÷ 0.99 × 0.01 = 5.05. (Yüzde 1'lik bir iskonto mevcut olduğundan bu hesaplamada 500.00 tutarı 0.99'a bölünüyor. Bu nedenle, müşteri, faturanın yüzde 99'unu ödüyor. Sonuç sonra yüzde 1, yani 0,01 iskonto yüzdesi ile çarpılıyor. Müşteri 10,00 tam indirim alırsa, ödenmesi gereken tutar 990.00 olacaktır.) İndirim bilgileri görünür altındaki kılavuzda **Müşteri ödemeleri gir** sayfa.
+Müşteri 4028 1 Temmuz'da 500,00 için bir ödeme gönderir. Bu ödemeyi girmek için Tamer **Satırlar**'a tıklamıyor. Bunun yerine, yeni bir ödeme günlüğü oluşturarak ve ardından **Müşteri ödemelerini gir** sayfasını açarak ödemeyi kaydediyor. Ödeme bilgilerini giriyor ve girdiği faturayı işaretliyor. Arnie, tutar olarak **500,00** girdiğinde aynı zamanda ızgaradaki **Ödenecek tutar** alanına **500,00** tutarını giriyor. Fabrikam, kısmi ödemelerde bir nakit iskontosu verdiğinden, 5.05 tutarında bir kısmi nakit iskontosunun da alınacağını görüyor. Bu iskonto hesaplaması şu şekildedir; 500.00 ÷ 0.99 × 0.01 = 5.05. (Yüzde 1'lik bir iskonto mevcut olduğundan bu hesaplamada 500.00 tutarı 0.99'a bölünüyor. Bu nedenle, müşteri, faturanın yüzde 99'unu ödüyor. Sonuç sonra yüzde 1, yani 0,01 iskonto yüzdesi ile çarpılıyor. Müşteri 10,00 tutarında tam iskonto alırsa, kapatılması gereken tutar 990.00 olacaktır.) İskonto bilgileri görünür **Müşteri ödemeleri gir** sayfasının altındaki kılavuzda görünür.
 
 | Alınacak nakit iskontosu tutarı | Alınan nakit iskontosu | Ödenecek tutar |
 |------------------------------|---------------------|---------------|
 | 5,05                         | 0,00                | 500,00        |
 
 ## <a name="partial-payment-by-using-the-journal-lines"></a>Günlük satırları kullanılarak kısmi ödeme
-Ödeme günlüğünde **Müşteri ödemelerini gir** sayfası yerine Arnie bir ödeme girmek için **Satırlar** öğesini tıklıyor. Tamer 4028 müşteri için bir satır girebildikleri ödeme günlüğü görüntülenir. Ardından, kapatmanın faturasını işaretleyebilmek için **Hareketleri kapat** sayfasını açar. Arnie, faturayı işaretliyor ve **Kapatılacak tutar** alanındaki değeri **500.00** olarak değiştiriyor. Burada da, **Nakit iskontosu tutarı** alanındaki değerin tam fatura için **10,00** ve **Alınacak nakit iskontosu tutarı** alanındaki değerin **5,05** olduğunu görüyor. Bu nedenle, Arnie bu fatura için 505,05 tutarını kapatıyor.
+Ödeme günlüğünde **Müşteri ödemelerini gir** sayfası yerine Arnie bir ödeme girmek için **Satırlar** öğesini tıklıyor. Tamer'in 4028 numaralı müşteri için bir satır girebildiği ödeme günlüğü görüntülenir. Ardından, kapatmanın faturasını işaretleyebilmek için **Hareketleri kapat** sayfasını açar. Arnie, faturayı işaretliyor ve **Kapatılacak tutar** alanındaki değeri **500.00** olarak değiştiriyor. Burada da, **Nakit iskontosu tutarı** alanındaki değerin tam fatura için **10,00** ve **Alınacak nakit iskontosu tutarı** alanındaki değerin **5,05** olduğunu görüyor. Bu nedenle, Arnie bu fatura için 505,05 tutarını kapatıyor.
 
 | İşaret     | Nakit iskontosu kullan | Fiş   | Hesap | Tarih      | Vade tarihi  | Fatura | Hareket para birimi cinsinden tutar | Para Birimi | Kapatılacak tutar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -143,6 +146,8 @@ Arnie bu ödeme günlüğünü naklediyor ve **Müşteri hareketleri** sayfasın
 | DISC-10010 | Nakit iskontosu    | 1/7/2015  |         |                                      | 5,00                                  | 0,00    | ABD Doları      |
 | ARP-10011  | Ödeme          | 8/7/2015  |         |                                      | 495,00                                | 0,00    | ABD Doları      |
 | DISC-10011 | Nakit iskontosu    | 8/7/2015  |         |                                      | 5,00                                  | 0,00    | ABD Doları      |
+
+
 
 
 

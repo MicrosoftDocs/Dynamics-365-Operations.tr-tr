@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-warehouse-workers"></a>Ambar çalışanlarını yönetme
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makale, Microsoft Dynamics AX'i, ambarlarınızdaki çalışanlarca yürütülen işi denetlemeye ve izlemeye yardımcı olacak şekilde nasıl kullanabileceğinizi açıklamaktadır.
 
 Ambar yönetimindeki işlevleri kullanıyorsanız, tüm ambar çalışan operasyonları *iş* olarak adlandırılır. Çekme, taşıma ve eldeki stokun sayımı gibi işler mobil cihazlar kullanılarak kaydedilir. Bir ambar çalışanı işi yapmadan önce, İnsan Kaynakları'ndaki bir çalışan ile ilişkilendirilmiş olması gerekir. Her **Çalışan** hesabının, bu hesapla ilişkilendirilmiş birden çok ambar işi kullanıcısı olabilir. Bu iş kullanıcıları farklı ambarlarda çalışabilir ve çeşitli mobil cihaz menülerine farklı düzeylerde erişimleri olabilir. Ambar iş kullanıcılarını seçili çalışanın birden çok oturum açması gibi düşünebilirsiniz. Her iş kullanıcısının varsayılan bir ambarı vardır ve belirli iş akışları, o iş kullanıcısı tarafından kullanılabilen menü öğeleri ile ortaya çıkarılır. 
@@ -51,6 +54,8 @@ Ayrıca, iş oluşturma sırasında işi otomatik olarak bölme kurallarındaki 
 
 -   **Kullanıcı tarafından işgücü** – Bu raporda, beklenen sürelere karşı gerçek sürelere göre çalışan verimliliği gösterilir.
 -   **İş hareket türüne göre işgücü** – Bu raporu belirli ambar işlemlerindeki verimsizlikleri araştırmak için kullanabilirsiniz. Örneğin, transfer siparişleri için çekmelerin bu hafta önceki haftadan daha uzun süreceği dikkatinizi çekti. Daha sonra bu bilgiyi daha ileri düzeyde araştırma için kullanabilirsiniz.
+
+
 
 
 

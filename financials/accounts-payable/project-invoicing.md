@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-invoicing"></a>Proje faturalama
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, Zaman ve malzeme projeleri ve Sabit fiyatlı projeler için proje faturalamaya genel bir bakış verilmektedir. Fatura teklifleri (ön faturalar), fatura kontrolü, hesaba mahsup faturalama, satıcı faturalama ve hakkındaki bilgileri içerir ve alacak dekontları hakkında bilgiler içermektedir.
 
 Proje tipi, hangi faturalama prosedürünün uygulanacağını belirler. Sadece iki harici proje türü, Zaman ve malzeme ve Sabit fiyatlı, faturalandırılabilir. Zaman ve malzeme projeleri ile sabit fiyatlı projeler her zaman bir proje sözleşmesine iliştirilir.
@@ -103,7 +106,7 @@ Sabit fiyatlı projeleri faturalama zamanlamasında faturalayabilirsiniz. Fatura
 Kilometre taşı ödemeleri faturalandırmaya hazır olduğunda, yordamı açık hesap tutarları faturalandırmak için yordamı kullanın.
 
 ## <a name="vendor-invoicing"></a>Satıcı faturalandırması
-Bir maddeyi bir satıcıdan sipariş edip bir projeye atadığınızda, bu madde için satınalma siparişi satırında seçtiğiniz satır özelliği, satın alınan maddenin müşteriye fatura edilip edilmeyeceğini belirler. Varsayılan satır özelliklerini ayarlarsanız, bunlar satınalma siparişi satırındaki madde için görüntülenir (satır ayrıntıları &gt;proje &gt;satır özelliği). Satır özelliğini değiştirmenin iki yolu vardır:
+Bir maddeyi bir satıcıdan sipariş edip bir projeye atadığınızda, bu madde için satınalma siparişi satırında seçtiğiniz satır özelliği, satın alınan maddenin müşteriye fatura edilip edilmeyeceğini belirler. Varsayılan satır özelliklerini ayarlarsanız, bunlar satınalma siparişi satırındaki madde için görüntülenir (Satır ayrıntıları &gt; Proje &gt; Satır özelliği). Satır özelliğini değiştirmenin iki yolu vardır:
 
 -   Maddeyi projenin müşterisine fatura edin: Madde için satır özelliği, satınalma siparişine ücrete tabi değerine ayarlayın ve sonra doğru proje faturalama yöntemini kullanarak müşteriye fatura edin.
 -   Madde için projenin müşterisine fatura vermeyin: **Borçlandırılabilir** satır maddesini, madde için satınalma siparişi satırındaki özelliğinde seçmeyin. Sonra satınalma siparişini faturalayabilirsiniz ve başka bir eyleme gerek yoktur.
@@ -118,5 +121,7 @@ Aynı belge alacaklandırma için seçilenleri, alacak hareketlerini ve deftere 
 Faturalandırmış bir tutarı alacaklandırmak için, önce alacaklandırmak için faturalandırılmış tutarı seçin ve sonra alacak dekontunu oluşturun. Bir alacak dekontunu bir müşteri faturasını oluşturmak için kullanacağınız aynı prosedürü izleyerek oluşturursunuz. 
 
 Bir alacak dekontu olarak sınıflandırılacak bir fatura haline gelecek, negatif tutara sahip bir fatura oluşturabilirsiniz. Bir alacak dekontunu oluşturmak ve yazdırmak için daha önce bir müşteri faturası için deftere nakledilen hareketleri seçmeli ve ardından hareketlerinde değişiklik yapmalısınız. Tüzel kişiliğin birincil adresi Almanya'da olmadığı sürece, faturanın başlığı "Düzeltme faturası" olacaktır.
+
+
 
 

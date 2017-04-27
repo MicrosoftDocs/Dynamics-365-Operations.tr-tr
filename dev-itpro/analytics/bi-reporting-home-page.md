@@ -1,6 +1,6 @@
 ---
-title: "BI &amp;giriş sayfası raporlama"
-description: "Bu konuda BI listeler &amp;raporlama kaynaklarını Microsoft Dynamics 365 işlemleri için kullanılabilir."
+title: "BI &amp; raporlama ana sayfası"
+description: "Bu konu, Microsoft Dynamics 365 for Operations&quot;da bulunan BI &amp; raporlama kaynaklarını listeler."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,26 +24,29 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>BI &amp;giriş sayfası raporlama
+# <a name="bi-amp-reporting-home-page"></a>BI &amp; raporlama ana sayfası
 
-Bu konuda BI listeler &amp;raporlama kaynaklarını Microsoft Dynamics 365 işlemleri için kullanılabilir.
+[!include[banner](../includes/banner.md)]
+
+
+Bu konu, Microsoft Dynamics 365 for Operations'da bulunan BI &amp; raporlama kaynaklarını listeler. 
 
 <a name="working-with-aggregate-data"></a>Toplanan verilerle çalışma
 ---------------------------
 
--   [Analytics](analytics.md)
+-   [Analiz](analytics.md)
 -   [Bellek içi, gerçek zamanlı toplam modeller SSAS küplerini değiştiriyor](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
--   [Modelleme ve kullanarak veri toplama](model-aggregate-data.md)
--   [Dynamics AX 2012 R3 için yükseltilmiş bir satış küpü varlığın mağazaya geçiş](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
+-   [Toplanan Verileri Modelleme ve Kullanma](model-aggregate-data.md)
+-   [Yükseltilmiş bir Dynamics AX 2012 R3 satış küpünü varlık mağazasına geçirme](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
 
-## <a name="self-service-reporting"></a>Self Servis raporlama
--   [Power BI integration](power-bi-integration.md)
+## <a name="self-service-reporting"></a>Self servis raporlama
+-   [Power BI tümleştirmesi](power-bi-integration.md)
 -   [Çalışma alanları için Power BI tümleştirmesini yapılandırma](configure-power-bi-integration.md)
 -   [Microsoft Dynamics 365 for Operations verilerini kullanarak bir Power BI raporu oluşturma](create-powerbi-report-data.md)
--   [Güç BI rapor ve gösterge tablosu oluştur](create-powerbi-report-dashboard.md)
--   [Perakende kanal performans Güç BI içeriği](retail-channel-performance-dashboard-power-bi-data.md)
--   [Finansal performans Güç BI içeriği](financial-performance-power-bi-content-pack.md)
--   [Sales and profitability performance Power BI content](sales-profitability-performance-content-pack.md)
+-   [Power BI raporu ve gösterge tablosu oluşturma](create-powerbi-report-dashboard.md)
+-   [Power BI için Perakende Kanal Performans içeriği](retail-channel-performance-dashboard-power-bi-data.md)
+-   [Mali Performans Power BI içeriği](financial-performance-power-bi-content-pack.md)
+-   [Satış ve karlılık performansı Power BI içeriği](sales-profitability-performance-content-pack.md)
 -   [Power BI'ya Dynamics 365 for Operations uygulamasından gelen verileri sağlamak için Elektronik raporlama yapılandırması kullanma](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
 ## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Dynamics 365 for Operations istemcisinde eklenmiş analitik deneyimler oluşturma
@@ -95,6 +98,8 @@ Bu konuda BI listeler &amp;raporlama kaynaklarını Microsoft Dynamics 365 işle
 -   [ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 5: Biçimi değiştirme ve çalıştırma)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (Görev kılavuzu)
 -   [ER Biçim yapılandırmayı kullanarak ödemeler için elektronik belgeler oluşturma](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/) (Görev kılavuzu)
 -   [ER Biçiminizi, o biçimin yeni bir temel sürümünü benimseyerek yükseltme](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/) (Görev kılavuzu)
+
+
 
 
 

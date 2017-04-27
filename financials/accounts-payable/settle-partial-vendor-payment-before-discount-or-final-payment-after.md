@@ -1,5 +1,5 @@
 ---
-title: "Kısmi Satıcı ödeme iskontosu tarihinden önce son bir ödeme iskontosu tarihinden sonra olan tasfiye et"
+title: "Kısmi satıcı ödemesini iskonto tarihinden önce, iskonto tarihinde nihai bir ödemeyle kapatma"
 description: "Bu makalede, bazısı nakit iskonto dönemi dahilinde, diğerleri nakit iskonto dönemi haricinde olmak üzere birden fazla kısmi ödemenin yapıldığı bir senaryo boyunca size eşlik edilmektedir."
 author: twheeloc
 manager: AnnBe
@@ -26,21 +26,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Kısmi Satıcı ödeme iskontosu tarihinden önce son bir ödeme iskontosu tarihinden sonra olan tasfiye et
+# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Kısmi satıcı ödemesini iskonto tarihinden önce, iskonto tarihinde nihai bir ödemeyle kapatma
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, bazısı nakit iskonto dönemi dahilinde, diğerleri nakit iskonto dönemi haricinde olmak üzere birden fazla kısmi ödemenin yapıldığı bir senaryo boyunca size eşlik edilmektedir.
 
-Fabrikam mal 3057 satıcıdan yapılan satınalmalar. 14 gün içinde faturası ödeniyorsa Fabrikam yüzde 1'lik bir nakit iskontosu alır. Faturaların 30 gün içinde ödenmesi gerekir. Satıcı ayrıca Fabrikam'ın kısmi ödemelerde nakit iskontolar alabilmesine izin verir. Kapatma parametreleri üzerinde bulunan **hesaplarına borç parametreleri** sayfa.
+Fabrikam 3057 numaralı satıcıdan mal satın alıyor. Fabrikam, fatura 14 gün içinde ödenirse yüzde 1'lik nakit iskontosu alıyor. Faturaların 30 gün içinde ödenmesi gerekir. Satıcı ayrıca Fabrikam'ın kısmi ödemelerde nakit iskontolar alabilmesine izin verir. Kapatma parametreleri **Borç hesapları parametreleri** sayfasındadır.
 
 ## <a name="invoice-on-june-25"></a>25 Haziran tarihindeki fatura
-Haziran 25 Nisan girer ve satıcı 3057 için 1.000,00 ait faturayı deftere nakleder. April bu hareketi **Satıcı hareketleri** sayfasında görüntüleyebilir.
+25 Haziran tarihinde April 3057 numaralı satıcı için 1.000,00 tutarında bir fatura giriyor ve deftere naklediyor. April bu hareketi **Satıcı hareketleri** sayfasında görüntüleyebilir.
 
 | Fiş   | Hareket türü | Tarih      | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Kalan   | Para Birimi |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
 | Inv-10020 | Fatura          | 25/6/2015 | 10020   |                                      | 1.000,00                              | -1.000,00 | ABD Doları      |
 
 ## <a name="partial-payment-on-july-2"></a>2 Temmuz'da kısmi ödeme
-2 Temmuz'da, April bu faturanın 300,00'ünü kapatmak istiyor. Fabrikam kısmi ödemelerde indirim kabul ettiği için, bu ödeme bir indirime hak kazanır. Bu nedenle, April 297,00 öder ve 3,00 indirim alır. Ödeme günlüğü oluşturur ve 3057 satıcı için bir satır girer. Daha sonra açılır **kapatma hareketleri** sayfa, böylece o fatura kapatması için işaretleyebilirsiniz.
+2 Temmuz'da, April bu faturanın 300,00'ünü kapatmak istiyor. Fabrikam kısmi ödemelerde indirim kabul ettiği için, bu ödeme bir indirime hak kazanır. Bu nedenle, April 297,00 öder ve 3,00 indirim alır. Bir ödeme günlüğü oluşturuyor ve 3057 numaralı satıcı için bir satır giriyor. Ardından, kapatılacak faturayı işaretleyebilmek için **Hareketleri kapat** sayfasını açıyor.
 
 | İşaret     | Nakit iskontosu kullan | Fiş   | Hesap | Tarih      | Vade tarihi  | Fatura | Hareket para birimi cinsinden tutar | Para Birimi | Kapatılacak tutar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -91,7 +94,7 @@ April sonra ödemeyi deftere nakleder. **Satıcı hareketleri** sayfasını açt
 | APP-10021  | Ödeme          | 15/7/2015 |         | 700,00                               |                                       | 0,00    | ABD Doları      |
 
 ## <a name="remaining-payment-on-july-15-use-cash-discount--always"></a>Kalan ödeme Temmuz 15'te, Nakit indirimi kullanın = Her zaman
-Satıcı Nisan Filiz iskonto tarihinden sonra ödeme olsa da bir indirim almak sağlar, Filiz değeri değiştirebilirsiniz **nakit iskontosu kullan** alanı **her zaman**. **Kısmi ödemeler için nakit iskontolarını hesaplamak** ayarını geçersiz kılınmıştır ve iskonto alınır. Ödeme tutarı 693,00'dür ve kalan 7,00'de indirimdir.
+Satıcı, April iskonto tarihinden sonra ödeme yapsa da bir iskonto almasına izin veriyor ve April **Nakit iskontosu kullan** alanındaki değeri değiştirip **Her zaman** yapabiliyor. **Kısmi ödemeler için nakit iskontolarını hesapla** ayarı geçersiz kılınmıştır ve iskonto alınır. Ödeme tutarı 693,00'dür ve kalan 7,00'de indirimdir.
 
 | İşaret     | Nakit iskontosu kullan | Fiş   | Hesap | Tarih      | Vade tarihi  | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Para Birimi | Kapatılacak tutar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -116,6 +119,8 @@ April sonra ödemeyi deftere nakleder. **Satıcı hareketleri** sayfasını açt
 | DISC-10020 | Nakit iskontosu    | 1/7/2015  |         | 3,00                                 |                                       | 0,00    | ABD Doları      |
 | APP-10021  | Ödeme          | 15/7/2015 |         | 693,00                               |                                       | 0,00    | ABD Doları      |
 | DISC-10021 | Nakit iskontosu    | 15/7/2015 |         | 7,00                                 |                                       | 0,00    | ABD Doları      |
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Yalın kuruluş modelleme"
+title: "Bir yalın kuruluşu modelleme"
 description: "Bu makale, bir yalın kuruluşu modellemek için kilit kavramlar hakkında bilgi sağlamaktadır."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="modeling-a-lean-organization"></a>Yalın kuruluş modelleme
+# <a name="modeling-a-lean-organization"></a>Bir yalın kuruluşu modelleme
 
 Bu makale, bir yalın kuruluşu modellemek için kilit kavramlar hakkında bilgi sağlamaktadır. 
 
@@ -35,7 +35,7 @@ Bir yalın imalat senaryosu genellikle sadece birbiriyle alakasız kanban kurall
 ## <a name="production-flows-in-lean-manufacturing"></a>Yalın imalattaki üretim akışları
 Üretim siparişlerine dayalı olan üretim senaryolarda, malzeme, belirli bir üretim emrine verilir. Bir ürün reçetesi (BOM) ve rotalarına bağlı olan işlemler dizisi esnasında, ürünler oluşturulur ve sağlandıkları konumda nihai olarak alınırlar. Üretim emirlerinin üretimi zaman aralığı dakika ila hafta aralığında değişir. Tüm ilgili maliyet, malzeme ve işçilik üretim emrinde toplanır. Toplu üretimin sebep olduğu iş merkezleri arasındaki stok fazlasını ve teslimat sağlama sürelerini azaltmak için, yalın üretim kanban stok yenileme ve süpermarketleri üretim ve ambar yenileme içerisinde devreye sokar. Genellikle bu özellikler, kısmen bağımsız kanban döngülerinin üretimini bozar. Yarı Bitmiş ürünün bir kanban yenilemesi bitmiş bir ürün için siparişle daha fazla harekete geçmez. Microsoft Dynamics AX'te teklif edilmiş olan çeşitli kanban senaryoları için bir üretim ve maliyet içeriği yeniden kurmak için, etkinlik tabanlı üretim akışlarının yalın üretim omurga olarak kullanılmaya başlanmıştır. Tüm kanban kuralları önceden tanımlanmış bu yapısına başvurur. Etkinlik tabanlı model, Dynamics AX için Yalın İmalatın daha önceki sürümlerinde desteklenenden daha geniş çaplı senaryoları desteklemektedir. Ancak, tüm senaryolar aynı etkinlik tabanlı kullanıcı arabirimini kullandığı için bu model atölye çalışanlarına daha fazla karmaşıklık eklemez.
 
-## <a name="semifinished-products-nonbom-levels"></a>Semifinished ürünleri (nonBOM düzeyleri)
+## <a name="semifinished-products-nonbom-levels"></a>Yarı bitmiş ürünler (ürün reçetesi-düzeyleri olmayan)
 Dynamics AX için yalın imalat, stoklanmış ürünler ve yarı bitirilmiş ürünler için kanbanları tek bir çerçevede tümleştirir ve bu sayede tüm durumlar için bütünleştirilmiş bir kullanıcı deneyimi sunar. Bu mimari nedeniyle, yarı bitmiş ürünler için kullanılmak üzere kanbanları etkinleştirmek için ek ürün reçetelerinin dahil edilmesine gerek kalmamıştır. Ayrıca bu mimari stok hareketlerinin en aza indirilmesine yardımcı olur.
 
 ## <a name="products-and-material-in-work-in-progress"></a>Süren iş içerisindeki malzemeler ve ürünler
@@ -51,6 +51,6 @@ Dynamics AX için Yalın İmalat'ın mimarisi, Womack ve Jones tarafından form�
 Sürekli gelişimi daha iyi desteklemek için üretim akışları zaman etkili sürümlerde uygulanır. Bu nedenle varolan bir üretim akışı sürümü, tüm ilgili kanban kurallarıyla birlikte üretim akışının gelecekteki bir sürümüne kopyalanabilir. Ayrıca, üretim akışının gelecekteki durumu, üretim için doğrulanmadan ve etkinleştirilmeden önce modellenebilir. Geçiş tarihi ve ötesine sorunsuz bir malzeme akışını garanti etmek için, eski üretim sürümlerinden mevcut kanbanlar otomatik olarak yeni sürüme ilişkilendirilir.
 
 ## <a name="simplicity"></a>Basitlik
-Yalın üretim Dynamics AX uygulama için biz tek bir ölçeklenebilir mimari model alınacak basit ve karmaşık üretim senaryolara olanak sağlar bir üretim akışı ve etkinlik yaklaşım seçin. Bu gereksinim duyan kullanıcılar için yeni bir kolaylık yakından etkinlik kavramı ortaya çıkarır: Atölye ve lojistik çalışanları. Stok hareketleri yerine etkinlik tabanlı işleri bildirerek, tüm yalın üretim çeşitleri için birleştirilmiş kullanıcı arabirimi iş karmaşıklığını kullanıcı arabiriminden ait olduğu yere aktarır: yalın imalat omurgası olarak üretim akışı.
+Dynamics AX için Yalın imalat uygulamak için biz, basit ve karmaşık üretim senaryolarda tek bir ölçeklenebilir mimari modelleme sağlayan üretim akışı ve etkinlik yaklaşım seçtik. Etkinlik kavramına yakından bakmak ihtiyacı olan kullanıcılara yeni bir kolaylık ortaya çıkarır: atölye ve lojistik çalışanları. Stok hareketleri yerine etkinlik tabanlı işleri bildirerek, tüm yalın üretim çeşitleri için birleştirilmiş kullanıcı arabirimi iş karmaşıklığını kullanıcı arabiriminden ait olduğu yere aktarır: yalın imalat omurgası olarak üretim akışı.
 
 

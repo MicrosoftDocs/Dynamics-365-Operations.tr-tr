@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="customer-posting-profiles"></a>Müşteri deftere nakil profilleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Müşteri deftere nakil profilleri, müşteri hareketlerinin genel muhasebeye naklini kontrol eder.
 
 <a name="customer-posting-profiles"></a>Müşteri deftere nakil profilleri
 -------------------------
 
-Müşteri deftere nakil profilleri tüm müşterilere, bir müşteri grubuna veya tek bir müşteriye genel muhasebe hesapları ve belge ayarları atamanızı sağlar. Satış siparişleri, serbest metin faturaları, nakit ödemeler, tahsilat mektupları ve vade farkı dekontları oluşturacağınız zaman, bu ayarları kullanılacaktır. Bazı hareketler için, bu sayfadaki hareket için ayarlanan nakil profillerinden farklılık gösteren ve bunların yerini alan bir nakil profili seçebilirsiniz. 
+Müşteri deftere nakil profilleri tüm müşterilere, bir müşteri grubuna veya tek bir müşteriye genel muhasebe hesapları ve belge ayarları atamanızı sağlar. Satış siparişleri, serbest metin faturaları, nakit ödemeler, tahsilat mektupları ve vade farkı dekontları işlemleri oluşturduğunuzda, bu ayarlar kullanılacaktır. Bazı hareketler için, bu sayfadaki hareket için ayarlanan nakil profillerinden farklılık gösteren ve bunların yerini alan bir nakil profili seçebilirsiniz. 
 
 Varsayılan deftere nakletme profili, Alacak Hesapları sayfasındaki Genel Muhasebe ve Satış Vergisi hızlı sekmesinde tanımlanır. Varsayılan nakil profili, onu farklı nakil profiline gerekiyorsa değiştirebileceğiniz, yeni belge başlığındaki otomatik olarak eklenir.
 
@@ -126,7 +129,7 @@ Tüm müşteri hareketlerinin aynı deftere nakil profili içermesini istiyorsan
 
 ### 
 
-### <a name="table-restrictions"></a>**Table restrictions**
+### <a name="table-restrictions"></a>**Tablo kısıtlamaları**
 
 Seçili nakil profilini içeren hareketler için hareketlerin otomatik olarak kapatılması, faiz hesaplanması ve tahsilat mektuplarının verilip verilmeyeceğini belirtin. Ayrıca, seçili nakil profilini içeren hareketler kapatıldığında kullanılan hesabı seçin seçebilirsiniz.
 
@@ -138,6 +141,8 @@ Deftere nakil profilinizi ayarlamak için aşağıdaki değerleri belirtin:
 | **İlgi alanı**          | Bu profili kullanan müşteri hesapları için bekleyen bakiyelerdeki vade farkı hesaplanacaksa bu geçiş tuşunu seçin. Bu geçiş tuşu temizlenirse, bu müşteriler için vade farkı hesaplanmaz.                                           |
 | **Tahsilat mektubu** | Bu profili kullanan müşteri hesapları için tahsilat mektupları oluşturulacaksa, bu geçiş tuşunu seçin. Bu geçiş tuşu temizlenirse, bu müşteriler için tahsilat mektupları oluşturulmaz.                                                 |
 | **Kapat**             | Bu nakil profilini içeren hareketler kapatılırken değiştirmek istediğiniz nakil profilini seçin. Bir hareket tamamen kapatıldığında kapanmış kabul edilir.                                                                           |
+
+
 
 
 

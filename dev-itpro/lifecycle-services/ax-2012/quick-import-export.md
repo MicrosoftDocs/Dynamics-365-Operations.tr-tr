@@ -1,5 +1,5 @@
 ---
-title: "Hızlı alma/verme kullanın"
+title: "Hızlı içe aktarma/dışa aktarma kullanma"
 description: "Hızlı içe aktarma dışa aktarma özelliğinin amacı birkaç adımda içe ve dışa aktarma işlemi yapmanızı sağlamaktır."
 author: margoc
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Dynamics AX (AX 2012) için sınama veri aktarım aracı (beta) çalıştırın
+# <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Dynamics AX (AX 2012) için Test Veri Aktarım Aracı (beta) çalıştırma
+
+[!include[banner](../../includes/banner.md)]
+
 
 Hızlı içe aktarma dışa aktarma özelliğinin amacı birkaç adımda içe ve dışa aktarma işlemi yapmanızı sağlamaktır.
 
@@ -36,5 +39,7 @@ Kullanıcıların hızla yürütmek istediği basit işleri içe veya dışa akt
 -   Hızlı içe aktarma/dışa aktarma özelliğini kullanmak için bir işlem grubu oluşturmanız gerekmez. İçe veya dışa aktarma işi yürütülürken sistem tarafından bir işlem grubu otomatik olarak oluşturulur. Ayrıca hızlı içe aktarma/dışa aktarma özelliği ile içe aktarılan verilerin geçmişini tutmayı da seçebilirsiniz.
 
   Hızlı içe aktarma dışa aktarma özelliğinin DIXF kavramlarını bildiğinizi varsaydığını unutmayın.
+
+
 
 

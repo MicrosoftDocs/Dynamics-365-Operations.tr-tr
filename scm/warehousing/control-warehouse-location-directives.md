@@ -1,5 +1,5 @@
 ---
-title: "İş Şablonları ve konum yönergeleri kullanarak denetimi ambar çalışma"
+title: "İş şablonları ve konum yönergeleri ile ambar işini denetleyin"
 description: "Bu makalede ambar içinde işin nasıl ve nerede gerçekleştirileceğini belirlemek için iş şablonları ve konum yönergelerinin nasıl kullanılacağı açıklanmaktadır."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>İş Şablonları ve konum yönergeleri kullanarak denetimi ambar çalışma
+# <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>İş şablonları ve konum yönergeleri ile ambar işini denetleyin
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede ambar içinde işin nasıl ve nerede gerçekleştirileceğini belirlemek için iş şablonları ve konum yönergelerinin nasıl kullanılacağı açıklanmaktadır.
 
@@ -40,7 +43,7 @@ Ambar çalışanlarının bir mobil cihazda aldığı talimatlar, çeşitli amba
 
 İş satırları işi işlemek için gereken fiziksel görevleri ifade eder. Örneğin, bir çıkış ambarı işleminde, ambar içindeki öğeleri çekmeye yönelik bir iş satırı ve bu öğeleri bir hazırlama alanına indirmeye yönelik başka bir satır olabilir. Sonra yükleme işleminin bir parçası olarak hazırlama alanından öğeleri çekmek için ek bir satır ve öğeleri kamyona indirmek için başka bir satır olabilir. İş şablonu satırlarında bir *yönerge kodu *ayarlayabilirsiniz. Bir yönerge kodu bir konum yönergesine bağlıdır ve böylece ambar işinin ambarda doğru konumda işlendiğine dair güvence vermeye yardımcı olur. 
 
-Belirli iş şablonu kullanıldığında kontrol etmek için bir sorgu ayarlayabilirsiniz. Örneğin, bir sınırlama ayarlayabilirsiniz, böylece yalnızca belirli bir ambardaki iş için belirli bir şablon kullanılabilir. Alternatif olarak, satış menşeine bağlı olarak, giden satış siparişi işleme işi oluşturmak için kullanılan pek çok şablonunuz olabilir. Sistemi kullanan **sıra numarası** kullanılabilir iş şablonları içinde karar sırasını belirlemek için alan. Bu nedenle, belirli iş şablonu için çok özel bir sorgunuz varsa, bunu düşük sıra numarası vermelisiniz. Daha sonra bu sorgu diğer, daha genel sorgulardan önce değerlendirilecektir. 
+Belirli iş şablonu kullanıldığında kontrol etmek için bir sorgu ayarlayabilirsiniz. Örneğin, bir sınırlama ayarlayabilirsiniz, böylece yalnızca belirli bir ambardaki iş için belirli bir şablon kullanılabilir. Alternatif olarak, satış menşeine bağlı olarak, giden satış siparişi işleme işi oluşturmak için kullanılan pek çok şablonunuz olabilir. Sistem mevcut iş şablonları değerlendirildiği siparişi belirlemek için **Sıra numarası** alanını kullanır. Bu nedenle, belirli bir iş şablonu için özel bir sorgunuz varsa, buna düşük bir sıra numarası vermelisiniz. Daha sonra bu sorgu diğer, daha genel sorgulardan önce değerlendirilecektir. 
 
 Bir iş işlemini durdurmak veya duraklatmak için, iş satırındaki **İşi durdur** ayarını kullanabilirsiniz. Bu durumda, işi gerçekleştiren çalışandan sonraki iş satırı adımını gerçekleştirmesi istenmeyecektir. Sonraki adıma geçmek için, o çalışan veya başka bir çalışan işi tekrar seçmelidir. Ayrıca iş şablonu satırlarında farklı bir *İş sınıfı kimliği *kullanarak bir iş parçası dahilindeki görevleri ayırabilirsiniz.
 
@@ -53,12 +56,14 @@ Başlıkta, her konum yönergesi satış siparişleri, stok yenileme veya hammad
 
 Konum yönergesi satırları konum bulma kurallarının uygulanmasına ek kısıtlamalar getirir. Yönergenin uygulanması gereken minimum miktarı ve maksimum miktarı belirtebilirsiniz ve o yönergenin belli bir stok birimine yönelik olması gerektiğini belirtebilirsiniz. Örneğin, ölçü birimi palet ise, belli bir konuma palet cinsinden öğeler indirilebilir. Miktarın birden çok konum arasında bölünüp bölünemeyeceğini de belirtebilirsiniz. Konum yönergesi başlığı gibi, her konum yönergesi satırının da, satırların değerlendirildiği siparişi belirleyen bir sıra numarası vardır. 
 
-Konum yönergelerinin ek bir ayrıntı düzeyi vardır: *konum yönergesi eylemleri*. Her satır için birden fazla konum yönergesi eylemi tanımlayabilirsiniz. Bir kez daha, bir sıra numarası eylemleri de karar sırasını belirlemek için kullanılır. Bu düzeyde, ambarda en iyi konumu bulmak nasıl tanımlamak için sorgu ayarlayabilirsiniz. Ayrıca ideal bir konum bulmak için önceden tanımlanmış **Strateji **ayarlarını da kullanabilirsiniz.
+Konum yönergelerinin ek bir ayrıntı düzeyi vardır: *konum yönergesi eylemleri*. Her satır için birden fazla konum yönergesi eylemi tanımlayabilirsiniz. Bir kez daha, bir sıra numarası eylemlerin karar sırasını belirlemek için kullanılır. Bu düzeyde, ambardaki en iyi konumun nasıl bulunacağını tanımlamak için bir sorgu ayarlayabilirsiniz. Ayrıca ideal bir konum bulmak için önceden tanımlanmış **Strateji **ayarlarını da kullanabilirsiniz.
 
 ### <a name="example-of-the-use-of-location-directives"></a>Konum yönergelerini kullanım örneği
 
 Bu örnekte, konum yönergesinin, alış noktasında kaydedilen stok öğeleri için bir ambar içinde serbest kapasite bulmasının gerektiği bir satınalma siparişi işlemini ele alacağız. İlk olarak, mevcut eldeki stok ile birleştirerek ambar içinde boş kapasite bulmaya çalışmak istiyoruz. Konsolidasyon mümkün değilse, bu durumda boş bir yer bulmak istiyoruz. 
 
 Bu senaryo için iki konum yönergesi eylemi tanımlamamız gerek. Sıradaki ilk eylemin **Konsolide Et** stratejisini ve ikinci eylemin **Gelen iş olmayan boş yer** stratejisini kullanması gerekir. Biz bir taşma senaryosunu idare etmek için üçüncü bir eylem tanımlamadığımız takdirde, ambarda daha fazla kapasite olmadığında iki sonucun meydana gelmesi olasıdır: iş hiçbir konum tanımlanmasa da oluşturulabilir veya iş oluşturma işlemi başarısız olabilir. Sonuç **Konum yönergesi hataları** sayfasındaki ayara göre belirlenir; burada her bir iş siparişi türü için **Konum yönergesi hatasında işi durdur** seçeneğini seçip seçmemeye karar verebilirsiniz.
+
+
 
 

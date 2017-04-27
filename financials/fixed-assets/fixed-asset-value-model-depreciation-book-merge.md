@@ -1,6 +1,6 @@
 ---
 title: "Sabit kıymet değer modeli ve amortisman defteri birleştirme"
-description: "Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri için iki değerleme kavram vardı. İşlemleri 1611 sürümü için Microsoft Dynamics 365 değer modeli işlevleri ve amortisman defteri işlevselliği bir kitap bilinen tek bir kavramı içine birleştirilmiştir."
+description: "Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri olmak üzere iki değerleme kavramı vardı. Microsoft Dynamics 365 for Operations dağıtımı 1611 ile, değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Sabit kıymet değer modeli ve amortisman defteri birleştirme
 
-Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri için iki değerleme kavram vardı. İşlemleri 1611 sürümü için Microsoft Dynamics 365 değer modeli işlevleri ve amortisman defteri işlevselliği bir kitap bilinen tek bir kavramı içine birleştirilmiştir.
+[!include[banner](../includes/banner.md)]
 
-Yeni defter işlevselliği eski değer modeli işlevselliğini temel alır ancak önceden yalnızca amortisman defterlerinde sunulan tüm işlevsellikleri de içerir. [![Bir değer modeli ve amortisman defteri işlevselliğini birleştirme olarak kitap](./media/fixed-assets.png)](./media/fixed-assets.png) bu birleştirme nedeniyle artık tüm sabit kıymet işlemleri için tek bir sayfa, Sorgulamalar ve raporlar kümesi kullanabilirsiniz. Bu konudaki tablolar amortisman defterlerinin ve değer modellerinin daha önceki işlevselliklerini, defterler için yeni işlevsellikle birlikte açıklar.
+
+Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri olmak üzere iki değerleme kavramı vardı. Microsoft Dynamics 365 for Operations dağıtımı 1611 ile, değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir.
+
+Yeni defter işlevselliği eski değer modeli işlevselliğini temel alır ancak önceden yalnızca amortisman defterlerinde sunulan tüm işlevsellikleri de içerir. [![Bir değer modeli ve amortisman defteri işlevinin birleştirmesi olarak kaydet](./media/fixed-assets.png)](./media/fixed-assets.png) Bu birleştirme sayesinde tüm sabit kıymet işlemleriniz için tek bir sayfa seti, sorgular ve raporlar kullanabilirsiniz. Bu konudaki tablolar amortisman defterlerinin ve değer modellerinin daha önceki işlevselliklerini, defterler için yeni işlevsellikle birlikte açıklar.
 
 ## <a name="setup"></a>Kurulum
 Varsayılan olarak, defterler genel muhasebe (GL) ve sabit kıymet yardımcı defterine nakleder. Defterler genel muhasebeye nakletmeyi devre dışı bırakıp yalnızca sabit kıymet yardımcı defterine nakletmenize izin veren yeni bir **Genel muhasebeye naklet** seçeneğine sahiptir. Bu işlevsellik amortisman defterlerinin önceki nakil davranışını andırır. Günlük adları kurulumu Yok adlı yeni bir deftere nakil katmanına sahiptir. Bu deftere nakil katmanı sabit kıymet hareketleri için özellikle eklenmiştir. Genel muhasebeye nakil yapmayan defterlerin hareketlerini deftere nakletmek için deftere nakil katmanı **Yok** olarak ayarlanmış bir günlük adı kullanmanız gerekir.
@@ -66,5 +69,7 @@ Sorgular ve raporlar tüm defterleri destekler. Aşağıdaki tabloda yer almayan
 
 ## <a name="upgrade"></a>Yükselt
 Yükseltme işlemi var olan kurulumunuzu ve var olan tüm hareketlerinizi yeni defter yapısına taşır. Değer modelleri oldukları gibi genel muhasebeye nakleden defterler olarak kalır. Ancak amortisman defterleri **Genel muhasebeye naklet** seçeneği **Hayır** olarak ayarlanmış bir deftere taşınır. Amortisman defteri günlük adları deftere nakil katmanı **Yok** olarak ayarlanmış bir genel muhasebe günlük adına taşınır.
+
+
 
 

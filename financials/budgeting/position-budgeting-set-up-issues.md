@@ -1,5 +1,5 @@
 ---
-title: "Sorun giderme bütçeleme konumu"
+title: "Pozisyon bütçeleme için sorun giderme"
 description: "Bu makalede pozisyon bütçelemeyi yapılandırdığınızda karşılaşabileceğiniz sorulara yanıtlar verilmiştir. Bütçe maliyet öğelerinin, ücret gruplarının ve ücret ızgaralarının nasıl oluşturulacağı hakkında sıkça sorulan soruların yanıtlarını içerir."
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="position-budgeting-troubleshooting"></a>Sorun giderme bütçeleme konumu
+# <a name="position-budgeting-troubleshooting"></a>Pozisyon bütçeleme için sorun giderme
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede pozisyon bütçelemeyi yapılandırdığınızda karşılaşabileceğiniz sorulara yanıtlar verilmiştir. Bütçe maliyet öğelerinin, ücret gruplarının ve ücret ızgaralarının nasıl oluşturulacağı hakkında sıkça sorulan soruların yanıtlarını içerir. 
 
@@ -58,6 +61,8 @@ Tahmin pozisyonu maliyet öğesi satırındaki tarihler şu aralıklarda olmalı
 -   Pozisyonun etkinleştirme ve bitiş tarihleri.
 -   Bütçe maliyet öğesinin etkinleştirme ve bitiş tarihleri.
 -   Tahmin pozisyonunun bütçe planlama süreciyle bağlantılı bütçe döngüsünün başlangıç ve bitiş tarihleri.
+
+
 
 
 

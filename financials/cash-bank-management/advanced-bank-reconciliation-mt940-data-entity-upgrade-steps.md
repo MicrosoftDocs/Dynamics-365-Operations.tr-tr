@@ -1,5 +1,5 @@
 ---
-title: "Banka mutabakatı MT940 içe aktar – Gelişmiş varlık bileşik veri yükseltme"
+title: "Gelişmiş banka mutabakatı MT940 İçe Aktarma – Bileşik veri varlığı yükseltme"
 description: "MT940 biçimini desteklemek için banka ekstresi içe aktarma varlığına bir sıra numarası eklenmesi gerekir."
 author: twheeloc
 manager: AnnBe
@@ -24,21 +24,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Banka mutabakatı MT940 içe aktar – Gelişmiş varlık bileşik veri yükseltme
+# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Gelişmiş banka mutabakatı MT940 İçe Aktarma – Bileşik veri varlığı yükseltme
+
+[!include[banner](../includes/banner.md)]
+
 
 MT940 biçimini desteklemek için banka ekstresi içe aktarma varlığına bir sıra numarası eklenmesi gerekir. 
 
 MT940 biçimini desteklemesi için banka ekstresi içe aktarma varlığını eklemek amacıyla aşağıdaki adımları kullanın.
 
 1.  Aşağıdakileri derleyin ve eşitleyin:
-    -   Bileşik varlık\\BankStatementImportEntity
+    -   Birleşik Varlık\\BankStatementImportEntity
     -   Varlık\\BankStatementBalanceEntity
     -   Varlık\\BankStatementDocumentEntity
     -   Varlık\\BankStatementEntity
     -   Varlık\\BankStatementLineEntity
-    -   Tablo\\BankStatementStaging
+    -   Tablolar\\BankStatementStaging
 
-2.  Veri Yönetimi\\veri projeleri.
+2.  Veri yönetimi\\veri projeleri.
     1.  MT940 içe aktarma projeleri
         1.  XSLT'yi değiştirin.
             -   **Eşlemeyi görüntüle**'ye tıklayın.
@@ -58,6 +61,8 @@ MT940 biçimini desteklemesi için banka ekstresi içe aktarma varlığını ekl
                 -   **SıraNumarası**'nın Kaynak'tan Aşamalandırma'ya eşleştiğini doğrulayın.
 
 3.  Yeni ekstreyi içe aktarın.
+
+
 
 
 

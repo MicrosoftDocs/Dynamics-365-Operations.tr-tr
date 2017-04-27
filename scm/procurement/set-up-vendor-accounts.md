@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-vendor-accounts"></a>Satıcı hesaplarını ayarlama
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu konu, yeni bir satıcı hesabı oluşturduğunuzda girmeniz gereken bilgilerin türünü açıklar.
 
 Bir satıcı hesabı oluşturduğunuzda, satıcıyla ilgili bilgileri girersiniz. Bu bilgiler belgelere otomatik olarak veri girilmesinde ve satıcı ile ilgili etkinliklerin izlenmesinde kullanılır. Örneğin, bir satıcı için aşağıdaki bilgileri yapılandırabilirsiniz:
@@ -40,7 +43,7 @@ Bir satıcı hesabı oluşturduğunuzda, satıcıyla ilgili bilgileri girersiniz
 -   Satıcı için vergi, teslimat, fatura ve ödeme bilgilerini girin. Bu ayarlar satıcı için oluşturduğunuz yeni belgelere varsayılan olarak kopyalanır.
 -   Mali hesaplara satıcı ile otomatik olarak hareketleri deftere aktarmak için kullanılan mali boyutları ayarlayın.
 
-Satıcı hesabı oluşturma işlemini hızlandırmak için şablonlar oluşturabilirsiniz. Bir şablon oluşturmak için **satıcı** sayfasında eylem bölmesini tıklatın **seçenekleri**&gt;**kayıt bilgileri**. Sonrasında **Şirket hesapları şablonu**'na tıklayın. Şirket hesabı şablonları başka kullanıcılarla paylaşılabilir.  
+Satıcı hesabı oluşturma işlemini hızlandırmak için şablonlar oluşturabilirsiniz. Bir şablon oluşturmak için **Satıcı** sayfasındaki Eylem Bölmesinde, **Seçenekler** &gt; **Kayıt bilgileri**'ne tıklayın. Sonrasında **Şirket hesapları şablonu**'na tıklayın. Şirket hesabı şablonları başka kullanıcılarla paylaşılabilir.  
 
 Ayrıca, kendi kullanımınız için de bir kullanıcı şablonu oluşturabilirsiniz. Örneğin kişiler veya ürünler gibi başka kayıtlarla ilişkilendirilmiş bir satıcıyı silemezsiniz.
 
@@ -56,7 +59,7 @@ Her bir satıcı için, her biri farklı amaçlar için kullanılacak birden faz
 ## <a name="vendor-contacts"></a>Satıcı ilgili kişileri
 Bir satıcı için ilgili kişileri kaydedebilirsiniz. Bu kişiler, daha sonra teklifler (RFQs), satınalma siparişleri veya istekleri gibi belgelerde kullanılabilir.  
 
-Bir satıcıyla ilgili kişiler eklemek için **tüm satıcılar** sayfa üzerinde **satıcı** sekmesini **ayarlamak** tıklatın, grup **kişiler**&gt;**Kişiler Ekle**.  
+Bir satıcıyla ilgili kişiler eklemek için **Tüm satıcılar** sayfasında **Satıcı** sekmesindeki **Ayarlama** grubunda, **İlgili Kişiler** &gt; **Kişi ekle**'ye tıklayın.  
 
 Satıcı ilgili kişilerini sıfırdan oluşturabilirsiniz. Alternatif olarak, halihazırda Microsoft Dynamics 365 for Operations içerisinde kayıtlı bulunan bir başka kişiden ayrıntıları kopyalayabilir ve bilgileri ihtiyaç duyduğunuz şekilde düzenleyebilirsiniz.  
 
@@ -64,7 +67,7 @@ Satıcı ilgili kişilerini sıfırdan oluşturabilirsiniz. Alternatif olarak, h
 
 Bir ilgili kişiye bir belgede başvuruluyorsa, bu ilgili kişi kaydını silemezsiniz. Bunun yerine, ilgili kişiyi devre dışı bırakabilirsiniz.  
 
-Kişisel kişilerinizi Microsoft Office 365'te satıcı kişileri ekleyebilirsiniz. Ancak, Dynamics 365 işlemleri için Office 365 arasında bir eşitleme eşitleme Microsoft Exchange Server ve Microsoft Outlook Kurulum Sihirbazı'nı önce ayarlamanız gerekir.
+Microsoft Office 365'teki kişisel irtibatlarınıza satıcı ilgili kişileri ekleyebilirsiniz. Ancak, önce Dynamics 365 for Operations ve Office 365 arasında eşitlemeyi, hem Microsoft Exchange Server eşitlemesinde hem de Microsoft Outlook kurulum sihirbazında ayarlamanız gerekir.
 
 ## <a name="vendors-in-different-legal-entities"></a>Farklı tüzel kişiliklerdeki satıcılar
 Eğer bir satıcı, kuruluşunuz içindeki yalnızca bir tüzel kişilik için kayıtlıysa ve diğer tüm tüzel kişiliklerin de aynı satıcıyı kaydetmesi gerekiyorsa, **Satıcıyı başka bir tüzel varlığa ekle** sayfasını kullanarak, satıcıyı başka tüzel varlıklarla iş yapmak üzere yapılandırabilirsiniz. Seçilmiş tüzel varlık içerisindeki satıcı için satıcı grubu, para birimi ve tutma durumunu seçmelisiniz.  
@@ -101,5 +104,7 @@ Eğer bir satıcı banka hesabına ödeme yapmanız gerekiyorsa, satıcının ba
 Fatura günlüklerinde otomatik olarak beliren varsayılan hesapları belirtilen satıcı için belirleyebilirsiniz. Bu işlevsellik, zaman içerisinde aynı satıcılardan genellikle aynı türde öğelere ve hizmetlere ödeme yapıyorsanız faydalı olabilir. Varsayılan bir hesap belirttiğinizde, hesap günlüklerine hızlı ve verimli bir şekilde günlük girişleri yapabilirsiniz. Belirttiğiniz varsayılan hesaplar satınalma siparişlerinde veya **Satıcı faturası** üzerinden girilen satıcı faturalarında kullanılmaz.  
 
 Satıcı kaydındaki **Fatura** sekmesinde açabileceğiniz **Varsayılan hesap ayarı** sayfasında varsayılan hesapları seçebilirsiniz. Burada seçtiğiniz hesaplar, bir günlük girdisinde bulunduğunuzda, satıcı için filtrelenmiş hesaplar listesinde görünecektir. Hesaplardan birini varsayılan hesap olarak ayarlayabilirsiniz.
+
+
 
 

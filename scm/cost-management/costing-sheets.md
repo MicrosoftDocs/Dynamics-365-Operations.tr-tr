@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-sheets"></a>Maliyetlendirme tabloları
 
+[!include[banner](../includes/banner.md)]
+
+
 Maliyetlendirme tablosunun kurulumu için iki hedef gerekir. İlk hedef olarak, üretilmiş bir madde veya üretim emri hakkındaki satılan malların maliyetini görüntüleme biçimini tanımlarsınız. Biçimlendirilmiş görüntüye maliyetlendirme tablosu adı verilir. İkinci hedef olarak, dolaylı maliyetleri hesaplama temelini tanımlarsınız. Maliyetlendirme tablosu kurulumu, bilgi görüntüleme ve dolaylı maliyet hesaplama formülleri için maliyet grubu özelliğini temel alır. Bu makalede maliyetlendirme tablosu kurulumunun iki hedefi açıklanmıştır. 
 
 Maliyetlendirme tablosu, üretilmiş bir ürün veya bir üretim emri için satılmış olan malların maliyeti hakkındaki görüntüleme biçimidir. Bir maliyetlendirme tablosu ayarladığınızda, bilgilerin biçimini ve de dolaylı maliyetlerin hesaplanmasının bazını tanımlayabilirsiniz. Maliyetlendirme tablosu kurulumu, bilgi görüntüleme ve dolaylı maliyet hesaplama formülleri için maliyet grubu özelliklerini temel alır. Maliyetlendirme tablosu ayarının iki hedefi hakkında daha fazla bilgi şu şekildedir:
@@ -43,6 +46,8 @@ Bir maliyetlendirme versiyonu için geçerli olan iki engelleme ilkesi, bekleyen
 Maliyetlendirme tablosu biçimini ve dolaylı maliyetlerin hesaplamalarını tanımladıktan sonra, bilgileri doğrulamak ve kaydetmek için ayrı bir adım gerçekleştirmelisiniz. Maliyetlendirme tablosu, satılan malların maliyeti hakkındaki bilgilerin tutarlı biçimde görüntülenebilmesi için şirket çapında bir biçimi temsil eder. 
 
 Maliyetlendirme tablosu **Ürün maliyetini hesapla** sayfasının bir kısmı olarak görüntülenir. Maliyetlendirme tablosu, **Ürün fiyatı** sayfasında üretilmiş bir ürünün hesaplanmış maliyet kaydı veya **Ürün reçetesi hesaplama sonuçları** sayfasında siparişe özgü bir hesaplama kaydı için görüntülenebilir. Ayrıca, bir üretim emrinin **Fiyat hesaplama** sayfasının bir bölümü olarak da görüntülenebilir.
+
+
 
 
 

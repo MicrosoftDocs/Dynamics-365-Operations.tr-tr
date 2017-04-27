@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="address-books"></a>Adres defterleri
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 <a name="how-do-i-check-for-duplicate-records"></a>Tekrarlanan kayıtları nasıl denetlerim?
@@ -53,7 +56,7 @@ Bir taraf kaydının adını veya bu kayıtla ilişkili adresleri istediğiniz a
 ## <a name="can-i-merge-two-or-more-party-records-into-one-record"></a>İki veya daha fazla taraf kaydını tek bir kayıtta birleştirebilir miyim?
 Bazen, bir ya da daha fazla taraf kaydını tek bir kayıtta birleştirmek isteyebilirsiniz. Bir ya da birden fazla yinelenen taraf kaydını kasıtlı veya kasıtsız olarak oluşturursanız bu durum ortaya çıkabilir. Taraf kayıtlarını birleştirdiğinizde, tutmak için bir kayıt seçin. Diğer kayıtların bilgileri daha sonra bu kayıtta birleştirilecektir. Örneğin, Fabrikam hakkında bilginin üç taraf kaydında depolandığını fark edersiniz: A, B ve C. Taraf kaydı A'yı tutmaya karar verirsiniz. Bu nedenle, B ve C taraf kayıtlarında depolanan bilgileri taraf kaydı A'da birleştirilir. Taraf kayıtlarını birleştiremeyeceğiniz bazı durumlar da mevcuttur:
 
--   Müşteri veya satıcı gibi aynı taraf rolüyle aynı tüzel kişilikte ilişkilendirilmiş olan taraf kayıtlarını birleştiremezsiniz. Örneğin, A parti tüzel kişilik 123 bir müşteriyle ilişkili olan ve B tarafı tüzel kişilik 123 başka bir müşteri ile ilişkilendirilir. Birleştirilen değişiklik varsa, birleştirilmiş taraf kaydının aynı tüzel kişilik içinde birden çok müşteri ile ilişkili ve bu izin verilmez çünkü bu parti Kayıtlar birleştirilemiyor. Ancak kayıtlar taraf B tüzel kişilik 123'deki bir satıcı veya başka bir tüzel kişilikteki bir müşteri ile ilişkilendirilirse birleştirilebilirler.
+-   Müşteri veya satıcı gibi aynı taraf rolüyle aynı tüzel kişilikte ilişkilendirilmiş olan taraf kayıtlarını birleştiremezsiniz. Örneğin, taraf A tüzel kişilik 123'teki bir müşteriyle ilişkilendirilir ve taraf B tarafı tüzel kişilik 123'teki başka bir müşteriyle ilişkilendirilir. Bu taraf kayıtları birleştirilemez, çünkü birleştirilmeleri durumunda, birleştirilen taraf kaydının aynı tüzel kişilik içinde birden çok müşteriyle ilişkilendirilmesi gerekir ve bu izin verilmez. Ancak kayıtlar taraf B tüzel kişilik 123'deki bir satıcı veya başka bir tüzel kişilikteki bir müşteri ile ilişkilendirilirse birleştirilebilirler.
 -   Aynı tüzel kişilikteki, takımdaki veya işletme birimindeki dahili taraf kuruluş kayıtlarını birleştiremezsiniz.
 
 ## <a name="should-i-create-a-party-record-in-the-global-address-book-or-in-another-place-such-as-the-customer-or-vendor-page"></a>Genel Adres Defteri'nde mi yoksa Müşteri veya Satıcı sayfası gibi bir başka yerde mi taraf kaydını oluşturmalıyım?
@@ -64,5 +67,7 @@ Taraf kayıtlarını Genel Adres Defteri'ne veya uygun varlık sayfasında gireb
 
 ## <a name="can-i-translate-address-information-for-party-records"></a>Taraf kayıtları için adres bilgilerini çevirebilir miyim?
 Adres bilgilerinin çevirilerini ayarlayabilirsiniz, böylece bilgiler Microsoft Dynamics 365 for Operations içerisinde kullanıcı dilinde (sistem dili) görüntülenirken, satış siparişleri gibi belgelerde farklı bir dilde görüntülenecektir. Ülke/bölge adları, adres amaçları ve isim serileri için çeviriler girebilirsiniz. Örneğin, sistem dilinizi Danca'dır ve Fransa'daki bir müşteri için bir satış siparişi oluşturursunuz. Bu durumda, müşteri kaydını program içerisinde Danca olarak görüntüleyebilir fakat yazdırılan satış siparişinde adres bilgilerini Fransızca görüntüleyebilirsiniz. Çevirileri ayarladığınızda, listedeki her öğe için çeviri girmeniz gerekir. Çeviri girmediğiniz her öğe sistem dilinde görüntülenecektir. Örneğin, sistem dilinizi Danca'dır ve İspanya'daki bir müşteriye bir belge gönderiyorsunuz. Adres bilgileri için İspanyolca (ESP) çeviriler girmediyseniz, bu bilgiler hem programda hem de yazdırılan belgede Danca olarak görünür.
+
+
 
 

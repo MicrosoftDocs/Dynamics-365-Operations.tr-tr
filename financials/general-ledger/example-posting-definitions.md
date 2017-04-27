@@ -1,6 +1,6 @@
 ---
 title: "Deftere nakil tanımları"
-description: "Bu makalede, nakil tanımları satınalma siparişi encumbrances ve bütçe appropriations için nasıl kullanılacağını gösteren örnekler sağlar."
+description: "Bu makale, deftere nakil tanımlarının satınalma siparişleri yükümlülükleri ve bütçe tahsis etme için nasıl kullanılacağına dair örnekler sağlar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="posting-definition-examples"></a>Nakil tanımı örnekleri
+# <a name="posting-definition-examples"></a>Deftere nakil tanım örnekleri
 
-Bu makalede, nakil tanımları satınalma siparişi encumbrances ve bütçe appropriations için nasıl kullanılacağını gösteren örnekler sağlar.
+[!include[banner](../includes/banner.md)]
+
+
+Bu makale, deftere nakil tanımlarının satınalma siparişleri yükümlülükleri ve bütçe tahsis etme için nasıl kullanılacağına dair örnekler sağlar.
 
 Bu konuyu okumadan önce, nakil tanımlarını ve hareket nakil tanımlarını biliyor olmanız gerekir. Daha fazla bilgi için, bkz. [Nakil tanımları](posting-definitions.md). **Nakil tanımları** sayfasında aşağıdaki örnekler ayarlanabilir. Her bir örnek, şu bölümleri içerir:
 
@@ -39,7 +42,7 @@ Bu konuyu okumadan önce, nakil tanımlarını ve hareket nakil tanımlarını b
 
 Hareketteki nakil tanımı ve hesaplar ile boyut değerleri için **Eşleşme ölçütleri** bölmesinde hesaplar ile boyut değerleri arasında bir eşleşme ortaya çıktığında, genel muhasebe girişleri nakil tanımına yönelik **Üretilen girişler** bölmesi temel alınarak üretilir. 
 > [!NOTE]
-> Bir deftere nakil tanımı özel hareket türü ile ilişkilendirmek için **işlem tanımları nakil** sayfa. Bir deftere nakil tanımı seçin ve bir hareket türü ile ilişkilendirmek sonra **nakil tanımları kullanır** üzerinde **genel muhasebe parametreleri** sayfasında, seçili hareket tipindeki tüm hareketleri kullanmaları gereken tanımları nakil.
+> Bir deftere nakil tanımını belirli bir hareket türü ile ilişkilendirmek için **İşlem deftere nakil tanımları** sayfasını kullanın. Bir deftere nakil tanımını bir hareket türü ile ilişkilendirdikten sonra, **Deftere nakil tanımları kullan** seçeneğini, **Genel muhasebe parametreleri** sayfasında seçin, seçilen hareket türünün tüm hareketleri, deftere nakil tanımlarını kullanmak zorundadır.
 
 ## <a name="example-purchase-order-encumbrances"></a>Örnek: Satınalma emri yükümlülükleri
 **Genel muhasebe parametreleri** sayfasında **Yükümlülük işlemini etkinleştir** seçeneğini belirleyerek yükümlülük işlemesini etkinleştirdiğinizde, yükümlülükleri genel muhasebeye kaydetmek için rezerve edilmesi gereken tüm hesaplara yönelik nakil tanımlarının kullanılması gerekir. Çoğu durumda, tüm gider hesapları bilançoda rezerve edilir. 
@@ -69,7 +72,7 @@ Hesaplar ve boyut değerleri ya bir satınalma emri satırı için girdiğiniz m
 
 | Hesap + boyutlar           | Borç  | Alacak | Açıklama |
 |--------------------------------|--------|--------|---------|
-| 606400 OU\_1-OU\_3566-eğitim | 250,00 |        |         |
+| 606400-OU\_1-OU\_3566-Eğitimi | 250.00 |        |         |
 
 ### <a name="ledger-entries-generated-from-the-posting-definition"></a>Nakil tanımından üretilen genel muhasebe girişleri
 
@@ -77,10 +80,10 @@ Yükümlülükleri kaydetmek için genel muhasebe girişleri üretilir.
 
 | Hesap + boyutlar           | Borç  | Alacak | Açıklama |
 |--------------------------------|--------|--------|---------|
-| 300143 OU\_1-OU\_3566-eğitim | 250,00 |        |         |
-| 300144 OU\_1-OU\_3566-eğitim |        | 250,00 |         |
+| 300143-OU\_1-OU\_3566-Eğitimi | 250.00 |        |         |
+| 300144-OU\_1-OU\_3566-Eğitimi |        | 250.00 |         |
 
-Bu örnekte, Hesap Yapısı - Kar ve Zarar'ın parçası olan tüm hesaplar nakil tanımı kriterlerini karşılar. Bu nedenle, ne zaman 606500 OU\_1-OU\_3566 eğitim değerlendirildi, tanımlı hesapları için oluşturulan girişleri oluşturulur **oluşturulan girişleri** bölmesi nakil tanımı.
+Bu örnekte, Hesap Yapısı - Kar ve Zarar'ın parçası olan tüm hesaplar nakil tanımı kriterlerini karşılar. Dolayısıyla, 606500-OU\_1-OU\_3566-Eğitim değerlendirildiğinde, üretilen girişler, nakil tanımı için **Genel girişler** bölmesinde tanımlanan hesaplara yönelik oluşturulur.
 
 ## <a name="example-budget-appropriations"></a>Örnek: Bütçe tahsisatları
 **Genel muhasebe parametreleri** sayfasındaki **Bütçe tahsisatını etkinleştir**'i seçerek bütçe tahsisatını etkinleştirdiğinizde, bütçe kayıt girişlerini genel muhasebeye kaydetmek için nakil tanımlarının kullanılması gereklidir. Bir bütçe kontrol yapılandırması aktif ve açık durumda iken, tahsisatlar, revizyonlar, transferler, projeler, sabit kıymetler ve genel muhasebeye tedarik ve talep tahminlerine yönelik girişlerin kaydını desteklemek için nakil tanımları ve hareket nakil tanımları kullanılabilir. 
@@ -110,7 +113,7 @@ Bütçe hesabı girişine yönelik hesapları, boyut değerlerini ve tutarları 
 
 | Hesap + boyutlar           | Borç | Alacak | Açıklama |
 |--------------------------------|-------|--------|---------|
-| 606400 OU\_1-OU\_3566-eğitim |       | 250,00 |         |
+| 606400-OU\_1-OU\_3566-Eğitimi |       | 250.00 |         |
 
 ### <a name="ledger-entries-generated-from-the-posting-definition"></a>Nakil tanımından üretilen genel muhasebe girişleri
 
@@ -118,10 +121,12 @@ Bütçe hesabı girişine yönelik hesapları, boyut değerlerini ve tutarları 
 
 | Hesap + boyutlar           | Borç  | Alacak | Açıklama |
 |--------------------------------|--------|--------|---------|
-| 300145 OU\_1-OU\_3566-eğitim |        | 250,00 |         |
-| 300146 OU\_1-OU\_3566-eğitim | 250,00 |        |         |
+| 300145-OU\_1-OU\_3566-Eğitimi |        | 250.00 |         |
+| 300146-OU\_1-OU\_3566-Eğitimi | 250.00 |        |         |
 
-Bu örnekte, Hesap Yapısı - Kar ve Zarar'ın parçası olan tüm hesaplar nakil tanımı kriterlerini karşılar. Bu nedenle, ne zaman 606400 OU\_1-OU\_3566 eğitim değerlendirildi, üretilen defter girişleri oluşturulur.
+Bu örnekte, Hesap Yapısı - Kar ve Zarar'ın parçası olan tüm hesaplar nakil tanımı kriterlerini karşılar. Dolayısıyla 606400-OU\_1-OU\_3566-Eğitim değerlendirildiğinde, üretilen genel muhasebe girişleri oluşturulur.
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-agreements"></a>Satış sözleşmeleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, satış anlaşmalarıyla ilgili bilgiler verilmektedir. Satış anlaşması, müşterinin özel fiyatlar ve iskontolar karşılığında ürünleri, belirli miktarda veya belirli bir zaman aralığında belirli bir tutarda almasını sağlayan bir sözleşmedir.
 
 Bir satış anlaşması,müşterinin belirli bir miktarda ya da belirli bir zaman zarfında ürün satın alması karşılığında özel fiyatlar, özel iskontolar ve ödeme ve teslimat koşulları gibi diğer özel koşullara hak kazanmasını sağlayan bir anlaşmadır. Mevcut herhangi bir ticaret anlaşmasındaki belirtilen fiyatlar ve iskontolar, satış anlaşmasındaki fiyatlar ve iskontolar tarafından geçersiz kılınır.  
@@ -36,7 +39,7 @@ Bir satış anlaşmasının geçerlilik süresi anlaşma satırındaki **Yürür
 
 Bir satış siparişini doğrudan satış anlaşmasından **Siparişi serbest bırak** işlemini kullanarak oluşturabilirsiniz. Alternatif olarak, siparişleri çekerken etkili bir satış anlaşması seçebilirsiniz (bu makalenin "Satış anlaşmalarını sipariş işlemlerinde uygulamak" bölümüne bakın).  
 
-**Not:** önceki sürümlerde, satış anlaşmaları için paket satış siparişlerini olarak yönlendirildiğinizde.
+**Not:** Önceki sürümlerde, satış sözleşmeleri paket satış siparişleri şeklinde geçer.
 
 ## <a name="commitment-types"></a>Taahhüt türleri
 Satış anlaşmasındaki her satır bir şeyi satmak için taahhüt niteliğindedir. Genel olarak, iki kategoride taahhüt vardır:
@@ -93,21 +96,23 @@ Bir satış anlaşması üzerinden satış siparişi oluşturduysanız (yayınla
 | Alan                                                             | Açıklama                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Talep edilen sevk tarihi                                               | Talep edilen sevk tarihini satış anlaşması satırındaki **Yürürlük tarihi** değerinden önceki bir tarihe değiştirirseniz, değiştirilen sevk tarihini kaydedebilmek için önce satış anlaşması satırına bağlantıyı kaldırmanız gerekir. Talep edilen sevk tarihini satış anlaşması satırındaki **Bitiş tarihi** değerinden sonraki bir tarihe değiştirirseniz, değiştirilen sevk tarihini kaydedebilmek için önce satış anlaşması satırına bağlantıyı kaldırmanız gerekir. |
-| CurrencyDiscount, percentDiscountUnit, pricePrice, unitNet amount | Bu alanların herhangi birindeki değeri değiştirirseniz ve ilişkili bir satış anlaşması satırında **Fiyat ve iskonto sabittir** onay kutusu işaretliyse, bir ileti kutusu değişiklikleri kaydetmek isteyip istemediğinizi sorar. ' I **Evet** satış anlaşması satırı için bağlantıyı Kaldır ve fiyatı yeniden hesapla. ' I **No** fiyat hesaplamadan satış anlaşması satırı için bir bağlantıyı kaldırmak için.                                                                   |
-| Net tutar                                                        | **Maksimum uygulanır** onay kutusu seçiliyken bir satış anlaşması satırında belirtilen tutarı aşan bir tutar belirtirseniz, bir ileti kutusu değişen tutarı kaydetmek isteyip istemediğinizi sorar. ' I **Evet** satış anlaşması satırı için bağlantıyı Kaldır ve fiyatı yeniden hesapla. ' I **No** fiyat hesaplamadan satış anlaşması satırı için bir bağlantıyı kaldırmak için.                                                                 |
-| Miktar                                                          | **Maksimum uygulanır** onay kutusu seçiliyken bir satış anlaşması satırında belirtilen miktarı aşan bir miktar belirtirseniz, bir ileti kutusu değişen miktarı kaydetmek isteyip istemediğinizi sorar. ' I **Evet** satış anlaşması satırı için bağlantıyı Kaldır ve fiyatı yeniden hesapla. ' I **No** fiyat hesaplamadan satış anlaşması satırı için bir bağlantıyı kaldırmak için.                                                            |
+| CurrencyDiscount, percentDiscountUnit, pricePrice, unitNet amount | Bu alanların herhangi birindeki değeri değiştirirseniz ve ilişkili bir satış anlaşması satırında **Fiyat ve iskonto sabittir** onay kutusu işaretliyse, bir ileti kutusu değişiklikleri kaydetmek isteyip istemediğinizi sorar. Satış sözleşmesi satırına bağlantıyı kaldırmak ve fiyatı yeniden hesaplamak için **Evet**'e tıklayın. Fiyatı yeniden hesaplamanız gerekmeden satış sözleşmesi satırına bağlantıyı kaldırmak için **Hayır**'a tıklayın.                                                                   |
+| Net tutar                                                        | **Maksimum uygulanır** onay kutusu seçiliyken bir satış anlaşması satırında belirtilen tutarı aşan bir tutar belirtirseniz, bir ileti kutusu değişen tutarı kaydetmek isteyip istemediğinizi sorar. Satış sözleşmesi satırına bağlantıyı kaldırmak ve fiyatı yeniden hesaplamak için **Evet**'e tıklayın. Fiyatı yeniden hesaplamanız gerekmeden satış sözleşmesi satırına bağlantıyı kaldırmak için **Hayır**'a tıklayın.                                                                 |
+| Miktar                                                          | **Maksimum uygulanır** onay kutusu seçiliyken bir satış anlaşması satırında belirtilen miktarı aşan bir miktar belirtirseniz, bir ileti kutusu değişen miktarı kaydetmek isteyip istemediğinizi sorar. Satış sözleşmesi satırına bağlantıyı kaldırmak ve fiyatı yeniden hesaplamak için **Evet**'e tıklayın. Fiyatı yeniden hesaplamanız gerekmeden satış sözleşmesi satırına bağlantıyı kaldırmak için **Hayır**'a tıklayın.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Satış anlaşmasıyla sipariş edilen bir ürünü iade etme
-Bir müşteri, sipariş edilen ürün satış anlaşmasından geri döndüğünde, işlemler için Microsoft Dynamics 365 bulun ve ilgili satış sözleşmesi taahhüt tutarı veya miktar değişikliği yansıtmak için otomatik olarak güncelleştir. Bir satış anlaşmasına bağlanmış orijinal satış siparişini temel alan bir iade emri oluşturarak, satış anlaşması taahhüdü, satış siparişi satırı ve iade emri faturası arasında bir ilişki kurarsınız.  
+Bir müşteri, bir satış anlaşmasıyla sipariş edilen bir ürünü iade ettiğinde, Microsoft Dynamics 365 for Operations tutar veya miktar değişikliğini yansıtmak üzere ilgili satış sözleşmesi taahhüdünü bulabilir ve otomatik olarak güncelleyebilir. Bir satış anlaşmasına bağlanmış orijinal satış siparişini temel alan bir iade emri oluşturarak, satış anlaşması taahhüdü, satış siparişi satırı ve iade emri faturası arasında bir ilişki kurarsınız.  
 
 İade edilen ürün miktarını satış anlaşması taahhüdünden düşmek istemiyorsanız, iade emri ve satış anlaşması taahhüdü arasındaki bağlantıyı kaldırmak için **Siparişi iade et**sayfasında **Bağlantıyı kaldır** denetimini kullanabilirsiniz. Bağlantıyı daha sonra yeniden oluşturmak isterseniz, **Bağlantı oluştur**'u tıklatın.  
 
 **Not:** Bir iade emri yalnızca tek bir satış anlaşmasına bağlanabilir. Bir müşteri birden fazla satış anlaşmasından sipariş edilmiş birden çok ürün iade ederse, her bir ürün için yeni bir iade emri oluşturmanız ve ilgili satış anlaşmasına bir bağlantı oluşturmanız gerekir.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Satış anlaşmalarını otomatik olarak arama
-Gibi bir borç dekontu veya şirketlerarası satış siparişi oluşturduğunuzda, kontrol edebilirsiniz burada satış siparişlerini dolaylı olarak oluşturulan bazı durumlarda olup Microsoft Dynamics 365 işlemleri için otomatik olarak uygun satış sözleşmelerini arar.
+Bir alacak dekontu veya şirketler arası satış siparişi oluşturduğunuzdaki gibi satış siparişlerinin dolaylı olarak oluşturulduğu bazı durumlarda Microsoft Dynamics 365 for Operations'ı otomatik olarak uygun satış sözleşmelerini arayacak şekilde kontrol edebilirsiniz.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Satış anlaşmaları üzerindeki finansal boyutlar
 Finansal boyutları belge başlıklarına ya da satış anlaşmalarının tekil satırlarına kopyalayabilirsiniz. Herhangi bir zamanda bir anlaşma başlığındaki veya anlaşma satırındaki boyutları değiştirebilirsiniz. Bu durumda, boyutlar otomatik olarak sevk başlığına veya sevk emirlerinin sevk satırlarına kopyalanır.
+
+
 
 

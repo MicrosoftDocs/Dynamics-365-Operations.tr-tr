@@ -1,6 +1,6 @@
 ---
-title: "Mobil Fatura statü değerlerini"
-description: "Mobil deneyimlerini tasarım iş kullanıcısı Microsoft Dynamics 365 işlemleri için mobil yetenekleri sağlar. Bunlar istediğiniz gibi Gelişmiş senaryolar için platform de yapalım geliştiriciler yeteneklerini genişletir. Bazı yeni kavramları mobile hakkında bilgi edinmek için en etkili yolu, bir kaç senaryo tasarlama işlemi boyunca tıklatmaktır. Bu konu, Satıcı Fatura statü değerlerini cep kullanım örneği olarak yararlanarak mobil senaryoları tasarlamak için pratik bir yaklaşım sağlamak için hazırlanmıştır. Bu konuda, yardımcı diğer çeşidi senaryoları tasarlamak ve satıcı faturaları için ilişkili olmayan diğer senaryolar için de uygulanabilir."
+title: "Mobil fatura onayları"
+description: "Microsoft Dynamics 365 for Operations&quot;daki mobil yetenekler işletme kullanıcısının mobil deneyimleri tasarlamasına olanak tanır. Gelişmiş senaryolar için platform geliştiricilerin de yeteneklerini istedikleri gibi genişletmesine olanak tanır. Mobildeki yeni kavramlardan bazıları hakkında bilgi edinmek için en etkili yol, bir kaç senaryo tasarlama işleminde ilerlemektir. Bu konu, mobil için satıcı faturası onaylarını bir kullanım durumu olarak kullanarak mobil senaryolar tasarlamak amacıyla partik bir yaklaşım sunmak üzere hazırlanmıştır. Bu konu, senaryoların farklı çeşitlerini tasarlamanıza yardımcı olur ve satıcı faturalarıyla ilgili olmayan diğer senaryolara da uygulanablir."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,44 +24,47 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="mobile-invoice-approvals"></a>Mobil Fatura statü değerlerini
+# <a name="mobile-invoice-approvals"></a>Mobil fatura onayları
 
-Mobil deneyimlerini tasarım iş kullanıcısı Microsoft Dynamics 365 işlemleri için mobil yetenekleri sağlar. Bunlar istediğiniz gibi Gelişmiş senaryolar için platform de yapalım geliştiriciler yeteneklerini genişletir. Bazı yeni kavramları mobile hakkında bilgi edinmek için en etkili yolu, bir kaç senaryo tasarlama işlemi boyunca tıklatmaktır. Bu konu, Satıcı Fatura statü değerlerini cep kullanım örneği olarak yararlanarak mobil senaryoları tasarlamak için pratik bir yaklaşım sağlamak için hazırlanmıştır. Bu konuda, yardımcı diğer çeşidi senaryoları tasarlamak ve satıcı faturaları için ilişkili olmayan diğer senaryolar için de uygulanabilir.
+[!include[banner](../includes/banner.md)]
+
+
+Microsoft Dynamics 365 for Operations'daki mobil yetenekler işletme kullanıcısının mobil deneyimleri tasarlamasına olanak tanır. Gelişmiş senaryolar için platform geliştiricilerin de yeteneklerini istedikleri gibi genişletmesine olanak tanır. Mobildeki yeni kavramlardan bazıları hakkında bilgi edinmek için en etkili yol, bir kaç senaryo tasarlama işleminde ilerlemektir. Bu konu, mobil için satıcı faturası onaylarını bir kullanım durumu olarak kullanarak mobil senaryolar tasarlamak amacıyla partik bir yaklaşım sunmak üzere hazırlanmıştır. Bu konu, senaryoların farklı çeşitlerini tasarlamanıza yardımcı olur ve satıcı faturalarıyla ilgili olmayan diğer senaryolara da uygulanablir.
 
 <a name="prerequisites"></a>Önkoşullar
 -------------
 
 | Önkoşul                                                                                            | Açıklama                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Önceden okuma mobil el kitabı                                                                                |(/ dynamics365/işlemleri/dev-ITPro/mobil-apps / mobile-platform.md)                                                                                                  |
-| Dynamics 365 işlemleri için                                                                             | Bir Microsoft Dynamics 365 işlemleri için 1611 sürümde ortamı ve işlemleri platform Microsoft Dynamics 3 (Kasım 2016) güncelleştirmesi                   |
-| KB 3204341 düzeltmeyi yükleyin.                                                                              | Görev Kaydedici yanlışlıkla iki Kapat komutu bu işlem platform Güncelleştirmesi (güncelleştirme Kasım 2016) 3 Dynamics 365 içinde bulunmaktadır açılan iletişim kutuları için kaydedebilirsiniz |
-| KB 3207800 düzeltmeyi yükleyin.                                                                              | Bu düzeltme ekleri bu Dynamics 365 içinde işlem platform Güncelleştirmesi (güncelleştirme Kasım 2016) 3 dahil mobil istemci üzerinde görüntülenmek üzere etkinleştirir.           |
-| KB 3208224 düzeltmeyi yükleyin.                                                                              | Bu Microsoft Dynamics AX uygulama 7.0.1 (Mayıs 2016) dahil mobil satıcı fatura onayı uygulaması için uygulama kodu.                          |
-| Bir Android, IOS ya da mobil uygulama işlemleri için Dynamics 365 için yüklü olan bir Windows aygıtı | App uygun app store içinde arayın.                                                                                                                     |
+| Mobil el kitabı ön okuma                                                                                |(/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform.md)                                                                                                  |
+| Dynamics 365 for Operations                                                                             | Microsoft Dynamics 365 for Operations sürüm 1611 ve Microsoft Dynamics for Operations platform güncelleştirmesi 3 (Kasım 2016) güncelleştirmelerine sahip bir ortam                   |
+| KB 3204341 numaralı düzeltmeyi yükleyin.                                                                              | Görev kaydedici Dynamics 365 for Operation platform güncelleştirmesi 3'te (Kasım 2016 güncellemesi) bulunan açılır iletişim kutusu için yanlışlıkla iki Kapat komutu kaydedebilir. |
+| KB 3207800 numaralı düzeltmeyi yükleyin.                                                                              | Bu düzeltme eklerin Dynamics 365 for Operation platform güncelleştirmesi 3'te (güncelleştirme Kasım 2016) bulunan mobil istemci üzerinde görüntülenmesini sağlar.           |
+| KB 3208224 numaralı düzeltmeyi yükleyin.                                                                              | Microsoft Dynamics AX uygulaması 7.0.1'e (Mayıs 2016) dahil edilen mobil satıcı faturası onayı uygulaması için uygulama kodu.                          |
+| Dynamics 365 for Operations için mobil uygulama yüklenmiş olan bir Android, iOS veya Windows cihaz | Uygulamayı ilgili uygulama mağazasında arayın.                                                                                                                     |
 
 ## <a name="introduction"></a>Giriş
-Satıcı faturaları için mobil onayları "Önkoşullar" bölümünde açıklanan üç düzeltmeleri gerekir. Bu düzeltmeler için Fatura statü değerlerini çalışma sağlaması gerekmez. Ne öğrenmek için bir çalışma alanı bağlamında mobil, Okuma "Önkoşullar" bölümünde açıklanan mobil el kitabı. Fatura onaylarını çalışma tasarlanması gerekir. 
+Satıcı faturaları için mobil onaylar "Önkoşullar" bölümünde açıklanan üç düzeltmenin olmasını gerektirir. Bu düzeltmeler fatura onayları için bir çalışma alanı sağlamaz. Mobil bağlamında çalışma alanının ne olduğunu öğrenmek için, "Önkoşullar" bölümünde belirtilen mobil el kitabını okuyun. Fatura onayları çalışma alanının tasarlanması gerekir. 
 
-Her Kuruluş orchestrates ve satıcı faturaları için kendi iş süreci farklı tanımlar. Bir mobil deneyimi için Satıcı Fatura statü değerlerini tasarlamadan önce iş süreci aşağıdaki yönlerini düşünmelisiniz. Bu aygıt üzerindeki kullanıcı deneyimini en iyi duruma getirmek mümkün olduğunca çok veri noktası kullanmak için olur.
+Her kuruluş satıcı faturaları için kendi iş sürecini farklı şekilde düzenler ve tanımlar. Satıcı fatura onayları için bir mobil deneyim tasarlamadan önce iş sürecinin aşağıdaki yönlerini göz önünde bulundurmanız gerekir. Fikir, cihaz üzerindeki kullanıcı deneyimini en iyi duruma getirmek için mümkün olduğunca çok veri noktası kullanmaktır.
 
--   Hangi alanların faturası başlığından kullanıcı mobil deneyimi ve hangi sırayla görmek istersiniz?
--   Hangi alanların faturası satırlarından kullanıcı mobil deneyimi ve hangi sırayla görmek istersiniz?
--   Kaç tane fatura satırları faturada var mı? Burada 80-20 kuralı uygulamak ve yüzde 80'i için en iyi duruma getirme.
--   Kullanıcılar (fatura kodlama) hesap dağıtımları mobil aygıtta incelemeleri sırasında görmek istersiniz? Bu soruya yanıt Evet ise, aşağıdaki soruları göz önünde bulundurun:
-    -   Kaç tane hesap dağıtımları (Genişletilmiş Fiyat, satış vergisi, giderleri, bölmeleri vb.) için bir fatura satırı vardır? Yine, 80-20 kuralı uygulayın.
-    -   Faturaları fatura başlığındaki hesap dağıtımları gerekir mi? Öyleyse, bu hesap dağıtımları aygıtta kullanılabilir olması gerekir?
+-   Kullanıcı mobil deneyimde fatura başlığından hangi alanları ve hangi sırayla görmek ister?
+-   Kullanıcı mobil deneyimde fatura satırlarından hangi alanları ve hangi sırayla görmek ister?
+-   Faturada kaç adet fatura satırı var? Burada 80-20 kuralını uygulayın ve yüzde 80 için iyileştirme yapın.
+-   Kullanıcılar incelemeler sırasında mobil cihazda muhasebe dağıtımlarını (fatura kodlama) görmek istiyor mu? Bu soruya yanıt Evet ise, aşağıdaki soruları göz önünde bulundurun:
+    -   Bir fatura satırı için kaç tane hesap dağıtımı (genişletilmiş fiyat, satış vergisi, giderler, bölmeler vb.) vardır? Yine, 80-20 kuralını uygulayın.
+    -   Faturaların fatura başlığında da hesap dağıtımları var mı? Öyleyse, bu hesap dağıtımlarının cihazda kullanılabilir olması gerekir mi?
 
 > [!NOTE]
-> Çünkü bu işlevsellik şu anda mobil senaryoları için desteklenmez bu konuda hesap dağıtımları düzenlemek nasıl açıklamak değil.
+> Bu konuda hesap dağıtımlarının nasıl düzenleneceği açıklanmamaktadır çünkü bu işlevsellik şu anda mobil senaryolar için desteklenmez.
 
--   Kullanıcılar aygıtta fatura için ekleri görmek istersiniz?
+-   Kullanıcılar cihazda fatura için ekleri görmek ister mi?
 
-Fatura statü değerlerini için mobil deneyimi tasarımı, bu sorulara bağlı olarak farklılık gösterir. İş süreci üzerinde bir kuruluştaki mobil kullanıcı deneyimini en iyi duruma getirme amacı olduğunu. Bu konuda geri kalanı içinde biz yukarıdaki soruların farklı temel alan iki senaryo çeşitlemeleri bakmak. 
+Fatura onayları için mobil deneyimi tasarımı, bu sorulara bağlı olarak farklılık gösterir. Amaç, bir kuruluş içinde mobildeki iş süreci için kullanıcı deneyimini en iyi duruma getirmektir. Bu konunun devamında, yukarıdaki sorulara verilecek farklı yanıtları temel alan iki senaryo çeşidine bakacağız. 
 
-Mobil Tasarımcı ile çalışırken bir genel bir yönerge olarak, 'güncelleştirmeleri kaybolmasını önlemek için değişiklikleri yayımlamak ' olduğundan emin olun.
+Genel bir yönerge olarak, mobil tasarımcıyla çalışırken güncelleştirmelerin kaybolmasını önlemek için değişiklikleri "yayımlamadığınızdan' emin olun.
 
-## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>Basit fatura onayı senaryo için Contoso tasarlama
+## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>Contoso için basit bir fatura onayı senaryosu tasarlama
 <table>
 <colgroup>
 <col width="50%" />
@@ -75,7 +78,7 @@ Mobil Tasarımcı ile çalışırken bir genel bir yönerge olarak, 'güncelleş
 </thead>
 <tbody>
 <tr class="odd">
-<td>Hangi alanların faturası başlığından kullanıcı mobil deneyimi ve hangi sırayla görmek istersiniz?</td>
+<td>Kullanıcı mobil deneyimde fatura başlığından hangi alanları ve hangi sırayla görmek ister?</td>
 <td><ol>
 <li>Satıcı adı</li>
 <li>Fatura toplamı</li>
@@ -88,7 +91,7 @@ Mobil Tasarımcı ile çalışırken bir genel bir yönerge olarak, 'güncelleş
 </ol></td>
 </tr>
 <tr class="even">
-<td>Hangi alanların faturası satırlarından kullanıcı mobil deneyimi ve hangi sırayla görmek istersiniz?</td>
+<td>Kullanıcı mobil deneyimde fatura satırlarından hangi alanları ve hangi sırayla görmek ister?</td>
 <td><ol>
 <li>Tedarik kategorisi</li>
 <li>Miktar</li>
@@ -98,85 +101,85 @@ Mobil Tasarımcı ile çalışırken bir genel bir yönerge olarak, 'güncelleş
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Kaç tane fatura satırları faturada var mı? Burada 80-20 kuralı uygulamak ve yüzde 80'i için en iyi duruma getirme.</td>
+<td>Faturada kaç adet fatura satırı var? Burada 80-20 kuralını uygulayın ve yüzde 80 için iyileştirme yapın.</td>
 <td>1</td>
 </tr>
 <tr class="even">
-<td>Kullanıcılar (fatura kodlama) hesap dağıtımları mobil aygıtta incelemeleri sırasında görmek istersiniz?</td>
+<td>Kullanıcılar incelemeler sırasında mobil cihazda muhasebe dağıtımlarını (fatura kodlama) görmek istiyor mu?</td>
 <td>Evet</td>
 </tr>
 <tr class="odd">
-<td>Kaç tane hesap dağıtımları (Genişletilmiş Fiyat, satış vergisi, giderleri vb.) için bir fatura satırı vardır? Yine, 80-20 kuralı uygulayın.</td>
-<td>Genişletilmiş Fiyat: 2 satış vergisi: 0 giderler: 0</td>
+<td>Bir fatura satırı için kaç tane hesap dağıtımı (genişletilmiş fiyat, satış vergisi, giderler, vb.) vardır? Yine, 80-20 kuralını uygulayın.</td>
+<td>Genişletilmiş fiyat: 2 Satış vergisi: 0 Giderler: 0</td>
 </tr>
 <tr class="even">
-<td>Faturaları fatura başlığındaki hesap dağıtımları gerekir mi? Öyleyse, bu hesap dağıtımları aygıtta kullanılabilir olması gerekir?</td>
+<td>Faturaların fatura başlığında da hesap dağıtımları var mı? Öyleyse, bu hesap dağıtımlarının cihazda kullanılabilir olması gerekir mi?</td>
 <td>Kullanılmıyor</td>
 </tr>
 <tr class="odd">
-<td>Kullanıcılar aygıtta fatura için ekleri görmek istersiniz?</td>
+<td>Kullanıcılar cihazda fatura için ekleri görmek ister mi?</td>
 <td>Evet</td>
 </tr>
 </tbody>
 </table>
 
-### <a name="create-the-workspace"></a>Çalışma alanı oluşturma
+### <a name="create-the-workspace"></a>Çalışma alanını oluştur
 
-1.  Bir tarayıcı Dynamics 365 işlemleri için açın ve oturum açın.
-2.  Oturum açtığınız sonra append **& modu mobil =** için aşağıdaki örnek ve yenileme sayfa içinde gösterildiği gibi URL: https://&lt;yoururl&gt;/? cmp = usmf & mi DefaultDashboard =**& modu mobil =**
-3.  ' I **ayarları** (dişli) düğmesini tıklatın ve sayfanın sağında üst **mobil uygulama**. Mobil Uygulama Tasarımcısı yalnızca Kaydedici görünüyor görev olarak görünmesi gerekir.
-4.  ' I **Ekle** yeni bir çalışma alanı oluşturmak için. Bu örnek için çalışma alanı adı **benim onayları**.
+1.  Bir tarayıcıda Dynamics 365 for Operations'ı açın ve oturum açın.
+2.  Oturum açtıktan sonra, URL'ye aşağıdaki örnekte gösterildiği gibi **&mode=mobile** ekleyin ve sayfayı yenileyin: https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard**&mode=mobile**
+3.  Sayfanın sağ üst kısmındaki **Ayarlar** (dişli) düğmesine ve ardından **Mobil uygulama**'ya tıklayın. Mobil uygulama tasarımcısı Görev kaydedicinin göründüğü şekilde görünmelidir.
+4.  Yeni bir çalışma alanı oluşturmak için **Ekle**'ye tıklayın. Bu örnek için çalışma alanı adı **Onaylarım**'dır.
 5.  Açıklama girin.
-6.  Çalışma alanı rengini seçin. Çalışma alanı renk stilinin bu çalışma alanı için mobil deneyimi için kullanılır.
+6.  Çalışma alanı rengi seçin. Çalışma alanı rengi, bu çalışma alanı için mobil deneyimin genel tarzı olarak kullanılacaktır.
 7.  Çalışma alanı için bir simge seçin.
-8.  ' I **bitti**
-9.  ' I **çalışma yayımlamak** değişiklikleri kaydetmek için
+8.  **Bitti**'ye tıklayın.
+9.  Değişikliklerinizi kaydetmek için **Çalışma alanını yayımla**'ya tıklayın.
 
 ### <a name="vendor-invoices-assigned-to-me"></a>Bana atanan satıcı faturaları
 
-Tasarım ilk mobil sayfa incelemesi kullanıcıya atanan fatura listesidir. Bu mobil sayfa tasarlamak için kullanın **VendMobileInvoiceAssignedToMeListPage** işlemleri için Dynamics 365 sayfasında. Bu yordamı tamamlamadan önce en az bir satıcı faturası için gözden geçirilmek üzere atanır emin olun ve fatura satırında iki dağıtımlar vardır. Bu kurulum bu senaryo için gereksinimleri karşılar.
+İlk tasarlamanız gereken mobil sayfa incelenmek üzere kullanıcıya atılan faturaların listesi olmalıdır. Bu mobil sayfayı tasarlamak için Dynamics 365 for Operations'daki **VendMobileInvoiceAssignedToMeListPage** sayfasını kullanın. Bu yordamı tamamlamadan önce, en az bir satıcı faturasının gözden geçirilmek üzere size atandığından ve fatura satırında iki dağıtım olduğundan emin olun. Bu kurulum bu senaryo için gereksinimleri karşılar.
 
-1.  URL işlemleri için Dynamics 365 içinde ile menü öğesinin adını değiştirmek **VendMobileInvoiceAssignedToMeListPage** mobil sürümünü açmak için **Bana atanan satıcı faturaları bekleyen** listesi sayfası, **Borç hesapları** modülü. Sisteminizde atadığınız Fatura sayısına bağlı olarak, bu faturaları bu sayfayı gösterir. Belirli bir faturada bulmak için sol tarafta filtre kullanabilirsiniz. Ancak, biz Bu örnek için belirli bir faturaya gerektirmez. Biz yalnızca size atanan bazı mobil sayfa tasarlamanıza olanak tanımak için gittiği faturasının gerektirir. Kullanılabilir yeni sayfalar özellikle mobil senaryoları için satıcı faturası geliştirmek için tasarlanmıştır. Bu nedenle, bu sayfalar kullanmanız gerekir. Aşağıdaki URL'yi URL benzer olmalıdır ve resimde gösterilen sayfa girdiğiniz sonra görünmelidir: https://&lt;yourURL&gt;/? cmp = usmf & mi =**VendMobileInvoiceAssignedToMeListPage**& modu mobil = [![Bana atanan satıcı faturaları bekleyen sayfa](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
-2.  ' I **ayarları** (dişli) düğmesini tıklatın ve sayfanın sağında üst **mobil app**
-3.  Çalışma alanınızı seçin ve **Düzenle**
-4.  ' I **Ekle sayfasını** ilk mobil sayfa oluşturmak için.
-5.  Gibi bir ad girin **benim satıcı faturaları**ve bir açıklama, aþaðýdaki gibi **bana gözden geçirilmek üzere atanan satıcı faturaları**.
-6.  Click **Done**.
-7.  Mobil tasarımcısında, üzerinde **alan** sekmesini tıklatın, **alanları seçin**. Sütunlar listesi sayfasında aşağıda benzer olmalıdır. [![Bekleyen satıcı faturalarına sütunları sayfa bana atanmış](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
-8.  Mobil sayfasında kullanıcılara gösterilecek listesi sayfasından gerekli sütunları ekleyin. İçine eklediğiniz alanlar son kullanıcıya görüntülenecek olan sipariş sırasıdır. Tüm alanları yeniden seçerek sıralama alanlarını değiştirmek için tek yolu olacaktır. Bu senaryo için gereksinimleri bağlı olarak, aşağıdaki sekiz alanlar gereklidir. Ancak, bazı kullanıcılar mobil aygıtta sağlamak için çok fazla bilgi sekiz alanları düşünebilirsiniz. Bu nedenle, mobil liste görünümünde yalnızca en önemli alanları göstereceğiz. Geri kalan alanlar, biz daha sonra tasarlayacaksınız Ayrıntılar görünümünde görüntülenir. Şu an için biz aşağıdaki alanları ekleyin. Artı işaretini tıklatın (**+**) mobil sayfaya eklemek için bu sütunlarda.
+1.  **Borç hesapları** modülündeki **Bana atanmış bekleyen satıcı faturalarının** listesi sayfasının mobil  sürümünü açmak için Dynamics 365 for Operations URL'sinde menü öğesi adını **VendMobileInvoiceAssignedToMeListPage** olarak değiştirin. Sisteminizde size atanan fatura sayısına bağlı olarak, sayfa bu faturaları gösterir. Belirli bir faturayı bulmak için soldaki filtreyi kullanabilirsiniz. Ancak, bu örnek için bize belirli bir fatura gerekmiyor. Yalnızca mobil sayfanızı tasarlamanıza olanak tanıyacak size atanmış bazı faturalar olması gerekiyor. Kullanılabilir yeni sayfalar özellikle satıcı faturası için mobil senaryolar geliştirmek üzere tasarlanmıştır. Bu nedenle, bu sayfaları kullanmanız gerekir. URL aşağıdaki URL'ye benzer olmalıdır ve bunu girdikten sonra resimde gösterilen sayfada şu görünmelidir: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Bana atanmış bekleyen satıcı faturaları sayfası](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+2.  Sayfanın sağ üst kısmındaki **Ayarlar** (dişli) düğmesine ve ardından **Mobil uygulama**'ya tıklayın.
+3.  Çalışma alanınızı seçin ve **Düzenle**'ye tıklayın.
+4.  İlk mobil sayfayı oluşturmak için **Sayfa ekle**'ye tıklayın.
+5.  **Satıcı faturalarım** gibi bir ad ve **Bana gözden geçirilmek üzere atanan satıcı faturaları** gibi bir açıklama girin.
+6.  **Bitti**'ye tıklayın.
+7.  Mobil tasarımcıda, **Alanlar** sekmesinde, **Alanları seç**'e tıklayın. Liste sayfasındaki sütunlar aşağıda gösterilene benzemelidir. [![Bana atanmış bekleyen satıcı faturaları sayfasındaki sütunlar](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+8.  Mobil sayfada kullanıcılara gösterilecek sütunları liste sayfasından ekleyin. Sütunları ekleme sıranız alanların son kullanıcıya gösterileceği sıradır. Alanların sıralamasını değiştirmenin tek yolu tüm alanları yeniden seçmektir. Bu senaryonun gereksinimlerine bağlı olarak, aşağıdaki sekiz alan gereklidir. Ancak, bazı kullanıcılar mobil cihazda sunmak için sekiz alanın çok fazla bilgi olduğunu düşünebilir. Bu nedenle, mobil liste görünümünde yalnızca en önemli alanları göstereceğiz. Geri kalan alanlar, daha sonra tasarlayacağımız ayrıntılar görünümünde gösterilecektir. Şu an için, aşağıdaki alanları ekleyeceğiz. Mobil sayfaya eklemek için bu sütunlardaki artı işaretini (**+**) tıklayın.
     1.  Satıcı adı
     2.  Fatura toplamı
     3.  Fatura hesabı
     4.  Fatura numarası
     5.  Fatura tarihi
 
-    Alan eklendikten sonra mobil sayfada aşağıda benzer olmalıdır. [![Alan eklendikten sonra sayfa](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
-9.  İş akışı eylemleri daha sonra etkinleştirmek üzere, aşağıdaki sütunları şimdi de eklemeniz gerekir.
-    1.  Görev tamamlanamıyor Göster
-    2.  Görev için Temsilci Seç Göster
-    3.  Geri çekme görevini göster
-    4.  Red görevini göster
-    5.  İsteğin tamamlanması görevini göster
-    6.  Yeniden gönderme işlemi görevini göster
+    Alanlar eklendikten sonra, mobil sayfa aşağıdaki resme benzer olmalıdır. [![Alanlar eklendikten sonra sayfa](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+9.  Daha sonra iş akışı eylemlerini etkinleştirebilmemiz için, şimdi aşağıdaki sütunları da eklemeniz gerekir.
+    1.  Tamamlanan görevi göster
+    2.  Göreve temsilci atamayı göster
+    3.  Görevi geri çağırmayı göster
+    4.  Görevi reddetmeyi göster
+    5.  Talep tamamlama görevini göster
+    6.  Yeniden gönderme görevini göster
 
-10. ' I **yapılan** düzenleme modundan çıkmak için.
-11. ' I **geri** ve sonra **yapılan** çalışma çıkmak için
-12. ' I **çalışma yayımlamak** işinizi kaydetmek için.
-13. Etkinleştirme **görüntü Fatura toplam satıcı faturaları listesi** Borç hesapları parametreleri formundaki altında nda **fatura**. Bu parametre yalnızca etkinleştirerek, fatura toplamları bekleyen satıcı faturaları Listesi sayfasında görüntülenecek hesaplanır, unutmayın. Bu, önceden gerekli düzeltme 3208224 bir parçası olarak yeni bir yetenektir.
+10. Düzenleme modundan çıkmak için **Bitti**'ye tıklayın.
+11. Çalışma alanından çıkmak için **Geri**'ye ve sonra **Bitti**'ye tıklayın.
+12. Çalışmanızı kaydetmek için **Çalışma alanını yayımla**'ya tıklayın.
+13. **Fatura** altından borç hesapları parametrelerindeki **Bekleyen satıcı faturaları listesinde fatura toplamını görüntüle**'yi etkinleştirin. Yalnızca bu parametre etkinleştirilerek, fatura toplamlarının bekleyen satıcı faturaları liste sayfasında gösterilmek üzere hesaplanacağını unutmayın. Bu, ön koşul olan 3208224 no'lu düzeltmenin bir parçası olan yeni bir yetenektir.
 
-### <a name="vendor-invoice-details"></a>Satıcı Fatura Ayrıntıları
+### <a name="vendor-invoice-details"></a>Satıcı faturası ayrıntıları
 
-Fatura Ayrıntıları sayfasında Mobile tasarlamak için kullanın **VendMobileInvoiceHeaderDetails** işlemleri için Dynamics 365 sayfasında. Unutmayın, sisteminizde yüklü faturalar sayısına bağlı olarak, bu sayfanın eski fatura (ilk oluşturulan fatura) gösterir. Belirli bir faturada bulmak için sol tarafta filtre kullanabilirsiniz. Ancak, biz Bu örnek için belirli bir faturaya gerektirmez. Biz mobil sayfa tasarlayabilirsiniz, böylece biz sadece bazı fatura verileri gerektirir. [![İş akışı sayfası](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
+Mobil için fatura ayrıntıları sayfasını tasarlamak üzere Dynamics 365 for Operations'daki **VendMobileInvoiceHeaderDetails** sayfasını kullanın. Sisteminizdeki faturaların sayısına bağlı olarak, bu sayfanın en eski faturayı (ilk oluşturulan fatura) gösterdiğini unutmayın. Belirli bir faturayı bulmak için soldaki filtreyi kullanabilirsiniz. Ancak, bu örnek için bize belirli bir fatura gerekmiyor. Mobil sayfayı tasarlayabilmek için sadece bazı fatura verileri gereklidir. [![İş akışı sayfası](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
-1.  İşlemleri URL için Dynamics 365 içinde Değiştir ile menü öğesinin adı **VendMobileInvoiceHeaderDetails** formunu açmak için
-2.  Mobil Tasarımcısı'ndan açmak **ayarları** (dişli) düğmesi.
-3.  ' I **düzenleme** çalışma alanında düzenleme modunda başlatmak için düğmeyi.
-4.  Seçin ** benim satıcı faturaları ** daha önce oluşturduğunuz sayfa ve i **düzenleme**.
-5.  Üzerinde **alan** sekmesini tıklatın, **ızgara** sütun başlığı.
-6.  ' I **Özellikler**&gt;**Ekle sayfasını**. **Not:** tıklattığınızda **ızgara** başlık ve sayfa otomatik olarak kurulan ayrıntıları ile ilişkisi bir sayfa ekleyin.
-7.  Bir sayfa başlığı girin **fatura ayrıntıları**ve bir açıklama, gibi **Fatura başlığı ve satır ayrıntıları görüntüle**.
-8.  ' I **alanları seçin**. İçine eklediğiniz sırada alanları son kullanıcıya görüntülenecek olan sipariş olduğuna dikkat edin. Tüm alanları yeniden seçerek sıralama alanlarını değiştirmek için tek yolu olacaktır.
-9.  Bu senaryo için gereksinimleri temel alarak başlığından aşağıdaki alanları ekleyin:
+1.  Dynamics 365 for Operations URL'sinde menü öğesinin adını **VendMobileInvoiceHeaderDetails** olarak değiştirerek formu açın.
+2.  Mobil tasarımcıyı **Ayarlar** (dişli) düğmesinden açın.
+3.  **Düzenle** düğmesine tıklayarak çalışma alanında düzenleme modunu başlatın.
+4.  Daha önce oluşturduğunuz **Satıcı faturalarım** sayfasını seçin ve **Düzenle**'ye tıklayın.
+5.  **Alanlar** ssekmesinde **Izgara** sütun başlığına tıklayın.
+6.  **Özellikler** &gt; **Sayfa ekle**'ye tıklayın. **Not:** **Izgara** başlığına tıkladığınızde ve sayfa eklediğinizde, ayrıntılar sayfasıyla ilişki otomatik olarak kurulur.
+7.  **Fatura ayrıntıları** gibi bir sayfa başlığı ve **Fatura başlığı ve satır ayrıntılarını görüntüle** gibi bir açıklama ekleyin.
+8.  **Alanları seç**'e tıklayın. Ekleme sıranızın alanların son kullanıcıya gösterileceği sıra olduğunu unutmayın. Alanların sıralamasını değiştirmenin tek yolu tüm alanları yeniden seçmektir.
+9.  Bu senaryonın gerekliliklerini temel alarak başlıktan aşağıdaki alanları ekleyin:
     1.  Satıcı adı
     2.  Fatura toplamı
     3.  Fatura hesabı
@@ -186,41 +189,41 @@ Fatura Ayrıntıları sayfasında Mobile tasarlamak için kullanın **VendMobile
     7.  Vade tarihi
     8.  Fatura para birimi
 
-10. Gelen satır kılavuz sayfasında aşağıdaki alanları ekleyin:
+10. Sayfadaki satır kılavuzundan aşağıdaki alanları ekleyin:
     1.  Tedarik kategorisi
     2.  Miktar
     3.  Birim fiyatı
     4.  Satır net tutarı
     5.  Vergi beyan tutarı
 
-11. Önceki iki adımı tüm alanları ekledikten sonra ' ı **yapılan**. Sayfa aşağıda benzer olmalıdır. [![Alan eklendikten sonra sayfa](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
-12. ' I **yapılan** düzenleme modundan çıkmak için.
-13. ' I **geri** ve sonra **yapılan** çalışma çıkmak için
-14. ' I **çalışma yayımlamak** işinizi kaydetmek için
+11. Önceki iki adımda tüm alanları ekledikten sonra **Bitti**'yi tıklayın. Bu sayfa aşağıda gösterilene benzemelidir. [![Alanlar eklendikten sonra sayfa](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+12. Düzenleme modundan çıkmak için **Bitti**'ye tıklayın.
+13. Çalışma alanından çıkmak için **Geri**'ye ve sonra **Bitti**'ye tıklayın.
+14. Çalışmanızı kaydetmek için **Çalışma alanını yayımla**'ya tıklayın
 
 ### <a name="workflow-actions"></a>İş akışı eylemleri
 
-İş akışı eylemleri eklemek, **VendMobileInvoiceHeaderDetails** işlemleri için Dynamics 365 sayfasında. Bu sayfayı açmak için daha önce yaptığınız gibi menü öğesi URL adını değiştirin. Mobil Tasarımcısı'ndan sonra açmak **ayarları** (dişli) düğmesi. Ayrıntıları sayfasında iş akışı eylemlerini eklemek için aşağıdaki adımları izleyin.
+İş akışı eylemleri eklemek için Dynamics 365 for Operations'daki **VendMobileInvoiceHeaderDetails** sayfasını kullanın. Bu sayfayı açmak için daha önce yaptığınız gibi URL'deki menü öğesi adını değiştirin. Ardından mobil tasarımcıyı **Ayarlar** (dişli) düğmesinden açın. Ayrıntılar sayfasında iş akışı eylemlerini eklemek için aşağıdaki adımları izleyin.
 
-1.  ' I **düzenleme** çalışma alanında düzenleme modunda başlatmak için düğmeyi.
-2.  Seçin **fatura ayrıntıları** daha önce oluşturduğunuz sayfa ve i **düzenleme**.
-3.  Üzerinde **Eylemler** sekmesini tıklatın, **eylem eklemek**.
-4.  Gibi bir eylem başlığı girin **Onayla**ve bir açıklama, aþaðýdaki gibi **Onayla fatura**. Not eylem başlığı buraya girin mobil app kullanıcıya gösterilen eylem adı haline gelir.
-5.  Click **Done**.
-6.  ' I **alanları seçin**.
-7.  İş akışı işlemi boyunca devam **VendMobileInvoiceHeaderDetails** sayfa ve kaydetmek istediğiniz eylemi tamamlayamıyor. Yorumlar alanına mobil deneyimi de dahil, bu işlem sırasında iş akışı yorumlar girmek emin olun.
-8.  İş akışı eylemi çalıştırıldıktan sonra'ı **yapılan** alan seçmek görevi tamamlamak için.
-9.  ' I **yapılan** düzenleme modundan çıkmak için.
-10. ' I **geri** ve sonra **yapılan** çalışma çıkmak için
-11. ' I **çalışma yayımlamak** işinizi kaydetmek için
-12. 3-11 gerekli iş akışı eylemleri kaydetmek için adımları yineleyin. Size atanan iş akışı eylemleri için tasarlamak için uygulayacağınız size sağlamak için bir durumda olan faturaları için bir gereksinim olduğuna dikkat edin.
-13. Not Defteri veya Microsoft Visual Studio açın ve aşağıdaki kodu yapıştırın. Dosyasını .js dosya olarak kaydedin. Bu kod iki şey gerçekleştirir:
-    1.  Mobil Listesi sayfasında daha önce eklediğimiz ekstra iş akışı ile ilgili sütunları gizler. Böylece uygulama bağlamında bu bilgilere sahip ve sonraki adıma yapmak için bu sütunları eklediğimiz.
-    2.  Bağlı olarak etkin olan iş akışı adımı, yalnızca bu eylemleri göstermek için mantık geçerlidir.
+1.  **Düzenle** düğmesine tıklayarak çalışma alanında düzenleme modunu başlatın.
+2.  Daha önce oluşturduğunuz **Fatura ayrıntılarım** sayfasını seçin ve **Düzenle**'ye tıklayın.
+3.  **Eylemler** sekmesinde **Eylem ekle** düğmesini tıklayın.
+4.  **Onayla** gibi bir eylem başlığı ve **Faturayı onayla** gibi bir açıklama girin. Girdiğiniz eylem başlığının mobil uygulamada kullanıcıya gösterilen eylemin adı olacağını unutmayın.
+5.  **Bitti**'ye tıklayın.
+6.  **Alanları seç**'e tıklayın.
+7.  **VendMobileInvoiceHeaderDetails** sayfasında iş akışı işleminde ilerleyin ve kaydetmek istediğiniz eylemi tamamlayın. Bu işlem sırasında iş akışı yorumları girdiğinizden emin olun, böylece mobil deneyime bir yorum alanı da eklenmiş olur.
+8.  İş akışı eylemi çalıştırıldıktan sonra **Bitti**'ye tıklayarak Alan seç görevini tamamlayın.
+9.  Düzenleme modundan çıkmak için **Bitti**'ye tıklayın.
+10. Çalışma alanından çıkmak için **Geri**'ye ve sonra **Bitti**'ye tıklayın.
+11. Çalışmanızı kaydetmek için **Çalışma alanını yayımla**'ya tıklayın
+12. Gerekli tüm iş akışı eylemlerini kaydetmek için 3 ile 11 arası adımları yineleyin. Tasarım yapacağınız iş akışı eylemlerini kullanılabilir yapacak durumdaki faturaların size atanmasının gerekli olduğunu unutmayın.
+13. Not Defteri'ni veya Microsoft Visual Studio'yu açın ve aşağıdaki kodu yapıştırın. Dosyayı .js dosyası olarak kaydedin. Bu kod iki şey gerçekleştirir:
+    1.  Mobil listesi sayfasında daha önce eklediğimiz iş akışıyla ilgili ekstra sütunları gizler. Bu sütunları uygulamanın bağlan hakkında bilgisi olması ve bir sonraki adımın gerçekleştirilebilmesi için ekledik.
+    2.  Etkin olan iş akışı adımını temel alarak , yalnızca bu eylemleri göstermek için mantık uygular.
 
-Sayfaları ve diğer denetimleri JS kodu adını aynı çalışma alanı'ndan, olmalıdır.
+Sayfaların ve JS kodundaki diğer denetimlerin adının çalışma alanındakiyle aynı olması gerektiğini unutmayın.
 
-1.  Işlevi ana (metadataService, dataService, cacheService, $q) {dönmek {appInit: işlevi (appMetadata) {/ / metadataService.configureControl var, ancak görünmez olması gereken denetimleri gizleme ('My-satıcı-faturalar, 'ShowAccept' {Gizli: true}); metadataService.configureControl ('My-satıcı-faturalar, 'ShowApprove' {Gizli: true}); metadataService.configureControl ('My-satıcı-faturalar, 'ShowReject' {Gizli: true}); metadataService.configureControl ('My-satıcı-faturalar, 'ShowDelegate' {Gizli: true}); metadataService.configureControl ('My-satıcı-faturalar, 'ShowRequestChange' {Gizli: true}); metadataService.configureControl ('My-satıcı-faturalar, 'ShowRecall' {Gizli: true}); metadataService.configureControl ('My-satıcı-faturalar, 'ShowComplete' {Gizli: true}); metadataService.configureControl ('My-satıcı-faturalar, 'ShowResubmit' { Gizli: true}); }, pageInit: işlevi (pageMetadata, params) {ise (pageMetadata.Name == 'Fatura Ayrıntıları') {/ / Göster/Gizle iş akışı eylemleri iş akışında temel adım metadataService.configureAction ('Accept' {görünür: true}); metadataService.configureAction ('Onayla' {görünür: true}); metadataService.configureAction ('Reddet' {görünür: true}); metadataService.configureAction ('Temsilci' {görünür: true}); metadataService.configureAction (' isteği-Değiştir ', {görünür: true}); metadataService.configureAction ('Geri' {görünür: true}); metadataService.configureAction ('Tamamlandı' {görünür: true}); metadataService.configureAction ('Yeniden gönderme işlemi' {görünür: true});
+1.  function main(metadataService, dataService, cacheService, $q) {        return {            appInit: function (appMetadata) {                // Hide controls that need to be present, but not visible                metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });              metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });            metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });            },            pageInit: function (pageMetadata, params) {     if (pageMetadata.Name == 'Invoice-details') {                    // Show/hide workflow actions based on workflow step                    metadataService.configureAction('Accept', { visible: true });                    metadataService.configureAction('Approve', { visible: true });                    metadataService.configureAction('Reject', { visible: true });                    metadataService.configureAction('Delegate', { visible: true });                    metadataService.configureAction('Request-change', { visible: true });                    metadataService.configureAction('Recall', { visible: true });                    metadataService.configureAction('Complete', { visible: true });                    metadataService.configureAction('Resubmit', { visible: true });
 
                        var entityContextParts = params.pageContext.split(':');
                        var data = dataService.getEntityData(entityContextParts[0], entityContextParts[1]);
@@ -256,56 +259,56 @@ Sayfaları ve diğer denetimleri JS kodu adını aynı çalışma alanı'ndan, o
            };
         }
 
-2.  Kod dosyasını seçerek çalışma alanına karşıya **mantık** sekmesi
-3.  ' I **yapılan** düzenleme modundan çıkmak için.
-4.  ' I **geri** ve sonra **yapılan** çalışma çıkmak için
-5.  ' I **çalışma yayımlamak** işinizi kaydetmek için
+2.  **Mantık** sekmesini seçerek kod dosyasını çalışma alanına yükleyin
+3.  Düzenleme modundan çıkmak için **Bitti**'ye tıklayın.
+4.  Çalışma alanından çıkmak için **Geri**'ye ve sonra **Bitti**'ye tıklayın.
+5.  Çalışmanızı kaydetmek için **Çalışma alanını yayımla**'ya tıklayın
 
-### <a name="vendor-invoice-attachments"></a>Satıcı Fatura ekleri
+### <a name="vendor-invoice-attachments"></a>Satıcı faturası ekleri
 
-1.  ' I **ayarları** (dişli) düğmesini tıklatın ve sayfanın sağında üst **mobil app**
-2.  ' I **düzenleme** çalışma alanında düzenleme modunda başlatmak için düğmeyi.
-3.  Seçin ** fatura ayrıntıları ** daha önce oluşturduğunuz sayfa ve i **düzenleme**.
-4.  Set **belge yönetimi** için seçenek **Evet** aşağıda gösterildiği gibi. **Not:** mobil aygıtta ekleri göstermek için hiçbir gereksinimleri varsa, bu seçeneği ayarlamak bırakın **No**, varsayılan ayarı olur.
+1.  Sayfanın sağ üst kısmındaki **Ayarlar** (dişli) düğmesine ve ardından **Mobil uygulama**'ya tıklayın.
+2.  **Düzenle** düğmesine tıklayarak çalışma alanında düzenleme modunu başlatın.
+3.  Daha önce oluşturduğunuz **Fatura ayrıntıları** sayfasını seçin ve **Düzenle**'ye tıklayın.
+4.  **Belge yönetimi** seçeneğini aşağıda gösterildiği gibi **Evet** olarak ayarlayın. **Not:** Mobil cihazda ekleri göstermek için hiçbir gereklilik yoksa, bu seçeneği varsayılan ayar olan **Hayır** olarak bırakabilirsiniz.
 5.  [![docmanagement](./media/docmanagement-216x300.png)](./media/docmanagement.png)
-6.  ' I **yapılan** düzenleme modundan çıkmak için.
-7.  ' I **geri** ve sonra **yapılan** çalışma çıkmak için
-8.  ' I **çalışma yayımlamak** işinizi kaydetmek için
+6.  Düzenleme modundan çıkmak için **Bitti**'ye tıklayın.
+7.  Çalışma alanından çıkmak için **Geri**'ye ve sonra **Bitti**'ye tıklayın.
+8.  Çalışmanızı kaydetmek için **Çalışma alanını yayımla**'ya tıklayın
 
-### <a name="vendor-invoice-line-distributions"></a>Satıcı fatura satırının dağıtımları
+### <a name="vendor-invoice-line-distributions"></a>Satıcı faturası satırı dağıtımları
 
-Yalnızca satır dağıtımları düzeyi olur ve fatura tek bir satırı her zaman olacaktır bu senaryo için gereksinimleri doğrulayın. Bu senaryoda, basit olduğundan, kullanıcı deneyimini mobil aygıttaki de kullanıcı birkaç düzeyleri dağıtımlarını görüntülemek için ayrıntıya sahip olmadığı kadar basit olmalıdır. Dynamics 365 işlemleri için satıcı faturaları fatura başlığındaki tüm dağıtımları gösteren seçeneği içerir. Bu deneyimi için mobil senaryo ne ihtiyacımız var. Bu nedenle, biz kullanır **VendMobileInvoiceAllDistributionTree** bu mobil senaryonun bir parçası tasarlamak için sayfa. 
+Bu senaryonun gereksinimleri yalnızca satır düzeyinde dağıtımlar olacağını ve bir faturada yalnızca bir satır bulunacağını onaylamaktadır. Bu senaryo basit olduğundan, mobil cihazdaki kullanıcı deneyimi de kullanıcının dağıtımları görüntülemek için birçok satırın ayrıntısına bakmasını gerektirmeyecek kadar basit olmalıdır. Dynamics 365 for Operations'daki satıcı faturaları, fatura başlığından tüm dağıtımları gösterme seçeneği içerir. Bu deneyim mobil senaryo için ihtiyacımız olan şeydir. Bu nedenle, mobil senaryonun bu bölümünü tasarlamak için **VendMobileInvoiceAllDistributionTree** sayfasını kullanacağız. 
 
 > [!NOTE] 
-> Gereksinimleri bilmek bize hangi belirli sayfa kullan ve biz senaryo tasarlarken tam olarak mobil kullanıcı deneyimini en iyi duruma getirme için karar yardımcı olur. Bu senaryo için gereksinimler farklılık gösterdiğinden İkinci senaryoda, farklı bir sayfaya dağıtımları göstermek için kullanacağız.
+> Gereksinimleri bilmek bize hangi belirli sayfayı kullanacağımıza ve senaryoyu tasarlarken tam olarak mobil deneyimi kullanıcı için ne kadar en iyi duruma getireceğimize karar vermede yardımcı olur. İkinci senaryoda, bu senaryo için gereksinimler farklılık gösterdiğinden dağıtımları göstermek için farklı bir sayfa kullanacağız.
 
-1.  URL'de, daha önce yaptığınız gibi menü öğesinin adını değiştirin. Aşağıdaki resimde görüntülenen sayfa benzemelidir. [![Tüm dağıtımlar sayfa](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
-2.  Mobil Tasarımcısı'ndan açmak **ayarları** (dişli) düğmesi.
-3.  ' I **düzenleme** çalışma alanında düzenleme modunda başlatmak için düğmeyi. **Not:** iki yeni sayfalar otomatik olarak oluşturulduğunu görürsünüz. Önceki bölümde belge yönetimi açık olduğundan, sistem bu sayfalar oluşturur. Bu yeni sayfalar sayabilirsiniz.
-4.  ' I **Ekle sayfasını**.
-5.  Bir sayfa başlığı girin **görünüm hesap**ve bir açıklama, gibi **görünüm hesap fatura için**.
-6.  Click **Done**.
-7.  Üzerinde **alan** sekmesini tıklatın, **alanları seçin**, dağıtımları sayfasından aşağıdaki alanları seçin ve sonra tıklatın **yapılan**:
+1.  Daha önce yaptığınız gibi URL'deki menü öğesi adını değiştirin. Görüntülenen sayfa aşağıdaki resimde gösterilen sayfaya benzemelidir. [![Tüm dağıtımlar sayfası](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+2.  Mobil tasarımcıyı **Ayarlar** (dişli) düğmesinden açın.
+3.  **Düzenle** düğmesine tıklayarak çalışma alanında düzenleme modunu başlatın. **Not:** İki yeni sayfanın otomatik olarak oluşturulduğunu görürsünüz. Önceki bölümde belge yönetimini açmış olduğunuzdan, sistem bu sayfaları oluşturur. Bu yeni sayfaları yok sayabilirsiniz.
+4.  **Sayfa ekle**'ye tıklayın.
+5.  **Muhasebeyi görüntüle** gibi bir sayfa başlığı ve **Fatura için muhasebeyi görüntüle** gibi bir açıklama girin.
+6.  **Bitti**'ye tıklayın.
+7.  **Alan** sekmesinde, **Alanları seçin**'e tıklayın, dağıtımlar sayfasından aşağıdaki alanları seçin ve sonra **Bitti**'ye tıklayın.
     1.  Tutar
     2.  Para Birimi
     3.  Genel muhasebe hesabı
 
 > [!NOTE] 
-> Seçeneğini belirlemediğim **açıklama** dağıtımları kılavuz sütun olduğundan bu senaryo için gereksinimleri Genişletilmiş Fiyat için dağıtımları olacaktır sadece tutar olduğunu doğruladı. Bu nedenle, kullanıcı, dağıtım için tutar türünü belirlemek için başka bir alan istemeyecektir. Ancak, senaryoda İleri, biz **olur** bu senaryo için gereksinimleri diğer tutar türleri (örneğin, satış vergisi) dağıtımları olduğunu belirtmek için bu bilgileri kullanın.
-8.  ' I **yapılan** düzenleme modundan çıkmak için.
-9.  ' I **geri** ve sonra **yapılan** çalışma çıkmak için
-10. ' I **çalışma yayımlamak** işinizi kaydetmek için
+> Dağıtım ızgarası içim **Açıklama** sütununu seçmedik çünkü bu senaryonun gereksinimleri genişletilmiş fiyatın dağıtımları olacak tek tutar olduğunu onayladı. Bu nedenle, kullanıcının dağıtım yapılacak tutar türünü belirlemek için başka bir alan istemeyecektir. Ancak, sonraki senaryoda, bu bilgiyi **kullanacağız** çünkü bu senaryo için gereksinimler diğer tutar türlerinin (örneğin, satış vergisi) dağıtımları olduğunu belirtiyor.
+8.  Düzenleme modundan çıkmak için **Bitti**'ye tıklayın.
+9.  Çalışma alanından çıkmak için **Geri**'ye ve sonra **Bitti**'ye tıklayın.
+10. Çalışmanızı kaydetmek için **Çalışma alanını yayımla**'ya tıklayın
 
-**Not:****görünüm hesap** mobil sayfada değil şu anda bağlı herhangi şimdiye tasarladığımız mobil sayfalar. Kullanıcı gitmek mümkün olmayacaktır çünkü **görünüm hesap** gelen sayfa **fatura ayrıntıları** sayfa mobil aygıtta gezinmesinden sağladığımız gerekir **fatura ayrıntıları** sayfasına **görünüm hesap** sayfa. Biz bu gezinti JavaScript aracılığıyla ek mantık kullanarak oluşturun.
+**Not:****Muhasebeyi görüntüle** mobil sayfası şu anda şimdiye kadar tasarlanan mobil sayfalara bağlı değildir. Kullanıcı mobil cihazda **Fatura ayrıntıları** sayfasından **Muhasebeyi görüntüle** sayfasına gidemeyeceğinden, **Fatura ayrıntıları** sayfasından **Muhasebeyi görüntüle** sayfasına gezinme olanağı sağlamamız gerekir. Bu gezintiyi JavaScript aracılığıyla ek bir mantık kullanarak kurarız.
 
-1.  Daha önce oluşturduğunuz .js dosyasını açın ve aşağıdaki kodda vurgulanan satırlar ekleyin. Bu kod iki şey gerçekleştirir:
-    1.  Kullanıcılar doğrudan çalışma alanına gidemiyor garanti yardımcı **görünüm hesap** sayfa.
-    2.  Gezinti denetimden kuran **fatura ayrıntıları** sayfasına **görünüm hesap** sayfa.
+1.  Daha önce oluşturduğunuz .js dosyasını açın ve aşağıdaki kodda vurgulanan satırları ekleyin. Bu kod iki şey gerçekleştirir:
+    1.  Bu, kullanıcıların doğrudan çalışma alanından **Muhasebeyi görüntüle** sayfasına gidememesini garanti etmeye yardımcı olur.
+    2.  **Fatura ayrıntıları** sayfasından **Muhasebeyi görüntüle** sayfasına gitme denetimi kurar.
 
 > [!NOTE] 
-> Sayfaları ve diğer denetimleri JS kod adı çalışma alanından aynı olması gerekir.
+> Sayfaların ve JS kodundaki diğer denetimlerin adının çalışma alanındakiyle aynı olması gerekir.
 
-1.  Işlevi ana (metadataService, dataService, cacheService, $q) {dönmek {appInit: işlevi (appMetadata) {/ / metadataService.configureControl var, ancak görünmez olması gereken denetimleri gizleme ('My-satıcı-faturalar, 'ShowAccept' {Gizli: true}); metadataService.configureControl ('My-satıcı-faturalar, 'ShowApprove' {Gizli: true}); metadataService.configureControl ('My-satıcı-faturalar, 'ShowReject' {Gizli: true}); metadataService.configureControl ('My-satıcı-faturalar, 'ShowDelegate' {Gizli: true}); metadataService.configureControl ('My-satıcı-faturalar, 'ShowRequestChange' {Gizli: true}); metadataService.configureControl ('My-satıcı-faturalar, 'ShowRecall' {Gizli: true}); metadataService.configureControl ('My-satıcı-faturalar, 'ShowComplete' {Gizli: true}); metadataService.configureControl ('My-satıcı-faturalar, 'ShowResubmit' { Gizli: true}); Sayfalar için Gezinti metadataService.hideNavigation('View-accounting') kök uygulanamaz Gizle; Hesap metadataService.addLink görüntülemek için bağlantıyı (' fatura ayrıntıları, ' görünüm hesap ', ' görünüm hesap nav denetim ', 'Görünüm hesap', true); }, pageInit: işlevi (pageMetadata, params) {ise (pageMetadata.Name == 'Fatura Ayrıntıları') {/ / Göster/Gizle iş akışı eylemleri iş akışında temel adım metadataService.configureAction ('Accept' {görünür: true}); metadataService.configureAction ('Onayla' {görünür: true}); metadataService.configureAction ('Reddet' {görünür: true}); metadataService.configureAction ('Temsilci' {görünür: true}); metadataService.configureAction (' isteği-Değiştir ', {görünür: true}); metadataService.configureAction ('Geri' {görünür: true}); metadataService.configureAction ('Tamamlandı' {görünür: true}); metadataService.configureAction ('Yeniden gönderme işlemi' {görünür: true});
+1.  function main(metadataService, dataService, cacheService, $q) {        return {            appInit: function (appMetadata) {                // Hide controls that need to be present, but not visible                metadataService.configureControl('My-vendor-invoices', 'ShowAccept', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowApprove', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowReject', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowDelegate', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowRequestChange', { hidden: true });              metadataService.configureControl('My-vendor-invoices', 'ShowRecall', { hidden: true });                metadataService.configureControl('My-vendor-invoices', 'ShowComplete', { hidden: true });            metadataService.configureControl('My-vendor-invoices', 'ShowResubmit', { hidden: true });                // Hide pages not applicable for root navigation                metadataService.hideNavigation('View-accounting');                //Link to view accounting                metadataService.addLink('Invoice-details', 'View-accounting', 'View-accounting-nav-control', 'View accounting', true);            },            pageInit: function (pageMetadata, params) {     if (pageMetadata.Name == 'Invoice-details') {                    // Show/hide workflow actions based on workflow step                    metadataService.configureAction('Accept', { visible: true });                    metadataService.configureAction('Approve', { visible: true });                    metadataService.configureAction('Reject', { visible: true });                    metadataService.configureAction('Delegate', { visible: true });                    metadataService.configureAction('Request-change', { visible: true });                    metadataService.configureAction('Recall', { visible: true });                    metadataService.configureAction('Complete', { visible: true });                    metadataService.configureAction('Resubmit', { visible: true });
 
                        var entityContextParts = params.pageContext.split(':');
                        var data = dataService.getEntityData(entityContextParts[0], entityContextParts[1]);
@@ -341,24 +344,24 @@ Yalnızca satır dağıtımları düzeyi olur ve fatura tek bir satırı her zam
            };
         }
 
-2.  Kod dosyasını seçerek çalışma alanına karşıya **mantık** önceki kod yazmak için sekme
-3.  ' I **yapılan** düzenleme modundan çıkmak için.
-4.  ' I **geri** ve sonra **yapılan** çalışma çıkmak için
-5.  ' I **çalışma yayımlamak** işinizi kaydetmek için
+2.  Önceki kodun üzerine yazmak için **Mantık** sekmesini seçerek kod dosyasını çalışma alanına yükleyin
+3.  Düzenleme modundan çıkmak için **Bitti**'ye tıklayın.
+4.  Çalışma alanından çıkmak için **Geri**'ye ve sonra **Bitti**'ye tıklayın.
+5.  Çalışmanızı kaydetmek için **Çalışma alanını yayımla**'ya tıklayın
 
 ### <a name="validation"></a>Doğrulama
 
-Mobil aygıtınızdan uygulamasını açın ve işlemleri örneği için Dynamics 365 bağlanın. Burada satıcı faturaları gözden geçirilmek üzere atanmış, şirkete oturumu açma emin olun. Aşağıdaki eylemleri gerçekleştirmeniz:
+Mobil cihazınızdan uygulamayı açın ve Dynamics 365 for Operations kurulumunuza bağlanın. Satıcı faturalarının gözden geçirilmek üzere size atandığı şirkette oturum açtığınızdan emin olun. Aşağıdaki eylemleri gerçekleştirebilmeniz gerekir:
 
--   Bkz: **benim onayları** çalışma alanı.
--   Ayrıntısına **benim onayları** çalışma alanı ve bkz: **benim satıcı faturaları** sayfa.
--   Ayrıntısına **benim satıcı faturaları** sayfa ve size atanmış olan faturaların listesini görebilirsiniz.
--   Bir fatura ayrıntısına ve fatura Üstbilgi ayrıntılarını ve satır ayrıntıları görebilirsiniz.
--   Ayrıntıları sayfasında bağlantı eklere bakın ve eklerin listesine gidin ve ekleri görüntülemek için bu bağlantıyı kullanın.
--   Bağlantı ayrıntıları sayfasında ziyaret **hesap görüntülemek** sayfa ve dağıtımları sayfasına gidin ve dağıtımlarını görüntülemek için bu bağlantıyı kullanın.
--   Ayrıntıları sayfasında tıklatın **Eylemler**, alt menü ve iş akışı adımı için geçerli olan iş akışı eylemleri gerçekleştirin.
+-   **Onaylarım** çalışma alanına bakın.
+-   **Onaylarım** çalışma alanı ayrıntılarına bakın **Satıcı faturalarım** sayfasını görüntüleyin.
+-   **Satıcı faturalarım** sayfasının ayrıntılarına bakın ve size atanmış olan faturaların listesini görün.
+-   Faturalardan birinin ayrıntılarına bakın ve fatura başlığı ayrıntılarını ve satır ayrıntılarını görün.
+-   Ayrıntılar sayfasında eklerin bağlantısına bakın ve bu bağlantıyı ekler listesine gitmek ve ekleri görüntülemek için kullanın.
+-   Ayrıntılar sayfasında, **Muhasebeyi görüntüle** sayfasının bağlantısına bakın ve bu bağlantıyı dağıtımlar sayfasına gitmek ve dağıtımları görüntülemek için kullanın.
+-   Ayrıntılar sayfasında aşağıdaki **Eylemler** menüsüne tıklayın ve iş akışı adımı için geçerli olan iş akışı eylemlerini gerçekleştirin.
 
-## <a name="designing-a-complex-invoice-approval-scenario-for-fabrikam"></a>Karmaşık fatura onayı senaryo için Fabrikam tasarlama
+## <a name="designing-a-complex-invoice-approval-scenario-for-fabrikam"></a>Fabrikam için karmaşık bir fatura onayı senaryosu tasarlama
 <table>
 <colgroup>
 <col width="50%" />
@@ -372,7 +375,7 @@ Mobil aygıtınızdan uygulamasını açın ve işlemleri örneği için Dynamic
 </thead>
 <tbody>
 <tr class="odd">
-<td>Hangi alanların faturası başlığından kullanıcı mobil deneyimi ve hangi sırayla görmek istersiniz?</td>
+<td>Kullanıcı mobil deneyimde fatura başlığından hangi alanları ve hangi sırayla görmek ister?</td>
 <td><ol>
 <li>Satıcı adı</li>
 <li>Fatura tutarı</li>
@@ -385,7 +388,7 @@ Mobil aygıtınızdan uygulamasını açın ve işlemleri örneği için Dynamic
 </ol></td>
 </tr>
 <tr class="even">
-<td>Hangi alanların faturası satırlarından kullanıcı mobil deneyimi ve hangi sırayla görmek istersiniz?</td>
+<td>Kullanıcı mobil deneyimde fatura satırlarından hangi alanları ve hangi sırayla görmek ister?</td>
 <td><ol>
 <li>Tedarik kategorisi</li>
 <li>Miktar</li>
@@ -395,23 +398,23 @@ Mobil aygıtınızdan uygulamasını açın ve işlemleri örneği için Dynamic
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Kaç tane fatura satırları faturada var mı? Burada 80-20 kuralı uygulamak ve yüzde 80'i için en iyi duruma getirme.</td>
+<td>Faturada kaç adet fatura satırı var? Burada 80-20 kuralını uygulayın ve yüzde 80 için iyileştirme yapın.</td>
 <td>5</td>
 </tr>
 <tr class="even">
-<td>Kullanıcılar (fatura kodlama) hesap dağıtımları mobil aygıtta incelemeleri sırasında görmek istersiniz?</td>
+<td>Kullanıcılar incelemeler sırasında mobil cihazda muhasebe dağıtımlarını (fatura kodlama) görmek istiyor mu?</td>
 <td>Evet</td>
 </tr>
 <tr class="odd">
-<td>Kaç tane hesap dağıtımları (Genişletilmiş Fiyat, satış vergisi, giderleri vb.) için bir fatura satırı vardır? Yine, 80-20 kuralı uygulayın.</td>
-<td>Genişletilmiş Fiyat: 2 satış vergisi: 2 ücretleri: 2</td>
+<td>Bir fatura satırı için kaç tane hesap dağıtımı (genişletilmiş fiyat, satış vergisi, giderler, vb.) vardır? Yine, 80-20 kuralını uygulayın.</td>
+<td>Genişletilmiş fiyat: 2 Satış vergisi: 2 Giderler: 2</td>
 </tr>
 <tr class="even">
-<td>Faturaları fatura başlığındaki hesap dağıtımları gerekir mi? Öyleyse, bu hesap dağıtımları aygıtta kullanılabilir olması gerekir?</td>
+<td>Faturaların fatura başlığında da hesap dağıtımları var mı? Öyleyse, bu hesap dağıtımlarının cihazda kullanılabilir olması gerekir mi?</td>
 <td>Kullanılmıyor</td>
 </tr>
 <tr class="odd">
-<td>Kullanıcılar aygıtta fatura için ekleri görmek istersiniz?</td>
+<td>Kullanıcılar cihazda fatura için ekleri görmek ister mi?</td>
 <td>Evet</td>
 </tr>
 </tbody>
@@ -419,16 +422,18 @@ Mobil aygıtınızdan uygulamasını açın ve işlemleri örneği için Dynamic
 
 ### <a name="exercise"></a>Alıştırma
 
-Senaryo 1, Senaryo 2 gereksinimleri temel alarak aşağıdaki çeşitlemelerden yapılabilir. Bu bölümde, öğrenme amaçları için tamamlayabileceğiniz bir alıştırma olarak kullanın.
+Senaryo 1 için senaryo 2 gereksinimleri temel alınarak aşağıdaki çeşitlemeler yapılabilir. Bu bölümü, öğrenme amaçları için tamamlayabileceğiniz bir alıştırma olarak kullanın.
 
-1.  Daha fazla fatura satırları Senaryo 2 beklenir çünkü tasarımı yapılan aşağıdaki değişiklikler mobil aygıt üzerindeki kullanıcı deneyimini en iyi duruma yardımcı olacaktır:
-    1.  (Senaryo 1) olduğu gibi ayrıntıları sayfasında fatura satırları görüntülemek yerine, kullanıcılar, ayrı bir mobil sayfa satırlarını görüntülemek seçebilirsiniz.
-    2.  Birden çok fatura satırı, bu senaryoda, beklenir çünkü **VendMobileInvoiceAllDistributionTree** (Senaryo 1) olduğu gibi cep dağıtımları sayfa tasarlamak için kullanılan sayfa, kullanıcının dağıtımları için satırları ilişkilendirmek kafa karıştırıcı olabilir. Bu nedenle, kullanın **VendMobileInvoiceLineDistributionTree** dağıtımları sayfa tasarlamak için sayfa.
-    3.  İdeal olarak, bu senaryoda bir fatura satırı bağlamında dağıtımları gösterilmesi gerekir. Bu nedenle, kullanıcı dağıtımları sayfayı görmek için bir satıra inebilir emin olun. Senaryo 1 başlığı ve ayrıntıları sayfaları için yaptığınız gibi sayfa bağlantı yeteneği detaylandırma, kurmak için kullanın.
+1.  Senaryo 2'de daha fazla fatura satırı beklendiğinden, tasarımda yapılacak aşağıdaki değişiklikler mobil cihazdaki kullanıcı deneyimini en iyi duruma getirmeye yardımcı olacaktır:
+    1.  Fatura satırlarını ayrıntılar sayfasında görüntülemek yerine (senaryo 1'de olduğu gibi), kullanıcılar satırları ayrı bir mobil sayfada görüntülemeyi seçebilir.
+    2.  Bu senaryoda birden fazla fatura satırı olması beklendiğinden, mobil için dağıtımları tasarlamak amacıyla **VendMobileInvoiceAllDistributionTree** sayfası kullanılırsa (senaryo 1'de olduğu gibi), kullanıcı için satırları dağıtımlarla ilişkilendirmek kafa karıştırıcı olabilir. Bu nedenle, dağıtımlar sayfasını tasarlamak için **VendMobileInvoiceLineDistributionTree** sayfasını kullanın.
+    3.  İdeal olarak, bu senaryoda dağıtımların bir fatura satırı bağlamında gösterilmesi gerekir. Bu nedenle, kullanıcının dağıtımlar sayfasını görmek için bir satırın ayrıntılarına inebildiğinden emin olun. Senaryo 1'de başlık ve ayrıntılar sayfaları için yaptığınız gibi, detaylandırma kurmak için sayfa bağlantısı yeteneğini kullanın.
 
-2.  Dağıtımları Senaryo 2'de (satış vergisi, giderleri vb.) birden fazla tutar türü beklendiği için seçtiğiniz tutar türü açıklamasını görüntülemek yararlı olacaktır. (Biz bu bilgiyi Senaryo 1 atlanmış.)
+2.  Senaryo 2'deki dağıtımlarda birden fazla tutar türü olması beklendiğinden (satış vergisi, giderler, vb.) tutar türü açıklamasını görüntülemek yararlı olacaktır. (Bu bilgiyi senaryo 1'de atlamıştık.)
 
 ## <a name="conclusion"></a>Sonuç
-Mobil platform ve uygulama yetenekleri bir kuruluştaki temel bir kullanıcı için optimize edilmiş mobil senaryoları tasarlamak sağlar. Bu konuda sağlanan örnekler temel alarak, belirli bir gereksinimi karşılamak farklı deneyimleri oluşturmak ve diğer çeşitlemelerdeki deneyin.
+Mobil platform ve uygulama yetenekleri, bir kuruluştaki kullanıcı tabanı için optimize edilmiş mobil senaryoları tasarlamanızı sağlar. Bu konuda sağlanan örnekleri temel alarak, farklı çeşitlemeler deneyebilir ve belirli bir gereksinimi karşılayan farklı deneyimler oluşturabilirsiniz.
+
+
 
 

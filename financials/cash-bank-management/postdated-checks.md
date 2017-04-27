@@ -1,6 +1,6 @@
 ---
 title: "İleri tarih atılmış çekler"
-description: "Bu makalede, Microsoft Dynamics 365 işlemleri için İleri tarih atılmış denetimlerinde desteği hakkında bilgi sağlar. İleri tarih atılmış çekler, ileri bir tarihte ödeme yapmak veya almak için kesilen çeklerdir. Bu nedenle, çek belirtilen tarihe kadar nakde çevrilemez."
+description: "Bu makalede, Microsoft Dynamics 365 for Operations&quot;da ileri tarih atılmış çeklere verilen destek hakkında bilgiler verilmektedir. İleri tarih atılmış çekler, ileri bir tarihte ödeme yapmak veya almak için kesilen çeklerdir. Bu nedenle, çek belirtilen tarihe kadar nakde çevrilemez."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="postdated-checks"></a>İleri tarih atılmış çekler
 
-Bu makalede, Microsoft Dynamics 365 işlemleri için İleri tarih atılmış denetimlerinde desteği hakkında bilgi sağlar. İleri tarih atılmış çekler, ileri bir tarihte ödeme yapmak veya almak için kesilen çeklerdir. Bu nedenle, çek belirtilen tarihe kadar nakde çevrilemez.
+[!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 işlemleri için tam yönetim döngüsü Alacak hesapları ve Borç hesapları, ileri tarih atılmış Çekler için aşağıdaki tabloda gösterildiği gibi destekler.
+
+Bu makalede, Microsoft Dynamics 365 for Operations'da ileri tarih atılmış çeklere verilen destek hakkında bilgiler verilmektedir. İleri tarih atılmış çekler, ileri bir tarihte ödeme yapmak veya almak için kesilen çeklerdir. Bu nedenle, çek belirtilen tarihe kadar nakde çevrilemez.
+
+Microsoft Dynamics 365 for Operations aşağıdaki tabloda gösterildiği gibi hem Borç hesapları hem Alacak hesapları altında ileri tarih atılmış çekler için tam yönetim döngüsünü destekler.
 <table>
 <colgroup>
 <col width="50%" />
@@ -48,38 +51,40 @@ Microsoft Dynamics 365 işlemleri için tam yönetim döngüsü Alacak hesaplar�
 </tr>
 <tr class="even">
 <td>Kaydolun ve satıcının vadeli çekini nakledin.</td>
-<td>Bir satıcıya kestiğiniz ileri tarih atılmış çekin ayrıntılarını kaydedin. Ödemeyi deftere nakledildiğinde, satıcı yükümlülük tanınıyor, ancak banka hesabı değil henüz alacak. Bunun yerine, bu amaçla bir kliring hesabı kullanılır.</td>
+<td>Bir satıcıya kestiğiniz ileri tarih atılmış çekin ayrıntılarını kaydedin. Ödeme deftere nakledildiğinde, satıcı yükümlülüğü tanınmış, ancak banka hesabına alacak kaydedilmemiştir. Bunun yerine, bu amaçla bir kliring hesabı kullanılır.</td>
 </tr>
 <tr class="odd">
 <td>Bir müşteri için vadeli çeki kayıt edin ve nakledin</td>
-<td>Bir müşteriden alınan ileri tarih atılmış bir çekin ayrıntılarını kaydedin. Ödemeyi deftere nakledildiğinde alacak müşterinin kredi olmakla birlikte, banka hesabı değil henüz borç. Bunun yerine, bu amaçla bir kliring hesabı kullanılır.</td>
+<td>Bir müşteriden alınan ileri tarih atılmış bir çekin ayrıntılarını kaydedin. Ödeme deftere nakledildiğinde, müşteri alacaklandırılmış, ancak banka hesabına borç kaydedilmemiştir. Bunun yerine, bu amaçla bir kliring hesabı kullanılır.</td>
 </tr>
 <tr class="even">
-<td>Kaydetmek ve deftere naklet onay bir müşteri veya satıcı için bir değiştirme ileri tarih atılmış</td>
+<td>Bir müşteri veya satıcı için ileri tarih atılmış bir yedek çeki kaydedip deftere nakletme</td>
 <td>
 Bir satıcıya verdiğiniz veya bir müşteriden aldığınız orijinal çek kaybolur veya hasar görürse, ileri tarih atılmış bir yedek çek yazabilirsiniz. Çek ayrıntılarını kaydederken, orijinal çeke bir referans girin ve yeni çekin o orijinalin yedeği olduğunu belirtin. Yedek çeki de deftere nakledebilirsiniz.</td>
 </tr>
 <tr class="odd">
-<td>Bir satıcıya müşteri ileri tarih atılmış onay aktarmak</td>
+<td>İleri tarih atılmış bir müşteri çekini bir satıcıya transfer etme</td>
 <td>Bir müşteriden ileri tarih atılmış bir çek aldığınızda, bu çeki bir satıcıya ödeme olarak transfer edebilirsiniz.</td>
 </tr>
 <tr class="even">
-<td>Bir müşteri veya satıcı için postdated onay kapatma</td>
+<td>Bir müşteri veya satıcı için, ileri tarih atılmış bir çeki kapatma</td>
 <td>İleri tarih atılmış bir çekin tarihi geldiğinde müşteri veya satıcı için bir bağlantı hesabına nakledilen çeki kapatın. Çek kapatılınca, daha önce kullanılan kliring hesabına karşı bankaya borç veya alacak yazılır.</td>
 </tr>
 <tr class="odd">
-<td>Bir satıcı için postdated onay iptal et</td>
-<td>Bu gibi durumlarda postdated nakledilen onay iptal edebilirsiniz:-Çek Banka tarafından döndürülür.
--Çek yanlış fatura için uygulanır.
--Nakit ödeme onay karşı yapılır.
+<td>Bir satıcı için, ileri tarih atılmış çeki iptal etme</td>
+<td>Bu gibi durumlarda deftere nakledilen ileri tarhi atılmış bir çeki iptal edebilirsiniz: - Çek banka tarafından döndürülür.
+- Çek yanlış bir faturaya uygulanmıştır.
+- Çek karşılığında nakit ödeme yapılmıştır.
 </td>
 </tr>
 <tr class="even">
-<td>Ödeme için çek postdated Durdur</td>
-<td>Yetersiz fon, satıcıyla anlaşma koşullarında değişiklik, satıcıdan tedarik edilen malların kusurlu olması veya satıcıya iade edilmesi gibi nedenlerle, satıcıya verilen, ileri tarih atılmış bir çekin ödemesini durdurabilirsiniz. Sadece temizlenmiş henüz çeklerdeki Dur ödeme kullanabilirsiniz.</td>
+<td>İleri tarih atılmış bir çekin ödemesini durdurma</td>
+<td>Yetersiz fon, satıcıyla anlaşma koşullarında değişiklik, satıcıdan tedarik edilen malların kusurlu olması veya satıcıya iade edilmesi gibi nedenlerle, satıcıya verilen, ileri tarih atılmış bir çekin ödemesini durdurabilirsiniz. Yalnızca takasa girmemiş çeklerin ödemesini durdurabilirsiniz.</td>
 </tr>
 </tbody>
 </table>
+
+
 
 
 

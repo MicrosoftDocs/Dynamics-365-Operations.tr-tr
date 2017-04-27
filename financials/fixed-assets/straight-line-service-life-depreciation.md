@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="straight-line-service-life-depreciation"></a>Sabit servis ömrü amortismanı
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede amortismanın Düz çigi hizmet ömrü yöntemine genel bir bakış sunulmuştur.
 
 Bir sabit kıymet amortisman profili ayarladığınızda ve Amortisman profilleri sayfasında Yöntem alanında Sabit servis ömrü öğesini seçtiğinizde bu amortisman profilinin atanmış olduğu kıymetlerin amortismanı kıymetin toplam servis ömrüne dayalı olarak hesaplanır. Bu, genellikle her amortisman dönemindeki aynı amortisman tutarı olur. 
@@ -57,7 +60,7 @@ Takvim seçimini yaparsanız, amortisman artışı nakil tarihleri ve takvim yı
 
 Amortisman yılı alanında Mali yıl seçimini yaparsanız, sabit servis ömrü amortismanı kullanılır. Defterin mali takvimine ya da Genel muhasebe sayfasında seçilen mali takvime göre tanımlanan mali yıl temel alınarak hesaplanır. Mali takvimler, Mali takvimler sayfasında ayarlanır.
 
-Örneğin, 30 Haziran-1 Temmuz mali yıl için amortisman hesaplaması 1 Temmuz tarihinde başlar. Mali yıl 12 aydan daha uzun veya daha kısa olabilir. Amortisman her mali dönem için otomatik olarak ayarlanır. Bir sonraki mali yılın uzunluğu, Mali takvimler formunda yeni bir mali yıl oluşturduğunuzda belirlenen mali dönemlere dayalı olacaktır. 
+Örneğin, 1 Temmuz ile 30 Haziran arasındaki mali yıl için amortisman hesaplaması 1 Temmuz'da başlar. Mali yıl 12 aydan daha uzun veya daha kısa olabilir. Amortisman her mali dönem için otomatik olarak ayarlanır. Bir sonraki mali yılın uzunluğu, Mali takvimler formunda yeni bir mali yıl oluşturduğunuzda belirlenen mali dönemlere dayalı olacaktır. 
 
 Mali yıl seçimini yaparsanız Dönem sıklığı alanında şu seçenekler kullanılabilir:
 -   Yıllık, mali yıl için hesaplanan toplam amortisman tutarını tek tutar olarak, mali yılın son gününde nakleder.
@@ -100,7 +103,9 @@ Alım düzeltmesinin servis ömrü, sabit kıymetinkiyle aynıdır ve alım anı
 | Yıl 5 | 14.000 / 5 = 2.800                        | 4.600 - 2.800 = 1.800                 |
 | Yıl 6 | Kalan 800\*                           | 1.800 – 800 = 1.000                   |
 
-\*Kalan Tutar amortisman miktarından daha az olduğundan, yalnızca kalan miktar eksi hurda değeri alınır.
+\*Kalan tutar amortisman miktarından az olduğundan, yalnızca kalan tutar eksi hurda değeri alınmıştır.
+
+
 
 
 

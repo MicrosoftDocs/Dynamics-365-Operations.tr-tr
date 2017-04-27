@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Konsolidasyon şirketinde para birimi yeniden değerleme
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Verileri bir hesap para biriminden öbürüne birleştirdiğinizde, para biriminde değişiklik varsa para birimi yeniden değerlendirmesini hâlâ çalıştırmanız gerekir, böylece hesap bakileri doğru yeniden değerlendirilir. Özgün verileri birleştirdiğinizde, **para birimi çeviri** sekmesini kullanarak ilk birleştirme işlemi sırasında döviz kurları çevirmek için seçin. Yeni bir döviz kuru (örneğin, gelecek ay içinde) girildikten sonra hesap bakiyelerini yeniden değerlemek gerekir. Gerçekleşmemiş Kazançlar veya zararlar sonra buna göre yeni döviz kuru ve tarihe göre güncelleştirilir. Aşağıdaki örnek işlem sırasında oluşturulan hesap girişlerini gösterir.
@@ -33,7 +36,7 @@ Verileri bir hesap para biriminden öbürüne birleştirdiğinizde, para birimin
 ## <a name="company-setup"></a>Şirket ayarı
 -   **Kaynak ve işletim şirketi (USMF)** – ABD doları (USD), muhasebe ve raporlama para birimi kullanılır.
 -   **Konsolide şirket (CON)** – muhasebe ve raporlama para birimi Euro (EUR) kullanılır.
-    -   ** Gerçekleşmiş Kazanç ** – genel muhasebe hesabı 801500
+    -   **Gerçekleşmiş kazanç**– Genel muhasebe hesabı 801500
     -   **Gerçekleşmiş kayıp **– genel muhasebe hesabı 801600
     -   **Gerçekleşmemiş Kazanç **– genel muhasebe hesabı 801600
     -   **Gerçekleşmemiş kayıp **– genel muhasebe hesabı 801400
@@ -82,6 +85,8 @@ Raporlama para birimi tutarları için Diğer hareketleri görürsünüz.
 | 130100         | Euro      | -500.00 | Orijinal tutar -500 × 1                          |
 | 801400         | Euro      | 250     | 500 – 333.33 = 166.67 166.67 + 83.33 = 250           |
 | 801600         | Euro      | -250    | -500 – (-333.33) = -166.67 -166.67 + (-83.33) = -250 |
+
+
 
 
 

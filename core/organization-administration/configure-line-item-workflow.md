@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-a-line-item-workflow"></a>Satır maddesi iş akışı yapılandırma
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu konu, bir satır maddesi iş akışı öğesinin nasıl yapılandırılacağını açıklar.
 
 Satır maddesi iş akışı öğesi yapılandırmak için öğeye sağ tıklayın ve ardından **Özellikler** sayfasını açmak için **Özellikler**'e tıklayın. Ardından satır maddesi iş akışı öğesinin özelliklerini yapılandırmak için aşağıdaki yordamları kullanın.
 
-## <a name="name-the-lineitem-workflow-element"></a>Lineitem iş akışı öğesinin adı
+## <a name="name-the-lineitem-workflow-element"></a>Satır maddesi iş akışı öğesini adlandırın
 Satır maddesi iş akışı öğesi için bir ad girmek için bu adımları izleyin.
 
 1.  Sol bölmede **Temel Ayarlar**'a tıklayın.
@@ -50,6 +53,8 @@ Aynı iş akışının bir belgedeki tüm satır maddelerini işlemek için kull
     6.  Girdiğiniz koşul kümesinin doğru biçimde yapılandırıldığını doğrulamak için, **Sına**'ya tıklayın. **Sınama iş akışı koşulu** sayfasında, **Koşulu doğrula** alanında, bir kayıt seçin ve ardından **Sına**'ya tıklayın. Sistem, belirtmiş olduğunuz koşullarını yerine getirip getirmediğini belirlemek için kaydı değerlendirir. **Özellikler** sayfasında geri dönmek için **OK** ya da **İptal Et**'e tıklayın.
 
     **İş akışı** sekmesinde tanımladığınız koşul kümesini karşılayan satır maddelerini işlemek için kullanılacak iş akışını seçin.
+
+
 
 
 

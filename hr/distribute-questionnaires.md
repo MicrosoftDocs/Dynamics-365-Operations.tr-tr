@@ -1,6 +1,6 @@
 ---
 title: "Bir anketi dağıtın ve tamamlayın."
-description: "Bu konu açıklar nasıl kişi veya grup kişilerin bunları tamamlamak için kullanılabilir olduklarından emin, tasarım, soru formu dağıtmak."
+description: "Bu konu, tasarladığınız anketlerin onları tamamlayacak kişi veya kişi grubu için kullanılabilir olması için onları nasıl dağıtacağınızı açıklar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Bir anketi dağıtın ve tamamlayın.
 
-Bu konu açıklar nasıl kişi veya grup kişilerin bunları tamamlamak için kullanılabilir olduklarından emin, tasarım, soru formu dağıtmak. 
+Bu konu, tasarladığınız anketlerin onları tamamlayacak kişi veya kişi grubu için kullanılabilir olması için onları nasıl dağıtacağınızı açıklar. 
 
 Bir anketi dağıtmanın birden çok yolu vardır:
 
@@ -38,7 +38,7 @@ Bir anketi dağıtmanın birden çok yolu vardır:
 -   Bir planlama oluşturun. Anket daha sonra birden çok kişi tarafından kullanılabilir.
 
 ## <a name="marking-a-questionnaire-as-active"></a>Anketi aktif olarak işaretlemek.
-Ayarlayarak **etkin** alanı **Evet** üzerinde **soru** sayfasında kullanılabilir duruma getirdiğiniz soru formunu tamamlamak tüm çalışanlar için. Yanıt verenlerin anketi birden çok kez tamamlayabilirsiniz. Bu işlev, yıl boyunca sürekli geribildirim toplamak istiyorsanız yararlıdır. Örneğin, çalışanların kafeteryadaki öğle yemeği hizmeti hakkında geribildirim vermek için kullanacağı bir anket yapabilirsiniz.
+**Soru formları** sayfasındaki **Etkin** alanı **Evet** olarak ayarlayarak, soru formlarını tüm personelin tamamlamaları üzere kullanılabilir hale getirirsiniz. Yanıtlayanlar, soru formunu birden çok kez tamamlayabilirler. Bu işlev, yıl boyunca sürekli geribildirim toplamak istiyorsanız yararlıdır. Örneğin, çalışanların kafeteryadaki öğle yemeği hizmeti hakkında geribildirim vermek için kullanacağı bir anket yapabilirsiniz.
 
 ## <a name="questionnaire-groups"></a>Soru formu grupları
 Anket grupları ayarlayabilir ve ardından anketin dağıtılması gereken yanıtlayanları ekleyebilirsiniz. 
@@ -48,7 +48,7 @@ Aşağıdaki sayfalardan anket grupları oluşturabilirsiniz:
 -   **Anket grupları **– Yalnızca bir anket grubundaki bireyler seçili anketi tamamlayabilir. Örneğin, hedef kitleniz yüklenicilerse, bu yanıtlayanlara özel bir anket grubu oluşturursunuz.
 -   **Anket grubu üyeleri** – Anket gruplarına kişiler ekleyebilirsiniz.
 
-Üzerinde bir anket soru grubuna atamak için **soru** sayfasında,'ı **kullanıcı hakları**. Soru formu etkin olarak kaydedildikten sonra Anket grubunun üyeleri Soru formu tamamlayabilirsiniz. Bu işlev, bir soru formundaki bir kişi grubunu seçmek, onu daha büyük bir grup için Top önce test etmek istediğiniz veya bir soru çok özel bir izleyici kitlesine hedeflemek istediğiniz yararlı olur.
+Bir soru formu grubunu bir soru formuna eklemek için **Soru formları** sayfasında, **Kullanıcı hakları** üzerine tıklayın. Soru formu etkin olarak kaydedildikten sonra, soru formu grubunun üyeleri, soru formunu tamamlayabilirler. Bu işlev, bir soru formunu daha büyük bir gruba açmadan önce seçili kişiler grubunda denemek istiyorsanız veya bir soru formunu çok özel bir hedef kitleye hedeflemek istiyorsanız yararlıdır.
 
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Soru formu başına planlanan yanıt oturumu
 Planlı yanıt oturumları tasarladığınız ve yanıtlayanlarını seçtiğiniz anketlerdir. 
@@ -82,24 +82,24 @@ Bir naket planlaması için planlama türlerini **Anket planlamaları** sayfası
 
 Bir anket planlarken seçebileceğiniz yanıtlayanlar için ölçütleri girmek için referans türlerini kullanabilirsiniz. 
 
-**Referans türleri** sayfasını kullanarak bir anket için referans türleri ayarlayın. Her başvuru türü Microsoft Dynamics 365 işlemleri için bir tablosundaki karşılık gelir. Anket planlamaları oluşturduğunuzda, anketin ilişkilendirileceği bir dizi kayıt veya tek tek kayıtları belirtebilirsiniz. 
+**Referans türleri** sayfasını kullanarak bir anket için referans türleri ayarlayın. Her referans türü Microsoft Dynamics 365 for Operations'ta bir tabloya karşılık gelir. Anket planlamaları oluşturduğunuzda, anketin ilişkilendirileceği bir dizi kayıt veya tek tek kayıtları belirtebilirsiniz. 
 
 Örneğin, kurslar tablo seçerseniz, anketin hangi özel kurs için olacağına karar verebilirsiniz. Kurslar tablosu için bir referans belirlerken, **Kurslar** sayfasındaki bazı alanlar ve düğmeler kullanılabilir hale gelir.
 
 ### <a name="questionnaire-schedules"></a>Soru formu planlamaları
 
-Soru formu tabloları, başvuru türüne bağlı olarak bir kullanıcı grubu için birden fazla planlı yanıt oturumları oluşturmak için kullanabilirsiniz. Zamanlama oluşturmak **soru formu tabloları** sayfa. Zamanlamayı kategorize etmek için planlama türünü seçin ve ayrıca belirli kullanıcılar için sistem sorgulamak için kullanılması gereken başvuru tipi seçin. Kurslar tabloya başvuru tipi ayarlarsanız, örneğin, belirli bir kursa seçebilirsiniz **başvuru** alan. 
+Soru formu tablolarını, bir kullanıcı grubu için bir referans türüne dayalı olarak çoklu planlı yanıt oturumları oluşturmak için kullanabilirsiniz. **Soru formu tabloları** sayfasında zamanlamayı oluşturmak. Zamanlamayı kategorize etmek için planlama türünü ve sistemi, belirli kullanıcılar için sorgulamak üzere referans türünü seçin. Örneğin, referans türünü Kurslar tablosu olarak ayarlarsanız, **Referans** alanında belirli bir kursu seçebilirsiniz. 
 
-Anketi ve diğer ölçütleri seçmek için**Kurulum ayrıntıları** seçeneğini tıklatın. Örneğin, anket Eğitmen değerlendirilmesi ise Eğitmen adının bir ölçüt olarak belirtin. Kurulum Ayrıntıları girerek bitirdikten sonra sistem sorguda bulunan kullanıcılar için planlı yanıt oturumları oluşturur. 
+Anketi ve diğer ölçütleri seçmek için**Kurulum ayrıntıları** seçeneğini tıklatın. Örneğin, soru formu bir eğitmenin değerlendirmesiyse, eğitmenin adını bir kriter olarak belirleyin. Kurulum ayarlarını girmeyi bitirdikten sonra, sistem planlanmış yanıtlama oturumlarını, bu sorguya dahil edilmiş kullanıcılar için oluşturur. 
 
 Bir zamanlama için yanıt oturumlarını görüntülemek için **Planlı yanıt oturumları** seçeneğini tıklatın. Ardından ek planlı yanıt oturumlarını el ile oluşturabilir veya yanıtlanmamış olan planlı yanıt oturumlarını silebilirsiniz. 
 
-' I **işlevler**&gt;**Başlat** soru kullanılabilir kullanıcılar ilgili planlı yanıt oturumları sağlamak için. Anketin tamamlanmış yanıtlarını görüntülemek için **Yanıtlar** seçeneğini tıklatın. İsteğe bağlı olarak, anket zamanlama ayarlarını, Planlı yanıt oturumlarını ve yeni bir anket zamanlama yanıtlarını kopyalayabilirsiniz.
+Anketi ilgili planlı yanıt oturumlarındaki kullanıcılar için kullanılabilir hale getirmek için **İşlevler** &gt; **Başlat** seçeneğini tıklatın. Anketin tamamlanmış yanıtlarını görüntülemek için **Yanıtlar** seçeneğini tıklatın. İsteğe bağlı olarak, anket zamanlama ayarlarını, Planlı yanıt oturumlarını ve yeni bir anket zamanlama yanıtlarını kopyalayabilirsiniz.
 
 ## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Yanıtlayanları onlar için kullanılabilir olan anketler hakkında bilgilendirin
 Bir anketi dağıttığınızda, yanıtlayanları anketlerin onlar için kullanılabilir olduğu hakkında bilgilendirmelisiniz. 
 
-**Not:** katılımcıların kullanıcıları Microsoft Dynamics 365 işlemlerinde bir soru formunu tamamlamak olması gerekir.
+**Not:** Yanıtlayanların bir anketi tamamlaması için Microsoft Dynamics 365 for Operations'taki kullanıcılar olması gerekir.
 
 ### <a name="notifying-respondents-about-a-planned-answer-session"></a>Yanıtlayanları planlı bir yanıt oturumu hakkında bilgilendirin
 
@@ -107,7 +107,7 @@ Planlı bir yanıt oturumu kullanıyorsanız, kişiyi telefon ya da e-postayla d
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Yanıtlayanları bir planlama hakkında bilgilendirin
 
-Bir ankete atanmış olan tüm yanıtlayanlara bir e-posta hazırlamak ve göndermek için **Anket planlamaları** sayfasını kullanın. E-postayı **Çalışan self-servis için e-posta** sekmesinde girin. Zamanlamayı başlatıldıktan sonra'ı **işlevler**&gt;**e-posta Gönder** oluşturmak ve katılımcılara e-posta göndermek için. Katılımcıların daha sonra Web sitesine oturum açmak ve soru formunu tamamlamak. 
+Bir ankete atanmış olan tüm yanıtlayanlara bir e-posta hazırlamak ve göndermek için **Anket planlamaları** sayfasını kullanın. E-postayı **Çalışan self-servis için e-posta** sekmesinde girin. Zamanlama başladıktan sonra yanıt verenlere e-postalar oluşturmak ve göndermek için **İşlevler** &gt; **E-posta gönder** üzerine tıklayın. Yanıtlayanlar web sitesinde oturum açarak soru formunu doldurabilirler. 
 
 **Not:** E-posta işlevlerini kullanmadan önce BT yöneticiniz e-posta ayarlarını **E-posta parametreleri** sayfasında girmelidir.
 
@@ -119,7 +119,7 @@ Tüm yanıtlayan kişiler kendilerine atanmış soru oturumlarını tamamladıkt
 ## <a name="completing-questionnaires"></a>Soru formlarını tamamlama
 Bir anketi tasarladıktan ve dağıttıktan sonra, anket seçili yanıtlayanlar tarafından tamamlanabilir. İki yerleşimden kullanabileceğiniz soru formlarını tamamlayabilirsiniz:
 
--   Gezinti Bölmesi'nde,'ı **soru**&gt;**Dağıt**&gt;**bir soru formunu tamamlamak**.
+-   Gezinti bölmesinde **Anketler** &gt; **Dağıt** &gt; **Bir anketi tamamlamak** seçeneğini tıklatın.
 -   Çalışan Self-Servisinde **Tamamlanacak anketler** seçeneğini tıklatın.
 
 Anketler belirli kullanıcılar veya kullanıcı grupları ya da bir ağdaki tüm kullanıcılar için kullanıma sunulabilir.
@@ -131,6 +131,6 @@ Anketler belirli kullanıcılar veya kullanıcı grupları ya da bir ağdaki tü
 
 [Soru formlarını kullanma](questionnaires.md)
 
-[Soru formlarının sonuçlarını değerlendirmek ve görüntüleme](evaluate-questionnaire-results.md)
+[Soru formlarının sonuçlarını görüntüleyin ve değerlendirin](evaluate-questionnaire-results.md)
 
 

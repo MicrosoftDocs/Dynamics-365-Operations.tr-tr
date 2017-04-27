@@ -30,7 +30,7 @@ ms.lasthandoff: 03/29/2017
 
 Bu makalede rapor tanımları hakkında bilgi verilmektedir. Bir rapor tanımı bir rapor oluşturmak üzere bir satır tanımı, bir sütun tanımı ve bir opsiyonel raporlama ağacı tanımı kullanan bir rapor bileşenidir (veya yapı taşıdır). Bir rapor tanımı ayrıca bir raporu özelleştirmek için kullanılan seçenek ve ayarlar sunar. 
 
-Bir rapor tanımı bir rapor oluşturmak üzere bir satır tanımı, bir sütun tanımı ve bir opsiyonel raporlama ağacı tanımı kullanan bir rapor bileşenidir (veya yapı taşıdır). Rapor tanımı, seçenekleri ve bir raporunu özelleştirmek için kullanabileceğiniz ayarlar da sağlar. Satır tanımlarını ve sütun tanımları tanımladıktan sonra rapor tanımında birleştirmeniz gerekir. Bu noktada, ayrıntı düzeyi ve rapor tarihi gibi diğer tanım yönlerini de tanımlarsınız. Ardından kaydedebilir ve rapor oluşturabilirsiniz. Mali raporlama aşağıdaki ayrıntı düzeylerini sunar:
+Bir rapor tanımı bir rapor oluşturmak üzere bir satır tanımı, bir sütun tanımı ve bir opsiyonel raporlama ağacı tanımı kullanan bir rapor bileşenidir (veya yapı taşıdır). Bir rapor tanımı, ayrıca raporun özelleştirilmesi için kullanabileceğiniz ilave seçenekler ve ayarlar da sağlar. Satır tanımlarını ve sütun tanımları tanımladıktan sonra rapor tanımında birleştirmeniz gerekir. Bu noktada, ayrıntı düzeyi ve rapor tarihi gibi diğer tanım yönlerini de tanımlarsınız. Ardından kaydedebilir ve rapor oluşturabilirsiniz. Mali raporlama aşağıdaki ayrıntı düzeylerini sunar:
 
 -   Mali
 -   Finans ve Hesap
@@ -89,6 +89,6 @@ Aşağıdaki tablo, rapor tanımı sekmeleirni ve bilgilerin nasıl kullanıldı
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Finansal raporlama için Microsoft Dynamics 365 işlemleri için](financial-reporting-intro.md)
+[Microsoft Dynamics 365 for Operations için mali raporlama](financial-reporting-intro.md)
 
 

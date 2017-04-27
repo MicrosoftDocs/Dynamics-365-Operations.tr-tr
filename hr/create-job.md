@@ -1,6 +1,6 @@
 ---
-title: "Bir iş bileşenlerini kurma"
-description: "Bu konuda bir proje içerebilir ve bu öğeleri, kuruluşunuzda nasıl kullanabileceğinizi örnekler sağlayan kavramsal öğeleri açıklar."
+title: "Bir işin bileşenlerini ayarlamak"
+description: "Bu konu, bir işin içerebileceği konsept öğelerini açıklar ve bu öğeleri kuruluşunuzda nasıl kullanabileceğiniz hakkında örnekler sağlar."
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,38 +25,41 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="setting-up-the-components-of-a-job"></a>Bir iş bileşenlerini kurma
+# <a name="setting-up-the-components-of-a-job"></a>Bir işin bileşenlerini ayarlamak
 
-Bu konuda bir proje içerebilir ve bu öğeleri, kuruluşunuzda nasıl kullanabileceğinizi örnekler sağlayan kavramsal öğeleri açıklar. 
+[!include[banner](includes/banner.md)]
 
-İşleri oluşturmadan önce bazı başvuru bilgileri ayarlamanız gerekir. Yalnızca bir ada sahip bir proje oluşturabilirsiniz. Ancak, bir Unvan gibi ek bilgileri dahil olmak üzere, varsayılan değerler için projeye atanan pozisyonların sağlar. Ayrıca, bazı girdiğiniz bilgilerin belirli projelere maaş planları filtrelemek için kullanılabilir. Maaş planları belirli bir projeye filtre uygulamak için kullanabileceğiniz uygunluk ayarlamak istiyorsanız, işler ayarlamak önce bir iş işlevlerini ve proje türleri ayarlamanız. Bu varsayılan değerler kullanılabilir sağlayarak, pozisyonları projeye eklediğiniz zaman zaman kazandırır. 
 
-İş Unvanı, türü ve işlev, gibi bazı iş ayrıntıları etkin tarih. Bugün bir iş oluşturmak, ancak daha sonra bu ayrıntıları ekleme ve sonra işin oluşturulma tarihi itibariyle gözden geçirmeniz, bu ayrıntıları görüntülenmez. Bu nedenle, önce onu gerektiren bazı bu başvuru bilgileri oluşturmanız gerekir. Bu yolla oluşturduğunuzda, yeni işler için bilgi ekleyebilirsiniz.
+Bu konu, bir işin içerebileceği konsept öğelerini açıklar ve bu öğeleri kuruluşunuzda nasıl kullanabileceğiniz hakkında örnekler sağlar. 
 
-## <a name="job-titles"></a>İş unvanları
-İşleri oluşturmadan önce bu işler için başlıkları ayarlamanız gerekir. Pozisyonların iş unvanları pozisyonları ile ilişkili işleri devralması. 
+Yeni işler oluşturabilmeden önce, bazı referans bilgileri ayarlamalısınız. Sadece bir isme sahip bir iş oluşturabilirsiniz. Ancak, örneğin bir iş unvanı gibi ek bilgiler ekleyerek, işe atanmış olan konumlara varsayılan değerler sağlarsınız. Ek olarak, girdiğiniz bazı bilgiler maaş planlarını belirli işlere filtrelemek için kullanılabilir. Maaş planlarını belirli bir işe filtrelemek için uygunluk ayarlamak istiyorsanız, iş işlevleri ve iş görevlerini, işleri ayarlamadan önce ayarlamalısınız. Bu varsayılan değerleri mevcut bulundurarak, işe konumlar eklerken zaman kazanırsınız. 
 
-İş unvanları kullanarak korumak **başlıkları** sayfası, arama işlevini kullanarak açabilirsiniz. Üzerinde ** başlıkları ** sayfasında, işleriniz için kullanmayı planladığınız bir başlık girin.
+Bazı iş ayrıntıları, örneğin iş unvanı, türü ve işlevi, yürürlük tarihine sahiptir. Bugün bir iş oluşturursanız ancak bunları daha sonra bu ayrıntıları eklemezseniz ve daha sonra işe oluşturulma tarihinde bakarsanız, bu ayrıntılar görüntülenmez. Bu nedenle, bu başvuru bilgilerinin bazılarını, ihtiyaç duymadan oluşturmanız gerekir. Bu sayede, yeni işlere bilgileri, onları oluştururken ekleyebilirsiniz.
+
+## <a name="job-titles"></a>İş başlıkları
+İşler oluşturmadan önce, bu işler için unvanlar ayarlamanız gerekir. Pozisyonlar, iş unvanlarını, pozisyonların ilişkili olduğu işlerden devralır. 
+
+Arama özelliğini kullanarak açabileceğiniz **Unvanlar** sayfasını kullanarak iş unvanlarını korumak. **Unvanlar **sayfasında, işlerinizde kullanmayı planladığınız unvanları girin.
 
 ## <a name="job-types"></a>İş tipleri
-İş türleri, benzer işleri kategorilerde gruplandırmak için kullanın. İş türleri, gerekli değildir. Ancak, maaş yönetimi için uygunluk kuralları oluşturduğunuzda iş tiplerini kullanmayı planlıyorsanız, işler ayarlamak için önce iş tiplerini ayarlamanız gerekir. Tam zamanlı ve yarı zamanlı iş tiplerinin bazı örnekler veya maaş ve saatlik ödemesi. İş tiplerini kullanarak korumak **proje türleri** sayfa. Üzerinde **proje türleri** sayfasında, ad ve iş tipi için kısa bir açıklama girin. İçinde **muaf durumu** alanında, bu iş türü içeren işlerin adil işçi standartları Yasası (FLSA) muafiyet durumu belirtmek için aşağıdaki seçeneklerden birini seçin:
+Benzer işleri kategorilere gruplamak için iş türlerini kullanın. İş türleri, zorunlu değildir. Ancak, maaş yönetimi için uygunluk kuralları oluşturduğunuzda iş türlerini kullanmayı planlıyorsanız, işleri ayarlamadan önce iş tiplerini ayarlamalısınız. İş türlerine bazı örnekler tam zamanlı ve yarı zamanlı veya maaşlı ve saatlik ödemelidir. **İş türleri** sayfasını kullanarak iş türlerini yönetirsiniz. **İş türleri** sayfası üzerinde, iş türü için kısa bir açıklama ve ad girin. **Muaf durumu** alanında, Adil İş Standartları Yasası (FLSA) muafiyet durumunu, şu iş durumuna sahip işler için belirtmek üzere aşağıdaki seçeneklerden birini işaretleyin:
 
--   **Muafiyet** – işleri FLSA altında fazla mesai dışında.
--   **Muafiyet dışı** – işleri FLSA altında fazla mesai dışında değildir.
--   **Geçerli değildir** – FLSA kapsamı geçerli değildir.
+-   **Muafiyet** – İşler, FLSA kapsamı altında fazla mesai dışında tutulurlar.
+-   **Muaf olmayan** – İşler, FLSA kapsamı altında fazla mesai dışında tutulmaz.
+-   **Geçerli değildir** – FLSA kapsamı için geçerli değildir.
 
 ## <a name="job-functions"></a>İş işlevleri
-İşi kavşakları üst düzey işlev kategorileri açıklar ve üst düzey görevleri ilişkilendirebilirsiniz. İş işlevlerini gerekli değildir. İşi İşlevler, iş türleri, maaş planları belirli projeler için filtre uygulamak için kullanabilirsiniz. Görev ve proje türleri ile maaş planları üzerinde uygunluğu kurallar ayarlayarak ilişkilendirmenize **uygunluk kuralları** sayfa. Sonra iş türü ve bir Uygunluk kuralı ile tanımladığınız iş işlevi belirli birleşimi için geçerli bir tazminat planı çevreleyen düzeyler kümesi ekleyebilirsiniz. (Bu özellikler sabit maaş planları ve değişken maaş planları için geçerlidir.) Ancak, maaş yönetimi için uygunluk kuralları oluşturduğunuzda iş işlevlerini kullanmayı planlıyorsanız, işler ayarlamak için önce iş işlevlerini ayarlamanız gerekir. Aşağıdaki tabloda bazı örnekler iş işlevlerini gösterir.
+İş işlevleri, yüksek seviye işlevsellik kategorileri açıklar ve yüksek düzey görevleri ilişkilendirir. İş işlevleri, zorunlu değildir. Tazminat planlarını belirli işlere göre filtrelemek için iş işlevlerini iş tipleriyle birlikte kullanabilirsiniz. **Uygunluk kuralları** sayfasında uygunluk kuralları oluşturarak iş işlevlerini ve iş türlerini, maaş planları ile ilişkilendirebilirsiniz. Bir uygunluk kuralı aracılığıyla tanımlamış olduğunuz belirli bir iş türü ve iş işlevine uygulanacak bir diz seviyeyi bir ücret planına iliştirebilirsiniz. (Bu özellikler hem sabit maaş planları hem de değişken maaş planları için geçerlidir.) Ancak, maaş yönetimi için uygunluk kuralları oluşturduğunuzda iş işlevlerini kullanmayı planlıyorsanız, işleri ayarlamadan önce iş işlevlerini ayarlamalısınız. Aşağıdaki tablo iş işlevlerine bazı örnekleri gösterir.
 
 | İş           | İş işlevi         |
 |---------------|----------------------|
-| Satış yöneticisi | Orta düzey yönetici    |
-| Muhasebeci    | Uzmanları        |
+| Satış yöneticisi | Orta düzey Yönetici    |
+| Muhasebeci    | Profesyoneller        |
 
-İş işlevlerini kullanarak korumak **iş işlevleri** sayfa. Üzerinde **iş işlevleri** sayfasında, bir kimlik kodu ve iş işlevine ilişkin kısa bir açıklama girin.
+İş işlevlerini, **İş işlevleri** sayfasını kullanarak yönetirsiniz. **İş işlevleri** sayfası üzerinde, bir kimlik saptama kodu ve iş işlevi için kısa bir açıklama girersiniz.
 
 ## <a name="job-tasks"></a>İş görevleri
-Proje görevleri bir iş için bir pozisyonda olan işçi tamamlaması gereken temel görevler açıklanmıştır. Aynı proje görevi birden fazla işi ve bu proje görevleri kullanın işleri pozisyonlar için eklenebilir. Aşağıdaki tabloda bazı örnekler proje görevleri gösterir.
+İş görevleri, bir iş için bir konumda olan bir çalışanın tamamlaması gereken temel görevleri açıklar. Aynı iş görevi, birden fazla işe ve bu iş görevlerini kullanan iş pozisyonlarına eklenebilir. Aşağıdaki tablo iş görevlerinin bazı örneklerini gösterir.
 
 <table>
 <thead>
@@ -69,20 +72,22 @@ Proje görevleri bir iş için bir pozisyonda olan işçi tamamlaması gereken t
 <tr class="odd">
 <td>Satış yöneticisi</td>
 <td><ul>
-<li><strong>Yapılarındaki İnceleme</strong> – her satış temsilcisinin iş performansı gözden geçirin.</li>
-<li><strong>Abs İnceleme</strong> – onaylama veya reddetme her satış temsilcisinin devamsızlık istekleri veya kayıtları.</li>
+<li><strong>Perf-review</strong> – Her bir satış personelinin performansını gözden geçirin.</li>
+<li><strong>Abs-review</strong> – Her bir satış personelinin devamsızlık taleplerini veya kayıtlarını onaylayın veya reddedin.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Muhasebeci</td>
-<td><strong>FIN rapor</strong> – Finans Müdürü haftalık finansal raporlar sunmak.</td>
+<td><strong>FIN-Report</strong> – Finans müdürüne haftalık mali raporlar sunun.</td>
 </tr>
 </tbody>
 </table>
 
-Proje görevleri kullanarak korumak **proje görevleri** sayfa. Üzerinde **proje görevleri** sayfasında, ad ve proje görevi için açıklama girin. İçinde **Not** alan, ek bilgi isteğe bağlı olarak girebilirsiniz. Not belirli bir proje için buraya girdiğiniz notları değiştirmeden güncelleştirilebilir.
+**İş görevleri** sayfasını kullanarak iş görevlerini yönetirsiniz. **İş görevleri** sayfası üzerinde, iş görevi için kısa bir açıklama ve ad girin. İsteğe bağlı olarak **Not** alanında ek bilgiler girebilirsiniz. Belirli bir iş için notlar, burada girmiş olduğunuz notları değiştirmeden güncelleştirilebilir.
 
 ## <a name="areas-of-responsibility"></a>Sorumluluk alanları
-Sorumluluk alanları, iş rolleri, işlemler ve bir proje için bir konum olan işçi sorumlu olduğu ürünleri göstermek için kullanın. Örneğin, "Muhasebeci" adlı bir proje için bir sorumluluk alanı "mali raporlama için ürün A." olabilir Sorumluluk alanları kullanarak korumak **sorumluluk alanlarının** sayfası, arama işlevini kullanarak bulabilirsiniz. Üzerinde **sorumluluk alanlarının** sayfasında, ad ve Sorumluluk için açıklama girin. İçinde **Not** alan, ek bilgi isteğe bağlı olarak girebilirsiniz. Not belirli bir proje için buraya girdiğiniz notları değiştirmeden güncelleştirilebilir.
+Bir pozisyondaki çalışanın o iş için sorumlu olacağı iş rollerini, süreçleri ve ürünleri belirtmek üzere sorumluluk alanlarını kullanırsınız. Örneğin, "Muhasebeci" olarak adlandırılan bir iş için, sorumluluk alanlarından biri "Ürün A için mali raporlama" olabilir. Arama işlevi ile bulabileceğiniz **Sorumluluk alanları** sayfasını kullanarak sorumluluk alanlarını yönetirsiniz. **Sorumluluk alanları** sayfasında, sorumluluk için bir isim ve açıklama girin. İsteğe bağlı olarak **Not** alanında ek bilgiler girebilirsiniz. Belirli bir iş için notlar, burada girmiş olduğunuz notları değiştirmeden güncelleştirilebilir.
+
+
 
 

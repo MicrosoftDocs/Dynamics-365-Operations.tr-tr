@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-process-recurring-invoices"></a>Yinelenen faturalar oluşturma ve işleme
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, yinelenen faturaların nasıl ayarlanıp işleneceği açıklanmaktadır. Müşterilere düzenli olarak aynı tutar için fatura kesmeniz gerekiyorsa, yinelenen faturalar kullanabilirsiniz.
 
 <a name="create-a-recurring-free-text-invoice-template"></a>Bir yinelenen serbest metin faturası şablonu oluşturun
@@ -61,5 +64,7 @@ Yinelenen serbest metin faturalarını yazdırma
 ----------------------------------
 
 Yinelenen faturalar nakledildikten sonra serbest metin faturası listesi sayfasından faturaları yazdırabilirsiniz. Seçili faturaları yazdırabilirsiniz veya yazdırmak üzere bir seri fatura seçebilirsiniz.
+
+
 
 

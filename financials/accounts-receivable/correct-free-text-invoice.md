@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="correct-a-free-text-invoice"></a>Bir serbest metin faturasını düzeltmek
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, deftere nakledilmiş bir metin faturasının nasıl düzeltileceği ve düzeltilmiş fatura olarak yeniden nasıl yayınlanacağı açıklanmaktadır.
 
-Deftere nakledilmiş bir Dekont/Serbest metin faturasını düzeltmek için deftere nakledilen serbest metinli faturayı açın. Üzerinde **fatura** sayfa, seçme **iptal**ve sonra seçin **doğru fatura**. Bir neden kodu seçin, yorumlar ekleyin ve yeni düzeltilmiş fatura için tarih seçin. Düzeltilmiş faturayı değiştirebilir ve nakledebilirsiniz. 
+Deftere nakledilmiş bir Dekont/Serbest metin faturasını düzeltmek için deftere nakledilen serbest metinli faturayı açın. **Fatura** sayfası üzerinde, **İptal** seçeneğini tıklatın ve daha sonra **Doğru fatura**'yı seçin. Bir neden kodu seçin, yorumlar ekleyin ve yeni düzeltilmiş fatura için tarih seçin. Düzeltilmiş faturayı değiştirebilir ve nakledebilirsiniz. 
 
 Düzeltilmiş faturayı deftere naklettiğinizde, bir iptal etme faturası alacak tutarı için orijinal fatura tutarına eşit oluşturulur. Bu nedenle, orijinal fatura ve fatura iptal etmenin birleşik bakiyesi 0 (sıfır) olur. İptal etme faturası, orijinal faturaya karşı kapatılır. 
 
@@ -43,9 +46,11 @@ Düzeltilmiş Fatura'yı deftere naklettikten sonra üç faturanız olacaktır:
 İptal etme ve düzeltme faturalarını iki şekilde tanımlayabilirsiniz:
 
 -   **Tüm serbest metin faturaları** sayfası bir **Düzeltme** sütunu içerir, burada hangi faturaların iptal faturası ve düzeltme faturası olduğunu görebilirsiniz.
--   Dekont/Serbest metin faturası başlığında bir durumunu gösterir **Cancelling Fatura '\[fatura numarası\]'** veya **Corrected Fatura '\[fatura numarası\]'**.
+-   Dekont/Serbest metin faturası başlığı **İptal Faturası '\[fatura numarası]\]'** veya **Düzeltilmiş Fatura '\[fatura numarası\]'** durumunu gösterir.
 
 > [!NOTE]
-> Bu özelliği yalnızca **serbest metin faturası düzeltme** konfigürasyon anahtarı seçiliyse.
+> Bu özellik sadece **Serbest metin fatura düzeltmesi** konfigürasyon anahtarı seçiliyse kullanılabilir.
+
+
 
 

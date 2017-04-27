@@ -1,5 +1,5 @@
 ---
-title: "Çevirileri ürün ile ilgili sık sorulan sorular"
+title: "Ürünle ilgili çeviriler hakkında SSS"
 description: "Bu konuda, ürünler, ürün boyut değerleri ve ürün öznitelikleri için çevirilerin nasıl yönetileceğini açıklanır."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="product-related-translations-faq"></a>Çevirileri ürün ile ilgili sık sorulan sorular
+# <a name="product-related-translations-faq"></a>Ürünle ilgili çeviriler hakkında SSS
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu konuda, ürünler, ürün boyut değerleri ve ürün öznitelikleri için çevirilerin nasıl yönetileceğini açıklanır. 
 
@@ -43,32 +46,32 @@ Bu konuda, ürünler, ürün boyut değerleri ve ürün öznitelikleri için çe
 ## <a name="where-can-i-view-the-translated-information"></a>Çevrilmiş bilgileri nerede görüntüleyebilirim?
 Ürünle ilgili bilgilerin çevirilerini, fatura gibi çevirilerin kullanılabilir olduğu bir dili kullanan her türlü harici kaynak belgesinde görüntüleyebilirsiniz.
 
-## <a name="how-do-i-create-translations-for-productrelated-information"></a>Productrelated bilgi için çeviriler nasıl oluşturulur?
+## <a name="how-do-i-create-translations-for-productrelated-information"></a>Ürünle ilgili bilgilerin çevirilerini nasıl oluştururum?
 Ürün için çeviriler oluşturmak için şu adımları izleyin:
-1.  ' I **ürün bilgi yönetimi**&gt;**ortak**&gt;**ürünleri piyasaya**.
-2.  Bir ürün seçin ve eylem bölmesi içinde **dil** tıklatın, grup **çevirileri**.
-3.  **Metin çevirisi** sayfasında **Dil** alanında, bir dil seçin. Daha fazla dil eklemek için Genişlet **dil** alan ve'ı **Tamam**.
+1.  **Ürün bilgileri yönetimi** &gt; **Ortak** &gt; **Serbest bırakılan ürünler**'e tıklayın.
+2.  Ürün seçin ve Eylem Bölmesi'nde **Diller** grubunda **Çeviriler**'e tıklayın.
+3.  **Metin çevirisi** sayfasında **Dil** alanında, bir dil seçin. Daha fazla dil eklemek için **Dil** alanını genişletin ve **Tamam**'a tıklayın.
 4.  **Çevrilmiş metin** grubunda **Açıklama** ve **Ürün adı** alanlarında çevirileri girin.
 
 Ürün öznitelikleri için çeviriler oluşturmak üzere şu adımları izleyin:
-1.  ' I **ürün bilgi yönetimi**&gt;**ortak**&gt;**ürünleri piyasaya**.
+1.  **Ürün bilgileri yönetimi** &gt; **Ortak** &gt; **Serbest bırakılan ürünler**'e tıklayın.
 2.  **Kurulum** altında **Öznitelikler**'e ve ardından **Öznitelikler**'e tıklayın.
 3.  **Öznitelikler** sayfasında **Çevir**'e tıklayın.
-4.  **Metin çevirisi** sayfasında **Dil** alanında, bir dil seçin. Daha fazla dil eklemek için Genişlet **dil** alan ve'ı **Tamam**.
+4.  **Metin çevirisi** sayfasında **Dil** alanında, bir dil seçin. Daha fazla dil eklemek için **Dil** alanını genişletin ve **Tamam**'a tıklayın.
 5.  **Çevrilmiş metin** grubunda **Açıklama**, **Kolay ad** ve **Yardım metni** alanlarında çevirileri girin.
 
 Ürün boyutu değerleri için çeviriler oluşturmak üzere şu adımları izleyin:
-1.  ' I **ürün bilgi yönetimi**&gt;**ortak**&gt;**ürünleri piyasaya**.
+1.  **Ürün bilgileri yönetimi** &gt; **Ortak** &gt; **Serbest bırakılan ürünler**'e tıklayın.
 2.  Ürünü seçin ve ardından **Ürün boyutları**'na tıklayın.
 3.  Ürün boyutları için bağlantılardan birini seçin: **Yapılandırmalar**, **Boyutlar**, **Renkler** veya **Stil**.
 4.  Boyut değerini seçin ve ardından **Çevir**'e tıklayın.
-5.  **Metin çevirisi** sayfasında **Dil** alanında, bir dil seçin. Daha fazla dil eklemek için Genişlet **dil** alan ve'ı **Tamam**.
-6.  İçinde **çevrilmiş metni** grup, çeviri girin **adı** ve **açıklama** alanlar.
+5.  **Metin çevirisi** sayfasında **Dil** alanında, bir dil seçin. Daha fazla dil eklemek için **Dil** alanını genişletin ve **Tamam**'a tıklayın.
+6.  **Çevrilmiş metin** grubunda **Ad** ve **Açıklama** alanlarına çevirileri girin.
 
 ## <a name="can-the-names-of-product-variants-be-translated"></a>Ürün çeşitlerinin adları çevrilebilir mi?
 Ürün çeşitleri, serbest bırakılan bir ürünün boyutlarına bağlıdır. Ürün çeşitleri adları boyut değerlerinin bir birleşimine bağlıdır. Ürün çeşidiyle ilişkilendirilen boyut değerleri çevrildiğinde, ürün çeşidinin adı çevrilmiş sürümde görünür.  
 
-**Example**  
+**Örnek**  
 
 Ürününüz farklı boyut ve renklerde bir Tişörttür ve çeşit adları aşağıdaki ayrıntılara bağlıdır:
 -   Ürün numarası: \#3
@@ -76,23 +79,23 @@ Bu konuda, ürünler, ürün boyut değerleri ve ürün öznitelikleri için çe
 -   Boyut değerleri: Küçük, Orta, Büyük
 -   Renk boyut değerleri: Kırmızı, Yeşil, Siyah
 
-Boyut üzerinde temel bir ürün değişken adını küçük değerler ve kırmızı **\#3:Small:Red**.  
+Ürün çeşidinin adı, boyut değerlerine bağlıdır. Küçük ve Kırmızı **\#3:Küçük:Kırmızı** şeklindedir.  
 
-Müşteri birkaç tane küçük, kırmızı tişört satın almak istiyorsa, Tişört adı fatura üzerinde Türkçe olarak görünmelidir. Boyut değerlerini, küçük ve kırmızı, Fransızcaya çevirebilir ve ürün değişken adı **\#3: Petit: Rouge**.
+Müşteri birkaç tane küçük, kırmızı tişört satın almak istiyorsa, Tişört adı fatura üzerinde Türkçe olarak görünmelidir. Boyut değerlerini (Küçük ve Kırmızı) Fransızca'ya çevirirseniz ürün çeşidinin adı **\#3:Petit:Rouge** olur.
 <table>
 <colgroup>
 <col width="100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Tip</strong></th>
+<th><strong>İpucu</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Müşterinin tercih ettiği dili ayarlamak için aşağıdaki adımları izleyin:
 <ol>  
-<li>' I <strong>satış ve pazarlama</strong>&gt;<strong>ortak</strong>&gt;<strong>müşteriler</strong>&gt;<strong>tüm</strong> <strong>müşteriler</strong>.</li>
+<li><strong>Satış ve pazarlama</strong> &gt; <strong>Ortak</strong> &gt; <strong>Müşteriler</strong> &gt; <strong>Tüm</strong>  <strong>müşteriler</strong>'e tıklayın.</li>
 <li><strong>Müşteriler</strong> sayfasını açmak için bir müşteriye çift tıklayın. <strong>Genel</strong> sekmesinde <strong>Dil</strong> alanında <strong>dili</strong> seçin.</li>
 </ol></td>
 </tr>
@@ -105,23 +108,25 @@ Müşteri birkaç tane küçük, kırmızı tişört satın almak istiyorsa, Ti�
 ## <a name="can-i-manage-translations-for-a-series-of-dimension-values-at-the-same-time"></a>Aynı anda bir dizi boyut değerinin çevirilerini yönetebilir miyim?
 Boyut değerleri ürüne özeldir ve her ürün için boyut değerleri çevirilerini yönetebilirsiniz. Ancak bir boyut değeri grubu ve değer grubundaki değerler için çeviriler oluşturursanız çevirileri yönetmek daha kolay olur.   
 
-**Example**  
+**Örnek**  
 
 Şirketiniz farklı stillerde Tişörtler üretir ve her stilin Küçük, Orta ve Büyük boyutları bulunur. Boyutlar, bir boyut değeri grubunda toplanır. Yeni bir Tişört stili eklendiğinde bu stili boyutlar için kullanılan boyut değeri grubuyla ilişkilendirebilirsiniz; böylece ürünün tüm boyutları kullanılabilir. Ayrıca istediğiniz zaman boyut değeri grubundaki boyutlar için çeviriler ekleyebilir veya çevirileri değiştirebilirsiniz.  
 
 Boyut çeşidi grubu aracılığıyla bir ürünle ilişkilendirilen boyut değeri ürün çeşidi grubunda saklanmalıdır.   
 Boyut değeri grubu oluşturmak için aşağıdaki adımları izleyin:
-1.  ' I **ürün bilgi yönetimi**&gt;**Kurulum**&gt;**değişken grupları**.
+1.  **Ürün bilgileri yönetimi** &gt; **Kurulum** &gt; **Çeşit grupları**'na tıklayın.
 2.  **Boyut** **grupları**, **Renk grupları** veya **Stil grupları**'nı seçin.
-3.  ' I **yeni**ve sonra grubu için bir ad girin **boyutu****grup**, **renk grubu**, veya **Stil grubu** alan. Gruplar için satırlar oluşturmak için **Boyutlar**, **Renkler** veya **Stiller**'e tıklayın.
-4.  İçinde **boyutu****grup** satırları **renk****grup****satırları**, veya **Stil grubu satırları** sayfa, tıklatın **yeni**ve boyutları, renkleri ve stilleri gruplar oluşturun.
+3.  **Yeni**'ye tıklayın ve ardından **Boyut** **grubu**, **Renk grubu** veya **Stil grubu** alanında grup için bir ad girin. Gruplar için satırlar oluşturmak için **Boyutlar**, **Renkler** veya **Stiller**'e tıklayın.
+4.  **Boyut** **grubu** satırları **Renk** **grubu** **satırları** veya **Stil grubu satırları** sayfasında **Yeni**'ye tıklayın ve ardından gruplar için boyutları, renkleri ve stilleri oluşturun.
 
 Boyut değeri grubundaki değerler için çevirileri yönetmek üzere aşağıdaki adımları izleyin:
 1.  **Ebat grubu satırları**, **Renk grubu satırları** veya **Stil grubu satırları** sayfasını açmak için bir boyut değeri grubu oluşturmak üzere önceki yordamdaki adımları izleyin.
-2.  **Metin çevirisi**'ne tıklayın. İçinde **metin çeviri** sayfa içinde **çevrilmiş metni** grup, çeviri girin **adı** ve **açıklama** alanlar.
+2.  **Metin çevirisi**'ne tıklayın. **Metin çevirisi** sayfasında, **Çevrilmiş metin** grubundaki **Ad** ve **Açıklama** alanlarına çevirileri girin.
 
-## <a name="when-can-translations-of-productrelated-information-be-managed"></a>Ne zaman productrelated bilgi çevirilerini yönetilebilir?
+## <a name="when-can-translations-of-productrelated-information-be-managed"></a>Ürünle ilgili bilgilerin çevirileri ne zaman yönetilebilir?
 Ürünle ilgili bilgilerin çevirileri her an yönetilebilir. Çeviriler bir ürünle ilişkilendirilmiş bir boyut değeri için güncelleştirildiğinde, ürünün hareketlere sahip olmasına bakılmaksızın ürün bilgileri güncelleştirilir.
+
+
 
 
 

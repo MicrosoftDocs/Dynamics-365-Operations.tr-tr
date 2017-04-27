@@ -1,6 +1,6 @@
 ---
-title: "Görev Kaydedicisi düzenleme özellikleri en son eklenen"
-description: "Görev kılavuzları oluşturmak için Görev Kaydedici kullanıyorsanız, daha fazla verimli bir şekilde bu wiki içinde tanımlanan işlevselliği kullanarak dosyalarınızı düzenleyebilirsiniz."
+title: "Görev kaydedicisine en son eklenen düzenleme özellikleri"
+description: "Görev kılavuzları oluşturmak için görev kaydedici kullanıyorsanız, bu wiki içinde tanımlanan işlevi kullanarak dosyalarınızı daha verimli bir şekilde düzenleyebilirsiniz."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,58 +25,58 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recently-added-editing-features-in-task-recorder"></a>Görev Kaydedicisi düzenleme özellikleri en son eklenen
+# <a name="recently-added-editing-features-in-task-recorder"></a>Görev kaydedicisine en son eklenen düzenleme özellikleri
 
-Görev kılavuzları oluşturmak için Görev Kaydedici kullanıyorsanız, daha fazla verimli bir şekilde bu wiki içinde tanımlanan işlevselliği kullanarak dosyalarınızı düzenleyebilirsiniz.
+Görev kılavuzları oluşturmak için görev kaydedici kullanıyorsanız, bu wiki içinde tanımlanan işlevi kullanarak dosyalarınızı daha verimli bir şekilde düzenleyebilirsiniz.
 
-Bu özellikler kullanılabilir **ayarları &gt;Görev Kaydedici &gt;düzenleme kayıt** menüsü.
+Bu özellikler **Ayarlar &gt; Görev Kaydedici &gt; Kaydı düzenle** menüsünde bulunur.
 
--   Dosyanın tamamını yeniden kaydetmeden adımlar ekle.
+-   Dosyanın tamamını tekrar kaydetmeden adımlar ekleyin.
 -   Bir alt görevin altındaki adımları dosyanın tamamını yeniden kaydetmeden taşıyın.
--   Kayıt adı ve Açıklama alanlarını daraltın.
+-   Kayıt adı ve açıklaması alanlarını daraltın.
 
-## <a name="insert-steps-without-rerecording-the-entire-file"></a>Dosyanın tamamını rerecording olmadan adımlar Ekle
-Artık bir adım herhangi bir görev Kılavuzu'nda kayıttan yürütme veya dosyanın tamamını yeniden kayıt ekleyebilir.
+## <a name="insert-steps-without-rerecording-the-entire-file"></a>Dosyanın tamamını tekrar kaydetmeden adımlar ekleme
+Artık görev kılavuzunda istediğiniz yere tüm dosyayı yeniden oynatmadan veya yeniden kaydetmeden bir adım ekleyebilirsiniz.
 
-1.  Eklenecek yeni adım sonra istediğiniz adıma seçin. Adım vurgulandığından emin olun.
+1.  Ardından yeni adımı eklemek istediğiniz adımı seçin. Adımın vurgulandığından emin olun.
 
-Bir adımı eklemek, görev Kaydedicisi'ni açmak doğru sayfa olması gerekir. Doğru sayfa yeni adım oluştuğu sayfasıdır. Görev Kaydedicisi ne etkin sayfa, doğru sayfa açık değilse işlevlerini devre dışı bırakır belirler ve bir mekanizma vardır. 
+Görev kaydedicinin bir adım eklemesi için doğru sayfanın açık olmasını sağlamanız gerekir. Doğru sayfa, yeni adımın gerçekleştiği sayfadır. Görev kaydedicide hangi sayfanın etkin olduğunu belirleyen bir mekanizma vardır ve doğru sayfanın açık olmaması durumunda işlevi devre dışı bırakır. 
 
 [![tg1](./media/tg1.png)](./media/tg1.png) 
 
 
-Doğru sayfa üzerinde olduğunda **Insert step** kullanılabilir.
+Doğru sayfadayken **Adım ekle** kullanılabilir olur.
 
 [![tg2](./media/tg2-231x300.png)](./media/tg2.png)
 
-2. ' I **INSERT adım**.
+2. **Adım ekle**'ye tıklayın.
 
-Tıklattığınızda **Insert step**, Görev Kaydedici kayıt moduna geçer. Kullanıcı arabiriminde yapılan eylem şimdi kaydedilir ve yerinde adımlar eklenir.
+**Adım ekle**'ye tıkladığınızda, görev kaydedici kayıt moduna geçer. Kullanıcı arabiriminde yapılan eylem artık kaydedilir adımlar olarak yerine eklenir.
 
-3. ' I **Stop**.
+3. **Durdur**'a tıklayın.
 
-(Aşağıdaki alt görevler için bakın) gerektiği gibi alt görevler olabildiğince çok sayıda adım eklenmesini veya işlemi yineleyebilirsiniz.
+İşlemi tekrarlayabilir, gerektiği kadar çok adım ekleyebilir veya alt görev taşıyabilirsiniz (alt görevler için aşağıya bakın).
 
-4. Tamamladığınızda, görev kılavuzu düzenleme'yi tıklatın **düzenleme yapılan**ve görev rehberi yayımlamak veya kaydetmek için seçeneklerden birini seçin.
+4. Görev kılavuzu düzenlemeyi tamamladığınızd **Düzenleme bitti**'ye tıklayın ve görev kılavuzunu kaydetmek veya yayımlamak için seçeneklerden birini seçin.
 
-## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Dosyanın tamamını rerecording olmadan adımları altında bir alt görevi taşı
-Kayıttan yürütme veya dosyanın tamamını yeniden kayıt adımları altında bir alt görev taşıyabilirsiniz. Varolan bir engelleme adımları gruplamak istiyorsanız son alt görev adım veya alt görev adım taşıyabilirsiniz.
+## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Bir alt görevin altındaki adımları dosyanın tamamını yeniden kaydetmeden taşıyın.
+Bir alt görevin altındaki adımları dosyanın tamamını yeniden oynatmadan veya yeniden kaydetmeden taşıyabilirsiniz. Mevcut bir adım bloğunu gruplandırmak isterseniz alt görev adımını veya son alt görev adımını da taşıyabilirsiniz.
 
-1.  Adım ya da taşımak istediğiniz alt görev adım seçin. Adım'da vurgulandığından emin olun.
-2.  Üç noktayı tıklatın, sonra'ı **taşıma adım sonra**.
+1.  Taşımak istediğiniz adımı veya alt görev adımını seçin. Adımın vurgulandığından emin olun.
+2.  Elipse tıklayın ve ardından **Adımı şundan sonraya taşı**'ya tıklayın.
 
 [![tg3](./media/tg3.png)](./media/tg3.png)
 
-3. Adım veya alt görev veya adım adım sonra taşımak istediğiniz alt görev adım seçin. Görev Kaydedici adım taşır.
+3. Adımı veya alt görev adımını hangi adım veya alt görev adımından sonraya taşımak istediğinizi seçin. Görev kaydedici adımı taşır.
 
-4. Son alt görev adım taşımak, nesneyi seçin, üç noktayı tıklatın, tıklatın **taşıma adım sonra**ve sonra son alt görev adım olmasını istediğiniz adıma seçin.
+4. Son alt görev adımını taşımak için seçin, elipse tıklayın, **Adımı şundan sonraya taşı**'ya tıklayın ve ardından son alt görev adımının hangi adımdan sonra geleceğini seçin.
 
-İlk adımda görev kılavuzu içinde bir alt görev olmasını istiyorsanız, bir alt görev adımı ikinci adım olarak oluşturun ve sonra ilk adım içine taşıyın. Ekleyebilir veya kadar adımları veya gerektiği gibi alt görevleri taşıyın.
+Görev kılavuzundaki ilk adımın bir alt görev içinde olmasını istiyorsanız, ikinci adım olarak bir alt görev oluşturun ve sonra ilk adım onun içine taşıyın. İstediğiniz kadar çok adım veya alt görev ekleyebilir ya da taşıyabilirsiniz.
 
-5. Tamamladığınızda, görev kılavuzu düzenleme'yi tıklatın **düzenleme yapılan**ve görev rehberi yayımlamak veya kaydetmek için seçeneklerden birini seçin.
+5. Görev kılavuzu düzenlemeyi tamamladığınızd **Düzenleme bitti**'ye tıklayın ve görev kılavuzunu kaydetmek veya yayımlamak için seçeneklerden birini seçin.
 
-## <a name="collapse-recording-name-and-description"></a>Daralt kayıt adı ve açıklaması
-Genişletip daraltabileceğiniz **kayıt adı** ve **açıklama kaydı** alanlar. Bu alanlar daraltıldığında, daha fazla adım görev Kaydedicisi düzenleme bölmesi görünür hale gelir. 
+## <a name="collapse-recording-name-and-description"></a>Kayıt adı ve açıklaması alanlarını daraltma
+**Kayıt adı** ve **Kayıt açıklaması** alanlarını genişletebilir veya daraltabilirsiniz. Bu alanlar daraltıldığında, Görev kaydedicinin düzenleme bölmesinde daha fazla adım görünür hale gelir. 
 
 [![tg4](./media/tg4-300x252.png)](./media/tg4.png)  
 
@@ -85,6 +85,6 @@ Genişletip daraltabileceğiniz **kayıt adı** ve **açıklama kaydı** alanlar
 
 [Görev kayıtlarını kullanarak belgeler veya eğitim oluşturma](/dynamics365/operations/dev-itpro/user-interface/task-recorder)
 
-[Görev Kaydedici Hýzlý Baþvuru](/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
+[Görev kaydedici hızlı başvuru](/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
 
 

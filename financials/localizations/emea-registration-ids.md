@@ -1,6 +1,6 @@
 ---
 title: "Kayıt kodları"
-description: "Bu konu, ayarlama ve kayıt kimlikleri kullanma hakkında bilgi sağlar."
+description: "Bu konu, kayıt kimliklerini ayarlama kullanma hakkında bilgi sağlar."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,78 +27,83 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="registration-ids"></a>Kayıt kodları
 
-Bu konu, ayarlama ve kayıt kimlikleri kullanma hakkında bilgi sağlar.
+[!include[banner](../includes/banner.md)]
 
-Birçok ülke ve bölgelerin farklı düzenlemeler ve kayıt kayıt numaraları veya kimlikleri için gereksinimleri vardır. Bu konu, Avrupa farklı ülkelerde/bölgelerde taraflar için gerekli ayarları ve desteklenen kayıt türlerini işleme genel bakış sağlar. Tüm ülkeler/bölgeler kayıt numaraları farklı durum ofisleri tarafından sağlanan ilgili çeşitli ülkeye özgü işlevleri desteklemek için kendi gereksinimleri vardır. Sosyal Güvenlik numarası (SSK), vergi kimlik numarası (TIN) ve Avrupa KDV kimlik AB KDV kayıt numaraları örnekleri içerir. Bu özellik, hesap ülkeye özgü gereksinimleri bazı Avrupa ülkelerinde alarak tüm bölgelerde tüm ülkeler için birleşik bir çerçeve sağlar. Aşağıdaki bölümlerde genel ayarlama ve kayıt kimlikleri için kullanılan bilgi akışını açıklar.
+
+Bu konu, kayıt kimliklerini ayarlama kullanma hakkında bilgi sağlar.
+
+Birçok ülke ve bölgenin farklı düzenlemeleri ve kayıt numaralarını veya kimliklerini kaydetmek için gereksinimleri vardır. Bu konu, farklı Avrupa ülkeleri/bölgeleri için gerekli ayarların ve desteklenen kayıt türlerinin genel bir bakışını sağlamaktadır. Farklı devlet dairelerinden sağlanan kayıt numaralarıyla ilgili ülkeye özgü işlevsellikleri desteklemek için tüm ülkelerin/bölgelerin kendilerine ait gereksinimleri vardır. Örnekler arasında Sosyal Güvenlik numarası (SSK), vergi kimlik numarası (TIN) ve Avrupa KDV kimlik AB KDV kayıt numaraları bulunmaktadır. Bu özellik, bazı Avrupa ülkelerinin gereksinimlerini göz önünde bulundurarak, bir bölgedeki tüm ülkeleri birleştiren bir çerçeve sağlar. Aşağıdaki bölümler kayıt kimliklerini ayarlamak ve işlemek için genel akış hakkında bilgi sağlar.
 
 ## <a name="registration-type-creation"></a>Kayıt türü oluşturma
-Kayıt Kimliği girmek için önce her taraf tabi olduğu kayıt numaraları farklı türleri için kayıt türlerini ayarlamanız gerekir. Git **kuruluş yönetim**&gt;**genel adres defteri**&gt;**kayıt türleri**&gt;**kayıt türleri** sayfa oluşturmak ve satıcılar, müşteriler, çalışanlar ve farklı ülkelerde/bölgelerde yasal varlıklar için kayıt türlerini yönetmek için.
+Kayıt kimlikleri girebilmeden önce, her tarafın tabi olduğu kayıt numaraları için kayıt türleri ayarlamak zorundasınız. Farklı ülkeler/bölgelerdeki satıcılar, müşteriler, çalışanlar ve tüzel kişilikler için kayıt türleri oluşturmak ve yönetmek için **Kuruluş yönetimi** &gt; **Genel adres defteri** &gt; **Kayıt türleri** &gt; **Kayıt türleri**  sayfasına gidin.
 
 |Alan                 |Açıklama      |
 |------------------------------|----------------------------|                                                                           
-| Dosya Adı                | Kayıt tipinin adı. |                                                                           
-| Açıklama         | Kayıt tipi açıklaması. |
-| Ülke/bölge      | Ülkenin/bölgenin benzersiz tanıtıcısı.|
+| Dosya Adı                | Kayıt türünün adı. |                                                                           
+| Açıklama         | Kayıt türünün açıklaması. |
+| Ülke/bölge      | Ülke/bölgenin benzersiz tanımlayıcı.|
 | Vergi dairesi       | Kayıt türüyle ilişkili vergi dairesi.|
-| Sınırlama:       | Vergi kayıt türü için uygulanan sınırlama türü: hiçbiri, kişi, kuruluş.|
-| Biçim              | Kayıt türü için doğrulama biçimi.|
-| Güncelleştirilebilir      | Kayıt türü için kayıt numarası girildiği doğrulandıktan sonra güncelleştirilebilir tanımlar.|
-| Benzersiz              | Kayıt türü için kayıt numarası benzersizdir tanımlar. |
-| Ülke/bölge için birincil | Bir taraf ile ilişkili olan ya da daha fazla adresleri özellikle ülke ve kayıt kimliği bu adresleri için geçerli bir adres ülke için birincil olarak atamanız gerekir. Sadece bir kimliği birincil olarak kaydedebilirsiniz. Yalnızca birincil adresi ülke için kayıt numarasının girilmesi durumunda tanımlar. |
+| Sınırlama:       | Vergi kayıt türüne uygulanan sınırlama türü: Hiçbiri, Kişi, Kuruluş.|
+| Biçim              | Kayıt için doğrulama biçimi.|
+| Güncelleştirilebilir      | Kayıt türü için kayıt numarasının girildikten sonra güncelleştirilebileceğini tanımlar.|
+| Benzersiz              | Kayıt türü için kayıt numarasının benzersiz olup olmadığını tanımlar. |
+| Ülke/bölge için birincil | Bir taraf belirli bir ülkede bir ya da birden fazla kayıt numarası ile ilişkilendirildiyse, kayıt numarası bu adreslerin tümü için geçerli olacaktır, bu yüzden de bir adresi ülke için birincil olarak atamanız gerekir. Yalnızca bir kimliği birincil olarak kaydedebilirsiniz. Kayıt numarasının yalnızca birincil ülke adresi için girilip girilemeyeceğini tanımlar. |
 
-## <a name="assign-a-registration-type-to-a-registration-category"></a>Kayıt tipi kayıt kategoriye atama
-Kaydı kategorisi özellikle ülke vergi, Gümrük ve diğer amaçlar için kullanımı için onaylanan ülke kayıt tanımlayıcısıdır. Bu kategorideki farklı raporlarda belirli kayıt kimliği (denetleme basamaklarını vb. dahil) ve ekleme kayıt kimlik doğrulama kuralları tanımlar. Sayfayı kullanın **kuruluş yönetim**&gt;**genel adres defteri**&gt;**kayıt türleri**&gt;**kayıt kategorileri** kayıt türünü belirli bir ülke için desteklenen kayıt kategori atamak için.
+## <a name="assign-a-registration-type-to-a-registration-category"></a>Bir kayıt kategorisine bir kayıt türü atama
+Kayıt kategorisi ülke/bölge kayıt tanımlayıcısıdır, belirli bir ülke/bölge için vergi, gümrük ve diğer amaçlar için onaylanmıştır. Belirli bir kayıt kimliğinin kategori belirleyici doğrulama kuralları (denetleme basamakları vb. dahil) ve farklı raporlardaki ekleme kayıt kimliği. **Kuruluş yönetimi** &gt; **Genel adres defteri** &gt; **Kayıt türleri** &gt; **Kayıt kategorileri** sayfasını kullanarak belirli bir ülkenin kayıt türünü desteklenen kayıt kategorisine ekleyin.
 
 | Alan            | Açıklama|
 |-----------------------|----------------|
-| Kayıt türü     | Kayıt ülke özellikle yazın.|
-| Sınırlama:         | Kısıtlama türü vergi kayıt türü için geçerlidir: yok, kişi, kuruluş.|
-| Kayıt kategorisi | Benzersiz kayıt tanımlayıcı ülkede kullanımı için onaylanmış. Tam liste kategoriler içinde desteklenen AX7.1 olan aşağıda. |
+| Kayıt türü     | Belirli ülke/bölgedeki kayıt türü.|
+| Sınırlama:         | Vergi kayıt türüne uygulanan sınırlama türü: Hiçbiri, Kişi, Kuruluş.|
+| Kayıt kategorisi | Ülkede kullanılan benzersiz kayıt kimlik tanımlayıcısı. AX7.1'de desteklenen kategorilerin tüm listesi aşağıdadır: |
 
-## <a name="enter-registration-ids-for-global-address-book-records"></a>Genel adres defteri kayıtları için kayıt kimliklerini girin
-Müşteriler, satıcılar, kişiler, iş ilişkileri ve tüzel kişilikler için birleştirilmiş adres bilgilerini Microsoft Dynamics 365 işlemleri için Genel Adres Defteri'nde (GAB) içerir. Daha fazla bilgi için [genel adres defteri genel bakış](/dynamics365/operations/organization-administration/overview-global-address-book). Genel Adres Defteri içinde depolanan parti kayıtları, bir veya birden çok adres kaydı içerebilir. Bu adresler, fatura adresini veya sevkiyat gibi farklı amaçlar için kullanılır. Adres bilgileri müşteriler, satıcılar, çalışanları ve tüzel kişilikler için kayıt kodları ayarlayabilirsiniz. Parti (tüzel kişilik, satıcı, müşteri, çalışan) kayıt Numarasını girin ve ardından istediğiniz kayıt Bul **kayıt kimliklerini** ilgili taraf, tüzel kişilik, satıcı, müşteri, açmak için alt formlar üzerindeki **adreslerini yönetmek** sayfa. Üzerinde **Vergi kaydı** sekmesini tıklatın, **Ekle**ve ardından kayıt kimliği hakkında bilgi girin.
+## <a name="enter-registration-ids-for-global-address-book-records"></a>Genel adres defteri kayıtları için kayıt kimlikleri girin
+Microsoft Dynamics 365 for Operations içindeki Genel adres defteri (GAB), müşteriler, satıcılar, bağlantılar, iş ilişkileri ve tüzel varlıklar için birleştirilmiş adres bilgilerini içerir. Daha fazla bilgi için [Genel adres defterine genel bakış](/dynamics365/operations/organization-administration/overview-global-address-book). Genel adres defterinde depolanan taraf kayıtları, bir veya birden fazla adres kaydı içerebilir. Bu adresler farklı amaçlar için kullanılabilir; örneğin faturalama veya teslimat. Müşteriler, satıcılar, çalışanlar ve tüzel varlıklar için adres bilgileri için kayıt kimlikleri ayarlayabilirsiniz. Kayıt kimliğini girmek istediğiniz taraf (tüzel varlık, satıcı, müşteri, çalışan) kaydını bulun ve daha sonra **Kayıt kimlikleri** forumuna taraf, tüzel varlık, satıcı, müşteri, satıcı ile ilgili **Adresleri yönet** sayfasında tıklayın. **Vergi kaydı** sekmesinde, **Ekle** üzerine tıklayın ve kayıt kimliği hakkında aşağıdaki bilgiyi girin.
 
 |Alan                |Açıklama                                                |
 |---------------------|-----------------------------------------------------------|
-| Kayıt türü   | Kayıt türü seçili ülke/bölge.     |
-| Giriş kayıt numarası | Parti kayıt kimliği.                                |
-| Açıklama         | Kayıt numarasının tanımı.               |
+| Kayıt türü   | Seçili ülke/bölgedeki kayıt türü.     |
+| Giriş kayıt numarası | Taraf kayıt kimliği.                                |
+| Açıklama         | Kayıt numarasının açıklaması.               |
 | Bölüm             | Kayıt numarası hakkında ek bilgi. |
-| Veren kurum      | Kayıt numarası verilen yetki.        |
-| Verildiği tarih         | Kayıt numarası için verilen tarih.              |
-| Yürürlüğe giriş           | Kayıt numarası yürürlük tarihi.           |
-| Bitiş          | Kayıt numarası için sona erme tarihi.          |
+| Veren kurum      | Kayıt numarasını veren daire.        |
+| Verildiği tarih         | Kayıt numarasının verilme tarihi.              |
+| Yürürlüğe giriş           | Kayıt numarasının geçerlilik tarihi.           |
+| Bitiş          | Kayıt numarası için bitiş tarihi.          |
 
 > [!NOTE]
-> Vergi muafiyet numarası tüzel kişilik, satıcı, müşteri kaydından seçilebilir kimlikleri KDV kimliği için ilgili ve parti için girilen.
+> Tüzel kişiliğin, satıcının, müşterinin vergi muafiyet numarası, taraf için girilen vergi numarasıyla ilgili kayıt kimliklerinden seçilebilir.
 
-## <a name="search-for-records-by-registration-id"></a>Kayıt kayıt kimliği Ara
-Parti kayıt kayıt kimliği temel alarak arama Partisi, tüzel kişilik, satıcı, müşteri ve çalışan ilişkili formlarda kullanılabilir. ' I **kayıt kimliği Ara** açmak için **kayıt kimliği arama ölçütü** sayfa. Arama ölçütlerini belirtin ve tıklatın **bulmak**. Sistem Genel Adres Defteri'ni ve ilişkili taraf kayıt türlerini seçili kayıtları görüntüler.
+## <a name="search-for-records-by-registration-id"></a>Kayıt kimliklerine göre kayıt ara
+Kayıt kimliklerine dayalı taraf kaydı arama taraf, tüzel kişilik, satıcı, müşteriler ve çalışan için formlarda arama yapın. **Kayıt kimlik arama kriteri sayfasını açmak için ** **Kayıt kimlik aramasına** tıklayın. Kriteri belirtin ve **Bul** üzerine tıklayın. Sistem seçili kayıtları, ilişkili türdeki taraf kayıtlarını genel adres defterinden görüntüler.
 
 ## <a name="supported-registration-categories"></a>Desteklenen kayıt kategorileri
-Aşağıdaki tabloda işlemleri için Dynamics 365 desteklenen kayıt türlerini listeler. Microsoft Dynamics AX 2012 alanları kayıt kimlikleri için kullanıyorsanız, bu tablo bu alanlar da işlemleri kayıt kategorileri için Dynamics 365 eşleştirir.
+Aşağıdaki tablo, Dynamics 365 for Operations içerisindeki desteklenen kayıtları listeler. Kayıt kimlikleri için Microsoft Dynamics AX 2012 alanlarına aşinaysanız, bu tablo bu alanları da Dynamics 365 for Operations kayıt kategorilerine eşleştirir.
 
-| İşlem kaydı kategorisi için Dynamics 365         |Ülke/Bölge  | Dynamics AX 2012 terim/alan|
+| Dynamics 365 for Operations Kayıt kategorileri         |Ülke/Bölge  | Dynamics AX 2012 terim/alan|
 |---------------------------------------------------------------|---------------------|---------------------------------|
-| VAT Kodu                                                        | Tüm ülkeler, Avrupa Birliği (AB)|  Vergi muafiyet numarası (Legislative türü AX2012 R3 vergisi kodu)|
-| Kurum kodu (COID)                                          | Belçika Çek Cumhuriyeti Estonya Macaristan Letonya Litvanya Polonya İsviçre | Kuruluş numarası (EnterpriseNumber) kayıt numarası (RegNum\_W) sicil numarası (RegNum\_W) sicil numarası (RegNum\_W) sicil numarası (RegNum\_W) kuruluş kodu (EnterpriseCode) kayıt numarası (RegNum\_W) kullanıcı kimliği (UID AX2012 R3 içinde Legislative türü) |
+| VAT Kodu                                                        | Tüm Avrupa Birliği (AB) ülkeleri|  Vergi muafiyeti numarası (yasal Vergi Kimliği Türü AX2012 R3'te)|
+| Kurum kodu (COID)                                          | Belçika Çek Cumhuriyeti Estonya Macaristan Letonya Litvanya Polonya İsviçre | Kuruluş numarası (EnterpriseNumber) Kayıt numarası (RegNum\_W) Kayıt numarası (RegNum\_W) Kayıt numarası (RegNum\_W) Kayıt numarası (RegNum\_W) Kuruluş kodu (EnterpriseCode) Kayıt numarası (RegNum\_W) UID (AX2012 R3 yasal UID tipi) |
 | Şube kodu                                                     | Belçika            | Şube numarası (BranchNumber)|
-| Spisová značka (kayıt numarası, Ajansı, bölüm verme) | Çek Cumhuriyeti     | Sayı (CommercialRegisterInsetNumber) Kept iç metin ticari ticari kayıt (CommercialRegisterSection) (CommercialRegister) bölümünü kaydetmek|
+| Spisová značka (Kayıt numarası, veren ajans, bölüm) | Çek Cumhuriyeti     | Sayı (CommercialRegisterInsetNumber) Ticari kayıtta tutulur (CommercialRegisterSection) (CommercialRegister) ticari kaydın bölümü|
 | Gümrük müşteri kodu                                           | Finlandiya | Gümrük müşteri numarası (CustomsCustomerNumber\_FI)|
-| INN                                                           | Rusya Federasyonu| INN (Legislative türü AX2012 R3 olarak INN)|
-| RRC                                                           | Rusya Federasyonu| RRC (Legislative türü AX2012 R3 içinde RRC)|
-| OKDP                                                          | Rusya Federasyonu| OKDP (Legislative türü OKDP AX2012 R3 içinde)|
-| OKPO                                                          | Rusya Federasyonu| OKPO (Legislative türü OKPO AX2012 R3 içinde)|
-| RCOAD                                                         | Rusya Federasyonu| RCOAD (Legislative türü RCOAD AX2012 R3 içinde)|
-| OGRN                                                          | Rusya Federasyonu| OGRN (Legislative türü OGRN AX2012 R3 içinde) |
-| SNILS                                                         | Rusya Federasyonu| SNILS (Legislative türü SNILS AX2012 R3 içinde)|
-| CIFTS                                                         | Rusya Federasyonu| CIFTS (Legislative türü CIFTS AX2012 R3 içinde)|
+| INN                                                           | Rusya Federasyonu| INN (Yasal INN türü AX2012 R3)|
+| RRC                                                           | Rusya Federasyonu| RRC (AX2012 R3 içindeki yasal türü RRC)|
+| OKDP                                                          | Rusya Federasyonu| OKDP (Yasal OKDP türü AX2012 R3)|
+| OKPO                                                          | Rusya Federasyonu| OKPO (Yasal OKPO türü AX2012 R3)|
+| RCOAD                                                         | Rusya Federasyonu| RCOAD (Yasal türü RCOAD AX2012 R3 içinde)|
+| OGRN                                                          | Rusya Federasyonu| OGRN (Yasal OGRN türü AX2012 R3) |
+| SNILS                                                         | Rusya Federasyonu| SNILS (Yasal türü SNILS AX2012 R3 içinde)|
+| CIFTS                                                         | Rusya Federasyonu| CIFTS (Yasal türü CIFTS AX2012 R3 içinde)|
 
-İşleme, gerekli Önkoşullar da dahil olmak üzere, kayıt kimlikleri hakkında daha fazla bilgi için aşağıdaki görev kayıtları KDV kimlik ömrü Hizmetleri (LCS) bakın:
+Gerekli ön koşullar dahil kayıt kimlikleri işleme için, Lifecycle Services (LCS) içinde KDV kimliği için aşağıdaki görev kayıtlarına bakın:
 
 -   KDV Kodu ayarlama
--   Satıcının KDV kimliği kayıt
+-   Satıcının KDV kimlik kaydı
 -    KDV Kimliği kullanılarak taraf arama
+
+
 
 
 

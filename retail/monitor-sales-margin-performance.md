@@ -1,6 +1,6 @@
 ---
 title: "Satış ve kar marjı performansını izle"
-description: "Satış ve Kar marjı performansını gerçek zamanlı işlemler için Microsoft Dynamics 365 kullanarak izleyebilirsiniz."
+description: "Microsoft Dynamics 365 for Operations kullanarak satış ve kar marjı performansını gerçek zamanlı izleyebilirsiniz."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 85123
 ms.assetid: ddd15820-c3e6-4607-819e-8cef744ce9c9
 ms.search.region: global
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="monitor-sales-and-margin-performance"></a>Satış ve kar marjı performansını izle
 
-Satış ve Kar marjı performansını gerçek zamanlı işlemler için Microsoft Dynamics 365 kullanarak izleyebilirsiniz.
+[!include[banner](includes/banner.md)]
 
-Dynamics 365 işlemlerinin bir parçası olarak, kullanıcıların satış ve Kar marjı performansını gerçek zamanlı kuruluş hiyerarşisi aşağıdaki boyutlar için farklı düzeyleri arasında izleyebilirsiniz:
+
+Microsoft Dynamics 365 for Operations kullanarak satış ve kar marjı performansını gerçek zamanlı izleyebilirsiniz.
+
+Dynamics 365 for Operations'ın bir parçası olarak, kullanıcılar aşağıdaki boyutlar için kuruluş hiyerarşisinin farklı düzeylerindeki satış ve kar marjı performansını gerçek zamanlı izleyebilirler:
 
 -   Ürünler
 -   Kategoriler
@@ -42,8 +45,10 @@ Dynamics 365 işlemlerinin bir parçası olarak, kullanıcıların satış ve Ka
 
 Ayrıca, hiyerarşik ızgara yapısından yararlanan iki benzersiz rapor kullanıcıların, en üst kategori düğümünden varsayılan perakende ürününün kategori hiyerarşisindeki bireysel kategori alt düğümlerine kadar detaylara inerek, satış ve kar marjı performansını izlemesine olanak tanır. Kullanıcılar, ayrıca perakende raporlama hiyerarşisi amacıyla varsayılan kuruluş hiyerarşisi olarak tanımlanan kuruluş hiyerarşisindeki en üst faaliyet biriminden bireysel bir kanala kadar ayrıntılara inebilirler. Raporları aşağıdaki konumların herhangi birinden açabilirsiniz:
 
--   **Perakende Mağaza Yönetimi** işlemleri için Dynamics 365 çalışma &gt;**perakende ve ticaret**&gt;**kanallar**&gt;**perakende mağaza Yönetimi**&gt;**raporları**
--   **Kategori ve ürün Yönetimi** işlemleri için Dynamics 365 çalışma &gt;**perakende ve ticaret**&gt;**ürün ve kategori**&gt;**perakende mağaza Yönetimi**&gt;**raporları**
--   **Fiyatlandırma ve indirim Yönetimi** işlemleri için Dynamics 365 çalışma &gt;**perakende ve ticaret**&gt;**fiyatlandırma ve indirim**&gt;**perakende mağaza Yönetimi**&gt;**raporları**
--   **Sorgu ve raporlarda** işlemleri için Dynamics 365 bölümünde &gt;**perakende ve ticaret**&gt;**sorgu ve raporlarda**&gt;**satış raporları**
+-   **Perakende mağaza yönetimi** çalışma alanı Dynamics 365 for Operations &gt;  **Perakende ve ticaret** &gt; **Kanallar** &gt; **Perakende mağaza yönetimi** &gt; **Raporlar**
+-   **Kategori ve ürün yönetimi** çalışma alanı Dynamics 365 for Operations &gt; **Perakende ve ticaret** &gt; **Ürünler ve kategoriler** &gt; **Perakende mağaza yönetimi** &gt; **Raporlar**
+-   **Fiyatlandırma ve iskonto yönetimi** çalışma alanı Dynamics 365 for Operations &gt; **Perakende ve ticaret** &gt; **Fiyatlandırma ve iskontolar** &gt; **Perakende mağaza yönetimi** &gt; **Raporlar**
+-   **Sorgular ve raporlar** bölümü Dynamics 365 for Operations &gt; **Perakende ve ticaret** &gt; **Sorgular ve raporlar** &gt; **Satış raporları**
+
+
 

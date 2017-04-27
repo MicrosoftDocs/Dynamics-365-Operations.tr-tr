@@ -46,12 +46,12 @@ Mali raporlara ek olarak, aşağıdaki genel muhasebe raporlarını kullanarak g
 
 -   **Boyut beyanı** – Bu rapor, hareketleri güne ve hesaba göre gösterir ve ayrıca hareketlerin boyuta ve döneme göre gösterilmesi için de seçenekler mevcuttur.
 -   **Genel muhasebe hareket listesi** – Bu rapor bir hesap için hareket, muhasebe ve raporlama birimleri altındaki hareketleri gösterir.
--   **Yazdırma günlük** – Bu rapor, nakledilen bir günlüğü sonucunu gösterir. Günlük toplu iş numarası veya günlük türüne göre Raporu çalıştırmak veya başka alanlar ekleyebilirsiniz.
+-   **Günlüğü yazdır** – Bu rapor, nakledilen bir günlüğün sonucunu gösterir. Raporu günlük toplu iş numarasına veya günlük türüne göre çalıştırabilir veya başka alanlar ekleyebilirsiniz.
 -   **Günlüğe göre nakledilen hareketler** – Bu rapor, fişe göre gruplandırılmış bir günlüğü nakledilmiş hareketleri gösterir.
 -   **Tarihe göre hareket listesi** – Bu rapor günlük numarası, fiş ve genel muhasebe hesabı ile birlikte tarihe göre tüm hareketleri gösterir. Ayrıca, hareket, muhasebe ve raporlama para birimi altındaki hareketleri de gösterir.
 -   **Hareket kaynağı** – Bu hareket raporu, hesabı günlüğe ve harekete, muhasebeye ve raporlama para birimine göre gösterir.  Ayrıca, bir mahsup olarak kullanılmış günlüğün her bir satırını gösterir.
 
 
-Daha fazla bilgi için bkz: [genel muhasebe hesabının bakiyelerini](general-ledger-account-balances.md), [hesap kaynak explorer](\financials\accounts-payable\accounting-source-explorer) ve [finansal raporlama](financial-reporting-getting-started.md)
+Daha fazla bilgi için bkz. [Genel muhasebe hesabı bakiyeleri](general-ledger-account-balances.md), [Muhasebe kaynağı gezgini](\financials\accounts-payable\accounting-source-explorer) ve [Mali raporlama](financial-reporting-getting-started.md)
 
 

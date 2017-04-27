@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Mali takvimler, mali yıllar ve dönemler
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, mali takvimler, mali yıllar, mali dönemler ve bunların tüzel kişilikler, sabit kıymetler ve bütçeleme için nasıl kullanıldığı ele alınmaktadır.
 
 Mali takvimler bir kuruluşun finansal faaliyeti için bir çerçeve sağlar. Her mali yıl takvimi bir veya birden çok mali yıl içerir ve her bir mali yıl, birden fazla dönem içerir. Mali takvimler 1 Ocak ile 31 Aralık takvim yılına veya seçtiğiniz herhangi bir tarih aralığına dayalı olabilir. Örneğin, bazı kuruluşlar bir yılın 1 Temmuz'unda başlayan ve sonraki yılın 30 Haziran'ına kadar süren bir mali takvimi seçerler. 
@@ -39,7 +42,7 @@ Mali takvimler, mali yıllar ve dönemleri Mali takvimler sayfasında oluşturab
 
 Kapanış dönemi, mali yıl kapatılırken oluşturulan genel muhasebe hareketlerini ayırmak için kullanılır. Kapanış hareketlerinin bir mali dönem içinde olduğunda, farklı türde kapatma girişlerini dahil edilecek veya dışarıda bırakılacak mali tabloları oluşturmak çok kolaydır. Eğer bir mali yıl 12 mali döneme ayrılmışsa, kapanış dönemi genellikle 13th dönemdir. Ancak, bir kapanış dönemi, durumu açık olan herhangi bir dönemden oluşturulabilir. 
 
-Kapanış dönemi oluşturduğunuzda, durumu Açık olan bir dönem seçin ve kullanmak istediğiniz tarihleri olan. Yeni bir kapanış dönemi mevcut dönemin başlangıç ve bitiş tarihlerini kopyalar. Asıl dönem var olmaya devam eder. Örneğin, mali yılın son döneminden olduğu ve 1 Ağustos-31 Ağustos tarihleri olan 12 dönem, seçin. Size yakın gibi bir kapanış dönemi için bir ad girin. Yeni kapatma periyodunu oluşturduktan sonra artık özgün döneme ve kapanış dönemine sahipsiniz. Her ikisinin de 1 Ağustos tarihinde başlayıp ve 31 Ağustos'ta biten tarihleri vardır.
+Kapanış dönemi oluşturduğunuzda, durumu Açık olan bir dönem seçin ve kullanmak istediğiniz tarihleri olan. Yeni bir kapanış dönemi mevcut dönemin başlangıç ve bitiş tarihlerini kopyalar. Asıl dönem var olmaya devam eder. Örneğin, mali yılın son dönemi olan Dönem 12'yi seçersiniz ve bunun tarihleri 1 Ağustos ile 31 Ağustos arasındadır. Kapanış dönemi için Kapanış gibi bir isim girersiniz. Yeni kapatma periyodunu oluşturduktan sonra artık özgün döneme ve kapanış dönemine sahipsiniz. Her ikisinin de 1 Ağustos tarihinde başlayıp ve 31 Ağustos'ta biten tarihleri vardır.
 
 ## <a name="select-fiscal-calendars-for-ledgers-fixed-assets-and-budget-cycles"></a>Genel muhasebeler, sabit kıymetler ve bütçe döngüleri için mali takvim seçin
 Mali takvimler sabit kıymet amortismanı, mali hareketler ve bütçe döngüleri ile kullanılır. Mali takvim oluşturduğunuzda, birden çok amaç için kullanabilirsiniz. Sabit kıymet takvimi yapmak için, bir değer modeli veya amortisman defteri için mali takvim seçebilirsiniz. Genel muhasebe defter takvimi yapmak için bir mali takvim seçebilirsiniz. Bütçe takvimi yapmak için bir bütçe döngüsüne mali takvim seçebilirsiniz. Bunların tümü için aynı mali takvimi kullanabilirsiniz.
@@ -57,7 +60,9 @@ Bir değer modeli veya amortisman defteri için bir mali takvim seçebilirsiniz.
 Bütçe döngüleri, bütçenin kullanıldığı zaman uzunluklarıdır. Bütçe döngüleri bir veya birden fazla mali yılın bir parçasını içerebilir, örneğin iki yıllık için biennial bütçe döngüsü veya üç yıllık için triennial bütçe döngüsü gibi. Bütçe döngüsü zaman süreci, bütçe döngüsüne dahil edilen dönemlerin sayısını tanımlar. Bütçe döngüsü zaman sürecini belirlemek için, Bütçe döngüsü zaman süreçleri sayfasını kullanın.
 
 ## <a name="maintain-periods-for-your-organization"></a> Kuruluşunuz için dönemlerini korumak
-Genel muhasebe defteri takvimi sayfasını, kuruluşunuz tarafından kullanılan mali takvimin, mali yılların ve dönemlerin ayrıntılarını görüntülemek için kullanabilirsiniz. Dönemlerin durumu değiştirmek ve hangi kullanıcıların hesap dönemlerine hareketleri deftere nakledebilmeniz için seçin. Örneğin, yeni bir dönemin başlangıcında, diğer gruplar yalnızca yeni dönemde çalışırken önceki dönemde, mali hareketleri deftere nakil bitirmek için bir kullanıcı grubu isteyebilirsiniz.
+Genel muhasebe defteri takvimi sayfasını, kuruluşunuz tarafından kullanılan mali takvimin, mali yılların ve dönemlerin ayrıntılarını görüntülemek için kullanabilirsiniz. Dönemlerin durumunu da değiştirebilir ve hangi kullanıcıların muhasebe hareketlerini dönemlere nakledebileceğini seçebilirsiniz. Örneğin, yeni bir dönemin başlangıcında, bir grup kullanıcının önceki dönemde mali hareketleri deftere nakletmesini isterken, bir başka grubun yalnızca yeni dönemde alışmasını isteyebilirsiniz.
+
+
 
 
 

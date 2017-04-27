@@ -1,6 +1,6 @@
 ---
-title: "Ürün reçetesi versiyonunu belirlemek"
-description: "Bir maddenin üretim, varsayılan sipariş türü varsa, isteğe bağlı açılımı sırasında planlama motoru sitesinde dayalı geçerli bir ürün reçetesi versiyonu bulur."
+title: "Ürün reçetesi sürümünü belirleme"
+description: "Bir talep açılımı sırasında bir maddenin varsayılan bir Üretim emri varsa, planlama altyapısı tesise göre geçerli bir ürün reçetesi sürümü bulur."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="determine-the-bom-version"></a>Ürün reçetesi versiyonunu belirlemek
+# <a name="determine-the-bom-version"></a>Ürün reçetesi sürümünü belirleme
 
-Bir maddenin üretim, varsayılan sipariş türü varsa, isteğe bağlı açılımı sırasında planlama motoru sitesinde dayalı geçerli bir ürün reçetesi versiyonu bulur. 
+[!include[banner](../includes/banner.md)]
+
+
+Bir talep açılımı sırasında bir maddenin varsayılan bir Üretim emri varsa, planlama altyapısı tesise göre geçerli bir ürün reçetesi sürümü bulur. 
 
 Tesis boyutu her zaman bilinir ve talep hareketinde belirtilir. Sıradaki süreç kullanılacak ürün reçetesi sürümünü belirlemek için kullanılır:
 
@@ -38,6 +41,8 @@ Tesis boyutu her zaman bilinir ve talep hareketinde belirtilir. Sıradaki süre�
 -   Kullanılacak bir genel ürün reçetesi yoksa, talep açılımı bu noktada durur.
 
 Geçerli bir ürün reçetesi sürümü, ister tesise özgü ister genel bir ürün reçetesi olsun, tarih ve miktar ölçütlerini karşılamalıdır.
+
+
 
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="125-percent-reducing-balance-depreciation"></a>Yüzde 125 azalan bakiyeli amortisman
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makale, amortismanın Yüzde 125 Azalan bakiye yöntemi hakkında genel bir bakış sağlar.
 
 Bir sabit kıymet amortisman profili ayarlayıp **Amortisman profilleri** sayfasındaki **Yöntem** alanında **%125 azalan bakiye** seçeneğini belirlediğinizde, amortisman profiline atanan sabit kıymetlerin amortismanı her amortisman döneminde aynı yüzdeyi içerir. Bu yüzde, sabit kıymetin servis ömrü temel alınarak hesaplanır. Örneğin, bir sabit kıymetin beş yıllık servis ömrü varsa, yüzde %25 (%125 ÷ 5) olarak hesaplanır.
@@ -56,7 +59,7 @@ Amortisman yılı olarak **Takvim** seçerseniz, **Dönem sıklığı** alanınd
 
 **Amortisman yılı** alanında **Mali** seçeneğini belirlerseniz, %125 azalan amortisman defter için belirtilen mali takvim için veya **Genel muhasebe** sayfasında seçilen mali takvim için mali yıla dayalı olarak hesaplanır. Mali takvimler, **Mali Takvimler** sayfasında ayarlanır. 
 
-Örneğin, 30 Haziran-1 Temmuz mali yıl için amortisman hesaplaması 1 Temmuz tarihinde başlar. Mali yıl 12 aydan daha uzun veya daha kısa olabilir. Amortisman, her mali dönem için otomatik olarak düzeltilir ve bir sonraki mali yılın uzunluğu, **Mali takvimler** sayfasındaki dönem ayarları tarafından belirlenir. 
+Örneğin, 1 Temmuz ile 30 Haziran arasındaki mali yıl için amortisman hesaplaması 1 Temmuz'da başlar. Mali yıl 12 aydan daha uzun veya daha kısa olabilir. Amortisman, her mali dönem için otomatik olarak düzeltilir ve bir sonraki mali yılın uzunluğu, **Mali takvimler** sayfasındaki dönem ayarları tarafından belirlenir. 
 
 Amortisman yılı olarak **Mali** seçerseniz, **Dönem sıklığı** alanında şu seçenekler kullanılabilir:
 
@@ -81,6 +84,8 @@ Amortisman yılı olarak **Mali** seçerseniz, **Dönem sıklığı** alanında 
 | 3. yıl | 5.625 × %25 = 1.406,25                        | (6.625 – 1.406,25) = 5.218,75 | (5.625 – 1.406,25) = 4.218,75         |
 
 > [!NOTE] 
-> Genellikle, % 125 azalan bakiye amortisman yöntemi kullanılarak hesaplanan tutar ne zaman olur düz çizgi yöntemini kullanarak bir düz çizgi yöntemi geri kalan ömürde dönüştürme yok hesaplanacaktı tutardan daha az.
+> Tipik olarak, %125 azalan bakiye amortismanı yöntemi kullanılarak hesaplanan tutar sabit amortisman yöntemi kullanılarak hesaplanacak yöntemden daha az olduğunda, kalan ömür için sabit amortisman yöntemine bir dönüş olur.
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Nakit İndirim döneminin dışındaki bir nakit iskontosu almak"
+title: "Nakit iskonto döneminin dışında bir nakit iskontosu almak"
 description: "Bu makalede, bir nakit indiriminin ödeme nakit indirimi periyodu dışında yapılsa bile nasıl alınabileceğini gösteren iki senaryo verilmiştir."
 author: twheeloc
 manager: AnnBe
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Nakit İndirim döneminin dışındaki bir nakit iskontosu almak
+# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Nakit iskonto döneminin dışında bir nakit iskontosu almak
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, bir nakit indiriminin ödeme nakit indirimi periyodu dışında yapılsa bile nasıl alınabileceğini gösteren iki senaryo verilmiştir.
 
-Nisan 28 Haziran 2,000.00 3052 satıcı için bir fatura oluşturur. Fatura, fatura 14 günde ödeniyorsa yüzde 1'lik bir nakit iskontosu vardır.
+28 Haziran tarihinde April 3052 numaralı satıcı için 2.000,00 tutarında bir fatura oluşturuyor. Faturada 14 gün içerisinde ödeme durumunda yüzde 1'lik bir nakit iskontosu var.
 
 ## <a name="use-cash-discount-option--always"></a>Nakit iskontosu seçeneği kullan = Her zaman
 April, iskonto tarihinden sonraya denk gelen 1 Temmuz tarihinde bir ödeme yapıyor. April, kapatılabilecek hareketleri görmek için **Hareketleri kapat** sayfasını açıyor. 
 
-April, ödeme için faturayı işaretliyor. Ödeme, iskonto tarihinden sonra yapıldığı için nakit iskontosu alınmıyor. Ancak, satıcı nakit iskontosu yine de almak için Nisan onay verdiği. Bu yüzden, Nisan değerini değiştirir **nakit iskontosu kullan** alanı **her zaman**.
+April, ödeme için faturayı işaretliyor. Ödeme, iskonto tarihinden sonra yapıldığı için nakit iskontosu alınmıyor. Ancak, satıcı her durumda April'e nakit iskontosu alma onayı veriyor. Bu yüzden, April **Nakit iskontosu kullan** alanındaki değeri **Her zaman** olarak değiştiriyor.
 
 | İşaret     | Nakit iskontosu kullan | Fiş   | Hesap | Nakit iskontosu tarihi | Vade tarihi  | Fatura | Hareket para birimi cinsinden tutar | Para Birimi | Kapatılacak tutar |
 |----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
@@ -85,6 +88,8 @@ April, **Kapatılacak tutar** alanındaki değeri **500,00** olarak güncelliyor
 | Nakit iskontosu kullan            | Normal    |
 | Alınan nakit iskontosu          | 0,00      |
 | Alınacak nakit iskontosu tutarı | -5,05     |
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Otomatik bir görev iş akışı içinde yapılandırma"
+title: "Bir görev akışında otomatikleştirilmiş görev yapılandır"
 description: "Bu konu, otomatik bir görevin özelliklerini yapılandırmayı açıklar."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-automated-task-in-a-workflow"></a>Otomatik bir görev iş akışı içinde yapılandırma
+# <a name="configure-an-automated-task-in-a-workflow"></a>Bir görev akışında otomatikleştirilmiş görev yapılandır
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu konu, otomatik bir görevin özelliklerini yapılandırmayı açıklar.
 
@@ -92,16 +95,18 @@ Otomatik bir görev çalıştırıldığında veya iptal edildiğinde insanlara 
     </tr>
     <tr class="odd">
     <td>Kullanıcı</td>
-    <td>İşlemleri kullanıcılar için belirli Microsoft Dynamics 365</td>
+    <td>Belirli Microsoft Dynamics 365 for Operations kullanıcıları</td>
     <td><ol>
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
-    <li><strong>Kullanılabilir kullanıcılar</strong> işlemleri kullanıcılar için tüm Dynamics 365 listesi içerir. Bildirimlerin gönderileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
+    <li><strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Dynamics 365 for Operations kullanıcılarını içerir. Bildirimlerin gönderileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
 8.  Adım 3'ten 7'ye kadar olan adımları adım 2'de seçtiğiniz tüm olaylar için yineleyin.
+
+
 
 
 

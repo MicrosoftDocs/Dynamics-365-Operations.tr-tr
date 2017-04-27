@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-the-properties-of-a-workflow"></a>Bir iş akışının özelliklerini yapılandırma
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu konu İş akışının çeşitli özelliklerini yapılandırmayı açıklar.
 
 Bir iş akışının özelliklerini yapılandırmak için iş akışını, iş akışı düzenleyicisinde açın. İş akışı düzenleyicisinin tuvaline tıklayın ve sonra **Seçenekler**'e tıklayarak **Özellikler** sayfasını açın. Daha sonra aşağıdaki yordamları kullanarak iş akışının çeşitli özelliklerini yapılandırabilirsiniz.
@@ -147,10 +150,10 @@ Bir belge işlenmek üzere gönderildiğinde, bir iş akışı örneği oluştur
     </tr>
     <tr class="odd">
     <td>Kullanıcı</td>
-    <td>İşlemleri kullanıcılar için belirli Dynamics 365</td>
+    <td>Belirli Dynamics 365 for Operations kullanıcıları</td>
     <td><ol>
     <li><strong>Alıcı</strong> sekmesinde, <strong>Kullanıcı</strong>'yı tıklatın.</li>
-    <li>Üzerinde <strong>kullanıcı</strong> sekme, <strong>kullanılabilir kullanıcılar</strong> işlemleri kullanıcılar için tüm Dynamics 365 listesi içerir. Bildirimlerin gönderileceği kullanıcıları seçin ve bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
+    <li><strong>Kullanıcı</strong> sekmesindeki <strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Dynamics 365 for Operations kullanıcılarını içerir. Bildirimlerin gönderileceği kullanıcıları seçin ve bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -165,6 +168,8 @@ Bir belge işlenmek üzere gönderildiğinde, bir iş akışı örneği oluştur
 2.  **İş akışı hakkında yorumlar girin** alanında, yorumlarınızı girin.
 3.  Yorumlarınızı gözden geçirin. Yorumlarınızı ekledikten sonra üzerlerinde değişiklik yapamazsınız.
 4.  **Yorum geçmişi** alanına yorumlarınızı eklemek için **Ekle**'yi tıklatın.
+
+
 
 
 

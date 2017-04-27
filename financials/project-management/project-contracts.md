@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-contracts"></a>Proje sözleşmeleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, Microsoft Dynamics 365 for Operations'da çeşitli proje türleri ve finansman kaynakları için oluşturabileceğiniz proje sözleşmeleri örneklerle açıklanmakta, sözleşmeleri nasıl yöneteceğiniz ve proje müşterilerini nasıl faturalandıracağınız anlatılmaktadır.
 
 Bir proje sözleşmesi için oluşturduğunuz proje türü, projenin müşterilerinin faturalandırılması için kullanılacak yöntemi belirleyecektir. Bir proje sözleşmesini ve ilgili projeyi değiştirebilirsiniz, ancak proje türünü değiştiremezsiniz. 
@@ -80,7 +83,7 @@ Aşağıdaki tablo, birden çok finansman kaynağı arasında finansman tahsisat
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Scenario</strong></td>
+<td><strong>Senaryo</strong></td>
 <td><strong>Finansman kaynağı </strong></td>
 <td><strong>Tahsisat yüzdesi </strong></td>
 <td><strong>Ayırma önceliği </strong></td>
@@ -192,7 +195,7 @@ Aşağıdaki tabloda bu senaryoyu daha ayrıntılı olarak inceler.
 <tbody>
 <tr class="odd">
 <td><strong>Odak </strong></td>
-<td><strong>Details</strong></td>
+<td><strong>Ayrıntılar</strong></td>
 </tr>
 <tr class="even">
 <td>Finansman kuralları</td>
@@ -220,17 +223,17 @@ Aşağıdaki tabloda bu senaryoyu daha ayrıntılı olarak inceler.
 </tr>
 <tr class="odd">
 <td>Hareket 2</td>
-<td><strong>Hareket tutarı:</strong> 5,000.00<strong>Funding:</strong> hareket tüm üç kurallarına göre ödenir. <strong>Kural 1</strong><ph id="t1">
-</ph><ul>
+<td><strong>Hareket tutarı:</strong> 5.000,00<strong>Finansman:</strong> Hareket üç kuralın tümüne göre ödenir.<strong>Kural 1</strong>
+<ul>
 <li>Finansman kaynağı 2: 450,00</li>
 <li>Finansman kaynağı 3: 450,00</li>
-</ul><bpt id="t2">
-< strong ></bpt> Kural 2</strong><ph id="t3">
-</ph><ul>
+</ul>
+<strong>Kural 2</strong>
+<ul>
 <li>Finansman kaynağı 3: 250,00 (= 750,00 – 50,00 – 450.00)</li>
-</ul><bpt id="t4">
-< strong ></bpt> Kural 3</strong><ph id="t5">
-</ph><ul>
+</ul>
+<strong>Kural 3</strong>
+<ul>
 <li>Finansman kaynağı 1: 3.850,00 (= 5.000,00 – 450,00 – 450,00 – 250,00)</li>
 </ul></td>
 </tr>
@@ -339,5 +342,7 @@ Proje sözleşmesini ayarladığınızda, projedeki malzeme ve zaman için müş
 -   Proje süresince her takvim ayının sonunda bir müşteri faturası oluşturur.
 
 İlk ay boyunca danışmanlar tarafından proje üzerinde toplam 800 saat kaydedilir. Projeye harcanan ofis malzemelerinin maliyeti 2.000'dir. Bu nedenle ay sonunda, saatlik 150'den 800 saat artı ofis malzemeleri için 2.000 toplamında 122.000'lik bir fatura oluşturursunuz.
+
+
 
 

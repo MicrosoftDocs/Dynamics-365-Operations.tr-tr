@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Planlanan maliyetler için bir maliyetlendirme sürümü kullanarak maliyet değişikliklerinin benzetimini yapın
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, mamul bir maddenin hesaplanan maliyetlerindeki maliyet değişikliklerinin etkisinin benzetimini, planlanan maliyetler için ayrı bir maliyetlendirme sürümüyle nasıl yapabileceğiniz açıklanmaktadır.
 
 Mamul bir maddenin hesaplanan maliyetlerindeki maliyet değişikliklerinin etkisinin benzetimini, planlanan maliyetler için ayrı bir maliyetlendirme sürümüyle yapabilirsiniz. Artımlı maliyet değişikliklerini yansıtan bekleyen maliyet kayıtlarını girmek ve üretilmiş maddelerdeki maliyet etkisini hesaplamak için bu ayrı maliyetlendirme sürümünü kullanın. Ürün reçetesi hesaplamalarında Etkin maliyetlerin geri dönüş ilkesi kullanılacağı için, yalnızca artımlı maliyet değişiklikleri girilmelidir.
@@ -54,5 +57,7 @@ Aşağıdaki senaryolarda, maliyet değişiklikleri etkisinin benzetimini uygula
 -   Maliyet değişikliğinin benzetimini bir dolaylı maliyet hesap formülünde uygulayın. Örneğin, maliyet değişikliği üretim genel giderlerinde beklenen bir artış veya azalışı yansıtabilir. Dolaylı maliyet hesap formülünde değişikliği tanımlamak amacıyla, benzetim maliyetlendirme sürümünün benzetiminde bekleyen bir maliyet kaydı girmek ve değişikliği doğrulayıp kaydetmek için **Maliyetlendirme tablosu kurulumu** sayfasını kullanın.
 
 Benzetimi yapılmış maliyet değişikliklerini girdikten sonra, maliyet değişikliklerinden etkilenen mamul maddelerin maliyetlerini hesaplayın. Benzetim maliyetlendirme sürümü için **Hesaplama** sayfasını kullanın ve maliyet değişikliklerinden etkilenecek seçili mamul maddeleri belirtin. Ürün reçetesi hesaplamaları, belirli maddeleri seçmediğiniz sürece tüm mamul maddelere uygulanır. Alternatif olarak, ürün reçetesi hesaplama seçeneğini kullanım yeri güncelleştirmeleri için kullanabilirsiniz. Benzetimi yapılan maliyet değişikliklerinin seçili mamul maddelerin maliyetlerini nasıl etkilediğini analiz etmek için benzetim maliyetlendirme sürümü içerisindeki madde maliyet kayıtlarını görüntüleyin. Maliyetleri görüntüleyip analiz etmek için **Madde fiyatı** sayfasını ve **Madde maliyetini hesapla** sayfasını kullanın.
+
+
 
 

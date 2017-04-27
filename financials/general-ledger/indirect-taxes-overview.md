@@ -28,18 +28,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-overview"></a>Satış vergisi genel bakış
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, satış vergisi sistemine bir genel bakış verilmektedir. Satış vergisi kurulumunun öğeleri ve birlikte nasıl çalıştıkları açıklanmaktadır.
 
 <a name="overview"></a>Özet
 --------
 
-Satış vergisi çerçevesi, satış vergisi, katma değer vergisi (KDV), mal ve hizmet vergisi (GST), birim temelli ücretler ve stopaj vergisi gibi dolaylı vergiler birçok türde destekler. Bu vergileri hesaplanır ve satınalma ve satış işlemleri sırasında belgelenmiştir. Düzenli olarak, bunlar bildirilen ve gerekir vergi kurumlarına ödenen. 
+Satış vergisi çerçevesi, farklı türlerdeki dolaylı vergileri destekler, örneğin satış vergisi, katma değer vergisi (KDV), ürün ve hizmet vergisi, birim tabanlı ücretler ve stopaj vergisi gibi. Bu vergiler, satın alma ve satış hareketleri sırasında hesaplanır ve belgelenir. Düzenli olarak vergi dairelerine bildirilmeleri ve ödenmeleri gerekir. 
 
 Aşağıdaki diyagram vergi varlıklarının kurulumunu ve nasıl ilişkilendirildiğini gösterir.
 
 [![TaxOverview](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
-Her bir şirket için dikkate almalı, için satış vergisi, satış vergisi kodunun tanımlanması gerekir. Bir satış vergisi kodu, bu satış vergisi için vergi oranlarını ve hesaplama kurallarını saklar. 
+Bir şirketin dikkate alması gereken tüm satış vergileri için, bir satış vergi kodu tanımlanması gerekir. Bir satış vergisi kodu, bu satış vergisi için vergi oranlarını ve hesaplama kurallarını saklar. 
 
 Her satış vergisi kodu, bir satış vergisi kapanış dönemine bağlanmalıdır. Satış vergisi kapatma dönemleri, satış vergisinin vergi dairesine bildirilmesi ve ödenmesi gereken tarihi tanımlar. Her satış vergisi kapatma dönemi bir satış vergisi kurumuna atanmalıdır. Satış vergi dairesi, satış vergisinin bildirildiği ve ödendiği varlığı temsil eder. Ayrıca satış vergisi raporunun düzenini de tanımlar. Satış vergisi makamları satıcı hesaplarıyla ilgili olabilir. 
 
@@ -69,26 +72,28 @@ Her hareket (satış/satınalma belgesi satırları, günlükler vb.) üzerinde,
 Her harekette, hesaplanan satış vergisine **Satış vergisi hareketi** sayfasını açarak bakabilirsiniz . Belgenin tamamını veya bir belge satırı için satış vergisi arayabilirsiniz. Bazı belgeler için (örneğin, satıcı faturası ve genel günlükler), özgün belge sapmış tutarlar gösteriyorsa, hesaplanan satış vergisi ayarlayabilirsiniz.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Satış vergisi kapatması ve deftere nakli
-Satış vergisi, vergi dairesine düzenlenen aralıklarla (aylık, üç aylık, vb.) bildirilmeli ve ödenmelidir. Microsoft Dynamics 365 işlemleri için vergi hesaplarını kapatmak için aralığı ve mahsup genel muhasebe nakil gruplarının belirtildiği gibi vergi mahsup hesabına bakiyeleri sağlayan işlevselliği sağlar. Bu işleve erişmek **kapatmak ve satış vergisi deftere** sayfa. Satış vergisi kapatma periyodunun satış vergisi ödenmesi için belirtmeniz gerekir. 
+Satış vergisi, vergi dairesine düzenlenen aralıklarla (aylık, üç aylık, vb.) bildirilmeli ve ödenmelidir. Microsoft Dynamics 365 for Operations, vergi hesaplarını aralık için kapatma ve vergi kapatma hesabındaki bakiyeleri mahsup etmeye, genel muhasebe nakil gruplarında belirtildiği gibi, olanak sağlan işlevsellik sağlar. Bu işleve **Satış vergisini kapatma ve deftere nakletme** sayfasında erişebilirsiniz. Satış vergisinin kapatılacağı satış vergisi kapatma dönemini belirtmeniz gerekir. 
 
 Satış vergisi ödemesi yapıldıktan sonra, satış vergisi kapatma hesabındaki bakiye, banka hesabına karşı dengelenmelidir. Eğer satış vergisi kapatma döneminde belirtilen satış vergisi dairesi, satıcı hesabıyla ilişkiliyse, satış vergisi bakiyesi bir açık satıcı faturası olarak nakledilir ve düzenli ödeme teklifine sahil edilebilir.
 
 ## <a name="conditional-sales-tax"></a>Koşullu satış vergisi
-Koşullu satış vergisi için ödenen gerçek fatura miktarına orantılı olarak ödenen bir satış vergisidir. Buna karşılık, Saat Faturalama sırasında standart satış vergisi hesaplanır. Koşullu satış vergisi ödemesi nakledildiğinde değil Fatura deftere nakledildiğinde satış vergi dairesine ödenmesi gereken. Faturayı deftere naklettiğinizde, hareketin satış vergisi defteri raporu üzerinde bildirilmelidir. Ancak, hareketin satış vergisi ödeme rapordan tutulması gerekir. 
+Koşullu satış vergisi, bir faturada ödenen gerçek tutara orantılı olarak ödenen bir satış vergisidir. Buna karşılık, standart satış vergisi, faturalama sırasında hesaplanır. Koşullu satış vergisi, vergi dairesine ödemenin nakledildiğinde ödenmesi gerekir, fatura nakledildiğinde değil. Fatura deftere nakledildiğinde, hareket satış vergisi defter raporu üzerinde bildirilmelidir. Ancak, hareketin satış vergisi ödeme raporundan hariç tutulması gerekir. 
 
-Genel muhasebe parametreleri formunda koşullu satış vergisi onay kutusunu seçerseniz, satış vergisi Fatura ödenene kadar kesinti. Bu, bazı ülkelerde/bölgelerde yasal bir gereksinimdir.
+Koşullu satış vergisi onay kutusunu Genel muhasebe parametreleri formunda seçerseniz, siz faturayı ödeyene kadar hiçbir satış vergisi kesintiye uğratılamaz. Bu bazı ülke/bölgelerde bir yasal zorunluluktur.
 
 > [!NOTE]
-> Koşullu satış vergisi onay kutusunu seçtiğinizde, satış vergisi kodları ve satış vergisi gruplarını ayarlamak ve genel muhasebe deftere nakil grupları, işlevlerini desteklemek için oluşturabilir. |
+> Koşullu satış vergisi onay kutusunu seçerseniz, bu işlevi desteklemek için satış vergisi kodları ve satış vergisi grupları ayarlamalı ve ayrıca genel muhasebe defteri nakletme grupları oluşturmalısınız. |
 
 ###  <a name="example"></a>Örnek
 
-Her ay satış vergilerini. 15 Haziran 10.000 artı vergi bir müşteri faturası oluşturun.
--   Satış vergisi, yüzde 25'i veya 2.500 değil.
--   Fatura ödeme 30 Temmuz'da olur.
+Satış vergisini her ay kapatırsınız. 15 Haziran'da 10.000 artı satış vergisi tutarında bir müşteri faturası oluşturuyorsunuz.
+-   Satış vergisi yüzde 2.500, ya da tutarının yüzde 25'idir.
+-   Fatura ödemesinin vadesi 30 Haziran'dır.
 
-Genellikle kapatmak ve Haziran ayında Fatura deftere nakledildiğinde müşteriden ödemeyi almamanız olsa da 2.500 vergi dairesine ödemek gerekirdi. 
+Fatura Haziran'da deftere nakledildiğinde genellikle kapatır ve 2.500'ü vergi dairesine ödersiniz, ödemeyi müşteriden almamış olsanız bile. 
 
-Ancak, bir koşullu satış vergisi kullanıyorsanız, ödeme müşteriden 30 Temmuz'da aldığınızda, vergi dairesi ile kapatın.
+Ancak, bir koşullu satış vergisi kullanıyorsanız, ödemeyi müşteriden 30 Temmuz'da aldığınızda, vergi dairesi ile kapatırsınız.
+
+
 
 

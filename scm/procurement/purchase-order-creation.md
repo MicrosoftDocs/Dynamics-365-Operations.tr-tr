@@ -33,7 +33,7 @@ Satınalma siparişi (PO) oluşturduğunuzda, siparişin tamamı hakkında genel
 
 Ayrıca başka bir PO belgesinden veya bir satış siparişinden satırlar kopyalayarak da PO'lar oluşturabilirsiniz. Bu durumda, alacağı göstermek için fatura üzerinde işareti tersine çevireceğiniz gibi stoktaki işareti de tersine çevirebilirsiniz.  
 
-PO'ları el ile oluşturabilirsiniz ancak daha çok diğer işlemlerden oluşturulurlar. Siparişler talepler gibi diğer belgelere göre otomatik olarak oluşturulabilir. Alternatif olarak, bunlar master planlama planlı POs sürecinde bir parçası olarak oluşturulabilir. Tarafından satın alma anlaşmaları kullanırsanız, POs oluşturulabilir **serbest bırakma emri** eylem. Otomatik olarak bir PO oluşturmak için daha gelişmiş yöntemler de vardır. Örneğin, doğrudan teslimi veya şirketlerarası sipariş zincirlerini kullanarak siparişleri oluşturabilirsiniz.
+PO'ları el ile oluşturabilirsiniz ancak daha çok diğer işlemlerden oluşturulurlar. Siparişler talepler gibi diğer belgelere göre otomatik olarak oluşturulabilir. Alternatif olarak, planlı satınalma siparişleri sürecinde master planlamanın bir parçası olarak oluşturulabilir. Satınalma sözleşmeleri kullanırsanız, satınalma siparişleri **Siparişi serbest bırakma** eylemi tarafından oluşturulabilir. Otomatik olarak bir PO oluşturmak için daha gelişmiş yöntemler de vardır. Örneğin, doğrudan teslimi veya şirketlerarası sipariş zincirlerini kullanarak siparişleri oluşturabilirsiniz.
 
 ## <a name="creating-a-purchase-order-header"></a>Satınalma siparişi başlığı oluşturma
 Yeni bir PO oluşturduğunuzda PO başlığı için en sık kullanılan bilgileri girebileceğiniz bir iletişim kutusu görüntülenir. İletişim kutusunu kapatmak için **Tamam** 'a tıkladığınızda sipariş oluşturulur ve sonra başlıkta ek bilgileri belirtebilirsiniz.  
@@ -84,7 +84,7 @@ Bir PO'nun tamamlanmasını geciktirmek zorunda kalabilirsiniz. Örneğin, ürü
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Satınalma siparişine genel bakış](purchase-order-overview.md)
 
 [Satınalma siparişi onayı ve doğrulaması](purchase-order-approval-confirmation.md)
 

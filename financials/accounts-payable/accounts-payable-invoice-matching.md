@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-payable-invoice-matching"></a>Borç hesapları fatura eşleşmesi
 
+[!include[banner](../includes/banner.md)]
+
+
 Borç hesapları faturası eşleştirme, satıcı faturasını, satın alma siparişini ve ürün alındı bilgilerini eşleştirme işlemidir.
 
 Belgeler eşleştirilirken, aralarındaki farklara eşleştirme uyuşmazlıkları denir. Eşleştirme uyuşmazlıkları, belirtilen toleranslarla karşılaştırılır. Bir eşleştirme uyuşmazlığı tolerans yüzdesini veya tutarını aşarsa, Satıcı faturası sayfasında ve Fatura geçmişi eşleştirme ayrıntıları sayfasında eşleşme farkı simgeleri görüntülenir. 
@@ -48,9 +51,9 @@ Borç hesapları fatura eşleştirmesi için aşağıdaki türleri kullanabilirs
 
 İki yönlü eşleştirme ve üç yönlü eşleştirme her zaman fiyat bilgilerini birim fiyata göre eşleştirir. Bu eşleştirme ilkelerini fiyat bilgisini, fiyat toplamına eşleştirmek üzere de yapılandırabilirsiniz.
 -   NET birim fiyatı eşleştirme – İki yönlü eşleştirme ve üç yönlü eşleştirme için fiyat bilgisini, faturanın üzerindeki her bir satır için net birim fiyatı, satınalma siparişi üzerinde karşılık gelen net birim fiyatı ile eşleştirerek gerçekleştirin. Net birim fiyat aşağıdaki formül kullanılarak belirlenir: Satırın net tutarı / Satırın miktarı
--   Fiyat toplamları eşleştirme – İki yönlü eşleştirme ve üç yönlü eşleştirme için fiyat bilgisini, faturanın üzerindeki her bir satır için net tutarı (fiyat toplamı), satınalma siparişi üzerinde karşılık gelen net tutar ile eşleştirerek gerçekleştirin. Net tutarı aşağıdaki formülle belirlenir: (birim fiyat \*satır miktar) + satır giderlerini - satır iskontoları
+-   Fiyat toplamları eşleştirme – İki yönlü eşleştirme ve üç yönlü eşleştirme için fiyat bilgisini, faturanın üzerindeki her bir satır için net tutarı (fiyat toplamı), satınalma siparişi üzerinde karşılık gelen net tutar ile eşleştirerek gerçekleştirin. Net tutar aşağıdaki formül kullanılarak belirlenir: (Birim fiyat \* Satır miktarı) + Satır giderleri - Satır indirimleri
 
-Genellikle, satıcı fatura sayfasındaki satıcı faturalarını düzenlerken fatura eşleştirme hesaplamaları otomatik olarak gerçekleştirilir. Alternatif olarak, fatura eşleştirmesi, gerektiği takdirde isteğe bağlı gerçekleştirilebilir. İsteğe bağlı olarak eşleşen fatura için bir tüzel kişilik tarafından denetlenir hesaplarına borç parametreleri sayfa fatura doğrulama sekmesinde Fatura başlığı durumu için'otomatik olarak güncelleştir. Fatura eşleşen bir fatura gözden geçirme işleminin parçası olarak yapılabilir. Fatura eşleştirmenin sonuçlarını satıcı fatura sayfasında ve ilgili fatura eşleştirme sayfalarında da görüntüleyebilirsiniz.
+Genellikle, satıcı fatura sayfasındaki satıcı faturalarını düzenlerken fatura eşleştirme hesaplamaları otomatik olarak gerçekleştirilir. Alternatif olarak, fatura eşleştirmesi, gerektiği takdirde isteğe bağlı gerçekleştirilebilir. Tüzel varlık için isteğe bağlı fatura eşleştirme, Otomatik güncelleştirilen fatura üst bilgisi durumu Giden tarafından fatura doğrulama sekmesindeki Borç hesapları parametreleri sayfasında denetlenir. Fatura eşleştirme, aynı zamanda bir fatura gözden geçirme işleminin parçası olarak da gerçekleştirilebilir. Fatura eşleştirmenin sonuçlarını satıcı fatura sayfasında ve ilgili fatura eşleştirme sayfalarında da görüntüleyebilirsiniz.
 
 ## <a name="invoice-totals-matching"></a> Fatura toplamları eşleştirme
 Fatura toplamları eşleştirmesini, toplam fatura tutarlarının beklenen tutarlar ile aralarındaki farkın kabul edilebilir bir düzeyden fazla olmadığından emin olmak için kullanabilirsiniz. Aşağıdaki tabloda gösterildiği gibi, altı toplam Fatura toplamları eşleştirme detayları sayfasında karşılaştırılır. Fatura toplamları için izin verilebilir tolerans %20 ise, toplam iskonto tutarı yüzdesindeki %100'lük fark bir eşleştirme tutarsızlığı olarak kabul edilir.
@@ -165,7 +168,7 @@ Fatura eşleştirme detayları sayfasında, iki yönlü eşleştirmede kullanıl
 Tüzel kişilik için üç yönlü eşleştirme, Borç hesapları parametreleri sayfasındaki Satır eşleştirme ilkesi alanı tarafından denetlenir. Eşleştirme ilkesi geçersiz kılmaya izin ver alanındaki seçime göre, Eşleştirme ilkesi sayfasındaki belirli bir satıcı, madde veya madde ve satıcı kombinasyonu için ve Satınalma siparişi sayfasındaki belirli bir satınalma siparişi için üç yönlü eşleştirme seçilebilir.
 
 ## <a name="charges-matching"></a> Gider eşleştirme
-Gider eşleştirmesini, gider tutarlarının beklenen tutarlar ile aralarındaki farkın kabul edilebilir bir yüzdeden fazla olmadığından emin olmak için kullanabilirsiniz. Karşılaştırma giderler değerleri - fatura fatura ve satınalma siparişi için geçerlidir her masraf kodu için toplam tutarları karşılaştırılır: sayfa, aşağıdaki tabloda gösterildiği gibi. Gider kodu için izin verilebilir tolerans %25 ise, Lisans giderleri kodu yüzdesindeki %99,999,999,999.99'lük fark bir eşleştirme tutarsızlığı olarak kabul edilir.
+Gider eşleştirmesini, gider tutarlarının beklenen tutarlar ile aralarındaki farkın kabul edilebilir bir yüzdeden fazla olmadığından emin olmak için kullanabilirsiniz. Faturaya ve satınalma siparişine uygulanan her bir gider kodu için toplam tutarlar, Gider değerlerini karşılaştır - Fatura: sayfasında, aşağıdaki tabloda gösterildiği gibi karşılaştırılır. Gider kodu için izin verilebilir tolerans %25 ise, Lisans giderleri kodu yüzdesindeki %99,999,999,999.99'lük fark bir eşleştirme tutarsızlığı olarak kabul edilir.
 
 > [!NOTE] 
 > %99,999,999,999.99'lük bir varyans yüzdesi farkı, satınalma siparişine göre beklenen tutarın sıfır olduğunu ve faturadaki gerçek tutarın pozitif bir değer olduğu anlamına gelir. 
@@ -188,7 +191,9 @@ Satıcı faturaları, genellikle satınalma siparişlerine göre değil gerçek 
 -   Satıcıdan alınan fatura fatura bilgileri ile eşleşen orijinal satınalma siparişine dahil edilmeyen fatura tutarlarını girin. Satınalma siparişleri için giderleri, faturalar için giderlerle karşılaştırabilirsiniz. Gerekirse, faturalara giderler ekleyebilir ve bunları fatura satırlarına tahsis edebilirsiniz.
 -   Fatura net birim fiyatı ve satınalma siparişi net birim fiyatı arasındaki fiyat eşleşme tutarsızlıklarını görüntüleyin ve onaylayın. Tüzel kişiliğiniz, maddeler, satıcılarınız için fiyat toleransı yüzdeleri ayarlayabilirsiniz. Satıcı faturası satır fiyatı kabul edilebilir fiyat tolerans içinde değilse, faturayı deftere nakil işleminde onaylanana kadar veya düzeltmeyi satıcıdan alana kadar kaydedebilirsiniz.
 
-Daha fazla bilgi için bkz: [üç yollu eşleşen ilkeleri](three-way-matching-policies.md).
+Daha fazla bilgi için bkz: [Üç yollu eşleştirme ilkeleri](three-way-matching-policies.md).
+
+
 
 
 

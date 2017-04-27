@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Harici satıcılarla satıcı iş birliği
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu konu, satınalma aracılarının satınalma siparişleri ve konsinye stok hakkında bilgileri paylaşmak için harici satıcılarla nasıl iş birliği yapabileceğini açıklar.
 
 **Satıcı iş birliği** modülü Microsoft Dynamics 365 for Operations ile elektronik veri alış verişi (EDI) tümleştirmesi olmayan satıcılar için tasarlanmıştır. Satıcıların satınalma siparişi, fatura ve konsinye stoğu bilgileriyle çalışmasına olanak tanır. Bu konuda SS'ler ve konsinye stokla çalışmak için satıcı iş birliği arabirimini kullanan harici satıcılarla nasıl iş birliği yapabileceğiniz açıklanmaktadır. Ayrıca belirli bir satıcının satıcı iş birliğini kullanmak üzere nasıl etkinleştirileceği ve tüm satıcıların bir SS'ye yanıt verdiklerinde görecekleri bilgilerin nasıl tanımlanacağı da açıklanır. Satıcıların harici satıcı iş birliği arabiriminde yapabilecekleri hakkında daha fazla bilgi için bkz. [Müşterilerle satıcı iş birliği](vendor-collaboration-work-customers-dynamics-365-operations.md).  
@@ -64,11 +67,11 @@ Birim fiyatı, iskontolar ve masraflar gibi fiyat bilgilerini paylaşmak isterse
 ## <a name="work-with-pos-when-using-vendor-collaboration"></a>Satıcı iş birliği kullanırken SS'lerle çalışma
 ### <a name="sending-a-po-to-the-vendor"></a>Satıcıya SS gönderme
 
-Satınalma siparişleri Dynamics 365 for Operations içinde hazırlanır. Durumu olduğunda PO **Onaylandı**, kullanarak satıcıya göndermek ** onay için gönderme ** eylem **satınalma siparişi** sayfa. SS durumu **Dış İncelemede** olarak değişir. SS gönderildikten sonra satıcı bu siparişi satıcı iş birliği arabiriminde siparişi kabul edebileceği, reddedebileceği veya değişiklik önerebileceği **İncelenecek satınalma siparişleri** sayfasında görebilir. Satıcı, PO'da yapılan değişiklikler gibi bilgileri bildirmek için açıklama da ekleyebilir. Satıcının ilgisini yeni bir PO'ya çekmek istiyorsanız, PO'yu e-postayla göndermek için yazdırma yönetimi sistemini de kullanabilirsiniz.
+Satınalma siparişleri Dynamics 365 for Operations içinde hazırlanır. Satınalma siparişinin durumu **Onaylandı** iken, **Satınalma siparişi** sayfasındaki **Onay için gönder** eylemini kullanarak satıcıya gönderirsiniz. SS durumu **Dış İncelemede** olarak değişir. SS gönderildikten sonra satıcı bu siparişi satıcı iş birliği arabiriminde siparişi kabul edebileceği, reddedebileceği veya değişiklik önerebileceği **İncelenecek satınalma siparişleri** sayfasında görebilir. Satıcı, PO'da yapılan değişiklikler gibi bilgileri bildirmek için açıklama da ekleyebilir. Satıcının ilgisini yeni bir PO'ya çekmek istiyorsanız, PO'yu e-postayla göndermek için yazdırma yönetimi sistemini de kullanabilirsiniz.
 
 ### <a name="confirmation-and-acceptance-of-the-po-by-the-vendor"></a>SS'nin satıcı tarafından onaylanması ve kabul edilmesi
 
-Satıcı bir satınalma siparişini kabul ettiğinde, SS otomatik olarak onaylanabilir veya el ile onaylanması gerekebilir. Bu bağlıdır ** satıcı etkinleştirme ** ayarlanırsa **etkin (PO otomatik teyit)** satıcısının veya çok **etkin (PO değil otomatik teyit)**.  
+Satıcı bir satınalma siparişini kabul ettiğinde, SS otomatik olarak onaylanabilir veya el ile onaylanması gerekebilir. Bu durum **Satıcı etkinleştirme** alanının satıcı için **Etkin (SS otomatik olarak onaylanır)** veya **Etkin (SS otomatik olarak ayarlanmaz)** seçeneklerinden hangisine ayarlandığına bağlıdır.  
 
 Aşağıdaki tabloda onay için SS gönderdiğinizde satıcının verdiği yanıta bağlı olarak, tipik bilgi alışverişi gösterilmektedir.
 
@@ -95,19 +98,19 @@ Aşağıdaki tabloda onay için SS gönderdiğinizde satıcının verdiği yanı
 <td>Satıcı yanıtı <strong>Reddedildi</strong> olarak kaydedilir ve PO'nun durumu <strong>Dış İncelemede</strong> olarak kalır. Reddetme yanıtı satıcıların notu ile birlikte alınır.</td>
 </tr>
 <tr class="odd">
-<td>Satıcı <strong>değişikliklerle sipariş kabul</strong>. Değişiklikleri satır düzeyinde önerilir. Satırları tek tek kabul etmek veya reddetmek mümkündür. Diğer olası değişiklikler şunları içerir:
+<td>Satıcı siparişi <strong>değişikliklerle kabul eder</strong>. Değişiklikler satır düzeyinde önerilir. Satırları tek tek kabul etmek veya reddetmek mümkündür. Diğer olası değişiklikler şunları içerir:
 <ul>
 <li>Tarihleri veya miktarları değiştirebilirsiniz.</li>
 <li>Farklı teslimat tarihleri veya miktarlar için satırları bölebilirsiniz.</li>
 <li>Madde değiştirebilirsiniz.</li>
 </ul>
 Fiyat bilgileri ve masraflar satıcı tarafından değiştirilemez. Bunlar için yapılan değişiklik önerilerinde notlar kullanılabilir.</td>
-<td>Satıcı yanıt olarak kayıtlı <strong>değişikliklerle kabul</strong>, <strong></strong>ve SS durumu kalır <strong>içinde dış İnceleme</strong>.</td>
+<td>Satıcı yanıtı <strong>Değişikliklerle kabul edildi</strong> olarak kaydedilir<strong> </strong>ve SS'nin durumu <strong>Dış İncelemede</strong> olarak kalır.</td>
 </tr>
 </tbody>
 </table>
 
-Kullanabileceğiniz **satınalma siparişi****hazırlık** satıcı yanıt için hangi POs izlemek için çalışma alanı. Bu çalışma durumundaki satınalma siparişleri içeren iki listeleri içeren **içinde dış İnceleme**:
+Satıcının hangi satınalma siparişlerini yanıtladığını izlemek için **Satınalma siparişi** **hazırlığı** çalışma alanını kullanabilirsiniz. Bu çalışma alanında, durumu **Dış İncelemede** olan satınalma siparişlerinin yer aldığı iki liste bulunur:
 
 -   Dış incelemede eylem gerektirir.
 -   Dış incelemede satıcı yanıtı bekliyor.
@@ -125,7 +128,7 @@ Bir SS'yi iptal ettiğinizde durum yeniden **Onaylandı** olarak değiştirilir.
 SS'ye dosya, görüntü ve not gibi ekleri belge yönetim sistemini kullanarak ekleyebilirsiniz. **Dış** kısıtlama türüyle eklenen ekler SS'yi gönderdiğinizde satıcı için görünür hale gelir.
 
 ## <a name="purchase-order-statuses-and-versions"></a>Satınalma siparişi durumları ve sürümleri
-Bu bölümde, bir SS'nin onaylandığı ana kadar alabileceği farklı durumlar ve SS'nin yeni sürümlerinin satıcı için görünür hale getirildiği noktalar açıklanmaktadır. Bu, satınalma siparişleri için değişiklik Yönetimi kullanıp bağlı olarak farklılıklar vardır. 
+Bu bölümde, bir SS'nin onaylandığı ana kadar alabileceği farklı durumlar ve SS'nin yeni sürümlerinin satıcı için görünür hale getirildiği noktalar açıklanmaktadır. Burada, satınalma siparişleri için değişiklik yönetimini kullanıp kullanamadığınıza bağlı olarak farklılıklar vardır. 
 
 ### <a name="versions-and-statuses-if-you-dont-use-change-management"></a>Değişiklik yönetimi kullanmadığınızda sürümler ve durumlar
 
@@ -168,6 +171,8 @@ Konsinye stok kullanıyorsanız, satıcılar aşağıdaki sayfalarda bilgileri g
 -   **Konsinye stoğu tüketen satınalma siparişleri** - Konsinye stok için yapılan satınalma siparişleri stoğun sahipliği satıcıdan şirketinize geçtiğinde oluşturulur. Aynı anda bir ürün girişi deftere nakledilir. Bu konsinye satınalma siparişleri yalnızca **Konsinye stoğu tüketen satınalma siparişleri** sayfasında görüntülenir. Bu siparişler, **Satıcı iş birliği** modülündeki **Tüm onaylanan satınalma siparişleri** sayfasına dahil edilmez.
 -   **Konsinye stoktan alınan ürünler** - Bu sayfa, ürünlerin sahipliğinin satıcıdan şirketinize aktarıldığı tüm hareketleri listeler. Satıcılar bu bilgiyi müşteriye faturalamak için kullanabilir.
 -   **Eldeki konsinye stok** - Bu sayfa ambarınıza girişi yapılan müşterinin sahip olduğu eldeki konsinye stoğu gösterir.
+
+
 
 
 

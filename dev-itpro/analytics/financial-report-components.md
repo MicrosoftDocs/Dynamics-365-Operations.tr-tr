@@ -101,7 +101,7 @@ Mevcut bir yapı taşı grubunu yeni bir ad ile kaydedebilirsiniz. Ardından, or
 
 ### <a name="export-a-building-block-group"></a> Bir yapı taşı grubunu dışa aktarma
 
-Bir yapı taşını grubu veya bir yapı taşı grubunda belirli rapor yapı taşları verebilirsiniz. Yedek olarak verilen yapı taşı grubu kullanabilirsiniz. Yapı Taşı grupları veya Dynamics 365 arasında verilen veri işlemleri yüklemeler için de kopyalayabilirsiniz. Yapı Taşı grubu ile birlikte boyut kümeleri ve Rapor Tasarımcısı başvurulan yazı tipi stilleri içerir.
+Bir yapı taşı grubunu veya bir yapı taşı grubundaki belirli rapor yapı taşlarını dışa aktarabilirsiniz. Dışa aktarılan yapı taşı gruplarını yedek olarak kullanabilirsiniz. Dışa aktarılan veriyi yapı taşları grupları arasında veya Dynamics 365 for Operations kurulumları arasında kopyalayabilirsiniz. Rapor tasarımcısı, yapı taşı grubuyla birlikte başvurulan yazı tipi stillerini ve boyut kümelerini içerir.
 1.  Rapor Tasarımcısında, **Şirket** menüsündeki **Yapı Taşı Grupları** öğesini tıklayın.
 2.  **Yapı Taşı Grupları** iletişim kutusunda, dışa aktarılacak yapı taşı grubunu seçin ve ardından **Dışa Aktar** öğesini tıklayın.
 3.  **Dışa Aktar** iletişim kutusunda, dışa aktarılacak rapor tanımlarını seçin:

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="three-way-matching-policies"></a>Üç yönlü eşleştirme ilkeleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede üç yönlü eşleştirme örnekleri sağlanmıştır.
 
 <a name="example-three-way-matching-for-items"></a>Örnek: Maddeler için üç yönlü eşleştirme
@@ -62,7 +65,7 @@ Bu örnekteki fatura eşleştirme ilkeleri aşağıdaki rollerde görev yapan ki
 1.  Fabrikam'da alım departmanındaki bir çalışan olan Sammy, Contoso tarafından sevk edilen makinelerin toplam miktarını alır. Ürün girişine miktar olarak 5 girer. Satınalma siparişi tam olarak alındığından, satınalma siparişinin durumu Alındı olarak değişir.
 2.  Fabrikam'da borç hesapları koordinatörü olan April, Contoso tarafından gönderilen faturayı girer ve doğrular. April aşağıdaki bilgileri doğrular:
     -   Üç yönlü eşleştirme gerektiren maddeler için fatura satırındaki miktarın alınan miktarla eşleştiğini. Ürün girişinde belirtilen alınan miktarın faturayla eşleştiğini.
-    -   Çift yönlü veya üç yollu eşleşen gerektiren maddeler için Operations.This fiyat eşleştirme aşağıdaki türleri içerir, Microsoft Dynamics 365 içinde tanımlanan tolerans içinde faturada fiyatları şunlardır:
+    -   İki yönlü veya üç yönlü eşleştirme gerektiren maddeler için, fatura satırındaki fiyatlar Microsoft Dynamics 365 for Operations'ta tanımlanan toleranslar aralığındadır. Bu, aşağıdaki fiyat eşleştirme türlerini kapsar:
         -   Net birim fiyatı eşleştirme – Fatura satırındaki net birim fiyatı, satınalma siparişi satırındaki net birim fiyatla, tolerans yüzdesi aralığında eşleşir. Bu örnekte, net birim fiyat toleransı +%8'dir.
         -   Fiyat toplamları eşleştirme – Fatura satırlarındaki net tutar, tolerans yüzdesi, tutarı veya yüzde ve tutarı kapsamında satınalma siparişi satırındaki net tutarla eşleşir. Bu örnekte, fiyat toplamları eşleştirme toleransı +%15'dir.
 
@@ -71,11 +74,11 @@ Contoso'nun gönderdiği basılı fatura aşağıdaki bilgileri içerir.
 | Madde                        | Miktar | Birim fiyat | Net tutar |
 |-----------------------------|----------|------------|------------|
 | 1500 – CNC Milicron Makine | 5        | 8.100,00   | 40.500,00  |
-| Sevkiyat ve ambalaj       |          |            | 4.000,00   |
+| Sevkiyat ve ambalaj       |          |            | 4,000.00   |
 | Vergi                         |          |            | 0,00       |
-| Toplam                       |          |            | 44.500,00  |
+| Toplam                       |          |            | 44,500.00  |
 
-İşlemler için Microsoft Dynamics 365 fatura satırının aşağıdaki bilgileri içerir.
+Microsoft Dynamics 365 for Operations'ta, fatura satırı aşağıdaki bilgileri içerir.
 
 | Madde kodu                 | Miktar | Birim fiyat | Satır net tutarı | Eşleme ilkesi    | Ürün girişi miktar eşleşmesi | Fiyat eşleme | Fiyat toplamı eşleştirme |
 |-----------------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -111,7 +114,7 @@ Bu örnekteki fatura eşleştirme ilkeleri aşağıdaki rollerde görev yapan ki
 1.  Maddeler gelir. Fabrikam Malezya bölümünde alım departmanında çalışan Sammy işe ara vermiştir ve ürün girişini hemen deftere nakletmez.
 2.  Fabrikam'da borç hesapları koordinatörü olan April, Contoso tarafından gönderilen faturayı girer ve doğrular. April aşağıdaki bilgileri doğrular:
     -   Üç yönlü eşleştirme gerektiren maddeler için fatura satırındaki miktarın alınan miktarla eşleştiğini. Ürün girişinde belirtilen alınan miktarın faturayla eşleştiğini.
-    -   Çift yönlü veya üç yollu eşleşen gerektiren öğeler fiyatları fatura satırındaki Microsoft Dynamics 365 işlemleri için tanımlanan tolerans içinde olan. Bu fiyat eşleştirme aşağıdaki türleri içerir:
+    -   İki yönlü veya üç yönlü eşleştirme gerektiren maddeler için, fatura satırındaki fiyatlar Microsoft Dynamics 365 for Operations'ta tanımlanan toleranslar aralığındadır. Bu aşağıdaki fiyat eşleştirme türlerini içerir:
         -   Net birim fiyatı eşleştirme – Fatura satırındaki net birim fiyatı, satınalma siparişi satırındaki net birim fiyatla, tolerans yüzdesi aralığında eşleşir. Bu örnekte, net birim fiyat toleransı +%2'dir.
         -   Fiyat toplamları eşleştirme – Fatura satırlarındaki net tutar, tolerans yüzdesi, tutarı veya yüzde ve tutarı kapsamında satınalma siparişi satırındaki net tutarla eşleşir. Bu örnekte, fiyat toplamları eşleştirme toleransı +%10'dir.
 
@@ -121,10 +124,10 @@ Contoso'nun gönderdiği basılı fatura aşağıdaki bilgileri içerir.
 |-----------------------|----------|------------|------------|
 | PH2500 – Bilgisayar     | 2        | 2,500,00   | 5.000,00   |
 | MM01 – Kablosuz Fare | 2        | 41,00      | 82,00      |
-| USB Sürücü             | 200      | 10,05      | 2.010,00   |
-| Toplam fatura         |          |            | 7.092,00   |
+| USB Sürücü             | 200      | 10.05      | 2,010.00   |
+| Toplam fatura         |          |            | 7,092.00   |
 
-İşlemler için Microsoft Dynamics 365 fatura satırının aşağıdaki bilgileri içerir.
+Microsoft Dynamics 365 for Operations'ta, fatura satırı aşağıdaki bilgileri içerir.
 
 | Madde kodu           | Miktar | Birim fiyat | Satır net tutarı | Eşleme ilkesi    | Ürün girişi miktar eşleşmesi | Fiyat eşleme | Fiyat toplamı eşleştirme |
 |-----------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -140,6 +143,8 @@ Aşağıdaki öğeleri not alın:
 Deftere fatura eşleştirme uyuşmazlıklarıyla nakledilecek faturalar için onay gerekiyorsa, faturanın fiyat eşleştirme hataları ve miktar eşleştirme hatalarıyla nakledilebilmesi için Fatura eşleştirme ayrıntıları sayfasındaki Eşleştirme uyuşmazlıklarıyla deftere nakli onayla seçeneğinin seçilmesi gerekir. Onay gerekli değilse, başka bir deftere nakil hatası olmaması durumunda fatura işleme devam edebilir.
 
 
-Daha fazla bilgi için bkz: [hesapları eşleştirme borçları fatura](accounts-payable-invoice-matching.md).
+Daha fazla bilgi için bkz. [Borç hesapları fatura eşleşmesi](accounts-payable-invoice-matching.md).
+
+
 
 

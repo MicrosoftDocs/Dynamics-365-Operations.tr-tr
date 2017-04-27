@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="prepayment-invoices-vs-prepayments"></a>Ön ödeme faturaları - ön ödemeler
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede kuruluşların peşin ödemeler (ödemeler) için kullanabileceği iki yöntem açıklanmış ve karşılaştırılmıştır. Birinci yöntemde bir satın alma emriyle ilişkilendirilmiş bir ön ödeme faturası oluşturursunuz. İkinci yöntemde ise günlük girişleri oluşturup ön ödeme günlüğü fişleri olarak işaretleyerek ön ödeme günlüğü fişleri oluşturursunuz.
 
 Kuruluşlar, satıcılara mal veya hizmetleri için bu mal veya hizmetler karşılanmadan önce ön ödeme (avans ödeme) yapabilirler. Satıcılara ön ödeme yapmak için iki yöntem kullanılabilir. Riski en aza indirmek için, bir satınalma emrine ön ödeme tanımlayarak ön ödemeleri izleyebilirsiniz. Bu yöntem için satınalma emriyle ilişkilendirilmiş bir ön ödeme faturası oluşturmanız gerekir. Bu yöntem ön ödeme faturalandırması olarak adlandırılır. Ön ödemeleri yakında takip etmek istemeyen veya satıcılarından ön ödeme faturası almayan kuruluşlar, ön ödeme faturalandırması yöntemi yerine ön ödeme günlüğü fişleri kullanabilirler. Günlük girişleri oluşturup ön ödeme günlüğü fişleri olarak işaretleyerek ön ödeme günlüğü fişleri oluşturabilirsiniz. Bu yöntemde, bir satıcıya hangi ön ödemelerin hangi satınalma emirlerine karşı yapıldığını takip edemezsiniz. Ancak, deftere nakledilen bir ön ödemeyi bir satınalma emrine karşı kapatma olarak işaretleyebilirsiniz.
@@ -47,9 +50,9 @@ Birçok ülkedeki/bölgedeki muhasebe uygulamaları, müşteriden satıcıya yap
 1.  Ön ödemeler için deftere nakil profilleri ayarlayın.
 2.  Alacak hesapları parametreleri Borç hesapları parametrelerinde, **Genel muhasebe ve satış vergisi** altında, **Ön ödemeli ödeme günlüğü için deftere nakil profili** parametresini kullanarak yeni deftere nakil profilini seçin.
 3.  Bir ödeme günlüğü oluşturun, sonra da yeni ödeme oluşturun.
-4.  Ödemeyi ön ödeme olarak işaretleyebilirsiniz. Ödeme avans olarak işaretlenmişse, ödeme 1 ve 2. adımlarda ayarlanan deftere nakil profilinde tanımlanan genel muhasebe hesaplarına nakledilir. Ödeme avans olarak işaretlenmişse, ayrıca, vergileri hesaplanır. Bazı devletler, bir ön ödeme kaydedildiğinde, fatura olmasa bile vergilerin ödenmesini gerekir.
+4.  Ödemeyi ön ödeme olarak işaretleyebilirsiniz. Bir ödeme ön ödeme olarak işaretlenmişse ödeme, 1 ve 2. adımlarda ayarladığınız deftere nakil profilinde tanımlanan genel muhasebe hesaplarına nakledilir. Ek olarak, ödeme ön ödeme olarak işaretlenmişse, vergiler de hesaplanır. Bazı devletler, bir ön ödeme kaydedildiğinde, fatura olmasa bile vergilerin ödenmesini gerekir.
 5.  Ön ödemeyi nakledin.
-6.  İsteğe bağlı: fatura oluşturmadan önce satınalma siparişi veya satış siparişi karşı peşinat kapatabilir. Satış siparişi veya satınalma siparişi sayfasında, eylem bölmesinde, kullanın **kapatma hareketleri**.
+6.  İsteğe bağlı: Faturayı oluşturmadan önce ön ödemeyi satınalma siparişine veya satış siparişine karşılık kapatabilirsiniz. Satış siparişi veya satınalma siparişi sayfasında, Eylem bölmesindeki **Hareketleri kapat**'ı kullanın.
 7.  Satıcı mal veya hizmetleri teslim ettikten sonra faturayı kaydedin. 6. adımda satınalma emrine veya satış emrine karşı ön ödemeyi kapattıysanız, ön ödeme oluşturduğunuz faturaya karşı otomatik olarak kapatılır. Satınalma emrine veya satış emrine karşı ön ödemeyi kapatmadıysanız, müşteri veya satıcı sayfasındaki **Hareketleri kapat** seçeneğini kullanarak, faturaya karşı manuel olarak kapatabilirsiniz. Ardından ön ödeme tutarı, geçici olarak AP/AR genel muhasebesinden tersine çevrilir. Ek olarak, vergiler hesaplandıysa bunlar tersine çevrilir çünkü fatura gerçek vergileri içerir.
 
 ## <a name="overview-of-the-prepayment-invoicing-process"></a>Ön ödeme faturalandırma işlemine genel bakış
@@ -60,6 +63,8 @@ Birçok ülkedeki/bölgedeki muhasebe uygulamaları, müşteriden satıcıya yap
 3.  Borç hesapları koordinatörü, satınalma emrine karşı ön ödeme faturasını kaydeder ve ardından ön ödeme faturası ödenir.
 4.  Satıcı mal veya hizmetleri sağladıktan ve ilgili satıcı faturaları alındıktan sonra, Borç hesapları koordinatörü faturaya karşı zaten ödenmiş olan ön ödeme tutarını uygular.
 5.  Borç hesapları koordinatörü faturanın kalan tutarını öder ve kapatır.
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Standart maliyetleri imalat dışı bir ortamda güncelleme
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, imalat dışı bir ortamda standart maliyetlerin güncellenmesine yönelik yönergeler sağlanmıştır.
 
 Aşağıdaki yönergelerde, standart maliyeti iki sürümlü bir yaklaşım kullanarak güncellediğiniz varsayılmaktadır. Bu yaklaşımda bir maliyet sürümü orijinal olarak donmuş dönem için tanımlanmış olan standart maliyetleri, ikinci maliyetlendirme sürümü ise artımlı güncellemeleri içerir. Her güncelleme, ikinci maliyetlendirme sürümüne alınmış bir maliyet kaydı olarak girilir ve nihayetinden etkinleştirilir. Bir alternatif, orijinal olarak tanımlanmış olan standart maliyetler kümesini kullanan tek sürümlü yaklaşımdır. İki sürümlü yaklaşım ikinci bir maliyetlendirme sürümü tanımlamanızı gerektirir. Bu maliyetlendirme sürümünü tanımlamaya yönelik yönergeler şunlardır:
@@ -46,6 +49,8 @@ Yeni maddeler için standart maliyetleri düzeltmek, ayarlamak veya güncellemek
 4.  İkinci maliyetlendirme sürümüne alınmış bekleyen maliyet kayıtlarının etkinleştirilmesine izin vermek için engelleme bayrağını değiştirmek üzere **Maliyetlendirme sürüm bakımı** sayfasını kullanın.
 5.  İkinci maliyetlendirme sürümüne alınmış tüm bekleyen madde maliyet kayıtlarını etkinleştirmek için **Etkin fiyatlar** sayfasını (**Maliyetlendirme sürüm bakımı** sayfasından açabilirsiniz) kullanın. Tek tek maddelere yönelik bekleyen maliyet kayıtlarını **Madde fiyatı** sayfasında **Bekleyen fiyatı etkinleştir** düğmesine tıklayarak da etkinleştirebilirsiniz.
 6.  Ek veri bakımını önlemek için, **Maliyetlendirme sürümü ayarları** sayfasını kullanarak ikinci maliyetlendirme sürümüne alınmış engelleme bayraklarını değiştirin. Durdurma ilkeleri yeni bekleyen maliyetler girilmesini ve bekleyen maliyetlerin etkinleştirilmesini önler.
+
+
 
 
 

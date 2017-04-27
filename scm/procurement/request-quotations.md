@@ -1,5 +1,5 @@
 ---
-title: "Teklifler (RFQs) için istek"
+title: Teklif talepleri (RFQ&quot;lar)
 description: "Bu makalede, madde veya hizmet satın almak zorunda olduklarında ve sayısız satıcıdan rekabetçi teklifler almak istediklerinde kuruluşların çıkardığı teklif taleplerine (RFQ&quot;ler) genel bakış sunulmuştur. Bir RFQ&quot;da, satıcılardan belirlediğiniz madde miktarları için fiyat ve teslimat süreleri vermelerini istersiniz. Satıcılardan, nakliye maliyetleri ya da büyük siparişler için indirimler veya satıcı faturalarının erken ödenmesi gibi dolaylı giderler olup olmadığını belirtmelerini de isteyebilirsiniz."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="request-for-quotations-rfqs"></a>Teklifler (RFQs) için istek
+# <a name="request-for-quotations-rfqs"></a>Teklif talepleri (RFQ'lar)
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, madde veya hizmet satın almak zorunda olduklarında ve sayısız satıcıdan rekabetçi teklifler almak istediklerinde kuruluşların çıkardığı teklif taleplerine (RFQ'ler) genel bakış sunulmuştur. Bir RFQ'da, satıcılardan belirlediğiniz madde miktarları için fiyat ve teslimat süreleri vermelerini istersiniz. Satıcılardan, nakliye maliyetleri ya da büyük siparişler için indirimler veya satıcı faturalarının erken ödenmesi gibi dolaylı giderler olup olmadığını belirtmelerini de isteyebilirsiniz.
 
@@ -37,9 +40,9 @@ Teklif talebi (RFQ) işlemi aşağıdaki görevleri kapsar:
 
 Aşağıdaki şekilde teklif talebi sürecinin genel özet verilmektedir.  
 
-[![Teklif işlemi için istek](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)  
+[![Teklif talebi işlemi](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)  
 
-Planlanan siparişlerden, satınalma talebinden veya el ile yapılan bir girişten bir RFQ oluşturabilirsiniz. Oluşturduğunuz RFQ'ye RFQ servis talebi denir ve bu, her satıcı için RFQ düzenlerken kullandığınız temel belgedir. RFQ durumu hazırlamak ve satıcıları Ekle sonra'ı **Gönder** RFQ durumu ve bir RFQ RFQ için gönderilen her satıcı için günlüğü oluşturulmaz. Her satıcı için bir arşiv için bir rapor yazdırmak ya da her satıcının e-posta adresine rapor göndermek için Gönder eylemi için yazdırma yönetimi ayarlarını yapılandırabilirsiniz. Ayrıca, her satıcıya ilişkin RFQ günlüğü, satıcıya daha sonra gönderebileceğiniz veya yeniden gönderebileceğiniz bir rapor oluşturmak için kullanılabilir. Gönder eylemini, satıcının dolduracağı bir yanıt sayfası oluşturmak için de yapılandırabilirsiniz.  
+Planlanan siparişlerden, satınalma talebinden veya el ile yapılan bir girişten bir RFQ oluşturabilirsiniz. Oluşturduğunuz RFQ'ye RFQ servis talebi denir ve bu, her satıcı için RFQ düzenlerken kullandığınız temel belgedir. RFQ olayını hazırlayıp satıcıları ekledikten sonra RFQ olayında **Gönder**'e tıklayın, RFQ günlüğü RFQ'yu gönderdiğiniz her satıcı için oluşturulur. Gönder eylemi için yazdırma yönetimi ayarlarını her satıcı için arşive gönderilecek bir rapor yazdıracak veya her satıcının epostasına adresine bir rapor gönderecek şekilde ayarlayabilirsiniz. Ayrıca, her satıcıya ilişkin RFQ günlüğü, satıcıya daha sonra gönderebileceğiniz veya yeniden gönderebileceğiniz bir rapor oluşturmak için kullanılabilir. Gönder eylemini, satıcının dolduracağı bir yanıt sayfası oluşturmak için de yapılandırabilirsiniz.  
 
 Bir RFQ'da gönderdikten sonra değişiklik yapmak isterseniz, değişikliği tamamladıktan sonra RFQ'yu satıcılara tekrar gönderebilirsiniz.  
 
@@ -49,18 +52,18 @@ Belirli bir satıcı için yanıtın ikinci defa yinelenmesi gerekirse, ** Tekli
 
 RFQ servis talebine puanlama ölçütü eklediyseniz, RFQ yanıtında puanlama girebileceğiniz bir puanlama paneli bulunur. Toplam puanlar **Yanıtları karşılaştır** sayfasında yanıtları karşılaştırdığınızda görüntülenir. Bu sayfada satır fiyatı, teslim tarihi ve toplam fiyat gibi diğer yanıt verilerini de karşılaştırabilirsiniz.  
 
-Bir teklife veya kısmi tekliflere karar verdikten sonra, bunları kabul edip geri kalanları reddedebilirsiniz. Kabul günlükleri, reddetme günlükler ve ilgili raporlar oluşturulur. Bunlar yazdırılabilir, arşivlenen ve yazdırma yönetimi ayarlarınıza göre gönderilir. Deklarasyon veya belirli bir fiyat teklifi satırlarında kabul ettiğinizde, bir satın alma sözleşmesi veya satınalma siparişi oluşturulur veya RFQ satınalma tipine bağlı olarak satınalma talebi güncelleştirilir. Kabul edip etmediğinize bakılmaksızın, herhangi bir yanıt için daha sonra kullanabileceğiniz bir ticari anlaşma oluşturabilirsiniz.  
+Bir teklife veya kısmi tekliflere karar verdikten sonra, bunları kabul edip geri kalanları reddedebilirsiniz. Kabul günlükleri, reddetme günlükler ve ilgili raporlar oluşturulur. Bunlar yazıcı ayarlarınıza bağlı olarak yazdırılır, arşivlenir ve gönderilir. Bir teklifi veya bir teklifteki belirli satırları kabul ettiğinizde, bir satınalma anlaşması veya satınalma siparişi oluşturulur ya da RFQ satınalma türüne göre satınalma talebi güncelleştirilir. Kabul edip etmediğinize bakılmaksızın, herhangi bir yanıt için daha sonra kullanabileceğiniz bir ticari anlaşma oluşturabilirsiniz.  
 
 Bir RFQ durumu RFQ başlığında görüntülenir ve RFQ satırlarının durumuna bağlıdır. Durum, işleme aldığınız RFQ'nun kapsamını gösterir. Her RFQ'da durum için iki değer vardır: en düşük ve en yüksek. En düşük durum RFQ'daki herhangi bir satırın en az gelişmiş aşamasıdır; en yüksek durum RFQ'daki herhangi bir satırın en ileri aşamasıdır. Örneğin, RFQ'daki en az ilerlemiş aşama oluşturulan bir satırla ilişkiliyse RFQ için en düşük durum **Oluşturuldu** olur. RFQ'daki en ileri aşama satıcılara gönderilen bir satırla ilişkiliyse RFQ için en yüksek durum **Gönderildi** olur. Bir RFQ'yu işlediğinizde durumlar otomatik olarak güncelleştirilir.  
 
 RFQ başlığı için en düşük ve en yüksek durumlarını **Tüm teklif talepleri** sayfasında görebilirsiniz. RFQ satırı için en düşük ve en yüksek durumlarını **Tüm teklif talepleri** sayfasındaki **Satırlar** sekmesinde görebilirsiniz.  
 
-RFQs işlemek için durumlar dizisini aşağıdadır:
+Bir RFQ'yu işlemeyle ilgili durum serisi aşağıdaki gibidir:
 
 1.  **Oluşturuldu**
-2.  **Sent**
-3.  **Received**
-4.  **Kabul**/**iptal**/**reddedildi**
+2.  **Gönderildi**
+3.  **Alındı**
+4.  **Kabul edildi**/**iptal edildi**/**Reddedildi**
 
 Bu durumlar, bu makalenin ilerleyen bölümünde daha ayrıntılı açıklanacaktır.
 
@@ -72,7 +75,7 @@ Bir RFQ servis talebi oluşturmadan önce **Tedarik ve kaynak atama parametreler
 -   Teslimat bilgileri ve ödeme koşulları.
 -   RFQ yanıtına dahil edilmesi gereken alanlar
 
-Bu değerleri belirli bir RFQ için geçersiz kılabilirsiniz. Düzeltme işlemini de yapılandırmanız gerekir. Bu yapılandırma işleminin bir parçası olarak, alan kilidini açabilirsiniz. Alan kilitleme açık olduğunda, RFQ üzerinde düzeltme yapmak isteyen bir tedarik uzmanının önce **Teklif** sekmesinin **Düzeltme** bölümündeki **Oluştur** seçeneğine tıklaması gerekir. RFQ ile düzeltme güncelleştirildikten sonra tedarik professional işlemini tıklatarak tamamlamanız gerekir **Finalize**. ** ** sonlandırma eylemi satıcıları değiştirilmiş RFQ hakkında bildiren bir e-posta iletisi oluşturur. Satıcılara gönderilen e-posta bildirimi şablonunu **Tedarik ve kaynak atama parametreleri** sayfasından seçebilirsiniz. Bir şablon oluşturulduğunda aşağıdaki değiştirme belirteçlerini içerebilir:
+Bu değerleri belirli bir RFQ için geçersiz kılabilirsiniz. Düzeltme işlemini de yapılandırmanız gerekir. Bu yapılandırma işleminin bir parçası olarak, alan kilidini açabilirsiniz. Alan kilitleme açık olduğunda, RFQ üzerinde düzeltme yapmak isteyen bir tedarik uzmanının önce **Teklif** sekmesinin **Düzeltme** bölümündeki **Oluştur** seçeneğine tıklaması gerekir. RFQ düzeltmeyle güncelleştirildikten sonra tedarik uzmanının **Sonlandır**'a tıklayarak işlemi tamamlaması gerekir. Sonlandırma eylemi, satıcıları düzeltilen RFQ hakkında bilgilendiren bir e-posta iletisi oluşturur. Satıcılara gönderilen e-posta bildirimi şablonunu **Tedarik ve kaynak atama parametreleri** sayfasından seçebilirsiniz. Bir şablon oluşturulduğunda aşağıdaki değiştirme belirteçlerini içerebilir:
 
 -   %Teklifi iade nedeni%
 -   %Düzeltme yapma nedeni%
@@ -124,7 +127,7 @@ Aşağıdaki tablo, bri RFQ oluşturup satıcılara gönderdiğinizde, RFQ durum
 
 |                                    |                              |                                                 |                            |                             |
 |------------------------------------|------------------------------|-------------------------------------------------|----------------------------|-----------------------------|
-| **Action**                         | **En düşük RFQ başlığı durumu ** | **En yüksek RFQ başlığı durumu **                   | **En düşük RFQ satırı durumu ** | **En yüksek RFQ satırı durumu ** |
+| **Eylem **                         | **En düşük RFQ başlığı durumu ** | **En yüksek RFQ başlığı durumu **                   | **En düşük RFQ satırı durumu ** | **En yüksek RFQ satırı durumu ** |
 | RFQ başlığı ve satırı oluşturun.    | Oluşturulma                      | Oluşturulma                                         | Oluşturulma                    | Oluşturulma                     |
 | RFQ'yu belirli bir satıcıya gönderin. | Gönderildi                         | Gönderildi                                            | Gönderildi                       | Gönderildi                        |
 | Başka satıcı ekleyin.                | Oluşturulma                      | Gönderildi (RFQ yalnızca tek bir satıcıya gönderilmiştir.) | Oluşturulma                    | Gönderildi                        |
@@ -146,7 +149,7 @@ RFQ servis talebine bir soru formu eklendiyse, sorulara gelen yanıtları yanıt
 
 Alternatif satırlar girmeniz gerekirse ve RFQ servis talebi bunu yapmanıza olanak tanıyorsa, **Satınalma teklifi satırları** hızlı sekmesine **Satır ekle**'ye tıklayın. Ardından madde numarası, tedarik kategorisi, miktar, fiyat ve iskonto gibi ürün bilgilerini girin.  
 
-Yanıt girmiş olduğunuz halde satıcıdan gelen yeni bir teklif gerektirir, RFQ yeniden gönderebilirsiniz. Bu yeni günlük ve satıcıdan değişikliklerini istemek için kullanabileceğiniz rapor oluşturur.  
+Yanıtı girdiyseniz ancak satıcıdan yeni bir teklif istiyorsanız, RFQ'yu yeniden gönderebilirsiniz. Bu, satıcıdan değişiklik istemek üzere kullanabileceğiniz yeni bir günlük veya rapor oluşturacaktır.  
 
 Tüm RFQ'ların genel görünümünü ve yanıt durumlarını **Teklif talebi izleme** sayfasından görebilirsiniz.  
 
@@ -154,7 +157,7 @@ Aşağıdaki tablo, teklifleri aldığınızda ve bilgileri RFQ yanıt sayfasın
 
 |                                                |                       |                        |                              |                               |                            |                             |
 |------------------------------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**                                     | **En düşük teklif durumu ** | **En yüksek teklif durumu ** | **En düşük RFQ başlığı durumu ** | **En yüksek RFQ başlığı durumu ** | **En düşük RFQ satırı durumu ** | **En yüksek RFQ satırı durumu ** |
+| **Eylem **                                     | **En düşük teklif durumu ** | **En yüksek teklif durumu ** | **En düşük RFQ başlığı durumu ** | **En yüksek RFQ başlığı durumu ** | **En düşük RFQ satırı durumu ** | **En yüksek RFQ satırı durumu ** |
 | Bir satıcının teklifini girin ve kaydedin.        | Gönderildi                  | Alınan               | Gönderildi                         | Alınan                      | Gönderildi                       | Alınan                    |
 | İkinci satıcının teklifini girin ve kaydedin. | Alınan              | Alınan               | Alınan                     | Alınan                      | Alınan                   | Alınan                    |
 
@@ -183,9 +186,11 @@ Aşağıdaki tabloda, satıcılardan gelen teklifleri kabul ettiğinizde ve redd
 
 |                         |                       |                        |                              |                               |                            |                             |
 |-------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**              | **En düşük teklif durumu ** | **En yüksek teklif durumu ** | **En düşük RFQ başlığı durumu ** | **En yüksek RFQ başlığı durumu ** | **En düşük RFQ satırı durumu ** | **En yüksek RFQ satırı durumu ** |
+| **Eylem **              | **En düşük teklif durumu ** | **En yüksek teklif durumu ** | **En düşük RFQ başlığı durumu ** | **En yüksek RFQ başlığı durumu ** | **En düşük RFQ satırı durumu ** | **En yüksek RFQ satırı durumu ** |
 | Tekliflerden birini kabul edin. | Alınan              | Kabul edildi               | Alınan                     | Kabul edildi                      | Alınan                   | Kabul edildi                    |
 | Diğer teklifleri reddedin.  | Reddedildi              | Kabul edildi               | Reddedildi                     | Kabul edildi                      | Reddedildi                   | Kabul edildi                    |
+
+
 
 
 

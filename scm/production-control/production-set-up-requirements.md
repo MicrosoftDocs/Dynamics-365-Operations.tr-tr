@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="production-setup-requirements"></a>Üretim kurulumu gereksinimleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, Üretim denetimiyle çalışabilmenize ilişkin kurulum gereksinimleri hakkında bilgi verilmektedir. 
 
-Üretim denetim özellikleri diğer modüller ile tümleşiktir. Bu birbiriyle bağlantılı olma durumu, üretim emirlerini değiştirmenize ve bunların sistemdeki diğer tüm ilişkili işlemlerde ve hesaplamalarda otomatik olarak güncelleştirildiğinden emin olmanıza olanak tanır. Aşağıdaki kurulum yordamları, tamamlanmaları gereken sırada listelenmişlerdir.
+Üretim denetimi, diğer modüllerin özellikler ile tümleşiktir. Bu birbiriyle bağlantılı olma durumu, üretim emirlerini değiştirmenize ve bunların sistemdeki diğer tüm ilişkili işlemlerde ve hesaplamalarda otomatik olarak güncelleştirildiğinden emin olmanıza olanak tanır. Aşağıdaki kurulum yordamları, tamamlanmaları gereken sırada listelenmişlerdir.
 
 ## <a name="required-baseline-setup-in-other-modules"></a>Diğer modüllerdeki gerekli temel kurulum
 Üretim kontrol ile çalışabilmeniz için diğer modüllerdeki bilgilerin ayarlanmış olması gerekir. Bu kurulum aşağıdaki görevleri içerir:
@@ -52,7 +55,7 @@ Bu makalede, Üretim denetimiyle çalışabilmenize ilişkin kurulum gereksiniml
 4.  **Kaynaklar** – Kapasite planlamak ve üretim sürecini tamamlamak için kullanılacak kaynakları tanımlamak için işlem kaynaklarını ayarlayın.
 
 ## <a name="required-production-parameters-setup"></a>Gerekli üretim parametreleri kurulumu
-**Üretim kontrol parametreleri** – sistem nasıl işler ve üretim siparişlerini işleyen tanımlamak için temel üretim parametrelerini ayarlayın. Üretim emirlerinin nasıl oluşturulduğunu, tahmin edildiğini, zamanlandığını ve tüketildiğini tanımlayın. Ne tür bir geri bildirim istediğinizi ve maliyet muhasebesinin nasıl yapılacağını da seçebilirsiniz.
+**Üretim denetleme parametreleri** – Sistemin üretim emirlerini nasıl işleyeceğini ve ele alacağını tanımlamak için temel üretim parametrelerini ayarlayın. Üretim emirlerinin nasıl oluşturulduğunu, tahmin edildiğini, zamanlandığını ve tüketildiğini tanımlayın. Ne tür bir geri bildirim istediğinizi ve maliyet muhasebesinin nasıl yapılacağını da seçebilirsiniz.
 
 ## <a name="required-journal-name-identification"></a>Gerekli günlük adı tanımlaması
 **Üretim günlüğü adları** – hareketleri deftere nakletmek ve kaydetmek için kullanılan üretim günlük adlarını belirtin.
@@ -76,6 +79,8 @@ Rotalarla çalışıyorsanız, ayarladığınız tüm üretim rotaları için op
 1.  **Üretim grupları** – üretim emri ve genel muhasebe hesapları arasında ilişki kurmak için üretim grupları ayarlayın. Genel muhasebe hesapları, siparişleri raporlama için gruplandırmak veya nakletmek için kullanılır.
 2.  **Üretim havuzları** – acil üretim emirlerini işlemek veya sipariş gruplarını silmek ve deftere nakletmek için üretim havuzları oluşturun.
 3.  **Özellikler** – üretimlerin sırasını denetlemek için kaynaklarınıza atadığınız özel öznitelikleri oluşturmak için özellikleri tanımlayın. Bu öznitelikler çalışma süresi şablonuna bağlıdır.
+
+
 
 
 

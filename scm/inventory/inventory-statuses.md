@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-statuses"></a>Stok durumları
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, stoğu kategorilendirmek ve izlemek için stok durumlarını nasıl kullanabileceğiniz açıklanmaktadır.
 
 Stok durumlarını stoku kategorilere ayırmak için kullanabilirsiniz. Arından stok yenileme veya yerine koyma gibi uygun eylemleri başlatabilirsiniz. 
@@ -47,5 +50,7 @@ Giden iş için kullanılabilen stok durumuna sahip maddeleri kullanın. **Arız
 Stok durumlarını oluşturduktan sonra bir saha, madde ve ambar için varsayılan stok durumunu ayarlayabilirsiniz. Ayrıca satışlar, transferler ve satın alma emirleri için de varsayılan bir durum ayarlayabilirsiniz. Satış emirleri ve giden transferler için varsayılan durumun **Stok engelleme** seçeneğini **Evet** olarak ayarlanamaz. Bir saha, ambar, madde, satın alma emri, transfer emri veya satış emri ile ilgili varsayılan ayarlardan gelen stok durumu taşınabilir aygıt kullanarak veya satın alma emir, satış emri veya transfer emri satırında değiştirilebilir. 
 
 Bir kullanılabilen stok durumuna sahip maddelerin karşılanmasını planlamak için **Depolama boyutu grupları** sayfasında bir depolama boyutu için **Boyuta göre karşılama planı** seçimini yapın. **Madde Karşılama**sihirbazını açtığınızda, bir kullanılabilir duruma sahip olan maddeler **Durum** sayfasında görüntülenmez. Bu maddeler için karşılama ayarları oluşturmak için kullanılabilen stok durumları için stok durumu kimliğini seçin. Karşılama ayarlarına bağlı olarak, madde gereksinimlerini hesaplayabilir ve master planlama sırasında kullanılabilir maddelerin arz ve taleplerini tahmin edebilirsiniz. Bir engelli stok durumuna sahip bir madde karşılama kurulumu oluşturamazsınız. Alternatif olarak, madde karşılama parametreleri oluşturmak veya bunları değiştirmek için **Madde karşılama** sayfasını kullanın.
+
+
 
 

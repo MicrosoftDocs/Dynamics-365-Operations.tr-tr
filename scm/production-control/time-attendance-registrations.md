@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="time-and-attendance-registration"></a>Saat ve işe devam durumu kaydı
 
+[!include[banner](../includes/banner.md)]
+
+
 Zaman kayıt çalışanları, örneğin giriş saati, çıkış saati, dolaylı faaliyetlerin kaydı ve devamsızlık kaydı gibi farklı türlerde zaman kayıtları girebilirler. Bu makalede kayıtlar, bunların hesaplanması, onaylanması ve zaman çizelgelerinin onaylanması sürecine yapı ve otomatik onay eklenmesi için iş akışının kullanımı hakkında bilgiler verilmiştir. 
 
 <a name="registrations"></a>Kayıtlar
@@ -62,7 +65,7 @@ Ayarlamanın ardından çalışanlar farklı türde kayıtlar girebilir.
 -   Bir çalışanın iş günü boyunca uğraşacağı üretim dışı faaliyetler olan dolaylı faaliyetler. Bu faaliyetlere örnekler arasında toplantılar veya çalışma alanının temizlenmesi bulunur.
 -   Ek çalışma saatleri, esnek saatler veya fazla mesai olarak kaydedilebilen fazla mesai.
 
-## <a name="adding-clockout-registrations"></a>Clockout kayıtları ekleme
+## <a name="adding-clockout-registrations"></a>Çıkış saati kayıtları ekleme
 İş gününün sonunda çalışan çıkış saati kaydını yapmayı unutursa, eksik kayıtlar toplu bir işlem çalıştırılarak eklenebilir. Sistem, çalışanın ilişkili profiline göre giriş ve çıkış saatlerini karşılaştırır ve profilin iş bitiş zamanına uyacak şekilde eksik çıkış saati kaydını otomatik olarak ekler. Hem giriş hem de çıkış saati kayıtları, kayıtların bir sonraki hesaplanması ve bordroya aktarılmadan önce onaylanması için çok önemlidir.
 
 ## <a name="calculating-registrations"></a>Kayıtları hesaplama
@@ -113,6 +116,8 @@ Anında geribildirim gerektirmeyen iş görevleri olan ancak proje faaliyetleri 
 -   Zaman tüketimi
 -   Proje ücretleri
 -   Proje kalemleri
+
+
 
 
 

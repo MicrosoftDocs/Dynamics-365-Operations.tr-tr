@@ -1,6 +1,6 @@
 ---
 title: "Gelişmiş banka mutabakatına genel bakış"
-description: "Gelişmiş banka mutabakatı elektronik banka ekstrelerini içe aktarma ve otomatik olarak Microsoft Dynamics 365 işlemleri için banka hareketleri arasında mutabakat olanak sağlar.  Bu makalede mutabakat için işlem ayarları açıklanır."
+description: "Gelişmiş banka mutabakatı, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Operations&quot;daki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir.  Bu makalede mutabakat için işlem ayarları açıklanır."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,34 +26,39 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advanced-bank-reconciliation-overview"></a>Gelişmiş banka mutabakatına genel bakış
 
-Gelişmiş banka mutabakatı elektronik banka ekstrelerini içe aktarma ve otomatik olarak Microsoft Dynamics 365 işlemleri için banka hareketleri arasında mutabakat olanak sağlar.  Bu makalede mutabakat için işlem ayarları açıklanır.  
+[!include[banner](../includes/banner.md)]
 
-Gelişmiş banka mutabakatı işlevini kullanmadan önce ayarlanmalıdır parçaları vardır. Banka ekstresi alma ayarlama hakkında daha fazla bilgi için bkz: [banka ekstresi alma işlemi kurmak](set-up-advanced-bank-reconciliation-import-process.md).  Mutabakat işlem kurulması için gereksinimleri aşağıda açıklanmıştır.
+
+Gelişmiş banka mutabakatı, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Operations'daki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir.  Bu makalede mutabakat için işlem ayarları açıklanır.  
+
+Gelişmiş banka mutabakatı işlevini kullanmadan önce ayarlanması gereken bir dizi parça vardır. Banka ekstresi almayı ayarlama hakkında daha fazla bilgi için, bkz [Banka ekstresi alma işlemini ayarlama](set-up-advanced-bank-reconciliation-import-process.md).  Banka mutabakatı işleminin kurulması için gereksinimler aşağıda açıklanmıştır.
 
 ## <a name="transaction-codes"></a>Hareket kodları
-Hareket kodlarını banka mutabakatı kurallarla eşleşen bir parçası olarak kullanılabilir.  Hareket kodlarını yalnızca aynı türde Dynamics 365 işlemleri için Banka ekstrenizde arasındaki işlemleri eşleştirmek için yardımcı olur.  Bu tür eşleştirme yapmak için öncelikle Dynamics 365 işlemleri için banka hareketleri için kullanılan hareket tiplerini tanımlamak, sonra gerekir, banka tarafından kullanılan deyim hareket kodları bu türleri eşleştirin.  Üzerinde tanımlanan işlemleri banka hareketlerinin hareket tipi için Dynamics 365 **banka hareket türü** sayfa.  Bu hareket türüyle ilgili defter nakilleri için kullanılacak ana hesap tanımladığınız budur. 
+Hareket kodları, banka mutabakatı eşleştirme kurallarının parçası olarak kullanılabilir.  Hareket kodları, Dynamics 365 for Operations ve banka ekstreniz arasında yalnızca aynı türdeki hareketleri eşleştirmeye yardımcı olacaktır.  Bu tür bir eşleştirme yapmak için öncelikle Dynamics 365 for Operations içinden banka hareketleri için kullanılan hareket tiplerini tanımlamak, daha sonra bankanız tarafından kullanılan bu ekstre hareket kodlarını eşleştirmek gerekir.  Dynamics 365 for Operations banka hareketleri için hareket türleri, **Banka hareket türü** sayfasında tanımlanır.  Burası ayrıca, söz konusu hareket türüyle defter nakillerini ilişkilendirmede kullanılacak ana hesabı tanımladığınız yerdir. 
 
-Banka işlemleri işlem kodları için Dynamics 365 tanımlanmış bir kez, sonra olanlar, elektronik banka deyimlerinde kullanılan işlem kodları için eşleyin.  Bu eşleme işlemi yapılır kullanarak **hareket kodu eşleme** sayfa.  Her banka hesabı için ayrı ayrı hareket kodu eşleme tamamlandı.
+Dynamics 365 for Operations banka hareket kodlarınız tanımlandıktan sonra, bunları elektronik banka ekstrelerinde kullandığınız hareket kodlarına eşlersiniz.  Bu eşleme işlemi **Hareket kodu eşleme** sayfası kullanılarak yapılır.  Hareket kodu eşleme, her banka hesabı için tümüyle ayrıdır.
 
 ## <a name="matching-rules-and-matching-rule-sets"></a>Eşleştirme kuralları ve eşleştirme kural kümeleri
-Eşleştirme kuralları otomatik işlemleri banka hareketleri için Dynamics 365 ve banka ekstresi hareketlerini mutabakatı için ölçüt tanımlamak izin verir.  Eşleştirme kuralları ayarlamak yapılır **eşleştirme kurallarını mutabakat** sayfa.  Daha fazla bilgi için bkz: [banka mutabakatı eşleştirme kurallarını ayarlamak](set-up-bank-reconciliation-matching-rules.md). 
+Eşleme kuralları, Dynamics 365 for Operations banka hareketleri ve banka ekstresi hareketleri arasında otomatik mutabakat ölçütleri tanımlamanıza izin verir.  Eşleşen kuralların ayarlanması **Mutabakat eşleme kuralları** sayfasında yapılır.  Daha fazla bilgi için bkz. [Banka mutabakatı eşleme kuralları ayarlama](set-up-bank-reconciliation-matching-rules.md). 
 
-Eşleşen kural kümeleri, bir grup sırayla banka mutabakat işlemi sırasında çalıştırılan eşleşen kurallar tanımlamak için kullanılır.  Eşleşen kural kümeleri üzerinde yapılandırılmış olan **eşleşen kural kümeleri mutabakat** sayfa.
+Eşleştirme kuralı kümeleri, banka mutabakat işlemi sırasında çalıştırılacak bir eşleşme kuralı grubunu tanımlamak için kullanılır.  Eşleşen kura kümeleri **Mutabakat eşleme kuralı kümeleri** sayfasında yapılandırılır.
 
 ## <a name="cash-and-bank-management-parameters"></a>Nakit ve banka yönetimi parametreleri
-Parametre sayısı Gelişmiş banka mutabakat işlemi için özel **nakit ve Banka yönetimi parametrelerini** sayfa.  **Göster Ekstre Satır tutarı borç/alacak** üzerinde tutarlar görünümünü değiştirir **banka ekstresi** sayfa.  Bu seçenek seçili ise, banka ekstresi Hareket tutarlarını ayrı borç ve alacak sütunlarında görüntülenir.  Seçilmemişse, banka ekstresi Hareket tutarlarını bir tek Tutar sütununda uygun işaretiyle gösterilir. 
+**Nakit ve banka yönetim parametreleri** sayfası üzerinde, gelişmiş banka mutabakatı işlemine özel bir dizi parametre bulunmaktadır.  **Borç/alacak üzerinde ekstre satırı miktarını göster**, **Banka ekstresi** sayfası üzerindeki tutarların görünümünü değiştirir.  Bu seçenek seçili ise, banka ekstresi hareket tutarları ayrı borç ve alacak sütunlarında görüntülenir.  Seçilmemişse, banka ekstresi hareket tutarları, bir tek tutar sütununda uygun işaretle gösterilir. 
 
-Eşleştirme kurallarını ayarlamak seçimleri ayarlanan parametreler sayfasında doğrulama seçenekleri geçersiz.  Örneğin, el ile veya otomatik olarak eşleşen belgeler parametreler sayfasında ayarlama tarihi fark ötesinde.  Ayrıca, varsa seçeneğini **hareket türü eşlemesi doğrulamak** olan seçilirse, hareket türlerini el ile veya otomatik olarak eşleştirilecek işlemleri banka hareketi için Dynamics 365 ve banka ekstresi hareketini hareketleri için sırayla arasında eşlenmesi gerekir. 
+Parametre sayfası geçersiz kılma üzerindeki doğrulama seçenekleri, eşleşme kuralları üzerindeki seçimleri geçersiz kılar.  Örneğin, belgeleri, parametreler sayfasında belirtilen tarih farkının ötesinde otomatik veya elle eşleştiremezsiniz.  Ayrıca, **Hareket türü eşleme doğrulama** seçeneği işaretlenmişse, hareket türleri Dynamics 365 for Operations banka hareketleri ve banka ekstresi hareketleri arasında, hareketlerin elle veya otomatik olarak eşleştirilmesi için eşleştirilmeleri gerekir. 
 
-Üzerinde gerekli numara serilerini yapılandırmalısınız **nakit ve Banka yönetimi parametrelerini** sayfa.  Üzerinde **Number sequences** sekmesinde, karşıdan yükleme için numara serisi kodları kümesi **kimliği, deyim kimliği, mutabakat kimliği ve banka mutabakatı** başvurular.
+**Nakit ve banka yönetim parametreleri** üzerinde gerekli numara serilerini de yapılandırmanız gerekir.  **Numara serileri** sekmesinde İndirme **Kimlik Bilgisi, Ekstre Kimliği, Mutabakat Kimliği, Banka Kimliği** referanslarının numara seri kodlarını ayarlayın.
 
 ## <a name="bank-account-reconciliation-options"></a>Banka hesabı mutabakatı seçenekleri
-Gelişmiş banka mutabakatı banka hesabı için önce etkinleştirmeniz gerekir.  Ek seçenekler kullanılabilir **banka hesabı** Gelişmiş banka mutabakatı işlevi etkinleştirildiğinde sayfa. 
+İlk önce banka hesabı için Gelişmiş banka mutabakatını etkinleştirmeniz gerekir.  Gelişmiş banka mutabakatı özelliği etkinleştirildikten sonra **Banka hesabı** sayfasında bir dizi ek seçenek kullanılabilecektir. 
 
-**Elektronik Ödeme onayı olarak kullanım Banka Ekstrelerini** işlevini elektronik Ödeme durumlarla banka mutabakatı işlevselliğini birleştirir.  Bu etkin olduğunda, elektronik Ödeme durumunu ayarlamak için Banka belge otomatik olarak oluşturulacak **gönderilen**.  Ayrıca, bir elektronik Ödeme durumu ile güncelleştirilir **gönderilen** için **alınan** ödeme eşleşti sonra mutabık ve deftere. 
+**Elektronik ödeme onayı olarak banka ekstrelerini kullan** işlevi, banka mutabakatı işlevini, elektronik ödeme durumlarıyla birleştirir.  Bu etkinleştirildiğinde, bir banka belgesi elektronik ödeme durumu **Gönderildi** olarak ayarlanmış için otomatik oluşturulur.  Ek olarak, bir elektronik ödemenin durumu **Gönderildi**'den, **Alındı**'ya güncelleştirilecektir, ödeme eşleştikten, mutabakatı sağlandıktan ve deftere nakledildikten sonra. 
 
-**İfadeleri banka hesap adı**, elektronik Banka Ekstrelerini banka hesabı için kullanılan ad alanıdır.  Bu ad için birden fazla banka hesaplarına ilişkin bilgiler içerebilecek bir deyimi bir banka hesabından almak için hangi işlemleri belirlerken kullanılır. 
+**Ekstrelerdeki banka hesabı adı** alanı, elektronik banka ekstrelerinizde kullanılan banka hesabınızın adıdır.  Bu ad, bir banka hesabı için birden fazla banka hesabına ilişkin bilgi içeren bir ekstreden hangi hareketlerin alınacağını belirlerken kullanılır. 
 
-Seçeneği **alma sonra karşılaştırma** otomatik olarak banka ekstresi doğrulamak, yeni banka mutabakatı ve çalışma sayfası oluşturmak ve eşleşen kural kümesi varsayılan olarak çalışır.  Bu işlevsellik, hareketleri el ile eşlenmesi gereken noktaya kadar işlemini otomatikleştirir.  Banka hesabındaki ayar alırken varsayılan.
+**İçe aktarmadan sonra mutabakat sağla** seçeneği, banka ekstresini otomatik doğrulayacaktır, yeni bir banka mutabakatı ve çalışma sayfası oluşturacak ve Varsayılan eşleşme kural kümesini çalıştıracaktır.  Bu işlev, el ile eşleştirilmesi gereken hareketlere kadar olan süreci otomatik hale getirir.  Banka hesabındaki ayar içe alınırken varsayılana döner.
+
+
 
 

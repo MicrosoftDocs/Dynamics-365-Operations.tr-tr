@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-expense-management"></a>Gider yönetimini yapılandır
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, Microsoft Dynamics AX'te Gider yönetimini yapılandırmadan önce planlama sürecinde değerlendirmeniz gereken noktalar ve almanız gereken kararlar açıklanmaktadır. Gider yönetimi alanında, ödeme yöntemleri, seyahat talepleri, gider raporları, ilkeler vb. hakkındaki bilgileri saklayabilirsiniz. 
 
 Gider yönetiminizin yapılandırmasını planlarken aldığınız pek çok karar kuruluşunuzun hiyerarşisi ve mali yapısına dayandığından, bu alanlar için planlama belgelerine başvurmalısınız.
@@ -133,6 +136,8 @@ Genel muhasebe planlama sırasında sizin uygulamak ABD satış vergisi ve vergi
 -   İlke ne zaman sona?
 -   İlke kuralı nedir?
 -   İlke kuralının sonucu nedir?
+
+
 
 
 

@@ -28,13 +28,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="financial-dimensions"></a>Mali boyutlar
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, farklı mali boyut türleri ve nasıl ayarlandıkları açıklanmaktadır.
 
 Hesap planları içim hesap segmentleri olarak kullanabileceğiniz mali boyutlar oluşturmak için Mali boyutlar sayfasını kullanın. İki tür mali boyut vardır: özel boyutlar ve varlığa dayalı boyutlar. Özel boyutlar tüzel kişilikler tarafından paylaşılır ve değerler kullanıcı tarafından girilir ve korunur. Varlığa dayalı boyutlar, değerleri sistemin herhangi bir bölümünde tanımlanan (Müşteriler veya Mağazalar gibi) boyutlardır. Bazı varlığa dayalı boyutlar tüzel kişilikler tarafından paylaşılır ve şirkete özel boyutlar olur. 
 
 Mali boyutları oluşturduktan sonra, her mali boyuta ek özellikler atamak için Mali boyut değerleri sayfasını kullanın. 
 
-İşlemler için Microsoft Dynamics 365 tüzel kişilikler oluşturmak zorunda kalmadan yasal tüzel kişileri temsil etmek için mali boyutları kullanabilseniz de, mali boyutları operasyonel gidermek üzere tasarlanmamış veya iş tüzel kişilikler gerek. Microsoft Dynamics 365 işlemleri için interunit hesap işlevleri her hareketin oluşturduğu muhasebe girişleri karşılayacak şekilde tasarlanmıştır. 
+Microsoft Dynamics 365 for Operations'da tüzel kişilikler oluşturmadan mali boyutları tüzel kişilikleri temsil etmek amacıyla kullanabilmenize karşın, mali boyutlar tüzel kişiliklerin operasyonel veya iş gereksinimlerini karşılamak üzere tasarlanmamıştır. Microsoft Dynamics 365 for Operations'daki birimlerarası muhasebe işlevi, yalnızca her hareket tarafından oluşturulan muhasebe girişlerini karşılamak üzere tasarlanmıştır. 
 
 Mali boyutları tüzel kişilikler olarak ayarlamadan önce, bu ayarın kuruluşunuz için uygun olup olmadığını belirlemek üzere iş süreçlerini aşağıdaki alanlarda değerlendirin:
 
@@ -48,29 +51,31 @@ Aşağıda sınırlamalara ilişkin bazı örnekler verilmektedir:
 -   Satış vergisi işlevini yalnızca tüzel kişiliklerle kullanabilirsiniz; mali boyutlarla birlikte kullanamazsınız.
 -   Bazı raporlar mali boyutları içermez. Bu nedenle, bu raporlar değiştirilmediği sürece her zaman finansal boyuta göre raporlama yapamazsınız.
 
-**Custom dimensions** 
+**Özel boyutlar** 
 
-Kullanım değerleri alanından bir kullanıcı tarafından tanımlanan finansal boyut oluşturmak için seçin &lt;Özel boyut&gt;. Boyut değerleri için girebileceğiniz bilgi miktarını ve türünü sınırlamak üzere bir hesap maskesi de belirtebilirsiniz. Harf veya tire gibi her boyut değeri için aynı kalan karakter girebilirsiniz. Numara işareti de girebilirsiniz (\#) ve ve işaretleri (&) harfler ve boyut değeri oluşturan her zaman değişen sayılar için yer tutucu olarak. Sayı işareti kullanın (\#) bir harf için bir yer tutucu olarak bir sayı ve bir ampersan için yer tutucu olarak (&). 
+Kullanıcı tanımlı bir mali boyut oluşturmak için, Kullan değerin kaynağı alanından, &lt;Özel boyut&gt;'u seçin. Boyut değerleri için girebileceğiniz bilgi miktarını ve türünü sınırlamak üzere bir hesap maskesi de belirtebilirsiniz. Harf veya tire gibi her boyut değeri için aynı kalan karakter girebilirsiniz. Bir boyut değeri her oluşturulduğunda değişen harfler ve sayılar için yer tutucular olan sayı işaretleri (\#) ve 've' işaretleri (&) de girebilirsiniz. Bir sayının yer tutucusu olarak sayı işareti (\#) ve bir harfin yer tutucusu olarak ve işareti (&) kullanın. 
 
-**Example** 
+**Örnek** 
 
-Üç rakam ve harf CC boyut değerine sınırlamak için CC - girmeniz\#\#\# format maskesi olarak. Bu alan yalnızca seçtiğinizde kullanılabilir &lt;Özel boyut &gt;alanından kullanım değerleri. 
+Örnek: Boyutu CC harfleri ve üç sayıyla sınırlamak için biçim maskesi olarak CC-\#\#\# girin. Bu alan yalnızca Kullanılacak değerlerin kaynağı alanında &lt; Özel boyut &gt; öğesini seçtiğinizde kullanılabilir. 
 
-**Yedeklenen varlık boyutları** 
+**Varlık dayalı boyutlar** 
 
-Yedeklenen varlık mali boyut alanından kullanım değerleri oluşturmak için temel mali boyut için sistem tarafından tanımlanan bir varlık seçin. Mali boyut değerleri bu seçimden oluşturulur. Örneğin, projeler için boyut değerleri oluşturmak üzere Projeleri seçin. Her proje adı için bir boyut değeri oluşturulur. Boyur değerleri sayfası, varlığa ait değerleri ve değerler şirkete özelse, değerle ilgili şirketi gösterir. 
+Varlığa dayalı boyut oluşturmak için, Kullanılacak değerlerin kaynağı alanından, mali boyuta temel alınacak bir sistem tanımlı varlık seçin. Mali boyut değerleri bu seçimden oluşturulur. Örneğin, projeler için boyut değerleri oluşturmak üzere Projeleri seçin. Her proje adı için bir boyut değeri oluşturulur. Boyur değerleri sayfası, varlığa ait değerleri ve değerler şirkete özelse, değerle ilgili şirketi gösterir. 
 
-**Boyutlarını etkinleştirme** 
+**Boyutları etkinleştirme** 
 
 Mali boyut etkinleştirmesi tabloyu mali boyut adıyla güncelleştirir ve silinen boyutları kaldırır. Mali boyutu etkinleştirmeden önce boyut değerleri girebilirsiniz ancak mali boyut etkinleştirilene kadar hiçbir yerde kullanılamaz. Örneğin, mali boyut etkinleştirilene kadar bir hesap yapısına bir mali boyut ekleyemezsiniz. Etkinleştir'e tıkladığınızda, tüm boyutlar durum değişiklikleriyle güncelleştirilir. 
 
-**Translations** 
+**Çeviriler** 
 
-Metin çeviri sayfası seçili mali boyut için farklı dillerde görüntülenecek metin girmenizi sağlar. Ana hesap çeviri sayfası, ana hesap için farklı dillerde görüntülenecek bir metin girebileceğiniz alandır. 
+Metin çevirisi sayfası, seçili mali boyut için farklı dillerde görüntülenecek metni girmenize olanak tanır. Ana hesap çeviri sayfası, ana hesap için farklı dillerde görüntülenecek bir metin girebileceğiniz alandır. 
 
-**Legal entity overrides** 
+**Tüzel varlık geçersiz kılmaları** 
 
-Tüm boyutları tüm tüzel kişilikler için geçerlidir ve yalnızca belirli bir süre için ilgili olabilir. Bu senaryoda, Tüzel kişilik geçersiz kılma bölümü, boyutun hangi şirketler için askıya alınacağını, sahibinin kim olduğunu ve boyutun etkin olacağı zaman dilimini tanımlamak için kullanılabilir.
+Tüm yasal birimler için tüm boyutlar geçerli değildir, bazı ana hesaplar sadece belirli bir zaman aralığı için geçerli olabilir. Bu senaryoda, Tüzel kişilik geçersiz kılma bölümü, boyutun hangi şirketler için askıya alınacağını, sahibinin kim olduğunu ve boyutun etkin olacağı zaman dilimini tanımlamak için kullanılabilir.
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="main-account-types"></a>Ana hesap türleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Ana hesap türleri, ana hesabın hesap planında nasıl kullanılacağını belirler.
 
 Ana hesaplar - hesap çizelgesi sayfasında bir ana hesap oluşturduğunuzda mutlaka bir ana hesap türü seçmelisiniz.
@@ -35,6 +38,8 @@ Ana hesaplar - hesap çizelgesi sayfasında bir ana hesap oluşturduğunuzda mut
 -   Bilanço, Kıymet, Borç ve Öz varlık – Bu ana hesaplar, bir tüzel kişiliğe ait olan veya bir tüzel kişiliğin borcu olan hesapların kaydedilmesi için hareket hesapları olarak kullanılır.
 -   Toplam – Bu ana hesaplar, hesap aralıkları eklemek için kullanılır. Tüm hesap aralıkları için grup bakiyelerinin toplamını gösteren Hesap aralık sayfasını kullanarak Toplam ana hesap türünü yapılandırın. Bir Toplam hesap türünü seçtiğinizde Genel sekmesindeki Toplamlar düğmesini tıklayarak Hesap aralık sayfasını açın.
 -   Raporlama – Bu ana hesaplar sadece Brezilya için mali bildirim raporlama için kullanılır.
+
+
 
 
 

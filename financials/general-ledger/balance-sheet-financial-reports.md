@@ -1,6 +1,6 @@
 ---
 title: "Bilanço mali raporları"
-description: "Bu makalede varsayılan raporları Bilançolar için. Ayrıca, bu raporları ile ilişkili olan yapı taşlarını açıklanır."
+description: "Bu makale, bilançolar için varsayılan raporları açıklar. Ayrıca, bu raporlarla ilişkili olan yapı taşlarını açıklar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="balance-sheet-financial-reports"></a>Bilanço mali raporları
 
-Bu makalede varsayılan raporları Bilançolar için. Ayrıca, bu raporları ile ilişkili olan yapı taşlarını açıklanır. 
+[!include[banner](../includes/banner.md)]
+
+
+Bu makale, bilançolar için varsayılan raporları açıklar. Ayrıca, bu raporlarla ilişkili olan yapı taşlarını açıklar. 
 
 <a name="default-balance-sheet-reports"></a>Varsayılan bilanço raporları
 -----------------------------
@@ -72,10 +75,12 @@ Sütun tanımları, farklı ayrıntı ve mali veri düzeyleri sunmak üzere fark
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Mali raporlama](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Mali raporları görüntüle](view-financial-reports.md)
 
-[Dynamics finansal raporlama Blog](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamics Mali Raporlama Blogu](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="product-receipt-against-purchase-orders"></a>Ürün girişine karşılık satınalma siparişleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede ürünleri teslim alınmış olarak kaydetmeye yönelik çeşitli seçenekler açıklanmıştır.
 
 Ürün girişi satınalma siparişi (PO) satırlarının daha sonra faturalama için işlem görmesi amacıyla sipariş edilen ürünlerin alındığını kaydetme işlemidir. Bazı durumlarda, ürünler alınmadan ek bilgilerin tedarikçilerden alındığı ön kayıt işleminden geçen ürünler kaydedilir. Ürünler geldiğinde ilk olarak **Kayıtlı** şeklinde işaretlenir. Ürünler son olarak **Alındı** şeklinde işaretlenmeden önce kalite yönetimi gibi ek işlemlerden geçebilirler.
@@ -52,19 +55,21 @@ Tüm bu siparişler üzerinden birden çok siparişi ve işlem girişini seçebi
 
 PO'lar **Doğrudan teslim** seçeneğinin belirlendiği bir satış siparişinden oluşturulabilir. Doğrudan teslim kullanıldığında ürünler hiçbir zaman ambarınıza ulaşmaz ancak doğrudan tedarikçiden müşteriye sevk edilir. Bu durumda giriş genellikle doğrudan PO üzerinden kaydedilir. Giriş, örneğin tedarikçi ile tümleştirilen elektronik veri alışverişi (EDI) aracılığıyla otomatik olarak yapılabilir. Alternatif olarak, PO şirketlerarası bir PO ise sevkiyat gerçekleştiğinde Microsoft Dynamics 365 for Operations girişi şirketlerarası satış siparişinde otomatik hale getirir. Doğrudan teslim kullanıldığında, fiziksel olarak ambara ulaşmasalar dahi ürünler hala stok olarak hesaba katılır. Bu nedenle ürün girişi PO'da kaydedildiğinde satış siparişi bir sevk irsaliyesi ile otomatik olarak güncelleştirilir, böylece stoktaki toplam değişiklik 0 (sıfır) olur. Doğrudan teslim senaryolarında ön kayda gerek duymamalısınız. Ambar yönetimi için etkinleştirilmiş ambarlar kullanıyorsanız yerine sanal bir ambar belirterek plaka kaydı gereksinimi içinde gezinebilirsiniz. Bu ambarı üründe **Doğrudan teslim ambarı** alanında belirtin. 
 
-Ürün bilgisi üzerinde PO işlendikten sonra PO durum kümesine **alınan** fatura sipariş için işlenebilir göstermek için. **Ürün girişi günlükleri** sayfasını kullanarak halihazırda alınan ürünlerle ilgili ayrıntıları inceleyebilirsiniz.  
+Ürün girişi SAS'de işlendikten sonra faturanın sipariş için işlenebildiğini göstermek için SAS durumu **Alındı** olarak ayarlanır. **Ürün girişi günlükleri** sayfasını kullanarak halihazırda alınan ürünlerle ilgili ayrıntıları inceleyebilirsiniz.  
 
 Bu sayfaya **Satınalma siparişi** sayfasındaki **Giriş** eylem grubu üzerinden erişebilirsiniz. Günlüklerdeki bilgiler miktarlar, tarihler ve boyutlarla ilgili ayrıntıları içerir.
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Satınalma siparişine genel bakış](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Satınalma siparişi oluşturma](purchase-order-creation.md)
 
 [Satınalma siparişi onayı ve doğrulaması](purchase-order-approval-confirmation.md)
 
 [Satıcı faturalarına genel bakış](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

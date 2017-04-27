@@ -1,6 +1,6 @@
 ---
 title: "Elektronik raporlama yapılandırma yaşam döngüsünü yönetin"
-description: "Bu konu, kullanım ömrü boyunca elektronik işlemler çözüm için Microsoft Dynamics 365 (ER) yapılandırmaları raporlama yönetme yöntemi açıklanmıştır."
+description: "Bu konu, Microsoft Dynamics 365 for Operations çözümü için Elektronik raporlama (ER) yapılandırmalarının yaşam döngüsünün nasıl yönetileceğini açıklar."
 author: kfend
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,18 +27,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>Elektronik raporlama yapılandırma yaşam döngüsünü yönetin
 
-Bu konu, kullanım ömrü boyunca elektronik işlemler çözüm için Microsoft Dynamics 365 (ER) yapılandırmaları raporlama yönetme yöntemi açıklanmıştır.
+[!include[banner](../includes/banner.md)]
+
+
+Bu konu, Microsoft Dynamics 365 for Operations çözümü için Elektronik raporlama (ER) yapılandırmalarının yaşam döngüsünün nasıl yönetileceğini açıklar.
 
 <a name="overview"></a>Özet
 --------
 
-Elektronik raporlama (ER), Microsoft Dynamics 365 for Operations'da yasal olarak gerekli ve ülkeye özel elektronik belgeleri destekleyen bir motorudur. Genel olarak, ER tek bir elektronik belge için bir yeteneğin aşağıdaki görevleri gerçekleştirdiğini varsayar. Daha fazla bilgi için bkz: [elektronik bildirimine genel bakış](general-electronic-reporting.md).
+Elektronik raporlama (ER), Microsoft Dynamics 365 for Operations'da yasal olarak gerekli ve ülkeye özel elektronik belgeleri destekleyen bir motorudur. Genel olarak, ER tek bir elektronik belge için bir yeteneğin aşağıdaki görevleri gerçekleştirdiğini varsayar. Daha fazla bilgi için bkz: [Elektronik raporlamaya genel bakış](general-electronic-reporting.md).
 
 -   Elektronik belge için bir şablon tasarlayın:
     -   Belgede sunulabilen gerekli veri kaynaklarını tanımlayın:
-        -   İşlem verileri, veri tabloları, veri varlıkları ve sınıfları gibi temel Dynamics 365.
-        -   Yürütme tarih ve saati ve saat dilimi gibi özel işlem özellikleri.
-        -   Çalıştırma sırasında son kullanıcı tarafından belirtilen kullanıcı giriş parametreleri.
+        -   Temel Dynamics 365 for Operations verileri (veri tabloları, veri varlıkları, sınıflar vb. gibi ).
+        -   İşlem belirli özellikler (yürütme tarihi ve saati ve saat dilimi, vb. gibi).
+        -   Kullanıcı giriş parametreleri (çalışma zamanı sırasında son kullanıcı tarafından belirtilen).
     -   Son belge biçimini belirtmek için gerekli belgele öğelerini ve topolojilerini tanımlayın.
     -   Seçili veri kaynaklarından istenen veri akışını (veri kaynağı bağlantıları aracılığıyla belge biçimi bileşenlerine) tanımlanan belge öğelerine yapılandırın ve işlem denetim mantığını belirtin.
 -   Diğer Dynamics 365 for Operations örneklerinde de kullanılabilecek bir şablon hazırlayın:
@@ -49,19 +52,19 @@ Elektronik raporlama (ER), Microsoft Dynamics 365 for Operations'da yasal olarak
     -   LCS'den bir şablonu ER yapılandırması olarak geçerli Dynamics 365 for Operations örneğine getirin.
     -   Bir ER yapılandırmasının özel sürümünü tasarlayın ve taban sürüme bir referans verin.
 -   Şablonu belirli bir iş süreciyle Dynamics 365 for Operations içinde kullanılabilir olacak şekilde tümleştirin:
-    -   Dynamics 365 for Operations'ın işlemle ilgili bir parametrede ilgili yapılandırmaya başvurarak bir ER yapılandırmasını kullanmaya başlayabileceği şekilde ayarları yapılandırın. Örneğin, faturalar işlemek için bir elektronik Ödeme iletisi oluşturmak için belirli bir hesap borç ödeme yöntemi ER yapılandırmasında bakın.
+    -   Dynamics 365 for Operations'ın işlemle ilgili bir parametrede ilgili yapılandırmaya başvurarak bir ER yapılandırmasını kullanmaya başlayabileceği şekilde ayarları yapılandırın. (Örneğin, faturaları işlemek için elektronik ödeme ileti oluşturmak amacıyla belirli bir Borç hesapları ödeme yönteminde ER yapılandırmasına başvurun).
 -   Belirli bir iş sürecinde şablon kullanın:
-    -   Belirli iş sürecinde ER yapılandırma çalıştırın. Örneğin, faturalar ER yapılandırma başvuran bir ödeme yöntemi zaman işlemek için bir elektronik Ödeme iletisi oluşturmak için seçilir.
+    -   Belirli bir iş işleminde ER yapılandırmasını çalıştırın. Örneğin, ER yapılandırmasına referans gösteren bir ödeme yöntemi seçildiğinde faturaları işlemek için bir ödeme yöntemi iletisi oluşturmak için.
 
 ## <a name="concepts"></a>Kavramlar
-Aşağıdaki roller ve ilgili etkinlikler ER yapılandırma ömrü ile ilişkilidir.
+Aşağıdaki roller ve ilgili etkinlikler ER yapılandırma yaşam döngüsü ile ilişkilendirilmiştir.
 
 | Rol                                       | Faaliyetler                                                      | Açıklama                                                                                                                                                                                                                  |
 |--------------------------------------------|-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Elektronik raporlama işlev danışmanı | ER bileşenleri oluşturun ve yönetin (modeller ve biçimler).           | ER etki alanına özgü veri modelleri, elektronik belgeler için gerekli şablon tasarımları tasarlayan ve buna uygun olarak bağlayan bir iş kişi.                                                                           |
-| Elektronik raporlama geliştirici             | Veri modeli eşlemeleri oluşturun ve yönetin.                          | İşlemler veri kaynakları için gerekli Dynamics 365 seçer ve bunları ER etki alanına özgü veri modelleri için bağlar işlemleri uzmanı için Dynamics 365.                                                                 |
-| Muhasebe gözetmeni                      | ER yapılarına başvuran süreçle ilgili ayarları yapılandırın. | Örneğin, bir **hesap yönetici** ER yapılandırma ayarlarını belirli bir hesap borç ödeme yönteminde faturaları işlemek için bir elektronik Ödeme iletisi oluşturmak için kullanılacak veren rol. |
-| Borç hesapları ödeme memuru            | ER yapılarını belirli bir iş sürecinde kullanın.                | Örneğin, bir **hesaplarına borç ödemeleri memuru** elektronik Ödeme iletileri işleme faturalar için oluşturulacak veren rol tabanlı özel bir ödeme yöntemi için yapılandırılmış ER biçimini.           |
+| Elektronik raporlama işlev danışmanı | ER bileşenleri oluşturun ve yönetin (modeller ve biçimler).           | ER etki alanına özgü veri modellerini tasarlayan, elektronik belgeler için gerekli şablonları tasarlayan ve bunları uygun şekilde bağlayan işadamı.                                                                           |
+| Elektronik raporlama geliştirici             | Veri modeli eşlemeleri oluşturun ve yönetin.                          | Gerekli Dynamics 365 for Operations veri kaynaklarını seçen ve bunları ER etki alanına özgü veri modellerine bağlayan bir Dynamics 365 for Operations uzmanı.                                                                 |
+| Muhasebe gözetmeni                      | ER yapılarına başvuran süreçle ilgili ayarları yapılandırın. | Örneğin, bir ER yapılandırmasının ayarlarının faturaların işlenmesi için elektronik ödeme iletisi oluşturmak amacıyla belirli bir Borç hesapları ödeme yönteminde kullanılmasına izin veren bir **Muhasebe gözetmeni** rolü. |
+| Borç hesapları ödeme memuru            | ER yapılarını belirli bir iş sürecinde kullanın.                | Örneğin, belirli bir ödeme yöntemi için yapılandırılan ER biçimine göre faturaların işlenmesi için elektronik ödeme iletileri oluşturulmasına izin veren **Borç hesapları ödeme memuru** rolü.           |
 
 ## <a name="er-configuration-development-lifecycle"></a>ER yapılandırması geliştirme yaşam döngüsü
 Aşağıdaki ER İle ilgili nedenlerden dolayı, geliştirme ortamı'ndaki ER yapılandırmalarını ayrı Dynamics 365 for Operations örnekleri olarak tasarlamanızı öneririz:
@@ -69,11 +72,13 @@ Aşağıdaki ER İle ilgili nedenlerden dolayı, geliştirme ortamı'ndaki ER ya
 -   **Elektronik raporlama geliştirici** rolü veya **Elektronik raporlama işlev danışmanı** rolündeki kullanıcılar yapılandırmaları düzenleyebilir ve sınama amacıyla bunları çalıştırabilir. Bu senaryo iş verilerine ve Dynamics 365 for Operations örneğinin performansına zararı olabilecek sınıflar ve tabloların çağrı yöntemlerine neden olabilir.
 -   ER yapılandırmasının ER veri kaynağı olarak sınıflar ve tabloların çağrı yöntemleri Dynamics 365 for Operations giriş noktaları ve kayıtlı şirket içeriği ile sınırlı değildir. Bu nedenle, **Elektronik raporlama geliştirici** rolü veya **Elektronik raporlama işlev danışmanı** rolündeki kullanıcılar iş açısından hassas verilere erişebilir.
 
-Yapılandırma değerlendirme (uygun işlem tümleştirme, sonuçları ve performans doğruluk) ve rol tabanlı erişim haklarının doğruluğu ve harçlar, segregation gibi kalite güvencesi için test ortamı geliştirme ortamında tasarlanan ER yapılandırmaları yüklenebilir. ER yapılandırma değişim sağlayan özellikler bu amaçla kullanılabilir. Son olarak, kanıtlanmış ER yapılandırmaları nerede hizmet aboneleri ile paylaşılabilir, LCS, veya gibi aşağıdaki çizimde gösterildiği dahili kullanım için üretim ortamına yüklenemez. ![ER yapılandırma ömrü](./media/ger-configuration-lifecycle.png)
+Geliştirme ortamı içinde tasarlanan ER yapılandırmaları, yapılandırma değerlendirmesi (uygun işlem tümleştirme, sonuçların doğruluğu ve performans) ve kalite güvencesi (role dayalı erişim hakları doğruluğu ve görev ayrımı gibi) için test ortamı'na yüklenebilir. ER yapılandırması değişimi sağlayan özellikler bu amaçla kullanılabilir. Son olarak, kanıtlanan ER yapılandırmaları hizmet aboneleri ile paylaşılmak için LCS'ye veya iç kullanım için üretim ortamına yüklenebilir, aşağıdaki resimlerde gösterildiği gibi. ![ER yapılandırma yaşam döngüsü](./media/ger-configuration-lifecycle.png)
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
 [Elektronik raporlamaya genel bakış](general-electronic-reporting.md)
+
+
 
 

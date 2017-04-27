@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-depreciation"></a>Sabit kıymet amortismanı
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede sabit kıymetlerin amortismanına genel bir bakış sunulmuştur.
 
 Amortisman, normalde sabit varlığın değerini bilançoda düşüren periyodik bir harekettir ve kâr-zarar hesabından bir masraf olarak düşülür. Bu nedenle ana hesap bilançoda genellikle periyodik amortismanı alacaklandırmak için kullanılır. Mahsup hesap, hesap planının kâr ve zarar bölümündeki bir hesaptır.
@@ -51,6 +54,8 @@ Her defterin sabit kıymetlere amortisman ayırırken kullanılan bir takvimi va
 
 Genel muhasebe defterinde **Mali takvimler** sayfasını kullanarak paylaşılan takvimler oluşturabilirsiniz.
 
-Daha fazla bilgi için bkz: [amortisman yöntemleri](depreciation-methods-conventions.md).
+Daha fazla bilgi için bkz: [Amortisman yöntemleri ve kuralları](depreciation-methods-conventions.md).
+
+
 
 

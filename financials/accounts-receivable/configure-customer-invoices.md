@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-customer-invoice"></a>Müşteri faturası oluşturma
 
+[!include[banner](../includes/banner.md)]
 
 
-**Satış siparişi için müşteri faturası** kuruluşun bir müşteriye verdiği, satışla ilişkili bir faturadır. Bu türdeki bir satış faturası, satış satırları ve madde numaraları içeren bir satış siparişine dayanarak oluşturulur. Madde numaraları genel muhasebede belirtilir ve deftere kaydedilir. Muavin defteri günlük girişlerini, müşteri için bir satış siparişi faturası için kullanılamaz. 
+
+
+**Satış siparişi için müşteri faturası** kuruluşun bir müşteriye verdiği, satışla ilişkili bir faturadır. Bu türdeki bir satış faturası, satış satırları ve madde numaraları içeren bir satış siparişine dayanarak oluşturulur. Madde numaraları genel muhasebede belirtilir ve deftere kaydedilir. Muavin defteri günlük girişleri, bir satış siparişi için müşteri faturası için kullanılamaz 
 
 Bir **serbest metin faturası** satış siparişiyle ilişkili değildir. Genel muhasebe hesaplarının, serbest metin açıklamalarının ve girdiğiniz satış tutarının bulunduğu sipariş satırlarını içerir. Bu tür bir faturaya bir madde numarası giremezsiniz. Uygun satış vergisi bilgilerini girmeniz gerekir. Satış için bir ana hesap her fatura satırında belirtilir ve **serbest metin faturası** sayfasındaki **Dağıtım tutarları** üzerine tıklatarak birden çok genel muhasebe hesaplarına dağıtabilirsiniz. Ayrıca, müşteri bakiyesi gelen serbest metin faturası için kullanılan deftere nakil profili özet hesabına nakledilir.
 
@@ -55,7 +58,7 @@ Satış siparişlerinin durumunu **Tüm satış siparişleri** listesi sayfasın
 ## <a name="consolidate-sales-orders-or-packing-slips-for-posting"></a>Satış siparişlerini veya sevk irsaliyelerini deftere nakletmek için konsolide edin.
 Bu işlemi, bir veya daha fazla satış siparişi faturalanmaya hazır durumda olduğunda ve bunları tek bir faturada birleştirmek istediğinizde kullanın. 
 
-**Satış siparişi** liste sayfasında birden fazla fatura seçebilirsiniz ve sonra **Faturalar oluştur**'u kullanarak bunları birleştirebilirsiniz. Üzerinde **Fatura deftere nakil** sayfasında değiştirebilirsiniz **Özet sipariş** siparişi numarasına göre özetlemek için ayarı (bulunduğu tek bir satış siparişi için birden çok sevk irsaliyesi) veya fatura hesabına göre (bulunduğu tek bir fatura hesabı için birden fazla satış siparişi). Kullanım **Yerleştir** göre tek faturalar, satış siparişleri bir araya getirmek düğmesini **Özet sipariş** ayarları.
+**Satış siparişi** liste sayfasında birden fazla fatura seçebilirsiniz ve sonra **Faturalar oluştur**'u kullanarak bunları birleştirebilirsiniz. **Sipariş özeti** ayarını, **Faturayı deftere nakletme** sayfasında siparişi numarasına göre özetlemek için (tek bir satış siparişi için birden çok sevk irsaliyesi olduğunda) veya fatura hesabına göre (tek bir fatura hesabı için birden fazla satış siparişi bulunduğunda) değiştirebilirsiniz. **Yerleştir** düğmesini kullanıp satış siparişlerini **Sipariş özeti** ayarlarına dayanarak tek bir faturada bir araya getirin.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Deftere nakil davranışını değiştiren ek ayarlar
 Aşağıdaki alanlar deftere nakil işleminin davranışını değiştirir.
@@ -123,8 +126,8 @@ Aşağıdaki alanlar deftere nakil işleminin davranışını değiştirir.
 <td>Kredi limitini denetle</td>
 <td>Kredi limiti denetimi gerçekleştirilirken analiz edilmesi gereken bilgileri seçin.
 <ul>
-<li><strong>None</strong> – There is no requirement for the credit limit check.</li>
-<li><strong>Balance</strong> – The credit limit is checked against the customer balance.</li>
+<li><strong>Yok</strong> – Kredi limiti kontrolü için bir gereksinim mevcut değildir.</li>
+<li><strong>Bakiye</strong> - Kredi limiti müşteri bakiyesine karşı denetlenir.</li>
 <li><strong>Bakiye + sevk irsaliyesi veya ürün girişi</strong> – Kredi limiti müşteri bakiyesi ve teslimatlara göre denetlenir.</li>
 <li><strong>Bakiye + Tümü</strong> - Kredi limiti müşteri bakiyesiyle, teslimatlarla ve açık siparişlerle karşılaştırılır.</li>
 </ul></td>
@@ -150,6 +153,8 @@ Aşağıdaki alanlar deftere nakil işleminin davranışını değiştirir.
 </tr>
 </tbody>
 </table>
+
+
 
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="work-breakdown-structures"></a>İş kırılım yapıları
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 İş kırılım yapıları - İş kırılım yapısı (WBS) olan bir proje için yapılan bir işe ilişkin açıklamadır. Proje ekibinin iş bileşimi, her bir bileşen veya görevin boyut, maliyet ve süre anlayışını temsil eden bir görevler hiyerarşisidir. Bir WBS'nin üç ana amacı vardır:
@@ -39,17 +42,17 @@ Bir WBS'nin ayrıntı derecesi, tahminlerde gerekli olan kesinlik düzeyine ve b
 
 Bunun tersine, medya ve reklam, yazılım ve BT altyapısı gibi sektörlerde projeleri benzersiz olma eğilimindedir ve verimlilik, görevi yürütenlerin deneyimine ve yetkinliğine bağlıdır. Bu nedenle, bu sektörlerde projedeki ilerlemenin ayrıntılı takibi değil de, projenin tahmini boyutunu veren bir WBS kullanılır. 
 
-WBS oluşturma genellikle uzun dönemde yayılan yoğun bir süreçtir ve çok sayıda, farklı insanın işbirliğini ve bilgisini gerektirir. Bu konuda nasıl ÇÇY geliştirmeler Microsoft Dynamics 365 işlemleri için tahminler ve izleme için gereksinimlerinizi karşılamak için kullanabileceğiniz açıklanmaktadır.
+WBS oluşturma genellikle uzun dönemde yayılan yoğun bir süreçtir ve çok sayıda, farklı insanın işbirliğini ve bilgisini gerektirir. Bu konuda, Microsoft Dynamics 365 for Operations'ta, tahminler ve izleme için gereksinimlerinizi karşılayacak WBS ilerlemelerini nasıl kullanabileceğiniz açıklanmaktadır.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>WBS oluşturma önkoşulları
 WBS oluşturmak için bir iş çizelgesi ve iş maliyeti çıkarabilmeniz gerekir.
 
 ### <a name="prerequisites-for-creating-a-work-schedule"></a>İş çizelgesi oluşturma önkoşulları
 
-ÇÇY özelliklerinin Zamanlama tam yetenekleri kullanmak için aşağıdaki Kurulumu tamamlayın:
+WBS özelliklerinin planlama yeteneklerinden tam olarak yararlanmak için aşağıdaki kurulumu tamamlayın:
 
 1.  Birer varsayılan takvim ve proje takvimi ayarlayın:
-    1.  ' I **proje yönetimi ve muhasebe**&gt;**Kurulum**&gt;**zamanlama**. **Varsayılan çalışma takvimi** alanında bir varsayılan takvim belirtin. Bu, oluşturulan her yeni proje için varsayılan çalışma takvimi olacaktır.
+    1.  **Proje yönetimi ve muhasebe** &gt; **Kurulum** &gt; **Planlama**'ya tıklayın. **Varsayılan çalışma takvimi** alanında bir varsayılan takvim belirtin. Bu, oluşturulan her yeni proje için varsayılan çalışma takvimi olacaktır.
     2.  Belirli bir proje için varsayılan takvimi değiştirebilirsiniz. Proje ayrıntıları sayfasına tıklayın ve **Proje ekibi ve planlama** hızlı sekmesinde başka bir takvim seçerek **Planlama takvimi** alanını güncelleştirin.
 
 2.  Standart çalışma günleri ve çalışma saatleri ayarlayın. Projeniz için çalışma takvimi olarak belirlediğiniz takvim, WBS'de aşağıdaki bilgileri belirlemek için kullanılır:
@@ -57,13 +60,13 @@ WBS oluşturmak için bir iş çizelgesi ve iş maliyeti çıkarabilmeniz gereki
 -   İş günleri ve tatiller
 -   Günlük çalışma saati sayısı
 
-Çalışma günleri ve çalışma saatleri için bir takvim ayarlamak veya yeni bir takvim oluşturmak için tıklatın **kuruluş yönetim**&gt;**ortak**&gt;**takvimleri**.
+Bir takvimin iş günlerini ve çalışma saatlerini ayarlamak veya yeni bir takvim oluşturmak için **Kuruluş yönetimi** &gt; **Ortak** &gt; **Takvimler**'e tıklayın.
 
 ### <a name="prerequisites-for-estimating-the-cost-of-work"></a>Çalışma maliyetini tahmin etme önkoşulları
 
 WBS'nin maliyet tahmini özelliklerinden tam olarak yararlanmak için, çalışanların maliyetlerini ve satış fiyatlarını, işçilik kategorilerini, giderleri, ücretleri ve maddeleri ayarlamanız gerekir.
 
--   Maliyet ve satış fiyatı işçilik, gider ve Ücret kategorilerini ayarlamak için tıklatın **proje yönetimi ve muhasebe**&gt;**Kurulum**&gt;**fiyatları**.
+-   İşçilik maliyet ve satış fiyatı, gider ve ücret kategorilerini ayarlamak için **Proje yönetimi ve muhasebe** &gt; **Kurulum** &gt; **Fiyatlar**'a tıklayın.
 -   Maddelerin maliyet ve satış fiyatlarını ayarlamak için, Ürün bilgileri yönetimi'nin **Serbest bırakılan ürünler** liste sayfasındaki **Ticari anlaşmalar** sayfasını kullanın.
 
 ## <a name="creating-a-wbs"></a>WBS oluşturma
@@ -73,11 +76,11 @@ WBS oluşturma işlemi üç faaliyeti kapsar:
 2.  **İş çizelgesi** – Bir görevi tamamlamak için gereken süreyi tahmin edebilir, görev bağımlılıklarını ayarlayabilir, görevler için başlanıç ve bitiş tarihleri seçebilirsiniz.
 3.  **Maliyet tahmini** – Her bir görev için maliyetleri tahmin edebilirsiniz.
 
-ÇÇY yetenekleri bu faaliyetleri herbiri nasıl yardımcı olabileceğini aşağıdaki bölümlerde açıklanmaktadır.
+WBS özelliklerinin bu faaliyetlerin her birinde nasıl yardımcı olabileceği aşağıdaki bölümlerde ele alınmaktadır.
 
 ### <a name="work-decomposition"></a>İş ayrıştırma
 
-İş kırılımı veya ayrıştırması oluşturmak genellikle WBS oluşturma sürecinin ilk adımıdır. ÇÇY işlevselliği, iş dökümü veya ayrıştırma için aşağıdaki temel yapıları destekler. 
+İş kırılımı veya ayrıştırması oluşturmak genellikle WBS oluşturma sürecinin ilk adımıdır. WBS işlevselliği, iş kırılımı veya ayrıştırma için aşağıdaki temel yapıları destekler. 
 
 **Proje kök görevi** Proje kök görevi, bir projenin en üst düzey özet görevidir. Projedeki diğer görevlerin hepsi onun altında oluşturulur. Kök görev her zaman projenin adını alır. Kök düğümün iş gücü, tarihler ve süresi, kök görevin altındaki görelerin değerlerini özetler. Kök düğüm özelliklerini değiştiremez ve silemezsiniz.
 
@@ -94,7 +97,7 @@ WBS numaralandırmasını şimdilik özelleştiremiyorsunuz.
 **Görevi girintile** Bir görevi girintilerseniz, kendisinden önceki görevin alt görevi haline gelir. Yeni alt görevin WBS numarası, yeni üst görevinin WBS numarasına göre otomatik olarak hesaplanır. Üst görev artık bir özet veya kapsayıcı görevdir ve bu nedenle, kendisini oluşturan görevlerin bir toplamı haline gelir. 
 
 > [!NOTE] 
-> Göreve girinti işleminden önce bir yaprak düğüm olan görevleri girinti eklediğinizde, yeni oluşturulan Özet görevi kendi tarihleri, çaba ve kaynakları sayısı kaybeder. Artık, oluşturucu yeni görevlerinin değerlerinin özetini kullanır. 
+> Girintileme işleminden önce bir alt düğüm olan bir görev altındaki görevleri girintilediğiniz zaman, yeni oluşturulan özet görevin kendi tarihleri, iş gücü ve kaynak sayısı kaybolur. Artık, oluşturucu yeni görevlerinin değerlerinin özetini kullanır. 
 
 **Görevin girintisini azalt** Bir görevin girintisini azalttığınızda, üst görevinin oluşturucusu olmaktan çıkar. Bu görevin WBS numarası, hiyerarşide görevin yeni düzeyini yansıtacak şekilde otomatik olarak yeniden hesaplanır. Görevin önceki üst görevinin iş gücü, maliyeti ve tarihleri, o eski üst görevi dışlamak üzere yeniden hesaplanır. 
 
@@ -102,10 +105,10 @@ WBS numaralandırmasını şimdilik özelleştiremiyorsunuz.
 
 ### <a name="schedule-estimation"></a>Zamanlama tahmini
 
-Zamanlama tahmini genellikle bir WBS oluşturmanın ikinci adımıdır. Görevleri oluşturduktan sonra zamanlama tahminini tamamlamanızı tavsiye ederiz. **Çalışma çözümleme yapısı** işlemi iki bölüm için sayfa içinde Microsoft Dynamics 365. Üst bölme zamanlama tahmini için kullanılırken, alt bölmede, maliyet tahmini için kullanabileceğiniz **Tahmini maliyetler ve gelirler** sekmesi bulunur. 
+Zamanlama tahmini genellikle bir WBS oluşturmanın ikinci adımıdır. Görevleri oluşturduktan sonra zamanlama tahminini tamamlamanızı tavsiye ederiz. Microsoft Dynamics 365 for Operation'daki **İş kırılımı yapısı** sayfasında iki bölüm vardır. Üst bölme zamanlama tahmini için kullanılırken, alt bölmede, maliyet tahmini için kullanabileceğiniz **Tahmini maliyetler ve gelirler** sekmesi bulunur. 
 **Görev bağımlılıkları** WBS'de görevler arasında bir öncel ilişkisi oluşturabilirsiniz. Bir göreve öncel görevler atadığınız zaman, bu görev yalnızca tüm öncel görevleri tamamlandıktan sonra başlatılabilir. Görevin planlanan başlangıç tarihi, tüm öncellerinin en son tarihine otomatik olarak ayarlanır. 
 
-**Görev Microsoft Dynamics 365 operasyonlar için iş planlama çizelgeleme** yaprak düğüm görevlerin zamanlamasını aşağıdaki Etkenler belirler:
+**Microsoft Dynamics 365 for Operation görev zamanlama** Aşağıdaki etkenler, alt düğüm görevlerinin zamanlamasını belirler:
 
 -   Önceller
 -   Çalışma
@@ -114,27 +117,27 @@ Zamanlama tahmini genellikle bir WBS oluşturmanın ikinci adımıdır. Görevle
 
 Öncelleri olmayan bir alt düğüm görevinin başlangıç tarihi, projenin zamanlama başlangıç tarihine otomatik olarak ayarlanır. Bir alt düğüm görevinin süresi her zaman kendi başlangıç ve bitiş tarihleri arasındaki çalışma gün sayısı olarak hesaplanır. 
 
-Otomatik zamanlama Yardım açık olduğunda kuralları *** zamanlama, yaprak düğüm görevler için görev zamanlama için aşağıdaki kurallar geçerlidir:
+****Zamanlama kuralları**** Otomatik zamanlama yardımcısı etkinleştirildiği zaman, alt düğüm görevleri için görev zamanlamasına aşağıdaki kurallar uygulanır:
 
 -   Bir görevin başlangıç ve bitiş tarihleri, projenin zamanlama takvimine göre, çalışma günleri olmalıdır.
 -   Öncelleri olan bir görevin başlangıç tarihi, öncellerinin en son bitiş tarihine otomatik olarak ayarlanır.
 -   Bir görevin iş gücü, otomatik olarak aşağıdaki gibi hesaplanır:
 
-İnsanlar × süre × standart proje takviminde çalışma günü saat sayısı sayısı. 
+Kişi sayısı × Süre × Proje takviminde standart bir iş gününde saat sayısı. 
 
-Bazı durumlarda bu kurallardan sapmak isteyebilirsiniz. Otomatik otomatik olarak ayarlayarak veya herhangi bir yaprak düğüm görevlerin özelliklerini düzeltme işlemleri için Microsoft Dynamics 365 önlemek için zamanlama devre dışı bırakabilirsiniz. Bir görev için, zamanlama kurallarının ihlaline neden olan bilgiler girdiğiniz zaman, görev için bir zamanlama hatası simgesi gösterilir. Zamanlama hatalarının görüntülenmesini istemiyorsanız, **Zamanlama hataları gösterilir**'e tıklayarak özelliği devre dışı bırakın. 
+Bazı durumlarda bu kurallardan sapmak isteyebilirsiniz. Microsoft Dynamics 365 for Operations'ın alt düğüm görevlerinin özelliklerini otomatik olarak ayarlamasını veya düzeltmesini önlemek için otomatik zamanlamayı devre dışı bırakabilirsiniz. Bir görev için, zamanlama kurallarının ihlaline neden olan bilgiler girdiğiniz zaman, görev için bir zamanlama hatası simgesi gösterilir. Zamanlama hatalarının görüntülenmesini istemiyorsanız, **Zamanlama hataları gösterilir**'e tıklayarak özelliği devre dışı bırakın. 
 
 > [!NOTE] 
-> Bir Özet veya kapsayıcı görevi değerlerini otomatik zamanlama Yardım açmak veya kapatmak açık olup olmadığı dikkate alınmadan oluşturan görevlerin değerlerinin toplamı olarak hesaplanır devam edin. 
+> Bir özet veya kapsayıcı görevin değerleri, otomatik zamanlama yardımcısının açık veya kapalı olmasına bakılmaksızın, kendisini oluşturan görevlerin değerlerinin toplamı olarak hesaplanmaya devam eder. 
 
 **Zamanlama hatalarını düzeltme** Otomatik zamanlama yardımcısı açıkken zamanlama hatalarının oluşması olası değildir. Ancak, otomatik zamanlama yardımcısını kapatıp daha sonra yeniden açarsanız, WBS'de zamanlama hatası simgeleri görünebilir. 
 
 **Zamanlama hatalarını göreve göre düzeltme** Belirli bir görevin zamanlama hatası simgesine çift tıklatığınızda, o görev için tüm zamanlama hatalarını görüntüleyen bir iletişim kutusu açılır. Görev için hangi zamanlama hatalarının düzeltileceğine karar verebilirsiniz. 
 
-**Tüm zamanlama hataları düzeltmeden** eylem bölmesinde, ÇÇY tüm zamanlama hataları düzeltmek işlemleri için Microsoft Dynamics 365 istiyorsanız tıklatın **tüm zamanlama farklılıklarını gidermek**. 
+**Tüm zamanlama hatalarını düzeltme** Microsoft Dynamics 365 for Operations'ın WBS'deki tüm zamanlama hatalarını düzeltmesini istiyorsanız **Tüm zamanlama uyuşmazlıklarını düzelt**'e tıklayın. 
 
 > [!NOTE] 
-> Bu özellik, ÇÇY önemli değişiklikler neden olabilir. Hatalar aşağıdaki sıraya göre düzeltilir:
+> Bu özellik WBS'de önemli değişikliklere neden olabilir. Hatalar aşağıdaki sıraya göre düzeltilir:
 
 1.  Tüm görevlerdeki tahmini iş gücü değiştirilerek, proje takviminde tanımlanan kapasiteye eşit hale getirilir.
 2.  Görevin başlangıç tarihi, görev tüm öncel görevleri tamamlandıktan sonra başlayacak şekilde değiştirilir.
@@ -145,7 +148,7 @@ Bazı durumlarda bu kurallardan sapmak isteyebilirsiniz. Otomatik otomatik olara
 Bu belgenin önceki bölümlerinde belirtildiği gibi, **İş kırılımı yapısı** sayfasının alt bölmesindeki **Tahmini maliyetler ve gelirler** sekmesini kullanarak her bir alt düğüm görevi için maliyet tahminlerini girersiniz. 
 
 > [!NOTE] 
-> Maliyet tahmini için bir Özet veya kapsayıcı görevi değiştirilemiyor. Bir özet görevin maliyet tahmini, alt düğüm görevlerinin maliyet tahmini toplamına eşittir. Her bir görevin tahmini toplam maliyeti, aşağıdaki hareket türlerinin tahmini maliyet tutarlarının toplamı olarak hesaplanır:
+> Özet veya kapsayıcı görevin maliyet tahminini değiştiremezsiniz. Bir özet görevin maliyet tahmini, alt düğüm görevlerinin maliyet tahmini toplamına eşittir. Her bir görevin tahmini toplam maliyeti, aşağıdaki hareket türlerinin tahmini maliyet tutarlarının toplamı olarak hesaplanır:
 
 -   İşgücü
 -   Madde veya malzeme
@@ -161,12 +164,12 @@ Her bir görevin işçilik, malzeme gider maliyetlerini tahmin ederken, tahmini 
 
 **Gider ve malzeme maliyetlerini tahmin** Tahminlere gereksiniminiz varsa, **Tahmini maliyetler ve gelir** sekmesi de bir görev için gider ve malzeme maliyetlerini tahmin etmenize olanak sağlar. 
 
-Her işçilik veya masraf satış fiyatı ve maliyet satırının temel fiyatlandırma tablolara her bir kategori için tanımlanmış kuruluma tahmin **proje yönetimi ve muhasebe**&gt;**Kurulum**&gt;**fiyatlandırma**. Maddeler için, maliyet ve satış fiyatları maddeden veya Ürün bilgileri yönetimi'nin **Serbest bırakılan ürünler** liste sayfasındaki ticari anlaşmalardan varsayılan olarak eklenir.
+Her bir işçilik veya gider satırının maliyet ve satış fiyatı, **Proje yönetimi ve muhasebe** &gt; **Kurulum** &gt; **Fiyatlandırma** altındaki fiyatlandırma tablolarında her kategori için tanımlanmış olan kuruluma göre hesaplanır. Maddeler için, maliyet ve satış fiyatları maddeden veya Ürün bilgileri yönetimi'nin **Serbest bırakılan ürünler** liste sayfasındaki ticari anlaşmalardan varsayılan olarak eklenir.
 
 ## <a name="tracking-progress-on-the-wbs"></a>WBS'de ilerlemeyi izleme
 Bazı sektörler bir projenin WBS'ye göre ilerlemesini çok ayrıntılı bir düzeyde izlerken, bazıları da ilerlemeyi WBS'nin daha yüksek düzeylerinde izler. Bu bölümde, proje gereksinimleriniz için WBS izlemeyi nasıl kullanabileceğiniz açıklanmaktadır. 
 
-Microsoft Dynamics 365 işlemleri için bir projenin ÇÇY için üç görünüm vardır: planlama görünümü, çaba izleme görünümü ve maliyet izleme görünümü.
+Bir proje WBS'si için Microsoft Dynamics 365 for Operations'ın üç görünümü vardır: Planlama görünümü, İş gücü izleme görünümü ve Maliyet izleme görünümü.
 
 ### <a name="planning-view"></a>Planlama görünümü
 
@@ -177,7 +180,7 @@ Planlama görünümünde, planlanan veya temel zamanlama ve maliyet tahmini bilg
 İş gücü izleme görünümünde, WBS'deki görevlere ilişkin ilerleme izlemesi görüntülenir. Bu görünümde, bir görev için harcanmış gerçek iş gücü saat sayısı ve planlanan iş gücü saat sayısı karşılaştırılır. Aşağıdaki formüller, İş gücü izleme görünümündeki değerleri verir:
 
 -   İlerleme yüzdesi = Görev için o tarihe kadar fiilen kullanılan iş gücü ÷ Planlanan iş gücü
--   Çaba kalan (olarak da bilinen tahmin için-tamamlama \[VS\]) = planlanan çaba – gerçek çaba için tarih
+-   Kalan iş gücü (Tamamlanma için tahmini gereken \[ETC\] olarak da bilinir) = Planlanan iş gücü – O tarihe kadar fiilen kullanılan iş gücü
 -   Tahmini tamamlanma (EAC) = Kalan iş gücü + O tarihe kadar fiilen kullanılan iş gücü
 -   Öngörülen iş gücü farkı = Planlanan iş gücü – EAC
 
@@ -188,7 +191,7 @@ Planlama görünümünde, planlanan veya temel zamanlama ve maliyet tahmini bilg
 
 **İş gücü öngörüsünün proje yöneticisi tarafından yeniden hesaplanması** Bazen, proje yöneticisi veya proje ilerlemesini izleyen başka bir kişinin bir görevdeki ilk tahminleri gözden geçirmesi gerekir. Görev, çeşitli nedenlerle, ilk tahmin edilenden daha hızlı veya daha yavaş ilerleyebilir. Örneğin, kapsam daraltılmıştır veya çalışanların başlangıçta planlanandan daha az deneyimi vardır. Öngörüler, bir proje yöneticisinin, projedeki mevcut duruma göre tahminleri algılayışıdır. Genelde temel sayıları değiştirmeniz gerekmez çünkü proje temeli, projenin zamanlaması ve projedeki tüm paydaşların üzerinde anlaşmaya vardığı maliyet tahmini için iyi bir hazırlıkla yayınlanmış belgeyi temsil eder. 
 
-Proje yöneticileri çaba görevlerdeki değiştirmeniz için iki yol vardır:
+Proje yöneticilerinin görevlerdeki iş gücünde değişiklik yapabilmesi için iki yol vardır:
 
 -   Görevdeki fiili kalan iş gücünü güncelleştirmek için otomatik olarak ayarlanan kalan iş gücünde değişiklik yapmak.
 -   Görevdeki gerçek ilerlemeyi güncelleştirmek için otomatik olarak ayarlanan ilerleme yüzdesinde değişiklik yapmak.
@@ -222,7 +225,7 @@ Maliyet izleme görünümünde, görev için, EAC'nin planlanan maliyetten daha 
 **Maliyet öngörüsünün proje yöneticisi tarafından yeniden hesaplanması** Proje yöneticileri bir göreve ilişkin ilk maliyet tahminini gözden geçirmek için CTC kullanmalıdır. Proje yöneticisi, CTC değerini, görevi tamamlamak için gereken maliyeti verecek şekilde değiştirebilir. CTC değerini değiştirirseniz, görevin CTC, EAC ve tüketilen maliyet yüzdesi bilgileri ve görev için öngörülen maliyet farkı yeniden hesaplanır. Özet görevlerdeki EAC, ETC ve tüketilen maliyet yüzdesi de yeniden hesaplanır ve kendi öngörülen maliyet farkı güncelleştirilir. 
 
 > [!NOTE] 
-> Çaba izleme görünümünde görevin CTC, TZT, ÇÇY görev için çaba düzelttiğinizde tüketilen maliyet yüzdesi ve öngörülen maliyet farkı tüm yeniden hesaplanan görünümü izleme maliyeti. Ancak, maliyet gözden geçirme işlemleri, İş gücü izleme görünümündeki değerleri etkilemez çünkü hareket türüne göre (işçilik, malzeme, gider) maliyet veya proje kategorisi değiştirilmez. 
+> İş gücü izleme görünümünde bir WBS görevinin iş gücü bilgisini gözden geçirdiğiniz zaman, görevin CTC, EAC, tüketilen maliyet yüzdesi ve öngörülen maliyet farkı, Maliyet izleme görünümünde de yeniden hesaplanır. Ancak, maliyet gözden geçirme işlemleri, İş gücü izleme görünümündeki değerleri etkilemez çünkü hareket türüne göre (işçilik, malzeme, gider) maliyet veya proje kategorisi değiştirilmez. 
 
 **Özet görevlerde maliyetlere ilişkin öngörülerin gözden geçirilmesi** Özet görevlerdeki maliyetleri gözden geçirdiğiniz zaman hesaplamalar otomatik olarak aşağıdaki sırayla yapılır:
 
@@ -236,24 +239,24 @@ Maliyet izleme görünümünde **Düzeye genişlet**'e tıklayarak, WBS'nizin iz
 
 ### <a name="earned-value-management"></a>Kazanılan değer yönetimi
 
-Kazanılan değer yöntemi (EVM), projenin ilerlemesini izlemek için kullanabilirsiniz. Proje yöneticisinin Rol Merkezi'nde, kazanılan değer ölçümlerini görüntüleyebilirsiniz. Kazanılan değer grafik bileşeni, planlanan maliyetin ve fiili maliyetin zaman aşamalı değerlerini gösterir. Geçerli tarih itibariyle kazanılmış olan değer bir nokta olarak gösterilir. Kazanılan değer için zaman aşamalı veriler şimdilik kullanılamıyor. 
+Bir proje ilerlemesini izlemek için, kazanılan değer yöntemini (EVM) kullanabilirsiniz. Proje yöneticisinin Rol Merkezi'nde, kazanılan değer ölçümlerini görüntüleyebilirsiniz. Kazanılan değer grafik bileşeni, planlanan maliyetin ve fiili maliyetin zaman aşamalı değerlerini gösterir. Geçerli tarih itibariyle kazanılmış olan değer bir nokta olarak gösterilir. Kazanılan değer için zaman aşamalı veriler şimdilik kullanılamıyor. 
 
 Kazanılan değer grafiğindeki zaman aşaması, hafta veya aya bazında görüntülenir. Bu bölümde EVM'nin üç sacayağı açıklanmaktadır: planlanan değer, kazanılan değer ve fiili maliyet. 
 
 **Planlanan değer** EVM teorisine göre, grafikteki planlanan değer bölümü, proje ekibinin projeden kazanmayı planladığı değer oranını temsil eder. 
 
-Microsoft Dynamics 365 işlemleri için planlanan değer çizer, kural getirisi 0:100 kullanır. Bu kurala göre, görevin değeri, göreve bitiş tarihi itibariyle verilir. Görev yüzde 100 tamamlanana kadar hiçbir değer nakledilmez. 
+Microsoft Dynamics 365 for Operations planlanan değerin grafiğini çıkarırken, 0:100 kazanç kuralını kullanır. Bu kurala göre, görevin değeri, göreve bitiş tarihi itibariyle verilir. Görev yüzde 100 tamamlanana kadar hiçbir değer nakledilmez. 
 
 Proje yönetimi ve muhasebe'de, alt düğümlerin bitiş tarihini ve bu tarih için planlanan maliyeti girersiniz. Planlanan değer grafiği hafta bazında görüntülendiğinde, planlanan değer proje süresince tüm alt düğüm görevleri için haftalık bazda özetlenir. 
 
 **Kazanılan değer** EVM teorisine göre, grafikteki kazanılan değer bölümü, proje ekibinin projeden fiilen kazandığı değer oranını temsil eder. 
 
-Microsoft Dynamics 365 işlemleri için kendi çizimleri kazanılan değer olduğunda kuralı getirisi 0:100 kullanır. Bu kurala göre, görevin değeri, göreve bitiş tarihi itibariyle verilir. Görev yüzde 100 tamamlanana kadar hiçbir değer nakledilmez. 
+Microsoft Dynamics 365 for Operations kazanılan değerin grafiğini çıkarırken 0:100 kazanç kuralını kullanır. Bu kurala göre, görevin değeri, göreve bitiş tarihi itibariyle verilir. Görev yüzde 100 tamamlanana kadar hiçbir değer nakledilmez. 
 
 Kazanılan değer hesaplanırken, her görevin ilerleme yüzdesi dikkate alınır. 0:100 kazanç kuralına göre, bir dönemin bitişi itibarıyla kazanılan değer hesaplanırken yalnızca o dönem içinde tamamlanan görevler dikkate alınır. Projede kazanılan değer, grafik oluşturulduğu zaman tamamlanmış olan tüm görevler için hesaplanır. 
 
 > [!NOTE] 
-> Şu anda, her görev için tarihsel ilerleme yüzdeleri depolamak için veri yapılarını ÇÇY izleme sistemi yoktur. Bu nedenle, kazanılan değer yalnızca küpün işlendiği tarih itibarıyla bildirilebilir. Rol Merkezi'nde gösterilen kazanılmış değer verilerini güncelleştirmek için küpü düzenli olarak işleyin. 
+> Şimdilik, WBS izleme sisteminde her bir görevin geçmiş ilerleme yüzdelerini depolayacak veri yapıları yoktur. Bu nedenle, kazanılan değer yalnızca küpün işlendiği tarih itibarıyla bildirilebilir. Rol Merkezi'nde gösterilen kazanılmış değer verilerini güncelleştirmek için küpü düzenli olarak işleyin. 
 
 **Fiili maliyet** EVM teorisine göre, grafikteki fiili maliyet bölümü, projede paranın harcandığı oranı temsil eder. 
 
@@ -274,7 +277,7 @@ Bir dönemde harcanan fiili maliyet, kazanılan değerden fazlaysa, kazanılanda
 Bir dönemde harcanan fiili maliyet, kazanılan değerden azsa, harcanandan daha fazla para kazanılmıştır. Buna göre, proje bütçenin aşağısındadır.
 
 ## <a name="wbs-templates"></a>WBS şablonları
-Projeler için standart şablonlar oluşturmak için ÇÇY şablonları işlevini kullanabilirsiniz. Şirketinizin sunduğu projeler yinelenebilir çok sayıda işi kapsıyorsa, bir WBS şablonu oluşturmayı düşünmelisiniz. 
+Projelere yönelik standart şablonlar oluşturmak için WBS şablonları işlevini kullanabilirsiniz. Şirketinizin sunduğu projeler yinelenebilir çok sayıda işi kapsıyorsa, bir WBS şablonu oluşturmayı düşünmelisiniz. 
 
 Mevcut bir projenin WBS'sinden bir WBS şablonu oluşturarak, o projenin planlanması sırasında topladığınız bilginin ve en iyi uygulamaların ilerideki benzer projelerde yeniden kullanılabilmesini sağlayabilirsiniz. Ancak bazı durumlarda tüm WBS'yi şablon olarak kaydetmek anlamlı olmayabilir. Bu nedenle, bir projenin WBS'sinin bölümlerinden de şablonlar oluşturabilirsiniz.
 
@@ -313,5 +316,7 @@ Gider ve madde maliyetleri, tıpkı projenin WBS'sinde yapılabildiği gibi, el 
 **Tüm zamanlama hatalarını düzelt**'e tıklayarak tüm zamanlama hatalarını bir defada düzeltebilirsiniz. 
 
 Alternatif olarak, her görev için uyarı simgesine tıklayarak zamanlama hatalarını tek tek düzeltebilirsiniz.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Uygulama işlemleri için Microsoft Dynamics 365 çalışma Mobil Satış siparişleri"
-description: "Satış siparişleri mobil çalışma alanıyla, satış siparişlerinizde herhangi bir güncel kalabilir ve herhangi bir zamanda."
+title: "Microsoft Dynamics 365 for Operations uygulaması için satış siparişleri mobil çalışma alanı"
+description: "Satış siparişleri mobil çalışma alanıyla, satış siparişlerinizin en güncel bilgilerini herhangi bir yer ve zamanda öğrenebilirsiniz."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,92 +25,92 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="sales-orders-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Uygulama işlemleri için Microsoft Dynamics 365 çalışma Mobil Satış siparişleri
+# <a name="sales-orders-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Microsoft Dynamics 365 for Operations uygulaması için satış siparişleri mobil çalışma alanı
 
-Satış siparişleri mobil çalışma alanıyla, satış siparişlerinizde herhangi bir güncel kalabilir ve herhangi bir zamanda. 
+Satış siparişleri mobil çalışma alanıyla, satış siparişlerinizin en güncel bilgilerini herhangi bir yer ve zamanda öğrenebilirsiniz. 
 
 <a name="prerequisites"></a>Önkoşullar
 -------------
 
 | Önkoşul                                                         | Açıklama                                                                                                                                                                   |
 |----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mobil platform için işlemleri hakkında Microsoft Dynamics 365 okuyun | [Dynamics 365 işlemleri mobil platformu](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
-| Dynamics 365 işlemleri için                                          | 1611 işlemleri sürümü için Microsoft Dynamics 365 olmayan bir ortamda kullanıyorsanız ve Microsoft Dynamics işlemleri platform için 3 (Kasım 2016) güncelleştirme emin olun. |
-| Düzeltme KB 3215650                                                    | Microsoft Dynamics 365 işlemleri için sağlanan çalışma alanlarını etkinleştirmek için düzeltmeyi yükleyin.                                                                       |
+| Microsoft Dynamics 365 for Operations mobil platformu hakkında bilgi alın | [Dynamics 365 for Operations mobil platformu](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
+| Dynamics 365 for Operations                                          | Microsoft Dynamics 365 for Operations sürüm 1611 ve Microsoft Dynamics for Operations platform güncelleştirmesi 3 (Kasım 2016) güncelleştirmelerinin yüklendiği bir ortam kullandığınıza emin olun. |
+| Düzeltme KB 3215650                                                    | Microsoft Dynamics 365 for Operations içerisinde sağlanan çalışma alanlarını etkinleştirmek için düzeltmeyi yükleyin.                                                                       |
 | Yüklü uygulama işlemleri için Dynamics 365 sahip mobil aygıt | Dynamics 365 işlemleri uygulama için mobil app deponuzdan indirin.                                                                                                      |
 
 ## <a name="overview"></a>Özet
-Bu mobil çalışma işlemleri uygulama için Dynamics 365 erişir ve sipariş durumu, müşteri ilgili kişi bilgileri ve siparişi alanın ilgili kişi bilgileri gibi her satış siparişi hakkındaki ayrıntılı bilgileri görüntülemenize olanak sağlar. Mobil çalışma alanı, satış siparişleri anında bir görünümünü sağlar. Müşteriye göre satış siparişleri görüntüleyin veya tüm satış siparişlerini görüntülemek veya belirli bir satış siparişi hakkındaki bilgileri görüntüleyin. Mobil çalışma derinliği satış siparişlerindeki çözümlemenize yardımcı olacak iki görünüm sağlar.
+Bu mobil çalışma alanı Dynamics 365 for Operations uygulamasına erişir ve her bir satış siparişiyle ilgili ayrıntılı bilgileri (sipariş durumu, müşteri iletişim bilgileri ve siparişi alanın iletişim bilgileri gibi) görüntülemenizi sağlar. Mobil çalışma alanı, satış siparişlerinin anlık görünümünü sağlar. Müşteri bazında satış siparişlerini veya tüm satış siparişlerini ya da belirli bir satış siparişiyle ilgili bilgileri görüntüleyebilirsiniz. Mobil çalışma alanı, satış siparişlerini derinlemesine çözümlemenize yardımcı olacak iki görünüm sağlar.
 
-### <a name="view-all-sales-orders"></a>Tüm satış siparişlerini görüntüleyin.
+### <a name="view-all-sales-orders"></a>Tüm satış siparişlerini görüntüle
 
 Bu görünüm tüm satış siparişlerini listeler.
 
--   Görüntülemek istediğiniz satış siparişleri seçmek için aşağıdaki filtrelerden birini kullanın.
-    -   Satış siparişine göre arama
-    -   Müşteri hesabına göre arama
-    -   Müşteri adına göre arama
-    -   Duruma göre arama
-    -   Yayın durumuna göre arama
-    -   Oluşturulma tarihi ve saati arama ölçütü
+-   Görüntülemek istediğiniz satış siparişlerini seçmek için aşağıdaki filtrelerden birini kullanın.
+    -   Satış siparişine göre ara
+    -   Müşteri hesabına göre ara
+    -   Müşteri adına göre ara
+    -   Duruma göre ara
+    -   Serbest bırakma durumuna göre ara
+    -   Oluşturma tarih ve saatine göre ara
 
 <!-- -->
 
--   Satış siparişleri seçtikten sonra belirli siparişleri ayrıntılarını görüntüleyebilirsiniz. Özellikle, şunları görüntüleyebilirsiniz:
+-   Satış siparişlerini seçtikten sonra belirli siparişlerin ayrıntılarını görüntüleyebilirsiniz. Özel olarak şunları görüntüleyebilirsiniz:
     -   Müşteri adı ve adres bilgileri
-    -   Talep edilen sevk tarihi ve teyit edilen sevk tarihi gibi farklı satış sipariş tarihleri
-    -   Sipariş alanın ilgili kişi bilgileri
-    -   Müşteri ilgili kişi bilgileri
+    -   Talep edilen sevk tarihi ve Teyit edilen sevk tarihi gibi farklı satış siparişi tarihleri
+    -   Siparişi alanın iletişim bilgileri
+    -   Müşteri iletişim bilgileri
     -   Sipariş satırları
-    -   Nasıl ve ne zaman bir satış siparişi sevk edildiği Göster sevk irsaliyeleri
+    -   Bir satış siparişinin nasıl ve ne zaman sevk edildiğini gösteren sevkiyatlar
 
-### <a name="view-orders-for-a-customer-"></a>Müşteri ** siparişlerini görüntülemek **
+### <a name="view-orders-for-a-customer-"></a>Bir müşterinin siparişlerini görüntüle
 
-Bu görünüm, müşteri başına satış siparişlerini listeler.
+Bu görünüm, müşterinin satış siparişlerini listeler.
 
 -   Bir müşterinin siparişlerini görüntülemek için aşağıdaki filtrelerden birini kullanın.
-    -   Adına göre arama
-    -   Hesaba göre arama
+    -   Ada göre ara
+    -   Hesaba göre ara
 
 <!-- -->
 
--   Bir müşteri seçin sonra şunları görüntüleyebilirsiniz:
-    -   Müşteri adı ve Grup
-    -   Müşteri ilgili kişi bilgileri
-    -   Müşteri satış siparişleri ve satış siparişleri hakkındaki ayrıntıları:
+-   Müşteri seçtikten sonra şunları görüntüleyebilirsiniz:
+    -   Müşteri adı ve grubu
+    -   Müşteri iletişim bilgileri
+    -   Müşteri satış siparişleri ve satış siparişleri hakkındaki ayrıntılar:
         -   Müşteri adı ve adres bilgileri
-        -   Farklı satış sipariş tarihleri
-        -   Sipariş alanın ilgili kişi bilgileri
-        -   Müşteri ilgili kişi bilgileri
+        -   Farklı satış siparişi tarihleri
+        -   Siparişi alanın iletişim bilgileri
+        -   Müşteri iletişim bilgileri
         -   Sipariş satırları
-        -   Nasıl ve ne zaman bir satış sevk edilen siparişler Göster sevk irsaliyeleri
+        -   Bir satış siparişinin nasıl ve ne zaman sevk edildiğini gösteren sevkiyatlar
 
 ## <a name="get-started"></a>Başlayın
-Satış siparişleri mobil çalışma mobil aygıtınızda kullanmaya başlamak için aşağıdaki adımları izleyin.
+Mobil cihazınızda satış siparişleri mobil çalışma alanını kullanmaya başlamak için aşağıdaki adımları izleyin.
 
-1.  Mobil app store üzerinde karşıdan yükleyip Microsoft Dynamics 365 işlemleri uygulama için.
-2.  Aygıtınızda uygulamayı başlatın.
+1.  Mobil uygulama mağazanızda, Microsoft Dynamics 365 for Operations uygulamasını indirin ve yükleyin.
+2.  Cihazınızda uygulamayı başlatın.
 3.  Dynamics 365 URL'nizi girin.
-4.  Oturum açmak için şirket girin. Örneğin: **USMF**.
-5.  İlk kez, oturum, Microsoft Dynamics 365 işlem hesabı için kullanıcı adı ve parola için uyarılırsınız. Kimlik bilgilerinizi girin. Oturum açtıktan sonra şirketiniz için kullanılabilir çalışma alanlarını görürsünüz.
+4.  Oturum açılacak şirketi girin. Örneğin **USMF** yazın.
+5.  İlk defa oturum açtığınızda, Microsoft Dynamics 365 for Operations hesabınızın kullanıcı adı ve parolasını girmeniz için uyarılırsınız. Kimlik bilgilerinizi girin. Oturum açtıktan sonra şirketiniz için kullanılabilir çalışma alanlarını görürsünüz.
 
-Çalışma alanları, mobil app üzerinde görüntülemek için önce istediğiniz çalışma işlemleri uygulama için Dynamics 365 yayımlamanız gerekir.
+Çalışma alanları, mobil app üzerinde görüntülemek için önce istediğiniz çalışma işlemlerini Dynamics 365 for Operations uygulaması için yayımlamanız gerekir.
 
-1.  Dynamics 365 işlemleri için başlatın.
-2.  Git **Sistem Yönetimi**&gt;**Kurulum**&gt;**sistem parametreleri**.
-3.  Seçin **Yönet mobil uygulama**.
-4.  Mobil platform için yayımlamak için çalışma alanını seçin.
-5.  Seçin **çalışma yayımlamak**.
-6.  Yayımlanmış çalışma öğrenmek için aygıtınızın yenileyin.
+1.  Dynamics 365 for Operations'ı başlatın.
+2.  **Sistem yönetimi** &gt; **Kurulum** &gt; **sistem parametreleri**ne gidin.
+3.  **Mobil uygulamayı yönet** seçeneğini işaretleyin.
+4.  Mobil platforma yayımlamak için çalışma alanını seçin.
+5.  **Çalışma alanını yayımla** seçeneğini işaretleyin.
+6.  Yayımlanmış çalışma alanlarını görmek için cihazınızı yenileyin.
 
-## <a name="view-information-about-sales-orders-for-a-customer"></a>Bir müşteri için satış siparişleri hakkındaki bilgileri görüntüleyin
-1.  Mobil aygıtınızda seçin **satış siparişleri** çalışma alanı.
-2.  Seçin **görüntülemek için bir müşteri siparişleri**.
-3.  Kullanım ** hesabı ** veya ** müşteri adı ** bilgi istediğiniz müşteriyi bulun.
+## <a name="view-information-about-sales-orders-for-a-customer"></a>Bir müşteriyle ilgili satış siparişleri hakkında bilgileri görüntüle
+1.  Mobil cihazınızda **Satış siparişleri** çalışma alanını seçin.
+2.  **Bir müşterinin siparişlerini görüntüle**'yi seçin.
+3.  İstediğiniz müşteriyi bulmak için **Hesap** veya **Müşteri Adı** bilgilerini kullanın.
 4.  Müşteriyi seçin.
-5.  Seçin **iletişim bilgileri** veya **satış siparişleri**.
-6.  Yoksa **satış siparişleri** ise seçilen, bir müşteri için satış siparişlerinin listesi görüntülenir.
-7.  Seçin **satış sipariş**.
+5.  **İletişim bilgileri**'ni veya **Satış siparişleri**'ni seçin.
+6.  **Satış siparişleri** seçilirse, müşterinin satış siparişlerinin listesi görüntülenir.
+7.  **Satış siparişi**'ni seçin.
 8.  Buraya, satış siparişi satırlarının, sevk irsaliyeleri, müşteri ilgili kişi bilgileri ve siparişi alanın ilgili kişi bilgileri hakkında bilgi görüntüleyebilirsiniz.
 
 

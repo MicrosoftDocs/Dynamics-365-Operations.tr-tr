@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="maintain-planned-orders"></a>Planlı siparişleri koru
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu maddede planlı siparişleri yönetme yöntemleri hakkında bilgiler yer alır. Planlı siparişlerin durumunun nasıl güncelleştirileceğini, kesinleştirileceğini ve seçilen planlı sipariş ile aynı duruma sahip planlı siparişlerin nasıl filtreleneceğini açıklar.
 
 Planlı siparişleri **Master planlama** çalışma alanından, **Planlı sipariş** listesinden veya **Planlı üretim emirleri**, **Planlı satınalma emirleri** ve **Planlı transfer** listelerinden yönetebilirsiniz. İlerlemenizi takip etmeye yardımcı olan **Durum** alanını kullanabilirsiniz. Aşağıdaki değerler kullanılır:
@@ -48,6 +51,8 @@ Planlı bir sipariş kesinleştirildiğinde, ilgili modülün siparişler bölü
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Master plans](master-plans.md)
+[Master planlar](master-plans.md)
+
+
 
 

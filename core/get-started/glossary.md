@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 işlemleri sözlüğü"
+title: "Dynamics 365 for Operations sözlüğü"
 description: "Microsoft Dynamics 365 for Operations sözlüğü, Dynamics 365 for Operations ürünündeki temel terimleri ve kavramları tanımlar."
 author: tonyafehr
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Dynamics 365 işlemleri sözlüğü
+# <a name="dynamics-365-for-operations-glossary"></a>Dynamics 365 for Operations sözlüğü
+
+[!include[banner](../includes/banner.md)]
+
 
 Microsoft Dynamics 365 for Operations sözlüğü, Dynamics 365 for Operations ürünündeki temel terimleri ve kavramları tanımlar. 
 
@@ -249,7 +252,7 @@ Kullanıcı Kabul Testi (UAT) ve üretim ortamlarında dağıtım için kullanı
 
 Model öğelerinizi oluşturmak, güncellemek ve incelemek için kullandığınız bir Visual Studio aracı.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**.. \financial-dimensions\dimension-based yapılandırma**
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**..\mali-boyutlar\boyuta-dayalı yapılandırma**
 
 Ürün boyutları için değerler seçerek ürün çeşitleri oluşturmak için kullanılan bir yapılandırma teknolojisi.
 
@@ -499,7 +502,7 @@ Bir ürünün parçası.
 
 ###### <a name="product-dimension"></a>**ürün boyutu**
 
-İçin kullanılan boyut, renk veya yapılandırma ürün nitelikleri... \financial-dimensions\dimension-based yapılandırma.
+..\finansal-boyutlar\boyut tabanlı yapılandırma için kullanılan boyut, renk veya yapılandırma ürün öznitelikleri.
 
 ###### <a name="product-family"></a>**ürün ailesi**
 
@@ -722,5 +725,7 @@ Bir çalışan veya bir yüklenici rolünü üstlenen ve hizmetleri karşılığ
 ###### <a name="workspace"></a>**çalışma alanı**
 
 Kullanıcının gerçekleştirdiği etkinliklerden birinin genel özetini sunan sayfa. Sayfa bekleyen işi ve çeşitli kaynaklardan ilgili verileri göstermek için kutucuklar, listeler ve grafikler kullanır ve sayfa bu verilerle ilgili sık kullanılan görevleri ortaya çıkarır. Çalışma alanının özet bölümünde gösterilen kutucuklar da panoda ilgili bölümde gösterilir.
+
+
 
 

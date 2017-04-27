@@ -55,7 +55,7 @@ Yeni cari ortalama maliyet fiyatı, mali olarak güncelleştirilen hareketlerin 
 -   Stok hareketleri dikey oklarla temsil edilir.
 -   Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
 -   Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
--   (Altına veya üstüne) biçiminde belirtilen değeri stok hareketinin her dikey ok,Quantity@Unitprice.
+-   Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
 -   Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
 -   Parantezler içinde gösterilmeyen bir stok hareketi değeri, stok hareketinin stoka mali olarak nakledildiğini gösterir.
 -   Her yeni giriş veya çıkış hareketi yeni bir etiketle gösterilir.
@@ -64,7 +64,7 @@ Yeni cari ortalama maliyet fiyatı, mali olarak güncelleştirilen hareketlerin 
 -   Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden kesikli kırmızı oklarla temsil edilir.
 
 ## <a name="fifo-with-the-include-physical-value-option"></a>Fiziksel değeri dahil et seçeneği ile FIFO
-Yoksa **fiziksel değeri dahil et** onay kutusu seçili öğe üzerinde **madde model grubu** sayfası sistemi kullanan iki fiziksel ve mali giriş hareketlerini ortalama maliyet fiyatını hesaplamak için. Uygun olduğunda, sistem de fiziksel olarak güncelleştirilen çıkış hareketini ayarlamalar yapar. **Fiziksel değeri dahil et** seçim kutusunun onay işareti kaldırıldığında, FIFO envanter modeli ile stok kapanışı yalnızca mali olarak güncelleştirilen hareketlerde kapatmalar yapar. Aşağıdaki çizimde şu hareketler gösterilmiştir:
+**Madde model grubu** sayfasındaki bir madde için **Fiziksel değeri dahil et** onay kutusu seçildiğinde, sistem, cari ortalama maliyet fiyatını hesaplamak için hem fiziksel hem de mali giriş hareketlerini kullanır. Uygun olan yerlerde sistem, fiziksel olarak güncelleştirilmiş çıkış hareketinde düzeltmeler de yapar. **Fiziksel değeri dahil et** seçim kutusunun onay işareti kaldırıldığında, FIFO envanter modeli ile stok kapanışı yalnızca mali olarak güncelleştirilen hareketlerde kapatmalar yapar. Aşağıdaki çizimde şu hareketler gösterilmiştir:
 
 -   1a. Her biri 10,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
 -   1b. Her biri 10,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
@@ -83,7 +83,7 @@ Yoksa **fiziksel değeri dahil et** onay kutusu seçili öğe üzerinde **madde 
 -   Stok hareketleri dikey oklarla temsil edilir.
 -   Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
 -   Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
--   (Altına veya üstüne) biçiminde belirtilen değeri stok hareketinin her dikey ok,Quantity@Unitprice.
+-   Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
 -   Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
 -   Parantezler içinde gösterilmeyen bir stok hareketi değeri, stok hareketinin stoka mali olarak nakledildiğini gösterir.
 -   Her yeni giriş veya çıkış hareketi yeni bir etiketle gösterilir.
@@ -92,7 +92,7 @@ Yoksa **fiziksel değeri dahil et** onay kutusu seçili öğe üzerinde **madde 
 -   Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden kesikli kırmızı oklarla temsil edilir.
 
 ## <a name="fifo-with-marking"></a>İşaretleme ile FIFO
-İşaretleme bir giriş hareketi için bir çıkış hareketi işaretle veya bağlantı sağlayan bir işlemdir. İşaretleme bir hareket nakledilmeden önce veya nakledildikten sonra gerçekleşebilir. İşaretlemeyi, hareket deftere nakledildiğinde veya stok kapanışı gerçekleştirildiğinde stokun tam maliyetinden emin olmak istediğinizde kullanabilirsiniz. Örneğin, Müşteri Servisi departmanınız önemli bir müşteriden bir acele sipariş kabul etsin. Bu acele bir sipariş olduğundan, müşterinizin gereksinimlerini karşılamak için bu ürün için daha fazla ödemeniz gerekecek. Bu stok maddesinin bu satış siparişi faturası için marja veya satılan malların maliyetine (COGS) yansıtılacağından emin olmanız gerekiyor. Satınalma siparişi deftere nakledildiğinde stok girişi 120,00 ABD Doları maliyetinde yapılır. Bu satış siparişi belgesi, sevk irsaliyesi veya fatura nakledilmeden önce satın alma siparişine işaretlenirse, satılan malların maliyeti maddenin cari ortalama maliyeti yerine 120,00 ABD Doları olur. Satış siparişi sevk irsaliyesi veya faturası işaretlemeden önce nakledilirse satılan malların maliyeti cari ortalama maliyet fiyatında nakledilir. Stok kapanışı gerçekleştirilmeden önce bu iki hareket birbirine işaretlenmeye devam edebilir. Bir giriş hareketi bir çıkış hareketi eşleştiğinde, madde model grubu içinde tanımlanan değerleme yöntemi gözardı edilir ve sistem bu hareketleri kapatır. Hareketin deftere nakledilmeden önce bir giriş için bir çıkış hareketi işaretleyebilirsiniz. Bunu **Satış siparişi bilgileri** sayfasındaki bir satış siparişi satırından yapabilirsiniz. Açık giriş hareketlerini **işaretleme** sayfasında görebilirsiniz. Hareket deftere nakledildikten sonra bir giriş için bir çıkış hareketi de işaretleyebilirsiniz. Deftere nakledilmiş bir stok ayarlama günlüğünden, stoklanmış bir madde için açık bir giriş hareketine yönelik bir çıkış hareketini eşleştirebilir veya işaretleyebilirsiniz. Aşağıdaki çizimde bu hareketler gösterilmiştir:
+İşaretleme bir hareket giriş hareketini bağlamanıza, işaretlemenize veya vermenize olanak sağlayan bir işlemdir. İşaretleme bir hareket nakledilmeden önce veya nakledildikten sonra gerçekleşebilir. İşaretlemeyi, hareket deftere nakledildiğinde veya stok kapanışı gerçekleştirildiğinde stokun tam maliyetinden emin olmak istediğinizde kullanabilirsiniz. Örneğin, Müşteri Servisi departmanınız önemli bir müşteriden bir acele sipariş kabul etsin. Bu acele bir sipariş olduğundan, müşterinizin gereksinimlerini karşılamak için bu ürün için daha fazla ödemeniz gerekecek. Bu stok maddesinin bu satış siparişi faturası için marja veya satılan malların maliyetine (COGS) yansıtılacağından emin olmanız gerekiyor. Satınalma siparişi deftere nakledildiğinde stok girişi 120,00 ABD Doları maliyetinde yapılır. Bu satış siparişi belgesi, sevk irsaliyesi veya fatura nakledilmeden önce satın alma siparişine işaretlenirse, satılan malların maliyeti maddenin cari ortalama maliyeti yerine 120,00 ABD Doları olur. Satış siparişi sevk irsaliyesi veya faturası işaretlemeden önce nakledilirse satılan malların maliyeti cari ortalama maliyet fiyatında nakledilir. Stok kapanışı gerçekleştirilmeden önce bu iki hareket birbirine işaretlenmeye devam edebilir. Bir giriş hareketi bir çıkış hareketiyle eşleştiğinde, ürün modeli grubunda tanımlanan değerlendirme yöntemi göz ardı edilir ve sistem bu hareketleri birbirine karşılık kapatır. Hareketin deftere nakledilmeden önce bir giriş için bir çıkış hareketi işaretleyebilirsiniz. Bunu **Satış siparişi bilgileri** sayfasındaki bir satış siparişi satırından yapabilirsiniz. Açık giriş hareketlerini **işaretleme** sayfasında görebilirsiniz. Hareket deftere nakledildikten sonra bir giriş için bir çıkış hareketi de işaretleyebilirsiniz. Deftere nakledilmiş bir stok ayarlama günlüğünden, stoklanmış bir madde için açık bir giriş hareketine yönelik bir çıkış hareketini eşleştirebilir veya işaretleyebilirsiniz. Aşağıdaki çizimde bu hareketler gösterilmiştir:
 
 -   1a. Her biri 10,00 ABD Doları maliyetinde 1 miktarındaki stok fiziksel girişi.
 -   1b. Her biri 10,00 ABD Doları maliyetinde 1 miktarındaki stok mali girişi.
@@ -111,7 +111,7 @@ Yeni cari ortalama maliyet fiyatı 27.50 ABD Doları tutarındaki mali ve fiziks
 -   Stok hareketleri dikey oklarla temsil edilir.
 -   Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
 -   Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
--   (Altına veya üstüne) biçiminde belirtilen değeri stok hareketinin her dikey ok,Quantity@Unitprice.
+-   Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
 -   Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
 -   Parantezler içinde gösterilmeyen bir stok hareketi değeri, stok hareketinin stoka mali olarak nakledildiğini gösterir.
 -   Her yeni giriş veya çıkış hareketi yeni bir etiketle gösterilir.

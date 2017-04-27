@@ -1,5 +1,5 @@
 ---
-title: "Grafiğiniz hesap planı"
+title: "Hesap planınızı planlama"
 description: "Bu makalede, kuruluşunuzun hesap planını yapmanıza yardımcı olacak bilgiler verilmektedir."
 author: RobinARH
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="plan-your-chart-of-accounts"></a>Grafiğiniz hesap planı
+# <a name="plan-your-chart-of-accounts"></a>Hesap planınızı planlama
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, kuruluşunuzun hesap planını yapmanıza yardımcı olacak bilgiler verilmektedir.
 
@@ -34,7 +37,7 @@ Bir kuruluşun finansal bilgilerini takip etmek ve kaydetmek için bir hesap pla
 
 Hesap planı bir yasal kuruluşun genel muhasebe hesaplarının yapılandırılmış bir listesidir. Liste, yetkililer ve sahipler için mali raporlar hazırlamak için kullanılır. Hesaplar, hesap türlerine göre gruplanır ve daha büyük kategorilere daha birleştirilir. En genel düzeyde, hesaplar gelirler ve maliyetler (çalışan hesaplar) ile varlıklar ve borçlar (bilanço hesapları) olarak gruplanır. 
 
-Hesap planını paylaşılan ve kuruluştaki herhangi bir tüzel kişilik tarafından kullanılır. Tüzel kişilik tarafından kullanılan hesap planında tanımlanan **defter** sayfa. 
+Hesap planı paylaşılabilir ve kuruluştaki herhangi bir tüzel kişilik tarafından kullanılır. Tüzel kişilik tarafından kullanılan hesap planı **Genel muhasebe** sayfasında tanımlanır. 
 
 Burada kurumunuz için hesap planının yapısını planlarken mutlaka göz önünde bulundurmanız gereken bazı faktörler açıklanmıştır:
 
@@ -48,10 +51,12 @@ Ana hesapların ana hesap kategorileriyle ilişkilendirilmesi iyi bir fikirdir, 
 
 Hesap yapıları oluşturmak için **Hesap yapıları oluştur** sayfasını kullanın. Hesap yapıları geçerli kombinasyonları tanımlar. Kombinasyonlar, ana hesaplarla birlikte bir hesap planı oluşturur. 
 
-**Legal entity overrides** 
+**Tüzel kişilik geçersiz kılmaları** 
 
-Tüm ana hesapların tüm tüzel kişilikler için geçerlidir ve yalnızca belirli bir süre için ilgili olabilir. Bu senaryoda, Yasal birim önceliği bölümü, ana hesabın hangi şirketler için askıya alınması gerektiğinin, sahibinin kim olduğunun ve boyutun etkin olacağı zaman diliminin belirlenmesi için kullanılabilir. Paylaşılan düzeydeki öncelikler, yasal birim düzeyindeki önceliklerden daha kısıtlayıcı olamaz.
+Tüm yasal birimler için her ana hesap geçerli değildir, bazı ana hesaplar sadece belirli bir zaman aralığı için geçerli olabilir. Bu senaryoda, Yasal birim önceliği bölümü, ana hesabın hangi şirketler için askıya alınması gerektiğinin, sahibinin kim olduğunun ve boyutun etkin olacağı zaman diliminin belirlenmesi için kullanılabilir. Paylaşılan düzeydeki öncelikler, yasal birim düzeyindeki önceliklerden daha kısıtlayıcı olamaz.
 
-Daha fazla bilgi için bkz: [mali boyutları](financial-dimensions.md).
+Daha fazla bilgi için bkz. [Mali boyutlar](financial-dimensions.md).
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Paralel bir dal bir iş akışında yapılandırma"
+title: "Paralel dalı iş akışında yapılandırma"
 description: "Paralel dal yapılandırmak için iş akışı düzenleyicisinde aşağıdaki yordamları tamamlayın."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-parallel-branch-in-a-workflow"></a>Paralel bir dal bir iş akışında yapılandırma
+# <a name="configure-a-parallel-branch-in-a-workflow"></a>Paralel dalı iş akışında yapılandırma
+
+[!include[banner](../includes/banner.md)]
+
 
 Paralel dal yapılandırmak için iş akışı düzenleyicisinde aşağıdaki yordamları tamamlayın.
 
@@ -32,7 +35,7 @@ Paralel dal temel olarak bir ana iş akışı bağlamında çalışan bir iş ak
 
 ## <a name="name-a-branch"></a>Dala ad verme
 Paralel dala bir ad vermek için aşağıdaki adımları uygulayın.
-1.  Paralel bir dala sağ tıklayabilir ve ardından **Özellikler**. **Özellikleri** formu görüntülenir.
+1.  Paralel dala sağ tıklayın ve ardından **Özellikler** seçeneğine tıklayın. **Özellikler** formu görüntülenir.
 2.  Sol bölmede **Temel Ayarlar**'a tıklayın.
 3.  Paralel dal için **Ad** alanına benzersiz bir ad girin.
 4.  **Kapat**'a tıklayın.
@@ -40,7 +43,7 @@ Paralel dala bir ad vermek için aşağıdaki adımları uygulayın.
 ## <a name="design-and-configure-the-elements-of-a-branch"></a>Dalın öğelerini tasarlama ve yapılandırma
 Paralel bir dalın öğelerini tasarlamak ve yapılandırmak için bu adımları izleyin.
 1.  Paralel dala çift tıklayın.
-2.  İş akışı öğelerini tuvale sürükleyin ve ardından başka herhangi bir iş akışını oluşturur gibi öğeleri yapılandırın. Daha fazla bilgi için bkz: bir iş akışı oluşturun.
+2.  İş akışı öğelerini tuvale sürükleyin ve ardından başka herhangi bir iş akışını oluşturur gibi öğeleri yapılandırın. Daha fazla bilgi için bkz. İş akışı oluşturma.
 
 
 
@@ -48,5 +51,7 @@ Paralel bir dalın öğelerini tasarlamak ve yapılandırmak için bu adımları
 --------
 
 [İş akışı oluşturma](create-workflow.md)
+
+
 
 

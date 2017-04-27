@@ -1,6 +1,6 @@
 ---
-title: "Bir ürün reçetesi açılımı"
-description: "Bu makalenin asıl açılımı bir ürün reçetesi (BOM) versiyonu ilgilidir senaryosu planlamasını açıklar."
+title: "Bir ürün reçetesi versiyonu açılımı"
+description: "Bu makalede ürün reçetesi (BOM) sürümü açılımı içeren bir master planlama senaryosu açıklanmaktadır."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="explosion-of-a-bom-version"></a>Bir ürün reçetesi açılımı
+# <a name="explosion-of-a-bom-version"></a>Bir ürün reçetesi versiyonu açılımı
 
-Bu makalenin asıl açılımı bir ürün reçetesi (BOM) versiyonu ilgilidir senaryosu planlamasını açıklar.
+[!include[banner](../includes/banner.md)]
+
+
+Bu makalede ürün reçetesi (BOM) sürümü açılımı içeren bir master planlama senaryosu açıklanmaktadır.
 
 Bir ürün reçetesi sürümünün talep açılımı, belirli bir tesisteki ve muhtemelen belirli bir ambardaki her ürün satırı maddesine yönelik bir talep oluşturur. Bir tesise özel ürün reçetesinde, her ürün reçetesi satırı için belirli bir ambar tanımlanabilir. Ek olarak, her ürün reçetesi satırı için maddenin boyut ayarları ambarın gerekli olup olmadığını belirlemektedir. Her ürün reçetesi satırı maddesi için sonuçta elde edilen talep, ardından ilave talep açılımının başlangıç noktasını oluşturmaktadır. Bu master planlama senaryosu aşağıdaki koşulları kapsar:
 
@@ -41,8 +44,10 @@ Aşağıdaki resimde, master planlama talep açılımının ne şekilde ilerledi
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Master planlama - ürün reçetesi sürümü nasıl belirlenir](master-plan-bom-version-determined.md)
+[Master planlama - ürün reçetesi sürümünün nasıl belirlendiği](master-plan-bom-version-determined.md)
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Master planlama ve birden çok tesis işlevi](master-plan-multisite-functionality.md)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Müşteri siparişleri genel bakış"
-description: "Bu konu, müşteri siparişleri, perakende Modern POS (MPOS) hakkında bilgi sağlar. Müşteri Siparişlerini özel siparişler de verilir. Konu bir tartışma ilgili parametreler ve hareket akışları içerir."
+title: "Müşteri siparişlerine genel bakış"
+description: "Bu konu, Perakende Modern POS (MPOS) içerisindeki müşteri siparişleri hakkında bilgi sağlar. Müşteri siparişleri, özel siparişler olarak da adlandırılır. Bu konu, ilgili parametreler ve hareket akışları hakkında bir tartışma içerir."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
@@ -25,75 +25,80 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="customer-orders-overview"></a>Müşteri siparişleri genel bakış
+# <a name="customer-orders-overview"></a>Müşteri siparişlerine genel bakış
 
-Bu konu, müşteri siparişleri, perakende Modern POS (MPOS) hakkında bilgi sağlar. Müşteri Siparişlerini özel siparişler de verilir. Konu bir tartışma ilgili parametreler ve hareket akışları içerir.
+[!include[banner](includes/banner.md)]
 
-Omni-kanal perakende dünyasında, siparişleri veya çeşitli ürün ve yerine getirme gereksinimlerini karşılamak için özel siparişler Perakendeciler birçok müşterinin seçeneği sağlar. Burada, bazı tipik senaryolar vardır:
 
--   Müşteri belirli bir tarihte belirli bir adrese teslim edilecek ürünler istiyor.
--   Bir müşteri ürünleri bir mağaza veya depodan farklı konum veya konum nerede müşteri bu ürünleri satın alması istiyor.
--   Bir müşteri, Müşteri satın alınan ürünler çekmek için başkası istemektedir.
+Bu konu, Perakende Modern POS (MPOS) içerisindeki müşteri siparişleri hakkında bilgi sağlar. Müşteri siparişleri, özel siparişler olarak da adlandırılır. Bu konu, ilgili parametreler ve hareket akışları hakkında bir tartışma içerir.
 
-Perakendeciler müşteri siparişleri malları teslim ya da farklı bir zaman veya yer toplanma nedeni, hisse senedi kesintileri Aksi takdirde, neden olabilir kayıp satış en aza indirmek için de kullanabilirsiniz.
+Çok kanallı perakende dünyasında pek çok perakendeci, çeşitli ürün ve yerine getirme gereksinimlerini karşılamak için müşteri siparişleri seçeneği veya özel siparişler sağlar. Burada bazı tipik senaryolar vardır:
 
-## <a name="set-up-customer-orders"></a>Müşteri siparişlerini kurun
-Ayarlanabilir parametreler bazıları şunlardır **perakende parametreleri** nasıl müşteri siparişleri karşılandıktan tanımlamak için sayfa:
+-   Bir müşteri, ürünler belirli bir tarihte belirli bir adrese teslim edilmesini istiyor.
+-   Bir müşteri, ürünleri, müşterinin satın aldığı mağazadan başka bir konumda bulunan bir mağazadan teslim almak istiyor.
+-   Bir müşteri, müşterinin satın aldığı ürünleri bir başkasının teslim almasını istiyor.
 
--   **Depozito yüzdesi varsayılan** – sipariş onaylanabilmesi için önce müşterinin ödemesi gereken tutarı bir depozito belirtin. Varsayılan depozito tutarı sipariş değerinin bir yüzdesi olarak hesaplanır. Mağaza çalışanı ayrıcalıklara bağlı olarak, tutar kullanarak geçersiz kılmak mümkün olabilir **havale geçersiz kılma**.
--   **İptal ücreti yüzde** – müşteri siparişi iptal edildiğinde, bir şarj uygulanacaksa bu gideri tutarını belirtin.
--   **İptal ücreti kod** – müşteri siparişi iptal edildiğinde bir gider gider bir gider kodu altında Microsoft Dynamics AX'te satış siparişine yansıtılır uygulanacaktır. İptal ücreti kodu tanımlamak için bu parametreyi kullanın.
--   **Kargo ücreti kod** – Perakendeciler malları müşteriye sevkiyat için ek bir ücret şarj. Bu sevkiyat gideri tutarını altında gider kodu Dynamics AX'de satış siparişine yansıtılır. Giderleri Müşteri siparişin sevkiyat için sevkiyat gider kodunun eşlemek için bu parametreyi kullanın.
--   **Kargo ücretleri iade** – müşteri siparişiyle ilişkili kargo ücretleri hiçbir ödemenin iadesi yapılmaz edilip edilmeyeceğini belirtin.
--   **Maksimum Tutar onayı olmadan** – kargo ücretleri hiçbir ödemenin iadesi yapılmaz, en büyük farkı para iadelerini iade siparişlerinin sevkiyat miktarını belirtin. Bu tutarı aşarsa Yöneticisi geçersiz kılma iadesi ile devam etmek için gereklidir. Aşağıdaki senaryolarda yapabilmek için ilk olarak ödenen tutar Kargo iadesi aşabilir:
-    -   Bazı bir ürün satırının miktarı döndürülür, ürünler için izin verilen maksimum iadesi giderleri yollarının ve tüm perakende müşteriler için uygun şekilde miktarı belirlenemiyor giderler satış siparişi başlığının ve düzeyinde uygulanır.
-    -   Sevkiyat giderleri sevkiyat her örneği için alınan. Bir müşteriye birden çok kez ürünleri verir ve satıcıya iade kargo ücretleri maliyeti size aittir, Satıcısı'nın İlkesi belirtiyorsa, birden çok asıl kargo ücretleri iade kargo ücretleri olacaktır.
+Ayrıca, perakendeciler müşteri siparişlerini, aksi takdirde stok kesintilerinin ortaya çıkabileceği kayıp satışları en aza indirmek için kullanır, çünkü ürünler farklı bir zaman veya yerde teslim edilebilir veya çekilebilir.
 
-## <a name="transaction-flow-for-customer-orders"></a>Müşteri siparişleri için işlem akışı
-### <a name="create-a-customer-order-in-retail-modern-pos"></a>İçinde Modern POS perakende müşteri siparişi oluşturma
+## <a name="set-up-customer-orders"></a>Müşteri siparişleri ayarlamak
+Müşteri siparişlerinin nasıl karşılandıklarını tanımlamak için **Perakende parametreleri** sayfası üzerinde ayarlanabilecek bazı parametrelerin bunlardır:
+
+-   **Varsayılan depozito yüzdesi** – Siparişin onaylanabilmesi için önce müşterinin ödemesi gereken depozito tutarını belirtin. Varsayılan depozito tutarı, sipariş değerinin bir yüzdesi olarak hesaplanır. Ayrıcalıklara bağlı olarak bir mağaza yetkilisi tutarı **Depozito geçersiz kılma** kullanarak geçersiz kılabilir.
+-   **İptal ücreti yüzdesi** – Müşteri siparişi iptal edildiğinde, bir kesinti uygulanacaksa bu giderin tutarını belirtin.
+-   **İptal masrafı kodu** – Müşteri siparişi iptal edildiğinde bir masraf uygulanacaksa, bu masraf Microsoft Dynamics AX üzerinde masraf kodu altında yansıtılacaktır. İptal masrafı kodu tanımlamak için bu parametreyi kullanın.
+-   **Kargo masrafı kodu** – Perakendeciler malları müşteriye sevk etmek için ek bir masraf kesebilirler. Bu sevkiyat masrafının tutarı, Dynamics AX içerisinde, masraf kodu altında yansıtılır. Bu parametreyi, sevkiyat masraf kodunu müşteri siparişi üzerindeki sevkiyat masrafları ile eşleştirmek için kullanın.
+-   **İade kargo ücretleri** – Müşteri siparişi ile ilişkili sevkiyat masraflarının iade edilip edilemeyeceğini belirtin.
+-   **Onayı olmadan maksimum tutar** – Sevkiyat masrafları iade edilebilirse, iade siparişleri arasında iade edilebilecek maksimum tutarı belirtin. Bu tutar aşılırsa, iade ile devam etmek için yönetici tarafından geçersiz kılma gereklidir. Aşağıdaki senaryolara karşılık verebilmek için sevkiyat masraflarının iadesi, ilk olarak ödenen tutarı geçebilir:
+    -   Masraflar, satış siparişi üstbilgisi seviyesinde uygulanır ve ürün satırının bir miktarı iade edildiğinde, ürünler için izin verilen sevkiyat masrafının maksimum iadesi ve miktar, tüm perakende müşterileri için geçerli olacak bir şekilde belirlenemez.
+    -   Sevkiyat giderleri her sevkiyat örneği için alınır. Bir müşteri, ürünleri birden fazla defa iade ederse ve perakendecinin ilkesi, iade sevkiyatı masraflarının karşılanacağını belirtiyorsa, iade sevkiyatı masrafları, gerçek sevkiyat masraflarından fazla olacaktır.
+
+## <a name="transaction-flow-for-customer-orders"></a>Müşteri siparişleri için hareket akışı
+### <a name="create-a-customer-order-in-retail-modern-pos"></a>Perakende Modern POS'ta bir müşteri siparişi oluştur
 
 1.  Harekete bir müşteri ekleyin.
-2.  Ürünleri Sepete ekleyin.
-3.  ' I **müşteri siparişi oluşturmak**ve sonra sipariş tipini seçin. Sipariş tipi olabilir **müşteri siparişi** veya **teklif**.
-4.  ' I **seçilen sevk** veya **tüm sevk** adresine ürünleri müşteri hesabında sevk etmek istenen sevkiyat tarihi belirtin ve kargo ücretleri belirtin.
-5.  ' I **seçili malzeme çekme** veya **toplama tüm** geçerli mağaza ya da farklı bir mağaza belirli bir tarihte çekilir ürünleri seçmek için.
-6.  Depozito tutarı bir depozito gerekiyorsa toplayın.
+2.  Sepete ürünler ekle.
+3.  **Müşteri siparişi oluştur** üzerine tıklayın ve daha sonra sipariş türünü seçin. Sipariş türü **Müşteri siparişi** veya **Teklif** olabilir.
+4.  **Seçileni sevk et** veya **Tümünü sevk et** üzerine tıklayarak müşteri hesabındaki bir adrese ürünleri sevk edin, istenen sevkiyat tarihini belirtin ve sevkiyat masraflarını belirtin.
+5.  Geçerli mağazadan veya başka bir mağazadan belirli bir tarihte çekilecek ürünleri seçmek için **Seçileni çek** veya **Hepsini çek** üzerine tıklayın.
+6.  Depozito gerekiyorsa, depozito tutarını tahsil edin.
 
-### <a name="edit-an-existing-customer-order"></a>Varolan bir müşteri siparişi gir
+### <a name="edit-an-existing-customer-order"></a>Geçerli bir müşteri siparişini düzenle
 
-1.  Giriş sayfasında tıklatın **sipariş bulma**.
-2.  Bulmak ve düzenlemek için siparişi seçin. Sayfanın alt kısmında,'ı **düzenleme**.
+1.  Giriş sayfasında **Bir siparişi bul** üzerine tıklayın.
+2.  Düzenlemek için siparişi bulun ve seçin. Sayfanın altında, **Düzenle**'yi tıklatın.
 
-### <a name="pick-up-an-order"></a>Bir sipariş Seç
+### <a name="pick-up-an-order"></a>Bir siparişi çekmek
 
-1.  Giriş sayfasında tıklatın **sipariş bulma**.
-2.  Sipariş almak için seçin. Sayfanın alt kısmında,'ı **çekme ve ambalaj**.
-3.  ' I **almak**.
+1.  Giriş sayfasında **Bir siparişi bul** üzerine tıklayın.
+2.  Çekilecek siparişi seçin. Sayfanın altında, **Çekme ve paketleme**'yi tıklatın.
+3.  **Çekme** üzerine tıklayın.
 
-### <a name="cancel-an-order"></a>Siparişi iptal etme
+### <a name="cancel-an-order"></a>Bir siparişi iptal edin
 
-1.  Giriş sayfasında tıklatın **sipariş bulma**.
-2.  Siparişi iptal etmek için seçin. Sayfanın alt kısmında,'ı **iptal**.
+1.  Giriş sayfasında **Bir siparişi bul** üzerine tıklayın.
+2.  İptal edilecek siparişi seçin. Sayfanın altında, **İptal**'i tıklatın.
 
 #### <a name="create-a-return-order"></a>Sipariş iadesi oluşturma
 
-1.  Giriş sayfasında tıklatın **sipariş bulma**.
-2.  Dönmek, sipariş için faturayı seçin ve sonra verilecek mallar için ürün satırı seçmek için siparişi seçin.
-3.  Sayfanın alt kısmında,'ı **iade siparişi**.
+1.  Giriş sayfasında **Bir siparişi bul** üzerine tıklayın.
+2.  İade edilecek siparişi seçin, siparişin faturasını seçin ve daha sonra iade edilecek ürünler için ürün satırını seçin.
+3.  Sayfanın altında, **Siparişi iade et**'i tıklatın.
 
 ## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Müşteri siparişleri için zaman uyumsuz işlem akışı
-Müşteri siparişleri satış (POS) istemci noktasından zaman uyumlu veya zaman uyumsuz modu oluşturulabilir.
+Müşteri siparişleri satış noktası (POS) istemcisinden zaman uyumlu ya da zaman uyumsuz modda oluşturulabilir.
 
-### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Zaman uyumsuz modunda oluşturulan müşteri siparişlerini etkinleştirin
+### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Müşteri siparişlerinin zaman uyumsuz modunda oluşturulmasını etkinleştirin
 
-1.  Dynamics AX'ı **perakende ve ticaret**&gt;**kanal Kurulumu**&gt;**POS Kurulumu**&gt;**POS profil**&gt;**işlevsellik profilleri**.
-2.  Üzerinde **genel** hızlı, set **zaman uyumsuz modunda müşteri siparişi oluşturmak** için seçenek **Evet**.
+1.  Dynamics AX'te, **Perakende ve ticaret** &gt; **Kanal kurulumu** &gt; **POS Kurulumu** &gt; **POS profili** &gt; **İşlevsellik profilleri**'ni tıklatın.
+2.  **Genel** hızlı sekmesi üzerinde, **Müşteri siparişlerini zaman uyumsuz modda oluştur** seçeneğini **Evet** olarak ayarlayın.
 
-Zaman **zaman uyumsuz modunda müşteri siparişi oluşturmak** seçeneği ayarlanmış **Evet**, müşteri siparişleri her zaman uyumsuz modunda oluşturulan, perakende, hatta hareket hizmeti (RTS) kullanılabilir. Bu seçeneği ayarlamak, **No**, müşteri siparişleri her zaman oluşturulur eşzamanlı modda RTS kullanarak. Zaman uyumsuz modunda müşteri siparişleri oluşturulduğunda, bunlar çekilen ve Dynamics AX çeker (P) işleri tarafından eklendi. İlişkili satış siparişlerini Dynamics AX uygulamasında oluşturulan zaman **eşitleme siparişleri** el ile veya bir toplu işlem aracılığıyla çalıştırın.
+**Müşteri siparişlerini zaman uyumsuz moda oluştur** seçeneği **Evet** olarak ayarlanmışsa, müşteri siparişleri her defasında zaman uyumsuz modda oluşturulur, Perakende İşlem Hizmeti (RTS) etkin olsa bile. Bu seçeneği **Hayır** olarak ayarlarsanız, müşteri siparişleri her defasında zaman uyumlu modda RTS kullanarak oluşturulur. Müşteri siparişleri zaman uyumsuz modda oluşturulduklarında, Dynamics AX içerisine Çekme (P) işleri ile çekilir ve eklenir. Karşılık gelen satış siparişleri, Dynamics AX içerisinde **Senkronizasyon siparişleri** elle veya toplu bir iş aracılığıyla çalıştırıldıklarında oluşturulur.
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
 [Karma müşteri siparişleri](hybrid-customer-orders.md)
+
+
 
 

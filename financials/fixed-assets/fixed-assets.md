@@ -1,6 +1,6 @@
 ---
 title: "Sabit kıymetler giriş sayfası"
-description: "Sabit kıymetlerin değeri, binalar, taşıtlar, Arazi ve ekipman, bir kişi veya kuruluş tarafından sahibi olduğu gibi öğelerdir."
+description: "Sabit kıymetler, bir kişi veya kuruluş tarafından sahip olunan bina, araç, arazi ve ekipman gibi değerli maddelerdir."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-home-page"></a>Sabit kıymetler giriş sayfası
 
-Sabit kıymetlerin değeri, binalar, taşıtlar, Arazi ve ekipman, bir kişi veya kuruluş tarafından sahibi olduğu gibi öğelerdir.
+[!include[banner](../includes/banner.md)]
+
+
+Sabit kıymetler, bir kişi veya kuruluş tarafından sahip olunan bina, araç, arazi ve ekipman gibi değerli maddelerdir. 
 
 Sabit kıymetler için satınalma bilgileri oluşturabilir ve girebilirsiniz ve ardından kıymetlerinize amortisman ayırarak ve amortismanı belirlemek için bir itfa eşiği ayarlayarak onları yönetebilirsiniz. Sabit kıymetlerde yapılan düzeltmeleri hesaplayabilir ve sabit kıymetleri elden çıkarabilirsiniz. Sabit kıymetlerle Genel Muhasebe'yi kullandığınızda, tüm sabit kıymetlerin geçerli değerini görüntüleyebilirsiniz. Sabit kıymetlerin ele alınma şekli, hem uluslararası muhasebe standartlarına hem de her ülke/bölgedeki muhasebe mevzuatına uymalıdır. Gereksinimler, alım ve satım hareketlerini, amortismanı, kullanım ömürlerini ve bir kıymetteki değer artışını veya değer azalışını kaydetmek için kullanılan kuralları içerir. Sabit kıymetler işlevi, bu standartların ve kuralların çoğuyla birleşir.
+
+
 
 
 

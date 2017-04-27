@@ -1,6 +1,6 @@
 ---
 title: "Klavye kısayolları"
-description: "Aşağıdaki klavye kısayollarını üzerinden Microsoft Dynamics 365 işlemleri için uygulanır."
+description: "Aşağıdaki klavye kısayolları tüm Microsoft Dynamics 365 for Operations genelinde geçerlidir."
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="keyboard-shortcuts"></a>Klavye kısayolları
 
-Aşağıdaki klavye kısayollarını üzerinden Microsoft Dynamics 365 işlemleri için uygulanır. 
+[!include[banner](../includes/banner.md)]
+
+
+Aşağıdaki klavye kısayolları tüm Microsoft Dynamics 365 for Operations genelinde geçerlidir. 
 
 **Not:** Burada anlatılan klavye kısayolları, ABD klavye düzenine göredir. Diğer klavye düzenlerindeki tuşlar ABD klavyedeki tuşlara tam olarak karşılık gelmeyebilir.
 
@@ -40,7 +43,7 @@ Aşağıdaki klavye kısayollarını üzerinden Microsoft Dynamics 365 işlemler
 | Bir menüde sonraki/önceki seçeneğe gitme            | Aşağı Ok / Yukarı Ok            |
 | Eylem bölmesinde veya bir menü içinde bir sekmeyi kapatma          | Esc                              |
 | Sağ tıklatma benzetimi                            | Shift+F10                        |
-| Bağlam menüsü işlemleri için Dynamics 365 açın | Ctrl+F10                         |
+| Dynamics 365 for Operations bağlam menüsünü açma | Ctrl+F10                         |
 | Form/iletişim kutusu üzerinde varsayılan düğmeyi yürütme       | Alt+Enter                        |
 | Bir düğmeyi veya döşemeyi tıklama                            | Enter veya Boşluk                   |
 | Bir sayım döşemesi için yenileme bilgilerini görüntüleme         | Alt+Yukarı Ok                     |
@@ -64,7 +67,7 @@ Aşağıdaki klavye kısayollarını üzerinden Microsoft Dynamics 365 işlemler
 | FactBox bölmesini açma (veya zaten açıksa odağı FactBox bölmesine taşıma) | Ctrl+F2                                   |
 | FactBox bölmesini kapatma (odak FactBox bölmesindeyken)                         | Esc                                       |
 | Sonraki/önceki FactBox'a gitme (odak FactBox bölmesindeyken)              | Alt+Shift+Aşağı Ok / Alt+Shift+Yukarı Ok |
-| Gider &lt;n&gt;th (odaklanılan bilgi bölmesinde) bilgi kutusu                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| &lt;n&gt;. sıradaki Bilgi Kutusuna gitme (odak FactBox bölmesindedir)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Bir FactBox'ı genişletme (odak FactBox başlığındayken)                             | Boşluk veya Enter                            |
 | Geçerli FactBox'ı daraltma                                                    | Alt+0                                     |
 
@@ -111,8 +114,8 @@ Aşağıdaki klavye kısayollarını üzerinden Microsoft Dynamics 365 işlemler
 | Sonraki/önceki alana gitme                     | Tab / Shift+Tab                              |
 | Sonraki/önceki sekmesine gitme                       | Alt+Shift+Sağ Ok / Alt+Shift+Sol Ok |
 | Sonraki/önceki hızlı sekmeye gitme                   | Alt+Shift+Aşağı Ok / Alt+Shift+Yukarı Ok    |
-| Gider &lt;n&gt;th hızlı                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
-| Gider &lt;n&gt;th sekmesi                         | ALT + ÜST KRKT +&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| &lt;n&gt;. sıradaki Hızlı Sekmeye gitme                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| &lt;n&gt;. sıradaki sekmeye gitme                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Bir hızlı sekmeyi genişletme (odak hızlı şekme başlığındayken) | Boşluk veya Enter                               |
 | Geçerli hızlı sekmeyi daraltma                        | Alt+0                                        |
 | Kılavuz görünümüne geçme                                 | Ctrl+Shift+G                                 |
@@ -152,7 +155,7 @@ Aşağıdaki klavye kısayollarını üzerinden Microsoft Dynamics 365 işlemler
 | Arama, açılan kutu, tarih seçici, açılır iletişim kutusu açma           | Alt+Aşağı Ok                |
 | Aramayı, açılan kutuyu, tarih seçiciyi, açılır iletişim kutusunu kapatma          | Esc                           |
 | Odağı bir aramaya taşıma (arama zaten açıkken) | Alt+Aşağı Ok                |
-| Gelişmiş denetimin Önizleme açmak                        | Alt+Yukarı Ok                  |
+| Denetimin gelişmiş önizlemesini açma                        | Alt+Yukarı Ok                  |
 | Geçerli alandaki metni seçme                           | Ctrl+A                        |
 | HTML düzenleyici denetimindeki metin alanına girme/çıkma        | Alt+Aşağı Ok / Alt+Yukarı Ok |
 
@@ -174,18 +177,18 @@ Aşağıdaki klavye kısayollarını üzerinden Microsoft Dynamics 365 işlemler
 | Panoya gitme                                                       | Alt+Shift+Home  |
 | Gezinme çubuğuna gitme                                                  | Alt+Shift+F1    |
 | Gezinme bölmesine gitme                                                 | Alt+F1          |
-| Sık kullanılan/un-favorite bir formla (Gezinti Bölmesi'nde form üzerindeki odak) | ÜST KRKT + F         |
+| Bir formu sık kullanılanlara alma/sık kullanılanlardan çıkarma (odak gezinti bölmesindeki bir formdadır) | Shift+F         |
 | Şirket seçiciye gitme                                                  | Ctrl+Shift+O    |
 | Gezinme aramasına gitme                                                   | Ctrl+/ veya Alt+G |
-| Yardım Bölmesi'ni açın                                                        | CTRL +?          |
-| İzleme ayrıştırıcı açın                                                     | Alt + üst karakter + T     |
+| Yardım bölmesini açma                                                        | Ctrl+?          |
+| İzleme ayrıştırıcıyı açma                                                     | Alt+Shift+T     |
 
  
 
 ## <a name="segmented-entry-shortcuts"></a>Bölümlenmiş giriş kısayolları
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **To do this**                                                                                                          | **Press**                        |
+| **Bunun için**                                                                                                          | **Basın**                        |
 | Açılır listeyi açma (açılır liste kapalıyken)                                                             | Alt+Aşağı Ok                   |
 | Odağı açılır listedeki geçerli bölüm için giriş alanına taşıma (açılır liste zaten açıkken) | Alt+Aşağı Ok                   |
 | Açılır listeyi kapatma                                                                                                | Alt+Yukarı Ok                     |
@@ -199,5 +202,7 @@ Aşağıdaki klavye kısayollarını üzerinden Microsoft Dynamics 365 işlemler
 | Aramanın üst/alt kısmına gitme                                                                                    | Home / End                       |
 
  
+
+
 
 

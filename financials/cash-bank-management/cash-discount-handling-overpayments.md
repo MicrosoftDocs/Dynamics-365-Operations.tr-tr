@@ -1,5 +1,5 @@
 ---
-title: "Nakit iskontosu için fazla ödeme işleme"
+title: "Fazla ödemeler için nakit iskontolarını işleme"
 description: "Bu makale, bir müşteri nakit iskontosu alıp aynı zamanda fazla ödeme yaparsa, bunun nasıl işlendiğini gösteren senaryoyu sağlar."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="handling-cash-discounts-for-overpayments"></a>Nakit iskontosu için fazla ödeme işleme
+# <a name="handling-cash-discounts-for-overpayments"></a>Fazla ödemeler için nakit iskontolarını işleme
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makale, bir müşteri nakit iskontosu alıp aynı zamanda fazla ödeme yaparsa, bunun nasıl işlendiğini gösteren senaryoyu sağlar. 
 
@@ -133,6 +136,8 @@ Nakit iskontosu tutarı 10,50'den 10,00'a düşürülür. Ödeme ve faturanın k
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
 | Nakit iskontosu (**Nakit iskontoları** sayfasındaki **Müşteri iskontoları için ana hesap** alanı) | 10,50        |               |
 | Alacak hesapları                                                                              |              | 10,50         |
+
+
 
 
 

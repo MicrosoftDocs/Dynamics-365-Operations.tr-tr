@@ -1,6 +1,6 @@
 ---
-title: "İş akışı sistemi genel bakış"
-description: "Bu makalede, Microsoft Dynamics 365 operasyonlar için iş akışı sistemde açıklar."
+title: "İş akışı sistemine genel bakış"
+description: "Bu makalede, Microsoft Dynamics 365 for Operations&quot;daki iş akışı sistemi açıklanmaktadır."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,9 +24,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="workflow-system-overview"></a>İş akışı sistemi genel bakış
+# <a name="workflow-system-overview"></a>İş akışı sistemine genel bakış
 
-Bu makalede, Microsoft Dynamics 365 operasyonlar için iş akışı sistemde açıklar.
+[!include[banner](../includes/banner.md)]
+
+
+Bu makalede, Microsoft Dynamics 365 for Operations'daki iş akışı sistemi açıklanmaktadır.
 
 <a name="what-is-workflow"></a>İş akışı nedir?
 -----------------
@@ -34,7 +37,7 @@ Bu makalede, Microsoft Dynamics 365 operasyonlar için iş akışı sistemde aç
 *İş akışı* terimi, biri sistem olarak ve diğeri iş süreci olarak iki şekilde tanımlanabilir.
 ### <a name="workflow-is-a-system"></a>İş akışı bir sistemdir
 
-İş akışı işlemleri için Dynamics 365 ile yüklü ve Uygulama Nesne Sunucusu (AOS) çalıştıran bir sistemdir. İş akışı sistemi, bağımsız iş akışları veya iş süreçleri oluşturmak için kullanabileceğiniz işlevselliği sağlar.
+İş akışı, Dynamics 365 for Operations ile yüklenen ve Uygulama Nesne Sunucusu (AOS) üzerinde çalışan bir sistemdir. İş akışı sistemi, bağımsız iş akışları veya iş süreçleri oluşturmak için kullanabileceğiniz işlevselliği sağlar.
 
 ### <a name="workflow-is-a-business-process"></a>İş akışı bir iş sürecidir
 
@@ -46,6 +49,7 @@ Bu makalede, Microsoft Dynamics 365 operasyonlar için iş akışı sistemde aç
 -   **Tutarlı süreçler** – Satın alma talepleri ve gider raporları gibi belirli belgelerin nasıl işlendiğini tanımlayabilirsiniz. İş akışı sistemini kullanarak, belgelerin tutarlı ve verimli şekilde işlenmesini ve onaylanmasını sağlayabilirsiniz.
 -   **Süreç görünürlüğü** – İş akışı örneklerinin durumunu, geçmişini ve performans ölçülerini takip edebilirsiniz. Bu da iş akışının verimliliği yükseltmesi için değişiklikler yapılması gerekli olup olmadığını belirlemenize yardımcı olur.
 -   **Merkezi iş listesi** – Kullanıcılar, İş akışı görevlerini ve kendilerine atanmış onayları görmek için merkezi bir çalışma listesini görüntüleyebilir.
+
 
 
 

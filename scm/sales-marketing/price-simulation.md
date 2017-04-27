@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="price-simulation"></a>Fiyat benzetimi
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, teklifler için fiyat benzetimiyle ilgili bilgiler verilmektedir. Fiyat benzetimi, belirli bir fiyat taahhüdünde bulunmadan önce teklif verme işlemi sırasında gelecekteki satış fiyatı kesintilerinin etkisini değerlendirmenize yardımcı olur.
 
 Bir teklif için fiyat benzetimi, yeni toplam tutarı önerilen yeni bir fiyata dayanarak gösterir. Fiyat benzetimi, varolan bir teklif içinde oluşturulan belirli bir satır için yeni bir tutar da gösterebilir. Fiyat benzetimi girebilir ve daha sonra uygulayabilirsiniz. Alternatif olarak, özgün teklifi bir fiyat benzetimi olmadan kullanabilir ve satış sürecinde müşteri ile çalışırken daha fazla değişiklik yapabilirsiniz.  
@@ -50,7 +53,7 @@ Bir teklif oluşturduğunuzda, bir uyarı ayarlayabilirsiniz. Uyarıların kulla
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Ticaret sözleşmelerindeki iskonto türleri
 
-Microsoft Dynamics 365 işlemleri için Ticari sözleşmelerde fiyat indirimleri dört tür olabilir. Bu iskontolar farklı maddeler, müşteriler veya fiyat grupları için ayarlanabilir ve bunlar için tarih sınırı belirlenebilir. Yanlış hesaplamaları önlemek için fiyat benzetimleri çalıştırdığınızda ticari sözleşmeleri dikkate almanız gerekir. Ticari anlaşmalarda yer alan dört iskonto tipi şunlardır:
+Microsoft Dynamics 365 for Operations'daki ticari sözleşmeler, dört türde fiyat indirimine sahip olabilir. Bu iskontolar farklı maddeler, müşteriler veya fiyat grupları için ayarlanabilir ve bunlar için tarih sınırı belirlenebilir. Yanlış hesaplamaları önlemek için fiyat benzetimleri çalıştırdığınızda ticari sözleşmeleri dikkate almanız gerekir. Ticari anlaşmalarda yer alan dört iskonto tipi şunlardır:
 
 -   **Satış fiyatı** – Maddeler için ayrı satış fiyatları belirtilebilir. Teklif satırları oluşturulduğunda, program bir öğe için doğru fiyatı arar ve teklif satırlarına transfer eder. Bu nedenle, bu tür bir indirimi olan bir ticaret anlaşması, fiyat benzetimini etkilemez. Teklif satırında kullanılan satış fiyatı, ticari anlaşmayı yansıtır.
 -   **Satır iskontosu** – Özel indirimler sipariş edilen miktara bağlı olarak, maddeler için belirtilir. Fiyat benzetimini çalıştırmadan önce satır tutarları genellikle satır iskontosuna göre azaltılır. Bu nedenle, bu tür bir indirimi olan bir ticaret anlaşması, fiyat benzetimini etkiler.
@@ -79,7 +82,7 @@ Aşağıdaki tablo teklif satırlarını göstermektedir.
 | ABD doları cinsinden satış değeri         | (10 x 15,32) + (12 x 13,75)          | 318,20   |
 | ABD doları cinsinden maliyet değeri          | (10 x 9,52) + (12 x 7,48)            | 184,96   |
 | ABD doları cinsinden katkı payı | 318,20 – 184,96                      | 133,24   |
-| Katkı oranı         | (\[318.20 – 184.96\] ÷ 318.20) × 100 | %41,87   |
+| Katkı oranı         | (\[318,20 – 184,96\] ÷ 318,20) × 100 | %41,87   |
 
 Bir fiyat benzetimi çalıştırırsınız ve tüm teklif veya teklif başlığı için yüzde 15'lik bir toplam iskonto uygularsınız. Aşağıdaki tablo, fiyat benzetimi çalıştıktan sonra teklifin yeni toplamlarını gösterir.
 
@@ -89,11 +92,11 @@ Bir fiyat benzetimi çalıştırırsınız ve tüm teklif veya teklif başlığ�
 | ABD doları cinsinden eski satış değeri                               | (10 x 15,32) + (12 x 13,75)               | 318,20   |
 | ABD doları cinsinden eski maliyet değeri                                | (10 x 9,52) + (12 x 7,48)                 | 184,96   |
 | ABD doları cinsinden eski katkı payı                       | 318,20 – 184,96                           | 133,24   |
-| Eski katkı oranı                               | (\[318.20 – (10 × 9.52)\] ÷ 318.20) × 100 | %41,87   |
+| Eski katkı oranı                               | (\[318,20 – (10 × 9,52)\] ÷ 318,20) × 100 | %41,87   |
 | Fiyat benzetimi ABD doları cinsinden %15 toplam iskonto | (15 × 318,2) ÷ 100                        | 47,73    |
 | ABD doları cinsinden yeni satış değeri                               | 318,20 – 47,73                            | 270,47   |
 | ABD doları cinsinden yeni katkı payı                       | 270,47 – 184,96                           | 85,51    |
-| Yeni katkı oranı                               | \[(270.47 – 184.96) ÷ 270.47\] × 100      | %31,61   |
+| Yeni katkı oranı                               | \[(270,47 – 184,96) ÷ 270,47\] × 100      | %31,61   |
 
 ### <a name="price-simulation-for-single-line-items"></a>Tek satırlık maddeler için fiyat benzetimi
 
@@ -113,12 +116,12 @@ Aşağıdaki tablo teklif satırlarını göstermektedir.
 | BR-14 için ABD doları cinsinden maliyet değeri          | 12 × 7,48                            | 89,76    |
 | BR-12 için ABD doları cinsinden katkı payı | 153,20 – 95,20                       | 58,00    |
 | BR-14 için ABD doları cinsinden katkı payı | 165,00 – 89,76                       | 75,24    |
-| BR-12 için ABD doları cinsinden katkı oranı  | \[(153.20 – 95.20) ÷ 153.20\] × 100  | 37,86    |
-| BR-14 için ABD doları cinsinden katkı oranı  | \[(165.00 – 89.76) ÷ 165.00\] × 100  | 45,60    |
+| BR-12 için ABD doları cinsinden katkı oranı  | \[(153,20 – 95,20) ÷ 153,20\] × 100  | 37,86    |
+| BR-14 için ABD doları cinsinden katkı oranı  | \[(165,00 – 89,76) ÷ 165,00\] × 100  | 45,60    |
 | ABD doları cinsinden toplam satış değeri             | (10 x 15,32) + (12 x 13,75)          | 318,20   |
 | ABD doları cinsinden toplam maliyet değeri              | (10 x 9,52) + (12 x 7,48)            | 184,96   |
 | ABD doları cinsinden toplam katkı payı     | 318,20 – 184,96                      | 133,24   |
-| Toplam katkı oranı             | \[(318.20 – 184.96) ÷ 318.20\] × 100 | %41,87   |
+| Toplam katkı oranı             | \[(318,20 – 184,96) ÷ 318,20\] × 100 | %41,87   |
 
 Bir fiyat benzetimi çalıştırırsınız ve BR-12 birimlerine %10 toplam iskonto uygularsınız. Aşağıdaki tablo, fiyat benzetimi tek satırlık madde için çalıştıktan sonra teklifin yeni toplamlarını gösterir.
 
@@ -133,13 +136,15 @@ Bir fiyat benzetimi çalıştırırsınız ve BR-12 birimlerine %10 toplam iskon
 | BR-14 için ABD doları cinsinden maliyet değeri                       | 12 × 7,48                               | 89,76    |
 | BR-12 için ABD doları cinsinden yeni katkı payı          | 137,88 – 95,20                          | 42,68    |
 | BR-14 için ABD doları cinsinden katkı payı              | 165,00 – 89,76                          | 75,24    |
-| BR-12 için ABD doları cinsinden yeni katkı oranı           | \[(137.88 – 95.20) ÷ 137.88\] × 100     | 30,95    |
-| BR-14 için ABD doları cinsinden katkı oranı               | \[(165.00 – 89.76) ÷ 165.00\] × 100     | 45,60    |
-| ABD doları cinsinden yeni toplam satış değeri                      | \[(10 × 15.32) – 15.32\] + (12 × 13.75) | 302,88   |
+| BR-12 için ABD doları cinsinden yeni katkı oranı           | \[(137,88 – 95,20) ÷ 137,88\] × 100     | 30,95    |
+| BR-14 için ABD doları cinsinden katkı oranı               | \[(165,00 – 89,76) ÷ 165,00\] × 100     | 45,60    |
+| ABD doları cinsinden yeni toplam satış değeri                      | \[(10 × 15,32) – 15,32\] + (12 × 13,75) | 302,88   |
 | ABD doları cinsinden toplam maliyet değeri                           | (10 x 9,52) + (12 x 7,48)               | 184,96   |
 | ABD doları cinsinden yeni toplam katkı payı              | 302,88 – 184,96                         | 117,92   |
-| Yeni toplam katkı oranı                      | \[(302.88 – 184.96) ÷ 302.88\] × 100    | %38,93   |
+| Yeni toplam katkı oranı                      | \[(302,88 – 184,96) ÷ 302,88\] × 100    | %38,93   |
 
 Fiyat benzetimi yalnızca uygulandığı satırı etkiler ve bu satırın toplamını düşürür.
+
+
 
 

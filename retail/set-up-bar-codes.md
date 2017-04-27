@@ -1,6 +1,6 @@
 ---
 title: "Barkodlar oluşturma"
-description: "Bu makalede, Microsoft Dynamics 365 içinde operasyon - perakende bar kodları kullanmayı açıklamaktadır."
+description: "Bu makalede, Microsoft Dynamics 365 for Operations - Perakende&quot;de barkodların nasıl kullanılacağı açıklanmaktadır."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 15971
 ms.assetid: 6b4b2ac2-0344-41aa-8818-62c30017d5ac
 ms.search.region: global
@@ -27,12 +27,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-bar-codes"></a>Barkodlar oluşturma
 
-Bu makalede, Microsoft Dynamics 365 içinde operasyon - perakende bar kodları kullanmayı açıklamaktadır.
+[!include[banner](includes/banner.md)]
 
-Ürün satın almak ve satmak, ürün çeşitlerini takip etmek ve müşteri ve çalışan verileri oluşturmak için barkodları kullanabilirsiniz. Barkodları kuponlar, hediye kartları ve credit memo'lar oluşturmak ve bunları kullandırmak için kullanabilirsiniz. Standart bankodları veya özel, şirkete has barkodları olacak şekilde perakende ürünleri oluşturabilirsiniz. Ürünler birden fazla barkod içerebilir. Örneğin, bir ürün farklı üreticilerden geliyorsa veya boyutuna, tarzına veya rengine bağlı olarak çeşitlere sahipse birden fazla barkod içerebilir. Barkodlar, ürünün ağırlığını veya fiyatını içerebilir. Barkod işaretleri, barkodlar oluşturmak için kullanılan şablonlarıdır. **Not:** Her çeşit birleşimine benzersiz bir barkod atayarak, kasada barkodu tarayabilir ve programın, ürünün hangi çeşidinin satıldığını bulmasını sağlayabilirsiniz. Ayrıca ürüne göre satışlar hakkında istatistikler toplayabilir ve bunları görüntüleyebilirsiniz. Her boyut, renk ve stil grubuna barkodda bu grubu tanımlayan, benzersiz bir numara atanabilir. Dynamics 365 işlemleri için bar kod maskesi otomatik olarak her çeşit birleşimi için barkodlar oluşturmak için kullanır. Her bir çeşit koduyla bileşen sayısı önemli ölçüde arttığından pek çok boyut, renk ve stil söz konusu olduğunda bu işlev kullanışlı olabilir. Bu işlev kullanılmazsa, bir ürün çeşidini temsil eden her birleşime barkodların el ile atanması gerekir. Barkodları el ile veya otomatik olarak oluşturabilirsiniz. Barkodlar oluşturmak için, aşağıdaki görevleri listelendikleri sırayla tamamlayın.
 
-1.  [Bar kod maskesi karakterlerini ayarlama](set-up-bar-code-masks.md).
-2.  [Bar kod maskesi ayarlama](set-up-bar-code-masks.md).
+Bu makalede, Microsoft Dynamics 365 for Operations - Perakende'de barkodların nasıl kullanılacağı açıklanmaktadır.
+
+Ürün satın almak ve satmak, ürün çeşitlerini takip etmek ve müşteri ve çalışan verileri oluşturmak için barkodları kullanabilirsiniz. Barkodları kuponlar, hediye kartları ve credit memo'lar oluşturmak ve bunları kullandırmak için kullanabilirsiniz. Standart bankodları veya özel, şirkete has barkodları olacak şekilde perakende ürünleri oluşturabilirsiniz. Ürünler birden fazla barkod içerebilir. Örneğin, bir ürün farklı üreticilerden geliyorsa veya boyutuna, tarzına veya rengine bağlı olarak çeşitlere sahipse birden fazla barkod içerebilir. Barkodlar, ürünün ağırlığını veya fiyatını içerebilir. Barkod işaretleri, barkodlar oluşturmak için kullanılan şablonlarıdır. **Not:** Her çeşit birleşimine benzersiz bir barkod atayarak, kasada barkodu tarayabilir ve programın, ürünün hangi çeşidinin satıldığını bulmasını sağlayabilirsiniz. Ayrıca ürüne göre satışlar hakkında istatistikler toplayabilir ve bunları görüntüleyebilirsiniz. Her boyut, renk ve stil grubuna barkodda bu grubu tanımlayan, benzersiz bir numara atanabilir. Dynamics 365 for Operations her çeşit birleşimi için otomatik olarak barkodlar oluşturmak üzere barkod maskesini kullanır. Her bir çeşit koduyla bileşen sayısı önemli ölçüde arttığından pek çok boyut, renk ve stil söz konusu olduğunda bu işlev kullanışlı olabilir. Bu işlev kullanılmazsa, bir ürün çeşidini temsil eden her birleşime barkodların el ile atanması gerekir. Barkodları el ile veya otomatik olarak oluşturabilirsiniz. Barkodlar oluşturmak için, aşağıdaki görevleri listelendikleri sırayla tamamlayın.
+
+1.  [Barkod maskesi karakterlerini ayarlama](set-up-bar-code-masks.md).
+2.  [Barkod maskesi ayarlama](set-up-bar-code-masks.md).
 3.  Barkod kurulumlarını yapılandırın.
 4.  Ürünler için barkodlar oluşturun.
 
@@ -41,5 +44,7 @@ Bu makalede, Microsoft Dynamics 365 içinde operasyon - perakende bar kodları k
 --------
 
 [Barkod maskesi ayarlama](set-up-bar-code-masks.md)
+
+
 
 

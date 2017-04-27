@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Hesap ve boyut kombinasyonları (segmentlere ayrılmış giriş kontrolü) girme
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, hesap ve boyut birleşimlerinin veya genel muhasebe hesaplarının nasıl girileceği açıklanmaktadır. Giriş deneyimine sıklıkla bölümlenmiş giriş denetimi denir.
 
-Kullanıcıların hesap ve boyut birleşimleri, Yevmiye defterleri için sayfalar gibi çeşitli sayfalar üzerinde bütçeleme ve tanımları deftere nakil girin. Geçerli hesap ve boyut kombinasyonları, deftere atanan hesap yapılarına ve hesap yapılarına atanan gelişmiş kurallara bağlıdır. Kullanıcılar bir birleşimi girdiğinizde, bunlar el ile değerleri yazın ya da zengin, bir arama deneyimi avantajlarından yararlanın. Alana girdiğinizde, yazmaya başladığınız ve değer ve açıklamasını arar. Örneğin, 180 yazarsanız, bu sayı bileşimi ile başlayan herhangi bir değeri arar. Veya nakit yazabilirsiniz ve nakit ile başlayan bir açıklama olan herhangi bir değeri arar. Gibi bir joker karakter kullanabilirsiniz \*nakit veya \*180 arama ölçütlerini içeriyorsa değer veya açıklama aramak için. 
+Kullanıcılar çeşitli sayfalarda, örneğin genel günlük, bütçeleme ve nakil tanımları sayfalarında hesap ve boyut kombinasyonları girebilirler. Geçerli hesap ve boyut kombinasyonları, deftere atanan hesap yapılarına ve hesap yapılarına atanan gelişmiş kurallara bağlıdır. Kullanıcılar bir kombinasyon girdiğinde değerleri el ile yazabilir veya zengin, arama deneyiminin avantajlarından yararlanabilirler. Alana girdiğinizde, yazmaya başlayabilirsiniz ve alan değeri ve açıklamayı arar. Örneğin, 180 yazarsanız, bu sayı bileşimi ile başlayan herhangi bir değeri arar. Veya nakit yazabilirsiniz ve nakit ile başlayan bir açıklamaya sahip olan herhangi bir değeri arar. Değer veya açıklamanın arama kriterini içerip içermediğini aramak için \*Nakit veya \*180 gibi bir joker de kullanabilirsiniz. 
 
 Aşağıdaki tabloda arama kapatıldığında kullanılabilecek klavye kısayolları açıklanmaktadır.
 
@@ -108,5 +111,7 @@ Aşağıdaki tabloda arama açıkken kullanılabilecek klavye kısayolları aç�
 </table>
 
  
+
+
 
 

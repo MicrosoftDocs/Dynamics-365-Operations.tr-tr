@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16212
 ms.assetid: c9d1b9df-82e8-4b3a-a13c-166df8b9718e
 ms.search.region: global
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-call-center-catalog"></a>Çağrı merkezi kataloğu oluşturma
 
+[!include[banner](includes/banner.md)]
+
+
 Bu makalede bir çağrı merkezine yönelik bir katalog oluşturulması sürecine genel bir bakış sunulmuştur. 
 
-Bir çağrı merkezinde ürün kataloglarını müşterilere sunmak istediğiniz ürünleri belirlemek için kullanabilirsiniz. Çağrı merkezleri genellikle basılı kataloglar kullanır. Tasarım ve üretim basılı katalog dışındaki işlemler için Microsoft Dynamics 365 gerçekleştirilir. Ancak, oluşturabilir ve çevrimiçi perakende katalogları Ayarla için kullandığınız aynı formları kullanarak perakende ve ticaret işlemleri için Dynamics 365 dijital formu katalog depolayabilir. Bir katalog oluşturmak için önce ürün sınıflamalar ayarlayıp sınıflamaları bir çağrı merkezine atayın. Sonra ürün kataloğuna ürünleri bu sınıflamalardan seçerek ekleyin. Ürün kataloğuna eklendikten ve Katalog tamamlandıktan sonra verileri doğrulamak için katalogu doğrulamalısınız. Ardından kataloğu gözden geçirme ve onay için gönderin. Katalog onaylandıktan sonra yayımlanabilir. Bir çağrı merkezi katalogu oluşturulduğunda, katalog yayınlandığı zaman katalog verilerinin bir ekran görüntüsünü alabilirsiniz. Bu anlık görüntü işlevselliği belirli bir sürüm için katalog daha sonra değiştirilmiş ve güncelleştirilmiş olsa bile kataloga erişmenizi sağlar. Çağrı merkezi kataloglarını aşağıdaki isteğe bağlı özellikleri içerecek şekilde de ayarlayabilirsiniz.
+Bir çağrı merkezinde ürün kataloglarını müşterilere sunmak istediğiniz ürünleri belirlemek için kullanabilirsiniz. Çağrı merkezleri genellikle basılı kataloglar kullanır. Basılı bir kataloğun tasarımı ve üretimi Microsoft Dynamics 365 for Operations dışında yapılır. Ancak, çevrimiçi perakende kataloglarını ayarlamak için kullandığınız aynı formları kullanarak bir kataloğun dijital biçimini Dynamics 365 for Operations'ta Perakende ve ticaret alanında oluşturabilir ve saklayabilirsiniz. Bir katalog oluşturmak için önce ürün sınıflamalar ayarlayıp sınıflamaları bir çağrı merkezine atayın. Sonra ürün kataloğuna ürünleri bu sınıflamalardan seçerek ekleyin. Ürün kataloğuna eklendikten ve Katalog tamamlandıktan sonra verileri doğrulamak için katalogu doğrulamalısınız. Ardından kataloğu gözden geçirme ve onay için gönderin. Katalog onaylandıktan sonra yayımlanabilir. Bir çağrı merkezi katalogu oluşturulduğunda, katalog yayınlandığı zaman katalog verilerinin bir ekran görüntüsünü alabilirsiniz. Bu anlık görüntü işlevselliği belirli bir sürüm için katalog daha sonra değiştirilmiş ve güncelleştirilmiş olsa bile kataloga erişmenizi sağlar. Çağrı merkezi kataloglarını aşağıdaki isteğe bağlı özellikleri içerecek şekilde de ayarlayabilirsiniz.
 
 -   **Kaynak kodları** – Belirli katalog postalarına müşterinin tepkisini izlemek için kullanılan kodlar.
 -   **Ücretsiz ürünler** – Bir müşterinin siparişine ek ücret olmaksızın dahil edilen ürünler. Siparişe kataloğun kaynak kodu girildiğinde, bu ürünler de otomatik olarak siparişe eklenir.
@@ -62,11 +65,13 @@ Bir katalog doğrulandıktan sonra gözden geçirme ve onay için gönderebilirs
 ## <a name="optional-add-source-codes-free-products-and-scripts"></a>İsteğe bağlı: Kaynak kodlar, ücretsiz ürünler ve senaryolar ekleme
 Bir çağrı merkezi kataloğuna aşağıdaki öğeleri de ekleyebilirsiniz. Bunlar isteğe bağlıdır.
 
--   **Kaynak kodları** Müşterinin özel kataloglara verdiği tepkiyi izlemek için basılı kataloglar sağlayan şirketler tarafından kullanılabilir. Kaynak kodları genellikle bir katalog arkasında yazılı olan ve satış siparişine, bir müşteri satın alma yaptığında girilir. Kataloğa kaynak kodu eklemek için önce bir hedef Pazar oluşturmanız gerekir. Hedef Pazar genellikle sahibi veya kiralanmış bir postalama listesine eşleştirilir.
+-   **Kaynak kodları** Müşterinin özel kataloglara verdiği tepkiyi izlemek için basılı kataloglar sağlayan şirketler tarafından kullanılabilir. Kaynak kodları genellikle bir kataloğun arkasında yazılıdır ve satış siparişine, bir müşteri satın alma yaptığında girilir. Kataloğa bir kaynak kodu eklemek için önce bir hedef pazar oluşturmanız gerekir. Hedef pazar genellikle sahip olunan veya kiralanmış bir postalama listesiyle eşleştirilir.
 -   **Ücretsiz ürünler** kataloğa başvurulduğunda müşterinin siparişine ücretsiz eklenen promosyon ürünleridir.
 -   **Senaryolar** bir kataloğun içeriğinde veya katalogdaki bir üründe çalışanın müşterilerle etkileşimlerinde yol gösterici olarak kullanılabilir.
 
 ## <a name="publish-the-catalog"></a>Kataloğu yayınlama
 Bir katalog yayımlayarak, katalogdaki ürün bilgilerine son şeklini vermiş olursunuz. Yayınlama, kataloğun gerçekleştirmek istediğiniz diğer işlemler için de hazır olduğunu gösterir. Örneğin, basılı bir katalog oluşturabilirsiniz. Kataloglarınızı el ile yayınlayabilir veya bir plana göre yayınlamak için bir toplu işlem kullanabilirsiniz. Bir kataloğu yayınlayabilmeniz için doğrulanmış ve onaylanmış olması gerekir. Kataloğu yayınlandıktan sonra değiştirmek için kataloğu geri alabilir ve sonra yeniden yayınlayabilirsiniz.
+
+
 
 

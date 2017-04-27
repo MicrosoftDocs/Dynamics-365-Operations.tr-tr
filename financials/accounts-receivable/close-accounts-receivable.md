@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="close-accounts-receivable"></a>Alacak hesaplarını kapat
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Aşağıdaki tabloda, Alacak hesaplarını kapat iş sürecini destekleyen sayfalar listelenmiştir.
 
 > [!NOTE] 
-> Bazı sayfalarda tabloda açmak için bilgileri girin veya parametre ayarlarını belirtin.
+> Tablodaki bazı sayfaları açabilmek için bilgi girmeli ya da parametre ayarlarını belirtmelisiniz.
 
-**Business process component task**                   
+**İş süreci bileşen görevi**                   
 
 Genel muhasebedeki dönemleri kapatma
 
@@ -43,21 +46,23 @@ Genel muhasebedeki dönemleri kapatma
 |Satış siparişini onayla                   | Satış siparişlerini güncelleştirmek.                                                                       |
 |Yabancı para birimi yeniden değerleme işlemi          | Yabancı para birimlerindeki açık müşteri hareketlerinin değerini güncelleştiren hareketler oluşturmak.                                                                                                                         |
 | Günlük                              | Faturaları, ödemeleri ve senetleri deftere nakletmek.                                             |
-| Günlük fişi                      | -   **Payment journal** – Generate, process, and post payments.
+| Günlük fişi                      | -   **Ödeme günlüğü** – Ödemeleri oluşturmak, işlemek ve deftere nakletmek.
                                          -   **Draw bill of exchange journal** – Post bills of exchange.
                                          -   **Protest bill of exchange journal** – Post protested bills of exchange.
                                          -   **Redraw bill of exchange journal** – Post redrawn bills of exchange.
                                          -   **Remittance journal** – Post remittances.
                                          -   **Settle bill of exchange journal** – Post settled bills of exchange                   |
-| Sevk irsaliyesini deftere nakil | Satış siparişleri için sevk irsaliyelerinin güncelleştirilmesi.                                                     | | Dekont/Serbest metin faturasını deftere naklet | Serbest metin faturaları deftere nakledin.                                                                   | | Fatura deftere nakil | Satış siparişleri için faturaları deftere nakledin.                                                            | | Malzeme çekme listesini deftere nakil | Satış siparişi için malzeme çekme listeleri güncelle                                                      |
+| Sevk irsaliyesini deftere nakil                 | Satış siparişleri için sevk irsaliyelerinin güncelleştirilmesi.                                                     | | Serbest metin faturası               | Serbest metin faturası deftere naklet.                                                                   | | Fatura deftere nakli                      | Satış siparişleri için fatura deftere nakli.                                                            | | Malzeme çekme listesi deftere nakli                 |Satış siparişi için malzeme çekme listesini güncelleştirmek.                                                      |
 
-**Business process component task**   
+**İş süreci bileşen görevi**   
 
 AB satış listesini oluşturma ve gönderme
 
 | Sayfa adı                            | Kullanım                                                                                      |
 |--------------------------------------|--------------------------------------------------------------------------------------------|
 |AB satış listesi                         | Avrupa Birliği (AB) satışlarını, katma değer vergisi (KDV) beyannamesi amaçları için raporla.                                                                                                                           |
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Master planlama site kapsamı zorunlu ambar"
+title: "Tesis kapsamı için master planlama, ambar zorunlu"
 description: "Bu konuda, kapsam boyutu olarak tesisi olan bir maddenin nasıl planlanacağını açıklanmaktadır. Ambar zorunlu bir boyuttur."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Master planlama site kapsamı zorunlu ambar
+# <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Tesis kapsamı için master planlama, ambar zorunlu
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu konuda, kapsam boyutu olarak tesisi olan bir maddenin nasıl planlanacağını açıklanmaktadır. Ambar zorunlu bir boyuttur.
 
@@ -39,9 +42,9 @@ Bu master planlama senaryosu aşağıdaki koşulları kapsar:
 -   Ambar boyutu tedarik planlama için ayarlanmamıştır. Bu nedenle, arz ve talep tesise (ve belki de, diğer tedarik planlaması yapılmış boyutlara) göre toplanır.
 
 Aşağıdaki grafikte, master plan planlamasının ne şekilde ilerlediği gösterilmiştir. Grafikte söz edilen parametreler ve bunların konumları aşağıdaki gibidir:
--   Madde karşılama, madde için tanımlanmıştır. ' I **ürün bilgi yönetimi &gt;ürünleri&gt; ürünleri piyasaya**. Öğeyi seçin ve ardından **Plan &gt;Madde kapsamı**.
--   Stok yenileme ilişkileri ambar için tanımlanmıştır. ' I **Stok Yönetimi &gt;Kurulum &gt;Stok dökümü &gt;Ambarlar**. **Master planlama** sekmesi üzerindeki **Ana ambar** alan grubuna bakın.
--   Varsayılan sipariş türü Ürün, Satınalma siparişi veya Kanban olarak ayarlıdır. ' I **ürün bilgi yönetimi &gt;ürünleri&gt; ürünleri piyasaya**. Öğeyi seçin ve ardından **Plan &gt;sipariş ayarları varsayılan**. **Varsayılan sipariş ayarları** formunda **Varsayılan sipariş türü**'ne bakınız.
+-   Madde karşılama, madde için tanımlanmıştır. **Ürün bilgileri yönetimi &gt; Ürünler&gt; Serbest bırakılan ürünler** seçeneğine tıklayın. Maddeyi seçin ve rdından **Planla &gt; Madde kapsamı** düğmesini tıklayın.
+-   Stok yenileme ilişkileri ambar için tanımlanmıştır. Şu öğeleri tıklatın: **Stok yönetimi &gt; Kurulum &gt; Stok dökümü &gt; Ambarlar**. **Master planlama** sekmesi üzerindeki **Ana ambar** alan grubuna bakın.
+-   Varsayılan sipariş türü Ürün, Satınalma siparişi veya Kanban olarak ayarlıdır. **Ürün bilgileri yönetimi &gt; Ürünler&gt; Serbest bırakılan ürünler** seçeneğine tıklayın. Maddeyi seçin ve ardından **Plan &gt; Varsayılan sipariş ayarları** düğmesini tıklayın. **Varsayılan sipariş ayarları** formunda **Varsayılan sipariş türü**'ne bakınız.
 
 ![Tesis kapsamı talebi ambar zorunlu](./media/multisitedemandexplosionscenarioforsitecoveragewarehousemandatory.jpg)
 
@@ -50,14 +53,16 @@ Aşağıdaki grafikte, master plan planlamasının ne şekilde ilerlediği göst
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Master planlama ve birden çok tesis işlevi](master-plan-multisite-functionality.md)
 
 [Master planlama - tesis ve ambar kapsamı, ambar zorunlu](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Master planlama - site kapsamı. Zorunlu ambar](master-plan-site-coverage-warehouse-mandatory.md)
+[Master planlama - tesis kapsamı. ambar zorunlu](master-plan-site-coverage-warehouse-mandatory.md)
 
 [Master planlama - tesis ve ambar kapsamı, ambar zorunlu değil](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
 [Master planlama - Ürün reçetesi sürümünün nasıl belirlendiği](master-plan-bom-version-determined.md)
+
+
 
 

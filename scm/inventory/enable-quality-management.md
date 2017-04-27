@@ -1,5 +1,5 @@
 ---
-title: "Kalite Yönetimi&quot;ne genel bakış"
+title: "Kalite yönetimine genel bakış"
 description: "Bu makalede, tedarik zincirinizde ürün kalitesini artırmak için Microsoft Dynamics 365 for Operations&quot;daki kalite yönetimini nasıl kullanabileceğiniz açıklanmaktadır."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="quality-management-overview"></a>Kalite Yönetimi'ne genel bakış
+# <a name="quality-management-overview"></a>Kalite yönetimine genel bakış
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, tedarik zincirinizde ürün kalitesini artırmak için Microsoft Dynamics 365 for Operations'daki kalite yönetimini nasıl kullanabileceğiniz açıklanmaktadır.
 
@@ -344,7 +347,7 @@ Kalite emirlerinin otomatik olarak oluşturulmasını gerektiren iş işlemindek
 </tr>
 <tr class="even">
 <td>Test değişkeni sonuçları</td>
-<td>Bir kalite testiyle ilişkili bir test değişkenine ait olası test sonuçlarını ayarlamak, düzenlemek ve görüntülemek için bu sayfayı kullanın. Her sonuç için bir <strong>geçti</strong> veya <strong>başarısız</strong> oldu durumu atarsınız. <strong>Testler</strong> sayfasında tanımlanan her nitel test için bir değişken ve sonuçlarını tanımlamalısınız. (Nitel testler için test türünü ayarlamak <strong>seçeneği</strong> üzerinde <strong>testleri</strong> sayfa.) Kullanım <strong>Test grupları</strong> sayfa nitel tek bir testi test değişkeni ve varsayılan sonucu atamak için.</td>
+<td>Bir kalite testiyle ilişkili bir test değişkenine ait olası test sonuçlarını ayarlamak, düzenlemek ve görüntülemek için bu sayfayı kullanın. Her sonuç için bir <strong>geçti</strong> veya <strong>başarısız</strong> oldu durumu atarsınız. <strong>Testler</strong> sayfasında tanımlanan her nitel test için bir değişken ve sonuçlarını tanımlamalısınız. (Kalite testleri için, test türü <strong>Testler</strong> sayfasında <strong>Seçenek</strong> olarak ayarlanmıştır.) <strong>Test grupları</strong> sayfasını kullanıp, bir test değişkenini ve varsayılan sonucu bir kişisel kalite testine atayın.</td>
 <td>Kurabiye üreten bir üretim şirketi, tamamlanan ürüne yönelik bir denetim testi uyguluyor. Bu inceleme testinin birçok değişkeni vardır. Bir değişken lezzettir ve bu değişkenin olası sonuçları iyi veya kötü olabilir. İkinci bir değişken, çok koyu, çok açık ve doğru sonuçları ile temsil edilen renk değişkeni oluyor. Her sonuca <strong>geçti</strong> veya <strong>kaldı</strong> durumu atanır. Her değişkene yönelik denetim testi sırasında, denetçi sonuçlardan birini seçerek test sonucunu rapor ediyor.</td>
 </tr>
 </tbody>
@@ -355,8 +358,10 @@ Kalite emirlerinin otomatik olarak oluşturulmasını gerektiren iş işlemindek
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Quality management processes](quality-management-processes.md)
+[Kalite yönetimi işlemleri](quality-management-processes.md)
 
 [Uygunsuzluk yönetiminin etkinleştirilmesi](enable-nonconformance-management.md)
+
+
 
 

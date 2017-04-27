@@ -1,6 +1,6 @@
 ---
 title: "Projeye kaynak oluşturma"
-description: "Bu konuda, proje resourcing hakkında bilgi sağlar."
+description: "Bu konu, projeye kaynak oluşturma hakkında bilgi sunar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,59 +27,62 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-resourcing"></a>Projeye kaynak oluşturma
 
-Bu konuda, proje resourcing hakkında bilgi sağlar.
+[!include[banner](../includes/banner.md)]
 
-Bir proje yöneticileri ve proje planlama aşaması sırasında kaynak yöneticileri için kaynak ayırma, burada onlar gerekir belirlemek ve bir proje üzerinde çalışmak için doğru kaynak ayırmak iştir. İşlemler için Microsoft Dynamics 365 içinde yetenekleri projeler resourcing, geçici bir özel Nişan ya da Nişan parçası için ayrılmış kaynaklar olarak kabul edilen rolleri tanımlamanıza olanak sağlar. Bu tür kaynak oluşturma, proje yöneticileri ve kaynak yöneticilerinin aşağıdaki görevleri yerine getirmesini sağlar:
+
+Bu konu, projeye kaynak oluşturma hakkında bilgi sunar.
+
+Proje yöneticileri ve kaynak yöneticilerinin proje planlama aşamasında karşılaştıkları zorluklardan biri, projede çalışacak doğru kaynağı belirlemek ve rezerve etmeleri gereken kaynak tahsisatıdır. Microsoft Dynamics 365 for Operations'da, projelere kaynak sağlama becerileri geçici kaynaklar olarak kullanılan ve belirli bir görev ya da görevin bir bölümü için rezerve edilebilen rolleri tanımlamanıza olanak tanır. Bu tür kaynak oluşturma, proje yöneticileri ve kaynak yöneticilerinin aşağıdaki görevleri yerine getirmesini sağlar:
 
 -   Kaynakları eşleştirmeyi kolaylaştırmak için gerekli olan yetkinliklere sahip bir rol tanımlamak.
--   Roller üzerinde korunan kaynaklara dayalı bir ilk Nişan zamanlama tanımlamak için kullanın.
+-   Rolleri, rezerve edilen kaynakarı temel alan ilk görev planlamasını belirlemek için kullanın.
 -   Bir proje için atanan rolleri ve kaynakları temel alarak maliyetleri tahmin etmek ve başlangıç bütçesini belirlemek.
--   Roller her Nişan için gerekli olan kaynak ayırmaları sayısını tahmin etmek için kullanın.
+-   Her görev için gerekli olan kaynak rezervasyonları sayısını tahmin etmek için rolleri kullanın.
 -   Tüm proje yaşam döngüsü için gereken kaynak sayısını tahmin etmek.
 -   İlk kaynak atamalarını kullanarak iş kırılım yapısı (WBS) taslağı hazırlamak.
 
 [![Proje yaşam döngüsü](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg) 
 
-Hasılatını planlama projesi olarak planlanmış kaynaklar aracılığıyla kaynakları ile değiştirilebilir. Proje Yöneticisi de dönün ve herhangi bir proje aşamaları sırasında resourcing rezervasyonları güncelleştirin.
+Proje planlama aşaması ilerledikçe, planlanan kaynaklar personelli kaynaklarla değiştirilebilir. Proje yöneticisi, geriye dönerek herhangi bir proje aşamasında kaynak rezervasyonlarını güncelleştirebilir.
 
 ## <a name="set-up-project-resources"></a>Proje kaynaklarını ayarlama
-Bir takvim ayarlamanız ve bunu bir personel veya çalışanla ilişkilendirmeniz gerekir. Takvimi, proje ve proje için ayrılmış olan kaynakların çalışma zamanını planlamak için kullanılır. Takvim ayarlama işlemi sırasında, proje yöneticileri kaynak eşitlemeyi kaynak optimizasyonunun bir parçası olarak gerçekleştirebilirler. Takvim planına bağlı olarak, kaynaklara kısıtlamalar getirilebilir. Temel bir takvim ayarlamak **takvimleri** sayfa. 
+Bir takvim ayarlamanız ve bunu bir personel veya çalışanla ilişkilendirmeniz gerekir. Takvim, projeyi ve projeye rezerve edilen kaynakların çalışma zamanını planlamak için kullanılır. Takvim ayarlama işlemi sırasında, proje yöneticileri kaynak eşitlemeyi kaynak optimizasyonunun bir parçası olarak gerçekleştirebilirler. Takvim planına bağlı olarak, kaynaklara kısıtlamalar getirilebilir. **Takvimler** sayfasından bir takvim ayarlayabilirsiniz. 
 
-Bir alt projenin kaynak olarak ayarladığınızda, kaynakları ayarlama şirketteki iş arkadaşlarına arasından seçim yapabilirsiniz veya kuruluşunuzdaki diğer şirketlerden çalışanları seçebilirsiniz. Bu şirketlerarası kaynaklardır. İşçi, şirketinizdeki bir proje kaynağı olarak ayarlamak ve nasıl bir şirketlerarası proje kaynağı ayarlarken aşağıdaki yordamlar açıklanmaktadır.
+Bir çalışanı proje kaynağı olarak ayarlarken, kaynakları ayarladığınız şirkette çalışan çalışanlar arasından seçim yapabilir veya kuruluşunuzdaki diğer şirketlerden çalışanlar seçebilirsiniz. Bunlar şirketlerarası kaynaklardır. Aşağıdaki yordamlar bir çalışanı şirketinizdeki bir proje kaynağı olarak nasıl ayarlayacağınızı ve nasıl bir şirketlerarası proje kaynağı ayarlayabileceğinizi açıklamaktadır.
 
 ### <a name="set-up-a-worker-as-a-project-resource"></a>Bir çalışanı proje kaynağı olarak ayarlama
 
-1.  Üzerinde **çalışanları** sayfa içinde **çalışanları** listesinde, proje kaynağı olarak eklediğiniz alt seçin ve alt kaydı açın.
-2.  Eylem bölmesinde tıklatın **proje**&gt;**Kurulum**&gt;**Proje Kurulumu**.
-3.  Bir takvim seçin ve ardından sayfayı kapatın.
+1.  **Çalışanlar** sayfasındaki **Çalışanlar** listesinde proje kaynağı olarak eklediğiniz çalışanı seçin ve çalışan kaydını açın.
+2.  Eylem Bölmesinde **Proje** &gt; **Ayar** &gt; **Proje ayarı**'na tıklayın.
+3.  Bir takvim seçin ve sayfayı kapatın.
 
 Bir kaynak için ön atama türü olarak varsayılan projeleri de belirtebilirsiniz. Ön atamalar, kaynak yöneticisi veya proje yöneticisi, kaynağın hangi projede çalışacağını önceden bildiğinde kullanılır. Ön atamalar için bir proje sponsoru veya müşterinin talebi de temel alınabilir. Bir projeyi önceden atamak için **Projeleri ata** sayfasındaki **Projeler** sekmesinde bulunan **Kalan projeler** listesinden ilgili projeyi seçin.
 
-### <a name="set-up-an-intercompany-resource"></a>Şirketlerarası bir kaynak ayarladıysanız
+### <a name="set-up-an-intercompany-resource"></a>Şirketlerarası bir kaynak ayarlama
 
-İşçi şirketlerarası bir kaynak olarak ayarladığınızda, ödünç verme şirket ve ödünç şirket Kurulumu tamamlamalısınız. 
+Bir çalışanı şirketlerarası kaynak olarak ayarladığınızda, ayarı ödünç veren ve ödünç alan şirkette tamamlamanız gerekir. 
 
-**Ödünç verme şirkette:**
+**Ödünç veren şirkette:**
 
-1.  Ödünç verme şirket seçilir ve "bir alt projenin kaynak olarak ayarlayın." Yukarıdaki yordamı tamamlayın işlemleri için Dynamics 365 içinde doğrulayın
-2.  Git ** genel muhasebe **&gt; ** deftere nakil kurulumu **&gt;**Şirketlerarası muhasebe**. Click **New**.
-3.  İçinde ** yasal Varlık Kimliği ** alanında, ödünç verme şirketi seçin. Kalan alanları uygun şekilde doldurun ve **kaydetmek**.
-4.  Git ** proje yönetimi ve muhasebe **&gt; ** Kur **&gt;**fiyatları ** &gt;**Transfer fiyatı**.** **
-5.  Üzerinde ** Transfer fiyatı ** formunda,'ı **yeni**hem de ** tüzel ödünç ** alanında, ilgili şirketi seçin.
-6.  Sadece ödünç şirket içinde bu bölümün başında oluşturulan kaynak ödünç vermek isterseniz, **kaynak** alanında, oluşturduğunuz kaynak adını seçin. Tüm kaynakları şirkette ödünç şirkete kullanılabilmesini istiyorsanız, bırakın ** kaynak ** alanı boş.
-7.  Git ** proje yönetimi ve muhasebe **&gt; ** Kur **&gt;**proje yönetimi ve muhasebe parametreleri**ve ** şirketlerarası ** sekmesinde, ayarlamak ** etkinleştirmek şirketlerarası kaynak planlama ve zaman çizelgelerini ** alanı **Evet**.
+1.  Dynamics 365 for Operations'da, ödünç veren şirketin seçildiğini doğrulayın ve ardından yukarıdaki "Bir çalışanı proje kaynağı olarak ayarlama" yordamını tamamlayın.
+2.  **Genel muhasebe **&gt; **Deftere nakil kurulumu **&gt;**Şirketlerarası muhasebe**'ye gidin. **Yeni**'ye tıklayın.
+3.  **Tüzel kişilik kimliği **alanında, ödünç veren şirketi seçin. Kalan alanları uygun şekilde doldurun ve **Kaydet**'e tıklayın.
+4.  **Proje yönetimi ve muhasebe**&gt; **Ayar **&gt; **Fiyatlar ** &gt; **Transfer fiyatı**** ** öğesine gidin.
+5.  **Transfer fiyatı **formunda, **Yeni**'ye tıklayın ve **Ödünç alan tüzel kişilik **alanında, ilgili şirketi seçin.
+6.  Ödünç alan şirkete yalnızca bölümün başında oluşturulan kaynağı ödünç vermek istiyorsanız, **Kaynak** alanında, oluşturduğunuz kaynak adını seçin. Şirketteki tüm kaynakları ödünç alan şirketin kullanımına sunmak istiyorsanız, **Kaynak ** alanını boş bırakın.
+7.  **Proje yönetimi ve muhasebe **&gt; **Kurulum **&gt; **Proje yönetimi ve muhasebe parametreleri**'ne gidin ve **Şirketlerarası **sekmesinde, **Şirketlerarası kaynak planlamayı ve zaman çizelgelerini etkinleştir **alanını **Evet** olarak ayarlayın.
 
-**Ödünç şirket:**
+**Ödünç alan şirkette:**
 
-1.  Git **proje yönetimi ve muhasebe**&gt;**proje kaynakları**&gt;**kaynaklar listesi**.
-2.  Arama Filtresi alanında ödünç verme şirket adı ödünç şirket için kaynak listesinde bulunduğunu doğrulamak önceki yordamda oluşturduğunuz kaynak adını girin.
+1.  **Proje yönetimi ve muhasebe** &gt; **Proje kaynakları** &gt; **Kaynaklar listesi**'ne gidin.
+2.  Arama filtresi alanına, ödünç alan şirketin kaynak listesine adın eklendiğini doğrulamak için önceki yordamda ödünç veren şirket için oluşturduğunuz kaynağın adını girin.
 
 ## <a name="manage-resource-competencies"></a>Kaynak yetkinliklerini yönetme
-Kaynak yetkinlikleri, kaynak yönetiminin önemli bir parçasıdır. Yetkinlikler, doğru yetenek, sertifika ve proje deneyimi açısından uygun dengeye sahip kaynakların belirlenmesinde temel olarak kullanılabilir. Bu bilgiyi her kaynak için ayarlamanız ve düzenli olarak güncellemeniz gerekir. Bu şekilde, proje kaynak ataması sırasında belirli kaynak yetkinlikleri eşleştiğinde becerileri en üst seviyeye çıkarabilirsiniz. [![Becerileri, sertifikaları, eğitim ve Proje deneyimi örnekleri](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg) 
+Kaynak uzmanlıkları, kaynak yönetiminin önemli bir parçasıdır. Yetkinlikler, doğru yetenek, sertifika ve proje deneyimi açısından uygun dengeye sahip kaynakların belirlenmesinde temel olarak kullanılabilir. Bu bilgiyi her kaynak için ayarlamanız ve düzenli olarak güncellemeniz gerekir. Bu şekilde, proje kaynak ataması sırasında belirli kaynak yetkinlikleri eşleştiğinde becerileri en üst seviyeye çıkarabilirsiniz. [![Beceri, sertifika, eğitim ve proje deneyimi örnekleri](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg) 
 
 Aşağıdaki yordamlar bir kaynak için bazı yetkinliklerin nasıl ayarlanacağını açıklar. 
 
-Bir çalışan için yetkinlikleri ayarlamak üzere, İnsan kaynaklarındaki **Çalışanlar** liste sayfasını veya Proje yönetimi ve muhasebedeki **Kaynaklar** listesi sayfasını kullanabilirsiniz. Aşağıdaki yordamlarda, **çalışanları** İnsan Kaynakları'ndaki liste sayfası kullanılır.
+Bir çalışan için yetkinlikleri ayarlamak üzere, İnsan kaynaklarındaki **Çalışanlar** liste sayfasını veya Proje yönetimi ve muhasebedeki **Kaynaklar** listesi sayfasını kullanabilirsiniz. Aşağıdaki yordamlar için İnsan kaynaklarındaki **Çalışanlar** listesi sayfasını kullanılır.
 
 ### <a name="set-up-competencies-certificates"></a>Yetkinlikleri ayarlama: Sertifikalar
 
@@ -101,40 +104,40 @@ Bir çalışan için yetkinlikleri ayarlamak üzere, İnsan kaynaklarındaki **�
 7.  **Kaydet**'e tıklayıp sayfayı kapatın.
 
 ## <a name="create-a-new-project"></a>Yeni proje oluştur
-1.  ' I **proje yönetimi ve muhasebe**&gt;**çalışma**&gt;**proje yönetimi**.
+1.  **Proje yönetimi ve muhasebe** &gt; **Çalışma alanları** &gt; **Proje yönetimi**'ne tıklayın.
 2.  **Yeni proje**'ye tıklayın ve şu değerleri girin:
-    -   **Proje türü** - zaman ve malzeme
-    -   **Proje adı** -XYZ yükseltme Phase 2
-    -   **Proje grubu** -TM\_Süren iş
-    -   **Proje Sözleşme kimliği** -00000002
+    -   **Proje türü** - Zaman ve malzeme
+    -   **Proje adı:** - XYZ Yükseltme Aşaması 2
+    -   **Project grubu:** TM\_WIP
+    -   **Proje sözleşme kodu:** - 00000002
 3.  **Proje oluştur**'a tıklayın.
 
 ### <a name="assign-a-resource-to-a-project"></a>Projeye kaynak atama
 
-1.  ' I **İnsan Kaynakları**&gt;**çalışanları**&gt;**çalışanları**.
+1.  **İnsan kaynakları** &gt; **Çalışanlar** &gt; **Çalışanlar**'a tıklayın.
 2.  **Çalışanlar** listesinde, daha önce yetkinlikleri ayarladığınız çalışanın kaydını seçin ve çalışan kaydını açın.
 3.  Eylem Bölmesinde, **Proje** sekmesindeki **Ayar** gurubunda **Projeleri ata**'ya tıklayın.
 4.  **Kaynak doğrulama proje atamaları** sayfasında, **Projeler** sekmesine tıklayın.
-5.  İçinde **Seçilen projeler için proje eklemek**, XYZ yükseltme Phase 2 proje üzerinde filtre
+5.  **Projeyi seçilen projelere ekle**'de,  XYZ Yükseltme Aşaması 2 projesini filtreleyin.
 6.  **Kalan projeler** bölmesinde, bir proje seçin ve ardından **Seçilen projeler** bölmesine eklemek için oka tıklayın.
 7.  Sayfayı kapatın.
 
-Gerekirse, kaynak için kategoriler de atayabilirsiniz. Kategori türü Maliyet veya Gelir'dir. Bu kuruluş tarafından belirlenir. Kaynağın atanan kategori yok ise, Dynamics 365 işlemleri için varsayılan kategori için maliyet ve gelir saat fiyatları yukarı bakar.
+Gerekirse, kaynak için kategoriler de atayabilirsiniz. Kategori türü Maliyet veya Gelir'dir. Bu kuruluş tarafından belirlenir. Kaynak için atanan kategori yoksa, Dynamics 365 for Operations maliyet ve gelir için saat fiyatlarında varsayılan kategoriyi arayacaktır.
 
 ### <a name="set-up-project-resource-and-role-characteristics"></a>Proje kaynağını ve rol özelliklerini ayarlama
 
-Proje yöneticisi, bir proje için gerekli olan rolleri oluşturmak için proje kaynak oluşturma işlevini kullanabilir. Roller, teyit edilen kaynaklar hala bilinmeyen kaynaklar madde rezerve ederken olduğunda kullanılabilir. Proje aşamaları planlama devam edebilmesi için rolleri geçici olarak planlanmış kaynaklar olarak rezerve edilebilir. 
+Proje yöneticisi, bir proje için gerekli olan rolleri oluşturmak için proje kaynak oluşturma işlevini kullanabilir. Roller, teyit edilen kaynaklar kaynaklar rezerve edilirken hala bilinmediğinde kullanılabilir. Roller geçici olarak planlanan kaynak olarak kullanılabilir; bu durumda proje planlama aşamalarına devam edebilirsiniz. 
 
-[![Bir rol örneği](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Rol örneği](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Senaryo:** Contoso, onaylanmış bir proje tüzüğü olan bir Zaman ve malzeme projesini tamamlamak üzere işe alınmıştır. Yardımcı proje müdürü, projenin amacını doldurmaya devam etmektedir. Kaynak Yöneticisi şu anda yeni bir proje üzerinde çalışmak için ayrılmış belirli kaynakları tanımlamak için kullanılır. Proje destekleyicisi, kritik Proje yapısı gereği istenen rollerinden biri Kıdemli proje yöneticisidir. Kaynak Yöneticisi, yeni kaynak alma ve çırak proje yöneticisi proje planlama sırasında kaynak bilgilerini gerektiren durumlarda sistemde rolünü tanımlayabilirsiniz. 
+**Senaryo:** Contoso, onaylanmış bir proje tüzüğü olan bir Zaman ve malzeme projesini tamamlamak üzere işe alınmıştır. Yardımcı proje müdürü, projenin amacını doldurmaya devam etmektedir. Kaynak yöneticisi, yeni projede çalışmak üzere rezerve edilecek belirli kaynakları belirlemektedir. Proje sponsorunun istediği rollerden biri, projenin kritik yapısı nedeniyle, Kıdemli proje yöneticisi konumudur. Kaynak yöneticisinin yeni bir kaynak alması ve yardımcı proje yöneticisi için proje planlama sırasında kaynak bilgisi gerekli olduğundan, rolü sistemde tanımlamalıdır. 
 
-Aşağıdaki adımlar nasıl Kaynak Yöneticisi Kıdemli proje yöneticisi rolünü kurmadan ve kaynak özellikleri bu ilişkilendirmeyi gösterir. Daha sonra, rol istenen kaynak yetkinlikleriyle eşleşen kullanılabilir kaynakları aramak için kullanılabilir.
+Aşağıdaki adımlarda, kaynak yöneticisinin Kıdemli proje yöneticisi rolünü nasıl ayarlayabileceği ve kaynak özelliklerini bununla nasıl ilişkilendirebileceği gösterilmektedir. Daha sonra, rol istenen kaynak yetkinlikleriyle eşleşen kullanılabilir kaynakları aramak için kullanılabilir.
 
-1.  ' I **proje yönetimi ve muhasebe**&gt;**Kurulum**&gt;**kaynakları**&gt;**rolleri Kurulumu**.
+1.  **Proje yönetimi ve muhasebe** &gt; **Ayar** &gt; **Kaynaklar** &gt; **Rolleri ayarla**'ya tıklayın.
 2.  **Yeni**'ye tıklayın ve şu değerleri girin:
-    -   **Rol Kimliği** -Kıdemli Proje Yöneticisi
-    -   **Açıklama** -Kıdemli Proje Yöneticisi
+    -   **Rol Kimliği:** - Kıdemli Proje Yöneticisi
+    -   **Açıklama:** - Kıdemli Proje Yöneticisi
 3.  **Oluştur**'a tıklayın.
 4.  **Kıdemli Proje Yöneticisi** rolünü seçip **Özellikleri yapılandır**'a tıklayın.
 5.  **Özelliklerin türü** alanında, **Beceri**'yi seçin.
@@ -145,67 +148,67 @@ Aşağıdaki adımlar nasıl Kaynak Yöneticisi Kıdemli proje yöneticisi rolü
 
 ### <a name="assign-a-project-resource-to-a-project"></a>Projeye proje kaynağı atama
 
-1.  ' I **proje yönetimi ve muhasebe**&gt;**ortak**&gt;**projeleri**&gt;**tüm projeleri**ve açık **XYZ yükseltme Phase 2** proje.
+1.  **Proje yönetimi ve muhasebe** &gt; **Ortak** &gt; **Projeler** &gt; **Tüm projeler**'i seçin ve **XYZ Yükseltme Aşaması 2** projesini açın.
 2.  **Proje ekibi ve planlama** sekmesinde **Ekle**'ye tıklayın.
 3.  **Rol** alanında **Ekip üyesi**'ni seçin.
 4.  **Takvimden rezerve et**'e tıklayın.
 5.  **Kaynak kullanılabilirliği** sayfasında, **Görünüm ayarları**'na tıklayın.
 6.  **Görünüm ayarlarını ayarla** sayfasına şu değerleri girin:
-    -   **Tarih aralığını görüntüleme biçimini** - gün
-    -   **Kullanılabilirlik açıklamaları görüntülemek** - Evet
-    -   **Kalan kapasite görüntü** - Evet
+    -   **Tarih aralığı görünüm biçimi:** - Gün
+    -   **Uygunluk açıklamalarını görüntüle:** - Evet
+    -   **Kalan kapasiteyi görüntüle:** - Evet
 7.  Kaynak listesinde, bir kaynak seçin.
-8.  ' I **sabit kitap**&gt;**tam kapasite**.
+8.  **Kesin rezervasyon** &gt; **Tam kapasite**'ye tıklayın.
 9.  Sayfayı kapatın.
 
 ### <a name="assign-a-resource-to-a-default-role"></a>Varsayılan bir role kaynak atama
 
-Proje veya kaynak yöneticilerine yardımcı olmak için inebilir aşağı bir proje için ayrılmış kaynakları üzerinde daha fazla. Varsayılan bir rolü mevcut bir kaynakla veya yeni edinilen bir kaynakla ilişkilendirebilirsiniz. Daniel işe alındığında, örneğin, yaptığı iş analisti rolü doldurmak için beceri ve deneyimi vardı. Kaynak Yöneticisi, bu rolü Daniel'ın varsayılan rol olarak atanmış. Bu nedenle, kaynak yöneticisi Daniel projeler üzerinde çalışmak kullanılabilir olan iş analistleri havuzu eklendi. 
+Proje veya kaynak yöneticilerine yardımcı olmak için, bir proje için rezerve edilebilecek kaynaklarla ilgili daha ayrıntılı inceleme yapabilirsiniz. Varsayılan bir rolü mevcut bir kaynakla veya yeni edinilen bir kaynakla ilişkilendirebilirsiniz. örneğin, Daniel işe alındığında, İş analisti rolünü yerine getirmek için beceri ve deneyimi vardı. Kaynak yöneticisi, bu rolü Daniel'ın varsayılan rolü olarak atadı. Bu nedenle, kaynak yöneticisi Daniel'ı projelerde çalışmak üzere kullanılabilir olan iş analistleri havuzuna eklendi. 
 
-Kaynak ayırma sırasında proje yöneticileri proje üzerinde çalışmak kullanılabilen rol kaynakları filtre uygulayabilirsiniz. Bu bilgiyi, kaynak karşılama sırasında çok ölçütlü karar analizi gerçekleştirirken bir ölçüt olarak kullanabilirler. Ayrıca, söz konusu proje için belirli becerileri, eğitimi ve deneyimi olan kaynakları aramak için filtre uygulamak amacıyla diğer kaynak özelliklerini ekleyebilirler. 
+Kaynak rezervasyonu sırasında, proje yöneticileri projede çalışabilecek rol kaynaklarını filtreleyebilir. Bu bilgiyi, kaynak karşılama sırasında çok ölçütlü karar analizi gerçekleştirirken bir ölçüt olarak kullanabilirler. Ayrıca, söz konusu proje için belirli becerileri, eğitimi ve deneyimi olan kaynakları aramak için filtre uygulamak amacıyla diğer kaynak özelliklerini ekleyebilirler. 
 
-**Senaryo:** onaylanmış bir proje başladı ve Kıdemli proje yöneticisi rolü proje planlama aşaması sırasında planlı bir kaynak olarak ayrıldı. Kaynak yöneticisi, Kıdemli proje yöneticisi rolünü yerine getirecek bir kaynak edinmiştir.
+**Senaryo:** Onaylanmış bir proje başlamıştır ve Kıdemli proje yöneticisi rolü proje planlama aşamasında planlanan kaynak olarak rezerve edilmiştir. Kaynak yöneticisi, Kıdemli proje yöneticisi rolünü yerine getirecek bir kaynak edinmiştir.
 
-1.  ' I **proje yönetimi ve muhasebe**&gt;**proje kaynakları**&gt;**kaynaklar listesi**.
+1.  **Proje yönetimi ve muhasebe** &gt; **Proje kaynakları** &gt; **Kaynaklar listesi**'ne tıklayın.
 2.  **Kaynak** listesinden, **Daniel Goldschmidt**'i seçin.
-3.  ' I **proje kaynak**&gt;**koru**&gt;**Kaynak rolü**.
+3.  **Proje kaynağı** &gt; **Koru** &gt; **Kaynak rolü**'ne tıklayın.
 4.  **Yeni**'ye tıklayın ve şu değerleri girin:
-    -   **Etkili** - (geçerli tarihi)
-    -   **Sona erme** - asla
-    -   **Rol** -Kıdemli Proje Yöneticisi
+    -   **Yürürlüğe giriş:** - (Güncel tarih)
+    -   **Süre sonu:** - Hiçbir zaman
+    -   **Rol:** - Kıdemli Proje Yöneticisi
 5.  **Kaydet**'e tıklayıp sayfayı kapatın.
 6.  **Yetkinlikler** sekmesinde, **ProjectMgmt** becerisini ve **PMP** sertifikasını ekleyin.
 
 ## <a name="set-up-role-based-pricing"></a>Rol tabanlı fiyatlandırmayı ayarlama
 Tüm satış, maliyet ve transfer fiyatları roller için ayarlanabilir.
 
-1.  ' I **proje yönetimi ve muhasebe**&gt;**Kurulum**&gt;**fiyatları**&gt;**satış fiyatı (saat)**.
-2.  Click **New**.
+1.  **Proje yönetimi ve muhasebe** &gt; **Ayar** &gt; **Fiyatlar** &gt; **Satış fiyatı (saat)**'na tıklayın.
+2.  **Yeni**'ye tıklayın.
 3.  Bir yürürlük tarihi girin.
 4.  **Rol** sütunundan bir rol seçin.
 5.  **Fiyatlandırma** sütununa, seçilen kaynak rolü için bir fiyat girin.
 
-## <a name="form-a-project-team"></a>Proje ekibi oluşturmak
-Bir projede önceden ayarlanmış olan rolleri kullanmak için bir proje yöneticisi rolleri proje ile ilişkilendirmeniz gerekir. Bir proje için birden çok rol atanabilir ve Dynamics 365 işlemleri için bu rolleri Karışıklığı önlemek için rezervasyon sırasında otomatik olarak etiketler. Proje Yöneticisi üç yazılım mühendisleri, yazılım mühendisi, 1 olan üç yazılım mühendisi rol gerektiriyorsa, örneğin, yazılım mühendisi 2 ve yazılım mühendisi olarak etiketlerine 3 otomatik olarak oluşturulur. Rol için rol özellikleri önceden ayarlanmışsa, kaynak arama sırasında filtre olarak uygulanır. Aramayı daha detaylı hale getirmek için ek özellikler eklenebilir. 
+## <a name="form-a-project-team"></a>Proje ekibi oluşturma
+Bir projedeki önceden ayarlanmış olan rolleri kullanmak için bir proje yöneticisinin rolleri projeyle ilişkilendirmesi gerekir. Bir proje için birden çok rol atanabilir ve Dynamics 365 for Operations, karışıklığı önlemek için rezervasyon sırasında bu rolleri otomatik olarak etiketler. Örneğin, proje yöneticisi üç yazılım mühendisi istiyorsa, yazılım mühendisi 1, yazılım mühendisi 2 ve yazılım mühendisi 3 etiketlerine sahip üç Yazılım mühendisi rolü otomatik olarak oluşturulur. Rol için rol özellikleri önceden ayarlanmışsa, kaynak arama sırasında filtre olarak uygulanır. Aramayı daha detaylı hale getirmek için ek özellikler eklenebilir. 
 
 Kaynak kullanılabilirliğinin daha iyi görüntülenebilmesi için görüntüleme ayarları özelleştirilebilir. Saatlik, günlük, haftalık, aylık, üç aylık ve yıllık kullanılabilirliği gösterme seçenekleri vardır. Ayrıca, kullanılabilir ve kalan kaynak kapasitesini görüntüleme seçeneği de bulunur. Bu seçenek, faaliyetler veya kaynak kullanılabilirliği için kullanılabilir zamanı tahmin etmeniz gerektiğinde yararlıdır. 
 
-Proje Yöneticisi rolü sayfasında seçebilir ve gereksinimi karşılayan kullanılabilir bir kaynak ise, rolü doldurmak için bir kaynak ayırmak için seçin. Not kaynakları planlama aşamasında bu noktada ayrılmış olması gerekmez. Bir ÇÇY oluşturduğunuzda, proje için Ekip kaynakları rolleri yerine kullanabilirsiniz. Roller ekip kaynakları ÇÇY değiştirilirse, kaynak Kurulumu proje ekibi listeleme ve zamanlama otomatik olarak güncelleştirir. 
+Proje yöneticisi sayfadan bir rol seçebilir ve gereksinimi karşılayan kullanılabilir bir kaynak varsa, rolü doldurmak için bir kaynak rezerve etmeyi seçebilir. Kaynakların, planlama aşamasının bu noktasında rezerve edilmemesi gerektiğini unutmayın. Bir WBS oluşturduğunuzda, rolleri projedeki personelli kaynaklarla değiştirebilirsiniz. Roller, WBS'deki personelli kaynaklarla değiştirilirse, kaynak ayarı proje ekibi listesini ve planlamasını otomatik olarak güncelleştirir. 
 
-[![Rolleri hem fiili kaynakları içeren proje takım listeleme](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Hem rolleri hem de gerçek kaynakları içeren proje ekibi listesi](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Proje yöneticisinin bir proje için bir kaynağı rezerve etmek için kullanabileceği **Kalan kapasite**, **Tam kapasite**, **Kapasite yüzdesi** ve **Saatleri belirtme** gibi çeşitli seçenekleri vardır. Kaynak atamalarını değiştirirseniz, bu rezerve etme seçenekleri herhangi bir zamanda iptal edilebilir. İki tür rezervasyon desteklenir:
 
--   **Sabit bir kitap** – kaynak ayırma onaylanması ve belirtilen süre için Nişan üzerinde çalışmak üzere onaylanmış.
--   **Yumuşak kitap** – kaynak ayırmaları belirtilen süre için Nişan üzerinde çalışmak üzere ayarlı kesin.
+-   **Kesin Rezervasyon** – Kaynak rezervasyonu onaylanmış ve belirtilen süre için görevde çalışmak üzere doğrulanmıştır.
+-   **Geçici Rezervasyon** – Kaynak rezervasyonları geçici olarak belirtilen süre için görevde çalışmak üzere ayarlanmıştır.
 
 Aşağıdaki yordamda bir proje ekibinin nasıl oluşturulacağı açıklanmaktadır.
 
 ### <a name="create-a-project-team"></a>Proje ekibi oluşturma
 
 1.  **Tüm projeler** liste sayfasında bir proje seçin ve ardından **Düzenle**'ye tıklayın.
-2.  Üzerinde **proje ekibi ve iş planlama çizelgeleme** No **zamanlama bitiş tarihi** alanına, zamanlama başlangıç tarihi artı bir ay. Zamanlama Başlangıç tarihi, örneğin, 24 Haziran 2017 dir (24/06/2017) girin **24/07/2017**.
-3.  Click **Add**.
+2.  **Proje ekibi ve planlama** sekmesindeki **Bitiş tarihini planla** alanına, planlanan başlama tarihi artı bir ay girin. Örneğin, planlama başlangıç tarihi 24 Haziran 2017 ise (24/06/2017), **24/07/2017** girin.
+3.  **Ekle**'ye tıklayın.
 4.  **Projeye roller ekle** bölmesindeki **Rol **alanında **Kıdemli Proje Yöneticisi**'ni seçin.
 5.  **Gerekli yetkinlikler**'e tıklayın.
 6.  **Özelliklerini seçin** sayfasında, Kıdemli proje yöneticisi rolü için önceden ayarlamış olduğunuz özellikler varsayılan olarak seçilir. **Tamam** düğmesine tıklayın.
@@ -221,13 +224,13 @@ Kaynak eşitleme işlemleri, takvim ve temel takvim bilgilerini, proje kaynak pl
 
 ### <a name="calendar-synchronizationmediaprojectresourcing04-1024x471jpg"></a>![Takvim eşitleme](./media/projectresourcing04-1024x471.jpg)
 
-**Synchronize resource capacity roll-ups**
+**Kaynak kapasite toplamlarını eşitle**
 
-Eşitleme işlemi, tüm kaynak takvim bilgilerini eşitlemek üzere tasarlanmıştır. Bu bilgiler, projenin Kaynak takvimi kapasite tablosundaki değişikliklerle ilgili temel takvim bilgilerini içerir. Yeni kaynaklar Project'te eklediyseniz, eşitleme güncelleştirilmiş Takvim bilgilerini kullanılabilir olduğundan emin olun yardımcı olur. Eşitleme herhangi bir zamanda yapılabilir. 
+Eşitleme işlemi, tüm kaynak takvim bilgilerini eşitlemek üzere tasarlanmıştır. Bu bilgiler, projenin Kaynak takvimi kapasite tablosundaki değişikliklerle ilgili temel takvim bilgilerini içerir. Projeye yeni kaynaklar eklenirse, eşitleme güncellenen takvim bilgilerinin kullanılmasının sağlanmasına yardımcı olur. Eşitleme herhangi bir zamanda yapılabilir. 
 
 Toplu iş kullanmanızı öneririz. Eşitleme kapasite rezervasyonunda seçenekler bulunmaktadır.
 
--   ' I **proje yönetimi ve muhasebe**&gt;**Periyodik**&gt;**kapasite eşitleme**&gt;**kaynaklar kapasite toplamalar eşitleme**.
+-   **Proje yönetimi ve muhasebe** &gt; **Periyodik** &gt; **Kapasite eşitleme** &gt; **Kaynakların kapasite toplamlarını eşitle**'ye tıklayın.
 
 | Seçenek | Açıklama                                                                                                                                                                                          |
 |--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -237,9 +240,9 @@ Toplu iş kullanmanızı öneririz. Eşitleme kapasite rezervasyonunda seçenekl
 [![Eşitleme işlemi](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 ## <a name="set-up-roles-on-wbs-templates"></a>WBS şablonlarında rolleri ayarlama
-Proje yöneticileri, yeni projeler için WBS oluştururken uygulayabilecekleri WBS şablonlarını ayarlayabilirler. Bunlar bir şablon oluşturduğunuzda, proje yöneticilerinin rolleri ekleyebilirsiniz. Bir ÇÇY template.* * için rol atamak için aşağıdaki yordamı kullanın **
+Proje yöneticileri, yeni projeler için WBS oluştururken uygulayabilecekleri WBS şablonlarını ayarlayabilirler. Proje yöneticileri bir şablon oluştururken roller ekleyebilirler. WBS şablonuna rol atamak için aşağıdaki yordamı kullanın.** **
 
-1.  ' I **proje yönetimi ve muhasebe**&gt;**Kurulum**&gt;**projeleri**&gt;**çalışma çözümleme yapısı şablonları**.
+1.  **Proje yönetimi ve muhasebe** &gt; **Ayar** &gt; **Projeler** &gt; **İş kırılım yapısı şablonları**'na tıklayın.
 2.  Seçilen İKY şablonu için **Ayrıntıları** tıklayın.
 3.  Listeden bir görev seçin ve **Rol** alanında, göreve atamak için bir rol seçin.
 
@@ -273,7 +276,7 @@ Kaynak oluşturma işlevinin daha etkin kullanılması için İKY'ye ek seçenek
 </tr>
 <tr class="even">
 <td>Takımı otomatik olarak oluştur</td>
-<td>Görevle ilişkili rolleri kullanarak planlanmış kaynakları otomatik olarak ekleyin. Dynamics 365 işlemleri için rollere göre birden çok ölçüt karar çözümlemesi kullanarak planlanmış kaynaklar otomatik olarak önerir. İKY'deki görevler için roller ve çalışma (saat) ayarlandıktan ve yapı serbest bırakıldıktan sonra, <strong>Ekibi otomatik oluştur</strong>'a tıklayın. Gereken sayıda planlanmış kaynak İKY'ye ve <strong>Proje ve ekip planlama</strong> sekmesine eklenir.</td>
+<td>Görevle ilişkili rolleri kullanarak planlanmış kaynakları otomatik olarak ekleyin. Dynamics 365 for Operations, rollere göre çok ölçütlü karar analizini kullanarak planlanmış kaynakları otomatik olarak önerir. İKY'deki görevler için roller ve çalışma (saat) ayarlandıktan ve yapı serbest bırakıldıktan sonra, <strong>Ekibi otomatik oluştur</strong>'a tıklayın. Gereken sayıda planlanmış kaynak İKY'ye ve <strong>Proje ve ekip planlama</strong> sekmesine eklenir.</td>
 </tr>
 <tr class="odd">
 <td>Kaynak (açılan liste)</td>
@@ -281,15 +284,15 @@ Kaynak oluşturma işlevinin daha etkin kullanılması için İKY'ye ek seçenek
 <ul>
 <li><strong>Kabul et</strong> – Bir göreve atanan kaynakla ilgili değişiklikleri onaylar.</li>
 <li><strong>İptal et</strong> – Bir göreve atanan kaynakla ilgili değişiklikleri iptal eder.</li>
-<li><strong>Otomatik olarak ata</strong> – bu seçenek, seçili görev için eşleşen bir rol kullanılabilir staffed kaynakla seçer.</li>
+<li><strong>Otomatik olarak ata</strong> – Bu seçenek, seçili görevle eşleşen bir role sahip kullanılabilir personelli bir kaynak seçer.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-1.  ' I **proje yönetimi ve muhasebe**&gt;**projeleri**&gt;**tüm projeleri**.
+1.  **Proje yönetimi ve muhasebe** &gt; **Projeler** &gt; **Tüm projeler**'e tıklayın.
 2.  Listeden **XYZ Yükseltme Aşaması 2** projesini seçin.
-3.  ' I **Plan**&gt;**etkinlikleri**&gt;**çalışma çözümleme yapısı**.
+3.  **Plan** &gt; **Faaliyetler** &gt; **İş kırılım yapısı**'na tıklayın.
 4.  İKY'ye aşağıdaki düzey bir faaliyetlerini eklemek için **Yeni**'ye tıklayın:
     -   Başlatma
     -   Planlama
@@ -297,7 +300,7 @@ Kaynak oluşturma işlevinin daha etkin kullanılması için İKY'ye ek seçenek
     -   İzleme ve Denetim
     -   Kapalı
 
-5.  Tarihleri ve çaba ayarlayın (saat) aşağıda gösterildiği gibi ekran görüntüsü. [![Çaba ve tarihleri ayarlama](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+5.  Tarihleri ve çalışmayı (saat) aşağıdaki ekran görüntüsünde gösterildiği şekilde ayarlayın. [![Tarihleri ve çalışmayı ayarlama](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 6.  **Başlatma** görev satırını seçin, ardından **Rol** alanında **Kıdemli Proje Yöneticisi**'ni seçin.
 7.  **Yayımla**'ya tıklayın.
 8.  Aynı satırda, **Kaynak** alanında **Daniel Goldschmidt**'i seçin.
@@ -308,49 +311,51 @@ Kaynak oluşturma işlevinin daha etkin kullanılması için İKY'ye ek seçenek
 13. **Kaynak** alanında, değerin **İş analisti 1** olduğunu doğrulayın.
 14. **İş analisti 1** kaynağı için aramayı açın ve **Kaynak atama formunu aç**'a tıklayın.
 15. Görev için bir çalışan seçin.
-16. ' I **yumuşak Ata**&gt;**tam kapasite**.
+16. **Geçici atama** &gt; **Tam kapasite**'ye tıklayın.
 17. **Kaydet**'e tıklayıp sayfayı kapatın. 
 
 > [!NOTE] 
-> Kaynak sayısı 1'den kaldığı için belirtilen kaynak 2, şimdi olduğunu belirten bir uyarı almıyorum.
+> Kaynakların sayısı 1'de kaldığı için belirtilen kaynağın artık 2 olduğunu belirten bir uyarı almazsınız.
 18. **İş kırılım yapısı **sayfasında, İKY'deki kaynak atamasını doğrulayın ve **Kaydet**'e tıklayın.
 
 ## <a name="resource-fulfillment-for-planned-resources"></a>Planlanmış kaynaklar için kaynak karşılama
 Proje yöneticisi, bir proje için gerekli kaynak rollerini planlayabilir. Kaynak yöneticisi **Kaynak karşılama** sayfasında planlanan bu kaynakları istek olarak görür ve gerçek kaynakları atayabilir.
 
-1.  ' I **proje yönetimi ve muhasebe**&gt;**projeleri**&gt;**tüm projeleri**.
+1.  **Proje yönetimi ve muhasebe** &gt; **Projeler** &gt; **Tüm projeler**'e tıklayın.
 2.  Listeden **XYZ Yükseltme Aşaması 2** projesini seçin.
 3.  **Proje**'ye tıklayın.
 4.  **Düzenle**'yi tıklatın.
-5.  Üzerinde **proje ekibi ve iş planlama çizelgeleme** sekmesinde ** **'ı **Ekle**.
+5.  **Proje ekibi ve planlama** sekmesinde ** ** **Ekle**'ye tıklayın.
 6.  **Rolleri ekle** iletişim kutusunda **Yazılım geliştiricisi** rolünü seçin.
 7.  **Oluştur**'a tıklayın.
 8.  Proje sayfasını kapatın.
-9.  ' I **proje yönetimi ve muhasebe**&gt;**proje kaynakları**&gt;**kaynak Karşılama**.
+9.  **Proje yönetimi ve muhasebe** &gt; **Proje kaynakları** &gt; **Kaynak karşılama**'ya tıklayın.
 10. **XYZ Yükseltme projesi Aşama 2** projesi için **Yazılım geliştirici 1**'i seçin.
 11. Bir çalışan seçip **Ata** öğesine tıklayın.
 12. **XYZ Yükseltme projesi Aşama 2** projesi için **Yazılım geliştirici 1** satırının kaldırıldığından emin olun.
 13. **Proje ekibi ve planlama** sekmesinde, **XYZ Yükseltme Aşama2** projesi için, adım 11'de seçtiniz çalışanın **Yazılım geliştiricisi** olarak eklendiğini kontrol edin.
 
-## <a name="requests-for-project-resources"></a>Proje kaynakları için istekleri
-Proje kaynak planlama işlevselliği yalnızca yöneliyorlar veya projelerin ekip kaynakları dağıtmak için kaynak yöneticilerini destekler. Bu işlevselliği etkinleştirmek için aşağıdaki görevleri tamamlamak veya onların tamamlandığını doğrulayın.
+## <a name="requests-for-project-resources"></a>Proje kaynakları talepleri
+Proje kaynak planlama işlevselliği yalnızca kaynak yöneticilerinin personellei kaynakları görevlere veya projelere dağıtmasını destekler. Bu işlevi etkinleştirmek için aşağıdaki görevleri tamamlayın veya bu görevlerin tamamlandığını doğrulayın.
 
--   Numara sıralarını ayarlayın.
+-   Numara serileri ayarlayın.
 -   Proje yönetimi ve muhasebe iş akışları ayarlayın.
--   Kaynak isteği iş akışı sağlar.
+-   Kaynak isteği iş akışını etkinleştirin.
 
-Doğrulanan veya yukarıdaki görevleri tamamlandı sonra gerektiğinde aşağıdaki görevleri tamamlayabilirsiniz.
+Yukarıdaki görevleri tamamladıktan veya doğruladıktan sonra gerektiğinde aşağıdaki görevleri tamamlayabilirsiniz.
 
--   Bir kaynak isteği yumuşak ayrıldı staffed kaynağı oluşturun.
--   Kaynak isteklerini izleyebilir.
--   Kaynak isteklerini yerine getirmek.
--   Staffed kaynak ÇÇY isteyin.
--   Staffed kaynak isteği olmayan bir proje defteri kaynakları.
+-   Geçici rezervasyon personelli kaynağından bir kaynak isteği oluşturun.
+-   Kaynak isteklerini izleyin.
+-   Kaynak isteklerini karşılayın.
+-   WBS'den personelli bir kaynak isteyin.
+-   Personelli kaynak isteği olmayan bir projeye kaynaklar rezerve edin.
 
-## <a name="monitor-project-teams"></a>Monitör proje ekipleri
-1.  ' I **proje yönetimi ve muhasebe**&gt;**projeleri**&gt;**tüm projeleri**.
+## <a name="monitor-project-teams"></a>Proje ekiplerini izleme
+1.  **Proje yönetimi ve muhasebe** &gt; **Projeler** &gt; **Tüm projeler**'e tıklayın.
 2.  Projeler listesinde **XYZ Yükseltme Aşama 2** projesi için **Proje kimliği** bağlantısına tıklayın.
 3.  **Proje ekibi ve planlama ** hızlı sekmesinde, listelenen proje kaynaklarının doğru olduğunu kontrol edin.
+
+
 
 
 

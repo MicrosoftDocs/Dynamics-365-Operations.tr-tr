@@ -1,6 +1,6 @@
 ---
 title: "Ürün reçeteleri ve formüller"
-description: "Bu makale, bilgi sağlar hakkında ürün reçeteleri (BOM) ve formüllerin olduğu ürünleri ve ürün çeşitleri tanımı merkezi bir parçası. Gerekli malzeme ve malzemeleri belirli bir ürün için ürün reçeteleri ve formülleri belirtin. Formüller de yan ürünler ve belirli üretim bağlamda alınan Madencilik belirtin."
+description: "Bu makale, ürün ve ürün çeşitleri tanımlarının merkezi bir parçası olan ürün reçeteleri (BOM&quot;lar) ve formüller hakkında bilgi sağlar. BOM&quot;lar ve formüller, belirli bir ürünün ihtiyaç duyulan malzemelerini veya içerikleri belirtir. Formüller ayrıca belirli üretim bağlamında alınan yan ürünleri ve ortak ürünleri de belirtir."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bills-of-materials-and-formulas"></a>Ürün reçeteleri ve formüller
 
-Bu makale, bilgi sağlar hakkında ürün reçeteleri (BOM) ve formüllerin olduğu ürünleri ve ürün çeşitleri tanımı merkezi bir parçası. Gerekli malzeme ve malzemeleri belirli bir ürün için ürün reçeteleri ve formülleri belirtin. Formüller de yan ürünler ve belirli üretim bağlamda alınan Madencilik belirtin. 
+[!include[banner](../includes/banner.md)]
+
+
+Bu makale, ürün ve ürün çeşitleri tanımlarının merkezi bir parçası olan ürün reçeteleri (BOM'lar) ve formüller hakkında bilgi sağlar. BOM'lar ve formüller, belirli bir ürünün ihtiyaç duyulan malzemelerini veya içerikleri belirtir. Formüller ayrıca belirli üretim bağlamında alınan yan ürünleri ve ortak ürünleri de belirtir. 
 
 <a name="bills-of-materials"></a>Ürün reçeteleri
 ------------------
@@ -38,7 +41,7 @@ Bu makale, bilgi sağlar hakkında ürün reçeteleri (BOM) ve formüllerin oldu
 
 Ürün oluşturmak için gereken operasyon ve kaynakları açıklayan bir rota veya üretim akışıyla birlikte kullanıldığında, ürün reçetesi, ürünün tahmini maliyetini hesaplama temelini oluşturur.  
 
-Bir ürün reçetesi aşağıdaki bilgileri tarafından tanımlanan tek bir varlıktır:
+Bir ürün reçetesi aşağıdaki bilgilerle açıklanan bağımsız bir varlıktır:
 
 -   Ürün Reçetesi Kodu
 -   Ürün reçetesi adı
@@ -49,7 +52,7 @@ Tek bir ürün reçetesi, benzersiz bir kodla tanımlanmış tek bir düzeyi aç
 
 ### <a name="formulas-co-products-and-by-products"></a>Formüller, ortak ürünler ve yan ürünler
 
-Formül, genellikle proses üretimi için kullanılan bir ürün reçetesi alt türüdür. Bileşenlere ve malzemelere ek olarak, formül, ortak ürünleri ve yan ürünleri açıklar. Gerçek sürümünde tanımı yan ürünler ve Madencilik için formülü formül sürümünü gerektirir. Bir formül formül sürümünde tanımlanan bir belirli Bitmiş ürünün (formül veya planlama maddesi) tipik olarak tanımlanır.
+Formül, genellikle proses üretimi için kullanılan bir ürün reçetesi alt türüdür. Bileşenlere ve malzemelere ek olarak, formül, ortak ürünleri ve yan ürünleri açıklar. Gerçek sürümde, yan ürünlerin ve ortak ürünlerin formüller için tanımı, formül sürümünü gerektirir. Bir formül, genellikle formül sürümünde tanımlanmış, belirli bir tamamlanmış ürün için belirlenir (bir formül veya planlama maddesi).
 
 ### <a name="boms-in-the-product-lifecycle"></a>Ürün yaşam döngüsündeki ürün reçeteleri
 
@@ -61,7 +64,7 @@ Formül, genellikle proses üretimi için kullanılan bir ürün reçetesi alt t
 -   **Üretim ürün reçetesi** – Belirli bir üretim için kullanılan gerçek ürün reçetesidir. Üretim ürün reçetesinde, ürünü üretmek için kullanılan fiili kaynaklar hesaba katılmalıdır. Üretim emri, toplu iş emri veya kanban oluşturulduğunda, hayali ürün reçeteleriyle temsil edilen birden fazla ürün reçetesi bir düzeye daraltılır ve sipariş için operasyonlara dağıtılır.
 -   **Maliyetlendirme ürün reçetesi** – Bu ürün reçetesi, bir ürünün tahmini maliyetini hesaplamak için kullanılır. Örneğin, standart maliyet kullanılırken veya belirli bir ürün için tahmini planlanan maliyet hesaplanırken bir maliyetlendirme ürün reçetesi kullanabilirsiniz. Maliyetlendirme ürün reçeteleri, kullanılması beklenen belirli malzeme ve kaynak karışımına başvurabilir. Bu nedenle, bir dönem için temsili bir tahmini maliyet oluşturmak ve zamanla oluşabilecek sapmaları önlemek için maliyetlendirme ürün reçetesini kullanabilirsiniz.
 
-Aslında bir uygulamada kullanılan ürün reçetesi türleri, uygulama ve iş senaryoları ve gereksinimleri bağlıdır. Basit uygulamalarda, planlama ürün reçetesi, üretim ürün reçetesi ve maliyetlendirme ürün reçetesi tek bir ürün reçetesi olarak modellenebilir. Sık sık mühendislik değişiklikleri ve birden fazla alternatif rotalar olan ortamlarda, büyük olasılıkla daha büyük ürün reçetesi türü grubu gerekecektir.
+Uygulamada fiilen kullanılan ürün reçetesi türleri, o uygulamaya, iş senaryolarına ve gereksinimlere bağlıdır. Basit uygulamalarda, planlama ürün reçetesi, üretim ürün reçetesi ve maliyetlendirme ürün reçetesi tek bir ürün reçetesi olarak modellenebilir. Sık sık mühendislik değişiklikleri ve birden fazla alternatif rotalar olan ortamlarda, büyük olasılıkla daha büyük ürün reçetesi türü grubu gerekecektir.
 
 ### <a name="approval-of-boms-and-formulas"></a>Ürün reçetelerinin ve formüllerin onayı
 
@@ -78,7 +81,7 @@ Planlama veya üretim sürecinde bir ürün reçetesi sürümünün kullanılabi
 
 ### <a name="activation-of-the-default-bom-or-formula-version"></a>Varsayılan ürün reçetesi veya formül sürümünün etkinleştirilmesi
 
-Belirli bir ürün reçetesini veya formülü, master planlamayla veya üretim emirleri oluşturmada kullanılacak varsayılan ürün reçetesi sürümü veya formül sürümü yapmak için, o sürümü etkinleştirmeniz gerekir. Sürümü (örneğin, dönem, site veya miktar) belirli kısıtlamalar için benzersiz bir sürüm etkinleştirildiğinde doğrulanır. Bir sürüm çakışmaları etkinleştirmeye çalıştığınız sürüm, zaten etkinse, bir hata iletisi alırsınız. Bu durumda, belirsiz bir etkinleştirmeyi önlemek için ya çakışan sürümü devre dışı bırakmanız veya sürüm kısıtlamalarında (genellikle dönem) değişiklik yapmanız gerekir.
+Belirli bir ürün reçetesini veya formülü, master planlamayla veya üretim emirleri oluşturmada kullanılacak varsayılan ürün reçetesi sürümü veya formül sürümü yapmak için, o sürümü etkinleştirmeniz gerekir. Bir sürüm etkinleştirildiğinde, belirtilen sınırlar içerisinde sürümün benzersizliğini (örneğin, dönem, site veya miktar) doğrulanır. Etkinleştirmeye çalıştığınız sürüm, halihazırda etkin bir sürümle çakışıyorsa, bir hata iletisi alırsınız. Bu durumda, belirsiz bir etkinleştirmeyi önlemek için ya çakışan sürümü devre dışı bırakmanız veya sürüm kısıtlamalarında (genellikle dönem) değişiklik yapmanız gerekir.
 
 ### <a name="product-change-with-case-management"></a>Servis talebi yönetimiyle ürün değişikliği
 
@@ -114,5 +117,7 @@ Bir alt üretim, bir ürün reçetesi satırı, etkinlik kanbanı veya ürün re
 Üretim süreci bir alt yüklenici kullanıyorsa ve alt yüklenici için otomatik olarak bir alt üretim veya satınalma siparişi oluşturmak istiyorsanız **Satıcı** satır türünü seçin.  
 
 **Ürün reçetesinde alt sözleşmeli operasyonlar hakkında not:** Alt yüklenicinin verdiği hizmet veya çalıştığı iş, stokta izlenen bir servis maddesi olarak oluşturulmalıdır. Servis maddesini ana maddeye bir ürün reçetesi satırı olarak iliştirmeniz gerekir. Rota, alt yüklenicinin operasyon kaynağına tahsis edilen bir operasyon içermelidir.
+
+
 
 

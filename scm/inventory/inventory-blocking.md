@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-blocking"></a>Stok durdurma
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, Microsoft Dynamics AX'in kalite denetim sürecinin parçası olan stok engellemeye genel bakış sunulmuştur. Stok engellemeyi kullanarak maddelerin işlenmesini veya tüketilmesini engelleyebilirsiniz.
 
 Stok maddelerini aşağıdaki şekillerde durdurabilirsiniz:
@@ -53,17 +56,19 @@ Aşağıdaki örnekte, bir satınalma siparişi sevk irsaliyesi deftere nakledil
 | Kalite ilişkilendirme, kalite emrinin satınalma siparişi sevk irsaliyesi deftere nakledildiğinde oluşturulması gerektiğini belirtir. Kalite emrinin madde örnekleme ayarı, satınalam siparişi satırındaki miktarın yüzde 10'unun incelenmesi gerektiğini belirtir. Ayrıca, madde örnekleme ayarında **Tam durdurma** seçili olduğundan, satınalma sipariş satırındaki tüm miktarın, incelenmeye gönderilen miktara bakılmaksızın, inceleme sırasında durdurulması gerekir. | Sevk irsaliyesi deftere nakledilir. | Kalite emri oluşturulur. Satınalma siparişi miktarının yüzde onu incelemeye gönderilir.  Satınalma sipariş satırındaki tüm miktar durdurulur. |
 
 ## <a name="blocking-items-by-using-inventory-status-blocking"></a>Stok durumu durdurmayı kullanarak maddeleri durdurma
-Kullanarak durumlarını engelleme hangi stok durumları belirtmek **stok engelleme** parametresi **stok durumları** sayfa. Üretim emirleri, satış siparişleri, transfer emirleri, giden hareketler veya proje tümleştirmeleri için stok durumlarını durdurma durumları olarak kullanamazsınız. Giden iş için kullanılabilen stok durumuna sahip maddeleri kullanın. Maddelerin durumu **Arızalı** olduğunda ve bu maddeler üzerinde master planlama çalıştırıldığında, maddeler eksik olarak kabul edilir ve stok otomatik olarak yenilenir.
+**Stok durumları** sayfasındaki **Stok durdurma** parametresini kullanarak hangi stok durumlarının durdurulacağını belirtebilirsiniz. Üretim emirleri, satış siparişleri, transfer emirleri, giden hareketler veya proje tümleştirmeleri için stok durumlarını durdurma durumları olarak kullanamazsınız. Giden iş için kullanılabilen stok durumuna sahip maddeleri kullanın. Maddelerin durumu **Arızalı** olduğunda ve bu maddeler üzerinde master planlama çalıştırıldığında, maddeler eksik olarak kabul edilir ve stok otomatik olarak yenilenir.
 
 
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Oluşturmak ve sürdürmek bir stok (görev Kılavuzu) engelleme](https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)
+[Stok durdurma oluştur ve sürdür (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)
 
-[Quality management processes](quality-management-processes.md)
+[Kalite yönetimi işlemleri](quality-management-processes.md)
 
-[(Görev Kılavuzu) malların kalitesini denetlemek](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+[Malların kalitesini denetle (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+
+
 
 

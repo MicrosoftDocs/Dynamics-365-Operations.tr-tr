@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="job-scheduling"></a>İş planlama çizelgeleme
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makale, operasyon planlamasından daha ayrıntılı bir planlama biçimi olan iş planlaması hakkında bilgi sağlar. İşleri veya mağaza siparişlerini tek tek programlamak ve üretim ortamını kontrol etmek için iş planlamayı kullanabilirsiniz.
 
 İşleri veya mağaza siparişlerini tek tek programlamak ve üretim ortamını kontrol etmek için iş planlamayı kullanabilirsiniz. İş planlama her operasyonu tek tek görev veya işlerine böler. Bu işler daha sonra bunları gerçekleştirecek operasyon kaynaklarına atanır. İş planlama ayrıca seçilen iş tarafından referans alınan tüm işleri senkronize etmenizi sağlar. İş için başlangıç veya bitiş tarihi ve saati belirtebilir ve ardından planlamayı çalıştırabilirsiniz. Süre olarak, programlama yönüne bağlı olarak başlangıç zamanını veya bitiş zamanını tanımlayabilirsiniz. Bu işlev örneğin aynı anda makinede sadece bir işin yürütüldüğü veya her bir kaynak için yürütülen işi optimize etmek istediğinizde yararlı olacaktır.
@@ -39,7 +42,7 @@ Bu makale, operasyon planlamasından daha ayrıntılı bir planlama biçimi olan
 -   Operasyonları işlere bölün.
 -   İşleri, ilgili operasyon için belirtilen kaynaklara yönelik tarihleri ve saatleri temel alarak planlayın.
 -   Her iş için başlangıç ve bitiş zamanlarını hesaplayın. Zamanların birbiriyle çakışmayacağından emin olmak için sonlu kapasite kullanabilirsiniz.
--   İş çalışmaya kaynak grubundaki hangi kaynakları belirlemek. Bu görev, bir işlem için bir kaynak grubunun belirtilmesi gerekir. İş planlama, kaynakları veya kaynak gruplarını en kısa teslim süresine göre seçer ve ayrıca kaynaklarla ilgili önceden yapılmış rezervasyonları da dikkate alır.
+-   Kaynak grubunda hangi kaynakların üzerinde işi çalıştıracağınızı belirtin. Bu görev, bir kaynak grubunun bir operasyon için belirtilmesini gerektirir. İş planlama, kaynakları veya kaynak gruplarını en kısa teslim süresine göre seçer ve ayrıca kaynaklarla ilgili önceden yapılmış rezervasyonları da dikkate alır.
 -   İş planlama yürütürken operasyonları işlere dağıtın. İşler, üretim rotası tarafından belirtilen sıraya göre tarih ve saatler dikkate alınarak planlanır. Operasyon kurulumu, planlama süreci sırasında açılacak işleri belirler. Operasyona atanan rota grupları işlerin oluşturulup oluşturulmayacağını kontrol eder. Bir iş, yalnızca özel bir süresi olması koşuluyla oluşturulur. Örneğin, seçilen operasyon için bir taşıma süresi belirtilmişse bir taşıma süresi işi oluşturulacaktır.
 
 ## <a name="scheduling-direction"></a>İş planlama çizelgeleme yönü
@@ -73,5 +76,7 @@ Kaynaklar, iş planlamayla işlere atanır. İş siparişi başına kaynaklar i�
 
 ## <a name="resource-efficiency"></a>Kaynak verimliliği
 İş planlama, kaynaklar için belirtilen verimlilik yüzdelerini dikkate alır. Verimlilik yüzdeleri, kaynak için ayrılan süreyi düşürür veya yükseltir. Bu nedenle, teslim süresi de artırılır veya azaltılır. Hesaplanmada aşağıdaki formül kullanılır: Planlama süresi = Zaman x 100÷ Formüldeki verimlilik yüzdesi, *Zaman* hem çalışma zamanını hem kurulum zamanını içerir.
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Muhasebe veya raporlama para birimlerini dönüştürme
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Muhasebe para birimini ya da raporlama para birimini değiştirmesi gereken bir şirketin iki seçeneği vardır. İlk seçenek, yeni bir şirket oluşturmak ve taze bir başlangıç yapmaktır. İkinci seçenek ise, muhasebe ve raporlama para birimi dönüştürme işlemini çalıştırmaktır. Bu, sistemdeki her hareketi değiştiren ve çok uzun süren bir işlemdir. İşlemin çalıştırılması için bazı ayarlar da yapılması gerekir.
@@ -72,6 +75,8 @@ Para birimi dönüştürmesinin ardından dönüştürülen tüm tutarların do�
 -   Genel muhasebe para biriminin dönüşümü sonucunda yuvarlama farkları ortaya çıkarsa, bu farklar yuvarlama farkının oluştuğu fiş kullanılarak deftere nakledilmez. Bunun yerine, dönüştürme nakilleri için girilen fiş kullanılarak nakledilir. Dönüştürme işleminden sonra fişe ve tarihe göre denetleme gerçekleştirilen tüm raporlarda bu yuvarlama farkları eklenir. Bu doğru bir yöntemdir ve yok sayılabilir.
 -   Müşteri ve satıcı mutabakat raporları toplam satırında farklı bir tutar görüntülerse ve dönüştürme öncesi tutarla bir farkı yoksa, bu fark tutarının deftere nakledilmesi gerekir. Hesap, müşteri ve satıcılar için özet hesaptır. Mahsup hesap, dönüşüm zararının veya dönüşüm kârının genel muhasebe defteridir.
 
-Tüm genel muhasebe hareketi günlükleri silinmiş olduğundan, genel muhasebe hareketlerini günlüğe aktarabilirsiniz. ' I **genel muhasebe**&gt;**Periyodik**&gt;**günlükleri**&gt;**günlüğe kaydetme**. Para birimi dönüştürme işleminden sonra yeniden değerleme gerekiyorsa yabancı para birimi tutarlarını yeniden değerleyebilirsiniz. Yeniden değerleme işlem için **Yöntem** alanında **Standart** seçeneğini belirleyerek yabancı para birimi tutarlarını yeniden değerleyebilirsiniz.
+Tüm genel muhasebe hareketi günlükleri silinmiş olduğundan, genel muhasebe hareketlerini günlüğe aktarabilirsiniz. **Genel muhasebe** &gt; **Dönemsel** &gt; **Günlükler** &gt; **Günlüğe aktarma**'yı tıklatın. Para birimi dönüştürme işleminden sonra yeniden değerleme gerekiyorsa yabancı para birimi tutarlarını yeniden değerleyebilirsiniz. Yeniden değerleme işlem için **Yöntem** alanında **Standart** seçeneğini belirleyerek yabancı para birimi tutarlarını yeniden değerleyebilirsiniz.
+
+
 
 

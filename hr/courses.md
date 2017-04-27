@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-training-courses"></a>Eğitim kursları ayarlama
 
+[!include[banner](includes/banner.md)]
+
+
 İnsan Kaynakları yöneticileri ve yöneticileri, kursları özelliğini kullanarak işçilere sunulan eğitim hakkındaki bilgileri tutabilirler.
 
  <a name="set-up-prerequisites"></a> Önkoşulları ayarlayın
@@ -85,7 +88,7 @@ Her kurs için aşağıdaki görevleri yerine getirebilirsiniz:
 -   Kurs katılımcılarına otel önerme
 -   Çalışan self servis portalında daha sonra ilan edebileceğiniz bir kurs açıklaması oluşturma
 
-  >**Not** sadece hiç kimse bunu kaydedildiyse, kurs silebilirsiniz. 
+  >**Note** Kursu sadece kimse kayıt olmadıysa silebilirsiniz. 
     
 ## <a name="course-statuses"></a>Kurs durumları
 Aşağıdaki tabloda olası kurs durumları ve kursun belirli bir durumu varsa tamamlayabilmeniz için eylemler listelenir.
@@ -132,7 +135,9 @@ Kurs katılımcıları, bir eğitim kursuna veya etkinliğe katılım gösteren 
 <a name="workflow"></a>İş Akışı
 --------
 
-Çalışanlar ile bir kurs için kayıt **çalışan self servis** sayfa kendi kayıt onayı için iş akışı üzerinden yönlendirilmiş olabilir.  Bir iş akışı üzerinde bir kursa atanabilir **genel** üzerinde hızlı **kursları** sayfa.
+**Personel self servis** sayfası üzerinden bir kursa kayıt olan personeller, kayıtlarını onay için çalışma akışından yönlendirebilirler.  Bir iş akışı, **Kurslar** sayfasında **Genel** hızlı sekmesinde bir kursa atanabilir.
+
+
 
 
 

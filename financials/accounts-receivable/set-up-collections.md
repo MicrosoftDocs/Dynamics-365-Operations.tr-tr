@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-credit-and-collections"></a>Alacak ve Tahsilatları ayarlamak
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makale koleksiyonlar işlevselliği ayarlamayı açıklar.
 
 <a name="set-up-aging-period-definitions"></a>Yaşlandırma dönem tanımlarını ayarla
@@ -46,7 +49,7 @@ Kuruluşunuzda birden çok kişi tahsilatlarla uğraşıyorsa, bir tahsilatlar e
 ## <a name="set-up-a-collections-case-category"></a>Tahsilat vakaları kategorisi ayarlayın
 Koleksiyonları çalışmanızı organize etmek için vakalar kullanacaksanız, **Tahsilatlar** kategori türünde olan bir vaka kategorisi ayarlayın. Bu kurulum yalnızca **Tahsilatlar** sayfası üzerinde vaka işlevini kullanmak istiyorsanız gereklidir.
 
-## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>(Düzenleme, writeoff ve NSF) günlük adlarını ayarlama
+## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Günlük adlarını ayarlama (kapatma, silme ve NSF)
 Hareketleri **Tahsilatlar** sayfası üzerinde işlendiğinde kullanılan günlük adları ayarlama. Bu işlem bir hareketin kapatılması, bir hareketin silinmesi ve yetersiz fon (NSF) ödeme işlenmesini kapatılmasını içerir.
 
 | Açıklama | Günlük türü:     |
@@ -55,7 +58,7 @@ Hareketleri **Tahsilatlar** sayfası üzerinde işlendiğinde kullanılan günl�
 | Sil   | Günlük            |
 | Karşılıksız         | Müşteri ödemesi |
 
-## <a name="set-up-a-reason-code-for-writeoff-transactions"></a>Writeoff hareketleri için bir sebep kodu ayarlama
+## <a name="set-up-a-reason-code-for-writeoff-transactions"></a>Silme hareketleri için bir neden kodu ayarlama
 **Tahsilatlar** sayfasında hareketler silindiğinde varsayılan olarak kullanılacak sebep kodunu ayarlamak. Silme işlemi süresinde kodu değiştirebilirsiniz.
 
 ## <a name="set-up-a-folder-for-email-attachments-and-create-email-templates"></a>E-posta ekleri için bir klasör ayarlayın ve e-posta şablonları oluşturun
@@ -67,7 +70,7 @@ Hareketleri **Tahsilatlar** sayfası üzerinde işlendiğinde kullanılan günl�
 ## <a name="optional-set-up-collections-agents"></a>İsteğe bağlı: Tahsilat temsilcilerini ayarla
 Kuruluşunuzda birden çok kişi tahsilatlarla uğraşıyorsa, bir tahsilat temsilcileri ayarlayabilirsiniz. Tahsilat temsilcisi, **Kullanıcı ilişkileri** sayfasında bir kullanıcı olarak ayarlanmış bir çalışandır. Aracıların işlerini düzenlemelerine yardım etmek için, tahsilat aracılarına müşteri havuzları (müşteri sorguları) atayabilirsiniz. Tahsilat temsilcileri, **Alacak hesapları parametreleri** sayfasında seçilen takıma eklenir. Sayfa üzerinde bir takım seçili değilse, **Tahsilatlar** adlı yeni bir takım otomatik olarak oluşturulur ve Tahsilat temsilcileri bu takıma eklenir.
 
-## <a name="set-up-a-writeoff-account"></a>Writeoff hesabı kurmak
+## <a name="set-up-a-writeoff-account"></a>Silme hesabı ayarlama
 Genel muhasebe defterinde bir hareket silineceği zaman, silme girişinde kullanılacak bir silme hesabı ayarlayın. Bu hesap, müşteri deftere nakil profili üzerinde depolanır.
 
 ## <a name="set-up-nsf-information-for-bank-accounts"></a>Banka hesapları için NSF bilgisi ayarlayın
@@ -82,11 +85,13 @@ Bu kişilere **Tahsilatlar** sayfasından e-posta iletileri göndermek istiyorsa
 Bir müşterinin **Kredi ve Tahsilatlar** hızlı sekmesinde, **Tahsilatlar kişisi** alanında, müşteri kuruluşta sizin tahsilat temsilcinizle işbirliği yapan kişiyi seçin. Bu kişi **Tahsilatlar** sayfasında varsayılan kişi olarak kullanılır ve e-posta iletileri ona gönderilir. 
 
 > [!NOTE] 
-> Bir müşteri için bir koleksiyon kişi belirtilmezse, birincil ilgili kişi müşteri için kullanılır. Eğer birincil bir ilgili kişi belirtilmemişse, e-posta iletileri **Kişiler** sayfasında ilk sırada listelenen kişiye gönderilir.
+> Müşteri için, tahsilatlarla ilgili bir kişi belirtilmezse, müşteri için birincil ilgili kişi kullanılır. Eğer birincil bir ilgili kişi belirtilmemişse, e-posta iletileri **Kişiler** sayfasında ilk sırada listelenen kişiye gönderilir.
 
 ## <a name="set-up-email-settings-for-salespeople"></a>Satış elemanları için e-post ayarlarını ayarlamak
 **Tahsilatlar** sayfasından satış elemanlarına e-posta iletileri göndermek istiyorsanız, satış elemanları için e-posta adreslerini ayarlayın. Her komisyon satış grubundaki her satış temsilcisi için bir e-posta adresi ayarlayın. **Kişi** seçeneği işaretli olan satış temsilcisi, e-posta iletilerinin gönderileceği varsayılan satış elemandır. 
 
 Bir satış temsilcisi belirtilmezse, müşteri kuruluşun birincil satış temsilcisi kullanılır. Birincil satış temsilcisi belirtilmezse, e-post iletileri sayfada listelenen ilk satış elemanına gönderilir.
+
+
 
 

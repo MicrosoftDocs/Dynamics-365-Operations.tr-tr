@@ -1,6 +1,6 @@
 ---
 title: "Üretim işlemine genel bakış"
-description: "Bu makalede, üretim işlemlerinin bir genel bakış sağlar. Bu, üretim emirleri, toplu siparişler ve sipariş oluşturma için kapanış mali dönem kanbans çeşitli aşamaları açıklar."
+description: "Bu makalede, üretim işlemleri hakkında genel bir bakış verilmektedir. Bu, sipariş oluşturulmasından mali dönem kapanışına dek üretim emirlerinin, toplu iş emirlerinin ve kanbanların çeşitli aşamalarını açıklamaktadır."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,18 +29,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="production-process-overview"></a>Üretim işlemine genel bakış
 
-Bu makalede, üretim işlemlerinin bir genel bakış sağlar. Bu, üretim emirleri, toplu siparişler ve sipariş oluşturma için kapanış mali dönem kanbans çeşitli aşamaları açıklar. 
+[!include[banner](../includes/banner.md)]
+
+
+Bu makalede, üretim işlemleri hakkında genel bir bakış verilmektedir. Bu, sipariş oluşturulmasından mali dönem kapanışına dek üretim emirlerinin, toplu iş emirlerinin ve kanbanların çeşitli aşamalarını açıklamaktadır. 
 
 Üretim yaşam döngüsü olarak da bilinen bir süreç olan ürün üretimi, bir maddenin üretimini tamamlamak için gereken belirli adımları izler. Yaşam döngüsü, üretim emri, toplu iş emri veya kanban oluşturulması ile başlar. Müşteriye veya başka bir üretim aşamasına hazır, bitmiş, mamul bir madde ile sona erer. Sürecin tamamlanabilmesi için, yaşam döngüsündeki her adımda farklı türde bilgiler gerekir. Adımlar bir bir tamamlandıkça, üretim emri, toplu iş emri veya kanban üretim durumunda bir değişikliği gösterir. Farklı türdeki ürünler, farklı imalat süreçleri gerektirirler.  
 
-**Üretim denetim** modülü bağlantılı olduğu diğer modüllerle gibi **ürün bilgi yönetimi**, **Stok Yönetimi**, **genel muhasebe**, **ambar yönetimi**, **proje hesap**, ve **kuruluş yönetim**. Bu entegrasyon, mamul maddenin üretimini tamamlamak için gereken bilgi akışını destekler.  
+**Üretim kontrolü** modülü, **Ürün bilgileri yönetimi**, **Stok yönetimi**, **Genel muhasebe**, **Ambar yönetimi**, **Proje muhasebesi** ve **Organizasyon yönetimi** gibi diğer modüllerle bağlantılıdır. Bu entegrasyon, mamul maddenin üretimini tamamlamak için gereken bilgi akışını destekler.  
 
-Üretim süreci, tipik olarak belirli bir üretim süreci için seçilen maliyet muhasebesi ve stok değerleme yöntemlerinden etkilenir. Dynamics 365 işlemleri için hem fiili maliyet destekler (ilk giren ilk çıkış \[FIFO\]; ilk çıkış, son \[LIFO\]; hareketli ortalama; ve dönemsel Ağırlıklı ortalama) ve standart maliyet yöntemleri. Yalın imalat, geriye dönük maliyetlendirme ilkesine dayalı olarak uygulanır.  
+Üretim süreci, tipik olarak belirli bir üretim süreci için seçilen maliyet muhasebesi ve stok değerleme yöntemlerinden etkilenir. Dynamics 365 for Operations, hem fiili maliyeti (ilk giren ilk çıkar \[[FIFO]\]; son giren ilk çıkar \[[LIFO]\]; hareketli ortalama ve periyodik ağırlıklı ortalama) hem de standart maliyet yöntemlerini destekler. Yalın imalat, geriye dönük maliyetlendirme ilkesine dayalı olarak uygulanır.  
 
 Maliyet ölçümü yöntemlerinin tercihi, üretim süreci esnasında malzeme ve kaynak tüketimi hakkındaki raporlara yönelik gereklilikleri de belirler. Tipik olarak, fiili maliyet yöntemleri, iş düzeyinde isabetli raporlama gerektirirken, periyodik maliyetlendirme yöntemleri malzeme ve kaynak tüketiminin daha az ayrıntılı raporlanabilmesine imkan verir.
 
 ## <a name="mixed-mode-manufacturing"></a>Karma mod üretim
-Farklı ürünler ve üretim topolojileri, farklı sipariş türleri uygulanmasını gerektirir. Dynamics 365 işlemleri için bir karma modda çeşitli Sipariş tipleri uygulayabilirsiniz. Diğer bir deyişle, bir bitmiş ürün üretme uçtan uca işlemi sırasında tüm sipariş türleri gerçekleşebilir.
+Farklı ürünler ve üretim topolojileri, farklı sipariş türleri uygulanmasını gerektirir. Dynamics 365 for Operations, karma modda çeşitli sipariş türlerini uygulayabilir. Diğer bir deyişle, bir bitmiş ürün üretme uçtan uca işlemi sırasında tüm sipariş türleri gerçekleşebilir.
 
 -   **Üretim emri** – Bu, belirli bir ürünü veya ürün varyantını verili bir miktarda ve belirli bir tarihte üretmeye yönelik klasik emir türüdür. Üretim emirleri, ürün reçetelerini (BOM) ve rotaları temel alır.
 -   **Toplu iş emri** – Bu emir türü, imalat dönüştürmenin bir formüle dayalı olarak yapıldığı veya ortak ürün ve yan ürünlerin ana ürüne ek olarak veya ana ürün yerine son ürün olabildiği işlem endüstrileri ve kesikli işlemler için kullanılır. Toplu iş emirleri **Formül** türü ürün reçeteleri ve rotaları kullanırlar.
@@ -59,14 +62,14 @@ Belirli bir ürün ve ilişkili pazar için uygun imalat ilkesini seçmek için,
 Üretim yaşam döngüsündeki takip eden adımlar, tüm karma mod imalat türleri için gerçekleşebilir. Ancak, bunların tümü açık bir sipariş durumu olarak temsil edilmez.
 
 1.  **Oluşturuldu** – El ile bir üretim emri, toplu iş emri veya kanban oluşturabilir ya da sistemi bunları çeşitli talep sinyallerine dayalı olarak üretecek şekilde yapılandırabilirsiniz. Master planlama, planlı siparişleri kesinleştirerek üretim emirleri, toplu iş emirleri veya kanban'lar oluşturur. Diğer talep sinyalleri, diğer üretim emirlerinden ya da kanban'lardan olan satış siparişleri veya ilişkilendirilmiş tedarik sinyalleridir. Sabit miktarlı kanban'lar için, kanban'lar boş olarak kaydedildiğinde talep sinyalleri üretilir.
-2.  **Tahmini** – Malzeme ve kaynak tüketimi için tahminler hesaplayabilirsiniz. Tahmin, **Siparişe göre** durumuna sahip hammaddeler için stok hareketleri üretir. Ana ürünler, yan ürünler ve Madencilik makbuzlarını, üretim emirleri oluşturmak veya toplu iş emirleri tahmini. Ürün reçetesi satırları varsa **tedarik Pegged** yazın, malzemeler için satınalma siparişleri veya taşeron işlem Hizmetleri oluşturulur ve toplu iş emri veya üretim emri pegged. Maddeler veya siparişler, üretim emrinin rezervasyon stratejisine göre rezerve edilir ve bitmiş malların fiyatı parametre ayarlarına dayalı olarak hesaplanır.
+2.  **Tahmini** – Malzeme ve kaynak tüketimi için tahminler hesaplayabilirsiniz. Tahmin, **Siparişe göre** durumuna sahip hammaddeler için stok hareketleri üretir. Ana ürünler, ortak ürünler ve yan ürünlere ilişkin girişler üretim emirleri veya toplu iş emirleri tahmin edilirken oluşturulur. Ürün reçetesinde **İlişkilendirilmiş tedarik** türü satırları varsa, malzemeler için satınalma siparişleri veya taşeron işlem hizmetleri oluşturulur ve üretim emri ya da toplu iş emri ile ilişkilendirilir. Maddeler veya siparişler, üretim emrinin rezervasyon stratejisine göre rezerve edilir ve bitmiş malların fiyatı parametre ayarlarına dayalı olarak hesaplanır.
 3.  **Planlanan** – Üretimi operasyonlara, tek tek işlere veya ikisine birden dayalı olarak planlayabilirsiniz.
     -   **Operasyon planlaması** – Bu planlama yöntemi kaba hatlarıyla uzun vadeli bir plan sağlar. Bu yöntemi kullanarak üretim emirlerine başlangıç ve bitiş tarihleri atayabilirsiniz. Üretim emirleri rota operasyonlarına eklendiyse, bunları maliyet merkezi gruplarına atayabilirsiniz.
     -   **İş planlaması** – Bu planlama yöntemi ayrıntılı bir plan sağlar. Her bir operasyon belirli tarihlere, saatlere ve atanan operasyon kaynaklarına sahip ayrı ayrı işlere ayrılır. Sonlu kapasite kullanılıyorsa, işlere karşılanabilirlik temelinde operasyon kaynağı atanır. Planlamayı bir Gantt grafiğinde görebilir ve değiştirebilirsiniz.
     -   **Kanban planlaması** – Kanban işleri, kanban planlama panosunda planlanır veya kanban kurallarının otomatik planlama yapılandırmasına dayalı olarak otomatik olarak planlanır.
 
 4.  **Serbest** – Planlama bittiğinde ve malzeme alınmaya ya da hazırlanmaya hazır olduğunda üretim emrini veya toplu iş emrini serbest bırakabilirsiniz. Malzeme kullanılabilirliği kontrolü, atölye süpervizörünün malzemenin üretim emirleri veya toplu iş emirleri için kullanılabilirliğini değerlendirmesine yardımcı olur. Çekme listeleri, iş kartı, rota kartı ve rotadaki iş gibi üretim emri belgelerini yazdırabilmeniz de mümkündür. Üretim emri serbest bırakıldığında, emrin durumu üretimin başlayabileceğini belirtecek şekilde değişir. Ambar yönetimi kullanılırken, üretim emrinin veya toplu iş emrinin serbest bırakılması, üretim ürün reçetesi satırlarının ambar yönetimine serbest bırakılmasını sağlar. Ardından ambar dalgaları ve ambar çalışması ambar kurulumuna göre üretilir.
-5.  **Hazır**/**Çekildi** – tüm malzemeler ve kaynaklar üretim ürün reçetesi satırları üretim yerindeki aşamalı veya kanban satırları durumuna güncelleştirilir **Çekildi**. İlişkilendirilen tedarik siparişleri ve ilgili ambar çalışması genellikle bu aşamada tamamlanır. Üretimin geldiği aşamayı rapor etmek için gereken kanban kartları veya iş kartları atanmalı ve yazdırılmalıdır.
+5.  **Hazırlanan**/**Çekilen**– Tüm malzeme ve kaynaklar üretim konumunda hazırlandığında, üretim ürün reçetesi satırları veya kanban satırlarının durumu **Çekilen** olarak güncellenir. İlişkilendirilen tedarik siparişleri ve ilgili ambar çalışması genellikle bu aşamada tamamlanır. Üretimin geldiği aşamayı rapor etmek için gereken kanban kartları veya iş kartları atanmalı ve yazdırılmalıdır.
 6.  **Başladı** – Üretim emri, toplu iş emri veya kanban başlatıldığında, malzeme ve kaynak tüketimini emre göre rapor edebilirsiniz. Sistem, emir başlatıldığında emre tahsis edilecek malzeme ve kaynak tüketimini otomatik olarak deftere nakledecek şekilde yapılandırılabilir. Bu tahsisat, ön malzeme çekme, ileri otomatik tüketim veya otomatik tüketim olarak bilinir. Ek çekme listesi günlükleri oluşturarak malzemeleri üretim emirlerine veya toplu iş emirlerine el ile tahsis edebilirsiniz. Ayrıca emre işgücü ve diğer rota maliyetlerini el ile tahsis edebilirsiniz. Operasyon planlaması kullanıyorsanız, bu maliyetleri bir rota kartı günlüğü oluşturarak tahsis edebilirsiniz. İş planlaması kullanıyorsanız, maliyetleri bir iş kartı günlüğü oluşturarak tahsis edebilirsiniz. Üretim emirleri veya toplu iş emirleri istenen nihai miktarın toplu işlerinde başlatılabilir. Bir üretim emri, toplu iş emri veya kanban dahilinde, oluşturulan işler günlükler, imalat icra terminali (MES terminali) ya da kanban panoları üzerinden ayrı ayrı başlatılabilir ve raporlanabilir.
 7.  İlerleme raporu/**Tamamlanmış** işler – Üretim ilerlemesini işe veya kaynağa göre raporlamak için MES Terminalini, üretim günlüklerini, kanban panolarını veya mobil tarama özelliklerini kullanın. Malzeme ve kaynak tüketimi deftere nakledilecektir ve ilgili kanbanların, üretim emirlerinin ve toplu iş emirlerinin durumu **Alındı** veya **Bitmiş olarak raporlandı** şeklinde güncellenebilir. Ambar yapılandırmasına bağlı olarak ambar için yerine koyma çalışması oluşturulabilir.
 8.  **Bitmiş olarak raporlandı** (ürün girişi) – Bir üretim emri veya toplu iş emri bitmiş olarak raporlandığında, tamamlanan bitmiş malların miktarı stokta güncellenir. Bu miktar ilgili ortak ürünlerin ve yan ürünlerin miktarını içerir. Süren iş muhasebesini kullanıyorsanız, süren iş hesaplarını düşürmek ve bitmiş mal stokunu yükseltmek için bir genel muhasebe günlüğü üretilir. Bir üretim emrinin maliyeti hesaplanırken, üretimin fiili maliyeti deftere nakledilir. Üretimle ilişkilendirilen malzeme ve işgücü maliyetleri önceden bir günlükte veya "ön malzeme çekme" yoluyla tahsis edilmediyse, bunlar geri malzeme çekme yoluyla otomatik olarak tahsis edilebilir. Ön malzeme çekimi, stok hareketinin sonradan düşürülmesi işlemlerini içerir. Üretim emri tamamlanırsa, **Son iş** onay kutusunu seçerek kalan durumu **Bitti** olarak değiştirin. Aksi takdirde, üretilen ek miktarların raporlanmasını sağlamak için alanı boş bırakın.
@@ -79,10 +82,12 @@ Belirli bir ürün ve ilişkili pazar için uygun imalat ilkesini seçmek için,
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Production feedback](production-feedback.md)
+[Üretim geribildirimi](production-feedback.md)
 
-[Product configuration models](../pim/product-configuration-models.md)
+[Ürün yapılandırma modelleri](../pim/product-configuration-models.md)
 
-[Lean manufacturing](lean-manufacturing-overview.md)
+[Yalın imalat](lean-manufacturing-overview.md)
+
+
 
 

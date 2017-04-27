@@ -1,6 +1,6 @@
 ---
 title: Excel eklentisini kullanma
-description: "Bu konuda varlık verileri Microsoft Excel&quot;de açın ve ardından görüntülemek, güncelleştirmek ve Excel Microsoft Dynamics ofisini eklentisini kullanarak verileri düzenlemek nasıl açıklar. Varlık veri açmak için Excel veya Microsoft Dynamics 365 işlemleri başlatabilirsiniz."
+description: "Bu konuda, Microsoft Excel&quot;de varlık verilerinin nasıl açılacağı, ardından Excel için Microsoft Dynamics Office eklentisini kullanarak bu verilerin nasıl görüntüleneceği, güncelleştirileceği ve düzenleneceği açıklanmaktadır. Varlık verilerini açmak için Excel veya Microsoft Dynamics 365 for Operations&quot;tan başlatabilirsiniz."
 author: ChrisGarty
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,67 +26,67 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="use-the-excel-add-in"></a>Excel eklentisini kullanma
 
-Bu konuda varlık verileri Microsoft Excel'de açın ve ardından görüntülemek, güncelleştirmek ve Excel Microsoft Dynamics ofisini eklentisini kullanarak verileri düzenlemek nasıl açıklar. Varlık veri açmak için Excel veya Microsoft Dynamics 365 işlemleri başlatabilirsiniz.
+Bu konuda, Microsoft Excel'de varlık verilerinin nasıl açılacağı, ardından Excel için Microsoft Dynamics Office eklentisini kullanarak bu verilerin nasıl görüntüleneceği, güncelleştirileceği ve düzenleneceği açıklanmaktadır. Varlık verilerini açmak için Excel veya Microsoft Dynamics 365 for Operations'tan başlatabilirsiniz.
 
-Microsoft Excel'de varlık verileri açarak, hızla ve kolayca görüntüleyebilir ve Excel Microsoft Dynamics ofisini eklentisini kullanarak verileri düzenleyin. Bu eklenti Microsoft Excel 2016 gerektirir. **Not:**, Microsoft Azure Active Directory (AD Azure) Kiracı, Active Directory Federasyon Hizmetleri (AD FS) kullanmak üzere yapılandırılmışsa, böylece Excel eklentisi düzgün oturum açmak, Mayıs 2016 güncelleştirmenin uygulandığını emin olmanız gerekir.
+Varlık verilerini Microsoft Excel'de açarak, Excel için Microsoft Dynamics Office eklentisiyle bu verileri hızlı ve kolay bir şekilde görüntüleyip düzenleyebilirsiniz. Bu eklenti için Microsoft Excel 2016 gerekir. **Not:**, Microsoft Azure Active Directory (Azure AD) kiracınız Active Directory Federasyon Hizmetleri (AD FS) kullanmak üzere yapılandırılmışsa, Excel eklentisinin oturumunuzu doğru açabilmesi için Mayıs 2016 güncelleştirmesinin uygulandığından emin olmanız gerekir.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Dynamics 365 işlemleri için başlangıç zaman varlık verileri Excel'de açın.
-1.  Microsoft Dynamics 365 işlemleri için bir sayfa üzerinde tıklatın **açık Microsoft Office**. Sayfanın kök veri kaynağı (tablo) tüm varlıklar için kök veri kaynağı ile aynı ise, varsayılan **Excel'de Aç** seçenekleri sayfa için oluşturulur. **Excel'de Aç** seçenekleri bulunabilir, sık kullanılan sayfaları gibi **tüm satıcılar** ve **tüm müşterileri**.
-2.  ' I bir **Excel'de açmak** seçeneğini ve oluşturulan çalışma kitabını açın. Bu çalışma kitabı Excel eklentisi için bir işaretçi varlığı ve ortamınız için bir işaretçi için bağlama bilgileri vardır.
-3.  Excel'de,'ı **düzenlemeyi etkinleştirme** Excel çalıştırmak eklenti etkinleştirmek için. Excel eklentisi Excel penceresinin sağ tarafında bir bölmede çalışır.
-4.  Tıklatın Excel eklentisi ilk kez çalıştırıyorsanız, **bu eklentiyle güven ilişkisi**.
-5.  Oturum açmanız istendiğinde,'ı **oturum**ve sonra Dynamics 365 işlemleri için oturum açmak için kullandığınız kimlik bilgilerini kullanarak oturum açın. Excel eklentisi önceki oturum kapsamı Internet Explorer'dan kullanmak ve kullanılabiliyorsa oturumunuzu otomatik olarak. Bu nedenle, Excel eklentisi sağ üst köşesindeki kullanıcı adını doğrulayın.
+## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Dynamics 365 for Operations'tan başladığınız zaman varlık verilerini Excel'de açma
+1.  Microsoft Dynamics 365 for Operations'ta bir sayfada **Microsoft Office'te aç**'a tıklayın. Sayfanın kök veri kaynağı (tablo) tüm varlıklar için kök veri kaynağı ile aynı ise, sayfa için, varsayılan **Excel'de aç** seçenekleri oluşturulur. **Excel'de aç** seçenekleri sık kullanılan sayfalarda (**Tüm satıcılar** ve **Tüm müşteriler** vb.) bulunabilir.
+2.  Bir **Excel'de aç** seçeneğine tıklayın ve oluşturulan çalışma kitabını açın. Bu çalışma kitabı varlık için bağlayıcı bilgiler, ortamınız için bir işaretçi ve Excel eklentisi için bir işaretçi içerir.
+3.  Excel'de,**Düzenlemeyi etkinleştir**'e tıklayarak Excel eklentisini etkinleştirin. Excel eklentisi Excel penceresinin sağ tarafındaki bir bölmede çalışır.
+4.  Excel eklentisini ilk kez çalıştırıyorsanız **Bu eklentiyle güven**'e tıklayın.
+5.  Oturum açmanız istendiğinde **Oturum aç**'a ve ardından Dynamics 365 for Operations'ta oturum açmak için kullandığınız kimlik bilgilerini kullanarak oturum açın. Excel eklentisi, yapabiliyorsa, Internet Explorer'dan aldığı önceki oturum bağlamını kullanır ve oturumunuzu otomatik olarak açar. Bu nedenle, Excel eklentisinin sağ üst köşesindeki kullanıcı adını doğrulayın.
 
-Excel eklentisi otomatik olarak seçtiğiniz varlıkla ilgili verileri okur. Olacağını hiç veri çalışma kitabında Excel eklentisi içinde okur kadar unutmayın.
+Excel eklentisi, seçtiğiniz varlıkla ilgili verileri otomatik olarak okur. Excel eklentisi okuyana kadar çalışma kitabında veri olmayacağını unutmayın.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>Excel'den başlattığınızda varlık verileri Excel'de açın.
-1.  Excel'de, üzerinde **Ekle** sekmesini **eklentileri** tıklatın, grup **deposu** Office mağaza açmak için.
-2.  Office deposunda arama anahtar sözcüğü "Dynamics" öğesini tıklatıp **Ekle** yanında **Microsoft Dynamics Office eklenti** (Excel eklentisi).
-3.  Tıklatın Excel eklentisi ilk kez çalıştırıyorsanız, **bu eklentiyle güven ilişkisi** Excel çalıştırmak eklenti etkinleştirmek için. Excel eklentisi Excel penceresinin sağ tarafında bir bölmede çalışır.
-4.  ' I **sunucu bilgileri eklemek** açmak için **seçenekleri** bölmesi.
-5.  Hedefiniz Dynamics 365 işlemleri örneği için tarayıcı URL kopyalamak, içine yapıştırın **sunucu URL'si** alanı ve ana bilgisayar adından sonra her şeyi silin (örnek: delete **/? cmp usmf & mi = CustTableListPage =**). Sonuçta elde edilen URL yalnızca ana bilgisayar adı olmalıdır (örneğin, **https://xxx.dynamics.com**).
-6.  ' I **Tamam**ı **Evet** Değişikliği onaylamak için. Excel-yeniden ve meta veriler yükler. **Tasarım** düğmesini yayımlamıştır. Excel eklenti varsa, bir **uygulamalarını yükleme** düğmesi, doğru kullanıcı olarak büyük olasılıkla oturum değil. Daha fazla bilgi için "uygulamaları Yükle düğmesini gösterilen" Bu konuda "Sorun giderme" bölümüne bakın.
-7.  ' I **tasarım**. Excel eklentisi varlık meta verileri alır.
-8.  ' I **Tablo Ekle**. Varlıkların bir listesi görüntülenir. Varlıkları "– etiket adı" biçiminde listelenir.
-9.  Bir varlık seçin listesinde, aşağıdaki gibi **müşteri - müşteriler**ı **İleri**.
-10. Bir alan eklemek için **kullanılabilir alanlar** listelemek için **seçili alanlar** listesinde, alanı tıklatın ve ardından **Ekle**. Alternatif olarak, alanı çift tıklatın.
-11. İstenen alanları ekledikten sonra **seçili alanlar** listesinde, imleç (örneğin, A1 hücresi) çalışma doğru yerde olduğundan emin olun ve sonra'ı **yapılan**. ' I **yapılan** Tasarımcısı'ndan çıkmak için.
-12. ' I **yenileme** bir veri kümesi çıkarmak için.
+## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>Excel'den başlattığınızda varlık verilerini Excel'de açma
+1.  Excel'de, **Ekle** sekmesinde, **Eklentiler** grubunda **Mağaza**'yı tıklayarak Office Mağazası'nı açın.
+2.  Office Mağazası'nda "Dynamics" anahtar sözcüğünü arayıp **Microsoft Dynamics Office Eklentisi** (Excel eklentisi) yanındaki **Ekle**'ye tıklayın.
+3.  Excel eklentisini ilk kez çalıştırıyorsanız **Bu eklentiyle güven**'e tıklayarak Excel eklentisini etkinleştirin. Excel eklentisi Excel penceresinin sağ tarafındaki bir bölmede çalışır.
+4.  **Sunucu bilgilerini ekle**'ye tıklayarak **Seçenekler** bölmesini açın.
+5.  Hedef Dynamics 365 for Operations örneğinizden tarayıcı URL'sini kopyalayıp **Sunucu URL'si** alanına yapıştırın ve ana bilgisayar adından sonraki her şeyi (örneğin **/? cmp usmf & mi = CustTableListPage =** kısmını) silin. Elde edilen URL'de yalnızca ana bilgisayar adı olmalıdır (örneğin **https://xxx.dynamics.com**).
+6.  **Tamam**'a ve ardından **Evet**'e tıklayarak değişikliği onaylayın. Excel eklentisi yeniden başlar ve meta verileri yükler. **Tasarım** düğmesi kullanılabilir hale gelir. Excel eklentisinde bir **Uygulamaları yükle** düğmesi varsa, büyük olasılıkla doğru kullanıcı olarak oturum açmamışsınızdır. Daha fazla bilgi için bu konunun "Sorun giderme" bölümündeki "Uygulamaları yükle düğmesi görünüyor" konusuna bakın.
+7.  **Tasarım**'ı tıklayın. Excel eklentisi varlık meta verilerini alır.
+8.  **Tablo ekle**'ye tıklayın. Varlıkların listesi görüntülenir. Varlıklar "Ad - Etiket" biçiminde listelenir.
+9.  Listeden **Müşteri - Müşteriler** gibi bir varlık seçin ve **İleri**'ye tıklayın.
+10. **Kullanılabilir alanlar** listesinden **Seçili alanlar** listesine bir alan eklemek için o alana ve ardından **Ekle**'ye tıklayın. Alternatif olarak, alana çift tıklayın.
+11. İstediğiniz alanları **Seçili alanlar** listesine ekledikten sonra, çalışma sayfasında imlecin doğru yerde bulunduğundan emin olun (örneğin A1 hücresi) ve **Bitti**'ye tıklayın. Ardından **Bitti**'ye tıklayarak tasarımcıdan çıkın.
+12. Veri kümesi almak için **Yenile**'ye tıklayın.
 
-## <a name="view-and-update-entity-data-in-excel"></a>Görüntüleme ve varlık verileri Excel'de güncelleştirme
-Excel eklentisi varlık verileri çalışma kitabına okuduktan sonra verileri herhangi bir anda tıklatarak güncelleştirebilirsiniz **yenileme** Excel eklentisinde.
+## <a name="view-and-update-entity-data-in-excel"></a>Varlık verilerini Excel'de görüntüleme ve güncelleştirme
+Excel eklentisi varlık verilerini okuyup çalışma kitabına aktardıktan sonra verileri Excel'deki **Yenile**'ye tıklayarak istediğiniz zaman güncelleştirebilirsiniz.
 
-## <a name="edit-entity-data-in-excel"></a>Varlık verileri Excel'de Düzenle
-Varlık veri gerektirir ve Geri'yi tıklatarak yayımlamak gibi değiştirebilirsiniz **Yayımla** Excel eklentisinde. Bir kaydı düzenlemek için çalışma sayfasında bir hücre seçin ve ardından hücre değeri değiştirin. Yeni bir kayıt eklemek için aşağıdaki adımlardan birini izleyin:
+## <a name="edit-entity-data-in-excel"></a>Varlık verilerini Excel'de düzenleme
+Varlık verilerini gerektiği gibi değiştirebilir ve Excel eklentisindeki **Yayımla**'ya tıklayarak yeniden yayımlayabilirsiniz. Bir kaydı düzenlemek için çalışma sayfasında bir hücre seçin ve hücre değerini değiştirin. Yeni bir kayıt eklemek için aşağıdaki adımlardan birini izleyin:
 
--   Çalışma sayfasında herhangi bir yeri tıklatın ve ardından **yeni** Excel eklentisinde.
--   Çalışma sayfasının son satırını tıklatın ve sonra yeni bir satır oluşturulur ve imleç satır son sütununun dışında gider kadar SEKME tuşuna basın.
--   Çalışma hemen altındaki satırı tıklatın ve bir hücreye veri girmek başlatın. Bu hücreden odağı taşıdığınızda, yeni satır eklemek için çalışma genişletir.
+-   Çalışma sayfasında herhangi bir yere tıklayın ve ardından Excel eklentisinde **Yeni**'ye tıklayın.
+-   Çalışma sayfasının son satırına tıklayın ve sonra imleç satırın son sütununa gidip yeni bir satır oluşana kadar Tab tuşuna basın.
+-   Çalışma sayfasının hemen altındaki satıra tıklayın ve bir hücreye veri girmeye başlayın. İmleci o hücreden çıkardığınızda çalışma sayfası genişleyerek yeni satırı kapsar.
 
 Bir kaydı silmek için aşağıdaki adımlardan birini izleyin:
 
--   Sil öğesini tıklatıp ardından çalışma sayfasında satırın yanındaki satır numarasını sağ tıklatın **Sil**.
--   Silmek için çalışma sayfası satırını sağ tıklatın ve ardından **Sil**&gt;**tablo satırları**.
+-   Silinecek çalışma sayfası satırının yanındaki satır numarasına sağ tıklayın ve **Sil**'e tıklayın.
+-   Silinecek çalışma sayfası satırına sağ tıklayın ve **Sil** &gt; **Tablo Satırları**'na tıklayın.
 
 ## <a name="add-or-remove-columns"></a>Sütun ekle veya kaldır
-Tasarımcı, otomatik olarak çalışma sayfasına eklenen sütunlar ayarlamak için kullanabilirsiniz.
+Çalışma sayfasına otomatik olarak eklenen sütunları ayarlamak için tasarımcıyı kullanabilirsiniz.
 
-1.  Tıklatarak veri kaynağı Tasarımcısı Excel eklentisini başlatın **seçenekleri** (çark simgesi) düğmesini ve sonra seçerek **tasarım etkinleştir** onay kutusu.
-2.  ' I **tasarım** Excel eklentisinde. Tüm veri kaynakları listelenir.
-3.  Veri kaynağını yanındaki tıklatın **düzenleme** düğmesini (Kurşun Kalem simgesi).
-4.  Listede Ayarla **seçili alanlar** gereksinim duyduğunuz kadar liste:
-    -   Bir alan eklemek için **kullanılabilir alanlar** listelemek için **seçili alanlar** listesinde, alanı tıklatın ve ardından **Ekle**. Alternatif olarak, alanı çift tıklatın.
-    -   Bir alan kaldırmak için **seçili alanlar** listesinde, alanı tıklatın ve ardından **kaldırmak**. Alternatif olarak, alanı çift tıklatın.
-    -   Alanların sırasını değiştirmek için alanı tıklatın **seçili alanlar** listesini ve ardından **yukarı** veya **aşağı**.
+1.  **Seçenekler** düğmesine (dişli simgesi) tıklayıp **Tasarımı etkinleştir** onay kutusunu işaretleyerek Excel eklentisinin veri kaynağı tasarımcısını başlatın.
+2.  Excel eklentisinde **Tasarım**'a tıklayın. Tüm veri kaynakları listelenir.
+3.  Veri kaynağının yanındaki **Düzenle** düğmesine (kurşun kalem simgesi) tıklayın.
+4.  **Seçili alanlar** listesinde listeyi gerektiği gibi ayarlayın:
+    -   **Kullanılabilir alanlar** listesinden **Seçili alanlar** listesine bir alan eklemek için o alana ve ardından **Ekle**'ye tıklayın. Alternatif olarak, alana çift tıklayın.
+    -   **Seçili alanlar** listesinden bir alan kaldırmak için alana ve ardından **Kaldır**'a tıklayın. Alternatif olarak, alana çift tıklayın.
+    -   Alanların sırasını değiştirmek için, **Seçili alanlar** listesindeki alana ve ardından **Yukarı**'ya veya **Aşağı**'ya tıklayın.
 
-5.  Tıklatarak veri kaynağına değişiklikleri uygulamak **Update**. ' I **yapılan** Tasarımcısı'ndan çıkmak için. Bir alan (sütun) eklediyseniz,'ı **yenileme** güncelleştirilmiş bir veri kümesinde çıkarmak için.
+5.  Veri kaynağındaki değişikliklerinizi **Güncelleştir**'e tıklayarak uygulayın. Ardından **Bitti**'ye tıklayarak tasarımcıdan çıkın. Bir alan (sütun) eklediyseniz güncelleştirilmiş bir veri kümesini almak için **Yenile**'ye tıklayın.
 
-## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Troubleshooting
-Bazı kolay adımlar ile çözülebilir birkaç sorun vardır.
+## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Sorun Giderme
+Bazı kolay adımlarla çözülebilecek birkaç sorun var.
 
--   **Uygulamaları Yükle düğmesini gösterilir.** Excel eklenti varsa, bir **uygulamalarını yükleme** düğmesini oturumaçma sonra size büyük olasılıkla doğru kullanıcı olarak oturum. Bu sorunu çözmek için doğru kullanıcı adını sağ üst köşesinde Excel eklentisi göründüğünü doğrulayın. Yanlış kullanıcı adı görünürse, tıklatın, Oturumu Kapat ve sonra oturum açın.
--   **"Yasak" iletisi alırsınız.** Excel eklentisi meta veriler yükleniyor "Yasak" iletisi alırsanız, Excel eklentisi için oturum hesabı hedeflenen hizmet, kopya veya veritabanı kullanma izni yoktur. Bu sorunu çözmek için doğru kullanıcı adını sağ üst köşesinde Excel eklentisi göründüğünü doğrulayın. Yanlış kullanıcı adı görünürse, tıklatın, Oturumu Kapat ve sonra oturum açın.
--   **Boş bir Web sayfası Excel gösterilir.** Oturum açma işlemi sırasında boş bir Web sayfası açarsa, AD FS hesap gerektirir, ancak eklenti çalışmakta olan Excel sürümünü oturum aç iletişim kutusunu yüklemek için yeni değildir. Bu sorunu gidermek için kullandığınız Excel sürümüne güncelleştirin. Ertelenmiş bir kanalda bir kuruluştaki olduğunuzda Excel sürümünü güncelleştirmek için kullanın [Office dağıtım aracı](https://technet.microsoft.com/library/jj219422.aspx) için [ertelenmiş kanalından taşımak için geçerli kanal](https://technet.microsoft.com/library/mt455210.aspx).
+-   **Uygulamaları yükle düğmesi görünüyor.** Oturum açıldıktan sonra Excel eklentisinde bir **Uygulamaları yükle** düğmesi varsa, büyük olasılıkla doğru kullanıcı olarak oturum açmamışsınızdır. Bu sorunu çözmek için, Excel eklentisinin sağ üst köşesinde doğru kullanıcı adının göründüğünü doğrulayın. Yanlış kullanıcı adı görünüyorsa, ada tıklayın, oturumu kapatın ve yeniden oturum açın.
+-   **"Yasak" iletisi alıyorsunuz.** Excel eklentisi meta verileri yüklerken "Yasak" iletisi alırsanız, Excel eklentisinde oturum açan hesabın, hedeflenen hizmeti, örneği veya veritabanını kullanma izni yoktur. Bu sorunu çözmek için, Excel eklentisinin sağ üst köşesinde doğru kullanıcı adının göründüğünü doğrulayın. Yanlış kullanıcı adı görünüyorsa, ada tıklayın, oturumu kapatın ve yeniden oturum açın.
+-   **Excel'de boş bir web sayfası görünüyor.** Oturum açma işlemi sırasında boş bir web sayfası açılıyorsa, hesap için AD FS gerekiyordur ancak eklentiyi çalıştıran Excel'in sürümü, oturum aç iletişim kutusunu yükleyecek kadar yeni değildir. Bu sorunu çözmek için, kullandığınız Excel sürümünü güncelleştirin. Gecikmeli bir kanalda bulunan bir kuruluştayken Excel sürümünü güncelleştirmek için [Office dağıtım aracını](https://technet.microsoft.com/library/jj219422.aspx) kullanarak [gecikmeli kanaldan geçerli kanala geçin](https://technet.microsoft.com/library/mt455210.aspx).
 
 
 

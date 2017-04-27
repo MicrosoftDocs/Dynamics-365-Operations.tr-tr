@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="benefit-eligibility-policies"></a>Kazanca uygunluk ilkeleri
 
-Bu konuda uygunluk ilkeleri, belirli yararları için uygun olan, tanımlamanız hangi Yardım kazancı hakkında bilgiler sağlar.
+[!include[banner](includes/banner.md)]
+
+
+Bu konu, kazanç uygunluk ilkeleri hakkında, belirli kazançlara uygun olan kişileri tanımlamanıza yardımcı olacak bilgiler verilmektedir.
 
 Kazançlar oluşturduğunuzda hangi kazançların hangi çalışanlar için geçerli olacağına karar verirsiniz. Aşağıdaki tabloda belirli çalışanlar için geçerli hale getirilebilecek kazançlara örnekler verilmiştir.
 
@@ -38,7 +41,7 @@ Kazançlar oluşturduğunuzda hangi kazançların hangi çalışanlar için geç
 | Cep telefonu     | Satış personeli, idareciler         |
 | Park geçişleri   | İdareciler                      |
 
-Aşağıdaki bileşenlerin uygunluk ilkeleri oluşturmak için kullanılır:
+Aşağıdaki bileşenler, uygunluk politikalarının oluşturulması için kullanılır:
 
 -   Politika kuralı türleri
 -   Kazanca uygunluk ilkeleri
@@ -51,5 +54,7 @@ Kuralın kapsamını politikada tanımlarsınız. Örneğin, **Yönetici** adın
 --------
 
 [Bir kazanç programı tanımlama ve yönetme](manage-benefit-program.md)
+
+
 
 

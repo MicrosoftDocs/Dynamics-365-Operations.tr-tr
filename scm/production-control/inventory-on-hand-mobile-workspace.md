@@ -1,6 +1,6 @@
 ---
-title: "Stok eldeki mobil çalışma alanı için Microsoft Dynamics 365 işlemleri uygulama için"
-description: "Eldeki stok mobil çalışma herhangi bir zamanda ve herhangi bir mobil kavramanız ayrılmış ve kullanılabilen stok kazanmak yardımcı olur."
+title: "Microsoft Dynamics 365 for Operations uygulaması için eldeki stok mobil çalışma alanı"
+description: "Eldeki stok mobil çalışma alanı, ayrılmış ve kullanılabilir stok hakkında mobil bilgileri her yerde ve her zaman edinebilmenizi sağlar."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,72 +25,72 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="inventory-on-hand-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Stok eldeki mobil çalışma alanı için Microsoft Dynamics 365 işlemleri uygulama için
+# <a name="inventory-on-hand-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Microsoft Dynamics 365 for Operations uygulaması için eldeki stok mobil çalışma alanı
 
-Eldeki stok mobil çalışma herhangi bir zamanda ve herhangi bir mobil kavramanız ayrılmış ve kullanılabilen stok kazanmak yardımcı olur. 
+Eldeki stok mobil çalışma alanı, ayrılmış ve kullanılabilir stok hakkında mobil bilgileri her yerde ve her zaman edinebilmenizi sağlar. 
 
 <a name="prerequisites"></a>Önkoşullar
 -------------
 
 | Önkoşul                                                         | Açıklama                                                                                                                                        |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mobil platform için işlemleri hakkında Microsoft Dynamics 365 okuyun | [Dynamics 365 işlemleri mobil platformu](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                   |
-| Dynamics 365 işlemleri için                                          | Bir Microsoft Dynamics 365 işlemleri için 1611 sürümde ortamı ve işlemleri platform Microsoft Dynamics 3 (Kasım 2016) güncelleştirmesi |
-| Düzeltme KB 3215650                                                    | İşlemleri için Microsoft Dynamics 365 sağlanan çalışma alanlarını etkinleştirmek için düzeltmeyi yükleyin.                                       |
+| Microsoft Dynamics 365 for Operations mobil platformu hakkında bilgi alın | [Dynamics 365 for Operations mobil platformu](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                   |
+| Dynamics 365 for Operations                                          | Microsoft Dynamics 365 for Operations sürüm 1611 ve Microsoft Dynamics for Operations platform güncelleştirmesi 3 (Kasım 2016) güncelleştirmelerine sahip bir ortam |
+| Düzeltme KB 3215650                                                    | Microsoft Dynamics 365 for Operations'unuz içerisinde sağlanan çalışma alanlarını etkinleştirmek için düzeltmeyi yükleyin.                                       |
 | Yüklü uygulama işlemleri için Dynamics 365 sahip mobil aygıt | Dynamics 365 işlemleri uygulama için mobil app deponuzdan indirin.                                                                           |
 
 ## <a name="introduction"></a>Giriş
-Genellikle, şirketlerin birden fazla sevk irsaliyelerini ve birden çok giriş stok her gün vardır. Bu hareketleri sürekli olarak eldeki stok durumunu değiştirin. Böylece son stok verilerini seçeceğiniz mobil aygıttaki kavramanız kazanabilirler stok eldeki mobil çalışma şirketler arası eldeki stok durumunu görmenizi sağlar. Olup, ambar, satın alma, satış, üretim veya yönetim iş veya diğer rollere sahip ne olursa olsun, her zaman ve her yerde eldeki stok verilerini erişebilirsiniz. Mobil çalışma olanakları arasında eldeki durumu anlık bir görünümünü sağlar ve eldeki stok tesisleri, geçerli malzeme rezervasyonlarını ve eldeki stoku rezerve edilmemiş görmenizi sağlar. Sorgu için eldeki stoku madde numaralarını girin ve eldeki ürünler veya türevleri için filtre uygulanmış bir arama yapın. Özellikle, mobil çalışma alanı aşağıdaki özellikleri içerir:
+Genellikle, şirketler her gün birden fazla sevkiyata ve birden fazla stok girişine sahiptirler. Bu hareketler eldeki stok durumunu sürekli olarak değiştirir. Eldeki stok mobil çalışma alanı, şirketler arası eldeki stok durumunu görmenizi sağlar, böylece stok verisi hakkında en son bilgileri istediğiniz mobil cihazdan edinebilirsiniz. İster ambarda, satın almada, satışta, üretimde veya yönetimde çalışıyor isterseniz de başka bir role sahip olun, eldeki stok verisine her zaman ve her yerde erişebilirsiniz. Mobil çalışma alanı, tesisler arasındaki eldeki stok hakkında anında görünüm sağlar ve eldeki stoku, mevcut malzeme ayırmalarını ve rezerve edilmemiş eldeki stoku tesisler arasında görmenizi sağlar. Eldeki stoku sorgulamak için madde numaralarını da girebilir, eldeki ürünler ve çeşitleri için filtreli arama da gerçekleştirebilirsiniz. Özellikle, mobil çalışma alanı bu özellikleri sağlar:
 
--   Eldeki stok durumunu görüntülemek için ürün numarasını veya ürün adı ürünleri bulmak için arama yapabilirsiniz.
+-   Ürün numarasına veya ürün adına göre arama yapabilir ve eldeki stok durumlarını görmek için ürünleri bulabilirsiniz.
 -   Seçili ürünler için aşağıdaki bilgileri görüntüleyebilirsiniz:
-    -   Site başına eldeki stok
-    -   Ambar başına eldeki stoku
+    -   Siteye göre eldeki stok
+    -   Ambara başına eldeki stok
     -   Konum başına eldeki stok
-    -   Eldeki stok (ürünler toplu kontrol) için toplu iş başına
-    -   Eldeki stoku stok durumu başına
+    -   Toplu iş başına eldeki stok (toplu iş denetimli ürünler için=
+    -   Stok durumuna göre eldeki stok
 
 <!-- -->
 
--   Eldeki stok ürün aşağıdaki şekilde gösterilmiştir:
-    -   Göre Fiziki stok (Bu görünümü toplam tutarı gösterir.)
-    -   (Bu görünümde rezerve edilmiş miktarını temsil eder.) fiziksel ayrılmış
-    -   Kullanılabilir fiziksel (rezervasyon yok olan bu görünümü temsil kullanılabilir tutar.)
+-   Ürün eldeki stok aşağıdaki şekillerde gösterilir:
+    -   Fiziksel stoka göre (Bu görünüm, toplam tutarı temsil eder.)
+    -   Fiziksel ayrılana göre (Bu görünüm ayrılan tutarı temsil eder.)
+    -   Kullanılabilir fiziksele göre (Bu görünüm, rezervasyonu olmayan tutarı temsil eder.)
 
 ## <a name="get-started"></a>Başlayın
-Mobil aygıtınızda kullanmaya başlamak için:
+Mobil cihazınızda kullanmaya başlamak için:
 
-1.  Mobil app mağazadan, karşıdan yükleyip Microsoft Dynamics 365 işlemleri uygulama için.
-2.  Aygıtınızda uygulamayı başlatın.
+1.  Mobil uygulama mağazanızdan, Microsoft Dynamics 365 for Operations uygulamasını indirin ve kurun.
+2.  Cihazınızda uygulamayı başlatın.
 3.  Dynamics 365 URL'nizi girin.
-4.  Oturum açmak için şirket girin. Örneğin: **USMF**.
-5.  İlk kez, oturum, Microsoft Dynamics 365 işlem hesabı için kullanıcı adı ve parola için uyarılırsınız. Kimlik bilgilerinizi girin. Oturum açtıktan sonra şirketiniz için kullanılabilir çalışma alanlarını görürsünüz.
+4.  Oturum açılacak şirketi girin. Örneğin **USMF** yazın.
+5.  İlk defa oturum açtığınızda, Microsoft Dynamics 365 for Operations hesabınızın kullanıcı adı ve parolasını girmeniz için uyarılırsınız. Kimlik bilgilerinizi girin. Oturum açtıktan sonra şirketiniz için kullanılabilir çalışma alanlarını görürsünüz.
 
-Çalışma alanları, mobil app üzerinde görüntülemek için önce istediğiniz çalışma işlemleri uygulama için Dynamics 365 yayımlamanız gerekir.
+Çalışma alanları, mobil app üzerinde görüntülemek için önce istediğiniz çalışma işlemlerini Dynamics 365 for Operations uygulaması için yayımlamanız gerekir.
 
-1.  Dynamics 365 işlemleri için başlatın.
-2.  Git **Sistem Yönetimi**&gt;**Kurulum**&gt;**sistem parametreleri**.
-3.  Seçin **Yönet mobil uygulama**.
-4.  Mobil platform için yayımlamak için çalışma alanını seçin.
-5.  Seçin **çalışma yayımlamak**.
-6.  Yayımlanmış çalışma öğrenmek için aygıtınızın yenileyin.
+1.  Dynamics 365 for Operations'ı başlatın.
+2.  **Sistem yönetimi** &gt; **Kurulum** &gt; **sistem parametreleri**ne gidin.
+3.  **Mobil uygulamayı yönet** seçeneğini işaretleyin.
+4.  Mobil platforma yayımlamak için çalışma alanını seçin.
+5.  **Çalışma alanını yayımla** seçeneğini işaretleyin.
+6.  Yayımlanmış çalışma alanlarını görmek için cihazınızı yenileyin.
 
-## <a name="view-the-onhand-inventory-for-a-product"></a>Bir ürün için eldeki stoku görüntüleyin.
-1.  Mobil aygıtınızda seçin **, eldeki stok** çalışma alanı.
-2.  Seçin **kontrol eldeki bir madde için**. Uygulamanızı çevrimdışı kullanım için yüklenen ürünlerin listesini görürsünüz. Varsayılan olarak, 50 öğeler yüklenir, ancak bu numarayı değiştirebilirsiniz. Daha fazla bilgi için bkz: önceden okuma el kitabı.
-3.  Seçin, öğe listede değilse, **daha fazla arama** işlemleri için Dynamics 365 içinde bir çevrimiçi arama yapmak için. Ürün numarasına göre arama veya ürün adına göre aramak için geçin.
-4.  Bir ürün seçin. Öğenin bir resim varsa, resim gösterilir.
-5.  Eldeki stok durumunu görüntülemek için aşağıdaki seçeneklerden birini seçin:
-    -   Eldeki her sitede görüntüle
-    -   Eldeki ambara göre görüntüle
-    -   Eldeki konum başına Görünüm
-    -   Eldeki miktarı (ürünler toplu kontrol) için toplu iş başına görüntüleme
-    -   Eldeki stok durumu başına görüntüleme
+## <a name="view-the-onhand-inventory-for-a-product"></a>Bir ürün için eldeki stoku görüntüleyin
+1.  Mobil cihazınızda **Eldeki stok** çalışma alanını seçin.
+2.  **Bir maddenin eldeki durumunu kontrol et** seçeneğini işaretleyin. Çevrimdışı kullanım için uygulamanıza yüklenmiş ürünlerin bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bu sayıyı değiştirebilirsiniz. Daha fazla bilgi için ön okuma el kitabına bakın.
+3.  Maddeniz listede değilse, Dynamics 365 for Operations içerisinde bir çevrimiçi arama yapmak için **Daha fazla ara**'yı seçin. Ürün numarası ile arayın veya ürün adına göre aramaya geçin.
+4.  Bir ürün seçin. Maddenin bir resmi varsa, resim gösterilir.
+5.  Eldeki stok bilgisini görmek için aşağıdaki seçeneklerden birini seçin:
+    -   Siteye göre eldekini görüntüle
+    -   Ambara göre eldekini görüntüle
+    -   Konuma göre eldekini görüntüle
+    -   Toplu iş başına eldekini görüntüle (toplu iş denetimli ürünler için=
+    -   Stok durumuna göre eldekini görüntüle
 
-    Eldeki stok ürün aşağıdaki şekilde gösterilmiştir:
-    -   Göre Fiziki stok (Bu görünümü toplam tutarı gösterir.)
-    -   (Bu görünümde rezerve edilmiş miktarını temsil eder.) fiziksel ayrılmış
-    -   Kullanılabilir fiziksel (Bu görünümü hiçbir ayırmalar içeren kullanılabilir tutar gösterir.)
+    Ürün eldeki stok aşağıdaki şekillerde gösterilir:
+    -   Fiziksel stoka göre (Bu görünüm, toplam tutarı temsil eder.)
+    -   Fiziksel ayrılana göre (Bu görünüm ayrılan tutarı temsil eder.)
+    -   Kullanılabilir fiziksele göre (Bu görünüm, rezervasyonu olmayan kullanılabilir tutarı temsil eder.)
 
 
 

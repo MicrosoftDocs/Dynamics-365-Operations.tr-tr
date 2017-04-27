@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-credit"></a>Kredi mektupları
 
+[!include[banner](../includes/banner.md)]
+
+
 Kredi mektupları, malların uluslararası alım ve satımı için yaygın olarak kullanılan banka belgelerdir. 
 
 Kredi ödemelerini garantiye almak için, uluslararası hareketlerde kredi mektupları kullanılır. Bir kredi mektubu, bir banka tarafından verilen ve bu bankanın, alıcı ve satıcı arasındaki sözleşmenin koşullarını yerine getirilirse, alıcı adına ödeme yapmayı kabul ettiği bir anlaşmadır. Kredi mektubunun da bir belgeli kredi (DC) olarak adlandırıldığına dikkat edin. 
 
-Bir ithalat kredi mektubu için, tüzel kişilik, alıcı veya kredi mektubuna başvuran taraftır. Bir ihracat kredi mektubu için, tüzel kişilik, satıcı veya kredi mektubunun lehdarıdır. Bir harf kredi ile ilgili aşağıdaki tarafları: 
+Bir ithalat kredi mektubu için, tüzel kişilik, alıcı veya kredi mektubuna başvuran taraftır. Bir ihracat kredi mektubu için, tüzel kişilik, satıcı veya kredi mektubunun lehdarıdır. Aşağıdaki partiler kredi mektubuyla ilişkilidirler: 
 
  - Malların parasını ödemeyi kabul eden, başvuru sahibi (alıcı) 
  - Ödemeyi alacak lehtar (satıcı)
@@ -41,5 +44,7 @@ Bir ithalat kredi mektubu için, tüzel kişilik, alıcı veya kredi mektubuna b
 Kredi mektubu malların açıklamasını, gerekli belgeleri, sevkiyat tarihini ve sonrasında ödemenin yapılamayacağı geçerlilik bitiş tarihini içerir. Amir banka, kredi mektubu karşılığında bir marj tahsil eder. 
 
 Kredi mektubu kabili rücu veya gayri kabili rücu olabilir. Kredi mektubunun yapısı, devredilebilir, devredilemez veya döner olabilir. Genellikle, bir kredi mektubu gayri kabili rücudur ve sevkiyat belgelerinin eksiksiz ve doğru teslimi üzerine belirli bir lehdara ödeme yapılacağı anlaşmasını teyit eder.
+
+
 
 

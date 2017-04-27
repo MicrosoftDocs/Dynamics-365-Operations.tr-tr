@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Faiz ve ücretlerden feragat etme, bunları eski durumuna getirme veya tersine çevirme
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makale, faiz ve masraflar için giderlerden nasıl feragat edileceğini, giderlerin nasıl eski durumuna getirileceğini ve tersine çevrileceğini açıklar.
 
 Giderlerde feragat etmek, tersine çevirmek veya eski durumuna getirmek için **tüm müşteriler** liste sayfası **toplama** sekmesindeki düğmeleri kullanabilirsiniz:
@@ -43,7 +46,7 @@ Bu eylemler bir vade farkı dekontunu değiştirir. Vade farkı dekontu faiz vey
 | Tüm vade farkı dekontlarını tersine çevirin. – veya – Seçilen vade farkı dekontları parçası olan vade farkı işlemleri ters çevirin. **Not:** Bir ücreti ters çeviremezsiniz. Ancak, bir ücret içeren bir tüm vade farkı dekontunu ters çevirebilirsiniz. | Giderleri artık müşterinin ödemesi gerekmez. Ancak faizi yeniden hesaplarsanız giderler yeniden vadeli hale gelir. | İşlem vade farkı dekontları veya seçili vade farkı işlemleri feragat işlemi için aynıdır. Bir borç dekontu veya ayarlama fatura müşteri için oluşturulur. Bu kredi notu, otomatik olarak vade farkı dekontu kapatmak için kullanılır. Faiz yeniden hesaplamak ve yeni bir vade farkı dekontu oluşturmak için ayrı bir işlem kullanabilirsiniz.                                                                                                                                                                                                                                                                                                                                                                                              |
 
 > [!NOTE] 
-> Ödenmeyen Borçlar yazmak için de ayrı bir işlemde kullanabilirsiniz. Bu işlem, yalnızca vade farkı dekontlarının parçası olan giderlerde feragat etmek yerine tüm müşteri hareketlerini kapatılmak üzere işaretler.
+> Ödenmeyen borçlar yazmak için ayrı bir işlem de kullanabilirsiniz. Bu işlem, yalnızca vade farkı dekontlarının parçası olan giderlerde feragat etmek yerine tüm müşteri hareketlerini kapatılmak üzere işaretler.
 
 ## <a name="adjust-interest-for-invoices"></a>Faturalar için faiz ayarla
 Vade farkı dekontları ayarlamaya ek olarak, aşağıdaki işlemlerden birini kullanarak faturalarda faiz giderlerini kaldırabilirsiniz. Her iki işlem de ilgili vade farkı dekontları düzenlemeler yapar.
@@ -89,5 +92,7 @@ Seçtiğiniz tüm faiz işlemlerini ters çevirebilirsiniz. Ters işlem ücretle
 Ayarlamayı giren kullanıcı, ayarlama türü, tutar ve ayarlamanın ne zaman girildiği gibi vade farkı dekontları için yapılan ayarlamaların ayrıntılı geçmişini görüntüleyebilirsiniz. Örneğin, yeni bir vade farkı dekontu oluşturmadan önce bir vade farkı dekontu için girilen önceki ayarlamaları görüntülemek isteyebilirsiniz. 
 
 **müşteri** sayfasındaki **toplama** sekmesinde **Geçmiş** düğmesini kullanarak faiz işlemlerini ters çevirebilirsiniz.
+
+
 
 

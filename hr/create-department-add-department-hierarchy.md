@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-department-and-associate-it-with-the-department-hierarchy"></a>Bir departman yaratın ve onu departman hiyerarşisiyle ilişkilendirin.
 
+[!include[banner](includes/banner.md)]
+
+
 Bir bölüm bir kuruluşun bir kategori veya işlevsel alanını temsil eden işletme bir birimdir. Departman satış, muhasebe veya İnsan kaynakları gibi kuruluşun belirli bir alanından sorumludur. İşlevsel alanlara bildirmek için bölümleri kullanabilirsiniz. Departmanların kâr ve zarar sorumluluğu olabilir.
 
-Bir departman maliyet merkezleri grubu da içerebilir. Departmanlar için pozisyonlar atanabilir. Bir bölüm oluşturmak için tıklatın **İnsan Kaynakları**&gt;**bölümler**&gt;**bölüm**. Aşağıdaki tablo kullanılabilir olan alanları açıklar.
+Bir departman maliyet merkezleri grubu da içerebilir. Departmanlar için pozisyonlar atanabilir. Bir bölüm oluşturmak için **İnsan Kaynakları** &gt; **Departmanlar** &gt; **Departmanlar** üzerine tıklayın. Aşağıdaki tabloda, kullanılabilecek alanlar açıklanmıştır.
 
 | Alan               | Açıklama                                                                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -46,12 +49,14 @@ Bir departman maliyet merkezleri grubu da içerebilir. Departmanlar için pozisy
 
 Bölüm hiyerarşisine bir bölüm eklemek için aşağıdaki adımları izleyin.
 
-1.  ' I **İnsan Kaynakları**&gt;**bölümler**&gt;**bölüm hiyerarşisi**.
+1.  **İnsan Kaynakları** &gt; **Departmanlar** &gt; **Departman hiyerarşisi**'ni tıklatın.
 2.  **Düzenle**'yi tıklatın ve departmanın altında olması gereken kuruluş seçin.
 3.  **Ekle**'yi seçin ve listede **Departman**'ı seçin.
 4.  Görüntülenen departman listesinde hiyerarşiye eklemek için departmanı seçin.
-5.  Değişikliklerinizi kaydedin. Hiyerarşi taslak sürümünü oluşturulan bir ileti alırsınız.
-6.  Hazır olduğunuzda,'ı **Yayımla** hiyerarşisi Tasarımcısı. Hiyerarşinin ne zaman yayınlanacağı gösteren bir geçerlilik tarihi girebilirsiniz. Örneğin, bir sonraki takvim yılı başına yeni bir departman eklemek için yürürlük tarihini yeni takvim yılının 1 Ocak'ı olarak ayarlayın. Hiyerarşi değişiklikleri o tarihte geçerlilik kazanır.
+5.  Değişikliklerinizi kaydedin. Hiyerarşi taslak sürümünü oluşturulduğuna dair bir ileti alırsınız.
+6.  Hazır olduğunuzda, hiyerarşisi tasarımcısı içerisinde **Yayımla**'yı tıklatın. Hiyerarşinin ne zaman yayımlanacağını belirtecek bir geçerlilik tarihi girebilirsiniz. Örneğin, bir sonraki takvim yılı başına yeni bir departman eklemek için yürürlük tarihini yeni takvim yılının 1 Ocak'ı olarak ayarlayın. Hiyerarşi değişiklikleri o tarihte geçerlilik kazanır.
+
+
 
 
 

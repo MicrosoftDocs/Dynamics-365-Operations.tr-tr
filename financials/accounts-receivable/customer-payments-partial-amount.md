@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="customer-payments-for-a-partial-amount"></a>Bir kısmi tutar için müşteri ödemeleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bazen müşteriler, faturanın toplam miktarından az olan bir ödeme yaparlar. Bu makale, bu durumda yapılabilecek çeşitli seçenekleri açıklamaktadır. Kullanabileceğiniz seçenekler, iş gereksinimlerinize ve yapılandırmanıza bağlıdır.
 
 <a name="partial-payment-with-no-discount"></a>İskontosuz kısmi ödeme
@@ -38,12 +41,12 @@ Müşteriler, faturayı tam olarak ödeyebilmek için ellerinde yeterli nakit pa
 Müşterilere fatura vade tarihinden önce ödeme yapmaları durumunda bir nakit iskontosu sunabilirsiniz. Örneğin, faturanın 10 gün içinde ödenmesi durumunda yüzde 2 nakit indirimi belirten, 100,00 değerinde bir fatura girebilirsiniz. Vade dönemi 30 gündür. 10 gün içinde 98.00 tutarında bir ödeme alırsanız, ödeme için 98.00 girersiniz. Daha sonra fatura kapatılmak üzere işaretlenir ve nakit iskontosu otomatik olarak alınır.
 
 ## <a name="partial-payments-with-cash-discounts"></a>Nakit iskontolarıyla kısmi ödemeler
-Müşteriler kısmi ödeme yaptığında faturayı tamamen kapatmak için ek bir kısmi ödeme yapmayı planlıyor olabilirsiniz. Kısmi ödeme için bir nakit iskontosu almak için ayarlamanız gerekir ** kısmi ödemeler için nakit iskontolarını hesaplamak ** için seçenek **Evet** üzerinde **Accounts receivable parameters** sayfa. 
+Müşteriler kısmi ödeme yaptığında faturayı tamamen kapatmak için ek bir kısmi ödeme yapmayı planlıyor olabilirsiniz. Bir kısmi ödeme için bir nakit iskontosu almak için, **Alacak hesapları parametreleri** sayfasından **Kısmi ödemeler için nakit iskontolarını hesapla** seçeneğini **Evet** konumuna ayarlamanız gerekir. 
 
 Örneğin, faturanın hazırlandıktan sonra 10 gün içinde ödenmesi durumunda yüzde 2'lik bir nakit iskontosu veriyorsunuz. 100.00 değerinde bir fatura nakledilir. 10 gün içinde 49.00 tutarında bir ödeme alırsanız, ödeme defterine 49.00 tutarında bir borç girersiniz. Kısmi ödemeyi **Kapatma işlemleri** sayfasında kapatırsanız **Alınacak nakit iskonto tutar** alanında **1.00** tutarı görüntülenir. İskonto tutarı, bir nakit iskontosu hesabına nakledilir. 
 
 > [!NOTE] 
-> Kısmi ödeme girin ve tam fatura tutarı bırakın **kapatılacak tutar** alan **yararlanmak için nakit iskontosu tutarı** alan hareketleri deftere naklettiğinizde otomatik olarak yeniden.
+> Bir kısmi ödeme girer ve **Kapatılacak tutar** alanındaki tam fatura tutarını değiştirmeden bırakırsanız, hareketleri naklettiğinizde **Alınacak nakit iskontosu tutarı** alanı otomatik olarak yeniden hesaplanır.
 
 ## <a name="credit-notes-with-discounts"></a>İskonto içeren credit note'lar
 Müşteriler bir faturadaki ürünlerden bazılarını iade ederse bir credit note hazırlayabilirsiniz. Orijinal faturada bir nakit iskontosu yapılırsa müşteriye yönelik credit memo, müşteri tarafından alınmış olan nakit iskontosunun neti olmalıdır. **Alacak hesapları parametreleri** sayfasından **Credit note'ları için nakit iskontolarını hesapla** seçeneğini **Evet** konumuna ayarlarsanız credit note için iskonto otomatik olarak hesaplanır.  
@@ -54,6 +57,8 @@ Müşteriler bir faturadaki ürünlerden bazılarını iade ederse bir credit no
 Müşteriler bir ödeme yaptığında, hala kapatılması gereken çok küçük bir miktar kalabilir. Örneğin, müşteriye 1.000,00 fatura kestiniz ve müşteri 999.90 ödedi. Kalan tutar,** Alacak hesapları parametreleri** sayfasında belirtilen fazla ödeme veya eksik ödeme tutarının altında kalıyorsa fark otomatik olarak bir fazla ödeme/eksik ödeme defter hesabına nakledilir.
 
 ## <a name="full-settlement"></a>Tam kapatma
-Müşteriler burada kalan tutarın ödenmesi gerekmez ancak üzerinde belirtilen eksik ödeme tutarı daha büyükse kısmi ödeme yapmak **Hesap Borç parametreleri** sayfa. Faturayı tamamen kapatılmış olarak işaretlemek isterseniz, kullanabileceğiniz **tam kapatma** üzerindeki option **hareket tasfiye et** sayfa. (Tam kapatma işlevini bir konfigürasyon anahtarı kullanarak etkinleştirebilirsiniz.) Örneğin, 1,000.00 tutarı için bir fatura nakledildi ve müşteri 990.00 tutarında bir ödeme yaptı. Müşterinin kalan 10,00 ödemek zorunda değildir kabul etmiş. Faturayı kapatma için işaretleyin, sonra da select işaretleyebilirsiniz **tam kapatma**. Fatura bu durumda tam olarak kapatılmış olarak değerlendirilir. 10.00 tutarındaki fark ise bir nakit iskontosu hesabına bir ilave nakit iskontosu tutarı olarak nakledilir.
+**Hesap borç parametreleri** sayfasında kalan tutar ödenmeyecek ama eksik ödeme tutarından büyük olduğunda, müşteriler kısmi ödeme yapabiliriler. Faturayı tamamen kapatılmış olarak işaretlemek istiyorsanız, **Hareketi kapat** sayfası üzerinde **Tam kapatma** seçeneğini kullanabilirsiniz. (Tam kapatma işlevini bir konfigürasyon anahtarı kullanarak etkinleştirebilirsiniz.) Örneğin, 1,000.00 tutarı için bir fatura nakledildi ve müşteri 990.00 tutarında bir ödeme yaptı. Müşterinin kalan 10,00'u ödemek zorunda olmadığını kabul ettiniz.. Faturayı kapatmak üzere işaretledikten sonra, **Tam kapatma**'yı da seçebilirsiniz. Fatura bu durumda tam olarak kapatılmış olarak değerlendirilir. 10.00 tutarındaki fark ise bir nakit iskontosu hesabına bir ilave nakit iskontosu tutarı olarak nakledilir.
+
+
 
 

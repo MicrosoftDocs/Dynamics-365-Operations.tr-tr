@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="delays"></a>Gecikmeler
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makale, ana planlamadaki gecikmeli tarihler hakkında bilgi sağlar. Gecikmeli bir tarih, bir hareketin talep edilen tarihi, ana planlama tarafından hesaplanan en erken tamamlanma tarihinden sonraysa alacağı gerçekçi bir tarihtir.
 
 Master planlama, bir işlem için en erken gerçekleşme tarihini teslim sürelerine, malzeme durumuna, kapasite durumuna ve çeşitli planlama parametrelerine göre hesaplayabilir. 
@@ -41,11 +44,13 @@ Tanımlı bir grup için gecikmelerin nasıl hesaplanacağını yapılandırıla
 
 **Master planlama parametreleri** sayfasından gecikme hesaplaması için başlangıç saatini ayarlayabilirsiniz. Bir sipariş bu saatten sonra tamamlanırsa, siparişin gecikme tarihine bir gün eklenir. 
 
-**Not:** önceki sürümlerde, hesaplanan gecikme olarak bilinen *vadeli işlem iletileri*, geciken tarih olarak biliniyordu *vadeli mesaj tarihi*, ve Gecikmiş bir hareket olarak ifade *gelecekteki set bir işlem*.
+**Not:** Önceki sürümlerde hesaplanan gecikmeler, *gelecek mesajları*, gecikme tarihi *gelecek tarihi* ve geciken işlem *ileriye ayarlanmış bir işlem* olarak geçiyordu.
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
 [Kapsam ayarları](coverage-settings.md)
+
+
 
 

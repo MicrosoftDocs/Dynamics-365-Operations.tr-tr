@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reimburse-customers"></a>Müşterilere tediye
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede bir müşteri grubu için iade hareketlerinin nasıl oluşturulacağı açıklanmaktadır. Bir müşterinin alacak bakiyesi varsa, müşteriye bakiye tutarı için iade yapabilirsiniz. 
 
 Başlamadan önce yerine getirilmesi gereken önkoşullar aşağıdaki tabloda gösterilmiştir.
@@ -47,6 +50,8 @@ Para iadesi hareketleri oluşturduğunuzda borç bakiyesi miktarı için bir sat
     Borç tutarları, müşterilerin satıcı hesaplarına transfer edilir ve normal ödemeler olarak işlenir. Müşteri bir satıcı hesabına sahip değilse müşteri için otomatik olarak tek seferlik bir satıcı hesabı oluşturur.
 3.  Oluşturulan para iadesi hareketlerini görmek için, **Para iadesi** sayfasını kullanın.
 4.  Borç hesaplarında para iadesi işlemi tarafından oluşturulan satıcı faturaları için bir ödeme oluşturun.
+
+
 
 
 

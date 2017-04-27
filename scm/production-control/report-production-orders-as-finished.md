@@ -1,6 +1,6 @@
 ---
-title: "Rapor üretim emirlerini tamamlandı olarak"
-description: "Tamamlandı bildirimi üretim aşamadır. Bu aşamada, bitmiş ürünün bildirdi ve stoğa üretim emrinden taşındı."
+title: "Üretim emirlerini tamamlandı olarak raporlama"
+description: "Tamamlamdı olarak raporlama bir üretim aşamasıdır. Bu aşamada, bitmiş ürünün rapor edilir ve üretim emrinden stoğa taşınır."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="report-production-orders-as-finished"></a>Rapor üretim emirlerini tamamlandı olarak
+# <a name="report-production-orders-as-finished"></a>Üretim emirlerini tamamlandı olarak raporlama
 
-Tamamlandı bildirimi üretim aşamadır. Bu aşamada, bitmiş ürünün bildirdi ve stoğa üretim emrinden taşındı.
+[!include[banner](../includes/banner.md)]
+
+
+Tamamlamdı olarak raporlama bir üretim aşamasıdır. Bu aşamada, bitmiş ürünün rapor edilir ve üretim emrinden stoğa taşınır.
 
 Bir üretim siparişindeki bir miktar nihai ürün, tamamlandı olarak raporlandığında, stokta eldeki miktar olarak güncelleştirilir. Başlangıçta planlanan sipariş miktarının kısmi miktarları tamamlandı olarak rapor edilebilir. Miktarlar tamamlandı olarak rapor edilirken hatalı miktarların ilgili bir hata nedeniyle birlikte rapor edilmesi de mümkündür. Üretim siparişi, tamamlandı olarak Rapor edildi aşamasına ulaştığında üretim siparişinde rapor edilecek daha fazla miktar kalmamıştır.
 Aşağıdaki özellikler aynı zamanda **Tamamlandı olarak rapor et** süreciyle de ilgilidir:
@@ -44,5 +47,7 @@ Miktar, çıkış konumuna rapor edilir. Depo çalışması daha sonra miktarın
 
 ## <a name="set-a-production-order-to-reporting-as-finished"></a>Bir üretim emrini tamamlandı olarak Rapor ediliyor konumuna ayarlayın.
 Bir üretim emrini **Tamamlandı olarak rapor et** konumuna ayarlamak için standart üretim emri güncelleme işlevini veya rota ve iş kartı günlüklerini veya **Tamamlandı olarak rapor et** günlüğünü kullanabilirsiniz. Üretim emrinin son işiyle ilgili rapor verdiğinizde **Tamamlandı olarak rapor et** aşamasını ayrıca iş kartı terminaliyle ve iş kartı cihaz sayfalarıyla güncelleyebilirsiniz. Son olarak, eldeki depo cihazı çözümü için bir süreç olarak **Tamamlandı olarak rapor et** seçeneğini etkinleştirebilirsiniz.  
+
+
 
 

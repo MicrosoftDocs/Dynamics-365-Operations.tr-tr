@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="centralized-payments-for-accounts-payable"></a>Borç hesapları için merkezi ödemeler
 
+[!include[banner](../includes/banner.md)]
+
+
 Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten tek bir tüzel kişilik kullanarak ödemeleri oluşturabilir ve yönetebilirler. Bu nedenle, birden çok tüzel kişilikte aynı ödemelerin girilmesi gerekmez. Bu makalede, çeşitli senaryolarda deftere nakletmenin merkezi ödemeler için nasıl işlendiğini gösteren örnekler yer almaktadır.
 
 Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten bir tüzel kişilik kullanarak ödemeleri oluşturabilir ve yönetebilirler. Bu nedenle, birden çok tüzel kişilikte aynı ödemelerin girilmesi gerekmez. Ayrıca, ödeme işleminiz kesintisiz hale getirildiğinden organizasyon zamandan tasarruf sağlar.
@@ -66,14 +69,14 @@ Fabrikam East, satıcı hesabı 100, Fourth Coffee için açık bir faturaya sah
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam ödemesi Fabrikam East faturasıyla kapatılır
 
-**Fabrikam posting**
+**Fabrikam nakli**
 
 | Hesap                           | Borç tutarı | Alacak tutarı |
 |-----------------------------------|--------------|---------------|
 | Vade başlangıcı Fabrikam East (Fabrikam) | 600,00       |               |
 | Borç hesapları (Fabrikam)       |              | 600,00        |
 
-**Fabrikam East posting**
+**Fabrikam East nakli**
 
 | Hesap                          | Borç tutarı | Alacak tutarı |
 |----------------------------------|--------------|---------------|
@@ -99,14 +102,14 @@ Fabrikam East, satıcı 100, Fourth Coffee için açık bir faturaya sahip. Fatu
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam ödemesi Fabrikam East faturasıyla kapatılır
 
-**Fabrikam posting**
+**Fabrikam nakli**
 
 | Hesap                           | Borç tutarı | Alacak tutarı |
 |-----------------------------------|--------------|---------------|
 | Vade başlangıcı Fabrikam East (Fabrikam) | 580,00       |               |
 | Borç hesapları (Fabrikam)       |              | 580,00        |
 
-**Fabrikam East posting**
+**Fabrikam East nakli**
 
 | Hesap                          | Borç tutarı | Alacak tutarı |
 |----------------------------------|--------------|---------------|
@@ -137,7 +140,7 @@ Fabrikam East, satıcı 100, Fourth Coffee için açık bir faturaya sahip. Fabr
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam ödemesi Fabrikam East faturasıyla kapatılır
 
-**Fabrikam posting**
+**Fabrikam nakli**
 
 | Hesap                           | Borç tutarı            | Alacak tutarı           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -146,7 +149,7 @@ Fabrikam East, satıcı 100, Fourth Coffee için açık bir faturaya sahip. Fabr
 | Gerçekleşen kayıp (Fabrikam)          | 0,00 EUR / 12,90 USD    |                         |
 | Vade başlangıcı Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,90 USD    |
 
-**Fabrikam East posting**
+**Fabrikam East nakli**
 
 | Hesap                          | Borç tutarı            | Alacak tutarı           |
 |----------------------------------|-------------------------|-------------------------|
@@ -178,7 +181,7 @@ Fabrikam East, satıcı 100, Fourth Coffee için açık bir faturaya sahip. Fatu
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam ödemesi Fabrikam East faturasıyla kapatılır
 
-**Fabrikam posting**
+**Fabrikam nakli**
 
 | Hesap                           | Borç tutarı            | Alacak tutarı           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -187,7 +190,7 @@ Fabrikam East, satıcı 100, Fourth Coffee için açık bir faturaya sahip. Fatu
 | Gerçekleşen kayıp (Fabrikam)          | 0,00 EUR / 12,66 USD    |                         |
 | Vade başlangıcı Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,66 USD    |
 
-**Fabrikam East posting**
+**Fabrikam East nakli**
 
 | Hesap                          | Borç tutarı            | Alacak tutarı           |
 |----------------------------------|-------------------------|-------------------------|
@@ -199,7 +202,7 @@ Fabrikam East, satıcı 100, Fourth Coffee için açık bir faturaya sahip. Fatu
 | Nakit iskontosu (Fabrikam East)    |                         | 11,28 EUR / 13,61 USD   |
 
 ## <a name="example-5-vendor-credit-note-with-primary-payment"></a>Örnek 5: Birincil ödeme ile satıcı alacak dekontu
-Fabrikam, satıcı 3004, Fourth Coffee için 75,00'lik bir ödeme oluşturur. Ödeme, Fabrikam West satıcı 3004 için olan bir açık faturayla ve Fabrikam East satıcı 100 için açık bir alacak dekontu ile kapatılır. Ödemeyi birincil ödeme olarak seçili **kapatma hareketleri** sayfa.
+Fabrikam, satıcı 3004, Fourth Coffee için 75,00'lik bir ödeme oluşturur. Ödeme, Fabrikam West satıcı 3004 için olan bir açık faturayla ve Fabrikam East satıcı 100 için açık bir alacak dekontu ile kapatılır. Ödeme, **Hareketleri kapatma** sayfasında birincil ödeme olarak seçilmiştir.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Fatura satıcı 3004 için Fabrikam West'e nakledilir
 
@@ -233,14 +236,14 @@ Fabrikam, satıcı 3004, Fourth Coffee için 75,00'lik bir ödeme oluşturur. Ö
 | Vade başlangıcı Fabrikam West (Fabrikam) | 100,00       |               |
 | Borç hesapları (Fabrikam)       |              | 100,00        |
 
-**Fabrikam East posting**
+**Fabrikam East nakli**
 
 | Hesap                           | Borç tutarı | Alacak tutarı |
 |-----------------------------------|--------------|---------------|
 | Vade başlangıcı Fabrikam (Fabrikam East) | 25,00        |               |
 | Borç hesapları (Fabrikam East)  |              | 25,00         |
 
-**Fabrikam West posting**
+**Fabrikam West nakli**
 
 | Hesap                          | Borç tutarı | Alacak tutarı |
 |----------------------------------|--------------|---------------|
@@ -248,7 +251,7 @@ Fabrikam, satıcı 3004, Fourth Coffee için 75,00'lik bir ödeme oluşturur. Ö
 | Vade sonu Fabrikam (Fabrikam West)  |              | 100,00        |
 
 ## <a name="example-6-vendor-credit-note-without-primary-payment"></a>Örnek 6: Birincil ödemesiz satıcı alacak dekontu
-Fabrikam, satıcı 3004, Fourth Coffee için 75,00'lik bir ödeme oluşturur. Ödeme, Fabrikam West satıcı 3004 için olan bir açık faturayla ve Fabrikam East satıcı 100 için açık bir alacak dekontu ile kapatılır. Ödemeyi birincil ödeme olarak üzerinde seçili değilse **kapatma hareketleri** sayfa.
+Fabrikam, satıcı 3004, Fourth Coffee için 75,00'lik bir ödeme oluşturur. Ödeme, Fabrikam West satıcı 3004 için olan bir açık faturayla ve Fabrikam East satıcı 100 için açık bir alacak dekontu ile kapatılır. Ödeme, **Hareketleri kapatma** sayfasında birincil ödeme olarak seçilmemiştir.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Fatura satıcı 3004 için Fabrikam West'e nakledilir
 
@@ -273,21 +276,21 @@ Fabrikam, satıcı 3004, Fourth Coffee için 75,00'lik bir ödeme oluşturur. Ö
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam ödemesi Fabrikam West faturası ve Fabrikam East alacak dekontuyla kapatılır
 
-**Fabrikam posting**
+**Fabrikam nakli**
 
 | Hesap                           | Borç tutarı | Alacak tutarı |
 |-----------------------------------|--------------|---------------|
 | Vade başlangıcı Fabrikam West (Fabrikam) | 75,00        |               |
 | Borç hesapları (Fabrikam)       |              | 75,00         |
 
-**Fabrikam East posting**
+**Fabrikam East nakli**
 
 | Hesap                                | Borç tutarı | Alacak tutarı |
 |----------------------------------------|--------------|---------------|
 | Vade başlangıcı Fabrikam West (Fabrikam East) | 25,00        |               |
 | Borç hesapları (Fabrikam East)       |              | 25,00         |
 
-**Fabrikam West posting**
+**Fabrikam West nakli**
 
 | Hesap                              | Borç tutarı | Alacak tutarı |
 |--------------------------------------|--------------|---------------|
@@ -295,6 +298,8 @@ Fabrikam, satıcı 3004, Fourth Coffee için 75,00'lik bir ödeme oluşturur. Ö
 | Vade sonu Fabrikam (Fabrikam West)      |              | 75,00         |
 | Borç hesapları (Fabrikam West)     | 25,00        |               |
 | Vade sonu Fabrikam East (Fabrikam West) |              | 25,00         |
+
+
 
 
 

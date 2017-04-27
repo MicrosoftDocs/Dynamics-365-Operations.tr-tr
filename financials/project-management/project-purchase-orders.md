@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-orders-for-a-project"></a>Bir proje için satın alma emirleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede bir proje için satın alma emirlerinin oluşturulmasında kullanılabilecek çeşitli yöntemler açıklanmıştır. Kullandığınız yöntem, satın alma emrinin amacına, satın alınan maddelerin ne zaman tüketildiğine ve satın alınan maddelerin bir projeye ne zaman şarj edileceğine göre değişir.
 
-İşlemler için Microsoft Dynamics 365 içinde bir Proje satınalma siparişleri oluşturmak için birden çok yöntem kullanabilirsiniz. Kullandığınız yöntem, satın alma emrinin amacına, satın alınan maddelerin ne zaman tüketildiğine ve satın alınan maddelerin bir projeye ne zaman şarj edileceğine göre değişir.
+Microsoft Dynamics 365 for Operations'da bir proje için satın alma emirleri oluşturmak amacıyla birden fazla sayıda yöntem kullanabilirsiniz. Kullandığınız yöntem, satın alma emrinin amacına, satın alınan maddelerin ne zaman tüketildiğine ve satın alınan maddelerin bir projeye ne zaman şarj edileceğine göre değişir.
 
 ### <a name="methods-for-creating-a-purchase-order"></a>Bir satın alma emri oluşturmak için yöntemler
 
@@ -71,6 +74,8 @@ Proje yönetimi ve hesap işlemlerinde bir satın alma emri oluşturmak için a�
 </table>
 
 > [!NOTE] 
-> Satıcı fatura veya sevk irsaliyesi güncelleştirildiğinde, madde gereksinimindeki sevk irsaliyesini güncelleştirmeniz istenir.
+> Satıcı faturasını veya sevk irsaliyesini güncelleştirdiğinizde, sizden madde gereksinimindeki sevk irsaliyesini güncelleştirmeniz istenir.
+
+
 
 

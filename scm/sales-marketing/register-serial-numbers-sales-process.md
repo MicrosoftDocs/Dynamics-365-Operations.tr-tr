@@ -1,5 +1,5 @@
 ---
-title: "Satış işlemindeki kayıt seri numaraları"
+title: "Satış işleminde seri numaraları kaydetme"
 description: "Bu makalede, satış işlemi sırasında sevk irsaliyeleri veya faturalar üzerine seri numaralarını nasıl kaydedeceğiniz açıklanmaktadır. Bu işlev, bir şirket servis veya garanti amaçlı olarak seri numaralarını tutmak istediğinde ancak seri numaralarını girişten çıkışa stokta tutması gerekmediğinde kullanışlıdır."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="register-serial-numbers-in-the-sales-process"></a>Satış işlemindeki kayıt seri numaraları
+# <a name="register-serial-numbers-in-the-sales-process"></a>Satış işleminde seri numaraları kaydetme
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, satış işlemi sırasında sevk irsaliyeleri veya faturalar üzerine seri numaralarını nasıl kaydedeceğiniz açıklanmaktadır. Bu işlev, bir şirket servis veya garanti amaçlı olarak seri numaralarını tutmak istediğinde ancak seri numaralarını girişten çıkışa stokta tutması gerekmediğinde kullanışlıdır.
 
@@ -65,7 +68,7 @@ Evet. Belgeye eklenmiş olan tüm seri numaralarının listesini görüntülemek
 ## <a name="can-i-view-the-serialized-items-that-i-have-on-hand"></a>Elimde bulunan seri hale getirilmiş maddeleri görüntüleyebilir miyim?
 Hayır. Seri numaraları maddeler satılana kadar kaydedilmediğinden elinizde bulunan seri hale getirilmiş maddeleri göremezsiniz.
 
-## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Catchweight maddeler için seri numaraları kaydedebilir miyim?
+## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Fiili ağırlık maddeleri için seri numaralar kaydedebilir miyim?
 Hayır. Satış işlemi sırasında fiili ağırlık maddeleri için seri numaralar kaydedemezsiniz. Ayrıca, bir ürünün fiili ağırlık maddesi olarak ayarlanması durumunda, ürünü yalnızca satış işlemi sırasında seri numaralar kullanmak üzere ayarlanan bir izleme boyutu grubuna atayamazsınız.
 Retail POS'ta seri numaraları kaydedebilir miyim?
 ------------------------------------------------
@@ -76,6 +79,8 @@ Evet. Kullanıcı yalnızca satış işlemi sırasında seri numaraları kullanm
 Bu işlev, satış sevk irsaliyelerini ve satış faturalarını takip edebilen tüm roller tarafından kullanılabilir. Aşağıdaki görevler çalışanların seri numaraları düzeltmesine ve okunamayan ya da taranamayan seri numaralar için boş girişler kaydetmesine olanak tanır:
 -   Seri numarası düzeltmelerini korumak
 -   Okunamayan seri numaralarının kaydını korumak
+
+
 
 
 

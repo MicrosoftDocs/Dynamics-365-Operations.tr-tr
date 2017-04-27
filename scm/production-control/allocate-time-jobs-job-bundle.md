@@ -1,5 +1,5 @@
 ---
-title: "Bir iş grubundaki işler için zaman ayırmak"
+title: "İş ürün demetindeki işlere zaman atama"
 description: "İmalat yürütmede, işleri gruplayabilirsiniz. Ardından İş listesi sayfasında birden fazla işi aynı anda başlatabilirsiniz."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Bir iş grubundaki işler için zaman ayırmak
+# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>İş ürün demetindeki işlere zaman atama
+
+[!include[banner](../includes/banner.md)]
+
 
 İmalat yürütmede, işleri gruplayabilirsiniz. Ardından İş listesi sayfasında birden fazla işi aynı anda başlatabilirsiniz.
 
@@ -107,5 +110,7 @@ Ortalama ücreti 12,00 USD olan bir çalışan tarafından üç iş gerçekleşt
 | İş 3 | (3.33 ÷ 5) × 12.00 USD                 | 8.00 USD                | 5 Saat        | 40.00 USD         |
 
 Saat başına düzeltilen maliyet ve iş süresi bir üretim günlüğüne nakledilir. **Not:** **Üretim emri varsayılan ayarları** sayfasındaki **Genel** sekmesinden **Maliyet kategorisi** seçimini yaparsanız her bir iş için gerçek süre bir üretim defterine transfer edilir ve burada maliyet, ilgili işin maliyet kategorisine uygulanır.
+
+
 
 

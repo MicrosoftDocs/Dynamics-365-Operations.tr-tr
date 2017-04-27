@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-resources"></a>Operations kaynakları
 
+[!include[banner](../includes/banner.md)]
+
+
 Operasyon kaynakları, bir projenin veya bir üretim işleminin etkinliklerini gerçekleştirir. Bunlar farklı türlerde, farklı yeteneklere sahip olabilir. 
 
 <a name="operations-resources"></a>Operations kaynakları
@@ -36,7 +39,7 @@ Operasyon kaynakları, bir projenin veya bir üretim işleminin etkinliklerini g
 Operasyon kaynakları; bir proje veya üretim işleminde faaliyet gösteren makineler, araçlar, çalışanlar, tesisler, fiziksel alanlar veya satıcılardır. Bunlar farklı türlerde, farklı yeteneklere sahip olabilir.
 
 -   **Satıcı** – Proje faaliyetleri veya üretim operasyonları gerçekleştiren harici bir kaynak. Bir örnek olarak alt yüklenici verilebilir. Satıcı kaynaklarını bir satıcı hesabına bağlayarak, ürün reçetesi (BOM) satırlarına veya üretim satırlarına dayalı alt yüklenici satınalmaları oluşturabilirsiniz.
--   **İnsan kaynakları** – Bir faaliyeti tek başına ya da bir araç veya makine operatörü rolüyle gerçekleştiren bir proje veya üretim çalışanı. İnsan Kaynakları İnsan Kaynakları işlevini kullanıyorsanız, işçi için bağlantı oluşturabilirsiniz. Ardından, planlama altyapısı ilgili çalışan için tanımlanan yetkinliklere dayalı kaynaklar tahsis edebilirsiniz.
+-   **İnsan kaynakları** – Bir faaliyeti tek başına ya da bir araç veya makine operatörü rolüyle gerçekleştiren bir proje veya üretim çalışanı. İnsan kaynakları işlevini kullanıyorsanız, insan kaynaklarını bir çalışana bağlayabilirsiniz. Ardından, planlama altyapısı ilgili çalışan için tanımlanan yetkinliklere dayalı kaynaklar tahsis edebilirsiniz.
 -   **Makine** – Üretimde gerekli olan bir makine veya diğer üretim ekipmanları.
 -   **Araç** – Bir proje veya üretimde faaliyet gerçekleştirmek için genelde başka bir kaynakla birlikte kullanılan bir araç veya cihaz.
 -   **Konum** – Bir faaliyeti gerçekleştirmek için gereken belirli bir büyüklükteki fiziksel bir konum. Örnek olarak bir montaj alanı verilebilir.
@@ -80,5 +83,7 @@ Kaynak grubu yalın bir iş hücresinde kullanıldığında, iş hücresinin kap
 
 ## <a name="costing-resources"></a>Maliyetlendirme kaynakları
 Rota operasyonu veya bir proje saat tahmini gibi bir faaliyet tanımladığınızda, belirli operasyon kaynakları veya kaynak grubu için gereksinimleri belirtebilirsiniz. Ancak, belirli bir türdeki operasyon kaynağı gereksinimini veya belirli bir yeteneğe ya da uzmanlığa sahip operasyon kaynağını belirtebilirsiniz. Bu nedenle, faaliyet zamanlanana ve kapasite rezerve edilene kadar fiili kaynak ataması yapılmaz. Bu nedenle, bir rota operasyonunda tahmin ve ürün reçetesi hesaplamasının belirli bir operasyon kaynağına dayalı olduğunu belirtebilirsiniz. Bu operasyon kaynağı, maliyetlendirme kaynağı olarak adlandırılır. Ayrıca, maliyet kategorilerini ve operasyon sürelerini maliyetlendirme kaynağından ilgili faaliyete aktarabilirsiniz. Operasyon planlandığında, tahmin ve ürün reçetesi hesaplaması fiili olarak zamanlanmış operasyon kaynağı kullanılarak yapılır.
+
+
 
 

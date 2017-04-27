@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reverse-a-vendor-payment"></a>Satıcı ödemesini tersine çevirme
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede bir ödemenin terse çevrilmesi, silinmesi, geçersiz sayılması ve reddedilmesi arasındaki farklar açıklanmıştır. İlave olarak, bir satıcı çekinin ters çevrilmesi için iki yöntem açıklanmıştır. 
 
-Bazen, bir satıcı ödemesi deftere nakledildikten sonra ödemenin tersine çevrilmesi gerekir. Ters kayıt işlemleri silme, hükümsüz kılma veya ödeme reddetme işlevlerinden farklıdır. Yalnızca durumu **Oluşturuldu** olan ödemeleri silebilirsiniz. Bu durum, ödeme oluşturuldu ancak henüz oluşturulan taşınmadığından gösterir. Ödeme yöntemi ne olursa olsun her zaman bu sınırlama uygular. Sonra oluşturulmuş olan, ancak deftere nakledilmeden önce deftere nakledilmemiş çekleri geçersiz kılabilirsiniz. Elektronik fon transferi (EFT) oluşturulan ödeme yapıldığında, deftere nakledilmeden önce ödemeyi reddedebilir. Bir ödeme reddedecek şekilde değiştirmek **ödeme durumu** değer. Hükümsüz veya reddedilen bir ödeme sonra yeniden **ödeme durumu** değeri değiştirilmiş geri **yok**. 
+Bazen, bir satıcı ödemesi deftere nakledildikten sonra ödemenin tersine çevrilmesi gerekir. Ters kayıt işlemleri silme, hükümsüz kılma veya ödeme reddetme işlevlerinden farklıdır. Yalnızca durumu **Oluşturuldu** olan ödemeleri silebilirsiniz. Bu durum, ödemenin ayarlandığınız ancak henüz oluşturulmadığını gösterir. Ödeme yöntemi ne olursa olsun her zaman bu sınırlama uygulanır. Deftere nakledilmemiş çekleri oluşturulduktan sonra ancak deftere nakledilmeden önce geçersiz kılabilirsiniz. Oluşturulan ödeme elektronik fon transferi (EFT) olarak yapıldığında, deftere nakledilmeden önce ödemeyi reddedebilirsiniz. Ödemeyi reddetmek için **Ödeme durumu** değerini değiştirin. Hükümsüz kılınan veya reddedilen bir ödeme **Ödeme durumu** değeri tekrar **Yok** olarak değiştirildikten sonra yeniden oluşturulabilir. 
 
-Bir ödeme deftere nakledildikten sonra iptalleri kullanılır. Elektronik ortamda yapılan ödemeleri deftere nakledildikten sonra iptal edilemez. Bunun yerine, yeni bir hareket satıcının hesabında borç almak için ödeme miktarı oluşturulmalıdır. Deftere nakledilen çekleri ters işlemi için iki yöntem vardır. Bir yöntemde, tersine çevirme işlemleri **Çek** sayfasında **Ödeme ters kaydı** tıklatılarak anında deftere nakledilir. Diğer yöntemde **Çek** sayfasında **Ödeme ters kaydı**'nı tıklattığınızda, ters kayıt bir gözden geçirenin ters kaydı deftere nakledebildiği veya reddettiği Nakit ve banka yönetimi alanında çek ters işlem günlüklerine gönderilir. 
+Bir ödeme deftere nakledildikten sonra ters işlemler kullanılır. Elektronik ortamda yapılan ödemeler deftere nakledildikten sonra tersine çevrilemez. Bunun yerine, satıcının hesabından borcu geri almak üzere ödeme miktarı için yeni bir hareket oluşturulmalıdır. Deftere nakledilen çek işlemlerini tersine çevirmek için iki yöntem kullanılabilir. Bir yöntemde, tersine çevirme işlemleri **Çek** sayfasında **Ödeme ters kaydı** tıklatılarak anında deftere nakledilir. Diğer yöntemde **Çek** sayfasında **Ödeme ters kaydı**'nı tıklattığınızda, ters kayıt bir gözden geçirenin ters kaydı deftere nakledebildiği veya reddettiği Nakit ve banka yönetimi alanında çek ters işlem günlüklerine gönderilir. 
 
 Kuruluşunuzun hangi yöntemi kullandığını öğrenmek için **Nakit ve banka yönetimi parametreleri** sayfasını görüntüleyin. **Ödeme ters işlemleri için inceleme işlemi kullan** seçeneği **Evet** olarak ayarlanmışsa, ters kayıtlar gözden geçirilmek üzere çek ters işlem günlüğüne gönderilir. Aşağıdaki tabloda çek ters işlem yöntemlerinin nasıl farklılık gösterdiği açıklanmaktadır.
 
@@ -57,7 +60,7 @@ Ters işlemleri gözden geçirmesi gereken bir kullanıcıysanız, işlemi onayl
 -   Bir ters işlemi reddetmek için, çek ters işlem günlüğünü silin.
 
 > [!NOTE]
-> Günlüğü sil, ters sistemden kaldırılır, ancak özgün onay kalır **kontrol** sayfa. Çekin durumu artık **Bekleyen iptal** şeklinde olmaz.
+> Günlüğü silerseniz, ters işlem sistemden kaldırılır ancak orijinal çek **Çek** sayfasında kalır. Çekin durumu artık **Bekleyen iptal** şeklinde olmaz.
 
 ## <a name="results-of-posting-a-reversal"></a>Ters işlemi deftere nakletmenin sonuçları
 Çeke uygulanan ters işlemi deftere naklettiğinizde aşağıdaki olaylar gerçekleşir:
@@ -69,7 +72,7 @@ Ters işlemleri gözden geçirmesi gereken bir kullanıcıysanız, işlemi onayl
 -   Değişiklik ayrıntıları **Çek** sayfasında **Geçmiş** alan grubunda güncellenir.
 
 > [!NOTE] 
-> Bir şirketlerarası ticaret hareket için verilmiş bir onay ters kaydettiğinizde, orijinal hareketin değil, şirketlerarası ticaret için hesap kurulumu karşıt girişleri gelmektedir. Ters işlem uygulanan çek bir satıcı ödemesi için verildiyse, ayrıca aşağıdaki olaylar da oluşur:
+> Şirketlerarası ticari hareket için verilen bir çeke ters işlem uyguladığınızda, mahsup girişleri orijinal hareketten değil şirketlerarası ticaret için muhasebe ayarlarından gelir. Ters işlem uygulanan çek bir satıcı ödemesi için verildiyse, ayrıca aşağıdaki olaylar da oluşur:
 
 -   Ödeme kapanışının yapıldığı faturadaki orijinal ödeme uygulanmaz (kapanış işlemi tersine çevrilir).
 -   Ödeme ters işlemi için deftere satıcı hesabına karşılık gelen bir hareket nakledilir ve tersine çevrilen ödeme orijinal ödemeyle eşlenerek kapatılır. Orijinal satıcı ödemesine yönelik olarak **Satıcı hareketleri** sayfasındaki **Son kapatma fişi** ters çevrilen hareketin fiş numarasını gösterecek şekilde güncellenir.
@@ -78,6 +81,8 @@ Ters işlem uygulanan çek bir müşteri para iadesi için çıkarıldıysa, ayr
 
 -   Ödeme ters işlemi için deftere müşteri hesabına karşılık gelen bir hareket nakledilir ve orijinal ödeme ile ödemenin orijinal olarak kapatıldığı belge arasındaki kapanış işlemi tersine çevrilir (negatif ödeme oluşturulur).
 -   Ödeme ters işlemi orijinal ödemeye uygulanır. Orijinal müşteri ödemesine yönelik olarak **Müşteri hareketleri** sayfasındaki **Son kapatma fişi** ters çevrilen hareketin fiş numarasını gösterecek şekilde güncellenir.
+
+
 
 
 

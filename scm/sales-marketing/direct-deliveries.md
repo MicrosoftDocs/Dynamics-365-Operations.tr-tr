@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="direct-deliveries"></a>Doğrudan teslimatlar
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makale, doğrudan teslimler hakkında genel bilgiler sağlar. Müşterinize doğrudan satıcı tarafından gönderilen teslimatlar, doğrudan teslimatlardır.
 
 Doğrudan teslimler, teslimat süresini kısaltır ve envanter taşınmasıyla ilgili maliyetleri düşürür, çünkü müşteriye göndermeden önce ürünleri deponuzda tutmanıza gerek yoktur.  
@@ -49,5 +52,7 @@ Teslimat türü **Doğrudan teslimat** olan bir satış siparişi satırını si
 
 ## <a name="warehouse"></a>Ambar
 Bir doğrudan sevkiyat oluşturduğunuzda, hiçbir zaman fiziksel olarak satmadığınız öğeler ambarınıza ulaşır. Ancak, satış emri satırında hala bir ambar belirtmeniz gerekir. Benzer şekilde, teslim alma gereksinimleri de ürün için ürün modeli grubunda tanımlanabilir. Ancak, ürünler fiziksel olarak hiçbir zaman ambarınıza ulaşmadığı için, satış siparişi bir doğrudan teslimat olduğunda bu gereksinimler göz ardı edilir.
+
+
 
 

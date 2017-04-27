@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchasing-policies"></a>Satınalma ilkeleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makale, satınalma ilkeleri hakkında bilgi sağlar. Satınalma ilkesi talep işlemini denetleyen kurallar topluluğudur. Satınalma ilkeleri satınalma yöneticilerinin kuruluşun stratejik satınalma gereksinimlerine uygun bir ilke yapısı oluşturarak satınalma stratejilerini uygulamalarına yardımcı olur.
 
 Bir satın alma politikası bir takım politika kurallarından meydana gelir. Bir politika kuralı tanımlarken öncelikle bir kural türü seçersiniz. Ardından, kural için ayarları, başlangıç tarihini ve bitiş tarihini tanımlayarak kural türü için bir kural oluşturursunuz.  
@@ -41,13 +44,13 @@ Satın alma politikalarınızı nasıl yapılandırdığınıza bağlı olarak, 
 
 ### <a name="example-1-simple-purchasing-policy-configuration"></a>Örnek 1: Basit satın alma politikası yapılandırma
 
-Küçük ve daha az karmaşık olan kuruluşlar tüzel kişilik tarafından ilkeleri satın yukarı ayarlayabilir ve yalnızca şirketler Organizasyon hiyerarşisini kullanabilirsiniz.  
+Küçük ve daha az karmaşık olan organizasyonlar, satın alma politikalarını tüzel kişiliğe göre kurabilir ve sadece Şirketler organizasyon hiyerarşisini kullanabilir.  
 
 Bir küçük işletme olan Fabrikam için, organizasyon genelinde satın alma gereksinimleri çok düşüktür. Satın alma kuralları sadece organizasyonun tüzel kişilikleri arasında farklı olabilir. Örneğin, Fabrikam Kanada personeli ve Fabrikam ABD personeli farklı kataloglardan ve farklı satıcılardan mal ve hizmet alımı yaparlar. Bu nedenle, Fabrikam, satın alma politikalarını tüzel kişilik düzeyinde kurar.  
 
-Fabrikam, iki satın alma politikası oluşturuyor. İlke A 1111 onun ABD tüzel kişilik için geçerlidir. İlke B 2222 Kanada kendi tüzel kişilik için geçerlidir. Bir tüzel kişilik 1111 çalışanını satınalma talebi oluşturduğunda, ilke kuralları A. ilkesinden türetilmiş Örneğin, çalışanın gördüğü ürün kataloğu katalog ilke kuralı İlkesi A. belirtilir  
+Fabrikam, iki satın alma politikası oluşturuyor. ABD tüzel kişiliğine İlke A uygulanır, 1111. Kanada tüzel kişiliğine İlke B uygulanır, 2222. Tüzel kişilik 1111'deki bir personel bir satınalma talebi oluşturduğunda, ilke kuralları A ilkesinden türetilir. Örneğin, personelin gördüğü ürün kataloğu, A ilkesinin katalog ilkesi kuralında belirtilir.  
 
-Bir tüzel kişilik 2222 çalışanını satınalma talebi oluşturduğunda, ilke kuralları B. ilkesinden türetilmiş  
+Tüzel kişilik 2222 personeli bir satınalma talebi oluşturduğunda, ilke kuralları B ilkesinden türetilir.  
 
 **Not:** 1111 tüzel kişiliğinin bir personeli, 2222 tüzel kişiliğinin bir personeli adına bir ürün satın aldığında ise tüzel kişilik 2222 için belirlenen ilke kuralları (yani, ilke B'den alınan ilke kuralları) geçerli olacaktır.
 
@@ -117,7 +120,7 @@ Stok yenileme kontrol kuralı, talep amacı **Stok yenileme** olduğunda talebin
 
 ### <a name="purchase-order-creation-and-demand-consolidation-rule"></a>Satınalma siparişi oluşturma ve talep konsolidasyon kuralı
 
-Satınalma siparişi oluşturma ve isteğe bağlı konsolidasyon kural bir onaylanan satınalma talebi bir satınalma siparişi oluşturulduğunda kullanılacak ilke kuralları tanımlar. Bu türde kurallar oluşturduğunuzda çeşitli sekmelerdeki seçenekleri yapılandırabilirsiniz:
+Satınalma siparişi oluşturma ve konsolidasyon kuralı isteği, onaylanan bir satınalma talebinden bir satınalma siparişi oluşturulurken kullanılacak ilke kurallarını tanımlar. Bu türde kurallar oluşturduğunuzda çeşitli sekmelerdeki seçenekleri yapılandırabilirsiniz:
 
 -   **Satın alma emrini böl** sekmesinde, satın alma talep satırlarını ayrı satın alma taleplerine bölmeniz için kriterlerini tanımlayabilirsiniz.
 -   **Fiyat/iskonto transferi** sekmesinde, bir satın alma emri oluşturulduğunda fiyat anlaşmasının ne zaman yeniden hesaplanacağını tanımlayabilirsiniz:
@@ -126,7 +129,7 @@ Satınalma siparişi oluşturma ve isteğe bağlı konsolidasyon kural bir onayl
 
     Ayrıca, talepte bulunan kişinin tanımlanan fiyat/iskonto transfer kuralı ne olursa olsun her bir satın alma talebi satırı için fiyat ve iskonto transfer yöntemini değiştirmesine izin verebilirsiniz. Bu özelliği etkinleştirmek için **Her bir satın alma talebi satırı için manuel atlatmaya izin ver** öğesini seçin.
 -   **Madde açıklaması transferi** sekmesinde, bir RFQ'dan geliyorsa madde açıklamasını talepten transfer edebilirsiniz.
--   **Fiyat Toleransı** sekmesinde, bir tedarik katalogu maddesinin fiyatı arttığında onaylanan satın alma taleplerinin tekrar gözden geçirme sürecine tabi tutulmasını sağlamak için kurallar tanımlayabilirsiniz. Bir satın alma talebinde bir satır maddesindeki net tutarın, satın alma talebinin onaylandığı zaman ile satın alma emrinin oluşturulduğu zaman arasında kalan sürede yükselebileceği maksimum tutarı ayarlayın. Net tutar aşağıdaki formül kullanılarak hesaplanır: (\[miktar × (birim fiyat – iskonto) ÷ fiyat birimi\] + satınalma sair giderleri) ayarladığınız Fiyat tolerans aşan × (100 – iskonto yüzdesi) ÷ 100 satınalma talebi satırlarına el ile işlemek için tutulur. **Hata işleme** sekmesinde yapılandırılan kurallar, satın alma talebi satırlarının nasıl işleneceğini belirler.
+-   **Fiyat Toleransı** sekmesinde, bir tedarik katalogu maddesinin fiyatı arttığında onaylanan satın alma taleplerinin tekrar gözden geçirme sürecine tabi tutulmasını sağlamak için kurallar tanımlayabilirsiniz. Bir satın alma talebinde bir satır maddesindeki net tutarın, satın alma talebinin onaylandığı zaman ile satın alma emrinin oluşturulduğu zaman arasında kalan sürede yükselebileceği maksimum tutarı ayarlayın. Net tutar aşağıdaki formül kullanılarak hesaplanır: (\[Miktar × (Birim fiyat – İskonto) ÷ Fiyat birimi\] + Satın alma muhtelif giderleri) × (100 – İskonto yüzdesi) ÷ 100 Ayarladığınız fiyat toleransını geçen satın alma talebi satırları manuel işleme için tutulur. **Hata işleme** sekmesinde yapılandırılan kurallar, satın alma talebi satırlarının nasıl işleneceğini belirler.
 -   **Hata işleme** sekmesinde, bir satıcı hatası veya bir fiyat toleransı hatası nedeniyle satın alma emri oluşturulması sırasında doğrulamanın başarısız olması durumunda satın alma talebine uygulanacak işleme kuralını yapılandırabilirsiniz. Aşağıdaki seçeneklerden birini belirleyin:
     -   **Eylem yok** – Satın alma talebi satırları **Onaylanan satın alma taleplerini serbest bırak** sayfasında kalır. Satın alma talebi satırlarının durumu **Onaylandı** olarak kalır. Ancak, satın alma talebi satırları için bir satın alma emri oluşturulmadan önce hataların mutlaka giderilmesi gerekir.
     -   **Satın alma talebi satırını iptal et** – Satın alma talebi satırları iptal edilir. Talepte bulunan kişi hala satır maddelerini talep etmek istiyorsa iptal edilen satırlar için yeni bir satın alma talebi oluşturabilir.
@@ -141,6 +144,8 @@ Satınalma siparişi oluşturma ve isteğe bağlı konsolidasyon kural bir onayl
     -   **Talep birleştirmeye izin verme** – Talep birleştirme için onaylanan satın alma talebi satırlarının hiçbiri kullanılmaz. Bu seçenek varsayılan olarak seçilidir ve yalnızca satın alma emrinin oluşturulması için manuel işleme gerektiren satın alma talebi satırları için geçerlidir.
     -   **Talep birleştirmeye daima izin ver** – Tüm onaylanan satın alma talebi satırları talep birleştirme için uygundur. **Not:** **Talep birleştirme** sekmesinden **Talep birleştirmeye daima izin ver** öğesini seçerseniz, ancak **Manuel satın alma emri oluşturma** sekmesinin altından **Satın alma emirlerini otomatik olarak oluştur** öğesini seçerseniz, tüm satın alma talepleri manuel işleme için tutulacaktır.
     -   **Bu koşullarda talep birleştirmeye izin ver** – Onaylanan satın alma talebi satırlarının talep birleştirme için uygun olup olmadığını belirleyen kriterleri tanımlayın. Her bir satın alma talebi satırı türü için, tedarik kategorisine ve satıcıya göre kriterler ayarlayabilirsiniz. **Bu koşullarda talep birleştirmeye izin ver** öğesini seçerseniz, her bir satın alma talebi satırı türü için kriterleri tedarik kategorisine ve satıcıya göre ayarlayabilirsiniz. Bir tedarik kategorisi seçtiğinizde, bu tedarik kategorisi için mevcut alt kategoriler de seçilir. Belirli bir satır türü için **Tümü** öğesini seçerseniz, bu satır türündeki tüm satın alma talebi satırları talep birleştirme için uygun olacaktır.
+
+
 
 
 

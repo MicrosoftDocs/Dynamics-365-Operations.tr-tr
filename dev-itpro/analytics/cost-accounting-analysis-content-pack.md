@@ -1,6 +1,6 @@
 ---
-title: "Maliyet muhasebesi analiz güç BI içeriği"
-description: "Bu konu güç BI içeriği Maliyet muhasebesi analiz nelerin dahil edileceğini açıklar. Güç BI raporlara erişimi açıklar ve içerik oluşturmak için kullanılan varlıkları ve veri modeli hakkında bilgi sağlar."
+title: "Maliyet muhasebesi analizi Power BI içeriği"
+description: "Bu konu, Power BI Maliyet muhasebesi analizinde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2017-04-04
@@ -24,90 +24,90 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cost-accounting-analysis-power-bi-content"></a>Maliyet muhasebesi analiz güç BI içeriği
+# <a name="cost-accounting-analysis-power-bi-content"></a>Maliyet muhasebesi analizi Power BI içeriği
 
-Bu konu güç BI içeriği Maliyet muhasebesi analiz nelerin dahil edileceğini açıklar. Güç BI raporlara erişimi açıklar ve içerik oluşturmak için kullanılan varlıkları ve veri modeli hakkında bilgi sağlar.
+Bu konu, Power BI Maliyet muhasebesi analizinde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
 <a name="overview"></a>Özet
 --------
 
-**Maliyet muhasebesi analiz** Microsoft Power BI içeriği maliyet denetleyicileri veya bir kuruluşun Maliyet kontrolü yapmaktan sorumlu olan herkes için tasarlanmıştır. Bu maliyet, büyüklük ve fiili maliyeti, bütçe maliyeti ve esnek bütçe maliyeti Maliyet oranı gibi anahtar ölçümleri içerir. Bu hareketin maliyet muhasebesi verileri Microsoft Dynamics 365 içinde işlemler için kullanır ve bir raporlama para birimi cinsinden tüm organizasyon için maliyetleri toplam görünümünü sağlar. Birkaç tüzel kurum olabilir olsa bile yöneticileri kendi kuruluş birimleri maliyet denetimi gerçekleştirmek için maliyet nesneler tarafından verilere filtre uygulayabilirsiniz. Çünkü **Maliyet muhasebesi analiz** güç BI İçerik yöneticileri kendi operasyonel birimleri için pozitif ve negatif eğilimleri hakkında bildirilebilir bütçe maliyetlerini ve fiili maliyetler arasındaki farkları vurgular. Yöneticileri nasıl maliyet farklarını ortaya çıkan ve etkili önlem ayrıntılı bilgiler elde etmek için maliyet öğesi hiyerarşileri veya öğeleri tek tek maliyet aşağı inebilir. **Maliyet muhasebesi analiz** güç BI maliyet muhasebeci analiz yapalım maliyet tüm kuruluş maliyeti nesneler arasında nasıl akacağını içerik. Maliyet muhasebesi hakkında daha fazla bilgi için bkz: [Maliyet muhasebesi giriş sayfası](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page.md). Maliyet muhasebesinde erişim düzeyi güvenlik tanımlama ve güç BI satır düzeyi güvenliği ile birleştirerek, tüm maliyet nesne sahipleri erişim izni verebilirsiniz **Maliyet muhasebesi analiz** güç BI içeriği. Tüm verileri görsel sonra temel maliyet muhasebesinde denetlenen erişim düzeyi üzerinde filtre edilir. Erişim düzeyi güvenliği ve satır düzeyi güvenliği hakkında daha fazla bilgi için bkz: [için güç BI Maliyet muhasebesi içerik için güvenlik kurma](setup-security-cost-accounting-content-pack.md).
+**Maliyet muhasebesi analizi** Microsoft Power BI içeriği, maliyet denetleyicileri veya bir kuruluşun maliyet kontrolünü yapmaktan sorumlu olan herkes için tasarlanmıştır. Bu, maliyet, büyüklük ve gerçek maliyete dayalı maliyet oranı, bütçe maliyeti ve esnek bütçe maliyeti gibi kilit ölçümleri içerir. Microsoft Dynamics 365 for Operations içerisindeki hareket verilerini kullanır ve tüm organizasyonun maliyetlerinin toplam görünümünü tek bir raporlama para birimi cinsinden sağlar. Yöneticiler veriyi maliyet nesnelerine dayalı olarak kendi kuruluş birimlerinde maliyet denetimi gerçekleştirmek için filtreleyebilir, kuruluş çok sayıda tüzel varlığa sahip olsa bile. **Maliyet muhasebesi analizi** Power BI içeriği gerçek maliyetler ve bütçe maliyetleri arasındaki farkları vurguladığı için, yöneticiler kendi operasyonel birimleri hakkında pozitif veya negatif trendler hakkında bilgilendirilebilirler. Yöneticiler maliyet öğeleri hiyerarşilerinin veya tek tek maliyet öğelerinin daha derinlerine inebilir ve maliyet farklılıklarının nasıl oluştuklarına dair daha ayrıntılı bilgi edinerek daha sonra daha efektif eylem alabilirler. **Maliyet muhasebesi analizi** Power BI içeriği, maliyet muhasebecilerinin maliyet akışlarının, tüm kuruluşun maliyet öğelerinin arasında nasıl aktığını görmelerine olanak sağlar. Maliyet muhasebesi hakkında daha fazla bilgi için bkz: [Maliyet muhasebesi giriş sayfası](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page.md). Maliyet muhasebesi erişim seviyesi güvenliğini tanımlayarak ve bunu satır düzeyi güvenlik ile Power BI içerisinde birleştirerek tüm maliyet öğesi sahiplerine **Maliyet muhasebesi** Power BI içeriğine erişim sağlayabilirsiniz. Görsellerdeki tüm veri daha sonra Maliyet muhasebesi içinde denetlenen erişim seviyesinde filtrelenir. Erişim seviyesi güvenliği ve satır düzeyi güvenliği hakkında daha fazla bilgi için bkz: [Power BI için Maliyet muhasebesi içeriği için güvenlik kurulumu](setup-security-cost-accounting-content-pack.md).
 
-## <a name="accessing-the-power-bi-content"></a>Güç BI içeriğine erişerek
-Bulabilirsiniz **Maliyet muhasebesi analiz** güç BI içeriğinde paylaşılan varlıkları kitaplığı Microsoft Dynamics ömrü Hizmetleri (LCS). İçeriği karşıdan yüklemek ve, Dynamics 365 işlemler veri bağlama hakkında daha fazla bilgi için bkz: [Microsoft ve ortaklarınız LCS içeriğinde güç BI](power-bi-content-microsoft-partners.md). **Not:** KB4011327 ** ** için bir önkoşuldur **Maliyet muhasebesi analiz** güç BI içeriği.  Yaşam döngüsü hizmetlerine oturum açtıktan sonra burada KB erişebilirsiniz: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
+**Maliyet muhasebesi analizi** Power BI içeriğini, Microsoft Dynamics Lifecycle Services (LCS) içindeki Paylaşılan varlık kütüphanesinde bulabilirsiniz. İçeriği indirmek ve Dynamics 365 for Operations verinize bağlamak hakkında daha fazla bilgi için bkz. [Microsoft ve ortaklarınızdan LCS içerisindeki Power BI içeriği](power-bi-content-microsoft-partners.md). **Note:** KB4011327** ** **Maliyet muhasebesi analizi ** Power BI içeriği için bir önkoşuldur.  Lifecycle Services'a oturum açtıktan sonra KB'ye buradan erişebilirsiniz: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Güç BI içeriğinde bulunan ölçümleri
-İçerik rapor sayfaları kümesi içerir. Her sayfa, grafikler, döşeme ve tablo görünür ölçümler kümesinden oluşur. Aşağıdaki tabloda görsel bir bakış sağlar **Maliyet muhasebesi analiz** güç BI içeriği.
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan ölçümler
+İçerik bir dizi rapor sayfası içermektedir. Her sayfa grafikler, döşemeler ve tablolar ile görselleştirilen bir dizi ölçüm kümesinden oluşur. Aşağıdaki tablo **Yönetim maliyeti analizi** Power BI içeriğindeki görselleştirmelere bir bakış sağlar.
 
 | Rapor sayfası                      | Grafik                                                                                                                         | Kutucuk                                          |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| Mali Döneme göre maliyet kontrol    | Fiili Maliyet ve maliyet öğesi hiyerarşi düzeyi tarafından bütçe maliyeti                                                                   | Fiili Maliyet vs bütçe maliyeti                    |
-|                                  | Maliyet öğesi hiyerarşi düzeyi tarafından bütçe farkı                                                                               | Fiili Maliyet oranı vs Bütçe maliyet fiyatı          |
-|                                  | İlk 10 öğe maliyeti yüzde cinsinden bütçe farkı                                                                          | Gerçek büyüklük vs bütçe büyüklüğü          |
-| Yıl başından bugüne göre maliyet kontrol     | Fiili Maliyet ve Takvim yılı döneme göre bütçe maliyeti                                                                           | Fiili Maliyet vs bütçe maliyeti                    |
-|                                  | Takvim yılı döneme göre bütçe farkı                                                                                       | Fiili Maliyet oranı vs Bütçe maliyet fiyatı          |
-|                                  | İlk 10 öğe maliyeti yüzde cinsinden bütçe farkı                                                                          | Gerçek büyüklük vs bütçe büyüklüğü          |
-| Mali yıla göre maliyet fiyatı         | Gerçek maliyet oranı maliyet davranışı tarafından                                                                                             | Fiili Maliyet oranı vs Bütçe maliyet fiyatı          |
-|                                  | Gerçek maliyet oranı maliyet oranı farkı bütçe, Bütçe Maliyet oranı yüzde ve maliyet öğesi hiyerarşi düzeyi tarafından Bütçe Maliyet oranı | Gerçek büyüklük vs bütçe büyüklüğü          |
-|                                  | Maliyet öğesi hiyerarşi düzeyi tarafından bütçe farkı                                                                               |                                               |
-|                                  | İlk 10 öğe maliyeti yüzde cinsinden bütçe farkı                                                                          |                                               |
-| Esnek bütçe mali döneme göre | Fiili maliyeti, Bütçe maliyet ve maliyet öğesi hiyerarşi düzeyi tarafından esnek bütçe maliyeti                                             | Gerçek büyüklük vs bütçe büyüklüğü          |
-|                                  | Bütçe farkı ve maliyet öğesi hiyerarşi düzeyi tarafından esnek bütçe farkı                                                  | Fiili Maliyet vs esnek bütçe maliyeti           |
-|                                  | Fiili maliyeti, bütçe maliyeti ve esnek maliyet yana davranış maliyet ve maliyet öğesi hiyerarşi düzeyi                                  | Gerçek maliyet oranı vs esnek bütçe maliyet oranı |
-| Mali Döneme göre Maliyet raporu  | Fiili Maliyet Maliyet öğesi hiyerarşi düzeyi ve maliyet nesne boyut üye adı                                             |                                               |
-|                                  | Fiili Maliyet Maliyet nesne boyut üye adı ve maliyet öğesi boyut üye adı                                       |                                               |
+| Mali döneme göre maliyeti denetimi    | Maliyet öğesi hiyerarşi düzeyine göre fiili maliyet ve bütçe maliyeti                                                                   | Fiili maliyet - Bütçe maliyeti karşılaştırması                    |
+|                                  | Maliyeti öğesi hiyerarşi düzeyine göre bütçe farkı                                                                               | Fiili maliyet oranı - Bütçe maliyet oranı karşılaştırması          |
+|                                  | Maliyet öğesine göre İlk 10 Bütçe farkı                                                                          | Gerçek büyüklük - Bütçe büyüklüğü karşılaştırması          |
+| Yıldan bugüne kadar maliyet denetimi     | Takvim Yılı Dönemine göre Fiili maliyet ve Bütçe maliyeti                                                                           | Fiili maliyet - Bütçe maliyeti karşılaştırması                    |
+|                                  | Takvim Yılı Dönemine göre Bütçe farkı                                                                                       | Fiili maliyet oranı - Bütçe maliyet oranı karşılaştırması          |
+|                                  | Maliyet öğesine göre İlk 10 Bütçe farkı                                                                          | Gerçek büyüklük - Bütçe büyüklüğü karşılaştırması          |
+| Mali yıla göre Maliyet oranı         | Maliyet davranışına göre Fiili maliyet oranı                                                                                             | Fiili maliyet oranı - Bütçe maliyet oranı karşılaştırması          |
+|                                  | Maliyet öğesi hiyerarşi seviyesine göre Fiili maliyet oranı, Bütçe maliyet oranı farkı, Bütçe maliyeti oranı yüzdesi ve Bütçe maliyeti oranı | Gerçek büyüklük - Bütçe büyüklüğü karşılaştırması          |
+|                                  | Maliyeti öğesi hiyerarşi düzeyine göre bütçe farkı                                                                               |                                               |
+|                                  | Maliyet öğesine göre İlk 10 Bütçe farkı                                                                          |                                               |
+| Mali döneme göre Esnek bütçe | Maliyet öğesi hiyerarşi seviyesine göre Fiili maliyet, Bütçe maliyeti ve Esnek bütçe maliyeti                                             | Gerçek büyüklük - Bütçe büyüklüğü karşılaştırması          |
+|                                  | Maliyet öğesi hiyerarşi seviyesine göre Bütçe farkı ve Esnek bütçe farkı                                                  | Fiili maliyet - Esnek bütçe maliyeti karşılaştırması           |
+|                                  | Maliyet davranışı ve Maliyet öğesi hiyerarşi seviyesine göre Fiili maliyet, Bütçe maliyeti ve Esnek maliyet                                  | Fiili maliyet oranı - Esnek bütçe maliyet oranı karşılaştırması |
+| Mali döneme göre maliyet raporu  | Maliyet öğesi hiyerarşi seviyesi ve Maliyet nesnesi boyut üye adına göre Fiili maliyet                                             |                                               |
+|                                  | Maliyet nesnesi boyut üye adına ve Maliyeti öğesi boyut üye adına göre Fiili maliyet                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
-Dynamics 365 işlemleri veriler için rapor sayfaları doldurmak için kullanılan **Maliyet muhasebesi analiz** güç BI içeriği. Bu veriler hazırlanır toplama ölçümleri temsil varlık deposunda olduğu analytics için en iyi duruma getirilmiş bir Microsoft SQL veritabanı. Daha fazla bilgi için bkz: [varlık deposu ile tümleştirme güç genel bakış BI](power-bi-integration-entity-store.md). Aşağıdaki anahtar toplama ölçümleri temel olarak kullanılır.
+Dynamics 365 for Operations verisi, **Maliyet muhasebesi analizi** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, analytics için en iyi duruma getirilen bir Microsoft SQL veritabanı olan Varlık mağazasında hazırlanmış toplam ölçümler olarak temsil edilir. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesine genel bakış](power-bi-integration-entity-store.md). Aşağıdaki önemli toplam ölçümler, içeriğin temeli olarak kullanılır.
 
-| Varlık                  | Anahtar toplama ölçüm | Dynamics 365 işlemleri için veri kaynağı | Alan     | Açıklama                                   |
+| Varlık                  | Kilit toplam ölçüm | Dynamics 365 for Operations için veri kaynağı | Alan     | Açıklama                                   |
 |-------------------------|---------------------------|---------------------------------------------|-----------|-----------------------------------------------|
-| Maliyet muhasebesi girişleri | SUM(amount)               | CAMDATAAggregatedCostEntry                  | Tutar    | Maliyet muhasebesinin muhasebe para birimi cinsinden tutar |
-| İstatistiksel girişler     | SUM(Magnitude)            | CAMDATAAggregatedStatisctialEntry           | Büyüklük |                                               |
+| Maliyet muhasebesi girdileri | SUM(Tutar)               | CAMDATAAggregatedCostEntry                  | Tutar    | Maliyet muhasebesi genel muhasebe para birimindeki tutar |
+| İstatistiksel girişler     | SUM(Büyüklük)            | CAMDATAAggregatedStatisctialEntry           | Büyüklük |                                               |
 
-Aşağıdaki tabloda anahtar toplam ölçüleri birkaç hesaplanmış ölçüler içinde içeriğin dataset oluşturmak için nasıl kullanıldığını gösterir.
+Aşağıdaki tablo önemli toplam ölçümlerin çok sayıda hesaplanmış ölçümünü içerik veri kümesini oluşturmak için nasıl kullanıldığını gösterir.
 
-| Ölçü                                       | Ölçü birimi nasıl hesaplanır                                                                                          |
+| Ölçü                                       | Ölçümün hesaplanması                                                                                          |
 |-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| Gerçek maliyet                                   | Hesapla ('maliyet muhasebesi Girişleri'\[ölçü birimi\], 'Hareket sürümleri'\[ISSOURCEVERSIONBUDGET\_değer\] = 0)            |
-| Bütçe maliyeti                                   | Hesapla ('maliyet muhasebesi Girişleri'\[ölçü birimi\], 'Hareket sürümleri'\[ISSOURCEVERSIONBUDGET\_değer\] = 1)            |
-| Bütçe maliyet farkı                          | \[Bütçe maliyeti\] - \[gerçek maliyet\]                                                                                      |
-| Bütçe farkı yüzdesi                    | IF (\[bütçe maliyeti\] = 0, blank(), \[bütçe farkı\] / \[bütçe maliyeti\])                                                |
-| Gerçek büyüklük                              | Hesapla ('İstatistik Girişleri'\[FullMagnitude\], 'Hareket sürümleri'\[ISSOURCEVERSIONBUDGET\_değer\] = 0)          |
-| Bütçe büyüklüğü                              | Hesapla (\[FullMagnitude\], 'Hareket sürümleri'\[ISSOURCEVERSIONBUDGET\_değer\] = 1)                               |
-| İstatistiksel bütçe farkı                   | \[Bütçe büyüklüğü\] - \[gerçek büyüklük\]                                                                            |
-| İstatistiksel bütçe farkı yüzdesi        | IF (\[bütçe büyüklüğü\] = 0, blank(), \[istatistiksel bütçe farkı\] / \[bütçe büyüklüğü\])                          |
-| Gerçek maliyet oranı                              | IF (\[gerçek büyüklük\] = 0, BLANK(), \[fiili maliyeti\] / \[gerçek büyüklük\])                                          |
-| Bütçe maliyet oranı                              | IF (\[bütçe büyüklüğü\] = 0, BLANK(), \[bütçe maliyeti\] / \[bütçe büyüklüğü\])                                          |
-| Bütçe Maliyet oranı farkı                     | \[Bütçe Maliyet oranı\] - \[gerçek maliyet oranı\]                                                                            |
-| Bütçe Maliyet oranı farkı yüzdesi          | IF (\[bütçe maliyeti\] = 0, blank(), \[bütçe maliyeti oranı farkı\] / \[Bütçe Maliyet oranı\])                                 |
-| Sabit bütçe maliyeti                             | Hesapla (\[bütçe maliyeti\], 'maliyet muhasebe girişleri'\[COSTBEHAVIOR\] = 1)                                              |
-| Değişken bütçe maliyeti                          | Hesapla (\[bütçe maliyeti\], 'maliyet muhasebe girişleri'\[COSTBEHAVIOR\] = 2)                                              |
+| Gerçek maliyet                                   | CALCULATE('Maliyet muhasebesi girişleri'\[Ölçüm\], 'Hareket sürümleri'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 0)            |
+| Bütçe maliyeti                                   | CALCULATE('Maliyet muhasebesi girişleri'\[Ölçüm\], 'Hareket sürümleri'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 1)            |
+| Bütçe maliyet farkı                          | \[Bütçe maliyeti\] - \[Fiili maliyet\]                                                                                      |
+| Bütçe farkı yüzdesi                    | IF(\[Bütçe maliyeti\] = 0, blank(), \[Bütçe farkı\] / \[Bütçe maliyeti\])                                                |
+| Gerçek büyüklük                              | CALCULATE('İstatistiki girişler'\[FullMagnitude\], 'Hareket sürümleri'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 0)          |
+| Bütçe büyüklüğü                              | CALCULATE(\[FullMagnitude\], 'Hareket sürümleri'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 1)                               |
+| İstatistiksel bütçe farkı                   | \[Bütçe büyüklüğü\] - \[Gerçek büyüklük\]                                                                            |
+| İstatistiksel bütçe farkı yüzdesi        | IF(\[Bütçe büyüklüğü\] = 0, blank(), \[İstatistiksel bütçe farkı\] / \[Bütçe büyüklüğü\])                          |
+| Gerçek maliyet oranı                              | IF(\[Gerçek büyüklük\] = 0, BLANK(), \[Fiili maliyet\] / \[Gerçek büyüklük\])                                          |
+| Bütçe maliyet oranı                              | IF(\[Bütçe büyüklüğü\] = 0, BLANK(), \[Bütçe maliyeti\] / \[Bütçe büyüklüğü\])                                          |
+| Bütçe maliyet oranı farkı                     | \[Bütçe maliyet oranı\] - \[Fiili maliyet oranı\]                                                                            |
+| Bütçe maliyet oranı farkı yüzdesi          | IF(\[Bütçe maliyeti\] = 0, blank(), \[Bütçe maliyeti oranı farkı\] / \[Bütçe maliyeti oranı\])                                 |
+| Sabit bütçe maliyeti                             | CALCULATE(\[Bütçe maliyeti\], 'Maliyet muhasebesi girişleri'\[COSTBEHAVIOR\] = 1)                                              |
+| Değişken bütçe maliyeti                          | CALCULATE(\[Bütçe maliyeti\], 'Maliyet muhasebesi girişleri'\[COSTBEHAVIOR\] = 2)                                              |
 | Sabit esnek bütçe maliyeti                    | \[Sabit bütçe maliyeti\]                                                                                                  |
-| Değişken esnek bütçe maliyeti                 | IF (\[bütçe büyüklüğü\] = 0, BLANK(), (\[değişken bütçe maliyeti\] / \[bütçe büyüklüğü\]) \*\[gerçek büyüklük\])       |
-| Esnek bütçe maliyeti                          | \[Esnek bütçe maliyeti sabit\] + \[değişken esnek bütçe maliyeti\]                                                     |
-| Esnek bütçe farkı                      | \[Esnek bütçe maliyeti\] - \[gerçek maliyet\]                                                                             |
-| Esnek bütçe farkı yüzdesi           | IF (\[esnek bütçe maliyeti\] = 0, BLANK(), \[esnek bütçe farkı\] / \[esnek bütçe maliyeti\])                     |
-| Esnek Bütçe Maliyet oranı                     | IF (\[gerçek büyüklük\] = 0, BLANK(), \[esnek bütçe maliyeti\] / \[gerçek büyüklük\])                                 |
-| Esnek Bütçe Maliyet oranı farkı            | \[Esnek Bütçe Maliyet oranı\] - \[gerçek maliyet oranı\]                                                                   |
-| Esnek Bütçe Maliyet oranı farkı yüzdesi | IF (\[esnek bütçe maliyet oranı\] = 0, BLANK(), \[esnek bütçe maliyet oranı farkı\] / \[esnek bütçe maliyet oranı\]) |
+| Değişken esnek bütçe maliyeti                 | IF(\[Bütçe büyüklüğü\] = 0, BLANK(), (\[Değişken bütçe maliyeti\] / \[Bütçe büyüklüğü\]) \* \[Gerçek büyüklük\])       |
+| Esnek bütçe maliyeti                          | \[Sabit esnek bütçe maliyeti\] + \[Değişken esnek bütçe maliyeti\]                                                     |
+| Esnek bütçe farkı                      | \[Esnek bütçe maliyeti\] - \[Fiili maliyet\]                                                                             |
+| Esnek bütçe farkı yüzdesi           | IF(\[Esnek bütçe maliyeti\] = 0, BLANK(), \[Esnek bütçe farkı\] / \[Esnek bütçe maliyeti\])                     |
+| Esnek bütçe maliyeti oranı                     | IF(\[Gerçek büyüklük\] = 0, BLANK(), \[Esnek bütçe maliyeti\] / \[Gerçek büyüklük\])                                 |
+| Esnek bütçe maliyet oranı farkı            | \[Esnek bütçe maliyeti oranı\] - \[Gerçek maliyet oranı\]                                                                   |
+| Esnek bütçe maliyet oranı farkı yüzdesi | IF(\[Esnek bütçe maliyet oranı\] = 0, BLANK(), \[Esnek bütçe maliyet oranı farkı\] / \[Esnek bütçe maliyet oranı\]) |
 
-Aşağıdaki anahtar boyutları daha parçalı yapı elde etmek ve daha derin analitik incelemeler sağlamak için toplam ölçüleri dilim için filtre olarak kullanılır.
+Aşağıdaki anahtar boyutlar, daha büyük hassasiyet elde etmek ve daha derin analitik bilgiler edinmek için toplam ölçümleri bölmek amaçlı filtreler olarak kullanılır.
 
 | Varlık                             | Öznitelik örnekleri                                                                                               |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Maliyet muhasebesi defterleri            | Maliyet muhasebesi defteri                                                                                               |
 | Maliyet kontrolü birimleri                 | Maliyet kontrolü birimi adı                                                                                               |
-| Maliyet öğesi boyutları            | Maliyet öğeler boyut adı, maliyet öğesi boyut üye adı, maliyet öğesi boyut üye açıklaması          |
-| Maliyet nesnesi boyutları             | Maliyet nesne boyut adı, nesne boyut üye adı maliyet, maliyet nesne boyut üye açıklaması              |
-| İstatistiksel boyutlar             | İstatistiksel boyut adı, istatistiksel boyut üye adı, istatistiksel boyut üye açıklaması              |
-| Boyut hiyerarşileri maliyet nesnesi  | Nesne boyut hiyerarşi adı maliyet, maliyet nesne boyut hiyerarşi ağacı nesne boyut hiyerarşi düzeyi Maliyet    |
-| Boyut hiyerarşileri öğe maliyeti | Öğenin boyut hiyerarşi adı maliyet, maliyet öğesi boyut hiyerarşisi ağaç öğesi boyut hiyerarşi düzeyi Maliyet |
-| İstatistiksel boyut hiyerarşileri  | İstatistiksel boyut hiyerarşi adı, istatistiksel boyut hiyerarşi düzeyi, istatistiksel boyut hiyerarşi ağacı    |
+| Maliyet öğesi boyutları            | Maliyet öğeleri boyutu adı, Maliyeti öğesi boyut üye adı, Maliyet öğesi boyut üye açıklaması          |
+| Maliyet nesnesi boyutları             | Maliyet nesnesi boyutu adı, Maliyeti nesnesi boyutu üye adı, Maliyet nesnesi boyut üye açıklaması              |
+| İstatistiksel boyutlar             | İstatistiksel boyut adı, İstatistiksel boyut üye adı, İstatistiksel boyut üye açıklaması              |
+| Maliyet nesnesi boyut hiyerarşileri  | Maliyet nesnesi boyutu hiyerarşi adı, Maliyet nesnesi boyutu hiyerarşi seviyesi, Maliyet nesnesi boyutu hiyerarşi ağacı    |
+| Maliyet öğesi boyut hiyerarşileri | Maliyet öğesi boyutu hiyerarşi adı, Maliyet öğesi boyutu hiyerarşi seviyesi, Maliyet öğesi boyutu hiyerarşi ağacı |
+| İstatistiksel boyut hiyerarşileri  | İstatistiksel boyut hiyerarşi adı, İstatistiksel boyut hiyerarşi seviyesi, İstatistiksel boyut hiyerarşi ağacı    |
 | Hareket sürümleri               | Sürüm adı                                                                                                         |
 | Mali takvimler                   | Takvim, Takvim açıklaması                                                                                       |
-| Mali yıl                       | Takvim yılı                                                                                                        |
-| Mali dönemler                     | Takvim yılı dönem                                                                                                 |
+| Mali yıllar                       | Takvim yılı                                                                                                        |
+| Mali dönemler                     | Takvim yılı dönemi                                                                                                 |
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 Power BI içeriği oluşturmak ve varlıklarla ilgili bazı yararlı bağlantılar şunlardır:
@@ -116,6 +116,6 @@ Power BI içeriği oluşturmak ve varlıklarla ilgili bazı yararlı bağlantıl
 -   [Kuruluş içerik paketleri oluşturma](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Power BI kullanarak veri modelleme](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Çalışma alanlarına Power BI kutucukları ekleme](configure-power-bi-integration.md)
--   [Güç BI için maliyet muhasebesi içerik için güvenlik kurma](setup-security-cost-accounting-content-pack.md)
+-   [Power BI için Maliyeti muhasebesi içeriği güvenliğini kurmak](setup-security-cost-accounting-content-pack.md)
 
 

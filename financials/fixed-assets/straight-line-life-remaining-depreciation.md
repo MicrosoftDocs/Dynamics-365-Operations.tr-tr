@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="straight-line-life-remaining-depreciation"></a>Sabit kalan ömür amortismanı
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makale, amortismanın Sabit kalan ömür yöntemi hakkında genel bir bakış sağlar.
 
 Bir sabit kıymek amortisman profili ayarladığınızda ve **Amortisman profilleri** sayfasındaki **Yöntem** alanından **Kalan düz çizgi yaşamı** öğesini seçtiğinizde amortisman profiline atanan sabit kıymetlerin amortismanı kıymetin kalan hizmet ömrüne dayalı olacaktır. Amortisman tutarı genellikle her amortisman döneminde aynı olur. Düz çizgi kalan ömür amortismanı ayarlamak için, **Amortisman profilleri** sayfasında **Amortisman yılı** alanı ve **Dönem sıklığı** alanındaki seçenekleri de belirlemeniz gerekir. **Dönem sıklığı** alanındaki kullanılabilir seçenekler, **Amortisman yılı** alanında seçili değere bağlı olarak değişir.
@@ -36,7 +39,7 @@ Bir sabit kıymek amortisman profili ayarladığınızda ve **Amortisman profill
 
 ### <a name="calendar"></a>Takvim
 
-Seçerseniz **Takvim** içinde ***Amortisman yılı*** alan, bir yılın 1 Ocak-31 Aralık kabul edilir, farklı mali takvimi tanýmladýðýnýz olsa bile. **Takvim** seçeneği, amortisman tabanını her yılın Ocak 1 tarihinde günceller. Tipik olarak, amortisman tabanı, net defter değeri eksi hurda değeridir. Bu konunun devamındaki örnekte, amortisman tabanı hesaplamalar sütunundaki yer alan ilk ifadedeki pay olur. Amortisman yılı olarak **Takvim** seçerseniz, **Dönem sıklığı** alanında şu seçenekler kullanılabilir :
+***Amortisman yılı*** alanından **Takvim** öğesini seçerseniz, takvim yılını farklı tanımlasanız dahi yılın 1 Ocak ile 31 Aralık arasında olduğu kabul edilir. **Takvim** seçeneği, amortisman tabanını her yılın Ocak 1 tarihinde günceller. Tipik olarak, amortisman tabanı, net defter değeri eksi hurda değeridir. Bu konunun devamındaki örnekte, amortisman tabanı hesaplamalar sütunundaki yer alan ilk ifadedeki pay olur. Amortisman yılı olarak **Takvim** seçerseniz, **Dönem sıklığı** alanında şu seçenekler kullanılabilir :
 
 -   **Yıllık** 31 Aralık'ta bir tutarı nakleder.
 -   **Aylık** seçeneği her takvim ayının sonunda bir aylık tutarı nakleder.
@@ -48,7 +51,7 @@ Seçerseniz **Takvim** içinde ***Amortisman yılı*** alan, bir yılın 1 Ocak-
 
 ### <a name="fiscal"></a>Mali
 
-**Amortisman yılı** alanından **Mali Yıl** seçimini yaparsanız düz çizgi kalan yaşam amortismanı kullanılır Amortisman, kalan mali yıllar temel alınarak hesaplanır. Örneğin, 1 Temmuz 2015 30 Haziran 2016 aracılığıyla mali yıl için amortisman hesaplaması 1 Temmuz tarihinde başlar. Mali yıl 12 aydan daha uzun veya daha kısa olabilir. Amortisman her mali dönem için ayarlanır. Bir sonraki mali yılın uzunluğu, **Mali takvimler** sayfasında ayarlanan mali dönemler tarafından belirlenir. Amortisman yılı olarak **Mali** seçerseniz, **Dönem sıklığı** alanında şu seçenekler kullanılabilir:
+**Amortisman yılı** alanından **Mali Yıl** seçimini yaparsanız düz çizgi kalan yaşam amortismanı kullanılır Amortisman, kalan mali yıllar temel alınarak hesaplanır. Örneğin, 1 Temmuz 2015 ile 30 Haziran 2016 arasındaki mali yıl için amortisman hesaplaması 1 Temmuz'da başlar. Mali yıl 12 aydan daha uzun veya daha kısa olabilir. Amortisman her mali dönem için ayarlanır. Bir sonraki mali yılın uzunluğu, **Mali takvimler** sayfasında ayarlanan mali dönemler tarafından belirlenir. Amortisman yılı olarak **Mali** seçerseniz, **Dönem sıklığı** alanında şu seçenekler kullanılabilir:
 
 -   **Yıllık**, mali yıl için hesaplanan toplam amortisman tutarını tek tutar olarak, mali yılın son gününde nakleder.
 -   **Mali dönem** seçeneği, mali yılın amortismanının toplam tutarını hesaplar. Bu tutar daha sonra, defter için belirtilen mali takvim için**Mali takvimler** sayfasında tanımlanan mali dönemlere aktarılır.
@@ -73,6 +76,8 @@ Amortisman tutarı her yıl aynıdır: (Edinme maliyeti – Hurda değeri) ÷ Se
 | 3. yıl | (7.000 – 1.000) ÷ 3 = 2.000                   | 5.000                                 |
 | Yıl 4 | (5.000 – 1.000) ÷ 2 = 2.000                   | 3.000                                 |
 | Yıl 5 | (3.000 – 1.000) ÷ 1 = 2.000                   | 1.000                                 |
+
+
 
 
 

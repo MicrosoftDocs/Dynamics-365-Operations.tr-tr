@@ -1,6 +1,6 @@
 ---
 title: "Perakende süresi ve işe devam"
-description: "Bu konu, Microsoft Dynamics 365 işlemleri - perakende için zaman ve katılımcı yönetimi için desteklenen senaryolar açıklanır."
+description: "Bu konuda, Microsoft Dynamics 365 for Operations - Perakende&quot;de süre ve işe devam yönetimi için desteklenen senaryolar açıklanmaktadır."
 author: MargoC
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 62813
 ms.assetid: 821994a6-cd29-45a3-a526-ce204064f080
 ms.search.region: global
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="retail-time-and-attendance"></a>Perakende süresi ve işe devam
 
-Bu konu, Microsoft Dynamics 365 işlemleri - perakende için zaman ve katılımcı yönetimi için desteklenen senaryolar açıklanır. 
+[!include[banner](includes/banner.md)]
 
-<a name="manage-worker-setup-and-scheduling"></a>Alt yapısı ve zamanlama Yönet
+
+Bu konuda, Microsoft Dynamics 365 for Operations - Perakende'de süre ve işe devam yönetimi için desteklenen senaryolar açıklanmaktadır. 
+
+<a name="manage-worker-setup-and-scheduling"></a>Çalışan kurulumunu ve planlamasını yönetme
 ----------------------------------
 
 ### <a name="initial-configuration"></a> Başlangıç konfigürasyonu
@@ -45,8 +48,8 @@ Yapılandırma adımları hakkında bilgi için, bkz. <https://technet.microsoft
 
 ### <a name="retail-specific-configuration"></a>Perakendeye özel yapılandırma
 
--   Zaman kayıtlarını geçerli kılmak istediğiniz çalışanlara yönelik olarak, Saat için bir işlevsellik profilini etkinleştirin. ' I **POS işlevsellik profilleri**&gt;**işlevler**&gt;**POS saat kayıtları**&gt;**etkinleştirmek zaman kayıtlarını**.
--   Saat girişleri iznini görüntülemeyi etkinleştirmek için satış noktası (POS) izinleri gruplarını yapılandırın. Bu izinle, bir kullanıcı mağazadaki (rehber yoluyla, ilişkili olduğu başka bir mağazadan) diğer çalışanların saat kayıtlarını görüntüleyebilir. Bu izni bir yönetici görevi için geçerli hale getirebilirsiniz, ancak bir kasiyer görevi için geçerli hale getiremezsiniz. ' I **POS izin grupları**&gt;**zaman saati girişlerini görüntülemek**.
+-   Zaman kayıtlarını geçerli kılmak istediğiniz çalışanlara yönelik olarak, Saat için bir işlevsellik profilini etkinleştirin. **POS işlevsellik profilleri** &gt; **İşlevler** &gt; **POS zaman kayıtları** &gt; **Zaman kayıtlarını etkinleştir** seçeneklerine tıklayın.
+-   Saat girişleri iznini görüntülemeyi etkinleştirmek için satış noktası (POS) izinleri gruplarını yapılandırın. Bu izinle, bir kullanıcı mağazadaki (rehber yoluyla, ilişkili olduğu başka bir mağazadan) diğer çalışanların saat kayıtlarını görüntüleyebilir. Bu izni bir yönetici görevi için geçerli hale getirebilirsiniz, ancak bir kasiyer görevi için geçerli hale getiremezsiniz. **POS izin grupları** &gt; **Saat girişlerini görüntüle** seçeneklerine tıklayın.
 
 ## <a name="register-time"></a>Kayıt saati
 ### <a name="cashier-and-non-cashier-time-registrations"></a>Kasiyer ve kasiyer dışı çalışan zaman kayıtları
@@ -106,9 +109,9 @@ Yapılandırma adımları hakkında bilgi için, bkz. <https://technet.microsoft
 <!-- -->
 
 -   Farklı saat dilimleri:
-    -   Saati farklı bir konumdan görüntülüyorsanız (kasiyer günlük defteri için; veya yönetici senaryosu için **Saat girişlerini görüntüle** seçeneğini kullanarak) ve o konum farklı bir saat dilimindeyse, gördüğünüz zaman kayıtları yerel saat diliminize dönüştürülür. Örneğin, iki mağazalar için bir yönetici, biri Arizona'da ve diğer Nevada'ya olur. Bir kasiyer bir saat-saat 9: 00'da kaydeder Arizona içinde. O anda, Nevada'da saat sabah 08:00. Bu nedenle, Nevada mağazasındaysanız ve zaman kaydı kayıtlarına bakarsanız, zaman kaydı sabah 08:00 olarak işaretlenir.
+    -   Saati farklı bir konumdan görüntülüyorsanız (kasiyer günlük defteri için; veya yönetici senaryosu için **Saat girişlerini görüntüle** seçeneğini kullanarak) ve o konum farklı bir saat dilimindeyse, gördüğünüz zaman kayıtları yerel saat diliminize dönüştürülür. Örneğin, biri Arizona'da diğer Nevada'da olan iki mağazanın yöneticisisiniz. Bir kasiyer saat 9:00'da bir giriş saati kaydediyor Arizona'da. O anda, Nevada'da saat sabah 08:00. Bu nedenle, Nevada mağazasındaysanız ve zaman kaydı kayıtlarına bakarsanız, zaman kaydı sabah 08:00 olarak işaretlenir.
 
-## <a name="view-worker-time-registrations"></a>Alt saat kayıtları görüntüle
+## <a name="view-worker-time-registrations"></a>Çalışan zaman kayıtlarını görüntüleme
 ### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a>Çalışan zaman kayıtlarını görüntüleyin ve mağazaya ya da etkinlik türüne göre filtreleyin.
 
 POS'de:
@@ -117,8 +120,8 @@ POS'de:
 -   Sizinle aynı mağazaya atanan tüm çalışanlardan saat kayıt etkinliklerini görürsünüz.
 -   Zaman kayıtlarını filtrelemek için etkinlik türünü ve mağaza filtrelerini kullanabilirsiniz.
 
-## <a name="process-and-manage-time-registrations"></a>İşlem ve zaman kayıtlarını yönetme
-Dynamics 365 - operasyonlar için perakende kullanıcı saat kayıtlarını transfer için bordro hesaplamak ve onaylamak için iş akışını izler.
+## <a name="process-and-manage-time-registrations"></a>Zaman kayıtlarını işleme ve yönetme
+Dynamics 365 for Operations - Perakende kullanıcısı, zaman kayıtlarını hesaplamak, onaylamak ve ücret bordrosuna aktarmak için iş akışını takip eder.
 
 ### <a name="primary-operations"></a>Birincil işlemler
 
@@ -132,5 +135,7 @@ Dynamics 365 - operasyonlar için perakende kullanıcı saat kayıtlarını tran
 -   Devamsızlığı Kaydet
 
 Zaman ve işe devam kayıtlarını işleme yolları hakkında daha fazla bilgi için, bkz. <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
+
+
 
 

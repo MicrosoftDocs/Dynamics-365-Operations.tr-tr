@@ -1,6 +1,6 @@
 ---
-title: "Etkinlik tabanlı Taşeron"
-description: "Bu konu, ayrıntılı olarak Taşeron faaliyetleri üretim akışında yalın üretim için kullanmayı açıklar."
+title: "Etkinlik tabanlı alt sözleşme verme"
+description: "Bu konu, alt sözleşmeli etkinliklerin yalın imalat için üretim akışında nasıl kullanılacağını ayrıntılarıyla açıklar."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,80 +26,85 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="activity-based-subcontracting"></a>Etkinlik tabanlı Taşeron
+# <a name="activity-based-subcontracting"></a>Etkinlik tabanlı alt sözleşme verme
 
-Bu konu, ayrıntılı olarak Taşeron faaliyetleri üretim akışında yalın üretim için kullanmayı açıklar.
+[!include[banner](../includes/banner.md)]
 
-İşlemler için Microsoft Dynamics 365 Taşeron için iki yaklaşım vardır: üretim emirleri ve yalın üretim. Yalın üretim yaklaşımda, Taşeron iş üretim akışının bir faaliyetle ilgili bir hizmet olarak modellenmiştir. Maliyet grubu türü olarak adlandırılan özel türde bir **dış kaynak doğrudan** kullanılmaya başlanan, ve taşeron Hizmetleri artık bir ürün reçetesi (BOM) parçasıdır. Taşeron İş Maliyet muhasebesi yalın üretim için maliyetlendirme çözüm içine tamamen tümleşiktir.
+
+Bu konu, alt sözleşmeli etkinliklerin yalın imalat için üretim akışında nasıl kullanılacağını ayrıntılarıyla açıklar.
+
+Microsoft Dynamics 365 for Operations'ta, alt sözleşme için iki seçenek vardır: üretim emirleri ve yalın imalat. Yalın imalat yaklaşımında, alt özleşme işi bir üretim akışının etkinliğiyle ilişkili bir hizmet olarak modellenir. **Doğrudan dış kaynak kullanımı** olarak adlandırılan özel bir maliyet grubu türü kullanılmaya başlanmıştır ve alt sözleşme hizmetleri artık bir ürün reçetesinin (BOM) parçası değildir. Alt sözleşmeli işin maliyet muhasebesi, yalın imalatın maliyetlendirme çözümüne tümüyle entegre edilmiştir.
 
 ## <a name="production-flows-that-involve-subcontractors"></a>Alt yüklenicileri içeren üretim akışları
-Bir üretim akışının temel ilke etkinlikleri Taşeron değiştirmiyor. Malzeme hala konumlar arasında akan, işlem etkinliklerini malzeme ürünleri için dönüştürmek ve transfer etkinlikleri malzeme veya ürün bir konumdan diğerine taşımak. Konumlar modeller ve hücreler olarak satıcı tarafından yönetilen bir ambar veya bir kaynak grubunun kaynak için satıcı hesabı atama çalışma.  
+Üretim akışının temel prensibi, etkinlikler alt sözleşmeyle verildiğinde değişmemektedir. Malzeme hala konumlar arasında akmaktadır, işlem etkinlikleri malzemeleri ürünlere dönüştürür ve aktarma etkinlikleri malzeme veya ürünleri bir konumdan diğerine taşır. konumları ve iş hücrelerini, satıcı hesabını bir ambara veya bir kaynak grubunun kaynağına atayarak hücreleri satıcı tarafından yönetilen olarak modelleyebilirsiniz.  
 
-Bu yetenekler üzerinde bağlı olarak, yalın üretim, malzeme ve ürünleri akışını desteklemek için herhangi bir özel özelliği gerektirmez. Üretim veya taşıma hizmetleri sağlayıcıları modellenebilir gibi satıcılarla ilgili tüm olası senaryolar, üretim akışı ve aktivitelerin mimarisine dayalı.  
+Bu yeteneklere dayalı olarak, yalın üretim, malzeme ve ürün akışlarını desteklemek için herhangi bir özel özellik gerektirmez. Satıcıları üretim veya taşıma hizmeti sağlayıcısı olarak içeren, mümkün olan tüm senaryolar, üretim akış ve etkinlikleri mimarisine dayalı olarak modellenebilir.  
 
-Örneğin, bir alt yüklenici Taşeron bulunan bir süpermarket dışında çalışır. Birimlerin yönetilmesi alt yüklenici boşaltıldığında, kanban kartları derleme hücreye sonraki sevk irsaliyesi ile birlikte verilir. Alt yüklenici, süpermarket sonra yenilenir. Alt yüklenici gelen ve Giden Transferler çekme ve sevkiyat işlemini desteklemek için açık bir transfer aktiviteleri olarak modellenebilir. Açık bir kaydı fiziksel aktarım desteklemek için gerekli değildir, bir transfer aktiviteleri atlanabilir.  
+Örneğin, bir alt yüklenici, alt yüklenicide bulunan bir süpermarket dışına çalışmaktadır. Alt yüklenicide boşaltılan birimleri yönetirken, kanban kartları bir sonraki sevkiyat ile derleme hücresine geri döndürülür. Daha sonra alt yüklenicideki süpermarket yenilenir. Alt yükleniciye giden ve gelen transferler, bir çekme ve sevkiyat işlemini desteklemek için açık transfer etkinlikleri olarak modellenebilir. Fiziksel aktarmayı desteklemek için açık bir kayıt zorunlu değilse, aktarma etkinlikleri atlanabilir.  
 
-Bir taşeron yükünü dengelemek üretim akışının genel kapasite için kullanılabilir. Örneğin, bir üretim akışı zamanlanmış kanban kuralları kullanılarak modellenmiştir. Planlayıcının Tahta zamanlamak ve yük düzeyi için zamanlama kanban isteğe bağlı olarak her iki iş hücre kullanır. Planlayıcının süpermarket konsolide tedarik zamanlaması üzerinde de izler **tedarik zamanla** sayfa. Bir veya birden çok üretim akışlarında birden çok alt yüklenicilere modellenebilir ve aynı ürün farklı etkinlikler ile aynı konuma sağlamak için kullanılan kanban birden çok kural olabilir. Planlayıcıya iç üretimi için alternatif bir işlem için oluşturulan bir kanban yeniden zamanlamak için bir alternatif kanban kural kanbans dönüştürebilirsiniz. Aslında, Taşeron iş hücre yapısı üretim akışı üzerinde hiçbir etkisi olmaz. İki paralel iç iş hücre veya taşeron iki hücre aynı çalışma prensibi geçerlidir.   
+Bir taşeron, üretim akışının genel kapasitesinin yükünü dengelemek üzere kullanılabilir. Örneğin, bir üretim akışı, zamanlanmış kanban kuralları kullanılarak modellenmiştir. Planlayıcı,her iki iş hücresini isteğe bağlı olarak zamanlamak ve yük dengelemesini yapmak için kanban zamanlama panosunu kullanır. Planlayıcı ayrıca, süpermarket için birleştirilmiş tedarik zamanlamasını, **Tedarik zamanlamasında** sayfasında izler. Birden fazla alt yüklenici bir veya birden fazla üretim akışına modellenebilir ve aynı ürünü, aynı konuma farklı etkinlikler aracılığıyla tedarik etmek için kullanılabilecek birden fazla kanban kuralı mevcut olabilir. Planlayıcı, kanbanları, ilk başta dahili üretim veya alternatif işlem için oluşturulmuş olan bir kanbanı yeniden zamanlamak için alternatif bir kanban kuralına dönüştürebilir. Aslında, alt yüklenicinin iş hücresi yapısının üretim akışında hiçbir etkisi yoktur. Aynı çalışma prensibi, iki paralel dahili iş hücresinde veya iki alt yüklenici hücresinde geçerlidir.   
 
-Başka bir aktivite gibi üretim akışında, Taşeron aktiviteleri tüketen ve tedarik inventoried, inventoried (çalışma devam ediyor \[Süren\]) ve yarı bitmiş malzeme ve ürünleri. Tüm durumlarda, zamanlama ve taşeron faaliyetleri yürütmek için işlemler aynıdır. Ayrıca, bunlar iç iş süreçlerini aynı işlem.
+Üretim akışındaki diğer herhangi bir etkinlik gibi, alt taşeron etkinlikleri stoklanmış, stoklanmamış (süren iş \[WIP\]), ve yarı tamamlanmış malzeme ve ürünleri tüketebilir ve tedarik edebilir. Tüm durumlarda, alt yüklenici etkinliklerinin zamanlama ve yürütülmesi için işlemler aynıdır. Ek olarak, bunlar dahili işle aynı işlemleri işler.
 
-## <a name="purchase-process-for-subcontracted-activities-services"></a>Taşeron etkinlikler (Hizmetler) için satın alma süreci
-Taşeron etkinlikler için satın alma süreci kanban ilerleyişini tarafından örneğin kayıtlı fiziksel malzeme akışına dayalıdır, başlatmak veya tamamlamak. Taşeron Çalışma maliyet finansal akışı, örneğin, fiziksel akışını izleyen bir ikincil akış şeması aşağıda gösterilmiştir. Aynı zamanda, satınalma işleminin her adımı sırasında satınalma belgeleri el ile ayarlanmasına izin veren bağımsız bir işlemdir. Taşeron etkinlikler için satın alma süreci aşağıdaki gibidir:
+## <a name="purchase-process-for-subcontracted-activities-services"></a>Alt sözleşmeli etkinlikler (hizmetler) için satın alma işlemi
+Alt sözleşmeli etkinlikler için satın alma işlemi, örneğin Başlat veya Tamamla gibi kanban iş işlemi ile kaydedilen fiziksel malzeme akışına dayanır. Finansal akış, örneğin alt sözleşmeli işin maliyeti, fiziksel akışı takip eden bir ikincil akıştır. Aynı zamanda, satın alma işlemi, satın alma belgelerinin her adımda el ile ayarlanmasına izin veren bağımsız bir işlemdir. Alt sözleşmeli etkinlikler için satın alma işlemi buradadır:
 
-1.  Bir satın alma sözleşmesi oluşturun. Satın alma sözleşmesi hizmeti için oluşturulan ve üretim akışının faaliyete bağlı.
-2.  Bir satınalma siparişi oluşturmak. Satınalma sevk emri kanbanı zamanlanan işlere göre hizmet için oluşturulabilir. İşler aynı hizmeti için satınalma siparişi satırlarına güne, haftaya veya aya göre gruplandırılabilir. Satınalma siparişi satırları kanban işleri oluşturduktan sonra herhangi bir zamanda oluşturulabilir. Satınalma siparişi satırları olgu sonra bile oluşturulabilir. Bir taşeron Taşeron aldığı kanbans veya kanban kartları dayalı ek bildirmeden hizmetleri sağlıyorsa, bu seçenek genellikle seçilir. Bu durumda, satınalma siparişi ve faturayı arasındaki sapmalar en aza indirilebilir.
-3.  Kanban kartları, malzeme ve işleme için hazırlamak üzere taşerona göndermek için bir malzeme çekme listesi oluşturun. Üretim akışı ayrıntılı model oluşturma göre hazırlık kanban tahtada işlem faaliyetleri için malzeme çekme listesi ve hazırlama işlevi kullanılarak yapılır. Alternatif olarak, hazırlık kanban tahtada transfer işleri için malzeme çekme listesi ve başlangıç veya tamamlama kullanılarak yapılır. İnventoried malzeme için her iki süreç WMS çekme ve sevkiyat işlemi tarafından desteklenebilir. Konşimento, isteğe bağlı olarak oluşturulabilir.
-4.  Kanban işleme birimleri ve kanban kartları oluşturur. İşlemden sonra kartları taşerondan döndürülür. Genellikle, sevk edildi fiziksel malzeme belirten bir teslimat notu kartları içerir. Sağlanan hizmetleri başvuru gerekli deðildir. Malzeme veya müşteri ürünü gelişini kanban tahtada kanban kartları bağlı olarak kaydedilir. (İşlem etkinliklerini kanban panosu veya transfer işleri kanban Tahta Modellenen aktiviteleri bağlı olarak kullanılır.).
-5.  Danışma belgesi bir giriş oluşturun. Danışma belgesi alış irsaliyesi Sevk değiştirmek için kullanılan irsaliyesi belgesi alınan hizmetler için. Alış irsaliyesi danışma tamamlanmış kanban işleri Taşeron faaliyet için seçilen döneme göre oluşturulabilir. Her işi alış irsaliyesi için danışma ilgili satınalma siparişi satırı için oluşturulur. Danışma belgesi giriş yazdırılır ve taşerona giriş teyidi olarak gönderilir.
-6.  Bir fatura oluşturun.
+1.  Bir satınalma sözleşmesi oluştur. Satın alma sözleşmesi hizmet için oluşturulur ve üretim akışının etkinliğine bağlıdır.
+2.  Bir satınalma siparişi oluşturmak. Bir satın alma sevk emri, zamanlanan kanban işlerine dayalı olarak hizmet için oluşturulabilir. Aynı hizmet için işler satın alma emrine gün, hafta veya ay olarak gruplandırılabilir. Satın alma emri satırları, kanban işleri oluşturulduktan sonra herhangi bir zamanda oluşturulabilir. Satınalma siparişi satırları bundan sonra bile oluşturulabilir. Bu seçenek genellikle bir alt yüklenici hizmetleri ek bildirim olmadan, yüklenicinin edindiği kanbanlar veya kanban kartlarına dayalı olarak sağladığında seçilir. Bu durumda, satınalma emri ve fatura arasındaki sapmalar en aza indirilebilir.
+3.  İşlemek üzere alt yükleniciye göndermek için kanban kartları, malzemeler ve bir malzeme çekme listesi oluştur. Üretim akışının ayrıntılı modellemesine dayalı olarak, işlem etkinlikleri için hazırlanma, kanban tahtasında malzeme çekme listesi ve hazırlama fonksiyonu kullanılarak yapılır. Hazırlık, alternatif olarak transfer işleri için kanban tahtasında, malzeme çekme listesi ve başlatma veya tamamlama kullanılarak yapılır. Stoklu malzeme için her iki işlem bir WMS çekme ve sevkiyat işlemi tarafından desteklenebilir. İsteğe bağlı olarak bir konşimento oluşturulabilir.
+4.  Kanban yönetme birimleri ve kanban kartları oluştur. İşlemden sonra, kartlar alt yükleniciden döndürülür. Kartlar genellikle sevk edilmiş olan fiziksel malzemeyi belirten bir teslimat notu içerir. Sağlanan hizmetlere bir başvuru gerekli değildir. Malzeme veya ürünün müşteriye gelişi, kanban kartlarına bağlı olarak kanban tahtasında kaydedilir. (Modellenen etkinliklere bağlı olarak işlem etkinlikleri için kanban tahtası ya da transfer işleri için kanban tahtası kullanılır.).
+5.  Bir danışma belgesi oluşturun. Giriş önerisi, alınan hizmetler için sevk irsaliyesi belgesinin yerine geçmek için kullanılabilir.a Giriş önerileri, alt sözleşmeyle verilen etkinliklere bağlı olarak seçilen bir dönem için oluşturulabilir. Her bir iş girişi için, ilgili satınalma emri hattında öneriler oluşturulur. Giriş önerisinin çıktısı alınabilir ve girişin teyidi olarak alt yükleniciye gönderilebilir.
+6.  Bir fatura oluştur.
 
-Taşeron bir dönemde faturalandığında işlemi sonlandırır. Fatura eşleşme oluşturulan giriş danışma karşı yapılır. Tam fiziksel giriş malzeme giriş danışma temsil ettiğinden, üç yollu eşleşen basitleştirir.
+Alt yüklenici bir dönem için faturalandığında işlem sona erer. Fatura eşleşme, oluşturulan giriş önerilerine karşılık yapılır. Giriş önerileri malzemenin tam fiziksel girişini temsil ettiklerinden, üç yollu eşleştirme basitleştirilir.
 
-## <a name="configuring-activities-for-subcontracting"></a>Taşeron için faaliyetler yapılandırma
-Aşağıdaki bölümlerde, Taşeron için faaliyetler konfigüre etme yöntemleri açıklanmaktadır.
+## <a name="configuring-activities-for-subcontracting"></a>Alt sözleşme için etkinlikleri yapılandırma
+Aşağıdaki bölümler, alt sözleşme için etkinlikleri yapılandırma yöntemlerini açıklamaktadır.
 
-### <a name="subcontracted-services"></a>Taşeron Hizmetleri
+### <a name="subcontracted-services"></a>Alt sözleşme hizmetleri
 
-Etkinlik tabanlı Taşeron olarak kullanılan ödeme öğe aşağıdaki özelliklere sahip bir ürün olması gerekir:
+Etkinlik tabanlı alt sözleşmede kullanılan ödeme öğesi, aşağıdaki özelliklere sahip bir ürün olmalıdır:
 
--   **Ürün türü:** hizmeti
--   **Stok modeli grubu:** stoğu olmayan
+-   **Ürün türü:** Hizmet
+-   **Stok modeli grubu:** Stoksuz
 
-Bu gereksinim ilk kullanımını zorlar içinde ilk çıkar (FIFO) stok modeli. **Not:** ürünlerin maliyet hesaplama gerektirir service standart maliyetini tanımlanması. Satıcıyla bir satın alma sözleşmesi gerek yoktur. Aksi halde, Taşeron etkinlik tabanlı hizmet kullanılamaz.
+Bu gereksinim ilk giren ilk çıkar (FIFO) stok modelinin kullanımını zorlar. **Not:** Ürünlerin maliyet hesaplaması, hizmetin standart maliyetinin tanımlanmış olmasını gerektirir. Satıcıyla bir satınalma sözleşmesi gereklidir. Aksi halde hizmet alt sözleşme tabanlı etkinlikler için kullanılamaz.
 
-### <a name="subcontracted-process-activities"></a>Taşeron işlemi etkinlikleri
+### <a name="subcontracted-process-activities"></a>Alt sözleşmeli işlem etkinlikleri
 
-Bir işlem etkinliği Taşeron bir etkinlik olarak yapılandırmak için aşağıdaki adımları izleyin.
+Bir işlem etkinliğini alt sözleşmeli bir etkinlik olarak yapılandırmak için aşağıdaki adımları izleyin.
 
-1.  Taşeron iş hücre yapılandırın. İş hücre Taşeron olarak yapılandırmak için bir kaynak oluşturmak **satıcı** yazın ve iş hücre (kaynak grubu) ile ilişkilendirin. Çalışma zamanı maliyet kategorisini **dış kaynak doğrudan** maliyet grubu türü iş hücreye atanmış. Kurulum ve miktar için maliyet kategorilerini gerekli değildir.
-2.  Bir işlem etkinliği oluşturduğunuzda veya bir taşeron iş hücreyle ilişkili üretim akışı sürümünün etkinleştirilebilmesi için önce bir servis aktivitesi için yapılandırmanız gerekir. Bu adımı tamamlamak **faaliyet****ayrıntıları** sayfa. Bir taşeron çalışma hücresiyle ilişkilendirilmiş aktiviteleri için **hizmet şartları** hızlı gösterilir. Bu hızlı sekmesinde, tüm çıkış maddeler için geçerli olan varsayılan hizmet ekleyin. Belirli bir çıktı öğeleri farklı hizmetler veya farklı bir hizmet hesaplama parametreleri (örneğin, farklı hizmet oranı) gerektiriyorsa, aktivite diğer hizmetleri ekleyebilirsiniz.
+1.  Alt sözleşmeli iş hücresi yapılandırın. Bir iş hücresini alt sözleşmeli olarak yapılandırmak için, **Satıcı** türünde bir kaynak oluşturmalı ve onu iş hücresi (kaynak grubu) ile ilişkilendirmelisiniz. **Doğrudan dış kaynak** maliyet grubu türünün çalışma zamanı maliyeti kategorisi, iş hücresine atanmalıdır. Kurulum ve miktar için maliyet kategorileri gerekli değildir.
+2.  Bir işlem etkinliği oluşturulduktan ve alt sözleşmeli bir iş hücresine ilişkilendirildikten sonra, üretim akışı sürümü etkinleştirilebilmeden önce etkinlik için bir hizmet yapılandırmanız gerekir. Bu adımı **Etkinlik** **ayrıntıları** sayfasında tamamlarsınız. Alt sözleşmeli iş hücresi ile ilişkili etkinlikler için, **Hizmet şartları** hızlı sekmesi gösterilir. Bu hızlı sekmede, tüm çıkış öğeleri için geçerli olan bir varsayılan hizmet ekleyin. Belirli çıkış öğeleri farklı hizmetlere veya farklı hizmet hesaplama parametrelerine ihtiyaç duyuyorsa (örneğin farklı bir hizmet oranı gibi), bu etkinliğe başka hizmetler ekleyebilirsiniz.
 
-## <a name="subcontracted-transfer-activities"></a>Taşeron bir transfer aktiviteleri
-Transfer etkinlik bağlı olarak, Taşeron bir etkinlik olarak yapılandırılmış **Navlun sorumlusu** transfer etkinliğini ayarlama. Aşağıdaki seçenekler bulunur:
+## <a name="subcontracted-transfer-activities"></a>Alt sözleşmeli transfer etkinlikleri
+Transfer etkinliği, transfer etkinliğinin **Navlun sorumlusu** ayarına bağlı olarak alt sözleşmeli bir etkinlik olarak yapılandırılır. Aşağıdaki seçenekler bulunur:
 
--   **Taşıyıcı** – ambardaki transfer (bir ambar özelliği tarafından tanımlanan) satıcı tarafından yönetiliyorsa etkinlik Taşeron. Seçili satınalma Hizmetleri sözleşmelerini tüm ambar olarak aynı satıcı kimliği olması gerekir.
--   **Alıcı** – ambara transfer (bir ambar özelliği tarafından tanımlanan) satıcı tarafından yönetiliyorsa etkinlik Taşeron. Seçili satınalma Hizmetleri sözleşmelerini tüm ambar olarak aynı satıcı kimliği olması gerekir.
--   **Taşıyıcı** – etkinlik hizmetleri sağlayan herhangi bir satıcı için Taşeron. Geçerli olması için bir taşıyıcı ambar yönetimi için oluşturulan ve atanan satıcı hesabı olması gerekir.
+-   **Nakliyeci** – Ambardan transfer bir satıcı tarafından yönetiliyorsa (ambarın bir özelliği olarak tanımlanmış şekilde) etkinlik alt sözleşmeli verilir. Hizmetler için seçili tüm satınalma sözleşmelerinin ambar ile aynı satıcı kimliğine sahip olması gerekir.
+-   **Alıcı** – Ambara giden transfer bir satıcı tarafından yönetiliyorsa (ambarın bir özelliği olarak tanımlanmış şekilde) etkinlik alt sözleşmeli verilir. Hizmetler için seçili tüm satınalma sözleşmelerinin ambar ile aynı satıcı kimliğine sahip olması gerekir.
+-   **Taşıyıcı** – Etkinlik, bu hizmeti sağlayan herhangi bir satıcıya alt sözleşmeli verilir. Geçerli olması için bir taşıyıcının ambar yönetimi için oluşturulmuş olması ve bir satıcı hesabının atanmış olması gerekir.
 
-İşlem etkinliklerini olduğu gibi Taşeron transfer etkinlikler için varsayılan hizmet üzerinde yapılandırmalısınız **hizmet şartları** hızlı **faaliyet****ayrıntıları** sayfa.
+İşlem etkinlikleri için alt sözleşmeli transfer etkinlikleri için **Etkinlik** **ayrıntılarının** **Hizmet şartları** hızlı sekmesinde varsayılan bir hizmet yapılandırmalısınız.
 
 ## <a name="service-quantity-calculation"></a>Hizmet miktarı hesaplama
-Tüm satın alma süreci bir madde başvuru hizmeti dayanır. Bu madde başvuru ölçü birimi, bir hizmetin içinde ölçülür. Hizmetler genellikle Hizmetleri (birim) sayısı veya zaman olarak ölçülür. Kanban işlerinin kayıtlı tamamlanma dayalı hizmet miktarını hesaplamak için aşağıdaki yöntemleri kullanabilirsiniz:
+Tüm bu satınalma işlemi, bir hizmet için öğe referansına dayanır. Bu öğe referansı, bir hizmet ölçüm biriminde ölçülür. Hizmetler genellikle ya hizmetlerin sayısı (birim) ya da zaman cinsinden ölçülür. Kanban işlerinin kayıtlı tamamlanmalarına dayanarak hizmet miktarını hesaplamak için, aşağıdaki yöntemleri kullanabilirsiniz:
 
--   **İşleri sayısını temel alan hesaplama** – bir kanban iş eşittir *n* sağlanan ürün miktarı ne olursa olsun, servis birimleri. Yalın üretim içinde bir iş işleme birimine karşılık gelir. Bu hesaplama yöntemi işleme birim başına sabit bir fiyata sahip tüm hizmetler için geçerlidir. Bu nedenle, bu yöntem genellikle etkinlikleri aktarmak için geçerlidir. Ancak, tüm işleme birimleri işlem işlem etkinliklerini de uygulayabilirsiniz.
--   **Ürün miktar temel alınarak hesaplama** – planlanan ve sağlanan ürün miktarı göreceli olarak hizmet miktarıdır. Sağlanan ürün miktarı hesaplanırken hata miktarlarını da dahil etmek veya hariç. Bu hesaplama yöntemi burada hizmet gören ürün birim fiyatı üzerinde anlaşmaya varılan tüm servis talepleri için geçerlidir.
--   **Etkinlik saati esas alarak hesaplama** – etkinliği işlem süresine dayalı teorik etkinlik saatler hesaplanır toplam işlenen miktar ve işlenen ürünün verim oranı. Bu hesaplama yöntemi saat başına ödenen hizmetler için geçerlidir ve işlenmiş ürün her zaman bir fark vardır.
+-   **İşlerin sayısına dayanan hesaplama** - Bir kanban işi *n* birim hizmete karşılık gelir, sağlanan ürün miktarı ne olursa olsun. Yalın imalatta, bir iş bir işlem birimine karşılık gelir. Bu hesaplama yöntemi, işlem birimi başına sabit bir fiyata sahip tüm hizmetlere uygulanır. Bu nedenle, bu yöntem genellikle aktarma etkinlikleri için geçerlidir. Ancak, tüm işleme birimlerini işleyen işlem etkinliklerine de uygulanabilir.
+-   **Ürün miktarını temel alan hesaplama** - Hizmet miktarı, zamanlanan/sağlanan ürün miktarıyla bağıntılıdır. Sağlanan ürün miktarı hesaplandığında, hata miktarları dahil edilebilir veya hariç tutulabilir. Bu hesaplama yöntemi, işlenen ürün başına birim hizmet fiyatının önceden anlaşmaya varıldığı tüm durumlara uygulanır.
+-   **Etkinlik süresine dayanan hesaplama** – Teorik etkinlik süreleri, etkinliğin işleme süresine, toplam işlenen miktara ve işlenen ürünün iş çıkarma yeteneği oranına dayanarak hesaplanır. Bu hesaplama yöntemi, saat başına ödeme yapılan hizmetlere uygulanır ve işlenmiş ürün içinde bir zaman farkı vardır.
 
-## <a name="cost-accounting-of-subcontracted-services"></a>Maliyet muhasebesi Taşeron Hizmetleri
-Girişinin değeri üretim akışı WIP hesaplarında danışma alış irsaliyesi veya sevk irsaliyesi (diğer bir deyişle, kanban işleri Taşeron etkinlikler için temel alarak oluşturulan bir satınalma siparişi) bir üretim akışı için oluşturulan satınalma siparişine satıcı deftere nakledildiğinde, hesaba katılmış olur. Üretim akışı için sapmalar faturaların da hesaba katılmış. Taşeron Çalışma için bir maliyet kategorisinin tanıttı. Bu maliyet kategorisinin saydam Süren İŞTEN ayrılan ve her dönem için tüketilen Taşeron iş değerinin izlenmesini sağlar.  
+## <a name="cost-accounting-of-subcontracted-services"></a>Alt sözleşmeli hizmetlerin maliyet muhasebesi
+Bir üretim akışı için oluşturulan satınalma emri üzerindeki giriş önerisi veya satıcı sevk irsaliyesi gönderildiğinde (başka bir deyişle, alt sözleşmeli etkinlikler için kanban işlerine dayanarak oluşturulmuş bir satınalma emrinde), girişin değeri, üretim akışının süren işlerinde hesaba katılır. Faturaların sapmaları da üretim akışında hesaba katılır. Alt sözleşmeli işler için bir maliyet kategorisi de kullanıma alınmıştır. Bu maliyet kategorisi, süren iş ve dönemde tüketilen alt sözleşmeli iş değerinin şeffaf bir şekilde izlenmesine olanak sağlar.  
 
-Yalın üretim maliyet dönemi sonunda için maliyetlendirme tamamlandığında malzeme çek üretim akışından maliyetlendirme dönemde üretilen ürünlerin gerçek farklarını hesaplar.
+Bir maliyet döneminin sonundaki yalın imalat için geriye dönük maliyetlendirme, maliyetlendirme dönemi sırasında üretim akışından üretilmiş ürünlerin gerçek sapmalarını hesaplar.
 
-## <a name="modeling-transfers-as-subcontracted-activities"></a>Modelleme Taşeron aktiviteleri olarak aktarır.
-İnsanlar genellikle taşıma toplanması ve düşünme, hiçbir değer ekler düşünün. Ancak, iç üretim maliyetine taşeron maliyeti karşılaştırıldığında ek taşıma faaliyetleri maliyetini dikkate alınmalıdır. Taşıma maliyeti müşteriye ürünleri sağlama maliyetinin bir parçası olarak birden çok konuma yayılmış ve taşıma hizmetleri gerektiren bir üretim akışı model. 
+## <a name="modeling-transfers-as-subcontracted-activities"></a>Transferleri alt sözleşmeli etkinlikler olarak modelleme
+İnsan taşımanın genellikle verimsiz olduğunu ve hiçbir değer eklemediğini düşünür. Ancak, alt sözleşme maliyeti, dahili üretimin maliyetiyle kıyaslandığında, ek taşıma etkinliklerinin maliyeti de dikkate alınmalıdır. Birden fazla konumu kapsayan ve taşıma hizmetlerini gerektiren bir üretim akışı, taşıma maliyetini, ürünlerin tüketiciye tedarik edilme maliyetinin bir parçası olarak dikkate almalıdır. 
 
-Yalın üretim etkinlik tabanlı Taşeron taşıyıcılar bütünleştirmek ve malzeme ve ürünleri üretim akışının konumlar arasında hareket eden satıcılar taşıma sağlar. Transfer etkinlik model oluşturma, bir taşıyıcı veya satıcı atayabilirsiniz. Etkinlikler/iş transfer hizmeti ve satınalma Sözleşmesi'nde dayanır ve satınalma siparişleri ve giriş danışma, gerçek transfer işlere göre oluşturabilirsiniz. Bu işlevsellik işlevleriyle ilgili Taşeron işlem etkinliklerini aynıdır.  
+Yalın üretim içerisinde etkinlik tabanlı alt sözleşme, malzemeleri ve ürünleri bir üretim akışının konumları arasında nakleden taşıyıcıları ve taşıma satıcılarını bütünleştirmenize olanak sağlar. Bir transfer etkinliğini modelleyerek, bir taşıyıcı veya satıcı atayabilirsiniz. Transfer etkinlikleri/işi, bir hizmete ve satınalma sözleşmesine dayanır ve gerçek transfer işlerine dayanan satınalma emirleri ve giriş önerileri oluşturabilirsiniz. Bu işlevsellik, alt sözleşmeli işlem etkinlikleri işlevselliğiyle aynıdır.  
 
-Bu nedenle, Dynamics 365 taşıma hizmetleri, ilgili oluşturulmasını destekler ürün reçetesi hesaplaması satınalma siparişleri, tümleşik giriş kayıt ve aktarım tümleştirme artık işlemleri için maliyetleri üretim akışı maliyetlendirme içine hizmet.
+Bu nedenle, Dynamics 365 for Operations artık taşıma hizmetlerini içeren ürün reçetesi hesaplamasını, ilişkili satınalma emirlerinin oluşturulmasını, tümleştirilmiş giriş kayıtlarını ve taşıma hizmeti maliyetlerini üretim akışı maliyetine katmayı destekler.
+
+
 
 

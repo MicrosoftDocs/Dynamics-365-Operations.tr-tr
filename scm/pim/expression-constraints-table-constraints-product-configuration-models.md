@@ -40,7 +40,7 @@ Tablo kısıtlamaları, bir ürün yapılandırdığınızda öznitelikler için
 
 ### <a name="example-of-a-table-constraint"></a>Bir tablo kısıtlaması örneği.
 
-Bu örnek, hoparlör yapılandırmasını belirli bir kabin rengi ve ön cephesiyle nasıl sınırlandırabileceğinizi gösterir. İlk tablo, yapılandırma için genelde kullanılabilir olan kabin rengini ve ön cepheyi gösterir. Değerler için tanımlanan ** dolap bitiş ** ve **ön grill** öznitelik türleri.
+Bu örnek, hoparlör yapılandırmasını belirli bir kabin rengi ve ön cephesiyle nasıl sınırlandırabileceğinizi gösterir. İlk tablo, yapılandırma için genelde kullanılabilir olan kabin rengini ve ön cepheyi gösterir. Değerler **Kabin rengi **ve **Ön ızgara** öznitelik türleri için tanımlanır.
 
 | Öznitelik türü | Değerler                      |
 |----------------|-----------------------------|
@@ -61,7 +61,7 @@ Sonraki tablo, **Renk ve kaplama** tablo kısıtlamasıyla tanımlanan birleşim
 Sistem tanımlı ve kullanıcı tanımlı tablo kısıtlamaları oluşturabilirsiniz. Daha fazla bilgi için, [Sistem tanımlı ve kullanıcı tanımlı tablo kısıtlamaları](system-defined-user-defined-table-constraints.md) bölümüne bakın.
 
 ## <a name="what-syntax-should-be-used-to-write-constraints"></a>Kısıtlamaları yazmak için hangi sözdizimi kullanılmalıdır?
-Kısıtlamaları yazarken En İyi Duruma Getirme Modelleme Dili (OML) sözdizimini kullanmalısınız. Sistem Microsoft Çözücü Foundation kısıtlaması Çözücü kısıtlamaları çözmek için kullanır.
+Kısıtlamaları yazarken En İyi Duruma Getirme Modelleme Dili (OML) sözdizimini kullanmalısınız. Sistem, kısıtlamaları çözümlemek için Microsoft Solver Foundation kısıtlama çözücüsünü kullanır.
 
 ## <a name="should-i-use-table-constraints-or-expression-constraints"></a>Tablo kısıtlamaları veya ifade kısıtlamaları kullanmam gerekir mi?
 Kısıtlamaları nasıl oluşturmayı tercih ettiğinizde bağlı olarak ifade kısıtlamalarını ya da tablo kısıtlamalarını kullanabilirsiniz. İfade kısıtlaması tek bir ifade olduğunda bir matris olarak tablo kısıtlaması oluşturursunuz. Bir ürünü yapılandırdığınızda, ne tür bir kısıtlama kullanıldığının önemi yoktur. Aşağıdaki örnekte iki yöntem arasındaki fark gösterilir.  
@@ -110,32 +110,32 @@ Aşağıdaki tablolarda, ürün yapılandırma modelinde bir bileşen için bir 
 <td>İlk koşul yanlış, ikinci koşul doğru ya da her ikisi de doğru ise bu doğrudur.</td>
 <td>Implies[a, b], infix: a -: b</td>
 <td><ul>
-<li><strong>Operatör:</strong> anlamına gelir [x! = 0, y &gt;= 0]</li>
-<li><strong>İnfix gösterimi:</strong> x! = 0-: y &gt;= 0</li>
+<li><strong>İşleç:</strong> Implies[x != 0, y &gt;= 0]</li>
+<li><strong>Parantezli yazım:</strong> x != 0 -: y &gt;= 0</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Ve</td>
 <td>Koşulların tümü doğru ise bu doğrudur. Koşulların sayısı 0 (sıfır) ise, <strong>Doğru</strong> değeri çıkar.</td>
-<td>Ve [args] infix: bir &amp;b &amp; ... &amp;z</td>
+<td>And[args], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
-<li><strong>Operatör:</strong> ve [x 2, == y &lt;= 2]</li>
-<li><strong>İnfix gösterimi:</strong> x 2 == &amp;y &lt;= 2</li>
+<li><strong>İşleç:</strong> And[x == 2, y &lt;= 2]</li>
+<li><strong>Parantezli yazım:</strong> x == 2 &amp; y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Veya</td>
 <td>Herhangi bir koşul doğru ise bu doğrudur. Koşulların sayısı 0 (sıfır) ise, <strong>Yanlış</strong> değeri çıkar.</td>
-<td>Veya [args] infix: bir | b | ... | z</td>
+<td>Or[args], infix: a | b | ... | z</td>
 <td><ul>
-<li><strong>Operatör:</strong> veya [x 2, == y &lt;= 2]</li>
-<li><strong>İnfix gösterimi:</strong> x 2 == | y &lt;= 2</li>
+<li><strong>İşleç:</strong> Or[x == 2, y &lt;= 2]</li>
+<li><strong>Parantezli yazım:</strong> x == 2 | y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Artı</td>
 <td>Bu, koşullarını toplar. Koşulların sayısı 0 (sıfır) ise, <strong>0</strong> değeri çıkar.</td>
-<td>[Args] infix: bir + b +... + z</td>
+<td>Plus[args], infix: a + b + ... + z</td>
 <td><ul>
 <li><strong>İşleç:</strong> Plus[x, y, 2] == z</li>
 <li><strong>Parantezli yazım:</strong> x + y + 2 == z</li>
@@ -159,7 +159,7 @@ Aşağıdaki tablolarda, ürün yapılandırma modelinde bir bileşen için bir 
 <tr class="odd">
 <td>Zaman</td>
 <td>Bu, koşullarının ürününü alır. Koşulların sayısı 0 (sıfır) ise, <strong>1</strong> değeri çıkar.</td>
-<td>[Args times] infix: bir * b *... * z</td>
+<td>Times[args], infix: a * b * ... * z</td>
 <td><ul>
 <li><strong>İşleç:</strong> Times[x, y, 2] == z</li>
 <li><strong>Parantezli yazım:</strong> x * y * 2 == z</li>
@@ -167,8 +167,8 @@ Aşağıdaki tablolarda, ürün yapılandırma modelinde bir bileşen için bir 
 </tr>
 <tr class="even">
 <td>Güç</td>
-<td>Vu, üslü değer alır. Kuvveti sağdan sola uygular. (Diğer bir deyişle, sağa ilişkilendirilebilir.) Bu nedenle, <strong>güç [a, b, c]</strong> eşdeğer olan <strong>güç [, güç [b, c]]</strong>. <strong>Power</strong>, üs yalnızca pozitif bir sabit sayı ise kullanılabilir.</td>
-<td>Güç [args], infix: bir ^ b ^... ^ z</td>
+<td>Vu, üslü değer alır. Kuvveti sağdan sola uygular. (Diğer bir deyişle, sağa ilişkilendirilebilir.) Bu nedenle, <strong>Power[a, b, c]</strong> <strong>Power[, Power[b, c]]</strong> ile eşdeğerdir. <strong>Power</strong>, üs yalnızca pozitif bir sabit sayı ise kullanılabilir.</td>
+<td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>İşleç:</strong> Power[x, 2] == y</li>
 <li><strong>Parantezli yazım:</strong> x ^ 2 == y</li>
@@ -191,7 +191,7 @@ Aşağıdaki tablolarda, ürün yapılandırma modelinde bir bileşen için bir 
 <td>Bu, koşulunun mantıksal tersini oluşturur. Tek bir koşula sahip olması gerekir.</td>
 <td>Not[expr], infix: !expr</td>
 <td><ul>
-<li><strong>Operatör:</strong> yok [x] &amp;yok [y 3 ==]</li>
+<li><strong>İşleç:</strong> Not[x] &amp; Not[y == 3]</li>
 <li><strong>Parantezli yazım:</strong> !x!(y == 3)</li>
 </ul></td>
 </tr>
@@ -203,7 +203,7 @@ Sonraki tablodaki örnekler parantezli yazımın nasıl yazılacağını göster
 | Parantezli yazım    | Açıklama                                                                                   |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | x + y + z         | Fark hesap eki                                                                                      |
-| X \*y \*z       | Çarpma                                                                                |
+| x \* y \* z       | Çarpma                                                                                |
 | x - y             | İkili çıkarma, negatife düşmüş bir ikinci varsa ikili toplama ile aynı şekilde çevrilir. |
 | x ^ y ^ z         | Sağa birleşimli üs                                                   |
 | !x                | Boole değil                                                                                   |
@@ -212,14 +212,14 @@ Sonraki tablodaki örnekler parantezli yazımın nasıl yazılacağını göster
 | x & y & z         | Boole ve                                                                                   |
 | x == y == z       | Denklik                                                                                      |
 | x != y != z       | Benzersiz                                                                                      |
-| X &lt;y &lt;z   | Küçüktür                                                                                     |
-| X &gt;y &gt;z   | Büyüktür                                                                                  |
-| X &lt;= y &lt;= z | Küçüktür veya eşittir                                                                         |
-| X &gt;= y &gt;= z | Büyüktür veya eşittir                                                                      |
+| x &lt; y &lt; z   | Küçüktür                                                                                     |
+| x &gt; y &gt; z   | Büyüktür                                                                                  |
+| x &lt;= y &lt;= z | Küçüktür veya eşittir                                                                         |
+| x &gt;= y &gt;= z | Büyüktür veya eşittir                                                                      |
 | (x)               | Parantezler varsayılan önceliği geçersiz kılar.                                                      |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>İfade kısıtlamalarım neden hatasız doğrulanmıyor?
-Ayrılmış anahtar sözcükleri, öznitelikleri, bileşenleri veya ürün yapılandırma modelinde alt bileşenleri için Çözücü ad olarak kullanamazsınız. Kullanamazsınız ayrılmış anahtar sözcüklerin listesi aşağıdadır:
+Ayrılmış anahtar sözcükleri, öznitelikleri, bileşenleri veya ürün yapılandırma modelinde alt bileşenleri için çözücü ad olarak kullanamazsınız. Kullanamayacağınız anahtar sözcüklerin bir listesi aşağıdadır:
 
 -   Üst
 -   Öğe
@@ -245,8 +245,8 @@ Ayrılmış anahtar sözcükleri, öznitelikleri, bileşenleri veya ürün yapı
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Bir ifade kısıtlama (görev Kılavuzu) oluşturma](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
+[Bir ifade kısıtlaması oluşturma (Görev kılavuzu)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
 
-[Bir hesaplamanın ürün yapılandırma modeli (görev Kılavuzu) Ekle](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+[Bir ürün yapılandırma modeline hesaplama ekleme (Görev kılavuzu)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
 
 

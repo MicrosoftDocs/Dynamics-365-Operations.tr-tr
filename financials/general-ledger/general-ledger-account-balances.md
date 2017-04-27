@@ -1,6 +1,6 @@
 ---
 title: Genel defter hesap bakiyeleri
-description: "Bu makalede, genel muhasebe hesabı bakiyelerini - mizan listesi sayfası ve mali raporları görüntülemek için iki yöntem açıklanmaktadır. Makalede, boyut kümesi bakiyelerinin nasıl güncelleştirileceği de ele alınmaktadır."
+description: "Bu makalede, genel muhasebe hesabı bakiyelerini görüntülemek için kullanılan iki yöntem açıklanmaktadır -  Mizan listesi sayfası ve mali raporlar. Makalede, boyut kümesi bakiyelerinin nasıl güncelleştirileceği de ele alınmaktadır."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="general-ledger-account-balances"></a>Genel defter hesap bakiyeleri
 
-Bu makalede, genel muhasebe hesabı bakiyelerini - mizan listesi sayfası ve mali raporları görüntülemek için iki yöntem açıklanmaktadır. Makalede, boyut kümesi bakiyelerinin nasıl güncelleştirileceği de ele alınmaktadır.
+[!include[banner](../includes/banner.md)]
+
+
+Bu makalede, genel muhasebe hesabı bakiyelerini görüntülemek için kullanılan iki yöntem açıklanmaktadır -  Mizan listesi sayfası ve mali raporlar. Makalede, boyut kümesi bakiyelerinin nasıl güncelleştirileceği de ele alınmaktadır.
 
 Kullanıcıların genel defterdeki bakiyeleri görebilmesi için çeşitli yöntemler mevcuttur. En yaygın kullanılan seçeneklerden bazıları şunlardır:
 
@@ -46,6 +49,8 @@ Bir kullanıcı parametreleri değiştiğinde bakiyeleri yenilenir. Kullanıcı 
 
 Kullanıcılar, bakiyeyi oluşturan hareketleri görüntülemek için bakiyeleri ayrıntılı olarak gözden geçirebilirler.    
 
-Daha fazla bilgi için bkz: [finansal raporlar görüntülemek](view-financial-reports.md).
+Daha fazla bilgi için bkz. [Finansal raporlara göz at](view-financial-reports.md).
+
+
 
 

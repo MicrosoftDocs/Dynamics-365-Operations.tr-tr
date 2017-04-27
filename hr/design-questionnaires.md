@@ -1,6 +1,6 @@
 ---
 title: Bir soru formu tasarlama
-description: "Bu konuda bir anket oluşturma işlemini açıklar. İlk adım anketi tasarlamaktır. Bir anket tasarladığınızda, yalnızca soru ve yanıtları yazmayın, aynı zamanda yanıtların kaydedilip tablolar oluşturulmasını sağlayan yapıyı oluşturun."
+description: "Bu konu bir anket oluşturma işlemini açıklar. İlk adım anketi tasarlamaktır. Bir anket tasarladığınızda, yalnızca soru ve yanıtları yazmayın, aynı zamanda yanıtların kaydedilip tablolar oluşturulmasını sağlayan yapıyı oluşturun."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="design-a-questionnaire"></a>Bir soru formu tasarlama
 
-Bu konuda bir anket oluşturma işlemini açıklar. İlk adım anketi tasarlamaktır. Bir anket tasarladığınızda, yalnızca soru ve yanıtları yazmayın, aynı zamanda yanıtların kaydedilip tablolar oluşturulmasını sağlayan yapıyı oluşturun. 
+Bu konu bir anket oluşturma işlemini açıklar. İlk adım anketi tasarlamaktır. Bir anket tasarladığınızda, yalnızca soru ve yanıtları yazmayın, aynı zamanda yanıtların kaydedilip tablolar oluşturulmasını sağlayan yapıyı oluşturun. 
 
 Dikkatli şekilde tasarlanmış bir anket, topladığınız verilerin kalitesini artırabilir. Dikkatli tasarım ile bir anket için uygun zamanda uygun seçenekleri daha iyi seçebilirsiniz. Aşağıdaki noktalar etkili bir anket planlamanıza yardımcı olabilir:
 
@@ -87,12 +87,12 @@ Anket parametreleri isteğe bağlıdır. Şirketinizin gereksinimlerine bağlı 
 
 Anket parametreleri bir anketin gizliliğini, numara seri kodlarını ve referans türlerini tanımlar. Bir kuruluş bir anket dağıttığında, yanıtlayanların gizli kalması seçeneği söz konusu olabilir. 
 
-Numara seri kodları sorular ve yanıtlar düzenlemek için kullanılır. Bu numara serisi kodlarını üzerinde bağlı olarak, değerleri için öğeleri otomatik olarak atanır. 
+Numara seri kodları sorular ve yanıtlar düzenlemek için kullanılır. Bu numara serisi kodlarına bağlı olarak, değerler öğelere otomatik olarak atanır. 
 
 Verilerinizi oluşturmaya başlamadan önce tüm parametreleri tanımlamanız gerekir. Anket parametre ayarlarını istediğiniz zaman değiştirebilirsiniz.
 
 ## <a name="questionnaire-components"></a>Anket bileşenleri
-Soru formu oluşturan üç ana öğe: yanıtlamak için Çoktan Seçmeli yanıtları içeren gruplara sorular, sorular ve soru. İsteğe bağlı olarak, bir soru formundaki soruların sonucu gruplar halinde gruplandırabilirsiniz. Sonuç grupları soruları kategorilere ayırmanızı sağlar ve anket hakkında daha fazla analiz sağlar. 
+Soru formlar üç ana öğeden oluşur: çoktan seçmeli sorular için cevapları içeren cevap grupları, sorular ve soru formunun kendisi. İsteğe bağlı olarak, bir soru formundaki soruları sonuç sayfalarına da gruplandırabilirsiniz. Sonuç grupları soruları kategorilere ayırmanızı sağlar ve anket hakkında daha fazla analiz sağlar. 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -235,6 +235,6 @@ Alternatif olarak, bir yanıtlayan soru 1 için cevap A'yı seçtiğinde soru s�
 
 [Soru formlarını dağıtma ve tamamlama](distribute-questionnaires.md)
 
-[Soru formlarının sonuçlarını değerlendirmek ve görüntüleme](evaluate-questionnaire-results.md)
+[Soru formlarının sonuçlarını görüntüleyin ve değerlendirin](evaluate-questionnaire-results.md)
 
 

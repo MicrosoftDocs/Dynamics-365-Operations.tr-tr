@@ -1,5 +1,5 @@
 ---
-title: "Birden fazla indirim dönemleri olan bir kısmi Müşteri ödeme kapatma"
+title: "Birden fazla iskonto dönemi olan bir kısmi müşteri ödemesini kapatma"
 description: "Bu makale, birden fazla iskonto dönemi olduğunda kısmi müşteri ödemelerinin nasıl kapatıldığını gösterir."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Birden fazla indirim dönemleri olan bir kısmi Müşteri ödeme kapatma
+# <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Birden fazla iskonto dönemi olan bir kısmi müşteri ödemesini kapatma
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makale, birden fazla iskonto dönemi olduğunda kısmi müşteri ödemelerinin nasıl kapatıldığını gösterir.
 
-Fabrikam, müşteri 4031'e iki nakit iskonto dönemi sunuyor. Müşteri, faturayı beş gün içinde öderse yüzde 2'lik bir nakit iskontosu ve 14 gün içinde öderse yüzde 1'lik bir nakit iskontosu alır. Fabrikam, kısmi ödemeler için de nakit iskontoları sunmaktadır. Kapatma parametreleri üzerinde bulunan **Accounts receivable parameters** sayfa.
+Fabrikam, müşteri 4031'e iki nakit iskonto dönemi sunuyor. Müşteri, faturayı beş gün içinde öderse yüzde 2'lik bir nakit iskontosu ve 14 gün içinde öderse yüzde 1'lik bir nakit iskontosu alır. Fabrikam, kısmi ödemeler için de nakit iskontoları sunmaktadır. Kapatma parametreleri, **Alacak hesapları parametreleri** sayfasında bulunur.
 
 ## <a name="invoice"></a>Fatura
-25 Haziran Tamer girer ve 1.000,00 4031 müşteri için bir fatura deftere nakleder. He bu fatura için nakit iskontoları inceler, 30 Haziran faturası ödeniyorsa bir müşteriye 4031 20.00 bir iskonto alır Tamer görür. Müşteri fatura 9 Temmuz ödeniyorsa 10,00 iskonto alır.
+25 Haziran Tamer 4031 müşteri için 1.000,00 değerinde bir faturayı girip deftere naklediyor. Bu fatura için nakit iskontoları inceleyen Tamer, fatura 30 Haziran'a kadar ödendiği zaman 4031 numaralı müşterinin 20,00 iskonto alacağını görür. Fatura 9 Temmuz'a kadar ödenirse, müşteri 10,00 iskonto alır.
 
 | Nakit iskontosu tarihi | Nakit iskontosu tutarı | Hareket para birimi cinsinden tutar |
 |--------------------|----------------------|--------------------------------|
@@ -92,6 +95,8 @@ Fatura bakiyesi şimdi 0,00 olur. Arnie, bilgileri **Müşteri hareketleri** say
 | DISC-10030 |  Nakit iskontosu   | 28/6/2015 |         |                                      | 6,00                                  | 0,00    | ABD Doları      |
 | ARP-10031  |  Ödeme         | 8/7/2015  |         |                                      | 693,00                                | 0,00    | ABD Doları      |
 | DISC-1031  |  Nakit iskontosu   | 8/7/2015  |         |                                      | 7,00                                  | 0,00    | ABD Doları      |
+
+
 
 
 

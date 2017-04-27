@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu konu, birden fazla müşteri veya satıcı kaydı içeren tek bir fişi deftere naklettiğinizde olacaklara ilişkin genel bir bakış sağlar. Bu işlevsellik, Microsoft Dynamics 365 for Operations'ın gelecekteki sürümlerinde durdurulacaktır. Sonuç olarak, kapatma işlemine hesap etkisi nedeniyle bu deftere nakletme yöntemini önermiyoruz. 
 
 Tek bir fişin birden fazla müşteri veya satıcı için kullanıldığı bazı yaygın örnekler, müşteriler arasındaki bakiye transferlerini ve aynı kuruluştaki müşteriler ve satıcılar arasındaki mahsuplaşma bakiyelerini içerir. 
@@ -91,7 +94,7 @@ Kullanıcı orijinal faturadan tüm gider dağıtımları arasında tahsis edile
 
 |             |                  |              |                 |           |            |                 |                    |
 |-------------|------------------|--------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Fiş** | **Hesap tipi** | **Hesap**  | **Açıklama** | **Borç** | **Alacak** | **Mahsup türü** | **Offset account** |
+| **Fiş** | **Hesap tipi** | **Hesap**  | **Açıklama** | **Borç** | **Alacak** | **Mahsup türü** | **Mahsup hesap** |
 | GNJL001     | Satıcı           | 1001         | INV1            |           | 100,00     | Genel Muhasebe          | &lt;boş&gt;      |
 | GNJL001     | Genel Muhasebe           | 606300-001-- | INV1            |   50,00   |            | Genel Muhasebe          | &lt;boş&gt;      |
 | GNJL001     | Genel Muhasebe           | 606300-002-- | INV1            |   50,00   |            | Genel Muhasebe          | &lt;boş&gt;      |
@@ -248,5 +251,7 @@ Bu hareket için istenmeyen sorunlardan kaçınmak için bir fiş kullanmak yeri
 | 002         | Satıcı           | 1001        |                 |  75,00    |            | Genel Muhasebe          | 999999---          |
 
  
+
+
 
 

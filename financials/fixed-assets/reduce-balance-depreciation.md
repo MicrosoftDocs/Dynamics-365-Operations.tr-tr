@@ -1,9 +1,9 @@
 ---
-title: Amortisman azaltmak
+title: "Bakiyeli amortismanı azaltma"
 description: "Bu makale, amortismanın Azalan bakiye yöntemi hakkında genel bir bakış sağlar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reduce-balance-depreciation"></a>Amortisman azaltmak
+# <a name="reduce-balance-depreciation"></a>Bakiyeli amortismanı azaltma
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makale, amortismanın Azalan bakiye yöntemi hakkında genel bir bakış sağlar.
 
@@ -57,7 +60,7 @@ Takvim seçimini yaparsanız, amortisman artışı nakil tarihleri ve takvim yı
 
 ### <a name="fiscal"></a>Mali
 
-Amortisman yılı alanından Mali Yıl seçimini yaparsanız düz çizgi amortisman yöntemi kullanılır. Defter sayfasında seçilen mali takvim için Mali takvimler sayfasında ayarlanan mali yıl temel alınarak hesaplanır. Örneğin, 30 Haziran-1 Temmuz mali yıl için amortisman hesaplaması 1 Temmuz tarihinde başlar. Mali yıl 12 aydan daha uzun veya daha kısa olabilir. Amortisman her mali dönem için ayarlanır. Bir sonraki mali yılın uzunluğu, Mali takvimler sayfasında yeni bir mali yıl oluşturduğunuzda belirlenen mali dönemlere dayalı olacaktır.
+Amortisman yılı alanından Mali Yıl seçimini yaparsanız düz çizgi amortisman yöntemi kullanılır. Defter sayfasında seçilen mali takvim için Mali takvimler sayfasında ayarlanan mali yıl temel alınarak hesaplanır. Örneğin, 1 Temmuz ile 30 Haziran arasındaki mali yıl için amortisman hesaplaması 1 Temmuz'da başlar. Mali yıl 12 aydan daha uzun veya daha kısa olabilir. Amortisman her mali dönem için ayarlanır. Bir sonraki mali yılın uzunluğu, Mali takvimler sayfasında yeni bir mali yıl oluşturduğunuzda belirlenen mali dönemlere dayalı olacaktır.
 
 
 Mali yıl seçimini yaparsanız Dönem sıklığı alanında şu seçenekler kullanılabilir:
@@ -73,12 +76,14 @@ Amortismana esas olan değerin yüzde 30'u (net defter değeri eksi hurda değer
 
 | Dönem | Yıllık amortisman miktarı hesaplaması | Yıl sonunda net defter değeri |
 |--------|-------------------------------------------|---------------------------------------|
-| Yıl 1 | (11,000 - 1,000) \* 30% = 3,000           | (11.000 - 1.000) - 3.000 = 7.000      |
-| 2. yıl | (7,000 - 1,000) \* 30% = 1,800            | (7.000 -1.800) = 5.200                |
-| 3. yıl | (5,200 - 1,000) \* 30% = 1,260            | (5.200 - 1.260) = 3.940               |
+| Yıl 1 | (11.000 - 1.000) \* %30 = 3.000           | (11.000 - 1.000) - 3.000 = 7.000      |
+| 2. yıl | (7.000 - 1.000) \* %30 = 1.800            | (7.000 -1.800) = 5.200                |
+| 3. yıl | (5.200 - 1.000) \* %30 = 1.260            | (5.200 - 1.260) = 3.940               |
 
  
 -
+
+
 
 
 

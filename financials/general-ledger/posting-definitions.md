@@ -59,5 +59,5 @@ Aşağıdaki kısıtlamalar, nakil tanımlarında bağlantılar oluştururken ge
 -   Bir nakil tanımını herhangi bir işlem türüne atayabilirsiniz, ancak işlem türünün mutlaka nakil tanımıyla aynı modülde olması gerekir. Bir işlem türünün hangi modülde olduğunu görmek için **İşlem nakil tanımları** sayfasını kullanın.
 
 
-Daha fazla bilgi için bkz: [tanımları örnekler nakil](/general-ledger/example-posting-definitions.md). 
+Daha fazla bilgi için bkz. [Deftere naik tanımı örnekleri](/general-ledger/example-posting-definitions.md). 
 

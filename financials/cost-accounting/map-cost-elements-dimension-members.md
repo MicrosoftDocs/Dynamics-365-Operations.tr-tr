@@ -1,5 +1,5 @@
 ---
-title: "Farklı maliyet öğesi boyut üyelerini ortak bir boyut üyeleri kümesi eşlemesi"
+title: "Farklı maliyet öğesi boyut üyelerini ortak bir boyut üyesi kümesine eşleme"
 description: "Farklı maliyet öğesi boyut üyelerini ortak bir maliyet öğesi boyut üyesi kümesine eşleyerek verileri analiz amacıyla ortak bir biçimde birleştirirsiniz."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Farklı maliyet öğesi boyut üyelerini ortak bir boyut üyeleri kümesi eşlemesi
+# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Farklı maliyet öğesi boyut üyelerini ortak bir boyut üyesi kümesine eşleme
 
 Farklı maliyet öğesi boyut üyelerini ortak bir maliyet öğesi boyut üyesi kümesine eşleyerek verileri analiz amacıyla ortak bir biçimde birleştirirsiniz.
 
@@ -38,10 +38,10 @@ Aşağıdaki örnekte bir maliyet denetleyicisi olarak, ABD hesap planı yapıs�
 |-----------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
 | ABD hesap planından içe aktarılmış maliyet öğesi boyut üyeleri | Fransız hesap planından içe aktarılmış maliyet öğesi boyut üyeleri | ABD ve Fransız maliyet öğesi boyut üyelerini ortak bir kümeye eşleme |
 | 5001: Satış                                                           | 5001: Satış ve reklam                                               | 5000: Satış ve reklam                                             |
-| 5030: Reklam                                                     | 6390: stok satınalma\*                                                    | 7000: Temizlik giderleri                                                 |
+| 5030: Reklam                                                     | 6390: Stok satınalma\*                                                    | 7000: Temizlik giderleri                                                 |
 | 7001: Temizlik giderleri                                               | 7001: Seyahat gideri                                                      | 7001: Seyahat giderleri                                                   |
 
-\*Stok satınalma Fransız maliyet öğesi boyut üyesi eşlenmediği.
+\*Stok satınalma Fransız maliyet öğesi boyut üyesi eşlenmedi.
 
 ## <a name="currency-conversion"></a>Para birimi dönüştürme
 Kullandığınız çeşitli hesap planları farklı para birimlerini kullanmak üzere ayarlanabilir. Bu durumda bir para birimi dönüşümü belirlediğinizden emin olun ve maliyet verilerinin maliyet öğesi boyut üyelerinin kullanıldığı maliyet muhasebesi genel muhasebesinde tanımlanan, doğru para birimini kullanarak işlenmesini sağlayın. Önceki örnekte, maliyet muhasebesi genel muhasebesinde ABD doları (USD) kullanılıyorsa eşlenen maliyet öğesi boyut üyeleri için hareketleri işlemek üzere ABD Doları'ndan (USD) Euro'ya (EUR) para birimi dönüşümü oluşturmanız gerekir.

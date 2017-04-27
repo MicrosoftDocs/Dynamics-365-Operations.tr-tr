@@ -1,6 +1,6 @@
 ---
 title: "Lifecycle Services&quot;dan Elektronik raporlama yapılandırmalarını karşıdan yükle"
-description: "Bu konu elektronik Raporlama (ER) yapılandırmaları Microsoft Dynamics ömrü Hizmetleri (LCS) dan karşıdan yükleme açıklar."
+description: "Bu konu, Elektronik raporlama (ER) yapılandırmalarını Microsoft Dynamics Lifecycle Services&quot;dan (LCS) indirmeyi açıklar."
 author: kfend
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Lifecycle Services'dan Elektronik raporlama yapılandırmalarını karşıdan yükle
 
-Bu konu elektronik Raporlama (ER) yapılandırmaları Microsoft Dynamics ömrü Hizmetleri (LCS) dan karşıdan yükleme açıklar.
+Bu konu, Elektronik raporlama (ER) yapılandırmalarını Microsoft Dynamics Lifecycle Services'dan (LCS) indirmeyi açıklar.
 
 Bu eğitim size Elektronik Raporlama (ER) yapılandırmalarının en yeni sürümlerinin, Microsoft Dynamics Lifecycle Services'dan (LCS) indirme sürecini öğretir.
 
@@ -36,9 +36,9 @@ Bu eğitim size Elektronik Raporlama (ER) yapılandırmalarının en yeni sürü
     -   Elektronik raporlama işlev danışmanı
     -   Sistem yöneticisi
 
-2.  Git **kuruluş yönetim**&gt;**elektronik raporlama**.
+2.  **Organizasyon yönetimi** &gt; **Elektronik raporlama**'ya gidin.
 3.  **Yapılandırma sağlayıcıları** bölümünde, **Microsoft** kutucuğunu seçin.
-4.  **Microsoft** kutucuğunda, **Depolar**'a tıklayın. [![Update-er-from-LCS-for-MS-Open-MS-repositories-List](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+4.  **Microsoft** kutucuğunda, **Depolar**'a tıklayın. [![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
 5.  **Yapılandırma depoları** sayfasında, kılavuz içerisinde, mevcut **LCS** türünün deposunu seçin. Bu depo kılavuzda görünmüyorsa, aşağıdaki adımları izleyin:
     1.  Yeni bir depo eklemek için **Ekle**'ye tıklayın.
     2.  Havuz türü olarak **LCS**'yi seçin.
@@ -47,12 +47,12 @@ Bu eğitim size Elektronik Raporlama (ER) yapılandırmalarının en yeni sürü
     5.  Yeni depo girişini onaylamak için **Tamam**'a tıklayın.
     6.  Kılavuzda **LCS** türündeki yeni depoyu seçin.
 
-6.  Seçilmiş depo için ER yapılandırmalarını görüntülemek için **Aç**'a tıklayın. [![Update-er-from-LCS-for-MS-Make-LCS-Repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+6.  Seçilmiş depo için ER yapılandırmalarını görüntülemek için **Aç**'a tıklayın. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  Sol bölmedeki yapılandırmalar ağacında, gereksinim duyduğunuz ER yapılandırmalarını seçin.
 8.  **Sürümler** FastTab üzerinde, seçili ER yapılandırmasının gerekli sürümünü seçin.
-9.  Seçili sürümü LCS'den mevcut Dynamics 365 for Operations örneğine indirmek için **İçe Aktarma**'ya tıklayın. **Not:** Mevcut Dynamics 365 for Operations örneğinde bulunan ER yapılandırma sürümleri için **İçe Aktarma** düğmesi kullanılamaz. [![Update-er-from-LCS-for-MS-download-Configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+9.  Seçili sürümü LCS'den mevcut Dynamics 365 for Operations örneğine indirmek için **İçe Aktarma**'ya tıklayın. **Not:** Mevcut Dynamics 365 for Operations örneğinde bulunan ER yapılandırma sürümleri için **İçe Aktarma** düğmesi kullanılamaz. [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
-**Not:** ER ayarlarına bağlı olarak, yapılandırmalar içe aktarıldıktan sonra doğrulanır. Bulunan tutarsızlık sorunları hakkında haberdar edileceksiniz. İçe aktarılmış yapılandırma sürümünü kullanmadan önce bu sorunları çözümlemeniz gerekir. Bu konu için ilgili makalelerin listesini daha fazla bilgi için bkz.
+**Not:** ER ayarlarına bağlı olarak, yapılandırmalar içe aktarıldıktan sonra doğrulanır. Bulunan tutarsızlık sorunları hakkında haberdar edileceksiniz. İçe aktarılmış yapılandırma sürümünü kullanmadan önce bu sorunları çözümlemeniz gerekir. Daha fazla bilgi için bu konunun ilgili makaleleri listesine göz atın.
 
 <a name="see-also"></a>Ayrıca bkz.
 --------

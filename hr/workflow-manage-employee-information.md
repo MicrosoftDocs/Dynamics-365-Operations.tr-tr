@@ -1,6 +1,6 @@
 ---
-title: "Çalışan bilgilerini yönetmek için iş akışlarını kullanma"
-description: "Bu konu, çalışan bilgilerini yönetmek için İnsan kaynakları için iş akışı özelliğini nasıl kullanabileceğinizi açıklar. Örneğin, bir iş akışı bir pozisyonla ilişkilendirmek ve çalışanların kendi kaydı değiştirdiğinizde, başlatılan bir onay iş akışı yapılandırın."
+title: "Personel bilgilerini yönetmek için iş akışlarını kullanma"
+description: "Bu konu, personel bilgisini yönetmek için İnsan kaynakları için iş akışı yeteneğini nasıl kullanabileceğinizi açıklar. Örneğin, bir iş akışını bir pozisyonla ilişkilendirebilir ve çalışanların kendi kayıtlarını değiştirdiklerinde başlatılan bir onay iş akışı yapılandırabilirsiniz."
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,11 +24,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-workflows-to-manage-employee-information"></a>Çalışan bilgilerini yönetmek için iş akışlarını kullanma
+# <a name="use-workflows-to-manage-employee-information"></a>Personel bilgilerini yönetmek için iş akışlarını kullanma
 
-Bu konu, çalışan bilgilerini yönetmek için İnsan kaynakları için iş akışı özelliğini nasıl kullanabileceğinizi açıklar. Örneğin, bir iş akışı bir pozisyonla ilişkilendirmek ve çalışanların kendi kaydı değiştirdiğinizde, başlatılan bir onay iş akışı yapılandırın.
+[!include[banner](includes/banner.md)]
 
-İnsan kaynakları için iş akışı kapasitesi, İnsan Kaynakları faaliyetleri yönetmek için çok sayıda iş akışı sağlar. Ayrıca, belirli iş akışlarını değiştirin ve bunları raporlama hiyerarşisi ile ilişkilendirmek için çeşitli seçenekler kullanılabilir. Çalışan bilgileri birkaç standart türü değişiklikleri yönetmek iş akışları kullanılabilir. Bir iş akışı bir pozisyonla ilişkilendirebilirsiniz. Daha sonra çalışanların kendi çalışan kaydı değiştirirseniz, bir iş akışı yeni bilgiler kaydedilmeden önce onay gerektiren başlatılır. İş akışı bilgilerini değişiklikler etkili bir şekilde yönetmenize ve çalışanlarınızın verileri doğru tutmak yardımcı olmak için aşağıdaki türleri için önceden tanımlanmıştır:
+
+Bu konu, personel bilgisini yönetmek için İnsan kaynakları için iş akışı yeteneğini nasıl kullanabileceğinizi açıklar. Örneğin, bir iş akışını bir pozisyonla ilişkilendirebilir ve çalışanların kendi kayıtlarını değiştirdiklerinde başlatılan bir onay iş akışı yapılandırabilirsiniz.
+
+İnsan kaynakları için iş akışı kabiliyeti, insan kaynakları faaliyetlerini yönetmek için çok sayıda iş akışı sağlar. Ek olarak, belirli iş akışlarını değiştirebilmeniz ve onları bir raporlama hiyerarşisiyle ilişkilendirebilmeniz için çok sayıda seçenek kullanabilmektedir. İş akışları, yöneticilerin personel bilgilerinin çeşitli standart türlerinde değişik yapmalarını kolaylaştırmak için mevcuttur. İş akışını bir pozisyon ile ilişkilendirebilirsiniz. Daha sonra, personeller kendi personel kayıtlarını değiştirirlerse, yeni bilgiler kaydedilemeden önce onay gerektiren bir iş akışı başlatılır. İş akışları, değişiklikleri daha etkin şekilde yönetebilmeniz ve personel bilgilerinizi daha doğru tutabilmeniz için aşağıdaki türde bilgiler için önceden tanımlıdır:
 
 -   Kimlik numaraları
 -   Kurslar
@@ -39,33 +42,35 @@ Bu konu, çalışan bilgilerini yönetmek için İnsan kaynakları için iş ak�
 -   Proje deneyimi
 -   Yetenekler
 -   Güven gerektiren pozisyonlar
--   İnsan Kaynakları Eylemler
--   Kurs kayıt
+-   İnsan kaynakları eylemleri
+-   Kurs kaydı
 
-Çalışanlar işe, transfer veya sona erdi, iş akışını gözden geçirme işleminin içerebilir. Bu şekilde, bir belgeyi gözden geçirilebilir veya eylem koşullarını iş akışının bir parçası tanımlanabilir. Gözden geçirme işlemi tamamlandığında, belge veya eylem tamamlandı ve iş akışını son onayı adım taşır.
+Personeller işe alındıklarını, transfer edildiklerinde veya işten çıkarıldıklarında, iş akışı bir gözden geçirme işlemi içerebilir. Bu şekilde, bir belge gözden geçirilebilir veya bir eylemin koşulları, iş akışının bir parçası tanımlanabilir. Gözden geçirme işlemi tamamlandığında, belge veya eylem tamamlanır ve iş akışını son onayı adımına taşınır.
 
-## <a name="associate-a-workflow-with-a-position-hierarchy"></a>Bir pozisyon hiyerarşide bir iş akışı ilişkilendirme
-Bir iş akışı yapılandırdığınız herhangi bir hiyerarşi ilişkilendirebilirsiniz. Örneğin, bir pozisyon matris raporlama hiyerarşisi ile ilişkili ise, bir iş akışı Yöneticisi bu pozisyonla ilişkili çalışanı yerine Proje lideri giderler belirli bir proje için yönlendirir yapılandırmanız gerekebilir. Yeni bir iş akışı oluşturun veya varolan bir iş akışını değiştirmek için **İnsan Kaynakları iş akışı** sayfasında,'ı **yeni**. Bir iş akışı, iş akışı Tasarımcısı'nı başlatmak için listeden seçin. Tasarımcı, yeni bir iş akışı oluşturun veya varolan bir iş akışı adımlarını değiştirmek için kullanabilirsiniz. Varolan bir iş akışı değiştirdiğinizde, yaptığınız değişiklikleri yeni bir sürüm olarak kaydedilir. Gerekirse bu nedenle, her zaman önceki sürüme geri dönebilirsiniz.
+## <a name="associate-a-workflow-with-a-position-hierarchy"></a>İş akışını bir pozisyon hiyerarşisiyle ilişkilendirin.
+Bir iş akışını, yapılandırdığınız herhangi bir hiyerarşiyle ilişkilendirebilirsiniz. Örneğin, bir pozisyon, bir matris raporlama hiyerarşisi ile ilişkili ise, bir iş akışının belirli bir proje için giderleri, bu pozisyonla ilişkili bir personelin yöneticisi yerine proje liderine yönlendirmesini sağlayacak üzere yapılandırabilirsiniz. Yeni bir iş akışı oluşturun veya varolan bir iş akışını değiştirmek için **İnsan Kaynakları iş akışı** sayfasında **Yeni** üzerine tıklayın. İş akışı tasarımcısını başlatmak için listeden bir iş akışını seçin. Yeni bir iş akışı oluşturmak için tasarımcıyı kullanabilir veya mevcut bir iş akışındaki adımları değiştirebilirsiniz. Mevcut bir iş akışını değiştirdiğinizde, değişiklikleriniz yeni bir sürüm olarak kaydedilir. Gerekirse bu nedenle, her zaman önceki sürüme geri dönebilirsiniz.
 
-## <a name="configure-a-human-resources-workflow"></a>İnsan Kaynakları iş akışı yapılandırma
-Çalışanların kendi kişisel kimliğini değişiklik istediğinde, başlatılan temel iş akışı yapılandırmak için aşağıdaki adımları izleyin.
+## <a name="configure-a-human-resources-workflow"></a>İnsan kaynakları iş akışı yapılandırma
+Çalışanlar kişisel kimlik saptamalarında değişiklik talep ettiklerinde başlatılacak basit bir iş akışı yapılandırmak için şu adımları izleyin.
 
-1.  Üzerinde **İnsan Kaynakları iş akışları** sayfasında,'ı **yeni**.
-2.  Kullanılabilir iş akışları listesinden seçin **kimlik numaraları**.
-3.  ' I **çalıştırmak** iş akışı Tasarımcısı'nı başlatın ve istendiğinde, kullanıcı adınızı ve parolanızı girin.
-4.  Sürükleme **kimlik numarasını onaylamak** Tasarımcı tuval için iş akışı öğeleri listesinden öğe.
-5.  Onay öğesine bağlanmak **Start** ve **son**.
-6.  Çift **Onayla öğesi**ve sonra sağ tıklatın ve seçin **Özellikler**.
+1.  **İnsan Kaynakları iş akışları** sayfasında **Yeni**'yi tıklatın.
+2.  Kullanılabilir iş akışları listesinden **Kimlik saptama numaraları**'nı seçin.
+3.  İş akışı tasarımcısını başlatmak için **Çalıştır**'ı tıklatın ve istenildiğinde kullanıcı adınızı ve parolanızı girin.
+4.  İş akışı öğeleri listesinden **Kimlik saptama numarasını** öğesini, tasarımcı tuvaline sürükleyin.
+5.  Onay öğesini **Başlat** ve **Bitir** ile bağlayın.
+6.  **Öğeyi onayla** üzerine çift tıklatın ve sonra sağ tıklayıp **Özellikler**'i seçin.
 7.  İş öğesi yönergeleri eklemek için şu adımları izleyin:
-    1.  Seçin **atama**ve sonra seçin **hiyerarşi** altında atama türü.
-    2.  Altında **hiyerarşi** seçimi, select **yapılandırılabilir hiyerarşi**.
+    1.  **Atama**'yı seçin ve sonra atama türü altında **Hiyerarşi**'yi seçin.
+    2.  **Hiyerarşi** seçimi altında **Yapılandırılabilir hiyerarşi**'yi seçin.
     3.  Bir durdurma koşulu ekleyin ve sayfayı kapatın.
 
-8.  (Ek uyarı var olmalıdır) tüm ek yönergeleri izleyin.
-9.  **Kaydet ve kapat**'ı tıklatın. İletişim kutusu açılır ve seçtiğinizde, yeni iş akışını etkinleştirip **etkin hale**.
-10. Git **İnsan Kaynakları**&gt;**pozisyon**&gt;**yerleştirmek hiyerarşi türleri**.
-11. Seçin **matris**.
-12. Eklemek **çalışan kimlik numarası** listeye iş akışı.
+8.  Tüm ek yönergeleri tamamlayın (ek uyarılar mevcut olmamalıdır).
+9.  **Kaydet ve kapat**'ı tıklatın. Yeni iş akışını etkinleştirip iletişim kutusu açılınca **Etkinleştir**'i seçin.
+10. **İnsan Kaynakları** &gt; **Pozisyonlar** &gt; **Pozisyon hiyerarşi türleri**'ne gidin.
+11. **Matris**'i seçin.
+12. **Çalışan kimlik saptama numarası**'nı iş akışı listesine ekleyin.
+
+
 
 
 

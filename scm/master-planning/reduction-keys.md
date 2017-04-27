@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reduction-keys"></a>Azaltma anahtarları
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalelerde bir azaltma anahtarının nasıl ayarlanacağını gösteren örnekler verilmiştir. Çeşitli azaltma anahtarı ayarları ve her birinin sonuçları hakkında da bilgiler içerir. Bir zzaltma anahtarını, tahmin gereksinimlerinin nasıl azaltılacağını tanımlamak için kullanabilirsiniz.
 
 <a name="example-1-percent---reduction-key-forecast-reduction-principle"></a>Örnek 1: Yüzde - Azaltma anahtarı tahmin azaltma ilkesi
@@ -58,7 +61,7 @@ Tahmin planını 1 Ocak'ta çalıştırırsanız, talep tahmini gereksinimleri *
 | Nisan                | 750                       |
 | Mayıs - Aralık arası | 1.000                     |
 
-## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>Örnek 2: Azaltma ilkesi Azaltma anahtarının hareketlerini tahmin
+## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>Örnek 2: Hareketler azaltma anahtarı tahmini azaltma ilkesi
 Bu örnek, azaltma anahtarı tarafından tanımlanan dönemler boyunca gerçekleşen fiili siparişlerin talep tahmini gereksinimlerini nasıl azalttığını gösterir.
 
 -   **Ana planlar** sayfasında, **Azaltma ilkesi**alanında **Hareketler - azaltma anahtarı**'nı seçin.
@@ -82,7 +85,7 @@ Aylık 1.000 parçalık aynı talep tahminini kullanıyorsanız, aşağıdaki ge
 | Nisan                | 881                       |
 | Mayıs - Aralık arası | 1.000                     |
 
-## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Örnek 3: Tahmin hareketlerini dinamik dönemi azaltma ilkesi
+## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Örnek 3: Hareketler dinamik dönem tahmini azaltma ilkesi
 Çoğu durumda, hareketlerin haftalık, aylık ve benzeri tahmin dönemlerinde talep tahminini azaltabilmesi için sistemler ayarlanır. Bu dönemler azaltma anahtarında tanımlanır. Ancak, iki tahmin satırı arasındaki süre bir dönemi*gösterebilir*.
 
 1.  Aşağıdaki tarihler ve miktarlar için bir talep tahmin oluşturun.
@@ -129,6 +132,8 @@ Aşağıdaki planlı sipariş tahmini karşılamak için oluşturulur.
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Master plans](master-plans.md)
+[Master planlar](master-plans.md)
+
+
 
 

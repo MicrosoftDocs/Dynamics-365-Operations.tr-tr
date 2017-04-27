@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Yeni üretilmiş bir madde için standart maliyetleri güncelleştirme
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, yeni üretilen bir madde için standart maliyetlerin güncellenmesine yönelik yönergeler sağlanmıştır. 
 
 Aşağıdaki yönergelerde, standart maliyetleri iki sürümlü bir yaklaşım kullanarak güncellediğiniz varsayılmaktadır. Bu yaklaşımda bir maliyet sürümü orijinal olarak donmuş dönem için tanımlanmış olan standart maliyetleri, ikinci maliyetlendirme sürümü ise yeni üretilen maddelere ait artımlı güncellemeleri içerir. Artımlı güncelleştirmeler ikinci maliyetlendirme versiyonu içersindeki maliyet kayıtları olarak girilir ve en sonunda etkinleştirilir. İki sürümlü yaklaşım ikinci bir maliyetlendirme sürümü tanımlamanızı gerektirir. Bu maliyetlendirme sürümünü tanımlamaya yönelik yönergeler şunlardır:
@@ -47,6 +50,8 @@ Donmuş dönem boyunca yeni üretilmiş maddeler eklemek için aşağıdaki adı
 5.  İkinci maliyetlendirme sürümünde bekleyen maliyet kayıtlarının etkinleştirilmesine izin vermek için engelleme bayrağını değiştirmek üzere **Maliyetlendirme sürüm kurulumu** sayfasını kullanın.
 6.  İkinci maliyetlendirme sürümüne alınmış tüm bekleyen maliyet kayıtlarını etkinleştirmek için **Etkin fiyatlar** sayfasını (**Maliyetlendirme sürüm bakımı** sayfasından açabilirsiniz) kullanın. Tek tek maddelere yönelik bekleyen maliyet kayıtlarını **Madde fiyatı** sayfasında **Madde fiyatı** düğmesine tıklayarak da etkinleştirebilirsiniz.
 7.  Ek veri bakımını önlemek için, **Maliyetlendirme sürümü ayarları** sayfasını kullanarak ikinci maliyetlendirme sürümüne alınmış engelleme bayraklarını değiştirin. Durdurma ilkeleri yeni bekleyen maliyetler girilmesini ve bekleyen maliyetlerin etkinleştirilmesini önler.
+
+
 
 
 

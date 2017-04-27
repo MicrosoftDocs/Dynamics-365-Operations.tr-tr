@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="dimension-based-product-configuration"></a>Boyuta dayalı ürün yapılandırma
 
+[!include[banner](../includes/banner.md)]
+
+
 Boyut tabanlı ürün yapılandırması, tek bir ana üründen ve o ürün reçetelerinden çok sayıda ürün çeşidi oluşturmak için basit bir çözümü temsil eder.
 
-Ürün boyut tabanlı yapılandırma üç yerleşik ürün yapılandırması teknolojileri biridir. Diğer iki teknoloji ön tanımlı farklara dayalı ve kısıtlamaya dayalı yapılandırmalardır. Üç teknolojinin her biri başlangıç noktası olarak bir ürün master planı kullanır ve kullanıcının bir ürün master planından çok sayıda ürün çeşidi üretmesine izin verir.
+Boyuta dayalı ürün yapılandırma, üç yerleşik ürün yapılandırma teknolojisinden biridir. Diğer iki teknoloji ön tanımlı farklara dayalı ve kısıtlamaya dayalı yapılandırmalardır. Üç teknolojinin her biri başlangıç noktası olarak bir ürün master planı kullanır ve kullanıcının bir ürün master planından çok sayıda ürün çeşidi üretmesine izin verir.
 
 ## <a name="key-concepts"></a>Kilit kavramlar
 Boyuta dayalı ürün yapılandırma şu anahtar kavramlara dayanır:
@@ -68,10 +71,12 @@ Yapılandırma yolu, yapılandırma gruplarının sırasını belirler ve bunlar
 Yapılandırma kuralları, bir BOM'da bir yapılandırma grubuna dahil edilen bir ürünün aynı BOM'daki farklı bir yapılandırma grubundaki bir ürünü dahil etmesini veya hariç tutmasını sağlayan bir mekanizmadır.
 
 ## <a name="product-modeling-process"></a>Ürün modelleme süreci
-Boyuta dayalı bir ürün için ürün modelinin oluşturulması için doğal süreç ilgili yapılandırma gruplarının tanımlanmasıyla başlar. BOM'da kullanılacak tüm ürünlerin, ürün modelinin oluşturulduğu şirket için serbest bırakılmasının sağlanması önemlidir. Bir yerde bu yapı taşları ile kullanıcı ürün reçetesi oluştur ve ilgili tüm ürün reçetesi satırlarına Konfigürasyon grupları atayın. Ürün Reçetesinin tamamlandığı zaman, Konfigürasyon rotası doğru sırada Konfigürasyon grupları sıralamak için tanımlanabilir. \[Başlık kimliği = "ek\_282671" align = "alignnone" width = "1187" =\][![boyut tabanlı ürün modelleme işleminin](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) boyut tabanlı ürün modelleme işleminin\[/altyazı\] gerekir ya da birlikte kullanılmamalıdır farklı yapılandırma gruplardan belirli bir ürün varsa, bu ürün ilişkileri zorunlu kılacak konfigürasyon kuralları oluşturabilirsiniz. BOM bir BOM sürümü üzerinden boyuta dayalı bir ürün master planıyla ilişkilendirildikten ve her ikisi onaylandıktan ve etkinleştirildikten sonra ürün yapılandırmaları oluşturabilir ve her bir yapılandırma için bir ad girebilirsiniz. Yapılandırmalar, herhangi bir hareket oluşturulmadan önce tanımlanabilir veya bu tanımlama işlemi belirli bir yapılandırma gerçekleştiğinde yapılabilir.
+Boyuta dayalı bir ürün için ürün modelinin oluşturulması için doğal süreç ilgili yapılandırma gruplarının tanımlanmasıyla başlar. BOM'da kullanılacak tüm ürünlerin, ürün modelinin oluşturulduğu şirket için serbest bırakılmasının sağlanması önemlidir. Bu yapı taşları yerindeyken, kullanıcılar ürün reçetesini oluşturabilir ve yapılandırma gruplarını tüm ürün reçetesi satırlarına atayabilir. Bir ürün reçetesi tamamlandığında, bir yapılandırma rotası, yapılandırma gruplarını doğru sıralamada sipariş etmek için tanımlanabilir. \[caption id="attachment\_282671" align="alignnone" width="1187"\][![Boyuta dayalı ürün modelleme süreci](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Boyuta dayalı ürün modelleme süreci\[/caption\] Farklı yapılandırma gruplarında birlikte kullanılması gereken veya birlikte kullanılmaması gereken belirli ürünler bulunuyorsa bu ürün ilişkilerini zorlayan yapılandırma kuralları oluşturabilirsiniz. BOM bir BOM sürümü üzerinden boyuta dayalı bir ürün master planıyla ilişkilendirildikten ve her ikisi onaylandıktan ve etkinleştirildikten sonra ürün yapılandırmaları oluşturabilir ve her bir yapılandırma için bir ad girebilirsiniz. Yapılandırmalar, herhangi bir hareket oluşturulmadan önce tanımlanabilir veya bu tanımlama işlemi belirli bir yapılandırma gerçekleştiğinde yapılabilir.
 
 ### <a name="suggested-use"></a>Önerilen kullanım
 
 Boyuta dayalı yapılandırma teknolojisi en iyi, sınırlı ürün çeşitlerine ve standart ürün boyutları, boyları, renkleri, stillerinin kombinasyonuna sahip ürünler için kullanılır ve yapılandırma belirli bir ürün çeşidinin tanımlanması için uygun değildir. Kasa yüksekliği, tekerlek boyutu, fren türleri ve dişli mekanizmaları farklı bir bisiklet örnek olarak gösterilebilir.
+
+
 
 

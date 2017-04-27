@@ -1,6 +1,6 @@
 ---
-title: "Yeni veya güncelleştirilmiş görev (Kasım 2016) size yol gösterir."
-description: "Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kasım 2016 - tüm diller) Microsoft&quot;a listeler Microsoft Dynamics 365 işlemleri için APQC birleşik kitaplığı. Başlangıç Kitaplığı yayımlanmamıştır."
+title: "Yeni veya güncelleştirilmiş Görev kılavuzları (Kasım 2016)"
+description: "Bu konu, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı&quot;nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,21 +24,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-november-2016"></a>Yeni veya güncelleştirilmiş görev (Kasım 2016) size yol gösterir.
+# <a name="new-or-updated-task-guides-november-2016"></a>Yeni veya güncelleştirilmiş Görev kılavuzları (Kasım 2016)
 
-Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kasım 2016 - tüm diller) Microsoft'a listeler Microsoft Dynamics 365 işlemleri için APQC birleşik kitaplığı. Başlangıç Kitaplığı yayımlanmamıştır.
+[!include[banner](../includes/banner.md)]
 
-(Kasım 2016--tüm diller) APQC birleşik kitaplığı içeren Microsoft Dynamics 365 işlemleri için Microsoft Dynamics 365 işlemleri platform güncelleştirmesi 3, 2, Microsoft Dynamics AX Platform Güncelleştirmesi Dynamics AX ile ilgili Yardım için kullanılmaya yönelik görev kılavuzları Mayıs 2016 güncelleştirmesi ve Microsoft Dynamics AX Şubat 2016 serbest bırakın. Bu sürümleri hakkında daha fazla bilgi için bkz: [yeni veya değişen nedir](whats-new-changed.md). Bu belge kitaplığında görev Kılavuzları'nın yerelleştirilmiş sürümleri kullanılabilir. Görev Kılavuzu Kitaplığı'na Yardım sistemine bağlanma hakkında daha fazla bilgi için bkz: [Yardımı ile başlamak](help-overview.md). **Not:** yıldız (**\***) işlemleri Kasım 2016 için Dynamics 365 güncelleştirmesi ve Microsoft Dynamics AX önceki sürümlerinde desteklenmeyen görev Kılavuzu, iş süreci için oluşturulmuş bir iş süreci modeler (BPM) başlığının yanındaki satır gösterir.
+
+Bu konu, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır.
+
+(Kasım 2016--tüm diller) APQC Birleşik Kitaplığı Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations platformu güncelleştirme 3, Microsoft Dynamics AX Platform güncelleştirme 2, Dynamics AX Mayıs 2016 güncelleştirmesi ve Microsoft Dynamics AX Şubat 2016 sürümü için Yardım olarak kullanılmak üzere tasarlanmıştır. Bu sürümler hakkında daha fazla bilgi için bkz. [Yenilikler veya değişiklikler](whats-new-changed.md). Görev kılavuzlarının yerelleştirilmiş sürümleri bu kitaplıkta mevcuttur. Yardım sistemini bir Görev kılavuzu kitaplığına bağlama hakkında daha fazla bilgi için bkz. [Yardıma Giriş](help-overview.md). **Not:** İş süreci modelleyici (BPM) satırı başlığının yanında bulunan yıldız (**\***) işareti bu iş sürecine ilişkin Görev kılavuzunun Dynamics 365 for Operations Kasım 2016 güncelleştirmesi için oluşturulduğunu ve Microsoft Dynamics AX uygulamasının önceki sürümlerinde desteklenmediğini gösterir.
 
 ### <a name="accounts-payable"></a>Borç hesapları
 
 | BPM satırı                                                                                           | Ülke/bölge |
 |----------------------------------------------------------------------------------------------------|----------------|
-| Anahtar Fatura onay günlüğü kullanarak AP sisteminde veri                                               | Genel         |
-| Satıcı faturası (Enter ve eşleşen bir satıcı faturasını deftere naklet) kullanılarak AP sisteminde anahtar fatura verileri | Genel         |
+| Onay günlüğü kullanarak fatura verilerini AP sistemine girme                                               | Genel         |
+| Satıcı faturası kullanarak fatura verilerini AP sistemine girme (Eşleşenle birlikte satıcı faturasını girme ve deftere nakletme) | Genel         |
 | Fatura günlüğü kullanarak fatura verilerini AP sistemine gir                                              | Genel         |
 | Fatura havuzu kullanarak fatura verilerini AP sistemine gir                                                 | Genel         |
-| Satıcı faturası kaydetmek ve teslim alınan miktar karşı eşleştir                           | Genel         |
+| Satıcı faturasının girişini kaydetme ve alınan miktarla eşleştirme                           | Genel         |
 | Borç hesapları fatura eşleştirme doğrulaması ayarlama                                                | Genel         |
 | Satıcı faturası ilkelerini ayarla                                                                    | Genel         |
 
@@ -49,7 +52,7 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 | BPM satırı                                                                           | Ülke/bölge |
 |------------------------------------------------------------------------------------|----------------|
 | Bir müşteriye yinelenen serbest metin fatura şablonu ata                        | Genel         |
-| Vade farkını hesaplamak ve oluşturmak ve yazdırmak ve deftere nakletmek vade farkı dekontları (işlem faiz) | Genel         |
+| Faizi hesaplama ve vade farkı dekontlarını oluşturma, yazdırma ve deftere nakletme (işlem faizi) | Genel         |
 | Tahsilat mektubu sırası oluşturun                                                | Genel         |
 | Bir müşteri için hesaptan ödeme talimatı oluşturun                                       | Genel         |
 | Serbest metin faturası oluşturma                                                         | Genel         |
@@ -59,7 +62,7 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 | Satış siparişi faturaları oluştur                                                        | Genel         |
 | Yinelenen serbest metin faturaları oluştur ve naklet                                     | Genel         |
 | Tahsilat mektuplarını işleme                                                         | Genel         |
-| Toplama bilgileri gözden geçirin                                                      | Genel         |
+| Tahsilat bilgilerini inceleme                                                      | Genel         |
 | Alacak hesapları yaşlandırma bilgilerini ayarlayın ve oluşturun                          | Genel         |
 
 ### 
@@ -77,11 +80,11 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 
 | BPM satırı                    | Ülke/bölge |
 |-----------------------------|----------------|
-| Bütçe plan düzeni değiştirme | Genel         |
+| Bütçe planı düzenini değiştirme | Genel         |
 
 ### 
 
-### <a name="cash-management"></a>Nakit Yönetimi
+### <a name="cash-management"></a>Nakit yönetimi
 
 | BPM satırı                                                             | Ülke/bölge |
 |----------------------------------------------------------------------|----------------|
@@ -104,7 +107,7 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 | Vadeli çek oluşturma                                              | Genel         |
 | Bir satıcının ileri tarih atılmış çekini kapatmak                                | Genel         |
 | Bir müşterinin ileri tarih atılmış çekini kapatmak                             | Genel         |
-| Satıcı ödemeleri genel bakış                                             | Genel         |
+| Satıcı ödemeleri özeti                                             | Genel         |
 
 ### 
 
@@ -137,45 +140,45 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 
 | BPM satırı                                                                                                                             | Ülke/bölge                    |
 |--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| BAS raporu kutuları ve Avustralya Ticari Faaliyet Raporu'nu (BAS) oluşturmak Ekle                                                    | Avustralya ve Yeni Zelanda         |
+| BAS raporu kutuları ekleme ve Avustralya Ticari Etkinlik Raporunu (BAS) oluşturma                                                    | Avustralya ve Yeni Zelanda         |
 | Avustralya BAS için neden kodları ayarlama                                                                                                | Avustralya ve Yeni Zelanda         |
-| **\***Chinese voucher continuity check                                                                                               | Çin                             |
-| **\***Hesap planını CN-00010 Çin hiyerarşisi                                                                                  | Çin                             |
-| **\***Kullanıcı CN-00016 Çin çalışma kuralı tarafından işlem günlüğü                                                                              | Çin                             |
-| **\***Golden tax integration export setup                                                                                            | Çin                             |
-| **\***Post vouchers from other modules, like sales invoices                                                                          | Çin                             |
-| **\***Post vouchers from the general journal                                                                                         | Çin                             |
-| **\***Set up basic tax integration profile for China                                                                                 | Çin                             |
-| **\***Set up Chinese vouchers                                                                                                        | Çin                             |
+| **\***Çince fişlerin süreklilik denetimi                                                                                               | Çin                             |
+| **\***CN-00010 Çin hesap planı hiyerarşisi                                                                                  | Çin                             |
+| **\***CN-00016 Çin çalışma kuralı tarafından kullanıcı işlemi günlüğü                                                                              | Çin                             |
+| **\***Altın vergisi tümleştirmesi dışa aktarma kurulumu                                                                                            | Çin                             |
+| **\***Satış faturaları gibi diğer modüllerden fişleri deftere nakletme                                                                          | Çin                             |
+| **\***Yevmiye defterinden fişleri deftere nakletme                                                                                         | Çin                             |
+| **\***Çin için temel vergi tümleştirme profilini ayarlama                                                                                 | Çin                             |
+| **\***Çince fişleri ayarlama                                                                                                        | Çin                             |
 | Kamu sektörü müşterisi için müşteri faturası oluşturma ve deftere nakletme                                                                      | Danimarka                           |
 | Kamu sektörü müşterisi için serbest metin faturası oluşturma ve deftere nakletme                                                                     | Danimarka                           |
 | Kamu sektörü müşterisi için proje faturası oluşturma ve deftere nakletme                                                                       | Danimarka                           |
-| DK-00007 FIK 752 ciro para havale makbuzu/Post serbest metinli fatura ile ödeme makbuzu                                               | Danimarka                           |
-| DK-00007 FIK 752 ciro para havale makbuzu/Post bir proje fatura ile ödeme makbuzu                                                 | Danimarka                           |
+| DK-00007 FIK 752 havale parası havale makbuzu/Serbest metinli faturayı ödeme makbuzuyla deftere nakletme                                               | Danimarka                           |
+| DK-00007 FIK 752 havale parası havale makbuzu/Proje faturasını ödeme makbuzuyla deftere nakletme                                                 | Danimarka                           |
 | OIOUBL elektronik faturalama konfigürasyonlarını içe aktar                                                                                    | Danimarka                           |
 | OIOUBL elektronik faturalama için müşteri hesaplarını ayarlama                                                                             | Danimarka                           |
 | OIOUBL elektronik faturası ayarlama                                                                                                   | Danimarka                           |
 | Ödeme fişi biçimini ayarlama                                                                                                           | Danimarka                           |
-| **\***EEU-00047 Advance payment to employee                                                                                          | Doğu Avrupa                    |
+| **\***EEU-00047 Çalışanlara avans ödemesi                                                                                          | Doğu Avrupa                    |
 | ISO20022 ödeme biçimi kullanarak satıcı ödemeleri oluşturma ve dışa aktarma                                                                      | Avrupa                            |
 | Otomatik ödeme talimatları olan müşteri için ödemeler oluştur                                                                          | Avrupa                            |
-| **\***EE-00015 Ödeme başvurusu oluşturma aracı                                                                                     | Avrupa                            |
+| **\***EE-00015 Ödeme referansı oluşturma aracı                                                                                     | Avrupa                            |
 | EUR-00002 Bir AB Instrastat beyanı oluşturma                                                                                       | Avrupa                            |
-| **\***Bir şartnamesi adres EUR 00002 belirtmek için bir topluluk içi hareket                                                          | Avrupa                            |
+| **\***EUR-00002 Topluluk içi bir hareket için yükleme adresi belirtme                                                          | Avrupa                            |
 | EUR-00002 Hareketleri Intrastat'a transfer etme                                                                                     | Avrupa                            |
 | EUR-00011 AB satış listesi raporu oluştur                                                                                          | Avrupa                            |
 | EUR-00011 AB satış listesi raporlamasını yapılandır                                                                                             | Avrupa                            |
 | EUR-00012 Bir AB giriş sertifikası çıkartın                                                                                              | Avrupa                            |
 | EUR-00012 AB giriş sertifikası alın                                                                                            | Avrupa                            |
-| **\***EUR-00015 Party search using VAT ID                                                                                            | Avrupa                            |
-| **\***EUR-00015 Registration of vendor VAT ID                                                                                        | Avrupa                            |
-| **\***EUR-00015 KDV kimliği ayarlama                                                                                                        | Avrupa                            |
-| **\***HU-00001 döviz kuru hesaplama                                                                                             | Avrupa                            |
+| **\***EUR-00015 KDV Kimliği kullanılarak taraf arama                                                                                            | Avrupa                            |
+| **\***EUR-00015 Satıcı KDV Kimliği kaydı                                                                                        | Avrupa                            |
+| **\***EUR-00015 KDV Kimliği ayarlama                                                                                                        | Avrupa                            |
+| **\***HU-00001 Döviz kuru hesaplama                                                                                             | Avrupa                            |
 | ISO20022 kredi transferi yapılandırmasını içe aktar                                                                                        | Avrupa                            |
 | ISO20022 hesaptan ödeme yapılandırmasını içe aktar                                                                                           | Avrupa                            |
-| **\***LT-00003 Transfer belge için bir iç Stok transferi için şirket/Oluştur transfer belge içinde malların taşıma   | Avrupa                            |
-| **\***LT-00003 Transfer belge mal hareketi içinde şirket/transfer belgeleri şirket içinde malların taşıma için ayarlamak için | Avrupa                            |
-| **\***Ödeme Kimliğine dayanarak Hayır 00002 müşteri ödemesi                                                                                  | Avrupa                            |
+| **\***LT-00003 Şirket içindeki malların taşınması için transfer belgeleri/Şirket içi bir stok transferi için bir transfer belgesi oluşturma   | Avrupa                            |
+| **\***LT-00003 Şirket içindeki malların taşınması için transfer belgeleri/Şirket içindeki malların taşınması için transfer belgelerini ayarlama | Avrupa                            |
+| **\***NO-00002 Ödeme kimliğine göre müşteri ödemesi                                                                                  | Avrupa                            |
 | ISO20022 kredi transferleri için şirket banka hesapları ayarlama                                                                           | Avrupa                            |
 | ISO20022 otomatik ödemeleri için şirket banka hesapları ayarlama                                                                              | Avrupa                            |
 | ISO20022 otomatik ödemeleri için müşteriler ve müşteri banka hesapları ayarlama                                                               | Avrupa                            |
@@ -183,10 +186,10 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 | ISO20022 hesaptan ödeme için ödeme yöntemi ayarlama                                                                                   | Avrupa                            |
 | ISO20022 kredi transferleri satıcılar ve satıcı banka hesapları ayarlama                                                                | Avrupa                            |
 | Müşteri ödeme yöntemleri oluştur                                                                                                | Fransa                            |
-| FR-00002 müşteri ve satıcı hesabı                                                                                                 | Fransa                            |
+| FR-00002 Müşteri ve satıcı hesabı                                                                                                 | Fransa                            |
 | FR-00003 NAF kodları ve Siret numaraları                                                                                                 | Fransa                            |
 | FR-00004 Kambiyo senedini onaylama ve nakletme                                                                                      | Fransa                            |
-| FR-00004 Fransızca kambiyo senedi ve senet                                                                               | Fransa                            |
+| FR-00004 Fransız kambiyo senetleri ve senetler                                                                               | Fransa                            |
 | FR-00004 Protesto çekilmiş kambiyo senedi günlüğü hareketlerini naklet                                                                                  | Fransa                            |
 | FR-00004 Kambiyo senedi günlüğünü yeniden naklet                                                                                       | Fransa                            |
 | FR-00004 Ödeme yöntemi belirle                                                                                                     | Fransa                            |
@@ -200,7 +203,7 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 | ER Sayım ve toplama işlemlerini yapmak için biçimi yapılandırma (Bölüm 2: İşlemleri yapılandırma)                                                      | Almanya                           |
 | ER Sayım ve toplama işlemlerini yapmak için biçimi yapılandırma (Bölüm 3: Çıktıyı hazırlamak için işlemleri kullanma)                                         | Almanya                           |
 | ER Sayım ve toplama işlemlerini yapmak için biçimi yapılandırma (Bölüm 4: Biçimi çalıştırma)                                                                  | Almanya                           |
-| ER yapılandırma sağlayıcı oluşturmak ve etkin olarak işaretle                                                                             | Almanya                           |
+| ER Konfigürasyon sağlayıcısı oluşturma ve etkin olarak işaretleme                                                                             | Almanya                           |
 | ER Microsoft WORD biçiminde raporlar oluşturmak için yapılandırma tasarlama (Kasım 2016)                                            | Almanya                           |
 | ER Etki alanına özel veri modeli tasarlama (Kasım 2016)                                                                                 | Almanya                           |
 | ER Lifecycle Services'tan bir yapılandırmayı içe aktarma                                                                                    | Almanya                           |
@@ -218,28 +221,28 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 | ER Excel raporlarına dinamik olarak sütun eklemek için yatay olarak genişletilebilir aralıkları kullanma (Bölüm 2: Biçimi çalıştırma)                               | Almanya                           |
 | Almanca denetim dosyası oluştur                                                                                                           | Almanya                           |
 | Almanca denetim dosyası yapılandırmasını içe aktar                                                                                               | Almanya                           |
-| **\***00018 YTL KDV Mutabakat raporu                                                                                            | İzlanda                           |
-| IS-00006 satıcı fatura beyanı/satıcı hesabı oluşturma ve fatura bildirimi ekleme                                       | İzlanda                           |
-| Satıcılar için IS-00006 satıcı fatura beyanı/Fatura bildirim kurma                                                        | İzlanda                           |
-| IS-00006 satıcı fatura beyanı/güncelleştirme satıcı fatura bildirimleri ve raporu oluşturmak                                       | İzlanda                           |
-| Hesapları/zorunlu ödeme başvuruları ayarlanmış grafik Bakımı                                                                       | İzlanda                           |
+| **\***EUR-00018 KDV mutabakat raporu                                                                                            | İzlanda                           |
+| IS-00006 Satıcı fatura beyanı/Bir satıcı hesabı oluşturma ve fatura beyanı ekleme                                       | İzlanda                           |
+| IS-00006 Satıcı fatura beyanı/Satıcılar için bir fatura beyanı ayarlama                                                        | İzlanda                           |
+| IS-00006 Satıcı fatura beyanı/Satıcı fatura beyannamelerini güncelleştirme ve rapor oluşturma                                       | İzlanda                           |
+| Hesap planını koruma/Zorunlu ödeme referansları ayarlama                                                                       | İzlanda                           |
 | Kıymet emeklilik yükümlülükleri olan bir sabit kıymet edin                                                                              | Japonya                             |
-| Sabit Kıymetleri Alma, devlet grant için talep                                                                                 | Japonya                             |
+| Sabit kıymetleri alma, devlet desteği talep etme                                                                                 | Japonya                             |
 | Kıymet emeklilik yükümlülüğü tahmininin düzeltilmesi                                                                               | Japonya                             |
-| Paylaşılan varlığı ve nakit birimleri oluşturmak için iyi Niyet taşıyan miktarını tahsis etmek                                                   | Japonya                             |
+| Paylaşılan varlıkların taşıma tutarını ve şerefiyeyi nakit üreten birimlere tahsis et                                                   | Japonya                             |
 | Bir kıymet için kıymet ömrü sırasında amortisman yöntemini değiştir                                                                   | Japonya                             |
 | Defter için kıymet ömrü sırasında amortisman yöntemini değiştirme                                                                        | Japonya                             |
 | Hızlandırılmış amortisman parametreleri ve nakil profillerini yapılandır                                                                   | Japonya                             |
 | CN-00004 Sabit kıymet amortisman payı (JP-)                                                                                   | Japonya                             |
-| Bir amortisman profili ve ek amortisman için bir nakil profili yapılandırın                                                   | Japonya                             |
-| Bir amortisman profili ve özel amortisman için bir nakil profili yapılandırın                                                      | Japonya                             |
+| Amortisman profili ve ek amortisman için deftere nakil profili yapılandır                                                   | Japonya                             |
+| Amortisman profili ve özel amortisman için deftere nakil profilini yapılandır                                                      | Japonya                             |
 | Konsolide fatura parametrelerini ve borç hesapları kurulumunu yapılandır                                                             | Japonya                             |
 | Kıymet emeklilik yükümlülüğü deftere nakil ve pazar iskonto oranlarını yapılandır                                            | Japonya                             |
 | Ek amortisman ile bir sabit kıymet oluştur                                                                                    | Japonya                             |
 | Özel amortisman ile sabit kıymet oluştur                                                                               | Japonya                             |
 | Hızlandırılmış amortisman profili oluşturma ve deftere atama                                                                        | Japonya                             |
 | Hızlandırılmış amortisman belge oluşturun ve kullanım verilerini girin                                                                     | Japonya                             |
-| Oluşturma ve ekipman grup atama                                                                                                 | Japonya                             |
+| Ekipman grubu oluştur ve ata                                                                                                 | Japonya                             |
 | Azaltma girişi belgesi oluştur ve ata                                                                                           | Japonya                             |
 | Konsolide satıcı faturası oluştur ve onayla                                                                                     | Japonya                             |
 | Tanıma testi oluştur ve onayla                                                                                                  | Japonya                             |
@@ -259,14 +262,14 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 | Kıymet emeklilik yükümlülüğüyle ilgili hareketlerin sorgulamaları                                                                    | Japonya                             |
 | İndirilebilecek giderlerin sorgulanması                                                                                                       | Japonya                             |
 | JP-00005 T hesabı formunda giriş günlüğü (Japonya)                                                                                     | Japonya                             |
-| JP-00011 AR faturayı - konsolide - oluşturmak ve müşteri Konsolide fatura onaylayın                                              | Japonya                             |
-| Amortismana tabi vergi beyannamesi için form 26 JP-00027                                                                                     | Japonya                             |
+| JP-00011 Konsolide fatura - AR - Konsolide müşteri faturası oluştur ve onayla                                              | Japonya                             |
+| JP-00027 Amorti edilebilir vergi beyanı için Form 26                                                                                     | Japonya                             |
 | İndirilebilecek giderler için sabit kıymet master veri dosyalarını koru                                                                       | Japonya                             |
 | Tek tek kıymetler üzerinde engelliler göstergelerini koru                                                                                  | Japonya                             |
 | Müşteri kambiyo senedi ciro ederek bir satıcı hareketi öde                                                                    | Japonya                             |
 | Fazla ve az amortismanın dönemsel kapanışı                                                                                   | Japonya                             |
 | Ek amortisman önerme                                                                                                      | Japonya                             |
-| Önermek ve hızlandırılmış amortisman deftere naklet                                                                                        | Japonya                             |
+| Hızlandırılmış amortisman önerme ve nakletme                                                                                        | Japonya                             |
 | Toplu iş başına azaltma tutarı önerme ve nakletme                                                                                      | Japonya                             |
 | Sabit kıymet günlüğü kullanarak azaltma tutarı önerme ve nakletme                                                                  | Japonya                             |
 | Nakit üreten birimde azaltma tutarı önerme ve nakletme                                                                     | Japonya                             |
@@ -300,12 +303,12 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 | MX-00010 Elektronik fatura sorgula ve yazdır                                                                                     | Meksika                            |
 | MX-00010 Serbest metin faturasını deftere naklet                                                                                                    | Meksika                            |
 | MX-00010 Elektronik fatura için parametreleri belirle                                                                                    | Meksika                            |
-| MX-00020: Üretim Meksika elektronik defter hesap raporu sürüm 1.1                                                            | Meksika                            |
+| MX-00020: Meksika elektronik genel muhasebe raporu sürümü 1.1 oluşturma                                                            | Meksika                            |
 | MX-00020 Meksika'da bir tüzel kişilik için hesap planı ayarlama                                                                   | Meksika                            |
 | MX-00020 - Meksika banka hesapları için RFC kayıt Kimliğini belirle                                                                 | Meksika                            |
 | NL-00003 Semansys XBRL tümleştirmesi                                                                                                   | Hollanda                       |
 | NL-00010 Elektronik vergi beyannamesi (EVAT)                                                                                          | Hollanda                       |
-| MY-00003 Yönet müşteri borç dekontu ve GST için Alacak dekontu                                                                          | Singapur, Malezya ve Tayland |
+| MY-00003 GST için müşteri Borç dekontu ve Alacak dekontunu yönetme                                                                          | Singapur, Malezya ve Tayland |
 | MY-00004 GST için satıcı borç dekontu ve alacak dekontunu yönetme                                                                            | Singapur, Malezya ve Tayland |
 | MY-00005 GST vergi faturalarını yazdır                                                                                                      | Singapur, Malezya ve Tayland |
 | MY-00006 01 GST yan tümcelerini ayarlama                                                                                                | Singapur, Malezya ve Tayland |
@@ -340,7 +343,7 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 | Kıymet grubunu değiştir                                        | Genel         |
 | Birden çok sabit kıymete yönelik amortisman yöntemlerini değiştirme | Genel         |
 | Sabit kıymet oluşturun                                      | Genel         |
-| Oluşturma ve Borç hesaplarından Kıymetleri Alma           | Genel         |
+| Borç hesaplarından kıymetler oluşturun ve alın           | Genel         |
 | Amortisman önerisi oluştur                              | Genel         |
 | Serbest metin faturası kullanarak bir sabit kıymeti elden çıkarın        | Genel         |
 | Sabit kıymete bir ek girme                        | Genel         |
@@ -362,7 +365,7 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 | BPM satırı                                       | Ülke/bölge |
 |------------------------------------------------|----------------|
 | Mali yılı kapa                          | Genel         |
-| Şablon kullanarak bir günlük girdisi oluştur        | Genel         |
+| Şablon kullanarak yevmiye defteri girişi oluşturma        | Genel         |
 | Bir ana hesap oluştur                          | Genel         |
 | Hesap yapıları oluştur                      | Genel         |
 | Tahakkuk planları oluşturma                         | Genel         |
@@ -371,7 +374,7 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 | Genel muhasebe tahakkuk hareketleri oluşturma             | Genel         |
 | Mali boyutları tanımla                    | Genel         |
 | Nakledilen yevmiye defteri girişleri günlüğe aktar              | Genel         |
-| Mali Boyut şablonlarının bakımını yapma         | Genel         |
+| Mali boyut şablonlarını koruma         | Genel         |
 | Toplu mali dönem kapatma                    | Genel         |
 | Günlük girişlerini işleme                        | Genel         |
 | Genel muhasebe tahsisat günlüğünü işleme              | Genel         |
@@ -387,9 +390,9 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 
 | BPM satırı                                                                       | Ülke/bölge |
 |--------------------------------------------------------------------------------|----------------|
-| **\***Change the ownership of consignment inventory based on production demand | Genel         |
-| **\***Create a consignment replenishment order                                 | Genel         |
-| **\***Monitor consignment inventory using vendor collaboration                 | Genel         |
+| **\***Üretim talebine göre konsinye stok sahipliğini değiştirme | Genel         |
+| **\***Konsinye stok yenileme siparişi oluşturma                                 | Genel         |
+| **\***Satıcı iş birliğini kullanarak konsinye stoğu izleme                 | Genel         |
 
 ### 
 
@@ -412,13 +415,13 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 
 ### 
 
-### <a name="performance-management"></a>Performans Yönetimi
+### <a name="performance-management"></a>Performans yönetimi
 
 | BPM satırı                                                         | Ülke/bölge |
 |------------------------------------------------------------------|----------------|
-| **\***Add to your performance journal and send praise to someone | Genel         |
-| **\***Create a goal                                              | Genel         |
-| **\***Create a performance review                                | Genel         |
+| **\***Performans günlüğüne ekleme ve birine övgü gönderme | Genel         |
+| **\***Hedef oluşturma                                              | Genel         |
+| **\***Performans değerlendirmesi oluşturun                                | Genel         |
 
 ### 
 
@@ -442,9 +445,9 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 | Ürüne bir resim ekleme                                               | Genel         |
 | Kategori hiyerarşilerini kullanarak bir ürünü sınıflandırma                           | Genel         |
 | Ürün için barkod oluşturma                                         | Genel         |
-| \*Önceden tanımlanmış ürün çeşitleri için bir ürün numarası terminolojisi oluşturun | Genel         |
-| \*Ürün numarası terminolojisi yapılandırılmış ürün çeşitleri için oluşturma | Genel         |
-| \*Varsayılan bir madde için sipariş ayarlarını tanımla                            | Genel         |
+| \* Önceden tanımlanmış ürün çeşitleri için bir ürün numara terminolojisi oluşturma | Genel         |
+| \* Yapılandırılmış ürün çeşitleri için bir ürün numara terminolojisi oluşturma | Genel         |
+| \* Bir madde için varsayılan sipariş ayarlarını tanımlama                            | Genel         |
 | Yapılandırılabilir bir ürün için satış siparişi oluşturma                         | Genel         |
 | Satış fiyatı seçim ölçütü oluşturma                                   | Genel         |
 | Ürün için GTIN kodu girme                                       | Genel         |
@@ -468,11 +471,11 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 | BPM satırı                                                                      | Ülke/bölge |
 |-------------------------------------------------------------------------------|----------------|
 | Kamu Sektörü için bir satıcıya bir sertifika türü ekle                        | Genel         |
-| Kamu sektörü anlaşmaları satın almak için erişimi denetleme                      | Genel         |
+| Kamu Sektörü için satınalma sözleşmelerine erişimi denetleme                      | Genel         |
 | Faturalama sınıflandırması yaratmak                                               | Genel         |
 | Bir faturalama kodu oluşturma                                                         | Genel         |
 | Kamu Sektörü için bütçede fon ayırmak için bir taahhüt oluştur                 | Genel         |
-| Fatura kodu için özel bir alan oluşturma                                      | Genel         |
+| Faturalama kodu için özel bir alan oluşturma                                      | Genel         |
 | Fon türü oluşturma                                                            | Genel         |
 | Tek seferlik satıcı ve fatura oluşturun                                          | Genel         |
 | Kamu sektörü için bir ön bütçe oluştur                                 | Genel         |
@@ -480,10 +483,10 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 | Kamu sektöründe gelişmiş muhasebe girişi oluştur                          | Genel         |
 | Özgün bir bütçe oluşturun ve sonra Ön bütçe girişlerini geri alın.         | Genel         |
 | Kamu sektöründe bir ticaret ortağı kodu oluşturma ve atama                 | Genel         |
-| Kapak ve Kamu sektörü için ödemeler raporlar için imza sayfaları oluşturma   | Genel         |
+| Kamu sektörü için ödeme raporlarında kapak ve imza sayfaları oluşturma   | Genel         |
 | Kamu sektöründe birden fazla tek seferlik satıcılar ve faturaları içe aktar | Genel         |
 | Kamu sektöründe türetilmiş bir finansal hiyerarşi ayarlama                     | Genel         |
-| Kamu sektörü içinde bir fon ayarlayın                                            | Genel         |
+| Kamu sektörü için bir fon ayarlama                                            | Genel         |
 | Kamu sektörü için satınalma anlaşması sınıflandırmalarını ayarla                   | Genel         |
 
 ### 
@@ -493,17 +496,17 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 | BPM satırı                                                         | Ülke/bölge |
 |------------------------------------------------------------------|----------------|
 | Bir çalışanı yapılandırma                                               | Genel         |
-| **\***Configure machine learning-powered product recommendations | Genel         |
+| **\***Makine öğrenimi destekli ürün önerileri yapılandırma | Genel         |
 | Satış temsilcisi için işlevsellik profili yapılandırma   | Genel         |
-| **\***Create a POS visual profile (November 2016)                | Genel         |
+| **\***POS görsel profili oluşturma (Kasım 2016)                | Genel         |
 | Kayıtları oluşturma ve ilişkilendirme                                   | Genel         |
 | Çağrı merkezi siparişleri oluştur                                        | Genel         |
 | Kategori fiyatlandırma kuralları kullanarak ticari anlaşmalar oluştur            | Genel         |
 | Bir mağaza için bir bildirim oluştur, hesapla ve naklet              | Genel         |
 | Bir ilişki tanımlama ve iskonto atama                      | Genel         |
-| Tanımlamak ve POS izin gruplarını yönetme                          | Genel         |
-| Süreklilik zamanlama tanımla                                       | Genel         |
-| **\***Perakende kanal iletişimlerini (CDX) tanımla                 | Genel         |
+| POS izin gruplarını belirleme ve yönetme                          | Genel         |
+| Süreklilik planını tanımlama                                       | Genel         |
+| **\***Perakende kanal iletişimlerini (CDX) tanımlama                 | Genel         |
 | Bağlılık ödülleri ayarlamaları                                      | Genel         |
 | Ürün çeşitlerini yönet                                               | Genel         |
 | Satış vergisi atama ve geçersiz kılma                                | Genel         |
@@ -526,7 +529,7 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 | Satış anlaşmalarını yerine getirme                   | Genel         |
 | Müşteri indirimlerini oluşturun ve işleyin      | Genel         |
 | Uygulanabilir fiyatlar ve indirimleri arayın    | Genel         |
-| Satış siparişi ayrı Tutulanları Yönet                   | Genel         |
+| Satış siparişi tutmalarını yönetme                   | Genel         |
 | Satış tekliflerini toplu olarak oluştur               | Genel         |
 | Ödemedeki indirimleri işleme                | Genel         |
 | Satış komisyonlarını kaydetme                 | Genel         |
@@ -575,14 +578,14 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 | BPM satırı                                                                    | Ülke/bölge |
 |-----------------------------------------------------------------------------|----------------|
 | Yerleşim profili oluşturma                                                   | Genel         |
-| **\***Create a mobile device menu item for license plate consolidation      | Genel         |
+| **\***Plaka birleştirme işlemi için bir mobil cihaz menü öğesi oluşturma      | Genel         |
 | El ile navlun mutabakatı sağlama                                                  | Genel         |
 | Randevu için sürücü girişi ve çıkışı kaydetme                   | Genel         |
-| Bir mobil aygıt menü öğesi türü satınalma siparişinin çalışmanın tamamlanması için ayarlama | Genel         |
+| Satınalma siparişi iş türünü tamamlamak için bir mobil cihaz menü öğesi ayarlama | Genel         |
 | Bir yük için randevu ayarlama                                            | Genel         |
 | Taşıma ödemesi ayarlama                                              | Genel         |
 | Otomatik navlun mutabakatı ayarlama                                     | Genel         |
-| **\***Set up short picking item reallocation                                | Genel         |
+| **\***Kısa çekme maddesinin yeniden tahsisini ayarlama                                | Genel         |
 
 
 
@@ -593,6 +596,8 @@ Bu konuda yayımlanan yeni veya güncelleştirilmiş görev kılavuzları (Kası
 
 [Yeni veya güncelleştirilmiş kılavuzlar çıktı (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
 
-[New or updated task guides available (August 2016)](new-updated-task-guides-available-august-2016.md)
+[Yeni veya güncelleştirilmiş kılavuzlar kullanıma sunuldu (Ağustos 2016)](new-updated-task-guides-available-august-2016.md)
+
+
 
 

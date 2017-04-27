@@ -1,6 +1,6 @@
 ---
 title: Master planlar
-description: "Şirketinizin günlük çalışma faaliyetlerini desteklemek, izlemek istediğiniz farklı planlama stratejilerinin benzetimini gerçekleştirmek ve dahili performans veya müşteri memnuniyeti ilgili bir ilke gibi bir şirket politikası uygulamak için çeşitli master planları kullanın."
+description: "Şirketinizin günlük çalışma faaliyetlerini desteklemek, izlemek istediğiniz farklı planlama stratejilerinin benzetimini gerçekleştirmek ve dahili performans veya müşteri memnuniyetiyle ilgili şirket politikası uygulamak için çeşitli master planlar kullanın."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="master-plans"></a>Master planlar
 
-Şirketinizin günlük çalışma faaliyetlerini desteklemek, izlemek istediğiniz farklı planlama stratejilerinin benzetimini gerçekleştirmek ve dahili performans veya müşteri memnuniyeti ilgili bir ilke gibi bir şirket politikası uygulamak için çeşitli master planları kullanın. 
+[!include[banner](../includes/banner.md)]
+
+
+Şirketinizin günlük çalışma faaliyetlerini desteklemek, izlemek istediğiniz farklı planlama stratejilerinin benzetimini gerçekleştirmek ve dahili performans veya müşteri memnuniyetiyle ilgili şirket politikası uygulamak için çeşitli master planlar kullanın. 
 
 Master planları **Master planları** sayfasında yapılandırabilirsiniz.
 
@@ -50,8 +53,10 @@ Ayrıca, başlatma dinamik planını master planlamasını her çalıştırış�
 
 [Kapsam ayarları](coverage-settings.md)
 
-[Master planlama planlama kararlarının Taktik ve operative ayırma](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
+[Master planlama için taktiksel ve işlemsel planlamayı ayırma](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
 
-[Master planlama: bir statik ve dinamik Master Plan veya bir plan kullanın?](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+[Master Planlama: Statik ve dinamik bir Master Plan mı tek plan mı kullanmalı?](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+
+
 
 

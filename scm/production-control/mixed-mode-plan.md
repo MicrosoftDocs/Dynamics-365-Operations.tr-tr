@@ -1,6 +1,6 @@
 ---
-title: "Ayrık, işlem ve yalın kaynak Hizmeti&quot;nden planlama modu - karma birleştirmek"
-description: "Bu makale, karma mod planlama hakkında bilgi sağlar. Karma mod planlamada, tedarik zincirinizi, madde akışı tabanlı olarak modelleyebilirsiniz. İşlemler için Microsoft Dynamics 365 emin kılar (kanbans, üretim emirleri, satınalma siparişleri, toplu iş siparişleri veya transfer emirleri) seçili malzeme akışını tedarik ilkesini ne olursa olsun, modelleri izler."
+title: "Karışık mod planlama - Ayrık, işlem ve yalın kaynak birleştirme"
+description: "Bu makale, karma mod planlama hakkında bilgi sağlar. Karma mod planlamada, tedarik zincirinizi, madde akışı tabanlı olarak modelleyebilirsiniz. Microsoft Dynamics 365 for Operations, seçili olan tedarik ilkesi ne olursa olsun malzeme akışının modellerinizi takip ettiğinden emin olur (kanbanlar, üretim emirleri, satınalma emirleri, toplu siparişler veya transfer emirleri)."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Ayrık, işlem ve yalın kaynak Hizmeti'nden planlama modu - karma birleştirmek
+# <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Karışık mod planlama - Ayrık, işlem ve yalın kaynak birleştirme
 
-Bu makale, karma mod planlama hakkında bilgi sağlar. Karma mod planlamada, tedarik zincirinizi, madde akışı tabanlı olarak modelleyebilirsiniz. İşlemler için Microsoft Dynamics 365 emin kılar (kanbans, üretim emirleri, satınalma siparişleri, toplu iş siparişleri veya transfer emirleri) seçili malzeme akışını tedarik ilkesini ne olursa olsun, modelleri izler. 
+[!include[banner](../includes/banner.md)]
+
+
+Bu makale, karma mod planlama hakkında bilgi sağlar. Karma mod planlamada, tedarik zincirinizi, madde akışı tabanlı olarak modelleyebilirsiniz. Microsoft Dynamics 365 for Operations, seçili olan tedarik ilkesi ne olursa olsun malzeme akışının modellerinizi takip ettiğinden emin olur (kanbanlar, üretim emirleri, satınalma emirleri, toplu siparişler veya transfer emirleri). 
 
 Bir ürün sağlamak için, ürün yapısı ne olursa olsun, genel strateji seçebilirsiniz.  
 
@@ -37,7 +40,7 @@ Bir ürün sağlamak için, ürün yapısı ne olursa olsun, genel strateji seç
 Master planlamada kullanılan tedarik ilkelerinin parçalı yapısı kapsamı boyutları olarak etkin depolama boyutlarına bağlıdır. Stok yenilemeyi ve konumları farklı türde tedariği (örneğin, üretim kat için farklı üretim birimleri ayırarak veya malzeme ve mamuller Ambarlar farklı türde ayırarak) kontrol etmek için Master çizelgeleme etkinleştirmek için kapsam boyutları olarak tesis ve ambar etkinleştirmenizi öneririz. Alternatif olarak, bir Karşılama boyutu olara ambar atlanabilir. Bu durumda, Gelişmiş ambar yönetimi kullandığınızda, ambarlar arasında tüm taşımalar mevzuatı çekme kanbanları tarafından kontrol edilebilirken bir ambarın içindeki tüm taşımalar ambar çalışma tarafından denetlenir.
 
 ## <a name="supply-policies"></a>Malzeme ilkeleri
-Karma mod operasyonlar planlama için 365 dynamics nasıl bir ürün tarafından sağlanan ve, tedarik, nasıl türetilen gereksinimleri dayalı denetler (bir fatura gelen maddelerin malzeme tüketimi \[AĞACI\]) verilir. Sipariş türüne bağlı olarak, sistem otomatik olarak gereksinimlerine göre malzeme kaynaklandırır.  
+Dynamics 365 for Operations karma mod planlama bir ürününün nasıl sağlandığını ve tedariği temel alarak türetilmiş gereksinimlerin (ürün reçetesinden \[BOM\] maddelerin tüketimi) nasıl çıkarıldığını denetler. Sipariş türüne bağlı olarak, sistem otomatik olarak gereksinimlerine göre malzeme kaynaklandırır.  
 
 Tedarik ilkeleri ürün düzeyinde veya gereksinimlerinizi destekleyen herhangi bir ayrıntı düzeyinde tanımlanabilir. Parçalı yapı tedarik ilkelerini **varsayılan sipariş ayarları**sayfasında tanımlarsınız.  
 
@@ -45,9 +48,9 @@ Tedarik ilkeleri, ürün, Ürün boyutları (yapılandırma, renk ve boyut), sit
 
 Varsayılan sipariş tipi, master planlamanın hangi sırayla oluştuğunu denetler.  
 
-Dynamics 365 işlemleri için tedarik zinciri nasıl modellenir ne olursa olsun, tedarik ilkeleri karışımını destekler. Kanbanlardan kaynaklanan üretim emirleri olabilir. Alternatif olarak, aktarımlar veya kanbanlar tarafından sağlanan bir ürün gerektiren bir toplu iş emri olabilir.  
+Tedarik zincirinin nasıl modellendiğinden bağımsız olarak, Dynamics 365 for Operations tedarik ilkeleri karışımınızı destekler. Kanbanlardan kaynaklanan üretim emirleri olabilir. Alternatif olarak, aktarımlar veya kanbanlar tarafından sağlanan bir ürün gerektiren bir toplu iş emri olabilir.  
 
-Dynamics 365 işlemleri için malzeme akış modeli izler emin olur.  
+Dynamics 365 for Operations malzeme akışının modeli izlediğinden emin olur.  
 
 Malzeme çekme için ambar tedarik İlkesi tanımlandıktan sonra çalışma zamanında dinamik olarak atanır.  
 
@@ -55,14 +58,16 @@ Genellikle, bir kanban ömrü kısa olduğundan kanbanlar gelecekteki tarihler i
 
 Diğer tüm tedarik ilke türleri için aynı mantık mevcuttur. Bu nedenle, uzun dönemli malzemeleri planlama, üretim ve tedarik onaylandıktan sonra gerçek siparişlerle ile çalıştırmak için beklediğiniz aynı mantığa dayanır.
 
-## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>Malzemelerin ayırma crosssupply İlkesi – kaynak tüketimi ürün reçeteleri hakkında
+## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>Tedarik arası malzeme tahsisatı ilkesi – Ürün reçetelerindeki kaynak tüketimi
 Kaynak tüketimi önemli bir işlevdir. Kaynak tüketimi (sipariş türü) tedarik ilkesini temel alarak bir ambar için dinamik olarak seçilen malzeme çekme sağlar ve ayrıca temel verilerin bakımını kolaylaştırır.  
 
 Kaynak tüketimi gelen malzemelerin çekildiği ambarın ürünün tedarik şekline göre atanmasını gerektirir. Diğer bir deyişle, çalışma zamanında sistem üretim için kullanılması gereken kaynaklar bulur. Bu kaynaklara bağlı olarak, sistem sonra malzeme çekme ambarı bulur.  
 
-Bir tedarik ilkesinden bağımsız çalışma için, tedarik değişirse ürün reçetesindeki bilgileri değiştirmeniz gerekmez. Geçici değişiklikler için işlemleri için Dynamics 365 malzemeleri sağ ambardan kaynağı olan emin olur.
+Bir tedarik ilkesinden bağımsız çalışma için, tedarik değişirse ürün reçetesindeki bilgileri değiştirmeniz gerekmez. Geçici değişiklikler için Dynamics 365 for Operations malzemelerin doğru ambardan alınmasını sağlar.
 
 ## <a name="process-manufacturing--the-production-type"></a>İşlem üretimi - Üretim türü
-Karma modda tam esneklik sağlamak için tüm ürünler için ürün reçetelerini üretim tipi kullanmanızı öneririz. Daha sonra üretim emirleri, kanbans, transfer siparişleri veya satınalma siparişleri ürün sağlamak için kullanabilirsiniz. İşlem üretim için **formül**, **ortak ürün**, **yan ürün**, veya **planlama madde** üretim türü kullanmanız gerekir. Kanbanlar ve üretim siparişleri bu üretim türleri için kullanılamaz.
+Karma modda tam esneklik sağlamak için tüm ürünler için üretim tipi ürün reçetelerini kullanmanızı öneririz. Daha sonra ürün tedarik etmek için üretim emirleri, kanban, transfer emirleri veya satınalma siparişleri kullanabilirsiniz. İşlem üretim için **formül**, **ortak ürün**, **yan ürün**, veya **planlama madde** üretim türü kullanmanız gerekir. Kanbanlar ve üretim siparişleri bu üretim türleri için kullanılamaz.
+
+
 
 

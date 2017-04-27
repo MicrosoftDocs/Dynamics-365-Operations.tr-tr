@@ -1,5 +1,5 @@
 ---
-title: "Satıcı alacak dekontları indirimler içeren kısmi Satıcı ödeme kapatma"
+title: "Satıcı alacak dekontlarında iskontolar içeren bir kısmi satıcı ödemesini kapatma"
 description: "Bu makalede bir faturaya karşılık bir alacak dekontunun kapanışın yapıldığı bir senaryoda size eşlik edilmektedir."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Satıcı alacak dekontları indirimler içeren kısmi Satıcı ödeme kapatma
+# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Satıcı alacak dekontlarında iskontolar içeren bir kısmi satıcı ödemesini kapatma
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede bir faturaya karşılık bir alacak dekontunun kapanışın yapıldığı bir senaryoda size eşlik edilmektedir.
 
 Fabrikam satıcıları credit note'larında nakit iskontoları verir. Satıcı 3050 bir fatura 14 günde ödeniyorsa Fabrikam'ın yüzde 1'lik bir bir nakit iskontosu almasını sağlar.
 
 ## <a name="invoice-and-credit-memo"></a>Fatura ve credit memo
-Nisan 29 Haziran için 1.000,00 3050 satıcı fatura oluşturur. 2 Temmuz, Filiz 200,00 için Alacak dekontu oluşturur. April, **Satıcılar** sayfasından **İşlemleri düzelt** sayfasını açar. April hem kredi notunu hem düzeltilecek faturayı işaretlemek için **İşlemleri düzelt** sayfasını kullanabilir. Credit note'ta 2.00 değerinde bir iskonto hespalanır. Bu nedenle, toplam credit note değeri 198.00'a düşürülür.
+29 Haziran tarihinde April 3050 numaralı satıcı için 1.000,00 tutarında bir fatura oluşturuyor. 2 Temmuz'da 200,00 için alacak dekontu oluşturuyor. April, **Satıcılar** sayfasından **İşlemleri düzelt** sayfasını açar. April hem kredi notunu hem düzeltilecek faturayı işaretlemek için **İşlemleri düzelt** sayfasını kullanabilir. Credit note'ta 2.00 değerinde bir iskonto hespalanır. Bu nedenle, toplam credit note değeri 198.00'a düşürülür.
 
 | İşaret                     | Nakit iskontosu kullan | Fiş   | Hesap | Tarih      | Vade tarihi  | Fatura | Hareket para birimi cinsinden tutar | Para Birimi | Kapatılacak tutar |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -65,6 +68,8 @@ April, **Tüm satıcılar** sayfasını seçerek **Satıcı işlemleri **sayfas�
 | Inv-10071  |                  | 2/7/2015  | CR10071 | 200,00                               |                                       | 0,00    | ABD Doları      |
 | DISC-10071 |  Nakit iskontosu   | 2/7/2015  |         | 2,00                                 |                                       | 0,00    | ABD Doları      |
 | DISC-10071 |  Nakit iskontosu   | 2/7/2015  |         |                                      | 2,00                                  | 0,00    | ABD Doları      |
+
+
 
 
 

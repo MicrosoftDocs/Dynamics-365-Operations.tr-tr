@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-objects"></a>Maliyet nesneleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, maliyet nesneleri hakkında bilgiler verilmekte, maliyetlerin ve miktarların nasıl biriktirildiği açıklanmaktadır. Maliyet nesnesi, maliyetlerin ve miktarların toplandığı bir varlıktır. Maliyet nesnesi varlığı, bir ürün veya ürün çeşidi (stil, renk vb.) olabilir.  
 
 <a name="cost-objects"></a>Maliyet nesneleri
@@ -65,19 +68,21 @@ Aşağıdaki tabloda maliyet nesnesinin ve stok nesnesinin ne oldukları göster
     -   Deftere nakledilen miktar
 -   **Ortalama birim maliyeti** alanı, hesaplanan bir alandır. Değer, **Değer** değerinin **Miktar** değerine bölünmesiyle bulunur.
 
-**Not:** ** fiziksel değeri dahil et ** parametre yukarıdaki hesaplamalar üzerinde hiçbir etkisi vardır.
+**Not:** **Fiziksel değeri dahil ** et parametresinin, önceki hesaplamalar üzerinde etkisi yoktur.
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Product dimension group](https://technet.microsoft.com/en-us/library/aa499382.aspx)
+[Ürün boyut grubu](https://technet.microsoft.com/en-us/library/aa499382.aspx)
 
-[Storage dimension group](https://technet.microsoft.com/en-us/library/hh209317.aspx)
+[Depolama boyutu grubu](https://technet.microsoft.com/en-us/library/hh209317.aspx)
 
-[Tracking dimension group](https://technet.microsoft.com/en-us/library/hh209465.aspx)
+[İzleme boyut grubu](https://technet.microsoft.com/en-us/library/hh209465.aspx)
 
-[Yeni veya değiştirilmiş Microsoft Dynamics AX'te nedir](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+[Microsoft Dynamics AX yeni veya değişik ne var](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
-[Cost entries](cost-entries.md)
+[Maliyet girişleri](cost-entries.md)
+
+
 
 

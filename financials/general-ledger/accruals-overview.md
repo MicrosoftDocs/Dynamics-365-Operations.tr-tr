@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accruals-overview"></a>Tahakkuklara genel bakış
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede tahakkuklar açıklanmakta, tahakkukları nasıl ayarlayacağınız ve hareketleri nasıl oluşturacağınız hakkında bilgiler verilmektedir.
 
 Tahakkuklar, tahakkuk muhasebesinde ödeme alındığında değil de kazanılan dönemde elde edilen geliri takip etmek ve ödeme yapıldığında değil de meydana geldiğinde anda giderleri (maliyetleri) takip etmek için kullanılır.
@@ -41,6 +44,8 @@ Tahakkuk planları, ertelenmiş gelir ve maliyetleri oluşturmak için kullanıl
 Hangi hesapların kullanılacağını belirledikten sonra tahakkuk hareketleri oluşturulduğunda fiş numarasının nasıl oluşturulacağını belirtebilirsiniz. Hareketlerin ne sıklıkla gerçekleştirileceğini, hareketlerin gerçekleşme sayısını ve hareketlerin ne zaman nakledileceğini de belirleyebilirsiniz. Tahakkuk planı oluşturduktan sonra Genel muhasebe tahakkukları işlevini kullanarak bu planı bazı günlüklerde kullanabilirsiniz.
 
 ## <a name="ledger-accruals"></a>Genel muhasebe tahakkukları
-Bir günlük girdiğinizde **İşlevler** menüsündeki **Genel muhasebe tahakkukları** öğesini tıklayabilirsiniz. Ardından, tahakkuk planını seçtiğinizde, günlükteki taban tutarını tahakkuk planında belirlendiği şekilde döneme dağılmış şekilde görürsünüz. Örneğin, bir çalışanın sigorta Ocak Ayındaki tüm yıl için ödeme ve 12.000 tutar ise, o gider her ay görmelidir. Başlangıç tarihi seçebilirsiniz. Tahakkuk eden tutarın hesaba mı, yoksa mahsup hesaba mı dayalı olacağını da belirleyebilirsiniz. Seçimlerinizi yaptıktan sonra'ı **hareketleri** tahakkuk düzenini temel alarak oluşturulan tüm hareketleri görüntülemek için. Örneğin, sigorta gideri 12.000 yıl boyunca yayılır, her ay için 1.000 görürsünüz. Günlüğü deftere naklettikten sonra hareketleri kullanarak görüntüleyebilirsiniz **fiş hareketleri** sorgulama sayfası. (Örneğin, satış siparişi veya satınalma siparişi faturası söz konusu olduğunda) tahakkuk düzeni uygulanamıyor peşinat tutarı Alacak ve Borç gider tutarı. Tahakkuk planını uygularken **Mahsup** seçimini yapabilirsiniz.
+Bir günlük girdiğinizde **İşlevler** menüsündeki **Genel muhasebe tahakkukları** öğesini tıklayabilirsiniz. Ardından, tahakkuk planını seçtiğinizde, günlükteki taban tutarını tahakkuk planında belirlendiği şekilde döneme dağılmış şekilde görürsünüz. Örneğin, bir çalışanın tüm yıla ait sigortasını Ocak ayındaki ödüyorsanız ve tutar 12.000 ise, bu gideri her ay kabul etmeniz gerekir. Başlangıç tarihini seçebilirsiniz. Tahakkuk eden tutarın hesaba mı, yoksa mahsup hesaba mı dayalı olacağını da belirleyebilirsiniz. Bu seçimleri yaptıktan sonra tahakkuk düzenine dayanarak oluşturulan tüm hareketleri görmek için **Hareketler**'i tıklatın. Örneğin, 12.000 tutarındaki sigorta masraflarını yıla yayarsanız, her ay 1.000 görürsünüz. Günlüğü deftere naklettikten sonra, **Fiş hareketleri** sorgulama sayfasını kullanarak hareketleri görebilirsiniz. Bir tahakkuk düzeni uygulanamıyorsa (örneğin, bir satış siparişi faturası veya satınalma emri faturası söz konusuysa), önceden ödenmiş tutarı alacaklandırabilir ve gider tutarını borçlandırabilirsiniz. Tahakkuk planını uygularken **Mahsup** seçimini yapabilirsiniz.
+
+
 
 

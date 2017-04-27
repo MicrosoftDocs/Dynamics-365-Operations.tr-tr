@@ -41,11 +41,11 @@ Satır tanımını finansal rapordaki her satırın içeriğini belirten bir rap
 2.  Açılacak satır tanımının adını çift tıklayın.
 3.  Satır tanımıyla ilişkili olan tüm yapı taşlarını görüntülemek için satır tanımına sağ tıklayın ve arından **İlişkiler** öğesini seçin.
 
-## <a name="contents-of-a-row-definition"></a> Bir satır tanımının içeriği
+## <a name="contents-of-a-row-definition"></a>Bir satır tanımının içeriği
 Bir satır tanımı, 20.000 mali boyut satırına kadar alabilir ve şu bilgileri içerebilir:
 
 -   Örneğin **nakit** veya **Toplam Gelir** gibi bölüm üstbilgileri, satırları ve boşlukları oluşturarak rapora anlam katan açıklayıcı metinler
--   Microsoft Dynamics 365 işlemleri için değerler içerebilir mali verilere bağlanan boyut **Not:** veri çekecek şekilde rapor oluşturulan her zaman mali boyutları sistemden bir satır tanımını ayarlayabilirsiniz.
+-   Microsoft Dynamics 365 for Operations'taki boyut değerlerini içerebilen mali verilere bağlantılar. **Not:** Rapor her üretildiğinde mali boyutlar sisteminden veri çekecek bir satır tanımını ayarlayabilirsiniz.
 -   Bağlantılı mali verilere dayalı satır toplamları ve formülleri
 
 Genellikle, her bir satır tanımındaki her bir satır aşağıdaki veri türlerinden birini içerir:
@@ -59,12 +59,12 @@ Satır tanımına veri girmek için iki yöntem bulunmaktadır:
 -   Yeni satır tanımında satır bilgilerini el ile girin. Daha fazla bilgi için [Satır tanımı hücrelerini değiştirme](modify-row-definition-cells-financial-reporting.md) bölümüne bakın.
 -   Satır bilgilerini doğrudan finansal boyutlardan çekmek için rapor tasarımcısını kullanın. Daha fazla bilgi için bkz. [Satır tanımı hücrelerini değiştirme](modify-row-definition-cells-financial-reporting.md) içindeki "İlgili formüller/satırlar/birimler" bölümü.
 
-## <a name="add-dimensions-in-a-row-definition"></a> Bir satır tanımına boyutlar ekleme
+## <a name="add-dimensions-in-a-row-definition"></a>Bir satır tanımına boyutlar ekleme
 Bir boyut, veri ve değerlerin bir kesişimidir. Rapor tasarımcısında verileri ve değerleri gruplandırabilirsiniz. Ardından hareketleri sınıflandırabilir ve daha ayrıntılı şekilde çözümleyebilirsiniz. Bir satır tanımına aynı anda birden fazla satır eklemek için **Boyutlardan Satır Ekle** iletişim kutusunu kullanabilirsiniz. İletişim kutusu her bir boyut için bir sütun görüntüler. Aşağıdaki tabloda her boyut için belirtebileceğiniz bilgiler açıklanmaktadır.
 
 | Seçenek                | Açıklama                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Boyut             | Satır tanımına eklenecek boyutu tanımlayan model. Bu deseni içeren bir ve işareti (&) veya numara işareti (\#) boyutlarında her konum için. Genellikle, Ana Hesap boyutu için tüm ve işaretlerini ve diğer boyutlar için tüm rakam işaretlerini kullanırsınız. |
+| Boyut             | Satır tanımına eklenecek boyutu tanımlayan model. Bu model, boyutlardaki her bir konum için bir ve işareti (&) veya rakam işareti (\#) içerir. Genellikle, Ana Hesap boyutu için tüm ve işaretlerini ve diğer boyutlar için tüm rakam işaretlerini kullanırsınız. |
 | Boyut Aralığı Başlangıcı | Bu boyutun satır tanımına ekleyeceği ilk değer.                                                                                                                                                                                                                 |
 | Boyut Aralığı Sonu   | Bu boyutun satır tanımına ekleyeceği son değer.                                                                                                                                                                                                                  |
 
@@ -73,12 +73,12 @@ Bir satır tanımına boyutlar eklemek için şu adımları izleyin.
 1.  Rapor Tasarımcısında **Satır Tanımları** öğesine tıklayın ve ardından değiştirmek için satır tanımını açın.
 2.  **Düzenle** menüsündeki **Boyutlardan Satır Ekle** öğesini tıklayın.
 3.  **Boyutlardan Satır Ekle **iletişim kutusunda, **Boyutlar** satırında, boyutun satır tanımına aktarılacağı hücreyi seçin ve **Tüm &&&** öğesine tıklayın.
-4.  Satır tanımını boyut değerlerinin belirli bir aralığıyla sınırlandırmak için **Boyut Aralığı Başlangıcı **hücresine başlangıç boyut değerini ve ardından **Boyut Aralığı Sonu** hücresine bitiş boyut değerini girin. Seçilen boyut için tüm değerleri eklemek için bu hücreleri boş bırakın. **Not:** joker karakterler (\* veya?) boyut aralıkları tüm sonuçları döndürmeyebilir, ERP veritabanı veri harmanlar nasıl bağlı olarak istediğiniz.
+4.  Satır tanımını boyut değerlerinin belirli bir aralığıyla sınırlandırmak için **Boyut Aralığı Başlangıcı **hücresine başlangıç boyut değerini ve ardından **Boyut Aralığı Sonu** hücresine bitiş boyut değerini girin. Seçilen boyut için tüm değerleri eklemek için bu hücreleri boş bırakın. **Not:** Boyut aralıklarındaki joker karakterler (\* veya ?) boyut aralıkları, ERP veritabanının verileri nasıl topladığına bağlı olarak istediğiniz tüm sonuçları vermeyebilir.
 5.  **Başlangıç satırı kodu** alanında, satır tanımına eklenecek ilk boyut için satır kodunu belirtin.
-6.  **Her satıra şuna göre artır** alanında, birbirini takip eden satır kodları arasındaki boşluğu belirtin. Örneğin, ilk satır kodu 100'dür ve artış değeri 30 ise, ilk yeni satır 100, 130, 160, 190 ve 220 kodları vardır. Yeni biçim ve formül satırlarını eklemek için yeterli alan sağlayan bir artış değerini kullanın.
+6.  **Her satıra şuna göre artır** alanında, birbirini takip eden satır kodları arasındaki boşluğu belirtin. Örneğin, ilk satır kodu 100 ve artış değeri 30 ise, ilk yeni satırların kodları 100, 130, 160, 190 ve 220 olur. Yeni biçim ve formül satırlarını eklemek için yeterli alan sağlayan bir artış değerini kullanın.
 7.  **Tamam** düğmesini tıklatın. Seçili boyut değerlerinin her biri için satır tanımına bir satır eklenir.
 
-## <a name="adjust-rounding-in-a-row-definition"></a> Bir satır tanımında yuvarlamayı ayarlama
+## <a name="adjust-rounding-in-a-row-definition"></a>Bir satır tanımında yuvarlamayı ayarlama
 Tutarların yuvarlandığı bir bilançonuz varsa, toplamlar bakiyeyi vermeyebilir. Bu sorun, örneğin bilanço raporunda yuvarlama seçeneğini kullandığınızda ve rapor tanımını da yuvarlama işlemi belirttiğinde ortaya çıkabilir. Bilançolarınızdaki tutarları dengelemek için satır tanımındaki **Yuvarlama düzeltmesi** seçeneğini kullanabilirsiniz. Yuvarlama seçeneğini rapor tanımlarının **Ayarlar** sekmesinden kapatabilir veya değiştirebilirsiniz. Aşağıdaki tabloda tutarların nasıl yuvarlandığı gösterilmiştir. Bu tabloda, satır 100 ve 200 toplamları yuvarlama açık konuma getirildiğinde farklı çıkmaktadır.
 
 | Satır kodu | Yuvarlama yapılmadan tutarlar | Tam binlere yuvarlama yapıldığında tutar |
@@ -146,7 +146,7 @@ Satır tanımında belirtilen biçimlendirme sütun ve rapor tanımında belirti
 
 1.  Rapor Tasarımcısında değiştirilecek satır tanımını açın.
 2.  Biçimlendirilecek hücreleri seçin. Birden fazla hücre seçmek için, hücreleri seçerken Ctrl tuşunu basılı tutun.
-3.  Araç çubuğunda uygulanacak biçimlendirmeye karşılık gelen düğmeyi tıklayın. Örneğin, bir satır girintilemek için satırı seçin ve'ı **Girintiyi Artır**![Girintiyi Artır](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Girintiyi Artır") araç.
+3.  Araç çubuğunda uygulanacak biçimlendirmeye karşılık gelen düğmeyi tıklayın. Örneğin, bir satıra girinti vermek için satırı seçin ve araç çubuğundaki **Girintiyi Artır** ![Girintiyi Artır](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Girintiyi Artır") düğmesine tıklayın.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Rapor tasarlarken sütunları ayarlama
 
@@ -173,6 +173,6 @@ Satır tanımında belirtilen biçimlendirme sütun ve rapor tanımında belirti
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Finansal raporlama için Microsoft Dynamics 365 işlemleri için](financial-reporting-intro.md)
+[Microsoft Dynamics 365 for Operations için mali raporlama](financial-reporting-intro.md)
 
 

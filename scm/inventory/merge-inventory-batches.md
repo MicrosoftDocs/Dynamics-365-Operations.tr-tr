@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="merge-inventory-batches"></a>Stok toplu işlerini birleştir
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede iki veya daha fazla stok toplu işinin birleştirilmiş bir toplu iş ile nasıl konsolide edileceği hakkında bilgiler verilmiştir. 
 
 Toplu işleri birleştirdiğinizde, hesaplamalar, birleştirilmiş toplu iştin özellikleri ve toplu iş özniteliklerini en iyi duruma getirmenize yardımcı olur. Kaynak toplu işleri seçtikten sonra, birleştirilen toplu işi deftere nakletmeden önce gözden geçirilebilir ve değiştirebilirsiniz. Ayrıca, toplu iş birleştirme işlemini onay için bir stok günlüğüne transfer edebilirsiniz. Stok ardından doğrudan bu stok günlüğünden rezerve edilebilir veya deftere nakledilebilir. Birleştirilmiş bir toplu işi deftere naklettiğinizde, stok, kaynak toplu işler ve birleştirilmiş toplu iş için ayarlanır.
@@ -48,7 +51,7 @@ Evet, birleştirme toplu iş araçlarını kullanmadan önce ayarlamanız gereke
 <tbody>
 <tr class="odd">
 <td>Günlük adları, stok</td>
-<td>Stok günlüklerinde toplu iş birleştirmelerini deftere naklettiğinizde varsayılan olarak kullanılan bir günlük adı oluşturmanız gerekir. İsteğe bağlıdır, ancak önerilir: Toplu iş birleştirmesi stok günlüğüne aktarıldığında rezervasyonların otomatik olarak yapılmasını belirtebilirsiniz. Aksi takdirde, toplu iş birleştirme ayrıntıları ayarlandıktan ve günlük deftere nakledildikten sonra eldeki stokun değiştirilme riski vardır. Günlük adı için otomatik rezervasyonlar etkinleştirmek için seçin <strong>otomatik</strong>, <strong><strong>rezervasyon</strong></strong> alan.</td>
+<td>Stok günlüklerinde toplu iş birleştirmelerini deftere naklettiğinizde varsayılan olarak kullanılan bir günlük adı oluşturmanız gerekir. İsteğe bağlıdır, ancak önerilir: Toplu iş birleştirmesi stok günlüğüne aktarıldığında rezervasyonların otomatik olarak yapılmasını belirtebilirsiniz. Aksi takdirde, toplu iş birleştirme ayrıntıları ayarlandıktan ve günlük deftere nakledildikten sonra eldeki stokun değiştirilme riski vardır. Günlük adı için otomatik rezervasyonları etkinleştirmek üzere <strong><strong>Rezervasyon</strong> </strong>alanında <strong>Otomatik</strong> öğesini seçin.</td>
 </tr>
 <tr class="even">
 <td>Stok ve ambar yönetim parametreleri</td>
@@ -134,9 +137,11 @@ Deftere nakil işleri, günlükler için bir onay işlemi mi kullandığınıza 
 -   **Günlüğe transfer et** – Toplu iş birleştirme ayrıntılarını yeni bir stok günlüğüne transfer eder. Otomatik rezervasyonlar ayarlarsanız, kaynak toplu iş miktarları rezerve edilir. Toplu iş birleştirme işleminin ayrıntıları değiştirilemez. Toplu iş birleştirme işlemini değiştirmek için günlüğü silmeniz gerekir. Günlük, başka bir çalışanın daha sonra gerçekleştirmesi gereken bir görev olarak kullanılabilir. Toplu iş miktarının günlük satırına rezervasyonu güvenlik altına alınır. Bu atama işlemi bir kalite planlayıcısının veya bir depo yöneticisinin kendi çalışanları için görevler oluşturmasına izin verir.
 -   **Toplu iş birleştirmeyi deftere naklet** – Toplu iş birleştirmeyi doğrudan deftere nakleder. Bu eylem, fiziksel birleştirme gerçekleştikten sonra gerçekleştirilebilir.
 
-Toplu iş birleştirme stok günlüğünü Tüm toplu iş birleştirmeler listesi sayfasında **Tüm toplu iş birleştirmeleri** liste sayfasından onaylayabilirsiniz. ' I **günlük**&gt;**posta**. Günlük deftere nakledildikten sonra birleştirilen toplu iş ayrıntılarını değiştiremezsiniz. Toplu iş birleştirmesini bir stok günlüğüne transfer ettikten sonra, yalnızca günlüğün silinmesi durumunda ayrıntıları değiştirebilirsiniz.
+Toplu iş birleştirme stok günlüğünü Tüm toplu iş birleştirmeler listesi sayfasında **Tüm toplu iş birleştirmeleri** liste sayfasından onaylayabilirsiniz. **Günlük** &gt; **Deftere naklet** düğmelerine tıklayın. Günlük deftere nakledildikten sonra birleştirilen toplu iş ayrıntılarını değiştiremezsiniz. Toplu iş birleştirmesini bir stok günlüğüne transfer ettikten sonra, yalnızca günlüğün silinmesi durumunda ayrıntıları değiştirebilirsiniz.
 
-## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Ben catchweight madde birleştirilen sonra neden olan stok günlüğündeki catchweight bilgileri göremiyor?
+## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Fiili ağırlık maddesini birleştirdikten sonra neden stok günlüğünde fiili ağırlık bilgilerini göremiyorum?
 Fiili ağırlık maddelerinin toplu işlerini tüm diğer öğeler gibi birleştirebilirsiniz. Ancak, fiili ağırlık bilgileri stok günlüğünde görüntülenmez. Toplu iş birleştirmeyi stok günlüğüne transfer etmeden önce fiili ağırlık bilgilerini doğrulamanız önerilir.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Yükleme ve Microsoft Dynamics 365 yapılandırmak için işlemleri & #8211; Depolama"
-description: "Bu konuda, yükleme ve yapılandırma işlemlerini - depolama için Microsoft Dynamics 365 açıklamaktadır."
+title: "Microsoft Dynamics 365 for Operations &#8211; Ambarlama yükleme ve yapılandırma"
+description: "Bu konu, Microsoft Dynamics 365 for Operations - Ambarlama&quot;nın nasıl yükleneceğini ve yapılandırılacağnı açıklar."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2017-04-04
@@ -26,78 +26,78 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="install-and-configure-microsoft-dynamics-365-for-operations-8211-warehousing"></a>Yükleme ve Microsoft Dynamics 365 yapılandırmak için işlemleri & #8211; Depolama
+# <a name="install-and-configure-microsoft-dynamics-365-for-operations-8211-warehousing"></a>Microsoft Dynamics 365 for Operations &#8211; Ambarlama yükleme ve yapılandırma
 
-Bu konuda, yükleme ve yapılandırma işlemlerini - depolama için Microsoft Dynamics 365 açıklamaktadır.
+Bu konu, Microsoft Dynamics 365 for Operations - Ambarlama'nın nasıl yükleneceğini ve yapılandırılacağnı açıklar.
 
-Dynamics 365 işlemleri - depolama için bir kullanılabilir Google kullan mağaza ve mağaza Windows uygulamasıdır. Microsoft Dynamics 365 işlemleri için geçerli sürümü için bu app ambar görevler için kullanılan aygıtlar kendinden dağıtım anlamına gelir tek başına bir bileşen olarak sağlanır. App, Dynamics 365 içinde işlem ortamını kullanmak için her aygıt üzerindeki uygulama yükleme ve işlem ortamı için Dynamics 365 bağlanmak için yapılandırın. Bu konuda aygıtlarınızda app yükleneceğini açıklar. App, Dynamics 365 işlem ortamı için bağlanmak için yapılandırmak nasıl da açıklamaktadır.
+Dynamics 365 for Operations - Ambarlama, Google Play Store ve Windows Mağazası'nda bulunan bir uygulamadır. Microsoft Dynamics 365 for Operations'un geçerli sürümü için bu uygulama, tek başına bir bileşen olarak sağlanır, bu da ambar görevleri için kullanılan cihazlarda kendinden dağıtım anlamına gelir. Uygulamayı Dynamics 365 for Operations ortamınızda kullanmak için uygulamayı tüm cihazlarınıza indirmeli ve sizin Dynamics 365 for Operations ortamınıza bağlanmak üzere yapılandırmalısınız. Bu konu, cihazlarınıza uygulamanın nasıl yükleneceğini açıklar. Ayrıca uygulamanın Dynamics 365 for Operations ortamınıza nasıl bağlanacağını da açıklar.
 
 ## <a name="prerequisites"></a>Önkoşullar
-App Android ve Windows işletim sistemlerinde kullanılabilir. Bu uygulamayı kullanmak için aşağıdaki desteklenen işletim sistemlerinin aygıtlarınızda yüklü olması gerekir. Dynamics 365 işlemleri için desteklenen sürümlerinden biri olmalıdır. Bilgileri aşağıdaki tabloda yüklemeyi desteklemek donanım ve yazılım ortamınızın hazır olmadığını değerlendirmek için kullanın.
+Uygulama Android ve Windows işletim sistemlerinde kullanılabilir. Bu uygulamayı kullanmak için aşağıda belirtilen, desteklenen işletim sistemlerinin cihazlarınızda yüklü olması gerekir. Dynamics 365 for Operations'un aşağıda belirtilen, desteklenen sürümlerinden birine de sahip olmalısınız. Aşağıdaki tabloda belirtilen verileri, donanım ve yazılım ortamınızın kurulumu desteklemeyi hazır olup olmadığını değerlendirmek için kullanın.
 
 | Platform                    | Sürüm                                                                                                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Android                     | 4.4, 5.0, 6.0                                                                                                                                                               |
 | Windows (UWP)               | Windows 10 (tüm sürümler)                                                                                                                                                   |
-| Dynamics 365 işlemleri için | Microsoft Dynamics 365 işlemleri sürüm 1611 - veya - Microsoft Dynamics Dynamics AX sürüm 7.0/7.0.1 için ve Microsoft Dynamics AX platform 2 KB 3210014 düzeltme ile güncelleştirin. |
+| Dynamics 365 for Operations | Microsoft Dynamics 365 for Operations sürüm 1611 veya Microsoft Dynamics AX sürüm 7.0/7.0.1 ve Microsoft Dynamics AX platform güncelleştirmesi 2 düzeltme KB 3210014 |
 
-## <a name="get-the-app"></a>App alın
--   Windows (UWP) - [Dynamics Windows deponun depolama işlemleri - 365](https://www.microsoft.com/store/apps/9p1bffd5tstm)
--   Android - [Dynamics Google kullan deposu depolama işlemleri - 365](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
+## <a name="get-the-app"></a>Uygulamayı edinin
+-   Windows (UWP) - [Dynamics 365 for Operations - Ambarlama Windows Mağazası'nda](https://www.microsoft.com/store/apps/9p1bffd5tstm)
+-   Android - [Dynamics 365 for Operations - Ambarlama Google Play Mağazası'nda](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
 ## <a name="create-a-web-service-application-in-active-directory"></a>Active Directory içinde bir web hizmeti uygulaması oluştur
-Server işlemleri için belirli bir Dynamics 365 ile etkileşimli çalışmak uygulamayı etkinleştirmek için web hizmeti uygulaması Azure Active Directory'de işlemleri Kiracı için Dynamics 365 için kaydetmeniz gerekir. Güvenlik nedenleriyle, kullandığınız her aygıt için bir web hizmeti uygulaması oluşturmanızı öneririz. Azure Active Directory (AD Azure) bir web hizmeti uygulaması oluşturmak için aşağıdaki adımları izleyin:
+Uygulamanın belirli bir Dynamics 365 for Operations sunucusu ile etkileşime girmesini etkinleştirmek için önce bir web hizmet uygulamasını, Dynamics 365 for Operations kiracısında bir Azure Active Directory içinde kaydetmelisiniz. Güvenlik nedeniyle, kullandığınız her cihaz için bir web hizmeti uygulaması oluşturmanızı öneririz. Azure Active Directory (AD Azure) içinde bir web hizmeti uygulaması oluşturmak için aşağıdaki adımları izleyin:
 
-1.  Bir web tarayıcısında Git <https://manage.windowsazure.com>.
-2.  Azure abonelik erişimi olan kullanıcı adını ve parolasını girin.
-3.  Azure Portal'da, sol gezinti bölmesinde tıklatın **Active Directory**. [](./media/wh-01-active-directory-example.png)[![ne-01-etkin-dizin-örnek](./media/wh-01-active-directory-example.png)](./media/wh-01-active-directory-example.png)
-4.  Kılavuzda, Dynamics 365 tarafından işlemleri için kullanılan Active Directory örneği seçin.
-5.  Üstteki araç çubuğunda tıklatın **uygulamalar**. [![ne-02-etkin-dizin-uygulamalar](./media/wh-02-active-directory-applications-1024x197.png)](./media/wh-02-active-directory-applications.png)
-6.  Alt bölmede **Ekle**. **Uygulama eklemek** Sihirbazı'nı başlatır.
-7.  Seçin ve uygulama için bir ad girin **Web uygulaması ve/veya API web**. [![wh-03-Active-Directory-Add-Application](./media/wh-03-active-directory-add-application.png)](./media/wh-03-active-directory-add-application.png)
-8.  Uygulama URL'SİYLE kök URL işlemleri, Kiracı olan oturum açma URL'si girin. Oturum açma URL'si etkin olarak app kimlik doğrulamasına kullanılmakta olan değil, ancak zorunlu bir alandır. Aynı URL'ye uygulaması kimliği URI'si alanına girin. [![ne-04-ad-Ekle-Özellikler](./media/wh-04-ad-add-properties.png)](./media/wh-04-ad-add-properties.png)
-9.  Git **yapılandırma** sekme. [![ne-05-ad-yapılandırma-app](./media/wh-05-ad-configure-app.png)](./media/wh-05-ad-configure-app.png)
-10. Gördüğünüz kadar aşağı kaydırın **diğer uygulamalara izin** bölüm. ' I **uygulama eklemek**. [![wh-06-ad-App-Add-Permissions](./media/wh-06-ad-app-add-permissions.png)](./media/wh-06-ad-app-add-permissions.png)
-11. Seçin **Microsoft Dynamics ERP** listesinde. ' I **tamamlamak onay** sayfanın sağ köşedeki düğme. [![ne-07-ad-select-izinleri](./media/wh-07-ad-select-permissions.png)](./media/wh-07-ad-select-permissions.png)
-12. İçinde **temsilci izinleri** listesinde, tüm onay kutularını seçin. Click **Save**. [![ne-08-ad-temsilci-izinleri](./media/wh-08-ad-delegate-permissions.png)](./media/wh-08-ad-delegate-permissions.png)
+1.  Bir web tarayıcısında <https://manage.windowsazure.com> adresine gidin.
+2.  Azure aboneliğine erişimi olan kullanıcının adını ve parolasını girin.
+3.  Azure Portal'da, sol gezinti bölmesinde tıklatın **Active Directory**.[](./media/wh-01-active-directory-example.png)[![wh-01-active-directory-örnek](./media/wh-01-active-directory-example.png)](./media/wh-01-active-directory-example.png)
+4.  Kılavuzda, Dynamics 365 for Operations tarafından kullanılan Active Directory örneğini seçin.
+5.  Üstteki araç çubuğunda **Uygulamalar** üzerine tıklatın. [![wh-02-active-directory-uygulamaları](./media/wh-02-active-directory-applications-1024x197.png)](./media/wh-02-active-directory-applications.png)
+6.  Alt panoda, **Ekle** üzerine tıklatın. **Uygulama eklemek** sihirbazı başlar.
+7.  Uygulama için bir ad girin ve **Web uygulaması ve/veya web API'si** seçin. [![wh-03-active-directory-uygulama-ekle](./media/wh-03-active-directory-add-application.png)](./media/wh-03-active-directory-add-application.png)
+8.  Kiracınızın uygulama URL'si olan, kök Operations URL'si oturum açma URL'sini girin. Oturum açma URL'si uygulamanın kimlik doğrulamasında şu an aktif olarak kullanılmamaktadır, ancak zorunlu bir alandır. Aynı URL'yi Uygulama kimliği URI alanına girin. [![wh-04-ad-özellikler-ekle](./media/wh-04-ad-add-properties.png)](./media/wh-04-ad-add-properties.png)
+9.  **Yapılandır** sekmesine git. [![wh-05-ad-yapılandırma-app](./media/wh-05-ad-configure-app.png)](./media/wh-05-ad-configure-app.png)
+10. **İzinler ve diğer uygulamalar** bölümünü görene kadar aşağı kaydırın. **Başvuru ekle** üzerine tıklayın. [![wh-06-ad-uygulama-izinleri-ekle](./media/wh-06-ad-app-add-permissions.png)](./media/wh-06-ad-app-add-permissions.png)
+11. Listede **Microsoft Dynamics ERP**'yi seçin. Sayfanın sağ köşesindeki **Tam denetim** düğmesini tıklatın. [![wh-07-ad-izinleri-seç](./media/wh-07-ad-select-permissions.png)](./media/wh-07-ad-select-permissions.png)
+12. **Temsilci İzinleri** listesinde, tüm onay kutularını seçin. **Kaydet**'i tıklatın. [![wh-08-ad-temsilci-izinleri](./media/wh-08-ad-delegate-permissions.png)](./media/wh-08-ad-delegate-permissions.png)
 13. Aşağıdaki bilgileri not alın:
-    -   **İstemci kimliği** - page up göreceğiniz kaydırırken **istemci kimliği** görüntülenir.
-    -   **Anahtar** - de **tuşları** bölümünde süre seçerek bir anahtar oluşturun ve anahtar kopyalayın. Bu anahtar daha sonra için olarak anılacaktır **istemci gizli**.
+    -   **İstemci kimliği** - Sayfada yukarı kaydırırken **İstemci kimliği**'nin görüntülendiğini görürsünüz.
+    -   **Anahtar** - **Anahtarlar** bölümünde, süre seçerek bir anahtar oluşturun ve anahtarı kopyalayın. Bu anahtar daha sonra **İstemci sırrı** olarak anılacaktır.
 
-## <a name="create-and-configure-a-user-account-in-dynamics-365-for-operations"></a>Oluşturma ve Dynamics 365 işlemleri için bir kullanıcı hesabı yapılandırma
-Dynamics 365 Azure AD uygulamanızı kullanmak işlemleri için etkinleştirmek için aşağıdaki yapılandırma adımları izlemeniz gerekir:
+## <a name="create-and-configure-a-user-account-in-dynamics-365-for-operations"></a>Dynamics 365 for Operations içinde bir kullanıcı hesabı oluşturma ve yapılandırma
+Dynamics 365 for Operations'ın Azure AD uygulamanızı kullanmasını sağlamak için, aşağıdaki yapılandırma adımlarını tamamlamanız gerekir:
 
-1.  Kiracı işlemleri için Dynamics 365 Azure Active Directory'de yeni bir kullanıcı hesabı oluşturun. Server işlemleri için Dynamics 365 sunan ambar App'in özel hizmete erişmek için bu kullanıcı hesabının amacı budur. Bu adımı tamamladıktan sonra WMDP e-posta adresi ve parola WMDP oluşan WMDP kullanıcı kimlik olacaktır. Kullanıcılar için Azure AD eklemek için temel adımlar hakkında bilgi edinmek için ve işlemleri için Dynamics 365 başvurmak için Bu öğretici: [için Microsoft Dynamics 365 abonelik işlemleri için kaydolun](/dynamics365/operations/dev-itpro/sign-up-preview-subscription).
-2.  Dynamics 365 ambar app kullanıcı kimlik bilgilerini karşılık gelen kullanıcı işlemleri için oluşturun.
-    1.  İşlemler için Dynamics 365 içinde gitmek **Sistem Yönetimi**&gt;**ortak**&gt;**kullanıcı**.
+1.  Dynamics 365 for Operations kiracısı için Azure Active Directory'de yeni bir kullanıcı hesabı oluşturun. Bu kullanıcı hesabının amacı, Dynamics 365 for Operations sunucusunun açığa çıkarttığı ambarlama uygulamasının belirli özel hizmetlerine erişmektir. Bu adımı tamamladıktan sonra, bir WMDP e-posta adresi ve WMDP parolasından oluşan WMDP kullanıcı kimlik bilgilerine sahip olacaksınız. Azure AD ve Dynamics 365 for Operations için kullanıcılar eklemek hakkında temel adımları öğrenmek için bu eğitime göz atın: [Bir Microsoft Dynamics 365 for Operations aboneliğine kaydolun](/dynamics365/operations/dev-itpro/sign-up-preview-subscription).
+2.  Ambarlama uygulaması kullanıcı kimlik bilgilerine karşılık gelne bir Dynamics 365 for Operations kullanıcı oluşturun.
+    1.  Dynamics 365 for Operations içerisinde **Sistem Yönetimi** &gt; **Ortak** &gt; **Kullanıcılar** konumuna gidin.
     2.  Yeni bir kullanıcı oluşturun.
-    3.  Aşağıdaki ekran görüntüsünde gösterildiği gibi ambar mobil aygıt kullanıcı atayın. [![wh-09-Add-User-Security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
+    3.  Ambarı, mobil cihaz kullanıcısına, aşağıdaki ekran görüntüsünde görüldüğü gibi atayın. [![wh-09-kullanıcı-güvenlik-rolü-ekle](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
-3.  Azure Active Directory uygulamanızın ambar app kullanıcı ile ilişkilendirir.
-    1.  İşlemler için Dynamics 365 içinde gitmek **Sistem Yönetimi**&gt;**Kurulum**&gt;**Azure Active Directory uygulamaları**.
+3.  Azure Active Directory uygulamanızı, ambar uygulaması kullanıcısı ile ilişkilendirin.
+    1.  Dynamics 365 for Operations içerisinde **Sistem yönetimi** &gt; **Kurulum** &gt; **Azure Active Directory uygulamaları** konumuna gidin.
     2.  Yeni satır oluşturun.
-    3.  Girin **istemci kimliği** (son bölümde elde edilen) bir ad verin ve önceden oluşturulmuş kullanıcı seçin. Kayıp olasılığına kolayca kendi erişim Dynamics 365 işlemleri için bu sayfadan kaldırabilirsiniz, böylece tüm aygıtlarınızın etiketi öneririz. [![ne-10-ad-uygulamalar-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
+    3.  **İstemci kimliği**'ni (son bölümde elde edilen) girin, bir ad verin ve önceki oluşturulan kullanıcıyı seçin. Tüm cihazlarınızı etiketlemenizi öneririz, böylece kayboldukları takdirde onların Dynamics 365 for Operations erişimlerini bu sayfadan kolayca kaldırabilirsiniz. [![wh-10-ad-uygulamalar-formu](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
 
-## <a name="configure-the-application"></a>Uygulama yapılandırma
-Azure Reklam uygulaması aracılığıyla server işlemleri için Dynamics 365 bağlanmak için aygıt üzerindeki uygulama yapılandırmanız gerekir. Bunu yapmak için aşağıdaki adımları izleyin.
+## <a name="configure-the-application"></a>Uygulamayı yapılandır
+Azure AD uygulaması aracılığıyla Dynamics 365 for Operations sunucusuna erişebilmek için cihaz üzerindeki uygulamayı yapılandırmanız gerekir. Bunu yapmak için aşağıdaki adımları tamamlayın.
 
-1.  App içinde gitmek **bağlantı ayarlarını**.
-2.  NET **Demo modunda** alan. [![wh-11-App-Connection-Settings-Demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
-3.  Aşağıdaki bilgileri girin:- **Azure Active directory istemci kimliği** -istemci kimliği "Active Directory web hizmeti uygulaması oluştur" 13 adımda elde edilir. - **Azure Active directory istemci gizli** -istemci gizli, "Active Directory web hizmeti uygulaması oluştur" 13 adımda elde edilir. - **Azure Active directory kaynak** -Azure AD dizini kaynak Dynamics 365 işlemleri kök URL'sini gösterir. **Not**: Bu alanda bir eğik çizgi (/) ile bitmez. - **Azure Active directory Kiracı** -Azure AD dizini Kiracı ile Dynamics 365 server işlemleri için kullanılan: https://login.windows.net/&lt;your-AD-Kiracı-ID&gt;. Örneğin: https://login.windows.net/contosooperations.onmicrosoft.com. 
-**Not**: Bu alanda bir eğik çizgi (/) ile bitmez. - **Şirket** -tüzel kişilik içinde Dynamics 365 uygulama bağlanmak istediğiniz işlemleri için girin. [![ne-12-app-bağlantı-ayarları](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
-4.  Seçin **geri** uygulama sol üst köşesindeki düğmesini. Uygulama şimdi, Dynamics 365 server işlemleri için bağlanacak ve ambar çalışanı için oturum açma ekranı görüntülenir. [![ne 13 oturum açma ekranı](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
+1.  Uygulamanın içinde **Bağlantı ayarları**'na gidin.
+2.  **Demo modu** alanını temizleyin. [![wh-11-uygulama-bağlantı-ayarları-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
+3.  Aşağıdaki bilgiyi girin: - **Azure Active directory istemci kimliği** - İstemci kimliği, "Active Directory'de bir web hizmeti uygulaması oluştur" içindeki 13. adımdan edinilir. **Azure Active directory istemci sırrı** - İstemci sırrı, "Active Directory'de bir web hizmeti uygulaması oluştur" içindeki 13. adımdan edinilir. - **Azure Active directory kaynağı** -Azure AD dizini kaynağı, Dynamics 365 for Operations kök URL'sini gösterir. **Not**: Bu alanı bir eğik çizgi (/) ile bitirmeyin. - **Azure Active directory kiracısı** - Dynamics 365 for Operations sunucusu ile kullanılan Azure AD dizini kiracısı: https://login.windows.net/&lt;sizin-AD-kiracı-kimliğiniz&gt;. Örneğin: https://login.windows.net/contosooperations.onmicrosoft.com. 
+**Not**: Bu alanı bir eğik çizgi (/) ile bitirmeyin. - **Şirket** - Uygulamanın bağlanmasını istediğiniz tüzel varlığı, Dynamics 365 for Operations içerisinde girin. [![wh-12-uygulama-bağlantı-ayarları](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
+4.  Uygulamanın sol üst köşesindeki **Geri** düğmesini seçin. Uygulama şimdi, Dynamics 365 for Operations sunucunuza bağlanır ve ambar çalışanı için oturum açma ekranı görüntülenir. [![wh-13-oturum-açma-ekranı](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
 
-## <a name="remove-access-for-a-device"></a>Bir aygıtı Kaldır
-Durumunda kayıp ya da güvenliği aşılmış bir aygıt, aygıt işlemleri için Dynamics 365 erişimi kaldırmanız gerekir. Erişimi kaldırmak için önerilen işlemi aşağıdaki adımları açıklanmaktadır.
+## <a name="remove-access-for-a-device"></a>Cihazın erişimini kaldır
+Kayıp veya güvenliği aşılmış bir cihaz durumunda, bu cihaz için Dynamics 365 for Operations erişimini kaldırmanız gerekir. Aşağıdaki adımlar, erişimi kaldırmak için önerilen adımları açıklar.
 
-1.  İşlemler için Dynamics 365 içinde gitmek **Sistem Yönetimi**&gt;**Kurulum**&gt;**Azure Active Directory uygulamaları**.
-2.  Erişimi kaldırmak istediğiniz aygıta karşılık gelen satırı silin. DOWN Not **istemci kimliği** kaldırılan aygıt için kullanılır.
-3.  Azure Klasik portalında oturumu <https://manage.windowsazure.com>.
-4.  ' I **Active Directory** sol menüsünde simgesini ve ardından istediğiniz dizini tıklatın.
-5.  Üst menüsünde **uygulamalar**ve sonra yapılandırmak istediğiniz uygulamayı tıklatın. **Hızlı Başlat** çoklu oturum açma ve diğer yapılandırma bilgilerini sayfa görüntülenir.
-6.  ' I **yapılandırma** sekme, aşağı kaydırın ve emin olmak **istemci kimliği** uygulaması adım 2'de bu bölümde olduğu gibi aynıdır.
-7.  ' I **Sil** Komut çubuğundaki düğmesini.
-8.  ' I **Evet** onay iletisinde.
+1.  Dynamics 365 for Operations içerisinde **Sistem yönetimi** &gt; **Kurulum** &gt; **Azure Active Directory uygulamaları** konumuna gidin.
+2.  Erişimini kaldırmak istediğiniz cihaza karşılık gelen satırı silin. Kaldırılan cihaz için **İstemci Kimliğini** not alın.
+3.  <https://manage.windowsazure.com> adresinden Azure klasik portala oturum açın.
+4.  Sol menüdeki **Active Directory** menüsüne tıklayın ve daha sonra istediğiniz dizine tıklayın.
+5.  Üst menüde, **Uygulamalar**üzerine tıklayın ve daha sonra yapılandırmak istediğiniz uygulamayı tıklatın. **Hızlı Başlat** sayfası, tek oturum açma ve diğer yapılandırma bilgilerine sahip bir sayfayla görüntülenir.
+6.  **Yapılandır** sekmesini tıklatın, aşağı kaydırın ve uygulamanın **İstemci kimliği**'nin bu bölümün 2. adımındaki ile aynı olduğundan emin olun.
+7.  Komut çubuğunda **Sil** düğmesini tıklatın.
+8.  Onay iletisinde **Evet**'i tıklatın.
 
 
 

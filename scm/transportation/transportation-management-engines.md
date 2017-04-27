@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="transportation-management-engines"></a>Taşıma yönetimi altyapıları
 
+[!include[banner](../includes/banner.md)]
+
+
 Nakliye yönetimi motorları, Nakliye yönetimindeki nakliye oranlarının oluşturulması ve işlenmesi için kullanılan mantığı tanımlar. 
 
 Bir taşıma yönetimi altyapısı, taşıyıcının ulaşım hızı gibi görevleri hesaplar. Altyapı sistemi, Microsoft Dynamics 365 for Operations verilerini temel alarak hesaplama stratejilerini çalışma zamanında değiştirmenize olanak tanır. Taşıma yönetimi altyapısı, belirli bir taşıyıcı sözleşmesiyle ilişkili bir eklentiye benzer.
@@ -58,7 +61,7 @@ Taşıma yönetimi altyapısı, belirli bir şekilde işlemesi için başlangı�
 Birçok durumda, taşıma yönetimi altyapısının kurulum formlarındaki **Parametreler** düğmesine tıklayarak başlangıç verilerini yapılandırabilirsiniz. **Bir mesafe altyapısına başvuran bir değerlendirme altyapısının yapılandırılmasına dair örnek** Aşağıdaki örnekte, .NET altyapısı türü Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEngine'e dayanan ve bir mesafe altyapısına başvuran bir değerlendirme altyapısı için gereken kurulum gösterilmektedir.
 | Parametre             | Açıklama                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | Belirli bir şemaya yönelik değerlendirme taban ataması verilerini yorumlayan .NET türü. İki parametre değeri sözdizimi oluşur dikey ayrılmış kesimlerini çubuk ()|). İlk segment, atayıcı türünü tanımlayan derleme adını içerir. İkinci segment, atayıcı türünün tam adını tanımlar. Bu, türün ad alanını içerir. |
+| *RateBaseAssigner*    | Belirli bir şemaya yönelik değerlendirme taban ataması verilerini yorumlayan .NET türü. Parametre değerinin sözdizimi dikey bir çubukla (|) ayrılmış iki segmentten oluşur (|). İlk segment, atayıcı türünü tanımlayan derleme adını içerir. İkinci segment, atayıcı türünün tam adını tanımlar. Bu, türün ad alanını içerir. |
 | *MileageEngineCode*   | Microsoft Dynamics 365 for Operations veritabanındaki mesafe altyapısı kaydını tanımlayan mesafe altyapısı kodu.                                                                                                                                                                                                                                                             |
 | *ApportionmentEngine* | Microsoft Dynamics 365 for Operations veritabanındaki paylaştırma altyapısını tanımlayan genel altyapı kodu.                                                                                                                                                                                                                                                              |
 
@@ -87,7 +90,7 @@ Taşıma yönetimi altyapısına yönelik meta veriler, farklı altyapı türler
 | **Transit zamanı altyapısı** ve **Mesafe altyapısı** | Meta verileri doğrudan mesafe altyapısının yapılandırma kurulum formundan alır.                                                                                                                                                                                                                                                                                                                                                                                  |
 
   **Değerlendirme altyapısı için meta veri örneği** Taşıma yönetimi altyapısı, kaynak adresin, hedef ilin ve ülke/bölgenin ve sevkıyatın başlangıç ve bitiş noktasının tanımlanmasını gerektirir. Bu gereksinimleri kullanarak, meta veriler aşağıdaki tablodaki gibi görünecektir. Tablo ayrıca hangi veri girişi türü gerektiği hakkında bilgi de içermektedir.
--   Bu bilgileri tanımlamak **taşımacılık Yönetimi**&gt;**Kurulum** üzerinde **oranı temel tür** sayfa.
+-   Bu bilgileri **Oran bazlı tür** sayfasında **Taşıma yönetimi** &gt; **Kurulum**'da tanımlayın.
 
 | Seri | Dosya Adı                          | Alan türü | Veri tipi | Arama türü    | Zorunlu |
 |----------|-------------------------------|------------|-----------|----------------|-----------|
@@ -96,6 +99,8 @@ Taşıma yönetimi altyapısına yönelik meta veriler, farklı altyapı türler
 | 3        | Hedef başlangıç posta kodu | Atama | Dize    | Posta Kodu    | Seçildi  |
 | 4        | Hedef bitiş posta kodu   | Atama | Dize    | Posta Kodu    | Seçildi  |
 | 5        | Hedef ülke           | Atama | Dize    | Ülke/bölge |           |
+
+
 
 
 

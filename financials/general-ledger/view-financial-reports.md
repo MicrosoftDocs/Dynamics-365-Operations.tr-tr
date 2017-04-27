@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-financial-reports"></a>Mali raporları görüntüle
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, Microsoft Dynamics AX'de finansal raporların nasıl görüntüleneceği ve keşfedileceği açıklanmaktadır. Görünümlerini ve içerdikleri veriyi değiştirmek için finansal raporlara uygulayabileceğiniz çeşitli seçenekler hakkında bilgiler içerir.
 
 <a name="financial-reporting-overview"></a>Mali raporlamaya genel bakış
@@ -48,7 +51,7 @@ Bir **Fiili - bütçe** raporunda rapor tarihini değiştirebilir, öznitelik ve
 
 -   Bir raporun taban dönemini ve taban yılını değiştirmek için bir taban dönemi ve bir taban yılı seçin ve ardından **Tamam** düğmesini tıklayın.
 -   Bir rapora özellik filtreleri uygulamak için **Bir öznitelik filtresi ekle** öğesini seçin. Özniteliği seçin, öznitelik değerini girin ve ardından **Tamam** düğmesini tıklayın. Örneğin, **Hesap Kategorisi** özniteliğini seçerseniz, öznitelik değeri olarak **SATIŞ** girin. Bir öznitelik filtresini kaldırmak için **Temizle** düğmesini tıklayın.
--   Bir rapor için boyut filtreleri uygulamak için seçin **bir boyut filtresi eklemek**. Boyutu seçin ve boyut kodu yazın veya listeden bir boyut seçin. Bir boyut filtresini kaldırmak için **Temizle** düğmesini tıklayın.
+-   Bir rapora boyut filtreleri uygulamak için **Boyut filtresi ekle** öğesini seçin. Boyutu seçin ve boyut kodunu yazın veya listeden boyutu seçin. Bir boyut filtresini kaldırmak için **Temizle** düğmesini tıklayın.
 -   Bir **Fiili - bütçe** raporundaki senaryoyu değiştirmek için yeni bir senaryo seçin ve ardından **Tamam** düğmesini tıklayın. Seçilen senaryo farklı bir yıl için ise, taban yılı güncelleştirdiğinizden emin olun. Örneğin, geçerli senaryo, MY2015'e aitse ve MY2016 için olan yeni bir senaryo seçerseniz, taban yılını **2016** olarak değiştirmeniz gerekir.
 
 **Tamam** düğmesini tıkladığınızda, seçtiğiniz tüm seçenekler rapora uygulanır. Seçilen seçenekleri uygulamak istemediğinize karar verirseniz **İptal** düğmesini tıklayın.
@@ -66,7 +69,7 @@ Bir mali rapor istenildiği anda istenilen bir para biriminde görüntülenebili
 Bir mali rapor ayrıntılı satırlar ve özet satırlar içerebilir. Ayrıntılı satırlar çok sayıda hesap veya boyut içeren satırlardır. Özet satırları açıklama, toplam ve hesaplama satırlarıdır. Bir raporun yalnızca özet satırlarını görüntülemek için tıklatın **Göster** düğmesini ve ardından **Sadece özet satırları** düğmesini tıklayın. Rapor daraltılır ve sadece özet satırlarını görüntüler. Ayrıntılı satırları özet satırlarıyla birlikte görüntülemek için **Göster** düğmesini tıklayın ve ardından tekrar **Sadece özet satırları** düğmesini tıklayın.
 
 ## <a name="open-a-financial-report-from-a-previous-month"></a>Önceki aya ait bir mali raporu açma
-Rapor oluşturmadan mevcut aya veya önceki aylara ait raporları görüntüleyebilirsiniz. Bir önceki ay için bir raporu açmak için tıklatın **Göster**ı **önceki raporları**. Rapor için oluşturulan önceki ay bir listesi görüntülenir. Raporun ait olduğu ayı genişletin, tarihi seçin ve **Tamam** düğmesini tıklayın. Önceki aya ait rapor görüntülenir. Önceki ayın raporuna dönmek için **İptal** düğmesini tıklayın.
+Rapor oluşturmadan mevcut aya veya önceki aylara ait raporları görüntüleyebilirsiniz. Bir önceki aya ait bir raporu açmak için **Göster**'e ve ardından **Önceki raporlar**'a tıklayın. Raporun oluşturulduğu önceki ayların listesi görünür. Raporun ait olduğu ayı genişletin, tarihi seçin ve **Tamam** düğmesini tıklayın. Önceki aya ait rapor görüntülenir. Önceki ayın raporuna dönmek için **İptal** düğmesini tıklayın.
 
 ## <a name="print-a-financial-report"></a>Bir mali rapor yazdırma
 Bir mali raporu yazdırmak için Eylem Panosundan **Yazdır** düğmesini tıklayın ve yazdırma seçeneklerini ayarlamak için bu adımlardan birini veya birden fazlasını takip edin:
@@ -85,5 +88,7 @@ Bir mali raporu dışa aktarmak için Eylem Panosundan **Dışa aktar** düğmes
 --------
 
 [Microsoft Dynamics AX için finansal raporlama](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+
+
 
 

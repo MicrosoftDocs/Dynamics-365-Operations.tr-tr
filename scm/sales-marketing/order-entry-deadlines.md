@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="order-entry-deadlines"></a>Sipariş son giriş tarihleri
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede sipariş giriş son tarihleri hakkında bilgiler verilmiştir. Bir sipariş girişi son tarihi, bir müşteri siparişinin o gün ya da ertesi gün alındığının kabul edilip edilmeyeceğini (ve yerine getirilip getirilmediğini) belirleyen bir kesim tarihidir.
 
 Çoğu şirkette, günün yalnızca belirli bir saati öncesinde alınan satış siparişleri o gün alınmış sayılır. O saatten sonra alınan siparişler, sonraki işgünü alınmış sayılır. Siparişlerin sonlanacağı bu saate, son sipariş giriş saati denilir.  
 
-Son sipariş giriş saatleri, sipariş vaatleri için bir girdi olarak kullanılırlar. Bu nedenle, müşterilerin sipariş teslimi konusundaki beklentilerini yönetmenize yardımcı olurlar. Örneğin, müşteriler belirli bir saatten önce size sipariş verdiklerinde malları aynı gün teslim etmeyi vaat ettiğinizi görebilirler. Ancak, bunlar o son kaçırırsanız, sevk irsaliyesi yalnızca sonraki iş günü bekleyebilirsiniz. Ambar yetenekleri ve kargo taşıyıcı zamanlamaları göre sipariş son giriş tarihleri ayarlayın.  
+Son sipariş giriş saatleri, sipariş vaatleri için bir girdi olarak kullanılırlar. Bu nedenle, müşterilerin sipariş teslimi konusundaki beklentilerini yönetmenize yardımcı olurlar. Örneğin, müşteriler belirli bir saatten önce size sipariş verdiklerinde malları aynı gün teslim etmeyi vaat ettiğinizi görebilirler. Ancak, bu son saati kaçırırlarsa, teslimatın ancak sonraki işgünü yapılmasını bekleyebilirler. Son sipariş giriş saatlerini ambar kapasitenize ve taşıma kuryesi planlarınıza dayalı olarak ayarlarsınız.  
 
 **Son sipariş giriş saatleri** sayfasında, haftanın tüm günleri için son sipariş giriş saati ayarlayın. Belirtilmiş o saatten sonra sipariş alınırsa, sonraki işgünü alınmış sayılır. Varsayılan olarak bu saatler ilgili günün gece yarısına bir dakika kalan 23:59 saatine ayarlanmıştır. Varsayılan saatleri, gerçek sevk tarihi veya giriş tarihi saatleriyle örtüşecek şekilde değiştirebilirsiniz.  
 
@@ -43,7 +46,7 @@ Belirli bir müşteri grubu için son sipariş giriş saati tanımlayabilirsiniz
 **Son sipariş giriş saat birleşimlerini etkinleştir** sayfasında, izin verilen tesis birleşimlerini ve son sipariş giriş saati gruplarını tanımlarsınız.
 
 ## <a name="example-order-entry-deadline"></a>Örnek: Son sipariş giriş saati
-Son sipariş giriş saati, Salı günü 16:00 olarak ayarlandı. Belirli bir Salı günü saat 17:00'de, geçerli tarihi sevk tarihi olarak ayarlamaya çalışın. (Bu örnek lider zaman olduğunu unutmayın.) Yoksa **teslim tarihi kontrol** onay kutusu seçiliyse, tarihi geçerli olmadığını bildiren bir uyarı alırsınız. Bu uyarı, alternatif tarihler seçebileceğiniz **Mevcut sevk ve giriş tarihleri** sayfasında belirir.
+Son sipariş giriş saati, Salı günü 16:00 olarak ayarlandı. Belirli bir Salı günü saat 17:00'de, geçerli tarihi sevk tarihi olarak ayarlamaya çalışın. (Bu örnek için sağlama süresi bulunmadığını unutmayın.) **Teslim tarihi kontrolü** onay kutusu seçiliyse, tarihin geçerli olmadığını belirten bir uyarı alırsınız. Bu uyarı, alternatif tarihler seçebileceğiniz **Mevcut sevk ve giriş tarihleri** sayfasında belirir.
 
 ## <a name="example-different-order-entry-deadlines-per-site"></a>Örnek: Her tesis için farklı son sipariş giriş saati
 Şirketiniz iki tesisten oluşuyor. Tesisler, aşağıdaki tabloda gösterilen şekilde farklı saat dilimlerinde yer almaktadır.
@@ -55,7 +58,7 @@ Son sipariş giriş saati, Salı günü 16:00 olarak ayarlandı. Belirli bir Sal
 
 Tesis A ve B, aşağıdaki son sipariş giriş saatlerini tanımladılar.
 
-| Haftanın günü             | A: sipariş son giriş tarihleri (PST) | B: sipariş son giriş tarihleri (EST) |
+| Haftanın günü             | A: Sipariş son giriş tarihleri (PST) | B: Sipariş son giriş tarihleri (EST) |
 |-----------------------------|--------------------------------|--------------------------------|
 | Pazartesi                      | 13:00                          | 14:00                          |
 | Salı                     | 13:00                          | 14:00                          |
@@ -67,7 +70,7 @@ MST (Sıradağlar Standart Saati) saat diliminde yer alan Utah'ta bir sipariş i
 
 Aşağıdaki tabloda A ve B tesisleri için MST saatine dönüştürülmüş son sipariş giriş saatleri gösterilir.
 
-| Site A: PST         | Site A: MST        | Site B: EST           | Site B: MST        |
+| Tesis A: PST         | Tesis A: MST        | Tesis B: EST           | Tesis B: MST        |
 |---------------------|--------------------|-----------------------|--------------------|
 | 13:00               | 14:00              | 14:00                 | 12:00              |
 
@@ -95,7 +98,7 @@ Bir sipariş işlemcisisiniz ve MST saat diliminde yer alan Utah'ta bulunuyorsun
 
 Aşağıdaki tabloda A ve B tesisleri için MST saatine dönüştürülmüş son sipariş giriş saatleri gösterilir.
 
-| Site A: PST         | Site A: MST        | Site B: EST           | Site B: MST        |
+| Tesis A: PST         | Tesis A: MST        | Tesis B: EST           | Tesis B: MST        |
 |---------------------|--------------------|-----------------------|--------------------|
 | 13:00               | 14:00              | 13:00                 | 11:00              |
 
@@ -104,6 +107,8 @@ Aşağıdaki tabloda A ve B tesisleri için MST saatine dönüştürülmüş son
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Delivery schedules](delivery-schedules.md)
+[Teslimat zaman çizelgeleri](delivery-schedules.md)
+
+
 
 

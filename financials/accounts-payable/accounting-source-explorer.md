@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-source-explorer"></a>Muhasebe kaynağı gezgini
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, genel muhasebe girişleri arkasındaki kaynak bilgilerinin ayrıntılı analizi için kullanabileceğiniz Muhasebe kaynağı gezgini hakkında bilgiler verilmektedir.
 
-Muhasebe kaynağı gezgini, kaynak bilgilerini gösteren yeni bir sayfadır. Hesap kaynak Gezgini ya da tek başına bir araç olarak veya genel muhasebe girişlerini arkasındaki detayları analiz etmek için kullanabilirsiniz. Örneğin, bir defter-i Kebir bakiyesi veya fiş hareketi için en ayrıntılı kaynak bilgileri almak için hesap kaynak Gezgini'ni kullanabilirsiniz. Ardından, bilgilerini Microsoft Excel programında ayrıntılı şekilde değerlendirmek (örneğin PivotTable raporu içinde veya üzerinde kullanmak) için MS Excel'e Aktar özelliğini kullanabilirsiniz.
+Muhasebe kaynağı gezgini, kaynak bilgilerini gösteren yeni bir sayfadır. Muhasebe kaynak gezginin, ister bir tek başına araç isterseniz de genel muhasebe defteri muhasebe girişleri arkasındaki ayrıntıları analiz etmek için bir araç olarak kullanabilirsiniz. Örneğin, Muhasebe kaynak gezginini, Mizan içindeki bir bakiye veya fiş hareketindeki en ayrıntılı bilgiyi edinmek için kullanabilirsiniz. Ardından, bilgilerini Microsoft Excel programında ayrıntılı şekilde değerlendirmek (örneğin PivotTable raporu içinde veya üzerinde kullanmak) için MS Excel'e Aktar özelliğini kullanabilirsiniz.
 
 Muhasebe kaynağı gezgini daima genel muhasebe hesabı için tutarı Genel defterde gösterildiği şekilde (örneğin Mizan) aynı olarak gösterir. Mizanda olduğu gibi segmentleri ayrı sütunlarda görüntüleyebilirsiniz. Sadece uygun mali boyut kümesini seçmeniz yeterlidir. 
 
 Analiz için bir tarih aralığını tanımlamak için parametreleri kullanabilirsiniz. Bu işlev ayrıca Mizandaki işlevlere benzerdir.
 
-Hesap kaynağı, kaynak belge framework kullanan tüm belgeler için explorer üzerinde hesap dağıtımları tabanlı ek bilgi gösterir ve, uygunsa, proje dağıtımları hesap. Bu bilgiler, parasal tutar türü, proje, faaliyet, kategori ve satır özelliği içerir. Burada, gerçekleştirebileceğiniz analizlere bazı örnekler verilmiştir:
+Kaynak belge çerçevesini kullanan tüm belgeler için, Muhasebe kaynak gezgini, muhasebe dağılımlarına dayanarak ve mevcutsa, proje muhasebe dağılımlarına dayanarak ek bilgiyi gösterir. Bu bilgilere, parasal tutar türü, proje, faaliyet, kategori ve satır özelliği dahildir. Burada, gerçekleştirebileceğiniz analizlere bazı örnekler verilmiştir:
 
 -   Satın alma emirleri ile satıcı faturaları arasındaki farklar, çünkü her bir fark örneğin masraf farkı vb. gibi bir parasal tutar türüyle temsil edilir
 -   Proje, ticari birim ve ana hesap başına faturalanabilir - faturalanamayan saatler ve masraflar karşılaştırması
@@ -46,5 +49,7 @@ Kaynak belgesi referans kimlikleri konseptini kullanan kaynak belgeler için, Mu
 -   Satıcı, ürün, departman başına iskontolar
 
 Bu belgeler için, Muhasebe kaynağı gezgininden ayrıca mevcut kaynak belgesine geçiş yapabilirsiniz.
+
+
 
 

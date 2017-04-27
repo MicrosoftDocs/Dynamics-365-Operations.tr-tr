@@ -1,6 +1,6 @@
 ---
-title: "Ürün reçetelerini tamamlandı olarak rapor"
-description: "Bu makalede, ürün reçetelerini tamamlandı olarak raporlama hakkında bilgi sağlar."
+title: "Ürün reçetelerini tamamlandı olarak raporlama"
+description: "Bu makalede ürün reçetelerini tamamlandı olarak raporlama hakkında bilgi verilmektedir."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="report-boms-as-finished"></a>Ürün reçetelerini tamamlandı olarak rapor
+# <a name="report-boms-as-finished"></a>Ürün reçetelerini tamamlandı olarak raporlama
 
-Bu makalede, ürün reçetelerini tamamlandı olarak raporlama hakkında bilgi sağlar.
+[!include[banner](../includes/banner.md)]
 
-**Tamamlandı bildirimi** ve **Mak. Raporu tamamlandı olarak** sayfaları ürün reçetelerini (BOM) tamamlandı olarak bildirmek için kullanılır. Kavramsal açıdan, bir ürün Reçetesini tamamlandı olarak raporlama işlemi, bir üretim emrini tamamlandı olarak raporlama süreciyle aynıdır. Bu işlem örneğin basit montaj ve paket hazırlama işlemleri gibi, üretim emirlerinin daha gelişmiş yeteneklerine ihtiyaç duyulmayan durumlarda kullanılabilir. **Tamamlandı bildirimi** sayfası birden fazla ürün reçetelerini toplu şekilde tamamlandı olarak bildirmenize olanak sağlar. **Mak. Raporu tamamlandı olarak** sayfa, tek bir ürün Reçetesini bir kerede tamamlandı olarak bildirmek sağlar. **Tamamlandı bildirimi** sayfa Stok Yönetimi'nde bir menü öğesi ile kullanılabilir ve her iki sayfa üzerinde bir menü öğeleri olarak kullanılabilir **ürünleri piyasaya** sayfa.
+
+Bu makalede ürün reçetelerini tamamlandı olarak raporlama hakkında bilgi verilmektedir.
+
+**Tamamlandı bildirimi** ve **Mak. Raporu tamamlandı olarak** sayfaları ürün reçetelerini (BOM) tamamlandı olarak bildirmek için kullanılır. Kavramsal açıdan, bir ürün Reçetesini tamamlandı olarak raporlama işlemi, bir üretim emrini tamamlandı olarak raporlama süreciyle aynıdır. Bu işlem örneğin basit montaj ve paket hazırlama işlemleri gibi, üretim emirlerinin daha gelişmiş yeteneklerine ihtiyaç duyulmayan durumlarda kullanılabilir. **Tamamlandı bildirimi** sayfası birden fazla ürün reçetelerini toplu şekilde tamamlandı olarak bildirmenize olanak sağlar. **Maks. Tamamlandı raporu** sayfası, bir kerede yalnızca bir ürün reçetesini tamamlandı olarak bildirmenize olanak tanır. **Tamamlandı olarak bildir** sayfası Stok yönetimindeki bir menü öğesinden kullanılabilir ve her iki sayfa da **Serbest bırakılan ürünler** sayfasında menü öğesi olarak bulunmaktadır.
 
 ## <a name="report-as-finished-page"></a>Tamamlandı olarak bildirme sayfası
 **Tamamlandı bildirimi **sayfasını serbest bırakılmış bir üründen açarsanız, bu sayfa standart stok varsayılan miktarını tamamlandı olarak bildirmenizi önerir. Varsayılan olarak, etkin ürün reçetesi versiyonu gösterilir, ancak onaylanmış başka sürümler varsa, ürün reçetesi versiyonunun değiştirebilirsiniz. Bu sayfa ayrıca tamamlandı olarak bildirilmesi gereken serbest bırakılmış ürünlerin kayıtlarını silmenize ve yeni kayıtlar oluşturmanızı sağlar. Ürünleri seçerken bir sorgu kullanmak için **Seçin** menü öğesine tıklatın. El ile **Tamam** seçeneğini tıklatarak seçili ürünler için tamamlandı olarak raporlamayı onaylayabilirsiniz. Alternatif olarak, işlemi toplu olarak yürütülecek şekilde de ayarlayabilirsiniz. Tamamlandı bildirimi işlemi teyit edildiğinde, sistem stok naklinin işleneceği bir ürün reçetesi günlüğü oluşturur. Bu günlük bitmiş ürün için bir satır öğesi ve her ürün reçetesi satırı için bir satır öğesi içerir. Günlüğün otomatik olarak deftere mi nakledileceğini yoksa ek ayarlamalar için açık mı bırakılacağını kontrol edebilirsiniz.
 
-## <a name="max-report-as-finished-page"></a>Maksimum Rapor bitmiş sayfa olarak
+## <a name="max-report-as-finished-page"></a>Maksimum tamamlandı olarak bildirme sayfası
 **Mak. Tamamlandı bildirimi** sayfası üzerinde, her ürün reçetesi satırı tamamlandığı bildirilen ürün parçalarının sayısını gösterir. Bu hesaplama, her bir malzeme satırının fiziksel olarak eldeki mevcut stoku temel alır. Aşağıdaki örnekte, madde numarası FG'nin bir tanesi, RM10 parça hammaddesinden iki parça ve RM20 hammaddesinden bir parça tüketir. Elde sadece 10 adet RM10 olduğundan, tamamlandır olarak bildirilebilecek maksimum FG miktarı beş parça olur. Bu değer **Mak. Tamamlandı bildirimi** alanında gösterilir.
 
 | Raf | Madde kodu | Miktar | Eldeki | Maksimum Tamamlandı bildirimi |
@@ -68,7 +71,7 @@ Aşağıdaki tablolar **Açılım** ayarının ürün reçetesi günlüğü sat�
 | 0     | FG          | 3        |
 | 1     | COMP        | -3       |
 
-Önceki tablonun gösterdiği gibi yalnızca madde numarası günlükte düşülen COMP kabul edilir. Günlük satırına madde numarası COMP parçası olan RM açılımı değildir ve COMP iki eldeki parçalarını kabul edilemiyor. **Açılım: Her zaman**
+Önceki tablonun gösterdiği gibi yalnızca madde numarası COMP günlükten düşülen olarak kabul edilir. COMP'un parçası olan RM numaralı öğe, günlük satırına açılmaz ve eldeki iki COMP parçası hesaba dahil edilmez. **Açılım: Her zaman**
 
 | Raf | Madde kodu | Miktar |
 |-------|-------------|----------|
@@ -84,5 +87,7 @@ Bu durumda, madde numarası COMP ham maddesi olan madde numarası RM'ye açılı
 | 1     | RM          | -1       |
 
 Bu durumda, madde numarasının COMP'un eldeki iki parçası değerlendirilir. Fakat madde FG'den üç adet gerekli olduğu için, bir adet COMP daha üretebilmek için, madde numarası RM'den de bir adet daha gerekmektedir.
+
+
 
 
