@@ -1,6 +1,6 @@
 ---
 title: "Perakende giriş sayfası"
-description: "İşlemler – perakende için Dynamics 365 için giriş sayfası"
+description: "Dynamics 365 for Operations – Retail giriş sayfası"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,67 +29,67 @@ ms.lasthandoff: 04/12/2017
 
 [!include[banner](includes/banner.md)]
 
-Dynamics 365 işlemleri – perakende bir tam ile sorunsuz bir deneyim alışveriş ve farklılaştırıcı modern, mobil ve genel omni-kanal çözümü sunar. Tedarik zinciri, Finansmanı ve hakkında daha fazla bilgi için uçtan uca becerileri, satış (POS) yazılım çözümleri, e-ticaret, çağrı merkezi, pazarlama ve müşteri hizmetleri, satış Mağaza İşletmeleri, modern noktasından işletmeniz için en uygun şekilde dağıtılabilir.
+Dynamics 365 for Operations – Retail modern, mobil ve global olan sorunsuz ve farklı bir tek kanallı çözüm ile eksiksiz bir alışveriş deneyimi sunar. Modern satış noktası (POS) yazılım çözümleri, mağaza işlemleri, alım satım, e-ticaret, çağrı merkezi, pazarlama, müşteri hizmetleri, tedarik zinciri, finans ve çok daha fazlasını kapsayan uçtan uca özellikler işletmeniz için en mantıklı şekilde dağıtılabilir.
 
-Bu sayfa noktaları yardımcı olacak kaynaklara Microsoft Dynamics 365 işlemleri için - perakende daha verimli kullanır. Soldaki bölmede, hakkında daha fazla bilgi için özellik alanını seçin. 
+Bu sayfa sizi Microsoft Dynamics 365 for Operations - Retail'ı daha verimli bir şekilde kullanmanıza yardımcı olacak kaynaklara yönlendirir. En soldaki bölmede, bir özellik alanı seçerek özellik hakkında daha fazla bilgi edinebilirsiniz. 
 
-## <a name="set-up-retail-channels"></a>Perakende kanalları Ayarla
-Perakende deneyiminizi ayarladığınız gibi tanımlamak ve Tuğla ve Dibek deponuzun yapılandırmak nasıl karar vermek (adlı *perakende mağaza* işlemleri için Dynamics 365 içinde) ve çevrimiçi işlemleri depolamak. 
+## <a name="set-up-retail-channels"></a>Perakende kanalları kurma
+Perakende deneyiminizi ayarlarken, fiziksel mağaza (Dynamics 365 for Operations'da *perakende mağaza* olarak adlandırılır) ve çevrimiçi mağaza işlemlerinizi nasıl tanımlayacağınıza ve yapılandıracağınıza karar verirsiniz. 
 
-Kendi ödeme yöntemleri, fiyat grupları, POS çözümleri, gelir hesapları, gider hesapları ve personel her perakende satış mağazasında olabilir. Sizin perakende mağaza oluşturduktan sonra yürütmek için mağaza istediğiniz ürünleri atayın. Ayrıca mağazaya çalışanlar, kasalar ve müşteriler atarsınız. Son olarak, yeni mağazayı bir organizasyon hiyerarşisine eklersiniz.
+Her perakende mağazanın kendi ödeme yöntemleri, fiyat grupları, POS çözümleri, gelir hesapları, gider hesapları ve personeli olabilir. Perakende mağazanızı oluşturduktan sonra, mağazada bulunmasını istediğiniz ürünleri atayın. Ayrıca mağazaya personel, kasa ve müşteri atayabilirsiniz. Son olarak, yeni mağazayı bir kuruluş hiyerarşisine ekleyin.
 
-Çevrimiçi Mağazanız oluşturduğunuzda, bileşenleri sınıflamalar, öznitelikleri, ödeme yöntemleri ve sevkiyat yöntemleri gibi ayarlamanız gerekir. Ayrıca, Fiyatlar, promosyonlar, iskontolar ve çevrimiçi mağazaya özgü Sevkiyat koşulları tanımlayabilirsiniz.
+Çevrimiçi mağazanızı oluşturduğunuzda ürün çeşitleri, öznitelikler, ödeme yöntemleri ve sevkiyat yöntemleri gibi bileşenleri ayarlamanız gerekir. Ayrıca çevrimiçi mağazaya özgü fiyatlar, promosyonlar, iskontolar ve sevkiyat koşulları da tanımlayabilirsiniz.
 
--   [Perakende kanalları tanımlamak](define-maintain-retail-channels.md)
--   [Online store overview](online-stores.md)
+-   [Perakende kanallarını tanımlama](define-maintain-retail-channels.md)
+-   [Çevrimiçi mağazaya genel bakış](online-stores.md)
 
 ## <a name="set-up-a-call-center"></a>Çağrı merkezi ayarlama
-Bir çağrı merkezi perakende kanal türü olarak ayarlayabilirsiniz. Çağrı merkezlerinde, çalışanlar telefonda müşteri siparişlerini alır ve satış siparişleri oluşturur. Çalışanlarınızın sipariş almak ve müşteri servis sipariş karşılama işlemi boyunca ele yardımcı olmak için ne bir satış siparişi içerir, fiyatlandırma nasıl denetlenmesi ve müşteriler, ürünler ve fiyatlandırma ile ilgili hangi verilerin erişilebilir yukarı ayarlayabilirsiniz. Her çağrı merkezi için kullanıcılar, ödeme yöntemleri, fiyat grupları, mali boyutları ve Teslimat modları da ayarlayabilirsiniz.
+Perakende kanal türü olarak bir çağrı merkezi ayarlayabilirsiniz. Çağrı merkezinde, çalışanlar müşterilerin siparişlerini telefonda alır ve satış siparişleri oluşturur. Çalışanların sipariş almalarına ve sipariş tamamlama süreci boyunca verilen müşteri hizmetlerini yönetmelerine yardımcı olmak için satış siparişinin içeriğini, fiyatlandırmanın nasıl denetleneceğini ve müşteriler, ürünler ve fiyatlar hakkında hangi verilere erişim sağlanabileceğini ayarlayabilirsiniz. Her çağrı merkezi için kullanıcılar, ödeme yöntemleri, fiyat grupları, mali boyutlar ve teslimat şekilleri de ayarlayabilirsiniz.
 
--   [Call center functionality](call-center-functionality.md)
--   [Çağrı merkezi kataloglar oluşturmak](create-call-center-catalogs.md)
+-   [Çağrı merkezi işlevi](call-center-functionality.md)
+-   [Çağrı merkezi katalogları oluşturma](create-call-center-catalogs.md)
 
-## <a name="define-your-pos-and-mpos-solutions"></a>POS ve MPOS çözümlerinizi tanımla
-Perakende Modern POS (MPOS) bilgisayarlar, tabletler ve telefonların satış noktasında bir uygulama olur. Satış personeli müşteri siparişleri, satış hareketleri, işlem ve günlük işlemleri gerçekleştirmek ve mobil cihazlar deposu yerindeki yanında PC tabanlı kasalar ile Stok Yönetimi. Tarayıcı tabanlı bir POS POS bulut olur. 
+## <a name="define-your-pos-and-mpos-solutions"></a>POS ve MPOS çözümlerinizi tanımlama
+Retail Modern POS (MPOS) bilgisayarlar, tabletler ve telefonlar için geliştirilmiş bir satış noktası uygulamasıdır. Satış personeli, mağaza içinde herhangi bir yerden mobil cihazlarla ve bilgisayar tabanlı kasalarla satış hareketlerini ve müşteri siparişlerini işleyip günlük işlemleri ve stok yönetimi gerçekleştirebilir. Bulut POS, tarayıcı tabanlı bir POS'tur. 
 
-Bir mağaza, POS kayıtları veya mağaza içinde kanalların arasında ilişki tanımlamak üzere ayarladığınız birçok bileşen vardır ve olanlar kaydeder veya kanallar perakende çevre hareketleri işlemek için kullanın. Ayrıca, POS donanım profili veya kayıt, kayıt eşlenen mağaza ve görsel deneyim kaydetmek, oturum açtığında kullanıcı için kullanılan perakende çevre birimleri için Kurulum dahil olmak üzere, belirli bir örneğinin özelliklerine tanýmlarsýnýz.
+Mağaza içindeki ilişkileri, mağazadaki POS kasalarını veya kanalları, bu kasaların veya kanalların hareketleri işlemek için kullandığı perakende çevre birimlerini tanımlamak için ayarlayacağınız pek çok bileşen bulunmaktadır. Ayrıca kasada kullanılacak donanım profili veya perakende çevre birimlerinin kurulumu, kasanın eşlendiği mağaza ve o kasada oturum açan kullanıcının görsel deneyimi dahil olmak üzere, belirli bir POS kurulumunun özelliklerini de tanımlarsınız.
 
--   [Tanımlamak ve kanal istemcileri, kasalar ve donanım istasyonlarını korumak](define-maintain-channel-clients-registers-hw-stations.md)
--   [MPOS yükleme ve yapılandırma](retail-modern-pos-device-activation.md)
--   [Çevrimdışı POS işlevsellik](pos-offline-functionality.md)
+-   [Kanal istemcilerini, kasaları ve donanım istasyonlarını tanımlama ve koruma](define-maintain-channel-clients-registers-hw-stations.md)
+-   [MPOS yapılandırması ve kurulumu](retail-modern-pos-device-activation.md)
+-   [Çevrimdışı POS işlevi](pos-offline-functionality.md)
 
-## <a name="set-up-a-customer-loyalty-program"></a>Müşteri bağlılık programı program ayarlama
-Bağlılık programı ayarlayabilirsiniz, böylece müşterilerin belirli ölçütlere göre puan kazanırsınız ve puanları çeşitli şekillerde hesaplanabilir Bağlılık programı, basit veya karmaşık ve tüzel içinde herhangi bir perakende kanal boyunca uygulayın.
--   [Müşteri bağlılık programı program ayarlama](set-up-customer-loyalty-program.md)
+## <a name="set-up-a-customer-loyalty-program"></a>Müşteri bağlılık programını ayarlama
+Müşterilerin belirli ölçütlere göre puan kazanabilmesi için bağlılık programınızı ayarlayabilir ve puanları çeşitli şekillerde hesaplayabilirsiniz. Bağlılık programınız basit veya karmaşık olabilir ve tüm perakende kanallarındaki tüzel kişilikleriniz için geçerli olabilir.
+-   [Müşteri bağlılık programını ayarlama](set-up-customer-loyalty-program.md)
 
-## <a name="set-up-discounts-and-price-adjustments"></a>İndirimler ve fiyat ayarlamalarını ayarlayın
-Ürünleri fiyat ayarlamalar yapabilirsiniz ve aynı zamanda bir kalem veya bir çağrı merkezi satış siparişi veya çevrimiçi sipariş POS hareket uygulanan iskontolar ayarlayabilirsiniz. 
--   [Price adjustments and discounts](price-adjustments-discounts.md)
--   [Define channel-specific discounts](define-channel-specific-discounts.md)
--   [Çakışan indirimler en uygun birleşimi belirler](optimal-combination-overlapping-discounts.md)
+## <a name="set-up-discounts-and-price-adjustments"></a>İskonto ve fiyat ayarlamaları yapma
+Ürünlerde fiyat ayarlamaları yapabilir ve bir satır maddesine veya POS, çağrı merkezi satış siparişi veya çevrimiçi siparişteki bir harekete uygulanacak iskontolar ayarlayabilirsiniz. 
+-   [Fiyat ayarlamaları ve iskontolar](price-adjustments-discounts.md)
+-   [Kanala özel iskontolar tanımlama](define-channel-specific-discounts.md)
+-   [Çakışan iskontolar için en uygun birleşimi belirleme](optimal-combination-overlapping-discounts.md)
 
 ## <a name="set-up-retail-products"></a>Perakende ürünleri ayarlama
-Satılık ürünler, perakende kanalları sunma önce oluşturmak ve ürünleri Dynamics 365 işlemleri için yapılandırma gerekir. Ürünleri oluşturabilir, ürün özelliklerini ve özniteliklerini tanımlayabilir ve ürünü perakende kategorisi hiyerarşilerine atayabilirsiniz. Ürünler, perakende kanalları kullanılabilir hale getirmek ve bunları etkin bir sınıflamaya eklemek için sonra bunlar kullanılabilir olduğu tüzel kişilikler için ürünler serbest.
--   [Set up retail products](set-up-retail-products.md)
+Perakende kanallarınızda ürünleri satışa sunmadan önce ürünleri Dynamics 365 for Operations'da oluşturmanız ve yapılandırmanız gerekir. Ürünleri oluşturabilir, ürün özelliklerini ve özniteliklerini tanımlayabilir ve ürünleri perakende kategorisi hiyerarşilerine atayabilirsiniz. Ürünleri perakende kanallarınızda sunmak ve etkin bir ürün çeşidine eklemek için kullanılabilecekleri tüzel kişiliklerde serbest bırakmanız gerekir.
+-   [Perakende ürünleri ayarlama](set-up-retail-products.md)
 
-## <a name="monitor-and-analyze-performance"></a>İzleme ve performans çözümleme
-İşlem verileri kullanarak, Dynamics 365 deposu performans, müşteri ve ürün Karlılığı, satış eğilimleri ve analiz edebilirsiniz.
--   [Assess customer and product profitability](assess-customer-product-profitability.md)
--   [Analyze store performance](store-performance-information.md)
+## <a name="monitor-and-analyze-performance"></a>Performansı izleme ve analiz etme
+Dynamics 365 for Operations verilerinizi kullanarak mağaza performansını, müşteri ve ürün karlılığını, satış eğilimlerini ve çok daha fazlasını analiz edebilirsiniz.
+-   [Müşteri ve ürün karlılığını değerlendirme](assess-customer-product-profitability.md)
+-   [Mağaza performansını analiz etme](store-performance-information.md)
 
-## <a name="customize-and-administer-retail-environments"></a>Perakende ortamları yönetme ve özelleştirme
-Ortamınızı özelleştirmek için istendiğini veya dağıtma ve sisteminizin bakımıyla görevli, geliştirici ve perakende için belirli sistem yöneticisine içerik, aynı zamanda daha genel içeriği Microsoft Dynamics 365 işlemleri için denetleyin. 
--   [Dynamics 365 işlemleri - BT profesyonelleri ve Geliºtiriciler için perakende](dev-itpro/dev-retail-home-page.md)
--   [Geliştiriciler ve BT uzmanları için işlemleri için Microsoft Dynamics 365](/dynamics365/operations/dev-itpro/dev-tools/developer-home-page)
+## <a name="customize-and-administer-retail-environments"></a>Perakende ortamları özelleştirme ve yönetme
+Ortamınızı özelleştirmeniz istendiğinde veya sisteminizin dağıtımı ve korunması ile görevlendirildiğinizde, Perakende'ye özel geliştirici ve sistem yöneticisi içeriğine ve Microsoft Dynamics 365 for Operations'ın daha genel içeriğine göz atın. 
+-   [BT Uzmanları ve Geliştiriciler için Dynamics 365 for Operations - Retail](dev-itpro/dev-retail-home-page.md)
+-   [Geliştiriciler ve BT Uzmanları için Microsoft Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/dev-tools/developer-home-page)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
-### <a name="whats-new-and-in-development"></a>Yeni ve geliştirme nedir
-Git <a href="https://roadmap.dynamics.com/">Dynamics 365 Haritası</a> geliştirmede yeni özellikleri nelerdir ve hangi yeni özellikler serbest görmek için. 
+### <a name="whats-new-and-in-development"></a>Geliştirmedeki yenilikler
+Yayımlanan ve geliştirilmekte olan yeni özellikleri görmek için <a href="https://roadmap.dynamics.com/">Dynamics 365 Yol Haritası</a> bölümüne gidin. 
 
 ### <a name="blogs"></a>Bloglar
-Üzerindeki işlemler için - perakende ve diğer çözümleri görüşlerin, haber ve diğer bilgileri Microsoft Dynamics 365 bulabilirsiniz <a href="https://community.dynamics.com/b/msftdynamicsblog">Microsoft Dynamics 365 blog</a>.
+<a href="https://community.dynamics.com/b/msftdynamicsblog">Microsoft Dynamics 365 blogunda</a>, Microsoft Dynamics 365 for Operations - Retail ve diğer çözümler hakkında fikirlere, haberlere ve diğer bilgilere ulaşabilirsiniz.
 
-Üzerinde perakende hakkında birçok konu vardır <a href="https://blogs.msdn.microsoft.com/dax/">Microsoft Dynamics AX ürün ekibi Web günlüğü</a>. Bu postaları bazı işlemler için Dynamics 365 önceki sürümü için yazılmış ama hala aynı kavramlar uygulanır ve geçerli sürümde yordamları benzer.
+<a href="https://blogs.msdn.microsoft.com/dax/">Microsoft Dynamics AX ürün ekibi blogunda</a>, Perakende hakkında pek çok konu bulunmaktadır. Bu gönderilerin bazıları Dynamics 365 for Operations'ın önceki sürümü için yazılmıştır ancak aynı kavramlar hala geçerlidir ve yordamlar geçerli sürümdekine benzerdir.
 
-<a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">Microsoft Dynamics işlemleri ortak topluluk Blog</a> yeni ve eğilimleri belirleme MBS işlemlerinde nedir hakkında bilgi edinmek için Microsoft Dynamics ortakları ile tek bir kaynak sağlar.
+<a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">Microsoft Dynamics Operations İş Ortağı Topluluğu Blogu</a>, Microsoft Dynamics İş Ortakları'na MBS Operations'daki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunar.
 

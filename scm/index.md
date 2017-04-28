@@ -1,6 +1,6 @@
 ---
 title: "Tedarik zinciri yönetimi ana sayfası"
-description: "Bu sayfayı işaret yardımcı olacak kaynaklar Microsoft Dynamics 365 - tedarik zinciri yönetimi işlemleri için daha etkili bir şekilde kullanın."
+description: "Bu sayfa sizi Microsoft Dynamics 365 for Operations - Tedarik Zinciri yönetimini daha verimli bir şekilde kullanmanıza yardımcı olacak kaynaklara yönlendirir."
 author: yuyus
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,31 +29,31 @@ ms.lasthandoff: 04/12/2017
 
 [!include[banner](includes/banner.md)]
 
-Bu sayfayı işaret yardımcı olacak kaynaklar Microsoft Dynamics 365 - tedarik zinciri yönetimi işlemleri için daha etkili bir şekilde kullanın. 
+Bu sayfa sizi Microsoft Dynamics 365 for Operations - Tedarik Zinciri yönetimini daha verimli bir şekilde kullanmanıza yardımcı olacak kaynaklara yönlendirir. 
 
-## <a name="whats-new-and-in-development"></a>Yeni ve geliştirme nedir
-Git <a href="https://roadmap.dynamics.com/">Dynamics 365 Haritası</a> geliştirmede yeni özellikleri nelerdir ve hangi yeni özellikler serbest görmek için. 
+## <a name="whats-new-and-in-development"></a>Geliştirmedeki yenilikler
+Yayımlanan ve geliştirilmekte olan yeni özellikleri görmek için <a href="https://roadmap.dynamics.com/">Dynamics 365 Yol Haritası</a> bölümüne gidin. 
 
-## <a name="core-concepts-and-tasks"></a>Temel kavramlar ve görevleri
-*  Sol bölmede, hakkında daha fazla bilgi için özellik alanını seçin. 
-*  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Ambar Yönetimi'nde gelen ön sevkiyat bildirimlerini işleme</a> (video) 
+## <a name="core-concepts-and-tasks"></a>Temel kavramlar ve görevler
+*  Soldaki bölmede, bir özellik alanı seçerek özellik hakkında daha fazla bilgi edinebilirsiniz. 
+*  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Ambar yönetiminde gelen ASN'leri işleme</a> (video) 
 
 
 ## <a name="blogs"></a>Bloglar
-Üzerinde üretim ve tedarik zinciri yönetimi ile ilgili birçok konu vardır <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX üretim R & D ekibi Web günlüğü</a> ve <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">tedarik zinciri yönetimi Dynamics AX R & D ekibi Web günlüğü içinde</a>. Bunların çoğu Dynamics 365 for Operations'ın önceki sürümü için yazılmıştır ama hala aynı kavramlar uygulanır ve yordamlar geçerli sürümdekiyle aynıdır. 
+<a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX İmalat Ar-Ge Ekibi Blogu</a> ve <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Dynamics AX'te Tedarik Zinciri Yönetimi Ar-Ge Ekibi Blogu </a> bölümlerinde imalat ve tedarik zinciri yönetimi hakkında pek çok konu bulunmaktadır. Bu içeriğin büyük bölümü Dynamics 365 for Operations'ın önceki sürümü için yazılmıştır ancak aynı kavramlar hala geçerlidir ve yordamlar geçerli sürümdekine benzerdir. 
 
-Örneğin, yeni yeni postalar hakkında okuyabilirsiniz: 
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/">Depolama işlemleri için – Dynamics 365 Duyurusu</a>
-* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611/">Geliştirilmiş işlevsellik (1611 işlemleri için Dynamics 365) ambalaj</a>
-* <a href="https://blogs.msdn.microsoft.com/axmfg/2017/02/13/cross-docking-from-production-orders-to-transfer-orders/">Transfer emirleri için üretim emirlerinden merkezden</a>
+Örneğin şu konulardaki yeni gönderileri okuyabilirsiniz: 
+* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/">Dynamics 365 for Operations – Ambarlama Duyurusu</a>
+* <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/12/01/improved-packing-functionality-dynamics-365-for-operations-1611/">Geliştirilmiş ambalaj işlevi (Dynamics 365 for Operations 1611)</a>
+* <a href="https://blogs.msdn.microsoft.com/axmfg/2017/02/13/cross-docking-from-production-orders-to-transfer-orders/">Üretim emirlerinden transfer emirlerine çapraz sevk</a>
 
 ## <a name="white-papers"></a>Teknik incelemeler
-* <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Microsoft Dynamics 365 işlemlerinde Maliyet muhasebesi ile çalışmaya başlama -</a> beyaz kağıt maliyeti fiili maliyet analizi yapmak için hesap işlemleri – Microsoft Dynamics 365 yapılandırmak için temel adımları sağlar. Ayrıca, göründükleri sırayla tamamlayabilirsiniz yordamlar dizisi sağlar.
-* <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Dynamics 365 işlemleri - Lean Manufacturing: Promise ve iş planlama çizelgeleme Kanban yeteneğine sahip</a> beyaz kağıt kanban iş planlama çizelgeleme ayrıntıları açıklar ve yetenekli promise (CTP) yöntemi için kullandığı için teslimat tarihi kontrolünü satış siparişi alma kavramını tanıtır. CTP sipariş ile bir araya getirmek veya yapı siparişi senaryoları modellemek için olay kanbans ile nasıl birleştirilebilir açıklar.
-* <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">İşlemleri - ürün reçetesi hesaplama bir Maliyetlendirme tablosu kullanarak Microsoft Dynamics 365</a> beyaz kağıt malzeme ve üretim içeren bir Maliyetlendirme tablosu ayarlamak nasıl açıklanır ve Kurulum ürün reçetesi hesaplaması nasıl etkiler neden olur. Öğrenme amaçları için ekte alıştırmaları yapmak ve ürün reçetesi hesaplama çözümleme yapmak için bu belgeyi okumasını kazanılan bilgi kullanın.
+* <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Microsoft Dynamics 365 for Operations - Maliyet Muhasebesine Başlarken</a> teknik incelemesi, fiili maliyet analizi yapmak üzere, Microsoft Dynamics 365 for Operations - Maliyet Muhasebesi yapılandırmasının temel adımlarını sunar. Ayrıca, göründükleri sırayla tamamlayabileceğiniz bir dizi prosedür de sağlar.
+* <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Dynamics 365 for Operations - Yalın İmalat: Teslim Edilebilir Miktar ve Kanban İşi Planlaması</a> teknik incelemesi, kanban işi planlamanın ayrıntılarını açıklar ve teslimat tarihi denetimi için teslim edilebilir miktar (CTP) yöntemini kullanan sipariş emri alma kavramını tanıtır. Ayrıca CTP'nin sipariş için derleme veya sipariş için oluşturma senaryolarını modellemek üzere olay kanbanlarının nasıl birleştirebileceğini de açıklar.
+* <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Microsoft Dynamics 365 for Operations - Maliyetlendirme Tablosu Kullanarak Ürün Reçetesi Hesaplama</a> teknik incelemesi, malzeme ve imalatı kapsayan bir maliyetlendirme tablosunu ayarlamayı ve ayarlamanın ürün reçetesi hesaplama sonuçları üzerindeki etkilerini anlatır. Öğrenme amacıyla Ek'teki alıştırmaları yapabilir ve bu belgeyi okuyarak edindiğiniz bilgileri ürün reçetesi hesaplama analizi yapmak için kullanabilirsiniz.
 
-## <a name="elearning-courses"></a>e-öğrenim kursları
-Microsoft Dynamics 365 işlemleri hakkında bilgi için bkz: eğitim, <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics öğrenme portalı</a>. (müşteri kaynağı hesabı gerektirir) 
+## <a name="elearning-courses"></a>e-Öğrenme kursları
+Microsoft Dynamics 365 for Operations eğitimi hakkında daha fazla bilgi için bkz. <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics Öğrenme Portalı</a>. (CustomerSource hesabı gerektirir) 
 
 
 

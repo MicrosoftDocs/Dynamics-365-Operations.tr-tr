@@ -1,62 +1,62 @@
-# [Human resources home page](index.md)
+# [İnsan kaynakları ana sayfası](index.md)
 # İnsan kaynakları stratejisi geliştirme
-## [Departmanlar, projeler ve pozisyonları kullanarak işgücünüzün düzenlemek](departments-jobs-positions.md)
-## [Proje bileşenleri ayarlamak](create-job.md)
-## [Create a department and associate it with the department hierarchy](create-department-add-department-hierarchy.md)
-## [Şirkete özgü İK parametreleri ayarlama](set-up-company-specific-hr-parameters.md)
+## [Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme](departments-jobs-positions.md)
+## [İş bileşenlerini ayarlama](create-job.md)
+## [Departman oluşturma ve departman hiyerarşisi ile ilişkilendirme](create-department-add-department-hierarchy.md)
+## [Şirkete özgü İK parametrelerini ayarlama](set-up-company-specific-hr-parameters.md)
 ## [Tüzel kişilikler arasında İK parametreleri ayarlama](set-up-hr-parameters-across-legal-entities.md)
-## [Çalışan bilgilerini yönetmek için iş akışını kullanma](workflow-manage-employee-information.md)
-# İşe alma, dönemsel işe alma ve çalışanları motive etme
-## [Manage a recruiting process](manage-recruiting-process.md)
-## [Mass hire projects](mass-hire-projects.md)
+## [Personel bilgilerini yönetmek için iş akışını kullanma](workflow-manage-employee-information.md)
+# Personeli işe alma, dönemsel işe alma ve motive etme
+## [İşe alma sürecini yönetme](manage-recruiting-process.md)
+## [Toplu işe alma projeleri](mass-hire-projects.md)
 ## [Ücret planları](compensation-plans.md)
 ## [Sabit ücret planları oluşturma](create-fixed-compensation-plans.md)
 ## [Değişken ücret planları oluşturma](create-variable-compensation-plans.md)
-# Çalışanlar geliştir ve eğit
-## [Performance management overview](performance-management-overview.md)
-## [Align workforce skills with business needs](skills.md)
+# Çalışanları geliştirme ve eğitme
+## [Performans yönetimine genel bakış](performance-management-overview.md)
+## [İş gücü becerilerini iş ihtiyaçlarına uygun hale getirme](skills.md)
 ## [Eğitim kursları ayarlama](courses.md)
-# Kazançlar oluşturun ve koruyun
-## [Yararları program yönetme](manage-benefit-program.md)
-## [Benefit eligibility policies](benefit-eligibility-policies.md)
-## [Manage items lent to workers](loan-items.md)
+# Kazançlar oluşturma ve koruma
+## [Kazanç programını yönetme](manage-benefit-program.md)
+## [Kazanca uygunluk ilkeleri](benefit-eligibility-policies.md)
+## [Çalışanlara ödünç verilen öğeleri yönetme](loan-items.md)
 # Soru formları kullanarak bilgi toplama
-## [Questionnaires](questionnaires.md)
-## [Design a questionnaire](design-questionnaires.md)
-## [Distribute and complete a questionnaire](distribute-questionnaires.md)
-## [Soru formu sonuçlarını değerlendirmek](evaluate-questionnaire-results.md)
-# Amerika Birleşik Devletleri özellikleri
-## Çalışma alanı güvenilirlik ve uyumluluk
-### [Form I-9 İstihdam doğrulama](localizations/noam-usa-form-i-9-verification.md)
-### [ADA ile uyumlu](localizations/noam-usa-comply-ada.md)
-## [Payroll](localizations/noam-usa-payroll.md)
-### Bordro Kurulumu
-#### [Çalışanları için bordroyu ayarlayın](localizations/noam-usa-worker-position-payroll-tasks.md)
-#### [İş döngüleri ayarlamanız ve çalışma dönemleri](localizations/noam-usa-work-cycle-work-period-tasks.md)
-#### [Kazanç Tahakkuk planları kurulumu](localizations/noam-usa-benefit-accrual-plan-tasks.md)
-#### [Set up benefits](localizations/noam-usa-benefit-set-up-tasks.md)
-### Sıklık ve döngüler
-### [Döngüsü ödeme ve ödeme dönemi görevleri](localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md)
-### [Hesaplama ve frekans bordro görevleri](localizations/noam-usa-payroll-calculation-frequencies-tasks.md)
-### [İş Çizelgesi ve görevleri bırakın](localizations/noam-usa-work-schedule-leave-tasks.md)
-### Kodları ve vergiler
-#### [Kod getirisi ve kod grup görevleri getirisi](localizations/noam-usa-earning-code-group-tasks.md)
-#### [Vergi bilgileri görevler](localizations/noam-usa-tax-information-tasks.md)
-### Garnishments, tutucusuna vergi ve prim ödeme
-#### [Garnishments ayarlamak ve tutucusuna vergi](localizations/noam-usa-garnishment-tax-levy-set-up-tasks.md)
-#### [Garnishment ve vergi tutucusuna işçi kaydetme](localizations/noam-usa-garnishment-tax-levy-enrollment-tasks.md)
-#### [Prim gelirleri Ayarla](localizations/noam-usa-premium-earning-setup-tasks.md)
-#### [Garnishments, vergi tutucusuna ve yönetim ücretleri hakkında SSS](localizations/noam-usa-garnishment-tax-levy-administrative-fees.md)
-### Bordro işleme görevleri
-#### [Generate earnings](localizations/noam-usa-earnings-generation-process.md)
-#### [Sorun alt ödemeleri](localizations/noam-usa-issue-worker-payments.md)
-#### [Bordro deftere nakletmek ve satıcı faturalarını oluştur](localizations/noam-usa-post-payroll-generate-vendor-invoices.md)
-#### [İfadeleri ve SSS oluşturma ödemeler ödeme](localizations/noam-usa-pay-statements-payment-generation-process.md)
-### Ödeme işlemi tamamlamak
-#### [İşlem varolan Bordro ödemeleri](localizations/noam-usa-existing-payroll-payments.md)
-#### [İşlem varolan yedek akçe](localizations/noam-usa-existing-earnings.md)
-#### [İşlem ödeme deyimleri](localizations/noam-usa-pay-statements.md)
-### Bakım ve sorun bildirme
+## [Soru formları](questionnaires.md)
+## [Soru formu tasarlama](design-questionnaires.md)
+## [Soru formunu dağıtma ve doldurma](distribute-questionnaires.md)
+## [Soru formunun sonuçlarını değerlendirme](evaluate-questionnaire-results.md)
+# ABD özellikleri
+## Çalışma alanı güvenliği ve uyumluluğu
+### [Form I-9 istihdam doğrulama](localizations/noam-usa-form-i-9-verification.md)
+### [ADA ile uyumluluk](localizations/noam-usa-comply-ada.md)
+## [Bordro](localizations/noam-usa-payroll.md)
+### Bordro ayarı
+#### [Çalışanlar için bordro ayarlama](localizations/noam-usa-worker-position-payroll-tasks.md)
+#### [İş döngüleri ve iş dönemleri ayarlama](localizations/noam-usa-work-cycle-work-period-tasks.md)
+#### [Kazanç tahakkuk planları ayarlama ](localizations/noam-usa-benefit-accrual-plan-tasks.md)
+#### [Kazançları ayarlama](localizations/noam-usa-benefit-set-up-tasks.md)
+### Sıklıklar ve döngüler
+### [Ödeme döngüsü ve ödeme dönemi görevleri](localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md)
+### [Bordro hesaplama ve sıklık görevleri](localizations/noam-usa-payroll-calculation-frequencies-tasks.md)
+### [İş çizelgesi ve izin görevleri](localizations/noam-usa-work-schedule-leave-tasks.md)
+### Kodlar ve vergiler
+#### [Kazanç kodu ve kazanç kodu grubu görevleri](localizations/noam-usa-earning-code-group-tasks.md)
+#### [Vergi bilgileri görevleri](localizations/noam-usa-tax-information-tasks.md)
+### Maaş hacizleri, vergi hacizleri ve prim ödeme
+#### [Maaş hacizleri ve vergi hacizleri ayarlama](localizations/noam-usa-garnishment-tax-levy-set-up-tasks.md)
+#### [Çalışanları maaş haczine ve vergi hacizlerine kaydetme](localizations/noam-usa-garnishment-tax-levy-enrollment-tasks.md)
+#### [Prim kazançlarını ayarlama ](localizations/noam-usa-premium-earning-setup-tasks.md)
+#### [Maaş hacizleri, vergi hacizleri ve yönetim ücretleri hakkında SSS](localizations/noam-usa-garnishment-tax-levy-administrative-fees.md)
+### Bordro işlemi görevleri
+#### [Kazanç oluşturma](localizations/noam-usa-earnings-generation-process.md)
+#### [Çalışanlara ödeme gönderme](localizations/noam-usa-issue-worker-payments.md)
+#### [Bordroyu deftere nakletme ve satıcı faturaları oluşturma](localizations/noam-usa-post-payroll-generate-vendor-invoices.md)
+#### [Ödeme ekstreleri ve ödeme oluşturma hakkında SSS](localizations/noam-usa-pay-statements-payment-generation-process.md)
+### Ödeme işlemini tamamlama
+#### [Mevcut bordro ödemelerini işleme](localizations/noam-usa-existing-payroll-payments.md)
+#### [Mevcut kazançları işleme](localizations/noam-usa-existing-earnings.md)
+#### [Ödeme ekstrelerini işleme](localizations/noam-usa-pay-statements.md)
+### Bakım ve raporlama
 #### [Bordro verilerini güncelleştirme hakkında SSS](localizations/noam-usa-payroll-data-updates.md)
-#### [Bordro raporlar oluştur](localizations/noam-usa-generate-payroll-reports.md)
+#### [Bordro raporları oluşturma](localizations/noam-usa-generate-payroll-reports.md)
 

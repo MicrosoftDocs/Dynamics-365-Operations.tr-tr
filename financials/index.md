@@ -1,5 +1,5 @@
 ---
-title: "Mali yönetim giriş sayfası"
+title: "Mali yönetim ana sayfası"
 description: "Bu konu, Microsoft Dynamics 365 for Operations&quot;ın mali yönetim özellikleri için yardım konularının ve diğer kaynakların bir listesini sağlar."
 author: twheeloc
 manager: AnnBe
@@ -24,22 +24,22 @@ ms.lasthandoff: 04/12/2017
 
 ---
 
-# <a name="financial-management-home-page"></a>Mali yönetim giriş sayfası
+# <a name="financial-management-home-page"></a>Mali yönetim ana sayfası
 
 [!include[banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 for Operations'ın mali yönetim özellikleri için yardım konularının ve diğer kaynakların bir listesini sağlar. 
 
-Hakkında daha fazla bilgi edinmek için bir özellik alanı seçin.
-- [Accounts payable](accounts-payable\accounts-payable.md) 
-- [Accounts receivable](accounts-receivable\accounts-receivable.md) 
-- [Cash and bank management](cash-bank-management\cash-bank-management.md)
-- [Cost accounting](cost-accounting\cost-accounting-home-page.md)
-- [Fixed assets](fixed-assets\fixed-assets.md)
-- [General ledger](general-ledger\general-ledger.md) 
-- [Project management](project-management\overview-project-management-accounting.md)
-- [Public sector](public-sector\public-sector-functionality.md) 
-- [Budgeting](budgeting\budgeting-overview.md) 
+Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
+- [Borç hesapları](accounts-payable\accounts-payable.md) 
+- [Alacak hesapları](accounts-receivable\accounts-receivable.md) 
+- [Nakit ve banka yönetimi](cash-bank-management\cash-bank-management.md)
+- [Maliyet muhasebesi](cost-accounting\cost-accounting-home-page.md)
+- [Sabit kıymetler](fixed-assets\fixed-assets.md)
+- [Genel muhasebe](general-ledger\general-ledger.md) 
+- [Proje yönetimi](project-management\overview-project-management-accounting.md)
+- [Kamu sektörü](public-sector\public-sector-functionality.md) 
+- [Bütçeleme](budgeting\budgeting-overview.md) 
 
 
 
