@@ -17,29 +17,40 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: b77b61089c359127a7404437c29ef63a01416779
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 4a3ecb4cb643d63333666f8d5d49760caacc4e58
+ms.openlocfilehash: e14d0836ee16db4fba9ef49df9a49564aa4c0402
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/27/2017
 
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Yerelleştirme ve mevzuat özellikleri
 
-Microsoft Dynamics 365 for Operations'da, ülkeye/bölgeye özgü bazı mevzuatlar ve işlemlere yönelik işlev bulunur. Bu işlev, etkin tüzel kişiliğin birincil adresi esas alınarak etkinleştirilir. Bu konu, ülkeye/bölgeye özgü işlevler hakkında daha fazla bilgi edinmenize yardımcı olabilecek kaynakların listesini içerir. 
+[!include[banner](../includes/banner.md)]
 
-## <a name="developer-and-isv-information"></a>Geliştirici ve ISV bilgileri
-Aşağıdaki kaynaklar, ülkeye/bölgeye özgü özelleştirmeler oluşturan geliştiriciler ve ISV'lere yardımcı olabilecek bilgiler sunar.
+
+Microsoft Dynamics 365 for Operations'da, [Ürün bulunabilirliği kılavuzu](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf)'nda belirtilen ülkeler/bölgelere yönelik işlevsellik bulunur. Bu işlev, etkin tüzel kişiliğin birincil adresi esas alınarak etkinleştirilir. 
+
+Bu konu, ülkeye/bölgeye özgü işlevler hakkında daha fazla bilgi edinmenize yardımcı olabilecek kaynakların listesini içerir. 
+
+## <a name="developing-localized-solutions"></a>Yerelleştirilmiş çözümler geliştirme
+Aşağıdaki kaynaklar, ülkeye/bölgeye özgü özelleştirmeler oluşturan veya Microsoft'un desteklemediği bir ülke için çözüm oluşturmuş geliştiricilere ve ISV'lere yardımcı olabilecek kılavuzlar ve bilgiler sunar.
 -   [Ayrı yerelleştirme modelleri](separate-localization-models.md)
 -   [Ülke/bölge bağlamı uygulama](apply-country-context.md)
 -   [Mevzuat sertifikaları](regulatory-certifications.md)
 -   [Yerelleştirme özelliklerini sınıflandırma](classify-localization-features.md)
 -   [Ülke Kodları - ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="localization-updates"></a>Yerelleştirme güncelleştirmeleri
+## <a name="localization-updates-and-communication"></a>Yerelleştirme güncelleştirmeleri ve iletişim
 Aşağıdaki kaynaklar, planlanan ve yeni yerelleştirme özellikleri hakkında bilgi sağlar. 
--   [Yerelleştirme portalı](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC)
+
+### <a name="localization-updates"></a>Yerelleştirme güncelleştirmeleri
+-   [Yerelleştirme portalı](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (Haftalık olarak güncelleştirilir)
+-   [LCS konu arama](../lifecycle-services/issue-search-lcs.md) (Günlük olarak güncelleştirilir)
+
+### <a name="communication-and-alerts"></a>İletişim ve uyarılar
 -   [Mevzuat izleme ve mevzuat güncelleştirme iletişimi](regulatory-watch-communication.md)
 -   [Microsoft'u ülke/bölge mevzuatıyla ilgili uyarılar konusunda bilgilendirme ve mevzuat özelliklerinin durumunu izleme](submit-localization-alerts.md)
 
@@ -51,7 +62,15 @@ Elektronik raporlama (ER) aracı, elektronik belgelerin biçimini çeşitli ülk
 -   [Elektronik raporlama işlev listesini genişletme](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [Elektronik raporlama hedefleri](../analytics/electronic-reporting-destinations.md)
 -   [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını indirme](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [Power BI ile Elektronik raporlamayı ayarlama](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Power BI'ya veri çekmek için Elektronik raporlamayı yapılandırma](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+
+## <a name="task-guides"></a>Görev kılavuzları
+Görev kılavuzlarına ürün yardım bölmesinden ulaşılabilir ve bu kılavuzlar temel iş süreçleri için adım adım bir kılavuz sağlar. İş sürecinin adımlarını okumak için bir görev kılavuzunu açabilir veya bir iş sürecinde ve veri girişinde adım adım kılavuzluk için bir görev kılavuzunu oynatabilirsiniz.
+
+Görev kılavuzlarını bulmak için Microsoft Dynamics 365 for Operations'da bir sayfaya gidin ve Yardım'a tıklayın. Sayfayı kullanan görev kılavuzları yardım bölmesinde listelenir. Ayrıca yardım bölmesini kullanarak görev kılavuzlarını başlığa göre arayabilirsiniz.
+
+Daha fazla bilgi için bkz. [Görev kılavuzları](/dynamics365/operations/dev-itpro/get-started/help-overview#task-guides).
+
 
 ## <a name="countryregion-specific-help-topics"></a>Ülkeye/bölgeye özgü yardım konuları
 Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
@@ -62,17 +81,17 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 -   [İş faaliyet raporu ](/dynamics365/operations/financials/localizations/apac-aus-business-activity-statement)
 -   [Düşük değer havuzu amortismanı](/dynamics365/operations/financials/localizations/apac-aus-low-value-pool-depreciation)
 
-
 ### <a name="austria"></a>Avusturya
 
+-   [Yarı yıl amortismanı](/dynamics365/operations/financials/localizations/emea-aut-half-year-depreciation)
 -   [Ambalaj malzemesi ücretleri](/dynamics365/operations/financials/localizations/emea-aut-packing-material-fee-calculation)
 -   [KDV beyanı](/dynamics365/operations/financials/localizations/emea-aut-vat-statement-details)
 
 ### <a name="belgium"></a>Belçika
 
 -   [CODA banka ekstresi](/dynamics365/operations/financials/localizations/emea-bel-coda-bank-statement-import)
+-   [Intervat vergi beyannamesi](/dynamics365/operations/financials/localizations/emea-bel-intervat-tax-declaration)
 -   [PRODCOM raporu ayarı](/dynamics365/operations/financials/localizations/emea-bel-prodcom-report)
-
 
 ### <a name="brazil"></a>Brezilya
 
@@ -93,7 +112,6 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 -   [Vergi ödemeleri](/dynamics365/operations/financials/localizations/latam-bra-tax-payments)
 -   [Vergiler](/dynamics365/operations/financials/localizations/latam-bra-calculate-taxes)
 
-
 ### <a name="china"></a>Çin
 -   [Ürün reçetesi karşılaştırması](/dynamics365/operations/financials/localizations/apac-chn-bom-comparison)
 -   [Çince fişler](/dynamics365/operations/financials/localizations/apac-chn-vouchers)
@@ -105,12 +123,14 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 -   [Stok ana hesaplarını tesise göre deftere nakletme](/dynamics365/operations/financials/localizations/apac-chn-post-inventory-main-accounts-by-site)
 -   [Genel muhasebe hesapları için borç ve alacak tutarlarını görüntüleme](/dynamics365/operations/financials/localizations/apac-chn-negative-debits-credits)
 
-
 ### <a name="the-czech-republic"></a>Çek Cumhuriyeti
+
+-   [Alacak dekontunda nakit iskontosu](/dynamics365/operations/financials/localizations/emea-cze-credit-note-cash-discount)
 -   [Amortisman yuvarlama](/dynamics365/operations/financials/localizations/emea-cze-depreciation-rounding)
--       [Çek Cumhuriyeti için sabit kıymet elden çıkarmada yarı yıl amortismanı](/dynamics365/operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
-    -   [Amortisman bekletme (tatiller)](/dynamics365/operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
-    -   [Çek Cumhuriyeti için sabit kıymetler amortisman yöntemleri](/dynamics365/operations/financials/localizations/emea-cze-fixed-assets-depreciation)
+-   [Çek Cumhuriyeti için sabit kıymet elden çıkarmada yarı yıl amortismanı](/dynamics365/operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
+-   [Amortisman bekletme (tatiller)](/dynamics365/operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
+-   [Çek Cumhuriyeti için sabit kıymetler amortisman yöntemleri](/dynamics365/operations/financials/localizations/emea-cze-fixed-assets-depreciation)
+
 -   [Sabit kıymetin ön alımını deftere nakletme](/dynamics365/operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
 -   [Çek Cumhuriyeti için KDV beyanı](/dynamics365/operations/financials/localizations/emea-cze-vat-statement-details)
 -   [Periyodik günlüklerde bölünmüş dönemler](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
@@ -127,6 +147,7 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 -   [Satış siparişlerindeki fatura kodlarını düzenleme](/dynamics365/operations/financials/localizations/emea-edit-invoice-id-sales-orders)
 -   [AB giriş sertifikaları](/dynamics365/operations/financials/localizations/emea-entry-certificates)
 -   [AB satış listesi raporlaması](/dynamics365/operations/financials/localizations/emea-eu-sales-list)
+-   [Döviz kuru ayarlamaları](/dynamics365/operations/financials/localizations/emea-exchange-rate-adjustments)
 -   [Ödeme yöntemlerine ait dosya biçimleri](/dynamics365/operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
 -   [Estonya ve Litvanya için sabit kıymetleri elden çıkarma](/dynamics365/operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
 -   [Intrastat](/dynamics365/operations/financials/localizations/emea-intrastat)
@@ -143,11 +164,9 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 -   [Basılı formlar için imzalayanları ayarlama](/dynamics365/operations/financials/localizations/emea-set-up-signers-for-printing-forms)
 -   [Periyodik günlüklerde bölünmüş dönemler](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
 -   [Tutarların raporlarda ve belgelerde nasıl görüntüleneceğini güncelleştirme](/dynamics365/operations/financials/localizations/emea-amount-printing-forms)
-
+-   [KDV döviz kurları](/dynamics365/operations/financials/localizations/emea-vat-exchange-rate)
 -   [Avrupa için KDV raporlama](/dynamics365/operations/financials/localizations/emea-vat-reporting)
-
 -   [Kapatma hareketlerini görüntüleme](/dynamics365/operations/financials/localizations/emea-transactions-settlement-form)
-
 
 ### <a name="france"></a>Fransa
 -   [Kronolojik fatura ve fiş numaraları](/dynamics365/operations/financials/localizations/emea-fra-chronological-invoices-vouchers)
@@ -164,15 +183,16 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
    -   [Titres de recette](/dynamics365/operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
    -   [Satıcı faturası ödeme tutmaları](/dynamics365/operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
 
-
 ### <a name="germany"></a>Almanya
 -   [Ek alım amortismanı](/dynamics365/operations/financials/localizations/emea-deu-additional-acquisition-depreciation)
 -   [Alman denetim dosyası (GDPdU/GoBD)](/dynamics365/operations/financials/localizations/emea-deu-gdpdu-audit-data-export)
 -   [Alman günlük listesi raporu](/dynamics365/operations/financials/localizations/emea-deu-journal-list-report)
--   [Satışlardan kaynaklanan alacak faturaları için ayrı bir etiket yazdırma (Görev Kılavuzu)](/dynamics365/operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
+-   [Satışlardan kaynaklanan alacak faturaları için ayrı bir etiket yazdırma](/dynamics365/operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
 
 ### <a name="hungary"></a>Macaristan
 
+-   [Sabit kıymet amortisman yöntemleri](/dynamics365/operations/financials/localizations/emea-hun-fixed-assets-depreciation-methods)    
+-   [Sabit kıymeti stoka taşıma](/dynamics365/operations/financials/localizations/emea-hun-fixed-asset-to-inventory)
 -   [Düşük maliyetli sabit kıymetler](/dynamics365/operations/financials/localizations/emea-hun-low-cost-fixed-assets)
 
 ### <a name="italy"></a>İtalya
@@ -184,6 +204,7 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 -   [İtalya için faturalarda sevk irsaliyesi tarihi doğrulama](/dynamics365/operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
 -   [İtalya satış vergisi defterleri](/dynamics365/operations/financials/localizations/emea-ita-fiscal-books)
 -   [Kamu İdaresi için düzenlenen faturalarda bölünmüş ödeme](/dynamics365/operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
+-   [Stopaj vergisi](/dynamics365/operations/financials/localizations/emea-ita-withholding tax)
 
 ### <a name="japan"></a>Japonya
 
@@ -240,11 +261,14 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 -   [Satış faturası numaralandırmasını çoğaltma](/dynamics365/operations/financials/localizations/emea-pol-sales-invoice-duplicates-numbering)
 -   [Sabit kıymetler amortismanı](/dynamics365/operations/financials/localizations/emea-pol-fixed-assets-depreciation)
 -   [Sabit kıymetleri elden çıkarma](/dynamics365/operations/financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension)
+-   [İade edilebilir ambalaj](/dynamics365/operations/financials/localizations/emea-pol-returnable-packages)
+-   [Satış vergisi raporları](/dynamics365/operations/financials/localizations/emea-pol-sales-tax-reports)
+-   [Standart denetim dosyası (SAF)](/dynamics365/operations/financials/localizations/emea-pol-standard-audit-file-saf)
 -   [Ciro ve bakiye ekstresi](/dynamics365/operations/financials/localizations/emea-pol-turnover-balances-statement)
 
 ### <a name="saudi-arabia"></a>Suudi Arabistan
 
--   [Zakat raporlama](/dynamics365/operations/financials/localizations/emea-sau-zakat-reporting)
+-   [Zekat raporlama](/dynamics365/operations/financials/localizations/emea-sau-zakat-reporting)
 
 ### <a name="singapore"></a>Singapur
 
@@ -252,15 +276,16 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 
 ### <a name="spain"></a>İspanya
 
-
--   [İspanya kambiyo senedi seçenekleri](/dynamics365/operations/financials/localizations/emea-esp-spanish-bill-of-exchange-options)
+-   [İspanya kambiyo senedi seçenekleri](/dynamics365/operations/financials/localizations/emea-esp-bill-of-exchange-options)
 -   [Nakit iskontosu fatura parametresine uygulandı](/dynamics365/operations/financials/localizations/emea-esp-cash-discount-applied-invoice)
--   [Fatura hesabındaki mali verileri kullanma](/dynamics365/operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
+-   [Koşullu satış vergisi](/dynamics365/operations/financials/localizations/emea-esp-conditional-sales-tax)
 -   [Sabit kıymet yeniden değerleme grupları](/dynamics365/operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
+-   [Topluluk içi KDV](/dynamics365/operations/financials/localizations/emea-esp-intra-community-vat)
 -   [Tek seferlik müşteriler](/dynamics365/operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
 -   [İspanya senet seçenekleri](/dynamics365/operations/financials/localizations/emea-esp-promissory-note-options)
 -   [Satış ve satınalma döngüleri](/dynamics365/operations/financials/localizations/emea-esp-sales-purchase-cycle)
 -   [Özel girişler ve açılış tabloları](/dynamics365/operations/financials/localizations/emea-esp-opening-sheets-spain)
+-   [Fatura hesabındaki mali verileri kullanma](/dynamics365/operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
 
 ### <a name="sweden"></a>İsveç
 
@@ -286,4 +311,7 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 -   [Yıl sonu 1099 raporlaması](/dynamics365/operations/financials/localizations/noam-usa-year-end-1099-reporting)
 -   [Bordro](/dynamics365/operations/human-resources/localizations/noam-usa-payroll)
 -   [Kamu sektörü](/dynamics365/operations/financials/public-sector/public-sector-functionality)
+
+
+
 

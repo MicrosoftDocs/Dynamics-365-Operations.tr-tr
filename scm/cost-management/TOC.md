@@ -22,10 +22,14 @@
 ## [Ağırlıklı ortalama tarihi](weighted-average-date.md)
 ## [Fiziksel değer ve işaretleme ile ağırlıklı ortalama](weighted-average-physical-value-marking.md)
 # Üretim maliyetlendirme
+## [Üretilen maddeler için sabit maliyetlerin itfası](amortize-constant-costs-manufactured-item.md)
+## [Geriye dönük maliyetlendirme](backflush-costing.md)
+## [Ürün reçetesi hesaplamaları](bom-calculations.md)
 ## [Ürün reçetesi hesaplama grubu](bom-calculation-groups.md)
 ## [Üretim farkı ortak kaynakları](common-sources-of-production-variances.md)
 ## [Üretim rotasında kullanılan maliyet kategorisi](cost-categories-used-production-routings.md)
 ## [Üretim denetiminde ve Proje yönetimi muhasebesinde kullanılan maliyet kategorisi](cost-categories-used-production-control-project-management-accounting.md)
+## [Üretilen bir maddenin giderlerini görüntüleme](charges-manufactured-item.md)
 ## [Üretim emri maliyet analizi](production-order-cost-analysis.md)
 ## [Üretim emri maliyet tahmini](production-order-cost-estimation.md)
 ## [Üretim deftere nakli](production-posting.md)
@@ -39,5 +43,6 @@
 ## [İmalat ortamında standart maliyeti güncelleştirme](update-standard-costs-manufacturing-environment.md)
 ## [Yeni üretilmiş bir madde için standart maliyeti güncelleştirme](update-standard-costs-new-manufactured-item.md)
 ## [İmalat dışı bir ortamda standart maliyeti güncelleştirme](update-standard-costs-non-manufacturing-environment.md)
+
 
 

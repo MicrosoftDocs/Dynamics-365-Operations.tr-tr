@@ -170,6 +170,7 @@
 ## [Maliyet öğesi boyutları](cost-accounting/cost-elements.md)
 ## [Maliyet nesnesi boyutları](cost-accounting/cost-objects.md)
 ## [Maliyet öğesi boyutu üyelerini ortak bir boyut öğeleri kümesine eşleme](cost-accounting/map-cost-elements-dimension-members.md)
+## [Genel gider hesaplaması](cost-accounting/overhead-calculation.md)
 ## [Maliyet kontrolü mobil çalışma alanı](cost-accounting/cost-controlling-mobile-workspace.md)
 ## [Maliyet muhasebesi analizi Power BI içeriği](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/operations/financials/toc.json)
 ## [Maliyet muhasebesi analizi Power BI içeriğinin güvenliğini ayarlama](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/operations/financials/toc.json)
@@ -206,4 +207,18 @@
 ## [Proje teklifleri](project-management/project-quotations.md)
 ## [Proje kaynak ataması](project-management/project-resourcing.md)
 ## [İş kırılım yapıları](project-management/work-breakdown-structures.md)
+## [Proje saati girişi mobil çalışma alanı](project-management/project-time-entry-mobile-workspace.md)
 # [Yerelleştirmeler](localizations/TOC.md)
+
+# [İnsan kaynakları](/dynamics365/operations/human-resources/index)
+
+# [Perakende](/dynamics365/operations/retail/index)
+
+# [Tedarik zinciri yönetimi](/dynamics365/operations/supply-chain/index)
+
+# [Geliştirici ve Yönetici](/dynamics365/operations/dev-itpro/index)
+
+# Diğer kaynaklar
+## [Dynamics 365 for Operations sözlüğü](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/financials/toc.json)
+## [Yenilikler veya değişenler](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/financials/toc.json)
+

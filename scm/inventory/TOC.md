@@ -1,5 +1,6 @@
 # Ambar düzeni oluşturma
 # Gelen işlem
+## [Varışa genel bakış](arrival-overview.md)
 # Giden işlem
 # Stok izlemeyi ayarlama
 ## [Stok günlükleri](inventory-journals.md)
@@ -11,6 +12,7 @@
 ## [Konsinye](consignment.md)
 ## [Konsinye ayarlama](set-up-consignment.md)
 # Kalite yönetimi
+## [Eldeki stok mobil çalışma alanı](inventory-on-hand-mobile-workspace.md)
 ## [Kalite yönetimini etkinleştirme](enable-quality-management.md)
 ## [Stok durdurma](inventory-blocking.md)
 ## [Uygunsuzluk yönetimi](enable-nonconformance-management.md)
@@ -19,3 +21,4 @@
 # Madde ve toplu iş izleme
 ## [Stok toplu iş birleştirme](merge-inventory-batches.md)
 ## [Madde ve hammadde izleme](trace-items-raw-materials-inventory-production-sales.md)
+

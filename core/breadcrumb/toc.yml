@@ -1,0 +1,23 @@
+- name: "Dynamics 365"
+  tocHref: /dynamics365/
+  topicHref: /dynamics365
+  items:
+  - name: "Operations"
+    tocHref: /dynamics365/operations/
+    topicHref: /dynamics365/operations/index
+    items:
+    - name: "Geliştirici ve Yönetici"
+      tocHref: /dynamics365/operations/dev-itpro/
+      topicHref: /dynamics365/operations/dev-itpro/index
+    - name: "Finansal öğeler"
+      tocHref: /dynamics365/operations/financials/
+      topicHref: /dynamics365/operations/financials/index
+    - name: "İnsan kaynakları"
+      tocHref: /dynamics365/operations/human-resources/
+      topicHref: /dynamics365/operations/human-resources/index
+    - name: "Perakende"
+      tocHref: /dynamics365/operations/retail/
+      topicHref: /dynamics365/operations/retail/index
+    - name: "Tedarik zinciri"
+      tocHref: /dynamics365/operations/supply-chain/
+      topicHref: /dynamics365/operations/supply-chain/index

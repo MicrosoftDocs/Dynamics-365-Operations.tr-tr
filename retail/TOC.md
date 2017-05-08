@@ -68,3 +68,16 @@
 ## [Ticaretle ilgili temel bilgilere genel bakış](commerce-essentials.md)
 ## [Kuruluşlar ve kuruluş hiyerarşileri (Ticaretle ilgili temel bilgiler)](organizational-hierarchies-commerce-essentials.md)
 # [BT Uzmanı ve Geliştirici içeriği](dev-itpro/TOC.md)
+
+# [Finansal öğeler](/dynamics365/operations/financials/index)
+
+# [İnsan kaynakları](/dynamics365/operations/human-resources/index)
+
+# [Tedarik zinciri yönetimi](/dynamics365/operations/supply-chain/index)
+
+# [Geliştirici ve Yönetici](/dynamics365/operations/dev-itpro/index)
+
+# Diğer kaynaklar
+## [Dynamics 365 for Operations sözlüğü](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
+## [Yenilikler veya değişenler](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+

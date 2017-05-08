@@ -42,6 +42,7 @@
 ## [Satış siparişlerindeki fatura kodlarını düzenleme](emea-edit-invoice-id-sales-orders.md)
 ## [AB giriş sertifikaları](emea-entry-certificates.md)
 ## [AB satış listesi raporlaması](emea-eu-sales-list.md)
+## [Döviz kuru ayarlamaları](emea-exchange-rate-adjustments.md)
 ## [Ödeme yöntemlerine ait dosya biçimleri](emea-select-file-formats-for-the-method-of-payments.md)
 ## [Estonya ve Litvanya için sabit kıymetleri elden çıkarma](emea-credit-note-reverse-fixed-asset-sale.md)
 ## [Intrastat](emea-intrastat.md)
@@ -56,18 +57,19 @@
 ## [SEPA Alacak transferine genel bakış](../accounts-payable/sepa-credit-transfer.md)
 ## [SEPA Hesaptan ödemeye genel bakış](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Basılı formlar için imzalayanları ayarlama](emea-set-up-signers-for-printing-forms.md)
-## [Periyodik günlüklerde bölünmüş dönemler](emea-create-post-periodic-journals.md)
-## [Tutarların raporlarda ve belgelerde nasıl görüntüleneceğini güncelleştirme](emea-amount-printing-forms.md)
-## [KDV raporlama](emea-vat-reporting.md)
+## [KDV döviz kurları](emea-vat-exchange-rate.md)
 ## [Kapatma hareketlerini görüntüleme](emea-transactions-settlement-form.md)
 ## Avusturya
+### [Yarı yıl amortismanı](emea-aut-half-year-depreciation.md)
 ### [Ambalaj malzemesi ücretleri](emea-aut-packing-material-fee-calculation.md)
 ### [KDV beyanı](emea-aut-vat-statement-details.md)
 ## Belçika
 ### [CODA banka ekstresi](emea-bel-coda-bank-statement-import.md)
+### [Intervat vergi beyannamesi](emea-bel-intervat-tax-declaration.md)
 ### [PRODCOM raporu ayarı](emea-bel-prodcom-report.md)
 
 ## Çek Cumhuriyeti
+### [Alacak dekontunda nakit iskontosu](emea-cze-credit-note-cash-discount.md)
 ### [Amortisman yuvarlama](emea-cze-depreciation-rounding.md)
 ### [Amortisman bekletme](emea-cze-depreciation-suspension-holidays.md)
 ### [Sabit kıymetler amortismanı](emea-cze-fixed-assets-depreciation.md)
@@ -94,7 +96,9 @@
 ### [Günlük listesi raporu](emea-deu-journal-list-report.md)
 ### [Satışlardan kaynaklanan alacak faturaları için ayrı bir etiket yazdırma](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Macaristan
+### [Sabit kıymet amortisman yöntemleri](emea-hun-fixed-assets-depreciation-methods.md)    
 ### [Düşük maliyetli sabit kıymetler](emea-hun-low-cost-fixed-assets.md)
+### [Sabit kıymeti stoka taşıma](emea-hun-fixed-asset-to-inventory.md)
 ## İtalya
 ### [KDV beyanı ayrıntıları](emea-ita-vat-statements-details.md)
 ### [Kara liste raporu](emea-ita-black-list-report.md)
@@ -103,6 +107,7 @@
 ### [Faturalarda sevk irsaliyesi tarihi doğrulama](emea-ita-packing-slip-date-verification-on-invoice.md)
 ### [Satış vergisi defterleri](emea-ita-fiscal-books.md)
 ### [Kamu İdaresi için düzenlenen faturalarda bölünmüş ödeme](emea-ita-split-payment-invoices-issued-public-administration.md)
+### [Stopaj vergisi](emea-ita-withholding tax.md)
 ## Letonya
 ### [Sabit kıymet muhasebesi](emea-lva-fixed-assets-accounting.md)
 ### [Sabit kıymet konum değişikliğini izleme](emea-lva-fixed-assets-location-fields-change.md)
@@ -119,12 +124,17 @@
 ### [Satış faturası numaralandırmasını çoğaltma](emea-pol-sales-invoice-duplicates-numbering.md)
 ### [Sabit kıymet amortismanı](emea-pol-fixed-assets-depreciation.md)
 ### [Sabit kıymet elden çıkarma işlevi uzantısı](emea-pol-fixed-asset-disposal-functionality-extension.md)
+### [İade edilebilir ambalaj](emea-pol-returnable-packages.md)
+### [Satış vergisi raporları](emea-pol-sales-tax-reports.md)
+### [Standart denetim dosyası (SAF)](emea-pol-standard-audit-file-saf.md)
 ### [Ciro bakiye ekstresi](emea-pol-turnover-balances-statement.md)
 ## İspanya
-### [Kambiyo senedi seçenekleri](emea-esp-bill-of-exchange-options.md)
 ### [Faturadaki nakit iskontolarını uygulama](emea-esp-cash-discount-applied-invoice.md)
+### [Kambiyo senedi seçenekleri](emea-esp-bill-of-exchange-options.md)
+### [Koşullu satış vergisi](emea-esp-conditional-sales-tax.md)
 ### [Mali veriler fatura hesabı](emea-esp-fiscal-data-invoice-account.md)
 ### [Sabit kıymet grubu yeniden değerlemesi](emea-esp-fixed-asset-group-revaluation.md)
+### [Topluluk içi KDV](emea-esp-intra-community-vat.md)
 ### [Tek seferlik müşteriler](emea-esp-no-one-time-customer-for-project-contracts.md)
 ### [Senet seçenekleri](emea-esp-promissory-note-options.md)
 ### [Satış ve satınalma döngüleri](emea-esp-sales-purchase-cycle.md)
@@ -163,3 +173,4 @@
 
 # Kuzey Amerika
 ## [ABD için yıl sonu 1099 raporlaması](noam-usa-year-end-1099-reporting.md)
+

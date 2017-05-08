@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 00f022da597b1de2454e93123de31731c6a65962
-ms.openlocfilehash: 03d08f2cf75a8307bc465464917d86efc69be46f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: 1afa291099362c31a7a2c972cc45b19bfc3897bf
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 03/31/2017
 
 Müşteri faturalarını ve gelen ödemeleri izlemek için Alacak hesaplarını kullanın. 
 
-Müşteri faturaları, satış siparişlerini veya sevk irsaliyeleri göre oluşturabilirsiniz. Satış siparişleriyle ilgili olmayan serbest metin faturaları da girebilirsiniz. Ödemeleri, birkaç farklı ödeme tipleri kullanarak alabilirsiniz. Bunlar, kambiyo senedi, nakit, Çek, kredi kartları ve elektronik ödemeler içerir. Kuruluşunuz birden çok tüzel kişilikler içeriyorsa, diğer tüzel kişilikler adına tek bir tüzel kişilik içinde merkezi ödemeler kayıt ödemeleri için kullanabilirsiniz.
+Müşteri faturalarını satış siparişlerine veya sevk irsaliyelerine göre oluşturabilirsiniz. Satış siparişleriyle ilgili olmayan serbest metin faturaları da girebilirsiniz. Ödemeleri birkaç farklı ödeme türü kullanarak alabilirsiniz. Bunlara örnek olarak kambiyo senedi, nakit, çek, kredi kartı ve elektronik ödemeler gösterilebilir. Kuruluşunuz birden çok tüzel kişilikler içeriyorsa diğer tüzel kişilikler adına tek bir tüzel kişilik içinde ödemeleri kaydetmek için merkezi ödemeler kullanabilirsiniz.
 
 
 

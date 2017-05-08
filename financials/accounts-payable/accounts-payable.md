@@ -1,6 +1,6 @@
 ---
 title: "Borç hesapları giriş sayfası"
-description: "Bu konu borç hesapları konusuna genel bir bakış sağlar."
+description: "Bu konu, Borç hesapları konusuna genel bir bakış sağlar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 00f022da597b1de2454e93123de31731c6a65962
-ms.openlocfilehash: c0febeaf790fd9d2281f0e98089eb557ca1f7cec
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: 8bdfc9b29da86460e8f47760cf8afc051ea923fb
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -30,9 +31,9 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu konu borç hesapları konusuna genel bir bakış sağlar. 
+Bu konu, Borç hesapları konusuna genel bir bakış sağlar. 
 
-Satıcı faturalarını el ile girebilir veya bir veri varlığıyla elektronik olarak alabilirsiniz. Faturalar girildikten veya alındıktan sonra, bir fatura onay günlüğü veya **Satıcı faturası** sayfasını kullanarak faturaları gözden geçirebilir veya onaylayabilirsiniz. Belirli ölçütlere uyan faturaların otomatik olarak onaylanması için fatura eşleştirme, satıcı fatura ilkeleri ve iş akışını kullanarak gözden geçirme işlemini otomatikleştirebilirsiniz ve kalan faturalar yetkili kullanıcı tarafından gözden geçirilmek üzere işaretlenir.
+Satıcı faturalarını el ile girebilir veya bir veri varlığı aracılığıyla elektronik olarak alabilirsiniz. Faturalar girildikten veya alındıktan sonra, bir fatura onay günlüğü veya **Satıcı faturası** sayfasını kullanarak faturaları gözden geçirebilir veya onaylayabilirsiniz. Belirli ölçütlere uyan faturaların otomatik olarak onaylanması için fatura eşleştirme, satıcı fatura ilkeleri ve iş akışını kullanarak gözden geçirme işlemini otomatikleştirebilirsiniz. Kalan faturalar, yetkili kullanıcı tarafından gözden geçirilmek üzere işaretlenir.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Tedarik zinciri yönetimi ana sayfası"
+title: "Tedarik zinciri yönetimi giriş sayfası"
 description: "Bu sayfa sizi Microsoft Dynamics 365 for Operations - Tedarik Zinciri yönetimini daha verimli bir şekilde kullanmanıza yardımcı olacak kaynaklara yönlendirir."
 author: yuyus
 manager: AnnBe
@@ -17,15 +17,16 @@ ms.search.industry:
 ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: aacfc3da818690df6a12e0924efd24371b93f5ce
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 79d60400f3c3eb6a175848e14254126d1e792c57
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="supply-chain-management-home-page"></a>Tedarik zinciri yönetimi ana sayfası
+# <a name="supply-chain-management-home-page"></a>Tedarik zinciri yönetimi giriş sayfası
 
 [!include[banner](includes/banner.md)]
 

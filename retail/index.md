@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: 0d00f33ce8059acd877d1c177e3def0b5f0b73b1
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a8385e7103b74be33fd79c1143e481ad8edca31c
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -34,11 +35,9 @@ Dynamics 365 for Operations – Retail modern, mobil ve global olan sorunsuz ve 
 Bu sayfa sizi Microsoft Dynamics 365 for Operations - Retail'ı daha verimli bir şekilde kullanmanıza yardımcı olacak kaynaklara yönlendirir. En soldaki bölmede, bir özellik alanı seçerek özellik hakkında daha fazla bilgi edinebilirsiniz. 
 
 ## <a name="set-up-retail-channels"></a>Perakende kanalları kurma
-Perakende deneyiminizi ayarlarken, fiziksel mağaza (Dynamics 365 for Operations'da *perakende mağaza* olarak adlandırılır) ve çevrimiçi mağaza işlemlerinizi nasıl tanımlayacağınıza ve yapılandıracağınıza karar verirsiniz. 
+Perakende deneyiminizi ayarlarken, fiziksel mağaza, çevrimiçi mağaza ve çağrı merkezini nasıl tanımlayacağınıza ve yapılandıracağınıza karar verirsiniz. 
 
-Her perakende mağazanın kendi ödeme yöntemleri, fiyat grupları, POS çözümleri, gelir hesapları, gider hesapları ve personeli olabilir. Perakende mağazanızı oluşturduktan sonra, mağazada bulunmasını istediğiniz ürünleri atayın. Ayrıca mağazaya personel, kasa ve müşteri atayabilirsiniz. Son olarak, yeni mağazayı bir kuruluş hiyerarşisine ekleyin.
-
-Çevrimiçi mağazanızı oluşturduğunuzda ürün çeşitleri, öznitelikler, ödeme yöntemleri ve sevkiyat yöntemleri gibi bileşenleri ayarlamanız gerekir. Ayrıca çevrimiçi mağazaya özgü fiyatlar, promosyonlar, iskontolar ve sevkiyat koşulları da tanımlayabilirsiniz.
+Her perakende mağazanın kendi ödeme yöntemleri, teslimat yöntemleri, fiyat grupları, gelir/gider hesapları, kasaları ve personeli olabilir. Perakende mağazanızı oluşturduktan sonra, mağazada bulunmasını istediğiniz ürün çeşitlerini oluşturun. Ayrıca mağazaya özgü fiyatlar ve mağazada bulunan ürünler için geçerli olan iskontolar da tanımlayabilirsiniz.
 
 -   [Perakende kanallarını tanımlama](define-maintain-retail-channels.md)
 -   [Çevrimiçi mağazaya genel bakış](online-stores.md)
@@ -49,10 +48,10 @@ Perakende kanal türü olarak bir çağrı merkezi ayarlayabilirsiniz. Çağrı 
 -   [Çağrı merkezi işlevi](call-center-functionality.md)
 -   [Çağrı merkezi katalogları oluşturma](create-call-center-catalogs.md)
 
-## <a name="define-your-pos-and-mpos-solutions"></a>POS ve MPOS çözümlerinizi tanımlama
-Retail Modern POS (MPOS) bilgisayarlar, tabletler ve telefonlar için geliştirilmiş bir satış noktası uygulamasıdır. Satış personeli, mağaza içinde herhangi bir yerden mobil cihazlarla ve bilgisayar tabanlı kasalarla satış hareketlerini ve müşteri siparişlerini işleyip günlük işlemleri ve stok yönetimi gerçekleştirebilir. Bulut POS, tarayıcı tabanlı bir POS'tur. 
+## <a name="define-your-pos-solutions"></a>POS çözümlerinizi tanımlama
+Retail Modern POS (MPOS) bilgisayarlar, tabletler ve telefonlar için geliştirilmiş bir satış noktası uygulamasıdır. Satış personeli, mağaza içinde herhangi bir yerden mobil cihazlarla ve bilgisayar tabanlı kasalarla satış hareketlerini ve müşteri siparişlerini işleyebilir, müşteri rehberliği etkinlikleri ile günlük işlemleri ve stok yönetimi gerçekleştirebilir. Bulut POS, standart herhangi bir tarayıcıdan başlatılabilen tarayıcı tabanlı bir POS'tur. 
 
-Mağaza içindeki ilişkileri, mağazadaki POS kasalarını veya kanalları, bu kasaların veya kanalların hareketleri işlemek için kullandığı perakende çevre birimlerini tanımlamak için ayarlayacağınız pek çok bileşen bulunmaktadır. Ayrıca kasada kullanılacak donanım profili veya perakende çevre birimlerinin kurulumu, kasanın eşlendiği mağaza ve o kasada oturum açan kullanıcının görsel deneyimi dahil olmak üzere, belirli bir POS kurulumunun özelliklerini de tanımlarsınız.
+Mağaza içindeki ilişkileri, mağazadaki POS kasalarını, bu kasaların hareketleri işlemek için kullandığı perakende çevre birimlerini tanımlamak için ayarlayacağınız pek çok bileşen bulunmaktadır. Ayrıca kasada kullanılacak donanım profili veya perakende çevre birimlerinin kurulumu, kasanın eşlendiği mağaza, o kasada oturum açan kullanıcının görsel deneyimi ve kasada etkinleştirilmiş işlevsellikler dahil olmak üzere, belirli bir POS kurulumunun özelliklerini de tanımlarsınız. Kasanın bağlantısız veya çevrimdışı durumda çalışıp çalışamayacağını da belirlersiniz.
 
 -   [Kanal istemcilerini, kasaları ve donanım istasyonlarını tanımlama ve koruma](define-maintain-channel-clients-registers-hw-stations.md)
 -   [MPOS yapılandırması ve kurulumu](retail-modern-pos-device-activation.md)
@@ -92,4 +91,6 @@ Yayımlanan ve geliştirilmekte olan yeni özellikleri görmek için <a href="ht
 <a href="https://blogs.msdn.microsoft.com/dax/">Microsoft Dynamics AX ürün ekibi blogunda</a>, Perakende hakkında pek çok konu bulunmaktadır. Bu gönderilerin bazıları Dynamics 365 for Operations'ın önceki sürümü için yazılmıştır ancak aynı kavramlar hala geçerlidir ve yordamlar geçerli sürümdekine benzerdir.
 
 <a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">Microsoft Dynamics Operations İş Ortağı Topluluğu Blogu</a>, Microsoft Dynamics İş Ortakları'na MBS Operations'daki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunar.
+
+
 

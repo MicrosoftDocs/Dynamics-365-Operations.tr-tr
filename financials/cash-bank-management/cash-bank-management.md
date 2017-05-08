@@ -1,5 +1,5 @@
 ---
-title: "Nakit ve banka yönetimi ana sayfası"
+title: "Nakit ve banka yönetimi giriş sayfası"
 description: "Nakit ve banka yönetimini, tüzel kişiliğin banka hesaplarını ve bu hesaplarla ilişkilendirilmiş mali araçlarını korumak için kullanabilirsiniz."
 author: twheeloc
 manager: AnnBe
@@ -17,15 +17,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: efe4493396ac73ed07c00e96bb791735046e8e4d
-ms.openlocfilehash: 60a1c9d6b32c71bf921def1d4066841d9074d0cf
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d4d0be4dda7fd7f1821c2ff37b766c167f4af742
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="cash-and-bank-management-home-page"></a>Nakit ve banka yönetimi ana sayfası
+# <a name="cash-and-bank-management-home-page"></a>Nakit ve banka yönetimi giriş sayfası
 
 [!include[banner](../includes/banner.md)]
 

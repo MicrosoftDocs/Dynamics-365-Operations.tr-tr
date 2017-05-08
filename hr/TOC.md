@@ -1,4 +1,4 @@
-# [İnsan kaynakları ana sayfası](index.md)
+# [İnsan kaynakları giriş sayfası](index.md)
 # İnsan kaynakları stratejisi geliştirme
 ## [Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme](departments-jobs-positions.md)
 ## [İş bileşenlerini ayarlama](create-job.md)
@@ -59,4 +59,16 @@
 ### Bakım ve raporlama
 #### [Bordro verilerini güncelleştirme hakkında SSS](localizations/noam-usa-payroll-data-updates.md)
 #### [Bordro raporları oluşturma](localizations/noam-usa-generate-payroll-reports.md)
+
+# [Finansal öğeler](/dynamics365/operations/financials/index)
+
+# [Perakende](/dynamics365/operations/retail/index)
+
+# [Tedarik zinciri yönetimi](/dynamics365/operations/supply-chain/index)
+
+# [Geliştirici ve Yönetici](/dynamics365/operations/dev-itpro/index)
+
+# Diğer kaynaklar
+## [Dynamics 365 for Operations sözlüğü](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/human-resources/toc.json)
+## [Yenilikler veya değişenler](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/human-resources/toc.json)
 
