@@ -1,0 +1,48 @@
+# Power BI içerik paketi
+## [Maliyet yönetimi içerik paketi](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+# Önceden belirlenmiş maliyet
+## [Maliyetlendirme tablosu](costing-sheets.md)
+## [Maliyetlendirme sürümü](costing-versions.md)
+## [Planlanan maliyetler için bir maliyetlendirme sürümü kullanarak maliyet değişiminin benzetimini yapma](simulate-cost-changes-costing-version-planned-costs.md)
+# Stok maliyetlendirme
+## [Eldeki stokun maliyet değerini ayarlama](adjust-hand-inventory-cost-values.md)
+## [Maliyet nesnesi](cost-object.md)
+## [Maliyet girişi](cost-entries.md)
+## [Maliyet grubu](cost-groups.md)
+## [Fiziksel değer ve işaretleme ile FIFO](fifo-physical-value-marking.md)
+## [Fiziksel değeri dahil etme](include-physical-value.md)
+## [Stok nesnesi değeri](physical-quantity.md)
+## [Stok kapanışı](inventory-close.md)
+## [Fiziksel değer ve işaretleme ile LIFO Tarihi](lifo-date-physical-value-marking.md)
+## [Fiziksel değer ve işaretleme ile LIFO](lifo-physical-value-marking.md)
+## [Hareketli ortalama](moving-average.md)
+## [Fiziksel ve mali güncelleştirme](physical-financial-updates.md)
+## [Yürütülen ortalama maliyet fiyatı](running-average-cost-price.md)
+## [Stok boyutu başına cari ortalama maliyeti izleme](track-running-average-cost-per-inventory-dimension.md)
+## [Ağırlıklı ortalama tarihi](weighted-average-date.md)
+## [Fiziksel değer ve işaretleme ile ağırlıklı ortalama](weighted-average-physical-value-marking.md)
+# Üretim maliyetlendirme
+## [Üretilen maddeler için sabit maliyetlerin itfası](amortize-constant-costs-manufactured-item.md)
+## [Geriye dönük maliyetlendirme](backflush-costing.md)
+## [Ürün reçetesi hesaplamaları](bom-calculations.md)
+## [Ürün reçetesi hesaplama grubu](bom-calculation-groups.md)
+## [Üretim farkı ortak kaynakları](common-sources-of-production-variances.md)
+## [Üretim rotasında kullanılan maliyet kategorisi](cost-categories-used-production-routings.md)
+## [Üretim denetiminde ve Proje yönetimi muhasebesinde kullanılan maliyet kategorisi](cost-categories-used-production-control-project-management-accounting.md)
+## [Üretilen bir maddenin giderlerini görüntüleme](charges-manufactured-item.md)
+## [Üretim emri maliyet analizi](production-order-cost-analysis.md)
+## [Üretim emri maliyet tahmini](production-order-cost-estimation.md)
+## [Üretim deftere nakli](production-posting.md)
+## [Üretilen veya temin edilebilen bir ürün ayarlama](manufactured-items-treated-as-purchased-items.md)
+## [Toplam maliyet tahsisat yöntemi](methodology-total-cost-allocation.md)
+# Standart maliyet
+## [Standart maliyete sahip ürün reçetesi hesaplamaları](information-used-bom-calculations-standard-costs.md)
+## [Standart maliyet güncelleştirmesini yönetme](manage-standard-cost-updates.md)
+## [Standart maliyet dönüştürme için önkoşul](prerequisites-standard-cost-conversion.md)
+## [Standart maliyet dönüştürmeye genel bakış](standard-cost-conversion-overview.md)
+## [İmalat ortamında standart maliyeti güncelleştirme](update-standard-costs-manufacturing-environment.md)
+## [Yeni üretilmiş bir madde için standart maliyeti güncelleştirme](update-standard-costs-new-manufactured-item.md)
+## [İmalat dışı bir ortamda standart maliyeti güncelleştirme](update-standard-costs-non-manufacturing-environment.md)
+
+
+
