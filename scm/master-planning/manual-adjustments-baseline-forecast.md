@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 24caafcd01875f04cf3ae5299aadcf9b38ac0e15
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 38725d4d873a3b39eb3916c3f616826f8a266b60
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ Manüel ayarlamalar yapmadan önce, çeşitli sayfalarda bulunan birkaç kavram�
 ## <a name="forecast-aggregation-and-deaggregation"></a>Tahmin toplama ve toplamayı kaldırma
 Sayfanın alt başlığı tahmin toplama düzeyini gösterir. 
 
-Örneğin, sayfanın alt başlığı **Şirket / Tesis / Tahsisat anahtarı / Madde numarası / Renk / Boyut / Yapılandırma / Stil** ise, hiç tahmin toplama yoktur ve tahmin madde ve boyutları düzeyinde gösterilir. Toplamı değiştirmek için, uygulama menüsünden açabileceğiniz** Tahmin boyutlarını değiştir** sayfasını kullanabilirsiniz. 
+Örneğin, sayfanın alt başlığı **Şirket / Tesis / Tahsisat anahtarı / Madde numarası / Renk / Boyut / Yapılandırma / Stil** ise, hiç tahmin toplama yoktur ve tahmin madde ve boyutları düzeyinde gösterilir. Toplamı değiştirmek için, uygulama menüsünden açabileceğiniz**Tahmin boyutlarını değiştir** sayfasını kullanabilirsiniz. 
 
 Tahmini değiştirmek için, kullanılabilen hücrelerden birine tıklayın ve ayarlanmış tahmin değeri yazın. Düzenlenen hücre, gösterilen tahminin talep tahmini hizmetinin oluşturduğu tahmin olmadığını, ancak manüel olarak ayarlandığını gösterecek şekilde kalınlaşır. 
 
@@ -58,7 +59,7 @@ Tahmin edilen miktar ayarlaması toplanmış bir düzeyde yapıldığında, sist
 Ayrıca manüel ayarlamaları **Talep tahmin satırları** sayfasında, toplamı kaldırma kılavuzundaki **Toplam miktar** değerini veya **Miktar** hücrelerini değiştirerek de yapabilirsiniz.
 
 ## <a name="viewing-details-of-the-forecast"></a>Tahminin ayrıntılarını görüntüleme
-Tahmin hakkında daha fazla bilgi görüntülemek için** Talep tahmini ayrıntıları** sayfasını açabilirsiniz. 
+Tahmin hakkında daha fazla bilgi görüntülemek için**Talep tahmini ayrıntıları** sayfasını açabilirsiniz. 
 
 **Talep tahmini ayrıntıları** sayfası aşağıdaki bilgileri grafik ve tablo biçimlerinde gösterir:
 

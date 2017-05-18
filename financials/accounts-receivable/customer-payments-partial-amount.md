@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3b16ef53f9fb57a6663db0be1f7e0a57471db2fb
-ms.openlocfilehash: 7025072cd29aac4ceb13b5594c3e321350777cf1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 11fa0f0afa7ab400c87d6e7558292385ae80c8b2
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -54,7 +55,7 @@ Müşteriler bir faturadaki ürünlerden bazılarını iade ederse bir credit no
 Örneğin, faturanın hazırlandıktan sonra 10 gün içinde ödenmesi durumunda yüzde 2'lik bir nakit iskontosu veren bir ödeme süresi önerdiniz. 100.00 tutarında bir fatura nakledildi ve müşteri, nakit iskontosunu aldı. Müşteri malları iade ederse ve bir credit note hazırlarsanız 100.00 için credit note girebilirsiniz. Credit note'u **Açık hareketleri kapat** sayfasında görüntülediğinizde **Kapatılacak tutar** alanında **98.00** tutarı ve **Nakit iskontosu tutarı** alanında **-2.00** tutarı görüntülenir. İskonto tutarı, bir nakit iskontosu hesabına nakledilir.
 
 ## <a name="overpaymentunderpayment-amounts"></a>Fazla ödeme/eksik ödeme tutarları
-Müşteriler bir ödeme yaptığında, hala kapatılması gereken çok küçük bir miktar kalabilir. Örneğin, müşteriye 1.000,00 fatura kestiniz ve müşteri 999.90 ödedi. Kalan tutar,** Alacak hesapları parametreleri** sayfasında belirtilen fazla ödeme veya eksik ödeme tutarının altında kalıyorsa fark otomatik olarak bir fazla ödeme/eksik ödeme defter hesabına nakledilir.
+Müşteriler bir ödeme yaptığında, hala kapatılması gereken çok küçük bir miktar kalabilir. Örneğin, müşteriye 1.000,00 fatura kestiniz ve müşteri 999.90 ödedi. Kalan tutar,**Alacak hesapları parametreleri** sayfasında belirtilen fazla ödeme veya eksik ödeme tutarının altında kalıyorsa fark otomatik olarak bir fazla ödeme/eksik ödeme defter hesabına nakledilir.
 
 ## <a name="full-settlement"></a>Tam kapatma
 **Hesap borç parametreleri** sayfasında kalan tutar ödenmeyecek ama eksik ödeme tutarından büyük olduğunda, müşteriler kısmi ödeme yapabiliriler. Faturayı tamamen kapatılmış olarak işaretlemek istiyorsanız, **Hareketi kapat** sayfası üzerinde **Tam kapatma** seçeneğini kullanabilirsiniz. (Tam kapatma işlevini bir konfigürasyon anahtarı kullanarak etkinleştirebilirsiniz.) Örneğin, 1,000.00 tutarı için bir fatura nakledildi ve müşteri 990.00 tutarında bir ödeme yaptı. Müşterinin kalan 10,00'u ödemek zorunda olmadığını kabul ettiniz.. Faturayı kapatmak üzere işaretledikten sonra, **Tam kapatma**'yı da seçebilirsiniz. Fatura bu durumda tam olarak kapatılmış olarak değerlendirilir. 10.00 tutarındaki fark ise bir nakit iskontosu hesabına bir ilave nakit iskontosu tutarı olarak nakledilir.

@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: af1f4ba1ed5efe0e35d08d37d09e7ada4a4c1b7a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: cff74e825b4d61f538ce02f79860413281617354
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -61,7 +62,7 @@ Dynamics 365 for Operations'da, ürün önerileri satış noktası cihazında (P
 
 1.  Doğru **Tüzel kişilik** seçimi yaptığınızdan emin olun.
 2.  **Varlık deposu**'na gidin **Perakende satış**'ı seçin ve **Yenile**'ye tıklayın. ** ** Bu, işlem veritabanınızdaki demo verileri (veya verilerinizi) kullanacak ve bunları Varlık deposuna taşıyacaktır.
-3.  İsteğe bağlı: Hareket ekranında önerileri görüntülemek için **Ekran düzeni'ne gidin ** ekran düzeninizi seçin, **Ekran düzeni tasarımcısı**'nı başlatın** **ve sonra **öneriler denetimini** gereken yere bırakın.
+3.  İsteğe bağlı: Hareket ekranında önerileri görüntülemek için **Ekran düzeni'ne gidin **ekran düzeninizi seçin, **Ekran düzeni tasarımcısı**'nı başlatın** **ve sonra **öneriler denetimini** gereken yere bırakın.
 4.  **Perakende parametreleri**'ne gidin, **Makine öğrenimi**'ni seçin, **POS önerilerini etkinleştir** altından ** Evet ** seçeneğini seçin.
 5.  Önerileri POS'ta görmek için genel yapılandırma işini **1110** çalıştırın. Yapılan değişiklikleri POS ekran düzeni tasarımcısına yansıtmak için, kanal yapılandırma işini **1070** çalıştırın.
 

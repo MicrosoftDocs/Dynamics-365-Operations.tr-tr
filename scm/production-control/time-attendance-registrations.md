@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f82033798dbe603c0f2e2c92f91d28985c12b3b4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 144a1adbff74aef468dd4b2c9f69bf479a5ec671
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ Saat ve işe devam ayarını kullanan şirketlerde, çalışanların işe devam 
 -   Örneğin günlük, haftalık veya iki haftada bir olacak şekilde düzenli aralıklarla saat ve işe devam kaydı yaptırması gereken çalışanlar.
 -   Başka işlemler için çalışan kayıtlarını hesaplayan, onaylayan ve transferini gerçekleştiren denetçiler, yöneticileri ve bordro görevlileri.
 
-| **Not **                                                                                                                                                                                                                                                    |
+| **Not**                                                                                                                                                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Saat ve işe devam ayarı ile birlikte İmalat yürütme'yi çalıştırıyorsanız projedeki tüm kayıtlar, proje faaliyetleri, dolaylı faaliyetler, devamsızlık kodları ve fazla mesai ile esnek çalışma saatleri kaydedilir ve bu kayıtlar her iki modülde de bordro hesaplanırken kullanılır. |
 
@@ -53,7 +54,7 @@ Ayarlamanın ardından çalışanlar farklı türde kayıtlar girebilir.
 -   İmalat işlerinde zaman ve malzeme tüketimi.
 -   Makine bir kaynak olarak tanımlanmışsa atölyede makine başında geçirilen süre.
 
-| **Not **                                                                                                                                                                                                                      |
+| **Not**                                                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Çalışan üretim işine başladığında bir asistan olarak çalışmayı seçerse, atölyede belirli bir makinede yapılan zaman kayıtlarına otomatik olarak atanabilir. |
 
@@ -82,7 +83,7 @@ Bir hesaplama grubunu bir defa bir zaman kayıt çalışanına atadığınız i�
 -   El ile prim ekleme.
 -   Devamsızlık kaydıyla ilgili ek bilgiler girme.
 
-| **Not **                                                                                                                                                                             |
+| **Not**                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Belirli çalışanlar için fazla mesai hesaplanmışsa, fazla mesai gün içindeki belirli işlere dağıtılabilir. Bu işlem, iş maliyeti çalışan ödemesine göre hesaplanıyorsa faydalıdır. |
 
@@ -102,7 +103,7 @@ Kayıtların onaylanmasının ardından bunları periyodik bir bordro işine tra
 ## <a name="reversing-transferred-registrations"></a>Transfer edilen bir kaydı ters kaydetme
 Hareketleri ters kaydetme görevi (onları geri alma işlemi) bordro döneminin ödeme transferinin çalıştırılma zamanına kadar yapılabilir. Bu, bordro verilerinin harici bir dosyaya transfer edilmesi demektir. Ters kaydedildiğinde, tüm kayıtlar geri çekilir ve üretim emirleri veya projeler için deftere nakledilen hareketler dengelenir.
 
-| **Not **                                                 |
+| **Not**                                                 |
 |----------------------------------------------------------|
 | Harici dosya bir bordro sistemine aktarılabilir. |
 

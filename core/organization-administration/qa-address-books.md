@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 444ffcc8a14650085e24d0ea0d7f725e9d324d69
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f3d34f9ee0c9db97e79b8577d006b198f9a5cb29
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -41,8 +42,8 @@ Yinelenen kayıtları doğrudan **genel adres defteri** listesi sayfasından den
 ## <a name="can-i-bulk-add-or-delete-party-records-from-an-address-book"></a>Bir adres defterine taraf kayıtlarını toplu ekleyebilir veya silebilir miyim?
 Evet, bir adres defterine çok sayıda taraf kaydını ekleyebilir ve ayrıca çok sayıda taraf kaydını silebilirsiniz.
 
--   Birden fazla taraf kaydını bir adres defterine eklemek için **Genel adres defteri **liste sayfasında, tarafları listeden seçin. Sonra eylem bölmesinde, **Taraf **sekmesinde, **Sürdür **grubunda, **Taraf ata**'ya tıklayın. Taraf kayıtlarının ekleneceği adres defterini seçin ve sonra **Tamam**'a tıklayın. Seçilen tüm taraf kayıtları, seçmiş olduğunuz adres defterlerine eklenecektir.
--   Birden fazla taraf kaydını bir adres defterinden silmek için **Genel adres defteri **liste sayfasında, tarafları listeden seçin. Sonra eylem bölmesinde, **Taraf **sekmesinde, **Sürdür **grubunda, **Taraf sil**'e tıklayın. Tarafların kaldırılacağı adres defterlerini seçin ve sonra **Tamam**'a tıklayın. Seçilen tüm taraf kayıtları, seçmiş olduğunuz adres defterlerinden silinecektir.
+-   Birden fazla taraf kaydını bir adres defterine eklemek için **Genel adres defteri**liste sayfasında, tarafları listeden seçin. Sonra eylem bölmesinde, **Taraf**sekmesinde, **Sürdür**grubunda, **Taraf ata**'ya tıklayın. Taraf kayıtlarının ekleneceği adres defterini seçin ve sonra **Tamam**'a tıklayın. Seçilen tüm taraf kayıtları, seçmiş olduğunuz adres defterlerine eklenecektir.
+-   Birden fazla taraf kaydını bir adres defterinden silmek için **Genel adres defteri**liste sayfasında, tarafları listeden seçin. Sonra eylem bölmesinde, **Taraf**sekmesinde, **Sürdür**grubunda, **Taraf sil**'e tıklayın. Tarafların kaldırılacağı adres defterlerini seçin ve sonra **Tamam**'a tıklayın. Seçilen tüm taraf kayıtları, seçmiş olduğunuz adres defterlerinden silinecektir.
 
 ## <a name="can-i-change-the-party-type-of-a-record-or-do-i-have-to-delete-the-old-record-and-create-a-new-one"></a>Bir kaydın taraf türünü değiştirebilir miyim yoksa kaydı silip yeni bir tane oluşturmam mı gerekir?
 Bazen bir kaydın taraf türünü kişiden kuruluşa ya da kuruluştan kişiye değiştirmeniz gerekebilmektedir. Örneğin Nancy Fabrikam İngiltere için satış ekibinin bir üyesidir. Londra'daki ticaret fuarında altı yeni ada müşteri ile tanışır. Nancy her aday için bir aday taraf kaydı oluşturur. Nancy kayıtları kaydettiğinde, her kayıt genel adres defterinde de oluşturulur. Fabrikam, varsayılan taraf türünü kuruluş olarak ayarlamıştır fakat yeni adayların ikisinin kayıt türü kişi olmalıdır. Bu nedenle, Nancy fuardan geri döndüğünde, iki adayın taraf türünün kayıtlarını değiştirmesi gerekir. Bir taraf kaydını bir taraf türünden diğerine değiştirmek için önce genel adres defteri içinde doğru türde yeni bir taraf kaydı oluşturmalısınız. Eski taraf kaydını daha sonra bu yeni kayıtla ilişkilendirin. Yeni taraf ilişkilendirmesini yaptıktan sonra, yanlış kayıt türüne sahip olan özgün taraf kaydını silin.

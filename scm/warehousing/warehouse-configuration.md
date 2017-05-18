@@ -3,7 +3,7 @@ title: "Ambar konfigürasyonu"
 description: "Bu makalede, bir ambarın nasıl yapılandırılacağı açıklanmaktadır. Konu, ambar düzeninin ve ambar süreçlerinin nasıl etkinleştirileceği hakkında bilgiler içermektedir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-10-30 12 - 52 - 43
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,19 +17,23 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 437f2348603db432df6d7589e4043d8145c52a1e
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e312f953d6a29d26b98794ed213d6ec70f6aa4b7
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="warehouse-configuration"></a>Ambar konfigürasyonu
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makalede, bir ambarın nasıl yapılandırılacağı açıklanmaktadır. Konu, ambar düzeninin ve ambar süreçlerinin nasıl etkinleştirileceği hakkında bilgiler içermektedir.
 
-**Not:** Bu makale ** Ambar yönetimi** Modülü (Gelişmiş Depolama) içindeki özellikler için geçerlidir. **Stok yönetimi** modülündeki ambar özellikleri için geçerli değildir.
+**Not:** Bu makale **Ambar yönetimi** Modülü (Gelişmiş Depolama) içindeki özellikler için geçerlidir. **Stok yönetimi** modülündeki ambar özellikleri için geçerli değildir.
 
 ## <a name="warehouse-layout"></a>Ambar düzeni
 Microsoft Dynamics 365 for Operations'daki Ambar yönetim sistemi, değişen gereksinimleri karşılayacak şekilde ambar düzeninizi tanımlamak için esnek yollar sağlar, bu sayede en iyi ambar verimliliğini elde edebilirsiniz.
@@ -40,7 +44,7 @@ Microsoft Dynamics 365 for Operations'daki Ambar yönetim sistemi, değişen ger
 -   Fiziksel kapasite kısıtlama ayarlarını kullanarak konumları gruplandırabilirsiniz.
 -   Maddelerin nasıl depolandığını ve çekildiğini, sorgu tarafından tanımlanan kurallara dayalı olarak denetleyebilirsiniz.
 
-Ambar Yönetimi'ni Microsoft Dynamics 365 for Operations uygulamasında kullanmak için, bir ambar oluşturmalı ve daha gelişmiş veya özelleştirilmiş ambar yönetimi faaliyetleri için bunu etkinleştirmelisiniz. **Ambarlar** sayfasında, **Ambar yönetimi işlemlerini kullanın **seçeneğini seçin.
+Ambar Yönetimi'ni Microsoft Dynamics 365 for Operations uygulamasında kullanmak için, bir ambar oluşturmalı ve daha gelişmiş veya özelleştirilmiş ambar yönetimi faaliyetleri için bunu etkinleştirmelisiniz. **Ambarlar** sayfasında, **Ambar yönetimi işlemlerini kullanın**seçeneğini seçin.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Bölge grupları, bölgeler, konum türleri ve konumlar
 
@@ -66,7 +70,7 @@ En iyi giden işlemleri elde etmek için, sabit malzeme çekme konumları ve/vey
 
 ### <a name="location-setup-wizard"></a>Konum kurulum sihirbazı
 
-Konumları ambar içinde hızlı bir şekilde oluşturmak için **Konum kurulumu** sihirbazını kullanabilirsiniz. Bu işlemin bir parçası olarak konum adlarının biçimini kolayca koruyabilirsiniz.
+Konumları ambar içinde hızlı bir şekilde oluşturmak için **Konum kurulumu**sihirbazını kullanabilirsiniz. Bu işlemin bir parçası olarak konum adlarının biçimini kolayca koruyabilirsiniz.
 
 ## <a name="warehouse-processes"></a>Ambar işlemleri
 Ambar yapılandırmasının bir parçası olarak, ambar işlemlerini iş gereksinimlerine göre etkinleştirmek önemlidir. Yapılandırmanız gereken en önemli bileşenler dalga şablonları, iş şablonları, iş havuzları ve konum yönergeleridir.
@@ -75,7 +79,12 @@ Ambar yapılandırmasının bir parçası olarak, ambar işlemlerini iş gereksi
 
 Dalga şablonları, giden "Ambara serbest bırak" işlemini etkinleştirmeye yardımcı olur. Sipariş satırları serbest bırakıldıktan (toplu işlem aracılığıyla veya önceden oluşturulmuş yükler ile doğrudan kaynak belgelerden) hemen sonra, dalga şablon işlevi kullanılır. 
 
-Üç tür dalga şablonu oluşturabilirsiniz: **Sevkiyat**, **Üretim emri** ve **Kanban**. Parametreler, sistemin otomatik olarak giden iş işlenmesinde ne kadar ileri gideceğini tanımlamak için kullanılır. Bir dalga şablonu, dalga şablonu serisi ve şablonda belirtilmiş olan ölçütler temel alınarak seçilir. Eğer bir şablon sıranın başında listeleniyorsa, o şablondaki ölçütler önce denetlenir. Eğer ölçütler karşılanıyorsa, dalga şablonu işlenir. Aksi takdirde, bir sonraki şablonun ölçütleri denetlenir ve bu şekilde devam eder. Bu nedenle, ilk önce işlenmesi için dalga şablonu sıralama listesinin en başına, en fazla belirli ölçüte sahip şablonu koymak için bir fikirdir. Örneğin, belirli bir taşıyıcı için tüm işi bugün işlemek ve diğer taşıyıcılar için işleme işini geçici olarak geciktirmek istiyorsunuz. Bu durumda, söz konusu taşıyıcı için dalga şablonu, sıradaki diğer şablonlardan daha üstte listelenmelidir. Aksi takdirde, bu taşıyıcı için iş tamamlanmadan önce diğer taşıyıcılar için işler, işlemeye girebilir. 
+Üç farklı türde dalga şablonu oluşturabilirsiniz: 
+-   **Sevkiyat**
+-   **Üretim emri**
+-   **Kanban** 
+
+Parametreler, sistemin otomatik olarak giden iş işlenmesinde ne kadar ileri gideceğini tanımlamak için kullanılır. Bir dalga şablonu, dalga şablonu serisi ve şablonda belirtilmiş olan ölçütler temel alınarak seçilir. Eğer bir şablon sıranın başında listeleniyorsa, o şablondaki ölçütler önce denetlenir. Eğer ölçütler karşılanıyorsa, dalga şablonu işlenir. Aksi takdirde, bir sonraki şablonun ölçütleri denetlenir ve bu şekilde devam eder. Bu nedenle, ilk önce işlenmesi için dalga şablonu sıralama listesinin en başına, en fazla belirli ölçüte sahip şablonu koymak için bir fikirdir. Örneğin, belirli bir taşıyıcı için tüm işi bugün işlemek ve diğer taşıyıcılar için işleme işini geçici olarak geciktirmek istiyorsunuz. Bu durumda, söz konusu taşıyıcı için dalga şablonu, sıradaki diğer şablonlardan daha üstte listelenmelidir. Aksi takdirde, bu taşıyıcı için iş tamamlanmadan önce diğer taşıyıcılar için işler, işlemeye girebilir. 
 
 Her dalga şablonundaki dalga işleme yöntemlerini belirtmeniz gerekir. Mevcut olan yöntemler, dalga şablonu türüne göre farklılık gösterir.
 
@@ -107,6 +116,8 @@ Her bir konum yönergesi satırı ile ilişkili eylemleri tanımlamak daha hızl
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[WMS etkin bir ambarda konumları yapılandırma (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
+[WMS etkin bir ambarda konumları yapılandırma (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehouse/)
+
+
 
 

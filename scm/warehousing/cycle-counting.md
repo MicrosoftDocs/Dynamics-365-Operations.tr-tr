@@ -3,7 +3,7 @@ title: "Döngü sayımı"
 description: "Bu makalede, sayım döngüsünü Ambar yönetiminde bulunan ambar çözümü ile birlikte nasıl kullanabileceğiniz açıklanmaktadır. Bu makale, Stok yönetiminde bulunan ambar çözümü için geçerli değildir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-18 11 - 46 - 20
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: ffc1523d53732616d77511f39b72efc8f97744eb
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 387d114936567fc471cdcafcb2e93c1704db7ead
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cycle-counting"></a>Döngü sayımı
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, sayım döngüsünü Ambar yönetiminde bulunan ambar çözümü ile birlikte nasıl kullanabileceğiniz açıklanmaktadır. Bu makale, Stok yönetiminde bulunan ambar çözümü için geçerli değildir.
 
@@ -39,7 +43,6 @@ Aşağıdaki çizimde döngü sayım işlemi gösterilmiştir. ![Döngü sayım�
 
 ## <a name="cycle-counting-prerequisites"></a>Döngü sayım öngereklilikleri
 Aşağıdaki tabloda, döngü sayımını kullanmadan önce yerine getirilmesi gereken öngereklilikler gösterilmiştir.
-
 <table>
 <colgroup>
 <col width="50%" />
@@ -82,7 +85,7 @@ Aşağıdaki tabloda, döngü sayımını kullanmadan önce yerine getirilmesi g
 <li>Döngü sayımı gruplandırma</li>
 <li>Nokta döngü sayımı</li>
 </ul>
-Daha fazla bilgi için bkz. <a href="configure-mobile-devices-warehouse">Mobil cihazları ambar işi için yapılandırma</a>.</li>
+</li>
 <li>Mobil aygıt için bir menü oluşturun.</li>
 <li>Bir iş kullanıcı hesabı oluşturun ve iş kullanıcı kimliğine bir mobil cihaz menüsü atayın.</li>
 </ul></td>
@@ -133,6 +136,9 @@ Aşağıdaki senaryolarda, bir iş kullanıcısı kimliği için **Bir döngü s
 -   Sayılan döngü değeri, eldeki stok miktarından farklı olur ve ayarlanmış sapma sınırları yoktur.
 
 Sayılan değerdeki farkları düzeltebilir ve ardından sayılan değeri **Gözden geçirilmeyi bekleyen döngü sayımı** sayfasında kabul edebilirsiniz. Madde miktarının değiştirilen sayısını **Konuma göre eldeki** sayfasında doğrulayabilirsiniz. Fark onaylanamıyorsa, sayılan değer reddedilir.
+
+# <a name="see-also"></a>Ayrıca bkz.
+[Ambar işi için mobil cihazları yapılandırma](configure-mobile-devices-warehouse.md)
 
 
 

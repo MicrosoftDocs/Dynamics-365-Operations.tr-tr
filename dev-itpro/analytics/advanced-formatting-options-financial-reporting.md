@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 631fec1dc135565e6d38e7faf193a7a898b508cb
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 9e9e6a9900f7a20da71596c6effaf37f3f8b5354
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -231,13 +232,13 @@ Bir sayı veya bir sütun belirli bir satırın hesaplamada değiştirir, ancak 
 
 #### <a name="if-statements"></a>IF deyimleri
 
-**IF** deyimini takip eden deyim doğru veya yanlış olarak değerlendirilebilecek herhangi bir ifade olabilir. **IF** deyimini takip eden deyim basit bir değerlendirme içerebilir veya birden çok ifade içeren karmaşık bir ifade olabilir. Burada bazı örnekler verilmiştir:
+**EĞER** deyimini takip eden deyim doğru veya yanlış olarak değerlendirilebilecek herhangi bir ifade olabilir. **EĞER** deyimini takip eden deyim basit bir değerlendirme içerebilir veya birden çok ifade içeren karmaşık bir ifade olabilir. Burada bazı örnekler verilmiştir:
 
 -   **IF A.200&gt;0** (Basit değerlendirme)
 -   **IF A.200&gt;0 AND A.200&lt;10,000** (Karmaşık ifade)
 -   **IF A.200&gt;10000 OR ((A.340/B.1200)\*2 &lt;1200)** (birden çok ifade içeren karmaşık ifade)
 
-**IF** ifadesi içindeki **nokta** terimi rapor için dönem sayısını temsil eder. Bu terim genellikle bir yıldan bugüne ortalamasını hesaplamak için kullanılır. Örneğin, 7 YTD dönemi için rapor çalıştırdığınızda, ifade **B.150/Periods** B sütununun satır 150 değerinde 7 tarafından ayrılmıştır anlamına gelir.
+**EĞER** ifadesi içindeki **nokta** terimi rapor için dönem sayısını temsil eder. Bu terim genellikle bir yıldan bugüne ortalamasını hesaplamak için kullanılır. Örneğin, 7 YTD dönemi için rapor çalıştırdığınızda, ifade **B.150/Periods** B sütununun satır 150 değerinde 7 tarafından ayrılmıştır anlamına gelir.
 
 #### <a name="then-and-else-formulas"></a>THEN ve ELSE formülleri
 
@@ -249,7 +250,7 @@ Bir sayı veya bir sütun belirli bir satırın hesaplamada değiştirir, ancak 
 
 ### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Bir hesaplamayı bir satır tanımı raporlama biriminde sınırlandırma
 
-Böylece sonuç miktarı daha yüksek düzey bir birime yuvarlanmayacak şekilde bir hesaplamayı raporlama ağacında tek bir raporlama birimine sınırlamak için, satır tanımındaki **İlgili Formüller/Satırlar/Birimler** hücresinde **@Unit** kodunu kullanabilirsiniz. **@Unit** kodu **Birim Adı** raporlama ağacı B sütununda listelenir. **@Unit** kodu kullandığınızda değerler toplanmaz, ancak hesaplama raporlama ağacının her düzeyine değerlendirilir. **Not:** bu işlevi kullanmak için raporlama ağacı satır tanımı ile ilişkili olmalıdır. Hesaplama satırı bir hesaplama satırı veya bir mali veri satırına başvurabilir. Hesaplama satır tanımının ve finansal veri türündeki kısıtlamanın **ilgili formüller/satır/birim** hücresine kaydedilir. Hesaplama **IF @Unit** yapımı ile başlayan bir koşullu hesaplama kullanmalıdır. İşte bir örnek: IF @Unit(SALES) THEN @100 ELSE 0 Bu hesaplama yalnızca satış birimi için raporun her sütununda 100 satır tutarı içerir. Birden çok birim adı satış ise, bu birimlerin her birinde tutar görüntülenir. Ayrıca, satır 100 finansal verileri olabilir ve yazdırılmayan tanımlanabilir. Bu durumda, tutarın ağaçtaki tüm birimlerde görünmesi engellenir. Tutar raporun tek bir sütunu için, örneğin sütun H, yalnızca söz konusu rapor sütununun değerini yazdırmak için bir sütun kısıtlama kullanarak da sınırlandırabilirsiniz. Bir **IF** ifadesine **OR** birleşimleri dahil edebilirsiniz. İşte bir örnek: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Aşağıdaki yollardan biriyle hesaplama türü kısıtlamasında bir birimi belirtebilirsiniz:
+Böylece sonuç miktarı daha yüksek düzey bir birime yuvarlanmayacak şekilde bir hesaplamayı raporlama ağacında tek bir raporlama birimine sınırlamak için, satır tanımındaki **İlgili Formüller/Satırlar/Birimler** hücresinde **@Unit** kodunu kullanabilirsiniz. **@Unit** kodu **Birim Adı** raporlama ağacı B sütununda listelenir. **@Unit** kodu kullandığınızda değerler toplanmaz, ancak hesaplama raporlama ağacının her düzeyine değerlendirilir. **Not:** bu işlevi kullanmak için raporlama ağacı satır tanımı ile ilişkili olmalıdır. Hesaplama satırı bir hesaplama satırı veya bir mali veri satırına başvurabilir. Hesaplama satır tanımının ve finansal veri türündeki kısıtlamanın **ilgili formüller/satır/birim** hücresine kaydedilir. Hesaplama **IF @Unit** yapımı ile başlayan bir koşullu hesaplama kullanmalıdır. İşte bir örnek: IF @Unit(SALES) THEN @100 ELSE 0 Bu hesaplama yalnızca satış birimi için raporun her sütununda 100 satır tutarı içerir. Birden çok birim adı satış ise, bu birimlerin her birinde tutar görüntülenir. Ayrıca, satır 100 finansal verileri olabilir ve yazdırılmayan tanımlanabilir. Bu durumda, tutarın ağaçtaki tüm birimlerde görünmesi engellenir. Tutar raporun tek bir sütunu için, örneğin sütun H, yalnızca söz konusu rapor sütununun değerini yazdırmak için bir sütun kısıtlama kullanarak da sınırlandırabilirsiniz. Bir **EĞER** ifadesine **YADA** birleşimleri dahil edebilirsiniz. İşte bir örnek: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Aşağıdaki yollardan biriyle hesaplama türü kısıtlamasında bir birimi belirtebilirsiniz:
 
 -   Eşleşen birim içerecek şekilde bir birim adı girin. Örneğin, **IF @Unit(SALES)** raporlama ağacında birkaç satış birimi olsa bile hesaplamayı Satışlar adlı bir birim için etkinleştirir.
 -   Belirli birimler cinsinden belirli bir şirket için hesaplama kısıtlamak için şirket ve birim adını girin. Örneğin,hesaplamayı ACME şirketindeki satış birimlerine kısıtlamak için **IF @Unit(ACME:SALES**) girin.
@@ -263,7 +264,7 @@ Böylece sonuç miktarı daha yüksek düzey bir birime yuvarlanmayacak şekilde
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>Sütun tanımında IF/THEN/ELSE deyimleri
 
-Bir **IF/THEN/ELSE** deyimi herhangi hesaplama sonuçlarının diğer bir sütuna dayalı olmasını sağlar. Diğer sütunlara başvuruda bulunabilirsiniz, ancak**IF** ifadesinde bir rapor hücresine başvuruda bulunamazsınız. Herhangi bir hesaplamanın tüm sütuna uygulanmış olması gerekir. Örneğin, **IF B&gt;100 THEN B ELSE C\*1.25** deyimi anlamı, B sütunundaki tutar 100'den fazla ise B sütunundan değeri **CALC** sütuna yerleştir. B sütunundaki tutar 100'den fazla değilse, C sütunundaki değeri 1,25 ile çarp ve sonucu **CALC** sütununa yerleştir." Her zaman **IF** deyimini doğru veya yanlış olarak değerlendirilebilecek bir mantık ifadesiyle takip edin. **THEN** deyimi ve **ELSE** deyimi için kullanılan formüller herhangi bir sayıda sütun başvuruları içerebilir ve bu formüller bunları yapmak istediğiniz kadar karmaşık olabilir. **Not:** Diğer bir sütuna bir hesaplamanın sonuçlarını koyamazsınız. Sonuçların formülü içeren sütunda olması gerekir.
+Bir **IF/THEN/ELSE** deyimi herhangi hesaplama sonuçlarının diğer bir sütuna dayalı olmasını sağlar. Diğer sütunlara başvuruda bulunabilirsiniz, ancak**EĞER** ifadesinde bir rapor hücresine başvuruda bulunamazsınız. Herhangi bir hesaplamanın tüm sütuna uygulanmış olması gerekir. Örneğin, **IF B&gt;100 THEN B ELSE C\*1.25** deyimi anlamı, B sütunundaki tutar 100'den fazla ise B sütunundan değeri **CALC** sütuna yerleştir. B sütunundaki tutar 100'den fazla değilse, C sütunundaki değeri 1,25 ile çarp ve sonucu **CALC** sütununa yerleştir." Her zaman **EĞER** deyimini doğru veya yanlış olarak değerlendirilebilecek bir mantık ifadesiyle takip edin. **THEN** deyimi ve **ELSE** deyimi için kullanılan formüller herhangi bir sayıda sütun başvuruları içerebilir ve bu formüller bunları yapmak istediğiniz kadar karmaşık olabilir. **Not:** Diğer bir sütuna bir hesaplamanın sonuçlarını koyamazsınız. Sonuçların formülü içeren sütunda olması gerekir.
 
 
 

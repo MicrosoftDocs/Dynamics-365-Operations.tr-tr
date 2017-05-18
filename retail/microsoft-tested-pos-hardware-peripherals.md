@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.dyn365.intro: Feb-16
 ms.dyn365.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 865c103e0dc5811cddaa0228e7a90ce38714ddc2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: 0ab9970e5e6fe0e0d286a943b40377906f58c75b
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -51,7 +52,7 @@ Aşağıdaki listede Microsoft tarafından dahili olarak sınanmış olan her s�
 
 -   Magtek USB
 
-**Ödeme terminali **
+**Ödeme terminali**
 
 -   Equinox L3500
 -   Verifone MX925

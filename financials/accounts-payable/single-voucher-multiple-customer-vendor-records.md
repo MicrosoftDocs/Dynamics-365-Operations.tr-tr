@@ -16,10 +16,11 @@ ms.search.region: global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 415eca2219cdba3da96c1cb54bea8af81fd50119
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 10b96749fd8bfaa1ae98f7f5a0fa3f7dac2d16bb
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -119,11 +120,11 @@ Kullanıcı orijinal faturadan tüm gider dağıtımları arasında tahsis edile
 | GNJL001     | Satıcı           | 1001        | INV1            |           | 100,00     | Genel Muhasebe           | 606300-001-- |
 | GNJL001     | Satıcı           | 1001        | INV2            |           | 200,00     | Genel Muhasebe           | 606300-002-- |
 
-Aşağıdaki örnekte birden çok satıcı faturası **Genel günlük **sayfasındaki tek bir fiş üzerinden Genel muhasebeye kaydedilir. Bu faturalar birden çok hesap boyutu arasında dağıtılır. Deftere nakilden sonra bir fiş oluşturulur.
+Aşağıdaki örnekte birden çok satıcı faturası **Genel günlük**sayfasındaki tek bir fiş üzerinden Genel muhasebeye kaydedilir. Bu faturalar birden çok hesap boyutu arasında dağıtılır. Deftere nakilden sonra bir fiş oluşturulur.
 
 |             |              |                  |                                          |                                         |
 |-------------|--------------|------------------|------------------------------------------|-----------------------------------------|
-| **Fiş** | **Hesap**  | **Deftere nakil türü** | **Hareket para birimi cinsinden tutar (Euro) ** | **Muhasebe para birimi cinsinden tutar (ABD Doları)** |
+| **Fiş** | **Hesap**  | **Deftere nakil türü** | **Hareket para birimi cinsinden tutar (Euro)** | **Muhasebe para birimi cinsinden tutar (ABD Doları)** |
 | GNJL001     | 606300-001-- | Genel muhasebe günlüğü   | 100,00                                   | 114,00                                  |
 | GNJL001     | 606300-002-- | Genel muhasebe günlüğü   | 200,00                                   | 228,00                                  |
 | GNJL001     | 200110-001-  | Satıcı bakiyesi   | -100,00                                  | -114,00                                 |
@@ -135,7 +136,7 @@ Bu örneği kullanarak tek bir fiş kullanmanın akış kapatma muhasebesine etk
 
 |             |             |                    |                                          |                                         |
 |-------------|-------------|--------------------|------------------------------------------|-----------------------------------------|
-| **Fiş** | **Hesap** | **Deftere nakil türü**   | **Hareket para birimi cinsinden tutar (Euro) ** | **Muhasebe para birimi cinsinden tutar (ABD Doları)** |
+| **Fiş** | **Hesap** | **Deftere nakil türü**   | **Hareket para birimi cinsinden tutar (Euro)** | **Muhasebe para birimi cinsinden tutar (ABD Doları)** |
 | APPAYM001   | 200110-001- | Satıcı bakiyesi     | 200,00                                   | 230,00                                  |
 | APPAYM001   | 110110-001- | Banka               | -200,00                                  | -230,00                                 |
 | 14000056    | 801300-001- | Döviz kur farkı zararı | 0,00                                     | 0,67                                    |
@@ -154,7 +155,7 @@ Kullanıcı orijinal faturadan tüm gider dağıtımları arasında tahsis edile
 
 |             |             |                    |                                          |                                         |
 |-------------|-------------|--------------------|------------------------------------------|-----------------------------------------|
-| **Fiş** | **Hesap** | **Deftere nakil türü**   | **Hareket para birimi cinsinden tutar (Euro) ** | **Muhasebe para birimi cinsinden tutar (ABD Doları)** |
+| **Fiş** | **Hesap** | **Deftere nakil türü**   | **Hareket para birimi cinsinden tutar (Euro)** | **Muhasebe para birimi cinsinden tutar (ABD Doları)** |
 | APPAYM001   | 200110-001- | Satıcı bakiyesi     | 200,00                                   | 230,00                                  |
 | APPAYM001   | 110110-001- | Banka               | -200,00                                  | -230,00                                 |
 | 14000056    | 801300-002- | Döviz kur farkı zararı | 0,00                                     | 2.00                                    |

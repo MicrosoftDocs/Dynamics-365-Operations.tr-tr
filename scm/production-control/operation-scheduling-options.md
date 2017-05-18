@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 68cac68e1ea3db35b44c91f2c1901abf2aa521be
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4b79b21c6c4ceebfd24225643d099a2e2789d303
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ Operasyon planlama çizelgeleme, bir üretim emri için aşağıdaki bilgileri h
 
 Planlama yönü, planlama süreci bakımından temel niteliğindedir. Üretim, zamanlama ve planlama gereksinimlerine bağlı olarak herhangi bir tarihten geriye veya ileriye doğru planlanabilir.
 
--   **İleriye doğru planlama **: Üretimi olabildiğince erken başlatmak için planlayabilirsiniz. Üretime bugün, yarın veya gelecekte belirli bir tarihte başlanabilir. Üretim mümkün olan en erken tarihte başlayacak şekilde planlanır ve mümkün olan en erken son tarihe, ileriye doğru planlanır.
+-   **İleriye doğru planlama**: Üretimi olabildiğince erken başlatmak için planlayabilirsiniz. Üretime bugün, yarın veya gelecekte belirli bir tarihte başlanabilir. Üretim mümkün olan en erken tarihte başlayacak şekilde planlanır ve mümkün olan en erken son tarihe, ileriye doğru planlanır.
 -   **Geriye doğru planlama**: Üretimi, olabildiğince geç başlatmak için planlayabilirsiniz. Planlamada üretimin tamamlanması gereken tarih temel alınır ve hedeflenen bitiş tarihi aşılmadan üretimin bağlayabileceği en geç tarihe kadar geriye doğru sayılır.
 
 Aşağıdaki seçenekler bulunur:
@@ -98,7 +99,7 @@ Referanslar, üretim emirlerini temel aldığında alt üretimler olarak da bili
 
 ### <a name="synchronize-references"></a>Referansları eşitle
 
-Ayrıca referansları üretim emriyle eşitleyebilirsiniz. Bu seçenek tercih edilirse üretim emri planlamasında değişiklik yapıldığında alt üretimlerdeki tarihler taşınır ve hizalanır. Üretim siparişinde bir veya daha fazla alt üretim varsa alt üretimleri ana üretimle birlikte planlamak isteyebilirsiniz. Bu durumda, ilgili alt üretim tamamlanana kadar ana üretim başlatılamaz. Bu nedenle alt üretimlerin planlanmasının seçilen üretimin başlangıç ve bitiş zamanlarına göre yapılması gerekiyorsa bu onay kutusunu seçin. Bu onay kutusunu yalnızca** Referansları planla** onay kutusu da seçilirse seçebilirsiniz.
+Ayrıca referansları üretim emriyle eşitleyebilirsiniz. Bu seçenek tercih edilirse üretim emri planlamasında değişiklik yapıldığında alt üretimlerdeki tarihler taşınır ve hizalanır. Üretim siparişinde bir veya daha fazla alt üretim varsa alt üretimleri ana üretimle birlikte planlamak isteyebilirsiniz. Bu durumda, ilgili alt üretim tamamlanana kadar ana üretim başlatılamaz. Bu nedenle alt üretimlerin planlanmasının seçilen üretimin başlangıç ve bitiş zamanlarına göre yapılması gerekiyorsa bu onay kutusunu seçin. Bu onay kutusunu yalnızca**Referansları planla** onay kutusu da seçilirse seçebilirsiniz.
 
 ## <a name="cancellation"></a>İptal
 ### <a name="cancel-queue-time"></a>Kuyruk süresini iptal et

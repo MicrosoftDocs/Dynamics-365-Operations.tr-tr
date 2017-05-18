@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 9da48c7861f48ec2a154ac12616149d1208346cf
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 31c3354590935b40ecadd3a2fb380f4f103eb2b7
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -51,7 +52,7 @@ Arnie bu hareketi **Müşteri hareketleri** sayfasında görüntüleyebilir.
 | FTI-10030 | Fatura          | 25/6/2015 | 10030   | 1.000,00                             |                                       | 1.000,00 | ABD Doları      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>Nakit iskonto tarihinden önce kısmi ödeme
-28 Haziran tarihinde müşteri 4031, 294.00 tutarında bir kısmi ödeme yapıyor. 28 Haziran ilk nakit iskontosu süresi içinde olduğundan, müşteri 6.00 tutarında bir iskonto alıyor. **Kapatma hareketleri** sayfasında, ** Nakit iskonto tutarı** değeri, 20.00 ve **Alınacak nakit iskonto tutarı** değeri, 6.00'dır.
+28 Haziran tarihinde müşteri 4031, 294.00 tutarında bir kısmi ödeme yapıyor. 28 Haziran ilk nakit iskontosu süresi içinde olduğundan, müşteri 6.00 tutarında bir iskonto alıyor. **Kapatma hareketleri** sayfasında, **Nakit iskonto tutarı** değeri, 20.00 ve **Alınacak nakit iskonto tutarı** değeri, 6.00'dır.
 
 | İşaret     | Nakit iskontosu kullan | Fiş   | Hesap | Tarih      | Vade tarihi  | Fatura | Hareket para birimi cinsinden tutar | Para Birimi | Kapatılacak tutar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|

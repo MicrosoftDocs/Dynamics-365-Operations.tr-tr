@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f629329f4f50bd7c8edcfd70641bace01a1c53aa
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5074f3ded26f55c6244feba9fcf0199c81cad468
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -73,7 +74,7 @@ Dynamics 365 for Operations, tahmin oluşturmak için bir Machine Learning ağ h
 
 **Not:** Sadece özel bir depolama hesabı kullanıyorsanız Azure depolama hesap adı ve anahtarı gerekir. Şirket içi sürümünü kullanıyorsanız, Makine Öğrenimi hizmetinin geçmiş verilere ulaşabilmesi için Azure üzerinde özel bir depolama hesabınızın olması gerekir. 
 
-Talep tahminleri oluşturmak için, Machine Learning Studio veya Dynamics 365 for Operations Talep tahmin deneylerini kullanarak kendi hizmetinizi uygulayabilirsiniz. Dynamics 365 for Operations talep tahmin deneylerini bir ağ hizmeti olarak kullanma talimatları Dynamics 365 for Operations'ta mevcuttur. **Demand forecasting parameters** sayfasında, **Azure Machine Learning** öğesine tıklayın.
+Talep tahminleri oluşturmak için, Machine Learning Studio veya Dynamics 365 for Operations Talep tahmin deneylerini kullanarak kendi hizmetinizi uygulayabilirsiniz. Dynamics 365 for Operations talep tahmin deneylerini bir ağ hizmeti olarak kullanma talimatları Dynamics 365 for Operations'ta mevcuttur. **Talep tahmin parametreleri** sayfasında, **Azure Machine Learning** öğesine tıklayın.
 
 ## <a name="settings-for-the-dynamics-365-for-operations-demand-forecasting-machine-learning-service"></a>Dynamics 365 for Operations talep tahmini makine öğrenimi hizmeti için ayarlar
 Dynamics 365 for Operations talep tahmini hizmeti için yapılandırılabilecek parametreleri görmek için, **Master planlama** &gt; **Kurulum** &gt; **Talep tahmini** &gt; **Tahmin algoritma parametreleri** konumuna gidin. **Tahmin algoritma parametreleri** sayfası, parametreler için varsayılan değerleri gösterir. Bu parametrelerin üzerine **Talep tahmini parametreleri** sayfasında yazabilirsiniz. Genel olarak parametrelerin üzerine yazmak için **Genel** öğesini kullanın veya her bir madde tahsisat anahtarı için parametrelerin üzerine yazmak istiyorsanız **Madde tahsisat anahtarları** öğesini kullanın. Bir madde tahsisat anahtarı için üzerine yazılan parametreler sadece o madde tahsisat anahtarı ile ilişkilendirilen öğelerin tahminini etkiler.

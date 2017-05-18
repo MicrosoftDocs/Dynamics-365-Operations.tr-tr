@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 60abaa69debd891b2fe2dd98184c0dab50b0bf9f
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 26ad7fb0e9371b8e1d45d61f2348241c6aca16b9
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -90,7 +91,7 @@ Varsayılan sipariş ayarları kurallarının dereceleri vardır. Derece ne kada
 
 ### <a name="default-order-settings-for-released-products"></a>Serbest bırakılan ürünler için varsayılan sipariş ayarları
 
-Serbest bırakılan farklı ürünler için genel sipariş ayarlarını veya tesise özel sipariş ayarlarını tanımlayabilirsiniz. Genel sipariş ayarları her zaman sıfır dereceye sahiptir. Yeni satış, satınalma ve stok sipariş ayarlarını aynı anda birlikte ayarlarsanız **Varsayılan sipariş ayarları** sayfasında **Ayrıntı görünümü **'nü kullanmanızı öneririz. Ayrıntı görünümünü değiştirmek için **Seçenekler** Eylem Bölmesi &gt; **Sayfa seçenekleri** &gt; **Görünümü değiştir** &gt; **Ayrıntı görünümü'ne** gidin.
+Serbest bırakılan farklı ürünler için genel sipariş ayarlarını veya tesise özel sipariş ayarlarını tanımlayabilirsiniz. Genel sipariş ayarları her zaman sıfır dereceye sahiptir. Yeni satış, satınalma ve stok sipariş ayarlarını aynı anda birlikte ayarlarsanız **Varsayılan sipariş ayarları** sayfasında **Ayrıntı görünümü**'nü kullanmanızı öneririz. Ayrıntı görünümünü değiştirmek için **Seçenekler** Eylem Bölmesi &gt; **Sayfa seçenekleri** &gt; **Görünümü değiştir** &gt; **Ayrıntı görünümü'ne** gidin.
 
 ### <a name="site-specific-order-settings"></a>Tesise özgü sipariş ayarları
 
@@ -149,9 +150,9 @@ Genel bir kural olarak, özel kurallar ve diğer boyutlardan daha önemli olan k
 
 Derecesi sıfır olan kural bir güvenlik ağı olarak hizmet verir. Başka kural eklenmemişse sıfır dereceli kuraldaki varsayılan sipariş ayarları kullanılır. 
 
-Derece sayısı çok önemli olduğundan **Varsayılan sipariş ayarları **Eylem Bölmesi'nde kuralı yukarı veya aşağı taşıyan ve kuralı her zaman 10'un katları olacak şekilde yeniden numaralandıran işlevler bulunur. 
+Derece sayısı çok önemli olduğundan **Varsayılan sipariş ayarları**Eylem Bölmesi'nde kuralı yukarı veya aşağı taşıyan ve kuralı her zaman 10'un katları olacak şekilde yeniden numaralandıran işlevler bulunur. 
 
-Serbest bırakılmış ürün için oluşturulan kural sayısı fazla olabilir. Her bir kuralın geçersiz kılınması mantığını ve bunun neden gerekli olduğunu daha iyi anlamak için** Varsayılan sipariş ayarları** sayfasında **Izgara görünümü**'nü kullanmanızı öneririz. **Seçenekler** Eylem Bölmesi &gt; **Sayfa seçenekleri** &gt; **Görünümü değiştir** &gt; **Kılavuz görünümü**'ne giderek kılavuz görünümünü etkinleştirebilirsiniz. Kılavuzda görüntülenen sütun sayısı, özellikle satışlar ve stok sekmeleri için oldukça belirleyici olabilir. Kılavuzda gösterilen sütun sayısını sınırlandırmak için sütun grupları **Varsayılan sipariş ayarları** &gt; **Sütun görüntüsü** menüsündeki düğmeler kullanılarak gizlenebilir veya görüntülenebilir.
+Serbest bırakılmış ürün için oluşturulan kural sayısı fazla olabilir. Her bir kuralın geçersiz kılınması mantığını ve bunun neden gerekli olduğunu daha iyi anlamak için**Varsayılan sipariş ayarları** sayfasında **Izgara görünümü**'nü kullanmanızı öneririz. **Seçenekler** Eylem Bölmesi &gt; **Sayfa seçenekleri** &gt; **Görünümü değiştir** &gt; **Kılavuz görünümü**'ne giderek kılavuz görünümünü etkinleştirebilirsiniz. Kılavuzda görüntülenen sütun sayısı, özellikle satışlar ve stok sekmeleri için oldukça belirleyici olabilir. Kılavuzda gösterilen sütun sayısını sınırlandırmak için sütun grupları **Varsayılan sipariş ayarları** &gt; **Sütun görüntüsü** menüsündeki düğmeler kullanılarak gizlenebilir veya görüntülenebilir.
 
 ### <a name="specific-order-settings-for-released-product-variant"></a>Serbest bırakılan ürün çeşidi için özel sipariş ayarları
 

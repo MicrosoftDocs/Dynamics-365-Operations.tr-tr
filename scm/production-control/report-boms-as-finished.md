@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 318c88f88277a8300b1fcda5056a9a92c9a81eae
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7edf456b09c6f77550f1dd023e712c7ef379fd1a
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -36,7 +37,7 @@ Bu makalede ürün reçetelerini tamamlandı olarak raporlama hakkında bilgi ve
 **Tamamlandı bildirimi** ve **Mak. Raporu tamamlandı olarak** sayfaları ürün reçetelerini (BOM) tamamlandı olarak bildirmek için kullanılır. Kavramsal açıdan, bir ürün Reçetesini tamamlandı olarak raporlama işlemi, bir üretim emrini tamamlandı olarak raporlama süreciyle aynıdır. Bu işlem örneğin basit montaj ve paket hazırlama işlemleri gibi, üretim emirlerinin daha gelişmiş yeteneklerine ihtiyaç duyulmayan durumlarda kullanılabilir. **Tamamlandı bildirimi** sayfası birden fazla ürün reçetelerini toplu şekilde tamamlandı olarak bildirmenize olanak sağlar. **Maks. Tamamlandı raporu** sayfası, bir kerede yalnızca bir ürün reçetesini tamamlandı olarak bildirmenize olanak tanır. **Tamamlandı olarak bildir** sayfası Stok yönetimindeki bir menü öğesinden kullanılabilir ve her iki sayfa da **Serbest bırakılan ürünler** sayfasında menü öğesi olarak bulunmaktadır.
 
 ## <a name="report-as-finished-page"></a>Tamamlandı olarak bildirme sayfası
-**Tamamlandı bildirimi **sayfasını serbest bırakılmış bir üründen açarsanız, bu sayfa standart stok varsayılan miktarını tamamlandı olarak bildirmenizi önerir. Varsayılan olarak, etkin ürün reçetesi versiyonu gösterilir, ancak onaylanmış başka sürümler varsa, ürün reçetesi versiyonunun değiştirebilirsiniz. Bu sayfa ayrıca tamamlandı olarak bildirilmesi gereken serbest bırakılmış ürünlerin kayıtlarını silmenize ve yeni kayıtlar oluşturmanızı sağlar. Ürünleri seçerken bir sorgu kullanmak için **Seçin** menü öğesine tıklatın. El ile **Tamam** seçeneğini tıklatarak seçili ürünler için tamamlandı olarak raporlamayı onaylayabilirsiniz. Alternatif olarak, işlemi toplu olarak yürütülecek şekilde de ayarlayabilirsiniz. Tamamlandı bildirimi işlemi teyit edildiğinde, sistem stok naklinin işleneceği bir ürün reçetesi günlüğü oluşturur. Bu günlük bitmiş ürün için bir satır öğesi ve her ürün reçetesi satırı için bir satır öğesi içerir. Günlüğün otomatik olarak deftere mi nakledileceğini yoksa ek ayarlamalar için açık mı bırakılacağını kontrol edebilirsiniz.
+**Tamamlandı bildirimi**sayfasını serbest bırakılmış bir üründen açarsanız, bu sayfa standart stok varsayılan miktarını tamamlandı olarak bildirmenizi önerir. Varsayılan olarak, etkin ürün reçetesi versiyonu gösterilir, ancak onaylanmış başka sürümler varsa, ürün reçetesi versiyonunun değiştirebilirsiniz. Bu sayfa ayrıca tamamlandı olarak bildirilmesi gereken serbest bırakılmış ürünlerin kayıtlarını silmenize ve yeni kayıtlar oluşturmanızı sağlar. Ürünleri seçerken bir sorgu kullanmak için **Seçin** menü öğesine tıklatın. El ile **Tamam** seçeneğini tıklatarak seçili ürünler için tamamlandı olarak raporlamayı onaylayabilirsiniz. Alternatif olarak, işlemi toplu olarak yürütülecek şekilde de ayarlayabilirsiniz. Tamamlandı bildirimi işlemi teyit edildiğinde, sistem stok naklinin işleneceği bir ürün reçetesi günlüğü oluşturur. Bu günlük bitmiş ürün için bir satır öğesi ve her ürün reçetesi satırı için bir satır öğesi içerir. Günlüğün otomatik olarak deftere mi nakledileceğini yoksa ek ayarlamalar için açık mı bırakılacağını kontrol edebilirsiniz.
 
 ## <a name="max-report-as-finished-page"></a>Maksimum tamamlandı olarak bildirme sayfası
 **Mak. Tamamlandı bildirimi** sayfası üzerinde, her ürün reçetesi satırı tamamlandığı bildirilen ürün parçalarının sayısını gösterir. Bu hesaplama, her bir malzeme satırının fiziksel olarak eldeki mevcut stoku temel alır. Aşağıdaki örnekte, madde numarası FG'nin bir tanesi, RM10 parça hammaddesinden iki parça ve RM20 hammaddesinden bir parça tüketir. Elde sadece 10 adet RM10 olduğundan, tamamlandır olarak bildirilebilecek maksimum FG miktarı beş parça olur. Bu değer **Mak. Tamamlandı bildirimi** alanında gösterilir.

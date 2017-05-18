@@ -3,7 +3,7 @@ title: "Microsoft Dynamics 365 for Operations &#8211; Ambarlama yükleme ve yap�
 description: "Bu konu, Microsoft Dynamics 365 for Operations - Ambarlama&quot;nın nasıl yükleneceğini ve yapılandırılacağnı açıklar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 231c087ddc976aa552fc9cd6c89188f82a0247d1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bbf6df8d43889e7a62bfe28921997c45c8b4c632
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="install-and-configure-microsoft-dynamics-365-for-operations-8211-warehousing"></a>Microsoft Dynamics 365 for Operations &#8211; Ambarlama yükleme ve yapılandırma
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu konu, Microsoft Dynamics 365 for Operations - Ambarlama'nın nasıl yükleneceğini ve yapılandırılacağnı açıklar.
 
@@ -67,7 +71,7 @@ Uygulamanın belirli bir Dynamics 365 for Operations sunucusu ile etkileşime gi
 ## <a name="create-and-configure-a-user-account-in-dynamics-365-for-operations"></a>Dynamics 365 for Operations içinde bir kullanıcı hesabı oluşturma ve yapılandırma
 Dynamics 365 for Operations'ın Azure AD uygulamanızı kullanmasını sağlamak için, aşağıdaki yapılandırma adımlarını tamamlamanız gerekir:
 
-1.  Dynamics 365 for Operations kiracısı için Azure Active Directory'de yeni bir kullanıcı hesabı oluşturun. Bu kullanıcı hesabının amacı, Dynamics 365 for Operations sunucusunun açığa çıkarttığı ambarlama uygulamasının belirli özel hizmetlerine erişmektir. Bu adımı tamamladıktan sonra, bir WMDP e-posta adresi ve WMDP parolasından oluşan WMDP kullanıcı kimlik bilgilerine sahip olacaksınız. Azure AD ve Dynamics 365 for Operations için kullanıcılar eklemek hakkında temel adımları öğrenmek için bu eğitime göz atın: [Bir Microsoft Dynamics 365 for Operations aboneliğine kaydolun](/dynamics365/operations/dev-itpro/sign-up-preview-subscription).
+1.  Dynamics 365 for Operations kiracısı için Azure Active Directory'de yeni bir kullanıcı hesabı oluşturun. Bu kullanıcı hesabının amacı, Dynamics 365 for Operations sunucusunun açığa çıkarttığı ambarlama uygulamasının belirli özel hizmetlerine erişmektir. Bu adımı tamamladıktan sonra, bir WMDP e-posta adresi ve WMDP parolasından oluşan WMDP kullanıcı kimlik bilgilerine sahip olacaksınız. Azure AD ve Dynamics 365 for Operations için kullanıcılar eklemek hakkında temel adımları öğrenmek için bu eğitime göz atın: [Bir Microsoft Dynamics 365 for Operations aboneliğine kaydolun](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription).
 2.  Ambarlama uygulaması kullanıcı kimlik bilgilerine karşılık gelne bir Dynamics 365 for Operations kullanıcı oluşturun.
     1.  Dynamics 365 for Operations içerisinde **Sistem Yönetimi** &gt; **Ortak** &gt; **Kullanıcılar** konumuna gidin.
     2.  Yeni bir kullanıcı oluşturun.
@@ -98,6 +102,8 @@ Kayıp veya güvenliği aşılmış bir cihaz durumunda, bu cihaz için Dynamics
 6.  **Yapılandır** sekmesini tıklatın, aşağı kaydırın ve uygulamanın **İstemci kimliği**'nin bu bölümün 2. adımındaki ile aynı olduğundan emin olun.
 7.  Komut çubuğunda **Sil** düğmesini tıklatın.
 8.  Onay iletisinde **Evet**'i tıklatın.
+
+
 
 
 

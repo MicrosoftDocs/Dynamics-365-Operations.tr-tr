@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: bcf59ea8862280675c9fb711d2aab1e8dff18806
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 0285103ef30ebf8322f2bf60941b07c7496e9c70
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Bir anketin sonuçlarını görüntüleyin ve değerlendirin
+
+[!include[banner](includes/banner.md)]
+
 
 Bu konu yanıtlayanların tamamladığı anketlerin sonuçlarını nasıl görüntüleyeceğinizi ve değerlendireceğinizi açıklar. 
 
@@ -56,7 +60,8 @@ Yanıtlayanlar bir anketi tamamladıktan sonra, tamamlanan yanıt oturumlarını
 -   **Yanıt raporu** – Bu rapor, anketteki her soru için yanıtlayanın seçtiği cevapları gösterir.
 -   **Yanlış yanıtlar** – Bu rapor yanıtlayanın seçtiği yanlış yanıtlarla ilgili bilgileri gösterir.
 
-**Not:** **Sonuçlar** raporu, yalnızca anketteki sonuç gruplarını kullanıyorsanız ve **Anketler** sayfasındaki **Sonuçlar sayfasını** seçtiyseniz kullanılabilir. **Yanıt** raporu ve **Yanlış yanıtlar** raporu yalnızca **Anketler** sayfasındaki **Yanıt raporu** seçeneğini seçtiyseniz kullanılabilir.
+> **Not:**
+>   **Sonuçlar** raporu, yalnızca anketteki sonuç gruplarını kullanıyorsanız ve **Anketler** sayfasındaki **Sonuçlar** sayfasını seçtiyseniz kullanılabilir. **Yanıt** raporu ve **Yanlış yanıtlar** raporu yalnızca **Anketler** sayfasındaki **Yanıt raporu** seçeneğini seçtiyseniz kullanılabilir.
 
 ## <a name="questionnaire-statistics"></a>Soru formu istatistikleri
 Tamamlanmış bir anketin sonuçlarını tanımladığınız hesaplamalara göre analiz etmek için anket istatistiklerini kullanabilirsiniz. Hesaplamaları tanımlamak için, aşağıdaki görevleri tamamlamalısınız:
@@ -79,5 +84,7 @@ Tanımladığınız ayarlar kaydedilir ve sonuçları yeniden hesaplamak için p
 [Soru formlarını kullanma](questionnaires.md)
 
 [Soru formlarını dağıtma ve tamamlama](distribute-questionnaires.md)
+
+
 
 

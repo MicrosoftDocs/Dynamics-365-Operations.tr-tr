@@ -1,9 +1,9 @@
 ---
 title: "Dynamics 365 for Operations için mali raporlama"
 description: "Microsoft Dynamics 365 for Operations için mali raporlama, finans ve şirket profesyonellerinin mali tabloları oluşturmasını, güncelleştirmesini, dağıtmasını ve görüntülemesini sağlar. Geleneksel raporlama kısıtlamalarının ötesine geçerek çeşitli rapor türlerini etkin şekilde oluşturmanıza yardımcı olur."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-18 15 - 31 - 29
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 519b3d3fb53b20d0014c97bcb1b9b21802a376d6
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fee79dad870bfbf8852198c7e825cfaa95a8d10b
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="financial-reporting-for-dynamics-365-for-operations"></a>Dynamics 365 for Operations için mali raporlama
+
+[!include[banner](../includes/banner.md)]
+
 
 Microsoft Dynamics 365 for Operations için mali raporlama, finans ve şirket profesyonellerinin mali tabloları oluşturmasını, güncelleştirmesini, dağıtmasını ve görüntülemesini sağlar. Geleneksel raporlama kısıtlamalarının ötesine geçerek çeşitli rapor türlerini etkin şekilde oluşturmanıza yardımcı olur.
 
@@ -36,8 +40,7 @@ Mali raporlamanın aşağıdaki bileşenleri raporların oluşturulmasını, gö
 | Bileşen        | İşlevler                                                                                                                                                                                                                                                                           | Ek bilgiler                                                                          |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | Rapor Tasarımcısı  | Bir rapor tanımlamak ve oluşturmak için bir araya getirilebilen rapor yapı taşlarını oluşturun. Rapor sihirbazı, daha az deneyimli kullanıcıları tasarım süreci boyunca yönlendirir. İleri düzey kullanıcılar, yeni rapor yapı taşları oluşturabilir veya mevcut yapı taşlarını gereksinimlerini karşılayacak şekilde değiştirebilirler. |                                                                                                 |
-| Web Görüntüleyicisi       | Raporları bir web tarayıcısında görüntüleyin. Web Görüntüleyicisi, mali raporlama sunucusu bileşenlerinin yüklü olmasını gerektirmez.                                                                                                                                                        | [Web görüntüleyicisi](financial-reporter-designer-web-client.md)            |
-| Rapor programları | Düzenli aralıklarla oluşturulması için tek bir raporu veya bir raporlar grubu planlayın.                                                                                                                                                                                          | [Bir rapor oluştur](/dynamics365/operations/financials/general-ledger/generate-financial-report) |
+| Rapor programları | Düzenli aralıklarla oluşturulması için tek bir raporu veya bir raporlar grubu planlayın.                                                                                                                                                                                          | [Mali rapor oluşturma](generate-financial-report.md) |
 
 ## <a name="features"></a>Özellikler
 <table>
@@ -78,13 +81,15 @@ Mali raporlamanın aşağıdaki bileşenleri raporların oluşturulmasını, gö
 <li>Rapor içeriğini, belirli bir boyut veya boyut birleşimleri ile sınırlamak için boyut filtreleri ekleyin.</li>
 <li>Rapor içeriğini, belirli bir öznitelik veya öznitelik birleşimleri ile sınırlamak için öznitelik filtreleri ekleyin.</li>
 </ul>
-Daha fazla bilgi için <a href="https://technet.microsoft.com/en-us/library/dn469079.aspx">Masaüstü Görüntüleyici arayüzü</a> altındaki "Etkileşimli bileşenler ve gezinti özellikleri" bölümüne bakın.</td>
+</td>
 </tr>
 </tbody>
 </table>
 
 #<a name="see-also"></a>Ayrıca bkz.
+[Mali rapor oluşturma](generate-financial-report.md)
 
-[Finansal rapor oluşturmak] ((dynamics365\operations\financials\general-ledger\generate-financial-report)
+
+
 
 

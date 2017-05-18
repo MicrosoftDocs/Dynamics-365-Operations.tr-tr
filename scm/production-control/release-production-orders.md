@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c4ebedab6d7de62479d3bc80583afadbe780aac4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8a12f79c9b2b02198c268a293b357ef805e2f4b9
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -54,7 +55,7 @@ Rota kartı, rota ve operasyon ayarları ve operasyon ve iş çizelgeleme yönte
 Bir rota işi, bir operasyonun her işini ayrıntılı olarak listeler ve kurulum, işlem, kuyruk ve taşıma sürelerini içerir. Örneğin, boyama gibi bir operasyon kurulum, çalışma süresi (boyama işlemi için) ve kuyruk süresi (kurutma için) gerektirebilir.
 
 ## <a name="job-cards"></a>İş kartları
-Bir iş kartı, belirli bir operasyonun tek tek iş numaralarını listeler. Her sayfada bir iş görünür. Bir iş kartına dahil olan işler ve tahmini süreleri rotadan ve operasyon kurulum bilgilerinden gelir. Bir iş kartından, **Üretim günlüğü satırları**, **iş kartı ** sayfasını açabilirsiniz. Operasyon kaynaklarını çalıştıran kişiler üretim sürecinde geri bildirim sağlayabilir. Bunlar, tüketim istatistikleri ve hata miktarı gibi bilgileri girebileceğiniz alanlardır.
+Bir iş kartı, belirli bir operasyonun tek tek iş numaralarını listeler. Her sayfada bir iş görünür. Bir iş kartına dahil olan işler ve tahmini süreleri rotadan ve operasyon kurulum bilgilerinden gelir. Bir iş kartından, **Üretim günlüğü satırları**, **iş kartı** sayfasını açabilirsiniz. Operasyon kaynaklarını çalıştıran kişiler üretim sürecinde geri bildirim sağlayabilir. Bunlar, tüketim istatistikleri ve hata miktarı gibi bilgileri girebileceğiniz alanlardır.
 
 ## <a name="warehouse-work-for-raw-material-picking"></a>Hammadde çekmek için ambar çalışması
 Hammadde çekme işi, serbest bırakma sırasında üretilir. İş yalnızca sipariş serbest bırakılmadan önce üretim emri için fiziksel olarak rezerve edilmiş olan miktarda malzeme için üretilir. Aşağıdaki kurulum hammadde çekme için ambar oluşturma işi için gereklidir:

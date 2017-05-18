@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: bd2ba11ff4f10d3369babf10fc70659ae8a717fa
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: cf723381ed2f9696512d17af7e882582cbfcb49e
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -36,7 +37,7 @@ Bu makalede genel muhasebe atama kuralları hakkında bilgiler sağlanmıştır.
 Genel muhasebe tahsisat kuralları, otomatik olarak hesaplama yapmak ve sabit tutarların veya genel muhasebe bakiyelerinin tahsisatı için tahsisat günlükleri ve hesap girişleri oluşturmak için kullanılır. Tahsisat yöntemleri, değişken veya sabit olabilir. Aşağıdaki tahsisat yöntemleri genel muhasebe tahsisat kuralları için kullanılabilir:
 
 -   **Temel** – Bu değişken yöntemi, tahsisat, filtre ölçütü temel alınarak fiili genel muhasebe bakiyesine bağlı olduğunda kullanılır. Örneğin, reklamcılık giderleri tüm departman satışlarının toplam departman satışlarına oranına dayalı olarak tahsis edilebilir.
--   **Sabit yüzde** ve **Sabit ağırlık ** – Bu yöntemler için, tahsisat yüzdesi veya ağırlığı doğrudan kural için tanımlanır. Örneğin, reklam giderleri reklam giderlerinin yüzde 70'ini Departman A ve yüzde 30'unu Departman B alacak şekilde tahsis edilebilir.
+-   **Sabit yüzde** ve **Sabit ağırlık** – Bu yöntemler için, tahsisat yüzdesi veya ağırlığı doğrudan kural için tanımlanır. Örneğin, reklam giderleri reklam giderlerinin yüzde 70'ini Departman A ve yüzde 30'unu Departman B alacak şekilde tahsis edilebilir.
 -   **Eşit olarak** – Bu yöntem, tutarları tanımlanan her bir hedefe eşit olarak dağıtır. Örneğin, Departman A ve Departman B için hedefler tanımlandıysa, reklam giderleri hem Departman A hem de Departman B giderlerin yüzde 50'sini alacak şekilde tahsis edilebilir.
 
 Bir tahsisat kuralının tahsisat yöntemi olarak Temel kullanılırsa, başka bir temel genel muhasebe tahsisat kuralları da oluşturmanız gerekir. "Tahsisat talebini işleme koy" işlemi kullanıcıların genel muhasebe kuralını işleme almasını ve hesaplanmış tahsisatları deftere nakletmeden ya da silmeden önce ortaya çıkan günlük girişlerini önizlemelerini sağlar.

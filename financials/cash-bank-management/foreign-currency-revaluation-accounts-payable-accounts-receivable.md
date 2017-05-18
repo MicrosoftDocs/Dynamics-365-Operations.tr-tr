@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 44d51807cd6bb64ae2c4bef58d8a445417ffa3a9
-ms.openlocfilehash: 69a57cc5a2d652efc2ee14906c64b0dc741da31c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: adb1f7a2d709b607c3065f4c2fb4d24cb4849ec1
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -54,7 +55,7 @@ Bir yabancı para birimi yeniden değerleme işlemi yürüttüğünüzde her sef
     -   **Standart** – Yabancı para birimi yeniden değerleme işlerinin sonucun kar ya da zarar olmasından bağımsız olarak nakledildiği anlamına gelir.
     -   **Minimum** – Yabancı para birimi yeniden değerleme işlerinin yalnızca sonucun zarar olması durumunda nakledildiği anlamına gelir.
     -   **Fatura tarihi** – Yabancı para birimi yeniden değerleme işlerinin, muhasebe para birimi cinsinden yeniden orijinal değerine değerleme yapılan hareketlerin orijinal döviz kurunu kullandığı anlamına gelir. Önceden gerçekleştirilen tüm yabancı para birimi yeniden değerleme işlemlerinin etkisi iptal edilir.
--   **İlgili tarih** – Söz konusu tarihte açık (kapatılmamış) tutarlar taşıyan tüm hareketleri bulunduğu tarih. Yabancı para birimindeki tutarlar, ** Para birimi döviz kurları** sayfasında söz konusu tarih için girilen döviz kurları kullanılarak yeniden değerlendirilir. Yabancı para birimi tutarlarına ilgili tarihte yeniden değerleme yapıldığında, bu tarih düzenleme yapılan son yabancı para birimi değerleme işlemi tarihi olur. Halihazırda düzeltilmiş durumdaki hareketler üzerinde son yabancı para birimi değerleme işleminden daha erken bir ilgili tarih için bir yabancı para birimi yeniden değerleme işlemi çalıştırırsanız, daha erken ilgili tarihte açık durumda olan ancak daha yeni bir yabancı para birimi yeniden değerleme tarihine sahip hareketler periyodik iş tarafından düzeltilmez.
+-   **İlgili tarih** – Söz konusu tarihte açık (kapatılmamış) tutarlar taşıyan tüm hareketleri bulunduğu tarih. Yabancı para birimindeki tutarlar, **Para birimi döviz kurları** sayfasında söz konusu tarih için girilen döviz kurları kullanılarak yeniden değerlendirilir. Yabancı para birimi tutarlarına ilgili tarihte yeniden değerleme yapıldığında, bu tarih düzenleme yapılan son yabancı para birimi değerleme işlemi tarihi olur. Halihazırda düzeltilmiş durumdaki hareketler üzerinde son yabancı para birimi değerleme işleminden daha erken bir ilgili tarih için bir yabancı para birimi yeniden değerleme işlemi çalıştırırsanız, daha erken ilgili tarihte açık durumda olan ancak daha yeni bir yabancı para birimi yeniden değerleme tarihine sahip hareketler periyodik iş tarafından düzeltilmez.
 -   **Kur tarihi** – Yabancı para birimi yeniden değerleme işleminde kullanılan döviz kurunun belirlendiği tarih.
 -   **Şu nakil profilini kullan** – Yabancı para birimi yeniden değerleme işleminin muhasebe girişleri için Alacak hesapları veya Borç hesapları için varsayılan ana hesabı girmek için kullanılan nakil profili:
     -   **Nakil** – Müşteri hareketinin nakil profili kullanılır.

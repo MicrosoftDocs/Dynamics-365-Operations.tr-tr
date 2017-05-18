@@ -3,7 +3,7 @@ title: "Üretim emri maliyet analizi"
 description: "Bu makalede, tamamlanmış ve geçerli üretim emirleri için yapabileceğiniz maliyet analizi hakkında bilgiler sağlanmıştır. Tahmini maliyetleri ve gerçek maliyetleri Fiyat hesaplaması sayfasını veya Maliyet tahminleri ve maliyetlendirmeler raporunu kullanarak analiz edebilirsiniz. Her bir bileşen maddesine, rota operasyonuna ve dolaylı maliyete yönelik tahmini ve gerçek maliyetler (ve miktar) hakkındaki bilgileri görüntüleyebilirsiniz."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-04-11 13 - 25 - 42
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f931432f6dc919d448ed690a1deae3d64bebe455
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: acb8e49ed86d3e22ba8e343280f77c0644f057c6
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="production-order-cost-analysis"></a>Üretim emri maliyet analizi
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, tamamlanmış ve geçerli üretim emirleri için yapabileceğiniz maliyet analizi hakkında bilgiler sağlanmıştır. Tahmini maliyetleri ve gerçek maliyetleri Fiyat hesaplaması sayfasını veya Maliyet tahminleri ve maliyetlendirmeler raporunu kullanarak analiz edebilirsiniz. Her bir bileşen maddesine, rota operasyonuna ve dolaylı maliyete yönelik tahmini ve gerçek maliyetler (ve miktar) hakkındaki bilgileri görüntüleyebilirsiniz.
 
@@ -40,7 +44,11 @@ Farklar, raporlanan üretim faaliyetleri ile üretim maddesinin standart maliyet
 -   Üretim fiyat farkı
 -   Üretim yedekleme farkı
 
-Aşağıdaki diyagramda, bir üretim emrinin gerçek maliyetleriyle, üretim emrinin sonlandırılması anında maddenin maliyet kaydı içersindeki hesaplanan maliyetler arasındaki farkı açıklayan dört fark gösterilmektedir. ![Tamamlanmış bir üretim emrindeki farkları açıklayan farklar](./media/control.jpg) Üretim farklarını **Fark** sayfasını veya **Üretim farkı** raporunu kullanarak analiz edebilirsiniz. Ayrıntılı farkları maddeye ve operasyon kaynağına veya maliyet grubuna göre görüntülemek için görüntüleme seçeneklerini kullanın. Stok parametrelerindeki maliyet kırılımına yönelik ilke, farkların maliyet grubunca izlenip izlenmeyeceğini belirler. Özetlenmiş farkları görüntülemek için **tekli**, **çoklu** ve **toplam** görüntüleme seçeneklerini de kullanabilirsiniz. Ayrıntılı fark bilgileri, her farkın kaynağını anlamanıza yardımcı olur. Bir üretim emrini sonlandırmadan önce farkları tahmin etmek için, **Maliyet tahminleri ve maliyetlendirme** raporunda sağlanan ayrıntılı bilgileri analiz edin.
+Aşağıdaki diyagramda, bir üretim emrinin gerçek maliyetleriyle, üretim emrinin sonlandırılması anında maddenin maliyet kaydı içersindeki hesaplanan maliyetler arasındaki farkı açıklayan dört fark gösterilmektedir. 
+
+![Tamamlanmış bir üretim emrindeki farklılıkları dikkate alan farklar](./media/control.jpg) 
+
+**Fark** sayfasını veya **Üretim farkı** raporunu kullanarak üretim farklarını analiz edebilirsiniz. Ayrıntılı farkları maddeye ve operasyon kaynağına veya maliyet grubuna göre görüntülemek için görüntüleme seçeneklerini kullanın. Stok parametrelerindeki maliyet kırılımına yönelik ilke, farkların maliyet grubunca izlenip izlenmeyeceğini belirler. Özetlenmiş farkları görüntülemek için **tekli**, **çoklu** ve **toplam** görüntüleme seçeneklerini de kullanabilirsiniz. Ayrıntılı fark bilgileri, her farkın kaynağını anlamanıza yardımcı olur. Bir üretim emrini sonlandırmadan önce farkları tahmin etmek için, **Maliyet tahminleri ve maliyetlendirme** raporunda sağlanan ayrıntılı bilgileri analiz edin.
 
 ## <a name="cost-analysis-for-current-production-orders"></a>Geçerli üretim emirleri için maliyet analizi
 Ayrı raporlar, her hareket tipi için bilgi sağlar. Raporlanan üretim faaliyetleri için maliyetleri analiz etmek için bu raporları kullanın. Yalnızca **Başlatıldı** veya **Bitmiş olarak raporlandı** durumuna sahip geçerli üretim emirlerine yönelik bilgiler görüntülenir.
@@ -56,5 +64,7 @@ Ayrı raporlar, her hareket tipi için bilgi sağlar. Raporlanan üretim faaliye
 --------
 
 [Üretim farklılıklarının ortak kaynakları](common-sources-of-production-variances.md)
+
+
 
 

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 1bc458d58834be1e2e9b602619f76424b3bb449b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 62dcc8a9b17ad044ac63080a94593a5f6ae2f182
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -98,7 +99,7 @@ Son olarak, Jodi temel ödeme için hesaplama tabanları olarak kullanılan tüm
 
 En doğru bütçe planlama için, pozisyonun o anda doldurulmuş veya boş olmasından bağımsız olarak, Microsoft Dynamics Dynamics 365 for Operations'daki mevcut pozisyonlardan ayrıntılar ile tahmin pozisyonları oluşturabilirsiniz. 
 
-**Mevcut pozisyonları ekle** işlevi bir kuruluşa ait tüm pozisyonları görüntüler. ** Başlangıç** tarihini ayarlayarak, pozisyonlar listesini geçmişteki veya daha yaygın olarak gelecekte bir tarihteki mevcut pozisyonları içerecek şekilde değiştirebilirsiniz (örneğin, bir sonraki bütçe döngüsünün başlangıcı). Bir bütçe planlama süreci ve bütçe planı senaryosu seçin, listede pozisyonları seçin ve seçilen pozisyonlar için tahmin pozisyonları oluşturmak için **Tamam** düğmesine tıklayın. Bir bütçe planlama süreci ve senaryosundaki her bir mevcut pozisyon için sadece bir tahmin pozisyonu oluşturabileceğinizi unutmayın. Ancak, farklı bütçe planı senaryoları atayarak ek sürümler oluşturabilirsiniz. 
+**Mevcut pozisyonları ekle** işlevi bir kuruluşa ait tüm pozisyonları görüntüler. **Başlangıç** tarihini ayarlayarak, pozisyonlar listesini geçmişteki veya daha yaygın olarak gelecekte bir tarihteki mevcut pozisyonları içerecek şekilde değiştirebilirsiniz (örneğin, bir sonraki bütçe döngüsünün başlangıcı). Bir bütçe planlama süreci ve bütçe planı senaryosu seçin, listede pozisyonları seçin ve seçilen pozisyonlar için tahmin pozisyonları oluşturmak için **Tamam** düğmesine tıklayın. Bir bütçe planlama süreci ve senaryosundaki her bir mevcut pozisyon için sadece bir tahmin pozisyonu oluşturabileceğinizi unutmayın. Ancak, farklı bütçe planı senaryoları atayarak ek sürümler oluşturabilirsiniz. 
 
 Bütçe maliyet öğeleri İnsan kaynaklarındaki pozisyona atanmışsa, bu bütçe maliyet öğeleri de tahmin pozisyonuna atanır ve varsayılan tutarları kullanır. Bir çalışan atanmışsa, tahmin pozisyonundaki **Atanan çalışan** alanı, pozisyona atanan o çalışanın adına ayarlanır. Bu alan, basit bir metin alanıdır. Doğrudan bağlantı oluşturulmaz. 
 
@@ -163,7 +164,7 @@ Geçerli kazanç bütçe maliyet öğesinin bitiş tarihi artış tarihinden ön
 
 Tahmin pozisyonlarına yapılan güncelleştirmeler, bütçe maliyet öğesi ve ücret grubu ayar sayfaları gibi diğer alanlardan da gelebilir. Tahmin pozisyonlarını toplu güncelleştirme işlemini kullanarak da değiştirebilirsiniz. 
 
-** Bütçe maliyet öğesi** ayar sayfasında iki seçenek bulunur: **Pozisyonlara ekle** ve **Pozisyonları güncelleştir**. **Pozisyonlara ekle** seçeneği, bütçe maliyet öğesini seçilen tahmin pozisyonlarına ekler. Öğe halihazırda bir tahmin pozisyonuna atanmışsa, o tahmin pozisyonu atlanır. **Pozisyonları güncelleştir** seçeneği mevcut değerleri (ana hesap, yüzde, yıllık tutar, vb..) seçilen tahmin pozisyonlarına uygular. 
+**Bütçe maliyet öğesi** ayar sayfasında iki seçenek bulunur: **Pozisyonlara ekle** ve **Pozisyonları güncelleştir**. **Pozisyonlara ekle** seçeneği, bütçe maliyet öğesini seçilen tahmin pozisyonlarına ekler. Öğe halihazırda bir tahmin pozisyonuna atanmışsa, o tahmin pozisyonu atlanır. **Pozisyonları güncelleştir** seçeneği mevcut değerleri (ana hesap, yüzde, yıllık tutar, vb..) seçilen tahmin pozisyonlarına uygular. 
 
 Her işlemin, tahmin pozisyonlarını seçebileceğiniz benzer bir sayfası bulunur. **Pozisyonlara ekle** sayfası seçim için kullanılabilir olan tüm tahmin pozisyonlarını, **Pozisyonları güncelle** sayfası sadece halihazırda atanmış bütçe maliyet öğesi bulunan tahmin pozisyonlarını gösterir. (Bu nedenle, **Pozisyonları güncelleştir** sayfası hangi tahmin pozisyonlarına zaten maliyet öğesi eklendiğini bulmak için bir yol sunar.) Güncelleştirmeye dahil etmek için tahmin pozisyonlarını üst kılavuzdan alt kılavuza taşıyın. 
 

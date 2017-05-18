@@ -3,7 +3,7 @@ title: "Günlük girişlerini veya hareketlerini görüntüleme"
 description: "Bu makalede, günlük girişlerini ve hareketleri görüntüleyebileceğiniz çeşitli yollar açıklanmaktadır."
 author: RobinARH
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ef99caf4570969d2b920cec8b53669ce2094965
-ms.openlocfilehash: a6848ea9c05536ac18a038b1864c9ccb9408964c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 021a74811212f65977407b8454086b0e7b703a2f
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-journal-entries-and-transactions"></a>Günlük girişlerini veya hareketlerini görüntüleme
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, günlük girişlerini ve hareketleri görüntüleyebileceğiniz çeşitli yollar açıklanmaktadır. 
 
@@ -52,6 +56,11 @@ Mali raporlara ek olarak, aşağıdaki genel muhasebe raporlarını kullanarak g
 -   **Hareket kaynağı** – Bu hareket raporu, hesabı günlüğe ve harekete, muhasebeye ve raporlama para birimine göre gösterir.  Ayrıca, bir mahsup olarak kullanılmış günlüğün her bir satırını gösterir.
 
 
-Daha fazla bilgi için bkz. [Genel muhasebe hesabı bakiyeleri](general-ledger-account-balances.md), [Muhasebe kaynağı gezgini](\financials\accounts-payable\accounting-source-explorer) ve [Mali raporlama](financial-reporting-getting-started.md)
+##<a name="see-also"></a>Ayrıca bkz.
+- [Genel muhasebe hesap bakiyeleri](general-ledger-account-balances.md) 
+- [Muhasebe kaynağı gezgini](..\accounts-payable\accounting-source-explorer.md)
+- [Mali raporlama](financial-reporting-getting-started.md)
+
+
 
 

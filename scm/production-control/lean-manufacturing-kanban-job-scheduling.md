@@ -3,7 +3,7 @@ title: "Yalın üretim için Kanban iş planlama"
 description: "Bu makale, kanban iş planlamaları üzerinde görsel denetim sağlamak ve kanban işlerini planlamak için çeşitli yöntemler hakkında bilgi sağlar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 02 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,22 +18,28 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 062cbbc8a4fd3b4dc738f24ee0606a3741736377
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 019974b96985748c82641b73e40a3131d5b27232
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Yalın üretim için Kanban iş planlama
 
+[!include[banner](../includes/banner.md)]
+
+
 Bu makale, kanban iş planlamaları üzerinde görsel denetim sağlamak ve kanban işlerini planlamak için çeşitli yöntemler hakkında bilgi sağlar.  
 
 **Kanban iş planlama çizelgeleme** sayfası yalın üretim iş hücreleri zamanlamaları üzerinde görsel denetim sağlar. Bu, tüm kanban işlerin özetini verir ve birden çok filtre olanakları sağlar. Bu sayfadan kanban yapılandırma ve yürütme ilgili diğer sayfalara taşıyabilirsiniz.
 
 ## <a name="automatic-scheduling-of-kanban-jobs"></a>Kanban işleri otomatik zamanlama
-**Otomatik planlama miktarı** parametresini kuralında ayarladıysanız, planlama otomatik olarak tetiklenebilir. **Otomatik planlama miktarını** **1** olarak ayarlarsanız, her kanban işi oluşturulduğunda planlanır. Sonuç bir dizi ilk çekene ilk hizmet işlemidir. **Otomatik planlama miktarı**'nı 1'den büyük bir değere ayarlarsanız, kanban işler planlanmadan önce gruplandırılır. Bu kavram kanban boyutları gerçek ekonomik toplu boyutlarına azaltılmasını sağlar. Örneğin, belirli bir madde (veya madde ailesi için) ekonomik toplu iş boyutu 30'dur. Ürün miktarı 30 kullanan kanbanlar oluşturmak yerine, kanban kuralını, bir 10 olan bir ürün miktarı ve **Otomatik planlama miktarı ** **3** olacak şekilde yapılandırabilirsiniz. Otomatik planlama sadece üç planlanmamış iş varken iş hücresi için kanban işleri planlasa da, yürütme bekleyen iki planlanmamış iş olduğu planlayıcıya ve atölye gözetmenine tamamen saydamdır. Planlayıcı veya Atölye Yöneticisi daha sonra bu iki işleri el ile planlayarak veya ek kanban oluşturarak üretime alabilir.
+**Otomatik planlama miktarı** parametresini kuralında ayarladıysanız, planlama otomatik olarak tetiklenebilir. **Otomatik planlama miktarını** **1** olarak ayarlarsanız, her kanban işi oluşturulduğunda planlanır. Sonuç bir dizi ilk çekene ilk hizmet işlemidir. **Otomatik planlama miktarı**'nı 1'den büyük bir değere ayarlarsanız, kanban işler planlanmadan önce gruplandırılır. 
+
+Bu kavram kanban boyutları gerçek ekonomik toplu boyutlarına azaltılmasını sağlar. Örneğin, belirli bir madde (veya madde ailesi için) ekonomik toplu iş boyutu 30'dur. Ürün miktarı 30 kullanan kanbanlar oluşturmak yerine, kanban kuralını, bir 10 olan bir ürün miktarı ve **Otomatik planlama miktarı** **3** olacak şekilde yapılandırabilirsiniz. Otomatik planlama sadece üç planlanmamış iş varken iş hücresi için kanban işleri planlasa da, yürütme bekleyen iki planlanmamış iş olduğu planlayıcıya ve atölye gözetmenine tamamen saydamdır. Planlayıcı veya Atölye Yöneticisi daha sonra bu iki işleri el ile planlayarak veya ek kanban oluşturarak üretime alabilir.
 
 ## <a name="manual-scheduling"></a>El ile yapılan planlama
 El ile planlama için Microsoft Dynamics AX 2012 kanban zamanlama tablosu kanban kullanılmaya başladı. El ile planlama, otomatik zamanlama ile birleştirilebilir. Kanban zamanlama tablosu işleri planlamanızı ve planları kaldırmanız, sırayla taşımanızı veya dönem dönem taşımanızı sağlar. İşler **otomatik planlama** değeri **0**'dan fazla olduğu kanban kuralının el ile planlanmamış olduğu kanban kuralına dayanır. Ancak sonraki otomatik planlama olay gerçekleştiğinde bu işler yeniden planlanır (Yeni kanban oluşturulduğunda). El ile zamanlama için aşağıdaki seçenekler kullanılabilir:
@@ -41,7 +47,7 @@ El ile planlama için Microsoft Dynamics AX 2012 kanban zamanlama tablosu kanban
 -   **Zamanlama** seçilen projelerin son tarihlerine göre zamanlar. (Bu seçenek, otomatik planlamaya benzer.)
 -   **Başlangıç tarihinden ileriye zaman planlaması yapın** vade tarihlerine göre seçilen işleri zamanlamaya çalışır, ancak sonucu belirtilen en erken başlangıç tarihi kullanarak zorlar.
 -   **Geriye doğru** seçili zamanlanmış işleri sırayla dönem içinde geriye taşır.
--   ** İleriye doğru** seçili zamanlanmış işleri sırayla dönem içinde ileriye taşır.
+-   **İleriye doğru** seçili zamanlanmış işleri sırayla dönem içinde ileriye taşır.
 -   **Önceki dönem** seçili zamanlanmış işleri önceki dönem başına veya sonuna taşır.
 -   **Sonraki dönem** seçili zamanlanmış işleri sonraki dönem başına veya sonuna taşır.
 -   **Plan** &gt; **iş durumunu geri al** , zamanlanmış bir işi zamanlamayı kaldırma sağlar.
@@ -66,5 +72,7 @@ Gün veya hafta olarak kullanılabilir kapasite iş hücresine atanan takvime g�
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
+
+
 
 

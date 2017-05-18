@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: fabaacbc7187b38a1745c2139a9eb7760f2be987
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: a0a105ade7e47d7c554d62ee112ed03437bb7521
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -54,10 +55,10 @@ Form belgesinin düzenini grafik olarak oluşturmak için form düzen tasarımc�
 5.  Kurulum tamamlandıktan sonra, tasarımcıyı başlatmak için Dynamics 365 for Operations kullanıcı adınızı ve parolanızı girip **Oturum aç** tuşuna tıklayın.
 6.  Bilgileriniz doğrulandıktan ve tasarımcı başlatıldıktan sonra, giriş biçimi tasarlamaya veya mevcut bir biçimi değiştirmeye başlayabilirsiniz.
 7.  Formun öğelerini oluşturmak için, **Başlık**, **Satırlar** veya **Altbilgi** bölümünü seçip, bir öğeyi o bölümden çalışma alanına sürükleyin. Çoğu öğe otomatik olarak veritabanından gelen verilerle doldurulan değişkenleri içerir. **Metin** gibi diğer öğeler size giriş üzerindeki özel metni yazdırma olanağı verir. **Not:** Her bölümün kaç satır içerdiğini, o bölümün sağ alt köşesindeki sayıyı ayarlayarak belirleyebilirsiniz. Bir bölümü değiştirmeyi kolaylaştırmak için, bölümün altındaki boyutlandırma çubuğunu sürükleyerek yüksekliğini arttırın. Çalışma alanındaki bölümün yüksekliği, gerçek girişteki satır sayısını etkilemez.
-8.  Bir öğeyi çalışma alanına sürükledikten sonra, sayfanın altındaki **Nesne bilgisi **bölmesinde o kısmın özelliklerini ayarlayın. Aşağıdaki ayarlardan birini veya birden fazlasını girin:
+8.  Bir öğeyi çalışma alanına sürükledikten sonra, sayfanın altındaki **Nesne bilgisi**bölmesinde o kısmın özelliklerini ayarlayın. Aşağıdaki ayarlardan birini veya birden fazlasını girin:
     -   **Hizala** – Alanı **Sola** veya **Sağa** hizalayın.
     -   **Dolgu karakteri** – Boşluk karakterini belirleyin. Varsayılan olarak boş bir alan kullanılır, ancak herhangi bir karakter girebilirsiniz.
-    -   **Önek** – Alanın başında görünen değeri girin. Bu ayar sadece düzenin **Satırlar **bölümünde uygulanır.
+    -   **Önek** – Alanın başında görünen değeri girin. Bu ayar sadece düzenin **Satırlar**bölümünde uygulanır.
     -   **Karakterler** – Öğe bir değişken içeriyorsa, alanın içerebileceği maksimum karakter sayısını belirtin. Alandaki metin, belirttiğiniz karakter sayısından uzunsa, metin alana sığacak şekilde kesilir.
     -   **Değişken** – Öğe bir değişken içeriyorsa ve özelleştirilemiyorsa, bu onay kutusu otomatik olarak seçilir.
     -   **Yazı tipi** – Yazı tipi stilini **Normal** veya **Kalın** olarak ayarlayın. Kalın harfler normal harflerden iki kat daha fazla yer kaplar. Bu yüzden, bazı karakterler kesilebilir.
@@ -67,7 +68,7 @@ Form belgesinin düzenini grafik olarak oluşturmak için form düzen tasarımc�
 Giriş profilleri donanım profili yoluyla doğrudan yazıcılara atanır.
 
 1.  Donanım profilini **Perakende ve ticaret** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım profili**'ne tıklayarak açın.
-2.  Yazıcıyı seçin ve **Giriş profili **alanında kayıtta kullanılacak fatura profilini atayın.
+2.  Yazıcıyı seçin ve **Giriş profili**alanında kayıtta kullanılacak fatura profilini atayın.
 
 **Not:** İki yazıcı kullanılıyorsa, standart 40 sütunluk termal faturaları yazdırmak için bir yazıcı kullanılabilir. İkinci yazıcı normalde daha fazla bilgi gerektiren tam sayfa giriş türlerini yazdırmak için kullanılır. Bu giriş türleri arasında müşteri sipariş girişleri ve müşteri faturaları bulunur.
 

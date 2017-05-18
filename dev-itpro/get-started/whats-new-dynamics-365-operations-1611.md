@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 82d03b6bc190fb612dd2cc7a25dc11875212f1ea
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fbca041e0663fad4437207146bcfff8f93f4a7fc
+ms.openlocfilehash: 67faa02d445cc4c6e78fe5471605d8c0a2da21de
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/27/2017
 
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Dynamics 365 for Operations sürüm 1611'deki yenilikler veya değişiklikler (Kasım 2016)
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu konuda, Dynamics 365 for Operations sürüm 1611'de yeni olan veya değişen özellikler açıklanır.
 
@@ -514,6 +518,11 @@ Aşağıdaki ülkeler Perakende yerelleştirmesi de gerektirmektedir: Bu ülkele
 <li>İsviçre için ESR banka ekstresi içe aktarma biçimi</li>
 </ul></td>
 </tr>
+<tr class="even">
+<td>Almanya – Satıcı ödemelerini DTAZV biçiminde dışa aktar</td>
+<td>Almanya, yabancı bir bankada bulunan bir hesaba giden Almanya'dan sınır ötesi ödemeleri veya yerel bir bankaya giden yabancı para birimindeki demeleri temsil eden bir kredi transferi (satıcı ödemesi) iletisi ile DTAZV yabancı biçim belirtimi gerektirmektedir. 
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -675,7 +684,7 @@ Sorunsuz omni-kanal ticareti fiziksel mağazalarda, çevrimiçi mağazalarda, ç
 
 ### <a name="store-system-providing-a-seamless-on-premises-store-experience"></a>Mağaza sistemi: Sorunsuz yerinde mağaza deneyimi sağlama
 
-Mağaza sistemi, perakendeciler için yerinde mağazada, Microsoft genel bulutu veya müşterinin kendi özel bulutu üzerinde, bir dizi mağaza işleminin yönetilmesine yardımcı olan bir dağıtım seçeneğidir. Microsoft Dynamics AX uygulama sürümü 7.1 için kapsam yalnızca mağaza içi ile sınırlıdır. Yavaş ve güvenilir olmayan ağ bağlantısına sahip ortamları daha iyi desteklemek için, perakendecilere kanal veritabanını ve Retail Server'ı mağazada dağıtacakları bir seçenek sunmalıyız. Perakendeciler merkez (HQ) ile bağlantı olmasa da temel iş senaryolarını çalıştırmaya devam edebilir. Mühendislik ekibi tartışmalarını, müşteri anketi sonuçlarını ve rakip analizlerini içeren çeşitli veri noktalarına göre, hedef müşterilerimiz için ideal çözüm olarak aşağıdaki kapsamı tanımladık:
+Mağaza sistemi, perakendeciler için yerinde mağazada, Microsoft genel bulutu veya müşterinin kendi özel bulutu üzerinde, bir dizi mağaza işleminin yönetilmesine yardımcı olan bir dağıtım seçeneğidir. Bu sürümde, kapsam yalnızca mağaza içidir. Yavaş ve güvenilir olmayan ağ bağlantısına sahip ortamları daha iyi desteklemek için, perakendecilere kanal veritabanını ve Retail Server'ı mağazada dağıtacakları bir seçenek sunmalıyız. Perakendeciler merkez (HQ) ile bağlantı olmasa da temel iş senaryolarını çalıştırmaya devam edebilir. Mühendislik ekibi tartışmalarını, müşteri anketi sonuçlarını ve rakip analizlerini içeren çeşitli veri noktalarına göre, hedef müşterilerimiz için ideal çözüm olarak aşağıdaki kapsamı tanımladık:
 
 -   Mağaza sistemi için bir self servis paket kullanılabilir.
 -   Varsayılan kurulum tek kutudan dağıtımdır ancak özel dağıtıma da izin verilir.
@@ -718,7 +727,7 @@ Mağaza sistemi, perakendeciler için yerinde mağazada, Microsoft genel bulutu 
 | Satıcı olarak, müşteriye aktarılan konsinye stoğun tutarı hakkında bilgi edinin.                                                                      | Müşteriyi faturalandırmak için, satıcıya konsinye stoktan satın alınan hammaddeler ve satınalma tarihi hakkında bilgiler gerekir. Satıcı ayrıca, satıcı iş birliği arabirimini kullanarak müşterinin tesisindeki eldeki stoğu da izleyebilir.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Transfer günlüğü kullanarak satıcıya ait stoğu taşıyın.                                                                                                                       | Satıcıya ait stoğun fiziksel pozisyonunu izlemek için pozisyonu sisteme kaydedebilmeniz gerekir. Transfer günlüğü kullanarak, bir ambardaki bir konumdan aynı ambardaki başka bir konuma taşınma gibi stoğun fiziksel hareketini kaydedebilirsiniz.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Satıcıya ait stoğu sayım günlüğü kullanarak düzeltin.                                                                                                                     | Sistemdeki eldeki stoğu, fiili fiziksel stok ile eşit tutmak önemlidir. Satıcıya ait stok, miktar düzeltmesi ve sayım günlüğü işlemleri gibi sayım işlemleri kullanılarak artı eksi olarak düzeltilebilir.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Dynamics 365 for Operations'da konsinye desteği hakkında daha fazla bilgi edinin                                                                                                         | Konsinye işlemleri desteği hakkında daha fazla bilgi için bkz. [Konsinye](/dynamics365/operations/scm/inventory/consignment), [Konsinyeyi ayarlama](/dynamics365/operations/scm/inventory/set-up-consignment), [Konsinye stok yenileme siparişi oluşturma (Görev kılavuzu)](http://ax.help.dynamics.com/en/wiki/create-a-consignment-replenishment-order/) ve [Üretim talebine bağlı olarak konsinye stok sahipliğini değiştirme (Görev kılavuzu)](http://ax.help.dynamics.com/en/wiki/change-the-ownership-of-consignment-inventory-based-on-production-demand/).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Dynamics 365 for Operations'da konsinye desteği hakkında daha fazla bilgi edinin                                                                                                         | Konsinye işlemleri desteği hakkında daha fazla bilgi için bkz. [Konsinye](/dynamics365/operations/supply-chain/inventory/consignment), [Konsinyeyi ayarlama](/dynamics365/operations/supply-chain/inventory/set-up-consignment), [Konsinye stok yenileme siparişi oluşturma (Görev kılavuzu)](http://ax.help.dynamics.com/en/wiki/create-a-consignment-replenishment-order/) ve [Üretim talebine bağlı olarak konsinye stok sahipliğini değiştirme (Görev kılavuzu)](http://ax.help.dynamics.com/en/wiki/change-the-ownership-of-consignment-inventory-based-on-production-demand/).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Satıcı iş birliği (eski adıyla Satıcı portalı)
 
@@ -728,7 +737,7 @@ Mağaza sistemi, perakendeciler için yerinde mağazada, Microsoft genel bulutu 
 | Satıcıların ilgili kişi bilgilerini yönetmesini sağlayın.                                 | Satıcılar şirketleri için ilgili kişi bilgilerini saklayabilir. Bu bilgiler adları, e-posta adreslerini ve telefon numaralarını içerir. Bu özelliğe erişim özel bir güvenlik rolü üzerinden sağlanır.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Satınalma siparişleri ile ilgili belgeleri satıcılarla paylaşın.                    | Gereksinimler hakkında bir belge gibi bir belgeyi bir satıcıyla paylaşmanız gerektiğinde belgeyi ilgili satınalma siparişine bağlamak uygundur. Satıcı, belgeyi satınalma siparişine verdiği yanıta bağlayarak notları ve ekleri müşteriyle paylaşabilir. Belge yönetimi temel destekleyici çerçevesidir ve yalnızca "harici" olarak sınıflandırılan notlar ve ekler satıcılarla paylaşılabilir.                                                                                                                                                                                                                                                                                                                              |
 | Yeni satıcı kullanıcıları provizyonu.                                                          | Satıcılarınız satıcı iş birliği arabirimini kullanıyorsa yeni kişiler, satıcı iş birliğine erişim istediğinde yeni kullanıcı hesapları istemek için sorunsuz bir yönteme sahiptir. Tedarik profesyonelleri satıcı kuruluştaki bir ilgili kişi için bir kullanıcı hesabı isteği gönderebilir. Zaten satıcı iş birliği kullanıcısı olan bir satıcı ilgili kişisi de bu tür bir istek gönderebilir. Bu istek sonuç olarak Dynamics 365 for Operations'da satıcıya özel güvenlik rolleri olan yeni bir kullanıcı oluşturur. Ayrıca, kullanıcıya yeni bir Azure Active Directory (Azure AD) kullanıcı hesabı sağlamak üzere Microsoft Azure B2B portalına gönderilen isteği de kolaylaştırır. Satıcılar ayrıca belirli satıcı kullanıcısı hesaplarının devre dışı bırakılmasını veya güvenlik rollerinin değiştirilmesini de isteyebilir. |
-| Dynamics 365 for Operations'da satıcı iş birliği desteği hakkında daha fazla bilgi edinin. | Satıcı iş birliği hakkında daha fazla bilgi için bkz. [Harici satıcılarla satıcı iş birliği](/dynamics365/operations/scm/procurement/vendor-collaboration-work-external-vendors), [Müşterilerle satıcı iş birliği](/dynamics365/operations/scm/procurement/vendor-collaboration-work-customers-dynamics-365-operations), [Satıcı iş birliği kullanıcılarını yönetme](/dynamics365/operations/scm/procurement/manage-vendor-collaboration-users), [Satıcı iş birliğini ayarlama ve koruma](/dynamics365/operations/scm/procurement/set-up-maintain-vendor-collaboration) ve [Satıcı iş birliği faturalama çalışma alanı](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).                                                         |
+| Dynamics 365 for Operations'da satıcı iş birliği desteği hakkında daha fazla bilgi edinin. | Satıcı iş birliği hakkında daha fazla bilgi için bkz. [Harici satıcılarla satıcı iş birliği](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-work-external-vendors), [Müşterilerle satıcı iş birliği](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations), [Satıcı iş birliği kullanıcılarını yönetme](/dynamics365/operations/supply-chain/procurement/manage-vendor-collaboration-users), [Satıcı iş birliğini ayarlama ve koruma](/dynamics365/operations/supply-chain/procurement/set-up-maintain-vendor-collaboration) ve [Satıcı iş birliği faturalama çalışma alanı](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).                                                         |
 
 ### <a name="intercompany-order-processing"></a>Şirketlerarası sipariş işleme
 
@@ -846,5 +855,7 @@ Mağaza sistemi, perakendeciler için yerinde mağazada, Microsoft genel bulutu 
 --------
 
 [Yeni veya değişenler nedir](whats-new-changed.md)
+
+
 
 

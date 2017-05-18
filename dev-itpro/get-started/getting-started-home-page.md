@@ -3,7 +3,7 @@ title: "Nerden başlanır"
 description: "Hızlı alışmak ve Microsoft Dynamics 365 for Operations Kullanıcı Arabirimi&quot;ni öğrenmek için buradan başlayın."
 eauthor: sericks007
 manager: AnnBe
-ms.date: 2015-12-11 15 - 19 - 40
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ o# ms.search.industry:
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 8f75131c6be6ce0f23cce456405d5e211912f19a
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 69995d2f8a463e82e7a26b673737889b4ea17402
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="where-to-start"></a>Nerden başlanır
+
+[!include[banner](../includes/banner.md)]
+
 
 Hızlı alışmak ve Microsoft Dynamics 365 for Operations Kullanıcı Arabirimi'ni öğrenmek için buradan başlayın.
 
@@ -36,7 +40,7 @@ Aşağıdaki kaynaklar Dynamics 365 for Operations'a alışmak ve Dynamics 365 f
 - [Microsoft FastTrack for Dynamics 365 genel bakış](/dynamics365/operations/get-started/fasttrack-dynamics-365-overview) 
 - [Bir aboneliğe kaydolma](../dev-tools/sign-up-preview-subscription.md) 
 - [Microsoft Dynamics 365 for Operations müşterileri için Lifecycle Services (LCS)](../lifecycle-services/lcs-works-lcs.md) 
-- [Microsoft Dynamics 365 for Operations'ı bir Bulut Hizmet Sağlayıcısı üzerinden satın alan müşterilerin, Dynamics 365 for Operations 2012'nin yerinde sürümünü nasıl alabilecekleri](../deployment/csp-download-customersource.md)
+- [Microsoft Dynamics 365 for Operations'ı bir Bulut Hizmet Sağlayıcısı üzerinden satın alan müşterilerin, Dynamics AX 2012'nin yerinde sürümünü nasıl alabilecekleri](../deployment/csp-download-customersource.md)
 
 ## <a name="user-interface"></a>Kullanıcı arabirimi
 Aşağıdaki kaynaklar, Dynamics 365 for Operations kullanıcı deneyimi hakkında bilgi sağlar. 
@@ -71,12 +75,12 @@ Görev Kaydedici, kullanıcı arabiriminde (UI) gerçekleştirdiğiniz eylemleri
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Görev Kaydedicisi (Dış bağlantı) kullanarak Lifecycle Services içinde Dynamics 365 for Operations için Yeni Eğitim Kitaplıkları oluşturma](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
-
 [Yeni Görev kılavuzları (Şubat 2016)](new-task-guides-available-february-2016.md)
 
 [Yeni veya güncelleştirilmiş görev kılavuzları (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Yeni veya güncelleştirilmiş Görev kılavuzları (Kasım 2016)](new-task-guides-november-2016.md)
+
+
 
 

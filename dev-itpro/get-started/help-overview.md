@@ -3,7 +3,7 @@ title: "Yardıma genel bakış"
 description: "Bu makale, Microsoft Dynamics 365 for Operations Yardım sistemi bileşenlerine genel bir bakış sunar. Makalede, kuruluşunuz için özel belgeleri ve eğitimi nasıl sağlayabileceğiniz açıklanmaktadır."
 author: margoc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 240060606c8a2955c3f0a0d47fb25b0cde64c187
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
+ms.openlocfilehash: f08434b4c818460009644e77da1b37ba86cc1d54
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/27/2017
 
 
 ---
 
 # <a name="help-overview"></a>Yardıma genel bakış
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makale, Microsoft Dynamics 365 for Operations Yardım sistemi bileşenlerine genel bir bakış sunar. Makalede, kuruluşunuz için özel belgeleri ve eğitimi nasıl sağlayabileceğiniz açıklanmaktadır. 
 
@@ -37,18 +41,18 @@ Dynamics 365 for Operations, iki ana bileşeni temel alan bir Yardım sistemi i�
 Aşağıdaki ekran alıntısında gösterildiği gibi, Dynamics 365 for Operations'daki Yardım bölmesinden hem makalelerine hem de görev kılavuzlarına erişebilirsiniz. [![Yardım panosu](./media/help-pane-ops-task-guides-1024x741.png)](./media/help-pane-ops-task-guides.png) Bu makale, Yardım sistemini anlatır ve kuruluşunuz için özel belgeleri ve eğitim kaynaklarını nasıl oluşturabileceğinizi açıklar.
 
 ## <a name="help-on-docsmicrosoftcom"></a>docs.microsoft.com adresindeki yardım
-docs.microsoft.com sitesi ([docs.microsoft.com/dynamics365/operations](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_operations) Dynamics 365 for Operations için birincil ürün belgelendirme kaynağıdır. Sitede aşağıdaki özellikler sunulmaktadır:
+docs.microsoft.com sitesi ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations) Dynamics 365 for Operations için birincil ürün belgelendirme kaynağıdır. Sitede aşağıdaki özellikler sunulmaktadır:
 
 -   **En güncel içeriğe erişim** – Site ürün belgeleri oluşturmak, teslim etmek ve güncelleştirmek için daha hızlı ve daha esnek bir yol sunar. Bu nedenle, en son teknik bilgilerin erişimine sahip olmanızı garanti etmeye yardımcı olur.
--    **Uzmanlar tarafından yazılan içerik** – Site Microsoft'un içindeki ve dışındaki topluluk üyeleri tarafından geliştirilebilecek daha zengin bir ürün belgesi kümesi sağlar.
--   ** Çeşitli içerik türlerine erişim** – Site, Dynamics 365 for Operations ile ilgili Microsoft Office Mix sunumları, görev kılavuzları, videolar ve wiki makaleleri gibi farklı türlerde içeriklere hızlı erişim sağlar.
--    **İş süreçlerini destekleyen içerik** – Site Microsoft Dynamics Lifecyle Services (LCS)içindeki İş Süreci Modelleyici'den (BPM) yararlanan iş süreci odaklı içeriği içerir.
+-   **Uzmanlar tarafından yazılan içerik** – Site Microsoft'un içindeki ve dışındaki topluluk üyeleri tarafından geliştirilebilecek daha zengin bir ürün belgesi kümesi sağlar.
+-   **Çeşitli içerik türlerine erişim** – Site, Dynamics 365 for Operations ile ilgili Microsoft Office Mix sunumları, görev kılavuzları, videolar ve konular gibi farklı türlerde içeriklere hızlı erişim sağlar.
+-   **İş süreçlerini destekleyen içerik** – Site Microsoft Dynamics Lifecyle Services (LCS)içindeki İş Süreci Modelleyici'den (BPM) yararlanan iş süreci odaklı içeriği içerir.
 
 Tüm içeriği, önceki yardım wikimizden docs'lara geçirdik. Yeni sitemiz için çok heyecanlıyız ve sizin de öyle olmanızı umuyoruz.
 
 ### <a name="when-can-we-use-it"></a>Onu ne zaman kullanabiliriz?
 
-Şu anda docs üzerinde içerik okuyabilirsiniz -- oturum açmayı gerektirmeden tam olarak ortak ve aranabilirdir. İçeriği bulmak için sık kullandığınız arama motorlarından istediğinizi kullanabilirsiniz. Bir GitHub hesabıyla oturum açarak, İsterseniz site üzerindeki makalelere yorum yapabilirsiniz.
+Şu anda docs üzerinde içerik okuyabilirsiniz -- oturum açmayı gerektirmeden tam olarak ortak ve aranabilirdir. İçeriği bulmak için sık kullandığınız arama motorlarından istediğinizi kullanabilirsiniz. Oturum açarak, İsterseniz site üzerindeki makalelere yorum yapabilirsiniz.
 
 
 ## <a name="task-guides"></a>Görev kılavuzları
@@ -68,7 +72,7 @@ Görev Kaydedici hakkında daha fazla bilgi için bkz. [Dynamics 365 for Operati
 Kendi görev kayıtlarınızı oluşturabilirsiniz veya Microsoft'un sağladığı görev kaydını indirebilir ve özelleştirebilirsiniz. Bu nedenle, belirli Dynamics 365 for Operations uygulamanızı yansıtan, kuruluşunuz için özelleştirilmiş Yardım oluşturabilirsiniz. Dynamics 365 for Operations Yardım bölmesinde bir görev kaydetmeyi görüntülemek ve Görev kılavuzu olarak yürütmek için kaydı bir LCS içerisinde bir BPM kitaplığına kaydetmeniz gerekir. Bir ortaksanız ve bir kitaplığı şirket kitaplığına yükseltirseniz ve bir çözüme eklerseniz, müşterileriniz tarafından kullanılabilir olacaktır. Tam yönergeler için bkz. [Belgeler veya eğitim oluşturmak için görev kayıtlarını kullanmak.](../user-interface/task-recorder.md).
 
 ## <a name="in-product-help"></a>Ürün içi Yardım
-Dynamics 365 for Operations'ın içerisinde Yardım içeriğine erişmek için **Yardım** (**?**) simgesine tıklayın ve sonra Yardımı seçin veya Ctrl+Shift+?' tuşlarına basın. Her iki durumda Yardım bölmesi açılır. Yardım bölmesinden, makalelerine veya görev kılavuzlarına ulaşabilirsiniz. [![](./media/help-pane-wiki-1024x684.png)](./media/help-pane-wiki.png)
+Dynamics 365 for Operations'ın içerisinde Yardım içeriğine erişmek için **Yardım** (**?**) simgesine tıklayın ve sonra Yardımı seçin veya Ctrl+Shift+?' tuşlarına basın. Her iki durumda Yardım bölmesi açılır. Yardım bölmesinden, makalelerine veya görev kılavuzlarına ulaşabilirsiniz. [![Yardım bölmesi](./media/help-pane-wiki-1024x684.png)](./media/help-pane-wiki.png)
 
 ### <a name="accessing-articles-from-the-help-pane"></a>Yardım Bölmesi'nden makalelere erişme
 
@@ -83,7 +87,7 @@ Yardım bölmesinden Görev kılavuzlarına erişmeden önce, bir Sistem yöneti
 
 [![Sistem Parametreleri formu Yardım ayarları](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) **Sistem parametreleri** sayfasında şu adımları izleyin:
 
-1.  **Önemli: **Yardım sekmesini ilk kez açtığınızda Lifecycle Services'e bağlanmanız gerekir. Formun ortasındaki bağlantıya tıkladığınızdan emin olun, bağlantı için bekleyin, iletişim kutusunu kapatın ve parametreler formunu almak için Tamam'a tıklayın.[![LCS'ye bağlan](./media/connect-to-lcs-crop-1024x365.png)](./media/connect-to-lcs-crop.png)
+1.  **Önemli:**Yardım sekmesini ilk kez açtığınızda Lifecycle Services'e bağlanmanız gerekir. Formun ortasındaki bağlantıya tıkladığınızdan emin olun, bağlantı için bekleyin, iletişim kutusunu kapatın ve parametreler formunu almak için Tamam'a tıklayın.[![LCS'ye bağlan](./media/connect-to-lcs-crop-1024x365.png)](./media/connect-to-lcs-crop.png)
 2.  Bağlanmak için Lifecycle Hizmetleri projesini seçin.
 3.  Görev kayıtlarını almak için BPM kitaplıkları (Seçili proje içinde) seçin.
 4.  BPM kitaplıklarının görüntülenme sırasını ayarlayın. Bu Yardım bölmesinde kitaplıklardaki görev kayıtlarının hangi sırayla görüneceğini belirler.
@@ -101,13 +105,13 @@ Aşağıdaki tablo, Dynamics 365 for Operations içeriği sağlayan web siteleri
 
 | Tesis                                                                     | Açıklama                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Docs.microsoft.com adresindeki yardım](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_operations) | Dynamics 365 for Operations için tüm ürün belgelerini barındırır veya bunlara bağlantı kurar.                                                                                                                                                               |
+| [Docs.microsoft.com adresindeki yardım](/dynamics365/#pivot=solutions&panel=solutions_operations) | Dynamics 365 for Operations için tüm ürün belgelerini barındırır veya bunlara bağlantı kurar.                                                                                                                                                               |
 | [Lifecycle Services](http://lcs.dynamics.com/en/)\*                      | Müşteriler ve ortakların satış öncesinden uygulama ve işlemlere kadar Dynamics 365 for Operations projelerini yönetebilmesi için bulut-tabanlı iş birliğine dayalı çalışma alanı sağlar. Bu site uygulamanın tüm aşamalarında yararlıdır. |
 | [CustomerSource](http://www.customersource.com/)\*                       | Kapsamlı eğitim kaynaklarını barındırır ve Dynamics 365 for Operations için birincil destek sitesidir. Sitedeki belirli kaynaklara erişmek için oturum açmak gerekebilir.                                                                      |
 | [Destek blogu](http://aka.ms/AXSupportBlog)                              | Dynamics 365 for Operations Destek ekibi tarafından yayınlanan ipuçlarını ve püf noktaları sağlar.                                                                                                                                                  |
 | [MSDN](http://aka.ms/AXMSDN)                                             | Geliştiriciler için yazılmış önceki sürümlerin içeriklerini barındırır.                                                                                                                                                                       |
 | [TechNet](http://aka.ms/TechNet)                                         | BT uzmanları ve uygulama kullanıcıları için yazılmış önceki sürümlerdeki içeriği barındırır.                                                                                                                                           |
-| [Dynamics Topluluğu](http://community.dynamics.com/en/)                  | Bloglar, forumlar ve videoları barındırır.                                                                                                                                                                                                           |
+| [Dynamics Topluluğu](http://community.dynamics.com/)                  | Bloglar, forumlar ve videoları barındırır.                                                                                                                                                                                                           |
 | [Microsoft.com/Dynamics/](http://www.microsoft.com/dynamics/)                 | Değerlendirme ve satış bilgileri sağlar.                                                                                                                                                                                                 |
 
 
@@ -125,6 +129,8 @@ Aşağıdaki tablo, Dynamics 365 for Operations içeriği sağlayan web siteleri
 [Yeni veya güncelleştirilmiş Görev kılavuzları (Ağustos 2016)](new-updated-task-guides-available-august-2016.md)
 [Yeni veya güncelleştirilmiş Görev kılavuzları (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
 [Yeni veya güncelleştirilmiş Görev kılavuzları(Şubat 2016)](new-task-guides-available-february-2016.md)
+
+
 
 
 

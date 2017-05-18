@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 0719a49bee069dc49be084a3fbc4ba5eb4883d03
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2f0ddf0e4cff0d799a7baf6bdc9d5c2da0622f4d
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -98,7 +99,7 @@ Bir satıcıyı beklemeye aldığınızda, bir sebep, tarih ve beklemeye alma du
 Birden fazla satıcı aynı fatura adresine sahipse veya bir satıcı bir üçüncü taraf üzerinden faturalandırılıyorsa, satıcı kaydında bir fatura hesabı belirtebilirsiniz. Fatura hesabı, satınalma siparişinden bir satıcı faturası oluşturduğunuzda, fatura tutarının alacaklandırılacağı hesaptır. Eğer satıcı kaydında bir fatura hesabı girmezseniz, satıcı hesabı, fatura hesabı olarak kullanılır.
 
 ## <a name="vendor-bank-accounts"></a>Satıcı banka hesapları
-Eğer bir satıcı banka hesabına ödeme yapmanız gerekiyorsa, satıcının bankası ve banka hesabı bilgisini **Satıcı banka hesapları **sayfasından girebilirsiniz. Ayrıca banka hesabının ödemeleri ve doğrulaması için bilgileri de girebilirsiniz. Örneğin, satıcı banka hesaplarına provizyonlar ekleyebilirsiniz. Bu provizyonlar daha sonra hesap verisini, örneğin rota numarası ve hesap numaralarının teyit edilmesine kullanılabilir. Satıcıya yapılacak ödemeler için bir varsayılan hesap belirtmeniz gerekir. Ancak, gerçek bir ödeme yaptığınızda, bu hesabı satıcının diğer hesaplarından birine değiştirebilirsiniz.
+Eğer bir satıcı banka hesabına ödeme yapmanız gerekiyorsa, satıcının bankası ve banka hesabı bilgisini **Satıcı banka hesapları**sayfasından girebilirsiniz. Ayrıca banka hesabının ödemeleri ve doğrulaması için bilgileri de girebilirsiniz. Örneğin, satıcı banka hesaplarına provizyonlar ekleyebilirsiniz. Bu provizyonlar daha sonra hesap verisini, örneğin rota numarası ve hesap numaralarının teyit edilmesine kullanılabilir. Satıcıya yapılacak ödemeler için bir varsayılan hesap belirtmeniz gerekir. Ancak, gerçek bir ödeme yaptığınızda, bu hesabı satıcının diğer hesaplarından birine değiştirebilirsiniz.
 
 ## <a name="ledger-accounts"></a>Genel muhasebe hesapları
 Fatura günlüklerinde otomatik olarak beliren varsayılan hesapları belirtilen satıcı için belirleyebilirsiniz. Bu işlevsellik, zaman içerisinde aynı satıcılardan genellikle aynı türde öğelere ve hizmetlere ödeme yapıyorsanız faydalı olabilir. Varsayılan bir hesap belirttiğinizde, hesap günlüklerine hızlı ve verimli bir şekilde günlük girişleri yapabilirsiniz. Belirttiğiniz varsayılan hesaplar satınalma siparişlerinde veya **Satıcı faturası** üzerinden girilen satıcı faturalarında kullanılmaz.  

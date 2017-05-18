@@ -1,9 +1,9 @@
 ---
 title: "İş akışı sistemine genel bakış"
-description: "Bu makalede, Microsoft Dynamics 365 for Operations&quot;daki iş akışı sistemi açıklanmaktadır."
+description: "Bu konuda, Microsoft Dynamics 365 for Operations&quot;daki iş akışı sistemi açıklanmaktadır."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 08c36f02f88fef7508730b6c01a1c99a0f77fb0c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5432e67ffa41e6a38b19c9fe5bb12c5acb2c345c
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -29,7 +30,7 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, Microsoft Dynamics 365 for Operations'daki iş akışı sistemi açıklanmaktadır.
+Bu konuda, Microsoft Dynamics 365 for Operations'daki iş akışı sistemi açıklanmaktadır.
 
 <a name="what-is-workflow"></a>İş akışı nedir?
 -----------------
@@ -41,9 +42,13 @@ Bu makalede, Microsoft Dynamics 365 for Operations'daki iş akışı sistemi aç
 
 ### <a name="workflow-is-a-business-process"></a>İş akışı bir iş sürecidir
 
-İş akışı, bir iş sürecini temsil eder. Bir görevin kimin tarafından tamamlanacağını, bir kararın kimin tarafından verileceğini veya bir belgenin kimin tarafından onaylanacağını göstererek bir belgenin sistem üzerinde nasıl aktığını veya taşındığını tanımlar. Örneğin, aşağıdaki şekilde gider raporları için bir iş akışı gösterilmiştir. ![Kullanıcılara atanan öğelere sahip iş akışı](./media/workflow_user.gif) Bu iş akışını daha iyi anlamak için Sam'in 7,000 USD tutarı için bir harcama rapor gönderdiğini kabul edelim. Bu senaryoda, Barış'ın mutlaka Haluk'un kendisine yönlendirdiği makbuzları gözden geçirmesi gerekir. Ardından Atilla ve Sibel'in gider raporunu onaylaması gerekir. Şimdi ise Sam'in 11,000 TL tutarında bir gider raporu teslim ettiğini varsayın. Bu senaryoda, Barış'ın makbuzları gözden geçirmesi ve Atilla, Sibel ve Ayla'nın gider raporunu onaylaması gerekir.
- İş akışı sistemini kullanmanın yararları
--------------------------------------
+İş akışı, bir iş sürecini temsil eder. Bir görevin kimin tarafından tamamlanacağını, bir kararın kimin tarafından verileceğini veya bir belgenin kimin tarafından onaylanacağını göstererek bir belgenin sistem üzerinde nasıl aktığını veya taşındığını tanımlar. Örneğin, aşağıdaki görselde gider raporları için bir iş akışı gösterilmiştir. 
+
+![Kullanıcılara atanan öğelerle birlikte iş akışı](./media/workflow_user.gif) 
+
+Bu iş akışını daha iyi anlamak için Haluk'un 7.000 ABD Doları tutarında bir gider raporu teslim ettiğini düşünün. Bu senaryoda, Barış'ın mutlaka Haluk'un kendisine yönlendirdiği makbuzları gözden geçirmesi gerekir. Ardından Atilla ve Sibel'in gider raporunu onaylaması gerekir. Şimdi ise Sam'in 11,000 TL tutarında bir gider raporu teslim ettiğini varsayın. Bu senaryoda, Barış'ın makbuzları gözden geçirmesi ve Atilla, Sibel ve Ayla'nın gider raporunu onaylaması gerekir.
+
+## <a name="benefits-of-using-the-workflow-system"></a> İş akışı sistemini kullanmanın yararları
 
 İş akışı sistemini kuruluşunuzda kullanmanın bazı getirileri vardır:
 -   **Tutarlı süreçler** – Satın alma talepleri ve gider raporları gibi belirli belgelerin nasıl işlendiğini tanımlayabilirsiniz. İş akışı sistemini kullanarak, belgelerin tutarlı ve verimli şekilde işlenmesini ve onaylanmasını sağlayabilirsiniz.
@@ -51,6 +56,20 @@ Bu makalede, Microsoft Dynamics 365 for Operations'daki iş akışı sistemi aç
 -   **Merkezi iş listesi** – Kullanıcılar, İş akışı görevlerini ve kendilerine atanmış onayları görmek için merkezi bir çalışma listesini görüntüleyebilir.
 
 
+## <a name="workflow-content"></a>İş akışı içeriği
 
-
++ [İş akışı mimarisi](workflow-system-architecture.md)
++ [İş akışı öğeleri](workflow-elements.md)
++ [İş akışı eylemleri](workflow-actions.md)
++ [İş akışı oluşturma](create-workflow.md)
++ [İş akışı özelliklerini yapılandırma](configure-workflow-properties.md)
++ [Bir görev akışında el ile yapılan görevi yapılandır](configure-manual-task-workflow.md)
++ [Bir görev akışında otomatikleştirilmiş görev yapılandır](configure-automated-task-workflow.md)
++ [Bir onay işlemini bir iş akışında yapılandır](configure-approval-process-workflow.md)
++ [Bir onay adımını bir iş akışında yapılandır](configure-approval-step-workflow.md)
++ [Bir iş akışında bir el ile kararı yapılandırma](configure-manual-decision-workflow.md)
++ [Bir iş akışında koşullu bir kararı yapılandırma](configure-conditional-decision-workflow.md)
++ [Bir iş akışında bir paralel etkinlik yapılandırma](configure-parallel-activity-workflow.md)
++ [Paralel dalı iş akışında yapılandırma](configure-parallel-branch-workflow.md)
++ [Satır maddesi iş akışını yapılandırma](configure-line-item-workflow.md)
 

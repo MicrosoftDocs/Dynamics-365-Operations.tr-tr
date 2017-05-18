@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: f3234bf607ef9ce1643226894716b975a2c2a7b9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a12c5b0ab85ac336592941f1fb62aa62ddc5d40d
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -68,7 +69,7 @@ Tamer, bu ödemeyi deftere nakleder. Faturanın artık 700,00 miktarında bakiye
 | DISC-10020 |  Nakit iskontosu   | 1/7/2015  |         |                                      | 3,00                                  | 0,00    | ABD Doları      |
 
 ## <a name="remaining-payment-after-the-cash-discount-date"></a>Nakit iskonto tarihinden sonra kalan ödeme
-Müşteri 4027 faturanın geri iskonto dönemindan sonra, 11 Temmuz tarihinde faturanın kalanını öder. **Hareketleri kapat** sayfasında, **Tahmini nakit iskontosu **alanında bir iskonto tutarı görünmez ve **Nakit iskontosu tutarı** alanında **0,00** değeri görünür. Müşteri 4027 kalan 700,00'lük tutarı ödediğinde, hiçbir ek iskonto alınmaz.
+Müşteri 4027 faturanın geri iskonto dönemindan sonra, 11 Temmuz tarihinde faturanın kalanını öder. **Hareketleri kapat** sayfasında, **Tahmini nakit iskontosu**alanında bir iskonto tutarı görünmez ve **Nakit iskontosu tutarı** alanında **0,00** değeri görünür. Müşteri 4027 kalan 700,00'lük tutarı ödediğinde, hiçbir ek iskonto alınmaz.
 
 | İşaret     | Nakit iskontosu kullan | Fiş   | Hesap | Tarih      | Vade tarihi  | Fatura | Hareket para birimi borcundaki tutar | Para Birimi | Kapatılacak tutar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|

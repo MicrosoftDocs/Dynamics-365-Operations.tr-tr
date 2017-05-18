@@ -3,7 +3,7 @@ title: "Kaldırılan özellikler"
 description: "Bu konu Dynamics 365 for Operations&quot;dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar. Ayrıca Dynamics AX 7.0 sürümlerinden kaldırılan özellikleri de listeler."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -15,16 +15,20 @@ ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
-ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: e9ba7239b9ff8b9b97c9dabc06fb2c68760d19d4
-ms.lasthandoff: 03/31/2017
+ms.dyn365.ops.version: Platform update 6
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8fbfc8c91c836eb9922f2bf1165ec887d8a0bc8e
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="deprecated-features"></a>Kaldırılan özellikler
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu konu Dynamics 365 for Operations'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar. Ayrıca Dynamics AX 7.0 sürümlerinden kaldırılan özellikleri de listeler.
 
@@ -474,6 +478,16 @@ Veri bölümleri, Microsoft Dynamics AX veritabanındaki verinin mantıksal bir 
 | Başka bir özellik ile değiştirildi? | Yeni web istemci masaüstü formu meta verileri ve zengin web platformu sunmak için değiştirilmiş programlama modeline dayanır. |
 | Etkilenen modüller             | Tümü                                                                                                                                    |
 
+### <a name="direct-database-connection"></a>Doğrudan veritabanı bağlantısı
+
+Dynamics AX 2012 R3 içerisinde, Perakende Modern POS, Kanal Veritabanına, Kuruluş POS'a benzer şekilde doğrudan bağlanamadı. Bu, Perakende Modern POS'un, Perakende Sunucusu üzerinden iletişim kurarken standart iletişim yöntemine ek olarak oluştu.  
+
+|                              |                                                                                         |
+|------------------------------|-----------------------------------------------------------------------------------------|
+| Kaldırılma nedeni       | Doğrudan veritabanı bağlantısı, daha düşük güvenlik protokolleri gerektirdi ve öncelikli olarak en yüksek seviye performansı elde etmek için kullanıldı. Dynamics 365 for Operations içerisinde gerçekleşen performans ve güvenlik geliştirmeleri yüzünden, bu işlev artık çözdüğünden daha fazla soruna neden olmaktadır. |
+| Başka bir özellik ile değiştirildi? | Hayır. Artık yalnızca standart Perakende Sunucu iletişimi desteklenmektedir.    |
+| Etkilenen modüller             | Kanal Veritabanı/Perakende Modern POS                                    |
+
 ### <a name="dutch-swift-mt940"></a>Felemenkçe SWIFT MT940
 
 |                              |                                                                                                                                                                                                                                       |
@@ -664,6 +678,16 @@ Bu özellik, üç standart ürün boyutundan (boyut, renk veya stil) birinin ad�
 | Başka bir özellik ile değiştirildi? | Hayır                                                                            |
 | Etkilenen modüller             | Ürün bilgileri yönetimi                                                |
 
+### <a name="retail-server-connectivity-using-http"></a>HTTP kullanarak Perakende Sunucu bağlantısı
+
+Dynamics AX 2012 R3 içerisinde, Perakende Sunucu, HTTP iletişimi (güvenli olmayan) kullanarak işlev sağlayamıyordu. Bu, HTTPS kullanan standart iletişime ek olarak oluştu.
+
+|                              |                                                                               |
+|------------------------------|-------------------------------------------------------------------------------|
+| Kaldırılma nedeni       | Yeni güvenlik gereksinimleri nedeniyle, yalnızca TLS 1.2 (veya kullanılabilir olduğu takdirde üstü) artık desteklenmektedir. Self servis yükleyici, bilgisayarı bu iletişim için otomatik yapılandıracaktır. |
+| Başka bir özellik ile değiştirildi? | Hayır. Artık yalnızca standart HTTPS iletişimi desteklenmektedir.                                                                           |
+| Etkilenen modüller             | Perakende Sunucusu                                                |
+
 ### <a name="role-center-pages"></a>Rol Merkezi sayfaları
 
 |                              |                                                                                                                                                                          |
@@ -784,6 +808,8 @@ Sanal şirketler özelliği, Dynamics AX uygulamasında artık desteklenmiyor. S
 | Kaldırılma nedeni       | Bu işlev başka bir özellik ile değiştirilmiştir.                                    |
 | Başka bir özellik ile değiştirildi? | Yönetim Raporlayıcı (Dynamics AX'ın geçerli sürümünde **finansal raporlama** etiketli) |
 | Etkilenen modüller             | Genel muhasebe                                                                              |
+
+
 
 
 

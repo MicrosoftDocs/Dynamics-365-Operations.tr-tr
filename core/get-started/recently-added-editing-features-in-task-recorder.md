@@ -1,6 +1,6 @@
 ---
 title: "Görev kaydedicisine en son eklenen düzenleme özellikleri"
-description: "Görev kılavuzları oluşturmak için görev kaydedici kullanıyorsanız, bu wiki içinde tanımlanan işlevi kullanarak dosyalarınızı daha verimli bir şekilde düzenleyebilirsiniz."
+description: "Görev kılavuzları oluşturmak için görev kaydedici kullanıyorsanız, bu konu içinde tanımlanan işlevi kullanarak dosyalarınızı daha verimli bir şekilde düzenleyebilirsiniz."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -17,17 +17,21 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: c4f9ac515eab6ed8b194fc8985f6d3fae40ced38
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3be54879494948f75b192fcc22239b9064173220
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="recently-added-editing-features-in-task-recorder"></a>Görev kaydedicisine en son eklenen düzenleme özellikleri
 
-Görev kılavuzları oluşturmak için görev kaydedici kullanıyorsanız, bu wiki içinde tanımlanan işlevi kullanarak dosyalarınızı daha verimli bir şekilde düzenleyebilirsiniz.
+[!include[banner](../includes/banner.md)]
+
+
+Görev kılavuzları oluşturmak için görev kaydedici kullanıyorsanız, bu konu içinde tanımlanan işlevi kullanarak dosyalarınızı daha verimli bir şekilde düzenleyebilirsiniz.
 
 Bu özellikler **Ayarlar &gt; Görev Kaydedici &gt; Kaydı düzenle** menüsünde bulunur.
 
@@ -86,5 +90,7 @@ Görev kılavuzundaki ilk adımın bir alt görev içinde olmasını istiyorsan�
 [Görev kayıtlarını kullanarak belgeler veya eğitim oluşturma](/dynamics365/operations/dev-itpro/user-interface/task-recorder)
 
 [Görev kaydedici hızlı başvuru](/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
+
+
 
 

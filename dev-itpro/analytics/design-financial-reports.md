@@ -1,7 +1,7 @@
 ---
 title: "Mali raporları görüntüleme ve tasarlama"
-description: "Bu makale, Microsoft Dynamics 365 for Operations için mali raporları görüntüleme ve oluşturma konusunda size yol gösteren alıştırmalar sağlar. Mali raporlama, Dynamics 365 for Operations içerisinde bulunan görüntüleme deneyimlerinden ve mali raporları oluşturmanızı ve düzenlemenizi sağlayan tek tıkla rapor tasarlayıcısından oluşur."
-author: twheeloc
+description: "Bu makale, Microsoft Dynamics 365 for Operations için mali raporları görüntüleme ve oluşturma konusunda size yol gösteren alıştırmalar sağlar."
+author: jcart1106
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3319fa0a919ca5e2737319f5cdc4190cf32d59b6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
+ms.openlocfilehash: 635e9e90c63330b3d8b0cc46f16a36fa44ef915d
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/27/2017
 
 
 ---
@@ -96,7 +97,7 @@ Bu alıştırmada mevcut bir varsayılan raporu değiştireceksiniz. Hem satır 
 22. **Özniteliklere Sahip Ayrıntılı Mizan** rapor tanımından, hem satır tanımı hem sütun tanımı için Özniteliklere Sahip Özet Mizan seçimini yapın.
 23. Taban yılını **2012** olarak değiştirin.
 24. Rapor tanımını **kaydedin** ve **oluşturun**. Rapor oluşturma işlemi tamamlandıktan ve rapor açıldıktan sonra raporu ilk alıştırmada olduğu gibi inceleyebilirsiniz. Farklı özniteliklerin nasıl görüntülendiğini görmek için farklı hesapları ayrıntılı şekilde inceleyin.
-25. **Özniteliklere Sahip Ayrıntılı Mizan **raporunu kapatın.
+25. **Özniteliklere Sahip Ayrıntılı Mizan**raporunu kapatın.
 26. **Rapor Tasarımcısını** kapatın.
 
 ## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Alıştırma 3: Bir raporlama ağacı kullanarak bir çok boyutlu rapor oluşturma
@@ -165,7 +166,7 @@ Bu alıştırmada yeni bir rapor oluşturacaksınız. Bu rapor, yan yana bir dep
 6.  **Boyut Filtresi** alanını çift tıklayın.
 7.  **Boyut** penceresinde, **Departman** sütununu çift tıklayın.
 8.  İletişim penceresinin Bireysel veya aralık bölümünde, departmanların bir listesini görüntülemek için **Başlangıç** alanından **elips** öğesini tıklayın.
-9.  Departman **022**, **Satış ve Pazarlama** seçimini yapın ve ardından** Tamam** öğesini tıklayın.
+9.  Departman **022**, **Satış ve Pazarlama** seçimini yapın ve ardından**Tamam** öğesini tıklayın.
 10. Departman 23-25 için 5 ile 8. adımlar arasındaki işlemleri tekrarlayın.
 11. Her bir FD sütununun **Başlık 2** satırında, şu departman tanımlarını yazın:
     -   Sütun B – Satış ve Pazarlama
@@ -182,8 +183,8 @@ Bu alıştırmada yeni bir rapor oluşturacaksınız. Bu rapor, yan yana bir dep
 18. Değişikliklerinizi **Kaydedin** ve **Oluştur** öğesini seçin. Raporun oluşturulması tamamlandıktan ve rapor açıldıktan sonra raporu inceleyebilirsiniz.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
-[Mali raporlama](\financials\general-ledger\financial-reporting-getting-started.md) 
-[Mali raporları görüntüle](\financials\general-ledger\view-financial-reports.md) 
+[Mali raporlama](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
+[Mali raporları görüntüle](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
 [Dynamics Mali Raporlama Blogu](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

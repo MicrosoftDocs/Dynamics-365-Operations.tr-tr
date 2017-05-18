@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 758c516b378b4858c248fbca2befc6b9c47cc32a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: e8a12f846bb24c9fc79c3533d4e65a2d3ece257b
+ms.openlocfilehash: 6d4d476e294e1b5cbe91a61a7ffe151a6c865ea6
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -40,7 +41,7 @@ Tedarik ve kaynak atama, ürün ve hizmet ihtiyacını belirlemeden ürünü sat
   
 Tedarik departmanı gerekli ürün ve hizmetler için tedarikçileri belirler ve bunun içinde birden çok potansiyel tedarikçiye gönderilen bir *teklif talebi *de bulunabilir. Talep edilen ürünün teknik özelliklerini paylaşmak mümkündür ve potansiyel satıcılar bu özelliklere uygun bir ürün teslim edip edemeyeceklerini görmek için bu özellikleri görüntüleyebilir. Satıcılar tekliflerini geri gönderir ve sonrasında bu teklifler satınalma departmanı tarafından alışveriş yapmak istedikleri tedarikçiyi seçmeden önce gözden geçirilir.  
 
-Satınalma siparişleri daha kapsamlı bir teklif talebi sürecine alternatif olarak satıcıya bir *satınalma sorgulaması *gönderme seçeneği içerir. Satınalma sorgulaması, fiyatlar, iskontolar ve sipariş teslimat tarihi gibi şartları belirlemeye yardımcı olmak için kullanılabilir. Satıcılar **Satıcı** portalını kullanacak şekilde ayarlanmışsa, * * satınalma sorgulaması işlevi devre dışı bırakılır. Bunun yerine sipariş** Satıcı** portalında paylaşılır ve bir *onay isteği* gönderildiğinde, satıcı doğrudan sipariş onaylayabilir.  
+Satınalma siparişleri daha kapsamlı bir teklif talebi sürecine alternatif olarak satıcıya bir *satınalma sorgulaması *gönderme seçeneği içerir. Satınalma sorgulaması, fiyatlar, iskontolar ve sipariş teslimat tarihi gibi şartları belirlemeye yardımcı olmak için kullanılabilir. Satıcılar **Satıcı** portalını kullanacak şekilde ayarlanmışsa, satınalma sorgulaması işlevi devre dışı bırakılır. Bunun yerine sipariş**Satıcı** portalında paylaşılır ve bir *onay isteği* gönderildiğinde, satıcı doğrudan sipariş onaylayabilir.  
 
 *Satıcı katalogları *satıcıların tedarik edebileceği ürün çeşidine ilişkin bilgileri toplamak için kullanılabilir. Satıcılar kendi kataloglarını yayınlayabilir, böylece kataloğu güncel tutmak daha kolaylaşır. Bir ürüne *onaylı satıcı listesi* eklemek mümkündür, bu liste yeni satınalma siparişleri açıldığında satıcı seçiminde yol göstermeye ve istenmeyen satıcıların kullanılmasını önlemeye yardımcı olabilir.
 
