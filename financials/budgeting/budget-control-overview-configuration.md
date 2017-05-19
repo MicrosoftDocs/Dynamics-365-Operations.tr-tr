@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 04e0c066511c1fedf33784944441326201fc2df8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4caef8eb4d11ad5d2ba1ce0e23d869c0b26b5466
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -99,7 +100,7 @@ Ardından, **Bütçe modelleri ata** sekmesinde, bütçe denetimine dahil edilec
 Ardından, **Bütçe denetim kurallarını tanımla** sekmesinde, bütçe denetimi için etkinleştirilen mali boyutlara dayalı olarak belirli kurallar oluşturmanız gerekir. Örneğin, bir departman için harcamaya veya harcama aralığına odaklanılıyorsa bu harcamaları tanımlamak ve değerlendirmek için bu sekmedeki ayarları kullanabilirsiniz. Her bir bütçe denetim kuralı için farklı eşik değerleri tanımlayabilirsiniz. 
 
 > [!Important]
-> Bütçe denetimi, **Kar ve Zarar**, **Masraf**, **Gelir, Bilanço, Pasif, Öz Varlık** veya **Kıymet** türündeki her ana hesap için etkinleştirilecektir. Bu sekme boş kriteri olan bir kural içeriyorsa bütçe denetimi bu türde ana hesap içeren **tüm **mali boyut birleşimleri için etkinleştirilecektir. Bu nedenle, bütçe denetiminin uygulanmasının önemli olduğu durumlarda, sadece mali boyut birleşimlerinin aralıklarını tanımlayan bütçe denetim kurallarını oluşturduğunuzdan emin olun.  
+> Bütçe denetimi, **Kar ve Zarar**, **Masraf**, **Gelir, Bilanço, Pasif, Öz Varlık** veya **Kıymet** türündeki her ana hesap için etkinleştirilecektir. Bu sekme boş kriteri olan bir kural içeriyorsa bütçe denetimi bu türde ana hesap içeren **tüm**mali boyut birleşimleri için etkinleştirilecektir. Bu nedenle, bütçe denetiminin uygulanmasının önemli olduğu durumlarda, sadece mali boyut birleşimlerinin aralıklarını tanımlayan bütçe denetim kurallarını oluşturduğunuzdan emin olun.  
 
 ### <a name="select-main-accounts"></a>Ana hesapları seç
 
@@ -124,7 +125,7 @@ Ayrıca, bütçe kayıt girişleri de dahil olmak üzere, bütçe denetimi açı
 ## <a name="using-budget-control"></a>Bütçe kontrolünü kullanma
 Bütçe denetimi açık konuma getirildikten sonra kullanıcılar, bütçe denetimi için yapılandırılan belgelerde ve günlüklerde bütçe denetim uyarısı ve hata iletileri alır. Unutmayın, kullanıcıların bütçe fonlarını aştıklarında uyarılmaları için bütçe denetimini yapılandırabilirsiniz ancak onaylamaya ve hareketi nakletmeye devam edebileceksiniz. Kullanıcılar başarısız bütçe kontrollerinin ayrıntılarını **Bütçe denetimi hataları ve uyarıları** sayfasında görüntüleyebilir.   
 
-Bu sayfadan, kullanıcılar **Döneme göre bütçe denetim istatistikleri** sayfasının ayrıntılarına girerek belirli bir bütçe denetim boyutu birleşimi için bütçe kullanılabilirliği ayrıntılarını ve rezervasyonları görüntüleyebilir. Kullanıcılar ayrıca bütçe denetiminde kullanılan tüm mali boyut birleşimlerinin bütçe kullanılabilirliğini görüntülemek için **Bütçe denetimi istatistiği **sayfasının ayrıntılarına girebilir. 
+Bu sayfadan, kullanıcılar **Döneme göre bütçe denetim istatistikleri** sayfasının ayrıntılarına girerek belirli bir bütçe denetim boyutu birleşimi için bütçe kullanılabilirliği ayrıntılarını ve rezervasyonları görüntüleyebilir. Kullanıcılar ayrıca bütçe denetiminde kullanılan tüm mali boyut birleşimlerinin bütçe kullanılabilirliğini görüntülemek için **Bütçe denetimi istatistiği**sayfasının ayrıntılarına girebilir. 
 
 Bütçe denetimi satın alma siparişleri için etkinleştirilmişse bütçe yöneticisi bütçe kontrolü uyarıları ve hataları olan onaylanmamış tüm satın alma siparişlerinin sırasını görüntülemek için **Genel muhasebe bütçeleri ve tahminleri** çalışma alanını kullanabilir. Bütçe yöneticisi yapılandırılmış bütçe aşım izinlerine sahipse satın alma siparişlerini doğrudan çalışma alanında onaylanabilir.    
 

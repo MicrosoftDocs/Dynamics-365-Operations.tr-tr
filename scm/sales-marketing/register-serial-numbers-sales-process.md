@@ -19,10 +19,11 @@ ms.search.industry: Distribution
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: ec2907129e68f39e6e5f56f0617b7599598312d2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: de1d8bc2fa1080e549cb8c33657ad0f373644d38
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ Seri numaraları tarayabilir veya yazabilirsiniz. Bir tarayıcı kullandığın�
 Satış siparişleri için kısmi faturalar veya sevk irsaliyeleri oluşturabilir ve yalnızca fatura veya sevk irsaliyelerinde yer alan maddeler için seri numarası kaydedebilirsiniz. Kısmi bir fatura oluşturmak istiyorsanız ve satış siparişi için birden fazla sevk irsaliyesi varsa, birden fazla sevk irsaliyesindeki seri numaralarını ekleyebilirsiniz. Ancak, tüm seri numaralarını içermeyen tek bir sevk irsaliyesi olabilir. Örneğin, üç sevk irsaliyeniz varsa ve her sevk irsaliyesi iki seri hale getirilmiş madde içeriyorsa, her sevk irsaliyesindeki tek bir madde için kısmi fatura oluşturamazsınız.
 
 ## <a name="what-do-i-do-when-a-serial-number-isnt-readable"></a>Bir seri numarası okunabilir değilse ne yapmam gerekir?
-Bir seri numarası okunamıyor veya tarama yapılamıyorsa, **Seri numaraları **sayfasındaki **Okunabilir değil **öğesine tıklayarak madde için boş bir satır oluşturabilirsiniz. Seri numarası daha sonra kullanılabilir duruma gelirse, fatura veya sevk irsaliyesini güncelleştirebilirsiniz. Daha fazla bilgi için "Bir satış siparişi için kaydettiğin seri numaralarını düzeltebilir veya değiştirebilir miyim?" başlıklı sonraki bölüme bakın.
+Bir seri numarası okunamıyor veya tarama yapılamıyorsa, **Seri numaraları**sayfasındaki **Okunabilir değil**öğesine tıklayarak madde için boş bir satır oluşturabilirsiniz. Seri numarası daha sonra kullanılabilir duruma gelirse, fatura veya sevk irsaliyesini güncelleştirebilirsiniz. Daha fazla bilgi için "Bir satış siparişi için kaydettiğin seri numaralarını düzeltebilir veya değiştirebilir miyim?" başlıklı sonraki bölüme bakın.
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Bir satış siparişi için kaydettiğin seri numaralarını düzeltebilir veya değiştirebilir miyim?
 Evet, aşağıdaki koşulların yerine getirilmesi durumunda seri numaraları düzeltebilirsiniz:

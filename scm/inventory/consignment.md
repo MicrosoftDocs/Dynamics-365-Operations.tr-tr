@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: d9dcdd63649d6dbff96efe2eec7cad34025ab2ee
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 01ab473951bc04c68a0248b37041a116eebcaea9
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ Bu örnek senaryoda, USMF şirketinin ABD-104 satıcısıyla hammadde M9211CI ü
 USMF ilave periyodik işlemleri gerçekleştirir:
 
 -   Satıcıya ait stoğun farklı ambarlar arasındaki fiziksel hareketi, transfer günlüğü kullanılarak işlenir.
--   Eldeki fiziksel stok,** Madde sayımı **günlüğü kullanılarak güncelleştirilir. Sayım, satıcının izni varsa eldeki stok güncelleştirmesi için de kullanılabilir.
+-   Eldeki fiziksel stok,**Madde sayımı**günlüğü kullanılarak güncelleştirilir. Sayım, satıcının izni varsa eldeki stok güncelleştirmesi için de kullanılabilir.
 
 Satıcı, ABD-104 **Eldeki konsinye stok** sayfasını kullanarak güncelleştirmeleri izleyebilir.
 
@@ -67,7 +68,7 @@ Konsinye stok yenileme siparişi, satıcının sipariş edilen stok hareketleri 
 ## <a name="inventory-ownership-change-journal"></a>Stok sahipliği değişiklik günlüğü
 Stok sahibinin satıcı yerine teslim alma tüzel kişiliği olarak değiştirilmesi, Stok sahipliği değişiklik günlüğü kullanılarak yapılır. Günlük için herhangi bir beklenen stok hareketi oluşturulmaz. Oluşturulan stok hareketleri, yalnızca nakledilen günlük ile ilişkili olanlardır. Günlük nakledildiğinde:
 
--   Satıcıya ait stok, **Satıldı** durumu ile birlikte **Sahiplik değişikliği ** başvurusuyla yayımlanır.
+-   Satıcıya ait stok, **Satıldı** durumu ile birlikte **Sahiplik değişikliği** başvurusuyla yayımlanır.
 -   Eldeki stok, satınalma siparişinde bir ürün girişiyle güncelleştirilmiş stok hareketi kullanarak tüketen tüzel kişilik tarafından alınır. Bu, sipariş durumunu **Alındı** olarak belirler. Konsinye için kullanılan satınalma siparişlerinin **Kaynak** alanı **Konsinye** olarak ayarlanır.
 
 Sipariş oluşturulduktan sonra konsinye satınalma sipariş satırları miktarının güncelleştirilmesi mümkün değildir. 

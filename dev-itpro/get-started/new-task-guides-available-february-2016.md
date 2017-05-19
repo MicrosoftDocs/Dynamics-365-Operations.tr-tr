@@ -1,6 +1,6 @@
 ---
 title: "Yeni görev kılavuzları (Şubat 2016)"
-description: "Bu wiki Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev kılavuzlarını listeler.  Yayımlanan kitaplıklar (Şubat 2016) Microsoft Dynamics 365 for Operations için APQC Birleştirilmiş Kitaplık ve (Şubat 2016) Başlarken kılavuzunu içerir."
+description: "Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev kılavuzlarını listeler.  Yayımlanan kitaplıklar (Şubat 2016) Microsoft Dynamics 365 for Operations için APQC Birleştirilmiş Kitaplık ve (Şubat 2016) Başlarken kılavuzunu içerir."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -16,17 +16,21 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 6462951cba3c289368887a037d4b71187f4523df
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d9e6620c1f4c808646e6f5c3b9f5b607c64c51df
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="new-task-guides-february-2016"></a>Yeni görev kılavuzları (Şubat 2016)
 
-Bu wiki Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev kılavuzlarını listeler.  Yayımlanan kitaplıklar (Şubat 2016) Microsoft Dynamics 365 for Operations için APQC Birleştirilmiş Kitaplık ve (Şubat 2016) Başlarken kılavuzunu içerir.
+[!include[banner](../includes/banner.md)]
+
+
+Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev kılavuzlarını listeler.  Yayımlanan kitaplıklar (Şubat 2016) Microsoft Dynamics 365 for Operations için APQC Birleştirilmiş Kitaplık ve (Şubat 2016) Başlarken kılavuzunu içerir.
 
 <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Microsoft Dynamics 365 for Operations için (Şubat 2016) APQC Birleştirilmiş Kitaplığı'ndaki görev kılavuzları
 ---------------------------------------------------------------------------------
@@ -723,5 +727,7 @@ Bu wiki Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 [Yeni veya güncelleştirilmiş Görev kılavuzları (Ağustos 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Yeni veya güncelleştirilmiş Görev kılavuzları (Kasım 2016)](new-task-guides-november-2016.md)
+
+
 
 

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: af7e7288f741b3c519227e2778c4c4311c3a2012
-ms.openlocfilehash: 88cdf531b6da615034f9982d3503b9add0100479
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 447ba56a279a29392b00119730c3594fa4ea80f6
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -42,7 +43,7 @@ Gider Yönetimi, organizasyonunuzun mali yönetimi ile sıkı sıkıya tümleşi
 
 ### <a name="per-diems"></a>Harcırahlar
 
-Kuruluşunuzun sağladığı çalışan harcırahlarını tanımlamanız gerekir. Harcırahlar genellikle yemek, konaklama ve diğer arızi giderler gibi giderleri karşılamak için kullanıldığından, kuruluşunuzun sunduğu harcırah tahsisatları için kurallar oluşturabilirsiniz. Harcırah oranları seyahatin yılın hangi döneminde yapıldığı, seyahat yeri veya her ikisine dayanarak ayarlanabilir. Bir harcırah kuralı tanımlarken, harcırahın çalışana ek yemek veya hizmetler sunulduğunda stopaj uygulanacak bir yüzdesini seçebilirsiniz. Ayrıca, çalışan seyahat ettiği durumlarda uygulanacak, harcırahın sağlanacağı minimum ve maksimum saatler için harcırah katmanları tanımlayabilirsiniz. **Kararlar: **
+Kuruluşunuzun sağladığı çalışan harcırahlarını tanımlamanız gerekir. Harcırahlar genellikle yemek, konaklama ve diğer arızi giderler gibi giderleri karşılamak için kullanıldığından, kuruluşunuzun sunduğu harcırah tahsisatları için kurallar oluşturabilirsiniz. Harcırah oranları seyahatin yılın hangi döneminde yapıldığı, seyahat yeri veya her ikisine dayanarak ayarlanabilir. Bir harcırah kuralı tanımlarken, harcırahın çalışana ek yemek veya hizmetler sunulduğunda stopaj uygulanacak bir yüzdesini seçebilirsiniz. Ayrıca, çalışan seyahat ettiği durumlarda uygulanacak, harcırahın sağlanacağı minimum ve maksimum saatler için harcırah katmanları tanımlayabilirsiniz. **Kararlar:**
 
 -   İlk ve son günler için varsayılan harcırah kuralları:
     -   Çalışanın bir gün için talep edebileceği ve yine de harcırah alabileceği en az saat sayısı kaçtır?
@@ -124,10 +125,10 @@ Giderlerle ilgili vergiler için, gider raporlarına nelerin dahil edileceğini 
 -   Gider tutarlarına satış vergisi dahil midir?
 -   Giderler üzerinde vergiden düşme etkinleştirilecek midir?
 
-Genel muhasebe planlama sırasında sizin uygulamak ABD satış vergisi ve vergi kanunlarını kullanma karar verdiyseniz, ki bu ** Satış vergisi vergilendirme kurallarını uygula** seçeneğini Evet olarak işaretleyerek yapılır, giderler üzerinde vergiden düşmeyi etkinleştiremezsiniz.
+Genel muhasebe planlama sırasında sizin uygulamak ABD satış vergisi ve vergi kanunlarını kullanma karar verdiyseniz, ki bu **Satış vergisi vergilendirme kurallarını uygula** seçeneğini Evet olarak işaretleyerek yapılır, giderler üzerinde vergiden düşmeyi etkinleştiremezsiniz.
 
 ## <a name="policies"></a>İlkeler
-Çalışanlar tüzel kişilik adına gider oluşturduklarında vakit ve para tasarrufu sağlayacak gider raporlama ilkeleri oluşturabilirsiniz. İlkeler çalışanların bir bütçeye sadık kalmalarını, gerekli tüm bilgileri sağlamalarını ve sadece gerektiğinde para harcamalarını sağlar. Her bir gider raporu ilkesini ve gider raporu onay ilkesini oluşturduğunuzda aşağıdaki kararları almanız gerekir. **Kararlar: **
+Çalışanlar tüzel kişilik adına gider oluşturduklarında vakit ve para tasarrufu sağlayacak gider raporlama ilkeleri oluşturabilirsiniz. İlkeler çalışanların bir bütçeye sadık kalmalarını, gerekli tüm bilgileri sağlamalarını ve sadece gerektiğinde para harcamalarını sağlar. Her bir gider raporu ilkesini ve gider raporu onay ilkesini oluşturduğunuzda aşağıdaki kararları almanız gerekir. **Kararlar:**
 
 -   İlkenin adı nedir?
 -   Gider ilkesi ne içindir?

@@ -1,9 +1,9 @@
 ---
 title: "Amortisman yöntemleri"
-description: "Bu makalede, Microsoft Dynamics AX tarafından desteklenen amortisman dönüştürmelerine ve amortisman yöntemlerine bir genel bakış sunulmuştur."
+description: "Bu makalede, Microsoft Dynamics 365 for Operations tarafından desteklenen amortisman dönüştürmelerine ve amortisman yöntemlerine bir genel bakış sunulmuştur."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 51c053e6c130d20258e02284d097431a18bb38cb
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4b32cd8cbd270424d0790e242d75dc214ffea123
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -31,7 +32,7 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, Microsoft Dynamics AX tarafından desteklenen amortisman dönüştürmelerine ve amortisman yöntemlerine bir genel bakış sunulmuştur.
+Bu makalede, Microsoft Dynamics 365 for Operations tarafından desteklenen amortisman dönüştürmelerine ve amortisman yöntemlerine bir genel bakış sunulmuştur.
 
 Çeşitli amortisman yöntemleri ve kuralları seçebilirsiniz. Yöntemlerin amacı, sabit kıymetin amorti edilebilir değerini mali dönemlerine tahsis etmektir. Sabit kıymetin amorti edilebilir değeri, varsa bir ıskarta değeri tarafından azaltılan alım fiyatıdır. 
 
@@ -90,6 +91,7 @@ Aşağıdaki amortisman yöntemlerinden birini seçebilirsiniz.
 [Yüzde 175 azalan bakiyeli amortisman](175-percent-reducing-balance-depreciation.md)
 
 [%200 azalan bakiyeli amortisman](200-percent-reducing-balance-depreciation.md)
+
 
 
 

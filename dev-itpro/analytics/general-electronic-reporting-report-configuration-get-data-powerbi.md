@@ -1,9 +1,9 @@
 ---
-title: "Power BI&quot;ya Dynamics 365 for Operations uygulamasından gelen verileri sağlamak için Elektronik raporlama kurmak"
+title: "Power BI&quot;a veri çekmek için Elektronik raporlamayı yapılandır"
 description: "Bu konu, verilerinizi Dynamics 365 for Operations kurulumunuzdan Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı nasıl kullanacağınızı açıklar. Örnek olarak, bu konu Intrastat hareketlerini aktarılması gereken iş verileri olarak kullanır. Power BI harita görselleştirmesi, bu Intrastat hareket verilerini şirketin içe aktarma/dışa aktarma etkinliklerinin Power BI raporundaki analizinin bir görünümünü sunmak için kullanır."
 author: kfend
 manager: AnnBe
-ms.date: 2016-10-31 13 - 22 - 29
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: ed0192c44b6d7e88120c64e539ebb0ac3b379831
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4bbc77eb1edfe0c109434ce4d26228ed031f48bc
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="set-up-electronic-reporting-to-provide-power-bi-with-data-from-dynamics-365-for-operations"></a>Power BI'ya Dynamics 365 for Operations uygulamasından gelen verileri sağlamak için Elektronik raporlama kurmak
+# <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Power BI'a veri çekmek için Elektronik raporlamayı yapılandır
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu konu, verilerinizi Dynamics 365 for Operations kurulumunuzdan Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı nasıl kullanacağınızı açıklar. Örnek olarak, bu konu Intrastat hareketlerini aktarılması gereken iş verileri olarak kullanır. Power BI harita görselleştirmesi, bu Intrastat hareket verilerini şirketin içe aktarma/dışa aktarma etkinliklerinin Power BI raporundaki analizinin bir görünümünü sunmak için kullanır.
 
@@ -119,5 +123,7 @@ Dynamics 365 for Operations ve Power BI arasındaki tümleştirmeyi ayarlayın. 
 [Elektronik raporlama hedefleri](electronic-reporting-destinations.md)
 
 [Elektronik raporlamaya genel bakış](general-electronic-reporting.md)
+
+
 
 

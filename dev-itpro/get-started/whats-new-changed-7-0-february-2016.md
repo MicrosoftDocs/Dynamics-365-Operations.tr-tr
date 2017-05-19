@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 2928b86a9dbf001451933f9d17287400cafaf089
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 36d4aec3936ef99b880f3affc75df1b952cb3133
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, Microsoft Dynamics AX 7.0'da yeni olan veya değişen özellikler açıklanır. Bu sürüm, platform ve uygulama özellikleri içerir ve Şubat 2016'da yayımlanmıştır.
 
@@ -170,7 +174,7 @@ Bu özellik, üretilen maddeye atanan maliyetlendirme yöntemlerinden bağımsı
 <td>Formdan çıkmadan veya şirket bağlamını değiştirmeden paylaşılan hizmet muhasebecisinin yevmiye defterlerini şirketler arasında girmesini olanaklı hale getirir.</td>
 </tr> 
 <tr class="odd">
-<td>Yeni **Muhasebe kaynağı gezgini **sayfasını kullanın.</td>
+<td>Yeni **Muhasebe kaynağı gezgini**sayfasını kullanın.</td>
 <td>Dynamics AX 2012 R3 CU10'dan kullanılabilir.</td>
 <td>**Mizan** listesi sayfası ve **Fiş hareketleri** sayfasından gitmek için yeni **Muhasebe kaynağı gezgini** sayfası ve eylemler.</td>
 <td>Genel muhasebede bir mizan veya muhasebe girişi için veya ad-hoc analizleri için kaynak hakkında en ayrıntılı bilgilerin görüntülenmesini mümkün kılar.</td>
@@ -331,8 +335,8 @@ Bu özellik, üretilen maddeye atanan maliyetlendirme yöntemlerinden bağımsı
 <tr class="even">
 <td>**Yardım**'a tıklayarak destekli yordamsal Yardım (görev kılavuzları) ve kavramsal konulara erişin.</td>
 <td>AX 2012 Yardım sistemi, yerel web sunucusunda depolanmış olan HTML konulara yönlendirir. Müşteriler ve ortaklar kendi yardımlarını oluşturabilirler.</td>
-<td>Dynamics AX'in mevcut sürümündeki yardım sistemi, Microsoft Dynamics Lifecycle Services (LCS) BPM içinde depolanan görev kılavuzlarını görüntüler. Yardım sistemi aynı zamanda Microsoft wiki'den de konular görüntüler. Daha fazla bilgi için bkz. [Dynamics AX Yardımı - Başlarken](help-overview.md) ve [Mevcut yeni görev kılavuzları (Şubat 2016)](new-task-guides-available-february-2016.md).</td>
-<td>Görev kılavuzları, size bir görevin veya iş işlemin adımları boyunca yol gösteren destekli, etkileşimli bir deneyim sağlar. Microsoft'un sağladığı görev kılavuzlarını indirebilir ve özelleştirebilirsiniz. Wiki ürün belgelerini oluşturmak, teslim etmek ve güncelleştirmek için daha hızlı ve esnek bir yol sağlar. Bu nedenle, en son teknik bilgilerin erişimine sahip olmanızı garanti etmeye yardımcı olur.</td>
+<td>Dynamics AX'in mevcut sürümündeki yardım sistemi, Microsoft Dynamics Lifecycle Services (LCS) BPM içinde depolanan görev kılavuzlarını görüntüler. Yardım sistemi aynı zamanda Microsoft belgeler sitesinde de konular görüntüler. Daha fazla bilgi için bkz. [Dynamics AX Yardımı - Başlarken](help-overview.md) ve [Mevcut yeni görev kılavuzları (Şubat 2016)](new-task-guides-available-february-2016.md).</td>
+<td>Görev kılavuzları, size bir görevin veya iş işlemin adımları boyunca yol gösteren destekli, etkileşimli bir deneyim sağlar. Microsoft'un sağladığı görev kılavuzlarını indirebilir ve özelleştirebilirsiniz. Konu, ürün belgelerini oluşturmak, teslim etmek ve güncelleştirmek için daha hızlı ve esnek bir yol sağlar. Bu nedenle, en son teknik bilgilerin erişimine sahip olmanızı garanti etmeye yardımcı olur.</td>
 </tr>
 </tbody>
 </table>
@@ -555,7 +559,7 @@ Yeni özellik eklenmemiştir.
 |------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Ne yapabilirsiniz?**                                                                                                                                 | **Dynamics AX 2012**                                                                                                             | **Dynamics AX 7.0**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | **Bu neden önemlidir?**                                                                                                                                                                                                                                            |
 | **Üretim Katı Yönetimi** çalışma alanından açılan ayrı bir sayfadan, üretim siparişleri için malzeme kullanılabilirliğinin kontrolünü gerçekleştirin. | Uygun değil                                                                                                                    | Üretim gözetmeni, planlanan üretim siparişleri için malzemelerin gerekli tarihte kullanılabilir olup olmadığını denetleyebilir. Üretim gözetmeni, çalışma alanında, kaç üretim emrinin zamanlanmış ve yayın bekleyen durumda olduğunu görebilir. Dinamik Ana plan esas alınarak, gerçekleşen veya planlı siparişler için eldeki stok tarafından malzeme gereksinimleri karşılanırsa, malzeme kullanımı hakkındaki bilgi güncelleştirilir. Gözetmen **Malzeme kullanılabilirliği** sayfasındaki malzeme kullanılabilirliği hakkında bilgilere dayanarak, siparişleri serbest bırakabilir.                                                                                                                                                                                                                                                                                                                        | Bu da, üretim gözetmenlerinin, üretim siparişlerinin atölyede yayımlandıkları zaman malzeme tahsisatı hakkındaki kararları doğru şekilde yapmalarına yardımcı olur.                                                                                                       |
-| Yeni **İş kartı cihazı** sayfasını kullanılarak üretim işleriyle ilgili ilerlemeyi başlatın ve raporlayın.                                                              | **İş kaydı **formu öncelikle büyük terminal ekranları hedeflemektedir ve kullanıcı arabirimine genellikle fare tıklatmaları ile erişilir. | Yeni **İş kartı cihazı** sayfası basit olmak üzere tasarlanmış olsa da dokunmayı da desteklemektedir. Sayfa tabletler ve telefonlar gibi mobil cihazlarda da doğru görüntülenir. Atölye katı çalışanı daha az bilgi yüklemesi ve daha sezgisel bir kullanım kolaylığı bulacaktır. Çalışan örneğin başlatma, bitirme ve bir işin ilerlemesini raporlama gibi geleneksel görevleri yerine getirebilir. Esas işin üzerine çalışmanın, çıkış veya paydos yapmanın dışında çalışan ekleri görüntüleyebilir, öğle arası verebilir ve diğer etkinlikleri gerçekleştirebilir. İşler çalışana planlanan sırayla aktarılır fakat çalışan tarafından da seçilebilir. Sayfa öncelikli olarak, malzemelerin üretim için hazırlandığı kesikli üretim işlemleri için hedeflenmiştir. Yan ürünlerin ve beraber ürünlerin raporlanmasıyla ilgili senaryolar ve malzemelerin izleme boyutuna göre çekilmesi için **İş kaydı** sayfasını kullanın. | Dokunma için tasarlanmış olan ve terminal ekranları gibi aygıtlar ve mobil aygıtların tüm türlerinden erişilebilir alternatif bir UI sunarak, bu özellik uygulama maliyetleri Atölye kayıtlarının geleneksel bir ürün azaltılmasına yardımcı olur. |
+| Yeni **İş kartı cihazı** sayfasını kullanılarak üretim işleriyle ilgili ilerlemeyi başlatın ve raporlayın.                                                              | **İş kaydı**formu öncelikle büyük terminal ekranları hedeflemektedir ve kullanıcı arabirimine genellikle fare tıklatmaları ile erişilir. | Yeni **İş kartı cihazı** sayfası basit olmak üzere tasarlanmış olsa da dokunmayı da desteklemektedir. Sayfa tabletler ve telefonlar gibi mobil cihazlarda da doğru görüntülenir. Atölye katı çalışanı daha az bilgi yüklemesi ve daha sezgisel bir kullanım kolaylığı bulacaktır. Çalışan örneğin başlatma, bitirme ve bir işin ilerlemesini raporlama gibi geleneksel görevleri yerine getirebilir. Esas işin üzerine çalışmanın, çıkış veya paydos yapmanın dışında çalışan ekleri görüntüleyebilir, öğle arası verebilir ve diğer etkinlikleri gerçekleştirebilir. İşler çalışana planlanan sırayla aktarılır fakat çalışan tarafından da seçilebilir. Sayfa öncelikli olarak, malzemelerin üretim için hazırlandığı kesikli üretim işlemleri için hedeflenmiştir. Yan ürünlerin ve beraber ürünlerin raporlanmasıyla ilgili senaryolar ve malzemelerin izleme boyutuna göre çekilmesi için **İş kaydı** sayfasını kullanın. | Dokunma için tasarlanmış olan ve terminal ekranları gibi aygıtlar ve mobil aygıtların tüm türlerinden erişilebilir alternatif bir UI sunarak, bu özellik uygulama maliyetleri Atölye kayıtlarının geleneksel bir ürün azaltılmasına yardımcı olur. |
 
 ## <a name="master-planning-and-forecasting"></a>Master planlama ve tahmin
 |                                                                                                                            |                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                         |
@@ -1076,5 +1080,7 @@ Yeni özellik eklenmemiştir.
 [Yenilikler veya değişiklikler](whats-new-changed.md)
 
 [Kullanılabilir yeni görev kılavuzları (Şubat 2016)](new-task-guides-available-february-2016.md)
+
+
 
 

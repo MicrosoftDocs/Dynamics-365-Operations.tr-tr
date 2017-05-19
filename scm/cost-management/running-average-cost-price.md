@@ -3,7 +3,7 @@ title: "Cari ortalama maliyet fiyatı"
 description: "Stok kapanışı işlemi, maddenin madde modeli grubunda seçilen stok değerleme yöntemine dayanarak çıkış hareketlerini giriş hareketlerine karşılık kapatır. Ancak, stok kapanışı çalıştırılmadan önce, sistem çoğu durumda çıkış hareketlerini deftere nakletmek için kullanılan bir cari ortalama maliyet fiyatı hesaplar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-04-07 15 - 11 - 47
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,19 +18,25 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 685dfaa877699db3c36cc1ea77d956461f8e68ec
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 53690038068d7a2cae43585fd2eb896d662ee3e4
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="running-average-cost-price"></a>Cari ortalama maliyet fiyatı
 
+[!include[banner](../includes/banner.md)]
+
+
 Stok kapanışı işlemi, maddenin madde modeli grubunda seçilen stok değerleme yöntemine dayanarak çıkış hareketlerini giriş hareketlerine karşılık kapatır. Ancak, stok kapanışı çalıştırılmadan önce, sistem çoğu durumda çıkış hareketlerini deftere nakletmek için kullanılan bir cari ortalama maliyet fiyatı hesaplar.
 
-Sistem bir madde için bu cari ortalama maliyet fiyatını, aşağıdaki formülü kullanarak tahmin eder: Tahmini fiyat = (Fiziksel tutar + Mali tutar) ÷ (Fiziksel miktar + Mali miktar)
+Sistem, aşağıdaki formülü kullanarak maddenin söz konusu yürütülen ortalama maliyet fiyatını tahmin eder: 
+
+Tahmini fiyat = (Fiziksel tutar + Mali tutar) ÷ (Fiziksel miktar + Mali miktar)
 
 ## <a name="using-the-running-average-cost-price"></a>Cari ortalama maliyet fiyatını kullanma
 Aşağıdaki tabloda sistemin ne zaman stok hareketlerini cari ortalama maliyet fiyatını kullanarak deftere naklettiği ve ne zaman madde master kaydında tanımlı maliyet fiyatını kullandığı gösterilmiştir.
@@ -41,7 +47,9 @@ Aşağıdaki tabloda sistemin ne zaman stok hareketlerini cari ortalama maliyet 
 | Pay\*, payda\*\* veya her ikisi de negatiftir. | Hayır                                                       | Evet                                                               |
 | Payda\*\* 0'dır (sıfır).                        | Hayır                                                       | Evet                                                               |
 
-\* Pay = (Fiziksel tutar + Mali tutar) \*\* Payda = (Fiziksel miktar + Mali miktar) **Not:** Bir madde için **Fiziksel değeri dahil et** seçeneği seçili değilse, sistem hem fiziksel tutar hem de fiziksel miktar için 0 (sıfır) kullanır. Bu seçenek hakkında daha fazla bilgi için, bkz. [Fiziksel değeri dahil et](include-physical-value.md).
+\* Pay = (Fiziksel tutar + Mali tutar) \*\* Payda = (Fiziksel miktar + Mali miktar) 
+
+**Not:** Bir madde için **Fiziksel değeri dahil et** seçeneği seçilmezse, sistem hem fiziksel tutar hem de fiziksel miktar için 0 (sıfır) kullanır. Bu seçenek hakkında daha fazla bilgi için, bkz. [Fiziksel değeri dahil et](include-physical-value.md).
 
 ## <a name="avoiding-pricing-amplification"></a>Fiyat yükselmesinden kaçınma
 Bazı nadir durumlarda sistem fiyat için temel alacağı yeterli girişe sahip olmadan birkaç çıkış fiyatlandırır. Bu senaryo, cari ortalama maliyet fiyatı tahmininde aşırı şişmeye neden olabilir. Ancak, fiyat yükselmesinden kaçınmak veya olduğu zaman etkilerini azaltmak için alabileceğiniz önlemler vardır. **Senaryo** **Fiziksel değeri dahil et** seçeneğini belirlediğiniz bir madde için aşağıdaki hareketler gerçekleşir:
@@ -50,7 +58,11 @@ Bazı nadir durumlarda sistem fiyat için temel alacağı yeterli girişe sahip 
 2.  Mali olarak 200 miktarını çıkarırsınız.
 3.  Fiziksel olarak 202,00 Amerikan dolarında 101 miktarını alırsınız.
 
-Bir madde için tahmini cari ortalama maliyet fiyatını incelediğinizde, 1,51 Amerikan doları maliyet fiyatı beklersiniz. Bunun yerine, şu formüle dayalı olarak 102,00 Amerikan dolarlık bir tahmini cari ortalama bulursunuz: Tahmini fiyat = \[202 + (-100)\] ÷ \[101 + (-100)\] = 102 ÷ 1 = 102 Bu fiyat yükselmesinin gerçekleşme sebebi, 2. adımda 200 madde mali olarak çıkarıldığında, sistemin maddelerden 100'ünü karşılık gelen girişe sahip olmadan önce fiyatlandırmak zorunda olmasıdır. Bu durum, negatif stok sonucunu doğurur. Ardından, sistem, bekleyebileceğimiz gibi 1,00 Amerikan dolarlık bir birim fiyatı tahmin eder. Ancak karşılık gelen 100 giriş geldiğinde, her birinin birim fiyatı 2,00 Amerikan doları olur. **Not:** Çıkışlar negatif stok oluşturmasına rağmen, çıkış fiyatı hesaplandığında stok pozitiftir. Madde masterındaki fiyat yerine cari ortalama maliyet fiyatının kullanılmasının nedeni budur. Bu noktada, sistemdeki stok mahsup değeri 100,00 USD'dir. Bu mahsup 100 parça üzerinden oluşturulmuş olsa da, her biri 1,00 Amerikan dolarlık bir birim mahsup olduğunda artık yalnızca tek parça stokumuz olur. Bu nedenle, bu tek parçaya 100,00 Amerikan dolarlık bir mahsup tahsis edilir. Sonuç, aşırı şişirilmiş maliyet fiyatıdır. **Not:** Karşılaştırma için, senaryodaki 2. ve 3. adımlar yer değiştirdiğinde 1,51 Amerikan dolarlık bir birim fiyatına 200 maddenin çıkarılacağını ve bir parçanın 1,51 Amerikan doları birim fiyatında kalacağını görebilirsiniz. Bu fiyat yükseliş senaryosu negatif stok durumunda gerçekleşebildiğinden, aşağıdaki durumlarda kaçınılması zordur:
+Bir madde için tahmini cari ortalama maliyet fiyatını incelediğinizde, 1,51 Amerikan doları maliyet fiyatı beklersiniz. Bunun yerine, şu formüle dayalı olarak 102,00 Amerikan dolarlık bir tahmini cari ortalama bulursunuz: Tahmini fiyat = \[202 + (-100)\] ÷ \[101 + (-100)\] = 102 ÷ 1 = 102 Bu fiyat yükselmesinin gerçekleşme sebebi, 2. adımda 200 madde mali olarak çıkarıldığında, sistemin maddelerden 100'ünü karşılık gelen girişe sahip olmadan önce fiyatlandırmak zorunda olmasıdır. Bu durum, negatif stok sonucunu doğurur. Ardından, sistem, bekleyebileceğimiz gibi 1,00 Amerikan dolarlık bir birim fiyatı tahmin eder. Ancak karşılık gelen 100 giriş geldiğinde, her birinin birim fiyatı 2,00 Amerikan doları olur. 
+
+**Not:** Çıkışlar negatif stok oluşturmasına rağmen, çıkış fiyatı hesaplandığında stok pozitiftir. Madde masterındaki fiyat yerine cari ortalama maliyet fiyatının kullanılmasının nedeni budur. Bu noktada, sistemdeki stok mahsup değeri 100,00 USD'dir. Bu mahsup 100 parça üzerinden oluşturulmuş olsa da, her biri 1,00 Amerikan dolarlık bir birim mahsup olduğunda artık yalnızca tek parça stokumuz olur. Bu nedenle, bu tek parçaya 100,00 Amerikan dolarlık bir mahsup tahsis edilir. Sonuç, aşırı şişirilmiş maliyet fiyatıdır. 
+
+**Not:** Karşılaştırma için, senaryodaki 2. ve 3. adımlar yer değiştirdiğinde 1,51 Amerikan dolarlık bir birim fiyatına 200 maddenin çıkarılacağını ve bir parçanın 1,51 Amerikan doları birim fiyatında kalacağını görebilirsiniz. Bu fiyat yükseliş senaryosu negatif stok durumunda gerçekleşebildiğinden, aşağıdaki durumlarda kaçınılması zordur:
 
 -   Çıkış fiyatlarını eldeki değer ve miktarda tahmin etmeniz gerekiyorsa.
 -   Çıkış ve girişlerde eldeki değeri ve miktarı ayarlamanız gerekiyorsa.
@@ -63,5 +75,7 @@ Bir madde için tahmini cari ortalama maliyet fiyatını incelediğinizde, 1,51 
 -   Bir madde için **Fiziksel değeri dahil et** seçeneğini *belirlemezseniz*, **Madde model grupları** sayfasındaki **Mali negatif stok** onay kutusunun seçimini kaldırın.
 
 Ayrıca, fiziksel stok değerinizdeki maksimum mahsubun, fiziksel hareket sayısı ile fiziksel ve mali fiyatlar arasındaki farkla sınırlı olduğunu aklınızda bulundurun. Tüm fiziksel hareketler sonunda mali olarak güncelleştirildiği sürece fiziksel değer aşırı düzeylere yükselemez. Son olarak, biriken mahsup sadece tek parça yerine eldeki birden çok parça üzerine dağıtıldığında, yükselmenin etkisi önemli ölçüde azalır.
+
+
 
 

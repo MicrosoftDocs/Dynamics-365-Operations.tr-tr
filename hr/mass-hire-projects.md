@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6f4429202efd0506378d681188035c5cc69f56a1
-ms.openlocfilehash: d330f73ee9cbdd6bdcc197c3783a9230b26e04d8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5ba5816b65bcaa3a71ab3367cfbe6a115e52062a
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="mass-hire-projects"></a>Toplu işe alma projeleri
+
+[!include[banner](includes/banner.md)]
+
 
 Toplu işe alma projeleri, insan kaynakları uzmanlarının çoklu pozisyonlar oluşturmasına ve çalışanları bu pozisyonlar için etkili biçimde işe almasına imkan verir.
 
@@ -46,7 +50,7 @@ Yaz aylarında şirketinizdeki açık stajyer pozisyonlarını doldurmak için g
 
 Stajyer pozisyonları için işe alacağınız öğrencileri seçtikten sonra, her bir öğrencinin bilgilerini o öğrenciyi işe aldığınız pozisyon için **Pozisyon bilgileri** altına gireceksiniz. Tüm pozisyon bilgilerini girdikten sonra Toplu işe alma projesi sayfasından projeyi seçin ve **İşe alma** düğmesini tıklayın. Her bir pozisyon için bir pozisyon kaydı oluşturulacak ve bir çalışan kaydı oluşturulacak ve işe aldığınız her bir kişi için doğru pozisyona atanacaktır.
 
-## <a name="masshire-project-statuses"></a>Toplu işe alma projesi durumları
+## <a name="mass-hire-project-statuses"></a>Toplu işe alma projesinin durumları
 Bir toplu işe alma projesi aşağıdaki durumlara sahip olabilir.
 -   Oluşturulma
 -   Açık
@@ -92,6 +96,8 @@ Bir toplu işe alma projesi aşağıdaki durumlara sahip olabilir.
 </table>
 
  
+
+
 
 
 

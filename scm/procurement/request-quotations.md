@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: d70b4ae0a6b177508021ee72481333cf6f265069
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 20ad50ab5c2dddf4fe07ebb5bb940954c0408f8d
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -48,7 +49,7 @@ Bir RFQ'da gönderdikten sonra değişiklik yapmak isterseniz, değişikliği ta
 
 Teklifleri aldığınızda, bunları **Teklif talebi yanıtları** sayfasına girmeniz gerekir. **Veriler yanıta kopyala** seçeneğini seçerseniz, RFQ servis talebindeki miktar ve tarih gibi veriler yanıta kopyalanır. Bu verileri satıcının teklifini yansıtacak şekilde değiştirebilirsiniz.  
 
-Belirli bir satıcı için yanıtın ikinci defa yinelenmesi gerekirse, ** Teklif talebi yanıtı** sayfasında **İade et**'e tıklayın. İade eylemi yeni bir günlük oluşturur ve yazıcı ayarlarınıza göre bir rapor yazdırılır, arşivlenir ve gönderilir.  
+Belirli bir satıcı için yanıtın ikinci defa yinelenmesi gerekirse, **Teklif talebi yanıtı** sayfasında **İade et**'e tıklayın. İade eylemi yeni bir günlük oluşturur ve yazıcı ayarlarınıza göre bir rapor yazdırılır, arşivlenir ve gönderilir.  
 
 RFQ servis talebine puanlama ölçütü eklediyseniz, RFQ yanıtında puanlama girebileceğiniz bir puanlama paneli bulunur. Toplam puanlar **Yanıtları karşılaştır** sayfasında yanıtları karşılaştırdığınızda görüntülenir. Bu sayfada satır fiyatı, teslim tarihi ve toplam fiyat gibi diğer yanıt verilerini de karşılaştırabilirsiniz.  
 
@@ -121,13 +122,13 @@ RFQ servis talebine eklenecek satıcılar üç yolla seçilebilir:
 
 RFQ servis talebi hazır olduğunda **Gönder**'e tıklayın. Gönder eylemi günlükler oluşturur ve yazıcı ayarlarınıza göre raporlar yazdırılır, arşivlenir ve gönderilir.  
 
-**Teklif talebi gönderme ** sayfasında **Fiyatları yeniden hesaplamak için satıcı kullan** ve **Satıcıya özgü madde bilgilerini kullan** onay kutularını işaretlediğinizde, talebi satıcılara gönderirken satıcıya özgü bazı bilgiler otomatik olarak girilir. Bu bilgiler üzerinde **Teklif talebi yanıtı** sayfasından değişiklik yapabilirsiniz.  
+**Teklif talebi gönderme** sayfasında **Fiyatları yeniden hesaplamak için satıcı kullan** ve **Satıcıya özgü madde bilgilerini kullan** onay kutularını işaretlediğinizde, talebi satıcılara gönderirken satıcıya özgü bazı bilgiler otomatik olarak girilir. Bu bilgiler üzerinde **Teklif talebi yanıtı** sayfasından değişiklik yapabilirsiniz.  
 
 Aşağıdaki tablo, bri RFQ oluşturup satıcılara gönderdiğinizde, RFQ durumunun nasıl değiştiğini göstermektedir.
 
 |                                    |                              |                                                 |                            |                             |
 |------------------------------------|------------------------------|-------------------------------------------------|----------------------------|-----------------------------|
-| **Eylem **                         | **En düşük RFQ başlığı durumu ** | **En yüksek RFQ başlığı durumu **                   | **En düşük RFQ satırı durumu ** | **En yüksek RFQ satırı durumu ** |
+| **Eylem**                         | **En düşük RFQ başlığı durumu** | **En yüksek RFQ başlığı durumu**                   | **En düşük RFQ satırı durumu** | **En yüksek RFQ satırı durumu** |
 | RFQ başlığı ve satırı oluşturun.    | Oluşturulma                      | Oluşturulma                                         | Oluşturulma                    | Oluşturulma                     |
 | RFQ'yu belirli bir satıcıya gönderin. | Gönderildi                         | Gönderildi                                            | Gönderildi                       | Gönderildi                        |
 | Başka satıcı ekleyin.                | Oluşturulma                      | Gönderildi (RFQ yalnızca tek bir satıcıya gönderilmiştir.) | Oluşturulma                    | Gönderildi                        |
@@ -157,7 +158,7 @@ Aşağıdaki tablo, teklifleri aldığınızda ve bilgileri RFQ yanıt sayfasın
 
 |                                                |                       |                        |                              |                               |                            |                             |
 |------------------------------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Eylem **                                     | **En düşük teklif durumu ** | **En yüksek teklif durumu ** | **En düşük RFQ başlığı durumu ** | **En yüksek RFQ başlığı durumu ** | **En düşük RFQ satırı durumu ** | **En yüksek RFQ satırı durumu ** |
+| **Eylem**                                     | **En düşük teklif durumu** | **En yüksek teklif durumu** | **En düşük RFQ başlığı durumu** | **En yüksek RFQ başlığı durumu** | **En düşük RFQ satırı durumu** | **En yüksek RFQ satırı durumu** |
 | Bir satıcının teklifini girin ve kaydedin.        | Gönderildi                  | Alınan               | Gönderildi                         | Alınan                      | Gönderildi                       | Alınan                    |
 | İkinci satıcının teklifini girin ve kaydedin. | Alınan              | Alınan               | Alınan                     | Alınan                      | Alınan                   | Alınan                    |
 
@@ -186,7 +187,7 @@ Aşağıdaki tabloda, satıcılardan gelen teklifleri kabul ettiğinizde ve redd
 
 |                         |                       |                        |                              |                               |                            |                             |
 |-------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Eylem **              | **En düşük teklif durumu ** | **En yüksek teklif durumu ** | **En düşük RFQ başlığı durumu ** | **En yüksek RFQ başlığı durumu ** | **En düşük RFQ satırı durumu ** | **En yüksek RFQ satırı durumu ** |
+| **Eylem**              | **En düşük teklif durumu** | **En yüksek teklif durumu** | **En düşük RFQ başlığı durumu** | **En yüksek RFQ başlığı durumu** | **En düşük RFQ satırı durumu** | **En yüksek RFQ satırı durumu** |
 | Tekliflerden birini kabul edin. | Alınan              | Kabul edildi               | Alınan                     | Kabul edildi                      | Alınan                   | Kabul edildi                    |
 | Diğer teklifleri reddedin.  | Reddedildi              | Kabul edildi               | Reddedildi                     | Kabul edildi                      | Reddedildi                   | Kabul edildi                    |
 

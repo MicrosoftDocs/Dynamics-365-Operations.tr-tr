@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 720a1f272948eb310dc3cd02588aeec40b556d20
-ms.openlocfilehash: 31dda85ff2e4a4e5380401b031b2dd74acff394b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4fd6e61e88ca3ca3fa63308dead1258c0263e5aa
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a>İşgücü yeteneklerini iş ihtiyaçlarıyla uyumlu hale getirme
+
+[!include[banner](includes/banner.md)]
+
 
 Çalışanların, başvuranların veya ilgili kişilerin görevlerini etkili şekilde yerine getirmek için sahip olduğu veya sahip olması gereken yetenekleri izleyebilirsiniz. Ayrıca, belirli bir iş için gereken yetenekleri de belirtebilirsiniz.
 
@@ -52,24 +56,12 @@ Belirli türde bir görevi yerine getirmeye uygun nitelikte bir işçi, başvuru
 
 Yetenek eşleştirme profilleri, iş gereksinimlerine doğrudan karşılık gelen nitelikleri taşıyan mevcut çalışanları veya adayları bulmanıza olanak sağlar.  Örneğin, kuruluşunuzdaki bir açık pozisyon için yetenek eşleştirme profili oluşturabilirsiniz. Belirli bir iş için bir profil oluşturarak ve o işteki yetenekleri, eğitimi ve sertifikaları profile kopyalayarak profilde girilen bir veya daha fazla ölçüte uyan çalışanları, başvuranları ve ilgili kişileri hızlıca arayabilir ve bir iş için gereken yeteneklere en uygun adayların listesini görüntüleyebilirsiniz.
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>Not </strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Yalnızca yetenek eşleme aramalarına eklenmek üzere seçilen çalışanlar, başvuranlar ve ilgili kişiler bir yetenek eşleme sonuçları listesinde görüntülenebilir ya da yetenek profiline eklenebilir. Yetenek eşleme aramalarına bir çalışan, başvuran veya ilgili kişi eklemek için <strong>Yetenek eşlemeye dahil et</strong> seçimini aşağıdaki sayfalarda Evet olarak ayarlayın:
-<ul>
-<li>Çalışan</li>
-<li>Çalışan</li>
-<li>Başvuran</li>
-<li>İlgili kişiler</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+>**Not** Yalnızca yetenek eşleme aramalarına eklenmek üzere seçilen çalışanlar, başvuranlar ve ilgili kişiler bir yetenek eşleme sonuçları listesinde görüntülenebilir ya da yetenek profiline eklenebilir. Yetenek eşleme aramalarına bir çalışan, başvuran veya ilgili kişi eklemek için **Yetenek eşlemeye dahil et** seçimini aşağıdaki sayfalarda Evet olarak ayarlayın:
+
+> + Çalışan
+> + Çalışan
+> + Başvuran
+> + İlgili kişiler
 
 ## <a name="skill-gap-analysis-and-skill-profile-analysis"></a> Yetenek eksikliği analizi ve yetenek profili analizi
 Bir çalışan, başvuran veya ilgili kişinin belirli bir tarih itibariyle sahip olduğu yetkinliklerin listesini görmek için bir yetenek profili analizi oluşturabilirsiniz. Bir kişinin yeteneklerini ve belirli bir iş için gereken yetenekleri karşılaştırmak için bir yetenek eksikliği analizi oluşturabilirsiniz.  
@@ -80,5 +72,7 @@ Bir çalışan, başvuran veya ilgili kişinin belirli bir tarih itibariyle sahi
 --------
 
 [İnsan kaynakları](index.md)
+
+
 
 

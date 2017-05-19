@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 81a52acd1d9baa12fcfe9d848441901894fa5682
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3f13e07a1adf74982a8b220296ae72d71075e0e3
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---

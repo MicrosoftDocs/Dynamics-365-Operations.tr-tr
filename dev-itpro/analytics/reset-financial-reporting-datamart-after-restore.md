@@ -1,9 +1,9 @@
 ---
 title: "Bir veritabanını geri yükledikten sonra mali raporlama veri reyonunu sıfırlama"
 description: "Bu konu Microsoft Dynamics 365 for Operations veritabanını geri yüklendikten sonra mali raporlama veri reyonunun nasıl sıfırlanacağını açıklar."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-12-08 16 - 20 - 13
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3967cbb869fbb23d5d7716f619e4c22b4a273921
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d4ce390c62cbfb1f693410b004aa296c0ed75eb2
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>Bir veritabanını geri yükledikten sonra mali raporlama veri reyonunu sıfırlama
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu konu Microsoft Dynamics 365 for Operations veritabanını geri yüklendikten sonra mali raporlama veri reyonunun nasıl sıfırlanacağını açıklar. 
 
@@ -43,7 +47,11 @@ Dynamics 365 for Operations veritabanınızı bir yedeklemeden geri yüklemenizi
 5.  Bir dosya adı girin ve dışarı aktarılan rapor tanımlarını kaydetmek için istediğiniz güvenli bir konumu seçin.
 6.  **Kaydet**'e tıklayın.
 
-Dosya güvenli bir konuma kopyalanabilir veya yüklenebilir; bu dosyanın daha sonra farklı bir ortama aktarılmasını sağlar. Microsoft Azure depolama hesabı kullanma hakkındaki bilgileri [>AzCopy Komut Satırı Yardımcı Programı ile veri transferi](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy) bölümünde bulabilirsiniz. **Not:** Microsoft, Dynamics 365 for Operations sözleşmenizin bir parçası olarak bir depolama hesabı sağlamaz. Bir depolama hesabı satın almanız veya ayrı bir Azure aboneliğine ait bir depolama hesabını kullanmanız gerekir. **Önemli:** Azure Sanal Makineler'de D sürücüsünün davranışını dikkate alın. Dışa aktarılan yapı taşı gruplarınızı burada kalıcı olarak saklamayın. Geçici sürücüler hakkında daha fazla bilgi için bkz. [Microsoft Azure Sanal Makinelerindeki geçici sürücüyü anlama](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
+Dosya güvenli bir konuma kopyalanabilir veya yüklenebilir; bu dosyanın daha sonra farklı bir ortama aktarılmasını sağlar. Microsoft Azure depolama hesabı kullanma hakkındaki bilgileri [>AzCopy Komut Satırı Yardımcı Programı ile veri transferi](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy) bölümünde bulabilirsiniz. 
+> [!NOTE]
+> Microsoft, Dynamics 365 for Operations sözleşmenizin bir parçası olarak bir depolama hesabı sağlamaz. Bir depolama hesabı satın almanız veya ayrı bir Azure aboneliğine ait bir depolama hesabını kullanmanız gerekir. 
+> [!WARNING]
+> Azure Sanal Makineler'de D sürücüsünün davranışını dikkate alın. Dışa aktarılan yapı taşı gruplarınızı burada kalıcı olarak saklamayın. Geçici sürücüler hakkında daha fazla bilgi için bkz. [Microsoft Azure Sanal Makinelerindeki geçici sürücüyü anlama](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
 
 ## <a name="stop-services"></a>Hizmetleri durdurma
 Ortamdaki tüm bilgisayarlara bağlanmak ve services.msc'yi kullanarak aşağıdaki Windows hizmetlerini durdurmak için Uzak Masaüstü'nü kullanın:
@@ -96,7 +104,9 @@ Daha önce durdurduğunuz hizmetleri yeniden başlatmak için services.msc'yi ku
 Rapor Tasarımcısı'ndan rapor tanımlarınızı dışa aktarma sırasında oluşturulan dosyayı kullanarak içe aktarın:
 
 1.  Rapor Tasarımcısında, **Şirket** &gt; **Yapı Taşı Grupları**'na gidin.
-2.  Dışa aktarılacak yapı taşı grubunu seçin ve **Dışa Aktar**'a tıklayın. **Not:** Dynamics 365 for Operations için yalnızca bir yapı taşı grubu desteklenir, **Varsayılan**.
+2.  Dışa aktarılacak yapı taşı grubunu seçin ve **Dışa Aktar**'a tıklayın. 
+    > [!NOTE]
+    > Dynamics 365 for Operations için yalnızca bir yapı taşı grubu desteklenir, **Varsayılan**.
 3.  **Varsayılan** yapı bloğunu seçin ve **İçe Aktar**'a tıklayın.
 4.  Dışa aktarılan rapor tanımlarını içeren dosyayı seçin **Aç**'a tıklayın.
 5.  İçe Aktar iletişim kutusunda, içe aktarılacak rapor tanımlarını seçin:
@@ -104,6 +114,8 @@ Rapor Tasarımcısı'ndan rapor tanımlarınızı dışa aktarma sırasında olu
     -   Belirli raporları, satırları, sütunları, ağaçları veya boyut kümelerini içe aktarmak için, içe aktarılacak raporları, satırları, sütunları, ağaçları veya boyut kümelerini seçin.
 
 6.  **İçe aktar**'a tıklayın.
+
+
 
 
 

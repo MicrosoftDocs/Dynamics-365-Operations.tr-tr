@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a98ce08dc115bc96cec07c2d6ced10d774785fe9
-ms.openlocfilehash: b1057caae6f47e5a17e194834fbbcb9d7d731605
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 527ca0aa977c928204a1db165a77e20483931bda
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,14 +46,14 @@ Genel muhasebe dağıtım özellikleri, hesap dağıtımlarının işlenmesi iç
     -   Dağıtım tutarları, belgenin belirtilen para birimine dayalıdır. Tipik olarak, bu para birimi hareket para birimidir. Muhasebe ve raporlama para birimi tutarları alt defte hesaplarının bir parçası oluşturulur.
     -   Dağıtımlar, hesap tarihini ve hesap olayını gösterir. Tipik olarak, belge nakledilene/günlüğe kaydedilene kadar hesap olayı **ok** olarak ayarlanır. Bu noktada, hesap olayı **Orijinal** durumuna gelir. Dağıtımlar nakledildikten sonra dağıtımları değiştiremezsiniz.
     -   **Bölme** düğmesi ana dağıtımlar için etkinleştirilebilir. **Bölme** yeni hesap dağıtımları oluşturur ve bölme işlemi yüzdeye, tutara veya miktara dayalı olabilir.
-    -   ** Eşit olarak dağıt** düğmesi, tutarın tüm dağıtımlar arasında otomatik olarak tahsis edilmesi için **Bölme** düğmesiyle birlikte kullanılabilir.
+    -   **Eşit olarak dağıt** düğmesi, tutarın tüm dağıtımlar arasında otomatik olarak tahsis edilmesi için **Bölme** düğmesiyle birlikte kullanılabilir.
     -   **Sıfırlama** düğmesi birden fazla dağıtım mevcut olduğundan ana dağıtımlar için etkinleştirilebilir. **Sıfırla** tüm mevcut dağıtımları silerek ve varsayılan dağıtımları yeniden oluşturarak dağıtımda el ile yapılan değişiklikleri sıfırlar.
     -   İskonto, masraf ve satış vergisi gibi herhangi bir alt dağıtım her zaman ana dağıtımı izler. Ana/alt ilişkisini **Referans** &gt; **Ana bilgi** altından görebilirsiniz.
     -   Ana hesap ve mali boyut alt dağıtımlar için de düzenlenebilir.
     -   Hesap dağıtımları üzerindeki mali boyutlar bir belgenin genişletilebildiği varsayılan düzeni takip eder. Daha fazla bilgi için ilgili makalelere bakın.
     -   Fark dağıtımları bir satıcı faturası ile bir satın alma emri arasındaki eşleşme vb. gibi eşleşen senaryolarda oluşturulabilir. Hesap dağıtımı arasındaki eşleşme ilişkilerini **Referans** &gt; **Belge bilgileri** altından görebilirsiniz.
     -   **Doğru** düğmesi, düzeltmeyi destekleyen belgeler için görüntülenir ve etkinleştirilir. **Doğru** yeni dağıtımları oluşturur. İlk olarak, özgün dağıtımları tersine çeviren dağıtımlar oluşturulur. Bu dağıtımlar değiştirilemez. Daha sonra, yeni doğru muhasebe dağıtımları oluşturulur. Bu dağıtımlar, orijinal dağıtımların değiştirilmesi durumunda değiştirilebilir.
-    -   ** Proje bilgileri** düğmesi bir satır bir projeyle ilişkili olduğunda etkinleştirilir. Proje hesap dağıtımları, finansman kaynağı ve hat özelliği gibi bilgileri değiştirmenize izin verir.
+    -   **Proje bilgileri** düğmesi bir satır bir projeyle ilişkili olduğunda etkinleştirilir. Proje hesap dağıtımları, finansman kaynağı ve hat özelliği gibi bilgileri değiştirmenize izin verir.
     -   Geçerli belge muhasebe durumunu **Referans** içerisinde görebilirsiniz. Durum tüm belge içindir ve belgenin işlemde mi yoksa tamamlanmış mı olduğunu belirtir.
 -   ** Dağılımları göster** – Belgedeki tüm satırlar ve parasal tutarlar için hesap dağılımlarını görüntüleyin. Hesap dağılımlarını bu görünümden değiştiremezsiniz.
 

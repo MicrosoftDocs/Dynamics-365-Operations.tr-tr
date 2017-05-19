@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16461
 ms.assetid: 2b85491c-f830-4e79-a2cb-681b7ced6988
 ms.search.region: global
@@ -18,15 +18,19 @@ ms.search.industry: Retail
 ms.author: prabhup
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 26c628e10aaa5f47bc87d7510ca8f41ab3630204
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: a5c45bb0b9ed10c989a3222a751df3f454b14a0b
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="create-and-manage-attributes"></a>Öznitelikler oluşturmak ve yönetmek
+
+[!include[banner](includes/banner.md)]
+
 
 Bu makale Microsoft Dynamics 365 for Operations'taki öznitelikleri açıklar. Öznitelikler kullanıcı tanımlı alanlar aracılığıyla ürün ve özellikleri açıklamanızı sağlar.
 
@@ -34,110 +38,28 @@ Bu makale Microsoft Dynamics 365 for Operations'taki öznitelikleri açıklar. �
 
 #### <a name="examples"></a>Örnekler
 
-Kategori
+| Kategori   | Öznitelik                | İzin verilen değerler          | Varsayılan değer |
+|------------|--------------------------|-----------------------------|---------------|
+| TV ve Video | Marka                    | Herhangi bir geçerli marka değeri       | Hiçbiri          |
+| TV         | Ekran Boyutu              | 20″–80″                     | Hiçbiri          |
+| TV         | Dikey Çözünürlük      | 480i, 720p, 1080i veya 1080p | 1080p         |
+| TV         | Ekran yenileme hızı      | 60hz, 120hz veya 240hz       | 60hz          |
+| TV         | HDMI Girdileri              | 0–10                        | 3             |
+| TV         | DVI Girdileri               | 0–10                        | 1             |
+| TV         | Bileşik Girdiler         | 0–10                        | 2             |
+| TV         | Bileşen Girdileri         | 0–10                        | 1             |
+| LCD        | 3D Hazır                 | Evet veya Hayır                   | Evet           |
+| LCD        | 3D etkin               | Evet veya Hayır                   | Hayır            |
+| Plazma     | Çalıştırma Sıcaklığı Başlangıç      | 32–110 derece              | 32            |
+| Plazma     | Çalıştırma Sıcaklığı Son        | 32–110 derece              | 100           |
+| Projeksiyon | Projeksiyon tüp garanti | 6, 12 veya 18 ay         | 12            |
+| Projeksiyon | #  Projeksiyon Tüplerinin sayısı    | 1–5                         | 3             |
 
-Öznitelik
-
-İzin verilen değerler
-
-Varsayılan değer
-
-TV ve Video
-
-Marka
-
-Herhangi bir geçerli **marka** değeri
-
-Yok
-
-TV
-
-Ekran Boyutu
-
-**20"**–**80"**
-
-Yok
-
-Dikey Çözünürlük
-
-**480i**, **720p**, **1080i** veya **1080p**
-
-**1080p**
-
-Ekran yenileme hızı
-
-**60hz**, **120hz** veya **240hz**
-
-**60hz**
-
-HDMI Girdileri
-
-**0**–**10**
-
-**3**
-
-DVI Girdileri
-
-**0**–**10**
-
-**1**
-
-Bileşik Girdiler
-
-**0**–**10**
-
-**2**
-
-Bileşen Girdileri
-
-**0**–**10**
-
-**1**
-
-LCD
-
-3D Hazır
-
-**Evet** veya **Hayır**
-
-**Evet**
-
-3D etkin
-
-**Evet** veya **Hayır**
-
-**Hayır**
-
-Plazma
-
-Çalıştırma Sıcaklığı Başlangıç
-
-**32**–**110** derece
-
-**32**
-
-Çalıştırma Sıcaklığı Son
-
-**32**–**110** derece
-
-**100**
-
-Projeksiyon
-
-Projeksiyon tüp garanti
-
-**6**, **12** veya **18** ay
-
-**12**
-
-\# Projeksiyon Tüplerinin sayısı
-
-**1**–**5**
-
-**3**
 
 ## <a name="attribute-type"></a>Öznitelik türü
-  [![öznitelikler-sabit-kopya](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) Öznitelikler, öznitelik türlerine dayanmaktadır. Öznitelik türleri, belirli bir öznitelik için girilen veri türünü tanımlar. Şu anda, Microsoft Dynamics 365 for Operations aşağıdaki öznitelik türlerini destekler:
+  [![öznitelikler-sabit-kopya](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
+  
+Öznitelik, öznitelik türlerini temel alır. Öznitelik türleri, belirli bir öznitelik için girilen veri türünü tanımlar. Şu anda, Microsoft Dynamics 365 for Operations aşağıdaki öznitelik türlerini destekler:
 
 -   **Para** – bu öznitelik türü para birimi değerlerini destekler. Bağlantılı olmalıdır (diğer bir deyişle, bir değer aralığı destekleyebilir) veya açık bırakılabilir.
 -   **DateTime** – bu öznitelik türü, tarih ve saat değerlerini destekler. Bağlantılı olmalıdır (diğer bir deyişle, bir değer aralığı destekleyebilir) veya açık bırakılabilir.
@@ -174,5 +96,7 @@ Projeksiyon tüp garanti
 ### <a name="at-the-retail-channel-level"></a>Perakende kanalı düzeyinde
 
   [![createandmanageattribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) Tek tek ürünlerin belirli perakende kanalları için hedeflenen belirli kataloglar özniteliklerinin varsayılan değerlerini geçersiz kılınabilir.
+
+
 
 

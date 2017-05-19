@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 8b13d734c22203618183b8855f99da8e51114f76
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5c21260315a08ecb31ae180d2d905a8606de2e88
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -61,7 +62,7 @@ Yeni maliyetlendirme sürümü, **Dönüştürme** maliyetlendirme tipinin göst
 Ayrılmış maliyetlendirme versiyonunda bulunan madde maliyet bilgileri yalnızca **Standart maliyet dönüştürme işlemleri** sayfasında saklanabilir. Dönüştürme işlemi sırasında maliyetlendirme sürümü için maliyetleri hesaplamak üzere **Maliyetlendirme sürümü kurulumu** sayfasını veya **Maliyetlendirme sürümü bakımı** sayfasını kullanamazsınız. Ancak, bu sayfaları, ayrılmış maliyetlendirme sürümü dönüştürme işlemi başarıyla gerçekleştirildikten sonra saklamak için kullanabilirsiniz.
 
 ## <a name="3-identify-the-items-to-convert-to-standard-cost"></a>3. Standart maliyete dönüştürülecek maddeleri tanımlayın
-Standart maliyete dönüştürülmesi gereken maddeleri tek tek tanımlamak için ** Standart maliyet dönüştürme işlemleri** sayfasını kullanın. **Maddeleri standart maliyet dönüştürmesine ekle** sayfasını kullanarak birden çok madde ekleyebilirsiniz. Genel olarak, maliyetlerin doğru şekilde hesaplanması için tüm üretilen maddeleri tek bir dönüştürme kaydına dahil etmeniz gerekir.
+Standart maliyete dönüştürülmesi gereken maddeleri tek tek tanımlamak için **Standart maliyet dönüştürme işlemleri** sayfasını kullanın. **Maddeleri standart maliyet dönüştürmesine ekle** sayfasını kullanarak birden çok madde ekleyebilirsiniz. Genel olarak, maliyetlerin doğru şekilde hesaplanması için tüm üretilen maddeleri tek bir dönüştürme kaydına dahil etmeniz gerekir.
 
 ## <a name="4-enter-or-calculate-the-pending-standard-cost-for-each-item-that-is-being-converted"></a>4. Dönüştürülmekte olan her bir madde için beklemedeki standart maliyeti girin veya hesaplayın
 Satın alınan maddeler ve transfer edilen maddeler için, ayrılmış maliyetlendirme versiyonundaki standart maliyetleri girmek üzere **Madde fiyatı** sayfasını kullanın. Maliyet kayıtları tesise özeldir ve bir maddenin beklemedeki maliyetleri her tesis için girilmelidir. Üretilen maddeler için beklemedeki maliyetleri hesaplamak üzere **Madde fiyatı** sayfasını kullanın. Tesis bir transfer tesisini temsil etmiyorsa, üretilen bir maddenin beklemedeki maliyetleri her üretim tesisi için girilmelidir. Bu durumda, bekleyen maliyetler el ile girilmelidir. Bazı maddeler renk, boyut veya konfigürasyon ürün boyutlarına sahip olabilir. **Standart maliyet dönüştürme işlemleri** sayfasında, **Çeşide göre maliyet fiyatını kullan** onay kutusu, ürün boyutlarının her bir kombinasyonu için standart maliyeti gösterir. Bu onay kutusunun işareti kaldırıldığında madde için yalnızca bir beklemedeki maliyet girmeniz gerekir.

@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9397e84f03ee5b340fa2aa0a64e582fc0078526e
-ms.openlocfilehash: be156afa73de731e54985485b617bcbae883db3a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 917771596a0c56561bf302ae990d95a987f442e0
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Değişken ücret, çalışanın düzenli almadığı, prim, hisse senedi ikrami
 ## <a name="variable-compensation-components"></a>Değişken ücret bileşenleri
 ### <a name="create-compensation-types"></a>Ücret türleri oluşturma
 
-**Değişken ücret türleri **zorunlu bir bileşendir. Değişken ücret türler, organizasyonunuzun verdiği değişken ücret türlerini tanımlar. Ayrıca, ücretin nakit mi, yoksa hisse senedi vb. gibi parasal olmayan bir türde mi olacağını belirlemenize izin verir.
+**Değişken ücret türleri**zorunlu bir bileşendir. Değişken ücret türler, organizasyonunuzun verdiği değişken ücret türlerini tanımlar. Ayrıca, ücretin nakit mi, yoksa hisse senedi vb. gibi parasal olmayan bir türde mi olacağını belirlemenize izin verir.
 
 ### <a name="describe-vesting-rules"></a>Hakediş ödeme kuralları tanımlama
 
@@ -59,7 +60,7 @@ Değişken ikramiye tutarı, çalışanın düzenli taban kazançlarına veya ay
 
 **Dengeleme**, bir personelin ikramiyesini, personelin departmanının performansına dayalı ayarlamanıza olanak sağlar. Performans ölçüleri, her bir bölüm için **Bölümler** sayfasında, **İlgili formlar** &gt; **Ücret** &gt; **Performans** altında ayarlanabilir. Söz konusu bölümdeki çalışanların aldığı ikramiye, bölümün performansını belirten **Ulaşılan hedefin yüzdesi** alanının değerine bağlıdır:
 
--   Departmanın performansı yüzde 100 ise, o departmanındaki çalışanlar için ikramiye,** %100'de ödeme** alanında ayarlanan yüzdeyle çarpılır.
+-   Departmanın performansı yüzde 100 ise, o departmanındaki çalışanlar için ikramiye,**%100'de ödeme** alanında ayarlanan yüzdeyle çarpılır.
 -   Departmanın performansı yüzde 100'den fazla ise sistem, **Hedefin üzerindeki her %1 için** alanında ayarlanan yüzdeyi **%100'de ödeme** alanına ekler ve bu işleme **İzin verilen en yüksek ödeme** alanında ayarlanan değere ulaşılana kadar devam edilir.
 -   Departmanın performansı yüzde 100'den az ise sistem, **Hedefin üzerindeki her %1 için** alanında ayarlanan yüzdeyi **%100'de ödeme** alanından çıkarır ve bu işleme **İzin verilen en düşük ödeme** alanında ayarlanan değere ulaşılana kadar devam edilir.
 

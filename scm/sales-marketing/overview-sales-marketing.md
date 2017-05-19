@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f9e79b5dad120e057193b97d9c87665c54fea023
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 33a50e9600e3d213718c95db86ba7861b817f279
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---

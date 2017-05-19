@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 1a9bf1067d0f6e0e139ef13d939d2f0e9bf2126b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8dd5cc110e83e1b10db233547b0ac2081cc6c380
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -35,10 +36,10 @@ Bu makale koleksiyonlar işlevselliği ayarlamayı açıklar.
 <a name="set-up-aging-period-definitions"></a>Yaşlandırma dönem tanımlarını ayarla
 -------------------------------
 
-Bir yaşlandırma dönemi tanımı ayarlayın. Bir yaşlandırma dönem tanımı **Yaşlandırma bakiyeleri**, **Tahsilat faaliyetleri**, ve **Tahsilat vakaları** liste sayfaları üzerinde görüntülenen sütunları tanımlar. Bu ayrıca, **Tahsilatlar** sayfasında görüntülenen periyotları da tanımlar. Bir müşteri havuzu ayarlanmışsa, havuzun eskime dönem tanımı kullanılır. Hiçbir havuz ayarlanmamışsa, **Accounts receivable parameters** sayfasındaki varsayılan eskime dönem tanımı kullanılır. Hiçbir varsayılan yaşlandırma dönemi tanımı belirtilmemişse, **Yaşlandırma dönemi tanımları** sayfasındaki ilk yaşlandırma dönemi tanımı kullanılır.
+Bir yaşlandırma dönemi tanımı ayarlayın. Bir yaşlandırma dönem tanımı **Yaşlandırma bakiyeleri**, **Tahsilat faaliyetleri**, ve **Tahsilat vakaları** liste sayfaları üzerinde görüntülenen sütunları tanımlar. Bu ayrıca, **Tahsilatlar** sayfasında görüntülenen periyotları da tanımlar. Bir müşteri havuzu ayarlanmışsa, havuzun eskime dönem tanımı kullanılır. Hiçbir havuz ayarlanmamışsa, **Alacak hesapları parametreleri** sayfasındaki varsayılan eskime dönem tanımı kullanılır. Hiçbir varsayılan yaşlandırma dönemi tanımı belirtilmemişse, **Yaşlandırma dönemi tanımları** sayfasındaki ilk yaşlandırma dönemi tanımı kullanılır.
 
 ## <a name="create-an-aging-snapshot"></a>Bir Yaşlandırma anlık görüntüsü oluştur
-Tüm müşteriler veya bir müşteri havuzundaki müşteriler için yaşlandırma anlık görüntüsü oluşturun. Yaşlandırma anlık görüntüsü bilgisi,** Yaşlandırılmış bakiyeler** listesi sayfası ve **Tahsilatlar** sayfasında görüntülenir. Liste sayfasını kullanmadan önce bir yaşlandırma anlık görüntüsünü oluşturmanız gerekir. Liste sayfası sadece yaşlandırma anlık görüntüsü oluşturulan müşterilerin bilgilerini gösterir.
+Tüm müşteriler veya bir müşteri havuzundaki müşteriler için yaşlandırma anlık görüntüsü oluşturun. Yaşlandırma anlık görüntüsü bilgisi,**Yaşlandırılmış bakiyeler** listesi sayfası ve **Tahsilatlar** sayfasında görüntülenir. Liste sayfasını kullanmadan önce bir yaşlandırma anlık görüntüsünü oluşturmanız gerekir. Liste sayfası sadece yaşlandırma anlık görüntüsü oluşturulan müşterilerin bilgilerini gösterir.
 
 ## <a name="optional-set-up-customer-pools"></a>İsteğe bağlı: Müşteri havuzlarını ayarla
 Müşteri havuzlarını, müşteri gruplarını temsil etmek üzere ayarlayabilirsiniz. Müşteri havuzlarını, **Tahsilatlar** listesi sayfalarında, **Tahsilatlar** sayfasında veya yaşlandırma anlık görüntüsü oluşturduğunuzda, müşteri bilgisini filtrelemek üzere kullanabilirsiniz.

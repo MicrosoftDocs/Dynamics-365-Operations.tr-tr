@@ -3,7 +3,7 @@ title: "Satınalma harcaması analizi Power BI içeriği"
 description: "Bu konu, Microsoft Power BI Satınalma harcaması analizi içerik paketinde nelerin bulunduğunu açıklar. Bu ayrıca, içerik paketine dahil edilen raporların nasıl kullanılacağını açıklar ve içerik paketini oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-12-30 09 - 40 - 51
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 8cb928cbf1316e63a8c7de833587168cd36a455c
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d392b88942f4b7d7365b000df1cd69809060b910
+ms.openlocfilehash: e39b1677038037cd91cfad8d104d0130bc20fb9b
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="purchase-spend-analysis-power-bi-content"></a>Satınalma harcaması analizi Power BI içeriği
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu konu, Microsoft Power BI Satınalma harcaması analizi içerik paketinde nelerin bulunduğunu açıklar. Bu ayrıca, içerik paketine dahil edilen raporların nasıl kullanılacağını açıklar ve içerik paketini oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar.
 
@@ -38,6 +42,7 @@ Microsoft Power BI için satınalma harcaması analiz paketi, satınalma yöneti
 
 ## <a name="accessing-the-content-pack"></a>İçerik paketine erişmek
 Satınalma harcaması analizi içerik paketi, Microsoft Dynamics Lifecycle Services'da (LCS) bir uygulama varlığı olarak yayınlanır ve Microsoft Dynamics 365 for Operations'tan erişilebilir. Power BI raporlarına erişme ve raporları açma hakkında daha fazla bilgi için bkz. [Microsoft ve iş ortaklarınızdan LCS'de Power BI içeriği](power-bi-content-microsoft-partners.md).
+Not: KB 4011327 bu Power BI içeriği için önkoşuldur. Lifecycle Services'a oturum açtıktan sonra KB'ye buradan erişebilirsiniz: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="metrics-that-are-included-in-the-content-pack"></a>İçerik paketinde bulunan ölçümler
 Satın alma harcaması analizi içerik paketi bir dizi ölçümden oluşan bir rapor içerir. Bu ölçümler grafikler, kutucuklar ve tablolar şeklinde görüntülenir. Aşağıdaki tabloda içerik paketindeki görselleştirmelere genel bakış sunulmaktadır.
@@ -129,7 +134,7 @@ Satın alma harcaması analizi içerik paketi bir dizi ölçümden oluşan bir r
 \* Bu yılki ve geçen yılki satınalma ve tedarik kategorisine göre büyüme.
 
 ## <a name="data-model-and-entities"></a>Veri modeli ve varlıklar
-Dynamics 365 for Operations verileri Satınalma harcaması analizi içerik paketindeki rapor için kullanılır. Bu veri, analytics için en iyi duruma getirilen bir Microsoft SQL veritabanı olan Varlık mağazasında hazırlanmış toplam ölçümler olarak temsil edilir. Varlık deposu hakkında daha fazla bilgi için [Dynamics'te Power BI ile Varlık Deposu tümleştirmesi](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) blog gönderisine bakın. Bu içerik paketindeki toplam ölçümler, Microsoft Dynamics AX 2012 ve Microsoft Dynamics 365 for Operations 2012 R3'teki Satınalma Küpü'nde bulunan toplama ölçümlerin alt kümesidir. Varlık deposundaki küpün toplama ölçülerini hazırlamak için bu ölçümleri dağıtılabilir yapmanız gerekir. Daha fazla bilgi için, şu blog yazısındaki toplama ölçümlerini Varlık Deposuna ekleme yordamına bakın: [Dynamics'te Power BI ile Varlık deposu tümleştirmesi](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Aşağıda verilen önemli toplama ölçümleri doğrudan Fatura satırları varlığından kullanılabilir ve içerik paketinin temeli olarak kullanılır.
+Dynamics 365 for Operations verileri Satınalma harcaması analizi içerik paketindeki rapor için kullanılır. Bu veri, analytics için en iyi duruma getirilen bir Microsoft SQL veritabanı olan Varlık mağazasında hazırlanmış toplam ölçümler olarak temsil edilir. Varlık deposu hakkında daha fazla bilgi için [Dynamics'te Power BI ile Varlık Deposu tümleştirmesi](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) blog gönderisine bakın. Bu içerik paketindeki toplamın ölçümleri, Microsoft Dynamics AX 2012 ve Microsoft Dynamics AX 2012 R3'teki Satınalma Küpü'nde bulunan toplama ölçümlerin alt kümesidir. Varlık deposundaki küpün toplama ölçülerini hazırlamak için bu ölçümleri dağıtılabilir yapmanız gerekir. Daha fazla bilgi için, şu blog yazısındaki toplama ölçümlerini Varlık Deposuna ekleme yordamına bakın: [Dynamics'te Power BI ile Varlık deposu tümleştirmesi](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Aşağıda verilen önemli toplama ölçümleri doğrudan Fatura satırları varlığından kullanılabilir ve içerik paketinin temeli olarak kullanılır.
 
 | Varlık        | Önemli toplam ölçümler | Dynamics 365 for Operations için veri kaynağı | Alan              | Açıklama                           |
 |---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
@@ -162,6 +167,8 @@ Power BI içeriği oluşturmak ve varlıklarla ilgili bazı yararlı bağlantıl
 -   [Kuruluş içerik paketleri oluşturma](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Power BI kullanarak veri modelleme](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Çalışma alanlarına Power BI kutucukları ekleme](configure-power-bi-integration.md)
+
+
 
 
 

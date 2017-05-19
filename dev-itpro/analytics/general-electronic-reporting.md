@@ -18,10 +18,11 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: b3e8174d07c9b9fd4210486c369c640fe07c49eb
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: abe9212372fb7429d68c1fb6b32ec1d15c20a6d7
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -47,7 +48,7 @@ ER altyapısı aşağıdaki yeteneklere sahiptir:
 ## <a name="concepts"></a>Kavramlar
 ### <a name="components"></a>Bileşenler
 
-ER iki tür bileşeni destekler: **Veri modeli **ve **Biçim**.
+ER iki tür bileşeni destekler: **Veri modeli**ve **Biçim**.
 
 #### <a name="data-model-components"></a>Veri modeli bileşenleri
 
@@ -93,9 +94,9 @@ Biçim bileşeni, raporlama çıktısında kullanılabilen belirli dosyaları ek
 Sürüm Oluşturma ER bileşenleri için desteklenir. Aşağıdaki iş akışı ER bileşenlerindeki değişiklikleri yönetmek için sağlanır:
 
 -   Başlangıçta oluşturulan sürüm **TASLAK** sürüm olarak işaretlenir. Bu sürüm düzenlenebilir ve test çalıştırmaları için kullanılabilir.
--   ** TASLAK** sürümü **TAMAMLANDI** sürümüne dönüştürülebilir. Bu sürüm yerel raporlama işlemlerinde kullanılabilir.
+-   **TASLAK** sürümü **TAMAMLANDI** sürümüne dönüştürülebilir. Bu sürüm yerel raporlama işlemlerinde kullanılabilir.
 -   **TAMAMLANDI** sürümü **PAYLAŞIMLI** sürümüne dönüştürülebilir. Sürüm LCS üzerinde yayımlanır ve küresel raporlama işlemlerinde kullanılabilir.
--   **PAYLAŞILAN **sürümü **TAMAMLANDI** sürümüne dönüştürülebilir. Daha sonra bu sürüm silinebilir.
+-   **PAYLAŞILAN**sürümü **TAMAMLANDI** sürümüne dönüştürülebilir. Daha sonra bu sürüm silinebilir.
 
 ** TAMAMLANDI** veya **PAYLAŞILAN** durumuna sahip sürümler diğer veri değişimleri için kullanılabilir. Bu durumlara sahip bir bileşen bunlar üzerinden gerçekleştirilen eylemlere sahip olabilir.
 
@@ -104,7 +105,7 @@ Sürüm Oluşturma ER bileşenleri için desteklenir. Aşağıdaki iş akışı 
 
 #### <a name="component-date-effectivity"></a>Bileşen tarihi geçerlilik
 
-ER bileşen sürümleri tarih etkilidir. **Yürürlük başlangıcı **tarihi, raporlama işlemleri için bileşenin geçerlilik kazandığı tarihi belirtmek amacıyla bir ER bileşeni için tanımlanabilir. Dynamics 365 for Operations oturum tarihi bir bileşen yürütme için geçerli olup olmadığını tanımlamak için kullanılır. Belirli bir tarih için birden fazla sürüm geçerliyse raporlama işlemleri için en son sürüm kullanılır.
+ER bileşen sürümleri tarih etkilidir. **Yürürlük başlangıcı**tarihi, raporlama işlemleri için bileşenin geçerlilik kazandığı tarihi belirtmek amacıyla bir ER bileşeni için tanımlanabilir. Dynamics 365 for Operations oturum tarihi bir bileşen yürütme için geçerli olup olmadığını tanımlamak için kullanılır. Belirli bir tarih için birden fazla sürüm geçerliyse raporlama işlemleri için en son sürüm kullanılır.
 
 #### <a name="component-access"></a>Bileşen erişim
 
@@ -112,7 +113,7 @@ ER biçimli bileşenlere erişilmesi ISO ülke/bölge kodu ayarlarına bağlıd�
 
 #### <a name="configuration"></a>Yapılandırma
 
-ER konfigürasyonu **Veri modeli **veya **Biçim** şeklinde belirli bir ER bileşeninin sarmalayıcısıdır. Bir konfigürasyon belirli bir ER bileşeninin farklı sürümlerini içerebilir. Her yapılandırma belirli yapılandırma sağlayıcı tarafından sahip olunan olarak işaretlenir. Bir konfigürasyon bileşeninin **TASLAK** sürümü, konfigürasyon sahibi Dynamics 365 for Operations'taki ER ayarlarında etkin sağlayıcı olarak seçilmişse düzenlenebilir. Her bir model konfigürasyonu **Veri modeli** bileşenini içerir. Yeni bir biçim konfigürasyonu belirli bir veri modeli konfigürasyonundan oluşturulabilir (türetilebilir). Oluşturulan biçim konfigürasyonu orijinal veri modeli konfigürasyonunun alt öğesi olarak konfigürasyon ağacında sunulur. Oluşturulan biçim konfigürasyonu bir **Biçim **bileşeni içerir. Orijinal model konfigürasyonunun **Veri modeli** bileşeni varsayılan veri kaynağı olarak alt biçim konfigürasyonunun **Biçim **bileşenine otomatik olarak eklenir. ER konfigürasyonu Dynamics 365 for Operations şirketleri için paylaşılır.
+ER konfigürasyonu **Veri modeli**veya **Biçim** şeklinde belirli bir ER bileşeninin sarmalayıcısıdır. Bir konfigürasyon belirli bir ER bileşeninin farklı sürümlerini içerebilir. Her yapılandırma belirli yapılandırma sağlayıcı tarafından sahip olunan olarak işaretlenir. Bir konfigürasyon bileşeninin **TASLAK** sürümü, konfigürasyon sahibi Dynamics 365 for Operations'taki ER ayarlarında etkin sağlayıcı olarak seçilmişse düzenlenebilir. Her bir model konfigürasyonu **Veri modeli** bileşenini içerir. Yeni bir biçim konfigürasyonu belirli bir veri modeli konfigürasyonundan oluşturulabilir (türetilebilir). Oluşturulan biçim konfigürasyonu orijinal veri modeli konfigürasyonunun alt öğesi olarak konfigürasyon ağacında sunulur. Oluşturulan biçim konfigürasyonu bir **Biçim**bileşeni içerir. Orijinal model konfigürasyonunun **Veri modeli** bileşeni varsayılan veri kaynağı olarak alt biçim konfigürasyonunun **Biçim**bileşenine otomatik olarak eklenir. ER konfigürasyonu Dynamics 365 for Operations şirketleri için paylaşılır.
 
 #### <a name="provider"></a>Sunucu
 
@@ -120,7 +121,7 @@ ER sağlayıcısı her bir ER konfigürasyonunun yazarını (sahibini) gösterme
 
 #### <a name="repository"></a>Depo
 
-ER havuzu ER konfigürasyonlarını depolar. Aşağıdaki ER havuzu türleri şu anda desteklenmektedir: **Operations kaynakları** ve **LCS projesi**. **Operations kaynakları** havuzu Microsoft tarafından bir ER konfigürasyon sağlayıcısı olarak Dynamics 365 for Operations çözümünün parçası olarak yayımlanan konfigürasyonlar listesine erişim sağlar. Bu konfigürasyonlar geçerli Dynamics 365 for Operations kurulumuna aktarılabilir ve elektronik raporlama için kullanılabilir. Bunlar ek yerelleştirmeler/özelleştirmeler için de kullanılabilir. **LCS projesi **havuzu, havuz kayıt aşamasında seçilen belirli bir LCS projesinin (LCS proje varlıkları kitaplığı) konfigürasyonlar listesine erişim sağlar. ER, belirli bir **LCS projesi** havuzu için geçerli Dynamics 365 for Operations kurulumundan paylaşılan konfigürasyonları karşıya yüklemenizi sağlar. Konfigürasyonları belirli bir **LCS projesi** deposundan geçerli Dynamics 365 for Operations kurulumuna da aktarabilirsiniz. Gerekli **LCS projesi** depoları her bir geçerli Dynamics 365 for Operations kurulumunun konfigürasyon sağlayıcısı için ayrı ayrı kaydedilebilir. Her depo belirli bir konfigürasyon sağlayıcısına ayrılabilir.
+ER havuzu ER konfigürasyonlarını depolar. Aşağıdaki ER havuzu türleri şu anda desteklenmektedir: **Operations kaynakları** ve **LCS projesi**. **Operations kaynakları** havuzu Microsoft tarafından bir ER konfigürasyon sağlayıcısı olarak Dynamics 365 for Operations çözümünün parçası olarak yayımlanan konfigürasyonlar listesine erişim sağlar. Bu konfigürasyonlar geçerli Dynamics 365 for Operations kurulumuna aktarılabilir ve elektronik raporlama için kullanılabilir. Bunlar ek yerelleştirmeler/özelleştirmeler için de kullanılabilir. **LCS projesi**havuzu, havuz kayıt aşamasında seçilen belirli bir LCS projesinin (LCS proje varlıkları kitaplığı) konfigürasyonlar listesine erişim sağlar. ER, belirli bir **LCS projesi** havuzu için geçerli Dynamics 365 for Operations kurulumundan paylaşılan konfigürasyonları karşıya yüklemenizi sağlar. Konfigürasyonları belirli bir **LCS projesi** deposundan geçerli Dynamics 365 for Operations kurulumuna da aktarabilirsiniz. Gerekli **LCS projesi** depoları her bir geçerli Dynamics 365 for Operations kurulumunun konfigürasyon sağlayıcısı için ayrı ayrı kaydedilebilir. Her depo belirli bir konfigürasyon sağlayıcısına ayrılabilir.
 
 ## <a name="supported-scenarios"></a>Desteklenen senaryolar
 ### <a name="building-a-data-model"></a>Bir veri modeli oluşturma
@@ -154,7 +155,7 @@ ER biçim tasarımcısı belirli bir elektronik belgeyi OPENXML çalışma sayfa
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>Biçim konfigürasyonunda tasarlanmış bir biçim bileşeni depolama
 
-ER, geçerli Dynamics 365 for Operations kurulumunun biçim konfigürasyonu olarak yapılandırılmış veri eşlemeleriyle birlikte tasarlanmış bir biçimi depolayabilir. Bu tür bir konfigürasyon biçimi örneği önceki çizimde gösterilmektedir (**BACS (UK)**, **Ödeme modeli **konfigürasyonunun alt öğesi). Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Tasarım etki alanına özgü biçim** görev kılavuzunu (**7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677)** iş sürecinin parçası) oynatın.
+ER, geçerli Dynamics 365 for Operations kurulumunun biçim konfigürasyonu olarak yapılandırılmış veri eşlemeleriyle birlikte tasarlanmış bir biçimi depolayabilir. Bu tür bir konfigürasyon biçimi örneği önceki çizimde gösterilmektedir (**BACS (UK)**, **Ödeme modeli**konfigürasyonunun alt öğesi). Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Tasarım etki alanına özgü biçim** görev kılavuzunu (**7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677)** iş sürecinin parçası) oynatın.
 
 ### <a name="configuring-dynamics-365-for-operations-to-start-to-use-a-created-format-internally"></a>Oluşturulan biçimi dahili olarak kullanmaya başlamak için Dynamics 365 for Operations'ı yapılandırma
 
@@ -169,11 +170,11 @@ Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Ödemeler için 
 ## <a name="handling-er-components"></a>ER bileşenlerini işleme
 ### <a name="publishing-an-er-component-in-lcs-to-offer-it-externally-localization"></a>ER bileşenini harici olarak teklif etmek için LCS'de bir ER bileşeni yayınlama (yerelleştirme)
 
-Oluşturulan bileşen sahibi (model veya biçim) LCS için bileşenin tamamlanmış sürümünü yayımlamak amacıyla ER kullanabilir. Geçerli ER konfigürasyon sağlayıcısı için **LCS projesi **türü depo gereklidir. Tamamlanmış bir bileşen sürümünün durumu **TAMAMLANDI**'dan **PAYLAŞILAN** olarak değiştirildiğinde, bu sürüm LCS'de yayımlanır. Bir bileşen LCS'de yayınlandığında bu bileşenin sahibi bu bileşeni desteklemek için hizmet sağlayıcısı olur. Örneğin, biçim bileşeni yasal olarak gerekli elektronik bir belge (örneğin, yerelleştirme senaryosuna uygun) oluşturmak için tasarlanmışsa, bu biçimin yasal değişikliklerle uyumlu tutulduğu ve yeni yasal gereksinimler ortaya çıktığında sağlayıcının bileşenin yeni sürümlerini çıkaracağı varsayılır. Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Lifecycle Services'a bir yapılandırma yükleme **görev kılavuzunu (**7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677)** iş sürecinin parçası) oynatın.
+Oluşturulan bileşen sahibi (model veya biçim) LCS için bileşenin tamamlanmış sürümünü yayımlamak amacıyla ER kullanabilir. Geçerli ER konfigürasyon sağlayıcısı için **LCS projesi**türü depo gereklidir. Tamamlanmış bir bileşen sürümünün durumu **TAMAMLANDI**'dan **PAYLAŞILAN** olarak değiştirildiğinde, bu sürüm LCS'de yayımlanır. Bir bileşen LCS'de yayınlandığında bu bileşenin sahibi bu bileşeni desteklemek için hizmet sağlayıcısı olur. Örneğin, biçim bileşeni yasal olarak gerekli elektronik bir belge (örneğin, yerelleştirme senaryosuna uygun) oluşturmak için tasarlanmışsa, bu biçimin yasal değişikliklerle uyumlu tutulduğu ve yeni yasal gereksinimler ortaya çıktığında sağlayıcının bileşenin yeni sürümlerini çıkaracağı varsayılır. Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Lifecycle Services'a bir yapılandırma yükleme**görev kılavuzunu (**7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677)** iş sürecinin parçası) oynatın.
 
 ### <a name="importing-an-er-component-from-lcs-to-use-it-internally"></a>ER bileşenini dahili olarak kullanmak üzere LCS'den içe aktarma
 
-ER, ER bileşenlerini LCS'den geçerli Dynamics 365 for Operations kurulumuna aktarmanızı sağlar. **LCS projesi **türü bir depo gereklidir. ER bileşeni LCS'den geçerli Dynamics 365 for Operations kurulumuna aktarıldığında kurulumun sahibi aktarılan bileşenin sahibi (yazar) tarafından sağlanan hizmet tüketicisi olur. Örneğin, ülkeye/bölgeye özel bir biçimde Dynamics 365 for Operations'tan belirli bir elektronik belge oluşturmak için bir biçim bileşeni tasarlanmışsa (yerelleştirme senaryosu) hizmet tüketicisinin yasal gerekliliklerle uyum sağlamak için bu biçimin her türlü güncelleştirmesini yapabileceği varsayılır. Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Lifecycle Services'tan bir yapılandırmayı içe aktarma** görev kılavuzunu (**7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677)** iş sürecinin parçası) oynatın.
+ER, ER bileşenlerini LCS'den geçerli Dynamics 365 for Operations kurulumuna aktarmanızı sağlar. **LCS projesi**türü bir depo gereklidir. ER bileşeni LCS'den geçerli Dynamics 365 for Operations kurulumuna aktarıldığında kurulumun sahibi aktarılan bileşenin sahibi (yazar) tarafından sağlanan hizmet tüketicisi olur. Örneğin, ülkeye/bölgeye özel bir biçimde Dynamics 365 for Operations'tan belirli bir elektronik belge oluşturmak için bir biçim bileşeni tasarlanmışsa (yerelleştirme senaryosu) hizmet tüketicisinin yasal gerekliliklerle uyum sağlamak için bu biçimin her türlü güncelleştirmesini yapabileceği varsayılır. Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Lifecycle Services'tan bir yapılandırmayı içe aktarma** görev kılavuzunu (**7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677)** iş sürecinin parçası) oynatın.
 
 ### <a name="building-a-format-selecting-another-format-as-a-base-customization"></a>Temel olarak başka bir biçim seçerek bir biçim oluşturma (özelleştirme)
 

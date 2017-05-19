@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eab840b2974f4e9e8cf542c146482ba8e4239079
-ms.openlocfilehash: acf7bacf6e95725024ff0a542a059349593d01a0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 51f45ce0953f31e0573833ba41d9e0b5ac43bfbb
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -64,13 +65,13 @@ Aşağıda gelişmiş banka mutabakatı içe aktarma dosyası teknik düzen tan�
 1.  **Çalışma alanları** &gt; **Veri yönetimi**'ne gidin.
 2.  **İçe aktar**'a tıklayın.
 3.  Biçim için bir ad girin, örneğin **ISO20022**.
-4.  **Kaynak veri biçimi **alanını **XML-Element** olarak ayarlayın.
+4.  **Kaynak veri biçimi**alanını **XML-Element** olarak ayarlayın.
 5.  **Varlık adı** alanını **Banka ekstreleri** olarak ayarlayın.
 6.  İçe aktarılan dosyaları karşıya yüklemek için **Karşıya yükle** öğesine tıklayın ve ardından daha önce kaydettiğiniz **SampleBankCompositeEntity.xml** dosyasını seçmek üzere dosya konumuna gidin.
 7.  Banka ekstreleri varlığı karşıya yüklendikten ve eşleştirme işlemi tamamlandıktan sonra varlığın **Eşlemeyi görüntüle** eylemine tıklayın.
 8.  Banka ekstreleri varlığı dört farklı varlıktan oluşan birleşik bir varlıktır. Listeden **BankStatementDocumentEntity** öğesini seçin ve **Eşlemeyi görüntüle** eylemine tıklayın.
 9.  **Dönüşümler** sekmesinde **Yeni** öğesine tıklayın.
-10. Sıra numarası 1 için **Dosyayı karşıya yükle** öğesine tıklayın ve daha önce kaydettiğiniz** ISO20022XML-to-Reconciliation.xslt** dosyasını seçin. **Not:** Dynamics 365 for Operations dönüşüm dosyaları standart biçim için oluşturulmuştur. Bankalar genellikle bu biçimden ayrıldıkları için dönüşüm dosyasını banka ekstresi biçiminizle eşleşecek şekilde güncelleştirmeniz gerekebilir. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+10. Sıra numarası 1 için **Dosyayı karşıya yükle** öğesine tıklayın ve daha önce kaydettiğiniz**ISO20022XML-to-Reconciliation.xslt** dosyasını seçin. **Not:** Dynamics 365 for Operations dönüşüm dosyaları standart biçim için oluşturulmuştur. Bankalar genellikle bu biçimden ayrıldıkları için dönüşüm dosyasını banka ekstresi biçiminizle eşleşecek şekilde güncelleştirmeniz gerekebilir. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
 11. **Yeni**'ye tıklayın.
 12. Sıra numarası 2 için **Dosyayı karşıya yükle** öğesine tıklayın ve daha önce kaydettiğiniz **BankReconciliation-to-Composite.xslt** dosyasını seçin.
 13. **Dönüşümleri uygula**'ya tıklayın.
@@ -88,8 +89,8 @@ Son adım Gelişmiş banka mutabakatını etkinleştirmek ve banka hesabındaki 
 
 1.  **Nakit ve banka yönetimi** &gt; **Banka hesapları**'na gidin.
 2.  Banka hesabını seçin ve ayrıntılarını görüntülemek için hesabı açın.
-3.  **Mutabakat** sekmesinde, **Gelişmiş banka mutabakatı **seçeneğini **Evet** olarak ayarlayın.
-4.  **Ekstre biçimi **alanını daha önce oluşturduğunuz biçime ayarlayın, örneğin **ISO20022**.
+3.  **Mutabakat** sekmesinde, **Gelişmiş banka mutabakatı**seçeneğini **Evet** olarak ayarlayın.
+4.  **Ekstre biçimi**alanını daha önce oluşturduğunuz biçime ayarlayın, örneğin **ISO20022**.
 
 ## <a name="set-up-the-import-of-mt940-bank-statements"></a>MT940 banka ekstrelerinin içe aktarma işlemini ayarlama
 İlk olarak, veri varlık çerçevesini kullanarak MT940 banka ekstreleri için banka ekstresi biçimi işlem grubu tanımlamanız gerekir.
@@ -123,7 +124,7 @@ Son adım Gelişmiş banka mutabakatını etkinleştirmek ve banka hesabındaki 
 
 1.  **Nakit ve banka yönetimi** &gt; **Banka hesapları**'na gidin.
 2.  Banka hesabını seçin ve ayrıntılarını görüntülemek için hesabı açın.
-3.  **Mutabakat** sekmesinde, **Gelişmiş banka mutabakatı **seçeneğini **Evet** olarak ayarlayın.
+3.  **Mutabakat** sekmesinde, **Gelişmiş banka mutabakatı**seçeneğini **Evet** olarak ayarlayın.
 4.  Seçiminizi onaylamanız ve Gelişmiş banka mutabakatı seçeneğini etkinleştirmeniz istendiğinde **Tamam**'a tıklayın.
 5.  **Ekstre biçimi** alanını daha önce oluşturduğunuz biçime ayarlayın, örneğin **MT940**.
 
@@ -159,7 +160,7 @@ Son adım Gelişmiş banka mutabakatını etkinleştirmek ve banka hesabındaki 
 
 1.  **Nakit ve banka yönetimi** &gt; **Banka hesapları**'na gidin.
 2.  Banka hesabını seçin ve ayrıntılarını görüntülemek için hesabı açın.
-3.  **Mutabakat** sekmesinde, **Gelişmiş banka mutabakatı **seçeneğini **Evet** olarak ayarlayın.
+3.  **Mutabakat** sekmesinde, **Gelişmiş banka mutabakatı**seçeneğini **Evet** olarak ayarlayın.
 4.  Seçiminizi onaylamanız ve Gelişmiş banka mutabakatı seçeneğini etkinleştirmeniz istendiğinde **Tamam**'a tıklayın.
 5.  **Ekstre biçimi** alanını daha önce oluşturduğunuz biçime ayarlayın, örneğin **BAI2**.
 

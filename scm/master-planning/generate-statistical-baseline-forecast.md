@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c0c918b94fe96d123bb6c25c42fe168a026cd8a9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 36b307870f2427cc43a189e92cbd8c30f6ddb0c1
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -39,14 +40,14 @@ Bir talep tahmini oluşturmak için **Master planlama &gt; Tahmin &gt; Talep tah
 
 Tahmin aralığı tahmin oluşturma zamanında seçilebilir. Kullanılabilir değerler: Gün, Hafta ve Ay. 
 
-Bir tahminin oluşturulduğu aralıkların sayısı,** Tahmin dönemi** alanında ayarlanır. 
+Bir tahminin oluşturulduğu aralıkların sayısı,**Tahmin dönemi** alanında ayarlanır. 
 
 Tahmin stratejisi **Geçmişteki talep üzerine kopyala** olarak ayarlandığında, geçmiş dönem sonu yok sayılır. Sistem, **Tahmin dönemi** alanında belirtilen aralıkların sayısını **Geçmiş dönem** öğesi altındaki **Başlangıç tarihi** alanından başlayarak tahmini talebe kopyalar. Geçmiş talebi belli bir tarihten ileriye doğru kopyalamakla, üretim planlayıcıları sonraki üç aylık dönemin planını iki şekilde yapabilir:
 
 -   Talebi geçen yılki aynı üç aydan başlayarak kopyalamak suretiyle.
 -   Talebi önceki üç aydan başlayarak kopyalamak suretiyle.
 
-Üretim planlarında karışıklığı önlemek için, belirli bir sayıda tahmin aralığı dondurulabilir. Bu numara **Dondurma zaman dilimi** alanında ayarlanır. **Düzeltilmiş talep tahmini **sayfasında, dondurulan aralık hücreleri, bu değerlerin değiştirilmemesi gerektiğine dair görsel bir uyarı vermek için devre dışı bırakılır. 
+Üretim planlarında karışıklığı önlemek için, belirli bir sayıda tahmin aralığı dondurulabilir. Bu numara **Dondurma zaman dilimi** alanında ayarlanır. **Düzeltilmiş talep tahmini**sayfasında, dondurulan aralık hücreleri, bu değerlerin değiştirilmemesi gerektiğine dair görsel bir uyarı vermek için devre dışı bırakılır. 
 
 Temel Talep tahmini için başlangıç tarihinin geçerli tarih veya gelecekteki bir tarih olması gerekmez. Farklı bir başlangıç tarihi ayarlamak için, **Temel tahmin Başlangıç tarihi - Başlangıç tarihi** alanı. Örneğin, Haziran ayında, kullanıcılar gelecek yıl için tahmin oluşturabilir. Geçmiş talebin sonu ile temel başlangıcı arasındaki tahmin aralıkları eksik olduğu için, öngörüler doğru olmayabilir. Microsoft Dynamics 365 for Operations Talep tahmini hizmeti kullanıyorsanız, eksik boşlukları doldurabileceğiniz dört yolu vardır. İstediğiniz yöntemi **Talep tahmini parametreleri** sayfasındaki MISSING\_VALUE\_SUBSTITUTION parametresini ayarlayarak seçebilirsiniz. 
 

@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 3e6b48768bb8e69d46f1555d9300f3b878b01ff1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35d34f9a356f8a041f2abf0aa8d6c3a6d9ca4a46
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Satış ve karlılık performansı Power BI içeriği
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu konuda, Dynamics 365 for Operations - Microsoft Power BI için satış ve karlılık performansı içerik paketinin içeriği açıklanmaktadır. Bu ayrıca, içerik paketine dahil edilen raporların nasıl kullanılacağını açıklar ve içerik paketini oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar.
 
@@ -44,6 +48,7 @@ Karlılık şu ölçütlere göre çözümlenebilir:
 
 ## <a name="accessing-the-content-pack"></a>İçerik paketine erişmek
 Satış ve karlılık performansı Power BI içerik paketi, Lifecycle Services'da (LCS) bir uygulama varlığı olarak yayınlanır ve Dynamics 365 for Operations'tan erişilebilir. Power BI raporlarına erişme ve raporları başlatma hakkında daha fazla bilgi için bkz. [Microsoft ve iş ortaklarınızdan LCS'de Power BI içeriği](power-bi-content-microsoft-partners.md).
+**Not:** KB 4011327 bu Power BI içeriği için önkoşuldur. Lifecycle Services'a oturum açtıktan sonra KB'ye buradan erişebilirsiniz: <a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>.
 
 ## <a name="metrics-included-in-the-content-pack"></a>İçerik paketindeki ölçümler
 İçerik paketi ölçümleri grafikler, kutucuklar ve tablolar halinde görselleştirilmiş bir dizi ölçümden oluşan bir rapor içerir. Aşağıdaki tabloda içerik paketindeki görselleştirmelere bir genel bakış sunulmaktadır.
@@ -110,6 +115,8 @@ Power BI içeriği oluşturmak ve varlıklarla ilgili bazı yararlı bağlantıl
 -   [Kuruluş içerik paketleri oluşturma](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Power BI kullanarak veri modelleme](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Çalışma alanlarına Power BI kutucukları ekleme](configure-power-bi-integration.md)
+
+
 
 
 

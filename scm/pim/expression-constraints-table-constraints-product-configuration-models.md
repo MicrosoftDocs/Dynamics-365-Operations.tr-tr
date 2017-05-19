@@ -3,7 +3,7 @@ title: "Ürün yapılandırma modellerindeki ifade kısıtlamaları ve tablo kı
 description: "Bu konuda ifade kısıtlamalarının ve tablo kısıtlamalarının kullanımı açıklanmaktadır. Kısıtlamalar ürünleri satış siparişi, satış teklifi, satınalma siparişi veya üretim emri için yapılandırdığınızda, seçebileceğiniz öznitelik değerlerini denetler. Kısıtlamaları nasıl oluşturmayı tercih ettiğinizde bağlı olarak ifade kısıtlamalarını veya tablo kısıtlamalarını kullanabilirsiniz."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 08 - 06
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 1fe8a0d90a3f707fa7b0fea0310c819ce5040a42
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 1a08f537d87178973b3ce90bcb60b891bef1141e
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Ürün yapılandırma modellerindeki ifade kısıtlamaları ve tablo kısıtlamaları
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu konuda ifade kısıtlamalarının ve tablo kısıtlamalarının kullanımı açıklanmaktadır. Kısıtlamalar ürünleri satış siparişi, satış teklifi, satınalma siparişi veya üretim emri için yapılandırdığınızda, seçebileceğiniz öznitelik değerlerini denetler. Kısıtlamaları nasıl oluşturmayı tercih ettiğinizde bağlı olarak ifade kısıtlamalarını veya tablo kısıtlamalarını kullanabilirsiniz. 
 
@@ -40,7 +44,7 @@ Tablo kısıtlamaları, bir ürün yapılandırdığınızda öznitelikler için
 
 ### <a name="example-of-a-table-constraint"></a>Bir tablo kısıtlaması örneği.
 
-Bu örnek, hoparlör yapılandırmasını belirli bir kabin rengi ve ön cephesiyle nasıl sınırlandırabileceğinizi gösterir. İlk tablo, yapılandırma için genelde kullanılabilir olan kabin rengini ve ön cepheyi gösterir. Değerler **Kabin rengi **ve **Ön ızgara** öznitelik türleri için tanımlanır.
+Bu örnek, hoparlör yapılandırmasını belirli bir kabin rengi ve ön cephesiyle nasıl sınırlandırabileceğinizi gösterir. İlk tablo, yapılandırma için genelde kullanılabilir olan kabin rengini ve ön cepheyi gösterir. Değerler **Kabin rengi**ve **Izgara rengi** öznitelik türleri için tanımlanır.
 
 | Öznitelik türü | Değerler                      |
 |----------------|-----------------------------|
@@ -84,7 +88,7 @@ Bir ürünü aşağıdaki kısıtlama ayarlarını kullanarak yapılandırdığ�
 (Renk == "Siyah" & (boyut == "30" | boyut == "50")) | (renk == "Kırmızı" & boyut = "20")
 
 ## <a name="should-i-use-operators-or-infix-notation-when-i-write-expression-constraints"></a>İfade kısıtlamaları yazarken bir işleç ya da parantezli yazım kullanmam gerekir mi?
-Önek operatörleri ya da parantezli yazım kullanarak bir ifade kısıtlaması yazabilirsiniz. **Min**, **Max** ve **Abs **işleçleri için parantezli yazım kullanamazsınız. Bu işleçler, çoğu programlama dilinde standart işleçler olarak dahil edilir.
+Önek operatörleri ya da parantezli yazım kullanarak bir ifade kısıtlaması yazabilirsiniz. **Min**, **Mak** ve **Mutlak** işleçleri için parantezli yazım kullanamazsınız. Bu işleçler, çoğu programlama dilinde standart işleçler olarak dahil edilir.
 
 ## <a name="what-operators-and-infix-notation-can-i-use-when-i-write-expression-constraints"></a>İfade kısıtlamaları yazarken hangi işleçleri ve parantezli yazımı kullanabilirim?
 Aşağıdaki tablolarda, ürün yapılandırma modelinde bir bileşen için bir ifade kısıtlaması yazarken kullanabileceğiniz işleçler ve parantezli yazım listelenmiştir. İlk tablodaki örnekler parantezli yazım ya da işleçler kullanılarak bir ifadenin nasıl yazılacağını gösterir.
@@ -248,5 +252,7 @@ Ayrılmış anahtar sözcükleri, öznitelikleri, bileşenleri veya ürün yapı
 [Bir ifade kısıtlaması oluşturma (Görev kılavuzu)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
 
 [Bir ürün yapılandırma modeline hesaplama ekleme (Görev kılavuzu)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+
+
 
 

@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: d585ae0716a4bd9c3531e8639cd7c6b3cab780ac
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c8947f9335b3a2de83ab00bad1043ee14d35f2c8
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -57,8 +58,8 @@ Dynamics 365 for Operations uygulamasında satıcı iş birliğinin genel ayarla
 
 Harici bir satıcı için kullanıcı hesaplarının oluşturulabilmesi için, satıcı hesabını bu satıcının satıcı iş birliğini kullanmasına izin verecek şekilde yapılandırmanız gerekir. Bunu yapmak için, **Satıcılar** sayfasında bulunan **Genel** sekmesinden **İş birliğini etkinleştirme** alanını etkin olarak ayarlayın. Seçebileceğiniz iki seçenek bulunmaktadır:
 
--   **Etkin (SS otomatik olarak onaylanır) **- Satınalma siparişleri satıcılar değişiklik olmadan kabul ettiğinde otomatik olarak onaylanır.
--   **Etkin (SS otomatik olarak onaylanmaz) **- Satınalma siparişlerinin satıcı kabul ettikten sonra kuruluşunuz tarafından onaylanması gerekir.
+-   **Etkin (SS otomatik olarak onaylanır)**- Satınalma siparişleri satıcılar değişiklik olmadan kabul ettiğinde otomatik olarak onaylanır.
+-   **Etkin (SS otomatik olarak onaylanmaz)**- Satınalma siparişlerinin satıcı kabul ettikten sonra kuruluşunuz tarafından onaylanması gerekir.
 
 ### <a name="decide-whether-you-want-the-vendor-to-see-price-information"></a>Satıcının fiyat bilgilerini görmesini isteyip istemediğinize karar verme
 
@@ -142,7 +143,7 @@ Aşağıdaki tablo, PO'nun geçebileceği durum ve sürüm değişikliklerine bi
 | Satıcı bir **Değişikliklerle kabul edildi** yanıtı gönderir.                  | Durum hala **Dış incelemede** olarak görünür.                                                                                                                  |
 | Satıcı tarafından istenen bazı değişiklikler yaparsınız.                  | Durum tekrar **Onaylandı** olarak değiştirilir.                                                                                                                        |
 | Satıcıya SS'nin yeni sürümünü gönderirsiniz.                        | Satıcı iş birliği arabiriminde yeni bir sürüm kaydedilir ve durum **Dış İncelemede** olarak değiştirilir.                                      |
-| Satıcı SS'nin yeni sürümünü kabul eder.                            | Satıcı hesabı SS'yi kabul ettiğinde durumu **Onaylandı**'ya otomatik olarak değiştirmek üzere yapılandırılmadıysa, durum hala **Dış İncelemede **kalır. |
+| Satıcı SS'nin yeni sürümünü kabul eder.                            | Satıcı hesabı SS'yi kabul ettiğinde durumu **Onaylandı**'ya otomatik olarak değiştirmek üzere yapılandırılmadıysa, durum hala **Dış İncelemede**kalır. |
 
 Satıcılar SS'yi satıcı iş birliği arabirimini kullanarak onaylamak zorunda değildir. E-posta iletisi gönderebilir veya PO'yu kabul ettiklerini başka kanallar aracılığıyla bildirebilirler. Bundan sonra, Dynamics 365 for Operations uygulamasında siparişi el ile onaylayabilirsiniz. Bunu yaparsanız satıcıdan yanıt olmasa bile siparişin onaylandığını belirten bir uyarı alırsınız. Daha sonra SS onay geçmişinde herhangi bir yanıt alınmamış açık onaylanmış sipariş olarak görünür. Satıcının artık SS'yi onaylama veya reddetme seçeneği yoktur.  
 

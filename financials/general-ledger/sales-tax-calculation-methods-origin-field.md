@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b21fd97426b331726c12ea29f89817a46dd445c3
-ms.openlocfilehash: 0a716310a3b813e08d46ac609e8ac6ce9a2db3e6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5f3d0e2016a3ffe5500ecae9508d44a115c56880
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -51,7 +52,7 @@ Vergi dairesi bir maddeye özel vergi uygulamaktadır. Vergi tutarları, satış
 -   SATIŞ VERGİSİ = %25 Brüt tutar yüzdesi hesaplama yöntemini kullanarak
 
 Net tutar 10.00 ise HARÇ 1, 1.00 (10.00 x %10) ve HARÇ 2 = 2.00'dir (10.00 x %20). Tutarlar şu şekilde olacaktır: Brüt tutar: Net tutar + HARÇ 1 tutarı + HARÇ 2 tutarı (10.00 + 1.00 + 2.00) = 13.00 SATIŞ VERGİSİ = 13.00 x %25 = 3.25 Toplam HARÇLAR ve SATIŞ VERGİLERİ: 1.00 + 2.00 + 3.25 = 6.25 Toplam tutar: 10.00 + 6.25 = 16.25
-| **Not **                                                                                                                                                                                                                 |
+| **Not**                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Hareket için Kaynak = Brüt tutar yüzdesi değerine sahip yalnızca bir vergi kullanılabilir. Hareket için böyle birden fazla vergi kodu belirlenirse, satış vergisinin hesaplanamadığını bildiren bir hata iletisi görüntülenir. |
 
@@ -68,7 +69,7 @@ Aşağıdaki satış vergisi kodları durumunda:
 -   SATIŞ VERGİSİ = %25 Brüt tutar yüzdesi yöntemini kullanarak
 
 Net tutar: 10.00 HARÇ 1: 10.00 x %10 = 1.00 HARÇ 2: 1.00 x %20 = 0.20 Brüt tutar: 10.00 + 1.00 + 0.20 = 11.20 SATIŞ VERGİSİ: 11.20 x %25 = 2.80 Toplam HARÇLAR ve SATIŞ VERGİSİ: 1.00 + 0.20 + 2.80 = 4.00 Toplam tutar: 10.00 + 4.00 = 14.00
-| **Not **                                                                                                                                                                                                                    |
+| **Not**                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Vergi hesaplamalarında çok düzeyli vergi mümkün değildir.  Bir vergi, başka bir vergiye dayanılarak zaten hesaplanmış bir vergiye dayanılarak hesaplanamaz. Bir harekette, vergi kodları üzerinde birden fazla tek düzeyli vergi hesaplanabilir. |
 
@@ -77,7 +78,7 @@ Kaynak alanında Birim başına tutar seçimini yaptığınızda, satış vergis
 ### <a name="example"></a>Örnek
 
 Satış vergisi kodu şu şekilde ayarlanır: birim = kutu başına USD 1.20 Bir satış faturası satırında bir maddeden 25 kutu satılmış Satış vergisi 25 x 1.20 = 30.00 olarak hesaplanır
-| **Not **                                                                                                                                                                                                 |
+| **Not**                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Hareket satış vergisi kodunda belirtilenden farklı bir birime girilirse, Birim dönüştürme sayfasında ayarlı birim dönüştürmelerine dayanılarak otomatik olarak dönüştürülür. |
 

@@ -3,7 +3,7 @@ title: "BOM tasarımcısı işlevi"
 description: "Bu makale, ürün reçetesi tasarımcısı sayfasını, ürün reçeteleri (BOM) tasarlamak ve ağaç yapıları ile çalışmak için nasıl kullanabileceğinizi açıklar. Farklı yapılandırmaları seçmek için Kurulum&quot;u tıklatabilir ve ağacın satırlarında hangi bilgilerin gösterileceğini belirleyebilirsiniz."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-12-08 21 - 09 - 22
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 2c98039c9fa8179408394f9f66b9fca0f8cad3fe
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ff482c183276a99a3c9a632d41d9121bf77befbf
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="bom-designer-functionality"></a>BOM tasarımcısı işlevi
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makale, ürün reçetesi tasarımcısı sayfasını, ürün reçeteleri (BOM) tasarlamak ve ağaç yapıları ile çalışmak için nasıl kullanabileceğinizi açıklar. Farklı yapılandırmaları seçmek için Kurulum'u tıklatabilir ve ağacın satırlarında hangi bilgilerin gösterileceğini belirleyebilirsiniz.
 
@@ -95,7 +99,7 @@ BOM ve rotaya uygulanan filtre, BOM tasarımcısının başlığında görüntü
 Bir veya daha fazla sayıda hayalet görüntü içeren BOM'ları İncelemek veya düzenlemek, için BOM tasarımcısını kullanıyorsanız birinci ürünle bağlantılı rota tipik olarak tüm BOM hiyerarşisini kaplayacak şekilde genişler. Görünümü basitleştirmek için ekrandaki üst seviye rotaya **Görünüm** &gt; **Rotayı kilitle** seçeneklerini tıklayarak kilitleyebilirsiniz. Rotanın kilidini açmak için **Görünüm** &gt; **Rotanın kilidini aç** seçeneklerini tıklayın.
 
 ## <a name="adding-and-editing-boms-and-bom-lines"></a>BOM'ların ve BOM satırlarının eklenmesi ve düzenlenmesi
-**BOM satırlarını **veya **BOM**'u değiştirmek için BOM satırlarını veya BOM işlevlerini kullanın. Ağaç görünümden bir düğüm seçtiğinizde düğümün türü, kullanılabilecek işlevleri belirleyecektir.
+BOM satırlarını veya BOM'u değiştirmek için **BOM satırlarını**veya **BOM** işlevlerini kullanın. Ağaç görünümden bir düğüm seçtiğinizde düğümün türü, kullanılabilecek işlevleri belirleyecektir.
 
 | İşlev                            | Açıklama                                                                                               | Düğüm türü ve koşullar                                                                                                                                                                                                                                                                       |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -115,6 +119,8 @@ BOM tasarımcısının ağaç görünümünde gösterilen bilgileri özelleştir
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ürün reçetesi         | Ağaç görünümünde gösterilen kriterleri seçmek için seçim kutularını kullanın. BOM tasarımcısı her iki sekmenin altında seçilen kriterleri gösterir. |
 | Rota       | Rotalar için gösterilen kriterleri seçmek için seçim kutularını kullanın.                                                                                    |
+
+
 
 
 

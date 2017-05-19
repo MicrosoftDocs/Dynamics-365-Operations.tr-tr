@@ -1,16 +1,16 @@
 ---
 title: "Finansal raporlarda sütun tanımları"
 description: "Bu makalede sütun tanımları hakkında bilgi verilmektedir. Bir sütun tanımı, bir rapordaki sütunların içeriğini tanımlayan bir raporlama bileşeni veya yapıtaşı parçasıdır. Satır tanımları gibi, temel sütun tanımları da birden fazla raporda kullanılabilir."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-08-09 21 - 27 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: af336db81f659d80248aa4ab1fbba96ed1ff48c2
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Finansal raporlarda sütun tanımları
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede sütun tanımları hakkında bilgi verilmektedir. Bir sütun tanımı, bir rapordaki sütunların içeriğini tanımlayan bir raporlama bileşeni veya yapıtaşı parçasıdır. Satır tanımları gibi, temel sütun tanımları da birden fazla raporda kullanılabilir.
 
@@ -150,7 +154,7 @@ Bir raporda sütunların üstünde görüntülenen üstbilgileri eklemek, deği�
 
 1.  Rapor Tasarımcısında değiştirmek istediğiniz sütun tanımını açın.
 2.  Üstbilgi satırından bir hücre seçin.
-3.  **Düzenle** menüsünden **Satır Ekle** öğesini tıklayın. Yeni satır, 2. adımda seçtiğiniz satırın üzerine eklenir. **Not: **Bir raporda dört ya da daha fazla rapor üstbilgisi satırına sahipseniz, üstbilgiler bir Excel çalışma sayfasına aktarıldığında üst üste binecektir. Rapordaki tüm üstbilgileri görüntülemek için rapor tanımındaki üst kenar boşluğunu artırın.
+3.  **Düzenle** menüsünden **Satır Ekle** öğesini tıklayın. Yeni satır, 2. adımda seçtiğiniz satırın üzerine eklenir. **Not:**Bir raporda dört ya da daha fazla rapor üstbilgisi satırına sahipseniz, üstbilgiler bir Excel çalışma sayfasına aktarıldığında üst üste binecektir. Rapordaki tüm üstbilgileri görüntülemek için rapor tanımındaki üst kenar boşluğunu artırın.
 
 ### <a name="delete-a-column-header-row"></a>Bir sütun üstbilgi satırını silme
 
@@ -318,11 +322,11 @@ Sütun tanımında, biçimlendirme sütunu ayrıntı satırları, seçilen sütu
 2.  **Yazdırma Kontrolü** hücresini çift tıklayın.
 3.  **Yazdırma Kontrolü** iletişim kutusunda, **Yazdırma kontrolü seçeneklerini seç** listesinden bir kod seçin. Birden fazla kod seçmek için, kodları seçerken Ctrl tuşunu basılı tutun.
 4.  **Koşullu yazdırma seçenekleri** alanından bir seçenek belirleyin. Varsayılan olarak, **(yok)** seçilir. Aynı anda sadece bir koşullu yazdırma kodu seçebilirsiniz.
-5.  **Tamam** düğmesini tıklatın.
+5.  **Tamam** seçeneğini tıklatın.
 
-**İpucu:** Ayrıca, yazdırma kontrol kodlarını doğrudan **Yazdırma Kontrol** hücresine de girebilirsiniz. Birden fazla yazdırma kontrol kodunu virgülle ayırın.
+> [!TIP]
+> Ayrıca, yazdırma kontrol kodlarını doğrudan **Yazdırma Kontrol** hücresine de girebilirsiniz. Birden fazla yazdırma kontrol kodunu virgülle ayırın.
 
-### 
 
 ## <a name="column-types"></a>Sütun tipleri
 Bir rapordaki her bir sütunun içerdiği bilgilerin türü, sütun tanımındaki **Sütun Türü** satırındaki değer tarafından belirlenir. Her bir sütun tanımı mutlaka en az bir açıklama (**DESC**) sütunu ve bir tutar (**FD**, **WKS** veya **CALC**) sütunu içermelidir. **Not:** Sütun türü kodları tüm muhasebe sistemlerine uygulanmaz. Muhasebe sisteminiz için geçerli olmayan bir tür seçerseniz, bu sütun raporda boş çıkar.
@@ -507,7 +511,8 @@ Birden fazla para birimi içeren bir rapor, tutarlar doğal (lokal) para birimin
 -   **Para Birimi Görüntüleme** – Hareketlerin gösterileceği para birimi türünü belirtin (doğal, işlevsel veya raporlama). Bu işlevselliğe bazen para birimi çevirisi de denir. Para birimi çevirisi, genel muhasebe tutarlarının şirketin işlevsel para birimi veya girilen hareketin para birimi dışında bir para biriminde rapor edilebilmesi anlamına gelir.
 -   **Para Birimi Filtresi** – Bir para birimi filtresi belirtin. Raporda sadece seçilen para birimi cinsinden girilen hareketler görüntülenir.
 
-**Not:** Birden fazla para birimi kullanan raporlar oluşturmak için **Rapor** sekmesindeki **Tüm raporlama para birimlerini dahil** onay kutusunu işaretlemeniz gerekir. Bir şirketin işlevsel para birimini belirlemek için aşağıdaki adımları izleyin.
+> [!NOTE]
+> Birden fazla para birimi kullanan raporlar oluşturmak için **Rapor** sekmesindeki **Tüm raporlama para birimlerini dahil** onay kutusunu işaretlemeniz gerekir. Bir şirketin işlevsel para birimini belirlemek için aşağıdaki adımları izleyin.
 
 1.  Rapor Tasarımcısında **Şirket** menüsündeki **Şirketler** öğesini tıklayın.
 2.  **Şirketler** iletişim kutusunda bir şirket seçin ve ardından **Görünüm** öğesini tıklayın.
@@ -519,7 +524,8 @@ Birden fazla para birimi içeren bir rapor, tutarlar doğal (lokal) para birimin
 2.  İlgili **FD** sütunundaki **Görüntülenen Para Birimi** öğesini çift tıklayın ve para birimi bilgilerinin görüntülenmesi seçeneğini seçin: **Doğal/ilk para birimi**, **Şirket bilgilerinden alınan işlevsel para birimi** veya raporlama para birimi.
 3.  İlgili **FD** sütunundaki **Para Birimi Filtresi** hücresini çift tıklayın ve ardından listeden ilgili para birimi kodunu seçin. Raporda sadece bu para biriminde girilen hareketler görüntülenir.
 
-**Not:** Burada açıklanan seçenekler, ERP sistemine bağlı olarak farklılık gösterebilir. Daha fazla bilgi için bkz. [Microsoft ERP sistem belgesine](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
+> [!NOTE]
+> Burada açıklanan seçenekler, ERP sistemine bağlı olarak farklılık gösterebilir. Daha fazla bilgi için bkz. [Microsoft ERP sistem belgesine](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Görüntülenen Para Birimi ve Para Birimi Filtresi hücrelerine örnek
 
@@ -584,5 +590,7 @@ Bir sütundaki tutarı belirli bir dönem sayısına bölebilirsiniz. Örneğin,
 [Finansal raporlamada satır tanımları](row-definitions-financial-reporting.md)
 
 [Finansal raporlamada gelişmiş biçimlendirme seçenekleri](advanced-formatting-options-financial-reporting.md)
+
+
 
 

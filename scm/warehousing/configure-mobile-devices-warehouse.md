@@ -3,7 +3,7 @@ title: "Mobil cihazları ambar işi için ayarlama"
 description: "Bu makalede, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek için kullandığı menü öğelerinin nasıl yapılandırılacağı açıklanmaktadır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 34d7b246d74d1546b54494944903d160e31f7678
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a964587fa5dd48f0ed4e9f2c67fb52e5071ac98d
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobil cihazları ambar işi için ayarlama
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek için kullandığı menü öğelerinin nasıl yapılandırılacağı açıklanmaktadır.
 
@@ -315,7 +319,7 @@ Aşağıdaki tablo bu seçenekleri açıklar.
 </tr>
 <tr class="even">
 <td>Stok durumunu görüntüle</td>
-<td>Stoktaki maddelerin durumunu görüntülemek için bu seçeneği belirleyin. Daha fazla bilgi için, bkz. <a href="/inventory/inventory-statuses.md">Stok durumlarını kullanmanın avantajları</a>. Bu seçenek, döngü sayımı haricinde geçerli işi kullanan tüm menü öğeleri için kullanılabilir.</td>
+<td>Stoktaki maddelerin durumunu görüntülemek için bu seçeneği belirleyin. Bu seçenek, döngü sayımı haricinde geçerli işi kullanan tüm menü öğeleri için kullanılabilir.</td>
 </tr>
 <tr class="odd">
 <td>Çekme ekranının özetini görüntüle</td>
@@ -412,5 +416,7 @@ Aşağıdaki tabloda, iş doğrulamalarını birlikte kullanabileceğiniz çeşi
 [Satınalma siparişi iş türünü tamamlamak için bir mobil cihaz menü öğesi ayarlama (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
 [Alınan maddeleri kaydetmek için bir mobil cihaz menü öğesi ayarlama (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Stok durumlarını kullanmanın avantajları](../inventory/inventory-statuses.md)
+
 
 

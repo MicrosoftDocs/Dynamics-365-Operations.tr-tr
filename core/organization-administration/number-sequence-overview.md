@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: a812c93a13fd36f44e659c9976099af62793098f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ce03d3b55ecdc05f70a36762f7de49b3018b6451
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Numara serisi örnekleri
 Aşağıdaki örnekler sıralı sayı biçimleri oluşturmak için segmentlerin nasıl kullanılacağını gösterir. Bu örnekler özellikle, kapsam segmentleri kullanmanın etkilerini gösterir.
 ### <a name="expense-report-numbers"></a>Gider raporu numaraları.
 
-Aşağıdaki örnekte, **CS** başlıklı bir tüzel kişilik için gider raporu numaraları ayarlanır. **Alan: **Gider ve seyahat **Başvuru: **Gider raporu numarası **Kapsam: **Tüzel kişilik **Tüzel kişilik: **CS
+Aşağıdaki örnekte, **CS** başlıklı bir tüzel kişilik için gider raporu numaraları ayarlanır. **Alan:**Gider ve seyahat **Başvuru:**Gider raporu numarası **Kapsam:**Tüzel kişilik **Tüzel kişilik:**CS
 | Segmentler  | Segment türü | Değer     |
 |-----------|--------------|-----------|
 | Segment 1 | Tüzel kişilik | CS        |
@@ -49,7 +50,7 @@ Aşağıdaki örnekte, **CS** başlıklı bir tüzel kişilik için gider raporu
 
 ### <a name="sales-order-numbers"></a>Satış sipariş numaraları
 
-Aşağıdaki örnekte, şirket kodu **CEU** için satış siparişi numaraları ayarlanır. **Alanı: **Satış **Referans: **Satış siparişi **Kapsam: **Şirket **Şirket: **CEU
+Aşağıdaki örnekte, şirket kodu **CEU** için satış siparişi numaraları ayarlanır. **Alanı:**Satış **Referans:**Satış siparişi **Kapsam:**Şirket **Şirket:**CEU
 | Segmentler  | Segment türü | Değer    |
 |-----------|--------------|----------|
 | Segment 1 | Sabit     | SS-      |
@@ -59,7 +60,7 @@ Aşağıdaki örnekte, şirket kodu **CEU** için satış siparişi numaraları 
 
 ### <a name="purchase-requisition-numbers"></a>Satınalma talebi numaraları
 
-Aşağıdaki örnekte, satınalma talebi sayıları kuruluş çapındadır. **Alanı: **Satınalma **Referans: **Satınalma talebi **Kapsam: **Paylaşılan
+Aşağıdaki örnekte, satınalma talebi sayıları kuruluş çapındadır. **Alanı:**Satınalma **Referans:**Satınalma talebi **Kapsam:**Paylaşılan
 | Segmentler  | Segment türü | Değer    |
 |-----------|--------------|----------|
 | Segment 1 | Sabit     | Gereken      |

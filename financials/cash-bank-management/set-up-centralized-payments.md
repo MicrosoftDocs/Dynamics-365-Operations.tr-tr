@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 44d51807cd6bb64ae2c4bef58d8a445417ffa3a9
-ms.openlocfilehash: 815282422a6d7b8eef7d0628cf10b715449e1d1d
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 474453e7f33526bc7bebc60ef68f560d489a1841
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -52,10 +53,10 @@ Bir satıcıya bir tüzel kişilikten ödeme yapıyor ve bu satıcı için fatur
 Faturaları diğer tüzel kişiliklerde kapatan bir tüzel kişilikte bir ödeme oluşturduğunuzda nakil profili kimlikleri her tüzel kişilikte mutlaka aynı olmalıdır. Ödemelerin doğru şekilde oluşturulduğundan emin olmak için, faturanın sahibi her bir tüzel kişilik için, ödemenin sahibi tüzel kişilikte kullanılan nakil profillerine uygun bir nakil profili oluşurun. Faturanın ilk tüzel kişiliğine geçtikten sonra **Satıcı deftere nakil profilleri**sayfasında yeni bir deftere nakil profili oluşturabilir veya mevcut bir deftere nakil profilini düzenleyebilirsiniz. Faturanın tüzel kişiliğindeki deftere nakil profili için yaptığınız seçimlerin, ödeme tüzel kişiliğindeki deftere nakil profili kurulumuyla eşleşmesine gerek yoktur.
 
 ## <a name="set-up-methods-of-payment-for-centralized-payments"></a>Merkezi ödemeler için ödeme yöntemleri ayarlama
-Faturaları diğer tüzel kişiliklerde kapatan bir tüzel kişilikte bir ödeme oluşturduğunuzda ödeme yöntemi kimlikleri her tüzel kişilikte mutlaka aynı olmalıdır. Ödemelerin doğru şekilde oluşturulduğundan emin olmak için, faturanın sahibi her bir tüzel kişilik için, ödemenin sahibi tüzel kişilikte kullanılan ödeme yöntemlerine uygun bir ödeme yöntemi oluşurun. Faturanın sahibi ilk tüzel kişiliğe geçtikten sonra **Ödeme yöntemleri **sayfasından yeni bir ödeme yöntemi oluşturabilir veya mevcut bir ödeme yöntemini düzenleyebilirsiniz. Faturanın sahibi tüzel kişilikteki ödeme yöntemi için yaptığınız seçimlerin, ödemenin sahibi tüzel kişilikteki ödeme yönteminin kurulumuyla eşleşmesine gerek yoktur.
+Faturaları diğer tüzel kişiliklerde kapatan bir tüzel kişilikte bir ödeme oluşturduğunuzda ödeme yöntemi kimlikleri her tüzel kişilikte mutlaka aynı olmalıdır. Ödemelerin doğru şekilde oluşturulduğundan emin olmak için, faturanın sahibi her bir tüzel kişilik için, ödemenin sahibi tüzel kişilikte kullanılan ödeme yöntemlerine uygun bir ödeme yöntemi oluşurun. Faturanın sahibi ilk tüzel kişiliğe geçtikten sonra **Ödeme yöntemleri**sayfasından yeni bir ödeme yöntemi oluşturabilir veya mevcut bir ödeme yöntemini düzenleyebilirsiniz. Faturanın sahibi tüzel kişilikteki ödeme yöntemi için yaptığınız seçimlerin, ödemenin sahibi tüzel kişilikteki ödeme yönteminin kurulumuyla eşleşmesine gerek yoktur.
 
 ## <a name="set-up-default-descriptions"></a>Varsayılan tanımlar oluşturma
-Şirketler arası kapanış fişleri için varsayılan tanımlar oluşturabilirsiniz. Varsayılan tanım, şirketler arası kapanış süreci sırasında vade sonu ve vade başlangıcı hareketlerine eklenir. **Varsayılan hareketler** sayfasından hem **Şirketler arası müşteri kapatma işlemleri **hem **Şirketler arası satıcı kapatma işlemleri** için bir dil seçerek ve ardından metin girerek yeni tanımlar oluşturabilirsiniz.
+Şirketler arası kapanış fişleri için varsayılan tanımlar oluşturabilirsiniz. Varsayılan tanım, şirketler arası kapanış süreci sırasında vade sonu ve vade başlangıcı hareketlerine eklenir. **Varsayılan hareketler** sayfasından hem **Şirketler arası müşteri kapatma işlemleri**hem **Şirketler arası satıcı kapatma işlemleri** için bir dil seçerek ve ardından metin girerek yeni tanımlar oluşturabilirsiniz.
 
 
 

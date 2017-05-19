@@ -3,7 +3,7 @@ title: "Alan açıklamalarını görüntüleme ve dışarı aktarma"
 description: "Bu makalede, alan açıklamalarının nasıl görüntüleneceği ve açıklamaları dışa aktarmak için Alan açıklamalarının nasıl kullanılacağı açıklanmaktadır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: d4fc9cdee0e2160e363f9defcf6bdbc57ed4db74
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3029cb441d124e6e5aa427f7fcd95540700254c6
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Alan açıklamalarını görüntüleme ve dışarı aktarma
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, alan açıklamalarının nasıl görüntüleneceği ve açıklamaları dışa aktarmak için Alan açıklamalarının nasıl kullanılacağı açıklanmaktadır.
 
@@ -80,11 +84,11 @@ Bu bölüm, alan açıklamalarını kullanırken karşılaşabileceğiniz sorunl
 
 ### <a name="i-cant-find-a-field-description"></a>Bir alanın açıklamasını bulamıyorum
 
-Daha karmaşık alanların açıklamalarını eklemeye devam ediyoruz. Belirli bir alanla ilgili yardım gereksiniminiz varsa bu Wiki makalesine yorum ekleyerek bize bildirin.
+Daha karmaşık alanların açıklamalarını eklemeye devam ediyoruz. Belirli bir alanla ilgili yardım gereksiniminiz varsa bu konuya yorum ekleyerek bize bildirin.
 
 ### <a name="the-field-description-isnt-helpful"></a>Alan açıklaması yardımcı olmuyor
 
-Bu wiki makalesine yorum ekleyerek bize bildirin. Yapabiliyorsanız ihtiyacınız olan ek bilgileri açıklayın.
+Bu konuya yorum ekleyerek bize bildirin. Yapabiliyorsanız ihtiyacınız olan ek bilgileri açıklayın.
 
 ### <a name="i-cant-find-a-field-on-the-field-descriptions-page"></a>Alan açıklamaları sayfasında bir alanı bulamıyorum
 
@@ -97,6 +101,9 @@ Sayfaları aramanın çeşitli yolları hakkında daha fazla bilgi için, bu mak
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Alanı özelleştirme yardımı](https:/docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/user-interface/customize-field-help.md)
+[Alanı özelleştirme yardımı](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+
+
+
 
 

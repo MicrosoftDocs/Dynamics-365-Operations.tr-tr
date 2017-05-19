@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: 8e09c6b042d557e3b2d608fb5e278169fc3c1d88
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4a5e6164f8aea2d4a6a063966c10f33a5e1f0cdd
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Bir anketi dağıtın ve tamamlayın.
+
+[!include[banner](includes/banner.md)]
+
 
 Bu konu, tasarladığınız anketlerin onları tamamlayacak kişi veya kişi grubu için kullanılabilir olması için onları nasıl dağıtacağınızı açıklar. 
 
@@ -45,7 +49,7 @@ Anket grupları ayarlayabilir ve ardından anketin dağıtılması gereken yanı
 
 Aşağıdaki sayfalardan anket grupları oluşturabilirsiniz:
 
--   **Anket grupları **– Yalnızca bir anket grubundaki bireyler seçili anketi tamamlayabilir. Örneğin, hedef kitleniz yüklenicilerse, bu yanıtlayanlara özel bir anket grubu oluşturursunuz.
+-   **Anket grupları**– Yalnızca bir anket grubundaki bireyler seçili anketi tamamlayabilir. Örneğin, hedef kitleniz yüklenicilerse, bu yanıtlayanlara özel bir anket grubu oluşturursunuz.
 -   **Anket grubu üyeleri** – Anket gruplarına kişiler ekleyebilirsiniz.
 
 Bir soru formu grubunu bir soru formuna eklemek için **Soru formları** sayfasında, **Kullanıcı hakları** üzerine tıklayın. Soru formu etkin olarak kaydedildikten sonra, soru formu grubunun üyeleri, soru formunu tamamlayabilirler. Bu işlev, bir soru formunu daha büyük bir gruba açmadan önce seçili kişiler grubunda denemek istiyorsanız veya bir soru formunu çok özel bir hedef kitleye hedeflemek istiyorsanız yararlıdır.
@@ -53,7 +57,8 @@ Bir soru formu grubunu bir soru formuna eklemek için **Soru formları** sayfas�
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Soru formu başına planlanan yanıt oturumu
 Planlı yanıt oturumları tasarladığınız ve yanıtlayanlarını seçtiğiniz anketlerdir. 
 
-**Not:** Planlı yanıt oturumları ayarlamadan önce bir anket tasarlamalısınız. 
+> **Not**
+>   Planlı yanıt oturumları ayarlamadan önce bir anket tasarlamalısınız. 
 
 **Planlı yanıt oturumu** sayfasında, tek bir çalışan için planlı bir yanıt oturumu oluşturabilirsiniz. Sayfadaki liste tüm planlı anketleri görüntüler. 
 
@@ -99,7 +104,8 @@ Anketi ilgili planlı yanıt oturumlarındaki kullanıcılar için kullanılabil
 ## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Yanıtlayanları onlar için kullanılabilir olan anketler hakkında bilgilendirin
 Bir anketi dağıttığınızda, yanıtlayanları anketlerin onlar için kullanılabilir olduğu hakkında bilgilendirmelisiniz. 
 
-**Not:** Yanıtlayanların bir anketi tamamlaması için Microsoft Dynamics 365 for Operations'taki kullanıcılar olması gerekir.
+> **Not**
+>   Yanıtlayanların bir anketi tamamlaması için Microsoft Dynamics 365 for Operations'taki kullanıcılar olması gerekir.
 
 ### <a name="notifying-respondents-about-a-planned-answer-session"></a>Yanıtlayanları planlı bir yanıt oturumu hakkında bilgilendirin
 
@@ -109,12 +115,14 @@ Planlı bir yanıt oturumu kullanıyorsanız, kişiyi telefon ya da e-postayla d
 
 Bir ankete atanmış olan tüm yanıtlayanlara bir e-posta hazırlamak ve göndermek için **Anket planlamaları** sayfasını kullanın. E-postayı **Çalışan self-servis için e-posta** sekmesinde girin. Zamanlama başladıktan sonra yanıt verenlere e-postalar oluşturmak ve göndermek için **İşlevler** &gt; **E-posta gönder** üzerine tıklayın. Yanıtlayanlar web sitesinde oturum açarak soru formunu doldurabilirler. 
 
-**Not:** E-posta işlevlerini kullanmadan önce BT yöneticiniz e-posta ayarlarını **E-posta parametreleri** sayfasında girmelidir.
+> **Not**
+>   E-posta işlevlerini kullanmadan önce BT yöneticiniz e-posta ayarlarını **E-posta parametreleri** sayfasında girmelidir.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Planlanmış bir anketi sonlandırma
 Tüm yanıtlayan kişiler kendilerine atanmış soru oturumlarını tamamladıktan sonra çizelgelenmiş bir soru formunu sonlandırabilirsiniz. Planlamış bir anket sonlandırıldıktan sonra, ayarlarını yeni bir planlamaya kopyalayamazsınız. 
 
-**Not:** Bir veya daha fazla yanıtlayan anketi tamamlamadıysa, buna rağmen planlamayı sonlandırmak istiyorsanız, öncelikle bu yanıtlayanları  **Planlı yanıt oturumu** sayfasından silmeniz gerekir. Ardından planlamayı sonlandırabilirsiniz.
+> **Not**
+>   Bir veya daha fazla yanıtlayan anketi tamamlamadıysa, buna rağmen planlamayı sonlandırmak istiyorsanız, öncelikle bu yanıtlayanları **Planlı yanıt oturumu** sayfasından silmeniz gerekir. Ardından planlamayı sonlandırabilirsiniz.
 
 ## <a name="completing-questionnaires"></a>Soru formlarını tamamlama
 Bir anketi tasarladıktan ve dağıttıktan sonra, anket seçili yanıtlayanlar tarafından tamamlanabilir. İki yerleşimden kullanabileceğiniz soru formlarını tamamlayabilirsiniz:
@@ -132,5 +140,7 @@ Anketler belirli kullanıcılar veya kullanıcı grupları ya da bir ağdaki tü
 [Soru formlarını kullanma](questionnaires.md)
 
 [Soru formlarının sonuçlarını görüntüleyin ve değerlendirin](evaluate-questionnaire-results.md)
+
+
 
 

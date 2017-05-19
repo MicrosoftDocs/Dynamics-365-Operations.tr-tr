@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: c29c95fc6abd13e668c44d3ccf437bb0e879e46b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 11755e4ab4b3c1f55da80e57ff96e0b13c84c697
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -209,13 +210,13 @@ Aşağıdaki yordamda bir proje ekibinin nasıl oluşturulacağı açıklanmakta
 1.  **Tüm projeler** liste sayfasında bir proje seçin ve ardından **Düzenle**'ye tıklayın.
 2.  **Proje ekibi ve planlama** sekmesindeki **Bitiş tarihini planla** alanına, planlanan başlama tarihi artı bir ay girin. Örneğin, planlama başlangıç tarihi 24 Haziran 2017 ise (24/06/2017), **24/07/2017** girin.
 3.  **Ekle**'ye tıklayın.
-4.  **Projeye roller ekle** bölmesindeki **Rol **alanında **Kıdemli Proje Yöneticisi**'ni seçin.
+4.  **Projeye roller ekle** bölmesindeki **Rol**alanında **Kıdemli Proje Yöneticisi**'ni seçin.
 5.  **Gerekli yetkinlikler**'e tıklayın.
 6.  **Özelliklerini seçin** sayfasında, Kıdemli proje yöneticisi rolü için önceden ayarlamış olduğunuz özellikler varsayılan olarak seçilir. **Tamam** düğmesine tıklayın.
 7.  **Projeye roller ekle** sayfasındaki **Kaynak sayısı** alanına **1** girin.
 8.  **Kaynak** alanında, arama gerekli yetkinliklere sahip tüm kaynakları gösterir. **Daniel Goldschmidt**'i seçin ve **Oluştur**'a tıklayın.
 9.  **Proje** sayfasında **Ekle**'ye tıklayın.
-10. **Projeye roller ekle** bölmesindeki **Rol **alanında **Ekip üyesi**'ni seçin. **Kaynak sayısı** alanına **5** girin.
+10. **Projeye roller ekle** bölmesindeki **Rol**alanında **Ekip üyesi**'ni seçin. **Kaynak sayısı** alanına **5** girin.
 11. **Oluştur**'a tıklayın.
 12. **Projeler** sayfasında **Kaynağı karşıla**'ya tıklayın.
 
@@ -316,7 +317,7 @@ Kaynak oluşturma işlevinin daha etkin kullanılması için İKY'ye ek seçenek
 
 > [!NOTE] 
 > Kaynakların sayısı 1'de kaldığı için belirtilen kaynağın artık 2 olduğunu belirten bir uyarı almazsınız.
-18. **İş kırılım yapısı **sayfasında, İKY'deki kaynak atamasını doğrulayın ve **Kaydet**'e tıklayın.
+18. **İş kırılım yapısı**sayfasında, İKY'deki kaynak atamasını doğrulayın ve **Kaydet**'e tıklayın.
 
 ## <a name="resource-fulfillment-for-planned-resources"></a>Planlanmış kaynaklar için kaynak karşılama
 Proje yöneticisi, bir proje için gerekli kaynak rollerini planlayabilir. Kaynak yöneticisi **Kaynak karşılama** sayfasında planlanan bu kaynakları istek olarak görür ve gerçek kaynakları atayabilir.
@@ -353,7 +354,7 @@ Yukarıdaki görevleri tamamladıktan veya doğruladıktan sonra gerektiğinde a
 ## <a name="monitor-project-teams"></a>Proje ekiplerini izleme
 1.  **Proje yönetimi ve muhasebe** &gt; **Projeler** &gt; **Tüm projeler**'e tıklayın.
 2.  Projeler listesinde **XYZ Yükseltme Aşama 2** projesi için **Proje kimliği** bağlantısına tıklayın.
-3.  **Proje ekibi ve planlama ** hızlı sekmesinde, listelenen proje kaynaklarının doğru olduğunu kontrol edin.
+3.  **Proje ekibi ve planlama** hızlı sekmesinde, listelenen proje kaynaklarının doğru olduğunu kontrol edin.
 
 
 

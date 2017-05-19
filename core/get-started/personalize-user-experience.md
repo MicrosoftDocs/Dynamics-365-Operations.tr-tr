@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4bb647cfd3f012efbffa93a81462c538a24ac850
-ms.openlocfilehash: 8965c193839002776b3c61036b23b54625c974a4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 734bf8a5cd71d218942e1a57fbb6af8fef4dc998
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -39,10 +40,10 @@ Kullanıcının etkileşimde bulunduğu şirket ne olursa olsun, Dynamics 365 fo
 ## <a name="systemwide-options-for-the-current-user"></a>Geçerli kullanıcının sistem çapında seçenekleri
 Gezinti çubuğunda **Ayarlar** menü düğmesi olarak adlandırılan bir dişli çark imgesi bulacaksınız. **Ayarlar** menüsü açıldığında bir dizi seçenek görünür. **Seçenekleri** öğesi seçildiğinde, kullanıcı **Seçenekler** sayfası açılır. Burada dört seçenek öğesi bulunur: **Görsel**, **Tercihler**, **Hesap** ve **İş akışı**.
 
--   **Görsel: **Bir renk teması ve sayfalarınızdaki öğelerin varsayılan boyutunu seçmek için kullanılır.
--   **Tercihler: ** Burada şirket, ilk sayfa ve (bir sayfanın görüntülenmesinin kilitlenip kilitlenmemesini veya her açtığınızda düzenleme için açılıp açılmamasını belirleyen) varsayılan görüntüleme/düzenleme modu dahil olmak üzere, Dynamics  365 for Operations'ı her açışınızda varsayılanları burada seçebilirsiniz. Ayrıca, dil, saat dilimi ve tarih, saat ve sayı biçimlendirme seçeneklerini bulacaksınız. Son olarak bu sayfa sürümden sürüme değişiklik gösterecek birçok muhtelif tercih içerir.
--   **Hesap: **Kullanıcı kimliğinizi ve hesapla ilgili diğer seçenekleri sağlamak için kullanılır.
--   **İş akışı: **Burada iş akışı ile ilgili seçenekleri seçebilirsiniz.
+-   **Görsel:**Bir renk teması ve sayfalarınızdaki öğelerin varsayılan boyutunu seçmek için kullanılır.
+-   **Tercihler:** Burada şirket, ilk sayfa ve (bir sayfanın görüntülenmesinin kilitlenip kilitlenmemesini veya her açtığınızda düzenleme için açılıp açılmamasını belirleyen) varsayılan görüntüleme/düzenleme modu dahil olmak üzere, Dynamics  365 for Operations'ı her açışınızda varsayılanları burada seçebilirsiniz. Ayrıca, dil, saat dilimi ve tarih, saat ve sayı biçimlendirme seçeneklerini bulacaksınız. Son olarak bu sayfa sürümden sürüme değişiklik gösterecek birçok muhtelif tercih içerir.
+-   **Hesap:**Kullanıcı kimliğinizi ve hesapla ilgili diğer seçenekleri sağlamak için kullanılır.
+-   **İş akışı:**Burada iş akışı ile ilgili seçenekleri seçebilirsiniz.
 
 ## <a name="implicit-personalizations"></a>Dolaylı kişiselleştirmeler
 Dolaylı kişiselleştirmeler, salt o anki güncel durumlarını hatırlayan belli kontrollerle etkileşime girerek yaptığınız kişiselleştirmelerdir. 
@@ -106,7 +107,7 @@ Bazı çalışma alanları panonuzda da görmek isteyebileceğiniz sayı kutucuk
 Pano genellikle Dynamics 365 for Operations'ı açtığınızda göreceğiniz ilk sayfadır. Panonuzu çalışma alanı gezinti kutucuklarını yeniden adlandıracak, sadece görmek istediğinizi kutucukları gösterecek, kutucukları yeniden adlandıracak veya kutucukları görmek istediğiniz sırada düzenleyecek şekilde kişiselleştirebilirsiniz. Panoyu kişiselleştirmek için herhangi bir kutucuğu seçin ve bağlam menüsünü açmak için sağ tıklayın. Bağlam menüsünde **Kişiselleştir** öğesini seçin. Seçilen kutucuk gizlemek ya da yeniden adlandırmak veya atlamak istediğiniz bir kutucuksa, bu değişikliği beliren Özellik penceresinde doğrudan yapabilirsiniz. Kutucukları düzenlemek istiyorsanız, Kişiselleştirme araç çubuğunu açmak için Özellik penceresinde **Bu formu kişiselleştir** öğesini seçin. Daha sonra kutucukları düzenlemek için Taşı Aracının kullanabilirsiniz.
 
 ## <a name="administration-of-personalization"></a>Kişiselleştirme yönetimi
-Bir sayfayı kişiselleştirmek ve diğer kullanıcılarla paylaşmak mümkündür; bunun için sadece kişiselleştirilmiş sayfayı dışa aktarın ve diğer kullanıcılardan kişiselleştirilmiş sayfaya gelip oluşturduğunuz kişiselleştirme dosyasını içe aktarmalarını isteyin. Bir kullanıcının yönetici ayrıcalıkları varsa, bu kişi **Kişiselleştirme Kurulum** sayfasında diğer kullanıcılara ait kişiselleştirmeleri de yönetebilir. b sayfasına gidin. **Kişiselleştirme** sayfasında, biri **Sistem** ve biri de** Kullanıcı** olmak üzere iki öğe bulacaksınız. 
+Bir sayfayı kişiselleştirmek ve diğer kullanıcılarla paylaşmak mümkündür; bunun için sadece kişiselleştirilmiş sayfayı dışa aktarın ve diğer kullanıcılardan kişiselleştirilmiş sayfaya gelip oluşturduğunuz kişiselleştirme dosyasını içe aktarmalarını isteyin. Bir kullanıcının yönetici ayrıcalıkları varsa, bu kişi **Kişiselleştirme Kurulum** sayfasında diğer kullanıcılara ait kişiselleştirmeleri de yönetebilir. b sayfasına gidin. **Kişiselleştirme** sayfasında, biri **Sistem** ve biri de**Kullanıcı** olmak üzere iki öğe bulacaksınız. 
 
 **Sistem:** Burada sistemdeki tüm kişiselleştirmeleri geçici olarak devre dışı bırakabilir veya "kapatabilirsiniz". Bunu yapmak kişiselleştirmeleri silmez, bunun yerine tüm formları varsayılan durumlarına sıfırlar. Kişiselleştirmeler, daha sonra tümü her bir kullanıcı formuna yeniden uygulanacak şekilde yeniden etkinleştirilebilir. Tüm kullanıcılar için tüm kişiselleştirmeleri de silebilirsiniz. Kişiselleştirmeleri sildiğinizde, bunları sistemden otomatik olarak yeniden etkinleştirmenin hiçbir yolu olmadığını unutmayın. Bu adımı gerçekleştirmeden önce, daha sonra içe aktarmak isteyebileceğiniz kişiselleştirmeleri dışa aktardığınıza emin olun. 
 

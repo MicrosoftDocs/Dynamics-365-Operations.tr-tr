@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 81b5c9056001b26c33b2b42a95711ff5b50243e6
-ms.openlocfilehash: 4bd934091c80ab9a4d244499d2bce2c4646c3e99
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 769680aff8c018bc042ffce98ee50a9760a65fcf
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -126,7 +127,7 @@ Personel ve/veya yönetici ayarladığınız gözden geçirme parametrelerine g�
 Gözden geçirme onayını denetlemek için Çalışanı Gözden Geçir iş akışını kullanabilirsiniz. Ayrıca otomatik iş akışını atlamayı ve gözden geçirme durumunu el ile değiştirmeyi seçebilirsiniz. Bu, iş akışı işlemini kullanmanıza gerek kalmadan bire bir gibi daha basit belgeler oluşturmanızı sağlar. Gözden geçirmeye erişim, gözden geçirme durumu ile denetlenir.
 
 1.  Gözden geçirme oluşturulduğunda, **Başlatılmadı** durumuna ayarlanır. Gözden geçirme herkes tarafından düzenlenebilir.
-2.  Çalışan **Gözden geçirmeye başla** düğmesine bastığında gözden geçirme,** İşlemde** durumuna ayarlanır. Ardından, personel içerik eklemeye başlar. Bu noktada, yönetici artık gözden geçirme belgesini görüntüleyemez.
+2.  Çalışan **Gözden geçirmeye başla** düğmesine bastığında gözden geçirme,**İşlemde** durumuna ayarlanır. Ardından, personel içerik eklemeye başlar. Bu noktada, yönetici artık gözden geçirme belgesini görüntüleyemez.
 3.  Personel, durumu **Gözden geçirme için hazır** olarak değiştirir.
 4.  Yönetici, yorum ve derecelendirme ekleyebilir. Bu noktada, yalnızca yönetici gözden geçirmeyi görebilir.
 5.  Yönetici durumu **Son gözden geçirme** olarak değiştirir, böylece yönetici ve personel gözden geçirmeyi görebilir ve tartışabilir. Bu noktada, gözden geçirmenin düzenlenip düzenlenmeyeceğini parametrelerde belirtebilirsiniz. Yönetici gözden geçirmeyi personelle paylaşmak ve bitirdiklerinde **Tamamlandı** olarak işaretlemek istiyorsa bu adım da isteğe bağlıdır.

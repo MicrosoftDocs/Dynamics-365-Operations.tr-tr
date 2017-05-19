@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 451273a8ee98f7033795182e754f76aca3788f47
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 6379f63a367dab51fa3ed6465ed8422a44ef7a7a
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ Bu makale, bir müşteri nakit iskontosu alıp aynı zamanda fazla ödeme yapars
 | 105,00        | 10,50                   | 94,50                                               | 95,00                             |
 
 ## <a name="cash-discount-administration--specific"></a>Nakit iskontosu yönetimi = Özel
-**Otomatik hareketler için hesaplar** sayfasındaki **Nakit iskontosu yönetimi** alanından **Özel** seçimi yapılırsa tüm nakit iskontosu alınır. Fazla ödeme tutarı bir nakit iskontosu farkı defter hesabına nakledilir veya müşteri hesabında bir bakiye olarak kalır. Bu davranış, fazla ödeme tutarının 0,00 ile** Maksimum fazla ödeme veya eksik ödeme** alanında belirlenen tutar arasında olup olmadığına veya fazla ödeme tutarının **Maksimum fazla ödeme veya eksik ödeme** tutarından yüksek olup olmadığına göre değişir.
+**Otomatik hareketler için hesaplar** sayfasındaki **Nakit iskontosu yönetimi** alanından **Özel** seçimi yapılırsa tüm nakit iskontosu alınır. Fazla ödeme tutarı bir nakit iskontosu farkı defter hesabına nakledilir veya müşteri hesabında bir bakiye olarak kalır. Bu davranış, fazla ödeme tutarının 0,00 ile**Maksimum fazla ödeme veya eksik ödeme** alanında belirlenen tutar arasında olup olmadığına veya fazla ödeme tutarının **Maksimum fazla ödeme veya eksik ödeme** tutarından yüksek olup olmadığına göre değişir.
 
 ### <a name="scenario-1"></a>Senaryo 1
 

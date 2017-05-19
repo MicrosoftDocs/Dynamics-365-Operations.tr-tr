@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 9dca5dec846670da25926826f59d7bce0fa0dcea
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e2f3a352ca70472de838271fdedfede575cb839d
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Lifecycle Services'dan Elektronik raporlama yapılandırmalarını karşıdan yükle
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu konu, Elektronik raporlama (ER) yapılandırmalarını Microsoft Dynamics Lifecycle Services'dan (LCS) indirmeyi açıklar.
 
@@ -43,9 +47,10 @@ Bu eğitim size Elektronik Raporlama (ER) yapılandırmalarının en yeni sürü
     1.  Yeni bir depo eklemek için **Ekle**'ye tıklayın.
     2.  Havuz türü olarak **LCS**'yi seçin.
     3.  **Depo oluştur**'a tıklayın.
-    4.  Depo için bir ad ve açıklama girin.
-    5.  Yeni depo girişini onaylamak için **Tamam**'a tıklayın.
-    6.  Kılavuzda **LCS** türündeki yeni depoyu seçin.
+    4. İstenirse, yetkilendirme yönergelerini izleyin.
+    5.  Depo için bir ad ve açıklama girin.
+    6.  Yeni depo girişini onaylamak için **Tamam**'a tıklayın.
+    7.  Kılavuzda **LCS** türündeki yeni depoyu seçin.
 
 6.  Seçilmiş depo için ER yapılandırmalarını görüntülemek için **Aç**'a tıklayın. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  Sol bölmedeki yapılandırmalar ağacında, gereksinim duyduğunuz ER yapılandırmalarını seçin.
@@ -58,5 +63,7 @@ Bu eğitim size Elektronik Raporlama (ER) yapılandırmalarının en yeni sürü
 --------
 
 [Elektronik raporlamaya genel bakış](general-electronic-reporting.md)
+
+
 
 

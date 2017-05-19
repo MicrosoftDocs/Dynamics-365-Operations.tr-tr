@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: d38d05fe445bf0326d408038dff84ccf8c0ff64c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b6b0edfbbcebed323be63d5bc892dba1170b9c67
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -60,7 +61,7 @@ Referans oluşturduktan sonra her klasör veya dosya için bir dosya hedefi olu�
 
 ### <a name="email-destination"></a>E-posta hedefi
 
-E-posta ile bir çıkış dosyası göndermek için **Etkin **değerini **Evet** olarak ayarlayın. Bu seçenek etkinleştirildikten sonra e-posta konusunu ve metnini düzenleyebilir ve e-posta alıcılarını belirtebilirsiniz. E-posta metni ve konusu için sabit metinler ayarlayabilir veya ER formüllerini kullanarak dinamik e-posta metinleri oluşturabilirsiniz. E-posta adreslerini ER içerisinde iki şekilde yapılandırabilirsiniz. Yapılandırma, Dynamics 365 for Operations içerisindeki Yazdırma yönetiminin tamamladığı gibi aynı şekilde tamamlanabilir. Alternatif olarak, bir e-posta adresini doğrudan ER yapılandırmasını referans göstererek bir e-posta adresini çözebilirsiniz.
+E-posta ile bir çıkış dosyası göndermek için **Etkin**değerini **Evet** olarak ayarlayın. Bu seçenek etkinleştirildikten sonra e-posta konusunu ve metnini düzenleyebilir ve e-posta alıcılarını belirtebilirsiniz. E-posta metni ve konusu için sabit metinler ayarlayabilir veya ER formüllerini kullanarak dinamik e-posta metinleri oluşturabilirsiniz. E-posta adreslerini ER içerisinde iki şekilde yapılandırabilirsiniz. Yapılandırma, Dynamics 365 for Operations içerisindeki Yazdırma yönetiminin tamamladığı gibi aynı şekilde tamamlanabilir. Alternatif olarak, bir e-posta adresini doğrudan ER yapılandırmasını referans göstererek bir e-posta adresini çözebilirsiniz.
 
 ### <a name="email-address-types"></a>E-posta adresi türleri
 
@@ -92,7 +93,7 @@ Kullandığınız yapılandırma, veri kaynaklarında bir e-posta adresini temsi
 
 ### <a name="archive-destination"></a>Arşiv hedefi
 
-Microsoft SharePoint klasörü veya Microsoft Azure Depolamaya çıktı göndermek için bu seçeneği kullanabilirsiniz. Seçili belge türü ile tanımlanan bir hedefe çıktı göndermek için **Etkin** değerini **Evet **olarak ayarlayın. Yalnızca grubun **Dosya** olarak ayarlandığı belge türleri seçim için kullanılabilir. Belge türlerini **Kuruluş yönetimi** &gt; **Belge yönetimi** &gt; **Belge türleri** altından tanımlarsınız. ER hedefleri için yapılandırma, belge yönetim sistemi için yapılandırma ile aynıdır.
+Microsoft SharePoint klasörü veya Microsoft Azure Depolamaya çıktı göndermek için bu seçeneği kullanabilirsiniz. Seçili belge türü ile tanımlanan bir hedefe çıktı göndermek için **Etkin** değerini **Evet**olarak ayarlayın. Yalnızca grubun **Dosya** olarak ayarlandığı belge türleri seçim için kullanılabilir. Belge türlerini **Kuruluş yönetimi** &gt; **Belge yönetimi** &gt; **Belge türleri** altından tanımlarsınız. ER hedefleri için yapılandırma, belge yönetim sistemi için yapılandırma ile aynıdır.
 
 [![Belge türleri sayfası](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 
@@ -110,7 +111,7 @@ Belge türü **Arşiv dizini** olarak ayarlandığında bir dosyayı Azure Depol
 
 ### <a name="file-destination"></a>Dosya hedefi
 
-**Etkin** seçerseniz **Evet ** olarak seçerseniz, yapılandırmanın çalıştırılması bittiğinde bir açma ya da kaydetme iletişim kutusu görüntülenir.
+**Etkin** seçerseniz **Evet** olarak seçerseniz, yapılandırmanın çalıştırılması bittiğinde bir açma ya da kaydetme iletişim kutusu görüntülenir.
 
 ### <a name="screen-destination"></a>Ekran hedefi
 

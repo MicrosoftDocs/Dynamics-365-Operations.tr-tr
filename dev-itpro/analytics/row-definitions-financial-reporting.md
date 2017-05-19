@@ -1,16 +1,16 @@
 ---
 title: "Finansal rapor tasarımcısında satır tanımları"
 description: "Satır tanımını finansal rapordaki her satırın içeriğini belirten bir rapor bileşeni veya yapı taşıdır. Satır tanımı birden çok şirket tarafından kullanılabilen bir yapı taşı grubu oluşturmak için sütun tanımları, raporlama ağacı tanımları ve rapor tanımları ile birleştirilebilir."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-18 15 - 42 - 39
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: a2f92effd1cfdc1d5da2c5ec895c0487a6fc82a4
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: aa9fcc4d0c122d2355362b75ca210af4c2ef4338
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="row-definitions-in-financial-report-designer"></a>Finansal rapor tasarımcısında satır tanımları
+
+[!include[banner](../includes/banner.md)]
+
 
 Satır tanımını finansal rapordaki her satırın içeriğini belirten bir rapor bileşeni veya yapı taşıdır. Satır tanımı birden çok şirket tarafından kullanılabilen bir yapı taşı grubu oluşturmak için sütun tanımları, raporlama ağacı tanımları ve rapor tanımları ile birleştirilebilir.
 
@@ -72,8 +76,8 @@ Bir satır tanımına boyutlar eklemek için şu adımları izleyin.
 
 1.  Rapor Tasarımcısında **Satır Tanımları** öğesine tıklayın ve ardından değiştirmek için satır tanımını açın.
 2.  **Düzenle** menüsündeki **Boyutlardan Satır Ekle** öğesini tıklayın.
-3.  **Boyutlardan Satır Ekle **iletişim kutusunda, **Boyutlar** satırında, boyutun satır tanımına aktarılacağı hücreyi seçin ve **Tüm &&&** öğesine tıklayın.
-4.  Satır tanımını boyut değerlerinin belirli bir aralığıyla sınırlandırmak için **Boyut Aralığı Başlangıcı **hücresine başlangıç boyut değerini ve ardından **Boyut Aralığı Sonu** hücresine bitiş boyut değerini girin. Seçilen boyut için tüm değerleri eklemek için bu hücreleri boş bırakın. **Not:** Boyut aralıklarındaki joker karakterler (\* veya ?) boyut aralıkları, ERP veritabanının verileri nasıl topladığına bağlı olarak istediğiniz tüm sonuçları vermeyebilir.
+3.  **Boyutlardan Satır Ekle**iletişim kutusunda, **Boyutlar** satırında, boyutun satır tanımına aktarılacağı hücreyi seçin ve **Tüm &&&** öğesine tıklayın.
+4.  Satır tanımını boyut değerlerinin belirli bir aralığıyla sınırlandırmak için **Boyut Aralığı Başlangıcı**hücresine başlangıç boyut değerini ve ardından **Boyut Aralığı Sonu** hücresine bitiş boyut değerini girin. Seçilen boyut için tüm değerleri eklemek için bu hücreleri boş bırakın. **Not:** Boyut aralıklarındaki joker karakterler (\* veya ?) boyut aralıkları, ERP veritabanının verileri nasıl topladığına bağlı olarak istediğiniz tüm sonuçları vermeyebilir.
 5.  **Başlangıç satırı kodu** alanında, satır tanımına eklenecek ilk boyut için satır kodunu belirtin.
 6.  **Her satıra şuna göre artır** alanında, birbirini takip eden satır kodları arasındaki boşluğu belirtin. Örneğin, ilk satır kodu 100 ve artış değeri 30 ise, ilk yeni satırların kodları 100, 130, 160, 190 ve 220 olur. Yeni biçim ve formül satırlarını eklemek için yeterli alan sağlayan bir artış değerini kullanın.
 7.  **Tamam** düğmesini tıklatın. Seçili boyut değerlerinin her biri için satır tanımına bir satır eklenir.
@@ -97,9 +101,9 @@ Bir bilançoda yuvarlamayı ayarlamak için şu adımları izleyin.
     -   **Toplam borçlar ve öz varlık satırı** – Toplam borçları ve öz varlığı içeren bilançodaki satır için satır kodu.
     -   **Ayar tutarı sınırı** – Otomatik ayarlar için sınırı belirten pozitif tam sayı. Bu tutar, fiili yuvarlama farkının mutlak değeri ile karşılaştırılır.
 
-    **Not: **Bu satır kodları mutlaka mali verilerinizle ilişkilendirilmelidir. Başka bir ifadeyle, satır mutlaka **Mali Boyutları Bağlantı** hücresinde bir boyut değerine sahip olmalıdır. **Kesinlikle** bir açıklama satırına (**DESC**), hesaplanan satıra (**CALC**) veya toplanan satıra (**TOT**) başvuru vermeyin.
+    **Not:**Bu satır kodları mutlaka mali verilerinizle ilişkilendirilmelidir. Başka bir ifadeyle, satır mutlaka **Mali Boyutları Bağlantı** hücresinde bir boyut değerine sahip olmalıdır. **Kesinlikle** bir açıklama satırına (**DESC**), hesaplanan satıra (**CALC**) veya toplanan satıra (**TOT**) başvuru vermeyin.
 
-Bilançonuzdaki tutarlar, yuvarlama açık konumdayken eşit şekilde dengelenir. **Not: **Ayar sınırı, rapor tanımı için belirtilen **Yuvarlama hassasiyeti** seçeneğine bağlı olarak uygulanır. Örneğin raporu binlere yuvarlayıp **Ayar tutarı sınırı** alanına **2** girdiğinizde **Yuvarlama ayar satırı** alanındaki değer 2.000'den fazla artar veya azalırsa bir uyarı mesajı alırsınız.
+Bilançonuzdaki tutarlar, yuvarlama açık konumdayken eşit şekilde dengelenir. **Not:**Ayar sınırı, rapor tanımı için belirtilen **Yuvarlama hassasiyeti** seçeneğine bağlı olarak uygulanır. Örneğin raporu binlere yuvarlayıp **Ayar tutarı sınırı** alanına **2** girdiğinizde **Yuvarlama ayar satırı** alanındaki değer 2.000'den fazla artar veya azalırsa bir uyarı mesajı alırsınız.
 
 ## <a name="format-row-and-column-text"></a>Satır ve sütun metni biçimlendirme
 Yazı tiplerini değiştirerek ve metni biçimlendirerek raporlarınızın görünümünü özelleştirebilirsiniz. Aşağıdaki bölümde raporların satır ve sütunlarının görünümünün nasıl biçimlendirileceği açıklanmıştır.
@@ -173,6 +177,8 @@ Satır tanımında belirtilen biçimlendirme sütun ve rapor tanımında belirti
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Microsoft Dynamics 365 for Operations için mali raporlama](financial-reporting-intro.md)
+[Mali raporlama](financial-reporting-intro.md)
+
+
 
 

@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: f286436aa4833babaeb3de875ee393d18e5f8eea
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a03b9aa61d754b47905d86114e0da29f1da64b81
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: b46037b9509f329e18f0da69d530f6b1f88c8888
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fef518bf156aa45dff66d21d49b433ed613cead1
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Bu konu, ödeme teklifi seçeneklerine genel bir bakış sağlar ve ödeme tekli
 
 ## <a name="parameters"></a>Parametreler
 -   **Şuna göre faturaları seç** – **Başlangıç tarihi** ve **Bitiş tarihi** alanları tarafından tanımlanmış aralıkta bulunan faturalar vade tarihi, nakit iskonto tarihi veya her ikisine göre seçilebilir. Nakit iskonto tarihini kullanırsanız, sistem önce başlangıç tarihinden bitiş tarihine bir nakit iskonto tarihine sahip faturalara bakacaktır. Sistem, nakit iskontosu tarihinin geçmemiş olduğundan emin olmak için oturum tarihini kullanarak faturanın nakit iskontosu için uygun olup olmadığını belirler.
--   **Başlangıç tarihi** ve** Bitiş tarihi** – Vade tarihi veya nakit iskontosu tarihi bu aralıkta olan faturalar ödeme için seçilir.
+-   **Başlangıç tarihi** ve**Bitiş tarihi** – Vade tarihi veya nakit iskontosu tarihi bu aralıkta olan faturalar ödeme için seçilir.
 -   **Ödeme tarihi** – Bir tarih belirlenirse, tüm ödemeler tüm tarihte oluşturulur. **Minimum ödeme tarihi** alanı göz ardı edilir.
 -   **Minimum ödeme tarihi** – Minimum ödeme tarihini girin. Örneğin, **Başlangıç tarihi** ve **Bitiş tarihi** alanları 1 Eylül - 10 Eylül arasında olsun ve minimum ödeme tarihi 5 Eylül olsun. Bu durumda, 1 Eylül - 5 Eylül arasında vade tarihi olan tüm faturalar, 5 Eylül'de ödeme tarihine sahip olurlar. Ancak, 5 Eylül - 10 Eylül arasında vade tarihi bulunan tüm faturalar, her bir faturanın vade tarihine eşit olan bir ödeme tarihine sahip olurlar.
 -   **Tutar limiti** – Tüm ödemeler için maksimum toplam tutarı girin.

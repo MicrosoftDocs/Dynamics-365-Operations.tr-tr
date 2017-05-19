@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: 3f96d12960e90bb05497d1bc2900d4477551c091
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ee3d306eecc7eeaca57522245f86dba32b75f942
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -47,7 +48,7 @@ Satınalma sözleşmesindeki her satır bir şeyi satın almak için bir taahhü
 -   **Değer taahhüdü** – herhangi bir tedarik kategorisindeki herhangi bir üründen belirli bir para biri miktarında satın alırsınız.
 
 ## <a name="pricing-terms-for-purchase-agreements"></a>Satınalma anlaşmaları için fiyatlandırma koşulları
-Fiyatlandırma şartları taahhüdün türüne bağlı olarak değişebilir. Satınalma sözleşmesindeki fiyatlandırma şartları, ticaret sözleşmelerinde ayarlanan diğer tüm fiyatlandırma şartlarını geçersiz kılar. Aşağıdaki tablo her bir taahhüt türü tarafından etkilenen fiyat ile ilgili alanları açıklar. **Evet **ibaresini içeren alanlar bir sipariş satırında güncelleştirilebilirler.
+Fiyatlandırma şartları taahhüdün türüne bağlı olarak değişebilir. Satınalma sözleşmesindeki fiyatlandırma şartları, ticaret sözleşmelerinde ayarlanan diğer tüm fiyatlandırma şartlarını geçersiz kılar. Aşağıdaki tablo her bir taahhüt türü tarafından etkilenen fiyat ile ilgili alanları açıklar. **Evet**ibaresini içeren alanlar bir sipariş satırında güncelleştirilebilirler.
 
 | Taahhüt türü                   | Birim fiyat | Fiyat birimi | İskonto yüzdesi | Nakit iskontosu tutarı |
 |-----------------------------------|------------|------------|------------------|----------------------|

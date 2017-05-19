@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 32cd09975861083b8940368ed53ae16e89bcd748
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 712eb9ec22f4eea4a969a7bd23b7d3728b35772e
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -76,7 +77,7 @@ Microsoft Dynamics 365 for Operations içindeki Genel adres defteri (GAB), müş
 > Tüzel kişiliğin, satıcının, müşterinin vergi muafiyet numarası, taraf için girilen vergi numarasıyla ilgili kayıt kimliklerinden seçilebilir.
 
 ## <a name="search-for-records-by-registration-id"></a>Kayıt kimliklerine göre kayıt ara
-Kayıt kimliklerine dayalı taraf kaydı arama taraf, tüzel kişilik, satıcı, müşteriler ve çalışan için formlarda arama yapın. **Kayıt kimlik arama kriteri sayfasını açmak için ** **Kayıt kimlik aramasına** tıklayın. Kriteri belirtin ve **Bul** üzerine tıklayın. Sistem seçili kayıtları, ilişkili türdeki taraf kayıtlarını genel adres defterinden görüntüler.
+Kayıt kimliklerine dayalı taraf kaydı arama taraf, tüzel kişilik, satıcı, müşteriler ve çalışan için formlarda arama yapın. **Kayıt kimlik arama kriteri sayfasını açmak için** **Kayıt kimlik aramasına** tıklayın. Kriteri belirtin ve **Bul** üzerine tıklayın. Sistem seçili kayıtları, ilişkili türdeki taraf kayıtlarını genel adres defterinden görüntüler.
 
 ## <a name="supported-registration-categories"></a>Desteklenen kayıt kategorileri
 Aşağıdaki tablo, Dynamics 365 for Operations içerisindeki desteklenen kayıtları listeler. Kayıt kimlikleri için Microsoft Dynamics AX 2012 alanlarına aşinaysanız, bu tablo bu alanları da Dynamics 365 for Operations kayıt kategorilerine eşleştirir.

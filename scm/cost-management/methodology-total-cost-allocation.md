@@ -3,7 +3,7 @@ title: "Toplam maliyet tahsisatı yöntemi"
 description: "Bu makalede, toplam maliyet tahsisatı (TCA) kullanma yönergeleri sağlanmıştır. Toplam maliyet tahsisatı (TCA), bir toplu iş emrine yönelik ana formül maddesi ile formül için tanımlanmış ortak ürünler arasındaki maliyetin hesaplanmasına yönelik bir yöntemdir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c26dcc5a8caa461bce90f931bb5c584f1816526b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a5c5788a3145dd6cabeed097d25a03a243577b8f
+ms.contentlocale: tr-tr
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="total-cost-allocation-method"></a>Toplam maliyet tahsisatı yöntemi
+
+[!include[banner](../includes/banner.md)]
+
 
 Bu makalede, toplam maliyet tahsisatı (TCA) kullanma yönergeleri sağlanmıştır. Toplam maliyet tahsisatı (TCA), bir toplu iş emrine yönelik ana formül maddesi ile formül için tanımlanmış ortak ürünler arasındaki maliyetin hesaplanmasına yönelik bir yöntemdir.
 
@@ -36,6 +40,11 @@ Toplam maliyet tahsisi (TCA), bir toplu iş emrine yönelik ana formül maddesi 
 Ortak ürünler için TCA kullanmaya yönelik bazı yönergeler şunlardır:
 
 -   Bir formül sürümü için **Toplam Maliyet Tahsisi** kaydırıcısını **Evet** olarak ayarlarsanız, ortak ürünlerin maliyet fiyatı 0'dan (sıfır) fazla olacaktır. Değer aynı tesise veya formülün tesise özel olmadığı ilk tesise yönelik etkin maliyet sürümünden alınabilir. Bu koşul formül onaylandığında doğrulanır.
+
+    -   Yan ürünler için maliyet tahsisat yüzdelerini el ile girmeniz gerekmez. Bunun yerine, sistem ortak ürünlerin maliyet fiyatlarının etkin ortalama maliyet tahsisat yüzdesini otomatik olarak oluşturur. 
+    -   Yan ürünler olan standart olmayan maliyet maddeleri için standart maliyetleri girmeniz gerekmez. Sistemde iki türde maliyetlendirme sürümü vardır:standart maliyet ve planlı maliyet 
+    -   Bir madde standart maliyet değerleme yöntemi ile değerlendirilmediyse, planlı maliyet sürümünde bir etkin maliyet fiyatını kullanmanızı öneririz. Bu fiyat maliyet tahmini için kullanılır, örneğin ürün reçetesi hesaplaması, üretim maliyeti tahmini ve stok değerleme işleminde geri dönüş fiyatı. 
+
 -   Formül sürümü için **Toplam Maliyet Tahsisi** kaydırıcısını **Evet** olarak ayarlarsanız ve aşağıdaki koşullar doğru ise, maliyet tahsisi yöntemi **TCA** olur ve maliyet tahsisi yüzdesi değişmez:
     -   Ortak ürünler eklediniz.
     -   Ortak ürünler için farklı bir maliyet tahsisi yöntemi kullandınız.
@@ -53,6 +62,8 @@ Ortak ürünler için TCA kullanmaya yönelik bazı yönergeler şunlardır:
 -   **Yüzde** ─ Maliyet tutarı, üretimde tüketilen toplam hammadde maliyeti yüzdesi olarak hesaplanır. Hesaplamada kullanılan yüzde bu alana girilir.
 -   **Seri başına** ─ Maliyet tutarı, üretim emrinin standart toplu iş boyutu başına tutar olarak hesaplanır. Bu tutar, üretimde rapor edilen miktardan bağımsızdır. Hesaplamada kullanılan tutar bu alana girilir.
 -   **Miktar başına** ─ Maliyet tutarı üretimdeki formül maddenin rapor edilen miktarı başına tutar olarak hesaplanır. Hesaplamada kullanılan tutar bu alana girilir.
+
+
 
 
 
