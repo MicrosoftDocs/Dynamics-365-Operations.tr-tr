@@ -1,15 +1,15 @@
 ---
 title: "Bilgi kodları"
 description: "Bu makalede bilgi kodları, bilgi kodu grupları ve bunların nasıl kullanılacağı hakkında genel bir bakış sunulmuştur."
-author: RobinARH
+author: mumani
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: josaw
 ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
@@ -47,13 +47,12 @@ Dynamics 365 for Operations - Perakende, bilgi kodları grupları oluşturabilir
 -   Her senaryo için bağlantılı bilgi kodu veya ayrı bilgi kodu tanımlamanız gerekmeden bir ürün veya hareket hakkında bilgi toplamak için bilgi kodlarını diğer bilgi kodlarına veya bilgi kodu gruplarına bağlayın.
 
 ## <a name="info-code-examples"></a>Bilgi kodu örnekleri
-**Örnek 1: Bilgi kodlarını yeniden kullanma** Bir bilgi kodu tetiklendiğinde başka bir bilgi kodunun hemen ardından tetiklenmesi için bilgi kodlarını bağlayabilirsiniz. Örneğin, belirli ürünler için kasiyerin müşteriye batarya ve ürün garantisi satın almak isteyip istemediğini sormasını isteyebilirsiniz. Diğer ürünler için, kasiyerin müşteriye batarya satın almak isteyip istemediğini sormasını ve posta kodlarını almalarını isteyebilirsiniz. Bu senaryolar için bağlantılı bilgi kodları oluşturursanız, kasiyerin doğru bilgileri sormasını isteyebilmek için bilgi kodunun her bir varyasyonunu ayarlamanız gerekir. Bilgi kodu grupları kullanırsanız, batarya isteği gibi genel bilgi kodları bir defada ayarlanabilir ve sonra birden çok bilgi kodu grubunda yeniden kullanılabilir. İstemlerin görüntüleneceği sırayı belirlemek için bilgi kodu gruplarında öncelik belirlemeyi de kullanabilirsiniz. **Örnek 2: Bilgi kodlarını bilgi kodu gruplarına bağlama** Mobil cihaz gibi belirli ürünler satarken her zaman telefon numarası, mobil cihaz ekipmanı tanımlayıcısı (MEID) ve seri numarası gibi bir dizi bilgiyi toplamak isteyebilirsiniz. Ancak, aynı zamanda cep telefonunun yanı sıra bir tablete ilişkin farklı bilgiler de toplamak istersiniz. Telefon numarası, MEID ve seri numarası istemlerini içeren bir bilgi kodu grubu ayarlayabilir ve sonra bilgi kodu grubunu bağımsız bir bilgi koduna bağlayabilirsiniz. Ürüne özgü bilgi kodları tetiklendiğinde her cihaz için birden çok bağlı bilgi kodu grubunu tanımlamanız gerekmeden genel verileri toplayabilmeniz için ardından bilgi kodu grubu tetiklenebilir.
+**Örnek 1: Bilgi kodlarını yeniden kullanma** Bir bilgi kodu tetiklendiğinde başka bir bilgi kodunun hemen ardından tetiklenmesi için bilgi kodlarını bağlayabilirsiniz. Örneğin, belirli ürünler için kasiyerin müşteriye batarya ve ürün garantisi satın almak isteyip istemediğini sormasını isteyebilirsiniz. Diğer ürünler için, kasiyerin müşteriye batarya satın almak isteyip istemediğini sormasını ve posta kodlarını almalarını isteyebilirsiniz. Bu senaryolar için bağlantılı bilgi kodları oluşturursanız, kasiyerin doğru bilgileri sormasını isteyebilmek için bilgi kodunun her bir varyasyonunu ayarlamanız gerekir. Bilgi kodu grupları kullanırsanız, batarya isteği gibi genel bilgi kodları bir defada ayarlanabilir ve sonra birden çok bilgi kodu grubunda yeniden kullanılabilir. İstemlerin görüntüleneceği sırayı belirlemek için bilgi kodu gruplarında öncelik belirlemeyi de kullanabilirsiniz.
+
+
+**Örnek 2: Bilgi kodlarını bilgi kodu gruplarına bağlama** Mobil cihaz gibi belirli ürünler satarken her zaman telefon numarası, mobil cihaz ekipmanı tanımlayıcısı (MEID) ve seri numarası gibi bir dizi bilgiyi toplamak isteyebilirsiniz. Ancak, aynı zamanda cep telefonunun yanı sıra bir tablete ilişkin farklı bilgiler de toplamak istersiniz. Telefon numarası, MEID ve seri numarası istemlerini içeren bir bilgi kodu grubu ayarlayabilir ve sonra bilgi kodu grubunu bağımsız bir bilgi koduna bağlayabilirsiniz. Ürüne özgü bilgi kodları tetiklendiğinde her cihaz için birden çok bağlı bilgi kodu grubunu tanımlamanız gerekmeden genel verileri toplayabilmeniz için ardından bilgi kodu grubu tetiklenebilir.
 
  
--
-
-
-
 
 
 
