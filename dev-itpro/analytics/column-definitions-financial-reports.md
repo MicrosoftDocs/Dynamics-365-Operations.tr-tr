@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -350,8 +350,7 @@ Bir rapordaki her bir sütunun içerdiği bilgilerin türü, sütun tanımındak
     <tbody>
     <tr class="odd">
     <td>FD</td>
-    <td>Satır tanımında bir <strong>Mali Boyutlara Bağlantı</strong> sütunu veya bir <strong>Çalışma Sayfasına Bağlantı</strong> sütunu kullandığınızda mali veriler veya bir Excel çalışma sayfasındaki veriler görüntülenir. <strong>FD</strong> sütun türünü seçtiğinizde aşağıdaki satırlar için otomatik olarak varsayılan ayarlar tanımlanır:
-    <ul>
+    <td>Satır tanımında bir <strong>Mali Boyutlara Bağlantı</strong> sütunu veya bir <strong>Çalışma Sayfasına Bağlantı</strong> sütunu kullandığınızda mali veriler veya bir Excel çalışma sayfasındaki veriler görüntülenir. <strong>FD</strong> sütun türünü seçtiğinizde aşağıdaki satırlar için otomatik olarak varsayılan ayarlar tanımlanır: <ul>
     <li><strong>Defter Kodu/Öznitelik Kategorisi:</strong> FİİLİ</li>
     <li><strong>Defter Kodu/Öznitelik Kategorisi:</strong> FİİLİ</li>
     <li><strong>Mali Yıl:</strong> TEMEL</li>
@@ -359,7 +358,7 @@ Bir rapordaki her bir sütunun içerdiği bilgilerin türü, sütun tanımındak
     <li><strong>Kapsadığı Dönemler:</strong> DÖNEMSEL</li>
     <li><strong>Sütun Genişliği:</strong> 14</li>
     </ul>
-    Bu varsayılan ayarları değiştirebilirsiniz.</td>
+Bu varsayılan ayarları değiştirebilirsiniz.</td>
     </tr>
     <tr class="even">
     <td>CALC</td>
@@ -387,12 +386,11 @@ Bir rapordaki her bir sütunun içerdiği bilgilerin türü, sütun tanımındak
     </tr>
     <tr class="even">
     <td>WKS</td>
-    <td>Bir Excel çalışma sayfasından çekiler veriler görüntülenir. <strong>WKS</strong> sütun türünü seçtiğinizde aşağıdaki satırlar için otomatik olarak varsayılan ayarlar tanımlanır:
-    <ul>
+    <td>Bir Excel çalışma sayfasından çekiler veriler görüntülenir. <strong>WKS</strong> sütun türünü seçtiğinizde aşağıdaki satırlar için otomatik olarak varsayılan ayarlar tanımlanır: <ul>
     <li><strong>Mali Yıl:</strong> DÖNEMSEL</li>
     <li><strong>Dönem:</strong> TEMEL</li>
     </ul>
-    Bu varsayılan ayarları değiştirebilirsiniz.</td>
+Bu varsayılan ayarları değiştirebilirsiniz.</td>
     </tr>
     <tr class="odd">
     <td>ATTR</td>

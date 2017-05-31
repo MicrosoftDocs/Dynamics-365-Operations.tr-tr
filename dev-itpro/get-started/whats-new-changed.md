@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: c9f1e32986238739fc7eee519fd1d17a6ce6731e
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 55a3252aa2d84ac5af68a1a6eebeaa909d95b33b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -34,6 +34,9 @@ ms.lasthandoff: 04/25/2017
 Bu sayfa Microsoft Dynamics 365 for Operations'ın son sürümlerindeki yeni özellikler hakkında bilgi almanıza yardımcı olabilecek konulara sizi yönlendirir.
 
 En son sürüme yükseltmek için bkz. [En son Dynamics 365 for Operations güncelleştirmesine yükseltme işlemi](../migration-upgrade/upgrade-latest-update.md).
+
+Yeni yayımlanan Mobil çalışma alanları ve Power BI içerikleri hakkında daha fazla bilgi almak için bkz. [Dynamics 365 for Operations mobil uygulaması için yeni yayımlanan mobil çalışma alanları](../mobile-apps/mobile-workspaces-released.md) ve [Dynamics 365 for Operations için yeni yayımlanan Power BI içeriği](../analytics/power-bi-content-released.md)
+
 <table>
 <colgroup>
 <col width="20%" />
@@ -53,6 +56,12 @@ En son sürüme yükseltmek için bkz. [En son Dynamics 365 for Operations günc
 </thead>
 <tbody>
 <tr class="odd">
+<td>Microsoft Dynamics 365 for Operations platformu</td>
+<td>Platform güncelleştirmesi 7</td>
+<td> 7.0.4542.16189</td>
+<td>Mayıs 2017</td>
+<td><a href="whats-new-platform-update-7.md">Dynamics 365 for Operations platform güncelleştirmesi 7'teki yenilikler veya değişiklikler (Mayıs 2017)</a></td>
+</tr><tr class="odd">
 <td>Microsoft Dynamics 365 for Operations platformu</td>
 <td>Platform güncelleştirmesi 6</td>
 <td> 7.0.4509.16180</td>

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 1ab51f90be918ee60e99fe11e5425383beefb26e
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 6e8e87df88aace213f50db617229383eba4d86ec
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -47,13 +47,11 @@ Genel muhasebedeki dönemleri kapatma
 |Satış siparişini onayla                   | Satış siparişlerini güncelleştirmek.                                                                       |
 |Yabancı para birimi yeniden değerleme işlemi          | Yabancı para birimlerindeki açık müşteri hareketlerinin değerini güncelleştiren hareketler oluşturmak.                                                                                                                         |
 | Günlük                              | Faturaları, ödemeleri ve senetleri deftere nakletmek.                                             |
-| Günlük fişi                      | -   **Ödeme günlüğü** – Ödemeleri oluşturmak, işlemek ve deftere nakletmek.
-                                         -   **Draw bill of exchange journal** – Post bills of exchange.
-                                         -   **Protest bill of exchange journal** – Post protested bills of exchange.
-                                         -   **Redraw bill of exchange journal** – Post redrawn bills of exchange.
-                                         -   **Remittance journal** – Post remittances.
-                                         -   **Settle bill of exchange journal** – Post settled bills of exchange                   |
-| Sevk irsaliyesini deftere nakil                 | Satış siparişleri için sevk irsaliyelerinin güncelleştirilmesi.                                                     | | Serbest metin faturası               | Serbest metin faturası deftere naklet.                                                                   | | Fatura deftere nakli                      | Satış siparişleri için fatura deftere nakli.                                                            | | Malzeme çekme listesi deftere nakli                 |Satış siparişi için malzeme çekme listesini güncelleştirmek.                                                      |
+| Günlük fişi                      |<ul><li>**Ödeme günlüğü** – Ödemeleri oluşturmak, işlemek ve deftere nakletmek.</li><li>**Düzenlenen kambiyo senetleri günlüğü** – Kambiyo senetlerini deftere nakletmek.</li><li>**Protestolu kambiyo senetleri günlüğü** – Protestolu kambiyo senetlerini deftere nakletmek.</li><li>**Kambiyo senedi günlüğünü yeniden düzenle** – Yeniden düzenlenmiş kambiyo senetlerini deftere nakletmek.</li><li>**Havale günlüğü** – Havaleleri deftere nakledin.</li><li>**Kambiyo senedi günlüğünü kapat** – Kapatılmış kambiyo senetleri deftere nakletmek</li></ul>                   |
+| Sevk irsaliyesinin nakli                 | Satış siparişlerine ait sevk irsaliyelerini güncelleştirmek.                                                     |
+| Dekont / serbest metin faturasını deftere naklet               | Serbest metin faturalarını deftere nakletmek.                                                                   |
+| Fatura deftere naklediliyor                      | Satış siparişlerine ait faturaları deftere nakletmek.                                                            |
+| Malzeme çekme listesi naklediliyor                 |Satış siparişlerine ait malzeme çekme listelerini güncelleştirmek.                                                      |
 
 **İş süreci bileşen görevi**   
 

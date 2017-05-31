@@ -4,6 +4,7 @@
 ## Talep tahmini oluşturma
 ### [Talep tahminine genel bakış](master-planning/introduction-demand-forecasting.md)
 ### [Talep tahmini ayarlama](master-planning/demand-forecasting-setup.md)
+### [Talep tahminleri için geçmiş verilerini içe aktarma](master-planning/import-historical-data.md)
 ### [İstatistiksel temel tahmin oluşturma](master-planning/generate-statistical-baseline-forecast.md)
 ### [Temel tahminlerle ilgili el ile ayarlama yapma](master-planning/manual-adjustments-baseline-forecast.md)
 ### [Düzeltilen tahmini yetkilendirme](master-planning/authorize-adjusted-forecast.md)

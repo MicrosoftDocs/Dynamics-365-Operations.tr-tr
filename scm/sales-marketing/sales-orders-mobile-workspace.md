@@ -3,10 +3,10 @@ title: "Satış siparişleri mobil çalışma alanı"
 description: "Bu konu, Microsoft Dynamics 365 for Operations mobil uygulaması için kullanılabilir olan Satış siparişleri mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, satış siparişleriyle her zaman ve her yerde güncel kalmanıza yardımcı olur."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 119b80e5d8067ffbf75d8b067f4803558c2c94b0
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 11898146a13756a6bb22a769e37e8773484e0d04
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -37,7 +37,9 @@ Bu konu, Microsoft Dynamics 365 for Operations mobil uygulaması için kullanıl
 <a name="overview-of-the-sales-orders-mobile-workspace"></a>Satış siparişleri mobil çalışma alanına genel bakış
 ---------------------------------------------
 
-**Satış siparişleri** mobil çalışma alanı, Microsoft Dynamics 365 for Operations'a erişir ve her bir satış siparişi hakkında ayrıntılı bilgi edinmenizi sağlar. Bu bilgi siparişin durumunu, müşteri için iletişim numarasını ve siparişi alanın iletişim numarasını içerir. **Satış siparişleri** mobil çalışma alanı, satış siparişlerinin anlık görünümünü sağlar. Müşteri bazında satış siparişlerini, tüm satış siparişlerini ya da belirli bir satış siparişiyle ilgili bilgileri görüntüleyebilirsiniz. Mobil çalışma alanı, satış siparişlerini derinlemesine çözümlemenize yardımcı olacak iki görünüm sağlar.
+**Satış siparişleri** mobil çalışma alanı, Microsoft Dynamics 365 for Operations'a erişir ve her bir satış siparişi hakkında ayrıntılı bilgi edinmenizi sağlar. Bu bilgi siparişin durumunu, müşteri için iletişim numarasını ve siparişi alanın iletişim numarasını içerir. **Satış siparişleri** mobil çalışma alanı, satış siparişlerinin anlık görünümünü sağlar. Müşteri bazında satış siparişlerini, tüm satış siparişlerini ya da belirli bir satış siparişiyle ilgili bilgileri görüntüleyebilirsiniz. 
+
+Mobil çalışma alanı, satış siparişlerini derinlemesine çözümlemenize yardımcı olacak iki görünüm sağlar.
 
 ### <a name="view-all-sales-orders"></a>Tüm satış siparişlerini görüntüle
 
@@ -50,6 +52,7 @@ Bu görünüm tüm satış siparişlerini listeler.
     -   Duruma göre ara
     -   Serbest bırakma durumuna göre ara
     -   Oluşturma tarih ve saatine göre ara
+    
 -   Satış siparişlerini seçtikten sonra belirli siparişlerin ayrıntılarını görüntüleyebilirsiniz. Özellikle aşağıdaki bilgileri görüntüleyebilirsiniz:
     -   Müşteri adı ve adres bilgileri
     -   Örneğin talep edilen sevk tarihi ve onaylanan sevk tarihi gibi satış siparişi için çeşitli tarihleri
@@ -65,6 +68,7 @@ Bu görünüm, siparişleri müşteriye göre listeler.
 -   Bir müşterinin siparişlerini görüntülemek için aşağıdaki filtrelerden birini kullanın:
     -   Ada göre ara
     -   Hesaba göre ara
+
 -   Müşteri seçtikten sonra aşağıdaki bilgileri görüntüleyebilirsiniz:
     -   Müşteri adı ve grubu
     -   Müşteri iletişim bilgileri
@@ -96,7 +100,7 @@ Bu görünüm, siparişleri müşteriye göre listeler.
 <tr class="odd">
 <td>Dynamics 365 for Operations sürüm 1611 platform güncelleştirmesi 3 veya daha sonraki sürümünün uygulanmış olması gerekir.</td>
 <td>Sistem yöneticisi</td>
-<td>Dynamics 365 for Operations'u kuruluşunuz için halihazırda dağıtılmadıysa, sistem yöneticisi <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Bir Microsoft Dynamics 365 for Operations demo ortamı dağıt</a>'ı görmelidir.</td>
+<td>Dynamics 365 for Operations'u kuruluşunuz için halihazırda dağıtılmadıysa, sistem yöneticisi <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment/">Bir Microsoft Dynamics 365 for Operations demo ortamı dağıt</a>'ı görmelidir.</td>
 </tr>
 <tr class="even">
 <td>KB 4013633 uygulanmış olmalıdır.</td>
@@ -104,9 +108,9 @@ Bu görünüm, siparişleri müşteriye göre listeler.
 <td>KB 4013633 (bir X++ güncelleştirmesi veya meta veri düzeltmesi), tedarik zinciri yönetimi için dört mobil çalışma alanı içerir. KB 4013633 uygulamak için sistem yöneticiniz bu adımları atması gerekir:
 <ol>
 <li>KB 4013633'yi, Microsoft Lifecycle Services (LCS) üzerinden karşıdan yükleyin.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">Meta veri düzeltmesini kurun</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Şunu içeren bir dağıtılabilir paket oluşturun:</a> <strong>SCMMobile</strong> modeli ve daha sonra dağıtılabilir paketi LCS'ye yükleyin.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Dağıtılabilir paketi</a>, Dynamics 365 for Operations sisteminize uygulayın.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Meta veri düzeltmesini kurun</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Şunu içeren bir dağıtılabilir paket oluşturun:</a> <strong>SCMMobile</strong> modeli ve daha sonra dağıtılabilir paketi LCS'ye yükleyin.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Dağıtılabilir paketi</a>, Dynamics 365 for Operations sisteminize uygulayın.</li>
 </ol></td>
 </tr>
 <tr class="odd">

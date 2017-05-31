@@ -3,10 +3,10 @@ title: "Merkezi ödemeleri oluşturma"
 description: 
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 05/09/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 474453e7f33526bc7bebc60ef68f560d489a1841
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 60cc59911cf2d10d73206885eb97b346ec3e3e87
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -41,7 +41,7 @@ ms.lasthandoff: 04/25/2017
 -   Şirketler arası muhasebeyi oluşturun.
 
 ## <a name="set-up-an-organizational-hierarchy-for-centralized-payments"></a>Merkezi ödemeler için bir organizasyon hiyerarşisi oluşturun.
-Merkezi ödemeler için mutlaka bir organizasyon hiyerarşisi oluşturmanız gerekir. Aynı organizasyon hiyerarşisi, merkezi satıcı ödemelerinin ve merkezi müşteri ödemelerinin işlenmesi için kullanılır. **Not:** Merkezi ödemeler için hiyerarşi yapısı fark etmez. Hiyerarşideki herhangi bir tüzel kişilik, hiyerarşideki başka bir tüzel kişilik adına ödemeleri işleyebilir. **Organizasyon hiyerarşileri** sayfasından yeni bir organizasyon hiyerarşisi oluşturabilirsiniz.
+Merkezi ödemeler için mutlaka bir organizasyon hiyerarşisi oluşturmanız gerekir. Aynı organizasyon hiyerarşisi, merkezi satıcı ödemelerinin ve merkezi müşteri ödemelerinin işlenmesi için kullanılır. **Not:** Merkezi ödemeler için hiyerarşi yapısı fark etmez. Hiyerarşideki herhangi bir tüzel kişilik, hiyerarşideki başka bir tüzel kişilik adına ödemeleri işleyebilir. **Organizasyon hiyerarşileri** sayfasından yeni bir organizasyon hiyerarşisi oluşturabilirsiniz. **Amaç** alanında, **Merkez ödemeler** seçeneğini işaretlemelisiniz. 
 
 ## <a name="set-up-an-intercompany-account-for-centralized-payments"></a>Merkezi ödemeler için bir şirketler arası hesap oluşturma
 Mevcut tüzel kişilikteki ödeme hareketleri diğer tüzel kişiliklerdeki faturalara karşı oluşturulursa, her bir tüzel kişilik için uygun vade sonu ve vade başlangıcı hareketleri oluşturulur. İlgili bir nakit iskontosunun ve gerçekleşmiş kar veya zarar tutarlarının nakledileceği tüzel kişiliği belirtmeniz gerekir. Başlamadan önce satıcı ve müşteri ödemelerini hangi tüzel kişiliğin işleyeceğine karar verin. Bir tüzel kişilik satıcı ödemelerini işliyor, ancak başka bir tüzel kişilik müşteri ödemelerini işliyorsa her bir tüzel kişiliğe çevirmeniz gerekir. **Şirketlerarası muhasebe** sayfasında ödemeleri adına işleyeceğiniz tüzel kişilik için bir şirketlerarası ilişki kaydı seçebilirsiniz. **Merkezi ödemeler** sekmesinde, ödeme tüzel kişiliğine mi (ya da satıcı hesabının bakiyesini düşüren diğer hareketler) yoksa fatura tüzel kişiliğine mi (ya da satıcının bakiyesini arttıran diğer hareketler) nakit iskontosu nakledileceğini seçin. Bu seçim **Borç hesapları parametreleri** ve **Alacak hesapları parametreleri** sayfalarındaki **Nakit iskontosu yönetimi** alanı ile birlikte çalışır. Fazla ödemeler ve kuruş farkı toleransları için ödemenin sahibi olan tüzel kişilikteki ayar kullanılır. Eksik ödemeler ve kuruş farkı toleransları için faturanın sahibi olan tüzel kişilikteki ayar kullanılır.

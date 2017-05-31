@@ -1,40 +1,38 @@
 ---
-title: "Ürün numara terminolojisi"
-description: "Bu konu, sabit biçimi [Ürün ana numarası - Yapılandırma - Boyut - Renk - Stil] ürün ana numarasını, etkin ürün boyutlarını ve istediğiniz metin ayırıcılarını da içeren bir hedeflenmiş biçimle değiştirmek için bir ürün numara terminolojisini nasıl ayarlayacağınızı açıklar. Kısıtlama tabanlı ürün yapılandırıcısı ile oluşturulan yapılandırmaları belirlemek için de bir terminoloji oluşturabilirsiniz. Bu terminolojiler istediğiniz öznitelikleri içerebilir."
-author: YuyuScheller
+title: "Ürün çeşidi numaraları ve adlarının terminolojisi"
+description: "Bu konu, ürün numaraları terminolojisini, sabit [Ana ürün numarası - Yapılandırma - Ebat - Renk - Stil] biçimini değiştirmek için nasıl ayarlayabileceğinizi açıklar. Yeni terminoloji, ana ürün numarası, etkin ürün boyutları ve tercihiniz olan metin ayırıcılarını içeren hedeflenmiş bir biçime sahiptir. Ürün adları için bir terminoloji de oluşturabilirsiniz. Son olarak, kısıtlama tabanlı ürün yapılandırıcısı ile oluşturulan yapılandırmaları belirlemek için bir terminoloji oluşturabilirsiniz. Bu terminolojiler istediğiniz öznitelikleri içerebilir."
+author: roxanadiaconu
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResNomenclature, EcoResProductDimensionGroup, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelDetails
 audience: Application User
+ms.reviewer: annbe
 ms.search.scope: Operations, Core
 ms.custom: 220104
-ms.assetid: 31c9efb4-b5f6-4af3-b884-8f1e128469bd
+ms.assetid: 3fe69fb7-5c32-423c-98a8-2f53186cda68
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: roxanad
+ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: deda2b7986333e0d865aa87e6b34b6acdc8f6a6d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 0e19b18a2900a0b42dc9a1a984b9c884ca0c17cc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
-# <a name="product-number-nomenclature"></a>Ürün numara terminolojisi
+# <a name="nomenclature-of-product-variant-numbers-and-names"></a>Ürün çeşidi numaraları ve adlarının terminolojisi
 
-[!include[banner](../includes/banner.md)]
+Bu konu, ürün numaraları terminolojisini, sabit [Ana ürün numarası - Yapılandırma - Ebat - Renk - Stil] biçimini değiştirmek için nasıl ayarlayabileceğinizi açıklar. Yeni terminoloji, ana ürün numarası, etkin ürün boyutları ve tercihiniz olan metin ayırıcılarını içeren hedeflenmiş bir biçime sahiptir. Ürün adları için bir terminoloji de oluşturabilirsiniz. Son olarak, kısıtlama tabanlı ürün yapılandırıcısı ile oluşturulan yapılandırmaları belirlemek için bir terminoloji oluşturabilirsiniz. Bu terminolojiler istediğiniz öznitelikleri içerebilir.
 
-
-Bu konu, sabit biçimi [Ürün ana numarası - Yapılandırma - Boyut - Renk - Stil] ürün ana numarasını, etkin ürün boyutlarını ve istediğiniz metin ayırıcılarını da içeren bir hedeflenmiş biçimle değiştirmek için bir ürün numara terminolojisini nasıl ayarlayacağınızı açıklar. Kısıtlama tabanlı ürün yapılandırıcısı ile oluşturulan yapılandırmaları belirlemek için de bir terminoloji oluşturabilirsiniz. Bu terminolojiler istediğiniz öznitelikleri içerebilir.
-
-Yeni ürün çeşidi numarası terminolojisi, ürün çeşidi tanımlayıcılarınıza segmentler dahil etmenizi sağlar. Bu segmentler; ürün ana numarası, ürün boyutları, numara serileri, sabit metinler ve öznitelikler içerebilir. Bu işlev, bir satış siparişi veya satınalma siparişi oluşturduğunuzda belirli bir ürün çeşidini hızlı bir şekilde bulmanızı sağlar.
+Ürün çeşidi numaraları ve ürün çeşit adları için yeni terminoloji, ürün çeşitleri için kimlik tanımlayıcıları içerisinde bölümler dahil etmenize de izin verir. Bu bölümler, ana ürün numarası ve adı, ürün boyut kimlikleri ve adları, numara serileri, sabit metinler ve öznitelikleri içerebilir. Bu işlev, bir satış siparişi veya bir satınalma siparişi oluşturduğunuzda belirli bir ürün çeşidini hızlı bir şekilde bulmanızı sağlar. **Ürün terminolojisi** sayfasını kullanarak hem ürün çeşit numaraları hem de ürün çeşit adları için terminolojiler oluşturabilirsiniz. Bu sayfayı açmak için **Ürün bilgi yönetimi** &gt; **Kurulum** üzerine tıklayın.
 
 ## <a name="nomenclature-of-predefined-product-variants"></a>Önceden tanımlanmış ürün çeşitleri terminolojisi
 Ürün çeşitleri, ana ürünler için üç yapılandırma teknolojisinden birine göre oluşturulur:
@@ -43,69 +41,70 @@ Yeni ürün çeşidi numarası terminolojisi, ürün çeşidi tanımlayıcılar�
 -   Kısıtlama tabanlı
 -   Boyut tabanlı
 
-Her ürün çeşidinin bir numarası vardır ve ürün çeşidi kimlik saptama terminolojisi, her ürün çeşidi numarasının dahil olacağı segmentleri seçmenizi sağlar. **Ürün terminolojisi** sayfasından aşağıdaki segmentleri seçebilirsiniz.
+Her ürün çeşidinin bir numarası ve adı vardır ve ürün çeşidi kimlik saptama terminolojileri, her ürün çeşidi numarasının veya adının dahil olacağı segmentleri seçmenizi sağlar. **Ürün terminolojisi** sayfasında aşağıdaki segmentleri seçebilirsiniz:
 
 -   Ürün ana numarası
+-   Ana ürün adı
 -   Numara serisi değeri
 -   Metin sabiti
 -   Ürün boyutları
-    -   Yapılandırma
-    -   Renk
-    -   Ebat
-    -   Stil
+    -   Yapılandırma kodu veya adı
+    -   Renk kodu veya adı
+    -   Beden kodu veya adı
+    -   Stil kodu veya adı
 
-Ürün çeşidi kimlik saptama terminolojisi tanımlandıktan sonra bir ürün boyutu grubuyla ilişkilendirilebilir. Bunun sonucunda, bu ürün boyutu grubuna başvuran tüm ana ürünlere terminolojiye göre ürün çeşidi numarası atanır. Ana ürüne doğrudan bir ürün çeşidi kimlik saptama terminolojisi atamak da mümkündür. Bu durumda, bu ana ürüne ait olan ürün çeşitlerine terminolojiye göre ürün çeşidi numarası atanır.
+Bir ürün çeşidi kimlik saptama numarası terminolojisini tanımladıktan sonra, bunu bir ürün boyutu grubu ile ilişkilendirebilirsiniz. Bu ürün boyutu grubuna başvuran tüm ana ürünlere daha sonra, terminolojiye uygun olarak bir ürün çeşidi numarası atanacaktır. Ancak, ürün çeşidi adı terminolojileri, ürün boyut grupları ile ilişkilendirilemez. Ayrıca bir ürün çeşidini kimlik saptama terminolojisini doğrudan ana ürüne de atayabilirsiniz. Bu durumda, ana ürüne ait ürün çeşitlerine ürün çeşidi numaraları ve adları, terminolojilere uygun bir biçimde atanacaktır.
 
 ### <a name="example"></a>Örnek
 
-Bir tişört (TS1234), toplamda 24 olası ürün çeşidi olarak 3 farklı bedende (S, M, L), 4 farklı renkte (Kırmızı, Yeşil, Mavi, Sarı), ve 2 stilde (Polo, V) üretilir. Ürün çeşidi kimlik saptama terminolojisi aşağıdaki segmentlerle oluşturulur:
+Bir tişört (TS1234), üç bedende (S, M, L), dört renkte (Kırmızı, Yeşil, Mavi, Sarı) ve iki stilde (Polo, V yaka) üretilmektedir. Bu nedenle, 24 ürün çeşidi mümkündür (= 3 x 4 x 2). Aşağıdaki bölümlere sahip bir ürün çeşidi numarası terminolojisi oluşturabilirsiniz:
 
 1.  Ürün ana numarası
-2.  Metin sabiti: '-'
+2.  Metin sabiti: "-"
 3.  Renk
-4.  Metin sabiti: '-'
+4.  Metin sabiti: "-"
 5.  Ebat
-6.  Metin sabiti: '-'
+6.  Metin sabiti: "-"
 7.  Stil
 
-Kırmızı, Small beden, Polo tişörtün ürün çeşidi numarası TS1234-Kırmızı-Small-Polo olur.
+Bu durumda, kırmızı, small bir polo tişört için ürün çeşidi numarası TS1234-Kırmızı-Small-Polo olacaktır.
 
 ## <a name="nomenclature-of-constraintbased-configurations"></a>Kısıtlama tabanlı yapılandırma terminolojisi
-Kısıtlama tabanlı yapılandırmalar için, yapılandırma ürün boyutuna yönelik adanmış bir terminoloji oluşturulabilir. **Ürün terminolojisi** sayfasından aşağıdaki segmentleri seçebilirsiniz.
+Kısıtlama tabanlı yapılandırmalar için yapılandırma ürün boyutuna yönelik adanmış bir terminoloji oluşturabilirsiniz. **Ürün terminolojisi** sayfasında aşağıdaki segmentleri seçebilirsiniz:
 
 -   Numara serisi değeri
 -   Metin sabiti
--   Öznitelik değeri 
+-   Öznitelik değeri
 
-Ürün yapılandırma modelindeki her bileşenin kendi yapılandırma terminolojisi olabilir. Yalnızca bileşene ait öznitelikler kullanılabilir. Alt bileşenlerden gelen öznitelikler veya kullanıcı gereksinimleri mevcut değildir.
+Ürün yapılandırma modelindeki her bileşenin kendi yapılandırma terminolojisi olabilir. Yalnızca bileşene ait olan öznitelikler kullanılabilir. Alt bileşenlerden gelen öznitelikler veya kullanıcı gereksinimleri kullanılamaz.
 
 ### <a name="example"></a>Örnek
 
-Ürün yapılandırma modelinin iki öznitelikli bir kök bileşeni vardır.
+Bir ürün yapılandırma modeli, iki özniteliğe sahip bir kök bileşene sahiptir:
 
 -   Malzeme (Plastik, Ahşap, Çelik)
 -   Uzunluk (10...100)
 
-Yapılandırma terminolojisi aşağıdaki segmentler kullanılarak tanımlanır:
+Aşağıdaki bölümlere sahip bir yapılandırma terminolojisi oluşturabilirsiniz:
 
 1.  Öznitelik değeri: Malzeme
 2.  Metin sabiti: "AAA"
 3.  Öznitelik değeri: Uzunluk
 
-Uzunluğu 78 olan ahşap bir malzemenin yapılandırma kodu AhşapAAA78 olur.
+Bu durumda, 78 uzunluğuna sahip ahşap malzeme için yapılandırma kodu WoodAAA78 olacaktır.
 
 ## <a name="nomenclature-of-dimensionbased-configurations"></a>Boyut tabanlı yapılandırmaların terminolojisi
-Boyut tabanlı yapılandırmalar için, yapılandırma ürün boyutuna yönelik adanmış bir terminoloji oluşturulabilir. **Ürün terminolojisi** sayfasından aşağıdaki segmentleri seçebilirsiniz.
+Boyut tabanlı yapılandırmalar için yapılandırma ürün boyutuna yönelik adanmış bir terminoloji oluşturabilirsiniz. **Ürün terminolojisi** sayfasında aşağıdaki segmentleri seçebilirsiniz:
 
 -   Numara serisi değeri
 -   Metin sabiti
--   Yapılandırma grubu maddesi
+-   Konfigürasyon grubu maddesi
 
-Ürün reçetesi (BOM) için bir yapılandırma terminolojisi oluşturulabilir.
+Ürün reçetesi (BOM) için bir yapılandırma terminolojisi oluşturulabilirsiniz.
 
 ### <a name="example"></a>Örnek
 
-Ürün reçetesinin, 2 yapılandırma grubuna ayırılmış 4 ürün reçetesi satırı vardır.
+Bir ürün reçetesi, iki farklı yapılandırma grubuna ayrılmış dört ürün reçetesi satırına sahiptir:
 
 -   Ürün reçetesi satırı: M0007, Standart dolap
     -   Yapılandırma grubu: Dolap
@@ -116,89 +115,87 @@ Boyut tabanlı yapılandırmalar için, yapılandırma ürün boyutuna yönelik 
 -   Ürün reçetesi satırı: M0022, Ön ızgara metali
     -   Yapılandırma grubu: Ön ızgara
 
-Yapılandırma terminolojisi aşağıdaki segmentler kullanılarak tanımlanır:
+Aşağıdaki bölümlere sahip bir yapılandırma terminolojisi oluşturabilirsiniz:
 
 1.  Yapılandırma grubu: Dolap
 2.  Metin sabiti: "&"
 3.  Yapılandırma grubu: Ön ızgara
 
-Standart dolaplı ön ızgara dokuması yapılandırma kodu M0007&M0021 olur.
+Bu durumda, ön ızgara dokumasına sahip standart bir dolap için yapılandırma kodu M0007&M0021 olur.
 
-## <a name="nomenclature-of-a-combination-of-product-variants-and-configurations"></a>Ürün çeşitlerinin ve yapılandırmaların birleşiminin terminolojisi
-Ana ürünün ürün çeşitlerini yapılandırmak için kısıtlama tabanlı veya boyut tabanlı yapılandırma teknolojisi kullandığınızda, ürün çeşitleri, yapılandırma boyutundan bir terminoloji içeren ürün çeşidi numaralarını alabilir. Çeşitleri yapılandırmak için şu adımları izleyin:
+## <a name="nomenclature-for-a-combination-of-product-variants-and-configurations"></a>Ürün çeşitlerinin ve yapılandırmalarının birleşimi için terminoloji
+Kısıtlama tabanlı yapılandırma teknolojisi ya da boyut tabanlı yapılandırma teknolojisini, bir ana ürün için ürün çeşitlerini yapılandırmakta kullandığınızda, ürün çeşidi için ürün çeşidi numaraları, yapılandırma boyutundaki terminolojiyi içerebilir. Çeşitleri yapılandırmak için şu adımları izleyin.
 
-1.  **Ürün terminolojisi** sayfasında yapılandırma boyutu içeren bir ürün çeşidi numarası terminolojisi tanımlayın.
-2.  Bu terminolojiyi yapılandırma boyutlu bir ürün boyut grubuna atayın.
+1.  **Ürün terminolojisi** sayfası üzerinde, yapılandırma boyutunu içeren bir ürün çeşidi numarası terminolojisi tanımlayın.
+2.  Terminolojiyi, yapılandırma boyutuna sahip bir boyut grubuna atayın.
 3.  Ürün çeşitlerini yapılandırma amacıyla kullanılacak bileşenler veya ürün reçeteleri için bir yapılandırma terminolojisi tanımlayın.
+
+Ürün çeşidi adları için terminolojiler de oluşturabilirsiniz. Ürün çeşidi adları, yapılandırma kodunu veya adını içermek üzere de yapılandırılabilir.
 
 ### <a name="example-for-constraint-based-configurations"></a>Kısıtlama tabanlı yapılandırmalar için örnek
 
-Bu örnekte, aşağıdaki segmentlerden oluşan bir ürün çeşidi numarası terminolojisi kullanabilirsiniz:
+Bu örnek için aşağıdaki segmentlerden oluşan bir ürün çeşidi numarası terminolojisi kullanırsınız:
 
 1.  Ürün ana numarası
-2.  Metin sabiti '\_'
+2.  Metin sabiti "\_"
 3.  Yapılandırma
 
-Yapılandırma terminolojisi aşağıdaki segmentlerden oluşabilir:
+Yapılandırma terminolojisi aşağıdaki segmentlerden oluşur:
 
 1.  Öznitelik değeri: Malzeme
 2.  Metin sabiti: "AAA"
 3.  Öznitelik değeri: Uzunluk
 
-Segmentler için aşağıdaki değerleri girebilirsiniz:
+Segmentler için aşağıdaki değerleri girersiniz:
 
--   Ürün ana numarası = M0099
--   Malzeme = Plastik
--   Uzunluk = 12
+-   Ürün ana numarası = **M0099**
+-   Malzeme = **Plastik**
+-   Uzunluk = **12**
 
-Ürün çeşidi numarası M0099\_PlastikAAA12 olur.
+Bu durumda, ürün çeşidi numarası M0099\_PlastikAAA12 olacaktır.
 
 ### <a name="example-for-dimension-based-configurations"></a>Boyut tabanlı yapılandırmalar için örnek
 
-Bu örnekte, aşağıdaki segmentlerden oluşan bir ürün çeşidi numarası terminolojisi kullanabilirsiniz.
+Bu örnek için aşağıdaki segmentlerden oluşan bir ürün çeşidi numarası terminolojisi kullanırsınız:
 
 1.  Ürün ana numarası
 2.  Metin sabiti "//"
 3.  Yapılandırma
 
-Yapılandırma terminolojisi aşağıdaki segmentlerden oluşabilir:
+Yapılandırma terminolojisi aşağıdaki segmentlerden oluşur:
 
 1.  Yapılandırma grubu: Dolap
 2.  Metin sabiti: "&"
 3.  Yapılandırma grubu: Ön ızgara
 
-Segmentler için aşağıdaki değerleri girebilirsiniz:
+Segmentler için aşağıdaki değerleri girersiniz:
 
--   Ürün ana numarası = D0123
--   Dolap = M0008
--   Ön ızgara = M0022
+-   Ürün ana numarası = **D0123**
+-   Dolap = **M0008**
+-   Ön ızgara = **M0022**
 
-Ürün çeşidi numarası D0123//M0008&M0022 olur.
+Bu durumda, ürün çeşidi numarası D0123//M0008&M0022 olacaktır.
 
 ## <a name="numbering-conflicts"></a>Çakışmaları numaralandırma
-Benzersiz bir ürün çeşidi numarasının meydana gelmediği bir ürün çeşidi numarası terminolojisi ayarlanabilir. Örneğin etkin bir ürün boyutu, önceden tanımlı çeşit yapılandırma teknolojisini kullanan bir ana ürün terminolojisine dahil edilmezse böyle bir durum oluşabilir. Farklı yapılandırma teknolojileri için çakışmalar farklı şekillerde ele alınır.
+Bazı durumlarda, ayarladığınız bir ürün çeşidi numarası terminolojisi, benzersiz ürün çeşidi numaraları oluşturmayabilir. Örneğin etkin bir ürün boyutu, önceden tanımlı çeşit yapılandırma teknolojisini kullanan bir ana ürün terminolojisine dahil edilmezse ürün çeşidi numaraları benzersiz olmaz. Bu çakışmayı nasıl çözeceğiniz, yapılandırma teknolojisine bağlıdır.
 
 ### <a name="predefined-variants"></a>Önceden tanımlanmış çeşitler
 
-Bir veya birden çok ürün çeşidinin aynı ürün çeşidi numarasını alacağı ürün çeşitlerini el ile veya otomatik olarak oluşturmayı denerseniz bir hata oluşur. Bunu önlemek için, ürün boyut grubundaki tüm etkin ürün boyutlarını kullanmalı veya ürün çeşit numaralarının benzersiz olmasını sağlamak için bir numara serisi eklemelisiniz.
+Ürün çeşitlerini el ile oluşturmaya çalıştığınızda veya otomatik ürün çeşitleri oluşturduğunuzda bir hata ortaya çıkar ve birden fazla ürün çeşidi aynı ürün çeşidi numarasına sahip olur. Bu durumun önüne geçmek için tüm etkin ürün boyutlarını ürün boyutu grubunda kullanmalısınız. Alternatif olarak, ürün çeşit numarasının benzersiz olduğunu garanti etmeye yardımcı olmak için bir numara serisi ekleyin.
 
 ### <a name="constraint-based-configurations"></a>Kısıtlama tabanlı yapılandırma
 
-Terminolojiye bağlı olarak, sistem, yapılandırmaya benzersiz olmayan bir ürün numarası atama denemesinde bulunabilir. Bu durumda, sistem yapılandırma boyutu için ürün çeşidi numarası yerine numara serisi kullanır. Bu durumda, bir uyarı alırsınız. Bunu önlemek için, benzersizliği sağlamak adına terminolojiye yeterli öznitelikleri dahil etmelisiniz ve **Yeniden kullan** seçeneğinin bileşen için açık olduğuna emin olmalısınız.
+Terminolojiye bağlı olarak, sistem, yapılandırmaya benzersiz olmayan bir ürün numarası atama denemesinde bulunabilir. Bu durumda, sitem yapılandırma boyutu için numara serisini ürün numarası olarak kullanır ve bir uyarı alırsınız. Bu durumu engellemek için benzersiz ürün çeşidi numaralarını garanti etmeye yardımcı olmak için terminolojide yeterli sayıda öznitelik dahil etmelisiniz. Ayrıca **Yeniden kullan** seçeneğinin bileşen için açık olduğundan emin olmalısınız.
 
 ### <a name="dimension-based-configurations"></a>Boyut tabanlı yapılandırmalar
 
-Yapılandırma işlemi, sistemin terminolojiye göre bir yapılandırma değeri önereceği bir adım içerir. Bu adımda, yapılandırma değerini el ile değiştirebilirsiniz. Yapılandırmayı kaydettiğinizde sistem, yapılandırma değerinin benzersiz olup olmadığını kontrol eder. Değer benzersiz değilse bir hata görüntülenir. Yapılandırmayı kaydetmek için benzersiz bir yapılandırma değeri girmeniz gerekir.
-
-
+Yapılandırma işleminin bir adımında, sistem terminolojiye göre bir yapılandırma değeri önerir. Bu adımda, yapılandırma değerini el ile değiştirebilirsiniz. Yapılandırmayı kaydettiğinizde sistem, yapılandırma değerinin benzersiz olduğunu doğrular. Girmiş olduğunuz değer benzersiz değilse, bir hata iletisi alırsınız. Yapılandırmayı kaydetmek için, benzersiz bir yapılandırma değeri girmeniz gerekir.
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Önceden tanımlanmış ürün çeşitleri için bir ürün numara terminolojisi oluşturma (Görev kılavuzu)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
+[Önceden tanımlanmış ürün çeşitleri için bir ürün numara terminolojisi oluşturma](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
 
-[Önceden yapılandırılmış ürün çeşitleri için bir ürün numara terminolojisi oluşturma (Görev kılavuzu)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
-
-
+[Yapılandırılmış ürün çeşitleri için bir ürün numara terminolojisi oluşturma](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
 
 

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: ac4f520d17c721e249737b4ae95c10685f914497
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ac86ffa794b5fd92ca9aba24537fbc05057fe824
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -195,13 +195,11 @@ El ile kararın kime atanacağını belirtmek için şu adımları izleyin.
     <td>Belirli bir kuruluş hiyerarşisindeki kullanıcılar</td>
     <td><ol>
     <li><strong>Hiyerarşi türü</strong> listesindeki <strong>Hiyerarşi seçimi</strong> sekmesinde <strong>Hiyerarşi</strong>'yi seçtikten sonra, kararın atanacağı hiyerarşi türünü seçin.</li>
-    <li>Sistemin bu hiyerarşiden kullanıcı adları aralığını alması gerekir. Bu adlar, kararın atanabileceği kullanıcıları temsil eder. Sistemin alacağı adların aralığının başlangıç ve bitiş noktasını belirtmek için aşağıdaki adımları izleyin:
-    <ol>
+    <li>Sistemin bu hiyerarşiden kullanıcı adları aralığını alması gerekir. Bu adlar, kararın atanabileceği kullanıcıları temsil eder. Sistemin alacağı adların aralığının başlangıç ve bitiş noktasını belirtmek için aşağıdaki adımları izleyin: <ol>
     <li>Başlangıç noktasını belirtmek için, <strong>Buradan başla:</strong> listesinde bir kişi seçin.</li>
     <li>Bitiş noktasını belirtmek için <strong>Koşul ekle</strong>'yi tıklatın. Daha sonra, sistemin hiyerarşinin neresinde ad almayı durduracağını belirten bir koşul girin.</li>
     </ol></li>
-    <li><strong>Hiyerarşi seçenekleri</strong> sekmesinde, aralığın içindeki hangi kullanıcılara kararın atanması gerektiğini belirtin:
-    <ul>
+    <li><strong>Hiyerarşi seçenekleri</strong> sekmesinde, aralığın içindeki hangi kullanıcılara kararın atanması gerektiğini belirtin: <ul>
     <li><strong>Alınan tüm kullanıcılara ata</strong> – Karar, bu aralıktaki tüm kullanıcılara atanır.</li>
     <li><strong>Yalnızca alınan son kullanıcıya ata</strong> – Karar, yalnızca aralıktaki son kullanıcıya atanır.</li>
     <li><strong>Aşağıdaki koşul ile kullanıcıları dışarıda bırakmak</strong> – Karar, aralıkta belirli bir koşulu yerine getiren herhangi bir kullanıcıya atanmaz. Koşulu belirtmek için <strong>Koşul ekle</strong>'yi tıklatın.</li>
@@ -228,13 +226,11 @@ El ile kararın kime atanacağını belirtmek için şu adımları izleyin.
     <td>Bir iş maddesi kuyruğu</td>
     <td><ol>
     <li><strong>Kuyruk</strong>'u seçtikten sonra <strong>Kuyruk tabanlı</strong> sekmesini tıklatın.</li>
-    <li>Kararı belirli bir kuyruğa atamak için şu adımları izleyin:
-    <ol>
+    <li>Kararı belirli bir kuyruğa atamak için şu adımları izleyin: <ol>
     <li><strong>Kuyruk türü</strong> listesinde, <strong>İş öğesi kuyrukları</strong>'nı seçin.</li>
     <li><strong>Kuyruk adı</strong> listesinde, kuyruğu seçin.</li>
     </ol></li>
-    <li>Eğer belirli bir koşulun kararının hangi kuyruğa atanacağını belirlemesi gerekiyorsa, aşağıdaki adımları izleyin:
-    <ol>
+    <li>Eğer belirli bir koşulun kararının hangi kuyruğa atanacağını belirlemesi gerekiyorsa, aşağıdaki adımları izleyin: <ol>
     <li><strong>Kuyruk türü</strong> listesinde, <strong>Koşullu iş öğesi kuyrukları</strong>'nı seçin.</li>
     <li><strong>Kuyruk adı</strong> listesinde, <strong>Koşullu kuyruk</strong>'u seçin.</li>
     </ol></li>
@@ -285,13 +281,11 @@ Eğer bir kullanıcı ayırılan zaman içerisinde kararı alamazsa, kararın va
     <td>Belirli bir kuruluş hiyerarşisindeki kullanıcılar</td>
     <td><ol>
     <li><strong>Hiyerarşi türü</strong> listesindeki <strong>Hiyerarşi seçimi</strong> sekmesinde <strong>Hiyerarşi</strong>'yi seçtikten sonra, kararın ilerletileceği hiyerarşi türünü seçin.</li>
-    <li>Sistemin bu hiyerarşiden kullanıcı adları aralığını alması gerekir. Bu adlar kararın ilerletilebileceği kullanıcıları temsil eder. Sistemin alacağı adların aralığının başlangıç ve bitiş noktasını belirtmek için aşağıdaki adımları izleyin:
-    <ol>
+    <li>Sistemin bu hiyerarşiden kullanıcı adları aralığını alması gerekir. Bu adlar kararın ilerletilebileceği kullanıcıları temsil eder. Sistemin alacağı adların aralığının başlangıç ve bitiş noktasını belirtmek için aşağıdaki adımları izleyin: <ol>
     <li>Başlangıç noktasını belirtmek için, <strong>Buradan başla:</strong> listesinde bir kişi seçin.</li>
     <li>Bitiş noktasını belirtmek için <strong>Koşul ekle</strong>'yi tıklatın. Daha sonra, sistemin hiyerarşinin neresinde ad almayı durduracağını belirten bir koşul girin.</li>
     </ol></li>
-    <li><strong>Hiyerarşi seçenekleri</strong> sekmesinde, aralığın içindeki hangi kullanıcılara kararın ilerletilmesi gerektiğini belirtin:
-    <ul>
+    <li><strong>Hiyerarşi seçenekleri</strong> sekmesinde, aralığın içindeki hangi kullanıcılara kararın ilerletilmesi gerektiğini belirtin: <ul>
     <li><strong>Alınan tüm kullanıcılara ata</strong> – Karar bu aralıktaki tüm kullanıcılara ilerletilir.</li>
     <li><strong>Yalnızca alınan son kullanıcıya ata</strong> – Karar yalnızca aralıktaki son kullanıcıya ilerletilir.</li>
     <li><strong>Aşağıdaki koşul ile kullanıcıları dışarıda bırakmak:</strong> – Karar, aralıkta belirli bir koşulu yerine getiren herhangi bir kullanıcıya ilerletilmez. Koşulu belirtmek için <strong>Koşul ekle</strong>'yi tıklatın.</li>

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.search.scope: Core
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 86053196a3aad6b7b5d7830860e1af347dd969d8
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: de2f71a21c5aac953349559c84283d0f76082d42
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -42,7 +42,9 @@ Microsoft Dynamics 365 for Operations web uygulamasını belirtilen işletim sis
 -   Windows 10, Windows 8.1, Windows 8, Windows 7 veya Google Nexus 10 tablet üzerinde Google Chrome (son genel olarak yayımlanan sürümü)
 -   Mac OS X 10.10 (Yosemite), 10.11 (El Capitan) ve 10.12 (Sierra) veya Apple iPad üzerinde Apple Safari (son genel olarak yayınlanmış sürüm)
 
-Her web tarayıcısı için en son sürümü bulmak için, yazılım üreticisinin web sitesine gidin. **Notlar:**
+Her web tarayıcısı için en son sürümü bulmak için, yazılım üreticisinin web sitesine gidin. 
+
+**Notlar:**
 
 -   Görev Kaydedici'den oluşturulmuş görüntüleri yakalamak ve bunları Microsoft Word belgelerine eklemek için bir Chrome eklentisinin yüklü olması gerekir. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
 -   İş Akışı Düzenleyicisi bir ClickOnce uygulaması olarak başlatılır. ClickOnce uygulamalarını yalnızca Microsoft Edge ve Internet Explorer (Microsoft Windows'un desteklenen bir sürümünde) destekler. İş Akışı Düzenleyicisi ClickOnce uygulaması için 64-bit uyumlu bir işletim sistemi gereklidir.
@@ -59,10 +61,12 @@ Dynamics 365 for Operations için Retail Cloud POS, belirtilen işletim sistemle
 -   Windows 10, Windows 8.1 veya Windows 7 üzerinde Chrome (son genel olarak yayımlanmış sürüm)
 
 ## <a name="network-requirements"></a>Ağ gereksinimleri
--   Dynamics 365 for Operations 150 milisaniyeden (ms) daha az gecikmeli ağlar için tasarlanmıştır. Bu gecikme, bir tarayıcı istemcisinden Dynamics 365 for Operations'ı barındıran Microsoft Azure veri merkezine iletim süresidir. Ağ gecikmesini <http://www.azurespeed.com>'da sınamanızı öneririz.
+-   Dynamics 365 for Operations 250-300 milisaniye (ms) veya daha az gecikmeli ağlar için tasarlanmıştır. Bu gecikme, bir tarayıcı istemcisinden Dynamics 365 for Operations'ı barındıran Microsoft Azure veri merkezine iletim süresidir. Ağ gecikmesini <http://www.azurespeed.com>'da sınamanızı öneririz.
 -   Dynamics 365 for Operations için bant genişliği gereksinimleri senaryoya bağlıdır. En tipik senaryolar 50 kilobayt/saniye (KBps) üzerinde bir bant genişliği gerektirir. Ancak, kapsamlı özelleştirme içeren çalışma alanları veya senaryolar gibi yüksek yük gereksinimleri olan senaryolar için daha yüksek bant genişliği önerilir.
 
-Genel olarak, Dynamics 365 for Operations Internet için optimize edilmiştir. Bir tarayıcı istemcisinden Azure veri merkezine gidiş dönüş sayısı oldukça küçüktür ve tüm yükü sıkıştırılmıştır. **Uyarı:** Kullanıcı sayısıyla minimum bant genişliği gereksinimlerini çarpıp bir müşteri konumundan bant genişliği gereksinimlerini hesaplamayın. Belirli bir konumun eşzamanlı kullanımını hesaplamak çok zordur. Bant genişliği gereksinimleri konusunda kaygıları olan müşteriler Dynamics 365 for Operations'ın bir önizleme sürümünü kullanabilir.
+Genel olarak, Dynamics 365 for Operations Internet için optimize edilmiştir. Bir tarayıcı istemcisinden Azure veri merkezine gidiş dönüş sayısı oldukça küçüktür ve tüm yükü sıkıştırılmıştır. 
+
+**Uyarı:** Kullanıcı sayısıyla minimum bant genişliği gereksinimlerini çarpıp bir müşteri konumundan bant genişliği gereksinimlerini hesaplamayın. Belirli bir konumun eşzamanlı kullanımını hesaplamak çok zordur. Bant genişliği gereksinimleri konusunda kaygıları olan müşteriler Dynamics 365 for Operations'ın bir önizleme sürümünü kullanabilir.
 
 ## <a name="net-framework-requirements"></a>.NET Framework gereksinimleri
 Dynamics 365 for Operations, belge yönlendirme aracısı gibi ClickOnce uygulamaları için .NET Framework sürüm 4.6.2 gerektirir. Yükleme yönergeleri için bkz. [.NET Framework'ü yükleme](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx).

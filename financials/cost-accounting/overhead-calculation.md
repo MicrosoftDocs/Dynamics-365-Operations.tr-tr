@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bb02e0756d675726f6c3b9f456b980a7ed695463
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -53,7 +53,8 @@ Genel gider hesaplama, maliyet muhasebesi ilkelerini doğru sırayla çalıştı
 -   Mali yıl
 -   Mali dönem
 
-Genel gider hesaplama, sürümden bağımsız olarak çalışır. Bu nedenle, Gerçek sürümden önce Bütçe sürümünü hesaplayabilirsiniz. Genel gider hesaplama dört adımdan oluşur, aşağıdaki çizimde gösterildiği gibi. Her adımda, günlük girişleri olan bir günlük başlığı oluşturulur. Bu günlük başlığı, her hesaplama adımı için giriş verilerini tutar. İlkeler ve kurallar her günlük satırına uygulanır ve maliyet girişleri çıkış olarak oluşturulur. Bu nedenle, her zaman tam izlenebilirliğe sahip olursunuz. [![Genel gider hesaplaması](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+Genel gider hesaplama, sürümden bağımsız olarak çalışır. Bu nedenle, Gerçek sürümden önce Bütçe sürümünü hesaplayabilirsiniz. Genel gider hesaplama dört adımdan oluşur, aşağıdaki çizimde gösterildiği gibi. Her adımda, günlük girişleri olan bir günlük başlığı oluşturulur. Bu günlük başlığı, her hesaplama adımı için giriş verilerini tutar. İlkeler ve kurallar her günlük satırına uygulanır ve maliyet girişleri çıkış olarak oluşturulur. Bu nedenle, her zaman tam izlenebilirliğe sahip olursunuz. 
+[![Genel gider hesaplaması](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Elektrik genel gideri maliyetini hesapla ve tahsis et
 Mali muhasebede, elektrik gibi bazı maliyetler peşin ödeme olarak kaydedilir. Bu nedenle, Maliyet muhasebesi için ayrıntılı yönetim bilgiler sağlanmaz. Maliyet muhasebesinde doğru yönetimsel bilgileri tüm yönetim birim ve düzeylerinde sağlamak için, maliyetlerin kuruluş birimleri arasında akması gerekir. Bu akış, tüketimin doğru bir kaydına ya da adil bir değerlendirmeye dayanıyor olmalıdır. Genel muhasebede, bir elektrik maliyeti aşağıdaki tabloda gösterildiği gibi deftere nakledilebilir.
@@ -622,7 +623,7 @@ Genel gider oranı ilkesi hakkında ayrıntılı bilgi için, Genel gider oranla
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Adım 4: Maliyet tahsisat hesaplamayı işle
 
-Tahsisat, bir tahsisat tabanı kullanarak bir maliyet nesnesinin diğer maliyet nesnelerine bakiyesini tahsis eder. Microsoft Dynamics 365 for Operations karşılık tahsisat yöntemini destekler. Karşılıklı tahsisat yönteminde, yardımcı maliyet nesnelerinin değiştiği karşılıklı hizmetler tümüyle tanınır. Sistem, tahsisatların doğru gerçekleştireceği sırayı otomatik olarak belirler. Bir maliyet nesnesinin bakiyesi tek bir tahsisat tabanı tarafından tahsis edilir. Yeni maliyet nesnesi boyutları arasındaki tahsisatlar ve onların üyeleri desteklenir. Tahsisatın sırası, maliyet kontrol birimi tarafından kontrol edilir. [![](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+Tahsisat, bir tahsisat tabanı kullanarak bir maliyet nesnesinin diğer maliyet nesnelerine bakiyesini tahsis eder. Microsoft Dynamics 365 for Operations karşılık tahsisat yöntemini destekler. Karşılıklı tahsisat yönteminde, yardımcı maliyet nesnelerinin değiştiği karşılıklı hizmetler tümüyle tanınır. Sistem, tahsisatların doğru gerçekleştireceği sırayı otomatik olarak belirler. Bir maliyet nesnesinin bakiyesi tek bir tahsisat tabanı tarafından tahsis edilir. Yeni maliyet nesnesi boyutları arasındaki tahsisatlar ve onların üyeleri desteklenir. Tahsisatın sırası, maliyet kontrol birimi tarafından kontrol edilir. [![Karşılıklı yöntemi](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>Maliyet tahsisatını tanımla
 
