@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 17a5dcf0f406380fbc4ff242932516894562fe5d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d9b5870d8b1c64e3d444900253b06bbb76b6feb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -30,7 +30,6 @@ ms.lasthandoff: 04/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-"[!include[banner](../includes/banner.md)]"
 
 
 Bu konu, Microsoft Dynamics 365 for Operations mobil uygulaması için kısa süre önce yayınlamış olan mobil çalışma alanları listeler.
@@ -51,9 +50,9 @@ Bu konu, Microsoft Dynamics 365 for Operations mobil uygulaması için kısa sü
 | Mobil çalışma alanı     | Açıklama                                                                                                                                                                         | Daha fazla bilgi edinin                                                                                                                                                        |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Maliyet kontrolü     | Maliyet merkezi yöneticileri, maliyet merkezinin performansını her zaman ve her yerden görebilirler.                                                                                               | [Mobil çalışma alanının maliyet kontrolü](/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace)         |
-| Eldeki stok    | Ayrılmış ve kullanılabilir stok hakkında her zaman ve her yerde mobil bilgiler edinin.                                                                                                    | [Eldeki stok mobil çalışma alanı](/dynamics365/operations/scm/production-control/inventory-on-hand-mobile-workspace)       |
-| Satış siparişleri         | Satış siparişleriniz hakkında her zaman ve her yerde güncel kalın.                                                                                                                          | [Satış siparişleri mobil çalışma alanı](/dynamics365/operations/scm/production-control/sales-orders-mobile-workspace)                 |
-| Satıcı işbirliği | Satıcılarınız, onlara onay için gönderilen satış siparişleri hakkında güncel kalabilirler ve yeni ve güncelleştirilmiş satınalma siparişleri ve ilgili kişiler hakkında bilgi görebilirler. | [Satıcı iş birliği mobil çalışma alanı](/dynamics365/operations/scm/procurement/vendor-collaboration-mobile-workspace) |
+| Eldeki stok    | Ayrılmış ve kullanılabilir stok hakkında her zaman ve her yerde mobil bilgiler edinin.                                                                                                    | [Eldeki stok mobil çalışma alanı](/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace)       |
+| Satış siparişleri         | Satış siparişleriniz hakkında her zaman ve her yerde güncel kalın.                                                                                                                          | [Satış siparişleri mobil çalışma alanı](/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace)                 |
+| Satıcı işbirliği | Satıcılarınız, onlara onay için gönderilen satış siparişleri hakkında güncel kalabilirler ve yeni ve güncelleştirilmiş satınalma siparişleri ve ilgili kişiler hakkında bilgi görebilirler. | [Satıcı iş birliği mobil çalışma alanı](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace) |
 
 ## <a name="mobile-workspace-functionality-that-was-released-in-december-2016"></a>Mobil çalışma alanı işlevi, Aralık 2016 tarihinde yayımlanmıştır
 | Mobil çalışma alanı        | Açıklama                                                                    | Daha fazla bilgi edinin                                                                                                            |

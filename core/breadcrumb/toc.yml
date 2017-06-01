@@ -18,6 +18,7 @@
     - name: Perakende
       tocHref: /dynamics365/operations/retail/
       topicHref: /dynamics365/operations/retail/index
-    - name: Tedarik zinciri 
+    - name: Tedarik zinciri
+ 
       tocHref: /dynamics365/operations/supply-chain/
       topicHref: /dynamics365/operations/supply-chain/index

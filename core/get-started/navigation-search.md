@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/27/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 650c8b60ba8204e8990cf607c1c9901b8f0bb762
-ms.openlocfilehash: 9f2cbafa3e21006f458067baf99ea5abaef8bb86
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: df804f79d6639c118e3e0534a21423f207ceb2c7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/28/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---

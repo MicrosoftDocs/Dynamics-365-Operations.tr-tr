@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 4d8ebe2c0a8b4fe08fa7f63ba310c1d9203c1150
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 4cf93c861345ad11b995ac2fe50c9a94dddcbd56
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -90,7 +90,7 @@ Transfer etkinliği, transfer etkinliğinin **Navlun sorumlusu** ayarına bağl�
 ## <a name="service-quantity-calculation"></a>Hizmet miktarı hesaplama
 Tüm bu satınalma işlemi, bir hizmet için öğe referansına dayanır. Bu öğe referansı, bir hizmet ölçüm biriminde ölçülür. Hizmetler genellikle ya hizmetlerin sayısı (birim) ya da zaman cinsinden ölçülür. Kanban işlerinin kayıtlı tamamlanmalarına dayanarak hizmet miktarını hesaplamak için, aşağıdaki yöntemleri kullanabilirsiniz:
 
--   **İşlerin sayısına dayanan hesaplama** - Bir kanban işi *n* birim hizmete karşılık gelir, sağlanan ürün miktarı ne olursa olsun. Yalın imalatta, bir iş bir işlem birimine karşılık gelir. Bu hesaplama yöntemi, işlem birimi başına sabit bir fiyata sahip tüm hizmetlere uygulanır. Bu nedenle, bu yöntem genellikle aktarma etkinlikleri için geçerlidir. Ancak, tüm işleme birimlerini işleyen işlem etkinliklerine de uygulanabilir.
+-   **İşlerin sayısına dayanan hesaplama** – Bir kanban işi *n* birim hizmete karşılık gelir, sağlanan ürün miktarı ne olursa olsun. Yalın imalatta, bir iş bir işlem birimine karşılık gelir. Bu hesaplama yöntemi, işlem birimi başına sabit bir fiyata sahip tüm hizmetlere uygulanır. Bu nedenle, bu yöntem genellikle aktarma etkinlikleri için geçerlidir. Ancak, tüm işleme birimlerini işleyen işlem etkinliklerine de uygulanabilir.
 -   **Ürün miktarını temel alan hesaplama** - Hizmet miktarı, zamanlanan/sağlanan ürün miktarıyla bağıntılıdır. Sağlanan ürün miktarı hesaplandığında, hata miktarları dahil edilebilir veya hariç tutulabilir. Bu hesaplama yöntemi, işlenen ürün başına birim hizmet fiyatının önceden anlaşmaya varıldığı tüm durumlara uygulanır.
 -   **Etkinlik süresine dayanan hesaplama** – Teorik etkinlik süreleri, etkinliğin işleme süresine, toplam işlenen miktara ve işlenen ürünün iş çıkarma yeteneği oranına dayanarak hesaplanır. Bu hesaplama yöntemi, saat başına ödeme yapılan hizmetlere uygulanır ve işlenmiş ürün içinde bir zaman farkı vardır.
 

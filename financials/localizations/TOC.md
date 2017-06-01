@@ -67,6 +67,7 @@
 ### [CODA banka ekstresi](emea-bel-coda-bank-statement-import.md)
 ### [Intervat vergi beyannamesi](emea-bel-intervat-tax-declaration.md)
 ### [PRODCOM raporu ayarı](emea-bel-prodcom-report.md)
+### [Mutabakat raporları](emea-bel-reconciliation-reports.md)
 
 ## Çek Cumhuriyeti
 ### [Alacak dekontunda nakit iskontosu](emea-cze-credit-note-cash-discount.md)
@@ -74,6 +75,7 @@
 ### [Amortisman bekletme](emea-cze-depreciation-suspension-holidays.md)
 ### [Sabit kıymetler amortismanı](emea-cze-fixed-assets-depreciation.md)
 ### [Yarı yıl amortismanı](emea-cze-half-depreciation-fixed-asset-disposal.md)
+### [Satış vergisi raporlama ](emea-cze-intra-community-vat-transactions.md)
 ### [KDV beyanı](emea-cze-vat-statement-details.md)
 ## Estonya
 ### [KDV beyanı](emea-est-vat-statement-details.md)

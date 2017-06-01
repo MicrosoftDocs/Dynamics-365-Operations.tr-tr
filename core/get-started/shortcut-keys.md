@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: ef434747c075a32887035fa1d3c0e6fecd4e0a0d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d146f3dfe1d71e8d3031a851f47fac35d0f1a58
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -68,7 +68,7 @@ Aşağıdaki klavye kısayolları tüm Microsoft Dynamics 365 for Operations gen
 | FactBox bölmesini açma (veya zaten açıksa odağı FactBox bölmesine taşıma) | Ctrl+F2                                   |
 | FactBox bölmesini kapatma (odak FactBox bölmesindeyken)                         | Esc                                       |
 | Sonraki/önceki FactBox'a gitme (odak FactBox bölmesindeyken)              | Alt+Shift+Aşağı Ok / Alt+Shift+Yukarı Ok |
-| &lt;n&gt;. sıradaki Bilgi Kutusuna gitme (odak FactBox bölmesindedir)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| Sonraki/önceki &lt;n&gt;. FactBox'a gitme (odak FactBox bölmesindeyken)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Bir FactBox'ı genişletme (odak FactBox başlığındayken)                             | Boşluk veya Enter                            |
 | Geçerli FactBox'ı daraltma                                                    | Alt+0                                     |
 
@@ -115,8 +115,8 @@ Aşağıdaki klavye kısayolları tüm Microsoft Dynamics 365 for Operations gen
 | Sonraki/önceki alana gitme                     | Tab / Shift+Tab                              |
 | Sonraki/önceki sekmesine gitme                       | Alt+Shift+Sağ Ok / Alt+Shift+Sol Ok |
 | Sonraki/önceki hızlı sekmeye gitme                   | Alt+Shift+Aşağı Ok / Alt+Shift+Yukarı Ok    |
-| &lt;n&gt;. sıradaki Hızlı Sekmeye gitme                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
-| &lt;n&gt;. sıradaki sekmeye gitme                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| &lt;n&gt;. hızlı sekmeye git                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| &lt;n&gt;. sıradaki sekmeye git                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Bir hızlı sekmeyi genişletme (odak hızlı şekme başlığındayken) | Boşluk veya Enter                               |
 | Geçerli hızlı sekmeyi daraltma                        | Alt+0                                        |
 | Kılavuz görünümüne geçme                                 | Ctrl+Shift+G                                 |

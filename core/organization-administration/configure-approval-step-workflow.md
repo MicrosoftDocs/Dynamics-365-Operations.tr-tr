@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 052cec3010c0d5ecbb9ed341fb23d0ec64682467
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 1924562f866ecdbb6fa6d3d0a9dc7627387f2d6a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -106,13 +106,11 @@ Onay adımının kime atanacağını belirtmek için şu adımları izleyin:
     <td>Belirli bir kuruluş hiyerarşisindeki kullanıcılar</td>
     <td><ol>
     <li><strong>Hiyerarşi türü</strong> listesindeki <strong>Hiyerarşi seçimi</strong> sekmesinde <strong>Hiyerarşi</strong>'yi seçtikten sonra, adımın atanacağı hiyerarşi türünü seçin.</li>
-    <li>Sistemin bu hiyerarşiden kullanıcı adları aralığını alması gerekir. Bu adlar, adımın atanabileceği kullanıcıları temsil eder. Sistemin alacağı adların aralığının başlangıç ve bitiş noktasını belirtmek için aşağıdaki adımları izleyin:
-    <ol>
+    <li>Sistemin bu hiyerarşiden kullanıcı adları aralığını alması gerekir. Bu adlar, adımın atanabileceği kullanıcıları temsil eder. Sistemin alacağı adların aralığının başlangıç ve bitiş noktasını belirtmek için aşağıdaki adımları izleyin: <ol>
     <li>Başlangıç noktasını belirtmek için, <strong>Buradan başla:</strong> listesinde bir kişi seçin.</li>
     <li>Bitiş noktasını belirtmek için <strong>Koşul ekle</strong>'yi tıklatın. Daha sonra, sistemin hiyerarşinin neresinde ad almayı durduracağını belirten bir koşul girin.</li>
     </ol></li>
-    <li><strong>Hiyerarşi seçenekleri</strong> sekmesinde, aralığın içindeki hangi kullanıcılara adımın atanması gerektiğini belirtin:
-    <ul>
+    <li><strong>Hiyerarşi seçenekleri</strong> sekmesinde, aralığın içindeki hangi kullanıcılara adımın atanması gerektiğini belirtin: <ul>
     <li><strong>Alınan tüm kullanıcılara ata</strong> – Adım, bu aralıktaki tüm kullanıcılara atanır.</li>
     <li><strong>Yalnızca alınan son kullanıcıya ata</strong> – Adım, yalnızca aralıktaki son kullanıcıya atanır.</li>
     <li><strong>Aşağıdaki koşul ile kullanıcıları dışarıda bırakmak</strong> – Adım, aralıkta belirli bir koşulu yerine getiren herhangi bir kullanıcıya atanmaz. Koşulu belirtmek için <strong>Koşul ekle</strong>'yi tıklatın.</li>
@@ -211,13 +209,11 @@ Eğer bir kullanıcı bu zaman içerisinde bir belge üzerinde eyleme geçmezse,
     <td>Belirli bir kuruluş hiyerarşisindeki kullanıcılar</td>
     <td><ol>
     <li><strong>Hiyerarşi türü</strong> listesindeki <strong>Hiyerarşi seçimi</strong> sekmesinde <strong>Hiyerarşi</strong>'yi seçtikten sonra, belgenin ilerletileceği hiyerarşi türünü seçin.</li>
-    <li>Sistemin bu hiyerarşiden kullanıcı adları aralığını alması gerekir. Bu adlar belgenin ilerletilebileceği kullanıcıları temsil eder. Sistemin alacağı adların aralığının başlangıç ve bitiş noktasını belirtmek için aşağıdaki adımları izleyin:
-    <ol>
+    <li>Sistemin bu hiyerarşiden kullanıcı adları aralığını alması gerekir. Bu adlar belgenin ilerletilebileceği kullanıcıları temsil eder. Sistemin alacağı adların aralığının başlangıç ve bitiş noktasını belirtmek için aşağıdaki adımları izleyin: <ol>
     <li>Başlangıç noktasını belirtmek için, <strong>Buradan başla:</strong> listesinde bir kişi seçin.</li>
     <li>Bitiş noktasını belirtmek için <strong>Koşul ekle</strong>'yi tıklatın. Daha sonra, sistemin hiyerarşinin neresinde ad almayı durduracağını belirten bir koşul girin.</li>
     </ol></li>
-    <li><strong>Hiyerarşi seçenekleri</strong> sekmesinde, aralığın içindeki hangi kullanıcılara belgenin ilerletilmesi gerektiğini belirtin:
-    <ul>
+    <li><strong>Hiyerarşi seçenekleri</strong> sekmesinde, aralığın içindeki hangi kullanıcılara belgenin ilerletilmesi gerektiğini belirtin: <ul>
     <li><strong>Alınan tüm kullanıcılara ata</strong> – Belge bu aralıktaki tüm kullanıcılara ilerletilir.</li>
     <li><strong>Yalnızca alınan son kullanıcıya ata</strong> – Belge yalnızca aralıktaki son kullanıcıya ilerletilir.</li>
     <li><strong>Aşağıdaki koşul ile kullanıcıları dışarıda bırakmak</strong> – Belge, aralıkta belirli bir koşulu yerine getiren herhangi bir kullanıcıya ilerletilmez. Koşulu belirtmek için <strong>Koşul ekle</strong>'yi tıklatın.</li>

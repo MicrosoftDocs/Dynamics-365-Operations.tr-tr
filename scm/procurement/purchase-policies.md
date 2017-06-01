@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
 audience: Application User
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 3df3144b08c54441699d9c0b48fe507857877586
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5208dc64d86345de4e53c5e293fbc861351a63ef
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -59,6 +59,7 @@ Tüzel kişilik 2222 personeli bir satınalma talebi oluşturduğunda, ilke kura
 
 Önceki örnekte, tüm satın alma kuralları tek bir organizasyon hiyerarşisinde, yani Şirketler organizasyon hiyerarşisine tanımlandı. Ancak, kapsamlı bir organizasyon birden fazla organizasyon hiyerarşisi için politikalar tanımlayabilir.  
 
+
 Contoso, talep oluşturma sürecini kontrol etmek için kapsamlı satın alma kuralları oluşturması gereken, büyük bir şirkettir. Contoso biri Departman ve diğeri Küresel satın alma kontrolü olmak üzere iki farklı organizasyon hiyerarşisi için kurallar tanımlamıştır.  
 
 Politika 123, İngiltere Satışları – Satış Departmanı için Departman organizasyon hiyerarşisi için tanımlanmıştır. 123 politikasında satın alma talebi kontrol kuralı, minimum sipariş miktarları için mutlaka uygulanması gereken kısıtlamaları belirler. Bu kuralda **Minimum sipariş miktarı kısıtlamalarını uygula** seçimi yapılmıştır.  
@@ -93,6 +94,9 @@ Kategori politika kuralı, kullanıcıların her bir kategori için satıcılar�
 ### <a name="re-approval-rule-for-purchase-orders"></a>Satın alma emirleri için yeniden onaylama kuralı
 
 Yeniden onaylama, bir satın alma emri değiştirildiğinde yeniden onay gerektiren kriterleri tanımlayan, isteğe bağlı bir kuraldır. İş akışında "Satın alma emri yeniden onayı gerekiyor" koşulu ayarlandığında seçilen alanlar satın alma emri iş akışında değerlendirilir.
+
+> [!NOTE]
+> Muhasebe dağıtımı, değişim yönetimi etkinleştirilmiş bir onaylanmış bir satınalma siparişi değiştirildiğinde her zaman sıfırlanacaktır. Yani, belirli alanlar değiştirildiğinde satınalma siparişinin yeniden onaylanmasını önlemek istiyorsanız, alan Muhasebe dağıtımı.değişiklik yeniden onay için seçilmiş bir alan olarak dahil EDİLMEMELİDİR: 
 
 ### <a name="purchase-requisition-rfq-rule"></a>Satın alma talebi RFQ kuralı
 

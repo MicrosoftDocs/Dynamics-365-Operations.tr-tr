@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 335a0d7ca466028e8b157cb4e04df7d0f4880e73
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5726a6fc60977a82b49e00ca653696e4051cbb10
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -474,7 +474,7 @@ Etiket ve Açıklama alanları, biçimin dil ayarlarına göre çalışma zaman�
 </tr>
 <tr class="even">
 <td>FORMAT (dize 1, dize 2[, dize 3, ...])</td>
-<td>Tüm <strong>%N</strong> oluşumlarını <em>n</em>'inci bağımsız değişken ile değiştirilmiş belirtilen dizeyi döndür. Bağımsız değişkenler, dizelerdir. Bir parametre için bir bağımsız değişken sağlanmamışsa, parametre izede <strong>&quot;%N&quot;</strong> olarak döndürülür. <strong>gerçek</strong> türün değerleri için, dize dönüşümü iki ondalık basamakla sınırlıdır.</td>
+<td>Tüm <strong>%N</strong> oluşumlarını <em>n</em>'ci bağımsız değişken ile değiştirilmiş belirtilen dizeyi döndür. Bağımsız değişkenler, dizelerdir. Bir parametre için bir bağımsız değişken sağlanmamışsa, parametre izede <strong>&quot;%N&quot;</strong> olarak döndürülür. <strong>gerçek</strong> türün değerleri için, dize dönüşümü iki ondalık basamakla sınırlıdır.</td>
 <td>Bu örnekte, <strong>PaymentModel</strong> veri kaynağı müşteri kayıtlarının listesini <strong>Müşteri</strong> bileşeni ve işleme tarihi değerini <strong>ProcessingDate</strong> alan üzerinden verir. <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> Seçilen müşteriler için elektronik dosya oluşturmak üzere tasarlanmış ER biçiminde veri kaynağı olarak <strong>PaymentModel</strong> seçilir ve işlem akışını denetler. Seçilmiş bir müşteri, raporun işlendiği tarihte durdurulmuşsa, son kullanıcılar için bir özel durum oluşturulur. Bu tür bir işleme denetimi için tasarlanmış formül aşağıdaki kaynakları kullanabilir:
 <ul>
 <li>Aşağıdaki metne sahip Dynamics 365 for Operations SYS70894 etiketi:
