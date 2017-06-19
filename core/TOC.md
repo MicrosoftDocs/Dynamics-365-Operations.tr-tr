@@ -1,34 +1,34 @@
 # [Giriş](index.md)
 
-# [Dynamics 365 for Operations'da kullanıcı kazanma](get-started/onboarding-home.md)
-## Dynamics 365 for Operations'a giriş
-### [Dynamics 365 için Microsoft FastTrack kullanmaya başlama](get-started/fasttrack-dynamics-365-overview.md)
-### [Bir aboneliğe kaydolma](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/operations/toc.json)
-### [Dynamics AX 2012'nin şirket içi sürümünü edinme](/dynamics365/operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/operations/toc.json)
-## [Tanıtım ortamını dağıtma](/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/operations/toc.json)
+# [Finance and Operations'ta işe alma](get-started/onboarding-home.md)
+## Finance and Operations'a giriş
+### [Microsoft FastTrack for Dynamics 365 kullanmaya başlama](get-started/fasttrack-dynamics-365-overview.md)
+### [Bir aboneliğe kaydolma](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Dynamics AX 2012'nin şirket içi sürümünü edinme](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+## [Tanıtım ortamını dağıtma](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Kullanıcı arabirimini keşfetme
-### [Eylem araması](get-started/action-search.md)
+### [Eylem arama](get-started/action-search.md)
 ### [Gelişmiş filtreleme ve sorgu sözdizimi](get-started/advanced-filtering-query-options.md)
-### [Dynamics 365 for Operations istemcisi hakkında SSS](get-started/client-faq.md)
-### [Çalışma alanlarını yapılandırma ve filtreleme](get-started/configure-filter-workspaces.md)
+### [Finance and Operations istemcisiyle ilgili SSS](get-started/client-faq.md)
+### [Çalışma alanlarını konfigüre etme ve filtreleme](get-started/configure-filter-workspaces.md)
 ### [Yeni Pencerede Aç simgesini kullanarak sayfaları yan yana görüntüleme](get-started/display-pages-side-by-side.md)
 ### [Gezinti araması](get-started/navigation-search.md)
 ### [Kullanıcı deneyimini kişiselleştirme](get-started/personalize-user-experience.md)
 ### [Klavye kısayolları](get-started/shortcut-keys.md)
 ### [Sayfaların nasıl görüntüleneceğini yönetme](get-started/window-management.md)
-### [Lifecycle Services'ı anlama](/dynamics365/operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/operations/toc.json)
+### [Lifecycle Services'ı anlama](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## Yardım ve destek alma
-### [Yardıma genel bakış](/dynamics365/operations/dev-itpro/get-started/help-overview?toc=/dynamics365/operations/toc.json)
-### [Yardım'a bağlanma](/dynamics365/operations/dev-itpro/get-started/help-connect?toc=/dynamics365/operations/toc.json)
+### [Yardıma genel bakış](/dynamics365/unified-operations/dev-itpro/get-started/help-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+### [Yardım'a bağlanma](/dynamics365/unified-operations/dev-itpro/get-started/help-connect?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [Alan açıklamalarını görüntüleme ve dışa aktarma](get-started/view-export-field-descriptions.md)
 
 ### Görev kılavuzları ve görev kaydedici
-#### [Görev Kaydedici](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
-#### [Belge veya eğitim oluşturma](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
+#### [Görev Kaydedici](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [Belge veya eğitim oluşturma](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
-## [Ülkeye/bölgeye özgü Yardım içeriği](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/toc.json)
+## [Ülkeye/bölgeye özgü Yardım içeriği](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 # [Kuruluşunuzu yapılandırma](organization-administration/organization-administration-home-page.md)
 ## [Kuruluşlar ve kuruluş hiyerarşileri](organization-administration/organizations-organizational-hierarchies.md)
@@ -63,17 +63,17 @@
 ## [İleti işleme toplu işini yapılandırma](organization-administration/workflow-batch-job-critical.md)
 ## [İş akış türleri raporu](organization-administration/workflow-types-report.md)
 
-# [Finansal öğeler](/dynamics365/operations/financials/index)
+# [Mali öğeler](/dynamics365/unified-operations/financials/index)
 
-# [İnsan kaynakları](/dynamics365/operations/human-resources/index)
+# [İnsan kaynakları](/dynamics365/unified-operations/talent/index)
 
-# [Perakende](/dynamics365/operations/retail/index)
+# [Perakende](/dynamics365/unified-operations/retail/index)
 
-# [Tedarik zinciri yönetimi](/dynamics365/operations/supply-chain/index)
+# [Tedarik zinciri yönetimi](/dynamics365/unified-operations/supply-chain/index)
 
-# [Geliştirici ve Yönetici](/dynamics365/operations/dev-itpro/index)
+# [Geliştirici ve Yönetici](/dynamics365/unified-operations/dev-itpro/index)
 
 # Diğer kaynaklar
-## [Dynamics 365 for Operations sözlüğü](get-started/glossary.md)
-## [Yenilikler veya değişenler](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/toc.json)
+## [Finance and Operations sözlüğü](get-started/glossary.md)
+## [Yenilikler veya değişenler](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 

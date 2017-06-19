@@ -20,5 +20,6 @@
 ## [Kalite yönetimi işlemi](quality-management-processes.md)
 # Madde ve toplu iş izleme
 ## [Stok toplu iş birleştirme](merge-inventory-batches.md)
-## [Madde ve hammadde izleme](trace-items-raw-materials-inventory-production-sales.md)
+## [Madde ve ham madde izleme](trace-items-raw-materials-inventory-production-sales.md)
+## [Satış işleminde seri numarasını kaydetme](../sales-marketing/register-serial-numbers-sales-process.md)
 

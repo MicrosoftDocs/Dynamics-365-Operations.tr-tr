@@ -1,4 +1,4 @@
-# [Yerelleştirmeye genel bakış](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/financials/toc.json)
+# [Yerelleştirmeye genel bakış](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/financials/toc.json)
 # Asya Pasifik
 ## Avustralya
 ### [Banka dosyası biçimleri](apac-aus-method-of-payment-pay-vendors-banks.md)
@@ -54,6 +54,7 @@
 ## [Sabit kıymetin ön alımını deftere nakletme](emea-pre-acquisition-acquisition-fixed-asset.md)
 ## [Posta kodları](emea-import-create-postal-codes-manually.md)
 ## [Kayıt kodları](emea-registration-ids.md)
+## [Ters gider KDV'si](emea-reverse-charge.md)
 ## [SEPA Alacak transferine genel bakış](../accounts-payable/sepa-credit-transfer.md)
 ## [SEPA Hesaptan ödemeye genel bakış](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Basılı formlar için imzalayanları ayarlama](emea-set-up-signers-for-printing-forms.md)
@@ -98,7 +99,7 @@
 ### [Günlük listesi raporu](emea-deu-journal-list-report.md)
 ### [Satışlardan kaynaklanan alacak faturaları için ayrı bir etiket yazdırma](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Macaristan
-### [Sabit kıymet amortisman yöntemleri](emea-hun-fixed-assets-depreciation-methods.md)    
+### [Sabit kıymet amortisman yöntemleri](emea-hun-fixed-assets-depreciation-methods.md)   
 ### [Düşük maliyetli sabit kıymetler](emea-hun-low-cost-fixed-assets.md)
 ### [Sabit kıymeti stoka taşıma](emea-hun-fixed-asset-to-inventory.md)
 ## İtalya
@@ -138,6 +139,7 @@
 ### [Sabit kıymet grubu yeniden değerlemesi](emea-esp-fixed-asset-group-revaluation.md)
 ### [Topluluk içi KDV](emea-esp-intra-community-vat.md)
 ### [Tek seferlik müşteriler](emea-esp-no-one-time-customer-for-project-contracts.md)
+### [İspanyolca düzene sahip çekleri yazdırma](emea-esp-print-checks-with-spanish-layout.md)
 ### [Senet seçenekleri](emea-esp-promissory-note-options.md)
 ### [Satış ve satınalma döngüleri](emea-esp-sales-purchase-cycle.md)
 ### [Özel girişler ve açılış tabloları](emea-esp-opening-sheets-spain.md)
@@ -153,7 +155,9 @@
 ### [Mali defterler](latam-bra-fiscal-books.md)
 #### [ICMS vergisi mali belgeleri](latam-bra-icms-tax-fiscal-documents.md)
 #### [Mali belgeleri içe aktarma](latam-bra-import-fiscal-documents.md)
+#### [Genel muhasebe konsolidasyonunundaki tüzel kişilik hareketlerini dışa ve içe aktarma](latam-bra-general-ledger-consolidation-transactions.md)
 #### [NF-e XML belgelerini ve DANFE dosyalarını içe aktarma ve doğrulama](latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
+#### [Elektronik ödeme havalelerini işleme](latam-bra-process-electronic-payment-remittances.md)
 #### [Mali belgeler](latam-bra-fiscal-documents-fiscal-document-framework.md)
 #### [Mali belge metni yer tutucuları](latam-bra-fiscal-document-text-placeholders.md)
 #### [Satınalma tamamlayıcı mali belgeleri](latam-bra-purchase-complementary-fiscal-documents.md)
@@ -163,6 +167,8 @@
 ### [Elektronik ödeme iade işlemi sırasında oluşturulan günlükler](latam-bra-examples-journals-generated-electronic-payment-return-process.md)
 ### [NF-e işlemi](latam-bra-nf-e-process.md)
 ### [Tüzel kişilikler için parametreler](latam-bra-legal-entity-parameters.md)
+### [CIAP sabit kıymeti alma](latam-bra-ciap-fixed-asset.md)
+### [Bir CIAP sabit kıymetini elden çıkarma](latam-bra-ciap-fixed-asset.md)
 ### [Vergiler](latam-bra-calculate-taxes.md)
 #### [Vergi öznitelikleri](latam-bra-tax-attributes.md)
 #### [Vergi ödemeleri](latam-bra-tax-payments.md)

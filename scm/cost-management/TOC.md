@@ -1,5 +1,5 @@
 # Power BI içerik paketi
-## [Maliyet yönetimi içerik paketi](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+## [Maliyet yönetimi içerik paketi](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 # Önceden belirlenmiş maliyet
 ## [Maliyetlendirme tablosu](costing-sheets.md)
 ## [Maliyetlendirme sürümü](costing-versions.md)
