@@ -3,7 +3,7 @@ title: "Sipariş girişi sırasında ürünleri ve ürün çeşitlerini arama"
 description: "Satış veya satınalma siparişi satırını el ile oluşturduğunuzda ürünleri ve ürün çeşitlerini aramak için <strong>Madde numarası </strong>alanını kullanın.  Bu, yalnızca yapılandırma dizesine sahip olduğunuzda veya ürün boyutlarından biri kullanılabilir olduğunda ürün çeşitlerini hızlı bir şekilde bulmanızı sağlar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

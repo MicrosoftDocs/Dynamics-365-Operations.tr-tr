@@ -3,7 +3,7 @@ title: "İskonto tarihinden önce bir kısmi müşteri ödemesini ve nihai ödem
 description: "Bu makalede, bir müşteri için nasıl kısmi ödeme kaydı yapılacağına ve nakit indirimi periyodu içinde nakit indirimler alınacağına yönelik senaryolar verilmektedir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

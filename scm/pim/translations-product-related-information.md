@@ -3,7 +3,7 @@ title: "Ürünle ilgili çeviriler hakkında SSS"
 description: "Bu konuda, ürünler, ürün boyut değerleri ve ürün öznitelikleri için çevirilerin nasıl yönetileceğini açıklanır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

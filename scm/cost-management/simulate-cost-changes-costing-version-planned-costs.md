@@ -3,7 +3,7 @@ title: "Planlanan maliyetler için bir maliyetlendirme sürümü kullanarak mali
 description: "Bu makalede, mamul bir maddenin hesaplanan maliyetlerindeki maliyet değişikliklerinin etkisinin benzetimini, planlanan maliyetler için ayrı bir maliyetlendirme sürümüyle nasıl yapabileceğiniz açıklanmaktadır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

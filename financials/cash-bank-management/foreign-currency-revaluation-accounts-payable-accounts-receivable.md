@@ -3,7 +3,7 @@ title: "Borç hesapları ve Alacak hesapları için yabancı para biriminde yeni
 description: "Döviz kuru dalgalanmaları, yabancı para birimlerindeki açık hareketlerin teorik değerinin (defter değerinin) zaman içinde değişmesine neden olur. Bu makalede, Borç hesapları ve Alacak hesaplarındaki açık hareketlerin değerini güncelleştirmek için çalıştırdığınız yabancı para birimi yeniden değerleme işlemi hakkında bilgiler verilmektedir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

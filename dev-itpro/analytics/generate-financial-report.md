@@ -3,7 +3,7 @@ title: "Bir mali rapor oluştur"
 description: "Bu konu mali rapor oluşturma hakkında bilgi sağlar."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

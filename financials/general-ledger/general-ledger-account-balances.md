@@ -3,7 +3,7 @@ title: Genel defter hesap bakiyeleri
 description: "Bu makalede, genel muhasebe hesabı bakiyelerini görüntülemek için kullanılan iki yöntem açıklanmaktadır -  Mizan listesi sayfası ve mali raporlar. Makalede, boyut kümesi bakiyelerinin nasıl güncelleştirileceği de ele alınmaktadır."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

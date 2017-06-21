@@ -3,7 +3,7 @@ title: "Ürün reçetesi hesaplamaları grupları"
 description: "Bu makalede, ürün reçeteleri için hesaplama grupları ve bunların nasıl ayarlanacağı hakkında bilgi verilmektedir. Bir ürün reçetesi hesaplaması çalıştırmak için ya hesaplama grupları ayarlamalı ve bunları tek tek maddelere atamalısınız ya da varsayılan bir hesaplama grubu ayarlamalısınız. Ardından, hesaplama grubundaki hesaplama ayarları, ürün reçetesi hesaplaması sayfasında ürün reçetesi hesaplamasında varsayılan değerler olarak kullanılır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

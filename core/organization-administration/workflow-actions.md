@@ -3,7 +3,7 @@ title: "İş akışı eylemleri"
 description: "Bu makalede, onay bir iş akışı onay sürecindeki her katılımcının gerçekleştirebileceği eylemler açıklanmaktadır."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

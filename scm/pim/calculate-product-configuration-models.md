@@ -3,7 +3,7 @@ title: "Ürün yapılandırma modeli için hesaplamalar SSS"
 description: "Bu makale ürün yapılandırma modelleriyle ilgili hesaplamaları açıklar ve hesaplamalar kısıtlamaları ile birlikte kullanılmasını açıklar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

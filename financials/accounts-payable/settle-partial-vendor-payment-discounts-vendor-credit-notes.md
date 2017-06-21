@@ -3,7 +3,7 @@ title: "Satıcı alacak dekontlarında iskontolar içeren bir kısmi satıcı ö
 description: "Bu makalede bir faturaya karşılık bir alacak dekontunun kapanışın yapıldığı bir senaryoda size eşlik edilmektedir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

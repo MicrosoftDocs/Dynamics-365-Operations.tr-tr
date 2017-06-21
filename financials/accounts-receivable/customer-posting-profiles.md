@@ -3,7 +3,7 @@ title: "Müşteri deftere nakil profilleri"
 description: "Müşteri deftere nakil profilleri, müşteri hareketlerinin genel muhasebeye naklini kontrol eder."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

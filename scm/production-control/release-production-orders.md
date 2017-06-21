@@ -3,7 +3,7 @@ title: "Üretim emirlerini serbest bırakma"
 description: "Serbest bırakılmış bir üretim emri, üretim için yetkilendirilmiş bir emirdir. Serbest bırakılmış terimi, üretim emri yaşam döngüsünde, üretim emrinin üretim atölye katında uygulamaya geçirilmeye ve ambar işlemlerine hazır olduğu bir durumu ifade eder."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

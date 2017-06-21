@@ -3,7 +3,7 @@ title: "Üretimin deftere nakli"
 description: "Bu makale üretim sürecindeki farklı türdeki nakiller hakkında bilgi sağlar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

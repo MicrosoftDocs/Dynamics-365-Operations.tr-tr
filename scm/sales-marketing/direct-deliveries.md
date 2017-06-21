@@ -3,7 +3,7 @@ title: "Doğrudan teslimatlar"
 description: "Bu makale, doğrudan teslimler hakkında genel bilgiler sağlar. Müşterinize doğrudan satıcı tarafından gönderilen teslimatlar, doğrudan teslimatlardır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

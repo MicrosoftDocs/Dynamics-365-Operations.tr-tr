@@ -3,7 +3,7 @@ title: "Borç hesapları giriş sayfası"
 description: "Bu konu, Borç hesapları konusuna genel bir bakış sağlar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

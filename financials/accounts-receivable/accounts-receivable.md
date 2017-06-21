@@ -3,7 +3,7 @@ title: "Alacak hesapları giriş sayfası"
 description: "Müşteri faturalarını ve gelen ödemeleri izlemek için Alacak hesaplarını kullanın."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

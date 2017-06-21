@@ -3,7 +3,7 @@ title: "İş planlama çizelgeleme"
 description: "Bu makale, operasyon planlamasından daha ayrıntılı bir planlama biçimi olan iş planlaması hakkında bilgi sağlar. İşleri veya mağaza siparişlerini tek tek programlamak ve üretim ortamını kontrol etmek için iş planlamayı kullanabilirsiniz."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

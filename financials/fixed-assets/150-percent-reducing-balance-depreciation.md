@@ -3,7 +3,7 @@ title: "Yüzde 150 azalan bakiyeli amortisman"
 description: "Bu makale, amortismanın Yüzde 150 Azalan bakiye yöntemi hakkında genel bir bakış sağlar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

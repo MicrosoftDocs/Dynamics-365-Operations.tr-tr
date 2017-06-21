@@ -3,7 +3,7 @@ title: "Tedarik ve kaynak atama genel özeti"
 description: "Bu makalede, Tedarik ve kaynak atama modülündeki kullanılabilir işlevlere genel bakış sağlar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

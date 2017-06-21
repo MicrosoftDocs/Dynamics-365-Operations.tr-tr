@@ -3,7 +3,7 @@ title: "Tüketim esasına göre amortisman"
 description: "Bu makalede, amortismanın Tüketim yöntemi hakkında genel bir bakış verilmektedir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

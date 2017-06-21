@@ -3,7 +3,7 @@ title: Proje faturalama
 description: "Bu makalede, Zaman ve malzeme projeleri ve Sabit fiyatlı projeler için proje faturalamaya genel bir bakış verilmektedir. Fatura teklifleri (ön faturalar), fatura kontrolü, hesaba mahsup faturalama, satıcı faturalama ve hakkındaki bilgileri içerir ve alacak dekontları hakkında bilgiler içermektedir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

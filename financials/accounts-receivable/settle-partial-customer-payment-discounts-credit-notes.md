@@ -1,9 +1,9 @@
 ---
 title: "Alacak dekontlarında iskontolar içeren bir kısmi müşteri ödemesini kapatma"
-description: "Bu makalede orijinal fatura da bir nakit iskontosu içeriyorken bir credit note&quot;a nakit iskontosunun uygulandığı bir senaryo açıklanmıştır."
+description: "Bu makalede orijinal fatura da bir nakit iskontosu içeriyorken bir credit note'a nakit iskontosunun uygulandığı bir senaryo açıklanmıştır."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

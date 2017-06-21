@@ -1,9 +1,9 @@
 ---
 title: "Yeni veya güncelleştirilmiş Görev kılavuzları (Kasım 2016)"
-description: "Bu konu, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı&quot;nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır."
+description: "Bu konu, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

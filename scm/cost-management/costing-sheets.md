@@ -3,7 +3,7 @@ title: "Maliyetlendirme tabloları"
 description: "Maliyetlendirme tablosunun kurulumu için iki hedef gerekir. İlk hedef olarak, üretilmiş bir madde veya üretim emri hakkındaki satılan malların maliyetini görüntüleme biçimini tanımlarsınız. Biçimlendirilmiş görüntüye maliyetlendirme tablosu adı verilir. İkinci hedef olarak, dolaylı maliyetleri hesaplama temelini tanımlarsınız. Maliyetlendirme tablosu kurulumu, bilgi görüntüleme ve dolaylı maliyet hesaplama formülleri için maliyet grubu özelliğini temel alır. Bu makalede maliyetlendirme tablosu kurulumunun iki hedefi açıklanmıştır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

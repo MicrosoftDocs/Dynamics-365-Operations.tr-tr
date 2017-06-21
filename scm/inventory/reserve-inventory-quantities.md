@@ -3,7 +3,7 @@ title: "Stok miktarlarını rezerve etme"
 description: "Bu konu stok rezervasyonunda kullanılabilen farklı seçenekleri açıklar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

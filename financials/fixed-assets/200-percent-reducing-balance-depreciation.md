@@ -3,7 +3,7 @@ title: '%200 azalan bakiyeli amortisman'
 description: "Bu makalede, yüzde 200 amortisman bilanço azaltma yöntemine genel bakış sunulmuştur."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

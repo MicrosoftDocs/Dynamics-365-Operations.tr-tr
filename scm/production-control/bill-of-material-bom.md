@@ -1,9 +1,9 @@
 ---
 title: "Ürün reçeteleri ve formüller"
-description: "Bu makale, ürün ve ürün çeşitleri tanımlarının merkezi bir parçası olan ürün reçeteleri (BOM&quot;lar) ve formüller hakkında bilgi sağlar. BOM&quot;lar ve formüller, belirli bir ürünün ihtiyaç duyulan malzemelerini veya içerikleri belirtir. Formüller ayrıca belirli üretim bağlamında alınan yan ürünleri ve ortak ürünleri de belirtir."
+description: "Bu makale, ürün ve ürün çeşitleri tanımlarının merkezi bir parçası olan ürün reçeteleri (BOM'lar) ve formüller hakkında bilgi sağlar. BOM'lar ve formüller, belirli bir ürünün ihtiyaç duyulan malzemelerini veya içerikleri belirtir. Formüller ayrıca belirli üretim bağlamında alınan yan ürünleri ve ortak ürünleri de belirtir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

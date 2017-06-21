@@ -3,7 +3,7 @@ title: "Üretim emri maliyet analizi"
 description: "Bu makalede, tamamlanmış ve geçerli üretim emirleri için yapabileceğiniz maliyet analizi hakkında bilgiler sağlanmıştır. Tahmini maliyetleri ve gerçek maliyetleri Fiyat hesaplaması sayfasını veya Maliyet tahminleri ve maliyetlendirmeler raporunu kullanarak analiz edebilirsiniz. Her bir bileşen maddesine, rota operasyonuna ve dolaylı maliyete yönelik tahmini ve gerçek maliyetler (ve miktar) hakkındaki bilgileri görüntüleyebilirsiniz."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

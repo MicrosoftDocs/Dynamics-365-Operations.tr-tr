@@ -1,9 +1,9 @@
 ---
-title: "Dynamics AX 7.0&quot;daki yenilikler ve değişiklikler (Şubat 2016)"
-description: "Bu makalede, Microsoft Dynamics AX 7.0&quot;da yeni olan veya değişen özellikler açıklanır. Bu sürüm, platform ve uygulama özellikleri içerir ve Şubat 2016&quot;da yayımlanmıştır."
+title: "Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)"
+description: "Bu makalede, Microsoft Dynamics AX 7.0'da yeni olan veya değişen özellikler açıklanır. Bu sürüm, platform ve uygulama özellikleri içerir ve Şubat 2016'da yayımlanmıştır."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

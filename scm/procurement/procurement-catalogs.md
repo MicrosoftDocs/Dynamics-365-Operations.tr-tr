@@ -3,7 +3,7 @@ title: "Tedarik katalogları"
 description: "Bu makalede yüksek bir düzeyde, satın alma uzmanlarının satın alma kataloglarını nasıl kurabilecekleri ve tutabilecekleri açıklanmıştır. Tedarik katalogları, şirket çalışanlarının şirket içi kullanım için sipariş edebileceği maddeleri ve hizmetleri tanımlar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

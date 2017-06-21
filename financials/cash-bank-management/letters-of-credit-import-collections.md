@@ -3,7 +3,7 @@ title: "Kredi mektupları ve ithalat tahsilatları"
 description: "Bu makalede, kredi mektupları ve ithalat tahsilatları hakkında genel bilgiler verilmektedir. Her iki banka belgesi sıklıkla uluslararası mal alım satımı için kullanılır."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

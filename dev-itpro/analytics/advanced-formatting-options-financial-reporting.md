@@ -3,7 +3,7 @@ title: "Finansal raporlamada gelişmiş biçimlendirme seçenekleri"
 description: "Finansal raporlamada bir rapor oluşturduğunuzda, ek biçimlendirme işlevleri mevcuttur; boyutlar için filtreler, sütunlar ve raporlama birimleri için kısıtlamalar, yazdırılmayan satırlar ve hesaplamalarda THEN/IF/ELSE deyimleri de dahil olmak üzere."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

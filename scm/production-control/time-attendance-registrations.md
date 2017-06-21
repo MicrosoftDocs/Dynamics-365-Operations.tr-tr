@@ -3,7 +3,7 @@ title: "Saat ve işe devam durumu kaydı"
 description: "Zaman kayıt çalışanları, örneğin giriş saati, çıkış saati, dolaylı faaliyetlerin kaydı ve devamsızlık kaydı gibi farklı türlerde zaman kayıtları girebilirler. Bu makalede kayıtlar, bunların hesaplanması, onaylanması ve zaman çizelgelerinin onaylanması sürecine yapı ve otomatik onay eklenmesi için iş akışının kullanımı hakkında bilgiler verilmiştir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

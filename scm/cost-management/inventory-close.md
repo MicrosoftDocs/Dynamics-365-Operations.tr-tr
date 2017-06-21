@@ -3,7 +3,7 @@ title: "Stok kapanışı"
 description: "Çıkış hareketlerinin giriş hareketleriyle kapatılması sürecinin bir parçası olarak, genel defterin yapılan düzenlemeleri yansıtacak şekilde güncellenmesini seçebilirsiniz."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

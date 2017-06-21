@@ -3,7 +3,7 @@ title: Master planlar
 description: "Şirketinizin günlük çalışma faaliyetlerini desteklemek, izlemek istediğiniz farklı planlama stratejilerinin benzetimini gerçekleştirmek ve dahili performans veya müşteri memnuniyetiyle ilgili şirket politikası uygulamak için çeşitli master planlar kullanın."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

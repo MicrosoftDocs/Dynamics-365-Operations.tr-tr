@@ -3,7 +3,7 @@ title: "Üretim emri durumunu tersine çevirme"
 description: "Bu konuda, üretim emri durumunun tersine çevrilmesi açıklanmaktadır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

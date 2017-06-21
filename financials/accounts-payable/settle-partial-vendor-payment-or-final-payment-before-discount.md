@@ -3,7 +3,7 @@ title: "İskonto tarihinden önce bir kısmi satıcı ödemesini ve nihai ödeme
 description: "Bu makale size, satıcı faturası için kısmi ödemelerin yapıldığı ve nakit iskontosunun alındığı bir senaryo sunar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

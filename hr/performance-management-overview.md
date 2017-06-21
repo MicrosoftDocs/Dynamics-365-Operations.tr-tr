@@ -3,10 +3,10 @@ title: "Performans yönetimine genel bakış"
 description: "Performans yönetimi işlemi, personelin performanslarını belgelendirmelerini ve yöneticileriyle tartışmalarını sağlar. Bu sayede, yöneticiler de personele geri bildirim ve kılavuzluk sağlayabilir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma

@@ -1,9 +1,9 @@
 ---
-title: "Dynamics AX uygulama sürümü 7.0.1&quot;deki yenilikler ve değişiklikler (Mayıs 2016)"
-description: "Bu makale, Microsoft Dynamics AX uygulamasının sürüm 7.0.1&quot;inde yeni olan veya değişen özellikleri açıklar. Bu sürüm Mayıs 2016 tarihinde yayımlanmıştır ve 7.0.1265.23014 yapım numarasına sahiptir."
+title: "Dynamics AX uygulama sürümü 7.0.1'deki yenilikler ve değişiklikler (Mayıs 2016)"
+description: "Bu makale, Microsoft Dynamics AX uygulamasının sürüm 7.0.1'inde yeni olan veya değişen özellikleri açıklar. Bu sürüm Mayıs 2016 tarihinde yayımlanmıştır ve 7.0.1265.23014 yapım numarasına sahiptir."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

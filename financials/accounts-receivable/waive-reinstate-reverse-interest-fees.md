@@ -3,7 +3,7 @@ title: "Faiz ve ücretlerden feragat etme, bunları eski durumuna getirme veya t
 description: "Bu makale, faiz ve masraflar için giderlerden nasıl feragat edileceğini, giderlerin nasıl eski durumuna getirileceğini ve tersine çevrileceğini açıklar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

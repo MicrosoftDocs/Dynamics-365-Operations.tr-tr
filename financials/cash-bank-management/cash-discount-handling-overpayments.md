@@ -3,7 +3,7 @@ title: "Fazla ödemeler için nakit iskontolarını işleme"
 description: "Bu makale, bir müşteri nakit iskontosu alıp aynı zamanda fazla ödeme yaparsa, bunun nasıl işlendiğini gösteren senaryoyu sağlar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

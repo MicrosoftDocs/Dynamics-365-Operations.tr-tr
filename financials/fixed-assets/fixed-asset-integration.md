@@ -3,7 +3,7 @@ title: "Sabit kıymet tümleştirmesi"
 description: "Sabit kıymetler Genel muhasebe, Stok yönetimi, Alacak hesapları ve Borç hesapları ile entegre olabilir. Sabit kıymetleri satınalma emirleri ile entegre olacak biçimde de ayarlayabilirsiniz."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

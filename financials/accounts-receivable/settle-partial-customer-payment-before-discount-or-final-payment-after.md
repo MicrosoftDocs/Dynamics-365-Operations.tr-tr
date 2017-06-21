@@ -3,7 +3,7 @@ title: "Kısmi müşteri ödemesini iskonto tarihinden önce, iskonto tarihinden
 description: "Bu makalede müşteriler için ödemelerin kapatılmasının faturalar üzerindeki etkisi tartışılmıştır. Senaryo, Genel muhasebeye değil, yardımcı deftere etkileri üzerinde durmaktadır."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
