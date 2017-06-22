@@ -1152,7 +1152,7 @@
 ##### [Genişletilmiş bir denetim oluşturma](/dynamics365/unified-operations/dev-itpro/user-interface/build-extensible-control?toc=/dynamics365/unified-operations/financials/toc.json)
 ##### [Genişletilmiş kontrolleri için klavye kısayolları](/dynamics365/unified-operations/dev-itpro/user-interface/keyboard-shortcuts-controls?toc=/dynamics365/unified-operations/financials/toc.json)
 ##### [Programlama genişletilebilir denetim başvurusu](/dynamics365/unified-operations/dev-itpro/user-interface/extensible-control-programming-reference?toc=/dynamics365/unified-operations/financials/toc.json)
-##### [Control extensibility](/dynamics365/unified-operations/dev-itpro/user-interface/control-extensibility?toc=/dynamics365/unified-operations/financials/toc.json)
+##### [Genişletilebilirlik denetimi](/dynamics365/unified-operations/dev-itpro/user-interface/control-extensibility?toc=/dynamics365/unified-operations/financials/toc.json)
 ##### [Yerelleştirilebilir etiketleri oluştur](/dynamics365/unified-operations/dev-itpro/user-interface/create-localizable-labels-client?toc=/dynamics365/unified-operations/financials/toc.json)
 ##### [Genişletilebilir denetim Düzen kılavuzları](/dynamics365/unified-operations/dev-itpro/user-interface/extensible-controls-layout?toc=/dynamics365/unified-operations/financials/toc.json)
 ##### [Görev Kaydedici oluşturduğu bir kontrol için metni kontrol eder](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-control-text?toc=/dynamics365/unified-operations/financials/toc.json)
