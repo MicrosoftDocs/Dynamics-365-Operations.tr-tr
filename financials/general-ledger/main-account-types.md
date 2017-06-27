@@ -3,7 +3,7 @@ title: "Ana hesap türleri"
 description: "Ana hesap türleri, ana hesabın hesap planında nasıl kullanılacağını belirler."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

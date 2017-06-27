@@ -3,7 +3,7 @@ title: "Günlük girişlerini veya hareketlerini görüntüleme"
 description: "Bu makalede, günlük girişlerini ve hareketleri görüntüleyebileceğiniz çeşitli yollar açıklanmaktadır."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

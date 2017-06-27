@@ -3,7 +3,7 @@ title: "Toplu iş öznitelikleri"
 description: "Bu makalede toplu iş öznitelikleri hakkında bilgiler verilmiştir. Toplu iş öznitelikleri, stok toplu işlerini oluşturan hammaddelerin ve tamamlanan ürünlerin özellikleridir. Bu makalede ayrıca toplu iş özniteliklernin nasıl atanacağı ve toplu işleri rezere ettiğinizde bunları nasıl ayaryacağınız açıklanmaktadır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

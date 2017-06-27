@@ -3,7 +3,7 @@ title: "Şirketlerarası muhasebeyi ayarlama"
 description: "Bu konu, defter tahsisatları ve mali günlükleri, örneğin günlük günlükler, satıcı faturası günlükleri ve ödeme günlükleri gibi şirketlerarası günlükleri kullanabilmeniz için şirketlerarası muhasebeyi ayarlamayı açıklar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

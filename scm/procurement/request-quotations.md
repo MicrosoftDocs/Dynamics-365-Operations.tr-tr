@@ -1,9 +1,9 @@
 ---
-title: Teklif talepleri (RFQ&quot;lar)
-description: "Bu makalede, madde veya hizmet satın almak zorunda olduklarında ve sayısız satıcıdan rekabetçi teklifler almak istediklerinde kuruluşların çıkardığı teklif taleplerine (RFQ&quot;ler) genel bakış sunulmuştur. Bir RFQ&quot;da, satıcılardan belirlediğiniz madde miktarları için fiyat ve teslimat süreleri vermelerini istersiniz. Satıcılardan, nakliye maliyetleri ya da büyük siparişler için indirimler veya satıcı faturalarının erken ödenmesi gibi dolaylı giderler olup olmadığını belirtmelerini de isteyebilirsiniz."
+title: Teklif talepleri (RFQ'lar)
+description: "Bu makalede, madde veya hizmet satın almak zorunda olduklarında ve sayısız satıcıdan rekabetçi teklifler almak istediklerinde kuruluşların çıkardığı teklif taleplerine (RFQ'ler) genel bakış sunulmuştur. Bir RFQ'da, satıcılardan belirlediğiniz madde miktarları için fiyat ve teslimat süreleri vermelerini istersiniz. Satıcılardan, nakliye maliyetleri ya da büyük siparişler için indirimler veya satıcı faturalarının erken ödenmesi gibi dolaylı giderler olup olmadığını belirtmelerini de isteyebilirsiniz."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

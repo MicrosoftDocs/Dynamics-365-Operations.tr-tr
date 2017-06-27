@@ -3,7 +3,7 @@ title: "Üretim kontrolde ve Proje yönetimi muhasebesinde kullanılan maliyet k
 description: "Bazı üretim iş türleri, proje süresi tahminlerine ve raporlamaya uygulanabilir. Bu makalede, bu tip üretim işi için üretim ve proje amaçlı olarak tanımlamanız gereken maliyet kategorileri hakkında bilgiler sağlanmıştır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

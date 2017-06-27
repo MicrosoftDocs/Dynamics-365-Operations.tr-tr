@@ -3,7 +3,7 @@ title: "Satınalma ilkeleri"
 description: "Bu makale, satınalma ilkeleri hakkında bilgi sağlar. Satınalma ilkesi talep işlemini denetleyen kurallar topluluğudur. Satınalma ilkeleri satınalma yöneticilerinin kuruluşun stratejik satınalma gereksinimlerine uygun bir ilke yapısı oluşturarak satınalma stratejilerini uygulamalarına yardımcı olur."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

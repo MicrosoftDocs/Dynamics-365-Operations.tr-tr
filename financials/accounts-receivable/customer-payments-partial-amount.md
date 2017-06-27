@@ -3,7 +3,7 @@ title: "Bir kısmi tutar için müşteri ödemeleri"
 description: "Bazen müşteriler, faturanın toplam miktarından az olan bir ödeme yaparlar. Bu makale, bu durumda yapılabilecek çeşitli seçenekleri açıklamaktadır. Kullanabileceğiniz seçenekler, iş gereksinimlerinize ve yapılandırmanıza bağlıdır."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

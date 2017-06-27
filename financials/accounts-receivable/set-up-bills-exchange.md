@@ -3,7 +3,7 @@ title: Kambiyo senetlerini ayarlama
 description: "Bu konuda, kambiyo senetlerini ayarlama adımları açıklar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

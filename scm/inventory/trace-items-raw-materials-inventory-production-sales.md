@@ -3,7 +3,7 @@ title: "Stok, üretim ve satıştaki maddeleri ve hammaddeleri izleme"
 description: "Bu konuda, madde izlemesini kullanarak maddelerin veya hammaddelerin üretim ve satış süreçlerinde nerede kullanılmış, kullanılmakta veya kullanılacak olduklarını belirleyebilirsiniz."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

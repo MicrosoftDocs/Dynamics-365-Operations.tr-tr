@@ -3,7 +3,7 @@ title: "Üretim uygulama için kayıt"
 description: "Bu konu üretim yürütmeyi yapılandırmak ve kullanmak için anlamanız gereken temel kavramları ve koşulları açıklar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

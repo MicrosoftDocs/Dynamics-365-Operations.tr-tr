@@ -3,7 +3,7 @@ title: "Satıcı ödemesini tersine çevirme"
 description: "Bu makalede bir ödemenin terse çevrilmesi, silinmesi, geçersiz sayılması ve reddedilmesi arasındaki farklar açıklanmıştır. İlave olarak, bir satıcı çekinin ters çevrilmesi için iki yöntem açıklanmıştır."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

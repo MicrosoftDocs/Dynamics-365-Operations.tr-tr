@@ -3,7 +3,7 @@ title: "Üretim geribildirimi"
 description: "Bu makalede, çalışanlara üretim işleri hakkında geribildirim veren üretim geribildirimi konusunda bilgiler sağlanmıştır. Makale, üretim geribildiriminin güncelleştirilebileceği çeşitli yollar hakkında bilgiler içerir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

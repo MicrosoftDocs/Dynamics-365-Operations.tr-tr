@@ -3,7 +3,7 @@ title: "Maliyet güncelleştirmelerini yönetme"
 description: "Standart maliyet verilerindeki güncelleştirmeler iki farklı yaklaşımla yönetilebilir -  tek sürümlü yaklaşım ve iki sürümlü yaklaşım."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

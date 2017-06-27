@@ -3,7 +3,7 @@ title: "Operasyon planlama çizelgeleme seçenekleri"
 description: "Bu konu, Operasyon planlama çizelgelemesi seçeneklerini açıklar. Operasyon planlama çizelgelemesini zaman içinde üretim süresine dair genel bir tahmin yapmak için kullanabilirsiniz."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

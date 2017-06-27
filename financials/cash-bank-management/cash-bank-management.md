@@ -3,7 +3,7 @@ title: "Nakit ve banka yönetimi giriş sayfası"
 description: "Nakit ve banka yönetimini, tüzel kişiliğin banka hesaplarını ve bu hesaplarla ilişkilendirilmiş mali araçlarını korumak için kullanabilirsiniz."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

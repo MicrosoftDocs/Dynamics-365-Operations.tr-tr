@@ -3,7 +3,7 @@ title: "Uygunsuzluk yönetimi"
 description: "Bu makalede, uygunsuzlukları kullanmak için gereken temel kurulum açıklanmaktadır. Kalite emirleri kullanmak istiyorsanız ek kurulum gereklidir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

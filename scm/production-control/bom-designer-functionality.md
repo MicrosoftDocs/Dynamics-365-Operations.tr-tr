@@ -1,9 +1,9 @@
 ---
 title: "BOM tasarımcısı işlevi"
-description: "Bu makale, ürün reçetesi tasarımcısı sayfasını, ürün reçeteleri (BOM) tasarlamak ve ağaç yapıları ile çalışmak için nasıl kullanabileceğinizi açıklar. Farklı yapılandırmaları seçmek için Kurulum&quot;u tıklatabilir ve ağacın satırlarında hangi bilgilerin gösterileceğini belirleyebilirsiniz."
+description: "Bu makale, ürün reçetesi tasarımcısı sayfasını, ürün reçeteleri (BOM) tasarlamak ve ağaç yapıları ile çalışmak için nasıl kullanabileceğinizi açıklar. Farklı yapılandırmaları seçmek için Kurulum'u tıklatabilir ve ağacın satırlarında hangi bilgilerin gösterileceğini belirleyebilirsiniz."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Cari ortalama maliyet fiyatı"
 description: "Stok kapanışı işlemi, maddenin madde modeli grubunda seçilen stok değerleme yöntemine dayanarak çıkış hareketlerini giriş hareketlerine karşılık kapatır. Ancak, stok kapanışı çalıştırılmadan önce, sistem çoğu durumda çıkış hareketlerini deftere nakletmek için kullanılan bir cari ortalama maliyet fiyatı hesaplar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

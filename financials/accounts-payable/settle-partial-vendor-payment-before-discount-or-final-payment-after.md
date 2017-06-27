@@ -3,7 +3,7 @@ title: "Kısmi satıcı ödemesini iskonto tarihinden önce, iskonto tarihinde n
 description: "Bu makalede, bazısı nakit iskonto dönemi dahilinde, diğerleri nakit iskonto dönemi haricinde olmak üzere birden fazla kısmi ödemenin yapıldığı bir senaryo boyunca size eşlik edilmektedir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

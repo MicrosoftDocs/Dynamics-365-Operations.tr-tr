@@ -3,7 +3,7 @@ title: "Stok etiket sayımı"
 description: "Bu makalede, ambardaki mevcut içeriği eldeki stokla karşılaştırmak için kullanabileceğiniz etiket sayımı hakkında bilgiler verilmektedir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

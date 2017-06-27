@@ -3,7 +3,7 @@ title: "Kalite yönetimi işlemleri"
 description: "Bu makalede, uyumsuz ürünler için kalite yönetimi süreci hakkında bilgiler verilmektedir. Makale, kalite kontrol işlevlerini nasıl kullanacağınızı, uygunsuzlukların nasıl tanımlanıp korunacağını ve düzeltmelerin nasıl yapılacağını açıklamaktadır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

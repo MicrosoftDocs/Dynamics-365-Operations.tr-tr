@@ -3,7 +3,7 @@ title: "Kaynak alanında satış vergisi hesaplama yöntemleri"
 description: "Bu makalede satış vergisi kodları sayfasında Başlangıç alanındaki seçenekler ve satış vergisinin bir satış vergisi kodu için belirlenen seçeneğe göre nasıl hesaplanacağı hakkında bilgiler verilmiştir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

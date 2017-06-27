@@ -3,7 +3,7 @@ title: "Üretilen ya da temin edilen ürünleri ayarlama"
 description: "Ürünler çeşitli şekillerde bulunabilir - üretilebilir (mamul) veya tedarik edilebilir (satın alınan). Bu makalede birden fazla kaynak kullanımının desteklenmesi için ürünlerin nasıl yapılandırılacağı ile ilgili bazı genel hususlar açıklanmıştır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

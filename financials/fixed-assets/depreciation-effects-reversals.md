@@ -3,7 +3,7 @@ title: "Ters işlemli amortismanın etkileri"
 description: "Bu makalede, sabit kıymet hareketini ters kaydetmenin olası etkileri ele alınmaktadır."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,14 +3,14 @@ title: "İlke ihlallerini ve vakalarını denetleme"
 description: "Makalede, denetim ilkesi kuralları ihlallerinden nasıl denetim çalışmaları oluşturulduğu açıklanmaktadır. Makalede, denetim ilkelerinin belge seçim tarihi aralığını kullanmasının çeşitli yolları da yer almaktadır."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: twheeloc
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 13091
 ms.assetid: e0e66c6d-c396-4a9d-b3b6-3641d130fdc0

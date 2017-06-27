@@ -3,7 +3,7 @@ title: "Ödendiğinde öde satıcı anlaşmaları"
 description: "Bu makalede, satıcı anlaşmaları için ödendiğinde ödeme (PWP) koşulları açıklanmaktadır. PWP koşulları, bir müşteri size ödeme yapana kadar satıcıya ödemeyi kısmen veya tamamen bekletmenize olanak sağlar. Bu makalede PWP koşullarını bir proje için nasıl kullanacağınızı göstermek için gerçek yaşamdan bir örnek de verilmektedir."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

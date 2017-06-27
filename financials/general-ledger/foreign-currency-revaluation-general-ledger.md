@@ -3,7 +3,7 @@ title: "Genel muhasebe için yabancı para birimi yeniden değerleme"
 description: "Bu konu, kurulum, işlemi çalıştırma, işlem için hesaplama ve gerekirse yeniden değerleme işlemi hareketlerinin nasıl tersine çevrildiği de dahil olmak üzere genel muhasebe yabancı para birimi yeniden değerleme işlemine genel bir bakış sunar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Birden fazla iskonto dönemi olan bir kısmi müşteri ödemesini kapatm
 description: "Bu makale, birden fazla iskonto dönemi olduğunda kısmi müşteri ödemelerinin nasıl kapatıldığını gösterir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

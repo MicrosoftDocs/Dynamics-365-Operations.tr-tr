@@ -3,7 +3,7 @@ title: "Mali raporlarda raporlama ağacı tanımları"
 description: "Bu makalede raporlama ağacı tanımları hakkında bilgi verilmektedir. Raporlama ağacı tanımı, kuruluşunuzun yapısı ve hiyerarşisini tanımlamaya yardımcı olan bir rapor bileşeni veya yapı taşıdır."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

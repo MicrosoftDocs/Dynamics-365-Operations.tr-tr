@@ -3,7 +3,7 @@ title: "Operations kaynakları"
 description: "Operasyon kaynakları, bir projenin veya bir üretim işleminin etkinliklerini gerçekleştirir. Bunlar farklı türlerde, farklı yeteneklere sahip olabilir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

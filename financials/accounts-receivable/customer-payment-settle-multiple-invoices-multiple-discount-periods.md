@@ -3,7 +3,7 @@ title: "Birden fazla iskonto dönemine yayılan birden fazla faturayı kapatmak 
 description: "Bu makalede, her bir fatura nakit indirimine uygunsa birden fazla faturanın nasıl ödeneceği gösterilmektedir. Bu makaledeki senaryolar, alınan nakit indirimlerinin ödemenin ne zaman yapıldığına bağlı olarak nasıl değiştiğini açıklamaktadır."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

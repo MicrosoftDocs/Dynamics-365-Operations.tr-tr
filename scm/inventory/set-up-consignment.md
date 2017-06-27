@@ -3,7 +3,7 @@ title: Konsinyeyi ayarlama
 description: "Bu konu gelen konsinye stok operasyonlarının nasıl yapılandırılacağını açıklar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

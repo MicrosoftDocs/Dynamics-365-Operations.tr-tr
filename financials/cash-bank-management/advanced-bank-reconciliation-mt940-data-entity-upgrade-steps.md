@@ -3,7 +3,7 @@ title: "Gelişmiş banka mutabakatı MT940 İçe Aktarma – Bileşik veri varl�
 description: "MT940 biçimini desteklemek için banka ekstresi içe aktarma varlığına bir sıra numarası eklenmesi gerekir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Ambalaj malzemeleri ve ücretler"
 description: "Ambalaj malzemesi masrafları, belirli aralıklarla bir geri dönüştürme şirketine ödenmektedir. Bir ambalaj birimini meydana getiren her malzeme için ağırlık birimi başına bir tutar ödenir. Ambalaj malzemesi masrafları hesaplanır ve raporlanır, fakat masraflar bir kuruma ödenecek vergiler olarak görülmediğinden, genel muhasebeye hareket nakledilmez."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

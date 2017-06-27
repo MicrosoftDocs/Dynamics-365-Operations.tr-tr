@@ -3,7 +3,7 @@ title: "Yalın üretim için Kanban iş planlama"
 description: "Bu makale, kanban iş planlamaları üzerinde görsel denetim sağlamak ve kanban işlerini planlamak için çeşitli yöntemler hakkında bilgi sağlar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

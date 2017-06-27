@@ -3,7 +3,7 @@ title: "Maliyet sürümleri"
 description: "Bu makalede, maliyetlendirme sürümleri, bu sürümlerin nasıl sürdürüleceği ve bu sürümlere ekleyebileceğiniz veri türleri hakkında bilgiler verilmektedir. Maliyetlendirme versiyonunun birincil amacı madde, maliyet kategorileri için dolaylı maliyet hesaplama formülleri hakkındaki maliyet kayıtlarını içermektir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

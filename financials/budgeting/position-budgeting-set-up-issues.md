@@ -3,7 +3,7 @@ title: "Pozisyon bütçeleme için sorun giderme"
 description: "Bu makalede pozisyon bütçelemeyi yapılandırdığınızda karşılaşabileceğiniz sorulara yanıtlar verilmiştir. Bütçe maliyet öğelerinin, ücret gruplarının ve ücret ızgaralarının nasıl oluşturulacağı hakkında sıkça sorulan soruların yanıtlarını içerir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

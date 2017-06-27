@@ -3,7 +3,7 @@ title: "Sabit kalan ömür amortismanı"
 description: "Bu makale, amortismanın Sabit kalan ömür yöntemi hakkında genel bir bakış sağlar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

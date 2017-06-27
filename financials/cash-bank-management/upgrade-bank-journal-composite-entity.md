@@ -1,9 +1,9 @@
 ---
 title: "Banka günlüğü birleşik varlığını güncelleştirme"
-description: "Ek BankaHareketTürü alanını birleşik BankaGünlükVarlığı&quot;na eklemek için aşağıdaki adımlar gereklidir."
+description: "Ek BankaHareketTürü alanını birleşik BankaGünlükVarlığı'na eklemek için aşağıdaki adımlar gereklidir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

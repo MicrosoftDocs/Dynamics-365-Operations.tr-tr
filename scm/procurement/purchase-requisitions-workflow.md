@@ -3,7 +3,7 @@ title: "Satınalma talebi iş akışı"
 description: "İş akışı süreci, satın alma talebini, ilk durum olan Taslak durumundan son durum olan Onaylandı durumuna, gözden geçirme sürecine geçirir. Bir satınalma talebi gözden geçirme amacıyla gönderildiğinde iş akışı süreci başlatılır. Bir Satın alma talebi onaylandıktan sonra, satın alma talebi satırları için bir satın alma emri oluşturulabilir ve siparişin gerçekleştirilmesi için satıcıya sunulabilir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

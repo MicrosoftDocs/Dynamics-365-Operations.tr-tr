@@ -3,7 +3,7 @@ title: "Fiziksel değer ve işaretleme ile FIFO"
 description: "İlk Giren İlk Çıkar (FIFO), ilk alınan girişlerin ilk olarak çıkartıldığı bir stok modelidir. Stoktan yapılan mali olarak güncelleştirilen çıkışlar, stok hareketinin mali tarihine göre stoka yapılan ilk mali güncelleştirilen girişlere karşılık kapatılır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

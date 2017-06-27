@@ -3,7 +3,7 @@ title: "Birden fazla iskonto dönemi olan bir kısmi satıcı ödemesini kapatma
 description: "Bu makalede, birden fazla nakit indirimi öneren bir satıcıya birden fazla kısmi ödemenin yapıldığı bir senaryo açıklanmaktadır."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
