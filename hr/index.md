@@ -1,12 +1,12 @@
 ---
-title: "İnsan kaynakları"
-description: "İnsan kaynakları, pek çok rutin kayıt tutma görevini basitleştirir ve kuruluşunuzun personel ile ilgili bir dizi sürecini otomatikleştirir. Ayrıca, insan kaynakları personelinin gözetim alanlarını yönetmek için de bir çerçeve sağlar. Bu alanlar personel işe alma ve saklama, kazançların yönetimi, eğitim, performans değerlendirmeleri ve değişim yönetimi konularını içerir."
+title: Microsoft Dynamics 365 for Talent
+description: "Talent, pek çok rutin kayıt tutma görevini basitleştirir ve kuruluşunuzun personel ile ilgili bir dizi sürecini otomatikleştirir. Bu işlemler personel tutma, kazanç yönetimi, eğitim, performans değerlendirmeleri ve değişim yönetimi konularını içerir."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/19/2017
 ms.topic: index-page
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
@@ -16,51 +16,47 @@ ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 213d1dc69ac0f6dc10138e185625a142e107f073
+ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
+ms.openlocfilehash: e0f41445c621a317fcdccef6cb08766dd6fac279
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
 
-# <a name="welcome-to-human-resources"></a>İnsan kaynaklarına hoş geldiniz
+# <a name="welcome-to-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent'a hoş geldiniz
 
 [!include[banner](includes/banner.md)]
 
-İnsan kaynakları, pek çok rutin kayıt tutma görevini basitleştirir ve kuruluşunuzun personel ile ilgili bir dizi sürecini otomatikleştirir. Ayrıca, insan kaynakları personelinin gözetim alanlarını yönetmek için de bir çerçeve sağlar. Bu alanlar personel işe alma ve saklama, kazançların yönetimi, eğitim, performans değerlendirmeleri ve değişim yönetimi konularını içerir.
+Microsoft Dynamics 365 for Talent birçok rutin kayıt tutma görevini kolaylaştırır ve kuruluşunuzun personelini belirlemeyle ilgili bazı işlemleri otomatikleştirir. Bu işlemler personeli elde tutma, kazanç yönetimi, eğitim, performans incelemeleri ve değişim yönetimini içerir. Ayrıca, insan kaynakları personelinin gözetim alanlarını yönetmek için de bir çerçeve sağlar.
 
-İnsan kaynaklarını şu görevleri gerçekleştirmek için kullanabilirsiniz:
+Dynamics 365 for Talent, Dynamics 365 for Finance and Operations, Enterprise sürümünde İnsan kaynaklarıyla yakından ilgilidir. Aynı işlev, iki üründe de görülebilir. Sonuç olarak, özellikle İnsan kaynaklarıyla ilgili konularda, ürün adı Dynamics 365 for Finance and Operations, Enterprise sürümü, özellikle Talent ile ilgili konularda ise Dynamics 365 for Talent olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
 
-> + Organizasyon yapısını yönetin.
+Talent'ı şu görevleri gerçekleştirmek için kullanabilirsiniz:
+
+> + Kuruluş yapılarını yönetin.
 > + Kapsamlı çalışan bilgilerini, işe alımdan emekliliğe kadar koruyun.
 > + Kazanç planlarını tanımlatın ve yönetin, çalışanların kaydını yapın, bakmakla yükümlü olunan kişi kapsamını ve hak sahiplerini atayın.
 > + Devamsızlık ilkelerini belirleyin ve izleyin.
 > + Profil tabanlı zaman yönetimini uygulayıp izleyin ve bordro sistemine aktarmak için ödeme bilgileri oluşturun.
 > + Çalışan yetkinliklerini yönetin.
 > + Performansı gözden geçirin ve çalışan hedeflerini uygulayın.
-> + Gündem, oturum ve talimat içeren eğitim kursları hazırlayın, sağlayın ve analiz edin.
-> + Çalışanları işe alın ve başvuranları izleyin.
+> + Gündem, oturum ve yönerge içeren eğitim kursları hazırlayın, sağlayın ve analiz edin.
 
-<a name="develop-a-human-resources-strategy"></a>İnsan kaynakları stratejisi geliştirme
+<a name="develop-a-strategy-for-managing-your-human-resources"></a>İnsan kaynaklarınızı yönetmek için strateji geliştirme
 ---------------------------------------------------------
 
-İnsan kaynakları ile çalışırken departman, iş ve pozisyon gibi öğeleri kullanarak kuruluşunuzun yapısını belirlersiniz. Bunlar, İnsan kaynaklarında yapılandıracağınız temel unsurlar arasındadır. Personel tek tek, işlerle ilişkilendirilmiş pozisyonlara atanır.
+Talent ile çalışırken departman, iş ve pozisyon gibi öğeleri kullanarak kuruluşunuzun yapısını belirlersiniz. Bunlar, yapılandıracağınız temel unsurlar arasındadır. Personel tek tek, işlerle ilişkilendirilmiş pozisyonlara atanır.
 
 -   [Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme](departments-jobs-positions.md)
 -   [Şirkete özgü İK parametrelerini ayarlama](set-up-company-specific-hr-parameters.md)
 -   [Tüzel kişilikler arasında İK parametreleri ayarlama](set-up-hr-parameters-across-legal-entities.md) 
 
-## <a name="recruit-hire-and-motivate-employees"></a>Personeli işe alma, dönemsel işe alma ve motive etme
+## <a name="retain-and-motivate-employees"></a>Personeli elde tutma ve motive etme
 
-İşe alma projeleri, açık pozisyonlar için duyurularında kullanılan içeriği yönetir ve açık pozisyonlar için başvuruları yönetmenize yardımcı olabilir. Belirli bir işe alma projesi için iş ilanlarına yanıtları veya belirli başvuranları izlemek ve açık pozisyonların durumunu güncelleştirmek için kullanabilirsiniz. Ayrıca tek başvuruları işe alabilir veya örneğin, mevsimlik iş gereksinimlerini karşılamak amacıyla çok sayıda çalışan işe almayı kolaylaştıran "toplu işe alma projelerini" de yönetebilirsiniz.
-
--   [İşe alma sürecini yönetme](manage-recruiting-process.md)
--   [Toplu işe alma projeleri](mass-hire-projects.md) 
-
-Personeli işe aldıktan sonra ücret ile birlikte kuruluşunuzun çalışanlarınıza verdiği bilgisayarlar veya telefonlar gibi öğeleri de etkin ve adaletli bir şekilde yönetebilirsiniz. Sabit ve değişken ücret planları oluşturabileceğiniz gibi bu plan ölçütlerini karşılayan ücret planının uygulandığı kurallar da tanımlayabilirsiniz.
+Ücret ile birlikte kuruluşunuzun personelinize verdiği bilgisayarlar veya telefonlar gibi öğeleri de etkin ve adaletli bir şekilde yönetebilirsiniz. Sabit ve değişken ücret planları oluşturabileceğiniz gibi bu plan ölçütlerini karşılayan ücret planının uygulandığı kurallar da tanımlayabilirsiniz.
 
 -   [Ücret planları](compensation-plans.md)
 -   [Sabit ücret planları oluşturma](create-fixed-compensation-plans.md)
@@ -84,10 +80,10 @@ Personelinizi ücretler, maaşlar ve ikramiyeler ile dengelemenin yanı sıra sa
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Çalışma alanı güvenliğini ve uyumluluğu koruma
 
-Microsoft Dynamics AX, diğerlerinin yanı sıra Engelli Amerikalılar Yasası ile göç ve yurttaşlığa kabul yasaları da dahil olmak üzere yürürlükteki yasalar ile uyumlu olan güvenli bir çalışma ortamını korumanıza yardımcı olabilir. Örneğin, belirli işler için fiziksel gereksinimleri yönetebileceğiniz gibi kuruluşunuzun kendi iş gücü yeteneklerini en iyi duruma getirmesine yardımcı olabilecek konaklama isteklerini de izleyebilirsiniz.
+Talent, diğerlerinin yanı sıra Engelli Amerikalılar Yasası ile göç ve yurttaşlığa kabul yasaları da dahil olmak üzere yürürlükteki yasalar ile uyumlu olan güvenli bir çalışma ortamını korumanıza yardımcı olabilir. Örneğin, belirli işler için fiziksel gereksinimleri yönetebileceğiniz gibi kuruluşunuzun kendi iş gücü yeteneklerini en iyi duruma getirmesine yardımcı olabilecek konaklama isteklerini de izleyebilirsiniz.
 
--   [Form I-9 istihdam doğrulama](localizations/noam-usa-form-i-9-verification.md)
--   [Engelli Amerikalılar Yasası ile uyumluluk](localizations/noam-usa-comply-ada.md)
+-   [Form I-9 istihdam doğrulama](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-form-i-9-verification)
+-   [Engelli Amerikalılar Yasası ile uyumluluk](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-comply-ada)
 
 ## <a name="gather-information-using-questionnaires"></a>Soru formları kullanarak bilgi toplama
 
@@ -97,7 +93,4 @@ Microsoft Dynamics AX, diğerlerinin yanı sıra Engelli Amerikalılar Yasası i
 -   [Soru formu tasarlama](design-questionnaires.md)
 -   [Soru formunu dağıtma ve doldurma](distribute-questionnaires.md)
 -   [Soru formunun sonuçlarını görüntüleme ve değerlendirme](evaluate-questionnaire-results.md)
-
-
-
 
