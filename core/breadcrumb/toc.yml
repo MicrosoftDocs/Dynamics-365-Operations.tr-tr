@@ -2,23 +2,23 @@
   tocHref: /dynamics365/
   topicHref: /dynamics365
   items:
-  - name: Operations
+  - name: 'Finance and Operations, Enterprise'
     tocHref: /dynamics365/unified-operations/fin-and-ops/
     topicHref: /dynamics365/unified-operations/fin-and-ops/index
     items:
     - name: Geliştirici ve Yönetici
       tocHref: /dynamics365/unified-operations/dev-itpro/
       topicHref: /dynamics365/unified-operations/dev-itpro/index
-    - name: Finansal öğeler
+    - name: Mali öğeler
       tocHref: /dynamics365/unified-operations/financials/
       topicHref: /dynamics365/unified-operations/financials/index
-    - name: İnsan kaynakları
-      tocHref: /dynamics365/unified-operations/talent/
-      topicHref: /dynamics365/unified-operations/talent/index
-    - name: Perakende
-      tocHref: /dynamics365/unified-operations/retail/
-      topicHref: /dynamics365/unified-operations/retail/index
     - name: Tedarik zinciri
  
       tocHref: /dynamics365/unified-operations/supply-chain/
       topicHref: /dynamics365/unified-operations/supply-chain/index
+  - name: Talent
+    tocHref: /dynamics365/unified-operations/talent/
+    topicHref: /dynamics365/unified-operations/talent/index
+  - name: Retail
+    tocHref: /dynamics365/unified-operations/retail/
+    topicHref: /dynamics365/unified-operations/retail/index

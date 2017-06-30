@@ -1,15 +1,15 @@
 ---
 title: "BI ve raporlama giriş sayfası"
-description: "Bu konuda, Microsoft Dynamics 365 for Operations&quot;da bulunan BI ve raporlama kaynakları belirtilmektedir."
+description: "Bu konuda, Microsoft Dynamics 365 for Finance and Operations'da bulunan BI ve raporlama kaynakları belirtilmektedir."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3e97fda52acf6b61bf47eb30d53ce6597b4929d3
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 448517531112636d553dc895b17c5644c9c1f0bc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
@@ -30,27 +30,27 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu konuda, Microsoft Dynamics 365 for Operations'da bulunan BI ve raporlama kaynakları belirtilmektedir. 
+Bu konuda, Microsoft Dynamics 365 for Finance and Operations'da bulunan BI ve raporlama kaynakları belirtilmektedir. 
 
 <a name="working-with-aggregate-data"></a>Toplanan verilerle çalışma
 ---------------------------
 
 -   [Analiz](analytics.md)
--   [Bellek içi, gerçek zamanlı toplama modeller SSAS küplerinin yerini alıyor](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
+-   [Bellek içi, gerçek zamanlı toplama modelleri SSAS küplerinin yerini alıyor](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
 -   [Toplanan Verileri Modelleme ve Kullanma](model-aggregate-data.md)
 -   [Yükseltilmiş bir Dynamics AX 2012 R3 satış küpünü varlık deposuna geçirme](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
 
 ## <a name="self-service-reporting"></a>Self servis raporlama
 -   [Power BI tümleştirmesi](power-bi-integration.md)
 -   [Çalışma alanları için Power BI tümleştirmesini yapılandırma](configure-power-bi-integration.md)
--   [Microsoft Dynamics 365 for Operations verilerini kullanarak bir Power BI raporu oluşturma](create-powerbi-report-data.md)
+-   [Microsoft Dynamics 365 for Finance and Operations verilerini kullanarak bir Power BI raporu oluşturma](create-powerbi-report-data.md)
 -   [Power BI raporu ve panosu oluşturma](create-powerbi-report-dashboard.md)
--   [Perakende Kanal Performans Power BI içeriği](retail-channel-performance-dashboard-power-bi-data.md)
+-   [Perakende Kanal Performansı Power BI içeriği](retail-channel-performance-dashboard-power-bi-data.md)
 -   [Mali Performans Power BI içeriği](financial-performance-power-bi-content-pack.md)
 -   [Satış ve karlılık performansı Power BI içeriği](sales-profitability-performance-content-pack.md)
--   [Power BI'ya Dynamics 365 for Operations uygulamasından gelen verileri sağlamak için Elektronik raporlama yapılandırması kullanma](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Power BI'ya Finance and Operations'dan gelen verileri sağlamak için Elektronik raporlama yapılandırması kullanma](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
-## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Dynamics 365 for Operations istemcisinde katıştırılmış analitik deneyimler oluşturma
+## <a name="building-embedded-analytical-experiences-in-the-finance-and-operations-client"></a>Finance and Operations istemcisinde katıştırılmış analitik deneyimler oluşturma
 -   [Katıştırılmış iş zekası](analytics.md#embedded-business-intelligence)
 -   [KPI modelleme ve özelleştirme](analytics.md#kpi-modeling-and-customization)
 -   [Çalışma alanlarına BI ekleme](add-bi-workspaces.md)
@@ -58,7 +58,7 @@ Bu konuda, Microsoft Dynamics 365 for Operations'da bulunan BI ve raporlama kayn
 
 ## <a name="document-reporting-and-printing"></a>Belge raporlama ve yazdırma
 -   [Belge Raporlama Hizmetlerine Genel Bakış](document-reporting-services.md)
--   [Dynamics 365 for Operations uygulamalarında yazdırma](print-documents.md)
+-   [Finance and Operations uygulamalarında yazdırma](print-documents.md)
 -   [Ağ yazıcısı cihazlarını etkinleştirmek için Belge Rota Aracısı'nı yükleme](install-document-routing-agent.md)
 -   [Windows hizmeti olarak Belge Rota Aracısı'nı çalıştırma](run-document-routing-agent-as-windows-service.md)
 -   [Yeni nesil raporlama çözümleri oluşturma](create-nextgen-reporting-solutions.md)
@@ -72,7 +72,7 @@ Bu konuda, Microsoft Dynamics 365 for Operations'da bulunan BI ve raporlama kayn
 -   [Elektronik raporlamada formül tasarımcısı](general-electronic-reporting-formula-designer.md)
 -   [Elektronik raporlama hedefleri](electronic-reporting-destinations.md)
 -   [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını indirme](download-electronic-reporting-configuration-lcs.md)
--   [Power BI'ya Dynamics 365 for Operations uygulamasından gelen verileri sağlamak için Elektronik raporlama yapılandırması kullanma](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Power BI'ya Finance and Operations'dan gelen verileri sağlamak için Elektronik raporlama yapılandırması kullanma](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (Görev kılavuzu)
 -   [ER Etki alanına özel veri modeli tasarlama](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (Görev kılavuzu)
 -   [ER Model eşleme tanımlama ve veri kaynaklarını seçme](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (Görev kılavuzu)

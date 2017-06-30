@@ -1,9 +1,9 @@
 ---
-title: "Dynamics 365 for Operations&quot;a giriş"
-description: "Microsoft Dynamics 365 for Operations, Microsoft&quot;un kurumlar için geliştirdiği iş uygulamasıdır. Bu sayfa, ürün hakkında bilgi edinmenize ve ürünü kullanmaya başlamanıza yardımcı olur."
+title: "Dynamics 365 for Finance and Operations'a giriş"
+description: "Microsoft Dynamics 365 for Finance and Operations, Microsoft'un kurumlar için geliştirdiği iş uygulamasıdır. Bu sayfa, ürün hakkında bilgi edinmenize ve ürünü kullanmaya başlamanıza yardımcı olur."
 author: margoc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,77 +17,107 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 86f8625019c25257d8d07701b17707c8ca48c9df
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 8703b3bc5642e6dbe9dd399ced5af6da25f9b226
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
-# <a name="introduction-to-dynamics-365-for-operations"></a>Dynamics 365 for Operations'a giriş
+# <a name="introduction-to-dynamics-365-finance-and-operations"></a>Dynamics 365 for Finance and Operations'a giriş
 
 [!include[banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Operations, Microsoft'un kurumlar için geliştirdiği iş uygulamasıdır. İnsanların gerçek zamanlı öngörülere ve verilere erişim sunan akıllı bir kullanıcı arabirimi üzerinden daha akılcı kararları hızlı bir şekilde vermelerini sağlar. İşletmelerin iş süreçlerini daha hızlı bir şekilde yeniden tasarlamalarına olanak tanıyan kanıtlanmış iş mantığı sunarak dönüşüme ve yeniliğe ulaşmalarını sağlar. İşletmelere kendi hızlarında büyüme ve neredeyse her yerden ve her zaman iş yapabilme esnekliği verir ve iş ihtiyaçlarını karşılamak için işlemlerini ölçeklendirebilmelerini sağlar. 
+Microsoft Dynamics 365 for Finance and Operations, Microsoft'un kurumlar için geliştirdiği iş uygulamasıdır. İnsanların gerçek zamanlı öngörülere ve verilere erişim sunan akıllı bir kullanıcı arabirimi üzerinden daha akılcı kararları hızlı bir şekilde vermelerini sağlar. İşletmelerin iş süreçlerini daha hızlı bir şekilde yeniden tasarlamalarına olanak tanıyan kanıtlanmış iş mantığı sunarak dönüşüme ve yeniliğe ulaşmalarını sağlar. İşletmelere kendi hızlarında büyüme ve neredeyse her yerden ve her zaman iş yapabilme esnekliği vererek iş ihtiyaçlarını karşılamak için işlemlerini ölçeklendirebilmelerini sağlar. 
 
-Bu kullanıcı kılavuzu, Dynamics 365 for Operations'ın işletmeniz için nasıl işe yarayacağını öğrenmenize yardımcı olabilir.    
+Bu belgeler, Dynamics 365 for Finance and Operations'ın işletmeniz için nasıl işe yarayacağını öğrenmenize yardımcı olabilir. Birleşik Operations paketi, Dynamics 365 for Retail ve Dynamics 365 for Talent'taki ilgili ürünlere ilişkin belgelerle bağlantılıdır. 
 
 <table>
 <colgroup>
-<col width="50%" />
-<col width="50%" />
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="get-started/onboarding-home.md">Kuruluşunuza kullanıcı kazandırma</a></p>
-<p>Finansal öğeler</p>
-<ul><li><a href="financials/accounts-payable/accounts-payable.md">Borç hesapları</a></li>
-<li><a href="financials/accounts-receivable/accounts-receivable.md">Alacak hesapları</a></li>
-<li><a href="financials/budgeting/budgeting-overview.md">Bütçeleme</a></li>
-<li><a href="financials/cash-bank-management/cash-bank-management.md">Nakit ve banka yönetimi</a></li>
-<li><a href="financials/cost-accounting/cost-accounting-home-page.md">Maliyet muhasebesi</a></li>
-<li><a href="financials/fixed-assets/fixed-assets.md">Sabit kıymetler</a></li>
-<li><a href="financials/general-ledger/general-ledger.md">Genel muhasebe</a></li>
-<li><a href="financials/project-management/overview-project-management-accounting.md">Proje yönetimi</a></li>
-<li><a href="financials/public-sector/public-sector-functionality.md">Kamu sektörü</a></li></ul>
-<p><a href="dev-itpro/lcs-solutions/country-region.md">Bölgesel özellikler</a></p>
-<p>İnsan kaynakları</p>
-   <ul>
-  <li><a href="human-resources/departments-jobs-positions.md">İK stratejisi</a></li>
-  <li><a href="human-resources/manage-recruiting-process.md">İşe alma, dönemsel işe alma ve motive etme</a></li>
-  <li><a href="human-resources/performance-management-overview.md">Personel eğitimi</a></li>
-  <li><a href="human-resources/manage-benefit-program.md">Kazançlar</a></li>
-  <li><a href="human-resources/questionnaires.md">Soru formu</a></li>
-  <li><a href="human-resources/localizations/noam-usa-payroll.md">ABD özellikleri</a></li>
-</ul></td>
-  <td>
-  <p>Perakende</p>
+<td><h3>Mali öğeler</h3>
+<p>Uyumluluk</p>
+<p>Mali yönetim</p>
+<ul><li><a href="../financials/accounts-payable/accounts-payable">Borç hesapları</a></li>
+<li><a href="../financials/accounts-receivable/accounts-receivable">Alacak hesapları</a></li>
+<li><a href="../financials/budgeting/budgeting-overview">Bütçeleme</a></li>
+<li><a href="../financials/cash-bank-management/cash-bank-management">Nakit ve banka yönetimi</a></li>
+<li><a href="../financials/cost-accounting/cost-accounting-home-page">Maliyet muhasebesi</a></li>
+<li><a href="../financials/fixed-assets/fixed-assets">Sabit kıymetler</a></li>
+<li><a href="../financials/general-ledger/general-ledger">Genel muhasebe</a></li>
+
+<li><a href="../financials/public-sector/public-sector-functionality">Kamu sektörü</a></li>
+<li><a href="../dev-itpro/lcs-solutions/country-region">Bölgesel yasal özellikler</a></li></ul>
+<p><a href="../financials/project-management/overview-project-management-accounting">Proje yönetimi</a></p>
+<H3>İnsan kaynakları</h3>
   <ul>
-<li><a href="retail/call-center-functionality.md">Çağrı merkezi</a></li>
-  <li><a href="retail/define-maintain-retail-channels.md">Kanal kurulumu ve yönetimi</a></li>
-  <li><a href="retail/define-maintain-channel-clients-registers-hw-stations.md">MPOS ve Bulut POS</a></li>
-  <li><a href="retail/dev-itpro/dev-retail-home-page.md">Perakende geliştiricisi ve yönetimi </a></li></ul>
-  <p>Tedarik zinciri yönetimi</p>
+<li><a href="hr/manage-recruiting-process">İşe alma</a></li>
+<li><a href="hr/localizations/noam-usa-payroll">ABD bordrosu</a></li>
+</ul>
+<h3>Tedarik zinciri yönetimi</h3>
+<p><a href="../supply-chain/cost-management/costing-sheets">Maliyet yönetimi</a></p>
+<p><a href="../supply-chain/inventory/inventory-locations">Stok yönetimi</a></p>
+<p>Lojistik</p>
+<ul><li><a href="../supply-chain/transportation/transportation-management-overview">Taşıma yönetimi</a></li>
+<li><a href="../supply-chain/warehousing/warehouse-configuration">Ambar yönetimi</a></li></ul></li>
+<p><a href="../supply-chain/master-planning/master-plans">Planlama</a></p>
+  <p><a href="../supply-chain/pim/set-up-maintain-product-configuration-model">Ürün bilgileri yönetimi</a></p>
+  <p><a href="../supply-chain/production-control/create-production-orders">Üretim denetimi</a></p>
+<p>Sipariş yönetimi</p>
+  <ul><li><a href="../supply-chain/procurement/procurement-sourcing-overview">Tedarik ve kaynak atama</a></li>
+  <li><a href="../supply-chain/sales-marketing/overview-sales-marketing">Satış ve pazarlama</a></li></ul>
+</td>
+<td>
+<h3>Birleşik Operations platformu</h3>
+<p>Karar desteği</p>
+<ul><li><a href="../dev-itpro/analytics/analytics">Analiz</a></li>
+ <li><a href="../dev-itpro/analytics/document-reporting-services">İş belgeleri</a></li>
+<li><a href="../dev-itpro/analytics/financial-reporting-intro">Mali raporlama</a></li>
+<li><a href="../dev-itpro/analytics/general-electronic-reporting">Mevzuat raporlama</a></li></ul>
+
+<p><a href="../dev-itpro/mobile-apps/mobile-platform">Mobil platform</a></p>
+
+ <p>Geliştirici işlevi</p>
 <ul>
-<li><a href="supply-chain/cost-management/costing-sheets.md">Maliyet yönetimi</a></li>
-  <li><a href="supply-chain/inventory/inventory-locations.md">Stok yönetimi</a></li>
-  <li><a href="supply-chain/master-planning/master-plans.md">Master planlama</a></li>
-  <li><a href="supply-chain/procurement/procurement-sourcing-overview.md">Tedarik ve kaynak atama</a></li>
-  <li><a href="supply-chain/pim/set-up-maintain-product-configuration-model.md">Ürün bilgileri yönetimi</a></li>
-  <li><a href="supply-chain/production-control/create-production-orders">Üretim denetimi</a></li>
-  <li><a href="supply-chain/sales-marketing/overview-sales-marketing.md">Satış ve pazarlama</a></li>
-  <li><a href="supply-chain/transportation/transportation-management-overview.md">Taşıma yönetimi</a></li>
-  <li><a href="supply-chain/warehousing/warehouse-configuration.md">Ambar yönetimi</a></li></ul>
-  <p>Geliştirici ve yönetici işlevi</p>
-  <ul><li><a href="dev-itpro/analytics/analytics.md">Analiz</a></li>
-  <li><a href="dev-itpro/data-entities/data-entities.md">Veri varlıkları</a></li>
-  <li><a href="dev-itpro/mobile-apps/mobile-platform.md">Mobil uygulamalar</a></li>
-  <li><a href="dev-itpro/office-integration/office-integration.md">Office tümleştirmesi</a></li>
-  <li><a href="dev-itpro/sysadmin/system-administration-home-page.md">Yönetim</a></li>
-  <li><a href="dev-itpro/dev-tools/developer-home-page.md">Geliştirici araçları</a></li></ul></td>
+<li><a href="../dev-itpro/continuous-delivery-home-page">Sürekli teslimat</a></li>
+<li><a href="../dev-itpro/get-started/demo-data">Tanıtım verileri</a></li>
+<li><a href="../dev-itpro/dev-tools/developer-home-page">Geliştirici araçları</a></li>
+<li><a href="../dev-itpro/extensibility/customize-model-elements-extensions">Genişletilebilirlik</a></li>
+<li><p>Bütünleştirme</p>
+<ul><li><a href="../dev-itpro/data-entities/data-entities">Veri varlıkları</a></li>
+<li><a href="../dev-itpro/office-integration/office-integration">Office tümleştirmesi</a></li></ul></li></ul>
+
+<p>Yönetici işlevi<p>
+<ul>
+<li><a href="../get-started/onboarding-home">Kuruluşunuza kullanıcı kazandırma</a></li>
+<li><a href="../dev-itpro/deploy-demo-environment">Dağıtım ve servis</a></li>
+<li><a href="../dev-itpro/migration-upgrade/upgrade-home-page">Yükselt</a></li>
+<li><a href="../dev-itpro/data-entities/data-management-integration-data-entity">Veri yönetimi</a></li>
+<li><a href="../dev-itpro/lifecycle-services/lcs">Lifecycle Services</a></li>
+<li><a href="../fin-and-ops/organization-administration/organization-administration-home-page">Kuruluş yönetimi</a></li>
+<li><a href="../dev-itpro/sysadmin/system-administration-home-page">Sistem yönetimi</a></li>
+<ul>
+</td>
+<td>
+<h3>Dynamics 365 for Talent</h3>
+<p><a href="../talent/manage-benefit-program">Kazançlar</a></p>
+<p><a href="../talent/performance-management-overview">Personel gelişimi ve eğitimi</a></p>
+<p><a href="../talent/questionnaires">Soru formu</a></p>
+
+<h3>Dynamics 365 for Retail</h3>
+<p><a href="../retail/call-center-functionality">Çağrı merkezi</p>
+<p><a href="../retail/define-maintain-retail-channels">Kanal kurulumu ve yönetimi</p>
+<p><a href="../retail/retail-peripherals-overview">MPOS ve Bulut POS</p>
+<p><a href="../retail/dev-itpro/dev-retail-home-page">Perakende geliştiricisi ve yönetimi</p>
+
+</td>
 </tr>
+
 </tbody>
 </table>
-
-
 
