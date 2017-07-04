@@ -3,23 +3,38 @@
 ## [Başlayın](/dynamics365/unified-operations/fin-and-ops/get-started/onboarding-home?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [Microsoft FastTrack for Dynamics 365](/dynamics365/unified-operations/fin-and-ops/get-started/fasttrack-dynamics-365-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [Bir aboneliğe kaydolma](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/retail/toc.json)
-### [Dynamics AX 2012'nin şirket içi sürümünü edinme](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/retail/toc.json)
+### [Finance and Operations'ın şirket içi sürümünü edinme](/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises?toc=/dynamics365/unified-operations/retail/toc.json)
+### [Finance and Operations'ı bir Bulut Hizmet Sağlayıcısı aracılığıyla satın alan müşterilere yönelik bilgiler](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [Tanıtım ortamını dağıtma](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [Yenilikler veya değişiklikler](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Kaldırılan özellikler](/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Henüz uygulanmayan AX 2012 özellikleri](/dynamics365/unified-operations/dev-itpro/get-started/ax-2012-features-not-implemented-but-not-deprecated?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Şirket içi dağıtımlarda uygulanmayan özellikler](/dynamics365/unified-operations/dev-itpro/get-started/features-not-implemented-on-prem?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Finance and Operations, Enterprise sürümü Temmuz 2017 güncelleştirmesi](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-application-July-2017-update?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Platform güncelleştirmesi 8 (Haziran 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-8?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Platform güncelleştirmesi 7 (Mayıs 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-7?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Platform güncelleştirmesi 6 (Nisan 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-6?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Platform güncelleştirmesi 5 (Mart 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-5?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Platform güncelleştirmesi 4 (Şubat 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-4?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Operations sürümü 1611 (Kasım 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-dynamics-365-operations-1611?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Platform güncelleştirmesi 3 (Kasım 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-3?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Platform güncelleştirmesi 2 (Ağustos 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-2?toc=/dynamics365/unified-operations/retail/toc.json) 
+#### [Dynamics AX sürüm 7.0.1 (Mayıs 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-application-version-7-0-1-may-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Platform güncelleştirmesi 1 (Mayıs 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-platform-version-7-1-may-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Dynamics AX 7.0 (Şubat 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-7-0-february-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+### [Kullanımdan kaldırılan özellikler](/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/unified-operations/retail/toc.json)
+### [Henüz uygulanmayan AX 2012 özellikleri](/dynamics365/unified-operations/dev-itpro/get-started/ax-2012-features-not-implemented-but-not-deprecated?toc=/dynamics365/unified-operations/retail/toc.json)
+### [Şirket içi dağıtımlarda uygulanmayan özellikler](/dynamics365/unified-operations/dev-itpro/get-started/features-not-implemented-on-prem?toc=/dynamics365/unified-operations/retail/toc.json)
+### [Yaşam döngüsü ilkesi](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### Kullanıcı arabirimini keşfetme
+#### [İstemci kullanıcı arabirimiyle ilgili SSS](/dynamics365/unified-operations/fin-and-ops/get-started/client-faq?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Eylem arama](/dynamics365/unified-operations/fin-and-ops/get-started/action-search?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Gelişmiş filtreleme ve sorgu sözdizimi](/dynamics365/unified-operations/fin-and-ops/get-started/advanced-filtering-query-options?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Dynamics 365 for Finance and Operations, Enterprise sürümü istemciyle ilgili SSS](/dynamics365/unified-operations/fin-and-ops/get-started/client-faq?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Çalışma alanlarını konfigüre etme ve filtreleme](/dynamics365/unified-operations/fin-and-ops/get-started/configure-filter-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Yeni Pencerede Aç simgesini kullanarak sayfaları yan yana görüntüleme](/dynamics365/unified-operations/fin-and-ops/get-started/display-pages-side-by-side?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Gezinti araması](/dynamics365/unified-operations/fin-and-ops/get-started/navigation-search?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Kullanıcı deneyimini kişiselleştirme](/dynamics365/unified-operations/fin-and-ops/get-started/personalize-user-experience?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Klavye kısayolları](/dynamics365/unified-operations/fin-and-ops/get-started/shortcut-keys?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Sayfaların nasıl görüntüleneceğini yönetme](/dynamics365/unified-operations/fin-and-ops/get-started/window-management?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Gezinti araması](/dynamics365/unified-operations/fin-and-ops/get-started/navigation-search?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Kullanıcı deneyimini kişiselleştirme](/dynamics365/unified-operations/fin-and-ops/get-started/personalize-user-experience?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Bilgi bulmak için aramaları kullanma](/dynamics365/unified-operations/fin-and-ops//get-started/use-lookups-to-find-information?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Lifecycle Services'ı anlama](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### Yardım ve destek alma
@@ -28,8 +43,12 @@
 #### [Alan açıklamalarını görüntüleme ve dışa aktarma](/dynamics365/unified-operations/fin-and-ops/get-started/view-export-field-descriptions?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Görev kılavuzları ve görev kaydedici
 ##### [Görev Kaydedici](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Belge veya eğitim oluşturma](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Ülkeye/bölgeye özgü Yardım içeriği](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Belge veya eğitim oluşturma](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-training-docs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Kasım 2016 görev kılavuzları](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-november-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Ağustos 2016 görev kılavuzları](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-august-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Mayıs 2016 görev kılavuzları](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-may-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Şubat 2016 görev kılavuzları](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-available-february-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Yerelleştirme ve mevzuat özellikleri](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Sözlük](/dynamics365/unified-operations/fin-and-ops/get-started/glossary?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ## Uyumluluk
@@ -38,52 +57,52 @@
 
 ## Maliyet yönetimi
 ### Power BI içerik paketi
-#### [Maliyet yönetimi içerik paketi](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [Maliyet yönetimi içerik paketi](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
 ### Önceden belirlenmiş maliyet
-#### [Maliyetlendirme tablosu](/dynamics365/unified-operations/supply-chain/costing-sheets?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Maliyetlendirme sürümü](/dynamics365/unified-operations/supply-chain/costing-versions?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Planlanan maliyetler için bir maliyetlendirme sürümü kullanarak maliyet değişiminin benzetimini yapma](/dynamics365/unified-operations/supply-chain/simulate-cost-changes-costing-version-planned-costs?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Maliyetlendirme tablosu](/dynamics365/unified-operations/supply-chain/cost-management/costing-sheets?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Maliyetlendirme sürümü](/dynamics365/unified-operations/supply-chain/cost-management/costing-versions?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Planlanan maliyetler için bir maliyetlendirme sürümü kullanarak maliyet değişiminin benzetimini yapma](/dynamics365/unified-operations/supply-chain/cost-management/simulate-cost-changes-costing-version-planned-costs?toc=/dynamics365/unified-operations/retail/toc.json)
 ### Stok maliyetlendirme
-#### [Eldeki stokun maliyet değerini ayarlama](/dynamics365/unified-operations/supply-chain/inventory/adjust-hand-inventory-cost-values?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Maliyet nesnesi](/dynamics365/unified-operations/supply-chain/inventory/cost-object?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Maliyet girişi](/dynamics365/unified-operations/supply-chain/inventory/cost-entries?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Maliyet grubu](/dynamics365/unified-operations/supply-chain/inventory/cost-groups?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Fiziksel değer ve işaretleme ile FIFO](/dynamics365/unified-operations/supply-chain/inventory/fifo-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Fiziksel değeri dahil etme](/dynamics365/unified-operations/supply-chain/inventory/include-physical-value?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Stok nesnesi değeri](/dynamics365/unified-operations/supply-chain/inventory/physical-quantity?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Stok kapanışı](/dynamics365/unified-operations/supply-chain/inventory/inventory-close?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Fiziksel değer ve işaretleme ile LIFO Tarihi](/dynamics365/unified-operations/supply-chain/inventory/lifo-date-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Fiziksel değer ve işaretleme ile LIFO](/dynamics365/unified-operations/supply-chain/inventory/lifo-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Hareketli ortalama](/dynamics365/unified-operations/supply-chain/inventory/moving-average?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Fiziksel ve mali güncelleştirme](/dynamics365/unified-operations/supply-chain/inventory/physical-financial-updates?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Yürütülen ortalama maliyet fiyatı](/dynamics365/unified-operations/supply-chain/inventory/running-average-cost-price?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Stok boyutu başına cari ortalama maliyeti izleme](/dynamics365/unified-operations/supply-chain/inventory/track-running-average-cost-per-inventory-dimension?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Ağırlıklı ortalama tarihi](/dynamics365/unified-operations/supply-chain/inventory/weighted-average-date?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Fiziksel değer ve işaretleme ile ağırlıklı ortalama](/dynamics365/unified-operations/supply-chain/inventory/weighted-average-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Eldeki stokun maliyet değerini ayarlama](/dynamics365/unified-operations/supply-chain/cost-management/adjust-hand-inventory-cost-values?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Maliyet nesnesi](/dynamics365/unified-operations/supply-chain/cost-management/cost-object?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Maliyet girişi](/dynamics365/unified-operations/supply-chain/cost-management/cost-entries?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Maliyet grubu](/dynamics365/unified-operations/supply-chain/cost-management/cost-groups?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Fiziksel değer ve işaretleme ile FIFO](/dynamics365/unified-operations/supply-chain/cost-management/fifo-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Fiziksel değeri dahil etme](/dynamics365/unified-operations/supply-chain/cost-management/include-physical-value?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Stok nesnesi değeri](/dynamics365/unified-operations/supply-chain/cost-management/physical-quantity?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Stok kapanışı](/dynamics365/unified-operations/supply-chain/cost-management/inventory-close?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Fiziksel değer ve işaretleme ile LIFO Tarihi](/dynamics365/unified-operations/supply-chain/cost-management/lifo-date-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Fiziksel değer ve işaretleme ile LIFO](/dynamics365/unified-operations/supply-chain/cost-management/lifo-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Hareketli ortalama](/dynamics365/unified-operations/supply-chain/cost-management/moving-average?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Fiziksel ve mali güncelleştirme](/dynamics365/unified-operations/supply-chain/cost-management/physical-financial-updates?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Yürütülen ortalama maliyet fiyatı](/dynamics365/unified-operations/supply-chain/cost-management/running-average-cost-price?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Stok boyutu başına cari ortalama maliyeti izleme](/dynamics365/unified-operations/supply-chain/cost-management/track-running-average-cost-per-inventory-dimension?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Ağırlıklı ortalama tarihi](/dynamics365/unified-operations/supply-chain/cost-management/weighted-average-date?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Fiziksel değer ve işaretleme ile ağırlıklı ortalama](/dynamics365/unified-operations/supply-chain/cost-management/weighted-average-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
 ### Üretim maliyetlendirme
-#### [Üretilen maddeler için sabit maliyetlerin itfası](/dynamics365/unified-operations/supply-chain/amortize-constant-costs-manufactured-item?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Geriye dönük maliyetlendirme](/dynamics365/unified-operations/supply-chain/backflush-costing?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Ürün reçetesi hesaplamaları](/dynamics365/unified-operations/supply-chain/bom-calculations?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Ürün reçetesi hesaplama grubu](/dynamics365/unified-operations/supply-chain/bom-calculation-groups?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Üretim farkı ortak kaynakları](/dynamics365/unified-operations/supply-chain/common-sources-of-production-variances?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Üretim rotasında kullanılan maliyet kategorisi](/dynamics365/unified-operations/supply-chain/cost-categories-used-production-routings?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Üretim denetiminde ve Proje yönetimi muhasebesinde kullanılan maliyet kategorisi](/dynamics365/unified-operations/supply-chain/cost-categories-used-production-control-project-management-accounting?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Üretilen bir maddenin giderlerini görüntüleme](/dynamics365/unified-operations/supply-chain/charges-manufactured-item?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Üretim emri maliyet analizi](/dynamics365/unified-operations/supply-chain/production-order-cost-analysis?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Üretim emri maliyet tahmini](/dynamics365/unified-operations/supply-chain/production-order-cost-estimation?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Üretim deftere nakli](/dynamics365/unified-operations/supply-chain/production-posting?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Üretilen veya temin edilebilen bir ürün ayarlama](/dynamics365/unified-operations/supply-chain/manufactured-items-treated-as-purchased-items?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Toplam maliyet tahsisat yöntemi](/dynamics365/unified-operations/supply-chain/methodology-total-cost-allocation?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Üretilen maddeler için sabit maliyetlerin itfası](/dynamics365/unified-operations/supply-chain/cost-management/amortize-constant-costs-manufactured-item?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Geriye dönük maliyetlendirme](/dynamics365/unified-operations/supply-chain/cost-management/backflush-costing?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Ürün reçetesi hesaplamaları](/dynamics365/unified-operations/supply-chain/cost-management/bom-calculations?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Ürün reçetesi hesaplama grubu](/dynamics365/unified-operations/supply-chain/cost-management/bom-calculation-groups?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Üretim farkı ortak kaynakları](/dynamics365/unified-operations/supply-chain/cost-management/common-sources-of-production-variances?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Üretim rotasında kullanılan maliyet kategorisi](/dynamics365/unified-operations/supply-chain/cost-management/cost-categories-used-production-routings?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Üretim denetiminde ve Proje yönetimi muhasebesinde kullanılan maliyet kategorisi](/dynamics365/unified-operations/supply-chain/cost-management/cost-categories-used-production-control-project-management-accounting?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Üretilen bir maddenin giderlerini görüntüleme](/dynamics365/unified-operations/supply-chain/cost-management/charges-manufactured-item?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Üretim emri maliyet analizi](/dynamics365/unified-operations/supply-chain/cost-management/production-order-cost-analysis?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Üretim emri maliyet tahmini](/dynamics365/unified-operations/supply-chain/cost-management/production-order-cost-estimation?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Üretim deftere nakli](/dynamics365/unified-operations/supply-chain/cost-management/production-posting?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Üretilen veya temin edilebilen bir ürün ayarlama](/dynamics365/unified-operations/supply-chain/cost-management/manufactured-items-treated-as-purchased-items?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Toplam maliyet tahsisat yöntemi](/dynamics365/unified-operations/supply-chain/cost-management/methodology-total-cost-allocation?toc=/dynamics365/unified-operations/retail/toc.json)
 ### Standart maliyet
-#### [Standart maliyete sahip ürün reçetesi hesaplamaları](/dynamics365/unified-operations/supply-chain/information-used-bom-calculations-standard-costs?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Standart maliyet güncelleştirmesini yönetme](/dynamics365/unified-operations/supply-chain/manage-standard-cost-updates?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Standart maliyet dönüştürme için önkoşul](/dynamics365/unified-operations/supply-chain/prerequisites-standard-cost-conversion?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Standart maliyet dönüştürmeye genel bakış](/dynamics365/unified-operations/supply-chain/standard-cost-conversion-overview?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [İmalat ortamında standart maliyeti güncelleştirme](/dynamics365/unified-operations/supply-chain/update-standard-costs-manufacturing-environment?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Yeni üretilmiş bir madde için standart maliyeti güncelleştirme](/dynamics365/unified-operations/supply-chain/update-standard-costs-new-manufactured-item?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [İmalat dışı bir ortamda standart maliyeti güncelleştirme](/dynamics365/unified-operations/supply-chain/update-standard-costs-non-manufacturing-environment?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Standart maliyete sahip ürün reçetesi hesaplamaları](/dynamics365/unified-operations/supply-chain/cost-management/information-used-bom-calculations-standard-costs?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Standart maliyet güncelleştirmesini yönetme](/dynamics365/unified-operations/supply-chain/cost-management/manage-standard-cost-updates?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Standart maliyet dönüştürme için önkoşul](/dynamics365/unified-operations/supply-chain/cost-management/prerequisites-standard-cost-conversion?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Standart maliyet dönüştürmeye genel bakış](/dynamics365/unified-operations/supply-chain/cost-management/standard-cost-conversion-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [İmalat ortamında standart maliyeti güncelleştirme](/dynamics365/unified-operations/supply-chain/cost-management/update-standard-costs-manufacturing-environment?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Yeni üretilmiş bir madde için standart maliyeti güncelleştirme](/dynamics365/unified-operations/supply-chain/cost-management/update-standard-costs-new-manufactured-item?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [İmalat dışı bir ortamda standart maliyeti güncelleştirme](/dynamics365/unified-operations/supply-chain/cost-management/update-standard-costs-non-manufacturing-environment?toc=/dynamics365/unified-operations/retail/toc.json)
 
-## [Mali yönetim](/dynamics365/unified-operations/financials/TOC)
+## Mali yönetim
 
 ### [Genel muhasebe](/dynamics365/unified-operations/financials/general-ledger/general-ledger?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Hesaplar
@@ -124,6 +143,10 @@
 ##### [Satış vergisi ödemeleri ve yuvarlama kuralları](/dynamics365/unified-operations/financials/general-ledger/round-sales-tax-payments?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Kaynak alanında satış vergisi hesaplama yöntemleri](/dynamics365/unified-operations/financials/general-ledger/sales-tax-calculation-methods-origin-field?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Satış vergisi kodları için tam tutar ve aralık hesaplama seçenekleri](/dynamics365/unified-operations/financials/general-ledger/whole-amount-interval-options-sales-tax-codes?toc=/dynamics365/unified-operations/retail/toc.json)
+#### Gider yönetimi
+##### [Gider yönetimini planlama](/dynamics365/unified-operations/financials/expense-management/plan-expense-management?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Gider yönetimi parametreleri](/dynamics365/unified-operations/financials/expense-management/Expense-Management-Parameters?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Gider yönetimi mobil çalışma alanı](/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### [Borç hesapları](/dynamics365/unified-operations/financials/accounts-payable/accounts-payable?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Satıcı faturalarına genel bakış](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -140,14 +163,14 @@
 #### [Borç hesapları ve Alacak hesapları için yabancı para birimi yeniden değerleme işlemi](/dynamics365/unified-operations/financials/cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Mobil fatura onayları](/dynamics365/unified-operations/financials/accounts-payable/mobile-invoice-approvals?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Satıcı işbirliği faturalama çalışma alanı](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Satıcı faturası otomasyonu](/dynamics365/unified-operations/financials/vendor-invoice-automation?toc=/dynamics365/unified-operations/retail/toc.json) 
+#### [Satıcı faturası otomasyonu](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoice-automation?toc=/dynamics365/unified-operations/retail/toc.json) 
 #### Ödemeler ve kapatmalar
 ##### [Borç hesapları için merkezi ödemeler](/dynamics365/unified-operations/financials/accounts-payable/centralized-payments-accounts-payable?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Kapatma konfigüre etme](/dynamics365/unified-operations/financials/cash-bank-management/configure-settlement?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Satıcı ödemeleri çalışma alanı](/dynamics365/unified-operations/financials/vendor-payments-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Satıcı ödemeleri çalışma alanı](/dynamics365/unified-operations/financials/accounts-payable/vendor-payments-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Ödeme teklifi kullanarak satıcı ödemeleri oluşturma](/dynamics365/unified-operations/financials/accounts-payable/create-vendor-payments-payment-proposal?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Satıcı ödemesini tersine çevirme](/dynamics365/unified-operations/financials/accounts-payable/reverse-vendor-payment?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Satıcı çekleri için elektronik raporlama](/dynamics365/unified-operations/financials/electronic-reporting-sample-vendor-checks?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Satıcı çekleri için elektronik raporlama](/dynamics365/unified-operations/financials/accounts-payable/electronic-reporting-sample-vendor-checks?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Ön ödeme faturaları ve ön ödemelere genel bakış](/dynamics365/unified-operations/financials/accounts-payable/prepayments-invoices-vs-prepayments?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Kısmi satıcı ödemesini iskonto tarihinden önce kapatma](/dynamics365/unified-operations/financials/accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Satıcı alacak dekontları üzerinden iskontosu olan kısmi satıcı ödemesini kapatma](/dynamics365/unified-operations/financials/accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -166,6 +189,7 @@
 #### [Serbest metin faturaları için muhasebe dağılımları ve yardımcı defter günlüğü girdileri](/dynamics365/unified-operations/financials/accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Müşteri deftere nakil profilleri](/dynamics365/unified-operations/financials/accounts-receivable/customer-posting-profiles?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [SEPA hesaptan ödemeye genel bakış](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [SEPA doğrudan hesaptan ödeme talimatı](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-mandate?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Kredi kartı ayarı, onayı ve çekimi](/dynamics365/unified-operations/financials/accounts-receivable/credit-card-authorizations?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Serbest metin faturasını düzeltme](/dynamics365/unified-operations/financials/accounts-receivable/correct-free-text-invoice?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Faiz kodu için faiz oranları ayarlama](/dynamics365/unified-operations/financials/accounts-receivable/set-up-interest-rates-interest-code?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -177,7 +201,7 @@
 #### Ödemeler ve kapatmalar
 ##### [Birden fazla iskonto dönemine yayılan birden fazla faturayı kapatmak için bir müşteri ödemesi kullanma](/dynamics365/unified-operations/financials/accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Alacak hesapları için merkezi ödemeler](/dynamics365/unified-operations/financials/accounts-receivable/centralized-payments-accounts-receivable?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Kısmi müşteri ödemesini veya son ödemeyi iskontodan önce kapatma](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after?toc=/dynamics365/unified-operations/retail/toc.json) 
+##### [Kısmi müşteri ödemesini veya son ödemeyi iskontodan önce kapatma](/dynamics365/unified-operations/financials/accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount?toc=/dynamics365/unified-operations/retail/toc.json) 
 ##### [Kısmi müşteri ödemesini iskonto tarihinden önce, iskonto tarihinden sonraki bir son ödeme ile kapatma](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Alacak dekontları üzerinden iskontosu olan bir kısmi müşteri ödemesini kapatma](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-discounts-credit-notes?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Birden fazla iskonto dönemi olan bir kısmi müşteri ödemesini kapatma](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-multiple-discount-periods?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -186,8 +210,9 @@
 
 ### [Nakit ve banka yönetimi](/dynamics365/unified-operations/financials/cash-bank-management/cash-bank-management?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Nakit akışı tahmini](/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Banka yönetimi çalışma alanı](/dynamics365/unified-operations/financials/cash-bank-management/bank-management-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Nakit iskontoları](/dynamics365/unified-operations/financials/cash-bank-management/cash-discount-handling-overpayments?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Banka yönetimi çalışma alanı](/dynamics365/unified-operations/financials/cash-bank-management/Bank-management-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Nakit iskontoları](/dynamics365/unified-operations/financials/cash-bank-management/cash-discounts?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Fazla ödemeler için nakit iskontoları](/dynamics365/unified-operations/financials/cash-bank-management/cash-discount-handling-overpayments?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Kapatmaya genel bakış](/dynamics365/unified-operations/financials/cash-bank-management/settlement-overview-centralized-payments?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Merkezi ödemeler için kapatmaya genel bakış](/dynamics365/unified-operations/financials/cash-bank-management/settlement-overview-centralized-payments?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Kredi mektupları](/dynamics365/unified-operations/financials/cash-bank-management/letters-of-credit?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -210,7 +235,7 @@
 ##### [Banka günlüğü bileşik varlığını güncelleştirme](/dynamics365/unified-operations/financials/cash-bank-management/upgrade-bank-journal-composite-entity?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### [Sabit kıymetler](/dynamics365/unified-operations/financials/fixed-assets/fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Sabit kıymet çalışma alanı](/dynamics365/unified-operations/financials/fixed-assets/fixed-asset-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Sabit kıymet çalışma alanı](/dynamics365/unified-operations/financials/fixed-assets/fixed-asset-management-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Amortisman defteri yükseltmeye genel bakış](/dynamics365/unified-operations/financials/fixed-assets/depreciation-book-upgrade-considerations?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Türetilen defterler](/dynamics365/unified-operations/financials/fixed-assets/derived-books?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Sabit kıymet değer modeli ve amortisman defteri birleştirme](/dynamics365/unified-operations/financials/fixed-assets/fixed-asset-value-model-depreciation-book-merge?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -256,15 +281,15 @@
 #### [Diğer modüllerle bütçe planlama tümleştirmesi](/dynamics365/unified-operations/financials/budgeting/budget-planning-integration-other-modules?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [Raporlama](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Bilanço mali raporları](/dynamics365/unified-operations/financials/general-ledger/balance-sheet-financial-reports?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Mali rapor oluşturma](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/generate-financial-report?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [Mali rapor oluşturma](/dynamics365/unified-operations/dev-itpro/analytics/generate-financial-report?toc=/dynamics365/unified-operations/financials/toc.json)
 #### [Gelir tablosu mali raporu](/dynamics365/unified-operations/financials/general-ledger/income-statement-financial-report?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Mizan mali raporları](/dynamics365/unified-operations/financials/general-ledger/trial-balance-financial-reports?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Mali raporları görüntüleme](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Rapor tasarımcısı](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/report-designer-interface?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [Rapor tasarımcısı](/dynamics365/unified-operations/dev-itpro/analytics/report-designer-interface?toc=/dynamics365/unified-operations/financials/toc.json)
 
 ### [Maliyet muhasebesi](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Koşullar](/dynamics365/unified-operations/financials/cost-accounting/terms-cost-accounting?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Uygulamalı laboratuvar çalışmaları (/dynamics365/unified-operations/financials/White paper)](/dynamics365/unified-operations/financials/https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc)
+#### [Uygulamalı laboratuvarlar (Teknik inceleme)](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc)
 #### [Maliyet öğesi boyutları](/dynamics365/unified-operations/financials/cost-accounting/cost-elements?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Maliyet nesnesi boyutları](/dynamics365/unified-operations/financials/cost-accounting/cost-objects?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Maliyet öğesi boyutu üyelerini ortak bir boyut öğeleri kümesiyle eşleme](/dynamics365/unified-operations/financials/cost-accounting/map-cost-elements-dimension-members?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -276,8 +301,8 @@
 #### [Bir maliyet nesnesi denetleyicisinin erişim hakları](/dynamics365/unified-operations/financials/cost-accounting/access-rights-cost-object-controller?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Maliyet kontrolü çalışma alanı](/dynamics365/unified-operations/financials/cost-accounting/cost-control-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Maliyet kontrolü mobil çalışma alanı](/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Maliyet muhasebesi analizi Power BI içeriği](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
-#### [Maliyet muhasebesi analizi Power BI içeriğinin güvenliğini ayarlama](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [Maliyet muhasebesi analizi Power BI içeriği](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [Maliyet muhasebesi analizi Power BI içeriğinin güvenliğini ayarlama](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
 
 ### [Kamu sektörü](/dynamics365/unified-operations/financials/public-sector/public-sector-functionality?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Kamu sektörü işlevi için planlama](/dynamics365/unified-operations/financials/public-sector/plan-public-sector-functionality?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -316,7 +341,7 @@
 ### [Satır tanımı hücrelerini değiştirme](/dynamics365/unified-operations/dev-itpro/analytics/modify-row-definition-cells-financial-reporting?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [Bir veritabanını geri yükledikten sonra mali raporlama veri reyonunu sıfırlama](/dynamics365/unified-operations/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore?toc=/dynamics365/unified-operations/retail/toc.json)
 
-### [Yerelleştirmeye genel bakış](/dynamics365/unified-operations/financials/localizations//dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/financials/localizations/toc.json)
+## [Yerelleştirme ve mevzuat özellikleri](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/retail/toc.json)
 ### Asya Pasifik
 #### Avustralya
 ##### [Banka dosyası biçimleri](/dynamics365/unified-operations/financials/localizations/apac-aus-method-of-payment-pay-vendors-banks?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -327,27 +352,27 @@
 ##### [Ürün reçetesi karşılaştırması](/dynamics365/unified-operations/financials/localizations/apac-chn-bom-comparison?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Çince fişler](/dynamics365/unified-operations/financials/localizations/apac-chn-vouchers?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Vergi tümleştirmesini yapılandırma](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [KDV müşteri faturaları hakkında SSS](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration-vat-customer-invoices?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [KDV müşteri faturaları hakkında SSS](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration-vat-customer-invoices?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Amortisman yöntemleri sabit kıymetler ](/dynamics365/unified-operations/financials/localizations/apac-chn-depreciation-methods-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Çin Altın Vergisi veri varlığını içe aktarma](/dynamics365/unified-operations/financials/localizations/apac-chn-import-golden-tax-data-entity?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Aylık ortalama maliyet modeli](/dynamics365/unified-operations/financials/localizations/apac-chn-monthly-average-cost-model?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Stok ana hesaplarını siteye göre deftere nakletme](/dynamics365/unified-operations/financials/localizations/apac-chn-post-inventory-main-accounts-by-site?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Negatif borç alacaklarını ayarlama ](/dynamics365/unified-operations/financials/localizations/apac-chn-negative-debits-credits?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Japonya
+##### [Tahsisat kuralları](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Satıcılar tarafından karşılanan banka ödemesi masrafları](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Konsolide faturalar](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices?toc=/dynamics365/unified-operations/retail/toc.json)
-##### Sabit kıymetler
-###### [Tahsisat kuralları](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Amortisman hakkında SSS](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [Eşit olarak bölünmüş amortisman yöntemi](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Düşüklük muhasebesi](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [CGU'da düşüklük muhasebesi](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [ARO'yu ayarlama](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [İndirim girişlerini ayarlama](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Amortisman hakkında SSS](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Eşit olarak bölünmüş amortisman yöntemi](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Düşüklük muhasebesi](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [CGU'da düşüklük muhasebesi](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Posta kodlarını içe aktar](/dynamics365/unified-operations/financials/localizations/apac-jpn-import-postal-codes?toc=/dynamics365/unified-operations/retail/toc.json) 
 ##### [Satıcıya kambiyo senedi vererek ödeme yapma](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Aşamalı stopaj vergisi hesaplama](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [ARO'yu ayarlama](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [İndirim girişlerini ayarlama](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Malezya
-##### [Ürün ve Hizmet Vergisi ](/dynamics365/unified-operations/financials/localizations/apac-mys-gst?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Ürün ve Hizmet Vergisi](/dynamics365/unified-operations/financials/localizations/apac-mys-gst?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Singapur
 ##### [GST-05 raporunu oluşturma](/dynamics365/unified-operations/financials/localizations/apac-sgp-generate-gst-05-report?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Tayland
@@ -357,13 +382,20 @@
 
 ### Avrupa
 #### [Avans sahipleri](/dynamics365/unified-operations/financials/localizations/emea-advance-holders?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Avans sahibi hareketleri](/dynamics365/unified-operations/financials/localizations/emea-advance-holders-transactions?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Gelişmiş faturalama](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Banka mutabakatı](/dynamics365/unified-operations/financials/localizations/emea-bank-reconciliation?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Düzeltici faturalama](/dynamics365/unified-operations/financials/localizations/emea-corrective-invoice?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Periyodik günlükleri oluşturma ve deftere nakletme](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Satış siparişlerindeki fatura kodlarını düzenleme](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [AB giriş sertifikaları](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [AB satış listesi raporlaması](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Döviz kuru ayarlamaları](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Ödeme yöntemlerine ait dosya biçimleri](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Estonya ve Litvanya için sabit kıymetleri elden çıkarma](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [ISO20022 dosyalarını içe aktarma](/dynamics365/unified-operations/financials/localizations/emea-ISO20022-file-formats?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Intrastat](/dynamics365/unified-operations/financials/localizations/emea-intrastat?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Stok günlüğü raporları](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Letonya ve Litvanya için fatura ve sevk irsaliyesi numaralandırma](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Fatura düzenleme son tarihleri](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [OIOUBL standartları](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -372,14 +404,22 @@
 #### [Sabit kıymetin ön alımını deftere nakletme](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Posta kodları](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Kayıt kodları](/dynamics365/unified-operations/financials/localizations/emea-registration-ids?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Ters giderler](/dynamics365/unified-operations/financials/localizations/emea-reverse-charge?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [SEPA Alacak transferine genel bakış](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [SEPA Hesaptan ödemeye genel bakış](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Müşteri ve satıcı ücreti ayarlama](/dynamics365/unified-operations/financials/accounts-receivable/emea-compensation-customer-vendor-transactions?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Basılı formlar için imzalayanları ayarlama](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Storno muhasebesi](/dynamics365/unified-operations/financials/localizations/emea-storno?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Vergi yönergeleri](/dynamics365/unified-operations/financials/localizations/emea-tax-directives?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Tutarların raporlarda ve belgelerde nasıl görüntüleneceğini güncelleştirme](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms?toc=/dynamics365/unified-operations/retail/toc.json) 
 #### [KDV döviz kurları](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Doğu Avrupa için KDV kayıt hareketleri](/dynamics365/unified-operations/financials/localizations/emea-vat-register-transactions?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [KDV raporlama](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Kapatma hareketlerini görüntüleme](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Avusturya
 ##### [Yarı yıl amortismanı](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Ambalaj malzemesi ücretleri](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Satınalma harçları](/dynamics365/unified-operations/financials/localizations/emea-aut-purchase-duties?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [KDV beyanı](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Belçika
 ##### [CODA banka ekstresi](/dynamics365/unified-operations/financials/localizations/emea-bel-coda-bank-statement-import?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -388,7 +428,7 @@
 ##### [Mutabakat raporları](/dynamics365/unified-operations/financials/localizations/emea-bel-reconciliation-reports?toc=/dynamics365/unified-operations/retail/toc.json)
 
 #### Çek Cumhuriyeti
-##### [Alacak dekontunda nakit iskontosu](/dynamics365/unified-operations/financials/localizations/emea-cze-credit-note-cash-discount?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Nakit iskontosunda alacak dekontu](/dynamics365/unified-operations/financials/localizations/emea-cze-credit-note-cash-discount?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Amortisman yuvarlama](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-rounding?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Amortisman bekletme](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-suspension-holidays?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Sabit kıymetler amortismanı](/dynamics365/unified-operations/financials/localizations/emea-cze-fixed-assets-depreciation?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -402,6 +442,7 @@
 ###### [Kamu sektörü muhasebesi](/dynamics365/unified-operations/financials/localizations/emea-fra-public-sector-accounting?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [Taahhütler](/dynamics365/unified-operations/financials/localizations/emea-fra-commitments-public-sector?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [Mandats de paiement](/dynamics365/unified-operations/financials/localizations/emea-fra-mandats-de-paiement?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Tedarik ve kaynak atama](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [Titres de recette](/dynamics365/unified-operations/financials/localizations/emea-fra-titres-de-recette-public-sector?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [Satıcı faturası ödeme tutmaları](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Kronolojik faturalar ve fişler](/dynamics365/unified-operations/financials/localizations/emea-fra-chronological-invoices-vouchers?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -427,7 +468,7 @@
 ##### [Faturalarda sevk irsaliyesi tarihi doğrulama](/dynamics365/unified-operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Satış vergisi defterleri](/dynamics365/unified-operations/financials/localizations/emea-ita-fiscal-books?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Kamu İdaresi için düzenlenen faturalarda bölünmüş ödeme](/dynamics365/unified-operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Stopaj vergisi](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding tax?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Stopaj vergisi](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding-tax?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Letonya
 ##### [Sabit kıymet muhasebesi](/dynamics365/unified-operations/financials/localizations/emea-lva-fixed-assets-accounting?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Sabit kıymet konum değişikliğini izleme](/dynamics365/unified-operations/financials/localizations/emea-lva-fixed-assets-location-fields-change?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -438,6 +479,7 @@
 ##### [KDV beyanı ayrıntıları](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Norveç
 ##### [Nets içe aktarma biçimi](/dynamics365/unified-operations/financials/localizations/emea-nor-nets-import-format?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [KDV beyanı](/dynamics365/unified-operations/financials/localizations/emea-nor-sales-tax-payment-report?toc=/dynamics365/unified-operations/retail/toc.json) 
 #### Polonya
 ##### [Satır iskontolarını birim fiyat üzerinden hesaplama](/dynamics365/unified-operations/financials/localizations/emea-pol-line-discount-calculation-from-unit-price?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Düzeltme notları](/dynamics365/unified-operations/financials/localizations/emea-pol-correction-notes?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -474,6 +516,7 @@
 ###### [Mali belgeleri içe aktarma](/dynamics365/unified-operations/financials/localizations/latam-bra-import-fiscal-documents?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [Genel muhasebe konsolidasyonunundaki tüzel kişilik hareketlerini dışa ve içe aktarma](/dynamics365/unified-operations/financials/localizations/latam-bra-general-ledger-consolidation-transactions?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [NF-e XML belgelerini ve DANFE dosyalarını içe aktarma ve doğrulama](/dynamics365/unified-operations/financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [NF-e ve DANFE dosyalarını ayarlama](/dynamics365/unified-operations/financials/localizations/Set-up-import-nf-e-documents?toc=/dynamics365/unified-operations/retail/toc.json) 
 ###### [Elektronik ödeme havalelerini işleme](/dynamics365/unified-operations/financials/localizations/latam-bra-process-electronic-payment-remittances?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [Mali belgeler](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [Mali belge metni yer tutucuları](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-document-text-placeholders?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -481,7 +524,7 @@
 ###### [Başvurulan mali belgeler](/dynamics365/unified-operations/financials/localizations/latam-bra-referenced-fiscal-documents?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [Satış tamamlayıcı mali belgeleri](/dynamics365/unified-operations/financials/localizations/latam-bra-sales-complementary-fiscal-documents?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [Hizmet elektronik mali belgesi](/dynamics365/unified-operations/financials/localizations/latam-bra-service-electronic-fiscal-document?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Elektronik ödeme iade işlemi sırasında oluşturulan günlükler](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Elektronik ödeme iade işlemi sırasında oluşturulan günlükler](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [NF-e işlemi](/dynamics365/unified-operations/financials/localizations/latam-bra-nf-e-process?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Tüzel kişilikler için parametreler](/dynamics365/unified-operations/financials/localizations/latam-bra-legal-entity-parameters?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [CIAP sabit kıymeti alma](/dynamics365/unified-operations/financials/localizations/latam-bra-ciap-fixed-asset?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -495,11 +538,13 @@
 ##### [Elektronik faturalar ](/dynamics365/unified-operations/financials/localizations/latam-mex-CFDI-electronic-invoices?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Elektronik genel muhasebe ekstreleri](/dynamics365/unified-operations/financials/localizations/latam-mex-electronic-ledger-accounting-statements?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ISR beyanname raporu](/dynamics365/unified-operations/financials/localizations/latam-mex-isr-declaration-report-supporting-processes?toc=/dynamics365/unified-operations/retail/toc.json)
-
+### Orta Doğu
+#### [Suudi Arabistan için zekat raporlaması](/dynamics365/unified-operations/financials/localizations/emea-sau-zakat-reporting?toc=/dynamics365/unified-operations/retail/toc.json)
 ### Kuzey Amerika
 #### [ABD için yıl sonu 1099 raporlaması](/dynamics365/unified-operations/financials/localizations/noam-usa-year-end-1099-reporting?toc=/dynamics365/unified-operations/retail/toc.json)
-## İnsan kaynakları
+#### [Kamu sektörüne yönelik Form 1099](/dynamics365/unified-operations/financials/localizations/noam-usa-form-1099-public-sector?toc=/dynamics365/unified-operations/retail/toc.json)
 
+## İnsan kaynakları
 ### İşe Alma
 #### [İşe alma sürecini yönetme](/dynamics365/unified-operations/fin-and-ops/hr/manage-recruiting-process?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Toplu işe alma projeleri](/dynamics365/unified-operations/fin-and-ops/hr/mass-hire-projects?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -538,6 +583,7 @@
 ### [Power BI içeriğine erişme](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-content-microsoft-partners?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### [Serbest bırakılan Power BI içeriği](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Fiili-bütçe karşılaştırması](/dynamics365/unified-operations/dev-itpro/analytics/ledger-budgets-power-bi?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Kazançlar](/dynamics365/unified-operations/dev-itpro/analytics/benefits-power-bi?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Nakde genel bakış](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 #### [CFO'ya genel bakış](/dynamics365/unified-operations/dev-itpro/analytics/CFO-power-bi?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -550,7 +596,7 @@
 #### [Personel uzmanlıkları ve gelişimi](/dynamics365/unified-operations/dev-itpro/analytics/employee-competencies-and-development-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Personel gelişimi](/dynamics365/unified-operations/dev-itpro/analytics/employee-development-PBI?toc=/dynamics365/unified-operations/retail/toc.json) 
 #### [Mali performans](/dynamics365/unified-operations/dev-itpro/analytics/financial-performance-power-bi-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Sabit kıymet yönetimi](/dynamics365/unified-operations/dev-itpro/analytics//dynamics365/unified-operations/financials/fixed-assets/Fixed-asset-management-workspace)
+#### [Sabit kıymet yönetimi](/dynamics365/unified-operations/financials/fixed-assets/Fixed-asset-management-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Öğrenme](/dynamics365/unified-operations/dev-itpro/analytics/learning-power-bi?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Kurumsal eğitim](/dynamics365/unified-operations/dev-itpro/analytics/organizational-training-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Uygulama yöneticisi](/dynamics365/unified-operations/dev-itpro/analytics/practice-manager-power-bi?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -559,7 +605,7 @@
 #### [İşe alma](/dynamics365/unified-operations/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Perakende kanalı performansı ](/dynamics365/unified-operations/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Satış ve karlılık performansı](/dynamics365/unified-operations/dev-itpro/analytics/sales-profitability-performance-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Satıcı ödemeleri](/dynamics365/unified-operations/dev-itpro/analytics//dynamics365/unified-operations/financials/accounts-payable/Vendor-payments-workspace)
+#### [Satıcı ödemeleri](/dynamics365/unified-operations/financials/accounts-payable/Vendor-payments-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Ambar performansı](/dynamics365/unified-operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [İş gücü ölçümleri](/dynamics365/unified-operations/dev-itpro/analytics/workforce-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
 
@@ -567,6 +613,7 @@
 #### [Belge Raporlama Hizmetlerine genel bakış](/dynamics365/unified-operations/dev-itpro/analytics/document-reporting-services?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Yazdırma](/dynamics365/unified-operations/dev-itpro/analytics/print-documents?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Ağ yazıcı cihazlarını etkinleştirme](/dynamics365/unified-operations/dev-itpro/analytics/install-document-routing-agent?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Şirket içi dağıtımlarda belge oluşturma, yayınlama ve yazdırma yetenekleri](/dynamics365/unified-operations/dev-itpro/analytics/printing-capabilities-on-premises?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Windows hizmeti olarak Belge Rota Aracısı'nı çalıştırma](/dynamics365/unified-operations/dev-itpro/analytics/run-document-routing-agent-as-windows-service?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Uzun süre çalışan raporların zaman aşımına uğramasını önlemeye yardımcı olma](/dynamics365/unified-operations/dev-itpro/analytics/prevent-long-running-reports-timing-out?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [SQL Server Reporting Services raporları listesi](/dynamics365/unified-operations/dev-itpro/analytics/SSRS-report?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -593,6 +640,7 @@
 ### Analiz araçları ve sanallaştırmalar
 #### [Analiz, toplanan ölçümler ve KPI modellemesi](/dynamics365/unified-operations/dev-itpro/analytics/analytics?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Modelleme ve toplanan veriler](/dynamics365/unified-operations/dev-itpro/analytics/model-aggregate-data?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Ölçümleri toplamak için mali boyutlar ekleme](/dynamics365/unified-operations/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Formlara bağlamsal BI ekleme](/dynamics365/unified-operations/dev-itpro/analytics/add-contextual-bi-forms?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Toplanan ölçümler raporu](/dynamics365/unified-operations/dev-itpro/analytics/aggregate-measurements-report?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Toplanan veri varlıkları raporu](/dynamics365/unified-operations/dev-itpro/analytics/aggregate-data-entities-report?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -600,10 +648,13 @@
 #### [Power BI tümleştirmesi](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-integration?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Katıştırılmış Power BI tümleştirmesi](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-embedded-integration?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Çalışma alanlarında katıştırılmış Power BI](/dynamics365/unified-operations/dev-itpro/analytics/embed-power-bi-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Katıştırılmış Power BI kullanarak çalışma alanlarına analiz ekleme](/dynamics365/unified-operations/dev-itpro/analytics/secure-analytical-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Katıştırılmış Power BI kullanarak analiz çalışma alanlarını ve raporlarını güvenlik altına almaya yardımcı olma](/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Çalışma alanlarına Power BI ekleme](/dynamics365/unified-operations/dev-itpro/analytics/add-bi-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Power BI raporlarını çalışma alanlarına sabitleme](/dynamics365/unified-operations/dev-itpro/analytics/pin-power-bi-reports?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Varlık deposu ile Power BI tümleştirme](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-integration-entity-store?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Varlık deposu ile Power BI'ı tümleştirme](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-integration-entity-store?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Power BI raporlarını Varlık deposuyla yazma ve dağıtma](/dynamics365/unified-operations/dev-itpro/analytics/author-distribute-power-bi-reports?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Varlıkları kendi Azure SQL veritabanınıza aktarma](/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/unified-operations/retail/toc.json)
 
 
 ## Stok yönetimi
@@ -657,6 +708,7 @@
 ##### [Açık bir iş listesinde sistem gruplama](/dynamics365/unified-operations/supply-chain/warehousing/system-group-on-open-work-list?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Malzeme çekme ve paketleme
 ##### [Bir mobil cihazda en eski toplu işi çekme](/dynamics365/unified-operations/supply-chain/warehousing/pick-oldest-batch?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Bir mobil cihazda ambar içindeki eski toplu işleri görüntülemeyi konfigüre etme](/dynamics365/unified-operations/supply-chain/warehousing/display-older-batches-within-warehouses?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Parça çekme onayı](/dynamics365/unified-operations/supply-chain/warehousing/piece-picking-confirmation?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Ambalaj malzemeleri ve ücretleri](/dynamics365/unified-operations/supply-chain/warehousing/pack-materials-packing-material-fees?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Stok sayımı
@@ -677,6 +729,8 @@
 ##### [Ambar işi için mobil cihazları ayarlama](/dynamics365/unified-operations/supply-chain/warehousing/configure-mobile-devices-warehouse?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Ambar Mobil Cihaz Portalı (WMDP)](/dynamics365/unified-operations/supply-chain/warehousing/warehouse-mobile-devices-portal?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Ambar mobil cihaz görüntüleme ayarları](/dynamics365/unified-operations/supply-chain/warehousing/change-warehouse-mobile-device-displays?toc=/dynamics365/unified-operations/retail/toc.json)
+#### Yükseltme ve geçiş
+##### [AX 2012'den Finance and Operations'a geçiş](/dynamics365/unified-operations/supply-chain/warehousing/upgrade-migration-warehouse-management-processes?toc=/dynamics365/unified-operations/retail/toc.json)
 
 
 ## Master planlama
@@ -719,12 +773,13 @@
 ##### [Satınalma siparişine genel bakış](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Satınalma siparişleri oluşturma](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-creation?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Satınalma siparişlerini onaylama](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-approval-confirmation?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Satınalma siparişi onayı mobil çalışma alanı](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-mobile-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Fiyatlar ve iskontolar
 ##### [Satınalma sözleşmeleri](/dynamics365/unified-operations/supply-chain/procurement/purchase-agreements?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Ürün girişleri ve faturalama
 ##### [Ürün girişi ve satınalma siparişleri karşılaştırması](/dynamics365/unified-operations/supply-chain/procurement/product-receipt-against-purchase-orders?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Satıcı faturalarına genel bakış](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [Satıcı deftere nakil profilleri](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [Satıcı faturalarına genel bakış](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Satıcı deftere nakil profilleri](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Satıcı yönetimi ve iş birliği
 ##### [Satıcı iş birliğini ayarlama ve koruma](/dynamics365/unified-operations/supply-chain/procurement/set-up-maintain-vendor-collaboration?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Satıcı iş birliği kullanıcılarını yönetme](/dynamics365/unified-operations/supply-chain/procurement/manage-vendor-collaboration-users?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -761,7 +816,8 @@
 ### [Numara serilerine genel bakış](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [Elektronik imzalara genel bakış](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [Servis talebi yönetimine genel bakış](/dynamics365/unified-operations/fin-and-ops/organization-administration/cases?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Servis talebi güvenliğini, işlemleri ve kategorileri yapılandırma](/dynamics365/unified-operations/fin-and-ops/organization-administration/plan-case-management?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Servis talebi güvenliğini, işlemlerini ve kategorilerini konfigüre etme](/dynamics365/unified-operations/fin-and-ops/organization-administration/plan-case-management?toc=/dynamics365/unified-operations/retail/toc.json)
+### [Belge yönetimini konfigüre etme](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-document-management?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [Kayıt şablonları oluşturma](/dynamics365/unified-operations/fin-and-ops/organization-administration/record-templates?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [E-posta konfigüre etme ve gönderme](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-email?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [Tarih/saat tarih ve saat dilimleri](/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -822,6 +878,9 @@
 #### Ham maddeleri yönetme
 ##### [Üretim emirlerinden çıkış noktalarına çapraz sevk](/dynamics365/unified-operations/supply-chain/production-control/cross-docking-opportunities?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Mobil cihaz kullanarak malzeme tüketimini kaydetme](/dynamics365/unified-operations/supply-chain/production-control/register-material-consumption-hand-held-device?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Temizlik ilkeleri kullanarak ham madde tüketimini kontrol etme](/dynamics365/unified-operations/supply-chain/production-control/flushing-principles?toc=/dynamics365/unified-operations/retail/toc.json) 
+#### Mamul malları yönetme
+##### [Mamul mallar için üretim çıkış konumunu belirleme](/dynamics365/unified-operations/supply-chain/production-control/production-output-location?toc=/dynamics365/unified-operations/retail/toc.json)
 ### Yalın imalat 
 #### [Yalın imalata genel bakış](/dynamics365/unified-operations/supply-chain/production-control/lean-manufacturing-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Faaliyet tabanlı alt sözleşme](/dynamics365/unified-operations/supply-chain/production-control/activity-based-subcontracting?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -912,35 +971,17 @@
 
 ## [Birleşik Operations Platformu'nu kullanarak geliştirme ve yönetim](/dynamics365/unified-operations/dev-itpro/index)
 
-### [Geliştirme ve yönetime genel bakış](/dynamics365/unified-operations/dev-itpro/get-started/getting-started-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Sistem gereksinimleri](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Tanıtım verilerine genel bakış](/dynamics365/unified-operations/dev-itpro/get-started/demo-data?toc=/dynamics365/unified-operations/retail/toc.json)
-#### Yardım sistemi
-##### [Yardım sistemine genel bakış](/dynamics365/unified-operations/dev-itpro/get-started/help-overview?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Yardım sistemini bağlama](/dynamics365/unified-operations/dev-itpro/get-started/help-connect?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Yenilikler veya değişiklikler](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Operations platformu güncelleştirmesi 7 (Mayıs 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-7?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Operations platformu güncelleştirmesi 6 (Nisan 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-6?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Operations platformu güncelleştirmesi 5 (Mart 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-5?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Operations platformu güncelleştirmesi 4 (Şubat 2017)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-4?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Operations sürümü 1611 (Kasım 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-dynamics-365-operations-1611?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Operations platformu güncelleştirmesi 3 (Kasım 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-3?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Dynamics AX platformu güncelleştirmesi 2 (Ağustos 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-2?toc=/dynamics365/unified-operations/retail/toc.json) 
-##### [Dynamics AX uygulama sürümü 7.0.1 (Mayıs 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-application-version-7-0-1-may-2016?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Dynamics AX platformu güncelleştirmesi 1 (Mayıs 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-platform-version-7-1-may-2016?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Dynamics AX 7.0 (Şubat 2016)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-7-0-february-2016?toc=/dynamics365/unified-operations/retail/toc.json)
-##### Güncelleştirilen görev kılavuzları
-###### [Kasım 2016 görev kılavuzları](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-november-2016?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Ağustos 2016 görev kılavuzları](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-august-2016?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Mayıs 2016 görev kılavuzları](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-may-2016?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Şubat 2016 görev kılavuzları](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-available-february-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+### [Sistem gereksinimleri](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/retail/toc.json)
+### [Tanıtım verileri](/dynamics365/unified-operations/dev-itpro/get-started/demo-data?toc=/dynamics365/unified-operations/retail/toc.json)
+### [Veri doğrulama](/dynamics365/unified-operations/dev-itpro/user-interface/data-validation-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
+
 
 
 ### [Visual Studio kullanarak geliştirme ve özelleştirme](/dynamics365/unified-operations/dev-itpro/dev-tools/developer-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Uygulama yığını ve sunucu mimarisi](/dynamics365/unified-operations/dev-itpro/dev-tools/application-stack-server-architecture?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Değerlendirme kopyası alma](/dynamics365/unified-operations/dev-itpro/dev-tools/get-evaluation-copy?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Bir aboneliğe kaydolma](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Dynamics 365 for Finance and Operations, Enterprise sürümü örneklerine erişme](/dynamics365/unified-operations/dev-itpro/dev-tools/dev-tools/access-instances?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Erişim örnekleri](/dynamics365/unified-operations/dev-itpro/dev-tools/access-instances?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Geliştirme sistemi gereksinimleri](/dynamics365/unified-operations/dev-itpro/dev-tools/development-system-requirements?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Filo Yönetimi örnek uygulaması
 ##### [Filo Yönetimi örnek uygulaması](/dynamics365/unified-operations/dev-itpro/dev-tools/fleet-management-sample?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -955,7 +996,6 @@
 ##### [Model ve veri modeli öğeleri oluşturma](/dynamics365/unified-operations/dev-itpro/dev-tools/create-data-model-elements?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Bir geliştirme makinesinde yeni kullanıcı oluşturma](/dynamics365/unified-operations/dev-itpro/dev-tools/enable-development-machine?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Özelleştirme Analizi Raporu](/dynamics365/unified-operations/dev-itpro/dev-tools/customization-analysis-report?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Geliştirme araçları](/dynamics365/unified-operations/dev-itpro/dev-tools/development-tools?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Öğe tasarımcıları](/dynamics365/unified-operations/dev-itpro/dev-tools/element-designers?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Öğe kullanımı](/dynamics365/unified-operations/dev-itpro/dev-tools/element-usage?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Model dışa ve içe aktarma](/dynamics365/unified-operations/dev-itpro/dev-tools/models-export-import?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -970,9 +1010,9 @@
 ##### [Bir üretim veritabanı kopyası karşısında X++ hatalarını ayıklama](/dynamics365/unified-operations/dev-itpro/dev-tools/debug-x-issue-against-copy-of-production?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [X++ kodu hatalarını ayıklama](/dynamics365/unified-operations/dev-itpro/dev-tools/debug-xpp?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [İstek ve yanıt senaryolarında EventHandlerResult sınıfları](/dynamics365/unified-operations/dev-itpro/dev-tools/event-handler-result-class?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [C#### ve X++ kaynak kodu kullanarak iş mantığı yazma](/dynamics365/unified-operations/dev-itpro/dev-tools/write-business-logic?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [C\# ve X++ kaynak kodu kullanarak iş mantığı yazma](/dynamics365/unified-operations/dev-itpro/dev-tools/write-business-logic?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Programlama dili desteği](/dynamics365/unified-operations/dev-itpro/dev-tools/programming-language-support?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [C# için LINQ sağlayıcısı](/dynamics365/unified-operations/dev-itpro/dev-tools/linq-provider-c?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [C\# için LINQ sağlayıcısı](/dynamics365/unified-operations/dev-itpro/dev-tools/linq-provider-c?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [En iyi yazma uygulamaları](/dynamics365/unified-operations/dev-itpro/dev-tools/author-best-practice-rules?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Uygulama Gezgini özellikleri](/dynamics365/unified-operations/dev-itpro/dev-ref/application-explorer-aot-properties?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### X++ dil referansı
@@ -985,7 +1025,7 @@
 ###### [X++ verilerini seçme ve değiştirme](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-data-query?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [X++ makroları](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-macros?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [X++ öznitelik sınıfları](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-attribute-classes?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [X++ ve C#### karşılaştırması](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-cs-comparison?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [X++ ve C\# karşılaştırması](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-cs-comparison?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [X++ söz dizimi](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-syntax?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Derleme zamanı işlevleri
 ##### [X++ derleme zamanı işlevleri](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-compile-time-functions?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1039,7 +1079,7 @@
 ##### [W Sınıfları](/dynamics365/unified-operations/dev-itpro/dev-ref/w-classes?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [X Sınıfları](/dynamics365/unified-operations/dev-itpro/dev-ref/x-classes?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Uzantıları ve üst katman oluşturmayı özelleştirme
-##### Genişletilebilirlik
+##### [Genişletilebilirlik](/dynamics365/unified-operations/dev-itpro/extensibility/extensibility-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Uzantıları kullanarak model öğelerini özelleştirme](/dynamics365/unified-operations/dev-itpro/extensibility/customize-model-elements-extensions?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Uzantıları ve üst katman oluşturmayı özelleştirme](/dynamics365/unified-operations/dev-itpro/extensibility/customization-overlayering-extensions?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Sınıf uzantıları](/dynamics365/unified-operations/dev-itpro/extensibility/class-extensions?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1048,8 +1088,11 @@
 ##### Veritabanı eşitleme
 #### Paketleri ortamlar arasında taşıma
 ##### Dağıtılabilir paket oluşturma ve uygulama
-##### [Sürekli teslimat](/dynamics365/unified-operations/dev-itpro/continuous-delivery-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
-
+#### [Sürekli teslimat giriş sayfası](/dynamics365/unified-operations/dev-itpro/dev-tools/continuous-delivery-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Geliştirme ve sürekli teslimatla ilgili SSS](/dynamics365/unified-operations/dev-itpro/dev-tools/continuous-delivery-faq?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Test paketlerini yapı çıkışından çıkarma](/dynamics365/unified-operations/dev-itpro/dev-tools/exclude-test-packages?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Kaynak kontrolü kullanarak üçüncü taraf modellerini ve çalışma zamanı paketlerini yönetme](/dynamics365/unified-operations/dev-itpro/dev-tools/manage-runtime-packages?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Otomatik yapıdaki sürüm modelleri](/dynamics365/unified-operations/dev-itpro/dev-tools/version-models-build?toc=/dynamics365/unified-operations/retail/toc.json)
 
 #### Performans giriş sayfası
 ##### [İzleme ayrıştırıcıyı kullanarak izleme yapma](/dynamics365/unified-operations/dev-itpro/perf-test/trace-trace-tutorial?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1086,8 +1129,8 @@
 ##### [Filtreler](/dynamics365/unified-operations/dev-itpro/user-interface/filtering?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [PowerApps Ana Bilgisayar kontrolü](/dynamics365/unified-operations/dev-itpro/user-interface/powerapps-host-control?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Pencere yönetimi
-##### [Bağlam menüsü kodunu taşıma](/dynamics365/unified-operations/dev-itpro/user-interface/migration-upgrade/code-migration-context-menus?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Geçiş fareyle çift tıklama kodu](/dynamics365/unified-operations/dev-itpro/user-interface/migration-upgrade/code-migration-double-click?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Bağlam menüsü kodunu taşıma](/dynamics365/unified-operations/dev-itpro/migration-upgrade/code-migration-context-menus?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Geçiş fareyle çift tıklama kodu](/dynamics365/unified-operations/dev-itpro/migration-upgrade/code-migration-double-click?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Aramalar için bağlamsal veri girişi](/dynamics365/unified-operations/dev-itpro/user-interface/contextual-data-entry-lookups?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [HierarchyViewer kontrolü](/dynamics365/unified-operations/dev-itpro/user-interface/hierarchy-viewer-control?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Arama kontrolleri](/dynamics365/unified-operations/dev-itpro/user-interface/lookups-controls?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1128,8 +1171,8 @@
 ##### [FactBox formu modeli](/dynamics365/unified-operations/dev-itpro/user-interface/factbox-form-patterns?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Alt modeller
 ##### [Özel Filtre Grubu alt modeli](/dynamics365/unified-operations/dev-itpro/user-interface/custom-filter-group-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Boyut giriş kontrolü alt modeli](/dynamics365/unified-operations/dev-itpro/user-interface/financial/dimension-entry-control-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Boyut İfadesi Oluşturucusu alt modeli](/dynamics365/unified-operations/dev-itpro/user-interface/financial/dimension-expression-builder-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Boyut giriş kontrolü alt modeli](/dynamics365/unified-operations/dev-itpro/financial/dimension-entry-control-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Boyut İfadesi Oluşturucusu alt modeli](/dynamics365/unified-operations/dev-itpro/financial/dimension-expression-builder-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Alanlar ve Alan Grupları alt modeli](/dynamics365/unified-operations/dev-itpro/user-interface/fields-field-groups-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Filtreler ve Araç Çubuğu alt modelleri](/dynamics365/unified-operations/dev-itpro/user-interface/filters-toolbar-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Metin alt modelini doldurma](/dynamics365/unified-operations/dev-itpro/user-interface/fill-text-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1158,9 +1201,9 @@
 #### Çalışma alanları oluşturma
 ##### [Operasyonel çalışma alanları oluşturma](/dynamics365/unified-operations/dev-itpro/user-interface/build-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Çalışma alanları için kutucuk ve liste önbelleğe alma](/dynamics365/unified-operations/dev-itpro/user-interface/tile-list-caching-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
-#### Görev Kaydedici
-##### [Dynamics 365 for Finance and Operations, Enterprise sürümünde Görev Kaydedici](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Görev Kaydedici](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Görev Kaydedici hızlı referansı](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-quick-reference?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Görev Kaydedici kullanarak belgeler veya eğitim oluşturma](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-training-docs?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### Lifecycle Services kullanarak çözümler yayınlama
 #### [Geliştirme ve serbest bırakma](/dynamics365/unified-operations/dev-itpro/lcs-solutions/lcs-solutions-app-source)
@@ -1181,7 +1224,7 @@
 ##### [Yasal uyarı gönderme](/dynamics365/unified-operations/dev-itpro/lcs-solutions/submit-localization-alerts)
 
 
-### [Veri varlıkları](/dynamics365/unified-operations/dev-itpro/data-entities?toc=/dynamics365/unified-operations/retail/toc.json)
+### [Veri varlıkları](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Varsayılan veri varlıkları
 ##### [Veri varlıkları raporu](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-report?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Veri varlıkları: Borç hesapları ve vergiler](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-accounts-payable-taxes?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1211,7 +1254,9 @@
 
 #### Varlıkları taşıma
 ##### [Konfigürasyon verileri projeleri](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-projects?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Veri şablonlarını konfigüre etme](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-templates?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Konfigürasyon verileri paketleri](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-packages?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Konfigürasyon verisi şablonları](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-templates?toc=/dynamics365/unified-operations/retail/toc.json)
+
 ###### [Şirketler arasında konfigürasyon verilerini kopyalama](/dynamics365/unified-operations/dev-itpro/data-entities/copy-configuration?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Yevmiye defteri varlığını kullanarak fişleri içe aktarmaya yönelik en iyi uygulamalar](/dynamics365/unified-operations/dev-itpro/data-entities/tips-tricks-import-general-journal-entity?toc=/dynamics365/unified-operations/retail/toc.json)
 
@@ -1248,7 +1293,7 @@
 ### Office tümleştirmesi
 #### [Office tümleştirmesi](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Office tümleştirmesi eğitimi](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-tutorial?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Excel eklentisini kullanma](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration/use-excel-add-in?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Excel eklentisini kullanma](/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Excel'de Açma deneyimleri oluşturma](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-edit-excel?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Excel menüsünde Açık satırlara şablon ekleme](/dynamics365/unified-operations/dev-itpro/user-interface/add-templates-open-lines-excel-menu?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Microsoft Office'te aç menüsünü özelleştirme](/dynamics365/unified-operations/dev-itpro/office-integration/customize-open-office-menu?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1278,19 +1323,30 @@
 #### [Gantt geliştirme kılavuzu](/dynamics365/unified-operations/dev-itpro/user-interface/gantt-development-guide?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Yeni bir taşıma yönetimi altyapısı oluşturma](/dynamics365/unified-operations/supply-chain/transportation/create-new-transportation-management-engine?toc=/dynamics365/unified-operations/retail/toc.json)
 
-### [Perakende geliştirme kitaplığı](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### Dağıtım
-#### [Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü tanıtım ortamı dağıtma](/dynamics365/unified-operations/dev-itpro/deploy-demo-environment?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Azure Resource Manager kullanmaya başlama](/dynamics365/unified-operations/dev-itpro/arm-onboarding?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Azure ExpressRoute ve Dynamics 365 for Finance and Operations, Enterprise sürümü](/dynamics365/unified-operations/dev-itpro/expressroute?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü tanıtım ortamı dağıtma](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Azure Resource Manager kullanmaya başlama](/dynamics365/unified-operations/dev-itpro/deployment/arm-onboarding?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Azure ExpressRoute ve Dynamics 365 for Finance and Operations, Enterprise sürümü](/dynamics365/unified-operations/dev-itpro/deployment/expressroute?toc=/dynamics365/unified-operations/retail/toc.json)
+
+#### [Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünü şirket içinde dağıtma](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-deployment-landing-page)
+##### [Dynamics 365 for Finance and Operations, Enterprise sürümüne (şirket içi) genel bakış](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Sistem gereksinimleri](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Şirket içi ortamlar için donanım boyutlandırma](/dynamics365/unified-operations/dev-itpro/get-started/hardware-sizing-on-premises-environments?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Çevrimiçi hizmet ve şirket içi yazılım yaşam döngüsü ilkesi](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Dynamics 365 for Finance and Operations, Enterprise sürümü (şirket içi) satın alma](/dynamics365/unified-operations/dev-itpro/https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Lifecycle Services'da şirket içi proje oluşturma](/dynamics365/unified-operations/dev-itpro/deployment/lifecycle-services/lbd-create-lcs-on-prem-project?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Şirket içi ortamlar ayarlama ve dağıtma](/dynamics365/unified-operations/dev-itpro/deployment/setup-deploy-on-premises-environments?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Şirket içi bir dağıtım için SQL Server Reporting Services'ı konfigüre etme](/dynamics365/unified-operations/dev-itpro/analytics/configure-ssrs-on-premises?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Özel modeller geliştirme ve şirket içi ortamlara dağıtma](/dynamics365/unified-operations/dev-itpro/deployment/develop-deploy-custom-models-on-premises?toc=/dynamics365/unified-operations/retail/toc.json)
+
 
 #### Özel kod dağıtma
-##### [Dağıtılabilir paket oluşturma](/dynamics365/unified-operations/dev-itpro/create-apply-deployable-package?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Dağıtılabilir paket uygulama](/dynamics365/unified-operations/dev-itpro/apply-deployable-package-system?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Dağıtılabilir paket yükleme](/dynamics365/unified-operations/dev-itpro/install-deployable-package?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Dağıtılabilir paket oluşturma](/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Dağıtılabilir paket uygulama](/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Dağıtılabilir paket yükleme](/dynamics365/unified-operations/dev-itpro/deployment/install-deployable-package?toc=/dynamics365/unified-operations/retail/toc.json)
 
-#### [Bulut Hizmeti Sağlayıcısı indirmeleri ve Dynamics AX 2012](/dynamics365/unified-operations/dev-itpro/csp-download-customersource?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Bulut Hizmeti Sağlayıcısı indirmeleri ve Dynamics AX 2012](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### [Yükseltme ve geçiş](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [AX 2012'den Dynamics 365 for Finance and Operations'a yükseltme](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-overview-2012?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1301,8 +1357,8 @@
 ##### [Yükseltme - AX 2012 veri yükseltme görevleri](/dynamics365/unified-operations/dev-itpro/migration-upgrade/data-upgrade-2012?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Yükseltme - Korumalı alan ortamında veri yükseltme](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-data-sandbox?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Doğrulama - Kesin bitiş testi](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-cutover-testing?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Doğrulama- Uygulama doğrulama işlemi](/dynamics365/unified-operations/dev-itpro/migration-upgrade/app-validation-process?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Doğrulama- İşlev testi](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-functional-validation?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Doğrulama - Yükseltmeden sonra yapılacak görevler](/dynamics365/unified-operations/dev-itpro/migration-upgrade/app-validation-process?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Doğrulama - İşlev testi](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-functional-validation?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Doğrulama - Canlı yayın için hazırlanma](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-go-live-prep?toc=/dynamics365/unified-operations/retail/toc.json)
 
 
@@ -1321,7 +1377,7 @@
 
 #### Yeni bir güncelleştirmeye yükselt
 ##### [En son güncelleştirmeye geçişe hazırlanma](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-latest-update?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Sürümler ve güncelleştirme ilkesi](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Yaşam döngüsü ilkesi](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [En son platform güncelleştirmesine yükseltme](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-latest-platform-update?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Dynamics platformunu Ağustos 2016 sürümüne yükseltme](/dynamics365/unified-operations/dev-itpro/migration-upgrade/update-platform-each-release?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Bir korumalı alan ortamını yükseltme](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-sandbox-environment?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1336,121 +1392,123 @@
 
 #### Kaldırma işlemleri
 ##### [Kaldırılan API'lar](/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-apis?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Kaldırılan özellikler](/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Kullanımdan kaldırılan özellikler](/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/unified-operations/retail/toc.json)
 
 
 
 ### Sistem yönetimi
-#### [Aylık platform güncelleştirmeleriyle ilgili SSS](/dynamics365/unified-operations/dev-itpro/faq-platform-monthly-updates?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Kuruluşunuzun yasal koşullarına ve gizlilik bildirimine bağlantı ekleme](/dynamics365/unified-operations/dev-itpro/legal-terms-privacy-statement?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Lisans kodları ve konfigürasyon anahtarları raporu](/dynamics365/unified-operations/dev-itpro/license-codes-configuration-keys-report?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Şirketler arası veri paylaşımı](/dynamics365/unified-operations/dev-itpro/cross-company-data-sharing?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Bakım modu](/dynamics365/unified-operations/dev-itpro/maintenance-mode?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Aylık platform güncelleştirmeleriyle ilgili SSS](/dynamics365/unified-operations/dev-itpro/sysadmin/faq-platform-monthly-updates?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Kuruluşunuzun yasal koşullarına ve gizlilik bildirimine bağlantı ekleme](/dynamics365/unified-operations/dev-itpro/sysadmin/legal-terms-privacy-statement?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Lisans kodları ve konfigürasyon anahtarları raporu](/dynamics365/unified-operations/dev-itpro/sysadmin/license-codes-configuration-keys-report?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Şirketler arası veri paylaşımı](/dynamics365/unified-operations/dev-itpro/sysadmin/cross-company-data-sharing?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Bakım modu](/dynamics365/unified-operations/dev-itpro/sysadmin/maintenance-mode?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Güvenlik
-##### [Rol tabanlı güvenlik](/dynamics365/unified-operations/dev-itpro/role-based-security?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Güvenlik mimarisi](/dynamics365/unified-operations/dev-itpro/security-architecture?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Rol tabanlı güvenlik](/dynamics365/unified-operations/dev-itpro/sysadmin/role-based-security?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Güvenlik mimarisi](/dynamics365/unified-operations/dev-itpro/sysadmin/security-architecture?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Güvenlik raporları](/dynamics365/unified-operations/dev-itpro/sysadmin/security-reports?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Toplu işleme
-##### [Toplu işlemeye genel bakış](/dynamics365/unified-operations/dev-itpro/batch-processing-overview?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Toplu iş sunucusuna genel bakış](/dynamics365/unified-operations/dev-itpro/batch-server-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Toplu işlemeye genel bakış](/dynamics365/unified-operations/dev-itpro/sysadmin/batch-processing-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Toplu iş sunucusuna genel bakış](/dynamics365/unified-operations/dev-itpro/sysadmin/batch-server-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### Lifecycle Services
-#### [Lifecycle Services'a genel bakış](/dynamics365/unified-operations/dev-itpro/lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Müşteriler için LCS](/dynamics365/unified-operations/dev-itpro/lcs-works-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [İş ortakları için LCS](/dynamics365/unified-operations/dev-itpro/getting-started-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Yenilikler](/dynamics365/unified-operations/dev-itpro/whats-new-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Bilinen sorunlar](/dynamics365/unified-operations/dev-itpro/known-issues?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Dynamics Lifecycle Services kullanıcı kılavuzu](/dynamics365/unified-operations/dev-itpro/lcs-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Güvenliği konfigüre etme](/dynamics365/unified-operations/dev-itpro/configure-lcs-security?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Konu arama](/dynamics365/unified-operations/dev-itpro/issue-search-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Yapılandırma yöneticisi](/dynamics365/unified-operations/dev-itpro/configuration-manager-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Yapılandırma yöneticisini ayarlama ](/dynamics365/unified-operations/dev-itpro/set-up-configuration-manager-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Kod yükseltme hizmetini konfigüre etme](/dynamics365/unified-operations/dev-itpro/configure-execute-code-upgrade?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Metodoloji oluşturma ](/dynamics365/unified-operations/dev-itpro/create-methodology?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [İş süreci modelleyici](/dynamics365/unified-operations/dev-itpro/business-process-modeler-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [İş süreci modelleyicideki iş süreci kitaplıkları](/dynamics365/unified-operations/dev-itpro/business-process-libraries-business-process-modeler?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [İş süreci modelleyici akış tabloları](/dynamics365/unified-operations/dev-itpro/flowcharts-business-process-modeler?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Özel iş süreçleri yükleme](/dynamics365/unified-operations/dev-itpro/upload-business-processes-bpm-task-recorder?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [İzleme ve tanılama ](/dynamics365/unified-operations/dev-itpro/monitoring-diagnostics?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Lifecycle Services'a genel bakış](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Müşteriler için LCS](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [İş ortakları için LCS](/dynamics365/unified-operations/dev-itpro/lifecycle-services/getting-started-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Yenilikler](/dynamics365/unified-operations/dev-itpro/lifecycle-services/whats-new-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Bilinen sorunlar](/dynamics365/unified-operations/dev-itpro/lifecycle-services/known-issues?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Dynamics Lifecycle Services kullanıcı kılavuzu](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Güvenliği konfigüre etme](/dynamics365/unified-operations/dev-itpro/lifecycle-services/configure-lcs-security?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Konu arama](/dynamics365/unified-operations/dev-itpro/lifecycle-services/issue-search-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Yapılandırma yöneticisi](/dynamics365/unified-operations/dev-itpro/lifecycle-services/configuration-manager-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Yapılandırma yöneticisini ayarlama ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/set-up-configuration-manager-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Kod yükseltme hizmetini konfigüre etme](/dynamics365/unified-operations/dev-itpro/lifecycle-services/configure-execute-code-upgrade?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Metodoloji oluşturma ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/create-methodology?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [İş süreci modelleyici](/dynamics365/unified-operations/dev-itpro/lifecycle-services/business-process-modeler-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [İş süreci modelleyicideki iş süreci kitaplıkları](/dynamics365/unified-operations/dev-itpro/lifecycle-services/business-process-libraries-business-process-modeler?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [İş süreci modelleyici akış tabloları](/dynamics365/unified-operations/dev-itpro/lifecycle-services/flowcharts-business-process-modeler?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Özel iş süreçleri yükleme](/dynamics365/unified-operations/dev-itpro/lifecycle-services/upload-business-processes-bpm-task-recorder?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [İzleme ve tanılama ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/monitoring-diagnostics?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Varlık kitaplığı](/dynamics365/unified-operations/dev-itpro/lifecycle-services/asset-library?toc=/dynamics365/unified-operations/retail/toc.json)
 
 #### Dynamics AX 2012 Lifecycle Services özellikleri
 ##### Dağıtım
-###### [Bulutta barındırılan ortamlar](/dynamics365/unified-operations/dev-itpro/ax-2012/cloud-hosted-environments-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Konfigürasyon kopyalama](/dynamics365/unified-operations/dev-itpro/copy-configuration-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Azure'da Dynamics AX 2012 R3 dağıtımı planlama](/dynamics365/unified-operations/dev-itpro/ax-2012/plan-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Azure'da Dynamics AX 2012 R3'ü dağıtma](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-2012-r3-azure-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Dynamics AX 2012 R3 tanıtım ortamı dağıtma](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-ax-2012-r3-ax-2012-r3-cu8-demo-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Azure'da dağıtım ortamı dağıtma](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-development-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Azure'da kullanılabilirliği yüksek ortam dağıtma](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-high-availability-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Azure'da test ortamı dağıtma](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-test-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Azure'da Dynamics AX 2012 R3 dağıtımınızı yönetme](/dynamics365/unified-operations/dev-itpro/ax-2012/manage-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Kurumsal Portal sunucularını tek bir sunucu grubu halinde birleştirme](/dynamics365/unified-operations/dev-itpro/ax-2012/join-enterprise-portal-servers-single-server-farm?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Dynamics AX Kurumsal Portal'da giriş noktalarını kaydetme](/dynamics365/unified-operations/dev-itpro/ax-2012/record-entry-points-enterprise-portal?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Azure'da Perakende e-ticaret geliştirme/test ortamı dağıtma](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-ecommerce-devtest-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Azure'da Perakende temel bileşenleri tanıtım ortamı dağıtma](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-essentials-demo-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Azure'da Perakende temel bileşenleri geliştirme/test ortamı dağıtma](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-essentials-devtest-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Azure'da Perakende hareketlilik geliştirme/test ortamı dağıtma](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-mobility-devtest-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Azure'da Dynamics AX 2012 R3 dağıtımınızın sorunlarını giderme](/dynamics365/unified-operations/dev-itpro/ax-2012/troubleshoot-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Dynamics AX 2012 R3 güncelleştirmeleri](/dynamics365/unified-operations/dev-itpro/ax-2012/update-2012-r3-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Veri içe aktarma/dışa aktarma çerçevesi kullanıcı kılavuzu](/dynamics365/unified-operations/dev-itpro/ax-2012/user-guide-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Yükleme](/dynamics365/unified-operations/dev-itpro/ax-2012/install-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [AX 2012 R3 yükleme](/dynamics365/unified-operations/dev-itpro/ax-2012/install-ax-2012-r3?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [SQL Server 2014 için Dynamics AX 2012 R2 CU7 sürümünü yükleme](/dynamics365/unified-operations/dev-itpro/ax-2012/install-dixf-ax-2012-r2-cu7-ss-2014?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Veri taşıma](/dynamics365/unified-operations/dev-itpro/ax-2012/migrate-data-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [SSIS sürümünü konfigüre etme](/dynamics365/unified-operations/dev-itpro/ax-2012/configure-sql-server-integration-services-multiple-versions-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Şirketler arasında varlık verilerini kopyalama ve karşılaştırma](/dynamics365/unified-operations/dev-itpro/ax-2012/copy-compare-entity-data-between-companies-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Dynamics AX şirketleri arasında verileri kopyalama](/dynamics365/unified-operations/dev-itpro/ax-2012/copy-data-between-companies-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Dynamics AX örnekleri arasında verileri kopyalama](/dynamics365/unified-operations/dev-itpro/ax-2012/copy-data-between-instances-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Özel bir hedef varlık oluşturma](/dynamics365/unified-operations/dev-itpro/ax-2012/create-custom-target-entity-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Veri içe aktarma/dışa aktarma çerçevesi varlıkları](/dynamics365/unified-operations/dev-itpro/ax-2012/entities-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Bir CSV veri kaynağından verileri içe aktarma](/dynamics365/unified-operations/dev-itpro/ax-2012/import-data-csv-data-source-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Bir ODBC veri kaynağından verileri içe aktarma](/dynamics365/unified-operations/dev-itpro/ax-2012/import-data-odbc-data-source-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Tanıtım dosyaları](/dynamics365/unified-operations/dev-itpro/ax-2012/demo-files-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Hızlı içe-dışa aktarma](/dynamics365/unified-operations/dev-itpro/ax-2012/quick-import-export?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Bulutta barındırılan ortamlar](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/cloud-hosted-environments-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Konfigürasyon kopyalama](/dynamics365/unified-operations/dev-itpro/lifecycle-services/copy-configuration-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Azure'da Dynamics AX 2012 R3 dağıtımı planlama](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/plan-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Azure'da Dynamics AX 2012 R3'ü dağıtma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-2012-r3-azure-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Dynamics AX 2012 R3 tanıtım ortamı dağıtma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-ax-2012-r3-ax-2012-r3-cu8-demo-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Azure'da dağıtım ortamı dağıtma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-development-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Azure'da kullanılabilirliği yüksek ortam dağıtma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-high-availability-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Azure'da test ortamı dağıtma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-test-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Azure'da Dynamics AX 2012 R3 dağıtımınızı yönetme](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/manage-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Kurumsal Portal sunucularını tek bir sunucu grubu halinde birleştirme](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/join-enterprise-portal-servers-single-server-farm?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Dynamics AX Kurumsal Portal'da giriş noktalarını kaydetme](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/record-entry-points-enterprise-portal?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Azure'da Perakende e-ticaret geliştirme/test ortamı dağıtma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-ecommerce-devtest-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Azure'da Perakende temel bileşenleri tanıtım ortamı dağıtma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-essentials-demo-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Azure'da Perakende temel bileşenleri geliştirme/test ortamı dağıtma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-essentials-devtest-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Azure'da Perakende hareketlilik geliştirme/test ortamı dağıtma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-mobility-devtest-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Azure'da Dynamics AX 2012 R3 dağıtımınızın sorunlarını giderme](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/troubleshoot-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Dynamics AX 2012 R3 güncelleştirmeleri](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/update-2012-r3-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Veri içe aktarma/dışa aktarma çerçevesi kullanıcı kılavuzu](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/user-guide-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Yükleme](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [AX 2012 R3 yükleme](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-ax-2012-r3?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [SQL Server 2014 için Dynamics AX 2012 R2 CU7 sürümünü yükleme](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-dixf-ax-2012-r2-cu7-ss-2014?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Veri taşıma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/migrate-data-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [SSIS sürümünü konfigüre etme](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/configure-sql-server-integration-services-multiple-versions-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Şirketler arasında varlık verilerini kopyalama ve karşılaştırma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/copy-compare-entity-data-between-companies-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Dynamics AX şirketleri arasında verileri kopyalama](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/copy-data-between-companies-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Dynamics AX örnekleri arasında verileri kopyalama](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/copy-data-between-instances-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Özel bir hedef varlık oluşturma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-custom-target-entity-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Veri içe aktarma/dışa aktarma çerçevesi varlıkları](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/entities-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Bir CSV veri kaynağından verileri içe aktarma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-data-csv-data-source-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Bir ODBC veri kaynağından verileri içe aktarma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-data-odbc-data-source-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Tanıtım dosyaları](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/demo-files-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Hızlı içe-dışa aktarma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/quick-import-export?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### Tablolar 
-###### [Tablo oluşturma](/dynamics365/unified-operations/dev-itpro/ax-2012/create-tables?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Tablo özellikleri](/dynamics365/unified-operations/dev-itpro/ax-2012/table-properties?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Tablo oluşturma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-tables?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Tablo özellikleri](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/table-properties?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### Dynamics AX 2012 LCS araçları
-###### [Projeler](/dynamics365/unified-operations/dev-itpro/ax-2012/projects-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Metodolojiler](/dynamics365/unified-operations/dev-itpro/ax-2012/methodologies-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Özelleştirme analizi ](/dynamics365/unified-operations/dev-itpro/ax-2012/customization-analysis-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Altyapı tahmin aracı](/dynamics365/unified-operations/dev-itpro/ax-2012/infrastructure-estimator-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Lisans boyutu tahmin aracı](/dynamics365/unified-operations/dev-itpro/ax-2012/license-sizing-estimator-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Teklif (/dynamics365/unified-operations/dev-itpro/RFP) yanıtı istekleri](/dynamics365/unified-operations/dev-itpro/ax-2012/rfp-responses-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Sistem tanılama](/dynamics365/unified-operations/dev-itpro/ax-2012/system-diagnostics-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Sistem tanılama yükleme ve çalıştırma](/dynamics365/unified-operations/dev-itpro/ax-2012/install-run-system-diagnostics-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Yükseltme analizi](/dynamics365/unified-operations/dev-itpro/ax-2012/upgrade-analysis-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Kullanım profili oluşturma aracı](/dynamics365/unified-operations/dev-itpro/ax-2012/usage-profiler-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Projeler](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/projects-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Metodolojiler](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/methodologies-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Özelleştirme analizi ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/customization-analysis-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Altyapı tahmin aracı](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/infrastructure-estimator-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Lisans boyutu tahmin aracı](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/license-sizing-estimator-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Teklif (/dynamics365/unified-operations/dev-itpro/lifecycle-services/RFP) yanıtı istekleri](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/rfp-responses-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Sistem tanılama](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/system-diagnostics-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Sistem tanılama yükleme ve çalıştırma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-run-system-diagnostics-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Yükseltme analizi](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/upgrade-analysis-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Kullanım profili oluşturma aracı](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/usage-profiler-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### İndirilebilir Dynamics AX 2012 araçları
-###### [Kod Yükseltme Aracı Kullanıcı Kılavuzu (kaldırıldı)](/dynamics365/unified-operations/dev-itpro/ax-2012/code-upgrade-tool-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [İndirilebilir Lifecycle Services araçları](/dynamics365/unified-operations/dev-itpro/ax-2012/lcs-downloadable-tools-formerly-informationsource?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Test Verisi Aktarma Aracı (beta)](/dynamics365/unified-operations/dev-itpro/ax-2012/test-data-transfer-tool-beta-2012?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [Yükleme](/dynamics365/unified-operations/dev-itpro/ax-2012/install-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [Çalıştırma](/dynamics365/unified-operations/dev-itpro/ax-2012/run-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [AX 2012 R3 tanıtım verilerini içe aktarma](/dynamics365/unified-operations/dev-itpro/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Güvenlik Geliştirme Aracı](/dynamics365/unified-operations/dev-itpro/ax-2012/overview-security-development-tool-user-interface?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [Yükleme](/dynamics365/unified-operations/dev-itpro/ax-2012/install-security-development-tool?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [Kullanıcı Kılavuzu](/dynamics365/unified-operations/dev-itpro/ax-2012/security-development-tool-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [Giriş noktası izinlerini tanımlama ve düzenleme](/dynamics365/unified-operations/dev-itpro/ax-2012/define-edit-entry-point-permissions?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Performans Karşılaştırma Yazılımı Geliştirme Araç Seti](/dynamics365/unified-operations/dev-itpro/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Güvenlik Yükseltme Danışmanı Aracı](/dynamics365/unified-operations/dev-itpro/ax-2012/security-upgrade-advisor-tool-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Akıllı Veri Yönetimi Çerçevesi (IDMF)](/dynamics365/unified-operations/dev-itpro/ax-2012/microsoft-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [Genel Bakış](/dynamics365/unified-operations/dev-itpro/ax-2012/overview-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [Yükleme Kılavuzu](/dynamics365/unified-operations/dev-itpro/ax-2012/installation-guide-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [Konfigürasyon](/dynamics365/unified-operations/dev-itpro/ax-2012/configuration-functionality-idmf-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [Analiz](/dynamics365/unified-operations/dev-itpro/ax-2012/analysis-functionality-idmf-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [Nesneleri temizleme ve arşivleme](/dynamics365/unified-operations/dev-itpro/ax-2012/work-with-purge-objects-archive-objects?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [Arşiv nesneleri oluşturma](/dynamics365/unified-operations/dev-itpro/ax-2012/create-archive-objects?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [Temizleme nesneleri oluşturma](/dynamics365/unified-operations/dev-itpro/ax-2012/create-purge-objects?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [Temizleme ve analiz görevleri zamanlama](/dynamics365/unified-operations/dev-itpro/ax-2012/schedule-purge-analysis-tasks?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [Temizleme ve arşivleme işlerini görüntüleme](/dynamics365/unified-operations/dev-itpro/ax-2012/view-status-purge-archive-jobs?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [Bakım yapma](/dynamics365/unified-operations/dev-itpro/ax-2012/maintain-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [Sorun giderme](/dynamics365/unified-operations/dev-itpro/ax-2012/troubleshoot-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Kod Yükseltme Aracı Kullanıcı Kılavuzu (kaldırıldı)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/code-upgrade-tool-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [İndirilebilir Lifecycle Services araçları](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/lcs-downloadable-tools-formerly-informationsource?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Test Verisi Aktarma Aracı (beta)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/test-data-transfer-tool-beta-2012?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [Yükleme](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [Çalıştırma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/run-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [AX 2012 R3 tanıtım verilerini içe aktarma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Güvenlik Geliştirme Aracı](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/overview-security-development-tool-user-interface?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [Yükleme](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-security-development-tool?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [Kullanıcı Kılavuzu](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/security-development-tool-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [Giriş noktası izinlerini tanımlama ve düzenleme](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/define-edit-entry-point-permissions?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Performans Karşılaştırma Yazılımı Geliştirme Araç Seti](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Güvenlik Yükseltme Danışmanı Aracı](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/security-upgrade-advisor-tool-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Akıllı Veri Yönetimi Çerçevesi (IDMF)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/microsoft-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [Genel Bakış](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/overview-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [Yükleme Kılavuzu](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/installation-guide-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [Konfigürasyon](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/configuration-functionality-idmf-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [Analiz](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/analysis-functionality-idmf-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [Nesneleri temizleme ve arşivleme](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/work-with-purge-objects-archive-objects?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [Arşiv nesneleri oluşturma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-archive-objects?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [Temizleme nesneleri oluşturma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-purge-objects?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [Temizleme ve analiz görevleri zamanlama](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/schedule-purge-analysis-tasks?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [Temizleme ve arşivleme işlerini görüntüleme](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/view-status-purge-archive-jobs?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [Bakım yapma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/maintain-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [Sorun giderme](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/troubleshoot-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### Veritabanı yönetimi
-#### [Azure SQL Veritabanından SQL Server ortamına veritabanı kopyalama](/dynamics365/unified-operations/dev-itpro/copy-database-from-azure-sql-to-sql-server?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [SQL Server'dan bir üretim Azure SQL Veritabanı ortamına veritabanı kopyalama](/dynamics365/unified-operations/dev-itpro/copy-database-from-sql-server-to-azure-sql?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Bir veritabanını üretim dışı bir ortama geri yükleme](/dynamics365/unified-operations/dev-itpro/request-point-in-time-restore?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Bir veritabanı kopyasını daha sonra geri yüklemek için dışa aktarma](/dynamics365/unified-operations/dev-itpro/copy-operations-database?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Azure SQL Veritabanından SQL Server ortamına veritabanı kopyalama](/dynamics365/unified-operations/dev-itpro/database/copy-database-from-azure-sql-to-sql-server?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [SQL Server'dan bir üretim Azure SQL Veritabanı ortamına veritabanı kopyalama](/dynamics365/unified-operations/dev-itpro/database/copy-database-from-sql-server-to-azure-sql?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Bir veritabanını üretim dışı bir ortama geri yükleme](/dynamics365/unified-operations/dev-itpro/database/request-point-in-time-restore?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Bir veritabanı kopyasını daha sonra geri yüklemek için dışa aktarma](/dynamics365/unified-operations/dev-itpro/database/copy-operations-database?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### Destek
 #### [Dynamics 365 for Finance and Operations, Enterprise sürümü ve Lifecycle Services için destek alma](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-support)
@@ -1466,6 +1524,7 @@
 
 ## Ödemeler
 ### [Ödeme yöntemleri](/dynamics365/unified-operations/retail/payment-methods?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Ödemelerle ilgili SSS](/dynamics365/unified-operations/retail/dev-itpro/payments-retail?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ## Çağrı merkezi
 ### [Çağrı merkezine genel bakış](/dynamics365/unified-operations/retail/call-center-functionality?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1488,6 +1547,7 @@
 ### Donanım çevre birimleri
 #### [Perakende çevre birimlerine genel bakış](/dynamics365/unified-operations/retail/retail-peripherals-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Microsoft tarafından test edilen POS donanım çevre birimleri](/dynamics365/unified-operations/retail/microsoft-tested-pos-hardware-peripherals?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Perakende çevre birimi benzeticisi](/dynamics365/unified-operations/retail/dev-itpro/retail-peripheral-simulator?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Kanal istemcilerini, kasaları ve donanım istasyonlarını tanımlama ve koruma](/dynamics365/unified-operations/retail/define-maintain-channel-clients-registers-hw-stations?toc=/dynamics365/unified-operations/retail/toc.json)
 ### Ekran düzeni
 #### [POS için ekran düzenini yapılandırma](/dynamics365/unified-operations/retail/pos-screen-layouts?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1508,7 +1568,7 @@
 ### Cihaz etkinleştirme
 #### [MPOS yapılandırması ve kurulumu](/dynamics365/unified-operations/retail/retail-modern-pos-device-activation?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Bulut POS ve MPOS için genişletilmiş oturum açma ayarlama](/dynamics365/unified-operations/retail/extended-logon?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Perakende hesapları ve cihazları genel merkezden yönetme](/dynamics365/unified-operations/retail/set-up-activation-accounts-validate-devices-hq?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Retail hesaplarını ve cihazlarını genel merkezden yönetme](/dynamics365/unified-operations/retail/set-up-activation-accounts-validate-devices-hq?toc=/dynamics365/unified-operations/retail/toc.json)
 ### Girişler
 #### [Makbuz şablonlarını ayarlama](/dynamics365/unified-operations/retail/receipt-templates-printing?toc=/dynamics365/unified-operations/retail/toc.json) 
 #### [MPOS'tan e-posta makbuzları gönderme](/dynamics365/unified-operations/retail/email-receipts?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1539,9 +1599,6 @@
 
 ## Stok
 ### [Mağaza stoğunu yönetme](/dynamics365/unified-operations/retail/work-with-store-inventory?toc=/dynamics365/unified-operations/retail/toc.json)
-## Ticaretle ilgili temel bilgiler
-### [Ticaretle ilgili temel bilgilere genel bakış](/dynamics365/unified-operations/retail/commerce-essentials?toc=/dynamics365/unified-operations/retail/toc.json)
-### [Ticaretle ilgili temel bilgilerdeki kuruluşlar ve kuruluş hiyerarşileri](/dynamics365/unified-operations/retail/organizational-hierarchies-commerce-essentials?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ## [Perakende geliştirme ve yönetimi](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
 
@@ -1551,16 +1608,16 @@
 #### [Perakende kanalı iletişimleri](/dynamics365/unified-operations/retail/dev-itpro/define-retail-channel-communications-cdx?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [MPOS mimarisi](/dynamics365/unified-operations/retail/dev-itpro/retail-modern-pos-architecture?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Çevrimiçi perakende mağazası yayınlama mimarisi](/dynamics365/unified-operations/retail/dev-itpro/retail-online-store-publishing-architecture?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Perakende Kanalı Performansı Power BI içeriği](/dynamics365/unified-operations/retail/dev-itpro//dynamics365/unified-operations/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data)
+#### [Perakende Kanalı Performansı Power BI içeriği](/dynamics365/unified-operations/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data)
 
 ### Dağıtım ve düzeltmeler
 #### [Perakende Mağaza Ölçeği Birimi konfigürasyonu ve yüklemesi](/dynamics365/unified-operations/retail/dev-itpro/retail-store-scale-unit-configuration-installation?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Perakende mağazası sistemi, başlamadan önce](/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Retail Modern POS konfigürasyonu ve yüklemesi](/dynamics365/unified-operations/retail//retail-modern-pos-device-activation?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Perakende hesapları ve cihazları genel merkezden yönetme](/dynamics365/unified-operations/retail//set-up-activation-accounts-validate-devices-hq?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Retail Modern POS konfigürasyonu ve yüklemesi](/dynamics365/unified-operations/retail/retail-modern-pos-device-activation?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Retail hesaplarını ve cihazlarını genel merkezden yönetme](/dynamics365/unified-operations/retail/set-up-activation-accounts-validate-devices-hq?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Retail POS cihazını etkinleştirme](/dynamics365/unified-operations/retail/dev-itpro/retail-device-activation?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Güvenli Retail Cloud POS](/dynamics365/unified-operations/retail/dev-itpro/secure-retail-cloud-pos?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Perakende Donanım İstasyonu konfigürasyonu ve yüklemesi](/dynamics365/unified-operations/retail//retail-hardware-station-configuration-installation?toc=/dynamics365/unified-operations/retail/toc.json).
+#### [Perakende Donanım İstasyonu konfigürasyonu ve yüklemesi](/dynamics365/unified-operations/retail/retail-hardware-station-configuration-installation?toc=/dynamics365/unified-operations/retail/toc.json).
 #### [Tanılama ve sorun giderme için perakende bileşeni olayları](/dynamics365/unified-operations/retail/dev-itpro/retail-component-events-diagnostics-troubleshooting?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Dağıtılabilir paket uygulama](/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system?toc=/dynamics365/unified-operations/retail/toc.json)
 
@@ -1570,8 +1627,8 @@
 
 ### Genişletilebilirlik
 #### Satış noktası
-##### [Retail POS ekran düzenleri](/dynamics365/unified-operations/retail//pos-screen-layouts?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [POS Düzeni tasarımcısını yükleme](/dynamics365/unified-operations/retail//install-pos-layout-designer?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Retail POS ekran düzenleri](/dynamics365/unified-operations/retail/pos-screen-layouts?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [POS Düzeni tasarımcısını yükleme](/dynamics365/unified-operations/retail/install-pos-layout-designer?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [MPOS'u çevrimdışı mod için konfigüre etme](/dynamics365/unified-operations/retail/dev-itpro/retail-modern-pos-offline?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [MPOS ve Cloud POS tetikleyici genişletilebilirliği](/dynamics365/unified-operations/retail/dev-itpro/modern-pos-trigger-extensibility?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Perakende Deneyimi uygulaması oluşturma](/dynamics365/unified-operations/retail/dev-itpro/create-retail-experience-app?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1596,7 +1653,7 @@
 ##### [e-Ticaret platformu](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [e-ticaret platformu SDK'si](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk?toc=/dynamics365/unified-operations/retail/toc.json)
 #### Ödeme bağlayıcısı
-##### [Ödeme bağlayıcısı ve ödeme cihazı uygulama (teknik rapor)](/dynamics365/unified-operations/retail/dev-itpro/http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
+##### [Ödeme bağlayıcısı ve ödeme cihazı uygulama (teknik rapor)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
 ##### [Ödeme bağlayıcısı dağıtma](/dynamics365/unified-operations/retail/dev-itpro/deploy-payment-connector?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Ödeme bağlayıcısı için Windows yükleyicisi oluşturma](/dynamics365/unified-operations/retail/dev-itpro/create-windows-installer-payment-connector?toc=/dynamics365/unified-operations/retail/toc.json)
 
@@ -1604,13 +1661,14 @@
 #### [Retail SDK'ye genel bakış](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Retail SDK'yi sürekli oluşturma sistemiyle tümleştirme](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Retail SDK genişletilebilirlik örnekleri](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-extensibility-samples?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [İsveç için kontrol birimleriyle Retail POS tümleştirmesi örneği](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-control-unit-sample?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Retail SDK paketleme](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-packaging?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Retail SDK örnekleri ](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-samples?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### Ticaret çalışma süresi
 #### [Bağlılık genişletme](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/loyalty-extension-sample?toc=/dynamics365/unified-operations/retail/toc.json)
 
-# [Dynamics 365 for Talent](/dynamics365/unified-operations/talent/index)
+# [Dynamics 365 for Talent](/dynamics365/unified-operations/talent/index?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ## İnsan kaynakları stratejisi geliştirme
 ### [Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme](/dynamics365/unified-operations/talent/departments-jobs-positions?toc=/dynamics365/unified-operations/retail/toc.json)
