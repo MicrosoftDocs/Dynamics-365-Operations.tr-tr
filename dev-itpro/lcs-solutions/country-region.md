@@ -6,22 +6,21 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
-ms.service: dynamics-ax-platform
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
-ms.assetid: 2e299a38-16e5-474e-b993-d88cebfadca0
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
-ms.openlocfilehash: 25a9885a31871a19285cdd30987e3d1caa99bc04
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: ac77d2d374dc77aa4cf43ae2621b3692e556c9d0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
@@ -54,6 +53,9 @@ Aşağıdaki kaynaklar, planlanan ve yeni yerelleştirme özellikleri hakkında 
 -   [Mevzuat izleme ve mevzuat güncelleştirme iletişimi](regulatory-watch-communication.md)
 -   [Microsoft'u ülke/bölge mevzuatıyla ilgili uyarılar konusunda bilgilendirme ve mevzuat özelliklerinin durumunu izleme](submit-localization-alerts.md)
 
+### <a name="dynamics-365-roadmap"></a>Dynamics 365 yol haritası
+[Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) üzerinde çalıştıklarımızın anlık bir görüntüsünü sağlar. Bu yol haritasını kullanarak genel olarak kullanıma sunulan ve geliştirme aşamasında içeriği öğrenin. Geliştirme aşamasındaki tüm tarihler ve özellikler hazırlık niteliğinde olup mevcut beklentilere dayalıdır ve önceden haber verilmeden değiştirilebilir.
+
 ## <a name="electronic-reporting"></a>Elektronik raporlama
 Elektronik raporlama (ER) aracı, elektronik belgelerin biçimini çeşitli ülkelerin/bölgelerin yasal gereksinimlerine uygun şekilde yapılandırmanıza olanak tanır. ER, yaşam döngüleri boyunca bu biçimleri yönetmenizi sağlar. Daha fazla bilgi için aşağıdaki konulardan birine başvurun:
 -   [Elektronik raporlamaya genel bakış](../analytics/general-electronic-reporting.md)
@@ -62,7 +64,9 @@ Elektronik raporlama (ER) aracı, elektronik belgelerin biçimini çeşitli ülk
 -   [Elektronik raporlama işlev listesini genişletme](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [Elektronik raporlama hedefleri](../analytics/electronic-reporting-destinations.md)
 -   [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını indirme](../analytics/download-electronic-reporting-configuration-lcs.md)
+-   [Elektronik raporlama yapılandırmalarını içe aktarma](../analytics/electronic-reporting-import-ger-configurations.md)
 -   [Power BI'ya veri çekmek için Elektronik raporlamayı yapılandırma](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Elektronik raporlama aracını kullanarak elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme](../analytics/generate-electronic-documents-update-application-data.md)
 
 ## <a name="task-guides"></a>Görev kılavuzları
 Görev kılavuzlarına ürün yardım bölmesinden ulaşılabilir ve bu kılavuzlar temel iş süreçleri için adım adım bir kılavuz sağlar. İş sürecinin adımlarını okumak için bir görev kılavuzunu açabilir veya bir iş sürecinde ve veri girişinde adım adım kılavuzluk için bir görev kılavuzunu oynatabilirsiniz.
@@ -83,9 +87,10 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 
 ### <a name="austria"></a>Avusturya
 
--   [Yarı yıl amortismanı](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation)
--   [Ambalaj malzemesi ücretleri](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation)
--   [KDV beyanı](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details)
+- [Yarı yıl amortismanı](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation)
+- [Ambalaj malzemesi ücretleri](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation)
+- [Satınalma harçları](/dynamics365/unified-operations/financials/localizations/emea-aut-purchase-duties)
+- [KDV beyanı](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details)
 
 ### <a name="belgium"></a>Belçika
 
@@ -130,7 +135,6 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 -   [Çek Cumhuriyeti için sabit kıymet elden çıkarmada yarı yıl amortismanı](/dynamics365/unified-operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
 -   [Amortisman bekletme (tatiller)](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
 -   [Çek Cumhuriyeti için sabit kıymetler amortisman yöntemleri](/dynamics365/unified-operations/financials/localizations/emea-cze-fixed-assets-depreciation)
-
 -   [Sabit kıymetin ön alımını deftere nakletme](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
 -   [Çek Cumhuriyeti için KDV beyanı](/dynamics365/unified-operations/financials/localizations/emea-cze-vat-statement-details)
 -   [Satış vergisi raporlama ](/dynamics365/unified-operations/financials/localizations/emea-cze-intra-community-vat-transactions)
@@ -144,30 +148,39 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 -   [Sabit kıymetleri elden çıkarma](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
 
 ### <a name="europe"></a>Avrupa
--   [Avans sahipleri](/dynamics365/unified-operations/financials/localizations/emea-advance-holders)
--   [Satış siparişlerindeki fatura kodlarını düzenleme](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders)
--   [AB giriş sertifikaları](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates)
--   [AB satış listesi raporlaması](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list)
--   [Döviz kuru ayarlamaları](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
--   [Ödeme yöntemlerine ait dosya biçimleri](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
--   [Estonya ve Litvanya için sabit kıymetleri elden çıkarma](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
--   [Intrastat](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
--   [Letonya ve Litvanya için fatura ve sevk irsaliyesi numaralandırma](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
--   [Fatura düzenleme son tarihleri](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
--   [OIOUBL standartları](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing)
--   [Ödeme makbuzu raporu](/dynamics365/unified-operations/financials/localizations/emea-eur-payment-slip-report-giro)
--   [Kasa](/dynamics365/unified-operations/financials/localizations/emea-petty-cash)
--   [Sabit kıymetin ön alımını deftere nakletme](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
--   [Posta kodları](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually)
--   [Kayıt kodları](/dynamics365/unified-operations/financials/localizations/emea-registration-ids)
--   [SEPA Alacak transferine genel bakış](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer)
--   [SEPA Hesaptan ödemeye genel bakış](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
--   [Basılı formlar için imzalayanları ayarlama](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
--   [Periyodik günlüklerde bölünmüş dönemler](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
--   [Tutarların raporlarda ve belgelerde nasıl görüntüleneceğini güncelleştirme](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms)
--   [KDV döviz kurları](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
--   [Avrupa için KDV raporlama](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting)
--   [Kapatma hareketlerini görüntüleme](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form)
+- [Avans sahipleri](/dynamics365/unified-operations/financials/localizations/emea-advance-holders)
+- [Avans sahibi hareketleri](/dynamics365/unified-operations/financials/localizations/emea-advance-holders-transactions)
+- [Gelişmiş faturalama](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice)
+- [Banka mutabakatı](/dynamics365/unified-operations/financials/localizations/emea-bank-reconciliation)
+- [Düzeltici faturalama](/dynamics365/unified-operations/financials/localizations/emea-corrective-invoice)
+- [Periyodik günlükleri oluşturma ve deftere nakletme](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
+- [Satış siparişlerindeki fatura kodlarını düzenleme](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders)
+- [AB giriş sertifikaları](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates)
+- [AB satış listesi raporlaması](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list)
+- [Döviz kuru ayarlamaları](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
+- [Ödeme yöntemlerine ait dosya biçimleri](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
+- [Estonya ve Litvanya için sabit kıymetleri elden çıkarma](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+- [Intrastat](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
+- [Stok günlüğü raporları](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names)
+- [Letonya ve Litvanya için fatura ve sevk irsaliyesi numaralandırma](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
+- [Fatura düzenleme son tarihleri](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
+- [OIOUBL standartları](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing)
+- [Ödeme makbuzu raporu](/dynamics365/unified-operations/financials/localizations/emea-eur-payment-slip-report-giro)
+- [Kasa](/dynamics365/unified-operations/financials/localizations/emea-petty-cash)
+- [Sabit kıymetin ön alımını deftere nakletme](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
+- [Posta kodları](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually)
+- [Kayıt kodları](/dynamics365/unified-operations/financials/localizations/emea-registration-ids)
+- [Ters giderler](/dynamics365/unified-operations/financials/localizations/emea-reverse-charge)
+- [SEPA Alacak transferine genel bakış](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer)
+- [SEPA Hesaptan ödemeye genel bakış](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
+- [Müşteri ve satıcı ücreti ayarlama](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
+- [Basılı formlar için imzalayanları ayarlama](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+- [Vergi yönergeleri](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
+- [Tutarların raporlarda ve belgelerde nasıl görüntüleneceğini güncelleştirme](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
+- [KDV döviz kurları](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
+- [Doğu Avrupa için KDV kayıt hareketleri](/dynamics365/unified-operations/financials/localizations/emea-vat-register-transactions)
+- [KDV raporlama](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting)
+- [Kapatma hareketlerini görüntüleme](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form)
 
 ### <a name="france"></a>Fransa
 -   [Kronolojik fatura ve fiş numaraları](/dynamics365/unified-operations/financials/localizations/emea-fra-chronological-invoices-vouchers)
@@ -180,6 +193,7 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 #### <a name="public-sector"></a>Kamu sektörü
    -   [Kamu sektöründe taahhütler](/dynamics365/unified-operations/financials/localizations/emea-fra-commitments-public-sector)
    -   [Kamu sektöründe ödeme koşulları](/dynamics365/unified-operations/financials/localizations/emea-fra-mandats-de-paiement)
+   -   [Tedarik ve kaynak atama](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
    -   [Kamu sektörü muhasebesi](/dynamics365/unified-operations/financials/localizations/emea-fra-public-sector-accounting)
    -   [Titres de recette](/dynamics365/unified-operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
    -   [Satıcı faturası ödeme tutmaları](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
@@ -205,22 +219,21 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 -   [İtalya için faturalarda sevk irsaliyesi tarihi doğrulama](/dynamics365/unified-operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
 -   [İtalya satış vergisi defterleri](/dynamics365/unified-operations/financials/localizations/emea-ita-fiscal-books)
 -   [Kamu İdaresi için düzenlenen faturalarda bölünmüş ödeme](/dynamics365/unified-operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
--   [Stopaj vergisi](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding tax)
+-   [Stopaj vergisi](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding-tax)
 
 ### <a name="japan"></a>Japonya
 
--   [Satıcılar tarafından karşılanan banka ödemesi masrafları](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors)
--   [Konsolide faturalar](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices)
-
-#### <a name="fixed-assets"></a>Sabit kıymetler
-   -  [Sabit kıymetler için tahsisat kuralları](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets)
-   -  [Eşit olarak bölünmüş amortisman yöntemi](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method)
-   -  [Sabit kıymet amortismanı](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation)
-   -  [Nakit üreten birim üzerinde sabit kıymet değer düşüklüğü yönetimi](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit)
-   -  [Sabit kıymetler için kıymet emeklilik yükümlülüğü ayarlama](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets)
-   -  [Sabit kıymetler için indirim girişleri ayarlama](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets)
--   [Satıcıya kambiyo senedi vererek ödeme yapma](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange)
--   [Aşamalı stopaj vergisi hesaplama](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation)
+-  [Satıcılar tarafından karşılanan banka ödemesi masrafları](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors)
+-  [Konsolide faturalar](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices)
+-  [Sabit kıymetler için tahsisat kuralları](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets)
+-  [Eşit olarak bölünmüş amortisman yöntemi](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method)
+-  [Sabit kıymet amortismanı](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation)
+-  [Nakit üreten birim üzerinde sabit kıymet değer düşüklüğü yönetimi](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit)
+-  [Posta kodlarını içe aktarma](/dynamics365/unified-operations/financials/localizations/apac-jpn-import-postal-codes)
+-  [Sabit kıymetler için kıymet emeklilik yükümlülüğü ayarlama](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets)
+-  [Sabit kıymetler için indirim girişleri ayarlama](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets)
+-  [Satıcıya kambiyo senedi vererek ödeme yapma](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange)
+-  [Aşamalı stopaj vergisi hesaplama](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation)
 
 ### <a name="latvia"></a>Letonya
 
@@ -254,6 +267,7 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 ### <a name="norway"></a>Norveç
 
 -   [Nets içe aktarma biçimi](/dynamics365/unified-operations/financials/localizations/emea-nor-nets-import-format)
+-   [KDV beyanı](/dynamics365/unified-operations/financials/localizations/emea-nor-sales-tax-payment-report)
 
 ### <a name="poland"></a>Polonya
 
@@ -291,6 +305,7 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 ### <a name="sweden"></a>İsveç
 
 -   [İsveç için ödeme biçimlerini içe aktarma](/dynamics365/unified-operations/financials/localizations/emea-swe-payment-formats-import)
+-   [İsveç için yazar kasalar](/dynamics365/unified-operations/retail/localizations/emea-swe-cash-registers)
 
 ### <a name="switzerland"></a>İsviçre
 

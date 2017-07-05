@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
-ms.openlocfilehash: e0f41445c621a317fcdccef6cb08766dd6fac279
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 28b5c72a174c7d40fcf1e4c348834fc532b04fcc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
@@ -30,20 +30,21 @@ ms.lasthandoff: 06/21/2017
 
 [!include[banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent birçok rutin kayıt tutma görevini kolaylaştırır ve kuruluşunuzun personelini belirlemeyle ilgili bazı işlemleri otomatikleştirir. Bu işlemler personeli elde tutma, kazanç yönetimi, eğitim, performans incelemeleri ve değişim yönetimini içerir. Ayrıca, insan kaynakları personelinin gözetim alanlarını yönetmek için de bir çerçeve sağlar.
-
-Dynamics 365 for Talent, Dynamics 365 for Finance and Operations, Enterprise sürümünde İnsan kaynaklarıyla yakından ilgilidir. Aynı işlev, iki üründe de görülebilir. Sonuç olarak, özellikle İnsan kaynaklarıyla ilgili konularda, ürün adı Dynamics 365 for Finance and Operations, Enterprise sürümü, özellikle Talent ile ilgili konularda ise Dynamics 365 for Talent olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
+Microsoft Dynamics 365 for Talent birçok rutin kayıt tutma görevini kolaylaştırır ve kuruluşunuzun personelini belirlemeyle ilgili bazı işlemleri otomatikleştirir. Bu işlemler personeli elde tutma, kazanç yönetimi, eğitim, performans incelemeleri ve değişim yönetimini içerir. Ayrıca insan kaynakları personelinin gözetim alanlarını yönetmek için de bir çerçeve sağlar.
 
 Talent'ı şu görevleri gerçekleştirmek için kullanabilirsiniz:
 
-> + Kuruluş yapılarını yönetin.
-> + Kapsamlı çalışan bilgilerini, işe alımdan emekliliğe kadar koruyun.
-> + Kazanç planlarını tanımlatın ve yönetin, çalışanların kaydını yapın, bakmakla yükümlü olunan kişi kapsamını ve hak sahiplerini atayın.
-> + Devamsızlık ilkelerini belirleyin ve izleyin.
-> + Profil tabanlı zaman yönetimini uygulayıp izleyin ve bordro sistemine aktarmak için ödeme bilgileri oluşturun.
-> + Çalışan yetkinliklerini yönetin.
-> + Performansı gözden geçirin ve çalışan hedeflerini uygulayın.
-> + Gündem, oturum ve yönerge içeren eğitim kursları hazırlayın, sağlayın ve analiz edin.
++ Kuruluş yapılarını yönetin.
++ Kapsamlı çalışan bilgilerini, işe alımdan emekliliğe kadar koruyun.
++ Kazanç planlarını tanımlatın ve yönetin, çalışanların kaydını yapın, bakmakla yükümlü olunan kişi kapsamını ve hak sahiplerini atayın.
++ Devamsızlık ilkelerini belirleyin ve izleyin.
++ Profil tabanlı zaman yönetimini uygulayıp izleyin ve bordro sistemine aktarmak için ödeme bilgileri oluşturun.
++ Çalışan yetkinliklerini yönetin.
++ Performansı gözden geçirin ve çalışan hedeflerini uygulayın.
++ Gündem, oturum ve yönerge içeren eğitim kursları hazırlayın, sağlayın ve analiz edin.
+
+> [!NOTE] 
+> Dynamics 365 for Talent, Dynamics 365 for Finance and Operations, Enterprise sürümünde İnsan kaynaklarıyla yakından ilgilidir. Aynı işlev, iki üründe de görülebilir. Sonuç olarak, özellikle İnsan kaynaklarıyla ilgili konularda, ürün adı Dynamics 365 for Finance and Operations, Enterprise sürümü, özellikle Talent ile ilgili konularda ise Dynamics 365 for Talent olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>İnsan kaynaklarınızı yönetmek için strateji geliştirme
 ---------------------------------------------------------
