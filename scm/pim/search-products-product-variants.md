@@ -31,6 +31,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[Retail name](../includes/retail-name.md)]
 
 Satış veya satınalma siparişi satırını el ile oluşturduğunuzda ürünleri ve ürün çeşitlerini aramak için <strong>Madde numarası </strong>alanını kullanın.  Bu, yalnızca yapılandırma dizesine sahip olduğunuzda veya ürün boyutlarından biri kullanılabilir olduğunda ürün çeşitlerini hızlı bir şekilde bulmanızı sağlar.
 
