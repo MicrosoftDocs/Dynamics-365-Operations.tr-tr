@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Departmanlar, işler ve pozisyonlar kullanarak işgücünüz organize edin
 
 [!include[banner](includes/banner.md)]
+
+[!include[retail name](includes/retail-name.md)]
 
 
 Departmanlar, işler ve pozisyonlar İnsan kaynakları içinde tutulan kuruluş öğeleridir. Bu konuda bu öğeler hakkında kavramsal bilgiler açıklanmıştır. 

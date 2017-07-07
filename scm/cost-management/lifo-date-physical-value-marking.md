@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="lifo-date-with-physical-value-and-marking"></a>Fiziksel değer ve işaretleme ile LIFO Tarihi
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Son giren ilk çıkar Tarihi (LIFO Tarihi), LIFO ilkesine dayanan bir stok modelidir. Stok çıkışları, stok hareketinin tarihine dayalı olarak son son girişlerine göre kapatılır. LIFO Tarihini kullanarak, çıkıştan önce hiçbir giriş yoksa, çıkış, çıkış tarihinden sonraki tüm girişlere karşılık olarak kapatılır. Aynı tarihteki birkaç çıkış son çıkış, son giriş sırasıyla kapatılabilir. 

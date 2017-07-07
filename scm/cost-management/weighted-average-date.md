@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -31,6 +31,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="weighted-average-date"></a>Ağırlıklı ortalama tarihi
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Ağırlıklı ortalama tarihi, ağırlıklı ortalama ilkesini temel alan bir stok modelidir. Ağırlıklı ortalama ilkesi için, stoktan yapılan çıkışlar, stok kapanış döneminde her gün stoğa alınan maddelerin ortalama değerinden değerlenir. Ağırlıklı ortalama tarihi kullanarak stok kapanışı çalıştırdığınızda, tüm günlük girişler bir sanal bir çıkışa karşılık kapatılır. Bu sanal çıkış o güne ilişkin toplam alınan miktarı ve değeri tutar. Sanal çıkış, çıkışların kapatılacağı karşılık gelen bir sanal girişe sahiptir. Bu nedenle, tüm çıkışlar aynı ortalama maliyeti alır. Sanal çıkış ve sanal giriş, *ağırlıklı ortalama stok kapatma transferi* olarak bilinen sanal bir transfer olarak görülebilir. 
