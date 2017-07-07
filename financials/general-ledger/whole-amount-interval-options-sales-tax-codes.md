@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxData, TaxTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 5624
 ms.assetid: 96166db4-b7ca-470b-aeb7-0a66fe0554c4
 ms.search.region: Global
@@ -30,6 +30,9 @@ ms.lasthandoff: 05/25/2017
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Satış vergisi kodları için tüm tutar ve Aralık hesaplaması seçenekleri
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
+
 
 
 Bu makalede satış vergisi kodları için Hesaplama yöntemi alanının seçenekleri ve satış vergisinin aralıklar ve tüm tutarlar için nasıl hesaplanacağı açıklanmıştır.

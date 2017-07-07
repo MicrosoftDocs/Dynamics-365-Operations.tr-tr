@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations, UnifiedOperations, Retail
 ms.custom: 269054
 ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="setting-up-the-components-of-a-job"></a>Bir işin bileşenlerini ayarlamak
 
 [!include[banner](includes/banner.md)]
+
+[!include[retail name](includes/retail-name.md)]
 
 
 Bu konu, bir işin içerebileceği konsept öğelerini açıklar ve bu öğeleri kuruluşunuzda nasıl kullanabileceğiniz hakkında örnekler sağlar. 

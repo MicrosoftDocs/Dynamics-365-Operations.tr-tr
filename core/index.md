@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
-ms.openlocfilehash: 8703b3bc5642e6dbe9dd399ced5af6da25f9b226
+ms.sourcegitcommit: bb0700ad317fa8faf5dc83ea523dd151f0f4a811
+ms.openlocfilehash: 713178e79000e4358104038295452db0ba025195
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/28/2017
 
 
 ---
@@ -40,22 +40,22 @@ Bu belgeler, Dynamics 365 for Finance and Operations'ın işletmeniz için nası
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><h3>Mali öğeler</h3>
-<p>Uyumluluk</p>
+<td><h3>Financials</h3>
+<p><a href="../financials/general-ledger/audit-policy-rules">Uyumluluk</a></p>
 <p>Mali yönetim</p>
-<ul><li><a href="../financials/accounts-payable/accounts-payable">Borç hesapları</a></li>
+<ul style="list-style-type:none">
+<li><a href="../financials/accounts-payable/accounts-payable">Borç hesapları</a></li>
 <li><a href="../financials/accounts-receivable/accounts-receivable">Alacak hesapları</a></li>
 <li><a href="../financials/budgeting/budgeting-overview">Bütçeleme</a></li>
 <li><a href="../financials/cash-bank-management/cash-bank-management">Nakit ve banka yönetimi</a></li>
 <li><a href="../financials/cost-accounting/cost-accounting-home-page">Maliyet muhasebesi</a></li>
 <li><a href="../financials/fixed-assets/fixed-assets">Sabit kıymetler</a></li>
 <li><a href="../financials/general-ledger/general-ledger">Genel muhasebe</a></li>
-
 <li><a href="../financials/public-sector/public-sector-functionality">Kamu sektörü</a></li>
 <li><a href="../dev-itpro/lcs-solutions/country-region">Bölgesel yasal özellikler</a></li></ul>
 <p><a href="../financials/project-management/overview-project-management-accounting">Proje yönetimi</a></p>
 <H3>İnsan kaynakları</h3>
-  <ul>
+  <ul style="list-style-type:none">
 <li><a href="hr/manage-recruiting-process">İşe alma</a></li>
 <li><a href="hr/localizations/noam-usa-payroll">ABD bordrosu</a></li>
 </ul>
@@ -63,19 +63,19 @@ Bu belgeler, Dynamics 365 for Finance and Operations'ın işletmeniz için nası
 <p><a href="../supply-chain/cost-management/costing-sheets">Maliyet yönetimi</a></p>
 <p><a href="../supply-chain/inventory/inventory-locations">Stok yönetimi</a></p>
 <p>Lojistik</p>
-<ul><li><a href="../supply-chain/transportation/transportation-management-overview">Taşıma yönetimi</a></li>
-<li><a href="../supply-chain/warehousing/warehouse-configuration">Ambar yönetimi</a></li></ul></li>
+<ul style="list-style-type:none"><li><a href="../supply-chain/transportation/transportation-management-overview">Taşıma yönetimi</a></li>
+<li><a href="../supply-chain/warehousing/warehouse-configuration">Ambar yönetimi</a></li></ul>
 <p><a href="../supply-chain/master-planning/master-plans">Planlama</a></p>
   <p><a href="../supply-chain/pim/set-up-maintain-product-configuration-model">Ürün bilgileri yönetimi</a></p>
   <p><a href="../supply-chain/production-control/create-production-orders">Üretim denetimi</a></p>
 <p>Sipariş yönetimi</p>
-  <ul><li><a href="../supply-chain/procurement/procurement-sourcing-overview">Tedarik ve kaynak atama</a></li>
+  <ul style="list-style-type:none"><li><a href="../supply-chain/procurement/procurement-sourcing-overview">Tedarik ve kaynak atama</a></li>
   <li><a href="../supply-chain/sales-marketing/overview-sales-marketing">Satış ve pazarlama</a></li></ul>
 </td>
 <td>
 <h3>Birleşik Operations platformu</h3>
 <p>Karar desteği</p>
-<ul><li><a href="../dev-itpro/analytics/analytics">Analiz</a></li>
+<ul style="list-style-type:none"><li><a href="../dev-itpro/analytics/analytics">Analiz</a></li>
  <li><a href="../dev-itpro/analytics/document-reporting-services">İş belgeleri</a></li>
 <li><a href="../dev-itpro/analytics/financial-reporting-intro">Mali raporlama</a></li>
 <li><a href="../dev-itpro/analytics/general-electronic-reporting">Mevzuat raporlama</a></li></ul>
@@ -83,33 +83,34 @@ Bu belgeler, Dynamics 365 for Finance and Operations'ın işletmeniz için nası
 <p><a href="../dev-itpro/mobile-apps/mobile-platform">Mobil platform</a></p>
 
  <p>Geliştirici işlevi</p>
-<ul>
-<li><a href="../dev-itpro/continuous-delivery-home-page">Sürekli teslimat</a></li>
+<ul style="list-style-type:none">
+<li><a href="../dev-itpro/dev-tools/continuous-delivery-home-page">Sürekli teslimat</a></li>
 <li><a href="../dev-itpro/get-started/demo-data">Tanıtım verileri</a></li>
 <li><a href="../dev-itpro/dev-tools/developer-home-page">Geliştirici araçları</a></li>
 <li><a href="../dev-itpro/extensibility/customize-model-elements-extensions">Genişletilebilirlik</a></li>
 <li><p>Bütünleştirme</p>
-<ul><li><a href="../dev-itpro/data-entities/data-entities">Veri varlıkları</a></li>
+<ul style="list-style-type:none"><li><a href="../dev-itpro/data-entities/data-entities">Veri varlıkları</a></li>
 <li><a href="../dev-itpro/office-integration/office-integration">Office tümleştirmesi</a></li></ul></li></ul>
 
 <p>Yönetici işlevi<p>
-<ul>
-<li><a href="../get-started/onboarding-home">Kuruluşunuza kullanıcı kazandırma</a></li>
-<li><a href="../dev-itpro/deploy-demo-environment">Dağıtım ve servis</a></li>
+<ul style="list-style-type:none">
+<li><a href="../fin-and-ops/get-started/onboarding-home">Kuruluşunuza kullanıcı kazandırma</a></li>
+<li><a href="../dev-itpro/deployment/deploy-demo-environment">Dağıtım ve servis</a></li>
 <li><a href="../dev-itpro/migration-upgrade/upgrade-home-page">Yükselt</a></li>
 <li><a href="../dev-itpro/data-entities/data-management-integration-data-entity">Veri yönetimi</a></li>
 <li><a href="../dev-itpro/lifecycle-services/lcs">Lifecycle Services</a></li>
 <li><a href="../fin-and-ops/organization-administration/organization-administration-home-page">Kuruluş yönetimi</a></li>
 <li><a href="../dev-itpro/sysadmin/system-administration-home-page">Sistem yönetimi</a></li>
-<ul>
+</ul>
 </td>
 <td>
-<h3>Dynamics 365 for Talent</h3>
+<h3>İlgili ürünler</h3>
+<h4>Dynamics 365 for Talent</h4>
 <p><a href="../talent/manage-benefit-program">Kazançlar</a></p>
-<p><a href="../talent/performance-management-overview">Personel gelişimi ve eğitimi</a></p>
+<p><a href="../talent/performance-management-overview">Personel gelişimi ve eğitim</a></p>
 <p><a href="../talent/questionnaires">Soru formu</a></p>
 
-<h3>Dynamics 365 for Retail</h3>
+<h4>Dynamics 365 for Retail</h4>
 <p><a href="../retail/call-center-functionality">Çağrı merkezi</p>
 <p><a href="../retail/define-maintain-retail-channels">Kanal kurulumu ve yönetimi</p>
 <p><a href="../retail/retail-peripherals-overview">MPOS ve Bulut POS</p>

@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
@@ -31,6 +31,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="product-dimensions"></a>Ürün boyutları
 
 [!include[banner](../includes/banner.md)]
+
+[!include[Retail name](../includes/retail-name.md)]
 
 
 Dört ürün boyutu bulunur - Renk, Yapılandırma, Boyut ve Stil. Ürün boyutlarını boyut gruplarında birleştirebilirsiniz ve ürün master öğelerine boyut grupları atayabilirsiniz. Ürün boyutlarının kombinasyonları, ürün çeşitlerinin nasıl tanımlanacağını belirler.
