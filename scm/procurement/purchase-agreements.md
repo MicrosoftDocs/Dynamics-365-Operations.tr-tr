@@ -3,14 +3,14 @@ title: "Satınalma sözleşmeleri"
 description: "Bu makalede, satınalma anlaşmalarıyla ilgili bilgiler verilmektedir. Bir satınalma anlaşması, kuruluşun belirli bir süre içinde birden fazla satınalma siparişi kullanarak, belirli bir miktarda veya tutarda alım yapacağını taahhüt eden bir sözleşmedir. Bu taahhüt karşılığında, alıcıya özel fiyatlar ve iskontolar verilir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c100bd34725c67710d0f473a001c73705600ba79
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 4266ba2b19c3bd31a10301dd2290cd4b4fa53bdb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -48,7 +48,7 @@ Satınalma sözleşmesindeki her satır bir şeyi satın almak için bir taahhü
 -   **Değer taahhüdü** – herhangi bir tedarik kategorisindeki herhangi bir üründen belirli bir para biri miktarında satın alırsınız.
 
 ## <a name="pricing-terms-for-purchase-agreements"></a>Satınalma anlaşmaları için fiyatlandırma koşulları
-Fiyatlandırma şartları taahhüdün türüne bağlı olarak değişebilir. Satınalma sözleşmesindeki fiyatlandırma şartları, ticaret sözleşmelerinde ayarlanan diğer tüm fiyatlandırma şartlarını geçersiz kılar. Aşağıdaki tablo her bir taahhüt türü tarafından etkilenen fiyat ile ilgili alanları açıklar. **Evet**ibaresini içeren alanlar bir sipariş satırında güncelleştirilebilirler.
+Fiyatlandırma şartları taahhüdün türüne bağlı olarak değişebilir. Satınalma sözleşmesindeki fiyatlandırma şartları, ticaret sözleşmelerinde ayarlanan diğer tüm fiyatlandırma şartlarını geçersiz kılar. Aşağıdaki tablo her bir taahhüt türü tarafından etkilenen fiyat ile ilgili alanları açıklar. **Evet** ibaresini içeren alanlar bir sipariş satırında güncelleştirilebilirler.
 
 | Taahhüt türü                   | Birim fiyat | Fiyat birimi | İskonto yüzdesi | Nakit iskontosu tutarı |
 |-----------------------------------|------------|------------|------------------|----------------------|
@@ -80,7 +80,7 @@ Bir satınalma sözleşmesini teyit ettiğinizde bu satınalma sözleşmenin ge�
 Bir satınalma siparişi oluşturduğunuzda buna bir satın alma sözleşmesi uygulayabilirsiniz. Ödeme koşulları, teslim koşulları ve teslim adresi gibi anlaşmadan koşullarından gelen bilgiler sonra satınalma siparişi başlığına kopyalanır. Satınalma siparişi, ürünler veya anlaşma kapsamında olan kategoriler için bir veya daha fazla satır içeriyorsa, satınalma sözleşmesindeki fiyatlar ve iskontolar bu satırlar için kullanılır. Sipariş satırı üzerindeki miktar ya da tutar, satınalma sözleşmesindeki taahhüdün yerine getirilmesine katkıda bulunur. Aynı satınalma siparişi hem bir satın alma sözleşmesi için ilişkili olmayan satırlar hem de satın alma sözleşmesi için bir taahhüdü olan satırları içerebilir.  
 
 Bir satınalma sözleşmesini sadece bir satınalma siparişi oluştururken seçebilirsiniz. Satınalma siparişi oluşturulduktan sonra bir satınalma sözleşmesi seçemezsiniz.  
-Satınalma siparişlerinin dolaylı olarak oluşturulduğu bazı durumlarda, Microsoft Dynamics 365 for Operations'ın uygun satınalma sözleşmelerini otomatik olarak arayıp aramayacağını kontrol edebilirsiniz. Örneğin bunu planlanan satınalma siparişlerinin kesinleştirmesini yaptığınızda ya da satış siparişlerine dayanan satınalma siparişleri oluşturduğunuzda yapabilirsiniz.
+Satınalma siparişlerinin dolaylı olarak oluşturulduğu bazı durumlarda, Finance and Operations'ın uygun satınalma sözleşmelerini otomatik olarak arayıp aramayacağını kontrol edebilirsiniz. Örneğin bunu planlanan satınalma siparişlerinin kesinleştirmesini yaptığınızda ya da satış siparişlerine dayanan satınalma siparişleri oluşturduğunuzda yapabilirsiniz.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Satınalma sözleşmeleri ve şirketlererası ticaret
 Şirketlerarası ticaret ilişkileri, farklı tüzel kişilikler arasında olan satıcı hesapları ve müşteri hesapları arasında oluşturulabilir. Taraflardan biri için bir satış siparişi ya da satınalma siparişi oluşturulduğunda, bir şirketlerarası sipariş zinciri oluşturulur. Sipariş zinciri içinde satış siparişi ve satınalma siparişleri uygun tüzel kişilikler içinde oluşturulur.  

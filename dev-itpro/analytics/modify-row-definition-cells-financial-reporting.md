@@ -3,7 +3,7 @@ title: "Satır tanımı hücrelerini değiştirme"
 description: "Bu makalede bir finansal raporun satır tanımındaki tüm hücreler için gerekli olan bilgiler ve bu bilgilerin nasıl girileceği açıklanmaktadır."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 920cd02edee96b829069e88e026af1774d037d9a
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 40ae4e0774c5752d697baba6c8add8aaf44fbb6d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -64,7 +64,7 @@ Aşağıdaki örnekler, geçerli satır kodlarıdır:
 2.  **Düzenle** menüsünde **Satırları Yeniden Numaralandır** öğesini tıklayın.
 3.  **Satırları Yeniden Numaralandır** iletişim kutusunda, başlangıç satır kodu ve satır kodu artışı için yeni değerler belirleyin. Nümerik satır kodlarını birbirine eşit değerlere sıfırlayabilirsiniz. Ancak, rapor tasarımcısı sadece rakamla başlayan satır kodlarını (örneğin 130 veya 246) yeniden numaralandırır. Harflerle başlayan (örneğin INCOME\_93 veya TP0693) satır kodlarını yeniden numaralandırmaz. 
 > [!NOTE]
-> Satır kodlarını yeniden numaralandırdığınızda rapor tasarımcısı **TOT** ve **CAL** referanslarını otomatik olarak güncelleştirir. Örneğin, bir **TOT** satırı, 100 satır kodu ile başlayan bir aralığa karşılık geliyorsa ve satırları 90'dan başlayarak yeniden numaralandırırsanız, başlangıç**TOT** referansı 100'den 90'a değişir.
+> Satır kodlarını yeniden numaralandırdığınızda rapor tasarımcısı **TOT** ve **CAL** referanslarını otomatik olarak güncelleştirir. Örneğin, bir **TOT** satırı, 100 satır kodu ile başlayan bir aralığa karşılık geliyorsa ve satırları 90'dan başlayarak yeniden numaralandırırsanız, başlangıç **TOT** referansı 100'den 90'a değişir.
 
 ## <a name="add-a-description"></a>Bir açıklama ekle
 Açıklama hücresi, örneğin "Gelir" veya "Net Gelir" gibi rapor satırındaki mali verilerin açıklamalarını içerir. **Açıklama** hücresindeki metin, satır tanımına girdiğinizde raporda tam olarak görüntülenir. 
@@ -122,7 +122,7 @@ Açıklama hücresi, örneğin "Gelir" veya "Net Gelir" gibi rapor satırındaki
     | SIRALAMA SORTDESC ASORTDESC | Sırala                               | Harcamaları veya gelirleri sıralar, bir fiili veya bütçe farkı raporunu en büyük farka göre sıralar veya sıra tanımlarını alfabetik olarak sıralar.                                                                   |
 
 ## <a name="specify-related-formulasrowsunits"></a>İlgili formülleri/satırları/birimleri tanımla
-**İlgili Formüller/Satırlar/Birimler** hücresi birden fazla amaca sahiptir. Bir**İlgili Formüller/Satırlar/Birimler** hücresi, satır türüne bağlı olarak aşağıdaki işlevlerden birini yerine getirebilir:
+**İlgili Formüller/Satırlar/Birimler** hücresi birden fazla amaca sahiptir. Bir **İlgili Formüller/Satırlar/Birimler** hücresi, satır türüne bağlı olarak aşağıdaki işlevlerden birini yerine getirebilir:
 
 -   Bir **TOT** biçim kodu veya bir **CAL** biçim kodu kullandığınızda bir hesaplamaya dahil edilecek satırları tanımlayın.
 -   Biçimlendirmenin sadece ilgili tutar yazdırıldığında yazdırılması için bir tutar satırıyla bir biçimlendirme satırı ilişkilendirin.
@@ -178,7 +178,7 @@ Satır tanımında bir veya daha fazla sayıda temel satır tanımlanır ve ard�
 -   **CBR** satırları, tamamlanan rapora yazdırılmaz.
 -   **CBR** biçim kodu ve bununla ilişkili kod, ilgili hesaplamaları gösteren satırın veya bölümün üstüne yerleştirilir.
 
-Sütun tanımında **CALC** sütun türü, **Formül** satırında bir formül gösteren bir sütunu belirtir. Bu formül, raporun bu sütunu için verilere dayalı olarak çalışır ve satırdaki **CBR** biçim kodlarıyla ilgili temel hesaplamalar için Baserow anahtar kelimesini kullanır. Satır tanımında **CBR** biçim kodu, rapordaki her bir satır için temel satırın bir yüzdesini veya çarpımını hesaplayan sütunlar için temel satırı tanımlar. Örneğin bir tanesi net satışlar, bir tanesi brüt satışlar ve biri toplam giderler olmak üzere bir satır formatında birden fazla **CBR** biçim koduna sahip olabilirsiniz. Genellikle, **CBR** biçim kodu, bir toplam satırı ile karşılaştırılan hesaplar için bir yüzde oluşturmak için kullanılır. Bir temel satır, başka bir temel satır tanımlanana kadar tüm hesaplamalar için kullanılır. Bir başlangıç **CBR** biçim kodu ve bir bitiş **CBR**biçim kodu tanımlamanız gerekir. Örneğin, giderleri net satışların bir yüzdesi olarak belirlemek için, her bir gider satırındaki değeri net satışlar satırındaki değere bölebilirsiniz. Bu durumda net satılar satırı temel satırdır. Aşağıdaki örnekte gösterildiği gibi, mevcut ve yılbaşından bugüne sonuçlarını ve her bir sonucun bir temel yüzdesini raporlayan bir sütun tanımı oluşturabilirsiniz. Ayrıntılı bir gelir tablosu ile başlayın.
+Sütun tanımında **CALC** sütun türü, **Formül** satırında bir formül gösteren bir sütunu belirtir. Bu formül, raporun bu sütunu için verilere dayalı olarak çalışır ve satırdaki **CBR** biçim kodlarıyla ilgili temel hesaplamalar için Baserow anahtar kelimesini kullanır. Satır tanımında **CBR** biçim kodu, rapordaki her bir satır için temel satırın bir yüzdesini veya çarpımını hesaplayan sütunlar için temel satırı tanımlar. Örneğin bir tanesi net satışlar, bir tanesi brüt satışlar ve biri toplam giderler olmak üzere bir satır formatında birden fazla **CBR** biçim koduna sahip olabilirsiniz. Genellikle, **CBR** biçim kodu, bir toplam satırı ile karşılaştırılan hesaplar için bir yüzde oluşturmak için kullanılır. Bir temel satır, başka bir temel satır tanımlanana kadar tüm hesaplamalar için kullanılır. Bir başlangıç **CBR** biçim kodu ve bir bitiş **CBR** biçim kodu tanımlamanız gerekir. Örneğin, giderleri net satışların bir yüzdesi olarak belirlemek için, her bir gider satırındaki değeri net satışlar satırındaki değere bölebilirsiniz. Bu durumda net satılar satırı temel satırdır. Aşağıdaki örnekte gösterildiği gibi, mevcut ve yılbaşından bugüne sonuçlarını ve her bir sonucun bir temel yüzdesini raporlayan bir sütun tanımı oluşturabilirsiniz. Ayrıntılı bir gelir tablosu ile başlayın.
 
 ### <a name="select-the-base-row-in-a-row-definition-for-a-column-calculation"></a>Bir sütun hesaplaması için bir satır tanımındaki temel satırı seçin.
 
@@ -252,8 +252,7 @@ Burada oluşturulan rapora bir örnek verilmiştir.
 
 |COGS|873,872|236,144|(637,728)|4,864,274|1,590,315|(3,273,959)|
 
-|Maaşlar ve Ücretler|97.624|65.573|(32.051)|653.884|441.664|(212.220)| |Satış Iskontoları|36.383|24.152|(12.231)|241.562|162.670|(78.892)| |Satış İadeleri|10.917|7.246|(3.671)|62.809|48.803|(14.006)| |Kira Gideri|12.052|9.019|(3.033)|80.444|60.748|(19.696)| |Ofis Gideri|5.023|3.291|(1.732)|33.420|22.098|(11.322)| |Seyahat Gideri|7.656|7.641|(15)|51.062|51.469|407| |Satışlar|1.240.119|410.389|829.730|7.139.288|2.764.549|4.374.739| |**YTD Mutlak Fark'a Göre Azalan Sıraya Göre Sıralanmış**|||||||
-|Satışlar|1.240.119|410.389|829.730|7.139.288|2.764.549|4.374.739| |Seyahat Gideri|7.656|7.641|(15)|51.062|51.469|407| |Ofis Gideri|5.023|3.291|(1.732)|33.420|22.098|(11.322)| |Satış İadeleri|10.917|7.246|(3.671)|62.809|48.803|(14.006)| |Kira Gideri|12.052|9.019|(3.033)|80.444|60.748|(19.696)| |Satış Iskontoları|36.383|24.152|(12.231)|241.562|162.670|(78.892)| |Maaşlar ve Ücretler|97.624|65.573|(32.051)|653.884|441.664|(212.220)| |COGS|873.872|236.144|(637.728)|4.864.274|1.590.315|(3.273.959)|
+|Maaşlar ve Ücretler|97.624|65.573|(32.051)|653.884|441.664|(212.220)| |Satış Iskontoları|36.383|24.152|(12.231)|241.562|162.670|(78.892)| |Satış İadeleri|10.917|7.246|(3.671)|62.809|48.803|(14.006)| |Kira Gideri|12.052|9.019|(3.033)|80.444|60.748|(19.696)| |Ofis Gideri|5.023|3.291|(1.732)|33.420|22.098|(11.322)| |Seyahat Gideri|7.656|7.641|(15)|51.062|51.469|407| |Satışlar|1.240.119|410.389|829.730|7.139.288|2.764.549|4.374.739| |**YTD Mutlak Fark'a Göre Azalan Sıraya Göre Sıralanmış**||||||| |Satışlar|1.240.119|410.389|829.730|7.139.288|2.764.549|4.374.739| |Seyahat Gideri|7.656|7.641|(15)|51.062|51.469|407| |Ofis Gideri|5.023|3.291|(1.732)|33.420|22.098|(11.322)| |Satış İadeleri|10.917|7.246|(3.671)|62.809|48.803|(14.006)| |Kira Gideri|12.052|9.019|(3.033)|80.444|60.748|(19.696)| |Satış Iskontoları|36.383|24.152|(12.231)|241.562|162.670|(78.892)| |Maaşlar ve Ücretler|97.624|65.573|(32.051)|653.884|441.664|(212.220)| |COGS|873.872|236.144|(637.728)|4.864.274|1.590.315|(3.273.959)|
 
 ## <a name="specify-a-format-override-cell"></a>Bir Biçim Atlatma hücresi tanımlama
 **Biçim Atlatma** hücresi, rapor yazdırıldığında satır için kullanılan biçimlendirmeyi belirtir. Bu biçimlendirme, sütun tanımında ve rapor tanımında belirtilen biçimlendirmeyi geçersiz kılar. Varsayılan olarak, bu tanımlarda belirtilen biçimlendirme para birimidir. Raporun bir satırı, bina sayısı gibi kıymetlerin sayısını listeliyorsa ve başka bir satırı bu kıymetlerin parasal değerini listeliyorsa para birimi biçimlendirmesini atlatabilir ve binaların sayısını belirleyen satır için nümerik biçimlendirmeyi girebilirsiniz. Bu bilgileri **Biçim Atlatma** iletişim kutusunda belirtirsiniz. Kullanılabilir seçenekler, seçtiğiniz biçim kategorisine bağlıdır. İletişim kutusunun **Örnek** alanında örnek biçimler gösterilir. Aşağıdaki biçim kategorileri kullanılabilir:
@@ -335,7 +334,7 @@ Bir satır tanımındaki **Satır Değiştirici** hücresinin içeriği o satır
 
 1.  Rapor Tasarımcısında değiştirilecek satır tanımını açın.
 2.  Sütun tanımını atlatmak istediğiniz satırda **Satır Değiştirici** hücresini çift tıklayın.
-3.  **Satır Değiştirici** iletişim kutusunda, bir**Hesap değiştirici** alanından bir seçenek belirleyin. Seçeneklerin açıklamaları için "Hesap değiştiriciler" bölümüne bakın.
+3.  **Satır Değiştirici** iletişim kutusunda, bir **Hesap değiştirici** alanından bir seçenek belirleyin. Seçeneklerin açıklamaları için "Hesap değiştiriciler" bölümüne bakın.
 4.  **Defter kodu değiştirici** alanında o satır için kullanılacak defter kodunu seçin.
 5.  **Öznitelikler** altında, satır koduyla birlikte dahil edilmesi gereken her bir öznitelik için bir giriş eklemek üzere bu adımları takip edin:
     1.  **Öznitelik** hücresini çift tıklayın ve bir öznitelik adı seçin. **Dikkat:** Sayı işaretini (\#) bir sayısal değer ile değiştirin.

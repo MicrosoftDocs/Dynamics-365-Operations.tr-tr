@@ -3,24 +3,24 @@ title: "Proje yönetimi ve muhasebe"
 description: "Proje yönetimi ve muhasebe işlevi, birden çok sektörde hizmet almak, ürün üretmek veya bir sonuç elde etmek için kullanılabilir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a6235f36af6dfb2f4164405d384f13a7c1cde06
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 12afcde947463b3abf58dea6138653a32dcda6f1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -37,7 +37,7 @@ Proje, bir servis sağlamak, bir ürün üretmek veya bir sonuç elde etmek üze
 ## <a name="projects-across-industries"></a>Endüstrilerdeki projeler
 Proje yönetimi ve muhasebe işlevi, aşağıdaki şekilde gösterildiği gibi birden fazla endüstride kullanılabilir. [![Endüstriler arasındaki projeler](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Çağrı merkezinde bir bilet, bir çağrının çözülmesi için gerekli eylemlerin tanımlanması için kullanılabilir. Yönetim veya teknik danışmanlık kuruluşları veya reklam acenteleri gibi danışmanlık şirketleri projeler olarak bu etkinliklere bakar. Pazarlamada, kampanya temsil edilmesi gereken iş kümesini temsil eder. Projeye dayalı üretimlerde bir üretim emri, hedeflenen nihai ürünlerin üretilmesi için gerçekleştirilmesi gereken çeşitli çalışmaları kapsar. Bu projeler nasıl adlandırılırsa adlandırılsın kaynaklar, planlar ve maliyetler içerir ve Microsoft Dynamics 365 for Operations'daki proje yönetimi ve muhasebe işlevi bu projelerin planlanması, uygulanması ve analiz edilmesine yardımcı olabilir.
+Çağrı merkezinde bir bilet, bir çağrının çözülmesi için gerekli eylemlerin tanımlanması için kullanılabilir. Yönetim veya teknik danışmanlık kuruluşları veya reklam acenteleri gibi danışmanlık şirketleri projeler olarak bu etkinliklere bakar. Pazarlamada, kampanya temsil edilmesi gereken iş kümesini temsil eder. Projeye dayalı üretimlerde bir üretim emri, hedeflenen nihai ürünlerin üretilmesi için gerçekleştirilmesi gereken çeşitli çalışmaları kapsar. Bu projeler nasıl adlandırılırsa adlandırılsın kaynaklar, planlar ve maliyetler içerir ve Microsoft Dynamics 365 for Finance and Operations, Enterprise edition için proje yönetimi ve muhasebe işlevi bu projelerin planlanması, uygulanması ve analiz edilmesine yardımcı olabilir.
 
 ## <a name="project-phases"></a>Proje aşamaları
 Aşağıdaki süreç akışı, harici projelere veya bir veya daha fazla sayıda müşteri için tamamlanmış bir projeye yönelik olsa dahi bu işlev aynı zamanda dahili, maliyete dayalı projeler için de geçerlidir. 
@@ -75,11 +75,11 @@ Daha fazla bilgi için [İş kırılım yapıları](work-breakdown-structures.md
 
 ### <a name="create-project-forecasts-and-budgets"></a>Proje tahminleri ve bütçeleri oluşturma
 
-Organizasyonunuz bir operasyonel perspektife sahipse ve belirli hareketlerden elde edilen gelirlere ve çıkan maliyetlere odaklanıyorsa tahmin yöntemini kullanabilirsiniz. Ancak, organizasyonunuz daha çok mali tutarlara odaklanıyorsa bütçe yöntemini kullanabilirsiniz. Her yöntemin kendine göre avantajları vardır. Daha fazla bilgi için [Proje tahminleri ve bütçeleri](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/) bölümüne bakın.
+Organizasyonunuz bir operasyonel perspektife sahipse ve belirli hareketlerden elde edilen gelirlere ve çıkan maliyetlere odaklanıyorsa tahmin yöntemini kullanabilirsiniz. Ancak, organizasyonunuz daha çok mali tutarlara odaklanıyorsa bütçe yöntemini kullanabilirsiniz. Her yöntemin kendine göre avantajları vardır. Daha fazla bilgi için [Proje tahminleri ve bütçeleri](project-forecasts-budgets.md) bölümüne bakın.
 
 ### <a name="create-projects"></a>Projeler oluştur
 
-Microsoft Dynamics 365 for Operations'da altı proje türü oluşturabilirsiniz. Her proje türü farklı maliyetlerin ve gelirin tanınması için farklı şekilde ayarlanır. Seçtiğiniz proje türü, projenin türüne dayalıdır. Aşağıdaki tabloda her bir proje türünün tipik kullanımı açıklanmıştır.
+Microsoft Finance and Operations'da altı proje türü oluşturabilirsiniz. Her proje türü farklı maliyetlerin ve gelirin tanınması için farklı şekilde ayarlanır. Seçtiğiniz proje türü, projenin türüne dayalıdır. Aşağıdaki tabloda her bir proje türünün tipik kullanımı açıklanmıştır.
 
                                                                                                                                                                          |
 | Proje türü      | Açıklama                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -118,7 +118,7 @@ Daha fazla bilgi için [İş kırılım yapıları](work-breakdown-structures.md
 
 Projelerinizi yönetmenizin ve kontrol etmenizi iki yöntemi vardır: proje tahminleri ve proje bütçeleri. Organizasyonunuz bir operasyonel perspektife sahipse ve belirli hareketlerden elde edilen gelirlere ve çıkan maliyetlere odaklanıyorsa tahmin yöntemini kullanabilirsiniz. Ancak, organizasyonunuz daha çok mali tutarlara odaklanıyorsa bütçe yöntemini kullanabilirsiniz.
 
-Daha fazla bilgi için [Proje tahminleri ve bütçeleri](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/) bölümüne bakın.
+Daha fazla bilgi için [Proje tahminleri ve bütçeleri](project-forecasts-budgets.md) bölümüne bakın.
 
 ### <a name="create-production-orders"></a>Üretim emirleri oluşturma
 
@@ -210,7 +210,7 @@ Proje faturalarının nasıl işleneceği hakkında daha fazla bilgi için [Proj
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Bir projenin tamamlanacağı maliyeti hesaplama
 
-Bir tahmin oluşturduğunuzda projenin tamamlanması maliyetini hesaplamak için kullanılan yöntemi seçebilirsiniz. **Tahmin oluştur**sayfasındaki **Proje tamamlama maliyeti** alanından bir yöntem seçin. Seçtiğiniz yöntem, maliyet tahminindeki her bir maliyet satırına ayrı olarak uygulanır. Bir satır **Oluşturuldu** durumuna sahipse, buna uygulanacak yöntemi **Maliyet tahmini** sayfasından değiştirebilirsiniz. 
+Bir tahmin oluşturduğunuzda projenin tamamlanması maliyetini hesaplamak için kullanılan yöntemi seçebilirsiniz. **Tahmin oluştur** sayfasındaki **Proje tamamlama maliyeti** alanından bir yöntem seçin. Seçtiğiniz yöntem, maliyet tahminindeki her bir maliyet satırına ayrı olarak uygulanır. Bir satır **Oluşturuldu** durumuna sahipse, buna uygulanacak yöntemi **Maliyet tahmini** sayfasından değiştirebilirsiniz. 
 
 Aşağıdaki tabloda proje tamamlama maliyetinin hesaplanması için kullanılabilecek yöntemler açıklanmıştır.
 
@@ -228,7 +228,7 @@ Aşağıdaki tabloda proje tamamlama maliyetinin hesaplanması için kullanılab
 <tbody>
 <tr class="odd">
 <td>Toplam maliyet – gerçek</td>
-<td>Tahmini maliyetleri mutlaka manuel olarak girilmelidir. <strong>Maliyet tahmini</strong> sayfasındaki <strong>Toplam maliyet</strong> veya <strong>Toplam miktar </strong>sütunu tamamlandığında fiili maliyetler, kullanıcı tarafından girilen toplam tutarlardan çıkarılır. Neticesinde proje tamamlama maliyeti elde edilir. Tipik olarak, maliyetlerin ilerleyişi örneğin her bir dönemde kaydedilen otel konaklama ve yemek sayısına göre takip edilmez. Bunun yerine. İzleme genellikle tahmini toplam saat miktarına karşı bir karşılaştırmaya dayanır. Bu yaklaşım bir tahmin modeli gerektirmez ve toplam maliyet ve toplam miktar manuel olarak değiştirilebilir. <strong>Toplam maliyet</strong> veya <strong>Toplam miktar</strong> sütununa bir değer girildiğinde Microsoft Dynamics 365 for Operations bu değeri dönemde aktarılan gerçek hareketlerle karşılaştırır ve ardından <strong>Tamamlanacak miktar</strong> veya <strong>Tamamlama maliyeti</strong> sütunundaki değeri düşürür.</td>
+<td>Tahmini maliyetleri mutlaka manuel olarak girilmelidir. <strong>Maliyet tahmini</strong> sayfasındaki <strong>Toplam maliyet</strong> veya <strong>Toplam miktar </strong>sütunu tamamlandığında fiili maliyetler, kullanıcı tarafından girilen toplam tutarlardan çıkarılır. Neticesinde proje tamamlama maliyeti elde edilir. Tipik olarak, maliyetlerin ilerleyişi örneğin her bir dönemde kaydedilen otel konaklama ve yemek sayısına göre takip edilmez. Bunun yerine. İzleme genellikle tahmini toplam saat miktarına karşı bir karşılaştırmaya dayanır. Bu yaklaşım bir tahmin modeli gerektirmez ve toplam maliyet ve toplam miktar manuel olarak değiştirilebilir. <strong>Toplam maliyet</strong> veya <strong>Toplam miktar</strong> sütununa bir değer girildiğinde Finance and Operations, bu değeri dönemde aktarılan gerçek hareketlerle karşılaştırır ve ardından <strong>Tamamlanacak miktar</strong> veya <strong>Tamamlama maliyeti</strong> sütunundaki eğeri düşürür.</td>
 </tr>
 <tr class="even">
 <td>Toplam bütçe – gerçek</td>
@@ -238,7 +238,7 @@ Aşağıdaki tabloda proje tamamlama maliyetinin hesaplanması için kullanılab
 <li>Tahmin hareketleriyle gerçek hareketleri karşılaştırın.</li>
 <li>Sonraki dönem için tahminleri koruyun, azaltın veya artırın.</li>
 </ol>
-Microsoft Dynamics 365 for Operations, öngörülen tahminleri otomatik olarak azaltmaz. Bu nedenle, proje tamamlandığında karşılaştırma için bir temel oluşturmak için Sabit fiyatlı projede bir orijinal tahmin modelinin korunması iyi bir fikirdir. 
+Finance and Operations, öngörülen tahminleri otomatik olarak azaltmaz. Bu nedenle, proje tamamlandığında karşılaştırma için bir temel oluşturmak için Sabit fiyatlı projede bir orijinal tahmin modelinin korunması iyi bir fikirdir. 
 > [!NOTE] Bu yöntemi seçtiğinizde en az iki tahmin modeli kullanın. bir modeli orijinal tahmini içermelidir. Diğer model için, tahmin modellerini başka bir modelden kopyalamanız gerekir. Bu yöntem sadece Sabit fiyatlı projeler ve Yatırım projeleri için geçerlidir.</td>
 > </tr>
 <tr class="odd">
@@ -316,7 +316,7 @@ Bu ayarlara dayalı olarak, her bir hareket türü için maliyet ödeme tarihi �
 
 Maliyet ödeme tarihi tampon günlerine dayalı olarak hesaplanmaz. Bir proje tamamlandıktan sonra tüm maliyet çıkarma ve faturalandırma işlemleri tamamlandığında, hem maliyet hem de satışlar kar ve zarar hesaplarına nakledilir. 
 
-Tüm satışlar ve satıcı faturaları tamamlandığında, **Nakit akışı**sayfasındaki alanlar ile **Proje ifadeleri** sayfasındaki alanlar arasındaki ilişkiyi görüntüleyebilirsiniz.
+Tüm satışlar ve satıcı faturaları tamamlandığında, **Nakit akışı** sayfasındaki alanlar ile **Proje ifadeleri** sayfasındaki alanlar arasındaki ilişkiyi görüntüleyebilirsiniz.
 
 | Nakit akışı sayfası | Proje bildirimleri sayfası |
 |----------------|-------------------------|
@@ -333,14 +333,14 @@ Bir proje sırasında organizasyonunuzun üstlendiği maliyetleri **Maliyet kont
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Kalan bütçelenmiş tutarları görüntüleme
 
-**Proje yönetimi ve muhasebe parametreleri**sayfasında maliyet kontrol yöntemi olarak **Proje bütçesi** seçilirse **Maliyet kontrolü** sayfası, fiili olarak nakledilmemiş veya taahhüt edilmiş olarak işaretlenmemiş maliyetleri hesaplar. Özellikle, **Maliyet kontrolü** sayfasının alt panosundaki **Genel** sekmesindeki tutarlar şu şekilde hesaplanır:
+**Proje yönetimi ve muhasebe parametreleri** sayfasında maliyet kontrol yöntemi olarak **Proje bütçesi** seçilirse **Maliyet kontrolü** sayfası, fiili olarak nakledilmemiş veya taahhüt edilmiş olarak işaretlenmemiş maliyetleri hesaplar. Özellikle, **Maliyet kontrolü** sayfasının alt panosundaki **Genel** sekmesindeki tutarlar şu şekilde hesaplanır:
 
 -   **Fiili maliyet** – Seçilen maliyet satırı için projede harcanan toplam tutar. Fiili maliyet tutarı, **Defter güncellemeleri** sayfasında hesaplanır.
 -   **Taahhüt edilen maliyet** – Tüzel kişiliğin kendisi ödemek üzere taahhüt ettiği giderlerin ilave tutarı. Özgün, tahmin edilen maliyet tutarları **Taahhüt edilen maliyetler** sayfasında hesaplanır.
 -   **Kalan bütçe** – Orijinal bütçelenen tutar miktarı seçilen maliyet satırı için kalmaya devam ede.r Kalan bütçe tutarı **Genel muhasebe önizleme** sayfasında hesaplanır.
 -   **Toplam maliyet** – Fiili maliyet, taahhüt edilen maliyet ve kalan bütçe tutarlarının toplamı.
 
-**Maliyet kontrolü**sayfasında, **Sapma**semesinde toplam beklenen maliyet ile orijinal bütçenin bir karşılaştırmasını görüntüleyebilirsiniz. Bu karşılaştırma bu tutarlar arasındaki farkı gösterir. Böylece, verilerin eşleşmediği yerleri görebilirsiniz. Sapma tutarları aşağıdaki şekillerde hesaplanır:
+**Maliyet kontrolü** sayfasında, **Sapma** semesinde toplam beklenen maliyet ile orijinal bütçenin bir karşılaştırmasını görüntüleyebilirsiniz. Bu karşılaştırma bu tutarlar arasındaki farkı gösterir. Böylece, verilerin eşleşmediği yerleri görebilirsiniz. Sapma tutarları aşağıdaki şekillerde hesaplanır:
 
 -   **Orijinal bütçe** – Seçilen maliyet satırı için orijinal olarak bütçelenen tutar. Orijinal bütçe tutarı, **Genel muhasebe önizleme** sayfasında hesaplanır.
 -   **Toplam maliyet** – **Genel** sekmesinde rapor edildiği şekilde fiili maliyet, taahhüt edilen maliyet ve kalan bütçenin toplamı.
@@ -357,7 +357,7 @@ Bir proje sırasında organizasyonunuzun üstlendiği maliyetleri **Maliyet kont
 -   **Taahhüt edilen maliyet** – Seçilen maliyet satırı için taahhüt edilmiş toplam tutar.
 -   **Fark** – Gerçek ve taahhüt edilen maliyetlerin toplamı ile toplam maliyet arasındaki fark. Fark, ilave maliyetlerin toplam bütçe için belirtilmesinin gerekli olup olmadığını gösterir.
 
-**Maliyet kontrolü** sayfasında **Sapma**sekmesinde, aşağıdaki alanlara bakarak toplam bütçe ile orijinal bütçe arasındaki farkı görüntüleyebilirsiniz:
+**Maliyet kontrolü** sayfasında **Sapma** sekmesinde, aşağıdaki alanlara bakarak toplam bütçe ile orijinal bütçe arasındaki farkı görüntüleyebilirsiniz:
 
 -   **Orijinal bütçe**– Maliyet satırı için orijinal olarak bütçelenen tutar. Orijinal bütçe, **Genel muhasebe önizleme** sayfasında hesaplanır.
 -   **Toplam bütçelenen maliyet** – Maliyet satırı için orijinal olarak bütçelenen toplam maliyet. Toplam bütçelenen maliyet, **Genel muhasebe önizleme** sayfasında hesaplanır.
@@ -394,14 +394,14 @@ Bir çalışan için yararlanma oranını hesaplıyorsanız normal saatleri veya
 
 ### <a name="review-project-statements"></a>Proje bildirimlerini gözden geçirme
 
-Bir projenin ilerleyişini hızlı şekilde görmek için bir proje bildirimi oluşturabilirsiniz. Bir proje bildirimi oluşturduğunuzda **Proje bildirimleri**sayfasındaki **Genel** sekmesinde seçimler yaparak bildirimin hesaplanmasında kullanılacak kriterleri belirleyebilirsiniz. Aşağıdaki bilgilerin eklenmesini veya çıkarılmasını seçebilirsiniz:
+Bir projenin ilerleyişini hızlı şekilde görmek için bir proje bildirimi oluşturabilirsiniz. Bir proje bildirimi oluşturduğunuzda **Proje bildirimleri** sayfasındaki **Genel** sekmesinde seçimler yaparak bildirimin hesaplanmasında kullanılacak kriterleri belirleyebilirsiniz. Aşağıdaki bilgilerin eklenmesini veya çıkarılmasını seçebilirsiniz:
 
 -   Proje tipleri
 -   Hareket tipleri
 -   Project tarihi/defter tarihi
 -   Veriler
 
-Bildirim hesaplandıktan sonra **Proje bildirimleri**sayfasının çeşitli sekmelerinde şu bilgileri görüntüleyebilirsiniz:
+Bildirim hesaplandıktan sonra **Proje bildirimleri** sayfasının çeşitli sekmelerinde şu bilgileri görüntüleyebilirsiniz:
 
 -   **Genel** – Projenin temel kar ve zarar yapısı hakkında genel bilgiler.
 -   **Kar ve zarar** – Tahakkuk eden gelir hakkında bilgiler.

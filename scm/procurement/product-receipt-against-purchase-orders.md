@@ -3,14 +3,14 @@ title: "Ürün girişine karşılık satınalma siparişleri"
 description: "Bu makalede ürünleri teslim alınmış olarak kaydetmeye yönelik çeşitli seçenekler açıklanmıştır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93113
 ms.assetid: d4ec3e86-fce2-4546-911b-e0acf64c8887
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5d1b063344d4191facf2ddace5f5c9d592fb0942
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a192688315adb2d83f349c525c5d8f70309375db
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,6 +29,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="product-receipt-against-purchase-orders"></a>Ürün girişine karşılık satınalma siparişleri
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Bu makalede ürünleri teslim alınmış olarak kaydetmeye yönelik çeşitli seçenekler açıklanmıştır.
@@ -54,7 +56,7 @@ PO'lar stok olarak tasarlanmamış ancak gider olarak kabul edilen ürünler iç
 
 Tüm bu siparişler üzerinden birden çok siparişi ve işlem girişini seçebilirsiniz. Bu yaklaşım çok sık kullanılmaz ancak bir tedarikçinin tek bir yük halinde konsolide edilmiş sevk irsaliyeleri varsa onu kullanmak isteyebilirsiniz. Satınalmaya ürün girişi sırasında özet güncelleştirmeler yapmak için bir işlev bulunmaktadır. Özet güncelleştirmeler birden fazla PO için tedarikçiden tek bir sevk irsaliyesi nakletmenizi sağlar.  
 
-PO'lar **Doğrudan teslim** seçeneğinin belirlendiği bir satış siparişinden oluşturulabilir. Doğrudan teslim kullanıldığında ürünler hiçbir zaman ambarınıza ulaşmaz ancak doğrudan tedarikçiden müşteriye sevk edilir. Bu durumda giriş genellikle doğrudan PO üzerinden kaydedilir. Giriş, örneğin tedarikçi ile tümleştirilen elektronik veri alışverişi (EDI) aracılığıyla otomatik olarak yapılabilir. Alternatif olarak, PO şirketlerarası bir PO ise sevkiyat gerçekleştiğinde Microsoft Dynamics 365 for Operations girişi şirketlerarası satış siparişinde otomatik hale getirir. Doğrudan teslim kullanıldığında, fiziksel olarak ambara ulaşmasalar dahi ürünler hala stok olarak hesaba katılır. Bu nedenle ürün girişi PO'da kaydedildiğinde satış siparişi bir sevk irsaliyesi ile otomatik olarak güncelleştirilir, böylece stoktaki toplam değişiklik 0 (sıfır) olur. Doğrudan teslim senaryolarında ön kayda gerek duymamalısınız. Ambar yönetimi için etkinleştirilmiş ambarlar kullanıyorsanız yerine sanal bir ambar belirterek plaka kaydı gereksinimi içinde gezinebilirsiniz. Bu ambarı üründe **Doğrudan teslim ambarı** alanında belirtin. 
+PO'lar **Doğrudan teslim** seçeneğinin belirlendiği bir satış siparişinden oluşturulabilir. Doğrudan teslim kullanıldığında ürünler hiçbir zaman ambarınıza ulaşmaz ancak doğrudan tedarikçiden müşteriye sevk edilir. Bu durumda giriş genellikle doğrudan PO üzerinden kaydedilir. Giriş, örneğin tedarikçi ile tümleştirilen elektronik veri alışverişi (EDI) aracılığıyla otomatik olarak yapılabilir. Alternatif olarak, PO şirketlerarası bir PO ise sevkiyat gerçekleştiğinde Microsoft Dynamics 365 for Finance and Operations girişi şirketlerarası satış siparişinde otomatik hale getirir. Doğrudan teslim kullanıldığında, fiziksel olarak ambara ulaşmasalar dahi ürünler hala stok olarak hesaba katılır. Bu nedenle ürün girişi PO'da kaydedildiğinde satış siparişi bir sevk irsaliyesi ile otomatik olarak güncelleştirilir, böylece stoktaki toplam değişiklik 0 (sıfır) olur. Doğrudan teslim senaryolarında ön kayda gerek duymamalısınız. Ambar yönetimi için etkinleştirilmiş ambarlar kullanıyorsanız yerine sanal bir ambar belirterek plaka kaydı gereksinimi içinde gezinebilirsiniz. Bu ambarı üründe **Doğrudan teslim ambarı** alanında belirtin. 
 
 Ürün girişi SAS'de işlendikten sonra faturanın sipariş için işlenebildiğini göstermek için SAS durumu **Alındı** olarak ayarlanır. **Ürün girişi günlükleri** sayfasını kullanarak halihazırda alınan ürünlerle ilgili ayrıntıları inceleyebilirsiniz.  
 
@@ -69,7 +71,7 @@ Bu sayfaya **Satınalma siparişi** sayfasındaki **Giriş** eylem grubu üzerin
 
 [Satınalma siparişi onayı ve doğrulaması](purchase-order-approval-confirmation.md)
 
-[Satıcı faturalarına genel bakış](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[Satıcı faturalarına genel bakış](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

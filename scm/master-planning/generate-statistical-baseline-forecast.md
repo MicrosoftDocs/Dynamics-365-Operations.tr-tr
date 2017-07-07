@@ -3,14 +3,14 @@ title: "Bir istatistik temel tahmin oluştur"
 description: "Bu makalede, talep tahmini hesaplamasında kullanılan parametreler ve filtreler hakkında bilgiler verilmektedir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d5232b0862d02962c6524ddc5ef37a6ad49d4143
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 93646e37ee511d433097bb284fccc73c230aee32
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -47,15 +47,15 @@ Tahmin stratejisi **Geçmişteki talep üzerine kopyala** olarak ayarlandığın
 -   Talebi geçen yılki aynı üç aydan başlayarak kopyalamak suretiyle.
 -   Talebi önceki üç aydan başlayarak kopyalamak suretiyle.
 
-Üretim planlarında karışıklığı önlemek için, belirli bir sayıda tahmin aralığı dondurulabilir. Bu numara **Dondurma zaman dilimi** alanında ayarlanır. **Düzeltilmiş talep tahmini**sayfasında, dondurulan aralık hücreleri, bu değerlerin değiştirilmemesi gerektiğine dair görsel bir uyarı vermek için devre dışı bırakılır. 
+Üretim planlarında karışıklığı önlemek için, belirli bir sayıda tahmin aralığı dondurulabilir. Bu numara **Dondurma zaman dilimi** alanında ayarlanır. **Düzeltilmiş talep tahmini** sayfasında, dondurulan aralık hücreleri, bu değerlerin değiştirilmemesi gerektiğine dair görsel bir uyarı vermek için devre dışı bırakılır. 
 
-Temel Talep tahmini için başlangıç tarihinin geçerli tarih veya gelecekteki bir tarih olması gerekmez. Farklı bir başlangıç tarihi ayarlamak için, **Temel tahmin Başlangıç tarihi - Başlangıç tarihi** alanı. Örneğin, Haziran ayında, kullanıcılar gelecek yıl için tahmin oluşturabilir. Geçmiş talebin sonu ile temel başlangıcı arasındaki tahmin aralıkları eksik olduğu için, öngörüler doğru olmayabilir. Microsoft Dynamics 365 for Operations Talep tahmini hizmeti kullanıyorsanız, eksik boşlukları doldurabileceğiniz dört yolu vardır. İstediğiniz yöntemi **Talep tahmini parametreleri** sayfasındaki MISSING\_VALUE\_SUBSTITUTION parametresini ayarlayarak seçebilirsiniz. 
+Temel Talep tahmini için başlangıç tarihinin geçerli tarih veya gelecekteki bir tarih olması gerekmez. Farklı bir başlangıç tarihi ayarlamak için, **Temel tahmin Başlangıç tarihi - Başlangıç tarihi** alanı. Örneğin, Haziran ayında, kullanıcılar gelecek yıl için tahmin oluşturabilir. Geçmiş talebin sonu ile temel başlangıcı arasındaki tahmin aralıkları eksik olduğu için, öngörüler doğru olmayabilir. Microsoft Dynamics 365 for Finance and Operations Talep tahmini hizmeti kullanıyorsanız, eksik boşlukları doldurabileceğiniz dört yolu vardır. İstediğiniz yöntemi **Talep tahmini parametreleri** sayfasındaki MISSING\_VALUE\_SUBSTITUTION parametresini ayarlayarak seçebilirsiniz. 
 
 **Temel tahmin başlangıç tarihi** - **Başlangıç tarihi** alanının, bir tahmin aralığının başlangıcına, örneğin ABD'de, tahmin aralığı hafta ise, Pazar gününe ayarlanması gerekir. Sistem, **Temel tahmin başlangıç tarihi** - **Başlangıç tarihi** alanını bir tahmin aralığının başlangıcıyla eşleşecek şekilde otomatik olarak ayarlar. 
 
 **Temel tahmin başlangıç tarihi** - **Başlangıç tarihi** alanı geçmişteki bir tarihe ayarlanabilir. Diğer bir deyişle, geçmişte bir talep tahminini oluşturmak mümkündür. Bu işlem, kullanıcıların tahmin hizmet parametrelerinde geçmişte üretilen istatistiksel tahminin gerçek geçmiş talebiyle eşleşecek şekilde ufak düzeltmeler yapmasına olanak verdiği için yararlıdır. Daha sonra kullanıcılar geleceğe yönelik istatistik temel tahmini oluşturmak için bu parametre ayarlarını kullanmaya devam edebilir. 
 
-**Manüel ayarlamaları talep tahminine aktar** onay kutusu seçiliyse, önceki talep tahmini yinelemelerinde yapılan manüel ayarlamalar, yeni temel tahmine otomatik olarak uygulanabilir. Onay kutusu temizlenirse, manüel ayarlamalar temel tahmine eklenmez, ancak silinmezler. Bir tahminde yapılan manüel ayarlamalar, yalnızca tahmini içe aktarma sırasında, **Temel talep tahmininde yapılan manüel ayarlamaları kaydet** onay kutusundaki işaret kaldırılarak silinebilir. Manüel ayarlamalar yetkilendirme anında kaydedilir. Bu nedenle, bir kullanıcı, tahminde manüel ayarlamalar yapar, ancak tahmini Dynamics 365 for Operations'ta yeniden yetkilendirmezse, değişiklikler kaybolur. Manüel ayarlamalar ve bunların çalışma şekilleri hakkında daha fazla bilgi için, bkz. [Ayarlanmış tahmini yetkilendirme](authorize-adjusted-forecast.md). 
+**Manüel ayarlamaları talep tahminine aktar** onay kutusu seçiliyse, önceki talep tahmini yinelemelerinde yapılan manüel ayarlamalar, yeni temel tahmine otomatik olarak uygulanabilir. Onay kutusu temizlenirse, manüel ayarlamalar temel tahmine eklenmez, ancak silinmezler. Bir tahminde yapılan manüel ayarlamalar, yalnızca tahmini içe aktarma sırasında, **Temel talep tahmininde yapılan manüel ayarlamaları kaydet** onay kutusundaki işaret kaldırılarak silinebilir. Manüel ayarlamalar yetkilendirme anında kaydedilir. Bu nedenle, bir kullanıcı, tahminde manüel ayarlamalar yapar, ancak tahmini Finance and Operations'ta yeniden yetkilendirmezse, değişiklikler kaybolur. Manüel ayarlamalar ve bunların çalışma şekilleri hakkında daha fazla bilgi için, bkz. [Ayarlanmış tahmini yetkilendirme](authorize-adjusted-forecast.md). 
 
 Talep tahmini oluşturmada, kullanıcıların oluşturulan tahmini tanımalarına yardımcı olacak bir ad ve yorumlar bulunabilir. Bu değerler **İstatistik temel tahmin oluşturma geçmişi** sayfasındaki tahmin oluşturma geçmişinde görülür. 
 

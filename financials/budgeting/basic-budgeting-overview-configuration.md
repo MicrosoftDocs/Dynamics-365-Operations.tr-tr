@@ -1,15 +1,15 @@
 ---
 title: "Bütçelemeye genel bakış"
-description: "Microsoft Dynamics 365 for Operations içerisinde Finansal işlevleri kullanan hemen her şirket, bütçe - fiili karşılaştırma raporlarını oluşturmak zorunda olacaktır. Bu makale, Dynamics 365 for Operations içerisinde bütçeler oluşturmak veya bunları bir üçüncü taraf programdan yüklemek için gereken asgari yapılandırmayı açıklar."
+description: "Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içerisinde Finansal işlevleri kullanan hemen her şirket, bütçe - fiili karşılaştırma raporlarını oluşturmak zorunda olacaktır. Bu makale, Finance and Operations, Enterprise edition içerisinde bütçeler oluşturmak veya bunları bir üçüncü taraf programdan yüklemek için gereken asgari yapılandırmayı açıklar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
@@ -17,31 +17,31 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a4f9c99b8d74e20fbadc6cd9617451cfbfc06ba4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f35db274a6b14f6bae185b69348d3829c77801b5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="budgeting-overview"></a>Bütçelemeye genel bakış
+# <a name="budgeting-overview"></a>Bütçelemeye genel bakış 
 
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 for Operations içerisinde Finansal işlevleri kullanan hemen her şirket, bütçe - fiili karşılaştırma raporlarını oluşturmak zorunda olacaktır. Bu makale, Dynamics 365 for Operations içerisinde bütçeler oluşturmak veya bunları bir üçüncü taraf programdan yüklemek için gereken asgari yapılandırmayı açıklar.
+Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içerisinde Finansal işlevleri kullanan hemen her şirket, bütçe - fiili karşılaştırma raporlarını oluşturmak zorunda olacaktır. Bu makale, Finance and Operations içerisinde bütçeler oluşturmak veya bunları bir üçüncü taraf programdan yüklemek için gereken asgari yapılandırmayı açıklar.
 
 <a name="overview"></a>Özet
 --------
 
 Tüzel kişilik için onaylanan bütçe *bütçe kayıt girişi* olarak bilinen bir belge içinde tutulur. Bütçe kaydı giriş belgesindeki satırlar *bütçe hesabı* girişleri olarak bilinir ve mali boyut bilgileri, tarihler ve onaylanan bütçelerin tutarlarını içerir. Bütçe kayıt giriş belgesi, genel muhasebe fiili tutarların bütçe tutarlarıyla karşılaştırıldığı temel mali raporlar ve sorgu sayfaları ile tümleşiktir. 
 
-Dynamics 365 for Operations içerisinde bütçe kayıt girişleri oluşturmak için birden çok yöntem vardır:
+Finance and Operations içerisinde bütçe kayıt girişleri oluşturmak için birden çok yöntem vardır:
 
 -   Belge bilgilerini **bütçe kayıt girişleri** sayfasına el ile girin.
 -   **Bütçe kayıt girişleri** sayfasında **Excel'de aç** düğmesini tıklatarak açabileceğiniz Microsoft Excel şablonunu kullanın.
--   Bütçe kayıt girişlerini almak için Veri yönetiminde**Bütçe Hesabı Girişleri** veri varlığını kullanın. Bu yöntemi kullanmayı ve bütçe hesabı girişlerini sisteme almanız gerektiğinde **Ayarlama tabanlı** **işlem **parametresini kullanmayı düşünmelisiniz.
+-   Bütçe kayıt girişlerini almak için Veri yönetiminde **Bütçe Hesabı Girişleri** veri varlığını kullanın. Bu yöntemi kullanmayı ve bütçe hesabı girişlerini sisteme almanız gerektiğinde **Ayarlama tabanlı** **işlem **parametresini kullanmayı düşünmelisiniz.
 -   Şirket bütçe verileri hazırlamak için bütçe planlama işlevini kullanıyorsa, **bütçe kayıt girdisi oluşturur** dönemsel işlemini kullanabilirsiniz.
 
 Bütçe kayıt girişi, bütçe bakiyeleri güncelleştirildiğinde tamamlandı olarak kabul edilir. **Bütçe kayıt girişleri** sayfası üzerinde, seçilen bir bütçe kaydı girişi veya birden fazla giriş için **Bütçe bakiyelerini güncelleştir**'i tıklatın. Bütçe bakiyelerini güncelleştirdikten sonra, bütçe kayıt girişi değişiklikleri durumu **Tamamlandı** olarak değişir. Tamamlanan bütçe kayıt girişi düzenleme için yeniden açılamaz. Bu nedenle, bütçe verilerini ayarlanmalıysa, tamamlanan bütçe kayıt giriş verileri düzeltmek yerine yeni bir bütçe kayıt girişi oluşturmanız gerekir.
@@ -77,7 +77,7 @@ Bütçe Yöneticisi **genel muhasebe bütçeleri ve tahminleri** çalışma alan
 > [!NOTE] 
 > **Kuruluş Birimleri** sayfasındaki **Bölüm müdürü** alanı, hangi yöneticilerin belirli finansal boyut birleşimleri desteklediğini belirler. Sekmenin altındaki **daha fazla gör**'ü tıklatarak bütçe tutarlarını karşı gerçek tutarları hakkında daha ayrıntılı bilgi için **bütçe - fiili değerler** sorgulama sayfasını açın. 
 
-**Gerçek - bütçe** sorgulama sayfası bütçeye karşı gerçek tutarları bütçe ayrıntısına olanak sağlar. Sorgulama sayfası üzerinde bir satır seçin ve ardından mali döneme yayılan bütçe ve fiili tutarları görmek için **dönem bakiyeleri**'ni tıklatın. **Bütçe hesabı girişleri** sayfası bütçe kayıt girişlerinde bütçe tutarı ayrıntılarını sağlar. **Genel günlük girişleri**sayfası hesaplanan **gerçek** tutara dahil edilen genel muhasebe hareketlerini açar. 
+**Gerçek - bütçe** sorgulama sayfası bütçeye karşı gerçek tutarları bütçe ayrıntısına olanak sağlar. Sorgulama sayfası üzerinde bir satır seçin ve ardından mali döneme yayılan bütçe ve fiili tutarları görmek için **dönem bakiyeleri**'ni tıklatın. **Bütçe hesabı girişleri** sayfası bütçe kayıt girişlerinde bütçe tutarı ayrıntılarını sağlar. **Genel günlük girişleri** sayfası hesaplanan **gerçek** tutara dahil edilen genel muhasebe hareketlerini açar. 
 
 Bütçe planlama işlevselliği kullanan bir şirket **genel muhasebe bütçeleri ve tahminleri** çalışma alanı içinde *bütçe tahminleri * oluşturabilir ve kullanabilir.
 

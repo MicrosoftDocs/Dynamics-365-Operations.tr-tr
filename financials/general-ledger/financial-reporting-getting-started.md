@@ -1,16 +1,16 @@
 ---
 title: Mali raporlama
-description: "Bu konu, Microsoft Dynamics 365 for Operations içerisinden mali raporlara nereden erişileceğini ve finansal raporlama yeteneklerinin nasıl kullanılacağını açıklar. Sağlanan varsayılan mali raporların bir açıklamasını da içerir."
+description: "Bu konu, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içerisinden mali raporlara nereden erişileceğini ve finansal raporlama yeteneklerinin nasıl kullanılacağını açıklar. Sağlanan varsayılan mali raporların bir açıklamasını da içerir."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 39db754df7edeca414752ce1844d7f9e85df0b36
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fedde78a563939fd7080e748c412c89c71586823
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu konu, Microsoft Dynamics 365 for Operations içerisinden mali raporlara nereden erişileceğini ve finansal raporlama yeteneklerinin nasıl kullanılacağını açıklar. Sağlanan varsayılan mali raporların bir açıklamasını da içerir.
+Bu konu, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içerisinden mali raporlara nereden erişileceğini ve finansal raporlama yeteneklerinin nasıl kullanılacağını açıklar. Sağlanan varsayılan mali raporların bir açıklamasını da içerir.
 
 <a name="accessing-financial-reporting"></a>Mali raporlamaya erişmek
 -----------------------------
 
-**Finansal raporlama** menüsünü Dynamics 365 for Operations'ta aşağıdaki yerlerde bulabilirsiniz:
+**Finansal raporlama** menüsünü Finance and Operations'ta aşağıdaki yerlerde bulabilirsiniz:
 
 -   **Genel muhasebe** &gt; **Sorgulamalar ve raporlar**
 -   **Bütçeleme** &gt; **Sorgular ve raporlar** &gt; **Temel bütçeleme**
@@ -83,7 +83,7 @@ Finansal raporlama işlevleri uygun ayrıcalıklara sahip ve güvenlik rolleri a
 Bir kullanıcı eklendikten veya bir rol değiştikten sonra, kullanıcının birkaç dakika içinde mali raporlamaya erişebilmesi gerekir. **Not:** sysadmin rolünü finansal raporlamada tüm rollere eklenir.
 
 ## <a name="default-reports"></a>Varsayılan raporlar
-Finansal raporlama 22 varsayılan mali rapor sağlar. Her rapor, Dynamics 365 for Operations uygulamasında varsayılan ana hesap kategorilerini kullanır. Bu raporları olduğu gibi veya gerekli finansal raporlama için bir başlangıç noktası olarak kullanabilirsiniz. Gelir tablosu ve Bilanço gibi geleneksel mali tablolara ek olarak, bu varsayılan raporlar da oluşturabileceğiniz farklı mali rapor türlerini gösteren varsayılan raporlar içerir. Aşağıdaki tablolardaki her rapor, rapor hakkında bir Office Mix sunumuna bağlanır.
+Finansal raporlama 22 varsayılan mali rapor sağlar. Her rapor, Finance and Operations uygulamasında varsayılan ana hesap kategorilerini kullanır. Bu raporları olduğu gibi veya gerekli finansal raporlama için bir başlangıç noktası olarak kullanabilirsiniz. Gelir tablosu ve Bilanço gibi geleneksel mali tablolara ek olarak, bu varsayılan raporlar da oluşturabileceğiniz farklı mali rapor türlerini gösteren varsayılan raporlar içerir. Aşağıdaki tablolardaki her rapor, rapor hakkında bir Office Mix sunumuna bağlanır.
 
 | Varsayılan rapor                                                                                         | Açıklama                                                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ Finansal raporlama 22 varsayılan mali rapor sağlar. Her rapor, Dynamics 365 fo
 **Finansal Raporlama** menüsüne tıklattığınızda, şirketin varsayılan finansal raporlarının listesi gösterilir. Sonra bir raporu açabilir veya değiştirebilirsiniz. Varsayılan raporlardan birini açmak için, rapor adını seçin. Bir rapor ilk defa açıldığında, otomatik olarak önceki ay için oluşturulur. Örneğin, bir raporu ilk kez Ağustos 2016'de açarsanız, rapor 31 Temmuz 2016 tarihi için oluşturulur. Rapor açıldıktan sonra, belirli veri parçalarında ayrıntıya inerek ve rapor seçeneklerini değiştirerek keşfetmeye başlayabilirsiniz.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Mali raporları oluşturma ve değiştirme
-Finansal raporlar listesinden yeni bir rapor oluşturabilir veya varolan bir raporu değiştirebilirsiniz. Uygun izinlere sahipseniz, Eylem Bölmesinde **Yeni** üzerine tıklayarak yeni bir mali rapor oluşturabilirsiniz. Bir rapor tasarımcısı programı cihazınıza indirilir. Rapor tasarımcısı çalıştıktan sonra, yeni raporu oluşturabilirsiniz. Yeni raporu kaydettikten sonra, mali raporlar listesinde görünür. Liste yalnızca Dynamics 365 for Operations'ta kullanmakta olduğunuz şirket için oluşturulan raporları gösterir. Mali raporları Dynamics 365 for Operations içerisinde oluşturma ve değiştirme süreci hakkında daha fazla bilgi için, bkz. Dynamics mali raporlama blogundaki şu [blog postaları](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/). **Not:** Rapor tasarımcısı istemcisini indirdiğiniz bilgisayarın Microsoft .Net Framework'ün 4.6.2 sürümüne sahip olması gerekir. Microsoft .NET Framework'ün bu sürümünü [buradan](https://www.microsoft.com/en-us/download/details.aspx?id=53345) indirebilir ve kurabilirsiniz. Chrome kullanıyorsanız, rapor tasarımcısı istemcisini indirebilmek için ClickOnce eklentisini yüklemeniz gerekir. İncognito modunda kullanıyorsanız, ClickOnce eklentisinin incognito modu için etkin olduğundan emin olun. Ayrıca mali rapor listesinde görünen bir raporu değiştirebilirsiniz. Rapor adı etrafındaki alan seçildiğinde, Eylem Bölmesinden **Düzenleme** tıklatın. Rapor tasarımcısı programı başlar.
+Finansal raporlar listesinden yeni bir rapor oluşturabilir veya varolan bir raporu değiştirebilirsiniz. Uygun izinlere sahipseniz, Eylem Bölmesinde **Yeni** üzerine tıklayarak yeni bir mali rapor oluşturabilirsiniz. Bir rapor tasarımcısı programı cihazınıza indirilir. Rapor tasarımcısı çalıştıktan sonra, yeni raporu oluşturabilirsiniz. Yeni raporu kaydettikten sonra, mali raporlar listesinde görünür. Liste yalnızca Finance and Operations'da kullanmakta olduğunuz şirket için oluşturulan raporları gösterir. Mali raporları Finance and Operations içerisinde oluşturma ve değiştirme süreci hakkında daha fazla bilgi için, bkz. Dynamics mali raporlama blogundaki şu [blog postaları](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/). **Not:** Rapor tasarımcısı istemcisini indirdiğiniz bilgisayarın Microsoft .Net Framework'ün 4.6.2 sürümüne sahip olması gerekir. Microsoft .NET Framework'ün bu sürümünü [buradan](https://www.microsoft.com/en-us/download/details.aspx?id=53345) indirebilir ve kurabilirsiniz. Chrome kullanıyorsanız, rapor tasarımcısı istemcisini indirebilmek için ClickOnce eklentisini yüklemeniz gerekir. İncognito modunda kullanıyorsanız, ClickOnce eklentisinin incognito modu için etkin olduğundan emin olun. Ayrıca mali rapor listesinde görünen bir raporu değiştirebilirsiniz. Rapor adı etrafındaki alan seçildiğinde, Eylem Bölmesinden **Düzenleme** tıklatın. Rapor tasarımcısı programı başlar.
 
 <a name="see-also"></a>Ayrıca bkz.
 --------

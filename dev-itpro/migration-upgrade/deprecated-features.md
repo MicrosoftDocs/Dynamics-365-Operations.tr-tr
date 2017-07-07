@@ -1,9 +1,9 @@
 ---
 title: "Kaldırılan özellikler"
-description: "Bu konu Dynamics 365 for Operations&quot;dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar. Ayrıca Dynamics AX 7.0 sürümlerinden kaldırılan özellikleri de listeler."
+description: "Bu konu kaldırılmış veya kaldırılması planlanan özellikleri açıklar."
 author: sericks007
 manager: AnnBe
-ms.date: 04/18/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 46a6f054f1cc5162e19d962964eb6eeb780087a6
+ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
+ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/16/2017
 
 
 ---
@@ -29,8 +29,40 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Bu konu kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
 
-Bu konu Dynamics 365 for Operations'dan kaldırılmış veya kaldırılması planlanan özellikleri açıklar. Ayrıca Dynamics AX 7.0 sürümlerinden kaldırılan özellikleri de listeler.
+## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Dynamics 365 for Finance and Operations, Enterprise sürümü Temmuz 2017 güncelleştirmesinde kaldırılmış özellikler
+
+### <a name="warehouse-mobile-devices-portal"></a>Ambar mobil cihazlar portalı
+
+Ambar mobil cihazlar portalı (WMDP), yerinde kendi kedine dağıtım için amaçlanmış bir tek bileşendir. Bileşen Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içinde artık desteklenmemektedir. Kullanıcı deneyimini iyileştiren bir yerel uygulama, WMDP'nin işlevinin yerini almıştır. 
+
+|                                  |                                                 |
+|----------------------------------|-------------------------------------------------|
+| **Kaldırılma nedeni**       | Tekrar eden işlevsellik.                        |
+| **Başka bir özellik ile değiştirildi?** | Evet. Bu özellik Finance and Operations - Ambarlama ile değiştirilmiştir. Kurulum ve önkoşulları hakkında daha fazla bilgi için, bkz. [Microsoft Dynamics 365 for Finance and Operations - Ambarlama için kurulum ve yapılandırma](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Etkilenen modüller**             | Ambar yönetimi, Taşıma yönetimi |
+
+### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>El ile eşleştirme için gelişmiş banka mutabakatı eşleştirme kuralı
+
+Bir mutabakat kuralı, belgeler el ile mutabakat çalışma sayfasında eşleştirildiğinde bir banka belgesini seçmek ve işaretlemek için kullanılmıştır.
+
+|                                  |                                                                                        |
+|----------------------------------|----------------------------------------------------------------------------------------|
+| **Kaldırılma nedeni**       | Sınırlı kullanım.                                                                         |
+| **Başka bir özellik ile değiştirildi?** | Hayır. Sütun filtreleme yetenekleri, mutabakat için belgeleri bulmakta kullanılmalıdır. |
+| **Etkilenen modüller**             | Nakit ve banka yönetimi                                                               |
+
+### <a name="windows-8-tablet-app"></a>Windows 8 tablet uygulaması
+
+Windows 8 tablet uygulaması, gider girişi ve onayı için işlevler sağlardı.
+
+|                                  |                                                                                          |
+|----------------------------------|------------------------------------------------------------------------------------------|
+| **Kaldırılma nedeni**       | Finance and Operations tabletlerle uyumludur. Tablet uygulaması artık gerekli değildir. |
+| **Başka bir özellik ile değiştirildi?** | Hayır.                                                                                      |
+| **Etkilenen modüller**             | Gider yönetimi                                                                       |
+
 
 <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Platform güncelleştirmesi 3'e sahip Microsoft Dynamics 365 for Operations 1611 sürümünde kaldırılan özellikler
 ---------------------------------------------------------------------------------------------
@@ -301,7 +333,7 @@ Personel hedeflerini oluşturmayı yöneten iş akışı, performans yönetim i�
 
 |                              |                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kaldırılma nedeni       | Performans yönetimi, Microsoft Dynamics 365 for Operations'da tamamen yeniden tasarlanmıştır.                                                                                                                                                                                                                                        |
+| Kaldırılma nedeni       | Performans yönetimi, Microsoft Dynamics for Finance and Operations'da tamamen yeniden tasarlanmıştır.                                                                                                                                                                                                                                        |
 | Başka bir özellik ile değiştirildi? | Yeniden tasarlanan Performans yönetimi özelliği hedef içeriği, ilerlemeyi izlemek için kullanılan ölçümler ve destekleyici belge eki üzerinde daha fazla kontrol sağlar. Hedefler şablon olarak saklanabilir ve daha sonra yeniden kullanılabilir. Bu özellik personeliniz için ek hedefleri daha hızlı bir şekilde ayarlamanıza yardımcı olabilir. |
 | Etkilenen modüller             | İnsan sermayesi yönetimi                                                                                                                                                                                                                                                                                                               |
 
@@ -484,7 +516,7 @@ Dynamics AX 2012 R3 içerisinde, Perakende Modern POS, Kanal Veritabanına, Kuru
 
 |                              |                                                                                         |
 |------------------------------|-----------------------------------------------------------------------------------------|
-| Kaldırılma nedeni       | Doğrudan veritabanı bağlantısı, daha düşük güvenlik protokolleri gerektirdi ve öncelikli olarak en yüksek seviye performansı elde etmek için kullanıldı. Dynamics 365 for Operations içerisinde gerçekleşen performans ve güvenlik geliştirmeleri yüzünden, bu işlev artık çözdüğünden daha fazla soruna neden olmaktadır. |
+| Kaldırılma nedeni       | Doğrudan veritabanı bağlantısı, daha düşük güvenlik protokolleri gerektirdi ve öncelikli olarak en yüksek seviye performansı elde etmek için kullanıldı. Finance and Operations içerisinde gerçekleşen performans ve güvenlik geliştirmeleri yüzünden, bu işlev artık çözdüğünden daha fazla soruna neden olmaktadır. |
 | Başka bir özellik ile değiştirildi? | Hayır. Artık yalnızca standart Perakende Sunucu iletişimi desteklenmektedir.    |
 | Etkilenen modüller             | Kanal Veritabanı/Perakende Modern POS                                    |
 
@@ -808,9 +840,5 @@ Sanal şirketler özelliği, Dynamics AX uygulamasında artık desteklenmiyor. S
 | Kaldırılma nedeni       | Bu işlev başka bir özellik ile değiştirilmiştir.                                    |
 | Başka bir özellik ile değiştirildi? | Yönetim Raporlayıcı (Dynamics AX'ın geçerli sürümünde **finansal raporlama** etiketli) |
 | Etkilenen modüller             | Genel muhasebe                                                                              |
-
-
-
-
 
 

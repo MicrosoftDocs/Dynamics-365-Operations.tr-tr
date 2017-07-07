@@ -1,27 +1,27 @@
 ---
 title: "İş kırılım yapıları"
-description: 
+description: "İş kırılım yapısı (WBS) bir projede yapılacak işin bir açıklamasıdır. Proje ekibinin iş bileşimi, her bir bileşen veya görevin boyut, maliyet ve süre anlayışını temsil eden bir görevler hiyerarşisidir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/05/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a700f61bcc6e6d9c699987999be25649862b0d8
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 6d4391f1a6fa517b447387562fd3216201451316
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -30,10 +30,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-
-
-
-İş kırılım yapıları - İş kırılım yapısı (WBS) olan bir proje için yapılan bir işe ilişkin açıklamadır. Proje ekibinin iş bileşimi, her bir bileşen veya görevin boyut, maliyet ve süre anlayışını temsil eden bir görevler hiyerarşisidir. Bir WBS'nin üç ana amacı vardır:
+İş kırılım yapısı (WBS) bir projede yapılacak işin bir açıklamasıdır. Proje ekibinin iş bileşimi, her bir bileşen veya görevin boyut, maliyet ve süre anlayışını temsil eden bir görevler hiyerarşisidir. Bir WBS'nin üç ana amacı vardır:
 
 -   Görevlerdeki iş kırılımını bileşimini açıklamak.
 -   Proje çalışmasını zamanlamak.
@@ -43,7 +40,7 @@ Bir WBS'nin ayrıntı derecesi, tahminlerde gerekli olan kesinlik düzeyine ve b
 
 Bunun tersine, medya ve reklam, yazılım ve BT altyapısı gibi sektörlerde projeleri benzersiz olma eğilimindedir ve verimlilik, görevi yürütenlerin deneyimine ve yetkinliğine bağlıdır. Bu nedenle, bu sektörlerde projedeki ilerlemenin ayrıntılı takibi değil de, projenin tahmini boyutunu veren bir WBS kullanılır. 
 
-WBS oluşturma genellikle uzun dönemde yayılan yoğun bir süreçtir ve çok sayıda, farklı insanın işbirliğini ve bilgisini gerektirir. Bu konuda, Microsoft Dynamics 365 for Operations'ta, tahminler ve izleme için gereksinimlerinizi karşılayacak WBS ilerlemelerini nasıl kullanabileceğiniz açıklanmaktadır.
+WBS oluşturma genellikle uzun dönemde yayılan yoğun bir süreçtir ve çok sayıda, farklı insanın işbirliğini ve bilgisini gerektirir. Bu konuda, Microsoft Dynamics 365 for Finance and Operations'ta, tahminler ve izleme için gereksinimlerinizi karşılayacak WBS ilerlemelerini nasıl kullanabileceğiniz açıklanmaktadır.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>WBS oluşturma önkoşulları
 WBS oluşturmak için bir iş çizelgesi ve iş maliyeti çıkarabilmeniz gerekir.
@@ -106,10 +103,10 @@ WBS numaralandırmasını şimdilik özelleştiremiyorsunuz.
 
 ### <a name="schedule-estimation"></a>Zamanlama tahmini
 
-Zamanlama tahmini genellikle bir WBS oluşturmanın ikinci adımıdır. Görevleri oluşturduktan sonra zamanlama tahminini tamamlamanızı tavsiye ederiz. Microsoft Dynamics 365 for Operation'daki **İş kırılımı yapısı** sayfasında iki bölüm vardır. Üst bölme zamanlama tahmini için kullanılırken, alt bölmede, maliyet tahmini için kullanabileceğiniz **Tahmini maliyetler ve gelirler** sekmesi bulunur. 
+Zamanlama tahmini genellikle bir WBS oluşturmanın ikinci adımıdır. Görevleri oluşturduktan sonra zamanlama tahminini tamamlamanızı tavsiye ederiz. Finance and Operations'da **İş kırılımı yapısı** sayfasında iki bölüm vardır. Üst bölme zamanlama tahmini için kullanılırken, alt bölmede, maliyet tahmini için kullanabileceğiniz **Tahmini maliyetler ve gelirler** sekmesi bulunur. 
 **Görev bağımlılıkları** WBS'de görevler arasında bir öncel ilişkisi oluşturabilirsiniz. Bir göreve öncel görevler atadığınız zaman, bu görev yalnızca tüm öncel görevleri tamamlandıktan sonra başlatılabilir. Görevin planlanan başlangıç tarihi, tüm öncellerinin en son tarihine otomatik olarak ayarlanır. 
 
-**Microsoft Dynamics 365 for Operation görev zamanlama** Aşağıdaki etkenler, alt düğüm görevlerinin zamanlamasını belirler:
+**Microsoft Dynamics 365 for Finance and Operation görev zamanlama** Aşağıdaki etkenler, alt düğüm görevlerinin zamanlamasını belirler:
 
 -   Önceller
 -   Çalışma
@@ -126,7 +123,7 @@ Zamanlama tahmini genellikle bir WBS oluşturmanın ikinci adımıdır. Görevle
 
 Kişi sayısı × Süre × Proje takviminde standart bir iş gününde saat sayısı. 
 
-Bazı durumlarda bu kurallardan sapmak isteyebilirsiniz. Microsoft Dynamics 365 for Operations'ın alt düğüm görevlerinin özelliklerini otomatik olarak ayarlamasını veya düzeltmesini önlemek için otomatik zamanlamayı devre dışı bırakabilirsiniz. Bir görev için, zamanlama kurallarının ihlaline neden olan bilgiler girdiğiniz zaman, görev için bir zamanlama hatası simgesi gösterilir. Zamanlama hatalarının görüntülenmesini istemiyorsanız, **Zamanlama hataları gösterilir**'e tıklayarak özelliği devre dışı bırakın. 
+Bazı durumlarda bu kurallardan sapmak isteyebilirsiniz. Finance and Operations'ın alt düğüm görevlerinin özelliklerini otomatik olarak ayarlamasını veya düzeltmesini önlemek için otomatik zamanlamayı devre dışı bırakabilirsiniz. Bir görev için, zamanlama kurallarının ihlaline neden olan bilgiler girdiğiniz zaman, görev için bir zamanlama hatası simgesi gösterilir. Zamanlama hatalarının görüntülenmesini istemiyorsanız, **Zamanlama hataları gösterilir**'e tıklayarak özelliği devre dışı bırakın. 
 
 > [!NOTE] 
 > Bir özet veya kapsayıcı görevin değerleri, otomatik zamanlama yardımcısının açık veya kapalı olmasına bakılmaksızın, kendisini oluşturan görevlerin değerlerinin toplamı olarak hesaplanmaya devam eder. 
@@ -135,7 +132,7 @@ Bazı durumlarda bu kurallardan sapmak isteyebilirsiniz. Microsoft Dynamics 365 
 
 **Zamanlama hatalarını göreve göre düzeltme** Belirli bir görevin zamanlama hatası simgesine çift tıklatığınızda, o görev için tüm zamanlama hatalarını görüntüleyen bir iletişim kutusu açılır. Görev için hangi zamanlama hatalarının düzeltileceğine karar verebilirsiniz. 
 
-**Tüm zamanlama hatalarını düzeltme** Microsoft Dynamics 365 for Operations'ın WBS'deki tüm zamanlama hatalarını düzeltmesini istiyorsanız **Tüm zamanlama uyuşmazlıklarını düzelt**'e tıklayın. 
+**Tüm zamanlama hatalarını düzeltme** Finance and Operations'ın WBS'deki tüm zamanlama hatalarını düzeltmesini istiyorsanız **Tüm zamanlama uyuşmazlıklarını düzelt**'e tıklayın. 
 
 > [!NOTE] 
 > Bu özellik WBS'de önemli değişikliklere neden olabilir. Hatalar aşağıdaki sıraya göre düzeltilir:
@@ -170,7 +167,7 @@ Her bir işçilik veya gider satırının maliyet ve satış fiyatı, **Proje y�
 ## <a name="tracking-progress-on-the-wbs"></a>WBS'de ilerlemeyi izleme
 Bazı sektörler bir projenin WBS'ye göre ilerlemesini çok ayrıntılı bir düzeyde izlerken, bazıları da ilerlemeyi WBS'nin daha yüksek düzeylerinde izler. Bu bölümde, proje gereksinimleriniz için WBS izlemeyi nasıl kullanabileceğiniz açıklanmaktadır. 
 
-Bir proje WBS'si için Microsoft Dynamics 365 for Operations'ın üç görünümü vardır: Planlama görünümü, İş gücü izleme görünümü ve Maliyet izleme görünümü.
+Bir proje WBS'si için Finance and Operations'ın üç görünümü vardır: Planlama görünümü, İş gücü izleme görünümü ve Maliyet izleme görünümü.
 
 ### <a name="planning-view"></a>Planlama görünümü
 
@@ -246,13 +243,13 @@ Kazanılan değer grafiğindeki zaman aşaması, hafta veya aya bazında görün
 
 **Planlanan değer** EVM teorisine göre, grafikteki planlanan değer bölümü, proje ekibinin projeden kazanmayı planladığı değer oranını temsil eder. 
 
-Microsoft Dynamics 365 for Operations planlanan değerin grafiğini çıkarırken, 0:100 kazanç kuralını kullanır. Bu kurala göre, görevin değeri, göreve bitiş tarihi itibariyle verilir. Görev yüzde 100 tamamlanana kadar hiçbir değer nakledilmez. 
+Finance and Operations planlanan değerin grafiğini çıkarırken, 0:100 kazanç kuralını kullanır. Bu kurala göre, görevin değeri, göreve bitiş tarihi itibariyle verilir. Görev yüzde 100 tamamlanana kadar hiçbir değer nakledilmez. 
 
 Proje yönetimi ve muhasebe'de, alt düğümlerin bitiş tarihini ve bu tarih için planlanan maliyeti girersiniz. Planlanan değer grafiği hafta bazında görüntülendiğinde, planlanan değer proje süresince tüm alt düğüm görevleri için haftalık bazda özetlenir. 
 
 **Kazanılan değer** EVM teorisine göre, grafikteki kazanılan değer bölümü, proje ekibinin projeden fiilen kazandığı değer oranını temsil eder. 
 
-Microsoft Dynamics 365 for Operations kazanılan değerin grafiğini çıkarırken 0:100 kazanç kuralını kullanır. Bu kurala göre, görevin değeri, göreve bitiş tarihi itibariyle verilir. Görev yüzde 100 tamamlanana kadar hiçbir değer nakledilmez. 
+Finance and Operations kazanılan değerin grafiğini çıkarırken, 0:100 kazanç kuralını kullanır. Bu kurala göre, görevin değeri, göreve bitiş tarihi itibariyle verilir. Görev yüzde 100 tamamlanana kadar hiçbir değer nakledilmez. 
 
 Kazanılan değer hesaplanırken, her görevin ilerleme yüzdesi dikkate alınır. 0:100 kazanç kuralına göre, bir dönemin bitişi itibarıyla kazanılan değer hesaplanırken yalnızca o dönem içinde tamamlanan görevler dikkate alınır. Projede kazanılan değer, grafik oluşturulduğu zaman tamamlanmış olan tüm görevler için hesaplanır. 
 

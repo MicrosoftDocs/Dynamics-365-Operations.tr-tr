@@ -3,13 +3,13 @@ title: "Bir görev akışında otomatikleştirilmiş görev yapılandır"
 description: "Bu konu, otomatik bir görevin özelliklerini yapılandırmayı açıklar."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192061
 ms.assetid: c0aceb57-b5e6-4ef3-91e7-89a21c9f048a
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 358065dd127703191ba441d0603307a3b7e5df60
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 66f1b8e03cc0da5d21fea9b3c795d8f4097c8cfc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -96,10 +96,10 @@ Otomatik bir görev çalıştırıldığında veya iptal edildiğinde insanlara 
     </tr>
     <tr class="odd">
     <td>Kullanıcı</td>
-    <td>Belirli Microsoft Dynamics 365 for Operations kullanıcıları</td>
+    <td>Belirli Microsoft Dynamics 365 for Finance and Operations kullanıcıları</td>
     <td><ol>
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
-    <li><strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Dynamics 365 for Operations kullanıcılarını içerir. Bildirimlerin gönderileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
+    <li><strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Finance and Operations kullanıcılarını içerir. Bildirimlerin gönderileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
     </ol></td>
     </tr>
     </tbody>

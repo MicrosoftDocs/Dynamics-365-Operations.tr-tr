@@ -1,39 +1,40 @@
 ---
 title: "POS için ekran düzenleri yapılandırma"
-description: "Bu konu Microsoft Dynamics 365 for Operations - Perakende satış noktası (POS) deneyimleri için ekran düzenleri hakkında bilgi sağlar."
+description: "Bu konu Microsoft Dynamics 365 for Retail satış noktası (POS) deneyimleri için ekran düzenleri hakkında bilgi sağlar."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7dee20166ea89b56523e3ef38e66de53d6e4a621
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 9f7f46c1bae5bac6eefa0b8c70b079cab76aa8b6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="configure-screen-layouts-for-pos"></a>POS için ekran düzenleri yapılandırma
+# <a name="configure-screen-layouts-for-pos"></a>POS için ekran düzenini yapılandırma
 
 [!include[banner](includes/banner.md)]
 
 
-Bu konu Microsoft Dynamics 365 for Operations - Perakende satış noktası (POS) deneyimleri için ekran düzenleri hakkında bilgi sağlar.
+Bu konu Microsoft Dynamics 365 for Retail satış noktası (POS) deneyimleri için ekran düzenleri hakkında bilgi sağlar.
 
-Microsoft Dynamics 365 for Operations - Perakende satış noktası (POS) kullanıcı arabirimi, mağazalara, kasalara ve/veya kullanıcılara atanan görsel profiller ve ekran düzenleri birleşimi kullanılarak yapılandırılabilir.
+Microsoft Dynamics 365 for Retail satış noktası (POS) kullanıcı arabirimi, mağazalara, kasalara ve/veya kullanıcılara atanan görsel profiller ve ekran düzenleri birleşimi kullanılarak yapılandırılabilir.
 
 ## <a name="visual-profile"></a>Görsel profil
 Görsel profiller kasalara atanır ve kasaya ve kullanıcılar arasında paylaşılan görsel öğeleri belirlemek için kullanılır. Kasada oturum açan herhangi bir kullanıcı, aynı tema, renkler ve resimlere sahip olacaktır. 
@@ -46,7 +47,7 @@ Görsel profiller kasalara atanır ve kasaya ve kullanıcılar arasında paylaş
 
 **Vurgu rengi** - Vurgu rengi POS boyunca kutular, komut düğmeleri veya köprüler gibi bazı görsel öğeleri farklılaştırmak veya vurgulamak için kullanılır. Bu genellikle işlem yapılabilecek öğelerdir.
 
-**Başlık rengi** - Başlık rengi kullanıcıya perakendecinin markalama ihtiyaçlarını karşılamak üzere sayfa başlık rengini yapılandırma olanağı sağlar. Bu özellik yalnızca Dynamics 365 for Operations sürüm 1611'de bulunur.
+**Başlık rengi** - Başlık rengi kullanıcıya perakendecinin markalama ihtiyaçlarını karşılamak üzere sayfa başlık rengini yapılandırma olanağı sağlar. Bu özellik yalnızca Dynamics 365 for Retail sürüm 1611'de bulunur.
 
 **Oturum açma arkaplanları** - Kullanıcılar oturum açma ekranı için bir arka plan resmi belirleyebilir. Büyük dosyaları depolama ve yükleme uygulama davranışı ve performansı üzerinde etkili olabileceğinden arka plan resimlerinin dosya boyutu olabildiğince küçük tutulmalıdır.
 
@@ -67,7 +68,7 @@ Ekran düzenleri mağaza, kasa veya kullanıcı düzeyinde atanabilir. Kullanıc
 
 ### <a name="layout-sizes"></a>Düzen boyutları
 
-Bu özellik yalnızca Dynamics 365 for Operations sürüm 1611 için geçerlidir. Çoğu zaman ekran düzenleri birden çok ekran boyutunda ve çözünürlüğünde kullanılabildiğinden, her kullanıcı kendi düzenini ve içeriğini yapılandırabilir. POS uygulaması, cihaz için başlangıç zamanındaki en yakın düzen boyutunu otomatik olarak seçecektir. Ekran düzeni hem tam hem de kompakt cihazlar için yapılandırmaları içerebilir. Bu yapılandırma, kullanıcının mağaza içindeki farklı boyutlar ve form faktörlerinde çalışacak tek bir ekran düzenine atanmasına olanak tanır. 
+Bu özellik yalnızca Dynamics 365 for Retail sürüm 1611 için geçerlidir. Çoğu zaman ekran düzenleri birden çok ekran boyutunda ve çözünürlüğünde kullanılabildiğinden, her kullanıcı kendi düzenini ve içeriğini yapılandırabilir. POS uygulaması, cihaz için başlangıç zamanındaki en yakın düzen boyutunu otomatik olarak seçecektir. Ekran düzeni hem tam hem de kompakt cihazlar için yapılandırmaları içerebilir. Bu yapılandırma, kullanıcının mağaza içindeki farklı boyutlar ve form faktörlerinde çalışacak tek bir ekran düzenine atanmasına olanak tanır. 
 
 **Modern POS - Tam** - Tam düzenler genellikle en iyi PC ekranları veya tabletler gibi geniş ekranlarda kullanılır. Kullanıcılar eklenecek UI öğelerini seçebilir, kendi boyut ve yerleşimlerini belirleyebilir ve ayrıntılı özellikleri yapılandırabilirler. Tam düzenler hem dikey hem de yatay yapılandırmaları destekler. 
 
@@ -77,11 +78,11 @@ Bu özellik yalnızca Dynamics 365 for Operations sürüm 1611 için geçerlidir
 
 Bir ekran düzenindeki her yerleşim boyutu Ekran düzeni tasarımcısı kullanılarak yapılandırılmalıdır. Tasarımcı kullanıcılara Hareket ekranındaki UI öğelerini belirleme ve yapılandırma olanağı sağlar. Ekran düzeni tasarımcısı, kullanıcı her eriştiğinde uygulamanın en son sürümünü indirmek, yüklemek ve başlatmak için ClickOnce'ı kullanır. ClickOnce kullanmak için tarayıcı gereksinimlerini kontrol ettiğinizden emin olun — Chrome gibi bazı tarayıcılar uzantılar gerektirebilir. 
 
-**Sayı takımı** - Sayı takımı POS Hareket ekranındaki ana kullanıcı girişidir. Dokunmatik ekranlar için ideal olan tam ekran dokunmatik sayı takımını göstermek veya fiziksel bir klavyeyle kullanılabilen yalnızca giriş alanını göstermek üzere yapılandırılabilir. Sayı paneli ayarları yalnızca tam düzen görünümde kullanılabilir. Dynamics 365 for Operations sürüm 1611'de, kompakt düzenler için daima Hareket ekranından tam sayı takımı kullanılabilir.
+**Sayı takımı** - Sayı takımı POS Hareket ekranındaki ana kullanıcı girişidir. Dokunmatik ekranlar için ideal olan tam ekran dokunmatik sayı takımını göstermek veya fiziksel bir klavyeyle kullanılabilen yalnızca giriş alanını göstermek üzere yapılandırılabilir. Sayı paneli ayarları yalnızca tam düzen görünümde kullanılabilir. Dynamics 365 for Retail sürüm 1611'de, kompakt düzenler için daima Hareket ekranından tam sayı takımı kullanılabilir.
 
-**Toplamlar panel** - Toplamlar paneli satır sayısı, indirim tutarı, giderler, alt toplam ve vergi gibi alanları göstermek üzere bir veya iki sütunda yapılandırılabilir. Dynamics 365 for Operations sürüm 1611'de, kompakt düzenleri yalnızca tek bir toplam sütununu destekler. 
+**Toplamlar panel** - Toplamlar paneli satır sayısı, indirim tutarı, giderler, alt toplam ve vergi gibi alanları göstermek üzere bir veya iki sütunda yapılandırılabilir. Dynamics 365 for Retail sürüm 1611'de, kompakt düzenleri yalnızca tek bir toplam sütununu destekler. 
 
-**Giriş** - Giriş paneli satış satırlarını, ödeme satırlarını ve POS'ta işlenen ürünler ve hizmetler için teslimat bilgilerini içerir. Kullanıcılar sütunları, genişlikleri ve yerleşimi belirtebilir. Dynamics 365 for Operations sürüm 1611'de kompakt düzenlerde, ana satırın altındaki satırda görüntülenecek ek bilgileri de yapılandırabilirsiniz. 
+**Giriş** - Giriş paneli satış satırlarını, ödeme satırlarını ve POS'ta işlenen ürünler ve hizmetler için teslimat bilgilerini içerir. Kullanıcılar sütunları, genişlikleri ve yerleşimi belirtebilir. Dynamics 365 for Retail sürüm 1611'de kompakt düzenlerde, ana satırın altındaki satırda görüntülenecek ek bilgileri de yapılandırabilirsiniz. 
 
 **Müşteri kartı** - Müşteri kartı hareketle ilşkili olan müşteriyle ilgili bilgileri gösterir. Müşteri kartı, ek bilgileri göstermek veya gizlemek üzere yapılandırılabilir. 
 
@@ -89,7 +90,7 @@ Bir ekran düzenindeki her yerleşim boyutu Ekran düzeni tasarımcısı kullan�
 
 **Görüntü** - Görüntü denetimi mağaza logosunu veya diğer marka görüntülerini hareket ekranında göstermek için kullanılabilir. Görüntü denetimi yalnızca tam düzenler için kullanılabilir. 
 
-**Önerilen ürünler** - Ortam için yapılandırılması durumunda önerilen ürünler denetimi makine öğrenimini temel alarak ürün önerileri gösterecektir. Önerilen ürünler denetimi, yalnızca Dynamics 365 for Operations sürüm 1611'de tam düzenler için kullanılabilir. ** Özel denetim **- Özel denetim, kullanıcılara özel içerik için yer sağlamak amacıyla ekran düzeni içindeki bir yer tutucu gibi davranır. Özel denetim yalnızca tam düzenler için kullanılabilir.
+**Önerilen ürünler** - Ortam için yapılandırılması durumunda önerilen ürünler denetimi makine öğrenimini temel alarak ürün önerileri gösterecektir. Önerilen ürünler denetimi, yalnızca Dynamics 365 for Retail sürüm 1611'de tam düzenler için kullanılabilir. ** Özel denetim **- Özel denetim, kullanıcılara özel içerik için yer sağlamak amacıyla ekran düzeni içindeki bir yer tutucu gibi davranır. Özel denetim yalnızca tam düzenler için kullanılabilir.
 
 <a name="see-also"></a>Ayrıca bkz.
 --------

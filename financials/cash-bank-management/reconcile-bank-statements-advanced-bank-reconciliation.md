@@ -1,15 +1,15 @@
 ---
 title: "Gelişmiş banka mutabakatı kullanarak banka ekstreleri arasında mutabakat sağlayın"
-description: "Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Operations uygulamasındaki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda mutabakat işlemi açıklanmaktadır."
+description: "Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations Enterprise sürümündeki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda mutabakat işlemi açıklanmaktadır."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 98243
 ms.assetid: 9df13adf-aa9d-4f6b-bde6-25a214611692
 ms.search.region: global
@@ -17,20 +17,20 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 81368294164ca4ca1915d73f8f5622e61f5d1fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: eb7fd01874b08417933ddf575c7d6ff866b4e6f8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Gelişmiş banka mutabakatı kullanarak banka ekstreleri arasında mutabakat sağlayın
+# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Gelişmiş banka mutabakatı kullanarak banka ekstreleri arasında mutabakat sağlama
 
 [!include[banner](../includes/banner.md)]
 
 
-Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Operations uygulamasındaki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda mutabakat işlemi açıklanmaktadır.  
+Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations Enterprise sürümündeki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda mutabakat işlemi açıklanmaktadır.  
 
 <a name="import-an-electronic-bank-statement"></a>Elektronik banka ekstresini içe aktarma
 -----------------------------------
@@ -44,7 +44,7 @@ Tek bir hesap veya birden fazla hesapla ilgili bilgileri içeren bir banka ekstr
 
 Elektronik dosyadaki ekstreler tanımlayıcı alanlar kullanılarak bir banka hesabı ile ilişkilendirilemiyorsa bunlar içe aktarılmaz. Ancak dosyadaki diğer ekstreler içe aktarılabilir. Daha sonra kullanıcı banka ekstrelerini içe aktarma işleminin belirli banka hesapları için başarısız olduğunu bildiren bir ileti alır. Banka ekstresi dosyasını içe aktaran kullanıcının tüzel kişiliğin banka hesaplarına ait ekstreleri içe aktarma erişiminin olması gerektiğini unutmayın. 
 
-Birden fazla ekstre dosyasını Microsoft Dynamics 365 for Operations uygulamasına tek bir işlemde yüklemek için bir zip dosyası kullanabilirsiniz. Birden fazla hesaba ait birden fazla banka ekstresi dosyasını içe aktarmak için tüm banka ekstresi dosyalarını bir zip dosyasında birleştirin. **Banka ekstrelerini içeri aktar** iletişim kutusundaki **Tüm tüzel kişiliklerde birden fazla banka hesabına ait ekstreyi içe aktar** seçeneğini **Evet** olarak ayarlayın. Banka ekstresi dosyalarını içeren zip dosyasını seçmek için **Gözat**'a tıklayın ve sonra **Yükle**'ye tıklayın. İçe aktarma işlemi zip dosyasını tanır ve banka hesabının tüzel kişiliğinden bağımsız olarak, içindeki her ekstreyi karşıya yükler. 
+Birden fazla ekstre dosyasını Finance and Operations uygulamasına tek bir işlemde yüklemek için bir zip dosyası kullanabilirsiniz. Birden fazla hesaba ait birden fazla banka ekstresi dosyasını içe aktarmak için tüm banka ekstresi dosyalarını bir zip dosyasında birleştirin. **Banka ekstrelerini içeri aktar** iletişim kutusundaki **Tüm tüzel kişiliklerde birden fazla banka hesabına ait ekstreyi içe aktar** seçeneğini **Evet** olarak ayarlayın. Banka ekstresi dosyalarını içeren zip dosyasını seçmek için **Gözat**'a tıklayın ve sonra **Yükle**'ye tıklayın. İçe aktarma işlemi zip dosyasını tanır ve banka hesabının tüzel kişiliğinden bağımsız olarak, içindeki her ekstreyi karşıya yükler. 
 
 **İçe aktarmadan sonra mutabakat sağla** seçeneği kullanılabilir. Bu seçeneği **Evet** olarak ayarladığınızda, sistem banka ekstresini otomatik olarak doğrular, yeni banka mutabakatını ve çalışma sayfasını oluşturur ve banka ekstresi karşıya yüklendiğinde Varsayılan eşleştirme kural kümesini çalıştırır. Bu işlevler işlemi hareketlerin el ile eşleştirilmesi gereken noktaya kadar otomatik hale getirir.
 
@@ -76,7 +76,7 @@ Banka ekstresi hareketlerini eşleştirmek veya mutabakatlarını sağlamak içi
 
 -   Hareketleri Operations banka hareketleriyle eşleştirin.
 -   Hareketleri ters banka ekstresi hareketiyle eşleştirin.
--   Hareketleri, daha sonra Dynamics 365 for Operations uygulamasında bir banka hareketi olarak nakledilebilmeleri için **Yeni** olarak işaretleyin.
+-   Hareketleri, daha sonra Finance and Operations uygulamasında bir banka hareketi olarak nakledilebilmeleri için **Yeni** olarak işaretleyin.
 
 Hareketleri el ile eşleştirmek için **Banka ekstresi hareketleri** kılavuzundaki hareketleri seçin, **Operations banka hareketleri** kılavuzundaki ilgili hareketleri seçin ve sonra **Eşleştir**'e tıklayın. Seçili hareketler eşleşmemiş hareketler için olan üst kılavuzlardan eşleşmiş hareketler için olan alt kılavuzlara taşınır. Buna ek olarak, eşleşen ve eşleşmeyen toplam tutarlar güncelleştirilir. Bire bir, çoğa bir ve çoğa çok hareket eşleştirmelerine sahip olabilirsiniz. Eşleştirmeler izin verilen tarih farkı ve hareket türü eşleşmesine dair kurallara uymalıdır. Bu kurallar **Nakit ve banka yönetimi parametreleri** sayfasından ayarlanır.
 
@@ -86,7 +86,7 @@ Banka ekstresi hareket ters işlemleri mutabakat çalışma sayfasını kullanar
 
 Tersine çevrilmiş Operations banka hareketleri için **Operations banka hareketleri** sayfası kullanılarak mutabakat sağlanmalıdır. Belgeler aynı banka hesabı, belge türü ve ödeme referansına sahipse ve bunlar ters tutarlara sahipse iki Operations banka hareketini birlikte mutabık kılabilirsiniz. Ayrıca bu hareketlerin mutabakat çalışma sayfasında görünmesini önlemek için tek bir iptal edilmiş çeki mutabık kılabilirsiniz. 
 
-Dynamics 365 for Operations uygulamasında henüz bulunmayan faiz, ücretler ve masraflar gibi yeni başlatılan bir banka hareketi varsa seçili banka ekstresi mutabakatıyla ilişkili bir günlüğe bunları ekleyebilirsiniz. Eşleşmemiş işlemler için **Banka ekstresi hareketleri** kılavuzunu seçin ve sonra **Yeni olarak işaretle**'ye tıklayın. Hareket durumu **Yeni** olarak ayarlanır ve hareket eşleşmiş hareketler için **Banka ekstresi hareketleri** kılavuzuna taşınır. Sonra **Yeni** olarak işaretlenmiş hareketleri **Banka ekstresi** sayfasından nakledin. 
+Finance and Operations uygulamasında henüz bulunmayan faiz, ücretler ve masraflar gibi yeni başlatılan bir banka hareketi varsa seçili banka ekstresi mutabakatıyla ilişkili bir günlüğe bunları ekleyebilirsiniz. Eşleşmemiş işlemler için **Banka ekstresi hareketleri** kılavuzunu seçin ve sonra **Yeni olarak işaretle**'ye tıklayın. Hareket durumu **Yeni** olarak ayarlanır ve hareket eşleşmiş hareketler için **Banka ekstresi hareketleri** kılavuzuna taşınır. Sonra **Yeni** olarak işaretlenmiş hareketleri **Banka ekstresi** sayfasından nakledin. 
 
 Hatalı eşleşmiş hareketlerin eşleşmesini kaldırabilirsiniz. Eşleşen banka ekstresi hareketini seçin ve sonra **Eşleşmeyi kaldır**'a tıklayın. Tüm ilişkili hareketler eşleşmemiş hareketler için üst kılavuzlara geri taşınır ve eşleşmiş ve eşleşmemiş toplam tutarlar güncelleştirilir. 
 

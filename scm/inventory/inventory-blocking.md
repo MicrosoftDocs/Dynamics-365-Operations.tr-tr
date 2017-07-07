@@ -1,16 +1,16 @@
 ---
 title: Stok durdurma
-description: "Bu makalede, Microsoft Dynamics AX&quot;in kalite denetim sürecinin parçası olan stok engellemeye genel bakış sunulmuştur. Stok engellemeyi kullanarak maddelerin işlenmesini veya tüketilmesini engelleyebilirsiniz."
+description: "Bu makalede, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'un kalite denetim sürecinin parçası olan stok engellemeye genel bakış sunulmuştur. Stok engellemeyi kullanarak maddelerin işlenmesini veya tüketilmesini engelleyebilirsiniz."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBlocking, InventQualityOrderTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 089198f0197427654740da74985001b979f090a3
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 4c5ebea58630188615fb4c22cc9da5215461e513
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, Microsoft Dynamics AX'in kalite denetim sürecinin parçası olan stok engellemeye genel bakış sunulmuştur. Stok engellemeyi kullanarak maddelerin işlenmesini veya tüketilmesini engelleyebilirsiniz.
+Bu makalede, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'un kalite denetim sürecinin parçası olan stok engellemeye genel bakış sunulmuştur. Stok engellemeyi kullanarak maddelerin işlenmesini veya tüketilmesini engelleyebilirsiniz.
 
 Stok maddelerini aşağıdaki şekillerde durdurabilirsiniz:
 -   El ile

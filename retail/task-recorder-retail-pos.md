@@ -1,33 +1,35 @@
 ---
 title: "POS için görev kaydedici ve Yardım"
-description: "Bu konu, Görev kaydedicinin Perakende Modern POS ve Bulut POS içerisinde nasıl kullanılacağını açıklar."
+description: "Bu konu, Görev kaydedicinin Retail Modern POS ve Bulut POS içerisinde nasıl kullanılacağını açıklar."
 author: mugunthanm
 manager: AnnBe
-ms.date: 2017-05-15
+ms.date: 06/19/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
+audience: Application User
 ms.reviewer: 41
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
 ms.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3ca86a3353d3f613057dd77754266fc69975229f
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 007a7e8a34f3f5a2d0d18eb3955822a8fd8bdd0a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 ---
 
 # <a name="task-recorder-and-help-for-pos"></a>POS için görev kaydedici ve Yardım
 
-Bu konu, Görev kaydedicinin Perakende Modern POS ve Bulut POS içerisinde nasıl kullanılacağını açıklar.
+Bu konu, Görev kaydedicinin Retail Modern POS ve Bulut POS içerisinde nasıl kullanılacağını açıklar.
 
 <a name="overview"></a>Özet
 --------
@@ -40,11 +42,11 @@ Görev kaydedici, kullanıcı eylemlerini istemcide tam doğrulukla kaydedebilir
 ## <a name="basic-configuration"></a>Temel yapılandırma
 Görev kaydetmeyi POS'da etkinleştirmek için şu adımları izleyin.
 
-1.  **Perakende ve ticaret** &gt; **Kanal Kurulumu** &gt; **POS Kurulumu** &gt; **Kayıtlar** üzerine tıklayın.
+1.  **Perakende** &gt; **Kanal Kurulumu** &gt; **POS Kurulumu** &gt; **Kayıtlar** üzerine tıklayın.
 2.  Görev kaydedicinin etkinleştirileceği kaydı tıklatın.
 3.  **Kayıt** sekmesinde, **Genel** hızlı sekmesi üzerinde **Görev kaydetmeyi etkinleştir** seçeneğini **Evet** olarak ayarlayın.
 4.  **Kaydet**'i tıklatın.
-5.  **Perakende ve ticaret** &gt; **Perakende BT** &gt; **Dağıtım planı** öğelerini seçin.
+5.  **Perakende** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine gidin.
 6.  **Kayıtlar (1090)** işini seçin ve ardından **Şimdi çalıştır** düğmesini tıklayın.
 
 ## <a name="create-a-recording"></a>Bir kayıt oluştur
@@ -54,7 +56,9 @@ Görev kaydedicisini kullanarak yeni bir kayıt oluşturmak için şu adımları
 2.  **Ayarlar** sayfasında, **Görev Kaydedici** bölümünde **Görev kaydediciyi aç** üzerine tıklayın. **Görev kaydedici** bölmesi görüntülenir. Yeni bir kayda başlamadan önce sağ üst köşedeki **Kapat** düğmesi (**X**) üzerine tıklayarak **Görev kaydediciyi** kapatabilirsiniz. Bölmeyi yeniden açmak için, 2. adımı tekrar edin.
 [![Görev kaydedici bölmesi](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
-3.  Kayıt için bir ad ve açıklama girin, daha sonra **Başlat** üzerine tıklayın. Kayıt oturumu **Başlat** üzerine tıklar tıklamaz başlar. **Not:** Kayıt sürerken sağ üst köşedeki **Kapat** düğmesine (**X**) tıklarsanız, **Görev kaydedici** bölümü kapatılır ancak kayıt oturumu sonlandırılmaz. Görev kaydedici bölümünü yeniden açmak için ekranın üst kısmındaki Yardım düğmesine (soru işareti) tıklayın. 
+3.  Kayıt için bir ad ve açıklama girin, daha sonra **Başlat** üzerine tıklayın. Kayıt oturumu **Başlat** üzerine tıklar tıklamaz başlar.
+
+**Not:** Kayıt sürerken sağ üst köşedeki **Kapat** düğmesine (**X**) tıklarsanız, **Görev kaydedici** bölümü kapatılır ancak kayıt oturumu sonlandırılmaz. Görev kaydedici bölmesini yeniden açmak için ekranın üst kısmındaki **Yardım** düğmesine (soru işareti) tıklayın. 
 
 [![Soru işareti](./media/help.jpg)](./media/help.jpg)
 
@@ -95,7 +99,10 @@ Duraklattıktan sonra kayıt oturumuna devam etmek için **Devam et** üzerine t
 
 ### <a name="capture-screenshots"></a>Ekran görüntülerini yakala
 
-Görev kaydedici, Perakende Modern POS arabirimi ekran görüntülerini, siz bir iş işlemini kaydederken yakalayabilir. Görev kaydedici, kaydı bir Word belgesi olarak indirirseniz ekran görüntülerini kullanır. Ekran görüntüsü yakalama özelliğini açmak için **Ekran görüntüsü yakala** seçeneğini **Evet** olarak ayarlayın. Not: Ekran görüntüsü yakalama işlevi Bulut POS içerisinde desteklenmez.
+Görev kaydedici, Perakende Modern POS arabirimi ekran görüntülerini, siz bir iş işlemini kaydederken yakalayabilir. Görev kaydedici, kaydı bir Word belgesi olarak indirirseniz ekran görüntülerini kullanır. Ekran görüntüsü yakalama özelliğini açmak için **Ekran görüntüsü yakala** seçeneğini **Evet** olarak ayarlayın. 
+
+#### <a name="note"></a>Not
+> Ekran görüntüsü yakalama işlevi Bulut POS içerisinde desteklenmez.
 
 ### <a name="start-task-and-end-task"></a>Görevi başlat ve bitir
 
@@ -119,11 +126,13 @@ Bir ek açıklama, kayıt içerisinde bir adıma eklediğiniz ek metindir. Örne
 
 **Notlar** alanına girdiğiniz metinler, Görev kılavuzunda adımın *altında* görüntülenir. Not metnini okumak için kullanıcının adım metnini açılan pencerede genişletmesi gerekir. Bu konum, ek okuma materyalleri ve kullanıcıya yarar sağlayabilecek ancak kullanıcının eylemi tamamlaması için zorunlu olmayan diğer bilgiler için uygundur.
 
-## <a name="help-at-retail-modern-pos-and-cloud-pos"></a>Perakende Modern POS ve Bulut POS'da yardım
-Görev kayıtlarınızın Perakende Modern POS ve Bulut POS için metin olarak görüntülenebilmesi için onları Yardım bölmesinde göstermek için, görev kayıtlarınızı kendi BPM kitaplığınıza kaydetmelisiniz ve sonra Yardım sistemi parametrelerinizi BPM kitaplığınıza işaret edecek şekilde güncelleştirmelisiniz. Daha fazla bilgi için, bakınız [Yardım sistemine bağlanma](https://ax.help.dynamics.com/en/wiki/working-with-help/#connecting-the-help-system) Perakende Modern POS ve Bulut POS Yardımı, LCS'yi gerçek zamanlı olarak arar. Microsoft Dynamics AX Yardım sistemi parametrelerinde seçili olan tüm BPM kütüphaneleri arasında arar ve ilgili sonuçları gösterir. **Yardım** menüsüne erişmek için ekranın üzerinde bulunan **Yardım** düğmesine tıklayın ve daha sonra arama kutusu içerisinde işlem adınızı yazın ve ara düğmesine tıklayın. 
+## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Retail Modern POS ve Bulut POS'da yardım
+Görev kayıtlarınızın Perakende Modern POS ve Bulut POS için metin olarak görüntülenebilmesi için onları Yardım bölmesinde göstermek için, görev kayıtlarınızı kendi BPM kitaplığınıza kaydetmelisiniz ve sonra Yardım sistemi parametrelerinizi BPM kitaplığınıza işaret edecek şekilde güncelleştirmelisiniz. Daha fazla bilgi için bkz. [Yardım sistemine bağlanma](/dynamics365/unified-operations/dev-itpro/get-started/help-connect) Perakende Modern POS ve Bulut POS Yardımı, LCS'yi gerçek zamanlı olarak arar. Microsoft Dynamics 365 for Retail Yardım sistemi parametrelerinde seçili olan tüm BPM kütüphaneleri arasında arar ve ilgili sonuçları gösterir. **Yardım** menüsüne erişmek için ekranın üzerinde bulunan **Yardım** düğmesine (soru işareti) tıklayın ve daha sonra arama kutusu içerisinde işlem adınızı yazın ve ara düğmesine tıklayın. 
 
 [![Yardım düğmesi](./media/help.jpg)](./media/help.jpg) 
 
-Arama sonuçları içerisinde bir Görev kılavuzuna tıkladığınızda adımları bir Yardım konusu olarak görüntüleyebilir veya adımları bir Word belgesine aktarabilirsiniz. Not: Perakende Modern POS ve Bulut POS içerisindeki Yardım sistemi, görev kılavuzlarını form veya işlemlere dayalı olarak otomatik şekilde getirmez; sonuçları almak için işlem adını arama kutusuna yazmanız ve ara düğmesine tıklamanız gerekir.
+Arama sonuçları içerisinde bir Görev kılavuzuna tıkladığınızda adımları bir Yardım konusu olarak görüntüleyebilir veya adımları bir Word belgesine aktarabilirsiniz. 
+#### <a name="note"></a>Not
+> Retail Modern POS ve Bulut POS'ta Yardım, hangi formda olduğunuza veya hangi işlemi yaptığınıza bağlı olarak görev kılavuzlarını getirmeyecektir. Arama kutusuna işlem adını yazıp **Ara** düğmesine tıklamanız gerekir.
 
 

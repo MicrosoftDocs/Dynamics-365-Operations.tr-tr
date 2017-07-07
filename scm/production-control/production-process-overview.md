@@ -3,7 +3,7 @@ title: "Üretim işlemine genel bakış"
 description: "Bu makalede, üretim işlemleri hakkında genel bir bakış verilmektedir. Bu, sipariş oluşturulmasından mali dönem kapanışına dek üretim emirlerinin, toplu iş emirlerinin ve kanbanların çeşitli aşamalarını açıklamaktadır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 311debe610b58af7cd986bd33ce9473e41cb3d8b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b73ec05442c8b089435d5813ea93b997c473cbb4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -39,12 +39,12 @@ Bu makalede, üretim işlemleri hakkında genel bir bakış verilmektedir. Bu, s
 
 **Üretim kontrolü** modülü, **Ürün bilgileri yönetimi**, **Stok yönetimi**, **Genel muhasebe**, **Ambar yönetimi**, **Proje muhasebesi** ve **Organizasyon yönetimi** gibi diğer modüllerle bağlantılıdır. Bu entegrasyon, mamul maddenin üretimini tamamlamak için gereken bilgi akışını destekler.  
 
-Üretim süreci, tipik olarak belirli bir üretim süreci için seçilen maliyet muhasebesi ve stok değerleme yöntemlerinden etkilenir. Dynamics 365 for Operations, hem fiili maliyeti (ilk giren ilk çıkar \[[FIFO]\]; son giren ilk çıkar \[[LIFO]\]; hareketli ortalama ve periyodik ağırlıklı ortalama) hem de standart maliyet yöntemlerini destekler. Yalın imalat, geriye dönük maliyetlendirme ilkesine dayalı olarak uygulanır.  
+Üretim süreci, tipik olarak belirli bir üretim süreci için seçilen maliyet muhasebesi ve stok değerleme yöntemlerinden etkilenir. Finance and Operations, hem fiili maliyeti (ilk giren ilk çıkar \[[FIFO]\]; son giren ilk çıkar \[[LIFO]\]; hareketli ortalama ve periyodik ağırlıklı ortalama) hem de standart maliyet yöntemlerini destekler. Yalın imalat, geriye dönük maliyetlendirme ilkesine dayalı olarak uygulanır.  
 
 Maliyet ölçümü yöntemlerinin tercihi, üretim süreci esnasında malzeme ve kaynak tüketimi hakkındaki raporlara yönelik gereklilikleri de belirler. Tipik olarak, fiili maliyet yöntemleri, iş düzeyinde isabetli raporlama gerektirirken, periyodik maliyetlendirme yöntemleri malzeme ve kaynak tüketiminin daha az ayrıntılı raporlanabilmesine imkan verir.
 
 ## <a name="mixed-mode-manufacturing"></a>Karma mod üretim
-Farklı ürünler ve üretim topolojileri, farklı sipariş türleri uygulanmasını gerektirir. Dynamics 365 for Operations, karma modda çeşitli sipariş türlerini uygulayabilir. Diğer bir deyişle, bir bitmiş ürün üretme uçtan uca işlemi sırasında tüm sipariş türleri gerçekleşebilir.
+Farklı ürünler ve üretim topolojileri, farklı sipariş türleri uygulanmasını gerektirir. Finance and Operations, karma modda çeşitli sipariş türlerini uygulayabilir. Diğer bir deyişle, bir bitmiş ürün üretme uçtan uca işlemi sırasında tüm sipariş türleri gerçekleşebilir.
 
 -   **Üretim emri** – Bu, belirli bir ürünü veya ürün varyantını verili bir miktarda ve belirli bir tarihte üretmeye yönelik klasik emir türüdür. Üretim emirleri, ürün reçetelerini (BOM) ve rotaları temel alır.
 -   **Toplu iş emri** – Bu emir türü, imalat dönüştürmenin bir formüle dayalı olarak yapıldığı veya ortak ürün ve yan ürünlerin ana ürüne ek olarak veya ana ürün yerine son ürün olabildiği işlem endüstrileri ve kesikli işlemler için kullanılır. Toplu iş emirleri **Formül** türü ürün reçeteleri ve rotaları kullanırlar.

@@ -10,8 +10,8 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272163
 ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c040a50d9962d7a900fbef285ea1f1baea124033
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -623,7 +623,7 @@ Genel gider oranı ilkesi hakkında ayrıntılı bilgi için, Genel gider oranla
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Adım 4: Maliyet tahsisat hesaplamayı işle
 
-Tahsisat, bir tahsisat tabanı kullanarak bir maliyet nesnesinin diğer maliyet nesnelerine bakiyesini tahsis eder. Microsoft Dynamics 365 for Operations karşılık tahsisat yöntemini destekler. Karşılıklı tahsisat yönteminde, yardımcı maliyet nesnelerinin değiştiği karşılıklı hizmetler tümüyle tanınır. Sistem, tahsisatların doğru gerçekleştireceği sırayı otomatik olarak belirler. Bir maliyet nesnesinin bakiyesi tek bir tahsisat tabanı tarafından tahsis edilir. Yeni maliyet nesnesi boyutları arasındaki tahsisatlar ve onların üyeleri desteklenir. Tahsisatın sırası, maliyet kontrol birimi tarafından kontrol edilir. [![Karşılıklı yöntemi](./media/reciprocal-method.png)]
+Tahsisat, bir tahsisat tabanı kullanarak bir maliyet nesnesinin diğer maliyet nesnelerine bakiyesini tahsis eder. Finance and Operations karşılıklı tahsisat yöntemin destekler. Karşılıklı tahsisat yönteminde, yardımcı maliyet nesnelerinin değiştiği karşılıklı hizmetler tümüyle tanınır. Sistem, tahsisatların doğru gerçekleştireceği sırayı otomatik olarak belirler. Bir maliyet nesnesinin bakiyesi tek bir tahsisat tabanı tarafından tahsis edilir. Yeni maliyet nesnesi boyutları arasındaki tahsisatlar ve onların üyeleri desteklenir. Tahsisatın sırası, maliyet kontrol birimi tarafından kontrol edilir. [![Karşılıklı yöntemi](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>Maliyet tahsisatını tanımla
 
@@ -724,7 +724,7 @@ Maliyet nesnesi CC004 Ambalajlama, birden fazla maliyet nesnesine katkıda bulun
 </tbody>
 </table>
 
-**Not:** Dynamics 365 for Operations'ta, bir ürünün tükettiği üretim saatleri gibi istatistiki ölçümler doğrudan kaynak verisinden alınabilir. İstatistiki ölçüm sağlayıcılar hakkında daha ayrıntılı bilgi için İstatistiki ölçü sağlayıcı şablonuna göz atın. (Bu konun henüz tamamlanmamış olduğunu ancak yakında tamamlanacağını unutmayın) Aşağıdaki tablo, HR hizmetleri toplam maliyet (sabit ve değişken maliyet) için bir tahsisat tabanı olarak uygulandığında oluşacak sonuçları gösterir.
+**Not:** Finance and Operations'ta, bir ürünün tükettiği üretim saatleri gibi istatistiki ölçümler doğrudan kaynak verisinden alınabilir. İstatistiki ölçüm sağlayıcılar hakkında daha ayrıntılı bilgi için İstatistiki ölçü sağlayıcı şablonuna göz atın. (Bu konun henüz tamamlanmamış olduğunu ancak yakında tamamlanacağını unutmayın) Aşağıdaki tablo, HR hizmetleri toplam maliyet (sabit ve değişken maliyet) için bir tahsisat tabanı olarak uygulandığında oluşacak sonuçları gösterir.
 
 <table>
 <thead>

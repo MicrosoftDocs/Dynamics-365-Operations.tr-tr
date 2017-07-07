@@ -1,16 +1,16 @@
 ---
 title: "Kalite yönetimine genel bakış"
-description: "Bu makalede, tedarik zincirinizde ürün kalitesini artırmak için Microsoft Dynamics 365 for Operations&quot;daki kalite yönetimini nasıl kullanabileceğiniz açıklanmaktadır."
+description: "Bu makalede, tedarik zincirinizde ürün kalitesini artırmak için Microsoft Dynamics 365 for Finance and Operations'daki kalite yönetimini nasıl kullanabileceğiniz açıklanmaktadır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bb3f36bb425adffa7e055eba4e8732866cb67c49
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 255035bf13155190e59088a7f64f798c7462b885
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,13 +32,13 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, tedarik zincirinizde ürün kalitesini artırmak için Microsoft Dynamics 365 for Operations'daki kalite yönetimini nasıl kullanabileceğiniz açıklanmaktadır.
+Bu makalede, tedarik zincirinizde ürün kalitesini artırmak için Microsoft Dynamics 365 for Finance and Operations'daki kalite yönetimini nasıl kullanabileceğiniz açıklanmaktadır.
 
-Kalite Yönetimi, uyumsuz ürünler,, kendi başlangıç noktalarını dikkate almadan işleyecek döngü sürelerini yönetmenize yardımcı olabilir. Tanı türleri düzeltme raporlaması ile bağlantılı olduğundan, Microsoft Dynamics 365 for Operations sorunları düzeltmek ve oluşmalarını önlemek için görevleri zamanlayabilir.
+Kalite Yönetimi, uyumsuz ürünler,, kendi başlangıç noktalarını dikkate almadan işleyecek döngü sürelerini yönetmenize yardımcı olabilir. Tanı türleri düzeltme raporlaması ile bağlantılı olduğundan, Microsoft Dynamics 365 for Finance and Operations sorunları düzeltmek ve oluşmalarını önlemek için görevleri zamanlayabilir.
 
 Uygunsuzluğu yönetmek için daha fazla işlevselliğe ek olarak, Kalite Yönetimi sorun türüne göre sorunları (hatta iç sorunları) izlemek için ve çözümleri kısa vadeli veya uzun vadeli olarak tanımlamak için işlev içerir. Anahtar performans göstergeleri (APG) ile ilgili istatistikler, önceki uygunsuzluk sorunlarının geçmişi ve bunları düzeltmek için kullanılan çözümler hakkında bir anlayış sağlar. Önceki kalite ölçülerinin geçmişteki etkilerini incelemek ve ileride kullanılmaya uygun önlemleri belirlemek için geçmişe dönük verileri kullanabilirsiniz.
 
-Bir kalite ilişkisi ayarladığınızda, Microsoft Dynamics 365 for Operations çeşitli iş süreçleri, olaylar ve koşullar için kalite emirleri oluşturabilir. Kalite ilişkisi, belirli bir madde, belirli bir madde grubu veya tüm öğeleri kapsayabilir.
+Bir kalite ilişkisi ayarladığınızda, Finance and Operations çeşitli iş süreçleri, olaylar ve koşullar için kalite emirleri oluşturabilir. Kalite ilişkisi, belirli bir madde, belirli bir madde grubu veya tüm öğeleri kapsayabilir.
 
 ## <a name="examples-of-the-use-of-quality-management"></a>Kalite yönetimi kullanımına örnekler
 Kalite Yönetimi esnektir ve tedarik zinciri işlemlerinin belirli düzeylerdeki gereksinimlerini karşılamak için çeşitli şekillerde uygulanabilir. Aşağıdaki örneklerde, bu özelliklerin olası kullanımı gösterilmektedir:

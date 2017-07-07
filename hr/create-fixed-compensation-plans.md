@@ -3,26 +3,26 @@ title: "Sabit ücret planları oluşturma"
 description: "Sabit ücret, çalışanın düzenli brüt maaşını veya ücretlerini ifade eder. Bu makalede, sabit maaş planı oluşturabilmeniz veya çalışanları kaydedebilmeniz için ayarlamanız gereken bileşenler açıklanmaktadır."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HRCCompGrid, HRCCompRefPointSetup, HRMCompEligibility, HRMCompEvent, HRMFixedCompPlanTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15991
 ms.assetid: ef8cf992-176c-4c98-9dff-6510e1eb9f1c
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e71e22cef2b65c4cf89b8fe0ea55e092e259c6dc
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 92237f2dda486f71cabe414e88e7ee4b69fb4485
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 Sabit ücret, çalışanın düzenli brüt maaşını veya ücretlerini ifade eder. Bu konuda, sabit maaş planı oluşturabilmeniz veya çalışanları kaydedebilmeniz için ayarlamanız gereken bileşenler açıklanmaktadır.
 
-Sabit ücret tutarları performans, bölge ve bütçe artışları gibi faktörlere dayalı olarak çalışanlarınız için hesaplanabilir. Microsoft Dynamics 365 for Operations adım, sınıf ve bant ücret türlerini destekler.
+Sabit ücret tutarları performans, bölge ve bütçe artışları gibi faktörlere dayalı olarak çalışanlarınız için hesaplanabilir. Microsoft Talent adım, sınıf ve bant ücret türlerini destekler.
 
 ## <a name="fixed-compensation-components"></a>Sabit ücret bileşenleri
 ### <a name="compensation-levels"></a>Ücret düzeyleri

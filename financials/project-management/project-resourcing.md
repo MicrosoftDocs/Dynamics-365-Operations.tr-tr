@@ -3,14 +3,14 @@ title: "Projeye kaynak oluşturma"
 description: "Bu konu, projeye kaynak oluşturma hakkında bilgi sunar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5c00c63e3c55e818934c36b818c90025002092d4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a7275e9ad8d655d0d2ee5ba90a792775dec0cf05
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Bu konu, projeye kaynak oluşturma hakkında bilgi sunar.
 
-Proje yöneticileri ve kaynak yöneticilerinin proje planlama aşamasında karşılaştıkları zorluklardan biri, projede çalışacak doğru kaynağı belirlemek ve rezerve etmeleri gereken kaynak tahsisatıdır. Microsoft Dynamics 365 for Operations'da, projelere kaynak sağlama becerileri geçici kaynaklar olarak kullanılan ve belirli bir görev ya da görevin bir bölümü için rezerve edilebilen rolleri tanımlamanıza olanak tanır. Bu tür kaynak oluşturma, proje yöneticileri ve kaynak yöneticilerinin aşağıdaki görevleri yerine getirmesini sağlar:
+Proje yöneticileri ve kaynak yöneticilerinin proje planlama aşamasında karşılaştıkları zorluklardan biri, projede çalışacak doğru kaynağı belirlemek ve rezerve etmeleri gereken kaynak tahsisatıdır. Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünde projelere kaynak sağlama becerileri geçici kaynaklar olarak kullanılan ve belirli bir görev ya da görevin bir bölümü için rezerve edilebilen rolleri tanımlamanıza olanak tanır. Bu tür kaynak oluşturma, proje yöneticileri ve kaynak yöneticilerinin aşağıdaki görevleri yerine getirmesini sağlar:
 
 -   Kaynakları eşleştirmeyi kolaylaştırmak için gerekli olan yetkinliklere sahip bir rol tanımlamak.
 -   Rolleri, rezerve edilen kaynakarı temel alan ilk görev planlamasını belirlemek için kullanın.
@@ -65,10 +65,10 @@ Bir çalışanı şirketlerarası kaynak olarak ayarladığınızda, ayarı öd�
 
 **Ödünç veren şirkette:**
 
-1.  Dynamics 365 for Operations'da, ödünç veren şirketin seçildiğini doğrulayın ve ardından yukarıdaki "Bir çalışanı proje kaynağı olarak ayarlama" yordamını tamamlayın.
+1.  Finance and Operations'da, ödünç veren şirketin seçildiğini doğrulayın ve ardından yukarıdaki "Bir çalışanı proje kaynağı olarak ayarlama" yordamını tamamlayın.
 2.  **Genel muhasebe **&gt; **Deftere nakil kurulumu **&gt;**Şirketlerarası muhasebe**'ye gidin. **Yeni**'ye tıklayın.
 3.  **Tüzel kişilik kimliği **alanında, ödünç veren şirketi seçin. Kalan alanları uygun şekilde doldurun ve **Kaydet**'e tıklayın.
-4.  **Proje yönetimi ve muhasebe**&gt; **Ayar **&gt; **Fiyatlar ** &gt; **Transfer fiyatı**** ** öğesine gidin.
+4.  **Proje yönetimi ve muhasebe** **&gt;Ayar **&gt; **Fiyatlar ** &gt; **Transfer fiyatı** öğesine gidin.** **
 5.  **Transfer fiyatı **formunda, **Yeni**'ye tıklayın ve **Ödünç alan tüzel kişilik **alanında, ilgili şirketi seçin.
 6.  Ödünç alan şirkete yalnızca bölümün başında oluşturulan kaynağı ödünç vermek istiyorsanız, **Kaynak** alanında, oluşturduğunuz kaynak adını seçin. Şirketteki tüm kaynakları ödünç alan şirketin kullanımına sunmak istiyorsanız, **Kaynak ** alanını boş bırakın.
 7.  **Proje yönetimi ve muhasebe **&gt; **Kurulum **&gt; **Proje yönetimi ve muhasebe parametreleri**'ne gidin ve **Şirketlerarası **sekmesinde, **Şirketlerarası kaynak planlamayı ve zaman çizelgelerini etkinleştir **alanını **Evet** olarak ayarlayın.
@@ -123,7 +123,7 @@ Bir çalışan için yetkinlikleri ayarlamak üzere, İnsan kaynaklarındaki **�
 6.  **Kalan projeler** bölmesinde, bir proje seçin ve ardından **Seçilen projeler** bölmesine eklemek için oka tıklayın.
 7.  Sayfayı kapatın.
 
-Gerekirse, kaynak için kategoriler de atayabilirsiniz. Kategori türü Maliyet veya Gelir'dir. Bu kuruluş tarafından belirlenir. Kaynak için atanan kategori yoksa, Dynamics 365 for Operations maliyet ve gelir için saat fiyatlarında varsayılan kategoriyi arayacaktır.
+Gerekirse, kaynak için kategoriler de atayabilirsiniz. Kategori türü Maliyet veya Gelir'dir. Bu kuruluş tarafından belirlenir. Kaynak için atanan kategori yoksa, Finance and Operations maliyet ve gelir için saat fiyatlarında varsayılan kategoriyi arayacaktır.
 
 ### <a name="set-up-project-resource-and-role-characteristics"></a>Proje kaynağını ve rol özelliklerini ayarlama
 
@@ -190,7 +190,7 @@ Tüm satış, maliyet ve transfer fiyatları roller için ayarlanabilir.
 5.  **Fiyatlandırma** sütununa, seçilen kaynak rolü için bir fiyat girin.
 
 ## <a name="form-a-project-team"></a>Proje ekibi oluşturma
-Bir projedeki önceden ayarlanmış olan rolleri kullanmak için bir proje yöneticisinin rolleri projeyle ilişkilendirmesi gerekir. Bir proje için birden çok rol atanabilir ve Dynamics 365 for Operations, karışıklığı önlemek için rezervasyon sırasında bu rolleri otomatik olarak etiketler. Örneğin, proje yöneticisi üç yazılım mühendisi istiyorsa, yazılım mühendisi 1, yazılım mühendisi 2 ve yazılım mühendisi 3 etiketlerine sahip üç Yazılım mühendisi rolü otomatik olarak oluşturulur. Rol için rol özellikleri önceden ayarlanmışsa, kaynak arama sırasında filtre olarak uygulanır. Aramayı daha detaylı hale getirmek için ek özellikler eklenebilir. 
+Bir projedeki önceden ayarlanmış olan rolleri kullanmak için bir proje yöneticisinin rolleri projeyle ilişkilendirmesi gerekir. Bir proje için birden çok rol atanabilir ve Finance and Operations, karışıklığı önlemek için rezervasyon sırasında bu rolleri otomatik olarak etiketler. Örneğin, proje yöneticisi üç yazılım mühendisi istiyorsa, yazılım mühendisi 1, yazılım mühendisi 2 ve yazılım mühendisi 3 etiketlerine sahip üç Yazılım mühendisi rolü otomatik olarak oluşturulur. Rol için rol özellikleri önceden ayarlanmışsa, kaynak arama sırasında filtre olarak uygulanır. Aramayı daha detaylı hale getirmek için ek özellikler eklenebilir. 
 
 Kaynak kullanılabilirliğinin daha iyi görüntülenebilmesi için görüntüleme ayarları özelleştirilebilir. Saatlik, günlük, haftalık, aylık, üç aylık ve yıllık kullanılabilirliği gösterme seçenekleri vardır. Ayrıca, kullanılabilir ve kalan kaynak kapasitesini görüntüleme seçeneği de bulunur. Bu seçenek, faaliyetler veya kaynak kullanılabilirliği için kullanılabilir zamanı tahmin etmeniz gerektiğinde yararlıdır. 
 
@@ -210,13 +210,13 @@ Aşağıdaki yordamda bir proje ekibinin nasıl oluşturulacağı açıklanmakta
 1.  **Tüm projeler** liste sayfasında bir proje seçin ve ardından **Düzenle**'ye tıklayın.
 2.  **Proje ekibi ve planlama** sekmesindeki **Bitiş tarihini planla** alanına, planlanan başlama tarihi artı bir ay girin. Örneğin, planlama başlangıç tarihi 24 Haziran 2017 ise (24/06/2017), **24/07/2017** girin.
 3.  **Ekle**'ye tıklayın.
-4.  **Projeye roller ekle** bölmesindeki **Rol**alanında **Kıdemli Proje Yöneticisi**'ni seçin.
+4.  **Projeye roller ekle** bölmesindeki **Rol** alanında **Kıdemli Proje Yöneticisi**'ni seçin.
 5.  **Gerekli yetkinlikler**'e tıklayın.
 6.  **Özelliklerini seçin** sayfasında, Kıdemli proje yöneticisi rolü için önceden ayarlamış olduğunuz özellikler varsayılan olarak seçilir. **Tamam** düğmesine tıklayın.
 7.  **Projeye roller ekle** sayfasındaki **Kaynak sayısı** alanına **1** girin.
 8.  **Kaynak** alanında, arama gerekli yetkinliklere sahip tüm kaynakları gösterir. **Daniel Goldschmidt**'i seçin ve **Oluştur**'a tıklayın.
 9.  **Proje** sayfasında **Ekle**'ye tıklayın.
-10. **Projeye roller ekle** bölmesindeki **Rol**alanında **Ekip üyesi**'ni seçin. **Kaynak sayısı** alanına **5** girin.
+10. **Projeye roller ekle** bölmesindeki **Rol** alanında **Ekip üyesi**'ni seçin. **Kaynak sayısı** alanına **5** girin.
 11. **Oluştur**'a tıklayın.
 12. **Projeler** sayfasında **Kaynağı karşıla**'ya tıklayın.
 
@@ -277,7 +277,7 @@ Kaynak oluşturma işlevinin daha etkin kullanılması için İKY'ye ek seçenek
 </tr>
 <tr class="even">
 <td>Takımı otomatik olarak oluştur</td>
-<td>Görevle ilişkili rolleri kullanarak planlanmış kaynakları otomatik olarak ekleyin. Dynamics 365 for Operations, rollere göre çok ölçütlü karar analizini kullanarak planlanmış kaynakları otomatik olarak önerir. İKY'deki görevler için roller ve çalışma (saat) ayarlandıktan ve yapı serbest bırakıldıktan sonra, <strong>Ekibi otomatik oluştur</strong>'a tıklayın. Gereken sayıda planlanmış kaynak İKY'ye ve <strong>Proje ve ekip planlama</strong> sekmesine eklenir.</td>
+<td>Görevle ilişkili rolleri kullanarak planlanmış kaynakları otomatik olarak ekleyin. Finance and Operations, rollere göre çok ölçütlü karar analizini kullanarak planlanmış kaynakları otomatik olarak önerir. İKY'deki görevler için roller ve çalışma (saat) ayarlandıktan ve yapı serbest bırakıldıktan sonra, <strong>Ekibi otomatik oluştur</strong>'a tıklayın. Gereken sayıda planlanmış kaynak İKY'ye ve <strong>Proje ve ekip planlama</strong> sekmesine eklenir.</td>
 </tr>
 <tr class="odd">
 <td>Kaynak (açılan liste)</td>
@@ -317,7 +317,7 @@ Kaynak oluşturma işlevinin daha etkin kullanılması için İKY'ye ek seçenek
 
 > [!NOTE] 
 > Kaynakların sayısı 1'de kaldığı için belirtilen kaynağın artık 2 olduğunu belirten bir uyarı almazsınız.
-18. **İş kırılım yapısı**sayfasında, İKY'deki kaynak atamasını doğrulayın ve **Kaydet**'e tıklayın.
+18. **İş kırılım yapısı** sayfasında, İKY'deki kaynak atamasını doğrulayın ve **Kaydet**'e tıklayın.
 
 ## <a name="resource-fulfillment-for-planned-resources"></a>Planlanmış kaynaklar için kaynak karşılama
 Proje yöneticisi, bir proje için gerekli kaynak rollerini planlayabilir. Kaynak yöneticisi **Kaynak karşılama** sayfasında planlanan bu kaynakları istek olarak görür ve gerçek kaynakları atayabilir.

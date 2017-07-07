@@ -3,7 +3,7 @@ title: "Finansal raporlarda sütun tanımları"
 description: "Bu makalede sütun tanımları hakkında bilgi verilmektedir. Bir sütun tanımı, bir rapordaki sütunların içeriğini tanımlayan bir raporlama bileşeni veya yapıtaşı parçasıdır. Satır tanımları gibi, temel sütun tanımları da birden fazla raporda kullanılabilir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: d976988a599f65de9957c53a2d149576a1a11d83
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -154,7 +154,7 @@ Bir raporda sütunların üstünde görüntülenen üstbilgileri eklemek, deği�
 
 1.  Rapor Tasarımcısında değiştirmek istediğiniz sütun tanımını açın.
 2.  Üstbilgi satırından bir hücre seçin.
-3.  **Düzenle** menüsünden **Satır Ekle** öğesini tıklayın. Yeni satır, 2. adımda seçtiğiniz satırın üzerine eklenir. **Not:**Bir raporda dört ya da daha fazla rapor üstbilgisi satırına sahipseniz, üstbilgiler bir Excel çalışma sayfasına aktarıldığında üst üste binecektir. Rapordaki tüm üstbilgileri görüntülemek için rapor tanımındaki üst kenar boşluğunu artırın.
+3.  **Düzenle** menüsünden **Satır Ekle** öğesini tıklayın. Yeni satır, 2. adımda seçtiğiniz satırın üzerine eklenir. **Not:** Bir raporda dört ya da daha fazla rapor üstbilgisi satırına sahipseniz, üstbilgiler bir Excel çalışma sayfasına aktarıldığında üst üste binecektir. Rapordaki tüm üstbilgileri görüntülemek için rapor tanımındaki üst kenar boşluğunu artırın.
 
 ### <a name="delete-a-column-header-row"></a>Bir sütun üstbilgi satırını silme
 
@@ -164,7 +164,7 @@ Bir raporda sütunların üstünde görüntülenen üstbilgileri eklemek, deği�
 
 ### <a name="create-an-automatically-generated-header"></a>Otomatik üretilen bir üstbilgi oluşturma
 
-Rapor tasarımcısı otomatik metin kodlarına göre otomatik olarak sütun başlıkları üretebilir. Otomatik kodlar bir rapor üretildiğinde her defasında güncellenen değişkenlerdir. Herhangi bir üstbilgi değişebilecek rapor bilgilerini, örneğin tarihleri veya dönem rakamlarını tanımlamak için bu kodları içerebilir. Bu nedenle, sütun tanımını birden fazla rapor tanımı, dönem ve raporlama ağacı için kullanabilirsiniz. Otomatik metin kodları, sütun tanımının ayrıntı satırlarına ait takvim bilgilerine dayalı olduğundan sadece **CALC**, **FD** ve **WKS** sütunları için desteklenir. Sütun üstbilgisinde bir otomatik metin kodunun nasıl görüntüleneceği, bu bilgilerin raporda nasıl görüneceğini etkiler. **Sütun Üstbilgisi** iletişim kutusunda, otomatik metin kodları karışık şekilde görüntülenir. Bu nedenle, metin, raporda karışık şekilde görüntülenir. Örneğin, standart bir takvim yılı içinde **@CalMonthLong** öğesi **7** ile gösterilen ayı **Temmuz** olarak çözümler. Ay adının büyük olması (örneğin **TEMMUZ**) olması gerekiyorsa, **Sütun üstbilgi metni** alanına otomatik metin kodunu büyük harflerle girin. Örneğin: **@CALMONTHLONG**olarak girin. Kodları ve metinleri karıştırabilirsiniz. Örneğin, u üstbilgi metnini girin: **Dönem @FiscalPeriod-@FiscalYear @StartDate - @EndDate.** Oluşturulacak rapor üstbilgisi şu metni üretir: **01/01/02 tarihinden 01/31/02 tarihine kadar 1-02 Dönemi**. **Not:** Uzun tarih vb. gibi bazı metin biçimleri Dynamics 365 for Operations sunucunuzdaki bölgesel ayarlarınıza bağlıdır. Bu ayarları değiştirmek için **Başlat** düğmesini, **Denetim Masası** öğesini ve ardından **Bölge ve Dil** öğesini tıklayın. Aşağıdaki tabloda sütun üstbilgileri için kullanılabilen otomatik metin seçenekleri listelenmiştir.
+Rapor tasarımcısı otomatik metin kodlarına göre otomatik olarak sütun başlıkları üretebilir. Otomatik kodlar bir rapor üretildiğinde her defasında güncellenen değişkenlerdir. Herhangi bir üstbilgi değişebilecek rapor bilgilerini, örneğin tarihleri veya dönem rakamlarını tanımlamak için bu kodları içerebilir. Bu nedenle, sütun tanımını birden fazla rapor tanımı, dönem ve raporlama ağacı için kullanabilirsiniz. Otomatik metin kodları, sütun tanımının ayrıntı satırlarına ait takvim bilgilerine dayalı olduğundan sadece **CALC**, **FD** ve **WKS** sütunları için desteklenir. Sütun üstbilgisinde bir otomatik metin kodunun nasıl görüntüleneceği, bu bilgilerin raporda nasıl görüneceğini etkiler. **Sütun Üstbilgisi** iletişim kutusunda, otomatik metin kodları karışık şekilde görüntülenir. Bu nedenle, metin, raporda karışık şekilde görüntülenir. Örneğin, standart bir takvim yılı içinde **@CalMonthLong** öğesi **7** ile gösterilen ayı **Temmuz** olarak çözümler. Ay adının büyük olması (örneğin **TEMMUZ**) olması gerekiyorsa, **Sütun üstbilgi metni** alanına otomatik metin kodunu büyük harflerle girin. Örneğin: **@CALMONTHLONG** olarak girin. Kodları ve metinleri karıştırabilirsiniz. Örneğin, u üstbilgi metnini girin: **Dönem @FiscalPeriod-@FiscalYear @StartDate - @EndDate.** Oluşturulacak rapor üstbilgisi şu metni üretir: **01/01/02 tarihinden 01/31/02 tarihine kadar 1-02 Dönemi**. **Not:** Uzun tarih vb. gibi bazı metin biçimleri Finance and Operations sunucunuzdaki bölgesel ayarlarınıza bağlıdır. Bu ayarları değiştirmek için **Başlat** düğmesini, **Denetim Masası** öğesini ve ardından **Bölge ve Dil** öğesini tıklayın. Aşağıdaki tabloda sütun üstbilgileri için kullanılabilen otomatik metin seçenekleri listelenmiştir.
 
 | Otomatik metin seçeneği ve kodu                | Açıklama                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -263,7 +263,7 @@ Sütun tanımında, biçimlendirme sütunu ayrıntı satırları, seçilen sütu
 
 ### <a name="changing-the-column-width"></a>Sütun genişliğini değiştirme
 
-**Sütun Genişliğini** hücresi, bu sütunun genişliği için yazdırılan raporda kullanılacak karakter sayısını belirler. Sütun genişliği, tutarlar içeren sütunlar (**CALC**, **WKS** ve **FD** türü sütunlar), açıklamalar (**DESC** türü açıklamalar) veya dolgular (**FILL** türü sütunlar) için önemlidir. Varsayılan olarak, her bir sütunun genişliğinin içerikler sığacak şekilde otomatik olarak ayarlanması için**Otomatik Sığdırma** seçeneği seçilir.
+**Sütun Genişliğini** hücresi, bu sütunun genişliği için yazdırılan raporda kullanılacak karakter sayısını belirler. Sütun genişliği, tutarlar içeren sütunlar (**CALC**, **WKS** ve **FD** türü sütunlar), açıklamalar (**DESC** türü açıklamalar) veya dolgular (**FILL** türü sütunlar) için önemlidir. Varsayılan olarak, her bir sütunun genişliğinin içerikler sığacak şekilde otomatik olarak ayarlanması için **Otomatik Sığdırma** seçeneği seçilir.
 
 #### <a name="specify-the-width-of-a-column-on-a-report"></a>Bir sütunun rapordaki genişliğini belirtme
 
@@ -488,7 +488,7 @@ Aşağıdaki örnekte **Defter Kodu/Öznitelik Kategorisi** satırında bir hesa
 
 ### <a name="dimension-filter-in-a-column-definition"></a>Bir sütun tanımındaki boyut filtresi
 
-Bir boyut filtresi, **FD** sütununu belirli boyut değerleriyle sınırlandırmak için kullanılır. Filtre tek bir boyut, bir boyut aralığı veya bir boyut grubu içerebilir. Filtre de boyut değer kümeleri içerebilir. Boyut değerleri değişebilir olduğundan, bir ..\finansal-boyut\ boyut tabanlı bir sistemin tam bir uzunluğa karşılık gelmesine gerek yoktur. Raporun bir raporlama ağacı içerip içermediğinden bağımsız olarak filtre uygulanır. Bir joker karakterini (\* veya?) herhangi bir konumda kullanabilirsiniz. Birden fazla hesap tanımladığınızda, aşağıdaki örnekte gösterildiği gibi hesaplar arasına virgül koyun: +Hesap=\[1200\], +Hesap=\[1100\], Departman=\[01?\] Belirli bir hesap için tüm departmanları almak için, boyut filtresinden Departman boyutunu çıkarabilirsiniz. Örneğin, aşağıdaki boyut filtrelerinin her ikisi de aynı şekilde işlenir:
+Bir boyut filtresi, **FD** sütununu belirli boyut değerleriyle sınırlandırmak için kullanılır. Filtre tek bir boyut, bir boyut aralığı veya bir boyut grubu içerebilir. Filtre de boyut değer kümeleri içerebilir. Boyut değerleri değişebilir olduğundan, bir ..\finansal-boyut\ boyut tabanlı bir sistemin tam bir uzunluğa karşılık gelmesine gerek yoktur. Raporun bir raporlama ağacı içerip içermediğinden bağımsız olarak filtre uygulanır. Bir joker karakterini (\* veya?) herhangi bir konumda kullanabilirsiniz. Birden fazla hesap belirttiğinizde, aşağıdaki örnekte gösterildiği gibi hesaplar arasında virgül koyun: +Hesap =\[1200\], +Hesap =\[1100\], Departman =\[01?\] Tüm bölümler için özel bir hesap almak için Departman boyutu Boyut Filtresi dışarıda bırakabilirsiniz. Örneğin, aşağıdaki boyut filtrelerinin her ikisi de aynı şekilde işlenir:
 
 -   +Hesap=\[1100\],Departman
 -   +Hesap=\[1100\]
@@ -564,7 +564,7 @@ Sütunları toplamak, çıkarmak, çarpmak veya bölmek için sütun harflerini 
 #### <a name="use-a-calculation-formula-in-a-column-definition"></a>Bir sütun tanımında bir hesaplama formülü kullanma
 
 1.  Rapor Tasarımcısında değiştirmek istediğiniz sütun tanımını açın.
-2.  İlgili**CALC** sütununda **Formül** hücresine bir formül girin.
+2.  İlgili **CALC** sütununda **Formül** hücresine bir formül girin.
 
 #### <a name="complex-calculations"></a>Kompleks hesaplamalar
 

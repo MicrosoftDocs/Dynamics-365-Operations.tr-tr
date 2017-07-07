@@ -1,15 +1,15 @@
 ---
 title: "Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş"
-description: "Bu konu, birden fazla müşteri veya satıcı kaydı içeren tek bir fişi deftere naklettiğinizde olacaklara ilişkin genel bir bakış sağlar. Bu işlevsellik, Microsoft Dynamics 365 for Operations&quot;ın gelecekteki sürümlerinde durdurulacaktır. Sonuç olarak, kapatma işlemine hesap etkisi nedeniyle bu deftere nakletme yöntemini önermiyoruz."
+description: "Bu konu, birden fazla müşteri veya satıcı kaydı içeren tek bir fişi deftere naklettiğinizde olacaklara ilişkin genel bir bakış sağlar. Bu işlevsellik, Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition'ın gelecekteki sürümlerinde durdurulacaktır. Sonuç olarak, kapatma işlemine hesap etkisi nedeniyle bu deftere nakletme yöntemini önermiyoruz."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 222534
 ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b1038ea950141f0e7d4678cac9edd3b0bd5beb6f
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 31040ff14b99a9b351268feb88698ac706befb55
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu konu, birden fazla müşteri veya satıcı kaydı içeren tek bir fişi deftere naklettiğinizde olacaklara ilişkin genel bir bakış sağlar. Bu işlevsellik, Microsoft Dynamics 365 for Operations'ın gelecekteki sürümlerinde durdurulacaktır. Sonuç olarak, kapatma işlemine hesap etkisi nedeniyle bu deftere nakletme yöntemini önermiyoruz. 
+Bu konu, birden fazla müşteri veya satıcı kaydı içeren tek bir fişi deftere naklettiğinizde olacaklara ilişkin genel bir bakış sağlar. Bu işlevsellik, Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition'ın gelecekteki sürümlerinde durdurulacaktır. Sonuç olarak, kapatma işlemine hesap etkisi nedeniyle bu deftere nakletme yöntemini önermiyoruz. 
 
 Tek bir fişin birden fazla müşteri veya satıcı için kullanıldığı bazı yaygın örnekler, müşteriler arasındaki bakiye transferlerini ve aynı kuruluştaki müşteriler ve satıcılar arasındaki mahsuplaşma bakiyelerini içerir. 
 
@@ -120,7 +120,7 @@ Kullanıcı orijinal faturadan tüm gider dağıtımları arasında tahsis edile
 | GNJL001     | Satıcı           | 1001        | INV1            |           | 100,00     | Genel Muhasebe           | 606300-001-- |
 | GNJL001     | Satıcı           | 1001        | INV2            |           | 200,00     | Genel Muhasebe           | 606300-002-- |
 
-Aşağıdaki örnekte birden çok satıcı faturası **Genel günlük**sayfasındaki tek bir fiş üzerinden Genel muhasebeye kaydedilir. Bu faturalar birden çok hesap boyutu arasında dağıtılır. Deftere nakilden sonra bir fiş oluşturulur.
+Aşağıdaki örnekte birden çok satıcı faturası **Genel günlük** sayfasındaki tek bir fiş üzerinden Genel muhasebeye kaydedilir. Bu faturalar birden çok hesap boyutu arasında dağıtılır. Deftere nakilden sonra bir fiş oluşturulur.
 
 |             |              |                  |                                          |                                         |
 |-------------|--------------|------------------|------------------------------------------|-----------------------------------------|
@@ -162,7 +162,7 @@ Kullanıcı orijinal faturadan tüm gider dağıtımları arasında tahsis edile
 | 14000056    | 200110-001- | Satıcı bakiyesi     |                                          | -2,00                                   |
 
 ## <a name="one-voucher-for-balance-transfers-and-netting-scenarios"></a>Bakiye transferleri ve netleştirme senaryoları için bir fiş
-Birden fazla müşteri veya satıcı içeren bir fişin kullanıldığı iki yaygın senaryo, bir müşteriden/satıcıdan başka bir müşteriye/satıcıya bakiye transferlerini ve aynı kuruluştaki bir müşterinin ve satıcının mahsuplaşmasını içerir. Aşağıdaki iki örnek, bu senaryoları bir fişe girmeye alternatif olarak bunları Dynamics 365 for Operations'a girmek için tercih edilen yöntemleri gösterir. 
+Birden fazla müşteri veya satıcı içeren bir fişin kullanıldığı iki yaygın senaryo, bir müşteriden/satıcıdan başka bir müşteriye/satıcıya bakiye transferlerini ve aynı kuruluştaki bir müşterinin ve satıcının mahsuplaşmasını içerir. Aşağıdaki iki örnek, bu senaryoları bir fişe girmeye alternatif olarak bunları Dynamics 365 for Finance and Operations'a girmek için tercih edilen yöntemleri gösterir. 
 
 *Bakiye transferi* birden çok müşteri içeren bir fiş olup bakiyenin bir müşteriden başka bir müşteriye (satıcılar için de aynı) transferi amacıyla girilir. Bir alt şirketin sorumluluğunun bir ana şirkete geçmesi gibi fatura ödeme sorumluluğu başka bir tarafa geçtiğinde bu senaryo gerçekleşir. 
 
@@ -176,7 +176,7 @@ Göstermek için, ACME müşterisine aşağıdaki satışın yapıldığını va
 | 401100-002-023-    | Gelir          |           | 100        |
 | 130100-002-        | Müşteri bakiyesi | 100       |            |
 
-Ardından, kullanıcı Alacak hesapları ödeme günlüğündeki bir fişte ACME'den sigorta şirketine borç bakiyesini transfer eder. Dynamics 365 for Operations'da sigorta şirketi müşteri Sigortası olarak ayarlanır.
+Ardından, kullanıcı Alacak hesapları ödeme günlüğündeki bir fişte ACME'den sigorta şirketine borç bakiyesini transfer eder. Finance and Operations'da sigorta şirketi müşteri Sigortası olarak ayarlanır.
 
 |             |                  |             |                 |           |            |                 |                    |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|

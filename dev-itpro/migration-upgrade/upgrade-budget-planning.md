@@ -1,6 +1,6 @@
 ---
 title: "Bütçe planlamayı yükselt"
-description: "Microsoft Dynamics AX 2012 ve Microsoft Dynamics 365 for Operations arasında, bütçe planlamada önemli farklar bulunmaktadır. Bazı özellikler yükseltilmemiştir ve bu nedenle yeniden yapılandırma gerektirmektedirler. Bu konu nelerin yeniden yapılandırılması gerektiğin ve yükseltme tamamlandıktan sonra dikkate alınması gereken yeni özellikleri açıklar."
+description: "Microsoft Dynamics AX 2012 ve Microsoft Dynamics 365 for Finance and Operations arasında, bütçe planlamada önemli farklar bulunmaktadır. Bazı özellikler yükseltilmemiştir ve bu nedenle yeniden yapılandırma gerektirmektedirler. Bu konu nelerin yeniden yapılandırılması gerektiğin ve yükseltme tamamlandıktan sonra dikkate alınması gereken yeni özellikleri açıklar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/10/2017
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272923
 ms.assetid: 17cdfe74-bdfd-466a-9bdd-c12583f250c7
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fafa323c3949c09707c81ec41edae25ad2677eeb
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 83e93df3284760c46cb95b931f32cc9990ef2db1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics AX 2012 ve Microsoft Dynamics 365 for Operations arasında, bütçe planlamada önemli farklar bulunmaktadır. Bazı özellikler yükseltilmemiştir ve bu nedenle yeniden yapılandırma gerektirmektedirler. Bu konu nelerin yeniden yapılandırılması gerektiğin ve yükseltme tamamlandıktan sonra dikkate alınması gereken yeni özellikleri açıklar.  
+Microsoft Dynamics AX 2012 ve Microsoft Dynamics 365 for Finance and Operations arasında, bütçe planlamada önemli farklar bulunmaktadır. Bazı özellikler yükseltilmemiştir ve bu nedenle yeniden yapılandırma gerektirmektedirler. Bu konu nelerin yeniden yapılandırılması gerektiğin ve yükseltme tamamlandıktan sonra dikkate alınması gereken yeni özellikleri açıklar.  
 
-Microsoft Dynamics 365 for Operations içerisindeki bütçe planlama, Microsoft Dynamics AX 2012 içinde bulunmayan pek çok geliştirmeye sahiptir. Bu konu, yükseltme yapacak müşterilerin gerçekleştirmesi gereken değişiklikleri açıklar. Yükseltme işleminde dikkate alınması gereken yeni özellikleri de ortaya koyar. Değişikliklerin kapsamı yüzünden, bu konuda altı çizilen değişiklikler gerçekleştirilene kadar mevcut bütçe planlarından hiçbiri açılamayacaktır. Ancak, raporlar çalışmaya devam edecektir ve ek değişiklikler gerektirmemektedir.
+Microsoft Dynamics 365 for Finance and Operations içerisindeki bütçe planlama, Microsoft Dynamics AX 2012 içinde bulunmayan pek çok geliştirmeye sahiptir. Bu konu, yükseltme yapacak müşterilerin gerçekleştirmesi gereken değişiklikleri açıklar. Yükseltme işleminde dikkate alınması gereken yeni özellikleri de ortaya koyar. Değişikliklerin kapsamı yüzünden, bu konuda altı çizilen değişiklikler gerçekleştirilene kadar mevcut bütçe planlarından hiçbiri açılamayacaktır. Ancak, raporlar çalışmaya devam edecektir ve ek değişiklikler gerektirmemektedir.
 
 ## <a name="overview-of-changes"></a>Değişimlerin özeti
-Dynamics 365 for Operations için Bütçeleme içerisinde pek çok önemli değişiklik yapılmıştır. Bu değişiklikler Bütçe planlamanın yapılandırmasını daha kolay hale getirmek ve yeniden kullanılabilirliği artırarak yıldan yıla bakımı ve kurulumu azaltmak amacıyla yapılmıştır. AX 2012 içerisindeki aşağıdaki alanlar Dynamics 365 for Operations içinde artık bulunmamaktadır:
+Finance and Operations için Bütçeleme içerisinde pek çok önemli değişiklik yapılmıştır. Bu değişiklikler Bütçe planlamanın yapılandırmasını daha kolay hale getirmek ve yeniden kullanılabilirliği artırarak yıldan yıla bakımı ve kurulumu azaltmak amacıyla yapılmıştır. AX 2012 içerisindeki aşağıdaki alanlar Finance and Operations içinde artık bulunmamaktadır:
 
 -   Bütçe planı şablonları (Bütçe planlama yapılandırması)
 -   Bütçe planı klasörleri (Bütçe planlama yapılandırması)
@@ -53,15 +53,15 @@ Sütunlar, Excel şablonu ve matris alanlarının bazı parçalarının yerini a
 
 ### <a name="layouts"></a>Düzenler
 
-Düzenler, Excel şablonunun yerini alan yeni bir kavramdır. Düzenler, hangi bütçe veya gerçek verilerin ve dönemlerin gösterilmesi gerektiğini tanımlayan sütunları içerir. Sütunlar, istemci ve Excel eklentisi arasında da paylaşılır. Bu nedenle, Dynamics 365 for Operations istemcisi içinde veri girdiğinizde veya görüntülediğinizdeki kullanıcı deneyimi, AX 2012'den daha iyidir. Dynamics 365 for Operations istemcisi içerisine veri girmek için, hareket görünümde tek bir senaryo görüntülemeye ve girmeye sınırlı değilsiniz. Bunun yerine, bir karşılaştırma görünümü, birden fazla dönem ve hesap için aynı anda kolayca tutar girmenizi ve görmenize izin verir. Düzenler para birimi, açıklamalar ve diğer isteğe bağlı verileri girebilmeniz veya görüntüleyebilmeniz için de tanımlanabilir. Düzenler hangi genel muhasebe boyutlarının ve boyut açıklamalarının gösterileceğini de tanımlamanızı sağlar. Düzenler ayrıca senaryo kısıtlamalarını, bir şablondaki hangi sütunların düzenlenebileceğini ve hangilerinin Excel içerisinde kullanılabilir olacağını tanımlamak için kullanır. Bir düzeni tanımladıktan sonra, bunun için bir şablon oluşturulur. Artından bu şablon, karşılık gelen Excel şablonunu oluşturur. Daha sonra Excel şablonunu daha fazla formül ve biçimlendirme kullanmak üzere düzenleyebilir ve yeniden yükleyebilirsiniz. Düzenler, **Bütçe planlama işlemi** sayfasındaki her bir aşama kuralına atanır. Düzenle bu nedenle benzer şekilde atanan ve kullanılan şablonların yerini alır.
+Düzenler, Excel şablonunun yerini alan yeni bir kavramdır. Düzenler, hangi bütçe veya gerçek verilerin ve dönemlerin gösterilmesi gerektiğini tanımlayan sütunları içerir. Sütunlar, istemci ve Excel eklentisi arasında da paylaşılır. Bu nedenle, Finance and Operations istemcisi içinde veri girdiğinizde veya görüntülediğinizdeki kullanıcı deneyimi, AX 2012'den daha iyidir. Finance and Operations istemcisi içerisine veri girmek için, hareket görünümde tek bir senaryo görüntülemeye ve girmeye sınırlı değilsiniz. Bunun yerine, bir karşılaştırma görünümü, birden fazla dönem ve hesap için aynı anda kolayca tutar girmenizi ve görmenize izin verir. Düzenler para birimi, açıklamalar ve diğer isteğe bağlı verileri girebilmeniz veya görüntüleyebilmeniz için de tanımlanabilir. Düzenler hangi genel muhasebe boyutlarının ve boyut açıklamalarının gösterileceğini de tanımlamanızı sağlar. Düzenler ayrıca senaryo kısıtlamalarını, bir şablondaki hangi sütunların düzenlenebileceğini ve hangilerinin Excel içerisinde kullanılabilir olacağını tanımlamak için kullanır. Bir düzeni tanımladıktan sonra, bunun için bir şablon oluşturulur. Artından bu şablon, karşılık gelen Excel şablonunu oluşturur. Daha sonra Excel şablonunu daha fazla formül ve biçimlendirme kullanmak üzere düzenleyebilir ve yeniden yükleyebilirsiniz. Düzenler, **Bütçe planlama işlemi** sayfasındaki her bir aşama kuralına atanır. Düzenle bu nedenle benzer şekilde atanan ve kullanılan şablonların yerini alır.
 
 ### <a name="budget-planning-processes"></a>Bütçe planlama süreçleri
 
-Bütçe planlama işlemleri, AX 2012'dekiyle büyük ölçüde aynıdır. En önemli değişiklik, şablonlarla düzenlerin yer değiştirmesidir. Daha önce AX 2012'de herhangi bir işlem tamamlandıysa, işlemler değişikliklerin yapılabileceği işlem sürüyor durumuna güncelleştirilir. Plan, istemci içerisinde açıldığında hangi senaryo ve zaman dönemlerinin görüntüleneceğini belirtmek için her bir aşama kuralı için düzenler atamanız gerekir. Düzenler ayrıca, bütçeyi görebilmeniz için hangi Excel şablonunun Dynamics 365 for Operations dışında açılacağını belirtir. **Varsayılan hesap yapısı**, Bütçe planlama işlemi için yeni bir gerekli alandır. Her bir Bütçe planlama işlemi için, bütçeleme için kullanılacak birincil hesap yapısını atayın.
+Bütçe planlama işlemleri, AX 2012'dekiyle büyük ölçüde aynıdır. En önemli değişiklik, şablonlarla düzenlerin yer değiştirmesidir. Daha önce AX 2012'de herhangi bir işlem tamamlandıysa, işlemler değişikliklerin yapılabileceği işlem sürüyor durumuna güncelleştirilir. Plan, istemci içerisinde açıldığında hangi senaryo ve zaman dönemlerinin görüntüleneceğini belirtmek için her bir aşama kuralı için düzenler atamanız gerekir. Düzenler ayrıca, bütçeyi görebilmeniz için hangi Excel şablonunun Dynamics 365 for Finance and Operations dışında açılacağını belirtir. **Varsayılan hesap yapısı**, Bütçe planlama işlemi için yeni bir gerekli alandır. Her bir Bütçe planlama işlemi için, bütçeleme için kullanılacak birincil hesap yapısını atayın.
 
 ### <a name="attachments"></a>Ekler
 
-AX 2012'de, gerekçe belgeleri bir ek klasörüne kaydedilmekteydi. Önceki gerekçe belgelerinden hiçbiri yükseltilmedi. Gerekçe belgeleri artık veritabanında depolanır. Bu bilgi yükseltilmiş sürümde kaydedilecekse, nihai gerekçe belgelerini her bir plan için Eylem Bölmesi'ndeki **Gerekçe** düğmesini kullanarak bir ek olarak yükleyebilirsiniz. AX 2012'de, her bütçe planı için Excel çalışma sayfaları, şablonu temel alarak oluşturulmaktaydı. Dynamics 365 for Operations içerisinde tüm planlar düzenin bir kopyasını açar. Ancak, hiçbir değişiklik Excel dosyasında kaydedilmez. Plana dayalı olarak kullanılan herhangi bir formül veya destekleyici bilgi, açıklamalar, bir gerekçe belgesi veya diğer ek işlemler ile eklenmelidir.
+AX 2012'de, gerekçe belgeleri bir ek klasörüne kaydedilmekteydi. Önceki gerekçe belgelerinden hiçbiri yükseltilmedi. Gerekçe belgeleri artık veritabanında depolanır. Bu bilgi yükseltilmiş sürümde kaydedilecekse, nihai gerekçe belgelerini her bir plan için Eylem Bölmesi'ndeki **Gerekçe** düğmesini kullanarak bir ek olarak yükleyebilirsiniz. AX 2012'de, her bütçe planı için Excel çalışma sayfaları, şablonu temel alarak oluşturulmaktaydı. Finance and Operations içerisinde tüm planlar düzenin bir kopyasını açar. Ancak, hiçbir değişiklik Excel dosyasında kaydedilmez. Plana dayalı olarak kullanılan herhangi bir formül veya destekleyici bilgi, açıklamalar, bir gerekçe belgesi veya diğer ek işlemler ile eklenmelidir.
 
 ## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>AX 2012'den bir yükseltilmiş ortam yapılandırmak
 Yükseltilmiş sistemi nasıl yapılandıracağınızı belirlemeye yardımcı olmak için aşağıdaki örnek, AX 2012 demo verisinden yükseltilmiş bir bütçeyi kullanır. Sütunlar için varsayılan yapılandırma verisi, yükseltme işlemine yardımcı olmak için oluşturuldu. Yapılandırma gereksinimlerinizi karşılaşmıyorsa, bu varsayılan veriyi güncelleştirebilir veya silebilirsiniz. **Not:** Sistemde ayarlanmayan yeni gerekli alanlar mevcuttur. Bir sayfada takılır kalırsanız, örneğin **Bütçe planlama yapılandırması** sayfası gibi, ve başka yere gidemezseniz, ayrıntıları doğru sırada girmek için tarayıcınızı kapatabilir ve yeni bir sayfaya yeniden açabilirsiniz. Henüz ayarlanmamış gerekli alanlar vardır. Bu nedenle, her şey yapılandırılana ve tüm gerekli alanları ayarlanana kadar sorunları ortaya çıkabilir. Bu konu, bu alanları gerektiği gibi nasıl ayarlanacağını açıklar. Gerek duyulan alanlardan bazıları şunlardır:
@@ -75,7 +75,7 @@ Yükseltilmiş sistemi nasıl yapılandıracağınızı belirlemeye yardımcı o
     -   Bütçe planı senaryoları: Fiili değerler, Temel, Bütçe İsteği, Bütçe Onaylandı
     -   2017 içindeki tüm senaryolar için Bütçe planı satırları ve hem 2017 hem de 2016 için Fiili değerler
 
-    Aşağıdaki sütunlar Dynamics 365 for Operations içerisinde oluşturulur:
+    Aşağıdaki sütunlar Finance and Operations içerisinde oluşturulur:
     | Sütun adı    | Bütçe planı senaryosu | Sütun dönemi | Yıl denkleştirme |
     |----------------|----------------------|--------------------|-------------|
     | Oca Senaryo 1 | Gerçek değerler              | 1                  | 0           |
@@ -128,7 +128,7 @@ Aşağıdaki seçenekler periyodik işlemler olarak eklendi. Bu seçenekler, ba�
 
 ### <a name="more-complete-tracking-of-amounts"></a>Tutarların daha ayrıntılı izlemeleri
 
-AX 2012'de, Bütçe planlama her bir değer için kaydedilmiş olan tek bir tutara sahipti. Dynamics 365 for Operations içerisinde, veri modeli genişletildi. Şimdi her değer için muhasebe para birimi, hareket para birimi ve raporlama para birimi vardır. Yükseltme sırasında bu yeni sütunlar varolan veriler için otomatik olarak doldurulur.
+AX 2012'de, Bütçe planlama her bir değer için kaydedilmiş olan tek bir tutara sahipti. Finance and Operations içerisinde, veri modeli genişletildi. Şimdi her değer için muhasebe para birimi, hareket para birimi ve raporlama para birimi vardır. Yükseltme sırasında bu yeni sütunlar varolan veriler için otomatik olarak doldurulur.
 
 ### <a name="do-not-convert-currency-in-aggregation"></a>Toplamdaki para birimini dönüştürme
 

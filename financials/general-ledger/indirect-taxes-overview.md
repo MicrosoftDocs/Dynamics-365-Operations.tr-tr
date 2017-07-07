@@ -3,7 +3,7 @@ title: "Satış vergisi genel bakış"
 description: "Bu makalede, satış vergisi sistemine bir genel bakış verilmektedir. Satış vergisi kurulumunun öğeleri ve birlikte nasıl çalıştıkları açıklanmaktadır."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdb3188f533cf0cdb1e70c63891408e45d02418d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="sales-tax-overview"></a>Satış vergisi genel bakış
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Bu makalede, satış vergisi sistemine bir genel bakış verilmektedir. Satış vergisi kurulumunun öğeleri ve birlikte nasıl çalıştıkları açıklanmaktadır.
@@ -73,7 +75,7 @@ Her hareket (satış/satınalma belgesi satırları, günlükler vb.) üzerinde,
 Her harekette, hesaplanan satış vergisine **Satış vergisi hareketi** sayfasını açarak bakabilirsiniz . Belgenin tamamını veya bir belge satırı için satış vergisi arayabilirsiniz. Bazı belgeler için (örneğin, satıcı faturası ve genel günlükler), özgün belge sapmış tutarlar gösteriyorsa, hesaplanan satış vergisi ayarlayabilirsiniz.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Satış vergisi kapatması ve deftere nakli
-Satış vergisi, vergi dairesine düzenlenen aralıklarla (aylık, üç aylık, vb.) bildirilmeli ve ödenmelidir. Microsoft Dynamics 365 for Operations, vergi hesaplarını aralık için kapatma ve vergi kapatma hesabındaki bakiyeleri mahsup etmeye, genel muhasebe nakil gruplarında belirtildiği gibi, olanak sağlan işlevsellik sağlar. Bu işleve **Satış vergisini kapatma ve deftere nakletme** sayfasında erişebilirsiniz. Satış vergisinin kapatılacağı satış vergisi kapatma dönemini belirtmeniz gerekir. 
+Satış vergisi, vergi dairesine düzenlenen aralıklarla (aylık, üç aylık, vb.) bildirilmeli ve ödenmelidir. Microsoft Dynamics 365 for Finance and Operations, Enterprise edition vergi hesaplarını aralık için kapatma ve vergi kapatma hesabındaki bakiyeleri mahsup etmeye, genel muhasebe nakil gruplarında belirtildiği gibi, olanak sağlan işlevsellik sağlar. Bu işleve **Satış vergisini kapatma ve deftere nakletme** sayfasında erişebilirsiniz. Satış vergisinin kapatılacağı satış vergisi kapatma dönemini belirtmeniz gerekir. 
 
 Satış vergisi ödemesi yapıldıktan sonra, satış vergisi kapatma hesabındaki bakiye, banka hesabına karşı dengelenmelidir. Eğer satış vergisi kapatma döneminde belirtilen satış vergisi dairesi, satıcı hesabıyla ilişkiliyse, satış vergisi bakiyesi bir açık satıcı faturası olarak nakledilir ve düzenli ödeme teklifine sahil edilebilir.
 

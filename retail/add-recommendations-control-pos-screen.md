@@ -1,27 +1,28 @@
 ---
 title: "POS aygıt hareket sayfasında önerileri denetimi ekleyin"
-description: "Bu konu, öneri denetiminin bir satış noktası (POST) cihazına, ekran düzeni tasarımcısını Microsoft Dynamics 365 for Operations kullanarak nasıl ekleneceğini açıklar."
+description: "Bu konu, öneri denetiminin bir satış noktası (POST) cihazına, ekran düzeni tasarımcısını Microsoft Dynamics 365 for Retail kullanarak nasıl ekleneceğini açıklar."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: josaw
+ms.search.scope: Retail, Operations, Core, UnifiedOperations
 ms.custom: 260624
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
+ms.dyn365.ops.version: Version 1611, Retail Version
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: db17231a27c85193dd95dfe32575f598e00873b1
+ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
+ms.openlocfilehash: 1cb80decf8ef0f182feec5d4cbe76b37b106dcd2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,12 +32,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Bu konu, öneri denetiminin bir satış noktası (POST) cihazına, ekran düzeni tasarımcısını Microsoft Dynamics 365 for Operations kullanarak nasıl ekleneceğini açıklar.
+Bu konu, öneri denetiminin bir satış noktası (POST) cihazına, ekran düzeni tasarımcısını Microsoft Dynamics 365 for Retail kullanarak nasıl ekleneceğini açıklar.
 
-Microsoft Dynamics 365 for Operations kullanırken ürün önerilerini POS cihazınızda görüntüleyebilirsiniz. *Öneriler*, satınalma geçmişi, istek listelerindeki maddeler ve diğer müşterilerin çevrimiçi ve fiziksel mağazalardan aldıkları maddelere dayanarak müşterilerinizin ilgi duyabilecekleri maddelerdir. Ürün önerilerini görüntülemek için, ekran düzeni tasarımcısını kullanarak bir denetimi hareket ekranına eklemeniz gerekir.
+Microsoft Dynamics 365 for Retail kullanırken ürün önerilerini POS cihazınızda görüntüleyebilirsiniz. *Öneriler*, satınalma geçmişi, istek listelerindeki maddeler ve diğer müşterilerin çevrimiçi ve fiziksel mağazalardan aldıkları maddelere dayanarak müşterilerinizin ilgi duyabilecekleri maddelerdir. Ürün önerilerini görüntülemek için, ekran düzeni tasarımcısını kullanarak bir denetimi hareket ekranına eklemeniz gerekir.
 
 ## <a name="open-layout-designer"></a>Açık Düzen tasarımcısı
-1.  **Perakende ve ticaret** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS** &gt; **Ekran düzenleri** öğelerini seçin.
+1.  **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS** &gt; **Ekran düzenleri** öğelerini seçin.
 2.  Denetimi eklemek istediğiniz ekranı bulmak için Hızlı Filtre'yi kullanın. Örneğin **Ekran düzeni kimliği** üzerinde, 'F2CP16:9M' kullanarak filtrele.
 3.  Listede, istenen kaydı bulun ve seçin. Örneğin, ‘Ad: F2CP16:9M Ekran Düzeni Kimliği: F2CP16:9M’ seçin.
 4.  **Düzen tasarımcısı**'na tıklayın.
@@ -55,7 +56,7 @@ Microsoft Dynamics 365 for Operations kullanırken ürün önerilerini POS cihaz
 1.  Hareket satırı ayrıntıları alanının yüksekliğini, solundaki müşteri paneliyle aynı boyda olacak şekilde azaltın.[](./media/pic-2.png)[![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 2.  Soldaki menüden, öneriler denetimini hareket satırı ayrıntıları alanı ve hareket erkanının alt ortasındaki düğme kılavuzu arasında sürükleyip bırakın. Bu alana sığacak şekilde yeniden boyutlandırın.[](./media/pic-3.png)[![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 3.  Kaydedip Düzen tasarımcısından çıkmak için **X**'i tıklatın.
-4.  Dynamics 365 for Operations içinde, **Perakende ve ticaret** &gt; **Perakende BT** &gt; **Dağıtım tabloları**'na gidin.
+4.  Dynamics 365 for Retail içinde, **Perakende** &gt; **Perakende BT** &gt; **Dağıtım tabloları**'na gidin.
 5.  Listede **1090 Kayıtları**'nı seçin.
 6.  **Şimdi çalıştır** üzerine tıklayın.
 
@@ -70,7 +71,7 @@ Microsoft Dynamics 365 for Operations kullanırken ürün önerilerini POS cihaz
 7.  **Resim** alanında, sekme üzerinde görünecek resmi seçin.
 8.  **Tamam** seçeneğini tıklatın. Yeni sekme düğme kılavuzunda görüntülenir.
 9.  Kaydedip Düzen tasarımcısından çıkmak için **X**'i tıklatın.
-10. Dynamics 365 for Operations içinde, **Perakende ve ticaret** &gt; **Perakende BT** &gt; **Dağıtım tabloları**'na gidin.
+10. Dynamics 365 for Retail içinde, **Perakende** &gt; **Perakende BT** &gt; **Dağıtım tabloları**'na gidin.
 11. Listede **1090 Kayıtları**'nı seçin.
 12. **Şimdi çalıştır** üzerine tıklayın.
 

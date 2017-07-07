@@ -1,27 +1,29 @@
 ---
 title: "Kanal istemcilerini, kasaları ve donanım istasyonlarını tanımlama ve koruma"
-description: "Bu konu, çevre birimlerinin Perakende POS&quot;unuza nasıl bağlanacağı açıklanır."
+description: "Bu konu, çevre birimlerinin Perakende POS'unuza nasıl bağlanacağı açıklanır."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 92383
 ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 800e5c139b54541a179a336c8247eaa6017201d8
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 5c5a6cc45ad65c7581dbfb9a4441fdddbbc19242
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -40,11 +42,11 @@ Mağaza arası ilişkileri, mağazadaki satış noktası (POS) kasalarını veya
 
 ### <a name="pos-registers"></a>POS kayıtları
 
-Gezinme: **Perakende ve ticaret** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Kasalar**'a tıklayın. POS kasası, POS'un belirli bir örneğinin özelliklerini tanımlamak için kullanılan bir varlıktır. Bu özelliklere kasada kullanılacak donanım profili veya perakende çevri birimleri, kasanın eşleştiği mağaza ve kasaya oturum açan kullanıcının görsel deneyimi dahildir.
+Gezinti: **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Kayıtlar** üzerine tıklayın. POS kasası, POS'un belirli bir örneğinin özelliklerini tanımlamak için kullanılan bir varlıktır. Bu özelliklere kasada kullanılacak donanım profili veya perakende çevri birimleri, kasanın eşleştiği mağaza ve kasaya oturum açan kullanıcının görsel deneyimi dahildir.
 
 ### <a name="devices"></a>Aygıtlar
 
-Gezinme: **Perakende ve ticaret** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Cihazlar**'a tıklayın. Cihaz, POS kaydının eşlendiği bir cihazın fiziksel örneğini gösteren bir varlıktır. Cihaz oluşturulduğunda bir POS kaydına eşlenir. Cihaz varlığı, bir POS kaydı etkinleştirildiğinde kullanılan istemci türü ve belirli bir cihaza dağıtılan uygulama paketi hakkındaki bilgileri izler. Cihazlar iki tür olabilir: **Retail modern POS** (MPOS) veya **Retail Cloud POS** (Bulut POS).
+Gezinti: **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Cihazlar** üzerine tıklayın. Cihaz, POS kaydının eşlendiği bir cihazın fiziksel örneğini gösteren bir varlıktır. Cihaz oluşturulduğunda bir POS kaydına eşlenir. Cihaz varlığı, bir POS kaydı etkinleştirildiğinde kullanılan istemci türü ve belirli bir cihaza dağıtılan uygulama paketi hakkındaki bilgileri izler. Cihazlar iki tür olabilir: **Retail modern POS** (MPOS) veya **Retail Cloud POS** (Bulut POS).
 
 #### <a name="mpos"></a>MPOS
 
@@ -52,7 +54,7 @@ MPOS, Windows 8.1 veya sonraki bir sürümün çalıştırıldığı PC tabanlı
 
 #### <a name="cloud-pos"></a>Bulut POS
 
-Bulut POS, tarayıcı tabanlı bir POS'tur. Tarayıcıda çalıştığı için Bulut POS Windows 8.1 veya sonraki bir PC tabanlı işletim sistemi gerektirmez. I**Retail Cloud POS** uygulama türü arka ofiste belirli bir cihazla eşleniyorsa bu cihaz bir paketin indirilmesi veya kurulmasına gerek kalmadan tarayıcı aracılığıyla kullanılabilir. Bulut POS, barkod tarama tabanlı klavye emülasyonu dışında donanım kullanmak için bir donanım istasyonu gerektirir.
+Bulut POS, tarayıcı tabanlı bir POS'tur. Tarayıcıda çalıştığı için Bulut POS Windows 8.1 veya sonraki bir PC tabanlı işletim sistemi gerektirmez. I **Retail Cloud POS** uygulama türü Perakende merkezinde belirli bir cihazla eşleniyorsa bu cihaz bir paketin indirilmesi veya kurulmasına gerek kalmadan tarayıcı aracılığıyla kullanılabilir. Bulut POS, barkod tarama tabanlı klavye emülasyonu dışında donanım kullanmak için bir donanım istasyonu gerektirir.
 
 ### <a name="hardware-profile"></a>Donanım profili
 
@@ -60,23 +62,23 @@ Gezinti: **Ticaret** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS pr
 
 ### <a name="hardware-station"></a>Donanım istasyonu
 
-Gezinme: **Perakende ve ticaret** &gt; **Kanallar** &gt; **Perakende mağazaları** &gt; **Tüm perakende mağazaları**'na tıklayın. Bir mağaza seçin ve sonra **Donanım istasyonları** FastTab'a tıklayın. Donanım istasyonu, POS çevre birimlerini destekleyen bir iş mantığı örneğidir. Yazılım istasyonu MPOS ile birlikte otomatik olarak yüklenir. Alternatif olarak, yazılım istasyonu bağımsız bir bileşen olarak yüklenebilir ve bir web hizmeti üzerinden MPOS veya Bulut POS'la erişilebilir. Donanım istasyonu kanal düzeyinde tanımlanmalıdır.
+Gezinme: **Perakende** &gt; **Kanallar** &gt; **Perakende mağazaları** &gt; **Tüm perakende mağazaları**'na tıklayın. Bir mağaza seçin ve sonra **Donanım istasyonları** FastTab'a tıklayın. Donanım istasyonu, POS çevre birimlerini destekleyen bir iş mantığı örneğidir. Yazılım istasyonu MPOS ile birlikte otomatik olarak yüklenir. Alternatif olarak, yazılım istasyonu bağımsız bir bileşen olarak yüklenebilir ve bir web hizmeti üzerinden MPOS veya Bulut POS'la erişilebilir. Donanım istasyonu kanal düzeyinde tanımlanmalıdır.
 
 ### <a name="hardware-station-profile"></a>Donanım istasyonu profili
 
-Gezinti: **Ticaret** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım istasyonu profilleri**'ne tıklayın. Kanal düzeyinde belirtilen donanım istasyonunun kendisi donanım istasyonu URL'si gibi örneğe özgü bilgileri içerirken, donanım istasyonu profili statik veya birden fazla donanım istasyonu arasında paylaşılan bilgileri içerir. Statik bilgiler kullanılması gereken bağlantı noktasını, donanım istasyonu paketini ve donanım profilini içerir. Statik bilgiler, örneğin her bir donanım istasyonu için gereken donanıma bağlı olarak **Ödeme**veya **İadeler** gibi, dağıtılan donanım istasyonu türünün tanımını da içerir.
+Gezinti: **Ticaret** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım istasyonu profilleri**'ne tıklayın. Kanal düzeyinde belirtilen donanım istasyonunun kendisi donanım istasyonu URL'si gibi örneğe özgü bilgileri içerirken, donanım istasyonu profili statik veya birden fazla donanım istasyonu arasında paylaşılan bilgileri içerir. Statik bilgiler kullanılması gereken bağlantı noktasını, donanım istasyonu paketini ve donanım profilini içerir. Statik bilgiler, örneğin her bir donanım istasyonu için gereken donanıma bağlı olarak **Ödeme** veya **İadeler** gibi, dağıtılan donanım istasyonu türünün tanımını da içerir.
 
 ## <a name="scenarios"></a>Senaryolar
 ### <a name="mpos-with-connected-peripheral-devices"></a>Çevre birimi cihazlarına bağlı MPOS
 
 [![Geleneksel, sabit satış noktası](./media/traditional-300x279.png)](./media/traditional.png) 
 
-Geleneksel, sabit POS senaryosunda MPOS'u POS çevre birimlerine bağlamak için önce kaydın kendisine gidin ve bir donanım profili atayın. POS kayıtlarını, **Perakende ve ticaret** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Kasalar** altında bulabilirsiniz. Donanım profilini atadıktan sonra "Kayıtlar" dağıtım planını kullanarak değişiklikleri kanal veritabanıyla eşitleyin. Dağıtım planlarını **Perakende ve ticaret** &gt; **Perakende BT'si** &gt; **Dağıtım planı** altında bulabilirsiniz. Daha sonra kanalda "yerel" bir donanım istasyonu kurun. **Perakende ve ticaret** &gt; **Kanallar** &gt; **Perakende mağazaları** &gt; **Tüm perakende mağazaları**'na tıklayın ve bir mağaza seçin. Ardından bir donanım istasyonu eklemek için **Donanım istasyonları** FastTab üzerinden **Ekle**'ye tıklayın. Bir açıklama girin, ana bilgisayar adı olarak **localhost** yazın ve "Kanal konfigürasyonu" dağıtım planını kullanarak değişiklikleri kanalla eşitleyin. Dağıtım planlarını **Perakende ve ticaret** &gt; **Perakende BT'si** &gt; **Dağıtım planı** altında bulabilirsiniz. Son olarak, MPOS'ta **localhost** donanım istasyonunu seçmek için **Donanım istasyonu seç** işlemini kullanın. Donanım istasyonunu **Etkin** olarak ayarlayın. Bu senaryoda kullanılan donanım profili POS kaydının kendisinden gelmelidir. Bu senaryo için bir donanım istasyonu profili gerekmez. **Not:** Kasa çekmeceleri gibi bazı donanım profili değişiklikleri kanalla eşitlendikten sonra yeni bir vardiyanın açılmasını gerektirir. **Not:** Bulut POS'ta perakende çevre birimleriyle iletişim kurmak için bağımsız donanım istasyonu kullanılmalıdır.
+Geleneksel, sabit POS senaryosunda MPOS'u POS çevre birimlerine bağlamak için önce kaydın kendisine gidin ve bir donanım profili atayın. POS kayıtlarını, **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Kasalar** altında bulabilirsiniz. Donanım profilini atadıktan sonra "Kayıtlar" dağıtım planını kullanarak değişiklikleri kanal veritabanıyla eşitleyin. Dağıtım planlarını **Perakende** &gt; **Perakende BT'si** &gt; **Dağıtım planı** altında bulabilirsiniz. Daha sonra kanalda "yerel" bir donanım istasyonu kurun. **Perakende** &gt; **Kanallar** &gt; **Perakende mağazaları** &gt; **Tüm perakende mağazaları**'na tıklayın ve bir mağaza seçin. Ardından bir donanım istasyonu eklemek için **Donanım istasyonları** FastTab üzerinden **Ekle**'ye tıklayın. Bir açıklama girin, ana bilgisayar adı olarak **localhost** yazın ve "Kanal konfigürasyonu" dağıtım planını kullanarak değişiklikleri kanalla eşitleyin. Dağıtım planlarını **Perakende** &gt; **Perakende BT'si** &gt; **Dağıtım planı** altında bulabilirsiniz. Son olarak, MPOS'ta **localhost** donanım istasyonunu seçmek için **Donanım istasyonu seç** işlemini kullanın. Donanım istasyonunu **Etkin** olarak ayarlayın. Bu senaryoda kullanılan donanım profili POS kaydının kendisinden gelmelidir. Bu senaryo için bir donanım istasyonu profili gerekmez. **Not:** Kasa çekmeceleri gibi bazı donanım profili değişiklikleri kanalla eşitlendikten sonra yeni bir vardiyanın açılmasını gerektirir. **Not:** Bulut POS'ta perakende çevre birimleriyle iletişim kurmak için bağımsız donanım istasyonu kullanılmalıdır.
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>Bağımsız donanım istasyonlu MPOS veya Bulut POS
 [![Paylaşılan çevre birimleri](./media/shared-300x254.png)](./media/shared.png)
 
-Bu senaryoda bağımsız donanım istasyonu MPOS ve Bulut POS istemcileri arasında paylaşılır. Bu senaryoda donanım istasyonunun kullandığı indirme paketi, bağlantı noktası ve donanım profilini belirtmek için bir donanım istasyonu profili oluşturmanız gerekir. Donanım istasyonu profilini **Perakende ve ticaret** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım istasyonu profilleri** altında bulabilirsiniz. Donanım istasyonu profilini oluşturduktan sonra ilgili perakende kanalına gidin (**Perakende ve ticaret** &gt; **Kanallar** &gt; **Perakende mağazaları** &gt; **Tüm perakende mağazaları**) ve yeni bir donanım istasyonu ekleyin. Bu yeni donanım istasyonunu daha önce oluşturulan donanım istasyonu profiliyle eşleyin. Ardından, kasiyerin donanım istasyonunu tanımlamasına yardımcı olacak bir açıklama girin. **Ana bilgisayar adı** alanına, ana makine URL'sini **https://&lt;MakineAdı:BağlantıNoktası&gt;/Donanımİstasyonu biçiminde girin**. (**&lt;MakineAdı:BağlantıNoktası&gt;**'nı, donanım istasyonu profilinde belirtilen donanım istasyonu gerçek makine adıyla değiştirin.) Bağımsız bir donanım istasyonu için, elektronik fon transferi (EFT) terminal kimliğini de belirtmelisiniz. Bu değer, ödeme bağlayıcısı ödeme sağlayıcı ile iletişim kurduğunda donanım istasyonuna bağlanan EFT terminalini tanımlar. Daha sonra asıl donanım istasyonu makinesinden kanala gidin ve donanım istasyonunu seçin. Ardından, **İndir**'e tıklayın ve donanım istasyonunu yükleyin. Daha sonra MPOS veya Bulut POS'tan önceden yüklenmiş donanım istasyonunu seçmek için **Donanım istasyonu seç** işlemini kullanın. POS ile donanım istasyonu arasında güvenli bir ilişki kurmak için **Eşleştir** 'i seçin. Bu adım bir POS ve bir donanım istasyonunun her birleşimi için bir kez tamamlanmalıdır. Donanım istasyonu eşleştirildikten sonra, aynı işlem donanım istasyonunu kullanılırken etkinleştirmek için kullanılır. Bu senaryoda, donanım profili, kasanın kendisinden ziyade donanım istasyonu profiline atanmalıdır. Herhangi bir nedenden dolayı donanım istasyonu doğrudan atanmış bir donanım profiline sahip değilse, kasaya atanmış donanım profili kullanılır
+Bu senaryoda bağımsız donanım istasyonu MPOS ve Bulut POS istemcileri arasında paylaşılır. Bu senaryoda donanım istasyonunun kullandığı indirme paketi, bağlantı noktası ve donanım profilini belirtmek için bir donanım istasyonu profili oluşturmanız gerekir. Donanım istasyonu profilini **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım istasyonu profilleri** altında bulabilirsiniz. Donanım istasyonu profilini oluşturduktan sonra ilgili perakende kanalına gidin (**Perakende** &gt; **Kanallar** &gt; **Perakende mağazaları** &gt; **Tüm perakende mağazaları**) ve yeni bir donanım istasyonu ekleyin. Bu yeni donanım istasyonunu daha önce oluşturulan donanım istasyonu profiliyle eşleyin. Ardından, kasiyerin donanım istasyonunu tanımlamasına yardımcı olacak bir açıklama girin. **Ana bilgisayar adı** alanına, ana makine URL'sini **https://&lt;MakineAdı:BağlantıNoktası&gt;/Donanımİstasyonu biçiminde girin**. (**&lt;MakineAdı:BağlantıNoktası&gt;**'nı, donanım istasyonu profilinde belirtilen donanım istasyonu gerçek makine adıyla değiştirin.) Bağımsız bir donanım istasyonu için, elektronik fon transferi (EFT) terminal kimliğini de belirtmelisiniz. Bu değer, ödeme bağlayıcısı ödeme sağlayıcı ile iletişim kurduğunda donanım istasyonuna bağlanan EFT terminalini tanımlar. Daha sonra asıl donanım istasyonu makinesinden kanala gidin ve donanım istasyonunu seçin. Ardından, **İndir**'e tıklayın ve donanım istasyonunu yükleyin. Daha sonra MPOS veya Bulut POS'tan önceden yüklenmiş donanım istasyonunu seçmek için **Donanım istasyonu seç** işlemini kullanın. POS ile donanım istasyonu arasında güvenli bir ilişki kurmak için **Eşleştir** 'i seçin. Bu adım bir POS ve bir donanım istasyonunun her birleşimi için bir kez tamamlanmalıdır. Donanım istasyonu eşleştirildikten sonra, aynı işlem donanım istasyonunu kullanılırken etkinleştirmek için kullanılır. Bu senaryoda, donanım profili, kasanın kendisinden ziyade donanım istasyonu profiline atanmalıdır. Herhangi bir nedenden dolayı donanım istasyonu doğrudan atanmış bir donanım profiline sahip değilse, kasaya atanmış donanım profili kullanılır
 
 ## <a name="client-maintenance"></a>İstemci bakımı
 ### <a name="registers"></a>Kayıtlar
@@ -85,7 +87,7 @@ POS kayıtları öncelikle kendi kayıtları ve kayıtlara atanan profiller arac
 
 ### <a name="pos-profiles"></a>POS profilleri
 
-POS profillerini, **Perakende ve ticaret** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** altında bulabilirsiniz. Profiller aracılığıyla bir kaydın çeşitli özelliklerini yönetmek yararlıdır, çünkü profiller birçok kayıt arasında paylaşılabilir. Profiller ayrı bir kayıtla eşlenebileceği gibi profil mağaza kapsamında geçerliyse perakende mağazayla da eşlenebilir. Aşağıdaki bölümlerde, POS profilleri ve bunların nasıl kullanıldıkları açıklanır.
+POS profillerini, **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** altında bulabilirsiniz. Profiller aracılığıyla bir kaydın çeşitli özelliklerini yönetmek yararlıdır, çünkü profiller birçok kayıt arasında paylaşılabilir. Profiller ayrı bir kayıtla eşlenebileceği gibi profil mağaza kapsamında geçerliyse perakende mağazayla da eşlenebilir. Aşağıdaki bölümlerde, POS profilleri ve bunların nasıl kullanıldıkları açıklanır.
 
 #### <a name="offline-profile"></a>Çevrimdışı profil
 
@@ -151,14 +153,14 @@ Cihazlar bu makalenin önceki bölümlerinde açıklanmıştır. Belirli bir POS
 
 -   **Beklemede**: Cihaz etkinleştirilmeye hazırdır.
 -   **Etkinleştirildi**: Cihaz etkinleştirilmiştir.
--   **Devre dışı bırakıldı**: Cihaz arka ofiste veya POS aracılığıyla devre dışı bırakılmıştır.
+-   **Devre dışı bırakıldı**: Cihaz Retail merkezinde veya POS aracılığıyla devre dışı bırakılmıştır.
 -   **Devre dışı**: Cihaz devre dışı bırakılmıştır.
 
 Etkinleştirmeyle ilgili ek bilgiler cihazın etkinleştirme durumunu değiştiren çalışanı, etkinleştirmenin zaman damgasını ve cihaz konfigürasyonunun doğrulanıp doğrulanmadığını içerir.
 
 ### <a name="client-data-synchronization"></a>İstemci verilerini eşitleme
 
-Cihazın etkinleştirme durumundaki değişiklikler hariç POS istemcisindeki tüm değişikliklerin etkinleştirilmesi için kanal veritabanıyla eşitlenmesi gerekir. Kanal veritabanındaki değişiklikleri eşitlemek için **Perakende ve ticaret** &gt; **Perakende BT'si** &gt; **Dağıtım planı**'na gidin ve gerekli dağıtım planını çalıştırın. İstemci değişiklikleri için "Kayıtlar" ve "Kanal konfigürasyonu" dağıtım planlarını çalıştırmalısınız.
+Cihazın etkinleştirme durumundaki değişiklikler hariç POS istemcisindeki tüm değişikliklerin etkinleştirilmesi için kanal veritabanıyla eşitlenmesi gerekir. Kanal veritabanındaki değişiklikleri eşitlemek için **Perakende** &gt; **Perakende BT'si** &gt; **Dağıtım planı**'na gidin ve gerekli dağıtım planını çalıştırın. İstemci değişiklikleri için "Kayıtlar" ve "Kanal konfigürasyonu" dağıtım planlarını çalıştırmalısınız.
 
 
 

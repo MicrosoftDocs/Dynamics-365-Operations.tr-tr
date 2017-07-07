@@ -3,7 +3,7 @@ title: "Satış sözleşmeleri"
 description: "Bu makalede, satış anlaşmalarıyla ilgili bilgiler verilmektedir. Satış anlaşması, müşterinin özel fiyatlar ve iskontolar karşılığında ürünleri, belirli miktarda veya belirli bir zaman aralığında belirli bir tutarda almasını sağlayan bir sözleşmedir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d356017ac0413b92ff9734800231ba1979dac242
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4eaa4fef65fb310524f25d052aeefb58c5f20fe4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -102,14 +102,14 @@ Bir satış anlaşması üzerinden satış siparişi oluşturduysanız (yayınla
 | Miktar                                                          | **Maksimum uygulanır** onay kutusu seçiliyken bir satış anlaşması satırında belirtilen miktarı aşan bir miktar belirtirseniz, bir ileti kutusu değişen miktarı kaydetmek isteyip istemediğinizi sorar. Satış sözleşmesi satırına bağlantıyı kaldırmak ve fiyatı yeniden hesaplamak için **Evet**'e tıklayın. Fiyatı yeniden hesaplamanız gerekmeden satış sözleşmesi satırına bağlantıyı kaldırmak için **Hayır**'a tıklayın.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Satış anlaşmasıyla sipariş edilen bir ürünü iade etme
-Bir müşteri, bir satış anlaşmasıyla sipariş edilen bir ürünü iade ettiğinde, Microsoft Dynamics 365 for Operations tutar veya miktar değişikliğini yansıtmak üzere ilgili satış sözleşmesi taahhüdünü bulabilir ve otomatik olarak güncelleyebilir. Bir satış anlaşmasına bağlanmış orijinal satış siparişini temel alan bir iade emri oluşturarak, satış anlaşması taahhüdü, satış siparişi satırı ve iade emri faturası arasında bir ilişki kurarsınız.  
+Bir müşteri, bir satış anlaşmasıyla sipariş edilen bir ürünü iade ettiğinde, Microsoft Dynamics 365 for Finance and Operations tutar veya miktar değişikliğini yansıtmak üzere ilgili satış sözleşmesi taahhüdünü bulabilir ve otomatik olarak güncelleyebilir. Bir satış anlaşmasına bağlanmış orijinal satış siparişini temel alan bir iade emri oluşturarak, satış anlaşması taahhüdü, satış siparişi satırı ve iade emri faturası arasında bir ilişki kurarsınız.  
 
-İade edilen ürün miktarını satış anlaşması taahhüdünden düşmek istemiyorsanız, iade emri ve satış anlaşması taahhüdü arasındaki bağlantıyı kaldırmak için **Siparişi iade et**sayfasında **Bağlantıyı kaldır** denetimini kullanabilirsiniz. Bağlantıyı daha sonra yeniden oluşturmak isterseniz, **Bağlantı oluştur**'u tıklatın.  
+İade edilen ürün miktarını satış anlaşması taahhüdünden düşmek istemiyorsanız, iade emri ve satış anlaşması taahhüdü arasındaki bağlantıyı kaldırmak için **Siparişi iade et** sayfasında **Bağlantıyı kaldır** denetimini kullanabilirsiniz. Bağlantıyı daha sonra yeniden oluşturmak isterseniz, **Bağlantı oluştur**'u tıklatın.  
 
 **Not:** Bir iade emri yalnızca tek bir satış anlaşmasına bağlanabilir. Bir müşteri birden fazla satış anlaşmasından sipariş edilmiş birden çok ürün iade ederse, her bir ürün için yeni bir iade emri oluşturmanız ve ilgili satış anlaşmasına bir bağlantı oluşturmanız gerekir.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Satış anlaşmalarını otomatik olarak arama
-Bir alacak dekontu veya şirketler arası satış siparişi oluşturduğunuzdaki gibi satış siparişlerinin dolaylı olarak oluşturulduğu bazı durumlarda Microsoft Dynamics 365 for Operations'ı otomatik olarak uygun satış sözleşmelerini arayacak şekilde kontrol edebilirsiniz.
+Bir alacak dekontu veya şirketler arası satış siparişi oluşturduğunuzdaki gibi satış siparişlerinin dolaylı olarak oluşturulduğu bazı durumlarda Microsoft Dynamics 365 for Finance and Operations'ı otomatik olarak uygun satış sözleşmelerini arayacak şekilde kontrol edebilirsiniz.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Satış anlaşmaları üzerindeki finansal boyutlar
 Finansal boyutları belge başlıklarına ya da satış anlaşmalarının tekil satırlarına kopyalayabilirsiniz. Herhangi bir zamanda bir anlaşma başlığındaki veya anlaşma satırındaki boyutları değiştirebilirsiniz. Bu durumda, boyutlar otomatik olarak sevk başlığına veya sevk emirlerinin sevk satırlarına kopyalanır.

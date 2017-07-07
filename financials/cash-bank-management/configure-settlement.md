@@ -3,7 +3,7 @@ title: "Kapatma yapılandırma"
 description: "Hareketlerin neden ve ne zaman kapatıldığı karmaşık konular olabilir. O yüzden, iş gereksinimlerinizi karşılayacak parametreleri doğru bir şekilde anlayıp tanımlamanız çok önemlidir. Bu makalede, hem Borç hesapları hem Alacak hesapları için kapanışta kullanılan parametreler açıklanmaktadır."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2d3015004371aa041a7ee545df9a4c7f0e48ca31
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 059513de66827aa3a839b9eb06973ec4c1549f73
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 Hareketlerin neden ve ne zaman kapatıldığı karmaşık konular olabilir. O yüzden, iş gereksinimlerinizi karşılayacak parametreleri doğru bir şekilde anlayıp tanımlamanız çok önemlidir. Bu makalede, hem Borç hesapları hem Alacak hesapları için kapanışta kullanılan parametreler açıklanmaktadır. 
 
-Aşağıdaki parametreler, Microsoft Dynamics 365 for Operations'ta kapatmaların nasıl işleneceğini etkiler. Kapatma işlemi bir faturanın bir ödemeye veya bir alacak dekontuna karşılık kapatılmasını içerir. Bu parametreler **Alacak hesapları parametreleri** ve **Borç hesapları parametreleri** sayfalarının **Kapatma** alanında bulunur.
+Aşağıdaki parametreler, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition kapatmaların nasıl işleneceğini etkiler. Kapatma işlemi bir faturanın bir ödemeye veya bir alacak dekontuna karşılık kapatılmasını içerir. Bu parametreler **Alacak hesapları parametreleri** ve **Borç hesapları parametreleri** sayfalarının **Kapatma** alanında bulunur.
 
 -   **Otomatik kapatma** – Nakledildiğinde bir hareketin diğer açık hareketlere karşılık otomatik olarak kapatılması gerekiyorsa bu seçeneği **Evet** konumuna ayarlayın. Bu seçenek **Hayır** olarak ayarlanırsa kullanıcılar, ödemeleri girdiğinde veya daha sonra **Hareketleri kapat** sayfasını kullanarak hareketleri el ile kapatabilirler.
 -   **Nakit iskontosu yönetimi** – Bir [nakit iskontosunun fatura fazla ödendiğinde nasıl yönetileceğini belirtir](cash-discount-handling-overpayments.md). Fazla ödeme için, nakit iskontosu azaltılabilir, fark olarak kabul edilebilir veya satıcı veya müşteri hesabında kalabilir.

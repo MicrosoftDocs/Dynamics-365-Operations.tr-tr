@@ -3,13 +3,13 @@ title: "Bir onay işlemini bir iş akışında yapılandır"
 description: "Onay işleminin özelliklerini yapılandırmak için aşağıdaki yordamı kullanın."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 195643
 ms.assetid: f853f57b-83ae-4fb0-a9fa-06ea3fc34fa1
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 159fe64b7a37ffdcbcd6c122116c2e110300122b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c2765cf4ed8e0f5e00491bfe74835102bddff611
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -117,10 +117,10 @@ Bir belge onaylandığında, reddedildiğinde, temsilci atandığında, ilerleti
     </tr>
     <tr class="odd">
     <td><strong>Kullanıcı</strong></td>
-    <td>Belirli Microsoft Dynamics 365 for Operations kullanıcıları</td>
+    <td>Belirli Microsoft Dynamics 365 for Finance and Operations kullanıcıları</td>
     <td><ol>
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
-    <li><strong>Mevcut kullanıcılar</strong>: listesi mevcut tüm Microsoft Dynamics 365 for Operations kullanıcılarını içerir. Bildirimlerin gönderileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar:</strong> listesine taşıyın.</li>
+    <li><strong>Mevcut kullanıcılar</strong>: listesi mevcut tüm Microsoft Dynamics 365 for Finance and Operations kullanıcılarını içerir. Bildirimlerin gönderileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar:</strong> listesine taşıyın.</li>
     </ol></td>
     </tr>
     </tbody>

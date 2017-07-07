@@ -1,6 +1,6 @@
 ---
 title: "İş akışı sistemine genel bakış"
-description: "Bu konuda, Microsoft Dynamics 365 for Operations&quot;daki iş akışı sistemi açıklanmaktadır."
+description: "Bu konuda, Financa and Operations'daki iş akışı sistemi açıklanmaktadır."
 author: sericks007
 manager: AnnBe
 ms.date: 04/25/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 56381
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 142f6f122172f717733db6f39b964c3f6f2e2f77
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1dc7935bf92567d529d393abf3069935a387e388
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu konuda, Microsoft Dynamics 365 for Operations'daki iş akışı sistemi açıklanmaktadır.
+Bu konuda, Financa and Operations'daki iş akışı sistemi açıklanmaktadır.
 
 <a name="what-is-workflow"></a>İş akışı nedir?
 -----------------
@@ -38,7 +38,7 @@ Bu konuda, Microsoft Dynamics 365 for Operations'daki iş akışı sistemi açı
 *İş akışı* terimi, biri sistem olarak ve diğeri iş süreci olarak iki şekilde tanımlanabilir.
 ### <a name="workflow-is-a-system"></a>İş akışı bir sistemdir
 
-İş akışı, Dynamics 365 for Operations ile yüklenen ve Uygulama Nesne Sunucusu (AOS) üzerinde çalışan bir sistemdir. İş akışı sistemi, bağımsız iş akışları veya iş süreçleri oluşturmak için kullanabileceğiniz işlevselliği sağlar.
+İş akışı, Finance and Operations ile yüklenen ve Uygulama Nesne Sunucusu (AOS) üzerinde çalışan bir sistemdir. İş akışı sistemi, bağımsız iş akışları veya iş süreçleri oluşturmak için kullanabileceğiniz işlevselliği sağlar.
 
 ### <a name="workflow-is-a-business-process"></a>İş akışı bir iş sürecidir
 

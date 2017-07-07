@@ -3,7 +3,7 @@ title: "Ürün yapılandırma modellerine genel bakış"
 description: "Bu makalede, ürün yapılandırma modelleriyle ilgili koşullar ve kavramlar tanımlanmaktadır. Ürün yapılandırma modelleri, tek bir ürün için pek çok ürün çeşitleri yapılandırmak için kullanılan bir genel ürün yapısı oluşturmanızı sağlar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 4031
 ms.assetid: 70b968e8-e550-4731-823d-d713b8910f7b
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.dyn365.intro: Feb-16
 ms.dyn365.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 30580b059a4c240ad540a9c347b0551df0ab5c02
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1270c35bc7dbe4c85a1aa991a0387b33e1cb6990
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -121,7 +121,7 @@ Eğer öznitelik türü <strong>Boolean</strong>, aralığa sahip bir <strong>Ta
 </tr>
 </tbody>
 </table>
-Sistem tanımlı bir tablo kısıtlaması, bir Dynamics 365 for Operations tablosundaki bir alan ile bir öznitelik türü arasındaki bir eşlemeyi temsil eder. Sistem tanımlı tablo kısıtlaması öznitelik türünü alana dinamik olarak bağlar. Bağlantı, bir ürün yapılandırması modelindeki özniteliği Dynamics 365 for Operations tablosundaki alanlarda bulunan verileri göstermek üzere etkinleştirir.</td>
+Sistem tanımlı bir tablo kısıtlaması, bir Finance and Operations tablosundaki bir alan ile bir öznitelik türü arasındaki eşlemeyi temsil eder. Sistem tanımlı tablo kısıtlaması öznitelik türünü alana dinamik olarak bağlar. Bağlantı, bir ürün yapılandırması modelindeki özniteliği Finance and Operations tablosundaki alanlarda bulunan verileri göstermek üzere etkinleştirir.</td>
 </tr>
 <tr class="odd">
 <td>Hesaplamalar</td>

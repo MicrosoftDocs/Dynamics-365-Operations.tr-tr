@@ -1,9 +1,9 @@
 ---
 title: "Rapor Tasarımcısı arayüzü"
-description: "Bu makalede, Rapor Tasarımcısı&quot;nda nasıl gezineceğiniz ve belirli gereksinimlerinizi karşılamak için çeşitli seçenekleri nasıl kullanacağınız açıklanmaktadır."
+description: "Bu makalede, Rapor Tasarımcısı'nda nasıl gezineceğiniz ve belirli gereksinimlerinizi karşılamak için çeşitli seçenekleri nasıl kullanacağınız açıklanmaktadır."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 775a836748949a86b64a0ddec15ee4519b1c5127
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: aad8f2617d94e9abc77dafe96cb95f7e191873bd
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -53,7 +53,7 @@ Aşağıdaki tablolarda, finansal raporlar tasarlarken kullanabileceğiniz menü
 | Farklı Kaydet                           | Mevcut satır tanımını, sütun tanımını, raporlama ağacı tanımını veya rapor tanımını farklı bir adla kaydedin.                                                                            |
 | Özellikler                        | **Özellikler** iletişim kutusunu açın; burada bir raporun adını ve açıklamasını değiştirebilirsiniz.                                                                                                   |
 | Oluştur                          | Mevcut raporu oluşturun. Bu komut, bir rapor tanımında kullanılabilir.                                                                                                                 |
-| Raporu Görüntüle                       | Oluşturulan raporun en güncel sürümünü Dynamics 365 for Operations'da açın. Bu komut en az bir rapor oluşturduğunuzda bir rapor tanımında kullanılabilir.                                 |
+| Raporu Görüntüle                       | Oluşturulan raporun en güncel sürümünü Finance and Operations'da açın. Bu komut en az bir rapor oluşturduğunuzda bir rapor tanımında kullanılabilir.                                 |
 | Son Rapor Tanımları         | Kısa bir süre önce oluşturulmuş veya değiştirilmiş raporların bir listesini gösterir. Listeden bir rapor seçebilirsiniz.                                                                                    |
 | Son Satır Tanımları            | Kısa bir süre önce oluşturulmuş veya değiştirilmiş satır tanımlarının bir listesini gösterir. Listeden bir satır tanımı seçebilirsiniz.                                                                    |
 | Son Sütun Tanımları         | Kısa bir süre önce oluşturulmuş veya değiştirilmiş sütun tanımlarının bir listesini gösterir. Listeden bir sütun tanımı seçebilirsiniz.                                                              |
@@ -163,7 +163,7 @@ Aşağıdaki tablolarda, finansal raporlar tasarlarken kullanabileceğiniz menü
 
 | Komut | Açıklama                                                  |
 |---------|--------------------------------------------------------------|
-| Yardım    | Finansal raporlama için Dynamics 365 for Operations yardım konu sayfasını açın. |
+| Yardım    | Finansal raporlama için Finance and Operations yardım konu sayfasını açın. |
 |         |                                                              |
 
 ## <a name="report-designer-toolbar-buttons"></a>Rapor Tasarımcısı araç çubuğu düğmeleri

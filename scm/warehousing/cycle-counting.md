@@ -3,14 +3,14 @@ title: "Döngü sayımı"
 description: "Bu makalede, sayım döngüsünü Ambar yönetiminde bulunan ambar çözümü ile birlikte nasıl kullanabileceğiniz açıklanmaktadır. Bu makale, Stok yönetiminde bulunan ambar çözümü için geçerli değildir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 50671
 ms.assetid: 49f5c431-b043-4170-aa24-b7d5d1ee063e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4446dfec1fa8eabb45e14b3f2ff685b3b1d68e2c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ebc7789d7b0be5db4a0faf4309bc3640f51956c6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ Bu makalede, sayım döngüsünü Ambar yönetiminde bulunan ambar çözümü il
 Döngü sayımı eldeki stok maddelerini denetlemek için kullanabileceğiniz bir ambar işlemidir. Döngü sayım işlemi üç adımda açıklanabilir:
 
 1.  **Döngü sayım işi oluşturma** – Döngü sayım işi, maddeler için eşik parametrelerine dayalı olarak veya bir döngü sayım planı kullanılarak otomatik olarak oluşturulabilir. Alternatif olarak, **Maddeye göre döngü sayım işi** sayfası veya **Konuma göre döngü sayım işi** sayfasındaki madde veya ambar parametrelerini kullanarak döngü sayım işini el ile de oluşturabilirsiniz.
-2.  **Döngü sayımını işleme** – Döngü sayım işi oluşturduktan sonra, döngü sayım işini bir ambar konumundaki maddeleri sayıp sonucu bir mobil cihaz kullanarak Microsoft Dynamics 365 for Operations'a girerek gerçekleştirirsiniz. Alternatif olarak, döngü sayım işi oluşturmadan bir ambar konumundaki maddeleri sayabilirsiniz. Bu süreç, *nokta döngü sayımı* olarak bilinmektedir.
+2.  **Döngü sayımını işleme** – Döngü sayım işi oluşturduktan sonra, döngü sayım işini bir ambar konumundaki maddeleri sayıp sonucu bir mobil cihaz kullanarak Microsoft Dynamics 365 for Finance and Operations'a girerek gerçekleştirirsiniz. Alternatif olarak, döngü sayım işi oluşturmadan bir ambar konumundaki maddeleri sayabilirsiniz. Bu süreç, *nokta döngü sayımı* olarak bilinmektedir.
 3.  **Sayılan değerdeki farkları düzeltme** – Bir döngü sayımından sonra, sayılan değerde farklılık olan tüm maddeler **Tüm işler** sayfasında **Gözden geçirilmeyi bekliyor** şeklinde bir iş durumuna sahip olacaktır. Bu farkları **Gözden geçirilmeyi bekleyen döngü sayım işi** sayfasında düzeltebilirsiniz.
 
 Aşağıdaki çizimde döngü sayım işlemi gösterilmiştir. ![Döngü sayımı için süreç akışı](./media/performcyclecountinginawarehouselocation.jpg)
@@ -115,10 +115,10 @@ Hemen veya periyodik olarak döngü sayım işi oluşturmak için döngü sayım
 Döngü sayım işini el ile oluşturmak için, **Maddeye göre döngü sayım işi** veya **Konuma göre döngü sayım işi** sayfasını kullanabilirsiniz. Oluşturulacak maksimum döngü sayımı sayısını belirleyebilirsiniz. Örneğin ambar yöneticisi değeri **5** olarak belirlerse, madde 10 konumda olsa bile döngü sayım işi beş konum için oluşturulur. Oluşturulan döngü sayım işi kimliklerinin atandığı bir iş havuzu kimliği de seçebilirsiniz. Döngü sayımı için bir iş havuzu kimliği işlendiğinde, iş havuzuna atanan döngü sayım işi kimlikleri grup olarak işlenir.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Mobil cihaz kullanarak döngü sayımı gerçekleştirme
-Bir mobil cihazda Dynamics 365 for Operations kullanarak döngü sayım işi işlemenin birçok yöntemi vardır:
+Bir mobil cihazda Dynamics 365 for Finance and Operations kullanarak döngü sayım işi işlemenin birçok yöntemi vardır:
 
 -   **Kullanıcı yönlendirmeli** – İşçi, **Açık** durumuna sahip bir döngü sayım işi kimliği belirtebilir.
--   **Sistem yönlendirmesinde** – Dynamics 365 for Operations işçiye bir döngü sayım işi kimliği atar.
+-   **Sistem yönlendirmesinde** – Finance and Operations işçiye bir döngü sayım işi kimliği atar.
 -   **Döngü sayım gruplaması** – İşçi, belirli bir konuma, bölgeye veya iş havuzuna özgü döngü sayım işi kimliklerini gruplandırabilir.
 -   **Nokta döngü sayımı** – İşçi, bir ambar konumundaki maddeleri döngü sayım işi oluşturmaksızın her zaman sayabilir. Bir konumda nokta döngü sayımı gerçekleştirmek için işçi konum kimliğini girer.
 

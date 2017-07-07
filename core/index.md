@@ -114,7 +114,7 @@ Bu belgeler, Dynamics 365 for Finance and Operations'ın işletmeniz için nası
 <p><a href="../retail/call-center-functionality">Çağrı merkezi</p>
 <p><a href="../retail/define-maintain-retail-channels">Kanal kurulumu ve yönetimi</p>
 <p><a href="../retail/retail-peripherals-overview">MPOS ve Bulut POS</p>
-<p><a href="../retail/dev-itpro/dev-retail-home-page">Perakende geliştiricisi ve yönetimi</p>
+<p><a href="../retail/dev-itpro/dev-retail-home-page">Retail geliştiricisi ve yönetimi</p>
 
 </td>
 </tr>

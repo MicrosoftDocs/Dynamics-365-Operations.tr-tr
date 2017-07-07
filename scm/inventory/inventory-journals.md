@@ -3,14 +3,14 @@ title: "Stok günlükleri"
 description: "Bu makalede, çeşitli fiziksel stok hareketi türlerini deftere nakletmek için stok günlüklerini nasıl kullanabileceğiniz açıklanmaktadır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d947b184fd61af3b997182f0a39a8c13c58d6a5a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fa629b4b8f7fcbd15ee89bc66cbc0bd7ca45215c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,10 +30,12 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
+
 
 Bu makalede, çeşitli fiziksel stok hareketi türlerini deftere nakletmek için stok günlüklerini nasıl kullanabileceğiniz açıklanmaktadır. 
 
-Microsoft Dynamics 365 for Operations stok günlükleri çeşitli türdeki fiziksel stok hareketlerini deftere nakletmek için kullanılır, örneğin sorunlar ve girişler, stok hareketleri, ürün reçeteleri (BOM) oluşturulması ve fiziksel envanter mutabakatı deftere nakilleri gibi. Tüm stok günlükleri benzer şekilde kullanılır, ancak bunlar farklı türlere ayrılır.
+Microsoft Dynamics 365 for Finance and Operations stok günlükleri çeşitli türdeki fiziksel stok hareketlerini deftere nakletmek için kullanılır, örneğin sorunlar ve girişler, stok hareketleri, ürün reçeteleri (BOM) oluşturulması ve fiziksel envanter mutabakatı deftere nakilleri gibi. Tüm stok günlükleri benzer şekilde kullanılır, ancak bunlar farklı türlere ayrılır.
 
 ## <a name="types-of-inventory-journals"></a>Stok günlükleri türleri
 Kullanılabilen stok günlükleri türleri şunlardır:
@@ -68,7 +70,7 @@ Bir ürün reçetesini tamamlandı olarak bildirdiğinde, ÜR günlüğü oluşt
 
 ### <a name="item-arrival"></a>Madde varışı
 
-Madde varış günlüğünü, (örneğin, satınalma siparişlerindeki) maddelerin girişini kaydetmek için kullanabilirsiniz. Bir madde varış günlüğü **Varış genel bakış** sayfasından varış yönetiminin bir parçası olarak veya **Madde varış**sayfasından bir günlük girdisini el ile oluşturabilirsiniz. Malzeme çekme konumları denetlemek için madde varış günlüğü adını etkinleştirirseniz, Dynamics 365 for Operations alınan maddeler için bir yerleşim arar ve yer mevcut ise gelen maddeler için konum hedefleri oluşturur.
+Madde varış günlüğünü, (örneğin, satınalma siparişlerindeki) maddelerin girişini kaydetmek için kullanabilirsiniz. Bir madde varış günlüğü **Varış genel bakış** sayfasından varış yönetiminin bir parçası olarak veya **Madde varış** sayfasından bir günlük girdisini el ile oluşturabilirsiniz. Malzeme çekme konumları denetlemek için madde varış günlüğü adını etkinleştirirseniz, Finance and Operations alınan maddeler için bir yerleşim arar ve yer mevcut ise gelen maddeler için konum hedefleri oluşturur.
 
 ### <a name="production-input"></a>Üretim girişi
 

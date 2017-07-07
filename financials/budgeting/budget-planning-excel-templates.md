@@ -1,9 +1,9 @@
 ---
-title: "Excel&quot;de bütçe planlama şablonları"
+title: "Excel'de bütçe planlama şablonları"
 description: "Bu konu bütçe planlamalarında kullanılabilecek Microsoft Excel şablonlarının nasıl oluşturulacağını açıklar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 93aa0aeffad0411542f36e27745f63198c4438b2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ Excel şablonu bütçe planı belgesi düzenindeki **Çalışma Sayfasında kull
 [![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Excel kullanarak bütçe planı verisini düzenleme ve görüntüleme ile ilgili potansiyel sorunları önlemek için, Dynamics 365 for Operations ve Microsoft Dynamics Office Add-in Data Connector için aynı kullanıcı oturum açmış olmalıdır.
+> Excel kullanarak bütçe planı verisini düzenleme ve görüntüleme ile ilgili potansiyel sorunları önlemek için, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ve Microsoft Dynamics Office Add-in Data Connector için aynı kullanıcı oturum açmış olmalıdır.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Bütçe planı belge şablonuna bir başlık ekleyin
 Başlık bilgisi eklemek için, Excel dosyasındaki üst satırı seçin ve boş satırlar ekleyin. **Veri Bağlayıcısı** içerisinde **Tasarım** üzerine tıklayarak Excel dosyasına başlıklar ekleyin.
@@ -79,11 +79,11 @@ Seçili alan grubu, şablonda kullanılan sütunları görüntüler. Yeni bir s�
 [![bpt12](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Formülü tanımlamak için, formülü elektronik tabloda oluşturun ve sonra **Tasarım** penceresine yapıştırın. Dynamics 365 for Operations'a bağlı bir tablo genellikle "AXTable1" olarak adlandırılır. Örneğin, İstek Q1 : İstek Q4 sütunlarını elektronik sayfada özetlemk için, formül = AxTable1\[İstek Q1\]+AxTable1\[İstek Q2\]+AxTable1\[İstek Q3\]+AxTable1\[İstek Q4\].
+> Formülü tanımlamak için, formülü elektronik tabloda oluşturun ve sonra **Tasarım** penceresine yapıştırın. Finance and Operations'a bağlı bir tablo genellikle "AXTable1" olarak adlandırılır. Örneğin, İstek Q1 : İstek Q4 sütunlarını elektronik sayfada özetlemk için, formül = AxTable1\[İstek Q1\]+AxTable1\[İstek Q2\]+AxTable1\[İstek Q3\]+AxTable1\[İstek Q4\].
 
 **Ayarlama** sütununu eklemek için bu adımları tekrarlayın. Şu formülü kullanın = AxTable1\[Toplam istek\]\*$I$1 bu sütun için. Bu, hücre I1 içindeki değeri alır ve **Toplam istek** içindeki değerleri, ayarlama tutarlarını hesaplamak için çarpar.
 
-Kaydedin ve Excel dosyasını kapatın. Dynamics 365 for Operations'a geri dönün ve **Düzenler** içerisinde **Şablon &gt; Karşıya Yükleme** üzerine tıklayarak kaydedilmiş Excel şablonunu bütçe planında kullanılmak üzere karşıya yükleyin. 
+Kaydedin ve Excel dosyasını kapatın. Finance and Operations'a geri dönün ve **Düzenler** içerisinde **Şablon &gt; Karşıya Yükleme** üzerine tıklayarak kaydedilmiş Excel şablonunu bütçe planında kullanılmak üzere karşıya yükleyin. 
 
 [![bpt10](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 

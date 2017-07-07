@@ -3,14 +3,14 @@ title: "Stok toplu işlerini birleştir"
 description: "Bu makalede iki veya daha fazla stok toplu işinin birleştirilmiş bir toplu iş ile nasıl konsolide edileceği hakkında bilgiler verilmiştir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e97257955f4f8fa86c8bf957a182aa71d4fbc8ef
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: aec97976ef6a2b4c66118289f7f76b14351456f8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -91,7 +91,7 @@ Hayır, yalnızca tek tüzel kişilikte aynı tesise ve ambar depolama boyutuna 
 Hayır, sadece toplu işin tam miktarını birleştirebilirsiniz. Toplu iş birleştirme özelliği bir stok özelliği olarak tasarlanmıştır, bir üretim özelliği değildir.
 
 ## <a name="what-if-the-batches-have-different-batch-attribute-values"></a>Toplu işler farklı toplu iş öznitelik değerlerine sahipse ne olur?
-Kaynak toplu işlemi, birleştirilmiş bir toplu işlemde birleştirmek için seçtiğinizde Microsoft Dynamics 365 for Operations tüm toplu işlerin aynı özelliklere ya da özniteliklere sahip olup olmadığını doğrular. Bir öznitelik değeri aynı olduğunda, birleştirilmiş toplu iş için bir değer önerilir. Bu değeri değiştirebilirsiniz. Aynı olmayan öznitelik değerleri birleştirilmiş toplu iş için boş bırakılır ve bu değerleri el ile girebilirsiniz. Öznitelik değerinin toplu iş özniteliği türü bir tamsayı ya da kesirli bir değerse ve değerler tüm kaynak toplu işler için aynı değilse, değer, ağırlıklı ortalama hesaplaması kullanılarak hesaplanır. Hesaplanan değer yakın olan sayıya yuvarlanır. Değer bir kaynak toplu iş için boşsa, toplu iş ve miktarı hesaplamaya dahil edilmez. **Örnek** Aşağıdaki örnek, birleştirilmiş bir toplu iş için ağırlıklı ortalama hesaplamayı göstermektedir. Kaynak toplu işlerin ikisinde tamsayı olan bir toplu iş öznitelik türü için boş bir değer vardır. Aşağıdaki öznitelik kaynak toplu işlere atanır.
+Kaynak toplu işlemi, birleştirilmiş bir toplu işlemde birleştirmek için seçtiğinizde Finance and Operations, tüm toplu işlerin aynı özelliklere ya da özniteliklere sahip olup olmadığını doğrular. Bir öznitelik değeri aynı olduğunda, birleştirilmiş toplu iş için bir değer önerilir. Bu değeri değiştirebilirsiniz. Aynı olmayan öznitelik değerleri birleştirilmiş toplu iş için boş bırakılır ve bu değerleri el ile girebilirsiniz. Öznitelik değerinin toplu iş özniteliği türü bir tamsayı ya da kesirli bir değerse ve değerler tüm kaynak toplu işler için aynı değilse, değer, ağırlıklı ortalama hesaplaması kullanılarak hesaplanır. Hesaplanan değer yakın olan sayıya yuvarlanır. Değer bir kaynak toplu iş için boşsa, toplu iş ve miktarı hesaplamaya dahil edilmez. **Örnek** Aşağıdaki örnek, birleştirilmiş bir toplu iş için ağırlıklı ortalama hesaplamayı göstermektedir. Kaynak toplu işlerin ikisinde tamsayı olan bir toplu iş öznitelik türü için boş bir değer vardır. Aşağıdaki öznitelik kaynak toplu işlere atanır.
 
 | Öznitelik | Minimum | Artış | Maksimum |
 |-----------|---------|-----------|---------|

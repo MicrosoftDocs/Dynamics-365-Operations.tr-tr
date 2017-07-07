@@ -3,15 +3,15 @@ title: "Üç yönlü eşleştirme ilkeleri"
 description: "Bu makalede üç yönlü eşleştirme örnekleri sağlanmıştır."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b9f66a9a907cf01046c78677a3f1d55f112fa8c7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8ae07088fec05ad416ce1891dd0d0ecd489364ca
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -66,7 +66,7 @@ Bu örnekteki fatura eşleştirme ilkeleri aşağıdaki rollerde görev yapan ki
 1.  Fabrikam'da alım departmanındaki bir çalışan olan Sammy, Contoso tarafından sevk edilen makinelerin toplam miktarını alır. Ürün girişine miktar olarak 5 girer. Satınalma siparişi tam olarak alındığından, satınalma siparişinin durumu Alındı olarak değişir.
 2.  Fabrikam'da borç hesapları koordinatörü olan April, Contoso tarafından gönderilen faturayı girer ve doğrular. April aşağıdaki bilgileri doğrular:
     -   Üç yönlü eşleştirme gerektiren maddeler için fatura satırındaki miktarın alınan miktarla eşleştiğini. Ürün girişinde belirtilen alınan miktarın faturayla eşleştiğini.
-    -   İki yönlü veya üç yönlü eşleştirme gerektiren maddeler için, fatura satırındaki fiyatlar Microsoft Dynamics 365 for Operations'ta tanımlanan toleranslar aralığındadır. Bu, aşağıdaki fiyat eşleştirme türlerini kapsar:
+    -   İki yönlü veya üç yönlü eşleştirme gerektiren maddeler için, fatura satırındaki fiyatlar Microsoft Dynamics 365 for Finance Operations, Enterprise sürümünde tanımlanan toleranslar aralığındadır. Bu, aşağıdaki fiyat eşleştirme türlerini kapsar:
         -   Net birim fiyatı eşleştirme – Fatura satırındaki net birim fiyatı, satınalma siparişi satırındaki net birim fiyatla, tolerans yüzdesi aralığında eşleşir. Bu örnekte, net birim fiyat toleransı +%8'dir.
         -   Fiyat toplamları eşleştirme – Fatura satırlarındaki net tutar, tolerans yüzdesi, tutarı veya yüzde ve tutarı kapsamında satınalma siparişi satırındaki net tutarla eşleşir. Bu örnekte, fiyat toplamları eşleştirme toleransı +%15'dir.
 
@@ -79,7 +79,7 @@ Contoso'nun gönderdiği basılı fatura aşağıdaki bilgileri içerir.
 | Vergi                         |          |            | 0,00       |
 | Toplam                       |          |            | 44,500.00  |
 
-Microsoft Dynamics 365 for Operations'ta, fatura satırı aşağıdaki bilgileri içerir.
+Finance and Operations'da, fatura satırı aşağıdaki bilgileri içerir.
 
 | Madde kodu                 | Miktar | Birim fiyat | Satır net tutarı | Eşleme ilkesi    | Ürün girişi miktar eşleşmesi | Fiyat eşleme | Fiyat toplamı eşleştirme |
 |-----------------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -115,7 +115,7 @@ Bu örnekteki fatura eşleştirme ilkeleri aşağıdaki rollerde görev yapan ki
 1.  Maddeler gelir. Fabrikam Malezya bölümünde alım departmanında çalışan Sammy işe ara vermiştir ve ürün girişini hemen deftere nakletmez.
 2.  Fabrikam'da borç hesapları koordinatörü olan April, Contoso tarafından gönderilen faturayı girer ve doğrular. April aşağıdaki bilgileri doğrular:
     -   Üç yönlü eşleştirme gerektiren maddeler için fatura satırındaki miktarın alınan miktarla eşleştiğini. Ürün girişinde belirtilen alınan miktarın faturayla eşleştiğini.
-    -   İki yönlü veya üç yönlü eşleştirme gerektiren maddeler için, fatura satırındaki fiyatlar Microsoft Dynamics 365 for Operations'ta tanımlanan toleranslar aralığındadır. Bu aşağıdaki fiyat eşleştirme türlerini içerir:
+    -   İki yönlü veya üç yönlü eşleştirme gerektiren maddeler için, fatura satırındaki fiyatlar Finance and Operations'ta tanımlanan toleranslar aralığındadır. Bu aşağıdaki fiyat eşleştirme türlerini içerir:
         -   Net birim fiyatı eşleştirme – Fatura satırındaki net birim fiyatı, satınalma siparişi satırındaki net birim fiyatla, tolerans yüzdesi aralığında eşleşir. Bu örnekte, net birim fiyat toleransı +%2'dir.
         -   Fiyat toplamları eşleştirme – Fatura satırlarındaki net tutar, tolerans yüzdesi, tutarı veya yüzde ve tutarı kapsamında satınalma siparişi satırındaki net tutarla eşleşir. Bu örnekte, fiyat toplamları eşleştirme toleransı +%10'dir.
 
@@ -128,7 +128,7 @@ Contoso'nun gönderdiği basılı fatura aşağıdaki bilgileri içerir.
 | USB Sürücü             | 200      | 10.05      | 2,010.00   |
 | Toplam fatura         |          |            | 7,092.00   |
 
-Microsoft Dynamics 365 for Operations'ta, fatura satırı aşağıdaki bilgileri içerir.
+Finance and Operations'da, fatura satırı aşağıdaki bilgileri içerir.
 
 | Madde kodu           | Miktar | Birim fiyat | Satır net tutarı | Eşleme ilkesi    | Ürün girişi miktar eşleşmesi | Fiyat eşleme | Fiyat toplamı eşleştirme |
 |-----------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|

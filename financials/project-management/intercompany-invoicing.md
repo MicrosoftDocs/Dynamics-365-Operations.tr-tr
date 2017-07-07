@@ -1,26 +1,26 @@
 ---
 title: "Şirketlerarası faturalama"
-description: "Bu makalede, Microsoft Dynamics 365 for Operations&quot;ta projeler için şirketlerarası faturalama hakkında bilgiler ve örnekler verilir."
+description: "Bu makalede, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da projeler için şirketlerarası faturalama hakkında bilgiler ve örnekler verilir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94153
 ms.assetid: 33e98da7-01c1-4369-923d-aa1c8326cb80
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 65c20479af9d2184bd7f3b92f4c0718553425502
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 205903bb68804a46414410c85eacce03c6df6fc7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, Microsoft Dynamics 365 for Operations'ta projeler için şirketlerarası faturalama hakkında bilgiler ve örnekler verilir.
+Bu makalede, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da projeler için şirketlerarası faturalama hakkında bilgiler ve örnekler verilir.
 
 Kuruluşunuzda projeler için ürünler ve hizmetleri birbirlerine aktaran birden çok bölüm, yan kuruluşlar ve diğer tüzel kişilikler olabilir. Hizmet veya ürün sağlayan tüzel kişiliğe *ödünç veren tüzel kişilik* ve servis veya ürün alan tüzel kişiliğe ise *ödünç alan tüzel kişilik* adı verilir. 
 
@@ -53,7 +53,7 @@ Amaç maliyet kontrolü, gelir kabulü, vergileri yapmak ve şirketlerarası pro
     -   **Katkı oranı**: **Fiyatlandırma** alanına girdiğiniz sayı katkı oranı olup satış fiyatının yüzdesi olarak ifade edilir.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>Örnek 1: Şirketlerarası faturalama için parametreleri ayarlayın
-Bu örnekte USSI ödünç veren tüzel kişiliktir ve kaynakları son müşteri ile sözleşmesi olan ödünç alan tüzel kişilik FRSI'ye karşılık zaman raporlar. USSI çalışanlarının raporladığı saatler ve masraflar FRSI'nın oluşturduğu proje faturasına dahil edilebilir. Ayrıca yan şirketlere paylaşılan satıcı hizmetlerini sağladığında ödünç veren tüzel kişilikten gelen üçüncü bir hareket kaynağı vardır ve sonra bu maliyetler üzerinden bu yan şirketlerdeki projelere geçer. Tüm eşleşen fatura belgeleri ve vergi hesaplamaları Dynamics 365 for Operations tarafından tamamlanır. 
+Bu örnekte USSI ödünç veren tüzel kişiliktir ve kaynakları son müşteri ile sözleşmesi olan ödünç alan tüzel kişilik FRSI'ye karşılık zaman raporlar. USSI çalışanlarının raporladığı saatler ve masraflar FRSI'nın oluşturduğu proje faturasına dahil edilebilir. Ayrıca yan şirketlere paylaşılan satıcı hizmetlerini sağladığında ödünç veren tüzel kişilikten gelen üçüncü bir hareket kaynağı vardır ve sonra bu maliyetler üzerinden bu yan şirketlerdeki projelere geçer. Tüm eşleşen fatura belgeleri ve vergi hesaplamaları Finance and Operations tarafından tamamlanır. 
 
 Bu örnek için FRSI, USSI tüzel kişiliğinde bir müşteri olmalı ve USSI, FRSI tüzel kişiliğinde bir satıcı olmalıdır. Daha sonra iki tüzel kişilik arasında şirketlerarası bir ilişki kurabilirsiniz. Aşağıdaki prosedür her iki tüzel kişiliğin de şirketlerarası faturalamaya katılabilmesi için gereken parametrelerin nasıl ayarlanacağını gösterir.
 

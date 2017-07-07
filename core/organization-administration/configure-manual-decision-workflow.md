@@ -3,13 +3,13 @@ title: "Bir iş akışında bir el ile kararı yapılandırma"
 description: "Bu konu, el ile bir kararın özelliklerini yapılandırmayı açıklar."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192101
 ms.assetid: 0bccad77-1a44-4f08-967b-12c62c02afc7
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ac86ffa794b5fd92ca9aba24537fbc05057fe824
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6ea8b060741ea94af16861d5bb52894a577e5521
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -75,7 +75,7 @@ Bu el ile karara atanmış olan kullanıcılara bir konu satırı ve açıklama 
     6.  **Kapat** düğmesini tıklayın.
 
 ## <a name="specify-the-possible-outcomes-of-a-decision"></a>Bir kararın olası sonucunu belirtin
-Genellikle bir belge bir karar vericiye atandığı zaman, karar vericiye bir soru sorulur. Sorunun yanıtı genellikle **Evet**veya **Hayır** ya da **Doğru** veya **Yanlış** olur. El ile kararın olası sonuçlarını belirtmek için aşağıdaki adımları izleyin.
+Genellikle bir belge bir karar vericiye atandığı zaman, karar vericiye bir soru sorulur. Sorunun yanıtı genellikle **Evet** veya **Hayır** ya da **Doğru** veya **Yanlış** olur. El ile kararın olası sonuçlarını belirtmek için aşağıdaki adımları izleyin.
 
 1.  Sol bölmede **Temel Ayarlar**'ı tıklatın.
 2.  **Sonuçlar** sekmesinde **Sonuç 1** alanında, sonucun adını veya seçeneği girin.
@@ -152,10 +152,10 @@ Bir karar alındığında, ilerletildiğinde veya yetkilendirildiğinde insanlar
     </tr>
     <tr class="odd">
     <td>Kullanıcı</td>
-    <td>Belirli Microsoft Dynamics 365 for Operations kullanıcıları</td>
+    <td>Belirli Microsoft Dynamics 365 for Finance and Operations kullanıcıları</td>
     <td><ol>
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
-    <li><strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Dynamics 365 for Operations kullanıcılarını içerir. Bildirimlerin gönderileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
+    <li><strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Finance and Operations kullanıcılarını içerir. Bildirimlerin gönderileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -215,10 +215,10 @@ El ile kararın kime atanacağını belirtmek için şu adımları izleyin.
     </tr>
     <tr class="even">
     <td>Kullanıcı</td>
-    <td>Belirli Dynamics 365 for Operations kullanıcıları</td>
+    <td>Belirli Finance and Operations kullanıcıları</td>
     <td><ol>
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
-    <li><strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Dynamics 365 for Operations kullanıcılarını içerir. Kararın atanacağı kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
+    <li><strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Finance and Operations kullanıcılarını içerir. Kararın atanacağı kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -301,10 +301,10 @@ Eğer bir kullanıcı ayırılan zaman içerisinde kararı alamazsa, kararın va
     </tr>
     <tr class="odd">
     <td>Kullanıcı</td>
-    <td>Belirli Dynamics 365 for Operations kullanıcıları</td>
+    <td>Belirli Finance and Operations kullanıcıları</td>
     <td><ol>
     <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
-    <li><strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Dynamics 365 for Operations kullanıcılarını içerir. Kararın ilerletileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
+    <li><strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Finance and Operations kullanıcılarını içerir. Kararın ilerletileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
     </ol></td>
     </tr>
     </tbody>

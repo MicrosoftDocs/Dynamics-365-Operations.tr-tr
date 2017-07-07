@@ -1,16 +1,16 @@
 ---
 title: "Müşterilerle satıcı iş birliği"
-description: "Bu konu, Microsoft Dynamics 365 for Operations&quot;da PO&quot;lar ile çalışmak ve konsinye stoğu görüntülemek için satıcı iş birliğini nasıl kullanabileceğinizi açıklar."
+description: "Bu konu, Finance and Operations'da PO'lar ile çalışmak ve konsinye stoğu görüntülemek için satıcı iş birliğini nasıl kullanabileceğinizi açıklar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1649014855d8d5e0f1225a661c9b6bae6490f597
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,9 +31,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu konu, Microsoft Dynamics 365 for Operations'da PO'lar ile çalışmak ve konsinye stoğu görüntülemek için satıcı iş birliğini nasıl kullanabileceğinizi açıklar.
+Bu konu, Finance and Operations'da PO'lar ile çalışmak ve konsinye stoğu görüntülemek için satıcı iş birliğini nasıl kullanabileceğinizi açıklar.
 
-Bu konu, Microsoft Dynamics 365 for Operations'da müşteriler ile çalışmak için satıcı iş birliğini nasıl kullanabileceğinizi açıklar. Satınalma siparişlerinin nasıl izleneceği ve yanıtlanacağı, konsinye envanterin nasıl izleneceği hakkında bilgiler içerir. Faturalarla çalışmak için satıcı işbirliğini kullanmak da mümkündür. Daha fazla bilgi için bkz. [Satıcı işbirliği faturalama çalışma alanı](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+Bu konu, Microsoft Finance and Operations'da müşteriler ile çalışmak için satıcı iş birliğini nasıl kullanabileceğinizi açıklar. Satınalma siparişlerinin nasıl izleneceği ve yanıtlanacağı, konsinye envanterin nasıl izleneceği hakkında bilgiler içerir. Faturalarla çalışmak için satıcı işbirliğini kullanmak da mümkündür. Daha fazla bilgi için bkz. [Satıcı işbirliği faturalama çalışma alanı](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
 
 ## <a name="working-with-purchase-orders"></a>Satınalma siparişleriyle çalışma
 **Satınalma siparişi onayı** çalışma alanı gözden geçirme için tarafınıza gönderilen PO'ları yanıtlamanıza olanak tanır. Ayrıca, müşteriden eylem bekleyen PO'lar ve onaylandıkları halde hala açık olan PO'lar hakkında bilgileri görüntülemenizi sağlar. **Satınalma siparişi onayı** çalışma alanında üç liste bulunur:

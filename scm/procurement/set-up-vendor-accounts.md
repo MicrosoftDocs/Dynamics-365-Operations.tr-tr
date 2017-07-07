@@ -3,7 +3,7 @@ title: "Satıcı hesaplarını ayarlama"
 description: "Bu konu, yeni bir satıcı hesabı oluşturduğunuzda girmeniz gereken bilgilerin türünü açıklar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bee95a2f3d9727e9123aa0abcf41325e6cac1efd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4c97f11fa85b8eee54daea8ccaa183859a89fe7f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -62,13 +62,13 @@ Bir satıcı için ilgili kişileri kaydedebilirsiniz. Bu kişiler, daha sonra t
 
 Bir satıcıyla ilgili kişiler eklemek için **Tüm satıcılar** sayfasında **Satıcı** sekmesindeki **Ayarlama** grubunda, **İlgili Kişiler** &gt; **Kişi ekle**'ye tıklayın.  
 
-Satıcı ilgili kişilerini sıfırdan oluşturabilirsiniz. Alternatif olarak, halihazırda Microsoft Dynamics 365 for Operations içerisinde kayıtlı bulunan bir başka kişiden ayrıntıları kopyalayabilir ve bilgileri ihtiyaç duyduğunuz şekilde düzenleyebilirsiniz.  
+Satıcı ilgili kişilerini sıfırdan oluşturabilirsiniz. Alternatif olarak, halihazırda Microsoft Dynamics 365 for Finance and Operations içerisinde kayıtlı bulunan bir başka kişiden ayrıntıları kopyalayabilir ve bilgileri ihtiyaç duyduğunuz şekilde düzenleyebilirsiniz.  
 
 **Not:** Bir satıcı için ilgili kişi eklemek, o satıcı için iletişim bilgisi eklemek ile aynı şey değildir. Bir satıcı için genel iletişim bilgileri ekleyebiliyor olsanız da, söz konusu şirkette iletişim kişisi olan birden fazla şahıs olabilir ve bunların hepsi kendi iletişim bilgilerine sahip olabilirler.  
 
 Bir ilgili kişiye bir belgede başvuruluyorsa, bu ilgili kişi kaydını silemezsiniz. Bunun yerine, ilgili kişiyi devre dışı bırakabilirsiniz.  
 
-Microsoft Office 365'teki kişisel irtibatlarınıza satıcı ilgili kişileri ekleyebilirsiniz. Ancak, önce Dynamics 365 for Operations ve Office 365 arasında eşitlemeyi, hem Microsoft Exchange Server eşitlemesinde hem de Microsoft Outlook kurulum sihirbazında ayarlamanız gerekir.
+Microsoft Office 365'teki kişisel irtibatlarınıza satıcı ilgili kişileri ekleyebilirsiniz. Ancak, önce Finance and Operations ve Office 365 arasında eşitlemeyi, hem Microsoft Exchange Server eşitlemesinde hem de Microsoft Outlook kurulum sihirbazında ayarlamanız gerekir.
 
 ## <a name="vendors-in-different-legal-entities"></a>Farklı tüzel kişiliklerdeki satıcılar
 Eğer bir satıcı, kuruluşunuz içindeki yalnızca bir tüzel kişilik için kayıtlıysa ve diğer tüm tüzel kişiliklerin de aynı satıcıyı kaydetmesi gerekiyorsa, **Satıcıyı başka bir tüzel varlığa ekle** sayfasını kullanarak, satıcıyı başka tüzel varlıklarla iş yapmak üzere yapılandırabilirsiniz. Seçilmiş tüzel varlık içerisindeki satıcı için satıcı grubu, para birimi ve tutma durumunu seçmelisiniz.  
@@ -99,7 +99,7 @@ Bir satıcıyı beklemeye aldığınızda, bir sebep, tarih ve beklemeye alma du
 Birden fazla satıcı aynı fatura adresine sahipse veya bir satıcı bir üçüncü taraf üzerinden faturalandırılıyorsa, satıcı kaydında bir fatura hesabı belirtebilirsiniz. Fatura hesabı, satınalma siparişinden bir satıcı faturası oluşturduğunuzda, fatura tutarının alacaklandırılacağı hesaptır. Eğer satıcı kaydında bir fatura hesabı girmezseniz, satıcı hesabı, fatura hesabı olarak kullanılır.
 
 ## <a name="vendor-bank-accounts"></a>Satıcı banka hesapları
-Eğer bir satıcı banka hesabına ödeme yapmanız gerekiyorsa, satıcının bankası ve banka hesabı bilgisini **Satıcı banka hesapları**sayfasından girebilirsiniz. Ayrıca banka hesabının ödemeleri ve doğrulaması için bilgileri de girebilirsiniz. Örneğin, satıcı banka hesaplarına provizyonlar ekleyebilirsiniz. Bu provizyonlar daha sonra hesap verisini, örneğin rota numarası ve hesap numaralarının teyit edilmesine kullanılabilir. Satıcıya yapılacak ödemeler için bir varsayılan hesap belirtmeniz gerekir. Ancak, gerçek bir ödeme yaptığınızda, bu hesabı satıcının diğer hesaplarından birine değiştirebilirsiniz.
+Eğer bir satıcı banka hesabına ödeme yapmanız gerekiyorsa, satıcının bankası ve banka hesabı bilgisini **Satıcı banka hesapları** sayfasından girebilirsiniz. Ayrıca banka hesabının ödemeleri ve doğrulaması için bilgileri de girebilirsiniz. Örneğin, satıcı banka hesaplarına provizyonlar ekleyebilirsiniz. Bu provizyonlar daha sonra hesap verisini, örneğin rota numarası ve hesap numaralarının teyit edilmesine kullanılabilir. Satıcıya yapılacak ödemeler için bir varsayılan hesap belirtmeniz gerekir. Ancak, gerçek bir ödeme yaptığınızda, bu hesabı satıcının diğer hesaplarından birine değiştirebilirsiniz.
 
 ## <a name="ledger-accounts"></a>Genel muhasebe hesapları
 Fatura günlüklerinde otomatik olarak beliren varsayılan hesapları belirtilen satıcı için belirleyebilirsiniz. Bu işlevsellik, zaman içerisinde aynı satıcılardan genellikle aynı türde öğelere ve hizmetlere ödeme yapıyorsanız faydalı olabilir. Varsayılan bir hesap belirttiğinizde, hesap günlüklerine hızlı ve verimli bir şekilde günlük girişleri yapabilirsiniz. Belirttiğiniz varsayılan hesaplar satınalma siparişlerinde veya **Satıcı faturası** üzerinden girilen satıcı faturalarında kullanılmaz.  

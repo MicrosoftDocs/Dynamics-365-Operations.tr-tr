@@ -1,16 +1,16 @@
 ---
 title: "Üretimdeki alt sözleşme işini yönetme"
-description: "Bu konu, alt sözleşmeli operasyonların Microsoft Dynamics 365 for Operations&quot;ta nasıl yönetileceğini açıklar. Başka bir deyişle, bir kaynağa atanan üretim operasyonlarının bir satıcı tarafından nasıl yönetileceğini açıklar."
+description: "Bu konu, alt sözleşmeli operasyonların Microsoft Dynamics 365 for Finance and Operations'ta nasıl yönetileceğini açıklar. Başka bir deyişle, bir kaynağa atanan üretim operasyonlarının bir satıcı tarafından nasıl yönetileceğini açıklar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 582807f9f416d3e6e73226dfd2e22af2d6331acd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0e1368d3f637143fd47c3772c811257e8472cc74
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu konu, alt sözleşmeli operasyonların Microsoft Dynamics 365 for Operations'ta nasıl yönetileceğini açıklar. Başka bir deyişle, bir kaynağa atanan üretim operasyonlarının bir satıcı tarafından nasıl yönetileceğini açıklar.
+Bu konu, alt sözleşmeli operasyonların Microsoft Dynamics 365 for Finance and Operations'ta nasıl yönetileceğini açıklar. Başka bir deyişle, bir kaynağa atanan üretim operasyonlarının bir satıcı tarafından nasıl yönetileceğini açıklar.
 
 [Üretim işlemlerinde](production-process-overview.md) iş, satıcıların sahip olduğu veya onlar tarafından yönetilen kaynaklar tarafından yapılabilir. Genellikle satıcı kaynakları, bir şirketin kendi kaynaklarını aşan düzenli fazla talebi düzenlemek için kullanılır. Satıcı aynı zaman çeşitli [kaynak yetenekleri](resource-capabilities.md)veya kaynakları daha düşük fiyattan sunabilir.  
 
@@ -42,7 +42,7 @@ Alt sözleşme operasyonları veya etkinlikleri kullanıldığında, bunlar oper
 
 Dahili kaynaklar için, sabit maliyet oranı genellikle bir dönem için tahsis edilir. Bunun tersine, alt sözleşmeli kaynakların maliyeti, ilgili hizmetin satınalma fiyatına dayanır. Hizmet, başka bir ürün olarak tanımlanır ve belirli bir alt sözleşmeli operasyonun satın alınması ve satınalma işlemlerini yürütmek için kullanılır.  
 
-Şu anda, yarı bitmiş ürünler için Microsoft Dynamics 365 for Operations'ta açık bir kavram yoktur. Ham maddeleri mamul mala dönüştürmek için birden fazla operasyona ihtiyaç duyan bir üretim emri için mamul mal, sadece son operasyonda tekrardan stoklara geri nakledilir. Daha önceki operasyonların ürettiği yarı bitmiş ürünler, süren iş (WIP) olarak hesaba katılır, ancak stokta izlenmez veya gönderilmez. Rotaları ve ürün reçetelerini (BOM'lar) birden fazla küçük birime bölebiliyor olsanız da, bu yaklaşım yönetilmesi gereken ürünlerin, BOM'ların ve rotaların sayısını artırır.  
+Şu anda, yarı bitmiş ürünler için Microsoft Dynamics 365 for Finance and Operations'ta açık bir kavram yoktur. Ham maddeleri mamul mala dönüştürmek için birden fazla operasyona ihtiyaç duyan bir üretim emri için mamul mal, sadece son operasyonda tekrardan stoklara geri nakledilir. Daha önceki operasyonların ürettiği yarı bitmiş ürünler, süren iş (WIP) olarak hesaba katılır, ancak stokta izlenmez veya gönderilmez. Rotaları ve ürün reçetelerini (BOM'lar) birden fazla küçük birime bölebiliyor olsanız da, bu yaklaşım yönetilmesi gereken ürünlerin, BOM'ların ve rotaların sayısını artırır.  
 
 Üretim operasyonları için alt sözleşmeli işleri modellemenin iki yöntemi vardır. Bu yöntemler alt sözleşmeli sürecin modellenme şeklinde, yarı bitmiş ürünlerin süreçte temsil edilmesinde ve maliyet yönetiminin yönetilme şeklinde farklılık gösterir.
 

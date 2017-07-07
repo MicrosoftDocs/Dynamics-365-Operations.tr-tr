@@ -1,6 +1,6 @@
 ---
 title: "Mobil çalışma alanında gider yönetimi"
-description: "Bu konu, Microsoft Dynamics 365 for Operations mobil uygulaması için kullanılabilir olan Gider yönetimi mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı kullanıcıların bir girişi yakalamasını ve yüklemesini, böylece daha sonra bir gider raporuna ekleyebilmelerini sağlar. Bu mobil çalışma alanı ayrıca kullanıcıların hızlı bir şekilde gider satırlarını, ekli bir giriş kullanarak oluşturmalarına olanak verir."
+description: "Bu konu, Microsoft Dynamics 365 Finance and Operations mobil uygulaması için kullanılabilir olan Gider yönetimi mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı kullanıcıların bir girişi yakalamasını ve yüklemesini, böylece daha sonra bir gider raporuna ekleyebilmelerini sağlar. Bu mobil çalışma alanı ayrıca kullanıcıların hızlı bir şekilde gider satırlarını, ekli bir giriş kullanarak oluşturmalarına olanak verir."
 author: annbe
 manager: AnnBe
 ms.date: 04/10/2017
@@ -18,10 +18,10 @@ ms.author: annbe
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4e3202de8e5288bbd52e8c28922374de147cc99f
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0e52d1c5dde7f79c4a8ac5ac2d9c3b25bba9c2cd
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,14 +31,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu konu, Microsoft Dynamics 365 for Operations mobil uygulaması için kullanılabilir olan Gider yönetimi mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı kullanıcıların bir girişi yakalamasını ve yüklemesini, böylece daha sonra bir gider raporuna ekleyebilmelerini sağlar. Bu mobil çalışma alanı ayrıca kullanıcıların hızlı bir şekilde gider satırlarını, ekli bir giriş kullanarak oluşturmalarına olanak verir.
+Bu konu, Microsoft Dynamics 365 Finance and Operations mobil uygulaması için kullanılabilir olan Gider yönetimi mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı kullanıcıların bir girişi yakalamasını ve yüklemesini, böylece daha sonra bir gider raporuna ekleyebilmelerini sağlar. Bu mobil çalışma alanı ayrıca kullanıcıların hızlı bir şekilde gider satırlarını, ekli bir giriş kullanarak oluşturmalarına olanak verir.
 
 <a name="overview-of-the-expense-management-mobile-workspace"></a>Gider yönetimi mobil çalışma alanına genel bakış
 ---------------------------------------------------
 
 Çoğu kuruluş, personelin iade için gönderdiği bir seyahatle ya da işle ilgili gider raporuna, bir fişin kopyasının eklenmesini gerektirir. **Gider yönetimi** mobil çalışma alanı, kullanıcıların yeni gider satırlarını, fişin fotoğrafını ekleyerek istedikleri mobil cihazda hızla oluşturmalarını sağlar. Alternatif olarak, kullanıcılar fişin fotoğrafını çekebilir ve gider raporuna daha sonra ekleyebilirler. Özellikle **Gider yönetimi** mobil çalışma alanı kullanıcıya şu olanakları sağlar:
 
--   Fişin bir fotoğrafını çekmek ve Microsoft Dynamics 365 for Operations'a yüklemek. Bir kullanıcı daha sonra fotoğrafı bir gider raporunu daha sonra ekleyebilir.
+-   Fişin bir fotoğrafını çekmek ve Microsoft Dynamics 365 for Finance and Operations'a yüklemek. Bir kullanıcı daha sonra fotoğrafı bir gider raporunu daha sonra ekleyebilir.
 -   Dosyayı kaydedilen bir giriş olarak yüklemek. Bir kullanıcı dosyayı bir gider raporuna daha sonra ekleyebilir.
 -   Ekli bir fişi kullanarak yeni bir gider satırı oluşturmak. Bir kullanıcı, satır maddesini bir gider raporuna daha sonra ekleyebilir ve onay ve iade için gönderebilir.
 
@@ -64,7 +64,7 @@ Bu konunun kalan bölümleri, **Gider yönetimi** mobil çalışma alanının na
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Operations sürüm 1611 platform güncelleştirmesi 3 veya daha sonraki sürümünün uygulanmış olması gerekir.</td>
 <td>Sistem yöneticisi</td>
-<td>Dynamics 365 for Operations'u kuruluşunuz için halihazırda dağıtılmadıysa, sistem yöneticiniz <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Bir Microsoft Dynamics 365 for Operations demo ortamı dağıt</a>'ı görmelidir.</td>
+<td>Finance and Operations'u kuruluşunuz için halihazırda dağıtılmadıysa, sistem yöneticiniz <a href="/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment">Bir Microsoft Dynamics 365 for Finance and Operations demo ortamı dağıt</a>'ı görmelidir.</td>
 </tr>
 <tr class="even">
 <td>KB 4019015 uygulanmış olmalıdır.</td>
@@ -72,16 +72,16 @@ Bu konunun kalan bölümleri, **Gider yönetimi** mobil çalışma alanının na
 <td>KB 4019015 (bir X++ güncelleştirmesi veya meta veri düzeltmesi), tedarik zinciri yönetimi için dört mobil çalışma alanı içerir. KB 4019015 uygulamak için sistem yöneticiniz bu adımları atması gerekir:
 <ol>
 <li>KB 4019015'yi, Microsoft Lifecycle Services (LCS) üzerinden karşıdan yükleyin.</li>
-<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Meta veri düzeltmesini kurun</a>.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Dağıtılabilir bir paket oluşturun</a> <strong>ApplicationSuite</strong> ve <strong>ExpenseMobile</strong> modelini içeren ve daha sonra dağıtılabilir paketi LCS'ye yükleyin.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Dağıtılabilir paketi</a>, Dynamics 365 for Operations sisteminize uygulayın.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Meta veri düzeltmesini kurun</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Dağıtılabilir bir paket oluşturun</a> <strong>ApplicationSuite</strong> ve <strong>ExpenseMobile</strong> modelini içeren ve daha sonra dağıtılabilir paketi LCS'ye yükleyin.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Dağıtılabilir paketi</a>, Finance and Operations sisteminize uygulayın.</li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td><strong>Gider yönetimi</strong> mobil çalışma alanı, Dynamics 365 for Operations mobil uygulaması için yayınlanmış olmalıdır.</td>
+<td><strong>Gider yönetimi</strong> mobil çalışma alanı, Finance and Operations mobil uygulaması için yayınlanmış olmalıdır.</td>
 <td>Sistem yöneticisi</td>
 <td><ol>
-<li>Dynamics 365 for Operations'ı tarayıcınızda başlatın.</li>
+<li>Finance and Operations'u tarayıcınızda başlatın.</li>
 <li><strong>Sistem parametreleri</strong> sayfasında, <strong>Mobil çalışma alanlarını yönet</strong>'i seçin.</li>
 <li><strong>Gider yönetimi</strong> çalışma alanını seçin.</li>
 <li><strong>Mobil çalışma alanını yayınla</strong> üzerine tıklayın.</li>
@@ -90,17 +90,17 @@ Bu konunun kalan bölümleri, **Gider yönetimi** mobil çalışma alanının na
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Dynamics 365 for Operations mobil uygulamasını yükleyin ve kurun
-Dynamics 365 for Operations mobil uygulamasını mobil uygulama mağazanızdan yükleyin ve kurun.
+## <a name="download-and-install-the-finance-and-operations-mobile-app"></a>Finance and Operations mobil uygulamasını yükleyin ve kurun
+Finance and Operations mobil uygulamasını mobil uygulama mağazanızdan yükleyin ve kurun.
 
--   Android için: [Google Play Store'da Dynamics 365 for Operations](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
--   iPhone için: [iTunes apps mağazsında Dynamics 365 for Operations](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
+-   Android için: [Google Play Mağazası'nda Finance and Operations](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
+-   iPhone için: [iTunes apps mağazsında Finance and Operations](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
 
-## <a name="sign-in-to-the-dynamics-365-for-operations-mobile-app"></a>Dynamics 365 for Operations mobil uygulamasına oturum açın
+## <a name="sign-in-to-the-finance-and-operations-mobile-app"></a>Finance ve Operations'ta mobil uygulamasına oturum aç
 1.  Mobil cihazınızda uygulamayı başlatın.
-2.  Dynamics 365 for Operations URL'nizi girin.
+2.  Finance and Operations URL'nizi girin.
 3.  Oturum açılacak şirketi girin. Örneğin **USMF** yazın.
-4.  İlk defa oturum açtığınızda, Dynamics 365 for Operations hesabınızın kullanıcı adı ve parolasını girmeniz için uyarılırsınız. Kimlik bilgilerinizi girin.
+4.  İlk defa oturum açtığınızda, Finance and Operations hesabınızın kullanıcı adı ve parolasını girmeniz için uyarılırsınız. Kimlik bilgilerinizi girin.
 5.  Oturum açtıktan sonra şirketiniz için kullanılabilir çalışma alanlarını görürsünüz. Sistem yöneticiniz yeni bir çalışma alanını daha sonra yayınlarsa, mobil çalışma alanlarının listesini yenilemek için çekebileceğinizi unutmayın. 
 
 [![Yenilemek için çekin](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
@@ -122,11 +122,11 @@ Dynamics 365 for Operations mobil uygulamasını mobil uygulama mağazanızdan y
 ## <a name="quick-expense-entry-by-using-the-expense-management-mobile-workspace"></a>Gider yönetimi mobil çalışma alanını kullanarak hızlı gider girişi
 1.  Mobil cihazınızda **Gider yönetimi** çalışma alanını seçin.
 2.  **Hızlı gider girişi**'ni seçin.
-3.  Gider için kategori seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş gider kategorilerinin bir listesini görürsünüz. Varsayılan olarak, 50 maddeye kadar yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler daha fazla bilgi için şura bakmalıdır: [Dynamics 365 for Operations mobil platformuna](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform) Kategoriniz listede değilse, Dynamics 365 for Operations içerisinde bir çevrimiçi arama yapmak için **Ara**'yı seçin. Gider kategorisine göre arama yapın veya gider türüne göre aramaya geçin.
+3.  Gider için kategori seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş gider kategorilerinin bir listesini görürsünüz. Varsayılan olarak, 50 maddeye kadar yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler daha fazla bilgi için şura bakmalıdır: [Finance and Operations mobil platformuna](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform) Kategoriniz listede değilse, Finance and Operations içerisinde bir çevrimiçi arama yapmak için **Ara**'yı seçin. Gider kategorisine göre arama yapın veya gider türüne göre aramaya geçin.
 4.  Giderin hareket tarihini girin.
 5.  İsteğe bağlı: Gider için tüccarı girin.
 6.  Giderin tutarını girin.
-7.  Giderin para birimini seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş para birimlerinin bir listesini görürsünüz. Varsayılan olarak, 400 para birimine kadar yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler daha fazla bilgi için şura bakmalıdır: [Dynamics 365 for Operations mobil platformuna](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform) Para biriminiz listede değilse, Dynamics 365 for Operations içerisinde bir çevrimiçi arama yapmak için **Ara**'yı seçin. Para birimine göre arama yapın veya adına göre aramaya geçin.
+7.  Giderin para birimini seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş para birimlerinin bir listesini görürsünüz. Varsayılan olarak, 400 para birimine kadar yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler daha fazla bilgi için şura bakmalıdır: [Finance and Operations mobil platformuna](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform) Para birimi listede değilse, Finance and Operations içerisinde bir çevrimiçi arama yapmak için **Ara**'yı seçin. Para birimine göre arama yapın veya adına göre aramaya geçin.
 8.  **Fotoğraf çek** veya **Resim seç**'i seçin.
 9.  **Fotoğraf çek**'i seçtiyseniz, mobil cihazınızın kamerasına götürülürsünüz ve böylece fişin bir faturasını çekebilirsiniz. Fotoğraf çekmeyi bitirdiğinizde, fotoğrafı kabul etmek için **Tamam** üzerine tıklayın.  veya  **Resim seç**'i seçtiyseniz, listeden bir resim seçin.
 10. **Tamam**'ı seçin.

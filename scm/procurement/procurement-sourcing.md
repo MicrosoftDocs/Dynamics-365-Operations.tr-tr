@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3a95ce92fe40f7e1c52bba554b82bd73d627c6b4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cf6d4756ae706316a342590ab76b4a5cbdd7e4f9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -57,11 +57,11 @@ Tedarik ve kaynak atama, ürün ve hizmet ihtiyacını belirlemeden ürünü sat
 -   [Müşterilerle satıcı iş birliği](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md)
 -   [Satıcı iş birliğini ayarlama ve koruma](set-up-maintain-vendor-collaboration.md)
--   [Microsoft Dynamics 365 for Operations için gelen konsinye stoğu demo tanıtım belleği](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(teknik inceleme)
+-   [Microsoft Dynamics 365 for Finance and Operations için gelen konsinye stok demo tanıtım betiği](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(teknik inceleme)
 -   [Satıcı iş birliğini kullanarak konsinye stoğu izleme](http://ax.help.dynamics.com/en/wiki/monitor-consignment-inventory-using-vendor-collaboration/)
--   [Satıcı portalını kullanarak satıcılarla iş birliği yapma](collaborate-vendors-vendor-portal.md)  (Dynamics 365 for Operations'ın yalnızca Şubat 2016 ve Mayıs 2016 sürümleri)
--   [Satıcı portalı kullanıcıları için güvenlik yapılandırması](configure-security-vendor-portal-users.md) (Dynamics 365 for Operations'ın yalnızca 2016 ve Mayıs 2016 sürümleri)
--   [Microsoft Dynamics 365 for Operations uygulaması için satıcı işbirliği mobil çalışma alanı](vendor-collaboration-mobile-workspace.md)
+-   [Satıcı portalını kullanarak satıcılarla iş birliği yapma](collaborate-vendors-vendor-portal.md) (Dynamics AX'in yalnızca Şubat 2016 ve Mayıs 2016 sürümleri)
+-   [Satıcı portalı kullanıcıları için güvenlik yapılandırması](configure-security-vendor-portal-users.md) (Finance and Operations'ın yalnızca 2016 ve Mayıs 2016 sürümleri)
+-   [Microsoft Dynamics 365 for Finance and Operations uygulaması için satıcı işbirliği mobil çalışma alanı](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Tedarik ürün yönetimi
 -   [Tedarik katalogları](procurement-catalogs.md)
@@ -92,8 +92,8 @@ Tedarik ve kaynak atama, ürün ve hizmet ihtiyacını belirlemeden ürünü sat
 
 ## <a name="product-receipt-and-invoicing"></a>Ürün girişi ve faturalandırma
 -   [Ürün girişine karşılık satınalma siparişleri](product-receipt-against-purchase-orders.md)
--   [Satıcı faturalarına genel bakış](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
--   [Satıcı deftere nakil profilleri](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+-   [Satıcı faturalarına genel bakış](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+-   [Satıcı deftere nakil profilleri](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Tedarik ve kaynak atama iş akışları
 -   [Tedarik ve kaynak atamaya genel bakış](procurement-sourcing-overview.md)

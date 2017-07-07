@@ -1,44 +1,46 @@
 ---
 title: "Sipariş işleme seçeneklerini ayarlamak"
-description: "Bu konuda, çağrı merkezleri için siparişlerin Microsoft Dynamics 365 for Operations - Perakende&quot;yi kullanarak nasıl işleneceği hakkında bilgi verilmektedir."
+description: "Bu konuda, çağrı merkezleri için siparişlerin Dynamics 365 for Retail kullanarak nasıl işleneceği hakkında bilgi verilmektedir."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 78973
 ms.assetid: 09fca083-ac0d-4f30-baf2-bb00a626be12
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 52b56274c8b72c67bc0a50f23114cebc510f1667
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: afdea84b7016fcc3214dc94f2d393a5f3d256370
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
 
-# <a name="set-up-order-processing-options"></a>Sipariş işleme seçeneklerini ayarlamak
+# <a name="set-up-order-processing-options"></a>Sipariş işleme seçeneklerini ayarlama
 
 [!include[banner](includes/banner.md)]
 
 
-Bu konuda, çağrı merkezleri için siparişlerin Microsoft Dynamics 365 for Operations - Perakende'yi kullanarak nasıl işleneceği hakkında bilgi verilmektedir. 
+Bu konuda, çağrı merkezleri için siparişlerin Dynamics 365 for Retail kullanarak nasıl işleneceği hakkında bilgi verilmektedir. 
 
-Microsoft Dynamics 365 for Operations'ta perakende ve ticaret, çevrimiçi mağazalar, fiziksel mağazalar ve çağrı merkezleri gibi birden fazla perakende kanalını destekler. Çağrı merkezlerinde, çalışanlar telefonda Müşteri Siparişlerini alır ve satış siparişleri oluşturur. Bu konu, bir çağrı merkezi oluşturmak ve çağrı Merkezi seçeneklerini yapılandırmayı açıklar. Her bir çağrı merkezinin kendi kullanıcıları, ödeme yöntemleri, fiyat grupları, mali boyutları ve teslimat modları olabilir. Çağrı merkezi oluşturduğunuzda, bu seçenekleri yapılandırabilirsiniz. **Önemli:** çağrı merkezi iş akışlarının geçerli Dynamics AX kullanıcısı satış siparişleri oluştururken kullanılabilmesi için, kullanıcı çağrı merkezine çağrı merkezi kullanıcısı olarak atanmalıdır. **çağrı merkezi** sayfasını çağrı merkezlerine özgü özellikler gruplarını etkinleştirmek veya devre dışı bırakmak için kullanabilirsiniz. Aşağıdaki özellik grupları etkinleştirilebilir:
+Retail, çevrimiçi mağazalar, çağrı merkezleri ve fiziki mağazalar gibi birden fazla perakende kanalını destekler. Çağrı merkezlerinde, çalışanlar telefonda Müşteri Siparişlerini alır ve satış siparişleri oluşturur. Bu konu, bir çağrı merkezi oluşturmak ve çağrı Merkezi seçeneklerini yapılandırmayı açıklar. Her bir çağrı merkezinin kendi kullanıcıları, ödeme yöntemleri, fiyat grupları, mali boyutları ve teslimat modları olabilir. Çağrı merkezi oluşturduğunuzda, bu seçenekleri yapılandırabilirsiniz. **Önemli:** Çağrı merkezi iş akışlarının kullanıcı satış siparişleri oluştururken kullanılabilmesi için, kullanıcı çağrı merkezine çağrı merkezi kullanıcısı olarak atanmalıdır. **çağrı merkezi** sayfasını çağrı merkezlerine özgü özellikler gruplarını etkinleştirmek veya devre dışı bırakmak için kullanabilirsiniz. Aşağıdaki özellik grupları etkinleştirilebilir:
 
 -   **Sipariş tamamlama** – Bu grup ödemelerle ve **satış sipariş** sayfasındaki sipariş tamamlamayla ilgili özellikleri içerir.
 -   **Yönlendirilen satış** – Bu grup kaynak kodlar, komut dosyaları ve katalog talepleriyle ilgili özellikleri içerir.
 
-Bu özellikleri çağrı Merkezi ayarlarında etkinleştirdiğinizde **satış sipariş** sayfasında çağrı merkezi ile ilişkili olan kullanıcılar için kullanılabilir. Bu özelliklerin çoğu kullanılabilmesi için önce ek kurulum gerektirir. Görüntüler ve komut dosyaları, belirli çağrı merkezi için yönlendirilmiş satış ayarının bir parçası olarak etkinleştirilir. Bu özellik etkinleştirilirse, komut dosyalarını ve ürün resimleri **satış sipariş** sayfasının bilgi kutusu bölmesinde görüntülenir. Bir ürün için ayarlanan varsayılan resim gösterilir. Komut dosyaları, bir madde, katalog, müşteri veya madde bağlamında bir katalog için yapılandırılabilir. Çağrı merkezi siparişleri belirli bir sipariş satırı için fiyatın nasıl elde edildiği hakkında ek ayrıntıları gösterebilir. Örneğin, siparişler hangi iskontoların uygulandığını görüntüler. Bu işlevselliği **Alacak hesapları** &gt; **Kurulum** &gt; **Alacak hesapları parametreleri** &gt; **Fiyatlar** &gt; **Fiyat ayrıntıları**'nda ekinleştirebilirsiniz. **Fiyat ayrıntıları** sayfasına**satış sipariş satırı** açılan listesinden erişebilirsiniz. Sipariş olay izlemeyi denetim amacıyla, siparişin yaşam döngüsü sırasında bir siparişte alınan eylemleri gözden geçirmek veya belirli bir kullanıcının eylemlerini izlemek için kullanabilirsiniz. Örneğin, eylemi bir kullanıcı her satış siparişi oluşturduğunda, bir siparişi beklemeye aldığında, bir masrafı geçersiz kıldığında veya bir sipariş satırını güncellediğinde kaydedebilirsiniz. Sipariş olaylarını, eylemleri belirli kullanıcıları, kullanıcı gruplarını veya tüm kullanıcılar için belirli bir dönemde izlemek için ayarlayabilirsiniz. O belge için Eylem Bölmesinden **sipariş olayları** sayfasını açarak bir belge üzerinde gerçekleştirilen eylemleri görüntüleyebilirsiniz. Sipariş olaylarını **Satış ve pazarlama** &gt; **Kurulum** &gt; **Olaylar** &gt; **Sipariş olayları**'nda yapılandırabilirsiniz. Zamanında bir müşterinin siparişi sevk edilemez olduğunda, bir şirket sipariş durumunu açıklamak ve müşteriye siparişi iptal etmek için bir şans vermek için müşteriye otomatik olarak bildirim e-posta iletileri gönderebilir. Gecikme belirtilen bir eşiği geçerse, sipariş otomatik olarak iptal edilebilir. En çok üç e-posta iletileri belirtilen aralıklarla gönderilebilir:
+Bu özellikleri çağrı Merkezi ayarlarında etkinleştirdiğinizde **satış sipariş** sayfasında çağrı merkezi ile ilişkili olan kullanıcılar için kullanılabilir. Bu özelliklerin çoğu kullanılabilmesi için önce ek kurulum gerektirir. Görüntüler ve komut dosyaları, belirli çağrı merkezi için yönlendirilmiş satış ayarının bir parçası olarak etkinleştirilir. Bu özellik etkinleştirilirse, komut dosyalarını ve ürün resimleri **satış sipariş** sayfasının bilgi kutusu bölmesinde görüntülenir. Bir ürün için ayarlanan varsayılan resim gösterilir. Komut dosyaları, bir madde, katalog, müşteri veya madde bağlamında bir katalog için yapılandırılabilir. Çağrı merkezi siparişleri belirli bir sipariş satırı için fiyatın nasıl elde edildiği hakkında ek ayrıntıları gösterebilir. Örneğin, siparişler hangi iskontoların uygulandığını görüntüler. Bu işlevselliği **Alacak hesapları** &gt; **Kurulum** &gt; **Alacak hesapları parametreleri** &gt; **Fiyatlar** &gt; **Fiyat ayrıntıları**'nda ekinleştirebilirsiniz. **Fiyat ayrıntıları** sayfasına **satış sipariş satırı** açılan listesinden erişebilirsiniz. Sipariş olay izlemeyi denetim amacıyla, siparişin yaşam döngüsü sırasında bir siparişte alınan eylemleri gözden geçirmek veya belirli bir kullanıcının eylemlerini izlemek için kullanabilirsiniz. Örneğin, eylemi bir kullanıcı her satış siparişi oluşturduğunda, bir siparişi beklemeye aldığında, bir masrafı geçersiz kıldığında veya bir sipariş satırını güncellediğinde kaydedebilirsiniz. Sipariş olaylarını, eylemleri belirli kullanıcıları, kullanıcı gruplarını veya tüm kullanıcılar için belirli bir dönemde izlemek için ayarlayabilirsiniz. O belge için Eylem Bölmesinden **sipariş olayları** sayfasını açarak bir belge üzerinde gerçekleştirilen eylemleri görüntüleyebilirsiniz. Sipariş olaylarını **Satış ve pazarlama** &gt; **Kurulum** &gt; **Olaylar** &gt; **Sipariş olayları**'nda yapılandırabilirsiniz. Zamanında bir müşterinin siparişi sevk edilemez olduğunda, bir şirket sipariş durumunu açıklamak ve müşteriye siparişi iptal etmek için bir şans vermek için müşteriye otomatik olarak bildirim e-posta iletileri gönderebilir. Gecikme belirtilen bir eşiği geçerse, sipariş otomatik olarak iptal edilebilir. En çok üç e-posta iletileri belirtilen aralıklarla gönderilebilir:
 
 1.  **İlk iptal bildirimi** – müşteri siparişi iptal edebilir.
 2.  **İkinci iptal bildirimi** – müşteri siparişi iptal edebilir.

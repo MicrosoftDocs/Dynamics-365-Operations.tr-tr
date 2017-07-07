@@ -1,16 +1,16 @@
 ---
 title: "Ambar iş ilkeleri"
-description: "Microsoft Dynamics AX 7.0.1 (Mayıs 2016 güncelleştirmesi) ile yeni bir ambar işi ilkesi eklenmiştir. Bu iş ilkesi ambar işinin üretimdeki ambar işlemleri için oluşturulup oluşturulmadığını denetler."
+description: "Ambar işi ilkeleri ambar işinin üretimdeki ambar işlemleri tarafından oluşturulup oluşturulmadığını, iş emri türüne, stok yerleşimine ve ürüne dayanarak kontrol eder."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSWorkPolicy
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 196561
 ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6c9cdf361e4d4543e6aca962e9ec712428bc76e6
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 7612003bc20f91f173629893750478b034cff27b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,12 +32,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics AX 7.0.1 (Mayıs 2016 güncelleştirmesi) ile yeni bir ambar işi ilkesi eklenmiştir. Bu iş ilkesi ambar işinin üretimdeki ambar işlemleri için oluşturulup oluşturulmadığını denetler.
+Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition'daki ambar işi ilkeleri ambar işinin üretimdeki ambar işlemleri tarafından oluşturulup oluşturulmadığını, iş emri türüne, stok yerleşimine ve ürüne dayanarak kontrol eder.
 
 Bu iş ilkesi ambar işinin üretimdeki ambar işlemleri için oluşturulup oluşturulmadığını denetler. **İş emri türleri**, bir **stok konumu** ve bir **ürün** birleşimini kullanarak iş ilkesini ayarlayabilirsiniz. Örneğin, L0101 numaralı ürün 001 numaralı çıktı konumuna tamamlandı olarak bildirilir. Bunun üzerine, tamamlanan mal 001 numaralı çıktı konumundaki başka bir üretim emrinde tüketilir. Bu durumda, L0101 numaralı ürünü 001 numaralı çıktı konumuna tamamlandı olarak bildirdiğiniz zaman mamul mallara yönelik işin oluşturulmasını önlemek için bir iş ilkesi ayarlayabilirsiniz. İş ilkesi, aşağıdaki bilgilerle açıklanabilen ayrı bir varlıktır:
 
 -   **İş ilkesi adı**(iş ilkesinin benzersiz tanımlayıcısı)
--   **İş emri türleri**ve**İş oluşturma yöntemi**
+-   **İş emri türleri** ve **İş oluşturma yöntemi**
 -   **Stok konumları**
 -   **Ürünler**
 
