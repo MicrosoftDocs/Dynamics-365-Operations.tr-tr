@@ -3,25 +3,27 @@ title: "Vardiya ve kasa çekmecesi yönetimi"
 description: "Bu makalede paylaşılan ve bağımsız olmak üzere iki perakende satış noktası (POS) vardiyası türünün nasıl ayarlanacağı ve kullanılacağı açıklanmaktadır. Paylaşılan vardiyalar birden fazla yerdeki çok sayıda kullanıcı tarafından kullanılabilir, bağımsız vardiyalar ise aynı anda yalnızca bir çalışan tarafından kullanılabilir."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e49d7d931b0796e4d62065793e7e79745c816682
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 0d5e05e8f1edcc01af985c25459d93de0bc2acf1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -42,15 +44,15 @@ Bağımsız vardiyalar nakit parada her POS yazar kasası için bağımsız olar
 
 Bağımsız bir vardiya kasa çekmecesi düzeyinde atanır. Bu prosedürde bir POS yazar kasasında bağımsız vardiya ayarlama işlemi açıklanmaktadır.
 
-1.  **Perakende ve ticaret** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım profilleri**'ne tıklayın.
+1.  **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım profilleri**'ne tıklayın.
 2.  Bağımsız vardiya için kullanılacak donanım profilini seçin.
 3.  **Çekmece** Hızlı Sekmesinde, **Paylaşılan vardiya çekmecesi** seçeneğinin **Hayır** olarak ayarlandığını doğrulayın.
-4.  **Kaydet**'e tıklayın.
-5.  **Perakende ve ticaret** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Yazar kasalar** öğesine tıklayın.
+4.  **Kaydet**'i tıklatın.
+5.  **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Kayıtlar** üzerine tıklayın.
 6.  Bağımsız vardiya gerektiren yazar kasayı seçin ve **Düzenle**'ye tıklayın.
 7.  **Donanım profili** alanında, 2. adımda belirlediğiniz donanım profilini seçin.
-8.  **Kaydet**'e tıklayın.
-9.  **Perakende ve ticaret** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine tıklayın.
+8.  **Kaydet**'i tıklatın.
+9.  **Perakende** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine tıklayın.
 10. **1090** dağıtım planını seçin ve ardından POS değişikliklerini eşitlemek için **Şimdi çalıştır** seçeneğine tıklayın.
 
 ### <a name="use-a-stand-alone-shift"></a>Bağımsız vardiya kullanma
@@ -70,15 +72,15 @@ Paylaşılan bir vardiya çok sayıda kasiyerin veya iş günü içinde bir grup
 
 ### <a name="set-up-a-shared-shift"></a>Paylaşılan vardiya ayarlama
 
-1.  **Perakende ve ticaret** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım profilleri**'ne tıklayın.
+1.  **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım profilleri**'ne tıklayın.
 2.  Paylaşılan vardiya için kullanılacak donanım profilini seçin.
 3.  **Çekmece** Hızlı Sekmesinde, **Paylaşılan vardiya çekmecesi** seçeneğini **Evet** olarak ayarlayın.
-4.  **Kaydet**'e tıklayın.
-5.  **Perakende ve ticaret** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Yazar kasalar** öğesine tıklayın.
+4.  **Kaydet**'i tıklatın.
+5.  **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Kayıtlar** üzerine tıklayın.
 6.  Paylaşılan vardiya gerektiren yazar kasayı seçin ve **Düzenle**'ye tıklayın.
 7.  **Donanım profili** alanında, 2. adımda belirlediğiniz donanım profilini seçin.
-8.  **Kaydet**'e tıklayın.
-9.  **Perakende ve ticaret** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine tıklayın.
+8.  **Kaydet**'i tıklatın.
+9.  **Perakende** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine tıklayın.
 10. **1090** dağıtım planını seçin ve ardından POS değişikliklerini eşitlemek için **Şimdi çalıştır** seçeneğine tıklayın.
 
 ### <a name="use-a-shared-shift"></a>Paylaşılan vardiya kullanma
@@ -89,7 +91,7 @@ Paylaşılan bir vardiya çok sayıda kasiyerin veya iş günü içinde bir grup
 4.  **Yeni vardiya oluştur**'u seçin.
 5.  **Başlangıç tutarını beyan et**'i seçin.
 6.  Mağazada paylaşılan vardiyanın parçası olan tüm kasa çekmecelerindeki başlangıç tutarını girin ve **Kaydet**'e tıklayın.
-    -   Başlangıç tutarının bir kısmını sonraki kasa çekmecelerine eklemek üzere donanım istasyonunu etkinleştirmek için **Donanım istasyonu seç**işlemini kullanın.
+    -   Başlangıç tutarının bir kısmını sonraki kasa çekmecelerine eklemek üzere donanım istasyonunu etkinleştirmek için **Donanım istasyonu seç** işlemini kullanın.
     -   Belirli bir kasa çekmecesine kasa eklemek için **Çekmeceyi aç** işlemini kullanın.
     -   Paylaşılan vardiyadaki tüm kasa çekmeceleri başlangıç tutarından kendi paylarını alana kadar bu işleme devam edin.
 

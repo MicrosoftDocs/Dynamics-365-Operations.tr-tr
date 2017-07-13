@@ -3,14 +3,14 @@ title: "Satıcı iş birliği kullanıcılarını yönetme"
 description: "Bu konu, yeni satıcı iş birliği kullanıcıları hazırlama talebinde bulunma ve yeni satıcı iş birliği kişileri ekleme konularını ele alır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220744
 ms.assetid: edc19ad0-3565-4d47-98ac-dda6098f63ac
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7e747547ed5cf4654a99382ecc8f9f6103ec5cfa
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ec7ed3a81d296e9bef4d26f1756b73883d560cb5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,12 +33,12 @@ ms.lasthandoff: 05/25/2017
 
 Bu konu, yeni satıcı iş birliği kullanıcıları hazırlama talebinde bulunma ve yeni satıcı iş birliği kişileri ekleme konularını ele alır. 
 
-Microsoft Dynamics 365 for Operations'taki satıcı iş birliği arabirimi; satınalma siparişleri, faturalar ve harici satıcılara konsinye stok hakkında bilgi sağlar. **Satıcı yöneticisi (harici)** güvenlik rolü ya da benzer izinlerle harici satıcı olarak çalışıyorsanız yeni kullanıcıların sağlandığı yeni satıcı iş birliği kişileri ve talepleri oluşturabilirsiniz. Tedarik profesyoneli olarak çalışıyorsanız da bu görevleri gerçekleştirebilirsiniz. Bu konuda, bu rol Dynamics 365 for Operations kurulumuna sahip bir şirkette çalışan tedarik profesyoneli anlamına gelir. Harici satıcı iseniz satıcı işbirliğini kullanma hakkında daha fazla bilgi için bkz. [Müşterili satıcı](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+Microsoft Dynamics 365 for Finance and Operations'taki satıcı iş birliği arabirimi; satınalma siparişleri, faturalar ve harici satıcılara konsinye stok hakkında bilgi sağlar. **Satıcı yöneticisi (harici)** güvenlik rolü ya da benzer izinlerle harici satıcı olarak çalışıyorsanız yeni kullanıcıların sağlandığı yeni satıcı iş birliği kişileri ve talepleri oluşturabilirsiniz. Tedarik profesyoneli olarak çalışıyorsanız da bu görevleri gerçekleştirebilirsiniz. Bu konuda, bu rol Finance and Operations kurulumuna sahip bir şirkette çalışan tedarik profesyoneli anlamına gelir. Harici satıcı iseniz satıcı işbirliğini kullanma hakkında daha fazla bilgi için bkz. [Müşterili satıcı](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Tedarik uzmanıysanız satıcı işbirliğini kullanma hakkında daha fazla bilgi için bkz. [Harici satıcılarla satıcı iş birliği](vendor-collaboration-work-external-vendors.md).
 
 ## <a name="add-new-vendor-collaboration-contacts"></a>Yeni satıcı iş birliği kişileri ekleme
-Bir kullanıcının satıcı iş birliğine erişimi olmasını istiyorsanız ilk olarak satıcı iş birliği ilgili kişisi olarak eklenmesi gerekir. Şirketinizdeki satıcı iş birliğini kullanmayan çalışanlar için de kişi eklemek isteyebilirsiniz. Örneğin, diğer tedarik bilgisi türleri için iletişim noktası olabilirler. Yeni kişiler, **Satıcı işbirliği** &gt; **Kişiler** menüsünden erişilebilen **Tüm kişiler**sayfasından eklenir. Yeni bir ilgili kişi eklemek için:
+Bir kullanıcının satıcı iş birliğine erişimi olmasını istiyorsanız ilk olarak satıcı iş birliği ilgili kişisi olarak eklenmesi gerekir. Şirketinizdeki satıcı iş birliğini kullanmayan çalışanlar için de kişi eklemek isteyebilirsiniz. Örneğin, diğer tedarik bilgisi türleri için iletişim noktası olabilirler. Yeni kişiler, **Satıcı işbirliği** &gt; **Kişiler** menüsünden erişilebilen **Tüm kişiler** sayfasından eklenir. Yeni bir ilgili kişi eklemek için:
 
 1.  **Yeni**'ye tıklayın.
 2.  İlgili kişi ayrıntılarını girin.
@@ -62,12 +62,12 @@ Kullanıcıyı hazırlamak, devre dışı bırakmak veya güvenlik rollerini de�
 Yeni bir kullanıcı hazırlanması için istekte bulunmadan önce ilgili kişinin bir veya daha fazla satıcı hesabında kayıtlı olması gerekir. Yeni bir satıcı iş birliği kullanıcısı isteği oluşturmak için:
 
 1.  **Tüm kişiler** sayfasındaki **Provizyon satıcı kullanıcısı**'na tıklayın.
-2.  Kullanıcının e-posta adresini girin. Bu adres kullanıcı tarafından Dynamics 365 for Operations'ta oturum açmak için kullanılır. E-posta adresi, Microsoft Azure'da kiracı olarak kayıtlı bir etki alanına aitse hazırlama işleminin başarıyla tamamlanması için e-posta adresi mevcut bir Azure Active Directory (ADD) hesabı olmalıdır. E-posta adresi Microsoft Azure'da kayıtlı bir etki alanına ait değilse hazırlama işleminin bir parçası olarak EKLE hesabı oluşturulur ve yeni kullanıcı bir davet e-postası alır. Dynamics 365 for Operations kullanıcı kaydı için  @hotmail.com, @gmail.com veya @comcast.net gibi etki alanları olan tüketici e-posta adresleri kullanılamaz.
+2.  Kullanıcının e-posta adresini girin. Bu adres kullanıcı tarafından Finance and Operations'ta oturum açmak için kullanılır. E-posta adresi, Microsoft Azure'da kiracı olarak kayıtlı bir etki alanına aitse hazırlama işleminin başarıyla tamamlanması için e-posta adresi mevcut bir Azure Active Directory (ADD) hesabı olmalıdır. E-posta adresi Microsoft Azure'da kayıtlı bir etki alanına ait değilse hazırlama işleminin bir parçası olarak EKLE hesabı oluşturulur ve yeni kullanıcı bir davet e-postası alır. Finance and Operations kullanıcı kaydı için  @hotmail.com, @gmail.com veya @comcast.net gibi etki alanları olan tüketici e-posta adresleri kullanılamaz.
 3.  Kullanıcının erişimi olması gereken tüm tüzel kişilikler için **Satıcı işbirliği erişimine izin verildi** seçeneğini **Evet** olarak ayarlayın.
 4.  **Kullanıcı rolleri ata** bölümünde, yeni kullanıcının sahip olması gereken güvenlik rolleri için **Ata** onay kutusunu işaretleyin.
 5.  **Gönder**'e tıklayın.
 
-Satıcı kullanıcısı talebi gönderildiğinde, **Satıcı işbirliği erişimine izin verildi** alanı seçilen satıcı hesabı için **Evet** olarak ayarlanır ve kullanıcı talebi iş akışı başlatılır. İş akışının bir parçası olarak, Dynamics 365 for Operations'ta yeni bir kullanıcı oluşturulur ve güvenlik rolleri atanır. Buna ek olarak, Azure portalı ile etkileşim başlatan ve yeni veya mevcut bir AAD hesabını Dynamics 365 for Operations kullanıcı hesabı ile ilişkilendiren bir Azure B2B hizmeti etkinleştirilir.
+Satıcı kullanıcısı talebi gönderildiğinde, **Satıcı işbirliği erişimine izin verildi** alanı seçilen satıcı hesabı için **Evet** olarak ayarlanır ve kullanıcı talebi iş akışı başlatılır. İş akışının bir parçası olarak, Finance and Operations'ta yeni bir kullanıcı oluşturulur ve güvenlik rolleri atanır. Buna ek olarak, Azure portalı ile etkileşim başlatan ve yeni veya mevcut bir AAD hesabını Finance and Operations kullanıcı hesabı ile ilişkilendiren bir Azure B2B hizmeti etkinleştirilir.
 
 ### <a name="inactivate-a-user"></a>Kullanıcıyı devre dışı bırakma
 

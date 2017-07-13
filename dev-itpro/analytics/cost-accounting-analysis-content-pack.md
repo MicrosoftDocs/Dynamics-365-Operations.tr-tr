@@ -3,24 +3,24 @@ title: "Maliyet muhasebesi analizi Power BI içeriği"
 description: "Bu konu, Power BI Maliyet muhasebesi analizinde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 270274
 ms.assetid: b74549df-35d5-4f2f-b3c7-405b0d38ea78
 ms.search.region: Global
-ms.author: yuyus
+ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5ce75a6145bde4a8c33ed785c7d2a60a52416676
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1d19276331a4278f44ad14292ed434c49b74d727
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,18 +29,27 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Bu konu, Microsoft Power BI **Maliyet muhasebesi analizinde** nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
-Bu konu, Power BI Maliyet muhasebesi analizinde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
+## <a name="overview"></a>Özet
 
-<a name="overview"></a>Özet
---------
+**Maliyet muhasebesi analizi** Power BI içeriği, maliyet denetleyicileri veya bir kuruluşun maliyet kontrolünü yapmaktan sorumlu olan herkes için tasarlanmıştır. Bu, maliyet, büyüklük ve gerçek maliyete dayalı maliyet oranı, bütçe maliyeti ve esnek bütçe maliyeti gibi kilit ölçümleri içerir. **Maliyet muhasebesi** modülü içerisindeki hareket verilerini kullanır ve tüm organizasyonun maliyetlerinin toplam görünümünü tek bir raporlama para birimi cinsinden sağlar. Yöneticiler veriyi maliyet nesnelerine dayalı olarak kendi kuruluş birimlerinde maliyet denetimi gerçekleştirmek için filtreleyebilir, kuruluş çok sayıda tüzel varlığa sahip olsa bile. 
 
-**Maliyet muhasebesi analizi** Microsoft Power BI içeriği, maliyet denetleyicileri veya bir kuruluşun maliyet kontrolünü yapmaktan sorumlu olan herkes için tasarlanmıştır. Bu, maliyet, büyüklük ve gerçek maliyete dayalı maliyet oranı, bütçe maliyeti ve esnek bütçe maliyeti gibi kilit ölçümleri içerir. Microsoft Dynamics 365 for Operations içerisindeki hareket verilerini kullanır ve tüm organizasyonun maliyetlerinin toplam görünümünü tek bir raporlama para birimi cinsinden sağlar. Yöneticiler veriyi maliyet nesnelerine dayalı olarak kendi kuruluş birimlerinde maliyet denetimi gerçekleştirmek için filtreleyebilir, kuruluş çok sayıda tüzel varlığa sahip olsa bile. **Maliyet muhasebesi analizi** Power BI içeriği gerçek maliyetler ve bütçe maliyetleri arasındaki farkları vurguladığı için, yöneticiler kendi operasyonel birimleri hakkında pozitif veya negatif trendler hakkında bilgilendirilebilirler. Yöneticiler maliyet öğeleri hiyerarşilerinin veya tek tek maliyet öğelerinin daha derinlerine inebilir ve maliyet farklılıklarının nasıl oluştuklarına dair daha ayrıntılı bilgi edinerek daha sonra daha efektif eylem alabilirler. **Maliyet muhasebesi analizi** Power BI içeriği, maliyet muhasebecilerinin maliyet akışlarının, tüm kuruluşun maliyet öğelerinin arasında nasıl aktığını görmelerine olanak sağlar. Maliyet muhasebesi hakkında daha fazla bilgi için bkz: [Maliyet muhasebesi giriş sayfası](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page). Maliyet muhasebesi erişim seviyesi güvenliğini tanımlayarak ve bunu satır düzeyi güvenlik ile Power BI içerisinde birleştirerek tüm maliyet öğesi sahiplerine **Maliyet muhasebesi** Power BI içeriğine erişim sağlayabilirsiniz. Görsellerdeki tüm veri daha sonra Maliyet muhasebesi içinde denetlenen erişim seviyesinde filtrelenir. Erişim seviyesi güvenliği ve satır düzeyi güvenliği hakkında daha fazla bilgi için bkz: [Power BI için Maliyet muhasebesi içeriği için güvenlik kurulumu](setup-security-cost-accounting-content-pack.md).
+**Maliyet muhasebesi analizi** içeriği gerçek maliyetler ve bütçe maliyetleri arasındaki farkları vurguladığı için, yöneticiler kendi operasyonel birimleri hakkında pozitif veya negatif trendler hakkında bilgilendirilebilirler. Yöneticiler maliyet öğesi hiyerarşilerinin veya tek tek maliyet öğelerinin ayrıntısına inebilir. Yöneticiler böylece maliyet farklarının nasıl oluştuğuna dair bilgi edinebilir ve etkili eylemlerde bulunabilir. 
+
+**Maliyet muhasebesi analizi** içeriği, maliyet muhasebecilerinin maliyet akışlarının, tüm kuruluşun maliyet öğelerinin arasında nasıl aktığını görmelerine olanak sağlar. 
+
+Maliyet muhasebesi hakkında daha fazla bilgi için bkz: [Maliyet muhasebesi giriş sayfası](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page). 
+
+Maliyet muhasebesi erişim seviyesi güvenliğini tanımlayarak ve bunu satır düzeyi güvenlik ile Power BI içerisinde birleştirerek tüm maliyet öğesi sahiplerine **Maliyet muhasebesi** Power BI içeriğine erişim sağlayabilirsiniz. Görsellerdeki tüm veri daha sonra Maliyet muhasebesi içinde denetlenen erişim seviyesinde filtrelenir. Erişim seviyesi güvenliği ve satır düzeyi güvenliği hakkında daha fazla bilgi için bkz: [Power BI için Maliyet muhasebesi içeriği için güvenlik kurulumu](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
-**Maliyet muhasebesi analizi** Power BI içeriğini, Microsoft Dynamics Lifecycle Services (LCS) içindeki Paylaşılan varlık kütüphanesinde bulabilirsiniz. İçeriği indirmek ve Dynamics 365 for Operations verinize bağlamak hakkında daha fazla bilgi için bkz. [Microsoft ve ortaklarınızdan LCS içerisindeki Power BI içeriği](power-bi-content-microsoft-partners.md). 
+**Maliyet muhasebesi analizi** Power BI içeriğini, Microsoft Dynamics Lifecycle Services (LCS) içindeki Paylaşılan varlık kütüphanesinde bulabilirsiniz. İçeriği indirmek ve kuruluşunuzda tümleştirmek hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](power-bi-content-microsoft-partners.md). Power BI içeriğinin nasıl uygulanacağını gösteren bir demo izlemek için bakınız [Microsoft ve Dynamics Lifecycle Services ortaklarınızdan Power BI içeriği](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
 
-> NOT: **KB4011327** bu Power BI içeriği için bir önkoşuldur. Lifecycle Services'a oturum açtıktan sonra KB'ye buradan erişebilirsiniz: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+Kullanmakta olduğunuz Microsoft Dynamics 365 sürümü için geçerli **Maliyet muhasebesi analizi** içeriğini indirdiğinizden emin olun.
+
+> [!NOTE]
+> KB 4011327 bu Power BI içeriği için bir önkoşuldur. LCS'de oturum açtıktan sonra KB'ye buradan erişebilirsiniz: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan ölçümler
 İçerik bir dizi rapor sayfası içermektedir. Her sayfa grafikler, döşemeler ve tablolar ile görselleştirilen bir dizi ölçüm kümesinden oluşur. Aşağıdaki tablo **Yönetim maliyeti analizi** Power BI içeriğindeki görselleştirmelere bir bakış sağlar.
@@ -64,12 +73,14 @@ Bu konu, Power BI Maliyet muhasebesi analizinde nelerin bulunduğunu açıklar. 
 |                                  | Maliyet nesnesi boyut üye adına ve Maliyeti öğesi boyut üye adına göre Fiili maliyet                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
-Dynamics 365 for Operations verisi, **Maliyet muhasebesi analizi** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, analytics için en iyi duruma getirilen bir Microsoft SQL veritabanı olan Varlık mağazasında hazırlanmış toplam ölçümler olarak temsil edilir. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesine genel bakış](power-bi-integration-entity-store.md). Aşağıdaki önemli toplam ölçümler, içeriğin temeli olarak kullanılır.
+Aşağıdaki veriler **Maliyet muhasebesi analizi** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Sunucu veritabanıdır. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesine genel bakış](power-bi-integration-entity-store.md). 
 
-| Varlık                  | Kilit toplam ölçüm | Dynamics 365 for Operations için veri kaynağı | Alan     | Açıklama                                   |
-|-------------------------|---------------------------|---------------------------------------------|-----------|-----------------------------------------------|
-| Maliyet muhasebesi girdileri | SUM(Tutar)               | CAMDATAAggregatedCostEntry                  | Tutar    | Maliyet muhasebesi genel muhasebe para birimindeki tutar |
-| İstatistiksel girişler     | SUM(Büyüklük)            | CAMDATAAggregatedStatisctialEntry           | Büyüklük |                                               |
+Aşağıdaki önemli toplam ölçümler, içeriğin temeli olarak kullanılır.
+
+| Varlık                  | Kilit toplam ölçüm | Dynamics 365 için Veri kaynağı      | Alan     | Açıklama                                        |
+|-------------------------|---------------------------|-----------------------------------|-----------|----------------------------------------------------|
+| Maliyet muhasebesi girdileri | SUM(Tutar)               | CAMDATAAggregatedCostEntry        | Tutar    | Maliyet muhasebesi genel muhasebe para birimindeki tutar. |
+| İstatistiksel girişler     | SUM(Büyüklük)            | CAMDATAAggregatedStatisctialEntry | Büyüklük |                                                    |
 
 Aşağıdaki tablo önemli toplam ölçümlerin çok sayıda hesaplanmış ölçümünü içerik veri kümesini oluşturmak için nasıl kullanıldığını gösterir.
 
@@ -114,16 +125,4 @@ Aşağıdaki anahtar boyutlar, daha büyük hassasiyet elde etmek ve daha derin 
 | Mali takvimler                   | Takvim, Takvim açıklaması                                                                                       |
 | Mali yıllar                       | Takvim yılı                                                                                                        |
 | Mali dönemler                     | Takvim yılı dönemi                                                                                                 |
-
-## <a name="additional-resources"></a>Ek kaynaklar
-Power BI içeriği oluşturmak ve varlıklarla ilgili bazı yararlı bağlantılar şunlardır:
-
--   [Veri varlıkları](..\data-entities\data-entities.md)
--   [Kuruluş içerik paketleri oluşturma](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Power BI kullanarak veri modelleme](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Çalışma alanlarına Power BI kutucukları ekleme](configure-power-bi-integration.md)
--   [Power BI için Maliyeti muhasebesi içeriği güvenliğini kurmak](setup-security-cost-accounting-content-pack.md)
-
-
-
 

@@ -3,14 +3,14 @@ title: "Alan açıklamalarını görüntüleme ve dışarı aktarma"
 description: "Bu makalede, alan açıklamalarının nasıl görüntüleneceği ve açıklamaları dışa aktarmak için Alan açıklamalarının nasıl kullanılacağı açıklanmaktadır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cd84c03baa4f7a9d38e380c37ed2020ee3387954
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,14 +33,14 @@ ms.lasthandoff: 05/25/2017
 
 Bu makalede, alan açıklamalarının nasıl görüntüleneceği ve açıklamaları dışa aktarmak için Alan açıklamalarının nasıl kullanılacağı açıklanmaktadır.
 
-Microsoft Dynamics 365 for Operations'ın karmaşık alanlarından bazıları için açıklamaları bulunur. Bu açıklamalar, alanın üzerine geldiğinizde görünür. Ayrıca, **Alan açıklamaları** sayfasından alan açıklamalarını görüntüleyebilir ve dışa aktarabilirsiniz. 
+Microsoft Dynamics 365 for Finance and Operations'ın karmaşık alanlarından bazıları için açıklamaları bulunur. Bu açıklamalar, alanın üzerine geldiğinizde görünür. Ayrıca, **Alan açıklamaları** sayfasından alan açıklamalarını görüntüleyebilir ve dışa aktarabilirsiniz. 
 
 Tüm sayfaların alan açıklamaları yoktur. Kullanımı belirgin olan alanların değil, yalnızca daha karmaşık alanların açıklamalarını sağlamak istiyoruz. Bu nedenle, bazı sayfalarda alan açıklamaları bulunmaz, bazı sayfalarda birkaç açıklama vardır ve parametre sayfaların çoğunda olduğu gibi daha karmaşık sayfalarda birçok açıklama vardır. 
 
-Microsoft Dynamics 365 for Operations geliştirme ortamına erişiminiz varsa yeni alan açıklamalarınızı ekleyebilirsiniz ve mevcut açıklamaları özelleştirebilirsiniz. Örneğin, bir alan açıklamasına şirkete özgü bilgiler ekleyebilirsiniz. Daha fazla bilgi için, [Alanı özelleştirme yardımı](/dynamics365/operations/dev-itpro/user-interface/customize-field-help) sayfasına bakın.
+Microsoft Dynamics 365 for Finance and Operations geliştirme ortamına erişiminiz varsa yeni alan açıklamalarınızı ekleyebilirsiniz ve mevcut açıklamaları özelleştirebilirsiniz. Örneğin, bir alan açıklamasına şirkete özgü bilgiler ekleyebilirsiniz. Daha fazla bilgi için, [Alanı özelleştirme yardımı](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help) sayfasına bakın.
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Kullanıcı arabirimindeki alan açıklamalarına bakın
-Alanın üzerine getirerek alan açıklamaları görüntüleyebilirsiniz. Açıklama yoksa, üzerine getirdiğinizde alan adını görürsünüz. (Not: 7.0.0 sürümünde alan açıklamaları yalnızca **Alan açıklamaları** sayfasında görüntülenebilir.) Aşağıdaki şekilde, **Sayım sırasında madde kilitlemesi** alanına fare imlecini getirdiğiniz zaman görünen alan açıklaması gösterilmektedir. 
+Alanın üzerine getirerek alan açıklamaları görüntüleyebilirsiniz. Açıklama yoksa, üzerine getirdiğinizde alan adını görürsünüz. (Not: Dynamics AX 7.0 (Şuat 2016) sürümünde alan açıklamaları yalnızca **Alan açıklamaları** sayfasında görüntülenebilir.) Aşağıdaki şekilde, **Sayım sırasında madde kilitlemesi** alanına fare imlecini getirdiğiniz zaman görünen alan açıklaması gösterilmektedir. 
 
 [![Alan açıklaması örneği](./media/field-description.png)](./media/field-description.png)
 
@@ -101,7 +101,7 @@ Sayfaları aramanın çeşitli yolları hakkında daha fazla bilgi için, bu mak
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Alanı özelleştirme yardımı](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+[Alanı özelleştirme yardımı](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
 
 
 

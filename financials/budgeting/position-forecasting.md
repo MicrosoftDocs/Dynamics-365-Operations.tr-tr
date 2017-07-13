@@ -1,16 +1,16 @@
 ---
 title: Pozisyon tahmini
-description: 
+description: "Çalışanlar ile ilgili giderler sıklıkla bir kuruluşun maliyetlerinin büyük bir kısmını teşkil eder. Pozisyon tahmini bu giderleri planlamanızı ve bunları bütçe planlamasına dahil etmenizi sağlar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 03645693c5101c48ef9d35bdbe14debef1e69fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,7 +29,6 @@ ms.lasthandoff: 05/25/2017
 # <a name="position-forecasting"></a>Pozisyon tahmini
 
 [!include[banner](../includes/banner.md)]
-
 
 
 
@@ -97,7 +96,7 @@ Son olarak, Jodi temel ödeme için hesaplama tabanları olarak kullanılan tüm
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Mevcut pozisyonlar için tahmin pozisyonları oluşturma
 
-En doğru bütçe planlama için, pozisyonun o anda doldurulmuş veya boş olmasından bağımsız olarak, Microsoft Dynamics Dynamics 365 for Operations'daki mevcut pozisyonlardan ayrıntılar ile tahmin pozisyonları oluşturabilirsiniz. 
+En doğru bütçe planlama için, pozisyonun o anda doldurulmuş veya boş olmasından bağımsız olarak, Microsoft Dynamics Dynamics 365 for Finance and Operations, Enterprise sürümündeki mevcut pozisyonlardan ayrıntılar ile tahmin pozisyonları oluşturabilirsiniz. 
 
 **Mevcut pozisyonları ekle** işlevi bir kuruluşa ait tüm pozisyonları görüntüler. **Başlangıç** tarihini ayarlayarak, pozisyonlar listesini geçmişteki veya daha yaygın olarak gelecekte bir tarihteki mevcut pozisyonları içerecek şekilde değiştirebilirsiniz (örneğin, bir sonraki bütçe döngüsünün başlangıcı). Bir bütçe planlama süreci ve bütçe planı senaryosu seçin, listede pozisyonları seçin ve seçilen pozisyonlar için tahmin pozisyonları oluşturmak için **Tamam** düğmesine tıklayın. Bir bütçe planlama süreci ve senaryosundaki her bir mevcut pozisyon için sadece bir tahmin pozisyonu oluşturabileceğinizi unutmayın. Ancak, farklı bütçe planı senaryoları atayarak ek sürümler oluşturabilirsiniz. 
 
@@ -172,7 +171,7 @@ Her işlemin, tahmin pozisyonlarını seçebileceğiniz benzer bir sayfası bulu
 
 **Ücret grubu** sayfasında, **Pozisyon oranlarını güncelleştir** işlevi, mevcut ücret oranı tablo oranlarını gruba atanan tahmin pozisyonlarına uygular. Oranları güncelleştirilir ve ek maliyet öğesi satırları her yeni oran tablo satırları için (tarihler temel alınarak) eklenir. Ancak, bütçe maliyet öğeleri ve artış tarihleri güncelleştirilmez. Hangi bütçe planlama süreci ve bütçe planı senaryosunun güncelleştirileceğini seçebilirsiniz. Bu nedenle, bir senaryoyu güncelleştirebilirsiniz, ancak diğer senaryoları karşılaştırma için değiştirmeden bırakın. 
 
-Tahmin pozisyonlarını seçip, ardından **Toplu güncelleştirme** seçeneğine tıklayarak, aynı anda birden fazla tahmin pozisyonunu ekleyebilir veya değiştirebilirsiniz. Pek çok seçenek kullanılabilir. **Mali boyutlar** öğesindeki bir seçenek, diğerlerinden biraz daha farklıdır ve bütçe maliyet öğeleri ile ilgilidir. Bütçe maliyet öğelerini, **Bütçe varsayılanları** seçeneğini **Evet**olarak ayarlayarak ekleyebilirsiniz. Hiçbir bütçe maliyet öğesi seçilmez, ancak **Bütçe varsayılanları** **Evet** olarak ayarlanırsa, halihazırda atanmış olan tüm bütçe maliyet öğeleri kaldırılır. 
+Tahmin pozisyonlarını seçip, ardından **Toplu güncelleştirme** seçeneğine tıklayarak, aynı anda birden fazla tahmin pozisyonunu ekleyebilir veya değiştirebilirsiniz. Pek çok seçenek kullanılabilir. **Mali boyutlar** öğesindeki bir seçenek, diğerlerinden biraz daha farklıdır ve bütçe maliyet öğeleri ile ilgilidir. Bütçe maliyet öğelerini, **Bütçe varsayılanları** seçeneğini **Evet** olarak ayarlayarak ekleyebilirsiniz. Hiçbir bütçe maliyet öğesi seçilmez, ancak **Bütçe varsayılanları** **Evet** olarak ayarlanırsa, halihazırda atanmış olan tüm bütçe maliyet öğeleri kaldırılır. 
 
 Yeniden hesaplama işlemi değiştirilen tüm tahmin pozisyonlarında otomatik olarak kullanılır.
 

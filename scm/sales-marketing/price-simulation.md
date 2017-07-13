@@ -3,7 +3,7 @@ title: Fiyat benzetimi
 description: "Bu makalede, teklifler için fiyat benzetimiyle ilgili bilgiler verilmektedir. Fiyat benzetimi, belirli bir fiyat taahhüdünde bulunmadan önce teklif verme işlemi sırasında gelecekteki satış fiyatı kesintilerinin etkisini değerlendirmenize yardımcı olur."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 293f09ca8758c0b1a66614eb9c75ca266b044fe7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c5381ab48e394702c2423de7a5b5cb9166993388
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -54,7 +54,7 @@ Bir teklif oluşturduğunuzda, bir uyarı ayarlayabilirsiniz. Uyarıların kulla
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Ticaret sözleşmelerindeki iskonto türleri
 
-Microsoft Dynamics 365 for Operations'daki ticari sözleşmeler, dört türde fiyat indirimine sahip olabilir. Bu iskontolar farklı maddeler, müşteriler veya fiyat grupları için ayarlanabilir ve bunlar için tarih sınırı belirlenebilir. Yanlış hesaplamaları önlemek için fiyat benzetimleri çalıştırdığınızda ticari sözleşmeleri dikkate almanız gerekir. Ticari anlaşmalarda yer alan dört iskonto tipi şunlardır:
+Microsoft Dynamics 365 for Finance and Operations'daki ticari sözleşmeler, dört türde fiyat indirimine sahip olabilir. Bu iskontolar farklı maddeler, müşteriler veya fiyat grupları için ayarlanabilir ve bunlar için tarih sınırı belirlenebilir. Yanlış hesaplamaları önlemek için fiyat benzetimleri çalıştırdığınızda ticari sözleşmeleri dikkate almanız gerekir. Ticari anlaşmalarda yer alan dört iskonto tipi şunlardır:
 
 -   **Satış fiyatı** – Maddeler için ayrı satış fiyatları belirtilebilir. Teklif satırları oluşturulduğunda, program bir öğe için doğru fiyatı arar ve teklif satırlarına transfer eder. Bu nedenle, bu tür bir indirimi olan bir ticaret anlaşması, fiyat benzetimini etkilemez. Teklif satırında kullanılan satış fiyatı, ticari anlaşmayı yansıtır.
 -   **Satır iskontosu** – Özel indirimler sipariş edilen miktara bağlı olarak, maddeler için belirtilir. Fiyat benzetimini çalıştırmadan önce satır tutarları genellikle satır iskontosuna göre azaltılır. Bu nedenle, bu tür bir indirimi olan bir ticaret anlaşması, fiyat benzetimini etkiler.

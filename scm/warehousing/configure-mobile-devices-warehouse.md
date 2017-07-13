@@ -3,14 +3,14 @@ title: "Mobil cihazları ambar işi için ayarlama"
 description: "Bu makalede, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek için kullandığı menü öğelerinin nasıl yapılandırılacağı açıklanmaktadır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSRFMenuItem
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 29941
 ms.assetid: 6dff6313-dc6e-4f06-9c0c-dab24eefe4da
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6a7658c56e2d0712c6aa27a4bb8ffc02bbd01d6c
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: dfb738e41f4b3f7d475a551dca0aba7a071dd989
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -165,7 +165,7 @@ Bir menü öğesine yönelik **Mod** alanı **Dolaylı** olarak ayarlı ise, iş
 </tr>
 <tr>
 <td>Şablonla hareket</td>
-<td>Maddeleri bir konumdan diğerine yarı otomatik bir şekilde taşıyın. Çalışan, maddelerin taşınacağı konumu seçer ve Microsoft Dynamics 365 for Operations maddelerin nereye taşınacağını belirlemek için yerleşim yönergesini kullanır.</td>
+<td>Maddeleri bir konumdan diğerine yarı otomatik bir şekilde taşıyın. İşçi, maddelerin taşınacağı konumu seçer ve Finance and Operations maddelerin nereye taşınacağını belirlemek için yerleşim yönergesini kullanır.</td>
 </tr>
 <tr>
 <td>Ambar transferi</td>
@@ -214,7 +214,7 @@ Ambar işi oluşturmak için menü öğeleri ayarlamaya ek olarak, önceden olu�
 </tr>
 <tr class="even">
 <td>Sistem yönlendirmesinde</td>
-<td>Microsoft Dynamics 365 for Operations denetimleri, bir çalışana atanan iş türlerini ve çalışanın işi gerçekleştirdiği sıralamayı denetler. Bu seçeneği seçtiğinizde, <strong>Sistem tarafından yönlendirilen çalışma</strong> seçeneğine Eylem panosunda, iş için sıralama ölçütünü ayarlayabileceğiniz <strong>Sistem tarafından sıralanan sıralama</strong> sayfasını açmak için tıklayabilirsiniz. Bu sıralama kriteri, çalışanın işi hangi sırada yapacağını denetler. İhtiyaç duyduğunuz sayıda ölçüt ekleyebilirsiniz.</td>
+<td>Microsoft Dynamics 365 for Finance and Operations denetimleri, bir çalışana atanan iş türlerini ve çalışanın işi gerçekleştirdiği sıralamayı denetler. Bu seçeneği seçtiğinizde, <strong>Sistem tarafından yönlendirilen çalışma</strong> seçeneğine Eylem panosunda, iş için sıralama ölçütünü ayarlayabileceğiniz <strong>Sistem tarafından sıralanan sıralama</strong> sayfasını açmak için tıklayabilirsiniz. Bu sıralama kriteri, çalışanın işi hangi sırada yapacağını denetler. İhtiyaç duyduğunuz sayıda ölçüt ekleyebilirsiniz.</td>
 </tr>
 <tr class="odd">
 <td>Kullanıcı yönlendirmesinde</td>
@@ -226,7 +226,7 @@ Ambar işi oluşturmak için menü öğeleri ayarlamaya ek olarak, önceden olu�
 </tr>
 <tr class="odd">
 <td>Sistem gruplandırma</td>
-<td>Microsoft Dynamics 365 for Operations, belirli bir alanı temel alarak işi çalışan için gruplandırır. Örneğin, bir çalışanın bir sevkıyat kodu, yük kodu veya her bir iş birimine bağlanabilecek herhangi bir değer taradığında çekme işi gruplanır. Bu seçeneği belirlemeniz halinde, aşağıdaki alanlar gereklidir:
+<td>Microsoft Dynamics 365 for Finance and Operations, belirli bir alanı temel alarak işi çalışan için gruplandırır. Örneğin, bir çalışanın bir sevkıyat kodu, yük kodu veya her bir iş birimine bağlanabilecek herhangi bir değer taradığında çekme işi gruplanır. Bu seçeneği belirlemeniz halinde, aşağıdaki alanlar gereklidir:
 <ul>
 <li><strong>Sistem gruplandırma alanı</strong> – Çalışanın işi gruplandırmak için tarayacağı alanı seçin.</li>
 <li><strong>Sistem gruplandırma etiketi</strong> – Çalışana işi gruplandırmak için ne taraması gerektiğini bildiren metni girin.</li>
@@ -247,7 +247,7 @@ Bu seçenek örneğin bir yük için birden fazla palet hazırlandıysa faydalı
 </tr>
 <tr class="even">
 <td>Döngü sayımı gruplandırma</td>
-<td>Çalışan, bir bölge, iş havuzu veya konum seçer ve Microsoft Dynamics 365 for Operations seçime bağlı olarak işi atar. Bu seçeneği belirlemeniz halinde, Eylem bölmesinde <strong>Döngü sayımı</strong> seçeneğine tıklayarak görüntülenecek ek bilgileri belirleyebilir ve ayrıca çalışanın fark bulunması halinde sayımı kaç kez tekrarlaması gerektiğini de belirtebilirsiniz.</td>
+<td>Çalışan, bir bölge, iş havuzu veya konum seçer ve Microsoft Dynamics 365 for Finance and Operations seçime bağlı olarak işi atar. Bu seçeneği belirlemeniz halinde, Eylem bölmesinde <strong>Döngü sayımı</strong> seçeneğine tıklayarak görüntülenecek ek bilgileri belirleyebilir ve ayrıca çalışanın fark bulunması halinde sayımı kaç kez tekrarlaması gerektiğini de belirtebilirsiniz.</td>
 </tr>
 </tbody>
 </table>
@@ -331,7 +331,7 @@ Aşağıdaki tablo bu seçenekleri açıklar.
 </tr>
 <tr class="odd">
 <td>Grup yerine koyma</td>
-<td>Yerine koyma işini gruplandırmak için bu seçeneği belirleyin. Bu seçenek, iş ya çalışan ya da Microsoft Dynamics 365 for Operations tarafından gruplandığında kullanılabilir. Çalışan gruptaki tüm çekme işini bitirdiğinde, aynı grup için yerine koyma işi oluşturulur.</td>
+<td>Yerine koyma işini gruplandırmak için bu seçeneği belirleyin. Bu seçenek, iş ya çalışan ya da Microsoft Dynamics 365 for Finance and Operations tarafından gruplandığında kullanılabilir. Çalışan gruptaki tüm çekme işini bitirdiğinde, aynı grup için yerine koyma işi oluşturulur.</td>
 </tr>
 <tr class="even">
 <td>Stok düzeltmesi türleri</td>
@@ -364,11 +364,11 @@ Aşağıdaki tablo bu seçenekleri açıklar.
 </tr>
 <tr class="even">
 <td>Sistem gruplandırma alanı</td>
-<td>Microsoft Dynamics 365 for Operations'ın çalışanlar için çekme işini nasıl gruplayacağını belirlemek için alanı seçin. Örneğin, <strong>ShipmentId</strong> alanını seçerseniz çalışan çekme işini gruplandırmak için sevkıyat kodunu tarayacaktır. Böylece sevkıyat için tüm iş çalışana atanır. Bu alan, sistem tarafından gruplanan mevcut işi kullanmak için bir menü öğesi oluşturmanızı gerektirir. Çalışana ne tarayacağını bildirmek için <strong>Sistem gruplandırma etiketi</strong> alanına metin girmeniz de gerekir.</td>
+<td>Microsoft Dynamics 365 for Finance and Operations'ın çalışanlar için çekme işini nasıl gruplayacağını belirlemek için alanı seçin. Örneğin, <strong>ShipmentId</strong> alanını seçerseniz çalışan çekme işini gruplandırmak için sevkıyat kodunu tarayacaktır. Böylece sevkıyat için tüm iş çalışana atanır. Bu alan, sistem tarafından gruplanan mevcut işi kullanmak için bir menü öğesi oluşturmanızı gerektirir. Çalışana ne tarayacağını bildirmek için <strong>Sistem gruplandırma etiketi</strong> alanına metin girmeniz de gerekir.</td>
 </tr>
 <tr class="odd">
 <td>Sistem gruplandırma etiketi</td>
-<td>Çekme işi Microsoft Dynamics 365 for Operations tarafından gruplandığında çalışanın ne tarayacağını bildiren metni girin. Örneğin çekme işini sevkıyata göre gruplandırmak için <strong>ShipmentId</strong> alanını kullanıyorsanız alana <strong>Sevkıyat kodu</strong> girebilirsiniz. Bu alan, sistem tarafından gruplanan mevcut işi kullanmak için bir menü öğesi oluşturmanızı gerektirir. <strong>Sistem gruplandırma alanı</strong> alanında alanı nasıl gruplandıracağınızı da seçmelisiniz.</td>
+<td>Çekme işi Microsoft Dynamics 365 for Finance and Operations tarafından gruplandığında çalışanın ne tarayacağını bildiren metni girin. Örneğin çekme işini sevkıyata göre gruplandırmak için <strong>ShipmentId</strong> alanını kullanıyorsanız alana <strong>Sevkıyat kodu</strong> girebilirsiniz. Bu alan, sistem tarafından gruplanan mevcut işi kullanmak için bir menü öğesi oluşturmanızı gerektirir. <strong>Sistem gruplandırma alanı</strong> alanında alanı nasıl gruplandıracağınızı da seçmelisiniz.</td>
 </tr>
 <tr class="even">
 <td>Varsayılan verileri kullan</td>
@@ -384,13 +384,13 @@ Aşağıdaki tablo bu seçenekleri açıklar.
 </tr>
 <tr class="odd">
 <td>İş şablonu kodu</td>
-<td>Bir işlem için işi oluşturacak iş şablonunu seçin. Örneğin, bir satınalma siparişi için bir ürün alırsanız, yerine koyma işi iş şablonuna dayalı olarak oluşturulur. Bir iş şablonunu seçmezseniz, Microsoft Dynamics 365 for Operations, sorgu ölçütüne dayalı olarak bir şablon atar. İş Şablonları hakkında daha fazla bilgi için bkz. <a href="control-warehouse-location-directives.md">İş şablonları ve konum yönergeleri ile ambar çalışmasını denetleme</a>.</td>
+<td>Bir işlem için işi oluşturacak iş şablonunu seçin. Örneğin, bir satınalma siparişi için bir ürün alırsanız, yerine koyma işi iş şablonuna dayalı olarak oluşturulur. Bir iş şablonunu seçmezseniz, Microsoft Dynamics 365 for Finance and Operations, sorgu ölçütüne dayalı olarak bir şablon atar. İş Şablonları hakkında daha fazla bilgi için bkz. <a href="control-warehouse-location-directives.md">İş şablonları ve konum yönergeleri ile ambar çalışmasını denetleme</a>.</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Çalışanların madde çekerken ürün, konum veya miktarı doğrulamasını gerektirme
-Bir çalışanın, ambardaki işi gerçekleştirirken konumu veya miktarı kayda geçirmek için mobil cihaz kullanmasını gerektiren iş doğrulamaları ayarlayabilirsiniz. İş doğrulamaları, çalışanın doğru konumda olmasını veya doğru miktarda madde ile uğraşmasını sağlamaya yardımcı olur. Microsoft Dynamics 365 for Operations'ın çalışanın kaydını otomatik olarak doğrulamasını da etkinleştirebilirsiniz. Otomatik doğrulamayı etkinleştirirseniz, konum veya miktar için de doğrulama isteyemezsiniz. İş doğrulamaları, ürünleri ve ürün çeşitlerini de içerir. Ayrıca, bir barkod tarayarak da doğrulamaları kayda geçirebilirsiniz. Ürünleri ve ürün varyantlarını doğrulamak için, ürün veya ürün varyantı için kod girmeniz gerekir. Bu kod, bir ürün kodu, ürün arama kodu, harici kod, GTIN veya barkod olabilir. Kodu girdikten veya barkodu taradıktan sonra, ürün varyantına yönelik boyutlar mobil cihazda görüntülenir. 
+Bir çalışanın, ambardaki işi gerçekleştirirken konumu veya miktarı kayda geçirmek için mobil cihaz kullanmasını gerektiren iş doğrulamaları ayarlayabilirsiniz. İş doğrulamaları, çalışanın doğru konumda olmasını veya doğru miktarda madde ile uğraşmasını sağlamaya yardımcı olur. Microsoft Dynamics 365 for Finance and Operations'ın çalışanın kaydını otomatik olarak doğrulamasını da etkinleştirebilirsiniz. Otomatik doğrulamayı etkinleştirirseniz, konum veya miktar için de doğrulama isteyemezsiniz. İş doğrulamaları, ürünleri ve ürün çeşitlerini de içerir. Ayrıca, bir barkod tarayarak da doğrulamaları kayda geçirebilirsiniz. Ürünleri ve ürün varyantlarını doğrulamak için, ürün veya ürün varyantı için kod girmeniz gerekir. Bu kod, bir ürün kodu, ürün arama kodu, harici kod, GTIN veya barkod olabilir. Kodu girdikten veya barkodu taradıktan sonra, ürün varyantına yönelik boyutlar mobil cihazda görüntülenir. 
 
 Aşağıdaki tabloda, iş doğrulamalarını birlikte kullanabileceğiniz çeşitli iş türleri açıklanmaktadır.
 

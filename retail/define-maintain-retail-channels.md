@@ -1,28 +1,28 @@
 ---
 title: "Perakende kanallarını tanımla ve koru"
-description: "Bu makalede, Microsoft Dynamics 365 for Operations perakende mağazaları olarak adlandırılan geleneksel mağazaları ayarlama işlemine genel bakış verilmektedir. Makalede, perakende mağaza ayarlamanızdan önce ve sonra tamamlamanız gereken görevleri hakkında bilgiler yer almaktadır."
+description: "Bu makalede, Microsoft Dynamics 365 for Retail perakende mağazaları olarak adlandırılan geleneksel mağazaları ayarlama işlemine genel bakış verilmektedir. Makalede, perakende mağaza ayarlamanızdan önce ve sonra tamamlamanız gereken görevleri hakkında bilgiler yer almaktadır."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16481
 ms.assetid: 14496d96-1c72-43ce-a2e7-8467bab4ae46
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c3de01350eafcccad8c49ac32eb2509a3d2975b6
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 3f0b566963574569cb40b72550e2337c9ba8a2ce
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,12 +32,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Bu makalede, Microsoft Dynamics 365 for Operations perakende mağazaları olarak adlandırılan geleneksel mağazaları ayarlama işlemine genel bakış verilmektedir. Makalede, perakende mağaza ayarlamanızdan önce ve sonra tamamlamanız gereken görevleri hakkında bilgiler yer almaktadır.
+Bu makalede, Microsoft Dynamics 365 for Retail perakende mağazaları olarak adlandırılan geleneksel mağazaları ayarlama işlemine genel bakış verilmektedir. Makalede, perakende mağaza ayarlamanızdan önce ve sonra tamamlamanız gereken görevleri hakkında bilgiler yer almaktadır.
 
-Microsoft Dynamics 365 for Operations'taki perakende ve ticaret, çevrimiçi mağazalar, çağrı merkezleri ve tuğla dibek mağazalar gibi birden fazla perakende kanalını destekler. Perakende ve ticarette, tuğla dibek mağazaya perakende mağaza adı verilir. Her perakende mağazasının kendi ödeme türleri, fiyat grupları, satış noktası (POS) kasaları, gelir hesapları ve gider hesapları ve personeli olabilir. Bir perakende mağazası oluşturmadan önce tüm bu öğeleri ayarlamanız gerekir. Perakende mağaza oluşturduktan sonra gerçekleştirmek istediğiniz ürünleri atarsınız. Ayrıca mağazaya çalışanlar, kasalar ve müşteriler atarsınız. Son olarak, yeni mağazayı bir organizasyon hiyerarşisine eklersiniz.
+Dynamics 365 for Retail, çevrimiçi mağazalar, çağrı merkezleri ve fiziki mağazalar gibi birden fazla perakende kanalını destekler. Bir tuğla dibek mağazaya perakende mağaza adı verilir. Her perakende mağazasının kendi ödeme türleri, fiyat grupları, satış noktası (POS) kasaları, gelir hesapları ve gider hesapları ve personeli olabilir. Bir perakende mağazası oluşturmadan önce tüm bu öğeleri ayarlamanız gerekir. Perakende mağaza oluşturduktan sonra gerçekleştirmek istediğiniz ürünleri atarsınız. Ayrıca mağazaya çalışanlar, kasalar ve müşteriler atarsınız. Son olarak, yeni mağazayı bir organizasyon hiyerarşisine eklersiniz.
 
 ## <a name="setting-up-retail-stores"></a>Perakende mağazaları kurma
-Microsoft Dynamics 365 for Operations, bir perakende mağaza kurmadan önce bazı önkoşul görevleri tamamlamanız gerekir. Sonrasında perakende mağazayı oluşturabilir ve ayrıntılar ekleyebilirsiniz.
+Microsoft Dynamics 365 for Retail, bir perakende mağaza kurmadan önce bazı önkoşul görevleri tamamlamanız gerekir. Sonrasında perakende mağazayı oluşturabilir ve ayrıntılar ekleyebilirsiniz.
 
 ### <a name="prerequisites"></a>Önkoşullar
 
@@ -53,7 +53,7 @@ Bir perakende mağaza kurmadan önce aşağıdaki görevleri tamamlamanız gerek
 8.  Perakende ürünleri ayarlayın. Bu görevin bir parçası olarak, ayrıca perakende ürün hiyerarşileri, ürün çeşitleri ve ürün sınıflamaları ayarlayın.
 9.  Ürün fiyat gruplarını ayarlayın.
 10. Perakende ürün fiyatlandırmasını ayarlayın. Bu görevin bir parçası olarak, aynı zamanda fiyat ayarlamaları, iskontolar ve iskonto dönemlerini ayarlayın.
-11. Personeli ayarlayın. **Not:** Perakende POS sistemi için oturum açıp Microsoft Dynamics 365 for Operations kullanarak görevleri yürütebilmeleri için, çalışanlara uygun izinleri de atamanız gerekir.
+11. Personeli ayarlayın. **Not:** Perakende POS sistemi için oturum açıp Microsoft Dynamics 365 for Retail kullanarak görevleri yürütebilmeleri için, çalışanlara uygun izinleri de atamanız gerekir.
 12. Mağazaya atamak için Perakende POS profillerini yapılandırın. Bu görev kayıtları ayarlamak, çevrimdışı profilleri ayarlamak ve makbuz biçimleri ve profilleri ayarlamak gibi birçok diğer görevi içerir.
 
 Önkoşula dahil tüm görevleri gözden geçirin ve yalnızca sizin için geçerli görevleri tamamlayın.
@@ -80,7 +80,7 @@ Perakende mağaza için ayrıntıları girdikten sonra, yeni perakende mağaza v
 6.  Perakende POS'una mağaza verisini göndermek için işleri yürütün.
 
 ## <a name="organization-hierarchies"></a>Kuruluş hiyerarşileri
-Perakende, perakende kanallarını yapılandırmak için Microsoft Dynamics AX'teki kuruluş hiyerarşilerini kullanır. Organizasyon hiyerarşileri, organizasyonlar arasındaki işinizi meydana getiren ilişkileri temsil eder. Mağazalar kurduğunuzda, onları bir organizasyon hiyerarşisine ekleyebilirsiniz. Ardından mağazalar ürün çeşitleri, stok yenileme ve raporlama için kullanılan verileri paylaşır.
+Retail, perakende kanallarını yapılandırmak için kuruluş hiyerarşilerini kullanır. Organizasyon hiyerarşileri, organizasyonlar arasındaki işinizi meydana getiren ilişkileri temsil eder. Mağazalar kurduğunuzda, onları bir organizasyon hiyerarşisine ekleyebilirsiniz. Ardından mağazalar ürün çeşitleri, stok yenileme ve raporlama için kullanılan verileri paylaşır.
 
 
 

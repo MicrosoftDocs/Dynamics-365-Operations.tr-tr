@@ -1,9 +1,9 @@
 ---
 title: Excel eklentisini kullanma
-description: "Bu konuda, Microsoft Excel&quot;de varlık verilerinin nasıl açılacağı, ardından Excel için Microsoft Dynamics Office eklentisini kullanarak bu verilerin nasıl görüntüleneceği, güncelleştirileceği ve düzenleneceği açıklanmaktadır. Varlık verilerini açmak için Excel veya Microsoft Dynamics 365 for Operations&quot;tan başlatabilirsiniz."
+description: "Bu konuda, Microsoft Excel'de varlık verilerinin nasıl açılacağı, ardından Excel için Microsoft Dynamics Office eklentisini kullanarak bu verilerin nasıl görüntüleneceği, güncelleştirileceği ve düzenleneceği açıklanmaktadır."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c391fb70d837db9c0f167b392291fc1c5cc2bb53
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: f55e1e89d0e48819962c169a56f0f27dc0d792b4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -30,16 +30,16 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu konuda, Microsoft Excel'de varlık verilerinin nasıl açılacağı, ardından Excel için Microsoft Dynamics Office eklentisini kullanarak bu verilerin nasıl görüntüleneceği, güncelleştirileceği ve düzenleneceği açıklanmaktadır. Varlık verilerini açmak için Excel veya Microsoft Dynamics 365 for Operations'tan başlatabilirsiniz.
+Bu konuda, Microsoft Excel'de varlık verilerinin nasıl açılacağı, ardından Excel için Microsoft Dynamics Office eklentisini kullanarak bu verilerin nasıl görüntüleneceği, güncelleştirileceği ve düzenleneceği açıklanmaktadır. Varlık verilerini açmak için Excel veya Microsoft Dynamics 365 Finance and Operations, Enterprise sürümünden başlatabilirsiniz.
 
 Varlık verilerini Microsoft Excel'de açarak, Excel için Microsoft Dynamics Office eklentisiyle bu verileri hızlı ve kolay bir şekilde görüntüleyip düzenleyebilirsiniz. Bu eklenti için Microsoft Excel 2016 gerekir. **Not:**, Microsoft Azure Active Directory (Azure AD) kiracınız Active Directory Federasyon Hizmetleri (AD FS) kullanmak üzere yapılandırılmışsa, Excel eklentisinin oturumunuzu doğru açabilmesi için Mayıs 2016 güncelleştirmesinin uygulandığından emin olmanız gerekir.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Dynamics 365 for Operations'tan başladığınız zaman varlık verilerini Excel'de açma
-1.  Microsoft Dynamics 365 for Operations'ta bir sayfada **Microsoft Office'te aç**'a tıklayın. Sayfanın kök veri kaynağı (tablo) tüm varlıklar için kök veri kaynağı ile aynı ise, sayfa için, varsayılan **Excel'de aç** seçenekleri oluşturulur. **Excel'de aç** seçenekleri sık kullanılan sayfalarda (**Tüm satıcılar** ve **Tüm müşteriler** vb.) bulunabilir.
+## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-finance-and-operations"></a>Dynamics 365 for Finance and Operations'tan başladığınız zaman varlık verilerini Excel'de açma
+1.  Microsoft Dynamics 365 for Finance and Operations'ta bir sayfada **Microsoft Office'te aç**'a tıklayın. Sayfanın kök veri kaynağı (tablo) tüm varlıklar için kök veri kaynağı ile aynı ise, sayfa için, varsayılan **Excel'de aç** seçenekleri oluşturulur. **Excel'de aç** seçenekleri sık kullanılan sayfalarda (**Tüm satıcılar** ve **Tüm müşteriler** vb.) bulunabilir.
 2.  Bir **Excel'de aç** seçeneğine tıklayın ve oluşturulan çalışma kitabını açın. Bu çalışma kitabı varlık için bağlayıcı bilgiler, ortamınız için bir işaretçi ve Excel eklentisi için bir işaretçi içerir.
 3.  Excel'de,**Düzenlemeyi etkinleştir**'e tıklayarak Excel eklentisini etkinleştirin. Excel eklentisi Excel penceresinin sağ tarafındaki bir bölmede çalışır.
 4.  Excel eklentisini ilk kez çalıştırıyorsanız **Bu eklentiyle güven**'e tıklayın.
-5.  Oturum açmanız istendiğinde **Oturum aç**'a ve ardından Dynamics 365 for Operations'ta oturum açmak için kullandığınız kimlik bilgilerini kullanarak oturum açın. Excel eklentisi, yapabiliyorsa, Internet Explorer'dan aldığı önceki oturum bağlamını kullanır ve oturumunuzu otomatik olarak açar. Bu nedenle, Excel eklentisinin sağ üst köşesindeki kullanıcı adını doğrulayın.
+5.  Oturum açmanız istendiğinde **Oturum aç**'a ve ardından Dynamics 365 for Finance and Operations'ta oturum açmak için kullandığınız kimlik bilgilerini kullanarak oturum açın. Excel eklentisi, yapabiliyorsa, Internet Explorer'dan aldığı önceki oturum bağlamını kullanır ve oturumunuzu otomatik olarak açar. Bu nedenle, Excel eklentisinin sağ üst köşesindeki kullanıcı adını doğrulayın.
 
 Excel eklentisi, seçtiğiniz varlıkla ilgili verileri otomatik olarak okur. Excel eklentisi okuyana kadar çalışma kitabında veri olmayacağını unutmayın.
 
@@ -48,7 +48,7 @@ Excel eklentisi, seçtiğiniz varlıkla ilgili verileri otomatik olarak okur. Ex
 2.  Office Mağazası'nda "Dynamics" anahtar sözcüğünü arayıp **Microsoft Dynamics Office Eklentisi** (Excel eklentisi) yanındaki **Ekle**'ye tıklayın.
 3.  Excel eklentisini ilk kez çalıştırıyorsanız **Bu eklentiyle güven**'e tıklayarak Excel eklentisini etkinleştirin. Excel eklentisi Excel penceresinin sağ tarafındaki bir bölmede çalışır.
 4.  **Sunucu bilgilerini ekle**'ye tıklayarak **Seçenekler** bölmesini açın.
-5.  Hedef Dynamics 365 for Operations örneğinizden tarayıcı URL'sini kopyalayıp **Sunucu URL**'si alanına yapıştırın ve ana bilgisayar adından sonraki her şeyi silin. Ortaya çıkan URL yalnızca ana bilgisayar adına sahip olmalıdır.
+5.  Hedef Dynamics 365 for Finance and Operations örneğinizden tarayıcı URL'sini kopyalayıp **Sunucu URL**'si alanına yapıştırın ve ana bilgisayar adından sonraki her şeyi silin. Ortaya çıkan URL yalnızca ana bilgisayar adına sahip olmalıdır.
 Örneğin URL https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage ise, **https://xxx.dynamics.com** hariç her şeyi silin.
 6.  **Tamam**'a ve ardından **Evet**'e tıklayarak değişikliği onaylayın. Excel eklentisi yeniden başlar ve meta verileri yükler. **Tasarım** düğmesi kullanılabilir hale gelir. Excel eklentisinde bir **Uygulamaları yükle** düğmesi varsa, büyük olasılıkla doğru kullanıcı olarak oturum açmamışsınızdır. Daha fazla bilgi için bu konunun "Sorun giderme" bölümündeki "Uygulamaları yükle düğmesi görünüyor" konusuna bakın.
 7.  **Tasarım**'ı tıklayın. Excel eklentisi varlık meta verilerini alır.

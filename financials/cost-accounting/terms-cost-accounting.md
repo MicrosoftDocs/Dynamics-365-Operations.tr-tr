@@ -3,14 +3,14 @@ title: Maliyet muhasebesi terminolojisi
 description: "Bu konu, Maliyet muhasebesinde kullanılan önemli terimleri tanımlar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7ce12337c22542aea2002ffc5abd09e4f4d770c1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 35b8e510e7e2c13aebb73f46d20b16275d097432
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ Bu konu, Maliyet muhasebesinde kullanılan önemli terimleri tanımlar.
 
 **Maliyet muhasebesi**
 
-Maliyet muhasebesi; genel muhasebe, muavin defterler, bütçeler ve istatistiksel bilgiler gibi çeşitli kaynaklardan veri toplamanıza olanak sağlar. Maliyet verilerini analiz edebilir, özetleyebilir ve değerlendirebilirsiniz. Böylelikle yönetim; fiyat güncelleştirmeleri, bütçeler, maliyet kontrolü ve bu gibi konularda en iyi kararı verebilir. Maliyet analizinde kullanılan kaynak verileri, Maliyet muhasebesinde bağımsız olarak ele alınır. Bu nedenle, maliyet muhasebesindeki güncelleştirmeler kaynak veriyi etkilemez. Ancak çeşitli kaynaklardan maliyet verileri toplandığında ve özellikle ana hesapları genel muhasebeden Microsoft Dynamics 365 for Operation'a maliyet öğeleri olarak içe aktardığınızda aynı bilgi hem genel muhasebede hem de maliyet muhasebesinde bulunduğundan veri fazlalığı meydana gelir. Bu fazlalık gereklidir, çünkü harici raporlama için mali yönetimi ve dahili raporlama için maliyet muhasebesini kullanırsınız.
+Maliyet muhasebesi; genel muhasebe, muavin defterler, bütçeler ve istatistiksel bilgiler gibi çeşitli kaynaklardan veri toplamanıza olanak sağlar. Maliyet verilerini analiz edebilir, özetleyebilir ve değerlendirebilirsiniz. Böylelikle yönetim; fiyat güncelleştirmeleri, bütçeler, maliyet kontrolü ve bu gibi konularda en iyi kararı verebilir. Maliyet analizinde kullanılan kaynak verileri, Maliyet muhasebesinde bağımsız olarak ele alınır. Bu nedenle, maliyet muhasebesindeki güncelleştirmeler kaynak veriyi etkilemez. Ancak çeşitli kaynaklardan maliyet verileri toplandığında ve özellikle ana hesapları genel muhasebeden Microsoft Dynamics 365 for Finance and Operation, Enterprise sürümüne maliyet öğeleri olarak içe aktardığınızda aynı bilgi hem genel muhasebede hem de maliyet muhasebesinde bulunduğundan veri fazlalığı meydana gelir. Bu fazlalık gereklidir, çünkü harici raporlama için mali yönetimi ve dahili raporlama için maliyet muhasebesini kullanırsınız.
 
 **Maliyet muhasebesi defteri**
 

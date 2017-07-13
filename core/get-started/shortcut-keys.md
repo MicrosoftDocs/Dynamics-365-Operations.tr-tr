@@ -1,15 +1,15 @@
 ---
 title: "Klavye kısayolları"
-description: "Aşağıdaki klavye kısayolları tüm Microsoft Dynamics 365 for Operations genelinde geçerlidir."
+description: "Aşağıdaki klavye kısayolları tüm Microsoft Dynamics 365 for Finance and Operations genelinde geçerlidir."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7d146f3dfe1d71e8d3031a851f47fac35d0f1a58
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8daf9d0c5b83e3bca66c0229a328737adeeb2951
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Aşağıdaki klavye kısayolları tüm Microsoft Dynamics 365 for Operations genelinde geçerlidir. 
+Aşağıdaki klavye kısayolları tüm Microsoft Dynamics 365 for Finance and Operations genelinde geçerlidir. 
 
 **Not:** Burada anlatılan klavye kısayolları, ABD klavye düzenine göredir. Diğer klavye düzenlerindeki tuşlar ABD klavyedeki tuşlara tam olarak karşılık gelmeyebilir.
 
@@ -44,7 +44,7 @@ Aşağıdaki klavye kısayolları tüm Microsoft Dynamics 365 for Operations gen
 | Bir menüde sonraki/önceki seçeneğe gitme            | Aşağı Ok / Yukarı Ok            |
 | Eylem bölmesinde veya bir menü içinde bir sekmeyi kapatma          | Esc                              |
 | Sağ tıklatma benzetimi                            | Shift+F10                        |
-| Dynamics 365 for Operations bağlam menüsünü açma | Ctrl+F10                         |
+| Finance and Operations içerik menüsünü açın | Ctrl+F10                         |
 | Form/iletişim kutusu üzerinde varsayılan düğmeyi yürütme       | Alt+Enter                        |
 | Bir düğmeyi veya döşemeyi tıklama                            | Enter veya Boşluk                   |
 | Bir sayım döşemesi için yenileme bilgilerini görüntüleme         | Alt+Yukarı Ok                     |

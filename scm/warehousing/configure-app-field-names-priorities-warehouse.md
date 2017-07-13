@@ -1,16 +1,16 @@
 ---
 title: "Ambarlama uygulaması içerisinde alan adlarını yapılandırma"
-description: "Bu konu, Dynamics 365 for Operations için ambar uygulaması alan adlarını ve önceliklerini tanımlamayı ve yapılandırmayı açıklamaktadır."
+description: "Bu konu, Finance and Operations için ambar uygulaması alan adlarını ve önceliklerini tanımlamayı ve yapılandırmayı açıklamaktadır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 269434
 ms.assetid: 6cf3d7da-29bb-4d3d-aaf5-544ca9cc2980
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: edcbf8a0921e0eb08d0f970e681c9d098b354c0b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 49db5ad10914897b2157e123c5803ca51e4e66e7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,14 +32,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu konu, Dynamics 365 for Operations için ambar uygulaması alan adlarını ve önceliklerini tanımlamayı ve yapılandırmayı açıklamaktadır. 
+Bu konu, Finance and Operations için ambar uygulaması alan adlarını ve önceliklerini tanımlamayı ve yapılandırmayı açıklamaktadır. 
 
-**Not:** Bu konu, Ambar yönetimindeki özellikler için geçerlidir. Stok yönetimindeki özellikler için geçerli değildir. Dynamics 365 for Operations - Ambarlama, ambar görevlerini gerçekleştirmek için kullanabileceğiniz bir uygulamadır. Uygulama içerisinde kullanılan alan adlarını tanımlayabilir ve yapılandırabilirsiniz ve ayrıca alan adlarının atanacağı önceliği de yapılandırabilirsiniz. Bu konu, bu ambar uygulamaların alan adlarını ve önceliklerini nasıl tanımlayacağını ve yapılandıracağını ve bunların Dynamics 365 for Operations - Ambarlama içerisinde nasıl kullanıldıklarını açıklar. Dynamics 365 for Operations - Ambarlama'ya bağlantıyı yapılandırmak hakkında ayrıntılı bilgi için şu kılavuza bakınız [Dynamics 365 for Operations - Ambarlama'yı kurma ve yapılandırma](install-configure-warehousing-app.md).
+**Not:** Bu konu, Ambar yönetimindeki özellikler için geçerlidir. Stok yönetimindeki özellikler için geçerli değildir. Finance and Operations - Ambarlama, ambar görevlerini gerçekleştirmek için kullanabileceğiniz bir uygulamadır. Uygulama içerisinde kullanılan alan adlarını tanımlayabilir ve yapılandırabilirsiniz ve ayrıca alan adlarının atanacağı önceliği de yapılandırabilirsiniz. Bu konu, bu ambar uygulamaların alan adlarını ve önceliklerini nasıl tanımlayacağını ve yapılandıracağını ve bunların Finance and Operations - Ambarlama içerisinde nasıl kullanıldıklarını açıklar. Finance and Operations - Ambarlama'ya bağlantıyı yapılandırmak hakkında ayrıntılı bilgi için şu kılavuza bakınız [Finance and Operations - Ambarlama'yı kurma ve yapılandırma](install-configure-warehousing-app.md).
 
 <a name="configure-warehouse-app-field-names"></a>Ambar uygulaması alan adlarını yapılandırın
 ===================================
 
-Dynamics 365 for Operations - Ambarlama'yı mobil cihazınızda kullandığınızda, meta verini cihazınızda nasıl görüntüleceğini **Ambar uygulaması alan adları** sayfasından ayarlayabilirsiniz. Dynamics 365 for Operations içerisindeki yeni bir şirkette ambar mobil cihaz iş akışlarında kullanılacak tüm alan adlarını oluşturmak için **Varsayılan kurulum oluşturma**'yı seçin ve daha sonra tercih edilen giriş modunu ve giriş türünü bunlara atayın. Tüm alan adlarını oluşturduktan sonra, aşağıdaki giriş seçeneklerini seçebilirsiniz.
+Finance and Operations - Ambarlama'yı mobil cihazınızda kullandığınızda, meta verini cihazınızda nasıl görüntüleceğini **Ambar uygulaması alan adları** sayfasından ayarlayabilirsiniz. Finance and Operations içerisindeki yeni bir şirkette ambar mobil cihaz iş akışlarında kullanılacak tüm alan adlarını oluşturmak için **Varsayılan kurulum oluşturma**'yı seçin ve daha sonra tercih edilen giriş modunu ve giriş türünü bunlara atayın. Tüm alan adlarını oluşturduktan sonra, aşağıdaki giriş seçeneklerini seçebilirsiniz.
 
 <table>
 <colgroup>
@@ -73,7 +73,7 @@ Dynamics 365 for Operations - Ambarlama'yı mobil cihazınızda kullandığını
 <a name="configure-warehouse-app-field-priority"></a>Ambar uygulaması alan önceliğini yapılandırma
 ======================================
 
-**Ambar uygulaması alan önceliği** sayfasında, alan adlarını farklı öncelik gruplarına yerleştirebilirsiniz. Ambar çalışanları uygulamayı kullanırlarken ana görev sayfasında hangi bilginin gösterileceğini belirlemeyi mümkün kılar. **Varsayılan kurulum oluştur** üzerine tıklarsanız, öncelik gruplarının varsayılan bir kümesi oluşturulur. İhtiyaç duyulduğu kadar öncelik grubu oluşturmak mümkündür, ancak görev sayfasında sadece üç öncelik grubu gösterilir. Dynamics 365 for Operations uygulamaya meta veri gönderdiğinde her alanın öncelik grubuna göre bir göreceli öncelik atar ve uygulama, görev sayfası içerisindeki meta veride içerilen ilk üç öncelik grubunu görüntüler. Taşan meta verinin geri kalanı, ikincil ayrıntılar sayfasında görüntülenir. Aşağıdaki tablo beş öncelik grubu örneğini gösterir.
+**Ambar uygulaması alan önceliği** sayfasında, alan adlarını farklı öncelik gruplarına yerleştirebilirsiniz. Ambar çalışanları uygulamayı kullanırlarken ana görev sayfasında hangi bilginin gösterileceğini belirlemeyi mümkün kılar. **Varsayılan kurulum oluştur** üzerine tıklarsanız, öncelik gruplarının varsayılan bir kümesi oluşturulur. İhtiyaç duyulduğu kadar öncelik grubu oluşturmak mümkündür, ancak görev sayfasında sadece üç öncelik grubu gösterilir. Finance and Operations uygulamaya meta veri gönderdiğinde her alanın öncelik grubuna göre bir göreceli öncelik atar ve uygulama, görev sayfası içerisindeki meta veride içerilen ilk üç öncelik grubunu görüntüler. Taşan meta verinin geri kalanı, ikincil ayrıntılar sayfasında görüntülenir. Aşağıdaki tablo beş öncelik grubu örneğini gösterir.
 
 <table>
 <colgroup>
@@ -141,12 +141,12 @@ Yukarıdaki tabloda ayarlanmış olan ambar uygulaması alan öncelik kümesine 
 -   Satır 2: Madde açıklaması
 -   Satır 3: Boyut
 
-Kalan meta veri, örneğin Konum, görev sayfasında görüntülenmeyecektir, ancak bir ayrıntılar sayfasında görüntülenir. Kullanıcı arabirimi hakkında daha fazla bilgi almak ve örnekler görmek için şu blog gönderisine bakın [Dynamics 365 for Operations - Ambarlama](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/)
+Kalan meta veri, örneğin Konum, görev sayfasında görüntülenmeyecektir, ancak bir ayrıntılar sayfasında görüntülenir. Kullanıcı arabirimi hakkında daha fazla bilgi almak ve örnekler görmek için şu blog gönderisine bakın [Finance and Operations - Ambarlama](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/)
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Microsoft Dynamics 365 for Operations – Ambarlama yükleme ve yapılandırma](install-configure-warehousing-app.md)
+[Microsoft Dynamics 365 for Finance and Operations – Ambarlama yükleme ve yapılandırma](install-configure-warehousing-app.md)
 
 
 

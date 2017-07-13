@@ -3,7 +3,7 @@ title: "Eleme kuralları"
 description: "Bu konuda, eleme kuralları ve elemeler hakkında raporlama için çeşitli seçenekler ile ilgili bilgiler verilmektedir."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ab1d8fb5bfc9413652d222e701c44b3b91a4c842
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 76af350f37109260a757ccc0b93908637d0579dc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -133,7 +133,7 @@ Tüzel kişiliğiniz (A tüzel kişiliği) kuruluşunuzdaki başka bir tüzel ki
 Tüm bu hareketler, borç ve alacak hesaplarına nakledilen şirketlerarası hareketleri oluşturur. Ayrıca bu hareketler, şirketlerarası satış ve satılan malların maliyeti eşit olmadığı zaman artırma ve azaltma tutarlarını da içerebilir.
 
 ## <a name="set-up-elimination-rules"></a>Eliminasyon kurallarını ayarlama
-Dynamics 365 for Operations içinde eleme kuralları ayarlanırken, eleme amaçlı ayrı bir mali boyut oluşturmanızı öneririz. Müşterilerin çoğu buna Ticaret Ortağı veya benzer bir ad verirler. Bir mali boyut kullanmamaya karar verirseniz, yalnızca şirketlerarası harektelere özel bir ana hesaba sahip olduğunuzdan emin olun. 
+Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içinde eleme kuralları ayarlanırken, eleme amaçlı ayrı bir mali boyut oluşturmanızı öneririz. Müşterilerin çoğu buna Ticaret Ortağı veya benzer bir ad verirler. Bir mali boyut kullanmamaya karar verirseniz, yalnızca şirketlerarası harektelere özel bir ana hesaba sahip olduğunuzdan emin olun. 
 
 Elemeler için kurulum, Konsolidasyonlar modülünün kurulum alanında bulunur. Bir kural için bir açıklama girdikten sonra, eleme günlüğünün nakledeceği şirketi seçmeniz gerekir. Bu, Tüzel varlık kurulumunda **Mali eleme sürecini kullan**'ın seçilmiş olduğu bir şirket olmalıdır. 
 

@@ -1,27 +1,27 @@
 ---
 title: "Mali raporları görüntüle"
-description: "Bu makalede, Microsoft Dynamics AX&quot;de finansal raporların nasıl görüntüleneceği ve keşfedileceği açıklanmaktadır. Görünümlerini ve içerdikleri veriyi değiştirmek için finansal raporlara uygulayabileceğiniz çeşitli seçenekler hakkında bilgiler içerir."
-author: RobinARH
+description: "Bu makale Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümündeki mali raporların nasıl görüntüleneceğini ve keşfedileceğini açıklar. Görünümlerini ve içerdikleri veriyi değiştirmek için finansal raporlara uygulayabileceğiniz çeşitli seçenekler hakkında bilgiler içerir."
+author: kweekley
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
 ms.search.region: Global
-ms.author: aolson
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b02dbc0181c08611674cdf571075c20d78cebdc
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 102031174417a33b12c32f6b8185556b8c4701e5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, Microsoft Dynamics AX'de finansal raporların nasıl görüntüleneceği ve keşfedileceği açıklanmaktadır. Görünümlerini ve içerdikleri veriyi değiştirmek için finansal raporlara uygulayabileceğiniz çeşitli seçenekler hakkında bilgiler içerir.
+Bu makale Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümündeki mali raporların nasıl görüntüleneceğini ve keşfedileceğini açıklar. Görünümlerini ve içerdikleri veriyi değiştirmek için finansal raporlara uygulayabileceğiniz çeşitli seçenekler hakkında bilgiler içerir.
 
 <a name="financial-reporting-overview"></a>Mali raporlamaya genel bakış
 ----------------------------
@@ -64,7 +64,7 @@ Bir mali raporu, raporun oluşturulduğu dönem ve yıl için en son verileri g�
 Bir mali rapor güncelleştirdikten sonra yayımlayabilirsiniz. Bu durumda organizasyonunuzdaki diğer kişiler de raporu görebilir. Bir raporu yayınlamak için Eylem Panosundan **Yayınla** düğmesini tıklayın.
 
 ## <a name="display-a-financial-report-in-a-different-currency"></a>Bir mali raporu başka bir para biriminde gösterme
-Bir mali rapor istenildiği anda istenilen bir para biriminde görüntülenebilir. Bir raporu farklı bir para biriminde göstermek için Eylem Panosundan **Para Birimi** düğmesini tıklayın ve ardından bir para birimi seçin. Rapor, seçilen para birimine çevrilerek sonuçlar görüntülenir. Rapor tasarımının bir parçası olarak dahil edilen tüm para birimi kodları veya simgeleri yeni para birimini yansıtacak şekilde güncelleştirilir. Listede görüntülenen para birimleri, Microsoft Dynamics AX'te yapılandırılan raporlama para birimleridir.
+Bir mali rapor istenildiği anda istenilen bir para biriminde görüntülenebilir. Bir raporu farklı bir para biriminde göstermek için Eylem Panosundan **Para Birimi** düğmesini tıklayın ve ardından bir para birimi seçin. Rapor, seçilen para birimine çevrilerek sonuçlar görüntülenir. Rapor tasarımının bir parçası olarak dahil edilen tüm para birimi kodları veya simgeleri yeni para birimini yansıtacak şekilde güncelleştirilir. Listede görüntülenen para birimleri, Finance and Operations'da yapılandırılan raporlama para birimleridir.
 
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Mali raporun bir özet görünümünü görüntüleme
 Bir mali rapor ayrıntılı satırlar ve özet satırlar içerebilir. Ayrıntılı satırlar çok sayıda hesap veya boyut içeren satırlardır. Özet satırları açıklama, toplam ve hesaplama satırlarıdır. Bir raporun yalnızca özet satırlarını görüntülemek için tıklatın **Göster** düğmesini ve ardından **Sadece özet satırları** düğmesini tıklayın. Rapor daraltılır ve sadece özet satırlarını görüntüler. Ayrıntılı satırları özet satırlarıyla birlikte görüntülemek için **Göster** düğmesini tıklayın ve ardından tekrar **Sadece özet satırları** düğmesini tıklayın.
@@ -88,7 +88,8 @@ Bir mali raporu dışa aktarmak için Eylem Panosundan **Dışa aktar** düğmes
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Microsoft Dynamics AX için finansal raporlama](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+[Microsoft Dynamics AX için finansal raporlama](/dynamics365/unified-operations/dev-itpro/analytics/financial-reporting-intro)
+
 
 
 

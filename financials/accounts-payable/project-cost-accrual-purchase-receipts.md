@@ -1,15 +1,15 @@
 ---
 title: "Satınalma girişlerinde proje maliyet tahakkuku"
-description: "Bu konu, satınalma girişlerinden tahakkuk eden proje maliyetlerinin Microsoft Dynamics 365 for Operations&quot;da nasıl izlenebileceğini açıklar."
+description: "Bu konu, satınalma girişlerinden tahakkuk eden proje maliyetlerinin Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünde nasıl izlenebileceğini açıklar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 266984
 ms.assetid: 61e7d2a3-5aab-4113-bccc-213f932885d2
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: acb14deb9d77927ffc95500e4e97763ba3ad7826
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b46929d2991f3ec1b38d54ddc57de632aa9b01b9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu konu, satınalma girişlerinden tahakkuk eden proje maliyetlerinin Microsoft Dynamics 365 for Operations'da nasıl izlenebileceğini açıklar. 
+Bu konu, satınalma girişlerinden tahakkuk eden proje maliyetlerinin Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünde nasıl izlenebileceğini açıklar. 
 
 Bir proje için fatura genellikle mallar ve hizmetler teslim edildikten daha sonra gelir; bu durumun projenin temel performans göstergeleri (KPI'ler) üzerinde önemli bir etkisi olabilir. Bu hareketleri hem mali hem de proje raporlarından izleyebilmek önemlidir.
 
@@ -38,7 +38,7 @@ Aşağıdaki örnek senaryoda bu gösterilmektedir.
 
 Contoso Danışmanlık yeni bir bulut dağıtım projesi başlatmıştır. Proje için bir bilgisayar satın almak üzere bir satınalma siparişi oluşturulur. Bilgisayar maliyeti $1500 ve yükleme hizmetleri maliyeti $150 olacaktır. Satıcı bilgisayarı teslim eder ve kurulumunu yapar ancak fatura henüz Contoso Danışmalığa ulaşmamıştır. Proje yöneticisi, fatura teslim edilmeden önce tahakkuk eden $1650 tutarındaki proje maliyetini görmek ister. Bu maliyetin şirketin ay sonu mali tablosuna da yansıtılması gerekmetedir. 
 
-Tahakkuk eden maliyetin hem mali düzeyde hem de raporlama amacıyla proje düzeyinde kaydedilmesi gerekir. Dynamics 365 for Operations'da ürün girişinin mali güncelleştirmesi madde ve tedarik kategorileri için izlenebilir. 
+Tahakkuk eden maliyetin hem mali düzeyde hem de raporlama amacıyla proje düzeyinde kaydedilmesi gerekir. Finance and Operations'da ürün girişinin mali güncelleştirmesi madde ve tedarik kategorileri için izlenebilir. 
 
 Maddeler için **Borç hesapları parametreleri** sayfasında, **Ürün girişlerini genel muhasebeye naklet** seçeneğini seçin.
 [![accruals1](./media/accruals1-1024x409.png)](./media/accruals1.png) 
@@ -73,7 +73,7 @@ Satınalma siparişi teyit edildiğinde, proje için taahhüt edilen maliyet har
 
 **Adım 3:** Taslak bir satıcı faturası oluşturma 
 
-Dynamics 365 for Operations'da ürün girişinin deftere nakledilmesi proje bilgilerini etkilemez. Geçici bir çözüm olarak, satınalma girişini deftere naklettikten sonra taslak bir satıcı faturası oluşturabilirsiniz. **Satınalma Siparişi** sayfasında &gt; **Fatura sekmesi** &gt; **Generate** &gt; **Fatura** öğesine gidin. Bu, proje bilgilerini güncelleştiren bir bekleyen fatura belgesi oluşturur. 
+Finance and Operations'da ürün girişinin deftere nakledilmesi proje bilgilerini etkilemez. Geçici bir çözüm olarak, satınalma girişini deftere naklettikten sonra taslak bir satıcı faturası oluşturabilirsiniz. **Satınalma Siparişi** sayfasında &gt; **Fatura sekmesi** &gt; **Generate** &gt; **Fatura** öğesine gidin. Bu, proje bilgilerini güncelleştiren bir bekleyen fatura belgesi oluşturur. 
 
 Taslak satıcı faturası oluşturma bekleyen proje hareketleri oluşturur. 
 [![accruals8](./media/accruals8-1024x225.png)](./media/accruals8.png) 

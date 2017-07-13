@@ -1,16 +1,16 @@
 ---
-title: "Dynamics 365 for Operations mobil uygulama giriş sayfası"
-description: "Bu konu, Microsoft Dynamics 365 for Operations mobil uygulamasını açıklar ve kuruluşunuz içerisinde uygulamanıza yardımcı olacak kaynaklara bağlantılar sağlar."
+title: "Mobil uygulama giriş sayfası"
+description: "Bu konu, Microsoft Dynamics 365 for Unified Operations mobil uygulamasını açıklar ve kuruluşunuz içerisinde uygulamanıza yardımcı olacak kaynaklara bağlantılar sağlar."
 author: sericks007
 manager: AnnBe
-ms.date: 04/10/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.reviewer: annbe
-ms.search.scope: Operations, Platform
+ms.reviewer: sericks
+ms.search.scope: Operations, UnifiedOperations, Platform
 ms.custom: 272853
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
@@ -18,50 +18,53 @@ ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5962fa36b061382e7f0ad55c08c81ac2cebc047d
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 663a03dc37cc1631bd285a76ef564993a34ed057
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="dynamics-365-for-operations-mobile-app-home-page"></a>Dynamics 365 for Operations mobil uygulama giriş sayfası
+# <a name="mobile-app-home-page"></a>Mobil uygulama giriş sayfası
 
 [!include[banner](../includes/banner.md)]
 
+Bu konu, Microsoft Dynamics 365 for Unified Operations mobil uygulamasını açıklar ve kuruluşunuz içerisinde uygulamanıza yardımcı olacak kaynaklara bağlantılar sağlar.
 
-Bu konu, Microsoft Dynamics 365 for Operations mobil uygulamasını açıklar ve kuruluşunuz içerisinde uygulamanıza yardımcı olacak kaynaklara bağlantılar sağlar.
+> [!NOTE]
+> Mobil uygulamanın adı daha önce *Microsoft Dynamics 365 for Finance and Operations* idi.
 
 <a name="overview"></a>Özet
 --------
 
-Microsoft Dynamics 365 for Operations mobil uygulaması, kuruluşunuzun iş süreçlerinin mobil cihazlarda kullanılabilir olmasını sağlar. BT yöneticiniz mobil çalışma alanları özelliğini kuruluşunuz için etkinleştirdikten sonra, kullanıcılar uygulamaya oturum açabilir ve iş süreçlerini mobil cihazlarından yürütmeye anında başlayabilirler. Dynamics 365 for Operations mobil uygulaması, verimliliği artıracak aşağıdaki özellikleri içerir:
+Mobil uygulama, kuruluşunuzun iş süreçlerinin mobil cihazlarda kullanılabilir olmasını sağlar. BT yöneticiniz mobil çalışma alanları, kuruluşunuz için etkinleştirdikten sonra, kullanıcılar uygulamaya oturum açabilir ve iş süreçlerini mobil cihazlarından yürütmeye anında başlayabilirler. Mobil uygulama, verimliliği artıracak aşağıdaki özellikleri içerir:
 
--   Kullanıcılar iş verilerini görebilir, düzenleyebilir ve bunlar üzerinde harekete geçebilirler, ağ bağlantıları kesintili olsa bile veya mobil cihazları tümüyle çevrimdışı olduğunda bile. Bir cihaz ağ bağlantısını yeniden kurduğunda, çevrimdışı veri operasyonları Dynamics 365 for Operations ile otomatik olarak eşitlenir.
--   BT yöneticileri veya geliştiricileri, kuruluşunuz için özel hazırlanmış mobil çalışma alanları hazırlayabilir ve bunları yayınlayabilirler. Uygulama, varolan kod varlıklarınızı kullanır. Bu nedenle, doğrulama yordamlarınızı, iş mantığınızı veya güvenlik yapılandırmanızı yeniden uygulamak zorunda kalmazsınız.
--   BT yöneticileri veya geliştiricileri, Dynamics 365 for Operations web istemcisi içinde dahil olan işaretle ve tıkla çalışma alanı tasarımcısını kullanarak kolayca tasarlayabilirler.
--   BT yöneticileri veya geliştiricileri, İş mantığı genişletilebilme çerçevesini kullanarak çalışma alanlarının kabiliyetlerini isteğe bağlı olarak optimize edebilirler. Cihaz çevrimdışıyken de veri işlenmeye devam ettiği için cihazlarınız sürekli internet bağlantısına sahip olmasa bile mobil senaryolarınız zengin ve akıcı kalır.
+- Kullanıcılar iş verilerini görebilir, düzenleyebilir ve bunlar üzerinde harekete geçebilirler, ağ bağlantıları kesintili olsa bile veya mobil cihazları tümüyle çevrimdışı olduğunda bile. Bir cihaz ağ bağlantısını tekrar kurduktan sonra, çevrimdışı veri işlemleri, Dynamics 365 for Finance and Operations, Enterprise edition veya Microsoft Dynamics 365 for Finance and Operations ile otomatik eşitlenir.
+- BT yöneticileri veya geliştiricileri, kuruluşunuz için özel hazırlanmış mobil çalışma alanları hazırlayabilir ve bunları yayınlayabilirler. Uygulama, varolan kod varlıklarınızı kullanır. Bu nedenle, doğrulama yordamlarınızı, iş mantığınızı veya güvenlik yapılandırmanızı yeniden uygulamak zorunda kalmazsınız.
+- BT yöneticileri veya geliştiricileri, web istemcisi içinde dahil olan işaretle ve tıkla çalışma alanı tasarımcısını kullanarak kolayca tasarlayabilirler.
+- BT yöneticileri veya geliştiricileri, İş mantığı genişletilebilme çerçevesini kullanarak çalışma alanlarının kabiliyetlerini isteğe bağlı olarak optimize edebilirler. Cihaz çevrimdışıyken de veri işlenmeye devam ettiği için cihazlarınız sürekli internet bağlantısına sahip olmasa bile mobil senaryolarınız zengin ve akıcı kalır.
 
 ## <a name="elements-of-the-mobile-app"></a>Mobil uygulamanın öğeleri
-Mobil uygulamadaki gezinti, dört basit kavramdan oluşur: Pano, çalışma alanları, sayfalar ve eylemler. 
+Mobil uygulamadaki gezinti, dört temel kavramdan oluşur: Pano, çalışma alanları, sayfalar ve eylemler. 
 
 [![Mobil uygulamadaki gezinme kavramları](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
--   Uygulamayı başlattığınızda **pano**'ya gidersiniz.
--   Panoda, Dynamics 365 for Operations ortamınız için yayımlanmış **çalışma alanları**'nın bir listesini görürsünüz.
--   Her bir çalışma alanında, o çalışma alanı için kullanılabilen **sayfalar**'ın bir listesini görürsünüz.
--   Bir sayfada, Dynamics 365 for Operations içindeki bir veya birden fazla sayfadan toplanan verileri görürsünüz.
--   Bir sayfadan, ilgili veri için diğer sayfalara gezinebilirsiniz, örneğin varlık ayrıntıları veya satırlar.
--   Bir sayfada, bu sayfa için kullanılabilen **eylemler**'in bir listesini de görebilirsiniz.
--   Eylemler veri oluşturmanıza veya mevcut veriyi düzenlemenize olanak tanır.
+1. Uygulamayı başlattığınızda **pano**'ya gidersiniz.
+2. Panoda, yayımlanmış olan **çalışma alanlarının** bir listesini görebilirsiniz.
+3. Her bir çalışma alanında, o çalışma alanı için kullanılabilen **sayfalar**'ın bir listesini görürsünüz.
+4. Sayfaya ulaştıktan sonra, bir dizi eylem gerçekleştirebilirsiniz. Burada bazı örnekler verilmiştir:
+
+    - Ayrıntılı veriyi görüntüle.
+    - ilgili veri için diğer sayfalara gezinebilirsiniz, örneğin varlık ayrıntıları veya satırlar.
+    - O sayfa için kullanılabilir olan **eylemlerin** bir listesini görüntüle. Eylemler veri oluşturmanıza veya mevcut veriyi düzenlemenize olanak tanır.
 
 ## <a name="implementation-process"></a>Uygulama işlemi
-Aşağıdaki görsel, Dynamics 365 for Operations mobil uygulamasını kuruluşunuzda uygulama sürecini göstermektedir. 
+Aşağıdaki görsel, Microsoft tarafından sağlanan ve özel mobil çalışma alanlarının her ikisinin de uygulama işlemini gösterir. 
 
-![Mobil uygulamalar uygulama süreci](./media/mobile-implementation-process_4.png)
+![Mobil uygulamalar uygulama süreci](./media/Mobile-implementation-process-5.png)
 
-Aşağıdaki tablo, Dynamics 365 for Operations mobil uygulamasını kuruluşunuza uygulamaya yardımcı olacak kaynaklara bağlantılar içerir. İlk sütundaki sayılar, önceki görseldeki numaralandırılmış adımlara karşılık gelir.
+Aşağıdaki tablo, Microsoft ve özel mobil çalışma alanlarından sağlanan her iki mobil çalışma alanını uygulamanıza yardımcı olacak kaynaklara bağlantılar içerir. İlk sütundaki sayılar, önceki görseldeki numaralandırılmış adımlara karşılık gelir.
 
 <table>
 <colgroup>
@@ -82,21 +85,23 @@ Aşağıdaki tablo, Dynamics 365 for Operations mobil uygulamasını kuruluşunu
 <tr class="odd">
 <td>1</td>
 <td>Sistem yöneticisi</td>
-<td>Kuruluşunuz için Dynamics 365 for Operations uygulama.</td>
-<td>Dynamics 365 for Operations'u kuruluşunuz için halihazırda dağıtılmadıysa, bakınız <a href="../deployment/deploy-demo-environment.md">Bir Microsoft Dynamics 365 for Operations demo ortamı dağıt</a>.</td>
+<td>Kuruluşunuzda Finance and Operations veya Finance and Operations'ı uygulayın.</td>
+<td><ul><li>Henüz bir Microsoft Dynamics 365 sürümünü dağıtmadıysanız, bkz. <a href="../deployment/deploy-demo-environment.md">Bir gösteri sürümü dağıtmak</a>.</li><li>Kullanılabilir mobil çalışma alanlarının bir listesini görmek için bkz. <a href="mobile-workspaces-released.md">Yakın zamanda yayımlanmış olan mobil çalışma alanları</a>.</li></ul></td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td>Sistem yöneticisi</td>
-<td>Microsoft tarafından sağlanan mobil çalışma alanlarını etkinleştiren KB'leri yükleyin ve kurun.</td>
-<td>Kuruluşunuzun kullanmak istediği mobil çalışma alanları hakkındaki konudaki &quot;Önkoşullar&quot; bölümüne göz atın.
+<td><strong>Microsoft Dynamics 365 for Finance and Operations sürüm 1611 kullanıyorsanız:</strong> Microsoft tarafından sağlanan mobil çalışma alanlarını etkinleştiren KB'leri indir ve yükleyin.</td>
+<td>Daha fazla bilgi için aşağıdaki konulara göz atın:
 <ul>
-<li><a href="/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Mobil çalışma alanlarının maliyet kontrolü</a></li>
-<li><a href="/dynamics365/operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">Eldeki stok mobil çalışma alanı</a></li>
-<li><a href="/dynamics365/operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">Satış siparişleri mobil çalışma alanları</a></li>
-<li><a href="/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Satıcı iş birliği mobil çalışma alanı</a></li>
-<li><a href="/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Proje saati girişi mobil çalışma alanı</a></li>
-<li><a href="/dynamics365/operations/financials/expense-management/expense-management-mobile-workspace">Mobil çalışma alanında gider yönetimi</a></li>
+
+<li><a href="/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace">Mobil çalışma alanlarının maliyet kontrolü</a></li>
+<li><a href="/dynamics365/unified-operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">Eldeki stok mobil çalışma alanı</a></li>
+<li><a href="/dynamics365/unified-operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">Satış siparişleri mobil çalışma alanları</a></li>
+<li><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Satıcı işbirliği mobil çalışma alanı</a></li>
+<li><a href="/dynamics365/unified-operations/financials/project-management/project-time-entry-mobile-workspace">Proje saati girişi mobil çalışma alanı</a></li>
+<li><a href="/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace">Mobil çalışma alanında gider yönetimi</a></li>
+
 </ul></td>
 </tr>
 <tr class="odd">
@@ -109,10 +114,10 @@ Aşağıdaki tablo, Dynamics 365 for Operations mobil uygulamasını kuruluşunu
 <tr class="even">
 <td>4</td>
 <td>Geliştirici veya bağımsız yazılım satıcısı (ISV)</td>
-<td>Dynamics 365 for Operations mobil çerçevesini, özel mobil çalışma alanları oluşturmak için kullanın.</td>
+<td>Mobil çerçeveyi, özel mobil çalışma alanları oluşturmak için kullanın.</td>
 <td><ul>
-<li><a href="mobile-platform.md">Dynamics 365 for Operations mobil çerçevesi</a></li>
-<li><a href="http://ax.help.dynamics.com/en/wiki/operations-mobile-workspace-x-apis/">Dynamics 365 for Operations çalışma alanları X++ API'leri</a></li>
+<li><a href="mobile-platform.md">Mobil çerçeve</a></li>
+<li><a href="http://ax.help.dynamics.com/en/wiki/operations-mobile-workspace-x-apis/">Çalışma alanı X++ API'ları</a></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -124,8 +129,8 @@ Aşağıdaki tablo, Dynamics 365 for Operations mobil uygulamasını kuruluşunu
 <tr class="even">
 <td>6</td>
 <td>Sistem yöneticisi</td>
-<td>ISV tarafından sağlanan özel çalışma alanlarını içeren dağıtılabilir paketi uygulayın.</td>
-<td><a href="../deployment/apply-deployable-package-system.md">Bir Microsoft Dynamics 365 for Operations sistemine bir dağıtılabilir paket uygulayın</a></td>
+<td>Bağımsız yazılım satıcısı (ISV) tarafından sağlanan özel çalışma alanlarını içeren dağıtılabilir paketi uygulayın.</td>
+<td><a href="../deployment/apply-deployable-package-system.md">Dağıtılabilir paket uygulama</a></td>
 </tr>
 <tr class="odd">
 <td>7</td>
@@ -136,24 +141,19 @@ Aşağıdaki tablo, Dynamics 365 for Operations mobil uygulamasını kuruluşunu
 <tr class="even">
 <td>8</td>
 <td>Kullanıcı</td>
-<td>Dynamics 365 for Operations mobil uygulamasını yükleyin ve kurun.</td>
+<td>Mobil uygulamayı indirin ve yükleyin.</td>
 <td><ul>
-<li>Android için: <a href="https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile">Google Play Store'da Dynamics 365 for Operations</a></li>
-<li>iPhone için: <a href="https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8">iTunes apps mağazsında Dynamics 365 for Operations</a></li>
-</ul></td>
+<li><a href="https://go.microsoft.com/fwlink/?linkid=850662">Android telefonlar için</a></li>
+<li><a href="https://go.microsoft.com/fwlink/?linkid=850663">iPhone'lar için</a></li></ul>
+</td>
 </tr>
 <tr class="odd">
 <td>9</td>
 <td>Kullanıcı</td>
-<td>Oturum açın ve Dynamics 365 for Operations mobil uygulamasını kullanın. Uygulama, yayınlanan mobil çalışma alanlarını içerir.</td>
-<td>Microsoft tarafından sağlanan mobil çalışma alanlarının bir listesini görmek için bkz. <a href="mobile-workspaces-released.md">Dynamics 365 for Operations mobil uygulaması için son yayınlanan mobil çalışma alanları</a>
+<td>Oturum açın ve mobil uygulamayı kullanın. Uygulama, sistem yöneticisi tarafından yayınlanan mobil çalışma alanlarını içerir.</td>
+<td>Microsoft tarafından sağlanan mobil çalışma alanlarının bir listesini görmek için bkz. <a href="mobile-workspaces-released.md">Yakın zamanda yayımlanmış olan mobil çalışma alanları</a>.
 </td>
 </tr>
 </tbody>
 </table>
-
-
-
-
-
 

@@ -3,13 +3,13 @@ title: "Satış iadeleri"
 description: "Bu konu için iade siparişlerini işlemi hakkında bilgi sağlar. Müşteri iadeleri ve bu iadelerin maliyetlendirmeye ve eldeki stok miktarlarına etkisi hakkında bilgi içerir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdec28ba1fe3650f59520cb42a71497c54a7d93e
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 
 Bu konu için iade siparişlerini işlemi hakkında bilgi sağlar. Müşteri iadeleri ve bu iadelerin maliyetlendirmeye ve eldeki stok miktarlarına etkisi hakkında bilgi içerir.
 
-Müşteriler malları çeşitli nedenlerle iade edebilir. Örneğin, bir mal kusurlu veya müşterinin beklentilerini karşılamamış olabilir. Müşteri, bir malı iade etmek için bir istekte bulunduğu zaman iade işlemi başlar. Müşterinin isteği alınınca Microsoft Dynamics 365 for Operations'ta bir iade emri oluşturulur.
+Müşteriler malları çeşitli nedenlerle iade edebilir. Örneğin, bir mal kusurlu veya müşterinin beklentilerini karşılamamış olabilir. Müşteri, bir malı iade etmek için bir istekte bulunduğu zaman iade işlemi başlar. Müşterinin isteği alınınca Microsoft Dynamics 365 for Finance and Operations'ta bir iade emri oluşturulur.
 
 ## <a name="return-order-process"></a>İade emri işlemi
 Aşağıdaki şekilde iade emri işleminin genel özeti verilmektedir.  
@@ -264,7 +264,7 @@ Bu senaryo, aşağıdaki şekilde gösterildiği gibi, aynı kuruluştaki iki ş
 
 [![Basit şirketlerarası iade](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
 
-Alıcı şirkette bir satıcı iade emri veya satıcı şirkette müşteri iade emri oluşturulduğunda sipariş zinciri oluşturulabilir. Dynamics 365 for Operations diğer şirkette karşılık gelen siparişi oluşturur ve satıcı iade siparişindeki üstbilgi ve satır bilgilerinin müşteri iade emrindeki ayarları yansıtıp yansıtmadığından emin olur. Oluşan iade emri, mevcut bir müşteri faturasında referansı (**Satış siparişini bul**) dahil edebilir veya hariç tutabilir. İki emrin sevk irsaliyeleri ve faturaları ayrı ayrı işlenebilir. Örneğin, müşteri iade emri için sevk irsaliyesi oluşturmadan önce satıcı iade emri için bir sevkiyat irsaliyesi oluşturmak zorunda kalmazsınız.
+Alıcı şirkette bir satıcı iade emri veya satıcı şirkette müşteri iade emri oluşturulduğunda sipariş zinciri oluşturulabilir. Finance and Operations diğer şirkette karşılık gelen siparişi oluşturur ve satıcı iade siparişindeki üstbilgi ve satır bilgilerinin müşteri iade emrindeki ayarları yansıtıp yansıtmadığından emin olur. Oluşan iade emri, mevcut bir müşteri faturasında referansı (**Satış siparişini bul**) dahil edebilir veya hariç tutabilir. İki emrin sevk irsaliyeleri ve faturaları ayrı ayrı işlenebilir. Örneğin, müşteri iade emri için sevk irsaliyesi oluşturmadan önce satıcı iade emri için bir sevkiyat irsaliyesi oluşturmak zorunda kalmazsınız.
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Üç taraf arasında doğrudan teslim sevkiyat iadeleri
 

@@ -1,15 +1,16 @@
 ---
 title: "Eylem Araması"
-description: "Bu makalede, Microsoft Dynamics 365 for Operations&quot;daki arama işlevi eylemi açıklanmaktadır. Eylem arama, bir sayfadaki eylemleri bulmanıza ve çalıştırmanıza yardımcı olur."
+description: "Bu makalede, Microsoft Dynamics 365 for Finance and Operations'daki arama işlevi eylemi açıklanmaktadır. Eylem arama, bir sayfadaki eylemleri bulmanıza ve çalıştırmanıza yardımcı olur."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62303
 ms.assetid: 62c70de0-fdde-4417-8e08-0583fb095a40
 ms.search.region: Global
@@ -17,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ef5709889dcabd4c9ed760f57d210956f38c37e9
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cd024f2bc06fca9c21ea41fbed44efbc519cee94
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,14 +31,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, Microsoft Dynamics 365 for Operations'daki arama işlevi eylemi açıklanmaktadır. Eylem arama, bir sayfadaki eylemleri bulmanıza ve çalıştırmanıza yardımcı olur.
+Bu makalede, Microsoft Dynamics 365 for Finance and Operations'daki arama işlevi eylemi açıklanmaktadır. Eylem arama, bir sayfadaki eylemleri bulmanıza ve çalıştırmanıza yardımcı olur.
 
 <a name="introduction"></a>Giriş
 ------------
 
-Microsoft Dynamics 365 for Operations'taki sayfalar, başlıca Eylem Panoları üzerindeki komutları ortaya çıkartır, hem sayfanın üzerinde görünen standart Eylem Panosu hem de sayfanın çeşitli yerlerinde görünen araç çubukları. Önceki sürümlerde, Anahtar İpuçları özelliği, Eylem Panosu üzerindeki herhangi bir düğmeye, Alt tuşu ve daha sonra bir dizi harfe basarak hızla erişmenize izin veriyordu. 
+Microsoft Dynamics 365 for Finance and Operations'taki sayfalar, başlıca Eylem Panoları üzerindeki komutları ortaya çıkartır, hem sayfanın üzerinde görünen standart Eylem Panosu hem de sayfanın çeşitli yerlerinde görünen araç çubukları. Önceki sürümlerde, Anahtar İpuçları özelliği, Eylem Panosu üzerindeki herhangi bir düğmeye, Alt tuşu ve daha sonra bir dizi harfe basarak hızla erişmenize izin veriyordu. 
 
-[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) Ancak, Dynamics 365 for Operations'ın güncel sürümünde, Tuş İpuçları artık kullanılmamakta olup yerine eylem arama özelliği gelmiştir. Bu yeni özellik, görünen herhangi bir Eylem Bölmesinden bir düğmeyi hızla aramanıza ve düğmeyi çalıştırmanıza olanak sağlar.
+[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) Ancak, Finance and Operations'ın güncel sürümünde, Tuş İpuçları artık kullanılmamakta olup yerine eylem arama özelliği gelmiştir. Bu yeni özellik, görünen herhangi bir Eylem Bölmesinden bir düğmeyi hızla aramanıza ve düğmeyi çalıştırmanıza olanak sağlar.
 
 ## <a name="using-action-search"></a>Eylem aramasını kullanma
 Eylem arama özelliğini kullanmak için aşağıdaki adımları izleyin.
@@ -53,7 +54,7 @@ Düğmeyi çalıştırdıktan sonra, çalışmaya devam edebilmeniz için sayfad
 Eylem aramasını Ctrl+/ veya Alt+Q tuşuna basarak da başlatabilirsiniz. Sayfadaki son konumunuzu yeniden ön plana almak için klavye kısayoluna tekrar basın.
 
 ## <a name="understanding-the-results-list"></a>Sonuç listesini anlama
-Dynamics 365 for Operations içerisinde bir düğmenin amacını tamamen anlamak için çoğu zaman bu düğmenin hem konumunu hem de bağlamını bilmeniz gerekir. Bu nedenle, size tam olarak hangi düğmenin listede göründüğünü anlamanıza yardımcı olmak için her bir öğe için ek bilgiler sonuç sayfasında görüntülenir. Özellikle, düğmenin "yol"u gösterilir. Bu yol, ilgili olarak, aşağıdaki Kullanıcı Arabirimi öğelerini içerebilir:
+Finance and Operations içerisinde bir düğmenin amacını tamamen anlamak için çoğu zaman bu düğmenin hem konumunu hem de bağlamını bilmeniz gerekir. Bu nedenle, size tam olarak hangi düğmenin listede göründüğünü anlamanıza yardımcı olmak için her bir öğe için ek bilgiler sonuç sayfasında görüntülenir. Özellikle, düğmenin "yol"u gösterilir. Bu yol, ilgili olarak, aşağıdaki Kullanıcı Arabirimi öğelerini içerebilir:
 
 -   Eylem Bölmesi öğesi
 -   Düğme grubu
@@ -70,7 +71,7 @@ Dynamics 365 for Operations içerisinde bir düğmenin amacını tamamen anlamak
 [![eldeki-stok](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 ## <a name="action-search-vs-navigation-search"></a>Eylem arama - Gezinti arama karşılaştırması
-Eylem arama ile bir sayfadaki eylemleri bulup çalıştırma amaçlanırken, Dynamics 365 for Operations'ta sayfaları bulup gezinmek için ayrı bir arama mekanizması bulunur. Bu özellik hakkında daha fazla bilgi için, bkz. [Gezinti arama](navigation-search.md) makalesi.
+Eylem arama ile bir sayfadaki eylemleri bulup çalıştırma amaçlanırken, Finance and Operations'ta sayfaları bulup gezinmek için ayrı bir arama mekanizması bulunur. Bu özellik hakkında daha fazla bilgi için, bkz. [Gezinti arama](navigation-search.md) makalesi.
 
 
 

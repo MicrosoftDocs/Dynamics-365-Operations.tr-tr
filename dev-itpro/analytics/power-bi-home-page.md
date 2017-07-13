@@ -1,9 +1,9 @@
 ---
-title: "Power BI ana sayfası"
-description: "Bu konu Power BI&quot;yi Dynamics 365 for Operations ile kullanmanıza yardımcı olacak kaynakları listeler."
+title: "Kullanıma sunulan Power BI içeriği"
+description: "Bu konuda kullanılabilir Power BI içeriği listelenmektedir ve bu konuda daha fazla bilgi edinebileceğiniz kaynaklar belirtilmektedir."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,66 +17,86 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 711a2e18a692d7f4d048109fdd97497483ce05e8
+ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
+ms.openlocfilehash: 2df0c6dc9b41dde861f5361bfcc1226786e7aa76
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="power-bi-home-page"></a>Power BI ana sayfası
-
+# <a name="power-bi-content-available"></a>Kullanıma sunulan Power BI içeriği
 [!include[banner](../includes/banner.md)]
 
 
-Bu konu Power BI'yi Dynamics 365 for Operations ile kullanmanıza yardımcı olacak kaynakları listeler.
+Bu konuda kullanılabilir Microsoft Power BI içeriği listelenmektedir ve bu konuda daha fazla bilgi edinebileceğiniz kaynaklar belirtilmektedir.
 
-<a name="power-bi-content-for-dynamics-365-for-operations"></a>Dynamics 365 for Operations için Power BI içeriği
-------------------------------------------------
+## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Dynamics 365 for Finance and Operations, Enterprise sürümü Temmuz 2017 güncelleştirmesi için Power BI içeriği
+Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü Temmuz 2017 güncelleştirmesini kullanıyorsanız, aşağıdaki Power BI içeriğini kullanabilirsiniz:
 
-| **Özellik alanı**                  | **Power BI içeriği**                          | **Power BI içeriği nerede bulunur**                                                                                                                                                                                         | **Daha fazla bilgi edinin**                                                                                                                                                               |
-|-----------------------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mali yönetim              | Mali performans                         | Microsoft Dynamics Lifecycle Services (LCS) (İçerik paketinin bu sürümü Dynamics 365 for Operations sürüm 1611'i destekler.) PowerBI.com (İçerik paketinin bu sürümü Microsoft Dynamics 365 for Operations 7.0 ve 7.0.1'i destekler.) | [Mali Performans Power BI içeriği](financial-performance-power-bi-content-pack.md)                                               |
-|                                   | Alacak ve tahsilat yönetimi             | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-| İnsan sermayesi yönetimi          | İşe alma raporları                            | LCS                                                                                                                                                                                                                            | [İşe alma Power BI içeriği](recruiting-analysis-power-bi-content-pack.md)                                                       |
-|                                   | Personel uzmanlıkları ve gelişim raporları | LCS                                                                                                                                                                                                                            | [Personel Uzmanlıkları ve Gelişim Power BI içeriği](employee-competencies-and-development-analysis-power-bi-content-pack.md) |
-|                                   | Kurumsal eğitim raporları               | LCS                                                                                                                                                                                                                            | [Kurumsal Eğitim Power BI içeriği](organizational-training-analysis-power-bi-content-pack.md)                             |
-|                                   | İş gücü ölçümleri                             | LCS                                                                                                                                                                                                                            | [İşgücü Ölçümleri Power BI içeriği](workforce-analysis-power-bi-content-pack.md)                                                 |
-|                                   | Ücret ve kazançlar raporları             | LCS                                                                                                                                                                                                                            | [Ücret ve Kazançlar Power BI içeriği](compensation-and-benefits-analysis-power-bi-content-pack.md)                         |
-| Proje yönetimi ve muhasebe | Uygulama yöneticisi                              | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-| Perakende ve ticaret               | Perakende kanalı performansı                    | PowerBI.com                                                                                                                                                                                                                    | [Power BI için Perakende Kanal Performans içeriği](retail-channel-performance-dashboard-power-bi-data.md)                 |
-| Tedarik zinciri yönetimi           | Maliyet yönetimi                               | PowerBI.com                                                                                                                                                                                                                    |  [Maliyet yönetimi Power BI içeriği](cost-management-content-pack.md)                                                          |
-|                                   | Satış ve karlılık performansı           | LCS                                                                                                                                                                                                                            | [Satış ve karlılık performansı Power BI içeriği](sales-profitability-performance-content-pack.md)          |
-|                                   | Satınalma harcaması analizi                       | LCS                                                                                                                                                                                                                            | [Satınalma harcaması analizi Power BI içeriği](purchase-content-pack-for-power-bi.md)                                                 |
-|                                   | Maliyet muhasebesi analizi                      | LCS                                                                                                                                                                                                                            | [Maliyet muhasebesi analizi Power BI içeriği](cost-accounting-analysis-content-pack.md)                                         |
-|                                   | Ambar performansı                         | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-|                                   | Üretim performansı                        | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
+- [Avantajlar Power BI içeriği](benefits-power-bi.md)
+- [Nakde genel bakış Power BI içeriği](/dynamics365/operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
+- [CFO'ya genel bakış Power BI içeriği](CFO-power-bi.md)
+- [Ücret Power BI içeriği](compensation-power-bi.md)
+- [Maliyet muhasebesi analizi Power BI içeriği*](cost-accounting-analysis-content-pack.md) 
+- [Kredi ve tahsilatlar yönetimi Power BI içeriği](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [Personel gelişimi Power BI içeriği](employee-development-PBI.md) 
+- [Mali performans Power BI içeriği*](financial-performance-power-bi-content-pack.md)
+- [Sabit kıymet yönetimi Power BI içeriği](/dynamics365/operations/financials/fixed-assets/Fixed-asset-management-workspace)
+- [Öğrenme Power BI içeriği](learning-power-bi.md)
+- [Uygulama yöneticisi Power BI içeriği](practice-manager-power-bi.md)
+- [Üretim performansı Power BI içeriği](production-performance-power-bi.md)
+- [Satınalma harcaması analizi Power BI içeriği](purchase-content-pack-for-power-bi.md) 
+- [İşe alma Power BI içeriği](recruiting-analysis-power-bi-content-pack.md) 
+- [Satış ve karlılık performansı Power BI içeriği](sales-profitability-performance-content-pack.md)
+- [Satıcı ödemeleri Power BI içeriği](/dynamics365/operations/financials/accounts-payable/Vendor-payments-workspace)
+- [Ambar performansı Power BI içeriği](warehouse-power-bi-content.md)
+- [İşgücü ölçümleri Power BI içeriği](workforce-analysis-power-bi-content-pack.md)  
 
-## <a name="access-power-bi-content-from-lcs"></a>Power BI içeriğine LCS'den erişme
-Power BI İçeriği indirmek ve kuruluşunuzun verilerine bağlamak hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](power-bi-content-microsoft-partners.md).
+### <a name="accessing-the-content"></a>İçeriğe erişme
 
-## <a name="access-power-bi-content-from-powerbicom"></a>Power BI içeriğine PowerBI.com'dan erişme
-1.  [PowerBI.com](https://www.powerbi.com/) adresinde oturum açın.
-2.  **Veri Al**'a tıklayın.
-3.  **Hizmetler** kutusunda **Al**'a tıklayın.
-4.  İstediğiniz içerik paketini seçin  **Al**'a tıklayın.
-5.  Dynamics 365 for Operations ortamınızın URL'sini girin. URL **https://&lt;YourAOSTenant&gt;. cloudax.dynamics.com** biçiminde olmalıdır. **İleri**'ye tıklayın.
-6.  Kimlik doğrulama yönetimi olarak **oAuth2** seçeneğini belirleyin ve **Oturum Aç**'a tıklayın.
-7.  İstendiğinde, Dynamics 365 for Operations ortamınıza erişim izni olan bir Microsoft Office 365 hesabı girin.
-8.  Oturum açtıktan sonra, içe aktarma işlemi otomatik olarak başlar. İçe aktarma işlemi tamamlandığında, içerik paketinde bulunan raporlar gezinti bölmesinde görünür. İçe aktardığınız verileri görmek için bir rapor seçin.
+#### <a name="embedded-content"></a>Katıştırılmış içerik
+Yıldız işareti (\*) ile işaretlenmiş içerik dışında, yukarıdaki listede belirtilen tüm içerikler bu uygulamaya katıştırılmıştır. Power BI içeriğini nereden görüntüleyebileceğiniz hakkında daha fazla bilgi için bağlantıları tıklayın.
 
-## <a name="learn-more-about-the-power-bi-integration"></a>Power BI tümleştirmesi hakkında daha fazla bilgi edinin
--   [Power BI tümleştirmesi](power-bi-integration.md)
--   [Varlık deposu ile Power BI tümleştirmeye genel bakış](power-bi-integration-entity-store.md)
--   [Power BI raporlarını Varlık deposuyla yazma ve dağıtma](author-distribute-power-bi-reports.md)
--   [Power BI raporlarını çalışma alanlarına ekleme](pin-power-bi-reports.md)
--   [Microsoft LCS ve ortaklarınızdan Power BI içeriği](power-bi-content-microsoft-partners.md)
--   [Power BI'ya Dynamics 365 for Operations uygulamasından gelen verileri sağlamak için Elektronik raporlama yapılandırması kullanma](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+#### <a name="files-available-in-lifecycle-services"></a>Lifecycle Services'da bulunan dosyalar
+Bu Power BI içeriği Microsoft Dynamics Lifecycle Services'taki (LCS) Paylaşılan varlıklar kitaplığında bulunur. İçeriği indirmek ve verilerinize bağlamak hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](power-bi-content-microsoft-partners.md). Power BI içeriğinin nasıl uygulanacağını gösteren bir demo izlemek için bakınız [Microsoft ve Dynamics Lifecycle Services ortaklarınızdan Power BI içeriği](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
 
+## <a name="power-bi-content-for-dynamics-365-for-operations-version-1611"></a>Dynamics 365 for Operations sürüm 1611 için Power BI içeriği
+Microsoft Dynamics 365 for Operations, 1611 sürümünü kullanıyorsanız, aşağıdaki Power BI içeriğini kullanabilirsiniz:
 
+- [Ücret ve kazançlar Power BI içeriği](compensation-and-benefits-analysis-power-bi-content-pack.md)   
+- [Maliyet muhasebesi analizi Power BI içeriği](cost-accounting-analysis-content-pack.md) 
+- [Kredi ve tahsilatlar yönetimi Power BI içeriği](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [Personel uzmanlıkları ve gelişim Power BI içeriği](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
+- [Mali performans Power BI içeriği](financial-performance-power-bi-content-pack.md)
+- [Kurumsal eğitim Power BI içeriği](organizational-training-analysis-power-bi-content-pack.md) 
+- [Uygulama yöneticisi Power BI içeriği](practice-manager-power-bi.md)
+- [Üretim performansı Power BI içeriği](production-performance-power-bi.md)
+- [Satınalma harcaması analizi Power BI içeriği](purchase-content-pack-for-power-bi.md) 
+- [İşe alma Power BI içeriği](recruiting-analysis-power-bi-content-pack.md) 
+- [Satış ve karlılık performansı Power BI içeriği](sales-profitability-performance-content-pack.md)
+- [Ambar performansı Power BI içeriği](warehouse-power-bi-content.md)
+- [İşgücü ölçümleri Power BI içeriği](workforce-analysis-power-bi-content-pack.md)  
 
+### <a name="accessing-the-content"></a>İçeriğe erişme
+Bu Power BI içeriği LCS'deki Paylaşılan varlıklar kitaplığında bulunur. İçeriği indirmek ve verilerinize bağlamak hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](power-bi-content-microsoft-partners.md). Power BI içeriğinin nasıl uygulanacağını gösteren bir demo izlemek için bakınız [Microsoft ve Dynamics Lifecycle Services ortaklarınızdan Power BI içeriği](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
 
+## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>Microsoft Dynamics AX için Power BI içeriği
+Microsoft Dynamics AX 7.0 veya Microsoft Dynamics AX 7.0.1 kullanıyorsanız, aşağıdaki Power BI içeriğini kullanabilirsiniz:
 
+- [Maliyet yönetimi Power BI içeriği](cost-management-content-pack.md)    
+- [Mali performans Power BI içeriği](financial-performance-power-bi-content-pack.md)
+- [Perakende kanalı performansı Power BI içeriği](retail-channel-performance-dashboard-power-bi-data.md) 
 
+### <a name="accessing-the-content"></a>İçeriğe erişme
+Bu Power BI içeriği PowerBI.com adresinde bulunabilir.
+
+1. [PowerBI.com](https://www.powerbi.com/) adresinde oturum açın.
+2. **Veri Al**'a tıklayın.
+3. **Hizmetler** kutusunda **Al**'a tıklayın.
+4. İstediğiniz içerik paketini seçin  **Al**'a tıklayın.
+5. Dynamics AX ortamınızın URL'sini girin. URL **https://&lt;YourAOSTenant&gt;. cloudax.dynamics.com** biçiminde olmalıdır. **İleri**'ye tıklayın.
+6. Kimlik doğrulama yönetimi olarak **oAuth2** seçeneğini belirleyin ve **Oturum Aç**'a tıklayın.
+7. İstendiğinde, Microsoft Dynamics AX ortamınıza erişim izni olan bir Microsoft Office 365 hesabı girin.
+8. Oturum açtıktan sonra, içe aktarma işlemi otomatik olarak başlar. İçe aktarma işlemi tamamlandığında, içerik paketinde bulunan raporlar gezinti bölmesinde görünür. İçe aktardığınız verileri görmek için bir rapor seçin.
 

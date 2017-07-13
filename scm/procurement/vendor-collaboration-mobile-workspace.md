@@ -1,16 +1,16 @@
 ---
-title: "Microsoft Dynamics 365 for Operations uygulaması için satıcı işbirliği mobil çalışma alanı"
-description: "Satıcı işbirliği mobil çalışma alanıyla, tedarikçileriniz onay için onlara gönderilen satınalma siparişlerini güncelleyebilir, yeni ve güncellenmiş satınalma siparişleri ve kişilerle ilgili bilgileri görüntüleyebilir."
-author: YuyuScheller
+title: "Satıcı işbirliği mobil çalışma alanı"
+description: "Bu konu, Satıcı işbirliği mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı satıcılarınızın, onay için onlara gönderilen satınalma siparişleri hakkında güncel kalmasını sağlar. Ayrıca yeni ve güncelleştirilmiş satınalma siparişleri ve kişiler hakkında bilgileri görebilirler."
+author: mkirknel
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
@@ -18,130 +18,143 @@ ms.author: mkirknel
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e19fee87dae6e5d425f36dac0db4ea89534a8510
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 20e4c77bc47bffc3474559e3b9933b87e947e178
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="vendor-collaboration-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Microsoft Dynamics 365 for Operations uygulaması için satıcı işbirliği mobil çalışma alanı
+# <a name="vendor-collaboration-mobile-workspace"></a>Satıcı işbirliği mobil çalışma alanı
 
 [!include[banner](../includes/banner.md)]
 
+Bu konu, **Satıcı işbirliği** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı satıcılarınızın, onay için onlara gönderilen satınalma siparişleri hakkında güncel kalmasını sağlar. Ayrıca yeni ve güncelleştirilmiş satınalma siparişleri ve kişiler hakkında bilgileri görebilirler.
 
-Satıcı işbirliği mobil çalışma alanıyla, tedarikçileriniz onay için onlara gönderilen satınalma siparişlerini güncelleyebilir, yeni ve güncellenmiş satınalma siparişleri ve kişilerle ilgili bilgileri görüntüleyebilir.
+Bu mobil çalışma alanı, Microsoft Dynamics 365 for Unified Operations mobil uygulaması ile kullanılmak üzere geliştirilmiştir.
 
-<a name="prerequisites"></a>Önkoşullar
--------------
+## <a name="overview"></a>Özet 
+**Satıcı işbirliği** mobil çalışma alanı, satıcıları Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition web istemcisinde satınalma siparişlerini görüp yanıtlayabilmeleri için yeni satınalma siparişleri hakkında bilgilendirir. 
+
+>[!NOTE]
+> Mobil çalışma alanı, satıcı işbirliği web arabirimi yerine değil, ona bir katkı olarak kullanılmalıdır. 
+
+Satıcılarınız **Satıcı işbirliği** mobil çalışma alanını kullanarak kendilerine onay için gönderilen yeni satınalma siparişlerini görüntüleyebilir. Bu çalışma alanı ürünler, miktarlar ve istenen teslimat tarihleri gibi satınalma siparişi bilgilerini görüntüler. Fiyat bilgileri, her satıcının yapılandırmasına bağlı olarak da kullanılabilir. 
+
+Bir kullanıcı satıcı olarak oturum açtığı zaman hangi satınalma siparişlerinin yanıtlandığını ve hangi satınalma siparişlerinin müşteri eylemi beklediğini görür. Örneğin, satıcı başka bir teslim tarihi önerdiğinden ve müşteriyle bu tarih üzerinde henüz anlaşılmadığından satınalma siparişi müşteri eylemi bekliyor olabilir. Satıcı onaylanmış ancak henüz teslim edilmemiş satınalma siparişlerinin bir listesini de görür. 
+
+Satıcı bir satınalma siparişini yanıtlamak için web istemcisinde satıcı işbirliği web arabirimini kullanmak zorundadır. Burası aynı zamanda satıcının, belge ekleri, satır başına teslimat adresi ve satıcı ile ilişkili masraflar gibi sipariş hakkında daha fazla bilgi alabileceği yerdir. 
+
+Özel bir güvenlik rolüne sahip satıcılar, satıcı hesabı için kaydedilen iletişim görevlilerini görüntüleyebilir. Aynı güvenlik rolü, satıcının gönderilmiş kullanıcı isteklerinin durumunu görüntülemesini sağlar. 
+
+Web istemcisindeki satıcı işbirliği web arabirimi yeni ilgili kişi oluşturmak ve yeni kullanıcı istekleri göndermek için kullanılmalıdır. 
+
+**Satıcı işbirliği** mobil çalışma alanı satıcının bu görevleri gerçekleştirmesini sağlar:
+
+-   Satıcıya gönderilen yeni satınalma siparişlerini görüntüleme.
+-   Satıcının yanıtladığı ve müşteriden eylem bekleyen satınalma siparişlerini görüntüleme.
+-   Onaylanmış ama tamamen teslim alınmamış durumdaki satınalma siparişlerini görüntüleme.
+-   Satıcı hesabı için kaydedilen ilgili kişi bilgilerini görüntüleme. (Bu görev bir ek güvenlik rolü gerektirir.)
+-   Satıcı tarafından gönderilen kullanıcı isteğinin bilgilerini görüntüleme ve isteğin durumunu izleme. (Bu görev bir ek güvenlik rolü gerektirir.)
+
+## <a name="prerequisites"></a>Ön koşullar
+Önkoşullar, kuruluşunuza dağıtılan Microsoft Dynamics 365 sürümüne dayalı olarak farklılık gösterir.
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition Temmuz 2017 güncelleştirmesini kullanıyorsanız önkoşullar 
+Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü Temmuz 2017 güncelleştirmesi kuruluşunuza dağıtıldıysa, sistem yöneticisinin **Satıcı işbirliği** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Microsoft Dynamics 365 for Operations sürüm 1611 Platform güncelleştirmesi 3 veya daha sonraki sürüm kullanıyorsanız ön koşullar
+Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 365 for Operations 1611 sürümü dağıtılmışsa, sistem yöneticisinin aşağıdaki ön koşulları yerine getirmesi gerekir. 
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Önkoşul</th>
+<th>Rol</th>
 <th>Açıklama</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Microsoft Dynamics 365 for Operations mobil platformu hakkında bilgi alın</td>
-<td><a href="https://ax.help.dynamics.com/en/wiki/mobile-development-handbook/">Dynamics 365 for Operations mobil platformu</a></td>
+<td>Platform Güncelleştirmesi 3 kullanıyorsanız, KB 3216943 uygulanmalıdır.</td>
+<td>Sistem yöneticisi</td>
+<td>Platform Güncelleştirmesi 3 kullanıyorsanız, KB 3216943 gerekli bir ikili güncelleştirmedir. Bu KB'yi uygulamak için sistem yöneticinizin bu adımları izlemesi gerekir.
+<ol>
+<li>KB 3216943'yi, Microsoft Lifecycle Services (LCS) üzerinden karşıdan yükleyin.</li>
+<li>Dağıtılabilir bir paket olarak teslim edilen ikili güncelleştirmeyi yükleyin. Dağıtılabilir paket uygulama hakkında bilgi için bkz. <a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Dağıtılabilir paket uygulama</a>.</li>
+</ol></td>
 </tr>
 <tr class="even">
-<td>Dynamics 365 for Operations</td>
-<td>Microsoft Dynamics 365 for Operations sürüm 1611 ve Microsoft Dynamics for Operations platform güncelleştirmesi 3 (Kasım 2016) güncelleştirmelerine sahip bir ortam kullandığınıza emin olun.</td>
+<td>KB 4013633 uygulanmış olmalıdır.</td>
+<td>Sistem yöneticisi</td>
+<td>KB 4013633, <strong>Eldeki stok</strong> mobil çalışma alanını içeren bir X++ güncelleştirmesi veya meta veri düzeltmesidir. KB 4013633 uygulamak için sistem yöneticiniz bu adımları atması gerekir.
+<ol>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Meta veri düzeltmesini LCS'den indirme</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Meta veri düzeltmesini kurun</a>.</li><li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Şunu içeren bir dağıtılabilir paket oluşturun:</a> <strong>SCMMobile</strong> modeli ve daha sonra dağıtılabilir paketi LCS'ye yükleyin.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Dağıtılabilir paketi uygulayın</a>.</li>
+</ol></td>
 </tr>
 <tr class="odd">
-<td><span style="color: #000000">Dynamics 365 for Operations yüklü mobil cihaz</span></td>
-<td><span style="color: #000000">Dynamics 365 for Operations uygulamasını mobil uygulama mağazanızdan indirin.</span></td>
+<td><strong>Satıcı işbirliği</strong> mobil çalışma alanının yayımlanmış olması gerekir.</td><td>Sistem yöneticisi</td>
+<td>Bkz. <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobil çalışma alanı yayınlama</a>.</td>
 </tr>
 <tr class="even">
-<td>Düzeltme KB 4013633</td>
-<td>Dynamics 365 for Operations içerisinde sağlanan çalışma alanlarını etkinleştirmek için düzeltmeyi yükleyin.</td>
-</tr>
-<tr class="odd">
-<td><span style="color: #ff0000"><span style="color: #000000">Düzeltme KB 3216943</span> </span></td>
-<td>Satıcı işbirliği mobil çalışma alanını etkinleştirmek için düzeltmeyi yükleyin.</td>
-</tr>
-<tr class="even">
-<td>Satıcı kullanıcısının, Dynamics 365 for Operations'taki satıcı işbirliği web arabirimine erişmesi ve bir satıcı işbirliği kullanıcısı ayarlaması gerekir.</td>
+<td>Satıcı kullanıcısının, web istemcisindeki satıcı işbirliği web arabirimine erişmesi ve bir satıcı işbirliği kullanıcısı ayarlaması gerekir.</td><td>Satın alma uzmanları ve sistem yöneticisi</td>
 <td>Satıcı işbirliği web arabirimini ayarlamak ve bu arabirimle çalışmak için aşağıdaki konularda açıklanan adımları izleyin.
 <ul>
 <li><a href="https://ax.help.dynamics.com/en/wiki/using-vendor-collaboration-to-work-with-external-vendors/">Harici satıcılarla çalışmak için satıcı işbirliğini kullanma</a></li>
 <li><a href="https://ax.help.dynamics.com/en/wiki/manage-vendor-collaboration-users/">Satıcı iş birliği kullanıcılarını yönetme</a></li>
 <li><a href="https://ax.help.dynamics.com/en/wiki/set-up-and-maintain-vendor-collaboration/">Satıcı iş birliğini ayarlama ve koruma</a></li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/using-vendor-collaboration-to-work-with-customers-in-dynamics-365-for-operations/">Dynamics 365 for Operations'ta müşterilerle çalışmak için satıcı işbirliğini kullanma</a></li>
+<li><a href="https://ax.help.dynamics.com/en/wiki/using-vendor-collaboration-to-work-with-customers-in-dynamics-365-for-operations/">Finance and Operations'ta müşterilerle çalışmak için satıcı işbirliğini kullanma</a></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="overview"></a>Özet
-Satıcı işbirliği mobil çalışma alanı, satıcıları Dynamics 365 for Operations web istemcisinde satınalma siparişlerini görüp yanıtlayabilmeleri için yeni satınalma siparişleri hakkında bilgilendirir. 
+## <a name="download-and-install-the-mobile-app"></a>Mobil uygulamayı indirin ve yükleyin
 
-**Not:** Mobil çalışma alanı, satıcı işbirliği web arabirimi yerine değil, ona bir katkı olarak kullanılmalıdır. 
+Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 
-Satıcı işbirliği mobil çalışma alanıyla, satıcılarınız onay için gönderilen yeni satınalma siparişlerini görüntüleyebilir. Bu çalışma alanı, ürünler, miktar ve istenen teslimat tarihleri gibi satınalma siparişi bilgilerini görüntüler. Fiyat bilgileri, her satıcının yapılandırmasına bağlı olarak kullanılabilir. 
+-   [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [İPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)
 
-Bir kullanıcı satıcı olarak oturum açtığı zaman hangi satınalma siparişlerinin yanıtlandığını veya hangi satınalma siparişlerinin müşteri eylemi beklediğini görür. Satıcı başka bir teslim tarihi önermiş olabilir ve müşteriyle bu tarih üzerinde henüz anlaşılmadığı için satınalma siparişi müşteri eylemi bekliyordur. Satıcı onaylanmış ancak henüz teslim edilmemiş satınalma siparişlerinin bir listesini de görür. 
+## <a name="sign-in-to-the-mobile-app"></a>Mobil uygulamaya oturum açın
+1.  Mobil cihazınızda uygulamayı başlatın.
+2.  Microsoft Dynamics 365 URL'nizi girin.
+4.  İlk kez oturum açtığınızda, kullanıcı adınız ve parolanız istenir. Kimlik bilgilerinizi girin.
+5.  Oturum açtıktan sonra şirketiniz için kullanılabilir çalışma alanları gösterilir. Sistem yöneticiniz yeni bir çalışma alanını daha sonra yayınlarsa, mobil çalışma alanlarının listesini yenilemeniz gerekeceğini unutmayın.
 
-Satıcı bir satınalma siparişini yanıtlamak için Dynamics 365 for Operations web istemcisinde satıcı işbirliği web arabirimini kullanmak zorundadır. Burası aynı zamanda satıcının, belge ekleri, satır başına teslimat adresi ve satıcı ile ilişkili masraflar gibi sipariş hakkında daha fazla bilgi alacağı yerdir. 
+    [![Yenilemek için çekin](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
-Özel bir güvenlik rolüyle, satıcı, satıcı hesabı için kaydedilen iletişim görevlilerini görüntüleyebilir. Aynı güvenlik rolüyle, satıcı gönderilmiş kullanıcı isteklerinin durumunu görüntüleyebilir. 
+## <a name="use-the-vendor-collaboration-mobile-workspace"></a>Satıcı işbirliği mobil çalışma alanını kullanma
+**Satıcı işbirliği** çalışma alanını seçtiğinizde aşağıdaki seçenekleri göreceksiniz.
 
-Yeni kişiler oluşturma ve yeni kullanıcı istekleri gönderme işlemleri Dynamics 365 for Operations web istemcisindeki satıcı işbirliği arabiriminde yapılmalıdır. 
+![Satıcı işbirliği mobil çalışma alanı](./media/vendor-collaboration-mobile-app.png)
 
-Mobil çalışma alanıyla satıcınız şunları yapabilir:
+**Satıcı işbirliği** çalışma alanı aşağıdaki sayfaları içerir.
 
--   Satıcıya gönderilen yeni satınalma siparişlerini görüntüleme.
--   Satıcının yanıtladığı ve müşteriden eylem bekleyen satınalma siparişlerini görüntüleme.
--   Onaylanmış ama tamamen teslim alınmamış durumdaki satınalma siparişlerini görüntüleme.
--   Satıcı hesabı için kayıtlı ilgili kişi bilgilerini görüntüleme (ek güvenlik rolü gerektirir).
--   Satıcı tarafından gönderilen kullanıcı isteğinin bilgilerini görüntüleme ve durumunu izleme (ek güvenlik rolü gerektirir).
+### <a name="contacts"></a>İlgili kişiler
+**Kişiler** sayfası satıcı hesabı için ayarlanan tüm kişileri görmenize olanak sağlar. İlgili kişinin adını, birincil e-posta adresini ve varsa ilgili kişinin diğer adını gösterir. Bu sayfa, ilgili kişinin kullanıcı hesabının etkin olup olmadığını da gösterir. İlgili kişi seçtiğinizde, kişinin ilgili kişisi olduğu tüzel kişilik gibi ayrıntıları görürsünüz. İlgili kişi telefon numarası veya diğer e-posta adresi gibi bilgileri de görebilirsiniz.
 
-## <a name="get-started"></a>Başlayın
-Mobil cihazınızda kullanmaya başlamak için:
+### <a name="user-requests"></a>Kullanıcı talepleri
+**Kullanıcı istekleri** sayfası, satıcı işbirliği web arabirimi üzerinden gönderdiğiniz tüm kullanıcı isteklerini görmenizi sağlar. Aynı zamanda, bu isteklerin durumunu da izleyebilirsiniz. Bir kullanıcı isteğini seçtiğinizde, neyin istendiğini görebilir, kullanıcı ekleyebilir veya devre dışı bırakabilir, güvenliği değiştirebilir ve kullanıcı için hangi güvenlik rollerinin istendiğini görebilirsiniz.
 
-1.  Mobil uygulama mağazanızda, Microsoft Dynamics 365 for Operations uygulamasını indirin ve yükleyin.
-2.  Cihazınızda uygulamayı başlatın.
-3.  Dynamics 365 URL'nizi girin.
-4.  Oturum açılacak şirketi girin. Örneğin **USMF** yazın.
-5.  İlk defa oturum açtığınızda, Microsoft Dynamics 365 for Operations hesabınızın kullanıcı adı ve parolasını girmeniz için uyarılırsınız.
+### <a name="purchase-orders-ready-for-review"></a>İncelemeye hazır satınalma siparişleri
+**İncelemeye hazır satınalma siparişleri** sayfası, müşteri tarafından gönderilen ve yanıtlanmamış tüm satınalma siparişlerini görmenizi sağlar. Sipariş hakkında, hangi ürünlerin istendiği ve bu ürünlerin ne zaman teslim edileceği gibi seçili bilgileri görüntüleyebilirsiniz. Fiyat bilgileri, satıcının yapılandırmasına bağlı olarak da kullanılabilir.
 
-Uygulamada oturum açtığınızda görünür çalışma alanı yoktur. Çalışma alanları, mobil app üzerinde görüntülemek için önce istediğiniz çalışma işlemlerini Dynamics 365 for Operations uygulaması için yayımlamanız gerekir. Çalışma alanını yayımlamak için sistem yönetim iznine gereksiniminiz vardır.
+Satınalma siparişinde notlar veya ekler olup olmadığını da görebilirsiniz. Bununla birlikte, notları ve ekleri açmak için, web istemcisindeki satıcı işbirliği web arabirimi kullanmanız gerekir. Tüm satırları ayrıntılarıyla görmek için **Satınalma siparişi satırı**'nı seçin. Her satır için bir gösterge notlar veya ekler olup olmadığını veya başlıkta gösterilenden farklı bir teslimat adresi olup olmadığını gösterir.
 
-1.  Dynamics 365 for Operations'ı başlatın.
-2.  **Sistem yönetimi** &gt; **Kurulum** &gt; **sistem parametreleri**ne gidin.
-3.  **Mobil uygulamayı yönet** seçeneğini işaretleyin.
-4.  Mobil platformda yayımlanacak **Satıcı işbirliği** çalışma alanını seçin.
-5.  **Çalışma alanını yayımla** seçeneğini işaretleyin.
-6.  Yayımlanmış çalışma alanlarını görmek için cihazınızı yenileyin.
-7.  **Satıcı işbirliği** çalışma alanını seçin. Aşağıdaki sayfayı görürsünüz.
+Satınalma siparişini yanıtlamak için web istemcisindeki satıcı işbirliği web arabirimini kullanmalısınız.
 
-    [![satıcı-işbirliği-mobil-uygulaması](./media/vendor-collaboration-mobile-app.png)](./media/vendor-collaboration-mobile-app.png)
+### <a name="awaiting-customer-action"></a>Müşteri eylemi bekleniyor
+**Müşteri eylemi bekleniyor** sayfası, sizin veya şirketinizde satıcı işbirliğine erişimi olan bir başka kişinin yanıtladığı satınalma siparişlerini bulmanıza olanak sağlar. Satınalma siparişleri bu listede ancak müşterinin, satınalma siparişinde aşağıdaki eylemlerden birini gerçekleştirmesi gerekiyorsa görünür.
 
-## <a name="contacts"></a>İlgili kişiler
-**Kişiler** sayfası satıcı hesabı için ayarlanan tüm kişileri görmenize olanak sağlar. İlgili kişinin adını, birincil e-posta adresini ve varsa kullanıcı diğer adlarını gösterir. İlgili kişinin kullanıcı hesabının etkin olup olmadığını da gösterir. Bir kişiyi seçtiğinizde, kişinin ayrıntılarını (hangi tüzel kişilerin ilgili kişisi olduğu ve telefon numarası veya farklı bir e-posta adresi gibi iletişim bilgilerini vb.) görürsünüz.
+-   Satınalma siparişi reddedilirse müşterinin orijinal siparişi güncelleştirmesi veya iptal etmesi ve yeniden göndermesi gerekir. Satınalma siparişi yeniden gönderildikten sonra **Müşteri eylemi bekleniyor** sayfasında görünmez.
+-   Satınalma siparişi değişikliklerle kabul edildiyse, müşterinin orijinal siparişi güncelleştirip ve yeniden incelemeye göndermesi veya istenen değişikliklere göre güncelleştirip hemen onaylaması gerekir. Her iki durumda da, satınalma siparişi **Müşteri eylemi bekleniyor** sayfasından kalkar.
+-   Satınalma siparişi kabul edildiyse ancak **Müşteri eylemi bekleniyor** sayfasında görünüyorsa, kabul işlemiden sonra otomatik olarak onaylanmamıştır. Bir satınalma temsilcisinin siparişin durumunu **Onaylandı**'ya çevirmesini bekliyordur. Genellikle, satıcı siparişi kabul ettiği andan itibaren, satınalma siparişi, müşteri ve satıcı arasında bir anlaşma olarak görülür. Bu nedenle, durumu **Onaylandı** olarak güncelleştirmek genellikle bir formalitedir.
 
-## <a name="user-requests"></a>Kullanıcı talepleri
-**Kullanıcı istekleri** sayfası, satıcı işbirliği web arabirimi üzerinden gönderdiğiniz tüm kullanıcı isteklerini görmenizi ve durumlarını izlemenizi sağlar. Bir kullanıcı isteğini seçtiğinizde, neyin istendiğini görebilir, kullanıcı ekleyebilir veya devre dışı bırakabilir, güvenliği değiştirebilir ve kullanıcı için hangi güvenlik rollerinin istendiğini görebilirsiniz.
-
-## <a name="purchase-orders-ready-for-review"></a>İncelemeye hazır satınalma siparişleri
-**İncelemeye hazır satınalma siparişleri** sayfası, müşteri tarafından gönderilen ve yanıtlanmamış tüm satınalma siparişlerini görmenizi sağlar. Sipariş hakkında, hangi ürünlerin istendiği ve ne zaman teslim edileceği gibi seçili bilgileri görüntüleyebilirsiniz. Fiyat bilgileri ancak bu satıcı için yapılandırılmışsa mevcuttur. Satınalma siparişinde notlar veya ekler olup olmadığını görebilirsiniz. Ekleri açmak için web istemcisindeki satıcı işbirliğini kullanmanız gerekir. Tüm satırları ayrıntılarıyla görmek için **Satınalma siparişi satırı**'nı seçin. Her satır için bir göstergenin notlar veya ekler olup olmadığını veya başlıkta gösterilenden farklı bir teslimat adresi olup olmadığını göstereceğine dikkat edin. Satınalma siparişini yanıtlamak için satıcı işbirliği web istemcisini kullanmalısınız.
-
-## <a name="awaiting-customer-action"></a>Müşteri eylemi bekleniyor
-**Müşteri eylemi bekleniyor** sayfası, sizin veya şirketinizde satıcı işbirliğine de erişimi olan bir başka kişinin yanıtladığı satınalma siparişlerini bulmanıza olanak sağlar. Satınalma siparişleri bu listede ancak müşterinin, satınalma siparişinde aşağıdaki eylemlerden birini gerçekleştirmesi gerekiyorsa görünür.
-
--   Satınalma siparişi reddedilirse müşterinin gönderilen siparişi güncelleştirip yeniden göndermesi veya siparişi iptal edip yeniden göndermesi gerekir. Satınalma siparişi yeniden gönderildikten sonra **Müşteri eylemi bekleniyor** sayfasında görünmez.
--   Satınalma siparişi değişikliklerle kabul edildiyse, müşterinin orijinal siparişi güncelleştirip ve yeniden incelemeye göndermesi veya değişikliklere göre güncelleştirip hemen onaylaması gerekir. Her iki durumda da, satınalma siparişi **Müşteri eylemi bekleniyor** sayfasından kalkar.
--   Satınalma siparişi kabul edildiyse ve **Müşteri eylemi bekleniyor** sayfasında görünüyorsa, kabul işlemiden sonra otomatik olarak onaylanmamıştır. Bir satınalma temsilcisinin siparişin durumunu Onaylandı'ya çevirmesini bekliyordur. Genellikle, satıcı siparişi kabul ettiği andan itibaren, satınalma siparişi, müşteri ve satıcı arasında bir anlaşma olarak görülür. Satınalma siparişinin durumunu Onaylandı yapmak formalite gereğidir.
-
-Satınalma siparişi seçilince, yanıt hakkında ek ayrıntılar görüntülenir. Satır ayrıntılarını görebilir ve her satır için yanıt verebilirsiniz. Satır durumu, aşağıdaki yanıtlardan hangisinin verildiğini gösterir.
+Bir satınalma siparişi seçtiğinizde, yanıt hakkında ek ayrıntılar görüntülenir. Satır ayrıntılarını görebilir ve her satır için yanıt verebilirsiniz. Satır durumu, aşağıdaki yanıtlardan hangisinin verildiğini gösterir:
 
 -   Kabul Edildi
 -   Reddedildi
@@ -149,12 +162,14 @@ Satınalma siparişi seçilince, yanıt hakkında ek ayrıntılar görüntüleni
 -   Değiştirildi/Değiştir
 -   Plan halinde böl/Plan satırı
 
-Satırların teslim edilmeyeceğini göstermek için kullanılan bir göstergenin **Teslim ediliyor**= evet/hayır gösterdiğine dikkat edin. Bunun nedeni, satırın reddedilmesi veya orijinal satırların teslim edilmesinin beklenmediği yerlerde ikame edilmesinin veya birden fazla plan satırına bölünmüş bir satırın ve orijinal satırın alınan siparişte talep edildiği şekilde teslim edilmesinin beklenmemesinden kaynaklanmış olabilir. Sipariş satırı yanıtındaki değişiklikler görüntülenir (satıcı işbirliği web arabirimini kullanarak görebileceğiniz, karşıya yüklenmiş notlar ve ekler dışında).
+**Teslim** alanı satırların teslim edilip edilmeyeceğini belirtmek için **Evet** veya **Hayır** olarak ayarlanır. Bir satır aşağıdaki nedenlerle teslim edilemeyebilir:
 
-## <a name="open-confirmed-orders"></a>Onaylanan siparişleri açma
-Satın alma siparişi müşteri tarafından onaylandığında, yani satınalma siparişinin durumu Onaylandı olarak değiştirildiğinde, açık onaylanmış siparişte görünür. Sipariş müşteri tarafından Teslim alındı şeklinde kaydedilene kadar bu listede kalır.
+- Satır reddedildi.
+- Bir değiştirme yapıldı ve orijinal satırın alınan siparişteki gibi teslim edilmesi beklenmiyor. 
+- Satır birden çok zamanlama satırına bölündü ve orijinal satırın alınan siparişte istendiği gibi teslim edilmesi beklenmiyor.
 
+Sipariş satırı yanıtında yaptığınız değişiklikler gösterilir. Ancak, yüklenen notlar ve ekler gösterilmez. Notları ve ekleri görüntülemek için, web istemcisindeki satıcı işbirliği web arabirimini kullanmanız gerekir.
 
-
-
+### <a name="open-confirmed-orders"></a>Açık onaylanmış siparişler
+Satın alma siparişi müşteri tarafından onaylandığında, (yani satınalma siparişinin durumu **Onaylandı** olarak değiştirildiğinde), açık onaylanmış siparişte görünür. Sipariş müşteri tarafından alındı şeklinde kaydedilene kadar bu listede kalır.
 

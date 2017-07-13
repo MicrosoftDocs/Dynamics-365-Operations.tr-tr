@@ -3,7 +3,7 @@ title: "Kapatmaya genel bakış"
 description: "Bu makalede kapatma süreci hakkında genel bilgiler verilmiştir. Kapatılabilecek hareketlerin türleri, hareketlerin ne zaman ve nasıl kapatılabileceği ve kapatma sürecinin sonuçları açıklanmıştır."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14551
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6ff44d517eb64d6472802ad057b680f4d2c7c1d5
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: ab12ef4127daf57fb0816ae1585876b50d1e81ed
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -43,7 +43,7 @@ Borç hesapları ve Alacak hesapları dahilindeki kapatmalar, faturalar, ödemel
 Hareketler ödeme girişinin zamanında kapatılabilir. Örneğin, bir satıcıya ödeme yaptığınızda, genellikle ödenecek faturaları seçersiniz. Faturaları seçerek bunları ödemeyle kapatma işareti koyun. Alacak Hesapları ödeme memurları bir müşteri ödemesini kayda geçirirken, müşterinin ödemesine eklenen bilgiler temelinde uygun faturalara kapatma işareti koyabilirler. **Kapatma hareketleri** sayfası hareketleri kapatma için işaretlemede kullanılır. Bu sayfa, herhangi bir deftere nakledilmeyen fatura veya ödemeden açılabilir. Hareket deftere nakledildiğinde kapatma da nakledilir. Hareketler deftere nakledildikten sonra da kapatılabilir. Bir müşteri ödemesini faturalara karşı kapatmadan da girip deftere nakledebilirsiniz. Ancak, öncelikle araştırma yapmanız, ödemenin doğru faturaya karşı kapatıldığından emin olmanız gerekir. **Kapatma hareketleri** sayfası **Tüm müşteriler** veya **Tüm satıcılar** sayfasından ya da herhangi bir müşteri veya satıcıya yönelik **Hareketler** sayfasından açılabilir. Bir fatura için deftere nakledilmiş ön ödemeleri, ödemeyi bir satınalma emri veya satış emrine karşı kapatma için işaretleyerek rezerve etmeniz de mümkündür. Bu durumda, ödemede açık bakiye devam eder ancak başka bir faturaya karşılık olarak kapatılamaz. Ödeme, satınalma siparişinden veya satış siparişinden oluşturulan faturaya karşılık otomatik olarak kapatılacaktır.
 
 ## <a name="how-to-settle-transactions"></a>Hareketler nasıl kapatılır
-Hareketler el ile, otomatik veya bu iki yöntemin bileşimi ile kapatılabilir. Kapatma yöntemi tercihi, Borç hesapları parametreleri ve Alacak hesapları parametreleri içinde kapatmanın kurulumu üzerinden uygulanabilecek işletme süreçlerine bağlıdır. Ödenecek faturaları seçmede kullanılan bir ödeme teklifi kullanarak satıcı ödemeleri ve müşteri doğrudan borç ödemeleri oluşturabilirsiniz. Ödeme teklifi el ile başlatılır ama ardından ödemeler oluşturulduğunda Microsoft Dynamics 365 for Operations seçilen faturaları kapatma için otomatik olarak işaretler. Ödemeler el ile oluşturulduysa, **Kapatma hareketleri** sayfasını kullanarak kapatma için fatura seçebilirsiniz. Faturaları el ile seçebilir veya **Önceliğe göre işaretle** seçeneğini kullanarak faturaları kapatmaya karşı otomatik olarak işaretleyebilirsiniz. **Önceliğe göre işaretle** seçeneği, yalnızca Alacak hesapları için kullanılabilir. Bu seçeneği etkinleştirmek için,Alacak hesapları parametrelerindeki **Kapatma önceliği** sayfasını kullanın. Ödeme memuru bir ödeme girer, ancak bu ödemeyi deftere nakletmeden önce kapatmazsa, ödeme otomatik olarak kapatılabilir. Alacak hesapları parametrelerinde ve Borç hesapları parametrelerinde otomatik kapatmayı etkinleştirebilirsiniz. Otomatik kapatma kullandığınızda, önceden tanımlanmış kapatma sırası kullanabilir veya Alacak hesapları parametrelerinde kendi kapatma öncelik sıranızı tanımlayabilirsiniz. Bu işlev yalnızca Alacak hesapları için kullanılabilir.
+Hareketler el ile, otomatik veya bu iki yöntemin bileşimi ile kapatılabilir. Kapatma yöntemi tercihi, Borç hesapları parametreleri ve Alacak hesapları parametreleri içinde kapatmanın kurulumu üzerinden uygulanabilecek işletme süreçlerine bağlıdır. Ödenecek faturaları seçmede kullanılan bir ödeme teklifi kullanarak satıcı ödemeleri ve müşteri doğrudan borç ödemeleri oluşturabilirsiniz. Ödeme teklifi el ile başlatılır ama ardından ödemeler oluşturulduğunda Microsoft Dynamics 365 for Finance and Operations seçilen faturaları kapatma için otomatik olarak işaretler. Ödemeler el ile oluşturulduysa, **Kapatma hareketleri** sayfasını kullanarak kapatma için fatura seçebilirsiniz. Faturaları el ile seçebilir veya **Önceliğe göre işaretle** seçeneğini kullanarak faturaları kapatmaya karşı otomatik olarak işaretleyebilirsiniz. **Önceliğe göre işaretle** seçeneği, yalnızca Alacak hesapları için kullanılabilir. Bu seçeneği etkinleştirmek için,Alacak hesapları parametrelerindeki **Kapatma önceliği** sayfasını kullanın. Ödeme memuru bir ödeme girer, ancak bu ödemeyi deftere nakletmeden önce kapatmazsa, ödeme otomatik olarak kapatılabilir. Alacak hesapları parametrelerinde ve Borç hesapları parametrelerinde otomatik kapatmayı etkinleştirebilirsiniz. Otomatik kapatma kullandığınızda, önceden tanımlanmış kapatma sırası kullanabilir veya Alacak hesapları parametrelerinde kendi kapatma öncelik sıranızı tanımlayabilirsiniz. Bu işlev yalnızca Alacak hesapları için kullanılabilir.
 
 ## <a name="results-of-settlement"></a>Kapatma sonuçları
 Hareketler kapatıldıkça, her bir hareketin devreden bakiyesi uygun şekilde artar veya azalır. Bir faturanın veya ödemenin kapatıldığı tipik bir senaryoda, her bir hareketin durumu ve bakiyesi, aşağıdaki kurallara göre güncellenir:

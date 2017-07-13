@@ -1,9 +1,9 @@
 ---
 title: "Yalın imalata genel bakış"
-description: "Bu makale Microsoft Dynamics AX içindeki yalın imalat özelliklerinin genel bakışını ve açıklamasını sağlar."
+description: "Bu makale Dynamics 365 for Finance and Operations içindeki yalın imalat özelliklerinin genel bakışını ve açıklamasını sağlar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19371
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dd29e601cb78b6903e09e63182196427183f6dbe
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 376b521a7527b4f60bc01c080f8eabb5cb231b30
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,17 +33,17 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makale Microsoft Dynamics AX içindeki yalın imalat özelliklerinin genel bakışını ve açıklamasını sağlar.
+Bu makale Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içindeki yalın imalat özelliklerinin genel bakışını ve açıklamasını sağlar.
 
 Yalın üretim, yalın operasyonları modellemede kullanabileceğiniz araçlar sunar. Bu araçlar aşağıdaki kavramları ve iş etkinliklerini öne çıkarır ve destekler:
 -   Üretim ve lojistik işlemlerini, üretim akışları olarak modelleyerek yalın üretim için bir temel oluşturun.
 -   Talep gereksinimlerinin sinyalini vermek için kanbanları kullanarak da bir yalın çekme sistemi uygulayabilirsiniz.
 -   Kanban işlerini izleyin ve sürdürün.
 
-Microsoft Dynamics AX 7'deki yalın üretim mimarisi, üretim akışları, etkinlikler ve kanban kurallarından oluşur. Bu yapılar Microsoft Dynamics AX 7 işlemleri ile tamamen tümleşiktir. Yalın üretimi çeşitli tedarik, üretim ve kaynak belirleme stratejilerini birleştiren bir karma mod üretim ortamında kullanabilirsiniz. Bu stratejilere üretim emirleri, işlem endüstrileri için toplu siparişler, satınalma siparişleri ve transfer emirleri dahildir.
+Finance and Operations'daki yalın üretim mimarisi, üretim akışları, etkinlikler ve kanban kurallarından oluşur. Bu yapılar, Finance and Operations işlemleri ile tamamen tümleşiktir. Yalın üretimi çeşitli tedarik, üretim ve kaynak belirleme stratejilerini birleştiren bir karma mod üretim ortamında kullanabilirsiniz. Bu stratejilere üretim emirleri, işlem endüstrileri için toplu siparişler, satınalma siparişleri ve transfer emirleri dahildir.
 | **Önemli**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Microsoft Dynamics AX 7'yi, kanbanlar ile yalın üretim uygulamasını desteklemek için kullanabilirsiniz. Ancak, yalın prensiplerin başarılı bir şekilde uygulaması, kullandığınızı dahili iş süreçlerine ve gerçek üretim koşulları ve ortamına bağlıdır. |
+| Finance and Operations'u, kanbanlar ile yalın üretim uygulamasını desteklemek için kullanabilirsiniz. Ancak, yalın prensiplerin başarılı bir şekilde uygulaması, kullandığınızı dahili iş süreçlerine ve gerçek üretim koşulları ve ortamına bağlıdır. |
 
 ## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a> Üretimi, üretim akışları ve lojistik süreçleri olarak modelleme
 Yalın üretim için bir temel oluşturmak için üretim ve lojistik işlemlerini, üretim akışları olarak modelleyin. Bu etkinlik aşağıdaki görevleri içerir:
@@ -71,8 +71,8 @@ Yalın üretim, kanban kurallar tarafından yönetilen üretim ve lojistik faali
 -   Transfer işleri için kanban panosu – Bu pano, geçerli aktarım işlerine genel bakış sağlar. Malzeme çekme listelerini kaydedebilir ve güncelleştirebilir, transfer işlerini başlatabilir ve tamamlayabilir ve diğer görevleri gerçekleştirebilirsiniz.
 -   Süreç işleri için kanban panosu – Bu pano, normal üretim akışını desteklemek ve bir veya birden çok iş hücresinin geçerli durumuna bir bakış sağlamak üzere tasarlanmıştır. Bu tahtadan kanbanlara öncelik verebilir, çekebilir veya üretilebilir. Ayrıca bu tahta kanbanların raporlaması için barkod taramayı da desteklemek üzere tasarlanmıştır.
 
-## <a name="kanban-jobs-and-integration-with-microsoft-dynamics-ax-processes"></a> Kanban işleri ve işlemleri Microsoft Dynamics AX ile tümleştirme
-Kanban işleri Microsoft Dynamics AX'te stok hareketleri için geçerli işlemler ile tamamen tümleşiktir.
+## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a>Kanban işleri ve Finance and Operations işlemleri ile tümleştirme
+Kanban işleri Finance and Operations'ta stok hareketleri için geçerli işlemler ile tamamen tümleşiktir.
 -   Kanban iş gereksinimlerini karşılamak için kullanılan malzeme stoğunu yenilemek için malzeme çekme etkinlikleri gerçekleştirebilirsiniz.
 -   Kanban kartları, sirkülasyon kanban kartları ve malzeme çekme listelerinin kanban kullanımını desteklemek için yazdırabilirsiniz. Bu belgeler kanban işlerini ambarda ve üretim sahasında temsil etmek, izlemek ve kaydetmek için kullanılır.
 -   Bar kodlarını tarayarak stoktaki malzeme çekme ve transfer etkinliklerini kaydedebilirsiniz.

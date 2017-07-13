@@ -1,15 +1,15 @@
 ---
 title: "Satış ve karlılık performansı Power BI içeriği"
-description: "Bu konuda, Dynamics 365 for Operations - Microsoft Power BI için satış ve karlılık performansı içerik paketinin içeriği açıklanmaktadır. Bu ayrıca, içerik paketine dahil edilen raporların nasıl kullanılacağını açıklar ve içerik paketini oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar."
+description: "Bu konu, Satış ve karlılık performansı Power BI içeriğinde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
-audience: Application User
-ms.search.scope: Operations, Core
+audience: Application User, IT Pro
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 260674
 ms.assetid: ab457f02-929e-4d34-b813-335be3092287
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 357f7071d801b13518c83170f8d0e7946dd9dede
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 16fef86e330a392ddd888fcb46060c3e1efa87c5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,33 +29,33 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Bu konu, **Satış ve karlılık performansı** Microsoft Power BI içeriğinde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar.
 
-Bu konuda, Dynamics 365 for Operations - Microsoft Power BI için satış ve karlılık performansı içerik paketinin içeriği açıklanmaktadır. Bu ayrıca, içerik paketine dahil edilen raporların nasıl kullanılacağını açıklar ve içerik paketini oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar.
+## <a name="overview"></a>Özet
 
-<a name="overview"></a>Özet
---------
+**Satış ve karlılık performansı** Power BI içeriği, satış yöneticilerinin gelir, brüt kar ve kar marjları temel satış ölçümlerini izleyebilmesi için oluşturulmuştur. Satış hareketi verilerini kullanır ve hem şirket çapında satış rakamlarının toplam görünümünü hem de müşteriler ve ürünler için satış performansının dağılımını verir.
 
-Bu içerik paketi, satış yöneticilerinin gelir, brüt kar ve kar marjları anahtar satış ölçümlerini izlemesi için oluşturulmuştur. Dynamics 365 for Operations'tan alınan satış işlem verilerini kullanır ve hem şirket çapında satış rakamlarının toplam görünümünü hem de müşteriler ve ürünler için satış performansının dağılımını verir. Zaman içindeki gelir ve kar büyümesindeki değişiklikleri vurgulayarak, raporlar yöneticileri bireysel müşteriler ve ürünler için olumlu ve olumsuz eğilimler konusunda uyarmak için kullanılabilir. Kategori ve bölge müdürleri, geride kalanları ve liderleri birbirinden ayırmak için farklı ürün kategorilerinin ve müşteri gruplarının gelir ve karlılıklarını karşılaştıran çizelgeleri yararlı bulacaktır. Bireysel müşteri gelirini kar marjıyla karşılaştıran kapsamlı bir rapor, hesap yöneticilerine satış ve pazarlama çabalarını her bir müşterinin ilgili profiline uyumlu hale getirmek için verilere dayalı bir zemin sunar. Satış ve karlılık performansı içerik paketi Satış yöneticilerinin satış performansını şu ölçütlerle çözümlemesini sağlar:
+Rapor zaman içinde gelirdeki değişiklikleri ve kar artışını vurgular. Bu nedenle, raporlar yöneticileri ayrı müşteriler ve ürünlerle ilgili olarak pozitif ve negatif eğilimleri hakkında uyarmak için kullanılabilir. Ayrıca, grafik farklı ürün kategorilerinin gelirini ve karlılığını ve müşteri gruplarını birbiriyle karşılaştırır. Bu nedenle, kategori ve bölge yöneticileri geride kalanları ve liderleri tanımlayabilir. Son olarak, kapsamlı bir rapor tek tek müşteri gelirinin kar marjıyla karşılaştırmasını sunar. Böylece, hesap yöneticileri her müşteri profiline yönelik satış ve pazarlama çalışmalarını ayarlamak için kullanabilecekleri verilere dayanan bir temele sahip olur. 
+
+**Satış ve karlılık performansı** içeriği satış yöneticilerinin satış performansını aşağıdaki şekillerde analiz etmesini sağlar:
 
 -   Gelir, yılbaşından bugüne (müşteri grubu ve bireysel müşteriler, satış kategorileri ve bireysel ürünler ve coğrafyalara göre)
 -   Gelir değişimi, yıldan yıla (müşteri bölgelerine ve satışları kategorilerine göre)
 
-Karlılık şu ölçütlere göre çözümlenebilir:
+Karlılık analiz aşağıdaki şekillerde analiz edilebilir:
 
 -   Brüt kar ve kar marjı (müşteri gruplarına ve ürün satış kategorilerine göre)
 -   Brüt kar değişikliği, yıldan yıla
 -   Müşteri karlılığı (gelir - brüt kar marjı karşılaştırması)
 
-## <a name="accessing-the-content-pack"></a>İçerik paketine erişmek
-Satış ve karlılık performansı Power BI içerik paketi, Lifecycle Services'da (LCS) bir uygulama varlığı olarak yayınlanır ve Dynamics 365 for Operations'tan erişilebilir. Power BI raporlarına erişme ve raporları başlatma hakkında daha fazla bilgi için bkz. [Microsoft ve iş ortaklarınızdan LCS'de Power BI içeriği](power-bi-content-microsoft-partners.md).
-**Not:** KB 4011327 bu Power BI içeriği için önkoşuldur. Lifecycle Services'a oturum açtıktan sonra KB'ye buradan erişebilirsiniz: <a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>.
+## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
+Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü Temmuz 2017 güncelleştirmesi kullanıyorsanız, **Satış ve karlılık performansı** Power BI içeriği **Satış ve karlılık performansı** sayfasında (**Satış ve pazarlama** > **Sorgular ve raporlar** > **Satış performansı analizi** > **Satış ve karlılık performansı**) gösterilir. 
 
-## <a name="metrics-included-in-the-content-pack"></a>İçerik paketindeki ölçümler
-İçerik paketi ölçümleri grafikler, kutucuklar ve tablolar halinde görselleştirilmiş bir dizi ölçümden oluşan bir rapor içerir. Aşağıdaki tabloda içerik paketindeki görselleştirmelere bir genel bakış sunulmaktadır.
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan ölçümler
+**Satış ve karlılık performansı** Power BI içeriği bir dizi ölçümden oluşan bir rapor içerir. Bu ölçümler grafikler, kutucuklar ve tablolar şeklinde görüntülenir. Aşağıdaki tabloda içerikteki görselleştirmelere genel bakış sunulmaktadır.
 
-|                        |                                            |                                                         |
+| Rapor sayfası            | Grafikler                                     | Kutucuklar                                                   |
 |------------------------|--------------------------------------------|---------------------------------------------------------|
-| **Rapor sayfası**        | **Grafikler**                                 | **Kutucuklar**                                               |
 | Müşteriye göre gelir    | Gelire göre ilk 10 müşteri                | Toplam gelir                                           |
 |                        | Müşteri grubuna göre toplam gelir            | Yıldan yıla gelir büyümesi                                      |
 |                        | Müşteri grubuna göre ortalama müşteri geliri | Brüt kar                                            |
@@ -76,47 +76,46 @@ Satış ve karlılık performansı Power BI içerik paketi, Lifecycle Services'd
 
 \* Bu yılki ve geçen yılki gelir ve büyüme, satış kategorisine göre.
 
+## <a name="extending-the-power-bi-content"></a>Power BI içeriğini genişletmek
+Microsoft Dynamics Lifecycle Services (LCS) içinde kullanılabilir durumda olan içerik paketlerini kullanarak, Microsoft Dynamics 365'e oturum açmayan kişilere harika analizler sunabilirsiniz. Bu içerik paketlerini diğer raporları veya görsel öğeleri içerecek şekilde değiştirebilir ve içerik paketlerini analiz için Power BI.com kiracınıza yayınlayabilirsiniz.
+
+**Satış ve karlılık performansı** Power BI içeriğini LCS'deki Paylaşılan varlıklar kitaplığında bulabilirsiniz. İçeriği indirmek ve kuruluşunuzda tümleştirmek hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](power-bi-content-microsoft-partners.md). Power BI içeriğinin nasıl uygulanacağını gösteren bir demo izlemek için bakınız [Microsoft ve Dynamics Lifecycle Services ortaklarınızdan Power BI içeriği](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
+
+Kullanmakta olduğunuz Dynamics 365 sürümü için geçerli **Satış ve karlılık performansı** içeriğini indirdiğinizden emin olun.
+
+> [!NOTE]
+> Microsoft Dynamics 365 for Operations, 1611 sürümünü kullanıyorsanız, bu Power BI içeriği için KB 4011327 bir önkoşuldur: LCS'de oturum açtıktan sonra KB'ye buradan erişebilirsiniz: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
+
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
-Dynamics 365 for Operations verileri, Satış ve karlılık performansı içerik paketindeki raporu doldurmak için kullanılır. Bu, analiz için optimize edilmiş bir Microsoft SQL veritabanı olan Varlık Deposunda hazırlanmış toplama ölçümler olarak temsil edilir. Hakkında daha fazla bilgi için blog yazısına bakın: [Dynamics'te Power BI ile Varlık Deposu tümleştirmesi](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Bu içerik paketindeki toplama ölçümler, Dynamics AX 2012 ve AX 2012 R3'teki Satış Küpü'nde bulunan toplama ölçümlerin alt kümesidir. Varlık deposundaki küpün toplama ölçülerini hazırlamak için bu ölçümleri dağıtılabilir yapmanız gerekir. Daha fazla bilgi için, şu blog yazısındaki toplama ölçümlerini Varlık Deposuna ekleme prosedürüne bakın: [Dynamics'te Power BI ile Varlık deposu tümleştirmesi](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Fatura satırları varlığının aşağıda verilen önemli toplama ölçümleri, içerik paketinin temeli olarak kullanılır.
+Aşağıdaki veriler **Satış ve karlılık performansı** Power BI içeriğindeki raporu doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Sunucu veritabanıdır. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesine genel bakış](power-bi-integration-entity-store.md). 
 
-|               |                                              |                                                 |                                              |                                          |
-|---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|------------------------------------------|
-| **Varlık**    | **Önemli toplama ölçümler**               | **Dynamics 365 for Operations için veri kaynağı** | **Alan**                                    | **Açıklama**                          |
-| Fatura satırları | Gelir                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Muhasebe para birimi cinsinden tutar            |
-|               | Satılan malların maliyeti                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | Maliyet tutarı + düzeltme                 |
-|               | Komisyon satırı tutarı – muhasebe para birimi | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Komisyon satırı tutarı, muhasebe para birimi cinsinden |
+Bu içerikteki toplam ölçümleri, Microsoft Dynamics AX 2012 ve Microsoft Dynamics AX 2012 R3'teki Satış Küpü'nde bulunan toplama ölçümlerin alt kümesidir. Varlık deposundaki küpün toplama ölçülerini hazırlamak için bu ölçümleri dağıtılabilir yapmanız gerekir. Daha fazla bilgi için, şu blog yazısındaki toplama ölçümlerini Varlık Deposuna ekleme yordamına bakın: [Dynamics'te Power BI ile Varlık deposu tümleştirmesi](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). 
 
-Aşağıdaki tabloda, içerik paketinde veri kümesini oluşturmak için kullanılan fatura satırları varlığı önemli toplama ölçümleri gösterilmektedir.
+Fatura satırları varlığının aşağıda verilen önemli toplama ölçümleri, içeriğin temeli olarak kullanılır.
 
-|                   |                                                                                                  |
+| Varlık        | Önemli toplam ölçümler                   | Dynamics 365 için Veri kaynağı                    | Alan                                        | Açıklama                                   |
+|---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|----------------------------------------------|
+| Fatura satırları | Gelir                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Muhasebe para birimi cinsinden tutar.            |
+|               | Satılan malların maliyeti                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | Maliyet tutarı toplamı ve ayarlama.    |
+|               | Komisyon satırı tutarı – muhasebe para birimi | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Muhasebe para birimi cinsinden komisyon tutarı. |
+
+Aşağıdaki tabloda, içerikte veri kümesini oluşturmak için kullanılan Fatura satırları varlığı önemli toplama ölçümleri gösterilmektedir.
+
+| Ölçü           | Hesaplama                                                                                      |
 |-------------------|--------------------------------------------------------------------------------------------------|
-| **Ölçüm**       | **Hesaplama şekli**                                                                                |
 | Brüt kar      | SUM(Gelir – SMM – Komisyon – Satış vergisi (müşteri faturası satır tutarı dahil))          |
 | Brüt kar      | SUM(Brüt kar / (Gelir – Satış vergisi (müşteri faturası satır tutarı dahil)))             |
 | Geçen yılın geliri | Geçen yılın geliri = CALCULATE(SUM('Fatura satırları'\[Gelir\]), SAMEPERIODLASTYEAR (Tarihler\[Tarih\]) |
 
-Aşağıdaki **Satış küpü** anahtar boyutları, daha büyük hassasiyet ve daha derin analiz bilgileri elde etmek üzere toplama ölçümleri bölmek için filtre olarak kullanılır.
+Satış Küpündeki aşağıda belirtilen temel boyutlar daha büyük hassasiyet ve daha derin analiz bilgileri elde edebilmeniz amacıyla toplama ölçümlerini bölmek üzere filtre olarak kullanılır.
 
-|                  |                                                      |
+| Varlık           | Öznitelik örnekleri                               |
 |------------------|------------------------------------------------------|
-| **Varlık**       | **Öznitelik örnekleri**                           |
 | Müşteriler        | Müşteri grupları, Müşteri bölgeleri, Adres, Sektör |
 | Ürünler         | Ürün numarası, Ürün adı, Madde grupları adı       |
 | Satış kategorileri | Satış kategorisi adları                                 |
 | Tüzel kişilikler   | Tüzel kişilik adları                                   |
 | Tarihler            | Tarihler                                                |
 
-Varsayılan olarak, içerik paketi, geçerli takvim yılının verilerini görüntüler ancak rapor filtreleri bölümü açıp tarih filtresini değiştirebilirsiniz. Şirket filtresini de değiştirebilirsiniz.
-
-## <a name="additional-resources"></a>Ek kaynaklar
-Power BI içeriği oluşturmak ve varlıklarla ilgili bazı yararlı bağlantılar şunlardır:
-
--   [Veri varlıkları](..\data-entities\data-entities.md)
--   [Kuruluş içerik paketleri oluşturma](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Power BI kullanarak veri modelleme](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Çalışma alanlarına Power BI kutucukları ekleme](configure-power-bi-integration.md)
-
-
-
-
+Varsayılan olarak, içerik geçerli takvim yılına ilişkin verileri gösterir. Ancak, rapor filtreleri bölümünden tarih filtresini değiştirebilirsiniz. Şirket filtresini de değiştirebilirsiniz.
 

@@ -3,25 +3,26 @@ title: "Şirkete özgü İK parametreleri ayarlama"
 description: "İnsan Kaynakları (HR) parametrelerinin ayarları şirketler arasında paylaşılır ancak diğer parametrelerin ayarları şirkete özeldir. Bu makalede, şirkete özgü İK parametrelerinin nasıl ayarlanacağı açıklanmaktadır."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HRMParameters
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: rschloma
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e1a3560013271fc1b83bdb931aef2153b1d07317
+ms.sourcegitcommit: f83bc127f7bf3cdceb39a79c1e69f4f7e96f6462
+ms.openlocfilehash: ef84ad6e90e7c58ea921930e23b67228d393bc7e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/19/2017
 
 
 ---
@@ -36,7 +37,7 @@ ms.lasthandoff: 05/25/2017
 İki sayfa İnsan Kaynakları (HR) parametrelerini ayarlamak için kullanılır. Şirketler arasında paylaşılan parametreler için **İnsan Kaynakları paylaşılan parametreleri** sayfasını kullanırsınız. Şirkete özgü parametreler için (diğer bir deyişle, tek bir şirket için uygulanan ayarlar) **İnsan Kaynakları parametreleri** sayfasını kullanırsınız. **İnsan Kaynakları parametreleri** sayfasında ayarlar altı sekmeye ayrılır:
 
 -   Genel
--   İşe alma
+-   İşe alma - bu, Dynamics 365 for Talent'a dahil edilmemiştir
 -   Ücret
 -   Numara serileri
 -   Aile ve sağlık Yasası (FMLA) bırakın.
@@ -48,7 +49,11 @@ Her sekme, tek bir şirketle ilgili bilgileri içerir. **genel** sekmesindeki ay
 
 **Ücret** sekmesindeki ayarlar, kullanıcının bir sabit veya değişken ücret planı bilgilerini kaydetmek istediklerini onaylamaları gerekip gerekmediğini tanımlar. **Kaydetme doğrulamasını etkinleştir** onay kutusunu işaretlerseniz, kullanıcılar ücretle ilgili bir sayfayı her kapatmak istediklerinde kaydı kaydetmek isteyip istemediklerini soran bir ileti alır. Ücret yönetimindeki bazı sayfalar kullanıcıların bilgileri silmesine izin vermez. Bu nedenle, kullanıcılardan bilgilerinin kaydedilmesini istediklerini doğrulamalarını isteyerek, kaydedilen daha sonra silinemez bilgi miktarını sınırlama olanağınız olabilir. **Kaydetme doğrulamayı etkinleştir** onay kutusu temizlendiğinde, kayıtları her zaman hemen kaydedilir, büyük olasılıkla kullanıcı hazır olmadan önce. Performans yönetimi kullanıyorsanız, **Ücret** sekmesi performansı değerlendirirken tazminat planlarına atanan model yerine bir değerlendirme modeli kullanmayı seçmenizi sağlar. 
 
-**numara serisini** sekmesindeki ayarlar uygulamalar, devamsızlık kayıtları, Maaş işlem sonuçları, olay sayıları, kurslar ve kurs gündemi gibi İnsan Kaynakları'ndaki öğeleri otomatik olarak atamak için kullanılan sıralarını belirler. Numara serisi referanslarını ve kodlarını korumak için **Numara serileri** listesi sayfasını kullanın (**Organizasyon yönetimi** &gt; **Numara serileri** &gt; **Numara serileri**'ne tıklayın). 
+### <a name="previously-released-functionality"></a>Daha önce yayımlanan işlev
+**numara serisini** sekmesindeki ayarlar uygulamalar, devamsızlık kayıtları, Maaş işlem sonuçları, olay sayıları, kurslar ve kurs gündemi gibi İnsan Kaynakları'ndaki öğeleri otomatik olarak atamak için kullanılan sıralarını belirler. Numara serisi referanslarını ve kodlarını korumak için **Numara serileri** listesi sayfasını kullanın (**Organizasyon yönetimi** &gt; **Numara serileri** &gt; **Numara serileri**'ne tıklayın).
+
+### <a name="if-youre-using-dynamics-365-for-talent"></a>Dynamics 365 for Talent kullanıyorsanız
+**numara serisini** sekmesindeki ayarlar uygulamalar, devamsızlık kayıtları, Maaş işlem sonuçları, olay sayıları, kurslar ve kurs gündemi gibi İnsan Kaynakları'ndaki öğeleri otomatik olarak atamak için kullanılan sıralarını belirler. Numara serisi referanslarını ve kodlarını korumak için **Numara serileri** liste sayfasını kullanın (**Sistem yönetimi** &gt; **Bağlantı sekmeleri** &gt; **Numara serileri** &gt; **Numara serileri**'ne tıklayın). 
 
 **FMLA** sekmesi tanımlayan bir çalışanın FMLA için uygun olmak için kaç saat çalışması gerektiğini, uygunluğu için gerekli olan çalışma uzunluğu ve İstihdam İstihdam uzunluğunu belirlemek için kullanılan tarih başlangıcını tanımlar. Ayarlar da çalışanların hakkı FMLA saat sayısını ve FMLA kaç FMLA saat çalışanlar kullanmış hesaplamak için kullanılan bırakma takvimini tanımlar. **FMLA** sekmesi, yalnızca Amerika Birleşik Devletleri'nde şirketler için kullanılabilir. 
 

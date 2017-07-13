@@ -3,14 +3,14 @@ title: "Ürün konfigürasyon modeli oluşturun"
 description: "Ürünleri özel gereksinimleri karşılamak üzere yapılandırma gerekliliği hem işletmeden işletmeye hem de hem işletme-müşteri ilişkilerinde istisna yerine bir kural haline gelmektedir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 75083
 ms.assetid: f08072b8-cb0b-43aa-9509-f5ec32caecd9
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 901d5dd18f0da6f05c185c24b3f11fe32fdc400b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 5bc19e95266e8f1bec8744da688387dca559373f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -72,7 +72,7 @@ Tablo kısıtlamaları kullanıcı veya sistem tanımlı olabilir.
 
 Bir kullanıcı tanımlı tablo kısıtlaması kullanıcı tarafından üretilmiştir. Kullanıcı tablonun sütunları göstermek için öznitelik türleri birleşimini seçer ve sonra satır içinde tablo kısıtlaması oluşturmak için seçili öznitelik türlerinin etki alanlarındaki değerleri girer.  
 
-Bir sistem tanımlı tablo kısıtlaması hangi Microsoft Dynamics 365 for Operations tablosunun başvuru olarak kullanılacağını seçerek ve sonra kısıtlamada sütunlar oluşturmak için bu tablodan alanları seçerek tanımlanır. Tablo kısıtlaması satırları, yapılandırma sırasında mevcut Dynamics 365 for Operations tablosu satırlarıdır.  
+Bir sistem tanımlı tablo kısıtlaması hangi Microsoft Dynamics 365 for Finance and Operations tablosunun başvuru olarak kullanılacağını seçerek ve sonra kısıtlamada sütunlar oluşturmak için bu tablodan alanları seçerek tanımlanır. Tablo kısıtlaması satırları, yapılandırma sırasında mevcut Finance and Operations tablosu satırlarıdır.  
 
 Bir tablo kısıtlaması tablo kısıtlaması tanımına referans vererek ve modelde ilgili öznitelikleri tablo kısıtlamasındaki sütunlara eşleyerek bir ürün yapılandırma modeline dahil edilir.
 
@@ -137,7 +137,7 @@ Sonlandırılma işleminde son ve en önemli adım bir ürün yapılandırma mod
 
 ### <a name="pcadaptor-class"></a>PCAdaptor sınıfı
 
-API ürün yapılandırma modellerinin veri yapısını sergileyen**PCAdaptor** sınıfları kümesini kullanarak uygulanır. **PCAdaptor** sınıfının bir örneği, genişletilecek her model için oluşturulmalıdır. Bir yapılandırma oturumu tamamlandıktan sonra, sistem bu sınıfın bir örneğini denetler ve bulursa onu çalıştırır.  
+API ürün yapılandırma modellerinin veri yapısını sergileyen **PCAdaptor** sınıfları kümesini kullanarak uygulanır. **PCAdaptor** sınıfının bir örneği, genişletilecek her model için oluşturulmalıdır. Bir yapılandırma oturumu tamamlandıktan sonra, sistem bu sınıfın bir örneğini denetler ve bulursa onu çalıştırır.  
 
 Aşağıdaki akış diyagramı işlemi özetlenmektedir.  
 

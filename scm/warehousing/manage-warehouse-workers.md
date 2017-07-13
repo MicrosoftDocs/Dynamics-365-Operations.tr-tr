@@ -1,16 +1,16 @@
 ---
 title: "Ambar çalışanlarını yönetme"
-description: "Bu makale, Microsoft Dynamics AX&quot;i, ambarlarınızdaki çalışanlarca yürütülen işi denetlemeye ve izlemeye yardımcı olacak şekilde nasıl kullanabileceğinizi açıklamaktadır."
+description: "Bu makale, Dynamics 365 for Finance and Operations'u ambarlarınızdaki çalışanlarca yürütülen işi denetlemeye ve izlemeye yardımcı olacak şekilde nasıl kullanabileceğinizi açıklamaktadır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72891
 ms.assetid: feaa6f15-49d2-41f5-9b87-453463c52e4e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b4e2cb91cac210a659f261c5fcabb5f3643cdbec
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 52753c21862a2955e15140bb1cdb5ef6f6efe31a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makale, Microsoft Dynamics AX'i, ambarlarınızdaki çalışanlarca yürütülen işi denetlemeye ve izlemeye yardımcı olacak şekilde nasıl kullanabileceğinizi açıklamaktadır.
+Bu makale, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'u ambarlarınızdaki çalışanlarca yürütülen işi denetlemeye ve izlemeye yardımcı olacak şekilde nasıl kullanabileceğinizi açıklamaktadır.
 
 Ambar yönetimindeki işlevleri kullanıyorsanız, tüm ambar çalışan operasyonları *iş* olarak adlandırılır. Çekme, taşıma ve eldeki stokun sayımı gibi işler mobil cihazlar kullanılarak kaydedilir. Bir ambar çalışanı işi yapmadan önce, İnsan Kaynakları'ndaki bir çalışan ile ilişkilendirilmiş olması gerekir. Her **Çalışan** hesabının, bu hesapla ilişkilendirilmiş birden çok ambar işi kullanıcısı olabilir. Bu iş kullanıcıları farklı ambarlarda çalışabilir ve çeşitli mobil cihaz menülerine farklı düzeylerde erişimleri olabilir. Ambar iş kullanıcılarını seçili çalışanın birden çok oturum açması gibi düşünebilirsiniz. Her iş kullanıcısının varsayılan bir ambarı vardır ve belirli iş akışları, o iş kullanıcısı tarafından kullanılabilen menü öğeleri ile ortaya çıkarılır. 
 

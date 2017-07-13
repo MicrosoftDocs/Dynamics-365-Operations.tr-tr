@@ -1,27 +1,29 @@
 ---
 title: "Müşteri bağlılık programı ayarlama"
-description: "Bu makalede bir bağlılık programının nasıl oluşturulacağı açıklamaktadır. Bağlılık programları, müşterileri perakende mağazalarınızdan ürün satın aldığı için ödüllendirerek müşteri bağlılığını artırmanıza yardımcı olabilir. Microsoft Dynamics 365 for Operations&quot;ta, herhangi bir perakende kanalındaki tüzel kişiliklerinize uygulanan basit veya karmaşık bağlılık programları ayarlayabilirsiniz."
+description: "Bu makalede bir bağlılık programının nasıl oluşturulacağı açıklamaktadır. Bağlılık programları, müşterileri perakende mağazalarınızdan ürün satın aldığı için ödüllendirerek müşteri bağlılığını artırmanıza yardımcı olabilir. Microsoft Dynamics 365 for Retail'de, herhangi bir perakende kanalındaki tüzel kişiliklerinize uygulanan basit veya karmaşık bağlılık programları ayarlayabilirsiniz."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16201
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 04521c20ddeca1154b134b23c1db69f45c554ed3
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 710f8ae3a6a2b5072f37879aad066dc699ede8f0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -31,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Bu makalede bir bağlılık programının nasıl oluşturulacağı açıklamaktadır. Bağlılık programları, müşterileri perakende mağazalarınızdan ürün satın aldığı için ödüllendirerek müşteri bağlılığını artırmanıza yardımcı olabilir. Microsoft Dynamics 365 for Operations'ta, herhangi bir perakende kanalındaki tüzel kişiliklerinize uygulanan basit veya karmaşık bağlılık programları ayarlayabilirsiniz.
+Bu makalede bir bağlılık programının nasıl oluşturulacağı açıklamaktadır. Bağlılık programları, müşterileri perakende mağazalarınızdan ürün satın aldığı için ödüllendirerek müşteri bağlılığını artırmanıza yardımcı olabilir. Microsoft Dynamics 365 for Retail'de, herhangi bir perakende kanalındaki tüzel kişiliklerinize uygulanan basit veya karmaşık bağlılık programları ayarlayabilirsiniz.
 
 <a name="loyalty-features"></a>Bağlılık programı özellikleri
 ----------------
@@ -45,7 +47,7 @@ Aşağıdaki seçenekleri içeren bir bağlılık programı ayarlayabilirsiniz:
 -   Bağlılık programı kartlarını el ile ayarlayın ya da bir müşteriyi ödüllendirmek veya ihtiyacını karşılamak için bağlılık ödülleri bakiyesini bir karttan diğerine transfer edin.
 
 ## <a name="setting-up-loyalty-programs"></a>Bağlılık programları ayarlama
-Dynamics 365 for Operations - Perakende'de bağlılık özelliğini etkinleştirmek için çeşitli bileşenleri ayarlamanız gerekir. Aşağıdaki diyagram, bağlılık bileşenlerini ve birbirleriyle ilişkisini gösterir. ![Bağlılık programı ayarlama işlem akışı](./media/loyaltyprocess.gif)
+Dynamics 365 for Retail'de bağlılık özelliğini etkinleştirmek için çeşitli bileşenleri ayarlamanız gerekir. Aşağıdaki diyagram, bağlılık bileşenlerini ve birbirleriyle ilişkisini gösterir. ![Bağlılık programı ayarlama işlem akışı](./media/loyaltyprocess.gif)
 
 ## <a name="loyalty-components"></a>Bağlılık programı bileşenleri
 Aşağıdaki tabloda her bir bileşen ve bağlılık programı ayarlarında nerede kullanıldığı tanımlanmıştır.
@@ -68,7 +70,7 @@ Aşağıdaki tabloda, bağlılık programı yapılandırmaları ile verilerini m
 
 | İşlem adı                         | Açıklama                                                                                                                                                                                                                                                                                                                                                                                                    | Sayfa adı                            |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| 1050 (bağlılık programı bilgileri)           | Bağlılık programı verilerini Microsoft Dynamics 365 for Operations'tan perakende mağazalarına göndermek için bu işlemi çalıştırın. Bağlılık programı verilerinin tüm mağazalara aktarılabilmesi için bu işlemi sık çalışacak şekilde zamanlamak iyi bir fikirdir.                                                                                                                                                                                               | Dağıtım planı                |
+| 1050 (bağlılık programı bilgileri)           | Bağlılık programı verilerini Microsoft Dynamics 365 for Retail'den perakende mağazalarına göndermek için bu işlemi çalıştırın. Bağlılık programı verilerinin tüm mağazalara aktarılabilmesi için bu işlemi sık çalışacak şekilde zamanlamak iyi bir fikirdir.                                                                                                                                                                                               | Dağıtım planı                |
 | Bağlılık şemalarını işle              | Bağlılık programı planlarını bağlılık programı planının atandığı perakende kanallarıyla ilişkilendirmek için bu işlemi çalıştırın. Bu işlem, toplu işlem olarak çalışacak şekilde zamanlanabilir. Bağlılık programı planları, bağlılık programları veya bağlılık programı ödül puanları gibi bağlılık programı yapılandırma verilerini değiştirirseniz bu işlemi çalıştırmanız gerekir.                                                                                               | Bağlılık şemalarını işle              |
 | Çevrimdışı bağlılık programı hareketlerini işle | Çevrimdışı işlenen hareketlerin bağlılık programı kartlarına dahil edilebilmesi amacıyla bu kartları güncellemek için bu işlemi çalıştırın. Bu işlem yalnızca **Paylaşılan perakende parametreleri** sayfasında **Çevrimdışı kazan** onay kutusu işaretlendiğinde geçerlidir, böylece ödüller çevrimdışıyken kazanılabilir.                                                                                                                                               | Çevrimdışı bağlılık programı hareketlerini işle |
 | Bağlılık programı kartı katmanlarını güncelle            | Müşterinin kazanç etkinliğini bir bağlılık programının katman kurallarına göre değerlendirmek ve müşterinin katman durumunu güncelleştirmek için bu işlemi çalıştırın. Bu işlem yalnızca bağlılık programlarındaki katman kurallarını değiştirmek ve güncel kuralların önceden verilmiş bağlılık programı kartları için geriye dönük olarak geçerli olmasını istiyorsanız gereklidir. Bu işlem, toplu bir şeklinde veya tek tek kartlar için çalıştırılabilir. | Bağlılık programı kartı katmanlarını güncelle            |

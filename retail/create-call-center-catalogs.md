@@ -3,27 +3,26 @@ title: "Çağrı merkezi kataloğu oluşturma"
 description: "Bu makalede bir çağrı merkezine yönelik bir katalog oluşturulması sürecine genel bir bakış sunulmuştur."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16212
 ms.assetid: c9d1b9df-82e8-4b3a-a13c-166df8b9718e
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ef58d4b2028aee5bccd9f060abed8342381888eb
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 28aaa84c11a897b895b2a106ca5f0cd6168997b2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 06/20/2017
 
 ---
 
@@ -34,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Bu makalede bir çağrı merkezine yönelik bir katalog oluşturulması sürecine genel bir bakış sunulmuştur. 
 
-Bir çağrı merkezinde ürün kataloglarını müşterilere sunmak istediğiniz ürünleri belirlemek için kullanabilirsiniz. Çağrı merkezleri genellikle basılı kataloglar kullanır. Basılı bir kataloğun tasarımı ve üretimi Microsoft Dynamics 365 for Operations dışında yapılır. Ancak, çevrimiçi perakende kataloglarını ayarlamak için kullandığınız aynı formları kullanarak bir kataloğun dijital biçimini Dynamics 365 for Operations'ta Perakende ve ticaret alanında oluşturabilir ve saklayabilirsiniz. Bir katalog oluşturmak için önce ürün sınıflamalar ayarlayıp sınıflamaları bir çağrı merkezine atayın. Sonra ürün kataloğuna ürünleri bu sınıflamalardan seçerek ekleyin. Ürün kataloğuna eklendikten ve Katalog tamamlandıktan sonra verileri doğrulamak için katalogu doğrulamalısınız. Ardından kataloğu gözden geçirme ve onay için gönderin. Katalog onaylandıktan sonra yayımlanabilir. Bir çağrı merkezi katalogu oluşturulduğunda, katalog yayınlandığı zaman katalog verilerinin bir ekran görüntüsünü alabilirsiniz. Bu anlık görüntü işlevselliği belirli bir sürüm için katalog daha sonra değiştirilmiş ve güncelleştirilmiş olsa bile kataloga erişmenizi sağlar. Çağrı merkezi kataloglarını aşağıdaki isteğe bağlı özellikleri içerecek şekilde de ayarlayabilirsiniz.
+Bir çağrı merkezinde ürün kataloglarını müşterilere sunmak istediğiniz ürünleri belirlemek için kullanabilirsiniz. Çağrı merkezleri genellikle basılı kataloglar kullanır. Basılı bir kataloğun tasarımı ve üretimi Microsoft Dynamics 365 for Retail dışında yapılır. Ancak, çevrimiçi perakende kataloglarını ayarlamak için kullandığınız aynı biçimleri kullanarak bir kataloğun dijital biçimini oluşturabilir ve saklayabilirsiniz. Bir katalog oluşturmak için önce ürün sınıflamalar ayarlayıp sınıflamaları bir çağrı merkezine atayın. Sonra ürün kataloğuna ürünleri bu sınıflamalardan seçerek ekleyin. Ürün kataloğuna eklendikten ve Katalog tamamlandıktan sonra verileri doğrulamak için katalogu doğrulamalısınız. Ardından kataloğu gözden geçirme ve onay için gönderin. Katalog onaylandıktan sonra yayımlanabilir. Bir çağrı merkezi katalogu oluşturulduğunda, katalog yayınlandığı zaman katalog verilerinin bir ekran görüntüsünü alabilirsiniz. Bu anlık görüntü işlevselliği belirli bir sürüm için katalog daha sonra değiştirilmiş ve güncelleştirilmiş olsa bile kataloga erişmenizi sağlar. Çağrı merkezi kataloglarını aşağıdaki isteğe bağlı özellikleri içerecek şekilde de ayarlayabilirsiniz.
 
 -   **Kaynak kodları** – Belirli katalog postalarına müşterinin tepkisini izlemek için kullanılan kodlar.
 -   **Ücretsiz ürünler** – Bir müşterinin siparişine ek ücret olmaksızın dahil edilen ürünler. Siparişe kataloğun kaynak kodu girildiğinde, bu ürünler de otomatik olarak siparişe eklenir.

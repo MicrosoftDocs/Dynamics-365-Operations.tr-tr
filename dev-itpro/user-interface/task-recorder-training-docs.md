@@ -3,7 +3,7 @@ title: "Görev kayıtlarını kullanarak belgeler veya eğitim oluşturma"
 description: "Bu konuda, Görev kaydedici ve görev kılavuzlarının neler olduğu, görev kayıtlarının nasıl oluşturulacağı ve Microsoft görev kılavuzlarının özelleştirilip bunların Yardım bölümünüze nasıl ekleneceği açıklanmaktadır."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b44dc66cdcd1ede59cb9bb4ed05be27dd465599
+ms.sourcegitcommit: ee6d455c44a38d9b3962ca20a5cb28007c19cf1d
+ms.openlocfilehash: e71c2638caccb9a31c5254a3cf68c802808960b9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/17/2017
 
 
 ---
@@ -31,19 +31,22 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-Bu konuda, Görev kaydedici ve görev kılavuzlarının neler olduğu, görev kayıtlarının nasıl oluşturulacağı ve Microsoft görev kılavuzlarının özelleştirilip bunların Yardım bölümünüze nasıl ekleneceği açıklanmaktadır.
+Bu konuda, Görev kaydedici ve görev kılavuzlarının neler olduğu, görev kayıtlarının nasıl oluşturulacağı ve Unified Operations ürünleri için Microsoft görev kılavuzlarının özelleştirilip bunların Yardım bölümünüze nasıl ekleneceği açıklanmaktadır.
+
+> [!IMPORTANT]
+> Dynamics 365 for Talent için özel görev kılavuzları oluşturamazsınız. Talent için Yardım sistemi otomatik olarak ürün görev kılavuzlarına bağlanır. 
 
 <a name="learn-about-task-recorder"></a>Görev kaydedici hakkında bilgi edinin
 -------------------------
 
-Görev kaydedici, ürün kullanıcısı arabiriminde (UI) gerçekleştirdiğiniz eylemleri kaydetmek için kullanabileceğiniz bir Microsoft Dynamics 365 for Operations aracıdır. Görev kaydediciyi kullandığınızda, kullanıcı arabiriminde gerçekleştirdiğiniz tüm olaylar sunucuda yürütülür —değer ekleme, ayarları değiştirme, veri kaldırma dahil olmak üzere— yakalanır. Kaydettiğiniz tüm adımlar toplu olarak *görev kaydı* olarak adlandırılır. Görev kayıtları birçok şekilde kullanılabilir:
+Görev kaydedici, ürün kullanıcı arabiriminde (UI) gerçekleştirdiğiniz eylemleri kaydetmek için kullanabileceğiniz bir araçtır. Görev kaydediciyi kullandığınızda, kullanıcı arabiriminde gerçekleştirdiğiniz tüm olaylar sunucuda yürütülür —değer ekleme, ayarları değiştirme, veri kaldırma dahil olmak üzere— yakalanır. Kaydettiğiniz tüm adımlar toplu olarak *görev kaydı* olarak adlandırılır. Görev kayıtları birçok şekilde kullanılabilir:
 
--   **Görev kayıtları görev kılavuzları olarak oynatılabilir.** Görev kılavuzları Dynamics 365 for Operations Yardım deneyiminin ayrılmaz bir parçasıdır. Bir görev kılavuzu size bir iş sürecinin adımları boyunca yol gösteren denetimli, destekli, etkileşimli bir deneyimdir. Kullanıcı kullanıcı arabirimi ve kullanıcının etkileşim kurması gereken kullanıcı arayüzü öğesinde oynatılacak bir açılır pencere istemi (veya "kabarcık) yoluyla her adımı tamamlaması için yönlendirilir. "Kabarcık," öğe ile nasıl etkileşime girileceği hakkında bilgi de sağlar ("Buraya tıklayın" veya "Bu alana bir değer girin" gibi). Bir görev kılavuzu, kullanıcının geçerli veri kümesine göre çalışır ve girilen veriler kullanıcının ortamına kaydedilir.
+-   **Görev kayıtları görev kılavuzları olarak oynatılabilir.** Görev kılavuzları Yardım deneyiminin ayrılmaz bir parçasıdır. Bir görev kılavuzu size bir iş sürecinin adımları boyunca yol gösteren denetimli, destekli, etkileşimli bir deneyimdir. Kullanıcı kullanıcı arabirimi ve kullanıcının etkileşim kurması gereken kullanıcı arayüzü öğesinde oynatılacak bir açılır pencere istemi (veya "kabarcık) yoluyla her adımı tamamlaması için yönlendirilir. "Kabarcık," öğe ile nasıl etkileşime girileceği hakkında bilgi de sağlar ("Buraya tıklayın" veya "Bu alana bir değer girin" gibi). Bir görev kılavuzu, kullanıcının geçerli veri kümesine göre çalışır ve girilen veriler kullanıcının ortamına kaydedilir.
 -   **Görev kayıtları Yardım bölmesinde prosedür adımları olarak görüntülenebilir.** Yardım bölmesini görev kayıtlarını aramak ve görüntülemek için kullanabilirsiniz. Yardım Bölmesine **?** simgesine tıklayarak (üst gezinti çubuğundadır) veya **Ctrl + Shift +?** kısayol tuş bileşimini kullanarak erişebilirsiniz. Bir görev kaydının adımlarını Yardım bölmesinde okuyabilirsiniz veya size kullanıcı arabirimi ile aracılık etmesi için kaydı bir görev kılavuzu olarak oynatabilirsiniz.
--   **Görev kayıtları BPM'ye kaydedilebilir.** Görev kaydınızı Lifecycle Hizmetleri'ndeki (LCS) İş Süreci Modeli'ndeki (BPM) bir hiyerarşi sırasına kaydedebilirsiniz. Kayıttan bir adım listesi ve bir iş süreci akış çizelgesi oluşturulur. BPM kitaplığına kaydedilen görev kayıtları Dynamics 365 for Operations'ta Yardım olarak gösterilebilir.
+-   **Görev kayıtları BPM'ye kaydedilebilir.** Görev kaydınızı Lifecycle Hizmetleri'ndeki (LCS) İş Süreci Modeli'ndeki (BPM) bir hiyerarşi sırasına kaydedebilirsiniz. Kayıttan bir adım listesi ve bir iş süreci akış çizelgesi oluşturulur. BPM kitaplığına kaydedilen görev kayıtları Yardım olarak gösterilebilir.
 -   **Görev kayıtları Word belgeleri olarak kaydedilebilir.** Bu kolaylıkla, yazdırılabilir eğitim kılavuzları üretmenizi sağlar.
 
-Kendi görev kayıtlarınızı oluşturabilir, Microsoft tarafından sağlanan görev kayıtlarını oynatabilir veya yapılandırmanızı yansıtmak için Microsoft tarafından sağlanan görev kayıtlarını değiştirebilirsiniz. Görev kaydedici hakkında daha fazla bilgi için bkz. [Dynamics 365 for Operations'ta görev kaydedici.](task-recorder.md).
+Kendi görev kayıtlarınızı oluşturabilir, Microsoft tarafından sağlanan görev kayıtlarını oynatabilir veya yapılandırmanızı yansıtmak için Microsoft tarafından sağlanan görev kayıtlarını değiştirebilirsiniz. Görev kaydedici hakkında daha fazla bilgi için bkz. [Görev kaydedici](task-recorder.md)
 
 ## <a name="plan-your-task-recording"></a>Görev kaydınızı planlayın
 Yeni bir görev kaydı oluştururken veya kaydınızı bir Microsoft görev kaydına bağlarken, aşağıdaki bilgileri göz önünde bulundurun.
@@ -75,7 +78,7 @@ Görev kılavuzunda "kabarcığında" başlık ek açıklaması bu şekilde gör
 
 -   **Notlar:** Görev kaydedicinin otomatik olarak oluşturduğu adım metninden sonra not ek açıklaması görünür. Görev kılavuzunda ancak kullanıcı görev kılavuzu kabarcığındaki **daha fazla göster** linkine tıkladığında görülebilir. Bu tür ek açıklamayı bir kullanıcının adımı tamamlaması için bilmesi gereken her şeyi açıklamak için kullanın.
 
-Bu, kayıt oluştururken bir ek açıklama eklediğinizde gördüğünüz düzenleme bölmesidir. **Notlar**kutusuna bir not ek açıklaması girin. 
+Bu, kayıt oluştururken bir ek açıklama eklediğinizde gördüğünüz düzenleme bölmesidir. **Notlar** kutusuna bir not ek açıklaması girin. 
 
 [![ekran3](./media/screen3.png)](./media/screen3.png) 
 
@@ -83,7 +86,7 @@ Görev kılavuzundaki "kabarcıkta" not ek açıklaması bu şekilde görünür.
 
 [![ekran4](./media/screen4.png)](./media/screen4.png)
 
--   **Bilgi adımı**: Bu ek açıklamalar bir denetime veya bir formdaki herhangi bir yere sağ tıklayıp &lt; **Görev Kaydedici** &lt; **Bilgi adımı ekle'ye tıklayarak oluşturulur. Bilgi adımları, kullanıcı arabirimine herhangi bir işlem kaydedilmemiş olsa bile, eklediğiniz noktada numaralı adım olarak görünür. Bir form düzeyi bilgi adımı veya bir denetimle ilişkilendirilmiş bir bilgi adımı ekleyebilirsiniz. Bir bilgi adımı bir formla ilişkilendirildiğinde, görev kılavuzu oynatıldığında, formun herhangi bir yerinde işaretçi olmaksızın görev kılavuzu "kabarcığı" görünecektir. Bir bilgi adımı bir denetimle ilişkilendirildiğinde, görev kılavuzu oynatıldığı zaman, görev kılavuzu "kabarcığı" denetimi gösterir. Yardım bölmesinde, bir bilgi adımı ek açıklaması, girdiğiniz metni içeren numaralı bir adım olarak görünür. Kullanıcıyı sonraki adımlara hazırlamak, Dynamics 365 for Operations dışında yapılması gereken adımları açıklamak veya diğer kayıtlara başvurmak için bilgi adımlarını kullanın (ancak ek açıklamalarda köprüler oluşturamazsınız.).
+-   **Bilgi adımı**: Bu ek açıklamalar bir denetime veya bir formdaki herhangi bir yere sağ tıklayıp &lt; **Görev Kaydedici** &lt; **Bilgi adımı ekle'ye tıklayarak oluşturulur. Bilgi adımları, kullanıcı arabirimine herhangi bir işlem kaydedilmemiş olsa bile, eklediğiniz noktada numaralı adım olarak görünür. Bir form düzeyi bilgi adımı veya bir denetimle ilişkilendirilmiş bir bilgi adımı ekleyebilirsiniz. Bir bilgi adımı bir formla ilişkilendirildiğinde, görev kılavuzu oynatıldığında, formun herhangi bir yerinde işaretçi olmaksızın görev kılavuzu "kabarcığı" görünecektir. Bir bilgi adımı bir denetimle ilişkilendirildiğinde, görev kılavuzu oynatıldığı zaman, görev kılavuzu "kabarcığı" denetimi gösterir. Yardım bölmesinde, bir bilgi adımı ek açıklaması, girdiğiniz metni içeren numaralı bir adım olarak görünür. Kullanıcıyı sonraki adımlara hazırlamak, Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition dışında yapılması gereken adımları açıklamak veya diğer kayıtlara başvurmak için bilgi adımlarını kullanın (ancak ek açıklamalarda köprüler oluşturamazsınız.).
 
 **Kaydınızın süresini belirleyin**
 
@@ -101,16 +104,16 @@ Adımları ayrıntılı olarak incelemek için bkz. [Bir görev kaydı nasıl ol
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Microsoft'un görev kayıtlarını kopyalayın ve özelleştirin
 Microsoft'un görev kayıtlarını kendi Yardım belgeniz veya eğitim malzemeleriniz için kullanmak için karşıdan yükleyebilir ve düzenleyebilirsiniz. Bir Microsoft görev kaydını karşıdan yüklemek için şu adımları izleyin:
 
-1.  Dynamics 365 for Operations'ta Görev kaydediciyi açın. Görev kaydedicisi **Ayarlar** menüsünde bulunur.
-2.  Görev Kaydedici bölmesinde **Bir kaydı koruyun.**tıklayın
-3.  **Kayıt nerede**altında,'ı **Bir LCS kitaplığında yer alan** tıklayın
+1.  Görev kaydediciyi açın. Görev kaydedicisi **Ayarlar** menüsünde bulunur.
+2.  Görev Kaydedici bölmesinde **Bir kaydı koruyun.** tıklayın
+3.  **Kayıt nerede** altında,'ı **Bir LCS kitaplığında yer alan** tıklayın
 4.  **LCS kitaplığını seçin** tıklayın.
 5.  Microsoft genel kitaplığını seçin.
 6.  Ağaçta, görev kaydının ilişkilendirildiği iş süreci kitaplığı düğümünü seçin.
 7.  **Tamam** düğmesine tıklayın.
 8.  **Başlat**'a tıklayın.
 9.  Bu noktada, kaydı adım adım geçin ve yeniden kaydederken her adımda değişiklikler yapın. **Not**: Bir kaydın yalnızca metnini değiştirmek istiyorsanız, kaydı **Bir kaydın ek açıklamalarını düzenle** modunda açabilir ve sonra kaydedebilirsiniz.
-10. Kayıt sonuna kadar oynatıldıktan sonra, ekranın en üstündeki görev kaydedici çubuğundaki**Durdur'u** tıklayın.
+10. Kayıt sonuna kadar oynatıldıktan sonra, ekranın en üstündeki görev kaydedici çubuğundaki **Durdur'u** tıklayın.
 11. Görev kaydını nasıl kaydetmek istediğinizi seçin.
 
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Görev kayıtlarınızı Yardım bölmesine ekleme
@@ -119,18 +122,13 @@ Görev kayıtlarınızın görev kılavuzları olarak oynatılabilmesi veya meti
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Dynamics 365 for Operations Yardımı](..\get-started\help-overview.md)
+[Yardıma genel bakış](..\get-started\help-overview.md)
 
 [Yardım'a bağlanma](..\get-started\help-connect.md)
 
-[Dynamics 365 for Operations'ta Görev Kaydedici](task-recorder.md)
+[Görev Kaydedici](task-recorder.md)
 
 [En son eklenen görev kaydedici özellikleri](\core\get-started\recently-added-editing-features-in-task-recorder)
 
-[Görev kaydedici kullanarak Lifecycle Services içinde Dynamics AX için yeni eğitim kitaplıkları oluşturma (Dış bağlantı)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
-
 [Görev Kaydediciyle Zengin Yardım Konuları Oluşturma (dış bağlantı)](https://mbspartner.microsoft.com/AX/Videos/970)
-
-
-
 

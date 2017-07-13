@@ -3,13 +3,13 @@ title: "Satış ve pazarlama"
 description: "Satış akışında çeşitli veri türlerini elde etmek, depolamak ve kullanmak için Satış ve pazarlamayı kullanabilirsiniz. Bu veriler, özgün satış girişimini, gelecekteki takip eylemini ve ek satışları içerir."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 92303
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 25ea6e64453b22d664dd65a1f1bb18e3a1997bc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: dddcc764bb11540b8207350c463d1adb2533e1c0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -43,7 +43,7 @@ Satış ve pazarlamada potansiyel müşterilerle yaptığınız ilk etkileşimle
 
 ### <a name="campaigns"></a>Kampanyalar
 
-Kampanya, aday müşterilerin ilgili kişilerini, müşteri adaylarını, iş fırsatlarını ve kampanyaya katılmak için seçilmiş müşterileri hedefler. Microsoft Dynamics 365 for Operations'da, müşteri potansiyelini en üst düzeye çıkarmak için telefonla pazarlama, postalama ve e-posta kampanyaları gibi çeşitli kampanya türleri oluşturabilirsiniz. Kampanyanız ilerledikçe ve olumlu yanıtlar aldıkça kampanyaya olumlu yanıt veren alıcılarla satış sürecine başlayabilirsiniz.
+Kampanya, aday müşterilerin ilgili kişilerini, müşteri adaylarını, iş fırsatlarını ve kampanyaya katılmak için seçilmiş müşterileri hedefler. Microsoft Dynamics 365 for Finance and Operations'da, müşteri potansiyelini en üst düzeye çıkarmak için telefonla pazarlama, postalama ve e-posta kampanyaları gibi çeşitli kampanya türleri oluşturabilirsiniz. Kampanyanız ilerledikçe ve olumlu yanıtlar aldıkça kampanyaya olumlu yanıt veren alıcılarla satış sürecine başlayabilirsiniz.
 
 ## <a name="sales"></a>Satış
 Teklifler oluşturmak, yeni ve mevcut müşterilere dikey ve çapraz satış yapmak, satış siparişleri oluşturmak ve müşteriler için satış faturaları oluşturmak için satış işlevlerini kullanın. Aşağıdaki süreç akışı, satış için iş sürecini gösterir. [![Satış için iş süreci](./media/sales01.jpg)](./media/sales01.jpg)

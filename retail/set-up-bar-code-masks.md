@@ -3,25 +3,27 @@ title: Barkod maskesi ayarlama
 description: "Bu konu, barkod maskesi karakterlerini, barkod maskelerini ve barkod maskelerinin barkodlara nasıl atanacağını açıklamaktadır."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 265994
 ms.assetid: 5831c74d-d2a1-4fa5-9a9a-a5aba8848381
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7b71cbe75f2d7e8f20201e8fa50df8ea1021c4de
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 958cac2e85ae7fa514f6f26cbb6178d8fdec9783
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -36,7 +38,7 @@ Bu konu, barkod maskesi karakterlerini, barkod maskelerini ve barkod maskelerini
 <a name="set-up-bar-code-mask-characters"></a>Barkod maskesi karakterlerini ayarlama
 -------------------------------
 
-Barkod maskeleri, barkod oluşturmak ve satış noktasına (POS) taranan barkodları hızla tanımlamak için kullanılır. Maskeler, oluşturulacak barkodların biçimini belirten yer tutucuları gibi davranan karakterlerden oluşur. Bir barkod maskesi yapılandırmak için, barkod maskesi karakterleri oluşturmanız gerekir. **Perakende ve ticaret** &gt; **Stok yönetimi** &gt; **Barkodlar ve etiketler** &gt; **Maske karakterleri**'ne gidin. Barkod maskesi karakterleri oluşturmak için **Yeni**'ye tıklayın. Maske karakterleri aşağıdaki barkod verilerini göstermek için oluşturulabilir.
+Barkod maskeleri, barkod oluşturmak ve satış noktasına (POS) taranan barkodları hızla tanımlamak için kullanılır. Maskeler, oluşturulacak barkodların biçimini belirten yer tutucuları gibi davranan karakterlerden oluşur. Bir barkod maskesi yapılandırmak için, barkod maskesi karakterleri oluşturmanız gerekir. **Perakende** &gt; **Stok yönetimi** &gt; **Barkodlar ve etiketler** &gt; **Maske karakterleri**'ne gidin. Barkod maskesi karakterleri oluşturmak için **Yeni**'ye tıklayın. Maske karakterleri aşağıdaki barkod verilerini göstermek için oluşturulabilir.
 
 |                      |                                                                                                                 |
 |----------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -53,12 +55,13 @@ Barkod maskeleri, barkod oluşturmak ve satış noktasına (POS) taranan barkodl
 | **Çalışan**         | Barkod POS oturum açma işlemi için kullanılan çalışan kimlik numarasının barkod bölümünü belirtir.                                  |
 | **Müşteri**         | Müşteri kimliği segmentini gösterir.                                                                                  |
 | **Veri girişi**       | *Henüz uygulanmadı.*                                                                                          |
-| **İskonto kodu**    | Bir satış noktası hareketine iskonto eklemek için kullanılan barkodun indirim kodunu belirtir.             |
+| **İskonto kodu**    | *Amortisman*, Dynamics 365 for Retail Bahar 2017 sürümü itibarıyla Önceden: Bir satış noktası hareketine iskonto eklemek için kullanılan barkodun indirim kodunu belirtir.                                                                   |
+| **Kupon kodu**      | Bir perakende siparişe iskonto eklemek için kullanılan barkoda ilişkin kupon kodunu belirtir. İskonto kodunun yerine geçti.     |
 | **Hediye kartı**        | Hediye kartı verirken veya ödeme yaparken bir hediye kartı numarası belirtir.                                               |
 | **Bağlılık programı kartı**     | Harekete bir bağlılık programı müşterisi ekler ve bağlılık programıyla ödeme yapılırken kullanılabilir.                             |
 
 ## <a name="define-bar-code-masks"></a>Barkod maskelerini tanımlama
-Gerekli barkod maskeleri için barkod maskesi karakterleri belirtildikten sonra **Perakende ve ticaret** &gt; **Stok yönetimi** &gt; **Barkodlar ve etiketler** &gt; **Barkod maskesi ayarı**'na gidin. Bu sayfada, daha önce belirtilen karakterleri kullanan barkod maskeleri tanımlayabilirsiniz. Bu barkod maskeleri, barkod oluşturulurken kullanılır ve POS'ta taranan barkodları tanımaya da yardımcı olur.
+Gerekli barkod maskeleri için barkod maskesi karakterleri belirtildikten sonra **Perakende** &gt; **Stok yönetimi** &gt; **Barkodlar ve etiketler** &gt; **Barkod maskesi ayarı**'na gidin. Bu sayfada, daha önce belirtilen karakterleri kullanan barkod maskeleri tanımlayabilirsiniz. Bu barkod maskeleri, barkod oluşturulurken kullanılır ve POS'ta taranan barkodları tanımaya da yardımcı olur.
 
 1.  Yeni bir barkod maskesi oluşturmak için **Yeni**'ye tıklayın.
 2.  **Maske kodu** ve **Açıklama** alanlarına değerleri girin ve **Tür** alanında bir barkod maskesi türü seçin.

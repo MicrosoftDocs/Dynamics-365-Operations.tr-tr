@@ -3,14 +3,14 @@ title: "İş şablonları ve konum yönergeleri ile ambar işini denetleyin"
 description: "Bu makalede ambar içinde işin nasıl ve nerede gerçekleştirileceğini belirlemek için iş şablonları ve konum yönergelerinin nasıl kullanılacağı açıklanmaktadır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72921
 ms.assetid: 377ab8af-5b0c-4b5e-a387-06ac1e1820c0
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9d0ad4f64ee84da4e90dfa1525ebb5ff9fec4063
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f8bcdcf70089aaed06ba0f88cdbec8dfdf9121d1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Bu makalede ambar içinde işin nasıl ve nerede gerçekleştirileceğini belirlemek için iş şablonları ve konum yönergelerinin nasıl kullanılacağı açıklanmaktadır.
 
-Ambar çalışanlarının bir mobil cihazda aldığı talimatlar, çeşitli ambar işlemleri ve görevlerini tanımlamak üzere Microsoft Dynamics 365 for Operations'da ayarladığınız iş şablonları ile belirlenir. İş şablonları işin her ambar işlemi için nasıl gerçekleştirildiğini belirler. Bir konum yönergesini iş şablonlarına bağlamakla, işin ambarlardaki belli fiziksel bölgelerde yapılmasının güvenceye alınmasına yardımcı olabilirsiniz.
+Ambar çalışanlarının bir mobil cihazda aldığı talimatlar, çeşitli ambar işlemleri ve görevlerini tanımlamak üzere Microsoft Dynamics 365 for Finance and Operations'da ayarladığınız iş şablonları ile belirlenir. İş şablonları işin her ambar işlemi için nasıl gerçekleştirildiğini belirler. Bir konum yönergesini iş şablonlarına bağlamakla, işin ambarlardaki belli fiziksel bölgelerde yapılmasının güvenceye alınmasına yardımcı olabilirsiniz.
 
 ## <a name="work-templates"></a>İş şablonları
 **İş şablonları** sayfası ambarda gerçekleştirilmesi gereken iş operasyonlarını tanımlamanıza olanak sağlar. Genellikle, ambar iş operasyonları bir eylemler çiftinden oluşur: bir ambar çalışanı eldeki stoku bir konumdan çeker ve çekilen stoku başka bir konuma indirir. 
@@ -57,7 +57,7 @@ Başlıkta, her konum yönergesi satış siparişleri, stok yenileme veya hammad
 
 Konum yönergesi satırları konum bulma kurallarının uygulanmasına ek kısıtlamalar getirir. Yönergenin uygulanması gereken minimum miktarı ve maksimum miktarı belirtebilirsiniz ve o yönergenin belli bir stok birimine yönelik olması gerektiğini belirtebilirsiniz. Örneğin, ölçü birimi palet ise, belli bir konuma palet cinsinden öğeler indirilebilir. Miktarın birden çok konum arasında bölünüp bölünemeyeceğini de belirtebilirsiniz. Konum yönergesi başlığı gibi, her konum yönergesi satırının da, satırların değerlendirildiği siparişi belirleyen bir sıra numarası vardır. 
 
-Konum yönergelerinin ek bir ayrıntı düzeyi vardır: *konum yönergesi eylemleri*. Her satır için birden fazla konum yönergesi eylemi tanımlayabilirsiniz. Bir kez daha, bir sıra numarası eylemlerin karar sırasını belirlemek için kullanılır. Bu düzeyde, ambardaki en iyi konumun nasıl bulunacağını tanımlamak için bir sorgu ayarlayabilirsiniz. Ayrıca ideal bir konum bulmak için önceden tanımlanmış **Strateji**ayarlarını da kullanabilirsiniz.
+Konum yönergelerinin ek bir ayrıntı düzeyi vardır: *konum yönergesi eylemleri*. Her satır için birden fazla konum yönergesi eylemi tanımlayabilirsiniz. Bir kez daha, bir sıra numarası eylemlerin karar sırasını belirlemek için kullanılır. Bu düzeyde, ambardaki en iyi konumun nasıl bulunacağını tanımlamak için bir sorgu ayarlayabilirsiniz. Ayrıca ideal bir konum bulmak için önceden tanımlanmış **Strateji** ayarlarını da kullanabilirsiniz.
 
 ### <a name="example-of-the-use-of-location-directives"></a>Konum yönergelerini kullanım örneği
 

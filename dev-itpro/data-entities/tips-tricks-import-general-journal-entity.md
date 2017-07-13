@@ -3,13 +3,13 @@ title: "Yevmiye defteri varlığını kullanarak fişleri içe aktarmak için en
 description: "Bu konuda, Yevmiye defteri varlığı kullanılarak Yevmiye defterine veri aktarmak için ipuçları verilmektedir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94363
 ms.assetid: 0b8149b5-32c5-4518-9ebd-09c9fd7f4cfc
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a1740f322972b1c37f23a0422fdcb4435253710
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b9a5c03584635908067bb7b623deba76f4ba3e18
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -53,14 +53,14 @@ Aşağıdaki bölümlerde bu ayarların etkisi ve ayrıca günlük toplu iş num
 -   Yevmiye defteri varlığı üzerindeki **Ayarlama tabanlı işlem** ayarı günlük toplu iş numarasının oluşturulma biçimini etkilemez.
 -   **Günlük toplu iş numarası** alanı **Otomatik oluşturulan** olarak ayarlanırsa içe aktarılan her bir satır için yeni bir günlük toplu iş numarası oluşturulur. Bu davranış önerilmez. **Otomatik oluşturulan** ayarı içe aktarım projesi üzerinde **Eşleme detayları**, üzerindeki **Eşlemeyi görüntüle** sekmesinin altında bulunur.
 -   **Günlük toplu iş numarası** alanı **Otomatik oluşturulan** olarak ayarlanmazsa günlük toplu iş numarası aşağıdaki gibi oluşturulur:
-    -   İçe aktarılan dosyada tanımlanan günlük toplu iş numarası Microsoft Dynamics 365 for Operations'taki nakledilmemiş mevcut günlük defterle eşleşiyorsa günlük toplu iş numarasıyla eşleşen tüm satırlar mevcut günlüğe aktarılır. Satırlar hiçbir zaman nakledilmiş bir günlük toplu iş numarasına aktarılmaz. Bunun yerine yeni bir numara oluşturulur.
-    -   İçe aktarılan dosyada tanımlanan günlük toplu iş numarası Microsoft Dynamics 365 for Operations'taki nakledilmemiş mevcut günlük defterle eşleşmiyorsa aynı günlük toplu iş numarasına sahip tüm satırlar yeni bir günlük altında gruplanır. Örneğin, günlük toplu iş numarası 1 olan tüm satırlar yeni bir günlüğe aktarılır ve günlük toplu iş numarası 2 olan tüm satırlar ikinci bir yeni günlüğe aktarılır. Günlük toplu iş numarası, Genel muhasebe parametrelerinde tanımlanan numara serisi kullanılarak oluşturulur.
+    -   İçe aktarılan dosyada tanımlanan günlük toplu iş numarası nakledilmemiş mevcut günlük defterle eşleşiyorsa günlük toplu iş numarasıyla eşleşen tüm satırlar mevcut günlüğe aktarılır. Satırlar hiçbir zaman nakledilmiş bir günlük toplu iş numarasına aktarılmaz. Bunun yerine yeni bir numara oluşturulur.
+    -   İçe aktarılan dosyada tanımlanan günlük toplu iş numarası nakledilmemiş mevcut günlük defterle eşleşmiyorsa aynı günlük toplu iş numarasına sahip tüm satırlar yeni bir günlük altında gruplanır. Örneğin, günlük toplu iş numarası 1 olan tüm satırlar yeni bir günlüğe aktarılır ve günlük toplu iş numarası 2 olan tüm satırlar ikinci bir yeni günlüğe aktarılır. Günlük toplu iş numarası, Genel muhasebe parametrelerinde tanımlanan numara serisi kullanılarak oluşturulur.
 
 ### <a name="voucher-number"></a>Fiş numarası
 
--   Yevmiye defteri varlığı üzerindeki **Ayarlama tabanlı işlem** ayarını kullandığınızda fiş numarası içe aktarılan dosyada sağlanmalıdır. Fiş dengeli değilse bile Yevmiye defterindeki her hareket içe aktarılan dosyada sağlanan fiş numarasına atanır. Ayarlama tabanlı işlemi kullanmak istiyor ancak ayrıca Microsoft Dynamics 365 for Operations'ta fiş numaraları için tanımlanan numara serisini de kullanmak istiyorsanız Şubat 2016 sürümü için bir düzeltme sağlanmıştır. Düzeltme numarası 3170316 olup Lifecycle Services (LCS) altından indirilerek kullanılabilir. Daha fazla bilgi için bkz. [Lifecycle Services'den düzeltmeleri indirme](..\migration-upgrade\download-hotfix-lcs.md).
-    -   Microsoft Dynamics 365 for Operations'taki içe aktarmalar için kullanılan günlük adı üzerinden bu işlevleri etkinleştirmek için **Deftere nakil sırasında numara tahsisi** için **Evet** ayarını yapın.
-    -   Fiş numarası yine de içe aktarılan dosyada tanımlanmalıdır. Ancak bu sayı geçicidir ve günlük nakledildiğinde Microsoft Dynamics 365 for Operations fiş numarası ile üzerine yazılır. Günlük satırlarının geçici fiş numarası ile doğru bir şekilde gruplandırıldığından emin olmanız gerekir. Örneğin, deftere nakil işlemi sırasında geçici fiş numarası 1 olan üç satır bulunur. Üç satırın hepsinin geçici fiş numarası, numara serisindeki sonraki numarayla değiştirilir. Bu üç satır dengeli giriş değilse, fiş nakledilmez. Geçici fiş numarası 2 olan satırlar varsa, daha sonra bu sayı sonraki fiş numarası ile numara serisi vb. üzerine yazılır.
+-   Yevmiye defteri varlığı üzerindeki **Ayarlama tabanlı işlem** ayarını kullandığınızda fiş numarası içe aktarılan dosyada sağlanmalıdır. Fiş dengeli değilse bile Yevmiye defterindeki her hareket içe aktarılan dosyada sağlanan fiş numarasına atanır. Ayarlama tabanlı işlemi kullanmak istiyor ancak ayrıca fiş numaraları için tanımlanan numara serisini de kullanmak istiyorsanız Şubat 2016 sürümü için bir düzeltme sağlanmıştır. Düzeltme numarası 3170316 olup Lifecycle Services (LCS) altından indirilerek kullanılabilir. Daha fazla bilgi için bkz. [Lifecycle Services'den düzeltmeleri indirme](..\migration-upgrade\download-hotfix-lcs.md).
+    -   İçe aktarmalar için kullanılan günlük adı üzerinden bu işlevleri etkinleştirmek için **Deftere nakil sırasında numara tahsisi** için **Evet** ayarını yapın.
+    -   Fiş numarası yine de içe aktarılan dosyada tanımlanmalıdır. Ancak bu sayı geçicidir ve günlük nakledildiğinde fiş numarası ile üzerine yazılır. Günlük satırlarının geçici fiş numarası ile doğru bir şekilde gruplandırıldığından emin olmanız gerekir. Örneğin, deftere nakil işlemi sırasında geçici fiş numarası 1 olan üç satır bulunur. Üç satırın hepsinin geçici fiş numarası, numara serisindeki sonraki numarayla değiştirilir. Bu üç satır dengeli giriş değilse, fiş nakledilmez. Geçici fiş numarası 2 olan satırlar varsa, daha sonra bu sayı sonraki fiş numarası ile numara serisi vb. üzerine yazılır.
 
 <!-- -->
 

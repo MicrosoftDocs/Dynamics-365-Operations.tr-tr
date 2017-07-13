@@ -3,13 +3,13 @@ title: "Bütçe planlama gerekçe belgeleri"
 description: "Gerekçe belgeleri, belirli bir bütçenin neden gerekli olduğunu açıklamak isteyenler için açıklama sağlar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 259594
 ms.assetid: 52576fad-32b9-48f2-8197-c11ec313fc29
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6178addb9226912feb1974793525ab4ba9441193
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1d23c0e1725a39d25d2be8971f541b2c31bbe859
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -46,7 +46,7 @@ Bir bütçe planı şablonu, bütçe yöneticisi tarafından Microsoft Word içe
 
 1.  Microsoft Dynamics Office Ekletisi'ne oturum açtıktan sonra **Tasarım**'ı tıklatın.
 2.  Başlık bilgisi için **Alanlar ekle** düğmesini kullanın.
-3.  BudgetPlanJustification varlık veri kaynağını seçin ve **İleri**'yi tıklatın. **Not:** Bu varlık tüm gerekçe belgeleri için gereklidir. Diğer varlıklar da kullanılabilir ancak bu varlık dahil edilmemişse Microsoft Dynamics 365 for Operations'a geri yüklerken başarısız olur.
+3.  BudgetPlanJustification varlık veri kaynağını seçin ve **İleri**'yi tıklatın. **Not:** Bu varlık tüm gerekçe belgeleri için gereklidir. Diğer varlıklar da kullanılabilir ancak bu varlık dahil edilmemişse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'a geri yüklerken başarısız olur.
 4.  BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter ve DocumentNumber etiketlerini ve değerlerini Word dosyasına ekleyin. **Not:** Gerekirse standart etiketler yerine kendi özel etiketlerinizi kullanabilirsiniz.
 5.  Başlık bölümünü tamamlamak için **Tamam**'ı tıklatın.
 6.  Bütçe planı tutarlarının satır düzeyi ayrıntıları için **Tablo ekle**'yi tıklatın.
@@ -57,7 +57,7 @@ Bir bütçe planı şablonu, bütçe yöneticisi tarafından Microsoft Word içe
 
 ##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>Gerekçe şablonunu kullanmak için Bütçe planlama işlemini ayarlama
 
-1.  Microsoft Dynamics 365 for Operations içerisinde **Bütçelendirme** &gt; **Kurulum** &gt; **Bütçe planlama** &gt; **Gerekçe belge şablonları**'na gidin.
+1.  Finance and Operations içerisinde **Bütçelendirme** &gt; **Kurulum** &gt; **Bütçe planlama** &gt; **Gerekçe belge şablonları**'na gidin.
 2.  **Yeni**'yi tıklatın ve yeni oluşturulan Microsoft Word belgenize gidin.
 3.  Şablon görüntüleme adı ve açıklama girin. **Tamam** seçeneğini tıklatın.
 4.  **Bütçeleme** &gt; **Kurulum** &gt; **Bütçe** **planlama** &gt; **Bütçe planlama işlemi**'ne gidin.
@@ -66,7 +66,7 @@ Bir bütçe planı şablonu, bütçe yöneticisi tarafından Microsoft Word içe
 
 ##### <a name="edit-and-save-personalized-justification-documents"></a>Kişiselleştirilmiş gerekçe belgelerini düzenleme ve kaydetme
 
-1.  Dynamics 365 for Operations içerisinde, yeni bir bütçe planı oluşturun veya var olan bir bütçe planını açın.
+1.  Finance and Operations içerisinde, yeni bir bütçe planı oluşturun veya var olan bir bütçe planını açın.
 2.  **Gerekçe** aşağı açılan menüsünden **Yeni gerekçe oluşturma**'yı seçin.
 3.  Ayrıntılar doldurduktan sonra, karşıya yüklemek için **Gerekçe** aşağı açılan menü üzerinden kişiselleştirilmiş belgeyi seçin.
 

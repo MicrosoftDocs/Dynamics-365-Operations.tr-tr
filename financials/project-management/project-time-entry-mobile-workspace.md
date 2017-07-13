@@ -1,28 +1,28 @@
 ---
-title: "Microsoft Dynamics 365 for Operations uygulaması için proje zaman girişi"
+title: "Proje saati girişi mobil çalışma alanı"
 description: "Bu konu, Proje zaman girişi mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, kullanıcıların bir projeye karşı mobil cihazlarını kullanarak zaman girmelerini ve kaydetmelerine olanak sağlar."
-author: annbe
+author: KimANelson
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-audience: Application User, IT Pro
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272101
 ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: annbe
+ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9c592c301908898915164e9236850759b73543fe
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: d80dea89db1fbe270b96063f3818ec3ac95239c8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,16 +31,14 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Bu konu, **Proje saati girişi** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, kullanıcıların bir projeye karşı mobil cihazlarını kullanarak zaman girmelerini ve kaydetmelerine olanak sağlar.
 
+Bu mobil çalışma alanı, Microsoft Dynamics 365 for Unified Operations mobil uygulaması ile kullanılmak üzere geliştirilmiştir. 
 
-Bu konu, Dynamics 365 for Operations mobil uygulaması için Proje zaman girişi mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, kullanıcıların bir projeye karşı mobil cihazlarını kullanarak zaman girmelerini ve kaydetmelerine olanak sağlar.
-
-<a name="overview-of-the-project-time-entry-mobile-workspace"></a>Proje zaman girişi mobil çalışma alanına genel bakış
----------------------------------------------------
-
+## <a name="overview"></a>Özet
 Proje kaynakları, günlük işlerinin parçası olarak çoğu zaman tesiste veya seyahattedirler. **Proje zaman girişi** mobil çalışma alanı, kullanıcıların projeye karşı faturalanabilir veya faturalanamayan zamanlarını istedikleri mobil cihazdan girmelerine izin verir. Bu nedenle, proje kaynakları zaman girişlerini herhangi bir zamanda ve herhangi bir yerde yapabilirler. Daha önceden kaydettikleri zaman girişlerini de görebilirler. 
 
-Özellikle, **Proje zaman girişi** mobil çalışma alanı bu özellikleri sağlar:
+Özellikle **Proje saati girişi** mobil çalışma alanında, kullanıcılar bu görevleri gerçekleştirebilir:
 
 -   Seçilen herhangi bir tarih için, belirli bir göreve harcadığınız saat sayısını girin.
 -   Zaman girilecek projeyi bulmak için proje adı veya müşteriyi aratın.
@@ -48,17 +46,16 @@ Proje kaynakları, günlük işlerinin parçası olarak çoğu zaman tesiste vey
 -   Zamanı faturalanabilir veya faturalanamaz olarak kaydedin.
 -   İsteğe bağlı olarak dahili veya harici açıklamalar girin.
 
-**Proje zaman girişi** mobil çalışma alanını uygulamak için, bu konudaki aşağıdaki bölümlere bakın.
-
 ## <a name="prerequisites"></a>Ön koşullar
-**Proje zaman girişi** mobil çalışma alanını uygulamadan önce, sistem yöneticinizin aşağıdaki önkoşulları tamamladığından emin olun.
+Önkoşullar, kuruluşunuza dağıtılan Microsoft Dynamics 365 sürümüne dayalı olarak farklılık gösterir.
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition Temmuz 2017 güncelleştirmesini kullanıyorsanız önkoşullar 
+Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü Temmuz 2017 güncelleştirmesi kuruluşunuza dağıtıldıysa, sistem yöneticisinin **Proje saati girişi** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Microsoft Dynamics 365 for Operations sürüm 1611 platform güncelleştirmesi 3 veya daha sonraki sürüm kullanıyorsanız ön koşullar
+Kuruluşunuza platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 365 for Operations 1611 sürümü dağıtılmışsa, sistem yöneticisinin aşağıdaki ön koşulları yerine getirmesi gerekir. 
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Önkoşul</th>
@@ -68,65 +65,54 @@ Proje kaynakları, günlük işlerinin parçası olarak çoğu zaman tesiste vey
 </thead>
 <tbody>
 <tr class="odd">
-<td>Microsoft Dynamics 365 for Operations sürüm 1611 platform güncelleştirmesi 3 veya daha sonraki sürümünün uygulanmış olması gerekir.</td>
-<td>Sistem yöneticisi</td>
-<td>Dynamics 365 for Operations'u kuruluşunuz için halihazırda dağıtılmadıysa, sistem yöneticiniz <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Bir Microsoft Dynamics 365 for Operations demo ortamı dağıt</a>'ı görmelidir.</td>
-</tr>
-<tr class="even">
-<td>KB 4018050 uygulanmış olmalıdır.</td>
+
+<td>KB 4018050 uygulayın.</td>
 <td>Sistem yöneticisi</td>
 <td>KB 4018050, <strong>Proje zaman girişi</strong> mobil çalışma alanını içeren bir X++ güncelleştirmesi veya meta veri düzeltmesidir. KB 4018050 uygulamak için sistem yöneticiniz bu adımları atması gerekir.
 <ol>
-<li>KB 4018050'yi, Microsoft Lifecycle Services (LCS) üzerinden karşıdan yükleyin.</li>
-<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Meta veri düzeltmesini kurun</a>.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Dağıtılabilir bir paket oluşturun</a> <strong>ApplicationSuite</strong> ve <strong>ProjectMobile</strong> modellerini içeren ve daha sonra dağıtılabilir paketi LCS'ye yükleyin.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Dağıtılabilir paketi</a>, Dynamics 365 for Operations sisteminize uygulayın.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Meta veri düzeltmesini Microsoft Dynamics Lifecycle Services (LCS) üzerinden indirin</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Meta veri düzeltmesini kurun</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Dağıtılabilir bir paket oluşturun</a> <strong>ApplicationSuite</strong> ve <strong>ProjectMobile</strong> modellerini içeren ve daha sonra dağıtılabilir paketi LCS'ye yükleyin.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Dağıtılabilir paketi uygulayın</a>.</li>
+
 </ol></td>
 </tr>
-<tr class="odd">
-<td><strong>Proje zaman girişi</strong> mobil çalışma alanı, Dynamics 365 for Operations mobil uygulaması için yayınlanmış olmalıdır.</td>
+<tr class="even">
+<td><strong>Proje saati girişi</strong> mobil çalışma alanını yayımlayın.</td>
 <td>Sistem yöneticisi</td>
-<td><ol>
-<li>Dynamics 365 for Operations'ı tarayıcınızda başlatın.</li>
-<li><strong>Sistem parametreleri</strong> sayfası üzerinde, <strong>Mobil çalışma alanlarını yönet</strong> sekmesinde, <strong>Proje zaman girişi</strong> çalışma alanını seçin.</li>
-<li><strong>Mobil çalışma alanını yayınla</strong> üzerine tıklayın.</li>
-</ol></td>
+<td>Bkz. <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobil çalışma alanı yayınlama</a>.</td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Dynamics 365 for Operations mobil uygulamasını yükleyin ve kurun
-Dynamics 365 for Operations mobil uygulamasını mobil uygulama mağazanızdan yükleyin ve kurun.
+## <a name="download-and-install-the-mobile-app"></a>Mobil uygulamayı indirin ve yükleyin
 
--   Android için: [Google Play Store'da Dynamics 365 for Operations](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
--   iPhone için: [iTunes apps mağazsında Dynamics 365 for Operations](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
+Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 
-## <a name="sign-in-to-the-dynamics-365-for-operations-mobile-app"></a>Dynamics 365 for Operations mobil uygulamasına oturum açın
+-   [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [iPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)
+
+## <a name="sign-in-to-the-mobile-app"></a>Mobil uygulamaya oturum açın
 1.  Mobil cihazınızda uygulamayı başlatın.
-2.  Dynamics 365 for Operations URL'nizi girin.
-3.  Oturum açılacak şirketi girin. Örneğin **USMF** yazın.
-4.  İlk defa oturum açtığınızda, Dynamics 365 for Operations hesabınızın kullanıcı adı ve parolasını girmeniz için uyarılırsınız. Kimlik bilgilerinizi girin.
-5.  Oturum açtıktan sonra şirketiniz için kullanılabilir çalışma alanlarını görürsünüz. Sistem yöneticiniz yeni bir çalışma alanını daha sonra yayınlarsa, mobil çalışma alanlarının listesini yenilemek için çekebileceğinizi unutmayın.
+2.  Dynamics 365 URL'nizi girin.
+3.  İlk kez oturum açtığınızda, kullanıcı adınız ve parolanız istenir. Kimlik bilgilerinizi girin.
+4.  Oturum açtıktan sonra şirketiniz için kullanılabilir çalışma alanları gösterilir. Sistem yöneticiniz yeni bir çalışma alanını daha sonra yayınlarsa, mobil çalışma alanlarının listesini yenilemeniz gerekeceğini unutmayın.
 
 [![Yenilemek için çekin](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="enter-time-by-using-the-project-time-entry-mobile-workspace"></a>Proje zaman girişi mobil çalışma alanını kullanarak zamanı girin
 1.  Mobil cihazınızda **Proje zaman girişi** çalışma alanını seçin.
-2.  **Zaman girişi**'ni seçin. Geçerli hafta için takvim tarihlerinizi görürsünüz.
+2.  **Zaman girişi**'ni seçin. Geçerli hafta için takvim tarihleri gösterilir.
 3.  Seçilen bir tarih için **Eylemler** &gt; **Yeni giriş**'i seçin.
 4.  Kaydedilecek saatlerin sayısını girin.
-5.  Zaman girişi için projeyi seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş projelerin bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler daha fazla bilgi için şura bakmalıdır: [Dynamics 365 for Operations mobil platformuna](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)
-6.  Projeniz listede değilse, Dynamics 365 for Operations içerisinde bir çevrimiçi arama yapmak için **Ara**'yı seçin. Adına göre arama yapın veya proje adı veya müşteriye göre aramaya geçin.
-7.  Bir kategori seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş kategorilerin bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler daha fazla bilgi için şura bakmalıdır: [Dynamics 365 for Operations mobil platformuna](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)
-8.  Kategoriniz listede değilse, Dynamics 365 for Operations içerisinde bir çevrimiçi arama yapmak için **Ara**'yı seçin. Kategoriye göre arama yapın veya kategori adına göre aramaya geçin.
-9.  Bir faaliyet seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş faaliyetlerin bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler daha fazla bilgi için şura bakmalıdır: [Dynamics 365 for Operations mobil platformuna](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)
-10. Faaliyetiniz listede değilse, Dynamics 365 for Operations içerisinde bir çevrimiçi arama yapmak için **Ara**'yı seçin. Bir etkinlik numarasıyla arama yapın veya amaca göre aramaya geçin.
+5.  Zaman girişi için projeyi seçin. Bir liste çevrimdışı kullanım için uygulamanıza yüklenmiş projeleri gösterir. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için bkz. [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+6.  Projeniz listede yoksa, **Ara**'yı seçin. Adına göre arama yapın veya proje adı veya müşteriye göre aramaya geçin.
+7.  Bir kategori seçin. Bir liste çevrimdışı kullanım için uygulamanıza yüklenmiş kategorileri gösterir. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için bkz. [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+8.  Kategoriniz listede yoksa, **Ara**'yı seçin. Kategoriye göre arama yapın veya kategori adına göre aramaya geçin.
+9.  Bir faaliyet seçin. Bir liste çevrimdışı kullanım için uygulamanıza yüklenmiş faaliyetleri gösterir. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için bkz. [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+10. Faaliyetiniz listede yoksa, **Ara**'yı seçin. Bir etkinlik numarasıyla arama yapın veya amaca göre aramaya geçin.
+
 11. Satır özelliğini seçin.
 12. İsteğe bağlı: Dahili ve harici açıklamalar girin.
 13. **Tamam**'ı seçin.
-
-
-
-
-
 

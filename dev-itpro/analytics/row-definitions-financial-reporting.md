@@ -3,7 +3,7 @@ title: "Finansal rapor tasarımcısında satır tanımları"
 description: "Satır tanımını finansal rapordaki her satırın içeriğini belirten bir rapor bileşeni veya yapı taşıdır. Satır tanımı birden çok şirket tarafından kullanılabilen bir yapı taşı grubu oluşturmak için sütun tanımları, raporlama ağacı tanımları ve rapor tanımları ile birleştirilebilir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cf0886725e2d8d4031e19810e75755f4306b7c49
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -49,7 +49,7 @@ Satır tanımını finansal rapordaki her satırın içeriğini belirten bir rap
 Bir satır tanımı, 20.000 mali boyut satırına kadar alabilir ve şu bilgileri içerebilir:
 
 -   Örneğin **nakit** veya **Toplam Gelir** gibi bölüm üstbilgileri, satırları ve boşlukları oluşturarak rapora anlam katan açıklayıcı metinler
--   Microsoft Dynamics 365 for Operations'taki boyut değerlerini içerebilen mali verilere bağlantılar. **Not:** Rapor her üretildiğinde mali boyutlar sisteminden veri çekecek bir satır tanımını ayarlayabilirsiniz.
+-   Microsoft Dynamics 365 for Finance and Operations'taki boyut değerlerini içerebilen mali verilere bağlantılar. **Not:** Rapor her üretildiğinde mali boyutlar sisteminden veri çekecek bir satır tanımını ayarlayabilirsiniz.
 -   Bağlantılı mali verilere dayalı satır toplamları ve formülleri
 
 Genellikle, her bir satır tanımındaki her bir satır aşağıdaki veri türlerinden birini içerir:
@@ -76,8 +76,8 @@ Bir satır tanımına boyutlar eklemek için şu adımları izleyin.
 
 1.  Rapor Tasarımcısında **Satır Tanımları** öğesine tıklayın ve ardından değiştirmek için satır tanımını açın.
 2.  **Düzenle** menüsündeki **Boyutlardan Satır Ekle** öğesini tıklayın.
-3.  **Boyutlardan Satır Ekle**iletişim kutusunda, **Boyutlar** satırında, boyutun satır tanımına aktarılacağı hücreyi seçin ve **Tüm &&&** öğesine tıklayın.
-4.  Satır tanımını boyut değerlerinin belirli bir aralığıyla sınırlandırmak için **Boyut Aralığı Başlangıcı**hücresine başlangıç boyut değerini ve ardından **Boyut Aralığı Sonu** hücresine bitiş boyut değerini girin. Seçilen boyut için tüm değerleri eklemek için bu hücreleri boş bırakın. **Not:** Boyut aralıklarındaki joker karakterler (\* veya ?) boyut aralıkları, ERP veritabanının verileri nasıl topladığına bağlı olarak istediğiniz tüm sonuçları vermeyebilir.
+3.  **Boyutlardan Satır Ekle** iletişim kutusunda, **Boyutlar** satırında, boyutun satır tanımına aktarılacağı hücreyi seçin ve **Tüm &&&** öğesine tıklayın.
+4.  Satır tanımını boyut değerlerinin belirli bir aralığıyla sınırlandırmak için **Boyut Aralığı Başlangıcı** hücresine başlangıç boyut değerini ve ardından **Boyut Aralığı Sonu** hücresine bitiş boyut değerini girin. Seçilen boyut için tüm değerleri eklemek için bu hücreleri boş bırakın. **Not:** Boyut aralıklarındaki joker karakterler (\* veya ?) boyut aralıkları, ERP veritabanının verileri nasıl topladığına bağlı olarak istediğiniz tüm sonuçları vermeyebilir.
 5.  **Başlangıç satırı kodu** alanında, satır tanımına eklenecek ilk boyut için satır kodunu belirtin.
 6.  **Her satıra şuna göre artır** alanında, birbirini takip eden satır kodları arasındaki boşluğu belirtin. Örneğin, ilk satır kodu 100 ve artış değeri 30 ise, ilk yeni satırların kodları 100, 130, 160, 190 ve 220 olur. Yeni biçim ve formül satırlarını eklemek için yeterli alan sağlayan bir artış değerini kullanın.
 7.  **Tamam** düğmesini tıklatın. Seçili boyut değerlerinin her biri için satır tanımına bir satır eklenir.
@@ -101,9 +101,9 @@ Bir bilançoda yuvarlamayı ayarlamak için şu adımları izleyin.
     -   **Toplam borçlar ve öz varlık satırı** – Toplam borçları ve öz varlığı içeren bilançodaki satır için satır kodu.
     -   **Ayar tutarı sınırı** – Otomatik ayarlar için sınırı belirten pozitif tam sayı. Bu tutar, fiili yuvarlama farkının mutlak değeri ile karşılaştırılır.
 
-    **Not:**Bu satır kodları mutlaka mali verilerinizle ilişkilendirilmelidir. Başka bir ifadeyle, satır mutlaka **Mali Boyutları Bağlantı** hücresinde bir boyut değerine sahip olmalıdır. **Kesinlikle** bir açıklama satırına (**DESC**), hesaplanan satıra (**CALC**) veya toplanan satıra (**TOT**) başvuru vermeyin.
+    **Not:** Bu satır kodları mutlaka mali verilerinizle ilişkilendirilmelidir. Başka bir ifadeyle, satır mutlaka **Mali Boyutları Bağlantı** hücresinde bir boyut değerine sahip olmalıdır. **Kesinlikle** bir açıklama satırına (**DESC**), hesaplanan satıra (**CALC**) veya toplanan satıra (**TOT**) başvuru vermeyin.
 
-Bilançonuzdaki tutarlar, yuvarlama açık konumdayken eşit şekilde dengelenir. **Not:**Ayar sınırı, rapor tanımı için belirtilen **Yuvarlama hassasiyeti** seçeneğine bağlı olarak uygulanır. Örneğin raporu binlere yuvarlayıp **Ayar tutarı sınırı** alanına **2** girdiğinizde **Yuvarlama ayar satırı** alanındaki değer 2.000'den fazla artar veya azalırsa bir uyarı mesajı alırsınız.
+Bilançonuzdaki tutarlar, yuvarlama açık konumdayken eşit şekilde dengelenir. **Not:** Ayar sınırı, rapor tanımı için belirtilen **Yuvarlama hassasiyeti** seçeneğine bağlı olarak uygulanır. Örneğin raporu binlere yuvarlayıp **Ayar tutarı sınırı** alanına **2** girdiğinizde **Yuvarlama ayar satırı** alanındaki değer 2.000'den fazla artar veya azalırsa bir uyarı mesajı alırsınız.
 
 ## <a name="format-row-and-column-text"></a>Satır ve sütun metni biçimlendirme
 Yazı tiplerini değiştirerek ve metni biçimlendirerek raporlarınızın görünümünü özelleştirebilirsiniz. Aşağıdaki bölümde raporların satır ve sütunlarının görünümünün nasıl biçimlendirileceği açıklanmıştır.

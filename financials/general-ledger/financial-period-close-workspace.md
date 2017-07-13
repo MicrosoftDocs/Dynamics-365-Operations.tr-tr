@@ -3,7 +3,7 @@ title: "Mali dönem kapatma çalışma alanı"
 description: "Bu makale, Mali dönem kapanış çalışma alanı ve bununla ilişkili yapılandırma hakkında genel bir bakış sağlar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 788b0af30eb750cad8f958ecc4c33cf989b2a417
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 5de5e3aad0b7a5853653ae53326dac078ec94fea
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -65,7 +65,7 @@ Dosyalar, notlar, resimler veya URL'leri bir göreve **Ekler** eylemini kullanar
 Geçerli ve önceki dönem kapanış görevlerini **Tüm mali dönem kapanış görevleri** liste sayfasında görüntüleyebilirsiniz. Liste sayfası, kapanış işlemlerinizin tarihi analizlerini görüntülemek için en iyi şekilde kullanılır çünkü zamanlanan bitiş tarihi, gerçek tamamlanma tarihi ve görevi tamamlayan kişi hakkında bilgi içerir. Bu liste sayfasındaki bilgiyi raporlama ve denetleme amaçları için Microsoft Excel'e kolayca aktarabilirsiniz.
 
 ## <a name="financial-period-close-configuration-page"></a>Mali dönem kapatma yapılandırması sayfası
-**Mali dönem kapatma** çalışma alanını kullanmadan önce mutlaka Microsoft Dynamics 365 for Operations'ta **Mali dönem kapatma yapılandırması** sayfasını kullanarak süreci yapılandırmanız gerekir. (**Genel muhasebe** &gt; **Dönem kapanışı** &gt; **Mali dönem kapatma yapılandırması** öğelerini tıklayın.)
+**Mali dönem kapatma** çalışma alanını kullanmadan önce mutlaka Microsoft Dynamics 365 for Finance and Operations'ta **Mali dönem kapatma yapılandırması** sayfasını kullanarak süreci yapılandırmanız gerekir. (**Genel muhasebe** &gt; **Dönem kapanışı** &gt; **Mali dönem kapatma yapılandırması** öğelerini tıklayın.)
 
 ### <a name="resources"></a>Kaynaklar
 
@@ -90,7 +90,7 @@ Kapanış işleminin parçası olan görevleri belirlemek için bir mali kapanı
 
 Görevin uygulanacağı bir veya daha fazla şirkete bir görevi şablonda atayabilirsiniz. Her şirkette işi eforunu tamamlamak için farklı bir kişi atandıysa, aynı iş eforu için birden fazla görev oluşturmayı yararlı bulabilirsiniz. Her şirket için bir görev oluşturun. 
 
-**Görev bağlantısı** menü öğesi görev eforuyla ilişkilidir ve çalışma alanındaki görev bağlantısından, ilişkili sayfaya doğrudan gitmek için kullanılabilir. Örneğin, Borç hesapları için para birimini yeniden değerleme işlemini gerçekleştirecek bir kapanış görevi, Microsoft Dynamics 365 for Operations içerisinde **Yabancı para birimi yeniden değerleme** sayfasında bağlanabilir. Ayrıca, bir harici URL'ye de bağlayabilirsiniz. 
+**Görev bağlantısı** menü öğesi görev eforuyla ilişkilidir ve çalışma alanındaki görev bağlantısından, ilişkili sayfaya doğrudan gitmek için kullanılabilir. Örneğin, Borç hesapları için para birimini yeniden değerleme işlemini gerçekleştirecek bir kapanış görevi, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içerisinde **Yabancı para birimi yeniden değerleme** sayfasında bağlanabilir. Ayrıca, bir harici URL'ye de bağlayabilirsiniz. 
 
 > [!İpucu] Bir mali dönem kapanış görevine belirli ir Yönetim Raporlayıcı raporu ilişkilendirmek istiyorsanız, rapor URL'si kullanabilirsiniz. Rapor URL'sine erişmek için raporu rapor tasarlayıcıda açın ve ardından raporu bir web tarayıcısında açmak için **Dosya** &gt; **Raporu göster** öğelerini tıklayın. Tarayıcının adres çubuğundaki URL'yi kopyalayabilir ve bunu **Görev bağlantısı** **URL** alanına yapıştırabilirsiniz. 
 

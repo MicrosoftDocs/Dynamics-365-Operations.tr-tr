@@ -3,27 +3,28 @@ title: "Kanala özel indirimler tanımla"
 description: "Perakendeciler sık sık farklı kanallara farklı iskontolar uygular. Bu konuda, belirli bir kanala ait bir indirim oluşturmak için bilmeniz gereken kavramlar incelenmektedir."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 ms.search.form: RetailAffiliationPriceGroup, RetailCatalogPriceGroup, RetailChannelPriceGroup, RetailDiscountPriceGroup, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailStoreItemPriceList, RetailStoreTable
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16401
 ms.assetid: d807fd51-86aa-47a0-8e00-6c5ddd21ff6b
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 750f61198550a248d70fd531c3cb2ff86ca37f50
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: d40c37628f03a7605e04b95339072a67806f2fa1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -40,7 +41,7 @@ Perakendeciler sık sık farklı kanallara farklı iskontolar uygular. Bu konuda
 
 Perakendeciler sık sık farklı kanallara farklı iskontolar sunar. Bunun sebebi yerel piyasa koşullarına yanıt vermek veya rakip perakendecilerle başa çıkmak için olabilir.
 
-Microsoft Dynamics 365 for Operations'ta perakende ve ticaret, kanala özel indirimleri tanımlamak için fiyat gruplarını kullanır. Aşağıdaki varlıklardan biri veya daha fazlası için fiyat grupları atanabilir: kanallar, kataloglar, ilişkiler ve bağlılık programları. Bu makalede kanallar anlatılmaktadır, ancak aynı kavramlar katalog indirimleri, ilişkiler indirimleri ve bağlılık için indirimlerde de uygulanır.
+Microsoft Dynamics 365 for Retail, kanala özel indirimleri tanımlamak için fiyat gruplarını kullanır. Aşağıdaki varlıklardan biri veya daha fazlası için fiyat grupları atanabilir: kanallar, kataloglar, ilişkiler ve bağlılık programları. Bu makalede kanallar anlatılmaktadır, ancak aynı kavramlar katalog indirimleri, ilişkiler indirimleri ve bağlılık için indirimlerde de uygulanır.
 
 ## <a name="price-groups"></a>Fiyat grupları
 
@@ -56,7 +57,7 @@ Yukarıdaki diyagram, bir hareket üzerinde bulunabilen varlıklar (kanal, katal
 ## <a name="example-channel-discount-set-up"></a>Örnek kanal indirim ayarlama
 Aşağıdaki örnek bir kanal iskonto ayarının kurulmasıyla ilgili görevleri gösterir.
 
-1.  Bu örnekte **Houston** adlı bir kanal mevcuttur ve **Okula dönüş**adlı yeni bir indirim oluşturacaksınız.
+1.  Bu örnekte **Houston** adlı bir kanal mevcuttur ve **Okula dönüş** adlı yeni bir indirim oluşturacaksınız.
 2.  Fiyat ve iskonto stratejisi kanal indirimleri ihtimalini içerdiği için, bir kanal oluşturduğunuzda her zaman kanala özel bir fiyat grubu oluşturursunuz.
 3.  Fiyat grubu **Houston-PG** mevcuttur ve bu, **Houston** kanalına atanmıştır.
 4.  **Okula dönüş** yeni iskontosunu oluşturduktan sonra, **İndirim** sayfasının tepesindeki **Fiyat grupları** tıklamanız lazım. **İndirim fiyat grupları** sayfası açılacaktır. Bundan sonra **Yeni**'ye tıklayın ve **Houston-PG** fiyat grubunu seçin.

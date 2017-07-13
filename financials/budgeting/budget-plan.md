@@ -1,9 +1,9 @@
 ---
 title: "Bütçe planlama"
-description: "Bu laboratuvarın amacı, Bütçe planlama alanındaki Microsoft Dynamics 365 for Operations işlevi güncelleştirmelerine ilişkin rehber eşlikli bir görünüm sağlamaktır. Bu laboratuvarın amacı, bütçe planlama modülü yapılandırmasının hızlı bir örneğini ve bu yapılandırmayla bütçe planlamanın nasıl tamamlanabileceğini göstermektir.  Bu laboratuvar özellikle aşağıdaki iş süreçlerine veya görevlere odaklanmaktadır: -    - Bütçe planlama için kuruluş hiyerarşisi oluşturma ve kullanıcı güvenliğini yapılandırma   - Bütçe planı senaryoları, bütçe planı sütunları, yerleşimleri ve Excel şablonları tanımlama   - Bütçe planlama süreci oluşturma ve etkinleştirme   - Genel muhasebeden gerçek değerleri alarak bütçe planı belgesi oluşturma   - Bütçe planı belgesi verilerini ayarlamak için tahsisatları kullanma   - Excel&quot;de bütçe planı belgesi verilerini düzenleme"
+description: "Bu laboratuvarın amacı, Bütçe planlama alanındaki Microsoft Dynamics 365 for Finance and Operations, Enterprise edition işlevi güncelleştirmelerine ilişkin rehber eşlikli bir görünüm sağlamaktır. Bu laboratuvarın amacı, bütçe planlama modülü yapılandırmasının hızlı bir örneğini ve bu yapılandırmayla bütçe planlamanın nasıl tamamlanabileceğini göstermektir.  Bu laboratuvar özellikle aşağıdaki iş süreçlerine veya görevlere odaklanmaktadır: -    - Bütçe planlama için kuruluş hiyerarşisi oluşturma ve kullanıcı güvenliğini yapılandırma   - Bütçe planı senaryoları, bütçe planı sütunları, yerleşimleri ve Excel şablonları tanımlama   - Bütçe planlama süreci oluşturma ve etkinleştirme   - Genel muhasebeden gerçek değerleri alarak bütçe planı belgesi oluşturma   - Bütçe planı belgesi verilerini ayarlamak için tahsisatları kullanma   - Excel'de bütçe planı belgesi verilerini düzenleme"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dbe2b386de9e88af354015705e1444987a3f7e82
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 11b5ffacef06fd3e83c61cd14da11ad645eec335
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu laboratuvarın amacı, Bütçe planlama alanındaki Microsoft Dynamics 365 for Operations işlevi güncelleştirmelerine ilişkin rehber eşlikli bir görünüm sağlamaktır. Bu laboratuvarın amacı, bütçe planlama modülü yapılandırmasının hızlı bir örneğini ve bu yapılandırmayla bütçe planlamanın nasıl tamamlanabileceğini göstermektir.  Bu laboratuvar özellikle aşağıdaki iş süreçlerine veya görevlere odaklanmaktadır: -    - Bütçe planlama için kuruluş hiyerarşisi oluşturma ve kullanıcı güvenliğini yapılandırma   - Bütçe planı senaryoları, bütçe planı sütunları, yerleşimleri ve Excel şablonları tanımlama   - Bütçe planlama süreci oluşturma ve etkinleştirme   - Genel muhasebeden gerçek değerleri alarak bütçe planı belgesi oluşturma   - Bütçe planı belgesi verilerini ayarlamak için tahsisatları kullanma   - Excel'de bütçe planı belgesi verilerini düzenleme 
+Bu laboratuvarın amacı, Bütçe planlama alanındaki Microsoft Dynamics 365 for Finance and Operations, Enterprise edition işlevi güncelleştirmelerine ilişkin rehber eşlikli bir görünüm sağlamaktır. Bu laboratuvarın amacı, bütçe planlama modülü yapılandırmasının hızlı bir örneğini ve bu yapılandırmayla bütçe planlamanın nasıl tamamlanabileceğini göstermektir.  Bu laboratuvar özellikle aşağıdaki iş süreçlerine veya görevlere odaklanmaktadır: -    - Bütçe planlama için kuruluş hiyerarşisi oluşturma ve kullanıcı güvenliğini yapılandırma   - Bütçe planı senaryoları, bütçe planı sütunları, yerleşimleri ve Excel şablonları tanımlama   - Bütçe planlama süreci oluşturma ve etkinleştirme   - Genel muhasebeden gerçek değerleri alarak bütçe planı belgesi oluşturma   - Bütçe planı belgesi verilerini ayarlamak için tahsisatları kullanma   - Excel'de bütçe planı belgesi verilerini düzenleme 
 
-<a name="prerequisites"></a>Önkoşullar 
+<a name="prerequisites"></a>Ön koşullar 
 ------------------
 
-Bu eğitim için Contoso demo verileri ile birlikte Dynamics 365 for Operations erişebiliyor ve örneğine bir yönetici olarak atanmış olmanız gerekir. Bu laboratuvar için Gizli tarayıcı modunu kullanmayın - gerekirse tarayıcıdaki diğer hesaplarda oturumunuzu kapatın ve Dynamics 365 for Operations yönetici kimlik bilgilerinizle oturum açın. Dynamics 365 for Operations içerisine oturum açarken "Oturumumu açık bırak" onay kutusunu **MUTLAKA** işaretlemeniz gerekir. Böylece Excel Uygulamasının şu anda gerektirdiği kalıcı bir tanımlama bilgisi üretmiş olursunuz. Dynamics 365 for Operations'a Internet Explorer dışında bir tarayıcı kullanarak oturum açarsanız Excel Uygulamasında oturum açmanız istenir. Excel Uygulamasında "Oturum Aç" düğmesini tıklattığınızda bir Internet Explorer açılır penceresi görüntülenir ve oturum açarken **MUTLAKA** "Oturumumu açık bırak" onay kutusunu işaretlemeniz gerekir. Excel Uygulamasında "Oturum Aç" düğmesini tıklattığınızda hiçbir şey görüntülenmiyorsa IE tanımlama bilgisi önbelleğini temizlemeniz gerekir.
+Bu eğitim için Contoso demo verileri ile birlikte Finance and Operations erişebiliyor ve örneğine bir yönetici olarak atanmış olmanız gerekir. Bu laboratuvar için Gizli tarayıcı modunu kullanmayın - gerekirse tarayıcıdaki diğer hesaplarda oturumunuzu kapatın ve Finance and Operations yönetici kimlik bilgilerinizle oturum açın. Finance and Operations içerisine oturum açarken "Oturumumu açık bırak" onay kutusunu **MUTLAKA** işaretlemeniz gerekir. Böylece Excel Uygulamasının şu anda gerektirdiği kalıcı bir tanımlama bilgisi üretmiş olursunuz. Finance and Operations'a Internet Explorer dışında bir tarayıcı kullanarak oturum açarsanız Excel Uygulamasında oturum açmanız istenir. Excel Uygulamasında "Oturum Aç" düğmesini tıklattığınızda bir Internet Explorer açılır penceresi görüntülenir ve oturum açarken **MUTLAKA** "Oturumumu açık bırak" onay kutusunu işaretlemeniz gerekir. Excel Uygulamasında "Oturum Aç" düğmesini tıklattığınızda hiçbir şey görüntülenmiyorsa IE tanımlama bilgisi önbelleğini temizlemeniz gerekir.
 
 ## <a name="scenario-overview"></a>**Senaryoya genel bakış**
 Julia, Almanya'daki Contoso Entertainment Systems (DEMF) firmasında finans yöneticisi olarak çalışıyor. MY2016 yaklaşırken Julia'nın gelecek yıl için şirketin bütçesini oluşturmak için çalışmaya başlaması gerekiyor. Bütçe hazırlığı şu şekildedir:
@@ -148,7 +148,7 @@ Bütçe plan sütunları, bütçe plan belgesi düzeninde kullanılabilen Parasa
 
 [![Otomatik doldurma](./media/screenshot22.png)](./media/screenshot22.png) 
 
-4.7. Dynamics 365 for Operations'a dönün ve sayfayı yenileyin. Yayınlanan değerler Dynamics 365 for Operations'ta görüntülenir. 
+4.7. Finance and Operations'a dönün ve sayfayı yenileyin. Yayınlanan değerler Finance and Operations'ta görüntülenir. 
 
 [![Yenile](./media/screenshot23.png)](./media/screenshot23.png)
 
@@ -233,7 +233,7 @@ Bütçe planları için bir senaryodaki bilgileri kolayca başka bir senaryoya k
 
 [![Yayımla](./media/screenshot36.png)](./media/screenshot36.png)
 
-9.3. Dynamics 365 for Operations bütçe planı belgesine dönün. İş Akışı &gt; Belgeyi otomatik onaylamaya gönder üzerine tıklatın
+9.3. Finance and Operations bütçe planı belgesine dönün. İş Akışı &gt; Belgeyi otomatik onaylamaya gönder üzerine tıklatın
 
 [![Otomatik-onayla](./media/screenshot37.png)](./media/screenshot37.png) 
 

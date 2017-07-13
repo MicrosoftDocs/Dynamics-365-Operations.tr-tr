@@ -3,14 +3,14 @@ title: "SEPA kredi transferine genel bakış"
 description: "Bu makale, Tek Euro Ödeme Bölgesi (SEPA) kredi transferleri ve satıcılar için diğer elektronik ödemeleri içeren ISO 20022 kredi transferleri hakkında genel bilgi sağlar. SEPA kredi transferi bir şirketten veya bir bireyden başka bir şirket veya bireye yapılan özel türde bir ödemedir (euro cinsinden). Bu başlık altında, bir kredi transferi ödeme dosyasının nasıl ayarlanacağı ve aktarılacağı da açıklanmaktadır."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11124
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8f1a220babc333fe2091e9286afc565ebeecf036
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: bc14ab554a298d09bb852e96503b4cd3f4b36d3c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -53,15 +53,15 @@ Avrupa bankalarından oluşan EPC, SEPA ödeme araçları için ticari ve teknik
 SEPA kredi transferi bir şirketten veya bir bireyden başka bir şirket veya bireye yapılan ödemedir. Ödemelerin Euro cinsinden olması gerekir ve her iki taraf için Uluslararası Banka Hesap Numarası (IBAN) ve Banka Tanımlayıcı Kodunu (BIC) içermelidir. (BIC, Dünya Çapındaki Bankalararası Finansal Telekomünikasyon Kurumu \[SWIFT\] kodu olarak da bilinir.) Ayrıca, işlem maliyetlerinin her iki taraf arasında paylaşılması gerekir. Taraflar arasında oluşan kredi transferlerinde ISO 20022 ödeme işleme standartları ve EPC tarafından belirtildiği gibi XML formatıyla uyumlu XML dosyaları kullanılmalıdır.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Kredi transferi nasıl uygulanır?
-Avrupa ülkeleri için kredi transferi ödeme biçimi, Dynamics 365 for Operations uygulamasında Elektronik raporlama (ER) ve Ödeme yöntemleri işlevi kullanılarak uygulanır. Diğer bölgelerde kullanılan birkaç kredi aktarma biçimi, eski ödeme çerçevesini kullanmaya devam etmektedir. Diğer pek çok biçim arasında on iki ISO 20022 kredi aktarım dosyası biçimi mevcuttur. Bu dışa aktarma biçimleri SEPA ISO 20022 XML standardına uygundur. Bunlar, kullanıldıkları ülkeler /bölgeler için euro dışı ödeme transferleri ve EPC'nin yayınladığı SEPA Kredi Transfer Şeması Kural Kitabı'nın 8.2 sürümünde belirtilen euro ödemeleri için kullanılır. Kredi transferlerini uygulamadan önce, elektronik bankacılık dosyalarını yüklemek için gereken yazılımı edinmek için bankanıza başvurmanız gerekir. Bu yazılımı ödeme emirlerini içeren XML dosyalarını bankanıza aktarmak için kullanacaksınız.
+Avrupa ülkeleri için kredi transferi ödeme biçimi, Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünde Elektronik raporlama (ER) ve Ödeme yöntemleri işlevi kullanılarak uygulanır. Diğer bölgelerde kullanılan birkaç kredi aktarma biçimi, eski ödeme çerçevesini kullanmaya devam etmektedir. Diğer pek çok biçim arasında on iki ISO 20022 kredi aktarım dosyası biçimi mevcuttur. Bu dışa aktarma biçimleri SEPA ISO 20022 XML standardına uygundur. Bunlar, kullanıldıkları ülkeler /bölgeler için euro dışı ödeme transferleri ve EPC'nin yayınladığı SEPA Kredi Transfer Şeması Kural Kitabı'nın 8.2 sürümünde belirtilen euro ödemeleri için kullanılır. Kredi transferlerini uygulamadan önce, elektronik bankacılık dosyalarını yüklemek için gereken yazılımı edinmek için bankanıza başvurmanız gerekir. Bu yazılımı ödeme emirlerini içeren XML dosyalarını bankanıza aktarmak için kullanacaksınız.
 
-## <a name="what-credit-transfer-formats-are-currently-supported-in-dynamics-365-for-operations"></a>Dynamics 365 for Operations'ta şu anda hangi kredi transfer biçimleri destekleniyor?
+## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Finance and Operations'ta şu anda hangi kredi transfer biçimleri destekleniyor?
 Sürekli olarak Microsoft Dynamics Lifecycle Services'daki (LCS) Paylaşılan varlık kitaplığına gidip varlık türü **GER yapılandırması** olan mevcut dosyaların en güncel listesini görüntülemeniz gerekir. Sonraki "Neyi ayarlamam gerekiyor?" bölümünde, mevcut yapılandırmaları incelemek ve seçili yapılandırmaları içe aktarmak için bir LCS havuzunun nasıl oluşturulacağının açıklandığını açıklayan konuya bağlantı verilmektedir.
 
 ## <a name="what-do-i-have-to-set-up"></a>Neyi ayarlamam gerekiyor?
--   Kredi transfer dosyaları oluşturmadan önce en az bir etkin kredi transferi yapılandırmasının ER yapılandırmalarınıza aktarılması gerekir. Yönergeler için bkz. [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını karşıdan yükle](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+-   Kredi transfer dosyaları oluşturmadan önce en az bir etkin kredi transferi yapılandırmasının ER yapılandırmalarınıza aktarılması gerekir. Yönergeler için bkz. [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını karşıdan yükle](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 -   Borç hesapları ödeme yöntemlerini yapılandırırken **Genel elektronik raporlama** onay kutusunu işaretleyin ve dışa aktarma biçimi yapılandırması olarak uygun kredi transferi biçimini (örneğin **ISO 20022 Kredi transferi (AT)**) seçin.
--   Dynamics 365 for Operations'ta tüzel kişilik ve banka hesabı bilgilerini de ayarlamanız gerekir.
+-   Tüzel kişiliği ve Finance and Operations'taki banka hesap bilgilerini de ayarlamanız gerekir.
 -   Banka hesabı numaraları, IBAN'lar ve bazen SWIFT kodları (BIC'ler) veya diğer kimlikler geçerli kredi transferi ödemeleri oluşturmak için gereklidir. Bu nedenle, satıcı banka hesabı ve transferi isteyen kuruluşun banka hesabı için bunları ayarlamanız gerekir.
 -   Kredi transfer iletisinde atıfta bulunulan taraflar için katma değer vergisi (KDV) numaraları gibi ek bilgiler gerekebilir. İstendiğinde satıcılar ve tüzel kişiler için bu bilgilerin ayarlanması gerekir.
 -   Borç hesapları ödeme yöntemlerinden bazıları, çoğunlukla ISO 20022 tabanlı ödeme yöntemleri **Ödeme biçimi kod kümeleri** için **Hizmet türü** = **SLEV** gibi ek kurulumlar gerektirebilir. Bu kodlar, ödeme işleme sırasında ödeme hareketleri için ek etiketleme olarak kullanılır. Varsayılan Ödeme kodu değerleri (örneğin **Kategori amacı**, **Masrafı taşıyan**, **Yerel enstrüman** ve **Hizmet düzeyi**) iki yerde ayarlanabilir. İlk yer **Borç hesapları ödeme günlüğü başlığı** ve ikincisi ise **Borç hesapları ödeme yöntemleri**'dir. Ödeme günlüğü satırları oluşturulurken, ödeme günlüğü başlığında ayarlanan Ödeme kodu değerleri bir günlük satırına aktarılır; ayarlanmazsa, Ödeme yöntemlerinden alınan değerler kullanılır.

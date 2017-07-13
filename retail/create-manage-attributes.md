@@ -1,28 +1,29 @@
 ---
 title: "Öznitelikler oluşturmak ve yönetmek"
-description: "Bu makale Microsoft Dynamics 365 for Operations&quot;taki öznitelikleri açıklar. Öznitelikler kullanıcı tanımlı alanlar aracılığıyla ürün ve özellikleri açıklamanızı sağlar."
+description: "Bu makale Microsoft Dynamics 365 for Retail'daki öznitelikleri açıklar. Öznitelikler kullanıcı tanımlı alanlar aracılığıyla ürün ve özellikleri açıklamanızı sağlar."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16461
 ms.assetid: 2b85491c-f830-4e79-a2cb-681b7ced6988
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: prabhup
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: eaee0edb4822a386c8781d9929999cea326f0a40
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 4493c2f9e9e9dfe990f3b1670d3cd35e3bbaa38d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Bu makale Microsoft Dynamics 365 for Operations'taki öznitelikleri açıklar. Öznitelikler kullanıcı tanımlı alanlar aracılığıyla ürün ve özellikleri açıklamanızı sağlar.
+Bu makale Microsoft Dynamics 365 for Retail'daki öznitelikleri açıklar. Öznitelikler kullanıcı tanımlı alanlar aracılığıyla ürün ve özellikleri açıklamanızı sağlar.
 
 Öznitelikler kullanıcı tanımlı alanlar aracılığıyla ürün ve özellikleri açıklamanızı sağlar. Örneğin, ürünün bellek boyutu ve sabit disk kapasitesi belirtebilir ve ürünün Energy star uyumlu olup olmadığını belirtebilirsiniz. Öznitelikleri ürün kategorileri ve perakende kanalları gibi çeşitli perakende varlıklar ile ilişkili olabilir ve bunlar için varsayılan değerler ayarlanabilir. Ürün kategorileri veya perakende kanalları ile ilişkili olduğunda ürünleri özniteliklerini ve bu öznitelikleri için varsayılan değerleri devralır. Varsayılan değerleri tek tek ürün, perakende kanal düzeyinde veya perakende Kataloğu düzeyinde geçersiz kılınabilir.
 
@@ -59,7 +60,7 @@ Bu makale Microsoft Dynamics 365 for Operations'taki öznitelikleri açıklar. �
 ## <a name="attribute-type"></a>Öznitelik türü
   [![öznitelikler-sabit-kopya](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
   
-Öznitelik, öznitelik türlerini temel alır. Öznitelik türleri, belirli bir öznitelik için girilen veri türünü tanımlar. Şu anda, Microsoft Dynamics 365 for Operations aşağıdaki öznitelik türlerini destekler:
+Öznitelik, öznitelik türlerini temel alır. Öznitelik türleri, belirli bir öznitelik için girilen veri türünü tanımlar. Şu anda, Microsoft Dynamics 365 for Retail aşağıdaki öznitelik türlerini destekler:
 
 -   **Para** – bu öznitelik türü para birimi değerlerini destekler. Bağlantılı olmalıdır (diğer bir deyişle, bir değer aralığı destekleyebilir) veya açık bırakılabilir.
 -   **DateTime** – bu öznitelik türü, tarih ve saat değerlerini destekler. Bağlantılı olmalıdır (diğer bir deyişle, bir değer aralığı destekleyebilir) veya açık bırakılabilir.

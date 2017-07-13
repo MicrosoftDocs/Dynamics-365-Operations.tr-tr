@@ -1,9 +1,9 @@
 ---
 title: "Alacak hesaplarında alacak ve tahsilatlar"
-description: "Alacak hesapları tahsilat bilgileri, Microsoft Dynamics 365 for Operations Collections sayfası kullanılarak bir merkezi görünümde yönetilir. Kredi ve tahsilat yöneticileri bu merkezi görünümü kullanarak tahsilatları yönetebilir. Tahsilat temsilcileri, tahsilat işlemine önceden tanımlanmış tahsilat kriterlerini kullanarak oluşturulmuş müşteri listelerinden veya Müşteriler sayfasından başlayabilir."
+description: "Alacak hesapları tahsilat bilgileri, Microsoft Dynamics 365 for Finance Operations, Enterprise edition Collections sayfası kullanılarak bir merkezi görünümde yönetilir. Kredi ve tahsilat yöneticileri bu merkezi görünümü kullanarak tahsilatları yönetebilir. Tahsilat temsilcileri, tahsilat işlemine önceden tanımlanmış tahsilat kriterlerini kullanarak oluşturulmuş müşteri listelerinden veya Müşteriler sayfasından başlayabilir."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74f671a35fa1dbeeb120fe968b1bcc09868f57d5
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Alacak hesapları tahsilat bilgileri, Microsoft Dynamics 365 for Operations Collections sayfası kullanılarak bir merkezi görünümde yönetilir. Kredi ve tahsilat yöneticileri bu merkezi görünümü kullanarak tahsilatları yönetebilir. Tahsilat temsilcileri, tahsilat işlemine önceden tanımlanmış tahsilat kriterlerini kullanarak oluşturulmuş müşteri listelerinden veya Müşteriler sayfasından başlayabilir.
+Alacak hesapları tahsilat bilgileri, Finance and Operations Collections sayfası kullanılarak bir merkezi görünümde yönetilir. Kredi ve tahsilat yöneticileri bu merkezi görünümü kullanarak tahsilatları yönetebilir. Tahsilat temsilcileri, tahsilat işlemine önceden tanımlanmış tahsilat kriterlerini kullanarak oluşturulmuş müşteri listelerinden veya Müşteriler sayfasından başlayabilir.
 
 Tahsilatları ayarlamaya veya bunlar üzerinde çalışmaya başlamadan önce, aşağıdaki kavramları anlamanız gerekir:
 -   Müşteri yaşlandırma anlık görüntüsü belirli bir zamandaki yaşlandırılmış bakiye bilgilerini içerir
@@ -59,9 +59,9 @@ Yaşlandırma dönemi tanımındaki her yaşlandırma dönemi için bir yaşland
 Müşteri havuzları, tahsilatlar veya yaşlandırma işlemleri için görüntülenebilen veya yönetilebilen müşteri kayıtları grubunu tanımlayan sorgulardır. Yaşlandırılmış bakiyeler, Tahsilat etkinlikleri ve Tahsilat servis talepleri liste sayfalarındaki bilgileri filtrelemek için kullanıcı havuzlarını kullanın. Yaşlandırma anlık görüntüleri oluşturulduğunda eklenecek müşteri hesaplarını filtrelemek için de müşteri havuzlarını kullanabilirsiniz.
 
 ## <a name="collections-agents"></a>Tahsilat temsilcisi
-Varsayılan olarak, Microsoft Dynamics 365 for Operations kullanıcıları tahsilat listesi sayfalarındaki tüm müşteri bilgilerini görebilirler. Tahsilat listesi sayfalarındaki ve Tahsilatlar sayfasındaki bilgileri filtrelemek için kullanılabilecek müşteri havuzlarını belirlemek için tahsilat temsilcisi kayıtlarını kullanabilirsiniz. 
+Varsayılan olarak, Microsoft Dynamics 365 for Finance and Operations kullanıcıları tahsilat listesi sayfalarındaki tüm müşteri bilgilerini görebilirler. Tahsilat listesi sayfalarındaki ve Tahsilatlar sayfasındaki bilgileri filtrelemek için kullanılabilecek müşteri havuzlarını belirlemek için tahsilat temsilcisi kayıtlarını kullanabilirsiniz. 
 
-Tahsilat temsilcisi, ödemelerin zamanında tahsil edildiğinden emin olmak için müşterilerle birlikte çalışan kişidir. Microsoft Dynamics 365 for Operations'ta tahsilat temsilcileri, Kullanıcı ayarı sayfasında kullanıcılara atanan çalışanlardır.
+Tahsilat temsilcisi, ödemelerin zamanında tahsil edildiğinden emin olmak için müşterilerle birlikte çalışan kişidir. Finance and Operations'da tahsilat temsilcileri, Kullanıcı ayarı sayfasında kullanıcılara atanan çalışanlardır.
 
 ## <a name="collections-list-pages"></a> Tahsilatlar listesi sayfaları 
 Aşağıdaki liste sayfaları tahsilat bilgilerini düzenlemenize yardımcı olur.
@@ -71,7 +71,7 @@ Aşağıdaki liste sayfaları tahsilat bilgilerini düzenlemenize yardımcı olu
 
 > [!NOTE]
 > Bu liste sayfalarında bilgileri görebilmeniz için yaşlandırma anlık görüntüsünün oluşturulmuş olması gerekir. Bilgiler, yalnızca yaşlandırma anlık görüntüsü oluşturulan müşteriler için görüntülenebilir. Liste sayfasında gösterilen kayıtlar aşağıdaki şekilde de filtrelenebilir:
-<li>Varsayılan olarak, Microsoft Dynamics 365 for Operations kullanıcısı bir yaşlandırma anlık görüntüsü bulunan tüm müşterilere erişebilir.</li>
+<li>Varsayılan olarak, Finance and Operations kullanıcısı bir yaşlandırma anlık görüntüsü bulunan tüm müşterilere erişebilir.</li>
 <li>Müşteri havuzları varsa, tahsilat liste sayfalarındaki bilgilerin filtreleneceği havuzları kullanmak için kullanıcının tahsilat temsilcisi olarak ayarlanması gerekir. Bilgiler, seçili müşteri havuzuna dahil olan müşterilerle sınırlıdır.</li>
 <li>Bir kullanıcı tahsilat temsilcisi olarak ayarlanırsa, yalnızca bu tahsilat temsilcisi için seçilen havuzlar liste sayfasında kullanılabilir. Tahsilat temsilcisi için Tahsilatlar sayfasında Temsilcinin tüm müşteri havuzlarını görmesine izin ver seçeneği seçilirse, söz konusu temsilci tüm havuzları görebilir.</li>
 

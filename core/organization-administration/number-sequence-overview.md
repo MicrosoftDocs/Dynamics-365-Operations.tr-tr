@@ -1,15 +1,15 @@
 ---
 title: "Numara serilerine genel bakış"
-description: "Microsoft Dynamics 365 for Operations&quot;daki numara serileri, kimlik tanımlayıcıları gerektiren ana veri kayıtları ve hareket kayıtları için okunabilir ve benzersiz tanımlayıcılar oluşturmada kullanılır. Tanımlayıcı gerektiren bir ana veri kaydı veya hareket kaydı, <em>referans</em> olarak adlandırılır."
+description: "Microsoft Dynamics 365 for Finance and Operations'daki numara serileri, kimlik tanımlayıcıları gerektiren ana veri kayıtları ve hareket kayıtları için okunabilir ve benzersiz tanımlayıcılar oluşturmada kullanılır. Tanımlayıcı gerektiren bir ana veri kaydı veya hareket kaydı, <em>referans</em> olarak adlandırılır."
 author: MargoC
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15461
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a2dcbbbd0b67c171d5a26bbf2053d159f7367cc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: d260f460bf0da072eb46909d8c28d18041ecaa78
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,16 +30,16 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 for Operations'daki numara serileri, kimlik tanımlayıcıları gerektiren ana veri kayıtları ve hareket kayıtları için okunabilir ve benzersiz tanımlayıcılar oluşturmada kullanılır. Tanımlayıcı gerektiren bir ana veri kaydı veya hareket kaydı, <em>referans</em> olarak adlandırılır.
+Microsoft Dynamics 365 for Finance and Operations'daki numara serileri, kimlik tanımlayıcıları gerektiren ana veri kayıtları ve hareket kayıtları için okunabilir ve benzersiz tanımlayıcılar oluşturmada kullanılır. Tanımlayıcı gerektiren bir ana veri kaydı veya hareket kaydı, <em>referans</em> olarak adlandırılır.
 
-Microsoft Dynamics 365 for Operations'da bir referans için yeni kayıtlar oluşturmadan önce, bir numara serisi oluşturmalı ve bunu referans ile ilişkilendirmelisiniz. Numara sıralarını ayarlamak için **Kuruluş yönetimi**'ndeki sayfaları kullanmanızı öneririz. Modüle özgü ayarları gerekiyorsa, bu modül içindeki referans için numara serileri belirtmek için bir modüldeki parametreleri sayfasını kullanabilirsiniz. Örneğin, **Alacak hesapları** ve **Borç hesapları**'nda, belirli müşteriler veya satıcılar için özel numara serileri tahsis etmek için numara serisi grupları ayarlayabilirsiniz. Bir numara sırası ayarlarsanız, hangi kuruluşun bu numara serisini kullanacağını tanımlayan bir kapsam belirtmelisiniz. Kapsam **Paylaşımlı**, **Şirket**, **Tüzel kişilik** veya **İşletim birimi** olabilir. **Tüzel kişilik** ve **Şirket**, **Mali takvim dönemi** kapsamları ile daha özel numara serileri oluşturmak için birleştirilebilir. Numara sırası biçimleri segmentlerden oluşur. **Paylaşımlı** dışında kapsamlara sahip seriler, kapsama karşılık gelen segmentler içerebilir. Örneğin, **Tüzel kişilik** kapsamını içeren bir numara serisi, bir tüzel kişilik segmenti içerebilir. Sayı dizisi biçiminde bir kapsam kesimi dahil ederek, numarasına bakarak belirli bir kaydın kapsamını tanımlayabilirsiniz. Segmentlere karşılık gelen kapsamların yanı sıra, numara sırası biçimleri **Sabit** ve **Alfasayısal parçaları** içerebilir. **Sabit** bir segment bir dizi değişmez harf, sayı veya simge kümesi içerir. Bir **Alfasayısal** segment, bir sayının kullanıldığı her seferde artan bir harf veya sayı kümesi içerir. Artan sayıları göstermek için (\#) ve artan harfleri göstermek için (&) simgelerini kullanın. Örneğin, \#\#\#\#\#\_2017 biçimi, 00001\_2017, 00002\_2017 sırasını ve devamını oluşturur.
+Microsoft Dynamics 365 for Finance and Operations'da bir referans için yeni kayıtlar oluşturmadan önce, bir numara serisi oluşturmalı ve bunu referans ile ilişkilendirmelisiniz. Numara sıralarını ayarlamak için **Kuruluş yönetimi**'ndeki sayfaları kullanmanızı öneririz. Modüle özgü ayarları gerekiyorsa, bu modül içindeki referans için numara serileri belirtmek için bir modüldeki parametreleri sayfasını kullanabilirsiniz. Örneğin, **Alacak hesapları** ve **Borç hesapları**'nda, belirli müşteriler veya satıcılar için özel numara serileri tahsis etmek için numara serisi grupları ayarlayabilirsiniz. Bir numara sırası ayarlarsanız, hangi kuruluşun bu numara serisini kullanacağını tanımlayan bir kapsam belirtmelisiniz. Kapsam **Paylaşımlı**, **Şirket**, **Tüzel kişilik** veya **İşletim birimi** olabilir. **Tüzel kişilik** ve **Şirket**, **Mali takvim dönemi** kapsamları ile daha özel numara serileri oluşturmak için birleştirilebilir. Numara sırası biçimleri segmentlerden oluşur. **Paylaşımlı** dışında kapsamlara sahip seriler, kapsama karşılık gelen segmentler içerebilir. Örneğin, **Tüzel kişilik** kapsamını içeren bir numara serisi, bir tüzel kişilik segmenti içerebilir. Sayı dizisi biçiminde bir kapsam kesimi dahil ederek, numarasına bakarak belirli bir kaydın kapsamını tanımlayabilirsiniz. Segmentlere karşılık gelen kapsamların yanı sıra, numara sırası biçimleri **Sabit** ve **Alfasayısal parçaları** içerebilir. **Sabit** bir segment bir dizi değişmez harf, sayı veya simge kümesi içerir. Bir **Alfasayısal** segment, bir sayının kullanıldığı her seferde artan bir harf veya sayı kümesi içerir. Artan sayıları göstermek için (\#) ve artan harfleri göstermek için (&) simgelerini kullanın. Örneğin, \#\#\#\#\#\_2017 biçimi, 00001\_2017, 00002\_2017 sırasını ve devamını oluşturur.
 Numara serisi örnekleri
 ------------------------
 
 Aşağıdaki örnekler sıralı sayı biçimleri oluşturmak için segmentlerin nasıl kullanılacağını gösterir. Bu örnekler özellikle, kapsam segmentleri kullanmanın etkilerini gösterir.
 ### <a name="expense-report-numbers"></a>Gider raporu numaraları.
 
-Aşağıdaki örnekte, **CS** başlıklı bir tüzel kişilik için gider raporu numaraları ayarlanır. **Alan:**Gider ve seyahat **Başvuru:**Gider raporu numarası **Kapsam:**Tüzel kişilik **Tüzel kişilik:**CS
+Aşağıdaki örnekte, **CS** başlıklı bir tüzel kişilik için gider raporu numaraları ayarlanır. **Alan:** Gider ve seyahat **Başvuru:** Gider raporu numarası **Kapsam:** Tüzel kişilik **Tüzel kişilik:** CS
 | Segmentler  | Segment türü | Değer     |
 |-----------|--------------|-----------|
 | Segment 1 | Tüzel kişilik | CS        |
@@ -50,7 +50,7 @@ Aşağıdaki örnekte, **CS** başlıklı bir tüzel kişilik için gider raporu
 
 ### <a name="sales-order-numbers"></a>Satış sipariş numaraları
 
-Aşağıdaki örnekte, şirket kodu **CEU** için satış siparişi numaraları ayarlanır. **Alanı:**Satış **Referans:**Satış siparişi **Kapsam:**Şirket **Şirket:**CEU
+Aşağıdaki örnekte, şirket kodu **CEU** için satış siparişi numaraları ayarlanır. **Alanı:** Satış **Referans:** Satış siparişi **Kapsam:** Şirket **Şirket:** CEU
 | Segmentler  | Segment türü | Değer    |
 |-----------|--------------|----------|
 | Segment 1 | Sabit     | SS-      |
@@ -60,7 +60,7 @@ Aşağıdaki örnekte, şirket kodu **CEU** için satış siparişi numaraları 
 
 ### <a name="purchase-requisition-numbers"></a>Satınalma talebi numaraları
 
-Aşağıdaki örnekte, satınalma talebi sayıları kuruluş çapındadır. **Alanı:**Satınalma **Referans:**Satınalma talebi **Kapsam:**Paylaşılan
+Aşağıdaki örnekte, satınalma talebi sayıları kuruluş çapındadır. **Alanı:** Satınalma **Referans:** Satınalma talebi **Kapsam:** Paylaşılan
 | Segmentler  | Segment türü | Değer    |
 |-----------|--------------|----------|
 | Segment 1 | Sabit     | Gereken      |

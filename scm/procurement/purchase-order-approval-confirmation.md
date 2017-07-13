@@ -1,16 +1,16 @@
 ---
 title: "Satınalma siparişlerini onaylama ve doğrulama"
-description: "Bu makalede oluşturulduktan sonra bir satınalma siparişinin (PO) geçtiği durumlar ve değişiklik yönetiminin etkinleştirilmesinin PO&quot;lara etkisi tanımlanır."
+description: "Bu makalede oluşturulduktan sonra bir satınalma siparişinin (PO) geçtiği durumlar ve değişiklik yönetiminin etkinleştirilmesinin PO'lara etkisi tanımlanır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 346dde3acdaca367c80cc092f0d8faa2dc28c6b6
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0ec91bcf0ab334585eefae2fe54750c45419682e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,6 +30,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
 Bu makalede oluşturulduktan sonra bir satınalma siparişinin (PO) geçtiği durumlar ve değişiklik yönetiminin etkinleştirilmesinin PO'lara etkisi tanımlanır.
 
@@ -38,7 +39,7 @@ Satınalma siparişi (PO) oluşturulduktan sonra bir onay işleminden geçmelidi
 ## <a name="approval-of-purchase-orders"></a>Satınalma siparişlerinin onayı
 PO'lar oluşturulduklarında **Onaylandı** durumuna sahip bir değişiklik yönetimini kullanmazlar ancak ilk oluşturulduklarında **Taslak** durumuna sahip değişiklik yönetimini kullanırlar. Master planlamadan planlı sipariş olarak kesinleştirilerek oluşturulan bir PO değişiklik yönetimi ayarlarına bakılmaksızın her zaman **Onaylandı** durumuna ayarlanır. Bir PO yalnızca **Onaylandı** durumuna ulaştığında stok hareketlerini oluşturur. Bu nedenle bu stok sipariş kabul edilene kadar rezervasyon veya işaretleme için kullanılabilir görünmez.  
 
-PO'lar için değişiklik yönetimini **Tedarik ve kaynak atama parametreleri** sayfasındaki **Değişiklik yönetimini etkinleştir** seçeneğine ayarlayarak etkinleştirin. Değişiklik yönetimi etkinleştirildiğinde PO'lar tamamlandıktan sonra onay iş akışından geçmelidir. Microsoft Dynamics 365 for Operations onay işlemini göstermek için bir akışı tanımlayabileceğiniz bir iş akışı işlemi düzenleyicisine sahiptir. Bu iş akışı otomatik onaya ilişkin kuralları, belli PO'lara kimlerin atanacağını belirleyen kuralları ve uzun süredir onay için bekleyen bir iş akışını ilerletmek için kuralları içerebilir. Değişiklik yönetimi işlemini tüm satıcılar veya belirli satıcılar için etkinleştirebilirsiniz. İşlemi PO'lar için geçersiz kılacak şekilde de ayarlayabilirsiniz.  
+PO'lar için değişiklik yönetimini **Tedarik ve kaynak atama parametreleri** sayfasındaki **Değişiklik yönetimini etkinleştir** seçeneğine ayarlayarak etkinleştirin. Değişiklik yönetimi etkinleştirildiğinde PO'lar tamamlandıktan sonra onay iş akışından geçmelidir. Microsoft Dynamics 365 for Finance and Operations onay işlemini göstermek için bir akışı tanımlayabileceğiniz bir iş akışı işlemi düzenleyicisine sahiptir. Bu iş akışı otomatik onaya ilişkin kuralları, belli PO'lara kimlerin atanacağını belirleyen kuralları ve uzun süredir onay için bekleyen bir iş akışını ilerletmek için kuralları içerebilir. Değişiklik yönetimi işlemini tüm satıcılar veya belirli satıcılar için etkinleştirebilirsiniz. İşlemi PO'lar için geçersiz kılacak şekilde de ayarlayabilirsiniz.  
 
 Değişiklik yönetimi etkinleştirildiğinde PO'lar **Sonlandırıldı** ile **Taslak** arasında altı onay durumundan geçer. Sipariş onaylandıktan sonra değiştirmek isteyen kullanıcılar **Değişiklik iste** eylemini kullanmalıdır.
 
@@ -54,7 +55,7 @@ Değişiklik yönetimi etkinleştirildiğinde PO'lar **Sonlandırıldı** ile **
 ## <a name="confirming-purchase-orders"></a>Satınalma siparişlerini teyit etme
 Onay durumu **Onaylandı** olan PO'lar teyit edilmeden önce ek adımlardan geçebilir. Örneğin, satıcıya fiyatları, iskontoları veya teslim tarihlerini sormak için bir satınalma sorgusu göndermeniz gerekebilir. Bu durumda, PO'yu **Satınalma sorgusu** eylemini kullanarak **Harici incelemede** durumuna ayarlayabilirsiniz.  
 
-Satıcı portalını kullanmaya ayarlanmış satıcılar portaldaki siparişleri gözden geçirebilir ve bunları onaylayabilir veya reddedebilir. Bu gözden geçirme işlemi sırasında PO **Harici incelemede** durumundadır. Satıcı portalı, satıcıdan gelen bir teyit Dynamics 365 for Operations'daki siparişi otomatik olarak teyit edecek şekilde yapılandırılabilir. Alternatif olarak, satıcıdan teyit aldıktan sonra bir PO'yu el ile teyit edebilirsiniz. Satıcı PO'yu reddederse reddetme eylemi, reddetme nedeni ve değişiklik önerileri ile birlikte alınır. Bu durumda PO **Harici incelemede** durumunda kalır.  
+Satıcı portalını kullanmaya ayarlanmış satıcılar portaldaki siparişleri gözden geçirebilir ve bunları onaylayabilir veya reddedebilir. Bu gözden geçirme işlemi sırasında PO **Harici incelemede** durumundadır. Satıcı portalı, satıcıdan gelen bir teyit Finance and Operations'daki siparişi otomatik olarak teyit edecek şekilde yapılandırılabilir. Alternatif olarak, satıcıdan teyit aldıktan sonra bir PO'yu el ile teyit edebilirsiniz. Satıcı PO'yu reddederse reddetme eylemi, reddetme nedeni ve değişiklik önerileri ile birlikte alınır. Bu durumda PO **Harici incelemede** durumunda kalır.  
 
 Fiili teyit işlenmeden önce sipariş için bir proforma teyidi oluşturma seçeneği de bulunmaktadır. Bu seçenek yalnızca satıcı ile paylaşabileceğiniz bir rapor oluşturur. Herhangi bir günlük bilgisi oluşturmaz.  
 
@@ -83,7 +84,7 @@ Bir sipariş teyit edildikten sonra artık onu silemezsiniz. Ancak, miktarın al
 
 [Ürün girişine karşılık satınalma siparişleri](product-receipt-against-purchase-orders.md)
 
-[Satıcı faturalarına genel bakış](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[Satıcı faturalarına genel bakış](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

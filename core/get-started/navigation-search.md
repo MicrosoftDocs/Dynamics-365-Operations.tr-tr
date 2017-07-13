@@ -1,6 +1,6 @@
 ---
 title: "Gezinti araması"
-description: "Bu konuda, Microsoft Dynamics 365 for Operations sayfalarında gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır."
+description: "Bu konuda, Microsoft Dynamics 365 for Finance and Operations sayfalarında gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır."
 author: aneesmsft
 manager: AnnBe
 ms.date: 04/27/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 25991
 ms.assetid: eef0676f-c4b1-490e-a032-e9c8580f3fea
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: df804f79d6639c118e3e0534a21423f207ceb2c7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 431165d541c9a3b63100a93108ee770df8e88aa8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,9 +30,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu konuda, Microsoft Dynamics 365 for Operations sayfalarında gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır.
+Bu konuda, Microsoft Dynamics 365 for Finance and Operations sayfalarında gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır.
 
-Dynamics 365 for Operations geniş bir sektör ve faaliyet alanı yelpazesi için işlevler sağlar. Uygulama, çeşitli görevleri gerçekleştirmenize yardımcı olmak için çok sayıda alan ve sayfa içerir. Görevlerinizi tamamlamak için ihtiyaç duyduğunuz sayfaları hızlı bir şekilde bulmak için gezinti araması özelliğini kullanın. 
+Finance and Operations geniş bir sektör ve faaliyet alanı yelpazesi için işlevler sağlar. Uygulama, çeşitli görevleri gerçekleştirmenize yardımcı olmak için çok sayıda alan ve sayfa içerir. Görevlerinizi tamamlamak için ihtiyaç duyduğunuz sayfaları hızlı bir şekilde bulmak için gezinti araması özelliğini kullanın. 
 
 Bu özelliği kullanmak için **Arama** simgesine tıklayarak **Arama** kutusunu görüntüleyin. Kutuya bir veya birden fazla sözcük yazabilirsiniz. Sistem, uygulamadaki ilgili sayfalarda, girmiş olduğunuz sözcüklerle eşleşmeler arar. Örneğin, giriş olarak "satıcı faturası" yazdığınızda o girişle eşleşen sonuçları görüntüler. 
 

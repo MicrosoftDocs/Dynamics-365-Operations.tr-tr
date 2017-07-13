@@ -3,14 +3,14 @@ title: Elektronik raporlama hedefleri
 description: "Her bir Elektronik raporlama (ER) biçimi yapılandırması ve bunun çıkış bileşeni (bir klasör veya bir dosya) için bir hedef yapılandırabilirsiniz. Uygun erişim hakları verilmiş kullanıcılar çalışma zamanında hedef ayarlarını da değiştirebilir. Bu makalede, ER hedef yönetimi, desteklenen hedeflerin türleri ve güvenlik ile ilgili hususlar açıklanır."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5fb008420f82abd7983ee26854f84330705c0c01
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fb2aeee1f38823e7ea96071f773e8448d65ba8ff
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,9 +36,9 @@ Her bir Elektronik raporlama (ER) biçimi yapılandırması ve bunun çıkış b
 Elektronik raporlama (ER) biçim yapılandırmaları genellikle en az bir çıkış bileşeni içerir: dosya. Genelde yapılandırmalar tek veya birden fazla klasörde gruplanan farklı türlerde birden fazla dosya çıkış bileşeni içerir (örneğin, XML, TXT veya XLSX). ER hedef yönetimi her bir bileşen çalıştırıldığında ne olduğunu önceden yapılandırmanızı sağlar. Bir yapılandırma çalıştırıldığında, varsayılan olarak, kullanıcının bir dosyayı açmasına veya kaydetmesine izin veren bir iletişim kutusu gösterilir. Aynı çalışma biçimi bir ER yapılandırmasını içe aktardığınızda ve bunun için belli bir hedef yapılandırmadığınızda da kullanılır. Ana çıkış bileşeni için bir hedef oluşturulduktan sonra bu hedef varsayılan davranışı geçersiz kılar ve klasör veya dosya hedef ayarlarına göre gönderilir.
 
 ## <a name="availability-and-general-prerequisites"></a>Kullanılabilirlik ve genel önkoşulları
-ER hedeflerinin işlevselliği Microsoft Dynamics 365 for Operations 7.0 (Şubat 2016) sürümünde kullanılamaz. Bu nedenle, bu konuda açıklanan tüm işlevleri kullanabilmek için Microsoft Dynamics 365 for Operations'ı (Kasım 2016 sürümü) yüklemeniz gerekir. Alternatif olarak, aşağıdaki önkoşullardan birini de yükleyebilirsiniz. Ancak, bu alternatifin daha sınırlı bir ER hedef deneyimi sağladığını unutmayın.
+ER hedeflerinin işlevselliği Microsoft Dynamics AX 7.0 (Şubat 2016) sürümünde kullanılamaz. Bu nedenle, bu konuda açıklanan tüm işlevleri kullanabilmek için Microsoft Dynamics 365 for Operations sürüm 1611'i (Kasım 2016) yüklemeniz gerekir. Alternatif olarak, aşağıdaki önkoşullardan birini de yükleyebilirsiniz. Ancak, bu alternatifin daha sınırlı bir ER hedef deneyimi sağladığını unutmayın.
 
--   Microsoft Dynamics 365 for Operations uygulama sürümünü 7.0.1 (Mayıs 2016)
+-   Microsoft Dynamics AX uygulama sürümü 7.0.1 (Mayıs 2016)
 -   ER hedef yönetimi [uygulama düzeltmesi](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
 Yalnızca içe aktarılan ER yapılandırmaları ve **Elektronik raporlama yapılandırmaları** sayfasında kullanılabilen biçimler için hedefleri ayarlayabilirsiniz.
@@ -61,7 +61,7 @@ Referans oluşturduktan sonra her klasör veya dosya için bir dosya hedefi olu�
 
 ### <a name="email-destination"></a>E-posta hedefi
 
-E-posta ile bir çıkış dosyası göndermek için **Etkin**değerini **Evet** olarak ayarlayın. Bu seçenek etkinleştirildikten sonra e-posta konusunu ve metnini düzenleyebilir ve e-posta alıcılarını belirtebilirsiniz. E-posta metni ve konusu için sabit metinler ayarlayabilir veya ER formüllerini kullanarak dinamik e-posta metinleri oluşturabilirsiniz. E-posta adreslerini ER içerisinde iki şekilde yapılandırabilirsiniz. Yapılandırma, Dynamics 365 for Operations içerisindeki Yazdırma yönetiminin tamamladığı gibi aynı şekilde tamamlanabilir. Alternatif olarak, bir e-posta adresini doğrudan ER yapılandırmasını referans göstererek bir e-posta adresini çözebilirsiniz.
+E-posta ile bir çıkış dosyası göndermek için **Etkin** değerini **Evet** olarak ayarlayın. Bu seçenek etkinleştirildikten sonra e-posta konusunu ve metnini düzenleyebilir ve e-posta alıcılarını belirtebilirsiniz. E-posta metni ve konusu için sabit metinler ayarlayabilir veya ER formüllerini kullanarak dinamik e-posta metinleri oluşturabilirsiniz. E-posta adreslerini ER içerisinde iki şekilde yapılandırabilirsiniz. Yapılandırma, Finance and Operations içerisindeki Yazdırma yönetiminin tamamladığı gibi aynı şekilde tamamlanabilir. Alternatif olarak, bir e-posta adresini doğrudan ER yapılandırmasını referans göstererek bir e-posta adresini çözebilirsiniz.
 
 ### <a name="email-address-types"></a>E-posta adresi türleri
 
@@ -89,15 +89,15 @@ Kullandığınız yapılandırma, veri kaynaklarında bir e-posta adresini temsi
 
 [![Bir e-posta hedefi için bir e-posta adresi veri kaynağı atamak](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg) 
 
-**Not:** Basit Posta Aktarım Protokolü (SMTP) sunucusu yapılandırılmalı ve kullanılmalıdır. SMTP sunucunuzu Dynamics 365 for Operations içinde, **Sistem yönetimi** &gt; **Kurulum** &gt; **E-posta** &gt; **E-posta parametreleri** içerisinde belirtebilirsiniz.
+**Not:** Basit Posta Aktarım Protokolü (SMTP) sunucusu yapılandırılmalı ve kullanılmalıdır. SMTP sunucunuzu Finance and Operations içinde, **Sistem yönetimi** &gt; **Kurulum** &gt; **E-posta** &gt; **E-posta parametreleri** içerisinde belirtebilirsiniz.
 
 ### <a name="archive-destination"></a>Arşiv hedefi
 
-Microsoft SharePoint klasörü veya Microsoft Azure Depolamaya çıktı göndermek için bu seçeneği kullanabilirsiniz. Seçili belge türü ile tanımlanan bir hedefe çıktı göndermek için **Etkin** değerini **Evet**olarak ayarlayın. Yalnızca grubun **Dosya** olarak ayarlandığı belge türleri seçim için kullanılabilir. Belge türlerini **Kuruluş yönetimi** &gt; **Belge yönetimi** &gt; **Belge türleri** altından tanımlarsınız. ER hedefleri için yapılandırma, belge yönetim sistemi için yapılandırma ile aynıdır.
+Microsoft SharePoint klasörü veya Microsoft Azure Depolamaya çıktı göndermek için bu seçeneği kullanabilirsiniz. Seçili belge türü ile tanımlanan bir hedefe çıktı göndermek için **Etkin** değerini **Evet** olarak ayarlayın. Yalnızca grubun **Dosya** olarak ayarlandığı belge türleri seçim için kullanılabilir. Belge türlerini **Kuruluş yönetimi** &gt; **Belge yönetimi** &gt; **Belge türleri** altından tanımlarsınız. ER hedefleri için yapılandırma, belge yönetim sistemi için yapılandırma ile aynıdır.
 
 [![Belge türleri sayfası](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 
-Konum dosyanın kaydedildiği yeri belirler. **Arşiv** hedefi etkinleştirildikten sonra, yapılandırma yürütme sonuçları İş arşivinde kaydedilebilir. Sonuçları **Kuruluş yönetimi** &gt; **Elektronik raporlama** &gt; **Elektronik raporlama arşivlenmiş işler** içerisinde görebilirsiniz. **Not:** Dynamics 365 for Operations içinde İş arşivi için bir belge türünü **Kuruluş yönetimi** &gt; **Çalışma alanları** &gt; **Elektronik raporlama** &gt; **Elektronik raporlama parametreleri** içerisinde seçebilirsiniz.
+Konum dosyanın kaydedildiği yeri belirler. **Arşiv** hedefi etkinleştirildikten sonra, yapılandırma yürütme sonuçları İş arşivinde kaydedilebilir. Sonuçları **Kuruluş yönetimi** &gt; **Elektronik raporlama** &gt; **Elektronik raporlama arşivlenmiş işler** içerisinde görebilirsiniz. **Not:** Finance and Operations içinde İş arşivi için bir belge türünü **Kuruluş yönetimi** &gt; **Çalışma alanları** &gt; **Elektronik raporlama** &gt; **Elektronik raporlama parametreleri** içerisinde seçebilirsiniz.
 
 #### <a name="sharepoint"></a>SharePoint
 
@@ -119,7 +119,7 @@ Belge türü **Arşiv dizini** olarak ayarlandığında bir dosyayı Azure Depol
 
 ### <a name="power-bi-destination"></a>Power BI hedefi
 
-Verilerinizi Dynamics 365 for Operations kurulumunuzdan Microsoft Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı kullanmak için **Etkin**'i **Evet** olarak ayarlayın. Aktarılan dosyalar bu amaçla yapılandırılmış bir Microsoft SharePoint Server örneği üzerinde depolanmalıdır. Daha fazla bilgi için bkz. [Power BI'ya Dynamics 365 for Operations uygulamasından gelen verileri sağlamak için Elektronik raporlama yapılandırması kullanma](general-electronic-reporting-report-configuration-get-data-powerbi.md). **İpucu:** Varsayılan davranışı geçersiz kılmak amacıyla (bir yapılandırma için iletişim kutusu) ana çıkış bileşeni için bir hedef referansı ve bir dosya hedefi oluşturabilir ve sonra tüm hedefleri devre dışı bırakabilirsiniz.
+Verilerinizi Finance and Operations kurulumunuzdan Microsoft Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı kullanmak için **Etkin**'i **Evet** olarak ayarlayın. Aktarılan dosyalar bu amaçla yapılandırılmış bir Microsoft SharePoint Server örneği üzerinde depolanmalıdır. Daha fazla bilgi için bkz. [Power BI'ya Finance and Operations'dan gelen verileri sağlamak için Elektronik raporlama yapılandırması kullanma](general-electronic-reporting-report-configuration-get-data-powerbi.md). **İpucu:** Varsayılan davranışı geçersiz kılmak amacıyla (bir yapılandırma için iletişim kutusu) ana çıkış bileşeni için bir hedef referansı ve bir dosya hedefi oluşturabilir ve sonra tüm hedefleri devre dışı bırakabilirsiniz.
 
 ## <a name="security-considerations"></a>Güvenlik ile ilgili hususlar
 ER hedefleri için iki tür ayrıcalık ve görev kullanılır. Bir tüzel kişilik için yapılandırılan genel hedefleri koruma özelliğini bir tür denetler (yani, **Elektronik raporlama hedefleri** sayfasına erişimi denetler). Diğer tür çalışma zamanında bir uygulama kullanıcısının ER geliştirici veya ER işlev danışmanı ile yapılandırılan hedef ayarlarını geçersiz kılma yeteneğini denetler.

@@ -3,14 +3,14 @@ title: "Temel tahminde manüel ayarlamalar yapma"
 description: "Bu makalede bir temel tahminde manüel ayarlamalar yapma ve tahminin ayrıntılarını görüntüleme yolları açıklanmıştır."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 00e3d39d93a971dd6d4e88e322a1311eb58d7230
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0b3b56aa838888461a6d27c6612e405a3cf59414
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -46,7 +46,7 @@ Manüel ayarlamalar yapmadan önce, çeşitli sayfalarda bulunan birkaç kavram�
 ## <a name="forecast-aggregation-and-deaggregation"></a>Tahmin toplama ve toplamayı kaldırma
 Sayfanın alt başlığı tahmin toplama düzeyini gösterir. 
 
-Örneğin, sayfanın alt başlığı **Şirket / Tesis / Tahsisat anahtarı / Madde numarası / Renk / Boyut / Yapılandırma / Stil** ise, hiç tahmin toplama yoktur ve tahmin madde ve boyutları düzeyinde gösterilir. Toplamı değiştirmek için, uygulama menüsünden açabileceğiniz**Tahmin boyutlarını değiştir** sayfasını kullanabilirsiniz. 
+Örneğin, sayfanın alt başlığı **Şirket / Tesis / Tahsisat anahtarı / Madde numarası / Renk / Boyut / Yapılandırma / Stil** ise, hiç tahmin toplama yoktur ve tahmin madde ve boyutları düzeyinde gösterilir. Toplamı değiştirmek için, uygulama menüsünden açabileceğiniz **Tahmin boyutlarını değiştir** sayfasını kullanabilirsiniz. 
 
 Tahmini değiştirmek için, kullanılabilen hücrelerden birine tıklayın ve ayarlanmış tahmin değeri yazın. Düzenlenen hücre, gösterilen tahminin talep tahmini hizmetinin oluşturduğu tahmin olmadığını, ancak manüel olarak ayarlandığını gösterecek şekilde kalınlaşır. 
 
@@ -59,7 +59,7 @@ Tahmin edilen miktar ayarlaması toplanmış bir düzeyde yapıldığında, sist
 Ayrıca manüel ayarlamaları **Talep tahmin satırları** sayfasında, toplamı kaldırma kılavuzundaki **Toplam miktar** değerini veya **Miktar** hücrelerini değiştirerek de yapabilirsiniz.
 
 ## <a name="viewing-details-of-the-forecast"></a>Tahminin ayrıntılarını görüntüleme
-Tahmin hakkında daha fazla bilgi görüntülemek için**Talep tahmini ayrıntıları** sayfasını açabilirsiniz. 
+Tahmin hakkında daha fazla bilgi görüntülemek için **Talep tahmini ayrıntıları** sayfasını açabilirsiniz. 
 
 **Talep tahmini ayrıntıları** sayfası aşağıdaki bilgileri grafik ve tablo biçimlerinde gösterir:
 
@@ -73,7 +73,7 @@ Tahmin hakkında daha fazla bilgi görüntülemek için**Talep tahmini ayrıntı
 **Notlar:**
 
 -   Sayfanın **tahmin** bölümünde görülen güven aralığı, güven aralığı üst sınırı ile güven aralığı alt sınırı arasındaki farkı temsil eder. Üst ve alt sınırların değerlerini görmek için, **Grafiksel olarak geçmiş talep ve tahmin** bölümündeki grafikte gezinin.
--   Dynamics 365 for Operations Talep tahmini Microsoft Azure Machine Learning hizmetini kullanırsanız, oluşturulan tahminde olması gereken güven düzeyi yüzdesini belirtebilirsiniz. Güven aralığı talep tahmini için iyi tahminler olarak hareket eden bir değerler aralığından oluşur. Yüzde 95'lik bir güven düzeyi yüzdesi, talep tahmininin güven aralığı sınırlarının dışına çıkma konusunda yüzde 5'lik bir risk bulunduğunu gösterir.
+-   Finance and Operations Talep tahmini Microsoft Azure Machine Learning hizmetini kullanırsanız, oluşturulan tahminde olması gereken güven düzeyi yüzdesini belirtebilirsiniz. Güven aralığı talep tahmini için iyi tahminler olarak hareket eden bir değerler aralığından oluşur. Yüzde 95'lik bir güven düzeyi yüzdesi, talep tahmininin güven aralığı sınırlarının dışına çıkma konusunda yüzde 5'lik bir risk bulunduğunu gösterir.
 
 Manüel ayarlamaları, **Talep tahmini ayrıntıları** sayfasında, **Tahmin** bölümündeki **Tahmin** satırında belirtilen değerleri değiştirerek de yapabilirsiniz.
 
