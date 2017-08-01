@@ -58,7 +58,7 @@ Tüm veya bazı bütçelere karşılık gelen bir *bütçe modeli *tanımlayın.
 > [!NOTE] 
 > Bütçe denetimi kullanılırsa, tek bir bütçe modeli belirli bir bütçe döngüsü zaman aralığıyla ilişkilendirebilirsiniz. 
 
-Kaydedilecek bütçe hareketlerinin ve tüm ilişkili iş akışının tipini tanımlayan *bütçe kodların * oluşturun. Bütçe kodları aşağıdaki bütçe türlerini destekleyebilir:
+Kaydedilecek bütçe hareketlerinin ve tüm ilişkili iş akışının tipini tanımlayan *bütçe kodların* oluşturun. Bütçe kodları aşağıdaki bütçe türlerini destekleyebilir:
 
 -   Orijinal bütçe
 -   Transfer et
@@ -79,7 +79,7 @@ Bütçe Yöneticisi **genel muhasebe bütçeleri ve tahminleri** çalışma alan
 
 **Gerçek - bütçe** sorgulama sayfası bütçeye karşı gerçek tutarları bütçe ayrıntısına olanak sağlar. Sorgulama sayfası üzerinde bir satır seçin ve ardından mali döneme yayılan bütçe ve fiili tutarları görmek için **dönem bakiyeleri**'ni tıklatın. **Bütçe hesabı girişleri** sayfası bütçe kayıt girişlerinde bütçe tutarı ayrıntılarını sağlar. **Genel günlük girişleri** sayfası hesaplanan **gerçek** tutara dahil edilen genel muhasebe hareketlerini açar. 
 
-Bütçe planlama işlevselliği kullanan bir şirket **genel muhasebe bütçeleri ve tahminleri** çalışma alanı içinde *bütçe tahminleri * oluşturabilir ve kullanabilir.
+Bütçe planlama işlevselliği kullanan bir şirket **genel muhasebe bütçeleri ve tahminleri** çalışma alanı içinde *bütçe tahminleri* oluşturabilir ve kullanabilir.
 
 
 
