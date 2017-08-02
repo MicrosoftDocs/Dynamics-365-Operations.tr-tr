@@ -8,11 +8,11 @@
     - name: Yenilikler
       tocHref: /dynamics365/get-started/whats-new/
       topicHref: /dynamics365/get-started/whats-new/index
-    - name: 'Finance and Operations, Enterprise'
+    - name: Finance and Operations Enterprise Edition
       tocHref: /dynamics365/unified-operations/fin-and-ops/
       topicHref: /dynamics365/unified-operations/fin-and-ops/index
       items:
-        - name: Geliştirici ve Yönetici
+        - name: null
           tocHref: /dynamics365/unified-operations/dev-itpro/
           topicHref: /dynamics365/unified-operations/dev-itpro/index
         - name: Financials
