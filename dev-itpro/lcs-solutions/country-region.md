@@ -14,14 +14,13 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: ac77d2d374dc77aa4cf43ae2621b3692e556c9d0
+ms.translationtype: HT
+ms.sourcegitcommit: 9f4b007c174961a8e6794ab532d733584f492758
+ms.openlocfilehash: ead315d2e07818b35dd2806fca7e242f4028be07
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -30,12 +29,12 @@ ms.lasthandoff: 06/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 for Finance and Operations'da, [Ürün bulunabilirliği kılavuzu](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf)'nda belirtilen ülkeler/bölgelere yönelik işlevler bulunur. Bu işlev, etkin tüzel kişiliğin birincil adresi esas alınarak etkinleştirilir. 
+Microsoft Dynamics 365 for Finance and Operations'ta, [Ürün bulunabilirliği kılavuzu](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf)'nda belirtilen ülkeler/bölgelere yönelik işlevler bulunur. Bu işlev, etkin tüzel kişiliğin birincil adresi esas alınarak etkinleştirilir. 
 
 Bu konu, ülkeye/bölgeye özgü işlevler hakkında daha fazla bilgi edinmenize yardımcı olabilecek kaynakların listesini içerir. 
 
 ## <a name="developing-localized-solutions"></a>Yerelleştirilmiş çözümler geliştirme
-Aşağıdaki kaynaklar, ülkeye/bölgeye özgü özelleştirmeler oluşturan veya Microsoft'un desteklemediği bir ülke için çözüm oluşturmuş geliştiricilere ve ISV'lere yardımcı olabilecek kılavuzlar ve bilgiler sunar.
+Aşağıdaki kaynaklar, ülkeye/bölgeye özgü özelleştirmeler veya Microsoft'un desteklemediği bir ülke için çözüm oluşturan geliştiricilere ve ISV'lere yardımcı olabilecek rehberlik ve bilgiler sunar.
 -   [Ayrı yerelleştirme modelleri](separate-localization-models.md)
 -   [Ülke/bölge bağlamı uygulama](apply-country-context.md)
 -   [Mevzuat sertifikaları](regulatory-certifications.md)
@@ -71,7 +70,7 @@ Elektronik raporlama (ER) aracı, elektronik belgelerin biçimini çeşitli ülk
 ## <a name="task-guides"></a>Görev kılavuzları
 Görev kılavuzlarına ürün yardım bölmesinden ulaşılabilir ve bu kılavuzlar temel iş süreçleri için adım adım bir kılavuz sağlar. İş sürecinin adımlarını okumak için bir görev kılavuzunu açabilir veya bir iş sürecinde ve veri girişinde adım adım kılavuzluk için bir görev kılavuzunu oynatabilirsiniz.
 
-Görev kılavuzlarını bulmak için Microsoft Dynamics 365 for Finance and Operations'da bir sayfaya gidin ve Yardım'a tıklayın. Sayfayı kullanan görev kılavuzları yardım bölmesinde listelenir. Ayrıca yardım bölmesini kullanarak görev kılavuzlarını başlığa göre arayabilirsiniz.
+Görev kılavuzlarını bulmak için Microsoft Dynamics 365 for Finance and Operations'ta bir sayfaya gidin ve Yardım'a tıklayın. Sayfayı kullanan görev kılavuzları yardım bölmesinde listelenir. Ayrıca yardım bölmesini kullanarak görev kılavuzlarını başlığa göre arayabilirsiniz.
 
 Daha fazla bilgi için bkz. [Görev kılavuzları](/dynamics365/unified-operations/dev-itpro/get-started/help-overview#task-guides).
 

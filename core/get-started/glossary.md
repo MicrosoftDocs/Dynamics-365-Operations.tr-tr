@@ -1,43 +1,41 @@
 ---
-title: "Dynamics 365 for Operations sözlüğü"
-description: "Microsoft Dynamics 365 for Operations sözlüğü, Dynamics 365 for Operations ürünündeki temel terimleri ve kavramları tanımlar."
+title: "Finance and Operations sözlüğü"
+description: "Bu sözlük Microsoft Dynamics 365 for Finance and Operations Enterprise Edition'daki temel terimleri ve kavramları tanımlar."
 author: tonyafehr
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 07/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 44101
 ms.assetid: d4e01957-69a0-4c92-91c5-4646c8b0cad8
 ms.search.region: Global
 ms.author: tfehr
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4f3015ed4f8dc165d988b2b63ed9ad89d6d6f578
+ms.translationtype: HT
+ms.sourcegitcommit: 84ee9110fa32a551133a6ab4b7c6feb9ea9c017a
+ms.openlocfilehash: 0b4d5285cc1aa44da566ec5d7fa7ebe568729fdf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/08/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Dynamics 365 for Operations sözlüğü
+# <a name="finance-and-operations-glossary"></a>Finance and Operations sözlüğü
 
 [!include[banner](../includes/banner.md)]
 
-
-Microsoft Dynamics 365 for Operations sözlüğü, Dynamics 365 for Operations ürünündeki temel terimleri ve kavramları tanımlar. 
+Bu sözlük Microsoft Dynamics 365 for Finance and Operations Enterprise Edition'daki temel terimleri ve kavramları tanımlar. 
 
 ### <a name="a"></a>**A**
 
 ###### <a name="accounting-journal"></a>**muhasebe günlüğü**
 
-Bir muhasebe sistemindeki muhasebe olaylarının finansal sonuçlarını kaydetmek için kullanılan günlük.
+Muhasebe sistemindeki muhasebe olaylarının mali sonuçlarını kaydetmek için kullanılan günlük.
 
 ###### <a name="accounting-rule"></a>**muhasebe kuralı**
 
@@ -51,17 +49,9 @@ ABD'de kullanılan ve alıcı taraf ile kaynak taraf banka hesapları arasında 
 
 Bir etkinlikte giriş veya çıkış olarak ölçülen miktar.
 
-###### <a name="address-verification-service"></a>**adres doğrulama hizmeti**
+###### <a name="address-verification"></a>**adres doğrulama**
 
-Bir kredi kartı işlemcisi tarafından sunulan ve kart sahibi tarafından verilen fatura adresinin kayıtlı bilgilerle eşleştiğini, kartı veren bankadan doğrulayan hizmet.
-
-###### <a name="adjusted-unit-price"></a>**ayarlanmış birim fiyatı**
-
-Öznitelik tabanlı fiyatlandırmaya ve alınan gerçek kuvvete göre hesaplanan birim fiyat.
-
-###### <a name="advanced-pricing"></a>**gelişmiş fiyatlandırma**
-
-Bir kuvvet maddesinin satınalma fiyatını hesaplamak için kullanılan mantık.
+Bir kredi kartı işlemcisi tarafından sunulan ve kart sahibi tarafından verilen fatura adresinin kartı veren bankadaki kayıtlı bilgilerle eşleştiğini doğrulayan hizmet.
 
 ###### <a name="aging"></a>**yaşlandırma**
 
@@ -101,14 +91,13 @@ En iyi ürün kalitesinin veya özelliğinin elde edilebileceği zaman dilimi.
 
 Üçüncü tarafın talep üzerine ikinci tarafa ödeme yapmasına ilişkin koşulsuz bir isteği belgeleyen kaynak belge.
 
-###### <a name="bill-of-materials"></a>**ürün reçetesi**
-
-Bir ürün üretmek için gereken ürünlerin ve ürün miktarlarının listesi.
-
 ###### <a name="blocking"></a>**durdurma**
 
-Bir belge veya ürünü beklemeye alma eylemi.
+Belgeyi veya ürünü beklemeye alma eylemi.
 
+###### <a name="bom-bill-of-materials"></a>**BOM (ürün reçetesi)**
+
+Bir ürün üretmek için gereken ürünlerin ve ürün miktarlarının listesi.
 ###### <a name="budget-control"></a>**bütçe kontrolü**
 
 Yalnızca gelecekteki ödeme taahhütlerini yerine getirmek üzere bütçe fonları ayrılabileceği zaman harcamaya izin verme uygulaması.
@@ -173,15 +162,7 @@ Ana hesapların listesi.
 
 ###### <a name="cogs-cost-of-goods-sold"></a>**SMM (satılan malların maliyeti)**
 
-Ürünleri imal etme ve stoku taşımanın mali sonuçlarını toplamak için kullanılan bir muhasebe kategorisi.
-
-###### <a name="commodity-pricing"></a>**emtia fiyatlandırma**
-
-Sık fiyat değişikliklerine tabi emtialardan üretilen satış maddelerinin fiyatını güncelleştirmeye yönelik bir fiyat stratejisi.
-
-###### <a name="consolidated-order"></a>**konsolide sipariş**
-
-Birden fazla referans gösterilen siparişi belgeleyen kaynak belge.
+Ürünleri imal etmenin ve stoku taşımanın mali sonuçlarını toplamak için kullanılan bir muhasebe kategorisi.
 
 ###### <a name="contractor"></a>**yüklenici**
 
@@ -194,10 +175,6 @@ Başka bir ürün ile ortaklaşa üretilen bir ürün.
 ###### <a name="cost-center"></a>**maliyet merkezi**
 
 Yöneticilerinin bütçelenmiş ve fiili harcamalardan sorumlu olduğu bir faaliyet birimi.
-
-###### <a name="cost-of-goods-sold"></a>**satılan malların maliyeti**
-
-Ürünleri imal etme ve stoku taşımanın mali sonuçlarını toplamak için kullanılan bir muhasebe kategorisi.
 
 ###### <a name="cost-variance"></a>**maliyet farkı**
 
@@ -217,13 +194,13 @@ Bir para birimini temsil eden alfasayısal tanımlayıcı.
 
 ###### <a name="cycle-time"></a>**döngü süresi**
 
-Bir etkinliği tamamlamak için geçen süre.
+Bir faaliyeti tamamlamak için geçen süre.
 
 ### <a name="d"></a>**D**
 
 ###### <a name="dashboard"></a>**pano**
 
-Microsoft Dynamics 365 for Operations'ın normal başlangıç sayfası. Panoda, kullanıcılar erişimleri olan her çalışma alanına ait bir bölüm görür. Her bölüm ilgili çalışma alanındaki özet bölümlerden kutucuklar gösterir. Pano bir ad ve kutucuklu bölümlerden oluşur.
+Finance and Operations'ın normal başlangıç sayfası. Panoda, kullanıcılar erişimleri olan her çalışma alanına ait bir bölüm görür. Her bölüm ilgili çalışma alanındaki özet bölümlerden kutucuklar gösterir. Pano bir ad ve kutucuklu bölümlerden oluşur.
 
 ###### <a name="data-entity"></a>**veri varlığı**
 
@@ -261,13 +238,9 @@ Model öğelerinizi oluşturmak, güncelleştirmek ve incelemek için kullandı�
 
 Benzersiz şekilde tanımlanabilen bir ürün.
 
-###### <a name="document-blocking"></a>**belge durdurma**
-
-Sipariş edilen maddeler bir kalite güvence sürecindeyken operasyonlar işlemini beklemeye alma yöntemi.
-
 ###### <a name="document-management-system"></a>**belge yönetimi sistemi**
 
-Bir kuruluşun belgelerini saklama ve kullanmaya yönelik bir uygulama hizmeti.
+Kuruluşun belgelerini saklamaya ve kullanmaya yönelik bir uygulama hizmeti.
 
 ###### <a name="duty"></a>**görev**
 
@@ -315,11 +288,7 @@ Başka bir para birimiyle ilgili olarak sabit döviz kuru olan para birimi.
 
 ###### <a name="fixed-quantity-kanban"></a>**sabit miktarlı kanban**
 
-Bir kanban kuralına atanan kanbanların sayısı sabit olduğunda kullanılan kanban türü.
-
-###### <a name="flexible-authentication"></a>**esnek kimlik doğrulama**
-
-Çeşitli kimlik yönetimi sistemlerindeki kullanıcıların kimliklerinin doğrulanabildiği bir kimlik doğrulama işlemi.
+Bir kanban kuralına atanan kanbanların sayısı sabit olduğunda kullanılan bir kanban türü.
 
 ###### <a name="formula"></a>**formül**
 
@@ -379,13 +348,9 @@ Bir kanban tarafından tetiklenen bir üretim akışındaki bir işlem veya tran
 
 Kanban üretim işlerini tamamlamak için ürün bileşenlerinin stoktan geri çekilmesi.
 
-###### <a name="kanban-product-quantity"></a>**kanban ürün miktarı**
-
-Bir kanban kuralına dayalı olarak bir kanbanda sürdürülen madde gerekliliklerinin sayısı.
-
 ###### <a name="kanban-rule"></a>**kanban kuralı**
 
-İşlem ve transfer etkinliklerinin üretim akışlarında nasıl koordine edildiğini denetleyerek materyal planlama ve stok yenileme politikalarını gerçekleştiren bir yalın imalat sistemindeki kural.
+İşlem ve transfer etkinliklerinin üretim akışlarında nasıl koordine edildiğini denetleyerek malzeme planlama ve stok yenileme ilkelerini gerçekleştiren yalın imalat sistemindeki bir kural.
 
 ### <a name="l"></a>**L**
 
@@ -407,13 +372,9 @@ Bir tarafa lisans sözleşmesinde belirtilen şekilde yazılımı veya yazılım
 
 ###### <a name="liquidity"></a>**likidite**
 
-Bir tarafın kısa vadeli borçları kapatmak için mevcut kıymetleri kullanabilmesi.
+Bir tarafın kısa vadeli borçları kapatmak için cari kıymetleri kullanabilmesi.
 
 ### <a name="m"></a>**M**
-
-###### <a name="manufacturing-overhead-based-on-material"></a>**malzemeye dayanan üretim genel gideri**
-
-Üretim genel gideri bir ek talep yüzdesi için dolaylı maliyet hesaplama formülleri olarak ifade edilir. Malzeme bileşenlerine atanan bir maliyet grubu, bir hesaplama formülü için temel görevi görür. Hesaplama formülleri, ürünlere atanan bireysel ürünler veya madde grupları için tanımlanabilir. Böylece malzemeye dayanan üretim genel giderini hesaplamak için daha fazla esneklik sağlar.
 
 ###### <a name="master-scheduling"></a>**master planlama**
 
@@ -459,10 +420,6 @@ Paket, bir veya daha fazla modelin derlenebilir ve dağıtılabilir bir birimidi
 
 ###### <a name="party"></a>**taraf**
 
-Sözleşme ilişkilerine katıldığında yasal olarak bağlayıcı bir rol üstlenen varlık.
-
-###### <a name="party"></a>**taraf**
-
 Ekonomik faaliyetlere katılan bir kişi veya kuruluş.
 
 ###### <a name="pegging"></a>**ilişkilendirme**
@@ -471,11 +428,7 @@ Gerekli bir maddenin miktarını kaynağına kadar izleme işlemi.
 
 ###### <a name="pegging-event"></a>**ilişkilendirme olayı**
 
-Bir ürün için talep uyarısında bulunan bir kaynak akışı olayı.
-
-###### <a name="phantom-item"></a>**hayali madde**
-
-Üretilen ancak stoğu tutulmayan bir madde.
+Bir ürüne olan talebi gösteren bir kaynak akışı olayı.
 
 ###### <a name="planned-intercompany-demand"></a>**planlanan şirketlerarası talep**
 
@@ -489,17 +442,9 @@ Bir ekonomik etkinliğin belirli bir miktardaki parasal değerini kaydetmek veya
 
 Ekonomik kaynaklar için bir istek başlatmak üzere kaynak belge oluşturan kişi.
 
-###### <a name="privilege"></a>**ayrıcalık**
-
-Bir kullanıcının bir görevi gerçekleştirmesi için gereken bir veya daha fazla izin.
-
 ###### <a name="procurement-catalog"></a>**tedarik kataloğu**
 
-Satın alma kategorisine göre gruplandırılan ürün tekliflerinin listesi. Satın alma kataloğu, bir kuruluş tarafından şirket içi kullanıma yönelik ürünler istemek için kullanılır.
-
-###### <a name="product-component"></a>**ürün bileşeni**
-
-Bir ürünün parçası.
+Satın alma kategorisine göre gruplandırılan ürün tekliflerinin listesi. Satın alma kataloğu, bir kuruluş tarafından şirket içi kullanıma yönelik ürünler talep etmek için kullanılır.
 
 ###### <a name="product-dimension"></a>**ürün boyutu**
 
@@ -507,7 +452,7 @@ Boyut tabanlı ürün yapılandırması için kullanılan boyut, renk veya yapı
 
 ###### <a name="product-family"></a>**ürün ailesi**
 
-Aynı üretim veya teslimat etkinliklerine katılan ya da aynı pazar segmentlerine sunulan benzersiz bir ürün, hizmet veya hak gruplaması. Dynamics 365 for Operations'da gruplandırma, tahmin tahsisat anahtarı kullanılarak ifade edilir.
+Aynı üretim veya teslimat faaliyetlerine katılan ya da aynı pazar segmentlerine sunulan ürünler, hizmetler veya hakların benzersiz gruplandırması. Finance and Operations'ta gruplandırma, tahmin tahsisat anahtarı kullanılarak gösterilir.
 
 ###### <a name="product-master"></a>**ana ürün**
 
@@ -579,29 +524,22 @@ Belirli dönemlerde uygulanan kullanıcı tanımlı yüzdelere dayanılarak mast
 
 ###### <a name="register"></a>**kayıt**
 
-Bir muhasebe sistemindeki kaynak akışı olaylarının operasyonel, yasal ve mali sonuçlarını kaydetmek için kullanılan bir kayıt.
-
-###### <a name="regulated-product"></a>**düzenlemeye tabi ürün**
-
-Uyumluluk ve denetim raporlaması gerektiren bir resmi yetkili tarafından düzenlemeye tabi tutulan ürün.
+Muhasebe sistemindeki kaynak akışı olaylarının operasyonel, yasal ve mali sonuçlarını kaydetmek için kullanılan bir kayıt.
 
 ###### <a name="rfq-request-for-quotation"></a>**RFQ (teklif talebi)**
 
-Belirtilen fiyata ve belirtilen tarihte ürün miktarını sağlamak üzere bir ihale davetini belgeleyen kaynak belge.
+Belirtilen ürün miktarını belirli bir fiyattan ve belirli bir tarihte tedarik etmek üzere bir ihale davetini belgeleyen kaynak belge.
 
 ###### <a name="requester"></a>**talep sahibi**
 
 Ekonomik kaynakları talep eden kişi.
 
-###### <a name="restricted-product"></a>**kısıtlanmış ürün**
-
-Dağılımı sınırlı veya bir resmi yetkili tarafından kısıtlanmış bir ürün.
 
 ### <a name="s"></a>**S**
 
 ###### <a name="sales-agreement"></a>**satış sözleşmesi**
 
-Satıcı tarafın uygun fiyatlar ve iskontolar karşılığında belirli bir dönem boyunca belirli bir miktar veya değerde ürünü satmayı taahhüt edeceğine dair bir anlayış temelinde iki veya daha fazla taraf arasındaki anlaşmayı belgeleyen kaynak belge.
+Satıcı tarafın uygun fiyatlar ve iskontolar karşılığında belirli bir dönem boyunca belirli bir miktar veya değerde ürünü satmayı taahhüt edeceğine dair bir anlayış temelinde iki veya daha fazla taraf arasındaki sözleşmeyi belgeleyen kaynak belge.
 
 ###### <a name="sales-agreement-policy"></a>**satış sözleşmesi politikası**
 
@@ -647,13 +585,6 @@ Kaynak belge satırında belgelenen ve bir ilişkilendirme gereksinimi oluştura
 
 Geçmiş hareket verilerine bir tahmin algoritması uygulanarak oluşturulan gelecekteki talep tahmini.
 
-###### <a name="supermarket"></a>**süpermarket**
-
-Sınırlı kapasitesi olan ve malzemeyi bir tüketim noktasının yakınında toplamak için kullanılan "tam zamanında" stok konumu.
-
-###### <a name="system-defined-financial-dimension-type"></a>**sistem tanımlı mali boyut türü**
-
-Bir varlık türünü temsil eden ve değerleri o varlık türünün bir özniteliğinin etki alanında bulunan veritabanındaki bir tablo veya görünüme eşlenmiş bir mali boyut.
 
 ### <a name="t"></a>**T**
 
@@ -663,19 +594,19 @@ Bir birim ürün üretmek için gereken süre.
 
 ###### <a name="task-guide"></a>**Görev kılavuzu**
 
-Görev kaydı adımları yoluyla kontrollü, yönlendirmeli bir deneyim. Görev kılavuzu, kullanıcıyı kayıtlı deneyim boyunca yönlendirir. Görev kılavuzu tamamlanırken tüm güvenlik, veri ve uygulama davranışları, Görev kılavuzu kullanılmadığı durumdaki ile aynıdır. Görev Kılavuzu bir kullanıcının istenen adımı tamamladığını bilmek için Görev kaydedici ile aynı araçları kullanır. Böylece kullanıcıdan kayıtta sonraki adıma geçmesini isteyebilir.
+Görev kaydı adımları yoluyla kontrollü, yönlendirmeli bir deneyim. Görev kılavuzu, kullanıcıyı kayıtlı deneyim boyunca yönlendirir. Görev kılavuzu tamamlanırken tüm güvenlik, veri ve uygulama davranışları, Görev kılavuzu kullanılmadığı durumdaki ile aynıdır. Görev kılavuzu bir kullanıcının istenen adımı tamamladığını bilmek için Görev kaydedici ile aynı araçları kullanır. Böylece kullanıcıdan kayıtta sonraki adıma geçmesini isteyebilir.
 
 ###### <a name="task-recorder"></a>**Görev kaydedici**
 
-Dynamics 365 for Operations'da önceden yüklenmiş bir araç. Bu kaydedici kayıt yaparken, kullanıcının Dynamics 365 for Operations kullanıcı arabiriminde girdiği ve sunucuda yürütülen, eklenen değerler, değiştirilen ayarlar, kaldırılan veriler gibi tüm olayları kaydeder.
+Finance and Operations'ta önceden yüklenmiş bir araç. Bu kaydedici kayıt yaparken, kullanıcının Finance and Operations kullanıcı arabirimine girdiği ve sunucuda yürütülen, eklenen değerler, değiştirilen ayarlar, kaldırılan veriler vb. tüm olayları kaydeder.
 
 ###### <a name="task-recording"></a>**Görev kaydı**
 
-Microsoft Dynamics 365 for Operations'da Görev kaydedici çalıştırıldığında yakalanan eylemleri ve ek açıklamaları içeren bir dosya.
+Finance and Operations'ta Görev kaydedici çalıştırıldığında yakalanan eylemleri ve ek açıklamaları içeren bir dosya.
 
-###### <a name="three-way-matching-policy"></a>**üç yönlü eşleştirme politikası**
+###### <a name="three-way-matching-policy"></a>**üç yönlü eşleştirme ilkesi**
 
-Bir veya birden fazla satınalma siparişi fiyatıyla eşleştirmek için bir veya birden fazla satıcı fatura fiyatı gerektiren ve bir veya birden fazla ürün giriş miktarıyla eşleştirmek için bir veya birden fazla satıcı faturası gerektiren bir eşleştirme politikası.
+Bir veya birden fazla satınalma siparişi fiyatıyla eşleştirmek için bir veya birden fazla satıcı fatura fiyatı gerektiren ve bir veya birden fazla ürün giriş miktarıyla eşleştirmek için bir veya birden fazla satıcı faturası gerektiren bir eşleştirme ilkesi.
 
 ###### <a name="transfer-batch"></a>**transfer toplu işi**
 
@@ -683,19 +614,13 @@ Transfer edilen veya edilebilen bir veya daha fazla madde miktarı.
 
 ###### <a name="two-way-matching-policy"></a>**iki yönlü eşleştirme politikası**
 
-Bir veya birden fazla satınalma siparişi fiyatıyla eşleştirmek için bir veya birden fazla satıcı fatura fiyatı gerektiren bir eşleştirme politikası.
-
-### <a name="u"></a>**U**
-
-###### <a name="user-defined-financial-dimension-type"></a>**kullanıcı tanımlı mali boyut türü**
-
-Kullanıcı tanımlı değerler listesine eşlenen bir mali boyut.
+Bir veya birden fazla satınalma siparişi fiyatıyla eşleştirmek için bir veya birden fazla satıcı fatura fiyatı gerektiren bir eşleştirme ilkesi.
 
 ### <a name="v"></a>**V**
 
 ###### <a name="value-stream"></a>**değer akışı**
 
-Bir veya birden fazla üretim akışını kontrol eden bir faaliyet birimi.
+Bir veya birden fazla üretim akışını denetleyen faaliyet birimi.
 
 ###### <a name="variant-configuration-technology"></a>**çeşit yapılandırma teknolojisi**
 
@@ -726,7 +651,4 @@ Bir personel veya bir yüklenici rolünü üstlenen ve hizmetleri karşılığı
 ###### <a name="workspace"></a>**çalışma alanı**
 
 Kullanıcının gerçekleştirdiği etkinliklerden birinin genel özetini sunan bir sayfa. Bu sayfada; bekleyen işi ve çeşitli kaynaklardan ilgili verileri göstermek için kutucuklar, listeler ve grafikler kullanılır. Sayfa, bu verilerle ilişkili sık kullanılan görevleri açığa çıkarır. Çalışma alanının özet bölümünde gösterilen kutucuklar da panoda ilgili bölümde gösterilir.
-
-
-
 

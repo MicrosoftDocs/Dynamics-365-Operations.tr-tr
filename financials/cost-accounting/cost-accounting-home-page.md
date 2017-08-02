@@ -24,9 +24,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-<a id="cost-accounting-home-page" class="xliff"></a>
-
-# Maliyet muhasebesi ana sayfası
+# <a name="cost-accounting-home-page"></a>Maliyet muhasebesi ana sayfası
 
 [!include[banner](../includes/banner.md)]
 
@@ -49,9 +47,7 @@ Maliyet muhasebesi modülü, aşağıdakileri yapmanıza olanak sağlar:
 -   Çalışma alanında görüntülenebilen ekstreler oluşturun.
 -   Excel kullanarak rapor oluşturun.
 
-<a id="get-started" class="xliff"></a>
-
-## Başlayın
+## <a name="get-started"></a>Başlayın
 
 > [!Video https://www.youtube.com/embed/https://www.youtube.com/embed/1pUDtJQZ8FU]
 
@@ -68,16 +64,12 @@ Maliyet muhasebesini günlük işiniz için nasıl kullanacağınız anlamak iç
 -   [Maliyet nesnesi boyutları](cost-objects.md)
 -   [Maliyet nesneleri oluşturma](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (Görev kılavuzu)
 
-<a id="cost-control-mobile-workspace" class="xliff"></a>
-
-## Maliyet denetimi mobil çalışma alanı
+## <a name="cost-control-mobile-workspace"></a>Maliyet denetimi mobil çalışma alanı
 Maliyet kontrolü mobil çalışma alanı ile, maliyet merkezi yöneticileri, maliyet merkezi performansını her zaman ve her yerde görebilirler.
 
 -   [Maliyet denetimi mobil çalışma alanı](cost-controlling-mobile-workspace.md)
 
-<a id="cost-accounting-analysis-power-bi-content" class="xliff"></a>
-
-## Maliyet muhasebesi analizi Power BI içeriği
+## <a name="cost-accounting-analysis-power-bi-content"></a>Maliyet muhasebesi analizi Power BI içeriği
 Maliyet muhasebesi analizi Microsoft Power BI içeriği, maliyet denetleyicileri veya bir kuruluşun maliyet kontrolünü yapmaktan sorumlu olan herkes için tasarlanmıştır. Bu, maliyet, büyüklük ve gerçek maliyete dayalı maliyet oranı, bütçe maliyeti ve esnek bütçe maliyeti gibi kilit ölçümleri içerir. Finance and Operations içerisindeki hareket verilerini kullanır ve tüm organizasyonun maliyetlerinin toplam görünümünü tek bir raporlama para birimi cinsinden sağlar. Yöneticiler veriyi maliyet nesnelerine dayalı olarak kendi kuruluş birimlerinde maliyet denetimi gerçekleştirmek için filtreleyebilir, kuruluş çok sayıda tüzel varlığa sahip olsa bile.
 
 -   [Maliyet muhasebesi analizi Power BI içeriği](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)

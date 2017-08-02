@@ -1,6 +1,6 @@
 ---
 title: "BI ve raporlama giriş sayfası"
-description: "Bu konuda, Microsoft Dynamics 365 for Finance and Operations'da bulunan BI ve raporlama kaynakları belirtilmektedir."
+description: "Bu konuda, Microsoft Dynamics 365 for Finance and Operations'ta bulunan BI ve raporlama kaynakları belirtilmektedir."
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 745abbfde09bab40f032c13d1b0293e0990a3de3
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 85000ee4507e1d716c6118441d77d94091494f33
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 06/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu konuda, Microsoft Dynamics 365 for Finance and Operations'da bulunan BI ve raporlama kaynakları belirtilmektedir. 
+Bu konuda, Microsoft Dynamics 365 for Finance and Operations'ta bulunan BI ve raporlama kaynakları belirtilmektedir. 
 
 <a name="working-with-aggregate-data"></a>Toplanan verilerle çalışma
 ---------------------------
@@ -48,7 +48,7 @@ Bu konuda, Microsoft Dynamics 365 for Finance and Operations'da bulunan BI ve ra
 -   [Perakende Kanal Performansı Power BI içeriği](retail-channel-performance-dashboard-power-bi-data.md)
 -   [Mali Performans Power BI içeriği](financial-performance-power-bi-content-pack.md)
 -   [Satış ve karlılık performansı Power BI içeriği](sales-profitability-performance-content-pack.md)
--   [Power BI'ya Finance and Operations'dan gelen verileri sağlamak için Elektronik raporlama yapılandırması kullanma](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Power BI'ya Finance and Operations'tan gelen verileri sağlamak için Elektronik raporlama yapılandırması kullanma](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
 ## <a name="building-embedded-analytical-experiences-in-the-finance-and-operations-client"></a>Finance and Operations istemcisinde katıştırılmış analitik deneyimler oluşturma
 -   [Katıştırılmış iş zekası](analytics.md#embedded-business-intelligence)
@@ -72,33 +72,33 @@ Bu konuda, Microsoft Dynamics 365 for Finance and Operations'da bulunan BI ve ra
 -   [Elektronik raporlamada formül tasarımcısı](general-electronic-reporting-formula-designer.md)
 -   [Elektronik raporlama hedefleri](electronic-reporting-destinations.md)
 -   [Lifecycle Services'dan Elektronik raporlama yapılandırmalarını indirme](download-electronic-reporting-configuration-lcs.md)
--   [Power BI'ya Finance and Operations'dan gelen verileri sağlamak için Elektronik raporlama yapılandırması kullanma](general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (Görev kılavuzu)
--   [ER Etki alanına özel veri modeli tasarlama](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (Görev kılavuzu)
--   [ER Model eşleme tanımlama ve veri kaynaklarını seçme](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (Görev kılavuzu)
--   [ER Veri modelini seçili veri kaynaklarıyla eşleme](http://ax.help.dynamics.com/en/wiki/er-map-data-model-to-selected-data-sources/) (Görev kılavuzu)
--   [ER Etki alanına özel biçim tasarlama](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-format/) (Görev kılavuzu)
--   [ER Lifecycle Services'a yapılandırma yükleme](http://ax.help.dynamics.com/en/wiki/upload-a-configuration-into-lifecycle-services/) (Görev kılavuzu)
--   [ER Lifecycle Services'dan bir yapılandırmayı içe aktarma](http://ax.help.dynamics.com/en/wiki/import-a-configuration-from-lifecycle-services/) (Görev kılavuzu)
--   [ER OPENXML biçiminde raporlar oluşturmak için bir yapılandırma tasarlama](http://ax.help.dynamics.com/en/wiki/design-a-configuration-for-generating-reports-in-openxml-format/) (Görev kılavuzu)
--   [ER Hedefleri yapılandırma](http://ax.help.dynamics.com/en/wiki/configure-destinations/) (Görev kılavuzu)
--   [ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 1: Veri modeli tasarlama)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-1-design-data-model/) (Görev kılavuzu)
--   [ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 2: Model eşleme)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-2-model-mapping/) (Görev kılavuzu)
--   [ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 3: Raporu tasarlama)](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-3-design-the-report/) (Görev kılavuzu)
--   [ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 4: Raporu çalıştırma](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-4-run-the-report/) (Görev kılavuzu)
--   [ER Sayım ve toplama işlemlerini yapmak için biçimi yapılandırma (Bölüm 1: Biçim oluşturma)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-1-create-format/) (Görev kılavuzu)
--   [ER Sayım ve toplama işlemlerini yapmak için biçimi yapılandırma (Bölüm 2: Hesaplamaları yapılandırma)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-2-configure-computations/) (Görev kılavuzu)
--   [ER Sayım ve toplama işlemlerini yapmak için biçimi yapılandırma (Bölüm 3: Çıktıyı hazırlamak için işlemleri kullanma)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-3-use-computations-to-make-the-output/) (Görev kılavuzu)
--   [ER Sayım ve toplama işlemlerini yapmak için biçimi yapılandırma (Bölüm 4: Biçimi çalıştırma)](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-4-run-format/) (Görev kılavuzu)
--   [ER Excel raporlarında dinamik olarak sütun eklemek için yatay olarak genişletilebilir aralıkları kullanma (Bölüm 1: Biçimi tasarlama)](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1-design-format/) (Görev kılavuzu)
--   [ER Excel raporlarında dinamik olarak sütun eklemek için yatay olarak genişletilebilir aralıkları kullanma (Bölüm 2: Biçimi çalıştırma)](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-2-run-format/) (Görev kılavuzu)
--   [ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 1: Veri modelini hazırlama)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-1-prepare-data-model/) (Görev kılavuzu)
--   [ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 2: Veri modelini genişletme)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-2-extend-data-model/) (Görev kılavuzu)
--   [ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 3: Biçimi oluşturma)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-3-create-format/) (Görev kılavuzu)
--   [ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 4: Biçimi çalıştırma)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-4-run-format/) (Görev kılavuzu)
--   [ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 5: Biçimi değiştirme ve çalıştırma)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (Görev kılavuzu)
--   [ER Biçim yapılandırması kullanarak ödemeler için elektronik belgeler oluşturma](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/) (Görev kılavuzu)
--   [ER Biçimin yeni bir temel sürümünü benimseyerek biçimi yükseltme](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/) (Görev kılavuzu)
+-   [Power BI'ya Finance and Operations'tan gelen verileri sağlamak için Elektronik raporlama yapılandırması kullanma](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](/dynamics365/unified-operations/do-not-publish/er-configuration-provider-mark-it-active-2016-02) (Görev kılavuzu)
+-   [ER Etki alanına özel veri modeli tasarlama](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-data-model-2016-02-05) (Görev kılavuzu)
+-   [ER Model eşleme tanımlama ve veri kaynaklarını seçme](/dynamics365/unified-operations/do-not-publish/er-define-model-mapping-select-data-sources-2016-02-05) (Görev kılavuzu)
+-   [ER Veri modelini seçili veri kaynaklarıyla eşleme](/dynamics365/unified-operations/do-not-publish/er-map-data-model-selected-data-sources-2016-02-05) (Görev kılavuzu)
+-   [ER Etki alanına özel biçim tasarlama](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-format-2016-02-05) (Görev kılavuzu)
+-   [ER Lifecycle Services'a yapılandırma yükleme](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services) (Görev kılavuzu)
+-   [ER Lifecycle Services'dan bir yapılandırmayı içe aktarma](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services) (Görev kılavuzu)
+-   [ER OPENXML biçiminde raporlar oluşturmak için bir yapılandırma tasarlama](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11) (Görev kılavuzu)
+-   [ER Hedefleri yapılandırma](/dynamics365/unified-operations/do-not-publish/er-destinations-2016-05) (Görev kılavuzu)
+-   [ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 1: Veri modeli tasarlama)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1) (Görev kılavuzu)
+-   [ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 2: Model eşleme)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2) (Görev kılavuzu)
+-   [ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 3: Raporu tasarlama)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3) (Görev kılavuzu)
+-   [ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 4: Raporu çalıştırma)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4) (Görev kılavuzu)
+-   [ER Sayım ve toplama işlemlerini yapmak için biçimi yapılandırma (Bölüm 1: Biçim oluşturma)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-1) (Görev kılavuzu)
+-   [ER Sayım ve toplama işlemlerini yapmak için biçimi yapılandırma (Bölüm 2: Hesaplamaları yapılandırma)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-2) (Görev kılavuzu)
+-   [ER Sayım ve toplama işlemlerini yapmak için biçimi yapılandırma (Bölüm 3: Çıktıyı hazırlamak için işlemleri kullanma)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-3) (Görev kılavuzu)
+-   [ER Sayım ve toplama işlemlerini yapmak için biçimi yapılandırma (Bölüm 4: Biçimi çalıştırma)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-4) (Görev kılavuzu)
+-   [ER Excel raporlarında dinamik olarak sütun eklemek için yatay olarak genişletilebilir aralıkları kullanma (Bölüm 1: Biçimi tasarlama)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-1) (Görev kılavuzu)
+-   [ER Excel raporlarında dinamik olarak sütun eklemek için yatay olarak genişletilebilir aralıkları kullanma (Bölüm 2: Biçimi çalıştırma)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-2) (Görev kılavuzu)
+-   [ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 1: Veri modelini hazırlama)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-1) (Görev kılavuzu)
+-   [ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 2: Veri modelini genişletme)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-2) (Görev kılavuzu)
+-   [ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 3: Biçimi oluşturma)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-3) (Görev kılavuzu)
+-   [ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 4: Biçimi çalıştırma)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-4) (Görev kılavuzu)
+-   [ER Biçim çıktılarında Belge Yönetimi dosyalarını kullanma (Bölüm 5: Biçimi değiştirme ve çalıştırma)](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-5) (Görev kılavuzu)
+-   [ER Biçim yapılandırması kullanarak ödemeler için elektronik belgeler oluşturma](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-electronic-payments) (Görev kılavuzu)
+-   [ER Biçimin yeni bir temel sürümünü benimseyerek biçimi yükseltme](/dynamics365/unified-operations/do-not-publish/er-upgrade-format--2016-05) (Görev kılavuzu)
 
 
 
