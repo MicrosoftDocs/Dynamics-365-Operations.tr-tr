@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: bis
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 4c97f11fa85b8eee54daea8ccaa183859a89fe7f
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 3c3c215dbc64c3b823ab8537b66f72d7d7fdf5c1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -94,6 +94,18 @@ Bir satıcı hesabı ayarladığınızda, bu satıcı ile sahip olduğunuz anla�
 -   **Hiçbir zaman** – Satıcı etkin olmadığı için asla beklemeye alınmaz.
 
 Bir satıcıyı beklemeye aldığınızda, bir sebep, tarih ve beklemeye alma durumunun biteceği bir tarih de belirleyebilirsiniz. Bir bitiş tarihi girmezseniz, satıcının beklemede olma durumu sonsuza kadar sürer.
+
+**Satıcı etkinliğini kaldırma** sayfasındaki kritere dayanarak satıcılar için durdurulma durumunu toplu olarak **Tümü**'ne güncelleştirebilir ve bir satıcının durdurulma sebebini girebilirsiniz.
+
+Aşağıdaki ölçütler, bir süre için etkin olmayan satıcıları dahil etmek, personel olan satıcıları dahil etmek veya dışarıda bırakmak ve bir sonraki durdurulma zamanlarından önce yetkisiz bekleme süresinde olan satıcıları dışarıda bırakmak için kullanılır.
+
+- **Satıcı devre dışı bırakma** sayfası üzerindeki **Etkinlik döneminde** alanına girmiş olduğunuz gün sayısına bağlı olarak, uygulama satıcının etkin değil olarak kabul edilmesi için harekete sahip olabileceği son günü hesaplar. Bu, günün tarihi eksi girmiş olduğunuz günlerin sayısıdır. Tarihin hesaplana son tarihten geç olduğu bir satıcı için bir veya daha fazla fatura mevcutsa, satıcı hesap etkinliğini durdurmadan hariç tutulur. Bu ayrıca satıcı bu tarihten sonra ödemelere, açık satınalma taleplerine, açık satınalma siparişlerine, teklif taleplerine veya yanıtlara sahipse de doğrulanır.
+- **Bir sonraki durdurmadan önceki yetkisiz kullanım süresi** alanı, en son yetkisiz kullanım tarihini hesaplamak için kullanılır. Bu, günün tarihi eksi girmiş olduğunuz günlerdir. Bu, yalnızca önceden devre dışı bırakılmış satıcılar için geçerlidir. Daha önce devre dışı bırakılmış olma durumunda, uygulama satıcı için diğer devre dışı bırakmaların geçmişini doğrular ve son devre dışı bırakmanın en son ek süreden önce oluşup oluşmadığını kontrol eder. Eğer durum böyleyse, satıcı hesabın etkinliğini kaldırma işlemine dahil edilir.
+- **Personelleri dahil et** parametresi, bir personel ile ilişkili olan satıcılar anlamına gelir. Bu personelleri dahil etmek istiyorsanız bunu ayarlayabilirsiniz.
+
+Bu işlem **Satıcı tutma** alanının değerinin **Hiçbir zaman** olduğu satıcıları her zaman dışarıda bırakır.
+
+Doğrulamayı geçen satıcılar beklemeye alınır, bu **Satıcı tutma** alanının değerini **Tümü** ve **Sebep** alanını seçilmiş olana ayarlar. Satıcı için bir beklemede kaydı oluşturulur.
 
 ## <a name="vendor-invoice-account"></a>Satıcı fatura hesabı
 Birden fazla satıcı aynı fatura adresine sahipse veya bir satıcı bir üçüncü taraf üzerinden faturalandırılıyorsa, satıcı kaydında bir fatura hesabı belirtebilirsiniz. Fatura hesabı, satınalma siparişinden bir satıcı faturası oluşturduğunuzda, fatura tutarının alacaklandırılacağı hesaptır. Eğer satıcı kaydında bir fatura hesabı girmezseniz, satıcı hesabı, fatura hesabı olarak kullanılır.

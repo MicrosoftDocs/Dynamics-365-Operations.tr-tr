@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.reviewer: sericks
+ms.search.scope: Operations, UnifiedOperations
 ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 2df0c6dc9b41dde861f5361bfcc1226786e7aa76
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 282973618e56db3feb0103a7021a66d137218a7a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/25/2017
 
 ---
 
@@ -35,28 +35,30 @@ Bu konuda kullanılabilir Microsoft Power BI içeriği listelenmektedir ve bu ko
 Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü Temmuz 2017 güncelleştirmesini kullanıyorsanız, aşağıdaki Power BI içeriğini kullanabilirsiniz:
 
 - [Avantajlar Power BI içeriği](benefits-power-bi.md)
-- [Nakde genel bakış Power BI içeriği](/dynamics365/operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
+- [Nakde genel bakış Power BI içeriği](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 - [CFO'ya genel bakış Power BI içeriği](CFO-power-bi.md)
 - [Ücret Power BI içeriği](compensation-power-bi.md)
 - [Maliyet muhasebesi analizi Power BI içeriği*](cost-accounting-analysis-content-pack.md) 
-- [Kredi ve tahsilatlar yönetimi Power BI içeriği](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [Kredi ve tahsilatlar yönetimi Power BI içeriği](/dynamics365/unified-operations/financials/accounts-receivable/credit-collections-power-bi)
 - [Personel gelişimi Power BI içeriği](employee-development-PBI.md) 
 - [Mali performans Power BI içeriği*](financial-performance-power-bi-content-pack.md)
-- [Sabit kıymet yönetimi Power BI içeriği](/dynamics365/operations/financials/fixed-assets/Fixed-asset-management-workspace)
+- [Sabit kıymet yönetimi Power BI içeriği](/dynamics365/unified-operations/financials/fixed-assets/Fixed-asset-management-workspace)
 - [Öğrenme Power BI içeriği](learning-power-bi.md)
 - [Uygulama yöneticisi Power BI içeriği](practice-manager-power-bi.md)
 - [Üretim performansı Power BI içeriği](production-performance-power-bi.md)
 - [Satınalma harcaması analizi Power BI içeriği](purchase-content-pack-for-power-bi.md) 
 - [İşe alma Power BI içeriği](recruiting-analysis-power-bi-content-pack.md) 
 - [Satış ve karlılık performansı Power BI içeriği](sales-profitability-performance-content-pack.md)
-- [Satıcı ödemeleri Power BI içeriği](/dynamics365/operations/financials/accounts-payable/Vendor-payments-workspace)
+- [Satıcı ödemeleri Power BI içeriği](/dynamics365/unified-operations/financials/accounts-payable/Vendor-payments-workspace)
 - [Ambar performansı Power BI içeriği](warehouse-power-bi-content.md)
 - [İşgücü ölçümleri Power BI içeriği](workforce-analysis-power-bi-content-pack.md)  
 
 ### <a name="accessing-the-content"></a>İçeriğe erişme
 
 #### <a name="embedded-content"></a>Katıştırılmış içerik
-Yıldız işareti (\*) ile işaretlenmiş içerik dışında, yukarıdaki listede belirtilen tüm içerikler bu uygulamaya katıştırılmıştır. Power BI içeriğini nereden görüntüleyebileceğiniz hakkında daha fazla bilgi için bağlantıları tıklayın.
+Yıldız işareti (\*) ile işaretlenmiş içerik dışında, yukarıdaki listede belirtilen tüm içerikler bu uygulamaya katıştırılmıştır. Power BI içeriğini nereden görüntüleyebileceğiniz hakkında daha fazla bilgi için yukarıdaki bağlantıları tıklayın.
+
+Power BI raporlarındaki veriyi görüntülemek için, Varlık deposunu yenilemeyi unutmayın. Daha fazla bilgi için bkz. [Power BI ile Varlık deposu tümleştirmesine genel bakış](power-bi-integration-entity-store.md)'ın *Varlık deposunu güncelleştir* bölümü.
 
 #### <a name="files-available-in-lifecycle-services"></a>Lifecycle Services'da bulunan dosyalar
 Bu Power BI içeriği Microsoft Dynamics Lifecycle Services'taki (LCS) Paylaşılan varlıklar kitaplığında bulunur. İçeriği indirmek ve verilerinize bağlamak hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](power-bi-content-microsoft-partners.md). Power BI içeriğinin nasıl uygulanacağını gösteren bir demo izlemek için bakınız [Microsoft ve Dynamics Lifecycle Services ortaklarınızdan Power BI içeriği](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
@@ -66,7 +68,7 @@ Microsoft Dynamics 365 for Operations, 1611 sürümünü kullanıyorsanız, aşa
 
 - [Ücret ve kazançlar Power BI içeriği](compensation-and-benefits-analysis-power-bi-content-pack.md)   
 - [Maliyet muhasebesi analizi Power BI içeriği](cost-accounting-analysis-content-pack.md) 
-- [Kredi ve tahsilatlar yönetimi Power BI içeriği](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [Kredi ve tahsilatlar yönetimi Power BI içeriği](/dynamics365/unified-operations/financials/accounts-receivable/credit-collections-power-bi)
 - [Personel uzmanlıkları ve gelişim Power BI içeriği](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
 - [Mali performans Power BI içeriği](financial-performance-power-bi-content-pack.md)
 - [Kurumsal eğitim Power BI içeriği](organizational-training-analysis-power-bi-content-pack.md) 

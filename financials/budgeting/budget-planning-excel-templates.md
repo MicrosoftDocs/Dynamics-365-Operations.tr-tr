@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 734c8930f239d8c9d220601bb2103bd55dd5bfd8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,12 +35,18 @@ Bu konu bütçe planlamalarında kullanılabilecek Microsoft Excel şablonların
 Bu konu, standart demo veri kümesi ve Yönetici kullanıcı oturum açma kullanarak bütçe planlamalarında kullanılacak Excel şablonlarının nasıl oluşturulacağını gösterir. Bütçe planlama hakkında daha fazla bilgi için bkz: [Bütçe planlamaya genel bakış.](budget-planning-overview-configuration.md) Ayrıca [Bütçe planlama 101](budget-plan.md) eğitime de temel modül yapılandırması ve kullanım prensipleri için göz atabilirsiniz.
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Bütçe planlama belge şablonu kullanarak bir çalışma sayfası oluşturun
-Bütçe planlama belgeleri bir veya daha fazla düzen kullanılarak görüntülenebilir ve düzenlenebilir. Her düzen, bir Excel çalışma sayfasında bütçe planını görüntülemek ve düzenlemek için ilişkili bir bütçe planlama belgesi şablonuna sahip olabilir. Bu konuda, bir bütçe plan belgesi şablonu, varsayılan düzen yapılandırması kullanılarak oluşturulacaktır. **Bütçe planları listesini** (**Bütçeleme**&gt; **Bütçe planları**) açın. Yeni bir bütçe plan belgesi oluşturmak için **Yeni** üzerine tıklayın. [![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+
+Bütçe planlama belgeleri bir veya daha fazla düzen kullanılarak görüntülenebilir ve düzenlenebilir. Her düzen, bir Excel çalışma sayfasında bütçe planını görüntülemek ve düzenlemek için ilişkili bir bütçe planlama belgesi şablonuna sahip olabilir. Bu konuda, bir bütçe plan belgesi şablonu, varsayılan düzen yapılandırması kullanılarak oluşturulacaktır. 
+
+**Bütçe planları listesini** (**Bütçeleme** &gt; **Bütçe planları**) açın. Yeni bir bütçe plan belgesi oluşturmak için **Yeni** üzerine tıklayın. 
+
+[![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 Satır eklemek için **Ekle** seçeneğini kullanın. Bütçe planı belge düzeni yapılandırmasını görüntülemek için **Düzenler** üzerine tıklayın. 
+
 [![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-Düzen yapılandırmasını gözden geçirebilir ve gerektiği gibi ayarlayabilirsiniz. **Şablon** &gt; **Oluştur** üzerine giderek bu düzen için bir Excel dosyası oluşturun. Şablon oluşturulduktan sonra, **Şablon** &gt; **Görüntüle** üzerine giderek açın ve bütçe planı belge şablonunu görüntüleyin. Excel dosyasını yerel sürücünüze kaydedebilirsiniz. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png) 
+Düzen yapılandırmasını gözden geçirebilir ve gerektiği gibi ayarlayabilirsiniz. **Şablon** &gt; **Oluştur** üzerine giderek bu düzen için bir Excel dosyası oluşturun. Şablon oluşturulduktan sonra, **Şablon** &gt; **Görüntüle** üzerine giderek açın ve bütçe planı belge şablonunu görüntüleyin. Excel dosyasını yerel sürücünüze kaydedebilirsiniz. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > Bütçe planı belgesi düzeni, bir Excel şablonu onunla ilişkilendirilen sonra düzenlenemez. Düzeni değiştirmek için ilişkili Excel şablon dosyasını silin ve onu yeniden oluşturun. Bu, düzendeki ve çalışma sayfasındaki alanları eşit tutmak için gereklidir. 

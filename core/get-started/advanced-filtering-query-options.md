@@ -1,28 +1,28 @@
 ---
 title: "Gelişmiş filtreleme ve sorgu söz dizimi"
-description: "Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusundaki &quot;eşleşmeler&quot; işlecini kullanırken kullanılabilecek filtreleme ve sorgu seçenekleri açıklanmaktadır."
+description: "Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusundaki \"eşleşmeler\" işlecini kullanırken kullanılabilecek filtreleme ve sorgu seçenekleri açıklanmaktadır."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SysQueryForm
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3811
 ms.assetid: b4969b30-2fe1-4a3c-bbea-725dc37c8b60
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 48b2049c3f5025d7e8d3fc7e944aa9360786d18a
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 616366009ce7bf7135704e980becc331617cf5af
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -68,7 +68,7 @@ Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusundaki "eşleşmeler
 <td><em>değerinden</em>..<em>değerine</em> (çift nokta)</td>
 <td>Çift nokta ile ayrılan iki değer arasında</td>
 <td>Başlangıç değerini girin, ardından çift nokta girin ve bitiş değerini girin.</td>
-<td><strong>1..10</strong>, 1 ile 10 arasındaki tüm değerleri bulur. Ancak bir dize alanında <strong>A..C</strong>, &quot;A&quot; ve &quot;B&quot; ile başlayan tüm değerleri ve &quot;C&quot; ile tam olarak eşdeğer olan tüm değerleri bulur. Örneğin, bu sorgu &quot;Ca&quot;'yı bulmayacaktır). &quot;A*&quot; tipinden &quot;C*&quot; tipine tüm değerleri bulmak için <strong>A..D</strong> yazın.</td>
+<td><strong>1..10</strong>, 1 ile 10 arasındaki tüm değerleri bulur. Ancak bir dize alanında <strong>A..C</strong>, &quot;A&quot; ve &quot;B&quot; ile başlayan tüm değerleri ve &quot;C&quot; ile tam olarak eşdeğer olan tüm değerleri bulur. Örneğin, bu sorgu &quot;Ca&quot;'yı bulmayacaktır. &quot;A*&quot; tipinden &quot;C*&quot; tipine tüm değerleri bulmak için <strong>A..D</strong> yazın.</td>
 </tr>
 <tr class="even">
 <td>..<em>değer</em> (çift nokta)</td>
@@ -122,7 +122,7 @@ Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusundaki "eşleşmeler
 <td><em>değer</em>,<em>değer</em> (virgül)</td>
 <td>Virgülle ayrılmış değerlerle eşleşen</td>
 <td>Tüm ölçütlerinizi girin ve virgülle ayırın.</td>
-<td><strong>A, D, F, G</strong>, tam olarak &quot;A&quot;, &quot;D&quot;, &quot;F&quot;, ve &quot;G&quot; değerlerini bulur. <strong>10, 20, 30, 100</strong> tam olarak &quot;10, 20, 30, 100&quot; değerlerini bulur.</td>
+<td><strong>A, D, F, G</strong> tam olarak &quot;A&quot;, &quot;D&quot;, &quot;F&quot; ve &quot;G&quot; değerlerini bulacaktır. <strong>10, 20, 30, 100</strong> tam olarak &quot;10, 20, 30, 100&quot; değerlerini bulacaktır.</td>
 </tr>
 <tr class="odd">
 <td>(<span class="code">SQL deyimi</span>) (parantez içindeki SQL deyimi)</td>

@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0bad513590ec0b0d495664d81f2e5f92e162bdd7
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: dd6f993e5c5fe343c6484383ff097f87f5dbf894
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -44,7 +44,7 @@ Tablo kısıtlamaları, bir ürün yapılandırdığınızda öznitelikler için
 
 ### <a name="example-of-a-table-constraint"></a>Bir tablo kısıtlaması örneği.
 
-Bu örnek, hoparlör yapılandırmasını belirli bir kabin rengi ve ön cephesiyle nasıl sınırlandırabileceğinizi gösterir. İlk tablo, yapılandırma için genelde kullanılabilir olan kabin rengini ve ön cepheyi gösterir. Değerler **Kabin rengi**ve **Izgara rengi** öznitelik türleri için tanımlanır.
+Bu örnek, hoparlör yapılandırmasını belirli bir kabin rengi ve ön cephesiyle nasıl sınırlandırabileceğinizi gösterir. İlk tablo, yapılandırma için genelde kullanılabilir olan kabin rengini ve ön cepheyi gösterir. Değerler **Kabin rengi** ve **Izgara rengi** öznitelik türleri için tanımlanır.
 
 | Öznitelik türü | Değerler                      |
 |----------------|-----------------------------|
@@ -235,7 +235,7 @@ Ayrılmış anahtar sözcükleri, öznitelikleri, bileşenleri veya ürün yapı
 -   Gösterir
 -   Hata İletileri
 -   Maks
--   Minimum
+-   Min.
 -   Eksi
 -   Artı
 -   Güç
@@ -249,9 +249,9 @@ Ayrılmış anahtar sözcükleri, öznitelikleri, bileşenleri veya ürün yapı
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Bir ifade kısıtlaması oluşturma (Görev kılavuzu)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
+[Bir deyim sınırlaması oluşturun (Görev kılavuzu)(/dynamics365/unified-operations/supply-chain/pim/tasks/add-expression-constraint-product-configuration-model)
 
-[Bir ürün yapılandırma modeline hesaplama ekleme (Görev kılavuzu)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+[Bir ürün yapılandırma modeline hesaplama ekleme (Görev kılavuzu)](/dynamics365/unified-operations/supply-chain/pim/tasks/add-calculation-product-configuration-model)
 
 
 

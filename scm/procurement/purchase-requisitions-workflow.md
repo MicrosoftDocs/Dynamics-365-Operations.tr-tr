@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2d28e92fa853d155bc62932625e0e714cdf4edcc
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 95d1d3a34728aab38f77635ae68bea16b08f6587
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -105,12 +105,12 @@ Harcama gözden geçiren yapılandırmalarını tanımlamanız gerekmez. Bunun y
 
 **Satınalma talebi harcama gözden geçirenleri** sayfasında harcama gözden geçirenlerini ayarlayabilirsiniz. Bir harcama gözden geçiren yapılandırması oluşturun ve kuruluşunuzdaki her bir tüzel kişilik için değerler girin. Bir projeye atanan talepler için, talepleri gözden geçirme sorumluluğu olan şu rollerden birini belirtebilirsiniz: Proje yöneticisi, proje denetleyicisi veya Proje satış yöneticisi. Harcamalar belirtilen role atanan kullanıcıya yönlendirilir. **Organizasyon dağıtımları** sekmesinde uygun mali boyut seçeneğini belirleyerek mali boyut sahibine harcama da yönlendirebilirsiniz.  
 
-Bir iş akışında ayarladığınız harcama gözden geçirenlerinin birini kullanmak için, ilgili iş akışı öğesinin**Atamalar** özelliklerinde **Katılımcı türü** seçeneğini**Harcama katılımcıları**  olarak ayarlamanız gerekir.
+Bir iş akışında ayarladığınız harcama gözden geçirenlerinin birini kullanmak için, ilgili iş akışı öğesinin **Atamalar** özelliklerinde **Katılımcı türü** seçeneğini **Harcama katılımcıları**  olarak ayarlamanız gerekir.
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Tüketim için bir talep oluşturma (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Tüketim için bir talep oluşturma (Görev kılavuzu)](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-requisition-consumption)
 
 [Satınalma talepleri için iş süreci iş akışları tanımlama](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 

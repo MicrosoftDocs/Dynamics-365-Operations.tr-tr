@@ -3,25 +3,25 @@ title: "Kaldırılan özellikler"
 description: "Bu konu kaldırılmış veya kaldırılması planlanan özellikleri açıklar."
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 07/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: Operations, Platform
+ms.reviewer: sericks
+ms.search.scope: Operations, Platform, UnifiedOperations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-08-30
+ms.search.validFrom: 2016-08-30T00:00:00.000Z
 ms.dyn365.ops.version: Platform update 6
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
-ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 18274d9ca390ee3d6d463b3a6d67ddc3a39294f8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/16/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -29,9 +29,10 @@ ms.lasthandoff: 06/16/2017
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu kaldırılmış veya kaldırılması planlanan özellikleri açıklar.
+Bu konuda, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'dan kaldırılmış veya kaldırılması planlanan özellikler açıklanmaktadır.
 
-## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Dynamics 365 for Finance and Operations, Enterprise sürümü Temmuz 2017 güncelleştirmesinde kaldırılmış özellikler
+## <a name="features-that-have-been-deprecated-for-all-deployment-types-of-the-july-2017-update-with-platform-update-8"></a>Temmuz 2017 güncelleştirmesi Platform güncelleştirmesi 8 ile tüm dağıtım türleri için kullanım dışı bırakılmış özellikler
+Bu liste, hem bulut hem de şirket içi dağıtımlar için kullanım dışı bırakılmış özellikleri içerir.
 
 ### <a name="warehouse-mobile-devices-portal"></a>Ambar mobil cihazlar portalı
 
@@ -40,7 +41,7 @@ Ambar mobil cihazlar portalı (WMDP), yerinde kendi kedine dağıtım için ama�
 |                                  |                                                 |
 |----------------------------------|-------------------------------------------------|
 | **Kaldırılma nedeni**       | Tekrar eden işlevsellik.                        |
-| **Başka bir özellik ile değiştirildi?** | Evet. Bu özellik Finance and Operations - Ambarlama ile değiştirilmiştir. Kurulum ve önkoşulları hakkında daha fazla bilgi için, bkz. [Microsoft Dynamics 365 for Finance and Operations - Ambarlama için kurulum ve yapılandırma](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Başka bir özellik ile değiştirildi?** | Evet. Bu özellik Finance and Operations - Ambarlama ile değiştirilmiştir. Kurulum ve önkoşulları hakkında daha fazla bilgi için, bkz. [Microsoft Dynamics 365 for Finance and Operations - Ambarlama için kurulum ve yapılandırma](/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
 | **Etkilenen modüller**             | Ambar yönetimi, Taşıma yönetimi |
 
 ### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>El ile eşleştirme için gelişmiş banka mutabakatı eşleştirme kuralı
@@ -62,6 +63,28 @@ Windows 8 tablet uygulaması, gider girişi ve onayı için işlevler sağlardı
 | **Kaldırılma nedeni**       | Finance and Operations tabletlerle uyumludur. Tablet uygulaması artık gerekli değildir. |
 | **Başka bir özellik ile değiştirildi?** | Hayır.                                                                                      |
 | **Etkilenen modüller**             | Gider yönetimi                                                                       |
+
+## <a name="features-that-have-been-deprecated-for-on-premises-deployments-of-the-july-2017-update-with-platform-update-8"></a>Temmuz 2017 güncelleştirmesi Platform güncelleştirmesi 8 ile şirket içi dağıtımlarda kullanım dışı bırakılmış özellikler
+
+### <a name="ssrs-report-viewer-control"></a>SSRS Rapor Görüntüleyici denetimi
+
+Bu özellik, Finance and Operations web istemcisindeki HTML biçimlendirilmiş raporlar ile etkileşim sağlamak için kullanılıyordu.
+
+|                                  |  |
+|----------------------------------|--|
+| **Kaldırılma nedeni**       | SQL Raporlama Servisleri (SSRS) şirket içi web istemcisi ile uyumlu olan bir rapor görüntüleyicisi denetimini desteklemez.      |
+| **Başka bir özellik ile değiştirildi?** | Raporlar şirket içi hizmet tarafından PDF belge olarak işlenir. Uygulama raporlarında katıştırılmış detaylandırma bağlantılarını etkinleştirmek için uzantılar kullanın. |
+| **Etkilenen modüller**             | Tümü    |
+
+### <a name="document-routing-agent"></a>Belge Rota Aracısı
+
+Belge Yönlendirme Aracısı istemcisi, buluttan etki alanı kimlik doğrulamalı ağ yazıcılarına bağlanmak için bir hizmet geçidi olarak kullanılır.
+
+|                                  |  |
+|----------------------------------|--|
+| **Kaldırılma nedeni**       | Şirket içi dağıtımlar etki alanı kimlik doğrulamasına sahip sunucularda barındırılır. Bu, ağ yazıcı cihazlarına güvenli, doğrudan erişim sağlar. |
+| **Başka bir özellik ile değiştirildi?** | Bu bileşen, şirket içi dağıtımlar için gerekli değildir.|
+| **Etkilenen modüller**             | Hiçbiri               |
 
 
 <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Platform güncelleştirmesi 3'e sahip Microsoft Dynamics 365 for Operations 1611 sürümünde kaldırılan özellikler
@@ -488,11 +511,20 @@ Bu araç, anahtar verileri Microsoft Dynamics CRM'den Microsoft Dynamics ERP uyg
 
 Veri bölümleri, Microsoft Dynamics AX veritabanındaki verinin mantıksal bir ayrımını sağlar.
 
-|                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   |   |
+|---|---|
 | Kaldırılma nedeni       | Veri bölümleri, veri yalıtımı sağlamak için Microsoft Dynamics AX 2012 R2'de kullanılmaya başlanmıştır. Yaygın bir senaryoda, bir şirketin bağlı kuruluşları vardır ve her iki bağlı kuruluş da aynı BT departmanı tarafından yönetilseler bile bir bağlı kuruluşun verisinin diğer bağlı kuruluşa görünür olmaması gerekir. Ancak, yeni bölümler oluşturmak, bunları veri ile doldurmak ve bölüm verilerini yedeklemek için ekstra kodlar ve program boyunca genel yönetim giderleri gerekir. Hizmet olarak platform (PaaS) veritabanına (Microsoft Azure SQL veritabanı) erişimimizin olduğu bulutta, veritabanını bir yalıtım konteyneri olarak kullanmak program içinde yalıtmaya göre çok daha etkilidir. Veri bölümlemenin bağlı kuruluşlar, çoklu kiracılar veya yalnızca ölçek için gerekli olup olmadığına bakılmaksızın, senaryoların birden çok veritabanı veya birden çok Dynamics AX kurulumları ile daha iyi işlenebileceğine inanırız. |
-| Başka bir özellik ile değiştirildi? | Veri bölümleri, birden çok veritabanı veya Dynamics AX kurulumları için destek aracılığıyla ileriki bir sürümde değiştirilecektir.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Etkilenen modüller             | Tümü                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Başka bir özellik ile değiştirildi? | Veri bölümleri, birden çok veritabanı veya Dynamics AX kurulumları için destek aracılığıyla ileriki bir sürümde değiştirilecektir.    |
+| Etkilenen modüller             | Tümü  |
+
+### <a name="database-and-file-share-storage-for-attachments"></a>Ekler için veritabanı ve dosya paylaşım depolama
+Microsoft Dynamics AX 2012, eklerin veritabanında ve dosya paylaşımında depolanmasına izin vermekteydi. Bu seçeneklerin her ikisi de artık desteklenmiyor.
+
+|                              |                                        |
+|------------------------------|----------------------------------------|
+| Kaldırılma nedeni       | Dosya paylaşım depolaması, bulutta barındırılan ortamlar yerel dosya paylaşımlarıyla iletişim kuramadığı için artık desteklenmiyor. Veritabanı depolama, Azure Blob depolama kullanıldığından kullanım dışı bırakıldı. Azure Blob depolama, veritabanında depolamaya eşdeğerdir çünkü belgeler yalnızca Dynamics 365 for Finance and Operations istemci formları üzerinden erişilebilir. Bu, veritabanı performansını olumsuz etkilemeyen depolama sağlama faydasını sunar. Blob depolama, Belge Yönetimi için varsayılan mekanizmadır ve hemen çalışır. |
+| Başka bir özellik ile değiştirildi? | Veritabanı depolama, Azure Blob depolama kullanıldığından kullanım dışı bırakıldı.       |
+| Etkilenen modüller             | Tümü                   |
 
 ### <a name="delimitation"></a>Sınırlandırma
 
@@ -525,7 +557,7 @@ Dynamics AX 2012 R3 içerisinde, Perakende Modern POS, Kanal Veritabanına, Kuru
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kaldırılma nedeni       | Yerelleştirilmiş işlevsellik yerine artık genel işlevler kullanılır.                                                                                                                                                                 |
-| Başka bir özellik ile değiştirildi? | Evet, bu işlevin yerini Gelişmiş banka mutabakatı işlevi aldı. Ayrıca, bir sonraki Dynamics AX güncellemesindeki Genel günlük için camt.053 ISO20022 hesap ekstresi içe aktarımının uygulanması planlanıyor. |
+| Başka bir özellik ile değiştirildi? | Evet, bu işlevin yerini Gelişmiş banka mutabakatı işlevi aldı. |
 | Etkilenen modüller             | Tümü                                                                                                                                                                                                                                   |
 
 ### <a name="ebilanz-xbrl-for-germany"></a>eBilanz (Almanya için XBRL)
@@ -577,7 +609,7 @@ Açık provizyon oluşturma, bir toplu iş kullanarak yapılamaz ancak hala bir 
 |                              |                                                                                                                                                                                                                                                                                                |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kaldırılma nedeni       | Biçim, artık tek Euro ödemeleri alan (SEPA) işlevi tarafından değiştirildiğinden, Almanya'da artık geçerli değildir.                                                                                                                                                                 |
-| Başka bir özellik ile değiştirildi? | Evet, bu özelliğin yerini SEPA ödeme dışa aktarma ve hesap ekstrelerini içeri aktarma için gelişmiş banka mutabakatı işlevi aldı. Ayrıca, bir sonraki Dynamics AX güncellemesindeki Genel günlük için camt.053 ISO20022 hesap ekstresi içe aktarımının uygulanması planlanıyor. |
+| Başka bir özellik ile değiştirildi? | Evet, bu özelliğin yerini SEPA ödeme dışa aktarma ve hesap ekstrelerini içeri aktarma için gelişmiş banka mutabakatı işlevi aldı. |
 | Etkilenen modüller             | Tümü                                                                                                                                                                                                                                                                                            |
 
 ### <a name="german-dtazv-payment-format"></a>Alman DTAZV ödeme biçimi
@@ -593,7 +625,7 @@ Açık provizyon oluşturma, bir toplu iş kullanarak yapılamaz ancak hala bir 
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kaldırılma nedeni       | Yerelleştirilmiş işlevsellik yerine artık genel işlevler kullanılır.                                                                                                                                                                 |
-| Başka bir özellik ile değiştirildi? | Evet, bu işlevin yerini Gelişmiş banka mutabakatı işlevi aldı. Ayrıca, bir sonraki Dynamics AX güncellemesindeki Genel günlük için camt.053 ISO20022 hesap ekstresi içe aktarımının uygulanması planlanıyor. |
+| Başka bir özellik ile değiştirildi? | Evet, bu işlevin yerini Gelişmiş banka mutabakatı işlevi aldı. |
 | Etkilenen modüller             | Tümü                                                                                                                                                                                                                                   |
 
 ### <a name="german-xml-eu-sales-list"></a>Alman XML AB Satışlar listesi

@@ -11,19 +11,18 @@ ms.technology:
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
 ms.search.region: Global
 ms.author: josaw
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: ee6d455c44a38d9b3962ca20a5cb28007c19cf1d
-ms.openlocfilehash: e71c2638caccb9a31c5254a3cf68c802808960b9
+ms.translationtype: HT
+ms.sourcegitcommit: e161e25568506c6e64bc52b2fad404b0706024a1
+ms.openlocfilehash: f29df4a12f5fb0587cf4aeb1b223bda2e3dd4152
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/17/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -127,8 +126,6 @@ Görev kayıtlarınızın görev kılavuzları olarak oynatılabilmesi veya meti
 [Yardım'a bağlanma](..\get-started\help-connect.md)
 
 [Görev Kaydedici](task-recorder.md)
-
-[En son eklenen görev kaydedici özellikleri](\core\get-started\recently-added-editing-features-in-task-recorder)
 
 [Görev Kaydediciyle Zengin Yardım Konuları Oluşturma (dış bağlantı)](https://mbspartner.microsoft.com/AX/Videos/970)
 

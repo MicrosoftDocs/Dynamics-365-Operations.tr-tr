@@ -18,13 +18,12 @@ ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: e520c292b7350f332649f23fb4232e7ecd191776
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.translationtype: HT
+ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
+ms.openlocfilehash: 404803c6317b2aeda78de86d4ba11987b2a8cf65
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +34,7 @@ ms.lasthandoff: 06/13/2017
 
 Bu konu, Yalın imalat için geriye dönük maliyetlendirme kavramını tanıtmaktadır. 
 
-Yalın üretim için maliyetlendirme, üretim akışının geriye dönük maliyetlendirme olarak bilinen maliyet biriktirme yöntemini kullanmasına olanak sağlar. Geriye dönük maliyetlendirme yönteminde, doğrudan malzemeler üretim akışının süren iş işlemi (WIP) maliyet hesabında toplanır ve tüketilir. Standart maliyet stok model grubu kullanılır. Üretim akışından alınan ürünler, başlangıç maliyetlerinde WIP'den çıkartılır. Standart maliyet ve geriye dönük maliyetlendirme arasındaki fark, geriye dönük maliyetlendirme için farkların kanban veya tamamlanmış ürün başına hesaplanmamasıdır. Bunun yerine, farklar üretim akışı başına bir dönem üzerinden hesaplanır. Bu yöntem, malzeme tüketimini raporlamak için gerçekten yalın bir kavramı tanıtır. Adanmış çekilen malzeme miktarları bir kanban veya üretim siparişine raporlanmaz. Bunun yerine, tüm toplu işler veya birimler, üretim akışına hazırlanır. Toplu işler veya işleme birimleri boş olarak kaydedildikten sonra, tüketilmiş olarak bildirilirler. Gelişmiş tüketim, [üretim akışının yapılandırmasına](http://ax.help.dynamics.com/en/wiki/lean-manufacturing-modeling-the-lean-organization/) bağlı olarak kullanılabilir. Gelişmiş tüketimin kullanılabilmesi kuruluşların için önce kendilerine üretim akışının süren işi içerisinden malzeme kaybolmasına izin vermeleri gerekir. Periyodik geriye dönük maliyetlendirme, süren işin etkin değerini, dönemin sonunda belirler. Bu belirleme, kanban işleme birimlerini ve kanban iş durumunu temel alır. Maliyet grubu ve madde başına etkin değerler ve gerçek süren iş değerleri arasındaki farklılıklar hesaplanır ve farklar olarak gösterilir.
+Yalın üretim için maliyetlendirme, üretim akışının geriye dönük maliyetlendirme olarak bilinen maliyet biriktirme yöntemini kullanmasına olanak sağlar. Geriye dönük maliyetlendirme yönteminde, doğrudan malzemeler üretim akışının süren iş işlemi (WIP) maliyet hesabında toplanır ve tüketilir. Standart maliyet stok model grubu kullanılır. Üretim akışından alınan ürünler, başlangıç maliyetlerinde WIP'den çıkartılır. Standart maliyet ve geriye dönük maliyetlendirme arasındaki fark, geriye dönük maliyetlendirme için farkların kanban veya tamamlanmış ürün başına hesaplanmamasıdır. Bunun yerine, farklar üretim akışı başına bir dönem üzerinden hesaplanır. Bu yöntem, malzeme tüketimini raporlamak için gerçekten yalın bir kavramı tanıtır. Adanmış çekilen malzeme miktarları bir kanban veya üretim siparişine raporlanmaz. Bunun yerine, tüm toplu işler veya birimler, üretim akışına hazırlanır. Toplu işler veya işleme birimleri boş olarak kaydedildikten sonra, tüketilmiş olarak bildirilirler. Gelişmiş tüketim, [üretim akışının yapılandırmasına](/dynamics365/unified-operations/supply-chain/production-control/lean-manufacturing-modeling-lean-organization) bağlı olarak kullanılabilir. Gelişmiş tüketimin kullanılabilmesi kuruluşların için önce kendilerine üretim akışının süren işi içerisinden malzeme kaybolmasına izin vermeleri gerekir. Periyodik geriye dönük maliyetlendirme, süren işin etkin değerini, dönemin sonunda belirler. Bu belirleme, kanban işleme birimlerini ve kanban iş durumunu temel alır. Maliyet grubu ve madde başına etkin değerler ve gerçek süren iş değerleri arasındaki farklılıklar hesaplanır ve farklar olarak gösterilir.
 
 ## <a name="configuring-backflush-costing"></a>Geriye dönük maliyetlendirme yapılandırması
 Maliyetlendirmeyi etkinleştirmek için aşağıdaki kurulumu tamamlamanız gerekir:

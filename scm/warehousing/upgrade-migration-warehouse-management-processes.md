@@ -15,13 +15,13 @@ ms.custom: 1714054
 ms.assetid: 79a1a3b9-3a36-4162-8839-ec39b5e26602
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 5ab19faddedae8cf61222762714609601b0ae96f
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: cacf48bc10be5c06154816c2f9951ab4bbaee1c1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +35,7 @@ Bu konu Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition i�
 Finance and Operations'a yükseltme sırasında, ayarları Finance and Operations'daki depolama boyutu grubu ayarlarıyla eşleşmeyen bir depolama boyutu grubuyla ilişkilendirilmiş olması durumunda ürünler bloke edilir. Ancak, yükseltmenin ardından, yükseltmek sırasında engellenen ürünlerin engelini kaldırmak için **Maddeler için depolama boyutu grubunu değiştir** işlemindeki geçiş seçenekleri kümesini kullanabilirsiniz. Bu ürünler için hareketleri daha sonra işleyebilirsiniz. Maddelerinizin bazıları zaten Tesis, Ambar ve Yerleşim stok boyutlarının etkin olduğu ve fiziksel olarak takip edildiği depolama boyutu gruplarıyla ilişkilendirilmiş olabilir. Bu durumda, **Maddeler için depolama boyutu grubunu değiştir** işlemini kullanarak bu maddeleri ambar yönetimi işlemlerinde kullanılmak üzere etkinleştirebilirsiniz. Mevcut maddeler için ambar yönetimi işlevlerini kullanmak istiyorsanız, bu özellik yararlıdır.
 
 ## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>AX 2012 R3 WMSII kullanıldığında, Finance and Operations'a yükseltme
-Finance and Operations, artık Microsoft Dynamics AX 2012'deki eski **WMSII** modülünü desteklememektedir. Bunun yerine, yeni **Ambar yönetimi** modülünü kullanabilirsiniz. Daha fazla bilgi için bkz. [Ambar yönetimi ana sayfası](https://ax.help.dynamics.com/en/wiki/warehouse-management/). Önceki sürümlerde, mali stok için Yerleşim ve Palet kodu stok boyutları seçilebilirdi. Bununla birlikte, yükseltme işleminin bir parçası olarak, Paket kodu stok boyutu artık mali stok için etkinleştirilemez. Palet Kodu stok boyutunu kullanan depolama boyut grubuyla ilişkilendirilmiş tüm ürünleri engellenir ve işlenmez.
+Finance and Operations, artık Microsoft Dynamics AX 2012'deki eski **WMSII** modülünü desteklememektedir. Bunun yerine, yeni **Ambar yönetimi** modülünü kullanabilirsiniz. Önceki sürümlerde, mali stok için Yerleşim ve Palet kodu stok boyutları seçilebilirdi. Bununla birlikte, yükseltme işleminin bir parçası olarak, Paket kodu stok boyutu artık mali stok için etkinleştirilemez. Palet Kodu stok boyutunu kullanan depolama boyut grubuyla ilişkilendirilmiş tüm ürünleri engellenir ve işlenmez.
 
 ### <a name="enabling-items-in-finance-and-operations"></a>Finance and Operations'da maddeleri etkinleştirme
 
@@ -70,7 +70,7 @@ Kaynak depolama boyut grupları Palet Kodu stok boyutunu kullanıyorsa, Palet Ko
 1.  En az bir yeni konum profili oluşturun.
 2.  **Ambar yönetimi** &gt; **Kurulum** &gt; **Ambar yönetimi işlemlerini etkinleştir** &gt; **Ambar kurulumunu etkinleştir**'i tıklayın.
 3.  **Ambar kurulumunu etkinleştir** sayfasında, etkinleştirilmesi gereken ambarları ekleyin. Bu adımı doğrudan sayfadan veya Microsoft Office tümleştirme kullanarak gerçekleştirebilirsiniz.
-4.  Tüm yerleşimlere yerleşim profili atayın. Bu adımı kolaylıkla Microsoft Office tümleştirmeyi doğrudan sayfadan kullanarak gerçekleştirebilirsiniz. Verileri dışa veya içe aktarabilir veya [Veri yönetimi](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/) içindeki veri varlığı işlemeyi kullanabilirsiniz.
+4.  Tüm yerleşimlere yerleşim profili atayın. Bu adımı kolaylıkla Microsoft Office tümleştirmeyi doğrudan sayfadan kullanarak gerçekleştirebilirsiniz. Verileri dışa veya içe aktarabilir veya [Veri yönetimi](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities) içindeki veri varlığı işlemeyi kullanabilirsiniz.
 5.  Değişiklikleri doğrulayın. Doğrulama işleminin bir parçası olarak çeşitli veri bütünlüğünü doğrulamaları oluşur. Daha büyük bir yükseltme işleminin bir parçası olarak, oluşan sorunların kaynak uygulamasında düzeltilmesi gerekebilir. Bu durumda, ek veri yükseltme gerekir.
 6.  Değişiklikleri işleyin.
 
@@ -81,7 +81,7 @@ Kaynak depolama boyut grupları Palet Kodu stok boyutunu kullanıyorsa, Palet Ko
 3.  **Rezervasyon hiyerarşisi** sayfasında, maddenin depolama ve izleme boyut gruplarına göre yeni bir ayırma hiyerarşisi tanımlayın.
 4.  En azından maddenin stok birimleri için kullanılanlarla aynı birimleri içeren bir veya daha fazla birim sırası grupları oluşturun.
 5.  **Ambar yönetimi** &gt; **Kurulum** &gt; **Ambar yönetimi işlemlerini etkinleştir** &gt; **Maddeler için depolama boyutu grubunu değiştir**'i tıklayın.
-6.  **Maddeler için depolama boyutu grubunu değiştir** sayfasında madde numaraları, depolama boyut grupları ve birim sıra grupları ekleyin. Bu adımı Microsoft Office tümleştirmesi kullanarak doğrudan sayfa üzerinde veya [Veri yönetimi](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/) içindeki veri varlığı işlemini kullanarak tamamlayabilirsiniz.
+6.  **Maddeler için depolama boyutu grubunu değiştir** sayfasında madde numaraları, depolama boyut grupları ve birim sıra grupları ekleyin. Bu adımı Microsoft Office tümleştirmesi kullanarak doğrudan sayfa üzerinde veya [Veri yönetimi](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities) içindeki veri varlığı işlemini kullanarak tamamlayabilirsiniz.
 7.  Değişiklikleri doğrulayın. Doğrulama işleminin bir parçası olarak çeşitli veri bütünlüğünü doğrulamaları oluşur. Daha büyük bir yükseltme işleminin bir parçası olarak, oluşan sorunların kaynak uygulamasında düzeltilmesi gerekebilir. Bu durumda, ek veri yükseltme gerekir.
 8.  Değişiklikleri işleyin. Stok boyutlarının güncelleştirilmesi biraz zaman alabilir. İlerlemeyi toplu iş görevlerini kullanarak izleyebilirsiniz.
 

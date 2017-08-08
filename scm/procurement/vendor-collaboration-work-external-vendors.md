@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: b0aefc62f2d54da963f03dc74d492260722cd451
-ms.openlocfilehash: aabb8277218895566edada3c74d99c02a83dae1e
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: cbd099403f48b502ca74bcb38ae12decedb8f2da
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/15/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,7 +36,7 @@ Bu konu, satınalma aracılarının satınalma siparişleri ve konsinye stok hak
 
 Satıcıların faturalama işlemlerinde satıcı iş birliğini nasıl kullanacakları hakkında daha fazla bilgi için bkz. [Satıcı iş birliği faturalama çalışma alanı](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). Yeni satıcı iş birliği kullanıcılarını hazırlama hakkında daha fazla bilgi için bkz. [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md).
 
-Satıcıların faturalama işlemlerinde satıcı iş birliğini nasıl kullanacakları hakkında daha fazla bilgi için bkz. [Satıcı iş birliği faturalama çalışma alanı](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
+Satıcıların faturalama işlemlerinde satıcı iş birliğini nasıl kullanacakları hakkında daha fazla bilgi için bkz. [Satıcı iş birliği faturalama çalışma alanı](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
 
 Yeni satıcı iş birliği kullanıcılarını hazırlama hakkında daha fazla bilgi için bkz. [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md).
 
@@ -196,12 +196,16 @@ SS'ler için değişiklik yönetimi etkinleştirildiyse, SS **Onaylandı** durum
 
 Aşağıdaki tablo, değişim yönetimi etkinleştirildiğinde PO'nun geçebileceği durum ve sürüm değişikliklerine bir örnek gösterir: Sürüm, SS satıcıya gönderildiği veya doğrulandığı zaman değil, onaylandığı zaman kaydedilir.
 
-|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Eylem**                                                                                                    | **Durum ve sürüm**                                                                                                                                                                                                                                                                                                                                                                      |
-| SS başlangıç sürümü Finance and Operations uygulamasında oluşturulur.                                      | Durum **Taslak**'tır.                                                                                                                                                                                                                                                                                                                                                                    |
-
-| PO onay işlemine yeniden gönderilir. (Onay işlemi satıcının dahil olmadığı dahili bir işlemdir.) | Satın alma siparişi onay süresinde reddedilmediyse Durum **Taslak**'tan **Onay** için **İncelemede**'ye değiştirilir. Onaylanan PO bir sürüm olarak kaydedilir.                                                                                                                                                                                                                     | | SS satıcıya gönderilir                                                                                  | Satıcı iş birliği arabiriminde sürüm kaydedilir ve durum **Harici İncelemede** olarak değiştirilir.                                                                                                                                                                                                                                                                       | | Satınalma siparişini güncelleştirmek için satıcı tarafından talep edilen bazı değişiklikleri el ile veya yanıttaki eylemi kullanarak yaparsınız.                                                       | Durum tekrar **Taslak** olarak değiştirilir.                                                                                                                                                                                                                                                                                                                                                    | | PO yeniden onay işlemine gönderilir.                                                            | SS onay işlemi sırasında reddedilmediyse, durum **Taslak** yerine **İncelemede** ve **Onay** olarak değiştirilir. Alternatif olarak, sistem belirli alandaki değişikliklerin yeniden onaylanması gerekmez şeklinde yapılandırılabilir. Bu durumda, durum önce **Taslak** olur ve ardından otomatik olarak **Onaylandı** şeklinde güncellenir. Onaylanan PO yeni bir sürüm olarak kaydedilir. | | Satıcıya SS'nin yeni sürümünü gönderirsiniz.                                                             | Satıcı iş birliği arabiriminde yeni sürüm kaydedilir ve durum **Harici İncelemede** olarak değiştirilir.                                                                                                                                                                                                                                                                   | | Satıcı PO'nun yeni sürümünü onaylar.                                                                | Durum otomatik olarak veya satıcıdan yanıt alıp PO'yu onayladığınızda **Onaylandı** olarak değişir.                                                                                                                                                                                                                                                     |
+|                                                                          |                                                                                                                                                              |
+|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Eylem**                                                               | **Durum ve sürüm**                                                                                                                                       |
+| SS başlangıç sürümü Finance and Operations uygulamasında oluşturulur.      | Durum **Taslak**'tır.  |
+| PO onay işlemine yeniden gönderilir. (Onaylama işlemi, satıcının içinde bulunmadığı dahili bir işlemdir.)                                                           | SS onay işlemi sırasında reddedilmediyse, durum **Taslak** yerine **İncelemede** ve **Onay** olarak değiştirilir. Onaylanan PO bir sürüm olarak kaydedilir.           | 
+| SS satıcıya gönderilir                                                            | Sürüm satıcı iş birliği arabiriminde kaydedilir ve durum **Dış İncelemede** olarak değiştirilir.      |
+| Satınalma siparişini güncelleştirmek için satıcı tarafından talep edilen bazı değişiklikleri el ile veya yanıttaki eylemi kullanarak yaparsınız.                                                            | Durum tekrar **Taslak** olarak değiştirilir.     |
+|PO yeniden onay işlemine gönderilir.                                                |  SS onay işlemi sırasında reddedilmediyse, durum **Taslak** yerine **İncelemede** ve **Onay** olarak değiştirilir. Alternatif olarak, sistem belirli alandaki değişikliklerin yeniden onaylanması gerekmez şeklinde yapılandırılabilir. Bu durumda, durum önce **Taslak** olur ve ardından otomatik olarak **Onaylandı** şeklinde güncellenir. Onaylanan PO yeni bir sürüm olarak kaydedilir.                                         |
+|Satıcıya SS'nin yeni sürümünü gönderirsiniz.                                                |  Satıcı iş birliği arabiriminde yeni sürüm kaydedilir ve durum **Dış İncelemede** olarak değiştirilir.                                         |
+|Satıcı PO'nun yeni sürümünü onaylar.                                                |  Durum otomatik olarak veya satıcıdan yanıt alıp PO'yu onayladığınızda **Onaylandı** olarak değişir. |
 
 ## <a name="share-information-about-consignment-inventory"></a>Konsinye stok hakkında bilgileri paylaşma
 Konsinye stok kullanıyorsanız, satıcılar aşağıdaki sayfalarda bilgileri görüntülemek için satıcı iş birliği arabirimi kullanabilir:

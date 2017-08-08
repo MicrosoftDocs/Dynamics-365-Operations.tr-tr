@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 91207e03902fa8a45ab44270cc61b58ef9e3c98c
+ms.translationtype: HT
+ms.sourcegitcommit: 9c083fd26a58e96b3bb810df11eadace184f9dbf
+ms.openlocfilehash: eaa3317acf7df84d06ad3641486df1c096b26a56
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -32,33 +31,31 @@ ms.lasthandoff: 06/20/2017
 
 Bu makale, Microsoft Dynamics 365 for Finance and Operations Yardım sistemi bileşenlerine genel bir bakış sunar. Makalede, kuruluşunuz için özel belgeleri ve eğitimi nasıl sağlayabileceğiniz açıklanmaktadır. 
 
-> [!IMPORTANT] 
-> Aşağıdaki ürünler yakından ilişkilidir: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail ve Dynamics 365 for Talent. Aynı işlev, her 3 üründe de görülebilir. Sonuç olarak, Perakende ile ilişkili olan konularda, ürün adı Dynamics 365 for Retail olacaktır; öncelikli olarak Talent ile ilgili konularda, ürün adı Dynamics 365 for Talent olacaktır ve temel ürünle ilgili konularda, ürün adı Dynamics 365 for Finance and Operations olacaktır. Bir ürün için yazılan konular, ilgili bir üründeki aynı işlev için geçerli olabilir.
-
-Finance and Operations, iki ana bileşeni temel alan bir Yardım sistemi içerir:
-
--   Bir belge sitesi
--   Görev kılavuzları
-
-Aşağıdaki ürünler yakından ilişkilidir: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail ve Dynamics 365 for Talent. Aynı işlev, her 3 üründe de görülebilir. Sonuç olarak, Perakende ile ilişkili olan konularda, ürün adı Dynamics 365 for Retail olacaktır; öncelikli olarak Talent ile ilgili konularda, ürün adı Dynamics 365 for Talent olacaktır ve temel ürünle ilgili konularda, ürün adı Dynamics 365 for Finance and Operations olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir. 
+> [!NOTE] 
+> Aşağıdaki ürünler yakından ilişkilidir: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail ve Dynamics 365 for Talent. Aynı işlev, her 3 üründe de görülebilir. Sonuç olarak, Perakende ile ilişkili olan konularda, ürün adı Dynamics 365 for Retail olacaktır; öncelikli olarak Talent ile ilgili konularda, ürün adı Dynamics 365 for Talent olacaktır ve temel ürünle ilgili konularda, ürün adı Dynamics 365 for Finance and Operations olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
 
 Yardım sistemi tüm Unified Operations ürünleri tarafından paylaşılır:
 - Dynamics 365 for Finance and Operations, Enterprise sürümü
 - Dynamics 365 for Retail
 - Dynamics 365 for Talent
 
+Finance and Operations, iki ana bileşeni temel alan bir Yardım sistemi içerir:
+
+-   Bir belge sitesi
+-   Görev kılavuzları
+
 Her iki yardım konusuna ve görev kılavuzlarına, kullanmakta olduğun ürünün Yarım bölmesinden erişebilirsiniz. Aşağıdaki ekran görüntüsü Dynamics 365 Finance and Operations'u gösterir
 
-![Yardım bölmesi](./media/help-pane-ops-task-guides-1024x741.png)
+![Yardım bölmesi](./media/help-pane-ops-task-guides.png)
 
 Bu konu, Yardım sistemini anlatır ve kuruluşunuz için özel belgeleri ve eğitim kaynaklarını nasıl oluşturabileceğinizi açıklar.
 
 > [!IMPORTANT]
-> **Görev kılavuzları** sekmesi Microsoft Dynamics 365 for Talent ve Microsoft Dynamics 365 for Retail için henüz kullanılabilir değildir. Bu işlevi gelecekteki bir sürümde etkinleştirmek için çalışıyoruz. Başlarken deneyimindeki Görev kılavuzları, temel işlevselliği kapsamak üzere kullanılabilir kalır. Yordamlama yardımı da docs.microsoft.com sitesinde, hem Retail hem Talen için kullanılabilir ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)).
+> **Görev kılavuzları** sekmesi Microsoft Dynamics 365 for Talent ve Microsoft Dynamics 365 for Retail için henüz kullanılabilir değildir. Bu işlevi gelecekteki bir sürümde etkinleştirmek için çalışıyoruz. Başlarken deneyimindeki Görev kılavuzları, temel işlevselliği kapsamak üzere kullanılabilir kalır. Yordamlama yardımı da docs.microsoft.com sitesinde, hem Retail hem Talen için kullanılabilir ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index).
 
 ## <a name="help-on-docsmicrosoftcom"></a>docs.microsoft.com adresindeki yardım
 
-docs.microsoft.com sitesi ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) Finance and Operations için birincil ürün belgelendirme kaynağıdır. Sitede aşağıdaki özellikler sunulmaktadır:
+docs.microsoft.com sitesi ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index)) Finance and Operations için birincil ürün belgelendirme kaynağıdır. Sitede aşağıdaki özellikler sunulmaktadır:
 
 -   **En güncel içeriğe erişim** – Site ürün belgeleri oluşturmak, teslim etmek ve güncelleştirmek için daha hızlı ve daha esnek bir yol sunar. Bu nedenle, en son teknik bilgilerin erişimine sahip olduğunuzdan emin olmaya yardımcı olur.
 -   **Uzmanlar tarafından yazılan içerik** – Site Microsoft'un içindeki ve dışındaki topluluk üyeleri tarafından geliştirilebilecek daha zengin bir ürün belgesi kümesi sağlar.
@@ -68,12 +65,13 @@ docs.microsoft.com sitesi ([docs.microsoft.com/dynamics365/operations](/dynamics
 ### <a name="searching-on-docsmicrosoftcom"></a>docs.microsoft.com adresindeki arama yapmak
 İçeriğimizin nasıl aranabileceği hakkında çok fazla soru alıyoruz. Sitemizde, Finance and Operations hakkında bir sayfadan başlarsanız, aramanızı yalnızca Finance and Operations kapsamına alırız. Bu kapsamayı, arama kutusundaki Operations'ın yanındaki X'e basarak kaldırabilirsiniz. 
 
-![Ara](./media/search-scope.png)
+![Ara](./media/search-scope-2.png)
 
 İçeriği herhangi bir arama motoruyla da bulabilirsiniz. En iyi sonuçları almanız için, site:docs.microsoft.com dynamics 365 "arama terimi" şeklinde site aramasını kullanmanızı öneririz.  
-![Site araması](./media/site-search.png)
 
-![Site araması sonuçları](./media/site-search-results.png)
+![Site araması](./media/site-search-1.png)
+
+![Site araması sonuçları](./media/site-search-results-2.png)
 
 ### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>Unified Operations için docs.microsoft.com içindekiler tablosu
 Tüm ürünler, docs sayfasında tek bir içindekiler tablosunu paylaşırlar ve bu da müşterilerin içinde bulundukları konu hakkındaki bağlamı görmelerine olanak sağlar. Ayrıca, aradığınız konuları bulmak için Filtre denetimini kullanmanıza olanak sağlar.
@@ -105,7 +103,7 @@ Bir Görev kılavuzu size bir görevin veya iş işlemin adımları boyunca yol 
 
 Her bir Unified Operations ürünü için farklı görev kılavuzu kümeleri sağlayacağız. Yardım bölmesindeki Görev kılavuzlarına erişmek bölümü, ürününüz için doğru görev kılavuzlarını bulmayı açıklar. 
 
-![Görev kılavuzu okuma görünümü](./media/task-guide-ops-1024x742.png)
+![Görev kılavuzu okuma görünümü](./media/task-guide-ops.png)
 
 Yönlendirmeli, etkileşimli deneyime başlamak için, Yardım bölmesinin altından **Görev kılavuzunu başlat** seçeneğine tıklayın. Siyah bir işaretçi açılır ve gerçekleştirmek zorunda olduğunuz eylemi gösterir. Kullanıcı arabiriminde görünen yönergeleri izleyin ve verileri yönlendirildiği şekilde girin. 
 ![Görev kılavuzu adım yönergesi](./media/task-guide-step-1-ops.png)
@@ -129,7 +127,7 @@ Kendi görev kayıtlarınızı oluşturabilirsiniz veya Microsoft'un sağladığ
 ## <a name="in-product-help"></a>Ürün içi Yardım
 Finance and Operations'ın içerisinde Yardım içeriğine erişmek için **Yardım** (**?**) simgesine tıklayın ve sonra Yardımı seçin veya Ctrl+Shift+?' tuşlarına basın. Her iki durumda Yardım bölmesi açılır. Yardım bölmesinden, makalelerine veya görev kılavuzlarına ulaşabilirsiniz. 
 
-![Yardım bölmesi](./media/help-pane-wiki-1024x684.png)
+![Yardım bölmesi](./media/help-pane-wiki.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Yardım bölmesinden yardım konularına erişmek
 
@@ -162,7 +160,7 @@ Yardım bölmesinden Görev kılavuzlarına erişmeden önce, bir Sistem yöneti
 
 Bir sistem yöneticisi bu adımları tamamladıktan sonra Yardım bölmesini açıp **Görev kılavuzları** sekmesine tıklayabilirsiniz. Finance and Operations'ta o anda bulunduğunuz sayfayla ilgili Görev kılavuzlarını görürsünüz. Görev kılavuzları bulunamadıysa, anahtar sözcükler girerek aramanızı daraltabilirsiniz. Yardım bölmesinde bir Görev kılavuzuna tıkladığınız zaman, Yardım bölmesi adım adım talimatları gösterir ve siz de görev kılavuzunu oynatabilirsiniz. 
 
-![Görev kılavuzu okuma görünümü](./media/task-guide-ops-1024x742.png)
+![Görev kılavuzu okuma görünümü](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides"></a>Çevrilmiş Görev kılavuzları nerededir?
 

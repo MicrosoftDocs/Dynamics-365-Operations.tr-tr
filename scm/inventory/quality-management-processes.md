@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConformanceTable, InventQualityOrderLineResults, InventQualityOrderTable, InventTestCorrection, InventTestDiagnosticType, InventTestInstrument, InventTestReportSetup, InventTestTable
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11574
 ms.assetid: 5ac8a059-5cb4-4cb5-ba14-b944bd08dae9
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2d0af259fd6da8a57bada919f44a2902d9a5854d
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 31a9141feea56f1c8c1ba5fde446181c157953ad
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -56,7 +56,7 @@ Kalite yönetimi sürecinin kontrol edebilmeniz için bazı yollar şunlardır:
 -   Bir kalite emri dahilindeki test sonuçlarını kaydedin, test sonuçlarını AQL ile karşılaştırarak doğrulayın ve test sonuçlarını görüntüleyen bir analiz sertifikası yazdırın.
 
 ## <a name="nonconformance"></a>Uyumsuzluk
-Uygunsuzluk, bir öğenin bir kalite problemine sahip olduğunu açıklar. Uygunsuzluk işlemi, malzemenin miktarını problem kaynağını, problem tipini ve açıklayıcı notları tanımlayan bir uyumsuzluk emri oluşturmanıza izin verir. Uygunsuz malzemenin analizini kolaylaştırmak üzere problem tiplerine yönelik bir sınıflandırmayı tanımlayabilirsiniz. Uygunsuzluk etiketi ve uygunsuz malzeme düzenlemeye kılavuzluk etmek için bir uygunsuzluk raporu da yazdırabilirsiniz. Örneğin, etiket ve rapor**Kullanılamaz** veya **sınırlı kullanım** koşulu belirtebilir. 
+Uygunsuzluk, bir öğenin bir kalite problemine sahip olduğunu açıklar. Uygunsuzluk işlemi, malzemenin miktarını problem kaynağını, problem tipini ve açıklayıcı notları tanımlayan bir uyumsuzluk emri oluşturmanıza izin verir. Uygunsuz malzemenin analizini kolaylaştırmak üzere problem tiplerine yönelik bir sınıflandırmayı tanımlayabilirsiniz. Uygunsuzluk etiketi ve uygunsuz malzeme düzenlemeye kılavuzluk etmek için bir uygunsuzluk raporu da yazdırabilirsiniz. Örneğin, etiket ve rapor **Kullanılamaz** veya **sınırlı kullanım** koşulu belirtebilir. 
 
 Aşağıdaki tabloda, altı varsayılan uygunsuzluk türlerini listeler ve her türü için kaydedilmesi gereken bilgiler açıklanır.
 
@@ -100,9 +100,9 @@ Uygunsuzluk raporu, uygunsuzluk numarası, madde ve sorun türünü görüntüle
 
 [Karantina emirleri](quarantine-orders.md)
 
-[Kalite emirleri ayarlama (görev kılavuzu)](http://ax.help.dynamics.com/en/wiki/set-up-quality-orders/)
+[Kalite emirleri ayarlama (Görev kılavuzu)](/dynamics365/unified-operations/supply-chain/inventory/tasks/set-up-quality-orders)
 
-[Malların kalitesini denetle (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+[Malların kalitesini denetle (Görev kılavuzu)](/dynamics365/unified-operations/supply-chain/inventory/tasks/inspect-quality-goods)
 
 
 

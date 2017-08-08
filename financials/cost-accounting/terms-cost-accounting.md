@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 35b8e510e7e2c13aebb73f46d20b16275d097432
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 1f12e8e82430c79ee93f2284e5fdf47ac559525d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -121,9 +121,13 @@ Maliyet davranışı, temel iş faaliyetlerindeki değişiklikler ile ilişkili 
 -   Vergiler
 -   Yardımcı hizmetlerin maliyetleri
 
+**Maliyet dağılımı**
+
+Maliyet dağıtımı, bir nesneden bir veya daha fazlasına ilgili tahsisat tabanı uygulayarak maliyeti yeniden dağıtmak için kullanılır. Maliyet dağıtımı ve maliyet tahsisatı, maliyet dağıtımının her zaman orijinal maliyetin birincil maliyet öğesinde bulunmasıyla farklılık gösterir.
+
 **Maliyet tahsisatı**
 
-Maliyet tahsisatı, ortak maliyetleri kök nedenlerine göre atama ve tahsis etme işlemidir. Maliyet tutarlarını ve miktarlarını bir maliyet nesnesinden bir veya birden çok maliyet nesnesine tahsis edersiniz. Örneğin, tüm tesis hizmetleri maliyetleri, ortak ofis binasını kullanan çeşitli departmanlara tahsis edilir.
+Tahsisat, bir tahsisat tabanı kullanarak bir maliyet nesnesinin diğer maliyet nesnelerine bakiyesini tahsis eder. Finance and Operations karşılıklı tahsisat yöntemin destekler. Karşılıklı tahsisat yönteminde, yardımcı maliyet nesnelerinin değiştiği karşılıklı hizmetler tümüyle tanınır. Sistem, tahsisatların doğru gerçekleştireceği sırayı otomatik olarak belirler. Bir maliyet nesnesinin bakiyesi tek bir tahsisat tabanı tarafından tahsis edilir. Yeni maliyet nesnesi boyutları arasındaki tahsisatlar ve onların üyeleri desteklenir. Tahsisatın sırası, maliyet kontrol birimi tarafından kontrol edilir.
 
 **Maliyet tahsisatı ilkesi**
 

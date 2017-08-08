@@ -16,13 +16,12 @@ ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
-ms.search.validFrom: 2017-02-28
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 663a03dc37cc1631bd285a76ef564993a34ed057
+ms.search.validFrom: 2017-02-28T00:00:00.000Z
+ms.translationtype: HT
+ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
+ms.openlocfilehash: 8674a237878d4358c7f9ce4d4dfcace302536063
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -117,7 +116,7 @@ Aşağıdaki tablo, Microsoft ve özel mobil çalışma alanlarından sağlanan 
 <td>Mobil çerçeveyi, özel mobil çalışma alanları oluşturmak için kullanın.</td>
 <td><ul>
 <li><a href="mobile-platform.md">Mobil çerçeve</a></li>
-<li><a href="http://ax.help.dynamics.com/en/wiki/operations-mobile-workspace-x-apis/">Çalışma alanı X++ API'ları</a></li>
+<li><a href="mobile-workspace-xpp-apis.md">Çalışma alanı X++ API'ları</a></li>
 </ul></td>
 </tr>
 <tr class="odd">
