@@ -1,5 +1,5 @@
 ---
-title: "Avrupa için vergi yönergeleri | Microsoft Docs"
+title: "Avrupa için vergi yönergeleri"
 description: "Satış faturalarına ve proje faturalarına satış vergisi kodu açıklaması eklemeyi seçebilirsiniz. Satış faturalarına, serbest metin faturalarına ve proje faturalarına referans numaraları yazdırabilirsiniz."
 author: epodkolz
 manager: AnnBe
@@ -13,13 +13,13 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Latvia, Lithuania, Netherlands, Norway, Poland, Spain, Sweden, Switzerland, Turkey, United Kingdom
 ms.author: epodkolz
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a0edbad63c51d111d7c8985aa7fdf7312da6149d
-ms.openlocfilehash: ba407a8def0cb44caa9c67a7d8dcbb9db582c261
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 004a1c240bdf4d8bfb46d39fdc6090a17ba882d9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 

@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 268124
 ms.assetid: f78d5836-3e71-42b7-a5d1-41f19228d9d2
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 61548f2e308781e8329ca3cd26c3e6502d2f92c9
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 017985645e0f77e7f269fce2932c0ec0f6eaaa1c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -45,7 +45,7 @@ Rota, bir ürünü veya ürün çeşidini üretmek için gereken operasyonların
 -   **Rota sürümü** – bir ürünü veya ürün çeşidini üretmek için kullanılan rotayı tanımlar. Rota sürümleri rotaların farklı ürünlerde yeniden kullanılabilmesini veya zamanla değişebilmesini sağlar. Sürümler aynı ürünü üretmek için farklı rotaların kullanılabilmesini de sağlar. Bu durumda, kullanılan rota, lokasyon veya üretilmesi gereken miktar gibi etkenlere bağlı olarak değişir.
 
 ## <a name="routes"></a>Rotalar
-Rota, bir ürünü veya ürün çeşidini üretmek için kullanılan operasyonların sırasını açıklar. Her operasyona bir operasyon numarası ve bir ardıl operasyon atanır. Operasyonların sırası bir veya birden fazla başlangıç noktası ve tek bir bitiş noktası olan yönlü bir grafikle temsil edilebilen bir rota ağı oluşturur. Dynamics 365 for Finance and Operations'ta rotalar yapı türüne göre ayrılır. İki tür, basit rotalar ve rota ağlarıdır. Üretim denetim parametrelerinde yalnızca basit rotalar veya daha karmaşık rota ağları kullanılıp kullanılamayacağını belirtebilirsiniz.
+Rota, bir ürünü veya ürün çeşidini üretmek için kullanılan operasyonların sırasını açıklar. Her operasyona bir operasyon numarası ve bir ardıl operasyon atanır. Operasyonların sırası bir veya birden fazla başlangıç noktası ve tek bir bitiş noktası olan yönlü bir grafikle temsil edilebilen bir rota ağı oluşturur. Finance and Operations'ta rotalar yapı türüne göre ayrılır. İki tür, basit rotalar ve rota ağlarıdır. Üretim denetim parametrelerinde yalnızca basit rotalar veya daha karmaşık rota ağları kullanılıp kullanılamayacağını belirtebilirsiniz.
 
 ### <a name="simple-routes"></a>Basit rotalar
 
@@ -87,8 +87,8 @@ Her rota ayrı olarak onaylanabilir veya onayı kaldırılabilir. Bununla birlik
 
 Her rotanın onaylayanının kaydedildiği bir günlük tutmanız gerekiyorsa, rota onayı için elektronik imzalar isteyebilirsiniz. Bu durumda kullanıcılar bir [elektronik imza](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview) kullanarak kimliklerini onaylatmak zorundadır.
 
-## <a name="operations"></a>İşlemler
-Operasyon üretim sürecindeki bir adıma karşılık gelir. Dynamics 365 for Finance and Operations'ta her operasyonun bir kodu ve basit bir açıklaması vardır. Aşağıdaki tablolarda, bir atölyeye ait tipik operasyon örnekleri gösterilmektedir.
+## <a name="operations"></a>Operations
+Operasyon üretim sürecindeki bir adıma karşılık gelir. Finance and Operations'ta her operasyonun bir kodu ve basit bir açıklaması vardır. Aşağıdaki tablolarda, bir atölyeye ait tipik operasyon örnekleri gösterilmektedir.
 
 | Operasyon  | Açıklama        |
 |------------|--------------------|
@@ -128,7 +128,7 @@ Operasyon ilişkileri, rotaları tanımlarken size çok esneklik sağlar. Ayrıc
 
 ### <a name="modifying-product-specific-routes"></a>Ürüne özgü rotalarda değişiklik
 
-**Serbest bırakılan ürün ayrıntıları** sayfasından **Rota** sayfasını açtığınız zaman, seçili serbest bırakılan ürünle ilişkili rota sürümleri gösterilir. Bu bağlamda Dynamics 365 for Finance and Operations, her operasyon için, rota sürümüyle en iyi eşleşen operasyon ilişkisinden operasyonel özellikleri gösterir. Operasyon ilişkisindeki **Madde kodu** ve **Rota kodu** özelliklerini içeren operasyonlar listesini göreceksiniz. Bu sayede, hangi operasyon ilişkisinin gösterildiğini belirleyebilirsiniz.  
+**Serbest bırakılan ürün ayrıntıları** sayfasından **Rota** sayfasını açtığınız zaman, seçili serbest bırakılan ürünle ilişkili rota sürümleri gösterilir. Bu bağlamda Finance and Operations, her operasyon için, rota sürümüyle en iyi eşleşen operasyon ilişkisinden operasyonel özellikleri gösterir. Operasyon ilişkisindeki **Madde kodu** ve **Rota kodu** özelliklerini içeren operasyonlar listesini göreceksiniz. Bu sayede, hangi operasyon ilişkisinin gösterildiğini belirleyebilirsiniz.  
 
 **Rota** sayfasında, operasyonun çalışma süresi veya maliyet kategorileri gibi operasyonel özelliklerinde değişiklik yapabilirsiniz. Değişiklikleriniz, geçerli rota sürümünde gösterilen rotaya ve serbest bırakılan ürüne özgü operasyon ilişkisinde depolanır. Gösterilen operasyon ilişkisi rotaya ve serbest bırakılan ürüne özgü değilse, değişiklikleriniz depolanmadan önce sistem o operasyon ilişkisinin bir kopyasını oluşturur. Bu kopya o rota ve serbest bırakılan ürüne *özgüdür*. Bu sayede, yaptığınız değişiklikler diğer rotaları veya serbest bırakılan ürünleri etkilemez. **Rota** sayfasında değişiklik yapılmakta olan operasyonun hangisi olduğunu doğrulamak için **Madde kodu** ve **Rota kodu** alanlarına bakın.  
 
@@ -150,9 +150,9 @@ Rotaya ve serbest bırakılan ürüne özgü bir operasyonu **İlişkiyi kopyala
 
 ### <a name="applying-operation-relations"></a>Operasyon ilişkilerini uygulama
 
-Bazı durumlarda, Dynamics 365 for Finance and Operations'ın bir operasyonun operasyonel özelliklerini bulması gerekir. Örneğin, bir satınalma siparişi oluşturulduğunda, her operasyonun operasyonel özellikleri operasyon ilişkilerinden üretim rotasına kopyalanmalıdır. Böyle durumlarda, Finance and Operations ilgili operasyon ilişkilerini en spesifik kombinasyondan en az spesifik kombinasyona doğru arar.  
+Bazı durumlarda, Finance and Operations'ın bir operasyonun operasyonel özelliklerini bulması gerekir. Örneğin, bir satınalma siparişi oluşturulduğunda, her operasyonun operasyonel özellikleri operasyon ilişkilerinden üretim rotasına kopyalanmalıdır. Böyle durumlarda, Finance and Operations ilgili operasyon ilişkilerini en spesifik kombinasyondan en az spesifik kombinasyona doğru arar.  
 
-Dynamics 365 for Finance and Operations, serbest bırakılan bir ürün için en uygun operasyon ilişkisini arar ve bu aramada, serbest bırakılan ürünün madde koduyla eşleşen bir operasyon ilişkisi, madde grubu koduyla eşleşen bir operasyon ilişkisine tercih edilir. Buna karşılık, madde grubu koduyla eşleşen bir operasyon ilişkisi, varsayılan operasyon ilişkisine tercih edilir. Arama aşağıdaki sıraya göre yapılır:
+Finance and Operations, serbest bırakılan bir ürün için en uygun operasyon ilişkisini arar ve bu aramada, serbest bırakılan ürünün madde koduyla eşleşen bir operasyon ilişkisi, madde grubu koduyla eşleşen bir operasyon ilişkisine tercih edilir. Buna karşılık, madde grubu koduyla eşleşen bir operasyon ilişkisi, varsayılan operasyon ilişkisine tercih edilir. Arama aşağıdaki sıraya göre yapılır:
 
 1.  **Madde kodu**=**Tablo** ve **Madde ilişkisi**=&lt;madde kodu&gt;
 2.  **Madde kodu**=**Grup** ve **Madde ilişkisi**=&lt;madde grubu kodu&gt;
@@ -199,7 +199,7 @@ Yeni veya değiştirilmiş rotaları ve rota sürümlerini onaylamak ve etkinle�
 
 ### <a name="making-routes-independent-of-resources"></a>Kaynaklardan bağımsız rota yapma
 
-Birçok sistemde, bir operasyonu gerçekleştirmesi gereken operasyon kaynaklarının veya kaynak grubunun rotada belirtilmesi gerekir. Bununla birlikte, Dynamics 365 for Finance and Operations'ta bir operasyon kaynağının operasyona uygun olması için karşılaması gereken bir dizi gereksinimi tanımlayabilirsiniz. Bu nedenle, kullanılması gereken belirli operasyon kaynaklarının veya kaynak grubunun, operasyon fiilen planlanana kadar belirlenmesine gerek yoktur. Bu işlevsellik, özellikle, aynı operasyonu gerçekleştirebilecek birçok çalışan veya makineye sahip olduğunuzda yararlıdır.  
+Birçok sistemde, bir operasyonu gerçekleştirmesi gereken operasyon kaynaklarının veya kaynak grubunun rotada belirtilmesi gerekir. Bununla birlikte, Finance and Operations'ta bir operasyon kaynağının operasyona uygun olması için karşılaması gereken bir dizi gereksinimi tanımlayabilirsiniz. Bu nedenle, kullanılması gereken belirli operasyon kaynaklarının veya kaynak grubunun, operasyon fiilen planlanana kadar belirlenmesine gerek yoktur. Bu işlevsellik, özellikle, aynı operasyonu gerçekleştirebilecek birçok çalışan veya makineye sahip olduğunuzda yararlıdır.  
 
 Örneğin bir operasyon için 20 tonluk **Damgalama** kapasiteli **Makine** tipinde bir operasyon kaynağı gerektiğini belirtiyorsunuz. Planlama altyapısı, operasyon planlanırken bu gereksinimleri belirli bir operasyon kaynağına veya kaynak grubuna bağlar. İşlemi belirli bir makineye bağlamak yerine yalnızca bu gereksinimleri belirtebildiğiniz için daha fazla esneklik elde edersiniz. Ayrıca, kaynaklar taşınırken veya yeni kaynaklar eklenirken yönetim daha kolay hale gelir.  
 

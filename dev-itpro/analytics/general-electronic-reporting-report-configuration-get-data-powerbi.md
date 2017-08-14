@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 36c5e78f4b85d0c763c35b62a6592365501db325
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 6be91dfc02b728ffdf0f9d3baf1d41d3d2c10fea
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -103,7 +103,7 @@ Yeni hedef kaydı için **Ayarlar** düğmesine tıklayın. Daha sonra, **Hedef 
 **Yapılandırmalar** sayfasında (**Organizasyon yönetimi** &gt; **Elektronik raporlama** &gt; **Yapılandırmalar**), yapılandırmalar ağacından önceden oluşturduğunuz **İçe aktarma / dışa aktarma etkinlikleri** yapılandırmasını seçin. 1.1 sürümünün durumunu **Taslak**'tan **Tamamlandı** olarak değiştirerek bu biçimi kullanılabilir hale getirin. [![Yapılandırmalar sayfası](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) **İçe aktarma / dışa aktarma etkinlikleri** yapılandırmasının tamamlanmış sürümünü seçin ve **Çalıştır**'a tıklayın. Yapılandırılan hedefin Excel biçiminde üretilen çıktı sonucuna uygulandığına dikkat edin. Bu raporu katılımsız modda çalıştırmak için **Toplu işleme** seçeneğini **Evet** olarak ayarlayın. Bu toplu iş yürütmesinin gerekli yinelemelerini planlamak için **Tekrar**'a tıklayın. Yineleme, güncelleştirilen verilerin Finance and Operations uygulamasından Power BI'ya ne kadar sıklıkla aktarılacağını belirler. [![Elektronik rapor parametreleri iletişim kutusu](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) Yapılandırıldıktan sonra, ER raporu yürütme işini **Toplu işler** sayfasında (**Sistem yönetimi &gt; Sorgulamalar &gt; Toplu işler**) bulabilirsiniz. [![Toplu işler sayfası](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png) Bu iş ilk kez çalıştırıldığında hedef, seçili SharePoint klasöründe yapılandırılan ada sahip yeni bir Excel dosyası oluşturur. İşin sonraki her çalıştırılmasında, hedef bu Excel dosyasının yeni bir sürümünü oluşturur. [![Excel dosyasının yeni sürümü](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>ER biçiminin çıktı sonucunu kullanarak bir Power BI veri kümesi oluşturma
-Power BI'da oturum açın ve var olan bir Power BI grubunu (çalışma alanı) açın veya yeni bir grup oluşturun. **İçe Aktarma veya Verilere Bağlanma** bölümünde, **Dosyalar** altında **Ekle**'ye tıklayın veya sol bölmede **Veri kümeleri**'nin yanındaki artı işaretine (**+**) tıklayın. [![Bir veri seti oluşturmak](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) **SharePoint – Ekip siteleri** seçeneğini belirleyin ve kullandığınız SharePoint Server yolunu girin (örneğimizde **https://ax7partner.spoppe.com**). Daha sonra **/Shared Documents/GER data/PowerBI** klasörüne gidin ve yeni Power BI veri kümesinin veri kaynağı olarak oluşturduğunuz Excel dosyasını seçin. [![Excel dosyasını seçmek](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) **Bağlan**'ı tıklatın ve sonra **İçe aktarma**'yı tıklatın. Seçili Excel dosyasını temel alan yeni bir veri kümesi oluşturulur. Veri kümesi yeni oluşturulan panoya da otomatik olarak eklenebilir. [![Panodaki veri seti](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Periyodik güncelleştirmeyi zorlamak amacıyla bu veri kümesi için yenileme zamanlamasını yapılandırın. Periyodik güncelleştirmeler, ER raporunun SharePoint Server'da oluşturulan Excel dosyasının yeni sürümleri üzerinden periyodik olarak yürütülmesi aracılığıyla Finance and Operations uygulamasından gelen yeni iş verilerinin kullanılabilmesini sağlar.
+Power BI'da oturum açın ve var olan bir Power BI grubunu (çalışma alanı) açın veya yeni bir grup oluşturun. **İçe Aktarma veya Verilere Bağlanma** bölümünde, **Dosyalar** altında **Ekle**'ye tıklayın veya sol bölmede **Veri kümeleri**'nin yanındaki artı işaretine (**+**) tıklayın. [![Bir veri seti oluşturmak](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) **SharePoint – Ekip siteleri** seçeneğini belirleyin ve kullandığınız SharePoint Server yolunu girin (örneğimizde **https://ax7partner.litware.com**). Daha sonra **/Shared Documents/GER data/PowerBI** klasörüne gidin ve yeni Power BI veri kümesinin veri kaynağı olarak oluşturduğunuz Excel dosyasını seçin. [![Excel dosyasını seçmek](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) **Bağlan**'ı tıklatın ve sonra **İçe aktarma**'yı tıklatın. Seçili Excel dosyasını temel alan yeni bir veri kümesi oluşturulur. Veri kümesi yeni oluşturulan panoya da otomatik olarak eklenebilir. [![Panodaki veri seti](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Periyodik güncelleştirmeyi zorlamak amacıyla bu veri kümesi için yenileme zamanlamasını yapılandırın. Periyodik güncelleştirmeler, ER raporunun SharePoint Server'da oluşturulan Excel dosyasının yeni sürümleri üzerinden periyodik olarak yürütülmesi aracılığıyla Finance and Operations uygulamasından gelen yeni iş verilerinin kullanılabilmesini sağlar.
 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Yeni veri kümesini kullanarak Power BI raporu oluşturun
 Yeni bir Power BI raporu oluşturmak için, oluşturduğunuz **İçe aktarma ve dışa aktarma ayrıntıları** Power BI veri kümesine tıklayın. Daha sonra görselleştirmeyi yapılandırın. Örneğin, **Dolgulu harita** görselleştirmesini seçin ve aşağıdaki şekilde yapılandırın:

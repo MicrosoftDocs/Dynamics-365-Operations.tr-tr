@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventParameters, InventProblemType, InventProblemTypeSetup, InventQuarantineZone, InventTestDiagnosticType, InventTestReportSetup, SysUserManagement
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 28951
 ms.assetid: a62d4ba8-eebc-4b14-b587-630be7298522
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4aebabfc6160393e5c817cd07af835d3b1268c2e
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 7a6f7c12ab5fe5e67ffb844c1dbc6cd688ecd4d5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -51,11 +51,11 @@ Uygunsuzluk yönetimini etkinleştirmek için şu adımları izleyin:
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Bir uyumsuzluk oluştur ve işle (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
+[Bir uyumsuzluk oluştur ve işle (Görev kılavuzu)](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-process-non-conformance)
 
 [Kalite yönetimi işlemleri](quality-management-processes.md)
 
-[Uyumlu olmayan yönetimi için ön şartları ayarlama (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+[Uyumlu olmayan yönetimi için ön şartları ayarlama (Görev kılavuzu)](/dynamics365/unified-operations/supply-chain/inventory/tasks/set-up-prerequisites-nonconformance-management)
 
 
 

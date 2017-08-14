@@ -12,13 +12,13 @@ audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: sunilg
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 5bfde00f88a12711c2519aaea19dd7a48196a828
+ms.translationtype: HT
+ms.sourcegitcommit: 172d952c79347e7dd563cfda70729750fa0ddde9
+ms.openlocfilehash: c47ca406e2c8be98f26f1c78d6f5e0a3f66690a5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 # <a name="vendor-invoice-automation"></a>Satıcı faturası otomasyonu
@@ -57,7 +57,7 @@ Veri paketi Finance and Operations'a gönderilmesi gereken iş birimidir, böyle
 
 Satıcı fatura belgesi eki bu özelliğin bir parçası olarak sunulan yeni bir veri varlığıdır. Satıcı fatura başlığı varlığı ekleri desteleyecek şekilde değiştirilmiştir. Satıcı fatura satırı varlığı bu özellik için değiştirilmiştir.
 
-Bu konu, veri paketiyle ilgili ayrıntılı bir tanımın vermez. Ayrıca veri paketlerinin nasıl oluşturulacağını da açıklamaz. Bu bilgi için bkz. [Veri varlıkları ve paketler çerçevesi](/dynamics365/en-us/unified-operations/dev-itpro/data-entities/data-entities-data-packages).
+Bu konu, veri paketiyle ilgili ayrıntılı bir tanımın vermez. Ayrıca veri paketlerinin nasıl oluşturulacağını da açıklamaz. Bu bilgi için bkz. [Veri varlıkları ve paketler çerçevesi](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages).
 
 Faturaları ve ekleri içeren test verilerini hızla oluşturmak için aşağıdaki adımları izleyin.
 

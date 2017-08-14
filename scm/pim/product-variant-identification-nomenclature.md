@@ -18,13 +18,12 @@ ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0e19b18a2900a0b42dc9a1a984b9c884ca0c17cc
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 0c3c1a3e64b016aa72e933f4d6cba854549ff13a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -194,8 +193,8 @@ Yapılandırma işleminin bir adımında, sistem terminolojiye göre bir yapıla
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Önceden tanımlanmış ürün çeşitleri için bir ürün numara terminolojisi oluşturma](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
+[Önceden tanımlanmış ürün çeşitleri için bir ürün numara terminolojisi oluşturma](/dynamics365/unified-operations/supply-chain/pim/tasks/create-product-number-nomenclature-predefined-variants-2016-11)
 
-[Yapılandırılmış ürün çeşitleri için bir ürün numara terminolojisi oluşturma](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
+[Yapılandırılmış ürün çeşitleri için bir ürün numara terminolojisi oluşturma](/dynamics365/unified-operations/supply-chain/pim/tasks/create-product-number-nomenclature-product-variants_2016_11)
 
 

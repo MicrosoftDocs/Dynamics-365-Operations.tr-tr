@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: fa629b4b8f7fcbd15ee89bc66cbc0bd7ca45215c
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: d549f38b9278eed222a1318c51962b248149c569
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -78,7 +78,7 @@ Madde varış günlüğünü, (örneğin, satınalma siparişlerindeki) maddeler
 
 ### <a name="counting"></a>Sayım
 
-Sayım günlükleri madde veya madde grupları için eldeki stok miktarını düzeltmenize yardımcı olur ve böylece farkları bağdaştırmak için gerekli ayarları yapıp gerçek fiziksel sayımları deftere nakletmenizi sağlar. Sayım ilkelerini çeşitli özelliklere sahip öğeleri gruplamak amacıyla sayım grupları ile ilişkilendirebilirsiniz ve böylece bu maddeler de sayım günlüğüne dahil edilirler. Örneğin, sayım gruplarını belirli bir sıklığa sahip maddelerin sayımına ya da stok belirli bir düzeye düştüğünde maddelerin sayımını gerçekleştirecek şekilde ayarlayabilirsiniz. Sayım grupları tanımlama hakkında bilgi için bkz. [Stok sayım işlemlerini tanımlama (Görev kılavuzu)](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
+Sayım günlükleri madde veya madde grupları için eldeki stok miktarını düzeltmenize yardımcı olur ve böylece farkları bağdaştırmak için gerekli ayarları yapıp gerçek fiziksel sayımları deftere nakletmenizi sağlar. Sayım ilkelerini çeşitli özelliklere sahip öğeleri gruplamak amacıyla sayım grupları ile ilişkilendirebilirsiniz ve böylece bu maddeler de sayım günlüğüne dahil edilirler. Örneğin, sayım gruplarını belirli bir sıklığa sahip maddelerin sayımına ya da stok belirli bir düzeye düştüğünde maddelerin sayımını gerçekleştirecek şekilde ayarlayabilirsiniz. Sayım grupları tanımlama hakkında bilgi için bkz. [Stok sayım işlemlerini tanımlama (Görev kılavuzu)](/dynamics365/unified-operations/supply-chain/inventory/tasks/define-inventory-counting-processes).
 
 ### <a name="tag-counting"></a>Etiket sayımı
 

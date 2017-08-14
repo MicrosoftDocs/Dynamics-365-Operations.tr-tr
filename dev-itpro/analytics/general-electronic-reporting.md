@@ -11,19 +11,18 @@ ms.technology:
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
 ms.author: nselin
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: cebd1b6f041e18c2e016142aba7447bf813f570b
-ms.openlocfilehash: f6327b339441f2f1f6d4e557e45d085685245a08
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: b9ad00b4157d1f732a8f2400712c94a92a17b273
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/19/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -34,7 +33,7 @@ ms.lasthandoff: 06/19/2017
 
 Bu konu, Elektronik raporlama (ER) aracına genel bakış sağlar. Temel kavramlar, ER'nin desteklediği senaryolar ve çözümün bir parçası olarak tasarlanan ve yayınlanan biçimlerin listesini içermektedir.
 
-Elektronik raporlama (ER) çeşitli ülkelerin/bölgelerin yasal gereksinimlerine uygun olarak hem gelen hem de giden elektronik belgeler için biçimleri yapılandırmak amacıyla kullanabileceğiniz bir araçtır. ER, yaşam döngüleri boyunca bu biçimleri yönetmenizi sağlar. Örneğin, yeni mevzuat gerekliliklerini uygulayabilir ve devlet kurumları, bankalar ve diğer taraflarla elektronik olarak belge alışverişi yapmak için gerekli biçimde işletme belgeleri oluşturursunuz.
+ER çeşitli ülkelerin/bölgelerin yasal gereksinimlerine uygun olarak hem gelen hem de giden elektronik belgeler için biçimleri yapılandırmak amacıyla kullanabileceğiniz bir araçtır. ER, yaşam döngüleri boyunca bu biçimleri yönetmenizi sağlar. Örneğin, yeni mevzuat gerekliliklerini uygulayabilir ve devlet kurumları, bankalar ve diğer taraflarla elektronik olarak belge alışverişi yapmak için gerekli biçimde işletme belgeleri oluşturursunuz.
 
 ER altyapısı geliştiricilerden ziyade iş kullanıcılarını hedefler. Çünkü kod yerine biçimleri yapılandırırsınız, elektronik belgeler için biçimler oluşturmak ve ayarlamak için süreçler daha hızlı ve kolaydır.
 
@@ -43,8 +42,8 @@ ER şimdilik TEXT, XML, Microsoft Word belgesi ve OPENXML çalışma sayfası bi
 ## <a name="capabilities"></a>Beceriler
 ER altyapısı aşağıdaki yeteneklere sahiptir:
 
-- Farklı etki alanlarında elektronik raporlama için tek bir paylaşılan aracı temsil eder ve Microsoft Dynamics 365 for Operations için bir tür elektronik raporlama yapan 20'den fazla farklı altyapının yerini alır.
-- Rapor biçiminin şu anki Dynamics 365 for Operations uygulamasından yalıtılmasını sağlar. Diğer bir deyişle, biçim Microsoft Dynamics 365 for Operations farklı sürümleri için geçerlidir.
+- Farklı etki alanlarında elektronik raporlama için tek bir paylaşılan aracı temsil eder ve Microsoft Dynamics 365 for Finance and Operations için bir tür elektronik raporlama yapan 20'den fazla farklı altyapının yerini alır.
+- Rapor biçiminin şu anki Finance and Operations uygulamasından yalıtılmasını sağlar. Diğer bir deyişle, biçim Finance and Operations farklı sürümleri için geçerlidir.
 - Özgün biçime dayalı özel bir biçim oluşturulmasını destekler. Yerelleştirme/özelleştirme gereklilikleri yüzünden özgün biçim değişmiş olduğundan özelleştirilmiş biçimi otomatik olarak yükseltme yeteneğini de içerir.
 - Microsoft ve Microsoft ortakları için elektronik raporlamada yerelleştirme gerekliliklerini desteklemek amacıyla birincil standart araç haline dönüşür.
 - Microsoft Dynamics Lifecycle Services (LCS) aracılığıyla biçimleri iş ortakları ve müşterilere dağıtma yeteneğini destekler.
@@ -59,7 +58,8 @@ ER iki tür bileşeni destekler: **Veri modeli** ve **Biçim**.
 Bir veri modeli bileşeni, bir veri yapısının soyut bir temsilidir. Belirli bir iş etki alanını, bu etki alanı için raporlama gereksinimlerini tatmin edecek ayrıntıyla tanımlamak için kullanılır. Veri modeli bileşeni aşağıdaki bölümlerden oluşur:
 
 - Etki alanına özgü iş varlıkları kümesi olarak veri modeli ve bu varlıkların aralarındaki ilişkilerin hiyerarşik olarak tanımı.
-- Seçilen Dynamics 365 for Operations veri kaynaklarını, veri bileşenine ilişkin veri akışı ve işletme veri popülasyonu kurallarını çalışma zamanında belirten bir veri modelinin tek tek öğelerine bağlayan model eşleme.
+- Seçilen Finance and Operations veri kaynaklarını, veri bileşenine ilişkin veri akışı ve işletme veri popülasyonu kurallarını çalışma zamanında belirten bir veri modelinin tek tek öğelerine bağlayan model eşleme.
+
 Bir iş varlık veri modeli (kayıt) kapsayıcı olarak temsil edilir. İş varlık özellikleri veri öğelerini (alanları) olarak temsil edilir. Her veri öğesinin benzersiz bir ad, etiket, açıklama ve değeri vardır. Her bir veri öğesinin değeri, dize, tamsayı, tarih, çetele, Boole vb. olarak tanınacak şekilde tasarlanabilir. Ayrıca başka bir kayıt veya kayıt listesi olabilir.
 
 Tek bir veri modeli bileşeni, birden fazla etki alanı iş varlığı hiyerarşisi içerebilir. Çalışma zamanında rapora özel veri akışı destekleyen bir model eşleştirmesi içerebilir. Hiyerarşiler eşleme modeli kökü olarak seçilen tek bir kayıt tarafından ayrıştırılır. Örneğin, ödeme etki alanının veri modeli aşağıdaki eşlemeleri destekliyor olabilir:
@@ -71,17 +71,18 @@ Tek bir veri modeli bileşeni, birden fazla etki alanı iş varlığı hiyerarş
 
 Giden elektronik belgeleri destekleyen bir model eşleştirmesi aşağıdaki özellikleri içerir:
 
-- Veri modeli için veri kaynakları olarak farklı Dynamics 365 for Operations veri türlerini kullanabilir. Örneğin tabloları, veri varlıklarını, yöntemleri veya çeteleleri kullanabilir.
+- Veri modeli için veri kaynakları olarak farklı Finance and Operations veri türlerini kullanabilir. Örneğin tabloları, veri varlıklarını, yöntemleri veya çeteleleri kullanabilir.
 - Bazı verilerin çalışma zamanında belirtilmesi gerekiyorsa bir veri modeli için veri kaynağı olarak tanımlanabilen kullanıcı giriş parametrelerini destekler.
-- Dynamics 365 for Operations verisinin gerekli gruplara dönüştürülmesini destekler. Veriyi filtrelemenize, sıralamanıza, toplamanıza ve Microsoft Excel formüllerine benzerlik gösteren, formüller aracılığıyla tasarlanmış mantıksal hesaplanan alanları mantıksal olarak hesaplanmış alanlar eklemenize, aşağıda gösterildiği gibi olanak sağlar. Daha fazla bilgi için [Elektronik raporlamada formül tasarımcısı](general-electronic-reporting-formula-designer.md) konusuna bakın.
+- Finance and Operations verisinin gerekli gruplara dönüştürülmesini destekler. Veriyi filtrelemenize, sıralamanıza, toplamanıza ve Microsoft Excel formüllerine benzerlik gösteren, formüller aracılığıyla tasarlanmış mantıksal hesaplanan alanları mantıksal olarak hesaplanmış alanlar eklemenize, aşağıda gösterildiği gibi olanak sağlar. Daha fazla bilgi için [Elektronik raporlamada formül tasarımcısı](general-electronic-reporting-formula-designer.md) konusuna bakın.
 
 [![Formül tasarımcısı](./media/ER-overview-01.png)](./media/ER-overview-01.png) 
 
 Gelen elektronik belgeleri destekleyen bir model eşleştirmesi aşağıdaki özellikleri içerir:
 
-- Farklı Dynamics 365 for Operations güncelleştirilebilir veri öğeleri hedefler olarak kullanabilir. Bu veri öğeleri tablolar, veri varlıkları ve görünümler içerir. Veri, gelen elektronik raporlardan veriyi kullanarak güncelleştirilebilir. Birden çok hedef tek bir model eşlemede kullanılabilir.
+- Farklı güncelleştirilebilir veri öğelerini hedefler olarak kullanabilir. Bu veri öğeleri tablolar, veri varlıkları ve görünümler içerir. Veri, gelen elektronik raporlardan veriyi kullanarak güncelleştirilebilir. Birden çok hedef tek bir model eşlemede kullanılabilir.
 - Bazı verilerin çalışma zamanında belirtilmesi gerekiyorsa bir veri modeli için veri kaynağı olarak tanımlanabilen kullanıcı giriş parametrelerini destekler.
-Bir veri modeli bileşeni, raporlamayı Dynamics 365 for Operations veri kaynaklarının fiziksel uygulamasından ayırmak için raporlama için bir birleştirilmiş veri kaynağı olarak kullanılacak her bir iş etki alanı için tasarlanır. Etki alanına özel iş konseptlerini ve işlevlerini, bir raporlama biçiminin ilk tasarımını ve gelecekteki bakımını daha verimli hale getirecek bir biçimde temsil eder.
+
+Bir veri modeli bileşeni, raporlamayı veri kaynaklarının fiziksel uygulamasından ayırmak için raporlama için bir birleştirilmiş veri kaynağı olarak kullanılacak her bir iş etki alanı için tasarlanır. Etki alanına özel iş konseptlerini ve işlevlerini, bir raporlama biçiminin ilk tasarımını ve gelecekteki bakımını daha verimli hale getirecek bir biçimde temsil eder.
 
 #### <a name="format-components-for-outgoing-electronic-documents"></a>Giden elektronik belgeler için biçim bileşenleri
 
@@ -133,32 +134,32 @@ Sürüm Oluşturma ER bileşenleri için desteklenir. Aşağıdaki iş akışı 
 
 **Tamamlandı** veya **Paylaşılan** durumuna sahip sürümler diğer veri değişimleri için kullanılabilir. Aşağıdaki eylemler, şu durumlara sahip bir bileşen üzerinde gerçekleştirilebilir:
 
-- Bileşen XML biçiminde sıralanabilir ve XML biçiminde bir dosya olarak Dynamics 365 for Operations'tan dışa aktarılabilir.
-- Bileşen bir XML dosyasından tekrar sıralanabilirler ve ER bileşeninin yeni bir sürümü olarak Dynamics 365 for Operations'ten içe aktarılabilirler.
+- Bileşen, XML biçiminde sıralanabilir ve XML biçiminde bir dosya olarak dışa aktarılabilir.
+- Bileşen bir XML dosyasından tekrar sıralanabilirler ve ER bileşeninin yeni bir sürümü olarak Finance and Operations'ten içe aktarılabilirler.
 
 #### <a name="component-date-effectivity"></a>Bileşen tarihi geçerlilik
 
-ER bileşen sürümleri tarih etkilidir. **Yürürlük başlangıcı** tarihini, raporlama işlemleri için bileşenin geçerlilik kazandığı tarihi belirtmek amacıyla bir ER bileşeni için ayarlayabilirsiniz. Dynamics 365 for Operations oturum tarihi bir bileşen yürütme için geçerli olup olmadığını tanımlamak için kullanılır. Belirli bir tarih için birden fazla sürüm geçerliyse raporlama işlemleri için en son sürüm kullanılır.
+ER bileşen sürümleri tarih etkilidir. **Yürürlük başlangıcı** tarihini, raporlama işlemleri için bileşenin geçerlilik kazandığı tarihi belirtmek amacıyla bir ER bileşeni için ayarlayabilirsiniz. Finance and Operations oturum tarihi bir bileşen yürütme için geçerli olup olmadığını tanımlamak için kullanılır. Belirli bir tarih için birden fazla sürüm geçerliyse raporlama işlemleri için en son sürüm kullanılır.
 
 #### <a name="component-access"></a>Bileşen erişim
 
-ER biçimli bileşenlere erişilmesi ISO ülke/bölge kodu ayarlarına bağlıdır. Bu ayar bir biçim konfigürasyonunun seçilen sürümü için boş ise çalışma zamanında herhangi bir Dynamics 365 for Operations şirketinden biçim bileşenine erişilebilir. Bu ayar ISO ülke/bölge kodları içeriyorsa biçim bileşenine yalnızca biçim bileşeninin ISO ülke/bölge kodlarının biri için tanımlanan birincil adrese sahip Dynamics 365 for Operations şirketlerinden ulaşılabilir.
+ER biçimli bileşenlere erişilmesi ISO ülke/bölge kodu ayarlarına bağlıdır. Bu ayar bir biçim konfigürasyonunun seçilen sürümü için boş ise çalışma zamanında herhangi bir şirketinden biçim bileşenine erişilebilir. Bu ayar ISO ülke/bölge kodları içeriyorsa biçim bileşenine yalnızca biçim bileşeninin ISO ülke/bölge kodlarının biri için tanımlanan birincil adrese sahip şirketlerinden ulaşılabilir.
 
 Bir veri biçimi bileşeninin farklı sürümleri ISO ülke/bölge kodları için farklı ayarlara sahip olabilir.
 
 #### <a name="configuration"></a>Yapılandırma
 
-Bir ER yapılandırması, belirli bir ER bileşeninin sarmalayıcısıdır. Bu bileşen bir veri modeli bileşeni ya da biçim bileşeni olabilir. Bir konfigürasyon bir ER bileşeninin farklı sürümlerini içerebilir. Her yapılandırma belirli bir yapılandırma sağlayıcı tarafından sahip olunan olarak işaretlenir. Bir konfigürasyon bileşeninin **Taslak** sürümü, konfigürasyon sahibi Dynamics 365 for Operations'taki ER ayarlarında etkin sağlayıcı olarak seçilmişse düzenlenebilir.
+Bir ER yapılandırması, belirli bir ER bileşeninin sarmalayıcısıdır. Bu bileşen bir veri modeli bileşeni ya da biçim bileşeni olabilir. Bir konfigürasyon bir ER bileşeninin farklı sürümlerini içerebilir. Her yapılandırma belirli bir yapılandırma sağlayıcı tarafından sahip olunan olarak işaretlenir. Bir konfigürasyon bileşeninin **Taslak** sürümü, konfigürasyon sahibi Finance and Operations'taki ER ayarlarında etkin sağlayıcı olarak seçilmişse düzenlenebilir.
 
 Her bir model konfigürasyonu veri modeli bileşenini içerir. Yeni bir biçim konfigürasyonu belirli bir veri modeli konfigürasyonundan kaynaklanarak oluşturulabilir (türetilebilir). Yapılandırma ağacında, oluşturulan biçim yapılandırması, orijinal veri modeli yapılandırmasının alt öğesi olarak belirir.
 
 Oluşturulan biçim konfigürasyonu bir biçim bileşeni içerir. Orijinal model konfigürasyonunun veri modeli bileşeni varsayılan veri kaynağı olarak alt biçim konfigürasyonunun biçim bileşenine otomatik olarak eklenir.
 
-ER konfigürasyonu Dynamics 365 for Operations şirketleri için paylaşılır.
+ER konfigürasyonu Finance and Operations şirketleri için paylaşılır.
 
 #### <a name="provider"></a>Sunucu
 
-ER sağlayıcısı her bir ER konfigürasyonunun yazarını (sahibini) göstermek için kullanılan taraf tanımlayıcısıdır. ER, konfigürasyon sağlayıcıları listesini yönetmenizi sağlar. Elektronik belgeler için Dynamics 365 for Operations çözümünün parçası olarak sevk edilen biçim konfigürasyonlarının sahibi olarak **Microsoft** konfigürasyon sağlayıcısı işaretlenir.
+ER sağlayıcısı her bir ER konfigürasyonunun yazarını (sahibini) göstermek için kullanılan taraf tanımlayıcısıdır. ER, konfigürasyon sağlayıcıları listesini yönetmenizi sağlar. Elektronik belgeler için Finance and Operations çözümünün parçası olarak sevk edilen biçim konfigürasyonlarının sahibi olarak **Microsoft** konfigürasyon sağlayıcısı işaretlenir.
 
 Yeni bir ER sağlayıcısını kaydetmeyi öğrenmek için **ER Bir yapılandırma sağlayıcısı oluşturmak ve bunu etkin olarak işaretlemek** (**7.5.4.3 Al/BT hizmeti geliştir/çözüm bileşenleri (10677)** iş işleminin parçası olan) görev kılavuzunu yürütün.
 
@@ -166,11 +167,11 @@ Yeni bir ER sağlayıcısını kaydetmeyi öğrenmek için **ER Bir yapılandır
 
 ER havuzu ER konfigürasyonlarını depolar. İki ER havuzu türü şu anda desteklenmektedir, **Operations kaynakları** ve **LCS projesi**.
 
-**Operations kaynakları** havuzu Microsoft'un bir ER konfigürasyonu sağlayıcısı olarak Dynamics 365 for Operations çözümünün parçası olarak yayımladığı konfigürasyonlar listesine erişim sağlar. Bu konfigürasyonlar geçerli Dynamics 365 for Operations kurulumuna aktarılabilir ve elektronik raporlama için kullanılabilir. Bunlar ek yerelleştirmeler ve özelleştirmeler için de kullanılabilir.
+**Operations kaynakları** havuzu Microsoft'un bir ER konfigürasyonu sağlayıcısı olarak Finance and Operations çözümünün parçası olarak yayımladığı konfigürasyonlar listesine erişim sağlar. Bu konfigürasyonlar geçerli Finance and Operations kurulumuna aktarılabilir ve elektronik raporlama için kullanılabilir. Bunlar ek yerelleştirmeler ve özelleştirmeler için de kullanılabilir.
 
-**LCS projesi** havuzu, havuz kayıt aşamasında seçilen belirli bir LCS projesinin (LCS proje varlıkları kitaplığı) konfigürasyonlar listesine erişim sağlar. ER, belirli bir **LCS projesi** havuzu için geçerli Dynamics 365 for Operations kurulumundan paylaşılan konfigürasyonları karşıya yüklemenizi sağlar. Konfigürasyonları bir **LCS projesi** deposundan geçerli Dynamics 365 for Operations kurulumuna da aktarabilirsiniz.
+**LCS projesi** havuzu, havuz kayıt aşamasında seçilen belirli bir LCS projesinin (LCS proje varlıkları kitaplığı) konfigürasyonlar listesine erişim sağlar. ER, belirli bir **LCS projesi** havuzu için geçerli Finance and Operations kurulumundan paylaşılan konfigürasyonları karşıya yüklemenizi sağlar. Konfigürasyonları bir **LCS projesi** deposundan geçerli Finance and Operations kurulumuna da aktarabilirsiniz.
 
-Gerekli **LCS projesi** depoları her bir geçerli Dynamics 365 for Operations kurulumunun konfigürasyon sağlayıcısı için ayrı ayrı kaydedilebilir. Her depo belirli bir konfigürasyon sağlayıcısına ayrılabilir.
+Gerekli **LCS projesi** depoları her bir geçerli Finance and Operations kurulumunun konfigürasyon sağlayıcısı için ayrı ayrı kaydedilebilir. Her depo belirli bir konfigürasyon sağlayıcısına ayrılabilir.
 
 ## <a name="supported-scenarios"></a>Desteklenen senaryolar
 ### <a name="building-a-data-model"></a>Bir veri modeli oluşturma
@@ -204,7 +205,7 @@ ER, kullanıcılara belirli Finance and Operations veri kaynakları için tasarl
 Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER model eşleme tanımla ve veri kaynakları seç** ve **ER seçili veri kaynaklarına veri modeli eşle** görev kılavuzlarını ( **7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677)** iş sürecinin parçası) oynatın.
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Gelen belgeler için veri modeli eşlemeleri yapılandırmak
-ER, kullanıcılara belirli hedefler için tasarlanan veri modellerini eşleme imkanı veren bir model eşleme tasarımcısı sağlar. Örneğin, veri modelleri Dynamics 365 for Operations güncelleştirilebilir veri bileşenlerine (tablolalar, veri varlıkları ve görünümler) eşlenebilir. Eşlemeye bağlı olarak, Dynamics 365 for Operations verisi çalışma zamanında, veri modelinden veriyi kullanarak güncelleştirilir. ER biçiminin soyut depolaması olarak veri modeli, gelen bir elektronik belgeden içe aktarılan verilerle doldurulur. Aşağıdaki çizim bu tür bir veri modeli eşlemesinin örneğini gösterir. Bu örnekte ödeme etki alanı veri modelinin **NETS için içe aktarma eşleme** modeli eşlemesi, Norveç için NETS banka biçimindeki banka ekstrelerinin içe aktarılması için kullanılır.
+ER, kullanıcılara belirli hedefler için tasarlanan veri modellerini eşleme imkanı veren bir model eşleme tasarımcısı sağlar. Örneğin, veri modelleri Finance and Operations güncelleştirilebilir veri bileşenlerine (tablolalar, veri varlıkları ve görünümler) eşlenebilir. Eşlemeye bağlı olarak, Finance and Operations verisi çalışma zamanında, veri modelinden veriyi kullanarak güncelleştirilir. ER biçiminin soyut depolaması olarak veri modeli, gelen bir elektronik belgeden içe aktarılan verilerle doldurulur. Aşağıdaki çizim bu tür bir veri modeli eşlemesinin örneğini gösterir. Bu örnekte ödeme etki alanı veri modelinin **NETS için içe aktarma eşleme** modeli eşlemesi, Norveç için NETS banka biçimindeki banka ekstrelerinin içe aktarılması için kullanılır.
 
 [![NET veri modeli örneği için içe aktarma eşlemesi](./media/ER-overview-08.png)](./media/ER-overview-08.png)
 
@@ -283,7 +284,7 @@ ER, LCS'den aktarıla bir bileşenin güncel sürümünden (temel) yeni bir bile
 
 ### <a name="upgrading-a-format-selecting-a-new-version-of-base-format-rebase"></a>Temel biçimin yeni sürümünü seçerek bir biçim yükseltme (rebase)
 
-ER, türetilen bileşenin geçerli taslak sürümünde temel bileşenin en son sürümünün değişikliklerini otomatik olarak benimsemenizi sağlar. Bu işlem *yeniden temelleme*olarak bilinmektedir. Örneğin, LCS'den aktarılan biçimin en son sürümünde kullanılan yeni yasal değişiklik elektronik belgenin bu biçiminin özelleştirilmiş sürümüyle otomatik olarak birleştirilebilir. Otomatik olarak birleştirilemeyen herhangi bir değişiklik çakışma olarak kabul edilir. Bu çakışmalar uygun bileşen için tasarımcı aracında elle çözüm için sunulur. Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Yeni temel sürüm benimsenerek biçimi yükselt** görev kılavuzunu (**7.5.4.3 Al/BT servisi geliştir/çözüm bileşenleri (10677)** iş işlemi parçası) oynatın.
+ER, türetilen bileşenin geçerli taslak sürümünde temel bileşenin en son sürümünün değişikliklerini otomatik olarak benimsemenizi sağlar. Bu işlem *yeniden temelleme*olarak bilinmektedir. Örneğin, LCS'den aktarılan biçimin en son sürümünde kullanılan yeni yasal değişiklik elektronik belgenin bu biçiminin özelleştirilmiş sürümüyle otomatik olarak birleştirilebilir. Otomatik olarak birleştirilemeyen herhangi bir değişiklik çakışma olarak kabul edilir. Bu çakışmalar uygun bileşen için tasarımcı aracında elle çözüm için sunulur. Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Bu biçimin yeni temel sürüm benimsenerek biçimi yükselt** görev kılavuzunu (**7.5.5.3 Al/Değiştirilmiş BT servisi geliştir/çözüm bileşeni (10683)** iş işlemi parçası) oynatın.
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a>Finance and Operations çözümüne teslim edilen ER konfigürasyonları listesi
 | Etki alanına özgü veri modeli konfigürasyonları: Başlık | Etki alanı                | Veri modeline dayalı biçim konfigürasyonları: Başlık | Açıklama                                                        |

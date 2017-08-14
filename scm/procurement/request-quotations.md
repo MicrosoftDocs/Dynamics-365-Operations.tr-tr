@@ -1,6 +1,6 @@
 ---
 title: Teklif talepleri (RFQ'lar)
-description: "Bu makalede, madde veya hizmet satın almak zorunda olduklarında ve sayısız satıcıdan rekabetçi teklifler almak istediklerinde kuruluşların çıkardığı teklif taleplerine (RFQ'ler) genel bakış sunulmuştur. Bir RFQ'da, satıcılardan belirlediğiniz madde miktarları için fiyat ve teslimat süreleri vermelerini istersiniz. Satıcılardan, nakliye maliyetleri ya da büyük siparişler için indirimler veya satıcı faturalarının erken ödenmesi gibi dolaylı giderler olup olmadığını belirtmelerini de isteyebilirsiniz."
+description: "Bu konuda, madde veya hizmet satın almak zorunda olduklarında ve sayısız satıcıdan rekabetçi teklifler almak istediklerinde kuruluşların çıkardığı teklif taleplerine (RFQ'ler) genel bakış sunulmuştur."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 06/20/2017
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d681f4c107a9dbc1ea8c5e1de38b2d45cf19bcfa
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 47e394c8642f502c698dbcd5506979b7cac0a830
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, madde veya hizmet satın almak zorunda olduklarında ve sayısız satıcıdan rekabetçi teklifler almak istediklerinde kuruluşların çıkardığı teklif taleplerine (RFQ'ler) genel bakış sunulmuştur. Bir RFQ'da, satıcılardan belirlediğiniz madde miktarları için fiyat ve teslimat süreleri vermelerini istersiniz. Satıcılardan, nakliye maliyetleri ya da büyük siparişler için indirimler veya satıcı faturalarının erken ödenmesi gibi dolaylı giderler olup olmadığını belirtmelerini de isteyebilirsiniz.
+Bu konuda, madde veya hizmet satın almak zorunda olduklarında ve sayısız satıcıdan rekabetçi teklifler almak istediklerinde kuruluşların çıkardığı teklif taleplerine (RFQ'ler) genel bakış sunulmuştur. Bir RFQ'da, satıcılardan belirlediğiniz madde miktarları için fiyat ve teslimat süreleri vermelerini istersiniz. Satıcılardan, nakliye maliyetleri ya da büyük siparişler için indirimler veya satıcı faturalarının erken ödenmesi gibi dolaylı giderler olup olmadığını belirtmelerini de isteyebilirsiniz.
 
 Teklif talebi (RFQ) işlemi aşağıdaki görevleri kapsar:
 
--   Bir veya daha çok satıcı için RFQ oluşturma ve gönderme
--   RFQ yanıtlarını (teklifler) alma ve kaydetme
--   Kabul edilen teklifleri satınalma siparişine, satınalma anlaşmasına veya satınalma talebine aktarma
+-   Bir veya daha çok satıcı için RFQ oluşturma ve gönderme.
+-   RFQ yanıtlarını (teklifler) alma ve kaydetme.
+-   Kabul edilen teklifleri satınalma siparişine, satınalma anlaşmasına veya satınalma talebine aktarma.
 
 Aşağıdaki şekilde teklif talebi sürecinin genel özet verilmektedir.  
 
@@ -66,17 +66,17 @@ Bir RFQ'yu işlemeyle ilgili durum serisi aşağıdaki gibidir:
 3.  **Alındı**
 4.  **Kabul edildi**/**iptal edildi**/**Reddedildi**
 
-Bu durumlar, bu makalenin ilerleyen bölümünde daha ayrıntılı açıklanacaktır.
+Bu durumlar, bu konunun ilerleyen bölümünde daha ayrıntılı açıklanacaktır.
 
 ## <a name="setting-up-rfq-functionality"></a>RFQ işlevini ayarlama
 Bir RFQ servis talebi oluşturmadan önce **Tedarik ve kaynak atama parametreleri** sayfasında RFQ bilgilerini ayarlamanız gerekir. RFQ servis talebi oluşturduğunuzda, RFQ'ya kopyalanan varsayılan değerleri belirtebilirsiniz. Aşağıdaki varsayılan değerleri belirtebilirsiniz:
 
--   Yeni RFQ'nun satınalma türü: **Satınalma siparişi** veya **Satınalma anlaşması**
--   Bitiş tarihi ve saati ayarları
+-   Yeni RFQ'nun satınalma türü: **Satınalma siparişi** veya **Satınalma anlaşması**.
+-   Bitiş tarihi ve saati ayarları.
 -   Teslimat bilgileri ve ödeme koşulları.
--   RFQ yanıtına dahil edilmesi gereken alanlar
+-   RFQ yanıtına dahil edilmesi gereken alanlar.
 
-Bu değerleri belirli bir RFQ için geçersiz kılabilirsiniz. Düzeltme işlemini de yapılandırmanız gerekir. Bu yapılandırma işleminin bir parçası olarak, alan kilidini açabilirsiniz. Alan kilitleme açık olduğunda, RFQ üzerinde düzeltme yapmak isteyen bir tedarik uzmanının önce **Teklif** sekmesinin **Düzeltme** bölümündeki **Oluştur** seçeneğine tıklaması gerekir. RFQ düzeltmeyle güncelleştirildikten sonra tedarik uzmanının **Sonlandır**'a tıklayarak işlemi tamamlaması gerekir. Sonlandırma eylemi, satıcıları düzeltilen RFQ hakkında bilgilendiren bir e-posta iletisi oluşturur. Satıcılara gönderilen e-posta bildirimi şablonunu **Tedarik ve kaynak atama parametreleri** sayfasından seçebilirsiniz. Bir şablon oluşturulduğunda aşağıdaki değiştirme belirteçlerini içerebilir:
+Bu değerleri belirli bir RFQ için geçersiz kılabilirsiniz. Düzeltme işlemini de yapılandırmanız gerekir. Bu yapılandırma işleminin bir parçası olarak, alan kilidini açabilirsiniz. Alan kilitleme açık olduğunda, RFQ üzerinde düzeltme yapmak isteyen bir tedarik uzmanının önce **Teklif** sekmesinin **Düzeltme** bölümündeki **Oluştur** seçeneğine tıklaması gerekir. RFQ düzeltme ile güncelleştirildikten sonra, satın alma uzmanı, işlemi **Sonlandır** üzerine tıklayarak tamamlamalıdır. **Sonlandır** eylemi, satıcıyı düzeltilen RFQ hakkında bilgilendiren bir e-posta iletisi oluşturur. Satıcılara gönderilen e-posta bildirimi şablonunu **Tedarik ve kaynak atama parametreleri** sayfasından seçebilirsiniz. Bir şablon oluşturulduğunda aşağıdaki değiştirme belirteçlerini içerebilir:
 
 -   %Teklifi iade nedeni%
 -   %Düzeltme yapma nedeni%
@@ -87,7 +87,10 @@ Bu değerleri belirli bir RFQ için geçersiz kılabilirsiniz. Düzeltme işlemi
 
 RFQ yanıtında, teklifin neden reddedildiği veya kabul edildiğini belirtmek için neden kodları kullanmak isterseniz, **Satıcı nedenleri** sayfasında neden kodları ayarlamanız gerekir.  
 
-Tedarik ve kaynak atamadaki **Form ayarı** sayfasında yazdırılan veya depolanan RFQ belgelerinizin görünümünü yapılandırabilirsiniz.  
+Tedarik ve kaynak atamadaki **Form ayarı** sayfasında yazdırılan veya depolanan RFQ belgelerinizin görünümünü yapılandırabilirsiniz. 
+
+**Not:** Kamu sektörü yapılandırması için, RFQ'daki gönderilmiş olan tüm değişiklikler, düzeltme işlemini gerektirecektir. RFQ gönderildiğinde, alanlar kilitlenir, bu yüzden düzeltme işlemini yukarıda belirtildiği gibi kullanmak için **Oluştur** üzerine tıklamak, RFQ'ya değişiklik yapmak için zorunlu bir adımdır.
+Bu, **Satın alma ve kaynak atama parametreleri** içindeki alan kilitleme parametresi **RFQ'yi gönderildiğinde kilitle** ile kontrol edilir. Bu parametre **Evet** olarak ayarlanırsa ve kamu sektörü yapılandırması içinse, bu varsayılandır ve değiştirilemez. Bu, kamusal olmayan sektör yapılandırmasında düzeltmenin el ile yapılabiliyor olmasına karşılık, kamu sektöründe düzeltmelerin RFQ'nin gönderilmesinden sonra alanların kilitlenmesini zorunlu olduğu anlamına gelir.
 
 Bir satınalma sipariş iiçin RFQ oluşturduğunuzda ve RFQ'ya bir stok maddesi eklediğinizde, giriş durumu **Teklif girişi** olan bir stok hareketi oluşturulur. Malzemeleri hesaplamak için bir master plan kullandığınızda yalnızca bu duruma sahip RFQ satırları göz önünde bulundurulur. Master planın RFQ satırlarını beklenen giriş olarak eklemesini istiyorsanız, master plan ayarlama aşamasında bu davranışı yapılandırmanız gerekir.  
 
@@ -137,7 +140,7 @@ Aşağıdaki tablo, bri RFQ oluşturup satıcılara gönderdiğinizde, RFQ durum
 **Not:** RFQ'ya istediğiniz zaman daha fazla satıcı ekleyebilirsiniz; en düşük ve en yüksek durumları yeni satıcıları yansıtacak şekilde değişir. Örneğin, tüm satıcılardan teklif alır ve teklifteki en az bir satırı kabul ederseniz, RFQ başlığındaki en düşük durum **Reddedildi** ve en yüksek durum **Kabul edildi** olur. Yeni bir satıcı eklerseniz, herhangi bir satırdaki en düşük durum **Oluşturuldu** olur. Bu nedenle, RFQ başlığındaki en düşük durum **Oluşturuldu** olarak değiştirilir ve en yüksek durum kalır **Kabul edildi** olarak kalır.
 
 ## <a name="amending-an-rfq"></a>RFQ'yu düzeltme
-Bazen, gönderdikten sonra RFQ'da düzeltme yapmanız gerekir. Bunun nedeni, örneğin, teslimat tarihlerinin değişmesi veya ek ürünler ya da farklı ürün miktarları girmek istemeniz olabilir. Düzeltme işlemini, daha kısıtlayıcı veya daha az kısıtlayıcı olacak şekilde yapılandırabilirsiniz.  
+Bazen, gönderdikten sonra RFQ'da düzeltme yapmanız gerekir. Örneğin bu, teslimat tarihlerinin değişmesi veya ek ürünler ya da farklı ürün miktarları girmek istemeniz durumunda olabilir. Düzeltme işlemini, daha kısıtlayıcı veya daha az kısıtlayıcı olacak şekilde yapılandırabilirsiniz.  
 
 Daha kısıtlayıcı düzeltme işlemi kullanırsanız, RFQ servis talebindeki alanları değiştirebilmek için bir düzeltme işlemi başlatmak üzere RFQ servis talebinde **Oluştur**'a tıklamanız gerekir. Değişiklik yapmayı tamamladıktan sonra **Sonlandır**'a tıklamanız gerekir. Ardından, satıcıları düzeltme hakkında bilgilendirmek için gönderilecek eposta iletine nasıl bilgi ekleneceği gösterilecektir. Bir düzeltme notu içeren güncelleştirilmiş RFQ raporu iletiye otomatik olarak eklenir.  
 
@@ -181,7 +184,7 @@ Aşağıdaki tablo, teklifleri aldığınızda ve bilgileri RFQ yanıt sayfasın
 
 Yanıta, teklifi neden kabul ettiğinizi veya reddettiğinizi açıklayan bir neden kodu ekleyebilirsiniz.  
 
-Bir teklifteki bazı satırları kabul edip diğerlerini reddedebilirsiniz. Ayrıca, farklı satıcılardan gelen satırları da kabul edebilirsiniz. Bazı satırları kabul ettiğinizde, kalan diğer tüm satırları reddetmeniz istenecektir. Bu nedenle, diğer satırları da kabul etmek isterseniz, istemi aldığınızda **İptal**'e tıklamanız gerekir.  
+Bir teklifteki bazı satırları kabul edip diğerlerini reddedebilirsiniz. Ayrıca, farklı satıcılardan gelen satırları da kabul edebilirsiniz. Bazı satırları kabul ettiğinizde, kalan diğer tüm satırları reddetmeniz istenebileceğinin bilincinde olun. Bu nedenle, diğer satırları da kabul etmek isterseniz, istemi aldığınızda **İptal**'e tıklamanız gerekir.  
 
 Aşağıdaki tabloda, satıcılardan gelen teklifleri kabul ettiğinizde ve reddettiğinizde RFQ durumunun nasıl değiştiği gösterilmektedir.
 

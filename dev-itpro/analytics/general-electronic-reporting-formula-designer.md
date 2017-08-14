@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: kfend
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 655a6fd99c0688b13c31c79f3322a287f902e7f1
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 2c04bbccf22ab830404206cd54b4cb8e97b6a822
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -104,7 +104,7 @@ ER ifadeleri aşağıdaki öğelerden birini veya tümünü içerebilirler:
 
 #### <a name="constants"></a>Sabitler
 
-İfadeler tasarlarken metin veya sayısal sabitler (hesaplanmayan değerler) içeren ifadeler kullanabilirsiniz. Örneğin **VALUE ("100") + 20 **ifadesi, sayısal sabit 20 ve dize sabiti "100" kullanır ve **120** sayısal değerini döndürür. ER formül tasarımcısı kaçış sıralarını destekler. Bu özellik, ifade dizesinin bir bölümünün farklı ele alınması gerektiğini belirtebileceğiniz anlamına gelir. Örneğin **"Leo Tolstoy ""Savaş ve Barış"" Cilt 1""** ifadesi aşağıdaki metin dizesini döndürür: **Leo Tolstoy "Savaş ve Barış" Cilt 1**.
+İfadeler tasarlarken metin veya sayısal sabitler (hesaplanmayan değerler) içeren ifadeler kullanabilirsiniz. Örneğin **VALUE ("100") + 20**ifadesi, sayısal sabit 20 ve dize sabiti "100" kullanır ve **120** sayısal değerini döndürür. ER formül tasarımcısı kaçış sıralarını destekler. Bu özellik, ifade dizesinin bir bölümünün farklı ele alınması gerektiğini belirtebileceğiniz anlamına gelir. Örneğin **"Leo Tolstoy ""Savaş ve Barış"" Cilt 1""** ifadesi aşağıdaki metin dizesini döndürür: **Leo Tolstoy "Savaş ve Barış" Cilt 1**.
 
 #### <a name="operators"></a>İşleçler
 
@@ -196,8 +196,8 @@ Aşağıdaki tablolar, ER veri modelleri ve ER raporları tasarlamak için kulla
 | SESSIONNOW ()                              | Geçerli Finance and Operations oturum tarihini ve saatini tarih/saat değerine döndürür.                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                       |
 | DATEFORMAT (tarih, biçim)                  | Belirtilen biçimi kullanarak tarihin dize gösterimini verir.                                                                                                                                                                                                                                                                                                    | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** geçerli Finance and Operations oturum tarihi olan 24/12/2015 tarihini belirtilen özel biçime göre "**"24-12-2015"**" tarihine döndürür.                                                                                                                      |
 | DATEFORMAT (tarih, biçim, kültür)         | Belirtilen tarih değerini, belirtilen biçimde ve [kültür](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx)'de bir dizeye dönüştürür. (Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ve [özel](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)).     | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** geçerli Finance and Operations oturum tarihi olan 24/12/2015 tarihini, seçilen Alman kültürüne göre **“24.12.2015“** tarihi olarak döndürür.                                                                                                                       |
-| DAYOFYEAR (tarih)              | Ocak 1 ve belirtilen tarih arasındaki günlerin sayısının bir tamsayı temsilini döndürür.       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** **61** döndürür.
-**DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** **1** döndürür.                                                                                                                       |
+| DAYOFYEAR (tarih)              | Ocak 1 ve belirtilen tarih arasındaki günlerin sayısının bir tamsayı temsilini döndürür.       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** **61** döndürür. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** **1** döndürür. 
+                                                                                                                      |
 
 **Veri dönüştürme işlemleri**
 
@@ -236,7 +236,14 @@ Aşağıdaki tablolar, ER veri modelleri ve ER raporları tasarlamak için kulla
 <li>Toplu işler düzenli listelerdir (<strong>Değer </strong>bileşen)</li>
 <li>Geçerli toplu iş numarası (<strong>BatchNumber</strong>bileşeni)</li>
 </ul></td>
-<td>Aşağıdaki örnekte, <strong>Satırlar</strong> veri kaynağı, her biri en çok iki kayıt içeren toplu işlere bölünen, üç kaydın kayıt listesi olarak oluşturulur. <a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> Bu, tasarlanan biçim düzenini gösterir; burada <strong>Satırlar</strong> veri kaynağına bağlantılar her bir toplu iş ve içindeki kayıtlar için tek tek düğümleri temsil eden XML biçiminde çıktı üretmek için oluşturulur. <a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> Tasarlanan biçim yürütüldüğünde çıkan sonuç aşağıdadır. <a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
+<td>Aşağıdaki örnekte, <strong>Satırlar</strong> veri kaynağı, her biri en çok iki kayıt içeren toplu işlere bölünen, üç kaydın kayıt listesi olarak oluşturulur. 
+<a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> 
+
+Bu, tasarlanan biçim düzenini gösterir; burada <strong>Satırlar</strong> veri kaynağına bağlantılar her bir toplu iş ve içindeki kayıtlar için tek tek düğümleri temsil eden XML biçiminde çıktı üretmek için oluşturulur. 
+<a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> 
+
+Tasarlanan biçim yürütüldüğünde çıkan sonuç aşağıdadır. 
+<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
 </tr>
 <tr class="odd">
 <td>LIST (kayıt 1 [, kayıt 2, ...])</td>
@@ -300,7 +307,14 @@ Aşağıdaki tablolar, ER veri modelleri ve ER raporları tasarlamak için kulla
 <li>Belirtilen liste kayıtları, düzenli olarak (<strong>Değer </strong>bileşeni) listeler</li>
 <li>Geçerli kayıt dizini (<strong>Numara </strong>bileşeni)</li>
 </ul></td>
-<td>Aşağıdaki örnekte, <strong>Enumerated</strong> veri kaynağı, satıcı kayıtlarının, <strong>satıcılar</strong> veri kaynağına başvuran <strong>VendTable</strong> tablo sunun numaralandırılmış bir listesi olarak oluşturulur. <a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a>Tekil satıcıları, numaralandırılmış düğümler olarak temsil eden XML biçiminde çıktı oluşturmak için veri ilişkilendirmelerinin oluşturulduğu biçim buradadır. <a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> Bu, tasarlanan biçim yürütüldüğünde çıkan sonuçtur. <a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
+<td>Aşağıdaki örnekte, <strong>Enumerated</strong> veri kaynağı, satıcı kayıtlarının, <strong>satıcılar</strong> veri kaynağına başvuran <strong>VendTable</strong> tablo sunun numaralandırılmış bir listesi olarak oluşturulur. 
+<a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a> 
+
+Tekil satıcıları, numaralandırılmış düğümler olarak temsil eden XML biçiminde çıktı oluşturmak için veri ilişkilendirmelerinin oluşturulduğu biçim buradadır. 
+<a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> 
+
+Bu, tasarlanan biçim yürütüldüğünde çıkan sonuçtur. 
+<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
 </tr>
 <tr class="odd">
 <td>COUNT (liste)</td>
@@ -322,13 +336,24 @@ Oluşturulan liste aşağıdaki alanları olan kayıtlar içerir:
 <li>Açıklama</li>
 </ul>
 Etiket ve Açıklama alanları, biçimin dil ayarlarına göre çalışma zamanı değerlerine döndürülür.</td>
-<td>Aşağıdaki örnek bir veri modelinde oluşturulan numaralandırmayı gösterir. <a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>Aşağıdaki örnek şunu gösterir:
+<td>Aşağıdaki örnek bir veri modelinde oluşturulan numaralandırmayı gösterir. 
+<a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>
+
+Aşağıdaki örnek şunu gösterir:
 <ul>
 <li>Veri kaynağı olarak bir rapora eklenen model numaralandırma.</li>
 <li>Bu işlevin parametresi olarak model numaralandırma kullanmak için tasarlanan ER ifadesi.</li>
 <li>Oluşturulan ER ifadesini kullanarak bir rapora eklenen kayıt listesi türünün veri kaynağı.</li>
 </ul>
-<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> Aşağıdaki örnek LISTOFFIELDS işlevi kullanılarak oluşturulan kayıt listesi türü veri kaynağına bağlı olan ER biçim öğelerini gösterir.<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>Bu, tasarlanmış biçim yürütme işleminin sonucudur.<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>Not:</strong> Çevrilmiş etiket metinleri ve açıklamaları ana DOSYA ve KLASÖR biçim öğeleri için yapılandırılan dil ayarlarına uygun olarak ER biçim çıktısına doldurulur.</td>
+<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> 
+
+Aşağıdaki örnek LISTOFFIELDS işlevi kullanılarak oluşturulan ve kayıt listesi türündeki veri kaynağına bağlı olan ER biçim öğelerini gösterir.
+<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>
+
+Bu, tasarlanan biçim çalıştırılmasından çıkan sonuçtur.
+<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>
+
+No:</strong> Etiketler ve açıklamalar için çevrilen metin ER biçimi çıkışına, ana DOSYA ve KLASÖR biçim öğeleri için yapılandırılan dil ayarlarına uygun olarak doldurulur.</td>
 </tr>
 <tr class="odd">
 <td>STRINGJOIN (liste, alan adı, ayırıcı)</td>
@@ -338,7 +363,18 @@ Etiket ve Açıklama alanları, biçimin dil ayarlarına göre çalışma zaman�
 <tr class="even">
 <td>SPLITLISTBYLIMIT (liste, sınır değeri, sınır kaynağı)</td>
 <td>Verilen listeyi alt listelerin yeni listesine ayırır ve kayıt listesi içeriğinde sonucu verir. Sınır kaynağı parametresi, kaynak listeyi ayırmak için sınırın değerini belirtir. Sınır kaynağı parametresi toplamın artırıldığı adımı belirtir. Sınır kaynağı tanımlanan sınırı aştığında sınır, verilen listedeki tek bir öğeye uygulanmaz.</td>
-<td>Aşağıdaki örnek veri kaynaklarını kullanan örnek biçimi gösterir. <a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>Bu, emtia öğelerinin düz listesini sunan biçim yürütmenin sonucudur.<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>Aşağıdaki örnek aynı biçimin, emtia öğelerinin listesini, tek bir toplu işin emtiaları toplam ağırlıklarıyla, aşmamaları gereken 9 sınırını toplu işler olarak göstermek sunmak üzere ayarlanmıştır<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>Bu ayarlanmış biçim yürütmenin sonucudur. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a><strong>Not:</strong> Sınırının kaynak (ağırlık) değeri (11) tanımlanan sınırı (9) geçtiğinden sınır, kaynak listedeki son maddeye uygulanmaz. Rapor oluştururken (gerekirse) alt listeleri yok saymak (atlamak) için <strong>WHERE</strong> işlevini veya ilgili biçim öğesinin <strong>Etkinleştirildi</strong> ifadesini kullanın.</td>
+<td>Aşağıdaki örnek veri kaynaklarını kullanan örnek biçimi gösterir. 
+<a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>
+
+Bu, emtia öğelerinin düz listesini temsil eden biçim yürütmesinin sonucudur.
+<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>
+
+Aşağıdaki örnek, tek bir toplu iş 9 limitini geçmemesi gereken toplam ağırlığa sahip emtiaları içerdiğinde, emtia maddelerinin listesini toplu işlerde ayarlananla aynı biçimde gösterir.
+<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>
+
+Bu, düzeltilen biçim çalıştırılmasından çıkan sonuçtur. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a>
+
+<strong>Not</strong>: Sınırının kaynak (ağırlık) değeri (11) tanımlanan sınırı (9) geçtiğinden sınır, kaynak listedeki son maddeye uygulanmaz. Rapor oluştururken (gerekirse) alt listeleri yok saymak (atlamak) için <strong>WHERE</strong> işlevini veya ilgili biçim öğesinin <strong>Etkinleştirildi</strong> ifadesini kullanın.</td>
 </tr>
 <tr class="odd">
 <td>FİLTRE (liste, koşul)</td>
@@ -511,7 +547,10 @@ Etiket ve Açıklama alanları, biçimin dil ayarlarına göre çalışma zaman�
 <tr class="even">
 <td>FORMAT (dize 1, dize 2[, dize 3, ...])</td>
 <td>Tüm <strong>%N</strong> oluşumlarını <em>n</em>'ci bağımsız değişken ile değiştirilmiş belirtilen dizeyi döndür. Bağımsız değişkenler, dizelerdir. Bir parametre için bir bağımsız değişken sağlanmamışsa, parametre izede <strong>&quot;%N&quot;</strong> olarak döndürülür. <strong>gerçek</strong> türün değerleri için, dize dönüşümü iki ondalık basamakla sınırlıdır.</td>
-<td>Bu örnekte, <strong>PaymentModel</strong> veri kaynağı müşteri kayıtlarının listesini <strong>Müşteri</strong> bileşeni ve işleme tarihi değerini <strong>ProcessingDate</strong> alan üzerinden verir. <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> Seçilen müşteriler için elektronik dosya oluşturmak üzere tasarlanmış ER biçiminde veri kaynağı olarak <strong>PaymentModel</strong> seçilir ve işlem akışını denetler. Seçilmiş bir müşteri, raporun işlendiği tarihte durdurulmuşsa, son kullanıcılar için bir özel durum oluşturulur. Bu tür bir işleme denetimi için tasarlanmış formül aşağıdaki kaynakları kullanabilir:
+<td>Bu örnekte, <strong>PaymentModel</strong> veri kaynağı müşteri kayıtlarının listesini <strong>Müşteri</strong> bileşeni ve işleme tarihi değerini <strong>ProcessingDate</strong> alan üzerinden verir. 
+<a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> 
+
+Seçilen müşteriler için elektronik dosya oluşturmak üzere tasarlanmış ER biçiminde veri kaynağı olarak <strong>PaymentModel</strong> seçilir ve işlem akışını denetler. Seçilmiş bir müşteri, raporun işlendiği tarihte durdurulmuşsa, son kullanıcılar için bir özel durum oluşturulur. Bu tür bir işleme denetimi için tasarlanmış formül aşağıdaki kaynakları kullanabilir:
 <ul>
 <li>Aşağıdaki metne sahip Finance and Operations SYS70894 etiketi:
 <ul>
@@ -549,7 +588,8 @@ Tasarlanabilir formül şudur: FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot
 <td>TRIM (dize)</td>
 <td>Baştaki ve sondaki boşlukların kesilmesinden sonra belirli bir metni ve sözcükler arasındaki birden fazla boşluğu kaldırarak döndürür. </td>
 <td><strong>TRIM ("     Örnek     metin     ")</strong>, <strong>"Örnek metin" döndürür.</strong></td>
-=======
+</tr>
+<tr class="odd">
 <td>GETENUMVALUEBYNAME (veri kaynağı yolu numaralandırması, değer etiket metni numaralandırması)</td>
 <td>Belirli bir numaralandırma veri kaynağının değerini, bu numaralandırma etiketinin belirtilen metni ile döndürür.</td>
 <td>Aşağıdaki örnek bir veri modelinde oluşturulan ReportDirection numaralandırmasını gösterir. Etiketlerin numaralandırma değerleri ile tanımlandığını unutmayın.

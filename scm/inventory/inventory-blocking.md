@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBlocking, InventQualityOrderTable
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
-ms.openlocfilehash: 4c5ebea58630188615fb4c22cc9da5215461e513
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 7d00aaa272de32d4ef2082bf1822125800ca8a1e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -64,11 +64,11 @@ Aşağıdaki örnekte, bir satınalma siparişi sevk irsaliyesi deftere nakledil
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Stok durdurma oluştur ve sürdür (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)
+[Stok durdurma oluştur ve sürdür (Görev kılavuzu)](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-maintain-inventory-blocking)
 
 [Kalite yönetimi işlemleri](quality-management-processes.md)
 
-[Malların kalitesini denetle (görev kılavuzu)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+[Malların kalitesini denetle (Görev kılavuzu)](/dynamics365/unified-operations/supply-chain/inventory/tasks/inspect-quality-goods)
 
 
 
