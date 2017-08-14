@@ -18,27 +18,20 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611, Retail Version
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 2de5b3d532c599f2273b97dad1db6a027c4dc04a
+ms.translationtype: HT
+ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
+ms.openlocfilehash: bde08c142e976cd5546703b27af2f9a3ac635d9e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 07/31/2017
 
 ---
 
 # <a name="welcome-to-dynamics-365-for-retail"></a>Dynamics 365 for Retail'e hoş geldiniz
 
-[!include[banner](includes/banner.md)]
+Microsoft Dynamics 365 for Retail, tüm kanallarda birleştirilmiş ticaret olanağı sunan uçtan uca bir perakende çözümüdür. Perakendeciler ve çalışanların bulut öncelikli, mobil öncelikli bir tarzda daha fazlasını başarmalarına yardımcı olmak için satış, hareketlilik, karar destek ve üretkenliği kapsar. Retail, alım satım, stok gibi geniş bir işletme süreçleri ve kanal yönetim yetenekleri yelpazesini yürütmek için kapsamlı destek sunar. Ayrıca tüm temas noktalarında kapsayıcı müşteri deneyimleri sağlar.
 
-Microsoft Dynamics 365 for Retail, tüm kanallarda birleştirilmiş ticaret olanağı sunan uçtan uca bir perakende çözümüdür. Perakendeciler ve çalışanların bulut öncelikli, mobil öncelikli bir tarzda daha fazlasını başarmalarına yardımcı olmak için satış, hareketlilik, karar destek ve üretkenliği kapsar. Retail, alım satım, stok gibi geniş bir işletme süreçleri ve kanal yönetim yetenekleri yelpazesini yürütmek için kapsamlı destek sunar. Ayrıca, tüm temas noktalarında kapsayıcı müşteri deneyimleri sağlar.
-
-Aşağıdaki üç ürün yakından ilgilidir:
-
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü
-- Microsoft Dynamics 365 for Retail
-- Microsoft Dynamics 365 for Talent
-
-Aynı işlev, üç ürünün tümünde görülebilir. Bu nedenle, özellikle Retail ile ilgili konularda, ürün adı Microsoft Dynamics 365 for Retail olacaktır. Özellikle Talent ile ilgili konularda ise ürün adı Microsoft Dynamics 365 for Talent olacaktır. Son olarak, temel ürünle (Finance and Operations) ilgili konularda, ürün adı Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
+> [!NOTE] 
+> Dynamics 365 for Retail; Dynamics 365 for Finance and Operations Enterprise Edition ve Dynamics 365 for Talent ile yakından ilgilidir. Aynı işlev her üç üründe de görülebilir. Bu nedenle birincil olarak Retail ile ilgili konularda ürün adı Microsoft Dynamics 365 for Retail; birincil olarak temel ürün (Finance and Operations) ile ilgili olan konularda ürün adı Microsoft Dynamics 365 for Finance and Operations Enterprise Edition ve birincil olarak insan kaynakları ile ilgili konularda ürün adı Dynamics 365 for Talent olacaktır. 
 
 Soldaki bölmede, bir özellik alanı seçerek özellik hakkında daha fazla bilgi edinebilirsiniz.
 
