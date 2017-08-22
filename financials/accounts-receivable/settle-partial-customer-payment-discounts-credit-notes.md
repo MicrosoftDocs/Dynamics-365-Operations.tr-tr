@@ -1,9 +1,9 @@
 ---
 title: "Alacak dekontlarında iskontolar içeren bir kısmi müşteri ödemesini kapatma"
 description: "Bu makalede orijinal fatura da bir nakit iskontosu içeriyorken bir credit note'a nakit iskontosunun uygulandığı bir senaryo açıklanmıştır."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14564
 ms.assetid: d9984cef-ddcf-46bd-816d-c01b8cc5cf48
 ms.search.region: Global
-ms.author: kweekley
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 4fbbd4d4b4ff9ecfcb30cd0ded2bc366d07dc1c4
 ms.contentlocale: tr-tr
 ms.lasthandoff: 05/25/2017
-
 
 ---
 
