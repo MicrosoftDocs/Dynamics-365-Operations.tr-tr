@@ -1,7 +1,7 @@
 ---
 title: "Ödeme teklifi kullanarak satıcı ödemeleri oluşturma"
 description: "Bu konu, ödeme teklifi seçeneklerine genel bir bakış sağlar ve ödeme tekliflerinin nasıl çalıştığına dair bazı örnekler içerir. Ödeme teklifleri, çoğunlukla satıcı ödemeleri oluşturmak için kullanılır çünkü sorgu ödeme için satıcı faturalarını vade tarihi ve nakit indirimi gibi kriterlere dayalı olarak hızla seçmek için kullanılabilir."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 07/17/2017
 ms.topic: article
@@ -15,8 +15,8 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
-ms.author: kweekley
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
