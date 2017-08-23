@@ -1,9 +1,9 @@
 ---
 title: "Bir kısmi tutar için satıcı ödemeleri"
 description: "Bazen, bir satıcıya bir fatura tutarından daha az ödeme yapabilirsiniz. Bu makalede, bu durumu çözmeye yönelik çeşitli seçenekler açıklanmaktadır. Kullanabileceğiniz seçenekler, iş gereksinimlerinize ve yapılandırmanıza bağlıdır."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14321
 ms.assetid: 9a17075e-5325-4d55-a1e5-1791b8c460a0
 ms.search.region: Global
-ms.author: kweekley
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 48812d33be6b84bbe0eac15adc4bd41a3ea8706b
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 191d1ee0b47da4930e10146ba164d601d038e81b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -56,5 +55,5 @@ Bir faturadaki ürünlerden bazılarını iade edebilir ve bir credit note hazı
 Hala kapatılması gereken tutar çok küçük ise bir kısmi ödeme gerçekleştirebilirsiniz. Örneğin, satıcı faturası, 1.000,00 tutarındayken 999.90 tutarında bir ödeme yaptınız. Kalan tutar, **Borç hesapları parametreleri** sayfasında fazla ödemeler veya eksik ödemeler için tanımlanan tutarın altındaysa bu ark otomatik olarak bir fazla ödeme/eksik ödeme defter hesabına nakledilir.
 
 
-
+Daha fazla bilgi için bkz. [Satıcı ödeme genel bakışı](../cash-bank-management/tasks/vendor-payment-overview.md).
 

@@ -15,13 +15,13 @@ ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
 ms.author: omulvad
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: 0484723217ccff2ebf717d059429d863ececb797
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -37,7 +37,7 @@ Müşteriler malları çeşitli nedenlerle iade edebilir. Örneğin, bir mal kus
 ## <a name="return-order-process"></a>İade emri işlemi
 Aşağıdaki şekilde iade emri işleminin genel özeti verilmektedir.  
 
-[![satışiadeleri01](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
+[![İade emri işlemi](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
 
 İki tür iade emri işlemi vardır: fiziksel iade ve yalnızca alacak.
 
@@ -213,7 +213,7 @@ Varış işlemi sırasında iadeler ambar varışları için genel işlemle tüm
 
 Önceden yenileme durumunda, mal iade edilmeden önce, değiştirilen mal müşteriye teslim edilebilir. Örneğin, mal, yerine yedek parça koyulmadan çıkarılamayacak bir makine parçasıysa veya müşterinin yenilenen ürünü en kısa sürede almasını istiyorsanız bu yöntem yararlı olur. Önceden yenileme siparişi, bağımsız bir satış siparişidir. Başlık bilgileri müşteriden, satır bilgileri iade emrinden başlatılır. Değiştirme siparişini iade emrinden bağımsız olarak düzenleyebilir, işleyebilir ve silebilirsiniz. Bir değiştirme siparişini değiştirdiğiniz zaman, siparişin bir değiştirme siparişi olarak oluşturulduğu iletisi alırsınız. Önceden değiştirme işlemi aşağıdaki şekilde gösterilmektedir.  
 
-[![Önceden yenileme işlemi](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)  
+![Önceden yenileme işlemi](./media/SalesReturn04.png)
 
 İade emri, değiştirme siparişine başvuru içerir. Kusurlu mal iade edilmeden önce bir önceden değiştirme siparişi oluşturulursa, kusurlu mal iade edildikten sonra, değiştirme için değerlendirme kodu seçemezsiniz.
 
@@ -221,7 +221,7 @@ Varış işlemi sırasında iadeler ambar varışları için genel işlemle tüm
 
 Müşteriye bir değiştirme maddesi gönderirseniz ve iade emrinde **Değiştir ve ıskartaya ayır** veya **Değiştir ve alacaklandır** değerlendirme eylemini kullanıyorsanız, aşağıdaki şekilde gösterilen işlemi kullanın.  
 
-[![Değerlendirme kodu kullanıldığında değiştirme işlemi](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)  
+![Değerlendirme kodu kullanıldığında değiştirme işlemi](./media/SalesReturn05.png)
 
 Değiştirilen mal, değiştirme satış siparişi adlı bağımsız bir satış siparişiyle teslim edilir. Bu satış siparişi, iade emri için sevk irsaliyesi hazırlanırken oluşturulur. Sipariş başlığında, iade emri başlığında başvurulan, müşteriden alınmış bilgiler kullanılır. Satır bilgileri, **Yerine koyulacak madde** sayfasına girilen bilgilerden alınır. **Yerine koyulacak madde** sayfası, "değiştir" sözcüğüyle başlayan değerlendirme eylemleri olan satırlar için doldurulmuş olmalıdır. Ancak, değiştirme maddesinin ne miktarı ne de kimliği doğrulanmıştır veya sınırlıdır. Bu davranışa, müşterinin aynı malı farklı bir yapılandırma veya boyutta istediği veya müşterilerin tamamen farklı bir mal istediği durumlarda izin verilir. Varsayılan olarak, **Yerine koyulacak madde** sayfasına aynı mal girilir. Ancak, işlevin ayarlanmış olması koşuluyla, farklı bir mal seçebilirsiniz. **Not:** Değiştirme satış siparişini oluşturulduktan sonra silemez ve düzenleyemezsiniz.
 
@@ -254,7 +254,7 @@ Faturalama işleminin bir parçası olarak, tüm sair giderleri doğrulayın. Ge
 
 Aşağıdaki şekilde, iki şirketin şirketlerarası bir ilişkiye girmesi ve şirketlerarası ticaretten faydalanması için gereken minimum kurulum gösterilmektedir.  
 
-[![Minimum kurulum](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)  
+![Minimum kurulum](./media/SalesReturn06.png)
 
 Aşağıdaki senaryoda, CompBuy şirket alıcı, CompSell ise satıcı şirkettir. Genellikle, satıcı şirket malları alıcı şirkete veya doğrudan teslim sevk senaryolarında doğrudan son müşteriye gönderir. CompBuy'da, satıcı IC\_CompSell, CompSell şirketiyle ilişkili şirketlerarası bir uç nokta olarak tanımlanır. Aynı zamanda, CompSell'de, müşteri IC\_CompBuy, CompBuy şirketiyle ilişkili şirketlerarası bir uç nokta olarak tanımlanır. Uygun eylem ilkesi politikası ayrıntıları ve değer eşlemeleri her iki şirkette de tanımlanmalıdır. Doğrudan teslim sevkiyat senaryosunda, bir şirketlerarası iade emri oluşturulur (bu aynı zamanda bir şirketlerarası satış siparişidir). Şirketlerarası iade emrinin RMA numarası, CompSell'deki RMA numara serisinden alınabilir veya CompBuy'daki orijinal iade emrine atanmış RMA numarasından kopyalanabilir. CompBuy'ın **SatınalmaTalebi** eylem politikasındaki RMA numarası ayarları bu eylemleri belirler. RMA numarası eşitlenmişse, iki şirketin aynı numara sırasını kullanması durumunda numara çakışması riskini azaltma planı yapmanız gerekir.
 
@@ -262,7 +262,7 @@ Aşağıdaki senaryoda, CompBuy şirket alıcı, CompSell ise satıcı şirketti
 
 Bu senaryo, aşağıdaki şekilde gösterildiği gibi, aynı kuruluştaki iki şirketle ilgilidir.  
 
-[![Basit şirketlerarası iade](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
+![Basit şirketlerarası iade](./media/SalesReturn07.png)
 
 Alıcı şirkette bir satıcı iade emri veya satıcı şirkette müşteri iade emri oluşturulduğunda sipariş zinciri oluşturulabilir. Finance and Operations diğer şirkette karşılık gelen siparişi oluşturur ve satıcı iade siparişindeki üstbilgi ve satır bilgilerinin müşteri iade emrindeki ayarları yansıtıp yansıtmadığından emin olur. Oluşan iade emri, mevcut bir müşteri faturasında referansı (**Satış siparişini bul**) dahil edebilir veya hariç tutabilir. İki emrin sevk irsaliyeleri ve faturaları ayrı ayrı işlenebilir. Örneğin, müşteri iade emri için sevk irsaliyesi oluşturmadan önce satıcı iade emri için bir sevkiyat irsaliyesi oluşturmak zorunda kalmazsınız.
 
@@ -270,7 +270,7 @@ Alıcı şirkette bir satıcı iade emri veya satıcı şirkette müşteri iade 
 
 Bu senaryo, **Doğrudan teslim** türünden bir önceki satışın tamamlanması durumunda ve müşteriyle etkileşime giren şirkette müşteriye yönelik bir fatura mevcutsa oluşturulabilir. Aşağıdaki şekilde, CompBuy şirketi daha önce müşterileri Extern'e ürün satmış ve faturalamıştır. Ürünler CompSell şirketinden müşteriye bir şirketlerarası sipariş zinciri aracılığıyla doğrudan gönderilmiştir.  
 
-[![Üç taraf arasında doğrudan teslim sevkiyat iadeleri](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)  
+![Üç taraf arasında doğrudan teslim sevkiyat iadeleri](./media/SalesReturn08.png)
 
 Extern adlı müşteri ürünleri iade etmek isterse, CompBuy şirketinde müşteri için bir iade emri (RMA02) oluşturulur. Şirketlerarası zinciri kurmak için, iade emrine doğrudan teslim işareti koyulması gerekir. İade için müşteri faturasını seçerken **Satış siparişini bul** işlevini kullanırsanız, aşağıdaki belgelerden oluşan bir şirketlerarası sipariş zinciri kurulur:
 
@@ -292,7 +292,7 @@ Aşağıdaki örneklerde, iade maliyet fiyatı **Fatura maliyet fiyatı** olarak
 
 İade emrinde bir müşteri faturasına referans yok. İade edilen madde alacak kaydediliyor. İade emri faturası veya alacak dekontu oluşturulduğu zaman **Alacak düzeltme** parametresi seçilmemiş.  
 
-[![İade emrinde bir müşteri faturasına referans yok](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)  
+![İade emrinde bir müşteri faturasına referans yok](./media/SalesReturn09.png)  
 
 **Not:** **İade maliyet fiyatı** parametresi için varsayılan değer olarak madde master fiyatı kullanılır. Varsayılan fiyat, stok çıkışı anındaki maliyet fiyatından farklıdır. Bu nedenle, etki, 3 birimlik bir kaybın tahakkuk etmesidir. Ayrıca, iade emri, satış siparişinde müşteriye verilen iskontoyu içermez. Bu nedenle, fazla bir alacak oluşur.
 
@@ -300,7 +300,7 @@ Aşağıdaki örneklerde, iade maliyet fiyatı **Fatura maliyet fiyatı** olarak
 
 Örnek 2, örnek 1'le aynı olmakla birlikte, iade emri faturası oluşturulurken **Alacak düzeltmesi** parametresi seçilmiştir.  
 
-[![İade emri için alacak düzeltmesi seçiliyor ](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)  
+![İade emri için alacak düzeltmesi seçiliyor ](./media/SalesReturn10.png)  
 
 **Not:** Genel muhasebe nakilleri negatif düzeltmeler olarak girilir.
 
@@ -308,7 +308,7 @@ Aşağıdaki örneklerde, iade maliyet fiyatı **Fatura maliyet fiyatı** olarak
 
 Bu örnekte iade emri satırı **Satış siparişi bul** işlevi kullanılarak oluşturuluyor. Fatura oluşturulurken **Alacak düzeltme** parametresi seçilmemiş.  
 
-[![İade emri satırı Satış siparişi bul işlevi kullanılarak oluşturuluyor ](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)  
+![İade emri satırı Satış siparişi bul işlevi kullanılarak oluşturuluyor ](./media/SalesReturn11.png)  
 
 **Not:** **İskonto** ve **İade maliyet fiyatı** doğru biçimde ayarlanmıştır. Bu nedenle, müşteri faturasının tam ters kaydı gerçekleşir.
 

@@ -1,9 +1,9 @@
 ---
 title: "Alacak hesapları, Alacak ve Tahsilatları yapılandır"
 description: "Faturaları ve müşterilerden gelen ödemeleri izlemek için Alacak hesaplarını ve Alacak ve Tahsilatları yapılandırın."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 24631
 ms.assetid: 8c1fc7c5-b461-41ed-b102-2648cc58eb0b
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74556e571c215b0fea8deb061fd968c240b063d4
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 1d37014e8f7b333a15077fc3477808a3ad62b96f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -66,12 +65,12 @@ Aşağıdaki tablo, Alacak hesapları ve kredi ve tahsilatların yapılandırma 
 |                                                      | Para birimleri                           | Kuruluşunuzun kullandığı para birimlerini görüntüleyin ve oluşturun.                                                                                                                                                                                                                       |
 |                                                      | Döviz kurları              | Muhasebe para birimi ve diğer para birimleri arasında uygun döviz kurlarını yönetin ve sürdürün.                                                                                                                                                                              |
 |                                                      | Şirketlerarası muhasebe              | Geçerli tüzel kişiliğin deftere nakil yapabileceği bir hesaplar listesi oluşturun. Borç ve alacak hesaplarını ve aynı zamanda diğer tüzel kişilikteki hareketleri alan günlüğü ayarlamanız gerekir.                                                                             |
-|                                                      | Ödeme yöntemleri - müşteri        | Müşterilere yönelik ödeme yöntemleri hakkındaki bilgileri oluşturun ve güncelleştirin.                                                                                                                                                                                                           |
+|                                                      | Ödeme yöntemleri - müşteri        | Müşterilere yönelik ödeme yöntemleri hakkındaki bilgileri oluşturun ve güncelleştirin. Daha fazla bilgi için bkz. [Müşteri ödeme yöntemi geliştir](tasks/establish-customer-method-payment.md).                                                                                             |
 |                                                      | Kuruluş hiyerarşileri             | Merkezi ödemeler için bir kuruluş hiyerarşisi ayarlayın.                                                                                                                                                                                                                        |
 |                                                      | Kuruluş hiyerarşisi amaçları      | Merkezi ödemeler için bir amaç belirtin.                                                                                                                                                                                                                                       |
 |                                                      | Ödeme günleri                         | Müşterilerden alacağınız ödemelere veya satıcılara yapacağınız ödemelere ait vade tarihlerini hesaplamak için kullanılan ödeme günlerini tanımlayın.                                                                                                                                                |
-|                                                      | Ödeme masrafı                          | Kambiyo senetlerinin masrafları gibi müşterilerle ilgili ödeme masraflarını oluşturun ve saklayın.                                                                                                                                                                               |
-|                                                      | Ödeme masrafı kurulumu                    | Banka, ödeme yöntemi, havale tipleri, ödeme şekilleri, para birimleri ve tarih aralıklarının çeşitli birleşimleri için ödeme masraflarını ayarlayın.                                                                                                                              |
+|                                                      | Ödeme masrafı                          | Kambiyo senetlerinin masrafları gibi müşterilerle ilgili ödeme masraflarını oluşturun ve saklayın.                                                                                                                                                                         |
+|                                                      | Ödeme masrafı kurulumu                    | Banka, ödeme yöntemi, havale tipleri, ödeme şekilleri, para birimleri ve tarih aralıklarının çeşitli birleşimleri için ödeme masraflarını ayarlayın.  Daha fazla bilgi için bkz. [Müşteri ödeme ücretleri geliştir](tasks/establish-customer-payment-fees.md).                                                                                   |
 |                                                      | Ödeme planları                    | Müşterilerden alacağınız ve satıcılara yapacağınız taksit ödemelerini planlamak için kullanabileceğiniz ödeme planları oluşturun.                                                                                                                                                                       |
 |                                                      | Ödeme şekli                | Ödeme yöntemleri sayfasında seçtiğiniz ödeme yöntemiyle ilgili ödeme şekli kodları oluşturun ve görüntüleyin. Ödeme şekli kodlarını, bankayla yapmış olduğunuz ve seçili ödeme yöntemi için belirtilmiş sözleşmeye göre tanımlarsınız.                    |
 |                                                      | Hareket metni                     | Genel muhasebeye otomatik nakiller için hareket metinleri oluşturun. Çeşitli dillerde hareket metinleri ayarlayabilirsiniz.                                                                                                                                                           |
@@ -83,8 +82,8 @@ Aşağıdaki tablo, Alacak hesapları ve kredi ve tahsilatların yapılandırma 
 |                                                      | Ödeme yöntemleri - müşteri        | Müşterilere yönelik ödeme yöntemleri hakkındaki bilgileri oluşturun ve güncelleştirin.                                                                                                                                                                                                           |
 |                                                      | İmza                            | .bmp, .jpg veya .gif dosyaları gibi imza resmi dosyalarını ekleyin, değiştirin veya kaldırın. İmza resim dosyaları resmi tüzel kişilik imzaları olarak çeklere yazdırılır.                                                                                                             |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
-| Alacak hesapları istatistiklerini konfigüre etme           | Yaşlandırma dönem tanımları             | Müşteri hesaplarının ve satıcı hesaplarının vadesini girdiğiniz bir tarihe göre analiz etmek için kullanılan kullanıcı tarafından tanımlanmış yaşlandırma dönem tanımlarını ayarlayın ve yönetin.                                                                                                         |
-|                                                      | Ticari istatistikler                  | Organizasyonunuzun performansını analiz etmenize yardımcı olacak ticari istatistik sorgulamaları ayarlayın.                                                                                                                                                                              |
+| Alacak hesapları istatistiklerini konfigüre etme           | Yaşlandırma dönem tanımları             | Müşteri hesaplarının ve satıcı hesaplarının vadesini girdiğiniz bir tarihe göre analiz etmek için kullanılan kullanıcı tarafından tanımlanmış yaşlandırma dönem tanımlarını ayarlayın ve yönetin. Daha fazla bilgi için bkz. [Alacak hesapları yaşlandırma bilgisi ayarla ve oluştur](tasks/set-up-accounts-receivable-aging-information.md).                                                           |
+|                                                      | İşletme istatistikleri                  | Organizasyonunuzun performansını analiz etmenize yardımcı olacak ticari istatistik sorgulamaları ayarlayın.                                                                                                                                                                              |
 |                                                      | Ticari istatistik verileri             | Bir seçili ticari istatistik için verileri kılavuz biçiminde görüntüleyin.                                                                                                                                                                                                                     |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
 | Müşteri bilgilerini sürdürme                     | Adres defteri                         | Olasılıklar, müşteri adayları, iş fırsatları, müşteriler, ilgili kişiler, rakipler ve çalışanlarla ilgili bilgileri girin veya görüntüleyin.                                                                                                                                                          |

@@ -16,10 +16,10 @@ ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
-ms.openlocfilehash: d76b3592ed8274498a7a58c46cc83619f2f668f5
+ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.openlocfilehash: fc8b7f6901ffd5c97fb864dbd3f87c5c70a31487
 ms.contentlocale: tr-tr
 ms.lasthandoff: 07/27/2017
 
@@ -102,10 +102,10 @@ Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 3
 <td>Satıcı kullanıcısının, web istemcisindeki satıcı işbirliği web arabirimine erişmesi ve bir satıcı işbirliği kullanıcısı ayarlaması gerekir.</td><td>Satın alma uzmanları ve sistem yöneticisi</td>
 <td>Satıcı işbirliği web arabirimini ayarlamak ve bu arabirimle çalışmak için aşağıdaki konularda açıklanan adımları izleyin.
 <ul>
-<li><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors">Harici satıcılarla çalışmak için satıcı işbirliğini kullanma</a></li>
-<li><a href="/dynamics365/unified-operations/supply-chain/procurement/manage-vendor-collaboration-user">Satıcı iş birliği kullanıcılarını yönetme</a></li>
-<li><a href="/dynamics365/unified-operations/supply-chain/procurement/set-up-maintain-vendor-collaboration">Satıcı iş birliğini ayarlama ve koruma</a></li>
-<li><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations">Finance and Operations'ta müşterilerle çalışmak için satıcı işbirliğini kullanma</a></li>
+<li><a href="vendor-collaboration-work-external-vendors.md">Harici satıcılarla çalışmak için satıcı işbirliğini kullanma</a></li>
+<li><a href="manage-vendor-collaboration-users.md">Satıcı iş birliği kullanıcılarını yönetme</a></li>
+<li><a href="set-up-maintain-vendor-collaboration.md">Satıcı iş birliğini ayarlama ve koruma</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Finance and Operations'ta müşterilerle çalışmak için satıcı işbirliğini kullanma</a></li>
 </ul></td>
 </tr>
 </tbody>

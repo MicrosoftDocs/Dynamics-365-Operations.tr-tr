@@ -3,7 +3,7 @@ title: "Borç hesapları fatura eşleşmesi"
 description: "Borç hesapları faturası eşleştirme, satıcı faturasını, satın alma siparişini ve ürün alındı bilgilerini eşleştirme işlemidir."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6d1348ad43f8170f29bfc2f3df8a2ec60f9f8912
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: aa195f6057ae4ea511d661ffb47b1feeed58d2f9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -192,7 +191,7 @@ Satıcı faturaları, genellikle satınalma siparişlerine göre değil gerçek 
 -   Satıcıdan alınan fatura fatura bilgileri ile eşleşen orijinal satınalma siparişine dahil edilmeyen fatura tutarlarını girin. Satınalma siparişleri için giderleri, faturalar için giderlerle karşılaştırabilirsiniz. Gerekirse, faturalara giderler ekleyebilir ve bunları fatura satırlarına tahsis edebilirsiniz.
 -   Fatura net birim fiyatı ve satınalma siparişi net birim fiyatı arasındaki fiyat eşleşme tutarsızlıklarını görüntüleyin ve onaylayın. Tüzel kişiliğiniz, maddeler, satıcılarınız için fiyat toleransı yüzdeleri ayarlayabilirsiniz. Satıcı faturası satır fiyatı kabul edilebilir fiyat tolerans içinde değilse, faturayı deftere nakil işleminde onaylanana kadar veya düzeltmeyi satıcıdan alana kadar kaydedebilirsiniz.
 
-Daha fazla bilgi için bkz: [Üç yollu eşleştirme ilkeleri](three-way-matching-policies.md).
+Daha fazla bilgi için bkz. [Üç yönlü faturaları eşleştirmek](three-way-matching-policies.md) ve [Borç hesapları fatura eşleştirme doğrulaması](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
 
 
 

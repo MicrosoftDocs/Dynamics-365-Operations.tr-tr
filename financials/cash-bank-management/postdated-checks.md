@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: f7cf2b7996d113f0f883b39f3603de8236e8ad2c
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 6a535b5f1192b7c27383cb8ece53f76a9c76f047
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -52,7 +51,7 @@ Microsoft Dynamics 365 for Finance and Operations aşağıdaki tabloda gösteril
 </tr>
 <tr class="even">
 <td>Kaydolun ve satıcının vadeli çekini nakledin.</td>
-<td>Bir satıcıya kestiğiniz ileri tarih atılmış çekin ayrıntılarını kaydedin. Ödeme deftere nakledildiğinde, satıcı yükümlülüğü tanınmış, ancak banka hesabına alacak kaydedilmemiştir. Bunun yerine, bu amaçla bir kliring hesabı kullanılır.</td>
+<td>Bir satıcıya kestiğiniz ileri tarih atılmış çekin ayrıntılarını kaydedin. Ödeme deftere nakledildiğinde, satıcı yükümlülüğü tanınmış, ancak banka hesabına alacak kaydedilmemiştir. Bunun yerine, bu amaçla bir kliring hesabı kullanılır. </td>
 </tr>
 <tr class="odd">
 <td>Bir müşteri için vadeli çeki kayıt edin ve nakledin</td>
@@ -87,6 +86,17 @@ Bir satıcıya verdiğiniz veya bir müşteriden aldığınız orijinal çek kay
 
 
 
+Daha fazla bilgi için aşağıdaki konulara bakın:
+
+[İleri tarih atılmış çekleri ayarlama](tasks/set-up-postdated-checks.md)
+
+[Müşteri için ileri tarih atılmış çeki kaydetme ve deftere nakletme](tasks/register-post-postdated-check-customer.md)
+
+[Müşterinin ileri tarih atılmış çekini kapatma](tasks/settle-postdated-check-customer.md)
+
+[Satıcı için ileri tarih atılmış çeki kaydetme ve deftere nakletme](tasks/register-post-postdated-check-vendor.md) 
+
+[Satıcının ileri tarih atılmış çekini kapatma](tasks/settle-postdated-check-vendor.md)
 
 
 

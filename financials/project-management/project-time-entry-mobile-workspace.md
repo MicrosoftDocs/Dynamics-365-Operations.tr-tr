@@ -18,12 +18,11 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: d80dea89db1fbe270b96063f3818ec3ac95239c8
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 83899969255a9b771fc5e62e66e3c5ffdca0296e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -90,7 +89,7 @@ Kuruluşunuza platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 3
 Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 
 -   [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
--   [iPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)
+-   [İPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Mobil uygulamaya oturum açın
 1.  Mobil cihazınızda uygulamayı başlatın.
@@ -105,11 +104,11 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 2.  **Zaman girişi**'ni seçin. Geçerli hafta için takvim tarihleri gösterilir.
 3.  Seçilen bir tarih için **Eylemler** &gt; **Yeni giriş**'i seçin.
 4.  Kaydedilecek saatlerin sayısını girin.
-5.  Zaman girişi için projeyi seçin. Bir liste çevrimdışı kullanım için uygulamanıza yüklenmiş projeleri gösterir. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için bkz. [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+5.  Zaman girişi için projeyi seçin. Bir liste çevrimdışı kullanım için uygulamanıza yüklenmiş projeleri gösterir. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için bkz. [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 6.  Projeniz listede yoksa, **Ara**'yı seçin. Adına göre arama yapın veya proje adı veya müşteriye göre aramaya geçin.
-7.  Bir kategori seçin. Bir liste çevrimdışı kullanım için uygulamanıza yüklenmiş kategorileri gösterir. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için bkz. [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+7.  Bir kategori seçin. Bir liste çevrimdışı kullanım için uygulamanıza yüklenmiş kategorileri gösterir. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için bkz. [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 8.  Kategoriniz listede yoksa, **Ara**'yı seçin. Kategoriye göre arama yapın veya kategori adına göre aramaya geçin.
-9.  Bir faaliyet seçin. Bir liste çevrimdışı kullanım için uygulamanıza yüklenmiş faaliyetleri gösterir. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için bkz. [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+9.  Bir faaliyet seçin. Bir liste çevrimdışı kullanım için uygulamanıza yüklenmiş faaliyetleri gösterir. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Daha fazla bilgi için bkz. [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 10. Faaliyetiniz listede yoksa, **Ara**'yı seçin. Bir etkinlik numarasıyla arama yapın veya amaca göre aramaya geçin.
 
 11. Satır özelliğini seçin.

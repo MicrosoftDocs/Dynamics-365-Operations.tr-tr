@@ -18,12 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a0edbad63c51d111d7c8985aa7fdf7312da6149d
-ms.openlocfilehash: d14f3510df45169e3b77ee9c4f3d0d9d389e6036
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 6e062ffa459b7d008fc5d24f27538f8df04d7e82
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -101,7 +100,7 @@ Kuruluşunuza platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 3
 Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 
 -   [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
--   [iPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)
+-   [İPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>Mobil uygulamaya oturum açın
 
@@ -116,7 +115,7 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 
 1.  Mobil cihazınızda **Eldeki stok** çalışma alanını seçin.
 
-2.  **Bir maddenin eldeki durumunu kontrol et** seçeneğini işaretleyin. Çevrimdışı kullanım için uygulamanıza yüklenmiş ürünlerin bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+2.  **Bir maddenin eldeki durumunu kontrol et** seçeneğini işaretleyin. Çevrimdışı kullanım için uygulamanıza yüklenmiş ürünlerin bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 3.  Maddeniz listede yoksa, **Daha fazla ara**'yı seçin. Ürün numarası ile arayın veya ürün adına göre aramaya geçin.
 
 4.  Bir ürün seçin. Maddenin bir resmi varsa, resim gösterilir.

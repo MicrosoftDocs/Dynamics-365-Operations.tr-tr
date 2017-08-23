@@ -1,9 +1,9 @@
 ---
 title: "Excel'de bütçe planlama şablonları"
 description: "Bu konu bütçe planlamalarında kullanılabilecek Microsoft Excel şablonlarının nasıl oluşturulacağını açıklar."
-author: twheeloc
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
-ms.author: sigitac
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: ryansand
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 734c8930f239d8c9d220601bb2103bd55dd5bfd8
+ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.openlocfilehash: 7cec40859a8c68cb8a9751c5531c67cef7706258
 ms.contentlocale: tr-tr
 ms.lasthandoff: 07/27/2017
 
@@ -38,22 +38,27 @@ Bu konu, standart demo veri kümesi ve Yönetici kullanıcı oturum açma kullan
 
 Bütçe planlama belgeleri bir veya daha fazla düzen kullanılarak görüntülenebilir ve düzenlenebilir. Her düzen, bir Excel çalışma sayfasında bütçe planını görüntülemek ve düzenlemek için ilişkili bir bütçe planlama belgesi şablonuna sahip olabilir. Bu konuda, bir bütçe plan belgesi şablonu, varsayılan düzen yapılandırması kullanılarak oluşturulacaktır. 
 
-**Bütçe planları listesini** (**Bütçeleme** &gt; **Bütçe planları**) açın. Yeni bir bütçe plan belgesi oluşturmak için **Yeni** üzerine tıklayın. 
+1. **Bütçe planları listesini** (**Bütçeleme** &gt; **Bütçe planları**) açın. 
+2. Yeni bir bütçe plan belgesi oluşturmak için **Yeni** üzerine tıklayın. 
 
-[![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+  [![Bütçe planları listesi](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
-Satır eklemek için **Ekle** seçeneğini kullanın. Bütçe planı belge düzeni yapılandırmasını görüntülemek için **Düzenler** üzerine tıklayın. 
+3. Satır eklemek için **Ekle** seçeneğini kullanın. Bütçe planı belge düzeni yapılandırmasını görüntülemek için **Düzenler** üzerine tıklayın. 
 
-[![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+  [![Bütçe planları ekle](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-Düzen yapılandırmasını gözden geçirebilir ve gerektiği gibi ayarlayabilirsiniz. **Şablon** &gt; **Oluştur** üzerine giderek bu düzen için bir Excel dosyası oluşturun. Şablon oluşturulduktan sonra, **Şablon** &gt; **Görüntüle** üzerine giderek açın ve bütçe planı belge şablonunu görüntüleyin. Excel dosyasını yerel sürücünüze kaydedebilirsiniz. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png)
+Düzen yapılandırmasını gözden geçirebilir ve gerektiği gibi ayarlayabilirsiniz. 
+1. **Şablon** &gt; **Oluştur** üzerine giderek bu düzen için bir Excel dosyası oluşturun. 
+2. Şablon oluşturulduktan sonra, **Şablon** &gt; **Görüntüle** üzerine giderek açın ve bütçe planı belge şablonunu görüntüleyin. Excel dosyasını yerel sürücünüze kaydedebilirsiniz. 
+
+[![Farklı kaydet](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > Bütçe planı belgesi düzeni, bir Excel şablonu onunla ilişkilendirilen sonra düzenlenemez. Düzeni değiştirmek için ilişkili Excel şablon dosyasını silin ve onu yeniden oluşturun. Bu, düzendeki ve çalışma sayfasındaki alanları eşit tutmak için gereklidir. 
 
 Excel şablonu bütçe planı belgesi düzenindeki **Çalışma Sayfasında kullanılabilir** sütunu Evet olarak ayarlanmış tüm öğeleri içerecektir. Excel şablonunda çakışan öğelere izin verilmez. Örneğin, eğer düzen İstek Q1, İstek Q2, İstek Q3 ve İstek Q4 sütunlarını içeriyorsa ve toplam istek sütunu, tüm 4 çeyreklik sütunların toplamını temsil ediyorsa, yalnızca çeyrek sütunları veya toplam sütun Excel şablonunda kullanılmaya açıktır. Excel şablonu çakışan sütunları güncelleştirme boyunca güncelleştiremez çünkü tablo içerisindeki verilerin tarihi geçebilir ve hatalı olabilirler.
 
-[![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
+[![Örnek](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
 > Excel kullanarak bütçe planı verisini düzenleme ve görüntüleme ile ilgili potansiyel sorunları önlemek için, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ve Microsoft Dynamics Office Add-in Data Connector için aynı kullanıcı oturum açmış olmalıdır.
@@ -63,7 +68,7 @@ Başlık bilgisi eklemek için, Excel dosyasındaki üst satırı seçin ve boş
 
 [![bpt5](./media/bpt5-1024x615.png)](./media/bpt5.png) 
 
-**Tasarım** sekmesinde, ** **tıklayın **Ekle** alanlar üzerine ve sonra varlık veri kaynağı olarak **BudgetPlanHeader** seçin.
+**Tasarım** sekmesinde, **Ekle** alanlar üzerine tıklayın ve sonra varlık veri kaynağı olarak **BudgetPlanHeader** seçin.
 
 [![bpt6](./media/bpt6-1024x615.png)](./media/bpt6.png)
 

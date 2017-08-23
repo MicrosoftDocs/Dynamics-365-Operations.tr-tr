@@ -3,7 +3,7 @@ title: "Yıl sonu kapanışı"
 description: "Bu başlık, genel muhasebe yıl sonu kapatma işlemini çalıştırmak için gerekli kurulum ve adımları açıklar."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 50a6a23febc725eb05d30d5db4f97ca699607461
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 4aad946f51c0c9a0a4c0ea1249e6e876cc628e20
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -42,14 +42,14 @@ Yıl sonu kapanış işlemini çalıştırmadan önce, aşağıdakiler için aya
 
 **Ana hesap** sayfasında:
 
--   **Ana hesap türü**nün her ana hesap için doğru tanımlandığını doğrulayın. Ana hesap türü, ana hesabın bakiyesinin bir açılış bakiyesi olarak mı yoksa kapalı olarak mı kalan gelirlere Açılış hareketinde ileri taşınacağı belirlemek için kullanılır.
+-   **Ana hesap türü** nün her ana hesap için doğru tanımlandığını doğrulayın. Ana hesap türü, ana hesabın bakiyesinin bir açılış bakiyesi olarak mı yoksa kapalı olarak mı kalan gelirlere Açılış hareketinde ileri taşınacağı belirlemek için kullanılır.
 -   **Açılış hesabı** alanı, ana hesabın bakiyesinin yıl sonu kapama sırasında yeni bir hesaba aktarılması için kullanılabilir. Yeni ana hesap, **Açılış hesabı** alanına girilir. Genellikle bu, bilanço ana hesapları için, ana hesap devre dışı bırakıldığında ve yeni bir ana hesap, yeni mali yıl için kullanıldığında kullanılacaktır.
 
 **Genel muhasebe parametreleri** sayfasında **Mali yıl kapanışı** altında:
 
 -   **Yıl sonu hareketlerini silerek kapa** seçeneği, sistem tarafından oluşturulan önceki yıl kapanışının Açılış hareketinin, yıl sonu kapanışı tekrar çalıştırıldığında silinip silinmeyeceğini belirtmek için kullanılır. Bu seçenek **Evet** olarak ayarlanırsa, önceki Açılış hareketi silinir ve yeni bir Açılış hareketi geçerli bakiyelere göre oluşturulur. Bu seçenek **Hayır** olarak ayarlanırsa, önceki Açılış hareketi kalır ve ek bir Açılış hareketi, bakiyeleri ileriye doğru, önceki yıl kapanışı hareketlerinden ileriye doğru ayarlamak için oluşturulur.
 -   **Aktarma sırasında kapanış hareketlerinin oluşturması** seçeneği, kar ve zarar hesaplarına ait bakiyeler arasında sıfır durumuna getirmek için kapatılan mali yılın kapanış hareketlerini oluşturması için kullanılır. Bu seçenek **Evet** olarak ayarlanırsa, hem Açılış hareketi hem de Kapanış hareketi oluşturulur. Bu seçenek **Hayır** olarak ayarlanırsa, yalnızca Açılış hareketi bir sonraki mali yılda, bakiyeleri aktarmak için oluşturulur. Kar ve zarar hesabı bakiyelerini, mali yılın sonunda kalır.
--   **Mali yıl durumunu kalıcı kapalı olarak ayarlama** seçeneği, mali yılı kalıcı olarak kapalı duruma ayarlamak için kullanılır. Bu ayarı dikkatle kullanın çünkü kalıcı olarak kapalı tüm dönemlerin durumu, önceki mali yıla ayarlama yapmayı engellemek için yeniden açılamaz. En iyi uygulama bunu **Hayır**olarak ayarlamaktır.
+-   **Mali yıl durumunu kalıcı kapalı olarak ayarlama** seçeneği, mali yılı kalıcı olarak kapalı duruma ayarlamak için kullanılır. Bu ayarı dikkatle kullanın çünkü kalıcı olarak kapalı tüm dönemlerin durumu, önceki mali yıla ayarlama yapmayı engellemek için yeniden açılamaz. En iyi uygulama bunu **Hayır** olarak ayarlamaktır.
 -   **Fiş numarası doldurulmalıdır** seçeneği, bir fiş numarasının yıl sonu kapatma işlemi çalıştırırken gerekip gerekmediğini tanımlamak için kullanılır. Açılış hareketini kolayca tanımlamak için en iyi uygulama, bir fiş numarasını zorunlu kılmaktır.
 
 **Mali takvim** sayfası üzerinde:
@@ -86,7 +86,7 @@ Bir önceki yıl kapanışını seçilen yıl için tersine çevirmek isterseniz
 
 Yıl sonu kapanış işlemi, toplu iş modu varsayılanına döner. Kullanıcının diğer faaliyetlerine dönmesine izin vermek için işlemi toplu iş modunda çalıştırmak bir en iyi uygulamadır. Yıl sonu kapanış süreci tamamlandığında, **Son yıl sonu kapanışının tarihi**, oturum tarihi ile güncelleştirilecektir.
 
-Daha fazla bilgi için bkz. [Genel muhasebe defterini dönem sonunda kapatmak](close-general-ledger-at-period-end.md).
+Daha fazla bilgi için bkz. [Genel muhasebe defterini dönem sonunda kapatmak](close-general-ledger-at-period-end.md) ve [Mali yılı kapatmak](tasks/close-fiscal-year.md).
 
 
 

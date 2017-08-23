@@ -3,7 +3,7 @@ title: "Yevmiye defteri işlemi"
 description: "Bu makaleler, yevmiye işlemlerini daha kolay yapmaya yardımcı olabilecek Microsoft Dynamics 365 for Finance and Operations, Enterprise edition yeteneklerini açıklamaktadır. Bunlar ayrıca doğru verilerin kaydedildiğini ve dahili denetimin hatasız olduğunu da garanti etmeye yardımcı olurlar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/25/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 244eada4202106b65198e3d6e3d0dedaa5486632
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 68da281cb4793ed83f70c68d061d327aa8a8c772
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -40,7 +39,7 @@ Ayarlanması gereken en önemli alanlardan biri günlük adlarıdır. Her amaç 
 
 **Günlük adları** sayfasında aşağıdaki öğeleri ayarlayabilirsiniz.
 
--   **İş akışı onayı** – İç denetim artırmak için toplam borç tutarı gibi ölçütlere göre gözden geçirme ve onay adımları için maddesellik sınırları kuran günlük iş akışları tanımlayın. Genel günlükler için iş akışlarını ** Genel muhasebe iş akışları** sayfası üzerinde ayarlarsınız.
+-   **İş akışı onayı** – İç denetim artırmak için toplam borç tutarı gibi ölçütlere göre gözden geçirme ve onay adımları için maddesellik sınırları kuran günlük iş akışları tanımlayın. Genel günlükler için iş akışlarını **Genel muhasebe iş akışları** sayfası üzerinde ayarlarsınız.
 -   **Varsayılan değerler** – Mahsup hesaplar, para ve mali boyutlar için varsayılan değerleri seçin.
 -   **Günlük kontrolü** – Şirket ve hesap türü ve ayrıca segment değerleri üzerindeki kısıtlamaları ayarlayabilirsiniz. 
 
@@ -82,8 +81,13 @@ Ana hesap kurulumu yevmiye defterine işlemek için birçok seçenek sağlar:
 
 Hesap yapıları ve Gelişmiş kurallar yapıları finansal raporlama ve performans izleme için gerekli olan verilerin yevmiye işleme ve belgeleri sırasında yakalandığını güvence altına almak için büyük önem taşımaktadır. Hesap yapıları ve gelişmiş kurallar yapıları veri girişi deneyimini uyarlamanızı sağlar. Veri girişini sadece her durumda ilgili olan mali boyutları için izin verebilirsiniz ve zorunlu ve doğru verileri her zaman yakalanmasını gereksinimini de zorlayabilirsiniz.
 
-Daha fazla bilgi için bkz.: [Planlama: Hesap planı](plan-chart-of-accounts.md). 
-
+Daha fazla bilgi için aşağıdaki konulara bakın:
+- [Planlama: Hesap planı](plan-chart-of-accounts.md). 
+- [Günlükler için gelişmiş kurallar oluşturma](tasks/create-advanced-rules-journals.md)
+- [Şablon kullanarak yevmiye defteri girişi oluşturma](tasks/create-journal-entry-template.md)
+- [Günlükler oluşturma ve doğrulama](tasks/create-validate-journals.md)
+- [Periyodik günlükleri deftere nakletme](tasks/post-periodic-journals.md)
+- [Genel muhasebe tahsisat günlüğünü işleme](tasks/process-ledger-allocation-journal.md)
 
 
 

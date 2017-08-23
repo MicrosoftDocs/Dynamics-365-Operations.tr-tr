@@ -1,9 +1,9 @@
 ---
 title: "Alacak ve Tahsilatları ayarlamak"
 description: "Bu makale koleksiyonlar işlevselliği ayarlamayı açıklar."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,14 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14031
 ms.assetid: dcc6da2f-9af5-4f1d-abaa-b72967b66979
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4d3682c486e80afd03ec5805575357f4e87781f2
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 76937aacbc1925603766299168ec2d4090bd161b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -94,5 +94,12 @@ Bir müşterinin **Kredi ve Tahsilatlar** hızlı sekmesinde, **Tahsilatlar kiş
 Bir satış temsilcisi belirtilmezse, müşteri kuruluşun birincil satış temsilcisi kullanılır. Birincil satış temsilcisi belirtilmezse, e-post iletileri sayfada listelenen ilk satış elemanına gönderilir.
 
 
+Daha fazla bilgi için aşağıdaki konulara bakın:
+
+ - [Tahsilat mektubu sırası oluşturma](tasks/create-collection-letter-sequence.md)
+ 
+ - [Tahsilat mektuplarını işleme](tasks/process-collection-letters.md)
+ 
+ - [Tahsilat bilgilerini gözden geçirme](tasks/review-collections-information.md)
 
 

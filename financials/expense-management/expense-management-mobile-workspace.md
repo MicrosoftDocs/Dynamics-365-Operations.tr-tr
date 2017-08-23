@@ -16,12 +16,12 @@ ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2dd3db95eb741c37dd8a50c397cb4c9494599250
-ms.openlocfilehash: 993586b1fb46c21d2b68a6060ab897c8ccc76a6c
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 58d36505461ea89bf466209d3da968d1357e58ae
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -131,11 +131,11 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Gider yönetimi mobil çalışma alanını kullanarak giderleri hızlıca girin
 1. Mobil cihazınızda **Gider yönetimi** çalışma alanını açın.
 2. **Hızlı gider girişi**'ni seçin.
-3. Gider için kategori seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş gider kategorilerinin bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Kategoriniz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Gider kategorisine göre arama yapın veya gider türüne göre aramaya geçin.
+3. Gider için kategori seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş gider kategorilerinin bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Kategoriniz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Gider kategorisine göre arama yapın veya gider türüne göre aramaya geçin.
 4. Giderin hareket tarihini girin.
 5. İsteğe bağlı: Gider için tüccarı girin.
 6. Giderin tutarını girin.
-7. Giderin para birimini seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş para birimlerinin bir listesini görürsünüz. Varsayılan olarak, 400 para birimi yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Para biriminiz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Para birimine göre arama yapın veya adına göre aramaya geçin.
+7. Giderin para birimini seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş para birimlerinin bir listesini görürsünüz. Varsayılan olarak, 400 para birimi yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Para biriminiz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Para birimine göre arama yapın veya adına göre aramaya geçin.
 8. **Fotoğraf çek** veya **Resim seç**'i seçin.
 9. Şu adımlardan birini izleyin:
 
@@ -166,11 +166,11 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 7. Listeden bir veya daha fazla gider seçin.
 8. **Tamam**'ı seçin.
 9. Gider raporuna yeni bir gider eklemek için **Yeni gider**'i seçin.
-10. Gider için kategori seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş gider kategorilerinin bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Kategoriniz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Gider kategorisine göre arama yapın veya gider türüne göre aramaya geçin.
+10. Gider için kategori seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş gider kategorilerinin bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Kategoriniz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Gider kategorisine göre arama yapın veya gider türüne göre aramaya geçin.
 11. İsteğe bağlı: Gider için tüccarı girin.
 12. Giderin hareket tarihini girin.
 13. Giderin tutarını girin.
-14. Giderin para birimini seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş para birimlerinin bir listesini görürsünüz. Varsayılan olarak, 400 para birimi yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Para biriminiz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Para birimine göre arama yapın veya adına göre aramaya geçin.
+14. Giderin para birimini seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş para birimlerinin bir listesini görürsünüz. Varsayılan olarak, 400 para birimi yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Para biriminiz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Para birimine göre arama yapın veya adına göre aramaya geçin.
 15. **Tamam**'ı seçin.
 16. Gidere daha fazla ayrıntı eklemek için **Daha fazla ayrıntı ekle**'yi seçin. Kullanılabilir olan alanlar, gider yönetiminin şirketinizdeki yapılandırmasına bağlıdır.
 17. Bir şirket ilkesi, bir gider için fiş gerektiriyorsa, **Fişler**'i seçin ve daha sonra aşağıdaki adımları izleyin:
@@ -216,12 +216,12 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 
         - **Önceki konuklar**'ı seçerseniz aşağıdaki adımları izleyin:
 
-            1. Listeden bir veya daha fazla önceki konuğu seçin. Önceki gider raporlarına eklemiş olduğunuz önceki konukların çevrimdışı kullanım için uygulamanıza yüklenmiş bir listesini göreceksiniz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Önce konuk listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Adına göre arama yapın veya kuruluş, ülke veya unvana göre aramaya geçin.
+            1. Listeden bir veya daha fazla önceki konuğu seçin. Önceki gider raporlarına eklemiş olduğunuz önceki konukların çevrimdışı kullanım için uygulamanıza yüklenmiş bir listesini göreceksiniz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Önce konuk listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Adına göre arama yapın veya kuruluş, ülke veya unvana göre aramaya geçin.
             2. **Tamam**'ı seçin.
 
         - **İş arkadaşları**'nı seçtiyseniz, şu adımları izleyin:
 
-            1. Listeden bir veya daha fazla iş arkadaşı seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş iş arkadaşlarının bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). İş arkadaşınız listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Adına göre arama yapın veya şirket, veya unvana göre aramaya geçin.
+            1. Listeden bir veya daha fazla iş arkadaşı seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş iş arkadaşlarının bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). İş arkadaşınız listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Adına göre arama yapın veya şirket, veya unvana göre aramaya geçin.
             2. **Tamam**'ı seçin.
 
     3. Gider ayrıntılarına dönmek için **Geri** düğmesini seçin.
@@ -230,7 +230,7 @@ Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
 
     1. Listelenecek ilk tarihi seçin.
     2. **Listeleme ekle**'yi seçin.
-    3. Gider listeleme için alt kategoriyi seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş gider alt kategorilerinin bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Alt kategoriniz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Gider alt kategorisi adına göre arayın.
+    3. Gider listeleme için alt kategoriyi seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş gider alt kategorilerinin bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Alt kategoriniz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Gider alt kategorisi adına göre arayın.
     4. Listeleme için hareket tutarını girin.
     5. İhtiyaç duyulursa hareket tarihini düzenleyin.
     6. **Tamam**'ı seçin.

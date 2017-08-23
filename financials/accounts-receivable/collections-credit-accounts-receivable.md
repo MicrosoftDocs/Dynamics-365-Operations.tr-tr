@@ -1,9 +1,9 @@
 ---
 title: "Alacak hesaplarında alacak ve tahsilatlar"
 description: "Alacak hesapları tahsilat bilgileri, Microsoft Dynamics 365 for Finance Operations, Enterprise edition Collections sayfası kullanılarak bir merkezi görünümde yönetilir. Kredi ve tahsilat yöneticileri bu merkezi görünümü kullanarak tahsilatları yönetebilir. Tahsilat temsilcileri, tahsilat işlemine önceden tanımlanmış tahsilat kriterlerini kullanarak oluşturulmuş müşteri listelerinden veya Müşteriler sayfasından başlayabilir."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 282084b9d4e63795ec475690e5b22e06c23bb704
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -90,6 +89,8 @@ Vade farkı dekontlarından veya vade farkı notlarının bir parçası olan üc
 
 Bu ayarlamalar yalnızca vade farkı dekontlarını ve bunların içerdiği faiz ile ücretleri etkiler. Bir müşterinin borçlu olduğu tüm giderleri silmek için "Bir adımda silme hareketleri oluştur" bölümünde bulunan adımları izleyin.
 
+Daha fazla bilgi için bkz. [Bir aralık ile bir faiz kodu oluştur](tasks/create-interest-code-range.md) ve [Faizi işle](tasks/process-interest.md). 
+
 ## <a name="create-writeoff-transactions"></a>Silme hareketi oluşturma
 Ödenmemiş borçları Tahsilatlar formundaki ve Yaşlandırılmış bakiyeler, Müşteriler ve Açık müşteri faturaları liste sayfalarındaki Silme seçeneğine tıklayarak silebilirsiniz. 
 
@@ -100,7 +101,10 @@ Bir müşteri için hareketleri sildiğinizde, müşteriye ilişkin tüm hareket
 -   Üçüncü günlük satırı türü satış vergileri için genel muhasebe silme bilgileri içerir. Bu günlük satırı, yalnızca Alacak hesapları parametreleri sayfasında Ayrı satış vergisi seçimi işaretlendiğinde oluşturulur. İşaretlenen hareketler birden fazla satış vergisi borç hesabı, boyut ve satış vergisi kodu birleşimi içeriyorsa, her birleşim için ayrı bir günlük satırı oluşturulur.
 
 Silme hareketi hareket para birimi cinsinden oluşturulur.
-Yetersiz fon (NSF) ödemelerini işleme  
+
+Daha fazla bilgi için bkz. [Bir müşteri için bir silme günlüğü oluştur](tasks/create-write-off-journal-customer.md).
+
+<a name="process-not-sufficient-funds-nsf-payments"></a>Yetersiz fon (NSF) ödemelerini işleme  
 --------------------------------------------
 
 Tahsilatlar sayfasındaki NSF ödemesine tıklayarak NSF ödemelerini işleyebilirsiniz. Bu düğmeye tıkladığınızda, ödeme iptal edilir. Müşteriye NSF ücreti uygulanırsa, ödeme günlüğünde gider hareketi oluşturulur. Ücret tutarı, otomatik giderler ayarlarını temel alır. NSF ödemeleri için uygulanan otomatik giderler, etkilenen banka hesabı için Banka hesapları sayfasında seçilen gider grubu tarafından belirlenir.

@@ -15,13 +15,13 @@ ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9c083fd26a58e96b3bb810df11eadace184f9dbf
-ms.openlocfilehash: eaa3317acf7df84d06ad3641486df1c096b26a56
+ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
+ms.openlocfilehash: 171d006e20834ea4ad6d5651ec27fc305eac4bc6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -34,7 +34,7 @@ Bu makale, Microsoft Dynamics 365 for Finance and Operations Yardım sistemi bil
 > [!NOTE] 
 > Aşağıdaki ürünler yakından ilişkilidir: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail ve Dynamics 365 for Talent. Aynı işlev, her 3 üründe de görülebilir. Sonuç olarak, Perakende ile ilişkili olan konularda, ürün adı Dynamics 365 for Retail olacaktır; öncelikli olarak Talent ile ilgili konularda, ürün adı Dynamics 365 for Talent olacaktır ve temel ürünle ilgili konularda, ürün adı Dynamics 365 for Finance and Operations olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
 
-Yardım sistemi tüm Unified Operations ürünleri tarafından paylaşılır:
+Yardım sistemi tüm aşağıdaki ürünleri tarafından paylaşılır:
 - Dynamics 365 for Finance and Operations, Enterprise sürümü
 - Dynamics 365 for Retail
 - Dynamics 365 for Talent
@@ -73,7 +73,7 @@ docs.microsoft.com sitesi ([docs.microsoft.com/dynamics365/operations](/dynamics
 
 ![Site araması sonuçları](./media/site-search-results-2.png)
 
-### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>Unified Operations için docs.microsoft.com içindekiler tablosu
+### <a name="the-docsmicrosoftcom-table-of-contents"></a>docs.microsoft.com içindekiler tablosu
 Tüm ürünler, docs sayfasında tek bir içindekiler tablosunu paylaşırlar ve bu da müşterilerin içinde bulundukları konu hakkındaki bağlamı görmelerine olanak sağlar. Ayrıca, aradığınız konuları bulmak için Filtre denetimini kullanmanıza olanak sağlar.
 
 ### <a name="how-can-i-contribute"></a>Nasıl katkıda bulunabilirim? 
@@ -101,7 +101,7 @@ Site için yeni bir hesap oluşturmak için sağda, bir e-posta adresi ve yeni b
 ## <a name="task-guides"></a>Görev kılavuzları
 Bir Görev kılavuzu size bir görevin veya iş işlemin adımları boyunca yol gösteren denetimli, destekli, etkileşimli bir deneyimdir. Yardım bölmesinden bir Görev kılavuzunu açabilirsiniz (oynatabilirsiniz). Bir Görev kılavuzuna tıkladığınızda Yardım bölmesi görev için talimatları adım adım gösterecektir. Yerelleştirilmiş Görev kılavuzları artık hazır. 
 
-Her bir Unified Operations ürünü için farklı görev kılavuzu kümeleri sağlayacağız. Yardım bölmesindeki Görev kılavuzlarına erişmek bölümü, ürününüz için doğru görev kılavuzlarını bulmayı açıklar. 
+Dynamics 365 for Retail, Dynamics 365 for Finance and Operations ve Dynamics 365 for Talent gibi farklı ürünler için farklı görev kılavuzu kümeleri sağlayacağız. Yardım bölmesindeki Görev kılavuzlarına erişmek bölümü, ürününüz için doğru görev kılavuzlarını bulmayı açıklar. 
 
 ![Görev kılavuzu okuma görünümü](./media/task-guide-ops.png)
 
@@ -169,7 +169,7 @@ Bir sistem yöneticisi bu adımları tamamladıktan sonra Yardım bölmesini aç
 -   Görev kılavuzu çevrilmediyse, açtığınızda, yalnızca bazı metinler (kontrollerin metinleri) seçmiş olduğunuz dilde görüntülenir.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
-Aşağıdaki tablo, Unified Operations içeriği sağlayan web sitelerini listeler. İçerik web sitelerimiz müşteri ömrünü desteklemek için düzenlenmiştir. Her aşama farklı bir site kümesi tarafından desteklenir. Adının yanında bir yıldız işareti (\*) olan siteler hizmet planı ile ilişkili olan bir hesabı kullanarak oturum açmanızı gerektirir.
+Aşağıdaki tablo web sitelerimizi listeler. İçerik web sitelerimiz müşteri ömrünü desteklemek için düzenlenmiştir. Her aşama farklı bir site kümesi tarafından desteklenir. Adının yanında bir yıldız işareti (\*) olan siteler hizmet planı ile ilişkili olan bir hesabı kullanarak oturum açmanızı gerektirir.
 
 | Tesis                                                                     | Açıklama                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
