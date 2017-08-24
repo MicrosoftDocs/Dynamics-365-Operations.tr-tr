@@ -14,13 +14,13 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9f4b007c174961a8e6794ab532d733584f492758
-ms.openlocfilehash: ead315d2e07818b35dd2806fca7e242f4028be07
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 25cba59dfbab2e1030660840e85d278452e39e52
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -29,9 +29,9 @@ ms.lasthandoff: 07/27/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 for Finance and Operations'ta, [Ürün bulunabilirliği kılavuzu](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf)'nda belirtilen ülkeler/bölgelere yönelik işlevler bulunur. Bu işlev, etkin tüzel kişiliğin birincil adresi esas alınarak etkinleştirilir. 
+Microsoft Dynamics 365 for Finance and Operations'ta, [Uluslararası ürün bulunabilirliği kılavuzu](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf)'nda belirtilen ülkeler/bölgelere yönelik işlevler bulunur. Bu işlev, etkin tüzel kişiliğin birincil adresi esas alınarak etkinleştirilir. 
 
-Bu konu, ülkeye/bölgeye özgü işlevler hakkında daha fazla bilgi edinmenize yardımcı olabilecek kaynakların listesini içerir. 
+Bu konu, ülkeye/bölgeye özgü çözümler, güncelleştirmeler, uyarılar ve işlevler hakkında daha fazla bilgi edinmenize yardımcı olabilecek kaynakların listesini içerir. 
 
 ## <a name="developing-localized-solutions"></a>Yerelleştirilmiş çözümler geliştirme
 Aşağıdaki kaynaklar, ülkeye/bölgeye özgü özelleştirmeler veya Microsoft'un desteklemediği bir ülke için çözüm oluşturan geliştiricilere ve ISV'lere yardımcı olabilecek rehberlik ve bilgiler sunar.
@@ -96,9 +96,13 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 -   [CODA banka ekstresi](/dynamics365/unified-operations/financials/localizations/emea-bel-coda-bank-statement-import)
 -   [Intervat vergi beyannamesi](/dynamics365/unified-operations/financials/localizations/emea-bel-intervat-tax-declaration)
 -   [PRODCOM raporu ayarı](/dynamics365/unified-operations/financials/localizations/emea-bel-prodcom-report)
+-   [Mutabakat raporları](/dynamics365/unified-operations/financials/localizations/emea-bel-reconciliation-reports)
 
 ### <a name="brazil"></a>Brezilya
 
+-   [CIAP sabit kıymet](/dynamics365/unified-operations/financials/localizations/latam-bra-ciap-fixed-asset)
+-   [Mali defterleri yapılandırma](/dynamics365/unified-operations/financials/localizations/latam-bra-configure-fiscal-books)
+-   [Brezilya için Genel muhasebe konsolidasyonundaki hareketleri dışa ve içe aktarma](/dynamics365/unified-operations/financials/localizations/latam-bra-general-ledger-consolidation-transactions)
 -   [Mali defterler](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-books)
 -   [Mali belge metni yer tutucuları](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-document-text-placeholders)
 -   [Mali belgeler](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework)
@@ -108,10 +112,12 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 -   [Elektronik ödeme iade işlemi sırasında oluşturulan günlükler](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process)
 -   [NF-e işlemi](/dynamics365/unified-operations/financials/localizations/latam-bra-nf-e-process)
 -   [Tüzel kişilikler için parametreler](/dynamics365/unified-operations/financials/localizations/latam-bra-legal-entity-parameters)
+-   [Brezilya için elektronik ödeme havalelerini işleme](/dynamics365/unified-operations/financials/localizations/latam-bra-process-electronic-payment-remittances)
 -   [Satınalma tamamlayıcı mali belgeleri](/dynamics365/unified-operations/financials/localizations/latam-bra-purchase-complementary-fiscal-documents)
 -   [Başvurulan mali belgeler](/dynamics365/unified-operations/financials/localizations/latam-bra-referenced-fiscal-documents)
 -   [Satış tamamlayıcı mali belgeleri](/dynamics365/unified-operations/financials/localizations/latam-bra-sales-complementary-fiscal-documents)
 -   [Hizmet elektronik mali belgesi](/dynamics365/unified-operations/financials/localizations/latam-bra-service-electronic-fiscal-document)
+-   [NF-e XML belgelerini ve DANFE dosyalarını ayarlama, içe aktarma ve doğrulama](/dynamics365/unified-operations/financials/localizations/latam-bra-set-up-import-nfe)
 -   [Vergi öznitelikleri](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-attributes)
 -   [Vergi ödemeleri](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-payments)
 -   [Vergiler](/dynamics365/unified-operations/financials/localizations/latam-bra-calculate-taxes)
@@ -159,6 +165,7 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 - [Döviz kuru ayarlamaları](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
 - [Ödeme yöntemlerine ait dosya biçimleri](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
 - [Estonya ve Litvanya için sabit kıymetleri elden çıkarma](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+- [ISO20022 dosyalarını içe aktarma](/dynamics365/unified-operations/financials/localizations/emea-ISO20022-file-formats)
 - [Intrastat](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
 - [Stok günlüğü raporları](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names)
 - [Letonya ve Litvanya için fatura ve sevk irsaliyesi numaralandırma](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
@@ -174,6 +181,7 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 - [SEPA Hesaptan ödemeye genel bakış](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
 - [Müşteri ve satıcı ücreti ayarlama](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
 - [Basılı formlar için imzalayanları ayarlama](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+- [Storno muhasebesi](/dynamics365/unified-operations/financials/localizations/emea-storno)
 - [Vergi yönergeleri](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
 - [Tutarların raporlarda ve belgelerde nasıl görüntüleneceğini güncelleştirme](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
 - [KDV döviz kurları](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
@@ -246,6 +254,7 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 
 -   [Sabit kıymet onarım raporu](/dynamics365/unified-operations/financials/localizations/emea-ltu-fixed-asset-repair-statement)
 -   [Fatura ve sevk irsaliyesi numaralandırma](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
+-   [KDV beyanı ayrıntıları](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details)
 
 ### <a name="mexico"></a>Meksika
 
@@ -296,6 +305,7 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 -   [Sabit kıymet yeniden değerleme grupları](/dynamics365/unified-operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
 -   [Topluluk içi KDV](/dynamics365/unified-operations/financials/localizations/emea-esp-intra-community-vat)
 -   [Tek seferlik müşteriler](/dynamics365/unified-operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
+-   [İspanya düzenini kullanarak çekleri yazdırma](/dynamics365/unified-operations/financials/localizations/emea-esp-print-checks-with-spanish-layout)
 -   [İspanya senet seçenekleri](/dynamics365/unified-operations/financials/localizations/emea-esp-promissory-note-options)
 -   [Satış ve satınalma döngüleri](/dynamics365/unified-operations/financials/localizations/emea-esp-sales-purchase-cycle)
 -   [Özel girişler ve açılış tabloları](/dynamics365/unified-operations/financials/localizations/emea-esp-opening-sheets-spain)
@@ -313,15 +323,17 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 ### <a name="thailand"></a>Tayland
 
 -   [Stok kartı raporları](/dynamics365/unified-operations/financials/localizations/apac-tha-stock-card-reports)
+-   [Tayland için vergi faturasını değiştirme/ayarlama](/dynamics365/unified-operations/financials/localizations/apac-tha-substitution-and-adjustment-invoices)
 -   [Gerçekleşmemiş KDV](/dynamics365/unified-operations/financials/localizations/apac-tha-unrealized-vat)
 -   [Stopaj vergisi](/dynamics365/unified-operations/financials/localizations/apac-tha-withholding-tax)
 
 ### <a name="united-kingdom"></a>Birleşik Krallık
 
--   [Birleşik Krallık için İnşaat Endüstri Şeması](/dynamics365/unified-operations/financials/localizations/emea-gbr-cis-construction-industry-scheme)
+-   [Birleşik Krallık için İnşaat Endüstrisi Şeması](/dynamics365/unified-operations/financials/localizations/emea-gbr-cis-construction-industry-scheme)
 
 ### <a name="united-states"></a>Amerika Birleşik Devletleri
 
+-   [Kamu sektöründe Form 1099](/dynamics365/unified-operations/financials/localizations/noam-usa-form-1099-public-sector)   
 -   [Form I-9 doğrulama](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-form-i-9-verification)
 -   [Yıl sonu 1099 raporlaması](/dynamics365/unified-operations/financials/localizations/noam-usa-year-end-1099-reporting)
 -   [Bordro](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-payroll)
