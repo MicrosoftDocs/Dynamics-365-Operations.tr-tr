@@ -1,0 +1,78 @@
+--- 
+title: "Minimum kapsamı güncelleştirmek için emniyet stoku günlüğünü kullanma"
+description: "Bu yordam, geçmiş işlemleri temel alarak minimum kapsam tekliflerinin nasıl hesaplanacağını ve ardından tekliflerle madde kapsamının nasıl güncelleştirileceğini gösterir."
+author: ChristianRytt
+manager: AnnBe
+ms.date: 10/27/2016
+ms.topic: business-process
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+audience: Application User
+ms.reviewer: yuyus
+ms.search.scope: Operations
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: crytt
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
+ms.openlocfilehash: 72b873faaee7bc86bd98f90ca2fb12a216d2f06b
+ms.contentlocale: tr-tr
+ms.lasthandoff: 07/27/2017
+
+---
+# Minimum kapsamı güncelleştirmek için emniyet stoku günlüğünü kullanma
+
+[!include[task guide banner](../../includes/task-guide-banner.md)]
+
+Bu yordam, geçmiş işlemleri temel alarak minimum kapsam tekliflerinin nasıl hesaplanacağını ve ardından tekliflerle madde kapsamının nasıl güncelleştirileceğini gösterir. Bu işlem emniyet stoku günlüğü kullanılarak yapılır. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu görev, üretim planlamacısına minimum kapsamı korumasında yardım etmeye yönelik olarak tasarlanmıştır.
+
+
+## Yeni bir emniyet stoku günlüğü adı oluşturun.
+1. Emniyet stoku günlük adlarına gidin.
+2. Yeni'ye tıklayın.
+3. Ad alanına "Malzeme" yazın.
+4. Açıklama alanına "Malzeme" yazın.
+5. Sayfayı kapatın.
+
+## Emniyet stoku günlüğü adı oluştur
+1. Emniyet stoku hesaplamaya gidin.
+2. Yeni'ye tıklayın.
+3. Ad alanına bir değer girin veya buradan bir değer seçin.
+    * Örneğin, Malzeme gibi oluşturduğunuz emniyet stoku günlük adını seçin.  
+4. Satır oluştur'a tıklayın.
+5. Başlangıç tarihi alanına bir tarih girin.
+    * Tarihi "02.01.2015" olarak ayarlayın.  
+6. Bitiş tarihi alanına bir tarih girin.
+    * Tarihi "30.12.2015" olarak ayarlayın.  
+7. Tamam'a tıklayın.
+    * Bu işlem, stok işlemleri olan boyutlar için satırlar oluşturur.  
+
+## Teklifi hesapla
+1. Teklifi hesapla'ya tıklayın.
+2. Sağlama süresi içinde ortalama stok çıkışını kullan seçeneğini belirleyin.
+3. Çarpım faktörünü 10 olarak ayarlayın.
+    * Teklifi düzenlemek için Çarpma faktörü kullanılır. Demo verilerde yalnızca birkaç işlem bulunduğundan gerçekçi bir teklif elde etmek için faktörü ayarlamanız gerekir.  
+4. Tamam'a tıklayın.
+    * M0002 ve M0003'ü bulmak için aşağı kaydırın. Hesaplanan minimum miktar sütununu görüntüleyin.   
+
+## Minimum miktarı güncelleştir
+1. Yeni minimum miktar alanına bir sayı girin.
+    * Hesaplanan minimum miktardaki değer ile eşleşmesi için Yeni minimum miktarı güncelleştirin. Hesaplanan minimum miktar sıfır ise istediğiniz gelecek değerini girebilirsiniz. Örneğin, ambar 12'si olan M0002 için bu alana Hesaplanan minimum miktarı girebilirsiniz.  
+2. Listede, istenen kaydı bulun ve seçin.
+    * Örneğin, ambar 12'si olan M0002'yi seçebilirsiniz.  
+3. Yeni minimum miktar alanına bir sayı girin.
+    * Hesaplanan minimum miktardaki değer ile eşleşmesi için Yeni minimum miktarı güncelleştirin. Hesaplanan minimum miktar sıfır ise istediğiniz gelecek değerini girebilirsiniz.  
+
+## Yeni minimum miktarı gönderin ve sonucu doğrulayın
+1. Deftere Naklet öğesine tıklayın.
+2. Tamam'a tıklayın.
+3. Madde numarası alanındaki bağlantıyı izlemek için tıklayın.
+4. Madde numarası alanındaki bağlantıyı izlemek için tıklayın.
+5. Eylem Bölmesinde, Planla öğesine tıklayın.
+6. Madde kapsamı'na tıklayın.
+    * Minimum miktarın, emniyet stoku günlüğündeki yeni minimum miktar ile güncelleştirildiğine dikkat edin.  
+
+

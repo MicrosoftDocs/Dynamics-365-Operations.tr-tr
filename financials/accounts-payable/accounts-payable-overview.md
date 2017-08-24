@@ -1,9 +1,9 @@
 ---
 title: "Borç hesaplarını yapılandırın"
 description: "Bu makalede, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da Borç hesapları için temel ve isteğe bağlı işlevleri ayarlamada kullanacağınız sayfalar açıklanmaktadır. Ayrıca, Borç hesaplarını ayarlamaya başlamadan önce tamamlamanız gereken kurulum adımları da açıklanmaktadır."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 24671
 ms.assetid: 82561fe7-b2d6-464c-9347-79d0ce0f9743
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 2a61cb86a4f2cfc6d701445c139e22df0db44f8c
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 9b29fec7fadbb1ac699f1144f011df1bfd2f511a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -47,7 +46,7 @@ Borç hesaplarını ayarlamadan önce aşağıdaki kurulumu tamamlamanız gereki
 ## <a name="setup-pages-for-accounts-payable"></a>Borç hesapları için kurulum sayfaları
 
 Her tüzel kişilik için temel Borç hesapları işlevlerini ayarlamak üzere aşağıdaki sayfaları kullanın. Sayfalar önerilen kurulum sırasıyla listelenmiştir. Kurulum işlemini kolaylaştırmak için, oluşturduğunuz ilk kayıtlardan şablonları oluşturabilirsiniz. Bir şablonda, değerler genellikle kuruluşun belirli bir satıcı tipi için uygulamak istediği özellikleri yansıtan değerleri içerir.
-1.  Satış siparişlerine, satınalma siparişlerine, müşterilere ve satıcılara atadığınız ve fatura vade tarihlerini belirleyen ödeme koşullarını, Ödeme koşulları sayfasında tanımlayın.
+1.  Satış siparişlerine, satınalma siparişlerine, müşterilere ve satıcılara atadığınız ve fatura vade tarihlerini belirleyen ödeme koşullarını, Ödeme koşulları sayfasında tanımlayın. Daha fazla bilgi için bkz. [Satıcı ödeme ücretlerini tanımlama](tasks/define-vendor-payment-fees.md).
 2.  Ödeme yöntemleri - Satıcılar sayfa üzerinde, kuruluşun satıcılarına nasıl ödeme yaptığı hakkındaki bilgileri oluşturun ve sürdürün.
 3.  Deftere nakletme, kapatma ve ödeme, raporlama ve tahmin yürütme için önemli parametreleri paylaşan satıcı gruplarını, Satıcı grupları sayfasında oluşturun ve sürdürün.
 4.  Satıcı deftere nakil profilleri sayfasında, satıcı hareketlerinin genel muhasebeye nasıl nakledildiğini tanımlayın.

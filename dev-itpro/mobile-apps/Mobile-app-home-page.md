@@ -16,12 +16,12 @@ ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
-ms.search.validFrom: 2017-02-28T00:00:00.000Z
+ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
-ms.openlocfilehash: 8674a237878d4358c7f9ce4d4dfcace302536063
+ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.openlocfilehash: 46a77f2757bee9f688d8c0d23f15cd7eb27ebcb3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/04/2017
 
 ---
 
@@ -113,11 +113,8 @@ Aşağıdaki tablo, Microsoft ve özel mobil çalışma alanlarından sağlanan 
 <tr class="even">
 <td>4</td>
 <td>Geliştirici veya bağımsız yazılım satıcısı (ISV)</td>
-<td>Mobil çerçeveyi, özel mobil çalışma alanları oluşturmak için kullanın.</td>
-<td><ul>
-<li><a href="mobile-platform.md">Mobil çerçeve</a></li>
-<li><a href="mobile-workspace-xpp-apis.md">Çalışma alanı X++ API'ları</a></li>
-</ul></td>
+<td>Mobil platformu, özel mobil çalışma alanları oluşturmak için kullanın.</td>
+<td><a href="platform/mobile-platform-home-page.md">Mobil platform</a></td>
 </tr>
 <tr class="odd">
 <td>5</td>
@@ -135,7 +132,7 @@ Aşağıdaki tablo, Microsoft ve özel mobil çalışma alanlarından sağlanan 
 <td>7</td>
 <td>Sistem yöneticisi</td>
 <td>ISV tarafından sağlanan özel mobil çalışma alanlarını yayınlayın.</td>
-<td><a href="publish-mobile-workspace.md">Bir mobil çalışma alanı yayınlayın</a></td>
+<td><a href="publish-mobile-workspace.md">Mobil çalışma alanı yayınlama</a></td>
 </tr>
 <tr class="even">
 <td>8</td>

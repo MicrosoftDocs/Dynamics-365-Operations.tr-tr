@@ -3,7 +3,7 @@ title: "Bir görev akışında el ile yapılan görevi yapılandır"
 description: "Bu konu, el ile bir görevin özelliklerini yapılandırmayı açıklar."
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.custom: 192191
 ms.assetid: 27f1afde-ff26-4b6f-8c11-27ec49130bbb
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -165,6 +165,7 @@ Eğer bir kullanıcı ayırılan zaman içerisinde el ile görevi tamamlamazsa, 
 
 1.  Sol bölmede **İlerletilme**'yı tıklatın.
 2.  İlerletme yolu oluşturmak için **İlerletme yolunu kullan** onay kutusunu seçin. Sistem görevi ilerletme yolunda listelenmiş olan kullanıcılara otomatik olarak atar. Örneğin, aşağıdaki tablo bir ilerletme yolunu temsil eder.
+
     | Seri | İlerletme yolu      |
     |----------|----------------------|
     | 1        | Şu kişiye ata: Donna     |
@@ -318,7 +319,9 @@ Bir el ile görev tamamlandığında, temsilci atandığında, ilerletildiğinde
 8.  Adım 3'ten 7'ye kadar olan adımları adım 2'de seçtiğiniz tüm olaylar için yineleyin.
 
 ## <a name="set-a-time-limit"></a>Zaman limiti ayarlama
-El ile görevin belirli bir süre içerisinde tamamlanması gerekiyorsa bu adımları izleyin. **Not:** Bu yordamda belirlediğiniz seçenekler, sayfanın **Atama** ve **İlerletme** alanlarında belirlemiş olduğunuz seçenekleri geçersiz kılar.
+El ile görevin belirli bir süre içerisinde tamamlanması gerekiyorsa bu adımları izleyin. 
+
+**Not:** Bu yordamda belirlediğiniz seçenekler, sayfanın **Atama** ve **İlerletme** alanlarında belirlemiş olduğunuz seçenekleri geçersiz kılar.
 
 1.  Sol bölmede **Gelişmiş ayarlar**'ı tıklatın.
 2.  **İş akışı öğesi için bir zaman sınırı ayarlayın** onay kutusunu işaretleyin.

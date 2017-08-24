@@ -1,35 +1,33 @@
 ---
 title: "Muhasebe veya raporlama para birimlerini dönüştürme"
 description: 
-author: RobinARH
+author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 78223
 ms.assetid: 31c56f9a-9c64-40a2-90e3-1969a760614b
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 728af2fff6317c17e47d48ea07dbeb57068fbf3f
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: c738207f3088da151ec2317ce2b445f83278ec79
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Muhasebe veya raporlama para birimlerini dönüştürme
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 Muhasebe para birimini ya da raporlama para birimini değiştirmesi gereken bir şirketin iki seçeneği vardır. İlk seçenek, yeni bir şirket oluşturmak ve taze bir başlangıç yapmaktır. İkinci seçenek ise, muhasebe ve raporlama para birimi dönüştürme işlemini çalıştırmaktır. Bu, sistemdeki her hareketi değiştiren ve çok uzun süren bir işlemdir. İşlemin çalıştırılması için bazı ayarlar da yapılması gerekir.
@@ -77,6 +75,6 @@ Para birimi dönüştürmesinin ardından dönüştürülen tüm tutarların do�
 
 Tüm genel muhasebe hareketi günlükleri silinmiş olduğundan, genel muhasebe hareketlerini günlüğe aktarabilirsiniz. **Genel muhasebe** &gt; **Dönemsel** &gt; **Günlükler** &gt; **Günlüğe aktarma**'yı tıklatın. Para birimi dönüştürme işleminden sonra yeniden değerleme gerekiyorsa yabancı para birimi tutarlarını yeniden değerleyebilirsiniz. Yeniden değerleme işlem için **Yöntem** alanında **Standart** seçeneğini belirleyerek yabancı para birimi tutarlarını yeniden değerleyebilirsiniz.
 
-
+Daha fazla bilgi için bkz. [Deftere nakledilen günlük girişlerini deftere girme](tasks/journalize-posted-journal-entries.md).
 
 

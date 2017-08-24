@@ -15,14 +15,13 @@ ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 28b5c72a174c7d40fcf1e4c348834fc532b04fcc
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: ed80e59579c2356cc3c1e0f13b33026284867a2c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -44,7 +43,7 @@ Talent'ı şu görevleri gerçekleştirmek için kullanabilirsiniz:
 + Gündem, oturum ve yönerge içeren eğitim kursları hazırlayın, sağlayın ve analiz edin.
 
 > [!NOTE] 
-> Dynamics 365 for Talent, Dynamics 365 for Finance and Operations, Enterprise sürümünde İnsan kaynaklarıyla yakından ilgilidir. Aynı işlev, iki üründe de görülebilir. Sonuç olarak, özellikle İnsan kaynaklarıyla ilgili konularda, ürün adı Dynamics 365 for Finance and Operations, Enterprise sürümü, özellikle Talent ile ilgili konularda ise Dynamics 365 for Talent olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
+> Dynamics 365 for Talent, Dynamics 365 for Finance and Operations, Enterprise sürümünde İnsan kaynaklarıyla yakından ilgilidir. Aynı işlev, iki üründe de görülebilir. Sonuç olarak, özellikle İnsan kaynaklarıyla ilgili konularda ürün adı Dynamics 365 for Finance and Operations Enterprise Edition, özellikle Talent ile ilgili konularda ise Dynamics 365 for Talent olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>İnsan kaynaklarınızı yönetmek için strateji geliştirme
 ---------------------------------------------------------
@@ -54,12 +53,15 @@ Talent ile çalışırken departman, iş ve pozisyon gibi öğeleri kullanarak k
 -   [Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme](departments-jobs-positions.md)
 -   [Şirkete özgü İK parametrelerini ayarlama](set-up-company-specific-hr-parameters.md)
 -   [Tüzel kişilikler arasında İK parametreleri ayarlama](set-up-hr-parameters-across-legal-entities.md) 
+-   [Personel eylemleriyle ilgili SSS](personnel-actions-faq.md)
+-   [İzin ve devamsızlığa genel bakış](leave-absence-overview.md)
 
 ## <a name="retain-and-motivate-employees"></a>Personeli elde tutma ve motive etme
 
 Ücret ile birlikte kuruluşunuzun personelinize verdiği bilgisayarlar veya telefonlar gibi öğeleri de etkin ve adaletli bir şekilde yönetebilirsiniz. Sabit ve değişken ücret planları oluşturabileceğiniz gibi bu plan ölçütlerini karşılayan ücret planının uygulandığı kurallar da tanımlayabilirsiniz.
 
 -   [Ücret planları](compensation-plans.md)
+-   [İşlem ücreti](process-compensation.md)
 -   [Sabit ücret planları oluşturma](create-fixed-compensation-plans.md)
 -   [Değişken ücret planları oluşturma](create-variable-compensation-plans.md)
 

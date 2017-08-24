@@ -3,7 +3,7 @@ title: "Satış vergisi ödemeleri ve yuvarlama kuralları"
 description: "Bu makalede, Satış vergisi makamlarında yuvarlama kuralı ayarlarının nasıl çalıştığı ve Satış vergilerini kapatma ve deftere nakletme işi sırasında satış vergisi bilançosunun yuvarlanması açıklanmaktadır."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7ec117598a6a008e5b274179659b515824029874
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 8de01b77fcbeb65321e60614b6a11d264460208f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -65,8 +64,11 @@ Aşağıdaki tabloda, 98.765,43 tutarının Satış vergisi dairesi sayfasındak
 > [!NOTE]                                                                                  
 > Kendi avantajı seçeneğini seçerseniz, yuvarlama daima tüzel kişiliğin yararına yapılır. 
 
-Daha fazla bilgi için bkz. [Satış vergisine genel bakış](indirect-taxes-overview.md). 
-
+Daha fazla bilgi için aşağıdaki konulara bakın:
+- [Satış vergisine genel bakış](indirect-taxes-overview.md)
+- [Satış vergisi ödemesi oluşturma](tasks/create-sales-tax-payment.md)
+- [Belgelerde satış hareketleri oluşturma](tasks/create-sales-tax-transactions-documents.md)
+- [Deftere nakledilen satış vergisi hareketlerini görüntüleme](tasks/view-posted-sales-tax-transactions.md)
 
 
 

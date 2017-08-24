@@ -1,9 +1,9 @@
 ---
 title: "Kredi kartı ayarlama, onaylama ve tutma"
 description: "Bu makale, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da kredi kartı onayına genel bakışı sağlar. Nasıl ödeme hizmeti ayarlanacağı, satış emrine kredi kartı ekleneceği ve yetkilendirme iptal edileceğine dair bilgiler içerir."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 3041
 ms.assetid: 678f6899-bfa5-439b-aaca-b4affcc338ba
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: a5b3dc7710ebbce50366ca9299bfb30dffc03187
 ms.contentlocale: tr-tr
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

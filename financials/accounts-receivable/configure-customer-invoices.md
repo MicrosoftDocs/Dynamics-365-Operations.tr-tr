@@ -1,9 +1,9 @@
 ---
 title: "Müşteri faturası oluşturma"
 description: 
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fd89921a97782c4d09807a730ab077809304159f
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 249b1f331d6889d3b9ed2ace2e5db21d7a5d3e46
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -30,18 +30,27 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-
-
-**Satış siparişi için müşteri faturası** kuruluşun bir müşteriye verdiği, satışla ilişkili bir faturadır. Bu türdeki bir satış faturası, satış satırları ve madde numaraları içeren bir satış siparişine dayanarak oluşturulur. Madde numaraları genel muhasebede belirtilir ve deftere kaydedilir. Muavin defteri günlük girişleri, bir satış siparişi için müşteri faturası için kullanılamaz 
+**Satış siparişi için müşteri faturası** kuruluşun bir müşteriye verdiği, satışla ilişkili bir faturadır. Bu türdeki bir satış faturası, satış satırları ve madde numaraları içeren bir satış siparişine dayanarak oluşturulur. Madde numaraları genel muhasebede belirtilir ve deftere kaydedilir. Muavin defteri günlük girişleri, bir satış siparişi için müşteri faturası için kullanılamaz Daha fazla bilgi için bkz. [Satış siparişi faturaları oluşturun](tasks/create-sales-order-invoices.md).
 
 Bir **serbest metin faturası** satış siparişiyle ilişkili değildir. Genel muhasebe hesaplarının, serbest metin açıklamalarının ve girdiğiniz satış tutarının bulunduğu sipariş satırlarını içerir. Bu tür bir faturaya bir madde numarası giremezsiniz. Uygun satış vergisi bilgilerini girmeniz gerekir. Satış için bir ana hesap her fatura satırında belirtilir ve **serbest metin faturası** sayfasındaki **Dağıtım tutarları** üzerine tıklatarak birden çok genel muhasebe hesaplarına dağıtabilirsiniz. Ayrıca, müşteri bakiyesi gelen serbest metin faturası için kullanılan deftere nakil profili özet hesabına nakledilir.
+
+Daha fazla bilgi için bkz.:
+
+[Serbest metin faturası oluşturma](tasks/create-free-text-invoice.md)
+
+[Serbest metin şablonu oluşturma](tasks/create-free-text-invoice-template.md)
+
+[Müşteriye serbest metin fatura şablonu atama](tasks/assign-free-text-invoice-template-customer.md)
+
+[Yinelenen serbest metin faturaları oluşturma ve deftere nakletme](tasks/post-recurring-free-text-invoices.md)
+
 
 Bir **Proforma fatura** bir fatura deftere nakledilmeden önce gerçek fatura tutarlarının bir tahmini olarak hazırlanan faturadır. Satış siparişi için müşteri faturası veya bir serbest metin faturası için bir proforma fatura yazdırabilirsiniz.
 
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-sales-orders"></a>Satış siparişine dayalı olan tekil müşteri faturalarını deftere nakledin veya yazdırın.
 Bir satış siparişini temel alan bir fatura oluşturmak için bu işlemi kullanın. Mal veya hizmeti teslim etmeden önce müşteriye fatura kesmek isterseniz bunu yapabilirsiniz. 
 
-Bir faturayı deftere naklettiğinizde, her maddenin **Fatura kalan tutarı**miktarı, seçili satış siparişinden faturalanan miktarların toplamı ile güncelleştirilir. Eğer tüm maddeler için **Fatura kalanı** miktarı ve **Teslimat bakiyesi** satış siparişindeki miktarı 0 (sıfır) olursa, satış siparişinin durumu **Faturalandı** olarak değiştirilir. Eğer **Fatura kalanı** miktarı 0 (sıfır) değilse, satış siparişinin durumu değiştirilmez ve buna ek faturalar girilebilir.
+Bir faturayı deftere naklettiğinizde, her maddenin **Fatura kalan tutarı** miktarı, seçili satış siparişinden faturalanan miktarların toplamı ile güncelleştirilir. Eğer tüm maddeler için **Fatura kalanı** miktarı ve **Teslimat bakiyesi** satış siparişindeki miktarı 0 (sıfır) olursa, satış siparişinin durumu **Faturalandı** olarak değiştirilir. Eğer **Fatura kalanı** miktarı 0 (sıfır) değilse, satış siparişinin durumu değiştirilmez ve buna ek faturalar girilebilir.
 
 Satış siparişlerinin durumunu **Tüm satış siparişleri** listesi sayfasından görüntüleyebilirsiniz. **Açık müşteri faturaları** liste sayfasını deftere nakledilen faturaları görüntülemek için kullanın.
 

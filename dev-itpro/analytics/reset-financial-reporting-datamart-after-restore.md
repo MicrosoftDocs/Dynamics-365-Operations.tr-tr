@@ -15,13 +15,13 @@ ms.custom: 261824
 ms.assetid: d0784b2c-fe10-428d-8d07-fd474ca50fcc
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: c132c04bc64f02201252f03830d3f8309306f19c
+ms.translationtype: HT
+ms.sourcegitcommit: 9953d2f29a67b35f4bb43f577df1c4d910e379a1
+ms.openlocfilehash: 08a420a776f47119a5dc47f9119545aa448ffdbd
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -30,15 +30,20 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu konu Microsoft Dynamics 365 for Finance and Operations veritabanını geri yüklendikten sonra mali raporlama veri reyonunun nasıl sıfırlanacağını açıklar. 
+Bu konu Microsoft Dynamics 365 for Finance and Operations veritabanını geri yüklendikten sonra mali raporlama veri reyonunun nasıl sıfırlanacağını açıklar.
 
-Finance and Operations veritabanınızı bir yedeklemeden geri yüklemenizi veya veritabanını başka bir ortamdan kopyalamanızı gerektirecek birçok senaryo vardır. Bu durum söz konusu olduğunda, mali raporlama veri reyonunun geri yüklenen Finance and Operations veritabanını düzgün şekilde kullanmasını sağlamak için gerekli olan adımları da izlemeniz gerekir. Mali raporlama veri reyonunu Finance and Operations veritabanı geri yüklemesi dışında bir nedenle sıfırlama konusundaki sorularınız için bkz. [Yönetim Raporlayıcısı veri reyonunu sıfırlama](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/). Bu işlemdeki adımların Dynamics 365 for Operation Mayıs 2016 sürümü (Uygulama yapısı 7.0.1265.23014 ve mali raporlama yapısı 7.0.10000.4) ve daha yeni sürümler için desteklendiğini unutmayın. Finance and Operations'ın önceki bir sürümüne sahipseniz, yardım için Destek ekibimize başvurun.
+Finance and Operations veritabanınızı bir yedekten kurtarırsanız veya veritabanını bir ortamdan diğerine kopyalarsanız, mali raporlama verisinin mart'ın Finance and Operations veritabanını doğru kullandığından emin olmak için bu konudaki adımları izleyin. 
+<!--If you have questions about resetting the financial reporting data mart for a reason outside of restoring a Finance and Operations database, refer to the [Resetting the Management Reporter data mart](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) for more information. -->
+> [!Note] 
+> Bu işlemdeki adımların Dynamics 365 for Operation Mayıs 2016 sürümü (Uygulama yapısı 7.0.1265.23014 ve mali raporlama yapısı 7.0.10000.4) ve daha yeni sürümler için desteklenir. Finance and Operations'ın önceki bir sürümüne sahipseniz, yardım için Destek ekibimize başvurun.
 
 ## <a name="export-report-definitions"></a>Rapor tanımlarını dışa aktarma
 İlk olarak, Rapor Tasarımcısı'nda bulunan rapor tasarımlarını aşağıdaki adımları uygulayarak dışa aktarın:
 
 1.  Rapor Tasarımcısında, **Şirket** &gt; **Yapı Taşı Grupları**'na gidin.
-2.  Dışa aktarılacak yapı taşı grubunu seçin ve **Dışa Aktar**'a tıklayın. **Not:** Finance and Operations için yalnızca bir yapı taşı grubu desteklenir, **Varsayılan**.
+2.  Dışa aktarılacak yapı taşı grubunu seçin ve **Dışa Aktar**'a tıklayın. 
+    > [!Note] 
+    > Finance and Operations için yalnızca bir yapı taşı grubu desteklenir, **Varsayılan**.
 3.  Dışa aktarılacak rapor tanımlarını seçin:
     -   Tüm rapor tanımlarını ve ilgili yapı taşlarını dışa aktarmak için **Tümünü Seç** öğesini tıklayın.
     -   Belirli raporları, satırları, sütunları, ağaçları veya boyut kümelerini dışa aktarmak için ilgili sekmeye tıklayın ve ardından dışa aktarılacak maddeleri seçin. Bir sekmede birden fazla madde seçmek için CTRL tuşunu basılı tutun. Dışa aktarılacak raporları seçtiğinizde ilişkili satırlar, sütunlar, ağaçlar ve boyut kümeleri seçilir.
@@ -63,9 +68,9 @@ Ortamdaki tüm bilgisayarlara bağlanmak ve services.msc'yi kullanarak aşağıd
 Bu hizmetlerin Finance and Operations veritabanına açık bağlantıları olacaktır.
 
 ## <a name="reset"></a>Sıfırla
-#### <a name="locate-the-latest-dataupgradezip-package"></a>Son DataUpgrade.zip paketini bulma
+#### <a name="locate-and-download-the-latest-minorversiondataupgradezip-package"></a>En güncel MinorVersionDataUpgrade.zip paketini bulun ve indirin.
 
-[DataUpgrade.zip komut dosyasını indirme](..\migration-upgrade\upgrade-data-to-latest-update.md) konusundaki yönergeleri kullanarak en son DataUpgrade.zip paketini bulun. Yönergeler veri yükseltme paketinin ortamınız için doğru sürümünü nasıl bulacağınızı açıklar.
+[MinorVersionDataUpgrade.zip komut dosyasını indirme](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package) konusundaki yönergeleri kullanarak en son MinorVersionDataUpgrade.zip paketini bulun. Yönergeler veri yükseltme paketinin doğru sürümünü nasıl bulacağınızı ve indireceğinizi açıklar. MinorVersionDataUpgrade.zip paketini indirmek için bir güncelleştirme gerekli değildir. "En son veri yükseltme dağıtılabilir paketini karşıdan yükleme" bölümündeki adımları MinorVersionDataUpgrade.zip paketinin bir kopyasını almak için makalesinde yapmadan diğer adımları tamamlamak yeterlidir.
 
 #### <a name="execute-scripts-against-finance-and-operations-database"></a>Finance and Operations veritabanı için komut dosyalarını çalıştırma
 
@@ -105,8 +110,10 @@ Rapor Tasarımcısı'ndan rapor tanımlarınızı dışa aktarma sırasında olu
 
 1.  Rapor Tasarımcısında, **Şirket** &gt; **Yapı Taşı Grupları**'na gidin.
 2.  Dışa aktarılacak yapı taşı grubunu seçin ve **Dışa Aktar**'a tıklayın. 
+
     > [!NOTE]
     > Finance and Operations için yalnızca bir yapı taşı grubu desteklenir, **Varsayılan**.
+    
 3.  **Varsayılan** yapı bloğunu seçin ve **İçe Aktar**'a tıklayın.
 4.  Dışa aktarılan rapor tanımlarını içeren dosyayı seçin **Aç**'a tıklayın.
 5.  İçe Aktar iletişim kutusunda, içe aktarılacak rapor tanımlarını seçin:

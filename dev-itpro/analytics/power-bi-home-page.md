@@ -1,9 +1,9 @@
 ---
-title: "Kullanıma sunulan Power BI içeriği"
+title: "Power BI içeriği"
 description: "Bu konuda kullanılabilir Power BI içeriği listelenmektedir ve bu konuda daha fazla bilgi edinebileceğiniz kaynaklar belirtilmektedir."
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 08/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,17 +15,17 @@ ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 282973618e56db3feb0103a7021a66d137218a7a
+ms.sourcegitcommit: 0574c8c1164ef54095135bd9b3f2a946320f8996
+ms.openlocfilehash: f6401406981abc3252b7247510e80f12f2c4510d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 08/07/2017
 
 ---
 
-# <a name="power-bi-content-available"></a>Kullanıma sunulan Power BI içeriği
+# <a name="power-bi-content"></a>Power BI içeriği
 [!include[banner](../includes/banner.md)]
 
 
@@ -34,6 +34,7 @@ Bu konuda kullanılabilir Microsoft Power BI içeriği listelenmektedir ve bu ko
 ## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Dynamics 365 for Finance and Operations, Enterprise sürümü Temmuz 2017 güncelleştirmesi için Power BI içeriği
 Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü Temmuz 2017 güncelleştirmesini kullanıyorsanız, aşağıdaki Power BI içeriğini kullanabilirsiniz:
 
+- [Gerçek ve bütçe karşılaştırması Power BI içeriği](ledger-budgets-power-bi.md)
 - [Avantajlar Power BI içeriği](benefits-power-bi.md)
 - [Nakde genel bakış Power BI içeriği](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 - [CFO'ya genel bakış Power BI içeriği](CFO-power-bi.md)

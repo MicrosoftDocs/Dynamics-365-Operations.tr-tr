@@ -3,7 +3,7 @@ title: "Sabit kıymetleri ayarlama"
 description: "Bu konu, Sabit kıymetler modülünün kurulumu hakkında genel bir bakış sağlar."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/25/2017
+ms.date: 08/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8c772f9adf9a0f50cde62744f676da669936ff8e
+ms.translationtype: HT
+ms.sourcegitcommit: 668fea64810524e8ce0c3833d25656c026f2780a
+ms.openlocfilehash: d16c9ca5740c27528d74800957f9b47984c135cd
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/07/2017
 
 ---
 
@@ -44,7 +43,7 @@ Sabit kıymetler oluşturulduklarında bir gruba atanır. Varsayılan olarak, sa
 ![FixedAssetsComponentsImage](./media/FAComponents_Updated.png)
 
 ## <a name="depreciation-profiles"></a>Amortisman profilleri
-Öncelikle amortisman profillerini oluşturulmanız gerekir. Amortisman profilinde bir kıymetin değerinin zaman içinde nasıl amorti edildiğini yapılandırırsınız. Amortisman yöntemini, amortisman yılını (takvim yılı veya mali yıl) ve amortisman sıklığını tanımlamanız gerekir.
+Öncelikle amortisman profillerini oluşturulmanız gerekir. Amortisman profilinde bir kıymetin değerinin zaman içinde nasıl amorti edildiğini yapılandırırsınız. Amortisman yöntemini, amortisman yılını (takvim yılı veya mali yıl) ve amortisman sıklığını tanımlamanız gerekir. Daha fazla bilgi için bkz. [Amortisman profilleri ayarlama ve oluşturma](tasks/set-up-depreciation-profiles.md)
 
 ## <a name="books"></a>Defterler
 Amortisman profillerini ayarladıktan sonra kıymetleriniz için gerekli defterleri oluşturmanız gerekir. Her defter, bir kıymetin bağımsız mali yaşam döngüsünü izler. Defterler ilişkili hareketleri genel muhasebeye nakletmek için yapılandırılabilir. Bu yapılandırma varsayılan ayardır çünkü genellikle kurumsal mali raporlama için kullanılır. Genel muhasebeye nakledilmeyen defterler yalnızca Sabit kıymete nakledilir ve genel olarak vergi raporlama amacıyla kullanılır.
@@ -52,23 +51,24 @@ Amortisman profillerini ayarladıktan sonra kıymetleriniz için gerekli defterl
 Her deftere bir birincil amortisman profili atanır. Bu tür bir profil uygulanabilirse defterlerde ayrıca bir alternatif veya değişim amortismanı profili de bulunur. Sabit kıymet defterini amortisman işlemlerine otomatik olarak eklemek için Amortismanı hesapla seçeneğini etkinleştirmelisiniz. Kıymet için bu seçenek belirlenmemişse amortisman teklifi, kıymeti atlar.
 
 Ayrıca türetilmiş defterleri de ayarlayabilirsiniz. Belirtilen türetilmiş hareketler, temel hareketin türetilmiş defterlere karşı tam bir kopyası olarak nakledilir. Bu nedenle, türetilmiş hareketler amortisman hareketleri için değil, genel olarak alımlar ve elden çıkarmalar için ayarlanır.
+Daha fazla bilgi için bkz. [Defterleri ayarlama](tasks/set-up-value-models.md).
 
 ## <a name="fixed-asset-posting-profiles"></a>Sabit kıymet deftere nakil profilleri
 Defterleri ayarladıktan sonra deftere nakil profilini oluşturabilirsiniz. Deftere nakil profili, defter tarafından tanımlanmalıdır ancak daha ayrıntılı bir düzeyde de tanımlanabilir. Örneğin, bir defter birleşimi ve bir sabit kıymet grubu veya tek bir sabit kıymet defteri için deftere nakil profili tanımlayabilirsiniz. Varsayılan olarak, tanımlanan genel muhasebe hesapları sabit kıymet hareketleri için kullanılır.
 
-Elden çıkarma işlemleri (elden çıkarma satışları ve hurdaları elden çıkarma) sırasında kullanılacak genel muhasebe hesaplarını tanımlamanız gerekir. Elden çıkarma zamanında, önceden nakledilen sabit kıymet hareketleri, orijinal hesaplardan tersine çevrilir ve net tutar, kıymetin elden çıkarılması için ilgili kar ve zarar hesabına aktarılır. Hareketlerin doğru bir şekilde tersine çevrilmesine yardımcı olması için işinizde kullandığınız her hareket türü için hesapları ayarlamanız gerekir. Ana hesap, bu hareket türü için deftere nakil profilinde ayarladığınız orijinal hesap olmalıdır ve mahsup hesap, elden çıkarma hesabının karı ve zararı olmalıdır. Net defter değeri istisnadır. Bu durumda, hem ana hesap hem de mahsup hesap elden çıkarma hesabının karı ve zararı olarak ayarlanmalıdır.
+Elden çıkarma işlemleri (elden çıkarma satışları ve hurdaları elden çıkarma) sırasında kullanılacak genel muhasebe hesaplarını tanımlamanız gerekir. Elden çıkarma zamanında, önceden nakledilen sabit kıymet hareketleri, orijinal hesaplardan tersine çevrilir ve net tutar, kıymetin elden çıkarılması için ilgili kar ve zarar hesabına aktarılır. Hareketlerin doğru bir şekilde tersine çevrilmesine yardımcı olması için işinizde kullandığınız her hareket türü için hesapları ayarlamanız gerekir. Ana hesap, bu hareket türü için deftere nakil profilinde ayarladığınız orijinal hesap olmalıdır ve mahsup hesap, elden çıkarma hesabının karı ve zararı olmalıdır. Net defter değeri istisnadır. Bu durumda, hem ana hesap hem de mahsup hesap elden çıkarma hesabının karı ve zararı olarak ayarlanmalıdır. Daha fazla bilgi için bkz. [Sabit kıymet deftere nakil profilleri ayarlama](tasks/set-up-fixed-asset-posting-profiles.md)
 
 ## <a name="fixed-asset-groups"></a>Sabit kıymet grupları
 Sabit kıymet grubu bir sabit kıymet oluşturduğunuzda gerekli olan tek alandır. Bu alanın değeri, kıymet için çeşitli bilgi alanlarının varsayılan değerini belirler. Defterler, grup içindeki her kıymete bir varsayılan defter atanacak şekilde ayarlanır. Ardından Servis ömrü ve Amortisman yöntemi gibi bir kıymet grubuna özgü defterler için öznitelikler ayarlayabilirsiniz.
 
-Ayrıca bir sabit kıymet grubu ve defterin belirli bir birleşimi için özel amortisman payları veya ek amortisman da tanımlayabilirsiniz. Deftere birden fazla pay atandığında hesaplanan payların sırasını belirtmek için özel amortisman payına öncelik atamanız gerekir.
+Ayrıca bir sabit kıymet grubu ve defterin belirli bir birleşimi için özel amortisman payları veya ek amortisman da tanımlayabilirsiniz. Deftere birden fazla pay atandığında hesaplanan payların sırasını belirtmek için özel amortisman payına öncelik atamanız gerekir. Daha fazla bilgi için bkz. [Sabit kıymet grupları ayarlama](tasks/set-up-fixed-asset-groups.md)
 
 ## <a name="fixed-asset-parameters"></a>Sabit kıymet parametreleri
 Son adım, sabit kıymet parametrelerini güncelleştirmektir.
 
-Aktifleştirme eşiği alanı amorti edilmiş kıymetleri belirler. Satınalma satırı bir sabit kıymet olarak seçilirse ancak belirtilen aktifleştirme eşiğini karşılamazsa yine de bir sabit kıymet oluşturulur veya güncelleştirilir ancak Amortismanı hesapla seçeneği Hayır olarak ayarlanır. Bu nedenle, amortisman tekliflerinin bir parçası olarak kıymet otomatik olarak amorti edilmez.
+**Aktifleştirme eşiği** alanı amorti edilmiş kıymetleri belirler. Satınalma satırı bir sabit kıymet olarak seçilirse ancak belirtilen aktifleştirme eşiğini karşılamazsa yine de bir sabit kıymet oluşturulur veya güncelleştirilir ancak Amortismanı hesapla seçeneği Hayır olarak ayarlanır. Bu nedenle, amortisman tekliflerinin bir parçası olarak kıymet otomatik olarak amorti edilmez.
 
-Bir önemli seçenek de Elden çıkarmayı içeren amortisman düzeltme tutarlarını otomatik olarak oluştur seçeneğidir. Bu seçeneği Evet olarak ayarladığınızda kıymet amortismanı, kıymeti elden çıkarma zamanındaki amortisman ayarlarına göre otomatik olarak ayarlanır. Başka bir seçenek, bir satıcı faturası kullanarak sabit kıymetleri aldığınızda nakit iskontoları alım tutarınızdan düşmenizi sağlar.
+Bir önemli seçenek de **Elden çıkarmayı içeren amortisman düzeltme tutarlarını otomatik olarak oluştur** seçeneğidir. Bu seçeneği **Evet** olarak ayarladığınızda kıymet amortismanı, kıymeti elden çıkarma zamanındaki amortisman ayarlarına göre otomatik olarak ayarlanır. Başka bir seçenek, bir satıcı faturası kullanarak sabit kıymetleri aldığınızda nakit iskontoları alım tutarınızdan düşmenizi sağlar.
 
 Kıymetlerin satınalma işleminin parçası olarak nasıl oluşturulacağını Satınalma siparişleri Hızlı Sekmesinde yapılandırabilirsiniz. İlk seçenek, Satınalmadan kıymet alımına izin ver seçeneğidir. Bu seçeneği Evet olarak ayarlarsanız fatura deftere nakledildiğinde kıymet alımı gerçekleşir. Bu seçeneği Hayır olarak ayarlarsanız bir satın alma siparişi (PO) ve fatura üzerine hala bir sabit kıymet yerleştirebilirsiniz ancak alım deftere nakledilmez. Deftere nakletme, sabit kıymet günlüğünden ayrı bir adım olarak yapılmalıdır. Ürün girişi veya fatura deftere nakil işlemi sırasında kıymet oluştur seçeneği, deftere nakil işlemi sırasında yeni bir kıymet oluşturmanıza izin verir; böylece hareket öncesinde bir sabit kıymet olarak ayarlanmasına gerek kalmaz. Son seçenek olan Satır girişi sırasında sabit kıymetler oluşturmayı denetle, yalnızca satınalma talepleri için geçerlidir.
 
@@ -76,6 +76,6 @@ Sabit kıymette yapılacak değişiklikler veya belirli sabit kıymet hareketler
 
 Son olarak, Sabit kıymetler için numara serilerini Numara serileri sekmesinde tanımlarsınız. Sabit kıymet numarası sırası, belirtilmişse Sabit kıymet grup numarası sırasını geçersiz kılar.
 
-
+Daha fazla bilgi için bkz: [Sabit kıymetler oluşturma](tasks/create-fixed-asset.md).
 
 

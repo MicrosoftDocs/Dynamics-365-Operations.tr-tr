@@ -3,7 +3,7 @@ title: "Satış vergisi genel bakış"
 description: "Bu makalede, satış vergisi sistemine bir genel bakış verilmektedir. Satış vergisi kurulumunun öğeleri ve birlikte nasıl çalıştıkları açıklanmaktadır."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: f4838dade6b2694a11f4b9775fe53560b1332f18
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -47,7 +46,7 @@ Aşağıdaki diyagram vergi varlıklarının kurulumunu ve nasıl ilişkilendiri
 
 Bir şirketin dikkate alması gereken tüm satış vergileri için, bir satış vergi kodu tanımlanması gerekir. Bir satış vergisi kodu, bu satış vergisi için vergi oranlarını ve hesaplama kurallarını saklar. 
 
-Her satış vergisi kodu, bir satış vergisi kapanış dönemine bağlanmalıdır. Satış vergisi kapatma dönemleri, satış vergisinin vergi dairesine bildirilmesi ve ödenmesi gereken tarihi tanımlar. Her satış vergisi kapatma dönemi bir satış vergisi kurumuna atanmalıdır. Satış vergi dairesi, satış vergisinin bildirildiği ve ödendiği varlığı temsil eder. Ayrıca satış vergisi raporunun düzenini de tanımlar. Satış vergisi makamları satıcı hesaplarıyla ilgili olabilir. 
+Her satış vergisi kodu, bir satış vergisi kapanış dönemine bağlanmalıdır. Satış vergisi kapatma dönemleri, satış vergisinin vergi dairesine bildirilmesi ve ödenmesi gereken tarihi tanımlar. Her satış vergisi kapatma dönemi bir satış vergisi kurumuna atanmalıdır. Satış vergi dairesi, satış vergisinin bildirildiği ve ödendiği varlığı temsil eder. Ayrıca satış vergisi raporunun düzenini de tanımlar. Satış vergisi makamları satıcı hesaplarıyla ilgili olabilir. Daha fazla bilgi için bkz. [Vergi kapatma dönemlerini ayarlama](tasks/set-up-sales-tax-settlement-periods.md).
 
 Her satış vergisi kodu, bir genel muhasebe defteri nakil grubuna da bağlanmalıdır. Genel muhasebeye nakil grubu, için satış vergisi kodları tutarların deftere nakledileceğini ana hesapları belirtir. 
 
@@ -60,13 +59,13 @@ Aşağıdaki tablo, vergi kurulumu için varlıkları ve sıralamayı açıklar.
 | Kurulum faaliyeti                                                  | Gerekli/İsteğe bağlı ve açıklama                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ana hesapları oluştur.                                           | Gerekli. Satış vergisi işlevini ayarlamadan önce, şirketin vergileri ödemek ve kaydetmek için kullandığı ana hesapların oluşturulması gerekir.                                                                                                                                                                             |
-| Satış vergisi için Genel muhasebe deftere nakil grupları ayarlayın.                     | Gerekli. Genel muhasebe deftere nakil grupları, satış vergilerinin kaydedileceği ve ödeneceği ana hesapları tanımlar.                                                                                                                                                                                                                            |
-| Vergi dairesi ayarlama.                                   | Gerekli. Satış vergisi daireleri, verginin bildirilmesi ve ödenmesi gereken varlıklardır.                                                                                                                                                                                                                                   |
+| Satış vergisi için Genel muhasebe deftere nakil grupları ayarlayın.                     | Gerekli. Genel muhasebe deftere nakil grupları, satış vergilerinin kaydedileceği ve ödeneceği ana hesapları tanımlar.   Daha fazla bilgi için bkz. [Satış vergisi için genel muhasebe deftere nakil grupları ayarlama](tasks/set-up-ledger-posting-groups-sales-tax.md).                                                                                 |
+| Vergi dairesi ayarlama.                                   | Gerekli. Satış vergisi daireleri, verginin bildirilmesi ve ödenmesi gereken varlıklardır.    Daha fazla bilgi için bkz. [Satış vergi daireleri ayarlama](tasks/set-up-sales-tax-authorities.md).                                                                                                                                          |
 | Satış vergisi kapatma dönemlerini ayarla.                            | Gerekli. Satış vergisi kapatma dönemleri, satış vergisinin ne zaman ve ne sıklıkta bildirilmesi ve ödenmesi gerektiği hakkında bilgiler içerir. Bir satış vergi dairesiyle ilişkilidirler.                                                                                                                                                       |
-| Satış vergisi raporlama kodlarını ayarla.                               | İsteğe bağlı. Satış vergisi raporlama kodları, satış vergisi kodlarına birden fazla satış vergisi kodu için tutarları bir satış vergisi raporlama kodu altında bildirebilmek için atanabilir.                                                                                                                                                                 |
-| Satış vergisi kodlarını ayarla.                                         | Gerekli. Satış vergisi kodları, her satış vergisi için hesaplama kuralları ve vergi oranlarını içerir. Satış vergisi kodları, satış vergisi kapatma periyoduyla ve genel muhasebeye nakil grubuyla ilişkilidir.                                                                                                                                        |
+| Satış vergisi raporlama kodlarını ayarla.                               | İsteğe bağlı. Satış vergisi raporlama kodları, satış vergisi kodlarına birden fazla satış vergisi kodu için tutarları bir satış vergisi raporlama kodu altında bildirebilmek için atanabilir. Daha fazla bilgi için bkz. [Satış vergisi raporlama kodları ayarlama.](tasks/set-up-sales-tax-reporting-codes.md).                                         |
+| Satış vergisi kodlarını ayarla.                                         | Gerekli. Satış vergisi kodları, her satış vergisi için hesaplama kuralları ve vergi oranlarını içerir. Satış vergisi kodları, satış vergisi kapatma periyoduyla ve genel muhasebeye nakil grubuyla ilişkilidir. Daha fazla bilgi için bkz. [Satış vergisi kodları ayarlama.](tasks/set-up-sales-tax-codes.md).                                |
 | Satış vergisi gruplarını ayarla.                                        | Gerekli. Satış vergisi grupları, bir hareketin tarafı (müşteri vey satıcı) için uygulanan satış kodlarının listesini içerir. Belirli bir hareket için, satış vergisi grubundaki ve madde satış vergisi grubundaki satış vergisi kodlarının kesişimi, o harekete uygulanacak satış vergisi kodlarını belirler.                  |
-| Madde satış vergisi gruplarını ayarla.                                   | Gerekli. Madde satış vergisi grupları hareketin kaynağı için (ürün, hizmet vb.) geçerli olan satış kodlarının listesini içerir. Belirli bir hareket için, satış vergisi grubundaki ve madde satış vergisi grubundaki satış vergisi kodlarının kesişimi, o harekete uygulanacak satış vergisi kodlarını belirler. |
+| Madde satış vergisi gruplarını ayarla.                                   | Gerekli. Madde satış vergisi grupları hareketin kaynağı için (ürün, hizmet vb.) geçerli olan satış kodlarının listesini içerir. Belirli bir hareket için, satış vergisi grubundaki ve madde satış vergisi grubundaki satış vergisi kodlarının kesişimi, o harekete uygulanacak satış vergisi kodlarını belirler. Daha fazla bilgi için bkz. [Satış vergisi grupları ve madde satış vergisi grupları ayarlama](tasks/set-up-sales-tax-groups-item-sales-tax-groups.md). |
 | Uygulama parametreleri sayfaları üzerindeki satış vergisi parametreleri ayarlayın. | Gerekli. Genel muhasebe, alacak hesapları ve borç hesapları gibi farklı alanların, dolaylı vergilerin doğru hesaplanabilmesi için parametreler ayarlaması gerekir. Bu parametrelerin çoğu varsayılan değerlere sahip olmakla birlikte, her şirketin gereksinimlerine uyacak şekilde değiştirilmelidir.                                          |
 
 ## <a name="sales-tax-on-transactions"></a>Hareketler üzerindeki satış vergisi
@@ -98,5 +97,5 @@ Fatura Haziran'da deftere nakledildiğinde genellikle kapatır ve 2.500'ü vergi
 Ancak, bir koşullu satış vergisi kullanıyorsanız, ödemeyi müşteriden 30 Temmuz'da aldığınızda, vergi dairesi ile kapatırsınız.
 
 
-
+Daha fazla bilgi için bkz. [Stopaj vergisi ayarlama.](tasks/set-up-withholding-tax.md).
 
