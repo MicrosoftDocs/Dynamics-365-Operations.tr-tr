@@ -1,7 +1,7 @@
 ---
 title: "Öznitelikler oluşturmak ve yönetmek"
 description: "Bu makale Microsoft Dynamics 365 for Retail'daki öznitelikleri açıklar. Öznitelikler kullanıcı tanımlı alanlar aracılığıyla ürün ve özellikleri açıklamanızı sağlar."
-author: josaw1
+author: pdp1207
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: josaw
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16461
 ms.assetid: 2b85491c-f830-4e79-a2cb-681b7ced6988
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 4493c2f9e9e9dfe990f3b1670d3cd35e3bbaa38d
 ms.contentlocale: tr-tr
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

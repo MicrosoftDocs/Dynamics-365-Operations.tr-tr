@@ -1,7 +1,7 @@
 ---
 title: "Finansal rapor tasarımcısında kullanıcı tercihleri"
 description: "Bu makalede, finansal rapor tasarımcısında kullanıcı etkileşimlerinizi özelleştirmek için kullanıcı tercihlerinizi nasıl ayarlayacağınız ve başlangıç oturum açma deneyiminizi nasıl kontrol edeceğiniz açıklanmaktadır. Ayrıca tek tek raporların, rapor kitaplığının ve varsayılan dosya konumlarının nasıl görüntüleneceği de açıklanmaktadır."
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 31161
 ms.assetid: 59da4854-0f8c-4021-acd1-b303c06f4a34
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670

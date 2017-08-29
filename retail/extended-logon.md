@@ -1,7 +1,7 @@
 ---
 title: "Bulut POS ve MPOS için genişletilmiş oturum açma işlevselliğinin ayarlaması"
 description: "Bu konu Bulut POS ve Perakende Modern POS (MPOS) için genişletilmiş oturum açma seçeneğini ayarlamada kullanabileceğiniz seçenekleri ele alır."
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 0b7e5ed451497aea1c2ce798af2b717705538d47
 ms.contentlocale: tr-tr
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

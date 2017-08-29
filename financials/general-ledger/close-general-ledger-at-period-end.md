@@ -1,7 +1,7 @@
 ---
 title: "Genel muhasebeyi dönemi sonunda kapatma"
 description: "Bu konu, genellikle bir dönem kapanışı için genel muhasebe gerçekleştirirken tamamlanmış görevleri açıklar."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

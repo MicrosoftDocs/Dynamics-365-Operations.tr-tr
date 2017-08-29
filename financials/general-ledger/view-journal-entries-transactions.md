@@ -1,7 +1,7 @@
 ---
 title: "Günlük girişlerini veya hareketlerini görüntüleme"
 description: "Bu makalede, günlük girişlerini ve hareketleri görüntüleyebileceğiniz çeşitli yollar açıklanmaktadır."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
