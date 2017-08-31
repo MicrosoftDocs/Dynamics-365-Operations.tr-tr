@@ -1,7 +1,7 @@
 ---
 title: "Yüzde 175 azalan bakiyeli amortisman"
 description: "Bu makale, amortismanın Yüzde 175 Azalan bakiye yöntemi hakkında genel bir bakış sağlar."
-author: twheeloc
+author: saraschi2
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 13911
 ms.assetid: cc5d001f-bcfe-4602-9ec1-9e265e9fd188
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670

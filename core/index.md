@@ -13,22 +13,22 @@ ms.reviewer: margoc
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: fc446f381850f4f42b6dbc886646d3d32f2d5dd7
-ms.openlocfilehash: 1b46d24a0f671502c9dc3d46849240342d680468
+ms.sourcegitcommit: 8ae84f23744947cf49365d318a208802c6db95a9
+ms.openlocfilehash: 5c40e4bf1d2defeeb656348e1bc3886d5423ca12
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/16/2017
 
 ---
 
 # <a name="introduction-to-dynamics-365-for-finance-and-operations"></a>Dynamics 365 for Finance and Operations tanıtımı
 [!include[banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations, Microsoft'un kurumlar için geliştirdiği iş uygulamasıdır. İnsanların gerçek zamanlı öngörülere ve verilere erişim sunan akıllı bir kullanıcı arabirimi üzerinden daha akılcı kararları hızlı bir şekilde vermelerini sağlar. İşletmelerin iş süreçlerini daha hızlı bir şekilde yeniden tasarlamalarına olanak tanıyan kanıtlanmış iş mantığı sunarak dönüşüme ve yeniliğe ulaşmalarını sağlar. İşletmelere kendi hızlarında büyüme ve neredeyse her yerden ve her zaman iş yapabilme esnekliği vererek iş ihtiyaçlarını karşılamak için işlemlerini ölçeklendirebilmelerini sağlar. 
+Microsoft Dynamics 365 for Finance and Operations, Microsoft'un kurumlar için geliştirdiği iş uygulamasıdır. İnsanların gerçek zamanlı öngörülere ve verilere erişim sunan akıllı bir kullanıcı arabirimi üzerinden daha akılcı kararları hızlı şekilde vermelerini sağlar. İşletmelerin iş süreçlerini daha hızlı bir şekilde yeniden tasarlamalarına olanak tanıyan kanıtlanmış iş mantığı sunarak dönüşüme ve yeniliğe ulaşmalarını sağlar. İşletmelere kendi hızlarında büyüme ve neredeyse her yerden ve her zaman iş yapabilme esnekliği vererek iş ihtiyaçlarını karşılamak için işlemlerini ölçeklendirebilmelerini sağlar. 
 
-Bu belgeler, Dynamics 365 for Finance and Operations'ın işletmeniz için nasıl işe yarayacağını öğrenmenize yardımcı olabilir. Birleşik Operations paketi, Dynamics 365 for Retail ve Dynamics 365 for Talent içindeki ilgili ürünlerin belgeleriyle bağlantılıdır. 
+Bu belgeler, Dynamics 365 for Finance and Operations'ın işletmeniz için nasıl işe yarayacağını öğrenmenize yardımcı olabilir. İlgili ürünlerin belgeleriyle bağlantılıdır: Dynamics 365 for Retail ve Dynamics 365 for Talent. 
 
 <table>
 <colgroup>
@@ -86,7 +86,7 @@ Bu belgeler, Dynamics 365 for Finance and Operations'ın işletmeniz için nası
 <p><a href="../dev-itpro/analytics/financial-reporting-intro">Mali raporlama</a></p>
 <p><a href="../dev-itpro/analytics/general-electronic-reporting">Mevzuat raporlama</a></p>
 
-<h3><a href="../dev-itpro/mobile-apps/mobile-platform">Mobil platform</a></h3>
+<h3><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page">Mobil platform</a></h3>
 
 <h3>Geliştirici işlevi</h3>
 <p><a href="../dev-itpro/dev-tools/developer-home-page">Geliştirici ana sayfası</a></p>

@@ -1,7 +1,7 @@
 ---
 title: "Satış performansını ürüne göre değerlendirme"
 description: "Microsoft Dynamics 365 for Retail kullanarak en iyi 10 ürün için karlılığı inceleyebilirsiniz."
-author: josaw1
+author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: d6c04b8a6a4208e187786be158ceb3c84e1bb408
 ms.contentlocale: tr-tr
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

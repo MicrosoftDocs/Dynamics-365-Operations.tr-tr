@@ -1,7 +1,7 @@
 ---
 title: "Müşteri bağlılık programı ayarlama"
 description: "Bu makalede bir bağlılık programının nasıl oluşturulacağı açıklamaktadır. Bağlılık programları, müşterileri perakende mağazalarınızdan ürün satın aldığı için ödüllendirerek müşteri bağlılığını artırmanıza yardımcı olabilir. Microsoft Dynamics 365 for Retail'de, herhangi bir perakende kanalındaki tüzel kişiliklerinize uygulanan basit veya karmaşık bağlılık programları ayarlayabilirsiniz."
-author: josaw1
+author: scott-tucker
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 710f8ae3a6a2b5072f37879aad066dc699ede8f0
 ms.contentlocale: tr-tr
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

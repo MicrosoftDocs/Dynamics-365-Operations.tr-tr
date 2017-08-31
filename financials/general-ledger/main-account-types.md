@@ -1,7 +1,7 @@
 ---
 title: "Ana hesap türleri"
 description: "Ana hesap türleri, ana hesabın hesap planında nasıl kullanılacağını belirler."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: "Merkezi ödemeleri ayarlama"
 description: "Ödemeleri kuruluşunuzdaki diğer tüzel kişilikler adına tek bir tüzel kişilikten yürütmek üzere hazırlamak için bu adımları kullanın."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article

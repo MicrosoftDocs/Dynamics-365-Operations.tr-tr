@@ -1,7 +1,7 @@
 ---
 title: "Satış eğilimlerini ve modellerini analiz et"
 description: "Microsoft Dynamics 365 for Retail satış eğilimleri ve modellerini gerçek zamanlı inceleyebilirsiniz."
-author: josaw1
+author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: f27e332e5a8028055903054a6175baafd224abe9
 ms.contentlocale: tr-tr
 ms.lasthandoff: 06/20/2017
-
 
 ---
 

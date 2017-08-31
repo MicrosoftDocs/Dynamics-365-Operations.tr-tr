@@ -1,7 +1,7 @@
 ---
 title: Mali boyutlar
 description: "Bu konu, çeşitli mali boyut türlerini ve nasıl ayarlandıklarını açıklar."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: "Merkezi ödemeler için kapatmaya genel bakış"
 description: "Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten bir tüzel kişilik kullanarak ödemeleri oluşturabilir ve yönetebilirler. Bu, aynı hareketi birden fazla tüzel kişiliğe girme gereksinimini ortadan kaldırır ve merkezi ödemeler için ödeme teklifi işlemi, kapatma işlemi, açık hareket düzenleme ve kapalı hareket düzenleme akışını sağlayarak zaman kazandırır."
-author: twheeloc
+author: abruer
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.custom: 222414
 ms.assetid: 610f6858-0f37-4d0f-8c68-bab5a971ef4a
 ms.search.region: Global
 ms.author: abruer
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
