@@ -1,7 +1,7 @@
 ---
 title: "Stok toplu işlerini birleştir"
 description: "Bu makalede iki veya daha fazla stok toplu işinin birleştirilmiş bir toplu iş ile nasıl konsolide edileceği hakkında bilgiler verilmiştir."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
@@ -31,7 +31,7 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede iki veya daha fazla stok toplu işinin birleştirilmiş bir toplu iş ile nasıl konsolide edileceği hakkında bilgiler verilmiştir. 
+Bu makalede iki veya daha fazla stok toplu işinin birleştirilmiş bir toplu iş ile nasıl konsolide edileceği hakkında bilgiler verilmiştir.
 
 Toplu işleri birleştirdiğinizde, hesaplamalar, birleştirilmiş toplu iştin özellikleri ve toplu iş özniteliklerini en iyi duruma getirmenize yardımcı olur. Kaynak toplu işleri seçtikten sonra, birleştirilen toplu işi deftere nakletmeden önce gözden geçirilebilir ve değiştirebilirsiniz. Ayrıca, toplu iş birleştirme işlemini onay için bir stok günlüğüne transfer edebilirsiniz. Stok ardından doğrudan bu stok günlüğünden rezerve edilebilir veya deftere nakledilebilir. Birleştirilmiş bir toplu işi deftere naklettiğinizde, stok, kaynak toplu işler ve birleştirilmiş toplu iş için ayarlanır.
 
@@ -142,7 +142,4 @@ Toplu iş birleştirme stok günlüğünü Tüm toplu iş birleştirmeler listes
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Fiili ağırlık maddesini birleştirdikten sonra neden stok günlüğünde fiili ağırlık bilgilerini göremiyorum?
 Fiili ağırlık maddelerinin toplu işlerini tüm diğer öğeler gibi birleştirebilirsiniz. Ancak, fiili ağırlık bilgileri stok günlüğünde görüntülenmez. Toplu iş birleştirmeyi stok günlüğüne transfer etmeden önce fiili ağırlık bilgilerini doğrulamanız önerilir.
-
-
-
 

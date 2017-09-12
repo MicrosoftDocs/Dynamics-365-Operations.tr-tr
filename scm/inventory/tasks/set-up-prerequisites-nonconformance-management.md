@@ -1,4 +1,4 @@
---- 
+---
 title: "Yönetim ön koşullarını ayarlama"
 description: "Uygunsuzluk yönetimi işlemlerini etkinleştirmek için bu yordamı kullanın."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -101,5 +101,4 @@ Uygunsuzluk yönetimi işlemlerini etkinleştirmek için bu yordamı kullanın. 
 3. Karantina bölgesi alanında bir değer girin.
 4. Açıklama alanına bir değer girin.
 5. Sayfayı kapatın.
-
 

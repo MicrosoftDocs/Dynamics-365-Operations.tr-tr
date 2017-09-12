@@ -1,4 +1,4 @@
---- 
+---
 title: "Ambar içindeki fiziksel stoğu transfer etme"
 description: "Bu yordam, bir ürünün bir yerleşimden başka bir yerleşimdeki ambara taşınması kaydı için bir stok transfer günlüğü oluşturma ve deftere nakletme işlemini adım adım açıklar."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -67,5 +67,4 @@ Bu yordam, bir ürünün bir yerleşimden başka bir yerleşimdeki ambara taşı
 1. Stok'u tıklatın.
 2. Hareketler'e tıklayın.
     * Burada, günlüğünüzü deftere naklettiğinizde oluşturulan hareketleri görebilirsiniz.  
-
 

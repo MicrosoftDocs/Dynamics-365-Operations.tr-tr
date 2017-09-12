@@ -1,4 +1,4 @@
---- 
+---
 title: "Stok sayımı işlemlerini tanımlama"
 description: "Bu prosedürde, size, bir sayım grubu ve bir sayım günlüğü oluşturarak, temel stok sayım işlemlerini yapılandırma gösterilecek."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -84,5 +84,4 @@ Bu prosedürde, size, bir sayım grubu ve bir sayım günlüğü oluşturarak, t
 7. Listeden bir sayım grubu seçin.
     * Burada, seçtiğiniz belirli bir ambardaki maddeye uygulanması gereken belirli bir sayım grubunu seçebilirsiniz. O ambarda sayım işlemi yapılırken, bu sayım ilkesi, maddeye ilişkin genel sayım ilkesinin yerine geçer.  
 8. Kaydet'e tıklayın.
-
 

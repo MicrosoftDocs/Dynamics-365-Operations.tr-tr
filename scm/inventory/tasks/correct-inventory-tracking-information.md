@@ -1,4 +1,4 @@
---- 
+---
 title: "Stok izleme bilgilerini düzeltme"
 description: "Bu yordam, stok izleme bilgilerini düzeltmek için bir stok transfer günlüğü oluşturma ve deftere nakletme işlemini adım adım açıklar."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -62,5 +62,4 @@ Bu yordam, stok izleme bilgilerini düzeltmek için bir stok transfer günlüğ�
 1. Stok'u tıklatın.
 2. Hareketler'e tıklayın.
     * Burada, günlüğünüzü deftere naklettiğinizde oluşturulan hareketleri görebilirsiniz.   
-
 

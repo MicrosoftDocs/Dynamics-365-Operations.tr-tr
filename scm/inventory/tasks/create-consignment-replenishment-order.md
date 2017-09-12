@@ -1,4 +1,4 @@
---- 
+---
 title: "Konsinye stok yenileme siparişi oluşturma"
 description: "Bu yordam bir satıcıdan beklenen teslimatı konsinye stoğunuzda izleyebildiğiniz bir konsinye stok yenileme siparişi oluşturmayı gösterir."
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -60,7 +60,7 @@ Bu yordam bir satıcıdan beklenen teslimatı konsinye stoğunuzda izleyebildiğ
 ## <a name="receive-items"></a>Maddeleri al
 1. Ürün girişi seçeneğine tıklayın.
 2. Harici ürün girişi alanına bir değer yazın.
-3. Miktar alanına, burada gösterilenden daha küçük bir sayı girin. 
+3. Miktar alanına, burada gösterilenden daha küçük bir sayı girin.
 4. Tamam'a tıklayın.
 
 ## <a name="check-the-on-hand-inventory"></a>Eldeki stoğu denetleme
@@ -70,5 +70,4 @@ Bu yordam bir satıcıdan beklenen teslimatı konsinye stoğunuzda izleyebildiğ
     * Satıcının sahip olduğu konsinye, stok olarak alınan maddelerin elde kullanılabilirdir. Konsinye stok yenileme siparişinde kalan miktar Toplam sipariş edilen alanında gösterilir.  
 4. Sayfayı kapatın.
 5. Kapat’a tıklayın.
-
 

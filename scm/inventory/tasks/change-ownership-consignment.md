@@ -1,4 +1,4 @@
---- 
+---
 title: "Üretim talebine bağlı olarak konsinye stok sahipliğini değiştirme"
 description: "Bu yordam üretimde stok için bir talep olduğunda, konsinye stoğun sahibini satıcıdan tüzel kişiliğinize değiştirmeyi gösterir."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -51,5 +51,4 @@ Bu yordam üretimde stok için bir talep olduğunda, konsinye stoğun sahibini s
     * Günlük deftere nakledildiğinde, satıcıya ait stok bir "Sahiplik değişikliği" referansı kullanılarak yayımlanır. Daha sonra stok satınalma siparişi ürün girişi ile güncelleştirilen bir stok hareket kullanılarak elde olarak alınır. Yalnızca deftere nakledilen günlükle ilgili hareketlerin oluşturulduğuna dikkat edin. Beklenen stok hareketleri oluşturulmaz.  
 2. Tamam'a tıklayın.
 3. Sayfayı kapatın.
-
 

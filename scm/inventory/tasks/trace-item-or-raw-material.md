@@ -1,4 +1,4 @@
---- 
+---
 title: Maddeyi veya hammaddeyi izleme
 description: "Bu yordam, ürünlerin veya hammaddelerin kullanılmış veya kullanılmakta olduğunu belirlemek amacıyla ürün izleme işlevinin nasıl kullanılacağını gösterir."
 author: pjacobse
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -54,5 +54,4 @@ Bu yordam, ürünlerin veya hammaddelerin kullanılmış veya kullanılmakta old
 8. Eylem Bölmesinde İzleme öğesini tıklatın.
 9. Sevk edilmiş satış siparişleri'ni tıklatın.
 10. Sayfayı kapatın.
-
 

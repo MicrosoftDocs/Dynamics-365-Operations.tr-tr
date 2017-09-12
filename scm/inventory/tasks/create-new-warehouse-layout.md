@@ -1,4 +1,4 @@
---- 
+---
 title: "Yeni ambar düzeni oluşturma"
 description: "Bu yordam, ambardaki konumlarla ilgili bilgilerin nasıl ayarlanacağını gösterir."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -49,7 +49,7 @@ Bu yordam, ambardaki konumlarla ilgili bilgilerin nasıl ayarlanacağını göst
 7. Konum adları bölümünün genişletilmiş görünümüne geçin.
     * Bu bölümdeki seçenekler, konum adları için varsayılan biçimi belirler. Örneğimizde, koridor numarasını, dolap numarasını ve raf numarasını ekleyeceğiz.  
 8. Koridoru dahil et seçeneğini Evet olarak ayarlayın.
-9. Dolabı dahil et seçeneğini Evet olarak ayarlayın. 
+9. Dolabı dahil et seçeneğini Evet olarak ayarlayın.
 10. Biçin alanına, dolap için bir değer girin.
     * Örneğin: -##  
 11. Raf dahil et seçeneğini Evet olarak ayarlayın.
@@ -74,5 +74,4 @@ Bu yordam, ambardaki konumlarla ilgili bilgilerin nasıl ayarlanacağını göst
 14. Son düğmesini tıklatın.
 15. Sayfayı kapatın.
 16. Sayfayı yenileyin.
-
 

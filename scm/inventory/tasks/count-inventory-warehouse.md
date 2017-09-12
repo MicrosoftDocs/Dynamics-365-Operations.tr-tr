@@ -1,4 +1,4 @@
---- 
+---
 title: "Ambardaki stoğu sayma"
 description: "Bu yordam, ambarda bir yerleşimdeki belirli bir ürünün sayımını yapmak için stok sayım günlüğü oluşturma ve deftere nakletme işlemini adım adım açıklar."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -68,5 +68,4 @@ Bu yordam, ambarda bir yerleşimdeki belirli bir ürünün sayımını yapmak i�
 1. Stok'u tıklatın.
 2. Hareketler'e tıklayın.
     * Burada, stok sayım günlüğünüzü deftere naklettiğinizde oluşturulacak tüm ilgili hareketleri görebilirsiniz.   
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Uyumluluk oluşturma ve işleme"
 description: "Uygunsuzluk yönetimini var olan bir kalite emrine göre gerçekleştirmek için bu yordamı kullanın."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -27,7 +27,7 @@ ms.lasthandoff: 07/27/2017
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Uygunsuzluk yönetimini var olan bir kalite emrine göre gerçekleştirmek için bu yordamı kullanın. Bu kaydı USMF demo şirketinde çalıştırabilir ve önerilen değerleri kullanabilirsiniz. Tipik olarak, bu yordam kalite görevlisi tarafından gerçekleştirilir.  Bir önkoşul olarak "Malların kalitesini incele" görev kaydını çalıştırın. Bir uygunsuzluk onayını işlemek için görev kaydını çalıştıran kullanıcının atanmış kullanıcılar sayfasında bir "Ad" değeri olmalıdır. Kullanıcının belge notları kullanabilmesi için belge işleme seçeneğinin kullanıcı ayarlarında etkinleştirilmiş olması gerekir. 
+Uygunsuzluk yönetimini var olan bir kalite emrine göre gerçekleştirmek için bu yordamı kullanın. Bu kaydı USMF demo şirketinde çalıştırabilir ve önerilen değerleri kullanabilirsiniz. Tipik olarak, bu yordam kalite görevlisi tarafından gerçekleştirilir.  Bir önkoşul olarak "Malların kalitesini incele" görev kaydını çalıştırın. Bir uygunsuzluk onayını işlemek için görev kaydını çalıştıran kullanıcının atanmış kullanıcılar sayfasında bir "Ad" değeri olmalıdır. Kullanıcının belge notları kullanabilmesi için belge işleme seçeneğinin kullanıcı ayarlarında etkinleştirilmiş olması gerekir.
 
 
 ## <a name="select-a-quality-order"></a>Bir kalite emri seçin
@@ -78,5 +78,4 @@ Uygunsuzluk yönetimini var olan bir kalite emrine göre gerçekleştirmek için
 3. Evet'i tıklatın.
 4. Sayfayı kapatın.
 5. Sayfayı kapatın.
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: Kalite emirlerini ayarlama
 description: "Bu prosedürde, size, gelen stoğun varış kaydı yapıldıktan hemen sonra incelenmesi gerektiği durumlarda kalite yönetim işleminin nasıl etkinleştirileceği gösterilmektedir."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -142,5 +142,4 @@ Bu prosedürde, size, gelen stoğun varış kaydı yapıldıktan hemen sonra inc
 15. Listede, istenen kaydı bulun ve seçin.
 16. Kaydet'e tıklayın.
 17. Sayfayı kapatın.
-
 

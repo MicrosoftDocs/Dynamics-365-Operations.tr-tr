@@ -1,7 +1,7 @@
---- 
+---
 title: "Madde varışı genel bakış profili ayarlama"
 description: "Bu görev bir varış genel bakış profili kurulumu üzerinde odaklanır."
-author: BibiSp
+author: perlynne
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -62,5 +62,4 @@ Bu görev bir varış genel bakış profili kurulumu üzerinde odaklanır. Varı
     * Transfer emirlerinden alış irsaliyesi satırlarını seçin.  
 17. Kaydet'e tıklayın.
 18. Sayfayı kapatın.
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Stok durdurma oluşturma ve güncelleştirme"
 description: "Bu yordam, stok durdurma kullanarak eldeki fiziksel stokun başka çıkış kaynak belgeleri tarafından rezerve edilmesini önlemeyi gösterir."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -34,7 +34,7 @@ Bu yordam, stok durdurma kullanarak eldeki fiziksel stokun başka çıkış kayn
 1. Stok yönetimi > Periyodik görevler > Stok durdurma öğesine gidin.
 2. Yeni'ye tıklayın.
 3. Madde numarası alanında, açılır menü düğmesine tıklayarak aramayı açın.
-4. Listede kullanmak istediğiniz maddeyi seçin. 
+4. Listede kullanmak istediğiniz maddeyi seçin.
     * Bir madde numarası ile engellemek istediğiniz eldeki fiziksel stoku seçin. USMF kullanıyorsanız, M9201 öğesini seçebilirsiniz.  
 5. Miktar alanına bir sayı girin.
     * Madde M9201 kullanıyorsanız, 200'den az seçmeniz gerekir.  
@@ -55,5 +55,4 @@ Bu yordam, stok durdurma kullanarak eldeki fiziksel stokun başka çıkış kayn
 1. Sil'i tıklatın.
 2. Evet'i tıklatın.
 3. Sayfayı kapatın.
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Stok uygunluğu denetleme"
 description: "Bu prosedürde size belirli bir madde numarası için eldeki ve fiziksel stoğun nasıl kontrol edileceği gösterilmektedir."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -67,5 +67,4 @@ Bu prosedürde size belirli bir madde numarası için eldeki ve fiziksel stoğun
 4. Boyutları Görüntüle'ye tıklayın.
 5. Tamam'a tıklayın.
 6. Sayfayı kapatın.
-
 

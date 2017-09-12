@@ -1,7 +1,7 @@
 ---
 title: "Varışa genel bakış"
 description: "Bu konu, Varış genel bakış özelliği hakkında bilgi sağlamaktadır. Varış genel bakış sayfası bu özelliğin bir parçasıdır ve gelen maddelere, varması beklenen maddeler olarak genel bir bakış sağlamaktadır."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
@@ -37,9 +37,9 @@ Bu konu, Varış genel bakış özelliği hakkında bilgi sağlamaktadır. Varı
 **Varış genel bakış** sayfası, tüm beklenen gelen maddelerin özetini sağlar. Bir genel görünüme göre başlatılabilecek varışları da gösterir. Bu konu, alma işlemi üzerine odaklanır.
 
 ## <a name="business-scenario"></a>İş senaryosu
-Gelen işlemlerinde aşağıdaki senaryoyu düşünün. 
+Gelen işlemlerinde aşağıdaki senaryoyu düşünün.
 
-[![İş senaryosu](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png) 
+[![İş senaryosu](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Bir alıcı memur olan Sami, geçerli tarihte nelerin gelmesinin beklendiğini bilmek ister. **Varış genel bakış** sayfası üzerinde, Sami geçerli görevler hakkında genel bir bakış ve miktarlar, hacim, ağırlık, farklı sipariş türleri ve benzeri şeylerin kaba bir tahminine sahip olabilir. Daha sonra, bir giriş noktasına bir teslimat gelir ve Sami, teslimatın bir listesini alır. **Varış genel bakış** sayfası üzerinde, Sami aşağıdaki görevleri gerçekleştirebilir:
 
@@ -69,7 +69,7 @@ Bu örnekte, **Varış genel bakış** sayfasının hızlı sekmesindeki **Varı
 
 **Varış genel bakış** sayfasından varış günlüklerini otomatik olarak oluşturmak için **Varış seçenekleri** hızlı sekmesindeki **Günlük** alan grubunda, ilgili bilgileri tanımlamalısınız.
 
--   Bir günlük oluşturmak için günlük adını belirtmeniz gerekir. 
+-   Bir günlük oluşturmak için günlük adını belirtmeniz gerekir.
 
 [![Bir günlük adı belirtmek](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
@@ -123,7 +123,4 @@ Tüm mallar kaydedildiğinde, ambar yöneticisi veya satınalma yöneticisi, fiz
 
 ## <a name="summary"></a>Özet
 **Varış genel bakış** sayfası, ambar yöneticisi ve ambar çalışanlarının, gelen işlemlerin parçası olarak gerçekleştirilmesi gereken beklenen iş hakkında bir genel bakış edinmelerine yardımcı olabilir. Sayfa, madde varış işlemini başlatmak, maddelerin ambara ilk girişte izlenmesini garanti etmek için de kullanılabilir.
-
-
-
 

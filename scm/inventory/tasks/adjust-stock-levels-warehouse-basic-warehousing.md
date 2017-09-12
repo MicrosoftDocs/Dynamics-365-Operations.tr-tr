@@ -1,4 +1,4 @@
---- 
+---
 title: "Ambardaki stok düzeylerini ayarlama (temel ambarlama)"
 description: "Bu yordam, ürünlerin ambardaki stok düzeylerini ayarlamak için bir stok ayarlama günlüğünü oluşturma ve deftere nakletme işlemini size gösterecektir."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ Bu yordam, ürünlerin ambardaki stok düzeylerini ayarlamak için bir stok ayar
 4. Tamam'a tıklayın.
 5. Formu kapatın.
 6. Sayfayı kapatın.
-
 

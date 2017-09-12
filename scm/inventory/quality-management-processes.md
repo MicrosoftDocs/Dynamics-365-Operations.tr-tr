@@ -1,7 +1,7 @@
 ---
 title: "Kalite yönetimi işlemleri"
 description: "Bu makalede, uyumsuz ürünler için kalite yönetimi süreci hakkında bilgiler verilmektedir. Makale, kalite kontrol işlevlerini nasıl kullanacağınızı, uygunsuzlukların nasıl tanımlanıp korunacağını ve düzeltmelerin nasıl yapılacağını açıklamaktadır."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConformanceTable, InventQualityOrderLineResults, InventQualityOrderTable, InventTestCorrection, InventTestDiagnosticType, InventTestInstrument, InventTestReportSetup, InventTestTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11574
 ms.assetid: 5ac8a059-5cb4-4cb5-ba14-b944bd08dae9
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
@@ -56,7 +56,7 @@ Kalite yönetimi sürecinin kontrol edebilmeniz için bazı yollar şunlardır:
 -   Bir kalite emri dahilindeki test sonuçlarını kaydedin, test sonuçlarını AQL ile karşılaştırarak doğrulayın ve test sonuçlarını görüntüleyen bir analiz sertifikası yazdırın.
 
 ## <a name="nonconformance"></a>Uyumsuzluk
-Uygunsuzluk, bir öğenin bir kalite problemine sahip olduğunu açıklar. Uygunsuzluk işlemi, malzemenin miktarını problem kaynağını, problem tipini ve açıklayıcı notları tanımlayan bir uyumsuzluk emri oluşturmanıza izin verir. Uygunsuz malzemenin analizini kolaylaştırmak üzere problem tiplerine yönelik bir sınıflandırmayı tanımlayabilirsiniz. Uygunsuzluk etiketi ve uygunsuz malzeme düzenlemeye kılavuzluk etmek için bir uygunsuzluk raporu da yazdırabilirsiniz. Örneğin, etiket ve rapor **Kullanılamaz** veya **sınırlı kullanım** koşulu belirtebilir. 
+Uygunsuzluk, bir öğenin bir kalite problemine sahip olduğunu açıklar. Uygunsuzluk işlemi, malzemenin miktarını problem kaynağını, problem tipini ve açıklayıcı notları tanımlayan bir uyumsuzluk emri oluşturmanıza izin verir. Uygunsuz malzemenin analizini kolaylaştırmak üzere problem tiplerine yönelik bir sınıflandırmayı tanımlayabilirsiniz. Uygunsuzluk etiketi ve uygunsuz malzeme düzenlemeye kılavuzluk etmek için bir uygunsuzluk raporu da yazdırabilirsiniz. Örneğin, etiket ve rapor **Kullanılamaz** veya **sınırlı kullanım** koşulu belirtebilir.
 
 Aşağıdaki tabloda, altı varsayılan uygunsuzluk türlerini listeler ve her türü için kaydedilmesi gereken bilgiler açıklanır.
 
@@ -69,23 +69,23 @@ Aşağıdaki tabloda, altı varsayılan uygunsuzluk türlerini listeler ve her t
 | İç              | Bir kalite emri hareketinin kalite emri numarası veya lot numarası. Örneğin, uygunsuzluk kalite emrinin bir parçası olarak gerçekleştirilen testler veya bir çalışanın ürün kalitesiyle ilgili kaygısı hakkında olabilir.     |
 | Ortak ürün üretimi | Toplu üretim emirleri için ilgili ortak ürün üretim emri uygunsuzluğu.                                                                                                                                                    |
 
-Uygunsuzluklar bir sorun türü ile ilişkilendirilmiş. Sorun türleri hangi sorun türlerinin uygunsuzluk türü ile ilişkilendirilebileceğini belirttiğiniz **Sorun türleri** sayfasında tanımlanır. Sorun türleri üzerinde tanımlanan. Örneğin, **Hizmet talebi** türüne ilişkin uygunsuzluk sorunu tipleri müşteri şikayetlerinin sınıflandırılmasını yansıtırken, **Dahili** türündeki uyumsuzluk sorunu tipleri kusur kodlarının sınıflandırılmasını temsil edebilir. 
+Uygunsuzluklar bir sorun türü ile ilişkilendirilmiş. Sorun türleri hangi sorun türlerinin uygunsuzluk türü ile ilişkilendirilebileceğini belirttiğiniz **Sorun türleri** sayfasında tanımlanır. Sorun türleri üzerinde tanımlanan. Örneğin, **Hizmet talebi** türüne ilişkin uygunsuzluk sorunu tipleri müşteri şikayetlerinin sınıflandırılmasını yansıtırken, **Dahili** türündeki uyumsuzluk sorunu tipleri kusur kodlarının sınıflandırılmasını temsil edebilir.
 
-Yeni bir uygunsuzluk oluşturduğunuzda, uygunsuzluk türünü ve sorun türünü seçin. İlk onay durumu **Yeni**, eylem için bir isteği temsil eder. Bir sonraki adım, uyumsuzluk için işlem yapacağınızı veya yapmayacağınızı göstermek için onaylama durumunu **Onaylandı** veya **Reddedildi** şeklinde değiştirmektir. Ayrıca bir uyumsuzluğu işinizin bittiğini gösterecek şekilde kapatabilir (ayrı bir onay kutusu seçerek) veya ek değerlendirmenin gerektiğini gösterecek şekilde yeniden açabilirsiniz. 
+Yeni bir uygunsuzluk oluşturduğunuzda, uygunsuzluk türünü ve sorun türünü seçin. İlk onay durumu **Yeni**, eylem için bir isteği temsil eder. Bir sonraki adım, uyumsuzluk için işlem yapacağınızı veya yapmayacağınızı göstermek için onaylama durumunu **Onaylandı** veya **Reddedildi** şeklinde değiştirmektir. Ayrıca bir uyumsuzluğu işinizin bittiğini gösterecek şekilde kapatabilir (ayrı bir onay kutusu seçerek) veya ek değerlendirmenin gerektiğini gösterecek şekilde yeniden açabilirsiniz.
 
-Bir belge iliştirerek, bir uygunsuzluk için yorumlar girebilirsiniz. **Belge türü** sayfasını kullanarak uygunsuzluklar için benzersiz bir dosya türü tanımlamak iyi bir fikirdir. Daha sonra **Rapor Kurulumu** sayfasını kullanarak bu belge türü için yorumların uygunsuzluk raporunda ve uygunsuzluk etiketinde yazdırılıp yazdırılmayacağını tanımlayabilirsiniz. Uyum raporu ve uyumsuzluk etiketi, malzeme elden çıkarmaya yardımcı olabilir. Uyumsuzlukla ilgili seçim ölçütlerini temel alarak, rapor ve etiketleri oluşturabilirsiniz. Bu ölçütler, uygunsuzluk numarası, madde, müşteri, satıcı ve durumu içerir. 
+Bir belge iliştirerek, bir uygunsuzluk için yorumlar girebilirsiniz. **Belge türü** sayfasını kullanarak uygunsuzluklar için benzersiz bir dosya türü tanımlamak iyi bir fikirdir. Daha sonra **Rapor Kurulumu** sayfasını kullanarak bu belge türü için yorumların uygunsuzluk raporunda ve uygunsuzluk etiketinde yazdırılıp yazdırılmayacağını tanımlayabilirsiniz. Uyum raporu ve uyumsuzluk etiketi, malzeme elden çıkarmaya yardımcı olabilir. Uyumsuzlukla ilgili seçim ölçütlerini temel alarak, rapor ve etiketleri oluşturabilirsiniz. Bu ölçütler, uygunsuzluk numarası, madde, müşteri, satıcı ve durumu içerir.
 
 Uygunsuzluk raporu, uygunsuzluk numarası, madde ve sorun türünü görüntüler. Rapor kurulumu ilkenize bağlı olarak, rapor, uygunsuzlukla ilgili notları da görüntüleyebilir. Uygunsuzluk etiketi benzer bilgileri görüntüler ve kusurlu malzemenin elden çıkarılmasını yönlendirmek için uyumsuzluğa atadığınız karantina bölgesi ve türünü (**Sınırlı kullanım** veya **Kullanılamaz** gibi) içerir.
 
 ## <a name="approved-nonconformance"></a>Onaylanan uygunsuzluk
-İsteğe bağlı olarak, onaylanan bir uyumsuzluk için bir veya daha fazla ilgili operasyon tanımlayabilirsiniz. İlgili işlem, gerçekleştirilmesi gereken işi açıklar ve tanımladığınız kalite işlemlerinin listesi ile işin nedeni hakkında açıklayıcı bir metin içerir. Bir operasyonu tanımladıktan sonra, isteğe bağlı olarak işi gerçekleştirmek için gereken sair giderleri, maddeleri ve zaman tablosu çalışma saat sayısı tanımlayabilirsiniz. İlgili operasyon için hesaplanan maliyetler gösterilir ve uyumsuzluk için toplam hesaplanan maliyetler gösterilir. Hesaplanan maliyetler ve bunlarla ilişkili ayrıntılar (maddeler, çalışma saat sayısı ve sair giderler hakkında) referans niteliğinde bilgilerdir ve bunlar yalnızca kalite yönetimi işlevi çerçevesinde kullanılır. 
+İsteğe bağlı olarak, onaylanan bir uyumsuzluk için bir veya daha fazla ilgili operasyon tanımlayabilirsiniz. İlgili işlem, gerçekleştirilmesi gereken işi açıklar ve tanımladığınız kalite işlemlerinin listesi ile işin nedeni hakkında açıklayıcı bir metin içerir. Bir operasyonu tanımladıktan sonra, isteğe bağlı olarak işi gerçekleştirmek için gereken sair giderleri, maddeleri ve zaman tablosu çalışma saat sayısı tanımlayabilirsiniz. İlgili operasyon için hesaplanan maliyetler gösterilir ve uyumsuzluk için toplam hesaplanan maliyetler gösterilir. Hesaplanan maliyetler ve bunlarla ilişkili ayrıntılar (maddeler, çalışma saat sayısı ve sair giderler hakkında) referans niteliğinde bilgilerdir ve bunlar yalnızca kalite yönetimi işlevi çerçevesinde kullanılır.
 
-İsteğe bağlı olarak, önce kalite emirlerini sorgulayıp daha sonra yeni kalite emrini oluşturarak, uyumsuzluktan bir kalite emri oluşturabilirsiniz. Örneğin, bir kalite emri kusurlu malzemeyi test etme (veya yeniden test etme) gereksinimini tanımlayabilir. Yeni oluşturulan kalite emri, ilk uyumsuzlukla olan bağlantıyı görüntüler. 
+İsteğe bağlı olarak, önce kalite emirlerini sorgulayıp daha sonra yeni kalite emrini oluşturarak, uyumsuzluktan bir kalite emri oluşturabilirsiniz. Örneğin, bir kalite emri kusurlu malzemeyi test etme (veya yeniden test etme) gereksinimini tanımlayabilir. Yeni oluşturulan kalite emri, ilk uyumsuzlukla olan bağlantıyı görüntüler.
 
 İsteğe bağlı olarak bir uyumsuzluğu başka bir uyumsuzluğa bağlayabilir ve mevcut bir uyumsuzluktan yeni bir uyumsuzluk oluşturabilirsiniz. Örneğin, bağlantı, kalite sorunlarının birbirine bağlı olmasını sergileyebilir.
 
 ## <a name="correction-handling"></a>Düzeltme işleme
-**Düzeltmeler** sayfası düzeltilmesi gereken uygunsuzluklar listesi oluşturmanıza olanak sağlar. Her düzeltme maddesi, sorunun bulunabilmesini sağlayan tanı türüyle ilişkilendirilmiştir. **Düzeltmeler** sayfası, düzeltici eylemi kimin ve ne zaman gerçekleştirmesi gerektiği hakkında bilgiler de içerir. Düzeltmeye bir belge ekleyerek sorunun ayrıntılarını ve gerekli düzeltici eylemi açıklayabilirsiniz. Uygunsuzluk gönderildikten veya düzeltildikten sonra, **Tamamlandı** seçeneğini seçerek düzeltme öğesini "kapatırsınız". Ayrıca, çözümün kısa vadeli bir çözüm olduğunu da gösterebilirsiniz. 
+**Düzeltmeler** sayfası düzeltilmesi gereken uygunsuzluklar listesi oluşturmanıza olanak sağlar. Her düzeltme maddesi, sorunun bulunabilmesini sağlayan tanı türüyle ilişkilendirilmiştir. **Düzeltmeler** sayfası, düzeltici eylemi kimin ve ne zaman gerçekleştirmesi gerektiği hakkında bilgiler de içerir. Düzeltmeye bir belge ekleyerek sorunun ayrıntılarını ve gerekli düzeltici eylemi açıklayabilirsiniz. Uygunsuzluk gönderildikten veya düzeltildikten sonra, **Tamamlandı** seçeneğini seçerek düzeltme öğesini "kapatırsınız". Ayrıca, çözümün kısa vadeli bir çözüm olduğunu da gösterebilirsiniz.
 
 **belge türünü** sayfasını kullanarak düzeltmeler için benzersiz bir dosya türü tanımlamak iyi bir fikirdir. Daha sonra **Rapor Kurulumu** sayfasını kullanarak bu belge türü için yorumların düzeltme raporunda yazdırıldığını tanımlayabilirsiniz. Yazdırılan düzeltme raporu uygunsuzluk ve ilişkili uygunsuzluk notları hakkında bilgi görüntüler. Rapor ayrıca tanı türü ve ilgili düzeltme notları gibi düzeltme bilgileri içerir.
 
@@ -103,7 +103,4 @@ Uygunsuzluk raporu, uygunsuzluk numarası, madde ve sorun türünü görüntüle
 [Kalite emirleri ayarlama (Görev kılavuzu)](/dynamics365/unified-operations/supply-chain/inventory/tasks/set-up-quality-orders)
 
 [Malların kalitesini denetle (Görev kılavuzu)](/dynamics365/unified-operations/supply-chain/inventory/tasks/inspect-quality-goods)
-
-
-
 

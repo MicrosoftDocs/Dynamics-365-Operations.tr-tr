@@ -1,7 +1,7 @@
 ---
 title: "Stok, üretim ve satıştaki maddeleri ve hammaddeleri izleme"
 description: "Bu konuda, madde izlemesini kullanarak maddelerin veya hammaddelerin üretim ve satış süreçlerinde nerede kullanılmış, kullanılmakta veya kullanılacak olduklarını belirleyebilirsiniz."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30191
 ms.assetid: fdd0939a-855c-430f-a684-94f3baea1df4
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu konuda, madde izlemesini kullanarak maddelerin veya hammaddelerin üretim ve satış süreçlerinde nerede kullanılmış, kullanılmakta veya kullanılacak olduklarını belirleyebilirsiniz. 
+Bu konuda, madde izlemesini kullanarak maddelerin veya hammaddelerin üretim ve satış süreçlerinde nerede kullanılmış, kullanılmakta veya kullanılacak olduklarını belirleyebilirsiniz.
 
 Madde izleme işlevi **Madde izleme** sayfasında bulunur. Madde izlemeyi nasıl kullanabileceğiniz ve seçenekler ve sınırlamaların neler olduğu aşağıdaki bölümlerde açıklanmıştır.
 
@@ -142,7 +142,4 @@ Bilgileri özet sayfalarından Microsoft Excel'e aktarabilirsiniz. İlgili sayfa
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Ortak ürünleri ve yan ürünleri izleyebilir miyim?
 Ortak ürünleri izleyebilirsiniz, ancak genellikle yan ürünlere atanmış izleme boyutları olmadığından bir yan ürünü izleyemezsiniz. Bir maddeyi izlerken, izleme ayrıntıları ilişkili tüm ortak ürünleri içerir. Ortak ürünü içeren bir düğüm, ayrıntılarda "ortak ürün" sözcüğünü içerir. Ortak ürün hakkındaki ayrıntıları, izleme ayrıntılarında düğümü seçip **Üretim** FastTab'ine tıklayarak görüntüleyebilirsiniz.
-
-
-
 

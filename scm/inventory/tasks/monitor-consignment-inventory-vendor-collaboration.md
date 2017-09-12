@@ -1,4 +1,4 @@
---- 
+---
 title: "Satıcı iş birliğini kullanarak konsinye stoğu izleme"
 description: "Bu yordam müşteriye konsinye olarak bıraktığınız ürünün stok düzeyi hakkında bilgileri görmek için satıcı işbirliğini kullanmayı gösterir."
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -41,5 +41,4 @@ Bu yordam müşteriye konsinye olarak bıraktığınız ürünün stok düzeyi h
 ## <a name="view-on-hand-inventory"></a>Eldeki stoğu görüntüleme
 1. Satıcı iş birliği > Konsinye stok > Eldeki konsinye stok'a gidin.
     * Eldeki konsinye stok sayfası müşterinin ambarında sahip olduğunu stoğu gösterir. Boyutları görüntüle sekmesine tıklayarak, tesis ve ambar gibi ek boyutları da görüntüleyebilirsiniz.   
-
 
