@@ -16,87 +16,87 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 9820888a6ab0b3eafcd4d8c95982900b2719b2ec
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 79e5c09484f9d33106194c2a8b2c9971d58d0e75
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="select-data-model-definition-while-creating-format-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için biçim oluştururken veri modeli tanımını seçme
+# <a name="select-data-model-definition-while-creating-format-for-electronic-reporting-er"></a><span data-ttu-id="c33af-103">Elektronik raporlama (ER) için biçim oluştururken veri modeli tanımını seçme</span><span class="sxs-lookup"><span data-stu-id="c33af-103">Select data model definition while creating format for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordamdaki adımları tamamlamak için öncelikle "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamını tamamlamanız gerekir. 
+<span data-ttu-id="c33af-104">Bu yordamdaki adımları tamamlamak için öncelikle "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamını tamamlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="c33af-104">To complete the steps in this procedure, you must first complete the procedure, ER Create a configuration provider and mark it as active.</span></span> 
 
-Bu yordam, elektronik belgeler oluşturmak için tasarlanmış bir Elektronik raporlama (ER) biçimi yapılandırması olarak nasıl bir modeli kök öğesinin bir veri modeli tanımı olarak nasıl seçilebileceğini gösterir. Bu yordamda, 'Litware, Inc.' örnek şirketi için bir ER biçim yapılandırması ekleyeceksiniz. 
+<span data-ttu-id="c33af-105">Bu yordam, elektronik belgeler oluşturmak için tasarlanmış bir Elektronik raporlama (ER) biçimi yapılandırması olarak nasıl bir modeli kök öğesinin bir veri modeli tanımı olarak nasıl seçilebileceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="c33af-105">This procedure shows how a model’s root item can be selected as a data model definition for inserting an Electronic reporting (ER) format configuration that is designed to generate electronic documents.</span></span> <span data-ttu-id="c33af-106">Bu yordamda, 'Litware, Inc.' örnek şirketi için bir ER biçim yapılandırması ekleyeceksiniz.</span><span class="sxs-lookup"><span data-stu-id="c33af-106">In this procedure, you will add a new ER format configuration for the sample company Litware, Inc.</span></span> 
 
-Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne atanmış kullanıcılar içindir. Adımlar herhangi bir veri kümesi kullanılarak tamamlanabilir.
+<span data-ttu-id="c33af-107">Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne atanmış kullanıcılar içindir.</span><span class="sxs-lookup"><span data-stu-id="c33af-107">This procedure is intended for users who have the System administrator or Electronic reporting developer role assigned to them.</span></span> <span data-ttu-id="c33af-108">Adımlar herhangi bir veri kümesi kullanılarak tamamlanabilir.</span><span class="sxs-lookup"><span data-stu-id="c33af-108">The steps can be completed by using any dataset.</span></span>
 
-1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.
-    * Örnek şirket ‘Litware, Inc.’ için yapılandırma sağlayıcısının kullanılabilir olduğunu ve etkin olarak işaretlemiş olduğundan emin olun. Bu yapılandırma sağlayıcısını göremiyorsanız "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlayın.  
-2. Raporlama konfigürasyonları'na tıklayın.
+1. <span data-ttu-id="c33af-109">Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="c33af-109">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="c33af-110">Örnek şirket ‘Litware, Inc.’ için yapılandırma sağlayıcısının kullanılabilir olduğunu ve etkin olarak işaretlemiş olduğundan emin olun.</span><span class="sxs-lookup"><span data-stu-id="c33af-110">Make sure that the configuration provider for the sample company, Litware, Inc., is available and marked as Active.</span></span> <span data-ttu-id="c33af-111">Bu yapılandırma sağlayıcısını göremiyorsanız "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlayın.</span><span class="sxs-lookup"><span data-stu-id="c33af-111">If you don’t see this configuration provider, complete the steps in the procedure, Create a configuration provider and mark it as active.</span></span>  
+2. <span data-ttu-id="c33af-112">Raporlama konfigürasyonları'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c33af-112">Click Reporting configurations.</span></span>
 
-## <a name="add-a-new-er-data-model-configuration"></a>Yeni bir ER veri modeli yapılandırması ekleme
-1. İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.
-    * ER raporları oluşturma için bir veri modeli olarak kullanılacak bir veri modeli içeren yeni bir ER model yapılandırması ekliyoruz.  
-2. İsim alanında, 'Ödeme modeli (hayali)' yazın.
-    * Ödeme modeli (hayali)  
-3. Konfigürasyon oluştur'u tıklatın.
-4. Tasarımcı'yı tıklatın.
-    * Bu yapılandırmanın veri modelinin yapısını belirtmek için ER tasarımcısını açın.  
-    * 2 ödeme yöntemini desteklemek için iş etki alanı için veri modelini tasarladığımızı varsayalım – alacak transferi ve otomatik ödemeler.  
-5. Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.
-6. İsim alanında 'Ödemeler – alacak transferi' yazın.
-    * Ödemeler – kredi transferi  
-7. Ekle öğesini tıklatın.
-8. Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.
-9. Yeni düğüm biçimi alanına "Model kökü" girin.
-10. İsim alanında 'Ödemeler – hesaptan ödeme' yazın.
-    * Ödemeler – otomatik ödeme  
-11. Ekle öğesini tıklatın.
-12. Kaydet'e tıklayın.
-13. Sayfayı kapatın.
-14. Durumu değiştir öğesine tıklayın.
-    * Yeni model eşlemeleri ve biçimlerinde kullanılabilir hale getirmek için modelin taslak sürümünü tamamlayın.  
-15. Tamamla öğesine tıklayın.
-16. Tamam'a tıklayın.
+## <a name="add-a-new-er-data-model-configuration"></a><span data-ttu-id="c33af-113">Yeni bir ER veri modeli yapılandırması ekleme</span><span class="sxs-lookup"><span data-stu-id="c33af-113">Add a new ER data model configuration</span></span>
+1. <span data-ttu-id="c33af-114">İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c33af-114">Click Create configuration to open the drop dialog.</span></span>
+    * <span data-ttu-id="c33af-115">ER raporları oluşturma için bir veri modeli olarak kullanılacak bir veri modeli içeren yeni bir ER model yapılandırması ekliyoruz.</span><span class="sxs-lookup"><span data-stu-id="c33af-115">We add a new ER model configuration containing a data model that is designed to be used as data source for generation ER reports.</span></span>  
+2. <span data-ttu-id="c33af-116">İsim alanında, 'Ödeme modeli (hayali)' yazın.</span><span class="sxs-lookup"><span data-stu-id="c33af-116">In the Name field, type 'Payment model (fictitious)'.</span></span>
+    * <span data-ttu-id="c33af-117">Ödeme modeli (hayali)</span><span class="sxs-lookup"><span data-stu-id="c33af-117">Payment model (fictitious)</span></span>  
+3. <span data-ttu-id="c33af-118">Konfigürasyon oluştur'u tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c33af-118">Click Create configuration.</span></span>
+4. <span data-ttu-id="c33af-119">Tasarımcı'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c33af-119">Click Designer.</span></span>
+    * <span data-ttu-id="c33af-120">Bu yapılandırmanın veri modelinin yapısını belirtmek için ER tasarımcısını açın.</span><span class="sxs-lookup"><span data-stu-id="c33af-120">Open the ER designer to specify the structure of data model of this configuration.</span></span>  
+    * <span data-ttu-id="c33af-121">2 ödeme yöntemini desteklemek için iş etki alanı için veri modelini tasarladığımızı varsayalım – alacak transferi ve otomatik ödemeler.</span><span class="sxs-lookup"><span data-stu-id="c33af-121">Assume that we design the data model for payments business domain to support 2 payment methods – credit transfer and direct debit ones.</span></span>  
+5. <span data-ttu-id="c33af-122">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c33af-122">Click New to open the drop dialog.</span></span>
+6. <span data-ttu-id="c33af-123">İsim alanında 'Ödemeler – alacak transferi' yazın.</span><span class="sxs-lookup"><span data-stu-id="c33af-123">In the Name field, type 'Payments – credit transfer'.</span></span>
+    * <span data-ttu-id="c33af-124">Ödemeler – kredi transferi</span><span class="sxs-lookup"><span data-stu-id="c33af-124">Payments – credit transfer</span></span>  
+7. <span data-ttu-id="c33af-125">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c33af-125">Click Add.</span></span>
+8. <span data-ttu-id="c33af-126">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c33af-126">Click New to open the drop dialog.</span></span>
+9. <span data-ttu-id="c33af-127">Yeni düğüm biçimi alanına "Model kökü" girin.</span><span class="sxs-lookup"><span data-stu-id="c33af-127">In the New node as a field, enter 'Model root'.</span></span>
+10. <span data-ttu-id="c33af-128">İsim alanında 'Ödemeler – hesaptan ödeme' yazın.</span><span class="sxs-lookup"><span data-stu-id="c33af-128">In the Name field, type 'Payments – direct debit'.</span></span>
+    * <span data-ttu-id="c33af-129">Ödemeler – otomatik ödeme</span><span class="sxs-lookup"><span data-stu-id="c33af-129">Payments – direct debit</span></span>  
+11. <span data-ttu-id="c33af-130">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c33af-130">Click Add.</span></span>
+12. <span data-ttu-id="c33af-131">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c33af-131">Click Save.</span></span>
+13. <span data-ttu-id="c33af-132">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="c33af-132">Close the page.</span></span>
+14. <span data-ttu-id="c33af-133">Durumu değiştir öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c33af-133">Click Change status.</span></span>
+    * <span data-ttu-id="c33af-134">Yeni model eşlemeleri ve biçimlerinde kullanılabilir hale getirmek için modelin taslak sürümünü tamamlayın.</span><span class="sxs-lookup"><span data-stu-id="c33af-134">Complete the draft version of the model to make it available in new model mappings and formats.</span></span>  
+15. <span data-ttu-id="c33af-135">Tamamla öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c33af-135">Click Complete.</span></span>
+16. <span data-ttu-id="c33af-136">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c33af-136">Click OK.</span></span>
 
-## <a name="start-to-enter-a-new-er-format-configuration"></a>Yeni bir ER biçimi yapılandırması girmeye başlayın
-1. İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.
-2. Yeni alanına, 'Ödemeler modeli (hayali) veri modelini temel alan biçim' yazın.
-3. Veri modeli tanımı alanına bir değer girin veya seçin.
-    * Seçilen veri modelinin tüm kök maddelerinin bir veri modeli tanımı olarak şu anda kullanılabilir olduğuna dikkat edin. Biçiminizi, veri modelinin gereken maddelerinin herhangi birini kullanarak tasarlamaya devam edebilirsiniz. Seçilen kök maddesi için eksik bir model eşlemesi, çalışmaya devam etmenizi engellemez.  
-4. Sayfayı kapatın.
+## <a name="start-to-enter-a-new-er-format-configuration"></a><span data-ttu-id="c33af-137">Yeni bir ER biçimi yapılandırması girmeye başlayın</span><span class="sxs-lookup"><span data-stu-id="c33af-137">Start to enter a new ER format configuration</span></span>
+1. <span data-ttu-id="c33af-138">İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c33af-138">Click Create configuration to open the drop dialog.</span></span>
+2. <span data-ttu-id="c33af-139">Yeni alanına, 'Ödemeler modeli (hayali) veri modelini temel alan biçim' yazın.</span><span class="sxs-lookup"><span data-stu-id="c33af-139">In the New field, enter 'Format based on data model Payment model (fictitious)'.</span></span>
+3. <span data-ttu-id="c33af-140">Veri modeli tanımı alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="c33af-140">In the Data model definition field, enter or select a value.</span></span>
+    * <span data-ttu-id="c33af-141">Seçilen veri modelinin tüm kök maddelerinin bir veri modeli tanımı olarak şu anda kullanılabilir olduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="c33af-141">Note that all root items of the selected data model are currently available for selection as a data model definition.</span></span> <span data-ttu-id="c33af-142">Biçiminizi, veri modelinin gereken maddelerinin herhangi birini kullanarak tasarlamaya devam edebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c33af-142">You can continue to design your format by using any of the required root items of the data model.</span></span> <span data-ttu-id="c33af-143">Seçilen kök maddesi için eksik bir model eşlemesi, çalışmaya devam etmenizi engellemez.</span><span class="sxs-lookup"><span data-stu-id="c33af-143">A missing model mapping for the selected root item doesn't prevent you from continuing.</span></span>  
+4. <span data-ttu-id="c33af-144">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="c33af-144">Close the page.</span></span>
 
-## <a name="add-a-new-er-model-mapping-configuration"></a>Yeni bir ER modeli eşleme yapılandırması ekleme
-1. İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.
-2. Yeni alanına, 'Ödemeler modeli (hayali) veri modelini temel alan Model Eşleme' yazın.
-3. İsim alanında, 'Ödeme modeli eşlemeleri (hayali)' yazın.
-    * Ödeme modeli eşlemeleri (hayali)  
-4. Veri modeli tanımı alanına bir değer girin veya seçin.
-5. Konfigürasyon oluştur'u tıklatın.
+## <a name="add-a-new-er-model-mapping-configuration"></a><span data-ttu-id="c33af-145">Yeni bir ER modeli eşleme yapılandırması ekleme</span><span class="sxs-lookup"><span data-stu-id="c33af-145">Add a new ER model mapping configuration</span></span>
+1. <span data-ttu-id="c33af-146">İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c33af-146">Click Create configuration to open the drop dialog.</span></span>
+2. <span data-ttu-id="c33af-147">Yeni alanına, 'Ödemeler modeli (hayali) veri modelini temel alan Model Eşleme' yazın.</span><span class="sxs-lookup"><span data-stu-id="c33af-147">In the New field, enter 'Model Mapping based on data model Payment model (fictitious)'.</span></span>
+3. <span data-ttu-id="c33af-148">İsim alanında, 'Ödeme modeli eşlemeleri (hayali)' yazın.</span><span class="sxs-lookup"><span data-stu-id="c33af-148">In the Name field, type 'Payment model mappings (fictitious)'.</span></span>
+    * <span data-ttu-id="c33af-149">Ödeme modeli eşlemeleri (hayali)</span><span class="sxs-lookup"><span data-stu-id="c33af-149">Payment model mappings (fictitious)</span></span>  
+4. <span data-ttu-id="c33af-150">Veri modeli tanımı alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="c33af-150">In the Data model definition field, enter or select a value.</span></span>
+5. <span data-ttu-id="c33af-151">Konfigürasyon oluştur'u tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c33af-151">Click Create configuration.</span></span>
 
-## <a name="design-er-model-mappings"></a>ER model eşlemeleri tasarlayın
-1. Tasarımcı'yı tıklatın.
-    * Gerekli kök maddeleri için model eşlemelerini belirtmek için ER tasarımcısını kullanın.  
-2. Tasarımcı'yı tıklatın.
-    * Seçilen modelin kök maddesi için seçilen model eşlemesinin ayarının benzetimini yapın.  
-3. Ağaçta, 'Dynamics 365 for Operations\Tablo kayıtları' seçin.
-4. Kök ekle'ye tıklayın.
-5. Ad alanına 'Genel muhasebe defteri' yazın.
-6. Tablo alanına 'LedgerJournalTrans' yazın.
-    * LedgerJournalTrans  
-7. Tamam'a tıklayın.
-8. Kaydet'e tıklayın.
-9. Sayfayı kapatın.
-10. Sayfayı kapatın.
+## <a name="design-er-model-mappings"></a><span data-ttu-id="c33af-152">ER model eşlemeleri tasarlayın</span><span class="sxs-lookup"><span data-stu-id="c33af-152">Design ER model mappings</span></span>
+1. <span data-ttu-id="c33af-153">Tasarımcı'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c33af-153">Click Designer.</span></span>
+    * <span data-ttu-id="c33af-154">Gerekli kök maddeleri için model eşlemelerini belirtmek için ER tasarımcısını kullanın.</span><span class="sxs-lookup"><span data-stu-id="c33af-154">Use the ER designer to specify the model mappings for the required root items.</span></span>  
+2. <span data-ttu-id="c33af-155">Tasarımcı'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c33af-155">Click Designer.</span></span>
+    * <span data-ttu-id="c33af-156">Seçilen modelin kök maddesi için seçilen model eşlemesinin ayarının benzetimini yapın.</span><span class="sxs-lookup"><span data-stu-id="c33af-156">Simulate setting of selected model mapping for the selected model’s root item.</span></span>  
+3. <span data-ttu-id="c33af-157">Ağaçta, 'Dynamics 365 for Operations\Tablo kayıtları' seçin.</span><span class="sxs-lookup"><span data-stu-id="c33af-157">In the tree, select 'Dynamics 365 for Operations\Table records'.</span></span>
+4. <span data-ttu-id="c33af-158">Kök ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c33af-158">Click Add root.</span></span>
+5. <span data-ttu-id="c33af-159">Ad alanına 'Genel muhasebe defteri' yazın.</span><span class="sxs-lookup"><span data-stu-id="c33af-159">In the Name field, type 'Ledger'.</span></span>
+6. <span data-ttu-id="c33af-160">Tablo alanına 'LedgerJournalTrans' yazın.</span><span class="sxs-lookup"><span data-stu-id="c33af-160">In the Table field, type 'LedgerJournalTrans'.</span></span>
+    * <span data-ttu-id="c33af-161">LedgerJournalTrans</span><span class="sxs-lookup"><span data-stu-id="c33af-161">LedgerJournalTrans</span></span>  
+7. <span data-ttu-id="c33af-162">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c33af-162">Click OK.</span></span>
+8. <span data-ttu-id="c33af-163">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c33af-163">Click Save.</span></span>
+9. <span data-ttu-id="c33af-164">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="c33af-164">Close the page.</span></span>
+10. <span data-ttu-id="c33af-165">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="c33af-165">Close the page.</span></span>
 
-## <a name="start-to-enter-another-new-er-format-configuration"></a>Başka bir ER biçimi yapılandırması girmeye başlayın
-1. Ağaçta 'Ödeme modeli (hayali)' seçin.
-2. İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.
-3. Yeni alanına, 'Ödemeler modeli (hayali) veri modelini temel alan biçim' yazın.
-4. Veri modeli tanımı alanına bir değer girin veya seçin.
-    * Şimdi uygulama veri kaynaklarına yalnızca bir kök maddenin kullanılabilir olduğuna dikkat edin. En az bir model eşlemesi eklendiğinde, yalnızca uygulama veri kaynaklarına eşleşmiş olan modelin kök maddelerinin bir ER biçimi eklendiğinde bir model tanımı olarak seçilebileceğini unutmayın.   
-5. Sayfayı kapatın.
+## <a name="start-to-enter-another-new-er-format-configuration"></a><span data-ttu-id="c33af-166">Başka bir ER biçimi yapılandırması girmeye başlayın</span><span class="sxs-lookup"><span data-stu-id="c33af-166">Start to enter another new ER format configuration</span></span>
+1. <span data-ttu-id="c33af-167">Ağaçta 'Ödeme modeli (hayali)' seçin.</span><span class="sxs-lookup"><span data-stu-id="c33af-167">In the tree, select 'Payment model (fictitious)'.</span></span>
+2. <span data-ttu-id="c33af-168">İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c33af-168">Click Create configuration to open the drop dialog.</span></span>
+3. <span data-ttu-id="c33af-169">Yeni alanına, 'Ödemeler modeli (hayali) veri modelini temel alan biçim' yazın.</span><span class="sxs-lookup"><span data-stu-id="c33af-169">In the New field, enter 'Format based on data model Payment model (fictitious)'.</span></span>
+4. <span data-ttu-id="c33af-170">Veri modeli tanımı alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="c33af-170">In the Data model definition field, enter or select a value.</span></span>
+    * <span data-ttu-id="c33af-171">Şimdi uygulama veri kaynaklarına yalnızca bir kök maddenin kullanılabilir olduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="c33af-171">Note that now only one root item is available to map to the application data sources.</span></span> <span data-ttu-id="c33af-172">En az bir model eşlemesi eklendiğinde, yalnızca uygulama veri kaynaklarına eşleşmiş olan modelin kök maddelerinin bir ER biçimi eklendiğinde bir model tanımı olarak seçilebileceğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="c33af-172">When at least one model mapping is introduced, only the model’s root items that are mapped to application data sources can be selected as a model definition while the ER format is added.</span></span>   
+5. <span data-ttu-id="c33af-173">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="c33af-173">Close the page.</span></span>
 
 

@@ -19,124 +19,124 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f5d75794146eada9b9f439d99ad272f5af8db53b
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 5604f806eed81c60dfcae7cb7b1a22bba25aa454
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="handling-cash-discounts-for-overpayments"></a>Fazla ödemeler için nakit iskontolarını işleme
+# <a name="handling-cash-discounts-for-overpayments"></a><span data-ttu-id="4c08a-103">Fazla ödemeler için nakit iskontolarını işleme</span><span class="sxs-lookup"><span data-stu-id="4c08a-103">Handling cash discounts for overpayments</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu makale, bir müşteri nakit iskontosu alıp aynı zamanda fazla ödeme yaparsa, bunun nasıl işlendiğini gösteren senaryoyu sağlar. 
+<span data-ttu-id="4c08a-104">Bu makale, bir müşteri nakit iskontosu alıp aynı zamanda fazla ödeme yaparsa, bunun nasıl işlendiğini gösteren senaryoyu sağlar.</span><span class="sxs-lookup"><span data-stu-id="4c08a-104">This article provides scenarios that show how a payment is handled when the customer takes a cash discount but also overpays.</span></span> 
 
-Ödeme tutarı, fatura tutarından nakit iskontosunun çıkarılmasıyla elde edilen tutardan yüksekse bir fatura fazla ödenmiş olarak kabul edilir. Bir fatura fazla ödendiyse elde edilebilir bir nakit iskontosu farkının nasıl işleneceğini belirtmek için **Alacak hesapları parametreleri** sayfasındaki **Nakit iskontoları yönetimi** ve **Maksimum fazla ödeme veya eksik ödeme** alanlarını kullanın. Aşağıdaki örnekte müşteri, faturasını 0.50 fazla ödemiştir.
+<span data-ttu-id="4c08a-105">Ödeme tutarı, fatura tutarından nakit iskontosunun çıkarılmasıyla elde edilen tutardan yüksekse bir fatura fazla ödenmiş olarak kabul edilir.</span><span class="sxs-lookup"><span data-stu-id="4c08a-105">An invoice is considered overpaid when the payment amount is more than the invoice amount minus the cash discount.</span></span> <span data-ttu-id="4c08a-106">Bir fatura fazla ödendiyse elde edilebilir bir nakit iskontosu farkının nasıl işleneceğini belirtmek için **Alacak hesapları parametreleri** sayfasındaki **Nakit iskontoları yönetimi** ve **Maksimum fazla ödeme veya eksik ödeme** alanlarını kullanın.</span><span class="sxs-lookup"><span data-stu-id="4c08a-106">To specify how an obtainable cash discount difference is handled when an invoice is overpaid, use the **Cash discount administration** and **Maximum overpayment or underpayment** fields on the **Accounts receivable parameters** page.</span></span> <span data-ttu-id="4c08a-107">Aşağıdaki örnekte müşteri, faturasını 0.50 fazla ödemiştir.</span><span class="sxs-lookup"><span data-stu-id="4c08a-107">In the following example, the customer has overpaid the invoice by 0.50.</span></span>
 
-| Fatura toplamı | Mevcut nakit iskontosu | Nakit iskontosunu içeren, ödenecek tutar | Müşterinin gerçekte ödediği tutar |
+| <span data-ttu-id="4c08a-108">Fatura toplamı</span><span class="sxs-lookup"><span data-stu-id="4c08a-108">Invoice total</span></span> | <span data-ttu-id="4c08a-109">Mevcut nakit iskontosu</span><span class="sxs-lookup"><span data-stu-id="4c08a-109">Cash discount available</span></span> | <span data-ttu-id="4c08a-110">Nakit iskontosunu içeren, ödenecek tutar</span><span class="sxs-lookup"><span data-stu-id="4c08a-110">Amount to be paid, which includes the cash discount</span></span> | <span data-ttu-id="4c08a-111">Müşterinin gerçekte ödediği tutar</span><span class="sxs-lookup"><span data-stu-id="4c08a-111">Amount the customer actually pays</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|-----------------------------------|
-| 105,00        | 10,50                   | 94,50                                               | 95,00                             |
+| <span data-ttu-id="4c08a-112">105,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-112">105.00</span></span>        | <span data-ttu-id="4c08a-113">10,50</span><span class="sxs-lookup"><span data-stu-id="4c08a-113">10.50</span></span>                   | <span data-ttu-id="4c08a-114">94,50</span><span class="sxs-lookup"><span data-stu-id="4c08a-114">94.50</span></span>                                               | <span data-ttu-id="4c08a-115">95,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-115">95.00</span></span>                             |
 
-## <a name="cash-discount-administration--specific"></a>Nakit iskontosu yönetimi = Özel
-**Otomatik hareketler için hesaplar** sayfasındaki **Nakit iskontosu yönetimi** alanından **Özel** seçimi yapılırsa tüm nakit iskontosu alınır. Fazla ödeme tutarı bir nakit iskontosu farkı defter hesabına nakledilir veya müşteri hesabında bir bakiye olarak kalır. Bu davranış, fazla ödeme tutarının 0,00 ile**Maksimum fazla ödeme veya eksik ödeme** alanında belirlenen tutar arasında olup olmadığına veya fazla ödeme tutarının **Maksimum fazla ödeme veya eksik ödeme** tutarından yüksek olup olmadığına göre değişir.
+## <a name="cash-discount-administration--specific"></a><span data-ttu-id="4c08a-116">Nakit iskontosu yönetimi = Özel</span><span class="sxs-lookup"><span data-stu-id="4c08a-116">Cash discount administration = Specific</span></span>
+<span data-ttu-id="4c08a-117">**Otomatik hareketler için hesaplar** sayfasındaki **Nakit iskontosu yönetimi** alanından **Özel** seçimi yapılırsa tüm nakit iskontosu alınır.</span><span class="sxs-lookup"><span data-stu-id="4c08a-117">When **Specific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the full cash discount is taken.</span></span> <span data-ttu-id="4c08a-118">Fazla ödeme tutarı bir nakit iskontosu farkı defter hesabına nakledilir veya müşteri hesabında bir bakiye olarak kalır.</span><span class="sxs-lookup"><span data-stu-id="4c08a-118">The overpayment amount either is posted to a cash discount difference ledger account or remains a balance on the customer’s account.</span></span> <span data-ttu-id="4c08a-119">Bu davranış, fazla ödeme tutarının 0,00 ile**Maksimum fazla ödeme veya eksik ödeme** alanında belirlenen tutar arasında olup olmadığına veya fazla ödeme tutarının **Maksimum fazla ödeme veya eksik ödeme** tutarından yüksek olup olmadığına göre değişir.</span><span class="sxs-lookup"><span data-stu-id="4c08a-119">The behavior depends on whether the overpayment amount is between 0.00 and the amount that is entered in the **Maximum overpayment or underpayment** field, or whether the overpayment amount is more than the **Maximum overpayment or underpayment** amount.</span></span>
 
-### <a name="scenario-1"></a>Senaryo 1
+### <a name="scenario-1"></a><span data-ttu-id="4c08a-120">Senaryo 1</span><span class="sxs-lookup"><span data-stu-id="4c08a-120">Scenario 1</span></span>
 
-Bu senaryodaki fazla ödeme tutarı, 0,00 ile maksimum fazla ödeme veya eksik ödeme tutarı arasındadır. 105,00 tutarında bir fatura girilir ve fatura yedi gün içinde ödenirse bir nakit iskontosu uygulanabilir.
+<span data-ttu-id="4c08a-121">Bu senaryodaki fazla ödeme tutarı, 0,00 ile maksimum fazla ödeme veya eksik ödeme tutarı arasındadır.</span><span class="sxs-lookup"><span data-stu-id="4c08a-121">In this scenario, the overpayment amount is between 0.00 and the maximum overpayment or underpayment.</span></span> <span data-ttu-id="4c08a-122">105,00 tutarında bir fatura girilir ve fatura yedi gün içinde ödenirse bir nakit iskontosu uygulanabilir.</span><span class="sxs-lookup"><span data-stu-id="4c08a-122">An invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Fatura toplamı | Mevcut nakit iskontosu | Nakit iskontosunu içeren, ödenecek tutar |
+| <span data-ttu-id="4c08a-123">Fatura toplamı</span><span class="sxs-lookup"><span data-stu-id="4c08a-123">Invoice total</span></span> | <span data-ttu-id="4c08a-124">Mevcut nakit iskontosu</span><span class="sxs-lookup"><span data-stu-id="4c08a-124">Cash discount available</span></span> | <span data-ttu-id="4c08a-125">Nakit iskontosunu içeren, ödenecek tutar</span><span class="sxs-lookup"><span data-stu-id="4c08a-125">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | 10,50                   | 94,50                                               |
+| <span data-ttu-id="4c08a-126">105,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-126">105.00</span></span>        | <span data-ttu-id="4c08a-127">10,50</span><span class="sxs-lookup"><span data-stu-id="4c08a-127">10.50</span></span>                   | <span data-ttu-id="4c08a-128">94,50</span><span class="sxs-lookup"><span data-stu-id="4c08a-128">94.50</span></span>                                               |
 
-Müşteri, nakit iskontosu dönemi içinde 95,00 tutarında bir ödeme gönderir. Ödeme, 105,00 tutarındaki fatura için kapatılır. Fatura ve ödeme kapatıldıktan sonra Alacak hesapları altında müşteri için aşağıdaki hareketler oluşturulur.
+<span data-ttu-id="4c08a-129">Müşteri, nakit iskontosu dönemi içinde 95,00 tutarında bir ödeme gönderir.</span><span class="sxs-lookup"><span data-stu-id="4c08a-129">The customer submits a payment for 95.00 within the cash discount period.</span></span> <span data-ttu-id="4c08a-130">Ödeme, 105,00 tutarındaki fatura için kapatılır.</span><span class="sxs-lookup"><span data-stu-id="4c08a-130">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="4c08a-131">Fatura ve ödeme kapatıldıktan sonra Alacak hesapları altında müşteri için aşağıdaki hareketler oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="4c08a-131">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| İşlem   | Tutar | Kalan |
+| <span data-ttu-id="4c08a-132">İşlem</span><span class="sxs-lookup"><span data-stu-id="4c08a-132">Transaction</span></span>   | <span data-ttu-id="4c08a-133">Tutar</span><span class="sxs-lookup"><span data-stu-id="4c08a-133">Amount</span></span> | <span data-ttu-id="4c08a-134">Kalan</span><span class="sxs-lookup"><span data-stu-id="4c08a-134">Balance</span></span> |
 |---------------|--------|---------|
-| Fatura       | 105,00 | 0,00    |
-| Ödeme       | -95,00 | 0,00    |
-| Nakit iskontosu | -10,50 | 0,00    |
+| <span data-ttu-id="4c08a-135">Fatura</span><span class="sxs-lookup"><span data-stu-id="4c08a-135">Invoice</span></span>       | <span data-ttu-id="4c08a-136">105,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-136">105.00</span></span> | <span data-ttu-id="4c08a-137">0,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-137">0.00</span></span>    |
+| <span data-ttu-id="4c08a-138">Ödeme</span><span class="sxs-lookup"><span data-stu-id="4c08a-138">Payment</span></span>       | <span data-ttu-id="4c08a-139">-95,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-139">-95.00</span></span> | <span data-ttu-id="4c08a-140">0,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-140">0.00</span></span>    |
+| <span data-ttu-id="4c08a-141">Nakit iskontosu</span><span class="sxs-lookup"><span data-stu-id="4c08a-141">Cash discount</span></span> | <span data-ttu-id="4c08a-142">-10,50</span><span class="sxs-lookup"><span data-stu-id="4c08a-142">-10.50</span></span> | <span data-ttu-id="4c08a-143">0,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-143">0.00</span></span>    |
 
-Ödeme ve kapatma için aşağıdaki hesap girdileri oluşturulur. **Ödeme**
+<span data-ttu-id="4c08a-144">Ödeme ve kapatma için aşağıdaki hesap girdileri oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="4c08a-144">The following accounting entries are generated for the payment and the settlement.</span></span> <span data-ttu-id="4c08a-145">**Ödeme**</span><span class="sxs-lookup"><span data-stu-id="4c08a-145">**Payment**</span></span>
 
-| Hesap             | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="4c08a-146">Hesap</span><span class="sxs-lookup"><span data-stu-id="4c08a-146">Account</span></span>             | <span data-ttu-id="4c08a-147">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="4c08a-147">Debit amount</span></span> | <span data-ttu-id="4c08a-148">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="4c08a-148">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Nakit                | 95,00        |               |
-| Alacak hesapları |              | 95,00         |
+| <span data-ttu-id="4c08a-149">Nakit</span><span class="sxs-lookup"><span data-stu-id="4c08a-149">Cash</span></span>                | <span data-ttu-id="4c08a-150">95,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-150">95.00</span></span>        |               |
+| <span data-ttu-id="4c08a-151">Alacak hesapları</span><span class="sxs-lookup"><span data-stu-id="4c08a-151">Accounts receivable</span></span> |              | <span data-ttu-id="4c08a-152">95,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-152">95.00</span></span>         |
 
-**Kapatma**
+<span data-ttu-id="4c08a-153">**Kapatma**</span><span class="sxs-lookup"><span data-stu-id="4c08a-153">**Settlement**</span></span>
 
-| Hesap                                                                                                          | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="4c08a-154">Hesap</span><span class="sxs-lookup"><span data-stu-id="4c08a-154">Account</span></span>                                                                                                          | <span data-ttu-id="4c08a-155">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="4c08a-155">Debit amount</span></span> | <span data-ttu-id="4c08a-156">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="4c08a-156">Credit amount</span></span> |
 |------------------------------------------------------------------------------------------------------------------|--------------|---------------|
-| Nakit iskontosu (**Nakit iskontoları** sayfasındaki **Müşteri iskontoları için ana hesap** alanı)                 | 10,50        |               |
-| Alacak hesapları                                                                                              |              | 10,50         |
-| Müşteri nakit iskontosu (**Otomatik hareketler için hesap** sayfasındaki **Müşteri nakit iskontosu** sayfası) |              | 0,50          |
-| Alacak hesapları                                                                                              | 0,50         |               |
+| <span data-ttu-id="4c08a-157">Nakit iskontosu (**Nakit iskontoları** sayfasındaki **Müşteri iskontoları için ana hesap** alanı)</span><span class="sxs-lookup"><span data-stu-id="4c08a-157">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span>                 | <span data-ttu-id="4c08a-158">10,50</span><span class="sxs-lookup"><span data-stu-id="4c08a-158">10.50</span></span>        |               |
+| <span data-ttu-id="4c08a-159">Alacak hesapları</span><span class="sxs-lookup"><span data-stu-id="4c08a-159">Accounts receivable</span></span>                                                                                              |              | <span data-ttu-id="4c08a-160">10,50</span><span class="sxs-lookup"><span data-stu-id="4c08a-160">10.50</span></span>         |
+| <span data-ttu-id="4c08a-161">Müşteri nakit iskontosu (**Otomatik hareketler için hesap** sayfasındaki **Müşteri nakit iskontosu** sayfası)</span><span class="sxs-lookup"><span data-stu-id="4c08a-161">Customer cash discount (the **Customer cash discount** field on the **Account for automatic transactions** page)</span></span> |              | <span data-ttu-id="4c08a-162">0,50</span><span class="sxs-lookup"><span data-stu-id="4c08a-162">0.50</span></span>          |
+| <span data-ttu-id="4c08a-163">Alacak hesapları</span><span class="sxs-lookup"><span data-stu-id="4c08a-163">Accounts receivable</span></span>                                                                                              | <span data-ttu-id="4c08a-164">0,50</span><span class="sxs-lookup"><span data-stu-id="4c08a-164">0.50</span></span>         |               |
 
-### <a name="scenario-2"></a>Senaryo 2
+### <a name="scenario-2"></a><span data-ttu-id="4c08a-165">Senaryo 2</span><span class="sxs-lookup"><span data-stu-id="4c08a-165">Scenario 2</span></span>
 
-Bu senaryodaki fazla ödeme tutarı, maksimum fazla ödeme veya eksik ödeme tutarını aşıyor. 105,00 tutarında bir fatura girilir ve fatura yedi gün içinde ödenirse bir nakit iskontosu uygulanabilir.
+<span data-ttu-id="4c08a-166">Bu senaryodaki fazla ödeme tutarı, maksimum fazla ödeme veya eksik ödeme tutarını aşıyor.</span><span class="sxs-lookup"><span data-stu-id="4c08a-166">In this scenario, the overpayment amount exceeds the maximum overpayment or underpayment amount.</span></span> <span data-ttu-id="4c08a-167">105,00 tutarında bir fatura girilir ve fatura yedi gün içinde ödenirse bir nakit iskontosu uygulanabilir.</span><span class="sxs-lookup"><span data-stu-id="4c08a-167">An invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Fatura toplamı | Mevcut nakit iskontosu | Nakit iskontosunu içeren, ödenecek tutar |
+| <span data-ttu-id="4c08a-168">Fatura toplamı</span><span class="sxs-lookup"><span data-stu-id="4c08a-168">Invoice total</span></span> | <span data-ttu-id="4c08a-169">Mevcut nakit iskontosu</span><span class="sxs-lookup"><span data-stu-id="4c08a-169">Cash discount available</span></span> | <span data-ttu-id="4c08a-170">Nakit iskontosunu içeren, ödenecek tutar</span><span class="sxs-lookup"><span data-stu-id="4c08a-170">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | 10,50                   | 94,50                                               |
+| <span data-ttu-id="4c08a-171">105,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-171">105.00</span></span>        | <span data-ttu-id="4c08a-172">10,50</span><span class="sxs-lookup"><span data-stu-id="4c08a-172">10.50</span></span>                   | <span data-ttu-id="4c08a-173">94,50</span><span class="sxs-lookup"><span data-stu-id="4c08a-173">94.50</span></span>                                               |
 
-Müşteri, nakit iskontosu dönemi içinde 95,00 tutarında bir ödeme gönderir. Ödeme, 105,00 tutarındaki fatura için kapatılır. Fatura ve ödeme kapatıldıktan sonra Alacak hesapları altında müşteri için aşağıdaki hareketler oluşturulur.
+<span data-ttu-id="4c08a-174">Müşteri, nakit iskontosu dönemi içinde 95,00 tutarında bir ödeme gönderir.</span><span class="sxs-lookup"><span data-stu-id="4c08a-174">The customer submits a payment for 95.00 within the cash discount period.</span></span> <span data-ttu-id="4c08a-175">Ödeme, 105,00 tutarındaki fatura için kapatılır.</span><span class="sxs-lookup"><span data-stu-id="4c08a-175">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="4c08a-176">Fatura ve ödeme kapatıldıktan sonra Alacak hesapları altında müşteri için aşağıdaki hareketler oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="4c08a-176">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| İşlem   | Tutar | Kalan |
+| <span data-ttu-id="4c08a-177">İşlem</span><span class="sxs-lookup"><span data-stu-id="4c08a-177">Transaction</span></span>   | <span data-ttu-id="4c08a-178">Tutar</span><span class="sxs-lookup"><span data-stu-id="4c08a-178">Amount</span></span> | <span data-ttu-id="4c08a-179">Kalan</span><span class="sxs-lookup"><span data-stu-id="4c08a-179">Balance</span></span> |
 |---------------|--------|---------|
-| Fatura       | 105,00 | 0,00    |
-| Ödeme       | -95,00 | -0,50   |
-| Nakit iskontosu | -10,50 | 0,00    |
+| <span data-ttu-id="4c08a-180">Fatura</span><span class="sxs-lookup"><span data-stu-id="4c08a-180">Invoice</span></span>       | <span data-ttu-id="4c08a-181">105,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-181">105.00</span></span> | <span data-ttu-id="4c08a-182">0,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-182">0.00</span></span>    |
+| <span data-ttu-id="4c08a-183">Ödeme</span><span class="sxs-lookup"><span data-stu-id="4c08a-183">Payment</span></span>       | <span data-ttu-id="4c08a-184">-95,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-184">-95.00</span></span> | <span data-ttu-id="4c08a-185">-0,50</span><span class="sxs-lookup"><span data-stu-id="4c08a-185">-0.50</span></span>   |
+| <span data-ttu-id="4c08a-186">Nakit iskontosu</span><span class="sxs-lookup"><span data-stu-id="4c08a-186">Cash discount</span></span> | <span data-ttu-id="4c08a-187">-10,50</span><span class="sxs-lookup"><span data-stu-id="4c08a-187">-10.50</span></span> | <span data-ttu-id="4c08a-188">0,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-188">0.00</span></span>    |
 
-0,50 tutarındaki fazla ödeme, ödemede bir açık bakiye olarak kalacak ve başka bir faturayla kapatılacaktır. Ödeme ve kapatma için aşağıdaki hesap girdileri oluşturulur. **Ödeme**
+<span data-ttu-id="4c08a-189">0,50 tutarındaki fazla ödeme, ödemede bir açık bakiye olarak kalacak ve başka bir faturayla kapatılacaktır.</span><span class="sxs-lookup"><span data-stu-id="4c08a-189">The overpayment amount of 0.50 will remain as an open balance on the payment and can be settled against another invoice.</span></span> <span data-ttu-id="4c08a-190">Ödeme ve kapatma için aşağıdaki hesap girdileri oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="4c08a-190">The following accounting entries are generated for the payment and the settlement.</span></span> <span data-ttu-id="4c08a-191">**Ödeme**</span><span class="sxs-lookup"><span data-stu-id="4c08a-191">**Payment**</span></span>
 
-| Hesap             | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="4c08a-192">Hesap</span><span class="sxs-lookup"><span data-stu-id="4c08a-192">Account</span></span>             | <span data-ttu-id="4c08a-193">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="4c08a-193">Debit amount</span></span> | <span data-ttu-id="4c08a-194">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="4c08a-194">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Nakit                | 95,00        |               |
-| Alacak hesapları |              | 95,00         |
+| <span data-ttu-id="4c08a-195">Nakit</span><span class="sxs-lookup"><span data-stu-id="4c08a-195">Cash</span></span>                | <span data-ttu-id="4c08a-196">95,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-196">95.00</span></span>        |               |
+| <span data-ttu-id="4c08a-197">Alacak hesapları</span><span class="sxs-lookup"><span data-stu-id="4c08a-197">Accounts receivable</span></span> |              | <span data-ttu-id="4c08a-198">95,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-198">95.00</span></span>         |
 
-**Kapatma**
+<span data-ttu-id="4c08a-199">**Kapatma**</span><span class="sxs-lookup"><span data-stu-id="4c08a-199">**Settlement**</span></span>
 
-| Hesap                                                                                          | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="4c08a-200">Hesap</span><span class="sxs-lookup"><span data-stu-id="4c08a-200">Account</span></span>                                                                                          | <span data-ttu-id="4c08a-201">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="4c08a-201">Debit amount</span></span> | <span data-ttu-id="4c08a-202">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="4c08a-202">Credit amount</span></span> |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Nakit iskontosu (**Nakit iskontoları** sayfasındaki **Müşteri iskontoları için ana hesap** alanı) | 10,50        |               |
-| Alacak hesapları                                                                              |              | 10,50         |
+| <span data-ttu-id="4c08a-203">Nakit iskontosu (**Nakit iskontoları** sayfasındaki **Müşteri iskontoları için ana hesap** alanı)</span><span class="sxs-lookup"><span data-stu-id="4c08a-203">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="4c08a-204">10,50</span><span class="sxs-lookup"><span data-stu-id="4c08a-204">10.50</span></span>        |               |
+| <span data-ttu-id="4c08a-205">Alacak hesapları</span><span class="sxs-lookup"><span data-stu-id="4c08a-205">Accounts receivable</span></span>                                                                              |              | <span data-ttu-id="4c08a-206">10,50</span><span class="sxs-lookup"><span data-stu-id="4c08a-206">10.50</span></span>         |
 
-## <a name="cash-discount-administration--unspecific"></a>Nakit iskontosu yönetimi = Özel olmayan
-**Otomatik hareketler için hesaplar** sayfasındaki **Nakit iskontosu yönetimi** alanından **Özel olmayan** seçimi yapılırsa nakit iskonto hesabı, fazla ödeme miktarı kadar düşürülür. Bu davranış her zaman, fazla ödeme tutarının **Maksimum fazla ödeme veya eksik ödeme** alanına girilen miktardan fazla veya düşük olup olmamasından bağımsız olarak uygulanır.
+## <a name="cash-discount-administration--unspecific"></a><span data-ttu-id="4c08a-207">Nakit iskontosu yönetimi = Özel olmayan</span><span class="sxs-lookup"><span data-stu-id="4c08a-207">Cash discount administration = Unspecific</span></span>
+<span data-ttu-id="4c08a-208">**Otomatik hareketler için hesaplar** sayfasındaki **Nakit iskontosu yönetimi** alanından **Özel olmayan** seçimi yapılırsa nakit iskonto hesabı, fazla ödeme miktarı kadar düşürülür.</span><span class="sxs-lookup"><span data-stu-id="4c08a-208">When **Unspecific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the cash discount amount is reduced by the overpayment amount.</span></span> <span data-ttu-id="4c08a-209">Bu davranış her zaman, fazla ödeme tutarının **Maksimum fazla ödeme veya eksik ödeme** alanına girilen miktardan fazla veya düşük olup olmamasından bağımsız olarak uygulanır.</span><span class="sxs-lookup"><span data-stu-id="4c08a-209">This behavior always applies, regardless of whether the overpayment amount is over or under the amount that is entered in the **Maximum overpayment or underpayment** field.</span></span>
 
-### <a name="scenario-3"></a>Senaryo 3
+### <a name="scenario-3"></a><span data-ttu-id="4c08a-210">Senaryo 3</span><span class="sxs-lookup"><span data-stu-id="4c08a-210">Scenario 3</span></span>
 
-Bu senaryoda 105,00 tutarında bir fatura girilir ve fatura yedi gün içinde ödenirse bir nakit iskontosu uygulanabilir.
+<span data-ttu-id="4c08a-211">Bu senaryoda 105,00 tutarında bir fatura girilir ve fatura yedi gün içinde ödenirse bir nakit iskontosu uygulanabilir.</span><span class="sxs-lookup"><span data-stu-id="4c08a-211">In this scenario, an invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Fatura toplamı | Mevcut nakit iskontosu | Nakit iskontosunu içeren, ödenecek tutar |
+| <span data-ttu-id="4c08a-212">Fatura toplamı</span><span class="sxs-lookup"><span data-stu-id="4c08a-212">Invoice total</span></span> | <span data-ttu-id="4c08a-213">Mevcut nakit iskontosu</span><span class="sxs-lookup"><span data-stu-id="4c08a-213">Cash discount available</span></span> | <span data-ttu-id="4c08a-214">Nakit iskontosunu içeren, ödenecek tutar</span><span class="sxs-lookup"><span data-stu-id="4c08a-214">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| 105,00        | 10,50                   | 94,50                                               |
+| <span data-ttu-id="4c08a-215">105,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-215">105.00</span></span>        | <span data-ttu-id="4c08a-216">10,50</span><span class="sxs-lookup"><span data-stu-id="4c08a-216">10.50</span></span>                   | <span data-ttu-id="4c08a-217">94,50</span><span class="sxs-lookup"><span data-stu-id="4c08a-217">94.50</span></span>                                               |
 
-Müşteri, nakit iskontosu geçerlilik tarihi dolmadan 95,00 tutarında bir ödeme gönderir. Ödeme, 105,00 tutarındaki fatura için kapatılır. Fatura ve ödeme kapatıldıktan sonra Alacak hesapları altında müşteri için aşağıdaki hareketler oluşturulur.
+<span data-ttu-id="4c08a-218">Müşteri, nakit iskontosu geçerlilik tarihi dolmadan 95,00 tutarında bir ödeme gönderir.</span><span class="sxs-lookup"><span data-stu-id="4c08a-218">The customer submits a payment for 95.00 within the cash discount date.</span></span> <span data-ttu-id="4c08a-219">Ödeme, 105,00 tutarındaki fatura için kapatılır.</span><span class="sxs-lookup"><span data-stu-id="4c08a-219">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="4c08a-220">Fatura ve ödeme kapatıldıktan sonra Alacak hesapları altında müşteri için aşağıdaki hareketler oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="4c08a-220">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| İşlem   | Tutar | Kalan |
+| <span data-ttu-id="4c08a-221">İşlem</span><span class="sxs-lookup"><span data-stu-id="4c08a-221">Transaction</span></span>   | <span data-ttu-id="4c08a-222">Tutar</span><span class="sxs-lookup"><span data-stu-id="4c08a-222">Amount</span></span> | <span data-ttu-id="4c08a-223">Kalan</span><span class="sxs-lookup"><span data-stu-id="4c08a-223">Balance</span></span> |
 |---------------|--------|---------|
-| Fatura       | 105,00 | 0,00    |
-| Ödeme       | -95,00 | -0,00   |
-| Nakit iskontosu | -10,00 | 0,00    |
+| <span data-ttu-id="4c08a-224">Fatura</span><span class="sxs-lookup"><span data-stu-id="4c08a-224">Invoice</span></span>       | <span data-ttu-id="4c08a-225">105,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-225">105.00</span></span> | <span data-ttu-id="4c08a-226">0,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-226">0.00</span></span>    |
+| <span data-ttu-id="4c08a-227">Ödeme</span><span class="sxs-lookup"><span data-stu-id="4c08a-227">Payment</span></span>       | <span data-ttu-id="4c08a-228">-95,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-228">-95.00</span></span> | <span data-ttu-id="4c08a-229">-0,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-229">-0.00</span></span>   |
+| <span data-ttu-id="4c08a-230">Nakit iskontosu</span><span class="sxs-lookup"><span data-stu-id="4c08a-230">Cash discount</span></span> | <span data-ttu-id="4c08a-231">-10,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-231">-10.00</span></span> | <span data-ttu-id="4c08a-232">0,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-232">0.00</span></span>    |
 
-Nakit iskontosu tutarı 10,50'den 10,00'a düşürülür. Ödeme ve faturanın kapatıldığı kabul edilir. **Ödeme**
+<span data-ttu-id="4c08a-233">Nakit iskontosu tutarı 10,50'den 10,00'a düşürülür.</span><span class="sxs-lookup"><span data-stu-id="4c08a-233">The cash discount amount is reduced from 10.50 to 10.00.</span></span> <span data-ttu-id="4c08a-234">Ödeme ve faturanın kapatıldığı kabul edilir.</span><span class="sxs-lookup"><span data-stu-id="4c08a-234">The payment and invoice are considered settled.</span></span> <span data-ttu-id="4c08a-235">**Ödeme**</span><span class="sxs-lookup"><span data-stu-id="4c08a-235">**Payment**</span></span>
 
-| Hesap             | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="4c08a-236">Hesap</span><span class="sxs-lookup"><span data-stu-id="4c08a-236">Account</span></span>             | <span data-ttu-id="4c08a-237">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="4c08a-237">Debit amount</span></span> | <span data-ttu-id="4c08a-238">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="4c08a-238">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Nakit                | 95,00        |               |
-| Alacak hesapları |              | 95,00         |
+| <span data-ttu-id="4c08a-239">Nakit</span><span class="sxs-lookup"><span data-stu-id="4c08a-239">Cash</span></span>                | <span data-ttu-id="4c08a-240">95,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-240">95.00</span></span>        |               |
+| <span data-ttu-id="4c08a-241">Alacak hesapları</span><span class="sxs-lookup"><span data-stu-id="4c08a-241">Accounts receivable</span></span> |              | <span data-ttu-id="4c08a-242">95,00</span><span class="sxs-lookup"><span data-stu-id="4c08a-242">95.00</span></span>         |
 
-**Kapatma**
+<span data-ttu-id="4c08a-243">**Kapatma**</span><span class="sxs-lookup"><span data-stu-id="4c08a-243">**Settlement**</span></span>
 
-| Hesap                                                                                          | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="4c08a-244">Hesap</span><span class="sxs-lookup"><span data-stu-id="4c08a-244">Account</span></span>                                                                                          | <span data-ttu-id="4c08a-245">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="4c08a-245">Debit amount</span></span> | <span data-ttu-id="4c08a-246">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="4c08a-246">Credit amount</span></span> |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Nakit iskontosu (**Nakit iskontoları** sayfasındaki **Müşteri iskontoları için ana hesap** alanı) | 10,50        |               |
-| Alacak hesapları                                                                              |              | 10,50         |
+| <span data-ttu-id="4c08a-247">Nakit iskontosu (**Nakit iskontoları** sayfasındaki **Müşteri iskontoları için ana hesap** alanı)</span><span class="sxs-lookup"><span data-stu-id="4c08a-247">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="4c08a-248">10,50</span><span class="sxs-lookup"><span data-stu-id="4c08a-248">10.50</span></span>        |               |
+| <span data-ttu-id="4c08a-249">Alacak hesapları</span><span class="sxs-lookup"><span data-stu-id="4c08a-249">Accounts receivable</span></span>                                                                              |              | <span data-ttu-id="4c08a-250">10,50</span><span class="sxs-lookup"><span data-stu-id="4c08a-250">10.50</span></span>         |
 
 
 

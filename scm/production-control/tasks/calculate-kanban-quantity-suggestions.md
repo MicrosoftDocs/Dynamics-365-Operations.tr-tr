@@ -17,72 +17,72 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 7416e0407892281377b69a7a3b19e61f46220709
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a817dbc02890d863f68c5bf2a6cc11b9a5328060
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="calculate-kanban-quantity-suggestions"></a>Kanban miktarı önerilerini hesaplama
+# <a name="calculate-kanban-quantity-suggestions"></a><span data-ttu-id="12835-103">Kanban miktarı önerilerini hesaplama</span><span class="sxs-lookup"><span data-stu-id="12835-103">Calculate kanban quantity suggestions</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, kanban boyutunu ve miktarlarını belirli bir kanban kuralı için, kanban miktarı hesaplamayı kullanarak en iyi duruma getirme üzerinde odaklanır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam değer akışı yöneticisi için hazırlanmıştır. Yeni bir kanban miktar hesaplama ilkesini bir kanban kuralına ekle yordamını tamamlamış olmanız bir önkoşuldur.
+<span data-ttu-id="12835-104">Bu yordam, kanban boyutunu ve miktarlarını belirli bir kanban kuralı için, kanban miktarı hesaplamayı kullanarak en iyi duruma getirme üzerinde odaklanır.</span><span class="sxs-lookup"><span data-stu-id="12835-104">This procedure focuses on optimizing the kanban size and quantities for a specific kanban rule by using the kanban quantity calculation.</span></span> <span data-ttu-id="12835-105">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="12835-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="12835-106">Bu yordam değer akışı yöneticisi için hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="12835-106">This procedure is intended for the value stream manager.</span></span> <span data-ttu-id="12835-107">Yeni bir kanban miktar hesaplama ilkesini bir kanban kuralına ekle yordamını tamamlamış olmanız bir önkoşuldur.</span><span class="sxs-lookup"><span data-stu-id="12835-107">It is a prerequisite that you have completed the procedure Add a new kanban quantity calculation policy to a kanban rule.</span></span>
 
 
-## <a name="create-a-kanban-quantity-calculation"></a>Bir kanban miktar hesaplaması oluşturun
-1. Üretim kontrol > Periyodik görevler > Kanban miktarı hesaplama > Kanban miktarı hesapla seçeneğine gidin.
-2. Yeni'ye tıklayın.
-3. İsim alanına 'Speaker2016' yazın.
-4. Ad alanında, açılır menü düğmesine tıklayarak aramayı açın.
-    * Kanban kural için yeni bir kanban miktarı hesaplama İlkesi ekle yordamında oluşturduğunuz ilkeyi seçin. Örneğin Speaker2016.  
-5. Listede, seçili satırdaki bağlantıya tıklayın.
-6. Kuralın aktif olacağı tarih alanına tarih ve saati '2012-12-17T08:00:00' olarak yazın.
-    * Bu tarih, Kanban miktarı hesaplamasına hangi sabit kanban kurallarının dahil edileceğinin belirlenmesi için temel olarak kullanılır.  
-7. Kuralın aktif olacağı tarih alanına tarih ve saati '2012-11-17T09:00:00' yazın.
-    * Kanban miktarını hesaplamak için geçmiş talep hareketlerinin dahil edilmeye başlayacağı tarih.  
-8. Tamamlanan isteğin dönem bitiş tarihi alanına, tarihi ve saati '2012-12-17T07:59:59' olarak yazın.
-    * Kanban miktarını hesaplamak için geçmiş talep hareketlerinin dahil edileceği son tarih.  
-9. Talep tarihi başlangıç zamanı alanına, tarihi ve saati '2012-12-17T08:00:00' olarak yazın.
-    * Kanban miktarını hesaplamak için geçerli talep hareketlerinin dahil edilmeye başlayacağı tarih.  
-10. Talep dönem bitiş tarihi alanına, tarihi ve saati '2013-01-16T07:59:59' olarak yazın.
-    * Kanban miktarını hesaplamak için geçerli talep hareketlerinin dahil edileceği son tarih.  
+## <a name="create-a-kanban-quantity-calculation"></a><span data-ttu-id="12835-108">Bir kanban miktar hesaplaması oluşturun</span><span class="sxs-lookup"><span data-stu-id="12835-108">Create a kanban quantity calculation</span></span>
+1. <span data-ttu-id="12835-109">Üretim kontrol > Periyodik görevler > Kanban miktarı hesaplama > Kanban miktarı hesapla seçeneğine gidin.</span><span class="sxs-lookup"><span data-stu-id="12835-109">Go to Production control > Periodic tasks > Kanban quantity calculation > Calculate kanban quantity.</span></span>
+2. <span data-ttu-id="12835-110">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="12835-110">Click New.</span></span>
+3. <span data-ttu-id="12835-111">İsim alanına 'Speaker2016' yazın.</span><span class="sxs-lookup"><span data-stu-id="12835-111">In the Name field, type 'Speaker2016'.</span></span>
+4. <span data-ttu-id="12835-112">Ad alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="12835-112">In the Name field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="12835-113">Kanban kural için yeni bir kanban miktarı hesaplama İlkesi ekle yordamında oluşturduğunuz ilkeyi seçin.</span><span class="sxs-lookup"><span data-stu-id="12835-113">Select the policy that you have created in the procedure Add a new kanban quantity calculation policy to a kanban rule.</span></span> <span data-ttu-id="12835-114">Örneğin Speaker2016.</span><span class="sxs-lookup"><span data-stu-id="12835-114">For example, Speaker2016.</span></span>  
+5. <span data-ttu-id="12835-115">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="12835-115">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="12835-116">Kuralın aktif olacağı tarih alanına tarih ve saati '2012-12-17T08:00:00' olarak yazın.</span><span class="sxs-lookup"><span data-stu-id="12835-116">In the Rule active as of date field, set the date and time to '2012-12-17T08:00:00'.</span></span>
+    * <span data-ttu-id="12835-117">Bu tarih, Kanban miktarı hesaplamasına hangi sabit kanban kurallarının dahil edileceğinin belirlenmesi için temel olarak kullanılır.</span><span class="sxs-lookup"><span data-stu-id="12835-117">This date serves as the basis for determining which fixed kanban rules are included in the kanban quantity calculation.</span></span>  
+7. <span data-ttu-id="12835-118">Kuralın aktif olacağı tarih alanına tarih ve saati '2012-11-17T09:00:00' yazın.</span><span class="sxs-lookup"><span data-stu-id="12835-118">In the Fulfilled demand period start date field, set the date and time to '2012-11-17T09:00:00'.</span></span>
+    * <span data-ttu-id="12835-119">Kanban miktarını hesaplamak için geçmiş talep hareketlerinin dahil edilmeye başlayacağı tarih.</span><span class="sxs-lookup"><span data-stu-id="12835-119">The date from when past demand transactions are included to calculate the kanban quantity.</span></span>  
+8. <span data-ttu-id="12835-120">Tamamlanan isteğin dönem bitiş tarihi alanına, tarihi ve saati '2012-12-17T07:59:59' olarak yazın.</span><span class="sxs-lookup"><span data-stu-id="12835-120">In the Fulfilled demand period end date field, set the date and time to '2012-12-17T07:59:59'.</span></span>
+    * <span data-ttu-id="12835-121">Kanban miktarını hesaplamak için geçmiş talep hareketlerinin dahil edileceği son tarih.</span><span class="sxs-lookup"><span data-stu-id="12835-121">The date until when past demand transactions are included to calculate the kanban quantity.</span></span>  
+9. <span data-ttu-id="12835-122">Talep tarihi başlangıç zamanı alanına, tarihi ve saati '2012-12-17T08:00:00' olarak yazın.</span><span class="sxs-lookup"><span data-stu-id="12835-122">In the Demand period start date field, set the date and time to '2012-12-17T08:00:00'.</span></span>
+    * <span data-ttu-id="12835-123">Kanban miktarını hesaplamak için geçerli talep hareketlerinin dahil edilmeye başlayacağı tarih.</span><span class="sxs-lookup"><span data-stu-id="12835-123">The date from when current demand transactions are included to calculate the kanban quantity.</span></span>  
+10. <span data-ttu-id="12835-124">Talep dönem bitiş tarihi alanına, tarihi ve saati '2013-01-16T07:59:59' olarak yazın.</span><span class="sxs-lookup"><span data-stu-id="12835-124">In the Demand period end date field, set the date and time to '2013-01-16T07:59:59'.</span></span>
+    * <span data-ttu-id="12835-125">Kanban miktarını hesaplamak için geçerli talep hareketlerinin dahil edileceği son tarih.</span><span class="sxs-lookup"><span data-stu-id="12835-125">The date until when current demand transactions are included to calculate the kanban quantity.</span></span>  
 
-## <a name="generate-kanban-quantity-proposal"></a>Kanban miktarı teklifi oluşturun
-1. Kaydet'e tıklayın.
-2. Üret'i tıklatın.
-    * Bu 000020 kanban kuralı için bir kanban miktar teklif satırı oluşturur.  
+## <a name="generate-kanban-quantity-proposal"></a><span data-ttu-id="12835-126">Kanban miktarı teklifi oluşturun</span><span class="sxs-lookup"><span data-stu-id="12835-126">Generate kanban quantity proposal</span></span>
+1. <span data-ttu-id="12835-127">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="12835-127">Click Save.</span></span>
+2. <span data-ttu-id="12835-128">Üret'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="12835-128">Click Generate.</span></span>
+    * <span data-ttu-id="12835-129">Bu 000020 kanban kuralı için bir kanban miktar teklif satırı oluşturur.</span><span class="sxs-lookup"><span data-stu-id="12835-129">This generates a kanban quantity proposal line for the kanban rule 000020.</span></span>  
 
-## <a name="run-kanban-quantity-calculation"></a>Kanban miktarı hesaplamasını çalıştırın
-1. Hesapla'yı tıklatın.
-    * Bu kanban miktarı teklifini hesaplar.  
-2. Tamam'a tıklayın.
-3. Listede, seçili satırı işaretleyin.
-    * Önerilen kanban miktarının 2 olduğuna dikkat edin.  
+## <a name="run-kanban-quantity-calculation"></a><span data-ttu-id="12835-130">Kanban miktarı hesaplamasını çalıştırın</span><span class="sxs-lookup"><span data-stu-id="12835-130">Run kanban quantity calculation</span></span>
+1. <span data-ttu-id="12835-131">Hesapla'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="12835-131">Click Calculate.</span></span>
+    * <span data-ttu-id="12835-132">Bu kanban miktarı teklifini hesaplar.</span><span class="sxs-lookup"><span data-stu-id="12835-132">This calculates the kanban quantity proposal.</span></span>  
+2. <span data-ttu-id="12835-133">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="12835-133">Click OK.</span></span>
+3. <span data-ttu-id="12835-134">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="12835-134">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="12835-135">Önerilen kanban miktarının 2 olduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="12835-135">Notice the suggested kanban quantity is 2.</span></span>  
 
-## <a name="change-product-quantity-and-calculate-again"></a>Ürün miktarını değiştirin ve yeniden hesaplayın
-1. Toplam ürün miktarını '5'e ayarlayın.
-2. Hesapla'yı tıklatın.
-3. Tamam'a tıklayın.
-    * 5 kanban miktarı ile önerinin 4 kanban miktarına değiştirildiğine dikkat edin.  
-    * Daha az ürün miktarıyla, talebini karşılamak için daha fazla kanbana gerek duyuyor olduğumuz gerçeğinden kaynaklanır.  
+## <a name="change-product-quantity-and-calculate-again"></a><span data-ttu-id="12835-136">Ürün miktarını değiştirin ve yeniden hesaplayın</span><span class="sxs-lookup"><span data-stu-id="12835-136">Change product quantity and calculate again</span></span>
+1. <span data-ttu-id="12835-137">Toplam ürün miktarını '5'e ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="12835-137">Set Product quantity to '5'.</span></span>
+2. <span data-ttu-id="12835-138">Hesapla'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="12835-138">Click Calculate.</span></span>
+3. <span data-ttu-id="12835-139">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="12835-139">Click OK.</span></span>
+    * <span data-ttu-id="12835-140">5 kanban miktarı ile önerinin 4 kanban miktarına değiştirildiğine dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="12835-140">Notice that with a kanban quantity of 5, the suggestion is changed to a kanban quantity of 4.</span></span>  
+    * <span data-ttu-id="12835-141">Daha az ürün miktarıyla, talebini karşılamak için daha fazla kanbana gerek duyuyor olduğumuz gerçeğinden kaynaklanır.</span><span class="sxs-lookup"><span data-stu-id="12835-141">This is caused by the fact that with a lower product quantity, we need more kanbans to fulfill the demand.</span></span>  
 
-## <a name="update-kanban-rule"></a>Kanban kuralını güncelleştirin
-1. Kural yürürlük tarihi alanına bir tarih ve saat girin.
-    * 'Kural tarihi itibariyle etkin' gelecekte bir tarih olarak ayarlayın. Örneğin, bugün + bir yıl.  
-2. Güncelleştir'i tıklatın.
-3. Tamam'a tıklayın.
-4. Sayfayı kapatın.
+## <a name="update-kanban-rule"></a><span data-ttu-id="12835-142">Kanban kuralını güncelleştirin</span><span class="sxs-lookup"><span data-stu-id="12835-142">Update kanban rule</span></span>
+1. <span data-ttu-id="12835-143">Kural yürürlük tarihi alanına bir tarih ve saat girin.</span><span class="sxs-lookup"><span data-stu-id="12835-143">In the Rule effective date field, enter a date and time.</span></span>
+    * <span data-ttu-id="12835-144">'Kural tarihi itibariyle etkin' gelecekte bir tarih olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="12835-144">Set the 'Rule active as of date' to a date in the future.</span></span> <span data-ttu-id="12835-145">Örneğin, bugün + bir yıl.</span><span class="sxs-lookup"><span data-stu-id="12835-145">For example, today + one year.</span></span>  
+2. <span data-ttu-id="12835-146">Güncelleştir'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="12835-146">Click Update.</span></span>
+3. <span data-ttu-id="12835-147">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="12835-147">Click OK.</span></span>
+4. <span data-ttu-id="12835-148">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="12835-148">Close the page.</span></span>
 
-## <a name="validate-change-on-kanban-rule"></a>Kanban kural değişimini doğrulayın
-1. Ürün bilgi yönetimi > Yalın imalat > Kanban kuralları'na gidin.
-2. Listede, seçili satırdaki bağlantıya tıklayın.
-    * Önceki alt görevinde oluşturulan kanban kuralını seçin. Bu listede, numarasına göre sıralanmış ilk kanban kuralı olmalıdır.  
-3. Ayrıntılar bölümünün genişletilmiş görünümüne geçin.
-    * Bu tarihe kadar kuralın etkin hale gelmeyeceği anlamına gelen etkin tarihe dikkat edin.  
-4. Miktarlar bölümünün genişletilmiş görünümüne geçin.
-    * Bunun kanban miktarı hesaplamak için girilen varsayılan miktar olduğuna dikkat edin.  
-    * Bu kanban miktar hesaplamasından gelen sabit kanban miktarı olan 4'tür.  
-5. ListPanel sekmesini tıklatın.
+## <a name="validate-change-on-kanban-rule"></a><span data-ttu-id="12835-149">Kanban kural değişimini doğrulayın</span><span class="sxs-lookup"><span data-stu-id="12835-149">Validate change on kanban rule</span></span>
+1. <span data-ttu-id="12835-150">Ürün bilgi yönetimi > Yalın imalat > Kanban kuralları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="12835-150">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+2. <span data-ttu-id="12835-151">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="12835-151">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="12835-152">Önceki alt görevinde oluşturulan kanban kuralını seçin.</span><span class="sxs-lookup"><span data-stu-id="12835-152">Select the kanban rule that was created in the previous sub-task.</span></span> <span data-ttu-id="12835-153">Bu listede, numarasına göre sıralanmış ilk kanban kuralı olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="12835-153">This should be the first kanban rule in the list sorted by number.</span></span>  
+3. <span data-ttu-id="12835-154">Ayrıntılar bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="12835-154">Toggle the expansion of the Details section.</span></span>
+    * <span data-ttu-id="12835-155">Bu tarihe kadar kuralın etkin hale gelmeyeceği anlamına gelen etkin tarihe dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="12835-155">Notice the effective date, which means that this rule is not activated until this date.</span></span>  
+4. <span data-ttu-id="12835-156">Miktarlar bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="12835-156">Toggle the expansion of the Quantities section.</span></span>
+    * <span data-ttu-id="12835-157">Bunun kanban miktarı hesaplamak için girilen varsayılan miktar olduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="12835-157">Notice this is the default quantity that you entered on the kanban quantity calculation.</span></span>  
+    * <span data-ttu-id="12835-158">Bu kanban miktar hesaplamasından gelen sabit kanban miktarı olan 4'tür.</span><span class="sxs-lookup"><span data-stu-id="12835-158">Notice this is the fixed kanban quantity of 4 from the kanban quantity calculation.</span></span>  
+5. <span data-ttu-id="12835-159">ListPanel sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="12835-159">Click the ListPanel tab.</span></span>
 
 

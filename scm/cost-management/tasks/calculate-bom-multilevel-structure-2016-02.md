@@ -17,35 +17,35 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 1ad38f67bba299bbd581aba6010b4028c91fbf3a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 16c2cacaf70df5455c3ed49b8dcb5756e89f8cb8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016-only"></a>Çok düzeyli yapı kullanarak ürün reçetesini hesaplama (yalnızca Şubat 2016)
+# <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016-only"></a><span data-ttu-id="e0723-103">Çok düzeyli yapı kullanarak ürün reçetesini hesaplama (yalnızca Şubat 2016)</span><span class="sxs-lookup"><span data-stu-id="e0723-103">Calculate a BOM by using a multilevel structure (February 2016 only)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, Maliyetlendirme tablosunu temel alan, çok düzeyli açılım kullanarak tamamlanmış bir ürünün maliyetinin nasıl hesaplanacağını gösterir. Ürün reçetesi hesaplaması serisindeki yedinci görevdir. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir.
+<span data-ttu-id="e0723-104">Bu yordam, Maliyetlendirme tablosunu temel alan, çok düzeyli açılım kullanarak tamamlanmış bir ürünün maliyetinin nasıl hesaplanacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="e0723-104">This procedure shows how to calculate the cost of a finished product by using multilevel explosion that is based in the Costing sheet.</span></span> <span data-ttu-id="e0723-105">Ürün reçetesi hesaplaması serisindeki yedinci görevdir.</span><span class="sxs-lookup"><span data-stu-id="e0723-105">It is the seventh task in the BOM calculation series.</span></span> <span data-ttu-id="e0723-106">Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="e0723-106">The demo data company used to create this task is USMF.</span></span>
 
-1. Product information management > Products > Released products (Ürün bilgi yönetimi > Ürünler > Piyasaya sürülmüş ürünler) menüsüne gidin.
-2. Listede, istenen kaydı bulun ve seçin.
-    * Ürün BOM_1 öğesini seçin.  
-3. Eylem Bölmesinde Yönet'e tıklayın.
-4. Madde fiyatı'na tıklayın.
-5. Madde maliyetini hesapla'ya tıklayın.
-    * Üst menüde bu seçeneği görmek için üç noktaya (...) tıklamanız gerekebilir.  
-6. Maliyetlendirme sürümü alanına bir değer girin veya buradan bir değer seçin.
-    * Planlanan maliyet türü ve Açılım modu Çok Düzeyli olduğu için, Maliyetlendirme sürümü 20'yi seçin.   Çok düzeyli açılım modu, planlanan maliyetler ve benzetimler içindir. Standart maliyet için kullanılmaz.  
-7. Tamam'a tıklayın.
-8. Hesaplama ayrıntılarını görüntüle seçeneğine tıklayın.
-    * Üst menüde bu seçeneği görmek için üç noktaya (...) tıklamanız gerekebilir.  Bu durumda, BOM_2'nin hammadde, işlem bu serinin ilk görev kılavuzunda etkinleştirilen 10 standart maliyeti yerine, toplam 29,40 genel gider dikkate alınarak hesaplandığına dikkat edin.  
-9. Maliyetlendirme tablosu sekmesine tıklayın.
-    * Maliyetlendirme tablosu sekmesine geçildiğinde, her maliyet grubunun toplam tutarları önceki görev kılavuzunda yapılan hesaplamalardan farklıdır.  
-10. Düzey alanında "Çoklu" seçeneğini belirtin.
-    * Çoklu seçenek belirlendiğinde, maliyetler 10'un M1 maliyet grubundan (ITEM_C) ve 15,60'ın da maliyet grubu L2 iken üretiminden türetildiği BOM_2 bileşimine göre sınıflandırılır. Dolaylı maliyetler de değişiklik gösterir.  
-11. Sayfayı kapatın.
-12. Sayfayı kapatın.
+1. <span data-ttu-id="e0723-107">Product information management > Products > Released products (Ürün bilgi yönetimi > Ürünler > Piyasaya sürülmüş ürünler) menüsüne gidin.</span><span class="sxs-lookup"><span data-stu-id="e0723-107">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="e0723-108">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="e0723-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="e0723-109">Ürün BOM_1 öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="e0723-109">Select product BOM_1.</span></span>  
+3. <span data-ttu-id="e0723-110">Eylem Bölmesinde Yönet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e0723-110">On the Action Pane, click Manage costs.</span></span>
+4. <span data-ttu-id="e0723-111">Madde fiyatı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e0723-111">Click Item price.</span></span>
+5. <span data-ttu-id="e0723-112">Madde maliyetini hesapla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e0723-112">Click Calculate item cost.</span></span>
+    * <span data-ttu-id="e0723-113">Üst menüde bu seçeneği görmek için üç noktaya (...) tıklamanız gerekebilir.</span><span class="sxs-lookup"><span data-stu-id="e0723-113">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>  
+6. <span data-ttu-id="e0723-114">Maliyetlendirme sürümü alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="e0723-114">In the Costing version field, enter or select a value.</span></span>
+    * <span data-ttu-id="e0723-115">Planlanan maliyet türü ve Açılım modu Çok Düzeyli olduğu için, Maliyetlendirme sürümü 20'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="e0723-115">Select Costing version 20, because it's Planned cost type and Explosion mode is Multilevel.</span></span>   <span data-ttu-id="e0723-116">Çok düzeyli açılım modu, planlanan maliyetler ve benzetimler içindir.</span><span class="sxs-lookup"><span data-stu-id="e0723-116">The Multilevel explosion mode is for planned costs and simulations.</span></span> <span data-ttu-id="e0723-117">Standart maliyet için kullanılmaz.</span><span class="sxs-lookup"><span data-stu-id="e0723-117">It is not used for standard cost.</span></span>  
+7. <span data-ttu-id="e0723-118">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e0723-118">Click OK.</span></span>
+8. <span data-ttu-id="e0723-119">Hesaplama ayrıntılarını görüntüle seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e0723-119">Click View calculation details.</span></span>
+    * <span data-ttu-id="e0723-120">Üst menüde bu seçeneği görmek için üç noktaya (...) tıklamanız gerekebilir.</span><span class="sxs-lookup"><span data-stu-id="e0723-120">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>  <span data-ttu-id="e0723-121">Bu durumda, BOM_2'nin hammadde, işlem bu serinin ilk görev kılavuzunda etkinleştirilen 10 standart maliyeti yerine, toplam 29,40 genel gider dikkate alınarak hesaplandığına dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="e0723-121">In this case, notice how BOM_2 has been calculated taking into account the raw material, process, and overhead with a total of 29,40 instead of the standard cost of 10 that was activated in the initial task guide in this series.</span></span>  
+9. <span data-ttu-id="e0723-122">Maliyetlendirme tablosu sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e0723-122">Click the Costing sheet tab.</span></span>
+    * <span data-ttu-id="e0723-123">Maliyetlendirme tablosu sekmesine geçildiğinde, her maliyet grubunun toplam tutarları önceki görev kılavuzunda yapılan hesaplamalardan farklıdır.</span><span class="sxs-lookup"><span data-stu-id="e0723-123">Moving to the Costing sheet tab, the totals per cost group are different compared to the calculation done in previous task guide.</span></span>  
+10. <span data-ttu-id="e0723-124">Düzey alanında "Çoklu" seçeneğini belirtin.</span><span class="sxs-lookup"><span data-stu-id="e0723-124">In the Level field, select 'Multi'.</span></span>
+    * <span data-ttu-id="e0723-125">Çoklu seçenek belirlendiğinde, maliyetler 10'un M1 maliyet grubundan (ITEM_C) ve 15,60'ın da maliyet grubu L2 iken üretiminden türetildiği BOM_2 bileşimine göre sınıflandırılır.</span><span class="sxs-lookup"><span data-stu-id="e0723-125">When selecting Multi, the costs are classified according to the composition of BOM_2, where 10 is derived from the M1 cost group (ITEM_C), and 15,60 is derived from its manufacturing where the cost group is L2.</span></span> <span data-ttu-id="e0723-126">Dolaylı maliyetler de değişiklik gösterir.</span><span class="sxs-lookup"><span data-stu-id="e0723-126">Indirect costs also vary.</span></span>  
+11. <span data-ttu-id="e0723-127">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="e0723-127">Close the page.</span></span>
+12. <span data-ttu-id="e0723-128">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="e0723-128">Close the page.</span></span>
 
 

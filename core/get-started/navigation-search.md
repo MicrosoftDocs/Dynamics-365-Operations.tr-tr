@@ -15,49 +15,49 @@ ms.custom: 25991
 ms.assetid: eef0676f-c4b1-490e-a032-e9c8580f3fea
 ms.search.region: Global
 ms.author: aneesa
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 431165d541c9a3b63100a93108ee770df8e88aa8
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 6159f78e57752b9519ccf88677a7fc9010ada35a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="navigation-search"></a>Gezinti araması
+# <a name="navigation-search"></a><span data-ttu-id="5eaba-103">Gezinti araması</span><span class="sxs-lookup"><span data-stu-id="5eaba-103">Navigation search</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu konuda, Microsoft Dynamics 365 for Finance and Operations sayfalarında gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır.
+<span data-ttu-id="5eaba-104">Bu konuda, Microsoft Dynamics 365 for Finance and Operations sayfalarında gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="5eaba-104">This topic explains how to use the search functionality to navigate to pages in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
-Finance and Operations geniş bir sektör ve faaliyet alanı yelpazesi için işlevler sağlar. Uygulama, çeşitli görevleri gerçekleştirmenize yardımcı olmak için çok sayıda alan ve sayfa içerir. Görevlerinizi tamamlamak için ihtiyaç duyduğunuz sayfaları hızlı bir şekilde bulmak için gezinti araması özelliğini kullanın. 
+<span data-ttu-id="5eaba-105">Finance and Operations geniş bir sektör ve faaliyet alanı yelpazesi için işlevler sağlar.</span><span class="sxs-lookup"><span data-stu-id="5eaba-105">Finance and Operations provides functionality for a wide array of industries and verticals.</span></span> <span data-ttu-id="5eaba-106">Uygulama, çeşitli görevleri gerçekleştirmenize yardımcı olmak için çok sayıda alan ve sayfa içerir.</span><span class="sxs-lookup"><span data-stu-id="5eaba-106">The application includes a number of areas and pages to help you perform various tasks.</span></span> <span data-ttu-id="5eaba-107">Görevlerinizi tamamlamak için ihtiyaç duyduğunuz sayfaları hızlı bir şekilde bulmak için gezinti araması özelliğini kullanın.</span><span class="sxs-lookup"><span data-stu-id="5eaba-107">To quickly find the pages that you need to complete your tasks, use the navigation search feature.</span></span> 
 
-Bu özelliği kullanmak için **Arama** simgesine tıklayarak **Arama** kutusunu görüntüleyin. Kutuya bir veya birden fazla sözcük yazabilirsiniz. Sistem, uygulamadaki ilgili sayfalarda, girmiş olduğunuz sözcüklerle eşleşmeler arar. Örneğin, giriş olarak "satıcı faturası" yazdığınızda o girişle eşleşen sonuçları görüntüler. 
+<span data-ttu-id="5eaba-108">Bu özelliği kullanmak için **Arama** simgesine tıklayarak **Arama** kutusunu görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="5eaba-108">To use this feature, click the **Search** icon to display the **Search** box.</span></span> <span data-ttu-id="5eaba-109">Kutuya bir veya birden fazla sözcük yazabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="5eaba-109">You can then type one or more words in the box.</span></span> <span data-ttu-id="5eaba-110">Sistem, uygulamadaki ilgili sayfalarda, girmiş olduğunuz sözcüklerle eşleşmeler arar.</span><span class="sxs-lookup"><span data-stu-id="5eaba-110">The system instantly searches for relevant pages in the application that match the words that you entered.</span></span> <span data-ttu-id="5eaba-111">Örneğin, giriş olarak "satıcı faturası" yazdığınızda o girişle eşleşen sonuçları görüntüler.</span><span class="sxs-lookup"><span data-stu-id="5eaba-111">For example, you could type “vendor invoice” as the input, and then the system displays results that match that input.</span></span> 
 
-**Not:** **Arama** kutusu, sayfaları bulmanıza ve sayfalarda gezinmenize yardımcı olur. Belirli verileri veya eylemleri bulmanıza yardımcı olmaz. 
+<span data-ttu-id="5eaba-112">**Not:** **Arama** kutusu, sayfaları bulmanıza ve sayfalarda gezinmenize yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="5eaba-112">**Note:** The **Search** box helps you find and navigate to pages.</span></span> <span data-ttu-id="5eaba-113">Belirli verileri veya eylemleri bulmanıza yardımcı olmaz.</span><span class="sxs-lookup"><span data-stu-id="5eaba-113">It will not help you find specific data or actions.</span></span> 
 
-[![arama-kutusu](media/navigation-search.png "Arama kutusu") 
+<span data-ttu-id="5eaba-114">[![arama-kutusu](media/navigation-search.png "Arama kutusu")</span><span class="sxs-lookup"><span data-stu-id="5eaba-114">[![search-box](media/navigation-search.png "Search box")</span></span> 
 
-## <a name="quickly-navigate-to-a-particular-page"></a>Belirli bir sayfaya hızlı bir şekilde gitmek
-Gezinti araması özelliği, belirli bir sayfayı hızla bulmak için de harika bir araç işlevi görür. Örneğin, **Ödeme günlüğü** sayfasını sık kullanan bir borç hesapları memuruysanız, **Arama** kutusuna "ödeme günlüğü" girebilirsiniz. Giriş sayfa başlığı için tam bir eşleşme olduğundan, sayfa arama sonuçlarının üst kısmında listelenir ve sayfaya hızlı bir şekilde gidebilirsiniz. 
+## <a name="quickly-navigate-to-a-particular-page"></a><span data-ttu-id="5eaba-115">Belirli bir sayfaya hızlı bir şekilde gitmek</span><span class="sxs-lookup"><span data-stu-id="5eaba-115">Quickly navigate to a particular page</span></span>
+<span data-ttu-id="5eaba-116">Gezinti araması özelliği, belirli bir sayfayı hızla bulmak için de harika bir araç işlevi görür.</span><span class="sxs-lookup"><span data-stu-id="5eaba-116">The navigation search feature also serves as a great way for you to quickly navigate to a particular page.</span></span> <span data-ttu-id="5eaba-117">Örneğin, **Ödeme günlüğü** sayfasını sık kullanan bir borç hesapları memuruysanız, **Arama** kutusuna "ödeme günlüğü" girebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="5eaba-117">For example, if you are an accounts payable clerk who frequently uses the **Payment journal** page, you could enter "payment journal" in the **Search** box.</span></span> <span data-ttu-id="5eaba-118">Giriş sayfa başlığı için tam bir eşleşme olduğundan, sayfa arama sonuçlarının üst kısmında listelenir ve sayfaya hızlı bir şekilde gidebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="5eaba-118">Because the input is an exact match for the page title, the page is listed at the top of the search results, and you can quickly navigate to it.</span></span> 
 
-Arama sonuçları listesinde sayfa başlığının yanı sıra gezinti yolu da görüntülenir. Bu, sayfanın uygulamadaki yerini gösterir. Ayrıca, sonuçlardaki iki veya daha fazla benzer sayfayı birbirlerinden ayırt etmenize yardımcı olur. 
+<span data-ttu-id="5eaba-119">Arama sonuçları listesinde sayfa başlığının yanı sıra gezinti yolu da görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="5eaba-119">The search results list displays the page title as well as the navigation path.</span></span> <span data-ttu-id="5eaba-120">Bu, sayfanın uygulamadaki yerini gösterir.</span><span class="sxs-lookup"><span data-stu-id="5eaba-120">This shows the location of the page in the application.</span></span> <span data-ttu-id="5eaba-121">Ayrıca, sonuçlardaki iki veya daha fazla benzer sayfayı birbirlerinden ayırt etmenize yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="5eaba-121">It also helps you differentiate between two or more similar pages in the results.</span></span> 
 
-Sayfa aradığınız zaman, girişiniz sayfa başlığıyla ve aynı zamanda gezinti yoluyla eşleştirilir. Örneğin **Arama** kutusuna "alacak" girerseniz, sayfa başlıklarında "alacak" sözcüğü yer almasa bile, Alacak hesapları alanında kullanımınıza sunulan sayfalar için sonuçları görürsünüz. 
+<span data-ttu-id="5eaba-122">Sayfa aradığınız zaman, girişiniz sayfa başlığıyla ve aynı zamanda gezinti yoluyla eşleştirilir.</span><span class="sxs-lookup"><span data-stu-id="5eaba-122">When you search for a page, your input is matched against the page title, as well as its navigation path.</span></span> <span data-ttu-id="5eaba-123">Örneğin **Arama** kutusuna "alacak" girerseniz, sayfa başlıklarında "alacak" sözcüğü yer almasa bile, Alacak hesapları alanında kullanımınıza sunulan sayfalar için sonuçları görürsünüz.</span><span class="sxs-lookup"><span data-stu-id="5eaba-123">For example, if you enter “receivable” in the **Search** box, you will see results for the pages available to you in the Accounts receivable area--even though the page titles do not include the word “receivable."</span></span> 
 
-## <a name="quickly-navigate-to-a-page-based-on-the-technical-form-name"></a>Teknik form adını temel alarak bir sayfaya hızlı bir şekilde gitmek
-Gezinti araması işlevi, ileri düzeydeki kullanıcılar için çok istenen bir özellik içeriyor: teknik form adına göre bir sayfaya hızlı bir şekilde gidebilme. Birçok kullanıcı sistemi çalıştıkları form adlarını tam olarak biliyor. Bu kullanıcılardan biriyseniz aradığınız form adının önüne **form:** yazabilirsiniz. Örneğin **form: satıcıfatura** girerseniz, arama sonuçlarında form adının **satıcıfatura** ile başladığı tüm sayfalar gösterilir. 
+## <a name="quickly-navigate-to-a-page-based-on-the-technical-form-name"></a><span data-ttu-id="5eaba-124">Teknik form adını temel alarak bir sayfaya hızlı bir şekilde gitmek</span><span class="sxs-lookup"><span data-stu-id="5eaba-124">Quickly navigate to a page based on the technical form name</span></span>
+<span data-ttu-id="5eaba-125">Gezinti araması işlevi, ileri düzeydeki kullanıcılar için çok istenen bir özellik içeriyor: teknik form adına göre bir sayfaya hızlı bir şekilde gidebilme.</span><span class="sxs-lookup"><span data-stu-id="5eaba-125">The navigation search functionality also includes a much-requested feature for power users: the ability to quickly navigate to a page based on the technical form name.</span></span> <span data-ttu-id="5eaba-126">Birçok kullanıcı sistemi çalıştıkları form adlarını tam olarak biliyor.</span><span class="sxs-lookup"><span data-stu-id="5eaba-126">Many users are so familiar with the system that they know the exact form names they work with.</span></span> <span data-ttu-id="5eaba-127">Bu kullanıcılardan biriyseniz aradığınız form adının önüne **form:** yazabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="5eaba-127">If you are one of these users, you can enter **form:** followed by the name of the form you are looking for.</span></span> <span data-ttu-id="5eaba-128">Örneğin **form: satıcıfatura** girerseniz, arama sonuçlarında form adının **satıcıfatura** ile başladığı tüm sayfalar gösterilir.</span><span class="sxs-lookup"><span data-stu-id="5eaba-128">For example, if you enter **form: vendinvoice**, the search results will show all pages where the form name starts with **vendinvoice**.</span></span> 
 
-## <a name="administration-and-security"></a>Yönetim ve güvenlik
-Yönetim ve güvenlik açısından bakıldığında, gezinti araması işlevi şuralarda yalnızca iki türde sonuç ortaya çıkartır:
+## <a name="administration-and-security"></a><span data-ttu-id="5eaba-129">Yönetim ve güvenlik</span><span class="sxs-lookup"><span data-stu-id="5eaba-129">Administration and security</span></span>
+<span data-ttu-id="5eaba-130">Yönetim ve güvenlik açısından bakıldığında, gezinti araması işlevi şuralarda yalnızca iki türde sonuç ortaya çıkartır:</span><span class="sxs-lookup"><span data-stu-id="5eaba-130">From an administration and security perspective, the navigation search functionality only surfaces two types of results:</span></span>
 
--   Geçerli yapılandırmada (yapılandırma anahtarları aracılığıyla) etkinleştirilmiş sayfalar.
--   Kullanıcının, rolüne göre erişimin olduğu sayfalar.
+-   <span data-ttu-id="5eaba-131">Geçerli yapılandırmada (yapılandırma anahtarları aracılığıyla) etkinleştirilmiş sayfalar.</span><span class="sxs-lookup"><span data-stu-id="5eaba-131">Pages that are enabled in the current configuration (via configuration keys).</span></span>
+-   <span data-ttu-id="5eaba-132">Kullanıcının, rolüne göre erişimin olduğu sayfalar.</span><span class="sxs-lookup"><span data-stu-id="5eaba-132">Pages that the user has access to based on the user's role.</span></span>
 
-Arama sonuçları listesi 10 öğeyle sınırlıdır. Aradığınızı sonuçlarda bulamazsanız, girişi daraltmayı veya güncelleştirmeyi denemelisiniz. 
+<span data-ttu-id="5eaba-133">Arama sonuçları listesi 10 öğeyle sınırlıdır.</span><span class="sxs-lookup"><span data-stu-id="5eaba-133">The list of search results is limited to 10 items.</span></span> <span data-ttu-id="5eaba-134">Aradığınızı sonuçlarda bulamazsanız, girişi daraltmayı veya güncelleştirmeyi denemelisiniz.</span><span class="sxs-lookup"><span data-stu-id="5eaba-134">If you do not find what you're looking for in the results, you should try refining or updating the input.</span></span> 
 
-## <a name="development"></a>Geliştirme 
-Geliştirme açısından bakıldığında, gezinti araması, kolay yararlanılan bir işlevdir çünkü menü öğelerinin dağıtımı ve arama sonuçlarında görünmeleri arasında neredeyse hiç gecikme yoktur. Menü öğeleri gezinti bölmesinden veya panodan bağlantılı olduğu sürece, otomatik olarak aranabilir olacaktır. 
+## <a name="development"></a><span data-ttu-id="5eaba-135">Geliştirme</span><span class="sxs-lookup"><span data-stu-id="5eaba-135">Development</span></span> 
+<span data-ttu-id="5eaba-136">Geliştirme açısından bakıldığında, gezinti araması, kolay yararlanılan bir işlevdir çünkü menü öğelerinin dağıtımı ve arama sonuçlarında görünmeleri arasında neredeyse hiç gecikme yoktur.</span><span class="sxs-lookup"><span data-stu-id="5eaba-136">From a development perspective, the navigation search functionality is easy to leverage because there is virtually no delay between the deployment of menu items and their ability to show up in search results.</span></span> <span data-ttu-id="5eaba-137">Menü öğeleri gezinti bölmesinden veya panodan bağlantılı olduğu sürece, otomatik olarak aranabilir olacaktır.</span><span class="sxs-lookup"><span data-stu-id="5eaba-137">As long as the menu items are linked to from either the navigation pane or the dashboard, they will automatically become searchable.</span></span> 
 

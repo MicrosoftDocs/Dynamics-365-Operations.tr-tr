@@ -15,90 +15,90 @@ ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 33b7a499caf9292e44c155a0e1bd6a8929558be5
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 51cd32217b2f753f606e3060b4872a8274f16549
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="bank-statement-file-import-troubleshooting"></a>Banka ekstresi dosya alma sorunlarını giderme
+# <a name="bank-statement-file-import-troubleshooting"></a><span data-ttu-id="04159-107">Banka ekstresi dosya alma sorunlarını giderme</span><span class="sxs-lookup"><span data-stu-id="04159-107">Bank statement file import troubleshooting</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bankadan gelen banka ekstresi dosyasının, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition tarafından desteklenen düzenle eşleşmesi önemlidir. Banka ekstreleri için sıkı standartlar bulunduğundan çoğu tümleştirme doğru şekilde çalışacaktır. Ancak, bazen ekstre dosyası alınamayabilir veya hatalı sonuçlara sahip olabilir. Genellikle, bu sorunlar banka ekstresi dosyasındaki küçük farklılıklar nedeniyle ortaya çıkar. Bu makale, bu farklılıkları gidermeyi ve sorunların nasıl çözüleceğini açıklar.
+<span data-ttu-id="04159-108">Bankadan gelen banka ekstresi dosyasının, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition tarafından desteklenen düzenle eşleşmesi önemlidir.</span><span class="sxs-lookup"><span data-stu-id="04159-108">It's important that the bank statement file from the bank match the layout that Microsoft Dynamics 365 for Finance and Operations, Enterprise edition supports.</span></span> <span data-ttu-id="04159-109">Banka ekstreleri için sıkı standartlar bulunduğundan çoğu tümleştirme doğru şekilde çalışacaktır.</span><span class="sxs-lookup"><span data-stu-id="04159-109">Because of strict standards for bank statements, most integrations will work correctly.</span></span> <span data-ttu-id="04159-110">Ancak, bazen ekstre dosyası alınamayabilir veya hatalı sonuçlara sahip olabilir.</span><span class="sxs-lookup"><span data-stu-id="04159-110">However, sometimes the statement file can't be imported or has incorrect results.</span></span> <span data-ttu-id="04159-111">Genellikle, bu sorunlar banka ekstresi dosyasındaki küçük farklılıklar nedeniyle ortaya çıkar.</span><span class="sxs-lookup"><span data-stu-id="04159-111">Typically, these issues are caused by small differences in the bank statement file.</span></span> <span data-ttu-id="04159-112">Bu makale, bu farklılıkları gidermeyi ve sorunların nasıl çözüleceğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="04159-112">This article explains how to fix these differences and resolve the issues.</span></span>
 
-<a name="what-is-the-error"></a>Hata nedir?
+<a name="what-is-the-error"></a><span data-ttu-id="04159-113">Hata nedir?</span><span class="sxs-lookup"><span data-stu-id="04159-113">What is the error?</span></span>
 ------------------
 
-Bir banka ekstresi doyasını içe aktarmaya çalıştıktan sonra, hatayı bulmak için Veri yönetimi iş geçmişine ve yürütme ayrıntılarına gidin. Hata, ekstre, bilanço ya da ekstre satırına yönlendirerek yardımcı olabilir. Ancak soruna neden olan alan veya öğeyi tanımlamanıza yardımcı olmaya yeterli olacak bilgi vermesi olası değildir.
+<span data-ttu-id="04159-114">Bir banka ekstresi doyasını içe aktarmaya çalıştıktan sonra, hatayı bulmak için Veri yönetimi iş geçmişine ve yürütme ayrıntılarına gidin.</span><span class="sxs-lookup"><span data-stu-id="04159-114">After you try to import a bank statement file, go to the Data management job history and its execution details to find the error.</span></span> <span data-ttu-id="04159-115">Hata, ekstre, bilanço ya da ekstre satırına yönlendirerek yardımcı olabilir.</span><span class="sxs-lookup"><span data-stu-id="04159-115">The error can help by pointing to the statement, balance, or statement line.</span></span> <span data-ttu-id="04159-116">Ancak soruna neden olan alan veya öğeyi tanımlamanıza yardımcı olmaya yeterli olacak bilgi vermesi olası değildir.</span><span class="sxs-lookup"><span data-stu-id="04159-116">However, it's unlikely to provide enough information to help you identify the field or element that is causing the issue.</span></span>
 
-## <a name="what-are-the-differences"></a>Farklar nelerdir?
-Banka dosya düzeni tanımını, Finance and Operations içe aktarma tanımıyla kıyaslayın ve alanlar ve öğelerdeki farklılıkları not edin. Banka ekstreleri dosyasını ilgili örnek Finance and Operations dosyasıyla karşılaştırın. ISO20022 dosyalarında farkları görmek kolaydır.
+## <a name="what-are-the-differences"></a><span data-ttu-id="04159-117">Farklar nelerdir?</span><span class="sxs-lookup"><span data-stu-id="04159-117">What are the differences?</span></span>
+<span data-ttu-id="04159-118">Banka dosya düzeni tanımını, Finance and Operations içe aktarma tanımıyla kıyaslayın ve alanlar ve öğelerdeki farklılıkları not edin.</span><span class="sxs-lookup"><span data-stu-id="04159-118">Compare the bank file layout definition to the Finance and Operations import definition, and note any differences in the fields and elements.</span></span> <span data-ttu-id="04159-119">Banka ekstreleri dosyasını ilgili örnek Finance and Operations dosyasıyla karşılaştırın.</span><span class="sxs-lookup"><span data-stu-id="04159-119">Compare the bank statement file to the related sample Finance and Operations file.</span></span> <span data-ttu-id="04159-120">ISO20022 dosyalarında farkları görmek kolaydır.</span><span class="sxs-lookup"><span data-stu-id="04159-120">In the ISO20022 files, any differences should be easy to see.</span></span>
 
-## <a name="transformations"></a>Dönüşümler
-Genellikle, bu değişiklikler üç dönüşümden birinde yapılmalıdır. Her bir dönüşüm belirli bir standart için yazılır.
+## <a name="transformations"></a><span data-ttu-id="04159-121">Dönüşümler</span><span class="sxs-lookup"><span data-stu-id="04159-121">Transformations</span></span>
+<span data-ttu-id="04159-122">Genellikle, bu değişiklikler üç dönüşümden birinde yapılmalıdır.</span><span class="sxs-lookup"><span data-stu-id="04159-122">Typically, the change must be made in one of three transformations.</span></span> <span data-ttu-id="04159-123">Her bir dönüşüm belirli bir standart için yazılır.</span><span class="sxs-lookup"><span data-stu-id="04159-123">Each transformation is written for a specific standard.</span></span>
 
-| Kaynak adı                                         | Dosya adı                          |
+| <span data-ttu-id="04159-124">Kaynak adı</span><span class="sxs-lookup"><span data-stu-id="04159-124">Resource name</span></span>                                         | <span data-ttu-id="04159-125">Dosya adı</span><span class="sxs-lookup"><span data-stu-id="04159-125">File name</span></span>                          |
 |-------------------------------------------------------|------------------------------------|
-| BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt            | BAI2CSV-to-BAI2XML.xslt            |
-| BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt | ISO20022XML-to-Reconciliation.xslt |
-| BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt          | MT940TXT-to-MT940XML.xslt          |
+| <span data-ttu-id="04159-126">BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="04159-126">BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt</span></span>            | <span data-ttu-id="04159-127">BAI2CSV-to-BAI2XML.xslt</span><span class="sxs-lookup"><span data-stu-id="04159-127">BAI2CSV-to-BAI2XML.xslt</span></span>            |
+| <span data-ttu-id="04159-128">BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="04159-128">BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt</span></span> | <span data-ttu-id="04159-129">ISO20022XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="04159-129">ISO20022XML-to-Reconciliation.xslt</span></span> |
+| <span data-ttu-id="04159-130">BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="04159-130">BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt</span></span>          | <span data-ttu-id="04159-131">MT940TXT-to-MT940XML.xslt</span><span class="sxs-lookup"><span data-stu-id="04159-131">MT940TXT-to-MT940XML.xslt</span></span>          |
 
-## <a name="debugging-transformations"></a>Hata ayıklama dönüştürmeleri
-### <a name="adjust-the-bai2-and-mt940-files"></a>BAI2 ve MT940 dosyalarını ayarlama
+## <a name="debugging-transformations"></a><span data-ttu-id="04159-132">Hata ayıklama dönüştürmeleri</span><span class="sxs-lookup"><span data-stu-id="04159-132">Debugging transformations</span></span>
+### <a name="adjust-the-bai2-and-mt940-files"></a><span data-ttu-id="04159-133">BAI2 ve MT940 dosyalarını ayarlama</span><span class="sxs-lookup"><span data-stu-id="04159-133">Adjust the BAI2 and MT940 files</span></span>
 
-BAI2 ve MT940 dosyaları metin tabanlı dosyalardır ve Genişletilebilir Stil Sayfası Dil Dönüşümleri (XSLT) hata ayıklamayı etkinleştirmek için bir düzeltme gerektirir. Program bu ayarlamayı bir dosya içe aktarıldığında yapar.
+<span data-ttu-id="04159-134">BAI2 ve MT940 dosyaları metin tabanlı dosyalardır ve Genişletilebilir Stil Sayfası Dil Dönüşümleri (XSLT) hata ayıklamayı etkinleştirmek için bir düzeltme gerektirir.</span><span class="sxs-lookup"><span data-stu-id="04159-134">The BAI2 and MT940 files are text-based files and require an adjustment to enable Extensible Stylesheet Language Transformations (XSLT) debugging.</span></span> <span data-ttu-id="04159-135">Program bu ayarlamayı bir dosya içe aktarıldığında yapar.</span><span class="sxs-lookup"><span data-stu-id="04159-135">The program makes this adjustment when a file is imported.</span></span>
 
-1.  Bir XML dosyası oluşturun ve aşağıdaki metni içine kopyalayın.
+1.  <span data-ttu-id="04159-136">Bir XML dosyası oluşturun ve aşağıdaki metni içine kopyalayın.</span><span class="sxs-lookup"><span data-stu-id="04159-136">Create an XML file, and copy the following text into it.</span></span>
 
         <Batch><![CDATA[PASTESTATEMENTFILEHERE
         ]]></Batch>
 
-2.  Banka ekstresi dosyasının içeriğini kopyalayın ve bunları XML dosyasına yapıştırarak **PASTESTATEMENTFILEHERE**'ın yerine geçmesini sağlayın.
+2.  <span data-ttu-id="04159-137">Banka ekstresi dosyasının içeriğini kopyalayın ve bunları XML dosyasına yapıştırarak **PASTESTATEMENTFILEHERE**'ın yerine geçmesini sağlayın.</span><span class="sxs-lookup"><span data-stu-id="04159-137">Copy the contents of the bank statement file, and paste them into the XML file so that they replace **PASTESTATEMENTFILEHERE**.</span></span>
 
-### <a name="debug-the-xslt"></a>XSLT hata ayıklama
+### <a name="debug-the-xslt"></a><span data-ttu-id="04159-138">XSLT hata ayıklama</span><span class="sxs-lookup"><span data-stu-id="04159-138">Debug the XSLT</span></span>
 
-Daha fazla bilgi için, bkz. <https://msdn.microsoft.com/en-us/library/ms255605.aspx>.
+<span data-ttu-id="04159-139">Daha fazla bilgi için, bkz. <https://msdn.microsoft.com/en-us/library/ms255605.aspx>.</span><span class="sxs-lookup"><span data-stu-id="04159-139">For more information, see <https://msdn.microsoft.com/en-us/library/ms255605.aspx>.</span></span>
 
-1.  Microsoft Visual Studio'yu Başlatın.
-2.  Bir konsol uygulaması oluşturun.
-3.  Uygun XSLT'yi açın.
-4.  XLST'yi ve özellikleri sayfasını tıklatın.
-5.  Girişi, banka ekstresi dosyasının konumuna ayarlayın.
-6.  Çıktı için bir konum ve dosya adı tanımlayın.
-7.  Gerekli kesme noktalarını ayarlayın.
-8.  Menüde **XML** &gt; **XSLT Hata Ayıklamayı Başlat**'ı tıklatın.
+1.  <span data-ttu-id="04159-140">Microsoft Visual Studio'yu Başlatın.</span><span class="sxs-lookup"><span data-stu-id="04159-140">Start Microsoft Visual Studio.</span></span>
+2.  <span data-ttu-id="04159-141">Bir konsol uygulaması oluşturun.</span><span class="sxs-lookup"><span data-stu-id="04159-141">Create a console application.</span></span>
+3.  <span data-ttu-id="04159-142">Uygun XSLT'yi açın.</span><span class="sxs-lookup"><span data-stu-id="04159-142">Open the appropriate XSLT.</span></span>
+4.  <span data-ttu-id="04159-143">XLST'yi ve özellikleri sayfasını tıklatın.</span><span class="sxs-lookup"><span data-stu-id="04159-143">Click the XLST and its properties page.</span></span>
+5.  <span data-ttu-id="04159-144">Girişi, banka ekstresi dosyasının konumuna ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="04159-144">Set the input to the location of the bank statement file.</span></span>
+6.  <span data-ttu-id="04159-145">Çıktı için bir konum ve dosya adı tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="04159-145">Define a location and file name for the output.</span></span>
+7.  <span data-ttu-id="04159-146">Gerekli kesme noktalarını ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="04159-146">Set the required break points.</span></span>
+8.  <span data-ttu-id="04159-147">Menüde **XML** &gt; **XSLT Hata Ayıklamayı Başlat**'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="04159-147">On the menu, click **XML** &gt; **Start XSLT Debugging**.</span></span>
 
-### <a name="format-the-xslt-output"></a>XSLT çıktısını biçimlendirin
+### <a name="format-the-xslt-output"></a><span data-ttu-id="04159-148">XSLT çıktısını biçimlendirin</span><span class="sxs-lookup"><span data-stu-id="04159-148">Format the XSLT output</span></span>
 
-Dönüşüm yürütüldüğünde, Visual Studio'da görüntüleyebileceğiniz bir çıktı dosyası oluşturur. Çıktı dosyasını hızlı şekilde biçimlendirmek için Ctrl+A, Ctrl+K, and Ctrl+D kullanın.
+<span data-ttu-id="04159-149">Dönüşüm yürütüldüğünde, Visual Studio'da görüntüleyebileceğiniz bir çıktı dosyası oluşturur.</span><span class="sxs-lookup"><span data-stu-id="04159-149">When the transformation runs, it creates an output file that you can view in Visual Studio.</span></span> <span data-ttu-id="04159-150">Çıktı dosyasını hızlı şekilde biçimlendirmek için Ctrl+A, Ctrl+K, and Ctrl+D kullanın.</span><span class="sxs-lookup"><span data-stu-id="04159-150">Use Ctrl+A, Ctrl+K, and Ctrl+D to quickly format the output file.</span></span>
 
-### <a name="adjust-the-transformation"></a>Dönüştürmeyi ayarlayın
+### <a name="adjust-the-transformation"></a><span data-ttu-id="04159-151">Dönüştürmeyi ayarlayın</span><span class="sxs-lookup"><span data-stu-id="04159-151">Adjust the transformation</span></span>
 
-Banka ekstresi dosyasında uygun bir alan veya öğeyi almak için dönüştürmeyi ayarlayın. Sonra bu alanı veya öğeyi uygun Finance and Operations öğesine eşleyin.
+<span data-ttu-id="04159-152">Banka ekstresi dosyasında uygun bir alan veya öğeyi almak için dönüştürmeyi ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="04159-152">Adjust the transformation to get the appropriate field or element in the bank statement file.</span></span> <span data-ttu-id="04159-153">Sonra bu alanı veya öğeyi uygun Finance and Operations öğesine eşleyin.</span><span class="sxs-lookup"><span data-stu-id="04159-153">Then map that field or element to the appropriate Finance and Operations element.</span></span>
 
-### <a name="debitcredit-indicator"></a>Borç/Alacak göstergesi
+### <a name="debitcredit-indicator"></a><span data-ttu-id="04159-154">Borç/Alacak göstergesi</span><span class="sxs-lookup"><span data-stu-id="04159-154">Debit/credit indicator</span></span>
 
-Bazı durumlarda, borçlar alacak olarak ve alacaklar borç olarak içeri aktarılmış olabilir. Bu sorunu gidermek için uygun XSLT'yi değiştirmeniz gerekir. Banka Ekstrelerini birden çok bankadan geliyorsa, bunların tümünün aynı borç/alacak yaklaşımını kullandığından veya ayrı dönüşümleri oluşturduğundan emin olun.
+<span data-ttu-id="04159-155">Bazı durumlarda, borçlar alacak olarak ve alacaklar borç olarak içeri aktarılmış olabilir.</span><span class="sxs-lookup"><span data-stu-id="04159-155">Sometimes, debits might be imported as credits, and credits might be imported as debits.</span></span> <span data-ttu-id="04159-156">Bu sorunu gidermek için uygun XSLT'yi değiştirmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="04159-156">To resolve this issue, you must change the appropriate XSLT.</span></span> <span data-ttu-id="04159-157">Banka Ekstrelerini birden çok bankadan geliyorsa, bunların tümünün aynı borç/alacak yaklaşımını kullandığından veya ayrı dönüşümleri oluşturduğundan emin olun.</span><span class="sxs-lookup"><span data-stu-id="04159-157">If bank statements come from multiple banks, make sure that they all use the same debit/credit approach, or create separate transformations.</span></span>
 
--   BAI2XML-to-Reconciliation.xlst GetAmountCreditDebitIndicator şablonu
--   ISO20022XML-to-Reconcilation.xslt GetCreditDebit şablonu
--   MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator şablonu
+-   <span data-ttu-id="04159-158">BAI2XML-to-Reconciliation.xlst GetAmountCreditDebitIndicator şablonu</span><span class="sxs-lookup"><span data-stu-id="04159-158">BAI2XML-to-Reconciliation.xlst GetAmountCreditDebitIndicator template</span></span>
+-   <span data-ttu-id="04159-159">ISO20022XML-to-Reconcilation.xslt GetCreditDebit şablonu</span><span class="sxs-lookup"><span data-stu-id="04159-159">ISO20022XML-to-Reconcilation.xslt GetCreditDebit template</span></span>
+-   <span data-ttu-id="04159-160">MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator şablonu</span><span class="sxs-lookup"><span data-stu-id="04159-160">MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator template</span></span>
 
-## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Banka ekstresi biçimleri ve teknik düzenlerine örnekler
-Aşağıdaki tablo gelişmiş banka mutabakatı içe alma dosyaları ve üç ilgili banka ekstresi örnek dosyalarının teknik düzen tanımlarını örnek olarak verir. Teknik düzenleri ve örnek dosya buradan indirebilirsiniz: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a><span data-ttu-id="04159-161">Banka ekstresi biçimleri ve teknik düzenlerine örnekler</span><span class="sxs-lookup"><span data-stu-id="04159-161">Examples of bank statement formats and technical layouts</span></span>
+<span data-ttu-id="04159-162">Aşağıdaki tablo gelişmiş banka mutabakatı içe alma dosyaları ve üç ilgili banka ekstresi örnek dosyalarının teknik düzen tanımlarını örnek olarak verir.</span><span class="sxs-lookup"><span data-stu-id="04159-162">The following table lists examples of the technical layout definitions for advanced bank reconciliation import files and three related bank statement example files.</span></span> <span data-ttu-id="04159-163">Teknik düzenleri ve örnek dosya buradan indirebilirsiniz: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span><span class="sxs-lookup"><span data-stu-id="04159-163">You can download the example files and technical layouts here: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span></span>  
 
 
-| Teknik düzen tanımı                             | Banka ekstresi örnek dosya          |
+| <span data-ttu-id="04159-164">Teknik düzen tanımı</span><span class="sxs-lookup"><span data-stu-id="04159-164">Technical layout definition</span></span>                             | <span data-ttu-id="04159-165">Banka ekstresi örnek dosya</span><span class="sxs-lookup"><span data-stu-id="04159-165">Bank statement example file</span></span>          |
 |---------------------------------------------------------|--------------------------------------|
-| DynamicsAXMT940Layout                                   | MT940StatementExample                |
-| DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
-| DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+| <span data-ttu-id="04159-166">DynamicsAXMT940Layout</span><span class="sxs-lookup"><span data-stu-id="04159-166">DynamicsAXMT940Layout</span></span>                                   | <span data-ttu-id="04159-167">MT940StatementExample</span><span class="sxs-lookup"><span data-stu-id="04159-167">MT940StatementExample</span></span>                |
+| <span data-ttu-id="04159-168">DynamicsAXISO20022Layout</span><span class="sxs-lookup"><span data-stu-id="04159-168">DynamicsAXISO20022Layout</span></span>                                | <span data-ttu-id="04159-169">ISO20022StatementExample</span><span class="sxs-lookup"><span data-stu-id="04159-169">ISO20022StatementExample</span></span>             |
+| <span data-ttu-id="04159-170">DynamicsAXBAI2Layout</span><span class="sxs-lookup"><span data-stu-id="04159-170">DynamicsAXBAI2Layout</span></span>                                    | <span data-ttu-id="04159-171">BAI2StatementExample</span><span class="sxs-lookup"><span data-stu-id="04159-171">BAI2StatementExample</span></span>                 |
 
 
 

@@ -17,51 +17,51 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 642e2b05c9f9a59f6b47a22f3d92f2f6ae245039
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: de976f6bafbb3d4e2915ab56cdff625877f754f7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Alınan maddeleri kaydetmek için bir mobil cihaz menü öğesi ayarlama
+# <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a><span data-ttu-id="3d791-103">Alınan maddeleri kaydetmek için bir mobil cihaz menü öğesi ayarlama</span><span class="sxs-lookup"><span data-stu-id="3d791-103">Set up a mobile device menu item to register received items</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu görev, bir mobil cihaz menü öğesinin ayarlanmasına odaklanır. Bu menü öğesi, satınalma siparişleri üzerinden sipariş edilen ürünlerin giriş kaydı için kullanılır. 
+<span data-ttu-id="3d791-104">Bu görev, bir mobil cihaz menü öğesinin ayarlanmasına odaklanır.</span><span class="sxs-lookup"><span data-stu-id="3d791-104">This task focuses on the setup of a mobile device menu item.</span></span> <span data-ttu-id="3d791-105">Bu menü öğesi, satınalma siparişleri üzerinden sipariş edilen ürünlerin giriş kaydı için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="3d791-105">This menu item is used for registration of the receipt of items ordered via purchase orders.</span></span> 
 
-Bu kılavuzu USMF demo şirketinde kullanabilirsiniz. Bu yordam ambar yöneticisi için hazırlanmıştır.
+<span data-ttu-id="3d791-106">Bu kılavuzu USMF demo şirketinde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3d791-106">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="3d791-107">Bu yordam ambar yöneticisi için hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="3d791-107">This procedure is intended for the warehouse manager.</span></span>
 
 
-## <a name="create-a-mobile-device-menu-item"></a>Mobil cihaz menü öğesi oluşturma
-1. Ambar yönetimi > Kurulum > Mobil cihaz > Mobil cihaz menüsü öğeleri seçeneğine gidin.
-2. Yeni'ye tıklayın.
-3. Menü öğesi adı alanına bir değer girin.
-    * Bu, mobil cihaz menü öğesinin benzersiz tanımlayıcısıdır. Örneğin, 'SAS kaydım' yazabilirsiniz.  
-4. Başlık alanına bir değer yazın.
-    * Bu, mobil cihazdaki kullanıcıda görüntülenen başlıktır. Örneğin, 'SAS kaydı' yazabilirsiniz.  
-5. Mod alanında, 'İş' seçin.
-    * Bir satınalma siparişi satırı için alınan eldeki miktarın kaydı ürünlerin alandan alınıp stoğa taşınması için iş oluşturur. Ürünler kaydedilene kadar iş oluşturulmaz.  Bu nedenle, Mevcut iş seçeneğini kullan öğesini Hayır olarak bırakın.  
-6. Genel bölümünü genişletin veya daraltın.
-7. İş oluşturma işlemi alanında, 'Satınalma siparişi ürün teslim alma' öğesini seçin.
-    * Bir satınalma siparişi satırı, eldeki stok ambarda kaydedilmeden önce benzersiz bir şekilde tanımlanmalıdır. Bu senaryoda, mobil cihaz satın alma sipariş numarasını ve ürün numarası kaydeder ve böylece sistemin SAS satırını tanımlaması sağlanır. Yerine koyma işi oluşturulur ve malzeme başka bir çalışan tarafından çekilebilir.    Seçtiğiniz iş oluşturma yöntemi, Genel hızlı sekmesinde hangi alanların kullanılabilir olacağını belirler.  
-    * Varsayılan verileri kullan seçeneğini belirlerseniz, Varsayılan veri düğmesi etkinleştirilir. Burada, bir çalışanın bu değerlerin mobil cihazlarında görünmesi için günlük işlerinde ihtiyaç duydukları verileri görüntüleyeceği alanları seçebilirsiniz.  
-    * Plaka gruplandırma parametresi, alınmakta olan ürüne atanan sıra grubuyla birlikte çalışır. Bir paletten azının veya fazlasının tek bir plakada gruplanması gerekip gerekmediğini veya her bir ürün için ayrı bir plakaya bölünmesi gerekip gerekmediğini belirtebilirsiniz.  
-    * Plaka oluştur seçeneğini belirlerseniz, numara sırası temel alınarak benzersiz bir plaka oluşturulur.   
-    * İş oluşturulduğunda kullanılacak şablonu seçebilirsiniz. Örneğin, bir satınalma siparişi için bir ürün kaydederseniz, yerine koyma işi iş şablonuna dayalı olarak oluşturulur. Bir iş şablonu seçmezseniz, sistem şablonlar ile ilişkili olan sorgu ölçütlerini temel alan bir şablon atayacaktır.  
-    * Mobil cihazda değerlendirme kodu görüntülenirse, çalışanlar ürünlerin durumunu veya kalitesini değerlendirebilir ve uygun kodu seçebilir. Değerlendirme kodundaki kurallar ürünlerin diğer ambar süreçlerinde kullanılıp kullanılamayacağını belirler. Kurallar oluşturulan iş için kullanılacak yerleşim yönergesini de belirler.   
-    * Toplu iş değerlendirme kodları seçeneğini belirlerseniz, çalışanlar bir toplu işin durumunu veya kalitesini değerlendirebilir ve uygun değerlendirme kodunu seçebilir.  Toplu iş değerlendirme kodunda belirlenen kurallar toplu işin diğer ambar süreçlerinde kullanılıp kullanılamayacağını belirler.  
-    * Etiketleri yazdır seçeneğini belirlerseniz, ürünler alındığında bir plaka etiketi otomatik olarak yazdırılır.  
-8. Kaydet'e tıklayın.
-9. Sayfayı kapatın.
+## <a name="create-a-mobile-device-menu-item"></a><span data-ttu-id="3d791-108">Mobil cihaz menü öğesi oluşturma</span><span class="sxs-lookup"><span data-stu-id="3d791-108">Create a mobile device menu item</span></span>
+1. <span data-ttu-id="3d791-109">Ambar yönetimi > Kurulum > Mobil cihaz > Mobil cihaz menüsü öğeleri seçeneğine gidin.</span><span class="sxs-lookup"><span data-stu-id="3d791-109">Go to Warehouse management > Setup > Mobile device > Mobile device menu items.</span></span>
+2. <span data-ttu-id="3d791-110">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3d791-110">Click New.</span></span>
+3. <span data-ttu-id="3d791-111">Menü öğesi adı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="3d791-111">In the Menu item name field, type a value.</span></span>
+    * <span data-ttu-id="3d791-112">Bu, mobil cihaz menü öğesinin benzersiz tanımlayıcısıdır.</span><span class="sxs-lookup"><span data-stu-id="3d791-112">This is the unique identifier for this mobile device menu item.</span></span> <span data-ttu-id="3d791-113">Örneğin, 'SAS kaydım' yazabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3d791-113">For example, you could type 'My PO registration'.</span></span>  
+4. <span data-ttu-id="3d791-114">Başlık alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="3d791-114">In the Title field, type a value.</span></span>
+    * <span data-ttu-id="3d791-115">Bu, mobil cihazdaki kullanıcıda görüntülenen başlıktır.</span><span class="sxs-lookup"><span data-stu-id="3d791-115">This is the title, which will be displayed to the user on the mobile device.</span></span> <span data-ttu-id="3d791-116">Örneğin, 'SAS kaydı' yazabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3d791-116">For example, you could type 'PO registration'.</span></span>  
+5. <span data-ttu-id="3d791-117">Mod alanında, 'İş' seçin.</span><span class="sxs-lookup"><span data-stu-id="3d791-117">In the Mode field, select 'Work'.</span></span>
+    * <span data-ttu-id="3d791-118">Bir satınalma siparişi satırı için alınan eldeki miktarın kaydı ürünlerin alandan alınıp stoğa taşınması için iş oluşturur.</span><span class="sxs-lookup"><span data-stu-id="3d791-118">Registration of on-hand quantities received for a purchase order line will create work to move the items from the receiving area into the inventory.</span></span> <span data-ttu-id="3d791-119">Ürünler kaydedilene kadar iş oluşturulmaz.</span><span class="sxs-lookup"><span data-stu-id="3d791-119">Work isn’t created until the items are registered.</span></span>  <span data-ttu-id="3d791-120">Bu nedenle, Mevcut iş seçeneğini kullan öğesini Hayır olarak bırakın.</span><span class="sxs-lookup"><span data-stu-id="3d791-120">Therefore, leave the Use existing work option set to No.</span></span>  
+6. <span data-ttu-id="3d791-121">Genel bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="3d791-121">Expand or collapse the General section.</span></span>
+7. <span data-ttu-id="3d791-122">İş oluşturma işlemi alanında, 'Satınalma siparişi ürün teslim alma' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="3d791-122">In the Work creation process field, select 'Purchase order item receiving'.</span></span>
+    * <span data-ttu-id="3d791-123">Bir satınalma siparişi satırı, eldeki stok ambarda kaydedilmeden önce benzersiz bir şekilde tanımlanmalıdır.</span><span class="sxs-lookup"><span data-stu-id="3d791-123">A purchase order line must be uniquely identified before on-hand can be registered in the warehouse.</span></span> <span data-ttu-id="3d791-124">Bu senaryoda, mobil cihaz satın alma sipariş numarasını ve ürün numarası kaydeder ve böylece sistemin SAS satırını tanımlaması sağlanır.</span><span class="sxs-lookup"><span data-stu-id="3d791-124">In this scenario, the mobile device will register the purchase order number and item number, and this will allow the system to identify the PO line.</span></span> <span data-ttu-id="3d791-125">Yerine koyma işi oluşturulur ve malzeme başka bir çalışan tarafından çekilebilir.</span><span class="sxs-lookup"><span data-stu-id="3d791-125">Put away work will be created and can be picked up by another worker.</span></span>    <span data-ttu-id="3d791-126">Seçtiğiniz iş oluşturma yöntemi, Genel hızlı sekmesinde hangi alanların kullanılabilir olacağını belirler.</span><span class="sxs-lookup"><span data-stu-id="3d791-126">The work creation method that you select determines which fields become available on the General fast tab.</span></span>  
+    * <span data-ttu-id="3d791-127">Varsayılan verileri kullan seçeneğini belirlerseniz, Varsayılan veri düğmesi etkinleştirilir.</span><span class="sxs-lookup"><span data-stu-id="3d791-127">If you select the Use default data option, the Default data button is enabled.</span></span> <span data-ttu-id="3d791-128">Burada, bir çalışanın bu değerlerin mobil cihazlarında görünmesi için günlük işlerinde ihtiyaç duydukları verileri görüntüleyeceği alanları seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3d791-128">Here you can select fields to display data that a worker typically needs in their daily work, so that these values are shown on the mobile device.</span></span>  
+    * <span data-ttu-id="3d791-129">Plaka gruplandırma parametresi, alınmakta olan ürüne atanan sıra grubuyla birlikte çalışır.</span><span class="sxs-lookup"><span data-stu-id="3d791-129">The License plate grouping parameter  works in combination with the unit sequence group that’s assigned to the item that’s being received.</span></span> <span data-ttu-id="3d791-130">Bir paletten azının veya fazlasının tek bir plakada gruplanması gerekip gerekmediğini veya her bir ürün için ayrı bir plakaya bölünmesi gerekip gerekmediğini belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3d791-130">You can specify whether receipts of less than or more than one pallet should be grouped into one license plate, or divided into a separate license plate for each unit.</span></span>  
+    * <span data-ttu-id="3d791-131">Plaka oluştur seçeneğini belirlerseniz, numara sırası temel alınarak benzersiz bir plaka oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="3d791-131">If you select the Generate license plate  option, this generates a unique license plate number based on the number sequence selection.</span></span>   
+    * <span data-ttu-id="3d791-132">İş oluşturulduğunda kullanılacak şablonu seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3d791-132">You can select the template that will be used when work is created.</span></span> <span data-ttu-id="3d791-133">Örneğin, bir satınalma siparişi için bir ürün kaydederseniz, yerine koyma işi iş şablonuna dayalı olarak oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="3d791-133">For example, if you register an item for a purchase order, the put away work will be generated based on the work template.</span></span> <span data-ttu-id="3d791-134">Bir iş şablonu seçmezseniz, sistem şablonlar ile ilişkili olan sorgu ölçütlerini temel alan bir şablon atayacaktır.</span><span class="sxs-lookup"><span data-stu-id="3d791-134">If you don’t select a work template here, the system will assign a template based on the query criteria that are associated with the templates.</span></span>  
+    * <span data-ttu-id="3d791-135">Mobil cihazda değerlendirme kodu görüntülenirse, çalışanlar ürünlerin durumunu veya kalitesini değerlendirebilir ve uygun kodu seçebilir.</span><span class="sxs-lookup"><span data-stu-id="3d791-135">If disposition codes are displayed on the mobile device, workers can evaluate the status or quality of the items, and select the appropriate code.</span></span> <span data-ttu-id="3d791-136">Değerlendirme kodundaki kurallar ürünlerin diğer ambar süreçlerinde kullanılıp kullanılamayacağını belirler.</span><span class="sxs-lookup"><span data-stu-id="3d791-136">The rules for  the disposition code determine whether the items will be available to other warehouse processes.</span></span> <span data-ttu-id="3d791-137">Kurallar oluşturulan iş için kullanılacak yerleşim yönergesini de belirler.</span><span class="sxs-lookup"><span data-stu-id="3d791-137">The rules also determine which location directive is used for the work that’s created.</span></span>   
+    * <span data-ttu-id="3d791-138">Toplu iş değerlendirme kodları seçeneğini belirlerseniz, çalışanlar bir toplu işin durumunu veya kalitesini değerlendirebilir ve uygun değerlendirme kodunu seçebilir.</span><span class="sxs-lookup"><span data-stu-id="3d791-138">If you select the Batch disposition codes option, workers can evaluate the status or quality of a batch, and select the appropriate disposition code.</span></span>  <span data-ttu-id="3d791-139">Toplu iş değerlendirme kodunda belirlenen kurallar toplu işin diğer ambar süreçlerinde kullanılıp kullanılamayacağını belirler.</span><span class="sxs-lookup"><span data-stu-id="3d791-139">The rules that are set on the batch disposition code determine whether the batch will be available to other warehouse processes.</span></span>  
+    * <span data-ttu-id="3d791-140">Etiketleri yazdır seçeneğini belirlerseniz, ürünler alındığında bir plaka etiketi otomatik olarak yazdırılır.</span><span class="sxs-lookup"><span data-stu-id="3d791-140">If you select the Print labels option a license plate label will be printed automatically when items are received.</span></span>  
+8. <span data-ttu-id="3d791-141">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3d791-141">Click Save.</span></span>
+9. <span data-ttu-id="3d791-142">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="3d791-142">Close the page.</span></span>
 
-## <a name="add-the-menu-item-to-a-mobile-device-menu"></a>Mobil cihaz menüsüne menü öğesi ekleme
-1. Ambar yönetimi > Kurulum > Mobil cihaz > Mobil cihaz menüsü öğesine gidin.
-2. Ad alanında bir 'gelen' değeriyle filtreleme yapmak için Hızlı Filtre'yi kullanın.
-3. Düzenle'yi tıklatın.
-4. Ağaçta, 'Kullanılabilir menü ve ürünler ağacında önceden oluşturduğunuz bir menü öğesini seçin' öğesini seçin.
-    * Daha önce oluşturduğunuz bir menü öğesini seçin.  
-5. Sağ tarafı gösteren oku tıklatın.
-6. Kaydet'e tıklayın.
-7. Sayfayı kapatın.
+## <a name="add-the-menu-item-to-a-mobile-device-menu"></a><span data-ttu-id="3d791-143">Mobil cihaz menüsüne menü öğesi ekleme</span><span class="sxs-lookup"><span data-stu-id="3d791-143">Add the menu item to a mobile device menu</span></span>
+1. <span data-ttu-id="3d791-144">Ambar yönetimi > Kurulum > Mobil cihaz > Mobil cihaz menüsü öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="3d791-144">Go to Warehouse management > Setup > Mobile device > Mobile device menu.</span></span>
+2. <span data-ttu-id="3d791-145">Ad alanında bir 'gelen' değeriyle filtreleme yapmak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="3d791-145">Use the Quick Filter to filter on the Name field with a value of 'inbound'.</span></span>
+3. <span data-ttu-id="3d791-146">Düzenle'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="3d791-146">Click Edit.</span></span>
+4. <span data-ttu-id="3d791-147">Ağaçta, 'Kullanılabilir menü ve ürünler ağacında önceden oluşturduğunuz bir menü öğesini seçin' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="3d791-147">In the tree, select 'In the Available menu's and items tree, select the menu item that you created before.'.</span></span>
+    * <span data-ttu-id="3d791-148">Daha önce oluşturduğunuz bir menü öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="3d791-148">Select the menu item that you created before.</span></span>  
+5. <span data-ttu-id="3d791-149">Sağ tarafı gösteren oku tıklatın.</span><span class="sxs-lookup"><span data-stu-id="3d791-149">Click on the arrow that points to the right.</span></span>
+6. <span data-ttu-id="3d791-150">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3d791-150">Click Save.</span></span>
+7. <span data-ttu-id="3d791-151">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="3d791-151">Close the page.</span></span>
 
 

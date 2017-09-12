@@ -14,31 +14,31 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: ee45fed40b10dbe913c73e1186b726a39831816d
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 25056886b1a18dbaef12c8732a1fd0bd92a6d04b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="pick-oldest-batch-on-a-mobile-device"></a>Mobil cihazda en eski toplu işi seçme
+# <a name="pick-oldest-batch-on-a-mobile-device"></a><span data-ttu-id="8da96-103">Mobil cihazda en eski toplu işi seçme</span><span class="sxs-lookup"><span data-stu-id="8da96-103">Pick oldest batch on a mobile device</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-**En eski toplu işi seç** konfigürasyonuna mobil cihaz menüsünden erişebilirsiniz ve bu konfigürasyon ambar çalışanlarını bulundukları yerleşimde en eski toplu işi seçme konusunda zorlamanızı veya uyarmanızı sağlar.  
+<span data-ttu-id="8da96-104">**En eski toplu işi seç** konfigürasyonuna mobil cihaz menüsünden erişebilirsiniz ve bu konfigürasyon ambar çalışanlarını bulundukları yerleşimde en eski toplu işi seçme konusunda zorlamanızı veya uyarmanızı sağlar.</span><span class="sxs-lookup"><span data-stu-id="8da96-104">You can access the configuration **Pick oldest batch** via a mobile device menu and it allows you to force or warn warehouse workers to pick the oldest batch in their current location.</span></span>  
 
-## <a name="where-it-applies"></a>Uygulandığı yerler
-En eski işi seçme mobil cihaz menü öğelerinde yapılandırılır ve aşağıdaki toplu iş maddeleri için seçimi etkiler.
+## <a name="where-it-applies"></a><span data-ttu-id="8da96-105">Uygulandığı yerler</span><span class="sxs-lookup"><span data-stu-id="8da96-105">Where it applies</span></span>
+<span data-ttu-id="8da96-106">En eski işi seçme mobil cihaz menü öğelerinde yapılandırılır ve aşağıdaki toplu iş maddeleri için seçimi etkiler.</span><span class="sxs-lookup"><span data-stu-id="8da96-106">Pick oldest batch is configured on mobile device menu items and effects the pick for batch below items.</span></span>
 
-## <a name="how-to-set-up-the-configuration-for-pick-oldest-batch"></a>En eski toplu işi seçme için konfigürasyonu ayarlama 
-Varolan işi kullanmak üzere ayarlanan maddeler için **En eski toplu işi seç** mobil cihaz menüsünden **Hiçbiri**, **Uyar** veya **Zorla** olarak ayarlanabilir.
+## <a name="how-to-set-up-the-configuration-for-pick-oldest-batch"></a><span data-ttu-id="8da96-107">En eski toplu işi seçme için konfigürasyonu ayarlama</span><span class="sxs-lookup"><span data-stu-id="8da96-107">How to set up the configuration for Pick oldest batch</span></span> 
+<span data-ttu-id="8da96-108">Varolan işi kullanmak üzere ayarlanan maddeler için **En eski toplu işi seç** mobil cihaz menüsünden **Hiçbiri**, **Uyar** veya **Zorla** olarak ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="8da96-108">For items that are set to use existing work, **Pick oldest batch** can be set to **None**, **Warn**, or **Force** from a mobile device menu.</span></span>
 
-**Hiçbiri**: Çalışanlar herhangi bir ileti almaz ve bulundukları yerleşimde herhangi bir toplu işi seçmelerine izin verilir.
+<span data-ttu-id="8da96-109">**Hiçbiri**: Çalışanlar herhangi bir ileti almaz ve bulundukları yerleşimde herhangi bir toplu işi seçmelerine izin verilir.</span><span class="sxs-lookup"><span data-stu-id="8da96-109">**None**: Workers will not receive any messages and they will be allowed to pick any batch in their location.</span></span>
 
-**Uyar** ve **Zorla**: Çalışan bir toplu iş seçerken toplu iş denetiminin üstünde en eski bitiş tarihine sahip olan toplu işlerin listesi görüntülenir. Konum plaka denetimli ise, en eski toplu işe sahip plakaların listesi plaka denetiminin üst kısmında gösterilir. 
--   **Uyar**: Çalışan gösterilen listede olmayan bir plaka veya toplu iş seçerse, denetim boş bırakılacak ve seçilmek üzere daha eski bir toplu iş bulunduğunu belirten bir uyarı görüntülenecektir. Çalışmaya devam etmek için, çalışan aynı toplu işi veya plakayı yeniden seçebilir.  
--   **Zorla**: Çalışanlar seçmek için daha eski bir toplu iş olduğunu gösteren iletiyi almaya devam eder.
+<span data-ttu-id="8da96-110">**Uyar** ve **Zorla**: Çalışan bir toplu iş seçerken toplu iş denetiminin üstünde en eski bitiş tarihine sahip olan toplu işlerin listesi görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="8da96-110">**Warn** and **Force**:  A list of the batch(es) with the oldest expiration date will be displayed above the batch control when the worker selects a batch.</span></span> <span data-ttu-id="8da96-111">Konum plaka denetimli ise, en eski toplu işe sahip plakaların listesi plaka denetiminin üst kısmında gösterilir.</span><span class="sxs-lookup"><span data-stu-id="8da96-111">If the location is license plate controlled, a list of license plates that have the oldest batch will be displayed above the license plate control.</span></span> 
+-   <span data-ttu-id="8da96-112">**Uyar**: Çalışan gösterilen listede olmayan bir plaka veya toplu iş seçerse, denetim boş bırakılacak ve seçilmek üzere daha eski bir toplu iş bulunduğunu belirten bir uyarı görüntülenecektir.</span><span class="sxs-lookup"><span data-stu-id="8da96-112">**Warn**: If a worker chooses a license plate or batch that is not on the shown list, the control will be blanked and a warning will be shown that there is an older batch to select.</span></span> <span data-ttu-id="8da96-113">Çalışmaya devam etmek için, çalışan aynı toplu işi veya plakayı yeniden seçebilir.</span><span class="sxs-lookup"><span data-stu-id="8da96-113">To be allowed to continue the work, the worker can select the same license plate or batch again.</span></span>  
+-   <span data-ttu-id="8da96-114">**Zorla**: Çalışanlar seçmek için daha eski bir toplu iş olduğunu gösteren iletiyi almaya devam eder.</span><span class="sxs-lookup"><span data-stu-id="8da96-114">**Force**: Workers will continue to receive the message that there is an older batch to pick.</span></span>
 

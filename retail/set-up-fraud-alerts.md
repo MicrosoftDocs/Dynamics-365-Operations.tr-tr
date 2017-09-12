@@ -19,28 +19,28 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7255f2b7e49f56a731d0e3745b4752091013668b
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 09d80015298c3d0219b6ffb290dc456990536a62
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 
 ---
 
-# <a name="set-up-fraud-alerts"></a>Sahtekarlık uyarıları ayarla
+# <a name="set-up-fraud-alerts"></a><span data-ttu-id="84902-104">Sahtekarlık uyarıları ayarla</span><span class="sxs-lookup"><span data-stu-id="84902-104">Set up fraud alerts</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Bu konu, siparişler işlendiğinde, müşteri hizmetleri temsilcilerini sahte olması olası bilgilere karşı uyarmak için kuralların nasıl ayarlanacağını açıklar. Siparişleri otomatik olarak veya el ile beklemeye almak için kullanılacak belirli kodlar tanımlayabilirsiniz. 
+<span data-ttu-id="84902-105">Bu konu, siparişler işlendiğinde, müşteri hizmetleri temsilcilerini sahte olması olası bilgilere karşı uyarmak için kuralların nasıl ayarlanacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="84902-105">This topic explains how to set up rules to alert customer service representatives of potentially fraudulent information when orders are processed.</span></span> <span data-ttu-id="84902-106">Siparişleri otomatik olarak veya el ile beklemeye almak için kullanılacak belirli kodlar tanımlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="84902-106">You can define specific codes to use to automatically or manually put suspicious orders on hold.</span></span> 
 
-Dolandırıcılık denetimi kurallarını ayarlamadan ve kullanmadan önce sahtekarlık denetimini etkinleştirmeniz ve çağrı merkezi parametrelerinde temel dolandırıcılık değerlerini tanımlamanız gerekir. İki tip sahtekarlık kuralı vardır:
+<span data-ttu-id="84902-107">Dolandırıcılık denetimi kurallarını ayarlamadan ve kullanmadan önce sahtekarlık denetimini etkinleştirmeniz ve çağrı merkezi parametrelerinde temel dolandırıcılık değerlerini tanımlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="84902-107">Before you set up and use fraud checking rules, you must enable fraud checking and define the basic fraud checking values in the call center parameters.</span></span> <span data-ttu-id="84902-108">İki tip sahtekarlık kuralı vardır:</span><span class="sxs-lookup"><span data-stu-id="84902-108">There are two types of fraud rules:</span></span>
 
--   **Statik kuralları** kara listede bir telefon numarası gibi belirli bir değer kullanır.
--   **Dinamik kuralları** değişkenler ve koşullardan oluşabilir.
+-   <span data-ttu-id="84902-109">**Statik kuralları** kara listede bir telefon numarası gibi belirli bir değer kullanır.</span><span class="sxs-lookup"><span data-stu-id="84902-109">**Static rules** use a specific value, such as a phone number that has been blacklisted.</span></span>
+-   <span data-ttu-id="84902-110">**Dinamik kuralları** değişkenler ve koşullardan oluşabilir.</span><span class="sxs-lookup"><span data-stu-id="84902-110">**Dynamic rules** can be composed from variables and conditions.</span></span>
 
-Dinamik kuralı oluşturmadan önce kuralın kime uygulanacağını ve kuralın ne zaman uygulanacağını tanımlayan değişkenleri ve koşulları oluşturmanız gerekir. Örneğin, müşteri 1202'in 1.000,00 veya üzerinde değerinde koyduğu her satış siparişinin müşteri ödemesi doğrulanıncaya kadar beklemeye konmasını gerektiren bir kural oluşturmak istiyorsunuz. Bu durumda, müşteri 1202 ve sipariş toplamı 1.000,00 değişkenlerdir. Koşul, müşteri 1202 bir sipariş yaparsa ve toplam sipariş miktarı 1,000.00'e eşittir veya fazlaysa satış siparişi müşteri ödemesi doğrulanıncaya kadar beklemeye alınmalıdır.
+<span data-ttu-id="84902-111">Dinamik kuralı oluşturmadan önce kuralın kime uygulanacağını ve kuralın ne zaman uygulanacağını tanımlayan değişkenleri ve koşulları oluşturmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="84902-111">Before you create a dynamic rule, you must create the variables and conditions that define who the rule applies to and when the rule should be applied.</span></span> <span data-ttu-id="84902-112">Örneğin, müşteri 1202'in 1.000,00 veya üzerinde değerinde koyduğu her satış siparişinin müşteri ödemesi doğrulanıncaya kadar beklemeye konmasını gerektiren bir kural oluşturmak istiyorsunuz.</span><span class="sxs-lookup"><span data-stu-id="84902-112">For example, you want to create a rule to require that any sales order that customer 1202 places that is worth 1,000.00 or more be put on hold until the customer payment can be verified.</span></span> <span data-ttu-id="84902-113">Bu durumda, müşteri 1202 ve sipariş toplamı 1.000,00 değişkenlerdir.</span><span class="sxs-lookup"><span data-stu-id="84902-113">In this case, the variables are customer 1202 and an order total of 1,000.00.</span></span> <span data-ttu-id="84902-114">Koşul, müşteri 1202 bir sipariş yaparsa ve toplam sipariş miktarı 1,000.00'e eşittir veya fazlaysa satış siparişi müşteri ödemesi doğrulanıncaya kadar beklemeye alınmalıdır.</span><span class="sxs-lookup"><span data-stu-id="84902-114">The condition specifies that if customer 1202 places an order, and the total amount of the order is equal to or more than 1,000.00, the sales order must be put on hold until the customer payment can be verified.</span></span>
 
 
 

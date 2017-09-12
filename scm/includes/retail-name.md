@@ -1,2 +1,2 @@
 > [!NOTE]
-> Bu konu, Dynamics 365 for Finance and Operations Enterprise Edition ve Dynamics 365 for Retail için geçerlidir. 
+> <span data-ttu-id="746fa-101">Bu konu, Dynamics 365 for Finance and Operations Enterprise Edition ve Dynamics 365 for Retail için geçerlidir.</span><span class="sxs-lookup"><span data-stu-id="746fa-101">This topic applies to both Dynamics 365 for Finance and Operations, Enterprise edition and to Dynamics 365 for Retail.</span></span> 

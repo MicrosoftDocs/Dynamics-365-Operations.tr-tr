@@ -17,40 +17,40 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 3eba8dbc6c2e5fb3a93d57b72956f9246ad5912e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 80543780c423b5beac3ec57f4fa035e560aaa4ce
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="copy-co-products-from-an-existing-formula-version"></a>Mevcut bir formül sürümünden ortak ürünler kopyalama
+# <a name="copy-co-products-from-an-existing-formula-version"></a><span data-ttu-id="a1abd-103">Mevcut bir formül sürümünden ortak ürünler kopyalama</span><span class="sxs-lookup"><span data-stu-id="a1abd-103">Copy co-products from an existing formula version</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, size ortak ürünleri bir formül sürümünden sevk edilen bir ürün için farklı bir formül sürümüne nasıl kopyalayacağınızı gösterir. Ortak ürünlerle ilişkili en az bir formül sürümü bulunması önkoşulu vardır. Bu yordamı oluşturmak için kullanılan demo verisi şirketi USP2'dir.
+<span data-ttu-id="a1abd-104">Bu yordam, size ortak ürünleri bir formül sürümünden sevk edilen bir ürün için farklı bir formül sürümüne nasıl kopyalayacağınızı gösterir.</span><span class="sxs-lookup"><span data-stu-id="a1abd-104">This procedure shows how to copy co-products from an existing formula version to a different formula version for a released product.</span></span> <span data-ttu-id="a1abd-105">Ortak ürünlerle ilişkili en az bir formül sürümü bulunması önkoşulu vardır.</span><span class="sxs-lookup"><span data-stu-id="a1abd-105">It is a prerequisite that there is at least one formula version associated with co-products.</span></span> <span data-ttu-id="a1abd-106">Bu yordamı oluşturmak için kullanılan demo verisi şirketi USP2'dir.</span><span class="sxs-lookup"><span data-stu-id="a1abd-106">The demo data company USP2 is used to create this procedure.</span></span>
 
 
-## <a name="find-a-released-product"></a>Sevk edilen ürünleri bulma
-1. Serbest bırakılan ürünler öğesine gidin.
-2. Filtreleri göster'e tıklayın.
-    * Filtre iletişim kutusunda alan Üretim türü eklemek üzeresiniz.  
-3. Filtre ekle alanını, Üretim türüne alanı eklemek için tıklayın.
-    * Sonraki adımda Uygula'yı seçmeden önce Üretim türü alanında Formülü el ile girmeniz gerekir. Bu, filtre üzerinde yayınlanan ürünlerin listesini ayarlar.  
-4. Üretim türü alanına Formülü el ile girin.
-5. Uygula düğmesini tıklatın.
+## <a name="find-a-released-product"></a><span data-ttu-id="a1abd-107">Sevk edilen ürünleri bulma</span><span class="sxs-lookup"><span data-stu-id="a1abd-107">Find a released product</span></span>
+1. <span data-ttu-id="a1abd-108">Serbest bırakılan ürünler öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="a1abd-108">Go to Released products.</span></span>
+2. <span data-ttu-id="a1abd-109">Filtreleri göster'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a1abd-109">Click Show filters.</span></span>
+    * <span data-ttu-id="a1abd-110">Filtre iletişim kutusunda alan Üretim türü eklemek üzeresiniz.</span><span class="sxs-lookup"><span data-stu-id="a1abd-110">You are about to add the field Production type in the filter dialog box.</span></span>  
+3. <span data-ttu-id="a1abd-111">Filtre ekle alanını, Üretim türüne alanı eklemek için tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a1abd-111">Click Add a filter field to add the field Production type.</span></span>
+    * <span data-ttu-id="a1abd-112">Sonraki adımda Uygula'yı seçmeden önce Üretim türü alanında Formülü el ile girmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="a1abd-112">In the next step, you need to manually enter Formula in the Production type field before you select Apply.</span></span> <span data-ttu-id="a1abd-113">Bu, filtre üzerinde yayınlanan ürünlerin listesini ayarlar.</span><span class="sxs-lookup"><span data-stu-id="a1abd-113">This sets the filter on the list of released products.</span></span>  
+4. <span data-ttu-id="a1abd-114">Üretim türü alanına Formülü el ile girin.</span><span class="sxs-lookup"><span data-stu-id="a1abd-114">Manually enter Formula in the Production type field.</span></span>
+5. <span data-ttu-id="a1abd-115">Uygula düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="a1abd-115">Click Apply.</span></span>
 
-## <a name="select-a-released-product"></a>Sevk edilen ürünleri seçme
-1. Listede, istenen kaydı bulun ve seçin.
-2. Formül sürümleri'ni tıklatın.
-    * Mühendislik İşlemi Bölmesinde Formül sürümleri'ni tıklatın.  
+## <a name="select-a-released-product"></a><span data-ttu-id="a1abd-116">Sevk edilen ürünleri seçme</span><span class="sxs-lookup"><span data-stu-id="a1abd-116">Select a released product</span></span>
+1. <span data-ttu-id="a1abd-117">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="a1abd-117">In the list, find and select the desired record.</span></span>
+2. <span data-ttu-id="a1abd-118">Formül sürümleri'ni tıklatın.</span><span class="sxs-lookup"><span data-stu-id="a1abd-118">Click Formula versions.</span></span>
+    * <span data-ttu-id="a1abd-119">Mühendislik İşlemi Bölmesinde Formül sürümleri'ni tıklatın.</span><span class="sxs-lookup"><span data-stu-id="a1abd-119">On the Engineering Action Pane, click Formula versions.</span></span>  
 
-## <a name="copy-co-products"></a>Ortak ürünleri kopyalama
-1. Eylem Bölmesi'nde Formül sürümleri'ni tıklatın.
-2. Ortak ürünler’i tıklatın.
-3. Kopyala'yı tıklatın.
-4. Madde numarası alanında bir değer girin veya seçin.
-5. Formül sürümü alanında bir değer girin veya bir değer seçin.
-6. Tamam'a tıklayın.
-7. Sayfayı kapatın.
+## <a name="copy-co-products"></a><span data-ttu-id="a1abd-120">Ortak ürünleri kopyalama</span><span class="sxs-lookup"><span data-stu-id="a1abd-120">Copy co-products</span></span>
+1. <span data-ttu-id="a1abd-121">Eylem Bölmesi'nde Formül sürümleri'ni tıklatın.</span><span class="sxs-lookup"><span data-stu-id="a1abd-121">On the Action Pane, click Formula version.</span></span>
+2. <span data-ttu-id="a1abd-122">Ortak ürünler’i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="a1abd-122">Click Co-products.</span></span>
+3. <span data-ttu-id="a1abd-123">Kopyala'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="a1abd-123">Click Copy.</span></span>
+4. <span data-ttu-id="a1abd-124">Madde numarası alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="a1abd-124">In the Item number field, enter or select a value.</span></span>
+5. <span data-ttu-id="a1abd-125">Formül sürümü alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="a1abd-125">In the Formula version field, enter or select a value.</span></span>
+6. <span data-ttu-id="a1abd-126">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a1abd-126">Click OK.</span></span>
+7. <span data-ttu-id="a1abd-127">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="a1abd-127">Close the page.</span></span>
 
 

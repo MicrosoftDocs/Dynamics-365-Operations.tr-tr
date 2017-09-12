@@ -16,91 +16,91 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 14eed7982041b7af7dad5453b10f07f063ba1855
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d97ccd15031b2f7398486eee4a716ecef5e9dafd
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-requisition-that-uses-an-rfq"></a>RFQ kullanan bir talep oluşturma
+# <a name="create-a-requisition-that-uses-an-rfq"></a><span data-ttu-id="c5721-103">RFQ kullanan bir talep oluşturma</span><span class="sxs-lookup"><span data-stu-id="c5721-103">Create a requisition that uses an RFQ</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu kılavuz, bir RFQ işleminden satınalma talebine fiyat ve satıcı bilgilerinin nasıl ekleneceğini gösterir. Bu kılavuzda gösterilen örnek USMF demo verileri şirketinde kullanılabilir ve tüm adımları tamamlamak için bir Yönetici olarak oturum açmanız gerekir. Bu kılavuzdaki görevler genellikle tedarik profesyonelleri tarafından yapılır.
+<span data-ttu-id="c5721-104">Bu kılavuz, bir RFQ işleminden satınalma talebine fiyat ve satıcı bilgilerinin nasıl ekleneceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="c5721-104">This guide shows how to add price and vendor information to a purchase requisition from an RFQ process.</span></span> <span data-ttu-id="c5721-105">Bu kılavuzda gösterilen örnek USMF demo verileri şirketinde kullanılabilir ve tüm adımları tamamlamak için bir Yönetici olarak oturum açmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="c5721-105">The example shown in this guide can be used in the USMF demo data company, and you must be logged in as an Admin to complete all the steps.</span></span> <span data-ttu-id="c5721-106">Bu kılavuzdaki görevler genellikle tedarik profesyonelleri tarafından yapılır.</span><span class="sxs-lookup"><span data-stu-id="c5721-106">The tasks in this guide would typically be done by procurement professionals.</span></span>
 
 
-## <a name="create-a-requisition"></a>Talep oluşturun
-1. Tedarik ve kaynak Hizmeti'nden > Satınalma talepleri > Satınalma talepleri benim tarafından hazırlandı'ya git.
-2. Yeni'ye tıklayın.
-3. İsim alanına bir değer yazın.
-4. Talep edilen tarih alanında, bir tarih girin.
-5. Muhasebe tarihi alanında bir tarih girin.
-6. Tamam'ı tıklatın.
-7. Neden alanında bir değer girin veya bir değer seçin.
-8. Satır ekle'ye tıklayın.
-9. Tedarik kategorisi alanında ağaç içinde bir kategori seçin ve Tamam'a tıklayın.
-10. Ürün adı alanına bir değer girin.
-11. Miktar alanına bir sayı girin.
-12. Birim alanına bir değer girin veya buradan bir değer seçin.
-13. Kaydet'e tıklayın.
-14. İletişim kutusu formunu açmak için İş akışı'na tıklayın.
-15. Gönder'i tıklatın.
-16. Sayfayı kapatın.
-17. Gönder'i tıklatın.
+## <a name="create-a-requisition"></a><span data-ttu-id="c5721-107">Talep oluşturun</span><span class="sxs-lookup"><span data-stu-id="c5721-107">Create a requisition</span></span>
+1. <span data-ttu-id="c5721-108">Tedarik ve kaynak Hizmeti'nden > Satınalma talepleri > Satınalma talepleri benim tarafından hazırlandı'ya git.</span><span class="sxs-lookup"><span data-stu-id="c5721-108">Go to Procurement and sourcing > Purchase requisitions > Purchase requisitions prepared by me.</span></span>
+2. <span data-ttu-id="c5721-109">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-109">Click New.</span></span>
+3. <span data-ttu-id="c5721-110">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="c5721-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="c5721-111">Talep edilen tarih alanında, bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="c5721-111">In the Requested date field, enter a date.</span></span>
+5. <span data-ttu-id="c5721-112">Muhasebe tarihi alanında bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="c5721-112">In the Accounting date field, enter a date.</span></span>
+6. <span data-ttu-id="c5721-113">Tamam'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c5721-113">Click OK.</span></span>
+7. <span data-ttu-id="c5721-114">Neden alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="c5721-114">In the Reason field, enter or select a value.</span></span>
+8. <span data-ttu-id="c5721-115">Satır ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-115">Click Add line.</span></span>
+9. <span data-ttu-id="c5721-116">Tedarik kategorisi alanında ağaç içinde bir kategori seçin ve Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-116">In the Procurement category field, select a category in the tree, and then click OK.</span></span>
+10. <span data-ttu-id="c5721-117">Ürün adı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="c5721-117">In the Product name field, type a value.</span></span>
+11. <span data-ttu-id="c5721-118">Miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="c5721-118">In the Quantity field, enter a number.</span></span>
+12. <span data-ttu-id="c5721-119">Birim alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="c5721-119">In the Unit field, enter or select a value.</span></span>
+13. <span data-ttu-id="c5721-120">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-120">Click Save.</span></span>
+14. <span data-ttu-id="c5721-121">İletişim kutusu formunu açmak için İş akışı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-121">Click Workflow to open the drop dialog.</span></span>
+15. <span data-ttu-id="c5721-122">Gönder'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c5721-122">Click Submit.</span></span>
+16. <span data-ttu-id="c5721-123">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="c5721-123">Close the page.</span></span>
+17. <span data-ttu-id="c5721-124">Gönder'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c5721-124">Click Submit.</span></span>
 
-## <a name="reassign-a-workflow-task"></a>İş akışı görevini yeniden atayın
-    * Sonraki görev satıcılardan ürün için teklifleri almak için bir RFQ oluşturmaktır. USMF demo verilerinde talep iş akışı, bir satıcı seçilmediğinde veya bir satır için birim fiyat 0 olduğunda belirli bir çalışana bir RFQ oluşturması için bir görevin atandığı bir kural ile ayarlanmıştır. Bu kılavuz ile devam etmek için bu görevi başka bir kullanıcıya (kendinize) yeniden atamanız gerekir. Bunu yalnızca bir Yönetici olarak oturum açtıysanız yapabilirsiniz.  
-1. İletişim kutusu formunu açmak için İş akışı'na tıklayın.
-2. Geçmişi görüntüle'ye tıklayın.
-3. Sayfayı yenileyin.
-4. İzleme ayrıntıları bölümünü genişletin.
-5. Ağaç içinde, "Satır maddesi iş akışı etkinleştirildi" ile başlayan satırı seçin.
-6. İş akış ayrıntılarını görüntüle'ye tıklayın.
-7. İş öğeleri bölümünü genişletin.
-8. Yeniden Ata'ya tıklayın.
-9. Kullanıcı alanında Yönetici'yi seçin.
-10. Yeniden Ata'ya tıklayın.
-11. Sayfayı kapatın.
-12. Sayfayı kapatın.
+## <a name="reassign-a-workflow-task"></a><span data-ttu-id="c5721-125">İş akışı görevini yeniden atayın</span><span class="sxs-lookup"><span data-stu-id="c5721-125">Reassign a workflow task</span></span>
+    * <span data-ttu-id="c5721-126">Sonraki görev satıcılardan ürün için teklifleri almak için bir RFQ oluşturmaktır.</span><span class="sxs-lookup"><span data-stu-id="c5721-126">The next task is to create an RFQ to get bids from vendors for the product.</span></span> <span data-ttu-id="c5721-127">USMF demo verilerinde talep iş akışı, bir satıcı seçilmediğinde veya bir satır için birim fiyat 0 olduğunda belirli bir çalışana bir RFQ oluşturması için bir görevin atandığı bir kural ile ayarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="c5721-127">In USMF demo data, the requisition workflow is set up with a rule so that if a vendor is not selected, or the unit price is 0 for a line, a task is assigned to a specific worker to create an RFQ.</span></span> <span data-ttu-id="c5721-128">Bu kılavuz ile devam etmek için bu görevi başka bir kullanıcıya (kendinize) yeniden atamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="c5721-128">To continue with this guide, you need to re-assign that task to another user (yourself).</span></span> <span data-ttu-id="c5721-129">Bunu yalnızca bir Yönetici olarak oturum açtıysanız yapabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c5721-129">You can only do this if you are logged in as an Admin.</span></span>  
+1. <span data-ttu-id="c5721-130">İletişim kutusu formunu açmak için İş akışı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-130">Click Workflow to open the drop dialog.</span></span>
+2. <span data-ttu-id="c5721-131">Geçmişi görüntüle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-131">Click View history.</span></span>
+3. <span data-ttu-id="c5721-132">Sayfayı yenileyin.</span><span class="sxs-lookup"><span data-stu-id="c5721-132">Refresh the page.</span></span>
+4. <span data-ttu-id="c5721-133">İzleme ayrıntıları bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="c5721-133">Expand the Tracking details section.</span></span>
+5. <span data-ttu-id="c5721-134">Ağaç içinde, "Satır maddesi iş akışı etkinleştirildi" ile başlayan satırı seçin.</span><span class="sxs-lookup"><span data-stu-id="c5721-134">In the tree, select 'the line that starts with “Line workflow activated on”'.</span></span>
+6. <span data-ttu-id="c5721-135">İş akış ayrıntılarını görüntüle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-135">Click View workflow details.</span></span>
+7. <span data-ttu-id="c5721-136">İş öğeleri bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="c5721-136">Expand the Work items section.</span></span>
+8. <span data-ttu-id="c5721-137">Yeniden Ata'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-137">Click Reassign.</span></span>
+9. <span data-ttu-id="c5721-138">Kullanıcı alanında Yönetici'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="c5721-138">In the User field, select Admin.</span></span>
+10. <span data-ttu-id="c5721-139">Yeniden Ata'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-139">Click Reassign.</span></span>
+11. <span data-ttu-id="c5721-140">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="c5721-140">Close the page.</span></span>
+12. <span data-ttu-id="c5721-141">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="c5721-141">Close the page.</span></span>
 
-## <a name="create-an-rfq"></a>RFQ oluşturun
-1. Sayfayı yenileyin.
-2. Teklif talebi'ne tıklayın.
-3. Satın alma tüzel kişiliği alanında USMF'yi seçin.
-    * Talep satırında bulunan aynı yasal varlığı seçmelisiniz.  
-4. Listede, seçili satırı işaretleyin.
-    * Satınalma talebinde birden fazla satırınız varsa RFQ'ya eklemek istediğiniz tüm satırları seçin.  
-5. Tamam'a tıklayın.
-6. Sayfayı yenileyin.
-7. Bilgi kutusunu açın ve ardından İlgili belgeler bölümünü genişletin.
-    * Bilgi kutusu zaten açık olabilir. Satırlar/Başlık geçiş düğmelerinin sağında, üzerinde bir ok olan simgeyi arayın. Ok sağı gösteriyorsa bilgi kutusu zaten açıktır. Ok solu gösteriyorsa bilgi kutusunu açmak için oka tıklayın.  
-8. Yeni oluşturulan RFQ'yu açmak için Teklif talebi alanındaki bağlantıya tıklayın.
-9. Başlık'a tıklayın.
-10. Ekle öğesini tıklatın.
-11. Satıcı hesabı alanında bir değer girin veya bir değer seçin.
-12. Ekle öğesini tıklatın.
-13. Satıcı hesabı alanında bir değer girin veya bir değer seçin.
-14. Gönder'e tıklayın.
-15. Tamam'a tıklayın.
-16. Yanıt gir düğmesini tıklayın.
-17. Eylem Bölmesinde, Yanıtla öğesine tıklayın.
-18. Verileri yanıta kopyala düğmesini tıklayın.
-    * Bu, RFQ'dan yanıta miktar ve tarihler gibi verileri kopyalar.  
-19. Birim fiyatı alanına bir sayı girin.
-    * Bu, satıcıdan aldığınız fiyattır. Ayrıca satıcıdan ek bilgiler girmek de isteyebilirsiniz.  
-20. Kabul et düğmesini tıklatın.
-21. Tamam'a tıklayın.
+## <a name="create-an-rfq"></a><span data-ttu-id="c5721-142">RFQ oluşturun</span><span class="sxs-lookup"><span data-stu-id="c5721-142">Create an RFQ</span></span>
+1. <span data-ttu-id="c5721-143">Sayfayı yenileyin.</span><span class="sxs-lookup"><span data-stu-id="c5721-143">Refresh the page.</span></span>
+2. <span data-ttu-id="c5721-144">Teklif talebi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-144">Click Request for quotation.</span></span>
+3. <span data-ttu-id="c5721-145">Satın alma tüzel kişiliği alanında USMF'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="c5721-145">In the Buying legal entity field, select USMF.</span></span>
+    * <span data-ttu-id="c5721-146">Talep satırında bulunan aynı yasal varlığı seçmelisiniz.</span><span class="sxs-lookup"><span data-stu-id="c5721-146">You must select the same legal entity that’s on the requisition line.</span></span>  
+4. <span data-ttu-id="c5721-147">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="c5721-147">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="c5721-148">Satınalma talebinde birden fazla satırınız varsa RFQ'ya eklemek istediğiniz tüm satırları seçin.</span><span class="sxs-lookup"><span data-stu-id="c5721-148">If you had multiple lines on your purchase requisition, select all the lines that you want to add to the RFQ.</span></span>  
+5. <span data-ttu-id="c5721-149">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-149">Click OK.</span></span>
+6. <span data-ttu-id="c5721-150">Sayfayı yenileyin.</span><span class="sxs-lookup"><span data-stu-id="c5721-150">Refresh the page.</span></span>
+7. <span data-ttu-id="c5721-151">Bilgi kutusunu açın ve ardından İlgili belgeler bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="c5721-151">Open the FactBox and then expand the Related documents section.</span></span>
+    * <span data-ttu-id="c5721-152">Bilgi kutusu zaten açık olabilir.</span><span class="sxs-lookup"><span data-stu-id="c5721-152">You may already have the FactBox open.</span></span> <span data-ttu-id="c5721-153">Satırlar/Başlık geçiş düğmelerinin sağında, üzerinde bir ok olan simgeyi arayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-153">Look for the icon with an arrow on it, to the right of the Lines/Header toggle buttons.</span></span> <span data-ttu-id="c5721-154">Ok sağı gösteriyorsa bilgi kutusu zaten açıktır.</span><span class="sxs-lookup"><span data-stu-id="c5721-154">If the arrow is pointing to the right, the FactBox is already open.</span></span> <span data-ttu-id="c5721-155">Ok solu gösteriyorsa bilgi kutusunu açmak için oka tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-155">If the arrow points to the left, click it to open the FactBox.</span></span>  
+8. <span data-ttu-id="c5721-156">Yeni oluşturulan RFQ'yu açmak için Teklif talebi alanındaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-156">Click the link in the Request for quotation field to open the RFQ that was just created.</span></span>
+9. <span data-ttu-id="c5721-157">Başlık'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-157">Click Header.</span></span>
+10. <span data-ttu-id="c5721-158">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c5721-158">Click Add.</span></span>
+11. <span data-ttu-id="c5721-159">Satıcı hesabı alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="c5721-159">In the Vendor account field, enter or select a value.</span></span>
+12. <span data-ttu-id="c5721-160">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c5721-160">Click Add.</span></span>
+13. <span data-ttu-id="c5721-161">Satıcı hesabı alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="c5721-161">In the Vendor account field, enter or select a value.</span></span>
+14. <span data-ttu-id="c5721-162">Gönder'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-162">Click Send.</span></span>
+15. <span data-ttu-id="c5721-163">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-163">Click OK.</span></span>
+16. <span data-ttu-id="c5721-164">Yanıt gir düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-164">Click Enter reply.</span></span>
+17. <span data-ttu-id="c5721-165">Eylem Bölmesinde, Yanıtla öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-165">On the Action Pane, click Reply.</span></span>
+18. <span data-ttu-id="c5721-166">Verileri yanıta kopyala düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-166">Click Copy data to reply.</span></span>
+    * <span data-ttu-id="c5721-167">Bu, RFQ'dan yanıta miktar ve tarihler gibi verileri kopyalar.</span><span class="sxs-lookup"><span data-stu-id="c5721-167">This copies data, such as the quantity and dates, from the RFQ to the reply .</span></span>  
+19. <span data-ttu-id="c5721-168">Birim fiyatı alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="c5721-168">In the Unit price field, enter a number.</span></span>
+    * <span data-ttu-id="c5721-169">Bu, satıcıdan aldığınız fiyattır.</span><span class="sxs-lookup"><span data-stu-id="c5721-169">This is the price that you’ve received from the vendor.</span></span> <span data-ttu-id="c5721-170">Ayrıca satıcıdan ek bilgiler girmek de isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c5721-170">You might also want to enter additional information from the vendor.</span></span>  
+20. <span data-ttu-id="c5721-171">Kabul et düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c5721-171">Click Accept.</span></span>
+21. <span data-ttu-id="c5721-172">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-172">Click OK.</span></span>
 
-## <a name="verify-that-vendor-and-price-have-been-transferred-to-the-requisition"></a>Satıcı ve fiyatın talebe aktarılmış olduğunu doğrulayın
-1. Sayfayı kapatın.
-2. Satırlar seçeneğine tıklayın.
-3. İlgili bilgiler'e tıklayın.
-4. Satınalma talebi'ne tıklayın.
-5. RFQ'ya transfer edilen satırı seçin.
-    * Fiyatın ve satıcının talebe kopyalandığını doğrulayın.  
-6. İletişim kutusu formunu açmak için İş akışı'na tıklayın.
-7. Tamamla öğesine tıklayın.
-8. Sayfayı kapatın.
-9. Tamamla öğesine tıklayın.
+## <a name="verify-that-vendor-and-price-have-been-transferred-to-the-requisition"></a><span data-ttu-id="c5721-173">Satıcı ve fiyatın talebe aktarılmış olduğunu doğrulayın</span><span class="sxs-lookup"><span data-stu-id="c5721-173">Verify that vendor and price have been transferred to the requisition</span></span>
+1. <span data-ttu-id="c5721-174">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="c5721-174">Close the page.</span></span>
+2. <span data-ttu-id="c5721-175">Satırlar seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-175">Click Lines.</span></span>
+3. <span data-ttu-id="c5721-176">İlgili bilgiler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-176">Click Related information.</span></span>
+4. <span data-ttu-id="c5721-177">Satınalma talebi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-177">Click Purchase requisition.</span></span>
+5. <span data-ttu-id="c5721-178">RFQ'ya transfer edilen satırı seçin.</span><span class="sxs-lookup"><span data-stu-id="c5721-178">Select the line that was transferred to the RFQ.</span></span>
+    * <span data-ttu-id="c5721-179">Fiyatın ve satıcının talebe kopyalandığını doğrulayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-179">Verify that the price and vendor have been copied to the requisition.</span></span>  
+6. <span data-ttu-id="c5721-180">İletişim kutusu formunu açmak için İş akışı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-180">Click Workflow to open the drop dialog.</span></span>
+7. <span data-ttu-id="c5721-181">Tamamla öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-181">Click Complete.</span></span>
+8. <span data-ttu-id="c5721-182">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="c5721-182">Close the page.</span></span>
+9. <span data-ttu-id="c5721-183">Tamamla öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c5721-183">Click Complete.</span></span>
 
 

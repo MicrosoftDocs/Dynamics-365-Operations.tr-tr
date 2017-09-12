@@ -17,49 +17,49 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: fbbcbadc2ab777ae615ef13db6d6ecdb9e5d37a6
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1f88fbbacde9c0bd2b3499df5682a717d0b804ab
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="enter-project-timesheets"></a>Proje zaman çizelgelerini girme
+# <a name="enter-project-timesheets"></a><span data-ttu-id="d8eff-103">Proje zaman çizelgelerini girme</span><span class="sxs-lookup"><span data-stu-id="d8eff-103">Enter project timesheets</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yöntem, bir zaman çizelgesini, boş zaman çizelgesi formu kullanarak oluşturmanızı sağlar. Yeni Zaman Çizelgesi, önceki bir zaman çizelgesi bilgilerini veya Sık Kullanılanlarım sayfasındaki proje ve faaliyet atamalarını baz alabilir. Varsayılan olarak, tüm zaman çizelgeleri listesi sayfası, geçerli dönem için tüm zaman çizelgelerini görüntüler. Çizelgelerim sayfasındaki Göster alanındaki aşağı açılan listeyi, çizelgeleri süre ya da proje zaman çizelgesi listesine göre filtrelemek, veya diğer çalışanlar adına oluşturulan zaman çizelgelerini görüntülemek için kullanabilirsiniz. Bu yöntemi oluşturmak için kullanılan demo verisi şirketi USSI'dir. Bu yöntemi başlatmak için: Proje yönetimi ve muhasebe > Zaman çizelgeleri > Çizelgelerim seçeneğine gidin.
+<span data-ttu-id="d8eff-104">Bu yöntem, bir zaman çizelgesini, boş zaman çizelgesi formu kullanarak oluşturmanızı sağlar.</span><span class="sxs-lookup"><span data-stu-id="d8eff-104">This procedure lets you create a timesheet by using an empty timesheet form.</span></span> <span data-ttu-id="d8eff-105">Yeni Zaman Çizelgesi, önceki bir zaman çizelgesi bilgilerini veya Sık Kullanılanlarım sayfasındaki proje ve faaliyet atamalarını baz alabilir.</span><span class="sxs-lookup"><span data-stu-id="d8eff-105">The new timesheet can be based on information from a previous timesheet, or from project and activity assignments in the My favourites page.</span></span> <span data-ttu-id="d8eff-106">Varsayılan olarak, tüm zaman çizelgeleri listesi sayfası, geçerli dönem için tüm zaman çizelgelerini görüntüler.</span><span class="sxs-lookup"><span data-stu-id="d8eff-106">By default, the All timesheets list page displays all your timesheets for the current period.</span></span> <span data-ttu-id="d8eff-107">Çizelgelerim sayfasındaki Göster alanındaki aşağı açılan listeyi, çizelgeleri süre ya da proje zaman çizelgesi listesine göre filtrelemek, veya diğer çalışanlar adına oluşturulan zaman çizelgelerini görüntülemek için kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d8eff-107">You can use the drop-down list for the Show field in the My timesheets page to filter the timesheet list by time period or project, or to view timesheets that were created on behalf of other workers.</span></span> <span data-ttu-id="d8eff-108">Bu yöntemi oluşturmak için kullanılan demo verisi şirketi USSI'dir.</span><span class="sxs-lookup"><span data-stu-id="d8eff-108">The demo data company used to create this procedure is USSI.</span></span> <span data-ttu-id="d8eff-109">Bu yöntemi başlatmak için: Proje yönetimi ve muhasebe > Zaman çizelgeleri > Çizelgelerim seçeneğine gidin.</span><span class="sxs-lookup"><span data-stu-id="d8eff-109">To begin this procedure, go to Project management and accounting > Timesheets >My timesheets</span></span>
 
-1. Yeni bir zaman çizelgesi girmek için yeni'yi tıklatın.
-    * Kaynak aşağı açılan listesi varsayılan olarak mevcut kullanıcıya atanmış olan çalışanı gösterir.  
-    * Kullanıcı, bir temsilci olarak belirlendiyse, bu durum adları kullanıcının kendi adına bir zaman çizelgesi girebileceği şekilde listeler.  
-2. Tarih alanına bir tarih girin.
-    * Bu seçenek işaretliyse, Sık Kullanılanlar olarak yapılandırılmış olan zaman çizelgesi ayarları kullanarak yeni zaman çizelgesi satırları oluşturulur.  
-3. Tamam'a tıklayın.
-4. Yeni satırına tıklayın
-5. Listede, seçili satırı işaretleyin.
-    * Tüzel kişilik alanı mevcut tüzel kişiliği varsayılan olarak görüntüler.   
-6. Proje alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-7. Listede, istenen kaydı bulun ve seçin.
-8. Listede, seçili satırdaki bağlantıya tıklayın.
-9. Faaliyet alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-10. Listede, istenen kaydı bulun ve seçin.
-11. Listede, seçili satırdaki bağlantıya tıklayın.
-12. Kategori alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-13. Listede, istenen kaydı bulun ve seçin.
-14. Listede, seçili satırdaki bağlantıya tıklayın.
-15. Her bir gün için çalışılan saat sayısını girin.
-    * Saatleri ondalık biçiminde girilmelidir.  Örneğin, iki saat on beş dakika çalıştıysanız 2,25 değerini girin.   
-16. Her bir gün için çalışılan saat sayısını girin.
-    * Saatleri ondalık biçiminde girilmelidir.  Örneğin, iki saat on beş dakika çalıştıysanız 2,25 değerini girin.   
-17. Her bir gün için çalışılan saat sayısını girin.
-    * Saatleri ondalık biçiminde girilmelidir.  Örneğin, iki saat on beş dakika çalıştıysanız 2,25 değerini girin.   
-18. Her bir gün için çalışılan saat sayısını girin.
-    * Saatleri ondalık biçiminde girilmelidir.  Örneğin, iki saat on beş dakika çalıştıysanız 2,25 değerini girin.   
-19. Her bir gün için çalışılan saat sayısını girin.
-    * Saatleri ondalık biçiminde girilmelidir.  Örneğin, iki saat on beş dakika çalıştıysanız 2,25 değerini girin.   
-    * Satır detaylarında aşağıdaki güncelleştirme seçenekleri mevcuttur:  o  Vergi ve mali boyutlar hakkında bilgi ekleyin.  o    Zaman çizelgesi satırı hakkında açıklamalar ekleyin.  
-20. İletişim kutusu formunu açmak için İş akışı'na tıklayın.
-21. Gönder'i tıklatın.
-22. Gönder'i tıklatın.
+1. <span data-ttu-id="d8eff-110">Yeni bir zaman çizelgesi girmek için yeni'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d8eff-110">To enter a new timesheet, click New.</span></span>
+    * <span data-ttu-id="d8eff-111">Kaynak aşağı açılan listesi varsayılan olarak mevcut kullanıcıya atanmış olan çalışanı gösterir.</span><span class="sxs-lookup"><span data-stu-id="d8eff-111">The Resource drop-down list shows the worker assigned to the current user, by default.</span></span>  
+    * <span data-ttu-id="d8eff-112">Kullanıcı, bir temsilci olarak belirlendiyse, bu durum adları kullanıcının kendi adına bir zaman çizelgesi girebileceği şekilde listeler.</span><span class="sxs-lookup"><span data-stu-id="d8eff-112">If the user is designated as a delegate, this will list the names so that a user can enter a timesheet on their behalf.</span></span>  
+2. <span data-ttu-id="d8eff-113">Tarih alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="d8eff-113">In the Date field, enter a date.</span></span>
+    * <span data-ttu-id="d8eff-114">Bu seçenek işaretliyse, Sık Kullanılanlar olarak yapılandırılmış olan zaman çizelgesi ayarları kullanarak yeni zaman çizelgesi satırları oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="d8eff-114">If this option is selected, new timesheet lines will be created by using the timesheet settings that were configured as favourites.</span></span>  
+3. <span data-ttu-id="d8eff-115">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d8eff-115">Click OK.</span></span>
+4. <span data-ttu-id="d8eff-116">Yeni satırına tıklayın</span><span class="sxs-lookup"><span data-stu-id="d8eff-116">Click New line.</span></span>
+5. <span data-ttu-id="d8eff-117">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="d8eff-117">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="d8eff-118">Tüzel kişilik alanı mevcut tüzel kişiliği varsayılan olarak görüntüler.</span><span class="sxs-lookup"><span data-stu-id="d8eff-118">The Legal Entity field displays the current Legal entity by default.</span></span>   
+6. <span data-ttu-id="d8eff-119">Proje alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d8eff-119">In the Project field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="d8eff-120">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="d8eff-120">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="d8eff-121">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d8eff-121">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="d8eff-122">Faaliyet alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d8eff-122">In the Activity field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="d8eff-123">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="d8eff-123">In the list, find and select the desired record.</span></span>
+11. <span data-ttu-id="d8eff-124">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d8eff-124">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="d8eff-125">Kategori alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d8eff-125">In the Category field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="d8eff-126">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="d8eff-126">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="d8eff-127">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d8eff-127">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="d8eff-128">Her bir gün için çalışılan saat sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="d8eff-128">Enter the number of hours worked each day.</span></span>
+    * <span data-ttu-id="d8eff-129">Saatleri ondalık biçiminde girilmelidir.</span><span class="sxs-lookup"><span data-stu-id="d8eff-129">Hours should be entered in a decimal format.</span></span>  <span data-ttu-id="d8eff-130">Örneğin, iki saat on beş dakika çalıştıysanız 2,25 değerini girin.</span><span class="sxs-lookup"><span data-stu-id="d8eff-130">For example, if you worked for two hours and fifteen minutes, enter 2.25.</span></span>   
+16. <span data-ttu-id="d8eff-131">Her bir gün için çalışılan saat sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="d8eff-131">Enter the number of hours worked each day.</span></span>
+    * <span data-ttu-id="d8eff-132">Saatleri ondalık biçiminde girilmelidir.</span><span class="sxs-lookup"><span data-stu-id="d8eff-132">Hours should be entered in a decimal format.</span></span>  <span data-ttu-id="d8eff-133">Örneğin, iki saat on beş dakika çalıştıysanız 2,25 değerini girin.</span><span class="sxs-lookup"><span data-stu-id="d8eff-133">For example, if you worked for two hours and fifteen minutes, enter 2.25.</span></span>   
+17. <span data-ttu-id="d8eff-134">Her bir gün için çalışılan saat sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="d8eff-134">Enter the number of hours worked each day.</span></span>
+    * <span data-ttu-id="d8eff-135">Saatleri ondalık biçiminde girilmelidir.</span><span class="sxs-lookup"><span data-stu-id="d8eff-135">Hours should be entered in a decimal format.</span></span>  <span data-ttu-id="d8eff-136">Örneğin, iki saat on beş dakika çalıştıysanız 2,25 değerini girin.</span><span class="sxs-lookup"><span data-stu-id="d8eff-136">For example, if you worked for two hours and fifteen minutes, enter 2.25.</span></span>   
+18. <span data-ttu-id="d8eff-137">Her bir gün için çalışılan saat sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="d8eff-137">Enter the number of hours worked each day.</span></span>
+    * <span data-ttu-id="d8eff-138">Saatleri ondalık biçiminde girilmelidir.</span><span class="sxs-lookup"><span data-stu-id="d8eff-138">Hours should be entered in a decimal format.</span></span>  <span data-ttu-id="d8eff-139">Örneğin, iki saat on beş dakika çalıştıysanız 2,25 değerini girin.</span><span class="sxs-lookup"><span data-stu-id="d8eff-139">For example, if you worked for two hours and fifteen minutes, enter 2.25.</span></span>   
+19. <span data-ttu-id="d8eff-140">Her bir gün için çalışılan saat sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="d8eff-140">Enter the number of hours worked each day.</span></span>
+    * <span data-ttu-id="d8eff-141">Saatleri ondalık biçiminde girilmelidir.</span><span class="sxs-lookup"><span data-stu-id="d8eff-141">Hours should be entered in a decimal format.</span></span>  <span data-ttu-id="d8eff-142">Örneğin, iki saat on beş dakika çalıştıysanız 2,25 değerini girin.</span><span class="sxs-lookup"><span data-stu-id="d8eff-142">For example, if you worked for two hours and fifteen minutes, enter 2.25.</span></span>   
+    * <span data-ttu-id="d8eff-143">Satır detaylarında aşağıdaki güncelleştirme seçenekleri mevcuttur:  o  Vergi ve mali boyutlar hakkında bilgi ekleyin.</span><span class="sxs-lookup"><span data-stu-id="d8eff-143">In Line details, the following options are available:  o  Add information about taxes and financial dimensions.</span></span>  <span data-ttu-id="d8eff-144">o    Zaman çizelgesi satırı hakkında açıklamalar ekleyin.</span><span class="sxs-lookup"><span data-stu-id="d8eff-144">o    Add comments about the timesheet line.</span></span>  
+20. <span data-ttu-id="d8eff-145">İletişim kutusu formunu açmak için İş akışı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d8eff-145">Click Workflow to open the drop dialog.</span></span>
+21. <span data-ttu-id="d8eff-146">Gönder'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d8eff-146">Click Submit.</span></span>
+22. <span data-ttu-id="d8eff-147">Gönder'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d8eff-147">Click Submit.</span></span>
 
 

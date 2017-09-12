@@ -16,47 +16,47 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 93215c752e035e68b8d9a7e80cffd9da63a31bae
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b1caaf5f52282a8daae62602dcc5ef86b901e338
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="develop-a-succession-plan"></a>Yedekleme planı geliştirme
+# <a name="develop-a-succession-plan"></a><span data-ttu-id="3655f-103">Yedekleme planı geliştirme</span><span class="sxs-lookup"><span data-stu-id="3655f-103">Develop a succession plan</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Kuruluşunuz büyüdükçe ve ardışık planlama yapmayı düşündüğünüzde, başka bir kişiye benzer yeteneklere sahip olan birini bulmak isteyebilirsiniz.  Yetenek eşleme, mevcut çalışanları ve başvuruları inceleyerek aranan çalışan yeteneklerine uyup uymadıklarını görmenizi sağlar. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
+<span data-ttu-id="3655f-104">Kuruluşunuz büyüdükçe ve ardışık planlama yapmayı düşündüğünüzde, başka bir kişiye benzer yeteneklere sahip olan birini bulmak isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3655f-104">As your organization grows, and you consider succession planning, you may want to find someone who has similar skills to another person.</span></span>  <span data-ttu-id="3655f-105">Yetenek eşleme, mevcut çalışanları ve başvuruları inceleyerek aranan çalışan yeteneklerine uyup uymadıklarını görmenizi sağlar.</span><span class="sxs-lookup"><span data-stu-id="3655f-105">Skill mapping allows you to analyse your existing employees and applicants to see if they match the skill set of a valued employee.</span></span> <span data-ttu-id="3655f-106">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="3655f-106">The demo data company used to create this procedure is USMF.</span></span>
 
-1. İnsan Kaynakları > Yetkinlikler > Yetenek analizi > Yetenek eşleme profilleri'ne gidin.
-2. Yeni'ye tıklayın.
-3. Yetenek eşleme alanında, yetenek eşlemeniz için bir ad girin.  Örnek: Çalışan.
-4. Açıklama alanına bir değer girin.
-5. Tarih alanına bir tarih girin.
-6. Profili al'a tıklayın.
-7. Kişi'ye tıklayın.
-8. Kişi alanına bir ad yazın veya açılan menüden seçin.  Örnek: Cassie Hicks.
-9. Tamam'ı tıklatın.
-10. Yetenek eşlemeye dahil edilen sertifikaları görüntülemek veya düzenlemek için sertifikalar hızlı sekmesini genişletin.
-11. Dahil edilecek yetenekleri görmek veya düzenlemek için Yetenekler hızlı sekmesini genişletin.
-12. Listede ilk satırı işaretleyin.  Örnek: Muhasebe
-13. İsteğe bağlı onay kutusuna tıklayın.
-14. Önem alanında bir seçenek seçin.
-    * Bir yeteneği isteğe bağlı olarak işaretlediğinizde, yetenek için önem düzeyini seçmeniz gerekir.  
-15. Listede satır 2'yi seçin.
-16. İsteğe bağlı onay kutusuna tıklayın.
-17. Önem alanında bir seçenek seçin.
-18. Listede satır 3'ü seçin.
-19. İsteğe bağlı onay kutusuna tıklayın.
-20. Önem alanında bir seçenek seçin.
-21. Listede satır 4'ü seçin.
-22. İsteğe bağlı onay kutusuna tıklayın.
-23. Önem alanında bir seçenek seçin.
-24. Yetenek eşlemeye dahil edilecek eğitim yetkinliklerini görüntülemek veya düzenlemek için Eğitim hızlı sekmesini genişletin.
-25. Yürüt'e tıklayın.
-26. Tamam'a tıklayın.
-27. Sonuçlar'a tıklayın.
-28. Rapor'a tıklayın.
-    * Rapor, en iyi eşleşmeleri raporun üst kısmında listeler.  Listede bir boşluk öğesi olduğunu görebilirsiniz.  Bu, beceri eşlemede listelenen düzey ile kişiye atanan beceri düzeyi arasındaki farktır.  
+1. <span data-ttu-id="3655f-107">İnsan Kaynakları > Yetkinlikler > Yetenek analizi > Yetenek eşleme profilleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="3655f-107">Go to Human resources > Competencies > Skill analysis > Skill mapping profiles.</span></span>
+2. <span data-ttu-id="3655f-108">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3655f-108">Click New.</span></span>
+3. <span data-ttu-id="3655f-109">Yetenek eşleme alanında, yetenek eşlemeniz için bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="3655f-109">In the Skill mapping field, In the Skill mapping field, enter a name for your skill mapping.</span></span>  <span data-ttu-id="3655f-110">Örnek: Çalışan.</span><span class="sxs-lookup"><span data-stu-id="3655f-110">Example: Employee.</span></span>
+4. <span data-ttu-id="3655f-111">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="3655f-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="3655f-112">Tarih alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="3655f-112">In the Date field, enter a date.</span></span>
+6. <span data-ttu-id="3655f-113">Profili al'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3655f-113">Click Retrieve profile.</span></span>
+7. <span data-ttu-id="3655f-114">Kişi'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3655f-114">Click Person.</span></span>
+8. <span data-ttu-id="3655f-115">Kişi alanına bir ad yazın veya açılan menüden seçin.</span><span class="sxs-lookup"><span data-stu-id="3655f-115">In the Person field, type in a name, or select the drop down.</span></span>  <span data-ttu-id="3655f-116">Örnek: Cassie Hicks.</span><span class="sxs-lookup"><span data-stu-id="3655f-116">Example: Cassie Hicks.</span></span>
+9. <span data-ttu-id="3655f-117">Tamam'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="3655f-117">Click OK.</span></span>
+10. <span data-ttu-id="3655f-118">Yetenek eşlemeye dahil edilen sertifikaları görüntülemek veya düzenlemek için sertifikalar hızlı sekmesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="3655f-118">Exapnd the certificates fast tab to view or edit the certificates included in the skill mapping.</span></span>
+11. <span data-ttu-id="3655f-119">Dahil edilecek yetenekleri görmek veya düzenlemek için Yetenekler hızlı sekmesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="3655f-119">Expand the Skills fast tab to view or edit the skills to be included.</span></span>
+12. <span data-ttu-id="3655f-120">Listede ilk satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="3655f-120">In the list, mark the first row.</span></span>  <span data-ttu-id="3655f-121">Örnek: Muhasebe</span><span class="sxs-lookup"><span data-stu-id="3655f-121">Example:  Accounting</span></span>
+13. <span data-ttu-id="3655f-122">İsteğe bağlı onay kutusuna tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3655f-122">Click the Optional checkbox.</span></span>
+14. <span data-ttu-id="3655f-123">Önem alanında bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="3655f-123">In the Importance field, select an option.</span></span>
+    * <span data-ttu-id="3655f-124">Bir yeteneği isteğe bağlı olarak işaretlediğinizde, yetenek için önem düzeyini seçmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="3655f-124">When you mark a skill as optional, you are required to select the importance level of the skill.</span></span>  
+15. <span data-ttu-id="3655f-125">Listede satır 2'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="3655f-125">In the list, select row 2.</span></span>
+16. <span data-ttu-id="3655f-126">İsteğe bağlı onay kutusuna tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3655f-126">Click the Optional checkbox.</span></span>
+17. <span data-ttu-id="3655f-127">Önem alanında bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="3655f-127">In the Importance field, select an option.</span></span>
+18. <span data-ttu-id="3655f-128">Listede satır 3'ü seçin.</span><span class="sxs-lookup"><span data-stu-id="3655f-128">In the list, select row 3.</span></span>
+19. <span data-ttu-id="3655f-129">İsteğe bağlı onay kutusuna tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3655f-129">Click the Optional checkbox.</span></span>
+20. <span data-ttu-id="3655f-130">Önem alanında bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="3655f-130">In the Importance field, select an option.</span></span>
+21. <span data-ttu-id="3655f-131">Listede satır 4'ü seçin.</span><span class="sxs-lookup"><span data-stu-id="3655f-131">In the list, select row 4.</span></span>
+22. <span data-ttu-id="3655f-132">İsteğe bağlı onay kutusuna tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3655f-132">Click the Optional checkbox.</span></span>
+23. <span data-ttu-id="3655f-133">Önem alanında bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="3655f-133">In the Importance field, select an option.</span></span>
+24. <span data-ttu-id="3655f-134">Yetenek eşlemeye dahil edilecek eğitim yetkinliklerini görüntülemek veya düzenlemek için Eğitim hızlı sekmesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="3655f-134">Expand the Education fast tab to view or edit the education competencies to be included in the skill mapping.</span></span>
+25. <span data-ttu-id="3655f-135">Yürüt'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3655f-135">Click Execute.</span></span>
+26. <span data-ttu-id="3655f-136">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3655f-136">Click OK.</span></span>
+27. <span data-ttu-id="3655f-137">Sonuçlar'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3655f-137">Click Result.</span></span>
+28. <span data-ttu-id="3655f-138">Rapor'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3655f-138">Click Report.</span></span>
+    * <span data-ttu-id="3655f-139">Rapor, en iyi eşleşmeleri raporun üst kısmında listeler.</span><span class="sxs-lookup"><span data-stu-id="3655f-139">The report will list the best matches at the top of the report.</span></span>  <span data-ttu-id="3655f-140">Listede bir boşluk öğesi olduğunu görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3655f-140">You can see that there is a gap element listed.</span></span>  <span data-ttu-id="3655f-141">Bu, beceri eşlemede listelenen düzey ile kişiye atanan beceri düzeyi arasındaki farktır.</span><span class="sxs-lookup"><span data-stu-id="3655f-141">This is the difference between the level that was listed on the skill mapping, and the level of the skill that is assigned to the person.</span></span>  
 
 

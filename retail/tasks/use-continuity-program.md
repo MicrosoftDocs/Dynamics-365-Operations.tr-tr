@@ -17,48 +17,48 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: bd584bbb49ea83c4debf11ad0169c346ef0f9637
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5d3b5690bfbd10b77e784d35d0c4f4518de58333
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="use-a-continuity-program"></a> Süreklilik programı kullanma
+# <a name="use-a-continuity-program"></a><span data-ttu-id="f0423-103"> Süreklilik programı kullanma</span><span class="sxs-lookup"><span data-stu-id="f0423-103">Use a continuity program</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Bu yordam, süreklilik programının satılmasını ve ilgili satış siparişlerinin işlenmesini gösterir. Bu yordamı tamamlamak için kullanıcının bir çağrı merkezi kullanıcısı olarak ayarlanması gerekir. Bu yordam, USRT demo veri şirketini kullanır.
+<span data-ttu-id="f0423-104">Bu yordam, süreklilik programının satılmasını ve ilgili satış siparişlerinin işlenmesini gösterir.</span><span class="sxs-lookup"><span data-stu-id="f0423-104">This procedure walks through selling a continuity program and processing related sales orders.</span></span> <span data-ttu-id="f0423-105">Bu yordamı tamamlamak için kullanıcının bir çağrı merkezi kullanıcısı olarak ayarlanması gerekir.</span><span class="sxs-lookup"><span data-stu-id="f0423-105">To complete this procedure, the user has to be set up as a call center user.</span></span> <span data-ttu-id="f0423-106">Bu yordam, USRT demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="f0423-106">This procedure uses the USRT demo data company.</span></span>
 
-1. Perakende ve ticaret > Müşterileri > Müşteri hizmetlerine gidin.
-2. SearchText alanına 'Karen' yazın ve ardından Sekme tuşuna basın.
-    * Gelişmiş arama iletişim kutusu açılmalıdır. Açılmazsa bu alanının sağındaki Ara'ya tıklayın.  
-3. Listede, seçili satırı işaretleyin.
-    * Karen Berg'i gösteren yalnızca bir satır bulunmalıdır. Tablonun en solunda yer alan onay işareti sütununa tıklayarak satırı seçin.  
-4. Seç'e tıklayın.
-5. Yeni satış siparişine tıklayın.
-    * Satış siparişi numarasını not etmek iyi bir fikirdir. Bu yordamda daha sonra gerekir.  
-6. Madde numarası alanına "88000" yazın ve ardından Sekme tuşuna basın.
-    * Bu, USRT demo verilerinde bir süreklilik öğesidir.  
-7. Tamamla öğesine tıklayın.
-8. Ödeme yöntemi alanına "Visa" yazın.
-9. Kredi kartı ekle'ye tıklayın.
-    * Gerekli kredi kartı bilgilerini bu sayfada girin.  
-10. Tamam'a tıklayın.
-11. Ödeme bölümünü genişletin.
-    * Çağrı merkezi siparişi göndermek için sipariş için ödemelerin girilmesi gerekir.  
-12. Tamam'a tıklayın.
-13. Gönder'i tıklatın.
-    * Yeni bir süreklilik siparişi oluşturmaya hazırsınız. Ardından, süreklilik siparişlerini işlemek için kullanılan iki toplu işlemi çalıştırın.  
-14. Sayfayı kapatın.
-15. Perakende ve ticaret > Süreklilik > Süreklilik ödemelerini işle'ye gidin.
-16. Süreklilik maddesi alanına "88000" yazın ve ardından Sekme tuşuna basın.
-17. Tamam'a tıklayın.
-18. Perakende ve ticaret > Süreklilik > Süreklilik alt siparişleri oluştur'a gidin.
-    * Bu işlem, süreklilik programlarınızın ayarlarına dayanarak yeni satış siparişleri oluşturur.  
-19. Süreklilik maddesi alanına "88000" yazın ve ardından Sekme tuşuna basın.
-    * Madde "88000", USRT demo verilerinde bir süreklilik öğesidir.  
-20. Satış siparişi alanına bir değer girin veya seçin.
-    * Bu yordamda daha önce not ettiğiniz satış siparişi numarasını girin. Bu, bu yordam için işlem süresini minimumda tutar. Satış siparişi alanı isteğe bağlıdır: Tek bir programda tüm siparişleri işleyebilirsiniz.  
-21. Tamam'a tıklayın.
+1. <span data-ttu-id="f0423-107">Perakende ve ticaret > Müşterileri > Müşteri hizmetlerine gidin.</span><span class="sxs-lookup"><span data-stu-id="f0423-107">Go to Retail and commerce > Customers > Customer service.</span></span>
+2. <span data-ttu-id="f0423-108">SearchText alanına 'Karen' yazın ve ardından Sekme tuşuna basın.</span><span class="sxs-lookup"><span data-stu-id="f0423-108">In the SearchText field, type 'Karen' and then press the Tab key.</span></span>
+    * <span data-ttu-id="f0423-109">Gelişmiş arama iletişim kutusu açılmalıdır.</span><span class="sxs-lookup"><span data-stu-id="f0423-109">The advanced search dialog should pop up.</span></span> <span data-ttu-id="f0423-110">Açılmazsa bu alanının sağındaki Ara'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f0423-110">If it doesn't, click Search to the right of this field.</span></span>  
+3. <span data-ttu-id="f0423-111">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="f0423-111">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="f0423-112">Karen Berg'i gösteren yalnızca bir satır bulunmalıdır.</span><span class="sxs-lookup"><span data-stu-id="f0423-112">There should be only one row with Karen Berg showing.</span></span> <span data-ttu-id="f0423-113">Tablonun en solunda yer alan onay işareti sütununa tıklayarak satırı seçin.</span><span class="sxs-lookup"><span data-stu-id="f0423-113">Select the row by clicking on the checkmark column on the far left of the grid.</span></span>  
+4. <span data-ttu-id="f0423-114">Seç'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f0423-114">Click Select.</span></span>
+5. <span data-ttu-id="f0423-115">Yeni satış siparişine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f0423-115">Click New sales order.</span></span>
+    * <span data-ttu-id="f0423-116">Satış siparişi numarasını not etmek iyi bir fikirdir.</span><span class="sxs-lookup"><span data-stu-id="f0423-116">It's a good idea to note the sales order number.</span></span> <span data-ttu-id="f0423-117">Bu yordamda daha sonra gerekir.</span><span class="sxs-lookup"><span data-stu-id="f0423-117">You'll need it later in this procedure.</span></span>  
+6. <span data-ttu-id="f0423-118">Madde numarası alanına "88000" yazın ve ardından Sekme tuşuna basın.</span><span class="sxs-lookup"><span data-stu-id="f0423-118">In the Item number field, type '88000' and then press the Tab key.</span></span>
+    * <span data-ttu-id="f0423-119">Bu, USRT demo verilerinde bir süreklilik öğesidir.</span><span class="sxs-lookup"><span data-stu-id="f0423-119">This is a continuity item in the USRT demo data.</span></span>  
+7. <span data-ttu-id="f0423-120">Tamamla öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f0423-120">Click Complete.</span></span>
+8. <span data-ttu-id="f0423-121">Ödeme yöntemi alanına "Visa" yazın.</span><span class="sxs-lookup"><span data-stu-id="f0423-121">In the Payment method field, enter 'Visa'.</span></span>
+9. <span data-ttu-id="f0423-122">Kredi kartı ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f0423-122">Click Add credit card.</span></span>
+    * <span data-ttu-id="f0423-123">Gerekli kredi kartı bilgilerini bu sayfada girin.</span><span class="sxs-lookup"><span data-stu-id="f0423-123">Enter the required credit card information on this page.</span></span>  
+10. <span data-ttu-id="f0423-124">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f0423-124">Click OK.</span></span>
+11. <span data-ttu-id="f0423-125">Ödeme bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="f0423-125">Expand the Payment section.</span></span>
+    * <span data-ttu-id="f0423-126">Çağrı merkezi siparişi göndermek için sipariş için ödemelerin girilmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="f0423-126">To submit a call center order, payments have to be entered for the order.</span></span>  
+12. <span data-ttu-id="f0423-127">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f0423-127">Click OK.</span></span>
+13. <span data-ttu-id="f0423-128">Gönder'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f0423-128">Click Submit.</span></span>
+    * <span data-ttu-id="f0423-129">Yeni bir süreklilik siparişi oluşturmaya hazırsınız.</span><span class="sxs-lookup"><span data-stu-id="f0423-129">You're done creating a new continuity order.</span></span> <span data-ttu-id="f0423-130">Ardından, süreklilik siparişlerini işlemek için kullanılan iki toplu işlemi çalıştırın.</span><span class="sxs-lookup"><span data-stu-id="f0423-130">Next, you'll run two batch processes that are used to process the continuity orders.</span></span>  
+14. <span data-ttu-id="f0423-131">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="f0423-131">Close the page.</span></span>
+15. <span data-ttu-id="f0423-132">Perakende ve ticaret > Süreklilik > Süreklilik ödemelerini işle'ye gidin.</span><span class="sxs-lookup"><span data-stu-id="f0423-132">Go to Retail and commerce > Continuity > Process continuity payments.</span></span>
+16. <span data-ttu-id="f0423-133">Süreklilik maddesi alanına "88000" yazın ve ardından Sekme tuşuna basın.</span><span class="sxs-lookup"><span data-stu-id="f0423-133">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
+17. <span data-ttu-id="f0423-134">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f0423-134">Click OK.</span></span>
+18. <span data-ttu-id="f0423-135">Perakende ve ticaret > Süreklilik > Süreklilik alt siparişleri oluştur'a gidin.</span><span class="sxs-lookup"><span data-stu-id="f0423-135">Go to Retail and commerce > Continuity > Create continuity child orders.</span></span>
+    * <span data-ttu-id="f0423-136">Bu işlem, süreklilik programlarınızın ayarlarına dayanarak yeni satış siparişleri oluşturur.</span><span class="sxs-lookup"><span data-stu-id="f0423-136">This process will create new sales orders based on the settings of your continuity programs.</span></span>  
+19. <span data-ttu-id="f0423-137">Süreklilik maddesi alanına "88000" yazın ve ardından Sekme tuşuna basın.</span><span class="sxs-lookup"><span data-stu-id="f0423-137">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
+    * <span data-ttu-id="f0423-138">Madde "88000", USRT demo verilerinde bir süreklilik öğesidir.</span><span class="sxs-lookup"><span data-stu-id="f0423-138">Item '88000' is a continuity item in the USRT demo data.</span></span>  
+20. <span data-ttu-id="f0423-139">Satış siparişi alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="f0423-139">In the Sales order field, enter or select a value.</span></span>
+    * <span data-ttu-id="f0423-140">Bu yordamda daha önce not ettiğiniz satış siparişi numarasını girin.</span><span class="sxs-lookup"><span data-stu-id="f0423-140">Enter the sales order number that you noted earlier in the procedure.</span></span> <span data-ttu-id="f0423-141">Bu, bu yordam için işlem süresini minimumda tutar.</span><span class="sxs-lookup"><span data-stu-id="f0423-141">This will keep the processing time to a minimal for this procedure.</span></span> <span data-ttu-id="f0423-142">Satış siparişi alanı isteğe bağlıdır: Tek bir programda tüm siparişleri işleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f0423-142">The Sales order field field is optional--you could process all orders for any one program.</span></span>  
+21. <span data-ttu-id="f0423-143">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f0423-143">Click OK.</span></span>
 
 

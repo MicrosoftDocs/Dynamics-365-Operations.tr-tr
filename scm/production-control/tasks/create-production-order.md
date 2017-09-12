@@ -23,51 +23,51 @@ ms.contentlocale: tr-tr
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="create-a-production-order"></a>Üretim emri oluşturma
+# <a name="create-a-production-order"></a><span data-ttu-id="de9cf-103">Üretim emri oluşturma</span><span class="sxs-lookup"><span data-stu-id="de9cf-103">Create a production order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu prosedür, bir üretim emrinin nasıl oluşturulacağını gösterir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu, üretim emri ömrünü açıklayan yedi yordamın birincisidir.
+<span data-ttu-id="de9cf-104">Bu prosedür, bir üretim emrinin nasıl oluşturulacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="de9cf-104">This procedure shows how to create a production order.</span></span> <span data-ttu-id="de9cf-105">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="de9cf-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="de9cf-106">Bu, üretim emri ömrünü açıklayan yedi yordamın birincisidir.</span><span class="sxs-lookup"><span data-stu-id="de9cf-106">This is the first procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="create-a-production-order"></a>Üretim emri oluşturma
-1. Üretim denetimi > Üretim emirleri > Tüm üretim emirleri'ne gidin.
-2. Yeni üretim emri'ne tıklayın.
-3. Madde numarası alanına 'D0001' girin.
-4. Teslimat alanına bir tarih girin.
-    * Teslim tarihi, zamanında teslimat yapılabilmesi için bir üretim emrinin ne zaman bitmesi gerektiğini belirtir. Bu tarih planlama işleminde kullanılabilir. Örneğin, emri teslim tarihinden geriye doğru planlayabilirsiniz.  
-5. Miktarı '20' olarak ayarlayın.
-    * Not: Ürün reçetesi numarası alanı, geçerli madde için etkin olan herhangi bir ürün reçetesi numarasını gösterir ancak onaylanan ürün reçetesi sürümlerinin listesinden etkin bir ürün reçetesi seçerek üretim emri için ürün reçetesini değiştirebilirsiniz.    Not: Rota numarası alanı, geçerli madde için etkin olan herhangi bir Rota numarasını gösterir ancak onaylanan Rota sürümlerinin listesinden etkin bir Rota seçerek üretim emri için Rotayı değiştirebilirsiniz.  
-6. Oluştur'a tıklayın.
+## <a name="create-a-production-order"></a><span data-ttu-id="de9cf-107">Üretim emri oluşturma</span><span class="sxs-lookup"><span data-stu-id="de9cf-107">Create a production order</span></span>
+1. <span data-ttu-id="de9cf-108">Üretim denetimi > Üretim emirleri > Tüm üretim emirleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="de9cf-108">Go to Production control > Production orders > All production orders.</span></span>
+2. <span data-ttu-id="de9cf-109">Yeni üretim emri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-109">Click New production order.</span></span>
+3. <span data-ttu-id="de9cf-110">Madde numarası alanına 'D0001' girin.</span><span class="sxs-lookup"><span data-stu-id="de9cf-110">In the Item number field, type 'D0001'.</span></span>
+4. <span data-ttu-id="de9cf-111">Teslimat alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="de9cf-111">In the Delivery field, enter a date.</span></span>
+    * <span data-ttu-id="de9cf-112">Teslim tarihi, zamanında teslimat yapılabilmesi için bir üretim emrinin ne zaman bitmesi gerektiğini belirtir.</span><span class="sxs-lookup"><span data-stu-id="de9cf-112">The delivery date indicates when the production order should end in order to deliver on time.</span></span> <span data-ttu-id="de9cf-113">Bu tarih planlama işleminde kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="de9cf-113">This date can be used in the scheduling process.</span></span> <span data-ttu-id="de9cf-114">Örneğin, emri teslim tarihinden geriye doğru planlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="de9cf-114">For example, you can schedule the order backward from the delivery date.</span></span>  
+5. <span data-ttu-id="de9cf-115">Miktarı '20' olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-115">Set Quantity to '20'.</span></span>
+    * <span data-ttu-id="de9cf-116">Not: Ürün reçetesi numarası alanı, geçerli madde için etkin olan herhangi bir ürün reçetesi numarasını gösterir ancak onaylanan ürün reçetesi sürümlerinin listesinden etkin bir ürün reçetesi seçerek üretim emri için ürün reçetesini değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="de9cf-116">Note: The BOM number field automatically displays the number of any active BOM for the current item, but you can change the BOM for the production order by selecting an active BOM from the list of approved BOM versions.</span></span>    <span data-ttu-id="de9cf-117">Not: Rota numarası alanı, geçerli madde için etkin olan herhangi bir Rota numarasını gösterir ancak onaylanan Rota sürümlerinin listesinden etkin bir Rota seçerek üretim emri için Rotayı değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="de9cf-117">The Route number field automatically displays the number of any active Route for the current item, but you can change the Route for the production order by selecting an active Route from the list of approved Route versions.</span></span>  
+6. <span data-ttu-id="de9cf-118">Oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-118">Click Create.</span></span>
 
-## <a name="validate-the-production-order"></a>Üretim emrini doğrulama
-1. Listede, seçili satırdaki bağlantıya tıklayın.
-    * Yeni oluşturduğunuz üretim emri numarası bağlantısına tıklayın. Bu, siparişle ilgili ayrıntılar sayfasını açar.  
-2. Düzenle öğesine tıklayın.
-3. Teslimat alanına bir tarih girin.
-    * Örneğin, üretim emrinin teslim tarihini değiştirebilirsiniz.  
-4. Kaydet'e tıklayın.
-5. Sayfayı kapatın.
+## <a name="validate-the-production-order"></a><span data-ttu-id="de9cf-119">Üretim emrini doğrulama</span><span class="sxs-lookup"><span data-stu-id="de9cf-119">Validate the production order</span></span>
+1. <span data-ttu-id="de9cf-120">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-120">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="de9cf-121">Yeni oluşturduğunuz üretim emri numarası bağlantısına tıklayın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-121">Click the link for the production order number that you have just created.</span></span> <span data-ttu-id="de9cf-122">Bu, siparişle ilgili ayrıntılar sayfasını açar.</span><span class="sxs-lookup"><span data-stu-id="de9cf-122">This will open the details page for the order.</span></span>  
+2. <span data-ttu-id="de9cf-123">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-123">Click Edit.</span></span>
+3. <span data-ttu-id="de9cf-124">Teslimat alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="de9cf-124">In the Delivery field, enter a date.</span></span>
+    * <span data-ttu-id="de9cf-125">Örneğin, üretim emrinin teslim tarihini değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="de9cf-125">For example, you can change the delivery date for the production order.</span></span>  
+4. <span data-ttu-id="de9cf-126">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-126">Click Save.</span></span>
+5. <span data-ttu-id="de9cf-127">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-127">Close the page.</span></span>
 
-## <a name="update-the-bom"></a>Ürün reçetesini güncelleştirme
-1. Eylem Bölmesinde, Üretim emri öğesine tıklayın.
-2. Ürün reçetesine tıklayın.
-    * Üretim emri oluşturulurken varsayılan verilerden kopyalanan ürün reçetesi verilerini doğrulamak için ürün reçetesi sayfasını açın. Bu yordamda, bir ürün reçetesi için miktarı güncelleştirmeniz gerekir.  
-3. Düzenle öğesine tıklayın.
-4. Miktar alanına bir sayı girin.
-    * Ürün reçetesi satırındaki miktarı değiştirmek, üretim emrine ilişkin malzeme tüketiminin maliyet tahminini etkiler.  
-5. Kaydet'e tıklayın.
-6. Sayfayı kapatın.
+## <a name="update-the-bom"></a><span data-ttu-id="de9cf-128">Ürün reçetesini güncelleştirme</span><span class="sxs-lookup"><span data-stu-id="de9cf-128">Update the BOM</span></span>
+1. <span data-ttu-id="de9cf-129">Eylem Bölmesinde, Üretim emri öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-129">On the Action Pane, click Production order.</span></span>
+2. <span data-ttu-id="de9cf-130">Ürün reçetesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-130">Click BOM.</span></span>
+    * <span data-ttu-id="de9cf-131">Üretim emri oluşturulurken varsayılan verilerden kopyalanan ürün reçetesi verilerini doğrulamak için ürün reçetesi sayfasını açın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-131">Open the BOM page to validate the BOM data that was copied from the default data when the production order was created.</span></span> <span data-ttu-id="de9cf-132">Bu yordamda, bir ürün reçetesi için miktarı güncelleştirmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="de9cf-132">In this procedure, you need to update the quantity for a BOM.</span></span>  
+3. <span data-ttu-id="de9cf-133">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-133">Click Edit.</span></span>
+4. <span data-ttu-id="de9cf-134">Miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="de9cf-134">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="de9cf-135">Ürün reçetesi satırındaki miktarı değiştirmek, üretim emrine ilişkin malzeme tüketiminin maliyet tahminini etkiler.</span><span class="sxs-lookup"><span data-stu-id="de9cf-135">Changing the quantity on the BOM line affects the cost estimate of material consumption for the production order.</span></span>  
+5. <span data-ttu-id="de9cf-136">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-136">Click Save.</span></span>
+6. <span data-ttu-id="de9cf-137">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-137">Close the page.</span></span>
 
-## <a name="update-the-production-route"></a>Üretim rotasını güncelleştirme
-1. Eylem Bölmesinde, Üretim emri öğesine tıklayın.
-2. Rota'ya tıklayın.
-    * Üretim emri oluşturulurken varsayılan verilerden kopyalanan ürün rotası verilerini doğrulamak için Rota sayfasını açın. Bu yordamda, bir üretim rotasındaki operasyonlardan biri için miktarı güncelleştirmeniz gerekir.  
-3. Listede, istenen kaydı bulun ve seçin.
-4. Düzenle öğesine tıklayın.
-5. İşlem miktarında. bir sayı girin.
-    * İşlem süresini değiştirmek tahmini rota tüketimini ve üretim emri maliyetini etkiler.  
-6. Kaydet'e tıklayın.
-7. Sayfayı kapatın.
+## <a name="update-the-production-route"></a><span data-ttu-id="de9cf-138">Üretim rotasını güncelleştirme</span><span class="sxs-lookup"><span data-stu-id="de9cf-138">Update the production route</span></span>
+1. <span data-ttu-id="de9cf-139">Eylem Bölmesinde, Üretim emri öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-139">On the Action Pane, click Production order.</span></span>
+2. <span data-ttu-id="de9cf-140">Rota'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-140">Click Route.</span></span>
+    * <span data-ttu-id="de9cf-141">Üretim emri oluşturulurken varsayılan verilerden kopyalanan ürün rotası verilerini doğrulamak için Rota sayfasını açın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-141">Open the Route page to validate the data of the production route that was copied from the default data when the order was created.</span></span> <span data-ttu-id="de9cf-142">Bu yordamda, bir üretim rotasındaki operasyonlardan biri için miktarı güncelleştirmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="de9cf-142">In this procedure, you need to update the quantity for one of the operations in the production route.</span></span>  
+3. <span data-ttu-id="de9cf-143">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="de9cf-143">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="de9cf-144">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-144">Click Edit.</span></span>
+5. <span data-ttu-id="de9cf-145">İşlem miktarında.</span><span class="sxs-lookup"><span data-stu-id="de9cf-145">In the Process qty.</span></span> <span data-ttu-id="de9cf-146">bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="de9cf-146">field, enter a number.</span></span>
+    * <span data-ttu-id="de9cf-147">İşlem süresini değiştirmek tahmini rota tüketimini ve üretim emri maliyetini etkiler.</span><span class="sxs-lookup"><span data-stu-id="de9cf-147">Changing the process time affects the estimated route consumption and the cost of the production order.</span></span>  
+6. <span data-ttu-id="de9cf-148">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-148">Click Save.</span></span>
+7. <span data-ttu-id="de9cf-149">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="de9cf-149">Close the page.</span></span>
 
 

@@ -16,54 +16,54 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 82319d8d9c7b567f98dfd0e591cb99079fb577b7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 491d8292b7c951be930d2858362c8107caaa76ff
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-and-assign-a-cost-allocation-policy-to-a-cost-control-unit"></a>Maliyet tahsisatı ilkesi oluşturma ve bir maliyet kontrol birimine atama
+# <a name="create-and-assign-a-cost-allocation-policy-to-a-cost-control-unit"></a><span data-ttu-id="1ea15-103">Maliyet tahsisatı ilkesi oluşturma ve bir maliyet kontrol birimine atama</span><span class="sxs-lookup"><span data-stu-id="1ea15-103">Create and assign a cost allocation policy to a cost control unit</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordamı bir maliyet tahsisat ilkesini ve karşılık gelen kuralları oluşturmak ve bir maliyet kontrol birimine atamak için kullanın. Bu kayıt USP2 demo veri şirketini kullanır.
+<span data-ttu-id="1ea15-104">Bu yordamı bir maliyet tahsisat ilkesini ve karşılık gelen kuralları oluşturmak ve bir maliyet kontrol birimine atamak için kullanın.</span><span class="sxs-lookup"><span data-stu-id="1ea15-104">Use this procedure to create and assign a cost allocation policy and the corresponding rules to a cost control unit.</span></span> <span data-ttu-id="1ea15-105">Bu kayıt USP2 demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="1ea15-105">This recording uses the USP2 demo data company.</span></span>
 
 
-## <a name="create-a-policy"></a>Bir ilke oluşturun
-1. Maliyet muhasebesi > İlkeler > Maliyet tahsisat ilkeleri'ne gidin.
-2. Yeni'ye tıklayın.
-3. İlke adı alanına bir değer girin.
-4. Maliyet nesnesi boyut hiyerarşisi alanına bir değer girin veya bir değer seçin.
-    * Kuruluşu seçin.  
-5. İstatistiksel boyutu alanına bir değer girin veya bir değer seçin.
-6. Kaydet'e tıklayın.
+## <a name="create-a-policy"></a><span data-ttu-id="1ea15-106">Bir ilke oluşturun</span><span class="sxs-lookup"><span data-stu-id="1ea15-106">Create a policy</span></span>
+1. <span data-ttu-id="1ea15-107">Maliyet muhasebesi > İlkeler > Maliyet tahsisat ilkeleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-107">Go to Cost accounting > Policies > Cost allocation policies.</span></span>
+2. <span data-ttu-id="1ea15-108">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1ea15-108">Click New.</span></span>
+3. <span data-ttu-id="1ea15-109">İlke adı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-109">In the Policy name field, type a value.</span></span>
+4. <span data-ttu-id="1ea15-110">Maliyet nesnesi boyut hiyerarşisi alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-110">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="1ea15-111">Kuruluşu seçin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-111">Select Organization.</span></span>  
+5. <span data-ttu-id="1ea15-112">İstatistiksel boyutu alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-112">In the Statistical dimension field, enter or select a value.</span></span>
+6. <span data-ttu-id="1ea15-113">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1ea15-113">Click Save.</span></span>
 
-## <a name="create-allocation-rules"></a>Tahsisat kuralları oluşturun
-1. Yeni'ye tıklayın.
-2. Listede, seçili satırı işaretleyin.
-3. Maliyet nesnesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.
-4. Maliyet davranışı alanında, 'Toplam'ı seçin.
-5. Tahsisat tabanı alanına bir değer girin veya buradan bir değer seçin.
-6. Yeni'ye tıklayın.
-7. Listede, seçili satırı işaretleyin.
-8. Maliyet nesnesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.
-9. Maliyet davranışı alanında, 'Toplam'ı seçin.
-10. Tahsisat tabanı alanına bir değer girin veya buradan bir değer seçin.
-11. Yeni'ye tıklayın.
-12. Listede, seçili satırı işaretleyin.
-13. Maliyet nesnesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.
-14. Maliyet davranışı alanında, 'Toplam'ı seçin.
-15. Tahsisat tabanı alanına bir değer girin veya buradan bir değer seçin.
-    * Tüm kuralları oluşturana kadar devam edin.  
-16. Kaydet'e tıklayın.
+## <a name="create-allocation-rules"></a><span data-ttu-id="1ea15-114">Tahsisat kuralları oluşturun</span><span class="sxs-lookup"><span data-stu-id="1ea15-114">Create allocation rules</span></span>
+1. <span data-ttu-id="1ea15-115">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1ea15-115">Click New.</span></span>
+2. <span data-ttu-id="1ea15-116">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-116">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="1ea15-117">Maliyet nesnesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-117">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+4. <span data-ttu-id="1ea15-118">Maliyet davranışı alanında, 'Toplam'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-118">In the Cost behavior field, select 'Total'.</span></span>
+5. <span data-ttu-id="1ea15-119">Tahsisat tabanı alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-119">In the Allocation base field, enter or select a value.</span></span>
+6. <span data-ttu-id="1ea15-120">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1ea15-120">Click New.</span></span>
+7. <span data-ttu-id="1ea15-121">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-121">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="1ea15-122">Maliyet nesnesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-122">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+9. <span data-ttu-id="1ea15-123">Maliyet davranışı alanında, 'Toplam'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-123">In the Cost behavior field, select 'Total'.</span></span>
+10. <span data-ttu-id="1ea15-124">Tahsisat tabanı alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-124">In the Allocation base field, enter or select a value.</span></span>
+11. <span data-ttu-id="1ea15-125">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1ea15-125">Click New.</span></span>
+12. <span data-ttu-id="1ea15-126">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-126">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="1ea15-127">Maliyet nesnesi boyut hiyerarşi düğümü alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-127">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+14. <span data-ttu-id="1ea15-128">Maliyet davranışı alanında, 'Toplam'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-128">In the Cost behavior field, select 'Total'.</span></span>
+15. <span data-ttu-id="1ea15-129">Tahsisat tabanı alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-129">In the Allocation base field, enter or select a value.</span></span>
+    * <span data-ttu-id="1ea15-130">Tüm kuralları oluşturana kadar devam edin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-130">Continue until you've created all the rules.</span></span>  
+16. <span data-ttu-id="1ea15-131">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1ea15-131">Click Save.</span></span>
 
-## <a name="assign-the-policy-to-a-cost-control-unit"></a>İlkeyi bir maliyet kontrol birimine atayın
-1. Maliyet kontrol birimi için ilke atamaları'na tıklayın.
-2. Yeni'ye tıklayın.
-3. Listede, seçili satırı işaretleyin.
-4. Geçerlilik tarihi muhasebe veri alanına bir tarih girin.
-    * Kuralların geçerlilik tarihi vardır. Sistemdeki bir kullanıcı, yeni bir sürüm oluşturulmuşsa kuralların vadesini doldurabilir.  
-5. Maliyet kontrol birimi alanına bir değer girin veya bir değer seçin.
-6. Kaydet'e tıklayın.
+## <a name="assign-the-policy-to-a-cost-control-unit"></a><span data-ttu-id="1ea15-132">İlkeyi bir maliyet kontrol birimine atayın</span><span class="sxs-lookup"><span data-stu-id="1ea15-132">Assign the policy to a cost control unit</span></span>
+1. <span data-ttu-id="1ea15-133">Maliyet kontrol birimi için ilke atamaları'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1ea15-133">Click Policy assignments for cost control unit.</span></span>
+2. <span data-ttu-id="1ea15-134">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1ea15-134">Click New.</span></span>
+3. <span data-ttu-id="1ea15-135">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-135">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="1ea15-136">Geçerlilik tarihi muhasebe veri alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-136">In the Valid from accounting date field, enter a date.</span></span>
+    * <span data-ttu-id="1ea15-137">Kuralların geçerlilik tarihi vardır.</span><span class="sxs-lookup"><span data-stu-id="1ea15-137">The rules are date-effective.</span></span> <span data-ttu-id="1ea15-138">Sistemdeki bir kullanıcı, yeni bir sürüm oluşturulmuşsa kuralların vadesini doldurabilir.</span><span class="sxs-lookup"><span data-stu-id="1ea15-138">A user or the system can expire the rules if a newer version is created.</span></span>  
+5. <span data-ttu-id="1ea15-139">Maliyet kontrol birimi alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="1ea15-139">In the Cost control unit field, enter or select a value.</span></span>
+6. <span data-ttu-id="1ea15-140">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1ea15-140">Click Save.</span></span>
 
 

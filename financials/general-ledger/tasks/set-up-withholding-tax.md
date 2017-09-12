@@ -16,38 +16,38 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: fa540720cdf1689393093e52ee37fdd74ff6c8e1
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: dc4c0745235052cb4145bc7083fef1a88c8bb5c9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-withholding-tax"></a>Stopaj vergisini ayarlama
+# <a name="set-up-withholding-tax"></a><span data-ttu-id="b0505-103">Stopaj vergisini ayarlama</span><span class="sxs-lookup"><span data-stu-id="b0505-103">Set up withholding tax</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Stopaj vergisi, satış vergisi hareketleri oluşturmayan satıcılara uygulanan bir vergidir. Satıcı ödemelerinden hesaplanan stopaj vergisi bir borçtur. Dolayısıyla, stopajın nakledilebileceği hesaplar yalnızca bilanço hesapları veya pasif hesaplarıdır. Bu görev kılavuzunda, stopaj vergisinin nasıl ayarlanacağı gösterilmektedir.
+<span data-ttu-id="b0505-104">Stopaj vergisi, satış vergisi hareketleri oluşturmayan satıcılara uygulanan bir vergidir.</span><span class="sxs-lookup"><span data-stu-id="b0505-104">Withholding tax is a tax on vendors that does not create sales tax transactions.</span></span> <span data-ttu-id="b0505-105">Satıcı ödemelerinden hesaplanan stopaj vergisi bir borçtur.</span><span class="sxs-lookup"><span data-stu-id="b0505-105">Withholding tax that is calculated on vendor payments is a liability.</span></span> <span data-ttu-id="b0505-106">Dolayısıyla, stopajın nakledilebileceği hesaplar yalnızca bilanço hesapları veya pasif hesaplarıdır.</span><span class="sxs-lookup"><span data-stu-id="b0505-106">Therefore, only balance sheet accounts or liability accounts are valid accounts for posting withholding tax.</span></span> <span data-ttu-id="b0505-107">Bu görev kılavuzunda, stopaj vergisinin nasıl ayarlanacağı gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="b0505-107">This task guide demonstrates how to set up withholding tax.</span></span>
 
-1. Vergi > Dolaylı vergiler > Stopaj vergisi > Stopaj vergisi kodları'na gidin.
-2. Yeni'ye tıklayın.
-3. Stopaj vergisi kodu alanına bir değer girin.
-4. Stopaj vergisi adı alanına stopaj vergisi kodunun adı girin.
-5. Ana hesap alanında, stopaj vergisi borcunun nakletmek için ana hesabı seçin.
-6. Kaydet'e tıklayın.
-7. Değerler'e tıklayın.
-8. Listede, seçili satırı işaretleyin.
-9. Değer alanına, stopaj vergisini hesaplamada kullanılacak bir yüzde girin.
-10. Kaydet'e tıklayın.
-11. Sayfayı kapatın.
-12. Kaydet'e tıklayın.
-13. Sayfayı kapatın.
-14. Vergi > Dolaylı vergiler > Stopaj vergisi > Stopaj vergisi grupları'na gidin.
-15. Yeni'ye tıklayın.
-16. Stopaj vergisi grubu alanına stopaj vergisi grubunun tanımlayıcısını girin.
-17. Açıklama alanına stopaj vergisi grubunun adını girin.
-18. Listede, seçili satırı işaretleyin.
-19. Stopaj vergisi kodu alanında stopaj vergisi kodunu seçin.
-20. Listede, seçili satırdaki bağlantıya tıklayın.
-21. Kaydet'e tıklayın.
+1. <span data-ttu-id="b0505-108">Vergi > Dolaylı vergiler > Stopaj vergisi > Stopaj vergisi kodları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="b0505-108">Go to Tax > Indirect taxes > Withholding tax > Withholding tax codes.</span></span>
+2. <span data-ttu-id="b0505-109">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b0505-109">Click New.</span></span>
+3. <span data-ttu-id="b0505-110">Stopaj vergisi kodu alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="b0505-110">In the Withholding tax code field, type a value.</span></span>
+4. <span data-ttu-id="b0505-111">Stopaj vergisi adı alanına stopaj vergisi kodunun adı girin.</span><span class="sxs-lookup"><span data-stu-id="b0505-111">In the Withholding tax name field, enter the name of the withholding tax code.</span></span>
+5. <span data-ttu-id="b0505-112">Ana hesap alanında, stopaj vergisi borcunun nakletmek için ana hesabı seçin.</span><span class="sxs-lookup"><span data-stu-id="b0505-112">In the Main account field, select the main account for posting the withholding tax liability.</span></span>
+6. <span data-ttu-id="b0505-113">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b0505-113">Click Save.</span></span>
+7. <span data-ttu-id="b0505-114">Değerler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b0505-114">Click Values.</span></span>
+8. <span data-ttu-id="b0505-115">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="b0505-115">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="b0505-116">Değer alanına, stopaj vergisini hesaplamada kullanılacak bir yüzde girin.</span><span class="sxs-lookup"><span data-stu-id="b0505-116">In the Value field, enter a percentage used for the calculation of the withholding tax.</span></span>
+10. <span data-ttu-id="b0505-117">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b0505-117">Click Save.</span></span>
+11. <span data-ttu-id="b0505-118">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="b0505-118">Close the page.</span></span>
+12. <span data-ttu-id="b0505-119">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b0505-119">Click Save.</span></span>
+13. <span data-ttu-id="b0505-120">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="b0505-120">Close the page.</span></span>
+14. <span data-ttu-id="b0505-121">Vergi > Dolaylı vergiler > Stopaj vergisi > Stopaj vergisi grupları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="b0505-121">Go to Tax > Indirect taxes > Withholding tax > Withholding tax groups.</span></span>
+15. <span data-ttu-id="b0505-122">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b0505-122">Click New.</span></span>
+16. <span data-ttu-id="b0505-123">Stopaj vergisi grubu alanına stopaj vergisi grubunun tanımlayıcısını girin.</span><span class="sxs-lookup"><span data-stu-id="b0505-123">In the Withholding tax group field, enter the identifier of the withholding tax group.</span></span>
+17. <span data-ttu-id="b0505-124">Açıklama alanına stopaj vergisi grubunun adını girin.</span><span class="sxs-lookup"><span data-stu-id="b0505-124">In the Description field, enter the name of the withholding tax group.</span></span>
+18. <span data-ttu-id="b0505-125">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="b0505-125">In the list, mark the selected row.</span></span>
+19. <span data-ttu-id="b0505-126">Stopaj vergisi kodu alanında stopaj vergisi kodunu seçin.</span><span class="sxs-lookup"><span data-stu-id="b0505-126">In the Withholding tax code field, select the withholding tax code.</span></span>
+20. <span data-ttu-id="b0505-127">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b0505-127">In the list, click the link in the selected row.</span></span>
+21. <span data-ttu-id="b0505-128">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="b0505-128">Click Save.</span></span>
 
 

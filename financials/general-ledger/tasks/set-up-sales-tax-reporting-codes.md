@@ -16,29 +16,29 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: a40da4263e7e770ce84a269ceaf60a8ca3f5382a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e3863ef8d5d334c6d12e77e61d50043e5d053464
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-sales-tax-reporting-codes"></a>Satış vergisi raporlama kodlarını ayarla
+# <a name="set-up-sales-tax-reporting-codes"></a><span data-ttu-id="02d4d-103">Satış vergisi raporlama kodlarını ayarla</span><span class="sxs-lookup"><span data-stu-id="02d4d-103">Set up sales tax reporting codes</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Satış vergisi raporlama kodları, satış vergisi raporundaki bir alan numarasına karşılık gelir. Bunlar, raporlama kodu başına özeti çıkarılan kapatma döneminin satış vergisi tutarlarının yazdırılacağı kod raporu tarafından, ülkeye özel rapor düzenlerinde ve Satış vergisi ödemesinde kullanılır. Satış vergisi raporlama kodlarını oluşturduktan sonra, Satış vergisi kodu sayfasındaki Rapor kurulumu hızlı sekmelerinde bu kodlara gönderme yapabilirsiniz. 
+<span data-ttu-id="02d4d-104">Satış vergisi raporlama kodları, satış vergisi raporundaki bir alan numarasına karşılık gelir.</span><span class="sxs-lookup"><span data-stu-id="02d4d-104">The Sales tax reporting codes refer to a field number on a sales tax report.</span></span> <span data-ttu-id="02d4d-105">Bunlar, raporlama kodu başına özeti çıkarılan kapatma döneminin satış vergisi tutarlarının yazdırılacağı kod raporu tarafından, ülkeye özel rapor düzenlerinde ve Satış vergisi ödemesinde kullanılır.</span><span class="sxs-lookup"><span data-stu-id="02d4d-105">They are used on country specific report layouts and the Sales tax payment by code report to print sales tax amounts for a settlement period summarized per reporting code.</span></span> <span data-ttu-id="02d4d-106">Satış vergisi raporlama kodlarını oluşturduktan sonra, Satış vergisi kodu sayfasındaki Rapor kurulumu hızlı sekmelerinde bu kodlara gönderme yapabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="02d4d-106">After you create Sales tax reporting codes, you can refer to them on the Report setup FastTabs in the Sales tax code page.</span></span> 
 
-Bu kayıtta DEMF demo şirketi kullanılmaktadır.
+<span data-ttu-id="02d4d-107">Bu kayıtta DEMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="02d4d-107">This recording uses the DEMF demo company.</span></span>
 
 
 
-1. Vergi > Kurulum > Satış vergisi > Satış vergisi raporlama kodları'na gidin.
-2. Yeni'ye tıklayın.
-3. Raporlama kodunun ait olduğu rapor düzenini seçin.
-    * Bu düzen, bir Satış vergisi kodu için kullanılabilecek raporlama kodlarını filtrelemede kullanılır. Her Satış vergisi kodu, bir Rapor düzeni kullanan, bir Satış vergisi dairesine ait bir kapatma dönemine aittir.  
-4. Satış vergisi raporundaki alanı belirten bir alan numarası girin.
-5. Rapor metni alanında, raporlarda görüntülenecek bir açıklama girin.
-6. Kısa açıklama alanında, dahili amaçlı bir açıklama girin.
-7. Kaydet'e tıklayın.
+1. <span data-ttu-id="02d4d-108">Vergi > Kurulum > Satış vergisi > Satış vergisi raporlama kodları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="02d4d-108">Go to Tax > Setup > Sales tax > Sales tax reporting codes.</span></span>
+2. <span data-ttu-id="02d4d-109">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="02d4d-109">Click New.</span></span>
+3. <span data-ttu-id="02d4d-110">Raporlama kodunun ait olduğu rapor düzenini seçin.</span><span class="sxs-lookup"><span data-stu-id="02d4d-110">Select the report layout that the reporting code belongs to.</span></span>
+    * <span data-ttu-id="02d4d-111">Bu düzen, bir Satış vergisi kodu için kullanılabilecek raporlama kodlarını filtrelemede kullanılır.</span><span class="sxs-lookup"><span data-stu-id="02d4d-111">This layout is used to filter the available reporting codes for a Sales tax code.</span></span> <span data-ttu-id="02d4d-112">Her Satış vergisi kodu, bir Rapor düzeni kullanan, bir Satış vergisi dairesine ait bir kapatma dönemine aittir.</span><span class="sxs-lookup"><span data-stu-id="02d4d-112">Each Sales tax code belongs to a settlement period which belongs to a Sales tax authority which uses a Report layout.</span></span>  
+4. <span data-ttu-id="02d4d-113">Satış vergisi raporundaki alanı belirten bir alan numarası girin.</span><span class="sxs-lookup"><span data-stu-id="02d4d-113">Enter a number that refers to a field on a sales tax report.</span></span>
+5. <span data-ttu-id="02d4d-114">Rapor metni alanında, raporlarda görüntülenecek bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="02d4d-114">In the Report text field, enter a description to display on reports.</span></span>
+6. <span data-ttu-id="02d4d-115">Kısa açıklama alanında, dahili amaçlı bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="02d4d-115">In the Brief description field, enter a description for internal purposes.</span></span>
+7. <span data-ttu-id="02d4d-116">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="02d4d-116">Click Save.</span></span>
 
 

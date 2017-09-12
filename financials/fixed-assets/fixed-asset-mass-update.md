@@ -18,28 +18,28 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a16bae8f13dd53b5bbe380f03f6ca399bd6dbd9a
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: c04997ccc29182f0f403af0e4ad5f039dbd4ae60
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="fixed-asset-mass-update"></a>Sabit kıymet toplu olarak güncelleştirme
+# <a name="fixed-asset-mass-update"></a><span data-ttu-id="011bb-103">Sabit kıymet toplu olarak güncelleştirme</span><span class="sxs-lookup"><span data-stu-id="011bb-103">Fixed asset mass update</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Defterleri kullanıyorsanız, aynı defterlerin parçası olan kıymet grupları için amortisman yöntemlerini değiştirebilirsiniz.
+<span data-ttu-id="011bb-104">Defterleri kullanıyorsanız, aynı defterlerin parçası olan kıymet grupları için amortisman yöntemlerini değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="011bb-104">If you use books, you can change the depreciation conventions for groups of assets that are part of the same book.</span></span>
 
-Örneğin, ABD'deyseniz ve kıymetlerinizin yüzde 40'ından fazlasını yılın dördüncü çeyreği sırasında hizmete soktuysanız, çeyrek ortası amortisman yöntemini kullanmanız gerekir. Yeni amortisman yöntemi gerektiren tüm kıymetleri değiştirmek için toplu güncelleştirme süresini kullanabilirsiniz. 
+<span data-ttu-id="011bb-105">Örneğin, ABD'deyseniz ve kıymetlerinizin yüzde 40'ından fazlasını yılın dördüncü çeyreği sırasında hizmete soktuysanız, çeyrek ortası amortisman yöntemini kullanmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="011bb-105">For example, if you are in the United States, and you put more than 40 percent of your assets in service during the fourth quarter of the year, you must use the mid-quarter depreciation convention.</span></span> <span data-ttu-id="011bb-106">Yeni amortisman yöntemi gerektiren tüm kıymetleri değiştirmek için toplu güncelleştirme süresini kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="011bb-106">You can use the process for a mass update to change all assets that require the new depreciation convention.</span></span> 
 
-Kıymetler için amortisman dönüştürmeyi güncelleştirdiğinizde, bu kıymetler için mevcut olan tüm amortisman hareketleri silersiniz. Ayrıca amortisman ayarları için tüm hareketleri, ek amortisman için hareketleri ve bu varlıklar için olağandışı amortisman hareketlerini de silersiniz. 
+<span data-ttu-id="011bb-107">Kıymetler için amortisman dönüştürmeyi güncelleştirdiğinizde, bu kıymetler için mevcut olan tüm amortisman hareketleri silersiniz.</span><span class="sxs-lookup"><span data-stu-id="011bb-107">When you update the depreciation convention for assets, you delete all depreciation transactions that exist for those assets.</span></span> <span data-ttu-id="011bb-108">Ayrıca amortisman ayarları için tüm hareketleri, ek amortisman için hareketleri ve bu varlıklar için olağandışı amortisman hareketlerini de silersiniz.</span><span class="sxs-lookup"><span data-stu-id="011bb-108">You also delete all transactions for depreciation adjustments, transactions for bonus depreciation, and transactions for extraordinary depreciation for those assets.</span></span> 
 
-Zaten elden çıkarılmış kıymetlerin amortisman yöntemini güncelleştirmek için, mevcut elde çıkarma hareketlerini silmeniz gerekir. Ayrıca, elden çıkarma süreci nedeniyle oluşturulan tüm hareketlerini de silmeniz gerekir. 
+<span data-ttu-id="011bb-109">Zaten elden çıkarılmış kıymetlerin amortisman yöntemini güncelleştirmek için, mevcut elde çıkarma hareketlerini silmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="011bb-109">To update the depreciation convention for assets that have already been disposed of, you must first delete the existing disposal transactions.</span></span> <span data-ttu-id="011bb-110">Ayrıca, elden çıkarma süreci nedeniyle oluşturulan tüm hareketlerini de silmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="011bb-110">You must also delete all transactions that were generated because of the disposal process.</span></span> 
 
-Kıymetler için amortisman dönüştürmeyi güncelleştirdiğinizde her kıymet için amortismanı ve olağandışı amortismanı işleyebilirsiniz. Ayrıca, gerekirse el ile amortisman düzeltmeleri de yapabilirsiniz.
+<span data-ttu-id="011bb-111">Kıymetler için amortisman dönüştürmeyi güncelleştirdiğinizde her kıymet için amortismanı ve olağandışı amortismanı işleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="011bb-111">After you update the depreciation convention for assets, you can process depreciation and extraordinary depreciation for each asset.</span></span> <span data-ttu-id="011bb-112">Ayrıca, gerekirse el ile amortisman düzeltmeleri de yapabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="011bb-112">You can also make manual depreciation adjustments, if any adjustments are required.</span></span>
 
 
 

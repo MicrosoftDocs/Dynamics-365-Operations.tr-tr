@@ -16,55 +16,55 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 58dc6176f54a33eda47604b65f5580c21a93fcd7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: dc837ea6513992a5f94e48baa366e279df297866
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="process-collection-letters"></a>Tahsilat mektuplarını işleme
+# <a name="process-collection-letters"></a><span data-ttu-id="a626d-103">Tahsilat mektuplarını işleme</span><span class="sxs-lookup"><span data-stu-id="a626d-103">Process collection letters</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, tahsilat mektuplarının nasıl oluşturulacağını, yazdırılacağını ve deftere nakledileceğini gösterir. Bu görevde USMF demo şirketi kullanılmaktadır.
+<span data-ttu-id="a626d-104">Bu yordam, tahsilat mektuplarının nasıl oluşturulacağını, yazdırılacağını ve deftere nakledileceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="a626d-104">This procedure shows how to create, print, and post collection letters.</span></span> <span data-ttu-id="a626d-105">Bu görevde USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="a626d-105">This task uses the USMF demo company.</span></span>
 
 
-## <a name="set-up-a-collection-letter-sequence-on-the-posting-profile"></a>Deftere nakil profilinde bir tahsilat mektubu sırası ayarlama
-1. Alacak ve tahsilatlar > Kurulum > Müşteri deftere nakil profilleri'ne gidin.
-2. Düzenle öğesine tıklayın.
-    * Açılan listeden bir tahsilat mektubu sırası seçin. Bu deftere nakil profilini kullanarak hareketler için tahsilat mektupları oluşturmak istemiyorsanız ilgili alanı boş bırakın.  
-    * Tablo kısıtlaması sekmesi, tahsilat mektuplarını işleme biçimini değiştirmenize olanak sağlar. Bu alan Evet olarak ayarlanırsa, bu deftere nakil profili için tahsilat mektupları oluşturulur.  
-3. Sayfayı kapatın.
+## <a name="set-up-a-collection-letter-sequence-on-the-posting-profile"></a><span data-ttu-id="a626d-106">Deftere nakil profilinde bir tahsilat mektubu sırası ayarlama</span><span class="sxs-lookup"><span data-stu-id="a626d-106">Set up a collection letter sequence on the posting profile</span></span>
+1. <span data-ttu-id="a626d-107">Alacak ve tahsilatlar > Kurulum > Müşteri deftere nakil profilleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="a626d-107">Go to Credit and collections > Setup > Customer posting profiles.</span></span>
+2. <span data-ttu-id="a626d-108">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a626d-108">Click Edit.</span></span>
+    * <span data-ttu-id="a626d-109">Açılan listeden bir tahsilat mektubu sırası seçin.</span><span class="sxs-lookup"><span data-stu-id="a626d-109">Select a collection letter sequence from the drop-down list.</span></span> <span data-ttu-id="a626d-110">Bu deftere nakil profilini kullanarak hareketler için tahsilat mektupları oluşturmak istemiyorsanız ilgili alanı boş bırakın.</span><span class="sxs-lookup"><span data-stu-id="a626d-110">If you do not want generate collection letters for transactions using this posting profile, leave the field blank.</span></span>  
+    * <span data-ttu-id="a626d-111">Tablo kısıtlaması sekmesi, tahsilat mektuplarını işleme biçimini değiştirmenize olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="a626d-111">The table restriction tab allows you to change the way that collection letters are processed.</span></span> <span data-ttu-id="a626d-112">Bu alan Evet olarak ayarlanırsa, bu deftere nakil profili için tahsilat mektupları oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="a626d-112">If this field is set to Yes, then collection letters will be created for this posting profile.</span></span>  
+3. <span data-ttu-id="a626d-113">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="a626d-113">Close the page.</span></span>
 
-## <a name="create-collection-letters"></a>Tahsilat mektupları oluştur
-1. Alacak ve Tahsilatlar > Tahsilat mektubu > Tahsilat mektupları oluştur'a gidin.
-    * Tahsilat mektuplarının hareket türlerini seçmeniz gerekir. Bu türlerdeki açık hareketlerin tümü hesaplamaya dahil edilir.  
-2. Tahsilat mektubu alanında bir seçenek belirleyin.
-3. Tahsilat mektubunun tarihini girin.
-    * İki deftere nakil profili seçeneği vardır:   Hesap – Her bir vade farkı dekontunun müşteri hesabına atanan deftere nakil profilini kullanın.   Seçim – Deftere nakil profili alanında seçtiğiniz deftere nakil profilini kullanın.  
-    * "Kullanılacak deftere nakil profili:" seçeneğini "Seç" olarak değiştirdiyseniz, bir deftere nakil profili seçin.  
-4. Eklenecek kayıtlar bölümünü genişletin.
-5. Filtre'ye tıklayın.
-6. Ölçüt alanında, bir Müşteri Kodu girin. Örneğin, TR-001 girin.
-7. Tamam'a tıklayın.
-8. Tamam'a tıklayın.
+## <a name="create-collection-letters"></a><span data-ttu-id="a626d-114">Tahsilat mektupları oluştur</span><span class="sxs-lookup"><span data-stu-id="a626d-114">Create collection letters</span></span>
+1. <span data-ttu-id="a626d-115">Alacak ve Tahsilatlar > Tahsilat mektubu > Tahsilat mektupları oluştur'a gidin.</span><span class="sxs-lookup"><span data-stu-id="a626d-115">Go to Credit and collections > Collection letter > Create collection letters.</span></span>
+    * <span data-ttu-id="a626d-116">Tahsilat mektuplarının hareket türlerini seçmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="a626d-116">You must select the transaction types for which you will collect letters.</span></span> <span data-ttu-id="a626d-117">Bu türlerdeki açık hareketlerin tümü hesaplamaya dahil edilir.</span><span class="sxs-lookup"><span data-stu-id="a626d-117">All of the open transactions for these types will be included in the calculation.</span></span>  
+2. <span data-ttu-id="a626d-118">Tahsilat mektubu alanında bir seçenek belirleyin.</span><span class="sxs-lookup"><span data-stu-id="a626d-118">In the Collection letter field, select an option.</span></span>
+3. <span data-ttu-id="a626d-119">Tahsilat mektubunun tarihini girin.</span><span class="sxs-lookup"><span data-stu-id="a626d-119">Enter the date of the collection letter.</span></span>
+    * <span data-ttu-id="a626d-120">İki deftere nakil profili seçeneği vardır:   Hesap – Her bir vade farkı dekontunun müşteri hesabına atanan deftere nakil profilini kullanın.</span><span class="sxs-lookup"><span data-stu-id="a626d-120">There are two posting profile options:   Account – Use the posting profile that is assigned to the customer account for each interest note.</span></span>   <span data-ttu-id="a626d-121">Seçim – Deftere nakil profili alanında seçtiğiniz deftere nakil profilini kullanın.</span><span class="sxs-lookup"><span data-stu-id="a626d-121">Select – Use the posting profile that you select in the Posting profile field.</span></span>  
+    * <span data-ttu-id="a626d-122">"Kullanılacak deftere nakil profili:" seçeneğini "Seç" olarak değiştirdiyseniz, bir deftere nakil profili seçin.</span><span class="sxs-lookup"><span data-stu-id="a626d-122">Select a posting profile if you changed "Use posting profile from" to "Select".</span></span>  
+4. <span data-ttu-id="a626d-123">Eklenecek kayıtlar bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="a626d-123">Expand the Records to include section.</span></span>
+5. <span data-ttu-id="a626d-124">Filtre'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a626d-124">Click Filter.</span></span>
+6. <span data-ttu-id="a626d-125">Ölçüt alanında, bir Müşteri Kodu girin.</span><span class="sxs-lookup"><span data-stu-id="a626d-125">In the Criteria field, In the Criteria field, enter a Customer ID.</span></span> <span data-ttu-id="a626d-126">Örneğin, TR-001 girin.</span><span class="sxs-lookup"><span data-stu-id="a626d-126">For example, enter 'US-001'..</span></span>
+7. <span data-ttu-id="a626d-127">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a626d-127">Click OK.</span></span>
+8. <span data-ttu-id="a626d-128">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a626d-128">Click OK.</span></span>
 
-## <a name="print-collection-letters"></a>Tahsilat mektuplarını yazdırma
-1. Alacak ve Tahsilatlar > Tahsilat mektubu > Tahsilat mektuplarını gözden geçir ve işle'ye gidin.
-2. Durum alanında, "Oluşturuldu"yu seçin.
-3. Yazdırıldı alanında, "Yazdırılmadı"yı seçin.
-4. Yazdır'ı tıklatın.
-5. Tahsilat mektubu dekontu'nu tıklatın.
-6. Eklenecek kayıtlar bölümünü genişletin.
-7. Deftere nakiller için bir fatura kesme tarihi girin.
-8. Tahsilat mektubunu yazdırmak için Tamam'ı tıklatın.
+## <a name="print-collection-letters"></a><span data-ttu-id="a626d-129">Tahsilat mektuplarını yazdırma</span><span class="sxs-lookup"><span data-stu-id="a626d-129">Print collection letters</span></span>
+1. <span data-ttu-id="a626d-130">Alacak ve Tahsilatlar > Tahsilat mektubu > Tahsilat mektuplarını gözden geçir ve işle'ye gidin.</span><span class="sxs-lookup"><span data-stu-id="a626d-130">Go to Credit and collections > Collection letter > Review and process collection letters.</span></span>
+2. <span data-ttu-id="a626d-131">Durum alanında, "Oluşturuldu"yu seçin.</span><span class="sxs-lookup"><span data-stu-id="a626d-131">In the Status field, select 'Created'.</span></span>
+3. <span data-ttu-id="a626d-132">Yazdırıldı alanında, "Yazdırılmadı"yı seçin.</span><span class="sxs-lookup"><span data-stu-id="a626d-132">In the Printed field, select 'Not printed'.</span></span>
+4. <span data-ttu-id="a626d-133">Yazdır'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="a626d-133">Click Print.</span></span>
+5. <span data-ttu-id="a626d-134">Tahsilat mektubu dekontu'nu tıklatın.</span><span class="sxs-lookup"><span data-stu-id="a626d-134">Click Collection letter note.</span></span>
+6. <span data-ttu-id="a626d-135">Eklenecek kayıtlar bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="a626d-135">Expand the Records to include section.</span></span>
+7. <span data-ttu-id="a626d-136">Deftere nakiller için bir fatura kesme tarihi girin.</span><span class="sxs-lookup"><span data-stu-id="a626d-136">Enter the cutoff date for postings</span></span>
+8. <span data-ttu-id="a626d-137">Tahsilat mektubunu yazdırmak için Tamam'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="a626d-137">Click OK to print the collection letter.</span></span>
 
-## <a name="post-the-collection-letter"></a>Tahsilat mektubunu deftere nakletme
-1. Deftere Naklet öğesine tıklayın.
-2. Tahsilat mektubu için deftere nakil tarihini girin.
-3. Eklenecek kayıtlar bölümünü genişletin.
-4. Tamam'a tıklayın.
-5. Durum alanında, "Deftere nakledildi"yi seçin.
-6. Yazdırılan alanında bir seçenek belirleyin.
+## <a name="post-the-collection-letter"></a><span data-ttu-id="a626d-138">Tahsilat mektubunu deftere nakletme</span><span class="sxs-lookup"><span data-stu-id="a626d-138">Post the collection letter</span></span>
+1. <span data-ttu-id="a626d-139">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a626d-139">Click Post.</span></span>
+2. <span data-ttu-id="a626d-140">Tahsilat mektubu için deftere nakil tarihini girin.</span><span class="sxs-lookup"><span data-stu-id="a626d-140">Enter the posting date for the collection letter.</span></span>
+3. <span data-ttu-id="a626d-141">Eklenecek kayıtlar bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="a626d-141">Expand the Records to include section.</span></span>
+4. <span data-ttu-id="a626d-142">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a626d-142">Click OK.</span></span>
+5. <span data-ttu-id="a626d-143">Durum alanında, "Deftere nakledildi"yi seçin.</span><span class="sxs-lookup"><span data-stu-id="a626d-143">In the Status field, select 'Posted'.</span></span>
+6. <span data-ttu-id="a626d-144">Yazdırılan alanında bir seçenek belirleyin.</span><span class="sxs-lookup"><span data-stu-id="a626d-144">In the Printed field, select an option.</span></span>
 
 

@@ -17,35 +17,35 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: d4935a4dfee268d01cdb72063de148bf3042def3
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: daa42bb83d6b988e8fd18db6ad8386c67fd3e6e5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>Ürünleri teslim alan ambardan mağazalara çapraz sevk etme
+# <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a><span data-ttu-id="e47fb-103">Ürünleri teslim alan ambardan mağazalara çapraz sevk etme</span><span class="sxs-lookup"><span data-stu-id="e47fb-103">Cross-dock products from receiving warehouse to stores</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, ürünleri satınalma siparişinin alma konumundan bir veya daha fazla mağazaya dağıtmak için Çapraz sevk oluşturma ve işleme konusunda kılavuzluk sağlar. Kullanıcı birden çok yapılandırmalar tanımlayabilir ve ürünlerin nasıl dağıtılacağını sistemin önermesini isteyebilir ya da ürünlerin nereye dağıtılacağını ve her mağazaya ne kadar dağıtım yapılacağını el ile girebilir. Yordam Çapraz sevkte kullanılabilecek stok yenileme kuralları, kuruluş hiyerarşileri ve mağaza ağırlıkları gibi verilerin ayarlanmasını kapsamaz. Yordam, USRT demo şirketini kullanır.
+<span data-ttu-id="e47fb-104">Bu yordam, ürünleri satınalma siparişinin alma konumundan bir veya daha fazla mağazaya dağıtmak için Çapraz sevk oluşturma ve işleme konusunda kılavuzluk sağlar.</span><span class="sxs-lookup"><span data-stu-id="e47fb-104">This procedure walks through the steps to create and process a Cross-dock to distribute products from the receiving location of a purchase order to one or many stores.</span></span> <span data-ttu-id="e47fb-105">Kullanıcı birden çok yapılandırmalar tanımlayabilir ve ürünlerin nasıl dağıtılacağını sistemin önermesini isteyebilir ya da ürünlerin nereye dağıtılacağını ve her mağazaya ne kadar dağıtım yapılacağını el ile girebilir.</span><span class="sxs-lookup"><span data-stu-id="e47fb-105">The user can define multiple configurations and have the system suggest how to distribute the products, or manually enter where the products are distributed to and how much gets distributed to each store.</span></span> <span data-ttu-id="e47fb-106">Yordam Çapraz sevkte kullanılabilecek stok yenileme kuralları, kuruluş hiyerarşileri ve mağaza ağırlıkları gibi verilerin ayarlanmasını kapsamaz.</span><span class="sxs-lookup"><span data-stu-id="e47fb-106">The procedure doesn't include setup of data that can be used in the Cross-dock, such as replenishment rules, organizational hierarchies, and store weights.</span></span> <span data-ttu-id="e47fb-107">Yordam, USRT demo şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="e47fb-107">The procedure uses the USRT demo company.</span></span>
 
-1. Tüm satınalma siparişleri'ne gidin.
-2. Listeden bir satınalma siparişi seçin ve siparişi açmak için bağlantıya tıklayın.
-3. Eylem Bölmesinde, Perakende'yi tıklayın.
-4. Çapraz sevki tıklayın.
-5. Düzenle öğesine tıklayın.
-    * Kategori Satırlar bölümündeki maddeleri filtrelemek için kullanılabilir.  
-6. Listede, istenen kaydı bulun ve seçin.
-7. Çapraz sevk miktarı alanına, seçilen üründen satın alınan ne kadar miktarın dağıtılacağını belirtmek için bir değer girin.
-8. Ek çapraz sevk miktarı alanına, satın alınan kullanılabilir ürünler için dağıtılacak miktarları belirtmek için bir değer girin.
-9. Dağıtım alanına 'Yerleşim ağırlığı' girin.
-    * Dağıtım için farklı kurallar kullanmak üzere diğer türleri seçebilirsiniz.  
-10. Atok yenileme hiyerarşisi alanında bir değer seçin.
-11. Ürün çeşitlerini dikkate al alanında Evet'i seçin.
-12. Miktarları hesapla'yı tıklayın.
-13. Sipariş oluştur'u tıklayın.
-14. Evet'i tıklatın.
-15. Listede ürünlerin teslim alındığı ambarı bulup seçin
-16. Seçilen ambar için oluşturulan siparişleri görüntülemek için Sipariş'i tıklayın
+1. <span data-ttu-id="e47fb-108">Tüm satınalma siparişleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="e47fb-108">Go to All purchase orders.</span></span>
+2. <span data-ttu-id="e47fb-109">Listeden bir satınalma siparişi seçin ve siparişi açmak için bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e47fb-109">Select a purchase order in the list and click the link to open the order.</span></span>
+3. <span data-ttu-id="e47fb-110">Eylem Bölmesinde, Perakende'yi tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e47fb-110">On the Action Pane, click Retail.</span></span>
+4. <span data-ttu-id="e47fb-111">Çapraz sevki tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e47fb-111">Click Cross docking.</span></span>
+5. <span data-ttu-id="e47fb-112">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e47fb-112">Click Edit.</span></span>
+    * <span data-ttu-id="e47fb-113">Kategori Satırlar bölümündeki maddeleri filtrelemek için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="e47fb-113">The category can be used to filter the items in the Lines section.</span></span>  
+6. <span data-ttu-id="e47fb-114">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="e47fb-114">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="e47fb-115">Çapraz sevk miktarı alanına, seçilen üründen satın alınan ne kadar miktarın dağıtılacağını belirtmek için bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="e47fb-115">In the Cross docking quantity field, type a value to specify how much of the quantity being purchased of the selected product should be distributed.</span></span>
+8. <span data-ttu-id="e47fb-116">Ek çapraz sevk miktarı alanına, satın alınan kullanılabilir ürünler için dağıtılacak miktarları belirtmek için bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="e47fb-116">In the Additional cross docking quantity field, enter a value to specify the quantities to distribute for the available products being purchased</span></span>
+9. <span data-ttu-id="e47fb-117">Dağıtım alanına 'Yerleşim ağırlığı' girin.</span><span class="sxs-lookup"><span data-stu-id="e47fb-117">In the Distribution field, enter 'Location weight'.</span></span>
+    * <span data-ttu-id="e47fb-118">Dağıtım için farklı kurallar kullanmak üzere diğer türleri seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e47fb-118">You can select the other types to use different rules for the distribution.</span></span>  
+10. <span data-ttu-id="e47fb-119">Atok yenileme hiyerarşisi alanında bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="e47fb-119">In the Replenishment hierarchy field, select a value.</span></span>
+11. <span data-ttu-id="e47fb-120">Ürün çeşitlerini dikkate al alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="e47fb-120">Select Yes in the Respect assortments field.</span></span>
+12. <span data-ttu-id="e47fb-121">Miktarları hesapla'yı tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e47fb-121">Click Calculate quantities.</span></span>
+13. <span data-ttu-id="e47fb-122">Sipariş oluştur'u tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e47fb-122">Click Create order.</span></span>
+14. <span data-ttu-id="e47fb-123">Evet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="e47fb-123">Click Yes.</span></span>
+15. <span data-ttu-id="e47fb-124">Listede ürünlerin teslim alındığı ambarı bulup seçin</span><span class="sxs-lookup"><span data-stu-id="e47fb-124">In the list, find and select a warehouse that received products</span></span>
+16. <span data-ttu-id="e47fb-125">Seçilen ambar için oluşturulan siparişleri görüntülemek için Sipariş'i tıklayın</span><span class="sxs-lookup"><span data-stu-id="e47fb-125">Click Order to view the orders that got created for the selected warehouse</span></span>
 
 

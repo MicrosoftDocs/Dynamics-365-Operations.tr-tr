@@ -22,37 +22,37 @@ ms.contentlocale: tr-tr
 ms.lasthandoff: 07/28/2017
 
 ---
-# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Performans günlüğüne ekleme ve birine övgü gönderme
+# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a><span data-ttu-id="078bf-103">Performans günlüğüne ekleme ve birine övgü gönderme</span><span class="sxs-lookup"><span data-stu-id="078bf-103">Add to your performance journal and send praise to someone</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Performans günlüğü hedeflerinizi nasıl gerçekleştirdiğinizle veya bir dönem içinde nasıl performans gösterdiğinizle ilgili bilgileri içerir. Günlükten ayrıca bir çalışma arkadaşınızın faaliyetlerini de övebilirsiniz. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik içindir.
+<span data-ttu-id="078bf-104">Performans günlüğü hedeflerinizi nasıl gerçekleştirdiğinizle veya bir dönem içinde nasıl performans gösterdiğinizle ilgili bilgileri içerir.</span><span class="sxs-lookup"><span data-stu-id="078bf-104">The performance journal holds information that relates to how you met your goals or how you performed during a period.</span></span> <span data-ttu-id="078bf-105">Günlükten ayrıca bir çalışma arkadaşınızın faaliyetlerini de övebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="078bf-105">You can also praise the actions of a co-worker from the journal.</span></span> <span data-ttu-id="078bf-106">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="078bf-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="078bf-107">Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik içindir.</span><span class="sxs-lookup"><span data-stu-id="078bf-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
-1. Tüm çalışma alanları > Personel self servisi öğesine gidin.
-2. Performans günlüğü'ne tıklayın.
-3. Yeni'ye tıklayın.
-4. Başlık alanına bir değer yazın.
-5. Açıklama alanına bir değer girin.
-    * Performans günlüğü tarihi, günlüğün oluşturulduğu tarihtir.  
-    * Kaynak, performans günlüğünün geldiği yeri temsil eder. Siz bir tane oluşturduğunuzda, Günlüğüm'den gelir. Yöneticiniz bir tane oluşturursa Yöneticisi günlüğünden gelir.  
-    * Bu günlüğü yöneticiniz ile paylaşabilir veya yalnızca kendiniz için görünür yapabilirsiniz.  
-6. Başlangıç tarihi alanına bir tarih girin.
-7. Tamamlanma tarihi alanına bir tarih girin.
-8. Geliştirme planı alanında Evet'i seçin.
-9. Anahtar sözcükler alanına bir değer yazın.
-10. Harici bağlantı ekle'ye tıklayın.
-11. Açıklama alanına "Envision" yazın.
-12. Internet adresi alanına "https://www.microsoft.com/tr/envision/default" yazın.
-13. Kılavuza dönmek için Kaydet düğmesinin altındaki "Performans günlüğü" başlığına tıklayın.
-    * Seçilen günlük veya günlükleri bir hedefe ekleyebilirsiniz, böylece hedefi açtığınızda görünür. Bağlantılar hızı sekmesine bir bağlantı eklenir.    Bir hedefe bir günlük eklerseniz ve ardından hedefi bir gözden geçirmeye eklerseniz günlük otomatik olarak gözden geçirmede görünür.  
-    * Seçilen günlük veya günlükleri bir gözden geçirmeye ekleyebilirsiniz, böylece gözden geçirmeyi açtığınızda görünür.    Bağlantılar hızı sekmesine bir bağlantı eklenir.  
-14. Hızlı ekle'ye tıklayın.
-15. Başlık alanına bir değer yazın.
-16. Açıklama alanına bir değer girin.
-17. Kaydet'e tıklayın.
-18. Övgü gönder'e tıklayın.
-19. Şirketteki personel listesinden bir kişi seçin.
-20. Açıklama alanına, "Konferanstaki yardımların için teşekkürler!" girin.
-21. Gönder'e tıklayın.
+1. <span data-ttu-id="078bf-108">Tüm çalışma alanları > Personel self servisi öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="078bf-108">Go to All workspaces > Employee self service.</span></span>
+2. <span data-ttu-id="078bf-109">Performans günlüğü'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="078bf-109">Click Performance journal.</span></span>
+3. <span data-ttu-id="078bf-110">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="078bf-110">Click New.</span></span>
+4. <span data-ttu-id="078bf-111">Başlık alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="078bf-111">In the Title field, type a value.</span></span>
+5. <span data-ttu-id="078bf-112">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="078bf-112">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="078bf-113">Performans günlüğü tarihi, günlüğün oluşturulduğu tarihtir.</span><span class="sxs-lookup"><span data-stu-id="078bf-113">The performance journal date is the date that the journal was created.</span></span>  
+    * <span data-ttu-id="078bf-114">Kaynak, performans günlüğünün geldiği yeri temsil eder.</span><span class="sxs-lookup"><span data-stu-id="078bf-114">The source represents where the performance journal came from.</span></span> <span data-ttu-id="078bf-115">Siz bir tane oluşturduğunuzda, Günlüğüm'den gelir.</span><span class="sxs-lookup"><span data-stu-id="078bf-115">When you create one, it comes from My journal.</span></span> <span data-ttu-id="078bf-116">Yöneticiniz bir tane oluşturursa Yöneticisi günlüğünden gelir.</span><span class="sxs-lookup"><span data-stu-id="078bf-116">If your manager creates one, it comes from the Manager journal.</span></span>  
+    * <span data-ttu-id="078bf-117">Bu günlüğü yöneticiniz ile paylaşabilir veya yalnızca kendiniz için görünür yapabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="078bf-117">You can share this journal with your manager or make it only visible to you.</span></span>  
+6. <span data-ttu-id="078bf-118">Başlangıç tarihi alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="078bf-118">In the Start date field, enter a date.</span></span>
+7. <span data-ttu-id="078bf-119">Tamamlanma tarihi alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="078bf-119">In the Date completed field, enter a date.</span></span>
+8. <span data-ttu-id="078bf-120">Geliştirme planı alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="078bf-120">Select Yes in the Development plan field.</span></span>
+9. <span data-ttu-id="078bf-121">Anahtar sözcükler alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="078bf-121">In the Keywords field, type a value.</span></span>
+10. <span data-ttu-id="078bf-122">Harici bağlantı ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="078bf-122">Click Add external link.</span></span>
+11. <span data-ttu-id="078bf-123">Açıklama alanına "Envision" yazın.</span><span class="sxs-lookup"><span data-stu-id="078bf-123">In the Description field, type 'Envision'.</span></span>
+12. <span data-ttu-id="078bf-124">Internet adresi alanına "https://www.microsoft.com/tr/envision/default" yazın.</span><span class="sxs-lookup"><span data-stu-id="078bf-124">In the Internet address field, type 'https://www.microsoft.com/en/envision/default'.</span></span>
+13. <span data-ttu-id="078bf-125">Kılavuza dönmek için Kaydet düğmesinin altındaki "Performans günlüğü" başlığına tıklayın.</span><span class="sxs-lookup"><span data-stu-id="078bf-125">Click on the caption below the Save button called "Performance journal" to return to the grid.</span></span>
+    * <span data-ttu-id="078bf-126">Seçilen günlük veya günlükleri bir hedefe ekleyebilirsiniz, böylece hedefi açtığınızda görünür.</span><span class="sxs-lookup"><span data-stu-id="078bf-126">You can add the selected journal or journals to a goal so that it appears when you open the goal.</span></span> <span data-ttu-id="078bf-127">Bağlantılar hızı sekmesine bir bağlantı eklenir.</span><span class="sxs-lookup"><span data-stu-id="078bf-127">A link will be added in the Links fast tab.</span></span>    <span data-ttu-id="078bf-128">Bir hedefe bir günlük eklerseniz ve ardından hedefi bir gözden geçirmeye eklerseniz günlük otomatik olarak gözden geçirmede görünür.</span><span class="sxs-lookup"><span data-stu-id="078bf-128">If you add a journal to a goal and then add the goal to a review, the journal will appear on the review automatically.</span></span>  
+    * <span data-ttu-id="078bf-129">Seçilen günlük veya günlükleri bir gözden geçirmeye ekleyebilirsiniz, böylece gözden geçirmeyi açtığınızda görünür.</span><span class="sxs-lookup"><span data-stu-id="078bf-129">You can add the selected journal or journals to a review so that it appears when you open the review.</span></span>    <span data-ttu-id="078bf-130">Bağlantılar hızı sekmesine bir bağlantı eklenir.</span><span class="sxs-lookup"><span data-stu-id="078bf-130">A link will be added in the Links fast tab.</span></span>  
+14. <span data-ttu-id="078bf-131">Hızlı ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="078bf-131">Click Quick add.</span></span>
+15. <span data-ttu-id="078bf-132">Başlık alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="078bf-132">In the Title field, type a value.</span></span>
+16. <span data-ttu-id="078bf-133">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="078bf-133">In the Description field, type a value.</span></span>
+17. <span data-ttu-id="078bf-134">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="078bf-134">Click Save.</span></span>
+18. <span data-ttu-id="078bf-135">Övgü gönder'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="078bf-135">Click Send praise.</span></span>
+19. <span data-ttu-id="078bf-136">Şirketteki personel listesinden bir kişi seçin.</span><span class="sxs-lookup"><span data-stu-id="078bf-136">Select a person from the list of employees in the company.</span></span>
+20. <span data-ttu-id="078bf-137">Açıklama alanına, "Konferanstaki yardımların için teşekkürler!" girin.</span><span class="sxs-lookup"><span data-stu-id="078bf-137">In the Description field, enter 'Thanks for all the help at the conference!'.</span></span>
+21. <span data-ttu-id="078bf-138">Gönder'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="078bf-138">Click Send.</span></span>
 
 

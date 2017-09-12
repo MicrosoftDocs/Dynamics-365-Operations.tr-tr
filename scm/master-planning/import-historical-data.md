@@ -18,45 +18,45 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 957626a283b750645adefa5176480e68cc27e4f1
+ms.sourcegitcommit: 97d374230cc6e833b9f585de000e1252f2a78b9d
+ms.openlocfilehash: c46b659a0ecffd6180fd0a76ff1b8d228f121571
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/30/2017
 
 ---
 
-# <a name="import-historical-data-for-demand-forecasts"></a>Talep tahminleri için geçmiş verisini içe aktar
+# <a name="import-historical-data-for-demand-forecasts"></a><span data-ttu-id="0a63f-104">Talep tahminleri için geçmiş verisini içe aktar</span><span class="sxs-lookup"><span data-stu-id="0a63f-104">Import historical data for demand forecasts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Talep tahminlerinin doğruluğunu garanti etmeye yardımcı olmak için, madde veya madde tahsisat anahtarı başına mümkün olduğunca fazla geçmiş talep verisine sahip olmalısınız. Geçmiş talep verisi halihazırda içe aktarılmamışsa, içe aktarmak için **Geçmiş harici talep** (ReqDemPlanHistoricalExternalDemandEntity) veri varlığını Microsoft Dynamics 365 for Finance and Operations içinde kullanın.
+<span data-ttu-id="0a63f-105">Talep tahminlerinin doğruluğunu garanti etmeye yardımcı olmak için, madde veya madde tahsisat anahtarı başına mümkün olduğunca fazla geçmiş talep verisine sahip olmalısınız.</span><span class="sxs-lookup"><span data-stu-id="0a63f-105">To help guarantee the accuracy of demand forecasts, you must have as much historical demand data as you can get per item or item allocation key.</span></span> <span data-ttu-id="0a63f-106">Geçmiş talep verisi halihazırda içe aktarılmamışsa, içe aktarmak için **Geçmiş harici talep** (ReqDemPlanHistoricalExternalDemandEntity) veri varlığını Microsoft Dynamics 365 for Finance and Operations içinde kullanın.</span><span class="sxs-lookup"><span data-stu-id="0a63f-106">If the historical demand data isn't already imported, use the **Historical external demand** (ReqDemPlanHistoricalExternalDemandEntity) data entity in Microsoft Dynamics 365 for Finance and Operations to import it.</span></span>
 
-**Veri yönetimi** çalışma alanı içerisinde, varlık içerisindeki tüm alanların bir genel görünümünü görürsünüz.
+<span data-ttu-id="0a63f-107">**Veri yönetimi** çalışma alanı içerisinde, varlık içerisindeki tüm alanların bir genel görünümünü görürsünüz.</span><span class="sxs-lookup"><span data-stu-id="0a63f-107">In the **Data management** workspace, you can see an overview of all the fields in the entity.</span></span>
 
-1. **Veri yönetimi** çalışma alanını açın.
-2. **Veri varlıkları** kutucuğuna tıklayın.
-3. Varlık listesinde **Geçmiş harici talep** arayın.
-4. **Hedef alanları** üzerine tıklayın. Aşağıdaki varlık alanları zorunludur: site (**DeliveringSiteId**), tarih (**DemandDate**), miktar (**DemandQuantity**), ve madde numarası (**ItemNumber**) veya madde tahsisat anahtarı (**ProductAllocationKeyId**).
+1. <span data-ttu-id="0a63f-108">**Veri yönetimi** çalışma alanını açın.</span><span class="sxs-lookup"><span data-stu-id="0a63f-108">Open the **Data management** workspace.</span></span>
+2. <span data-ttu-id="0a63f-109">**Veri varlıkları** kutucuğuna tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0a63f-109">Click the **Data entities** tile.</span></span>
+3. <span data-ttu-id="0a63f-110">Varlık listesinde **Geçmiş harici talep** arayın.</span><span class="sxs-lookup"><span data-stu-id="0a63f-110">Search the entity list for **Historical external demand**.</span></span>
+4. <span data-ttu-id="0a63f-111">**Hedef alanları** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0a63f-111">Click **Target fields**.</span></span> <span data-ttu-id="0a63f-112">Aşağıdaki varlık alanları zorunludur: site (**DeliveringSiteId**), tarih (**DemandDate**), miktar (**DemandQuantity**), ve madde numarası (**ItemNumber**) veya madde tahsisat anahtarı (**ProductAllocationKeyId**).</span><span class="sxs-lookup"><span data-stu-id="0a63f-112">The following entity fields are mandatory: site (**DeliveringSiteId**), date (**DemandDate**), quantity (**DemandQuantity**), and either item number (**ItemNumber**) or item allocation key (**ProductAllocationKeyId**).</span></span>
 
-Varlık verisini kullanmak için geçmiş talep verisini içeren Microsoft Excel dosyası veya virgülle ayrılmış değerler (CSV) dosyasına sahip olmalısınız. Aşağıdaki örnek, verinin bir CSV dosyasından nasıl alınacağını gösterir.
+<span data-ttu-id="0a63f-113">Varlık verisini kullanmak için geçmiş talep verisini içeren Microsoft Excel dosyası veya virgülle ayrılmış değerler (CSV) dosyasına sahip olmalısınız.</span><span class="sxs-lookup"><span data-stu-id="0a63f-113">To use the data entity, you must have a Microsoft Excel file or comma-separated values (CSV) file that contains the historical demand data.</span></span> <span data-ttu-id="0a63f-114">Aşağıdaki örnek, verinin bir CSV dosyasından nasıl alınacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="0a63f-114">The following example shows how to import the data from a CSV file.</span></span>
 
-## <a name="example"></a>Örnek
+## <a name="example"></a><span data-ttu-id="0a63f-115">Örnek</span><span class="sxs-lookup"><span data-stu-id="0a63f-115">Example</span></span>
 
-Aşağıdaki dosyayı bir örnek olarak kullanabilirsiniz. [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast) karşıdan yükleyin. Bu dosya, madde D0001 için geçmiş talep verisini içerir. Yalnızca aşağıdaki zorunlu alanları içerir: site, miktar ve talep tarihi.
+<span data-ttu-id="0a63f-116">Aşağıdaki dosyayı bir örnek olarak kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0a63f-116">You can use the following file as an example.</span></span> <span data-ttu-id="0a63f-117">[HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast) karşıdan yükleyin.</span><span class="sxs-lookup"><span data-stu-id="0a63f-117">Download the [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast).</span></span> <span data-ttu-id="0a63f-118">Bu dosya, madde D0001 için geçmiş talep verisini içerir.</span><span class="sxs-lookup"><span data-stu-id="0a63f-118">This file contains the historical demand data for item D0001.</span></span> <span data-ttu-id="0a63f-119">Yalnızca aşağıdaki zorunlu alanları içerir: site, miktar ve talep tarihi.</span><span class="sxs-lookup"><span data-stu-id="0a63f-119">It contains only the following mandatory fields: site, quantity, and the demand date.</span></span>
 
-1. Geçmiş talep verisinin aktarılacağı şirketi seçin.
-2. **Veri yönetimi** çalışma alanını açın.
-3. **İçe aktar** kutusunu tıklatın.
-4. İçe aktarma projesi için bir ad seçin, örneğin **Madde D0001 için geçmiş talep verisi içe aktar**.
-5. **Kaynak veri biçimi** alanında, içe aktardığınız dosyanın dosya formatını seçin. Bu örnek için HistoricalDemandData dosyasını içe aktarmak için, **CSV** seçeneğini işaretleyin.
-6. **Varlık adı** alanında, **Geçmiş harici talep** seçeneğini işaretleyin.
-7. Dosyayı bilgisayarınıza kaydedin ve sonra karşıya yükleyin.
-8. **İçe aktar**'ı tıklatın.
-9. **Yürütme özeti** sayfası otomatik olarak açılır. İçe aktarılan veriyi sayfada doğrulayın.
+1. <span data-ttu-id="0a63f-120">Geçmiş talep verisinin aktarılacağı şirketi seçin.</span><span class="sxs-lookup"><span data-stu-id="0a63f-120">Select the company to import the historical demand data into.</span></span>
+2. <span data-ttu-id="0a63f-121">**Veri yönetimi** çalışma alanını açın.</span><span class="sxs-lookup"><span data-stu-id="0a63f-121">Open the **Data management** workspace.</span></span>
+3. <span data-ttu-id="0a63f-122">**İçe aktar** kutusunu tıklatın.</span><span class="sxs-lookup"><span data-stu-id="0a63f-122">Click the **Import** tile.</span></span>
+4. <span data-ttu-id="0a63f-123">İçe aktarma projesi için bir ad seçin, örneğin **Madde D0001 için geçmiş talep verisi içe aktar**.</span><span class="sxs-lookup"><span data-stu-id="0a63f-123">Enter a name for the import project, such as **Import historical demand for item D0001**.</span></span>
+5. <span data-ttu-id="0a63f-124">**Kaynak veri biçimi** alanında, içe aktardığınız dosyanın dosya formatını seçin.</span><span class="sxs-lookup"><span data-stu-id="0a63f-124">In the **Source data format** field, select the file format of the file that you're importing.</span></span> <span data-ttu-id="0a63f-125">Bu örnek için HistoricalDemandData dosyasını içe aktarmak için, **CSV** seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="0a63f-125">To import the HistoricalDemandData file for this example, select **CSV**.</span></span>
+6. <span data-ttu-id="0a63f-126">**Varlık adı** alanında, **Geçmiş harici talep** seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="0a63f-126">In the **Entity name** field, select **Historical external demand**.</span></span>
+7. <span data-ttu-id="0a63f-127">Dosyayı bilgisayarınıza kaydedin ve sonra karşıya yükleyin.</span><span class="sxs-lookup"><span data-stu-id="0a63f-127">Save the file to your computer, and then upload it.</span></span>
+8. <span data-ttu-id="0a63f-128">**İçe aktar**'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="0a63f-128">Click **Import**.</span></span>
+9. <span data-ttu-id="0a63f-129">**Yürütme özeti** sayfası otomatik olarak açılır.</span><span class="sxs-lookup"><span data-stu-id="0a63f-129">The **Execution summary** page is opened automatically.</span></span> <span data-ttu-id="0a63f-130">İçe aktarılan veriyi sayfada doğrulayın.</span><span class="sxs-lookup"><span data-stu-id="0a63f-130">Verify the imported data on the page.</span></span>
 
-Geçmiş talep verisini içe aktardıktan sonra talep tahminleri oluşturabilirsiniz.
+<span data-ttu-id="0a63f-131">Geçmiş talep verisini içe aktardıktan sonra talep tahminleri oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0a63f-131">After you've imported the historical demand data, you can generate a demand forecast.</span></span>
 
-## <a name="see-also"></a>Ayrıca bkz.
+## <a name="see-also"></a><span data-ttu-id="0a63f-132">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="0a63f-132">See also</span></span>
 
-[İstatistiksel temel tahmin oluşturma](generate-statistical-baseline-forecast.md)
+[<span data-ttu-id="0a63f-133">İstatistiksel temel tahmin oluşturma</span><span class="sxs-lookup"><span data-stu-id="0a63f-133">Generate a statistical baseline forecast</span></span>](generate-statistical-baseline-forecast.md)
 

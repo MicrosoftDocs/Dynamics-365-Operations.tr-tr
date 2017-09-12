@@ -16,62 +16,62 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 5c569b6e58507e3b7707e4a56b22d2d60660f144
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 412a8c7acca06fc1be073019f91144e2a3f1c94b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-purchase-order-from-a-sales-order"></a>Satış siparişinden satınalma siparişi oluşturma
+# <a name="create-a-purchase-order-from-a-sales-order"></a><span data-ttu-id="4fd37-103">Satış siparişinden satınalma siparişi oluşturma</span><span class="sxs-lookup"><span data-stu-id="4fd37-103">Create a purchase order from a sales order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, bir satış siparişine göre nasıl satınalma siparişi oluşturulacağını gösterir. Satınalma siparişindeki ürün miktarları kaynak satış siparişinin talebini karşılayacak şekilde belirlenir. Satış talebinin bu şekilde karşılanması, daha kapsamlı ve iyi bir Dağıtım Gereksinimleri Planlaması yöntemi için alternatiftir. Bu prosedürü demo veri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.
+<span data-ttu-id="4fd37-104">Bu yordam, bir satış siparişine göre nasıl satınalma siparişi oluşturulacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="4fd37-104">This procedure shows you how to create a purchase order that is based on a sales order.</span></span> <span data-ttu-id="4fd37-105">Satınalma siparişindeki ürün miktarları kaynak satış siparişinin talebini karşılayacak şekilde belirlenir.</span><span class="sxs-lookup"><span data-stu-id="4fd37-105">The product's quantities on the purchase order are then designated to fulfill the demand of the originating sales order.</span></span> <span data-ttu-id="4fd37-106">Satış talebinin bu şekilde karşılanması, daha kapsamlı ve iyi bir Dağıtım Gereksinimleri Planlaması yöntemi için alternatiftir.</span><span class="sxs-lookup"><span data-stu-id="4fd37-106">Fulfilling sales demand this way is an alternative to a more comprehensive and optimized method of Distribution Requirements Planning.</span></span> <span data-ttu-id="4fd37-107">Bu prosedürü demo veri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4fd37-107">You can run this procedure in demo data company USMF or on your own data.</span></span>
 
 
-## <a name="create-a-purchase-order-from-a-sales-order"></a>Satış siparişinden satınalma siparişi oluşturma
-1. Sales and marketing > Sales orders > All sales orders (Satış ve pazarlama > Satış siparişleri > Tüm satış siparişleri) menüsüne gidin.
-2. Yeni'ye tıklayın.
-3. Müşteri hesabı alanında, açılır menü düğmesine tıklayarak açılır menü düğmesine tıklayın.
-4. Listede, istenen kaydı bulun ve seçin.
-5. Tamam'ı tıklatın.
-6. Madde numarası alanında, açılır menü düğmesine tıklayarak aramayı açın.
-7. Listede, istenen kaydı bulun ve seçin.
-    * USMF kullanıyorsanız, D0001 öğesini seçebilirsiniz.  
-8. Miktar alanına bir sayı girin.
-9. Satır ekle'ye tıklayın.
-10. Madde numarası alanında, açılır menü düğmesine tıklayarak aramayı açın.
-11. Listede, istenen kaydı bulun ve seçin.
-    * USMF kullanıyorsanız, T0020 öğesini seçebilirsiniz.  
-12. Listede, seçili satırdaki bağlantıya tıklayın.
-13. Miktar alanına bir sayı girin.
-14. Kaydet'i tıklatın.
-15. Eylem Bölmesinde, Satış siparişi öğesine tıklayın.
-16. Satın alma siparişini tıklatın.
-    * Satınalma siparişi oluştur sayfası, satış siparişinden kopyalanmış tüm açık satış siparişi satırlarını listeler. Sipariş ayrıntılarını gözden geçirebilir ve gerekiyorsa satınalma oluşturmadan önce satınalma miktarı ve fiyatlandırma koşulları gibi seçilen ayrıntıları değiştirebilirsiniz.  
-17. Tümünü dahil et seçeneğini belirleyin.
-    * Satış siparişi satırlarının yalnızca bir alt kümesi için satınalma siparişleri oluşturmak istiyorsanız, bunları tek tek seçin.  
-    * Satıcı hesabı alanı bir satıcı numarası ile önceden doldurulmuş olabilir. Varsayılan satıcı ürün için (ilişkili ürün kapsamında) ayarlanmışsa, bu satıcı satıra kopyalanır. Aksi takdirde, manüel olarak bir satıcı girmeniz gerekir.  Bu kılavuzda, Satıcı hesabı alanının önceden bir değer içerip içermediğine bakılmaksızın, aşağıdaki adımlar sizi her satır için farklı olan yeni bir satıcı seçmeniz için yönlendirir.  
-18. Satıcı hesabı alanında, açılır menü düğmesine tıklayarak aramayı açın.
-19. Listede, istenen kaydı bulun ve seçin.
-20. Listede, seçili satırdaki bağlantıya tıklayın.
-21. İkincil sipariş satırını seçin.
-22. Satıcı hesabı alanında, açılır menü düğmesine tıklayarak aramayı açın.
-23. Listede, istenen kaydı bulun ve seçin.
-24. Listede, seçili satırdaki bağlantıya tıklayın.
-25. Doğrula'ya tıklayın.
-26. Tamam'a tıklayın.
-    * İleti, bir veya daha fazla satınalma siparişinin oluşturulduğunu bildirir. Sistem, satış siparişi satırları için belirlenmiş her satıcıya ait ayrı bir satınalma siparişi oluşturur. Başka bir deyişle, aynı satıcı tarafından birden fazla satış siparişi satırı sağlanırsa, birden fazla satıra sahip tek bir satınalma siparişi oluşturulur.  
+## <a name="create-a-purchase-order-from-a-sales-order"></a><span data-ttu-id="4fd37-108">Satış siparişinden satınalma siparişi oluşturma</span><span class="sxs-lookup"><span data-stu-id="4fd37-108">Create a purchase order from a sales order</span></span>
+1. <span data-ttu-id="4fd37-109">Sales and marketing > Sales orders > All sales orders (Satış ve pazarlama > Satış siparişleri > Tüm satış siparişleri) menüsüne gidin.</span><span class="sxs-lookup"><span data-stu-id="4fd37-109">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+2. <span data-ttu-id="4fd37-110">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-110">Click New.</span></span>
+3. <span data-ttu-id="4fd37-111">Müşteri hesabı alanında, açılır menü düğmesine tıklayarak açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-111">In the Customer account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="4fd37-112">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="4fd37-112">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="4fd37-113">Tamam'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-113">Click OK.</span></span>
+6. <span data-ttu-id="4fd37-114">Madde numarası alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-114">In the Item number field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="4fd37-115">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="4fd37-115">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="4fd37-116">USMF kullanıyorsanız, D0001 öğesini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4fd37-116">If you're using USMF, you could select D0001.</span></span>  
+8. <span data-ttu-id="4fd37-117">Miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="4fd37-117">In the Quantity field, enter a number.</span></span>
+9. <span data-ttu-id="4fd37-118">Satır ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-118">Click Add line.</span></span>
+10. <span data-ttu-id="4fd37-119">Madde numarası alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="4fd37-120">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="4fd37-120">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="4fd37-121">USMF kullanıyorsanız, T0020 öğesini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4fd37-121">If you're using USMF, you could select T0020.</span></span>  
+12. <span data-ttu-id="4fd37-122">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-122">In the list, click the link in the selected row.</span></span>
+13. <span data-ttu-id="4fd37-123">Miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="4fd37-123">In the Quantity field, enter a number.</span></span>
+14. <span data-ttu-id="4fd37-124">Kaydet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-124">Click Save.</span></span>
+15. <span data-ttu-id="4fd37-125">Eylem Bölmesinde, Satış siparişi öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-125">On the Action Pane, click Sales order.</span></span>
+16. <span data-ttu-id="4fd37-126">Satın alma siparişini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-126">Click Purchase order.</span></span>
+    * <span data-ttu-id="4fd37-127">Satınalma siparişi oluştur sayfası, satış siparişinden kopyalanmış tüm açık satış siparişi satırlarını listeler.</span><span class="sxs-lookup"><span data-stu-id="4fd37-127">The Create purchase order page lists all the open sales order lines which have been copied from the sales order.</span></span> <span data-ttu-id="4fd37-128">Sipariş ayrıntılarını gözden geçirebilir ve gerekiyorsa satınalma oluşturmadan önce satınalma miktarı ve fiyatlandırma koşulları gibi seçilen ayrıntıları değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4fd37-128">You can review the order details, and if required, you can modify selected details such purchase quantity and pricing terms, before you create the purchases.</span></span>  
+17. <span data-ttu-id="4fd37-129">Tümünü dahil et seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="4fd37-129">Select the Include all option.</span></span>
+    * <span data-ttu-id="4fd37-130">Satış siparişi satırlarının yalnızca bir alt kümesi için satınalma siparişleri oluşturmak istiyorsanız, bunları tek tek seçin.</span><span class="sxs-lookup"><span data-stu-id="4fd37-130">If you want to generate purchase orders for only a subset of the sales order lines, select these individually.</span></span>  
+    * <span data-ttu-id="4fd37-131">Satıcı hesabı alanı bir satıcı numarası ile önceden doldurulmuş olabilir.</span><span class="sxs-lookup"><span data-stu-id="4fd37-131">The Vendor account field may or may not already be populated with a vendor number.</span></span> <span data-ttu-id="4fd37-132">Varsayılan satıcı ürün için (ilişkili ürün kapsamında) ayarlanmışsa, bu satıcı satıra kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="4fd37-132">If the default vendor is set up for the product (on the associated Item coverage) then this vendor will be copied  to the line.</span></span> <span data-ttu-id="4fd37-133">Aksi takdirde, manüel olarak bir satıcı girmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="4fd37-133">Otherwise, you must enter a vendor manually.</span></span>  <span data-ttu-id="4fd37-134">Bu kılavuzda, Satıcı hesabı alanının önceden bir değer içerip içermediğine bakılmaksızın, aşağıdaki adımlar sizi her satır için farklı olan yeni bir satıcı seçmeniz için yönlendirir.</span><span class="sxs-lookup"><span data-stu-id="4fd37-134">In this guide, regardless of whether the Vendor account field already contains a value or not, the following steps instruct you to select a new vendor which is different for each line.</span></span>  
+18. <span data-ttu-id="4fd37-135">Satıcı hesabı alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-135">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="4fd37-136">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="4fd37-136">In the list, find and select the desired record.</span></span>
+20. <span data-ttu-id="4fd37-137">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-137">In the list, click the link in the selected row.</span></span>
+21. <span data-ttu-id="4fd37-138">İkincil sipariş satırını seçin.</span><span class="sxs-lookup"><span data-stu-id="4fd37-138">Select the second order line.</span></span>
+22. <span data-ttu-id="4fd37-139">Satıcı hesabı alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-139">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+23. <span data-ttu-id="4fd37-140">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="4fd37-140">In the list, find and select the desired record.</span></span>
+24. <span data-ttu-id="4fd37-141">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-141">In the list, click the link in the selected row.</span></span>
+25. <span data-ttu-id="4fd37-142">Doğrula'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-142">Click Validate.</span></span>
+26. <span data-ttu-id="4fd37-143">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-143">Click OK.</span></span>
+    * <span data-ttu-id="4fd37-144">İleti, bir veya daha fazla satınalma siparişinin oluşturulduğunu bildirir.</span><span class="sxs-lookup"><span data-stu-id="4fd37-144">The message informs you that one or more purchase orders have been created.</span></span> <span data-ttu-id="4fd37-145">Sistem, satış siparişi satırları için belirlenmiş her satıcıya ait ayrı bir satınalma siparişi oluşturur.</span><span class="sxs-lookup"><span data-stu-id="4fd37-145">The system generates a separate purchase order for each vendor that you specified for the sales order lines.</span></span> <span data-ttu-id="4fd37-146">Başka bir deyişle, aynı satıcı tarafından birden fazla satış siparişi satırı sağlanırsa, birden fazla satıra sahip tek bir satınalma siparişi oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="4fd37-146">This means that if several sales order lines are to be supplied by the same vendor, a single purchase order with multiple lines will be generated.</span></span>  
 
-## <a name="review-purchase-orders-created-from-sales-orders"></a>Satış siparişlerinden oluşturulan satınalma siparişlerini gözden geçirin.
-1. Eylem Bölmesinde, Genel öğesine tıklayın.
-2. İlgili siparişleri tıklatın.
-    * İlgili siparişler sayfası, satış siparişinden oluşturulan tüm siparişleri listeler. Bu örnekte, sırasıyla iki farklı satıcı için oluşturulan iki satınalma siparişi vardır.  
-3. Satınalma siparişi alanındaki bağlantıyı izlemek için tıklayın.
-    * Her satınalma siparişi satırı, satın almaya yol açan satış siparişi satırıyla ilişkilendirilmiştir. Satış siparişinin ilişkisi Satır ayrıntıları FastTab'inde Ürün sekmesinde, Referans türü, Referans numarası ve Referans lotu alanlarında belirtilir.  
-4. Satır ayrıntıları bölümünü genişletin veya daraltın.
-5. Ürün sekmesine tıklayın.
-    * Referans lotu, geçerli satınalmadan kaynaklanan maliyetlerin eklenmiş satış siparişine uygulanacağını garanti eder.  
-    * Başvuru numarası alanındaki bağlantıyı açarak kaynak satış siparişine gidebilirsiniz.  
+## <a name="review-purchase-orders-created-from-sales-orders"></a><span data-ttu-id="4fd37-147">Satış siparişlerinden oluşturulan satınalma siparişlerini gözden geçirin.</span><span class="sxs-lookup"><span data-stu-id="4fd37-147">Review purchase orders created from sales orders</span></span>
+1. <span data-ttu-id="4fd37-148">Eylem Bölmesinde, Genel öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-148">On the Action Pane, click General.</span></span>
+2. <span data-ttu-id="4fd37-149">İlgili siparişleri tıklatın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-149">Click Related orders.</span></span>
+    * <span data-ttu-id="4fd37-150">İlgili siparişler sayfası, satış siparişinden oluşturulan tüm siparişleri listeler.</span><span class="sxs-lookup"><span data-stu-id="4fd37-150">The Related orders page lists all the orders that were created from the sales order.</span></span> <span data-ttu-id="4fd37-151">Bu örnekte, sırasıyla iki farklı satıcı için oluşturulan iki satınalma siparişi vardır.</span><span class="sxs-lookup"><span data-stu-id="4fd37-151">In this example, there are two purchase orders generated for two different vendors respectively.</span></span>  
+3. <span data-ttu-id="4fd37-152">Satınalma siparişi alanındaki bağlantıyı izlemek için tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-152">Click to follow the link in the Purchase order field.</span></span>
+    * <span data-ttu-id="4fd37-153">Her satınalma siparişi satırı, satın almaya yol açan satış siparişi satırıyla ilişkilendirilmiştir.</span><span class="sxs-lookup"><span data-stu-id="4fd37-153">Each purchase order line is associated with the sales order line that led to the purchase.</span></span> <span data-ttu-id="4fd37-154">Satış siparişinin ilişkisi Satır ayrıntıları FastTab'inde Ürün sekmesinde, Referans türü, Referans numarası ve Referans lotu alanlarında belirtilir.</span><span class="sxs-lookup"><span data-stu-id="4fd37-154">The relation to the sales order is indicated on the Product tab in the Line details FastTab, in the Reference type, Reference number, and Reference lot fields.</span></span>  
+4. <span data-ttu-id="4fd37-155">Satır ayrıntıları bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-155">Expand or collapse the Line details section.</span></span>
+5. <span data-ttu-id="4fd37-156">Ürün sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4fd37-156">Click the Product tab.</span></span>
+    * <span data-ttu-id="4fd37-157">Referans lotu, geçerli satınalmadan kaynaklanan maliyetlerin eklenmiş satış siparişine uygulanacağını garanti eder.</span><span class="sxs-lookup"><span data-stu-id="4fd37-157">The Reference lot guarantees that the costs from the current purchase are charged on the attached sales order.</span></span>  
+    * <span data-ttu-id="4fd37-158">Başvuru numarası alanındaki bağlantıyı açarak kaynak satış siparişine gidebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4fd37-158">You can navigate to the originating sales order by opening the link in the Reference number field.</span></span>  
 
 

@@ -17,30 +17,30 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 604669853f5b86fbfe1608083e1a0c08d54b391b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: eef5844ade45b0c7fdd38624d842c1a96efcd639
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-working-time-scheduling-properties"></a>Çalışma zamanı planlama özelliklerini oluşturma
+# <a name="create-working-time-scheduling-properties"></a><span data-ttu-id="f5908-103">Çalışma zamanı planlama özelliklerini oluşturma</span><span class="sxs-lookup"><span data-stu-id="f5908-103">Create working time scheduling properties</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Çalışma zamanı planlama özellikleri, çalışma zaman aralıklarını kategorilere ayırmak ve operatörlerin dikkate alması gereken ayarları tanımlamak için kullanılır. Bu yordam, bir çalışma zamanı planlama özelliği ile ilişkili özellik değerlerinin nasıl belirleneceğini gösterir. Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz.
+<span data-ttu-id="f5908-104">Çalışma zamanı planlama özellikleri, çalışma zaman aralıklarını kategorilere ayırmak ve operatörlerin dikkate alması gereken ayarları tanımlamak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="f5908-104">Working time scheduling properties are used to categorize working time intervals and define the settings that operators must take into account.</span></span> <span data-ttu-id="f5908-105">Bu yordam, bir çalışma zamanı planlama özelliği ile ilişkili özellik değerlerinin nasıl belirleneceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="f5908-105">This procedure shows how to define a working time scheduling property and associated property values.</span></span> <span data-ttu-id="f5908-106">Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f5908-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 
-1. Tüm çalışma alanları > Kaynak yaşam döngüsü yönetimi'ne gidin.
-2. Özellikler'i tıklatın.
+1. <span data-ttu-id="f5908-107">Tüm çalışma alanları > Kaynak yaşam döngüsü yönetimi'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="f5908-107">Go to All workspaces > Resource lifecycle management.</span></span>
+2. <span data-ttu-id="f5908-108">Özellikler'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f5908-108">Click Properties.</span></span>
 
-## <a name="create-property"></a>Özellik oluşturma
-1. Yeni'ye tıklayın.
-2. Özellik alanına bir değer yazın.
-3. İsim alanına bir değer yazın.
+## <a name="create-property"></a><span data-ttu-id="f5908-109">Özellik oluşturma</span><span class="sxs-lookup"><span data-stu-id="f5908-109">Create property</span></span>
+1. <span data-ttu-id="f5908-110">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f5908-110">Click New.</span></span>
+2. <span data-ttu-id="f5908-111">Özellik alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="f5908-111">In the Property field, type a value.</span></span>
+3. <span data-ttu-id="f5908-112">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="f5908-112">In the Name field, type a value.</span></span>
 
-## <a name="create-property-values"></a>Özellik değerleri oluşturma
-1. Listede, seçili satırı işaretleyin.
-2. İsim alanına bir değer yazın.
-3. Değer alanına bir değer yazın.
-4. Kaydet'e tıklayın.
+## <a name="create-property-values"></a><span data-ttu-id="f5908-113">Özellik değerleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="f5908-113">Create property values</span></span>
+1. <span data-ttu-id="f5908-114">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="f5908-114">In the list, mark the selected row.</span></span>
+2. <span data-ttu-id="f5908-115">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="f5908-115">In the Name field, type a value.</span></span>
+3. <span data-ttu-id="f5908-116">Değer alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="f5908-116">In the Value field, type a value.</span></span>
+4. <span data-ttu-id="f5908-117">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f5908-117">Click Save.</span></span>
 
 

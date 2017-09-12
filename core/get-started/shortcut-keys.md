@@ -15,192 +15,192 @@ ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 8daf9d0c5b83e3bca66c0229a328737adeeb2951
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 45582c5378fb2b3d6c9e26632accf37197a671bb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="keyboard-shortcuts"></a>Klavye kısayolları
+# <a name="keyboard-shortcuts"></a><span data-ttu-id="d97bb-103">Klavye kısayolları</span><span class="sxs-lookup"><span data-stu-id="d97bb-103">Keyboard shortcuts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Aşağıdaki klavye kısayolları tüm Microsoft Dynamics 365 for Finance and Operations genelinde geçerlidir. 
+<span data-ttu-id="d97bb-104">Aşağıdaki klavye kısayolları tüm Microsoft Dynamics 365 for Finance and Operations genelinde geçerlidir.</span><span class="sxs-lookup"><span data-stu-id="d97bb-104">The following keyboard shortcuts apply across Microsoft Dynamics 365 for Finance and Operations.</span></span> 
 
-**Not:** Burada anlatılan klavye kısayolları, ABD klavye düzenine göredir. Diğer klavye düzenlerindeki tuşlar ABD klavyedeki tuşlara tam olarak karşılık gelmeyebilir.
+<span data-ttu-id="d97bb-105">**Not:** Burada anlatılan klavye kısayolları, ABD klavye düzenine göredir.</span><span class="sxs-lookup"><span data-stu-id="d97bb-105">**Note:** The keyboard shortcuts described here refer to the United States keyboard layout.</span></span> <span data-ttu-id="d97bb-106">Diğer klavye düzenlerindeki tuşlar ABD klavyedeki tuşlara tam olarak karşılık gelmeyebilir.</span><span class="sxs-lookup"><span data-stu-id="d97bb-106">Keys on other keyboard layouts might not correspond exactly to the keys on a US keyboard.</span></span>
 
-## <a name="action-shortcuts"></a>Eylem kısayolları
+## <a name="action-shortcuts"></a><span data-ttu-id="d97bb-107">Eylem kısayolları</span><span class="sxs-lookup"><span data-stu-id="d97bb-107">Action shortcuts</span></span>
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
-| **Bunun için**                                    | **Bas**                        |
-| Eylem aramasını açma                                | Ctrl+’ veya Alt+Q                  |
-| Standart eylem bölmesine taşıma                  | Ctrl+F6                          |
-| Eylem bölmesinde veya bir menü içinde bir sekme açma           | Enter veya Boşluk veya Alt+Aşağı Ok |
-| Bir menüde sonraki/önceki seçeneğe gitme            | Aşağı Ok / Yukarı Ok            |
-| Eylem bölmesinde veya bir menü içinde bir sekmeyi kapatma          | Esc                              |
-| Sağ tıklatma benzetimi                            | Shift+F10                        |
-| Finance and Operations içerik menüsünü açın | Ctrl+F10                         |
-| Form/iletişim kutusu üzerinde varsayılan düğmeyi yürütme       | Alt+Enter                        |
-| Bir düğmeyi veya döşemeyi tıklama                            | Enter veya Boşluk                   |
-| Bir sayım döşemesi için yenileme bilgilerini görüntüleme         | Alt+Yukarı Ok                     |
+| <span data-ttu-id="d97bb-108">**Bunun için**</span><span class="sxs-lookup"><span data-stu-id="d97bb-108">**To do this**</span></span>                                    | <span data-ttu-id="d97bb-109">**Bas**</span><span class="sxs-lookup"><span data-stu-id="d97bb-109">**Press**</span></span>                        |
+| <span data-ttu-id="d97bb-110">Eylem aramasını açma</span><span class="sxs-lookup"><span data-stu-id="d97bb-110">Open action search</span></span>                                | <span data-ttu-id="d97bb-111">Ctrl+’ veya Alt+Q</span><span class="sxs-lookup"><span data-stu-id="d97bb-111">Ctrl+’ or Alt+Q</span></span>                  |
+| <span data-ttu-id="d97bb-112">Standart eylem bölmesine taşıma</span><span class="sxs-lookup"><span data-stu-id="d97bb-112">Move to the standard action pane</span></span>                  | <span data-ttu-id="d97bb-113">Ctrl+F6</span><span class="sxs-lookup"><span data-stu-id="d97bb-113">Ctrl+F6</span></span>                          |
+| <span data-ttu-id="d97bb-114">Eylem bölmesinde veya bir menü içinde bir sekme açma</span><span class="sxs-lookup"><span data-stu-id="d97bb-114">Open a tab in the action pane or a menu</span></span>           | <span data-ttu-id="d97bb-115">Enter veya Boşluk veya Alt+Aşağı Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-115">Enter or Space or Alt+Down Arrow</span></span> |
+| <span data-ttu-id="d97bb-116">Bir menüde sonraki/önceki seçeneğe gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-116">Move to next/previous option in a menu</span></span>            | <span data-ttu-id="d97bb-117">Aşağı Ok / Yukarı Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-117">Down Arrow / Up Arrow</span></span>            |
+| <span data-ttu-id="d97bb-118">Eylem bölmesinde veya bir menü içinde bir sekmeyi kapatma</span><span class="sxs-lookup"><span data-stu-id="d97bb-118">Close a tab in the action pane or a menu</span></span>          | <span data-ttu-id="d97bb-119">Esc</span><span class="sxs-lookup"><span data-stu-id="d97bb-119">Esc</span></span>                              |
+| <span data-ttu-id="d97bb-120">Sağ tıklatma benzetimi</span><span class="sxs-lookup"><span data-stu-id="d97bb-120">Simulate a right-click</span></span>                            | <span data-ttu-id="d97bb-121">Shift+F10</span><span class="sxs-lookup"><span data-stu-id="d97bb-121">Shift+F10</span></span>                        |
+| <span data-ttu-id="d97bb-122">Finance and Operations içerik menüsünü açın</span><span class="sxs-lookup"><span data-stu-id="d97bb-122">Open the Finance and Operations context menu</span></span> | <span data-ttu-id="d97bb-123">Ctrl+F10</span><span class="sxs-lookup"><span data-stu-id="d97bb-123">Ctrl+F10</span></span>                         |
+| <span data-ttu-id="d97bb-124">Form/iletişim kutusu üzerinde varsayılan düğmeyi yürütme</span><span class="sxs-lookup"><span data-stu-id="d97bb-124">Execute the default button on a form/dialog</span></span>       | <span data-ttu-id="d97bb-125">Alt+Enter</span><span class="sxs-lookup"><span data-stu-id="d97bb-125">Alt+Enter</span></span>                        |
+| <span data-ttu-id="d97bb-126">Bir düğmeyi veya döşemeyi tıklama</span><span class="sxs-lookup"><span data-stu-id="d97bb-126">Click a button or tile</span></span>                            | <span data-ttu-id="d97bb-127">Enter veya Boşluk</span><span class="sxs-lookup"><span data-stu-id="d97bb-127">Enter or Space</span></span>                   |
+| <span data-ttu-id="d97bb-128">Bir sayım döşemesi için yenileme bilgilerini görüntüleme</span><span class="sxs-lookup"><span data-stu-id="d97bb-128">View refresh information for a count tile</span></span>         | <span data-ttu-id="d97bb-129">Alt+Yukarı Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-129">Alt+Up Arrow</span></span>                     |
 
  
 
-## <a name="date-picker-shortcuts"></a>Tarih seçici kısayolları
+## <a name="date-picker-shortcuts"></a><span data-ttu-id="d97bb-130">Tarih seçici kısayolları</span><span class="sxs-lookup"><span data-stu-id="d97bb-130">Date picker shortcuts</span></span>
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
-| **Bunun için**                        | **Bas**                                 |
-| Tarih seçiciyi açma                  | Alt+Aşağı Ok                            |
-| Tarih seçicide tarihler arasında gezinme | Ctrl+Oklar                               |
-| Sonraki/önceki aya gitme       | Sayfa Aşağı / Sayfa Yukarı                       |
-| Sonraki/önceki yıla gitme        | Ctrl+Shift+Sayfa Aşağı / Ctrl+Shift+Sayfa Yukarı |
+| <span data-ttu-id="d97bb-131">**Bunun için**</span><span class="sxs-lookup"><span data-stu-id="d97bb-131">**To do this**</span></span>                        | <span data-ttu-id="d97bb-132">**Bas**</span><span class="sxs-lookup"><span data-stu-id="d97bb-132">**Press**</span></span>                                 |
+| <span data-ttu-id="d97bb-133">Tarih seçiciyi açma</span><span class="sxs-lookup"><span data-stu-id="d97bb-133">Open the date picker</span></span>                  | <span data-ttu-id="d97bb-134">Alt+Aşağı Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-134">Alt+Down Arrow</span></span>                            |
+| <span data-ttu-id="d97bb-135">Tarih seçicide tarihler arasında gezinme</span><span class="sxs-lookup"><span data-stu-id="d97bb-135">Move between dates in the date picker</span></span> | <span data-ttu-id="d97bb-136">Ctrl+Oklar</span><span class="sxs-lookup"><span data-stu-id="d97bb-136">Ctrl+Arrows</span></span>                               |
+| <span data-ttu-id="d97bb-137">Sonraki/önceki aya gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-137">Move to the next/previous month</span></span>       | <span data-ttu-id="d97bb-138">Sayfa Aşağı / Sayfa Yukarı</span><span class="sxs-lookup"><span data-stu-id="d97bb-138">Page Down / Page Up</span></span>                       |
+| <span data-ttu-id="d97bb-139">Sonraki/önceki yıla gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-139">Move to the next/previous year</span></span>        | <span data-ttu-id="d97bb-140">Ctrl+Shift+Sayfa Aşağı / Ctrl+Shift+Sayfa Yukarı</span><span class="sxs-lookup"><span data-stu-id="d97bb-140">Ctrl+Shift+Page Down / Ctrl+Shift+Page Up</span></span> |
 
  
 
-## <a name="factbox-shortcuts"></a>FactBox kısayolları
+## <a name="factbox-shortcuts"></a><span data-ttu-id="d97bb-141">FactBox kısayolları</span><span class="sxs-lookup"><span data-stu-id="d97bb-141">FactBox shortcuts</span></span>
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
-| FactBox bölmesini açma (veya zaten açıksa odağı FactBox bölmesine taşıma) | Ctrl+F2                                   |
-| FactBox bölmesini kapatma (odak FactBox bölmesindeyken)                         | Esc                                       |
-| Sonraki/önceki FactBox'a gitme (odak FactBox bölmesindeyken)              | Alt+Shift+Aşağı Ok / Alt+Shift+Yukarı Ok |
-| Sonraki/önceki &lt;n&gt;. FactBox'a gitme (odak FactBox bölmesindeyken)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
-| Bir FactBox'ı genişletme (odak FactBox başlığındayken)                             | Boşluk veya Enter                            |
-| Geçerli FactBox'ı daraltma                                                    | Alt+0                                     |
+| <span data-ttu-id="d97bb-142">FactBox bölmesini açma (veya zaten açıksa odağı FactBox bölmesine taşıma)</span><span class="sxs-lookup"><span data-stu-id="d97bb-142">Open the FactBox pane (or move focus to the FactBox pane if it is already open)</span></span> | <span data-ttu-id="d97bb-143">Ctrl+F2</span><span class="sxs-lookup"><span data-stu-id="d97bb-143">Ctrl+F2</span></span>                                   |
+| <span data-ttu-id="d97bb-144">FactBox bölmesini kapatma (odak FactBox bölmesindeyken)</span><span class="sxs-lookup"><span data-stu-id="d97bb-144">Close the FactBox pane (with focus in the FactBox pane)</span></span>                         | <span data-ttu-id="d97bb-145">Esc</span><span class="sxs-lookup"><span data-stu-id="d97bb-145">Esc</span></span>                                       |
+| <span data-ttu-id="d97bb-146">Sonraki/önceki FactBox'a gitme (odak FactBox bölmesindeyken)</span><span class="sxs-lookup"><span data-stu-id="d97bb-146">Move to the next/previous FactBox (with focus in the FactBox pane)</span></span>              | <span data-ttu-id="d97bb-147">Alt+Shift+Aşağı Ok / Alt+Shift+Yukarı Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-147">Alt+Shift+Down Arrow / Alt+Shift+Up Arrow</span></span> |
+| <span data-ttu-id="d97bb-148">Sonraki/önceki &lt;n&gt;. FactBox'a gitme (odak FactBox bölmesindeyken)</span><span class="sxs-lookup"><span data-stu-id="d97bb-148">Move to the &lt;n&gt;th FactBox (with focus in the FactBox pane)</span></span>                | <span data-ttu-id="d97bb-149">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span><span class="sxs-lookup"><span data-stu-id="d97bb-149">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>           |
+| <span data-ttu-id="d97bb-150">Bir FactBox'ı genişletme (odak FactBox başlığındayken)</span><span class="sxs-lookup"><span data-stu-id="d97bb-150">Expand a FactBox (with focus on the FactBox header)</span></span>                             | <span data-ttu-id="d97bb-151">Boşluk veya Enter</span><span class="sxs-lookup"><span data-stu-id="d97bb-151">Space or Enter</span></span>                            |
+| <span data-ttu-id="d97bb-152">Geçerli FactBox'ı daraltma</span><span class="sxs-lookup"><span data-stu-id="d97bb-152">Collapse the current FactBox</span></span>                                                    | <span data-ttu-id="d97bb-153">Alt+0</span><span class="sxs-lookup"><span data-stu-id="d97bb-153">Alt+0</span></span>                                     |
 
  
 
-## <a name="filtering-shortcuts"></a>Kısayolları filtreleme
+## <a name="filtering-shortcuts"></a><span data-ttu-id="d97bb-154">Kısayolları filtreleme</span><span class="sxs-lookup"><span data-stu-id="d97bb-154">Filtering shortcuts</span></span>
 |                                                                                                                     |               |
 |---------------------------------------------------------------------------------------------------------------------|---------------|
-| **Bunun için**                                                                                                      | **Bas**     |
-| Geçerli sütun için kılavuz filtresini açma                                                                          | Ctrl+G        |
-| Geçerli sütun için kılavuz filtresini kapatma                                                                         | Esc           |
-| Filtre bölmesini açma (veya Filtre bölmesi zaten açıksa odağı Filtre bölmesi ile ana form arasında değiştirme) | Ctrl+F3       |
-| Filtre bölmesini kapatma (odak Filtre bölmesindeyken)                                                               | Esc           |
-| Gelişmiş filtrelemeyi/sıralamayı açma                                                                                        | Ctrl+Shift+F3 |
+| <span data-ttu-id="d97bb-155">**Bunun için**</span><span class="sxs-lookup"><span data-stu-id="d97bb-155">**To do this**</span></span>                                                                                                      | <span data-ttu-id="d97bb-156">**Bas**</span><span class="sxs-lookup"><span data-stu-id="d97bb-156">**Press**</span></span>     |
+| <span data-ttu-id="d97bb-157">Geçerli sütun için kılavuz filtresini açma</span><span class="sxs-lookup"><span data-stu-id="d97bb-157">Open grid filtering for the current column</span></span>                                                                          | <span data-ttu-id="d97bb-158">Ctrl+G</span><span class="sxs-lookup"><span data-stu-id="d97bb-158">Ctrl+G</span></span>        |
+| <span data-ttu-id="d97bb-159">Geçerli sütun için kılavuz filtresini kapatma</span><span class="sxs-lookup"><span data-stu-id="d97bb-159">Close grid filtering for the current column</span></span>                                                                         | <span data-ttu-id="d97bb-160">Esc</span><span class="sxs-lookup"><span data-stu-id="d97bb-160">Esc</span></span>           |
+| <span data-ttu-id="d97bb-161">Filtre bölmesini açma (veya Filtre bölmesi zaten açıksa odağı Filtre bölmesi ile ana form arasında değiştirme)</span><span class="sxs-lookup"><span data-stu-id="d97bb-161">Open the Filter pane (or switch focus between the Filter pane and the main form if the Filter pane is already open)</span></span> | <span data-ttu-id="d97bb-162">Ctrl+F3</span><span class="sxs-lookup"><span data-stu-id="d97bb-162">Ctrl+F3</span></span>       |
+| <span data-ttu-id="d97bb-163">Filtre bölmesini kapatma (odak Filtre bölmesindeyken)</span><span class="sxs-lookup"><span data-stu-id="d97bb-163">Close the Filter pane (with focus in the Filter pane)</span></span>                                                               | <span data-ttu-id="d97bb-164">Esc</span><span class="sxs-lookup"><span data-stu-id="d97bb-164">Esc</span></span>           |
+| <span data-ttu-id="d97bb-165">Gelişmiş filtrelemeyi/sıralamayı açma</span><span class="sxs-lookup"><span data-stu-id="d97bb-165">Open advanced filtering/sort</span></span>                                                                                        | <span data-ttu-id="d97bb-166">Ctrl+Shift+F3</span><span class="sxs-lookup"><span data-stu-id="d97bb-166">Ctrl+Shift+F3</span></span> |
 
  
 
-## <a name="form-shortcuts"></a>Form kısayolları
+## <a name="form-shortcuts"></a><span data-ttu-id="d97bb-167">Form kısayolları</span><span class="sxs-lookup"><span data-stu-id="d97bb-167">Form shortcuts</span></span>
 |                                                                                                                                 |                   |
 |---------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| **Bunun için**                                                                                                                  | **Bas**         |
-| Yeni bir kayıt oluştur                                                                                                             | Alt+N             |
-| Kayıt silme                                                                                                                 | Alt+Del veya Alt+F9 |
-| Kaydı kaydetme                                                                                                                     | Alt+S veya Ctrl+S   |
-| Geri al (geri yükle)                                                                                                                | Ctrl+Shift+F5     |
-| Verileri yenileme                                                                                                                    | Shift+F5          |
-| Form üzerinde görünen ilk alana gitme                                                                                     | Alt+Shift+F       |
-| Düzenleme moduna geçme                                                                                                                | F2                |
-| Belge iliştirme                                                                                                               | Ctrl+Shift+A      |
-| Excel'e aktar                                                                                                                 | Ctrl+Shift+E      |
-| Önceki kayda gitme (kılavuz dışında)                                                                                    | Ctrl+Yukarı Ok     |
-| Sonraki kayda gitme (kılavuz dışında)                                                                                        | Ctrl+Aşağı Ok   |
-| İlk kayda gitme (kılavuz dışında)                                                                                       | Ctrl+Home         |
-| Son kayda gitme (kılavuz dışında)                                                                                        | Ctrl+End          |
-| Ayrıntılar formlarında gezinmeyi açma (veya zaten açıksa odağı gezinme listesi ile ana form arasında değiştirme) | Ctrl+F8           |
-| Ayrıntılar formunda gezinme listesini kapatma (odak gezinme listesindeyken)                                                   | Esc               |
+| <span data-ttu-id="d97bb-168">**Bunun için**</span><span class="sxs-lookup"><span data-stu-id="d97bb-168">**To do this**</span></span>                                                                                                                  | <span data-ttu-id="d97bb-169">**Bas**</span><span class="sxs-lookup"><span data-stu-id="d97bb-169">**Press**</span></span>         |
+| <span data-ttu-id="d97bb-170">Yeni bir kayıt oluştur</span><span class="sxs-lookup"><span data-stu-id="d97bb-170">Create a new record</span></span>                                                                                                             | <span data-ttu-id="d97bb-171">Alt+N</span><span class="sxs-lookup"><span data-stu-id="d97bb-171">Alt+N</span></span>             |
+| <span data-ttu-id="d97bb-172">Kayıt silme</span><span class="sxs-lookup"><span data-stu-id="d97bb-172">Delete a record</span></span>                                                                                                                 | <span data-ttu-id="d97bb-173">Alt+Del veya Alt+F9</span><span class="sxs-lookup"><span data-stu-id="d97bb-173">Alt+Del or Alt+F9</span></span> |
+| <span data-ttu-id="d97bb-174">Kaydı kaydetme</span><span class="sxs-lookup"><span data-stu-id="d97bb-174">Save record</span></span>                                                                                                                     | <span data-ttu-id="d97bb-175">Alt+S veya Ctrl+S</span><span class="sxs-lookup"><span data-stu-id="d97bb-175">Alt+S or Ctrl+S</span></span>   |
+| <span data-ttu-id="d97bb-176">Geri al (geri yükle)</span><span class="sxs-lookup"><span data-stu-id="d97bb-176">Revert (restore)</span></span>                                                                                                                | <span data-ttu-id="d97bb-177">Ctrl+Shift+F5</span><span class="sxs-lookup"><span data-stu-id="d97bb-177">Ctrl+Shift+F5</span></span>     |
+| <span data-ttu-id="d97bb-178">Verileri yenileme</span><span class="sxs-lookup"><span data-stu-id="d97bb-178">Data refresh</span></span>                                                                                                                    | <span data-ttu-id="d97bb-179">Shift+F5</span><span class="sxs-lookup"><span data-stu-id="d97bb-179">Shift+F5</span></span>          |
+| <span data-ttu-id="d97bb-180">Form üzerinde görünen ilk alana gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-180">Move to the visible first field on the form</span></span>                                                                                     | <span data-ttu-id="d97bb-181">Alt+Shift+F</span><span class="sxs-lookup"><span data-stu-id="d97bb-181">Alt+Shift+F</span></span>       |
+| <span data-ttu-id="d97bb-182">Düzenleme moduna geçme</span><span class="sxs-lookup"><span data-stu-id="d97bb-182">Toggle edit mode</span></span>                                                                                                                | <span data-ttu-id="d97bb-183">F2</span><span class="sxs-lookup"><span data-stu-id="d97bb-183">F2</span></span>                |
+| <span data-ttu-id="d97bb-184">Belge iliştirme</span><span class="sxs-lookup"><span data-stu-id="d97bb-184">Attach a document</span></span>                                                                                                               | <span data-ttu-id="d97bb-185">Ctrl+Shift+A</span><span class="sxs-lookup"><span data-stu-id="d97bb-185">Ctrl+Shift+A</span></span>      |
+| <span data-ttu-id="d97bb-186">Excel'e aktar</span><span class="sxs-lookup"><span data-stu-id="d97bb-186">Export to Excel</span></span>                                                                                                                 | <span data-ttu-id="d97bb-187">Ctrl+Shift+E</span><span class="sxs-lookup"><span data-stu-id="d97bb-187">Ctrl+Shift+E</span></span>      |
+| <span data-ttu-id="d97bb-188">Önceki kayda gitme (kılavuz dışında)</span><span class="sxs-lookup"><span data-stu-id="d97bb-188">Move to the previous record (outside a grid)</span></span>                                                                                    | <span data-ttu-id="d97bb-189">Ctrl+Yukarı Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-189">Ctrl+Up Arrow</span></span>     |
+| <span data-ttu-id="d97bb-190">Sonraki kayda gitme (kılavuz dışında)</span><span class="sxs-lookup"><span data-stu-id="d97bb-190">Move to the next record (outside a grid)</span></span>                                                                                        | <span data-ttu-id="d97bb-191">Ctrl+Aşağı Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-191">Ctrl+Down Arrow</span></span>   |
+| <span data-ttu-id="d97bb-192">İlk kayda gitme (kılavuz dışında)</span><span class="sxs-lookup"><span data-stu-id="d97bb-192">Move to the first record (outside a grid)</span></span>                                                                                       | <span data-ttu-id="d97bb-193">Ctrl+Home</span><span class="sxs-lookup"><span data-stu-id="d97bb-193">Ctrl+Home</span></span>         |
+| <span data-ttu-id="d97bb-194">Son kayda gitme (kılavuz dışında)</span><span class="sxs-lookup"><span data-stu-id="d97bb-194">Move to the last record (outside a grid)</span></span>                                                                                        | <span data-ttu-id="d97bb-195">Ctrl+End</span><span class="sxs-lookup"><span data-stu-id="d97bb-195">Ctrl+End</span></span>          |
+| <span data-ttu-id="d97bb-196">Ayrıntılar formlarında gezinmeyi açma (veya zaten açıksa odağı gezinme listesi ile ana form arasında değiştirme)</span><span class="sxs-lookup"><span data-stu-id="d97bb-196">Open the navigation list on Details forms (or switch focus between the navigation list and the main form if it is already open)</span></span> | <span data-ttu-id="d97bb-197">Ctrl+F8</span><span class="sxs-lookup"><span data-stu-id="d97bb-197">Ctrl+F8</span></span>           |
+| <span data-ttu-id="d97bb-198">Ayrıntılar formunda gezinme listesini kapatma (odak gezinme listesindeyken)</span><span class="sxs-lookup"><span data-stu-id="d97bb-198">Close the navigation list on Details form (with focus in the navigation list)</span></span>                                                   | <span data-ttu-id="d97bb-199">Esc</span><span class="sxs-lookup"><span data-stu-id="d97bb-199">Esc</span></span>               |
 
  
 
-## <a name="form-navigation-shortcuts"></a>Formda gezinme kısayolları
+## <a name="form-navigation-shortcuts"></a><span data-ttu-id="d97bb-200">Formda gezinme kısayolları</span><span class="sxs-lookup"><span data-stu-id="d97bb-200">Form navigation shortcuts</span></span>
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
-| **Bunun için**                                      | **Bas**                                    |
-| Sonraki/önceki alana gitme                     | Tab / Shift+Tab                              |
-| Sonraki/önceki sekmesine gitme                       | Alt+Shift+Sağ Ok / Alt+Shift+Sol Ok |
-| Sonraki/önceki hızlı sekmeye gitme                   | Alt+Shift+Aşağı Ok / Alt+Shift+Yukarı Ok    |
-| &lt;n&gt;. hızlı sekmeye git                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
-| &lt;n&gt;. sıradaki sekmeye git                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
-| Bir hızlı sekmeyi genişletme (odak hızlı şekme başlığındayken) | Boşluk veya Enter                               |
-| Geçerli hızlı sekmeyi daraltma                        | Alt+0                                        |
-| Kılavuz görünümüne geçme                                 | Ctrl+Shift+G                                 |
-| Ayrıntılar görünümüne geçme                              | Ctrl+Shift+D                                 |
-| Başlık görünümüne geçme                               | Ctrl+Shift+H                                 |
-| Satırlar görünümüne geçme                                | Ctrl+Shift+L                                 |
-| Formu kapatma (Geri'ye tıklama)                         | Esc                                          |
-| Formu açık kaydetme ile kapatma                   | Shift+Esc                                    |
-| Formu kaydedilmemiş değişiklikleri iptal ederek kapatma       | Alt+Shift+Q                                  |
+| <span data-ttu-id="d97bb-201">**Bunun için**</span><span class="sxs-lookup"><span data-stu-id="d97bb-201">**To do this**</span></span>                                      | <span data-ttu-id="d97bb-202">**Bas**</span><span class="sxs-lookup"><span data-stu-id="d97bb-202">**Press**</span></span>                                    |
+| <span data-ttu-id="d97bb-203">Sonraki/önceki alana gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-203">Move to the next/previous field</span></span>                     | <span data-ttu-id="d97bb-204">Tab / Shift+Tab</span><span class="sxs-lookup"><span data-stu-id="d97bb-204">Tab / Shift+Tab</span></span>                              |
+| <span data-ttu-id="d97bb-205">Sonraki/önceki sekmesine gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-205">Move to the next/previous tab</span></span>                       | <span data-ttu-id="d97bb-206">Alt+Shift+Sağ Ok / Alt+Shift+Sol Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-206">Alt+Shift+Right Arrow / Alt+Shift+Left Arrow</span></span> |
+| <span data-ttu-id="d97bb-207">Sonraki/önceki hızlı sekmeye gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-207">Move to the next/previous FastTab</span></span>                   | <span data-ttu-id="d97bb-208">Alt+Shift+Aşağı Ok / Alt+Shift+Yukarı Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-208">Alt+Shift+Down Arrow / Alt+Shift+Up Arrow</span></span>    |
+| <span data-ttu-id="d97bb-209">&lt;n&gt;. hızlı sekmeye git</span><span class="sxs-lookup"><span data-stu-id="d97bb-209">Move to the &lt;n&gt;th FastTab</span></span>                     | <span data-ttu-id="d97bb-210">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span><span class="sxs-lookup"><span data-stu-id="d97bb-210">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>              |
+| <span data-ttu-id="d97bb-211">&lt;n&gt;. sıradaki sekmeye git</span><span class="sxs-lookup"><span data-stu-id="d97bb-211">Move to the &lt;n&gt;th tab</span></span>                         | <span data-ttu-id="d97bb-212">Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)</span><span class="sxs-lookup"><span data-stu-id="d97bb-212">Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>        |
+| <span data-ttu-id="d97bb-213">Bir hızlı sekmeyi genişletme (odak hızlı şekme başlığındayken)</span><span class="sxs-lookup"><span data-stu-id="d97bb-213">Expand a FastTab (with focus on the FastTab header)</span></span> | <span data-ttu-id="d97bb-214">Boşluk veya Enter</span><span class="sxs-lookup"><span data-stu-id="d97bb-214">Space or Enter</span></span>                               |
+| <span data-ttu-id="d97bb-215">Geçerli hızlı sekmeyi daraltma</span><span class="sxs-lookup"><span data-stu-id="d97bb-215">Collapse the current FastTab</span></span>                        | <span data-ttu-id="d97bb-216">Alt+0</span><span class="sxs-lookup"><span data-stu-id="d97bb-216">Alt+0</span></span>                                        |
+| <span data-ttu-id="d97bb-217">Kılavuz görünümüne geçme</span><span class="sxs-lookup"><span data-stu-id="d97bb-217">Switch to grid view</span></span>                                 | <span data-ttu-id="d97bb-218">Ctrl+Shift+G</span><span class="sxs-lookup"><span data-stu-id="d97bb-218">Ctrl+Shift+G</span></span>                                 |
+| <span data-ttu-id="d97bb-219">Ayrıntılar görünümüne geçme</span><span class="sxs-lookup"><span data-stu-id="d97bb-219">Switch to details view</span></span>                              | <span data-ttu-id="d97bb-220">Ctrl+Shift+D</span><span class="sxs-lookup"><span data-stu-id="d97bb-220">Ctrl+Shift+D</span></span>                                 |
+| <span data-ttu-id="d97bb-221">Başlık görünümüne geçme</span><span class="sxs-lookup"><span data-stu-id="d97bb-221">Switch to header view</span></span>                               | <span data-ttu-id="d97bb-222">Ctrl+Shift+H</span><span class="sxs-lookup"><span data-stu-id="d97bb-222">Ctrl+Shift+H</span></span>                                 |
+| <span data-ttu-id="d97bb-223">Satırlar görünümüne geçme</span><span class="sxs-lookup"><span data-stu-id="d97bb-223">Switch to lines view</span></span>                                | <span data-ttu-id="d97bb-224">Ctrl+Shift+L</span><span class="sxs-lookup"><span data-stu-id="d97bb-224">Ctrl+Shift+L</span></span>                                 |
+| <span data-ttu-id="d97bb-225">Formu kapatma (Geri'ye tıklama)</span><span class="sxs-lookup"><span data-stu-id="d97bb-225">Close the form (click Back)</span></span>                         | <span data-ttu-id="d97bb-226">Esc</span><span class="sxs-lookup"><span data-stu-id="d97bb-226">Esc</span></span>                                          |
+| <span data-ttu-id="d97bb-227">Formu açık kaydetme ile kapatma</span><span class="sxs-lookup"><span data-stu-id="d97bb-227">Close the form with explicit save</span></span>                   | <span data-ttu-id="d97bb-228">Shift+Esc</span><span class="sxs-lookup"><span data-stu-id="d97bb-228">Shift+Esc</span></span>                                    |
+| <span data-ttu-id="d97bb-229">Formu kaydedilmemiş değişiklikleri iptal ederek kapatma</span><span class="sxs-lookup"><span data-stu-id="d97bb-229">Close the form discarding any unsaved changes</span></span>       | <span data-ttu-id="d97bb-230">Alt+Shift+Q</span><span class="sxs-lookup"><span data-stu-id="d97bb-230">Alt+Shift+Q</span></span>                                  |
 
  
 
-## <a name="grid-shortcuts"></a>Kılavuz kısayolları
+## <a name="grid-shortcuts"></a><span data-ttu-id="d97bb-231">Kılavuz kısayolları</span><span class="sxs-lookup"><span data-stu-id="d97bb-231">Grid shortcuts</span></span>
 |                                                                                                               |                                 |
 |---------------------------------------------------------------------------------------------------------------|---------------------------------|
-| **Bunun için**                                                                                                | **Bas**                       |
-| Sonraki/önceki sütuna gitme                                                                              | Tab / Shift+Tab                 |
-| Sonraki/önceki satıra gitme                                                                                 | Aşağı Ok / Yukarı Ok           |
-| Sonraki/önceki satıra seçim yapmadan gitme (Not: Bu kısayol yalnızca çok seçimli senaryolar için geçerlidir.) | Ctrl+Yukarı Ok / Ctrl+Aşağı Ok |
-| Geçerli satırı seçme/temizleme (Not: Bu kısayol yalnızca çok seçimli senaryolar için geçerlidir.)                    | Ctrl+Boşluk / Ctrl+Tıklama         |
-| Sonraki/önceki satırı seçilen kümeye ekleme (Not: Bu kısayol yalnızca çok seçimli senaryolar için geçerlidir.)   | Shift+Boşluk                     |
-| Bir dizi satırı seçilen kümeye ekleme (Not: Bu kısayol yalnızca çok seçimli senaryolar için geçerlidir.)         | Shift+Tıklama                     |
-| Sonraki/önceki veri sayfasına gitme                                                                          | Sayfa Yukarı / Sayfa Aşağı             |
-| Kılavuzun altında yeni bir satır oluşturma                                                                    | Aşağı Ok (son satırdan)  |
-| Tüm satırları seçme veya temizleme                                                                                      | Ctrl+Shift+M                    |
-| İlk kayda gitme                                                                                      | Ctrl+Home                       |
-| Son kayda gitme                                                                                       | Ctrl+End                        |
+| <span data-ttu-id="d97bb-232">**Bunun için**</span><span class="sxs-lookup"><span data-stu-id="d97bb-232">**To do this**</span></span>                                                                                                | <span data-ttu-id="d97bb-233">**Bas**</span><span class="sxs-lookup"><span data-stu-id="d97bb-233">**Press**</span></span>                       |
+| <span data-ttu-id="d97bb-234">Sonraki/önceki sütuna gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-234">Move to the next/previous column</span></span>                                                                              | <span data-ttu-id="d97bb-235">Tab / Shift+Tab</span><span class="sxs-lookup"><span data-stu-id="d97bb-235">Tab / Shift+Tab</span></span>                 |
+| <span data-ttu-id="d97bb-236">Sonraki/önceki satıra gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-236">Move to the next/previous row</span></span>                                                                                 | <span data-ttu-id="d97bb-237">Aşağı Ok / Yukarı Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-237">Down Arrow / Up Arrow</span></span>           |
+| <span data-ttu-id="d97bb-238">Sonraki/önceki satıra seçim yapmadan gitme (Not: Bu kısayol yalnızca çok seçimli senaryolar için geçerlidir.)</span><span class="sxs-lookup"><span data-stu-id="d97bb-238">Move to the next/previous row without selecting (Note: This shortcut applies to multi-select scenarios only.)</span></span> | <span data-ttu-id="d97bb-239">Ctrl+Yukarı Ok / Ctrl+Aşağı Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-239">Ctrl+Up Arrow / Ctrl+Down Arrow</span></span> |
+| <span data-ttu-id="d97bb-240">Geçerli satırı seçme/temizleme (Not: Bu kısayol yalnızca çok seçimli senaryolar için geçerlidir.)</span><span class="sxs-lookup"><span data-stu-id="d97bb-240">Select/clear the current row (Note: This shortcut applies to multi-select scenarios only.)</span></span>                    | <span data-ttu-id="d97bb-241">Ctrl+Boşluk / Ctrl+Tıklama</span><span class="sxs-lookup"><span data-stu-id="d97bb-241">Ctrl+Space / Ctrl+Click</span></span>         |
+| <span data-ttu-id="d97bb-242">Sonraki/önceki satırı seçilen kümeye ekleme (Not: Bu kısayol yalnızca çok seçimli senaryolar için geçerlidir.)</span><span class="sxs-lookup"><span data-stu-id="d97bb-242">Add the next/previous row to the selected set (Note: This shortcut applies to multi-select scenarios only.)</span></span>   | <span data-ttu-id="d97bb-243">Shift+Boşluk</span><span class="sxs-lookup"><span data-stu-id="d97bb-243">Shift+Space</span></span>                     |
+| <span data-ttu-id="d97bb-244">Bir dizi satırı seçilen kümeye ekleme (Not: Bu kısayol yalnızca çok seçimli senaryolar için geçerlidir.)</span><span class="sxs-lookup"><span data-stu-id="d97bb-244">Add a range of rows to the selected set (Note: This shortcut applies to multi-select scenarios only.)</span></span>         | <span data-ttu-id="d97bb-245">Shift+Tıklama</span><span class="sxs-lookup"><span data-stu-id="d97bb-245">Shift+Click</span></span>                     |
+| <span data-ttu-id="d97bb-246">Sonraki/önceki veri sayfasına gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-246">Go to the next/previous page of data</span></span>                                                                          | <span data-ttu-id="d97bb-247">Sayfa Yukarı / Sayfa Aşağı</span><span class="sxs-lookup"><span data-stu-id="d97bb-247">Page Up / Page Down</span></span>             |
+| <span data-ttu-id="d97bb-248">Kılavuzun altında yeni bir satır oluşturma</span><span class="sxs-lookup"><span data-stu-id="d97bb-248">Create a new row at the bottom of the grid</span></span>                                                                    | <span data-ttu-id="d97bb-249">Aşağı Ok (son satırdan)</span><span class="sxs-lookup"><span data-stu-id="d97bb-249">Down Arrow (from the last row)</span></span>  |
+| <span data-ttu-id="d97bb-250">Tüm satırları seçme veya temizleme</span><span class="sxs-lookup"><span data-stu-id="d97bb-250">Select or clear all rows</span></span>                                                                                      | <span data-ttu-id="d97bb-251">Ctrl+Shift+M</span><span class="sxs-lookup"><span data-stu-id="d97bb-251">Ctrl+Shift+M</span></span>                    |
+| <span data-ttu-id="d97bb-252">İlk kayda gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-252">Move to the first record</span></span>                                                                                      | <span data-ttu-id="d97bb-253">Ctrl+Home</span><span class="sxs-lookup"><span data-stu-id="d97bb-253">Ctrl+Home</span></span>                       |
+| <span data-ttu-id="d97bb-254">Son kayda gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-254">Move to the last record</span></span>                                                                                       | <span data-ttu-id="d97bb-255">Ctrl+End</span><span class="sxs-lookup"><span data-stu-id="d97bb-255">Ctrl+End</span></span>                        |
 
  
 
-## <a name="input-control-shortcuts"></a>Giriş denetimi kısayolları
+## <a name="input-control-shortcuts"></a><span data-ttu-id="d97bb-256">Giriş denetimi kısayolları</span><span class="sxs-lookup"><span data-stu-id="d97bb-256">Input control shortcuts</span></span>
 |                                                            |                               |
 |------------------------------------------------------------|-------------------------------|
-| **Bunun için**                                             | **Bas**                     |
-| Tarih alanına oturum tarihini girme                     | D+Tab                         |
-| Tarih alanına geçerli tarihi girme                     | T+Tab                         |
-| Arama, açılan kutu, tarih seçici, açılır iletişim kutusu açma           | Alt+Aşağı Ok                |
-| Aramayı, açılan kutuyu, tarih seçiciyi, açılır iletişim kutusunu kapatma          | Esc                           |
-| Odağı bir aramaya taşıma (arama zaten açıkken) | Alt+Aşağı Ok                |
-| Denetimin gelişmiş önizlemesini açma                        | Alt+Yukarı Ok                  |
-| Geçerli alandaki metni seçme                           | Ctrl+A                        |
-| HTML düzenleyici denetimindeki metin alanına girme/çıkma        | Alt+Aşağı Ok / Alt+Yukarı Ok |
+| <span data-ttu-id="d97bb-257">**Bunun için**</span><span class="sxs-lookup"><span data-stu-id="d97bb-257">**To do this**</span></span>                                             | <span data-ttu-id="d97bb-258">**Bas**</span><span class="sxs-lookup"><span data-stu-id="d97bb-258">**Press**</span></span>                     |
+| <span data-ttu-id="d97bb-259">Tarih alanına oturum tarihini girme</span><span class="sxs-lookup"><span data-stu-id="d97bb-259">Enter the session date in a date field</span></span>                     | <span data-ttu-id="d97bb-260">D+Tab</span><span class="sxs-lookup"><span data-stu-id="d97bb-260">D+Tab</span></span>                         |
+| <span data-ttu-id="d97bb-261">Tarih alanına geçerli tarihi girme</span><span class="sxs-lookup"><span data-stu-id="d97bb-261">Enter the current date in a date field</span></span>                     | <span data-ttu-id="d97bb-262">T+Tab</span><span class="sxs-lookup"><span data-stu-id="d97bb-262">T+Tab</span></span>                         |
+| <span data-ttu-id="d97bb-263">Arama, açılan kutu, tarih seçici, açılır iletişim kutusu açma</span><span class="sxs-lookup"><span data-stu-id="d97bb-263">Open lookup, combo box, date picker, drop dialog</span></span>           | <span data-ttu-id="d97bb-264">Alt+Aşağı Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-264">Alt+Down Arrow</span></span>                |
+| <span data-ttu-id="d97bb-265">Aramayı, açılan kutuyu, tarih seçiciyi, açılır iletişim kutusunu kapatma</span><span class="sxs-lookup"><span data-stu-id="d97bb-265">Close lookup, combo box, date picker, drop dialog</span></span>          | <span data-ttu-id="d97bb-266">Esc</span><span class="sxs-lookup"><span data-stu-id="d97bb-266">Esc</span></span>                           |
+| <span data-ttu-id="d97bb-267">Odağı bir aramaya taşıma (arama zaten açıkken)</span><span class="sxs-lookup"><span data-stu-id="d97bb-267">Move focus into a lookup (when the lookup is already open)</span></span> | <span data-ttu-id="d97bb-268">Alt+Aşağı Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-268">Alt+Down Arrow</span></span>                |
+| <span data-ttu-id="d97bb-269">Denetimin gelişmiş önizlemesini açma</span><span class="sxs-lookup"><span data-stu-id="d97bb-269">Open the control's enhanced preview</span></span>                        | <span data-ttu-id="d97bb-270">Alt+Yukarı Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-270">Alt+Up Arrow</span></span>                  |
+| <span data-ttu-id="d97bb-271">Geçerli alandaki metni seçme</span><span class="sxs-lookup"><span data-stu-id="d97bb-271">Select text in the current field</span></span>                           | <span data-ttu-id="d97bb-272">Ctrl+A</span><span class="sxs-lookup"><span data-stu-id="d97bb-272">Ctrl+A</span></span>                        |
+| <span data-ttu-id="d97bb-273">HTML düzenleyici denetimindeki metin alanına girme/çıkma</span><span class="sxs-lookup"><span data-stu-id="d97bb-273">Enter/leave the text area in an HTML editor control</span></span>        | <span data-ttu-id="d97bb-274">Alt+Aşağı Ok / Alt+Yukarı Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-274">Alt+Down Arrow / Alt+Up Arrow</span></span> |
 
  
 
-## <a name="messaging-shortcuts"></a>İleti kısayolları
+## <a name="messaging-shortcuts"></a><span data-ttu-id="d97bb-275">İleti kısayolları</span><span class="sxs-lookup"><span data-stu-id="d97bb-275">Messaging shortcuts</span></span>
 |                          |               |
 |--------------------------|---------------|
-| **Bunun için**           | **Bas**     |
-| İleti Merkezi'ne gitme | Ctrl+Shift+F7 |
-| İleti Çubuğu'na gitme    | Ctrl+F7       |
+| <span data-ttu-id="d97bb-276">**Bunun için**</span><span class="sxs-lookup"><span data-stu-id="d97bb-276">**To do this**</span></span>           | <span data-ttu-id="d97bb-277">**Bas**</span><span class="sxs-lookup"><span data-stu-id="d97bb-277">**Press**</span></span>     |
+| <span data-ttu-id="d97bb-278">İleti Merkezi'ne gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-278">Go to the Message Center</span></span> | <span data-ttu-id="d97bb-279">Ctrl+Shift+F7</span><span class="sxs-lookup"><span data-stu-id="d97bb-279">Ctrl+Shift+F7</span></span> |
+| <span data-ttu-id="d97bb-280">İleti Çubuğu'na gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-280">Go to the Message Bar</span></span>    | <span data-ttu-id="d97bb-281">Ctrl+F7</span><span class="sxs-lookup"><span data-stu-id="d97bb-281">Ctrl+F7</span></span>       |
 
  
 
-## <a name="navigation-shortcuts"></a>Gezinme kısayolları
+## <a name="navigation-shortcuts"></a><span data-ttu-id="d97bb-282">Gezinme kısayolları</span><span class="sxs-lookup"><span data-stu-id="d97bb-282">Navigation shortcuts</span></span>
 |                                                                           |                 |
 |---------------------------------------------------------------------------|-----------------|
-| **Bunun için**                                                            | **Bas**       |
-| Panoya gitme                                                       | Alt+Shift+Home  |
-| Gezinme çubuğuna gitme                                                  | Alt+Shift+F1    |
-| Gezinme bölmesine gitme                                                 | Alt+F1          |
-| Bir formu sık kullanılanlara alma/sık kullanılanlardan çıkarma (odak gezinti bölmesindeki bir formdadır) | Shift+F         |
-| Şirket seçiciye gitme                                                  | Ctrl+Shift+O    |
-| Gezinme aramasına gitme                                                   | Ctrl+/ veya Alt+G |
-| Yardım bölmesini açma                                                        | Ctrl+?          |
-| İzleme ayrıştırıcıyı açma                                                     | Alt+Shift+T     |
+| <span data-ttu-id="d97bb-283">**Bunun için**</span><span class="sxs-lookup"><span data-stu-id="d97bb-283">**To do this**</span></span>                                                            | <span data-ttu-id="d97bb-284">**Bas**</span><span class="sxs-lookup"><span data-stu-id="d97bb-284">**Press**</span></span>       |
+| <span data-ttu-id="d97bb-285">Panoya gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-285">Go to the dashboard</span></span>                                                       | <span data-ttu-id="d97bb-286">Alt+Shift+Home</span><span class="sxs-lookup"><span data-stu-id="d97bb-286">Alt+Shift+Home</span></span>  |
+| <span data-ttu-id="d97bb-287">Gezinme çubuğuna gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-287">Go to the navigation bar</span></span>                                                  | <span data-ttu-id="d97bb-288">Alt+Shift+F1</span><span class="sxs-lookup"><span data-stu-id="d97bb-288">Alt+Shift+F1</span></span>    |
+| <span data-ttu-id="d97bb-289">Gezinme bölmesine gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-289">Go to the navigation pane</span></span>                                                 | <span data-ttu-id="d97bb-290">Alt+F1</span><span class="sxs-lookup"><span data-stu-id="d97bb-290">Alt+F1</span></span>          |
+| <span data-ttu-id="d97bb-291">Bir formu sık kullanılanlara alma/sık kullanılanlardan çıkarma (odak gezinti bölmesindeki bir formdadır)</span><span class="sxs-lookup"><span data-stu-id="d97bb-291">Favorite/un-favorite a form (with focus on a form in the navigation pane)</span></span> | <span data-ttu-id="d97bb-292">Shift+F</span><span class="sxs-lookup"><span data-stu-id="d97bb-292">Shift+F</span></span>         |
+| <span data-ttu-id="d97bb-293">Şirket seçiciye gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-293">Go to the company picker</span></span>                                                  | <span data-ttu-id="d97bb-294">Ctrl+Shift+O</span><span class="sxs-lookup"><span data-stu-id="d97bb-294">Ctrl+Shift+O</span></span>    |
+| <span data-ttu-id="d97bb-295">Gezinme aramasına gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-295">Go to navigation search</span></span>                                                   | <span data-ttu-id="d97bb-296">Ctrl+/ veya Alt+G</span><span class="sxs-lookup"><span data-stu-id="d97bb-296">Ctrl+/ or Alt+G</span></span> |
+| <span data-ttu-id="d97bb-297">Yardım bölmesini açma</span><span class="sxs-lookup"><span data-stu-id="d97bb-297">Open the help pane</span></span>                                                        | <span data-ttu-id="d97bb-298">Ctrl+?</span><span class="sxs-lookup"><span data-stu-id="d97bb-298">Ctrl+?</span></span>          |
+| <span data-ttu-id="d97bb-299">İzleme ayrıştırıcıyı açma</span><span class="sxs-lookup"><span data-stu-id="d97bb-299">Open the trace parser</span></span>                                                     | <span data-ttu-id="d97bb-300">Alt+Shift+T</span><span class="sxs-lookup"><span data-stu-id="d97bb-300">Alt+Shift+T</span></span>     |
 
  
 
-## <a name="segmented-entry-shortcuts"></a>Bölümlenmiş giriş kısayolları
+## <a name="segmented-entry-shortcuts"></a><span data-ttu-id="d97bb-301">Bölümlenmiş giriş kısayolları</span><span class="sxs-lookup"><span data-stu-id="d97bb-301">Segmented entry shortcuts</span></span>
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **Bunun için**                                                                                                          | **Basın**                        |
-| Açılır listeyi açma (açılır liste kapalıyken)                                                             | Alt+Aşağı Ok                   |
-| Odağı açılır listedeki geçerli bölüm için giriş alanına taşıma (açılır liste zaten açıkken) | Alt+Aşağı Ok                   |
-| Açılır listeyi kapatma                                                                                                | Alt+Yukarı Ok                     |
-| Açılır listenin sağ bölümünü açma/kapatma                                                                      | Alt+Sol Ok / Alt+Sağ Ok |
-| "Geçerli olanları göster" ve "Tümünü Göster" modları arasında geçiş yapma                                                                        | Alt+W                            |
-| Açılır listeden değer seçme ve sonraki bölüme taşıma                                                       | Gir                            |
-| Sayfadaki sonraki/önceki denetime gitme (odak giriş denetimindeyken)                                          | Tab / Shift+Tab                  |
-| Çıkmadaki sonraki/önceki giriş alanına gitme (odak açılır listedeyken)                               | Tab / Shift+Tab                  |
-| Aramada bir satır yukarı/aşağı gitme                                                                                        | Yukarı Ok / Aşağı Ok            |
-| Aramada bir sayfa yukarı/aşağı gitme                                                                                       | Sayfa Yukarı / Sayfa Aşağı              |
-| Aramanın üst/alt kısmına gitme                                                                                    | Home / End                       |
+| <span data-ttu-id="d97bb-302">**Bunun için**</span><span class="sxs-lookup"><span data-stu-id="d97bb-302">**To do this**</span></span>                                                                                                          | <span data-ttu-id="d97bb-303">**Basın**</span><span class="sxs-lookup"><span data-stu-id="d97bb-303">**Press**</span></span>                        |
+| <span data-ttu-id="d97bb-304">Açılır listeyi açma (açılır liste kapalıyken)</span><span class="sxs-lookup"><span data-stu-id="d97bb-304">Open the drop-down list (when the drop-down list is closed)</span></span>                                                             | <span data-ttu-id="d97bb-305">Alt+Aşağı Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-305">Alt+Down Arrow</span></span>                   |
+| <span data-ttu-id="d97bb-306">Odağı açılır listedeki geçerli bölüm için giriş alanına taşıma (açılır liste zaten açıkken)</span><span class="sxs-lookup"><span data-stu-id="d97bb-306">Move focus into the input field for the current segment in the drop-down list (when the drop-down list is already open)</span></span> | <span data-ttu-id="d97bb-307">Alt+Aşağı Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-307">Alt+Down Arrow</span></span>                   |
+| <span data-ttu-id="d97bb-308">Açılır listeyi kapatma</span><span class="sxs-lookup"><span data-stu-id="d97bb-308">Close the drop-down list</span></span>                                                                                                | <span data-ttu-id="d97bb-309">Alt+Yukarı Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-309">Alt+Up Arrow</span></span>                     |
+| <span data-ttu-id="d97bb-310">Açılır listenin sağ bölümünü açma/kapatma</span><span class="sxs-lookup"><span data-stu-id="d97bb-310">Close/open the right portion of the drop-down list</span></span>                                                                      | <span data-ttu-id="d97bb-311">Alt+Sol Ok / Alt+Sağ Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-311">Alt+Left Arrow / Alt+Right Arrow</span></span> |
+| <span data-ttu-id="d97bb-312">"Geçerli olanları göster" ve "Tümünü Göster" modları arasında geçiş yapma</span><span class="sxs-lookup"><span data-stu-id="d97bb-312">Toggle between “Show valid” and “Show all” modes</span></span>                                                                        | <span data-ttu-id="d97bb-313">Alt+W</span><span class="sxs-lookup"><span data-stu-id="d97bb-313">Alt+W</span></span>                            |
+| <span data-ttu-id="d97bb-314">Açılır listeden değer seçme ve sonraki bölüme taşıma</span><span class="sxs-lookup"><span data-stu-id="d97bb-314">Select the value from drop-down list and move to the next segment</span></span>                                                       | <span data-ttu-id="d97bb-315">Gir</span><span class="sxs-lookup"><span data-stu-id="d97bb-315">Enter</span></span>                            |
+| <span data-ttu-id="d97bb-316">Sayfadaki sonraki/önceki denetime gitme (odak giriş denetimindeyken)</span><span class="sxs-lookup"><span data-stu-id="d97bb-316">Move to the next/previous control on the page (when focus is in input control)</span></span>                                          | <span data-ttu-id="d97bb-317">Tab / Shift+Tab</span><span class="sxs-lookup"><span data-stu-id="d97bb-317">Tab / Shift+Tab</span></span>                  |
+| <span data-ttu-id="d97bb-318">Çıkmadaki sonraki/önceki giriş alanına gitme (odak açılır listedeyken)</span><span class="sxs-lookup"><span data-stu-id="d97bb-318">Move to the next/previous input field in the flyout (when focus is in the drop-down list)</span></span>                               | <span data-ttu-id="d97bb-319">Tab / Shift+Tab</span><span class="sxs-lookup"><span data-stu-id="d97bb-319">Tab / Shift+Tab</span></span>                  |
+| <span data-ttu-id="d97bb-320">Aramada bir satır yukarı/aşağı gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-320">Move up/down a row in the lookup</span></span>                                                                                        | <span data-ttu-id="d97bb-321">Yukarı Ok / Aşağı Ok</span><span class="sxs-lookup"><span data-stu-id="d97bb-321">Up Arrow / Down Arrow</span></span>            |
+| <span data-ttu-id="d97bb-322">Aramada bir sayfa yukarı/aşağı gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-322">Move up/down a page in the lookup</span></span>                                                                                       | <span data-ttu-id="d97bb-323">Sayfa Yukarı / Sayfa Aşağı</span><span class="sxs-lookup"><span data-stu-id="d97bb-323">Page Up / Page Down</span></span>              |
+| <span data-ttu-id="d97bb-324">Aramanın üst/alt kısmına gitme</span><span class="sxs-lookup"><span data-stu-id="d97bb-324">Move to the top/bottom of the lookup</span></span>                                                                                    | <span data-ttu-id="d97bb-325">Home / End</span><span class="sxs-lookup"><span data-stu-id="d97bb-325">Home / End</span></span>                       |
 
  
 

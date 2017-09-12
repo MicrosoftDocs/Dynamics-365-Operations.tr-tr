@@ -22,132 +22,132 @@ ms.contentlocale: tr-tr
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="modify-format-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için uygulama verileri güncelleştirmesiyle belge oluşturmak üzere biçimi değiştirme
+# <a name="modify-format-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a><span data-ttu-id="469c4-103">Elektronik raporlama (ER) için uygulama verileri güncelleştirmesiyle belge oluşturmak üzere biçimi değiştirme</span><span class="sxs-lookup"><span data-stu-id="469c4-103">Modify format to generate documents with application data update for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordamdaki adımları tamamlamak için ilk önce "ER Uygulama veri güncelleştirmesi ile belgeler oluştur (Bölüm 3: Model ve eşlemeyi değiştir)" yordamını tamamlamalısınız.
+<span data-ttu-id="469c4-104">Bu yordamdaki adımları tamamlamak için ilk önce "ER Uygulama veri güncelleştirmesi ile belgeler oluştur (Bölüm 3: Model ve eşlemeyi değiştir)" yordamını tamamlamalısınız.</span><span class="sxs-lookup"><span data-stu-id="469c4-104">To complete the steps in this procedure, you must first complete the procedure, "ER Generate documents with application data update (Part 3: Modify model and mapping)".</span></span>
 
-Bu yordamdaki adımlar bir Elektronik raporlama (ER) yapılandırmasının, bir elektronik belge oluşturmak ve uygulama verisini güncelleştirmek için nasıl kullanılacağını açıklar. Bu yordamda, ER yapılandırmaları sadece elektronik belgeler oluşturmakta kullanmak için değil, aynı zamanda uygulama verisini güncelleştirmek için de değiştirirsiniz. Bu yordam, sistem yöneticisi veya elektronik raporlama geliştiricisi rolüne atanmış kullanıcılar için oluşturulmuştur. Bu adımlar DEMF veri kümesi kullanılarak tamamlanabilir.
+<span data-ttu-id="469c4-105">Bu yordamdaki adımlar bir Elektronik raporlama (ER) yapılandırmasının, bir elektronik belge oluşturmak ve uygulama verisini güncelleştirmek için nasıl kullanılacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="469c4-105">The steps in this procedure explain how to design Electronic reporting (ER) configurations to generate an electronic document and update application data.</span></span> <span data-ttu-id="469c4-106">Bu yordamda, ER yapılandırmaları sadece elektronik belgeler oluşturmakta kullanmak için değil, aynı zamanda uygulama verisini güncelleştirmek için de değiştirirsiniz.</span><span class="sxs-lookup"><span data-stu-id="469c4-106">In this procedure, you will modify the ER configurations to not just use them to generate electronic documents, but also to update application data.</span></span> <span data-ttu-id="469c4-107">Bu yordam, sistem yöneticisi veya elektronik raporlama geliştiricisi rolüne atanmış kullanıcılar için oluşturulmuştur.</span><span class="sxs-lookup"><span data-stu-id="469c4-107">This procedure is created for users with the assigned role of system administrator or electronic reporting developer.</span></span> <span data-ttu-id="469c4-108">Bu adımlar DEMF veri kümesi kullanılarak tamamlanabilir.</span><span class="sxs-lookup"><span data-stu-id="469c4-108">These steps can be completed using the DEMF dataset.</span></span>
 
 
-## <a name="modify-format-to-collect-details-of-reporting"></a>Raporlama ayrıntılarını toplamak için biçimi değiştirin
-1. Kuruluş yönetimi > Elektronik raporlama > Yapılandırmalar seçeneğine git.
-2. Ağaçta, 'Intrastat (model)' öğesini genişletin.
-3. Ağaçta, 'Intrastat (model)\Intrastat (biçim)' öğesini seçin.
-4. Tasarımcı'yı tıklatın.
-5. Ağaçta, 'Dosya'yı genişletin.
-6. Ağaçta, 'Dosya\Bildirim' öğesini genişletin.
-7. Ağaçta, 'Dosya\Bildirim\Veri'yi seçin.
-8. Çokluluk alanında 'Bir fazla'yı seçin.
-    * Intrastat raporlama işleminin ayrıntılarını arşivlemek için bu biçim öğesini yapılandırın. Bu öğe, arşiv başlığının kaydını temsil eder.  
-9. Ağaçta 'Dosya\Bildirim\Veri'yi genişletin.
-10. Ağaçta 'Dosya\Bildirim\Veri\Öğe'yi seçin.
-11. Çokluluk alanında 'Sıfır fazla'yı seçin.
-    * Intrastat raporlama işleminin ayrıntılarını arşivlemek için bu biçim öğesini yapılandırın. Bu öğe arşivlenen satırların listesini temsil eder.  
-12. Ağaçta 'Dosya\Bildirim\Veri\Öğe'yi genişletin.
-13. Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim1'i seçin.
-14. Dışarıda bırakılan alanında Evet'i seçin.
-    * Bu veriyi arşivlemezsiniz, böylece bu biçim öğesini Intrastat raporlama ayrıntılarının veri kaynağından dışarıda bırakabilirsiniz.  
-15. Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim1'i genişletin.
-16. Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim1\özellik'i seçin.
-17. Dışarıda bırakılan alanında Evet'i seçin.
-18. Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim1\tarih'i seçin.
-19. Dışarıda bırakılan alanında Evet'i seçin.
-20. Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim2'yi seçin.
-21. Dışarıda bırakılan alanında Evet'i seçin.
-22. Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim2'yi genişletin.
-23. Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim2\özellik'i seçin.
-24. Dışarıda bırakılan alanında Evet'i seçin.
-25. Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim2\kod'u seçin.
-26. Dışarıda bırakılan alanında Evet'i seçin.
-27. Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim3'ü seçin.
-    * Çok sayıda biçim öğesi aynı ada sahip olabilir. Örneğin, Dim. Onları, bu biçimi Intrastat raporlama ayrıntılarını arşivlerken bir veri kaynağı olarak açıkça tanımlayamazsınız, böylece bu biçim öğeleri için alternatif adlar tanımlamanız gerekir.   
-28. İsim alanına 'Tutar' yazın.
-    * Tutar  
-29. Çokluluk alanında 'Tam bir'i seçin.
-30. Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim4'ü seçin.
-31. İsim alanına 'Madde' yazın.
-    * Madde  
-32. Çokluluk alanında 'Tam bir'i seçin.
-    * Tasarım biçim öğelerine ek olarak, aşağıdaki Intrastat raporlama ayrıntılarının arşivlenmesi gerekir: raporlanan her emtia öğesinin benzersiz kayıt kimlik saptaması ve oluşturulan dosyanın adı. Bu veri, Intrastat raporunda doldurulmayacağı için, bu ayrıntı öğeleriyle ilişkili biçimi veri kaynağı öğeleri olarak eklemeniz gerekir.  
-33. Ağaçta, 'Dosya\Bildirim\Veri'yi seçin.
-34. Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.
-35. Ağaçta 'Veri kaynağı\Öğe'yi seçin.
-36. Ad alanına "Dosya adı" yazın.
-    * Dosya adı  
-37. Veri türü alanında 'Dize' seçin.
-38. Tamam'a tıklayın.
-39. Ağaçta 'Dosya\Bildirim\Veri\Öğe'yi seçin.
-40. Madde Ekle üzerine tıklayın.
-41. İsim alanına 'Emtia rec id' yazın.
-    * Emtia rec id  
-42. Veri türü alanında 'Int64' seçin.
-43. Tamam'a tıklayın.
-44. Eşleme sekmesini tıklatın.
-45. Ağaçta 'Dosya\Bildirim\Veri\Dosya adı'nı seçin.
-46. Bağla'ya tıklayın.
-47. Ağaçta, 'model'i genişletin.
-48. Ağaçta 'model\Hareketler'i seçin.
-49. Ağaçta 'Dosya\Bildirim\Veri\Madde = model.TransactionsEmtia rec id'i seçin.
-50. Ağaçta 'model\Hareketler\Emtia rec id'i seçin.
-51. Bağla'ya tıklayın.
-52. Kaydet'e tıklayın.
+## <a name="modify-format-to-collect-details-of-reporting"></a><span data-ttu-id="469c4-109">Raporlama ayrıntılarını toplamak için biçimi değiştirin</span><span class="sxs-lookup"><span data-stu-id="469c4-109">Modify format to collect details of reporting</span></span>
+1. <span data-ttu-id="469c4-110">Kuruluş yönetimi > Elektronik raporlama > Yapılandırmalar seçeneğine git.</span><span class="sxs-lookup"><span data-stu-id="469c4-110">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="469c4-111">Ağaçta, 'Intrastat (model)' öğesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="469c4-111">In the tree, expand 'Intrastat (model)'.</span></span>
+3. <span data-ttu-id="469c4-112">Ağaçta, 'Intrastat (model)\Intrastat (biçim)' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-112">In the tree, select 'Intrastat (model)\Intrastat (format)'.</span></span>
+4. <span data-ttu-id="469c4-113">Tasarımcı'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="469c4-113">Click Designer.</span></span>
+5. <span data-ttu-id="469c4-114">Ağaçta, 'Dosya'yı genişletin.</span><span class="sxs-lookup"><span data-stu-id="469c4-114">In the tree, expand 'File'.</span></span>
+6. <span data-ttu-id="469c4-115">Ağaçta, 'Dosya\Bildirim' öğesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="469c4-115">In the tree, expand 'File\Declaration'.</span></span>
+7. <span data-ttu-id="469c4-116">Ağaçta, 'Dosya\Bildirim\Veri'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-116">In the tree, select 'File\Declaration\Data'.</span></span>
+8. <span data-ttu-id="469c4-117">Çokluluk alanında 'Bir fazla'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-117">In the Multiplicity field, select 'One many'.</span></span>
+    * <span data-ttu-id="469c4-118">Intrastat raporlama işleminin ayrıntılarını arşivlemek için bu biçim öğesini yapılandırın.</span><span class="sxs-lookup"><span data-stu-id="469c4-118">Configure this format element to archive details of the Intrastat reporting process.</span></span> <span data-ttu-id="469c4-119">Bu öğe, arşiv başlığının kaydını temsil eder.</span><span class="sxs-lookup"><span data-stu-id="469c4-119">This item represents the archive’s header record.</span></span>  
+9. <span data-ttu-id="469c4-120">Ağaçta 'Dosya\Bildirim\Veri'yi genişletin.</span><span class="sxs-lookup"><span data-stu-id="469c4-120">In the tree, expand 'File\Declaration\Data'.</span></span>
+10. <span data-ttu-id="469c4-121">Ağaçta 'Dosya\Bildirim\Veri\Öğe'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-121">In the tree, select 'File\Declaration\Data\Item'.</span></span>
+11. <span data-ttu-id="469c4-122">Çokluluk alanında 'Sıfır fazla'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-122">In the Multiplicity field, select 'Zero many'.</span></span>
+    * <span data-ttu-id="469c4-123">Intrastat raporlama işleminin ayrıntılarını arşivlemek için bu biçim öğesini yapılandırın.</span><span class="sxs-lookup"><span data-stu-id="469c4-123">Configure this format element to archive details of the Intrastat reporting process.</span></span> <span data-ttu-id="469c4-124">Bu öğe arşivlenen satırların listesini temsil eder.</span><span class="sxs-lookup"><span data-stu-id="469c4-124">This item will represent the list of archived lines.</span></span>  
+12. <span data-ttu-id="469c4-125">Ağaçta 'Dosya\Bildirim\Veri\Öğe'yi genişletin.</span><span class="sxs-lookup"><span data-stu-id="469c4-125">In the tree, expand 'File\Declaration\Data\Item'.</span></span>
+13. <span data-ttu-id="469c4-126">Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim1'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-126">In the tree, select 'File\Declaration\Data\Item\Dim1'.</span></span>
+14. <span data-ttu-id="469c4-127">Dışarıda bırakılan alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-127">Select Yes in the Excluded field.</span></span>
+    * <span data-ttu-id="469c4-128">Bu veriyi arşivlemezsiniz, böylece bu biçim öğesini Intrastat raporlama ayrıntılarının veri kaynağından dışarıda bırakabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="469c4-128">You will not archive this data, so you can exclude this format element from the data source of Intrastat reporting details.</span></span>  
+15. <span data-ttu-id="469c4-129">Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim1'i genişletin.</span><span class="sxs-lookup"><span data-stu-id="469c4-129">In the tree, expand 'File\Declaration\Data\Item\Dim1'.</span></span>
+16. <span data-ttu-id="469c4-130">Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim1\özellik'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-130">In the tree, select 'File\Declaration\Data\Item\Dim1\property'.</span></span>
+17. <span data-ttu-id="469c4-131">Dışarıda bırakılan alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-131">Select Yes in the Excluded field.</span></span>
+18. <span data-ttu-id="469c4-132">Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim1\tarih'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-132">In the tree, select 'File\Declaration\Data\Item\Dim1\date'.</span></span>
+19. <span data-ttu-id="469c4-133">Dışarıda bırakılan alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-133">Select Yes in the Excluded field.</span></span>
+20. <span data-ttu-id="469c4-134">Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim2'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-134">In the tree, select 'File\Declaration\Data\Item\Dim2'.</span></span>
+21. <span data-ttu-id="469c4-135">Dışarıda bırakılan alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-135">Select Yes in the Excluded field.</span></span>
+22. <span data-ttu-id="469c4-136">Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim2'yi genişletin.</span><span class="sxs-lookup"><span data-stu-id="469c4-136">In the tree, expand 'File\Declaration\Data\Item\Dim2'.</span></span>
+23. <span data-ttu-id="469c4-137">Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim2\özellik'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-137">In the tree, select 'File\Declaration\Data\Item\Dim2\property'.</span></span>
+24. <span data-ttu-id="469c4-138">Dışarıda bırakılan alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-138">Select Yes in the Excluded field.</span></span>
+25. <span data-ttu-id="469c4-139">Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim2\kod'u seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-139">In the tree, select 'File\Declaration\Data\Item\Dim2\code'.</span></span>
+26. <span data-ttu-id="469c4-140">Dışarıda bırakılan alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-140">Select Yes in the Excluded field.</span></span>
+27. <span data-ttu-id="469c4-141">Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim3'ü seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-141">In the tree, select 'File\Declaration\Data\Item\Dim3'.</span></span>
+    * <span data-ttu-id="469c4-142">Çok sayıda biçim öğesi aynı ada sahip olabilir.</span><span class="sxs-lookup"><span data-stu-id="469c4-142">Several format elements can have the same name.</span></span> <span data-ttu-id="469c4-143">Örneğin, Dim.</span><span class="sxs-lookup"><span data-stu-id="469c4-143">For example, Dim.</span></span> <span data-ttu-id="469c4-144">Onları, bu biçimi Intrastat raporlama ayrıntılarını arşivlerken bir veri kaynağı olarak açıkça tanımlayamazsınız, böylece bu biçim öğeleri için alternatif adlar tanımlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="469c4-144">You cannot explicitly recognize them when you use this format as a data source for archiving Intrastat reporting details, so you need to define the alternative names for these format elements.</span></span>   
+28. <span data-ttu-id="469c4-145">İsim alanına 'Tutar' yazın.</span><span class="sxs-lookup"><span data-stu-id="469c4-145">In the Name field, type 'Amount'.</span></span>
+    * <span data-ttu-id="469c4-146">Tutar</span><span class="sxs-lookup"><span data-stu-id="469c4-146">Amount</span></span>  
+29. <span data-ttu-id="469c4-147">Çokluluk alanında 'Tam bir'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-147">In the Multiplicity field, select 'Exactly one'.</span></span>
+30. <span data-ttu-id="469c4-148">Ağaçta 'Dosya\Bildirim\Veri\Öğe\Dim4'ü seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-148">In the tree, select 'File\Declaration\Data\Item\Dim4'.</span></span>
+31. <span data-ttu-id="469c4-149">İsim alanına 'Madde' yazın.</span><span class="sxs-lookup"><span data-stu-id="469c4-149">In the Name field, type 'Item'.</span></span>
+    * <span data-ttu-id="469c4-150">Madde</span><span class="sxs-lookup"><span data-stu-id="469c4-150">Item</span></span>  
+32. <span data-ttu-id="469c4-151">Çokluluk alanında 'Tam bir'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-151">In the Multiplicity field, select 'Exactly one'.</span></span>
+    * <span data-ttu-id="469c4-152">Tasarım biçim öğelerine ek olarak, aşağıdaki Intrastat raporlama ayrıntılarının arşivlenmesi gerekir: raporlanan her emtia öğesinin benzersiz kayıt kimlik saptaması ve oluşturulan dosyanın adı.</span><span class="sxs-lookup"><span data-stu-id="469c4-152">In addition to the design format elements, the following Intrastat reporting details must be archived: unique record identification of each reported commodity item and name of the generated file.</span></span> <span data-ttu-id="469c4-153">Bu veri, Intrastat raporunda doldurulmayacağı için, bu ayrıntı öğeleriyle ilişkili biçimi veri kaynağı öğeleri olarak eklemeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="469c4-153">Because this data will not be populated in the Intrastat report, you need to add the format that is related to these detail elements as data source items.</span></span>  
+33. <span data-ttu-id="469c4-154">Ağaçta, 'Dosya\Bildirim\Veri'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-154">In the tree, select 'File\Declaration\Data'.</span></span>
+34. <span data-ttu-id="469c4-155">Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="469c4-155">Click Add to open the drop dialog.</span></span>
+35. <span data-ttu-id="469c4-156">Ağaçta 'Veri kaynağı\Öğe'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-156">In the tree, select 'Data source\Item'.</span></span>
+36. <span data-ttu-id="469c4-157">Ad alanına "Dosya adı" yazın.</span><span class="sxs-lookup"><span data-stu-id="469c4-157">In the Name field, type 'File name'.</span></span>
+    * <span data-ttu-id="469c4-158">Dosya adı</span><span class="sxs-lookup"><span data-stu-id="469c4-158">File name</span></span>  
+37. <span data-ttu-id="469c4-159">Veri türü alanında 'Dize' seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-159">In the Data type field, select 'String'.</span></span>
+38. <span data-ttu-id="469c4-160">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-160">Click OK.</span></span>
+39. <span data-ttu-id="469c4-161">Ağaçta 'Dosya\Bildirim\Veri\Öğe'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-161">In the tree, select 'File\Declaration\Data\Item'.</span></span>
+40. <span data-ttu-id="469c4-162">Madde Ekle üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-162">Click Add Item.</span></span>
+41. <span data-ttu-id="469c4-163">İsim alanına 'Emtia rec id' yazın.</span><span class="sxs-lookup"><span data-stu-id="469c4-163">In the Name field, type 'Commodity rec id'.</span></span>
+    * <span data-ttu-id="469c4-164">Emtia rec id</span><span class="sxs-lookup"><span data-stu-id="469c4-164">Commodity rec id</span></span>  
+42. <span data-ttu-id="469c4-165">Veri türü alanında 'Int64' seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-165">In the Data type field, select 'Int64'.</span></span>
+43. <span data-ttu-id="469c4-166">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-166">Click OK.</span></span>
+44. <span data-ttu-id="469c4-167">Eşleme sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="469c4-167">Click the Mapping tab.</span></span>
+45. <span data-ttu-id="469c4-168">Ağaçta 'Dosya\Bildirim\Veri\Dosya adı'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-168">In the tree, select 'File\Declaration\Data\File name'.</span></span>
+46. <span data-ttu-id="469c4-169">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-169">Click Bind.</span></span>
+47. <span data-ttu-id="469c4-170">Ağaçta, 'model'i genişletin.</span><span class="sxs-lookup"><span data-stu-id="469c4-170">In the tree, expand 'model'.</span></span>
+48. <span data-ttu-id="469c4-171">Ağaçta 'model\Hareketler'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-171">In the tree, expand 'model\Transactions'.</span></span>
+49. <span data-ttu-id="469c4-172">Ağaçta 'Dosya\Bildirim\Veri\Madde = model.TransactionsEmtia rec id'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-172">In the tree, select 'File\Declaration\Data\Item =  model.Transactions\Commodity rec id'.</span></span>
+50. <span data-ttu-id="469c4-173">Ağaçta 'model\Hareketler\Emtia rec id'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-173">In the tree, select 'model\Transactions\Commodity rec id'.</span></span>
+51. <span data-ttu-id="469c4-174">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-174">Click Bind.</span></span>
+52. <span data-ttu-id="469c4-175">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-175">Click Save.</span></span>
 
-## <a name="modify-format-to-memorize-details-of-reporting"></a>Raporlama ayrıntılarını belleğe almak için biçimi değiştirin
-1. Biçimi modelle eşle'ye tıklayın.
-2. Yeni'ye tıklayın.
-3. Tanım alanında, 'Uygulama veri güncelleştirmesi' kök maddesini girin veya seçin.
-    * Uygulama için veri güncelleştirmesi  
-4. Ad alanına 'Veri güncelleştirmek için eşleme' yazın.
-    * Veriyi güncelleştirmek için eşleme  
-5. Kaydet'e tıklayın.
-    * Bu eşleme, Intrastat raporunun ayrıntılarının veri modelinde nasıl toplandığını, seçilen kök öğesi 'Uygulama veri güncelleştirmesi için' belirtilen yapının hangisi olduğunu tanımlar. Bu ayrıntılar, aynı kök öğesi 'Uygulama veri güncelleştirmesi için' model eşleme ve yön 'Hedefe' uygulama veri güncelleştirmesi için kullanılır. Uygulama veri güncelleştirmesi, giden Intrastat raporu oluşturulduktan hemen sonra başlar. Uygulama veri güncelleştirilmesinin çalıştırma zamanında atlanabileceğini, ancak veri modelinin boş olması (boş kayıt listesi içermesi) gerektiğini unutmayın.   
-6. Tasarımcı'yı tıklatın.
-    * Giden Intrastat rapor biçimi, bu model eşleme için bir veri kaynağı olarak varsayılan şekilde eklenir.  
-    * Tasarlanan raporun öğelerini (veri kaynağında sunulan), seçilmiş modelin kök öğesine dayanarak filtrelenen veri modelinin öğelerine bağlama.  
-7. Ağaçta, 'Arşiv başlığı' metnini genişletin.
-8. Ağaçta 'Arşiv başlığı\Arşiv satırları'nı genişletin.
-9. Ağaçta, 'biçim' metnini genişletin.
-10. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)'i seçin.
-11. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)'yi genişletin.
-12. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Öğe: XML Öğe 0..*(Öğe)'yi seçin.
-13. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Öğe: XML Öğe 0..*(Öğe)\Dim3: XML Öğe 1..1 (Tutar)'ı seçin.
-14. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Öğe: XML Öğe 0..*(Öğe)\Dim4: XML Öğe 1..1 (Öğe)'yi seçin.
-15. Ağaçta 'Arşiv başlığı\Satır sayısı'nı seçin.
-16. Düzenle öğesine tıklayın.
-17. Ağaçta, 'Liste\COUNT' öğesini seçin.
-18. Fonksiyon ekle'ye tıklayın.
-19. Ağaçta, 'biçim' metnini genişletin.
-20. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)'i seçin.
-21. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)'yi genişletin.
-22. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Öğe: XML Öğe 0..*(Öğe)'yi genişletin.
-23. Veri kaynağı ekle'ye tıklayın.
-24. Formül alanında 'COUNT(format.Declaration.Data.Item)' girin.
-    * COUNT(format.Declaration.Data.Item)  
-25. Kaydet'e tıklayın.
-26. Sayfayı kapatın.
-27. Ağaçta 'Arşiv başlığı\Dosya adı'nı seçin.
-28. Ağaçta 'biçim\Bildirim: XML Element(Bildirim)\Veri: XML Öğe 1..* (Veri)\Dosya adı: Madde Dizesi (Dosya adı)'nı seçin.
-29. Bağla'ya tıklayın.
-30. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Öğe: XML Öğe 0..*(Öğe)\Dim4: XML Öğe 1..1 (Öğe)sayı: Dize(sayı)'yı seçin.
-31. Ağaçta 'Arşiv başlığı\Arşiv satırları\Öğe numarası'nı seçin.
-32. Bağla'ya tıklayın.
-33. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Öğe: XML Öğe 0..*(Öğe)\Dim3: XML Öğe 1..1 (Tutar)değre: Sayısal Gerçek(değer)'i seçin.
-34. Ağaçta 'Arşiv başlığı\Arşiv satırları\Tutar'ı seçin.
-35. Bağla'ya tıklayın.
-36. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Madde: XML Öğe 0..*(Madde)\Emtia rec id: Madde Int64(Emtia rec id)'i seçin.
-37. Ağaçta 'Arşiv başlığı\Arşiv satırları\Emtia rec id'i seçin.
-38. Bağla'ya tıklayın.
-39. Ağaçta 'Arşiv başlığı\Arşiv satırları'nı seçin.
-40. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Öğe: XML Öğe 0..*(Öğe)'yi genişletin.
-41. Bağla'ya tıklayın.
-42. Ağaçta, 'Arşiv başlığı' metnini seçin.
-43. Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)'yi seçin.
-44. Bağla'ya tıklayın.
-45. Kaydet'e tıklayın.
-46. Sayfayı kapatın.
-47. Sayfayı kapatın.
-48. Sayfayı kapatın.
+## <a name="modify-format-to-memorize-details-of-reporting"></a><span data-ttu-id="469c4-176">Raporlama ayrıntılarını belleğe almak için biçimi değiştirin</span><span class="sxs-lookup"><span data-stu-id="469c4-176">Modify format to memorize details of reporting</span></span>
+1. <span data-ttu-id="469c4-177">Biçimi modelle eşle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-177">Click Map format to model.</span></span>
+2. <span data-ttu-id="469c4-178">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-178">Click New.</span></span>
+3. <span data-ttu-id="469c4-179">Tanım alanında, 'Uygulama veri güncelleştirmesi' kök maddesini girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-179">In the Definition field, enter or select the ‘For application data update’ root item.</span></span>
+    * <span data-ttu-id="469c4-180">Uygulama için veri güncelleştirmesi</span><span class="sxs-lookup"><span data-stu-id="469c4-180">For application data update</span></span>  
+4. <span data-ttu-id="469c4-181">Ad alanına 'Veri güncelleştirmek için eşleme' yazın.</span><span class="sxs-lookup"><span data-stu-id="469c4-181">In the Name field, type 'Mapping to update data'.</span></span>
+    * <span data-ttu-id="469c4-182">Veriyi güncelleştirmek için eşleme</span><span class="sxs-lookup"><span data-stu-id="469c4-182">Mapping to update data</span></span>  
+5. <span data-ttu-id="469c4-183">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-183">Click Save.</span></span>
+    * <span data-ttu-id="469c4-184">Bu eşleme, Intrastat raporunun ayrıntılarının veri modelinde nasıl toplandığını, seçilen kök öğesi 'Uygulama veri güncelleştirmesi için' belirtilen yapının hangisi olduğunu tanımlar.</span><span class="sxs-lookup"><span data-stu-id="469c4-184">This mapping defines how the details of the Intrastat report are collected in the data model, the structure of which is specified by the selected root item ‘For application data update’.</span></span> <span data-ttu-id="469c4-185">Bu ayrıntılar, aynı kök öğesi 'Uygulama veri güncelleştirmesi için' model eşleme ve yön 'Hedefe' uygulama veri güncelleştirmesi için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="469c4-185">These details, the model mapping with same root item ‘For application data update’, and the direction ‘To destination’ will be used for the application data update.</span></span> <span data-ttu-id="469c4-186">Uygulama veri güncelleştirmesi, giden Intrastat raporu oluşturulduktan hemen sonra başlar.</span><span class="sxs-lookup"><span data-stu-id="469c4-186">The application data update starts immediately after the outgoing Intrastat report is generated.</span></span> <span data-ttu-id="469c4-187">Uygulama veri güncelleştirilmesinin çalıştırma zamanında atlanabileceğini, ancak veri modelinin boş olması (boş kayıt listesi içermesi) gerektiğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-187">Note that the application data update can be skipped at run-time, but the data model must be empty (containing empty record list).</span></span>   
+6. <span data-ttu-id="469c4-188">Tasarımcı'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="469c4-188">Click Designer.</span></span>
+    * <span data-ttu-id="469c4-189">Giden Intrastat rapor biçimi, bu model eşleme için bir veri kaynağı olarak varsayılan şekilde eklenir.</span><span class="sxs-lookup"><span data-stu-id="469c4-189">Note that the outgoing Intrastat report format is added by default as a data source for this model mapping.</span></span>  
+    * <span data-ttu-id="469c4-190">Tasarlanan raporun öğelerini (veri kaynağında sunulan), seçilmiş modelin kök öğesine dayanarak filtrelenen veri modelinin öğelerine bağlama.</span><span class="sxs-lookup"><span data-stu-id="469c4-190">Bind elements of the designed report (presented as data source) to elements of the data model, which is filtered based on the selected model’s root item.</span></span>  
+7. <span data-ttu-id="469c4-191">Ağaçta, 'Arşiv başlığı' metnini genişletin.</span><span class="sxs-lookup"><span data-stu-id="469c4-191">In the tree, expand 'Archive header'.</span></span>
+8. <span data-ttu-id="469c4-192">Ağaçta 'Arşiv başlığı\Arşiv satırları'nı genişletin.</span><span class="sxs-lookup"><span data-stu-id="469c4-192">In the tree, expand 'Archive header\Archive lines'.</span></span>
+9. <span data-ttu-id="469c4-193">Ağaçta, 'biçim' metnini genişletin.</span><span class="sxs-lookup"><span data-stu-id="469c4-193">In the tree, expand 'format'.</span></span>
+10. <span data-ttu-id="469c4-194">Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-194">In the tree, expand 'format\Declaration: XML Element(Declaration)'.</span></span>
+11. <span data-ttu-id="469c4-195">Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)'yi genişletin.</span><span class="sxs-lookup"><span data-stu-id="469c4-195">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+12. <span data-ttu-id="469c4-196">Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Öğe: XML Öğe 0..*(Öğe)'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-196">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+13. <span data-ttu-id="469c4-197">Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Öğe: XML Öğe 0..*(Öğe)\Dim3: XML Öğe 1..1 (Tutar)'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-197">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)'.</span></span>
+14. <span data-ttu-id="469c4-198">Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Öğe: XML Öğe 0..*(Öğe)\Dim4: XML Öğe 1..1 (Öğe)'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-198">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)'.</span></span>
+15. <span data-ttu-id="469c4-199">Ağaçta 'Arşiv başlığı\Satır sayısı'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-199">In the tree, select 'Archive header\Number of lines'.</span></span>
+16. <span data-ttu-id="469c4-200">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-200">Click Edit.</span></span>
+17. <span data-ttu-id="469c4-201">Ağaçta, 'Liste\COUNT' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-201">In the tree, select 'List\COUNT'.</span></span>
+18. <span data-ttu-id="469c4-202">Fonksiyon ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-202">Click Add function.</span></span>
+19. <span data-ttu-id="469c4-203">Ağaçta, 'biçim' metnini genişletin.</span><span class="sxs-lookup"><span data-stu-id="469c4-203">In the tree, expand 'format'.</span></span>
+20. <span data-ttu-id="469c4-204">Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-204">In the tree, expand 'format\Declaration: XML Element(Declaration)'.</span></span>
+21. <span data-ttu-id="469c4-205">Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)'yi genişletin.</span><span class="sxs-lookup"><span data-stu-id="469c4-205">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+22. <span data-ttu-id="469c4-206">Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Öğe: XML Öğe 0..*(Öğe)'yi genişletin.</span><span class="sxs-lookup"><span data-stu-id="469c4-206">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+23. <span data-ttu-id="469c4-207">Veri kaynağı ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-207">Click Add data source.</span></span>
+24. <span data-ttu-id="469c4-208">Formül alanında 'COUNT(format.Declaration.Data.Item)' girin.</span><span class="sxs-lookup"><span data-stu-id="469c4-208">In the Formula field, enter 'COUNT(format.Declaration.Data.Item)'.</span></span>
+    * <span data-ttu-id="469c4-209">COUNT(format.Declaration.Data.Item)</span><span class="sxs-lookup"><span data-stu-id="469c4-209">COUNT(format.Declaration.Data.Item)</span></span>  
+25. <span data-ttu-id="469c4-210">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-210">Click Save.</span></span>
+26. <span data-ttu-id="469c4-211">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="469c4-211">Close the page.</span></span>
+27. <span data-ttu-id="469c4-212">Ağaçta 'Arşiv başlığı\Dosya adı'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-212">In the tree, select 'Archive header\File name'.</span></span>
+28. <span data-ttu-id="469c4-213">Ağaçta 'biçim\Bildirim: XML Element(Bildirim)\Veri: XML Öğe 1..* (Veri)\Dosya adı: Madde Dizesi (Dosya adı)'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-213">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\File name: Item String(File name)'.</span></span>
+29. <span data-ttu-id="469c4-214">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-214">Click Bind.</span></span>
+30. <span data-ttu-id="469c4-215">Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Öğe: XML Öğe 0..*(Öğe)\Dim4: XML Öğe 1..1 (Öğe)sayı: Dize(sayı)'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-215">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)'.</span></span>
+31. <span data-ttu-id="469c4-216">Ağaçta 'Arşiv başlığı\Arşiv satırları\Öğe numarası'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-216">In the tree, select 'Archive header\Archive lines\Item number'.</span></span>
+32. <span data-ttu-id="469c4-217">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-217">Click Bind.</span></span>
+33. <span data-ttu-id="469c4-218">Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Öğe: XML Öğe 0..*(Öğe)\Dim3: XML Öğe 1..1 (Tutar)değre: Sayısal Gerçek(değer)'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-218">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)'.</span></span>
+34. <span data-ttu-id="469c4-219">Ağaçta 'Arşiv başlığı\Arşiv satırları\Tutar'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-219">In the tree, select 'Archive header\Archive lines\Amount'.</span></span>
+35. <span data-ttu-id="469c4-220">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-220">Click Bind.</span></span>
+36. <span data-ttu-id="469c4-221">Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Madde: XML Öğe 0..*(Madde)\Emtia rec id: Madde Int64(Emtia rec id)'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-221">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec id: Item Int64(Commodity rec id)'.</span></span>
+37. <span data-ttu-id="469c4-222">Ağaçta 'Arşiv başlığı\Arşiv satırları\Emtia rec id'i seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-222">In the tree, select 'Archive header\Archive lines\Commodity rec id'.</span></span>
+38. <span data-ttu-id="469c4-223">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-223">Click Bind.</span></span>
+39. <span data-ttu-id="469c4-224">Ağaçta 'Arşiv başlığı\Arşiv satırları'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-224">In the tree, select 'Archive header\Archive lines'.</span></span>
+40. <span data-ttu-id="469c4-225">Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)\Öğe: XML Öğe 0..*(Öğe)'yi genişletin.</span><span class="sxs-lookup"><span data-stu-id="469c4-225">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+41. <span data-ttu-id="469c4-226">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-226">Click Bind.</span></span>
+42. <span data-ttu-id="469c4-227">Ağaçta, 'Arşiv başlığı' metnini seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-227">In the tree, select 'Archive header'.</span></span>
+43. <span data-ttu-id="469c4-228">Ağaçta 'biçim\Bildirim: XML Madde(Bildirim)\Veri: XML Öğe 1..* (Veri)'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="469c4-228">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+44. <span data-ttu-id="469c4-229">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-229">Click Bind.</span></span>
+45. <span data-ttu-id="469c4-230">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="469c4-230">Click Save.</span></span>
+46. <span data-ttu-id="469c4-231">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="469c4-231">Close the page.</span></span>
+47. <span data-ttu-id="469c4-232">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="469c4-232">Close the page.</span></span>
+48. <span data-ttu-id="469c4-233">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="469c4-233">Close the page.</span></span>
 
 

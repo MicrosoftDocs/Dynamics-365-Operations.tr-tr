@@ -27,17 +27,17 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="prospect-to-cash"></a>Müşteri adayından nakde  
+# <a name="prospect-to-cash"></a><span data-ttu-id="fba4b-103">Müşteri adayından nakde</span><span class="sxs-lookup"><span data-stu-id="fba4b-103">Prospect to cash</span></span>  
 
 [!include[banner](../includes/banner.md)]
 
-Müşteri adayından nakde çözümü [Veri entegratörü](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration)'nü Dynamics 365 for Finance and Operations ve Dynamics 365 for Sales örnekleri için ORtak Veri Hizmeti aracılığıyla kullanır. Veri Entegratörü içindeki Aday müşteriden nakde şablonları, ürün, hesap, ilgili kişi ve satış teklifinin Dynamics 365 for Finance and Operations ve Dynamics 365 for Sales arasında veri akışını etkinleştirir. Veri Finance and Operations ve Dynamics 365 for Sales arasında akarken, satış ve pazarlama etkinliklerini Dynamics 365 for Sales içerisinde gerçekleştirebilir ve sipariş tamamlamayı, stok yönetimi ile Finance and Operations içerisinde kullanabilirsiniz. 
+<span data-ttu-id="fba4b-104">Müşteri adayından nakde çözümü [Veri entegratörü](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration)'nü Dynamics 365 for Finance and Operations ve Dynamics 365 for Sales örnekleri için ORtak Veri Hizmeti aracılığıyla kullanır.</span><span class="sxs-lookup"><span data-stu-id="fba4b-104">The Prospect to cash solution uses [Data Integrator](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration) to synchronize data across Dynamics 365 Finance and Operations or Dynamics 365 for Sales instances via the Common Data Service.</span></span> <span data-ttu-id="fba4b-105">Veri Entegratörü içindeki Aday müşteriden nakde şablonları, ürün, hesap, ilgili kişi ve satış teklifinin Dynamics 365 for Finance and Operations ve Dynamics 365 for Sales arasında veri akışını etkinleştirir.</span><span class="sxs-lookup"><span data-stu-id="fba4b-105">The Prospect to cash templates available with the Data Integrator enable the flow of product, account, contact, and sales quote data between Dynamics 365 for Finance and Operations and Dynamics 365 for Sales.</span></span> <span data-ttu-id="fba4b-106">Veri Finance and Operations ve Dynamics 365 for Sales arasında akarken, satış ve pazarlama etkinliklerini Dynamics 365 for Sales içerisinde gerçekleştirebilir ve sipariş tamamlamayı, stok yönetimi ile Finance and Operations içerisinde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="fba4b-106">While the data is flowing between Finance and Operations and Dynamics 365 for Sales, you can carry out sales and marketing activities in Dynamics 365 for Sales and handle the order fulfillment with inventory management in Finance and Operations.</span></span> 
 
-Bu çözüm aşağıdaki alanlarda tümleştirme sağlar: 
+<span data-ttu-id="fba4b-107">Bu çözüm aşağıdaki alanlarda tümleştirme sağlar:</span><span class="sxs-lookup"><span data-stu-id="fba4b-107">This solution provides integration in the following areas:</span></span> 
 
--   Hesapları Dynamics 365 for Sales içinde yönetin ve onları Finance and Operations ile eşitleyin.
--   İlgili kişileri Dynamics 365 for Sales içinde yönetin ve onları Finance and Operations ile eşitleyin.
--   Satış tekliflerini Dynamics 365 for Sales içinde oluşturun ve onları Finance and Operations ile eşitleyin.
--   Ürünleri Finance and Operations içinde yönetin ve onları Dynamics 365 for Sales ile eşitleyin.
+-   <span data-ttu-id="fba4b-108">Hesapları Dynamics 365 for Sales içinde yönetin ve onları Finance and Operations ile eşitleyin.</span><span class="sxs-lookup"><span data-stu-id="fba4b-108">Maintain accounts in Dynamics 365 for Sales and sync them to Finance and Operations.</span></span>
+-   <span data-ttu-id="fba4b-109">İlgili kişileri Dynamics 365 for Sales içinde yönetin ve onları Finance and Operations ile eşitleyin.</span><span class="sxs-lookup"><span data-stu-id="fba4b-109">Maintain contacts in Dynamics 365 for Sales and sync them to Finance and Operations.</span></span>
+-   <span data-ttu-id="fba4b-110">Satış tekliflerini Dynamics 365 for Sales içinde oluşturun ve onları Finance and Operations ile eşitleyin.</span><span class="sxs-lookup"><span data-stu-id="fba4b-110">Create sales quotes in Dynamics 365 for Sales and sync them to Finance and Operations.</span></span>
+-   <span data-ttu-id="fba4b-111">Ürünleri Finance and Operations içinde yönetin ve onları Dynamics 365 for Sales ile eşitleyin.</span><span class="sxs-lookup"><span data-stu-id="fba4b-111">Maintain products in Finance and Operations and sync them to Dynamics 365 for Sales.</span></span>
 
 

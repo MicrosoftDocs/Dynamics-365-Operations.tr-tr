@@ -17,38 +17,38 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 5db1c99833276a92467ed57b7be51b0ebaa74d83
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b7d579ca7e2b9ca8cbead74b2c2ababfd142f171
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-warehouse-work-policies"></a>Ambar iş ilkelerini ayarlama  
+# <a name="set-up-warehouse-work-policies"></a><span data-ttu-id="0338b-103">Ambar iş ilkelerini ayarlama </span><span class="sxs-lookup"><span data-stu-id="0338b-103">Set up warehouse work policies</span></span> 
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Ambar işlemi her zaman ambar çalışmasını içermezler. Bir çalışma ilkesi tanımlayarak, hammadde çekme ve tamamlanmış malların yerine koyması işlerinin oluşturulmasını, çeşitli bir ürün dizisi veya belirtilen konumlar için engelleyebilirsiniz. USMF demo veri şirketi bu kaydı oluşturmak için kullanılmıştır. Bu görev kılavuzu Dynamics AX uygulama 7.0.1 veya sonrasını gerektirir.
+<span data-ttu-id="0338b-104">Ambar işlemi her zaman ambar çalışmasını içermezler.</span><span class="sxs-lookup"><span data-stu-id="0338b-104">Warehouse processes don’t always include warehouse work.</span></span> <span data-ttu-id="0338b-105">Bir çalışma ilkesi tanımlayarak, hammadde çekme ve tamamlanmış malların yerine koyması işlerinin oluşturulmasını, çeşitli bir ürün dizisi veya belirtilen konumlar için engelleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0338b-105">By defining a work policy, you can prevent the creation of work for raw material picking and put-away of finished goods for a set of products at specific locations.</span></span> <span data-ttu-id="0338b-106">USMF demo veri şirketi bu kaydı oluşturmak için kullanılmıştır.</span><span class="sxs-lookup"><span data-stu-id="0338b-106">The USMF demo data company was used to create this recording.</span></span> <span data-ttu-id="0338b-107">Bu görev kılavuzu Dynamics AX uygulama 7.0.1 veya sonrasını gerektirir.</span><span class="sxs-lookup"><span data-stu-id="0338b-107">This task guide requires Dynamics AX application 7.0.1 or later.</span></span>
 
-1. Ambar yönetimi > Kurulum > İş > İş ilkeleri öğesine gidin.
-2. Yeni'ye tıklayın.
-3. Çalışma ilkesi ad alanına 'Hiçbir yerine koyma çalışma' yazın.
-4. Kaydet'e tıklayın.
-5. Ekle öğesini tıklatın.
-6. Listede, seçili satırı işaretleyin.
-7. İş siparişi türü alanına, 'Mamul mallar yerine koyma' seçeneğini işaretleyin.
-8. Ekle öğesini tıklatın.
-9. Listede, seçili satırı işaretleyin.
-10. İş emri türü alanında, "Ortak ürün ve yan ürün yerine koyma" seçeneğini işaretleyin.
-11. Stok konumları bölümünü genişletin.
-12. Ekle öğesini tıklatın.
-13. Listede, seçili satırı işaretleyin.
-14. Ambar listesinde '51' girin.
-15. Konum alanına bir '001' girin veya seçin.
-16. Ürünler bölümünü genişletin.
-17. Ürün seçimi alanında, 'Seçili'yi işaretleyin.
-18. Ekle öğesini tıklatın.
-19. Listede, seçili satırı işaretleyin.
-20. Madde numarası alanında 'L0101' girin veya seçin.
-21. Kaydet'e tıklayın.
+1. <span data-ttu-id="0338b-108">Ambar yönetimi > Kurulum > İş > İş ilkeleri öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="0338b-108">Go to Warehouse management > Setup > Work > Work policies.</span></span>
+2. <span data-ttu-id="0338b-109">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0338b-109">Click New.</span></span>
+3. <span data-ttu-id="0338b-110">Çalışma ilkesi ad alanına 'Hiçbir yerine koyma çalışma' yazın.</span><span class="sxs-lookup"><span data-stu-id="0338b-110">In the Work policy name field, type 'No put-away work'.</span></span>
+4. <span data-ttu-id="0338b-111">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0338b-111">Click Save.</span></span>
+5. <span data-ttu-id="0338b-112">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="0338b-112">Click Add.</span></span>
+6. <span data-ttu-id="0338b-113">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="0338b-113">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="0338b-114">İş siparişi türü alanına, 'Mamul mallar yerine koyma' seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="0338b-114">In the Work order type field, select 'Finished goods put away'.</span></span>
+8. <span data-ttu-id="0338b-115">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="0338b-115">Click Add.</span></span>
+9. <span data-ttu-id="0338b-116">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="0338b-116">In the list, mark the selected row.</span></span>
+10. <span data-ttu-id="0338b-117">İş emri türü alanında, "Ortak ürün ve yan ürün yerine koyma" seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="0338b-117">In the Work order type field, select 'Co-product and by-product put away'.</span></span>
+11. <span data-ttu-id="0338b-118">Stok konumları bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="0338b-118">Expand the Inventory locations section.</span></span>
+12. <span data-ttu-id="0338b-119">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="0338b-119">Click Add.</span></span>
+13. <span data-ttu-id="0338b-120">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="0338b-120">In the list, mark the selected row.</span></span>
+14. <span data-ttu-id="0338b-121">Ambar listesinde '51' girin.</span><span class="sxs-lookup"><span data-stu-id="0338b-121">In the Warehouse list, enter '51'.</span></span>
+15. <span data-ttu-id="0338b-122">Konum alanına bir '001' girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="0338b-122">In the Location field, enter or select '001'.</span></span>
+16. <span data-ttu-id="0338b-123">Ürünler bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="0338b-123">Expand the Products section.</span></span>
+17. <span data-ttu-id="0338b-124">Ürün seçimi alanında, 'Seçili'yi işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="0338b-124">In the Product selection field, select 'Selected'.</span></span>
+18. <span data-ttu-id="0338b-125">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="0338b-125">Click Add.</span></span>
+19. <span data-ttu-id="0338b-126">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="0338b-126">In the list, mark the selected row.</span></span>
+20. <span data-ttu-id="0338b-127">Madde numarası alanında 'L0101' girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="0338b-127">In the Item number field, enter or select 'L0101'.</span></span>
+21. <span data-ttu-id="0338b-128">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0338b-128">Click Save.</span></span>
 
 

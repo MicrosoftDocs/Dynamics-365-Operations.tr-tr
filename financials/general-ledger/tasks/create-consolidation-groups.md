@@ -16,34 +16,34 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 3bc3655fc47f90f84dc780615143815440bb51b5
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ee28b91d21050b08909ef701901398043d32abce
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>Konsolidasyon grupları ve ek konsolidasyon hesapları oluşturma
+# <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a><span data-ttu-id="0e73b-103">Konsolidasyon grupları ve ek konsolidasyon hesapları oluşturma</span><span class="sxs-lookup"><span data-stu-id="0e73b-103">Create consolidation groups and additional consolidation accounts</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, bir konsolidasyon hesabı grubu oluşturmayı ve gruba hesap eklemeyi gösterir. Bu yordam, USMF demo verisi şirketini kullanır.
+<span data-ttu-id="0e73b-104">Bu yordam, bir konsolidasyon hesabı grubu oluşturmayı ve gruba hesap eklemeyi gösterir.</span><span class="sxs-lookup"><span data-stu-id="0e73b-104">This procedure shows how to create a consolidation account group and then add accounts to the group.</span></span> <span data-ttu-id="0e73b-105">Bu yordam, USMF demo verisi şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="0e73b-105">This procedure uses the demo data company USMF.</span></span>
 
 
-## <a name="create-a-consolidation-account-group"></a>Konsolidasyon hesabı grubu oluştur
-1. Genel muhasebe > Hesap planı > Hesaplar > Konsolidasyon hesabı grupları'na gidin.
-2. Yeni'ye tıklayın.
-3. Konsolidasyon hesabı grupları alanında, konsolidasyon hesabı grubu için benzersiz bir tanımlayıcı girin.
-4. İsim alanına bir değer yazın.
+## <a name="create-a-consolidation-account-group"></a><span data-ttu-id="0e73b-106">Konsolidasyon hesabı grubu oluştur</span><span class="sxs-lookup"><span data-stu-id="0e73b-106">Create a consolidation account group</span></span>
+1. <span data-ttu-id="0e73b-107">Genel muhasebe > Hesap planı > Hesaplar > Konsolidasyon hesabı grupları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="0e73b-107">Go to General ledger > Chart of accounts > Accounts > Consolidation account groups.</span></span>
+2. <span data-ttu-id="0e73b-108">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0e73b-108">Click New.</span></span>
+3. <span data-ttu-id="0e73b-109">Konsolidasyon hesabı grupları alanında, konsolidasyon hesabı grubu için benzersiz bir tanımlayıcı girin.</span><span class="sxs-lookup"><span data-stu-id="0e73b-109">In the Consolidation account group field, enter a unique identifier for the consolidation account group.</span></span>
+4. <span data-ttu-id="0e73b-110">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="0e73b-110">In the Name field, type a value.</span></span>
 
-## <a name="add-accounts-to-consolidation-account-group"></a>Konsolidasyon hesabı grubuna hesap ekle
-1. Sayfayı kapatın.
-2. Genel muhasebe > Hesap planı > Hesaplar > Ek konsolidasyon hesapları'na gidin.
-3. Yeni'ye tıklayın.
-4. Ana hesap alanında, aramayı açmak için açılır menü düğmesini tıklatın.
-5. Listede, eşleştirmek istediğiniz ana hesabı tıklatın.
-6. Konsolidasyon hesabı grubu alanında, aramayı açmak için açılır menü düğmesini tıklatın.
-7. Listede, konsolidasyon hesabı grubunu tıklatın.
-8. Konsolidasyon hesabı alanında bir değer girin.
-9. Konsolidasyon hesabı adı alanında bir değer girin.
+## <a name="add-accounts-to-consolidation-account-group"></a><span data-ttu-id="0e73b-111">Konsolidasyon hesabı grubuna hesap ekle</span><span class="sxs-lookup"><span data-stu-id="0e73b-111">Add accounts to consolidation account group</span></span>
+1. <span data-ttu-id="0e73b-112">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="0e73b-112">Close the page.</span></span>
+2. <span data-ttu-id="0e73b-113">Genel muhasebe > Hesap planı > Hesaplar > Ek konsolidasyon hesapları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="0e73b-113">Go to General ledger > Chart of accounts > Accounts > Additional consolidation accounts.</span></span>
+3. <span data-ttu-id="0e73b-114">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0e73b-114">Click New.</span></span>
+4. <span data-ttu-id="0e73b-115">Ana hesap alanında, aramayı açmak için açılır menü düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="0e73b-115">In the Main account field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="0e73b-116">Listede, eşleştirmek istediğiniz ana hesabı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="0e73b-116">In the list, click the main account that you want to map.</span></span>
+6. <span data-ttu-id="0e73b-117">Konsolidasyon hesabı grubu alanında, aramayı açmak için açılır menü düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="0e73b-117">In the Consolidation account group field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="0e73b-118">Listede, konsolidasyon hesabı grubunu tıklatın.</span><span class="sxs-lookup"><span data-stu-id="0e73b-118">In the list, click the consolidation account group.</span></span>
+8. <span data-ttu-id="0e73b-119">Konsolidasyon hesabı alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="0e73b-119">In the Consolidation account field, type a value.</span></span>
+9. <span data-ttu-id="0e73b-120">Konsolidasyon hesabı adı alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="0e73b-120">In the Consolidation account name field, type a value.</span></span>
 
 

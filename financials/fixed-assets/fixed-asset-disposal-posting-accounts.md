@@ -19,28 +19,28 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0540ba30cb26abe274075deea80ca1e9cfc686f9
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 0129eae177d44100b09c2b7bce553dd5bde5ce0c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="fixed-asset-disposal-posting-accounts"></a>Sabit kıymet elden çıkarma deftere nakil hesapları
+# <a name="fixed-asset-disposal-posting-accounts"></a><span data-ttu-id="17e15-103">Sabit kıymet elden çıkarma deftere nakil hesapları</span><span class="sxs-lookup"><span data-stu-id="17e15-103">Fixed asset disposal posting accounts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, genel muhasebe deftere nakil hesaplarının kıymetlerin elden çıkarılmasına yönelik nasıl ayarlanacağı açıklanmaktadır.
+<span data-ttu-id="17e15-104">Bu makalede, genel muhasebe deftere nakil hesaplarının kıymetlerin elden çıkarılmasına yönelik nasıl ayarlanacağı açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="17e15-104">This article explains how to set up general ledger posting accounts for disposing of assets.</span></span>
 
-Sabit kıymet deftere nakil profilleri sayfasında, Genel muhasebe hesapları FastTab'de, Elden çıkarma - satış ve Elden çıkarma - ıskarta seçeneklerini belirleyerek genel muhasebeye nakilleri ayarlayın.
+<span data-ttu-id="17e15-105">Sabit kıymet deftere nakil profilleri sayfasında, Genel muhasebe hesapları FastTab'de, Elden çıkarma - satış ve Elden çıkarma - ıskarta seçeneklerini belirleyerek genel muhasebeye nakilleri ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="17e15-105">In the Fixed asset posting profiles page, on the Ledger accounts FastTab, select Disposal - sale and Disposal - scrap to set up postings to the ledger.</span></span>
 
-Her iki hareket tipi için de, sabit kıymetin elden çıkarma değeri için genel muhasebe hesabına alacak kaydedilir. Borç, örneğin bir banka hesabı olabilen mahsup hesaba nakledilir. Müşteriye sabit bir varlık satılırsa, mahsup hesabı yerine müşteri hesabı kullanılır.
+<span data-ttu-id="17e15-106">Her iki hareket tipi için de, sabit kıymetin elden çıkarma değeri için genel muhasebe hesabına alacak kaydedilir.</span><span class="sxs-lookup"><span data-stu-id="17e15-106">For both transaction types, the ledger account is credited for the disposal value of the fixed asset.</span></span> <span data-ttu-id="17e15-107">Borç, örneğin bir banka hesabı olabilen mahsup hesaba nakledilir.</span><span class="sxs-lookup"><span data-stu-id="17e15-107">The debit is posted to an offset account, which might be, for example, a bank account.</span></span> <span data-ttu-id="17e15-108">Müşteriye sabit bir varlık satılırsa, mahsup hesabı yerine müşteri hesabı kullanılır.</span><span class="sxs-lookup"><span data-stu-id="17e15-108">If a fixed asset is sold to a customer, the customer account is used instead of the offset account.</span></span>
 
-Elden çıkarma seçeneğine, ardından Satış veya Iskarta seçeneğine tıklayın, sonra da sabit kıymetin net defter değerini tersine çevirmek için ayrıntılı hesaplar ayarlayın. Ayrıca Elden çıkarma parametreleri sayfasındaki Nakledilecek değer ve Satış değeri alanlarına bilgi de girebilirsiniz. 
+<span data-ttu-id="17e15-109">Elden çıkarma seçeneğine, ardından Satış veya Iskarta seçeneğine tıklayın, sonra da sabit kıymetin net defter değerini tersine çevirmek için ayrıntılı hesaplar ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="17e15-109">Click Disposal and then click Sale or Scrap, and then set up detailed accounts to reverse the net book value of the fixed asset.</span></span> <span data-ttu-id="17e15-110">Ayrıca Elden çıkarma parametreleri sayfasındaki Nakledilecek değer ve Satış değeri alanlarına bilgi de girebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="17e15-110">You can also enter information in the Post value and Sales value type fields in the Disposal parameters page.</span></span> 
 
-Düşük değer havuzundaki bir kıymete ilişkin elden çıkarma hareketi, düşük değer havuzunun net defter değerini yalnızca elden çıkarılan tutar kadar düşürür. Ancak, bir kıymetin satışı düşük değer havuzunun net defter değerini geçtiğinde, net defter değeri sıfıra düşer.
+<span data-ttu-id="17e15-111">Düşük değer havuzundaki bir kıymete ilişkin elden çıkarma hareketi, düşük değer havuzunun net defter değerini yalnızca elden çıkarılan tutar kadar düşürür.</span><span class="sxs-lookup"><span data-stu-id="17e15-111">The disposal transaction for an asset in a low-value pool reduces the net book value of the low-value pool by the disposed amount only.</span></span> <span data-ttu-id="17e15-112">Ancak, bir kıymetin satışı düşük değer havuzunun net defter değerini geçtiğinde, net defter değeri sıfıra düşer.</span><span class="sxs-lookup"><span data-stu-id="17e15-112">However, when the sale of an asset is exceeds the net book value of the low-value pool, the net book value is reduced to zero.</span></span>
 
 
 

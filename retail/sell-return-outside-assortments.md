@@ -15,31 +15,31 @@ ms.custom:
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: prabhup
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
-ms.openlocfilehash: ab6d22cf2c1610843de42d1e62cd93b17d74d8b8
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 7fa5b240bc9c9f96ae5483be316eff62df915570
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/14/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="sell-and-return-products-outside-of-an-assortment"></a>Ürünleri bir çeşit dışında satma ve iade etme
-Tüm Perakendeciler için genel bir senaryo, mağazalarında belirli ürünleri bulundurmasalar bile (diğer bir deyişle, ürünler mağazadaki çeşitler arasında olmasa bile) kendi müşterilerine ürünleri satmak veya müşterilerden gelen iadeleri kabul etmektir.
-Burada bazı tipik senaryolar vardır:
+# <a name="sell-and-return-products-outside-of-an-assortment"></a><span data-ttu-id="548fc-103">Ürünleri bir çeşit dışında satma ve iade etme</span><span class="sxs-lookup"><span data-stu-id="548fc-103">Sell and return products outside of an assortment</span></span>
+<span data-ttu-id="548fc-104">Tüm Perakendeciler için genel bir senaryo, mağazalarında belirli ürünleri bulundurmasalar bile (diğer bir deyişle, ürünler mağazadaki çeşitler arasında olmasa bile) kendi müşterilerine ürünleri satmak veya müşterilerden gelen iadeleri kabul etmektir.</span><span class="sxs-lookup"><span data-stu-id="548fc-104">A common scenario for any retailer is to sell products to their customers or accept returns from their customers even if they don’t carry the specific products in their store (in other words, the products are not assorted to the store).</span></span>
+<span data-ttu-id="548fc-105">Burada bazı tipik senaryolar vardır:</span><span class="sxs-lookup"><span data-stu-id="548fc-105">Here are some typical scenarios:</span></span>
 
-+ Bir perakendeci tüm ürünlerini belirli bir mağazada bulundurmaz. Kalan ürünler ambarda depolanır. Mağaza çalışanı depodaki ürünleri arayarak veya bunlara göz atarak müşteriye yardımcı olabilir, ürünleri sepete ekleyebilir ve depodan adrese teslim gibi bir teslimat yöntemi seçerek veya müşterinin ürünü geçerli mağazadan veya başka bir mağazadan çekmesini sağlayarak işlemi tamamlayabilir.
-+ Perakendeci belirli ürünleri mağaza bulundurmaz veya ürünler müşterinin ziyaret ettiği mağazanın stoğunda bulunmayabilir ancak ürünler diğer mağazalarda olabilir. Mağaza çalışanı ürünleri diğer bir mağazada arayarak veya göz atarak müşterinin bunları sepete eklemesine ve bir teslimat yöntemi seçerek satınalma işlemini tamamlamaya yardımcı olabilir.
-+ Perakendecinin belirli bir şehir veya bölgede birçok mağazası vardır ve müşteriyi iade edeceği ürünü satın aldığı mağazaya iade etmek konusunda zorlamak istemez. Bunun yerine, müşteri ürünleri herhangi bir mağazaya iade edebilir.
++ <span data-ttu-id="548fc-106">Bir perakendeci tüm ürünlerini belirli bir mağazada bulundurmaz.</span><span class="sxs-lookup"><span data-stu-id="548fc-106">A retailer doesn’t carry all its products in a specific store.</span></span> <span data-ttu-id="548fc-107">Kalan ürünler ambarda depolanır.</span><span class="sxs-lookup"><span data-stu-id="548fc-107">The remaining products are stored in the warehouse.</span></span> <span data-ttu-id="548fc-108">Mağaza çalışanı depodaki ürünleri arayarak veya bunlara göz atarak müşteriye yardımcı olabilir, ürünleri sepete ekleyebilir ve depodan adrese teslim gibi bir teslimat yöntemi seçerek veya müşterinin ürünü geçerli mağazadan veya başka bir mağazadan çekmesini sağlayarak işlemi tamamlayabilir.</span><span class="sxs-lookup"><span data-stu-id="548fc-108">The store associate can assist the customer by searching or browsing for the products in the warehouse, add them to the cart, and complete the checkout by selecting a delivery method, such as shipping to an address from the warehouse or letting the customer pick up the product from the current store or from another store.</span></span>
++ <span data-ttu-id="548fc-109">Perakendeci belirli ürünleri mağaza bulundurmaz veya ürünler müşterinin ziyaret ettiği mağazanın stoğunda bulunmayabilir ancak ürünler diğer mağazalarda olabilir.</span><span class="sxs-lookup"><span data-stu-id="548fc-109">A retailer doesn’t carry specific products in the store or doesn’t have them in stock at the store the customer visited, but the products are available in other stores.</span></span> <span data-ttu-id="548fc-110">Mağaza çalışanı ürünleri diğer bir mağazada arayarak veya göz atarak müşterinin bunları sepete eklemesine ve bir teslimat yöntemi seçerek satınalma işlemini tamamlamaya yardımcı olabilir.</span><span class="sxs-lookup"><span data-stu-id="548fc-110">The store associate can assist the customer by searching or browsing the products in the other store, add them to the cart, and complete the checkout by selecting a delivery method.</span></span>
++ <span data-ttu-id="548fc-111">Perakendecinin belirli bir şehir veya bölgede birçok mağazası vardır ve müşteriyi iade edeceği ürünü satın aldığı mağazaya iade etmek konusunda zorlamak istemez.</span><span class="sxs-lookup"><span data-stu-id="548fc-111">A retailer has many stores in and around a specific city or zip code and doesn’t want to force the customers to return products to the same store they were purchased in.</span></span> <span data-ttu-id="548fc-112">Bunun yerine, müşteri ürünleri herhangi bir mağazaya iade edebilir.</span><span class="sxs-lookup"><span data-stu-id="548fc-112">Instead, customers can return products to any store.</span></span>
 
 
-Bu ortak senaryolar Dynamics 365 for Retail kullanan perakendeciler için kullanılabilir. Retail ile şunları yapabilirsiniz:
-+ Diğer mağazalarda ürünleri aramak veya diğer mağazalardaki ürünlere göz atmak.
-+ Tüm serbest bırakılan ürünleri aramak veya göz atmak.
-+ peşin alış veriş hareketleri veya müşteri siparişleri oluşturmak.
-+ Müşteri siparişleri için teslim seçeneklerini belirlemek.
-+ Ürünleri geçerli mağazadan veya başka mağazadan seçmek.
-+ Geçerli mağazadaki veya başka mağazadaki siparişi iptal etmek.
-+ Bir siparişi makbuzla veya makbuz olmadan geçerli mağazaya veya başka bir mağazaya iade etmek.
+<span data-ttu-id="548fc-113">Bu ortak senaryolar Dynamics 365 for Retail kullanan perakendeciler için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="548fc-113">Those common scenarios are available for retailers using Dynamics 365 for Retail.</span></span> <span data-ttu-id="548fc-114">Retail ile şunları yapabilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="548fc-114">With Retail, you can:</span></span>
++ <span data-ttu-id="548fc-115">Diğer mağazalarda ürünleri aramak veya diğer mağazalardaki ürünlere göz atmak.</span><span class="sxs-lookup"><span data-stu-id="548fc-115">Search or browse products at other stores.</span></span>
++ <span data-ttu-id="548fc-116">Tüm serbest bırakılan ürünleri aramak veya göz atmak.</span><span class="sxs-lookup"><span data-stu-id="548fc-116">Search or browse all released products.</span></span>
++ <span data-ttu-id="548fc-117">peşin alış veriş hareketleri veya müşteri siparişleri oluşturmak.</span><span class="sxs-lookup"><span data-stu-id="548fc-117">Create cash-and-carry transactions or customer orders.</span></span>
++ <span data-ttu-id="548fc-118">Müşteri siparişleri için teslim seçeneklerini belirlemek.</span><span class="sxs-lookup"><span data-stu-id="548fc-118">Select delivery options for customer orders.</span></span>
++ <span data-ttu-id="548fc-119">Ürünleri geçerli mağazadan veya başka mağazadan seçmek.</span><span class="sxs-lookup"><span data-stu-id="548fc-119">Pick up products at the current store or another store.</span></span>
++ <span data-ttu-id="548fc-120">Geçerli mağazadaki veya başka mağazadaki siparişi iptal etmek.</span><span class="sxs-lookup"><span data-stu-id="548fc-120">Cancel an order at the current store or another store.</span></span>
++ <span data-ttu-id="548fc-121">Bir siparişi makbuzla veya makbuz olmadan geçerli mağazaya veya başka bir mağazaya iade etmek.</span><span class="sxs-lookup"><span data-stu-id="548fc-121">Return an order with or without the receipt at the current store or another store.</span></span>
 

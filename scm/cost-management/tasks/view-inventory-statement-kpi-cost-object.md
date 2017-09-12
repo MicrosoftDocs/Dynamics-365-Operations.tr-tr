@@ -17,25 +17,25 @@ ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: afcd1f177ff8bbac8c830f2b0874a92b666fe4f7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6c83ac2ba2d93dfb0b453a93e92376f09dd86083
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="view-inventory-statement-and-kpi-by-cost-object"></a>Maliyet nesnesine göre stok ekstresi ve KPI görüntüleme
+# <a name="view-inventory-statement-and-kpi-by-cost-object"></a><span data-ttu-id="76ad4-103">Maliyet nesnesine göre stok ekstresi ve KPI görüntüleme</span><span class="sxs-lookup"><span data-stu-id="76ad4-103">View inventory statement and KPI by cost object</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam maliyet denetleyicisi için hazırlanmıştır.
+<span data-ttu-id="76ad4-104">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="76ad4-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="76ad4-105">Bu yordam maliyet denetleyicisi için hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="76ad4-105">This procedure is intended for the cost controller.</span></span>
 
-1. Maliyet yönetimi'ne tıklayın.
-2. Sevk edilen ürünler'e tıklayın.
-3. Kayıtları bulmak için Hızlı Filtre'yi kullanın. Örneğin, Ürün numarası alanını 'd0005' değeriyle filtreleyin.
-4. Eylem Bölmesinde Yönet'e tıklayın.
-5. Maliyet nesneleri'ni tıklatın.
-6. Stok ekstresi ve KPI'lar'i tıklatın
-7. Başlangıç tarihi alanına bir tarih girin.
-8. Bitiş tarihi alanına bir tarih girin.
+1. <span data-ttu-id="76ad4-106">Maliyet yönetimi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="76ad4-106">Click Cost administration.</span></span>
+2. <span data-ttu-id="76ad4-107">Sevk edilen ürünler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="76ad4-107">Click Released products.</span></span>
+3. <span data-ttu-id="76ad4-108">Kayıtları bulmak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="76ad4-108">Use the Quick Filter to find records.</span></span> <span data-ttu-id="76ad4-109">Örneğin, Ürün numarası alanını 'd0005' değeriyle filtreleyin.</span><span class="sxs-lookup"><span data-stu-id="76ad4-109">For example, filter on the Item number field with a value of 'd0005'.</span></span>
+4. <span data-ttu-id="76ad4-110">Eylem Bölmesinde Yönet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="76ad4-110">On the Action Pane, click Manage costs.</span></span>
+5. <span data-ttu-id="76ad4-111">Maliyet nesneleri'ni tıklatın.</span><span class="sxs-lookup"><span data-stu-id="76ad4-111">Click Cost objects.</span></span>
+6. <span data-ttu-id="76ad4-112">Stok ekstresi ve KPI'lar'i tıklatın</span><span class="sxs-lookup"><span data-stu-id="76ad4-112">Click Inventory statement and KPIs.</span></span>
+7. <span data-ttu-id="76ad4-113">Başlangıç tarihi alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="76ad4-113">In the From date field, enter a date.</span></span>
+8. <span data-ttu-id="76ad4-114">Bitiş tarihi alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="76ad4-114">In the To date field, enter a date.</span></span>
 
 

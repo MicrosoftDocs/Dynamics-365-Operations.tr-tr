@@ -25,222 +25,222 @@ ms.lasthandoff: 08/10/2017
 
 ---
 
-# <a name="expense-management-mobile-workspace"></a>Gider yönetimi mobil çalışma alanı
+# <a name="expense-management-mobile-workspace"></a><span data-ttu-id="2d4fc-105">Gider yönetimi mobil çalışma alanı</span><span class="sxs-lookup"><span data-stu-id="2d4fc-105">Expense management mobile workspace</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, **Gider yönetimi** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı kullanıcıların bir girişi yakalamasını ve yüklemesini, böylece daha sonra bir gider raporuna ekleyebilmelerini sağlar. Kullanıcılar ayrıca ekli bir alış irsaliyesi kullanarak bir gider satırını hızla oluşturabilir ve gider raporlarını oluşturup yönetebilirler. Ek olarak, onaylayıcılar **Gider yönetimi** mobil çalışma alanını, onlara atanmış gider raporlarını görüntülemek ve bu gider raporlarını onaylamak veya reddetmek için kullanabilirler.
+<span data-ttu-id="2d4fc-106">Bu konu, **Gider yönetimi** mobil çalışma alanı hakkında bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-106">This topic provides information about the **Expense management** mobile workspace.</span></span> <span data-ttu-id="2d4fc-107">Bu çalışma alanı kullanıcıların bir girişi yakalamasını ve yüklemesini, böylece daha sonra bir gider raporuna ekleyebilmelerini sağlar.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-107">This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later.</span></span> <span data-ttu-id="2d4fc-108">Kullanıcılar ayrıca ekli bir alış irsaliyesi kullanarak bir gider satırını hızla oluşturabilir ve gider raporlarını oluşturup yönetebilirler.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-108">Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports.</span></span> <span data-ttu-id="2d4fc-109">Ek olarak, onaylayıcılar **Gider yönetimi** mobil çalışma alanını, onlara atanmış gider raporlarını görüntülemek ve bu gider raporlarını onaylamak veya reddetmek için kullanabilirler.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-109">Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.</span></span>
 
 
-Bu mobil çalışma alanı, Microsoft Dynamics 365 for Unified Operations mobil uygulaması ile kullanılmak üzere geliştirilmiştir.
+<span data-ttu-id="2d4fc-110">Bu mobil çalışma alanı, Microsoft Dynamics 365 for Unified Operations mobil uygulaması ile kullanılmak üzere geliştirilmiştir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-110">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
 
-## <a name="overview"></a>Özet
+## <a name="overview"></a><span data-ttu-id="2d4fc-111">Özet</span><span class="sxs-lookup"><span data-stu-id="2d4fc-111">Overview</span></span>
 
-Çoğu kuruluş, personelin iade için gönderdiği bir seyahatle ya da işle ilgili gider raporuna, bir fişin kopyasının eklenmesini gerektirir. **Gider yönetimi** mobil çalışma alanı, kullanıcıların yeni gider satırlarını, fişin fotoğrafını ekleyerek istedikleri mobil cihazda hızla oluşturmalarını sağlar. Alternatif olarak, kullanıcılar fişin fotoğrafını çekebilir ve gider raporuna daha sonra ekleyebilirler. Personeller de gider raporlarını oluşturabilir ve yönetebilirler, ayrıca bunları daha sonra onaylanmak ve para iadesi almak üzere mobil cihazlarını kullanarak gönderebilirler.
+<span data-ttu-id="2d4fc-112">Çoğu kuruluş, personelin iade için gönderdiği bir seyahatle ya da işle ilgili gider raporuna, bir fişin kopyasının eklenmesini gerektirir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-112">Many organizations require that a copy of a receipt be attached to a travel-related or business-related expense report that an employee submits for reimbursement.</span></span> <span data-ttu-id="2d4fc-113">**Gider yönetimi** mobil çalışma alanı, kullanıcıların yeni gider satırlarını, fişin fotoğrafını ekleyerek istedikleri mobil cihazda hızla oluşturmalarını sağlar.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-113">The **Expense management** mobile workspace lets users quickly create new expense lines on the mobile device of their choice by using an attached photo of a receipt.</span></span> <span data-ttu-id="2d4fc-114">Alternatif olarak, kullanıcılar fişin fotoğrafını çekebilir ve gider raporuna daha sonra ekleyebilirler.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-114">Alternatively, users can capture a photo of a receipt and then attach it to an expense report later.</span></span> <span data-ttu-id="2d4fc-115">Personeller de gider raporlarını oluşturabilir ve yönetebilirler, ayrıca bunları daha sonra onaylanmak ve para iadesi almak üzere mobil cihazlarını kullanarak gönderebilirler.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-115">Employees can also create and manage their expense reports, and then submit them for approval and reimbursement by using their mobile device.</span></span>
 
 
-Özellikle, **Gider yönetimi** mobil çalışma alanı, kullanıcıların şu görevleri yerine getirmesini sağlar:
+<span data-ttu-id="2d4fc-116">Özellikle, **Gider yönetimi** mobil çalışma alanı, kullanıcıların şu görevleri yerine getirmesini sağlar:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-116">Specifically, the **Expense management** mobile workspace lets users perform these tasks:</span></span>
 
-- Fişin bir fotoğrafını çekmek ve Microsoft Dynamics 365 for Finance and Operations Enterprise edition'a yüklemek. Daha sonra fotoğrafı bir gider raporuna ekleyebilirsiniz.
-- Dosyayı kaydedilen bir giriş olarak yüklemek. Daha sonra dosyayı bir gider raporuna daha sonra ekleyebilirsiniz.
-- Ekli bir fişi kullanarak yeni bir gider satırı oluşturmak. Satır maddesini bir gider raporuna daha sonra ekleyebilir ve onay ve iade için gönderebilirsiniz.
+- <span data-ttu-id="2d4fc-117">Fişin bir fotoğrafını çekmek ve Microsoft Dynamics 365 for Finance and Operations Enterprise edition'a yüklemek.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-117">Take a photo of a receipt, and upload it to Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="2d4fc-118">Daha sonra fotoğrafı bir gider raporuna ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-118">You can then attach that photo to an expense report later.</span></span>
+- <span data-ttu-id="2d4fc-119">Dosyayı kaydedilen bir giriş olarak yüklemek.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-119">Upload a file as a captured receipt.</span></span> <span data-ttu-id="2d4fc-120">Daha sonra dosyayı bir gider raporuna daha sonra ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-120">You can then attach that file to an expense report later.</span></span>
+- <span data-ttu-id="2d4fc-121">Ekli bir fişi kullanarak yeni bir gider satırı oluşturmak.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-121">Create a new expense line by using an attached receipt.</span></span> <span data-ttu-id="2d4fc-122">Satır maddesini bir gider raporuna daha sonra ekleyebilir ve onay ve iade için gönderebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-122">You can then add the line item to an expense report later, and submit it for approval and reimbursement.</span></span>
 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü Temmuz 2017 güncelleştirmesini kullanıyorsanız, aşağıdaki özelliklerden de faydalanabilirsiniz:
+<span data-ttu-id="2d4fc-123">Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü Temmuz 2017 güncelleştirmesini kullanıyorsanız, aşağıdaki özelliklerden de faydalanabilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-123">If you're using Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update, you can also use these features:</span></span>
 
-- Yeni gider raporu oluştur.
-- Kredi kartı hareketlerini ve önceden oluşturulmuş diğer giderleri bir gider raporuna ekleyin.
-- Bir gider raporu için yeni bir giderler oluşturun.
-- Bir girişi herhangi bir gider raporu için bir gidere ekleyebilirsiniz; ister fişin fotoğrafını çekerek, isterseniz de bir dosyayı yakalanan bir fiş olarak karşıya yükleyerek.
-- Şirketin gider ilkelerine dayalı olarak, bir gidere konukların listesini ekleyin.
-- Şirketin gider ilkesine bağlı olarak, giderleri maddeleştirin.
-- Bir gider raporunu onay veya geri ödeme için gönderin.
-- Atanmış onaylayıcısı olduğunuz gider raporlarını onaylayın veya reddedin.
+- <span data-ttu-id="2d4fc-124">Yeni gider raporu oluştur.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-124">Create a new expense report.</span></span>
+- <span data-ttu-id="2d4fc-125">Kredi kartı hareketlerini ve önceden oluşturulmuş diğer giderleri bir gider raporuna ekleyin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-125">Attach credit card transactions and other previously created expenses to an expense report.</span></span>
+- <span data-ttu-id="2d4fc-126">Bir gider raporu için yeni bir giderler oluşturun.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-126">Create new expenses for an expense report.</span></span>
+- <span data-ttu-id="2d4fc-127">Bir girişi herhangi bir gider raporu için bir gidere ekleyebilirsiniz; ister fişin fotoğrafını çekerek, isterseniz de bir dosyayı yakalanan bir fiş olarak karşıya yükleyerek.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-127">Attach a receipt to any expense for an expense report, either by taking a photo of the receipt or by uploading a file as a captured receipt.</span></span>
+- <span data-ttu-id="2d4fc-128">Şirketin gider ilkelerine dayalı olarak, bir gidere konukların listesini ekleyin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-128">Depending on the company's expense policy, add the list of guests to an expense.</span></span>
+- <span data-ttu-id="2d4fc-129">Şirketin gider ilkesine bağlı olarak, giderleri maddeleştirin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-129">Depending on the company's expense policy, itemize expenses.</span></span>
+- <span data-ttu-id="2d4fc-130">Bir gider raporunu onay veya geri ödeme için gönderin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-130">Submit an expense report for approval and reimbursement.</span></span>
+- <span data-ttu-id="2d4fc-131">Atanmış onaylayıcısı olduğunuz gider raporlarını onaylayın veya reddedin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-131">Approve or reject expense reports that you're an assigned approver for.</span></span>
 
-## <a name="prerequisites"></a>Ön koşullar
-Önkoşullar, kuruluşunuza dağıtılan Microsoft Dynamics 365 sürümüne dayalı olarak farklılık gösterir.
+## <a name="prerequisites"></a><span data-ttu-id="2d4fc-132">Ön koşullar</span><span class="sxs-lookup"><span data-stu-id="2d4fc-132">Prerequisites</span></span>
+<span data-ttu-id="2d4fc-133">Önkoşullar, kuruluşunuza dağıtılan Microsoft Dynamics 365 sürümüne dayalı olarak farklılık gösterir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-133">The prerequisites vary, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition Temmuz 2017 güncelleştirmesini kullanıyorsanız önkoşullar 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü Temmuz 2017 güncelleştirmesi kuruluşunuza dağıtıldıysa, sistem yöneticisinin **Gider yönetimi** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a><span data-ttu-id="2d4fc-134">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition Temmuz 2017 güncelleştirmesini kullanıyorsanız önkoşullar</span><span class="sxs-lookup"><span data-stu-id="2d4fc-134">Prerequisites if you use Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update</span></span> 
+<span data-ttu-id="2d4fc-135">Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü Temmuz 2017 güncelleştirmesi kuruluşunuza dağıtıldıysa, sistem yöneticisinin **Gider yönetimi** mobil çalışma alanını yayımlaması gerekir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-135">If Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update has been deployed for your organization, the system administrator must publish the **Expense management** mobile workspace.</span></span> <span data-ttu-id="2d4fc-136">Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span><span class="sxs-lookup"><span data-stu-id="2d4fc-136">For instructions, see [Publish a mobile workspace](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Microsoft Dynamics 365 for Operations sürüm 1611 platform güncelleştirmesi 3 veya daha sonraki sürüm kullanıyorsanız ön koşullar
-Kuruluşunuza platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 365 for Operations 1611 sürümü dağıtılmışsa, sistem yöneticisinin aşağıdaki ön koşulları yerine getirmesi gerekir. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="2d4fc-137">Microsoft Dynamics 365 for Operations sürüm 1611 platform güncelleştirmesi 3 veya daha sonraki sürüm kullanıyorsanız ön koşullar</span><span class="sxs-lookup"><span data-stu-id="2d4fc-137">Prerequisites if you use Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="2d4fc-138">Kuruluşunuza platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 365 for Operations 1611 sürümü dağıtılmışsa, sistem yöneticisinin aşağıdaki ön koşulları yerine getirmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-138">If Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th>Önkoşul</th>
-<th>Rol</th>
-<th>Açıklama</th>
+<th><span data-ttu-id="2d4fc-139">Önkoşul</span><span class="sxs-lookup"><span data-stu-id="2d4fc-139">Prerequisite</span></span></th>
+<th><span data-ttu-id="2d4fc-140">Rol</span><span class="sxs-lookup"><span data-stu-id="2d4fc-140">Role</span></span></th>
+<th><span data-ttu-id="2d4fc-141">Açıklama</span><span class="sxs-lookup"><span data-stu-id="2d4fc-141">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>KB 4019015 uygulayın.</td>
-<td>Sistem yöneticisi</td>
-<td>KB 4019015, <strong>Gider yönetimi</strong> mobil çalışma alanını içeren bir X++ güncelleştirmesi veya meta veri düzeltmesidir. KB 4019015 uygulamak için sistem yöneticiniz bu adımları atması gerekir.
+<td><span data-ttu-id="2d4fc-142">KB 4019015 uygulayın.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-142">Implement KB 4019015.</span></span></td>
+<td><span data-ttu-id="2d4fc-143">Sistem yöneticisi</span><span class="sxs-lookup"><span data-stu-id="2d4fc-143">System administrator</span></span></td>
+<td><span data-ttu-id="2d4fc-144">KB 4019015, <strong>Gider yönetimi</strong> mobil çalışma alanını içeren bir X++ güncelleştirmesi veya meta veri düzeltmesidir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-144">KB 4019015 is an X++ update or metadata hotfix that contains the <strong>Expense management</strong> mobile workspace.</span></span> <span data-ttu-id="2d4fc-145">KB 4019015 uygulamak için sistem yöneticiniz bu adımları atması gerekir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-145">To implement KB 4019015, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Meta veri düzeltmesini Microsoft Dynamics Lifecycle Services (LCS) üzerinden indirin</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Meta veri düzeltmesini kurun</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Dağıtılabilir bir paket oluşturun</a> <strong>ApplicationSuite</strong> ve <strong>ExpenseMobile</strong> modellerini içeren ve daha sonra dağıtılabilir paketi LCS'ye yükleyin.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Dağıtılabilir paketi uygulayın</a>.</li>
+<li><span data-ttu-id="2d4fc-146"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Meta veri düzeltmesini Microsoft Dynamics Lifecycle Services (LCS) üzerinden indirin</a>.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-146"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
+<li><span data-ttu-id="2d4fc-147"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Meta veri düzeltmesini kurun</a>.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-147"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="2d4fc-148"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Dağıtılabilir bir paket oluşturun</a> <strong>ApplicationSuite</strong> ve <strong>ExpenseMobile</strong> modellerini içeren ve daha sonra dağıtılabilir paketi LCS'ye yükleyin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-148"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ExpenseMobile</strong> models, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="2d4fc-149"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Dağıtılabilir paketi uygulayın</a>.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-149"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td><strong>Gider yönetimi</strong> mobil çalışma alanını yayımlayın.</td>
-<td>Sistem yöneticisi</td>
-<td>Bkz. <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobil çalışma alanı yayınlama</a>.</td>
+<td><span data-ttu-id="2d4fc-150"><strong>Gider yönetimi</strong> mobil çalışma alanını yayımlayın.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-150">Publish the <strong>Expense management</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="2d4fc-151">Sistem yöneticisi</span><span class="sxs-lookup"><span data-stu-id="2d4fc-151">System administrator</span></span></td>
+<td><span data-ttu-id="2d4fc-152">Bkz. <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobil çalışma alanı yayınlama</a>.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-152">See <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Dynamics 365 for Operations mobil uygulamasını yükleyin ve kurun
-Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a><span data-ttu-id="2d4fc-153">Dynamics 365 for Operations mobil uygulamasını yükleyin ve kurun</span><span class="sxs-lookup"><span data-stu-id="2d4fc-153">Download and install the Dynamics 365 for Operations mobile app</span></span>
+<span data-ttu-id="2d4fc-154">Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-154">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
-- [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
-- [İPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)
+- [<span data-ttu-id="2d4fc-155">Android telefonlar için</span><span class="sxs-lookup"><span data-stu-id="2d4fc-155">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+- [<span data-ttu-id="2d4fc-156">İPhone'lar için</span><span class="sxs-lookup"><span data-stu-id="2d4fc-156">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Mobil uygulamaya oturum açın
-1. Mobil cihazınızda uygulamayı başlatın.
-2. Dynamics 365 URL'nizi girin.
-4. İlk kez oturum açtığınızda, kullanıcı adınız ve parolanız istenir. Kimlik bilgilerinizi girin.
-5. Oturum açtıktan sonra şirketiniz için kullanılabilir çalışma alanları gösterilir. Sistem yöneticiniz yeni bir çalışma alanını daha sonra yayınlarsa, mobil çalışma alanlarının listesini yenilemeniz gerekeceğini unutmayın.
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="2d4fc-157">Mobil uygulamaya oturum açın</span><span class="sxs-lookup"><span data-stu-id="2d4fc-157">Sign in to the mobile app</span></span>
+1. <span data-ttu-id="2d4fc-158">Mobil cihazınızda uygulamayı başlatın.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-158">Start the app on your mobile device.</span></span>
+2. <span data-ttu-id="2d4fc-159">Dynamics 365 URL'nizi girin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-159">Enter your Dynamics 365 URL.</span></span>
+4. <span data-ttu-id="2d4fc-160">İlk kez oturum açtığınızda, kullanıcı adınız ve parolanız istenir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-160">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="2d4fc-161">Kimlik bilgilerinizi girin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-161">Enter your credentials.</span></span>
+5. <span data-ttu-id="2d4fc-162">Oturum açtıktan sonra şirketiniz için kullanılabilir çalışma alanları gösterilir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-162">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="2d4fc-163">Sistem yöneticiniz yeni bir çalışma alanını daha sonra yayınlarsa, mobil çalışma alanlarının listesini yenilemeniz gerekeceğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-163">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
 
-[![Yenilemek için çekin](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+<span data-ttu-id="2d4fc-164">[![Yenilemek için çekin](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="2d4fc-164">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Gider yönetimi mobil çalışma alanını kullanarak bir girişi yakalayın
+## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="2d4fc-165">Gider yönetimi mobil çalışma alanını kullanarak bir girişi yakalayın</span><span class="sxs-lookup"><span data-stu-id="2d4fc-165">Capture a receipt by using the Expense management mobile workspace</span></span>
 
-1. Mobil cihazınızda **Gider yönetimi** çalışma alanını açın.
-2. **Giriş yakalama**'yı seçin.
-3. **Fotoğraf çek** veya **Resim seç**'i seçin.
-4. Şu adımlardan birini izleyin:
+1. <span data-ttu-id="2d4fc-166">Mobil cihazınızda **Gider yönetimi** çalışma alanını açın.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-166">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="2d4fc-167">**Giriş yakalama**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-167">Select **Capture receipt**.</span></span>
+3. <span data-ttu-id="2d4fc-168">**Fotoğraf çek** veya **Resim seç**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-168">Select **Take photo** or **Choose image**.</span></span>
+4. <span data-ttu-id="2d4fc-169">Şu adımlardan birini izleyin:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-169">Follow one of these steps:</span></span>
 
-    - **Fotoğraf çek**'i seçtiyseniz, şu adımları izleyin:
+    - <span data-ttu-id="2d4fc-170">**Fotoğraf çek**'i seçtiyseniz, şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-170">If you selected **Take photo**, follow these steps:</span></span>
 
-        1. Mobil cihazınızın kamerasına götürülürsünüz ve böylece fişin bir faturasını çekebilirsiniz. Fotoğraf çekmeyi bitirdiğinizde, fotoğrafı kabul etmek için **Tamam**'ı seçin.
-        2. İsteğe bağlı: Fotoğraf için bir isim ve varsa not girin.
+        1. <span data-ttu-id="2d4fc-171">Mobil cihazınızın kamerasına götürülürsünüz ve böylece fişin bir faturasını çekebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-171">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="2d4fc-172">Fotoğraf çekmeyi bitirdiğinizde, fotoğrafı kabul etmek için **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-172">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+        2. <span data-ttu-id="2d4fc-173">İsteğe bağlı: Fotoğraf için bir isim ve varsa not girin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-173">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-    - **Resim seç**'i seçtiyseniz, şu adımları izleyin:
+    - <span data-ttu-id="2d4fc-174">**Resim seç**'i seçtiyseniz, şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-174">If you selected **Choose image**, follow these steps:</span></span>
 
-        1. Listeden bir resim seçin.
-        2. İsteğe bağlı: Resim için bir isim ve varsa not girin.
+        1. <span data-ttu-id="2d4fc-175">Listeden bir resim seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-175">Select an image in the list.</span></span>
+        2. <span data-ttu-id="2d4fc-176">İsteğe bağlı: Resim için bir isim ve varsa not girin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-176">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-5. **Tamam**'ı seçin.
+5. <span data-ttu-id="2d4fc-177">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-177">Select **Done**.</span></span>
 
-## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Gider yönetimi mobil çalışma alanını kullanarak giderleri hızlıca girin
-1. Mobil cihazınızda **Gider yönetimi** çalışma alanını açın.
-2. **Hızlı gider girişi**'ni seçin.
-3. Gider için kategori seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş gider kategorilerinin bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Kategoriniz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Gider kategorisine göre arama yapın veya gider türüne göre aramaya geçin.
-4. Giderin hareket tarihini girin.
-5. İsteğe bağlı: Gider için tüccarı girin.
-6. Giderin tutarını girin.
-7. Giderin para birimini seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş para birimlerinin bir listesini görürsünüz. Varsayılan olarak, 400 para birimi yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Para biriminiz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Para birimine göre arama yapın veya adına göre aramaya geçin.
-8. **Fotoğraf çek** veya **Resim seç**'i seçin.
-9. Şu adımlardan birini izleyin:
+## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a><span data-ttu-id="2d4fc-178">Gider yönetimi mobil çalışma alanını kullanarak giderleri hızlıca girin</span><span class="sxs-lookup"><span data-stu-id="2d4fc-178">Quickly enter expenses by using the Expense management mobile workspace</span></span>
+1. <span data-ttu-id="2d4fc-179">Mobil cihazınızda **Gider yönetimi** çalışma alanını açın.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-179">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="2d4fc-180">**Hızlı gider girişi**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-180">Select **Quick expense entry**.</span></span>
+3. <span data-ttu-id="2d4fc-181">Gider için kategori seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-181">Select the category for the expense.</span></span> <span data-ttu-id="2d4fc-182">Çevrimdışı kullanım için uygulamanıza yüklenmiş gider kategorilerinin bir listesini görürsünüz.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-182">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="2d4fc-183">Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-183">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="2d4fc-184">Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="2d4fc-184">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="2d4fc-185">Kategoriniz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-185">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="2d4fc-186">Gider kategorisine göre arama yapın veya gider türüne göre aramaya geçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-186">Search by expense category, or switch to search by expense type.</span></span>
+4. <span data-ttu-id="2d4fc-187">Giderin hareket tarihini girin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-187">Enter the transaction date of the expense.</span></span>
+5. <span data-ttu-id="2d4fc-188">İsteğe bağlı: Gider için tüccarı girin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-188">Optional: Enter the merchant for the expense.</span></span>
+6. <span data-ttu-id="2d4fc-189">Giderin tutarını girin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-189">Enter the amount of the expense.</span></span>
+7. <span data-ttu-id="2d4fc-190">Giderin para birimini seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-190">Select the currency of the expense.</span></span> <span data-ttu-id="2d4fc-191">Çevrimdışı kullanım için uygulamanıza yüklenmiş para birimlerinin bir listesini görürsünüz.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-191">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="2d4fc-192">Varsayılan olarak, 400 para birimi yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-192">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="2d4fc-193">Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="2d4fc-193">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="2d4fc-194">Para biriminiz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-194">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="2d4fc-195">Para birimine göre arama yapın veya adına göre aramaya geçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-195">Search by currency, or switch to search by name.</span></span>
+8. <span data-ttu-id="2d4fc-196">**Fotoğraf çek** veya **Resim seç**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-196">Select **Take photo** or **Choose image**.</span></span>
+9. <span data-ttu-id="2d4fc-197">Şu adımlardan birini izleyin:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-197">Follow one of these steps:</span></span>
 
-    - **Fotoğraf çek**'i seçtiyseniz, mobil cihazınızın kamerasına götürülürsünüz ve böylece fişin bir faturasını çekebilirsiniz. Fotoğraf çekmeyi bitirdiğinizde, fotoğrafı kabul etmek için **Tamam**'ı seçin.
-    - **Resim seç**'i seçtiyseniz, listeden bir resim seçin.
+    - <span data-ttu-id="2d4fc-198">**Fotoğraf çek**'i seçtiyseniz, mobil cihazınızın kamerasına götürülürsünüz ve böylece fişin bir faturasını çekebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-198">If you selected **Take photo**, you're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="2d4fc-199">Fotoğraf çekmeyi bitirdiğinizde, fotoğrafı kabul etmek için **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-199">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+    - <span data-ttu-id="2d4fc-200">**Resim seç**'i seçtiyseniz, listeden bir resim seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-200">If you selected **Choose image**, select an image in the list.</span></span>
 
-10. **Tamam**'ı seçin.
+10. <span data-ttu-id="2d4fc-201">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-201">Select **Done**.</span></span>
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Gider yönetimi mobil çalışma alanını kullanarak bir gider raporunu onaylayın (Temmuz 2017 güncelleştirmesin kullanıyorsanız)
-1. Mobil cihazınızda **Gider yönetimi** çalışma alanını açın.
-2. **Gider onayları**, onayınız için size atanmış olan gider raporlarının sayısını gösterir. Bu sayı yaklaşık her 30 dakikada bir güncelleştirilir. **Gider onayları**'nı seçin.
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="2d4fc-202">Gider yönetimi mobil çalışma alanını kullanarak bir gider raporunu onaylayın (Temmuz 2017 güncelleştirmesin kullanıyorsanız)</span><span class="sxs-lookup"><span data-stu-id="2d4fc-202">Approve an expense report by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
+1. <span data-ttu-id="2d4fc-203">Mobil cihazınızda **Gider yönetimi** çalışma alanını açın.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-203">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="2d4fc-204">**Gider onayları**, onayınız için size atanmış olan gider raporlarının sayısını gösterir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-204">**Expense approvals** shows the number of expense reports that are assigned to you for approval.</span></span> <span data-ttu-id="2d4fc-205">Bu sayı yaklaşık her 30 dakikada bir güncelleştirilir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-205">The number is updated approximately every 30 minutes.</span></span> <span data-ttu-id="2d4fc-206">**Gider onayları**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-206">Select **Expense approvals**.</span></span>
 
-    Onayınız için size atanmış olan gider raporlarının listesi gösterir.
+    <span data-ttu-id="2d4fc-207">Onayınız için size atanmış olan gider raporlarının listesi gösterir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-207">The list of expense reports that are assigned to you for approval is shown.</span></span>
     
-3. Gider ayrıntılarını görmek için bir gider raporu seçin.
-4. Ayrıntılarını görmek için bir gider seçin. Bir gider için gösterilen bilgi tüm fişleri, konukları ve maddeleme ayrıntılarını içerir.
-5. **Gider raporu sayfasında**, gider raporunu onaylamayı veya reddetmeyi seçin.
-6. Onay eylemi için herhangi bir yorum girin
-7. **Tamam**'ı seçin.
+3. <span data-ttu-id="2d4fc-208">Gider ayrıntılarını görmek için bir gider raporu seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-208">Select an expense report to view the expense details for it.</span></span>
+4. <span data-ttu-id="2d4fc-209">Ayrıntılarını görmek için bir gider seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-209">Select an expense to view the details for it.</span></span> <span data-ttu-id="2d4fc-210">Bir gider için gösterilen bilgi tüm fişleri, konukları ve maddeleme ayrıntılarını içerir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-210">The information that is shown for an expense includes any receipt, guest, and itemization details.</span></span>
+5. <span data-ttu-id="2d4fc-211">**Gider raporu sayfasında**, gider raporunu onaylamayı veya reddetmeyi seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-211">Back on the **Expense report** page, select to approve or reject the expense report.</span></span>
+6. <span data-ttu-id="2d4fc-212">Onay eylemi için herhangi bir yorum girin</span><span class="sxs-lookup"><span data-stu-id="2d4fc-212">Enter any comments for the approval action.</span></span>
+7. <span data-ttu-id="2d4fc-213">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-213">Select **Done**.</span></span>
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Gider yönetimi mobil çalışma alanını kullanarak yeni bir gider raporu oluşturun ve onaylamaya gönderin (Temmuz 2017 güncelleştirmesin kullanıyorsanız)
-1. Mobil cihazınızda **Gider yönetimi** çalışma alanını açın.
-2. **Gider girişi**'ni seçin.
-3. **Yeni rapor**'u seçin veya varolan bir gider raporunu listeden seçin.
-4. Yeni gider raporları için amacı ve mevcut diğer bilgileri girin. Bu bilgi, gider yönetiminin şirketinizde nasıl yapılandırıldığına göre çeşitlilik gösterir.
-5. **Tamam**'ı seçin.
-6. Kredi kartı hareketleri gibi mevcut giderleri gider raporuna eklemek için **Ekle**'yi seçin.
-7. Listeden bir veya daha fazla gider seçin.
-8. **Tamam**'ı seçin.
-9. Gider raporuna yeni bir gider eklemek için **Yeni gider**'i seçin.
-10. Gider için kategori seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş gider kategorilerinin bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Kategoriniz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Gider kategorisine göre arama yapın veya gider türüne göre aramaya geçin.
-11. İsteğe bağlı: Gider için tüccarı girin.
-12. Giderin hareket tarihini girin.
-13. Giderin tutarını girin.
-14. Giderin para birimini seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş para birimlerinin bir listesini görürsünüz. Varsayılan olarak, 400 para birimi yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Para biriminiz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Para birimine göre arama yapın veya adına göre aramaya geçin.
-15. **Tamam**'ı seçin.
-16. Gidere daha fazla ayrıntı eklemek için **Daha fazla ayrıntı ekle**'yi seçin. Kullanılabilir olan alanlar, gider yönetiminin şirketinizdeki yapılandırmasına bağlıdır.
-17. Bir şirket ilkesi, bir gider için fiş gerektiriyorsa, **Fişler**'i seçin ve daha sonra aşağıdaki adımları izleyin:
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a><span data-ttu-id="2d4fc-214">Gider yönetimi mobil çalışma alanını kullanarak yeni bir gider raporu oluşturun ve onaylamaya gönderin (Temmuz 2017 güncelleştirmesin kullanıyorsanız)</span><span class="sxs-lookup"><span data-stu-id="2d4fc-214">Create a new expense report and submit it for approval by using the Expense management mobile workspace (if you use the July 2017 update)</span></span>
+1. <span data-ttu-id="2d4fc-215">Mobil cihazınızda **Gider yönetimi** çalışma alanını açın.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-215">On your mobile device, open the **Expense management** workspace.</span></span>
+2. <span data-ttu-id="2d4fc-216">**Gider girişi**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-216">Select **Expense entry**.</span></span>
+3. <span data-ttu-id="2d4fc-217">**Yeni rapor**'u seçin veya varolan bir gider raporunu listeden seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-217">Select **New report**, or select an existing expense report in the list.</span></span>
+4. <span data-ttu-id="2d4fc-218">Yeni gider raporları için amacı ve mevcut diğer bilgileri girin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-218">For new expense reports, enter the purpose and any additional information that is available.</span></span> <span data-ttu-id="2d4fc-219">Bu bilgi, gider yönetiminin şirketinizde nasıl yapılandırıldığına göre çeşitlilik gösterir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-219">This information varies, depending on that way that expense management is configured for your company.</span></span>
+5. <span data-ttu-id="2d4fc-220">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-220">Select **Done**.</span></span>
+6. <span data-ttu-id="2d4fc-221">Kredi kartı hareketleri gibi mevcut giderleri gider raporuna eklemek için **Ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-221">To add existing expenses, such as credit card transactions, to the expense report, select **Attach**.</span></span>
+7. <span data-ttu-id="2d4fc-222">Listeden bir veya daha fazla gider seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-222">Select one or more expenses in the list.</span></span>
+8. <span data-ttu-id="2d4fc-223">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-223">Select **Done**.</span></span>
+9. <span data-ttu-id="2d4fc-224">Gider raporuna yeni bir gider eklemek için **Yeni gider**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-224">To add a new expense to the expense report, select **New expense**.</span></span>
+10. <span data-ttu-id="2d4fc-225">Gider için kategori seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-225">Select the category for the expense.</span></span> <span data-ttu-id="2d4fc-226">Çevrimdışı kullanım için uygulamanıza yüklenmiş gider kategorilerinin bir listesini görürsünüz.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-226">You see a list of expense categories that are loaded into your app for offline use.</span></span> <span data-ttu-id="2d4fc-227">Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-227">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="2d4fc-228">Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="2d4fc-228">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="2d4fc-229">Kategoriniz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-229">If your category isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="2d4fc-230">Gider kategorisine göre arama yapın veya gider türüne göre aramaya geçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-230">Search by expense category, or switch to search by expense type.</span></span>
+11. <span data-ttu-id="2d4fc-231">İsteğe bağlı: Gider için tüccarı girin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-231">Optional: Enter the merchant for the expense.</span></span>
+12. <span data-ttu-id="2d4fc-232">Giderin hareket tarihini girin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-232">Enter the transaction date of the expense.</span></span>
+13. <span data-ttu-id="2d4fc-233">Giderin tutarını girin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-233">Enter the amount of the expense.</span></span>
+14. <span data-ttu-id="2d4fc-234">Giderin para birimini seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-234">Select the currency of the expense.</span></span> <span data-ttu-id="2d4fc-235">Çevrimdışı kullanım için uygulamanıza yüklenmiş para birimlerinin bir listesini görürsünüz.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-235">You see a list of the currency codes that are loaded into your app for offline use.</span></span> <span data-ttu-id="2d4fc-236">Varsayılan olarak, 400 para birimi yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-236">By default, 400 currencies are loaded, but a developer can change this number.</span></span> <span data-ttu-id="2d4fc-237">Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="2d4fc-237">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="2d4fc-238">Para biriminiz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-238">If your currency isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="2d4fc-239">Para birimine göre arama yapın veya adına göre aramaya geçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-239">Search by currency, or switch to search by name.</span></span>
+15. <span data-ttu-id="2d4fc-240">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-240">Select **Done**.</span></span>
+16. <span data-ttu-id="2d4fc-241">Gidere daha fazla ayrıntı eklemek için **Daha fazla ayrıntı ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-241">To add more details to the expense, select **Add more details**.</span></span> <span data-ttu-id="2d4fc-242">Kullanılabilir olan alanlar, gider yönetiminin şirketinizdeki yapılandırmasına bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-242">The fields that are available depend on the configuration of expense management for your company.</span></span>
+17. <span data-ttu-id="2d4fc-243">Bir şirket ilkesi, bir gider için fiş gerektiriyorsa, **Fişler**'i seçin ve daha sonra aşağıdaki adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-243">If company policy requires a receipt for the expense, select **Receipts**, and then follow these steps:</span></span>
 
-    1. **Fişi yakala** veya **Fişi ekle**'yi seçin.
-    2. Şu adımlardan birini izleyin:
+    1. <span data-ttu-id="2d4fc-244">**Fişi yakala** veya **Fişi ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-244">Select **Capture receipt** or **Attach receipt**.</span></span>
+    2. <span data-ttu-id="2d4fc-245">Şu adımlardan birini izleyin:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-245">Follow one of these steps:</span></span>
 
-        - **Fişi yakala**'yı seçtiyseniz, aşağıdaki adımları izleyin:
+        - <span data-ttu-id="2d4fc-246">**Fişi yakala**'yı seçtiyseniz, aşağıdaki adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-246">If you selected **Capture receipt**, follow these steps:</span></span>
 
-            1. **Fotoğraf çek** veya **Resim seç**'i seçin.
-            2. Şu adımlardan birini izleyin:
+            1. <span data-ttu-id="2d4fc-247">**Fotoğraf çek** veya **Resim seç**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-247">Select **Take photo** or **Choose image**.</span></span>
+            2. <span data-ttu-id="2d4fc-248">Şu adımlardan birini izleyin:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-248">Follow one of these steps:</span></span>
 
-                - **Fotoğraf çek**'i seçtiyseniz, şu adımları izleyin:
+                - <span data-ttu-id="2d4fc-249">**Fotoğraf çek**'i seçtiyseniz, şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-249">If you selected **Take photo**, follow these steps:</span></span>
 
-                    1. Mobil cihazınızın kamerasına götürülürsünüz ve böylece fişin bir faturasını çekebilirsiniz. Fotoğraf çekmeyi bitirdiğinizde, fotoğrafı kabul etmek için **Tamam**'ı seçin.
-                    2. İsteğe bağlı: Fotoğraf için bir isim ve varsa not girin.
+                    1. <span data-ttu-id="2d4fc-250">Mobil cihazınızın kamerasına götürülürsünüz ve böylece fişin bir faturasını çekebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-250">You're taken to the camera on your mobile device, so that you can take a photo of the receipt.</span></span> <span data-ttu-id="2d4fc-251">Fotoğraf çekmeyi bitirdiğinizde, fotoğrafı kabul etmek için **Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-251">When you've finished taking a photo, select **OK** to accept the photo.</span></span>
+                    2. <span data-ttu-id="2d4fc-252">İsteğe bağlı: Fotoğraf için bir isim ve varsa not girin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-252">Optional: Enter a name for the photo, and enter any notes.</span></span>
 
-                - **Resim seç**'i seçtiyseniz, şu adımları izleyin:
+                - <span data-ttu-id="2d4fc-253">**Resim seç**'i seçtiyseniz, şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-253">If you selected **Choose image**, follow these steps:</span></span>
 
-                    1. Listeden bir resim seçin.
-                    2. İsteğe bağlı: Resim için bir isim ve varsa not girin.
+                    1. <span data-ttu-id="2d4fc-254">Listeden bir resim seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-254">Select an image in the list.</span></span>
+                    2. <span data-ttu-id="2d4fc-255">İsteğe bağlı: Resim için bir isim ve varsa not girin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-255">Optional: Enter a name for the image, and enter any notes.</span></span>
 
-            3.  **Tamam**'ı seçin.
+            3.  <span data-ttu-id="2d4fc-256">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-256">Select **Done**.</span></span>
 
-        - **Fişi ekle**'yi seçtiyseniz, aşağıdaki adımları izleyin:
+        - <span data-ttu-id="2d4fc-257">**Fişi ekle**'yi seçtiyseniz, aşağıdaki adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-257">If you selected **Attach receipt**, follow these steps:</span></span>
 
-            1.  Listeden bir veya daha fazla resim seçin.
-            2.  **Tamam**'ı seçin.
+            1.  <span data-ttu-id="2d4fc-258">Listeden bir veya daha fazla resim seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-258">Select one or more images in the list.</span></span>
+            2.  <span data-ttu-id="2d4fc-259">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-259">Select **Done**.</span></span>
 
-    3. Gider ayrıntılarına dönmek için **Geri** düğmesini seçin.
+    3. <span data-ttu-id="2d4fc-260">Gider ayrıntılarına dönmek için **Geri** düğmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-260">Select the **Back** button to return to the expense details.</span></span>
 
-18. Bir şirket ilkesi, bir gider için konuklar gerektiriyorsa, **Konuklar**'ı seçin ve daha sonra aşağıdaki adımları izleyin:
+18. <span data-ttu-id="2d4fc-261">Bir şirket ilkesi, bir gider için konuklar gerektiriyorsa, **Konuklar**'ı seçin ve daha sonra aşağıdaki adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-261">If company policy requires guests for the expense, select **Guests**, and then follow these steps:</span></span>
 
-    1. **Konuk**, **Önceki konuklar** veya **İş arkadaşları**'nı seçin.
-    2. Şu adımlardan birini izleyin:
+    1. <span data-ttu-id="2d4fc-262">**Konuk**, **Önceki konuklar** veya **İş arkadaşları**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-262">Select **Guest**, **Previous guests**, or **Coworkers**.</span></span>
+    2. <span data-ttu-id="2d4fc-263">Şu adımlardan birini izleyin:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-263">Follow one of these steps:</span></span>
 
-        - **Konuk**'u seçtiyseniz, şu adımları izleyin:
+        - <span data-ttu-id="2d4fc-264">**Konuk**'u seçtiyseniz, şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-264">If you selected **Guest**, follow these steps:</span></span>
 
-            1. Konuğun adını girin.
-            2. İsteğe bağlı: Konuğun kuruluşunu ve/veya ülkesini girin.
-            3. İsteğe bağlı: Konuğun unvanını girin.
-            4. **Tamam**'ı seçin.
+            1. <span data-ttu-id="2d4fc-265">Konuğun adını girin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-265">Enter the name of the guest.</span></span>
+            2. <span data-ttu-id="2d4fc-266">İsteğe bağlı: Konuğun kuruluşunu ve/veya ülkesini girin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-266">Optional: Enter the organization and/or country of the guest.</span></span>
+            3. <span data-ttu-id="2d4fc-267">İsteğe bağlı: Konuğun unvanını girin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-267">Optional: Enter the title of the guest.</span></span>
+            4. <span data-ttu-id="2d4fc-268">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-268">Select **Done**.</span></span>
 
-        - **Önceki konuklar**'ı seçerseniz aşağıdaki adımları izleyin:
+        - <span data-ttu-id="2d4fc-269">**Önceki konuklar**'ı seçerseniz aşağıdaki adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-269">If you selected **Previous guests**, follow these steps:</span></span>
 
-            1. Listeden bir veya daha fazla önceki konuğu seçin. Önceki gider raporlarına eklemiş olduğunuz önceki konukların çevrimdışı kullanım için uygulamanıza yüklenmiş bir listesini göreceksiniz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Önce konuk listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Adına göre arama yapın veya kuruluş, ülke veya unvana göre aramaya geçin.
-            2. **Tamam**'ı seçin.
+            1. <span data-ttu-id="2d4fc-270">Listeden bir veya daha fazla önceki konuğu seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-270">Select one or more previous guests in the list.</span></span> <span data-ttu-id="2d4fc-271">Önceki gider raporlarına eklemiş olduğunuz önceki konukların çevrimdışı kullanım için uygulamanıza yüklenmiş bir listesini göreceksiniz.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-271">You see a list of previous guests that you've added to previous expense reports that are loaded into your app for offline use.</span></span> <span data-ttu-id="2d4fc-272">Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-272">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="2d4fc-273">Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="2d4fc-273">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="2d4fc-274">Önce konuk listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-274">If your previous guest isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="2d4fc-275">Adına göre arama yapın veya kuruluş, ülke veya unvana göre aramaya geçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-275">Search by name, or switch to search by organization, country, or title.</span></span>
+            2. <span data-ttu-id="2d4fc-276">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-276">Select **Done**.</span></span>
 
-        - **İş arkadaşları**'nı seçtiyseniz, şu adımları izleyin:
+        - <span data-ttu-id="2d4fc-277">**İş arkadaşları**'nı seçtiyseniz, şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-277">If you selected **Coworkers**, follow these steps:</span></span>
 
-            1. Listeden bir veya daha fazla iş arkadaşı seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş iş arkadaşlarının bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). İş arkadaşınız listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Adına göre arama yapın veya şirket, veya unvana göre aramaya geçin.
-            2. **Tamam**'ı seçin.
+            1. <span data-ttu-id="2d4fc-278">Listeden bir veya daha fazla iş arkadaşı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-278">Select one or more coworkers in the list.</span></span> <span data-ttu-id="2d4fc-279">Çevrimdışı kullanım için uygulamanıza yüklenmiş iş arkadaşlarının bir listesini görürsünüz.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-279">You see a list of coworkers that are loaded into your app for offline use.</span></span> <span data-ttu-id="2d4fc-280">Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-280">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="2d4fc-281">Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="2d4fc-281">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="2d4fc-282">İş arkadaşınız listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-282">If your coworker isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="2d4fc-283">Adına göre arama yapın veya şirket, veya unvana göre aramaya geçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-283">Search by name, or switch to search by company or title.</span></span>
+            2. <span data-ttu-id="2d4fc-284">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-284">Select **Done**.</span></span>
 
-    3. Gider ayrıntılarına dönmek için **Geri** düğmesini seçin.
+    3. <span data-ttu-id="2d4fc-285">Gider ayrıntılarına dönmek için **Geri** düğmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-285">Select the **Back** button to return to the expense details.</span></span>
 
-19. Şirket ilkesi, bir giderin listelenmiş olmasını gerektiriyorsa, **Listelenmiş**'i seçin ve daha sonra aşağıdaki adımları izleyin:
+19. <span data-ttu-id="2d4fc-286">Şirket ilkesi, bir giderin listelenmiş olmasını gerektiriyorsa, **Listelenmiş**'i seçin ve daha sonra aşağıdaki adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="2d4fc-286">If company policy requires that the expense be itemized, select **Itemize**, and then follow these steps:</span></span>
 
-    1. Listelenecek ilk tarihi seçin.
-    2. **Listeleme ekle**'yi seçin.
-    3. Gider listeleme için alt kategoriyi seçin. Çevrimdışı kullanım için uygulamanıza yüklenmiş gider alt kategorilerinin bir listesini görürsünüz. Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir. Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Alt kategoriniz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin. Gider alt kategorisi adına göre arayın.
-    4. Listeleme için hareket tutarını girin.
-    5. İhtiyaç duyulursa hareket tarihini düzenleyin.
-    6. **Tamam**'ı seçin.
-    7. Seçilen tarih için tüm listelemeleri eklemeyi tamamlayana kadar önceki adımları yineleyin.
-    8. Ek günler için, **Sonraki güne kopyala**'yı seçerek listelemeyi sonraki güne kopyalayabilirsiniz. Alternatif olarak, listelenecek tarihleri seçebilir ve daha sonra ilk tarihte yaptığınız gibi listelemeler ekleyebilirsiniz.
-    9. Gideri listelemeyi bitirdikten sonra, **Geri** düğmesini seçerek gider ayrıntılarına dönün.
+    1. <span data-ttu-id="2d4fc-287">Listelenecek ilk tarihi seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-287">Select the first date to itemize.</span></span>
+    2. <span data-ttu-id="2d4fc-288">**Listeleme ekle**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-288">Select **Add itemization**.</span></span>
+    3. <span data-ttu-id="2d4fc-289">Gider listeleme için alt kategoriyi seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-289">Select the subcategory for the expense itemization.</span></span> <span data-ttu-id="2d4fc-290">Çevrimdışı kullanım için uygulamanıza yüklenmiş gider alt kategorilerinin bir listesini görürsünüz.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-290">You see a list of expense subcategories that are loaded into your app for offline use.</span></span> <span data-ttu-id="2d4fc-291">Varsayılan olarak, 50 madde yüklenir, ancak bir geliştirici bu sayıyı değiştirebilir.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-291">By default, 50 items are loaded, but a developer can change this number.</span></span> <span data-ttu-id="2d4fc-292">Geliştiriciler, daha fazla bilgi için şuraya göz atabilirler: [Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span><span class="sxs-lookup"><span data-stu-id="2d4fc-292">For more information, developers should see [Mobile platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).</span></span> <span data-ttu-id="2d4fc-293">Alt kategoriniz listede yoksa, bir çevrimiçi arama gerçekleştirmek için **Ara**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-293">If your subcategory isn't in the list, select **Search** to do an online search.</span></span> <span data-ttu-id="2d4fc-294">Gider alt kategorisi adına göre arayın.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-294">Search by expense subcategory name.</span></span>
+    4. <span data-ttu-id="2d4fc-295">Listeleme için hareket tutarını girin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-295">Enter the transaction amount for the itemization.</span></span>
+    5. <span data-ttu-id="2d4fc-296">İhtiyaç duyulursa hareket tarihini düzenleyin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-296">Edit the transaction date if it's required.</span></span>
+    6. <span data-ttu-id="2d4fc-297">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-297">Select **Done**.</span></span>
+    7. <span data-ttu-id="2d4fc-298">Seçilen tarih için tüm listelemeleri eklemeyi tamamlayana kadar önceki adımları yineleyin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-298">Repeat the preceding steps until you've finished adding all itemizations for the selected date.</span></span>
+    8. <span data-ttu-id="2d4fc-299">Ek günler için, **Sonraki güne kopyala**'yı seçerek listelemeyi sonraki güne kopyalayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-299">For additional days, you can select **Copy to next day** to copy the itemizations to the next day.</span></span> <span data-ttu-id="2d4fc-300">Alternatif olarak, listelenecek tarihleri seçebilir ve daha sonra ilk tarihte yaptığınız gibi listelemeler ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-300">Alternatively, you can select the date to itemize and then add itemizations as you did for the first date.</span></span>
+    9. <span data-ttu-id="2d4fc-301">Gideri listelemeyi bitirdikten sonra, **Geri** düğmesini seçerek gider ayrıntılarına dönün.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-301">After you've finished itemizing the expense, select the **Back** button to return to the expense details.</span></span>
 
-20. **Gider raporu** sayfasına dönmek için **Geri** düğmesini seçin.
-21. Tüm giderleri eklemeyi bitirene kadar önceki adımları yineleyin.
-22. **Gönder**'i seçin.
-23. Onaylayıcı için herhangi bir yorum girin.
-24. **Tamam**'ı seçin.
+20. <span data-ttu-id="2d4fc-302">**Gider raporu** sayfasına dönmek için **Geri** düğmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-302">Select the **Back** button to return to the **Expense report** page.</span></span>
+21. <span data-ttu-id="2d4fc-303">Tüm giderleri eklemeyi bitirene kadar önceki adımları yineleyin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-303">Repeat the preceding steps until you've finished adding all expenses.</span></span>
+22. <span data-ttu-id="2d4fc-304">**Gönder**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-304">Select **Submit**.</span></span>
+23. <span data-ttu-id="2d4fc-305">Onaylayıcı için herhangi bir yorum girin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-305">Enter any comments for the approver.</span></span>
+24. <span data-ttu-id="2d4fc-306">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="2d4fc-306">Select **Done**.</span></span>
 

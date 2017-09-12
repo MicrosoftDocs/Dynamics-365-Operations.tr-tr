@@ -19,60 +19,60 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 0b7e5ed451497aea1c2ce798af2b717705538d47
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e29aea4509dd323c295b02f289fbcfa46fab3392
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Bulut POS ve MPOS için genişletilmiş oturum açma işlevselliğinin ayarlaması
+# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a><span data-ttu-id="c10a2-103">Bulut POS ve MPOS için genişletilmiş oturum açma işlevselliğinin ayarlaması</span><span class="sxs-lookup"><span data-stu-id="c10a2-103">Set up extended logon functionality for Cloud POS and MPOS</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Bu konu Bulut POS ve Perakende Modern POS (MPOS) için genişletilmiş oturum açma seçeneğini ayarlamada kullanabileceğiniz seçenekleri ele alır.
+<span data-ttu-id="c10a2-104">Bu konu Bulut POS ve Perakende Modern POS (MPOS) için genişletilmiş oturum açma seçeneğini ayarlamada kullanabileceğiniz seçenekleri ele alır.</span><span class="sxs-lookup"><span data-stu-id="c10a2-104">This topic covers your options for setting up extended logon for Cloud POS and Retail Modern POS (MPOS).</span></span>
 
-<a name="setting-up-extended-logon"></a>Genişletilmiş oturum açma ayarlaması
+<a name="setting-up-extended-logon"></a><span data-ttu-id="c10a2-105">Genişletilmiş oturum açma ayarlaması</span><span class="sxs-lookup"><span data-stu-id="c10a2-105">Setting up extended logon</span></span>
 =========================
 
-Barkod maskeleri ayarını **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **İşlevsellik profilleri** menüsünden bulabilirsiniz. **İşlevler** Hızlı Sekmesi genişletilmiş oturum açma ile ilgili aşağıdaki seçenekleri içerir.
+<span data-ttu-id="c10a2-106">Barkod maskeleri ayarını **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **İşlevsellik profilleri** menüsünden bulabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c10a2-106">You can find the setup for bar code masks at **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Functionality profiles**.</span></span> <span data-ttu-id="c10a2-107">**İşlevler** Hızlı Sekmesi genişletilmiş oturum açma ile ilgili aşağıdaki seçenekleri içerir.</span><span class="sxs-lookup"><span data-stu-id="c10a2-107">The **Functions** FastTab includes the following options that are related to extended logon.</span></span>
 
-### <a name="staff-bar-code-logon"></a>Personel barkod oturum açma işlemi
+### <a name="staff-bar-code-logon"></a><span data-ttu-id="c10a2-108">Personel barkod oturum açma işlemi</span><span class="sxs-lookup"><span data-stu-id="c10a2-108">Staff bar code logon</span></span>
 
-**Personel barkodla oturum açma** seçeneği etkinleştirilmişse, kendi satış noktası (POS) kimlik bilgilerine bir genişletilmiş oturum açma atanmış çalışanlar bir barkod kullanarak oturum açabilir.
+<span data-ttu-id="c10a2-109">**Personel barkodla oturum açma** seçeneği etkinleştirilmişse, kendi satış noktası (POS) kimlik bilgilerine bir genişletilmiş oturum açma atanmış çalışanlar bir barkod kullanarak oturum açabilir.</span><span class="sxs-lookup"><span data-stu-id="c10a2-109">When the **Staff bar code logon** option is enabled, workers who have an extended logon assigned to their point of sale (POS) credentials can log on by using a bar code.</span></span>
 
-### <a name="staff-bar-code-logon-requires-password"></a>Personelin barkodla oturum açması parola gerektirir
+### <a name="staff-bar-code-logon-requires-password"></a><span data-ttu-id="c10a2-110">Personelin barkodla oturum açması parola gerektirir</span><span class="sxs-lookup"><span data-stu-id="c10a2-110">Staff bar code logon requires password</span></span>
 
-**Personel barkodla oturum açma parola gerektiriyor** seçeneği etkinleştirilmişse, personel barkodla oturum açma yalnızca mevcut genişletilmiş oturum açmaya atanan çalışanı seçer. Bu seçenek etkinleştirildiğinde, çalışanların gene de parolalarını girmesi gerekir.
+<span data-ttu-id="c10a2-111">**Personel barkodla oturum açma parola gerektiriyor** seçeneği etkinleştirilmişse, personel barkodla oturum açma yalnızca mevcut genişletilmiş oturum açmaya atanan çalışanı seçer.</span><span class="sxs-lookup"><span data-stu-id="c10a2-111">When the **Staff bar code logon requires password** option is enabled, the staff bar code logon selects only the worker who is assigned to the extended logon that is presented.</span></span> <span data-ttu-id="c10a2-112">Bu seçenek etkinleştirildiğinde, çalışanların gene de parolalarını girmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="c10a2-112">Workers must still enter their password when this option is enabled.</span></span>
 
-### <a name="staff-card-logon"></a>Personel kart oturum açma işlemi
+### <a name="staff-card-logon"></a><span data-ttu-id="c10a2-113">Personel kart oturum açma işlemi</span><span class="sxs-lookup"><span data-stu-id="c10a2-113">Staff card logon</span></span>
 
-**Personel kartla oturum açma** seçeneği etkinleştirilmişse, kendi POS kimlik bilgilerine bir genişletilmiş oturum açma atanmış çalışanlar bir manyetik bant kullanarak oturum açabilir.
+<span data-ttu-id="c10a2-114">**Personel kartla oturum açma** seçeneği etkinleştirilmişse, kendi POS kimlik bilgilerine bir genişletilmiş oturum açma atanmış çalışanlar bir manyetik bant kullanarak oturum açabilir.</span><span class="sxs-lookup"><span data-stu-id="c10a2-114">When the **Staff card logon** option is enabled, workers who have an extended logon assigned to their POS credentials can log on by using a magnetic stripe.</span></span>
 
-### <a name="staff-card-logon-requires-password"></a>Personelin kartla oturum açması parola gerektirir
+### <a name="staff-card-logon-requires-password"></a><span data-ttu-id="c10a2-115">Personelin kartla oturum açması parola gerektirir</span><span class="sxs-lookup"><span data-stu-id="c10a2-115">Staff card logon requires password</span></span>
 
-**Personel kartla oturum açma parola gerektiriyor** seçeneği etkinleştirilmişse, personel kartla oturum açma yalnızca mevcut genişletilmiş oturum açmaya atanan çalışanı seçer. Bu seçenek etkinleştirildiğinde, çalışanların gene de parolalarını girmesi gerekir.
+<span data-ttu-id="c10a2-116">**Personel kartla oturum açma parola gerektiriyor** seçeneği etkinleştirilmişse, personel kartla oturum açma yalnızca mevcut genişletilmiş oturum açmaya atanan çalışanı seçer.</span><span class="sxs-lookup"><span data-stu-id="c10a2-116">When the **Staff card logon requires password** option is enabled, the staff card logon selects only the worker who is assigned to the extended logon that is presented.</span></span> <span data-ttu-id="c10a2-117">Bu seçenek etkinleştirildiğinde, çalışanların gene de parolalarını girmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="c10a2-117">Workers must still enter their password when this option is enabled.</span></span>
 
-<a name="assigning-an-extended-logon"></a>Genişletilmiş oturum açma ataması
+<a name="assigning-an-extended-logon"></a><span data-ttu-id="c10a2-118">Genişletilmiş oturum açma ataması</span><span class="sxs-lookup"><span data-stu-id="c10a2-118">Assigning an extended logon</span></span>
 ===========================
 
-Varsayılan olarak, yalnızca yöneticiler çalışanlara genişletilmiş oturum açma atayabilir. Genişletilmiş oturum atamak için POS içinde **Genişletilmiş oturum açma**'ya gidin. Daha sonra, operatör kimliğini arama alanına girerek çalışanı arayın. Çalışanı seçip **Ata** öğesine tıklayın. Bir sonraki sayfada, çalışana atamak için genişletilmiş oturum açma kartını geçirin veya taratın. Kart geçirme veya tarama başarıyla okunursa, **Tamam** düğmesi kullanılabilir olur. O çalışan için genişletilmiş oturum açmayı kaydetmek için **Tamam** düğmesine tıklayın.
+<span data-ttu-id="c10a2-119">Varsayılan olarak, yalnızca yöneticiler çalışanlara genişletilmiş oturum açma atayabilir.</span><span class="sxs-lookup"><span data-stu-id="c10a2-119">By default, only managers can assign extended logon to workers.</span></span> <span data-ttu-id="c10a2-120">Genişletilmiş oturum atamak için POS içinde **Genişletilmiş oturum açma**'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="c10a2-120">To assign extended logon, go to **Extended log on** in POS.</span></span> <span data-ttu-id="c10a2-121">Daha sonra, operatör kimliğini arama alanına girerek çalışanı arayın.</span><span class="sxs-lookup"><span data-stu-id="c10a2-121">Then search for a worker by entering his or her operator ID in the search field.</span></span> <span data-ttu-id="c10a2-122">Çalışanı seçip **Ata** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c10a2-122">Select the worker, and then click **Assign**.</span></span> <span data-ttu-id="c10a2-123">Bir sonraki sayfada, çalışana atamak için genişletilmiş oturum açma kartını geçirin veya taratın.</span><span class="sxs-lookup"><span data-stu-id="c10a2-123">On the next page, swipe or scan the extended logon to assign to the worker.</span></span> <span data-ttu-id="c10a2-124">Kart geçirme veya tarama başarıyla okunursa, **Tamam** düğmesi kullanılabilir olur.</span><span class="sxs-lookup"><span data-stu-id="c10a2-124">If the swipe or scan is successfully read, the **OK** button becomes available.</span></span> <span data-ttu-id="c10a2-125">O çalışan için genişletilmiş oturum açmayı kaydetmek için **Tamam** düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c10a2-125">Click **OK** to save the extended logon for that worker.</span></span>
 
-<a name="deleting-an-extended-logon"></a>Genişletilmiş oturum açmanın silinmesi
+<a name="deleting-an-extended-logon"></a><span data-ttu-id="c10a2-126">Genişletilmiş oturum açmanın silinmesi</span><span class="sxs-lookup"><span data-stu-id="c10a2-126">Deleting an extended logon</span></span>
 ==========================
 
-Bir çalışana atanan genişletilmiş oturum açmayı silmek için, **Genişletilmiş oturum açma** işlemini kullanarak o çalışanı arayın. Çalışanı seçip **Atamayı Kaldır** öğesine tıklayın. Bu çalışan ile ilişkili olan tüm genişletilmiş oturum açma kimlik bilgileri kaldırılır.
+<span data-ttu-id="c10a2-127">Bir çalışana atanan genişletilmiş oturum açmayı silmek için, **Genişletilmiş oturum açma** işlemini kullanarak o çalışanı arayın.</span><span class="sxs-lookup"><span data-stu-id="c10a2-127">To delete the extended logon that is assigned to a worker, search for the worker by using the **Extended log on** operation.</span></span> <span data-ttu-id="c10a2-128">Çalışanı seçip **Atamayı Kaldır** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c10a2-128">Select the worker, and then click **Unassign**.</span></span> <span data-ttu-id="c10a2-129">Bu çalışan ile ilişkili olan tüm genişletilmiş oturum açma kimlik bilgileri kaldırılır.</span><span class="sxs-lookup"><span data-stu-id="c10a2-129">All extended logon credentials that are associated with that worker are removed.</span></span>
 
-<a name="extending-extended-logon"></a>Genişletilmiş oturum açmanın genişletilmesi
+<a name="extending-extended-logon"></a><span data-ttu-id="c10a2-130">Genişletilmiş oturum açmanın genişletilmesi</span><span class="sxs-lookup"><span data-stu-id="c10a2-130">Extending extended logon</span></span>
 ========================
 
-Oturum açma hizmeti, avuç içi tarayıcılar gibi ek genişletilmiş oturum açma cihazları desteklenecek şekilde genişletilebilir. Daha fazla bilgi için, POS genişletilebilirlik belgelerine bakın.
+<span data-ttu-id="c10a2-131">Oturum açma hizmeti, avuç içi tarayıcılar gibi ek genişletilmiş oturum açma cihazları desteklenecek şekilde genişletilebilir.</span><span class="sxs-lookup"><span data-stu-id="c10a2-131">The logon service can be extended to support additional extended logon devices, such as palm scanners.</span></span> <span data-ttu-id="c10a2-132">Daha fazla bilgi için, POS genişletilebilirlik belgelerine bakın.</span><span class="sxs-lookup"><span data-stu-id="c10a2-132">For more information, see the POS extensibility documentation.</span></span>
 
-<a name="using-extended-logon"></a>Genişletilmiş oturum açmanın kullanılması
+<a name="using-extended-logon"></a><span data-ttu-id="c10a2-133">Genişletilmiş oturum açmanın kullanılması</span><span class="sxs-lookup"><span data-stu-id="c10a2-133">Using extended logon</span></span>
 ====================
 
-Genişletilmiş oturum açma yapılandırıldığında ve bir çalışana barkod ya da manyetik bant atandığında, o çalışanın sadece POS oturum açma sayfası ekrana geldiğinde kartını geçirmesi veya taratması gerekir. Oturum açma işlemine devam edebilmesi için önce bir parola da gerekliyse, çalışandan parolasını girmesi istenir.
+<span data-ttu-id="c10a2-134">Genişletilmiş oturum açma yapılandırıldığında ve bir çalışana barkod ya da manyetik bant atandığında, o çalışanın sadece POS oturum açma sayfası ekrana geldiğinde kartını geçirmesi veya taratması gerekir.</span><span class="sxs-lookup"><span data-stu-id="c10a2-134">When extended logon is configured, and a worker has been assigned a bar code or magnetic stripe, the worker just has to swipe or scan his or her card while the POS logon page is displayed.</span></span> <span data-ttu-id="c10a2-135">Oturum açma işlemine devam edebilmesi için önce bir parola da gerekliyse, çalışandan parolasını girmesi istenir.</span><span class="sxs-lookup"><span data-stu-id="c10a2-135">If a password is also required before logon can proceed, the worker is prompted to enter his or her password.</span></span>
 
 
 

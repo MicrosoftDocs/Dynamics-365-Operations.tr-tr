@@ -16,65 +16,65 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 44b7c02e7c238dcea83c5900620731a7befbbb42
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 020d147744df24b2065e66e5fc68ed5d5479127b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="vendor-payment-overview"></a>Satıcı ödemesine genel bakış
+# <a name="vendor-payment-overview"></a><span data-ttu-id="81b2c-103">Satıcı ödemesine genel bakış</span><span class="sxs-lookup"><span data-stu-id="81b2c-103">Vendor payment overview</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu görev kılavuzu size satıcı ödemeleri oluşturmak için çeşitli yöntemleri gösterecektir. Bunların arasında ödeme teklifi veya tek seferlik bir ödemeyi elden girmek de bulunmaktadır. Bu yordam, USMF demo şirketini kullanır.
+<span data-ttu-id="81b2c-104">Bu görev kılavuzu size satıcı ödemeleri oluşturmak için çeşitli yöntemleri gösterecektir. Bunların arasında ödeme teklifi veya tek seferlik bir ödemeyi elden girmek de bulunmaktadır.</span><span class="sxs-lookup"><span data-stu-id="81b2c-104">This task guide will walk you through various methods used to create vendor payments, including how to use a payment proposal or manually entering a one-off payment.</span></span> <span data-ttu-id="81b2c-105">Bu yordam, USMF demo şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="81b2c-105">This procedure uses the USMF demo company.</span></span>
 
-1. Borç hesapları > Ödemeler > Ödeme günlüğü'ne gidin.
-2. Yeni'ye tıklayın.
-3. Satıcı ödemelerinin kaydedileceği ödeme günlüğünü seçin. 
-4. Bir günlüğü seçin veya el ile girin.
-5. Satırlar seçeneğine tıklayın.
-6. Ödeme teklifi'ne tıklayın.
-7. Ödeme teklifi oluştur'a tıklayın.
-    * Ödeme teklif, ödeme için faturaları seçmede kullanılan bir sorgudur. Satıcı ödemelerini oluşturmadan veya yaratmadan önce, ödenecek faturaların listesini düzenleyebilirsiniz.  
-8. Ödeme için faturaları vade tarihi, nakit iskontosu veya her ikisini birden kullanarak seçin. 
-9. Vade tarihi veya nakit iskontosu ile karşılaştırmak için tarihi girin. 
-10. İsteğe bağlı: Tüm ödemeler için kullanılacak ödeme tarihi girin.
-    * Buraya girilen tarihi, nakit iskontosu tarihi veya vade tarihi ne olursa olsun, tüm ödemeler için geçerli ödeme tarihi olacaktır.  
-11. İsteğe bağlı: Ödeme tarihi olarak kullanılabilecek bir minimum ödeme tarihini girin.
-    * Minimum ödeme tarihi, ödemeler oluşturulurken kullanılan en erken tarihi olacaktır. Örneğin, bir faturanın vade tarihi, minimum ödeme tarihinden sonraysa, vade tarihi minimum ödeme tarihi yerine vade tarihi ödeme yapmak için kullanılır ve bu sayede faturayı mümkün olan en geç şekilde ödeme imkanı doğar.  
-12. Ek sorgu kısıtlamalarını, Dahil edilecek kayıtları altında girin.
-    * Filtre, genellikle satıcı tarafından ödeme için seçilen faturaları veya ödeme yöntemini kısıtlamakta için kullanılır. Örneğin, bu ödeme işleminde faturaları sadece çek ile ödemek için bir filtre ekleyebilirsiniz.  
-13. Ek sorgu kısıtlaması veya ödeme varsayılan değerleri girin. 
-    * Ek parametreler ödemenin yapılacağı para birimini tanımlamada veya merkezi ödemeleri bu ödeme işlemi için etkinleştirmede kullanılabilir.  
-14. Tamam'a tıklayın.
-    * Tamam'ı tıklattıktan sonra sorgu sonuçları görüntülenir. Ödenmek üzere seçilen faturaların listesini önizlemek istemiyorsanız, Parametreler hızlı sekmesine geri giderek Ödemeleri fatura önizlemesi olmadan oluştur seçeneğini Evet olarak seçebilirsiniz.  
-15. Seçili faturayla ilgili satıcı için oluşturulan ödemeleri görüntülemek için Ödeme genel bakış göster düğmesini seçin.
-16. Ödemeleri gizlemek için Ödeme genel bakışı gizle düğmesini seçin. 
-17. Ödemeleri oluştur'a tıklayın.
-    * Ödemeleri oluştur'u seçmeden önce kılavuzun üzerinde sağ tıklatıp, faturaların listesini Excel'e aktarabilirsiniz. Ödemeleri Oluştur düğmesi, satıcı ödemelerini ödeme günlüğünde oluşturur.  
-18. Ödemelerinizi tarayın ve ödeme yönteminin tüm ödemeler için tanımlanmış olduğundan emin olun. 
-    * Çek yazdırma ve elektronik ödeme oluşturma gibi ödemeleri oluşturursanız, öncelikle ödeme yöntemini tanımlamalısınız. Ödeme yöntemi aynı zamanda ödemenin yapılacağı banka hesabını da varsayılan olarak ayarlar.  
-19. Tek seferlik ödeme oluşturmak için Yeni'yi tıklatın.
-    * Tek seferlik bir ödeme, deftere nakledilmeden önce herhangi bir zamanda ödeme günlüğüne eklenebilir. Bu ekleme, ödeme teklifini kullanmak yerine, Yeni düğmesini tıklatarak ve sonra ödeme bilgilerini el ile girerek yapılır.  
-20. Ödemenin yapılacağı satıcıyı seçin.
-21. Bir faturayı ödemek için varsa, ödeme için faturayı seçmek için, Kapanış hareketleri'ni seçin.
-    * Bu bir ön ödeme ise, bu adım isteğe bağlıdır. Bir fatura seçmeden ödemeyi oluşturabilirsiniz.  
-22. Ödenecek faturaları işaretleyin.
-    * Kapanış hareketlerimi için ödeme faturaları seçmek için kullanırsanız, ödeme tutarı otomatik olarak hangi faturaları ödeme için seçtiğiniz ve Tutar bölümüne kapatmak için hangi tutarı girdiğiniz ile hesaplanır.  
-23. Tamam'a tıklayın.
-24. Bir ödemeyi silmek isterseniz, satırı işaretleyin.
-25. Sil'i tıklatın.
-    * Bir ödemeyi silmek yalnızca ödemenin silinmesine neden olur. Ödeme için işaretlenmiş herhangi bir fatura, başka bir ödeme tarafından ödenebilir olmaya devam edecektir.  
-26. Evet'i tıklatın.
-27. Ödeme oluştur'u seçerek Çekleri yazdırmak veya elektronik ödeme dosyası oluşturabilirsiniz.
-28. Oluşturmak istediğiniz ödeme türünü seçin.
-    * Ödeme günlüğü hem Çekler hem de elektronik ödemeler için ödemeler içerebilir fakat bir seferde sadece bir ödeme türü oluşturabilirsiniz.  
-29. Ödemeler oluşturmak için kullanmak istediğiniz banka hesabını seçin.
-30. Tamam'a tıklayın.
-    * Ödemeler yalnızca ödeme yöntemiyle ve seçtiğiniz banka hesabıyla eşleşen ödemeler için oluşturulur.  
-31. Çek oluşturuyorsanız, Çekler için doğru yazdırma hedefinin sağlamak için Belge'yi seçin.
-32. Tamam'a tıklayın.
-33. Tamam'ı tıklayarak ödemeleri oluşturun.
-34. Tüm ödemeler oluşturuldu ve onaylandıysa, Deftere Naklet'i tıklatın. 
+1. <span data-ttu-id="81b2c-106">Borç hesapları > Ödemeler > Ödeme günlüğü'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="81b2c-106">Go to Accounts payable > Payments > Payment journal.</span></span>
+2. <span data-ttu-id="81b2c-107">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="81b2c-107">Click New.</span></span>
+3. <span data-ttu-id="81b2c-108">Satıcı ödemelerinin kaydedileceği ödeme günlüğünü seçin.</span><span class="sxs-lookup"><span data-stu-id="81b2c-108">Select the payment journal in which to save the vendor payments.</span></span> 
+4. <span data-ttu-id="81b2c-109">Bir günlüğü seçin veya el ile girin.</span><span class="sxs-lookup"><span data-stu-id="81b2c-109">Select the journal or manually enter it.</span></span>
+5. <span data-ttu-id="81b2c-110">Satırlar seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="81b2c-110">Click Lines.</span></span>
+6. <span data-ttu-id="81b2c-111">Ödeme teklifi'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="81b2c-111">Click Payment proposal.</span></span>
+7. <span data-ttu-id="81b2c-112">Ödeme teklifi oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="81b2c-112">Click Create payment proposal.</span></span>
+    * <span data-ttu-id="81b2c-113">Ödeme teklif, ödeme için faturaları seçmede kullanılan bir sorgudur.</span><span class="sxs-lookup"><span data-stu-id="81b2c-113">The payment proposal is a query used to select invoices for payment.</span></span> <span data-ttu-id="81b2c-114">Satıcı ödemelerini oluşturmadan veya yaratmadan önce, ödenecek faturaların listesini düzenleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="81b2c-114">You can edit the list of invoices to pay before creating or generating the vendor payments.</span></span>  
+8. <span data-ttu-id="81b2c-115">Ödeme için faturaları vade tarihi, nakit iskontosu veya her ikisini birden kullanarak seçin.</span><span class="sxs-lookup"><span data-stu-id="81b2c-115">Select invoices for payment by due date, cash discount, or both.</span></span> 
+9. <span data-ttu-id="81b2c-116">Vade tarihi veya nakit iskontosu ile karşılaştırmak için tarihi girin.</span><span class="sxs-lookup"><span data-stu-id="81b2c-116">Enter the date for comparing to the due date or cash discount.</span></span> 
+10. <span data-ttu-id="81b2c-117">İsteğe bağlı: Tüm ödemeler için kullanılacak ödeme tarihi girin.</span><span class="sxs-lookup"><span data-stu-id="81b2c-117">Optional: Enter a payment date used for all payments.</span></span>
+    * <span data-ttu-id="81b2c-118">Buraya girilen tarihi, nakit iskontosu tarihi veya vade tarihi ne olursa olsun, tüm ödemeler için geçerli ödeme tarihi olacaktır.</span><span class="sxs-lookup"><span data-stu-id="81b2c-118">The date entered here will be the payment date for all payments created, regardless of the due date or cash discount date.</span></span>  
+11. <span data-ttu-id="81b2c-119">İsteğe bağlı: Ödeme tarihi olarak kullanılabilecek bir minimum ödeme tarihini girin.</span><span class="sxs-lookup"><span data-stu-id="81b2c-119">Optional: Enter a minimum payment date which may be used as the payment date.</span></span>
+    * <span data-ttu-id="81b2c-120">Minimum ödeme tarihi, ödemeler oluşturulurken kullanılan en erken tarihi olacaktır.</span><span class="sxs-lookup"><span data-stu-id="81b2c-120">The minimum payment date will be the earliest date used when creating payments.</span></span> <span data-ttu-id="81b2c-121">Örneğin, bir faturanın vade tarihi, minimum ödeme tarihinden sonraysa, vade tarihi minimum ödeme tarihi yerine vade tarihi ödeme yapmak için kullanılır ve bu sayede faturayı mümkün olan en geç şekilde ödeme imkanı doğar.</span><span class="sxs-lookup"><span data-stu-id="81b2c-121">For example, if an invoice has a due date after the minimum payment date, the due date will become the payment date instead of the minimum payment date in order to pay the invoice on the latest possible date.</span></span>  
+12. <span data-ttu-id="81b2c-122">Ek sorgu kısıtlamalarını, Dahil edilecek kayıtları altında girin.</span><span class="sxs-lookup"><span data-stu-id="81b2c-122">Enter additional query restrictions under Records to include.</span></span>
+    * <span data-ttu-id="81b2c-123">Filtre, genellikle satıcı tarafından ödeme için seçilen faturaları veya ödeme yöntemini kısıtlamakta için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="81b2c-123">The filter is often used to restrict the invoices selected for payment by vendor group or method of payment.</span></span> <span data-ttu-id="81b2c-124">Örneğin, bu ödeme işleminde faturaları sadece çek ile ödemek için bir filtre ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="81b2c-124">For example, you may add a filter to only pay invoices by cheque in this pay run.</span></span>  
+13. <span data-ttu-id="81b2c-125">Ek sorgu kısıtlaması veya ödeme varsayılan değerleri girin.</span><span class="sxs-lookup"><span data-stu-id="81b2c-125">Enter additional query restriction or payment defaults.</span></span> 
+    * <span data-ttu-id="81b2c-126">Ek parametreler ödemenin yapılacağı para birimini tanımlamada veya merkezi ödemeleri bu ödeme işlemi için etkinleştirmede kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="81b2c-126">The additional parameters can be used to define the payment currency or to enable centralized payments for this pay run.</span></span>  
+14. <span data-ttu-id="81b2c-127">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="81b2c-127">Click OK.</span></span>
+    * <span data-ttu-id="81b2c-128">Tamam'ı tıklattıktan sonra sorgu sonuçları görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="81b2c-128">After clicking OK, the results of the query will appear.</span></span> <span data-ttu-id="81b2c-129">Ödenmek üzere seçilen faturaların listesini önizlemek istemiyorsanız, Parametreler hızlı sekmesine geri giderek Ödemeleri fatura önizlemesi olmadan oluştur seçeneğini Evet olarak seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="81b2c-129">If you don't want to preview the list of invoices selected to pay, you can go back to the Parameters fast tab and change the setting Create payments without invoice preview = Yes.</span></span>  
+15. <span data-ttu-id="81b2c-130">Seçili faturayla ilgili satıcı için oluşturulan ödemeleri görüntülemek için Ödeme genel bakış göster düğmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="81b2c-130">Choose the Show payment overview button to view the payments that will be created for the vendor on the invoice selected.</span></span>
+16. <span data-ttu-id="81b2c-131">Ödemeleri gizlemek için Ödeme genel bakışı gizle düğmesini seçin.</span><span class="sxs-lookup"><span data-stu-id="81b2c-131">Choose the Hide payment overview button to hide the payments.</span></span> 
+17. <span data-ttu-id="81b2c-132">Ödemeleri oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="81b2c-132">Click Create payments.</span></span>
+    * <span data-ttu-id="81b2c-133">Ödemeleri oluştur'u seçmeden önce kılavuzun üzerinde sağ tıklatıp, faturaların listesini Excel'e aktarabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="81b2c-133">Before choosing Create payments, you can right click on the grid and export the list of invoices to Excel.</span></span> <span data-ttu-id="81b2c-134">Ödemeleri Oluştur düğmesi, satıcı ödemelerini ödeme günlüğünde oluşturur.</span><span class="sxs-lookup"><span data-stu-id="81b2c-134">The Create payments button will create the vendor payments in the payment journal.</span></span>  
+18. <span data-ttu-id="81b2c-135">Ödemelerinizi tarayın ve ödeme yönteminin tüm ödemeler için tanımlanmış olduğundan emin olun.</span><span class="sxs-lookup"><span data-stu-id="81b2c-135">Scan your payments and make sure the method of payment is defined for all payments.</span></span> 
+    * <span data-ttu-id="81b2c-136">Çek yazdırma ve elektronik ödeme oluşturma gibi ödemeleri oluşturursanız, öncelikle ödeme yöntemini tanımlamalısınız.</span><span class="sxs-lookup"><span data-stu-id="81b2c-136">If you generate the payments, such as printing a cheque or creating an electronic payment, the method of payment must be defined.</span></span> <span data-ttu-id="81b2c-137">Ödeme yöntemi aynı zamanda ödemenin yapılacağı banka hesabını da varsayılan olarak ayarlar.</span><span class="sxs-lookup"><span data-stu-id="81b2c-137">The method of payment will also default the bank account from the payment will be made.</span></span>  
+19. <span data-ttu-id="81b2c-138">Tek seferlik ödeme oluşturmak için Yeni'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="81b2c-138">Click New to create a one-off payment.</span></span>
+    * <span data-ttu-id="81b2c-139">Tek seferlik bir ödeme, deftere nakledilmeden önce herhangi bir zamanda ödeme günlüğüne eklenebilir.</span><span class="sxs-lookup"><span data-stu-id="81b2c-139">A one-off payment can be added to a payment journal at any time prior to posting.</span></span> <span data-ttu-id="81b2c-140">Bu ekleme, ödeme teklifini kullanmak yerine, Yeni düğmesini tıklatarak ve sonra ödeme bilgilerini el ile girerek yapılır.</span><span class="sxs-lookup"><span data-stu-id="81b2c-140">This is done by clicking the New button and adding the payment information manually, rather then using the Payment proposal.</span></span>  
+20. <span data-ttu-id="81b2c-141">Ödemenin yapılacağı satıcıyı seçin.</span><span class="sxs-lookup"><span data-stu-id="81b2c-141">Select the vendor to whom the payment will be made.</span></span>
+21. <span data-ttu-id="81b2c-142">Bir faturayı ödemek için varsa, ödeme için faturayı seçmek için, Kapanış hareketleri'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="81b2c-142">If an invoice exists to pay, select Settle transactions to select the invoice for payment.</span></span>
+    * <span data-ttu-id="81b2c-143">Bu bir ön ödeme ise, bu adım isteğe bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="81b2c-143">If this is a prepayment, this step is optional.</span></span> <span data-ttu-id="81b2c-144">Bir fatura seçmeden ödemeyi oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="81b2c-144">You can create the payment without selecting any invoice.</span></span>  
+22. <span data-ttu-id="81b2c-145">Ödenecek faturaları işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="81b2c-145">Mark any invoices that will be paid.</span></span>
+    * <span data-ttu-id="81b2c-146">Kapanış hareketlerimi için ödeme faturaları seçmek için kullanırsanız, ödeme tutarı otomatik olarak hangi faturaları ödeme için seçtiğiniz ve Tutar bölümüne kapatmak için hangi tutarı girdiğiniz ile hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="81b2c-146">If you use the Settle transactions to select the invoices for payment, the payment amount will automatically be calculated based on what invoices you mark for payment, and what amount you enter in the Amount to settle.</span></span>  
+23. <span data-ttu-id="81b2c-147">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="81b2c-147">Click OK.</span></span>
+24. <span data-ttu-id="81b2c-148">Bir ödemeyi silmek isterseniz, satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="81b2c-148">If you want to delete a payment, mark the row.</span></span>
+25. <span data-ttu-id="81b2c-149">Sil'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="81b2c-149">Click Delete.</span></span>
+    * <span data-ttu-id="81b2c-150">Bir ödemeyi silmek yalnızca ödemenin silinmesine neden olur.</span><span class="sxs-lookup"><span data-stu-id="81b2c-150">Deleting a payment will only delete the payment.</span></span> <span data-ttu-id="81b2c-151">Ödeme için işaretlenmiş herhangi bir fatura, başka bir ödeme tarafından ödenebilir olmaya devam edecektir.</span><span class="sxs-lookup"><span data-stu-id="81b2c-151">Any invoices marked for payment will still be available to be paid by another payment.</span></span>  
+26. <span data-ttu-id="81b2c-152">Evet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="81b2c-152">Click Yes.</span></span>
+27. <span data-ttu-id="81b2c-153">Ödeme oluştur'u seçerek Çekleri yazdırmak veya elektronik ödeme dosyası oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="81b2c-153">Choose Generate payment to print Cheques or create the electronic payment file.</span></span>
+28. <span data-ttu-id="81b2c-154">Oluşturmak istediğiniz ödeme türünü seçin.</span><span class="sxs-lookup"><span data-stu-id="81b2c-154">Select the method of payment that you want to generate.</span></span>
+    * <span data-ttu-id="81b2c-155">Ödeme günlüğü hem Çekler hem de elektronik ödemeler için ödemeler içerebilir fakat bir seferde sadece bir ödeme türü oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="81b2c-155">The payment journal can contains payments for both Cheques and electronic payments, but you can only generate one payment type at a time.</span></span>  
+29. <span data-ttu-id="81b2c-156">Ödemeler oluşturmak için kullanmak istediğiniz banka hesabını seçin.</span><span class="sxs-lookup"><span data-stu-id="81b2c-156">Select the bank account from which to generate the payments.</span></span>
+30. <span data-ttu-id="81b2c-157">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="81b2c-157">Click OK.</span></span>
+    * <span data-ttu-id="81b2c-158">Ödemeler yalnızca ödeme yöntemiyle ve seçtiğiniz banka hesabıyla eşleşen ödemeler için oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="81b2c-158">Payments will only be generated for payments that match the Method of payment and Bank account you selected.</span></span>  
+31. <span data-ttu-id="81b2c-159">Çek oluşturuyorsanız, Çekler için doğru yazdırma hedefinin sağlamak için Belge'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="81b2c-159">If you are generating Cheques, choose Document to ensure the correct print destination for the Cheques.</span></span>
+32. <span data-ttu-id="81b2c-160">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="81b2c-160">Click OK.</span></span>
+33. <span data-ttu-id="81b2c-161">Tamam'ı tıklayarak ödemeleri oluşturun.</span><span class="sxs-lookup"><span data-stu-id="81b2c-161">Click OK to generate the payments.</span></span>
+34. <span data-ttu-id="81b2c-162">Tüm ödemeler oluşturuldu ve onaylandıysa, Deftere Naklet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="81b2c-162">Click Post if all the payments are approved and generated.</span></span> 
 
 

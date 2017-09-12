@@ -19,34 +19,34 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 76af350f37109260a757ccc0b93908637d0579dc
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7f8fe754a27a825ace862d5eac992c42ef973f10
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="elimination-rules"></a>Eleme kuralları
+# <a name="elimination-rules"></a><span data-ttu-id="b9308-103">Eleme kuralları</span><span class="sxs-lookup"><span data-stu-id="b9308-103">Elimination rules</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu konuda, eleme kuralları ve elemeler hakkında raporlama için çeşitli seçenekler ile ilgili bilgiler verilmektedir.
+<span data-ttu-id="b9308-104">Bu konuda, eleme kuralları ve elemeler hakkında raporlama için çeşitli seçenekler ile ilgili bilgiler verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="b9308-104">This topic provides information about elimination rules and the various options for reporting about eliminations.</span></span>
 
-Bir ana tüzel kişilik bir veya daha fazla tüzel kişilikle iş yapıyor ve konsolide finansal raporlama kullanıyorsa eleme hareketleri gerekir. Konsolide mali tablolar yalnızca konsolide kuruluş ve bu kuruluşların dışındaki diğer varlıklar arasındaki hareketleri içerebilir. Bu nedenle, aynı kuruluşun parçası olan tüzel kişilikler arasındaki hareketler genel muhasebeden kaldırılarak veya elenerek mali raporlarda görünmemesi sağlanmalıdır. Elemeler hakkında rapor hazırlamanın birden çok yolu vardır:
+<span data-ttu-id="b9308-105">Bir ana tüzel kişilik bir veya daha fazla tüzel kişilikle iş yapıyor ve konsolide finansal raporlama kullanıyorsa eleme hareketleri gerekir.</span><span class="sxs-lookup"><span data-stu-id="b9308-105">Elimination transactions are required when a parent legal entity does business with one or more subsidiary legal entities and uses consolidated financial reporting.</span></span> <span data-ttu-id="b9308-106">Konsolide mali tablolar yalnızca konsolide kuruluş ve bu kuruluşların dışındaki diğer varlıklar arasındaki hareketleri içerebilir.</span><span class="sxs-lookup"><span data-stu-id="b9308-106">Consolidated financial statements must include only transactions that occur between the consolidated organization and other entities outside that organizations.</span></span> <span data-ttu-id="b9308-107">Bu nedenle, aynı kuruluşun parçası olan tüzel kişilikler arasındaki hareketler genel muhasebeden kaldırılarak veya elenerek mali raporlarda görünmemesi sağlanmalıdır.</span><span class="sxs-lookup"><span data-stu-id="b9308-107">Therefore, transactions between legal entities that are part of the same organization must be removed, or eliminated, from the general ledger, so they don't appear on financial reports.</span></span> <span data-ttu-id="b9308-108">Elemeler hakkında rapor hazırlamanın birden çok yolu vardır:</span><span class="sxs-lookup"><span data-stu-id="b9308-108">There are multiple ways to report about eliminations:</span></span>
 
--   Konsolidasyon veya eleme şirketinde bir eleme kuralı oluşturabilir veya işlenebilir.
--   Elemeler hesaplarını ve boyutlarını belirli satır veya sütunda göstermek için mali raporlama kullanılabilir.
--   Elemeleri izlemek üzere el ile hareket girişlerini nakletmek için ayrı bir tüzel kişilik kullanılabilir.
+-   <span data-ttu-id="b9308-109">Konsolidasyon veya eleme şirketinde bir eleme kuralı oluşturabilir veya işlenebilir.</span><span class="sxs-lookup"><span data-stu-id="b9308-109">An elimination rule can be created and processed in a consolidation or elimination company.</span></span>
+-   <span data-ttu-id="b9308-110">Elemeler hesaplarını ve boyutlarını belirli satır veya sütunda göstermek için mali raporlama kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="b9308-110">Financial reporting can be used to show the eliminations accounts and dimensions on a specific row or column.</span></span>
+-   <span data-ttu-id="b9308-111">Elemeleri izlemek üzere el ile hareket girişlerini nakletmek için ayrı bir tüzel kişilik kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="b9308-111">A separate legal entity can be used to post manual transaction entries to track eliminations.</span></span>
 
-Bu konuda, konsolidasyon veya eleme şirketinde işlenen eleme kurallarına odaklanılmaktadır. Elemeler için hedef tüzel kişilik olarak belirtilen bir tüzel kişilikte eleme hareketleri oluşturmak için eleme kuralları ayarlayabilirsiniz. Bu hedef tüzel kişilik, eleme tüzel kişiliği olarak bilinir. Eleme günlükleri konsolidasyon işlemi sırasında veya bir eleme günlüğü teklifi kullanılarak oluşturulabilir. Eliminasyon günlükleri ayarlamadan önce aşağıdaki terimler hakkında bilginiz olmalı:
+<span data-ttu-id="b9308-112">Bu konuda, konsolidasyon veya eleme şirketinde işlenen eleme kurallarına odaklanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="b9308-112">This topic focuses on elimination rules that are processed in a consolidation or elimination company.</span></span> <span data-ttu-id="b9308-113">Elemeler için hedef tüzel kişilik olarak belirtilen bir tüzel kişilikte eleme hareketleri oluşturmak için eleme kuralları ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b9308-113">You can set up elimination rules to create elimination transactions in a legal entity that is specified as the destination legal entity for eliminations.</span></span> <span data-ttu-id="b9308-114">Bu hedef tüzel kişilik, eleme tüzel kişiliği olarak bilinir.</span><span class="sxs-lookup"><span data-stu-id="b9308-114">This destination legal entity is known as the elimination legal entity.</span></span> <span data-ttu-id="b9308-115">Eleme günlükleri konsolidasyon işlemi sırasında veya bir eleme günlüğü teklifi kullanılarak oluşturulabilir.</span><span class="sxs-lookup"><span data-stu-id="b9308-115">Elimination journals can be generated either during the consolidation process or by using an elimination journal proposal.</span></span> <span data-ttu-id="b9308-116">Eliminasyon günlükleri ayarlamadan önce aşağıdaki terimler hakkında bilginiz olmalı:</span><span class="sxs-lookup"><span data-stu-id="b9308-116">Before you set up elimination rules, you should become familiar with the following terms:</span></span>
 
--   **Kaynak tüzel kişilik** – Elenmekte olan tutarların nakledildiği tüzel kişilik.
--   **Hedef tüzel kişilik** – Eleme kurallarının çıkarıldığı tüzel kişilik.
--   **Eleme tüzel kişiliği** – Elemeler içi hedef tüzel kişilik olarak belirtilen tüzel kişilik.
--   **Konsolide edilen tüzel kişilik** – Bir tüzel kişilikler grubu için oluşturulan mali sonuçların raporunu hazırlamak için oluşturulmuş bir tüzel kişilik. Tüzel kişiliklerden gelen mali veriler bu tüzel kişilikte konsolide edilir ve birleştirilmiş veriler kullanılarak bir mali rapor oluşturulur.
+-   <span data-ttu-id="b9308-117">**Kaynak tüzel kişilik** – Elenmekte olan tutarların nakledildiği tüzel kişilik.</span><span class="sxs-lookup"><span data-stu-id="b9308-117">**Source legal entity** – The legal entity where the amounts that are being eliminated were posted.</span></span>
+-   <span data-ttu-id="b9308-118">**Hedef tüzel kişilik** – Eleme kurallarının çıkarıldığı tüzel kişilik.</span><span class="sxs-lookup"><span data-stu-id="b9308-118">**Destination legal entity** – The legal entity where elimination rules are posted.</span></span>
+-   <span data-ttu-id="b9308-119">**Eleme tüzel kişiliği** – Elemeler içi hedef tüzel kişilik olarak belirtilen tüzel kişilik.</span><span class="sxs-lookup"><span data-stu-id="b9308-119">**Elimination legal entity** – The legal entity that is specified as the destination legal entity for eliminations.</span></span>
+-   <span data-ttu-id="b9308-120">**Konsolide edilen tüzel kişilik** – Bir tüzel kişilikler grubu için oluşturulan mali sonuçların raporunu hazırlamak için oluşturulmuş bir tüzel kişilik.</span><span class="sxs-lookup"><span data-stu-id="b9308-120">**Consolidated legal entity** – The legal entity that is created to report financial results for a group of legal entities.</span></span> <span data-ttu-id="b9308-121">Tüzel kişiliklerden gelen mali veriler bu tüzel kişilikte konsolide edilir ve birleştirilmiş veriler kullanılarak bir mali rapor oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="b9308-121">The financial data from the legal entities is consolidated into this legal entity, and then a financial report is created by using the combined data.</span></span>
 
-Aşağıdaki tabloda, elenmesi gerekebilecek hareket türleri gösterilmektedir.
+<span data-ttu-id="b9308-122">Aşağıdaki tabloda, elenmesi gerekebilecek hareket türleri gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="b9308-122">The following table shows the types of transactions that might have to be eliminated.</span></span>
 
 <table>
 <colgroup>
@@ -55,105 +55,105 @@ Aşağıdaki tabloda, elenmesi gerekebilecek hareket türleri gösterilmektedir.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Hareket türü</th>
-<th>Örnek</th>
+<th><span data-ttu-id="b9308-123">Hareket türü</span><span class="sxs-lookup"><span data-stu-id="b9308-123">Transaction type</span></span></th>
+<th><span data-ttu-id="b9308-124">Örnek</span><span class="sxs-lookup"><span data-stu-id="b9308-124">Example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Satış siparişi girişi ve faturalandırma (merkezi işlem)</td>
-<td>Bir müşteriye kuruluşunuzdaki başka bir tüzel kişilik adına bir ürün satıyorsunuz.</td>
+<td><span data-ttu-id="b9308-125">Satış siparişi girişi ve faturalandırma (merkezi işlem)</span><span class="sxs-lookup"><span data-stu-id="b9308-125">Sales order entry and invoicing (centralized processing)</span></span></td>
+<td><span data-ttu-id="b9308-126">Bir müşteriye kuruluşunuzdaki başka bir tüzel kişilik adına bir ürün satıyorsunuz.</span><span class="sxs-lookup"><span data-stu-id="b9308-126">You sell a product to a customer on behalf of another legal entity in your organization.</span></span></td>
 </tr>
 <tr class="even">
-<td>Satış siparişi girişi (şirketlerarası/şirketiçi) ve faturalandırma</td>
-<td>Kuruluşunuzdaki tüzel kişilikler arasında ürünler satıyorsunuz.</td>
+<td><span data-ttu-id="b9308-127">Satış siparişi girişi (şirketlerarası/şirketiçi) ve faturalandırma</span><span class="sxs-lookup"><span data-stu-id="b9308-127">Sales order entry (intercompany/intracompany) and invoicing</span></span></td>
+<td><span data-ttu-id="b9308-128">Kuruluşunuzdaki tüzel kişilikler arasında ürünler satıyorsunuz.</span><span class="sxs-lookup"><span data-stu-id="b9308-128">You sell products between legal entities in your organization.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Satın alma siparişleri (merkezi işlem)</td>
-<td>Bir satıcıdan kuruluşunuzdaki başka bir tüzel kişilik adına stok, malzemeler, hizmetler, sabit kıymetler ve başka ürünler alıyorsunuz.</td>
+<td><span data-ttu-id="b9308-129">Satın alma siparişleri (merkezi işlem)</span><span class="sxs-lookup"><span data-stu-id="b9308-129">Purchase orders (centralized processing)</span></span></td>
+<td><span data-ttu-id="b9308-130">Bir satıcıdan kuruluşunuzdaki başka bir tüzel kişilik adına stok, malzemeler, hizmetler, sabit kıymetler ve başka ürünler alıyorsunuz.</span><span class="sxs-lookup"><span data-stu-id="b9308-130">You purchase inventory, supplies, services, fixed assets, and other products from a vendor on behalf of another legal entity in your organization.</span></span></td>
 </tr>
 <tr class="even">
-<td>Stok yönetimi (şirketlerarası/şirketiçi)</td>
+<td><span data-ttu-id="b9308-131">Stok yönetimi (şirketlerarası/şirketiçi)</span><span class="sxs-lookup"><span data-stu-id="b9308-131">Inventory management (intercompany/intracompany)</span></span></td>
 <td><ul>
-<li>Bir tüzel kişiliğin stoğunu, kuruluşunuzdaki başka bir tüzel kişiliğin sabit kıymetlerine aktarıyorsunuz.</li>
-<li>Bir tüzel kişiliğin stoğunu, kuruluşunuzdaki başka bir tüzel kişiliğin stoğuna aktarıyorsunuz.</li>
+<li><span data-ttu-id="b9308-132">Bir tüzel kişiliğin stoğunu, kuruluşunuzdaki başka bir tüzel kişiliğin sabit kıymetlerine aktarıyorsunuz.</span><span class="sxs-lookup"><span data-stu-id="b9308-132">You transfer one legal entity’s inventory to the fixed assets of another legal entity in your organization.</span></span></li>
+<li><span data-ttu-id="b9308-133">Bir tüzel kişiliğin stoğunu, kuruluşunuzdaki başka bir tüzel kişiliğin stoğuna aktarıyorsunuz.</span><span class="sxs-lookup"><span data-stu-id="b9308-133">You transfer one legal entity’s inventory to the inventory of another legal entity in your organization.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Transit stok izleme</td>
-<td>Aynı tüzel kişilikte farklı coğrafi tesislerdeki ambarlar arasında madde aktarıyorsunuz.</td>
+<td><span data-ttu-id="b9308-134">Transit stok izleme</span><span class="sxs-lookup"><span data-stu-id="b9308-134">In-transit inventory tracking</span></span></td>
+<td><span data-ttu-id="b9308-135">Aynı tüzel kişilikte farklı coğrafi tesislerdeki ambarlar arasında madde aktarıyorsunuz.</span><span class="sxs-lookup"><span data-stu-id="b9308-135">You transfer items between warehouses in the same legal entity, but across different geographical sites.</span></span></td>
 </tr>
 <tr class="even">
-<td>Borç hesapları merkezi fatura işleme</td>
-<td>Kuruluşunuzdaki başka bir tüzel kişilik adına fatura kaydediyorsunuz.</td>
+<td><span data-ttu-id="b9308-136">Borç hesapları merkezi fatura işleme</span><span class="sxs-lookup"><span data-stu-id="b9308-136">Accounts payable centralized invoice processing</span></span></td>
+<td><span data-ttu-id="b9308-137">Kuruluşunuzdaki başka bir tüzel kişilik adına fatura kaydediyorsunuz.</span><span class="sxs-lookup"><span data-stu-id="b9308-137">You record an invoice on behalf of another legal entity in your organization.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Borç hesapları merkezi ödeme işleme</td>
-<td>Kuruluşunuzdaki başka bir tüzel kişilik adına fatura ödüyorsunuz.</td>
+<td><span data-ttu-id="b9308-138">Borç hesapları merkezi ödeme işleme</span><span class="sxs-lookup"><span data-stu-id="b9308-138">Accounts payable centralized payment processing</span></span></td>
+<td><span data-ttu-id="b9308-139">Kuruluşunuzdaki başka bir tüzel kişilik adına fatura ödüyorsunuz.</span><span class="sxs-lookup"><span data-stu-id="b9308-139">You pay an invoice on behalf of another legal entity in your organization.</span></span></td>
 </tr>
 <tr class="even">
-<td>Nakit yönetimi ve hazine (merkezi işlem)</td>
+<td><span data-ttu-id="b9308-140">Nakit yönetimi ve hazine (merkezi işlem)</span><span class="sxs-lookup"><span data-stu-id="b9308-140">Cash management and treasury (centralized processing)</span></span></td>
 <td><ul>
-<li>Vergi ödemelerini, vergi iadelerini, faiz giderlerini, ödünç verilenleri, avansları, temettü ödemelerini, önceden ödenmiş hak bedellerini veya komisyonları işliyorsunuz.</li>
-<li>Kuruluşunuzdaki başka bir tüzel kişilik adına gider ödüyorsunuz. Fatura, hedef tüzel kişiliğin defterlerine girilir ve tüzel kişilikler arasında çapraz kapatma yapmanız gerekir. Örneğin, bir tüzel kişilik başka bir tüzel kişilikteki bir çalışanın gider raporunu öder. Bu durumda, çalışanın gider raporunda başka bir tüzel kişilikle ilgili giderler olur.</li>
-<li>Nakdi kuruluşunuzdaki bir tüzel kişilikten bir diğerine aktarırsınız.</li>
+<li><span data-ttu-id="b9308-141">Vergi ödemelerini, vergi iadelerini, faiz giderlerini, ödünç verilenleri, avansları, temettü ödemelerini, önceden ödenmiş hak bedellerini veya komisyonları işliyorsunuz.</span><span class="sxs-lookup"><span data-stu-id="b9308-141">You process tax payments, tax refunds, interest charges, loans, advances, dividend payments, and prepaid royalties or commissions.</span></span></li>
+<li><span data-ttu-id="b9308-142">Kuruluşunuzdaki başka bir tüzel kişilik adına gider ödüyorsunuz.</span><span class="sxs-lookup"><span data-stu-id="b9308-142">You pay an expense on behalf of another legal entity in your organization.</span></span> <span data-ttu-id="b9308-143">Fatura, hedef tüzel kişiliğin defterlerine girilir ve tüzel kişilikler arasında çapraz kapatma yapmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="b9308-143">The invoice is entered in the destination legal entity’s books, and you must cross-settle between legal entities.</span></span> <span data-ttu-id="b9308-144">Örneğin, bir tüzel kişilik başka bir tüzel kişilikteki bir çalışanın gider raporunu öder.</span><span class="sxs-lookup"><span data-stu-id="b9308-144">For example, one legal entity pays the expense report of an employee in another legal entity.</span></span> <span data-ttu-id="b9308-145">Bu durumda, çalışanın gider raporunda başka bir tüzel kişilikle ilgili giderler olur.</span><span class="sxs-lookup"><span data-stu-id="b9308-145">In this case, the employee’s expense report has expenses that are related to another legal entity.</span></span></li>
+<li><span data-ttu-id="b9308-146">Nakdi kuruluşunuzdaki bir tüzel kişilikten bir diğerine aktarırsınız.</span><span class="sxs-lookup"><span data-stu-id="b9308-146">You transfer cash from one legal entity to another in your organization.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Alacak hesapları (merkezi işlem)</td>
-<td>Başka bir tüzel kişiliğin müşteri faturası için nakit alırsınız ve çeki o tüzel kişiliğin banka hesabına havale edersiniz.</td>
+<td><span data-ttu-id="b9308-147">Alacak hesapları (merkezi işlem)</span><span class="sxs-lookup"><span data-stu-id="b9308-147">Accounts receivable (centralized processing)</span></span></td>
+<td><span data-ttu-id="b9308-148">Başka bir tüzel kişiliğin müşteri faturası için nakit alırsınız ve çeki o tüzel kişiliğin banka hesabına havale edersiniz.</span><span class="sxs-lookup"><span data-stu-id="b9308-148">You receive cash for another legal entity’s customer invoice, and you deposit the check into that legal entity’s bank account.</span></span></td>
 </tr>
 <tr class="even">
-<td>Bordro (merkezi işlem, şirketlerarası/şirketiçi)</td>
+<td><span data-ttu-id="b9308-149">Bordro (merkezi işlem, şirketlerarası/şirketiçi)</span><span class="sxs-lookup"><span data-stu-id="b9308-149">Payroll (centralized processing, intercompany/intracompany)</span></span></td>
 <td><ul>
-<li>Başka bir tüzel kişiliğin bordrosunu ödüyorsunuz. Örneğin, bir tüzel kişilik kendi çalışanları için olan kendi bordrosunu ödüyor, ancak bir çalışanın bu bordro işlemi sırasında başka bir tüzel kişilik için yaptığı işi geri masraflandırıyor. Veya bir çalışan A tüzel kişiliği için yarı zamanlı ve B tüzel kişiliği için yarı zamanlı çalışmıştır ve kazançlar tüm ödemelere yayılmıştır. Bu gibi durumlarda çalışana ödeme, her iki tüzel kişilikten yapılan ödemeleri içerir. Yalnızca maaşlar nakledilmez, maaşlar için vergiler, kazançlar, kesintiler ve tahakkuklar da nakledilir.</li>
-<li>Bir departman veya bölümden bir diğerine işgücü aktarıyorsunuz.</li>
+<li><span data-ttu-id="b9308-150">Başka bir tüzel kişiliğin bordrosunu ödüyorsunuz.</span><span class="sxs-lookup"><span data-stu-id="b9308-150">You pay another legal entity’s payroll.</span></span> <span data-ttu-id="b9308-151">Örneğin, bir tüzel kişilik kendi çalışanları için olan kendi bordrosunu ödüyor, ancak bir çalışanın bu bordro işlemi sırasında başka bir tüzel kişilik için yaptığı işi geri masraflandırıyor.</span><span class="sxs-lookup"><span data-stu-id="b9308-151">For example, a legal entity pays its own payroll for its employees but charges back work that an employee did for another legal entity during that pay run.</span></span> <span data-ttu-id="b9308-152">Veya bir çalışan A tüzel kişiliği için yarı zamanlı ve B tüzel kişiliği için yarı zamanlı çalışmıştır ve kazançlar tüm ödemelere yayılmıştır.</span><span class="sxs-lookup"><span data-stu-id="b9308-152">Or, an employee worked half-time for legal entity A and half-time for legal entity B, and the benefits are across all pay.</span></span> <span data-ttu-id="b9308-153">Bu gibi durumlarda çalışana ödeme, her iki tüzel kişilikten yapılan ödemeleri içerir.</span><span class="sxs-lookup"><span data-stu-id="b9308-153">In these cases, the employee’s pay includes pay from both legal entities.</span></span> <span data-ttu-id="b9308-154">Yalnızca maaşlar nakledilmez, maaşlar için vergiler, kazançlar, kesintiler ve tahakkuklar da nakledilir.</span><span class="sxs-lookup"><span data-stu-id="b9308-154">Not only are the salaries posted, but taxes, benefits, deductions, and accruals for salaries are also posted.</span></span></li>
+<li><span data-ttu-id="b9308-155">Bir departman veya bölümden bir diğerine işgücü aktarıyorsunuz.</span><span class="sxs-lookup"><span data-stu-id="b9308-155">You transfer labor from one department or division to another.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Sabit kıymetler (şirketlerarası/şirketiçi)</td>
-<td>Bir tüzel kişiliğin sabit kıymetlerine veya stoğuna sabit kıymetler aktarıyorsunuz.</td>
+<td><span data-ttu-id="b9308-156">Sabit kıymetler (şirketlerarası/şirketiçi)</span><span class="sxs-lookup"><span data-stu-id="b9308-156">Fixed assets (intercompany/intracompany)</span></span></td>
+<td><span data-ttu-id="b9308-157">Bir tüzel kişiliğin sabit kıymetlerine veya stoğuna sabit kıymetler aktarıyorsunuz.</span><span class="sxs-lookup"><span data-stu-id="b9308-157">You transfer fixed assets to another legal entity’s fixed assets or inventory.</span></span></td>
 </tr>
 <tr class="even">
-<td>Tahsisatlar (şirketlerarası/şirketiçi)</td>
-<td>Şirket tahsisatlarını işliyorsunuz. Tahsisatlar, kaynak modülden bağımsız olarak tahsis edilmiş herhangi bir hesaba yönelik faaliyetlerdir.</td>
+<td><span data-ttu-id="b9308-158">Tahsisatlar (şirketlerarası/şirketiçi)</span><span class="sxs-lookup"><span data-stu-id="b9308-158">Allocations (intercompany/intracompany)</span></span></td>
+<td><span data-ttu-id="b9308-159">Şirket tahsisatlarını işliyorsunuz.</span><span class="sxs-lookup"><span data-stu-id="b9308-159">You process corporate allocations.</span></span> <span data-ttu-id="b9308-160">Tahsisatlar, kaynak modülden bağımsız olarak tahsis edilmiş herhangi bir hesaba yönelik faaliyetlerdir.</span><span class="sxs-lookup"><span data-stu-id="b9308-160">Allocations are activities to any account that is allocated, regardless of the originating module.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="example"></a>Örnek
-Tüzel kişiliğiniz (A tüzel kişiliği) kuruluşunuzdaki başka bir tüzel kişiliğe (B tüzel kişiliği) bir şeyler satıyor. Aşağıdaki örnekte, iki tüzel kişilik arasında gerçekleşen hareketlerin nasıl elenmesi gerekebileceği gösterilmektedir.
+## <a name="example"></a><span data-ttu-id="b9308-161">Örnek</span><span class="sxs-lookup"><span data-stu-id="b9308-161">Example</span></span>
+<span data-ttu-id="b9308-162">Tüzel kişiliğiniz (A tüzel kişiliği) kuruluşunuzdaki başka bir tüzel kişiliğe (B tüzel kişiliği) bir şeyler satıyor. Aşağıdaki örnekte, iki tüzel kişilik arasında gerçekleşen hareketlerin nasıl elenmesi gerekebileceği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="b9308-162">Your legal entity, legal entity A, sells widgets to another legal entity in your organization, legal entity B. The following example shows how transactions that occur between the two legal entities might have to be eliminated:</span></span>
 
--   A tüzel kişiliği, 10,00 lira maliyetli bir malı B tüzel kişiliğine 10,00 liraya satıyor.
--   A tüzel kişiliği 10,00 lira maliyetli bir malı B tüzel kişiliğine 10,00 lira artı 2,00 lira fiili sevkiyat maliyetiyle satıyor.
--   A tüzel kişiliği, 10,00 lira maliyetli bir malı B tüzel kişiliğine 15,00 liraya satıyor ve satıştan bir marj elde ediyor.
--   A tüzel kişiliği, 10,00 lira maliyetli bir malı B tüzel kişiliğine 15,00 liraya satıyor ve satıştan marjın yarısını elde ediyor. B tüzel kişiliği, satıştan elde edilen marjın diğer yarısını alıyor. Böylece, gelir bölünüyor. Bölünmüş gelir, dışarıdan bir kuruluştan değil de kuruluştaki başka bir tüzel kişilikten siparişe bir teşvik oluşturuyor.
+-   <span data-ttu-id="b9308-163">A tüzel kişiliği, 10,00 lira maliyetli bir malı B tüzel kişiliğine 10,00 liraya satıyor.</span><span class="sxs-lookup"><span data-stu-id="b9308-163">Legal entity A sells a widget that costs 10.00 to legal entity B for 10.00.</span></span>
+-   <span data-ttu-id="b9308-164">A tüzel kişiliği 10,00 lira maliyetli bir malı B tüzel kişiliğine 10,00 lira artı 2,00 lira fiili sevkiyat maliyetiyle satıyor.</span><span class="sxs-lookup"><span data-stu-id="b9308-164">Legal entity A sells a widget that costs 10.00 to legal entity B for 10.00, plus 2.00 in actual shipping costs.</span></span>
+-   <span data-ttu-id="b9308-165">A tüzel kişiliği, 10,00 lira maliyetli bir malı B tüzel kişiliğine 15,00 liraya satıyor ve satıştan bir marj elde ediyor.</span><span class="sxs-lookup"><span data-stu-id="b9308-165">Legal entity A sells a widget that costs 10.00 to legal entity B for 15.00 and recognizes a margin on the sale.</span></span>
+-   <span data-ttu-id="b9308-166">A tüzel kişiliği, 10,00 lira maliyetli bir malı B tüzel kişiliğine 15,00 liraya satıyor ve satıştan marjın yarısını elde ediyor.</span><span class="sxs-lookup"><span data-stu-id="b9308-166">Legal entity A sells a widget that costs 10.00 to legal entity B for 15.00 and recognizes half the margin on the sale.</span></span> <span data-ttu-id="b9308-167">B tüzel kişiliği, satıştan elde edilen marjın diğer yarısını alıyor.</span><span class="sxs-lookup"><span data-stu-id="b9308-167">Legal entity B recognizes the other half of the margin on the sale.</span></span> <span data-ttu-id="b9308-168">Böylece, gelir bölünüyor.</span><span class="sxs-lookup"><span data-stu-id="b9308-168">Therefore, the revenue is split.</span></span> <span data-ttu-id="b9308-169">Bölünmüş gelir, dışarıdan bir kuruluştan değil de kuruluştaki başka bir tüzel kişilikten siparişe bir teşvik oluşturuyor.</span><span class="sxs-lookup"><span data-stu-id="b9308-169">Split revenue provides an incentive to order from another legal entity in the organization instead of an external organization.</span></span>
 
-Tüm bu hareketler, borç ve alacak hesaplarına nakledilen şirketlerarası hareketleri oluşturur. Ayrıca bu hareketler, şirketlerarası satış ve satılan malların maliyeti eşit olmadığı zaman artırma ve azaltma tutarlarını da içerebilir.
+<span data-ttu-id="b9308-170">Tüm bu hareketler, borç ve alacak hesaplarına nakledilen şirketlerarası hareketleri oluşturur.</span><span class="sxs-lookup"><span data-stu-id="b9308-170">All these transactions create intercompany transactions that are posted to due-to and due-from accounts.</span></span> <span data-ttu-id="b9308-171">Ayrıca bu hareketler, şirketlerarası satış ve satılan malların maliyeti eşit olmadığı zaman artırma ve azaltma tutarlarını da içerebilir.</span><span class="sxs-lookup"><span data-stu-id="b9308-171">In addition, these transactions might include markup and markdown amounts when the amount of the intercompany sale doesn't equal the cost of the goods that were sold.</span></span>
 
-## <a name="set-up-elimination-rules"></a>Eliminasyon kurallarını ayarlama
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içinde eleme kuralları ayarlanırken, eleme amaçlı ayrı bir mali boyut oluşturmanızı öneririz. Müşterilerin çoğu buna Ticaret Ortağı veya benzer bir ad verirler. Bir mali boyut kullanmamaya karar verirseniz, yalnızca şirketlerarası harektelere özel bir ana hesaba sahip olduğunuzdan emin olun. 
+## <a name="set-up-elimination-rules"></a><span data-ttu-id="b9308-172">Eliminasyon kurallarını ayarlama</span><span class="sxs-lookup"><span data-stu-id="b9308-172">Set up elimination rules</span></span>
+<span data-ttu-id="b9308-173">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içinde eleme kuralları ayarlanırken, eleme amaçlı ayrı bir mali boyut oluşturmanızı öneririz.</span><span class="sxs-lookup"><span data-stu-id="b9308-173">When setting up elimination rules in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, we recommend that you create a financial dimension specifically for elimination purposes.</span></span> <span data-ttu-id="b9308-174">Müşterilerin çoğu buna Ticaret Ortağı veya benzer bir ad verirler.</span><span class="sxs-lookup"><span data-stu-id="b9308-174">Most customers name it Trading Partner or something similar.</span></span> <span data-ttu-id="b9308-175">Bir mali boyut kullanmamaya karar verirseniz, yalnızca şirketlerarası harektelere özel bir ana hesaba sahip olduğunuzdan emin olun.</span><span class="sxs-lookup"><span data-stu-id="b9308-175">If you decide not to use a financial dimension, then be sure to have main accounts that are specific for intercompany transactions only.</span></span> 
 
-Elemeler için kurulum, Konsolidasyonlar modülünün kurulum alanında bulunur. Bir kural için bir açıklama girdikten sonra, eleme günlüğünün nakledeceği şirketi seçmeniz gerekir. Bu, Tüzel varlık kurulumunda **Mali eleme sürecini kullan**'ın seçilmiş olduğu bir şirket olmalıdır. 
+<span data-ttu-id="b9308-176">Elemeler için kurulum, Konsolidasyonlar modülünün kurulum alanında bulunur.</span><span class="sxs-lookup"><span data-stu-id="b9308-176">The setup for eliminations is found in the Setup area of the Consolidations module.</span></span> <span data-ttu-id="b9308-177">Bir kural için bir açıklama girdikten sonra, eleme günlüğünün nakledeceği şirketi seçmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="b9308-177">After you enter a description for the rule, you must pick the company that the elimination journal will post to.</span></span> <span data-ttu-id="b9308-178">Bu, Tüzel varlık kurulumunda **Mali eleme sürecini kullan**'ın seçilmiş olduğu bir şirket olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="b9308-178">This should be a company that has **Use for financial elimination process** selected in the Legal entity setup.</span></span> 
 
-Gerekirse, eleme kuralının ne zaman geçerli olacağını ve ne süresinin ne zaman dolacağını seçebilirsiniz. Eleme öneri işleminde kullanılabilir olmasını istiyorsanız **Etkin**'i **Evet** olarak ayarlamanız gerekir. Bir tür **Eleme**'ye sahip bir günlük adı seçin.
+<span data-ttu-id="b9308-179">Gerekirse, eleme kuralının ne zaman geçerli olacağını ve ne süresinin ne zaman dolacağını seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b9308-179">You can set a date on which the elimination rule becomes effective and when it is expired, if needed.</span></span> <span data-ttu-id="b9308-180">Eleme öneri işleminde kullanılabilir olmasını istiyorsanız **Etkin**'i **Evet** olarak ayarlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="b9308-180">You must set **Active** to **Yes** if you want it to be available in the elimination proposal process.</span></span> <span data-ttu-id="b9308-181">Bir tür **Eleme**'ye sahip bir günlük adı seçin.</span><span class="sxs-lookup"><span data-stu-id="b9308-181">Select a journal name that has a type of **Elimination**.</span></span>
 
-Temelleri tanımladıktan sonra, **Satırlar** üzerine tıklatarak gerçek işleme kurallarını tanımlayabilirsiniz. Elemeler için iki seçenek mevcuttur; net değişim tutarını eleme veya sabit bir tutar tanımlama. 
+<span data-ttu-id="b9308-182">Temelleri tanımladıktan sonra, **Satırlar** üzerine tıklatarak gerçek işleme kurallarını tanımlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b9308-182">After you have defined the basics, you can define the actual processing rules by clicking **Lines**.</span></span> <span data-ttu-id="b9308-183">Elemeler için iki seçenek mevcuttur; net değişim tutarını eleme veya sabit bir tutar tanımlama.</span><span class="sxs-lookup"><span data-stu-id="b9308-183">There are two options for eliminations, eliminating the net change amount or defining a fixed amount.</span></span> 
 
-Kaynak hesabınızı seçin. Joker karakter olarak bir yıldız (\*) kullanabilirsiniz. Örneğin, 1\* tahsisat için veri kaynağı olarak 1 ile başlayan tüm hesapları seçer. 
+<span data-ttu-id="b9308-184">Kaynak hesabınızı seçin.</span><span class="sxs-lookup"><span data-stu-id="b9308-184">Select your source account.</span></span> <span data-ttu-id="b9308-185">Joker karakter olarak bir yıldız (\*) kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b9308-185">You can use an asterisk (\*) as a wild card.</span></span> <span data-ttu-id="b9308-186">Örneğin, 1\* tahsisat için veri kaynağı olarak 1 ile başlayan tüm hesapları seçer.</span><span class="sxs-lookup"><span data-stu-id="b9308-186">For example, 1\* would select all accounts that start with a 1 as a source of data for the allocation.</span></span> 
 
-Kaynak hesaplarınızı seçtikten sonra **Hesap belirtimi**, hedef şirketinden kullanılan hesabı belirler. **Kaynak** hesabında tanımlanan aynı ana hesabı kullanmak istiyorsanız **Kaynak**'ı seçin. **Kullanıcı tanımlı**'yı seçerseniz, bir hedef hesabı belirtmeniz gerekir. 
+<span data-ttu-id="b9308-187">Kaynak hesaplarınızı seçtikten sonra **Hesap belirtimi**, hedef şirketinden kullanılan hesabı belirler.</span><span class="sxs-lookup"><span data-stu-id="b9308-187">After you have selected your source accounts, the **Account specification** determines the account from the destination company that is used.</span></span> <span data-ttu-id="b9308-188">**Kaynak** hesabında tanımlanan aynı ana hesabı kullanmak istiyorsanız **Kaynak**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="b9308-188">Select **Source** if you want to use the same main account defined in the **Source** account.</span></span> <span data-ttu-id="b9308-189">**Kullanıcı tanımlı**'yı seçerseniz, bir hedef hesabı belirtmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="b9308-189">If you select **User defined**, then you must specify a destination account.</span></span> 
 
-Boyut belirtimi de aynı şekilde davranır. **Kaynak**'ı seçerseniz, hedef şirkette de kaynak şirkette kullandığı aynı boyutları kullanır. **Kullanıcı tanımlı**'yı seçerseniz, hedef şirketteki boyutları **Hedef boyutları** menü öğesini seçerek belirtmeniz gerekir. 
+<span data-ttu-id="b9308-190">Boyut belirtimi de aynı şekilde davranır.</span><span class="sxs-lookup"><span data-stu-id="b9308-190">The dimension specification acts in the same way.</span></span> <span data-ttu-id="b9308-191">**Kaynak**'ı seçerseniz, hedef şirkette de kaynak şirkette kullandığı aynı boyutları kullanır.</span><span class="sxs-lookup"><span data-stu-id="b9308-191">If you select **Source**, it will use the same dimensions in the destination company as the source company.</span></span> <span data-ttu-id="b9308-192">**Kullanıcı tanımlı**'yı seçerseniz, hedef şirketteki boyutları **Hedef boyutları** menü öğesini seçerek belirtmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="b9308-192">If you select **User defined**, you will need to specify the dimensions in the destination company by clicking the **Destination dimensions** menu item.</span></span> 
 
-Kaynak boyutları ve eleme için kaynakta kullanılacak finansal boyutları ve değerleri seçin.
+<span data-ttu-id="b9308-193">Kaynak boyutları ve eleme için kaynakta kullanılacak finansal boyutları ve değerleri seçin.</span><span class="sxs-lookup"><span data-stu-id="b9308-193">Select source dimensions and the financial dimensions and values that are used as a source of the elimination.</span></span>
 
-## <a name="process-elimination-transactions"></a>Eliminasyon hareketlerini işleme koy
-Eleme hareketlerini işlemenin iki yolu vardır; birleştirme işlemi sırasında veya bir eleme günlüğü oluşturarak ve eleme teklif işlemini yürüterek. Bu bölüm, günlüğü oluşturmaya ve eleme işlemini çalıştırmaya odaklanır. 
+## <a name="process-elimination-transactions"></a><span data-ttu-id="b9308-194">Eliminasyon hareketlerini işleme koy</span><span class="sxs-lookup"><span data-stu-id="b9308-194">Process elimination transactions</span></span>
+<span data-ttu-id="b9308-195">Eleme hareketlerini işlemenin iki yolu vardır; birleştirme işlemi sırasında veya bir eleme günlüğü oluşturarak ve eleme teklif işlemini yürüterek.</span><span class="sxs-lookup"><span data-stu-id="b9308-195">There are two ways to process elimination transactions, during the consolidate online process or by creating an elimination journal and running the elimination proposal process.</span></span> <span data-ttu-id="b9308-196">Bu bölüm, günlüğü oluşturmaya ve eleme işlemini çalıştırmaya odaklanır.</span><span class="sxs-lookup"><span data-stu-id="b9308-196">This section focuses on creating the journal and running the elimination process.</span></span> 
 
-Bir eleme şirketi olarak tanımlanan bir şirkette, Birleştirme modülü içerisinde **Eleme günlüğü**'nü seçin. Günlük adını seçtikten sonra, **Satırlar**'ı tıklatın. **Teklifler** menüsünü seçtikten sonra **Eleme teklifi**'ni seçerek teklifi çalıştırabilirsiniz.
+<span data-ttu-id="b9308-197">Bir eleme şirketi olarak tanımlanan bir şirkette, Birleştirme modülü içerisinde **Eleme günlüğü**'nü seçin.</span><span class="sxs-lookup"><span data-stu-id="b9308-197">In a company defined as an elimination company, select **Elimination journal** in the Consolidations module.</span></span> <span data-ttu-id="b9308-198">Günlük adını seçtikten sonra, **Satırlar**'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="b9308-198">After you have selected the journal name, click **Lines**.</span></span> <span data-ttu-id="b9308-199">**Teklifler** menüsünü seçtikten sonra **Eleme teklifi**'ni seçerek teklifi çalıştırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b9308-199">You can run the proposal by selecting the **Proposals** menu and then selecting **Elimination proposal**.</span></span>
 
-Birleştirilmiş verinin kaynağı olan şirketi seçin ve sonra işlemek istediğiniz kuralı seçin. Eleme tutarlarını aramaya başlamak için bir başlangıç tarihi ve eleme tutarları bitişi için bir bitiş tarihi girin. **GL deftere nakil tarihi** alanı, günlüğü genel muhasebe defterine nakletmek için kullanılan tarihtir. **Tamam**'ı tıklattıktan sonra, tutarları görebilir ve günlüğü deftere nakledebilirsiniz.
+<span data-ttu-id="b9308-200">Birleştirilmiş verinin kaynağı olan şirketi seçin ve sonra işlemek istediğiniz kuralı seçin.</span><span class="sxs-lookup"><span data-stu-id="b9308-200">Select the company that is the source of the consolidated data, and then choose the rule that you want to process.</span></span> <span data-ttu-id="b9308-201">Eleme tutarlarını aramaya başlamak için bir başlangıç tarihi ve eleme tutarları bitişi için bir bitiş tarihi girin.</span><span class="sxs-lookup"><span data-stu-id="b9308-201">Enter a start date to begin the search for elimination amounts, and an end date to end the search date for elimination amounts.</span></span> <span data-ttu-id="b9308-202">**GL deftere nakil tarihi** alanı, günlüğü genel muhasebe defterine nakletmek için kullanılan tarihtir.</span><span class="sxs-lookup"><span data-stu-id="b9308-202">The **GL posting date** field is the date used for posting the journal to the general ledger.</span></span> <span data-ttu-id="b9308-203">**Tamam**'ı tıklattıktan sonra, tutarları görebilir ve günlüğü deftere nakledebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b9308-203">After you click **OK**, you can review the amounts and post the journal.</span></span>
 
 
 

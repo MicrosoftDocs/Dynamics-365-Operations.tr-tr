@@ -19,66 +19,66 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 131045a5702f8c85be44ba1ebae1866c033850b9
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 4b87d96e80b343a2b57db59b5d4c19e70d0a94ea
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="factor-depreciation"></a>Faktör amortisman
+# <a name="factor-depreciation"></a><span data-ttu-id="b2175-103">Faktör amortisman</span><span class="sxs-lookup"><span data-stu-id="b2175-103">Factor depreciation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu makale, faktör amortisman yöntemi hakkında genel bir bakış sağlar.
+<span data-ttu-id="b2175-104">Bu makale, faktör amortisman yöntemi hakkında genel bir bakış sağlar.</span><span class="sxs-lookup"><span data-stu-id="b2175-104">This article gives an overview of the factor depreciation method.</span></span>
 
-Faktörler, kıymetlere amortisman uygulamak için kullanılan yüzdelerdir. Bir sabit kıymet amortisman profili ayarlayıp **Amortisman profilleri** sayfasındaki **Yöntem** alanında **Faktör**'ü seçtiğinizde, artan paylı, azalan paylı, eşit paylı amortisman ayarlayabilirsiniz:
+<span data-ttu-id="b2175-105">Faktörler, kıymetlere amortisman uygulamak için kullanılan yüzdelerdir.</span><span class="sxs-lookup"><span data-stu-id="b2175-105">Factors are the percentages that are used to depreciate assets.</span></span> <span data-ttu-id="b2175-106">Bir sabit kıymet amortisman profili ayarlayıp **Amortisman profilleri** sayfasındaki **Yöntem** alanında **Faktör**'ü seçtiğinizde, artan paylı, azalan paylı, eşit paylı amortisman ayarlayabilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="b2175-106">When you set up a fixed asset depreciation profile and select **Factor** in the **Method** field on the **Depreciation profiles** page, you can set up progressive, digressive, or straight line depreciation:</span></span>
 
--   Artan paylı amortismanda, amortisman tutarı her amortisman döneminde artar.
--   Azalan paylı amortismanda, dönem başına amortisman tutarı zaman içinde azalır.
--   Eşit paylı amortismanda, amortisman her dönem için aynıdır.
+-   <span data-ttu-id="b2175-107">Artan paylı amortismanda, amortisman tutarı her amortisman döneminde artar.</span><span class="sxs-lookup"><span data-stu-id="b2175-107">In progressive depreciation, the amount of depreciation increases each depreciation period.</span></span>
+-   <span data-ttu-id="b2175-108">Azalan paylı amortismanda, dönem başına amortisman tutarı zaman içinde azalır.</span><span class="sxs-lookup"><span data-stu-id="b2175-108">In digressive depreciation, the amount of depreciation per period decreases over time.</span></span>
+-   <span data-ttu-id="b2175-109">Eşit paylı amortismanda, amortisman her dönem için aynıdır.</span><span class="sxs-lookup"><span data-stu-id="b2175-109">In straight line depreciation, the depreciation is the same in each period.</span></span>
 
-Aşağıdaki kurallar ve örnekler, her tip amortisman için faktörleri nasıl ayarlayacağınızı gösterir. 
+<span data-ttu-id="b2175-110">Aşağıdaki kurallar ve örnekler, her tip amortisman için faktörleri nasıl ayarlayacağınızı gösterir.</span><span class="sxs-lookup"><span data-stu-id="b2175-110">The rules and examples that follow indicate how you can set up factors for each type of depreciation.</span></span> 
 
 > [!NOTE] 
-> **Yöntem** alanında **Faktör**'ü seçtiğinizde, **Faktör** alanı ve **Aralık** alanı görüntülenir.
+> <span data-ttu-id="b2175-111">**Yöntem** alanında **Faktör**'ü seçtiğinizde, **Faktör** alanı ve **Aralık** alanı görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="b2175-111">When you select **Factor** in the **Method** field, the **Factor** field and the **Interval** field are displayed.</span></span>
 
-## <a name="progressive-depreciation"></a>Artan paylı amortisman
-**Faktör** alanındaki değer **50**'den büyüktür.
+## <a name="progressive-depreciation"></a><span data-ttu-id="b2175-112">Artan paylı amortisman</span><span class="sxs-lookup"><span data-stu-id="b2175-112">Progressive depreciation</span></span>
+<span data-ttu-id="b2175-113">**Faktör** alanındaki değer **50**'den büyüktür.</span><span class="sxs-lookup"><span data-stu-id="b2175-113">The value in the **Factor** field is more than **50**.</span></span>
 
-### <a name="example"></a>Örnek
+### <a name="example"></a><span data-ttu-id="b2175-114">Örnek</span><span class="sxs-lookup"><span data-stu-id="b2175-114">Example</span></span>
 
-Alım fiyatı 100.000, faktör 70, hizmet ömrü 10 yıl ve amortisman 1 Ocak'ta başlıyor. Amortisman tutarları ve net defter değeri tutarları yalnızca hizmet ömrünün ilk altı yılı için gösterilir.
+<span data-ttu-id="b2175-115">Alım fiyatı 100.000, faktör 70, hizmet ömrü 10 yıl ve amortisman 1 Ocak'ta başlıyor.</span><span class="sxs-lookup"><span data-stu-id="b2175-115">The acquisition price is 100,000, the factor is 70, the service life is 10 years, and depreciation starts on January 1.</span></span> <span data-ttu-id="b2175-116">Amortisman tutarları ve net defter değeri tutarları yalnızca hizmet ömrünün ilk altı yılı için gösterilir.</span><span class="sxs-lookup"><span data-stu-id="b2175-116">The depreciation amounts and net book value amounts are shown only for the first six years of service life.</span></span>
 
-| Yıl | Dönem      | Amortisman tutarı | Net defter değeri tutarı |
+| <span data-ttu-id="b2175-117">Yıl</span><span class="sxs-lookup"><span data-stu-id="b2175-117">Year</span></span> | <span data-ttu-id="b2175-118">Dönem</span><span class="sxs-lookup"><span data-stu-id="b2175-118">Period</span></span>      | <span data-ttu-id="b2175-119">Amortisman tutarı</span><span class="sxs-lookup"><span data-stu-id="b2175-119">Depreciation amount</span></span> | <span data-ttu-id="b2175-120">Net defter değeri tutarı</span><span class="sxs-lookup"><span data-stu-id="b2175-120">Net book value amount</span></span> |
 |------|-------------|---------------------|-----------------------|
-| 1    | 31 Aralık | 307,69              | 99.692,31             |
-| 2    | 31 Aralık | 1.447,21            | 98.245,10             |
-| 3    | 31 Aralık | 3.104,50            | 95.140,60             |
-| 4    | 31 Aralık | 5.150,21            | 89.990,39             |
-| 5    | 31 Aralık | 7.522,95            | 82.467,44             |
-| 6    | 31 Aralık | 10.184,06           | 72.283,38             |
+| <span data-ttu-id="b2175-121">1</span><span class="sxs-lookup"><span data-stu-id="b2175-121">1</span></span>    | <span data-ttu-id="b2175-122">31 Aralık</span><span class="sxs-lookup"><span data-stu-id="b2175-122">December 31</span></span> | <span data-ttu-id="b2175-123">307,69</span><span class="sxs-lookup"><span data-stu-id="b2175-123">307.69</span></span>              | <span data-ttu-id="b2175-124">99.692,31</span><span class="sxs-lookup"><span data-stu-id="b2175-124">99,692.31</span></span>             |
+| <span data-ttu-id="b2175-125">2</span><span class="sxs-lookup"><span data-stu-id="b2175-125">2</span></span>    | <span data-ttu-id="b2175-126">31 Aralık</span><span class="sxs-lookup"><span data-stu-id="b2175-126">December 31</span></span> | <span data-ttu-id="b2175-127">1.447,21</span><span class="sxs-lookup"><span data-stu-id="b2175-127">1,447.21</span></span>            | <span data-ttu-id="b2175-128">98.245,10</span><span class="sxs-lookup"><span data-stu-id="b2175-128">98,245.10</span></span>             |
+| <span data-ttu-id="b2175-129">3</span><span class="sxs-lookup"><span data-stu-id="b2175-129">3</span></span>    | <span data-ttu-id="b2175-130">31 Aralık</span><span class="sxs-lookup"><span data-stu-id="b2175-130">December 31</span></span> | <span data-ttu-id="b2175-131">3.104,50</span><span class="sxs-lookup"><span data-stu-id="b2175-131">3,104.50</span></span>            | <span data-ttu-id="b2175-132">95.140,60</span><span class="sxs-lookup"><span data-stu-id="b2175-132">95,140.60</span></span>             |
+| <span data-ttu-id="b2175-133">4</span><span class="sxs-lookup"><span data-stu-id="b2175-133">4</span></span>    | <span data-ttu-id="b2175-134">31 Aralık</span><span class="sxs-lookup"><span data-stu-id="b2175-134">December 31</span></span> | <span data-ttu-id="b2175-135">5.150,21</span><span class="sxs-lookup"><span data-stu-id="b2175-135">5,150.21</span></span>            | <span data-ttu-id="b2175-136">89.990,39</span><span class="sxs-lookup"><span data-stu-id="b2175-136">89,990.39</span></span>             |
+| <span data-ttu-id="b2175-137">5</span><span class="sxs-lookup"><span data-stu-id="b2175-137">5</span></span>    | <span data-ttu-id="b2175-138">31 Aralık</span><span class="sxs-lookup"><span data-stu-id="b2175-138">December 31</span></span> | <span data-ttu-id="b2175-139">7.522,95</span><span class="sxs-lookup"><span data-stu-id="b2175-139">7,522.95</span></span>            | <span data-ttu-id="b2175-140">82.467,44</span><span class="sxs-lookup"><span data-stu-id="b2175-140">82,467.44</span></span>             |
+| <span data-ttu-id="b2175-141">6</span><span class="sxs-lookup"><span data-stu-id="b2175-141">6</span></span>    | <span data-ttu-id="b2175-142">31 Aralık</span><span class="sxs-lookup"><span data-stu-id="b2175-142">December 31</span></span> | <span data-ttu-id="b2175-143">10.184,06</span><span class="sxs-lookup"><span data-stu-id="b2175-143">10,184.06</span></span>           | <span data-ttu-id="b2175-144">72.283,38</span><span class="sxs-lookup"><span data-stu-id="b2175-144">72,283.38</span></span>             |
 
-## <a name="digressive-depreciation"></a>Azalan paylı amortisman
-**Faktör** alanındaki değer **50**'den küçüktür.
+## <a name="digressive-depreciation"></a><span data-ttu-id="b2175-145">Azalan paylı amortisman</span><span class="sxs-lookup"><span data-stu-id="b2175-145">Digressive depreciation</span></span>
+<span data-ttu-id="b2175-146">**Faktör** alanındaki değer **50**'den küçüktür.</span><span class="sxs-lookup"><span data-stu-id="b2175-146">The value in the **Factor** field is less than **50**.</span></span>
 
-### <a name="example"></a>Örnek
+### <a name="example"></a><span data-ttu-id="b2175-147">Örnek</span><span class="sxs-lookup"><span data-stu-id="b2175-147">Example</span></span>
 
-Alım fiyatı 100.000, faktör 20, hizmet ömrü 10 yıl ve amortisman 1 Ocak'ta başlıyor. Amortisman tutarları ve net defter değeri tutarları yalnızca hizmet ömrünün ilk altı yılı için gösterilir.
+<span data-ttu-id="b2175-148">Alım fiyatı 100.000, faktör 20, hizmet ömrü 10 yıl ve amortisman 1 Ocak'ta başlıyor.</span><span class="sxs-lookup"><span data-stu-id="b2175-148">The acquisition price is 100,000, the factor is 20, the service life is 10 years, and depreciation starts on January 1.</span></span> <span data-ttu-id="b2175-149">Amortisman tutarları ve net defter değeri tutarları yalnızca hizmet ömrünün ilk altı yılı için gösterilir.</span><span class="sxs-lookup"><span data-stu-id="b2175-149">The depreciation amounts and net book value amounts are shown only for the first six years of service life.</span></span>
 
-| Yıl | Dönem      | Amortisman tutarı | Net defter değeri tutarı |
+| <span data-ttu-id="b2175-150">Yıl</span><span class="sxs-lookup"><span data-stu-id="b2175-150">Year</span></span> | <span data-ttu-id="b2175-151">Dönem</span><span class="sxs-lookup"><span data-stu-id="b2175-151">Period</span></span>      | <span data-ttu-id="b2175-152">Amortisman tutarı</span><span class="sxs-lookup"><span data-stu-id="b2175-152">Depreciation amount</span></span> | <span data-ttu-id="b2175-153">Net defter değeri tutarı</span><span class="sxs-lookup"><span data-stu-id="b2175-153">Net book value amount</span></span> |
 |------|-------------|---------------------|-----------------------|
-| 1    | 31 Aralık | 56.080,43           | 43.919,57             |
-| 2    | 31 Aralık | 10.665,70           | 33.253,87             |
-| 3    | 31 Aralık | 7.156,22            | 26.097,65             |
-| 4    | 31 Aralık | 5.538,06            | 20.559,59             |
-| 5    | 31 Aralık | 4.579,89            | 15.979,70             |
-| 6    | 31 Aralık | 3.937,36            | 12.042,34             |
+| <span data-ttu-id="b2175-154">1</span><span class="sxs-lookup"><span data-stu-id="b2175-154">1</span></span>    | <span data-ttu-id="b2175-155">31 Aralık</span><span class="sxs-lookup"><span data-stu-id="b2175-155">December 31</span></span> | <span data-ttu-id="b2175-156">56.080,43</span><span class="sxs-lookup"><span data-stu-id="b2175-156">56,080.43</span></span>           | <span data-ttu-id="b2175-157">43.919,57</span><span class="sxs-lookup"><span data-stu-id="b2175-157">43,919.57</span></span>             |
+| <span data-ttu-id="b2175-158">2</span><span class="sxs-lookup"><span data-stu-id="b2175-158">2</span></span>    | <span data-ttu-id="b2175-159">31 Aralık</span><span class="sxs-lookup"><span data-stu-id="b2175-159">December 31</span></span> | <span data-ttu-id="b2175-160">10.665,70</span><span class="sxs-lookup"><span data-stu-id="b2175-160">10,665.70</span></span>           | <span data-ttu-id="b2175-161">33.253,87</span><span class="sxs-lookup"><span data-stu-id="b2175-161">33,253.87</span></span>             |
+| <span data-ttu-id="b2175-162">3</span><span class="sxs-lookup"><span data-stu-id="b2175-162">3</span></span>    | <span data-ttu-id="b2175-163">31 Aralık</span><span class="sxs-lookup"><span data-stu-id="b2175-163">December 31</span></span> | <span data-ttu-id="b2175-164">7.156,22</span><span class="sxs-lookup"><span data-stu-id="b2175-164">7,156.22</span></span>            | <span data-ttu-id="b2175-165">26.097,65</span><span class="sxs-lookup"><span data-stu-id="b2175-165">26,097.65</span></span>             |
+| <span data-ttu-id="b2175-166">4</span><span class="sxs-lookup"><span data-stu-id="b2175-166">4</span></span>    | <span data-ttu-id="b2175-167">31 Aralık</span><span class="sxs-lookup"><span data-stu-id="b2175-167">December 31</span></span> | <span data-ttu-id="b2175-168">5.538,06</span><span class="sxs-lookup"><span data-stu-id="b2175-168">5,538.06</span></span>            | <span data-ttu-id="b2175-169">20.559,59</span><span class="sxs-lookup"><span data-stu-id="b2175-169">20,559.59</span></span>             |
+| <span data-ttu-id="b2175-170">5</span><span class="sxs-lookup"><span data-stu-id="b2175-170">5</span></span>    | <span data-ttu-id="b2175-171">31 Aralık</span><span class="sxs-lookup"><span data-stu-id="b2175-171">December 31</span></span> | <span data-ttu-id="b2175-172">4.579,89</span><span class="sxs-lookup"><span data-stu-id="b2175-172">4,579.89</span></span>            | <span data-ttu-id="b2175-173">15.979,70</span><span class="sxs-lookup"><span data-stu-id="b2175-173">15,979.70</span></span>             |
+| <span data-ttu-id="b2175-174">6</span><span class="sxs-lookup"><span data-stu-id="b2175-174">6</span></span>    | <span data-ttu-id="b2175-175">31 Aralık</span><span class="sxs-lookup"><span data-stu-id="b2175-175">December 31</span></span> | <span data-ttu-id="b2175-176">3.937,36</span><span class="sxs-lookup"><span data-stu-id="b2175-176">3,937.36</span></span>            | <span data-ttu-id="b2175-177">12.042,34</span><span class="sxs-lookup"><span data-stu-id="b2175-177">12,042.34</span></span>             |
 
-## <a name="straight-line-depreciation"></a>Eşit paylı amortisman
-**Faktör** alanındaki değer **50**'ye eşittir. Bu durumda, amortisman her dönemde aynıdır ve [Sabit servis ömrü amortismanı](straight-line-service-life-depreciation.md) içinde açıklandığı gibi, diğer alanlarda belirttiğiniz değerlerin etkilerini değerlendirmeniz gerekir.
+## <a name="straight-line-depreciation"></a><span data-ttu-id="b2175-178">Eşit paylı amortisman</span><span class="sxs-lookup"><span data-stu-id="b2175-178">Straight line depreciation</span></span>
+<span data-ttu-id="b2175-179">**Faktör** alanındaki değer **50**'ye eşittir.</span><span class="sxs-lookup"><span data-stu-id="b2175-179">The value in the **Factor** field is equal to **50**.</span></span> <span data-ttu-id="b2175-180">Bu durumda, amortisman her dönemde aynıdır ve [Sabit servis ömrü amortismanı](straight-line-service-life-depreciation.md) içinde açıklandığı gibi, diğer alanlarda belirttiğiniz değerlerin etkilerini değerlendirmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="b2175-180">In this case, the depreciation is the same in each period, and you should consider the implications of the values that you have specified in other fields, as described in [Straight line service life depreciation](straight-line-service-life-depreciation.md).</span></span>
 
 
 

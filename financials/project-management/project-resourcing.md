@@ -18,246 +18,246 @@ ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: a7275e9ad8d655d0d2ee5ba90a792775dec0cf05
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: fc36d399759b6321995f9bd827849c8a0bced090
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="project-resourcing"></a>Projeye kaynak oluşturma
+# <a name="project-resourcing"></a><span data-ttu-id="6246b-103">Projeye kaynak oluşturma</span><span class="sxs-lookup"><span data-stu-id="6246b-103">Project resourcing</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu konu, projeye kaynak oluşturma hakkında bilgi sunar.
+<span data-ttu-id="6246b-104">Bu konu, projeye kaynak oluşturma hakkında bilgi sunar.</span><span class="sxs-lookup"><span data-stu-id="6246b-104">This topic provides information about project resourcing.</span></span>
 
-Proje yöneticileri ve kaynak yöneticilerinin proje planlama aşamasında karşılaştıkları zorluklardan biri, projede çalışacak doğru kaynağı belirlemek ve rezerve etmeleri gereken kaynak tahsisatıdır. Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünde projelere kaynak sağlama becerileri geçici kaynaklar olarak kullanılan ve belirli bir görev ya da görevin bir bölümü için rezerve edilebilen rolleri tanımlamanıza olanak tanır. Bu tür kaynak oluşturma, proje yöneticileri ve kaynak yöneticilerinin aşağıdaki görevleri yerine getirmesini sağlar:
+<span data-ttu-id="6246b-105">Proje yöneticileri ve kaynak yöneticilerinin proje planlama aşamasında karşılaştıkları zorluklardan biri, projede çalışacak doğru kaynağı belirlemek ve rezerve etmeleri gereken kaynak tahsisatıdır.</span><span class="sxs-lookup"><span data-stu-id="6246b-105">One challenge for project managers and resource managers during the project planning stage is resource allocation, where they must determine and reserve the correct resource to work on a project.</span></span> <span data-ttu-id="6246b-106">Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünde projelere kaynak sağlama becerileri geçici kaynaklar olarak kullanılan ve belirli bir görev ya da görevin bir bölümü için rezerve edilebilen rolleri tanımlamanıza olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="6246b-106">In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, resourcing capabilities for projects let you define roles that are treated as temporary resources that can be reserved for a specific engagement, or part of an engagement.</span></span> <span data-ttu-id="6246b-107">Bu tür kaynak oluşturma, proje yöneticileri ve kaynak yöneticilerinin aşağıdaki görevleri yerine getirmesini sağlar:</span><span class="sxs-lookup"><span data-stu-id="6246b-107">This type of resourcing lets project managers and resource managers complete the following tasks:</span></span>
 
--   Kaynakları eşleştirmeyi kolaylaştırmak için gerekli olan yetkinliklere sahip bir rol tanımlamak.
--   Rolleri, rezerve edilen kaynakarı temel alan ilk görev planlamasını belirlemek için kullanın.
--   Bir proje için atanan rolleri ve kaynakları temel alarak maliyetleri tahmin etmek ve başlangıç bütçesini belirlemek.
--   Her görev için gerekli olan kaynak rezervasyonları sayısını tahmin etmek için rolleri kullanın.
--   Tüm proje yaşam döngüsü için gereken kaynak sayısını tahmin etmek.
--   İlk kaynak atamalarını kullanarak iş kırılım yapısı (WBS) taslağı hazırlamak.
+-   <span data-ttu-id="6246b-108">Kaynakları eşleştirmeyi kolaylaştırmak için gerekli olan yetkinliklere sahip bir rol tanımlamak.</span><span class="sxs-lookup"><span data-stu-id="6246b-108">Define a role that has the required competencies to make it easy to match resources.</span></span>
+-   <span data-ttu-id="6246b-109">Rolleri, rezerve edilen kaynakarı temel alan ilk görev planlamasını belirlemek için kullanın.</span><span class="sxs-lookup"><span data-stu-id="6246b-109">Use roles to define an initial engagement schedule that is based on reserved resources.</span></span>
+-   <span data-ttu-id="6246b-110">Bir proje için atanan rolleri ve kaynakları temel alarak maliyetleri tahmin etmek ve başlangıç bütçesini belirlemek.</span><span class="sxs-lookup"><span data-stu-id="6246b-110">Estimate costs and determine an initial budget, based on assigned roles and resources for a project.</span></span>
+-   <span data-ttu-id="6246b-111">Her görev için gerekli olan kaynak rezervasyonları sayısını tahmin etmek için rolleri kullanın.</span><span class="sxs-lookup"><span data-stu-id="6246b-111">Use roles to estimate the number of resource reservations that are required for each engagement.</span></span>
+-   <span data-ttu-id="6246b-112">Tüm proje yaşam döngüsü için gereken kaynak sayısını tahmin etmek.</span><span class="sxs-lookup"><span data-stu-id="6246b-112">Estimate the number of resources that are required for the entire life cycle of a project.</span></span>
+-   <span data-ttu-id="6246b-113">İlk kaynak atamalarını kullanarak iş kırılım yapısı (WBS) taslağı hazırlamak.</span><span class="sxs-lookup"><span data-stu-id="6246b-113">Draft a work breakdown structure (WBS) by using the initial resource assignments.</span></span>
 
-[![Proje yaşam döngüsü](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg) 
+<span data-ttu-id="6246b-114">[![Proje yaşam döngüsü](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)</span><span class="sxs-lookup"><span data-stu-id="6246b-114">[![Project life cycle](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)</span></span> 
 
-Proje planlama aşaması ilerledikçe, planlanan kaynaklar personelli kaynaklarla değiştirilebilir. Proje yöneticisi, geriye dönerek herhangi bir proje aşamasında kaynak rezervasyonlarını güncelleştirebilir.
+<span data-ttu-id="6246b-115">Proje planlama aşaması ilerledikçe, planlanan kaynaklar personelli kaynaklarla değiştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-115">As project planning proceeds, planned resources can be replaced with staffed resources.</span></span> <span data-ttu-id="6246b-116">Proje yöneticisi, geriye dönerek herhangi bir proje aşamasında kaynak rezervasyonlarını güncelleştirebilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-116">The project manager can also go back and update the resourcing reservations during any of the project stages.</span></span>
 
-## <a name="set-up-project-resources"></a>Proje kaynaklarını ayarlama
-Bir takvim ayarlamanız ve bunu bir personel veya çalışanla ilişkilendirmeniz gerekir. Takvim, projeyi ve projeye rezerve edilen kaynakların çalışma zamanını planlamak için kullanılır. Takvim ayarlama işlemi sırasında, proje yöneticileri kaynak eşitlemeyi kaynak optimizasyonunun bir parçası olarak gerçekleştirebilirler. Takvim planına bağlı olarak, kaynaklara kısıtlamalar getirilebilir. **Takvimler** sayfasından bir takvim ayarlayabilirsiniz. 
+## <a name="set-up-project-resources"></a><span data-ttu-id="6246b-117">Proje kaynaklarını ayarlama</span><span class="sxs-lookup"><span data-stu-id="6246b-117">Set up project resources</span></span>
+<span data-ttu-id="6246b-118">Bir takvim ayarlamanız ve bunu bir personel veya çalışanla ilişkilendirmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="6246b-118">You must set up a calendar and associate it with an employee or a worker.</span></span> <span data-ttu-id="6246b-119">Takvim, projeyi ve projeye rezerve edilen kaynakların çalışma zamanını planlamak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="6246b-119">The calendar is used to schedule the project and the working time of the resources that are reserved for the project.</span></span> <span data-ttu-id="6246b-120">Takvim ayarlama işlemi sırasında, proje yöneticileri kaynak eşitlemeyi kaynak optimizasyonunun bir parçası olarak gerçekleştirebilirler.</span><span class="sxs-lookup"><span data-stu-id="6246b-120">During calendar setup, project managers can perform resource leveling as part of resource optimization.</span></span> <span data-ttu-id="6246b-121">Takvim planına bağlı olarak, kaynaklara kısıtlamalar getirilebilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-121">Based on the calendar schedule, restrictions can be placed on resources.</span></span> <span data-ttu-id="6246b-122">**Takvimler** sayfasından bir takvim ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6246b-122">You can set up a calendar on the **Calendars** page.</span></span> 
 
-Bir çalışanı proje kaynağı olarak ayarlarken, kaynakları ayarladığınız şirkette çalışan çalışanlar arasından seçim yapabilir veya kuruluşunuzdaki diğer şirketlerden çalışanlar seçebilirsiniz. Bunlar şirketlerarası kaynaklardır. Aşağıdaki yordamlar bir çalışanı şirketinizdeki bir proje kaynağı olarak nasıl ayarlayacağınızı ve nasıl bir şirketlerarası proje kaynağı ayarlayabileceğinizi açıklamaktadır.
+<span data-ttu-id="6246b-123">Bir çalışanı proje kaynağı olarak ayarlarken, kaynakları ayarladığınız şirkette çalışan çalışanlar arasından seçim yapabilir veya kuruluşunuzdaki diğer şirketlerden çalışanlar seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6246b-123">When you set up a worker as a project resource, you can select from workers that work in the company for which you are setting up resources or, you can select workers from other companies within your organization.</span></span> <span data-ttu-id="6246b-124">Bunlar şirketlerarası kaynaklardır.</span><span class="sxs-lookup"><span data-stu-id="6246b-124">These are intercompany resources.</span></span> <span data-ttu-id="6246b-125">Aşağıdaki yordamlar bir çalışanı şirketinizdeki bir proje kaynağı olarak nasıl ayarlayacağınızı ve nasıl bir şirketlerarası proje kaynağı ayarlayabileceğinizi açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="6246b-125">The following procedures explain how to set up a worker as a project resource within your company and how to set up an intercompany project resource.</span></span>
 
-### <a name="set-up-a-worker-as-a-project-resource"></a>Bir çalışanı proje kaynağı olarak ayarlama
+### <a name="set-up-a-worker-as-a-project-resource"></a><span data-ttu-id="6246b-126">Bir çalışanı proje kaynağı olarak ayarlama</span><span class="sxs-lookup"><span data-stu-id="6246b-126">Set up a worker as a project resource</span></span>
 
-1.  **Çalışanlar** sayfasındaki **Çalışanlar** listesinde proje kaynağı olarak eklediğiniz çalışanı seçin ve çalışan kaydını açın.
-2.  Eylem Bölmesinde **Proje** &gt; **Ayar** &gt; **Proje ayarı**'na tıklayın.
-3.  Bir takvim seçin ve sayfayı kapatın.
+1.  <span data-ttu-id="6246b-127">**Çalışanlar** sayfasındaki **Çalışanlar** listesinde proje kaynağı olarak eklediğiniz çalışanı seçin ve çalışan kaydını açın.</span><span class="sxs-lookup"><span data-stu-id="6246b-127">On the **Workers** page, in the **Workers** list, select the worker that you're adding as a project resource, and open the worker record.</span></span>
+2.  <span data-ttu-id="6246b-128">Eylem Bölmesinde **Proje** &gt; **Ayar** &gt; **Proje ayarı**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-128">On the Action Pane, click **Project** &gt; **Setup** &gt; **Project setup**.</span></span>
+3.  <span data-ttu-id="6246b-129">Bir takvim seçin ve sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="6246b-129">Select a calendar, and then close the page.</span></span>
 
-Bir kaynak için ön atama türü olarak varsayılan projeleri de belirtebilirsiniz. Ön atamalar, kaynak yöneticisi veya proje yöneticisi, kaynağın hangi projede çalışacağını önceden bildiğinde kullanılır. Ön atamalar için bir proje sponsoru veya müşterinin talebi de temel alınabilir. Bir projeyi önceden atamak için **Projeleri ata** sayfasındaki **Projeler** sekmesinde bulunan **Kalan projeler** listesinden ilgili projeyi seçin.
+<span data-ttu-id="6246b-130">Bir kaynak için ön atama türü olarak varsayılan projeleri de belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6246b-130">You can also specify default projects for a resource as a type of pre-assignment.</span></span> <span data-ttu-id="6246b-131">Ön atamalar, kaynak yöneticisi veya proje yöneticisi, kaynağın hangi projede çalışacağını önceden bildiğinde kullanılır.</span><span class="sxs-lookup"><span data-stu-id="6246b-131">Pre-assignments can be used when the resource manager or project manager knows which projects the resource will be working on in advance.</span></span> <span data-ttu-id="6246b-132">Ön atamalar için bir proje sponsoru veya müşterinin talebi de temel alınabilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-132">Pre-assignments can also be based on the request of a project sponsor or customer.</span></span> <span data-ttu-id="6246b-133">Bir projeyi önceden atamak için **Projeleri ata** sayfasındaki **Projeler** sekmesinde bulunan **Kalan projeler** listesinden ilgili projeyi seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-133">To pre-assign a project, on the **Assign projects** page, on the **Projects** tab, in the **Remaining projects** list, select the appropriate project.</span></span>
 
-### <a name="set-up-an-intercompany-resource"></a>Şirketlerarası bir kaynak ayarlama
+### <a name="set-up-an-intercompany-resource"></a><span data-ttu-id="6246b-134">Şirketlerarası bir kaynak ayarlama</span><span class="sxs-lookup"><span data-stu-id="6246b-134">Set up an intercompany resource</span></span>
 
-Bir çalışanı şirketlerarası kaynak olarak ayarladığınızda, ayarı ödünç veren ve ödünç alan şirkette tamamlamanız gerekir. 
+<span data-ttu-id="6246b-135">Bir çalışanı şirketlerarası kaynak olarak ayarladığınızda, ayarı ödünç veren ve ödünç alan şirkette tamamlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="6246b-135">When you set up a worker as an intercompany resource, you must complete the setup in the lending company and the borrowing company.</span></span> 
 
-**Ödünç veren şirkette:**
+<span data-ttu-id="6246b-136">**Ödünç veren şirkette:**</span><span class="sxs-lookup"><span data-stu-id="6246b-136">**In the lending company:**</span></span>
 
-1.  Finance and Operations'da, ödünç veren şirketin seçildiğini doğrulayın ve ardından yukarıdaki "Bir çalışanı proje kaynağı olarak ayarlama" yordamını tamamlayın.
-2.  **Genel muhasebe **&gt; **Deftere nakil kurulumu **&gt;**Şirketlerarası muhasebe**'ye gidin. **Yeni**'ye tıklayın.
-3.  **Tüzel kişilik kimliği **alanında, ödünç veren şirketi seçin. Kalan alanları uygun şekilde doldurun ve **Kaydet**'e tıklayın.
-4.  **Proje yönetimi ve muhasebe** **&gt;Ayar **&gt; **Fiyatlar ** &gt; **Transfer fiyatı** öğesine gidin.** **
-5.  **Transfer fiyatı **formunda, **Yeni**'ye tıklayın ve **Ödünç alan tüzel kişilik **alanında, ilgili şirketi seçin.
-6.  Ödünç alan şirkete yalnızca bölümün başında oluşturulan kaynağı ödünç vermek istiyorsanız, **Kaynak** alanında, oluşturduğunuz kaynak adını seçin. Şirketteki tüm kaynakları ödünç alan şirketin kullanımına sunmak istiyorsanız, **Kaynak ** alanını boş bırakın.
-7.  **Proje yönetimi ve muhasebe **&gt; **Kurulum **&gt; **Proje yönetimi ve muhasebe parametreleri**'ne gidin ve **Şirketlerarası **sekmesinde, **Şirketlerarası kaynak planlamayı ve zaman çizelgelerini etkinleştir **alanını **Evet** olarak ayarlayın.
+1.  <span data-ttu-id="6246b-137">Finance and Operations'da, ödünç veren şirketin seçildiğini doğrulayın ve ardından yukarıdaki "Bir çalışanı proje kaynağı olarak ayarlama" yordamını tamamlayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-137">In Finance and Operations, verify that the lending company is selected, and then complete the procedure above, "Set up a worker as a project resource."</span></span>
+2.  <span data-ttu-id="6246b-138">**Genel muhasebe **&gt; **Deftere nakil kurulumu **&gt;**Şirketlerarası muhasebe**'ye gidin.</span><span class="sxs-lookup"><span data-stu-id="6246b-138">Go to **General ledger **&gt; **Posting setup **&gt; **Intercompany accounting**.</span></span> <span data-ttu-id="6246b-139">**Yeni**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-139">Click **New**.</span></span>
+3.  <span data-ttu-id="6246b-140">**Tüzel kişilik kimliği **alanında, ödünç veren şirketi seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-140">In the **Legal entity ID **field, select the lending company.</span></span> <span data-ttu-id="6246b-141">Kalan alanları uygun şekilde doldurun ve **Kaydet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-141">Fill in the remaining fields as appropriate, and then click **Save**.</span></span>
+4.  <span data-ttu-id="6246b-142">**Proje yönetimi ve muhasebe** **&gt;Ayar **&gt; **Fiyatlar ** &gt; **Transfer fiyatı** öğesine gidin.**</span><span class="sxs-lookup"><span data-stu-id="6246b-142">Go the **Project management and accounting **&gt; **Setup **&gt; **Prices ** &gt; **Transfer price**.**</span></span> **
+5.  <span data-ttu-id="6246b-143">**Transfer fiyatı **formunda, **Yeni**'ye tıklayın ve **Ödünç alan tüzel kişilik **alanında, ilgili şirketi seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-143">On the **Transfer price **form, click **New**, and in the **Borrowing legal entity **field, select the appropriate company.</span></span>
+6.  <span data-ttu-id="6246b-144">Ödünç alan şirkete yalnızca bölümün başında oluşturulan kaynağı ödünç vermek istiyorsanız, **Kaynak** alanında, oluşturduğunuz kaynak adını seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-144">If you want to only loan the borrowing company the resource that you created at the beginning of this section, in the **Resource** field, select the name of the resource that you created.</span></span> <span data-ttu-id="6246b-145">Şirketteki tüm kaynakları ödünç alan şirketin kullanımına sunmak istiyorsanız, **Kaynak ** alanını boş bırakın.</span><span class="sxs-lookup"><span data-stu-id="6246b-145">If you want to make all resources in the company available to the borrowing company, leave the **Resource **field blank.</span></span>
+7.  <span data-ttu-id="6246b-146">**Proje yönetimi ve muhasebe **&gt; **Kurulum **&gt; **Proje yönetimi ve muhasebe parametreleri**'ne gidin ve **Şirketlerarası **sekmesinde, **Şirketlerarası kaynak planlamayı ve zaman çizelgelerini etkinleştir **alanını **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-146">Go to **Project management and accounting **&gt; **Setup **&gt; **Project management and accounting parameters**, and on the **Intercompany **tab, set the **Enable intercompany resource scheduling and timesheets **field to **Yes**.</span></span>
 
-**Ödünç alan şirkette:**
+<span data-ttu-id="6246b-147">**Ödünç alan şirkette:**</span><span class="sxs-lookup"><span data-stu-id="6246b-147">**In the borrowing company:**</span></span>
 
-1.  **Proje yönetimi ve muhasebe** &gt; **Proje kaynakları** &gt; **Kaynaklar listesi**'ne gidin.
-2.  Arama filtresi alanına, ödünç alan şirketin kaynak listesine adın eklendiğini doğrulamak için önceki yordamda ödünç veren şirket için oluşturduğunuz kaynağın adını girin.
+1.  <span data-ttu-id="6246b-148">**Proje yönetimi ve muhasebe** &gt; **Proje kaynakları** &gt; **Kaynaklar listesi**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="6246b-148">Go to **Project management and accounting** &gt; **Project resources** &gt; **Resources list**.</span></span>
+2.  <span data-ttu-id="6246b-149">Arama filtresi alanına, ödünç alan şirketin kaynak listesine adın eklendiğini doğrulamak için önceki yordamda ödünç veren şirket için oluşturduğunuz kaynağın adını girin.</span><span class="sxs-lookup"><span data-stu-id="6246b-149">In the search filter, enter the name of the resource that you created in the previous procedure for the lending company to verify that the name is included in the resource list for the borrowing company.</span></span>
 
-## <a name="manage-resource-competencies"></a>Kaynak yetkinliklerini yönetme
-Kaynak uzmanlıkları, kaynak yönetiminin önemli bir parçasıdır. Yetkinlikler, doğru yetenek, sertifika ve proje deneyimi açısından uygun dengeye sahip kaynakların belirlenmesinde temel olarak kullanılabilir. Bu bilgiyi her kaynak için ayarlamanız ve düzenli olarak güncellemeniz gerekir. Bu şekilde, proje kaynak ataması sırasında belirli kaynak yetkinlikleri eşleştiğinde becerileri en üst seviyeye çıkarabilirsiniz. [![Beceri, sertifika, eğitim ve proje deneyimi örnekleri](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg) 
+## <a name="manage-resource-competencies"></a><span data-ttu-id="6246b-150">Kaynak yetkinliklerini yönetme</span><span class="sxs-lookup"><span data-stu-id="6246b-150">Manage resource competencies</span></span>
+<span data-ttu-id="6246b-151">Kaynak uzmanlıkları, kaynak yönetiminin önemli bir parçasıdır.</span><span class="sxs-lookup"><span data-stu-id="6246b-151">Resource competencies are an essential part of resource management.</span></span> <span data-ttu-id="6246b-152">Yetkinlikler, doğru yetenek, sertifika ve proje deneyimi açısından uygun dengeye sahip kaynakların belirlenmesinde temel olarak kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-152">Competencies can be used as a baseline to determine resources that have the correct balance of skills, education, certification, and project experience.</span></span> <span data-ttu-id="6246b-153">Bu bilgiyi her kaynak için ayarlamanız ve düzenli olarak güncellemeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="6246b-153">You should set up this information for each resource and update it on a regular basis.</span></span> <span data-ttu-id="6246b-154">Bu şekilde, proje kaynak ataması sırasında belirli kaynak yetkinlikleri eşleştiğinde becerileri en üst seviyeye çıkarabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6246b-154">In this way, you can maximize capabilities when specific resource competencies are matched during project resource assignment.</span></span> <span data-ttu-id="6246b-155">[![Beceri, sertifika, eğitim ve proje deneyimi örnekleri](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)</span><span class="sxs-lookup"><span data-stu-id="6246b-155">[![Examples of skills, certifications, education, and project experience](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)</span></span> 
 
-Aşağıdaki yordamlar bir kaynak için bazı yetkinliklerin nasıl ayarlanacağını açıklar. 
+<span data-ttu-id="6246b-156">Aşağıdaki yordamlar bir kaynak için bazı yetkinliklerin nasıl ayarlanacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="6246b-156">The following procedures explain how to set up some of the competencies for a resource.</span></span> 
 
-Bir çalışan için yetkinlikleri ayarlamak üzere, İnsan kaynaklarındaki **Çalışanlar** liste sayfasını veya Proje yönetimi ve muhasebedeki **Kaynaklar** listesi sayfasını kullanabilirsiniz. Aşağıdaki yordamlar için İnsan kaynaklarındaki **Çalışanlar** listesi sayfasını kullanılır.
+<span data-ttu-id="6246b-157">Bir çalışan için yetkinlikleri ayarlamak üzere, İnsan kaynaklarındaki **Çalışanlar** liste sayfasını veya Proje yönetimi ve muhasebedeki **Kaynaklar** listesi sayfasını kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6246b-157">To set up competencies for a worker, you can use either the **Workers** list page in Human resources or the **Resources** list page in Project management and accounting.</span></span> <span data-ttu-id="6246b-158">Aşağıdaki yordamlar için İnsan kaynaklarındaki **Çalışanlar** listesi sayfasını kullanılır.</span><span class="sxs-lookup"><span data-stu-id="6246b-158">For the following procedures, the **Workers** list page in Human resources is used.</span></span>
 
-### <a name="set-up-competencies-certificates"></a>Yetkinlikleri ayarlama: Sertifikalar
+### <a name="set-up-competencies-certificates"></a><span data-ttu-id="6246b-159">Yetkinlikleri ayarlama: Sertifikalar</span><span class="sxs-lookup"><span data-stu-id="6246b-159">Set up competencies: Certificates</span></span>
 
-1.  **Çalışanlar** listesi sayfasında, sertifika bilgisi ekleyeceğiniz çalışanın satırını seçin.
-2.  Eylem Bölmesinde, **Çalışanlar** sekmesindeki **Yetkinlikler** gurubunda **Sertifikalar**'a tıklayın.
-3.  **Yeni**'ye tıklayın.
-4.  **Sertifika türü** alanında **PMP**'yi seçin.
-5.  **Başlangıç tarihi** alanında, **1/10/2015** tarihini seçin.
-6.  **Kaydet**'e tıklayıp sayfayı kapatın.
+1.  <span data-ttu-id="6246b-160">**Çalışanlar** listesi sayfasında, sertifika bilgisi ekleyeceğiniz çalışanın satırını seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-160">On the **Workers** list page, select the line of the worker that you're adding certificate information for.</span></span>
+2.  <span data-ttu-id="6246b-161">Eylem Bölmesinde, **Çalışanlar** sekmesindeki **Yetkinlikler** gurubunda **Sertifikalar**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-161">On the Action Pane, on the **Worker** tab, in the **Competencies** group, click **Certificates**.</span></span>
+3.  <span data-ttu-id="6246b-162">**Yeni**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-162">Click **New**.</span></span>
+4.  <span data-ttu-id="6246b-163">**Sertifika türü** alanında **PMP**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-163">In the **Certificate type** field, select **PMP**.</span></span>
+5.  <span data-ttu-id="6246b-164">**Başlangıç tarihi** alanında, **1/10/2015** tarihini seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-164">In the **Start date** field, select **10/1/2015**.</span></span>
+6.  <span data-ttu-id="6246b-165">**Kaydet**'e tıklayıp sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="6246b-165">Click **Save**, and then close the page.</span></span>
 
-### <a name="set-up-competencies-skills"></a>Yetenekleri ayarlama: Beceriler
+### <a name="set-up-competencies-skills"></a><span data-ttu-id="6246b-166">Yetenekleri ayarlama: Beceriler</span><span class="sxs-lookup"><span data-stu-id="6246b-166">Set up competencies: Skills</span></span>
 
-1.  **Çalışanlar** listesi sayfasında, önceki yordamda kullanmış olduğunuz çalışanın hala seçili olduğundan emin olun. Ardından Eylem Bölmesinde, **Çalışanlar** sekmesindeki **Yetkinlikler** gurubunda **Beceriler**'e tıklayın.
-2.  **Yeni**'ye tıklayın.
-3.  **Beceri** alanında **Proje yönetimi**'ni seçin.
-4.  **Düzey** alanında **5 Uzman**'ı seçin.
-5.  **Düzey tarihi** alanında **14/1/2014** tarihini seçin.
-6.  **Deneyim yıl sayısı** alanına **10** girin.
-7.  **Kaydet**'e tıklayıp sayfayı kapatın.
+1.  <span data-ttu-id="6246b-167">**Çalışanlar** listesi sayfasında, önceki yordamda kullanmış olduğunuz çalışanın hala seçili olduğundan emin olun.</span><span class="sxs-lookup"><span data-stu-id="6246b-167">On the **Workers** list page, make sure that the worker that you used in the previous procedure is still selected.</span></span> <span data-ttu-id="6246b-168">Ardından Eylem Bölmesinde, **Çalışanlar** sekmesindeki **Yetkinlikler** gurubunda **Beceriler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-168">Then, on the Action Pane, on the **Worker** tab, in the **Competencies** group, click **Skills**.</span></span>
+2.  <span data-ttu-id="6246b-169">**Yeni**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-169">Click **New**.</span></span>
+3.  <span data-ttu-id="6246b-170">**Beceri** alanında **Proje yönetimi**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-170">In the **Skill** field, select **Project management**.</span></span>
+4.  <span data-ttu-id="6246b-171">**Düzey** alanında **5 Uzman**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-171">In the **Level** field, select **5 Expert**.</span></span>
+5.  <span data-ttu-id="6246b-172">**Düzey tarihi** alanında **14/1/2014** tarihini seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-172">In the **Level date** field, select **1-/14/2014**.</span></span>
+6.  <span data-ttu-id="6246b-173">**Deneyim yıl sayısı** alanına **10** girin.</span><span class="sxs-lookup"><span data-stu-id="6246b-173">In the **Years of experience** field, enter **10**.</span></span>
+7.  <span data-ttu-id="6246b-174">**Kaydet**'e tıklayıp sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="6246b-174">Click **Save**, and then close the page.</span></span>
 
-## <a name="create-a-new-project"></a>Yeni proje oluştur
-1.  **Proje yönetimi ve muhasebe** &gt; **Çalışma alanları** &gt; **Proje yönetimi**'ne tıklayın.
-2.  **Yeni proje**'ye tıklayın ve şu değerleri girin:
-    -   **Proje türü** - Zaman ve malzeme
-    -   **Proje adı:** - XYZ Yükseltme Aşaması 2
-    -   **Project grubu:** TM\_WIP
-    -   **Proje sözleşme kodu:** - 00000002
-3.  **Proje oluştur**'a tıklayın.
+## <a name="create-a-new-project"></a><span data-ttu-id="6246b-175">Yeni proje oluştur</span><span class="sxs-lookup"><span data-stu-id="6246b-175">Create a new project</span></span>
+1.  <span data-ttu-id="6246b-176">**Proje yönetimi ve muhasebe** &gt; **Çalışma alanları** &gt; **Proje yönetimi**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-176">Click **Project management and accounting** &gt; **Workspaces** &gt; **Project management**.</span></span>
+2.  <span data-ttu-id="6246b-177">**Yeni proje**'ye tıklayın ve şu değerleri girin:</span><span class="sxs-lookup"><span data-stu-id="6246b-177">Click **New project**, and enter the following values:</span></span>
+    -   <span data-ttu-id="6246b-178">**Proje türü** - Zaman ve malzeme</span><span class="sxs-lookup"><span data-stu-id="6246b-178">**Project type** - Time and material</span></span>
+    -   <span data-ttu-id="6246b-179">**Proje adı:** - XYZ Yükseltme Aşaması 2</span><span class="sxs-lookup"><span data-stu-id="6246b-179">**Project name** - XYZ Upgrade Phase 2</span></span>
+    -   <span data-ttu-id="6246b-180">**Project grubu:** TM\_WIP</span><span class="sxs-lookup"><span data-stu-id="6246b-180">**Project group** - TM\_WIP</span></span>
+    -   <span data-ttu-id="6246b-181">**Proje sözleşme kodu:** - 00000002</span><span class="sxs-lookup"><span data-stu-id="6246b-181">**Project contract ID**  - 00000002</span></span>
+3.  <span data-ttu-id="6246b-182">**Proje oluştur**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-182">Click **Create project**.</span></span>
 
-### <a name="assign-a-resource-to-a-project"></a>Projeye kaynak atama
+### <a name="assign-a-resource-to-a-project"></a><span data-ttu-id="6246b-183">Projeye kaynak atama</span><span class="sxs-lookup"><span data-stu-id="6246b-183">Assign a resource to a project</span></span>
 
-1.  **İnsan kaynakları** &gt; **Çalışanlar** &gt; **Çalışanlar**'a tıklayın.
-2.  **Çalışanlar** listesinde, daha önce yetkinlikleri ayarladığınız çalışanın kaydını seçin ve çalışan kaydını açın.
-3.  Eylem Bölmesinde, **Proje** sekmesindeki **Ayar** gurubunda **Projeleri ata**'ya tıklayın.
-4.  **Kaynak doğrulama proje atamaları** sayfasında, **Projeler** sekmesine tıklayın.
-5.  **Projeyi seçilen projelere ekle**'de,  XYZ Yükseltme Aşaması 2 projesini filtreleyin.
-6.  **Kalan projeler** bölmesinde, bir proje seçin ve ardından **Seçilen projeler** bölmesine eklemek için oka tıklayın.
-7.  Sayfayı kapatın.
+1.  <span data-ttu-id="6246b-184">**İnsan kaynakları** &gt; **Çalışanlar** &gt; **Çalışanlar**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-184">Click **Human resources** &gt; **Workers** &gt; **Workers**.</span></span>
+2.  <span data-ttu-id="6246b-185">**Çalışanlar** listesinde, daha önce yetkinlikleri ayarladığınız çalışanın kaydını seçin ve çalışan kaydını açın.</span><span class="sxs-lookup"><span data-stu-id="6246b-185">In the **Workers** list, select the record for the worker that you previously set up competencies for, and open the worker record.</span></span>
+3.  <span data-ttu-id="6246b-186">Eylem Bölmesinde, **Proje** sekmesindeki **Ayar** gurubunda **Projeleri ata**'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-186">On the Action Pane, on the **Project** tab, in the **Setup** group, click **Assign projects**.</span></span>
+4.  <span data-ttu-id="6246b-187">**Kaynak doğrulama proje atamaları** sayfasında, **Projeler** sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-187">On the **Resource validation project assignments** page, click the **Projects** tab.</span></span>
+5.  <span data-ttu-id="6246b-188">**Projeyi seçilen projelere ekle**'de,  XYZ Yükseltme Aşaması 2 projesini filtreleyin.</span><span class="sxs-lookup"><span data-stu-id="6246b-188">In the **Add the project to selected projects**, filter on the project, XYZ Upgrade Phase 2</span></span>
+6.  <span data-ttu-id="6246b-189">**Kalan projeler** bölmesinde, bir proje seçin ve ardından **Seçilen projeler** bölmesine eklemek için oka tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-189">In the **Remaining projects** pane, select a project, and then click the arrow to add it to the **Selected projects** pane.</span></span>
+7.  <span data-ttu-id="6246b-190">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="6246b-190">Close the page.</span></span>
 
-Gerekirse, kaynak için kategoriler de atayabilirsiniz. Kategori türü Maliyet veya Gelir'dir. Bu kuruluş tarafından belirlenir. Kaynak için atanan kategori yoksa, Finance and Operations maliyet ve gelir için saat fiyatlarında varsayılan kategoriyi arayacaktır.
+<span data-ttu-id="6246b-191">Gerekirse, kaynak için kategoriler de atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6246b-191">If needed, you can also assign categories for a resource.</span></span> <span data-ttu-id="6246b-192">Kategori türü Maliyet veya Gelir'dir.</span><span class="sxs-lookup"><span data-stu-id="6246b-192">The category type is either Cost or Revenue.</span></span> <span data-ttu-id="6246b-193">Bu kuruluş tarafından belirlenir.</span><span class="sxs-lookup"><span data-stu-id="6246b-193">This is determined by your organization.</span></span> <span data-ttu-id="6246b-194">Kaynak için atanan kategori yoksa, Finance and Operations maliyet ve gelir için saat fiyatlarında varsayılan kategoriyi arayacaktır.</span><span class="sxs-lookup"><span data-stu-id="6246b-194">If there are no assigned categories for the resource, Finance and Operations will look up the default category on hour prices for cost and revenue.</span></span>
 
-### <a name="set-up-project-resource-and-role-characteristics"></a>Proje kaynağını ve rol özelliklerini ayarlama
+### <a name="set-up-project-resource-and-role-characteristics"></a><span data-ttu-id="6246b-195">Proje kaynağını ve rol özelliklerini ayarlama</span><span class="sxs-lookup"><span data-stu-id="6246b-195">Set up project resource and role characteristics</span></span>
 
-Proje yöneticisi, bir proje için gerekli olan rolleri oluşturmak için proje kaynak oluşturma işlevini kullanabilir. Roller, teyit edilen kaynaklar kaynaklar rezerve edilirken hala bilinmediğinde kullanılabilir. Roller geçici olarak planlanan kaynak olarak kullanılabilir; bu durumda proje planlama aşamalarına devam edebilirsiniz. 
+<span data-ttu-id="6246b-196">Proje yöneticisi, bir proje için gerekli olan rolleri oluşturmak için proje kaynak oluşturma işlevini kullanabilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-196">A project manager can use the project resourcing functionality to create the roles that are required for the project.</span></span> <span data-ttu-id="6246b-197">Roller, teyit edilen kaynaklar kaynaklar rezerve edilirken hala bilinmediğinde kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-197">Roles can be used when confirmed resources are still unknown when reserving resources.</span></span> <span data-ttu-id="6246b-198">Roller geçici olarak planlanan kaynak olarak kullanılabilir; bu durumda proje planlama aşamalarına devam edebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6246b-198">Roles can be temporarily reserved as planned resources, so that you can continue the project planning stages.</span></span> 
 
-[![Rol örneği](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+<span data-ttu-id="6246b-199">[![Rol örneği](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg)</span><span class="sxs-lookup"><span data-stu-id="6246b-199">[![Example of a role](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg)</span></span> 
 
-**Senaryo:** Contoso, onaylanmış bir proje tüzüğü olan bir Zaman ve malzeme projesini tamamlamak üzere işe alınmıştır. Yardımcı proje müdürü, projenin amacını doldurmaya devam etmektedir. Kaynak yöneticisi, yeni projede çalışmak üzere rezerve edilecek belirli kaynakları belirlemektedir. Proje sponsorunun istediği rollerden biri, projenin kritik yapısı nedeniyle, Kıdemli proje yöneticisi konumudur. Kaynak yöneticisinin yeni bir kaynak alması ve yardımcı proje yöneticisi için proje planlama sırasında kaynak bilgisi gerekli olduğundan, rolü sistemde tanımlamalıdır. 
+<span data-ttu-id="6246b-200">**Senaryo:** Contoso, onaylanmış bir proje tüzüğü olan bir Zaman ve malzeme projesini tamamlamak üzere işe alınmıştır.</span><span class="sxs-lookup"><span data-stu-id="6246b-200">**Scenario:** Contoso was hired to complete a Time and material project that has an approved project charter.</span></span> <span data-ttu-id="6246b-201">Yardımcı proje müdürü, projenin amacını doldurmaya devam etmektedir.</span><span class="sxs-lookup"><span data-stu-id="6246b-201">The junior project manager is still completing the scope of the project.</span></span> <span data-ttu-id="6246b-202">Kaynak yöneticisi, yeni projede çalışmak üzere rezerve edilecek belirli kaynakları belirlemektedir.</span><span class="sxs-lookup"><span data-stu-id="6246b-202">The resource manager is currently identifying specific resources that will be reserved to work on the new project.</span></span> <span data-ttu-id="6246b-203">Proje sponsorunun istediği rollerden biri, projenin kritik yapısı nedeniyle, Kıdemli proje yöneticisi konumudur.</span><span class="sxs-lookup"><span data-stu-id="6246b-203">One of the roles that the project sponsor requested, because of the critical nature of the project, is the Senior project manager.</span></span> <span data-ttu-id="6246b-204">Kaynak yöneticisinin yeni bir kaynak alması ve yardımcı proje yöneticisi için proje planlama sırasında kaynak bilgisi gerekli olduğundan, rolü sistemde tanımlamalıdır.</span><span class="sxs-lookup"><span data-stu-id="6246b-204">The resource manager must acquire the new resource and define the role in the system in case the junior project manager requires the resource information during the project planning.</span></span> 
 
-Aşağıdaki adımlarda, kaynak yöneticisinin Kıdemli proje yöneticisi rolünü nasıl ayarlayabileceği ve kaynak özelliklerini bununla nasıl ilişkilendirebileceği gösterilmektedir. Daha sonra, rol istenen kaynak yetkinlikleriyle eşleşen kullanılabilir kaynakları aramak için kullanılabilir.
+<span data-ttu-id="6246b-205">Aşağıdaki adımlarda, kaynak yöneticisinin Kıdemli proje yöneticisi rolünü nasıl ayarlayabileceği ve kaynak özelliklerini bununla nasıl ilişkilendirebileceği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="6246b-205">The following steps show how the resource manager can set up the Senior project manager role and associate resource characteristics with it.</span></span> <span data-ttu-id="6246b-206">Daha sonra, rol istenen kaynak yetkinlikleriyle eşleşen kullanılabilir kaynakları aramak için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-206">Later, the role can be used to search for available resources that match the required resource competencies.</span></span>
 
-1.  **Proje yönetimi ve muhasebe** &gt; **Ayar** &gt; **Kaynaklar** &gt; **Rolleri ayarla**'ya tıklayın.
-2.  **Yeni**'ye tıklayın ve şu değerleri girin:
-    -   **Rol Kimliği:** - Kıdemli Proje Yöneticisi
-    -   **Açıklama:** - Kıdemli Proje Yöneticisi
-3.  **Oluştur**'a tıklayın.
-4.  **Kıdemli Proje Yöneticisi** rolünü seçip **Özellikleri yapılandır**'a tıklayın.
-5.  **Özelliklerin türü** alanında, **Beceri**'yi seçin.
-6.  **Kullanılabilir özellikler** alanına, aradığınız beceriyi girin.
-7.  **Özellik türü** alanında **Sertifika**'yı seçin.
-8.  **Kullanılabilir özellikler** alanına, aradığınız sertifika türünü girin.
-9.  **Tamam**'a tıklayıp sayfayı kapatın.
+1.  <span data-ttu-id="6246b-207">**Proje yönetimi ve muhasebe** &gt; **Ayar** &gt; **Kaynaklar** &gt; **Rolleri ayarla**'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-207">Click **Project management and accounting** &gt; **Setup** &gt; **Resources** &gt; **Setup roles**.</span></span>
+2.  <span data-ttu-id="6246b-208">**Yeni**'ye tıklayın ve şu değerleri girin:</span><span class="sxs-lookup"><span data-stu-id="6246b-208">Click **New**, and enter the following values:</span></span>
+    -   <span data-ttu-id="6246b-209">**Rol Kimliği:** - Kıdemli Proje Yöneticisi</span><span class="sxs-lookup"><span data-stu-id="6246b-209">**Role ID** - Senior Project Manager</span></span>
+    -   <span data-ttu-id="6246b-210">**Açıklama:** - Kıdemli Proje Yöneticisi</span><span class="sxs-lookup"><span data-stu-id="6246b-210">**Description** - Senior Project Manager</span></span>
+3.  <span data-ttu-id="6246b-211">**Oluştur**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-211">Click **Create**.</span></span>
+4.  <span data-ttu-id="6246b-212">**Kıdemli Proje Yöneticisi** rolünü seçip **Özellikleri yapılandır**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-212">Select the **Senior Project Manager** role, and then click **Configure characteristics**.</span></span>
+5.  <span data-ttu-id="6246b-213">**Özelliklerin türü** alanında, **Beceri**'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-213">In the **Characteristics type** field, select **Skill**.</span></span>
+6.  <span data-ttu-id="6246b-214">**Kullanılabilir özellikler** alanına, aradığınız beceriyi girin.</span><span class="sxs-lookup"><span data-stu-id="6246b-214">In the **Available characteristics** field, enter the skill that you're searching for.</span></span>
+7.  <span data-ttu-id="6246b-215">**Özellik türü** alanında **Sertifika**'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-215">In the **Characteristic type** field, select **Certificate**.</span></span>
+8.  <span data-ttu-id="6246b-216">**Kullanılabilir özellikler** alanına, aradığınız sertifika türünü girin.</span><span class="sxs-lookup"><span data-stu-id="6246b-216">In the **Available characteristics** field, enter the certificate type to search for.</span></span>
+9.  <span data-ttu-id="6246b-217">**Tamam**'a tıklayıp sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="6246b-217">Click **OK**, and close the page.</span></span>
 
-### <a name="assign-a-project-resource-to-a-project"></a>Projeye proje kaynağı atama
+### <a name="assign-a-project-resource-to-a-project"></a><span data-ttu-id="6246b-218">Projeye proje kaynağı atama</span><span class="sxs-lookup"><span data-stu-id="6246b-218">Assign a project resource to a project</span></span>
 
-1.  **Proje yönetimi ve muhasebe** &gt; **Ortak** &gt; **Projeler** &gt; **Tüm projeler**'i seçin ve **XYZ Yükseltme Aşaması 2** projesini açın.
-2.  **Proje ekibi ve planlama** sekmesinde **Ekle**'ye tıklayın.
-3.  **Rol** alanında **Ekip üyesi**'ni seçin.
-4.  **Takvimden rezerve et**'e tıklayın.
-5.  **Kaynak kullanılabilirliği** sayfasında, **Görünüm ayarları**'na tıklayın.
-6.  **Görünüm ayarlarını ayarla** sayfasına şu değerleri girin:
-    -   **Tarih aralığı görünüm biçimi:** - Gün
-    -   **Uygunluk açıklamalarını görüntüle:** - Evet
-    -   **Kalan kapasiteyi görüntüle:** - Evet
-7.  Kaynak listesinde, bir kaynak seçin.
-8.  **Kesin rezervasyon** &gt; **Tam kapasite**'ye tıklayın.
-9.  Sayfayı kapatın.
+1.  <span data-ttu-id="6246b-219">**Proje yönetimi ve muhasebe** &gt; **Ortak** &gt; **Projeler** &gt; **Tüm projeler**'i seçin ve **XYZ Yükseltme Aşaması 2** projesini açın.</span><span class="sxs-lookup"><span data-stu-id="6246b-219">Click **Project management and accounting** &gt; **Common** &gt; **Projects** &gt; **All projects**, and open the **XYZ Upgrade Phase 2** project.</span></span>
+2.  <span data-ttu-id="6246b-220">**Proje ekibi ve planlama** sekmesinde **Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-220">On the **Project team and scheduling** tab, click **Add**.</span></span>
+3.  <span data-ttu-id="6246b-221">**Rol** alanında **Ekip üyesi**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-221">In the **Role** field, select **Team member**.</span></span>
+4.  <span data-ttu-id="6246b-222">**Takvimden rezerve et**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-222">Click **Book from calendar**.</span></span>
+5.  <span data-ttu-id="6246b-223">**Kaynak kullanılabilirliği** sayfasında, **Görünüm ayarları**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-223">On the **Resource availability** page, click **View settings**.</span></span>
+6.  <span data-ttu-id="6246b-224">**Görünüm ayarlarını ayarla** sayfasına şu değerleri girin:</span><span class="sxs-lookup"><span data-stu-id="6246b-224">On the **Adjust view settings** page, enter the following values:</span></span>
+    -   <span data-ttu-id="6246b-225">**Tarih aralığı görünüm biçimi:** - Gün</span><span class="sxs-lookup"><span data-stu-id="6246b-225">**Format for date range view** - Day</span></span>
+    -   <span data-ttu-id="6246b-226">**Uygunluk açıklamalarını görüntüle:** - Evet</span><span class="sxs-lookup"><span data-stu-id="6246b-226">**Display availability descriptions** - Yes</span></span>
+    -   <span data-ttu-id="6246b-227">**Kalan kapasiteyi görüntüle:** - Evet</span><span class="sxs-lookup"><span data-stu-id="6246b-227">**Display remaining capacity** - Yes</span></span>
+7.  <span data-ttu-id="6246b-228">Kaynak listesinde, bir kaynak seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-228">In the list of resources, select a resource.</span></span>
+8.  <span data-ttu-id="6246b-229">**Kesin rezervasyon** &gt; **Tam kapasite**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-229">Click **Hard book** &gt; **Full capacity**.</span></span>
+9.  <span data-ttu-id="6246b-230">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="6246b-230">Close the page.</span></span>
 
-### <a name="assign-a-resource-to-a-default-role"></a>Varsayılan bir role kaynak atama
+### <a name="assign-a-resource-to-a-default-role"></a><span data-ttu-id="6246b-231">Varsayılan bir role kaynak atama</span><span class="sxs-lookup"><span data-stu-id="6246b-231">Assign a resource to a default role</span></span>
 
-Proje veya kaynak yöneticilerine yardımcı olmak için, bir proje için rezerve edilebilecek kaynaklarla ilgili daha ayrıntılı inceleme yapabilirsiniz. Varsayılan bir rolü mevcut bir kaynakla veya yeni edinilen bir kaynakla ilişkilendirebilirsiniz. örneğin, Daniel işe alındığında, İş analisti rolünü yerine getirmek için beceri ve deneyimi vardı. Kaynak yöneticisi, bu rolü Daniel'ın varsayılan rolü olarak atadı. Bu nedenle, kaynak yöneticisi Daniel'ı projelerde çalışmak üzere kullanılabilir olan iş analistleri havuzuna eklendi. 
+<span data-ttu-id="6246b-232">Proje veya kaynak yöneticilerine yardımcı olmak için, bir proje için rezerve edilebilecek kaynaklarla ilgili daha ayrıntılı inceleme yapabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6246b-232">To help project or resource managers, you can drill down further on the resources that can be reserved for a project.</span></span> <span data-ttu-id="6246b-233">Varsayılan bir rolü mevcut bir kaynakla veya yeni edinilen bir kaynakla ilişkilendirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6246b-233">You can associate a default role with an existing resource or a newly acquired resource.</span></span> <span data-ttu-id="6246b-234">örneğin, Daniel işe alındığında, İş analisti rolünü yerine getirmek için beceri ve deneyimi vardı.</span><span class="sxs-lookup"><span data-stu-id="6246b-234">For example, when Daniel was hired, he had the experience and skills to fill the Business analyst role.</span></span> <span data-ttu-id="6246b-235">Kaynak yöneticisi, bu rolü Daniel'ın varsayılan rolü olarak atadı.</span><span class="sxs-lookup"><span data-stu-id="6246b-235">The resource manager assigned this role as Daniel's default role.</span></span> <span data-ttu-id="6246b-236">Bu nedenle, kaynak yöneticisi Daniel'ı projelerde çalışmak üzere kullanılabilir olan iş analistleri havuzuna eklendi.</span><span class="sxs-lookup"><span data-stu-id="6246b-236">Therefore, the resource manager added Daniel to a pool of business analysts who are available to work on projects.</span></span> 
 
-Kaynak rezervasyonu sırasında, proje yöneticileri projede çalışabilecek rol kaynaklarını filtreleyebilir. Bu bilgiyi, kaynak karşılama sırasında çok ölçütlü karar analizi gerçekleştirirken bir ölçüt olarak kullanabilirler. Ayrıca, söz konusu proje için belirli becerileri, eğitimi ve deneyimi olan kaynakları aramak için filtre uygulamak amacıyla diğer kaynak özelliklerini ekleyebilirler. 
+<span data-ttu-id="6246b-237">Kaynak rezervasyonu sırasında, proje yöneticileri projede çalışabilecek rol kaynaklarını filtreleyebilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-237">During resource reservation, project managers can filter the role resources that are available to work on projects.</span></span> <span data-ttu-id="6246b-238">Bu bilgiyi, kaynak karşılama sırasında çok ölçütlü karar analizi gerçekleştirirken bir ölçüt olarak kullanabilirler.</span><span class="sxs-lookup"><span data-stu-id="6246b-238">They can use this information as one criterion when they perform multi-criteria decision analysis during resource fulfillment.</span></span> <span data-ttu-id="6246b-239">Ayrıca, söz konusu proje için belirli becerileri, eğitimi ve deneyimi olan kaynakları aramak için filtre uygulamak amacıyla diğer kaynak özelliklerini ekleyebilirler.</span><span class="sxs-lookup"><span data-stu-id="6246b-239">They can also add other resource characteristics to the filter to search for resources that have specific skills, education, and experience for a given project.</span></span> 
 
-**Senaryo:** Onaylanmış bir proje başlamıştır ve Kıdemli proje yöneticisi rolü proje planlama aşamasında planlanan kaynak olarak rezerve edilmiştir. Kaynak yöneticisi, Kıdemli proje yöneticisi rolünü yerine getirecek bir kaynak edinmiştir.
+<span data-ttu-id="6246b-240">**Senaryo:** Onaylanmış bir proje başlamıştır ve Kıdemli proje yöneticisi rolü proje planlama aşamasında planlanan kaynak olarak rezerve edilmiştir.</span><span class="sxs-lookup"><span data-stu-id="6246b-240">**Scenario:** An approved project has started, and the Senior project manager role was reserved as a planned resource during the project planning stage.</span></span> <span data-ttu-id="6246b-241">Kaynak yöneticisi, Kıdemli proje yöneticisi rolünü yerine getirecek bir kaynak edinmiştir.</span><span class="sxs-lookup"><span data-stu-id="6246b-241">The resource manager has now acquired a resource to fulfill the Senior project manager role.</span></span>
 
-1.  **Proje yönetimi ve muhasebe** &gt; **Proje kaynakları** &gt; **Kaynaklar listesi**'ne tıklayın.
-2.  **Kaynak** listesinden, **Daniel Goldschmidt**'i seçin.
-3.  **Proje kaynağı** &gt; **Koru** &gt; **Kaynak rolü**'ne tıklayın.
-4.  **Yeni**'ye tıklayın ve şu değerleri girin:
-    -   **Yürürlüğe giriş:** - (Güncel tarih)
-    -   **Süre sonu:** - Hiçbir zaman
-    -   **Rol:** - Kıdemli Proje Yöneticisi
-5.  **Kaydet**'e tıklayıp sayfayı kapatın.
-6.  **Yetkinlikler** sekmesinde, **ProjectMgmt** becerisini ve **PMP** sertifikasını ekleyin.
+1.  <span data-ttu-id="6246b-242">**Proje yönetimi ve muhasebe** &gt; **Proje kaynakları** &gt; **Kaynaklar listesi**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-242">Click **Project management and accounting** &gt; **Project resources** &gt; **Resources list**.</span></span>
+2.  <span data-ttu-id="6246b-243">**Kaynak** listesinden, **Daniel Goldschmidt**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-243">In the **Resource** list, select **Daniel Goldschmidt**.</span></span>
+3.  <span data-ttu-id="6246b-244">**Proje kaynağı** &gt; **Koru** &gt; **Kaynak rolü**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-244">Click **Project resource** &gt; **Maintain** &gt; **Resource role**.</span></span>
+4.  <span data-ttu-id="6246b-245">**Yeni**'ye tıklayın ve şu değerleri girin:</span><span class="sxs-lookup"><span data-stu-id="6246b-245">Click **New**, and enter the following values:</span></span>
+    -   <span data-ttu-id="6246b-246">**Yürürlüğe giriş:** - (Güncel tarih)</span><span class="sxs-lookup"><span data-stu-id="6246b-246">**Effective** - (The current date)</span></span>
+    -   <span data-ttu-id="6246b-247">**Süre sonu:** - Hiçbir zaman</span><span class="sxs-lookup"><span data-stu-id="6246b-247">**Expiration** - Never</span></span>
+    -   <span data-ttu-id="6246b-248">**Rol:** - Kıdemli Proje Yöneticisi</span><span class="sxs-lookup"><span data-stu-id="6246b-248">**Role** - Senior Project Manager</span></span>
+5.  <span data-ttu-id="6246b-249">**Kaydet**'e tıklayıp sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="6246b-249">Click **Save**, and then close the page.</span></span>
+6.  <span data-ttu-id="6246b-250">**Yetkinlikler** sekmesinde, **ProjectMgmt** becerisini ve **PMP** sertifikasını ekleyin.</span><span class="sxs-lookup"><span data-stu-id="6246b-250">On the **Competencies** tab, add the **ProjectMgmt** skill and the **PMP** certificate.</span></span>
 
-## <a name="set-up-role-based-pricing"></a>Rol tabanlı fiyatlandırmayı ayarlama
-Tüm satış, maliyet ve transfer fiyatları roller için ayarlanabilir.
+## <a name="set-up-role-based-pricing"></a><span data-ttu-id="6246b-251">Rol tabanlı fiyatlandırmayı ayarlama</span><span class="sxs-lookup"><span data-stu-id="6246b-251">Set up role-based pricing</span></span>
+<span data-ttu-id="6246b-252">Tüm satış, maliyet ve transfer fiyatları roller için ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-252">All cost, sales, and transfer prices can be set up for roles.</span></span>
 
-1.  **Proje yönetimi ve muhasebe** &gt; **Ayar** &gt; **Fiyatlar** &gt; **Satış fiyatı (saat)**'na tıklayın.
-2.  **Yeni**'ye tıklayın.
-3.  Bir yürürlük tarihi girin.
-4.  **Rol** sütunundan bir rol seçin.
-5.  **Fiyatlandırma** sütununa, seçilen kaynak rolü için bir fiyat girin.
+1.  <span data-ttu-id="6246b-253">**Proje yönetimi ve muhasebe** &gt; **Ayar** &gt; **Fiyatlar** &gt; **Satış fiyatı (saat)**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-253">Click **Project management and accounting** &gt; **Setup** &gt; **Prices** &gt; **Sales price (hour)**.</span></span>
+2.  <span data-ttu-id="6246b-254">**Yeni**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-254">Click **New**.</span></span>
+3.  <span data-ttu-id="6246b-255">Bir yürürlük tarihi girin.</span><span class="sxs-lookup"><span data-stu-id="6246b-255">Enter an effective date.</span></span>
+4.  <span data-ttu-id="6246b-256">**Rol** sütunundan bir rol seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-256">In the **Role** column, select a role.</span></span>
+5.  <span data-ttu-id="6246b-257">**Fiyatlandırma** sütununa, seçilen kaynak rolü için bir fiyat girin.</span><span class="sxs-lookup"><span data-stu-id="6246b-257">In the **Pricing** column, enter a price for the selected resource role.</span></span>
 
-## <a name="form-a-project-team"></a>Proje ekibi oluşturma
-Bir projedeki önceden ayarlanmış olan rolleri kullanmak için bir proje yöneticisinin rolleri projeyle ilişkilendirmesi gerekir. Bir proje için birden çok rol atanabilir ve Finance and Operations, karışıklığı önlemek için rezervasyon sırasında bu rolleri otomatik olarak etiketler. Örneğin, proje yöneticisi üç yazılım mühendisi istiyorsa, yazılım mühendisi 1, yazılım mühendisi 2 ve yazılım mühendisi 3 etiketlerine sahip üç Yazılım mühendisi rolü otomatik olarak oluşturulur. Rol için rol özellikleri önceden ayarlanmışsa, kaynak arama sırasında filtre olarak uygulanır. Aramayı daha detaylı hale getirmek için ek özellikler eklenebilir. 
+## <a name="form-a-project-team"></a><span data-ttu-id="6246b-258">Proje ekibi oluşturma</span><span class="sxs-lookup"><span data-stu-id="6246b-258">Form a project team</span></span>
+<span data-ttu-id="6246b-259">Bir projedeki önceden ayarlanmış olan rolleri kullanmak için bir proje yöneticisinin rolleri projeyle ilişkilendirmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="6246b-259">To use the roles that were previously set up in a project, a project manager must associate the roles with the project.</span></span> <span data-ttu-id="6246b-260">Bir proje için birden çok rol atanabilir ve Finance and Operations, karışıklığı önlemek için rezervasyon sırasında bu rolleri otomatik olarak etiketler.</span><span class="sxs-lookup"><span data-stu-id="6246b-260">Multiple roles can be assigned for a project, and Finance and Operations automatically labels these roles during reservation to prevent confusion.</span></span> <span data-ttu-id="6246b-261">Örneğin, proje yöneticisi üç yazılım mühendisi istiyorsa, yazılım mühendisi 1, yazılım mühendisi 2 ve yazılım mühendisi 3 etiketlerine sahip üç Yazılım mühendisi rolü otomatik olarak oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="6246b-261">For example, if the project manager requires three software engineers, three Software engineer roles that have software engineer 1, software engineer 2, and software engineer 3 as their labels are automatically generated.</span></span> <span data-ttu-id="6246b-262">Rol için rol özellikleri önceden ayarlanmışsa, kaynak arama sırasında filtre olarak uygulanır.</span><span class="sxs-lookup"><span data-stu-id="6246b-262">If role characteristics were previously set for the role, they are applied as a filter during searches for a resource.</span></span> <span data-ttu-id="6246b-263">Aramayı daha detaylı hale getirmek için ek özellikler eklenebilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-263">Additional characteristics can be added as required to further refine the search.</span></span> 
 
-Kaynak kullanılabilirliğinin daha iyi görüntülenebilmesi için görüntüleme ayarları özelleştirilebilir. Saatlik, günlük, haftalık, aylık, üç aylık ve yıllık kullanılabilirliği gösterme seçenekleri vardır. Ayrıca, kullanılabilir ve kalan kaynak kapasitesini görüntüleme seçeneği de bulunur. Bu seçenek, faaliyetler veya kaynak kullanılabilirliği için kullanılabilir zamanı tahmin etmeniz gerektiğinde yararlıdır. 
+<span data-ttu-id="6246b-264">Kaynak kullanılabilirliğinin daha iyi görüntülenebilmesi için görüntüleme ayarları özelleştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-264">View settings can also be customized to give a better view of resource availability.</span></span> <span data-ttu-id="6246b-265">Saatlik, günlük, haftalık, aylık, üç aylık ve yıllık kullanılabilirliği gösterme seçenekleri vardır.</span><span class="sxs-lookup"><span data-stu-id="6246b-265">There are options to show hourly, daily, weekly, monthly, quarterly, and annual availability.</span></span> <span data-ttu-id="6246b-266">Ayrıca, kullanılabilir ve kalan kaynak kapasitesini görüntüleme seçeneği de bulunur.</span><span class="sxs-lookup"><span data-stu-id="6246b-266">There is also an option to show available and remaining capacity on resources.</span></span> <span data-ttu-id="6246b-267">Bu seçenek, faaliyetler veya kaynak kullanılabilirliği için kullanılabilir zamanı tahmin etmeniz gerektiğinde yararlıdır.</span><span class="sxs-lookup"><span data-stu-id="6246b-267">This option is useful for time management when you're estimating available time for activities or resource availability.</span></span> 
 
-Proje yöneticisi sayfadan bir rol seçebilir ve gereksinimi karşılayan kullanılabilir bir kaynak varsa, rolü doldurmak için bir kaynak rezerve etmeyi seçebilir. Kaynakların, planlama aşamasının bu noktasında rezerve edilmemesi gerektiğini unutmayın. Bir WBS oluşturduğunuzda, rolleri projedeki personelli kaynaklarla değiştirebilirsiniz. Roller, WBS'deki personelli kaynaklarla değiştirilirse, kaynak ayarı proje ekibi listesini ve planlamasını otomatik olarak güncelleştirir. 
+<span data-ttu-id="6246b-268">Proje yöneticisi sayfadan bir rol seçebilir ve gereksinimi karşılayan kullanılabilir bir kaynak varsa, rolü doldurmak için bir kaynak rezerve etmeyi seçebilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-268">The project manager can select a role on the page and then, if there is an available resource that fits the requirement, select to reserve a resource to fill the role.</span></span> <span data-ttu-id="6246b-269">Kaynakların, planlama aşamasının bu noktasında rezerve edilmemesi gerektiğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-269">Note that the resources don't have to be reserved at this point during the planning stage.</span></span> <span data-ttu-id="6246b-270">Bir WBS oluşturduğunuzda, rolleri projedeki personelli kaynaklarla değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6246b-270">When you create a WBS, you can replace roles with staffed resources for the project.</span></span> <span data-ttu-id="6246b-271">Roller, WBS'deki personelli kaynaklarla değiştirilirse, kaynak ayarı proje ekibi listesini ve planlamasını otomatik olarak güncelleştirir.</span><span class="sxs-lookup"><span data-stu-id="6246b-271">If roles are replaced with staffed resources in the WBS, the resource setup automatically updates the project team listing and scheduling.</span></span> 
 
-[![Hem rolleri hem de gerçek kaynakları içeren proje ekibi listesi](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+<span data-ttu-id="6246b-272">[![Hem rolleri hem de gerçek kaynakları içeren proje ekibi listesi](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg)</span><span class="sxs-lookup"><span data-stu-id="6246b-272">[![Project team listing that includes both roles and actual resources](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg)</span></span> 
 
-Proje yöneticisinin bir proje için bir kaynağı rezerve etmek için kullanabileceği **Kalan kapasite**, **Tam kapasite**, **Kapasite yüzdesi** ve **Saatleri belirtme** gibi çeşitli seçenekleri vardır. Kaynak atamalarını değiştirirseniz, bu rezerve etme seçenekleri herhangi bir zamanda iptal edilebilir. İki tür rezervasyon desteklenir:
+<span data-ttu-id="6246b-273">Proje yöneticisinin bir proje için bir kaynağı rezerve etmek için kullanabileceği **Kalan kapasite**, **Tam kapasite**, **Kapasite yüzdesi** ve **Saatleri belirtme** gibi çeşitli seçenekleri vardır.</span><span class="sxs-lookup"><span data-stu-id="6246b-273">The project manager has various options for booking a resource for a project, such as **Remaining capacity**, **Full capacity**, **Capacity percentage**, and **Specify hours**.</span></span> <span data-ttu-id="6246b-274">Kaynak atamalarını değiştirirseniz, bu rezerve etme seçenekleri herhangi bir zamanda iptal edilebilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-274">These booking options can be canceled at any time if resource assignments change.</span></span> <span data-ttu-id="6246b-275">İki tür rezervasyon desteklenir:</span><span class="sxs-lookup"><span data-stu-id="6246b-275">Two types of booking are supported:</span></span>
 
--   **Kesin Rezervasyon** – Kaynak rezervasyonu onaylanmış ve belirtilen süre için görevde çalışmak üzere doğrulanmıştır.
--   **Geçici Rezervasyon** – Kaynak rezervasyonları geçici olarak belirtilen süre için görevde çalışmak üzere ayarlanmıştır.
+-   <span data-ttu-id="6246b-276">**Kesin Rezervasyon** – Kaynak rezervasyonu onaylanmış ve belirtilen süre için görevde çalışmak üzere doğrulanmıştır.</span><span class="sxs-lookup"><span data-stu-id="6246b-276">**Hard Book** – The resource reservation was approved and confirmed to work on the engagement for the specified duration.</span></span>
+-   <span data-ttu-id="6246b-277">**Geçici Rezervasyon** – Kaynak rezervasyonları geçici olarak belirtilen süre için görevde çalışmak üzere ayarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="6246b-277">**Soft book** – The resource reservations was tentatively set to work on the engagement for the specified duration.</span></span>
 
-Aşağıdaki yordamda bir proje ekibinin nasıl oluşturulacağı açıklanmaktadır.
+<span data-ttu-id="6246b-278">Aşağıdaki yordamda bir proje ekibinin nasıl oluşturulacağı açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="6246b-278">The following procedure explains how to create a project team.</span></span>
 
-### <a name="create-a-project-team"></a>Proje ekibi oluşturma
+### <a name="create-a-project-team"></a><span data-ttu-id="6246b-279">Proje ekibi oluşturma</span><span class="sxs-lookup"><span data-stu-id="6246b-279">Create a project team</span></span>
 
-1.  **Tüm projeler** liste sayfasında bir proje seçin ve ardından **Düzenle**'ye tıklayın.
-2.  **Proje ekibi ve planlama** sekmesindeki **Bitiş tarihini planla** alanına, planlanan başlama tarihi artı bir ay girin. Örneğin, planlama başlangıç tarihi 24 Haziran 2017 ise (24/06/2017), **24/07/2017** girin.
-3.  **Ekle**'ye tıklayın.
-4.  **Projeye roller ekle** bölmesindeki **Rol** alanında **Kıdemli Proje Yöneticisi**'ni seçin.
-5.  **Gerekli yetkinlikler**'e tıklayın.
-6.  **Özelliklerini seçin** sayfasında, Kıdemli proje yöneticisi rolü için önceden ayarlamış olduğunuz özellikler varsayılan olarak seçilir. **Tamam** düğmesine tıklayın.
-7.  **Projeye roller ekle** sayfasındaki **Kaynak sayısı** alanına **1** girin.
-8.  **Kaynak** alanında, arama gerekli yetkinliklere sahip tüm kaynakları gösterir. **Daniel Goldschmidt**'i seçin ve **Oluştur**'a tıklayın.
-9.  **Proje** sayfasında **Ekle**'ye tıklayın.
-10. **Projeye roller ekle** bölmesindeki **Rol** alanında **Ekip üyesi**'ni seçin. **Kaynak sayısı** alanına **5** girin.
-11. **Oluştur**'a tıklayın.
-12. **Projeler** sayfasında **Kaynağı karşıla**'ya tıklayın.
+1.  <span data-ttu-id="6246b-280">**Tüm projeler** liste sayfasında bir proje seçin ve ardından **Düzenle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-280">On the **All projects** list page, select a project, and then click **Edit**.</span></span>
+2.  <span data-ttu-id="6246b-281">**Proje ekibi ve planlama** sekmesindeki **Bitiş tarihini planla** alanına, planlanan başlama tarihi artı bir ay girin.</span><span class="sxs-lookup"><span data-stu-id="6246b-281">On the **Project team and scheduling** tab, in the **Schedule end date** field, enter the schedule start date plus one month.</span></span> <span data-ttu-id="6246b-282">Örneğin, planlama başlangıç tarihi 24 Haziran 2017 ise (24/06/2017), **24/07/2017** girin.</span><span class="sxs-lookup"><span data-stu-id="6246b-282">For example, if the schedule start date is June 24, 2017 (24/06/2017), enter **24/07/2017**.</span></span>
+3.  <span data-ttu-id="6246b-283">**Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-283">Click **Add**.</span></span>
+4.  <span data-ttu-id="6246b-284">**Projeye roller ekle** bölmesindeki **Rol** alanında **Kıdemli Proje Yöneticisi**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-284">In the **Add roles to the project** pane, in the **Role** field, select **Senior Project Manager**.</span></span>
+5.  <span data-ttu-id="6246b-285">**Gerekli yetkinlikler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-285">Click **Required competencies**.</span></span>
+6.  <span data-ttu-id="6246b-286">**Özelliklerini seçin** sayfasında, Kıdemli proje yöneticisi rolü için önceden ayarlamış olduğunuz özellikler varsayılan olarak seçilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-286">On the **Choose characteristics** page, the characteristics that you previously set for the Senior project manager role are selected by default.</span></span> <span data-ttu-id="6246b-287">**Tamam** düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-287">Click **OK**.</span></span>
+7.  <span data-ttu-id="6246b-288">**Projeye roller ekle** sayfasındaki **Kaynak sayısı** alanına **1** girin.</span><span class="sxs-lookup"><span data-stu-id="6246b-288">On the **Add roles to project** page, in the **Number of resources** field, enter **1**.</span></span>
+8.  <span data-ttu-id="6246b-289">**Kaynak** alanında, arama gerekli yetkinliklere sahip tüm kaynakları gösterir.</span><span class="sxs-lookup"><span data-stu-id="6246b-289">In the **Resource** field, the lookup shows all resources that have the required competencies.</span></span> <span data-ttu-id="6246b-290">**Daniel Goldschmidt**'i seçin ve **Oluştur**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-290">Select **Daniel Goldschmidt**, and then click **Create**.</span></span>
+9.  <span data-ttu-id="6246b-291">**Proje** sayfasında **Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-291">On the **Project** page, click **Add**.</span></span>
+10. <span data-ttu-id="6246b-292">**Projeye roller ekle** bölmesindeki **Rol** alanında **Ekip üyesi**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-292">In the **Add roles to the project** pane, in the **Role** field, select **Team member**.</span></span> <span data-ttu-id="6246b-293">**Kaynak sayısı** alanına **5** girin.</span><span class="sxs-lookup"><span data-stu-id="6246b-293">In the **Number of resources** field, enter **5**.</span></span>
+11. <span data-ttu-id="6246b-294">**Oluştur**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-294">Click **Create**.</span></span>
+12. <span data-ttu-id="6246b-295">**Projeler** sayfasında **Kaynağı karşıla**'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-295">On the **Projects** page, click **Fulfill resource**.</span></span>
 
-## <a name="resource-capacity-synchronization"></a>Kaynak kapasitesi eşitleme
-Kaynak eşitleme işlemleri, takvim ve temel takvim bilgilerini, proje kaynak planlamasına doğru çekilmesinin sağlanmasına yardımcı olur. Takvim değiştirilse, işlemler proje kaynak planlama için gerekli güncelleştirmeleri yapar. İşlemler, takvim kaynak bilgileri önceden eşitlendiği için performansın artmasına da yardımcı olur. Bu durumda, kaynak planlama bilgilerindeki güncelleştirmeler daha hızlı gerçekleşir. İşlemleri tek tek planlamak yerine toplu iş olarak planlamanızı öneririz. Aksi halde, birisinin bilgiler son eşitlendiğinde dahil edilen tarihleri unutma riski vardır. Dahil olan tarihler kullanılmazsa, tarih eşitleme sırasında boşluklar oluşabilir.
+## <a name="resource-capacity-synchronization"></a><span data-ttu-id="6246b-296">Kaynak kapasitesi eşitleme</span><span class="sxs-lookup"><span data-stu-id="6246b-296">Resource capacity synchronization</span></span>
+<span data-ttu-id="6246b-297">Kaynak eşitleme işlemleri, takvim ve temel takvim bilgilerini, proje kaynak planlamasına doğru çekilmesinin sağlanmasına yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="6246b-297">The processes for resource synchronization helps guarantee that the calendar and base calendar information trickles down into project resource scheduling.</span></span> <span data-ttu-id="6246b-298">Takvim değiştirilse, işlemler proje kaynak planlama için gerekli güncelleştirmeleri yapar.</span><span class="sxs-lookup"><span data-stu-id="6246b-298">If the calendar is changed, the processes make the required updates to the scheduling of project resources.</span></span> <span data-ttu-id="6246b-299">İşlemler, takvim kaynak bilgileri önceden eşitlendiği için performansın artmasına da yardımcı olur. Bu durumda, kaynak planlama bilgilerindeki güncelleştirmeler daha hızlı gerçekleşir.</span><span class="sxs-lookup"><span data-stu-id="6246b-299">The processes also help improve performance, because the calendar’s resource information is synchronized in advance, so that updates to resource scheduling information occur more quickly.</span></span> <span data-ttu-id="6246b-300">İşlemleri tek tek planlamak yerine toplu iş olarak planlamanızı öneririz.</span><span class="sxs-lookup"><span data-stu-id="6246b-300">We recommend that you schedule the processes as a batch instead of one at a time.</span></span> <span data-ttu-id="6246b-301">Aksi halde, birisinin bilgiler son eşitlendiğinde dahil edilen tarihleri unutma riski vardır.</span><span class="sxs-lookup"><span data-stu-id="6246b-301">Otherwise, there is a risk that someone will forget the inclusive dates when the information was last synchronized.</span></span> <span data-ttu-id="6246b-302">Dahil olan tarihler kullanılmazsa, tarih eşitleme sırasında boşluklar oluşabilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-302">If inclusive dates aren't used, gaps can occur during date synchronization.</span></span>
 
 ### <a name="calendar-synchronizationmediaprojectresourcing04-1024x471jpg"></a>![Takvim eşitleme](./media/projectresourcing04-1024x471.jpg)
 
-**Kaynak kapasite toplamlarını eşitle**
+<span data-ttu-id="6246b-304">**Kaynak kapasite toplamlarını eşitle**</span><span class="sxs-lookup"><span data-stu-id="6246b-304">**Synchronize resource capacity roll-ups**</span></span>
 
-Eşitleme işlemi, tüm kaynak takvim bilgilerini eşitlemek üzere tasarlanmıştır. Bu bilgiler, projenin Kaynak takvimi kapasite tablosundaki değişikliklerle ilgili temel takvim bilgilerini içerir. Projeye yeni kaynaklar eklenirse, eşitleme güncellenen takvim bilgilerinin kullanılmasının sağlanmasına yardımcı olur. Eşitleme herhangi bir zamanda yapılabilir. 
+<span data-ttu-id="6246b-305">Eşitleme işlemi, tüm kaynak takvim bilgilerini eşitlemek üzere tasarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="6246b-305">The synchronization process is designed to synchronize all resource calendar information.</span></span> <span data-ttu-id="6246b-306">Bu bilgiler, projenin Kaynak takvimi kapasite tablosundaki değişikliklerle ilgili temel takvim bilgilerini içerir.</span><span class="sxs-lookup"><span data-stu-id="6246b-306">This information includes base calendar information about any changes to the project’s Resource calendar capacity table.</span></span> <span data-ttu-id="6246b-307">Projeye yeni kaynaklar eklenirse, eşitleme güncellenen takvim bilgilerinin kullanılmasının sağlanmasına yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="6246b-307">If new resources are added in the project, synchronization helps ensure that the updated calendar information is available.</span></span> <span data-ttu-id="6246b-308">Eşitleme herhangi bir zamanda yapılabilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-308">This synchronization can be done at any time.</span></span> 
 
-Toplu iş kullanmanızı öneririz. Eşitleme kapasite rezervasyonunda seçenekler bulunmaktadır.
+<span data-ttu-id="6246b-309">Toplu iş kullanmanızı öneririz.</span><span class="sxs-lookup"><span data-stu-id="6246b-309">We recommend that you use a batch.</span></span> <span data-ttu-id="6246b-310">Eşitleme kapasite rezervasyonunda seçenekler bulunmaktadır.</span><span class="sxs-lookup"><span data-stu-id="6246b-310">The options are available in synchronizing capacity reservations.</span></span>
 
--   **Proje yönetimi ve muhasebe** &gt; **Periyodik** &gt; **Kapasite eşitleme** &gt; **Kaynakların kapasite toplamlarını eşitle**'ye tıklayın.
+-   <span data-ttu-id="6246b-311">**Proje yönetimi ve muhasebe** &gt; **Periyodik** &gt; **Kapasite eşitleme** &gt; **Kaynakların kapasite toplamlarını eşitle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-311">Click **Project management and accounting** &gt; **Periodic** &gt; **Capacity synchronization** &gt; **Synchronize resources capacity roll-ups**.</span></span>
 
-| Seçenek | Açıklama                                                                                                                                                                                          |
+| <span data-ttu-id="6246b-312">Seçenek</span><span class="sxs-lookup"><span data-stu-id="6246b-312">Option</span></span> | <span data-ttu-id="6246b-313">Açıklama</span><span class="sxs-lookup"><span data-stu-id="6246b-313">Description</span></span>                                                                                                                                                                                          |
 |--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Evet    | Tüm kaynak verilerini takvimle ve temel takvim bilgileriyle eşitleyin ve proje kaynak kapasitesi takvimindeki tüm bilgileri değiştirin.                                                  |
-| Hayır     | Tarih aralığı kodu ve belirtilen başlangıç ve bitiş tarihlerini temel alarak kaynak verilerini eşitleyin. Bu seçenek, mevcut verileri kaldırmaz ve yalnızca yeni eklenen kaynaklarla ilgili bilgileri güncelleştirir. |
+| <span data-ttu-id="6246b-314">Evet</span><span class="sxs-lookup"><span data-stu-id="6246b-314">Yes</span></span>    | <span data-ttu-id="6246b-315">Tüm kaynak verilerini takvimle ve temel takvim bilgileriyle eşitleyin ve proje kaynak kapasitesi takvimindeki tüm bilgileri değiştirin.</span><span class="sxs-lookup"><span data-stu-id="6246b-315">Synchronize all resource data with calendar and base calendar information, and replace all information in the project's resource capacity calendar.</span></span>                                                  |
+| <span data-ttu-id="6246b-316">Hayır</span><span class="sxs-lookup"><span data-stu-id="6246b-316">No</span></span>     | <span data-ttu-id="6246b-317">Tarih aralığı kodu ve belirtilen başlangıç ve bitiş tarihlerini temel alarak kaynak verilerini eşitleyin.</span><span class="sxs-lookup"><span data-stu-id="6246b-317">Synchronize resource data, based on the date interval code, and the specified start and end dates.</span></span> <span data-ttu-id="6246b-318">Bu seçenek, mevcut verileri kaldırmaz ve yalnızca yeni eklenen kaynaklarla ilgili bilgileri güncelleştirir.</span><span class="sxs-lookup"><span data-stu-id="6246b-318">This option doesn't remove existing data, and updates information only for newly added resources.</span></span> |
 
-[![Eşitleme işlemi](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+<span data-ttu-id="6246b-319">[![Eşitleme işlemi](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)</span><span class="sxs-lookup"><span data-stu-id="6246b-319">[![Synchronization process](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)</span></span>
 
-## <a name="set-up-roles-on-wbs-templates"></a>WBS şablonlarında rolleri ayarlama
-Proje yöneticileri, yeni projeler için WBS oluştururken uygulayabilecekleri WBS şablonlarını ayarlayabilirler. Proje yöneticileri bir şablon oluştururken roller ekleyebilirler. WBS şablonuna rol atamak için aşağıdaki yordamı kullanın.** **
+## <a name="set-up-roles-on-wbs-templates"></a><span data-ttu-id="6246b-320">WBS şablonlarında rolleri ayarlama</span><span class="sxs-lookup"><span data-stu-id="6246b-320">Set up roles on WBS templates</span></span>
+<span data-ttu-id="6246b-321">Proje yöneticileri, yeni projeler için WBS oluştururken uygulayabilecekleri WBS şablonlarını ayarlayabilirler.</span><span class="sxs-lookup"><span data-stu-id="6246b-321">Project managers can set up WBS templates that they can apply when they create a WBS for new projects.</span></span> <span data-ttu-id="6246b-322">Proje yöneticileri bir şablon oluştururken roller ekleyebilirler.</span><span class="sxs-lookup"><span data-stu-id="6246b-322">Project managers can add roles when they create a template.</span></span> <span data-ttu-id="6246b-323">WBS şablonuna rol atamak için aşağıdaki yordamı kullanın.** **</span><span class="sxs-lookup"><span data-stu-id="6246b-323">Use the following procedure to assign a role to a WBS template.** **</span></span>
 
-1.  **Proje yönetimi ve muhasebe** &gt; **Ayar** &gt; **Projeler** &gt; **İş kırılım yapısı şablonları**'na tıklayın.
-2.  Seçilen İKY şablonu için **Ayrıntıları** tıklayın.
-3.  Listeden bir görev seçin ve **Rol** alanında, göreve atamak için bir rol seçin.
+1.  <span data-ttu-id="6246b-324">**Proje yönetimi ve muhasebe** &gt; **Ayar** &gt; **Projeler** &gt; **İş kırılım yapısı şablonları**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-324">Click **Project management and accounting** &gt; **Setup** &gt; **Projects** &gt; **Work breakdown structure templates**.</span></span>
+2.  <span data-ttu-id="6246b-325">Seçilen İKY şablonu için **Ayrıntıları** tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-325">Click **Details** for a selected WBS template.</span></span>
+3.  <span data-ttu-id="6246b-326">Listeden bir görev seçin ve **Rol** alanında, göreve atamak için bir rol seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-326">Select a task in the list, and then, in the **Role** field, select a role to assign to the task.</span></span>
 
-### <a name="work-with-a-wbs"></a>İKY ile çalışma
+### <a name="work-with-a-wbs"></a><span data-ttu-id="6246b-327">İKY ile çalışma</span><span class="sxs-lookup"><span data-stu-id="6246b-327">Work with a WBS</span></span>
 
-Yeni bir İKY oluşturabilir veya mevcut bir İKY şablonundan İKY kopyalayabilirsiniz. Proje Yöneticisi, İKY'deki yeni görevlere roller atayarak kaynakları kolayca yönetebilir. Roller, bir kaynak edinildikten veya görevde çalışmak üzere onaylı bir kaynak tanımlandıktan sonra değiştirilebilir. Bu esneklik, proje yöneticilerinin aşağıdaki görevleri gerçekleştirmesine olanak sağlar:
+<span data-ttu-id="6246b-328">Yeni bir İKY oluşturabilir veya mevcut bir İKY şablonundan İKY kopyalayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6246b-328">You can create a new WBS, or you can copy a WBS from an existing WBS template.</span></span> <span data-ttu-id="6246b-329">Proje Yöneticisi, İKY'deki yeni görevlere roller atayarak kaynakları kolayca yönetebilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-329">A project manager can easily manage the resources by assigning roles to new tasks on the WBS.</span></span> <span data-ttu-id="6246b-330">Roller, bir kaynak edinildikten veya görevde çalışmak üzere onaylı bir kaynak tanımlandıktan sonra değiştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-330">Roles can be replaced after a resource is acquired, or after a confirmed resource to work on the task is identified.</span></span> <span data-ttu-id="6246b-331">Bu esneklik, proje yöneticilerinin aşağıdaki görevleri gerçekleştirmesine olanak sağlar:</span><span class="sxs-lookup"><span data-stu-id="6246b-331">This flexibility lets project managers perform the following tasks:</span></span>
 
--   İKY iş paketleri için gereken kaynak sayısını belirlemek.
--   Proje maliyetlerini tahmin etmek.
--   Ön bütçe belirlemek.
--   Roller ve kaynakları temel alarak faaliyet süresini tahmin etmek.
--   Kullanılabilir proje bilgilerine dayanarak bazı proje yönetim planları geliştirmek.
+-   <span data-ttu-id="6246b-332">İKY iş paketleri için gereken kaynak sayısını belirlemek.</span><span class="sxs-lookup"><span data-stu-id="6246b-332">Identify the number of resources that are required for WBS work packages.</span></span>
+-   <span data-ttu-id="6246b-333">Proje maliyetlerini tahmin etmek.</span><span class="sxs-lookup"><span data-stu-id="6246b-333">Estimate project costs.</span></span>
+-   <span data-ttu-id="6246b-334">Ön bütçe belirlemek.</span><span class="sxs-lookup"><span data-stu-id="6246b-334">Determine a preliminary budget.</span></span>
+-   <span data-ttu-id="6246b-335">Roller ve kaynakları temel alarak faaliyet süresini tahmin etmek.</span><span class="sxs-lookup"><span data-stu-id="6246b-335">Estimate activity duration, based on roles and resources.</span></span>
+-   <span data-ttu-id="6246b-336">Kullanılabilir proje bilgilerine dayanarak bazı proje yönetim planları geliştirmek.</span><span class="sxs-lookup"><span data-stu-id="6246b-336">Develop some project management plans, based on the available project information.</span></span>
 
-Kaynak oluşturma işlevinin daha etkin kullanılması için İKY'ye ek seçenekler eklenmiştir.
+<span data-ttu-id="6246b-337">Kaynak oluşturma işlevinin daha etkin kullanılması için İKY'ye ek seçenekler eklenmiştir.</span><span class="sxs-lookup"><span data-stu-id="6246b-337">Additional options have been added in the WBS to better use the resourcing functionality.</span></span>
 
 <table>
 <colgroup>
@@ -266,95 +266,95 @@ Kaynak oluşturma işlevinin daha etkin kullanılması için İKY'ye ek seçenek
 </colgroup>
 <thead>
 <tr class="header">
-<th>Seçenek</th>
-<th>Açıklama</th>
+<th><span data-ttu-id="6246b-338">Seçenek</span><span class="sxs-lookup"><span data-stu-id="6246b-338">Option</span></span></th>
+<th><span data-ttu-id="6246b-339">Açıklama</span><span class="sxs-lookup"><span data-stu-id="6246b-339">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Kaynak atamaları</td>
-<td>İKY'deki görevler için atanan kaynakları, tarihleri, saat sayısını ve rezervasyon türünü görüntüleyin.</td>
+<td><span data-ttu-id="6246b-340">Kaynak atamaları</span><span class="sxs-lookup"><span data-stu-id="6246b-340">Resource assignments</span></span></td>
+<td><span data-ttu-id="6246b-341">İKY'deki görevler için atanan kaynakları, tarihleri, saat sayısını ve rezervasyon türünü görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="6246b-341">View the assigned resources, dates, number of hours, and booking type for tasks on the WBS.</span></span></td>
 </tr>
 <tr class="even">
-<td>Takımı otomatik olarak oluştur</td>
-<td>Görevle ilişkili rolleri kullanarak planlanmış kaynakları otomatik olarak ekleyin. Finance and Operations, rollere göre çok ölçütlü karar analizini kullanarak planlanmış kaynakları otomatik olarak önerir. İKY'deki görevler için roller ve çalışma (saat) ayarlandıktan ve yapı serbest bırakıldıktan sonra, <strong>Ekibi otomatik oluştur</strong>'a tıklayın. Gereken sayıda planlanmış kaynak İKY'ye ve <strong>Proje ve ekip planlama</strong> sekmesine eklenir.</td>
+<td><span data-ttu-id="6246b-342">Takımı otomatik olarak oluştur</span><span class="sxs-lookup"><span data-stu-id="6246b-342">Auto generate team</span></span></td>
+<td><span data-ttu-id="6246b-343">Görevle ilişkili rolleri kullanarak planlanmış kaynakları otomatik olarak ekleyin.</span><span class="sxs-lookup"><span data-stu-id="6246b-343">Automatically add planned resources by using roles that are associated with a task.</span></span> <span data-ttu-id="6246b-344">Finance and Operations, rollere göre çok ölçütlü karar analizini kullanarak planlanmış kaynakları otomatik olarak önerir.</span><span class="sxs-lookup"><span data-stu-id="6246b-344">Finance and Operations automatically suggests planned resources by using multi-criteria decision analysis that is based on roles.</span></span> <span data-ttu-id="6246b-345">İKY'deki görevler için roller ve çalışma (saat) ayarlandıktan ve yapı serbest bırakıldıktan sonra, <strong>Ekibi otomatik oluştur</strong>'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-345">After the roles and effort (hours) have been set for the tasks in a WBS, and the structure has been released, click <strong>Auto generate team</strong>.</span></span> <span data-ttu-id="6246b-346">Gereken sayıda planlanmış kaynak İKY'ye ve <strong>Proje ve ekip planlama</strong> sekmesine eklenir.</span><span class="sxs-lookup"><span data-stu-id="6246b-346">The required number of planned resources is added to the WBS and the <strong>Project and team scheduling</strong> tab.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Kaynak (açılan liste)</td>
-<td><strong>Kaynak atamayı başlat </strong>sayfasında, belirtilen süreye göre kesin rezervasyon veya geçici rezervasyon yapmak için kaynakları seçebilirsiniz. Kaynak faaliyetlerini görmek ve süresini ayarlamak için görüntüleme ayarlarını düzenleyebilirsiniz. Aşağıdaki seçenekleri kullanarak, kaynakları seçebilir ve iş paketi düzeyinde atayabilirsiniz:
+<td><span data-ttu-id="6246b-347">Kaynak (açılan liste)</span><span class="sxs-lookup"><span data-stu-id="6246b-347">Resource (drop-down list)</span></span></td>
+<td><span data-ttu-id="6246b-348"><strong>Kaynak atamayı başlat </strong>sayfasında, belirtilen süreye göre kesin rezervasyon veya geçici rezervasyon yapmak için kaynakları seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6246b-348">On the <strong>Launch resource assignment </strong>page, you can select resources to hard-book or soft-book, based on the specified duration.</span></span> <span data-ttu-id="6246b-349">Kaynak faaliyetlerini görmek ve süresini ayarlamak için görüntüleme ayarlarını düzenleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6246b-349">You can adjust the view settings to see and set the duration of resource activities.</span></span> <span data-ttu-id="6246b-350">Aşağıdaki seçenekleri kullanarak, kaynakları seçebilir ve iş paketi düzeyinde atayabilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="6246b-350">You can select and assign resources at the work package level by using the following options:</span></span>
 <ul>
-<li><strong>Kabul et</strong> – Bir göreve atanan kaynakla ilgili değişiklikleri onaylar.</li>
-<li><strong>İptal et</strong> – Bir göreve atanan kaynakla ilgili değişiklikleri iptal eder.</li>
-<li><strong>Otomatik olarak ata</strong> – Bu seçenek, seçili görevle eşleşen bir role sahip kullanılabilir personelli bir kaynak seçer.</li>
+<li><span data-ttu-id="6246b-351"><strong>Kabul et</strong> – Bir göreve atanan kaynakla ilgili değişiklikleri onaylar.</span><span class="sxs-lookup"><span data-stu-id="6246b-351"><strong>Accept</strong> – Confirm changes to the resource that is assigned to a task.</span></span></li>
+<li><span data-ttu-id="6246b-352"><strong>İptal et</strong> – Bir göreve atanan kaynakla ilgili değişiklikleri iptal eder.</span><span class="sxs-lookup"><span data-stu-id="6246b-352"><strong>Cancel</strong> – Cancel changes to the resource that is assigned to a task.</span></span></li>
+<li><span data-ttu-id="6246b-353"><strong>Otomatik olarak ata</strong> – Bu seçenek, seçili görevle eşleşen bir role sahip kullanılabilir personelli bir kaynak seçer.</span><span class="sxs-lookup"><span data-stu-id="6246b-353"><strong>Assign automatically</strong> – This option selects an available staffed resource with a matching role to the selected task.</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-1.  **Proje yönetimi ve muhasebe** &gt; **Projeler** &gt; **Tüm projeler**'e tıklayın.
-2.  Listeden **XYZ Yükseltme Aşaması 2** projesini seçin.
-3.  **Plan** &gt; **Faaliyetler** &gt; **İş kırılım yapısı**'na tıklayın.
-4.  İKY'ye aşağıdaki düzey bir faaliyetlerini eklemek için **Yeni**'ye tıklayın:
-    -   Başlatma
-    -   Planlama
-    -   Yürütme
-    -   İzleme ve Denetim
-    -   Kapalı
+1.  <span data-ttu-id="6246b-354">**Proje yönetimi ve muhasebe** &gt; **Projeler** &gt; **Tüm projeler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-354">Click **Project management and accounting** &gt; **Projects** &gt; **All projects**.</span></span>
+2.  <span data-ttu-id="6246b-355">Listeden **XYZ Yükseltme Aşaması 2** projesini seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-355">In the list, select the **XYZ Upgrade Phase 2** project.</span></span>
+3.  <span data-ttu-id="6246b-356">**Plan** &gt; **Faaliyetler** &gt; **İş kırılım yapısı**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-356">Click **Plan** &gt; **Activities** &gt; **Work breakdown structure**.</span></span>
+4.  <span data-ttu-id="6246b-357">İKY'ye aşağıdaki düzey bir faaliyetlerini eklemek için **Yeni**'ye tıklayın:</span><span class="sxs-lookup"><span data-stu-id="6246b-357">Click **New** to add the following level-one activities to the WBS:</span></span>
+    -   <span data-ttu-id="6246b-358">Başlatma</span><span class="sxs-lookup"><span data-stu-id="6246b-358">Initiating</span></span>
+    -   <span data-ttu-id="6246b-359">Planlama</span><span class="sxs-lookup"><span data-stu-id="6246b-359">Planning</span></span>
+    -   <span data-ttu-id="6246b-360">Yürütme</span><span class="sxs-lookup"><span data-stu-id="6246b-360">Executing</span></span>
+    -   <span data-ttu-id="6246b-361">İzleme ve Denetim</span><span class="sxs-lookup"><span data-stu-id="6246b-361">Monitoring and Control</span></span>
+    -   <span data-ttu-id="6246b-362">Kapalı</span><span class="sxs-lookup"><span data-stu-id="6246b-362">Close</span></span>
 
-5.  Tarihleri ve çalışmayı (saat) aşağıdaki ekran görüntüsünde gösterildiği şekilde ayarlayın. [![Tarihleri ve çalışmayı ayarlama](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
-6.  **Başlatma** görev satırını seçin, ardından **Rol** alanında **Kıdemli Proje Yöneticisi**'ni seçin.
-7.  **Yayımla**'ya tıklayın.
-8.  Aynı satırda, **Kaynak** alanında **Daniel Goldschmidt**'i seçin.
-9.  **Kabul et**'e tıklayın
-10. **Planlama** görev satırını seçin ve ardından **Rol** alanında **İş analisti**'ni seçin.
-11. **Yayımla**'ya ve ardından **Ekibi otomatik oluştur**'a tıklayın.
-12. Görüntülenen iletişim kutusunda **Evet**'e tıklayın.
-13. **Kaynak** alanında, değerin **İş analisti 1** olduğunu doğrulayın.
-14. **İş analisti 1** kaynağı için aramayı açın ve **Kaynak atama formunu aç**'a tıklayın.
-15. Görev için bir çalışan seçin.
-16. **Geçici atama** &gt; **Tam kapasite**'ye tıklayın.
-17. **Kaydet**'e tıklayıp sayfayı kapatın. 
+5.  <span data-ttu-id="6246b-363">Tarihleri ve çalışmayı (saat) aşağıdaki ekran görüntüsünde gösterildiği şekilde ayarlayın. [![Tarihleri ve çalışmayı ayarlama](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)</span><span class="sxs-lookup"><span data-stu-id="6246b-363">Set the dates and effort (hours), as shown in the following screenshot.[![Setting the dates and effort](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)</span></span>
+6.  <span data-ttu-id="6246b-364">**Başlatma** görev satırını seçin, ardından **Rol** alanında **Kıdemli Proje Yöneticisi**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-364">Select the **Initiating** task line, and then, in the **Role** field, select **Senior Project Manager**.</span></span>
+7.  <span data-ttu-id="6246b-365">**Yayımla**'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-365">Click **Publish**.</span></span>
+8.  <span data-ttu-id="6246b-366">Aynı satırda, **Kaynak** alanında **Daniel Goldschmidt**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-366">On the same line, in the **Resource** field, select **Daniel Goldschmidt**.</span></span>
+9.  <span data-ttu-id="6246b-367">**Kabul et**'e tıklayın</span><span class="sxs-lookup"><span data-stu-id="6246b-367">Click **Accept**.</span></span>
+10. <span data-ttu-id="6246b-368">**Planlama** görev satırını seçin ve ardından **Rol** alanında **İş analisti**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-368">Select the **Planning** task line, and then, in the **Role** field, select **Business analyst**.</span></span>
+11. <span data-ttu-id="6246b-369">**Yayımla**'ya ve ardından **Ekibi otomatik oluştur**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-369">Click **Publish**, and then click **Auto generate team**.</span></span>
+12. <span data-ttu-id="6246b-370">Görüntülenen iletişim kutusunda **Evet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-370">In the dialog box that appears, click **Yes**.</span></span>
+13. <span data-ttu-id="6246b-371">**Kaynak** alanında, değerin **İş analisti 1** olduğunu doğrulayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-371">In the **Resource** field, verify that the value is **Business analyst 1**.</span></span>
+14. <span data-ttu-id="6246b-372">**İş analisti 1** kaynağı için aramayı açın ve **Kaynak atama formunu aç**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-372">For the **Business analyst 1** resource, open the lookup, and click **Launch resource assignments form**.</span></span>
+15. <span data-ttu-id="6246b-373">Görev için bir çalışan seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-373">Select a worker for the task.</span></span>
+16. <span data-ttu-id="6246b-374">**Geçici atama** &gt; **Tam kapasite**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-374">Click **Soft assign** &gt; **Full capacity**.</span></span>
+17. <span data-ttu-id="6246b-375">**Kaydet**'e tıklayıp sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="6246b-375">Click **Save**, and close the page.</span></span> 
 
 > [!NOTE] 
-> Kaynakların sayısı 1'de kaldığı için belirtilen kaynağın artık 2 olduğunu belirten bir uyarı almazsınız.
-18. **İş kırılım yapısı** sayfasında, İKY'deki kaynak atamasını doğrulayın ve **Kaydet**'e tıklayın.
+> <span data-ttu-id="6246b-376">Kaynakların sayısı 1'de kaldığı için belirtilen kaynağın artık 2 olduğunu belirten bir uyarı almazsınız.</span><span class="sxs-lookup"><span data-stu-id="6246b-376">You don't receive a warning that the specified resource is now 2, because the number of resources remains at 1.</span></span>
+18. <span data-ttu-id="6246b-377">**İş kırılım yapısı** sayfasında, İKY'deki kaynak atamasını doğrulayın ve **Kaydet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-377">On the **Work breakdown structure** page, validate the resource assignment on the WBS, and then click **Save**.</span></span>
 
-## <a name="resource-fulfillment-for-planned-resources"></a>Planlanmış kaynaklar için kaynak karşılama
-Proje yöneticisi, bir proje için gerekli kaynak rollerini planlayabilir. Kaynak yöneticisi **Kaynak karşılama** sayfasında planlanan bu kaynakları istek olarak görür ve gerçek kaynakları atayabilir.
+## <a name="resource-fulfillment-for-planned-resources"></a><span data-ttu-id="6246b-378">Planlanmış kaynaklar için kaynak karşılama</span><span class="sxs-lookup"><span data-stu-id="6246b-378">Resource fulfillment for planned resources</span></span>
+<span data-ttu-id="6246b-379">Proje yöneticisi, bir proje için gerekli kaynak rollerini planlayabilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-379">A project manager can plan required resource roles for a project.</span></span> <span data-ttu-id="6246b-380">Kaynak yöneticisi **Kaynak karşılama** sayfasında planlanan bu kaynakları istek olarak görür ve gerçek kaynakları atayabilir.</span><span class="sxs-lookup"><span data-stu-id="6246b-380">The resource manager will see these planned resources as requests on the **Resource fulfillment** page and can assign actual resources.</span></span>
 
-1.  **Proje yönetimi ve muhasebe** &gt; **Projeler** &gt; **Tüm projeler**'e tıklayın.
-2.  Listeden **XYZ Yükseltme Aşaması 2** projesini seçin.
-3.  **Proje**'ye tıklayın.
-4.  **Düzenle**'yi tıklatın.
-5.  **Proje ekibi ve planlama** sekmesinde ** ** **Ekle**'ye tıklayın.
-6.  **Rolleri ekle** iletişim kutusunda **Yazılım geliştiricisi** rolünü seçin.
-7.  **Oluştur**'a tıklayın.
-8.  Proje sayfasını kapatın.
-9.  **Proje yönetimi ve muhasebe** &gt; **Proje kaynakları** &gt; **Kaynak karşılama**'ya tıklayın.
-10. **XYZ Yükseltme projesi Aşama 2** projesi için **Yazılım geliştirici 1**'i seçin.
-11. Bir çalışan seçip **Ata** öğesine tıklayın.
-12. **XYZ Yükseltme projesi Aşama 2** projesi için **Yazılım geliştirici 1** satırının kaldırıldığından emin olun.
-13. **Proje ekibi ve planlama** sekmesinde, **XYZ Yükseltme Aşama2** projesi için, adım 11'de seçtiniz çalışanın **Yazılım geliştiricisi** olarak eklendiğini kontrol edin.
+1.  <span data-ttu-id="6246b-381">**Proje yönetimi ve muhasebe** &gt; **Projeler** &gt; **Tüm projeler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-381">Click **Project management and accounting** &gt; **Projects** &gt; **All projects**.</span></span>
+2.  <span data-ttu-id="6246b-382">Listeden **XYZ Yükseltme Aşaması 2** projesini seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-382">In the list, select the **XYZ Upgrade Phase 2** project.</span></span>
+3.  <span data-ttu-id="6246b-383">**Proje**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-383">Click **Project**.</span></span>
+4.  <span data-ttu-id="6246b-384">**Düzenle**'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="6246b-384">Click **Edit**.</span></span>
+5.  <span data-ttu-id="6246b-385">**Proje ekibi ve planlama** sekmesinde ** ** **Ekle**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-385">On the **Project team and scheduling** tab,** **click **Add**.</span></span>
+6.  <span data-ttu-id="6246b-386">**Rolleri ekle** iletişim kutusunda **Yazılım geliştiricisi** rolünü seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-386">In the **Add roles** dialog box, select the **Software developer** role.</span></span>
+7.  <span data-ttu-id="6246b-387">**Oluştur**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-387">Click **Create**.</span></span>
+8.  <span data-ttu-id="6246b-388">Proje sayfasını kapatın.</span><span class="sxs-lookup"><span data-stu-id="6246b-388">Close the project page.</span></span>
+9.  <span data-ttu-id="6246b-389">**Proje yönetimi ve muhasebe** &gt; **Proje kaynakları** &gt; **Kaynak karşılama**'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-389">Click **Project management and accounting** &gt; **Project resources** &gt; **Resource fulfillment**.</span></span>
+10. <span data-ttu-id="6246b-390">**XYZ Yükseltme projesi Aşama 2** projesi için **Yazılım geliştirici 1**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="6246b-390">Select **Software developer 1** for the **XYZ Upgrade project Phase 2** project.</span></span>
+11. <span data-ttu-id="6246b-391">Bir çalışan seçip **Ata** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-391">Select a worker, and then click **Assign**.</span></span>
+12. <span data-ttu-id="6246b-392">**XYZ Yükseltme projesi Aşama 2** projesi için **Yazılım geliştirici 1** satırının kaldırıldığından emin olun.</span><span class="sxs-lookup"><span data-stu-id="6246b-392">Verify that the line for **Software developer 1** has been removed for the **XYZ Upgrade project Phase 2** project.</span></span>
+13. <span data-ttu-id="6246b-393">**Proje ekibi ve planlama** sekmesinde, **XYZ Yükseltme Aşama2** projesi için, adım 11'de seçtiniz çalışanın **Yazılım geliştiricisi** olarak eklendiğini kontrol edin.</span><span class="sxs-lookup"><span data-stu-id="6246b-393">On the **Project team and scheduling** tab, for the **XYZ Upgrade Phase 2** project, verify that the worker that you selected in step 11 has been added as **Software developer**.</span></span>
 
-## <a name="requests-for-project-resources"></a>Proje kaynakları talepleri
-Proje kaynak planlama işlevselliği yalnızca kaynak yöneticilerinin personellei kaynakları görevlere veya projelere dağıtmasını destekler. Bu işlevi etkinleştirmek için aşağıdaki görevleri tamamlayın veya bu görevlerin tamamlandığını doğrulayın.
+## <a name="requests-for-project-resources"></a><span data-ttu-id="6246b-394">Proje kaynakları talepleri</span><span class="sxs-lookup"><span data-stu-id="6246b-394">Requests for project resources</span></span>
+<span data-ttu-id="6246b-395">Proje kaynak planlama işlevselliği yalnızca kaynak yöneticilerinin personellei kaynakları görevlere veya projelere dağıtmasını destekler.</span><span class="sxs-lookup"><span data-stu-id="6246b-395">The project resource scheduling functionality only supports resource managers to distribute staffed resources on engagements or projects.</span></span> <span data-ttu-id="6246b-396">Bu işlevi etkinleştirmek için aşağıdaki görevleri tamamlayın veya bu görevlerin tamamlandığını doğrulayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-396">To enable this functionality, complete the following tasks, or verify that they have been completed.</span></span>
 
--   Numara serileri ayarlayın.
--   Proje yönetimi ve muhasebe iş akışları ayarlayın.
--   Kaynak isteği iş akışını etkinleştirin.
+-   <span data-ttu-id="6246b-397">Numara serileri ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-397">Set up number sequences.</span></span>
+-   <span data-ttu-id="6246b-398">Proje yönetimi ve muhasebe iş akışları ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-398">Set up project management and accounting workflows.</span></span>
+-   <span data-ttu-id="6246b-399">Kaynak isteği iş akışını etkinleştirin.</span><span class="sxs-lookup"><span data-stu-id="6246b-399">Enable resource request workflow.</span></span>
 
-Yukarıdaki görevleri tamamladıktan veya doğruladıktan sonra gerektiğinde aşağıdaki görevleri tamamlayabilirsiniz.
+<span data-ttu-id="6246b-400">Yukarıdaki görevleri tamamladıktan veya doğruladıktan sonra gerektiğinde aşağıdaki görevleri tamamlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6246b-400">After you have either verified or completed the tasks above, you can complete the following tasks as needed.</span></span>
 
--   Geçici rezervasyon personelli kaynağından bir kaynak isteği oluşturun.
--   Kaynak isteklerini izleyin.
--   Kaynak isteklerini karşılayın.
--   WBS'den personelli bir kaynak isteyin.
--   Personelli kaynak isteği olmayan bir projeye kaynaklar rezerve edin.
+-   <span data-ttu-id="6246b-401">Geçici rezervasyon personelli kaynağından bir kaynak isteği oluşturun.</span><span class="sxs-lookup"><span data-stu-id="6246b-401">Create a resource request from a soft-booked staffed resource.</span></span>
+-   <span data-ttu-id="6246b-402">Kaynak isteklerini izleyin.</span><span class="sxs-lookup"><span data-stu-id="6246b-402">Monitor resource requests.</span></span>
+-   <span data-ttu-id="6246b-403">Kaynak isteklerini karşılayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-403">Fulfill resource requests.</span></span>
+-   <span data-ttu-id="6246b-404">WBS'den personelli bir kaynak isteyin.</span><span class="sxs-lookup"><span data-stu-id="6246b-404">Request a staffed resource from WBS.</span></span>
+-   <span data-ttu-id="6246b-405">Personelli kaynak isteği olmayan bir projeye kaynaklar rezerve edin.</span><span class="sxs-lookup"><span data-stu-id="6246b-405">Book resources to a project without a request for a staffed resource.</span></span>
 
-## <a name="monitor-project-teams"></a>Proje ekiplerini izleme
-1.  **Proje yönetimi ve muhasebe** &gt; **Projeler** &gt; **Tüm projeler**'e tıklayın.
-2.  Projeler listesinde **XYZ Yükseltme Aşama 2** projesi için **Proje kimliği** bağlantısına tıklayın.
-3.  **Proje ekibi ve planlama** hızlı sekmesinde, listelenen proje kaynaklarının doğru olduğunu kontrol edin.
+## <a name="monitor-project-teams"></a><span data-ttu-id="6246b-406">Proje ekiplerini izleme</span><span class="sxs-lookup"><span data-stu-id="6246b-406">Monitor project teams</span></span>
+1.  <span data-ttu-id="6246b-407">**Proje yönetimi ve muhasebe** &gt; **Projeler** &gt; **Tüm projeler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-407">Click **Project management and accounting** &gt; **Projects** &gt; **All projects**.</span></span>
+2.  <span data-ttu-id="6246b-408">Projeler listesinde **XYZ Yükseltme Aşama 2** projesi için **Proje kimliği** bağlantısına tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6246b-408">In the list of projects, click the **Project ID** link for the **XYZ Upgrade Phase 2** project.</span></span>
+3.  <span data-ttu-id="6246b-409">**Proje ekibi ve planlama** hızlı sekmesinde, listelenen proje kaynaklarının doğru olduğunu kontrol edin.</span><span class="sxs-lookup"><span data-stu-id="6246b-409">On the **Project team and scheduling** FastTab, verify that the project resources that are listed are correct.</span></span>
 
 
 

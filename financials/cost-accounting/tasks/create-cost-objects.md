@@ -16,38 +16,38 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 79cb18717c6b42ef0307f304d28902dd66f0f932
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5d43274aed2edbb91fd4e399cb8d45e91646b055
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-cost-objects"></a>Maliyet nesneleri oluşturma   
+# <a name="create-cost-objects"></a><span data-ttu-id="55124-103">Maliyet nesneleri oluşturma  </span><span class="sxs-lookup"><span data-stu-id="55124-103">Create cost objects</span></span> 
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam , Microsoft Dynamics 365 for Finance and Operations, Enterprise edition maliyet merkezi mali boyutunu bir veri bağlayıcı aracılığıyla Maliyet muhasebesine içe aktararak maliyet nesneleri oluşturmayı gösterir. Bu yordamı oluşturmak için USMF demo şirketi kullanılmıştır. Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir Maliyet muhasebesi özelliği içindir.
+<span data-ttu-id="55124-104">Bu yordam , Microsoft Dynamics 365 for Finance and Operations, Enterprise edition maliyet merkezi mali boyutunu bir veri bağlayıcı aracılığıyla Maliyet muhasebesine içe aktararak maliyet nesneleri oluşturmayı gösterir.</span><span class="sxs-lookup"><span data-stu-id="55124-104">This procedure shows how to create cost objects by importing the Dynamics 365 for Finance and Operations, Enterprise edition cost center financial dimension into Cost accounting via a data connector.</span></span> <span data-ttu-id="55124-105">Bu yordamı oluşturmak için USMF demo şirketi kullanılmıştır.</span><span class="sxs-lookup"><span data-stu-id="55124-105">The USMF demo company was used to create this procedure.</span></span> <span data-ttu-id="55124-106">Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir Maliyet muhasebesi özelliği içindir.</span><span class="sxs-lookup"><span data-stu-id="55124-106">This procedure is for a Cost accounting feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 
 
-## <a name="create-new-cost-objects"></a>Yeni maliyet nesneleri oluşturma
-1. Maliyet muhasebesi > Boyutlar > Maliyet nesnesi boyutları öğesine gidin.
-2. Yeni'ye tıklayın.
-3. İsim alanına bir değer yazın.
-4. Boyut üyeleri için veri bağlayıcı alanına bir değer girin veya bir değer seçin.
-5. Açıklama alanına bir değer girin.
-6. Kaydet'e tıklayın.
+## <a name="create-new-cost-objects"></a><span data-ttu-id="55124-107">Yeni maliyet nesneleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="55124-107">Create new cost objects</span></span>
+1. <span data-ttu-id="55124-108">Maliyet muhasebesi > Boyutlar > Maliyet nesnesi boyutları öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="55124-108">Go to Cost accounting > Dimensions > Cost object dimensions.</span></span>
+2. <span data-ttu-id="55124-109">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="55124-109">Click New.</span></span>
+3. <span data-ttu-id="55124-110">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="55124-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="55124-111">Boyut üyeleri için veri bağlayıcı alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="55124-111">In the Data connector for dimension members field, enter or select a value.</span></span>
+5. <span data-ttu-id="55124-112">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="55124-112">In the Description field, type a value.</span></span>
+6. <span data-ttu-id="55124-113">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="55124-113">Click Save.</span></span>
 
-## <a name="configure-the-data-connector"></a>Veri bağlayıcıyı yapılandırma
-1. Boyut üyesi sağlayıcısını yapılandır öğesine tıklayın.
-    * CostCenter boyutunu Maliyet muhasebesine aktarmak için CostCenter öğesini seçin.  
-2. Boyut adı alanında, Maliyet merkezi öğesini seçin.
-3. Tamam'a tıklayın.
+## <a name="configure-the-data-connector"></a><span data-ttu-id="55124-114">Veri bağlayıcıyı yapılandırma</span><span class="sxs-lookup"><span data-stu-id="55124-114">Configure the data connector</span></span>
+1. <span data-ttu-id="55124-115">Boyut üyesi sağlayıcısını yapılandır öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="55124-115">Click Configure dimension member provider.</span></span>
+    * <span data-ttu-id="55124-116">CostCenter boyutunu Maliyet muhasebesine aktarmak için CostCenter öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="55124-116">Select CostCenter to import the CostCenter dimension into Cost accounting.</span></span>  
+2. <span data-ttu-id="55124-117">Boyut adı alanında, Maliyet merkezi öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="55124-117">In the Dimension name field, select Cost center.</span></span>
+3. <span data-ttu-id="55124-118">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="55124-118">Click OK.</span></span>
 
-## <a name="import-cost-centers"></a>Maliyet merkezlerini içe aktarma
-1. Boyut üyelerini içe aktar öğesine tıklayın.
-2. Tamam'a tıklayın.
+## <a name="import-cost-centers"></a><span data-ttu-id="55124-119">Maliyet merkezlerini içe aktarma</span><span class="sxs-lookup"><span data-stu-id="55124-119">Import cost centers</span></span>
+1. <span data-ttu-id="55124-120">Boyut üyelerini içe aktar öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="55124-120">Click Import dimension members.</span></span>
+2. <span data-ttu-id="55124-121">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="55124-121">Click OK.</span></span>
 
-## <a name="view-the-imported-cost-centers"></a>İçe aktarılan maliyet merkezlerini görüntüleme
-1. Boyut üyelerini görüntüle öğesine tıklayın.
+## <a name="view-the-imported-cost-centers"></a><span data-ttu-id="55124-122">İçe aktarılan maliyet merkezlerini görüntüleme</span><span class="sxs-lookup"><span data-stu-id="55124-122">View the imported cost centers</span></span>
+1. <span data-ttu-id="55124-123">Boyut üyelerini görüntüle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="55124-123">Click View dimension members.</span></span>
 
 

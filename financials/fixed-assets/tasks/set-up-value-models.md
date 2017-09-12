@@ -16,41 +16,41 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 668fea64810524e8ce0c3833d25656c026f2780a
-ms.openlocfilehash: 7e57b26c17d3bf773a719f9725d5f47dce2af6f7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a29cae6cdcd03903359a3a468243c6ad03c7adc6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-books"></a>Defterleri ayarla
+# <a name="set-up-books"></a><span data-ttu-id="27951-103">Defterleri ayarla</span><span class="sxs-lookup"><span data-stu-id="27951-103">Set up books</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, yeni bir sabit kıymet defterini nasıl oluşturacağınızı ve bir sabit kıymet grubuyla nasıl ilişkilendireceğinizi gösterir. Muhasebeci rolünü ve USMF adlı tüzel kişilik için tanıtım verilerini kullanır.
+<span data-ttu-id="27951-104">Bu yordam, yeni bir sabit kıymet defterini nasıl oluşturacağınızı ve bir sabit kıymet grubuyla nasıl ilişkilendireceğinizi gösterir.</span><span class="sxs-lookup"><span data-stu-id="27951-104">This procedure shows you to how create a new fixed asset book and associate it with a fixed asset group.</span></span> <span data-ttu-id="27951-105">Muhasebeci rolünü ve USMF adlı tüzel kişilik için tanıtım verilerini kullanır.</span><span class="sxs-lookup"><span data-stu-id="27951-105">It uses the accountant role and demo data for the USMF legal entity.</span></span>
 
 
-## <a name="create-a-book"></a>Defter oluşturma
-1. Sabit kıymetler > Kurulum > Defterler'e gidin.
-2. Yeni'ye tıklayın.
-3. Defter alanına bir değer yazın.
-4. Açıklama alanına bir değer girin.
-    * Amortismanı hesapla seçilirse, ilişkili kıymet defteri amortisman tekliflerine dahil edilir. Seçilmezse, kıymet defterine otomatik olarak amortisman uygulanmaz.  
-5. Amortisman hesapla alanında Evet'i seçin.
-6. Amortisman profili alanına bir değer girin veya seçin.
-    * Alternatif bir amortisman profili de aynı zamanda amortisman geçiş yöntemi olarak bilinir. Alternatif profil, varsayılan amortisman profilininkine eşit veya ondan büyük bir amortisman tutarı hesaplarsa, amortisman teklifi bu profile geçer.  
-    * Olağandışı durumlarda bir kıymetin ek amortismanı için Olağandışı amortisman profili kullanılır. Örneğin bunu doğal felaketlerden kaynaklanan amortismanı kaydetmek için kullanabilirsiniz.  
-    * Temel düzeltmeler bulunan amortisman düzeltmeleri oluştur seçilirse, kıymetin değeri güncelleştirildiği zaman otomatik olarak amortisman düzeltmeleri oluşturulur. Seçilmezse, güncelleştirilmiş kıymet değeri yalnızca ilerideki amortisman hesaplamalarını etkiler.  
-7. Temel düzeltmeler bulunan Amortisman düzeltmeleri oluştur alanında Evet'i seçin.
-    * Varsayılan olarak, sabit kıymet defteri hareketlerini genel muhasebeye nakleder. Defter için genel muhasebeye nakil işlemini, Genel muhasebeye naklet alanını Hayır olarak ayarlayarak devre dışı bırakabilirsiniz. Genel muhasebeye nakledilmeyen defterler genellikle vergi raporlama amacıyla kullanılır. Bu, genel muhasebeye taahhütte bulunulmadığından kıymet defterine ait geçmiş hareketleri silmek için size ek bir esneklik sağlar.  
-    * Defter genel muhasebeye nakledilirse deftere nakil katmanı, Geçerli katmanın varsayılan değeri olur ve genel muhasebeye nakledilmezse Hiçbiri olur. Bu defter için hareketlerin başka bir katmana nakledilmesi gerekiyorsa Deftere nakil katmanını güncelleştirin.  
-8. Takvim alanına bir değer girin veya buradan bir değer seçin.
-    * Türetilmiş defterler hareketleri aynı anda farklı defterlere nakleder. Hareketleri birincil defter ile oluşturursunuz ve deftere nakletme sırasında hareketin tam bir kopyası türev defterine nakledilir. Türev defteri hareketleriyle yeniden hesaplama olmaz, bu nedenle amortisman hareketlerinde kullanılmamalıdır.  
+## <a name="create-a-book"></a><span data-ttu-id="27951-106">Defter oluşturma</span><span class="sxs-lookup"><span data-stu-id="27951-106">Create a book</span></span>
+1. <span data-ttu-id="27951-107">Sabit kıymetler > Kurulum > Defterler'e gidin.</span><span class="sxs-lookup"><span data-stu-id="27951-107">Go to Fixed assets > Setup > Books.</span></span>
+2. <span data-ttu-id="27951-108">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="27951-108">Click New.</span></span>
+3. <span data-ttu-id="27951-109">Defter alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="27951-109">In the Book field, type a value.</span></span>
+4. <span data-ttu-id="27951-110">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="27951-110">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="27951-111">Amortismanı hesapla seçilirse, ilişkili kıymet defteri amortisman tekliflerine dahil edilir.</span><span class="sxs-lookup"><span data-stu-id="27951-111">If Calculate depreciation is selected, the associated asset book will be included in depreciation proposals.</span></span> <span data-ttu-id="27951-112">Seçilmezse, kıymet defterine otomatik olarak amortisman uygulanmaz.</span><span class="sxs-lookup"><span data-stu-id="27951-112">If it is not selected, the asset book will not be automatically depreciated.</span></span>  
+5. <span data-ttu-id="27951-113">Amortisman hesapla alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="27951-113">Select Yes in the Calculate depreciation field.</span></span>
+6. <span data-ttu-id="27951-114">Amortisman profili alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="27951-114">In the Depreciation profile field, enter or select a value.</span></span>
+    * <span data-ttu-id="27951-115">Alternatif bir amortisman profili de aynı zamanda amortisman geçiş yöntemi olarak bilinir.</span><span class="sxs-lookup"><span data-stu-id="27951-115">An alternative depreciation profile is also known as a switchover method of depreciation.</span></span> <span data-ttu-id="27951-116">Alternatif profil, varsayılan amortisman profilininkine eşit veya ondan büyük bir amortisman tutarı hesaplarsa, amortisman teklifi bu profile geçer.</span><span class="sxs-lookup"><span data-stu-id="27951-116">The depreciation proposal will switch to this profile when the alternative profile calculates a depreciation amount that is equal to or greater than the default depreciation profile.</span></span>  
+    * <span data-ttu-id="27951-117">Olağandışı durumlarda bir kıymetin ek amortismanı için Olağandışı amortisman profili kullanılır.</span><span class="sxs-lookup"><span data-stu-id="27951-117">The Extraordinary depreciation profile is used for additional depreciation of an asset in unusual circumstances.</span></span> <span data-ttu-id="27951-118">Örneğin bunu doğal felaketlerden kaynaklanan amortismanı kaydetmek için kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="27951-118">For example, you might use this to record depreciation that results from a natural disaster.</span></span>  
+    * <span data-ttu-id="27951-119">Temel düzeltmeler bulunan amortisman düzeltmeleri oluştur seçilirse, kıymetin değeri güncelleştirildiği zaman otomatik olarak amortisman düzeltmeleri oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="27951-119">If Create depreciation adjustments with basis adjustments is selected, depreciation adjustments will be automatically created when the value of the asset is updated.</span></span> <span data-ttu-id="27951-120">Seçilmezse, güncelleştirilmiş kıymet değeri yalnızca ilerideki amortisman hesaplamalarını etkiler.</span><span class="sxs-lookup"><span data-stu-id="27951-120">If it is not selected, the updated asset value will only affect depreciation calculations going forward.</span></span>  
+7. <span data-ttu-id="27951-121">Temel düzeltmeler bulunan Amortisman düzeltmeleri oluştur alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="27951-121">Select Yes in the Create depreciation adjustments with basis adjustments field.</span></span>
+    * <span data-ttu-id="27951-122">Varsayılan olarak, sabit kıymet defteri hareketlerini genel muhasebeye nakleder.</span><span class="sxs-lookup"><span data-stu-id="27951-122">By default, fixed asset book transactions will post to the general ledger.</span></span> <span data-ttu-id="27951-123">Defter için genel muhasebeye nakil işlemini, Genel muhasebeye naklet alanını Hayır olarak ayarlayarak devre dışı bırakabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="27951-123">You can disable posting to the general ledger for the book by setting the Post to general ledger field to No.</span></span> <span data-ttu-id="27951-124">Genel muhasebeye nakledilmeyen defterler genellikle vergi raporlama amacıyla kullanılır.</span><span class="sxs-lookup"><span data-stu-id="27951-124">Books that do not post to the general ledger are typically used for tax reporting purposes.</span></span> <span data-ttu-id="27951-125">Bu, genel muhasebeye taahhütte bulunulmadığından kıymet defterine ait geçmiş hareketleri silmek için size ek bir esneklik sağlar.</span><span class="sxs-lookup"><span data-stu-id="27951-125">This gives you additional flexibility to delete historical transactions for the asset book because they have not been committed to the general ledger.</span></span>  
+    * <span data-ttu-id="27951-126">Defter genel muhasebeye nakledilirse deftere nakil katmanı, Geçerli katmanın varsayılan değeri olur ve genel muhasebeye nakledilmezse Hiçbiri olur.</span><span class="sxs-lookup"><span data-stu-id="27951-126">The Posting layer defaults to the Current layer if the book posts to general ledger, and None if it does not post to general ledger.</span></span> <span data-ttu-id="27951-127">Bu defter için hareketlerin başka bir katmana nakledilmesi gerekiyorsa Deftere nakil katmanını güncelleştirin.</span><span class="sxs-lookup"><span data-stu-id="27951-127">Update Posting layer if you need transactions for this book to be posted to a different layer.</span></span>  
+8. <span data-ttu-id="27951-128">Takvim alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="27951-128">In the Calendar field, enter or select a value.</span></span>
+    * <span data-ttu-id="27951-129">Türetilmiş defterler hareketleri aynı anda farklı defterlere nakleder.</span><span class="sxs-lookup"><span data-stu-id="27951-129">Derived books will post transactions to different books at the same time.</span></span> <span data-ttu-id="27951-130">Hareketleri birincil defter ile oluşturursunuz ve deftere nakletme sırasında hareketin tam bir kopyası türev defterine nakledilir.</span><span class="sxs-lookup"><span data-stu-id="27951-130">You create the transactions with the primary book and during posting, an exact copy of the transaction is posted to the derived book.</span></span> <span data-ttu-id="27951-131">Türev defteri hareketleriyle yeniden hesaplama olmaz, bu nedenle amortisman hareketlerinde kullanılmamalıdır.</span><span class="sxs-lookup"><span data-stu-id="27951-131">There is no recalculation with derived book transactions, so it should not be used for depreciation transactions.</span></span>  
 
-## <a name="associate-the-book-with-a-fixed-asset-group"></a>Defteri bir sabit kıymet grubuyla ilişkilendirin
-1. Sabit kıymet grupları'na tıklayın.
-2. Sabit kıymet grubu alanında bir değer girin veya seçin.
-3. Servis ömrü alanına bir sayı girin.
-    * Amortisman dönemlerinin, Servis ömrü ayarlandıktan sonra hesaplandığına dikkat edin.  
-    * Amortisman yöntemini, vergi amaçları için gerektiği şekilde ayarlama olanağınız vardır.  
+## <a name="associate-the-book-with-a-fixed-asset-group"></a><span data-ttu-id="27951-132">Defteri bir sabit kıymet grubuyla ilişkilendirin</span><span class="sxs-lookup"><span data-stu-id="27951-132">Associate the book with a fixed asset group</span></span>
+1. <span data-ttu-id="27951-133">Sabit kıymet grupları'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="27951-133">Click Fixed asset groups.</span></span>
+2. <span data-ttu-id="27951-134">Sabit kıymet grubu alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="27951-134">In the Fixed asset group field, enter or select a value.</span></span>
+3. <span data-ttu-id="27951-135">Servis ömrü alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="27951-135">In the Service life field, enter a number.</span></span>
+    * <span data-ttu-id="27951-136">Amortisman dönemlerinin, Servis ömrü ayarlandıktan sonra hesaplandığına dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="27951-136">Note that Depreciation periods is calculated after setting the Service life.</span></span>  
+    * <span data-ttu-id="27951-137">Amortisman yöntemini, vergi amaçları için gerektiği şekilde ayarlama olanağınız vardır.</span><span class="sxs-lookup"><span data-stu-id="27951-137">You are able to set the depreciation convention as required for tax purposes.</span></span>  
 
 

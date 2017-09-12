@@ -20,36 +20,36 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 84682e08da6da8928004c7971cd2c2a3725446c0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 8db5c507fbc68e637dbbc4ef3311d1fbd298f24f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="delays"></a>Gecikmeler
+# <a name="delays"></a><span data-ttu-id="07583-104">Gecikmeler</span><span class="sxs-lookup"><span data-stu-id="07583-104">Delays</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu makale, ana planlamadaki gecikmeli tarihler hakkında bilgi sağlar. Gecikmeli bir tarih, bir hareketin talep edilen tarihi, ana planlama tarafından hesaplanan en erken tamamlanma tarihinden sonraysa alacağı gerçekçi bir tarihtir.
+<span data-ttu-id="07583-105">Bu makale, ana planlamadaki gecikmeli tarihler hakkında bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="07583-105">This article provides information about delayed dates in master planning.</span></span> <span data-ttu-id="07583-106">Gecikmeli bir tarih, bir hareketin talep edilen tarihi, ana planlama tarafından hesaplanan en erken tamamlanma tarihinden sonraysa alacağı gerçekçi bir tarihtir.</span><span class="sxs-lookup"><span data-stu-id="07583-106">A delayed date is a realistic due date that a transaction receives if the earliest fulfillment date that master planning calculates is later than the requested date.</span></span>
 
-Master planlama, bir işlem için en erken gerçekleşme tarihini teslim sürelerine, malzeme durumuna, kapasite durumuna ve çeşitli planlama parametrelerine göre hesaplayabilir. 
+<span data-ttu-id="07583-107">Master planlama, bir işlem için en erken gerçekleşme tarihini teslim sürelerine, malzeme durumuna, kapasite durumuna ve çeşitli planlama parametrelerine göre hesaplayabilir.</span><span class="sxs-lookup"><span data-stu-id="07583-107">Master planning can calculate the earliest fulfillment date for a transaction, based on lead times, material availability, capacity availability, and various planning parameters.</span></span> 
 
-Master planlama, bir sipariş tarihini mevcut tarihten önce hesaplıyorsa o sipariş zamanında gerçekleştirilemez. Bu nedenle, sipariş gecikir. Bu durumda master planlama, siparişi mevcut tarihten ileri doğru planlar ve teslim tarihlerini içerir.. Bu teslim tarihleri daha düşük seviyedeki bileşen ürünleriyle başlar. Sipariş daha sonra bir gecikme tarihi alır. Gecikme tarihi mevcut verilere göre belirlenmiş, gerçekçi bir teslim tarihidir. Master planlama ayrıca gecikme gün sayısını da hesaplar. 
+<span data-ttu-id="07583-108">Master planlama, bir sipariş tarihini mevcut tarihten önce hesaplıyorsa o sipariş zamanında gerçekleştirilemez.</span><span class="sxs-lookup"><span data-stu-id="07583-108">If master planning calculates an order date that precedes the current date, the order can't be fulfilled on time.</span></span> <span data-ttu-id="07583-109">Bu nedenle, sipariş gecikir.</span><span class="sxs-lookup"><span data-stu-id="07583-109">Therefore, the order is delayed.</span></span> <span data-ttu-id="07583-110">Bu durumda master planlama, siparişi mevcut tarihten ileri doğru planlar ve teslim tarihlerini içerir..</span><span class="sxs-lookup"><span data-stu-id="07583-110">In this case, master planning forward-plans the order from the current date and includes lead times.</span></span> <span data-ttu-id="07583-111">Bu teslim tarihleri daha düşük seviyedeki bileşen ürünleriyle başlar.</span><span class="sxs-lookup"><span data-stu-id="07583-111">These lead times start with any lower-level component items.</span></span> <span data-ttu-id="07583-112">Sipariş daha sonra bir gecikme tarihi alır.</span><span class="sxs-lookup"><span data-stu-id="07583-112">The order then receives a delayed date.</span></span> <span data-ttu-id="07583-113">Gecikme tarihi mevcut verilere göre belirlenmiş, gerçekçi bir teslim tarihidir.</span><span class="sxs-lookup"><span data-stu-id="07583-113">A delayed date is a realistic due date, based on the current data.</span></span> <span data-ttu-id="07583-114">Master planlama ayrıca gecikme gün sayısını da hesaplar.</span><span class="sxs-lookup"><span data-stu-id="07583-114">Master planning also calculates the number of delay days.</span></span> 
 
-Bazı durumlarda, örneğin kullanıcıların teslim sürelerini alternatif teslimat yöntemleri seçerek kısaltabileceklerini bildikleri durumlarda gecikmeleri hesaplamamayı seçebilirsiniz. 
+<span data-ttu-id="07583-115">Bazı durumlarda, örneğin kullanıcıların teslim sürelerini alternatif teslimat yöntemleri seçerek kısaltabileceklerini bildikleri durumlarda gecikmeleri hesaplamamayı seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="07583-115">In some situations, you might choose not to calculate delays, such as when users know that they can expedite lead times by selecting alternative modes of delivery.</span></span> 
 
-Tanımlı bir grup için gecikmelerin nasıl hesaplanacağını yapılandırılabilirsiniz. Ardından tanımlı grubu daha sonraki bir ürüne ekleyebilirsiniz. 
+<span data-ttu-id="07583-116">Tanımlı bir grup için gecikmelerin nasıl hesaplanacağını yapılandırılabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="07583-116">You can configure how delays are calculated for a coverage group.</span></span> <span data-ttu-id="07583-117">Ardından tanımlı grubu daha sonraki bir ürüne ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="07583-117">You can then attach the coverage group to an item later.</span></span> 
 
-**Master planlama parametreleri** sayfasından gecikme hesaplaması için başlangıç saatini ayarlayabilirsiniz. Bir sipariş bu saatten sonra tamamlanırsa, siparişin gecikme tarihine bir gün eklenir. 
+<span data-ttu-id="07583-118">**Master planlama parametreleri** sayfasından gecikme hesaplaması için başlangıç saatini ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="07583-118">On the **Master planning parameters** page, you can set the start time for the calculation of delays.</span></span> <span data-ttu-id="07583-119">Bir sipariş bu saatten sonra tamamlanırsa, siparişin gecikme tarihine bir gün eklenir.</span><span class="sxs-lookup"><span data-stu-id="07583-119">If an order is fulfilled after this time, a delay of one day is added to the delay date of the order.</span></span> 
 
-**Not:** Önceki sürümlerde hesaplanan gecikmeler, *gelecek mesajları*, gecikme tarihi *gelecek tarihi* ve geciken işlem *ileriye ayarlanmış bir işlem* olarak geçiyordu.
+<span data-ttu-id="07583-120">**Not:** Önceki sürümlerde hesaplanan gecikmeler, *gelecek mesajları*, gecikme tarihi *gelecek tarihi* ve geciken işlem *ileriye ayarlanmış bir işlem* olarak geçiyordu.</span><span class="sxs-lookup"><span data-stu-id="07583-120">**Note:** In earlier versions, calculated delays were known as *futures messages*, the delayed date was known as the *futures date*, and a delayed transaction was referred to as *a transaction that was future set*.</span></span>
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="see-also"></a><span data-ttu-id="07583-121">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="07583-121">See also</span></span>
 --------
 
-[Kapsam ayarları](coverage-settings.md)
+[<span data-ttu-id="07583-122">Kapsam ayarları</span><span class="sxs-lookup"><span data-stu-id="07583-122">Coverage settings</span></span>](coverage-settings.md)
 
 
 

@@ -17,115 +17,115 @@ ms.assetid: c0286bba-f54b-42de-904c-81fd796bdd1d
 ms.search.region: global
 ms.search.industry: Product information
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d232473a1df0b821c6f39553ad826c61ff9ecff8
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: c18d50122e22c3f3476a1b204ea302d1b05e7c75
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="product-related-translations-faq"></a>Ürünle ilgili çeviriler hakkında SSS
+# <a name="product-related-translations-faq"></a><span data-ttu-id="83a27-103">Ürünle ilgili çeviriler hakkında SSS</span><span class="sxs-lookup"><span data-stu-id="83a27-103">Product-related translations FAQ</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu konuda, ürünler, ürün boyut değerleri ve ürün öznitelikleri için çevirilerin nasıl yönetileceğini açıklanır. 
+<span data-ttu-id="83a27-104">Bu konuda, ürünler, ürün boyut değerleri ve ürün öznitelikleri için çevirilerin nasıl yönetileceğini açıklanır.</span><span class="sxs-lookup"><span data-stu-id="83a27-104">This topic describes how to manage translations for products, product dimension values, and product attributes.</span></span> 
 
-<a name="what-product-related-data-can-be-translated"></a>Ürünle ilgili hangi veriler çevrilebilir?
+<a name="what-product-related-data-can-be-translated"></a><span data-ttu-id="83a27-105">Ürünle ilgili hangi veriler çevrilebilir?</span><span class="sxs-lookup"><span data-stu-id="83a27-105">What product-related data can be translated?</span></span>
 --------------------------------------------
 
-Ürünle ilgili aşağıdaki bilgilerin çevirilerini oluşturabilirsiniz:
--   Ürün adları ve açıklamaları.
--   Ürün öznitelik değerlerinin açıklamaları, kolay adları ve yardım metni.
--   Ürün boyutu değerlerinin adları ve açıklamaları.
+<span data-ttu-id="83a27-106">Ürünle ilgili aşağıdaki bilgilerin çevirilerini oluşturabilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="83a27-106">You can create translations for the following product-related information:</span></span>
+-   <span data-ttu-id="83a27-107">Ürün adları ve açıklamaları.</span><span class="sxs-lookup"><span data-stu-id="83a27-107">Names and descriptions of products.</span></span>
+-   <span data-ttu-id="83a27-108">Ürün öznitelik değerlerinin açıklamaları, kolay adları ve yardım metni.</span><span class="sxs-lookup"><span data-stu-id="83a27-108">Descriptions, friendly names, and help text of product attribute values.</span></span>
+-   <span data-ttu-id="83a27-109">Ürün boyutu değerlerinin adları ve açıklamaları.</span><span class="sxs-lookup"><span data-stu-id="83a27-109">Names and descriptions of product dimension values.</span></span>
 
-Ürünle ilgili bilgileri, **Metin çevirisi** sayfasında kullanılabilir olan tüm dillere çevirebilirsiniz. Daha fazla bilgi için **Ürünle ilgili bilgilerin çevirilerini nasıl oluştururum** bölümüne bakın.
+<span data-ttu-id="83a27-110">Ürünle ilgili bilgileri, **Metin çevirisi** sayfasında kullanılabilir olan tüm dillere çevirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="83a27-110">You can translate the product-related information into any language that is available from the **Text translation** page.</span></span> <span data-ttu-id="83a27-111">Daha fazla bilgi için **Ürünle ilgili bilgilerin çevirilerini nasıl oluştururum** bölümüne bakın.</span><span class="sxs-lookup"><span data-stu-id="83a27-111">For more information, see the following section **How do I created translations for product-related information**.</span></span>
 
-## <a name="where-can-i-view-the-translated-information"></a>Çevrilmiş bilgileri nerede görüntüleyebilirim?
-Ürünle ilgili bilgilerin çevirilerini, fatura gibi çevirilerin kullanılabilir olduğu bir dili kullanan her türlü harici kaynak belgesinde görüntüleyebilirsiniz.
+## <a name="where-can-i-view-the-translated-information"></a><span data-ttu-id="83a27-112">Çevrilmiş bilgileri nerede görüntüleyebilirim?</span><span class="sxs-lookup"><span data-stu-id="83a27-112">Where can I view the translated information?</span></span>
+<span data-ttu-id="83a27-113">Ürünle ilgili bilgilerin çevirilerini, fatura gibi çevirilerin kullanılabilir olduğu bir dili kullanan her türlü harici kaynak belgesinde görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="83a27-113">You can view translations of product-related information in any external source document, such as an invoice, that uses a language where translations are available.</span></span>
 
-## <a name="how-do-i-create-translations-for-productrelated-information"></a>Ürünle ilgili bilgilerin çevirilerini nasıl oluştururum?
-Ürün için çeviriler oluşturmak için şu adımları izleyin:
-1.  **Ürün bilgileri yönetimi** &gt; **Ortak** &gt; **Serbest bırakılan ürünler**'e tıklayın.
-2.  Ürün seçin ve Eylem Bölmesi'nde **Diller** grubunda **Çeviriler**'e tıklayın.
-3.  **Metin çevirisi** sayfasında **Dil** alanında, bir dil seçin. Daha fazla dil eklemek için **Dil** alanını genişletin ve **Tamam**'a tıklayın.
-4.  **Çevrilmiş metin** grubunda **Açıklama** ve **Ürün adı** alanlarında çevirileri girin.
+## <a name="how-do-i-create-translations-for-productrelated-information"></a><span data-ttu-id="83a27-114">Ürünle ilgili bilgilerin çevirilerini nasıl oluştururum?</span><span class="sxs-lookup"><span data-stu-id="83a27-114">How do I create translations for productrelated information?</span></span>
+<span data-ttu-id="83a27-115">Ürün için çeviriler oluşturmak için şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="83a27-115">To create translations for a product, follow these steps:</span></span>
+1.  <span data-ttu-id="83a27-116">**Ürün bilgileri yönetimi** &gt; **Ortak** &gt; **Serbest bırakılan ürünler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83a27-116">Click **Product information management** &gt; **Common** &gt; **Released products**.</span></span>
+2.  <span data-ttu-id="83a27-117">Ürün seçin ve Eylem Bölmesi'nde **Diller** grubunda **Çeviriler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83a27-117">Select a product, and on the Action Pane, in the **Languages** group, click **Translations**.</span></span>
+3.  <span data-ttu-id="83a27-118">**Metin çevirisi** sayfasında **Dil** alanında, bir dil seçin.</span><span class="sxs-lookup"><span data-stu-id="83a27-118">In the **Text translation** page, in the **Language** field, select a language.</span></span> <span data-ttu-id="83a27-119">Daha fazla dil eklemek için **Dil** alanını genişletin ve **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83a27-119">To add more languages, expand the **Language** field, and then click **OK**.</span></span>
+4.  <span data-ttu-id="83a27-120">**Çevrilmiş metin** grubunda **Açıklama** ve **Ürün adı** alanlarında çevirileri girin.</span><span class="sxs-lookup"><span data-stu-id="83a27-120">In the **Translated text** group, enter translations in the **Description** and **Product name** fields.</span></span>
 
-Ürün öznitelikleri için çeviriler oluşturmak üzere şu adımları izleyin:
-1.  **Ürün bilgileri yönetimi** &gt; **Ortak** &gt; **Serbest bırakılan ürünler**'e tıklayın.
-2.  **Kurulum** altında **Öznitelikler**'e ve ardından **Öznitelikler**'e tıklayın.
-3.  **Öznitelikler** sayfasında **Çevir**'e tıklayın.
-4.  **Metin çevirisi** sayfasında **Dil** alanında, bir dil seçin. Daha fazla dil eklemek için **Dil** alanını genişletin ve **Tamam**'a tıklayın.
-5.  **Çevrilmiş metin** grubunda **Açıklama**, **Kolay ad** ve **Yardım metni** alanlarında çevirileri girin.
+<span data-ttu-id="83a27-121">Ürün öznitelikleri için çeviriler oluşturmak üzere şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="83a27-121">To create translations for product attributes, follow these steps:</span></span>
+1.  <span data-ttu-id="83a27-122">**Ürün bilgileri yönetimi** &gt; **Ortak** &gt; **Serbest bırakılan ürünler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83a27-122">Click **Product information management** &gt; **Common** &gt; **Released products**.</span></span>
+2.  <span data-ttu-id="83a27-123">**Kurulum** altında **Öznitelikler**'e ve ardından **Öznitelikler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83a27-123">Under **Setup**, click **Attributes**, and then click **Attributes**.</span></span>
+3.  <span data-ttu-id="83a27-124">**Öznitelikler** sayfasında **Çevir**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83a27-124">In the **Attributes** page, click **Translate**.</span></span>
+4.  <span data-ttu-id="83a27-125">**Metin çevirisi** sayfasında **Dil** alanında, bir dil seçin.</span><span class="sxs-lookup"><span data-stu-id="83a27-125">In the **Text translation** page, in the **Language** field, select a language.</span></span> <span data-ttu-id="83a27-126">Daha fazla dil eklemek için **Dil** alanını genişletin ve **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83a27-126">To add more languages, expand the **Language** field, and then click **OK**.</span></span>
+5.  <span data-ttu-id="83a27-127">**Çevrilmiş metin** grubunda **Açıklama**, **Kolay ad** ve **Yardım metni** alanlarında çevirileri girin.</span><span class="sxs-lookup"><span data-stu-id="83a27-127">In the **Translated text** group, enter translations in the **Description**, **Friendly name**, and **Help text** fields.</span></span>
 
-Ürün boyutu değerleri için çeviriler oluşturmak üzere şu adımları izleyin:
-1.  **Ürün bilgileri yönetimi** &gt; **Ortak** &gt; **Serbest bırakılan ürünler**'e tıklayın.
-2.  Ürünü seçin ve ardından **Ürün boyutları**'na tıklayın.
-3.  Ürün boyutları için bağlantılardan birini seçin: **Yapılandırmalar**, **Boyutlar**, **Renkler** veya **Stil**.
-4.  Boyut değerini seçin ve ardından **Çevir**'e tıklayın.
-5.  **Metin çevirisi** sayfasında **Dil** alanında, bir dil seçin. Daha fazla dil eklemek için **Dil** alanını genişletin ve **Tamam**'a tıklayın.
-6.  **Çevrilmiş metin** grubunda **Ad** ve **Açıklama** alanlarına çevirileri girin.
+<span data-ttu-id="83a27-128">Ürün boyutu değerleri için çeviriler oluşturmak üzere şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="83a27-128">To create translations for product dimension values, follow these steps:</span></span>
+1.  <span data-ttu-id="83a27-129">**Ürün bilgileri yönetimi** &gt; **Ortak** &gt; **Serbest bırakılan ürünler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83a27-129">Click **Product information management** &gt; **Common** &gt; **Released products**.</span></span>
+2.  <span data-ttu-id="83a27-130">Ürünü seçin ve ardından **Ürün boyutları**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83a27-130">Select a product, and then click **Product dimensions**.</span></span>
+3.  <span data-ttu-id="83a27-131">Ürün boyutları için bağlantılardan birini seçin: **Yapılandırmalar**, **Boyutlar**, **Renkler** veya **Stil**.</span><span class="sxs-lookup"><span data-stu-id="83a27-131">Select one of the links for the product dimensions: **Configurations**, **Sizes**, **Colors**, or **Style**.</span></span>
+4.  <span data-ttu-id="83a27-132">Boyut değerini seçin ve ardından **Çevir**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83a27-132">Select a dimension value and then click **Translate**.</span></span>
+5.  <span data-ttu-id="83a27-133">**Metin çevirisi** sayfasında **Dil** alanında, bir dil seçin.</span><span class="sxs-lookup"><span data-stu-id="83a27-133">In the **Text translation** page, in the **Language** field, select a language.</span></span> <span data-ttu-id="83a27-134">Daha fazla dil eklemek için **Dil** alanını genişletin ve **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83a27-134">To add more languages, expand the **Language** field, and then click **OK**.</span></span>
+6.  <span data-ttu-id="83a27-135">**Çevrilmiş metin** grubunda **Ad** ve **Açıklama** alanlarına çevirileri girin.</span><span class="sxs-lookup"><span data-stu-id="83a27-135">In the **Translated text** group, enter translations in the **Name** and **Description** fields.</span></span>
 
-## <a name="can-the-names-of-product-variants-be-translated"></a>Ürün çeşitlerinin adları çevrilebilir mi?
-Ürün çeşitleri, serbest bırakılan bir ürünün boyutlarına bağlıdır. Ürün çeşitleri adları boyut değerlerinin bir birleşimine bağlıdır. Ürün çeşidiyle ilişkilendirilen boyut değerleri çevrildiğinde, ürün çeşidinin adı çevrilmiş sürümde görünür.  
+## <a name="can-the-names-of-product-variants-be-translated"></a><span data-ttu-id="83a27-136">Ürün çeşitlerinin adları çevrilebilir mi?</span><span class="sxs-lookup"><span data-stu-id="83a27-136">Can the names of product variants be translated?</span></span>
+<span data-ttu-id="83a27-137">Ürün çeşitleri, serbest bırakılan bir ürünün boyutlarına bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="83a27-137">Product variants are based on the dimensions of a released product.</span></span> <span data-ttu-id="83a27-138">Ürün çeşitleri adları boyut değerlerinin bir birleşimine bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="83a27-138">Product variant names are based on a combination of dimension values.</span></span> <span data-ttu-id="83a27-139">Ürün çeşidiyle ilişkilendirilen boyut değerleri çevrildiğinde, ürün çeşidinin adı çevrilmiş sürümde görünür.</span><span class="sxs-lookup"><span data-stu-id="83a27-139">When the dimension values that are associated with a product variant are translated, the name of the product variant appears in the translated version.</span></span>  
 
-**Örnek**  
+<span data-ttu-id="83a27-140">**Örnek**</span><span class="sxs-lookup"><span data-stu-id="83a27-140">**Example**</span></span>  
 
-Ürününüz farklı boyut ve renklerde bir Tişörttür ve çeşit adları aşağıdaki ayrıntılara bağlıdır:
--   Ürün numarası: \#3
--   Boyutlar: Boyut ve renk
--   Boyut değerleri: Küçük, Orta, Büyük
--   Renk boyut değerleri: Kırmızı, Yeşil, Siyah
+<span data-ttu-id="83a27-141">Ürününüz farklı boyut ve renklerde bir Tişörttür ve çeşit adları aşağıdaki ayrıntılara bağlıdır:</span><span class="sxs-lookup"><span data-stu-id="83a27-141">Your product is a T-shirt that comes in different sizes and colors and the variant names are based on the following details:</span></span>
+-   <span data-ttu-id="83a27-142">Ürün numarası: \#3</span><span class="sxs-lookup"><span data-stu-id="83a27-142">Product number: \#3</span></span>
+-   <span data-ttu-id="83a27-143">Boyutlar: Boyut ve renk</span><span class="sxs-lookup"><span data-stu-id="83a27-143">Dimensions: Size and color</span></span>
+-   <span data-ttu-id="83a27-144">Boyut değerleri: Küçük, Orta, Büyük</span><span class="sxs-lookup"><span data-stu-id="83a27-144">Size dimension values: Small, Medium, Large</span></span>
+-   <span data-ttu-id="83a27-145">Renk boyut değerleri: Kırmızı, Yeşil, Siyah</span><span class="sxs-lookup"><span data-stu-id="83a27-145">Color dimension values: Red, Green, Black</span></span>
 
-Ürün çeşidinin adı, boyut değerlerine bağlıdır. Küçük ve Kırmızı **\#3:Küçük:Kırmızı** şeklindedir.  
+<span data-ttu-id="83a27-146">Ürün çeşidinin adı, boyut değerlerine bağlıdır. Küçük ve Kırmızı **\#3:Küçük:Kırmızı** şeklindedir.</span><span class="sxs-lookup"><span data-stu-id="83a27-146">The name of a product variant that is based on the dimension values Small and Red is **\#3:Small:Red**.</span></span>  
 
-Müşteri birkaç tane küçük, kırmızı tişört satın almak istiyorsa, Tişört adı fatura üzerinde Türkçe olarak görünmelidir. Boyut değerlerini (Küçük ve Kırmızı) Fransızca'ya çevirirseniz ürün çeşidinin adı **\#3:Petit:Rouge** olur.
+<span data-ttu-id="83a27-147">Müşteri birkaç tane küçük, kırmızı tişört satın almak istiyorsa, Tişört adı fatura üzerinde Türkçe olarak görünmelidir.</span><span class="sxs-lookup"><span data-stu-id="83a27-147">A customer wants to buy some small, red T-shirts and the name of the T-shirt must appear in French on the invoice.</span></span> <span data-ttu-id="83a27-148">Boyut değerlerini (Küçük ve Kırmızı) Fransızca'ya çevirirseniz ürün çeşidinin adı **\#3:Petit:Rouge** olur.</span><span class="sxs-lookup"><span data-stu-id="83a27-148">You translate the dimension values, Small and Red, into French, and the name of the product variant is **\#3:Petit:Rouge**.</span></span>
 <table>
 <colgroup>
 <col width="100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>İpucu</strong></th>
+<th><span data-ttu-id="83a27-149"><strong>İpucu</strong></span><span class="sxs-lookup"><span data-stu-id="83a27-149"><strong>Tip</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Müşterinin tercih ettiği dili ayarlamak için aşağıdaki adımları izleyin:
+<td><span data-ttu-id="83a27-150">Müşterinin tercih ettiği dili ayarlamak için aşağıdaki adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="83a27-150">To set the preferred language of a customer, follow these steps:</span></span>
 <ol>  
-<li><strong>Satış ve pazarlama</strong> &gt; <strong>Ortak</strong> &gt; <strong>Müşteriler</strong> &gt; <strong>Tüm</strong>  <strong>müşteriler</strong>'e tıklayın.</li>
-<li><strong>Müşteriler</strong> sayfasını açmak için bir müşteriye çift tıklayın. <strong>Genel</strong> sekmesinde <strong>Dil</strong> alanında <strong>dili</strong> seçin.</li>
+<li><span data-ttu-id="83a27-151"><strong>Satış ve pazarlama</strong> &gt; <strong>Ortak</strong> &gt; <strong>Müşteriler</strong> &gt; <strong>Tüm</strong>  <strong>müşteriler</strong>'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83a27-151">Click <strong>Sales and marketing</strong> &gt; <strong>Common</strong> &gt; <strong>Customers</strong> &gt; <strong>All</strong> <strong>customers</strong>.</span></span></li>
+<li><span data-ttu-id="83a27-152"><strong>Müşteriler</strong> sayfasını açmak için bir müşteriye çift tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83a27-152">Double-click a customer to open the <strong>Customers</strong> page.</span></span> <span data-ttu-id="83a27-153"><strong>Genel</strong> sekmesinde <strong>Dil</strong> alanında <strong>dili</strong> seçin.</span><span class="sxs-lookup"><span data-stu-id="83a27-153">On the <strong>General</strong> tab, in the <strong>Language</strong> field, select the <strong>language</strong>.</span></span></li>
 </ol></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="what-happens-if-a-customer-has-a-preferred-language-for-which-no-translations-are-available"></a>Müşterinin tercih ettiği dil için kullanılabilir bir çeviri mevcut değilse ne olur?
-Çeviriler müşterinin tercih ettiği dilde kullanılabilir değilse adlar ve açıklamalar şirketinizin küresel dilinde görüntülenir.
+## <a name="what-happens-if-a-customer-has-a-preferred-language-for-which-no-translations-are-available"></a><span data-ttu-id="83a27-154">Müşterinin tercih ettiği dil için kullanılabilir bir çeviri mevcut değilse ne olur?</span><span class="sxs-lookup"><span data-stu-id="83a27-154">What happens if a customer has a preferred language for which no translations are available?</span></span>
+<span data-ttu-id="83a27-155">Çeviriler müşterinin tercih ettiği dilde kullanılabilir değilse adlar ve açıklamalar şirketinizin küresel dilinde görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="83a27-155">If translations are not available in the customer’s preferred language, the names and descriptions are displayed in the global language of your own company.</span></span>
 
-## <a name="can-i-manage-translations-for-a-series-of-dimension-values-at-the-same-time"></a>Aynı anda bir dizi boyut değerinin çevirilerini yönetebilir miyim?
-Boyut değerleri ürüne özeldir ve her ürün için boyut değerleri çevirilerini yönetebilirsiniz. Ancak bir boyut değeri grubu ve değer grubundaki değerler için çeviriler oluşturursanız çevirileri yönetmek daha kolay olur.   
+## <a name="can-i-manage-translations-for-a-series-of-dimension-values-at-the-same-time"></a><span data-ttu-id="83a27-156">Aynı anda bir dizi boyut değerinin çevirilerini yönetebilir miyim?</span><span class="sxs-lookup"><span data-stu-id="83a27-156">Can I manage translations for a series of dimension values at the same time?</span></span>
+<span data-ttu-id="83a27-157">Boyut değerleri ürüne özeldir ve her ürün için boyut değerleri çevirilerini yönetebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="83a27-157">Dimension values are product specific and you can manage the translations for the dimension values for each product.</span></span> <span data-ttu-id="83a27-158">Ancak bir boyut değeri grubu ve değer grubundaki değerler için çeviriler oluşturursanız çevirileri yönetmek daha kolay olur.</span><span class="sxs-lookup"><span data-stu-id="83a27-158">However, if you create a dimension value group and create translations for the values in the value group, it is easier to manage the translations.</span></span>   
 
-**Örnek**  
+<span data-ttu-id="83a27-159">**Örnek**</span><span class="sxs-lookup"><span data-stu-id="83a27-159">**Example**</span></span>  
 
-Şirketiniz farklı stillerde Tişörtler üretir ve her stilin Küçük, Orta ve Büyük boyutları bulunur. Boyutlar, bir boyut değeri grubunda toplanır. Yeni bir Tişört stili eklendiğinde bu stili boyutlar için kullanılan boyut değeri grubuyla ilişkilendirebilirsiniz; böylece ürünün tüm boyutları kullanılabilir. Ayrıca istediğiniz zaman boyut değeri grubundaki boyutlar için çeviriler ekleyebilir veya çevirileri değiştirebilirsiniz.  
+<span data-ttu-id="83a27-160">Şirketiniz farklı stillerde Tişörtler üretir ve her stilin Küçük, Orta ve Büyük boyutları bulunur.</span><span class="sxs-lookup"><span data-stu-id="83a27-160">Your company produces T-shirts in different styles, and each style is available in the sizes Small, Medium, and Large.</span></span> <span data-ttu-id="83a27-161">Boyutlar, bir boyut değeri grubunda toplanır.</span><span class="sxs-lookup"><span data-stu-id="83a27-161">The sizes are collected in one dimension value group.</span></span> <span data-ttu-id="83a27-162">Yeni bir Tişört stili eklendiğinde bu stili boyutlar için kullanılan boyut değeri grubuyla ilişkilendirebilirsiniz; böylece ürünün tüm boyutları kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="83a27-162">When a new T-shirt style is added, you can associate it with the dimension value group that is used for sizes, so that all the sizes are available for the product.</span></span> <span data-ttu-id="83a27-163">Ayrıca istediğiniz zaman boyut değeri grubundaki boyutlar için çeviriler ekleyebilir veya çevirileri değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="83a27-163">You can also add or change translations for the sizes in the dimension value group at any time.</span></span>  
 
-Boyut çeşidi grubu aracılığıyla bir ürünle ilişkilendirilen boyut değeri ürün çeşidi grubunda saklanmalıdır.   
-Boyut değeri grubu oluşturmak için aşağıdaki adımları izleyin:
-1.  **Ürün bilgileri yönetimi** &gt; **Kurulum** &gt; **Çeşit grupları**'na tıklayın.
-2.  **Boyut** **grupları**, **Renk grupları** veya **Stil grupları**'nı seçin.
-3.  **Yeni**'ye tıklayın ve ardından **Boyut** **grubu**, **Renk grubu** veya **Stil grubu** alanında grup için bir ad girin. Gruplar için satırlar oluşturmak için **Boyutlar**, **Renkler** veya **Stiller**'e tıklayın.
-4.  **Boyut** **grubu** satırları **Renk** **grubu** **satırları** veya **Stil grubu satırları** sayfasında **Yeni**'ye tıklayın ve ardından gruplar için boyutları, renkleri ve stilleri oluşturun.
+<span data-ttu-id="83a27-164">Boyut çeşidi grubu aracılığıyla bir ürünle ilişkilendirilen boyut değeri ürün çeşidi grubunda saklanmalıdır.</span><span class="sxs-lookup"><span data-stu-id="83a27-164">A dimension value that is associated with a product through a dimension variant group must be maintained from the product variant group.</span></span>   
+<span data-ttu-id="83a27-165">Boyut değeri grubu oluşturmak için aşağıdaki adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="83a27-165">To create a dimension value group, follow these steps:</span></span>
+1.  <span data-ttu-id="83a27-166">**Ürün bilgileri yönetimi** &gt; **Kurulum** &gt; **Çeşit grupları**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83a27-166">Click **Product information management** &gt; **Setup** &gt; **Variant groups**.</span></span>
+2.  <span data-ttu-id="83a27-167">**Boyut** **grupları**, **Renk grupları** veya **Stil grupları**'nı seçin.</span><span class="sxs-lookup"><span data-stu-id="83a27-167">Select **Size** **groups**, **Color groups**, or **Style groups**.</span></span>
+3.  <span data-ttu-id="83a27-168">**Yeni**'ye tıklayın ve ardından **Boyut** **grubu**, **Renk grubu** veya **Stil grubu** alanında grup için bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="83a27-168">Click **New**, and then enter a name for the group in the **Size** **group**, **Color group**, or **Style group** field.</span></span> <span data-ttu-id="83a27-169">Gruplar için satırlar oluşturmak için **Boyutlar**, **Renkler** veya **Stiller**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83a27-169">Click **Sizes**, **Colors**, or **Styles** to create lines for the groups.</span></span>
+4.  <span data-ttu-id="83a27-170">**Boyut** **grubu** satırları **Renk** **grubu** **satırları** veya **Stil grubu satırları** sayfasında **Yeni**'ye tıklayın ve ardından gruplar için boyutları, renkleri ve stilleri oluşturun.</span><span class="sxs-lookup"><span data-stu-id="83a27-170">In the **Size** **group** lines, **Color** **group** **lines**, or **Style group lines** page, click **New**, and then create the sizes, colors, and styles for the groups.</span></span>
 
-Boyut değeri grubundaki değerler için çevirileri yönetmek üzere aşağıdaki adımları izleyin:
-1.  **Ebat grubu satırları**, **Renk grubu satırları** veya **Stil grubu satırları** sayfasını açmak için bir boyut değeri grubu oluşturmak üzere önceki yordamdaki adımları izleyin.
-2.  **Metin çevirisi**'ne tıklayın. **Metin çevirisi** sayfasında, **Çevrilmiş metin** grubundaki **Ad** ve **Açıklama** alanlarına çevirileri girin.
+<span data-ttu-id="83a27-171">Boyut değeri grubundaki değerler için çevirileri yönetmek üzere aşağıdaki adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="83a27-171">To manage translations for values in a dimension value group, follow these steps:</span></span>
+1.  <span data-ttu-id="83a27-172">**Ebat grubu satırları**, **Renk grubu satırları** veya **Stil grubu satırları** sayfasını açmak için bir boyut değeri grubu oluşturmak üzere önceki yordamdaki adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="83a27-172">Follow the steps in the previous procedure for creating a dimension value group to open the **Size group lines**, **Color group lines**, or **Style group lines** page.</span></span>
+2.  <span data-ttu-id="83a27-173">**Metin çevirisi**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83a27-173">Click **Text translation**.</span></span> <span data-ttu-id="83a27-174">**Metin çevirisi** sayfasında, **Çevrilmiş metin** grubundaki **Ad** ve **Açıklama** alanlarına çevirileri girin.</span><span class="sxs-lookup"><span data-stu-id="83a27-174">In the **Text translation** page, in the **Translated text** group, enter translations in the **Name** and **Description** fields.</span></span>
 
-## <a name="when-can-translations-of-productrelated-information-be-managed"></a>Ürünle ilgili bilgilerin çevirileri ne zaman yönetilebilir?
-Ürünle ilgili bilgilerin çevirileri her an yönetilebilir. Çeviriler bir ürünle ilişkilendirilmiş bir boyut değeri için güncelleştirildiğinde, ürünün hareketlere sahip olmasına bakılmaksızın ürün bilgileri güncelleştirilir.
+## <a name="when-can-translations-of-productrelated-information-be-managed"></a><span data-ttu-id="83a27-175">Ürünle ilgili bilgilerin çevirileri ne zaman yönetilebilir?</span><span class="sxs-lookup"><span data-stu-id="83a27-175">When can translations of productrelated information be managed?</span></span>
+<span data-ttu-id="83a27-176">Ürünle ilgili bilgilerin çevirileri her an yönetilebilir.</span><span class="sxs-lookup"><span data-stu-id="83a27-176">Translations of product-related information can be managed at any time.</span></span> <span data-ttu-id="83a27-177">Çeviriler bir ürünle ilişkilendirilmiş bir boyut değeri için güncelleştirildiğinde, ürünün hareketlere sahip olmasına bakılmaksızın ürün bilgileri güncelleştirilir.</span><span class="sxs-lookup"><span data-stu-id="83a27-177">When translations are updated for a dimension value that is associated with a product, the product information is updated, regardless of whether the product has transactions.</span></span>
 
 
 

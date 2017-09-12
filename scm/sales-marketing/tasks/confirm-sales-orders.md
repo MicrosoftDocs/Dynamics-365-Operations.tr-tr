@@ -16,56 +16,56 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: b0853e6a326a90b022bedc3b898d6c1b218c5fa2
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7cab69222c5004e6a62c632a9e85085403434ffd
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="confirm-sales-orders"></a>Satış siparişlerini onaylama
+# <a name="confirm-sales-orders"></a><span data-ttu-id="905e7-103">Satış siparişlerini onaylama</span><span class="sxs-lookup"><span data-stu-id="905e7-103">Confirm sales orders</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, satış siparişlerinin nasıl onaylanacağını göstermektedir. Tek bir siparişin ve aynı anda birden fazla siparişin nasıl onaylanacağı size gösterilecektir. Bu görevler genellikler satış siparişi işlemcisi tarafından yerine getirilir. Bu yordamı, demo verileri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz. Başlamadan önce aynı müşteri için birkaç açık satış siparişleri bulunduğundan emin olun. USMF kullanıyorsanız, US-027 müşterisini kullanabilirsiniz.
+<span data-ttu-id="905e7-104">Bu yordam, satış siparişlerinin nasıl onaylanacağını göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="905e7-104">This procedure demonstrates how to confirm sales orders.</span></span> <span data-ttu-id="905e7-105">Tek bir siparişin ve aynı anda birden fazla siparişin nasıl onaylanacağı size gösterilecektir.</span><span class="sxs-lookup"><span data-stu-id="905e7-105">You’ll be shown how to confirm a single order, and how to confirm multiple orders at once.</span></span> <span data-ttu-id="905e7-106">Bu görevler genellikler satış siparişi işlemcisi tarafından yerine getirilir.</span><span class="sxs-lookup"><span data-stu-id="905e7-106">These tasks would typically be carried out by a sales order processor.</span></span> <span data-ttu-id="905e7-107">Bu yordamı, demo verileri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="905e7-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="905e7-108">Başlamadan önce aynı müşteri için birkaç açık satış siparişleri bulunduğundan emin olun.</span><span class="sxs-lookup"><span data-stu-id="905e7-108">Before you start, make sure there are several open sales orders for the same customer.</span></span> <span data-ttu-id="905e7-109">USMF kullanıyorsanız, US-027 müşterisini kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="905e7-109">If you’re using USMF, you can use customer US-027.</span></span>
 
 
-## <a name="confirm-a-single-sales-order"></a>Tek bir satış siparişini onaylayın
-1. Sales and marketing > Sales orders > All sales orders (Satış ve pazarlama > Satış siparişleri > Tüm satış siparişleri) menüsüne gidin.
-2. Listede, onaylamak istediğiniz siparişi bulun ve seçin.
-3. Seçili siparişi açmak için satış siparişi numarasındaki bağlantıyı tıklatın.
-4. Eylem Bölmesinde, Satış'a tıklayın.
-5. Satış siparişini onayla'ya tıklayın.
-6. Parametreler bölümünü genişletin veya daraltın.
-    * Deftere naklet evet alanının etkin olduğundan emin olun.  
-7. Onayı yazdır seçeneğini Evet olarak ayarlayın.
-    * Kredi limitini denetle alanı, bir müşterinin kalan kredisini hesaplamak için kullanılan yöntemi belirtir. Varsayılan olarak alacak hesapları parametreleri sayfasından kopyalanır. Kredi limiti denetimini belirli bir satış siparişini onaylarken atlamak istiyorsanız, kredi limitini denetle'yi Yok olarak ayarlayın. Fakat, bu alan Yok olarak bile ayarlanmış olsa, ana müşteri verilerinde Zorunlu kredi limiti seçeneği seçili ise, kredi limiti denetlemesinin yine de gerçekleşecek olacağını gözden kaçırmayın.  
-8. Tamam'a tıklayın.
-9. Evet'i tıklatın.
-10. Sayfayı kapatın.
-11. Eylem Bölmesinde, Seçenekler'e tıklayın.
-12. Görünümü değiştir'e tıklayın.
-13. Başlık görünümü'ne tıklayın.
-    * Bir siparişi teyit edildiğinde, Belge durumu, Onay olarak ayarlanır.  
-14. Eylem Bölmesinde, Satış'a tıklayın.
-15. Satış siparişi onayını görüntüle'ye tıklayın.
-16. Sayfayı kapatın.
+## <a name="confirm-a-single-sales-order"></a><span data-ttu-id="905e7-110">Tek bir satış siparişini onaylayın</span><span class="sxs-lookup"><span data-stu-id="905e7-110">Confirm a single sales order</span></span>
+1. <span data-ttu-id="905e7-111">Sales and marketing > Sales orders > All sales orders (Satış ve pazarlama > Satış siparişleri > Tüm satış siparişleri) menüsüne gidin.</span><span class="sxs-lookup"><span data-stu-id="905e7-111">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+2. <span data-ttu-id="905e7-112">Listede, onaylamak istediğiniz siparişi bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="905e7-112">In the list, find and select the order that you want to confirm.</span></span>
+3. <span data-ttu-id="905e7-113">Seçili siparişi açmak için satış siparişi numarasındaki bağlantıyı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="905e7-113">Click the link on the sales order number to open the selected order.</span></span>
+4. <span data-ttu-id="905e7-114">Eylem Bölmesinde, Satış'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="905e7-114">On the Action Pane, click Sell.</span></span>
+5. <span data-ttu-id="905e7-115">Satış siparişini onayla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="905e7-115">Click Confirm sales order.</span></span>
+6. <span data-ttu-id="905e7-116">Parametreler bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="905e7-116">Expand or collapse the Parameters section.</span></span>
+    * <span data-ttu-id="905e7-117">Deftere naklet evet alanının etkin olduğundan emin olun.</span><span class="sxs-lookup"><span data-stu-id="905e7-117">Make sure that the Posting Yes field is active.</span></span>  
+7. <span data-ttu-id="905e7-118">Onayı yazdır seçeneğini Evet olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="905e7-118">Set the Print confirmation option to Yes.</span></span>
+    * <span data-ttu-id="905e7-119">Kredi limitini denetle alanı, bir müşterinin kalan kredisini hesaplamak için kullanılan yöntemi belirtir.</span><span class="sxs-lookup"><span data-stu-id="905e7-119">The Check credit limit field specifies the method that’s used to calculate a customer's remaining credit.</span></span> <span data-ttu-id="905e7-120">Varsayılan olarak alacak hesapları parametreleri sayfasından kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="905e7-120">By default, it’s copied from the Accounts receivable parameters page.</span></span> <span data-ttu-id="905e7-121">Kredi limiti denetimini belirli bir satış siparişini onaylarken atlamak istiyorsanız, kredi limitini denetle'yi Yok olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="905e7-121">If you want to skip the credit limit check when confirming a specific sales order, set the Check credit limit to None.</span></span> <span data-ttu-id="905e7-122">Fakat, bu alan Yok olarak bile ayarlanmış olsa, ana müşteri verilerinde Zorunlu kredi limiti seçeneği seçili ise, kredi limiti denetlemesinin yine de gerçekleşecek olacağını gözden kaçırmayın.</span><span class="sxs-lookup"><span data-stu-id="905e7-122">However, you should be aware that even with if this field is set to None, the credit limit check will still be performed if the Mandatory credit limit option is selected on the customer master data.</span></span>  
+8. <span data-ttu-id="905e7-123">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="905e7-123">Click OK.</span></span>
+9. <span data-ttu-id="905e7-124">Evet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="905e7-124">Click Yes.</span></span>
+10. <span data-ttu-id="905e7-125">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="905e7-125">Close the page.</span></span>
+11. <span data-ttu-id="905e7-126">Eylem Bölmesinde, Seçenekler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="905e7-126">On the Action Pane, click Options.</span></span>
+12. <span data-ttu-id="905e7-127">Görünümü değiştir'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="905e7-127">Click Change view.</span></span>
+13. <span data-ttu-id="905e7-128">Başlık görünümü'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="905e7-128">Click Header view.</span></span>
+    * <span data-ttu-id="905e7-129">Bir siparişi teyit edildiğinde, Belge durumu, Onay olarak ayarlanır.</span><span class="sxs-lookup"><span data-stu-id="905e7-129">When an order is confirmed, the Document status is set to Confirmation.</span></span>  
+14. <span data-ttu-id="905e7-130">Eylem Bölmesinde, Satış'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="905e7-130">On the Action Pane, click Sell.</span></span>
+15. <span data-ttu-id="905e7-131">Satış siparişi onayını görüntüle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="905e7-131">Click Sales order confirmation.</span></span>
+16. <span data-ttu-id="905e7-132">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="905e7-132">Close the page.</span></span>
 
-## <a name="confirm-multiple-sales-orders-at-once"></a>Aynı anda birden fazla satış siparişi onayla
-1. Satış ve pazarlama > Satış siparişleri > Sipariş teyidi > Satış siparişi onayla seçeneğine gidin.
-2. Seç'e tıklayın.
-3. Aralık sekmesindeki listede, müşteri hesabı alanına ilişkin kaydı bulun ve seçin.
-4. Ölçütler alanında, açılır menü düğmesine tıklayarak aramayı açın.
-5. Listede, bulmak ve toplu onaylamak istediğiniz birden fazla siparişi olan müşteri hesabını seçin.
-    * USMF kullanıyorsanız, hesap US-027'yi seçebilirsiniz.  
-6. Tamam'a tıklayın.
-    * Genel sekmesi, sorgu ölçütleriyle eşleşen siparişlerin bir listesini görüntüler. Bunlar onaya dahil edilir.  
-    * Alana ilişkin Özet güncelleştirme,birden çok sipariş onayının bir tek onay belgesine özetlenirken kullanılacak parametreyi belirtir. Bu seçenek varsayılan olarak, Alacak hesapları parametreleri sayfasındaki Özet güncelleştirme seçeneğinin varsayılan değerlerinden kopyalanır.  
-7. Alana ilişkin Özet güncelleştirmede 'Sırala' seçin.
-    * Özet güncelleştirmeleri oluşturmak için gereken minimum parametreler Fatura hesabı ve Para birimidir. Başka bir deyişle, farklı fatura hesapları ve farklı para birimlerine sahip Özet güncelleştirmeleri verilmez. Ek parametreler, alacak hesapları parametreleri sayfasından erişilebilen Özet güncelleştirme parametreleri sayfasında ayarlanabilir.  
-8. Satış siparişi alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-9. Listede, özet siparişe karşılık gelmesini istediğiniz bir sipariş numarası seçin.
-10. Yerleştir'i tıklatın.
-11. Tamam'a tıklayın.
-12. Tamam'a tıklayın.
+## <a name="confirm-multiple-sales-orders-at-once"></a><span data-ttu-id="905e7-133">Aynı anda birden fazla satış siparişi onayla</span><span class="sxs-lookup"><span data-stu-id="905e7-133">Confirm multiple sales orders at once</span></span>
+1. <span data-ttu-id="905e7-134">Satış ve pazarlama > Satış siparişleri > Sipariş teyidi > Satış siparişi onayla seçeneğine gidin.</span><span class="sxs-lookup"><span data-stu-id="905e7-134">Go to Sales and marketing > Sales orders > Order confirmation > Confirm sales order.</span></span>
+2. <span data-ttu-id="905e7-135">Seç'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="905e7-135">Click Select.</span></span>
+3. <span data-ttu-id="905e7-136">Aralık sekmesindeki listede, müşteri hesabı alanına ilişkin kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="905e7-136">In the list on the Range tab, find and select the record that references the Customer account field.</span></span>
+4. <span data-ttu-id="905e7-137">Ölçütler alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="905e7-137">In the Criteria field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="905e7-138">Listede, bulmak ve toplu onaylamak istediğiniz birden fazla siparişi olan müşteri hesabını seçin.</span><span class="sxs-lookup"><span data-stu-id="905e7-138">In the list, find and select the customer account that has multiple orders which you want to mass confirm.</span></span>
+    * <span data-ttu-id="905e7-139">USMF kullanıyorsanız, hesap US-027'yi seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="905e7-139">If you’re using USMF, you can select account US-027.</span></span>  
+6. <span data-ttu-id="905e7-140">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="905e7-140">Click OK.</span></span>
+    * <span data-ttu-id="905e7-141">Genel sekmesi, sorgu ölçütleriyle eşleşen siparişlerin bir listesini görüntüler.</span><span class="sxs-lookup"><span data-stu-id="905e7-141">The Overview tab displays a list of the orders that match the query criteria.</span></span> <span data-ttu-id="905e7-142">Bunlar onaya dahil edilir.</span><span class="sxs-lookup"><span data-stu-id="905e7-142">These will be included in the confirmation.</span></span>  
+    * <span data-ttu-id="905e7-143">Alana ilişkin Özet güncelleştirme,birden çok sipariş onayının bir tek onay belgesine özetlenirken kullanılacak parametreyi belirtir.</span><span class="sxs-lookup"><span data-stu-id="905e7-143">The Summary update for field specifies the parameter by which multiple orders are to be summarized into one confirmation document.</span></span> <span data-ttu-id="905e7-144">Bu seçenek varsayılan olarak, Alacak hesapları parametreleri sayfasındaki Özet güncelleştirme seçeneğinin varsayılan değerlerinden kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="905e7-144">By default, the option is copied from the Default values for summary update setting on the Accounts receivable parameters page.</span></span>  
+7. <span data-ttu-id="905e7-145">Alana ilişkin Özet güncelleştirmede 'Sırala' seçin.</span><span class="sxs-lookup"><span data-stu-id="905e7-145">In the Summary update for field, select 'Order'.</span></span>
+    * <span data-ttu-id="905e7-146">Özet güncelleştirmeleri oluşturmak için gereken minimum parametreler Fatura hesabı ve Para birimidir.</span><span class="sxs-lookup"><span data-stu-id="905e7-146">The minimum parameters that are required to create summary updates are Invoice account and Currency.</span></span> <span data-ttu-id="905e7-147">Başka bir deyişle, farklı fatura hesapları ve farklı para birimlerine sahip Özet güncelleştirmeleri verilmez.</span><span class="sxs-lookup"><span data-stu-id="905e7-147">This means that summary updates that have different invoice accounts and different currencies are not allowed.</span></span> <span data-ttu-id="905e7-148">Ek parametreler, alacak hesapları parametreleri sayfasından erişilebilen Özet güncelleştirme parametreleri sayfasında ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="905e7-148">Additional parameters can be set up in the Summary update parameters page which is accessible from the Accounts receivable parameters page.</span></span>  
+8. <span data-ttu-id="905e7-149">Satış siparişi alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="905e7-149">In the Sales order field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="905e7-150">Listede, özet siparişe karşılık gelmesini istediğiniz bir sipariş numarası seçin.</span><span class="sxs-lookup"><span data-stu-id="905e7-150">In the list, select the order number that you want to be the summary order.</span></span>
+10. <span data-ttu-id="905e7-151">Yerleştir'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="905e7-151">Click Arrange.</span></span>
+11. <span data-ttu-id="905e7-152">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="905e7-152">Click OK.</span></span>
+12. <span data-ttu-id="905e7-153">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="905e7-153">Click OK.</span></span>
 
 

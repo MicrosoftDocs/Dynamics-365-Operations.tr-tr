@@ -16,136 +16,136 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 94898674f02de72111e131f563b33926dda8ac8e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: fdba6a68cd98b0ccbc4072f5c1124088ed9d814b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için Excel raporlarına dinamik olarak sütun eklemek üzere yatay olarak genişletilebilir aralıkları kullanan bir biçim tasarlama
+# <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-for-electronic-reporting-er"></a><span data-ttu-id="ae2a2-103">Elektronik raporlama (ER) için Excel raporlarına dinamik olarak sütun eklemek üzere yatay olarak genişletilebilir aralıkları kullanan bir biçim tasarlama</span><span class="sxs-lookup"><span data-stu-id="ae2a2-103">Design a format to use horizontally-expandable ranges to dynamically add columns in Excel reports for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının, gerekli sütunların yatay olarak genişletilebilir aralıklar şeklinde oluşturulabileceği OPENXML çalışma sayfası (Excel) dosyaları şeklinde raporlar oluşturmak amacıyla bir Elektronik raporlama (ER) biçimini nasıl yapılandırabileceğini açıklar. Bu adımlar tüm şirketlerde gerçekleştirilebilir.
+<span data-ttu-id="ae2a2-104">Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının, gerekli sütunların yatay olarak genişletilebilir aralıklar şeklinde oluşturulabileceği OPENXML çalışma sayfası (Excel) dosyaları şeklinde raporlar oluşturmak amacıyla bir Elektronik raporlama (ER) biçimini nasıl yapılandırabileceğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to generate reports as OPENXML worksheets (Excel) files in which the required columns can be created dynamically as horizontally expandable ranges.</span></span> <span data-ttu-id="ae2a2-105">Bu adımlar tüm şirketlerde gerçekleştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-105">These steps can be performed in any company.</span></span>
 
-Bu adımları tamamlamak için önce bu üç görev kılavuzunu tamamlamalısınız: 
+<span data-ttu-id="ae2a2-106">Bu adımları tamamlamak için önce bu üç görev kılavuzunu tamamlamalısınız:</span><span class="sxs-lookup"><span data-stu-id="ae2a2-106">To complete these steps, you must first complete these three task guides:</span></span> 
 
-"ER Konfigürasyon sağlayıcısı oluşturma ve etkin olarak işaretleme"
+<span data-ttu-id="ae2a2-107">"ER Konfigürasyon sağlayıcısı oluşturma ve etkin olarak işaretleme"</span><span class="sxs-lookup"><span data-stu-id="ae2a2-107">“ER Create a configuration provider and mark it as active”</span></span>
 
-"ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 1: Veri modeli tasarlama)"
+<span data-ttu-id="ae2a2-108">"ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 1: Veri modeli tasarlama)"</span><span class="sxs-lookup"><span data-stu-id="ae2a2-108">“ER Use financial dimensions as a data source (Part 1: Design data model)”</span></span>
 
-"ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 2: Model eşleme)"
+<span data-ttu-id="ae2a2-109">"ER Mali boyutları bir veri kaynağı olarak kullanma (Bölüm 2: Model eşleme)"</span><span class="sxs-lookup"><span data-stu-id="ae2a2-109">“ER Use financial dimensions as a data source (Part 2: Model mapping)”</span></span>
 
-Ayrıca şablonun yerel bir kopyasını şurada bulunacak örnek rapor ile indirmeli ve kaydetmelisiniz: http://msdynamics.blob.core.windows.net/media/2016/09/SampleFinDimWsReport.xlsx
+<span data-ttu-id="ae2a2-110">Ayrıca şablonun yerel bir kopyasını şurada bulunacak örnek rapor ile indirmeli ve kaydetmelisiniz: http://msdynamics.blob.core.windows.net/media/2016/09/SampleFinDimWsReport.xlsx</span><span class="sxs-lookup"><span data-stu-id="ae2a2-110">You must also download and save a local copy of the template with a sample report found here: http://msdynamics.blob.core.windows.net/media/2016/09/SampleFinDimWsReport.xlsx</span></span>
 
-Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik içindir.
+<span data-ttu-id="ae2a2-111">Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik içindir.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-111">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="create-a-new-report-configuration"></a>Yeni bir rapor konfigürasyonu oluşturma
-1. Kuruluş yönetimi > Elektronik raporlama > Yapılandırmalar seçeneğine git.
-2. Ağaçta, 'Mali boyutlar örnek modeli' öğesini seçin.
-3. İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.
-4. Yeni alanına, 'Mali boyutlar örnek modeli veri modeline dayalı biçim' yazın.
-    * Önceden oluşturulan modeli, yeni raporunuz için veri kaynağı olarak kullanın.  
-5. Ad alanına, "Yatay olarak genişletilebilir aralıklarla örnek rapor" yazın.
-    * Yatay olarak genişletilebilir aralıklarla örnek rapor  
-6. Açıklama alanına, "Dinamik olarak sütunlar ekleyerek Excel çıktısı oluşturma" yazın.
-    * Dinamik olarak sütunlar ekleyerek Excel çıktısı oluşturma  
-7. Veri modeli tanımı alanında Giriş'i seçin.
-8. Konfigürasyon oluştur'u tıklatın.
+## <a name="create-a-new-report-configuration"></a><span data-ttu-id="ae2a2-112">Yeni bir rapor konfigürasyonu oluşturma</span><span class="sxs-lookup"><span data-stu-id="ae2a2-112">Create a new report configuration</span></span>
+1. <span data-ttu-id="ae2a2-113">Kuruluş yönetimi > Elektronik raporlama > Yapılandırmalar seçeneğine git.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-113">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="ae2a2-114">Ağaçta, 'Mali boyutlar örnek modeli' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-114">In the tree, select 'Financial dimensions sample model'.</span></span>
+3. <span data-ttu-id="ae2a2-115">İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-115">Click Create configuration to open the drop dialog.</span></span>
+4. <span data-ttu-id="ae2a2-116">Yeni alanına, 'Mali boyutlar örnek modeli veri modeline dayalı biçim' yazın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-116">In the New field, enter 'Format based on data model Financial dimensions sample model'.</span></span>
+    * <span data-ttu-id="ae2a2-117">Önceden oluşturulan modeli, yeni raporunuz için veri kaynağı olarak kullanın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-117">Use the model created in advance as the data source for your new report.</span></span>  
+5. <span data-ttu-id="ae2a2-118">Ad alanına, "Yatay olarak genişletilebilir aralıklarla örnek rapor" yazın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-118">In the Name field, type 'Sample report with horizontally expandable ranges'.</span></span>
+    * <span data-ttu-id="ae2a2-119">Yatay olarak genişletilebilir aralıklarla örnek rapor</span><span class="sxs-lookup"><span data-stu-id="ae2a2-119">Sample report with horizontally expandable ranges</span></span>  
+6. <span data-ttu-id="ae2a2-120">Açıklama alanına, "Dinamik olarak sütunlar ekleyerek Excel çıktısı oluşturma" yazın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-120">In the Description field, type 'To make Excel output with dynamically adding columns'.</span></span>
+    * <span data-ttu-id="ae2a2-121">Dinamik olarak sütunlar ekleyerek Excel çıktısı oluşturma</span><span class="sxs-lookup"><span data-stu-id="ae2a2-121">To make Excel output with dynamically adding columns</span></span>  
+7. <span data-ttu-id="ae2a2-122">Veri modeli tanımı alanında Giriş'i seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-122">In the Data model definition field, select Entry.</span></span>
+8. <span data-ttu-id="ae2a2-123">Konfigürasyon oluştur'u tıklatın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-123">Click Create configuration.</span></span>
 
-## <a name="design-the-report-format"></a>Rapor biçimini tasarlama
-1. Tasarımcı'yı tıklatın.
-2. "Ayrıntıları göster" geçiş düğmesini açın.
-3. Eylem Bölmesinde, İçeri Al'a tıklayın.
-4. Microsoft Excel'den içe aktar'a tıklayın.
-5. Ekler'e tıklayın.
-    * Raporun şablonunu içe aktarın. Bunun için indirdiğiniz Excel dosyasını kullanın.  
-6. Yeni'ye tıklayın.
-7. Dosya'ya tıklayın.
-8. Sayfayı kapatın.
-9. Şablon alanına bir değer girin veya seçin.
-    * İndirilen şablonu seçin.  
-10. Tamam'a tıklayın.
-    * Mali boyutlar için (kullanıcı iletişim formunda) seçtiğiniz kadar sütunu olan Excel çıktısını dinamik olarak oluşturmak için yeni bir aralık ekleyin. Her sütun için her bir hücre, tek bir finansal boyutun adını temsil eder.  
-11. Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.
-12. Ağaçta, "Excel\Aralık" öğesini seçin.
-13. Excel aralık alanına "DimNames" yazın.
-    * DimNames  
-14. Yineleme yönü alanında "Yatay" öğesini seçin.
-15. Tamam'a tıklayın.
-16. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<DimNames>: Yatay" öğesini seçin.
-17. Yukarı taşı'ya tıklayın.
-18. Ağaçta, "Excel = "SampleFinDimWsReport"\Hücre<DimNames>" öğesini seçin.
-19. Kes'e tıklayın.
-20. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<DimNames>: Yatay" öğesini seçin.
-21. Yapıştır'a tıklayın.
-22. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<DimNames>: Yatay" öğesini genişletin.
-23. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>: Dikey" öğesini genişletin.
-24. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>Dikey\Aralık<TransactionLine>: Dikey" öğesini genişletin.
-25. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>Dikey\Aralık<TransactionLine>: Dikey" öğesini seçin.
-    * Mali boyutlar için (kullanıcı iletişim formunda) seçtiğiniz kadar sütunu olan Excel çıktısını dinamik olarak oluşturmak için yeni bir aralık ekleyin. Her sütundaki her bir hücre, her raporlama hareketi için tek bir finansal boyutun değerini temsil eder.  
-26. Aralık Ekle'ye tıklayın.
-27. Excel aralık alanına "DimValues" yazın.
-    * DimValues  
-28. Yineleme yönü alanında "Yatay" öğesini seçin.
-29. Tamam'a tıklayın.
-30. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Hücre<DimValues>" öğesini seçin.
-31. Kes'e tıklayın.
-32. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Aralık<DimValues>:Dikey" öğesini seçin.
-33. Yapıştır'a tıklayın.
-34. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Aralık<DimValues>:Dikey" öğesini genişletin.
+## <a name="design-the-report-format"></a><span data-ttu-id="ae2a2-124">Rapor biçimini tasarlama</span><span class="sxs-lookup"><span data-stu-id="ae2a2-124">Design the report format</span></span>
+1. <span data-ttu-id="ae2a2-125">Tasarımcı'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-125">Click Designer.</span></span>
+2. <span data-ttu-id="ae2a2-126">"Ayrıntıları göster" geçiş düğmesini açın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-126">Turn on the ‘Show details’ toggle button.</span></span>
+3. <span data-ttu-id="ae2a2-127">Eylem Bölmesinde, İçeri Al'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-127">On the Action Pane, click Import.</span></span>
+4. <span data-ttu-id="ae2a2-128">Microsoft Excel'den içe aktar'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-128">Click Import from Excel.</span></span>
+5. <span data-ttu-id="ae2a2-129">Ekler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-129">Click Attachments.</span></span>
+    * <span data-ttu-id="ae2a2-130">Raporun şablonunu içe aktarın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-130">Import the report’s template.</span></span> <span data-ttu-id="ae2a2-131">Bunun için indirdiğiniz Excel dosyasını kullanın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-131">Use Excel file that you downloaded for that.</span></span>  
+6. <span data-ttu-id="ae2a2-132">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-132">Click New.</span></span>
+7. <span data-ttu-id="ae2a2-133">Dosya'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-133">Click File.</span></span>
+8. <span data-ttu-id="ae2a2-134">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-134">Close the page.</span></span>
+9. <span data-ttu-id="ae2a2-135">Şablon alanına bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-135">In the Template field, enter or select a value.</span></span>
+    * <span data-ttu-id="ae2a2-136">İndirilen şablonu seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-136">Select the downloaded template.</span></span>  
+10. <span data-ttu-id="ae2a2-137">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-137">Click OK.</span></span>
+    * <span data-ttu-id="ae2a2-138">Mali boyutlar için (kullanıcı iletişim formunda) seçtiğiniz kadar sütunu olan Excel çıktısını dinamik olarak oluşturmak için yeni bir aralık ekleyin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-138">Add a new range to dynamically create Excel output with as many columns as you selected (in the user dialog form) for financial dimensions.</span></span> <span data-ttu-id="ae2a2-139">Her sütun için her bir hücre, tek bir finansal boyutun adını temsil eder.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-139">Each cell for every column will represent a single financial dimension’s name.</span></span>  
+11. <span data-ttu-id="ae2a2-140">Açılır iletişim kutusunu açmak için Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-140">Click Add to open the drop dialog.</span></span>
+12. <span data-ttu-id="ae2a2-141">Ağaçta, "Excel\Aralık" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-141">In the tree, select 'Excel\Range'.</span></span>
+13. <span data-ttu-id="ae2a2-142">Excel aralık alanına "DimNames" yazın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-142">In the Excel range field, type 'DimNames'.</span></span>
+    * <span data-ttu-id="ae2a2-143">DimNames</span><span class="sxs-lookup"><span data-stu-id="ae2a2-143">DimNames</span></span>  
+14. <span data-ttu-id="ae2a2-144">Yineleme yönü alanında "Yatay" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-144">In the Replication direction field, select 'Horizontal'.</span></span>
+15. <span data-ttu-id="ae2a2-145">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-145">Click OK.</span></span>
+16. <span data-ttu-id="ae2a2-146">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<DimNames>: Yatay" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-146">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal'.</span></span>
+17. <span data-ttu-id="ae2a2-147">Yukarı taşı'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-147">Click Move up.</span></span>
+18. <span data-ttu-id="ae2a2-148">Ağaçta, "Excel = "SampleFinDimWsReport"\Hücre<DimNames>" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-148">In the tree, select 'Excel = "SampleFinDimWsReport"\Cell<DimNames>'.</span></span>
+19. <span data-ttu-id="ae2a2-149">Kes'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-149">Click Cut.</span></span>
+20. <span data-ttu-id="ae2a2-150">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<DimNames>: Yatay" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-150">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal'.</span></span>
+21. <span data-ttu-id="ae2a2-151">Yapıştır'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-151">Click Paste.</span></span>
+22. <span data-ttu-id="ae2a2-152">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<DimNames>: Yatay" öğesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-152">In the tree, expand 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal'.</span></span>
+23. <span data-ttu-id="ae2a2-153">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>: Dikey" öğesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-153">In the tree, expand 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical'.</span></span>
+24. <span data-ttu-id="ae2a2-154">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>Dikey\Aralık<TransactionLine>: Dikey" öğesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-154">In the tree, expand 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical'.</span></span>
+25. <span data-ttu-id="ae2a2-155">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>Dikey\Aralık<TransactionLine>: Dikey" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-155">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical'.</span></span>
+    * <span data-ttu-id="ae2a2-156">Mali boyutlar için (kullanıcı iletişim formunda) seçtiğiniz kadar sütunu olan Excel çıktısını dinamik olarak oluşturmak için yeni bir aralık ekleyin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-156">Add a new range to dynamically create Excel output with as many columns as you selected (in the user dialog form) for financial dimensions.</span></span> <span data-ttu-id="ae2a2-157">Her sütundaki her bir hücre, her raporlama hareketi için tek bir finansal boyutun değerini temsil eder.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-157">Each cell for every column will represent a single financial dimension’s value for each reporting transaction.</span></span>  
+26. <span data-ttu-id="ae2a2-158">Aralık Ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-158">Click Add Range.</span></span>
+27. <span data-ttu-id="ae2a2-159">Excel aralık alanına "DimValues" yazın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-159">In the Excel range field, type 'DimValues'.</span></span>
+    * <span data-ttu-id="ae2a2-160">DimValues</span><span class="sxs-lookup"><span data-stu-id="ae2a2-160">DimValues</span></span>  
+28. <span data-ttu-id="ae2a2-161">Yineleme yönü alanında "Yatay" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-161">In the Replication direction field, select 'Horizontal'.</span></span>
+29. <span data-ttu-id="ae2a2-162">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-162">Click OK.</span></span>
+30. <span data-ttu-id="ae2a2-163">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Hücre<DimValues>" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-163">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<DimValues>'.</span></span>
+31. <span data-ttu-id="ae2a2-164">Kes'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-164">Click Cut.</span></span>
+32. <span data-ttu-id="ae2a2-165">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Aralık<DimValues>:Dikey" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-165">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal'.</span></span>
+33. <span data-ttu-id="ae2a2-166">Yapıştır'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-166">Click Paste.</span></span>
+34. <span data-ttu-id="ae2a2-167">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Aralık<DimValues>:Dikey" öğesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-167">In the tree, expand 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal'.</span></span>
 
-## <a name="map-format-elements-to-data-sources"></a>Biçim öğelerini veri kaynaklarıyla eşleme
-1. Eşleme sekmesini tıklatın.
-2. Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli' öğesini genişletin
-3. Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi' öğesini genişletin.
-4. Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi' öğesini genişletin.
-5. Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi\Boyut verileri: Kayıt listesi' öğesini genişletin.
-6. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Aralık<DimValues>:Dikey\Hücre<DimValues>" öğesini seçin.
-7. Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi\Boyut verileri: Kayıt listesi\Kod: Dize' öğesini seçin.
-8. Bağla'ya tıklayın.
-9. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Aralık<DimValues>:Dikey" öğesini seçin.
-10. Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi\Boyut verileri: Kayıt listesi' öğesini seçin.
-11. Bağla'ya tıklayın.
-12. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Hücre<Credit>" öğesini seçin.
-13. Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi\Alacak: Gerçek' öğesini seçin.
-14. Bağla'ya tıklayın.
-15. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Hücre<Debit>" öğesini seçin.
-16. Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi\Borç: Gerçek' öğesini seçin.
-17. Bağla'ya tıklayın.
-18. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Hücre<Currency>" öğesini seçin.
-19. Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi\Para Birimi: Dize' öğesini seçin.
-20. Bağla'ya tıklayın.
-21. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Hücre<TransDate>" öğesini seçin.
-22. Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi\Tarih: Tarih' öğesini seçin.
-23. Bağla'ya tıklayın.
-24. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Hücre<TransVoucher>" öğesini seçin.
-25. Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi\Fiş: Dize' öğesini seçin.
-26. Bağla'ya tıklayın.
-27. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Hücre<TransBatch>" öğesini seçin.
-28. Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Toplu İş: Dize' öğesini seçin.
-29. Bağla'ya tıklayın.
-30. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>Dikey\Aralık<TransactionLine>: Dikey" öğesini seçin.
-31. Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi' öğesini seçin.
-32. Bağla'ya tıklayın.
-33. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Hücre<Batch>" öğesini seçin.
-34. Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Toplu İş: Dize' öğesini seçin.
-35. Bağla'ya tıklayın.
-36. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey" öğesini seçin.
-37. Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi' öğesini seçin.
-38. Bağla'ya tıklayın.
-39. Ağaçta, "model: Veri modeli Mali boyutlar örnek modeli\Boyutlar ayarı: Kayıt listesi" öğesini genişletin.
-40. Ağaçta, "model: Veri modeli Mali boyutlar örnek modeli\Boyutlar ayarı: Kayıt listesi\Kod: Dize" öğesini seçin.
-41. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<DimNames>: Yatay\Hücre<DimNames>" öğesini seçin.
-42. Bağla'ya tıklayın.
-43. Ağaçta, "model: Veri modeli Mali boyutlar örnek modeli\Boyutlar ayarı: Kayıt listesi" öğesini seçin.
-44. Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<DimNames>: Yatay" öğesini seçin.
-45. Bağla'ya tıklayın.
-46. Ağaçta, "Excel = "SampleFinDimWsReport"\Hücre<CompanyName>" öğesini seçin.
-47. Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Şirket: Dize' öğesini seçin.
-48. Bağla'ya tıklayın.
-49. Kaydet'e tıklayın.
-50. Sayfayı kapatın.
+## <a name="map-format-elements-to-data-sources"></a><span data-ttu-id="ae2a2-168">Biçim öğelerini veri kaynaklarıyla eşleme</span><span class="sxs-lookup"><span data-stu-id="ae2a2-168">Map format elements to data sources</span></span>
+1. <span data-ttu-id="ae2a2-169">Eşleme sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-169">Click the Mapping tab.</span></span>
+2. <span data-ttu-id="ae2a2-170">Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli' öğesini genişletin</span><span class="sxs-lookup"><span data-stu-id="ae2a2-170">In the tree, expand 'model: Data model Financial dimensions sample model'.</span></span>
+3. <span data-ttu-id="ae2a2-171">Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi' öğesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-171">In the tree, expand 'model: Data model Financial dimensions sample model\Journal: Record list'.</span></span>
+4. <span data-ttu-id="ae2a2-172">Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi' öğesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-172">In the tree, expand 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list'.</span></span>
+5. <span data-ttu-id="ae2a2-173">Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi\Boyut verileri: Kayıt listesi' öğesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-173">In the tree, expand 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list'.</span></span>
+6. <span data-ttu-id="ae2a2-174">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Aralık<DimValues>:Dikey\Hücre<DimValues>" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-174">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal\Cell<DimValues>'.</span></span>
+7. <span data-ttu-id="ae2a2-175">Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi\Boyut verileri: Kayıt listesi\Kod: Dize' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-175">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list\Code: String'.</span></span>
+8. <span data-ttu-id="ae2a2-176">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-176">Click Bind.</span></span>
+9. <span data-ttu-id="ae2a2-177">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Aralık<DimValues>:Dikey" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-177">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Range<DimValues>: Horizontal'.</span></span>
+10. <span data-ttu-id="ae2a2-178">Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi\Boyut verileri: Kayıt listesi' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-178">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list'.</span></span>
+11. <span data-ttu-id="ae2a2-179">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-179">Click Bind.</span></span>
+12. <span data-ttu-id="ae2a2-180">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Hücre<Credit>" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-180">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<Credit>'.</span></span>
+13. <span data-ttu-id="ae2a2-181">Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi\Alacak: Gerçek' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-181">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Credit: Real'.</span></span>
+14. <span data-ttu-id="ae2a2-182">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-182">Click Bind.</span></span>
+15. <span data-ttu-id="ae2a2-183">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Hücre<Debit>" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-183">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<Debit>'.</span></span>
+16. <span data-ttu-id="ae2a2-184">Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi\Borç: Gerçek' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-184">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Debit: Real'.</span></span>
+17. <span data-ttu-id="ae2a2-185">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-185">Click Bind.</span></span>
+18. <span data-ttu-id="ae2a2-186">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Hücre<Currency>" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-186">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<Currency>'.</span></span>
+19. <span data-ttu-id="ae2a2-187">Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi\Para Birimi: Dize' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-187">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Currency: String'.</span></span>
+20. <span data-ttu-id="ae2a2-188">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-188">Click Bind.</span></span>
+21. <span data-ttu-id="ae2a2-189">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Hücre<TransDate>" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-189">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<TransDate>'.</span></span>
+22. <span data-ttu-id="ae2a2-190">Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi\Tarih: Tarih' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-190">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Date: Date'.</span></span>
+23. <span data-ttu-id="ae2a2-191">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-191">Click Bind.</span></span>
+24. <span data-ttu-id="ae2a2-192">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Hücre<TransVoucher>" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-192">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<TransVoucher>'.</span></span>
+25. <span data-ttu-id="ae2a2-193">Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi\Fiş: Dize' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-193">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Voucher: String'.</span></span>
+26. <span data-ttu-id="ae2a2-194">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-194">Click Bind.</span></span>
+27. <span data-ttu-id="ae2a2-195">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Aralık<TransactionLine>: Dikey\Hücre<TransBatch>" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-195">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical\Cell<TransBatch>'.</span></span>
+28. <span data-ttu-id="ae2a2-196">Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Toplu İş: Dize' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-196">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Batch: String'.</span></span>
+29. <span data-ttu-id="ae2a2-197">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-197">Click Bind.</span></span>
+30. <span data-ttu-id="ae2a2-198">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>Dikey\Aralık<TransactionLine>: Dikey" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-198">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Range<TransactionLine>: Vertical'.</span></span>
+31. <span data-ttu-id="ae2a2-199">Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Hareket: Kayıt listesi' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-199">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list'.</span></span>
+32. <span data-ttu-id="ae2a2-200">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-200">Click Bind.</span></span>
+33. <span data-ttu-id="ae2a2-201">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey\Hücre<Batch>" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-201">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical\Cell<Batch>'.</span></span>
+34. <span data-ttu-id="ae2a2-202">Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi\Toplu İş: Dize' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-202">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Batch: String'.</span></span>
+35. <span data-ttu-id="ae2a2-203">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-203">Click Bind.</span></span>
+36. <span data-ttu-id="ae2a2-204">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<JournalLine>:Dikey" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-204">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<JournalLine>: Vertical'.</span></span>
+37. <span data-ttu-id="ae2a2-205">Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Günlük: Kayıt listesi' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-205">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list'.</span></span>
+38. <span data-ttu-id="ae2a2-206">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-206">Click Bind.</span></span>
+39. <span data-ttu-id="ae2a2-207">Ağaçta, "model: Veri modeli Mali boyutlar örnek modeli\Boyutlar ayarı: Kayıt listesi" öğesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-207">In the tree, expand 'model: Data model Financial dimensions sample model\Dimensions setting: Record list'.</span></span>
+40. <span data-ttu-id="ae2a2-208">Ağaçta, "model: Veri modeli Mali boyutlar örnek modeli\Boyutlar ayarı: Kayıt listesi\Kod: Dize" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-208">In the tree, select 'model: Data model Financial dimensions sample model\Dimensions setting: Record list\Code: String'.</span></span>
+41. <span data-ttu-id="ae2a2-209">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<DimNames>: Yatay\Hücre<DimNames>" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-209">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal\Cell<DimNames>'.</span></span>
+42. <span data-ttu-id="ae2a2-210">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-210">Click Bind.</span></span>
+43. <span data-ttu-id="ae2a2-211">Ağaçta, "model: Veri modeli Mali boyutlar örnek modeli\Boyutlar ayarı: Kayıt listesi" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-211">In the tree, select 'model: Data model Financial dimensions sample model\Dimensions setting: Record list'.</span></span>
+44. <span data-ttu-id="ae2a2-212">Ağaçta, "Excel = "SampleFinDimWsReport"\Aralık<DimNames>: Yatay" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-212">In the tree, select 'Excel = "SampleFinDimWsReport"\Range<DimNames>: Horizontal'.</span></span>
+45. <span data-ttu-id="ae2a2-213">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-213">Click Bind.</span></span>
+46. <span data-ttu-id="ae2a2-214">Ağaçta, "Excel = "SampleFinDimWsReport"\Hücre<CompanyName>" öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-214">In the tree, select 'Excel = "SampleFinDimWsReport"\Cell<CompanyName>'.</span></span>
+47. <span data-ttu-id="ae2a2-215">Ağaçta, 'model: Veri modeli Mali boyutlar örnek modeli\Şirket: Dize' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-215">In the tree, select 'model: Data model Financial dimensions sample model\Company: String'.</span></span>
+48. <span data-ttu-id="ae2a2-216">Bağla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-216">Click Bind.</span></span>
+49. <span data-ttu-id="ae2a2-217">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-217">Click Save.</span></span>
+50. <span data-ttu-id="ae2a2-218">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="ae2a2-218">Close the page.</span></span>
 
 

@@ -16,32 +16,32 @@ ms.assetid: bc1fde9f-5ad9-4339-8ae8-e2839b792eb2
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7f7c1008eea83bbda96ace92cd4aedf09c8febdc
+ms.sourcegitcommit: fb74ddfbc46047251a1f96512891bfbdca8e0389
+ms.openlocfilehash: 2b4a27465908b5ffe19e91cb7ad0d29bce49505a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/15/2017
 
 ---
 
-# <a name="adjust-on-hand-inventory-cost-values"></a>Eldeki stokun maliyet değerlerini ayarlama
+# <a name="adjust-on-hand-inventory-cost-values"></a><span data-ttu-id="90e98-103">Eldeki stokun maliyet değerlerini ayarlama</span><span class="sxs-lookup"><span data-stu-id="90e98-103">Adjust on-hand inventory cost values</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Bir stok kapanışı yürütüldükten sonra hazır stok miktarlarının maliyet değerini ayarlamak için, Eldeki stokların düzeltilmesi sayfasını kullanın.
+<span data-ttu-id="90e98-104">Bir stok kapanışı yürütüldükten sonra hazır stok miktarlarının maliyet değerini ayarlamak için, Eldeki stokların düzeltilmesi sayfasını kullanın.</span><span class="sxs-lookup"><span data-stu-id="90e98-104">Use the Adjustment of on-hand inventory page to adjust the cost value of the on-hand inventory quantities after an inventory close process is run.</span></span>
 
-Bir envanter kapatma işlemi yürütüldükten sonra hazır envanter miktarlarının maliyet değerini ayarlamak için **Hazır envanterin ayarlanması** sayfasını kullanabilirsiniz. **Not:** **Hazır envanterin ayarlanması** sayfasını açmak için **Kapatma ve ayarlama** sayfasından bir tamamlanan envanter kapatma işlemi kaydı seçin ve **Ayar** &gt; **Hazır öğelerini** tıklayın. **Örnek:** Şubat ayına ait şu işlemler bulunuyor olsun:
+<span data-ttu-id="90e98-105">Bir envanter kapatma işlemi yürütüldükten sonra hazır envanter miktarlarının maliyet değerini ayarlamak için **Hazır envanterin ayarlanması** sayfasını kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="90e98-105">You can use the **Adjustment of on-hand inventory** page to adjust the cost value of on-hand inventory quantities after an inventory close process is run.</span></span> <span data-ttu-id="90e98-106">**Not:** **Hazır envanterin ayarlanması** sayfasını açmak için **Kapatma ve ayarlama** sayfasından bir tamamlanan envanter kapatma işlemi kaydı seçin ve **Ayar** &gt; **Hazır öğelerini** tıklayın.</span><span class="sxs-lookup"><span data-stu-id="90e98-106">**Note:** To open the **Adjustment of on-hand inventory** page, on the **Closing and adjustment** page, select the record of a completed inventory close process, and then click **Adjustment** &gt; **On-hand**.</span></span> <span data-ttu-id="90e98-107">**Örnek:** Şubat ayına ait şu işlemler bulunuyor olsun:</span><span class="sxs-lookup"><span data-stu-id="90e98-107">**Example:** You have the following transactions in February:</span></span>
 
--   1 Şubat: 10.00 USD maliyetinde 2 adet için bir envanter finansal alındı
--   5 Şubat: Maliyeti 13.00 USD olan 1 adet için bir envanter finansal alındı
--   19 Şubat:Ortalama işletme maliyeti 11.00 olan 1 adet için bir envanter finansal işlemi
+-   <span data-ttu-id="90e98-108">1 Şubat: 10.00 USD maliyetinde 2 adet için bir envanter finansal alındı</span><span class="sxs-lookup"><span data-stu-id="90e98-108">February 1: An inventory financial receipt for a quantity of 2 at a cost of USD 10.00</span></span>
+-   <span data-ttu-id="90e98-109">5 Şubat: Maliyeti 13.00 USD olan 1 adet için bir envanter finansal alındı</span><span class="sxs-lookup"><span data-stu-id="90e98-109">February 5: An inventory financial receipt for a quantity of 1 at a cost of USD 13.00</span></span>
+-   <span data-ttu-id="90e98-110">19 Şubat:Ortalama işletme maliyeti 11.00 olan 1 adet için bir envanter finansal işlemi</span><span class="sxs-lookup"><span data-stu-id="90e98-110">February 19: An inventory financial issue for a quantity of 1 at a running average cost of USD 11.00</span></span>
 
-Bu madde ilk giren ilk çıkar (FIFO) stok modeliyle ayarlanmıştır ve stok kapanışı 28 Şubat tarihinde gerçekleştirilmiştir. 11,00 USD tutarındaki Mali çıkış hareketi 1 Şubat tarihli mali girişine karşılık eşlenerek kapatılmıştır ve 1,00 USD tutarında bir düzeltme yapılacaktır. Bu durumda aşağıdaki stok girişleri açık stok miktarları içerir:
+<span data-ttu-id="90e98-111">Bu madde ilk giren ilk çıkar (FIFO) stok modeliyle ayarlanmıştır ve stok kapanışı 28 Şubat tarihinde gerçekleştirilmiştir.</span><span class="sxs-lookup"><span data-stu-id="90e98-111">This item was set up with the first in, first out (FIFO) inventory model, and inventory close was performed as of February 28.</span></span> <span data-ttu-id="90e98-112">11,00 USD tutarındaki Mali çıkış hareketi 1 Şubat tarihli mali girişine karşılık eşlenerek kapatılmıştır ve 1,00 USD tutarında bir düzeltme yapılacaktır.</span><span class="sxs-lookup"><span data-stu-id="90e98-112">The financial issue transaction of USD 11.00 will be settled against the financial receipt that is dated February 1, and an adjustment of USD 1.00 will be made.</span></span> <span data-ttu-id="90e98-113">Bu durumda aşağıdaki stok girişleri açık stok miktarları içerir:</span><span class="sxs-lookup"><span data-stu-id="90e98-113">The following inventory receipts will then contain open inventory quantities:</span></span>
 
--   1 Şubat: 10.00 USD maliyetli 1 adet
--   5 Şubat: 13.00 USD maliyetli 1 adet
+-   <span data-ttu-id="90e98-114">1 Şubat: 10.00 USD maliyetli 1 adet</span><span class="sxs-lookup"><span data-stu-id="90e98-114">February 1: A quantity of 1 at a cost of USD 10.00</span></span>
+-   <span data-ttu-id="90e98-115">5 Şubat: 13.00 USD maliyetli 1 adet</span><span class="sxs-lookup"><span data-stu-id="90e98-115">February 5: A quantity of 1 at a cost of USD 13.00</span></span>
 
-Bu iki maddenin maliyetini 15,00 USD olarak ayarlamak için eldeki açık miktarları son stok kapanış dönemi itibariyle ayarlamak için eldeki stoku düzeltme seçeneğini kullanın. **Not:** Hazır ayarlama işleminin nakil tarihi, son envanter kapatma tarihi olacaktır. Bu tarih değiştirilemez.
+<span data-ttu-id="90e98-116">Bu iki maddenin maliyetini 15,00 USD olarak ayarlamak için eldeki açık miktarları son stok kapanış dönemi itibariyle ayarlamak için eldeki stoku düzeltme seçeneğini kullanın.</span><span class="sxs-lookup"><span data-stu-id="90e98-116">To set the cost of these two items to USD 15.00, use the on-hand adjustment option to adjust the open on-hand quantities as of the last inventory close period.</span></span> <span data-ttu-id="90e98-117">**Not:** Hazır ayarlama işleminin nakil tarihi, son envanter kapatma tarihi olacaktır.</span><span class="sxs-lookup"><span data-stu-id="90e98-117">**Note:** The posting date of the on-hand adjustment transaction will be the date of the last inventory close.</span></span> <span data-ttu-id="90e98-118">Bu tarih değiştirilemez.</span><span class="sxs-lookup"><span data-stu-id="90e98-118">This date can't be modified.</span></span>
 

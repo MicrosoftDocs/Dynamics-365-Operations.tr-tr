@@ -16,24 +16,24 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 0599c6e8af6c5c38bf0883e35d908757ddee05b2
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e64563703ed2fa7d1f1f3ca325ab275aa8420d01
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="transfer-data-for-product-models"></a>Ürün modelleri için verileri aktarma
+# <a name="transfer-data-for-product-models"></a><span data-ttu-id="0b5c4-103">Ürün modelleri için verileri aktarma</span><span class="sxs-lookup"><span data-stu-id="0b5c4-103">Transfer data for product models</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bir ürün yapılandırma modeli için verilerin içe aktarılması kullanılabilir en az bir ürün modeline sahip olunmasını gerektirir. Bu yordam, bu model için verilerin nasıl içe aktarılacağını göstermek amacıyla USMF veri şirketindeki son teknoloji hoparlör modelini kullanır.
+<span data-ttu-id="0b5c4-104">Bir ürün yapılandırma modeli için verilerin içe aktarılması kullanılabilir en az bir ürün modeline sahip olunmasını gerektirir.</span><span class="sxs-lookup"><span data-stu-id="0b5c4-104">Exporting data for a product configuration model requires that you have at least one product model available.</span></span> <span data-ttu-id="0b5c4-105">Bu yordam, bu model için verilerin nasıl içe aktarılacağını göstermek amacıyla USMF veri şirketindeki son teknoloji hoparlör modelini kullanır.</span><span class="sxs-lookup"><span data-stu-id="0b5c4-105">This procedure uses the High end speaker model in the demo company USMF to show you how to export data for this model.</span></span>
 
-1. Ürün varyantı model tanımı'na tıklayın.
-2. Ürün yapılandırma modelleri'ne tıklayın.
-3. Listede, istenen kaydı bulun ve seçin.
-    * Bu yordam için son teknoloji hoparlör modelini seçin.  
-4. Eylem Bölmesinde,Model öğesine tıklayın.
-5. Ürün modelini dışa aktar'ı tıklatın.
-    * İndirme davranışı, güvenlik ayarlarının nasıl ayarlandığına bağlı olarak tarayıcıdan tarayıcıya değişir.  
+1. <span data-ttu-id="0b5c4-106">Ürün varyantı model tanımı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0b5c4-106">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="0b5c4-107">Ürün yapılandırma modelleri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0b5c4-107">Click Product configuration models.</span></span>
+3. <span data-ttu-id="0b5c4-108">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="0b5c4-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="0b5c4-109">Bu yordam için son teknoloji hoparlör modelini seçin.</span><span class="sxs-lookup"><span data-stu-id="0b5c4-109">Select the High end speaker model for this procedure.</span></span>  
+4. <span data-ttu-id="0b5c4-110">Eylem Bölmesinde,Model öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0b5c4-110">On the Action Pane, click Model.</span></span>
+5. <span data-ttu-id="0b5c4-111">Ürün modelini dışa aktar'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="0b5c4-111">Click Export product model.</span></span>
+    * <span data-ttu-id="0b5c4-112">İndirme davranışı, güvenlik ayarlarının nasıl ayarlandığına bağlı olarak tarayıcıdan tarayıcıya değişir.</span><span class="sxs-lookup"><span data-stu-id="0b5c4-112">The download behavior varies from browser to browser depending on how the security settings are set up.</span></span>  
 
 

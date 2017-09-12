@@ -17,62 +17,62 @@ ms.assetid: 128340e1-c573-48e6-b835-6c350d8dd0fb
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: a0eeb5a57f9b82150150752c64e89c2c91856889
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 07ed503b7c441cb594e8e96ddcd9a81c0745a963
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="physical-and-financial-updates"></a>Fiziksel ve mali güncellemeler
+# <a name="physical-and-financial-updates"></a><span data-ttu-id="6d1f3-103">Fiziksel ve mali güncellemeler</span><span class="sxs-lookup"><span data-stu-id="6d1f3-103">Physical and financial updates</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu konu hangi türdeki hareketlerin miktarları arttırdığı veya azalttığına ilişkin genel bir bakış sağlar. 
+<span data-ttu-id="6d1f3-104">Bu konu hangi türdeki hareketlerin miktarları arttırdığı veya azalttığına ilişkin genel bir bakış sağlar.</span><span class="sxs-lookup"><span data-stu-id="6d1f3-104">This topic provides an overview of which types of transactions increase or decrease inventory quantities.</span></span> 
 
-Stok hareketleri, Microsoft Dynamics 365 for Finance and Operations'da fiziksel olarak ve mali olarak güncelleştirilebilir. Bazı fiziksel ve mali hareket türleri stok miktarlarını artırırken, bazıları bu miktarlar azaltır.
+<span data-ttu-id="6d1f3-105">Stok hareketleri, Microsoft Dynamics 365 for Finance and Operations'da fiziksel olarak ve mali olarak güncelleştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="6d1f3-105">Inventory transactions can be physically updated and financially updated in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="6d1f3-106">Bazı fiziksel ve mali hareket türleri stok miktarlarını artırırken, bazıları bu miktarlar azaltır.</span><span class="sxs-lookup"><span data-stu-id="6d1f3-106">Some types of physical and financial transactions increase inventory quantities, whereas others decrease the quantity.</span></span>
 
-## <a name="physical-increases"></a>Fiziksel artışlar
-Bir fiziksel hareket nakledildiğinde, hareket kaydının durumu **Alındı** olur. Aşağıdaki hareketler fiziksel artış olarak kabul edilir:
+## <a name="physical-increases"></a><span data-ttu-id="6d1f3-107">Fiziksel artışlar</span><span class="sxs-lookup"><span data-stu-id="6d1f3-107">Physical increases</span></span>
+<span data-ttu-id="6d1f3-108">Bir fiziksel hareket nakledildiğinde, hareket kaydının durumu **Alındı** olur.</span><span class="sxs-lookup"><span data-stu-id="6d1f3-108">When a physical transaction is posted, the status of the transaction record is **Received**.</span></span> <span data-ttu-id="6d1f3-109">Aşağıdaki hareketler fiziksel artış olarak kabul edilir:</span><span class="sxs-lookup"><span data-stu-id="6d1f3-109">The following transactions are considered physical increases:</span></span>
 
--   Satınalma siparişi girişi
--   Satış siparişinin sevk irsaliyesi iadesi
--   Bir üretim emrinin tamamlandı olarak rapor edilmesi
--   Üretim emri malzeme çekme listesinde ürüne göre
+-   <span data-ttu-id="6d1f3-110">Satınalma siparişi girişi</span><span class="sxs-lookup"><span data-stu-id="6d1f3-110">Purchase order receipt</span></span>
+-   <span data-ttu-id="6d1f3-111">Satış siparişinin sevk irsaliyesi iadesi</span><span class="sxs-lookup"><span data-stu-id="6d1f3-111">Sales order packing slip return</span></span>
+-   <span data-ttu-id="6d1f3-112">Bir üretim emrinin tamamlandı olarak rapor edilmesi</span><span class="sxs-lookup"><span data-stu-id="6d1f3-112">Reporting a production order as finished</span></span>
+-   <span data-ttu-id="6d1f3-113">Üretim emri malzeme çekme listesinde ürüne göre</span><span class="sxs-lookup"><span data-stu-id="6d1f3-113">By-product on a production order picking list</span></span>
 
-## <a name="financial-increases"></a>Mali artışlar
-Bir mali giriş hareketi nakledildiğinde, miktarı artıran hareket kaydının durumu **Satın alındı** olur. Aşağıdaki hareketler mali artış olarak kabul edilir:
+## <a name="financial-increases"></a><span data-ttu-id="6d1f3-114">Mali artışlar</span><span class="sxs-lookup"><span data-stu-id="6d1f3-114">Financial increases</span></span>
+<span data-ttu-id="6d1f3-115">Bir mali giriş hareketi nakledildiğinde, miktarı artıran hareket kaydının durumu **Satın alındı** olur.</span><span class="sxs-lookup"><span data-stu-id="6d1f3-115">When a financial receipt transaction is posted, the status of the transaction record that increases the quantity is **Purchased**.</span></span> <span data-ttu-id="6d1f3-116">Aşağıdaki hareketler mali artış olarak kabul edilir:</span><span class="sxs-lookup"><span data-stu-id="6d1f3-116">The following transactions are considered financial increases:</span></span>
 
--   Satıcı faturası
--   İade için satınalma siparişi faturası
--   Üretim emri maliyeti
--   Hareket, kar ve zarar, sayım, malzeme listesi ve transfer vb. gibi pozitif miktar stok günlükleri
+-   <span data-ttu-id="6d1f3-117">Satıcı faturası</span><span class="sxs-lookup"><span data-stu-id="6d1f3-117">Vendor invoice</span></span>
+-   <span data-ttu-id="6d1f3-118">İade için satınalma siparişi faturası</span><span class="sxs-lookup"><span data-stu-id="6d1f3-118">Sales order invoice for a return</span></span>
+-   <span data-ttu-id="6d1f3-119">Üretim emri maliyeti</span><span class="sxs-lookup"><span data-stu-id="6d1f3-119">Production order costing</span></span>
+-   <span data-ttu-id="6d1f3-120">Hareket, kar ve zarar, sayım, malzeme listesi ve transfer vb. gibi pozitif miktar stok günlükleri</span><span class="sxs-lookup"><span data-stu-id="6d1f3-120">Positive quantity inventory journals, such as movement, profit and loss, counting, bill of materials, and transfer</span></span>
 
-## <a name="transactions-that-increase-quantity"></a>Miktarı artıran hareketler
-Miktarı artıran hareketler çalışan ortalama maliyet fiyatı üzerinden nakledilir. Finance and Operations, mali olarak takip edilen her bir stok boyutu için bu hareketlerin her birinin maliyetine dayalı olarak bir çalışan ortalama maliyeti fiyatı hesaplar. Çalışan ortalama maliyet fiyatları hakkında daha fazla bilgi için [Çalışan ortalama maliyet fiyatı](running-average-cost-price.md) bölümüne bakın.
+## <a name="transactions-that-increase-quantity"></a><span data-ttu-id="6d1f3-121">Miktarı artıran hareketler</span><span class="sxs-lookup"><span data-stu-id="6d1f3-121">Transactions that increase quantity</span></span>
+<span data-ttu-id="6d1f3-122">Miktarı artıran hareketler çalışan ortalama maliyet fiyatı üzerinden nakledilir.</span><span class="sxs-lookup"><span data-stu-id="6d1f3-122">Transactions that increase quantity are posted at the running average cost price.</span></span> <span data-ttu-id="6d1f3-123">Finance and Operations, mali olarak takip edilen her bir stok boyutu için bu hareketlerin her birinin maliyetine dayalı olarak bir çalışan ortalama maliyeti fiyatı hesaplar.</span><span class="sxs-lookup"><span data-stu-id="6d1f3-123">Finance and Operations calculates a running average cost price that is based on the cost of each of these transactions for each inventory dimension that is being tracked financially.</span></span> <span data-ttu-id="6d1f3-124">Çalışan ortalama maliyet fiyatları hakkında daha fazla bilgi için [Çalışan ortalama maliyet fiyatı](running-average-cost-price.md) bölümüne bakın.</span><span class="sxs-lookup"><span data-stu-id="6d1f3-124">For information about running average cost prices, see [Running average cost price](running-average-cost-price.md).</span></span>
 
-## <a name="transactions-that-decrease-quantity"></a>Miktarı azaltan hareketler
-Finance and Operations, miktarı azaltan bir hareket nakledildiğinde bu stokla bağlantılı stok modelinden bağımsız olarak, hesaplanan ortalama maliyet fiyatını kullanır. Miktarı azaltan hareket kesinlikle nakledilmeden önce başka bir harekete işaretlenmemiş olmalıdır. Fiziksel eldeki stokun negatif olması durumunda Finance and Operations, madde için **Madde** sayfasında tanımlanan stok maliyetini kullanır. **Not:** Birden fazla saha içeren bir işlev etkinleştirilirse maliyet yerine bir saha için **Varsayılan sipariş ayarları** sayfasında tanımlanan envanter maliyeti kullanılacaktır.
+## <a name="transactions-that-decrease-quantity"></a><span data-ttu-id="6d1f3-125">Miktarı azaltan hareketler</span><span class="sxs-lookup"><span data-stu-id="6d1f3-125">Transactions that decrease quantity</span></span>
+<span data-ttu-id="6d1f3-126">Finance and Operations, miktarı azaltan bir hareket nakledildiğinde bu stokla bağlantılı stok modelinden bağımsız olarak, hesaplanan ortalama maliyet fiyatını kullanır.</span><span class="sxs-lookup"><span data-stu-id="6d1f3-126">Finance and Operations uses the calculated running average cost price when a transaction that decreases quantity is posted, regardless of the inventory model that is associated with that inventory.</span></span> <span data-ttu-id="6d1f3-127">Miktarı azaltan hareket kesinlikle nakledilmeden önce başka bir harekete işaretlenmemiş olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="6d1f3-127">The transaction that decreases quantity must not have been marked to another transaction before it was posted.</span></span> <span data-ttu-id="6d1f3-128">Fiziksel eldeki stokun negatif olması durumunda Finance and Operations, madde için **Madde** sayfasında tanımlanan stok maliyetini kullanır.</span><span class="sxs-lookup"><span data-stu-id="6d1f3-128">If the physical on-hand inventory becomes negative, Finance and Operations uses the inventory cost that is defined for the item on the **Item** page.</span></span> <span data-ttu-id="6d1f3-129">**Not:** Birden fazla saha içeren bir işlev etkinleştirilirse maliyet yerine bir saha için **Varsayılan sipariş ayarları** sayfasında tanımlanan envanter maliyeti kullanılacaktır.</span><span class="sxs-lookup"><span data-stu-id="6d1f3-129">**Note:** If multisite functionality is enabled, this cost will instead be the inventory cost that is defined for a site on the **Default order settings** page.</span></span>
 
-## <a name="physical-issues-vs-financial-issues"></a>Fiziksel çıkışlar ile mali çıkışlar karşılaştırması
-Bir fiziksel çıkış hareketi nakledildiğinde, hareket kaydının durumu **Kesinti yapıldı** olur. Aşağıdaki hareketler fiziksel çıkışlar olarak kabul edilir:
+## <a name="physical-issues-vs-financial-issues"></a><span data-ttu-id="6d1f3-130">Fiziksel çıkışlar ile mali çıkışlar karşılaştırması</span><span class="sxs-lookup"><span data-stu-id="6d1f3-130">Physical issues vs. financial issues</span></span>
+<span data-ttu-id="6d1f3-131">Bir fiziksel çıkış hareketi nakledildiğinde, hareket kaydının durumu **Kesinti yapıldı** olur.</span><span class="sxs-lookup"><span data-stu-id="6d1f3-131">When a physical issue transaction is posted, the status of the transaction record is **Deducted**.</span></span> <span data-ttu-id="6d1f3-132">Aşağıdaki hareketler fiziksel çıkışlar olarak kabul edilir:</span><span class="sxs-lookup"><span data-stu-id="6d1f3-132">The following transactions are considered physical issues:</span></span>
 
--   Üretim emri malzeme çekme listesi günlüğü
--   Satış siparişinin sevk irsaliyesi
--   Satınalma siparişinin sevk irsaliyesi iadesi
+-   <span data-ttu-id="6d1f3-133">Üretim emri malzeme çekme listesi günlüğü</span><span class="sxs-lookup"><span data-stu-id="6d1f3-133">Production order picking list journal</span></span>
+-   <span data-ttu-id="6d1f3-134">Satış siparişinin sevk irsaliyesi</span><span class="sxs-lookup"><span data-stu-id="6d1f3-134">Sales order packing slip</span></span>
+-   <span data-ttu-id="6d1f3-135">Satınalma siparişinin sevk irsaliyesi iadesi</span><span class="sxs-lookup"><span data-stu-id="6d1f3-135">Purchase order packing slip return</span></span>
 
-Bir finansal hareket nakledildiğinde, hareket kaydının durumu **Satılan** olur. Aşağıdaki hareketler mali çıkışlar olarak kabul edilir:
+<span data-ttu-id="6d1f3-136">Bir finansal hareket nakledildiğinde, hareket kaydının durumu **Satılan** olur.</span><span class="sxs-lookup"><span data-stu-id="6d1f3-136">When a financial transaction is posted, the status of the transaction record is **Sold**.</span></span> <span data-ttu-id="6d1f3-137">Aşağıdaki hareketler mali çıkışlar olarak kabul edilir:</span><span class="sxs-lookup"><span data-stu-id="6d1f3-137">The following transactions are considered financial issues:</span></span>
 
--   Bir üretim emrinin sonlandırılması
--   Satış siparişi faturası
--   Satıcı fatura iadesi
--   Hareket, kar ve zarar, sayım, malzeme listesi ve transfer vb. gibi negatif miktar stok günlükleri
+-   <span data-ttu-id="6d1f3-138">Bir üretim emrinin sonlandırılması</span><span class="sxs-lookup"><span data-stu-id="6d1f3-138">Ending a production order</span></span>
+-   <span data-ttu-id="6d1f3-139">Satış siparişi faturası</span><span class="sxs-lookup"><span data-stu-id="6d1f3-139">Sales order invoice</span></span>
+-   <span data-ttu-id="6d1f3-140">Satıcı fatura iadesi</span><span class="sxs-lookup"><span data-stu-id="6d1f3-140">Vendor invoice return</span></span>
+-   <span data-ttu-id="6d1f3-141">Hareket, kar ve zarar, sayım, malzeme listesi ve transfer vb. gibi negatif miktar stok günlükleri</span><span class="sxs-lookup"><span data-stu-id="6d1f3-141">Negative quantity inventory journals, such as movement, profit and loss, counting, bill of materials, and transfer</span></span>
 
-Miktarı azaltan hareketler çalışan ortalama maliyet fiyatı üzerinden nakledilir. Bu nedenle, her bir maddeye atanan stok modeline dayalı olarak, çıkış hareketlerinin giriş hareketlerine kapatılması için stok kapanışı prosedürü uygulanmalıdır.
+<span data-ttu-id="6d1f3-142">Miktarı azaltan hareketler çalışan ortalama maliyet fiyatı üzerinden nakledilir.</span><span class="sxs-lookup"><span data-stu-id="6d1f3-142">Transactions that decrease quantity are posted at the running average cost price.</span></span> <span data-ttu-id="6d1f3-143">Bu nedenle, her bir maddeye atanan stok modeline dayalı olarak, çıkış hareketlerinin giriş hareketlerine kapatılması için stok kapanışı prosedürü uygulanmalıdır.</span><span class="sxs-lookup"><span data-stu-id="6d1f3-143">Therefore, the inventory close procedure is required in order to settle issue transactions to receipt transactions, based on the inventory model that is assigned to each item.</span></span>
 
 
 

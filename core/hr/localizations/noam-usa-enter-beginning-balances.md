@@ -18,155 +18,155 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: d9e3018eb7b6c20cfd5e23a10d15e230009196de
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 736eedf270ac08b0bdf9364821f8a7bae981ade9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="enter-payroll-beginning-balances"></a>Bordro başlangıç bakiyelerini girin
+# <a name="enter-payroll-beginning-balances"></a><span data-ttu-id="24392-104">Bordro başlangıç bakiyelerini girin</span><span class="sxs-lookup"><span data-stu-id="24392-104">Enter payroll beginning balances</span></span>
 
 [!include[banner](../../includes/banner.md)]
 
-Bu konu kazanç kodları, kesintiler, kazançlar ve vergiler girmek için gerekli adımları anlatır. Bu bilgiler, veriyi bir sistemden yeni bir Bordro uygulama sistemine taşıması veya aktaran ortaklar için kullanışlıdır. Bordro bakiyelerini girmeye hazırlanmak için aşağıdaki bilgileri doğrularız:
+<span data-ttu-id="24392-105">Bu konu kazanç kodları, kesintiler, kazançlar ve vergiler girmek için gerekli adımları anlatır.</span><span class="sxs-lookup"><span data-stu-id="24392-105">The topic describes the steps for entering beginning balances for earning codes, deductions, benefits, and taxes.</span></span> <span data-ttu-id="24392-106">Bu bilgiler, veriyi bir sistemden yeni bir Bordro uygulama sistemine taşıması veya aktaran ortaklar için kullanışlıdır.</span><span class="sxs-lookup"><span data-stu-id="24392-106">This information is valuable for partners who transfer data for a new Payroll implementation from another system.</span></span> <span data-ttu-id="24392-107">Bordro bakiyelerini girmeye hazırlanmak için aşağıdaki bilgileri doğrularız:</span><span class="sxs-lookup"><span data-stu-id="24392-107">To prepare to enter beginning payroll balances, we verify the following information:</span></span>
 
-> * Personel kayıtlarının sisteme girilmiş ve kullanılabilir olması
-> * Aşağıdaki verinin personele ayarlanmış ve atanmış olması:
+> * <span data-ttu-id="24392-108">Personel kayıtlarının sisteme girilmiş ve kullanılabilir olması</span><span class="sxs-lookup"><span data-stu-id="24392-108">Employee records are entered and available in the system</span></span>
+> * <span data-ttu-id="24392-109">Aşağıdaki verinin personele ayarlanmış ve atanmış olması:</span><span class="sxs-lookup"><span data-stu-id="24392-109">The following data is set up and assigned to employees:</span></span>
 
-> > * Ödeme döngüleri ve ödeme dönemleri
-> > * Kazanç kodları
-> > * Vergiler
-> > * Kazançlar ve kesintiler
+> > * <span data-ttu-id="24392-110">Ödeme döngüleri ve ödeme dönemleri</span><span class="sxs-lookup"><span data-stu-id="24392-110">Pay cycles and pay periods</span></span>
+> > * <span data-ttu-id="24392-111">Kazanç kodları</span><span class="sxs-lookup"><span data-stu-id="24392-111">Earning codes</span></span>
+> > * <span data-ttu-id="24392-112">Vergiler</span><span class="sxs-lookup"><span data-stu-id="24392-112">Taxes</span></span>
+> > * <span data-ttu-id="24392-113">Kazançlar ve kesintiler</span><span class="sxs-lookup"><span data-stu-id="24392-113">Benefits and deductions</span></span>
 
-> * Şirket, bordro başlangıç bakiyelerinin ayarlanabileceği bir tarih seçmiş olmalıdır.
+> * <span data-ttu-id="24392-114">Şirket, bordro başlangıç bakiyelerinin ayarlanabileceği bir tarih seçmiş olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="24392-114">The company should have chosen a date where payroll beginning balances can be set.</span></span>
 
-> * Bilgi, tüm kazançlardan, kazanç/kesintilerden, kazanç katkılarından, personel vergilerinden ve işveren vergileriyle onların eski sistemden YTD tutarlarından toplanmıştır.
+> * <span data-ttu-id="24392-115">Bilgi, tüm kazançlardan, kazanç/kesintilerden, kazanç katkılarından, personel vergilerinden ve işveren vergileriyle onların eski sistemden YTD tutarlarından toplanmıştır.</span><span class="sxs-lookup"><span data-stu-id="24392-115">Information were gathered on all earnings, benefits/deductions, benefit contributions, employee taxes, and employer taxes and their YTD amounts from the legacy system.</span></span>
 
-Başlangıç bakiyelerini girmeyi planladığınızda, verinin ne kadar ayrıntılı olması gerektiğini göz önünde bulundurun. Çoğu işletme tek bir birleştirilmiş yılbaşından bugüne tutarını girer Ancak, daha ayrıntılı bilgi gerekiyorsa, bakiyeler üç aylık aralıklarla girilebilir. Gerekli olan ayrıntı seviyesine karar vermek, her bir çalışan için kaç adet el ile ödeme ekstresinin oluşturulması gerektiğini belirler. Tek bir yılbaşından bugüne tutarı için her bir çalışana yalnızca bir el ile ekstre gereklidir. Bunu yapmak için önceki sistemden son ödeme ekstresinin yılbaşından bugüne tutarını, yeni bordro sisteminde girilen tutar olarak kullanın.
+<span data-ttu-id="24392-116">Başlangıç bakiyelerini girmeyi planladığınızda, verinin ne kadar ayrıntılı olması gerektiğini göz önünde bulundurun.</span><span class="sxs-lookup"><span data-stu-id="24392-116">As you plan to enter beginning balances, consider how detailed the data needs to be.</span></span> <span data-ttu-id="24392-117">Çoğu işletme tek bir birleştirilmiş yılbaşından bugüne tutarını girer</span><span class="sxs-lookup"><span data-stu-id="24392-117">Most businesses enter a single, consolidated year-to-date amount.</span></span> <span data-ttu-id="24392-118">Ancak, daha ayrıntılı bilgi gerekiyorsa, bakiyeler üç aylık aralıklarla girilebilir.</span><span class="sxs-lookup"><span data-stu-id="24392-118">However if more detailed information is needed, balances can be entered in quarterly increments.</span></span> <span data-ttu-id="24392-119">Gerekli olan ayrıntı seviyesine karar vermek, her bir çalışan için kaç adet el ile ödeme ekstresinin oluşturulması gerektiğini belirler.</span><span class="sxs-lookup"><span data-stu-id="24392-119">Deciding the level of detail that's needed determines how many manual pay statements must be created for each worker.</span></span> <span data-ttu-id="24392-120">Tek bir yılbaşından bugüne tutarı için her bir çalışana yalnızca bir el ile ekstre gereklidir.</span><span class="sxs-lookup"><span data-stu-id="24392-120">For a single year-to-date amount, only one manual statement is needed for each employee.</span></span> <span data-ttu-id="24392-121">Bunu yapmak için önceki sistemden son ödeme ekstresinin yılbaşından bugüne tutarını, yeni bordro sisteminde girilen tutar olarak kullanın.</span><span class="sxs-lookup"><span data-stu-id="24392-121">To do this use year-to-date amounts from the final pay statement from the previous system as the amount entered in the new payroll system.</span></span>
 
-Aşağıdaki örnek kazanç kodları, kazançlar, kesintiler ve vergiler de dahil personel bordro başlangıç bakiyelerini nasıl girebileceğinizi gösterir. Bir gerçek dünya örneğinde, her bir kazanç kodu, kazanç kesintisi, kazanç katkısı, personel vergisi ve işveren vergisi için yılbaşından bugüne tutarında girilen tutar satır öğesine sahip olacaksınız. Kodların ve tutarların bu listesini kullanarak, başlangıç bakiyelerini bordo amacıyla getirmek için muhasebe devre dışıyken bir el ile ödeme ve maaş ekstresini oluşturmak için izleyin.  Başlangıç bakiyesi ödeme ekstresini genel muhasebe defterinize nakletmek istemediğiniz için muhasebeyi devre dışı bırakırsınız. Bu eski sistemde yapılmıştır ve Genel muhasebede başlangıç bakiyelerini ayarladığınızda gelecektir.
+<span data-ttu-id="24392-122">Aşağıdaki örnek kazanç kodları, kazançlar, kesintiler ve vergiler de dahil personel bordro başlangıç bakiyelerini nasıl girebileceğinizi gösterir.</span><span class="sxs-lookup"><span data-stu-id="24392-122">The following example shows how you can enter employee payroll beginning balances, including earning codes, benefits/deductions, and taxes.</span></span> <span data-ttu-id="24392-123">Bir gerçek dünya örneğinde, her bir kazanç kodu, kazanç kesintisi, kazanç katkısı, personel vergisi ve işveren vergisi için yılbaşından bugüne tutarında girilen tutar satır öğesine sahip olacaksınız.</span><span class="sxs-lookup"><span data-stu-id="24392-123">In a real-world example you would have a line item for each earning code, benefit deduction, benefit contribution, employee tax and employer tax with the amount entered being the year-to-date amount.</span></span> <span data-ttu-id="24392-124">Kodların ve tutarların bu listesini kullanarak, başlangıç bakiyelerini bordo amacıyla getirmek için muhasebe devre dışıyken bir el ile ödeme ve maaş ekstresini oluşturmak için izleyin.</span><span class="sxs-lookup"><span data-stu-id="24392-124">Using that list of codes and amounts, follow the steps for creating a manual earning and pay statement with accounting disabled to bring over beginning balances for payroll purposes.</span></span>  <span data-ttu-id="24392-125">Başlangıç bakiyesi ödeme ekstresini genel muhasebe defterinize nakletmek istemediğiniz için muhasebeyi devre dışı bırakırsınız.</span><span class="sxs-lookup"><span data-stu-id="24392-125">You disable accounting because you won't want to post this beginning balance pay statement to your general ledger.</span></span> <span data-ttu-id="24392-126">Bu eski sistemde yapılmıştır ve Genel muhasebede başlangıç bakiyelerini ayarladığınızda gelecektir.</span><span class="sxs-lookup"><span data-stu-id="24392-126">That was done in the legacy system and will come over to the new system when you set beginning balances in General ledger.</span></span>
 
-### <a name="a-how-to-set-up-earnings-codes-to-be-used-on-payroll-beginning-balances"></a>A. Bordro başlangıç bakiyelerinde kullanılacak kazanç kodlarının ayarlanması
-Bordro başlangıç bakiyeleri girdiğinizde, kullanacağınız kazanç kodlarının "Kazanç ekstresi oranlarının düzenlenmesine izin ver" seçeneği etkin olarak yapılandırılmış olduğundan emin olun. Bu, eski sistemden tutarı el ile girmenize izin verecektir. 
+### <a name="a-how-to-set-up-earnings-codes-to-be-used-on-payroll-beginning-balances"></a><span data-ttu-id="24392-127">A.</span><span class="sxs-lookup"><span data-stu-id="24392-127">A.</span></span> <span data-ttu-id="24392-128">Bordro başlangıç bakiyelerinde kullanılacak kazanç kodlarının ayarlanması</span><span class="sxs-lookup"><span data-stu-id="24392-128">How to set up earnings codes to be used on payroll beginning balances</span></span>
+<span data-ttu-id="24392-129">Bordro başlangıç bakiyeleri girdiğinizde, kullanacağınız kazanç kodlarının "Kazanç ekstresi oranlarının düzenlenmesine izin ver" seçeneği etkin olarak yapılandırılmış olduğundan emin olun.</span><span class="sxs-lookup"><span data-stu-id="24392-129">When you enter payroll beginning balances, be sure the earning codes that you will be using are configured with the "Allow editing of earning statement rates" option enabled.</span></span> <span data-ttu-id="24392-130">Bu, eski sistemden tutarı el ile girmenize izin verecektir.</span><span class="sxs-lookup"><span data-stu-id="24392-130">This will allow you to manually key the amount from the legacy system.</span></span> 
 
-### <a name="b-create-earnings-statement-for-an-employee-to-have-a-beginning-balance"></a>B. Bir personelin bir başlangıç bakiyesine sahip olması için kazanç ekstreleri oluşturun
-Bu adım, eski sistemin son gün dönemi için, her bir çalışana bir kazanç ekstresini el ile yaratır ve bu da yeni bordro sisteminde kazanç ekstresi satırlarını oluşturur. Kazanç kodu başına bir satır ve YTD tutarını ve saatlerini girin. Örnek adımlar aşağıdaki gibidir:
+### <a name="b-create-earnings-statement-for-an-employee-to-have-a-beginning-balance"></a><span data-ttu-id="24392-131">B.</span><span class="sxs-lookup"><span data-stu-id="24392-131">B.</span></span> <span data-ttu-id="24392-132">Bir personelin bir başlangıç bakiyesine sahip olması için kazanç ekstreleri oluşturun</span><span class="sxs-lookup"><span data-stu-id="24392-132">Create earnings statement for an employee to have a beginning balance</span></span>
+<span data-ttu-id="24392-133">Bu adım, eski sistemin son gün dönemi için, her bir çalışana bir kazanç ekstresini el ile yaratır ve bu da yeni bordro sisteminde kazanç ekstresi satırlarını oluşturur.</span><span class="sxs-lookup"><span data-stu-id="24392-133">This step manually creates an earnings statement for each worker for the last pay period of the legacy system, which creates the earning statement lines in the new payroll system.</span></span> <span data-ttu-id="24392-134">Kazanç kodu başına bir satır ve YTD tutarını ve saatlerini girin.</span><span class="sxs-lookup"><span data-stu-id="24392-134">Enter one line per earning code and the YTD amount and hours.</span></span> <span data-ttu-id="24392-135">Örnek adımlar aşağıdaki gibidir:</span><span class="sxs-lookup"><span data-stu-id="24392-135">The sample steps are as follows:</span></span>
 
-1. **Tüm kazançlar ekstreleri** sayfasını açın ve **Yeni** üzerine tıklayın.  
+1. <span data-ttu-id="24392-136">**Tüm kazançlar ekstreleri** sayfasını açın ve **Yeni** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="24392-136">Open the **All earnings statements** page and click **New**.</span></span>  
 
-Aşağıdakileri girin: 
+<span data-ttu-id="24392-137">Aşağıdakileri girin:</span><span class="sxs-lookup"><span data-stu-id="24392-137">Enter the following:</span></span> 
 
-| Alan      | Değer                 |
+| <span data-ttu-id="24392-138">Alan</span><span class="sxs-lookup"><span data-stu-id="24392-138">Field</span></span>      | <span data-ttu-id="24392-139">Değer</span><span class="sxs-lookup"><span data-stu-id="24392-139">Value</span></span>                 |
 |------------|-----------------------|
-| Çalışan     | Michael Redmond       |
-| Ödeme döngüsü  | sm                    |
-| Ödeme dönemi | 16/06/2017- 30/06/2017 |
+| <span data-ttu-id="24392-140">Çalışan</span><span class="sxs-lookup"><span data-stu-id="24392-140">Worker</span></span>     | <span data-ttu-id="24392-141">Michael Redmond</span><span class="sxs-lookup"><span data-stu-id="24392-141">Michael Redmond</span></span>       |
+| <span data-ttu-id="24392-142">Ödeme döngüsü</span><span class="sxs-lookup"><span data-stu-id="24392-142">Pay cycle</span></span>  | <span data-ttu-id="24392-143">sm</span><span class="sxs-lookup"><span data-stu-id="24392-143">sm</span></span>                    |
+| <span data-ttu-id="24392-144">Ödeme dönemi</span><span class="sxs-lookup"><span data-stu-id="24392-144">Pay period</span></span> | <span data-ttu-id="24392-145">16/06/2017- 30/06/2017</span><span class="sxs-lookup"><span data-stu-id="24392-145">6/16/2017 - 6/30/2017</span></span> |
 
-2. **Kazanç ekstre satırı** sekmesinde aşağıdakini girin:
+2. <span data-ttu-id="24392-146">**Kazanç ekstre satırı** sekmesinde aşağıdakini girin:</span><span class="sxs-lookup"><span data-stu-id="24392-146">In the **Earnings statement line** tab, enter the following:</span></span>
 
-Satır 1: **Kazanç ekstre satırı** sekmesi
+<span data-ttu-id="24392-147">Satır 1: **Kazanç ekstre satırı** sekmesi</span><span class="sxs-lookup"><span data-stu-id="24392-147">Line 1: **Earning statement line** tab</span></span>
 
-| Alan            | Değer       |
+| <span data-ttu-id="24392-148">Alan</span><span class="sxs-lookup"><span data-stu-id="24392-148">Field</span></span>            | <span data-ttu-id="24392-149">Değer</span><span class="sxs-lookup"><span data-stu-id="24392-149">Value</span></span>       |
 |------------------|-------------|
-| Kazançlar kodu    | Düzenli ödeme |
-| Miktar         | 1.00        |
-| Ücret             | 30.000      |
-| Satır ayrıntıları sekmesi |             |
-| El ile           | (işaretli)    |
+| <span data-ttu-id="24392-150">Kazançlar kodu</span><span class="sxs-lookup"><span data-stu-id="24392-150">Earnings code</span></span>    | <span data-ttu-id="24392-151">Düzenli ödeme</span><span class="sxs-lookup"><span data-stu-id="24392-151">Regular pay</span></span> |
+| <span data-ttu-id="24392-152">Miktar</span><span class="sxs-lookup"><span data-stu-id="24392-152">Quantity</span></span>         | <span data-ttu-id="24392-153">1.00</span><span class="sxs-lookup"><span data-stu-id="24392-153">1.00</span></span>        |
+| <span data-ttu-id="24392-154">Ücret</span><span class="sxs-lookup"><span data-stu-id="24392-154">Rage</span></span>             | <span data-ttu-id="24392-155">30.000</span><span class="sxs-lookup"><span data-stu-id="24392-155">30,000</span></span>      |
+| <span data-ttu-id="24392-156">Satır ayrıntıları sekmesi</span><span class="sxs-lookup"><span data-stu-id="24392-156">Line details tab</span></span> |             |
+| <span data-ttu-id="24392-157">El ile</span><span class="sxs-lookup"><span data-stu-id="24392-157">Manual</span></span>           | <span data-ttu-id="24392-158">(işaretli)</span><span class="sxs-lookup"><span data-stu-id="24392-158">(marked)</span></span>    |
 
-Satır 2: **Kazanç ekstre satırı** sekmesi
+<span data-ttu-id="24392-159">Satır 2: **Kazanç ekstre satırı** sekmesi</span><span class="sxs-lookup"><span data-stu-id="24392-159">Line 2: **Earning statement line** tab</span></span>
 
-| Alan            | Değer    |
+| <span data-ttu-id="24392-160">Alan</span><span class="sxs-lookup"><span data-stu-id="24392-160">Field</span></span>            | <span data-ttu-id="24392-161">Değer</span><span class="sxs-lookup"><span data-stu-id="24392-161">Value</span></span>    |
 |------------------|----------|
-| Kazançlar kodu    | Prim    |
-| Miktar         | 1,0000   |
-| Ücret             | 4250,00  |
-| Satır ayrıntıları sekmesi |          |
-| El ile           | (işaretli) |
+| <span data-ttu-id="24392-162">Kazançlar kodu</span><span class="sxs-lookup"><span data-stu-id="24392-162">Earnings code</span></span>    | <span data-ttu-id="24392-163">Prim</span><span class="sxs-lookup"><span data-stu-id="24392-163">Bonus</span></span>    |
+| <span data-ttu-id="24392-164">Miktar</span><span class="sxs-lookup"><span data-stu-id="24392-164">Quantity</span></span>         | <span data-ttu-id="24392-165">1,0000</span><span class="sxs-lookup"><span data-stu-id="24392-165">1.0000</span></span>   |
+| <span data-ttu-id="24392-166">Ücret</span><span class="sxs-lookup"><span data-stu-id="24392-166">Rate</span></span>             | <span data-ttu-id="24392-167">4250,00</span><span class="sxs-lookup"><span data-stu-id="24392-167">4250.00</span></span>  |
+| <span data-ttu-id="24392-168">Satır ayrıntıları sekmesi</span><span class="sxs-lookup"><span data-stu-id="24392-168">Line details tab</span></span> |          |
+| <span data-ttu-id="24392-169">El ile</span><span class="sxs-lookup"><span data-stu-id="24392-169">Manual</span></span>           | <span data-ttu-id="24392-170">(işaretli)</span><span class="sxs-lookup"><span data-stu-id="24392-170">(marked)</span></span> |
 
-Satır 3: **Kazanç ekstre satırı** sekmesi
+<span data-ttu-id="24392-171">Satır 3: **Kazanç ekstre satırı** sekmesi</span><span class="sxs-lookup"><span data-stu-id="24392-171">Line 3: **Earning statement line** tab</span></span>
 
-| Alan           | Değer      |
+| <span data-ttu-id="24392-172">Alan</span><span class="sxs-lookup"><span data-stu-id="24392-172">Field</span></span>           | <span data-ttu-id="24392-173">Değer</span><span class="sxs-lookup"><span data-stu-id="24392-173">Value</span></span>      |
 |-----------------|------------|
-| Kazançlar kodu   | Komisyon |
-| Miktar        | 1,0000     |
-| Ücret            | !.299,00   |
-| Ücret            | 1,299.00   |
-| Satır ayrıntı sekmesi |            |
-| El ile          | (İşaretli)   |
+| <span data-ttu-id="24392-174">Kazançlar kodu</span><span class="sxs-lookup"><span data-stu-id="24392-174">Earnings code</span></span>   | <span data-ttu-id="24392-175">Komisyon</span><span class="sxs-lookup"><span data-stu-id="24392-175">Commission</span></span> |
+| <span data-ttu-id="24392-176">Miktar</span><span class="sxs-lookup"><span data-stu-id="24392-176">Quantity</span></span>        | <span data-ttu-id="24392-177">1,0000</span><span class="sxs-lookup"><span data-stu-id="24392-177">1.0000</span></span>     |
+| <span data-ttu-id="24392-178">Ücret</span><span class="sxs-lookup"><span data-stu-id="24392-178">Rate</span></span>            | <span data-ttu-id="24392-179">!.299,00</span><span class="sxs-lookup"><span data-stu-id="24392-179">!,299.00</span></span>   |
+| <span data-ttu-id="24392-180">Ücret</span><span class="sxs-lookup"><span data-stu-id="24392-180">Rate</span></span>            | <span data-ttu-id="24392-181">1,299.00</span><span class="sxs-lookup"><span data-stu-id="24392-181">1,299.00</span></span>   |
+| <span data-ttu-id="24392-182">Satır ayrıntı sekmesi</span><span class="sxs-lookup"><span data-stu-id="24392-182">Line detail tab</span></span> |            |
+| <span data-ttu-id="24392-183">El ile</span><span class="sxs-lookup"><span data-stu-id="24392-183">Manual</span></span>          | <span data-ttu-id="24392-184">(İşaretli)</span><span class="sxs-lookup"><span data-stu-id="24392-184">(Marked)</span></span>   |
 
 > [!NOTE]
-> **Satır Ayrıntıları** sekmesinde **El ile** kaydırıcısının ayarını her bir kazanç ekstre satırını için **Evet** olarak işaretlemek, her bir çalışan için bordro başlangıç bakiyelerinin girilmesini sağlamak için önemlidir.
+> <span data-ttu-id="24392-185">**Satır Ayrıntıları** sekmesinde **El ile** kaydırıcısının ayarını her bir kazanç ekstre satırını için **Evet** olarak işaretlemek, her bir çalışan için bordro başlangıç bakiyelerinin girilmesini sağlamak için önemlidir.</span><span class="sxs-lookup"><span data-stu-id="24392-185">Setting the **Manual** slider to **Yes** in the **Line Details** tab for each earnings statement line is key to have payroll beginning balances entered for each worker.</span></span>
 
-3. **Eylem** bölmesinde, **Kazanç ekstrelerini serbest bırak** USA-FED-ER-FICA üzerine tıklayın.
+3. <span data-ttu-id="24392-186">**Eylem** bölmesinde, **Kazanç ekstrelerini serbest bırak** USA-FED-ER-FICA üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="24392-186">On the **Action** pane, click **Release earnings statement** USA-FED-ER-FICA.</span></span>
 
-4. **Eylem** bölmesinde, **Ödeme ekstresi** üzerine tıklayarak **Ödeme ekstreleri oluştur** sayfasını açın ve aşağıdakileri ayarlayın:
+4. <span data-ttu-id="24392-187">**Eylem** bölmesinde, **Ödeme ekstresi** üzerine tıklayarak **Ödeme ekstreleri oluştur** sayfasını açın ve aşağıdakileri ayarlayın:</span><span class="sxs-lookup"><span data-stu-id="24392-187">On the **Action** pane click **Pay statement** to open the **Generate pay statements** page and set the following:</span></span>
 
-| Alan              | Değer     |
+| <span data-ttu-id="24392-188">Alan</span><span class="sxs-lookup"><span data-stu-id="24392-188">Field</span></span>              | <span data-ttu-id="24392-189">Değer</span><span class="sxs-lookup"><span data-stu-id="24392-189">Value</span></span>     |
 |--------------------|-----------|
-| Ödeme tarihi       | 30/06/2017 |
-| Ödeme işlemi türü   | El ile    |
-| Muhasebeyi devre dışı bırak |   Evet     |
+| <span data-ttu-id="24392-190">Ödeme tarihi</span><span class="sxs-lookup"><span data-stu-id="24392-190">Payment date</span></span>       | <span data-ttu-id="24392-191">30/06/2017</span><span class="sxs-lookup"><span data-stu-id="24392-191">6/30/2017</span></span> |
+| <span data-ttu-id="24392-192">Ödeme işlemi türü</span><span class="sxs-lookup"><span data-stu-id="24392-192">Payment run type</span></span>   | <span data-ttu-id="24392-193">El ile</span><span class="sxs-lookup"><span data-stu-id="24392-193">Manual</span></span>    |
+| <span data-ttu-id="24392-194">Muhasebeyi devre dışı bırak</span><span class="sxs-lookup"><span data-stu-id="24392-194">Disable accounting</span></span> |   <span data-ttu-id="24392-195">Evet</span><span class="sxs-lookup"><span data-stu-id="24392-195">Yes</span></span>     |
 
 > [!NOTE] 
-> Bu, yalnızca ödeme yürütme türü el ile olduğunda ve kullanıcının ödeme çalıştırmasında muhasebeyi devre dışı bırakmak istediğinde kullanılabilir.
+> <span data-ttu-id="24392-196">Bu, yalnızca ödeme yürütme türü el ile olduğunda ve kullanıcının ödeme çalıştırmasında muhasebeyi devre dışı bırakmak istediğinde kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="24392-196">This is only available when the payment run type is manual and wherein the user want to disable accounting on the pay run.</span></span>
 
-**Tamam** üzerine tıklayın ve **Bilgi günlüğü**'nü kapatın.
+<span data-ttu-id="24392-197">**Tamam** üzerine tıklayın ve **Bilgi günlüğü**'nü kapatın.</span><span class="sxs-lookup"><span data-stu-id="24392-197">Click **OK** and close the **Infolog**.</span></span>
 
-#### <a name="why-the-disable-accounting-slider-needs-to-set-to-yes-when-generating-pay-statements"></a>Ödeme ekstreleri oluştururken Muhasebeyi Devre Dışı Bırak kaydırıcısı neden Evet olmalıdır?
-Kaydırıcıyı **Evet** olarak ayarlamak, ödeme ekstresindeki satırların Genel muhasebeye dağıtılmasını engeller. Genel muhasebe tutarları, eski sistemden hesap bakiyeleri girildiğinde güncelleştirilmekteydi. Bordro için başlangıç bakiyeleri girmek, önceki yıllardan bilgi içeren raporlar oluşturmanıza ve kazanç ve vergi amaçlı sınırlamaları belirlemenize olanak sağlar.   
+#### <a name="why-the-disable-accounting-slider-needs-to-set-to-yes-when-generating-pay-statements"></a><span data-ttu-id="24392-198">Ödeme ekstreleri oluştururken Muhasebeyi Devre Dışı Bırak kaydırıcısı neden Evet olmalıdır?</span><span class="sxs-lookup"><span data-stu-id="24392-198">Why the Disable Accounting slider needs to set to Yes when generating pay statements?</span></span>
+<span data-ttu-id="24392-199">Kaydırıcıyı **Evet** olarak ayarlamak, ödeme ekstresindeki satırların Genel muhasebeye dağıtılmasını engeller.</span><span class="sxs-lookup"><span data-stu-id="24392-199">Setting the slider to **Yes** prevents lines in the pay statement from being districuted to General ledger.</span></span> <span data-ttu-id="24392-200">Genel muhasebe tutarları, eski sistemden hesap bakiyeleri girildiğinde güncelleştirilmekteydi.</span><span class="sxs-lookup"><span data-stu-id="24392-200">General ledger amounts were updating earlier when account balances from the legacy system were entered.</span></span> <span data-ttu-id="24392-201">Bordro için başlangıç bakiyeleri girmek, önceki yıllardan bilgi içeren raporlar oluşturmanıza ve kazanç ve vergi amaçlı sınırlamaları belirlemenize olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="24392-201">Entering beginning balances for Payroll lets you generate reports that include information from prior years, as well as for identifying limits for benefit and tax purposes.</span></span>   
 
-### <a name="c-create-pay-statements-for-employees"></a>C. Personeller için ödeme ekstreleri oluştur
-Başlangıç bakiyelerine sahip ödeme ekstreleri oluşturduktan sonra, ödeme ekstrelerinin bordro verisini doğru şekilde yansıttığını doğrulamanız gerekir. Kazanç ve vergi bilgisini de önceki bordro sistemindeki verilerle eşleşecek şekilde el ile güncelleştirmeniz gerekir. Önceki bordro sisteminden tutarları, geçerli ödeme ekstrelerindeki tutarlarla eşleştiğini doğruladıktan sonra, ödeme ekstrelerini sonlandırmanız gerekir.
+### <a name="c-create-pay-statements-for-employees"></a><span data-ttu-id="24392-202">C.</span><span class="sxs-lookup"><span data-stu-id="24392-202">C.</span></span> <span data-ttu-id="24392-203">Personeller için ödeme ekstreleri oluştur</span><span class="sxs-lookup"><span data-stu-id="24392-203">Create pay statements for employees</span></span>
+<span data-ttu-id="24392-204">Başlangıç bakiyelerine sahip ödeme ekstreleri oluşturduktan sonra, ödeme ekstrelerinin bordro verisini doğru şekilde yansıttığını doğrulamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="24392-204">After you generate pay statements that have beginning balances, you must verify that the pay statements accurately reflect payroll data.</span></span> <span data-ttu-id="24392-205">Kazanç ve vergi bilgisini de önceki bordro sistemindeki verilerle eşleşecek şekilde el ile güncelleştirmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="24392-205">You must also manually update the benefit and taxes information to match the values in the previous payroll system.</span></span> <span data-ttu-id="24392-206">Önceki bordro sisteminden tutarları, geçerli ödeme ekstrelerindeki tutarlarla eşleştiğini doğruladıktan sonra, ödeme ekstrelerini sonlandırmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="24392-206">After you verify that the amounts from the previous payroll system match the amounts on the current pay statements, you must finalize the pay statements.</span></span>
 
-1. **Tüm ödeme ekstreleri** sayfasını açın.
+1. <span data-ttu-id="24392-207">**Tüm ödeme ekstreleri** sayfasını açın.</span><span class="sxs-lookup"><span data-stu-id="24392-207">Open the **All pay statements** page.</span></span>
 
-2. Michael Redmond için son oluşturulan ödeme ekstresini vurgulayın
+2. <span data-ttu-id="24392-208">Michael Redmond için son oluşturulan ödeme ekstresini vurgulayın</span><span class="sxs-lookup"><span data-stu-id="24392-208">Highlight the last generated pay statement for Michael Redmond</span></span>
 
-3. **Ödeme ekstresi** sayfasını açmak için **Düzenle** üzerine tıklayın.
+3. <span data-ttu-id="24392-209">**Ödeme ekstresi** sayfasını açmak için **Düzenle** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="24392-209">Click **Edit** to open the **Pay statement** page.</span></span>
 
-4. **Kazanç kesintileri** sekmesini açın ve aşağıdakini girin:
+4. <span data-ttu-id="24392-210">**Kazanç kesintileri** sekmesini açın ve aşağıdakini girin:</span><span class="sxs-lookup"><span data-stu-id="24392-210">Open the **Benefit deductions** tab and enter the following:</span></span>
 
-| Alan                           | Değer            |
+| <span data-ttu-id="24392-211">Alan</span><span class="sxs-lookup"><span data-stu-id="24392-211">Field</span></span>                           | <span data-ttu-id="24392-212">Değer</span><span class="sxs-lookup"><span data-stu-id="24392-212">Value</span></span>            |
 |---------------------------------|------------------|
-| Kazanç                         | Kesinti tutarı |
-| 401K | Katıl              | 3000,00          |
-| Diş | SubSp                  | 495.00           |
-| Dep bakım harcaması | Katıl | 2500,00          |
-| Görme | SupSp                  | 500.00           |
+| <span data-ttu-id="24392-213">Kazanç</span><span class="sxs-lookup"><span data-stu-id="24392-213">Benefit</span></span>                         | <span data-ttu-id="24392-214">Kesinti tutarı</span><span class="sxs-lookup"><span data-stu-id="24392-214">Deduction amount</span></span> |
+| <span data-ttu-id="24392-215">401K</span><span class="sxs-lookup"><span data-stu-id="24392-215">401K</span></span> | <span data-ttu-id="24392-216">Katıl</span><span class="sxs-lookup"><span data-stu-id="24392-216">Participate</span></span>              | <span data-ttu-id="24392-217">3000,00</span><span class="sxs-lookup"><span data-stu-id="24392-217">3000.00</span></span>          |
+| <span data-ttu-id="24392-218">Diş</span><span class="sxs-lookup"><span data-stu-id="24392-218">Dental</span></span> | <span data-ttu-id="24392-219">SubSp</span><span class="sxs-lookup"><span data-stu-id="24392-219">SubSp</span></span>                  | <span data-ttu-id="24392-220">495.00</span><span class="sxs-lookup"><span data-stu-id="24392-220">495.00</span></span>           |
+| <span data-ttu-id="24392-221">Dep bakım harcaması</span><span class="sxs-lookup"><span data-stu-id="24392-221">Dep care spending</span></span> | <span data-ttu-id="24392-222">Katıl</span><span class="sxs-lookup"><span data-stu-id="24392-222">Participate</span></span> | <span data-ttu-id="24392-223">2500,00</span><span class="sxs-lookup"><span data-stu-id="24392-223">2500.00</span></span>          |
+| <span data-ttu-id="24392-224">Görme</span><span class="sxs-lookup"><span data-stu-id="24392-224">Vision</span></span> | <span data-ttu-id="24392-225">SupSp</span><span class="sxs-lookup"><span data-stu-id="24392-225">SupSp</span></span>                  | <span data-ttu-id="24392-226">500.00</span><span class="sxs-lookup"><span data-stu-id="24392-226">500.00</span></span>           |
 
-5. **Kazanç katkıları** sekmesinde aşağıdakileri girin:
+5. <span data-ttu-id="24392-227">**Kazanç katkıları** sekmesinde aşağıdakileri girin:</span><span class="sxs-lookup"><span data-stu-id="24392-227">In the **Benefit contributions** tab and enter the following:</span></span>
 
-| Alan              | Değer               |
+| <span data-ttu-id="24392-228">Alan</span><span class="sxs-lookup"><span data-stu-id="24392-228">Field</span></span>              | <span data-ttu-id="24392-229">Değer</span><span class="sxs-lookup"><span data-stu-id="24392-229">Value</span></span>               |
 |--------------------|---------------------|
-| Kazanç            | Katkı tutarı |
-| 401K | Katıl | 3000,00             |
-| Diş | SubSp     | 495.00              |
-| Görme | SubSp     | 500.00              |
+| <span data-ttu-id="24392-230">Kazanç</span><span class="sxs-lookup"><span data-stu-id="24392-230">Benefit</span></span>            | <span data-ttu-id="24392-231">Katkı tutarı</span><span class="sxs-lookup"><span data-stu-id="24392-231">Contribution amount</span></span> |
+| <span data-ttu-id="24392-232">401K</span><span class="sxs-lookup"><span data-stu-id="24392-232">401K</span></span> | <span data-ttu-id="24392-233">Katıl</span><span class="sxs-lookup"><span data-stu-id="24392-233">Participate</span></span> | <span data-ttu-id="24392-234">3000,00</span><span class="sxs-lookup"><span data-stu-id="24392-234">3000,00</span></span>             |
+| <span data-ttu-id="24392-235">Diş</span><span class="sxs-lookup"><span data-stu-id="24392-235">Dental</span></span> | <span data-ttu-id="24392-236">SubSp</span><span class="sxs-lookup"><span data-stu-id="24392-236">SubSp</span></span>     | <span data-ttu-id="24392-237">495.00</span><span class="sxs-lookup"><span data-stu-id="24392-237">495.00</span></span>              |
+| <span data-ttu-id="24392-238">Görme</span><span class="sxs-lookup"><span data-stu-id="24392-238">Vision</span></span> | <span data-ttu-id="24392-239">SubSp</span><span class="sxs-lookup"><span data-stu-id="24392-239">SubSp</span></span>     | <span data-ttu-id="24392-240">500.00</span><span class="sxs-lookup"><span data-stu-id="24392-240">500.00</span></span>              |
 
-6. **Vergi kesintileri** sekmesinde aşağıdakileri girin:
+6. <span data-ttu-id="24392-241">**Vergi kesintileri** sekmesinde aşağıdakileri girin:</span><span class="sxs-lookup"><span data-stu-id="24392-241">In the **Tax deductions** tab, enter the following:</span></span>
 
-| Alan           | Değer            |
+| <span data-ttu-id="24392-242">Alan</span><span class="sxs-lookup"><span data-stu-id="24392-242">Field</span></span>           | <span data-ttu-id="24392-243">Değer</span><span class="sxs-lookup"><span data-stu-id="24392-243">Value</span></span>            |
 |-----------------|------------------|
-| Vergi kodu.        | Kesinti tutarı |
-| USA-FED-ER-FICA | 1600,00          |
-| USA-FED-ER-MEDI | 825,75           |
+| <span data-ttu-id="24392-244">Vergi kodu.</span><span class="sxs-lookup"><span data-stu-id="24392-244">Tax code</span></span>        | <span data-ttu-id="24392-245">Kesinti tutarı</span><span class="sxs-lookup"><span data-stu-id="24392-245">Deduction amount</span></span> |
+| <span data-ttu-id="24392-246">USA-FED-ER-FICA</span><span class="sxs-lookup"><span data-stu-id="24392-246">USA-FED-ER-FICA</span></span> | <span data-ttu-id="24392-247">1600,00</span><span class="sxs-lookup"><span data-stu-id="24392-247">1600.00</span></span>          |
+| <span data-ttu-id="24392-248">USA-FED-ER-MEDI</span><span class="sxs-lookup"><span data-stu-id="24392-248">USA-FED-ER-MEDI</span></span> | <span data-ttu-id="24392-249">825,75</span><span class="sxs-lookup"><span data-stu-id="24392-249">825.75</span></span>           |
 
-7. **Vergi katkıları** sekmesinde aşağıdakileri girin:
+7. <span data-ttu-id="24392-250">**Vergi katkıları** sekmesinde aşağıdakileri girin:</span><span class="sxs-lookup"><span data-stu-id="24392-250">In the **Tax contributions** tab enter the following:</span></span>
 
-8. **Hesapla** üzerine tıklayın.
+8. <span data-ttu-id="24392-251">**Hesapla** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="24392-251">Click **Calculate**.</span></span>
 > [!IMPORTANT] 
-> Çalışan için ödeme ekstresi toplamlarının eski sistemin YTD'si ile eşleştiğini doğrulayın. Tüm ödeme ekstrelerinin toplamında bazı genel doğrulamalar gerçekleştirmek için sonraki adımda sonlandırmayı bekletmek isteyebilirsiniz. Doğrulandıktan sonra, tüm ödeme ekstreleri arasında çalıştırın ve onları sonlandırın.
+> <span data-ttu-id="24392-252">Çalışan için ödeme ekstresi toplamlarının eski sistemin YTD'si ile eşleştiğini doğrulayın.</span><span class="sxs-lookup"><span data-stu-id="24392-252">Validate the totals of the pay statement that they match the YTD of the legacy system for the worker.</span></span> <span data-ttu-id="24392-253">Tüm ödeme ekstrelerinin toplamında bazı genel doğrulamalar gerçekleştirmek için sonraki adımda sonlandırmayı bekletmek isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="24392-253">You may want to hold off on finalizing in the next step to do some overall validating of all pay statements in aggregate.</span></span> <span data-ttu-id="24392-254">Doğrulandıktan sonra, tüm ödeme ekstreleri arasında çalıştırın ve onları sonlandırın.</span><span class="sxs-lookup"><span data-stu-id="24392-254">Once validated run through all the pay statements and finalize them.</span></span>
 
-Aynı işlem gerek duyulursa, yıl içerisindeki tüm önceki çeyrekler için üç aylık aralıklarla yapılabilir. Bu yalnızca müşterinin eski sisteme geri gitmeden veriyi üç alık olarak görmesi gerekiyorsa gereklidir.
+<span data-ttu-id="24392-255">Aynı işlem gerek duyulursa, yıl içerisindeki tüm önceki çeyrekler için üç aylık aralıklarla yapılabilir.</span><span class="sxs-lookup"><span data-stu-id="24392-255">The same process can be done in quarter increments if necessary for all prior quarters in each year.</span></span> <span data-ttu-id="24392-256">Bu yalnızca müşterinin eski sisteme geri gitmeden veriyi üç alık olarak görmesi gerekiyorsa gereklidir.</span><span class="sxs-lookup"><span data-stu-id="24392-256">This is only needed if the customer needs to see the data by quarter without going back to the legacy system.</span></span>
 
-## <a name="if-you-make-a-mistake-entering-beginning-balances-for-an-employee"></a>Bir Personel için Başlangıç Bakiyelerini girerken bir hata yaptıysanız
-Hareketleri geri almak ve yeniden girmek mümkündür. Hareketleri geri almak için tek yapmanız gereken **Tüm ödeme ekstreleri** sayfasında aşağıdaki adımları tamamlamaktır.
+## <a name="if-you-make-a-mistake-entering-beginning-balances-for-an-employee"></a><span data-ttu-id="24392-257">Bir Personel için Başlangıç Bakiyelerini girerken bir hata yaptıysanız</span><span class="sxs-lookup"><span data-stu-id="24392-257">If you make a mistake Entering Beginning Balances for an Employee</span></span>
+<span data-ttu-id="24392-258">Hareketleri geri almak ve yeniden girmek mümkündür.</span><span class="sxs-lookup"><span data-stu-id="24392-258">It is possible to reverse and reenter transactions.</span></span> <span data-ttu-id="24392-259">Hareketleri geri almak için tek yapmanız gereken **Tüm ödeme ekstreleri** sayfasında aşağıdaki adımları tamamlamaktır.</span><span class="sxs-lookup"><span data-stu-id="24392-259">To reverse the transaction, all you have to do is to complete the follow steps on the **All pay statements** page.</span></span>
 
-1. **Terse çevir** üzerine tıklayın.
+1. <span data-ttu-id="24392-260">**Terse çevir** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="24392-260">Click **Reverse**.</span></span>
 
-2. "Bu ödeme ekstresini geri çevirdiğinizde, bu ödeme ekstresini dengelemek için bir ters ödeme ekstresi oluşturulacaktır" iletisi üzerinde **Evet**'e tıklayın. Hiçbir ödeme ekstresi düzenlenemez. Bu ödeme ekstresini ters çevirmek istiyor musunuz?" görüntülenir. 
+2. <span data-ttu-id="24392-261">"Bu ödeme ekstresini geri çevirdiğinizde, bu ödeme ekstresini dengelemek için bir ters ödeme ekstresi oluşturulacaktır" iletisi üzerinde **Evet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="24392-261">Click **Yes** when the message "When you reverse this pay statement, a reversing pay statement will be created to offset this pay statement.</span></span> <span data-ttu-id="24392-262">Hiçbir ödeme ekstresi düzenlenemez.</span><span class="sxs-lookup"><span data-stu-id="24392-262">Neither pay statement can be edited.</span></span> <span data-ttu-id="24392-263">Bu ödeme ekstresini ters çevirmek istiyor musunuz?"</span><span class="sxs-lookup"><span data-stu-id="24392-263">Do you want to reverse this pay statement?"</span></span> <span data-ttu-id="24392-264">görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="24392-264">displays.</span></span> 
 
-Ödem ekstresini terse çevirdikten sonra, daha önce oluşturmuş olduğunuz kazanç ekstresinden çalışan için yeni bir ödeme ekstresi oluşturabilirsiniz. Yeni ödeme ekstresini oluşturmadan önce kazanç ekstresindeki hatalı satırları düzelttiğinizden emin olun ve sonra doğru tutarlarla yeni ödemeleri oluşturun. 
+<span data-ttu-id="24392-265">Ödem ekstresini terse çevirdikten sonra, daha önce oluşturmuş olduğunuz kazanç ekstresinden çalışan için yeni bir ödeme ekstresi oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="24392-265">After you reverse the pay statement, you can generate a new pay statement for the worker from the earnings statement that you created previously.</span></span> <span data-ttu-id="24392-266">Yeni ödeme ekstresini oluşturmadan önce kazanç ekstresindeki hatalı satırları düzelttiğinizden emin olun ve sonra doğru tutarlarla yeni ödemeleri oluşturun.</span><span class="sxs-lookup"><span data-stu-id="24392-266">Be sure to fix any incorrect lines on the earnings statement before you generate the new pay statement, and then generate new pay statements with the correct amounts.</span></span> 
 

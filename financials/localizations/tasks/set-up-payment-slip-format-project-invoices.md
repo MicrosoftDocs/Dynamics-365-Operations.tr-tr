@@ -16,53 +16,53 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 8afbcf781e917f48136e06692234d49302b077fb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f2dab127a40a1a48b49077d4b2395f5b8c58116b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-payment-slip-format-for-project-invoices"></a>Proje faturaları için ödeme makbuzu biçimini ayarlama
+# <a name="set-up-payment-slip-format-for-project-invoices"></a><span data-ttu-id="4d945-103">Proje faturaları için ödeme makbuzu biçimini ayarlama</span><span class="sxs-lookup"><span data-stu-id="4d945-103">Set up payment slip format for project invoices</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-İşletmeler fatura nakli ve ödemeleri için ödeme başvurusu sağlamak ve müşterilere yardımcı olmak amacıyla genellikle ödeme makbuzlarını yazılı şekilde faturaya iliştirirler. Ödeme makbuzu proje veya servis faturaları, tahsilat mektupları, vade farkı dekontları, hesap özetleri, satış faturaları ve serbest metin faturalarının yanı sıra hesap ekstreleri için kullanılabilir. Ödeme makbuzlarınızı işlemek için ilk önce alacaklı kimlik numaranızı ve ödeme makbuzunu iliştirme biçimlerini ayarlayın.
+<span data-ttu-id="4d945-104">İşletmeler fatura nakli ve ödemeleri için ödeme başvurusu sağlamak ve müşterilere yardımcı olmak amacıyla genellikle ödeme makbuzlarını yazılı şekilde faturaya iliştirirler.</span><span class="sxs-lookup"><span data-stu-id="4d945-104">Businesses commonly attach printed payment slips to invoices to assist customers and provide a payment reference for posting and settlement.</span></span> <span data-ttu-id="4d945-105">Ödeme makbuzu proje veya servis faturaları, tahsilat mektupları, vade farkı dekontları, hesap özetleri, satış faturaları ve serbest metin faturalarının yanı sıra hesap ekstreleri için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="4d945-105">The payment slip can be used for project or service invoices, collection letters, interest notes, and account statements, in addition to sales invoices and free text invoices.</span></span> <span data-ttu-id="4d945-106">Ödeme makbuzlarınızı işlemek için ilk önce alacaklı kimlik numaranızı ve ödeme makbuzunu iliştirme biçimlerini ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="4d945-106">To process payment slips, first set up your creditor identification number and payment slip attachment formats.</span></span>
 
-Bu yordam, DEMF demo şirketini kullanır. 
+<span data-ttu-id="4d945-107">Bu yordam, DEMF demo şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="4d945-107">This procedure uses the DEMF demo company.</span></span> 
 
-Bu işlevsellik, birincil adresi Danimarka içinde olan tüzel kişilikler için kullanılabilir.
+<span data-ttu-id="4d945-108">Bu işlevsellik, birincil adresi Danimarka içinde olan tüzel kişilikler için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="4d945-108">This functionality is available for legal entities whose primary address is in Denmark.</span></span>
 
 
-## <a name="set-up-a-creditor-id-number"></a>Bir Alacaklı kimliği numarası ayarlayın
-1. Organizasyon yönetimi > Kuruluşlar > Tüzel kişilikler'e gidin.
-2. Banka hesabı bilgileri bölümünü genişletin veya daraltın.
-3. Düzenle öğesine tıklayın.
-4. FI-Creditor Kimlik alanına bir değer yazın.
-5. Kaydet'e tıklayın.
-6. Sayfayı kapatın.
+## <a name="set-up-a-creditor-id-number"></a><span data-ttu-id="4d945-109">Bir Alacaklı kimliği numarası ayarlayın</span><span class="sxs-lookup"><span data-stu-id="4d945-109">Set up a creditor ID number</span></span>
+1. <span data-ttu-id="4d945-110">Organizasyon yönetimi > Kuruluşlar > Tüzel kişilikler'e gidin.</span><span class="sxs-lookup"><span data-stu-id="4d945-110">Go to Organization administration > Organizations > Legal entities.</span></span>
+2. <span data-ttu-id="4d945-111">Banka hesabı bilgileri bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="4d945-111">Expand or collapse the Bank account information section.</span></span>
+3. <span data-ttu-id="4d945-112">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4d945-112">Click Edit.</span></span>
+4. <span data-ttu-id="4d945-113">FI-Creditor Kimlik alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="4d945-113">In the FI-Creditor ID field, type a value.</span></span>
+5. <span data-ttu-id="4d945-114">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4d945-114">Click Save.</span></span>
+6. <span data-ttu-id="4d945-115">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="4d945-115">Close the page.</span></span>
 
-## <a name="set-up-a-payment-slip-format-for-invoices-notes-letters-and-statements"></a>Faturalar, notlar, mektuplar ve hesap özetleri bir ödeme makbuzu biçimi ayarlayın
-1. Alacak hesapları > Kurulum > Formlar > Form kurulumu seçeneğine gidin.
-2. Fatura sekmesine tıklayın.
-3. Müşteri fatura alanındaki ilişkili ödeme ekine ait bir seçenek belirleyin.
-    * Hiçbiri – Bir ödeme makbuzu yazdırmayın. Ödeme tutarı Danimarka Kronu'ndan (DKK) farklı bir para biriminde ise, bu seçeneği işaretleyin.   FIK 751 – Ödeme tutarını ve son ödeme tarihini ödeme makbuzu üzerine el ile yazmak isterseniz bir FIK 751 ödeme makbuzu yazdırın.   FIK 752 - Önceden basılmış ödeme tutarı ile bilgisayar tarafından oluşturulmuş bir ödeme makbuzu kullanmak istiyorsanız bir FIK 752 ödeme makbuzu yazdırın.  
-4. Kaydet'e tıklayın.
-5. Serbest metin faturası sekmesine tıklayın.
-6. Serbest metin faturası alanındaki ilişkili ödeme ekine ait bir seçenek belirleyin.
-    * Hiçbiri – Bir ödeme makbuzu yazdırmayın. Ödeme tutarı Danimarka Kronu'ndan (DKK) farklı bir para biriminde ise, bu seçeneği işaretleyin.   FIK 751 – Son ödeme tarihi ve ödeme tutarını ödeme makbuzu üzerine el ile yazmak istiyorsanız, bir FIK 751 ödeme makbuzu yazdırın.   FIK 752 - Önceden basılmış ödeme tutarı ile bilgisayar tarafından oluşturulmuş bir ödeme makbuzu kullanmak istiyorsanız bir FIK 752 ödeme makbuzu yazdırın.  
-7. Kaydet'e tıklayın.
-8. Vade farkı dekontu sekmesine tıklayın.
-9. Vade farkı dekontu alanındaki ilişkili ödeme ekine ait bir seçenek belirleyin.
-    * Hiçbiri – Bir ödeme makbuzu yazdırmayın. Ödeme tutarı Danimarka Kronu'ndan (DKK) farklı bir para biriminde ise, bu seçeneği işaretleyin.   FIK 751 – Son ödeme tarihi ve ödeme tutarını ödeme makbuzu üzerine el ile yazmak istiyorsanız, bir FIK 751 ödeme makbuzu yazdırın.   FIK 752 - Önceden basılmış ödeme tutarı ile bilgisayar tarafından oluşturulmuş bir ödeme makbuzu kullanmak istiyorsanız bir FIK 752 ödeme makbuzu yazdırın.  
-10. Kaydet'e tıklayın.
-11. Tahsilat mektubu sekmesini tıklatın.
-12. Tahsilat mektubu alanındaki ilişkili ödeme ekine ait bir seçenek belirleyin.
-    * Hiçbiri – Bir ödeme makbuzu yazdırmayın. Ödeme tutarı Danimarka Kronu'ndan (DKK) farklı bir para biriminde ise, bu seçeneği işaretleyin.   FIK 751 – Son ödeme tarihi ve ödeme tutarını ödeme makbuzu üzerine el ile yazmak istiyorsanız, bir FIK 751 ödeme makbuzu yazdırın.   FIK 752 - Önceden basılmış ödeme tutarı ile bilgisayar tarafından oluşturulmuş bir ödeme makbuzu kullanmak istiyorsanız bir FIK 752 ödeme makbuzu yazdırın.  
-13. Kaydet'e tıklayın.
-14. Hesap özeti sekmesini tıklatın.
-15. Hesap özeti alanındaki ilişkili ödeme ekine ait bir seçenek belirleyin.
-    * Hiçbiri – Bir ödeme makbuzu yazdırmayın. Ödeme tutarı Danimarka Kronu'ndan (DKK) farklı bir para biriminde ise, bu seçeneği işaretleyin.   FIK 751 – Son ödeme tarihi ve ödeme tutarını ödeme makbuzu üzerine el ile yazmak istiyorsanız, bir FIK 751 ödeme makbuzu yazdırın.   FIK 752 - Önceden basılmış ödeme tutarı ile bilgisayar tarafından oluşturulmuş bir ödeme makbuzu kullanmak istiyorsanız bir FIK 752 ödeme makbuzu yazdırın.  
-16. Kaydet'e tıklayın.
-17. Sayfayı kapatın.
+## <a name="set-up-a-payment-slip-format-for-invoices-notes-letters-and-statements"></a><span data-ttu-id="4d945-116">Faturalar, notlar, mektuplar ve hesap özetleri bir ödeme makbuzu biçimi ayarlayın</span><span class="sxs-lookup"><span data-stu-id="4d945-116">Set up a payment slip format for invoices, notes, letters, and statements</span></span>
+1. <span data-ttu-id="4d945-117">Alacak hesapları > Kurulum > Formlar > Form kurulumu seçeneğine gidin.</span><span class="sxs-lookup"><span data-stu-id="4d945-117">Go to Accounts receivable > Setup > Forms > Form setup.</span></span>
+2. <span data-ttu-id="4d945-118">Fatura sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4d945-118">Click the Invoice tab.</span></span>
+3. <span data-ttu-id="4d945-119">Müşteri fatura alanındaki ilişkili ödeme ekine ait bir seçenek belirleyin.</span><span class="sxs-lookup"><span data-stu-id="4d945-119">In the Associated payment attachment on customer invoice field, select an option.</span></span>
+    * <span data-ttu-id="4d945-120">Hiçbiri – Bir ödeme makbuzu yazdırmayın.</span><span class="sxs-lookup"><span data-stu-id="4d945-120">None – Do not print a payment slip.</span></span> <span data-ttu-id="4d945-121">Ödeme tutarı Danimarka Kronu'ndan (DKK) farklı bir para biriminde ise, bu seçeneği işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="4d945-121">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="4d945-122">FIK 751 – Ödeme tutarını ve son ödeme tarihini ödeme makbuzu üzerine el ile yazmak isterseniz bir FIK 751 ödeme makbuzu yazdırın.</span><span class="sxs-lookup"><span data-stu-id="4d945-122">FIK 751 – Print an FIK 751 payment slip if you intend to manually write the payment amount and due date on the payment slip.</span></span>   <span data-ttu-id="4d945-123">FIK 752 - Önceden basılmış ödeme tutarı ile bilgisayar tarafından oluşturulmuş bir ödeme makbuzu kullanmak istiyorsanız bir FIK 752 ödeme makbuzu yazdırın.</span><span class="sxs-lookup"><span data-stu-id="4d945-123">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+4. <span data-ttu-id="4d945-124">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4d945-124">Click Save.</span></span>
+5. <span data-ttu-id="4d945-125">Serbest metin faturası sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4d945-125">Click the Free text invoice tab.</span></span>
+6. <span data-ttu-id="4d945-126">Serbest metin faturası alanındaki ilişkili ödeme ekine ait bir seçenek belirleyin.</span><span class="sxs-lookup"><span data-stu-id="4d945-126">In the Associated payment attachment on free text invoice field, select an option.</span></span>
+    * <span data-ttu-id="4d945-127">Hiçbiri – Bir ödeme makbuzu yazdırmayın.</span><span class="sxs-lookup"><span data-stu-id="4d945-127">None – Do not print a payment slip.</span></span> <span data-ttu-id="4d945-128">Ödeme tutarı Danimarka Kronu'ndan (DKK) farklı bir para biriminde ise, bu seçeneği işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="4d945-128">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="4d945-129">FIK 751 – Son ödeme tarihi ve ödeme tutarını ödeme makbuzu üzerine el ile yazmak istiyorsanız, bir FIK 751 ödeme makbuzu yazdırın.</span><span class="sxs-lookup"><span data-stu-id="4d945-129">FIK 751 – Print an FIK 751 payment slip if you intend to write the payment amount and due date on the payment slip manually.</span></span>   <span data-ttu-id="4d945-130">FIK 752 - Önceden basılmış ödeme tutarı ile bilgisayar tarafından oluşturulmuş bir ödeme makbuzu kullanmak istiyorsanız bir FIK 752 ödeme makbuzu yazdırın.</span><span class="sxs-lookup"><span data-stu-id="4d945-130">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+7. <span data-ttu-id="4d945-131">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4d945-131">Click Save.</span></span>
+8. <span data-ttu-id="4d945-132">Vade farkı dekontu sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4d945-132">Click the Interest note tab.</span></span>
+9. <span data-ttu-id="4d945-133">Vade farkı dekontu alanındaki ilişkili ödeme ekine ait bir seçenek belirleyin.</span><span class="sxs-lookup"><span data-stu-id="4d945-133">In the Associated payment attachment on interest note field, select an option.</span></span>
+    * <span data-ttu-id="4d945-134">Hiçbiri – Bir ödeme makbuzu yazdırmayın.</span><span class="sxs-lookup"><span data-stu-id="4d945-134">None – Do not print a payment slip.</span></span> <span data-ttu-id="4d945-135">Ödeme tutarı Danimarka Kronu'ndan (DKK) farklı bir para biriminde ise, bu seçeneği işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="4d945-135">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="4d945-136">FIK 751 – Son ödeme tarihi ve ödeme tutarını ödeme makbuzu üzerine el ile yazmak istiyorsanız, bir FIK 751 ödeme makbuzu yazdırın.</span><span class="sxs-lookup"><span data-stu-id="4d945-136">FIK 751 – Print an FIK 751 payment slip if you intend to write the payment amount and due date on the payment slip manually.</span></span>   <span data-ttu-id="4d945-137">FIK 752 - Önceden basılmış ödeme tutarı ile bilgisayar tarafından oluşturulmuş bir ödeme makbuzu kullanmak istiyorsanız bir FIK 752 ödeme makbuzu yazdırın.</span><span class="sxs-lookup"><span data-stu-id="4d945-137">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+10. <span data-ttu-id="4d945-138">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4d945-138">Click Save.</span></span>
+11. <span data-ttu-id="4d945-139">Tahsilat mektubu sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="4d945-139">Click the Collection letter tab.</span></span>
+12. <span data-ttu-id="4d945-140">Tahsilat mektubu alanındaki ilişkili ödeme ekine ait bir seçenek belirleyin.</span><span class="sxs-lookup"><span data-stu-id="4d945-140">In the Associated payment attachment on collection letter field, select an option.</span></span>
+    * <span data-ttu-id="4d945-141">Hiçbiri – Bir ödeme makbuzu yazdırmayın.</span><span class="sxs-lookup"><span data-stu-id="4d945-141">None – Do not print a payment slip.</span></span> <span data-ttu-id="4d945-142">Ödeme tutarı Danimarka Kronu'ndan (DKK) farklı bir para biriminde ise, bu seçeneği işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="4d945-142">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="4d945-143">FIK 751 – Son ödeme tarihi ve ödeme tutarını ödeme makbuzu üzerine el ile yazmak istiyorsanız, bir FIK 751 ödeme makbuzu yazdırın.</span><span class="sxs-lookup"><span data-stu-id="4d945-143">FIK 751 – Print an FIK 751 payment slip if you intend to write the payment amount and due date on the payment slip manually.</span></span>   <span data-ttu-id="4d945-144">FIK 752 - Önceden basılmış ödeme tutarı ile bilgisayar tarafından oluşturulmuş bir ödeme makbuzu kullanmak istiyorsanız bir FIK 752 ödeme makbuzu yazdırın.</span><span class="sxs-lookup"><span data-stu-id="4d945-144">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+13. <span data-ttu-id="4d945-145">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4d945-145">Click Save.</span></span>
+14. <span data-ttu-id="4d945-146">Hesap özeti sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="4d945-146">Click the Account statement tab.</span></span>
+15. <span data-ttu-id="4d945-147">Hesap özeti alanındaki ilişkili ödeme ekine ait bir seçenek belirleyin.</span><span class="sxs-lookup"><span data-stu-id="4d945-147">In the Associated payment attachment on account statement field, select an option.</span></span>
+    * <span data-ttu-id="4d945-148">Hiçbiri – Bir ödeme makbuzu yazdırmayın.</span><span class="sxs-lookup"><span data-stu-id="4d945-148">None – Do not print a payment slip.</span></span> <span data-ttu-id="4d945-149">Ödeme tutarı Danimarka Kronu'ndan (DKK) farklı bir para biriminde ise, bu seçeneği işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="4d945-149">Choose this option if the payment amount is in a currency other than Danish kroner (DKK).</span></span>   <span data-ttu-id="4d945-150">FIK 751 – Son ödeme tarihi ve ödeme tutarını ödeme makbuzu üzerine el ile yazmak istiyorsanız, bir FIK 751 ödeme makbuzu yazdırın.</span><span class="sxs-lookup"><span data-stu-id="4d945-150">FIK 751 – Print an FIK 751 payment slip if you intend to write the payment amount and due date on the payment slip manually.</span></span>   <span data-ttu-id="4d945-151">FIK 752 - Önceden basılmış ödeme tutarı ile bilgisayar tarafından oluşturulmuş bir ödeme makbuzu kullanmak istiyorsanız bir FIK 752 ödeme makbuzu yazdırın.</span><span class="sxs-lookup"><span data-stu-id="4d945-151">FIK 752 – Print an FIK 752 payment slip if you intend to use a computer-generated payment slip with a preprinted payment amount and due date.</span></span>  
+16. <span data-ttu-id="4d945-152">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4d945-152">Click Save.</span></span>
+17. <span data-ttu-id="4d945-153">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="4d945-153">Close the page.</span></span>
 
 

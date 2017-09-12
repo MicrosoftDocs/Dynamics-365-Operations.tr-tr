@@ -17,66 +17,66 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 5e0984460be3f93bc7253e4af012a3e8ded85fe8
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7a949d5cb4f01518b46bc4b1769de34196109050
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-loyalty-programs"></a> Bağlılık programları tanımlama
+# <a name="define-loyalty-programs"></a><span data-ttu-id="dcfd4-103"> Bağlılık programları tanımlama</span><span class="sxs-lookup"><span data-stu-id="dcfd4-103">Define loyalty programs</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Bu yordam, iki bağlılık katmanıyla bir bağlılık programı ayarlamayla ilgili açıklamalar içerir. Bu yordam, USRT demo veri şirketini kullanır.
+<span data-ttu-id="dcfd4-104">Bu yordam, iki bağlılık katmanıyla bir bağlılık programı ayarlamayla ilgili açıklamalar içerir.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-104">This procedure shows how to set up a loyalty program with two loyalty tiers.</span></span> <span data-ttu-id="dcfd4-105">Bu yordam, USRT demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-105">This procedure uses the USRT demo data company.</span></span>
 
-1. Perakende ve ticaret > .. > Bağlılık programları.
-2. Yeni'ye tıklayın.
-3. İsim alanına bir değer yazın.
-4. Açıklama alanına bir değer girin.
-5. Satır ekle'ye tıklayın.
-6. Düzey alanına bir sayı girin.
-7. Katman alanına bağlılık katmanı için bir ad girin.
-8. Tanım alanına bir değer girin.
-9. Tarih aralığı alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-    * Bu tarih aralığı geleceğe dönük olarak genişletilmelidir. Örneğin, gold katmanı için seçili tarih aralığı bir yıl olduğunda, gold katmanına uygun olan tüm müşteriler gold katmanına bir yıl için atanan ödülleri alma hakkına sahip olur. Müşteri gold katmandayken yeniden gold katmana hak kazanırsa, katmanın sona erme tarihi yeniden hak kazanılan tarihten itibaren bir yıl daha uzatılır.  
-10. Listede, seçili satırdaki bağlantıya tıklayın.
-11. Satır ekle'ye tıklayın.
-12. Düzey alanına bir sayı girin.
-13. Katman alanına bağlılık katmanı için bir ad girin.
-14. Tanım alanına bir değer girin.
-15. Tarih aralığı alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-16. Listede, seçili satırdaki bağlantıya tıklayın.
-17. Kaydet'e tıklayın.
-18. Listede, istenen kaydı bulun ve seçin.
-    * Katman kuralları, katmana girmeye hak kazanmak için belirli bir süre boyunca kazanılması gereken minimum ödül puanı sayısını belirler.  
-19. Katman kuralları bölümünün genişletilmiş görünümüne geçin.
-20. Yeni'ye tıklayın.
-    * Katman başına birden fazla katman kuralınız olabilir. Örneğin, bir katmanı kazanmak için üç farklı ölçüt belirleyebilirsiniz; bir ay içinde 500 $ harcama, bir yıl süresince 1000 $ harcama ve bir yılda 20 hareket gerçekleştirme. Bunu yapmak için üç katman kuralı oluşturmanız gerekir.  
-21. Ödül puanı alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-    * Bunun kullanılamayan bir bağlılık ödül puanı olması gerekir.  
-22. Listede, seçili satırdaki bağlantıya tıklayın.
-23. Minimum verilen puan alanına bir sayı girin.
-    * En düşük katman seviyesinde, tüm müşteriler programa katılarak katmana hak kazanacaksa '0' değerini girin.  
-24. Değerlendirme tarih aralığı alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-    * Bu tarih aralığını geçmişe dönük olarak genişletilmelidir. Yalnızca bu tarih aralığında kazanılan puanlar verilen minimum puan değerine ulaşmak için geçerli sayılır.  
-25. Listede, seçili satırdaki bağlantıya tıklayın.
-26. Kaydet'e tıklayın.
-27. Listede, istenen kaydı bulun ve seçin.
-28. Yeni'yi tıklatın.
-29. Ödül puanı alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-30. Listede, seçili satırdaki bağlantıya tıklayın.
-31. Minimum verilen puan alanına bir sayı girin.
-32. Değerlendirme tarih aralığı alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-    * Bu tarih aralığını geçmişe dönük olarak genişletilmelidir.  
-33. Listede, seçili satırdaki bağlantıya tıklayın.
-34. Kaydet'e tıklayın.
-35. Fiyat grupları'na tıklayın.
-    * Bağlı müşterilere indirimler vermek istiyorsanız. bir veya birden fazla fiyat grubun bağlılık programına atamalı ve fiyat gruplarını indirimlere atamalısınız. En iyi uygulama, farklı türdeki iskonto varlıkları üzerinde fiyat gruplarını karıştırmamaktır.  Örneğin, aynı fiyat grubunu bir bağlılık iskontosu ve kanal iskontosu için kullanmayın.  
-36. Fiyat grubu alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-    * Sayfanın üst kısmındaki fiyat grupları bağlantısı bağlılık programı içindir. Program katmanları hızlı sekmesindeki Fiyat grupları bağlantısı yalnızca belirli bir bağlılık katmanı için kullanılır.  
-37. Listede, seçili satırdaki bağlantıya tıklayın.
-38. Kaydet'e tıklayın.
-39. Sayfayı kapatın.
-40. Kaydet'e tıklayın.
+1. <span data-ttu-id="dcfd4-106">Perakende ve ticaret > ..</span><span class="sxs-lookup"><span data-stu-id="dcfd4-106">Go to Retail and commerce > ..</span></span> <span data-ttu-id="dcfd4-107">> Bağlılık programları.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-107">> Loyalty programs.</span></span>
+2. <span data-ttu-id="dcfd4-108">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-108">Click New.</span></span>
+3. <span data-ttu-id="dcfd4-109">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-109">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="dcfd4-110">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="dcfd4-111">Satır ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-111">Click Add line.</span></span>
+6. <span data-ttu-id="dcfd4-112">Düzey alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-112">In the Level field, enter a number.</span></span>
+7. <span data-ttu-id="dcfd4-113">Katman alanına bağlılık katmanı için bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-113">In the Tier field, enter a name for the loyalty tier.</span></span>
+8. <span data-ttu-id="dcfd4-114">Tanım alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-114">In the Description field, type a value.</span></span>
+9. <span data-ttu-id="dcfd4-115">Tarih aralığı alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-115">In the Date interval field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="dcfd4-116">Bu tarih aralığı geleceğe dönük olarak genişletilmelidir.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-116">This date interval should extend into the future.</span></span> <span data-ttu-id="dcfd4-117">Örneğin, gold katmanı için seçili tarih aralığı bir yıl olduğunda, gold katmanına uygun olan tüm müşteriler gold katmanına bir yıl için atanan ödülleri alma hakkına sahip olur.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-117">For example, if the date interval that is selected for gold tier is a one-year period, any customer who qualifies for the gold tier can receive the rewards that are assigned to the gold tier for one year.</span></span> <span data-ttu-id="dcfd4-118">Müşteri gold katmandayken yeniden gold katmana hak kazanırsa, katmanın sona erme tarihi yeniden hak kazanılan tarihten itibaren bir yıl daha uzatılır.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-118">If the customer re-qualifies for the gold tier while they are in the tier, the date that the tier expires is extended by another year from the date when they re-qualify.</span></span>  
+10. <span data-ttu-id="dcfd4-119">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-119">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="dcfd4-120">Satır ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-120">Click Add line.</span></span>
+12. <span data-ttu-id="dcfd4-121">Düzey alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-121">In the Level field, enter a number.</span></span>
+13. <span data-ttu-id="dcfd4-122">Katman alanına bağlılık katmanı için bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-122">In the Tier field, enter a name for the loyalty tier.</span></span>
+14. <span data-ttu-id="dcfd4-123">Tanım alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-123">In the Description field, type a value.</span></span>
+15. <span data-ttu-id="dcfd4-124">Tarih aralığı alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-124">In the Date interval field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="dcfd4-125">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-125">In the list, click the link in the selected row.</span></span>
+17. <span data-ttu-id="dcfd4-126">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-126">Click Save.</span></span>
+18. <span data-ttu-id="dcfd4-127">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-127">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="dcfd4-128">Katman kuralları, katmana girmeye hak kazanmak için belirli bir süre boyunca kazanılması gereken minimum ödül puanı sayısını belirler.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-128">Tier rules define the minimum number of a reward point needed to be earned during a time period to qualify for the tier.</span></span>  
+19. <span data-ttu-id="dcfd4-129">Katman kuralları bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-129">Toggle the expansion of the Tier rules section.</span></span>
+20. <span data-ttu-id="dcfd4-130">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-130">Click New.</span></span>
+    * <span data-ttu-id="dcfd4-131">Katman başına birden fazla katman kuralınız olabilir.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-131">You can have more than one tier rule per tier.</span></span> <span data-ttu-id="dcfd4-132">Örneğin, bir katmanı kazanmak için üç farklı ölçüt belirleyebilirsiniz; bir ay içinde 500 $ harcama, bir yıl süresince 1000 $ harcama ve bir yılda 20 hareket gerçekleştirme.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-132">For example, you could have three different criteria to earn a tier; by spending $500 in one month, by spending $1000 over one year, and by having 20 transactions in one year.</span></span> <span data-ttu-id="dcfd4-133">Bunu yapmak için üç katman kuralı oluşturmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-133">To do this, you would need to create three tier rules.</span></span>  
+21. <span data-ttu-id="dcfd4-134">Ödül puanı alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-134">In the Reward point field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="dcfd4-135">Bunun kullanılamayan bir bağlılık ödül puanı olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-135">This should be a non-redeemable loyalty reward point.</span></span>  
+22. <span data-ttu-id="dcfd4-136">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-136">In the list, click the link in the selected row.</span></span>
+23. <span data-ttu-id="dcfd4-137">Minimum verilen puan alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-137">In the Minimum issued points field, enter a number.</span></span>
+    * <span data-ttu-id="dcfd4-138">En düşük katman seviyesinde, tüm müşteriler programa katılarak katmana hak kazanacaksa '0' değerini girin.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-138">For the lowest level tier, if all customers qualify simply by participating in the program, enter '0'.</span></span>  
+24. <span data-ttu-id="dcfd4-139">Değerlendirme tarih aralığı alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-139">In the Evaluation date interval field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="dcfd4-140">Bu tarih aralığını geçmişe dönük olarak genişletilmelidir.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-140">This date interval should extend into the past.</span></span> <span data-ttu-id="dcfd4-141">Yalnızca bu tarih aralığında kazanılan puanlar verilen minimum puan değerine ulaşmak için geçerli sayılır.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-141">Only points earned during this date interval will be counted towards reaching the minimum issued points value.</span></span>  
+25. <span data-ttu-id="dcfd4-142">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-142">In the list, click the link in the selected row.</span></span>
+26. <span data-ttu-id="dcfd4-143">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-143">Click Save.</span></span>
+27. <span data-ttu-id="dcfd4-144">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-144">In the list, find and select the desired record.</span></span>
+28. <span data-ttu-id="dcfd4-145">Yeni'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-145">Click New.</span></span>
+29. <span data-ttu-id="dcfd4-146">Ödül puanı alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-146">In the Reward point field, click the drop-down button to open the lookup.</span></span>
+30. <span data-ttu-id="dcfd4-147">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-147">In the list, click the link in the selected row.</span></span>
+31. <span data-ttu-id="dcfd4-148">Minimum verilen puan alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-148">In the Minimum issued points field, enter a number.</span></span>
+32. <span data-ttu-id="dcfd4-149">Değerlendirme tarih aralığı alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-149">In the Evaluation date interval field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="dcfd4-150">Bu tarih aralığını geçmişe dönük olarak genişletilmelidir.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-150">This date interval should extend into the past.</span></span>  
+33. <span data-ttu-id="dcfd4-151">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-151">In the list, click the link in the selected row.</span></span>
+34. <span data-ttu-id="dcfd4-152">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-152">Click Save.</span></span>
+35. <span data-ttu-id="dcfd4-153">Fiyat grupları'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-153">Click Price groups.</span></span>
+    * <span data-ttu-id="dcfd4-154">Bağlı müşterilere indirimler vermek istiyorsanız.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-154">If you want to give loyalty customers discounts.</span></span> <span data-ttu-id="dcfd4-155">bir veya birden fazla fiyat grubun bağlılık programına atamalı ve fiyat gruplarını indirimlere atamalısınız.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-155">you'll need to assign one or more price groups to the loyalty program and assign the price groups to discounts.</span></span> <span data-ttu-id="dcfd4-156">En iyi uygulama, farklı türdeki iskonto varlıkları üzerinde fiyat gruplarını karıştırmamaktır.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-156">It is a best practise to not mix price groups across different types of discounting entities.</span></span>  <span data-ttu-id="dcfd4-157">Örneğin, aynı fiyat grubunu bir bağlılık iskontosu ve kanal iskontosu için kullanmayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-157">For example, don't use the same price group for a loyalty discount and a channel discount.</span></span>  
+36. <span data-ttu-id="dcfd4-158">Fiyat grubu alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-158">In the Price group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="dcfd4-159">Sayfanın üst kısmındaki fiyat grupları bağlantısı bağlılık programı içindir.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-159">The Price groups link at the top of the page is for the loyalty program.</span></span> <span data-ttu-id="dcfd4-160">Program katmanları hızlı sekmesindeki Fiyat grupları bağlantısı yalnızca belirli bir bağlılık katmanı için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-160">The Price groups link in the Program tiers fasttab is for a specific loyalty tier only.</span></span>  
+37. <span data-ttu-id="dcfd4-161">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-161">In the list, click the link in the selected row.</span></span>
+38. <span data-ttu-id="dcfd4-162">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-162">Click Save.</span></span>
+39. <span data-ttu-id="dcfd4-163">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-163">Close the page.</span></span>
+40. <span data-ttu-id="dcfd4-164">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dcfd4-164">Click Save.</span></span>
 
 

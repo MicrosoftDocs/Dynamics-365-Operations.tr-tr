@@ -1,4 +1,4 @@
---- 
+---
 title: "Yönetim ön koşullarını ayarlama"
 description: "Uygunsuzluk yönetimi işlemlerini etkinleştirmek için bu yordamı kullanın."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,89 +17,88 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: e8f7ec305316b5290019ec28deed1cae382e93b3
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 842a9441158defca74d1b203a1b2509773ba8919
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="set-up-prerequisites-for-management"></a>Yönetim ön koşullarını ayarlama
+# <a name="set-up-prerequisites-for-management"></a><span data-ttu-id="d049f-103">Yönetim ön koşullarını ayarlama</span><span class="sxs-lookup"><span data-stu-id="d049f-103">Set up prerequisites for management</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Uygunsuzluk yönetimi işlemlerini etkinleştirmek için bu yordamı kullanın. Uyumsuzluk, açıklayıcı bilgilerin sorunun kaynağını ve tipini içerdiği bir kalite sorunu olan bir yordamı veya maddeyi tanımlar. Bu yordam, USMF demo verisi şirketini kullanır. Bu yordam genellikle kalite yöneticisi tarafından gerçekleştirilir.
+<span data-ttu-id="d049f-104">Uygunsuzluk yönetimi işlemlerini etkinleştirmek için bu yordamı kullanın.</span><span class="sxs-lookup"><span data-stu-id="d049f-104">Use this procedure to enable nonconformance management processes.</span></span> <span data-ttu-id="d049f-105">Uyumsuzluk, açıklayıcı bilgilerin sorunun kaynağını ve tipini içerdiği bir kalite sorunu olan bir yordamı veya maddeyi tanımlar.</span><span class="sxs-lookup"><span data-stu-id="d049f-105">A nonconformance describes a procedure or item that has a quality problem, where the descriptive information includes the source and type of problem.</span></span> <span data-ttu-id="d049f-106">Bu yordam, USMF demo verisi şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="d049f-106">This procedure uses the USMF demo data company.</span></span> <span data-ttu-id="d049f-107">Bu yordam genellikle kalite yöneticisi tarafından gerçekleştirilir.</span><span class="sxs-lookup"><span data-stu-id="d049f-107">This procedure is typically performed by a quality manager.</span></span>
 
 
-## <a name="enable-quality-management-processes-within-the-company"></a>Şirket içindeki kalite yönetimi işlemlerini etkinleştirin
-1. Stokyönetimi > Kurulum > Stok ve ambar yönetim parametreleri'ne gidin.
-2. Kalite yönetimi sekmesine tıklayın.
-3. Kalite yönetimi kullan alanında Evet'i seçin.
-    * Şirket için kalite yönetimi işlemlerini etkinleştirmek için bu parametreyi seçin.  
-4. Saatlik ücret alanına bir numara girin.
-    * Yerel para biriminde saatlik ücret girmek için Saatlik ücret alanını kullanın. Saatlik ücret, uygunsuzlukla ilgili operasyonlar için maliyetleri hesaplamak için kullanılır. Saatlik ücret ve hesaplanan maliyetler bir uyumsuzluk için referans bilgileri sağlar ve diğer işlevlerle etkileşime girmez.  
-5. Rapor kurulumu'na tıklayın.
-    * Bu sayfa, farklı türde kalite yönetimi raporlarında kullanılacak kalite raporu not türlerini tanımlamanıza olanak sağlar.  
-6. Sayfayı kapatın.
-7. Sayfayı kapatın.
+## <a name="enable-quality-management-processes-within-the-company"></a><span data-ttu-id="d049f-108">Şirket içindeki kalite yönetimi işlemlerini etkinleştirin</span><span class="sxs-lookup"><span data-stu-id="d049f-108">Enable quality management processes within the company</span></span>
+1. <span data-ttu-id="d049f-109">Stokyönetimi > Kurulum > Stok ve ambar yönetim parametreleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="d049f-109">Go to Inventory management > Setup > Inventory and warehouse management parameters.</span></span>
+2. <span data-ttu-id="d049f-110">Kalite yönetimi sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d049f-110">Click the Quality management tab.</span></span>
+3. <span data-ttu-id="d049f-111">Kalite yönetimi kullan alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="d049f-111">Select Yes in the Use quality management field.</span></span>
+    * <span data-ttu-id="d049f-112">Şirket için kalite yönetimi işlemlerini etkinleştirmek için bu parametreyi seçin.</span><span class="sxs-lookup"><span data-stu-id="d049f-112">Select this parameter to enable quality management processes for the company.</span></span>  
+4. <span data-ttu-id="d049f-113">Saatlik ücret alanına bir numara girin.</span><span class="sxs-lookup"><span data-stu-id="d049f-113">In the Hourly rate field, enter a number.</span></span>
+    * <span data-ttu-id="d049f-114">Yerel para biriminde saatlik ücret girmek için Saatlik ücret alanını kullanın.</span><span class="sxs-lookup"><span data-stu-id="d049f-114">Use the Hourly rate field to enter an hourly labor rate in the local currency.</span></span> <span data-ttu-id="d049f-115">Saatlik ücret, uygunsuzlukla ilgili operasyonlar için maliyetleri hesaplamak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="d049f-115">The hourly rate is used for calculating costs for operations that are related to a nonconformance.</span></span> <span data-ttu-id="d049f-116">Saatlik ücret ve hesaplanan maliyetler bir uyumsuzluk için referans bilgileri sağlar ve diğer işlevlerle etkileşime girmez.</span><span class="sxs-lookup"><span data-stu-id="d049f-116">The hourly rate and calculated costs provide reference information for a nonconformance, and they do not interact with other functionality.</span></span>  
+5. <span data-ttu-id="d049f-117">Rapor kurulumu'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d049f-117">Click Report setup.</span></span>
+    * <span data-ttu-id="d049f-118">Bu sayfa, farklı türde kalite yönetimi raporlarında kullanılacak kalite raporu not türlerini tanımlamanıza olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="d049f-118">This page allows you define the quality report note types that will be used on different kinds of quality management reports.</span></span>  
+6. <span data-ttu-id="d049f-119">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="d049f-119">Close the page.</span></span>
+7. <span data-ttu-id="d049f-120">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="d049f-120">Close the page.</span></span>
 
-## <a name="enable-user-for-nonconformance-processing"></a>Kullanıcıyı uygunsuzluk işleme için etkinleştirin.
-1. Sistem Yönetimi > Kullanıcılar > Kullanıcılar'a git.
-    * Bir uygunsuzluk onayını işlemek için uygunsuzlukları onaylayan veya reddeden kullanıcının atanmış kullanıcılar sayfasında bir "Ad" değeri olmalıdır. Kullanıcının belge notları kullanabilmesi için belge işleme seçeneğinin kullanıcı ayarlarında etkinleştirilmiş olması gerekir.  
-2. Kayıtları bulmak için Hızlı Filtre'yi kullanın. Örneğin, 'Ricardo' değerini girerek filtreleme yapın.
-    * Onaylama veya reddetme işlemlerini yapacak kullanıcıyı bulmak için uygunsuzluk kayıtlarında filtre kullanın.  
-3. Listede, seçili satırdaki bağlantıya tıklayın.
-    * Bir uygunsuzluk onayını işlemek için uygunsuzlukları onaylayan veya reddeden kullanıcının, Kullanıcılar sayfasında atanmış bir "Ad" değeri olduğundan emin olun.  
-4. Kullanıcı seçenekleri'ni tıklatın.
-5. Tercihler sekmesini tıklatın.
-6. Belge işlemeyi etkinleştir alanında Evet'i seçin.
-    * Kullanıcının belge notları kullanabilmesi için belge işleme seçeneğinin kullanıcı ayarlarında etkinleştirilmiş olması gerekir.  
-7. Sayfayı kapatın.
-8. Sayfayı kapatın.
-9. Sayfayı kapatın.
+## <a name="enable-user-for-nonconformance-processing"></a><span data-ttu-id="d049f-121">Kullanıcıyı uygunsuzluk işleme için etkinleştirin.</span><span class="sxs-lookup"><span data-stu-id="d049f-121">Enable user for nonconformance processing</span></span>
+1. <span data-ttu-id="d049f-122">Sistem Yönetimi > Kullanıcılar > Kullanıcılar'a git.</span><span class="sxs-lookup"><span data-stu-id="d049f-122">Go to System administration > Users > Users.</span></span>
+    * <span data-ttu-id="d049f-123">Bir uygunsuzluk onayını işlemek için uygunsuzlukları onaylayan veya reddeden kullanıcının atanmış kullanıcılar sayfasında bir "Ad" değeri olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="d049f-123">To process the approval of a nonconformance the user who  approves or rejects nonconformances must have a “Name” value assigned on the Users page.</span></span> <span data-ttu-id="d049f-124">Kullanıcının belge notları kullanabilmesi için belge işleme seçeneğinin kullanıcı ayarlarında etkinleştirilmiş olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="d049f-124">To use the document notes, the user must also have Document handling activated in the user options.</span></span>  
+2. <span data-ttu-id="d049f-125">Kayıtları bulmak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="d049f-125">Use the Quick Filter to find records.</span></span> <span data-ttu-id="d049f-126">Örneğin, 'Ricardo' değerini girerek filtreleme yapın.</span><span class="sxs-lookup"><span data-stu-id="d049f-126">For example, filter on the Name field with a value of 'Ricardo'.</span></span>
+    * <span data-ttu-id="d049f-127">Onaylama veya reddetme işlemlerini yapacak kullanıcıyı bulmak için uygunsuzluk kayıtlarında filtre kullanın.</span><span class="sxs-lookup"><span data-stu-id="d049f-127">Use the filter to find the user who will be approving or rejecting the nonconformance records.</span></span>  
+3. <span data-ttu-id="d049f-128">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d049f-128">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="d049f-129">Bir uygunsuzluk onayını işlemek için uygunsuzlukları onaylayan veya reddeden kullanıcının, Kullanıcılar sayfasında atanmış bir "Ad" değeri olduğundan emin olun.</span><span class="sxs-lookup"><span data-stu-id="d049f-129">To process the approval of a nonconformance, make sure the user who approves or rejects nonconformances has a “Name” value assigned on the Users page.</span></span>  
+4. <span data-ttu-id="d049f-130">Kullanıcı seçenekleri'ni tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d049f-130">Click User options.</span></span>
+5. <span data-ttu-id="d049f-131">Tercihler sekmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d049f-131">Click the Preferences tab.</span></span>
+6. <span data-ttu-id="d049f-132">Belge işlemeyi etkinleştir alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="d049f-132">Select Yes in the Enable document handling field.</span></span>
+    * <span data-ttu-id="d049f-133">Kullanıcının belge notları kullanabilmesi için belge işleme seçeneğinin kullanıcı ayarlarında etkinleştirilmiş olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="d049f-133">To use the document notes, the user must also have Document handling activated in the user options.</span></span>  
+7. <span data-ttu-id="d049f-134">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="d049f-134">Close the page.</span></span>
+8. <span data-ttu-id="d049f-135">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="d049f-135">Close the page.</span></span>
+9. <span data-ttu-id="d049f-136">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="d049f-136">Close the page.</span></span>
 
-## <a name="define-diagnostic-types-for-nonconformance-processing"></a>Uygunsuzluk işleme için tanı türlerini tanımlayın
-1. Stok yönetimi > Kurulum > Kalite yönetimi > Tanı türleri öğesine gidin.
-    * Tanılama işlemleri için bir sınıflandırma tanımlamak için Tanılama türleri sayfasını kullanın. Bir düzeltme, onaylanan bir uyumsuzluk için yapılması gereken tanı eyleminin tipini, bunu gerçekleştirecek kişiyi ve istenen ve planlanan tamamlama tarihini tanımlar.  
-2. Yeni'ye tıklayın.
-3. Tanı alanına bir değer yazın.
-4. Açıklama alanına bir değer girin.
-5. Sayfayı kapatın.
+## <a name="define-diagnostic-types-for-nonconformance-processing"></a><span data-ttu-id="d049f-137">Uygunsuzluk işleme için tanı türlerini tanımlayın</span><span class="sxs-lookup"><span data-stu-id="d049f-137">Define diagnostic types for nonconformance processing</span></span>
+1. <span data-ttu-id="d049f-138">Stok yönetimi > Kurulum > Kalite yönetimi > Tanı türleri öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="d049f-138">Go to Inventory management > Setup > Quality management > Diagnostic types.</span></span>
+    * <span data-ttu-id="d049f-139">Tanılama işlemleri için bir sınıflandırma tanımlamak için Tanılama türleri sayfasını kullanın.</span><span class="sxs-lookup"><span data-stu-id="d049f-139">Use the Diagnostic types page to define a classification of diagnostic actions.</span></span> <span data-ttu-id="d049f-140">Bir düzeltme, onaylanan bir uyumsuzluk için yapılması gereken tanı eyleminin tipini, bunu gerçekleştirecek kişiyi ve istenen ve planlanan tamamlama tarihini tanımlar.</span><span class="sxs-lookup"><span data-stu-id="d049f-140">A correction identifies what type of diagnostic action should be taken on an approved nonconformance, who should perform it, and the requested and planned completion date.</span></span>  
+2. <span data-ttu-id="d049f-141">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d049f-141">Click New.</span></span>
+3. <span data-ttu-id="d049f-142">Tanı alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="d049f-142">In the Diagnostic field, type a value.</span></span>
+4. <span data-ttu-id="d049f-143">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="d049f-143">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="d049f-144">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="d049f-144">Close the page.</span></span>
 
-## <a name="define-quality-charges-for-nonconformance-processing"></a>Uygunsuzluk işleme için kalite giderlerini tanımlayın
-1. Stok yönetimi > Kurulum > Kalite yönetimi > Kalite giderleri öğesine gidin.
-    * Kalite giderleri sayfasını, uygunsuzluklar ile ilgili işlemlerinde kullanılacak giderlerin sınıflandırılmasını tanımlamak için kullanın.  
-2. Yeni'ye tıklayın.
-3. Masraf kodu alanına bir değer girin.
-4. Açıklama alanına bir değer girin.
-5. Sayfayı kapatın.
+## <a name="define-quality-charges-for-nonconformance-processing"></a><span data-ttu-id="d049f-145">Uygunsuzluk işleme için kalite giderlerini tanımlayın</span><span class="sxs-lookup"><span data-stu-id="d049f-145">Define quality charges for nonconformance processing</span></span>
+1. <span data-ttu-id="d049f-146">Stok yönetimi > Kurulum > Kalite yönetimi > Kalite giderleri öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="d049f-146">Go to Inventory management > Setup > Quality management > Quality charges.</span></span>
+    * <span data-ttu-id="d049f-147">Kalite giderleri sayfasını, uygunsuzluklar ile ilgili işlemlerinde kullanılacak giderlerin sınıflandırılmasını tanımlamak için kullanın.</span><span class="sxs-lookup"><span data-stu-id="d049f-147">Use the Quality charges page to define a classification of charges that will used in operations related to nonconformances.</span></span>  
+2. <span data-ttu-id="d049f-148">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d049f-148">Click New.</span></span>
+3. <span data-ttu-id="d049f-149">Masraf kodu alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="d049f-149">In the Charges code field, type a value.</span></span>
+4. <span data-ttu-id="d049f-150">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="d049f-150">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="d049f-151">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="d049f-151">Close the page.</span></span>
 
-## <a name="define-the-operations-for-nonconformance-processing"></a>Uygunsuzluk işleme için operasyonları tanımlayın
-1. Stok yönetimi > Kurulum > Kalite yönetimi > Operasyonlar öğesine gidin.
-    * Onaylanan bir uygunsuzluk için gerçekleştirilebilecek işin sınıflandırmasını tanımlamak için Operasyonlar sayfasını kullanın. Uyumsuzluğa ilgili bir operasyonu ilişkilendirdiğinizde, operasyonu gerçekleştirmek için gereken ilgili malzemeler, emek saatleri ve tahmini maliyetlerle ilgili ayrıntılı bilgiler tanımlayabilirsiniz. Bu bilgiler, operasyonu gerçekleştirmek için gereken tahmini maliyetin hesaplanmasında bir temel sağlar.  
-2. Yeni'ye tıklayın.
-3. Operasyon alanına bir değer yazın.
-4. Açıklama alanına bir değer girin.
-5. Sayfayı kapatın.
+## <a name="define-the-operations-for-nonconformance-processing"></a><span data-ttu-id="d049f-152">Uygunsuzluk işleme için operasyonları tanımlayın</span><span class="sxs-lookup"><span data-stu-id="d049f-152">Define the operations for nonconformance processing</span></span>
+1. <span data-ttu-id="d049f-153">Stok yönetimi > Kurulum > Kalite yönetimi > Operasyonlar öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="d049f-153">Go to Inventory management > Setup > Quality management > Operations.</span></span>
+    * <span data-ttu-id="d049f-154">Onaylanan bir uygunsuzluk için gerçekleştirilebilecek işin sınıflandırmasını tanımlamak için Operasyonlar sayfasını kullanın.</span><span class="sxs-lookup"><span data-stu-id="d049f-154">Use the Operations page to define a classification of the work that may be performed for an approved nonconformance.</span></span> <span data-ttu-id="d049f-155">Uyumsuzluğa ilgili bir operasyonu ilişkilendirdiğinizde, operasyonu gerçekleştirmek için gereken ilgili malzemeler, emek saatleri ve tahmini maliyetlerle ilgili ayrıntılı bilgiler tanımlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d049f-155">When you relate an operation to a nonconformance, you can define information about the associated material, labor hours, and miscellaneous charges that are required to perform the operation.</span></span> <span data-ttu-id="d049f-156">Bu bilgiler, operasyonu gerçekleştirmek için gereken tahmini maliyetin hesaplanmasında bir temel sağlar.</span><span class="sxs-lookup"><span data-stu-id="d049f-156">This information provides the basis for calculating an estimated cost for performing the operation.</span></span>  
+2. <span data-ttu-id="d049f-157">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d049f-157">Click New.</span></span>
+3. <span data-ttu-id="d049f-158">Operasyon alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="d049f-158">In the Operation field, type a value.</span></span>
+4. <span data-ttu-id="d049f-159">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="d049f-159">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="d049f-160">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="d049f-160">Close the page.</span></span>
 
-## <a name="define-problem-types-for-nonconformance-processing"></a>Uygunsuzluk işleme için problem türlerini tanımlayın
-1. Stok yönetimi > Kurulum > Kalite yönetimi > Problem türleri öğesine gidin.
-    * Çeşitli uygunsuzluk türlerinde karşılaşılan kalite sorunlarıyla ilgili bir sınıflandırma tanımlamak için Sorun türleri sayfasını kullanın. Uygunsuzluk türlerine; Dahili, Müşteri, Satıcı, Hizmet talebi, Üretim ve Eş ürün üretimi gibi türler dahildir. Tek bir sorun türü birden çok uygunsuzluk türüyle ilişkilendirilebilir.  
-2. Yeni'ye tıklayın.
-3. Problem türü alanına bir değer yazın.
-4. Açıklama alanına bir değer girin.
-5. Uyumsuzluk tipleri'ne tıklayın.
-    * Bir sorun türünün bir veya birden fazla uygunsuzluk türünde kullanmak üzere yetkilendirmek için Uygunsuzluk türleri sayfasını kullanın. Örneğin, bir kusur koduyla ilgili bir sorun tipi tüm uyumsuzluk tipleri için geçerli olurken, müşteri şikayetleri hakkındaki bir sorun tipi yalnızca müşteri ve servis isteği uyumsuzluk tipleri için geçerli olabilir.  
-6. Yeni'ye tıklayın.
-7. Listede, seçili satırı işaretleyin.
-8. Uygunsuzluk türü alanında, bir seçenek seçin.
-9. Sayfayı kapatın.
-10. Sayfayı kapatın.
+## <a name="define-problem-types-for-nonconformance-processing"></a><span data-ttu-id="d049f-161">Uygunsuzluk işleme için problem türlerini tanımlayın</span><span class="sxs-lookup"><span data-stu-id="d049f-161">Define problem types for nonconformance processing</span></span>
+1. <span data-ttu-id="d049f-162">Stok yönetimi > Kurulum > Kalite yönetimi > Problem türleri öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="d049f-162">Go to Inventory management > Setup > Quality management > Problem types.</span></span>
+    * <span data-ttu-id="d049f-163">Çeşitli uygunsuzluk türlerinde karşılaşılan kalite sorunlarıyla ilgili bir sınıflandırma tanımlamak için Sorun türleri sayfasını kullanın.</span><span class="sxs-lookup"><span data-stu-id="d049f-163">Use the Problem types page to define a classification of quality problems that are encountered in the various nonconformance types.</span></span> <span data-ttu-id="d049f-164">Uygunsuzluk türlerine; Dahili, Müşteri, Satıcı, Hizmet talebi, Üretim ve Eş ürün üretimi gibi türler dahildir.</span><span class="sxs-lookup"><span data-stu-id="d049f-164">The nonconformance types include Internal, Customer, Vendor, Service request, Production, and Co-product production.</span></span> <span data-ttu-id="d049f-165">Tek bir sorun türü birden çok uygunsuzluk türüyle ilişkilendirilebilir.</span><span class="sxs-lookup"><span data-stu-id="d049f-165">A single problem type can be associated with multiple nonconformance types.</span></span>  
+2. <span data-ttu-id="d049f-166">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d049f-166">Click New.</span></span>
+3. <span data-ttu-id="d049f-167">Problem türü alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="d049f-167">In the Problem type field, type a value.</span></span>
+4. <span data-ttu-id="d049f-168">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="d049f-168">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="d049f-169">Uyumsuzluk tipleri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d049f-169">Click Non conformance types.</span></span>
+    * <span data-ttu-id="d049f-170">Bir sorun türünün bir veya birden fazla uygunsuzluk türünde kullanmak üzere yetkilendirmek için Uygunsuzluk türleri sayfasını kullanın.</span><span class="sxs-lookup"><span data-stu-id="d049f-170">Use the Non conformance types page to authorize the use of a problem type for one or more of the nonconformance types.</span></span> <span data-ttu-id="d049f-171">Örneğin, bir kusur koduyla ilgili bir sorun tipi tüm uyumsuzluk tipleri için geçerli olurken, müşteri şikayetleri hakkındaki bir sorun tipi yalnızca müşteri ve servis isteği uyumsuzluk tipleri için geçerli olabilir.</span><span class="sxs-lookup"><span data-stu-id="d049f-171">For example, a problem type regarding a defect code could apply to all nonconformance types, whereas a problem type about customer complaints may only apply to the customer and service request nonconformance types.</span></span>  
+6. <span data-ttu-id="d049f-172">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d049f-172">Click New.</span></span>
+7. <span data-ttu-id="d049f-173">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="d049f-173">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="d049f-174">Uygunsuzluk türü alanında, bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="d049f-174">In the Non conformance type field, select an option.</span></span>
+9. <span data-ttu-id="d049f-175">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="d049f-175">Close the page.</span></span>
+10. <span data-ttu-id="d049f-176">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="d049f-176">Close the page.</span></span>
 
-## <a name="define-quarantine-zones-for-nonconformance-processing"></a>Uygunsuzluk işleme için karantina bölgelerini tanımlayın
-1. Stok yönetimi > Kurulum > Kalite yönetimi > Karantina bölgeleri öğesine gidin.
-2. Yeni'ye tıklayın.
-3. Karantina bölgesi alanında bir değer girin.
-4. Açıklama alanına bir değer girin.
-5. Sayfayı kapatın.
-
+## <a name="define-quarantine-zones-for-nonconformance-processing"></a><span data-ttu-id="d049f-177">Uygunsuzluk işleme için karantina bölgelerini tanımlayın</span><span class="sxs-lookup"><span data-stu-id="d049f-177">Define quarantine zones for nonconformance processing</span></span>
+1. <span data-ttu-id="d049f-178">Stok yönetimi > Kurulum > Kalite yönetimi > Karantina bölgeleri öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="d049f-178">Go to Inventory management > Setup > Quality management > Quarantine zones.</span></span>
+2. <span data-ttu-id="d049f-179">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d049f-179">Click New.</span></span>
+3. <span data-ttu-id="d049f-180">Karantina bölgesi alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="d049f-180">In the Quarantine zone field, type a value.</span></span>
+4. <span data-ttu-id="d049f-181">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="d049f-181">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="d049f-182">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="d049f-182">Close the page.</span></span>
 

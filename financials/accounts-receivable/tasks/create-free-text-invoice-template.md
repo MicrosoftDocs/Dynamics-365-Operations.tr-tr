@@ -16,52 +16,52 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7382c5ddc5d0972c8756b64ca7cc4e62073c367e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e9c9811b348d81cd735c5b75ca48e0a56a8d52be
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-free-text-invoice-template"></a>Serbest metin fatura şablonu oluşturma
+# <a name="create-a-free-text-invoice-template"></a><span data-ttu-id="55af1-103">Serbest metin fatura şablonu oluşturma</span><span class="sxs-lookup"><span data-stu-id="55af1-103">Create a free text invoice template</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu kayıtta USMF demo şirketi kullanılmaktadır. Bu kayıt, alacak hesapları faturalarının yönetiminden ve işlenmesinden sorumlu kullanıcılara yöneliktir.
+<span data-ttu-id="55af1-104">Bu kayıtta USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="55af1-104">This recording uses the USMF demo company.</span></span> <span data-ttu-id="55af1-105">Bu kayıt, alacak hesapları faturalarının yönetiminden ve işlenmesinden sorumlu kullanıcılara yöneliktir.</span><span class="sxs-lookup"><span data-stu-id="55af1-105">The recording is intended for the user who is responsible for managing and processing A/R invoices.</span></span>
 
-1. Alacak hesapları > Faturalar > Yinelenen faturalar > Serbest metin faturası şablonları'na gidin.
-    * Fatura satırlarını, masrafları, bir muhasebe dağılım şablonu ve genel muhasebe hesabı bilgilerini içerebilen serbest metin faturası şablonları oluşturmak için bu formu kullanın.  
-2. Yeni bir serbest metin faturası şablonu oluşturmak için "Yeni"ye tıklayın.
-3. Şablon adı alanına bir değer girin.
-    * "Şablon adı" serbest metin faturası şablonunu benzersiz olarak tanımlar. İki şablon aynı "Şablon adı"nı taşıyamaz.  
-4. Açıklama alanına şablon grubu için bir açıklama girin.
-5. Fatura satırları sekmesini genişletin.
-6. Açıklama alanına, fatura satırı için bir açıklama girin.
-7. Ana hesap alanında bir gelir hesabı seçin.
-    * Toplam fatura tutarı için müşteri alacağının mahsup hareket hesabını Müşteri deftere nakil profilleri sayfasında seçebilirsiniz.  
-8. Satış vergisi grubu alanında, açılır menü düğmesine tıklayarak aramayı açın.
-    * Geçerli fatura satırı için satış vergisi grubu, müşteri hesabının satış vergisi grubu varsayılan değeridir.  
-9. Listede, seçili satırdaki bağlantıya tıklayın.
-10. Madde vergisi grubu alanında, geçerli fatura satırının madde satış vergisi grubunu seçin.
-11. Listede, seçili satırdaki bağlantıya tıklayın.
-12. Birim fiyatı alanında, fatura satırının birim başına fiyatını girin veya görüntüleyin.
-    * Bu tutar, fatura satırı tutarını belirlemek için, Miktar alanındaki değerle çarpılır.  
-13. Serbest metin faturası şablonuna yeni satır ekleyin.
-14. Açıklama alanına, fatura satırı için bir açıklama girin.
-15. Ana hesap alanında bir gelir hesabı seçin.
-    * Toplam fatura tutarı için müşteri alacağının mahsup hareket hesabını Müşteri deftere nakil profilleri sayfasında seçebilirsiniz.  
-16. Satış vergisi grubu alanında, açılır menü düğmesine tıklayarak aramayı açın.
-    * Geçerli fatura satırı için satış vergisi grubu, müşteri hesabının satış vergisi grubu varsayılan değeridir.  
-17. Listede, seçili satırdaki bağlantıya tıklayın.
-18. Madde satış vergisi grubu alanında, açılır menü düğmesine tıklayarak aramayı açın.
-    * Geçerli fatura satırı için madde satış vergisi grubu.  
-19. Listede, seçili satırdaki bağlantıya tıklayın.
-20. Fatura satırı için birim sayısını girin veya görüntüleyin
-    * Bu sayı, fatura satırı tutarını belirlemek için, Birim fiyatı alanındaki değerle çarpılır.  
-21. Fatura satırı için birim başına fiyatı girin veya görüntüleyin. 
-    * Bu tutar, fatura satır tutarını belirlemek için, Miktar alanındaki değerle çarpılır.  
-22. Tek bir satır ve tüm alt satırları için muhasebe dağılımlarını görüntüleyin veya değiştirin.
-    * Muhasebe dağılımları, bir tutarın, örneğin gelirin, verginin veya masrafların bir serbest metin faturasında nasıl hesaba katılacağını tanımlar.  
-23. Seçili fatura satırı için muhasebe dağılımlarını güncelleştirin.
-24. Kapat’a tıklayın.
+1. <span data-ttu-id="55af1-106">Alacak hesapları > Faturalar > Yinelenen faturalar > Serbest metin faturası şablonları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="55af1-106">Go to Accounts receivable > Invoices > Recurring invoices > Free text invoice templates.</span></span>
+    * <span data-ttu-id="55af1-107">Fatura satırlarını, masrafları, bir muhasebe dağılım şablonu ve genel muhasebe hesabı bilgilerini içerebilen serbest metin faturası şablonları oluşturmak için bu formu kullanın.</span><span class="sxs-lookup"><span data-stu-id="55af1-107">Use this form to create free text invoice templates that can include invoice lines, charges, an accounting distribution template, and ledger account information.</span></span>  
+2. <span data-ttu-id="55af1-108">Yeni bir serbest metin faturası şablonu oluşturmak için "Yeni"ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="55af1-108">Click 'New' to create a new free text invoice template.</span></span>
+3. <span data-ttu-id="55af1-109">Şablon adı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="55af1-109">In the Template name field, type a value.</span></span>
+    * <span data-ttu-id="55af1-110">"Şablon adı" serbest metin faturası şablonunu benzersiz olarak tanımlar.</span><span class="sxs-lookup"><span data-stu-id="55af1-110">‘Template name’ uniquely identifies a free text invoice template.</span></span> <span data-ttu-id="55af1-111">İki şablon aynı "Şablon adı"nı taşıyamaz.</span><span class="sxs-lookup"><span data-stu-id="55af1-111">No two templates can have the same ‘Template name’.</span></span>  
+4. <span data-ttu-id="55af1-112">Açıklama alanına şablon grubu için bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="55af1-112">In the Description field, enter a description of the template.</span></span>
+5. <span data-ttu-id="55af1-113">Fatura satırları sekmesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="55af1-113">Expand the Invoice lines tab.</span></span>
+6. <span data-ttu-id="55af1-114">Açıklama alanına, fatura satırı için bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="55af1-114">In the Description field, enter a description of the invoice line.</span></span>
+7. <span data-ttu-id="55af1-115">Ana hesap alanında bir gelir hesabı seçin.</span><span class="sxs-lookup"><span data-stu-id="55af1-115">In the Main account field, select a revenue account.</span></span>
+    * <span data-ttu-id="55af1-116">Toplam fatura tutarı için müşteri alacağının mahsup hareket hesabını Müşteri deftere nakil profilleri sayfasında seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="55af1-116">You can select the offset transaction account of a customer credit for the total invoice amount in the Customer posting profiles page.</span></span>  
+8. <span data-ttu-id="55af1-117">Satış vergisi grubu alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="55af1-117">In the Sales tax group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="55af1-118">Geçerli fatura satırı için satış vergisi grubu, müşteri hesabının satış vergisi grubu varsayılan değeridir.</span><span class="sxs-lookup"><span data-stu-id="55af1-118">The sales tax group for the current invoice line is the default sales tax group for the customer account.</span></span>  
+9. <span data-ttu-id="55af1-119">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="55af1-119">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="55af1-120">Madde vergisi grubu alanında, geçerli fatura satırının madde satış vergisi grubunu seçin.</span><span class="sxs-lookup"><span data-stu-id="55af1-120">In the Item tax group field, select the item sales tax group for the current invoice line.</span></span>
+11. <span data-ttu-id="55af1-121">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="55af1-121">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="55af1-122">Birim fiyatı alanında, fatura satırının birim başına fiyatını girin veya görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="55af1-122">In the Unit price field, enter or view the price per unit for the invoice line</span></span>
+    * <span data-ttu-id="55af1-123">Bu tutar, fatura satırı tutarını belirlemek için, Miktar alanındaki değerle çarpılır.</span><span class="sxs-lookup"><span data-stu-id="55af1-123">This amount is multiplied by the Quantity field to determine the invoice line amount.</span></span>  
+13. <span data-ttu-id="55af1-124">Serbest metin faturası şablonuna yeni satır ekleyin.</span><span class="sxs-lookup"><span data-stu-id="55af1-124">Add a new line to free text invoice template.</span></span>
+14. <span data-ttu-id="55af1-125">Açıklama alanına, fatura satırı için bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="55af1-125">In the Description field, enter a description of the invoice line.</span></span>
+15. <span data-ttu-id="55af1-126">Ana hesap alanında bir gelir hesabı seçin.</span><span class="sxs-lookup"><span data-stu-id="55af1-126">In the Main account field, select a revenue account.</span></span>
+    * <span data-ttu-id="55af1-127">Toplam fatura tutarı için müşteri alacağının mahsup hareket hesabını Müşteri deftere nakil profilleri sayfasında seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="55af1-127">You can select the offset transaction account of a customer credit for the total invoice amount in the Customer posting profiles page.</span></span>  
+16. <span data-ttu-id="55af1-128">Satış vergisi grubu alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="55af1-128">In the Sales tax group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="55af1-129">Geçerli fatura satırı için satış vergisi grubu, müşteri hesabının satış vergisi grubu varsayılan değeridir.</span><span class="sxs-lookup"><span data-stu-id="55af1-129">The sales tax group for the current invoice line is the default sales tax group for the customer account.</span></span>  
+17. <span data-ttu-id="55af1-130">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="55af1-130">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="55af1-131">Madde satış vergisi grubu alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="55af1-131">In the Item sales tax group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="55af1-132">Geçerli fatura satırı için madde satış vergisi grubu.</span><span class="sxs-lookup"><span data-stu-id="55af1-132">The item sales tax group for the current invoice line.</span></span>  
+19. <span data-ttu-id="55af1-133">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="55af1-133">In the list, click the link in the selected row.</span></span>
+20. <span data-ttu-id="55af1-134">Fatura satırı için birim sayısını girin veya görüntüleyin</span><span class="sxs-lookup"><span data-stu-id="55af1-134">Enter or view the number of units for the invoice line</span></span>
+    * <span data-ttu-id="55af1-135">Bu sayı, fatura satırı tutarını belirlemek için, Birim fiyatı alanındaki değerle çarpılır.</span><span class="sxs-lookup"><span data-stu-id="55af1-135">This number is multiplied by the value in the Unit price field to determine the invoice line amount.</span></span>  
+21. <span data-ttu-id="55af1-136">Fatura satırı için birim başına fiyatı girin veya görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="55af1-136">Enter or view the price per unit for the invoice line.</span></span> 
+    * <span data-ttu-id="55af1-137">Bu tutar, fatura satır tutarını belirlemek için, Miktar alanındaki değerle çarpılır.</span><span class="sxs-lookup"><span data-stu-id="55af1-137">This amount is multiplied by the value in the Quantity field to determine the invoice line amount.</span></span>  
+22. <span data-ttu-id="55af1-138">Tek bir satır ve tüm alt satırları için muhasebe dağılımlarını görüntüleyin veya değiştirin.</span><span class="sxs-lookup"><span data-stu-id="55af1-138">View and modify the accounting distributions for an individual line and any child lines.</span></span>
+    * <span data-ttu-id="55af1-139">Muhasebe dağılımları, bir tutarın, örneğin gelirin, verginin veya masrafların bir serbest metin faturasında nasıl hesaba katılacağını tanımlar.</span><span class="sxs-lookup"><span data-stu-id="55af1-139">Accounting distributions define how an amount will be accounted for, such as how the revenue, tax, or charges will be accounted for on a free text invoice.</span></span>  
+23. <span data-ttu-id="55af1-140">Seçili fatura satırı için muhasebe dağılımlarını güncelleştirin.</span><span class="sxs-lookup"><span data-stu-id="55af1-140">Update the accounting distributions for the selected invoice line.</span></span>
+24. <span data-ttu-id="55af1-141">Kapat’a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="55af1-141">Click Close.</span></span>
 
 

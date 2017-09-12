@@ -16,41 +16,41 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 0bb995a95529be4d69fd9e82a2bb1fe473feb7f9
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 85b6d502f8dea32602d2fd5edc223a9660b863ad
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="view-a-related-intercompany-voucher-from-a-journal"></a>Günlükten ilgili şirketlerarası fişi görüntüleme
+# <a name="view-a-related-intercompany-voucher-from-a-journal"></a><span data-ttu-id="4564a-103">Günlükten ilgili şirketlerarası fişi görüntüleme</span><span class="sxs-lookup"><span data-stu-id="4564a-103">View a related intercompany voucher from a journal</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-İlgili fiş penceresi, şirketlerarası hareketleri yevmiye defterinden aktarırken, mahsup şirketten olan fişi gösterir.
+<span data-ttu-id="4564a-104">İlgili fiş penceresi, şirketlerarası hareketleri yevmiye defterinden aktarırken, mahsup şirketten olan fişi gösterir.</span><span class="sxs-lookup"><span data-stu-id="4564a-104">The related voucher window shows the voucher from the offset company when posting an intercompany transaction from the general journal.</span></span>
 
 
-## <a name="post-an-intercompany-journal"></a>Şirketlerarası günlük satırları deftere aktarın
-1. Yevmiye defterlerine gidin.
-2. Yeni'ye tıklayın.
-3. Listede, seçili satırı işaretleyin.
-4. İsim alanında, şirketlerarası defter adını seçin veya girin.
-5. Satırlar seçeneğini tıklatın.
-6. Listede, seçili satırı işaretleyin.
-7. Hesap alanında istediğiniz değerleri belirtin.
-8. Tanım alanına bir değer girin veya buradan bir değer seçin.
-9. Açıklama alanına bir değer girin.
-10. Sayfayı kapatın.
-11. Borç alanına bir sayı girin.
-12. Mahsup şirket alanında, mahsup şirketi yazın ya da seçin.
-13. Mahsup şirket alanına bir değer girin veya buradan bir değer seçin.
-14. Sayfayı kapatın.
-15. Mahsup hesap alanında istediğiniz değerleri belirtin.
-16. Deftere Naklet öğesine tıklayın.
+## <a name="post-an-intercompany-journal"></a><span data-ttu-id="4564a-105">Şirketlerarası günlük satırları deftere aktarın</span><span class="sxs-lookup"><span data-stu-id="4564a-105">Post an intercompany journal</span></span>
+1. <span data-ttu-id="4564a-106">Yevmiye defterlerine gidin.</span><span class="sxs-lookup"><span data-stu-id="4564a-106">Go to General journals.</span></span>
+2. <span data-ttu-id="4564a-107">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4564a-107">Click New.</span></span>
+3. <span data-ttu-id="4564a-108">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="4564a-108">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="4564a-109">İsim alanında, şirketlerarası defter adını seçin veya girin.</span><span class="sxs-lookup"><span data-stu-id="4564a-109">In the Name field, enter or select the intercompany journal name.</span></span>
+5. <span data-ttu-id="4564a-110">Satırlar seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="4564a-110">Click Lines.</span></span>
+6. <span data-ttu-id="4564a-111">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="4564a-111">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="4564a-112">Hesap alanında istediğiniz değerleri belirtin.</span><span class="sxs-lookup"><span data-stu-id="4564a-112">In the Account field, specify the desired values.</span></span>
+8. <span data-ttu-id="4564a-113">Tanım alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="4564a-113">In the Description field, enter or select a value.</span></span>
+9. <span data-ttu-id="4564a-114">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="4564a-114">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="4564a-115">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="4564a-115">Close the page.</span></span>
+11. <span data-ttu-id="4564a-116">Borç alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="4564a-116">In the Debit field, enter a number.</span></span>
+12. <span data-ttu-id="4564a-117">Mahsup şirket alanında, mahsup şirketi yazın ya da seçin.</span><span class="sxs-lookup"><span data-stu-id="4564a-117">In the Offset company field, type or select the offset company.</span></span>
+13. <span data-ttu-id="4564a-118">Mahsup şirket alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="4564a-118">In the Offset company field, enter or select a value.</span></span>
+14. <span data-ttu-id="4564a-119">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="4564a-119">Close the page.</span></span>
+15. <span data-ttu-id="4564a-120">Mahsup hesap alanında istediğiniz değerleri belirtin.</span><span class="sxs-lookup"><span data-stu-id="4564a-120">In the Offset account field, specify the desired values.</span></span>
+16. <span data-ttu-id="4564a-121">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4564a-121">Click Post.</span></span>
 
-## <a name="view-related-intercompany-voucher"></a>İlgili şirketlerarası fişi görüntüleyin
-1. Fiş'e tıklayın.
-2. Tüm ilgili fişler'e tıklayın.
-3. Listede, seçili satırı işaretleyin.
-4. Fiş'e tıklayın.
+## <a name="view-related-intercompany-voucher"></a><span data-ttu-id="4564a-122">İlgili şirketlerarası fişi görüntüleyin</span><span class="sxs-lookup"><span data-stu-id="4564a-122">View related intercompany voucher</span></span>
+1. <span data-ttu-id="4564a-123">Fiş'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4564a-123">Click Voucher.</span></span>
+2. <span data-ttu-id="4564a-124">Tüm ilgili fişler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4564a-124">Click Related vouchers.</span></span>
+3. <span data-ttu-id="4564a-125">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="4564a-125">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="4564a-126">Fiş'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4564a-126">Click Voucher.</span></span>
 
 

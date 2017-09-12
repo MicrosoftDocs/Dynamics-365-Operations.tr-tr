@@ -17,44 +17,44 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 1c367ebcd57fc2dd534587aa96349e48756c1bb6
+ms.sourcegitcommit: a5fa86bace459d694ab0a2ec289e11b0e4420932
+ms.openlocfilehash: 184f38347e2525f3efef9b0d55003a94a75380d4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-arrival-journal"></a>Temel ambar işlemleri etkinleştirilmiş madde için madde varış günlüğü kullanarak maddeleri kaydetme
+# <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-arrival-journal"></a><span data-ttu-id="cdebc-103">Temel ambar işlemleri etkinleştirilmiş madde için madde varış günlüğü kullanarak maddeleri kaydetme</span><span class="sxs-lookup"><span data-stu-id="cdebc-103">Register items for a basic warehousing enabled item using an item arrival journal</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu prosedürde, Stok yönetimi modülündeki "temel depolama" işlevini kullanırken madde varış günlüğüyle maddelerin nasıl kaydedileceğini göreceksiniz. Bu genellikle bir teslim alma memuru tarafından yapılır. Bu prosedürü demo veri şirketi USMF'de, gösterilen örnek değerlerle çalıştırabilirsiniz.  USMF kullanmıyorsanız, bu kılavuzu başlatmadan önce, elinizde açık bir satınalma siparişi satırı içeren onaylı bir satınalma siparişi bulunması gerekir. Satırdaki madde stokta olmalı, ürün çeşitleri kullanmamalı ve izleme boyutları olmamalıdır. Ayrıca, maddenin tesis ve ambarın etkin olduğu bir depolama boyutu grubuyla ilişkilendirilmesi gerekir.
+<span data-ttu-id="cdebc-104">Bu prosedürde, Stok yönetimi modülündeki "temel depolama" işlevini kullanırken madde varış günlüğüyle maddelerin nasıl kaydedileceğini göreceksiniz.</span><span class="sxs-lookup"><span data-stu-id="cdebc-104">This procedure shows you how to register items using the item arrival journal when you are using “basic warehousing” in the Inventory management module.</span></span> <span data-ttu-id="cdebc-105">Bu genellikle bir teslim alma memuru tarafından yapılır.</span><span class="sxs-lookup"><span data-stu-id="cdebc-105">This would usually be done by a receiving clerk.</span></span> <span data-ttu-id="cdebc-106">Bu prosedürü demo veri şirketi USMF'de, gösterilen örnek değerlerle çalıştırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cdebc-106">You can run this procedure in demo data company USMF with the example values that are shown.</span></span>  <span data-ttu-id="cdebc-107">USMF kullanmıyorsanız, bu kılavuzu başlatmadan önce, elinizde açık bir satınalma siparişi satırı içeren onaylı bir satınalma siparişi bulunması gerekir.</span><span class="sxs-lookup"><span data-stu-id="cdebc-107">If you are not using USMF, you need to have a confirmed purchase order with an open purchase order line before you start this guide.</span></span> <span data-ttu-id="cdebc-108">Satırdaki madde stokta olmalı, ürün çeşitleri kullanmamalı ve izleme boyutları olmamalıdır.</span><span class="sxs-lookup"><span data-stu-id="cdebc-108">The item on the line must be stocked, and it must not use product variants, and must not have tracking dimensions.</span></span> <span data-ttu-id="cdebc-109">Ayrıca, maddenin tesis ve ambarın etkin olduğu bir depolama boyutu grubuyla ilişkilendirilmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="cdebc-109">And the item needs to be associated with a storage dimension group, where site and warehouse are active.</span></span>
 
 
-## <a name="create-item-arrival-journal-header"></a>Bir madde varış günlüğü üst bilgisi oluşturun
-1. Stok yönetimi > Yevmiye defteri girişleri > Madde varışı > Madde varışı öğesine gidin.
-2. Yeni'ye tıklayın.
-3. İsim alanına bir değer yazın.
-    * USMF kullanıyorsanız, WHS yazabilirsiniz. Başka veriler kullanıyorsanız, adını seçtiğiniz günlükte iki özelliğin olması gerekir: Malzeme çekme yerleşimini denetle ayarı Hayır, Karantina yönetimi ayarı Hayır olmalıdır.  
-4. Sevk irsaliyesi alanına bir değer girin.
-    * Bu, satıcının çıkardığı sevk irsaliyesindeki sevk irsaliyesi kodudur. Benzersiz bir numara ekleyin.  
-5. Numara alanında, satınalma siparişini seçin.
-6. Tamam'a tıklayın.
+## <a name="create-item-arrival-journal-header"></a><span data-ttu-id="cdebc-110">Bir madde varış günlüğü üst bilgisi oluşturun</span><span class="sxs-lookup"><span data-stu-id="cdebc-110">Create item arrival journal header</span></span>
+1. <span data-ttu-id="cdebc-111">Stok yönetimi > Yevmiye defteri girişleri > Madde varışı > Madde varışı öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="cdebc-111">Go to Inventory management > Journal entries > Item arrival > Item arrival.</span></span>
+2. <span data-ttu-id="cdebc-112">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cdebc-112">Click New.</span></span>
+3. <span data-ttu-id="cdebc-113">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="cdebc-113">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="cdebc-114">USMF kullanıyorsanız, WHS yazabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cdebc-114">If you are using USMF, you can type WHS.</span></span> <span data-ttu-id="cdebc-115">Başka veriler kullanıyorsanız, adını seçtiğiniz günlükte iki özelliğin olması gerekir: Malzeme çekme yerleşimini denetle ayarı Hayır, Karantina yönetimi ayarı Hayır olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="cdebc-115">If you’re using other data, the journal whose name you choose has to have the following properties: cheque picking location must be set to No, and Quarantine management must be set to No.</span></span>  
+4. <span data-ttu-id="cdebc-116">Sevk irsaliyesi alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="cdebc-116">In the Packing slip field, type a value.</span></span>
+    * <span data-ttu-id="cdebc-117">Bu, satıcının çıkardığı sevk irsaliyesindeki sevk irsaliyesi kodudur.</span><span class="sxs-lookup"><span data-stu-id="cdebc-117">This is the packing slip ID from the packing slip issued by the vendor.</span></span> <span data-ttu-id="cdebc-118">Benzersiz bir numara ekleyin.</span><span class="sxs-lookup"><span data-stu-id="cdebc-118">Add a unique number.</span></span>  
+5. <span data-ttu-id="cdebc-119">Numara alanında, satınalma siparişini seçin.</span><span class="sxs-lookup"><span data-stu-id="cdebc-119">In the Number field, In the Number field, select the purchase order..</span></span>
+6. <span data-ttu-id="cdebc-120">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cdebc-120">Click OK.</span></span>
 
-## <a name="add-lines-to-item-arrival-journal"></a>Madde varış günlüğüne satırlar ekleyin
-1. İşlevler'i tıklatın.
-2. Satır oluştur'a tıklayın.
-    * Satırlar bu günlüğe el ile girilebilir veya otomatik olarak oluşturulabilir. Burada size bunun otomatik olarak nasıl oluşturulduğu gösterilecek.  
-3. Miktarı başlat onay kutusunu işaretleyin veya kutunun işaretini kaldırın.
-    * Bu, satın alma siparişi satırında kaydedilmemiş miktarı olan günlük satırlarında miktarı başlatır.  
-4. Tamam'a tıklayın.
+## <a name="add-lines-to-item-arrival-journal"></a><span data-ttu-id="cdebc-121">Madde varış günlüğüne satırlar ekleyin</span><span class="sxs-lookup"><span data-stu-id="cdebc-121">Add lines to item arrival journal</span></span>
+1. <span data-ttu-id="cdebc-122">İşlevler'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="cdebc-122">Click Functions.</span></span>
+2. <span data-ttu-id="cdebc-123">Satır oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cdebc-123">Click Create lines.</span></span>
+    * <span data-ttu-id="cdebc-124">Satırlar bu günlüğe el ile girilebilir veya otomatik olarak oluşturulabilir.</span><span class="sxs-lookup"><span data-stu-id="cdebc-124">The lines can be entered manually into this journal or created automatically.</span></span> <span data-ttu-id="cdebc-125">Burada size bunun otomatik olarak nasıl oluşturulduğu gösterilecek.</span><span class="sxs-lookup"><span data-stu-id="cdebc-125">This will show you how to create this automatically.</span></span>  
+3. <span data-ttu-id="cdebc-126">Miktarı başlat onay kutusunu işaretleyin veya kutunun işaretini kaldırın.</span><span class="sxs-lookup"><span data-stu-id="cdebc-126">Check or uncheck the Initialize quantity checkbox.</span></span>
+    * <span data-ttu-id="cdebc-127">Bu, satın alma siparişi satırında kaydedilmemiş miktarı olan günlük satırlarında miktarı başlatır.</span><span class="sxs-lookup"><span data-stu-id="cdebc-127">This will initialize the quantity on the journal lines with the quantity not registered from the purchase order line.</span></span>  
+4. <span data-ttu-id="cdebc-128">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cdebc-128">Click OK.</span></span>
 
-## <a name="post-the-journal"></a>Günlüğü deftere naklet
-1. Deftere Naklet öğesine tıklayın.
-2. Tamam'a tıklayın.
+## <a name="post-the-journal"></a><span data-ttu-id="cdebc-129">Günlüğü deftere naklet</span><span class="sxs-lookup"><span data-stu-id="cdebc-129">Post the journal</span></span>
+1. <span data-ttu-id="cdebc-130">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cdebc-130">Click Post.</span></span>
+2. <span data-ttu-id="cdebc-131">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cdebc-131">Click OK.</span></span>
 
-## <a name="generate-the-product-receipt"></a>Ürün girişini oluşturun
-1. İşlevler'i tıklatın.
-2. Ürün girişi seçeneğine tıklayın.
-3. Tamam'a tıklayın.
+## <a name="generate-the-product-receipt"></a><span data-ttu-id="cdebc-132">Ürün girişini oluşturun</span><span class="sxs-lookup"><span data-stu-id="cdebc-132">Generate the product receipt</span></span>
+1. <span data-ttu-id="cdebc-133">İşlevler'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="cdebc-133">Click Functions.</span></span>
+2. <span data-ttu-id="cdebc-134">Ürün girişi seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cdebc-134">Click Product receipt.</span></span>
+3. <span data-ttu-id="cdebc-135">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cdebc-135">Click OK.</span></span>
 
 

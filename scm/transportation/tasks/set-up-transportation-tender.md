@@ -17,34 +17,34 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: a8ad2469bbe51648369d2df17fc027c03e6c97ca
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 8ccd82b3249e99dd2884fb257f3e65261ab64d96
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-a-transportation-tender"></a>Taşıma ödemesini ayarlama
+# <a name="set-up-a-transportation-tender"></a><span data-ttu-id="cd505-103">Taşıma ödemesini ayarlama</span><span class="sxs-lookup"><span data-stu-id="cd505-103">Set up a transportation tender</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, bir taşıma ödemesinin nasıl ayarlanacağını gösterir. Bu genellikle taşımacılık düzenleyicisi tarafından yapılır. Bu yordamı USMF demo veri şirketinde kullanabilirsiniz.
+<span data-ttu-id="cd505-104">Bu yordam, bir taşıma ödemesinin nasıl ayarlanacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="cd505-104">This procedure shows how to set up a transportation tender.</span></span> <span data-ttu-id="cd505-105">Bu genellikle taşımacılık düzenleyicisi tarafından yapılır.</span><span class="sxs-lookup"><span data-stu-id="cd505-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="cd505-106">Bu yordamı USMF demo veri şirketinde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cd505-106">You can use this procedure in the USMF demo data company.</span></span>
 
 
-## <a name="select-a-route"></a>Rota seçme
-1. Taşıma yönetimi > Planlama > Yük planlama çalışma ekranına gidin.
-2. Sevk edileni ve teslim alınanı gizle onay kutusunu temizleyin.
-3. 00006 yük kodlu satırı seçin.
-4. Oran ve rota'ya tıklayın.
-5. Rotalar'a tıklayın.
+## <a name="select-a-route"></a><span data-ttu-id="cd505-107">Rota seçme</span><span class="sxs-lookup"><span data-stu-id="cd505-107">Select a route</span></span>
+1. <span data-ttu-id="cd505-108">Taşıma yönetimi > Planlama > Yük planlama çalışma ekranına gidin.</span><span class="sxs-lookup"><span data-stu-id="cd505-108">Go to Transportation management > Planning > Load planning workbench.</span></span>
+2. <span data-ttu-id="cd505-109">Sevk edileni ve teslim alınanı gizle onay kutusunu temizleyin.</span><span class="sxs-lookup"><span data-stu-id="cd505-109">Clear the Hide shipped and received check box.</span></span>
+3. <span data-ttu-id="cd505-110">00006 yük kodlu satırı seçin.</span><span class="sxs-lookup"><span data-stu-id="cd505-110">Select the line with Load ID 00006.</span></span>
+4. <span data-ttu-id="cd505-111">Oran ve rota'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cd505-111">Click Rating and routing.</span></span>
+5. <span data-ttu-id="cd505-112">Rotalar'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cd505-112">Click Routes.</span></span>
 
-## <a name="create-the-transportation-tender"></a>Taşıma ödemesi oluşturma
-1. Taşıma ödemeleri'ne tıklayın.
-2. Yeni'ye tıklayın.
-3. Genel bölümünü genişletin.
-4. Talep edilen oranlar alanına bir sayı girin.
-5. Kaydet'e tıklayın.
-6. Durumu güncelleştir'e tıklayın.
-7. Gönder'i tıklatın.
-8. Bir rota seçin.
+## <a name="create-the-transportation-tender"></a><span data-ttu-id="cd505-113">Taşıma ödemesi oluşturma</span><span class="sxs-lookup"><span data-stu-id="cd505-113">Create the transportation tender</span></span>
+1. <span data-ttu-id="cd505-114">Taşıma ödemeleri'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cd505-114">Click Transportation tenders.</span></span>
+2. <span data-ttu-id="cd505-115">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cd505-115">Click New.</span></span>
+3. <span data-ttu-id="cd505-116">Genel bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="cd505-116">Expand the General section.</span></span>
+4. <span data-ttu-id="cd505-117">Talep edilen oranlar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="cd505-117">In the Requested rates field, enter a number.</span></span>
+5. <span data-ttu-id="cd505-118">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cd505-118">Click Save.</span></span>
+6. <span data-ttu-id="cd505-119">Durumu güncelleştir'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="cd505-119">Click Update status.</span></span>
+7. <span data-ttu-id="cd505-120">Gönder'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="cd505-120">Click Submit.</span></span>
+8. <span data-ttu-id="cd505-121">Bir rota seçin.</span><span class="sxs-lookup"><span data-stu-id="cd505-121">Select a route.</span></span>
 
 

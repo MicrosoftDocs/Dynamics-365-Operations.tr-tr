@@ -17,133 +17,133 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 01a0c42c43a23234e0e355193f8dd7e8ee116f71
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 02af5d1beb2d4eb6a7162b47c42854725fbdbec2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-a-min-max-replenishment-process"></a>Minimum-maksimum stok yenileme işlemini ayarlama
+# <a name="set-up-a-min-max-replenishment-process"></a><span data-ttu-id="33e67-103">Minimum-maksimum stok yenileme işlemini ayarlama</span><span class="sxs-lookup"><span data-stu-id="33e67-103">Set up a min-max replenishment process</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, minimum/maksimum stok yenileme stratejisini kullanan yeni bir stok yenileme işlemini nasıl ayarlayacağınızı gösterir. Stok minimum düzeyin altına düştüğünde, konumun yenilenmesi için iş oluşturulur. Bu yordam ayrıca sabit çekme konumlarının, stok belirli bir seviyenin altına düşse bile yeniden nasıl stoklanacağını ve bir toplu iş kullanarak stok yenileme işleminin düzenli aralıklarla nasıl çalıştırılacağını göstermektedir. Bu görevler genellikle ambar Yöneticisi tarafından yerine getirilir. Bu yordamı, notlardaki örnek değerleri USMF demo veri şirketini kullanarak ya da kendi verileriniz ile çalıştırabilirsiniz. Kendi verilerinizi kullanıyorsanız, Ambar yönetim işlemleri için etkin bir ambara sahip olduğunuzdan emin olun.
+<span data-ttu-id="33e67-104">Bu yordam, minimum/maksimum stok yenileme stratejisini kullanan yeni bir stok yenileme işlemini nasıl ayarlayacağınızı gösterir.</span><span class="sxs-lookup"><span data-stu-id="33e67-104">This procedure shows you how to set up a new replenishment process which uses the minimum/maximum replenishment strategy.</span></span> <span data-ttu-id="33e67-105">Stok minimum düzeyin altına düştüğünde, konumun yenilenmesi için iş oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="33e67-105">When inventory falls below the minimum level, work will be created to replenish the location.</span></span> <span data-ttu-id="33e67-106">Bu yordam ayrıca sabit çekme konumlarının, stok belirli bir seviyenin altına düşse bile yeniden nasıl stoklanacağını ve bir toplu iş kullanarak stok yenileme işleminin düzenli aralıklarla nasıl çalıştırılacağını göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="33e67-106">The procedure also shows how to use fixed picking locations to allow restocking even if inventory falls below the minimum level, and how to enable the replenishment process to run regularly using a batch job.</span></span> <span data-ttu-id="33e67-107">Bu görevler genellikle ambar Yöneticisi tarafından yerine getirilir.</span><span class="sxs-lookup"><span data-stu-id="33e67-107">These tasks would typically be carried out by a warehouse manager.</span></span> <span data-ttu-id="33e67-108">Bu yordamı, notlardaki örnek değerleri USMF demo veri şirketini kullanarak ya da kendi verileriniz ile çalıştırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="33e67-108">You can run this procedure in the USMF demo data company using the example values in the notes, or can run it on your own data.</span></span> <span data-ttu-id="33e67-109">Kendi verilerinizi kullanıyorsanız, Ambar yönetim işlemleri için etkin bir ambara sahip olduğunuzdan emin olun.</span><span class="sxs-lookup"><span data-stu-id="33e67-109">If you’re using your own data, make sure that you have a warehouse that’s enabled for Warehouse management processes.</span></span>
 
 
-## <a name="create-a-fixed-picking-location"></a>Sabit bir çekme konumu oluşturun
-1. Ambar yönetimi > Kurulum > Ambar > Sabit konumlar öğesine gidin.
-    * Bu, min-maks stok yenileme için tercihe bağlı bir görevdir fakat sabit bir çekme konumu kullanıyorsanız, bu stoğun minimum seviyenin altın düşmesi durumunda bile yenilenmesini sağlar, çünkü sistem hangi maddelerin yenilenmesinin gerektiğini belirleyebilir, hiç kalmamış olsalar bile.  
-2. Yeni'ye tıklayın.
-3. Madde numarası alanında bir değer girin veya seçin.
-    * USMF kullanıyorsanız, A0001 öğesini seçebilirsiniz.  
-4. Tesis alanına bir değer girin veya buradan bir değer seçin.
-    * USMF kullanıyorsanız, site 2'yi seçebilirsiniz.  
-5. Ambar alanında bir değer girin veya bir değer seçin.
-    * USMF kullanıyorsanız, ambar 24'ü seçebilirsiniz.  
-6. Konum alanına bir değer girin veya buradan bir değer seçin.
-    * USMF kullanıyorsanız, CP-003'ü seçebilirsiniz.  
-7. Sayfayı kapatın.
+## <a name="create-a-fixed-picking-location"></a><span data-ttu-id="33e67-110">Sabit bir çekme konumu oluşturun</span><span class="sxs-lookup"><span data-stu-id="33e67-110">Create a fixed picking location</span></span>
+1. <span data-ttu-id="33e67-111">Ambar yönetimi > Kurulum > Ambar > Sabit konumlar öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="33e67-111">Go to Warehouse management > Setup > Warehouse > Fixed locations.</span></span>
+    * <span data-ttu-id="33e67-112">Bu, min-maks stok yenileme için tercihe bağlı bir görevdir fakat sabit bir çekme konumu kullanıyorsanız, bu stoğun minimum seviyenin altın düşmesi durumunda bile yenilenmesini sağlar, çünkü sistem hangi maddelerin yenilenmesinin gerektiğini belirleyebilir, hiç kalmamış olsalar bile.</span><span class="sxs-lookup"><span data-stu-id="33e67-112">This is an optional task for min-max replenishment, but if you use fixed picking location, this allows stock to be replenished even if it falls below the minimum level, because the system can determine which items need to be replenished, even if there aren't any left.</span></span>  
+2. <span data-ttu-id="33e67-113">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-113">Click New.</span></span>
+3. <span data-ttu-id="33e67-114">Madde numarası alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-114">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="33e67-115">USMF kullanıyorsanız, A0001 öğesini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="33e67-115">If you’re using USMF, you can select item A0001.</span></span>  
+4. <span data-ttu-id="33e67-116">Tesis alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-116">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="33e67-117">USMF kullanıyorsanız, site 2'yi seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="33e67-117">If you’re using USMF, you can select site 2.</span></span>  
+5. <span data-ttu-id="33e67-118">Ambar alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-118">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="33e67-119">USMF kullanıyorsanız, ambar 24'ü seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="33e67-119">If you’re using USMF, you can select warehouse 24.</span></span>  
+6. <span data-ttu-id="33e67-120">Konum alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-120">In the Location field, enter or select a value.</span></span>
+    * <span data-ttu-id="33e67-121">USMF kullanıyorsanız, CP-003'ü seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="33e67-121">If you’re using USMF, you can select CP-003.</span></span>  
+7. <span data-ttu-id="33e67-122">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="33e67-122">Close the page.</span></span>
 
-## <a name="create-a-replenishment-location-directive"></a>Bir stok yenileme konum yönergesi oluşturun
-1. Ambar yönetimi > Kurulum > Konum yönergeleri öğesine gidin.
-    * Konum yönergeleri stok yenileme işleminde maddelerin çekileceğini yeri belirlemek için kullanılır.  
-2. İş siparişi türü alanında 'Stok Yenileme' seçin.
-3. Yeni'ye tıklayın.
-4. İsim alanına bir değer yazın.
-5. İş türü alanında 'Malzeme çekme öğesini seçin.
-6. Tesis alanına bir değer girin veya buradan bir değer seçin.
-    * USMF kullanıyorsanız, site 2'yi seçebilirsiniz.  
-7. Ambar alanında bir değer girin veya bir değer seçin.
-    * USMF kullanıyorsanız, ambar 24'ü seçebilirsiniz.  
-8. Kaydet'e tıklayın.
-9. Yeni'ye tıklayın.
-10. Listede, seçili satırı işaretleyin.
-11. Alıcı miktarı alanına bir sayı girin.
-    * Örneğin 9999 olarak ayarlayın.  
-12. Bölünmüş çekmelere izin ver onay kutusunu seçin.
-    * Bu seçeneği belirlerseniz, iş oluşturma süreci iş satırları miktarlarının birden fazla konuma bölünmesine izin verecektir.  
-13. Kaydet'e tıklayın.
-14. Yeni'ye tıklayın.
-15. Listede, seçili satırı işaretleyin.
-16. İsim alanına bir değer yazın.
-17. Kaydet'e tıklayın.
-18. Sorguyu düzenle'ye tıklayın.
-    * Bu sorguyu düzenleyip, stok yenilenme işleminde stokun nereden seçilebileceğine dair kısıtlama ekleyebilirsiniz. Örneğin, stok sadece ambarın Toplu alanından kullanılabiliyor olabilir.  
-19. Tamam'a tıklayın.
-20. Sayfayı kapatın.
+## <a name="create-a-replenishment-location-directive"></a><span data-ttu-id="33e67-123">Bir stok yenileme konum yönergesi oluşturun</span><span class="sxs-lookup"><span data-stu-id="33e67-123">Create a replenishment location directive</span></span>
+1. <span data-ttu-id="33e67-124">Ambar yönetimi > Kurulum > Konum yönergeleri öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="33e67-124">Go to Warehouse management > Setup > Location directives.</span></span>
+    * <span data-ttu-id="33e67-125">Konum yönergeleri stok yenileme işleminde maddelerin çekileceğini yeri belirlemek için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="33e67-125">Location directives are used to determine where items should be picked from in the replenishment process.</span></span>  
+2. <span data-ttu-id="33e67-126">İş siparişi türü alanında 'Stok Yenileme' seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-126">In the Work order type field, select 'Replenishment'.</span></span>
+3. <span data-ttu-id="33e67-127">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-127">Click New.</span></span>
+4. <span data-ttu-id="33e67-128">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="33e67-128">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="33e67-129">İş türü alanında 'Malzeme çekme öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-129">In the Work type field, select 'Pick'.</span></span>
+6. <span data-ttu-id="33e67-130">Tesis alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-130">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="33e67-131">USMF kullanıyorsanız, site 2'yi seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="33e67-131">If you’re using USMF, you can select site 2.</span></span>  
+7. <span data-ttu-id="33e67-132">Ambar alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-132">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="33e67-133">USMF kullanıyorsanız, ambar 24'ü seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="33e67-133">If you’re using USMF, you can select warehouse 24.</span></span>  
+8. <span data-ttu-id="33e67-134">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-134">Click Save.</span></span>
+9. <span data-ttu-id="33e67-135">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-135">Click New.</span></span>
+10. <span data-ttu-id="33e67-136">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="33e67-136">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="33e67-137">Alıcı miktarı alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="33e67-137">In the To quantity field, enter a number.</span></span>
+    * <span data-ttu-id="33e67-138">Örneğin 9999 olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-138">For example, you can set it to 9999.</span></span>  
+12. <span data-ttu-id="33e67-139">Bölünmüş çekmelere izin ver onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-139">Select the Allow split check box.</span></span>
+    * <span data-ttu-id="33e67-140">Bu seçeneği belirlerseniz, iş oluşturma süreci iş satırları miktarlarının birden fazla konuma bölünmesine izin verecektir.</span><span class="sxs-lookup"><span data-stu-id="33e67-140">If you select this option, the work creation process will allow work line quantities to be split across multiple locations.</span></span>  
+13. <span data-ttu-id="33e67-141">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-141">Click Save.</span></span>
+14. <span data-ttu-id="33e67-142">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-142">Click New.</span></span>
+15. <span data-ttu-id="33e67-143">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="33e67-143">In the list, mark the selected row.</span></span>
+16. <span data-ttu-id="33e67-144">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="33e67-144">In the Name field, type a value.</span></span>
+17. <span data-ttu-id="33e67-145">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-145">Click Save.</span></span>
+18. <span data-ttu-id="33e67-146">Sorguyu düzenle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-146">Click Edit query.</span></span>
+    * <span data-ttu-id="33e67-147">Bu sorguyu düzenleyip, stok yenilenme işleminde stokun nereden seçilebileceğine dair kısıtlama ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="33e67-147">You can edit this query to add restrictions where inventory can be selected from in the replenishment process.</span></span> <span data-ttu-id="33e67-148">Örneğin, stok sadece ambarın Toplu alanından kullanılabiliyor olabilir.</span><span class="sxs-lookup"><span data-stu-id="33e67-148">For example, it could be that inventory should only be used from the Bulk area of the warehouse.</span></span>  
+19. <span data-ttu-id="33e67-149">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-149">Click OK.</span></span>
+20. <span data-ttu-id="33e67-150">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="33e67-150">Close the page.</span></span>
 
-## <a name="create-a-replenishment-work-template"></a>Bir Stok yenileme iş şablonu oluşturun
-1. Ambar yönetimi > Kurulum > İş > İş şablonları öğesine gidin.
-    * İş şablonu, sistemi min/maks stok yenileme işinin nasıl oluşturulacağına dair yönlendirmek için kullanılır. En düşük gereksinim olarak,çekme ve yerine koyma için bir iş şablonu satırı olmalıdır. İş şablonu, tüm gerekli bilgiler doldurulmuş olana kadar geçersiz olduğunu söyleyecektir.  
-2. İş siparişi türü alanında 'Stok Yenileme' seçin.
-3. Yeni'ye tıklayın.
-4. İş şablonu alanında bir değer girin.
-5. Kaydet'e tıklayın.
-6. Yeni'ye tıklayın.
-7. İş türü alanında 'Malzeme çekme öğesini seçin.
-8. İş sınıfı kodu alanına bir değer girin veya buradan bir değer seçin.
-    * Bunun stok yenileme ile ilgili bir iş sınıf olması gerekir. USMF kullanıyorsanız, Stok Yenileme'yi seçin.  
-9. Yeni'ye tıklayın.
-10. Listede, seçili satırı işaretleyin.
-11. İş türü alanında, 'Yerine koyma'yı seçin.
-12. İş sınıfı kodu alanına bir değer girin veya buradan bir değer seçin.
-13. Kaydet'e tıklayın.
-14. Sayfayı kapatın.
+## <a name="create-a-replenishment-work-template"></a><span data-ttu-id="33e67-151">Bir Stok yenileme iş şablonu oluşturun</span><span class="sxs-lookup"><span data-stu-id="33e67-151">Create a replenishment work template</span></span>
+1. <span data-ttu-id="33e67-152">Ambar yönetimi > Kurulum > İş > İş şablonları öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="33e67-152">Go to Warehouse management > Setup > Work > Work templates.</span></span>
+    * <span data-ttu-id="33e67-153">İş şablonu, sistemi min/maks stok yenileme işinin nasıl oluşturulacağına dair yönlendirmek için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="33e67-153">The work template is use to guide the system as to how the min/max replenishment work must be created.</span></span> <span data-ttu-id="33e67-154">En düşük gereksinim olarak,çekme ve yerine koyma için bir iş şablonu satırı olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="33e67-154">As a minimum, there must be a work template line for a pick and a put.</span></span> <span data-ttu-id="33e67-155">İş şablonu, tüm gerekli bilgiler doldurulmuş olana kadar geçersiz olduğunu söyleyecektir.</span><span class="sxs-lookup"><span data-stu-id="33e67-155">The work template will say that it’s Invalid until all the necessary information has been filled in.</span></span>  
+2. <span data-ttu-id="33e67-156">İş siparişi türü alanında 'Stok Yenileme' seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-156">In the Work order type field, select 'Replenishment'.</span></span>
+3. <span data-ttu-id="33e67-157">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-157">Click New.</span></span>
+4. <span data-ttu-id="33e67-158">İş şablonu alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="33e67-158">In the Work template field, type a value.</span></span>
+5. <span data-ttu-id="33e67-159">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-159">Click Save.</span></span>
+6. <span data-ttu-id="33e67-160">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-160">Click New.</span></span>
+7. <span data-ttu-id="33e67-161">İş türü alanında 'Malzeme çekme öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-161">In the Work type field, select 'Pick'.</span></span>
+8. <span data-ttu-id="33e67-162">İş sınıfı kodu alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-162">In the Work class ID field, enter or select a value.</span></span>
+    * <span data-ttu-id="33e67-163">Bunun stok yenileme ile ilgili bir iş sınıf olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="33e67-163">This should be a work class related to replenishment.</span></span> <span data-ttu-id="33e67-164">USMF kullanıyorsanız, Stok Yenileme'yi seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-164">If you’re using USMF, select Replenish.</span></span>  
+9. <span data-ttu-id="33e67-165">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-165">Click New.</span></span>
+10. <span data-ttu-id="33e67-166">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="33e67-166">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="33e67-167">İş türü alanında, 'Yerine koyma'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-167">In the Work type field, select 'Put'.</span></span>
+12. <span data-ttu-id="33e67-168">İş sınıfı kodu alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-168">In the Work class ID field, enter or select a value.</span></span>
+13. <span data-ttu-id="33e67-169">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-169">Click Save.</span></span>
+14. <span data-ttu-id="33e67-170">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="33e67-170">Close the page.</span></span>
 
-## <a name="create-a-new-replenishment-template"></a>Yeni bir stok yenileme şablonu oluşturun
-1. Ambar yönetimi > Kurulum > Stok yenileme > Stok yenileme şablonları öğesine gidin.
-    * Stok yenileme şablonu, maddeleri ve miktarları ve yenilenecek konumu tanımlamak için kullanılır.  
-2. Yeni'ye tıklayın.
-3. Stok yenileme şablonu alanında bir değer girin.
-    * Şablonun min/maks stok yenileme için olduğunu belirtecek bir ad verin.  
-4. Açıklama alanına bir değer girin.
-5. Dalga talebinin rezerve edilmemiş miktarları kullanmasına izin ver onay kutusunu işaretleyin.
-    * Bu seçeneği belirlerseniz, dalga talep stok yenilemesinin, min/maks stok yenileme ile ilgili miktarları tüketmesini talep eder. Örneğin bu, min/maks stok yenileme işi derhal işlenmeyecekse, gereksiz stok yenileme işinin talep edilmesinin oluşturulmasının önüne geçmek için kullanışlı olabilir.  
-6. Yeni'ye tıklayın.
-7. Sıra numarası alanına bir numara girin.
-8. Açıklama alanına bir değer girin.
-9. Listede, seçili satırı işaretleyin.
-10. Stok yenileme birimi alanına bir değer girin veya bir değer seçin.
-    * Örneğin, adet seçin. Bu seçenek zorunludur. Bu stoktaki minimum ve maksimum seviyeler için tanımlanmış birim ile kıyasla, farklı bir ölçüm birimini stok yenileme işi için belirlemenize izin verir.  
-11. İş şablonu alanında bir değer girin veya bir değer seçin.
-    * Daha önce oluşturduğunuz iş şablonunu seçin.  
-12. Minimum miktar alanında, bir sayı girin.
-    * Stok yenilemeyi tetiklemesi gereken minimum miktarı seçin. Örneğin, bu ayarlar için 50. Eğer sabit bir konumu yeniliyorsanız ve Sabit konumları yenile seçeneği Evet olarak ayarlanmış ise bu ayarı sıfır olarak bırakmak mümkündür. Performans artırmak için Sadece sabit konumları yenile seçeneğini seçmenizi öneririz.  
-13. Maksimum miktar alanında, bir sayı girin.
-    * Örneğin, bunu 100'e ayarlayın.  
-14. Birim alanına bir değer girin veya buradan bir değer seçin.
-    * Minimum ve maksimum miktarlar için birimi atayın. Örneğin bunu, adet olarak ayarlayın.  
-15. Boş sabit konumları yenile onay kutusunu işaretleyin.
-    * Bu onay kutusunu sabit konumları boş olduklarında yenilemek için işaretleyin. Aksi takdirde, yalnızca elde bir miktar bulunan konumlar yenilenecektir.  
-16. Sadece boş sabit konumları yenile onay kutusunu işaretleyin.
-17. Ürünleri seç'i tıklatın.
-    * Bu, hangi ürünlerin yenilenebileceğini tanımlayabileceğiniz bir yerdir. Eğer Sabit çekme konumları seçeneği belirlendiyse, bu sorguda ayrıca konumları tanımlamanız gerekmektedir. Değişken özgü sorgular ve ayrıca ürüne özgü sorgular da kullanılabilir.  
-18. Maddeler satırını seçin.
-19. Ölçütler alanına bir değer yazın.
-    * Sabit konumlarda yenilenmesi gereken öğeleri seçin. Örneğin, A ile başlayan tüm madde numaralarını seçmek için A* girin.  
-20. Ekle öğesini tıklatın.
-    * Stok yenileme işini, ambarın belirli bir bölgesindeki sabit çekme konumlarına kısıtlamak için, konum varlığını ekleyin (eğer halihazırda mevcut değilse).  
-21. Listede, seçili satırı işaretleyin.
-22. Tablo alanını Konumlar olarak ayarlayın.
-23. Konum alanında, Konum profil kimliği'ni seçin.
-24. Ölçütler alanında bir değer girin veya seçin.
-25. Tamam'a tıklayın.
-26. Sayfayı kapatın.
+## <a name="create-a-new-replenishment-template"></a><span data-ttu-id="33e67-171">Yeni bir stok yenileme şablonu oluşturun</span><span class="sxs-lookup"><span data-stu-id="33e67-171">Create a new replenishment template</span></span>
+1. <span data-ttu-id="33e67-172">Ambar yönetimi > Kurulum > Stok yenileme > Stok yenileme şablonları öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="33e67-172">Go to Warehouse management > Setup > Replenishment > Replenishment templates.</span></span>
+    * <span data-ttu-id="33e67-173">Stok yenileme şablonu, maddeleri ve miktarları ve yenilenecek konumu tanımlamak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="33e67-173">The replenishment template is used to define the items and quantities, and the location to replenish.</span></span>  
+2. <span data-ttu-id="33e67-174">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-174">Click New.</span></span>
+3. <span data-ttu-id="33e67-175">Stok yenileme şablonu alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="33e67-175">In the Replenish template field, type a value.</span></span>
+    * <span data-ttu-id="33e67-176">Şablonun min/maks stok yenileme için olduğunu belirtecek bir ad verin.</span><span class="sxs-lookup"><span data-stu-id="33e67-176">Give the template a name to indicate that it’s for min/max replenishment.</span></span>  
+4. <span data-ttu-id="33e67-177">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="33e67-177">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="33e67-178">Dalga talebinin rezerve edilmemiş miktarları kullanmasına izin ver onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="33e67-178">Select the Allow wave demand to use unreserved quantities check box.</span></span>
+    * <span data-ttu-id="33e67-179">Bu seçeneği belirlerseniz, dalga talep stok yenilemesinin, min/maks stok yenileme ile ilgili miktarları tüketmesini talep eder.</span><span class="sxs-lookup"><span data-stu-id="33e67-179">If you select this option, it enables wave demand replenishment to consume quantities that are related to min/max replenishment.</span></span> <span data-ttu-id="33e67-180">Örneğin bu, min/maks stok yenileme işi derhal işlenmeyecekse, gereksiz stok yenileme işinin talep edilmesinin oluşturulmasının önüne geçmek için kullanışlı olabilir.</span><span class="sxs-lookup"><span data-stu-id="33e67-180">For example, this might be useful if the min/max replenishment work isn’t processed immediately, to avoid unnecessary demand replenishment work from being created.</span></span>  
+6. <span data-ttu-id="33e67-181">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-181">Click New.</span></span>
+7. <span data-ttu-id="33e67-182">Sıra numarası alanına bir numara girin.</span><span class="sxs-lookup"><span data-stu-id="33e67-182">In the Sequence number field, enter a number.</span></span>
+8. <span data-ttu-id="33e67-183">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="33e67-183">In the Description field, type a value.</span></span>
+9. <span data-ttu-id="33e67-184">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="33e67-184">In the list, mark the selected row.</span></span>
+10. <span data-ttu-id="33e67-185">Stok yenileme birimi alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-185">In the Replenishment unit field, enter or select a value.</span></span>
+    * <span data-ttu-id="33e67-186">Örneğin, adet seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-186">For example, select pcs.</span></span> <span data-ttu-id="33e67-187">Bu seçenek zorunludur.</span><span class="sxs-lookup"><span data-stu-id="33e67-187">This setting is mandatory.</span></span> <span data-ttu-id="33e67-188">Bu stoktaki minimum ve maksimum seviyeler için tanımlanmış birim ile kıyasla, farklı bir ölçüm birimini stok yenileme işi için belirlemenize izin verir.</span><span class="sxs-lookup"><span data-stu-id="33e67-188">It allows you to specify a different unit of measurement for replenishment work compared to the unit specified for the minimum and maximum stock levels in this template.</span></span>  
+11. <span data-ttu-id="33e67-189">İş şablonu alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-189">In the Work template field, enter or select a value.</span></span>
+    * <span data-ttu-id="33e67-190">Daha önce oluşturduğunuz iş şablonunu seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-190">Choose the work template that you created earlier.</span></span>  
+12. <span data-ttu-id="33e67-191">Minimum miktar alanında, bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="33e67-191">In the Minimum quantity field, enter a number.</span></span>
+    * <span data-ttu-id="33e67-192">Stok yenilemeyi tetiklemesi gereken minimum miktarı seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-192">Select the minimum quantity that should trigger the replenishment.</span></span> <span data-ttu-id="33e67-193">Örneğin, bu ayarlar için 50.</span><span class="sxs-lookup"><span data-stu-id="33e67-193">For example, set this to 50.</span></span> <span data-ttu-id="33e67-194">Eğer sabit bir konumu yeniliyorsanız ve Sabit konumları yenile seçeneği Evet olarak ayarlanmış ise bu ayarı sıfır olarak bırakmak mümkündür.</span><span class="sxs-lookup"><span data-stu-id="33e67-194">It is possible to leave this set to zero, if you’re replenishing a fixed location and the Replenish empty fixed locations option is set to Yes.</span></span> <span data-ttu-id="33e67-195">Performans artırmak için Sadece sabit konumları yenile seçeneğini seçmenizi öneririz.</span><span class="sxs-lookup"><span data-stu-id="33e67-195">We also recommend that you select the Replenish only fixed locations option for performance reasons.</span></span>  
+13. <span data-ttu-id="33e67-196">Maksimum miktar alanında, bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="33e67-196">In the Maximum quantity field, enter a number.</span></span>
+    * <span data-ttu-id="33e67-197">Örneğin, bunu 100'e ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-197">For example, set this to 100.</span></span>  
+14. <span data-ttu-id="33e67-198">Birim alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-198">In the Unit field, enter or select a value.</span></span>
+    * <span data-ttu-id="33e67-199">Minimum ve maksimum miktarlar için birimi atayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-199">Assign the unit for the minimum and maximum quantities.</span></span> <span data-ttu-id="33e67-200">Örneğin bunu, adet olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-200">For example, set this to pcs.</span></span>  
+15. <span data-ttu-id="33e67-201">Boş sabit konumları yenile onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="33e67-201">Select the Replenish empty fixed locations check box.</span></span>
+    * <span data-ttu-id="33e67-202">Bu onay kutusunu sabit konumları boş olduklarında yenilemek için işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="33e67-202">Select this check box to replenish fixed locations when they are empty.</span></span> <span data-ttu-id="33e67-203">Aksi takdirde, yalnızca elde bir miktar bulunan konumlar yenilenecektir.</span><span class="sxs-lookup"><span data-stu-id="33e67-203">Otherwise, only the locations where there is a quantity on hand will be replenished.</span></span>  
+16. <span data-ttu-id="33e67-204">Sadece boş sabit konumları yenile onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="33e67-204">Select the Replenish only fixed locations check box.</span></span>
+17. <span data-ttu-id="33e67-205">Ürünleri seç'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="33e67-205">Click Select products.</span></span>
+    * <span data-ttu-id="33e67-206">Bu, hangi ürünlerin yenilenebileceğini tanımlayabileceğiniz bir yerdir.</span><span class="sxs-lookup"><span data-stu-id="33e67-206">This is the place to define which products should be replenished.</span></span> <span data-ttu-id="33e67-207">Eğer Sabit çekme konumları seçeneği belirlendiyse, bu sorguda ayrıca konumları tanımlamanız gerekmektedir.</span><span class="sxs-lookup"><span data-stu-id="33e67-207">If the Fixed picking locations option is selected, you also need to define the locations in this query.</span></span> <span data-ttu-id="33e67-208">Değişken özgü sorgular ve ayrıca ürüne özgü sorgular da kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="33e67-208">Variant-specific queries are available as well product-specific queries.</span></span>  
+18. <span data-ttu-id="33e67-209">Maddeler satırını seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-209">Select the Items row.</span></span>
+19. <span data-ttu-id="33e67-210">Ölçütler alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="33e67-210">In the Criteria field, type a value.</span></span>
+    * <span data-ttu-id="33e67-211">Sabit konumlarda yenilenmesi gereken öğeleri seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-211">Select the items that should be replenished at the fixed locations.</span></span> <span data-ttu-id="33e67-212">Örneğin, A ile başlayan tüm madde numaralarını seçmek için A* girin.</span><span class="sxs-lookup"><span data-stu-id="33e67-212">For example, type A* to select all item numbers beginning with A.</span></span>  
+20. <span data-ttu-id="33e67-213">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="33e67-213">Click Add.</span></span>
+    * <span data-ttu-id="33e67-214">Stok yenileme işini, ambarın belirli bir bölgesindeki sabit çekme konumlarına kısıtlamak için, konum varlığını ekleyin (eğer halihazırda mevcut değilse).</span><span class="sxs-lookup"><span data-stu-id="33e67-214">Add the Location entity (unless it already exists) to be able to restrict the replenishment work to the fixed picking locations within a specific area of the warehouse.</span></span>  
+21. <span data-ttu-id="33e67-215">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="33e67-215">In the list, mark the selected row.</span></span>
+22. <span data-ttu-id="33e67-216">Tablo alanını Konumlar olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-216">Set the Table field to Locations.</span></span>
+23. <span data-ttu-id="33e67-217">Konum alanında, Konum profil kimliği'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-217">In the Field field, select Location profile ID.</span></span>
+24. <span data-ttu-id="33e67-218">Ölçütler alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-218">In the Criteria field, enter or select a value.</span></span>
+25. <span data-ttu-id="33e67-219">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-219">Click OK.</span></span>
+26. <span data-ttu-id="33e67-220">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="33e67-220">Close the page.</span></span>
 
-## <a name="set-the-replenishment-process-to-run-as-a-batch-job"></a>Stok yenileme işlemini toplu iş olarak çalışmak için ayarlayın
-1. Ambar yönetimi > Stok yenileme > Stok yenilemeleri öğesine gidin.
-    * Stok yenilemeleri sayfası, yenilemeyi bir toplu iş olarak çalıştırmak veya el ile başlatılmasını gerektirecek şekilde ayarlayabilmeniz için olanak sağlar.  
-2. Filtre'ye tıklayın.
-3. Listede, seçili satırı işaretleyin.
-4. Ölçütler alanında bir değer girin veya seçin.
-5. Tamam'ı tıklatın.
-6. Arka planda çalıştır bölümünü genişletin.
-7. Toplu işleme seçeneğini evet olarak ayarlayın.
-8. Yineleme'ye tıklayın.
-9. Bitiş tarihi yok seçeneğini seçin.
-10. Tekrar etme modelini ayarlayın.
-    * Örneğin, Günler seçin.  
-11. Tamam'a tıklayın.
-12. Tamam'a tıklayın.
+## <a name="set-the-replenishment-process-to-run-as-a-batch-job"></a><span data-ttu-id="33e67-221">Stok yenileme işlemini toplu iş olarak çalışmak için ayarlayın</span><span class="sxs-lookup"><span data-stu-id="33e67-221">Set the replenishment process to run as a batch job</span></span>
+1. <span data-ttu-id="33e67-222">Ambar yönetimi > Stok yenileme > Stok yenilemeleri öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="33e67-222">Go to Warehouse management > Replenishment > Replenishments.</span></span>
+    * <span data-ttu-id="33e67-223">Stok yenilemeleri sayfası, yenilemeyi bir toplu iş olarak çalıştırmak veya el ile başlatılmasını gerektirecek şekilde ayarlayabilmeniz için olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="33e67-223">The Replenishments page allows you to set up replenishment to run as a batch job, or to require that it’s started manually.</span></span>  
+2. <span data-ttu-id="33e67-224">Filtre'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-224">Click Filter.</span></span>
+3. <span data-ttu-id="33e67-225">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="33e67-225">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="33e67-226">Ölçütler alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-226">In the Criteria field, enter or select a value.</span></span>
+5. <span data-ttu-id="33e67-227">Tamam'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="33e67-227">Click OK.</span></span>
+6. <span data-ttu-id="33e67-228">Arka planda çalıştır bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="33e67-228">Expand the Run in the background section.</span></span>
+7. <span data-ttu-id="33e67-229">Toplu işleme seçeneğini evet olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-229">Set the Batch processing option to Yes.</span></span>
+8. <span data-ttu-id="33e67-230">Yineleme'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-230">Click Recurrence.</span></span>
+9. <span data-ttu-id="33e67-231">Bitiş tarihi yok seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-231">Select the No end date option.</span></span>
+10. <span data-ttu-id="33e67-232">Tekrar etme modelini ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-232">Set the Recurrance pattern.</span></span>
+    * <span data-ttu-id="33e67-233">Örneğin, Günler seçin.</span><span class="sxs-lookup"><span data-stu-id="33e67-233">For example, select Days.</span></span>  
+11. <span data-ttu-id="33e67-234">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-234">Click OK.</span></span>
+12. <span data-ttu-id="33e67-235">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="33e67-235">Click OK.</span></span>
 
 

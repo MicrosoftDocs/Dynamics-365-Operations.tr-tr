@@ -19,33 +19,33 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 89ddb0f246eb1d874ff0f2b5305f30355905c45e
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: fd6dc5173fd37f0257c98c1a41f3e6ce40b5b680
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a>İşlem hesapları ve toplam hesaplar için bütçe oluşturma
+# <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a><span data-ttu-id="1b09d-104">İşlem hesapları ve toplam hesaplar için bütçe oluşturma</span><span class="sxs-lookup"><span data-stu-id="1b09d-104">Create a budget from transaction accounts and total accounts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, toplam hesaplara göre bütçe oluşturma işlemine genel bir bakış verilmektedir. Makalede, bütçe kontrolü gerektiği zaman toplam hesaplar için bütçe kontrolünün nasıl etkinleştirileceği de açıklanmaktadır.
+<span data-ttu-id="1b09d-105">Bu makalede, toplam hesaplara göre bütçe oluşturma işlemine genel bir bakış verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="1b09d-105">This article provides an overview of the process for creating budgets based on total accounts.</span></span> <span data-ttu-id="1b09d-106">Makalede, bütçe kontrolü gerektiği zaman toplam hesaplar için bütçe kontrolünün nasıl etkinleştirileceği de açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="1b09d-106">It also explains how to turn on budget control for total accounts, if budget control is required.</span></span>
 
-Hem bütçe planı hem bütçe kaydı giriş belgeleri, ana hesap türü **Toplam** olan ana hesaplarda bütçe oluşturulmasına izin verir. Fiziksel emtialar yalnızca işlem ana hesaplarına nakledilebilir. 
+<span data-ttu-id="1b09d-107">Hem bütçe planı hem bütçe kaydı giriş belgeleri, ana hesap türü **Toplam** olan ana hesaplarda bütçe oluşturulmasına izin verir.</span><span class="sxs-lookup"><span data-stu-id="1b09d-107">Both budget plan and budget register entry documents allow for budgeting on main accounts that have a main account type of **Total**.</span></span> <span data-ttu-id="1b09d-108">Fiziksel emtialar yalnızca işlem ana hesaplarına nakledilebilir.</span><span class="sxs-lookup"><span data-stu-id="1b09d-108">Actuals can be posted only to transactional main accounts.</span></span> 
 
-**Genel defterden genel bütçe planı** periyodik işlemi için, **Kaynak** sekmesi için **Toplam** ana hesap tipini bir kriter olarak belirleyebilirsiniz. Bu durumda, her bir toplam ana hesap hedef bütçe planında yer alacak ve miktar, seçilen ana hesap aralığındaki toplam miktara eşit olacaktır. 
+<span data-ttu-id="1b09d-109">**Genel defterden genel bütçe planı** periyodik işlemi için, **Kaynak** sekmesi için **Toplam** ana hesap tipini bir kriter olarak belirleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1b09d-109">For the **Generate budget plan from General ledger** periodic process, on the **Source** tab, you can specify the **Total** main account type as a criterion.</span></span> <span data-ttu-id="1b09d-110">Bu durumda, her bir toplam ana hesap hedef bütçe planında yer alacak ve miktar, seçilen ana hesap aralığındaki toplam miktara eşit olacaktır.</span><span class="sxs-lookup"><span data-stu-id="1b09d-110">In this case, each total main account will be included in the target budget plan, and the amount will equal the total amount of the range of selected main accounts.</span></span> 
 
-**Toplam** türündeki ana hesaplar için bütçe kontrolünü etkinleştirebilirsiniz. Bu işlev, bütçe gruplarının kullanımıyla desteklenir. Her bir toplam an hesap için, bir bütçe grubu için kontrol edilmiş olan bütçe, **Bütçe denetim yapılandırma** sayfasında oluşturulmalıdır. Belirlediğiniz kriter, toplam ana hesabı ve hesap aralığını içermelidir. Bütçe grupları oluşturma işlemini hızlandırmak için, Bütçe kontrol grupları veri varlığından yararlanabilirsiniz. 
+<span data-ttu-id="1b09d-111">**Toplam** türündeki ana hesaplar için bütçe kontrolünü etkinleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1b09d-111">You can activate budget control for main accounts of the **Total** type.</span></span> <span data-ttu-id="1b09d-112">Bu işlev, bütçe gruplarının kullanımıyla desteklenir.</span><span class="sxs-lookup"><span data-stu-id="1b09d-112">This functionality is supported through the use of budget groups.</span></span> <span data-ttu-id="1b09d-113">Her bir toplam an hesap için, bir bütçe grubu için kontrol edilmiş olan bütçe, **Bütçe denetim yapılandırma** sayfasında oluşturulmalıdır.</span><span class="sxs-lookup"><span data-stu-id="1b09d-113">For each total main account, the budget that should be controlled for a budget group must be created on the **Budget control configuration **page.</span></span> <span data-ttu-id="1b09d-114">Belirlediğiniz kriter, toplam ana hesabı ve hesap aralığını içermelidir.</span><span class="sxs-lookup"><span data-stu-id="1b09d-114">The criteria that you specify must include the total main account and the range of accounts.</span></span> <span data-ttu-id="1b09d-115">Bütçe grupları oluşturma işlemini hızlandırmak için, Bütçe kontrol grupları veri varlığından yararlanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1b09d-115">To speed up the process of creating budget groups, you can take advantage of the Budget control groups data entity.</span></span> 
 
-Raporlamada, örneğin bir mali tabloda bir bütçe kullanılıyorsa toplam hesap için bütçe toplamı şu hesaplardan meydana gelir:
+<span data-ttu-id="1b09d-116">Raporlamada, örneğin bir mali tabloda bir bütçe kullanılıyorsa toplam hesap için bütçe toplamı şu hesaplardan meydana gelir:</span><span class="sxs-lookup"><span data-stu-id="1b09d-116">When a budget is used in reporting, such as on a financial statement, the budget sum for the total account consists of the following amounts:</span></span>
 
--   Toplam hesap aralığında her bir işlem defter hesabından oluşturulan bütçeler.
--   Toplam hesaba doğrudan girilen bütçe tutarı.
+-   <span data-ttu-id="1b09d-117">Toplam hesap aralığında her bir işlem defter hesabından oluşturulan bütçeler.</span><span class="sxs-lookup"><span data-stu-id="1b09d-117">The budgets that are created from each transaction ledger account in the interval of the total account.</span></span>
+-   <span data-ttu-id="1b09d-118">Toplam hesaba doğrudan girilen bütçe tutarı.</span><span class="sxs-lookup"><span data-stu-id="1b09d-118">The budget amount that is entered directly on the total account.</span></span>
 
-Bu nedenle, toplam hesap aralığındaki en önemli işlem hesapları için ayrı bütçeler oluşturabilir ve mevcut bütçe tutarını toplam hesaba ekleyebilirsiniz.
+<span data-ttu-id="1b09d-119">Bu nedenle, toplam hesap aralığındaki en önemli işlem hesapları için ayrı bütçeler oluşturabilir ve mevcut bütçe tutarını toplam hesaba ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1b09d-119">Therefore, you can create separate budgets for the most significant transaction accounts in the interval of the total account, and then add the available budget amount to the total account.</span></span>
 
 
 

@@ -15,7 +15,7 @@ ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
@@ -25,17 +25,17 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="cost-accounting-home-page"></a>Maliyet muhasebesi ana sayfası
+# <a name="cost-accounting-home-page"></a><span data-ttu-id="5ab67-103">Maliyet muhasebesi ana sayfası</span><span class="sxs-lookup"><span data-stu-id="5ab67-103">Cost accounting home page</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-## <a name="learning-map"></a>Öğrenme haritası 
+## <a name="learning-map"></a><span data-ttu-id="5ab67-104">Öğrenme haritası</span><span class="sxs-lookup"><span data-stu-id="5ab67-104">Learning map</span></span> 
 
-Aşağıdaki öğrenme haritası, ana kavramları ve görevleri, maliyet muhasebesi modülünün doğasını açıklayan ilgili görevler ile birleştiren çizgilerle gösterir.
+<span data-ttu-id="5ab67-105">Aşağıdaki öğrenme haritası, ana kavramları ve görevleri, maliyet muhasebesi modülünün doğasını açıklayan ilgili görevler ile birleştiren çizgilerle gösterir.</span><span class="sxs-lookup"><span data-stu-id="5ab67-105">The following learning map shows the major concepts and tasks with connecting lines between related tasks that describe the nature of the cost accounting module.</span></span>
 
 ![Maliyet muhasebesi için öğrenme haritası](./media/cost-accounting-map.png)
 
-## <a name="get-started-videos"></a>Başlangıç videoları
+## <a name="get-started-videos"></a><span data-ttu-id="5ab67-107">Başlangıç videoları</span><span class="sxs-lookup"><span data-stu-id="5ab67-107">Get started videos</span></span>
 
 
 <table>

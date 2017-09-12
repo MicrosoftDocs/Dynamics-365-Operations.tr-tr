@@ -17,37 +17,37 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: c3463444c432f6bb4ca939fc77c04d0d3d23bf65
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 2f50cc6bf8ec533db677d290c52dbd711d7a1de8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-an-original-budget-and-reverse-preliminary-budget-entries-in-the-public-sector"></a>Kamu sektöründe özgün bütçe oluşturma ve ön bütçe girişlerini ters kaydetme
+# <a name="create-an-original-budget-and-reverse-preliminary-budget-entries-in-the-public-sector"></a><span data-ttu-id="1bb3f-103">Kamu sektöründe özgün bütçe oluşturma ve ön bütçe girişlerini ters kaydetme</span><span class="sxs-lookup"><span data-stu-id="1bb3f-103">Create an original budget and reverse preliminary budget entries in the public sector</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Özgün bir bütçe girişi oluşturduğunuzda ve ön bütçe tutarlarını bütçe modeli ve boyut değerlerini kullandığınızda, ön bütçe tutarları geri alınabilir. Bu yöntem kamu sektörü bölümündeki PSUS demo şirketinin verileri kullanılarak yaratılmıştır.
+<span data-ttu-id="1bb3f-104">Özgün bir bütçe girişi oluşturduğunuzda ve ön bütçe tutarlarını bütçe modeli ve boyut değerlerini kullandığınızda, ön bütçe tutarları geri alınabilir.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-104">When you create an original budget entry and use the budget model and dimension values that contain preliminary budget amounts, the preliminary budget amounts can be reversed.</span></span> <span data-ttu-id="1bb3f-105">Bu yöntem kamu sektörü bölümündeki PSUS demo şirketinin verileri kullanılarak yaratılmıştır.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-105">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
 
-1. Bütçeleme > Bütçe kayıt girişleri seçeneğine gidin.
-2. Yeni'ye tıklayın.
-3. Bütçe modeli alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-4. Listede, istenen kaydı bulun ve seçin.
-5. Bütçe kodu alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-6. Listede Orijinal bütçe seçeneğine tıklatın.
-7. Kaydet'i tıklatın.
-8. Satır ekle'ye tıklayın.
-9. İsteğe bağlı: Başlıktaki tarihi değiştirmek istiyorsanız, yeni bir tarih girin. Bu tarih, bütçenin kaydedileceği mali dönemi belirler.
-10. Hesap yapısı alanında, aramayı açmak için açılır menü düğmesini tıklatın.
-11. Listede, istenen kaydı bulun ve seçin.
-12. Boyut değerleri alanında istediğiniz değerleri belirtin.
-13. Tutar alanına bir sayı girin.
-14. Para birimi alanında, açılır menü düğmesine tıklayarak aramayı açın.
-15. Listede, seçili satırdaki bağlantıya tıklayın.
-16. Kaydet'e tıklayın.
-17. Bütçe bakiyelerini güncelleştir seçeneğine tıklayın.
-    * İsteğe bağlı: Ters Ön bütçe seçeneğini seçebilirsiniz. Not: Tüm Ön bütçe girişlerini veya sadece belirlediğiniz bütçe koduna sahip olan Ön bütçe girişlerini geri alabilirsiniz.  
-    * İsteğe bağlı seçimler yapmak için sayfanın üstündeki Kilidi Aç simgesini tıklatın.  
-18. Güncelleştir'i tıklatın.
+1. <span data-ttu-id="1bb3f-106">Bütçeleme > Bütçe kayıt girişleri seçeneğine gidin.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-106">Go to Budgeting > Budget register entries.</span></span>
+2. <span data-ttu-id="1bb3f-107">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-107">Click New.</span></span>
+3. <span data-ttu-id="1bb3f-108">Bütçe modeli alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-108">In the Budget model field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="1bb3f-109">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-109">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="1bb3f-110">Bütçe kodu alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-110">In the Budget code field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="1bb3f-111">Listede Orijinal bütçe seçeneğine tıklatın.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-111">In the list, click Original budget.</span></span>
+7. <span data-ttu-id="1bb3f-112">Kaydet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-112">Click Save.</span></span>
+8. <span data-ttu-id="1bb3f-113">Satır ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-113">Click Add line.</span></span>
+9. <span data-ttu-id="1bb3f-114">İsteğe bağlı: Başlıktaki tarihi değiştirmek istiyorsanız, yeni bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-114">Optional: If you want to change the date from the one in the header, enter a new date.</span></span> <span data-ttu-id="1bb3f-115">Bu tarih, bütçenin kaydedileceği mali dönemi belirler.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-115">This date determines the fiscal period that the budget will be recorded to.</span></span>
+10. <span data-ttu-id="1bb3f-116">Hesap yapısı alanında, aramayı açmak için açılır menü düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-116">In the Account structure field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="1bb3f-117">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-117">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="1bb3f-118">Boyut değerleri alanında istediğiniz değerleri belirtin.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-118">In the Dimension values field, specify the desired values.</span></span>
+13. <span data-ttu-id="1bb3f-119">Tutar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-119">In the Amount field, enter a number.</span></span>
+14. <span data-ttu-id="1bb3f-120">Para birimi alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-120">In the Currency field, click the drop-down button to open the lookup.</span></span>
+15. <span data-ttu-id="1bb3f-121">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-121">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="1bb3f-122">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-122">Click Save.</span></span>
+17. <span data-ttu-id="1bb3f-123">Bütçe bakiyelerini güncelleştir seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-123">Click Update budget balances.</span></span>
+    * <span data-ttu-id="1bb3f-124">İsteğe bağlı: Ters Ön bütçe seçeneğini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-124">Optional: You can select the Reverse preliminary budget option.</span></span> <span data-ttu-id="1bb3f-125">Not: Tüm Ön bütçe girişlerini veya sadece belirlediğiniz bütçe koduna sahip olan Ön bütçe girişlerini geri alabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-125">Note that you can reverse all preliminary budget entries, or only the preliminary budget entries that have the budget code that you specify.</span></span>  
+    * <span data-ttu-id="1bb3f-126">İsteğe bağlı seçimler yapmak için sayfanın üstündeki Kilidi Aç simgesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-126">To make optional selections, click the Unlock icon at the top of the page.</span></span>  
+18. <span data-ttu-id="1bb3f-127">Güncelleştir'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="1bb3f-127">Click Update.</span></span>
 
 

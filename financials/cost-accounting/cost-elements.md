@@ -16,27 +16,27 @@ ms.custom: 223204
 ms.assetid: 1eda0e62-760b-4737-9dfd-3c3c38d80c1a
 ms.search.region: global
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c06f4f636a58ac8068415b1291bd8668e7a977d5
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: eb549d9314799924084c23d0e420fcd377ed8c33
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="cost-element-dimensions"></a>Maliyet öğesi boyutları
+# <a name="cost-element-dimensions"></a><span data-ttu-id="6fad3-103">Maliyet öğesi boyutları</span><span class="sxs-lookup"><span data-stu-id="6fad3-103">Cost element dimensions</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Maliyet muhasebesinin temel direklerinden biri olarak maliyet öğesi boyutları maliyetlerin akış gerçekleştirdiği alanları sınıflandırmak ve izlemek için kullanılır. 
+<span data-ttu-id="6fad3-104">Maliyet muhasebesinin temel direklerinden biri olarak maliyet öğesi boyutları maliyetlerin akış gerçekleştirdiği alanları sınıflandırmak ve izlemek için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="6fad3-104">As one of the core pillars in Cost accounting, cost element dimensions are used to categorize and track where costs flow to.</span></span> 
 
-Maliyet öğesi hesap planında maliyetle ilgili bir öğeye karşılık gelir. Temel olarak, maliyetlerin akış sağlayabileceği bir işletmenin en alt düzeyindeki herhangi bir öğe türü olabilir. Genel muhasebe hesaplarından maliyetle ilgili tüm kaynaklara bir kavram aralığı olarak maliyet öğeleri. Şu anda, Maliyet muhasebesi genel muhasebe hesaplarını desteklemektedir.
+<span data-ttu-id="6fad3-105">Maliyet öğesi hesap planında maliyetle ilgili bir öğeye karşılık gelir.</span><span class="sxs-lookup"><span data-stu-id="6fad3-105">A cost element corresponds to a cost-relevant item in the chart of accounts.</span></span> <span data-ttu-id="6fad3-106">Temel olarak, maliyetlerin akış sağlayabileceği bir işletmenin en alt düzeyindeki herhangi bir öğe türü olabilir.</span><span class="sxs-lookup"><span data-stu-id="6fad3-106">Basically, it can be any type of element at the lowest level in a business where costs can flow to.</span></span> <span data-ttu-id="6fad3-107">Genel muhasebe hesaplarından maliyetle ilgili tüm kaynaklara bir kavram aralığı olarak maliyet öğeleri.</span><span class="sxs-lookup"><span data-stu-id="6fad3-107">Cost elements as a concept range from ledger accounts to all cost-relevant resources.</span></span> <span data-ttu-id="6fad3-108">Şu anda, Maliyet muhasebesi genel muhasebe hesaplarını desteklemektedir.</span><span class="sxs-lookup"><span data-stu-id="6fad3-108">Currently, Cost accounting supports ledger accounts.</span></span>
 
-## <a name="two-types-of-cost-elements"></a>İki maliyet öğesi türü
-Birincil maliyet öğeleri ve ikincil maliyet öğeleri olmak üzere iki tür maliyet öğesi vardır. Aşağıdaki tabloda iki tür arasındaki fark açıklanmaktadır.
+## <a name="two-types-of-cost-elements"></a><span data-ttu-id="6fad3-109">İki maliyet öğesi türü</span><span class="sxs-lookup"><span data-stu-id="6fad3-109">Two types of cost elements</span></span>
+<span data-ttu-id="6fad3-110">Birincil maliyet öğeleri ve ikincil maliyet öğeleri olmak üzere iki tür maliyet öğesi vardır.</span><span class="sxs-lookup"><span data-stu-id="6fad3-110">There are two types of cost elements: primary cost elements and secondary cost elements.</span></span> <span data-ttu-id="6fad3-111">Aşağıdaki tabloda iki tür arasındaki fark açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="6fad3-111">The following table describes the difference between the two types.</span></span>
 
 <table>
 <colgroup>
@@ -45,36 +45,36 @@ Birincil maliyet öğeleri ve ikincil maliyet öğeleri olmak üzere iki tür ma
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Birincil maliyet öğeleri</strong></td>
-<td><strong>İkincil maliyet öğeleri</strong></td>
+<td><span data-ttu-id="6fad3-112"><strong>Birincil maliyet öğeleri</strong></span><span class="sxs-lookup"><span data-stu-id="6fad3-112"><strong>Primary cost elements</strong></span></span></td>
+<td><span data-ttu-id="6fad3-113"><strong>İkincil maliyet öğeleri</strong></span><span class="sxs-lookup"><span data-stu-id="6fad3-113"><strong>Secondary cost elements</strong></span></span></td>
 </tr>
 <tr class="even">
-<td>Birincil maliyet öğeleri, mali muhasebeden maliyet muhasebesine maliyetlerin akışını temsil eder. Maliyet öğesi yapısı, maliyet öğesinin bir ana hesaba karşılık gelebileceği, genel muhasebe defterindeki kar ve zarar hesabı yapısına karşılık gelir. Tüm ana hesaplar, iş ihtiyaçlarına göre maliyet öğeleri olarak temsil edilmek zorunda değildir. Birincil maliyet öğeleri örnekleri şunları içerir:
+<td><span data-ttu-id="6fad3-114">Birincil maliyet öğeleri, mali muhasebeden maliyet muhasebesine maliyetlerin akışını temsil eder.</span><span class="sxs-lookup"><span data-stu-id="6fad3-114">The primary cost elements represent the flow of costs from financial accounting to cost accounting.</span></span> <span data-ttu-id="6fad3-115">Maliyet öğesi yapısı, maliyet öğesinin bir ana hesaba karşılık gelebileceği, genel muhasebe defterindeki kar ve zarar hesabı yapısına karşılık gelir.</span><span class="sxs-lookup"><span data-stu-id="6fad3-115">The cost element structure corresponds to the profit and loss account structure in the general ledger, where a cost element can correspond to a main account.</span></span> <span data-ttu-id="6fad3-116">Tüm ana hesaplar, iş ihtiyaçlarına göre maliyet öğeleri olarak temsil edilmek zorunda değildir.</span><span class="sxs-lookup"><span data-stu-id="6fad3-116">Not all main accounts may necessarily be represented as cost elements depending on the business needs.</span></span> <span data-ttu-id="6fad3-117">Birincil maliyet öğeleri örnekleri şunları içerir:</span><span class="sxs-lookup"><span data-stu-id="6fad3-117">Examples of primary cost elements include:</span></span>
 <ul>
-<li>Satılan malların maliyeti (SMM)</li>
-<li>Dolaylı malzeme maliyetleri</li>
-<li>Personel maliyetleri</li>
-<li>Enerji maliyetleri</li>
+<li><span data-ttu-id="6fad3-118">Satılan malların maliyeti (SMM)</span><span class="sxs-lookup"><span data-stu-id="6fad3-118">Costs of goods sold (COGs)</span></span></li>
+<li><span data-ttu-id="6fad3-119">Dolaylı malzeme maliyetleri</span><span class="sxs-lookup"><span data-stu-id="6fad3-119">Indirect material costs</span></span></li>
+<li><span data-ttu-id="6fad3-120">Personel maliyetleri</span><span class="sxs-lookup"><span data-stu-id="6fad3-120">Personnel costs</span></span></li>
+<li><span data-ttu-id="6fad3-121">Enerji maliyetleri</span><span class="sxs-lookup"><span data-stu-id="6fad3-121">Energy costs</span></span></li>
 </ul></td>
-<td>İkincil maliyet öğeleri, maliyetlerin dahili akışını temsil eder çünkü bu maliyetler yalnızca Maliyet muhasebesinde oluşturulur ve kullanılır. Bunlar, maliyetlerin kaynağının izlenebilmesini sağlamak için kullanılır. Bu maliyet öğeleri, maliyet tahsisatları ve genel gider hesaplamalarında kullanılır. İkincil maliyet öğeleri örnekleri şunları içerir:
+<td><span data-ttu-id="6fad3-122">İkincil maliyet öğeleri, maliyetlerin dahili akışını temsil eder çünkü bu maliyetler yalnızca Maliyet muhasebesinde oluşturulur ve kullanılır.</span><span class="sxs-lookup"><span data-stu-id="6fad3-122">The secondary cost elements represent the flow of costs internally because these costs are created and used only in Cost accounting.</span></span> <span data-ttu-id="6fad3-123">Bunlar, maliyetlerin kaynağının izlenebilmesini sağlamak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="6fad3-123">They are used to secure that the source of costs can be traced.</span></span> <span data-ttu-id="6fad3-124">Bu maliyet öğeleri, maliyet tahsisatları ve genel gider hesaplamalarında kullanılır.</span><span class="sxs-lookup"><span data-stu-id="6fad3-124">These cost elements are used in cost allocations and overhead calculations.</span></span> <span data-ttu-id="6fad3-125">İkincil maliyet öğeleri örnekleri şunları içerir:</span><span class="sxs-lookup"><span data-stu-id="6fad3-125">Examples of secondary cost elements include:</span></span>
 <ul>
-<li>Üretim maliyetleri</li>
-<li>Üretim, malzeme ve pazarlama genel giderleri</li>
+<li><span data-ttu-id="6fad3-126">Üretim maliyetleri</span><span class="sxs-lookup"><span data-stu-id="6fad3-126">Production costs</span></span></li>
+<li><span data-ttu-id="6fad3-127">Üretim, malzeme ve pazarlama genel giderleri</span><span class="sxs-lookup"><span data-stu-id="6fad3-127">Production, material, and marketing overheads</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Maliyet öğesi boyutları ve maliyet öğesi boyut üyeleri
-Maliyet öğeleri, *maliyet öğesi boyutları* olarak adlandırılır. Tek tek boyut değerleri *maliyet öğesi boyut üyeleri* olarak adlandırılır. Örneğin, yasal raporlamanızın temeli olan bir ABD hesap planı yapınız (COA) olsun. Bu COA maliyet öğesi boyutu olarak kullanılır. Birincil maliyet öğesi olan hesaplar Maliyet muhasebesinde maliyet öğesi boyut üyeleri olarak temsil edilir. Aşağıdaki ekran görüntüsünde fiili ana hesapları maliyet öğesi boyut üyesi olarak, Ana Hesapların maliyet öğesi boyutu olduğu bir örnek gösterilmektedir. 
+## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a><span data-ttu-id="6fad3-128">Maliyet öğesi boyutları ve maliyet öğesi boyut üyeleri</span><span class="sxs-lookup"><span data-stu-id="6fad3-128">Cost element dimensions and cost element dimension members</span></span>
+<span data-ttu-id="6fad3-129">Maliyet öğeleri, *maliyet öğesi boyutları* olarak adlandırılır.</span><span class="sxs-lookup"><span data-stu-id="6fad3-129">Cost elements are referred to as *cost element dimensions* .</span></span> <span data-ttu-id="6fad3-130">Tek tek boyut değerleri *maliyet öğesi boyut üyeleri* olarak adlandırılır.</span><span class="sxs-lookup"><span data-stu-id="6fad3-130">The individual dimension values are called *cost element dimension members*.</span></span> <span data-ttu-id="6fad3-131">Örneğin, yasal raporlamanızın temeli olan bir ABD hesap planı yapınız (COA) olsun.</span><span class="sxs-lookup"><span data-stu-id="6fad3-131">For example, you have a US chart of accounts structure (COA) that is the base for your statutory reporting.</span></span> <span data-ttu-id="6fad3-132">Bu COA maliyet öğesi boyutu olarak kullanılır.</span><span class="sxs-lookup"><span data-stu-id="6fad3-132">This COA is used as the cost element dimension.</span></span> <span data-ttu-id="6fad3-133">Birincil maliyet öğesi olan hesaplar Maliyet muhasebesinde maliyet öğesi boyut üyeleri olarak temsil edilir.</span><span class="sxs-lookup"><span data-stu-id="6fad3-133">The accounts, which are primary cost elements, are represented as the cost element dimension members in Cost accounting.</span></span> <span data-ttu-id="6fad3-134">Aşağıdaki ekran görüntüsünde fiili ana hesapları maliyet öğesi boyut üyesi olarak, Ana Hesapların maliyet öğesi boyutu olduğu bir örnek gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="6fad3-134">The following screenshot shows an example of Main Accounts as the cost element dimension with its actual main accounts as the cost element dimension members.</span></span> 
 
-[![maliyet-ogeleri-boyutlari](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+<span data-ttu-id="6fad3-135">[![maliyet-ogeleri-boyutlari](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)</span><span class="sxs-lookup"><span data-stu-id="6fad3-135">[![cost-element-dimensions](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)</span></span>
 
-## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Veri bağlayıcıları üzerinden maliyet öğesi boyut üyelerini içe aktarma
-Maliyet muhasebesinde maliyet öğesi boyut üyelerinin kurulumunu kolaylaştırmak için bir veya daha fazla kaynak sistemden birincil maliyet öğelerini almak üzere önceden inşa edilmiş veya sizin özel olarak inşa ettiğiniz veri bağlayıcılarını kullanabilirsiniz.
+## <a name="import-cost-element-dimension-members-through-data-connectors"></a><span data-ttu-id="6fad3-136">Veri bağlayıcıları üzerinden maliyet öğesi boyut üyelerini içe aktarma</span><span class="sxs-lookup"><span data-stu-id="6fad3-136">Import cost element dimension members through data connectors</span></span>
+<span data-ttu-id="6fad3-137">Maliyet muhasebesinde maliyet öğesi boyut üyelerinin kurulumunu kolaylaştırmak için bir veya daha fazla kaynak sistemden birincil maliyet öğelerini almak üzere önceden inşa edilmiş veya sizin özel olarak inşa ettiğiniz veri bağlayıcılarını kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6fad3-137">To ease the setup of cost element dimension members in Cost accounting, you can use data connectors that are either pre-built or your custom build to retrieve the primary cost elements from one or more source systems.</span></span>
 
-## <a name="implementation-considerations"></a>Uygulama ile ilgili hususlar
-Maliyet öğeleri, maliyet ayrıntılarınızın en düşük düzeyini temsil ettiğinden, maliyet öğesi yapısını uygularken yönetim raporlaması yapmak için gerekli tüm maliyet öğelerinin dahil edildiğinden emin olun. Maliyet denetimi için uygun sayıda maliyet öğesi bulmak zor olabilir. Binlerce maliyet öğesi bulundurmak her maliyet öğesini denetlemeyi zorlaştırabilir. Alternatif olarak, maliyet öğelerini gruplandırabilir ve maliyet denetimini toplu düzeyde yönetebilirsiniz.
+## <a name="implementation-considerations"></a><span data-ttu-id="6fad3-138">Uygulama ile ilgili hususlar</span><span class="sxs-lookup"><span data-stu-id="6fad3-138">Implementation considerations</span></span>
+<span data-ttu-id="6fad3-139">Maliyet öğeleri, maliyet ayrıntılarınızın en düşük düzeyini temsil ettiğinden, maliyet öğesi yapısını uygularken yönetim raporlaması yapmak için gerekli tüm maliyet öğelerinin dahil edildiğinden emin olun.</span><span class="sxs-lookup"><span data-stu-id="6fad3-139">As cost elements represent the lowest level of cost details, you should make sure that all the cost elements required to make the managerial reporting are included when you implement the cost elements structure.</span></span> <span data-ttu-id="6fad3-140">Maliyet denetimi için uygun sayıda maliyet öğesi bulmak zor olabilir.</span><span class="sxs-lookup"><span data-stu-id="6fad3-140">It can be a challenge to find an appropriate number of cost elements for cost control.</span></span> <span data-ttu-id="6fad3-141">Binlerce maliyet öğesi bulundurmak her maliyet öğesini denetlemeyi zorlaştırabilir.</span><span class="sxs-lookup"><span data-stu-id="6fad3-141">Having thousands of cost elements can make it difficult to control each cost element.</span></span> <span data-ttu-id="6fad3-142">Alternatif olarak, maliyet öğelerini gruplandırabilir ve maliyet denetimini toplu düzeyde yönetebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="6fad3-142">As an alternative, you can group cost elements and manage cost control at an aggregated level.</span></span>
 
 
 

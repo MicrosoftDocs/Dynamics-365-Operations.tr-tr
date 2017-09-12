@@ -16,34 +16,34 @@ ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 0ecd161cf779977b34017561529cd73961f3c936
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e6e5c84d379ad6a94099cdb68d44d5c7b9ce0969
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-the-global-address-book"></a>Genel adres defterini yapılandır
+# <a name="configure-the-global-address-book"></a><span data-ttu-id="9002d-103">Genel adres defterini yapılandır</span><span class="sxs-lookup"><span data-stu-id="9002d-103">Configure the global address book</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Genel adres defteri için güvenlik ilkeleri ve varsayılan değerleri ayarlamak için bu yordamı kullanın. 
+<span data-ttu-id="9002d-104">Genel adres defteri için güvenlik ilkeleri ve varsayılan değerleri ayarlamak için bu yordamı kullanın.</span><span class="sxs-lookup"><span data-stu-id="9002d-104">Use this procedure to set the default values and security policies for the global address book.</span></span> 
 
-Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu görev planlama ve yapılandırma takımı için tasarlanmıştır.
+<span data-ttu-id="9002d-105">Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="9002d-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="9002d-106">Bu görev planlama ve yapılandırma takımı için tasarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="9002d-106">This task is intended for the Planning and configuration team.</span></span>
 
-1. Kuruluş yönetimi > Genel adres defteri > Genel adres defteri parametreleri seçeneğine gidin.
-2. Ad sırası alanında adların nasıl gösterileceğini seçin.
-3. Rol atanmamış tarafları silip silmeyeceğinizi seçin.
-4. Yinelenen kayıtların denetlenip denetlenmeyeceğini seçin.
-5. Adreslerde DUNS numarasının görüntülenip görüntülenmeyeceğini seçin.
-6. Benzersiz DUNS numaralarının denetlenip denetlenmeyeceğini seçin.
-7. Taraf alanında, bir seçenek seçin.
-8. Müşteri alanında, bir seçenek seçin.
-9. Satıcı alanında, bir seçenek seçin.
-10. Potansiyel alanında, bir seçenek seçin.
-11. Rekabetçi alanında, bir seçenek seçin.
-12. Özel konum güvenliği sekmesini tıklayın.
-13. Listede, istenen kaydı bulun ve seçin.
-    * Seçili rolleri eklemek için oku tıklatın ve Seçilen rolleri bölmesine eklemek üzere birden çok rol seçmek için Shift tuşuna basın.  
-14. Kaydet'e tıklayın.
+1. <span data-ttu-id="9002d-107">Kuruluş yönetimi > Genel adres defteri > Genel adres defteri parametreleri seçeneğine gidin.</span><span class="sxs-lookup"><span data-stu-id="9002d-107">Go to Organization administration > Global address book > Global address book parameters.</span></span>
+2. <span data-ttu-id="9002d-108">Ad sırası alanında adların nasıl gösterileceğini seçin.</span><span class="sxs-lookup"><span data-stu-id="9002d-108">In the Name sequence field, select how names should be shown.</span></span>
+3. <span data-ttu-id="9002d-109">Rol atanmamış tarafları silip silmeyeceğinizi seçin.</span><span class="sxs-lookup"><span data-stu-id="9002d-109">Select whether to delete parties with that have not been assigned a role.</span></span>
+4. <span data-ttu-id="9002d-110">Yinelenen kayıtların denetlenip denetlenmeyeceğini seçin.</span><span class="sxs-lookup"><span data-stu-id="9002d-110">Select whether to check for duplicate records.</span></span>
+5. <span data-ttu-id="9002d-111">Adreslerde DUNS numarasının görüntülenip görüntülenmeyeceğini seçin.</span><span class="sxs-lookup"><span data-stu-id="9002d-111">Select whether to display the DUNS number on addresses.</span></span>
+6. <span data-ttu-id="9002d-112">Benzersiz DUNS numaralarının denetlenip denetlenmeyeceğini seçin.</span><span class="sxs-lookup"><span data-stu-id="9002d-112">Select whether to check for unique DUNS numbers.</span></span>
+7. <span data-ttu-id="9002d-113">Taraf alanında, bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="9002d-113">In the Party field, select an option.</span></span>
+8. <span data-ttu-id="9002d-114">Müşteri alanında, bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="9002d-114">In the Customer field, select an option.</span></span>
+9. <span data-ttu-id="9002d-115">Satıcı alanında, bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="9002d-115">In the Vendor field, select an option.</span></span>
+10. <span data-ttu-id="9002d-116">Potansiyel alanında, bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="9002d-116">In the Prospect field, select an option.</span></span>
+11. <span data-ttu-id="9002d-117">Rekabetçi alanında, bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="9002d-117">In the Competitor field, select an option.</span></span>
+12. <span data-ttu-id="9002d-118">Özel konum güvenliği sekmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9002d-118">Click the Private location security tab.</span></span>
+13. <span data-ttu-id="9002d-119">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="9002d-119">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="9002d-120">Seçili rolleri eklemek için oku tıklatın ve Seçilen rolleri bölmesine eklemek üzere birden çok rol seçmek için Shift tuşuna basın.</span><span class="sxs-lookup"><span data-stu-id="9002d-120">Press the Shift key to select multiple roles to add to the Selected roles pane and then click the arrow to add the selected roles.</span></span>  
+14. <span data-ttu-id="9002d-121">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9002d-121">Click Save.</span></span>
 
 

@@ -17,37 +17,37 @@ ms.assetid: 56a7c8ba-bf4a-4b1d-918d-56bb96926c4f
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
-ms.openlocfilehash: af31af5e8f11119c03ee7cb7101f2c94714720ff
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 4aec6e70325c7e4d00e6070293a1ab0c719e420b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="inventory-object-values"></a>Stok nesnesi değerleri
+# <a name="inventory-object-values"></a><span data-ttu-id="5ce46-103">Stok nesnesi değerleri</span><span class="sxs-lookup"><span data-stu-id="5ce46-103">Inventory object values</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, stok nesnesi değerlerinin nasıl hesaplandığı hakkında bilgiler verilmektedir. 
+<span data-ttu-id="5ce46-104">Bu makalede, stok nesnesi değerlerinin nasıl hesaplandığı hakkında bilgiler verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="5ce46-104">This article provides information about how the values of an inventory object are calculated.</span></span> 
 
-**Fiziksel miktar** adı yeni bir işlev, belirli bir stok nesnenin değerlerini görmenizi sağlıyor. 
+<span data-ttu-id="5ce46-105">**Fiziksel miktar** adı yeni bir işlev, belirli bir stok nesnenin değerlerini görmenizi sağlıyor.</span><span class="sxs-lookup"><span data-stu-id="5ce46-105">A new functionality that is named **physical quantity** lets you see the values of a specific inventory object.</span></span> 
 
-Maliyet nesnesi, stok muhasebesinin uygulandığı varlık düzeyini temsil eder. Maliyet nesneleri hakkında daha fazla bilgi için bkz. [Maliyet nesneleri](cost-object.md). 
+<span data-ttu-id="5ce46-106">Maliyet nesnesi, stok muhasebesinin uygulandığı varlık düzeyini temsil eder.</span><span class="sxs-lookup"><span data-stu-id="5ce46-106">A cost object represents the entity level where inventory accounting is performed.</span></span> <span data-ttu-id="5ce46-107">Maliyet nesneleri hakkında daha fazla bilgi için bkz. [Maliyet nesneleri](cost-object.md).</span><span class="sxs-lookup"><span data-stu-id="5ce46-107">For more information about cost objects, see [Cost objects](cost-object.md).</span></span> 
 
-Belirli stok nesnesinin değerlerini görmek için **Maliyet nesnesi** sayfasında **Fiziksel miktar**'a tıklayın. Bir stok nesnesinin değerinin nasıl hesaplanacağı aşağıda verilmiştir: 
+<span data-ttu-id="5ce46-108">Belirli stok nesnesinin değerlerini görmek için **Maliyet nesnesi** sayfasında **Fiziksel miktar**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5ce46-108">To see the values of a specific inventory object, click **Physical quantity** on the **Cost object** page.</span></span> <span data-ttu-id="5ce46-109">Bir stok nesnesinin değerinin nasıl hesaplanacağı aşağıda verilmiştir:</span><span class="sxs-lookup"><span data-stu-id="5ce46-109">Here is how the value of an inventory object is calculated:</span></span> 
 
-Stok nesnesi.Değer = Maliyet nesnesi.Ortalama birim maliyeti x Stok nesnesi.Miktar 
+<span data-ttu-id="5ce46-110">Stok nesnesi.Değer = Maliyet nesnesi.Ortalama birim maliyeti x Stok nesnesi.Miktar</span><span class="sxs-lookup"><span data-stu-id="5ce46-110">Inventory object.Value = Cost object.Average unit cost × Inventory object.Quantity</span></span> 
 
-Aşağıdaki örnekler, bir stok nesnesinin ve maliyet nesnesinin değerlerinin nasıl hesaplanacağını gösterir. A maddesinde iki ürün girişi etkinliği kayıtlıdır:
+<span data-ttu-id="5ce46-111">Aşağıdaki örnekler, bir stok nesnesinin ve maliyet nesnesinin değerlerinin nasıl hesaplanacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="5ce46-111">The following example shows how the values of an inventory object and a cost object are calculated.</span></span> <span data-ttu-id="5ce46-112">A maddesinde iki ürün girişi etkinliği kayıtlıdır:</span><span class="sxs-lookup"><span data-stu-id="5ce46-112">Two product receipt events are registered on item A:</span></span>
 
--   Ürün girişi 1: Miktar = 100 parça, Tutar = $1.000,00, Tesis = 1, Ambar = 11, Toplu İşlem No. = B1
--   Ürün girişi 2: Miktar = 50 parça, Tutar = $800,00, Tesis = 1, Ambar = 11, Toplu İşlem No. = B2
+-   <span data-ttu-id="5ce46-113">Ürün girişi 1: Miktar = 100 parça, Tutar = $1.000,00, Tesis = 1, Ambar = 11, Toplu İşlem No.</span><span class="sxs-lookup"><span data-stu-id="5ce46-113">Product receipt 1: Quantity = 100 pcs., Amount = $1,000.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="5ce46-114">= B1</span><span class="sxs-lookup"><span data-stu-id="5ce46-114">= B1</span></span>
+-   <span data-ttu-id="5ce46-115">Ürün girişi 2: Miktar = 50 parça, Tutar = $800,00, Tesis = 1, Ambar = 11, Toplu İşlem No.</span><span class="sxs-lookup"><span data-stu-id="5ce46-115">Product receipt 2: Quantity = 50 pcs., Amount = $800.00, Site = 1, Warehouse =11, Batch No.</span></span> <span data-ttu-id="5ce46-116">= B2</span><span class="sxs-lookup"><span data-stu-id="5ce46-116">= B2</span></span>
 
-Aşağıdaki tabloda, bir maliyet nesnesi için yapılan hesaplamanın sonucu gösteriliyor. Sonucu **Maliyet nesnesi** sayfasında görüntüleyebilirsiniz.
+<span data-ttu-id="5ce46-117">Aşağıdaki tabloda, bir maliyet nesnesi için yapılan hesaplamanın sonucu gösteriliyor.</span><span class="sxs-lookup"><span data-stu-id="5ce46-117">The following table shows the calculation result for a cost object.</span></span> <span data-ttu-id="5ce46-118">Sonucu **Maliyet nesnesi** sayfasında görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="5ce46-118">You can view the result on the **Cost object** page.</span></span>
 
 <table style="width:100%;">
 <colgroup>
@@ -61,29 +61,29 @@ Aşağıdaki tabloda, bir maliyet nesnesi için yapılan hesaplamanın sonucu g�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nesne türü</th>
-<th>Madde kodu</th>
-<th>Tesis</th>
-<th>Miktar</th>
-<th>Stok birimi</th>
-<th>Değer</th>
-<th>Ortalama birim maliyeti</th>
+<th><span data-ttu-id="5ce46-119">Nesne türü</span><span class="sxs-lookup"><span data-stu-id="5ce46-119">Object type</span></span></th>
+<th><span data-ttu-id="5ce46-120">Madde kodu</span><span class="sxs-lookup"><span data-stu-id="5ce46-120">Item number</span></span></th>
+<th><span data-ttu-id="5ce46-121">Tesis</span><span class="sxs-lookup"><span data-stu-id="5ce46-121">Site</span></span></th>
+<th><span data-ttu-id="5ce46-122">Miktar</span><span class="sxs-lookup"><span data-stu-id="5ce46-122">Quantity</span></span></th>
+<th><span data-ttu-id="5ce46-123">Stok birimi</span><span class="sxs-lookup"><span data-stu-id="5ce46-123">Inventory unit</span></span></th>
+<th><span data-ttu-id="5ce46-124">Değer</span><span class="sxs-lookup"><span data-stu-id="5ce46-124">Value</span></span></th>
+<th><span data-ttu-id="5ce46-125">Ortalama birim maliyeti</span><span class="sxs-lookup"><span data-stu-id="5ce46-125">Average unit cost</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Maliyet nesnesi</td>
-<td>A:</td>
-<td>1</td>
-<td>150</td>
-<td>Prç</td>
-<td><p>1.800,00 lira</p></td>
-<td><p>12,00 lira</p></td>
+<td><span data-ttu-id="5ce46-126">Maliyet nesnesi</span><span class="sxs-lookup"><span data-stu-id="5ce46-126">Cost object</span></span></td>
+<td><span data-ttu-id="5ce46-127">A:</span><span class="sxs-lookup"><span data-stu-id="5ce46-127">A</span></span></td>
+<td><span data-ttu-id="5ce46-128">1</span><span class="sxs-lookup"><span data-stu-id="5ce46-128">1</span></span></td>
+<td><span data-ttu-id="5ce46-129">150</span><span class="sxs-lookup"><span data-stu-id="5ce46-129">150</span></span></td>
+<td><span data-ttu-id="5ce46-130">Prç</span><span class="sxs-lookup"><span data-stu-id="5ce46-130">Pcs.</span></span></td>
+<td><p><span data-ttu-id="5ce46-131">1.800,00 lira</span><span class="sxs-lookup"><span data-stu-id="5ce46-131">$1800.00</span></span></p></td>
+<td><p><span data-ttu-id="5ce46-132">12,00 lira</span><span class="sxs-lookup"><span data-stu-id="5ce46-132">$12.00</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
-Aşağıdaki tabloda, bir stok nesnesi için yapılan hesaplamanın sonucu gösteriliyor. **Maliyet nesnesi** sayfasındaki **Fiziksel miktar**'a tıklayarak sonucu görüntüleyebilirsiniz.
+<span data-ttu-id="5ce46-133">Aşağıdaki tabloda, bir stok nesnesi için yapılan hesaplamanın sonucu gösteriliyor.</span><span class="sxs-lookup"><span data-stu-id="5ce46-133">The following table shows the calculation result for an inventory object.</span></span> <span data-ttu-id="5ce46-134">**Maliyet nesnesi** sayfasındaki **Fiziksel miktar**'a tıklayarak sonucu görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="5ce46-134">You can view the result by clicking **Physical quantity** on the **Cost object** page.</span></span>
 
 <table style="width:100%;">
 <colgroup>
@@ -99,53 +99,53 @@ Aşağıdaki tabloda, bir stok nesnesi için yapılan hesaplamanın sonucu göst
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nesne türü</th>
-<th>Madde kodu</th>
-<th>Tesis</th>
-<th>Ambar</th>
-<th>Bordro Numarası</th>
-<th>Miktar</th>
-<th>Stok birimi</th>
-<th>Değer</th>
-<th>Ortalama birim maliyeti</th>
+<th><span data-ttu-id="5ce46-135">Nesne türü</span><span class="sxs-lookup"><span data-stu-id="5ce46-135">Object type</span></span></th>
+<th><span data-ttu-id="5ce46-136">Madde kodu</span><span class="sxs-lookup"><span data-stu-id="5ce46-136">Item number</span></span></th>
+<th><span data-ttu-id="5ce46-137">Tesis</span><span class="sxs-lookup"><span data-stu-id="5ce46-137">Site</span></span></th>
+<th><span data-ttu-id="5ce46-138">Ambar</span><span class="sxs-lookup"><span data-stu-id="5ce46-138">Warehouse</span></span></th>
+<th><span data-ttu-id="5ce46-139">Bordro Numarası</span><span class="sxs-lookup"><span data-stu-id="5ce46-139">Batch No.</span></span></th>
+<th><span data-ttu-id="5ce46-140">Miktar</span><span class="sxs-lookup"><span data-stu-id="5ce46-140">Quantity</span></span></th>
+<th><span data-ttu-id="5ce46-141">Stok birimi</span><span class="sxs-lookup"><span data-stu-id="5ce46-141">Inventory unit</span></span></th>
+<th><span data-ttu-id="5ce46-142">Değer</span><span class="sxs-lookup"><span data-stu-id="5ce46-142">Value</span></span></th>
+<th><span data-ttu-id="5ce46-143">Ortalama birim maliyeti</span><span class="sxs-lookup"><span data-stu-id="5ce46-143">Average unit cost</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Stok nesnesi</td>
-<td>A:</td>
-<td>1</td>
-<td>11</td>
-<td>B1</td>
-<td>100</td>
-<td>Prç</td>
-<td><p>1.200,00 lira</p></td>
-<td><p>12,00 lira</p></td>
+<td><span data-ttu-id="5ce46-144">Stok nesnesi</span><span class="sxs-lookup"><span data-stu-id="5ce46-144">Inventory object</span></span></td>
+<td><span data-ttu-id="5ce46-145">A:</span><span class="sxs-lookup"><span data-stu-id="5ce46-145">A</span></span></td>
+<td><span data-ttu-id="5ce46-146">1</span><span class="sxs-lookup"><span data-stu-id="5ce46-146">1</span></span></td>
+<td><span data-ttu-id="5ce46-147">11</span><span class="sxs-lookup"><span data-stu-id="5ce46-147">11</span></span></td>
+<td><span data-ttu-id="5ce46-148">B1</span><span class="sxs-lookup"><span data-stu-id="5ce46-148">B1</span></span></td>
+<td><span data-ttu-id="5ce46-149">100</span><span class="sxs-lookup"><span data-stu-id="5ce46-149">100</span></span></td>
+<td><span data-ttu-id="5ce46-150">Prç</span><span class="sxs-lookup"><span data-stu-id="5ce46-150">Pcs.</span></span></td>
+<td><p><span data-ttu-id="5ce46-151">1.200,00 lira</span><span class="sxs-lookup"><span data-stu-id="5ce46-151">$1200.00</span></span></p></td>
+<td><p><span data-ttu-id="5ce46-152">12,00 lira</span><span class="sxs-lookup"><span data-stu-id="5ce46-152">$12.00</span></span></p></td>
 </tr>
 <tr class="even">
-<td>Stok nesnesi</td>
-<td>A:</td>
-<td>1</td>
-<td>11</td>
-<td>B2</td>
-<td>50</td>
-<td>Prç</td>
-<td><p>600,00 lira.</p></td>
-<td><p>12,00 lira</p></td>
+<td><span data-ttu-id="5ce46-153">Stok nesnesi</span><span class="sxs-lookup"><span data-stu-id="5ce46-153">Inventory object</span></span></td>
+<td><span data-ttu-id="5ce46-154">A:</span><span class="sxs-lookup"><span data-stu-id="5ce46-154">A</span></span></td>
+<td><span data-ttu-id="5ce46-155">1</span><span class="sxs-lookup"><span data-stu-id="5ce46-155">1</span></span></td>
+<td><span data-ttu-id="5ce46-156">11</span><span class="sxs-lookup"><span data-stu-id="5ce46-156">11</span></span></td>
+<td><span data-ttu-id="5ce46-157">B2</span><span class="sxs-lookup"><span data-stu-id="5ce46-157">B2</span></span></td>
+<td><span data-ttu-id="5ce46-158">50</span><span class="sxs-lookup"><span data-stu-id="5ce46-158">50</span></span></td>
+<td><span data-ttu-id="5ce46-159">Prç</span><span class="sxs-lookup"><span data-stu-id="5ce46-159">Pcs.</span></span></td>
+<td><p><span data-ttu-id="5ce46-160">600,00 lira.</span><span class="sxs-lookup"><span data-stu-id="5ce46-160">$600.00</span></span></p></td>
+<td><p><span data-ttu-id="5ce46-161">12,00 lira</span><span class="sxs-lookup"><span data-stu-id="5ce46-161">$12.00</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="see-also"></a><span data-ttu-id="5ce46-162">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="5ce46-162">See also</span></span>
 --------
 
-[Maliyet nesneleri](cost-object.md)
+[<span data-ttu-id="5ce46-163">Maliyet nesneleri</span><span class="sxs-lookup"><span data-stu-id="5ce46-163">Cost objects</span></span>](cost-object.md)
 
-[Maliyet girişleri](cost-entries.md)
+[<span data-ttu-id="5ce46-164">Maliyet girişleri</span><span class="sxs-lookup"><span data-stu-id="5ce46-164">Cost entries</span></span>](cost-entries.md)
 
-[Yenilikler ve değişiklikler](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed)
+[<span data-ttu-id="5ce46-165">Yenilikler ve değişiklikler</span><span class="sxs-lookup"><span data-stu-id="5ce46-165">What's new and changed</span></span>](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed)
 
 
 

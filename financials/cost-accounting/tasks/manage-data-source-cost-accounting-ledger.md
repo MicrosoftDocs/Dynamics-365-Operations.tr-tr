@@ -16,35 +16,35 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 3003a0dfa30c981eacfd5a643a1c5e902c2ba45d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 5735cabd5a1eab23fbe2b92cf1395110cb33a93c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Maliyet muhasebesi genel muhasebesi için veri kaynağını yönetme
+# <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a><span data-ttu-id="163ab-103">Maliyet muhasebesi genel muhasebesi için veri kaynağını yönetme</span><span class="sxs-lookup"><span data-stu-id="163ab-103">Manage a data source for the cost accounting ledger</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bir maliyet muhasebesi defteri için genel muhasebe defteri veri kaynağını yönetmek için bu yordamı kullanın. Bu görevi tamamlamadan önce, "Bir maliyet muhasebesi defteri oluştur" ve "Maliyet kontrol birimleri tanımla" görev kılavuzlarını çalıştırdığınızdan emin olun. Bu kayıt USP2 demo veri şirketini kullanır.
+<span data-ttu-id="163ab-104">Bir maliyet muhasebesi defteri için genel muhasebe defteri veri kaynağını yönetmek için bu yordamı kullanın.</span><span class="sxs-lookup"><span data-stu-id="163ab-104">Use this procedure to manage the general ledger data source for a cost accounting ledger.</span></span> <span data-ttu-id="163ab-105">Bu görevi tamamlamadan önce, "Bir maliyet muhasebesi defteri oluştur" ve "Maliyet kontrol birimleri tanımla" görev kılavuzlarını çalıştırdığınızdan emin olun.</span><span class="sxs-lookup"><span data-stu-id="163ab-105">Before you complete this task, make sure that you play the "Create a cost accounting ledger" and "Define cost control units" task guides.</span></span> <span data-ttu-id="163ab-106">Bu kayıt USP2 demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="163ab-106">This recording uses the USP2 demo data company.</span></span>
 
-1. Maliyet muhasebesi > Genel muhasebe kurulumu > Maliyet muhasebesi defterleri öğesine gidin.
-2. Listede, istenen kaydı bulun ve seçin.
-3. Güncel sürümler üzerine tıklayın.
-4. Eylem Bölmesinde, Yönet'i tıklatın.
-5. Genel muhasebe üzerine tıklayın.
-6. Yeni'ye tıklayın.
-7. İsim alanına bir değer yazın.
-8. Veri sağlayıcı alanına bir değer girin veya buradan bir değer seçin.
-    * Bu örnekte Dynamics 365 for Finance and Operations - Genel muhasebe girişleri'ni seçin.  
-9. Maliyet öğesi boyutu alanına bir değer girin veya bir değer seçin.
-    * Bu örnek için Maliyet öğeleri'ni seçin.  
-10. Kaydet'e tıklayın.
-11. Veri sağlayıcısını yapılandır üzerine tıklayın.
-12. Yasal varlık alanına bir değer girin veya buradan bir değer seçin.
-    * Bu örnek için, USP2 seçin.  
-13. Yeni'ye tıklayın.
-14. Deftere nakil katmanı alanında, Geçerli öğesini seçin.
-15. Tamam'a tıklayın.
+1. <span data-ttu-id="163ab-107">Maliyet muhasebesi > Genel muhasebe kurulumu > Maliyet muhasebesi defterleri öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="163ab-107">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
+2. <span data-ttu-id="163ab-108">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="163ab-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="163ab-109">Güncel sürümler üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="163ab-109">Click Actual versions.</span></span>
+4. <span data-ttu-id="163ab-110">Eylem Bölmesinde, Yönet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="163ab-110">On the Action Pane, click Manage.</span></span>
+5. <span data-ttu-id="163ab-111">Genel muhasebe üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="163ab-111">Click General ledger.</span></span>
+6. <span data-ttu-id="163ab-112">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="163ab-112">Click New.</span></span>
+7. <span data-ttu-id="163ab-113">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="163ab-113">In the Name field, type a value.</span></span>
+8. <span data-ttu-id="163ab-114">Veri sağlayıcı alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="163ab-114">In the Data provider field, enter or select a value.</span></span>
+    * <span data-ttu-id="163ab-115">Bu örnekte Dynamics 365 for Finance and Operations - Genel muhasebe girişleri'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="163ab-115">For this example, select Dynamics 365 for Finance and Operations - General ledger entries.</span></span>  
+9. <span data-ttu-id="163ab-116">Maliyet öğesi boyutu alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="163ab-116">In the Cost element dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="163ab-117">Bu örnek için Maliyet öğeleri'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="163ab-117">For this example, select Cost elements.</span></span>  
+10. <span data-ttu-id="163ab-118">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="163ab-118">Click Save.</span></span>
+11. <span data-ttu-id="163ab-119">Veri sağlayıcısını yapılandır üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="163ab-119">Click Configure data provider.</span></span>
+12. <span data-ttu-id="163ab-120">Yasal varlık alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="163ab-120">In the Legal entity field, enter or select a value.</span></span>
+    * <span data-ttu-id="163ab-121">Bu örnek için, USP2 seçin.</span><span class="sxs-lookup"><span data-stu-id="163ab-121">For this example, select USP2.</span></span>  
+13. <span data-ttu-id="163ab-122">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="163ab-122">Click New.</span></span>
+14. <span data-ttu-id="163ab-123">Deftere nakil katmanı alanında, Geçerli öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="163ab-123">In the Posting layer field, select Current.</span></span>
+15. <span data-ttu-id="163ab-124">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="163ab-124">Click OK.</span></span>
 
 

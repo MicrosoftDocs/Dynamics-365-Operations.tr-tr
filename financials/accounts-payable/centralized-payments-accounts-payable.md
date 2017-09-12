@@ -19,285 +19,285 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 23541bb2d82b552cdc9e0ada4aa4ec473f498d0b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 49d5242168cd43e78dd4b0c63da363f91f680904
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="centralized-payments-for-accounts-payable"></a>Borç hesapları için merkezi ödemeler
+# <a name="centralized-payments-for-accounts-payable"></a><span data-ttu-id="f7f53-105">Borç hesapları için merkezi ödemeler</span><span class="sxs-lookup"><span data-stu-id="f7f53-105">Centralized payments for Accounts payable</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten tek bir tüzel kişilik kullanarak ödemeleri oluşturabilir ve yönetebilirler. Bu nedenle, birden çok tüzel kişilikte aynı ödemelerin girilmesi gerekmez. Bu makalede, çeşitli senaryolarda deftere nakletmenin merkezi ödemeler için nasıl işlendiğini gösteren örnekler yer almaktadır.
+<span data-ttu-id="f7f53-106">Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten tek bir tüzel kişilik kullanarak ödemeleri oluşturabilir ve yönetebilirler.</span><span class="sxs-lookup"><span data-stu-id="f7f53-106">Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments.</span></span> <span data-ttu-id="f7f53-107">Bu nedenle, birden çok tüzel kişilikte aynı ödemelerin girilmesi gerekmez.</span><span class="sxs-lookup"><span data-stu-id="f7f53-107">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="f7f53-108">Bu makalede, çeşitli senaryolarda deftere nakletmenin merkezi ödemeler için nasıl işlendiğini gösteren örnekler yer almaktadır.</span><span class="sxs-lookup"><span data-stu-id="f7f53-108">This article provides examples that show how posting for centralized payments is handled in various scenarios.</span></span>
 
-Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten bir tüzel kişilik kullanarak ödemeleri oluşturabilir ve yönetebilirler. Bu nedenle, birden çok tüzel kişilikte aynı ödemelerin girilmesi gerekmez. Ayrıca, ödeme işleminiz kesintisiz hale getirildiğinden organizasyon zamandan tasarruf sağlar.
+<span data-ttu-id="f7f53-109">Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten bir tüzel kişilik kullanarak ödemeleri oluşturabilir ve yönetebilirler.</span><span class="sxs-lookup"><span data-stu-id="f7f53-109">Organizations that include multiple legal entities can create and manage payments by using a legal entity that handles all payments.</span></span> <span data-ttu-id="f7f53-110">Bu nedenle, birden çok tüzel kişilikte aynı ödemelerin girilmesi gerekmez.</span><span class="sxs-lookup"><span data-stu-id="f7f53-110">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="f7f53-111">Ayrıca, ödeme işleminiz kesintisiz hale getirildiğinden organizasyon zamandan tasarruf sağlar.</span><span class="sxs-lookup"><span data-stu-id="f7f53-111">Additionally, the organization saves time, because the payment process is streamlined.</span></span>
 
-Bir merkezi ödemeler organizasyonunda, işlemler için birçok tüzel kişilik vardır ve işlem yapan her bir tüzel kişilik kendi satıcı faturalarını yönetir. İşlem yapan tüm tüzel kişilikler için ödemeler tek bir tüzel kişiden üretilir ve bu, ödemenin tüzel kişiliği olarak bilinir. Kapatma işlemi sırasında, ilgili vade sonu ve vade başlangıcı hareketleri oluşturulur. Organizasyondaki hangi tüzel kişiliğin gerçekleşmiş kar veya gerçekleşmiş zararı alacağını ve şirketler arası ödeme ile ilgili nakit iskonto işlemlerinin nasıl halledileceğini belirleyebilirsiniz. 
+<span data-ttu-id="f7f53-112">Bir merkezi ödemeler organizasyonunda, işlemler için birçok tüzel kişilik vardır ve işlem yapan her bir tüzel kişilik kendi satıcı faturalarını yönetir.</span><span class="sxs-lookup"><span data-stu-id="f7f53-112">In a centralized payments organization, there are many legal entities for operations, and each operating legal entity manages its own vendor invoices.</span></span> <span data-ttu-id="f7f53-113">İşlem yapan tüm tüzel kişilikler için ödemeler tek bir tüzel kişiden üretilir ve bu, ödemenin tüzel kişiliği olarak bilinir.</span><span class="sxs-lookup"><span data-stu-id="f7f53-113">Payments for all the operating legal entities are generated from a single legal entity, which is known as the legal entity of the payment.</span></span> <span data-ttu-id="f7f53-114">Kapatma işlemi sırasında, ilgili vade sonu ve vade başlangıcı hareketleri oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="f7f53-114">During the settlement process, the applicable due-to and due-from transactions are generated.</span></span> <span data-ttu-id="f7f53-115">Organizasyondaki hangi tüzel kişiliğin gerçekleşmiş kar veya gerçekleşmiş zararı alacağını ve şirketler arası ödeme ile ilgili nakit iskonto işlemlerinin nasıl halledileceğini belirleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f7f53-115">You can specify which legal entity in the organization receives the realized gain or realized loss transactions, and how cash discount transactions that are related to a cross-company payment are handled.</span></span> 
 
-Aşağıdaki örneklerde, naklin çeşitli senaryolarda nasıl yönetildiği gösterilmektedir. Tüm bu örnekler için aşağıdaki yapılandırma varsayılır:
+<span data-ttu-id="f7f53-116">Aşağıdaki örneklerde, naklin çeşitli senaryolarda nasıl yönetildiği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="f7f53-116">The following examples illustrate how posting is handled in various scenarios.</span></span> <span data-ttu-id="f7f53-117">Tüm bu örnekler için aşağıdaki yapılandırma varsayılır:</span><span class="sxs-lookup"><span data-stu-id="f7f53-117">The following configuration is assumed for all these examples:</span></span>
 
--   Tüzel kişilikler Fabrikam, Fabrikam East ve Fabrikam West şeklindedir. Ödemeler Fabrikam'dan yapılır.
--   **Şirketlerarası muhasebe** sayfasındaki **Nakit iskontosu nakli** alanında **Faturanın tüzel kişiliği** olarak ayarlanmıştır.
--   **Şirketlerarası muhasebe** sayfasındaki **Döviz kuru kazancını veya kaybını deftere naklet** alanında **Ödemenin tüzel kişiliği** olarak ayarlanmıştır.
--   Satıcı Fourth Coffee, her bir tüzel kişilikte satıcı olarak ayarlanır. Çeşitli tüzel kişiliklerden satıcılar aynı satıcı olarak tanımlanır çünkü bunlar aynı genel adres defteri kimliğine sahiptir.
+-   <span data-ttu-id="f7f53-118">Tüzel kişilikler Fabrikam, Fabrikam East ve Fabrikam West şeklindedir.</span><span class="sxs-lookup"><span data-stu-id="f7f53-118">The legal entities are Fabrikam, Fabrikam East, and Fabrikam West.</span></span> <span data-ttu-id="f7f53-119">Ödemeler Fabrikam'dan yapılır.</span><span class="sxs-lookup"><span data-stu-id="f7f53-119">Payments are made from Fabrikam.</span></span>
+-   <span data-ttu-id="f7f53-120">**Şirketlerarası muhasebe** sayfasındaki **Nakit iskontosu nakli** alanında **Faturanın tüzel kişiliği** olarak ayarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="f7f53-120">The **Post cash discount** field on the **Intercompany accounting** page is set to **Legal entity of the invoice**.</span></span>
+-   <span data-ttu-id="f7f53-121">**Şirketlerarası muhasebe** sayfasındaki **Döviz kuru kazancını veya kaybını deftere naklet** alanında **Ödemenin tüzel kişiliği** olarak ayarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="f7f53-121">The **Post currency exchange gain or loss** field on the **Intercompany accounting** page is set to **Legal entity of the payment**.</span></span>
+-   <span data-ttu-id="f7f53-122">Satıcı Fourth Coffee, her bir tüzel kişilikte satıcı olarak ayarlanır.</span><span class="sxs-lookup"><span data-stu-id="f7f53-122">The vendor Fourth Coffee is set up as a vendor in each legal entity.</span></span> <span data-ttu-id="f7f53-123">Çeşitli tüzel kişiliklerden satıcılar aynı satıcı olarak tanımlanır çünkü bunlar aynı genel adres defteri kimliğine sahiptir.</span><span class="sxs-lookup"><span data-stu-id="f7f53-123">The vendors from the various legal entities are identified as the same vendor because they share the same global address book ID.</span></span>
 
-| Dizin Kodu | Satıcı hesabı | Dosya Adı          | Tüzel kişilik  |
+| <span data-ttu-id="f7f53-124">Dizin Kodu</span><span class="sxs-lookup"><span data-stu-id="f7f53-124">Directory ID</span></span> | <span data-ttu-id="f7f53-125">Satıcı hesabı</span><span class="sxs-lookup"><span data-stu-id="f7f53-125">Vendor account</span></span> | <span data-ttu-id="f7f53-126">Dosya Adı</span><span class="sxs-lookup"><span data-stu-id="f7f53-126">Name</span></span>          | <span data-ttu-id="f7f53-127">Tüzel kişilik</span><span class="sxs-lookup"><span data-stu-id="f7f53-127">Legal entity</span></span>  |
 |--------------|----------------|---------------|---------------|
-| 1050         | 3004           | Fourth Coffee | Fabrikam      |
-| 1050         | 100            | Fourth Coffee | Doğu Fabrikam |
-| 1050         | 3004           | Fourth Coffee | Batı Fabrikam |
+| <span data-ttu-id="f7f53-128">1050</span><span class="sxs-lookup"><span data-stu-id="f7f53-128">1050</span></span>         | <span data-ttu-id="f7f53-129">3004</span><span class="sxs-lookup"><span data-stu-id="f7f53-129">3004</span></span>           | <span data-ttu-id="f7f53-130">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="f7f53-130">Fourth Coffee</span></span> | <span data-ttu-id="f7f53-131">Fabrikam</span><span class="sxs-lookup"><span data-stu-id="f7f53-131">Fabrikam</span></span>      |
+| <span data-ttu-id="f7f53-132">1050</span><span class="sxs-lookup"><span data-stu-id="f7f53-132">1050</span></span>         | <span data-ttu-id="f7f53-133">100</span><span class="sxs-lookup"><span data-stu-id="f7f53-133">100</span></span>            | <span data-ttu-id="f7f53-134">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="f7f53-134">Fourth Coffee</span></span> | <span data-ttu-id="f7f53-135">Doğu Fabrikam</span><span class="sxs-lookup"><span data-stu-id="f7f53-135">Fabrikam East</span></span> |
+| <span data-ttu-id="f7f53-136">1050</span><span class="sxs-lookup"><span data-stu-id="f7f53-136">1050</span></span>         | <span data-ttu-id="f7f53-137">3004</span><span class="sxs-lookup"><span data-stu-id="f7f53-137">3004</span></span>           | <span data-ttu-id="f7f53-138">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="f7f53-138">Fourth Coffee</span></span> | <span data-ttu-id="f7f53-139">Batı Fabrikam</span><span class="sxs-lookup"><span data-stu-id="f7f53-139">Fabrikam West</span></span> |
 
-## <a name="example-1-vendor-payment-of-invoice-from-another-legal-entity"></a>Örnek 1: Başka bir tüzel kişilikten faturanın satıcı ödemesi
-Fabrikam East, satıcı hesabı 100, Fourth Coffee için açık bir faturaya sahip. Fabrikam, Fabrikam satıcı hesabı 3004, Fourth Coffee'ye bir ödeme girer ve nakleder. Ödeme açık faturayla kapatılır.
+## <a name="example-1-vendor-payment-of-invoice-from-another-legal-entity"></a><span data-ttu-id="f7f53-140">Örnek 1: Başka bir tüzel kişilikten faturanın satıcı ödemesi</span><span class="sxs-lookup"><span data-stu-id="f7f53-140">Example 1: Vendor payment of invoice from another legal entity</span></span>
+<span data-ttu-id="f7f53-141">Fabrikam East, satıcı hesabı 100, Fourth Coffee için açık bir faturaya sahip.</span><span class="sxs-lookup"><span data-stu-id="f7f53-141">Fabrikam East has an open invoice for vendor account 100, Fourth Coffee.</span></span> <span data-ttu-id="f7f53-142">Fabrikam, Fabrikam satıcı hesabı 3004, Fourth Coffee'ye bir ödeme girer ve nakleder.</span><span class="sxs-lookup"><span data-stu-id="f7f53-142">Fabrikam enters and posts a payment to Fabrikam vendor account 3004, Fourth Coffee.</span></span> <span data-ttu-id="f7f53-143">Ödeme açık faturayla kapatılır.</span><span class="sxs-lookup"><span data-stu-id="f7f53-143">The payment is settled with the open invoice.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-vendor-100"></a>Fatura satıcı 100 için Fabrikam East'e nakledilir
+### <a name="invoice-is-posted-in-fabrikam-east-for-vendor-100"></a><span data-ttu-id="f7f53-144">Fatura satıcı 100 için Fabrikam East'e nakledilir</span><span class="sxs-lookup"><span data-stu-id="f7f53-144">Invoice is posted in Fabrikam East for vendor 100</span></span>
 
-| Hesap                          | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-145">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-145">Account</span></span>                          | <span data-ttu-id="f7f53-146">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-146">Debit amount</span></span> | <span data-ttu-id="f7f53-147">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-147">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Masraf (Fabrikam East)          | 600,00       |               |
-| Borç hesapları (Fabrikam East) |              | 600,00        |
+| <span data-ttu-id="f7f53-148">Masraf (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-148">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="f7f53-149">600,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-149">600.00</span></span>       |               |
+| <span data-ttu-id="f7f53-150">Borç hesapları (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-150">Accounts payable (Fabrikam East)</span></span> |              | <span data-ttu-id="f7f53-151">600,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-151">600.00</span></span>        |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a>Ödeme satıcı 3004 için Fabrikam'da oluşturulur ve nakledilir
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a><span data-ttu-id="f7f53-152">Ödeme satıcı 3004 için Fabrikam'da oluşturulur ve nakledilir</span><span class="sxs-lookup"><span data-stu-id="f7f53-152">Payment is generated and posted in Fabrikam for vendor 3004</span></span>
 
-| Hesap                     | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-153">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-153">Account</span></span>                     | <span data-ttu-id="f7f53-154">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-154">Debit amount</span></span> | <span data-ttu-id="f7f53-155">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-155">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Borç hesapları (Fabrikam) | 600,00       |               |
-| Nakit (Fabrikam)             |              | 600,00        |
+| <span data-ttu-id="f7f53-156">Borç hesapları (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-156">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="f7f53-157">600,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-157">600.00</span></span>       |               |
+| <span data-ttu-id="f7f53-158">Nakit (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-158">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="f7f53-159">600,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-159">600.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam ödemesi Fabrikam East faturasıyla kapatılır
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="f7f53-160">Fabrikam ödemesi Fabrikam East faturasıyla kapatılır</span><span class="sxs-lookup"><span data-stu-id="f7f53-160">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam nakli**
+<span data-ttu-id="f7f53-161">**Fabrikam nakli**</span><span class="sxs-lookup"><span data-stu-id="f7f53-161">**Fabrikam posting**</span></span>
 
-| Hesap                           | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-162">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-162">Account</span></span>                           | <span data-ttu-id="f7f53-163">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-163">Debit amount</span></span> | <span data-ttu-id="f7f53-164">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-164">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Vade başlangıcı Fabrikam East (Fabrikam) | 600,00       |               |
-| Borç hesapları (Fabrikam)       |              | 600,00        |
+| <span data-ttu-id="f7f53-165">Vade başlangıcı Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-165">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="f7f53-166">600,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-166">600.00</span></span>       |               |
+| <span data-ttu-id="f7f53-167">Borç hesapları (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-167">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="f7f53-168">600,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-168">600.00</span></span>        |
 
-**Fabrikam East nakli**
+<span data-ttu-id="f7f53-169">**Fabrikam East nakli**</span><span class="sxs-lookup"><span data-stu-id="f7f53-169">**Fabrikam East posting**</span></span>
 
-| Hesap                          | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-170">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-170">Account</span></span>                          | <span data-ttu-id="f7f53-171">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-171">Debit amount</span></span> | <span data-ttu-id="f7f53-172">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-172">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Borç hesapları (Fabrikam East) | 600,00       |               |
-| Vade sonu Fabrikam (Fabrikam East)  |              | 600,00        |
+| <span data-ttu-id="f7f53-173">Borç hesapları (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-173">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="f7f53-174">600,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-174">600.00</span></span>       |               |
+| <span data-ttu-id="f7f53-175">Vade sonu Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-175">Due to Fabrikam (Fabrikam East)</span></span>  |              | <span data-ttu-id="f7f53-176">600,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-176">600.00</span></span>        |
 
-## <a name="example-2-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>Örnek 2: Başka bir tüzel kişilikten nakit iskontosu ile satıcının fatura ödemesi
-Fabrikam East, satıcı 100, Fourth Coffee için açık bir faturaya sahip. Fatura 20,00'lik nakit iskontosuna sahiptir. Fabrikam, Fabrikam satıcı 3004, Fourth Coffee'ye 580,00'lık bir ödeme girer ve nakleder. Ödeme, Fabrikam East faturalarıyla kapatılıyor. Nakit iskontosu faturanın tüzel kişiliği olan Fabrikam East'e naklediliyor.
+## <a name="example-2-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a><span data-ttu-id="f7f53-177">Örnek 2: Başka bir tüzel kişilikten nakit iskontosu ile satıcının fatura ödemesi</span><span class="sxs-lookup"><span data-stu-id="f7f53-177">Example 2: Vendor payment of invoice from another legal entity with cash discount</span></span>
+<span data-ttu-id="f7f53-178">Fabrikam East, satıcı 100, Fourth Coffee için açık bir faturaya sahip.</span><span class="sxs-lookup"><span data-stu-id="f7f53-178">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="f7f53-179">Fatura 20,00'lik nakit iskontosuna sahiptir.</span><span class="sxs-lookup"><span data-stu-id="f7f53-179">The invoice has a 20.00 cash discount available.</span></span> <span data-ttu-id="f7f53-180">Fabrikam, Fabrikam satıcı 3004, Fourth Coffee'ye 580,00'lık bir ödeme girer ve nakleder.</span><span class="sxs-lookup"><span data-stu-id="f7f53-180">Fabrikam enters and posts a payment of 580.00 for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="f7f53-181">Ödeme, Fabrikam East faturalarıyla kapatılıyor.</span><span class="sxs-lookup"><span data-stu-id="f7f53-181">The payment is settled with the open Fabrikam East invoices.</span></span> <span data-ttu-id="f7f53-182">Nakit iskontosu faturanın tüzel kişiliği olan Fabrikam East'e naklediliyor.</span><span class="sxs-lookup"><span data-stu-id="f7f53-182">The cash discount is posted to the legal entity of the invoice, Fabrikam East.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a>Fatura, Fabrikam East satıcı 100 için Fabrikam East'e nakledilir
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a><span data-ttu-id="f7f53-183">Fatura, Fabrikam East satıcı 100 için Fabrikam East'e nakledilir</span><span class="sxs-lookup"><span data-stu-id="f7f53-183">Invoice is posted in Fabrikam East for Fabrikam East vendor 100</span></span>
 
-| Hesap                          | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-184">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-184">Account</span></span>                          | <span data-ttu-id="f7f53-185">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-185">Debit amount</span></span> | <span data-ttu-id="f7f53-186">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-186">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Masraf (Fabrikam East)          | 600,00       |               |
-| Borç hesapları (Fabrikam East) |              | 600,00        |
+| <span data-ttu-id="f7f53-187">Masraf (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-187">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="f7f53-188">600,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-188">600.00</span></span>       |               |
+| <span data-ttu-id="f7f53-189">Borç hesapları (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-189">Accounts payable (Fabrikam East)</span></span> |              | <span data-ttu-id="f7f53-190">600,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-190">600.00</span></span>        |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a>Ödeme Fabrikam satıcı 3004 için Fabrikam'da oluşturulur ve nakledilir
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a><span data-ttu-id="f7f53-191">Ödeme Fabrikam satıcı 3004 için Fabrikam'da oluşturulur ve nakledilir</span><span class="sxs-lookup"><span data-stu-id="f7f53-191">Payment is generated and posted in Fabrikam for Fabrikam vendor 3004</span></span>
 
-| Hesap                     | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-192">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-192">Account</span></span>                     | <span data-ttu-id="f7f53-193">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-193">Debit amount</span></span> | <span data-ttu-id="f7f53-194">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-194">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Borç hesapları (Fabrikam) | 580,00       |               |
-| Nakit (Fabrikam)             |              | 580,00        |
+| <span data-ttu-id="f7f53-195">Borç hesapları (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-195">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="f7f53-196">580,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-196">580.00</span></span>       |               |
+| <span data-ttu-id="f7f53-197">Nakit (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-197">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="f7f53-198">580,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-198">580.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam ödemesi Fabrikam East faturasıyla kapatılır
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="f7f53-199">Fabrikam ödemesi Fabrikam East faturasıyla kapatılır</span><span class="sxs-lookup"><span data-stu-id="f7f53-199">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam nakli**
+<span data-ttu-id="f7f53-200">**Fabrikam nakli**</span><span class="sxs-lookup"><span data-stu-id="f7f53-200">**Fabrikam posting**</span></span>
 
-| Hesap                           | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-201">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-201">Account</span></span>                           | <span data-ttu-id="f7f53-202">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-202">Debit amount</span></span> | <span data-ttu-id="f7f53-203">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-203">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Vade başlangıcı Fabrikam East (Fabrikam) | 580,00       |               |
-| Borç hesapları (Fabrikam)       |              | 580,00        |
+| <span data-ttu-id="f7f53-204">Vade başlangıcı Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-204">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="f7f53-205">580,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-205">580.00</span></span>       |               |
+| <span data-ttu-id="f7f53-206">Borç hesapları (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-206">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="f7f53-207">580,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-207">580.00</span></span>        |
 
-**Fabrikam East nakli**
+<span data-ttu-id="f7f53-208">**Fabrikam East nakli**</span><span class="sxs-lookup"><span data-stu-id="f7f53-208">**Fabrikam East posting**</span></span>
 
-| Hesap                          | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-209">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-209">Account</span></span>                          | <span data-ttu-id="f7f53-210">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-210">Debit amount</span></span> | <span data-ttu-id="f7f53-211">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-211">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Borç hesapları (Fabrikam East) | 580,00       |               |
-| Vade sonu Fabrikam (Fabrikam East)  |              | 580,00        |
-| Borç hesapları (Fabrikam East) | 20,00        |               |
-| Nakit iskontosu (Fabrikam East)    |              | 20,00         |
+| <span data-ttu-id="f7f53-212">Borç hesapları (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-212">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="f7f53-213">580,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-213">580.00</span></span>       |               |
+| <span data-ttu-id="f7f53-214">Vade sonu Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-214">Due to Fabrikam (Fabrikam East)</span></span>  |              | <span data-ttu-id="f7f53-215">580,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-215">580.00</span></span>        |
+| <span data-ttu-id="f7f53-216">Borç hesapları (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-216">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="f7f53-217">20,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-217">20.00</span></span>        |               |
+| <span data-ttu-id="f7f53-218">Nakit iskontosu (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-218">Cash discount (Fabrikam East)</span></span>    |              | <span data-ttu-id="f7f53-219">20,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-219">20.00</span></span>         |
 
-## <a name="example-3-vendor-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-loss"></a>Örnek 3: Başka bir tüzel kişilikten, gerçekleştirilen döviz kuru kaybı ile satıcının fatura ödemesi
-Fabrikam East, satıcı 100, Fourth Coffee için açık bir faturaya sahip. Fabrikam, Fabrikam satıcı 3004, Fourth Coffee için bir ödeme girer ve nakleder. Ödeme, Fabrikam East faturasıyla kapatılır. Kapatma işlemi sırasında bir para birimi döviz kuru kaybı hareketi oluşturulur.
+## <a name="example-3-vendor-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-loss"></a><span data-ttu-id="f7f53-220">Örnek 3: Başka bir tüzel kişilikten, gerçekleştirilen döviz kuru kaybı ile satıcının fatura ödemesi</span><span class="sxs-lookup"><span data-stu-id="f7f53-220">Example 3: Vendor payment of invoice from another legal entity with realized exchange rate loss</span></span>
+<span data-ttu-id="f7f53-221">Fabrikam East, satıcı 100, Fourth Coffee için açık bir faturaya sahip.</span><span class="sxs-lookup"><span data-stu-id="f7f53-221">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="f7f53-222">Fabrikam, Fabrikam satıcı 3004, Fourth Coffee için bir ödeme girer ve nakleder.</span><span class="sxs-lookup"><span data-stu-id="f7f53-222">Fabrikam enters and posts a payment for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="f7f53-223">Ödeme, Fabrikam East faturasıyla kapatılır.</span><span class="sxs-lookup"><span data-stu-id="f7f53-223">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="f7f53-224">Kapatma işlemi sırasında bir para birimi döviz kuru kaybı hareketi oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="f7f53-224">A currency exchange loss transaction is generated during the settlement process.</span></span>
 
--   Fatura tarihi itibariyle avrodan (EUR) ABD dolarına (USD) döviz kuru: 1,2062
--   Ödeme tarihindeki EUR - USD döviz kuru: 1,2277
+-   <span data-ttu-id="f7f53-225">Fatura tarihi itibariyle avrodan (EUR) ABD dolarına (USD) döviz kuru: 1,2062</span><span class="sxs-lookup"><span data-stu-id="f7f53-225">Exchange rate for euros (EUR) to U.S. dollars (USD) as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="f7f53-226">Ödeme tarihindeki EUR - USD döviz kuru: 1,2277</span><span class="sxs-lookup"><span data-stu-id="f7f53-226">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a>Fatura, Fabrikam East satıcı 100 için Fabrikam East'e nakledilir
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a><span data-ttu-id="f7f53-227">Fatura, Fabrikam East satıcı 100 için Fabrikam East'e nakledilir</span><span class="sxs-lookup"><span data-stu-id="f7f53-227">Invoice is posted in Fabrikam East for Fabrikam East vendor 100</span></span>
 
-| Hesap                          | Borç tutarı            | Alacak tutarı           |
+| <span data-ttu-id="f7f53-228">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-228">Account</span></span>                          | <span data-ttu-id="f7f53-229">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-229">Debit amount</span></span>            | <span data-ttu-id="f7f53-230">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-230">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Masraf (Fabrikam East)          | 600,00 EUR / 723,72 USD |                         |
-| Borç hesapları (Fabrikam East) |                         | 600,00 EUR / 723,72 USD |
+| <span data-ttu-id="f7f53-231">Masraf (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-231">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="f7f53-232">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-232">600.00 EUR / 723.72 USD</span></span> |                         |
+| <span data-ttu-id="f7f53-233">Borç hesapları (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-233">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="f7f53-234">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-234">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a>Ödeme Fabrikam satıcı 3004 için Fabrikam'da oluşturulur ve nakledilir
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a><span data-ttu-id="f7f53-235">Ödeme Fabrikam satıcı 3004 için Fabrikam'da oluşturulur ve nakledilir</span><span class="sxs-lookup"><span data-stu-id="f7f53-235">Payment is generated and posted in Fabrikam for Fabrikam vendor 3004</span></span>
 
-| Hesap                     | Borç tutarı            | Alacak tutarı           |
+| <span data-ttu-id="f7f53-236">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-236">Account</span></span>                     | <span data-ttu-id="f7f53-237">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-237">Debit amount</span></span>            | <span data-ttu-id="f7f53-238">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-238">Credit amount</span></span>           |
 |-----------------------------|-------------------------|-------------------------|
-| Borç hesapları (Fabrikam) | 600,00 EUR / 736,62 USD |                         |
-| Nakit (Fabrikam)             |                         | 600,00 EUR / 736,62 USD |
+| <span data-ttu-id="f7f53-239">Borç hesapları (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-239">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="f7f53-240">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-240">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="f7f53-241">Nakit (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-241">Cash (Fabrikam)</span></span>             |                         | <span data-ttu-id="f7f53-242">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-242">600.00 EUR / 736.62 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam ödemesi Fabrikam East faturasıyla kapatılır
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="f7f53-243">Fabrikam ödemesi Fabrikam East faturasıyla kapatılır</span><span class="sxs-lookup"><span data-stu-id="f7f53-243">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam nakli**
+<span data-ttu-id="f7f53-244">**Fabrikam nakli**</span><span class="sxs-lookup"><span data-stu-id="f7f53-244">**Fabrikam posting**</span></span>
 
-| Hesap                           | Borç tutarı            | Alacak tutarı           |
+| <span data-ttu-id="f7f53-245">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-245">Account</span></span>                           | <span data-ttu-id="f7f53-246">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-246">Debit amount</span></span>            | <span data-ttu-id="f7f53-247">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-247">Credit amount</span></span>           |
 |-----------------------------------|-------------------------|-------------------------|
-| Vade başlangıcı Fabrikam East (Fabrikam) | 600,00 EUR / 736,62 USD |                         |
-| Borç hesapları (Fabrikam)       |                         | 600,00 EUR / 736,62 USD |
-| Gerçekleşen kayıp (Fabrikam)          | 0,00 EUR / 12,90 USD    |                         |
-| Vade başlangıcı Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,90 USD    |
+| <span data-ttu-id="f7f53-248">Vade başlangıcı Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-248">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="f7f53-249">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-249">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="f7f53-250">Borç hesapları (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-250">Accounts payable (Fabrikam)</span></span>       |                         | <span data-ttu-id="f7f53-251">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-251">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="f7f53-252">Gerçekleşen kayıp (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-252">Realized loss (Fabrikam)</span></span>          | <span data-ttu-id="f7f53-253">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-253">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="f7f53-254">Vade başlangıcı Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-254">Due from Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="f7f53-255">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-255">0.00 EUR / 12.90 USD</span></span>    |
 
-**Fabrikam East nakli**
+<span data-ttu-id="f7f53-256">**Fabrikam East nakli**</span><span class="sxs-lookup"><span data-stu-id="f7f53-256">**Fabrikam East posting**</span></span>
 
-| Hesap                          | Borç tutarı            | Alacak tutarı           |
+| <span data-ttu-id="f7f53-257">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-257">Account</span></span>                          | <span data-ttu-id="f7f53-258">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-258">Debit amount</span></span>            | <span data-ttu-id="f7f53-259">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-259">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Borç hesapları (Fabrikam East) | 600,00 EUR / 736,62 USD |                         |
-| Vade sonu Fabrikam (Fabrikam East)  |                         | 600,00 EUR / 736,62 USD |
-| Vade sonu Fabrikam (Fabrikam East)  | 0,00 EUR / 12,90 USD    |                         |
-| Borç hesapları (Fabrikam East) |                         | 0,00 EUR / 12,90 USD    |
+| <span data-ttu-id="f7f53-260">Borç hesapları (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-260">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="f7f53-261">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-261">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="f7f53-262">Vade sonu Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-262">Due to Fabrikam (Fabrikam East)</span></span>  |                         | <span data-ttu-id="f7f53-263">600,00 EUR / 736,62 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-263">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="f7f53-264">Vade sonu Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-264">Due to Fabrikam (Fabrikam East)</span></span>  | <span data-ttu-id="f7f53-265">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-265">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="f7f53-266">Borç hesapları (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-266">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="f7f53-267">0,00 EUR / 12,90 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-267">0.00 EUR / 12.90 USD</span></span>    |
 
-## <a name="example-4-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-loss"></a>Örnek 4: Başka bir tüzel kişilikten, nakit iskontosu ve gerçekleştirilen döviz kuru kaybı ile satıcının fatura ödemesi
-Fabrikam East, satıcı 100, Fourth Coffee için açık bir faturaya sahip. Faturada bir nakit iskontosu var ve satış vergisi hareketi oluşturuluyor. Fabrikam, Fabrikam satıcı 3004, Fourth Coffee için bir ödeme nakleder. Ödeme, Fabrikam East faturasıyla kapatılır. Kapatma işlemi sırasında bir para birimi döviz kuru kaybı hareketi oluşturulur. Nakit iskontosu faturanın tüzel kişiliğine (Doğu Fabrikam) nakledilir ve para birimi döviz kuru kaybı ödemenin tüzel kişiliğine (Fabrikam) nakledilir.
+## <a name="example-4-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-loss"></a><span data-ttu-id="f7f53-268">Örnek 4: Başka bir tüzel kişilikten, nakit iskontosu ve gerçekleştirilen döviz kuru kaybı ile satıcının fatura ödemesi</span><span class="sxs-lookup"><span data-stu-id="f7f53-268">Example 4: Vendor payment of invoice from another legal entity with cash discount and realized exchange rate loss</span></span>
+<span data-ttu-id="f7f53-269">Fabrikam East, satıcı 100, Fourth Coffee için açık bir faturaya sahip.</span><span class="sxs-lookup"><span data-stu-id="f7f53-269">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="f7f53-270">Faturada bir nakit iskontosu var ve satış vergisi hareketi oluşturuluyor.</span><span class="sxs-lookup"><span data-stu-id="f7f53-270">The invoice has a cash discount available, and a sales tax transaction is generated.</span></span> <span data-ttu-id="f7f53-271">Fabrikam, Fabrikam satıcı 3004, Fourth Coffee için bir ödeme nakleder.</span><span class="sxs-lookup"><span data-stu-id="f7f53-271">Fabrikam posts a payment for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="f7f53-272">Ödeme, Fabrikam East faturasıyla kapatılır.</span><span class="sxs-lookup"><span data-stu-id="f7f53-272">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="f7f53-273">Kapatma işlemi sırasında bir para birimi döviz kuru kaybı hareketi oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="f7f53-273">A currency exchange loss transaction is generated during the settlement process.</span></span> <span data-ttu-id="f7f53-274">Nakit iskontosu faturanın tüzel kişiliğine (Doğu Fabrikam) nakledilir ve para birimi döviz kuru kaybı ödemenin tüzel kişiliğine (Fabrikam) nakledilir.</span><span class="sxs-lookup"><span data-stu-id="f7f53-274">The cash discount is posted to the legal entity of the invoice (Fabrikam East), and the currency exchange loss is posted to the legal entity of the payment (Fabrikam).</span></span>
 
--   Fatura tarihindeki EUR - USD döviz kuru: 1,2062
--   Ödeme tarihindeki EUR - USD döviz kuru: 1,2277
+-   <span data-ttu-id="f7f53-275">Fatura tarihindeki EUR - USD döviz kuru: 1,2062</span><span class="sxs-lookup"><span data-stu-id="f7f53-275">Exchange rate for EUR to USD as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="f7f53-276">Ödeme tarihindeki EUR - USD döviz kuru: 1,2277</span><span class="sxs-lookup"><span data-stu-id="f7f53-276">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-vendor-100"></a>Satıcı 100 için Fabrikam East'te bir fatura nakledilir ve vergi hareketi oluşturulur
+### <a name="invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-vendor-100"></a><span data-ttu-id="f7f53-277">Satıcı 100 için Fabrikam East'te bir fatura nakledilir ve vergi hareketi oluşturulur</span><span class="sxs-lookup"><span data-stu-id="f7f53-277">Invoice is posted and a tax transaction is generated in Fabrikam East for vendor 100</span></span>
 
-| Hesap                          | Borç tutarı            | Alacak tutarı           |
+| <span data-ttu-id="f7f53-278">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-278">Account</span></span>                          | <span data-ttu-id="f7f53-279">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-279">Debit amount</span></span>            | <span data-ttu-id="f7f53-280">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-280">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Masraf (Fabrikam East)          | 564,07 EUR / 680,38 USD |                         |
-| Satış vergisi (Fabrikam East)        | 35,93 EUR / 43,34 USD   |                         |
-| Borç hesapları (Fabrikam East) |                         | 600,00 EUR / 723,72 USD |
+| <span data-ttu-id="f7f53-281">Masraf (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-281">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="f7f53-282">564,07 EUR / 680,38 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-282">564.07 EUR / 680.38 USD</span></span> |                         |
+| <span data-ttu-id="f7f53-283">Satış vergisi (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-283">Sales tax (Fabrikam East)</span></span>        | <span data-ttu-id="f7f53-284">35,93 EUR / 43,34 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-284">35.93 EUR / 43.34 USD</span></span>   |                         |
+| <span data-ttu-id="f7f53-285">Borç hesapları (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-285">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="f7f53-286">600,00 EUR / 723,72 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-286">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a>Ödeme satıcı 3004 için Fabrikam'da oluşturulur ve nakledilir
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a><span data-ttu-id="f7f53-287">Ödeme satıcı 3004 için Fabrikam'da oluşturulur ve nakledilir</span><span class="sxs-lookup"><span data-stu-id="f7f53-287">Payment is generated and posted in Fabrikam for vendor 3004</span></span>
 
-| Hesap                     | Borç tutarı            | Alacak tutarı           |
+| <span data-ttu-id="f7f53-288">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-288">Account</span></span>                     | <span data-ttu-id="f7f53-289">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-289">Debit amount</span></span>            | <span data-ttu-id="f7f53-290">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-290">Credit amount</span></span>           |
 |-----------------------------|-------------------------|-------------------------|
-| Borç hesapları (Fabrikam) | 588,72 EUR / 722,77 USD |                         |
-| Nakit (Fabrikam East)        |                         | 588,72 EUR / 722,77 USD |
+| <span data-ttu-id="f7f53-291">Borç hesapları (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-291">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="f7f53-292">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-292">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="f7f53-293">Nakit (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-293">Cash (Fabrikam East)</span></span>        |                         | <span data-ttu-id="f7f53-294">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-294">588.72 EUR / 722.77 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam ödemesi Fabrikam East faturasıyla kapatılır
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="f7f53-295">Fabrikam ödemesi Fabrikam East faturasıyla kapatılır</span><span class="sxs-lookup"><span data-stu-id="f7f53-295">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Fabrikam nakli**
+<span data-ttu-id="f7f53-296">**Fabrikam nakli**</span><span class="sxs-lookup"><span data-stu-id="f7f53-296">**Fabrikam posting**</span></span>
 
-| Hesap                           | Borç tutarı            | Alacak tutarı           |
+| <span data-ttu-id="f7f53-297">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-297">Account</span></span>                           | <span data-ttu-id="f7f53-298">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-298">Debit amount</span></span>            | <span data-ttu-id="f7f53-299">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-299">Credit amount</span></span>           |
 |-----------------------------------|-------------------------|-------------------------|
-| Vade başlangıcı Fabrikam East (Fabrikam) | 588,72 EUR / 722,77 USD |                         |
-| Borç hesapları (Fabrikam)       |                         | 588,72 EUR / 722,77 USD |
-| Gerçekleşen kayıp (Fabrikam)          | 0,00 EUR / 12,66 USD    |                         |
-| Vade başlangıcı Fabrikam East (Fabrikam) |                         | 0,00 EUR / 12,66 USD    |
+| <span data-ttu-id="f7f53-300">Vade başlangıcı Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-300">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="f7f53-301">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-301">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="f7f53-302">Borç hesapları (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-302">Accounts payable (Fabrikam)</span></span>       |                         | <span data-ttu-id="f7f53-303">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-303">588.72 EUR / 722.77 USD</span></span> |
+| <span data-ttu-id="f7f53-304">Gerçekleşen kayıp (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-304">Realized loss (Fabrikam)</span></span>          | <span data-ttu-id="f7f53-305">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-305">0.00 EUR / 12.66 USD</span></span>    |                         |
+| <span data-ttu-id="f7f53-306">Vade başlangıcı Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-306">Due from Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="f7f53-307">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-307">0.00 EUR / 12.66 USD</span></span>    |
 
-**Fabrikam East nakli**
+<span data-ttu-id="f7f53-308">**Fabrikam East nakli**</span><span class="sxs-lookup"><span data-stu-id="f7f53-308">**Fabrikam East posting**</span></span>
 
-| Hesap                          | Borç tutarı            | Alacak tutarı           |
+| <span data-ttu-id="f7f53-309">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-309">Account</span></span>                          | <span data-ttu-id="f7f53-310">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-310">Debit amount</span></span>            | <span data-ttu-id="f7f53-311">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-311">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Borç hesapları (Fabrikam East) | 588,72 EUR / 722,77 USD |                         |
-| Vade sonu Fabrikam (Fabrikam East)  |                         | 588,72 EUR / 722,77 USD |
-| Vade sonu Fabrikam (Fabrikam East   | 0,00 EUR / 12,66 USD    |                         |
-| Borç hesapları (Fabrikam East) |                         | 0,00 EUR / 12,66 USD    |
-| Borç hesapları (Fabrikam East) | 11,28 EUR / 13,61 USD   |                         |
-| Nakit iskontosu (Fabrikam East)    |                         | 11,28 EUR / 13,61 USD   |
+| <span data-ttu-id="f7f53-312">Borç hesapları (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-312">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="f7f53-313">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-313">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="f7f53-314">Vade sonu Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-314">Due to Fabrikam (Fabrikam East)</span></span>  |                         | <span data-ttu-id="f7f53-315">588,72 EUR / 722,77 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-315">588.72 EUR / 722.77 USD</span></span> |
+| <span data-ttu-id="f7f53-316">Vade sonu Fabrikam (Fabrikam East</span><span class="sxs-lookup"><span data-stu-id="f7f53-316">Due to Fabrikam (Fabrikam East</span></span>   | <span data-ttu-id="f7f53-317">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-317">0.00 EUR / 12.66 USD</span></span>    |                         |
+| <span data-ttu-id="f7f53-318">Borç hesapları (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-318">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="f7f53-319">0,00 EUR / 12,66 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-319">0.00 EUR / 12.66 USD</span></span>    |
+| <span data-ttu-id="f7f53-320">Borç hesapları (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-320">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="f7f53-321">11,28 EUR / 13,61 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-321">11.28 EUR / 13.61 USD</span></span>   |                         |
+| <span data-ttu-id="f7f53-322">Nakit iskontosu (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-322">Cash discount (Fabrikam East)</span></span>    |                         | <span data-ttu-id="f7f53-323">11,28 EUR / 13,61 USD</span><span class="sxs-lookup"><span data-stu-id="f7f53-323">11.28 EUR / 13.61 USD</span></span>   |
 
-## <a name="example-5-vendor-credit-note-with-primary-payment"></a>Örnek 5: Birincil ödeme ile satıcı alacak dekontu
-Fabrikam, satıcı 3004, Fourth Coffee için 75,00'lik bir ödeme oluşturur. Ödeme, Fabrikam West satıcı 3004 için olan bir açık faturayla ve Fabrikam East satıcı 100 için açık bir alacak dekontu ile kapatılır. Ödeme, **Hareketleri kapatma** sayfasında birincil ödeme olarak seçilmiştir.
+## <a name="example-5-vendor-credit-note-with-primary-payment"></a><span data-ttu-id="f7f53-324">Örnek 5: Birincil ödeme ile satıcı alacak dekontu</span><span class="sxs-lookup"><span data-stu-id="f7f53-324">Example 5: Vendor credit note with primary payment</span></span>
+<span data-ttu-id="f7f53-325">Fabrikam, satıcı 3004, Fourth Coffee için 75,00'lik bir ödeme oluşturur.</span><span class="sxs-lookup"><span data-stu-id="f7f53-325">Fabrikam generates a payment of 75.00 for vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="f7f53-326">Ödeme, Fabrikam West satıcı 3004 için olan bir açık faturayla ve Fabrikam East satıcı 100 için açık bir alacak dekontu ile kapatılır.</span><span class="sxs-lookup"><span data-stu-id="f7f53-326">The payment is settled with an open invoice for Fabrikam West vendor 3004 and an open credit note for Fabrikam East vendor 100.</span></span> <span data-ttu-id="f7f53-327">Ödeme, **Hareketleri kapatma** sayfasında birincil ödeme olarak seçilmiştir.</span><span class="sxs-lookup"><span data-stu-id="f7f53-327">The payment is selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Fatura satıcı 3004 için Fabrikam West'e nakledilir
+### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a><span data-ttu-id="f7f53-328">Fatura satıcı 3004 için Fabrikam West'e nakledilir</span><span class="sxs-lookup"><span data-stu-id="f7f53-328">Invoice is posted to Fabrikam West for vendor 3004</span></span>
 
-| Hesap                          | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-329">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-329">Account</span></span>                          | <span data-ttu-id="f7f53-330">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-330">Debit amount</span></span> | <span data-ttu-id="f7f53-331">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-331">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Masraf (Fabrikam West)          | 100,00       |               |
-| Borç hesapları (Fabrikam West) |              | 100,00        |
+| <span data-ttu-id="f7f53-332">Masraf (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="f7f53-332">Expense (Fabrikam West)</span></span>          | <span data-ttu-id="f7f53-333">100,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-333">100.00</span></span>       |               |
+| <span data-ttu-id="f7f53-334">Borç hesapları (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="f7f53-334">Accounts payable (Fabrikam West)</span></span> |              | <span data-ttu-id="f7f53-335">100,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-335">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a>Alacak dekontu satıcı 100 için Fabrikam East'e nakledilir
+### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a><span data-ttu-id="f7f53-336">Alacak dekontu satıcı 100 için Fabrikam East'e nakledilir</span><span class="sxs-lookup"><span data-stu-id="f7f53-336">Credit note is posted to Fabrikam East for vendor 100</span></span>
 
-| Hesap                          | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-337">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-337">Account</span></span>                          | <span data-ttu-id="f7f53-338">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-338">Debit amount</span></span> | <span data-ttu-id="f7f53-339">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-339">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Borç hesapları (Fabrikam East) | 25,00        |               |
-| Satın alma iadeleri (Fabrikam East) |              | 25,00         |
+| <span data-ttu-id="f7f53-340">Borç hesapları (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-340">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="f7f53-341">25,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-341">25.00</span></span>        |               |
+| <span data-ttu-id="f7f53-342">Satın alma iadeleri (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-342">Purchase returns (Fabrikam East)</span></span> |              | <span data-ttu-id="f7f53-343">25,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-343">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a>Ödeme satıcı 3004 için Fabrikam'a nakledilir
+### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a><span data-ttu-id="f7f53-344">Ödeme satıcı 3004 için Fabrikam'a nakledilir</span><span class="sxs-lookup"><span data-stu-id="f7f53-344">Payment is posted to Fabrikam for vendor 3004</span></span>
 
-| Hesap                     | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-345">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-345">Account</span></span>                     | <span data-ttu-id="f7f53-346">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-346">Debit amount</span></span> | <span data-ttu-id="f7f53-347">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-347">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Borç hesapları (Fabrikam) | 75,00        |               |
-| Nakit (Fabrikam)             |              | 75,00         |
+| <span data-ttu-id="f7f53-348">Borç hesapları (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-348">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="f7f53-349">75,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-349">75.00</span></span>        |               |
+| <span data-ttu-id="f7f53-350">Nakit (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-350">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="f7f53-351">75,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-351">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam ödemesi Fabrikam West faturası ve Fabrikam East alacak dekontuyla kapatılır
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="f7f53-352">Fabrikam ödemesi Fabrikam West faturası ve Fabrikam East alacak dekontuyla kapatılır</span><span class="sxs-lookup"><span data-stu-id="f7f53-352">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Fabrikam nakli**
+<span data-ttu-id="f7f53-353">**Fabrikam nakli**</span><span class="sxs-lookup"><span data-stu-id="f7f53-353">**Fabrikam posting**</span></span>
 
-| Hesap                           | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-354">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-354">Account</span></span>                           | <span data-ttu-id="f7f53-355">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-355">Debit amount</span></span> | <span data-ttu-id="f7f53-356">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-356">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Borç hesapları (Fabrikam)       | 25,00        |               |
-| Vade sonu Fabrikam East (Fabrikam)   |              | 25,00         |
-| Vade başlangıcı Fabrikam West (Fabrikam) | 100,00       |               |
-| Borç hesapları (Fabrikam)       |              | 100,00        |
+| <span data-ttu-id="f7f53-357">Borç hesapları (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-357">Accounts payable (Fabrikam)</span></span>       | <span data-ttu-id="f7f53-358">25,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-358">25.00</span></span>        |               |
+| <span data-ttu-id="f7f53-359">Vade sonu Fabrikam East (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-359">Due to Fabrikam East (Fabrikam)</span></span>   |              | <span data-ttu-id="f7f53-360">25,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-360">25.00</span></span>         |
+| <span data-ttu-id="f7f53-361">Vade başlangıcı Fabrikam West (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-361">Due from Fabrikam West (Fabrikam)</span></span> | <span data-ttu-id="f7f53-362">100,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-362">100.00</span></span>       |               |
+| <span data-ttu-id="f7f53-363">Borç hesapları (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-363">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="f7f53-364">100,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-364">100.00</span></span>        |
 
-**Fabrikam East nakli**
+<span data-ttu-id="f7f53-365">**Fabrikam East nakli**</span><span class="sxs-lookup"><span data-stu-id="f7f53-365">**Fabrikam East posting**</span></span>
 
-| Hesap                           | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-366">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-366">Account</span></span>                           | <span data-ttu-id="f7f53-367">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-367">Debit amount</span></span> | <span data-ttu-id="f7f53-368">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-368">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Vade başlangıcı Fabrikam (Fabrikam East) | 25,00        |               |
-| Borç hesapları (Fabrikam East)  |              | 25,00         |
+| <span data-ttu-id="f7f53-369">Vade başlangıcı Fabrikam (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-369">Due from Fabrikam (Fabrikam East)</span></span> | <span data-ttu-id="f7f53-370">25,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-370">25.00</span></span>        |               |
+| <span data-ttu-id="f7f53-371">Borç hesapları (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-371">Accounts payable (Fabrikam East)</span></span>  |              | <span data-ttu-id="f7f53-372">25,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-372">25.00</span></span>         |
 
-**Fabrikam West nakli**
+<span data-ttu-id="f7f53-373">**Fabrikam West nakli**</span><span class="sxs-lookup"><span data-stu-id="f7f53-373">**Fabrikam West posting**</span></span>
 
-| Hesap                          | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-374">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-374">Account</span></span>                          | <span data-ttu-id="f7f53-375">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-375">Debit amount</span></span> | <span data-ttu-id="f7f53-376">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-376">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Borç hesapları (Fabrikam West) | 100,00       |               |
-| Vade sonu Fabrikam (Fabrikam West)  |              | 100,00        |
+| <span data-ttu-id="f7f53-377">Borç hesapları (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="f7f53-377">Accounts payable (Fabrikam West)</span></span> | <span data-ttu-id="f7f53-378">100,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-378">100.00</span></span>       |               |
+| <span data-ttu-id="f7f53-379">Vade sonu Fabrikam (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="f7f53-379">Due to Fabrikam (Fabrikam West)</span></span>  |              | <span data-ttu-id="f7f53-380">100,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-380">100.00</span></span>        |
 
-## <a name="example-6-vendor-credit-note-without-primary-payment"></a>Örnek 6: Birincil ödemesiz satıcı alacak dekontu
-Fabrikam, satıcı 3004, Fourth Coffee için 75,00'lik bir ödeme oluşturur. Ödeme, Fabrikam West satıcı 3004 için olan bir açık faturayla ve Fabrikam East satıcı 100 için açık bir alacak dekontu ile kapatılır. Ödeme, **Hareketleri kapatma** sayfasında birincil ödeme olarak seçilmemiştir.
+## <a name="example-6-vendor-credit-note-without-primary-payment"></a><span data-ttu-id="f7f53-381">Örnek 6: Birincil ödemesiz satıcı alacak dekontu</span><span class="sxs-lookup"><span data-stu-id="f7f53-381">Example 6: Vendor credit note without primary payment</span></span>
+<span data-ttu-id="f7f53-382">Fabrikam, satıcı 3004, Fourth Coffee için 75,00'lik bir ödeme oluşturur.</span><span class="sxs-lookup"><span data-stu-id="f7f53-382">Fabrikam generates a payment of 75.00 for vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="f7f53-383">Ödeme, Fabrikam West satıcı 3004 için olan bir açık faturayla ve Fabrikam East satıcı 100 için açık bir alacak dekontu ile kapatılır.</span><span class="sxs-lookup"><span data-stu-id="f7f53-383">The payment is settled with an open invoice for Fabrikam West vendor 3004 and an open credit note for Fabrikam East vendor 100.</span></span> <span data-ttu-id="f7f53-384">Ödeme, **Hareketleri kapatma** sayfasında birincil ödeme olarak seçilmemiştir.</span><span class="sxs-lookup"><span data-stu-id="f7f53-384">The payment isn't selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>Fatura satıcı 3004 için Fabrikam West'e nakledilir
+### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a><span data-ttu-id="f7f53-385">Fatura satıcı 3004 için Fabrikam West'e nakledilir</span><span class="sxs-lookup"><span data-stu-id="f7f53-385">Invoice is posted to Fabrikam West for vendor 3004</span></span>
 
-| Hesap                          | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-386">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-386">Account</span></span>                          | <span data-ttu-id="f7f53-387">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-387">Debit amount</span></span> | <span data-ttu-id="f7f53-388">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-388">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Masraf (Fabrikam West)          | 100,00       |               |
-| Borç hesapları (Fabrikam West) |              | 100,00        |
+| <span data-ttu-id="f7f53-389">Masraf (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="f7f53-389">Expense (Fabrikam West)</span></span>          | <span data-ttu-id="f7f53-390">100,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-390">100.00</span></span>       |               |
+| <span data-ttu-id="f7f53-391">Borç hesapları (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="f7f53-391">Accounts payable (Fabrikam West)</span></span> |              | <span data-ttu-id="f7f53-392">100,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-392">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a>Alacak dekontu satıcı 100 için Fabrikam East'e nakledilir
+### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a><span data-ttu-id="f7f53-393">Alacak dekontu satıcı 100 için Fabrikam East'e nakledilir</span><span class="sxs-lookup"><span data-stu-id="f7f53-393">Credit note is posted to Fabrikam East for vendor 100</span></span>
 
-| Hesap                          | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-394">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-394">Account</span></span>                          | <span data-ttu-id="f7f53-395">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-395">Debit amount</span></span> | <span data-ttu-id="f7f53-396">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-396">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Borç hesapları (Fabrikam East) | 25,00        |               |
-| Satın alma iadeleri (Fabrikam East) |              | 25,00         |
+| <span data-ttu-id="f7f53-397">Borç hesapları (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-397">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="f7f53-398">25,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-398">25.00</span></span>        |               |
+| <span data-ttu-id="f7f53-399">Satın alma iadeleri (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-399">Purchase returns (Fabrikam East)</span></span> |              | <span data-ttu-id="f7f53-400">25,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-400">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a>Ödeme satıcı 3004 için Fabrikam'a nakledilir
+### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a><span data-ttu-id="f7f53-401">Ödeme satıcı 3004 için Fabrikam'a nakledilir</span><span class="sxs-lookup"><span data-stu-id="f7f53-401">Payment is posted to Fabrikam for vendor 3004</span></span>
 
-| Hesap                     | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-402">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-402">Account</span></span>                     | <span data-ttu-id="f7f53-403">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-403">Debit amount</span></span> | <span data-ttu-id="f7f53-404">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-404">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Borç hesapları (Fabrikam) | 75,00        |               |
-| Nakit (Fabrikam)             |              | 75,00         |
+| <span data-ttu-id="f7f53-405">Borç hesapları (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-405">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="f7f53-406">75,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-406">75.00</span></span>        |               |
+| <span data-ttu-id="f7f53-407">Nakit (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-407">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="f7f53-408">75,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-408">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam ödemesi Fabrikam West faturası ve Fabrikam East alacak dekontuyla kapatılır
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="f7f53-409">Fabrikam ödemesi Fabrikam West faturası ve Fabrikam East alacak dekontuyla kapatılır</span><span class="sxs-lookup"><span data-stu-id="f7f53-409">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Fabrikam nakli**
+<span data-ttu-id="f7f53-410">**Fabrikam nakli**</span><span class="sxs-lookup"><span data-stu-id="f7f53-410">**Fabrikam posting**</span></span>
 
-| Hesap                           | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-411">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-411">Account</span></span>                           | <span data-ttu-id="f7f53-412">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-412">Debit amount</span></span> | <span data-ttu-id="f7f53-413">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-413">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Vade başlangıcı Fabrikam West (Fabrikam) | 75,00        |               |
-| Borç hesapları (Fabrikam)       |              | 75,00         |
+| <span data-ttu-id="f7f53-414">Vade başlangıcı Fabrikam West (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-414">Due from Fabrikam West (Fabrikam)</span></span> | <span data-ttu-id="f7f53-415">75,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-415">75.00</span></span>        |               |
+| <span data-ttu-id="f7f53-416">Borç hesapları (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="f7f53-416">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="f7f53-417">75,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-417">75.00</span></span>         |
 
-**Fabrikam East nakli**
+<span data-ttu-id="f7f53-418">**Fabrikam East nakli**</span><span class="sxs-lookup"><span data-stu-id="f7f53-418">**Fabrikam East posting**</span></span>
 
-| Hesap                                | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-419">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-419">Account</span></span>                                | <span data-ttu-id="f7f53-420">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-420">Debit amount</span></span> | <span data-ttu-id="f7f53-421">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-421">Credit amount</span></span> |
 |----------------------------------------|--------------|---------------|
-| Vade başlangıcı Fabrikam West (Fabrikam East) | 25,00        |               |
-| Borç hesapları (Fabrikam East)       |              | 25,00         |
+| <span data-ttu-id="f7f53-422">Vade başlangıcı Fabrikam West (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-422">Due from Fabrikam West (Fabrikam East)</span></span> | <span data-ttu-id="f7f53-423">25,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-423">25.00</span></span>        |               |
+| <span data-ttu-id="f7f53-424">Borç hesapları (Fabrikam East)</span><span class="sxs-lookup"><span data-stu-id="f7f53-424">Accounts payable (Fabrikam East)</span></span>       |              | <span data-ttu-id="f7f53-425">25,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-425">25.00</span></span>         |
 
-**Fabrikam West nakli**
+<span data-ttu-id="f7f53-426">**Fabrikam West nakli**</span><span class="sxs-lookup"><span data-stu-id="f7f53-426">**Fabrikam West posting**</span></span>
 
-| Hesap                              | Borç tutarı | Alacak tutarı |
+| <span data-ttu-id="f7f53-427">Hesap</span><span class="sxs-lookup"><span data-stu-id="f7f53-427">Account</span></span>                              | <span data-ttu-id="f7f53-428">Borç tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-428">Debit amount</span></span> | <span data-ttu-id="f7f53-429">Alacak tutarı</span><span class="sxs-lookup"><span data-stu-id="f7f53-429">Credit amount</span></span> |
 |--------------------------------------|--------------|---------------|
-| Borç hesapları (Fabrikam West)     | 75,00        |               |
-| Vade sonu Fabrikam (Fabrikam West)      |              | 75,00         |
-| Borç hesapları (Fabrikam West)     | 25,00        |               |
-| Vade sonu Fabrikam East (Fabrikam West) |              | 25,00         |
+| <span data-ttu-id="f7f53-430">Borç hesapları (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="f7f53-430">Accounts payable (Fabrikam West)</span></span>     | <span data-ttu-id="f7f53-431">75,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-431">75.00</span></span>        |               |
+| <span data-ttu-id="f7f53-432">Vade sonu Fabrikam (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="f7f53-432">Due to Fabrikam (Fabrikam West)</span></span>      |              | <span data-ttu-id="f7f53-433">75,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-433">75.00</span></span>         |
+| <span data-ttu-id="f7f53-434">Borç hesapları (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="f7f53-434">Accounts payable (Fabrikam West)</span></span>     | <span data-ttu-id="f7f53-435">25,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-435">25.00</span></span>        |               |
+| <span data-ttu-id="f7f53-436">Vade sonu Fabrikam East (Fabrikam West)</span><span class="sxs-lookup"><span data-stu-id="f7f53-436">Due to Fabrikam East (Fabrikam West)</span></span> |              | <span data-ttu-id="f7f53-437">25,00</span><span class="sxs-lookup"><span data-stu-id="f7f53-437">25.00</span></span>         |
 
 
 

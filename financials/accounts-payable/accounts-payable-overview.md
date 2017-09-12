@@ -19,132 +19,132 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
-ms.openlocfilehash: 9b29fec7fadbb1ac699f1144f011df1bfd2f511a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 49e5c81dda8434a6e02106a8d7ee10233e43d172
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="configure-accounts-payable"></a>Borç hesaplarını yapılandırın
+# <a name="configure-accounts-payable"></a><span data-ttu-id="26527-104">Borç hesaplarını yapılandırın</span><span class="sxs-lookup"><span data-stu-id="26527-104">Configure Accounts payable</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da Borç hesapları için temel ve isteğe bağlı işlevleri ayarlamada kullanacağınız sayfalar açıklanmaktadır. Ayrıca, Borç hesaplarını ayarlamaya başlamadan önce tamamlamanız gereken kurulum adımları da açıklanmaktadır.
+<span data-ttu-id="26527-105">Bu makalede, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da Borç hesapları için temel ve isteğe bağlı işlevleri ayarlamada kullanacağınız sayfalar açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="26527-105">This article describes the pages that you use to set up basic and optional functionality for Accounts payable in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="26527-106">Ayrıca, Borç hesaplarını ayarlamaya başlamadan önce tamamlamanız gereken kurulum adımları da açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="26527-106">It also describes setup steps that you must complete before you start to set up Accounts payable.</span></span>
 
-<a name="prerequisites-for-accounts-payable-setup"></a>Borç hesapları kurulumu için ön gereksinimler
+<a name="prerequisites-for-accounts-payable-setup"></a><span data-ttu-id="26527-107">Borç hesapları kurulumu için ön gereksinimler</span><span class="sxs-lookup"><span data-stu-id="26527-107">Prerequisites for Accounts payable setup</span></span>
 ----------------------------------------
 
-Borç hesaplarını ayarlamadan önce aşağıdaki kurulumu tamamlamanız gerekir:
+<span data-ttu-id="26527-108">Borç hesaplarını ayarlamadan önce aşağıdaki kurulumu tamamlamanız gerekir:</span><span class="sxs-lookup"><span data-stu-id="26527-108">Before you can set up Accounts payable, you must complete the following setup:</span></span>
 
--   Genel muhasebe hesabında:
-    -   Ödeme Günlükleri'ni kullanmayı planlıyorsanız, ödeme günlükleri ayarlayın.
-    -   Döviz kuru ayarlamalarını çalıştırmayı planlıyorsanız, Para birimleri sayfasında para birimi kodlarını, Döviz kurları türleri sayfasında döviz kuru türlerini ve Para birimi döviz kuru sayfasında, para birimi döviz kurlarını ayarlayın.
--   Nakit ve banka yönetimi bölümünde, ödeme yöntemleriyle kullanılacak banka hesaplarını ayarlayın.
+-   <span data-ttu-id="26527-109">Genel muhasebe hesabında:</span><span class="sxs-lookup"><span data-stu-id="26527-109">In General ledger:</span></span>
+    -   <span data-ttu-id="26527-110">Ödeme Günlükleri'ni kullanmayı planlıyorsanız, ödeme günlükleri ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-110">If you plan to use payment journals, set up payment journals.</span></span>
+    -   <span data-ttu-id="26527-111">Döviz kuru ayarlamalarını çalıştırmayı planlıyorsanız, Para birimleri sayfasında para birimi kodlarını, Döviz kurları türleri sayfasında döviz kuru türlerini ve Para birimi döviz kuru sayfasında, para birimi döviz kurlarını ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-111">If you plan to run exchange rate adjustments, set up currency codes on the Currencies page, set up exchange rate types on the Exchange rate types page, and set up currency exchange rates on the Currency exchange rates page.</span></span>
+-   <span data-ttu-id="26527-112">Nakit ve banka yönetimi bölümünde, ödeme yöntemleriyle kullanılacak banka hesaplarını ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-112">In Cash and bank management, set up bank accounts to use with methods of payment.</span></span>
 
-## <a name="setup-pages-for-accounts-payable"></a>Borç hesapları için kurulum sayfaları
+## <a name="setup-pages-for-accounts-payable"></a><span data-ttu-id="26527-113">Borç hesapları için kurulum sayfaları</span><span class="sxs-lookup"><span data-stu-id="26527-113">Setup pages for Accounts payable</span></span>
 
-Her tüzel kişilik için temel Borç hesapları işlevlerini ayarlamak üzere aşağıdaki sayfaları kullanın. Sayfalar önerilen kurulum sırasıyla listelenmiştir. Kurulum işlemini kolaylaştırmak için, oluşturduğunuz ilk kayıtlardan şablonları oluşturabilirsiniz. Bir şablonda, değerler genellikle kuruluşun belirli bir satıcı tipi için uygulamak istediği özellikleri yansıtan değerleri içerir.
-1.  Satış siparişlerine, satınalma siparişlerine, müşterilere ve satıcılara atadığınız ve fatura vade tarihlerini belirleyen ödeme koşullarını, Ödeme koşulları sayfasında tanımlayın. Daha fazla bilgi için bkz. [Satıcı ödeme ücretlerini tanımlama](tasks/define-vendor-payment-fees.md).
-2.  Ödeme yöntemleri - Satıcılar sayfa üzerinde, kuruluşun satıcılarına nasıl ödeme yaptığı hakkındaki bilgileri oluşturun ve sürdürün.
-3.  Deftere nakletme, kapatma ve ödeme, raporlama ve tahmin yürütme için önemli parametreleri paylaşan satıcı gruplarını, Satıcı grupları sayfasında oluşturun ve sürdürün.
-4.  Satıcı deftere nakil profilleri sayfasında, satıcı hareketlerinin genel muhasebeye nasıl nakledildiğini tanımlayın.
-5.  Daha özel bir ayar belirtilmediğinde uygulanacak varsayılan değerleri, çeşitli tiplerde işlevler için parametreleri ve Borç hesapları için çeşitli numara sıralarını Borç hesapları parametreleri sayfasında ayarlayın.
-6.  Satıcılarla ilgili olan, satıcılardan gelen girişleri izlemek ve satıcılara ödeme akışları için nedenler girmek için kuruluşun kullandığı çeşitli belgelerin biçimini Form kurulumu sayfasında tanımlayın.
-7.  Satıcılar sayfasında, satıcı hesapları ve ayrıca kuruluşunuzun satış vergilerini bildirdiği vergi dairelerini oluşturun ve sürüdün.
+<span data-ttu-id="26527-114">Her tüzel kişilik için temel Borç hesapları işlevlerini ayarlamak üzere aşağıdaki sayfaları kullanın.</span><span class="sxs-lookup"><span data-stu-id="26527-114">Use the following pages to set up the basic functionality of Accounts payable for each legal entity.</span></span> <span data-ttu-id="26527-115">Sayfalar önerilen kurulum sırasıyla listelenmiştir.</span><span class="sxs-lookup"><span data-stu-id="26527-115">The pages are listed in the recommended order of setup.</span></span> <span data-ttu-id="26527-116">Kurulum işlemini kolaylaştırmak için, oluşturduğunuz ilk kayıtlardan şablonları oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="26527-116">To make the setup process easier, you can create templates from the first records that you create.</span></span> <span data-ttu-id="26527-117">Bir şablonda, değerler genellikle kuruluşun belirli bir satıcı tipi için uygulamak istediği özellikleri yansıtan değerleri içerir.</span><span class="sxs-lookup"><span data-stu-id="26527-117">In a template, values are typically entered in many fields to reflect the features that the organization wants to implement for a particular type of vendor.</span></span>
+1.  <span data-ttu-id="26527-118">Satış siparişlerine, satınalma siparişlerine, müşterilere ve satıcılara atadığınız ve fatura vade tarihlerini belirleyen ödeme koşullarını, Ödeme koşulları sayfasında tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-118">On the Terms of payment page, define the terms of payment that you assign to sales orders, purchase orders, customers, and vendors, and that determine invoice due dates.</span></span> <span data-ttu-id="26527-119">Daha fazla bilgi için bkz. [Satıcı ödeme ücretlerini tanımlama](tasks/define-vendor-payment-fees.md).</span><span class="sxs-lookup"><span data-stu-id="26527-119">For more information, see [Define vendor payment fees](tasks/define-vendor-payment-fees.md).</span></span>
+2.  <span data-ttu-id="26527-120">Ödeme yöntemleri - Satıcılar sayfa üzerinde, kuruluşun satıcılarına nasıl ödeme yaptığı hakkındaki bilgileri oluşturun ve sürdürün.</span><span class="sxs-lookup"><span data-stu-id="26527-120">On the Methods of payment - vendors page, create and maintain information about how the organization pays its vendors.</span></span>
+3.  <span data-ttu-id="26527-121">Deftere nakletme, kapatma ve ödeme, raporlama ve tahmin yürütme için önemli parametreleri paylaşan satıcı gruplarını, Satıcı grupları sayfasında oluşturun ve sürdürün.</span><span class="sxs-lookup"><span data-stu-id="26527-121">On the Vendor groups page, create and maintain groups of vendors that share important parameters for posting, settlement and payment, reporting, and forecasting.</span></span>
+4.  <span data-ttu-id="26527-122">Satıcı deftere nakil profilleri sayfasında, satıcı hareketlerinin genel muhasebeye nasıl nakledildiğini tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-122">On the Vendor posting profiles page, define how vendor transactions are posted to the general ledger.</span></span>
+5.  <span data-ttu-id="26527-123">Daha özel bir ayar belirtilmediğinde uygulanacak varsayılan değerleri, çeşitli tiplerde işlevler için parametreleri ve Borç hesapları için çeşitli numara sıralarını Borç hesapları parametreleri sayfasında ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-123">On the Accounts payable parameters page, set up default settings that are applied if a more specific setting isn't specified, parameters for various kinds of functionality, and the various number sequences for Accounts payable.</span></span>
+6.  <span data-ttu-id="26527-124">Satıcılarla ilgili olan, satıcılardan gelen girişleri izlemek ve satıcılara ödeme akışları için nedenler girmek için kuruluşun kullandığı çeşitli belgelerin biçimini Form kurulumu sayfasında tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-124">On the Form setup page, define the format of various documents that are related to vendors, and that the organization uses to keep track of receipts from vendors and enter reasons for the flow of payments to vendors.</span></span>
+7.  <span data-ttu-id="26527-125">Satıcılar sayfasında, satıcı hesapları ve ayrıca kuruluşunuzun satış vergilerini bildirdiği vergi dairelerini oluşturun ve sürüdün.</span><span class="sxs-lookup"><span data-stu-id="26527-125">On the Vendors page, create and maintain vendor accounts, and also the tax authorities that your organization reports sales taxes to.</span></span>
 
-## <a name="optional-setup-pages-for-accounts-payable"></a>Borç hesapları için isteğe bağlı kurulum sayfaları
-Temel işlevselliğe ek olarak, Borç hesapları ayarlayabileceğiniz başka işlevlere de sahiptir.
+## <a name="optional-setup-pages-for-accounts-payable"></a><span data-ttu-id="26527-126">Borç hesapları için isteğe bağlı kurulum sayfaları</span><span class="sxs-lookup"><span data-stu-id="26527-126">Optional setup pages for Accounts payable</span></span>
+<span data-ttu-id="26527-127">Temel işlevselliğe ek olarak, Borç hesapları ayarlayabileceğiniz başka işlevlere de sahiptir.</span><span class="sxs-lookup"><span data-stu-id="26527-127">In addition to the basic functionality, Accounts payable has other functionality that you can set up.</span></span>
 
-İşleve göre ek kurulum sayfaları düzenlenir.
+<span data-ttu-id="26527-128">İşleve göre ek kurulum sayfaları düzenlenir.</span><span class="sxs-lookup"><span data-stu-id="26527-128">The additional setup pages are organized by functionality.</span></span>
 
-**İlkeler**
--   Satıcı Fatura ilkesi sayfasında satıcı fatura ilkelerini ayarlayın.
+<span data-ttu-id="26527-129">**İlkeler**</span><span class="sxs-lookup"><span data-stu-id="26527-129">**Policies**</span></span>
+-   <span data-ttu-id="26527-130">Satıcı Fatura ilkesi sayfasında satıcı fatura ilkelerini ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-130">On the Vendor invoice policy page, set up vendor invoice policies.</span></span>
 
-**Fatura eşleştirme**
+<span data-ttu-id="26527-131">**Fatura eşleştirme**</span><span class="sxs-lookup"><span data-stu-id="26527-131">**Invoice matching**</span></span>
 
--   Fatura toplamları farkları sayfasında, fatura toplamları için fakları ayarlayın.
--   Eşleşme ilkesi sayfasında iki yönlü ve üç yollu eşleştirme ilkeleri ayarlayın.
--   Fiyat farkları sayfasında birim fiyatları için farkları ayarlayın.
--   Madde fiyatı farkı grupları sayfasında madde fiyatları için fark grupları ayarlayın.
--   Satıcı fiyatı farkı grupları sayfasında satıcı fiyatları için fark grupları ayarlayın.
--   Gider farkları sayfasında giderler için farkları ayarlayın.
+-   <span data-ttu-id="26527-132">Fatura toplamları farkları sayfasında, fatura toplamları için fakları ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-132">On the Invoice totals tolerances page, set up tolerances for invoice totals.</span></span>
+-   <span data-ttu-id="26527-133">Eşleşme ilkesi sayfasında iki yönlü ve üç yollu eşleştirme ilkeleri ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-133">On the Matching policy page, set up two-way and three-way matching policies.</span></span>
+-   <span data-ttu-id="26527-134">Fiyat farkları sayfasında birim fiyatları için farkları ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-134">On the Price tolerances page, set up tolerances for unit prices.</span></span>
+-   <span data-ttu-id="26527-135">Madde fiyatı farkı grupları sayfasında madde fiyatları için fark grupları ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-135">On the Item price tolerance groups page, set up tolerance groups for item prices.</span></span>
+-   <span data-ttu-id="26527-136">Satıcı fiyatı farkı grupları sayfasında satıcı fiyatları için fark grupları ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-136">On the Vendor price tolerance groups page, set up  tolerance groups for vendor prices.</span></span>
+-   <span data-ttu-id="26527-137">Gider farkları sayfasında giderler için farkları ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-137">On the Charges tolerances page, set up tolerances for charges.</span></span>
 
-**İş Akışı**
+<span data-ttu-id="26527-138">**İş Akışı**</span><span class="sxs-lookup"><span data-stu-id="26527-138">**Workflow**</span></span>
 
--   Borç hesapları iş akışı sayfasında, Satınalma talepleri ve günlük onayları için iş akışı yapılandırmaları ayarlayın.
+-   <span data-ttu-id="26527-139">Borç hesapları iş akışı sayfasında, Satınalma talepleri ve günlük onayları için iş akışı yapılandırmaları ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-139">On the Accounts payable workflows page, set up workflow configurations for journal approvals and purchase requisitions.</span></span>
 
-**Nedenler**
+<span data-ttu-id="26527-140">**Nedenler**</span><span class="sxs-lookup"><span data-stu-id="26527-140">**Reasons**</span></span>
 
--   Satıcı nedenleri sayfasında neden kodlarını ayarlayın.
+-   <span data-ttu-id="26527-141">Satıcı nedenleri sayfasında neden kodlarını ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-141">On the Vendor reasons page, set up reason codes.</span></span>
 
-**Masraflar**
+<span data-ttu-id="26527-142">**Masraflar**</span><span class="sxs-lookup"><span data-stu-id="26527-142">**Charges**</span></span>
 
--   Gider kodu sayfasında kullanılan satınalma siparişlerindeki giderleri için kodlar ayarlayın.
--   Satıcı giderleri grubu üzerinde sayfa oluşturun ve satıcılar için masraf gruplarını güncelleştirin.
--   Madde giderini grupları sayfasında, maddeler için giderler grupları oluşturun ve sürdürün.
--   Otomatik masraflar sayfasında, siparişlere otomatik olarak atanan giderleri tanımlayın.
+-   <span data-ttu-id="26527-143">Gider kodu sayfasında kullanılan satınalma siparişlerindeki giderleri için kodlar ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-143">On the Charges code page, set up codes for the charges that are used in purchase orders.</span></span>
+-   <span data-ttu-id="26527-144">Satıcı giderleri grubu üzerinde sayfa oluşturun ve satıcılar için masraf gruplarını güncelleştirin.</span><span class="sxs-lookup"><span data-stu-id="26527-144">On the Vendor charges group page, create and maintain charges groups for vendors.</span></span>
+-   <span data-ttu-id="26527-145">Madde giderini grupları sayfasında, maddeler için giderler grupları oluşturun ve sürdürün.</span><span class="sxs-lookup"><span data-stu-id="26527-145">On the Item charge groups page, create and maintain charges groups for items.</span></span>
+-   <span data-ttu-id="26527-146">Otomatik masraflar sayfasında, siparişlere otomatik olarak atanan giderleri tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-146">On the Auto charges page, define the charges that are automatically assigned to orders.</span></span>
 
-**Tamamlayıcı maddeler**
+<span data-ttu-id="26527-147">**Tamamlayıcı maddeler**</span><span class="sxs-lookup"><span data-stu-id="26527-147">**Supplementary items**</span></span>
 
--   Tamamlayıcı madde grupları üzerinde- Satıcı sayfasında, satıcılar için tamamlayıcı madde grupları oluşturun ve sürdürün.
--   Tamamlayıcı madde grupları üzerinde-Stok sayfasında, maddeler için tamamlayıcı madde grupları oluşturun ve sürdürün.
+-   <span data-ttu-id="26527-148">Tamamlayıcı madde grupları üzerinde- Satıcı sayfasında, satıcılar için tamamlayıcı madde grupları oluşturun ve sürdürün.</span><span class="sxs-lookup"><span data-stu-id="26527-148">On the Supplementary item groups - Vendor page, create and maintain supplementary item groups for vendors.</span></span>
+-   <span data-ttu-id="26527-149">Tamamlayıcı madde grupları üzerinde-Stok sayfasında, maddeler için tamamlayıcı madde grupları oluşturun ve sürdürün.</span><span class="sxs-lookup"><span data-stu-id="26527-149">On the Supplementary item groups - Inventory page, create and maintain supplementary item groups for items.</span></span>
 
-**Dağıtım**
+<span data-ttu-id="26527-150">**Dağıtım**</span><span class="sxs-lookup"><span data-stu-id="26527-150">**Distribution**</span></span>
 
--   Teslimat koşulları sayfasında , satıcıdan müşteriye bir madde naklinin koşullarını oluşturun ve sürdürün.
--   Teslimat modları sayfasında, bir sipariş satıcıdan alıcıya teslim edildiğinde, kullanılacak taşıma yöntemlerini oluşturun ve yönetin.
--   Hedef kodları sayfasında, teslimat hedefleri için tanımlayıcılar ve tarifler oluşturun ve sürdürün.
+-   <span data-ttu-id="26527-151">Teslimat koşulları sayfasında , satıcıdan müşteriye bir madde naklinin koşullarını oluşturun ve sürdürün.</span><span class="sxs-lookup"><span data-stu-id="26527-151">On the Terms of delivery page, create and maintain the conditions for an item's transfer from seller to buyer.</span></span>
+-   <span data-ttu-id="26527-152">Teslimat modları sayfasında, bir sipariş satıcıdan alıcıya teslim edildiğinde, kullanılacak taşıma yöntemlerini oluşturun ve yönetin.</span><span class="sxs-lookup"><span data-stu-id="26527-152">On the Modes of delivery page, create and maintain the methods of transport that are used when an order is delivered from the seller to the buyer.</span></span>
+-   <span data-ttu-id="26527-153">Hedef kodları sayfasında, teslimat hedefleri için tanımlayıcılar ve tarifler oluşturun ve sürdürün.</span><span class="sxs-lookup"><span data-stu-id="26527-153">On the Destination codes page, create and maintain identifiers and descriptions for delivery destinations.</span></span>
 
-**Formlar**
+<span data-ttu-id="26527-154">**Formlar**</span><span class="sxs-lookup"><span data-stu-id="26527-154">**Forms**</span></span>
 
--   Form notlarısayfasında, çeşitli sayfalarda görüntülenecek standar metni oluşturun.
--   Form sıralaması parametreleri sayfasında, talepler, giriş listeleri, sevk irsaliyeleri ve faturalar için bir sıralama düzeni ayarlayın.
--   Yazdırma yönetimi kurulumu sayfasında, sayfaların orjinali ve kopyası için baskı yönetim bilgisini ayarlayın.
+-   <span data-ttu-id="26527-155">Form notlarısayfasında, çeşitli sayfalarda görüntülenecek standar metni oluşturun.</span><span class="sxs-lookup"><span data-stu-id="26527-155">On the Form notes page, create the standard text that appears on various pages.</span></span>
+-   <span data-ttu-id="26527-156">Form sıralaması parametreleri sayfasında, talepler, giriş listeleri, sevk irsaliyeleri ve faturalar için bir sıralama düzeni ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-156">On the Form sorting parameters page, set up the sorting order for requisitions, receipt lists, packing slips, and invoices.</span></span>
+-   <span data-ttu-id="26527-157">Yazdırma yönetimi kurulumu sayfasında, sayfaların orjinali ve kopyası için baskı yönetim bilgisini ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-157">On the Print management setup page, set up print management information for originals and copies of pages.</span></span>
 
-**Ödemeler**
+<span data-ttu-id="26527-158">**Ödemeler**</span><span class="sxs-lookup"><span data-stu-id="26527-158">**Payments**</span></span>
 
--   Nakit iskontosu sayfasında, nakit iskontoları edinmek için şartları ayarlayın ve yönetin. Nakit iskonto kodları satıcılara bağlıdır ve satınalma siparişlerine uygulanır.
--   Ödeme planları sayfasında, satıcılara yapılacak taksit ödemelerini yönetmek için kullanılan ödeme planlarını ayarlayın.
--   Ödeme günleri sayfasında, vade tarihlerini belirlemede kullanılacak ödeme günlerini tanımlayın ve ayın veya haftanın bir günlerini ödeme günleri olarak belirleyin.
--   Ödeme masrafları sayfasında, satıcılar ile ilişkili ödeme masraflarını oluşturun ve sürdürün.
--   Ödeme talimatı sayfasında, ödeme talimatları oluşturun ve sürdürün.
+-   <span data-ttu-id="26527-159">Nakit iskontosu sayfasında, nakit iskontoları edinmek için şartları ayarlayın ve yönetin.</span><span class="sxs-lookup"><span data-stu-id="26527-159">On the Cash discounts page, set up and manage the terms for obtaining cash discounts.</span></span> <span data-ttu-id="26527-160">Nakit iskonto kodları satıcılara bağlıdır ve satınalma siparişlerine uygulanır.</span><span class="sxs-lookup"><span data-stu-id="26527-160">The cash discount codes are linked to vendors and are applied to purchase orders.</span></span>
+-   <span data-ttu-id="26527-161">Ödeme planları sayfasında, satıcılara yapılacak taksit ödemelerini yönetmek için kullanılan ödeme planlarını ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-161">On the Payment schedules page, set up the payment schedules that are used to manage installment payments to vendors.</span></span>
+-   <span data-ttu-id="26527-162">Ödeme günleri sayfasında, vade tarihlerini belirlemede kullanılacak ödeme günlerini tanımlayın ve ayın veya haftanın bir günlerini ödeme günleri olarak belirleyin.</span><span class="sxs-lookup"><span data-stu-id="26527-162">On the Payment days page, define the payment days that are used to calculate due dates, and specify payment days for a specific day of the week or month.</span></span>
+-   <span data-ttu-id="26527-163">Ödeme masrafları sayfasında, satıcılar ile ilişkili ödeme masraflarını oluşturun ve sürdürün.</span><span class="sxs-lookup"><span data-stu-id="26527-163">On the Payment fee page, create and maintain the payment fees that are associated with vendors.</span></span>
+-   <span data-ttu-id="26527-164">Ödeme talimatı sayfasında, ödeme talimatları oluşturun ve sürdürün.</span><span class="sxs-lookup"><span data-stu-id="26527-164">On the Payment instruction page, create and maintain payment instructions.</span></span>
 
-**İstatistikler**
+<span data-ttu-id="26527-165">**İstatistikler**</span><span class="sxs-lookup"><span data-stu-id="26527-165">**Statistics**</span></span>
 
--   Yaşlandırma dönemi tanımları sayfasında, satıcı hesaplarının vade dağılımını analiz etmede kullanılacak, kullanıcı tarafından tanımlanan aralıkları ayarlayın.
--   İş kolu sayfasında, satıcılara atanan iş kolu (LOB) kodlarını oluşturun.
+-   <span data-ttu-id="26527-166">Yaşlandırma dönemi tanımları sayfasında, satıcı hesaplarının vade dağılımını analiz etmede kullanılacak, kullanıcı tarafından tanımlanan aralıkları ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-166">On the Aging period definitions page, set up user-defined intervals that are used to analyze the maturity distribution of vendor accounts.</span></span>
+-   <span data-ttu-id="26527-167">İş kolu sayfasında, satıcılara atanan iş kolu (LOB) kodlarını oluşturun.</span><span class="sxs-lookup"><span data-stu-id="26527-167">On the Line of business page, create the line of business (LOB) codes that are assigned to vendors.</span></span>
 
-**Vergi 1099**
+<span data-ttu-id="26527-168">**Vergi 1099**</span><span class="sxs-lookup"><span data-stu-id="26527-168">**Tax 1099**</span></span>
 
--   **1099 alanları** sayfasında, en güncel gereksinimlerine göre ABD İç Gelir Servisi'ne (IRS) bildirilecek minimum tutarları onaylayın ve güncelleyin.
+-   <span data-ttu-id="26527-169">**1099 alanları** sayfasında, en güncel gereksinimlerine göre ABD İç Gelir Servisi'ne (IRS) bildirilecek minimum tutarları onaylayın ve güncelleyin.</span><span class="sxs-lookup"><span data-stu-id="26527-169">On the **1099 fields** page, verify and update the minimum amounts that must be reported to the Internal Revenue Service (IRS), based on the latest IRS requirements.</span></span>
 
-## <a name="optional-setup-for-other-modules"></a>**Diğer modüller için isteğe bağlı kurulum**
-**Kuruluş yönetimi**
+## <a name="optional-setup-for-other-modules"></a><span data-ttu-id="26527-170">**Diğer modüller için isteğe bağlı kurulum**</span><span class="sxs-lookup"><span data-stu-id="26527-170">**Optional setup for other modules**</span></span>
+<span data-ttu-id="26527-171">**Kuruluş yönetimi**</span><span class="sxs-lookup"><span data-stu-id="26527-171">**Organization administration**</span></span>
 
--   Numara serileri sayfasında, fatura numaraları için numara serisi grupları ayarlayın.
--   Aşağıdaki sayfalarda adres bilgilerini ayarlayın:
-    -   Adres kurulumu
-    -   NAF kodları
-    -   Posta kodlarını içe aktar
+-   <span data-ttu-id="26527-172">Numara serileri sayfasında, fatura numaraları için numara serisi grupları ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-172">On the Number sequences page, set up number sequence groups for invoice numbers.</span></span>
+-   <span data-ttu-id="26527-173">Aşağıdaki sayfalarda adres bilgilerini ayarlayın:</span><span class="sxs-lookup"><span data-stu-id="26527-173">On the following pages, set up address information:</span></span>
+    -   <span data-ttu-id="26527-174">Adres kurulumu</span><span class="sxs-lookup"><span data-stu-id="26527-174">Address setup</span></span>
+    -   <span data-ttu-id="26527-175">NAF kodları</span><span class="sxs-lookup"><span data-stu-id="26527-175">NAF codes</span></span>
+    -   <span data-ttu-id="26527-176">Posta kodlarını içe aktar</span><span class="sxs-lookup"><span data-stu-id="26527-176">Import ZIP/postal codes</span></span>
 
-**Genel muhasebe**
+<span data-ttu-id="26527-177">**Genel muhasebe**</span><span class="sxs-lookup"><span data-stu-id="26527-177">**General ledger**</span></span>
 
--   Finansal boyutlar sayfasında, finansal boyutları ayarlayın.
--   Aşağıdaki sayfalarda, vergi bilgilerini ayarlayın:
-    -   Satış vergisi kodları
-    -   Satış vergisi grupları
-    -   Madde satış vergisi grupları
-    -   Hesap grubu
-    -   Satış vergisi muafiyet kodları
-    -   Satış vergi daireleri
-    -   Satış vergisi makamları
-    -   Satış vergisi kapatma dönemleri
+-   <span data-ttu-id="26527-178">Finansal boyutlar sayfasında, finansal boyutları ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-178">On the Financial dimensions page, set up financial dimensions.</span></span>
+-   <span data-ttu-id="26527-179">Aşağıdaki sayfalarda, vergi bilgilerini ayarlayın:</span><span class="sxs-lookup"><span data-stu-id="26527-179">On the following pages, set up tax information:</span></span>
+    -   <span data-ttu-id="26527-180">Satış vergisi kodları</span><span class="sxs-lookup"><span data-stu-id="26527-180">Sales tax codes</span></span>
+    -   <span data-ttu-id="26527-181">Satış vergisi grupları</span><span class="sxs-lookup"><span data-stu-id="26527-181">Sales tax groups</span></span>
+    -   <span data-ttu-id="26527-182">Madde satış vergisi grupları</span><span class="sxs-lookup"><span data-stu-id="26527-182">Item sales tax groups</span></span>
+    -   <span data-ttu-id="26527-183">Hesap grubu</span><span class="sxs-lookup"><span data-stu-id="26527-183">Account group</span></span>
+    -   <span data-ttu-id="26527-184">Satış vergisi muafiyet kodları</span><span class="sxs-lookup"><span data-stu-id="26527-184">Sales tax exempt codes</span></span>
+    -   <span data-ttu-id="26527-185">Satış vergi daireleri</span><span class="sxs-lookup"><span data-stu-id="26527-185">Sales tax jurisdictions</span></span>
+    -   <span data-ttu-id="26527-186">Satış vergisi makamları</span><span class="sxs-lookup"><span data-stu-id="26527-186">Sales tax authorities</span></span>
+    -   <span data-ttu-id="26527-187">Satış vergisi kapatma dönemleri</span><span class="sxs-lookup"><span data-stu-id="26527-187">Sales tax settlement periods</span></span>
 
-**Nakit ve banka yönetimi**
+<span data-ttu-id="26527-188">**Nakit ve banka yönetimi**</span><span class="sxs-lookup"><span data-stu-id="26527-188">**Cash and bank management**</span></span>
 
--   Ödeme amaçları kodları sayfasında, Merkezi Banka amaç kodunu ayarlayın.
+-   <span data-ttu-id="26527-189">Ödeme amaçları kodları sayfasında, Merkezi Banka amaç kodunu ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="26527-189">On the Payment purpose codes page, set up the Central Bank purpose code.</span></span>
 
 
 

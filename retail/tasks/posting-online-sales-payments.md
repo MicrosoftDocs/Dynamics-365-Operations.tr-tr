@@ -17,29 +17,29 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 15196b9d651402a7530613ae218fabb7fb71b799
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e8c3f861a53a3f5c2de29248523ff4efd5e1d072
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="post-online-sales-and-payments"></a> Çevrimiçi satışları ve ödemeleri deftere nakletme
+# <a name="post-online-sales-and-payments"></a><span data-ttu-id="c49d8-103"> Çevrimiçi satışları ve ödemeleri deftere nakletme</span><span class="sxs-lookup"><span data-stu-id="c49d8-103">Post online sales and payments</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Bu yordam, çevrimiçi mağaza hareketleri için satış siparişleri ve ödemeler oluşturmak üzere yinelenen bir toplu işi yapılandırma ve çalıştırmayla ilgili açıklamalar içerir. Bu yordam USRT demo veri şirketini kullanır.
+<span data-ttu-id="c49d8-104">Bu yordam, çevrimiçi mağaza hareketleri için satış siparişleri ve ödemeler oluşturmak üzere yinelenen bir toplu işi yapılandırma ve çalıştırmayla ilgili açıklamalar içerir.</span><span class="sxs-lookup"><span data-stu-id="c49d8-104">This procedure walks through configuring and running a recurrent batch job to create sales orders and payments for online store transactions.</span></span> <span data-ttu-id="c49d8-105">Bu yordam USRT demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="c49d8-105">This procedure uses the USRT company in demo data.</span></span>
 
-1. All workspaces > Retail store financials (Tüm çalışma alanları > Perakende mağaza finansmanları) menüsüne gidin.
-2. Siparişleri eşitle'ye tıklayın.
-3. Kuruluş hiyerarşisi alanında 'Bölgeye göre Perakende Mağazalar'ı seçin.
-    * Belirli bir çevrimiçi mağaza seçin veya mağaza grubu için toplu iş oluşturmak istiyorsanız bir düğüm belirtin.  
-    * Seçiminizi eklemek için oka tıklayın.  
-4. Arka planda çalıştır sekmesine tıklayın.
-5. Toplu işlem onay kutusunu işaretleyin veya işaretini kaldırın.
-6. Yineleme'ye tıklayın.
-7. Bitiş tarihi yok seçeneğini seçin.
-8. Sayım alanına bir sayı girin.
-9. Tamam'a tıklayın.
-10. Tamam'a tıklayın.
+1. <span data-ttu-id="c49d8-106">All workspaces > Retail store financials (Tüm çalışma alanları > Perakende mağaza finansmanları) menüsüne gidin.</span><span class="sxs-lookup"><span data-stu-id="c49d8-106">Go to All workspaces > Retail store financials.</span></span>
+2. <span data-ttu-id="c49d8-107">Siparişleri eşitle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c49d8-107">Click Synchronize orders.</span></span>
+3. <span data-ttu-id="c49d8-108">Kuruluş hiyerarşisi alanında 'Bölgeye göre Perakende Mağazalar'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="c49d8-108">In the Organization hierarchy field, select 'Retail Stores by Region'.</span></span>
+    * <span data-ttu-id="c49d8-109">Belirli bir çevrimiçi mağaza seçin veya mağaza grubu için toplu iş oluşturmak istiyorsanız bir düğüm belirtin.</span><span class="sxs-lookup"><span data-stu-id="c49d8-109">Select either a specific online store, or select a node if you want to create the batch job for a group of stores.</span></span>  
+    * <span data-ttu-id="c49d8-110">Seçiminizi eklemek için oka tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c49d8-110">Click the arrow to add your selection.</span></span>  
+4. <span data-ttu-id="c49d8-111">Arka planda çalıştır sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c49d8-111">Click the Run in the background tab.</span></span>
+5. <span data-ttu-id="c49d8-112">Toplu işlem onay kutusunu işaretleyin veya işaretini kaldırın.</span><span class="sxs-lookup"><span data-stu-id="c49d8-112">Check or uncheck the Batch processing checkbox.</span></span>
+6. <span data-ttu-id="c49d8-113">Yineleme'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c49d8-113">Click Recurrence.</span></span>
+7. <span data-ttu-id="c49d8-114">Bitiş tarihi yok seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="c49d8-114">Select the No end date option.</span></span>
+8. <span data-ttu-id="c49d8-115">Sayım alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="c49d8-115">In the Count field, enter a number.</span></span>
+9. <span data-ttu-id="c49d8-116">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c49d8-116">Click OK.</span></span>
+10. <span data-ttu-id="c49d8-117">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c49d8-117">Click OK.</span></span>
 
 

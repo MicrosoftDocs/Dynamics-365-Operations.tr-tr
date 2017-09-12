@@ -19,15 +19,15 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 093047d43a39fa723eb99e3daf34cf33fa81a099
+ms.sourcegitcommit: 55cb0f20dbd671e39d0f409a87cec93efd9ce4d6
+ms.openlocfilehash: bab0f6ca21f4216b70cccf24f5781e0dbf48b7f8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 
-# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Satış vergisi kodları için tüm tutar ve Aralık hesaplaması seçenekleri
+# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a><span data-ttu-id="8c879-103">Satış vergisi kodları için tüm tutar ve Aralık hesaplaması seçenekleri</span><span class="sxs-lookup"><span data-stu-id="8c879-103">Whole amount and Interval calculation options for sales tax codes</span></span>
 
 [!include[banner](../includes/banner.md)]
 
@@ -35,61 +35,61 @@ ms.lasthandoff: 05/25/2017
 
 
 
-Bu makalede satış vergisi kodları için Hesaplama yöntemi alanının seçenekleri ve satış vergisinin aralıklar ve tüm tutarlar için nasıl hesaplanacağı açıklanmıştır.
+<span data-ttu-id="8c879-104">Bu makalede satış vergisi kodları için Hesaplama yöntemi alanının seçenekleri ve satış vergisinin aralıklar ve tüm tutarlar için nasıl hesaplanacağı açıklanmıştır.</span><span class="sxs-lookup"><span data-stu-id="8c879-104">This article explains the options for the Calculation method field on sales tax codes and how sales tax is calculated for intervals and whole amounts.</span></span>
 
-Tam tutar veya bir aralık tutarına dayalı olarak hesaplanacak bir satış vergisi kodu ayarlayabilirsiniz. Satış vergisi kodları sayfasında, Hesaplama FastTab'indeki Hesaplama yöntemi alanını kullanarak satış vergisi kodunun nasıl hesaplanacağını seçin.
--   Tüm tutar – Vergi oranı tüm vergilendirilebilir tutara uygulanır.
--   Aralık – Vergilendirilebilir tutar, her biri belirli bir satış vergisi oranına sahip bir aralıkta yer alan parçalara bölünür. Belirli bir aralıkta yer alan tutarın parçası söz konusu aralığa ait vergi oranına göre vergilendirilir. Satış vergisi her tutar aralığı için hesaplanan vergi tutarlarının toplamıdır.
+<span data-ttu-id="8c879-105">Tam tutar veya bir aralık tutarına dayalı olarak hesaplanacak bir satış vergisi kodu ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="8c879-105">You can set up a sales tax code to be calculated based on a whole amount or an interval amount.</span></span> <span data-ttu-id="8c879-106">Satış vergisi kodları sayfasında, Hesaplama FastTab'indeki Hesaplama yöntemi alanını kullanarak satış vergisi kodunun nasıl hesaplanacağını seçin.</span><span class="sxs-lookup"><span data-stu-id="8c879-106">In the Sales tax codes page, use the Calculation method field on the Calculation FastTab to select how to calculate a sales tax code.</span></span>
+-   <span data-ttu-id="8c879-107">Tüm tutar – Vergi oranı tüm vergilendirilebilir tutara uygulanır.</span><span class="sxs-lookup"><span data-stu-id="8c879-107">Whole amount – The tax rate is applied to the whole taxable amount.</span></span>
+-   <span data-ttu-id="8c879-108">Aralık – Vergilendirilebilir tutar, her biri belirli bir satış vergisi oranına sahip bir aralıkta yer alan parçalara bölünür.</span><span class="sxs-lookup"><span data-stu-id="8c879-108">Interval – The taxable amount is divided into parts, each of which falls in a range that has a specific sales tax rate.</span></span> <span data-ttu-id="8c879-109">Belirli bir aralıkta yer alan tutarın parçası söz konusu aralığa ait vergi oranına göre vergilendirilir.</span><span class="sxs-lookup"><span data-stu-id="8c879-109">The part of the amount that falls in a given interval is taxed according to the tax rate for that interval.</span></span> <span data-ttu-id="8c879-110">Satış vergisi her tutar aralığı için hesaplanan vergi tutarlarının toplamıdır.</span><span class="sxs-lookup"><span data-stu-id="8c879-110">The sales tax is the sum of the tax amounts that are calculated for each amount interval.</span></span>
 > [!NOTE]                                                                                                                              
-> Aralık seçeneği, yalnızca Genel muhasebe parametreleri sayfasındaki Satış vergisi alanında Hesaplama yöntemi alanında Satır'ı seçtiğinizde kullanılabilir. 
+> <span data-ttu-id="8c879-111">Aralık seçeneği, yalnızca Genel muhasebe parametreleri sayfasındaki Satış vergisi alanında Hesaplama yöntemi alanında Satır'ı seçtiğinizde kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="8c879-111">The Interval option is available only when you select Line in the Calculation method field in the Sales tax area of the General ledger parameters page.</span></span> 
 
-Aralıklar, Satış vergisi kodu değerlerinde vergi oranı başına Minimum ve Maksimum sınır miktarlarını girerek ayarlanır. Seçilen hesaplama yönteminden bağımsız olarak, tüm vergilendirilebilir tutarlarda hesaplanacak vergiler için aralıkların aşağıdaki kurallara uygun olması gerekir:
--   İlk aralık sıfır şeklinde bir Minimum sınıra sahip olmalıdır.
--   Son aralıkta, sonsuzluğu belirtecek şekilde sıfır değerinde bir Maksimum sınır olması gerekir.
--   Bir aralığın Maksimum sınırı sonraki aralığın Minimum sınırı olmalıdır.
+<span data-ttu-id="8c879-112">Aralıklar, Satış vergisi kodu değerlerinde vergi oranı başına Minimum ve Maksimum sınır miktarlarını girerek ayarlanır.</span><span class="sxs-lookup"><span data-stu-id="8c879-112">Intervals are set up in the Sales tax code values page by entering Minimum and Maximum limit amounts per tax rate.</span></span> <span data-ttu-id="8c879-113">Seçilen hesaplama yönteminden bağımsız olarak, tüm vergilendirilebilir tutarlarda hesaplanacak vergiler için aralıkların aşağıdaki kurallara uygun olması gerekir:</span><span class="sxs-lookup"><span data-stu-id="8c879-113">For taxes to be calculated on all taxable amounts, regardless of which calculation method is selected, intervals must follow these rules:</span></span>
+-   <span data-ttu-id="8c879-114">İlk aralık sıfır şeklinde bir Minimum sınıra sahip olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="8c879-114">The first interval must have a Minimum limit of zero.</span></span>
+-   <span data-ttu-id="8c879-115">Son aralıkta, sonsuzluğu belirtecek şekilde sıfır değerinde bir Maksimum sınır olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="8c879-115">The last interval must have a Maximum limit of zero, which indicates infinity.</span></span>
+-   <span data-ttu-id="8c879-116">Bir aralığın Maksimum sınırı sonraki aralığın Minimum sınırı olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="8c879-116">The Maximum limit of an interval must be the Minimum limit of the next interval.</span></span>
 
-Bir tutarın önceki bir aralığın Maksimum sınırı ve sonraki aralığın Minimum sınırı olması durumunda, birinci aralığın satış vergisi oranı tutar için geçerli olacaktır. Bir tutarın üst ve alt limitlerle tanımlanan aralıkların dışında kalması durumunda, sıfıra karşılık gelen bir satış vergisi oranı uygulanır.
+<span data-ttu-id="8c879-117">Bir tutarın önceki bir aralığın Maksimum sınırı ve sonraki aralığın Minimum sınırı olması durumunda, birinci aralığın satış vergisi oranı tutar için geçerli olacaktır.</span><span class="sxs-lookup"><span data-stu-id="8c879-117">If an amount is the Maximum limit of the previous interval and the Minimum limit of the next interval, the sales tax rate of the first interval will be applied to the amount.</span></span> <span data-ttu-id="8c879-118">Bir tutarın üst ve alt limitlerle tanımlanan aralıkların dışında kalması durumunda, sıfıra karşılık gelen bir satış vergisi oranı uygulanır.</span><span class="sxs-lookup"><span data-stu-id="8c879-118">If an amount falls outside the intervals that are defined by upper and lower limits, a sales tax rate of zero will be applied.</span></span>
 
-## <a name="example-whole-amount-method-of-calculation"></a>Örnek: Tüm tutar hesaplama yöntemi
-Satış vergisi kod değerleri sayfasında, satış vergisi oranları aşağıdaki aralıklarda ayarlanır:
+## <a name="example-whole-amount-method-of-calculation"></a><span data-ttu-id="8c879-119">Örnek: Tüm tutar hesaplama yöntemi</span><span class="sxs-lookup"><span data-stu-id="8c879-119">Example: Whole amount method of calculation</span></span>
+<span data-ttu-id="8c879-120">Satış vergisi kod değerleri sayfasında, satış vergisi oranları aşağıdaki aralıklarda ayarlanır:</span><span class="sxs-lookup"><span data-stu-id="8c879-120">In the Sales tax code values page, sales tax rates are set up in the following intervals:</span></span>
 |                   |                   |              |
 |-------------------|-------------------|--------------|
-| **Minimum sınır** | **Maksimum sınır** | **Vergi oranı** |
-| 0,00              | 50,00             | %30          |
-| 50,00             | 100,00            | %20          |
-| 100,00            | 0,00              | %10          |
+| <span data-ttu-id="8c879-121">**Minimum sınır**</span><span class="sxs-lookup"><span data-stu-id="8c879-121">**Minimum limit**</span></span> | <span data-ttu-id="8c879-122">**Maksimum sınır**</span><span class="sxs-lookup"><span data-stu-id="8c879-122">**Maximum limit**</span></span> | <span data-ttu-id="8c879-123">**Vergi oranı**</span><span class="sxs-lookup"><span data-stu-id="8c879-123">**Tax rate**</span></span> |
+| <span data-ttu-id="8c879-124">0,00</span><span class="sxs-lookup"><span data-stu-id="8c879-124">0.00</span></span>              | <span data-ttu-id="8c879-125">50,00</span><span class="sxs-lookup"><span data-stu-id="8c879-125">50.00</span></span>             | <span data-ttu-id="8c879-126">%30</span><span class="sxs-lookup"><span data-stu-id="8c879-126">30%</span></span>          |
+| <span data-ttu-id="8c879-127">50,00</span><span class="sxs-lookup"><span data-stu-id="8c879-127">50.00</span></span>             | <span data-ttu-id="8c879-128">100,00</span><span class="sxs-lookup"><span data-stu-id="8c879-128">100.00</span></span>            | <span data-ttu-id="8c879-129">%20</span><span class="sxs-lookup"><span data-stu-id="8c879-129">20%</span></span>          |
+| <span data-ttu-id="8c879-130">100,00</span><span class="sxs-lookup"><span data-stu-id="8c879-130">100.00</span></span>            | <span data-ttu-id="8c879-131">0,00</span><span class="sxs-lookup"><span data-stu-id="8c879-131">0.00</span></span>              | <span data-ttu-id="8c879-132">%10</span><span class="sxs-lookup"><span data-stu-id="8c879-132">10%</span></span>          |
 
-Satış vergisi, vergiye tabi tüm tutar üzerinde hesaplanır.
+<span data-ttu-id="8c879-133">Satış vergisi, vergiye tabi tüm tutar üzerinde hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="8c879-133">The sales tax is calculated on the whole taxable amount.</span></span>
 
-| Vergiye tabi tutar (fiyat) | Hesaplama    | Satış vergisi |
+| <span data-ttu-id="8c879-134">Vergiye tabi tutar (fiyat)</span><span class="sxs-lookup"><span data-stu-id="8c879-134">Taxable amount (price)</span></span> | <span data-ttu-id="8c879-135">Hesaplama</span><span class="sxs-lookup"><span data-stu-id="8c879-135">Calculation</span></span>    | <span data-ttu-id="8c879-136">Satış vergisi</span><span class="sxs-lookup"><span data-stu-id="8c879-136">Sales tax</span></span> |
 |------------------------|----------------|-----------|
-| 35,00                  | 35,00 \* 0,30  | 10,50     |
-| 50,00                  | 50,00 \* 0,30  | 15,00     |
-| 85,00                  | 85,00 \* 0,20  | 17,00     |
-| 305,00                 | 305,00 \* 0,10 | 30,50     |
+| <span data-ttu-id="8c879-137">35,00</span><span class="sxs-lookup"><span data-stu-id="8c879-137">35.00</span></span>                  | <span data-ttu-id="8c879-138">35,00 \* 0,30</span><span class="sxs-lookup"><span data-stu-id="8c879-138">35.00 \* 0.30</span></span>  | <span data-ttu-id="8c879-139">10,50</span><span class="sxs-lookup"><span data-stu-id="8c879-139">10.50</span></span>     |
+| <span data-ttu-id="8c879-140">50,00</span><span class="sxs-lookup"><span data-stu-id="8c879-140">50.00</span></span>                  | <span data-ttu-id="8c879-141">50,00 \* 0,30</span><span class="sxs-lookup"><span data-stu-id="8c879-141">50.00 \* 0.30</span></span>  | <span data-ttu-id="8c879-142">15,00</span><span class="sxs-lookup"><span data-stu-id="8c879-142">15.00</span></span>     |
+| <span data-ttu-id="8c879-143">85,00</span><span class="sxs-lookup"><span data-stu-id="8c879-143">85.00</span></span>                  | <span data-ttu-id="8c879-144">85,00 \* 0,20</span><span class="sxs-lookup"><span data-stu-id="8c879-144">85.00 \* 0.20</span></span>  | <span data-ttu-id="8c879-145">17,00</span><span class="sxs-lookup"><span data-stu-id="8c879-145">17.00</span></span>     |
+| <span data-ttu-id="8c879-146">305,00</span><span class="sxs-lookup"><span data-stu-id="8c879-146">305.00</span></span>                 | <span data-ttu-id="8c879-147">305,00 \* 0,10</span><span class="sxs-lookup"><span data-stu-id="8c879-147">305.00 \* 0.10</span></span> | <span data-ttu-id="8c879-148">30,50</span><span class="sxs-lookup"><span data-stu-id="8c879-148">30.50</span></span>     |
 
-## <a name="example-interval-method-of-calculation"></a> Örnek: Aralık hesaplama yöntemi
-Değerler sayfasında, satış vergisi oranları aşağıdaki aralıklarda belirlenir:
+## <a name="example-interval-method-of-calculation"></a><span data-ttu-id="8c879-149"> Örnek: Aralık hesaplama yöntemi</span><span class="sxs-lookup"><span data-stu-id="8c879-149">Example: Interval method of calculation</span></span>
+<span data-ttu-id="8c879-150">Değerler sayfasında, satış vergisi oranları aşağıdaki aralıklarda belirlenir:</span><span class="sxs-lookup"><span data-stu-id="8c879-150">In the Values page, sales tax rates are set up in the following intervals:</span></span>
 
 |                   |                   |              |
 |-------------------|-------------------|--------------|
-| **Minimum sınır** | **Maksimum sınır** | **Vergi oranı** |
-| 0,00              | 50,00             | %30          |
-| 50,00             | 100,00            | %20          |
-| 100,00            | 0,00              | %10          |
+| <span data-ttu-id="8c879-151">**Minimum sınır**</span><span class="sxs-lookup"><span data-stu-id="8c879-151">**Minimum limit**</span></span> | <span data-ttu-id="8c879-152">**Maksimum sınır**</span><span class="sxs-lookup"><span data-stu-id="8c879-152">**Maximum limit**</span></span> | <span data-ttu-id="8c879-153">**Vergi oranı**</span><span class="sxs-lookup"><span data-stu-id="8c879-153">**Tax rate**</span></span> |
+| <span data-ttu-id="8c879-154">0,00</span><span class="sxs-lookup"><span data-stu-id="8c879-154">0.00</span></span>              | <span data-ttu-id="8c879-155">50,00</span><span class="sxs-lookup"><span data-stu-id="8c879-155">50.00</span></span>             | <span data-ttu-id="8c879-156">%30</span><span class="sxs-lookup"><span data-stu-id="8c879-156">30%</span></span>          |
+| <span data-ttu-id="8c879-157">50,00</span><span class="sxs-lookup"><span data-stu-id="8c879-157">50.00</span></span>             | <span data-ttu-id="8c879-158">100,00</span><span class="sxs-lookup"><span data-stu-id="8c879-158">100.00</span></span>            | <span data-ttu-id="8c879-159">%20</span><span class="sxs-lookup"><span data-stu-id="8c879-159">20%</span></span>          |
+| <span data-ttu-id="8c879-160">100,00</span><span class="sxs-lookup"><span data-stu-id="8c879-160">100.00</span></span>            | <span data-ttu-id="8c879-161">0,00</span><span class="sxs-lookup"><span data-stu-id="8c879-161">0.00</span></span>              | <span data-ttu-id="8c879-162">%10</span><span class="sxs-lookup"><span data-stu-id="8c879-162">10%</span></span>          |
 
-Satış vergisi her tutar aralığı için hesaplanan vergi tutarlarının toplamıdır.
+<span data-ttu-id="8c879-163">Satış vergisi her tutar aralığı için hesaplanan vergi tutarlarının toplamıdır.</span><span class="sxs-lookup"><span data-stu-id="8c879-163">The sales tax is the sum of the tax amounts that are calculated for each amount interval.</span></span>
 
-| Vergiye tabi tutar (fiyat) | Hesaplama                                                               | Satış vergisi |
+| <span data-ttu-id="8c879-164">Vergiye tabi tutar (fiyat)</span><span class="sxs-lookup"><span data-stu-id="8c879-164">Taxable amount (price)</span></span> | <span data-ttu-id="8c879-165">Hesaplama</span><span class="sxs-lookup"><span data-stu-id="8c879-165">Calculation</span></span>                                                               | <span data-ttu-id="8c879-166">Satış vergisi</span><span class="sxs-lookup"><span data-stu-id="8c879-166">Sales tax</span></span> |
 |------------------------|---------------------------------------------------------------------------|-----------|
-| 35,00                  | 35,00 \* 0,30                                                             | 10,50     |
-| 50,00                  | 50,00 \* 0,30                                                             | 15,00     |
-| 85,00                  | (50,00 \* 0,30 = 15,00) + (35,00 \* 0,20 = 7,00)                          | 22,00     |
-| 305,00                 | (50,00 \* 0,30 = 15,00) + (50,00 \* 0,20 = 10,00) + (205 \* 0,10 = 20,50) | 45,50     |
+| <span data-ttu-id="8c879-167">35,00</span><span class="sxs-lookup"><span data-stu-id="8c879-167">35.00</span></span>                  | <span data-ttu-id="8c879-168">35,00 \* 0,30</span><span class="sxs-lookup"><span data-stu-id="8c879-168">35.00 \* 0.30</span></span>                                                             | <span data-ttu-id="8c879-169">10,50</span><span class="sxs-lookup"><span data-stu-id="8c879-169">10.50</span></span>     |
+| <span data-ttu-id="8c879-170">50,00</span><span class="sxs-lookup"><span data-stu-id="8c879-170">50.00</span></span>                  | <span data-ttu-id="8c879-171">50,00 \* 0,30</span><span class="sxs-lookup"><span data-stu-id="8c879-171">50.00 \* 0.30</span></span>                                                             | <span data-ttu-id="8c879-172">15,00</span><span class="sxs-lookup"><span data-stu-id="8c879-172">15.00</span></span>     |
+| <span data-ttu-id="8c879-173">85,00</span><span class="sxs-lookup"><span data-stu-id="8c879-173">85.00</span></span>                  | <span data-ttu-id="8c879-174">(50,00 \* 0,30 = 15,00) + (35,00 \* 0,20 = 7,00)</span><span class="sxs-lookup"><span data-stu-id="8c879-174">(50.00 \* 0.30 = 15.00) + (35.00 \* 0.20 = 7.00)</span></span>                          | <span data-ttu-id="8c879-175">22,00</span><span class="sxs-lookup"><span data-stu-id="8c879-175">22.00</span></span>     |
+| <span data-ttu-id="8c879-176">305,00</span><span class="sxs-lookup"><span data-stu-id="8c879-176">305.00</span></span>                 | <span data-ttu-id="8c879-177">(50,00 \* 0,30 = 15,00) + (50,00 \* 0,20 = 10,00) + (205 \* 0,10 = 20,50)</span><span class="sxs-lookup"><span data-stu-id="8c879-177">(50.00 \* 0.30 = 15.00) + (50.00 \* 0.20 = 10.00) + (205 \* 0.10 = 20.50)</span></span> | <span data-ttu-id="8c879-178">45,50</span><span class="sxs-lookup"><span data-stu-id="8c879-178">45.50</span></span>     |
 
  
 
-Daha fazla bilgi için bkz. [Marjinal taban ve hesaplama yöntemi alanları temel alınarak satış vergisi oranlarını belirleme](marginal-base-field.md).
+<span data-ttu-id="8c879-179">Daha fazla bilgi için bkz. [Marjinal taban ve hesaplama yöntemi alanları temel alınarak satış vergisi oranlarını belirleme](marginal-base-field.md).</span><span class="sxs-lookup"><span data-stu-id="8c879-179">For more information, see [Determining sale tax rates based on the Marginal base and Calculation method fields](marginal-base-field.md).</span></span>
 
 
 

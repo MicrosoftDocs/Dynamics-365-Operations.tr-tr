@@ -16,36 +16,36 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 2ab30f4326b627406f9a39d6c3203b181b67d68f
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 754f28cd2831d8a9a57c408518d240de460b732b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-segregation-of-duties"></a>Görev ayrımını ayarlamak
+# <a name="set-up-segregation-of-duties"></a><span data-ttu-id="0920b-103">Görev ayrımını ayarlamak</span><span class="sxs-lookup"><span data-stu-id="0920b-103">Set up segregation of duties</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Farklı kullanıcılar tarafından gerçekleştirilmesi gereken görevleri ayırmak için kurallar ayarlayabilirsiniz. Bu kavram, görev ayrımı adını taşır. Örneğin, malların giriş kabul etmek ve satıcının ödemesini işlemek için aynı kişi istemeyebilirsiniz. Görevlerin ayrılması dolandırıcılık riskini azaltır, hataları ve düzensizlikleri tespit etmenizi kolaylaştırır. Görev ayrımlarını ayrıca dahili denetim kurallarının uygulanması için de kullanabilirsiniz. Bir kural yaratmak için aşağıdaki yordamı takip edin. Bu yordamı tamamlamak için sistem yöneticisi olmanız gerekir. Bu yöntemi oluşturmak için kullanılan demo verisi şirketi DAT'dir. 
+<span data-ttu-id="0920b-104">Farklı kullanıcılar tarafından gerçekleştirilmesi gereken görevleri ayırmak için kurallar ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0920b-104">You can set up rules to separate tasks that must be performed by different users.</span></span> <span data-ttu-id="0920b-105">Bu kavram, görev ayrımı adını taşır.</span><span class="sxs-lookup"><span data-stu-id="0920b-105">This concept is named segregation of duties.</span></span> <span data-ttu-id="0920b-106">Örneğin, malların giriş kabul etmek ve satıcının ödemesini işlemek için aynı kişi istemeyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0920b-106">For example, you might not want the same person both to acknowledge the receipt of goods and to process payment to the vendor.</span></span> <span data-ttu-id="0920b-107">Görevlerin ayrılması dolandırıcılık riskini azaltır, hataları ve düzensizlikleri tespit etmenizi kolaylaştırır.</span><span class="sxs-lookup"><span data-stu-id="0920b-107">Segregation of duties helps you reduce the risk of fraud, and it also helps you detect errors or irregularities.</span></span> <span data-ttu-id="0920b-108">Görev ayrımlarını ayrıca dahili denetim kurallarının uygulanması için de kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0920b-108">You can also use segregation of duties to enforce internal control policies.</span></span> <span data-ttu-id="0920b-109">Bir kural yaratmak için aşağıdaki yordamı takip edin.</span><span class="sxs-lookup"><span data-stu-id="0920b-109">Complete the following procedure to create a rule.</span></span> <span data-ttu-id="0920b-110">Bu yordamı tamamlamak için sistem yöneticisi olmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="0920b-110">You must be a system administrator to complete the procedure.</span></span> <span data-ttu-id="0920b-111">Bu yöntemi oluşturmak için kullanılan demo verisi şirketi DAT'dir.</span><span class="sxs-lookup"><span data-stu-id="0920b-111">The demo data company used to create this procedure is DAT.</span></span> 
 
-1. Sistem Yönetimi > Güvenlik > Görev ayrımı > Görev ayrımı kuralları seçeneğine gidin.
-2. Yeni'ye tıklayın.
-3. İsim alanına bir değer yazın.
-    * Kural için bir isim girin.  
-4. Birinci görev alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-5. Listede, istenen kaydı bulun ve seçin.
-    * Kural tarafından denetlenen ilk görevi seçin.  
-6. Listede, seçili satırdaki bağlantıya tıklayın.
-7. İkinci görev alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-8. Listede, istenen kaydı bulun ve seçin.
-    * Kural tarafından denetlenen ikinci görevi seçin.  
-9. Listede, seçili satırdaki bağlantıya tıklayın.
-10. Önem alanında, bir seçenek seçin.
-    * Aynı kullanıcının veya rolün her iki görevi de gerçekleştirdiğinde oluşacak riskin önemini seçin.  
-11. Güvenlik riski alanına bir değer yazın.
-    * Güvenlik riski için bir açıklama girin.  
-12. Risk azaltma alanına bir değer yazın.
-    * Güvenlik riskini ortadan kaldırmak için yapılacaklar eylemler için bir açıklama girin. Örneğin, işlemi daha ayrıntılı inceleyerek, aylık yönetim incelemesi yapılmasını veya kaynakların diğer departmanlarla paylaşılmasını sağlayarak riski azaltabilirsiniz.  
-13. Kaydet'e tıklayın.
+1. <span data-ttu-id="0920b-112">Sistem Yönetimi > Güvenlik > Görev ayrımı > Görev ayrımı kuralları seçeneğine gidin.</span><span class="sxs-lookup"><span data-stu-id="0920b-112">Go to System administration > Security > Segregation of duties > Segregation of duties rules.</span></span>
+2. <span data-ttu-id="0920b-113">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0920b-113">Click New.</span></span>
+3. <span data-ttu-id="0920b-114">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="0920b-114">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="0920b-115">Kural için bir isim girin.</span><span class="sxs-lookup"><span data-stu-id="0920b-115">Enter a name for the rule.</span></span>  
+4. <span data-ttu-id="0920b-116">Birinci görev alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0920b-116">In the First duty field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="0920b-117">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="0920b-117">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="0920b-118">Kural tarafından denetlenen ilk görevi seçin.</span><span class="sxs-lookup"><span data-stu-id="0920b-118">Select the first duty that is controlled by the rule.</span></span>  
+6. <span data-ttu-id="0920b-119">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0920b-119">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="0920b-120">İkinci görev alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0920b-120">In the Second duty field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="0920b-121">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="0920b-121">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="0920b-122">Kural tarafından denetlenen ikinci görevi seçin.</span><span class="sxs-lookup"><span data-stu-id="0920b-122">Select the second duty that is controlled by the rule.</span></span>  
+9. <span data-ttu-id="0920b-123">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0920b-123">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="0920b-124">Önem alanında, bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="0920b-124">In the Severity field, select an option.</span></span>
+    * <span data-ttu-id="0920b-125">Aynı kullanıcının veya rolün her iki görevi de gerçekleştirdiğinde oluşacak riskin önemini seçin.</span><span class="sxs-lookup"><span data-stu-id="0920b-125">Select the severity of the risk that occurs when the same user or role performs both duties.</span></span>  
+11. <span data-ttu-id="0920b-126">Güvenlik riski alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="0920b-126">In the Security risk field, type a value.</span></span>
+    * <span data-ttu-id="0920b-127">Güvenlik riski için bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="0920b-127">Enter a description of the security risk.</span></span>  
+12. <span data-ttu-id="0920b-128">Risk azaltma alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="0920b-128">In the Security mitigation field, type a value.</span></span>
+    * <span data-ttu-id="0920b-129">Güvenlik riskini ortadan kaldırmak için yapılacaklar eylemler için bir açıklama girin.</span><span class="sxs-lookup"><span data-stu-id="0920b-129">Enter a description of the actions that you take to mitigate the security risk.</span></span> <span data-ttu-id="0920b-130">Örneğin, işlemi daha ayrıntılı inceleyerek, aylık yönetim incelemesi yapılmasını veya kaynakların diğer departmanlarla paylaşılmasını sağlayarak riski azaltabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0920b-130">For example, you can mitigate the risk by conducting more detailed reviews of the process, by conducting a monthly managerial review, or by sharing resources with other departments.</span></span>  
+13. <span data-ttu-id="0920b-131">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0920b-131">Click Save.</span></span>
 
 

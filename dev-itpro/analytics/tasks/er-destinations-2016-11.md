@@ -16,48 +16,48 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 88927a220246d11e48b210eb5648d7e7c2a7cef8
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1187448393e4905ed5f2dfe826ec843fdcf0cb67
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-destinations-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için hedefleri yapılandırma
+# <a name="configure-destinations-for-electronic-reporting-er"></a><span data-ttu-id="ae400-103">Elektronik raporlama (ER) için hedefleri yapılandırma</span><span class="sxs-lookup"><span data-stu-id="ae400-103">Configure destinations for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordamda bir klasör veya bir dosya gibi Elektronik raporlama (ER) çıkış bileşenleri için farklı hedeflerin nasıl ayarlanacağı ve kullanılacağı gösterilmiştir. Bu yordamı oluşturmak için kullanılan demo veri şirketi DEMF'dir. Almanya, tüzel kişiliğin ana adresinin bulunduğu ülke\bölgedir, ancak bu yordam için herhangi bir tüzel kişilik kullanabilirsiniz. 
+<span data-ttu-id="ae400-104">Bu yordamda bir klasör veya bir dosya gibi Elektronik raporlama (ER) çıkış bileşenleri için farklı hedeflerin nasıl ayarlanacağı ve kullanılacağı gösterilmiştir.</span><span class="sxs-lookup"><span data-stu-id="ae400-104">This procedure demonstrates how to set up and use different destinations for Electronic reporting (ER) output components, such as a folder or a file.</span></span> <span data-ttu-id="ae400-105">Bu yordamı oluşturmak için kullanılan demo veri şirketi DEMF'dir.</span><span class="sxs-lookup"><span data-stu-id="ae400-105">The demo data company used to create this procedure is DEMF.</span></span> <span data-ttu-id="ae400-106">Almanya, tüzel kişiliğin ana adresinin bulunduğu ülke\bölgedir, ancak bu yordam için herhangi bir tüzel kişilik kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ae400-106">Germany is the country\region of the legal entity’s primary address, however you can use any legal entity for this procedure.</span></span> 
 
-Bu örnekte kullanılan biçim, ISO20022 Borç transferidir ancak daha önce içe aktardığınız herhangi bir formatı kullanabilirsiniz. Bu yordamın bir tekli dosya ve tek bir hedef kurulumuna örnek olduğuna dikkat edin. Elektronik raporlama hedef yönetimi hakkında daha fazla bilgiyi Dynamics 365 for Finance and Operations Help Wiki altında bulabilirsiniz.
+<span data-ttu-id="ae400-107">Bu örnekte kullanılan biçim, ISO20022 Borç transferidir ancak daha önce içe aktardığınız herhangi bir formatı kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ae400-107">The format used in this example is ISO20022 Credit transfer, but you can use any format that you have already imported.</span></span> <span data-ttu-id="ae400-108">Bu yordamın bir tekli dosya ve tek bir hedef kurulumuna örnek olduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="ae400-108">Note, this procedure is an example of a single file and a single destination setup.</span></span> <span data-ttu-id="ae400-109">Elektronik raporlama hedef yönetimi hakkında daha fazla bilgiyi Dynamics 365 for Finance and Operations Help Wiki altında bulabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ae400-109">More information about Electronic reporting destination management can be found in the Dynamics 365 for Finance and Operations Help.</span></span>
 
-1. Sırasıyla Organizasyon yönetimi > Elektronik raporlama > Elektronik raporlama hedefi seçimlerini yapın.
-2. Bir format için yeni bir hedef kümesi oluşturmak için Yeni düğmesini tıklayın.
-3. Başvuru alanında hedefleri yapılandırmak istediğiniz bir format seçin.
-    * Seçilebilecek bir değer bulunmuyorsa, herhangi bir Elektronik raporlama formatı yapılandırmasını içeri aktarmamışsınızdır. Hedefleri ayarlamadan önce bir format yapılandırmasını içe aktarmanız gerekir.  
-4. Yeni bir dosya hedefi oluşturmak için Yeni düğmesine tıklayın.
-    * Klasör veya dosya gibi aynı formattaki her bir çıkış bileşeni için bir dosya hedefi oluşturabileceğinizi dikkate alın. Hedefleri ayarlardan ayrı olarak etkinleştirebilir ve devre dışı bırakılabilirsiniz.  
-5. Ad alanında, çıkış bileşeni için anlaşılması kolay bir ad girin.
-    * "Ödeme dosyası" veya "Denetim raporu" gibi anlamlı adlar kullanmanızı öneririz. Bu adlar, hedef ayarlarının yanı sıra yapılandırma çalışma süresince kullanıcılara gösterilecektir.  
-6. Dosya adında, formata özel bir dosya veya klasör seçin.
-7. Ayarlar öğesini tıklayın.
-8. Etkinleştirilen alanından 'Evet'i seçin.
-    * Her bir sekmedeki Etkin onay kutusu, her bir hedefi ayrı olarak etkinleştirir ve devre dışı bırakır. Bu örnekte, dosya oluşturulduğunda bir posta alıcısına bir çıkış dosyası gönderilmesini etkinleştireceksiniz.  
-9. E-posta alıcılarını ayarlamak için Düzenle'ye tıklayın.
-10. Ekle öğesini tıklatın.
-11. Yazdırma Yönetimi e-postası'na tıklayın.
-12. E-posta kaynağı alanından bir seçeneği belirleyin.
-    * Müşteri veya satıcı türü gibi farklı e-posta kaynağı türleri seçebilirsiniz. Bu da E-posta kaynak hesap formülü tarafından oluşturulan bağımsız değişken türünü tanımlar. Aşağıdaki adımda açıklanan E-posta kaynak hesabı formülü, bir e-posta kaynağını bağlayacağınız yerdir. Formül bir satıcı hesabı üretiyorsa Satıcıyı seçin. ISO 20022 Borç Transferi yapılandırma örneği kullanıyorsanız Satıcıyı kullanın.  
-13. E-posta kaynağını bağla düğmesine tıklayın.
-14. Formülde, daha önce seçtiğiniz taraf türü için belgeye özel bir referans girin.
-    * Yazmak yerine, taraf hesabını temsil eden bir veri kaynağı düğümünü bulabilir ve formülü güncelleştirmek için Veri kaynağı ekle düğmesini tıklayabilirsiniz. Örneğin; ISO 20022 Borç Transferi yapılandırmasını kullanıyorsanız bir satıcı hesabını temsil eden düğüm '$PaymentsForCoveringLetter'.Creditor.Identification.SourceID olacaktır. Aksi takdirde, bir formül kaydetmek için "DE-001" gibi, herhangi bir dize değeri girin.  
-15. Kaydet'e tıklayın.
-16. Sayfayı kapatın.
-17. Tarafın ilgili kişi ayrıntılarını yapılandırmak için Düzenle'ye tıklayın.
-18. Birincil kişi alanında 'Evet'i seçin.
-    * Bu hedef için e-posta adresi olarak kullanılması gereken taraf ilgili kişisi türünü göstermek için farklı seçenekleri kullanabilirsiniz. Bu örnekte birincil ilgili kişiyi kullanıyoruz.  
-19. Tamam'a tıklayın.
-20. Tamam'a tıklayın.
-21. Konu alanına bir değer yazın.
-22. Tamam'a tıklayın.
+1. <span data-ttu-id="ae400-110">Sırasıyla Organizasyon yönetimi > Elektronik raporlama > Elektronik raporlama hedefi seçimlerini yapın.</span><span class="sxs-lookup"><span data-stu-id="ae400-110">Go to Organization administration > Electronic reporting > Electronic reporting destination.</span></span>
+2. <span data-ttu-id="ae400-111">Bir format için yeni bir hedef kümesi oluşturmak için Yeni düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae400-111">Click New to create a new set of destinations for a format.</span></span>
+3. <span data-ttu-id="ae400-112">Başvuru alanında hedefleri yapılandırmak istediğiniz bir format seçin.</span><span class="sxs-lookup"><span data-stu-id="ae400-112">In the Reference field, select a format for which you want to configure destinations.</span></span>
+    * <span data-ttu-id="ae400-113">Seçilebilecek bir değer bulunmuyorsa, herhangi bir Elektronik raporlama formatı yapılandırmasını içeri aktarmamışsınızdır.</span><span class="sxs-lookup"><span data-stu-id="ae400-113">If you don't have a value to select, it means that you have not imported any Electronic reporting format configurations.</span></span> <span data-ttu-id="ae400-114">Hedefleri ayarlamadan önce bir format yapılandırmasını içe aktarmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="ae400-114">You must import a format configuration before setting up destinations.</span></span>  
+4. <span data-ttu-id="ae400-115">Yeni bir dosya hedefi oluşturmak için Yeni düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae400-115">Click New to create a new file destination.</span></span>
+    * <span data-ttu-id="ae400-116">Klasör veya dosya gibi aynı formattaki her bir çıkış bileşeni için bir dosya hedefi oluşturabileceğinizi dikkate alın.</span><span class="sxs-lookup"><span data-stu-id="ae400-116">Note, you can create one file destination for each output component of the same format, such as a folder or a file.</span></span> <span data-ttu-id="ae400-117">Hedefleri ayarlardan ayrı olarak etkinleştirebilir ve devre dışı bırakılabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ae400-117">You will be able to enable and disable destinations separately in the settings.</span></span>  
+5. <span data-ttu-id="ae400-118">Ad alanında, çıkış bileşeni için anlaşılması kolay bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="ae400-118">In the Name field, enter the user-friendly name of output component.</span></span>
+    * <span data-ttu-id="ae400-119">"Ödeme dosyası" veya "Denetim raporu" gibi anlamlı adlar kullanmanızı öneririz.</span><span class="sxs-lookup"><span data-stu-id="ae400-119">We recommend that you use meaningful names, such as "Payment file" or "Control report".</span></span> <span data-ttu-id="ae400-120">Bu adlar, hedef ayarlarının yanı sıra yapılandırma çalışma süresince kullanıcılara gösterilecektir.</span><span class="sxs-lookup"><span data-stu-id="ae400-120">These names will be presented to users at configuration runtime along with the destination settings.</span></span>  
+6. <span data-ttu-id="ae400-121">Dosya adında, formata özel bir dosya veya klasör seçin.</span><span class="sxs-lookup"><span data-stu-id="ae400-121">In the File name, select a file or folder that is specific to the format.</span></span>
+7. <span data-ttu-id="ae400-122">Ayarlar öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae400-122">Click Settings.</span></span>
+8. <span data-ttu-id="ae400-123">Etkinleştirilen alanından 'Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="ae400-123">Select Yes in the Enabled field.</span></span>
+    * <span data-ttu-id="ae400-124">Her bir sekmedeki Etkin onay kutusu, her bir hedefi ayrı olarak etkinleştirir ve devre dışı bırakır.</span><span class="sxs-lookup"><span data-stu-id="ae400-124">The Enabled check box on each tab enables and disables each destination separately.</span></span> <span data-ttu-id="ae400-125">Bu örnekte, dosya oluşturulduğunda bir posta alıcısına bir çıkış dosyası gönderilmesini etkinleştireceksiniz.</span><span class="sxs-lookup"><span data-stu-id="ae400-125">In this example, you'll enable sending an output file to a mail recipient when the file is generated.</span></span>  
+9. <span data-ttu-id="ae400-126">E-posta alıcılarını ayarlamak için Düzenle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae400-126">Click Edit, to set up email recipients.</span></span>
+10. <span data-ttu-id="ae400-127">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="ae400-127">Click Add.</span></span>
+11. <span data-ttu-id="ae400-128">Yazdırma Yönetimi e-postası'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae400-128">Click Print Management email.</span></span>
+12. <span data-ttu-id="ae400-129">E-posta kaynağı alanından bir seçeneği belirleyin.</span><span class="sxs-lookup"><span data-stu-id="ae400-129">In the Email source  field, select an option.</span></span>
+    * <span data-ttu-id="ae400-130">Müşteri veya satıcı türü gibi farklı e-posta kaynağı türleri seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ae400-130">You can select different email source types, such as a customer or a vendor type.</span></span> <span data-ttu-id="ae400-131">Bu da E-posta kaynak hesap formülü tarafından oluşturulan bağımsız değişken türünü tanımlar.</span><span class="sxs-lookup"><span data-stu-id="ae400-131">This defines the type of argument that will be returned by the Email source account formula.</span></span> <span data-ttu-id="ae400-132">Aşağıdaki adımda açıklanan E-posta kaynak hesabı formülü, bir e-posta kaynağını bağlayacağınız yerdir.</span><span class="sxs-lookup"><span data-stu-id="ae400-132">The Email source account formula, described in a following step, is the place where you bind an email source.</span></span> <span data-ttu-id="ae400-133">Formül bir satıcı hesabı üretiyorsa Satıcıyı seçin.</span><span class="sxs-lookup"><span data-stu-id="ae400-133">Select Vendor if your formula will return a vendor account.</span></span> <span data-ttu-id="ae400-134">ISO 20022 Borç Transferi yapılandırma örneği kullanıyorsanız Satıcıyı kullanın.</span><span class="sxs-lookup"><span data-stu-id="ae400-134">Use Vendor if you are using the ISO 20022 Credit Transfer configuration example.</span></span>  
+13. <span data-ttu-id="ae400-135">E-posta kaynağını bağla düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae400-135">Click Email source bind button.</span></span>
+14. <span data-ttu-id="ae400-136">Formülde, daha önce seçtiğiniz taraf türü için belgeye özel bir referans girin.</span><span class="sxs-lookup"><span data-stu-id="ae400-136">In the Formula, enter a document-specific reference to a party type that you selected earlier.</span></span>
+    * <span data-ttu-id="ae400-137">Yazmak yerine, taraf hesabını temsil eden bir veri kaynağı düğümünü bulabilir ve formülü güncelleştirmek için Veri kaynağı ekle düğmesini tıklayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ae400-137">Instead of typing, you can find a data source node that represents the party account, and click the Add data source button to update the formula.</span></span> <span data-ttu-id="ae400-138">Örneğin; ISO 20022 Borç Transferi yapılandırmasını kullanıyorsanız bir satıcı hesabını temsil eden düğüm '$PaymentsForCoveringLetter'.Creditor.Identification.SourceID olacaktır.</span><span class="sxs-lookup"><span data-stu-id="ae400-138">For example, if you use the ISO 20022 Credit Transfer configuration, the node representing a vendor account is '$PaymentsForCoveringLetter'.Creditor.Identification.SourceID.</span></span> <span data-ttu-id="ae400-139">Aksi takdirde, bir formül kaydetmek için "DE-001" gibi, herhangi bir dize değeri girin.</span><span class="sxs-lookup"><span data-stu-id="ae400-139">Otherwise, enter any string value, such as "DE-001", to save a formula.</span></span>  
+15. <span data-ttu-id="ae400-140">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae400-140">Click Save.</span></span>
+16. <span data-ttu-id="ae400-141">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="ae400-141">Close the page.</span></span>
+17. <span data-ttu-id="ae400-142">Tarafın ilgili kişi ayrıntılarını yapılandırmak için Düzenle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae400-142">Click Edit to configure contact details for the party.</span></span>
+18. <span data-ttu-id="ae400-143">Birincil kişi alanında 'Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="ae400-143">Select Yes in the Primary contact field.</span></span>
+    * <span data-ttu-id="ae400-144">Bu hedef için e-posta adresi olarak kullanılması gereken taraf ilgili kişisi türünü göstermek için farklı seçenekleri kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ae400-144">You may use different options to indicate what contact type of the party should be used as an email address for this destination.</span></span> <span data-ttu-id="ae400-145">Bu örnekte birincil ilgili kişiyi kullanıyoruz.</span><span class="sxs-lookup"><span data-stu-id="ae400-145">We use primary contact in this example.</span></span>  
+19. <span data-ttu-id="ae400-146">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae400-146">Click OK.</span></span>
+20. <span data-ttu-id="ae400-147">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae400-147">Click OK.</span></span>
+21. <span data-ttu-id="ae400-148">Konu alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="ae400-148">In the Subject field, type a value.</span></span>
+22. <span data-ttu-id="ae400-149">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ae400-149">Click OK.</span></span>
 
 

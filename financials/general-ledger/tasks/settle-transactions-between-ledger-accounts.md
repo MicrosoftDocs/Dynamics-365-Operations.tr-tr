@@ -16,35 +16,35 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 066604417f842de84054a9ee56646fff242f303b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 97a28069f8d560c98099a667852c932ba7658996
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="settle-transactions-between-ledger-accounts"></a>Genel muhasebe hesapları arasındaki hareketleri kapatma
+# <a name="settle-transactions-between-ledger-accounts"></a><span data-ttu-id="fe5f9-103">Genel muhasebe hesapları arasındaki hareketleri kapatma</span><span class="sxs-lookup"><span data-stu-id="fe5f9-103">Settle transactions between ledger accounts</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, genel muhasebe hesapları arasındaki hareketlerin nasıl kapatılacağını ve bir genel muhasebe kapatmasının nasıl iptal edileceğini gösterir. Bu yordam, USMF demo verisi şirketini kullanır.
+<span data-ttu-id="fe5f9-104">Bu yordam, genel muhasebe hesapları arasındaki hareketlerin nasıl kapatılacağını ve bir genel muhasebe kapatmasının nasıl iptal edileceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="fe5f9-104">This procedure shows how to settle transactions between ledger accounts and cancel a ledger settlement.</span></span> <span data-ttu-id="fe5f9-105">Bu yordam, USMF demo verisi şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="fe5f9-105">This procedure uses the USMF demo data company.</span></span>
 
 
-## <a name="settle-transaction-between-ledger-accounts"></a>Genel muhasebe hesapları arasındaki hareketi kapatma
-1. Genel muhasebe > Periyodik görevler > Genel muhasebe hesabı kapatmaları'na gidin.
-2. Listede, kapatmak istediğiniz hareketi bulun.
-    * Tutar bakiyesi sıfırdan büyük olmalıdır.  
-3. İçerir'i tıklatın.
-4. Kabul et düğmesini tıklatın.
+## <a name="settle-transaction-between-ledger-accounts"></a><span data-ttu-id="fe5f9-106">Genel muhasebe hesapları arasındaki hareketi kapatma</span><span class="sxs-lookup"><span data-stu-id="fe5f9-106">Settle transaction between ledger accounts</span></span>
+1. <span data-ttu-id="fe5f9-107">Genel muhasebe > Periyodik görevler > Genel muhasebe hesabı kapatmaları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="fe5f9-107">Go to General ledger > Periodic tasks > Ledger settlements.</span></span>
+2. <span data-ttu-id="fe5f9-108">Listede, kapatmak istediğiniz hareketi bulun.</span><span class="sxs-lookup"><span data-stu-id="fe5f9-108">In the list, find the transaction that you want to settle.</span></span>
+    * <span data-ttu-id="fe5f9-109">Tutar bakiyesi sıfırdan büyük olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="fe5f9-109">The amount balance must be zero.</span></span>  
+3. <span data-ttu-id="fe5f9-110">İçerir'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="fe5f9-110">Click Include.</span></span>
+4. <span data-ttu-id="fe5f9-111">Kabul et düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="fe5f9-111">Click Accept.</span></span>
 
-## <a name="cancel-a-ledger-settlement"></a>Hesap kapatmayı iptal etme
-1. Sayfayı kapatın.
-2. Genel muhasebe > Sorgular ve raporlar > Mizan'a gidin.
-3. İletişim kutusunu açmak için Parametreler'i tıklatın
-4. Güncelleştir'i tıklatın.
-5. Listede, hareketi kapatmak istediğiniz hesabı bulun.
-6. Tüm hareketler'i tıklatın.
-7. Listede hareketi kolayca bulmak için bir filtre kullanın.
-8. Genel muhasebe hesabı kapatmaları'nı tıklatın.
-9. Listede, seçili satırı işaretleyin.
+## <a name="cancel-a-ledger-settlement"></a><span data-ttu-id="fe5f9-112">Hesap kapatmayı iptal etme</span><span class="sxs-lookup"><span data-stu-id="fe5f9-112">Cancel a ledger settlement</span></span>
+1. <span data-ttu-id="fe5f9-113">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="fe5f9-113">Close the page.</span></span>
+2. <span data-ttu-id="fe5f9-114">Genel muhasebe > Sorgular ve raporlar > Mizan'a gidin.</span><span class="sxs-lookup"><span data-stu-id="fe5f9-114">Go to General ledger > Inquiries and reports > Trial balance.</span></span>
+3. <span data-ttu-id="fe5f9-115">İletişim kutusunu açmak için Parametreler'i tıklatın</span><span class="sxs-lookup"><span data-stu-id="fe5f9-115">Click Parameters to open the drop dialog.</span></span>
+4. <span data-ttu-id="fe5f9-116">Güncelleştir'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="fe5f9-116">Click Update.</span></span>
+5. <span data-ttu-id="fe5f9-117">Listede, hareketi kapatmak istediğiniz hesabı bulun.</span><span class="sxs-lookup"><span data-stu-id="fe5f9-117">In the list, find the account that has the settled transaction.</span></span>
+6. <span data-ttu-id="fe5f9-118">Tüm hareketler'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="fe5f9-118">Click All transactions.</span></span>
+7. <span data-ttu-id="fe5f9-119">Listede hareketi kolayca bulmak için bir filtre kullanın.</span><span class="sxs-lookup"><span data-stu-id="fe5f9-119">Use a filter to easily find the transaction in the list.</span></span>
+8. <span data-ttu-id="fe5f9-120">Genel muhasebe hesabı kapatmaları'nı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="fe5f9-120">Click Ledger settlements.</span></span>
+9. <span data-ttu-id="fe5f9-121">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="fe5f9-121">In the list, mark the selected row.</span></span>
 
 

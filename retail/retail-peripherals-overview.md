@@ -18,321 +18,219 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
-ms.openlocfilehash: 77049ba4c9c39cd44f1919b672deaf700b91357d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e886411421fda17bb67f8ecedc1f7f3420e1fa72
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="retail-peripherals-overview"></a>Perakende çevre birimlerine genel bakış
+# <a name="retail-peripherals-overview"></a><span data-ttu-id="c4bec-104">Perakende çevre birimlerine genel bakış</span><span class="sxs-lookup"><span data-stu-id="c4bec-104">Retail peripherals overview</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Bu konu, perakende çevre birimleriyle ilgili kavramları açıklar. Bu çevre birimlerinin satış noktasına (POS) bağlanmasıyla ilgili çeşitli yollar ve POS ile bağlantı yönetiminden sorumlu olan bileşenler açıklanmaktadır.
+<span data-ttu-id="c4bec-105">Bu konu, perakende çevre birimleriyle ilgili kavramları açıklar.</span><span class="sxs-lookup"><span data-stu-id="c4bec-105">This topic explains the concepts that are related to retail peripherals.</span></span> <span data-ttu-id="c4bec-106">Bu çevre birimlerinin satış noktasına (POS) bağlanmasıyla ilgili çeşitli yollar ve POS ile bağlantı yönetiminden sorumlu olan bileşenler açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-106">It describes the various ways that peripherals can be connected to the point of sale (POS) and the components that are responsible for managing the connection with the POS.</span></span>
 
-## <a name="concepts"></a>Kavramlar
+## <a name="concepts"></a><span data-ttu-id="c4bec-107">Kavramlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-107">Concepts</span></span>
 
-### <a name="pos-registers"></a>POS kayıtları
+### <a name="pos-registers"></a><span data-ttu-id="c4bec-108">POS kayıtları</span><span class="sxs-lookup"><span data-stu-id="c4bec-108">POS registers</span></span>
 
-Gezinti: **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Kayıtlar** üzerine tıklayın. Satış noktası (POS) kasası, POS'un belirli bir kurulumunun özelliklerini tanımlamak için kullanılan bir varlıktır. Bu özelliklere kasada kullanılacak donanım profili veya perakende çevri birimleri kurulumu, kasanın eşleştiği mağaza ve bu kasada oturum açan kullanıcının görsel deneyimi dahildir.
+<span data-ttu-id="c4bec-109">Gezinti: **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Kayıtlar** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-109">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="c4bec-110">Satış noktası (POS) kasası, POS'un belirli bir kurulumunun özelliklerini tanımlamak için kullanılan bir varlıktır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-110">The point of sale (POS) register is an entity that is used to define the characteristics of a specific instance of the POS.</span></span> <span data-ttu-id="c4bec-111">Bu özelliklere kasada kullanılacak donanım profili veya perakende çevri birimleri kurulumu, kasanın eşleştiği mağaza ve bu kasada oturum açan kullanıcının görsel deneyimi dahildir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-111">These characteristics include the hardware profile or setup for retail peripherals that will be used at the register, the store that the register is mapped to, and the visual experience for the user who signs in to that register.</span></span>
 
-### <a name="devices"></a>Aygıtlar
+### <a name="devices"></a><span data-ttu-id="c4bec-112">Aygıtlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-112">Devices</span></span>
 
-Gezinti: **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Cihazlar** üzerine tıklayın. Cihaz, POS kaydının eşlendiği bir cihazın fiziksel örneğini gösteren bir varlıktır. Cihaz oluşturulduğunda bir POS kasasıyla eşlenir. Cihaz varlığı, bir POS kaydı etkinleştirildiğinde kullanılan istemci türü ve belirli bir cihaza dağıtılan uygulama paketi hakkındaki bilgileri izler. Cihazlar aşağıdaki uygulama türleriyle eşlenebilir: Retail Modern POS perakende, Perakende Bulut POS, Retail Modern POS – Windows Telefon, Retail Modern POS – Android ve Retail Modern POS – iOS.
+<span data-ttu-id="c4bec-113">Gezinti: **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Cihazlar** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-113">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Devices**.</span></span> <span data-ttu-id="c4bec-114">Cihaz, POS kaydının eşlendiği bir cihazın fiziksel örneğini gösteren bir varlıktır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-114">A device is an entity that represents a physical instance of a device that is mapped to a POS register.</span></span> <span data-ttu-id="c4bec-115">Cihaz oluşturulduğunda bir POS kasasıyla eşlenir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-115">When a device is created, it’s mapped to a POS register.</span></span> <span data-ttu-id="c4bec-116">Cihaz varlığı, bir POS kaydı etkinleştirildiğinde kullanılan istemci türü ve belirli bir cihaza dağıtılan uygulama paketi hakkındaki bilgileri izler.</span><span class="sxs-lookup"><span data-stu-id="c4bec-116">The device entity tracks information about when a POS register is activated, the type of client that is being used, and the application package that has been deployed to a specific device.</span></span> <span data-ttu-id="c4bec-117">Cihazlar aşağıdaki uygulama türleriyle eşlenebilir: Retail Modern POS perakende, Perakende Bulut POS, Retail Modern POS – Windows Telefon, Retail Modern POS – Android ve Retail Modern POS – iOS.</span><span class="sxs-lookup"><span data-stu-id="c4bec-117">Devices can be mapped to the following application types: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android, and Retail Modern POS – iOS.</span></span>
 
-### <a name="retail-modern-pos"></a>Perakende Modern POS
+### <a name="retail-modern-pos"></a><span data-ttu-id="c4bec-118">Perakende Modern POS</span><span class="sxs-lookup"><span data-stu-id="c4bec-118">Retail Modern POS</span></span>
 
-Modern POS, Microsoft Windows için POS programıdır. Windows 10 işletim sistemlerinde (OSs) dağıtılabilir.
+<span data-ttu-id="c4bec-119">Modern POS, Microsoft Windows için POS programıdır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-119">Modern POS is the POS program for Microsoft Windows.</span></span> <span data-ttu-id="c4bec-120">Windows 10 işletim sistemlerinde (OSs) dağıtılabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-120">It can be deployed on Windows 10 operating systems (OSs).</span></span>
 
-### <a name="cloud-pos"></a>Bulut POS
+### <a name="cloud-pos"></a><span data-ttu-id="c4bec-121">Bulut POS</span><span class="sxs-lookup"><span data-stu-id="c4bec-121">Cloud POS</span></span>
 
-Bulut POS Modern POS programının bir web tarayıcısından erişilebilen tarayıcı tabanlı sürümüdür.
+<span data-ttu-id="c4bec-122">Bulut POS Modern POS programının bir web tarayıcısından erişilebilen tarayıcı tabanlı sürümüdür.</span><span class="sxs-lookup"><span data-stu-id="c4bec-122">Cloud POS is a browser-based version of the Modern POS program that can be accessed in a web browser.</span></span>
 
-### <a name="modern-pos-for-ios"></a>iOS için Modern POS
+### <a name="modern-pos-for-ios"></a><span data-ttu-id="c4bec-123">iOS için Modern POS</span><span class="sxs-lookup"><span data-stu-id="c4bec-123">Modern POS for iOS</span></span>
 
-iOS için Modern POS, Modern POS programının iOS aygıtlarda dağıtılabilen iOS tabanlı bir sürümüdür.
+<span data-ttu-id="c4bec-124">iOS için Modern POS, Modern POS programının iOS aygıtlarda dağıtılabilen iOS tabanlı bir sürümüdür.</span><span class="sxs-lookup"><span data-stu-id="c4bec-124">Modern POS for iOS is an iOS-based version of the Modern POS program that can be deployed on iOS devices.</span></span>
 
-### <a name="modern-pos-for-android"></a>Android için Modern POS
+### <a name="modern-pos-for-android"></a><span data-ttu-id="c4bec-125">Android için Modern POS</span><span class="sxs-lookup"><span data-stu-id="c4bec-125">Modern POS for Android</span></span>
 
-Android için Modern POS, Modern POS programının Android aygıtlarda dağıtılabilen Android tabanlı bir sürümüdür.
+<span data-ttu-id="c4bec-126">Android için Modern POS, Modern POS programının Android aygıtlarda dağıtılabilen Android tabanlı bir sürümüdür.</span><span class="sxs-lookup"><span data-stu-id="c4bec-126">Modern POS for Android is an Android-based version of the Modern POS program that can be deployed on Android devices.</span></span>
 
-### <a name="pos-peripherals"></a>POS çevre birimleri
+### <a name="pos-peripherals"></a><span data-ttu-id="c4bec-127">POS çevre birimleri</span><span class="sxs-lookup"><span data-stu-id="c4bec-127">POS peripherals</span></span>
 
-POS çevre birimleri, POS işlevleri için açıkça desteklenen cihazlardır. Bu çevre birimleri, genellikle belirli sınıflara ayrılmıştır. Bu sınıflar hakkında daha fazla bilgi için bu konudaki "Cihaz sınıfları" bölümüne bakın.
+<span data-ttu-id="c4bec-128">POS çevre birimleri, POS işlevleri için açıkça desteklenen cihazlardır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-128">POS peripherals are devices that are explicitly supported for POS functions.</span></span> <span data-ttu-id="c4bec-129">Bu çevre birimleri, genellikle belirli sınıflara ayrılmıştır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-129">These peripherals are typically divided into specific classes.</span></span> <span data-ttu-id="c4bec-130">Bu sınıflar hakkında daha fazla bilgi için bu konudaki "Cihaz sınıfları" bölümüne bakın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-130">For more information about these classes, see the “Device classes” section of this topic.</span></span>
 
-### <a name="hardware-station"></a>Donanım istasyonu
+### <a name="hardware-station"></a><span data-ttu-id="c4bec-131">Donanım istasyonu</span><span class="sxs-lookup"><span data-stu-id="c4bec-131">Hardware station</span></span>
 
-Gezinme: **Perakende** &gt; **Kanallar** &gt; **Perakende mağazaları** &gt; **Tüm perakende mağazaları**'na tıklayın. Bir mağaza seçin ve sonra **Donanım istasyonları** FastTab'a tıklayın. **Donanım istasyonu** ayarı perakende çevresel çevre birimi mantığının dağıtıldığı kurulumları tanımlamak için kullanılan kanal düzeyindeki bir ayardır. Kanal düzeyindeki bu ayar donanım istasyonu özelliklerini belirlemek için kullanılır. Ayrıca, belirli bir mağazanın Modern POS kurulumunda kullanılabilen donanım istasyonlarını listelemek için kullanılır. Donanım istasyonu Windows için Modern POS programına yerleşik olarak bulunur. Donanım istasyonu bağımsız olarak tek başına bir Microsoft Internet Information Services (IIS) programı olarak dağıtılabilir. Bu durumda, ağ üzerinden erişilebilir.
+<span data-ttu-id="c4bec-132">Gezinme: **Perakende** &gt; **Kanallar** &gt; **Perakende mağazaları** &gt; **Tüm perakende mağazaları**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-132">Navigation: Click **Retail** &gt; **Channels** &gt; **Retail stores** &gt; **All retail stores**.</span></span> <span data-ttu-id="c4bec-133">Bir mağaza seçin ve sonra **Donanım istasyonları** FastTab'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-133">Select a store, and then click the **Hardware stations** FastTab.</span></span> <span data-ttu-id="c4bec-134">**Donanım istasyonu** ayarı perakende çevresel çevre birimi mantığının dağıtıldığı kurulumları tanımlamak için kullanılan kanal düzeyindeki bir ayardır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-134">The **Hardware station** setting is a channel-level setting that is used to define instances where the retail peripheral logic will be deployed.</span></span> <span data-ttu-id="c4bec-135">Kanal düzeyindeki bu ayar donanım istasyonu özelliklerini belirlemek için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-135">This setting at the channel level is used to determine characteristics of the hardware station.</span></span> <span data-ttu-id="c4bec-136">Ayrıca, belirli bir mağazanın Modern POS kurulumunda kullanılabilen donanım istasyonlarını listelemek için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-136">It's also used to list hardware stations that are available for a Modern POS instance in a given store.</span></span> <span data-ttu-id="c4bec-137">Donanım istasyonu Windows için Modern POS programına yerleşik olarak bulunur.</span><span class="sxs-lookup"><span data-stu-id="c4bec-137">The hardware station is built into the Modern POS program for Windows.</span></span> <span data-ttu-id="c4bec-138">Donanım istasyonu bağımsız olarak tek başına bir Microsoft Internet Information Services (IIS) programı olarak dağıtılabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-138">The hardware station can also be deployed independently as a stand-alone Microsoft Internet Information Services (IIS) program.</span></span> <span data-ttu-id="c4bec-139">Bu durumda, ağ üzerinden erişilebilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-139">In this case, it can be accessed via a network.</span></span>
 
-### <a name="hardware-profile"></a>Donanım profili
+### <a name="hardware-profile"></a><span data-ttu-id="c4bec-140">Donanım profili</span><span class="sxs-lookup"><span data-stu-id="c4bec-140">Hardware profile</span></span>
 
-Gezinti: **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım profilleri**'ne tıklayın. Donanım profili bir POS kasası veya bir donanım istasyonu için yapılandırılmış cihazların listesidir. Donanım profili doğrudan POS kasasıyla veya donanım istasyonuyla eşlenebilir.
+<span data-ttu-id="c4bec-141">Gezinti: **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım profilleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-141">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="c4bec-142">Donanım profili bir POS kasası veya bir donanım istasyonu için yapılandırılmış cihazların listesidir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-142">The hardware profile is a list of devices that are configured for a POS register or a hardware station.</span></span> <span data-ttu-id="c4bec-143">Donanım profili doğrudan POS kasasıyla veya donanım istasyonuyla eşlenebilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-143">The hardware profile can be mapped directly to a POS register or a hardware station.</span></span>
 
-## <a name="devices-classes"></a>Cihaz sınıfları
-POS çevre birimleri, genellikle sınıflara ayrılmıştır. Bu bölümde Modern POS'un desteklediği cihazlar açıklanmakta ve bunlar için genel bir bakış sunulmaktadır.
+## <a name="devices-classes"></a><span data-ttu-id="c4bec-144">Cihaz sınıfları</span><span class="sxs-lookup"><span data-stu-id="c4bec-144">Devices classes</span></span>
+<span data-ttu-id="c4bec-145">POS çevre birimleri, genellikle sınıflara ayrılmıştır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-145">POS peripherals are typically divided into classes.</span></span> <span data-ttu-id="c4bec-146">Bu bölümde Modern POS'un desteklediği cihazlar açıklanmakta ve bunlar için genel bir bakış sunulmaktadır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-146">This section describes and gives an overview of the devices that Modern POS supports.</span></span>
 
-### <a name="printer"></a>Yazıcı
+### <a name="printer"></a><span data-ttu-id="c4bec-147">Yazıcı</span><span class="sxs-lookup"><span data-stu-id="c4bec-147">Printer</span></span>
 
-Yazıcılar, geleneksel POS makbuz yazıcıları ve tam sayfa yazıcıları içerir. Yazıcılar Retail POS için Nesne Bağlama ve Katıştırma (OPOS) ve Microsoft Windows sürücü arabirimleri aracılığıyla desteklenir. Aynı anda en fazla iki yazıcı kullanılabilir. Bu özellik peşin müşteri girişlerinin makbuz yazıcısından yazdırıldığı, ancak daha fazla bilgi içeren müşteri siparişlerinin tam sayfa yazıcısından yazdırıldığı senaryoları destekler. Makbuz yazıcılar, USB aracılığıyla doğrudan bilgisayara, Ethernet aracılığıyla bir ağa veya Bluetooth aracılığıyla bağlanabilir.
+<span data-ttu-id="c4bec-148">Yazıcılar, geleneksel POS makbuz yazıcıları ve tam sayfa yazıcıları içerir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-148">Printers include traditional POS receipt printers and full-page printers.</span></span> <span data-ttu-id="c4bec-149">Yazıcılar Retail POS için Nesne Bağlama ve Katıştırma (OPOS) ve Microsoft Windows sürücü arabirimleri aracılığıyla desteklenir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-149">Printer are supported through Object Linking and Embedding for Retail POS (OPOS) and Microsoft Windows driver interfaces.</span></span> <span data-ttu-id="c4bec-150">Aynı anda en fazla iki yazıcı kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-150">Up to two printers can be used at the same time.</span></span> <span data-ttu-id="c4bec-151">Bu özellik peşin müşteri girişlerinin makbuz yazıcısından yazdırıldığı, ancak daha fazla bilgi içeren müşteri siparişlerinin tam sayfa yazıcısından yazdırıldığı senaryoları destekler.</span><span class="sxs-lookup"><span data-stu-id="c4bec-151">This capability supports scenarios where cash-and-carry customer receipts are printed on receipt printers, whereas customer orders, which carry more information, are printed on a full-page printer.</span></span> <span data-ttu-id="c4bec-152">Makbuz yazıcılar, USB aracılığıyla doğrudan bilgisayara, Ethernet aracılığıyla bir ağa veya Bluetooth aracılığıyla bağlanabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-152">Receipt printers can be connected directly to a computer via USB, connected to a network via Ethernet, or connected via Bluetooth.</span></span>
 
-### <a name="scanner"></a>Tarayıcı
+### <a name="scanner"></a><span data-ttu-id="c4bec-153">Tarayıcı</span><span class="sxs-lookup"><span data-stu-id="c4bec-153">Scanner</span></span>
 
-Aynı anda en fazla iki barkod tarayıcı kullanılabilir. Bu özellik, büyük veya ağır maddeleri taramak için daha mobil bir tarayıcının gerekli olduğu ancak kullanıma alma süresini hızlandırmak amacıyla çoğu standart boyutlu madde için sabit katıştırılmış bir tarayıcının kullanıldığı senaryoları destekler. Tarayıcılar OPOS, Evrensel Windows Platformu (UWP) veya klavye emülasyonu arabirimleri ile desteklenebilir. USB veya Bluetooth, bir tarayıcıyı bir bilgisayara bağlanmak için kullanılabilir.
+<span data-ttu-id="c4bec-154">Aynı anda en fazla iki barkod tarayıcı kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-154">Up to two bar code scanners can be used at the same time.</span></span> <span data-ttu-id="c4bec-155">Bu özellik, büyük veya ağır maddeleri taramak için daha mobil bir tarayıcının gerekli olduğu ancak kullanıma alma süresini hızlandırmak amacıyla çoğu standart boyutlu madde için sabit katıştırılmış bir tarayıcının kullanıldığı senaryoları destekler.</span><span class="sxs-lookup"><span data-stu-id="c4bec-155">This capability supports scenarios where a scanner that is more mobile is required in order to scan large or heavy items, whereas a fixed embedded scanner is used for most standard-sized items, to speed up checkout times.</span></span> <span data-ttu-id="c4bec-156">Tarayıcılar OPOS, Evrensel Windows Platformu (UWP) veya klavye emülasyonu arabirimleri ile desteklenebilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-156">Scanners can be supported through OPOS, Universal Windows Platform (UWP), or keyboard wedge interfaces.</span></span> <span data-ttu-id="c4bec-157">USB veya Bluetooth, bir tarayıcıyı bir bilgisayara bağlanmak için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-157">USB or Bluetooth can be used to connect a scanner to a computer.</span></span>
 
-### <a name="msr"></a>MSR
+### <a name="msr"></a><span data-ttu-id="c4bec-158">MSR</span><span class="sxs-lookup"><span data-stu-id="c4bec-158">MSR</span></span>
 
-Bir USB manyetik bant okuyucu (MSR) OPOS sürücüleri kullanılarak ayarlanabilir. Elektronik fon transferi (EFT) ödeme hareketleri için bağımsız MSR kullanmak istiyorsanız, MSR'nin bir ödeme bağlayıcısı tarafından yönetiliyor olması gerekir. Bağımsız MSR'ler müşteri bağlılık programları girişi, personel oturum açma ve hediye kartı girişi için ödeme bağlayıcısından bağımsız olarak kullanılabilir.
+<span data-ttu-id="c4bec-159">Bir USB manyetik bant okuyucu (MSR) OPOS sürücüleri kullanılarak ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-159">One USB magnetic stripe reader (MSR) can be set up by using OPOS drivers.</span></span> <span data-ttu-id="c4bec-160">Elektronik fon transferi (EFT) ödeme hareketleri için bağımsız MSR kullanmak istiyorsanız, MSR'nin bir ödeme bağlayıcısı tarafından yönetiliyor olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-160">If you want to use a stand-alone MSR for electronic funds transfer (EFT) payment transactions, the MSR must be managed by a payment connector.</span></span> <span data-ttu-id="c4bec-161">Bağımsız MSR'ler müşteri bağlılık programları girişi, personel oturum açma ve hediye kartı girişi için ödeme bağlayıcısından bağımsız olarak kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-161">Stand-alone MSRs can be used for customer loyalty entry, employee sign-in, and gift card entry, independently of the payment connector.</span></span>
 
-### <a name="cash-drawer"></a>Kasa çekmecesi
+### <a name="cash-drawer"></a><span data-ttu-id="c4bec-162">Kasa çekmecesi</span><span class="sxs-lookup"><span data-stu-id="c4bec-162">Cash drawer</span></span>
 
-Her donanım profili için iki kasa çekmecesi desteklenebilir. Bu özellik her kasa için aynı anda iki etkin vardiyanın kullanılabilmesini sağlar. Paylaşılan bir vardiya veya aynı anda birden çok mobil POS cihazı tarafından kullanılan bir kasa çekmecesi söz konusu olduğunda, her donanım profili için yalnızca bir kasa çekmecesine izin verilir. Kasa çekmeceleri, USB aracılığıyla doğrudan bilgisayara, Ethernet aracılığıyla bir ağa veya RJ12 arabirimi aracılığıyla bir makbuz yazıcıya bağlanabilir. Bazı durumlarda, kasa çekmecesi Bluetooth ile de bağlanabilir.
+<span data-ttu-id="c4bec-163">Her donanım profili için iki kasa çekmecesi desteklenebilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-163">Two cash drawers can be supported per hardware profile.</span></span> <span data-ttu-id="c4bec-164">Bu özellik her kasa için aynı anda iki etkin vardiyanın kullanılabilmesini sağlar.</span><span class="sxs-lookup"><span data-stu-id="c4bec-164">This capability enables two active shifts per register to be available at the same time.</span></span> <span data-ttu-id="c4bec-165">Paylaşılan bir vardiya veya aynı anda birden çok mobil POS cihazı tarafından kullanılan bir kasa çekmecesi söz konusu olduğunda, her donanım profili için yalnızca bir kasa çekmecesine izin verilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-165">In the case of a shared shift, or a cash drawer that is used by multiple mobile POS devices at the same time, only one cash drawer is allowed per hardware profile.</span></span> <span data-ttu-id="c4bec-166">Kasa çekmeceleri, USB aracılığıyla doğrudan bilgisayara, Ethernet aracılığıyla bir ağa veya RJ12 arabirimi aracılığıyla bir makbuz yazıcıya bağlanabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-166">Cash drawers can be connected directly to a computer via USB, connected to a network, or connected to a receipt printer via an RJ12 interface.</span></span> <span data-ttu-id="c4bec-167">Bazı durumlarda, kasa çekmecesi Bluetooth ile de bağlanabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-167">In some cases, cash drawers can also be connected via Bluetooth.</span></span>
 
-### <a name="line-display"></a>Satır görüntüleme
+### <a name="line-display"></a><span data-ttu-id="c4bec-168">Satır görüntüleme</span><span class="sxs-lookup"><span data-stu-id="c4bec-168">Line display</span></span>
 
-Satır görüntülemeler, bir hareket sırasında müşteriye ürünleri, hareket bakiyelerini ve diğer yararlı bilgileri göstermek için kullanılır. Bir satır görüntüleme cihazı OPOS sürücüleri kullanılarak USB ile bilgisayara bağlanabilir.
+<span data-ttu-id="c4bec-169">Satır görüntülemeler, bir hareket sırasında müşteriye ürünleri, hareket bakiyelerini ve diğer yararlı bilgileri göstermek için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-169">Line displays are used to show products, transaction balances, and other useful information to the customer during a transaction.</span></span> <span data-ttu-id="c4bec-170">Bir satır görüntüleme cihazı OPOS sürücüleri kullanılarak USB ile bilgisayara bağlanabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-170">One line display can be connected to the computer via USB by using OPOS drivers.</span></span>
 
-### <a name="signature-capture"></a>İmza alma
+### <a name="signature-capture"></a><span data-ttu-id="c4bec-171">İmza alma</span><span class="sxs-lookup"><span data-stu-id="c4bec-171">Signature capture</span></span>
 
-İmza yakalama cihazları doğrudan bilgisayara USB üzerinden OPOS sürücülerini kullanarak bağlanabilir. İmza yakalama yapılandırıldığında, müşteriden aygıtta oturum açması istenir. İmza sağlandıktan sonra kabul için kasiyere gösterilir.
+<span data-ttu-id="c4bec-172">İmza yakalama cihazları doğrudan bilgisayara USB üzerinden OPOS sürücülerini kullanarak bağlanabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-172">Signature capture devices can be connected directly to a computer via USB by using OPOS drivers.</span></span> <span data-ttu-id="c4bec-173">İmza yakalama yapılandırıldığında, müşteriden aygıtta oturum açması istenir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-173">When signature capture is configured, the customer is prompted to sign on the device.</span></span> <span data-ttu-id="c4bec-174">İmza sağlandıktan sonra kabul için kasiyere gösterilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-174">After the signature is provided, it's shown to the cashier for acceptance.</span></span>
 
-### <a name="scale"></a>Ölçek
+### <a name="scale"></a><span data-ttu-id="c4bec-175">Ölçek</span><span class="sxs-lookup"><span data-stu-id="c4bec-175">Scale</span></span>
 
-Teraziler OPOS sürücüleri kullanılarak USB ile bilgisayara bağlanabilir. Bir ürün "Tartıldı" olarak işaretlendiğinde harekete eklenir, POS ağırlığı teraziden okur, ürünü harekete ekler ve terazinin sağladığı miktarı kullanır.
+<span data-ttu-id="c4bec-176">Teraziler OPOS sürücüleri kullanılarak USB ile bilgisayara bağlanabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-176">Scales can be connected to the computer via USP by using OPOS drivers.</span></span> <span data-ttu-id="c4bec-177">Bir ürün "Tartıldı" olarak işaretlendiğinde harekete eklenir, POS ağırlığı teraziden okur, ürünü harekete ekler ve terazinin sağladığı miktarı kullanır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-177">When a product that is marked as a “Weighed” product is added to a transaction, the POS reads the weight from the scale, adds the product to the transaction, and uses the quantity that the scale provided.</span></span>
 
-### <a name="pin-pad"></a>PIN pad
+### <a name="pin-pad"></a><span data-ttu-id="c4bec-178">PIN pad</span><span class="sxs-lookup"><span data-stu-id="c4bec-178">PIN pad</span></span>
 
-Kişisel kimlik numarası (PIN) pad'ler OPOS ile desteklenir, ancak bir ödeme bağlayıcı aracılığıyla yönetilmeleri gerekir.
+<span data-ttu-id="c4bec-179">Kişisel kimlik numarası (PIN) pad'ler OPOS ile desteklenir, ancak bir ödeme bağlayıcı aracılığıyla yönetilmeleri gerekir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-179">Personal identification number (PIN) pads are supported through OPOS, but they must be managed via a payment connector.</span></span>
 
-### <a name="secondary-display"></a>İkincil ekran
+### <a name="secondary-display"></a><span data-ttu-id="c4bec-180">İkincil ekran</span><span class="sxs-lookup"><span data-stu-id="c4bec-180">Secondary display</span></span>
 
-İkincil bir ekran yapılandırıldığında, temel bilgileri görüntülemek için 2 numaralı Windows ekranı kullanılır. İkincil ekranın amacı, bağımsız yazılım satıcısı (ISV) uzantısını desteklemektir, çünkü hazır durumda, ikincil ekran yapılandırılmaz ve sınırlı içerik gösterir.
+<span data-ttu-id="c4bec-181">İkincil bir ekran yapılandırıldığında, temel bilgileri görüntülemek için 2 numaralı Windows ekranı kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-181">When a secondary display is configured, the number 2 Windows display is used to show basic information.</span></span> <span data-ttu-id="c4bec-182">İkincil ekranın amacı, bağımsız yazılım satıcısı (ISV) uzantısını desteklemektir, çünkü hazır durumda, ikincil ekran yapılandırılmaz ve sınırlı içerik gösterir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-182">The purpose of the secondary display is to support independent software vendor (ISV) extension, because out of the box, the secondary display isn't configurable and shows limited content.</span></span>
 
-### <a name="payment-device"></a>Ödeme cihazı
+### <a name="payment-device"></a><span data-ttu-id="c4bec-183">Ödeme cihazı</span><span class="sxs-lookup"><span data-stu-id="c4bec-183">Payment device</span></span>
 
-Ödeme bağlayıcı üzerinden ödeme cihazı desteği uygulanır. Ödeme cihazları, diğer cihaz sınıflarının sağladığı bir veya daha fazla işlevi gerçekleştirebilir. Örneğin, bir ödeme cihazı, bir MSR/kart okuyucu, satır görüntüleme cihazı, imza yakalama cihazı veya PIN pad gibi işlev görebilir. Ödeme cihazlarına yönelik destek, donanım profiline dahil edilmiş olan diğer cihazlar için sağlanan bağımsız cihaz desteğinden bağımsız olarak uygulanır.
+<span data-ttu-id="c4bec-184">Ödeme bağlayıcı üzerinden ödeme cihazı desteği uygulanır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-184">Payment device support is implemented through the payment connector.</span></span> <span data-ttu-id="c4bec-185">Ödeme cihazları, diğer cihaz sınıflarının sağladığı bir veya daha fazla işlevi gerçekleştirebilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-185">Payment devices can perform one or many of the functions that other device classes provide.</span></span> <span data-ttu-id="c4bec-186">Örneğin, bir ödeme cihazı, bir MSR/kart okuyucu, satır görüntüleme cihazı, imza yakalama cihazı veya PIN pad gibi işlev görebilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-186">For example, a payment device can function as an MSR/card reader, line display, signature capture device, or PIN pad.</span></span> <span data-ttu-id="c4bec-187">Ödeme cihazlarına yönelik destek, donanım profiline dahil edilmiş olan diğer cihazlar için sağlanan bağımsız cihaz desteğinden bağımsız olarak uygulanır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-187">Support for payment devices is implemented independently of the stand-alone device support that is provided for other devices that are included in the hardware profile.</span></span>
 
-## <a name="supported-interfaces"></a>Desteklenen arabirimler
-### <a name="opos"></a>OPOS
+## <a name="supported-interfaces"></a><span data-ttu-id="c4bec-188">Desteklenen arabirimler</span><span class="sxs-lookup"><span data-stu-id="c4bec-188">Supported interfaces</span></span>
+### <a name="opos"></a><span data-ttu-id="c4bec-189">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-189">OPOS</span></span>
 
-Microsoft Dynamics 365 for Retail ile en geniş cihaz yelpazesinin kullanılabilmesini sağlamaya yardımcı olmak amacıyla, POS endüstri standardı için OLE Microsoft Dynamics 365 for Retail tarafından desteklenen birincil perakende çevre birim cihazı platformudur. POS standardı için OLE, perakende çevre birim cihazları için endüstri standardı iletişim protokollerini belirleyen Ulusal Perakende Federasyonu (NFR) tarafından üretilmiştir. OPOS, POS standardı için OLE'nin yaygın olarak benimsenen bir uygulamasıdır. 1990'ların ortalarında geliştirilmiştir ve o günden bu yana birkaç kez güncelleştirilmiştir. OPOS, POS donanımının Windows tabanlı POS sistemleri ile kolay tümleştirilmesini sağlayan bir aygıt sürücüsü mimarisi sağlar. OPOS uyumlu donanım ile POS yazılımı arasındaki iletişimi denetler. OPOS denetimi iki bölümden oluşur:
+<span data-ttu-id="c4bec-190">Microsoft Dynamics 365 for Retail ile en geniş cihaz yelpazesinin kullanılabilmesini sağlamaya yardımcı olmak amacıyla, POS endüstri standardı için OLE Microsoft Dynamics 365 for Retail tarafından desteklenen birincil perakende çevre birim cihazı platformudur.</span><span class="sxs-lookup"><span data-stu-id="c4bec-190">To help guarantee that the largest range of devices can be used with Microsoft Dynamics 365 for Retail, the OLE for POS industry standard is the primary retail peripheral device platform that is supported in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="c4bec-191">POS standardı için OLE, perakende çevre birim cihazları için endüstri standardı iletişim protokollerini belirleyen Ulusal Perakende Federasyonu (NFR) tarafından üretilmiştir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-191">The OLE for POS standard was produced by the National Retail Federation (NRF), which establishes industry-standard communication protocols for retail peripheral devices.</span></span> <span data-ttu-id="c4bec-192">OPOS, POS standardı için OLE'nin yaygın olarak benimsenen bir uygulamasıdır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-192">OPOS is a widely adopted implementation of the OLE for POS standard.</span></span> <span data-ttu-id="c4bec-193">1990'ların ortalarında geliştirilmiştir ve o günden bu yana birkaç kez güncelleştirilmiştir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-193">It was developed in the mid-1990s and has been updated several times since then.</span></span> <span data-ttu-id="c4bec-194">OPOS, POS donanımının Windows tabanlı POS sistemleri ile kolay tümleştirilmesini sağlayan bir aygıt sürücüsü mimarisi sağlar.</span><span class="sxs-lookup"><span data-stu-id="c4bec-194">OPOS provides a device driver architecture that enables easy integration of POS hardware with Windows–based POS systems.</span></span> <span data-ttu-id="c4bec-195">OPOS uyumlu donanım ile POS yazılımı arasındaki iletişimi denetler.</span><span class="sxs-lookup"><span data-stu-id="c4bec-195">OPOS controls handle communication between compatible hardware and the POS software.</span></span> <span data-ttu-id="c4bec-196">OPOS denetimi iki bölümden oluşur:</span><span class="sxs-lookup"><span data-stu-id="c4bec-196">An OPOS control consists of two parts:</span></span>
 
--   **Denetim nesnesi** – Bir cihaz sınıfı için denetim nesnesi (satır görüntülemeler gibi) yazılım programı için arabirim sağlar. Monroe Danışmanlık Hizmetleri ([www.monroecs.com](http://www.monroecs.com/)) genel denetim nesneleri (CCOs) olarak bilinen standartlaştırılmış OPOS denetim nesneleri kümesi sağlar. CCO'lar Microsoft Dynamics 365 for Retail'in POS bileşenini test etmek için kullanılır. Bu nedenle, test Microsoft Dynamics 365 for Retail'in bir cihaz sınıfını OPOS aracılığıyla desteklemesi durumuda, üreticinin OPOS için oluşturulmuş bir hizmet nesnesi sağlaması durumunda, birçok cihaz türünün destekleneceğini garanti etmeye yardımcı olur. Her cihaz türünü açıkça test etmeniz gerekmez.
--   **Hizmet nesnesi** – Hizmet nesnesi denetim nesnesi (CCO) ile cihaz arasındaki iletişimi sağlar. Genellikle, bir cihaz için hizmet nesnesi cihaz üreticisi tarafından sağlanır. Ancak, bazı durumlarda, hizmet nesnesini üreticisinin web sitesinden indirmeniz gerekebilir. Örneğin, daha yeni bir hizmet nesnesi mevcut olabilir. Üreticinin web sitesi adresini bulmak için donanım belgelerinize bakın.
+-   <span data-ttu-id="c4bec-197">**Denetim nesnesi** – Bir cihaz sınıfı için denetim nesnesi (satır görüntülemeler gibi) yazılım programı için arabirim sağlar.</span><span class="sxs-lookup"><span data-stu-id="c4bec-197">**Control object** – The control object for a device class (such as line displays) provides the interface for the software program.</span></span> <span data-ttu-id="c4bec-198">Monroe Danışmanlık Hizmetleri ([www.monroecs.com](http://www.monroecs.com/)) genel denetim nesneleri (CCOs) olarak bilinen standartlaştırılmış OPOS denetim nesneleri kümesi sağlar.</span><span class="sxs-lookup"><span data-stu-id="c4bec-198">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) provides a standardized set of OPOS control objects that are known as the common control objects (CCOs).</span></span> <span data-ttu-id="c4bec-199">CCO'lar Microsoft Dynamics 365 for Retail'in POS bileşenini test etmek için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-199">The CCOs are used to test the POS component of Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="c4bec-200">Bu nedenle, test Microsoft Dynamics 365 for Retail'in bir cihaz sınıfını OPOS aracılığıyla desteklemesi durumuda, üreticinin OPOS için oluşturulmuş bir hizmet nesnesi sağlaması durumunda, birçok cihaz türünün destekleneceğini garanti etmeye yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="c4bec-200">Therefore, the testing helps guarantee that, if Microsoft Dynamics 365 for Retail supports a device class through OPOS, many device types can be supported, provided that the manufacturer provides a service object that is built for OPOS.</span></span> <span data-ttu-id="c4bec-201">Her cihaz türünü açıkça test etmeniz gerekmez.</span><span class="sxs-lookup"><span data-stu-id="c4bec-201">You don't have to explicitly test each device type.</span></span>
+-   <span data-ttu-id="c4bec-202">**Hizmet nesnesi** – Hizmet nesnesi denetim nesnesi (CCO) ile cihaz arasındaki iletişimi sağlar.</span><span class="sxs-lookup"><span data-stu-id="c4bec-202">**Service object** – The service object provides communication between the control object (CCO) and the device.</span></span> <span data-ttu-id="c4bec-203">Genellikle, bir cihaz için hizmet nesnesi cihaz üreticisi tarafından sağlanır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-203">Typically, the service object for a device is provided by the device manufacturer.</span></span> <span data-ttu-id="c4bec-204">Ancak, bazı durumlarda, hizmet nesnesini üreticisinin web sitesinden indirmeniz gerekebilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-204">However, in some cases, you might have to download the service object from the manufacturer’s website.</span></span> <span data-ttu-id="c4bec-205">Örneğin, daha yeni bir hizmet nesnesi mevcut olabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-205">For example, a more recent service object might be available.</span></span> <span data-ttu-id="c4bec-206">Üreticinin web sitesi adresini bulmak için donanım belgelerinize bakın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-206">To find the address of the manufacturer's website, see your hardware documentation.</span></span>
 
-[![Denetim nesnesi ve hizmet nesnesi](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) POS için OLE'nin OPOS uygulanması için destek, cihaz üreticileri ve POS yayımcıların standardı doğru uygulaması durumunda, POS sistemleri ve desteklenen cihazların, daha önce birlikte test edilmemiş olsalar bile, birlikte çalışabileceklerini garanti etmeye yardımcı olur. **Not:** OPOS desteği OPOS sürücülerine sahip tüm cihazlar için destek garanti etmez. Microsoft Dynamics 365 for Retail'in öncelikle cihaz türünü veya sınıfını OPOS aracılığıyla desteklemesi gerekir. Ayrıca, hizmet nesneleri CCO'ların en son sürümü ile daima güncel olmayabilir. Ayrıca, genel olarak, hizmet nesnelerinin kalitesinin farklılık gösterdiğini de unutmamanız gerekir.
+<span data-ttu-id="c4bec-207">[![Denetim nesnesi ve hizmet nesnesi](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) POS için OLE'nin OPOS uygulanması için destek, cihaz üreticileri ve POS yayımcıların standardı doğru uygulaması durumunda, POS sistemleri ve desteklenen cihazların, daha önce birlikte test edilmemiş olsalar bile, birlikte çalışabileceklerini garanti etmeye yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="c4bec-207">[![Control object and service object](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Support for the OPOS implementation of OLE for POS helps guarantee that, if the device manufacturers and POS publishers implement the standard correctly, POS systems and supported devices can work together, even if they weren't previously tested together.</span></span> <span data-ttu-id="c4bec-208">**Not:** OPOS desteği OPOS sürücülerine sahip tüm cihazlar için destek garanti etmez.</span><span class="sxs-lookup"><span data-stu-id="c4bec-208">**Note:** OPOS support doesn't guarantee support for all devices that have OPOS drivers.</span></span> <span data-ttu-id="c4bec-209">Microsoft Dynamics 365 for Retail'in öncelikle cihaz türünü veya sınıfını OPOS aracılığıyla desteklemesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-209">Microsoft Dynamics 365 for Retail must first support that device type, or class, through OPOS.</span></span> <span data-ttu-id="c4bec-210">Ayrıca, hizmet nesneleri CCO'ların en son sürümü ile daima güncel olmayabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-210">In addition, service objects might not always be up to date with the latest version of the CCOs.</span></span> <span data-ttu-id="c4bec-211">Ayrıca, genel olarak, hizmet nesnelerinin kalitesinin farklılık gösterdiğini de unutmamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-211">You should also be aware that, in general, the quality of service objects varies.</span></span>
 
-### <a name="windows"></a>Windows
+### <a name="windows"></a><span data-ttu-id="c4bec-212">Windows</span><span class="sxs-lookup"><span data-stu-id="c4bec-212">Windows</span></span>
 
-POS'ta makbuz yazdırm OPOS için optimize edilmiştir. OPOS Windows ile yazdırmaya göre daha hızlı olma eğilimindedir. Bu nedenle, özellikle 40 sütunlu makbuzların yazdırıldığı ve hareket sürelerinin hızlı olduğu perakende ortamlarında OPOS kullanmak iyi bir fikirdir. Çoğu cihaz için OPOS denetimleri kullanacaksınız. Ancak, bazı OPOS makbuz yazıcılar Windows sürücüleri de destekler. Windows sürücüsü kullanarak, son yazı tiplerine ve birden çok kasa için bir ağ yazıcısına erişebilirsiniz. Ancak, Windows sürücüleri kullanmanın dezavantajları vardır. Aşağıda bazı dezavantaj örnekleri verilmiştir:
+<span data-ttu-id="c4bec-213">POS'ta makbuz yazdırm OPOS için optimize edilmiştir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-213">Receipt printing at the POS is optimized for OPOS.</span></span> <span data-ttu-id="c4bec-214">OPOS Windows ile yazdırmaya göre daha hızlı olma eğilimindedir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-214">OPOS tends to be much faster than printing through Windows.</span></span> <span data-ttu-id="c4bec-215">Bu nedenle, özellikle 40 sütunlu makbuzların yazdırıldığı ve hareket sürelerinin hızlı olduğu perakende ortamlarında OPOS kullanmak iyi bir fikirdir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-215">Therefore, it's a good idea to use OPOS, especially in retail environments where 40-column receipts are printed and transaction times must be fast.</span></span> <span data-ttu-id="c4bec-216">Çoğu cihaz için OPOS denetimleri kullanacaksınız.</span><span class="sxs-lookup"><span data-stu-id="c4bec-216">For most devices, you will use OPOS controls.</span></span> <span data-ttu-id="c4bec-217">Ancak, bazı OPOS makbuz yazıcılar Windows sürücüleri de destekler.</span><span class="sxs-lookup"><span data-stu-id="c4bec-217">However, some OPOS receipt printers also support Windows drivers.</span></span> <span data-ttu-id="c4bec-218">Windows sürücüsü kullanarak, son yazı tiplerine ve birden çok kasa için bir ağ yazıcısına erişebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c4bec-218">By using a Windows driver, you can access the latest fonts and network one printer for multiple registers.</span></span> <span data-ttu-id="c4bec-219">Ancak, Windows sürücüleri kullanmanın dezavantajları vardır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-219">However, there are drawbacks to using Windows drivers.</span></span> <span data-ttu-id="c4bec-220">Aşağıda bazı dezavantaj örnekleri verilmiştir:</span><span class="sxs-lookup"><span data-stu-id="c4bec-220">Here are some examples of these drawbacks:</span></span>
 
--   Windows sürücüleri kullanıldığında, görüntüler yazdırma oluşmadan önce işlenir. Bu nedenle, yazdırma OPOS denetimleri kullanan yazıcılara göre daha yavaş olma eğilimindedir.
--   Yazıcı aracılığıyla bağlanan cihazlar ("papatya zinciri") Windows sürücüleri kullanıldığında düzgün çalışmayabilir. Örneğin, kasa çekmecesi açılamayabilir veya slip yazıcısı beklediğiniz gibi çalışmayabilir.
--   Ayrıca OPOS kağıt kesme veya slip yazdırma gibi perakende makbuz yazıcılara özgü daha geniş bir değişkenler kümesini destekler.
+-   <span data-ttu-id="c4bec-221">Windows sürücüleri kullanıldığında, görüntüler yazdırma oluşmadan önce işlenir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-221">When Windows drivers are used, images are rendered before printing occurs.</span></span> <span data-ttu-id="c4bec-222">Bu nedenle, yazdırma OPOS denetimleri kullanan yazıcılara göre daha yavaş olma eğilimindedir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-222">Therefore, printing tends to be slower than it is on printers that use OPOS controls.</span></span>
+-   <span data-ttu-id="c4bec-223">Yazıcı aracılığıyla bağlanan cihazlar ("papatya zinciri") Windows sürücüleri kullanıldığında düzgün çalışmayabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-223">Devices that are connected through the printer (“daisy-chained”) might not work correctly when Windows drivers are used.</span></span> <span data-ttu-id="c4bec-224">Örneğin, kasa çekmecesi açılamayabilir veya slip yazıcısı beklediğiniz gibi çalışmayabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-224">For example, the cash drawer might not open, or the slip printer might not word as you expect.</span></span>
+-   <span data-ttu-id="c4bec-225">Ayrıca OPOS kağıt kesme veya slip yazdırma gibi perakende makbuz yazıcılara özgü daha geniş bir değişkenler kümesini destekler.</span><span class="sxs-lookup"><span data-stu-id="c4bec-225">OPOS also supports a more extensive set of variables that are specific to retail receipt printers, such as paper cutting or slip printing.</span></span>
 
-Kullanmakta olduğunuz Windows yazıcı için OPOS denetimleri varsa, yazıcı yine de Microsoft Dynamics 365 for Retail ile düzgün şekilde çalışmalıdır.
+<span data-ttu-id="c4bec-226">Kullanmakta olduğunuz Windows yazıcı için OPOS denetimleri varsa, yazıcı yine de Microsoft Dynamics 365 for Retail ile düzgün şekilde çalışmalıdır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-226">If OPOS controls are available for the Windows printer that you're using, the printer should still work correctly with Microsoft Dynamics 365 for Retail.</span></span>
 
-### <a name="universal-windows-platform"></a>Evrensel Windows Platformu
+### <a name="universal-windows-platform"></a><span data-ttu-id="c4bec-227">Evrensel Windows Platformu</span><span class="sxs-lookup"><span data-stu-id="c4bec-227">Universal Windows Platform</span></span>
 
-UWP, perakende çevre birimleri söz konusu olduğunda, Tak ve Kullan cihazlar için Windows desteğiyle ilgilidir. Bu tür bir aygıtı destekleyen bir Windows işletim sistemi sürümüne bir Tak ve Kullan cihaz bağlandığında, cihazın gerektiği gibi kullanılması için sürücü gerekli değildir. Örneğin, Windows Bluetooth hoparlör cihazı algılarsa, İşletim Sistemi cihazın **Hoparlör** sınıf türünde olduğunu bilir. Bu nedenle, ve bu cihazı bir hoparlör olarak kabul eder. Ek kurulum gerekli değildir. POS cihazları durumunda, pek çok USB cihazı takılabilir ve Windows bunları İnsan Arabirim Aygıtları (HID) olarak tanıyacaktır. Ancak, cihaz sınıf veya cihaz türü belirtmediğinden, cihazın sağladığı özelliklerin belirlenmesi mümkün olmayabilir. Windows 10'da, barkod tarayıcılar ve MSR'ler için cihaz sınıfları eklenmiştir. Bu nedenle, cihaz kendisini Windows 10'a bu sınıflardan birine ait bir cihaz olarak bildirirse, Windows cihazdan gelen olayları uygun zamanlarda dinleyecektir. Modern POS UWP MSR'leri ve tarayıcıları destekler. Bu nedenle, bu cihazların birinden gelen bir giriş için hazır olduğunda ve bu sınıfların birine ait bir cihaz bağlandığında, cihaz kullanılabilir. Örneğin, bir UWP barkod tarayıcı Windows 10 bilgisayara takılırsa ve barkod oturum açma Modern POS için yapılandırılırsa, barkod tarayıcı oturum açma ekranı üzerinde etkin hale gelir. Ek kurulum gerekli değildir. Hizmet noktası UWP cihazlarının ek sınıfları Windows'a eklenir. Bu sınıflar, nakit çekmecesi ve makbuz yazıcıları sınıflarıdır. Modern POS'ta bu yeni sınıflar için destek beklemededir.
+<span data-ttu-id="c4bec-228">UWP, perakende çevre birimleri söz konusu olduğunda, Tak ve Kullan cihazlar için Windows desteğiyle ilgilidir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-228">UWP, in the case of retail peripherals, is related to Windows support for Plug and Play devices.</span></span> <span data-ttu-id="c4bec-229">Bu tür bir aygıtı destekleyen bir Windows işletim sistemi sürümüne bir Tak ve Kullan cihaz bağlandığında, cihazın gerektiği gibi kullanılması için sürücü gerekli değildir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-229">When a Plug and Play device is connected to a Windows OS version that supports that type of device, no driver is required for the device to be used as intended.</span></span> <span data-ttu-id="c4bec-230">Örneğin, Windows Bluetooth hoparlör cihazı algılarsa, İşletim Sistemi cihazın **Hoparlör** sınıf türünde olduğunu bilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-230">For example, if Windows detects a Bluetooth speaker device, the OS knows that the device has the **Speaker** class type.</span></span> <span data-ttu-id="c4bec-231">Bu nedenle, ve bu cihazı bir hoparlör olarak kabul eder.</span><span class="sxs-lookup"><span data-stu-id="c4bec-231">Therefore, and it treats that device as a speaker.</span></span> <span data-ttu-id="c4bec-232">Ek kurulum gerekli değildir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-232">No additional setup is required.</span></span> <span data-ttu-id="c4bec-233">POS cihazları durumunda, pek çok USB cihazı takılabilir ve Windows bunları İnsan Arabirim Aygıtları (HID) olarak tanıyacaktır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-233">In the case of POS devices, many USB devices can be plugged in, and Windows will recognize them as Human Interface Devices (HIDs).</span></span> <span data-ttu-id="c4bec-234">Ancak, cihaz sınıf veya cihaz türü belirtmediğinden, cihazın sağladığı özelliklerin belirlenmesi mümkün olmayabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-234">However, it might not be able to determine the capabilities that the device provides, because the device doesn't specify the class, or type, of device.</span></span> <span data-ttu-id="c4bec-235">Windows 10'da, barkod tarayıcılar ve MSR'ler için cihaz sınıfları eklenmiştir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-235">In Windows 10, device classes for bar code scanners and MSRs have been added.</span></span> <span data-ttu-id="c4bec-236">Bu nedenle, cihaz kendisini Windows 10'a bu sınıflardan birine ait bir cihaz olarak bildirirse, Windows cihazdan gelen olayları uygun zamanlarda dinleyecektir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-236">Therefore, if a device declares itself to Windows 10 as a device of one of these classes, Windows will listen for events from the device at the appropriate times.</span></span> <span data-ttu-id="c4bec-237">Modern POS UWP MSR'leri ve tarayıcıları destekler.</span><span class="sxs-lookup"><span data-stu-id="c4bec-237">Modern POS supports UWP MSRs and scanners.</span></span> <span data-ttu-id="c4bec-238">Bu nedenle, bu cihazların birinden gelen bir giriş için hazır olduğunda ve bu sınıfların birine ait bir cihaz bağlandığında, cihaz kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-238">Therefore, when it's ready for input from one of these devices, and a device that belongs to one of these classes is connected, the device can be used.</span></span> <span data-ttu-id="c4bec-239">Örneğin, bir UWP barkod tarayıcı Windows 10 bilgisayara takılırsa ve barkod oturum açma Modern POS için yapılandırılırsa, barkod tarayıcı oturum açma ekranı üzerinde etkin hale gelir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-239">For example, if a UWP bar code scanner is plugged into a Windows 10 computer, and bar code sign-in is configured for Modern POS, the bar code scanner will become active on the sign-in screen.</span></span> <span data-ttu-id="c4bec-240">Ek kurulum gerekli değildir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-240">No additional setup is required.</span></span> <span data-ttu-id="c4bec-241">Hizmet noktası UWP cihazlarının ek sınıfları Windows'a eklenir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-241">Additional classes of point of service UWP devices are being added to Windows.</span></span> <span data-ttu-id="c4bec-242">Bu sınıflar, nakit çekmecesi ve makbuz yazıcıları sınıflarıdır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-242">These classes include classes for cash drawers and receipt printers.</span></span> <span data-ttu-id="c4bec-243">Modern POS'ta bu yeni sınıflar için destek beklemededir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-243">Support for these new device classes in Modern POS is pending.</span></span>
 
-### <a name="keyboard-wedge"></a>Klavye emülasyonu
+### <a name="keyboard-wedge"></a><span data-ttu-id="c4bec-244">Klavye emülasyonu</span><span class="sxs-lookup"><span data-stu-id="c4bec-244">Keyboard wedge</span></span>
 
-Klavye emülasyon cihazları, verileri bilgisayara sanki veriler klavyeden yazılmış gibi gönderir. Bu nedenle, varsayılan olarak, POS'ta etkin olan alan taranan veya veya geçirilen veriyi alır. Bazı durumlarda, bu davranış yanlış türde verinin yanlış alana taranmasına neden olabilir. Örneğin, bir barkod kredi kartı veri girişi için tasarlanmış bir alana taranabilir. Çoğu durumda, POS'ta taranan veya geçirilen verinin barkod mu yoksa manyetik kart mı olduğunu belirleyen bir mantık bulunur. Bu nedenle, veriler doğru şekilde ele alınır. Ancak, cihazlar klavye emülasyon cihazları yerine OPOS olarak kurulduğunda, cihazlardan gelen verilerin nasıl kullanılacağı konusunda daha fazla denetim olanağı vardır çünkü verinin geldiği cihazla ilgili daha fazla "bilgi" vardır. Örneğin, bir barkod tarayıcıdan gelen veriler otomatik olarak bir barkod olarak tanınır ve veri tabanındaki ilişkili kayıt, klavye emülasyon cihazları kullanılması durumda gerçekleşen jenerik dizin aramasına göre daha kolay ve daha hızlı bulunur.
+<span data-ttu-id="c4bec-245">Klavye emülasyon cihazları, verileri bilgisayara sanki veriler klavyeden yazılmış gibi gönderir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-245">Keyboard wedge devices send data to the computer as if that data were typed on a keyboard.</span></span> <span data-ttu-id="c4bec-246">Bu nedenle, varsayılan olarak, POS'ta etkin olan alan taranan veya veya geçirilen veriyi alır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-246">Therefore, by default, the field that is active at the POS will receive the data that is scanned or swiped.</span></span> <span data-ttu-id="c4bec-247">Bazı durumlarda, bu davranış yanlış türde verinin yanlış alana taranmasına neden olabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-247">In some cases, this behavior can cause the wrong type of data to be scanned into the wrong field.</span></span> <span data-ttu-id="c4bec-248">Örneğin, bir barkod kredi kartı veri girişi için tasarlanmış bir alana taranabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-248">For example, a bar code might be scanned into a field that is intended for input of credit card data.</span></span> <span data-ttu-id="c4bec-249">Çoğu durumda, POS'ta taranan veya geçirilen verinin barkod mu yoksa manyetik kart mı olduğunu belirleyen bir mantık bulunur.</span><span class="sxs-lookup"><span data-stu-id="c4bec-249">In many cases, there is logic at the POS that determines whether the data that is scanned or swiped is a bar code or card swipe.</span></span> <span data-ttu-id="c4bec-250">Bu nedenle, veriler doğru şekilde ele alınır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-250">Therefore, the data is handled correctly.</span></span> <span data-ttu-id="c4bec-251">Ancak, cihazlar klavye emülasyon cihazları yerine OPOS olarak kurulduğunda, cihazlardan gelen verilerin nasıl kullanılacağı konusunda daha fazla denetim olanağı vardır çünkü verinin geldiği cihazla ilgili daha fazla "bilgi" vardır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-251">However, when devices are set up as OPOS instead of keyboard wedge devices, there is more control over how the data from those devices can be consumed, because more is “known” about the device that the data originates from.</span></span> <span data-ttu-id="c4bec-252">Örneğin, bir barkod tarayıcıdan gelen veriler otomatik olarak bir barkod olarak tanınır ve veri tabanındaki ilişkili kayıt, klavye emülasyon cihazları kullanılması durumda gerçekleşen jenerik dizin aramasına göre daha kolay ve daha hızlı bulunur.</span><span class="sxs-lookup"><span data-stu-id="c4bec-252">For example, data from a bar code scanner is automatically recognized as a bar code, and the associated record in the database is found more easily and faster than if a generic string search were used, as in the case of keyboard wedge devices.</span></span>
 
-### <a name="native-printer"></a>Yerel yazıcı
+### <a name="native-printer"></a><span data-ttu-id="c4bec-253">Yerel yazıcı</span><span class="sxs-lookup"><span data-stu-id="c4bec-253">Native printer</span></span>
 
-Yerel (veya donanım profilinde türü "Cihaz" olarak adlandırılır) yazıcılar kullanıcıdan bilgisayar için yapılandırılmış bir yazıcı seçmelerini istemek üzere yapılandırılabilir. **Cihaz** türü bir yazıcı yapılandırıldığında, Modern POS bir yazdırma komutuyla karşılaşırsa, kullanıcıdan listeden bir yazıcı seçmesi istenir. Bu davranış Windows sürücülerinin davranışından farklıdır çünkü donanım profilindeki **Windows** yazıcı türü yazıcı listesi göstermez. Bunun yerine, **Cihaz adı** alanında adlandırılmış bir yazıcı sağlanmasını gerektirir.
+<span data-ttu-id="c4bec-254">Yerel (veya donanım profilinde türü "Cihaz" olarak adlandırılır) yazıcılar kullanıcıdan bilgisayar için yapılandırılmış bir yazıcı seçmelerini istemek üzere yapılandırılabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-254">Native (or "Device" as the type is named in the hardware profile) printers can be configured to prompt the user to select a printer that is configured for the computer.</span></span> <span data-ttu-id="c4bec-255">**Cihaz** türü bir yazıcı yapılandırıldığında, Modern POS bir yazdırma komutuyla karşılaşırsa, kullanıcıdan listeden bir yazıcı seçmesi istenir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-255">When a printer of the **Device** type is configured, if Modern POS encounters a print command, the user is prompted to select a printer in a list.</span></span> <span data-ttu-id="c4bec-256">Bu davranış Windows sürücülerinin davranışından farklıdır çünkü donanım profilindeki **Windows** yazıcı türü yazıcı listesi göstermez.</span><span class="sxs-lookup"><span data-stu-id="c4bec-256">This behavior differs from the behavior for Windows drivers, because the **Windows** printer type in the hardware profile doesn't show a list of printers.</span></span> <span data-ttu-id="c4bec-257">Bunun yerine, **Cihaz adı** alanında adlandırılmış bir yazıcı sağlanmasını gerektirir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-257">Instead, it requires that a named printer be provided in the **Device name** field.</span></span>
 
-### <a name="windows"></a>Windows
+### <a name="windows"></a><span data-ttu-id="c4bec-258">Windows</span><span class="sxs-lookup"><span data-stu-id="c4bec-258">Windows</span></span>
 
-**Windows** cihaz türü yalnızca yazıcılar için kullanılır. Windows yazıcı donanım profilinde yapılandırıldığında, belirli bir yazıcı adı sağlanmalıdır. Windows yazıcı yapılandırılmışsa, Modern POS yazdırma olaylarıyla karşılaştığında, olay belirtilen Windows yazıcıya gönderilir. Kullanıcıdan bir yazıcı seçmesi istenmez.
+<span data-ttu-id="c4bec-259">**Windows** cihaz türü yalnızca yazıcılar için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-259">The **Windows** device type is used for printers only.</span></span> <span data-ttu-id="c4bec-260">Windows yazıcı donanım profilinde yapılandırıldığında, belirli bir yazıcı adı sağlanmalıdır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-260">When a Windows printer is configured in the hardware profile, the specific printer name must be provided.</span></span> <span data-ttu-id="c4bec-261">Windows yazıcı yapılandırılmışsa, Modern POS yazdırma olaylarıyla karşılaştığında, olay belirtilen Windows yazıcıya gönderilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-261">When Modern POS encounters print events, if a Windows printer is configured, the event will be passed to the specified Windows printer.</span></span> <span data-ttu-id="c4bec-262">Kullanıcıdan bir yazıcı seçmesi istenmez.</span><span class="sxs-lookup"><span data-stu-id="c4bec-262">The user won't be prompted to select a printer.</span></span>
 
-### <a name="network"></a>Ağ
+### <a name="network"></a><span data-ttu-id="c4bec-263">Ağ</span><span class="sxs-lookup"><span data-stu-id="c4bec-263">Network</span></span>
 
-Ağa adreslenebilir kasa çekmeceleri, makbuz yazıcıları ve ödeme terminalleri, doğrudan Windows için Modern POS uygulaması içinde kurulan İşlemler Arası İletişim (IPC) donanım istasyonu veya diğer Modern POS istemcileri için IIS donanım istasyonu aracılığıyla bir ağ üzerinden kullanılabilir.
+<span data-ttu-id="c4bec-264">Ağa adreslenebilir kasa çekmeceleri, makbuz yazıcıları ve ödeme terminalleri, doğrudan Windows için Modern POS uygulaması içinde kurulan İşlemler Arası İletişim (IPC) donanım istasyonu veya diğer Modern POS istemcileri için IIS donanım istasyonu aracılığıyla bir ağ üzerinden kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-264">Network-addressable cash drawers, receipt printers, and payment terminals can be used over a network, either directly through the Interprocess Communications (IPC) hardware station that is built into the Modern POS for Windows application or through the IIS hardware station for other Modern POS clients.</span></span>
 
-## <a name="hardware-station-deployment-options"></a>Donanım istasyonu dağıtma seçenekleri
-### <a name="ipc-built-in"></a>IPC (yerleşik)
+## <a name="hardware-station-deployment-options"></a><span data-ttu-id="c4bec-265">Donanım istasyonu dağıtma seçenekleri</span><span class="sxs-lookup"><span data-stu-id="c4bec-265">Hardware station deployment options</span></span>
+### <a name="ipc-built-in"></a><span data-ttu-id="c4bec-266">IPC (yerleşik)</span><span class="sxs-lookup"><span data-stu-id="c4bec-266">IPC (built-in)</span></span>
 
-İşlemler Arası İletişim (IPC) donanım istasyonu Modern POS for Windows uygulamasına yerleşiktir. IPC donanım istasyonunu kullanmak için, Windows için Modern POS uygulamasını kullanacak bir kasaya bir donanım profili atayın. Sonra kasanın kullanılacağı mağaza için **Adanmış** türde bir donanım istasyonu oluşturun. Modern POS'u başlattığınızda, IPC donanım istasyonu etkin olacaktır ve yapılandırılmış POS çevre birimleri kullanıma hazır olacaktır. Herhangi bir nedenle geçici olarak yerel donanım gerekli değilse, **Donanım istasyonlarını yönet** işlemini kullanarak donanım istasyonu özelliklerini kapatın. Modern POS, IPC donanım istasyonunu ağ çevre birimleriyle doğrudan iletişim kurmak için de kullanabilir.
+<span data-ttu-id="c4bec-267">İşlemler Arası İletişim (IPC) donanım istasyonu Modern POS for Windows uygulamasına yerleşiktir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-267">The Interprocess Communications (IPC) hardware station is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="c4bec-268">IPC donanım istasyonunu kullanmak için, Windows için Modern POS uygulamasını kullanacak bir kasaya bir donanım profili atayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-268">To use the IPC hardware station, assign a hardware profile to a register that will use the Modern POS for Windows application.</span></span> <span data-ttu-id="c4bec-269">Sonra kasanın kullanılacağı mağaza için **Adanmış** türde bir donanım istasyonu oluşturun.</span><span class="sxs-lookup"><span data-stu-id="c4bec-269">Then create a hardware station of the **Dedicated** type for the store where the register will be used.</span></span> <span data-ttu-id="c4bec-270">Modern POS'u başlattığınızda, IPC donanım istasyonu etkin olacaktır ve yapılandırılmış POS çevre birimleri kullanıma hazır olacaktır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-270">When you start Modern POS, the IPC hardware station will be active, and the POS peripherals that have been configured will be ready to use.</span></span> <span data-ttu-id="c4bec-271">Herhangi bir nedenle geçici olarak yerel donanım gerekli değilse, **Donanım istasyonlarını yönet** işlemini kullanarak donanım istasyonu özelliklerini kapatın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-271">If you temporarily don't require the local hardware for some reason, use the **Manage hardware stations** operation to turn off the hardware station capabilities.</span></span> <span data-ttu-id="c4bec-272">Modern POS, IPC donanım istasyonunu ağ çevre birimleriyle doğrudan iletişim kurmak için de kullanabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-272">Modern POS can also use the IPC hardware station to communicate directly with network peripherals.</span></span>
 
-### <a name="iis"></a>IIS
+### <a name="iis"></a><span data-ttu-id="c4bec-273">IIS</span><span class="sxs-lookup"><span data-stu-id="c4bec-273">IIS</span></span>
 
-IIS veya donanım istasyonunun bağımsız sürümünü iki şekilde kulllanabilirsiniz. "IIS" tanımlayıcısı POS uygulamasının Microsoft Internet Information Services aracılığıyla donanım istasyonuna bağlanmasını gerektirir. POS uygulaması IIS donanım istasyonuna cihazların bağlandığı bilgisayarda çalışan web hizmetleri aracılığıyla bağlanır. IIS kullanıldığında, donanım istasyonuna bağlanan perakende çevrebirimleri IIS donanım istasyonuyla aynı ağda olan herhangi bir POS kasası tarafından kullanılabilir. Yalnızca Windows için Modern POS perakende çevre birimleri için yerleşik destek içerdiğinden, diğer tüm Modern POS uygulamalarının donanım profilinde yapılandırılmış POS çevre birimleri ile iletişim kurmak için IIS donanım istasyonunu kullanması gerekir. Bu nedenle, IIS donanım istasyonun her kurulumu web hizmetini çalıştıran bir bilgisayar ve cihazlarla iletişim kuran uygulama gerektirir. IIS donanım istasyonu tüm Windows olmayan Modern POS uygulamaları için gereklidir.
+<span data-ttu-id="c4bec-274">IIS veya donanım istasyonunun bağımsız sürümünü iki şekilde kulllanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c4bec-274">You can use the IIS or stand-alone version of the hardware station in two ways.</span></span> <span data-ttu-id="c4bec-275">"IIS" tanımlayıcısı POS uygulamasının Microsoft Internet Information Services aracılığıyla donanım istasyonuna bağlanmasını gerektirir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-275">The descriptor “IIS” implies that the POS application connects to the hardware station via Microsoft Internet Information Services.</span></span> <span data-ttu-id="c4bec-276">POS uygulaması IIS donanım istasyonuna cihazların bağlandığı bilgisayarda çalışan web hizmetleri aracılığıyla bağlanır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-276">The POS application connects to the IIS hardware station via web services that run on a computer where the devices are connected.</span></span> <span data-ttu-id="c4bec-277">IIS kullanıldığında, donanım istasyonuna bağlanan perakende çevrebirimleri IIS donanım istasyonuyla aynı ağda olan herhangi bir POS kasası tarafından kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-277">When IIS is used, the retail peripherals that are connected to a hardware station can be used by any POS register that is on the same network as the IIS hardware station.</span></span> <span data-ttu-id="c4bec-278">Yalnızca Windows için Modern POS perakende çevre birimleri için yerleşik destek içerdiğinden, diğer tüm Modern POS uygulamalarının donanım profilinde yapılandırılmış POS çevre birimleri ile iletişim kurmak için IIS donanım istasyonunu kullanması gerekir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-278">Because only Modern POS for Windows includes built-in support for retail peripherals, all other Modern POS applications must use the IIS hardware station to communicate with POS peripherals that are configured in the hardware profile.</span></span> <span data-ttu-id="c4bec-279">Bu nedenle, IIS donanım istasyonun her kurulumu web hizmetini çalıştıran bir bilgisayar ve cihazlarla iletişim kuran uygulama gerektirir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-279">Therefore, each instance of the IIS hardware station requires a computer that runs the web service and application that communicates with the devices.</span></span> <span data-ttu-id="c4bec-280">IIS donanım istasyonu tüm Windows olmayan Modern POS uygulamaları için gereklidir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-280">The IIS hardware station is required for all non-Windows Modern POS applications.</span></span>
 
-#### <a name="dedicated"></a>Ayrılmış
+#### <a name="dedicated"></a><span data-ttu-id="c4bec-281">Ayrılmış</span><span class="sxs-lookup"><span data-stu-id="c4bec-281">Dedicated</span></span>
 
-Modern POS, çevre birimlerin doğrudan uygulamanın kullandığı bilgisayara bağlandığını algılamak için **Adanmış** türde donanım istasyonları kullanır. Ancak, **Adanmış** türü IIS donanım istasyonları için de kullanılabilir. POS uygulaması olarak Bulut POS kullanan geleneksel, sabit POS senaryosunda **Adanmış** donanım istasyonu türü, Bulut POS çalıştıran aynı bilgisayara dağıtılan IIS donanım istasyonları için de kullanılır. Perakende çevre birimleri açısından bakıldığında, adanmış IIS donanım istasyonu geleneksel, sabit POS senaryoları için daha iyi bir perakende çevre birimi desteğine sahiptir. Adanmış donanım istasyonları donanım profilinde desteklenen tüm çevre birimlerini destekler.
+<span data-ttu-id="c4bec-282">Modern POS, çevre birimlerin doğrudan uygulamanın kullandığı bilgisayara bağlandığını algılamak için **Adanmış** türde donanım istasyonları kullanır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-282">Modern POS uses hardware stations of the **Dedicated** type to detect that peripherals are directly connected to the computer where the app is being used.</span></span> <span data-ttu-id="c4bec-283">Ancak, **Adanmış** türü IIS donanım istasyonları için de kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-283">However, the **Dedicated** type can also be used for IIS hardware stations.</span></span> <span data-ttu-id="c4bec-284">POS uygulaması olarak Bulut POS kullanan geleneksel, sabit POS senaryosunda **Adanmış** donanım istasyonu türü, Bulut POS çalıştıran aynı bilgisayara dağıtılan IIS donanım istasyonları için de kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-284">In a traditional, fixed POS scenario that uses Cloud POS as the POS application, the **Dedicated** hardware station type is used for IIS hardware stations that are deployed on the same computer that is running Cloud POS.</span></span> <span data-ttu-id="c4bec-285">Perakende çevre birimleri açısından bakıldığında, adanmış IIS donanım istasyonu geleneksel, sabit POS senaryoları için daha iyi bir perakende çevre birimi desteğine sahiptir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-285">From a retail peripherals perspective, the dedicated IIS hardware station has better retail peripheral support for traditional, fixed POS scenarios.</span></span> <span data-ttu-id="c4bec-286">Adanmış donanım istasyonları donanım profilinde desteklenen tüm çevre birimlerini destekler.</span><span class="sxs-lookup"><span data-stu-id="c4bec-286">Dedicated hardware stations support all peripherals that are supported in the hardware profile.</span></span>
 
-#### <a name="shared"></a>Paylaştırılmış
+#### <a name="shared"></a><span data-ttu-id="c4bec-287">Paylaştırılmış</span><span class="sxs-lookup"><span data-stu-id="c4bec-287">Shared</span></span>
 
-Paylaşılan donanım istasyonları, gün boyunca bir çok POS cihazı tarafından kullanılmak üzere tasarlanmıştır. Paylaşılan donanım istasyonları yalnızca kasa çekmecelerini, makbuz yazıcıları ve ödeme terminallerini desteklemek üzere optimize edilmiştir. Bağımsız barkod tarayıcıları, MSR'leri, satır görüntüleme cihazlarını, terazileri veya diğer cihazları doğrudan bağlayamazsınız. Aksi halde, birden fazla POS cihazı aynı anda çevre birimlerinden talepte bulunmaya çalıştığında çakışmalar oluşur. Desteklenen aygıtlar için çakışmalar şu şekilde yönetilir:
+<span data-ttu-id="c4bec-288">Paylaşılan donanım istasyonları, gün boyunca bir çok POS cihazı tarafından kullanılmak üzere tasarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-288">Shared hardware stations are intended to be used by multiple POS devices through the course of the day.</span></span> <span data-ttu-id="c4bec-289">Paylaşılan donanım istasyonları yalnızca kasa çekmecelerini, makbuz yazıcıları ve ödeme terminallerini desteklemek üzere optimize edilmiştir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-289">Shared hardware stations are optimized to support only cash drawers, receipt printers, and payment terminals.</span></span> <span data-ttu-id="c4bec-290">Bağımsız barkod tarayıcıları, MSR'leri, satır görüntüleme cihazlarını, terazileri veya diğer cihazları doğrudan bağlayamazsınız.</span><span class="sxs-lookup"><span data-stu-id="c4bec-290">You can't directly connect stand-alone bar code scanners, MSRs, line displays, scales, or other devices.</span></span> <span data-ttu-id="c4bec-291">Aksi halde, birden fazla POS cihazı aynı anda çevre birimlerinden talepte bulunmaya çalıştığında çakışmalar oluşur.</span><span class="sxs-lookup"><span data-stu-id="c4bec-291">Otherwise, conflicts will occur when multiple POS devices try to claim those peripherals at the same time.</span></span> <span data-ttu-id="c4bec-292">Desteklenen aygıtlar için çakışmalar şu şekilde yönetilir:</span><span class="sxs-lookup"><span data-stu-id="c4bec-292">Here is how conflicts are managed for supported devices:</span></span>
 
--   **Kasa çekmecesi** – Kasa çekmecesi cihaza gönderilen bir olay ile açılır. Kasa çekmecesi çağrıldığında oluşabilecek tek sorun kasa çekmecesinin zaten açık olması durumunda oluşur. Paylaşılan donanım istasyonları durumunda, kasa çekmecesi donanım profilinde **Paylaşılan** olarak ayarlanmalıdır. Bu ayar, POS'un açma komutları gönderdiğinde kasa çekmecesinin zaten açık olup olmadığını denetlemesini önler.
--   **Makbuz yazıcısı** – İki makbuz yazdırma komutu donanım istasyona aynı ayna gönderilirse, aygıta bağlı olarak komutlardan biri kaybolabilir. Bazı cihazlar bu sorunu önleyebilecek dahili belleğe veya havuza sahiptir. Yazdırma komutu başarılı olmazsa, kasiyer bir hata iletisi alır ve yazdır komutunu POS'tan yeniden deneyebilir.
--   **Ödeme terminali** – Kasiyer bir hareketi zaten kullanılmakta olan ödeme terminalinden ödemeye çalışırsa, terminalin kullanılmakta olduğu kasiyere bir mesajla bildirilir ve daha sonra tekrar denemesi istenir. Genellikle, kasiyerler bir terminalin zaten kullanılmakta olduğunu görebilir ve ödemeyi yeniden denemeden önce diğer hareketin tamamlanmasını bekleyecektir.
+-   <span data-ttu-id="c4bec-293">**Kasa çekmecesi** – Kasa çekmecesi cihaza gönderilen bir olay ile açılır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-293">**Cash drawer** – The cash drawer is opened via an event that is sent to the device.</span></span> <span data-ttu-id="c4bec-294">Kasa çekmecesi çağrıldığında oluşabilecek tek sorun kasa çekmecesinin zaten açık olması durumunda oluşur.</span><span class="sxs-lookup"><span data-stu-id="c4bec-294">The only issue that can occur when a cash drawer is called occurs if the cash drawer is already open.</span></span> <span data-ttu-id="c4bec-295">Paylaşılan donanım istasyonları durumunda, kasa çekmecesi donanım profilinde **Paylaşılan** olarak ayarlanmalıdır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-295">In the case of shared hardware stations, the cash drawer should be set to **Shared** in the hardware profile.</span></span> <span data-ttu-id="c4bec-296">Bu ayar, POS'un açma komutları gönderdiğinde kasa çekmecesinin zaten açık olup olmadığını denetlemesini önler.</span><span class="sxs-lookup"><span data-stu-id="c4bec-296">This setting prevents the POS from checking whether the cash drawer is already open when it sends open commands.</span></span>
+-   <span data-ttu-id="c4bec-297">**Makbuz yazıcısı** – İki makbuz yazdırma komutu donanım istasyona aynı ayna gönderilirse, aygıta bağlı olarak komutlardan biri kaybolabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-297">**Receipt printer** – If two receipt printing commands are sent to the hardware station at the same time, one of the commands can be lost, depending on the device.</span></span> <span data-ttu-id="c4bec-298">Bazı cihazlar bu sorunu önleyebilecek dahili belleğe veya havuza sahiptir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-298">Some devices have internal memory or pooling that can prevent this issue.</span></span> <span data-ttu-id="c4bec-299">Yazdırma komutu başarılı olmazsa, kasiyer bir hata iletisi alır ve yazdır komutunu POS'tan yeniden deneyebilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-299">If a print command isn't successful, the cashier receives an error message and can retry the print command from the POS.</span></span>
+-   <span data-ttu-id="c4bec-300">**Ödeme terminali** – Kasiyer bir hareketi zaten kullanılmakta olan ödeme terminalinden ödemeye çalışırsa, terminalin kullanılmakta olduğu kasiyere bir mesajla bildirilir ve daha sonra tekrar denemesi istenir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-300">**Payment terminal** – If a cashier tries to tender a transaction on a payment terminal that is already being used, a message notifies the cashier that the terminal is being used and asks the cashier to try again later.</span></span> <span data-ttu-id="c4bec-301">Genellikle, kasiyerler bir terminalin zaten kullanılmakta olduğunu görebilir ve ödemeyi yeniden denemeden önce diğer hareketin tamamlanmasını bekleyecektir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-301">Usually, cashiers can see that a terminal is already being used and will wait until the other transaction is completed before they try to tender again.</span></span>
 
-Doğrulama, desteklenmeyen cihazların paylaşılan bir donanım istasyonuyla eşlenen bir donanım profili için ayarlanığ ayarlanmadığını algılamak için gelecekteki bir sürümde planlanmaktadır. Desteklenmeyen herhangi bir cihaz algılanırsa, kullanıcı cihazların paylaşılan donanım istasyonları için desteklenmediğini bildiren bir ileti alır. Paylaşılan donanım istasyonları söz konusu olduğunda **Ödeme sırasında seç** seçeneği kasa düzeyinde **Evet** olarak ayarlanır. POS kullanıcısından POS'taki bir hareket için bir ödeme seçildiğinde bir donanım istasyonu seçmesi istenir. Donanım istasyonu yalnızca ödeme anında seçildiğinde, donanım istasyon seçimi doğrudan mobil senaryoları için POS akışına eklenir. Ek bir avantaj olarak, ödeme terminalindeki satır görünümü paylaşılan senaryolar için kullanılmaz. Ödeme terminali satırı görüntüleme olarak kullanılırsa, hareket tamamlanıncaya kadar diğer kullanıcıların bu terminali kullanması engellenebilir. Mobil senaryolarda, satırlar bir harekete daha uzun bir süre içinde eklenebilir. Bu nedenle, **Ödeme sırasında seç** seçeneği, en uygun aygıt kullanılabilirliğini sağlamak için gereklidir.
+<span data-ttu-id="c4bec-302">Doğrulama, desteklenmeyen cihazların paylaşılan bir donanım istasyonuyla eşlenen bir donanım profili için ayarlanığ ayarlanmadığını algılamak için gelecekteki bir sürümde planlanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-302">Validation is planned for a future release, to detect whether unsupported devices are set up for a hardware profile that is mapped to a shared hardware station.</span></span> <span data-ttu-id="c4bec-303">Desteklenmeyen herhangi bir cihaz algılanırsa, kullanıcı cihazların paylaşılan donanım istasyonları için desteklenmediğini bildiren bir ileti alır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-303">If any unsupported devices are detected, the user will receive a message that states that the devices aren't supported for shared hardware stations.</span></span> <span data-ttu-id="c4bec-304">Paylaşılan donanım istasyonları söz konusu olduğunda **Ödeme sırasında seç** seçeneği kasa düzeyinde **Evet** olarak ayarlanır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-304">In the case of shared hardware stations, the **Select upon tendering** option is set to **Yes** at the register level.</span></span> <span data-ttu-id="c4bec-305">POS kullanıcısından POS'taki bir hareket için bir ödeme seçildiğinde bir donanım istasyonu seçmesi istenir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-305">The POS user is then prompted to select a hardware station when a tender is selected for a transaction at the POS.</span></span> <span data-ttu-id="c4bec-306">Donanım istasyonu yalnızca ödeme anında seçildiğinde, donanım istasyon seçimi doğrudan mobil senaryoları için POS akışına eklenir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-306">When the hardware station is selected only at the time of tender, the hardware station selection is added directly to the POS workflow for mobile scenarios.</span></span> <span data-ttu-id="c4bec-307">Ek bir avantaj olarak, ödeme terminalindeki satır görünümü paylaşılan senaryolar için kullanılmaz.</span><span class="sxs-lookup"><span data-stu-id="c4bec-307">As an additional benefit, the line display on the payment terminal isn't used for shared scenarios.</span></span> <span data-ttu-id="c4bec-308">Ödeme terminali satırı görüntüleme olarak kullanılırsa, hareket tamamlanıncaya kadar diğer kullanıcıların bu terminali kullanması engellenebilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-308">If the payment terminal is used as a line display, other users might be blocked from using that terminal until the transaction is completed.</span></span> <span data-ttu-id="c4bec-309">Mobil senaryolarda, satırlar bir harekete daha uzun bir süre içinde eklenebilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-309">In mobile scenarios, lines might be added to a transaction over a longer period.</span></span> <span data-ttu-id="c4bec-310">Bu nedenle, **Ödeme sırasında seç** seçeneği, en uygun aygıt kullanılabilirliğini sağlamak için gereklidir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-310">Therefore, the **Select upon tendering** option is required in order to ensure optimum device availability.</span></span>
 
-### <a name="network-peripherals"></a>Ağ çevre birimleri
+### <a name="network-peripherals"></a><span data-ttu-id="c4bec-311">Ağ çevre birimleri</span><span class="sxs-lookup"><span data-stu-id="c4bec-311">Network peripherals</span></span>
 
-Donanım profilindeki cihazlar için ağ tanımlaması kasa çekmecelerinin, makbuz yazıcıların ve ödeme terminallerinin ağ bağlantısı üzerinden bağlanmasını sağlar.
+<span data-ttu-id="c4bec-312">Donanım profilindeki cihazlar için ağ tanımlaması kasa çekmecelerinin, makbuz yazıcıların ve ödeme terminallerinin ağ bağlantısı üzerinden bağlanmasını sağlar.</span><span class="sxs-lookup"><span data-stu-id="c4bec-312">The network designation for devices in the hardware profile enables cash drawers, receipt printers, and payment terminals to be connected via a network connection.</span></span>
 
-#### <a name="modern-pos-for-windows"></a>Windows için Modern POS
+#### <a name="modern-pos-for-windows"></a><span data-ttu-id="c4bec-313">Windows için Modern POS</span><span class="sxs-lookup"><span data-stu-id="c4bec-313">Modern POS for Windows</span></span>
 
-Ağ çevre birimleri için IP adreslerini iki yerde belirtebilirsiniz. Modern POS Windows istemcisi tek bir ağ çevre birimleri kümesi kullanıyorsa, bu cihazların IP adreslerini kasanın kendi Eylem Bölmesinde **IP yapılandırması** seçeneğini kullanarak ayarlamanız gerekir. Ağ cihazlarının POS kasaları arasında paylaştırılacak olması durumunda, kendisine atanmış ağ cihazları olan bir donanım profili doğrudan paylaşılan donanım istasyonuyla eşlenebilir. IP adreslerini atamak için, **Perakende mağazalar** sayfasında bu donanım istasyonunu seçin ve sonra **Donanım istasyonları** bölümündeki **IP yapılandırması** seçeneğini seçerek bu donanım istasyonuna atanan ağ cihazlarını belirtin. Yalnızca ağ cihazlarına sahip donanım istasyonları için, donanım istasyonunun kendisini dağıtmak zorunda değilsiniz. Bu durumda, donanım istasyonu yalnızca ağa adreslenebilir cihazları perakende mağazadaki konumlarına göre kavramsal olarak gruplamak için gereklidir.
+<span data-ttu-id="c4bec-314">Ağ çevre birimleri için IP adreslerini iki yerde belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c4bec-314">You can specify IP addresses for network peripherals in two places.</span></span> <span data-ttu-id="c4bec-315">Modern POS Windows istemcisi tek bir ağ çevre birimleri kümesi kullanıyorsa, bu cihazların IP adreslerini kasanın kendi Eylem Bölmesinde **IP yapılandırması** seçeneğini kullanarak ayarlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-315">If the Modern POS Windows client is using a single set of network peripherals, you should set the IP addresses for those devices by using the **IP configuration** option on the Action Pane for the register itself.</span></span> <span data-ttu-id="c4bec-316">Ağ cihazlarının POS kasaları arasında paylaştırılacak olması durumunda, kendisine atanmış ağ cihazları olan bir donanım profili doğrudan paylaşılan donanım istasyonuyla eşlenebilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-316">In the case of network devices that will be shared among POS registers, a hardware profile that has network devices assigned to it can be mapped directly to a shared hardware station.</span></span> <span data-ttu-id="c4bec-317">IP adreslerini atamak için, **Perakende mağazalar** sayfasında bu donanım istasyonunu seçin ve sonra **Donanım istasyonları** bölümündeki **IP yapılandırması** seçeneğini seçerek bu donanım istasyonuna atanan ağ cihazlarını belirtin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-317">To assign IP addresses, select that hardware station on the **Retail stores** page, and then use the **IP configuration** option in the **Hardware stations** section to specify the network devices that are assigned to that hardware station.</span></span> <span data-ttu-id="c4bec-318">Yalnızca ağ cihazlarına sahip donanım istasyonları için, donanım istasyonunun kendisini dağıtmak zorunda değilsiniz.</span><span class="sxs-lookup"><span data-stu-id="c4bec-318">For hardware stations that have only network devices, you don't have to deploy the hardware station itself.</span></span> <span data-ttu-id="c4bec-319">Bu durumda, donanım istasyonu yalnızca ağa adreslenebilir cihazları perakende mağazadaki konumlarına göre kavramsal olarak gruplamak için gereklidir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-319">In this case, the hardware station is required only in order to conceptually group network-addressable devices according to their location in the retail store.</span></span>
 
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>Bulut POS, iOS için Modern POS ve Android için Modern POS
+#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a><span data-ttu-id="c4bec-320">Bulut POS, iOS için Modern POS ve Android için Modern POS</span><span class="sxs-lookup"><span data-stu-id="c4bec-320">Cloud POS, Modern POS for iOS, and Modern POS for Android</span></span>
 
-Fiziksel olarak bağlı olan ve ağa adreslenebilir çevre birimleri yöneten mantık donanım istasyonunda yer alır. Bu nedenle, Modern POS için Windows dışındaki tüm POS istemcileri için bir IIS donanım istasyonunun dağıtılmış ve POS'un çevre birimlerle, bu çevre birimlerin fiziksel olarak donanım istasyonuna bağlı olmasına veya ağ üzerinden adreslenmiş olmasına bakılmaksızın, iletişim kurmasını sağlamak üzere etkinleştirilmiş olması gerekir.
+<span data-ttu-id="c4bec-321">Fiziksel olarak bağlı olan ve ağa adreslenebilir çevre birimleri yöneten mantık donanım istasyonunda yer alır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-321">The logic that drives physically connected and network-addressable peripherals is contained in the hardware station.</span></span> <span data-ttu-id="c4bec-322">Bu nedenle, Modern POS için Windows dışındaki tüm POS istemcileri için bir IIS donanım istasyonunun dağıtılmış ve POS'un çevre birimlerle, bu çevre birimlerin fiziksel olarak donanım istasyonuna bağlı olmasına veya ağ üzerinden adreslenmiş olmasına bakılmaksızın, iletişim kurmasını sağlamak üzere etkinleştirilmiş olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-322">Therefore, for all POS clients except Modern POS for Windows, an IIS hardware station must be deployed and active to enable the POS to communicate with peripherals, regardless of whether those peripherals are physically connected to a hardware station or addressed over the network.</span></span>
 
-## <a name="setup-and-configuration"></a>Kurulum ve yapılandırma
-### <a name="hardware-station-installation"></a>Donanım istasyonu yükleme
+## <a name="setup-and-configuration"></a><span data-ttu-id="c4bec-323">Kurulum ve yapılandırma</span><span class="sxs-lookup"><span data-stu-id="c4bec-323">Setup and configuration</span></span>
+### <a name="hardware-station-installation"></a><span data-ttu-id="c4bec-324">Donanım istasyonu yükleme</span><span class="sxs-lookup"><span data-stu-id="c4bec-324">Hardware station installation</span></span>
 
-Bilgi için bkz. [Perakende donanım istasyonu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md).
+<span data-ttu-id="c4bec-325">Bilgi için bkz. [Perakende donanım istasyonu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="c4bec-325">For information, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
 
-### <a name="modern-pos-for-windows-setup-and-configuration"></a>Windows için Modern POS kurulumu ve yapılandırması
+### <a name="modern-pos-for-windows-setup-and-configuration"></a><span data-ttu-id="c4bec-326">Windows için Modern POS kurulumu ve yapılandırması</span><span class="sxs-lookup"><span data-stu-id="c4bec-326">Modern POS for Windows setup and configuration</span></span>
 
-Bilgi için bkz. [Retail Modern POS yapılandırma ve yükleme](retail-modern-pos-device-activation.md)
+<span data-ttu-id="c4bec-327">Bilgi için bkz. [Retail Modern POS yapılandırma ve yükleme](retail-modern-pos-device-activation.md)</span><span class="sxs-lookup"><span data-stu-id="c4bec-327">For information, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
 
-### <a name="opos-device-setup-and-configuration"></a>OPOS cihazı kurma ve yapılandırma
+### <a name="opos-device-setup-and-configuration"></a><span data-ttu-id="c4bec-328">OPOS cihazı kurma ve yapılandırma</span><span class="sxs-lookup"><span data-stu-id="c4bec-328">OPOS device setup and configuration</span></span>
 
-OPOS bileşenleri hakkında daha fazla bilgi için bu belgenin "Desteklenen arabirimler" bölümüne bakın. Genellikle, OPOS sürücüler cihaz üreticisi tarafından sağlanır. Bir OPOS aygıt sürücüsü yüklendiğinde, Windows kayıt defterinde aşağıdaki konumlardan birine bir anahtar ekler:
+<span data-ttu-id="c4bec-329">OPOS bileşenleri hakkında daha fazla bilgi için bu belgenin "Desteklenen arabirimler" bölümüne bakın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-329">For more information about OPOS components, see the "Supported interfaces" section of this document.</span></span> <span data-ttu-id="c4bec-330">Genellikle, OPOS sürücüler cihaz üreticisi tarafından sağlanır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-330">Typically, OPOS drivers are provided by the device manufacturer.</span></span> <span data-ttu-id="c4bec-331">Bir OPOS aygıt sürücüsü yüklendiğinde, Windows kayıt defterinde aşağıdaki konumlardan birine bir anahtar ekler:</span><span class="sxs-lookup"><span data-stu-id="c4bec-331">When an OPOS device driver is installed, it adds a key to the Windows registry in one of the following locations:</span></span>
 
--   **32 bit sistem:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
--   **64 bit sistem:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+-   <span data-ttu-id="c4bec-332">**32 bit sistem:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-332">**32-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span></span>
+-   <span data-ttu-id="c4bec-333">**64 bit sistem:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-333">**64-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span></span>
 
-ServiceOPOS kayıt defteri konumu içinde, yapılandırılan cihazlar OPOS cihaz sınıfına göre düzenlenir. Birden fazla cihaz sürücüsü kaydedilir.
+<span data-ttu-id="c4bec-334">ServiceOPOS kayıt defteri konumu içinde, yapılandırılan cihazlar OPOS cihaz sınıfına göre düzenlenir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-334">Within the ServiceOPOS registry location, configured devices are organized according to the OPOS device class.</span></span> <span data-ttu-id="c4bec-335">Birden fazla cihaz sürücüsü kaydedilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-335">Multiple device drivers are saved.</span></span>
 
-## <a name="supported-scenarios-by-hardware-station-type"></a>Donanım istasyon türü tarafından desteklenen senaryolar
-### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a>İstemci desteği – IPC donanım istasyonu ile IIS donanım istasyon karşılaştırması
+## <a name="supported-scenarios-by-hardware-station-type"></a><span data-ttu-id="c4bec-336">Donanım istasyon türü tarafından desteklenen senaryolar</span><span class="sxs-lookup"><span data-stu-id="c4bec-336">Supported scenarios by hardware station type</span></span>
+### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a><span data-ttu-id="c4bec-337">İstemci desteği – IPC donanım istasyonu ile IIS donanım istasyon karşılaştırması</span><span class="sxs-lookup"><span data-stu-id="c4bec-337">Client support – IPC hardware station vs. IIS hardware station</span></span>
 
-Aşağıdaki tabloda desteklenen topolojiler ve dağıtım senaryoları gösterilmektedir.
+<span data-ttu-id="c4bec-338">Aşağıdaki tabloda desteklenen topolojiler ve dağıtım senaryoları gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-338">The following table shows the topologies and deployment scenarios that are supported.</span></span>
 
-| İstemci      | IPC donanım istasyonu | IIS donanım istasyonu |
+| <span data-ttu-id="c4bec-339">İstemci</span><span class="sxs-lookup"><span data-stu-id="c4bec-339">Client</span></span>      | <span data-ttu-id="c4bec-340">IPC donanım istasyonu</span><span class="sxs-lookup"><span data-stu-id="c4bec-340">IPC hardware station</span></span> | <span data-ttu-id="c4bec-341">IIS donanım istasyonu</span><span class="sxs-lookup"><span data-stu-id="c4bec-341">IIS hardware station</span></span> |
 |-------------|----------------------|----------------------|
-| Windows uygulaması | Evet                  | Evet                  |
-| Bulut POS   | Hayır                   | Evet                  |
-| Android     | Hayır                   | Evet                  |
-| iOS         | Hayır                   | Evet                  |
+| <span data-ttu-id="c4bec-342">Windows uygulaması</span><span class="sxs-lookup"><span data-stu-id="c4bec-342">Windows app</span></span> | <span data-ttu-id="c4bec-343">Evet</span><span class="sxs-lookup"><span data-stu-id="c4bec-343">Yes</span></span>                  | <span data-ttu-id="c4bec-344">Evet</span><span class="sxs-lookup"><span data-stu-id="c4bec-344">Yes</span></span>                  |
+| <span data-ttu-id="c4bec-345">Bulut POS</span><span class="sxs-lookup"><span data-stu-id="c4bec-345">Cloud POS</span></span>   | <span data-ttu-id="c4bec-346">Hayır</span><span class="sxs-lookup"><span data-stu-id="c4bec-346">No</span></span>                   | <span data-ttu-id="c4bec-347">Evet</span><span class="sxs-lookup"><span data-stu-id="c4bec-347">Yes</span></span>                  |
+| <span data-ttu-id="c4bec-348">Android</span><span class="sxs-lookup"><span data-stu-id="c4bec-348">Android</span></span>     | <span data-ttu-id="c4bec-349">Hayır</span><span class="sxs-lookup"><span data-stu-id="c4bec-349">No</span></span>                   | <span data-ttu-id="c4bec-350">Evet</span><span class="sxs-lookup"><span data-stu-id="c4bec-350">Yes</span></span>                  |
+| <span data-ttu-id="c4bec-351">iOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-351">iOS</span></span>         | <span data-ttu-id="c4bec-352">Hayır</span><span class="sxs-lookup"><span data-stu-id="c4bec-352">No</span></span>                   | <span data-ttu-id="c4bec-353">Evet</span><span class="sxs-lookup"><span data-stu-id="c4bec-353">Yes</span></span>                  |
 
-### <a name="network-peripherals"></a>Ağ çevre birimleri
+### <a name="network-peripherals"></a><span data-ttu-id="c4bec-354">Ağ çevre birimleri</span><span class="sxs-lookup"><span data-stu-id="c4bec-354">Network peripherals</span></span>
 
-Ağ çevre birimleri doğrudan Windows için Modern POS uygulamasına yerleşik olan donanım istasyonu aracılığıyla desteklenebilir. Diğer tüm istemciler için bir IIS donanım istasyonu dağıtmanız gerekir.
+<span data-ttu-id="c4bec-355">Ağ çevre birimleri doğrudan Windows için Modern POS uygulamasına yerleşik olan donanım istasyonu aracılığıyla desteklenebilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-355">Network peripherals can be supported directly through the hardware station that is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="c4bec-356">Diğer tüm istemciler için bir IIS donanım istasyonu dağıtmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-356">For all other clients, you must deploy an IIS hardware station.</span></span>
 
-| İstemci      | IPC donanım istasyonu | IIS donanım istasyonu |
+| <span data-ttu-id="c4bec-357">İstemci</span><span class="sxs-lookup"><span data-stu-id="c4bec-357">Client</span></span>      | <span data-ttu-id="c4bec-358">IPC donanım istasyonu</span><span class="sxs-lookup"><span data-stu-id="c4bec-358">IPC hardware station</span></span> | <span data-ttu-id="c4bec-359">IIS donanım istasyonu</span><span class="sxs-lookup"><span data-stu-id="c4bec-359">IIS hardware station</span></span> |
 |-------------|----------------------|----------------------|
-| Windows uygulaması | Evet                  | Evet                  |
-| Bulut POS   | Hayır                   | Evet                  |
-| Android     | Hayır                   | Evet                  |
-| iOS         | Hayır                   | Evet                  |
+| <span data-ttu-id="c4bec-360">Windows uygulaması</span><span class="sxs-lookup"><span data-stu-id="c4bec-360">Windows app</span></span> | <span data-ttu-id="c4bec-361">Evet</span><span class="sxs-lookup"><span data-stu-id="c4bec-361">Yes</span></span>                  | <span data-ttu-id="c4bec-362">Evet</span><span class="sxs-lookup"><span data-stu-id="c4bec-362">Yes</span></span>                  |
+| <span data-ttu-id="c4bec-363">Bulut POS</span><span class="sxs-lookup"><span data-stu-id="c4bec-363">Cloud POS</span></span>   | <span data-ttu-id="c4bec-364">Hayır</span><span class="sxs-lookup"><span data-stu-id="c4bec-364">No</span></span>                   | <span data-ttu-id="c4bec-365">Evet</span><span class="sxs-lookup"><span data-stu-id="c4bec-365">Yes</span></span>                  |
+| <span data-ttu-id="c4bec-366">Android</span><span class="sxs-lookup"><span data-stu-id="c4bec-366">Android</span></span>     | <span data-ttu-id="c4bec-367">Hayır</span><span class="sxs-lookup"><span data-stu-id="c4bec-367">No</span></span>                   | <span data-ttu-id="c4bec-368">Evet</span><span class="sxs-lookup"><span data-stu-id="c4bec-368">Yes</span></span>                  |
+| <span data-ttu-id="c4bec-369">iOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-369">iOS</span></span>         | <span data-ttu-id="c4bec-370">Hayır</span><span class="sxs-lookup"><span data-stu-id="c4bec-370">No</span></span>                   | <span data-ttu-id="c4bec-371">Evet</span><span class="sxs-lookup"><span data-stu-id="c4bec-371">Yes</span></span>                  |
 
-## <a name="supported-device-types-by-hardware-station-type"></a>Donanım istasyon türü tarafından desteklenen cihaz türleri
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Windows için Modern POS, IPC (yerleşik) donanım istasyonu ile
-
-<table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Desteklenen cihaz sınıfı</th>
-<th>Desteklenen arabirimler</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Yazıcı</td>
-<td><ul>
-<li>OPOS</li>
-<li>Windows sürücüsü</li>
-<li>Aygıt</li>
-<li>Ağ</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Yazıcı 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>Windows sürücüsü</li>
-<li>Aygıt</li>
-<li>Ağ</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Satır görüntüleme</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>Çift ekran</td>
-<td>Windows sürücüsü</td>
-</tr>
-<tr class="odd">
-<td>MSR</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (Kurulum gerekli değildir.)</li>
-<li>Klavye emülsayonu (Kurulum gerekli değildir.)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Keşideci</td>
-<td><ul>
-<li>OPOS</li>
-<li>Ağ <strong>Not:</strong> Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa yalnızca bir çekmece ayarlanabilir.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Çekmece 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>Ağ <strong>Not:</strong> Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa yalnızca bir çekmece ayarlanabilir.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Tarayıcı</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (Kurulum gerekli değildir.)</li>
-<li>Klavye emülsayonu (Kurulum gerekli değildir.)</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Tarayıcı 2</td>
-<td><ul>
-<li>OPOS</li>
-<li>UWP (Kurulum gerekli değildir.)</li>
-<li>Klavye emülsayonu (Kurulum gerekli değildir.)</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Ölçek</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>PIN pad</td>
-<td>OPOS (Destek ödeme bağlayıcısı özelleştirmesi aracılığıyla sağlanır.)</td>
-</tr>
-<tr class="even">
-<td>İmza alma</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>Ödeme terminali </td>
-<td><ul>
-<li>Özel cihaz desteği</li>
-<li>Ağ (Daha fazla bilgi için, ödeme bağlayıcısı belgelerine bakın.)</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
-
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>Adanmış bir IIS donanım istasyonu olan tüm Modern POS istemcileri
-
-**Not:** IIS donanım istasyonu "adanmış" olduğunda, POS istemcisi ile donanım istasyonu arasında bire bir ilişki bulunur.
+## <a name="supported-device-types-by-hardware-station-type"></a><span data-ttu-id="c4bec-372">Donanım istasyon türü tarafından desteklenen cihaz türleri</span><span class="sxs-lookup"><span data-stu-id="c4bec-372">Supported device types by hardware station type</span></span>
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="c4bec-373">Windows için Modern POS, IPC (yerleşik) donanım istasyonu ile</span><span class="sxs-lookup"><span data-stu-id="c4bec-373">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
 
 <table>
 <colgroup>
@@ -341,82 +239,100 @@ Ağ çevre birimleri doğrudan Windows için Modern POS uygulamasına yerleşik 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desteklenen cihaz sınıfı</th>
-<th>Desteklenen arabirimler</th>
+<th><span data-ttu-id="c4bec-374">Desteklenen cihaz sınıfı</span><span class="sxs-lookup"><span data-stu-id="c4bec-374">Supported device class</span></span></th>
+<th><span data-ttu-id="c4bec-375">Desteklenen arabirimler</span><span class="sxs-lookup"><span data-stu-id="c4bec-375">Supported interfaces</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Yazıcı</td>
+<td><span data-ttu-id="c4bec-376">Yazıcı</span><span class="sxs-lookup"><span data-stu-id="c4bec-376">Printer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Windows sürücüsü <strong>Not:</strong> Ağ üzerindeki Windows yazıcıları için, donanım istasyonu kullanıcısının yazıcıya erişim izni olmalıdır.</li>
-<li>Ağ</li>
+<li><span data-ttu-id="c4bec-377">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-377">OPOS</span></span></li>
+<li><span data-ttu-id="c4bec-378">Windows sürücüsü</span><span class="sxs-lookup"><span data-stu-id="c4bec-378">Windows driver</span></span></li>
+<li><span data-ttu-id="c4bec-379">Aygıt</span><span class="sxs-lookup"><span data-stu-id="c4bec-379">Device</span></span></li>
+<li><span data-ttu-id="c4bec-380">Ağ</span><span class="sxs-lookup"><span data-stu-id="c4bec-380">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Yazıcı 2</td>
+<td><span data-ttu-id="c4bec-381">Yazıcı 2</span><span class="sxs-lookup"><span data-stu-id="c4bec-381">Printer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Windows sürücüsü</li>
-<li>Ağ</li>
+<li><span data-ttu-id="c4bec-382">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-382">OPOS</span></span></li>
+<li><span data-ttu-id="c4bec-383">Windows sürücüsü</span><span class="sxs-lookup"><span data-stu-id="c4bec-383">Windows driver</span></span></li>
+<li><span data-ttu-id="c4bec-384">Aygıt</span><span class="sxs-lookup"><span data-stu-id="c4bec-384">Device</span></span></li>
+<li><span data-ttu-id="c4bec-385">Ağ</span><span class="sxs-lookup"><span data-stu-id="c4bec-385">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Satır görüntüleme</td>
-<td>OPOS</td>
+<td><span data-ttu-id="c4bec-386">Satır görüntüleme</span><span class="sxs-lookup"><span data-stu-id="c4bec-386">Line display</span></span></td>
+<td><span data-ttu-id="c4bec-387">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-387">OPOS</span></span></td>
 </tr>
 <tr class="even">
-<td>MSR</td>
-<td>OPOS</td>
+<td><span data-ttu-id="c4bec-388">Çift ekran</span><span class="sxs-lookup"><span data-stu-id="c4bec-388">Dual display</span></span></td>
+<td><span data-ttu-id="c4bec-389">Windows sürücüsü</span><span class="sxs-lookup"><span data-stu-id="c4bec-389">Windows driver</span></span></td>
 </tr>
 <tr class="odd">
-<td>Keşideci</td>
+<td><span data-ttu-id="c4bec-390">MSR</span><span class="sxs-lookup"><span data-stu-id="c4bec-390">MSR</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Ağ <strong>Not:</strong> Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa donanım profili başına yalnızca bir çekmece ayarlanabilir.</li>
+<li><span data-ttu-id="c4bec-391">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-391">OPOS</span></span></li>
+<li><span data-ttu-id="c4bec-392">UWP (Kurulum gerekli değildir.)</span><span class="sxs-lookup"><span data-stu-id="c4bec-392">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="c4bec-393">Klavye emülsayonu (Kurulum gerekli değildir.)</span><span class="sxs-lookup"><span data-stu-id="c4bec-393">Keyboard wedge (No setup is required.)</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Çekmece 2</td>
+<td><span data-ttu-id="c4bec-394">Keşideci</span><span class="sxs-lookup"><span data-stu-id="c4bec-394">Drawer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Ağ</li>
+<li><span data-ttu-id="c4bec-395">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-395">OPOS</span></span></li>
+<li><span data-ttu-id="c4bec-396">Ağ <strong>Not:</strong> Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa yalnızca bir çekmece ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-396">Network <strong>Note:</strong> Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Tarayıcı</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>Tarayıcı 2</td>
-<td>OPOS</td>
-</tr>
-<tr class="odd">
-<td>Ölçek</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>PIN pad</td>
-<td>OPOS (Destek ödeme bağlayıcısı özelleştirmesi aracılığıyla sağlanır.)</td>
-</tr>
-<tr class="odd">
-<td>İmza yakalama</td>
-<td>OPOS</td>
-</tr>
-<tr class="even">
-<td>Ödeme terminali </td>
+<td><span data-ttu-id="c4bec-397">Çekmece 2</span><span class="sxs-lookup"><span data-stu-id="c4bec-397">Drawer 2</span></span></td>
 <td><ul>
-<li>Özel cihaz desteği</li>
-<li>Ağ (Daha fazla bilgi için, ödeme bağlayıcısı belgelerine bakın.)</li>
+<li><span data-ttu-id="c4bec-398">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-398">OPOS</span></span></li>
+<li><span data-ttu-id="c4bec-399">Ağ <strong>Not:</strong> Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa yalnızca bir çekmece ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-399">Network <strong>Note:</strong> Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="c4bec-400">Tarayıcı</span><span class="sxs-lookup"><span data-stu-id="c4bec-400">Scanner</span></span></td>
+<td><ul>
+<li><span data-ttu-id="c4bec-401">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-401">OPOS</span></span></li>
+<li><span data-ttu-id="c4bec-402">UWP (Kurulum gerekli değildir.)</span><span class="sxs-lookup"><span data-stu-id="c4bec-402">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="c4bec-403">Klavye emülsayonu (Kurulum gerekli değildir.)</span><span class="sxs-lookup"><span data-stu-id="c4bec-403">Keyboard wedge (No setup is required.)</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="c4bec-404">Tarayıcı 2</span><span class="sxs-lookup"><span data-stu-id="c4bec-404">Scanner 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="c4bec-405">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-405">OPOS</span></span></li>
+<li><span data-ttu-id="c4bec-406">UWP (Kurulum gerekli değildir.)</span><span class="sxs-lookup"><span data-stu-id="c4bec-406">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="c4bec-407">Klavye emülsayonu (Kurulum gerekli değildir.)</span><span class="sxs-lookup"><span data-stu-id="c4bec-407">Keyboard wedge (No setup is required.)</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="c4bec-408">Ölçek</span><span class="sxs-lookup"><span data-stu-id="c4bec-408">Scale</span></span></td>
+<td><span data-ttu-id="c4bec-409">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-409">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="c4bec-410">PIN pad</span><span class="sxs-lookup"><span data-stu-id="c4bec-410">PIN pad</span></span></td>
+<td><span data-ttu-id="c4bec-411">OPOS (Destek ödeme bağlayıcısı özelleştirmesi aracılığıyla sağlanır.)</span><span class="sxs-lookup"><span data-stu-id="c4bec-411">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="c4bec-412">İmza alma</span><span class="sxs-lookup"><span data-stu-id="c4bec-412">Signature capture</span></span></td>
+<td><span data-ttu-id="c4bec-413">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-413">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="c4bec-414">Ödeme terminali </span><span class="sxs-lookup"><span data-stu-id="c4bec-414">Payment terminal</span></span></td>
+<td><ul>
+<li><span data-ttu-id="c4bec-415">Özel cihaz desteği</span><span class="sxs-lookup"><span data-stu-id="c4bec-415">Custom device support</span></span></li>
+<li><span data-ttu-id="c4bec-416">Ağ (Daha fazla bilgi için, ödeme bağlayıcısı belgelerine bakın.)</span><span class="sxs-lookup"><span data-stu-id="c4bec-416">Network (For more information, see the payment connector documentation.)</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>Paylaşılan bir IIS donanım istasyonu olan tüm Modern POS istemcileri
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="c4bec-417">Adanmış bir IIS donanım istasyonu olan tüm Modern POS istemcileri</span><span class="sxs-lookup"><span data-stu-id="c4bec-417">All Modern POS clients that have a dedicated IIS hardware station</span></span>
 
-**Not:** IIS donanım istasyonu "paylaşıldığında", aynı anda birden çok cihaz donanım istasyonunu kullanabilir. Bu senaryoda, yalnızca aşağıdaki tabloda listelenen cihazları kullanmanız gerekir. Barkod tarayıcılar ve MSR'ler gibi burada listelenmeyen cihazları paylaştırmayı denerseniz, birden fazla cihaz aynı çevre birimden talepte bulunmaya çalıştığında hatalar oluşacaktır. Gelecekte bu tür bir yapılandırma açıkça engellenecektir.
+<span data-ttu-id="c4bec-418">**Not:** IIS donanım istasyonu "adanmış" olduğunda, POS istemcisi ile donanım istasyonu arasında bire bir ilişki bulunur.</span><span class="sxs-lookup"><span data-stu-id="c4bec-418">**Note:** When the IIS hardware station is “dedicated,” there is a one-to-one relationship between the POS client and the hardware station.</span></span>
 
 <table>
 <colgroup>
@@ -425,386 +341,470 @@ Ağ çevre birimleri doğrudan Windows için Modern POS uygulamasına yerleşik 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desteklenen cihaz sınıfı</th>
-<th>Desteklenen arabirimler</th>
+<th><span data-ttu-id="c4bec-419">Desteklenen cihaz sınıfı</span><span class="sxs-lookup"><span data-stu-id="c4bec-419">Supported device class</span></span></th>
+<th><span data-ttu-id="c4bec-420">Desteklenen arabirimler</span><span class="sxs-lookup"><span data-stu-id="c4bec-420">Supported interfaces</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Yazıcı</td>
+<td><span data-ttu-id="c4bec-421">Yazıcı</span><span class="sxs-lookup"><span data-stu-id="c4bec-421">Printer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Windows sürücüsü <strong>Not:</strong> Ağ üzerindeki Windows yazıcıları için, donanım istasyonu kullanıcısının yazıcıya erişim izni olmalıdır.</li>
-<li>Ağ</li>
+<li><span data-ttu-id="c4bec-422">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-422">OPOS</span></span></li>
+<li><span data-ttu-id="c4bec-423">Windows sürücüsü <strong>Not:</strong> Ağ üzerindeki Windows yazıcıları için, donanım istasyonu kullanıcısının yazıcıya erişim izni olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-423">Windows driver <strong>Note:</strong> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></li>
+<li><span data-ttu-id="c4bec-424">Ağ</span><span class="sxs-lookup"><span data-stu-id="c4bec-424">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Yazıcı 2</td>
+<td><span data-ttu-id="c4bec-425">Yazıcı 2</span><span class="sxs-lookup"><span data-stu-id="c4bec-425">Printer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Windows sürücüsü</li>
-<li>Ağ</li>
+<li><span data-ttu-id="c4bec-426">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-426">OPOS</span></span></li>
+<li><span data-ttu-id="c4bec-427">Windows sürücüsü</span><span class="sxs-lookup"><span data-stu-id="c4bec-427">Windows driver</span></span></li>
+<li><span data-ttu-id="c4bec-428">Ağ</span><span class="sxs-lookup"><span data-stu-id="c4bec-428">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Keşideci</td>
+<td><span data-ttu-id="c4bec-429">Satır görüntüleme</span><span class="sxs-lookup"><span data-stu-id="c4bec-429">Line display</span></span></td>
+<td><span data-ttu-id="c4bec-430">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-430">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="c4bec-431">MSR</span><span class="sxs-lookup"><span data-stu-id="c4bec-431">MSR</span></span></td>
+<td><span data-ttu-id="c4bec-432">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-432">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="c4bec-433">Keşideci</span><span class="sxs-lookup"><span data-stu-id="c4bec-433">Drawer</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Ağ <strong>Not:</strong> Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa donanım profili başına yalnızca bir çekmece ayarlanabilir.</li>
+<li><span data-ttu-id="c4bec-434">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-434">OPOS</span></span></li>
+<li><span data-ttu-id="c4bec-435">Ağ <strong>Not:</strong> Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa donanım profili başına yalnızca bir çekmece ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-435">Network <strong>Note:</strong> Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Çekmece 2</td>
+<td><span data-ttu-id="c4bec-436">Çekmece 2</span><span class="sxs-lookup"><span data-stu-id="c4bec-436">Drawer 2</span></span></td>
 <td><ul>
-<li>OPOS</li>
-<li>Ağ</li>
+<li><span data-ttu-id="c4bec-437">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-437">OPOS</span></span></li>
+<li><span data-ttu-id="c4bec-438">Ağ</span><span class="sxs-lookup"><span data-stu-id="c4bec-438">Network</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Ödeme terminali </td>
+<td><span data-ttu-id="c4bec-439">Tarayıcı</span><span class="sxs-lookup"><span data-stu-id="c4bec-439">Scanner</span></span></td>
+<td><span data-ttu-id="c4bec-440">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-440">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="c4bec-441">Tarayıcı 2</span><span class="sxs-lookup"><span data-stu-id="c4bec-441">Scanner 2</span></span></td>
+<td><span data-ttu-id="c4bec-442">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-442">OPOS</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="c4bec-443">Ölçek</span><span class="sxs-lookup"><span data-stu-id="c4bec-443">Scale</span></span></td>
+<td><span data-ttu-id="c4bec-444">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-444">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="c4bec-445">PIN pad</span><span class="sxs-lookup"><span data-stu-id="c4bec-445">PIN pad</span></span></td>
+<td><span data-ttu-id="c4bec-446">OPOS (Destek ödeme bağlayıcısı özelleştirmesi aracılığıyla sağlanır.)</span><span class="sxs-lookup"><span data-stu-id="c4bec-446">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="c4bec-447">İmza</span><span class="sxs-lookup"><span data-stu-id="c4bec-447">Sig.</span></span> <span data-ttu-id="c4bec-448">yakalama</span><span class="sxs-lookup"><span data-stu-id="c4bec-448">capture</span></span></td>
+<td><span data-ttu-id="c4bec-449">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-449">OPOS</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="c4bec-450">Ödeme terminali </span><span class="sxs-lookup"><span data-stu-id="c4bec-450">Payment terminal</span></span></td>
 <td><ul>
-<li>Özel cihaz desteği</li>
-<li>Ağ (Daha fazla bilgi için, ödeme bağlayıcısı belgelerine bakın.)</li>
+<li><span data-ttu-id="c4bec-451">Özel cihaz desteği</span><span class="sxs-lookup"><span data-stu-id="c4bec-451">Custom device support</span></span></li>
+<li><span data-ttu-id="c4bec-452">Ağ (Daha fazla bilgi için, ödeme bağlayıcısı belgelerine bakın.)</span><span class="sxs-lookup"><span data-stu-id="c4bec-452">Network (For more information, see the payment connector documentation.)</span></span></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="configuration-for-supported-scenarios"></a>Desteklenen senaryolar için yapılandırma
-Donanım profilleri oluşturma hakkında daha fazla bilgi için bkz. [Kasalar ve donanım istasyonları dahil olmak üzere kanal istemcilerini tanımlama ve koruma](define-maintain-channel-clients-registers-hw-stations.md). **Not:** Microsoft Dynamics 365 for Retail sürüm 1611 için donanım istasyonu profili artık kullanılmamaktadır. İstasyon donanım profilinde önceden ayarlanmış öznitelikler artık donanım istasyonunun bir parçasıdır.
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="c4bec-453">Paylaşılan bir IIS donanım istasyonu olan tüm Modern POS istemcileri</span><span class="sxs-lookup"><span data-stu-id="c4bec-453">All Modern POS clients that have a shared IIS hardware station</span></span>
 
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Windows için Modern POS, IPC (yerleşik) donanım istasyonu ile
+<span data-ttu-id="c4bec-454">**Not:** IIS donanım istasyonu "paylaşıldığında", aynı anda birden çok cihaz donanım istasyonunu kullanabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-454">**Note:** When the IIS hardware station is “shared,” multiple devices can use the hardware station at the same time.</span></span> <span data-ttu-id="c4bec-455">Bu senaryoda, yalnızca aşağıdaki tabloda listelenen cihazları kullanmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-455">For this scenario, you should use only the devices that are listed in the following table.</span></span> <span data-ttu-id="c4bec-456">Barkod tarayıcılar ve MSR'ler gibi burada listelenmeyen cihazları paylaştırmayı denerseniz, birden fazla cihaz aynı çevre birimden talepte bulunmaya çalıştığında hatalar oluşacaktır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-456">If you try to share devices that aren't listed here, such as bar code scanners and MSRs, errors will occur when multiple devices try to claim the same peripheral.</span></span> <span data-ttu-id="c4bec-457">Gelecekte bu tür bir yapılandırma açıkça engellenecektir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-457">In the future, such a configuration will be explicitly prevented.</span></span>
 
-Bu yapılandırma geleneksel, sabit POS kasalar için en genel yapılandırmadır. Bu senaryo için, donanım profili bilgileri doğrudan kasanın kendisiyle eşleştirilir. EFT terminal numarasının da kasa üzerinde ayarlanması gerekir. Bu yapılandırmayı kurmak için aşağıdaki adımları izleyin.
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="c4bec-458">Desteklenen cihaz sınıfı</span><span class="sxs-lookup"><span data-stu-id="c4bec-458">Supported device class</span></span></th>
+<th><span data-ttu-id="c4bec-459">Desteklenen arabirimler</span><span class="sxs-lookup"><span data-stu-id="c4bec-459">Supported interfaces</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span data-ttu-id="c4bec-460">Yazıcı</span><span class="sxs-lookup"><span data-stu-id="c4bec-460">Printer</span></span></td>
+<td><ul>
+<li><span data-ttu-id="c4bec-461">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-461">OPOS</span></span></li>
+<li><span data-ttu-id="c4bec-462">Windows sürücüsü <strong>Not:</strong> Ağ üzerindeki Windows yazıcıları için, donanım istasyonu kullanıcısının yazıcıya erişim izni olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-462">Windows driver <strong>Note:</strong> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></li>
+<li><span data-ttu-id="c4bec-463">Ağ</span><span class="sxs-lookup"><span data-stu-id="c4bec-463">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="c4bec-464">Yazıcı 2</span><span class="sxs-lookup"><span data-stu-id="c4bec-464">Printer 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="c4bec-465">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-465">OPOS</span></span></li>
+<li><span data-ttu-id="c4bec-466">Windows sürücüsü</span><span class="sxs-lookup"><span data-stu-id="c4bec-466">Windows driver</span></span></li>
+<li><span data-ttu-id="c4bec-467">Ağ</span><span class="sxs-lookup"><span data-stu-id="c4bec-467">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="c4bec-468">Keşideci</span><span class="sxs-lookup"><span data-stu-id="c4bec-468">Drawer</span></span></td>
+<td><ul>
+<li><span data-ttu-id="c4bec-469">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-469">OPOS</span></span></li>
+<li><span data-ttu-id="c4bec-470">Ağ <strong>Not:</strong> Çekmecede <strong>Paylaşılan vardiya kullan</strong> yapılandırılırsa donanım profili başına yalnızca bir çekmece ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-470">Network <strong>Note:</strong> Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="c4bec-471">Çekmece 2</span><span class="sxs-lookup"><span data-stu-id="c4bec-471">Drawer 2</span></span></td>
+<td><ul>
+<li><span data-ttu-id="c4bec-472">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-472">OPOS</span></span></li>
+<li><span data-ttu-id="c4bec-473">Ağ</span><span class="sxs-lookup"><span data-stu-id="c4bec-473">Network</span></span></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="c4bec-474">Ödeme terminali </span><span class="sxs-lookup"><span data-stu-id="c4bec-474">Payment terminal</span></span></td>
+<td><ul>
+<li><span data-ttu-id="c4bec-475">Özel cihaz desteği</span><span class="sxs-lookup"><span data-stu-id="c4bec-475">Custom device support</span></span></li>
+<li><span data-ttu-id="c4bec-476">Ağ (Daha fazla bilgi için, ödeme bağlayıcısı belgelerine bakın.)</span><span class="sxs-lookup"><span data-stu-id="c4bec-476">Network (For more information, see the payment connector documentation.)</span></span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
-1.  Tüm gerekli çevrebirimlerin yapılandırıldığı bir donanım profili oluşturun.
-2.  Donanım profilini POS kasayla eşleyin.
-3.  POS kasanın kullanılacağı perakende mağaza için **Adanmış** türde bir donanım istasyonu oluşturun. Açıklama isteğe bağlıdır. **Not:** Donanım istasyonunda diğer özellikleri ayarlamanız gerekmez. Donanım profili gibi gerekli tüm diğer bilgiler, kasanın kendisinden gelecektir.
-4.  **Perakende** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine tıklayın.
-5.  Yeni donanım profilini mağazayla eşitlemek için **1090** dağıtım planını seçin. Değşiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a  tıklayın.
-6.  Yeni donanım istasyonunu mağazayla eşitlemek için **1040** dağıtım planını seçin. Değşiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a  tıklayın.
-7.  Windows için Modern POS'u yükleyin ve etkinleştirin.
-8.  Windows için Modern POS'u başlatın ve bağlı çevrebirim cihazlarını kullanmaya başlayın.
+## <a name="configuration-for-supported-scenarios"></a><span data-ttu-id="c4bec-477">Desteklenen senaryolar için yapılandırma</span><span class="sxs-lookup"><span data-stu-id="c4bec-477">Configuration for supported scenarios</span></span>
+<span data-ttu-id="c4bec-478">Donanım profilleri oluşturma hakkında daha fazla bilgi için bkz. [Kasalar ve donanım istasyonları dahil olmak üzere kanal istemcilerini tanımlama ve koruma](define-maintain-channel-clients-registers-hw-stations.md).</span><span class="sxs-lookup"><span data-stu-id="c4bec-478">For more information about how to create hardware profiles, see [Define and maintain channel clients, including registers and hardware stations](define-maintain-channel-clients-registers-hw-stations.md).</span></span> <span data-ttu-id="c4bec-479">**Not:** Microsoft Dynamics 365 for Retail sürüm 1611 için donanım istasyonu profili artık kullanılmamaktadır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-479">**Note:** For Microsoft Dynamics 365 for Retail version 1611, the hardware station profile is no longer used.</span></span> <span data-ttu-id="c4bec-480">İstasyon donanım profilinde önceden ayarlanmış öznitelikler artık donanım istasyonunun bir parçasıdır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-480">Attributes that you previously set up in the hardware station profile are now part of the hardware station itself.</span></span>
 
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>Adanmış bir IIS donanım istasyonu olan tüm Modern POS istemcileri
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="c4bec-481">Windows için Modern POS, IPC (yerleşik) donanım istasyonu ile</span><span class="sxs-lookup"><span data-stu-id="c4bec-481">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
 
-Bu yapılandırma, özellikle bir POS kasası tarafından kullanılan donanım istasyonu bulunan tüm Modern POS istemcileri için kullanılabilir. Bu yapılandırmayı kurmak için aşağıdaki adımları izleyin.
+<span data-ttu-id="c4bec-482">Bu yapılandırma geleneksel, sabit POS kasalar için en genel yapılandırmadır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-482">This configuration is the most typical configuration for traditional, fixed POS registers.</span></span> <span data-ttu-id="c4bec-483">Bu senaryo için, donanım profili bilgileri doğrudan kasanın kendisiyle eşleştirilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-483">For this scenario, the hardware profile information is mapped directly to the register itself.</span></span> <span data-ttu-id="c4bec-484">EFT terminal numarasının da kasa üzerinde ayarlanması gerekir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-484">The EFT terminal number should also be set on the register itself.</span></span> <span data-ttu-id="c4bec-485">Bu yapılandırmayı kurmak için aşağıdaki adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-485">To set up this configuration, follow these steps.</span></span>
 
-1.  Tüm gerekli çevrebirimlerin yapılandırıldığı bir donanım profili oluşturun.
-2.  POS kasanın kullanılacağı perakende mağaza için **Adanmış** türde bir donanım istasyonu oluşturun.
-3.  Adanmış donanım istasyonunda aşağıdaki özellikleri ayarlayın:
-    -   **Ana bilgisayar adı** – Donanım istasyonunun çalışacağı ana bilgisayarın adı. **Not:** Bulut POS Bulut POS'un çalıştığı yerel bilgisayarı belirlemek için **localhost**'u çözebilir. Ancak, Bulut POS'u donanım istasyonuyla eşleştirmek için gerekli olan sertfikada bilgisayar adı olarak "Localhost" bulunmalıdır. Sorunları önlemek için, gerektiğinde, mağaza için her adanmış donanım istasyonu kurulumunu listelemenizi öneririz. Her donanım istasyonu için ana bilgisayar adı, donanım istasyonunun dağıtılacağı belirli bilgisayarın adı olmalıdır.
-    -   **Bağlantı noktası** – Modern POS istemcisiyle iletişim kurmak için donanım istasyonunun kullandığı bağlantı noktası.
-    -   **Donanım profili** – Donanım profili donanım istasyonunun kendisinde sağlanmadıysa, kasaya atanan donanım profili kullanılır.
-    -   **EFT POS numarası** – EFT kimlik doğrulamaları gönderildiğinde kullanılan EFT terminali kimliği. Bu kimlik kredi kartı işlemcisi tarafından sağlanır.
-    -   **Paket adı** – Donanım istasyonu dağıtıldığında kullanılan donanım istasyonu paketi.
+1.  <span data-ttu-id="c4bec-486">Tüm gerekli çevrebirimlerin yapılandırıldığı bir donanım profili oluşturun.</span><span class="sxs-lookup"><span data-stu-id="c4bec-486">Create a hardware profile where all the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="c4bec-487">Donanım profilini POS kasayla eşleyin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-487">Map the hardware profile to the POS register.</span></span>
+3.  <span data-ttu-id="c4bec-488">POS kasanın kullanılacağı perakende mağaza için **Adanmış** türde bir donanım istasyonu oluşturun.</span><span class="sxs-lookup"><span data-stu-id="c4bec-488">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span> <span data-ttu-id="c4bec-489">Açıklama isteğe bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-489">A description is optional.</span></span> <span data-ttu-id="c4bec-490">**Not:** Donanım istasyonunda diğer özellikleri ayarlamanız gerekmez.</span><span class="sxs-lookup"><span data-stu-id="c4bec-490">**Note:** You don't have to set any other properties on the hardware station.</span></span> <span data-ttu-id="c4bec-491">Donanım profili gibi gerekli tüm diğer bilgiler, kasanın kendisinden gelecektir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-491">All other required information, such as the hardware profile, will come from the register itself.</span></span>
+4.  <span data-ttu-id="c4bec-492">**Perakende** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-492">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+5.  <span data-ttu-id="c4bec-493">Yeni donanım profilini mağazayla eşitlemek için **1090** dağıtım planını seçin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-493">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="c4bec-494">Değşiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a  tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-494">Click **Run now** to sync changes to the POS.</span></span>
+6.  <span data-ttu-id="c4bec-495">Yeni donanım istasyonunu mağazayla eşitlemek için **1040** dağıtım planını seçin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-495">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="c4bec-496">Değşiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a  tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-496">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="c4bec-497">Windows için Modern POS'u yükleyin ve etkinleştirin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-497">Install and activate Modern POS for Windows.</span></span>
+8.  <span data-ttu-id="c4bec-498">Windows için Modern POS'u başlatın ve bağlı çevrebirim cihazlarını kullanmaya başlayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-498">Start Modern POS for Windows, and begin to use the connected peripheral devices.</span></span>
 
-4.  **Perakende** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine tıklayın.
-5.  Yeni donanım profilini mağazayla eşitlemek için **1090** dağıtım planını seçin. Değşiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a  tıklayın.
-6.  Yeni donanım istasyonunu mağazayla eşitlemek için **1040** dağıtım planını seçin. Değşiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a  tıklayın.
-7.  Donanım istasyonunu yükleyin. Donanım istasyonu yükleme hakkında daha fazla bilgi için bkz. [Perakende donanım istasyonu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md).
-8.  Modern POS'u yükleyin ve etkinleştirin. Modern POS yükleme hakkında daha fazla bilgi için bkz. [Retail Modern POS yapılandırma ve yükleme](retail-modern-pos-device-activation.md).
-9.  Modern POS için oturum açın ve **Çekmece işlemi olmayan işlem gerçekleştir**'i seçin.
-10. **Donanım istasyonlarını yönet** işlemini başlatın.
-11. **Yönet**'e tıklayın.
-12. Donanım istasyonu yönetimi sayfasında, donanım istasyonunu açma seçeneğini ayarlayın.
-13. Kullanılacak donanım istasyonunu seçin ve **Eşleştir**'e tıklayın.
-14. Donanım istasyonu eşleştirildikten sonra **Kapat**'a tıklayın.
-15. Donanım istasyonu seçimi sayfasında, son seçilen donanım istasyonunu etkin hale getirmek için tıklayın.
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="c4bec-499">Adanmış bir IIS donanım istasyonu olan tüm Modern POS istemcileri</span><span class="sxs-lookup"><span data-stu-id="c4bec-499">All Modern POS clients that have a dedicated IIS hardware station</span></span>
 
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>Paylaşılan bir IIS donanım istasyonu olan tüm Modern POS istemcileri
+<span data-ttu-id="c4bec-500">Bu yapılandırma, özellikle bir POS kasası tarafından kullanılan donanım istasyonu bulunan tüm Modern POS istemcileri için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-500">This configuration can be used for all Modern POS clients that have a hardware station that is used exclusively by one POS register.</span></span> <span data-ttu-id="c4bec-501">Bu yapılandırmayı kurmak için aşağıdaki adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-501">To set up this configuration, follow these steps.</span></span>
 
-Bu yapılandırma, donanım istasyonlarını diğer aygıtlarla paylaşan tüm Modern POS istemcileri için kullanılabilir. Bu yapılandırmayı kurmak için aşağıdaki adımları izleyin.
+1.  <span data-ttu-id="c4bec-502">Tüm gerekli çevrebirimlerin yapılandırıldığı bir donanım profili oluşturun.</span><span class="sxs-lookup"><span data-stu-id="c4bec-502">Create a hardware profile where all the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="c4bec-503">POS kasanın kullanılacağı perakende mağaza için **Adanmış** türde bir donanım istasyonu oluşturun.</span><span class="sxs-lookup"><span data-stu-id="c4bec-503">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span>
+3.  <span data-ttu-id="c4bec-504">Adanmış donanım istasyonunda aşağıdaki özellikleri ayarlayın:</span><span class="sxs-lookup"><span data-stu-id="c4bec-504">On the dedicated hardware station, set the following properties:</span></span>
+    -   <span data-ttu-id="c4bec-505">**Ana bilgisayar adı** – Donanım istasyonunun çalışacağı ana bilgisayarın adı.</span><span class="sxs-lookup"><span data-stu-id="c4bec-505">**Host name** – The name of the host computer where the hardware station will run.</span></span> <span data-ttu-id="c4bec-506">**Not:** Bulut POS Bulut POS'un çalıştığı yerel bilgisayarı belirlemek için **localhost**'u çözebilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-506">**Note:** Cloud POS can resolve **localhost** to determine the local computer where Cloud POS is running.</span></span> <span data-ttu-id="c4bec-507">Ancak, Bulut POS'u donanım istasyonuyla eşleştirmek için gerekli olan sertfikada bilgisayar adı olarak "Localhost" bulunmalıdır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-507">However, the certificate that is required in order to pair Cloud POS with the hardware station must also have "Localhost" as the computer name.</span></span> <span data-ttu-id="c4bec-508">Sorunları önlemek için, gerektiğinde, mağaza için her adanmış donanım istasyonu kurulumunu listelemenizi öneririz.</span><span class="sxs-lookup"><span data-stu-id="c4bec-508">To avoid issues, we recommend that you list an instance of each dedicated hardware station for the store, as required.</span></span> <span data-ttu-id="c4bec-509">Her donanım istasyonu için ana bilgisayar adı, donanım istasyonunun dağıtılacağı belirli bilgisayarın adı olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-509">For each hardware station, the host name should be the specific computer name where the hardware station will be deployed.</span></span>
+    -   <span data-ttu-id="c4bec-510">**Bağlantı noktası** – Modern POS istemcisiyle iletişim kurmak için donanım istasyonunun kullandığı bağlantı noktası.</span><span class="sxs-lookup"><span data-stu-id="c4bec-510">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
+    -   <span data-ttu-id="c4bec-511">**Donanım profili** – Donanım profili donanım istasyonunun kendisinde sağlanmadıysa, kasaya atanan donanım profili kullanılır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-511">**Hardware profile** – If the hardware profile isn't provided on the hardware station itself, the hardware profile that is assigned to the register will be used.</span></span>
+    -   <span data-ttu-id="c4bec-512">**EFT POS numarası** – EFT kimlik doğrulamaları gönderildiğinde kullanılan EFT terminali kimliği.</span><span class="sxs-lookup"><span data-stu-id="c4bec-512">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="c4bec-513">Bu kimlik kredi kartı işlemcisi tarafından sağlanır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-513">This ID is provided by the credit card processor.</span></span>
+    -   <span data-ttu-id="c4bec-514">**Paket adı** – Donanım istasyonu dağıtıldığında kullanılan donanım istasyonu paketi.</span><span class="sxs-lookup"><span data-stu-id="c4bec-514">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
 
-1.  Gerekli çevrebirimlerin yapılandırıldığı bir donanım profili oluşturun.
-2.  POS kasanın kullanılacağı perakende mağaza için **Paylaştırılmış** türde bir donanım istasyonu oluşturun.
-3.  Paylaştırılmış donanım istasyonunda aşağıdaki özellikleri ayarlayın:
-    -   **Ana bilgisayar adı** – Donanım istasyonunun çalışacağı ana bilgisayarın adı.
-    -   **Açıklama** – Donanım istasyonunu tanımlamaya yardımcı olan **İadeler** veya **Ön mağaza** gibi bir metin.
-    -   **Bağlantı noktası** – Modern POS istemcisiyle iletişim kurmak için donanım istasyonunun kullandığı bağlantı noktası.
-    -   **Donanım profili** – Paylaşılan donanım istasyonları için her donanım istasyonunun bir donanım profili olması gerekir. Donanım profilleri donanım istasyonları arasında paylaşılabilir, ancak her donanım istasyonuyla eşlenmeleri gerekir. Ayrıca, birden çok aygıt aynı paylaşılan donanım istasyonunu kullandığında, paylaşılan vardiyalar kullanmanızı öneririz. Paylaşılan vardiya kurmak için **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım profilleri**'ne tıklayın. Her bir paylaşılan donanım profili için kasa çekmecesini seçin ve **Paylaşılan vardiya çekmecesi** için seçeneği **Evet** olarak ayarlayın.
-    -   **EFT POS numarası** – EFT kimlik doğrulamaları gönderildiğinde kullanılan EFT terminali kimliği. Bu kimlik kredi kartı işlemcisi tarafından sağlanır.
-    -   **Paket adı** – Donanım istasyonu dağıtıldığında kullanılan donanım istasyonu paketi.
+4.  <span data-ttu-id="c4bec-515">**Perakende** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-515">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+5.  <span data-ttu-id="c4bec-516">Yeni donanım profilini mağazayla eşitlemek için **1090** dağıtım planını seçin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-516">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="c4bec-517">Değşiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a  tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-517">Click **Run now** to sync changes to the POS.</span></span>
+6.  <span data-ttu-id="c4bec-518">Yeni donanım istasyonunu mağazayla eşitlemek için **1040** dağıtım planını seçin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-518">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="c4bec-519">Değşiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a  tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-519">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="c4bec-520">Donanım istasyonunu yükleyin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-520">Install the hardware station.</span></span> <span data-ttu-id="c4bec-521">Donanım istasyonu yükleme hakkında daha fazla bilgi için bkz. [Perakende donanım istasyonu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="c4bec-521">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
+8.  <span data-ttu-id="c4bec-522">Modern POS'u yükleyin ve etkinleştirin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-522">Install and activate Modern POS.</span></span> <span data-ttu-id="c4bec-523">Modern POS yükleme hakkında daha fazla bilgi için bkz. [Retail Modern POS yapılandırma ve yükleme](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="c4bec-523">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
+9.  <span data-ttu-id="c4bec-524">Modern POS için oturum açın ve **Çekmece işlemi olmayan işlem gerçekleştir**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-524">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
+10. <span data-ttu-id="c4bec-525">**Donanım istasyonlarını yönet** işlemini başlatın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-525">Start the **Manage hardware stations** operation.</span></span>
+11. <span data-ttu-id="c4bec-526">**Yönet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-526">Click **Manage**.</span></span>
+12. <span data-ttu-id="c4bec-527">Donanım istasyonu yönetimi sayfasında, donanım istasyonunu açma seçeneğini ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-527">On the hardware station management page, set the option to turn on the hardware station.</span></span>
+13. <span data-ttu-id="c4bec-528">Kullanılacak donanım istasyonunu seçin ve **Eşleştir**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-528">Select the hardware station to use, and then click **Pair**.</span></span>
+14. <span data-ttu-id="c4bec-529">Donanım istasyonu eşleştirildikten sonra **Kapat**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-529">After the hardware station is paired, click **Close**.</span></span>
+15. <span data-ttu-id="c4bec-530">Donanım istasyonu seçimi sayfasında, son seçilen donanım istasyonunu etkin hale getirmek için tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-530">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span>
 
-4.  Mağazadaki gerekli her ek donanım istasyon için 2 ve 3 numaralı adımları yineleyin.
-5.  **Perakende** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine tıklayın.
-6.  Yeni donanım profilini mağazayla eşitlemek için **1090** dağıtım planını seçin. Değşiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a  tıklayın.
-7.  Yeni donanım istasyonunu mağazayla eşitlemek için **1040** dağıtım planını seçin. Değşiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a  tıklayın.
-8.  2 ve 3 numaralı adımlarda kurduğunuz her ana bilgisayara donanım istasyonunu yükleyin. Donanım istasyonu yükleme hakkında daha fazla bilgi için bkz. [Perakende donanım istasyonu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md).
-9.  Modern POS'u yükleyin ve etkinleştirin. Modern POS yükleme hakkında daha fazla bilgi için bkz. [Retail Modern POS yapılandırma ve yükleme](retail-modern-pos-device-activation.md).
-10. Modern POS için oturum açın ve **Çekmece işlemi olmayan işlem gerçekleştir**'i seçin.
-11. **Donanım istasyonlarını yönet** işlemini başlatın.
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="c4bec-531">Paylaşılan bir IIS donanım istasyonu olan tüm Modern POS istemcileri</span><span class="sxs-lookup"><span data-stu-id="c4bec-531">All Modern POS clients that have a shared IIS hardware station</span></span>
 
-12. **Yönet**'e tıklayın.
-13. Donanım istasyonu yönetimi sayfasında, donanım istasyonunu açma seçeneğini ayarlayın.
-14. Kullanılacak donanım istasyonunu seçin ve **Eşleştir**'e tıklayın.
-15. Modern POS'un kullanacağı her donanım istasyonu için 14. adımı tekrarlayın.
-16. Gerekli donanım istasyonları eşleştirdikten sonra **Kapat**'a tıklayın.
-17. Donanım istasyonu seçimi sayfasında, son seçilen donanım istasyonunu etkin hale getirmek için tıklayın. **Not:** Cihazlar genellikle farklı donanım istasyonları kullanıyorsa, Modern POS'u kasiyerlerden ödeme işlemini başlatırken bir donanım istasyonu seçmelerini isteyecek şekilde yapılandırmanızı öneririz. **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Kayıtlar** üzerine tıklayın. Kasayı seçin ve ardından **Ödeme sırasında seç** seçeneğini **Evet** olarak ayarlayın. Değişiklikleri kanal veritabanıyla eşitlemek için **1090** dağıtım planını kullanın.
+<span data-ttu-id="c4bec-532">Bu yapılandırma, donanım istasyonlarını diğer aygıtlarla paylaşan tüm Modern POS istemcileri için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-532">This configuration can be used for all Modern POS clients that share hardware stations with other devices.</span></span> <span data-ttu-id="c4bec-533">Bu yapılandırmayı kurmak için aşağıdaki adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-533">To set up this configuration, follow these steps.</span></span>
 
-## <a name="extensibility"></a>Genişletilebilirlik
-Donanım istasyonu için genişletilebilirlik senaryoları hakkında daha fazla bilgi için bkz. [Donanım İstasyonu genişletilebilirliği](dev-itpro/hardware-station-extensibility.md).
+1.  <span data-ttu-id="c4bec-534">Gerekli çevrebirimlerin yapılandırıldığı bir donanım profili oluşturun.</span><span class="sxs-lookup"><span data-stu-id="c4bec-534">Create a hardware profile where the required peripherals are configured.</span></span>
+2.  <span data-ttu-id="c4bec-535">POS kasanın kullanılacağı perakende mağaza için **Paylaştırılmış** türde bir donanım istasyonu oluşturun.</span><span class="sxs-lookup"><span data-stu-id="c4bec-535">Create a hardware station of the **Shared** type for the retail store where the POS register will be used.</span></span>
+3.  <span data-ttu-id="c4bec-536">Paylaştırılmış donanım istasyonunda aşağıdaki özellikleri ayarlayın:</span><span class="sxs-lookup"><span data-stu-id="c4bec-536">On the shared hardware station, set the following properties:</span></span>
+    -   <span data-ttu-id="c4bec-537">**Ana bilgisayar adı** – Donanım istasyonunun çalışacağı ana bilgisayarın adı.</span><span class="sxs-lookup"><span data-stu-id="c4bec-537">**Host name** – The name of the host computer where the hardware station will run.</span></span>
+    -   <span data-ttu-id="c4bec-538">**Açıklama** – Donanım istasyonunu tanımlamaya yardımcı olan **İadeler** veya **Ön mağaza** gibi bir metin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-538">**Description** – Text that will help identify the hardware station, such as **Returns** or **Front of store**.</span></span>
+    -   <span data-ttu-id="c4bec-539">**Bağlantı noktası** – Modern POS istemcisiyle iletişim kurmak için donanım istasyonunun kullandığı bağlantı noktası.</span><span class="sxs-lookup"><span data-stu-id="c4bec-539">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
+    -   <span data-ttu-id="c4bec-540">**Donanım profili** – Paylaşılan donanım istasyonları için her donanım istasyonunun bir donanım profili olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-540">**Hardware profile** – For shared hardware stations, each hardware station should have a hardware profile.</span></span> <span data-ttu-id="c4bec-541">Donanım profilleri donanım istasyonları arasında paylaşılabilir, ancak her donanım istasyonuyla eşlenmeleri gerekir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-541">Hardware profiles can be shared among hardware stations, but they must be mapped to each hardware station.</span></span> <span data-ttu-id="c4bec-542">Ayrıca, birden çok aygıt aynı paylaşılan donanım istasyonunu kullandığında, paylaşılan vardiyalar kullanmanızı öneririz.</span><span class="sxs-lookup"><span data-stu-id="c4bec-542">In addition, we recommend that you use shared shifts when multiple devices use the same shared hardware station.</span></span> <span data-ttu-id="c4bec-543">Paylaşılan vardiya kurmak için **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım profilleri**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-543">To set up a shared shift, click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="c4bec-544">Her bir paylaşılan donanım profili için kasa çekmecesini seçin ve **Paylaşılan vardiya çekmecesi** için seçeneği **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-544">For each shared hardware profile, select the cash drawer, and set the **Shared shift drawer** option to **Yes**.</span></span>
+    -   <span data-ttu-id="c4bec-545">**EFT POS numarası** – EFT kimlik doğrulamaları gönderildiğinde kullanılan EFT terminali kimliği.</span><span class="sxs-lookup"><span data-stu-id="c4bec-545">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="c4bec-546">Bu kimlik kredi kartı işlemcisi tarafından sağlanır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-546">This ID is provided by the credit card processor.</span></span>
+    -   <span data-ttu-id="c4bec-547">**Paket adı** – Donanım istasyonu dağıtıldığında kullanılan donanım istasyonu paketi.</span><span class="sxs-lookup"><span data-stu-id="c4bec-547">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
 
-## <a name="security"></a>Güvenlik
-Geçerli güvenlik standartlarına göre, bir üretim ortamında aşağıdaki ayarlar kullanılmalıdır: **Not:** Donanım istasyon yükleyicisi self-servis üzerinden yüklemenin bir parçası olarak bu kayıt düzenlemelerini otomatik olarak yapacaktır.
+4.  <span data-ttu-id="c4bec-548">Mağazadaki gerekli her ek donanım istasyon için 2 ve 3 numaralı adımları yineleyin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-548">Repeat steps 2 and 3 for each additional hardware station that is required in the store.</span></span>
+5.  <span data-ttu-id="c4bec-549">**Perakende** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-549">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+6.  <span data-ttu-id="c4bec-550">Yeni donanım profilini mağazayla eşitlemek için **1090** dağıtım planını seçin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-550">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="c4bec-551">Değşiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a  tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-551">Click **Run now** to sync changes to the POS.</span></span>
+7.  <span data-ttu-id="c4bec-552">Yeni donanım istasyonunu mağazayla eşitlemek için **1040** dağıtım planını seçin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-552">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="c4bec-553">Değşiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a  tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-553">Click **Run now** to sync changes to the POS.</span></span>
+8.  <span data-ttu-id="c4bec-554">2 ve 3 numaralı adımlarda kurduğunuz her ana bilgisayara donanım istasyonunu yükleyin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-554">Install the hardware station on each host computer that you set up in steps 2 and 3.</span></span> <span data-ttu-id="c4bec-555">Donanım istasyonu yükleme hakkında daha fazla bilgi için bkz. [Perakende donanım istasyonu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="c4bec-555">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
+9.  <span data-ttu-id="c4bec-556">Modern POS'u yükleyin ve etkinleştirin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-556">Install and activate Modern POS.</span></span> <span data-ttu-id="c4bec-557">Modern POS yükleme hakkında daha fazla bilgi için bkz. [Retail Modern POS yapılandırma ve yükleme](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="c4bec-557">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
+10. <span data-ttu-id="c4bec-558">Modern POS için oturum açın ve **Çekmece işlemi olmayan işlem gerçekleştir**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-558">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
+11. <span data-ttu-id="c4bec-559">**Donanım istasyonlarını yönet** işlemini başlatın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-559">Start the **Manage hardware stations** operation.</span></span>
 
--   Güvenli Yuva Katmanı (SSL) devre dışı bırakılmalıdır.
--   Yalnızca Aktarım Katmanı Güvenliği (TLS) sürüm 1.2 (veya geçerli en yüksek sürüm) etkinleştirilmeli ve kullanılmalıdır. **Not:** Varsayılan olarak, SSL ve TLS 1.2 dışındaki tüm TLS sürümleri devre dışı bırakılır. Bu değerleri düzenlemek veya etkinleştirmek için şu adımları izleyin:
-    1.  **Çalıştır** penceresini açmak için Windows logı tuşuyla birlikte R'ye basın.
-    2.  **Aç** alanına, **Regedit** yazıp **Tamam**'a tıklayın.
-    3.  Bir **Kullanıcı Hesabı Denetimi** ileti kutusu görüntülenirse, **Evet**'e tıklayın.
-    4.  **Kayıt Defteri Düzenleyicisi** penceresinde, **HKEY\_yerel\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**'a gidin. Aşağıdaki anahtarlar yalnızca TLS 1.2 için izin vermek üzere otomatik olarak girilmiştir:
-        -   TLS 1.2Server:Enabled=1
-        -   TLS 1.2Server:DisabledByDefault=0
-        -   TLS 1.2Client:Enabled=1
-        -   TLS 1.2Client:DisabledByDefault=0
-        -   TLS 1.1Server:Enabled=0
-        -   TLS 1.1Client:Enabled=0
-        -   TLS 1.0Server:Enabled=0
-        -   TLS 1.0Client:Enabled=0
-        -   SSL 3.0Server:Enabled=0
-        -   SSL 3.0Client:Enabled=0
-        -   SSL 2.0Server:Enabled=0
-        -   SSL 2.0Client:Enabled=0
--   Bilinen, belirtilen nedenlerden dolayı gerekli olmadıkça hiçbir ek ağ bağlantı noktası açık olmamalıdır.
--   Çapraz kaynaklı kaynak paylaşımını devre dışı bırakılmalı ve kabul edilen izin verilen kaynaklar belirtilmelidir.
--   Yalnızca güvenilen sertifika yetkilileri, donanım istasyonu çalıştıran bilgisayarlarda kullanılacak sertifikaları almak için kullanılmalıdır.
+12. <span data-ttu-id="c4bec-560">**Yönet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-560">Click **Manage**.</span></span>
+13. <span data-ttu-id="c4bec-561">Donanım istasyonu yönetimi sayfasında, donanım istasyonunu açma seçeneğini ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-561">On the hardware station management page, set the option to turn on the hardware station.</span></span>
+14. <span data-ttu-id="c4bec-562">Kullanılacak donanım istasyonunu seçin ve **Eşleştir**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-562">Select the hardware station to use, and then click **Pair**.</span></span>
+15. <span data-ttu-id="c4bec-563">Modern POS'un kullanacağı her donanım istasyonu için 14. adımı tekrarlayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-563">Repeat step 14 for each hardware station that Modern POS will use.</span></span>
+16. <span data-ttu-id="c4bec-564">Gerekli donanım istasyonları eşleştirdikten sonra **Kapat**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-564">After all the required hardware stations are paired, click **Close**.</span></span>
+17. <span data-ttu-id="c4bec-565">Donanım istasyonu seçimi sayfasında, son seçilen donanım istasyonunu etkin hale getirmek için tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-565">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span> <span data-ttu-id="c4bec-566">**Not:** Cihazlar genellikle farklı donanım istasyonları kullanıyorsa, Modern POS'u kasiyerlerden ödeme işlemini başlatırken bir donanım istasyonu seçmelerini isteyecek şekilde yapılandırmanızı öneririz.</span><span class="sxs-lookup"><span data-stu-id="c4bec-566">**Note:** If devices often use different hardware stations, we recommend that you configure Modern POS to prompt cashiers to select a hardware station when they begin the tender process.</span></span> <span data-ttu-id="c4bec-567">**Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Kayıtlar** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-567">Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="c4bec-568">Kasayı seçin ve ardından **Ödeme sırasında seç** seçeneğini **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-568">Select the register, and then set the **Select upon tender** option to **Yes**.</span></span> <span data-ttu-id="c4bec-569">Değişiklikleri kanal veritabanıyla eşitlemek için **1090** dağıtım planını kullanın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-569">Use the **1090** distribution schedule to sync changes to the channel database.</span></span>
 
-**Not:** IIS için güvenlik yönergelerini ve Ödeme Kartı Endüstrisi (PCI) gereksinimlerini gözden geçirmeniz çok önemlidir.
+## <a name="extensibility"></a><span data-ttu-id="c4bec-570">Genişletilebilirlik</span><span class="sxs-lookup"><span data-stu-id="c4bec-570">Extensibility</span></span>
+<span data-ttu-id="c4bec-571">Donanım istasyonu için genişletilebilirlik senaryoları hakkında daha fazla bilgi için bkz. [Donanım İstasyonu genişletilebilirliği](dev-itpro/hardware-station-extensibility.md).</span><span class="sxs-lookup"><span data-stu-id="c4bec-571">For information about extensibility scenarios for the hardware station, see [Hardware Station extensibility](dev-itpro/hardware-station-extensibility.md).</span></span>
 
-## <a name="peripheral-simulator"></a>Çevre birimi benzeticisi
-Bilgi için bkz. [Perakende çevre birimi benzeticisi](dev-itpro/retail-peripheral-simulator.md).
+## <a name="security"></a><span data-ttu-id="c4bec-572">Güvenlik</span><span class="sxs-lookup"><span data-stu-id="c4bec-572">Security</span></span>
+<span data-ttu-id="c4bec-573">Geçerli güvenlik standartlarına göre, bir üretim ortamında aşağıdaki ayarlar kullanılmalıdır: **Not:** Donanım istasyon yükleyicisi self-servis üzerinden yüklemenin bir parçası olarak bu kayıt düzenlemelerini otomatik olarak yapacaktır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-573">According to current security standards, the following settings should be used in a production environment: **Note:** The hardware station installer will automatically make these registry edits as part of the installation through self-service.</span></span>
 
-## <a name="microsofttested-peripheral-devices"></a>Microsoft tarafından test edilmiş çevre birim cihazları
-### <a name="ipc-built-in-hardware-station"></a>IPC (yerleşik) donanım istasyonu
+-   <span data-ttu-id="c4bec-574">Güvenli Yuva Katmanı (SSL) devre dışı bırakılmalıdır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-574">Secure Sockets Layer (SSL) should be disabled.</span></span>
+-   <span data-ttu-id="c4bec-575">Yalnızca Aktarım Katmanı Güvenliği (TLS) sürüm 1.2 (veya geçerli en yüksek sürüm) etkinleştirilmeli ve kullanılmalıdır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-575">Only Transport Layer Security (TLS) version 1.2 (or the current highest version) should be enabled and used.</span></span> <span data-ttu-id="c4bec-576">**Not:** Varsayılan olarak, SSL ve TLS 1.2 dışındaki tüm TLS sürümleri devre dışı bırakılır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-576">**Note:** By default, SSL and all version of TLS except TLS 1.2 are disabled.</span></span> <span data-ttu-id="c4bec-577">Bu değerleri düzenlemek veya etkinleştirmek için şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="c4bec-577">To edit or enable these values, follow these steps:</span></span>
+    1.  <span data-ttu-id="c4bec-578">**Çalıştır** penceresini açmak için Windows logı tuşuyla birlikte R'ye basın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-578">Press the Windows logo key+R to open a **Run** window.</span></span>
+    2.  <span data-ttu-id="c4bec-579">**Aç** alanına, **Regedit** yazıp **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-579">In the **Open** field, type **Regedit**, and then click **OK**.</span></span>
+    3.  <span data-ttu-id="c4bec-580">Bir **Kullanıcı Hesabı Denetimi** ileti kutusu görüntülenirse, **Evet**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-580">If a **User Account Control** message box appears, click **Yes**.</span></span>
+    4.  <span data-ttu-id="c4bec-581">**Kayıt Defteri Düzenleyicisi** penceresinde, **HKEY\_yerel\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**'a gidin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-581">In the **Registry Editor** window, navigate to **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span></span> <span data-ttu-id="c4bec-582">Aşağıdaki anahtarlar yalnızca TLS 1.2 için izin vermek üzere otomatik olarak girilmiştir:</span><span class="sxs-lookup"><span data-stu-id="c4bec-582">The following keys have been automatically entered to allow for TLS 1.2 only:</span></span>
+        -   <span data-ttu-id="c4bec-583">TLS 1.2Server:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="c4bec-583">TLS 1.2Server:Enabled=1</span></span>
+        -   <span data-ttu-id="c4bec-584">TLS 1.2Server:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="c4bec-584">TLS 1.2Server:DisabledByDefault=0</span></span>
+        -   <span data-ttu-id="c4bec-585">TLS 1.2Client:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="c4bec-585">TLS 1.2Client:Enabled=1</span></span>
+        -   <span data-ttu-id="c4bec-586">TLS 1.2Client:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="c4bec-586">TLS 1.2Client:DisabledByDefault=0</span></span>
+        -   <span data-ttu-id="c4bec-587">TLS 1.1Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="c4bec-587">TLS 1.1Server:Enabled=0</span></span>
+        -   <span data-ttu-id="c4bec-588">TLS 1.1Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="c4bec-588">TLS 1.1Client:Enabled=0</span></span>
+        -   <span data-ttu-id="c4bec-589">TLS 1.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="c4bec-589">TLS 1.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="c4bec-590">TLS 1.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="c4bec-590">TLS 1.0Client:Enabled=0</span></span>
+        -   <span data-ttu-id="c4bec-591">SSL 3.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="c4bec-591">SSL 3.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="c4bec-592">SSL 3.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="c4bec-592">SSL 3.0Client:Enabled=0</span></span>
+        -   <span data-ttu-id="c4bec-593">SSL 2.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="c4bec-593">SSL 2.0Server:Enabled=0</span></span>
+        -   <span data-ttu-id="c4bec-594">SSL 2.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="c4bec-594">SSL 2.0Client:Enabled=0</span></span>
+-   <span data-ttu-id="c4bec-595">Bilinen, belirtilen nedenlerden dolayı gerekli olmadıkça hiçbir ek ağ bağlantı noktası açık olmamalıdır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-595">No additional network ports should be open, unless they are required for known, specified reasons.</span></span>
+-   <span data-ttu-id="c4bec-596">Çapraz kaynaklı kaynak paylaşımını devre dışı bırakılmalı ve kabul edilen izin verilen kaynaklar belirtilmelidir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-596">Cross-origin resource sharing must be disabled and must specify the allowed origins that are accepted.</span></span>
+-   <span data-ttu-id="c4bec-597">Yalnızca güvenilen sertifika yetkilileri, donanım istasyonu çalıştıran bilgisayarlarda kullanılacak sertifikaları almak için kullanılmalıdır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-597">Only trusted certificate authorities should be used to obtain certificates that will be used on computers that run the hardware station.</span></span>
 
-Aşağıdaki çevre birimler Windows için Modern POS içine yerleşik olan IPC donanım istasyonu kullanılarak sınanmıştır.
+<span data-ttu-id="c4bec-598">**Not:** IIS için güvenlik yönergelerini ve Ödeme Kartı Endüstrisi (PCI) gereksinimlerini gözden geçirmeniz çok önemlidir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-598">**Note:** It’s very important that you review security guidelines for IIS and the Payment Card Industry (PCI) requirements.</span></span>
 
-#### <a name="printer"></a>Yazıcı
+## <a name="peripheral-simulator"></a><span data-ttu-id="c4bec-599">Çevre birimi benzeticisi</span><span class="sxs-lookup"><span data-stu-id="c4bec-599">Peripheral simulator</span></span>
+<span data-ttu-id="c4bec-600">Bilgi için bkz. [Perakende çevre birimi benzeticisi](dev-itpro/retail-peripheral-simulator.md).</span><span class="sxs-lookup"><span data-stu-id="c4bec-600">For information, see [Retail peripheral simulator](dev-itpro/retail-peripheral-simulator.md).</span></span>
 
-| Üretici | Model    | Arabirim | Yorumlar                |
+## <a name="microsofttested-peripheral-devices"></a><span data-ttu-id="c4bec-601">Microsoft tarafından test edilmiş çevre birim cihazları</span><span class="sxs-lookup"><span data-stu-id="c4bec-601">Microsofttested peripheral devices</span></span>
+### <a name="ipc-built-in-hardware-station"></a><span data-ttu-id="c4bec-602">IPC (yerleşik) donanım istasyonu</span><span class="sxs-lookup"><span data-stu-id="c4bec-602">IPC (built-in) hardware station</span></span>
+
+<span data-ttu-id="c4bec-603">Aşağıdaki çevre birimler Windows için Modern POS içine yerleşik olan IPC donanım istasyonu kullanılarak sınanmıştır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-603">The following peripherals were tested by using the IPC hardware station that is built into Modern POS for Windows.</span></span>
+
+#### <a name="printer"></a><span data-ttu-id="c4bec-604">Yazıcı</span><span class="sxs-lookup"><span data-stu-id="c4bec-604">Printer</span></span>
+
+| <span data-ttu-id="c4bec-605">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-605">Manufacturer</span></span> | <span data-ttu-id="c4bec-606">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-606">Model</span></span>    | <span data-ttu-id="c4bec-607">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-607">Interface</span></span> | <span data-ttu-id="c4bec-608">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-608">Comments</span></span>                |
 |--------------|----------|-----------|-------------------------|
-| Epson        | Tm-T88IV | OPOS      |                         |
-| Epson        | TM-T88V  | OPOS      |                         |
-| Star         | TSP650II | OPOS      |                         |
-| Star         | TSP650II | Özel    | Ağ üzerinden bağlı   |
-| Star         | mPOP     | OPOS      | Bluetooth ile bağlı |
-| HP           | F7M67AA  | OPOS      | Güç beslemeli USB             |
+| <span data-ttu-id="c4bec-609">Epson</span><span class="sxs-lookup"><span data-stu-id="c4bec-609">Epson</span></span>        | <span data-ttu-id="c4bec-610">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="c4bec-610">Tm-T88IV</span></span> | <span data-ttu-id="c4bec-611">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-611">OPOS</span></span>      |                         |
+| <span data-ttu-id="c4bec-612">Epson</span><span class="sxs-lookup"><span data-stu-id="c4bec-612">Epson</span></span>        | <span data-ttu-id="c4bec-613">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="c4bec-613">TM-T88V</span></span>  | <span data-ttu-id="c4bec-614">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-614">OPOS</span></span>      |                         |
+| <span data-ttu-id="c4bec-615">Star</span><span class="sxs-lookup"><span data-stu-id="c4bec-615">Star</span></span>         | <span data-ttu-id="c4bec-616">TSP650II</span><span class="sxs-lookup"><span data-stu-id="c4bec-616">TSP650II</span></span> | <span data-ttu-id="c4bec-617">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-617">OPOS</span></span>      |                         |
+| <span data-ttu-id="c4bec-618">Star</span><span class="sxs-lookup"><span data-stu-id="c4bec-618">Star</span></span>         | <span data-ttu-id="c4bec-619">TSP650II</span><span class="sxs-lookup"><span data-stu-id="c4bec-619">TSP650II</span></span> | <span data-ttu-id="c4bec-620">Özel</span><span class="sxs-lookup"><span data-stu-id="c4bec-620">Custom</span></span>    | <span data-ttu-id="c4bec-621">Ağ üzerinden bağlı</span><span class="sxs-lookup"><span data-stu-id="c4bec-621">Connected via network</span></span>   |
+| <span data-ttu-id="c4bec-622">Star</span><span class="sxs-lookup"><span data-stu-id="c4bec-622">Star</span></span>         | <span data-ttu-id="c4bec-623">mPOP</span><span class="sxs-lookup"><span data-stu-id="c4bec-623">mPOP</span></span>     | <span data-ttu-id="c4bec-624">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-624">OPOS</span></span>      | <span data-ttu-id="c4bec-625">Bluetooth ile bağlı</span><span class="sxs-lookup"><span data-stu-id="c4bec-625">Connected via Bluetooth</span></span> |
+| <span data-ttu-id="c4bec-626">HP</span><span class="sxs-lookup"><span data-stu-id="c4bec-626">HP</span></span>           | <span data-ttu-id="c4bec-627">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="c4bec-627">F7M67AA</span></span>  | <span data-ttu-id="c4bec-628">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-628">OPOS</span></span>      | <span data-ttu-id="c4bec-629">Güç beslemeli USB</span><span class="sxs-lookup"><span data-stu-id="c4bec-629">Powered USB</span></span>             |
 
-#### <a name="bar-code-scanner"></a>Barkod tarayıcısı
+#### <a name="bar-code-scanner"></a><span data-ttu-id="c4bec-630">Barkod tarayıcısı</span><span class="sxs-lookup"><span data-stu-id="c4bec-630">Bar code scanner</span></span>
 
-| Üretici  | Model         | Arabirim | Yorumlar |
+| <span data-ttu-id="c4bec-631">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-631">Manufacturer</span></span>  | <span data-ttu-id="c4bec-632">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-632">Model</span></span>         | <span data-ttu-id="c4bec-633">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-633">Interface</span></span> | <span data-ttu-id="c4bec-634">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-634">Comments</span></span> |
 |---------------|---------------|-----------|----------|
-| Motorola      | DS9208        | OPOS      |          |
-| Honeywell     | 1900          | UWP       |          |
-| Simge        | LS2208        | OPOS      |          |
-| HP Tümleşik | E1L07AA       | OPOS      |          |
-| Datalogic     | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="c4bec-635">Motorola</span><span class="sxs-lookup"><span data-stu-id="c4bec-635">Motorola</span></span>      | <span data-ttu-id="c4bec-636">DS9208</span><span class="sxs-lookup"><span data-stu-id="c4bec-636">DS9208</span></span>        | <span data-ttu-id="c4bec-637">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-637">OPOS</span></span>      |          |
+| <span data-ttu-id="c4bec-638">Honeywell</span><span class="sxs-lookup"><span data-stu-id="c4bec-638">Honeywell</span></span>     | <span data-ttu-id="c4bec-639">1900</span><span class="sxs-lookup"><span data-stu-id="c4bec-639">1900</span></span>          | <span data-ttu-id="c4bec-640">UWP</span><span class="sxs-lookup"><span data-stu-id="c4bec-640">UWP</span></span>       |          |
+| <span data-ttu-id="c4bec-641">Simge</span><span class="sxs-lookup"><span data-stu-id="c4bec-641">Symbol</span></span>        | <span data-ttu-id="c4bec-642">LS2208</span><span class="sxs-lookup"><span data-stu-id="c4bec-642">LS2208</span></span>        | <span data-ttu-id="c4bec-643">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-643">OPOS</span></span>      |          |
+| <span data-ttu-id="c4bec-644">HP Tümleşik</span><span class="sxs-lookup"><span data-stu-id="c4bec-644">HP Integrated</span></span> | <span data-ttu-id="c4bec-645">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="c4bec-645">E1L07AA</span></span>       | <span data-ttu-id="c4bec-646">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-646">OPOS</span></span>      |          |
+| <span data-ttu-id="c4bec-647">Datalogic</span><span class="sxs-lookup"><span data-stu-id="c4bec-647">Datalogic</span></span>     | <span data-ttu-id="c4bec-648">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="c4bec-648">Magellan 8400</span></span> | <span data-ttu-id="c4bec-649">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-649">OPOS</span></span>      |          |
 
-#### <a name="pin-pad"></a>PIN pad
+#### <a name="pin-pad"></a><span data-ttu-id="c4bec-650">PIN pad</span><span class="sxs-lookup"><span data-stu-id="c4bec-650">PIN pad</span></span>
 
-| Üretici | Model  | Arabirim | Yorumlar                                        |
+| <span data-ttu-id="c4bec-651">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-651">Manufacturer</span></span> | <span data-ttu-id="c4bec-652">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-652">Model</span></span>  | <span data-ttu-id="c4bec-653">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-653">Interface</span></span> | <span data-ttu-id="c4bec-654">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-654">Comments</span></span>                                        |
 |--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | Ödeme bağlayıcısı için özelleştirme gerektirir |
+| <span data-ttu-id="c4bec-655">VeriFone</span><span class="sxs-lookup"><span data-stu-id="c4bec-655">VeriFone</span></span>     | <span data-ttu-id="c4bec-656">1000SE</span><span class="sxs-lookup"><span data-stu-id="c4bec-656">1000SE</span></span> | <span data-ttu-id="c4bec-657">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-657">OPOS</span></span>      | <span data-ttu-id="c4bec-658">Ödeme bağlayıcısı için özelleştirme gerektirir</span><span class="sxs-lookup"><span data-stu-id="c4bec-658">Requires customization of the payment connector</span></span> |
 
-#### <a name="payment-terminal"></a>Ödeme terminali 
+#### <a name="payment-terminal"></a><span data-ttu-id="c4bec-659">Ödeme terminali </span><span class="sxs-lookup"><span data-stu-id="c4bec-659">Payment terminal</span></span>
 
-| Üretici | Model | Arabirim | Yorumlar                                                                       |
+| <span data-ttu-id="c4bec-660">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-660">Manufacturer</span></span> | <span data-ttu-id="c4bec-661">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-661">Model</span></span> | <span data-ttu-id="c4bec-662">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-662">Interface</span></span> | <span data-ttu-id="c4bec-663">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-663">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir                                |
-| VeriFone     | MX925 | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı |
-| VeriFone     | MX915 | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı |
+| <span data-ttu-id="c4bec-664">Equinox</span><span class="sxs-lookup"><span data-stu-id="c4bec-664">Equinox</span></span>      | <span data-ttu-id="c4bec-665">L5300</span><span class="sxs-lookup"><span data-stu-id="c4bec-665">L5300</span></span> | <span data-ttu-id="c4bec-666">Özel</span><span class="sxs-lookup"><span data-stu-id="c4bec-666">Custom</span></span>    | <span data-ttu-id="c4bec-667">Ödeme bağlayıcısı için özelleştirme gerektirir</span><span class="sxs-lookup"><span data-stu-id="c4bec-667">Requires customization of the payment connector</span></span>                                |
+| <span data-ttu-id="c4bec-668">VeriFone</span><span class="sxs-lookup"><span data-stu-id="c4bec-668">VeriFone</span></span>     | <span data-ttu-id="c4bec-669">MX925</span><span class="sxs-lookup"><span data-stu-id="c4bec-669">MX925</span></span> | <span data-ttu-id="c4bec-670">Özel</span><span class="sxs-lookup"><span data-stu-id="c4bec-670">Custom</span></span>    | <span data-ttu-id="c4bec-671">Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı</span><span class="sxs-lookup"><span data-stu-id="c4bec-671">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="c4bec-672">VeriFone</span><span class="sxs-lookup"><span data-stu-id="c4bec-672">VeriFone</span></span>     | <span data-ttu-id="c4bec-673">MX915</span><span class="sxs-lookup"><span data-stu-id="c4bec-673">MX915</span></span> | <span data-ttu-id="c4bec-674">Özel</span><span class="sxs-lookup"><span data-stu-id="c4bec-674">Custom</span></span>    | <span data-ttu-id="c4bec-675">Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı</span><span class="sxs-lookup"><span data-stu-id="c4bec-675">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>Kasa çekmecesi
+#### <a name="cash-drawer"></a><span data-ttu-id="c4bec-676">Kasa çekmecesi</span><span class="sxs-lookup"><span data-stu-id="c4bec-676">Cash drawer</span></span>
 
-| Üretici | Model     | Arabirim | Yorumlar                |
+| <span data-ttu-id="c4bec-677">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-677">Manufacturer</span></span> | <span data-ttu-id="c4bec-678">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-678">Model</span></span>     | <span data-ttu-id="c4bec-679">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-679">Interface</span></span> | <span data-ttu-id="c4bec-680">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-680">Comments</span></span>                |
 |--------------|-----------|-----------|-------------------------|
-| Star         | mPOP      | OPOS      | Bluetooth ile bağlı |
-| APG          | Atwood    | Özel    | Ağ üzerinden bağlı   |
-| Star         | SMD2-1317 | OPOS      |                         |
-| HP           | QT457AA   | OPOS      |                         |
+| <span data-ttu-id="c4bec-681">Star</span><span class="sxs-lookup"><span data-stu-id="c4bec-681">Star</span></span>         | <span data-ttu-id="c4bec-682">mPOP</span><span class="sxs-lookup"><span data-stu-id="c4bec-682">mPOP</span></span>      | <span data-ttu-id="c4bec-683">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-683">OPOS</span></span>      | <span data-ttu-id="c4bec-684">Bluetooth ile bağlı</span><span class="sxs-lookup"><span data-stu-id="c4bec-684">Connected via Bluetooth</span></span> |
+| <span data-ttu-id="c4bec-685">APG</span><span class="sxs-lookup"><span data-stu-id="c4bec-685">APG</span></span>          | <span data-ttu-id="c4bec-686">Atwood</span><span class="sxs-lookup"><span data-stu-id="c4bec-686">Atwood</span></span>    | <span data-ttu-id="c4bec-687">Özel</span><span class="sxs-lookup"><span data-stu-id="c4bec-687">Custom</span></span>    | <span data-ttu-id="c4bec-688">Ağ üzerinden bağlı</span><span class="sxs-lookup"><span data-stu-id="c4bec-688">Connected via network</span></span>   |
+| <span data-ttu-id="c4bec-689">Star</span><span class="sxs-lookup"><span data-stu-id="c4bec-689">Star</span></span>         | <span data-ttu-id="c4bec-690">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="c4bec-690">SMD2-1317</span></span> | <span data-ttu-id="c4bec-691">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-691">OPOS</span></span>      |                         |
+| <span data-ttu-id="c4bec-692">HP</span><span class="sxs-lookup"><span data-stu-id="c4bec-692">HP</span></span>           | <span data-ttu-id="c4bec-693">QT457AA</span><span class="sxs-lookup"><span data-stu-id="c4bec-693">QT457AA</span></span>   | <span data-ttu-id="c4bec-694">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-694">OPOS</span></span>      |                         |
 
-#### <a name="line-display"></a>Satır görüntüleme
+#### <a name="line-display"></a><span data-ttu-id="c4bec-695">Satır görüntüleme</span><span class="sxs-lookup"><span data-stu-id="c4bec-695">Line display</span></span>
 
-| Üretici  | Model   | Arabirim | Yorumlar |
+| <span data-ttu-id="c4bec-696">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-696">Manufacturer</span></span>  | <span data-ttu-id="c4bec-697">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-697">Model</span></span>   | <span data-ttu-id="c4bec-698">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-698">Interface</span></span> | <span data-ttu-id="c4bec-699">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-699">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| HP tümleşik | G6U79AA | OPOS      |          |
-| Epson         | M58DC   | OPOS      |          |
+| <span data-ttu-id="c4bec-700">HP tümleşik</span><span class="sxs-lookup"><span data-stu-id="c4bec-700">HP integrated</span></span> | <span data-ttu-id="c4bec-701">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="c4bec-701">G6U79AA</span></span> | <span data-ttu-id="c4bec-702">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-702">OPOS</span></span>      |          |
+| <span data-ttu-id="c4bec-703">Epson</span><span class="sxs-lookup"><span data-stu-id="c4bec-703">Epson</span></span>         | <span data-ttu-id="c4bec-704">M58DC</span><span class="sxs-lookup"><span data-stu-id="c4bec-704">M58DC</span></span>   | <span data-ttu-id="c4bec-705">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-705">OPOS</span></span>      |          |
 
-#### <a name="signature-capture"></a>İmza alma
+#### <a name="signature-capture"></a><span data-ttu-id="c4bec-706">İmza alma</span><span class="sxs-lookup"><span data-stu-id="c4bec-706">Signature capture</span></span>
 
-| Üretici | Model  | Arabirim | Yorumlar |
+| <span data-ttu-id="c4bec-707">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-707">Manufacturer</span></span> | <span data-ttu-id="c4bec-708">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-708">Model</span></span>  | <span data-ttu-id="c4bec-709">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-709">Interface</span></span> | <span data-ttu-id="c4bec-710">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-710">Comments</span></span> |
 |--------------|--------|-----------|----------|
-| Scriptel     | ST1550 | OPOS      |          |
+| <span data-ttu-id="c4bec-711">Scriptel</span><span class="sxs-lookup"><span data-stu-id="c4bec-711">Scriptel</span></span>     | <span data-ttu-id="c4bec-712">ST1550</span><span class="sxs-lookup"><span data-stu-id="c4bec-712">ST1550</span></span> | <span data-ttu-id="c4bec-713">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-713">OPOS</span></span>      |          |
 
-#### <a name="scale"></a>Ölçek
+#### <a name="scale"></a><span data-ttu-id="c4bec-714">Ölçek</span><span class="sxs-lookup"><span data-stu-id="c4bec-714">Scale</span></span>
 
-| Üretici | Model         | Arabirim | Yorumlar |
+| <span data-ttu-id="c4bec-715">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-715">Manufacturer</span></span> | <span data-ttu-id="c4bec-716">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-716">Model</span></span>         | <span data-ttu-id="c4bec-717">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-717">Interface</span></span> | <span data-ttu-id="c4bec-718">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-718">Comments</span></span> |
 |--------------|---------------|-----------|----------|
-| Datalogic    | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="c4bec-719">Datalogic</span><span class="sxs-lookup"><span data-stu-id="c4bec-719">Datalogic</span></span>    | <span data-ttu-id="c4bec-720">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="c4bec-720">Magellan 8400</span></span> | <span data-ttu-id="c4bec-721">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-721">OPOS</span></span>      |          |
 
-#### <a name="msr"></a>MSR
+#### <a name="msr"></a><span data-ttu-id="c4bec-722">MSR</span><span class="sxs-lookup"><span data-stu-id="c4bec-722">MSR</span></span>
 
-| Üretici | Model       | Arabirim | Yorumlar |
+| <span data-ttu-id="c4bec-723">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-723">Manufacturer</span></span> | <span data-ttu-id="c4bec-724">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-724">Model</span></span>       | <span data-ttu-id="c4bec-725">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-725">Interface</span></span> | <span data-ttu-id="c4bec-726">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-726">Comments</span></span> |
 |--------------|-------------|-----------|----------|
-| Magtek       | 21073075    | UWP       |          |
-| Magtek       | 21073062    | OPOS      |          |
-| HP           | IDRA-334133 | OPOS      |          |
+| <span data-ttu-id="c4bec-727">Magtek</span><span class="sxs-lookup"><span data-stu-id="c4bec-727">Magtek</span></span>       | <span data-ttu-id="c4bec-728">21073075</span><span class="sxs-lookup"><span data-stu-id="c4bec-728">21073075</span></span>    | <span data-ttu-id="c4bec-729">UWP</span><span class="sxs-lookup"><span data-stu-id="c4bec-729">UWP</span></span>       |          |
+| <span data-ttu-id="c4bec-730">Magtek</span><span class="sxs-lookup"><span data-stu-id="c4bec-730">Magtek</span></span>       | <span data-ttu-id="c4bec-731">21073062</span><span class="sxs-lookup"><span data-stu-id="c4bec-731">21073062</span></span>    | <span data-ttu-id="c4bec-732">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-732">OPOS</span></span>      |          |
+| <span data-ttu-id="c4bec-733">HP</span><span class="sxs-lookup"><span data-stu-id="c4bec-733">HP</span></span>           | <span data-ttu-id="c4bec-734">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="c4bec-734">IDRA-334133</span></span> | <span data-ttu-id="c4bec-735">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-735">OPOS</span></span>      |          |
 
-### <a name="dedicated-iis-hardware-station"></a>Adanmış IIS donanım istasyonu
+### <a name="dedicated-iis-hardware-station"></a><span data-ttu-id="c4bec-736">Adanmış IIS donanım istasyonu</span><span class="sxs-lookup"><span data-stu-id="c4bec-736">Dedicated IIS hardware station</span></span>
 
-Aşağıdaki çevre birimler Windows için Modern POS ve Bulut POS ile adanmış (paylaştırılmamış) IIS donanım istasyonu kullanılarak sınanmıştır.
+<span data-ttu-id="c4bec-737">Aşağıdaki çevre birimler Windows için Modern POS ve Bulut POS ile adanmış (paylaştırılmamış) IIS donanım istasyonu kullanılarak sınanmıştır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-737">The following peripherals were tested by using a dedicated (not shared) IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span>
 
-#### <a name="printer"></a>Yazıcı
+#### <a name="printer"></a><span data-ttu-id="c4bec-738">Yazıcı</span><span class="sxs-lookup"><span data-stu-id="c4bec-738">Printer</span></span>
 
-| Üretici | Model    | Arabirim | Yorumlar                  |
+| <span data-ttu-id="c4bec-739">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-739">Manufacturer</span></span> | <span data-ttu-id="c4bec-740">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-740">Model</span></span>    | <span data-ttu-id="c4bec-741">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-741">Interface</span></span> | <span data-ttu-id="c4bec-742">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-742">Comments</span></span>                  |
 |--------------|----------|-----------|---------------------------|
-| Epson        | Tm-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Star         | TSP650II | OPOS      |                           |
-| Star         | TSP650II | Özel    | Ağ üzerinden bağlı     |
-| Star         | TSP100   | OPOS      | TSP650II sürücüleri gerektirir |
-| HP           | F7M67AA  | OPOS      | Güç beslemeli USB               |
+| <span data-ttu-id="c4bec-743">Epson</span><span class="sxs-lookup"><span data-stu-id="c4bec-743">Epson</span></span>        | <span data-ttu-id="c4bec-744">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="c4bec-744">Tm-T88IV</span></span> | <span data-ttu-id="c4bec-745">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-745">OPOS</span></span>      |                           |
+| <span data-ttu-id="c4bec-746">Epson</span><span class="sxs-lookup"><span data-stu-id="c4bec-746">Epson</span></span>        | <span data-ttu-id="c4bec-747">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="c4bec-747">TM-T88V</span></span>  | <span data-ttu-id="c4bec-748">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-748">OPOS</span></span>      |                           |
+| <span data-ttu-id="c4bec-749">Star</span><span class="sxs-lookup"><span data-stu-id="c4bec-749">Star</span></span>         | <span data-ttu-id="c4bec-750">TSP650II</span><span class="sxs-lookup"><span data-stu-id="c4bec-750">TSP650II</span></span> | <span data-ttu-id="c4bec-751">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-751">OPOS</span></span>      |                           |
+| <span data-ttu-id="c4bec-752">Star</span><span class="sxs-lookup"><span data-stu-id="c4bec-752">Star</span></span>         | <span data-ttu-id="c4bec-753">TSP650II</span><span class="sxs-lookup"><span data-stu-id="c4bec-753">TSP650II</span></span> | <span data-ttu-id="c4bec-754">Özel</span><span class="sxs-lookup"><span data-stu-id="c4bec-754">Custom</span></span>    | <span data-ttu-id="c4bec-755">Ağ üzerinden bağlı</span><span class="sxs-lookup"><span data-stu-id="c4bec-755">Connected via network</span></span>     |
+| <span data-ttu-id="c4bec-756">Star</span><span class="sxs-lookup"><span data-stu-id="c4bec-756">Star</span></span>         | <span data-ttu-id="c4bec-757">TSP100</span><span class="sxs-lookup"><span data-stu-id="c4bec-757">TSP100</span></span>   | <span data-ttu-id="c4bec-758">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-758">OPOS</span></span>      | <span data-ttu-id="c4bec-759">TSP650II sürücüleri gerektirir</span><span class="sxs-lookup"><span data-stu-id="c4bec-759">Requires TSP650II drivers</span></span> |
+| <span data-ttu-id="c4bec-760">HP</span><span class="sxs-lookup"><span data-stu-id="c4bec-760">HP</span></span>           | <span data-ttu-id="c4bec-761">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="c4bec-761">F7M67AA</span></span>  | <span data-ttu-id="c4bec-762">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-762">OPOS</span></span>      | <span data-ttu-id="c4bec-763">Güç beslemeli USB</span><span class="sxs-lookup"><span data-stu-id="c4bec-763">Powered USB</span></span>               |
 
-#### <a name="bar-code-scanner"></a>Barkod tarayıcısı
+#### <a name="bar-code-scanner"></a><span data-ttu-id="c4bec-764">Barkod tarayıcısı</span><span class="sxs-lookup"><span data-stu-id="c4bec-764">Bar code scanner</span></span>
 
-| Üretici  | Model   | Arabirim | Yorumlar |
+| <span data-ttu-id="c4bec-765">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-765">Manufacturer</span></span>  | <span data-ttu-id="c4bec-766">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-766">Model</span></span>   | <span data-ttu-id="c4bec-767">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-767">Interface</span></span> | <span data-ttu-id="c4bec-768">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-768">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| Motorola      | DS9208  | OPOS      |          |
-| Simge        | LS2208  | OPOS      |          |
-| HP Tümleşik | E1L07AA | OPOS      |          |
+| <span data-ttu-id="c4bec-769">Motorola</span><span class="sxs-lookup"><span data-stu-id="c4bec-769">Motorola</span></span>      | <span data-ttu-id="c4bec-770">DS9208</span><span class="sxs-lookup"><span data-stu-id="c4bec-770">DS9208</span></span>  | <span data-ttu-id="c4bec-771">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-771">OPOS</span></span>      |          |
+| <span data-ttu-id="c4bec-772">Simge</span><span class="sxs-lookup"><span data-stu-id="c4bec-772">Symbol</span></span>        | <span data-ttu-id="c4bec-773">LS2208</span><span class="sxs-lookup"><span data-stu-id="c4bec-773">LS2208</span></span>  | <span data-ttu-id="c4bec-774">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-774">OPOS</span></span>      |          |
+| <span data-ttu-id="c4bec-775">HP Tümleşik</span><span class="sxs-lookup"><span data-stu-id="c4bec-775">HP Integrated</span></span> | <span data-ttu-id="c4bec-776">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="c4bec-776">E1L07AA</span></span> | <span data-ttu-id="c4bec-777">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-777">OPOS</span></span>      |          |
 
-#### <a name="pin-pad"></a>PIN pad
+#### <a name="pin-pad"></a><span data-ttu-id="c4bec-778">PIN pad</span><span class="sxs-lookup"><span data-stu-id="c4bec-778">PIN pad</span></span>
 
-| Üretici | Model  | Arabirim | Yorumlar                                        |
+| <span data-ttu-id="c4bec-779">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-779">Manufacturer</span></span> | <span data-ttu-id="c4bec-780">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-780">Model</span></span>  | <span data-ttu-id="c4bec-781">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-781">Interface</span></span> | <span data-ttu-id="c4bec-782">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-782">Comments</span></span>                                        |
 |--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | Ödeme bağlayıcısı için özelleştirme gerektirir |
+| <span data-ttu-id="c4bec-783">VeriFone</span><span class="sxs-lookup"><span data-stu-id="c4bec-783">VeriFone</span></span>     | <span data-ttu-id="c4bec-784">1000SE</span><span class="sxs-lookup"><span data-stu-id="c4bec-784">1000SE</span></span> | <span data-ttu-id="c4bec-785">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-785">OPOS</span></span>      | <span data-ttu-id="c4bec-786">Ödeme bağlayıcısı için özelleştirme gerektirir</span><span class="sxs-lookup"><span data-stu-id="c4bec-786">Requires customization of the payment connector</span></span> |
 
-#### <a name="payment-terminal"></a>Ödeme terminali 
+#### <a name="payment-terminal"></a><span data-ttu-id="c4bec-787">Ödeme terminali </span><span class="sxs-lookup"><span data-stu-id="c4bec-787">Payment terminal</span></span>
 
-| Üretici | Model | Arabirim | Yorumlar                                                                       |
+| <span data-ttu-id="c4bec-788">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-788">Manufacturer</span></span> | <span data-ttu-id="c4bec-789">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-789">Model</span></span> | <span data-ttu-id="c4bec-790">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-790">Interface</span></span> | <span data-ttu-id="c4bec-791">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-791">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir                                |
-| VeriFone     | MX925 | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı |
-| VeriFone     | MX915 | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı |
+| <span data-ttu-id="c4bec-792">Equinox</span><span class="sxs-lookup"><span data-stu-id="c4bec-792">Equinox</span></span>      | <span data-ttu-id="c4bec-793">L5300</span><span class="sxs-lookup"><span data-stu-id="c4bec-793">L5300</span></span> | <span data-ttu-id="c4bec-794">Özel</span><span class="sxs-lookup"><span data-stu-id="c4bec-794">Custom</span></span>    | <span data-ttu-id="c4bec-795">Ödeme bağlayıcısı için özelleştirme gerektirir</span><span class="sxs-lookup"><span data-stu-id="c4bec-795">Requires customization of the payment connector</span></span>                                |
+| <span data-ttu-id="c4bec-796">VeriFone</span><span class="sxs-lookup"><span data-stu-id="c4bec-796">VeriFone</span></span>     | <span data-ttu-id="c4bec-797">MX925</span><span class="sxs-lookup"><span data-stu-id="c4bec-797">MX925</span></span> | <span data-ttu-id="c4bec-798">Özel</span><span class="sxs-lookup"><span data-stu-id="c4bec-798">Custom</span></span>    | <span data-ttu-id="c4bec-799">Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı</span><span class="sxs-lookup"><span data-stu-id="c4bec-799">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="c4bec-800">VeriFone</span><span class="sxs-lookup"><span data-stu-id="c4bec-800">VeriFone</span></span>     | <span data-ttu-id="c4bec-801">MX915</span><span class="sxs-lookup"><span data-stu-id="c4bec-801">MX915</span></span> | <span data-ttu-id="c4bec-802">Özel</span><span class="sxs-lookup"><span data-stu-id="c4bec-802">Custom</span></span>    | <span data-ttu-id="c4bec-803">Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı</span><span class="sxs-lookup"><span data-stu-id="c4bec-803">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>Kasa çekmecesi
+#### <a name="cash-drawer"></a><span data-ttu-id="c4bec-804">Kasa çekmecesi</span><span class="sxs-lookup"><span data-stu-id="c4bec-804">Cash drawer</span></span>
 
-| Üretici | Model     | Arabirim | Yorumlar              |
+| <span data-ttu-id="c4bec-805">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-805">Manufacturer</span></span> | <span data-ttu-id="c4bec-806">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-806">Model</span></span>     | <span data-ttu-id="c4bec-807">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-807">Interface</span></span> | <span data-ttu-id="c4bec-808">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-808">Comments</span></span>              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | Atwood    | Özel    | Ağ üzerinden bağlı |
-| Star         | SMD2-1317 | OPOS      |                       |
-| HP           | QT457AA   | OPOS      |                       |
+| <span data-ttu-id="c4bec-809">APG</span><span class="sxs-lookup"><span data-stu-id="c4bec-809">APG</span></span>          | <span data-ttu-id="c4bec-810">Atwood</span><span class="sxs-lookup"><span data-stu-id="c4bec-810">Atwood</span></span>    | <span data-ttu-id="c4bec-811">Özel</span><span class="sxs-lookup"><span data-stu-id="c4bec-811">Custom</span></span>    | <span data-ttu-id="c4bec-812">Ağ üzerinden bağlı</span><span class="sxs-lookup"><span data-stu-id="c4bec-812">Connected via network</span></span> |
+| <span data-ttu-id="c4bec-813">Star</span><span class="sxs-lookup"><span data-stu-id="c4bec-813">Star</span></span>         | <span data-ttu-id="c4bec-814">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="c4bec-814">SMD2-1317</span></span> | <span data-ttu-id="c4bec-815">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-815">OPOS</span></span>      |                       |
+| <span data-ttu-id="c4bec-816">HP</span><span class="sxs-lookup"><span data-stu-id="c4bec-816">HP</span></span>           | <span data-ttu-id="c4bec-817">QT457AA</span><span class="sxs-lookup"><span data-stu-id="c4bec-817">QT457AA</span></span>   | <span data-ttu-id="c4bec-818">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-818">OPOS</span></span>      |                       |
 
-#### <a name="line-display"></a>Satır görüntüleme
+#### <a name="line-display"></a><span data-ttu-id="c4bec-819">Satır görüntüleme</span><span class="sxs-lookup"><span data-stu-id="c4bec-819">Line display</span></span>
 
-| Üretici  | Model   | Arabirim | Yorumlar |
+| <span data-ttu-id="c4bec-820">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-820">Manufacturer</span></span>  | <span data-ttu-id="c4bec-821">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-821">Model</span></span>   | <span data-ttu-id="c4bec-822">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-822">Interface</span></span> | <span data-ttu-id="c4bec-823">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-823">Comments</span></span> |
 |---------------|---------|-----------|----------|
-| HP tümleşik | G6U79AA | OPOS      |          |
-| Epson         | M58DC   | OPOS      |          |
+| <span data-ttu-id="c4bec-824">HP tümleşik</span><span class="sxs-lookup"><span data-stu-id="c4bec-824">HP integrated</span></span> | <span data-ttu-id="c4bec-825">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="c4bec-825">G6U79AA</span></span> | <span data-ttu-id="c4bec-826">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-826">OPOS</span></span>      |          |
+| <span data-ttu-id="c4bec-827">Epson</span><span class="sxs-lookup"><span data-stu-id="c4bec-827">Epson</span></span>         | <span data-ttu-id="c4bec-828">M58DC</span><span class="sxs-lookup"><span data-stu-id="c4bec-828">M58DC</span></span>   | <span data-ttu-id="c4bec-829">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-829">OPOS</span></span>      |          |
 
-#### <a name="signature-capture"></a>İmza alma
+#### <a name="signature-capture"></a><span data-ttu-id="c4bec-830">İmza alma</span><span class="sxs-lookup"><span data-stu-id="c4bec-830">Signature capture</span></span>
 
-| Üretici | Model  | Arabirim | Yorumlar |
+| <span data-ttu-id="c4bec-831">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-831">Manufacturer</span></span> | <span data-ttu-id="c4bec-832">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-832">Model</span></span>  | <span data-ttu-id="c4bec-833">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-833">Interface</span></span> | <span data-ttu-id="c4bec-834">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-834">Comments</span></span> |
 |--------------|--------|-----------|----------|
-| Scriptel     | ST1550 | OPOS      |          |
+| <span data-ttu-id="c4bec-835">Scriptel</span><span class="sxs-lookup"><span data-stu-id="c4bec-835">Scriptel</span></span>     | <span data-ttu-id="c4bec-836">ST1550</span><span class="sxs-lookup"><span data-stu-id="c4bec-836">ST1550</span></span> | <span data-ttu-id="c4bec-837">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-837">OPOS</span></span>      |          |
 
-#### <a name="scale"></a>Ölçek
+#### <a name="scale"></a><span data-ttu-id="c4bec-838">Ölçek</span><span class="sxs-lookup"><span data-stu-id="c4bec-838">Scale</span></span>
 
-| Üretici | Model         | Arabirim | Yorumlar |
+| <span data-ttu-id="c4bec-839">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-839">Manufacturer</span></span> | <span data-ttu-id="c4bec-840">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-840">Model</span></span>         | <span data-ttu-id="c4bec-841">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-841">Interface</span></span> | <span data-ttu-id="c4bec-842">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-842">Comments</span></span> |
 |--------------|---------------|-----------|----------|
-| Datalogic    | Magellan 8400 | OPOS      |          |
+| <span data-ttu-id="c4bec-843">Datalogic</span><span class="sxs-lookup"><span data-stu-id="c4bec-843">Datalogic</span></span>    | <span data-ttu-id="c4bec-844">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="c4bec-844">Magellan 8400</span></span> | <span data-ttu-id="c4bec-845">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-845">OPOS</span></span>      |          |
 
-#### <a name="msr"></a>MSR
+#### <a name="msr"></a><span data-ttu-id="c4bec-846">MSR</span><span class="sxs-lookup"><span data-stu-id="c4bec-846">MSR</span></span>
 
-| Üretici | Model       | Arabirim | Yorumlar |
+| <span data-ttu-id="c4bec-847">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-847">Manufacturer</span></span> | <span data-ttu-id="c4bec-848">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-848">Model</span></span>       | <span data-ttu-id="c4bec-849">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-849">Interface</span></span> | <span data-ttu-id="c4bec-850">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-850">Comments</span></span> |
 |--------------|-------------|-----------|----------|
-| Magtek       | 21073075    | UWP       |          |
-| Magtek       | 21073062    | OPOS      |          |
-| HP           | IDRA-334133 | OPOS      |          |
+| <span data-ttu-id="c4bec-851">Magtek</span><span class="sxs-lookup"><span data-stu-id="c4bec-851">Magtek</span></span>       | <span data-ttu-id="c4bec-852">21073075</span><span class="sxs-lookup"><span data-stu-id="c4bec-852">21073075</span></span>    | <span data-ttu-id="c4bec-853">UWP</span><span class="sxs-lookup"><span data-stu-id="c4bec-853">UWP</span></span>       |          |
+| <span data-ttu-id="c4bec-854">Magtek</span><span class="sxs-lookup"><span data-stu-id="c4bec-854">Magtek</span></span>       | <span data-ttu-id="c4bec-855">21073062</span><span class="sxs-lookup"><span data-stu-id="c4bec-855">21073062</span></span>    | <span data-ttu-id="c4bec-856">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-856">OPOS</span></span>      |          |
+| <span data-ttu-id="c4bec-857">HP</span><span class="sxs-lookup"><span data-stu-id="c4bec-857">HP</span></span>           | <span data-ttu-id="c4bec-858">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="c4bec-858">IDRA-334133</span></span> | <span data-ttu-id="c4bec-859">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-859">OPOS</span></span>      |          |
 
-### <a name="shared-iis-hardware-station"></a>Paylaştırılmış IIS donanım istasyonu
+### <a name="shared-iis-hardware-station"></a><span data-ttu-id="c4bec-860">Paylaştırılmış IIS donanım istasyonu</span><span class="sxs-lookup"><span data-stu-id="c4bec-860">Shared IIS hardware station</span></span>
 
-Aşağıdaki çevre birimler Windows için Modern POS ve Bulut POS ile paylaştırılmış IIS donanım istasyonu kullanılarak sınanmıştır. **Not:** Sadece bir yazıcı, ödeme terminali ve kasa çekmecesi desteklenir.
+<span data-ttu-id="c4bec-861">Aşağıdaki çevre birimler Windows için Modern POS ve Bulut POS ile paylaştırılmış IIS donanım istasyonu kullanılarak sınanmıştır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-861">The following peripherals were tested by using a shared IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span> <span data-ttu-id="c4bec-862">**Not:** Sadece bir yazıcı, ödeme terminali ve kasa çekmecesi desteklenir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-862">**Note:** Only a printer, payment terminal, and cash drawer are supported.</span></span>
 
-#### <a name="printer"></a>Yazıcı
+#### <a name="printer"></a><span data-ttu-id="c4bec-863">Yazıcı</span><span class="sxs-lookup"><span data-stu-id="c4bec-863">Printer</span></span>
 
-| Üretici | Model    | Arabirim | Yorumlar                  |
+| <span data-ttu-id="c4bec-864">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-864">Manufacturer</span></span> | <span data-ttu-id="c4bec-865">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-865">Model</span></span>    | <span data-ttu-id="c4bec-866">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-866">Interface</span></span> | <span data-ttu-id="c4bec-867">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-867">Comments</span></span>                  |
 |--------------|----------|-----------|---------------------------|
-| Epson        | Tm-T88IV | OPOS      |                           |
-| Epson        | TM-T88V  | OPOS      |                           |
-| Star         | TSP650II | OPOS      |                           |
-| Star         | TSP650II | Özel    | Ağ üzerinden bağlı     |
-| Star         | TSP100   | OPOS      | TSP650II sürücüleri gerektirir |
-| HP           | F7M67AA  | OPOS      | Güç beslemeli USB               |
+| <span data-ttu-id="c4bec-868">Epson</span><span class="sxs-lookup"><span data-stu-id="c4bec-868">Epson</span></span>        | <span data-ttu-id="c4bec-869">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="c4bec-869">Tm-T88IV</span></span> | <span data-ttu-id="c4bec-870">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-870">OPOS</span></span>      |                           |
+| <span data-ttu-id="c4bec-871">Epson</span><span class="sxs-lookup"><span data-stu-id="c4bec-871">Epson</span></span>        | <span data-ttu-id="c4bec-872">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="c4bec-872">TM-T88V</span></span>  | <span data-ttu-id="c4bec-873">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-873">OPOS</span></span>      |                           |
+| <span data-ttu-id="c4bec-874">Star</span><span class="sxs-lookup"><span data-stu-id="c4bec-874">Star</span></span>         | <span data-ttu-id="c4bec-875">TSP650II</span><span class="sxs-lookup"><span data-stu-id="c4bec-875">TSP650II</span></span> | <span data-ttu-id="c4bec-876">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-876">OPOS</span></span>      |                           |
+| <span data-ttu-id="c4bec-877">Star</span><span class="sxs-lookup"><span data-stu-id="c4bec-877">Star</span></span>         | <span data-ttu-id="c4bec-878">TSP650II</span><span class="sxs-lookup"><span data-stu-id="c4bec-878">TSP650II</span></span> | <span data-ttu-id="c4bec-879">Özel</span><span class="sxs-lookup"><span data-stu-id="c4bec-879">Custom</span></span>    | <span data-ttu-id="c4bec-880">Ağ üzerinden bağlı</span><span class="sxs-lookup"><span data-stu-id="c4bec-880">Connected via network</span></span>     |
+| <span data-ttu-id="c4bec-881">Star</span><span class="sxs-lookup"><span data-stu-id="c4bec-881">Star</span></span>         | <span data-ttu-id="c4bec-882">TSP100</span><span class="sxs-lookup"><span data-stu-id="c4bec-882">TSP100</span></span>   | <span data-ttu-id="c4bec-883">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-883">OPOS</span></span>      | <span data-ttu-id="c4bec-884">TSP650II sürücüleri gerektirir</span><span class="sxs-lookup"><span data-stu-id="c4bec-884">Requires TSP650II drivers</span></span> |
+| <span data-ttu-id="c4bec-885">HP</span><span class="sxs-lookup"><span data-stu-id="c4bec-885">HP</span></span>           | <span data-ttu-id="c4bec-886">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="c4bec-886">F7M67AA</span></span>  | <span data-ttu-id="c4bec-887">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-887">OPOS</span></span>      | <span data-ttu-id="c4bec-888">Güç beslemeli USB</span><span class="sxs-lookup"><span data-stu-id="c4bec-888">Powered USB</span></span>               |
 
-#### <a name="payment-terminal"></a>Ödeme terminali 
+#### <a name="payment-terminal"></a><span data-ttu-id="c4bec-889">Ödeme terminali </span><span class="sxs-lookup"><span data-stu-id="c4bec-889">Payment terminal</span></span>
 
-| Üretici | Model | Arabirim | Yorumlar                                                                       |
+| <span data-ttu-id="c4bec-890">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-890">Manufacturer</span></span> | <span data-ttu-id="c4bec-891">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-891">Model</span></span> | <span data-ttu-id="c4bec-892">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-892">Interface</span></span> | <span data-ttu-id="c4bec-893">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-893">Comments</span></span>                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| VeriFone     | MX925 | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı |
-| VeriFone     | MX915 | Özel    | Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı |
+| <span data-ttu-id="c4bec-894">VeriFone</span><span class="sxs-lookup"><span data-stu-id="c4bec-894">VeriFone</span></span>     | <span data-ttu-id="c4bec-895">MX925</span><span class="sxs-lookup"><span data-stu-id="c4bec-895">MX925</span></span> | <span data-ttu-id="c4bec-896">Özel</span><span class="sxs-lookup"><span data-stu-id="c4bec-896">Custom</span></span>    | <span data-ttu-id="c4bec-897">Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı</span><span class="sxs-lookup"><span data-stu-id="c4bec-897">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="c4bec-898">VeriFone</span><span class="sxs-lookup"><span data-stu-id="c4bec-898">VeriFone</span></span>     | <span data-ttu-id="c4bec-899">MX915</span><span class="sxs-lookup"><span data-stu-id="c4bec-899">MX915</span></span> | <span data-ttu-id="c4bec-900">Özel</span><span class="sxs-lookup"><span data-stu-id="c4bec-900">Custom</span></span>    | <span data-ttu-id="c4bec-901">Ödeme bağlayıcısı için özelleştirme gerektirir; Ağ üzerinden ve USB ile bağlı</span><span class="sxs-lookup"><span data-stu-id="c4bec-901">Requires customization of the payment connector; connected via network and USB</span></span> |
 
-#### <a name="cash-drawer"></a>Kasa çekmecesi
+#### <a name="cash-drawer"></a><span data-ttu-id="c4bec-902">Kasa çekmecesi</span><span class="sxs-lookup"><span data-stu-id="c4bec-902">Cash drawer</span></span>
 
-| Üretici | Model     | Arabirim | Yorumlar              |
+| <span data-ttu-id="c4bec-903">Üretici</span><span class="sxs-lookup"><span data-stu-id="c4bec-903">Manufacturer</span></span> | <span data-ttu-id="c4bec-904">Model</span><span class="sxs-lookup"><span data-stu-id="c4bec-904">Model</span></span>     | <span data-ttu-id="c4bec-905">Arabirim</span><span class="sxs-lookup"><span data-stu-id="c4bec-905">Interface</span></span> | <span data-ttu-id="c4bec-906">Yorumlar</span><span class="sxs-lookup"><span data-stu-id="c4bec-906">Comments</span></span>              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | Atwood    | Özel    | Ağ üzerinden bağlı |
-| Star         | SMD2-1317 | OPOS      |                       |
-| HP           | QT457AA   | OPOS      |                       |
+| <span data-ttu-id="c4bec-907">APG</span><span class="sxs-lookup"><span data-stu-id="c4bec-907">APG</span></span>          | <span data-ttu-id="c4bec-908">Atwood</span><span class="sxs-lookup"><span data-stu-id="c4bec-908">Atwood</span></span>    | <span data-ttu-id="c4bec-909">Özel</span><span class="sxs-lookup"><span data-stu-id="c4bec-909">Custom</span></span>    | <span data-ttu-id="c4bec-910">Ağ üzerinden bağlı</span><span class="sxs-lookup"><span data-stu-id="c4bec-910">Connected via network</span></span> |
+| <span data-ttu-id="c4bec-911">Star</span><span class="sxs-lookup"><span data-stu-id="c4bec-911">Star</span></span>         | <span data-ttu-id="c4bec-912">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="c4bec-912">SMD2-1317</span></span> | <span data-ttu-id="c4bec-913">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-913">OPOS</span></span>      |                       |
+| <span data-ttu-id="c4bec-914">HP</span><span class="sxs-lookup"><span data-stu-id="c4bec-914">HP</span></span>           | <span data-ttu-id="c4bec-915">QT457AA</span><span class="sxs-lookup"><span data-stu-id="c4bec-915">QT457AA</span></span>   | <span data-ttu-id="c4bec-916">OPOS</span><span class="sxs-lookup"><span data-stu-id="c4bec-916">OPOS</span></span>      |                       |
 
-## <a name="troubleshooting"></a>Sorun Giderme
-### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a>Modern POS donanım istasyonunun seçim listesinde olduğunu algılayabiliyor, ancak eşleştirmeyi tamamlayamıyor
+## <a name="troubleshooting"></a><span data-ttu-id="c4bec-917">Sorun Giderme</span><span class="sxs-lookup"><span data-stu-id="c4bec-917">Troubleshooting</span></span>
+### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a><span data-ttu-id="c4bec-918">Modern POS donanım istasyonunun seçim listesinde olduğunu algılayabiliyor, ancak eşleştirmeyi tamamlayamıyor</span><span class="sxs-lookup"><span data-stu-id="c4bec-918">Modern POS can detect the hardware station in its list for selection, but it can’t complete the pairing</span></span>
 
-**Çözüm:** Aşağıdaki olası hata noktaları listesini kontrol edin:
+<span data-ttu-id="c4bec-919">**Çözüm:** Aşağıdaki olası hata noktaları listesini kontrol edin:</span><span class="sxs-lookup"><span data-stu-id="c4bec-919">**Solution:** Verify the following list of potential failure points:</span></span>
 
--   Modern POS çalıştıran bilgisayar donanım istasyonu çalıştıran bilgisayarda kullanılan sertifikaya güveniyor.
-    -   Bu kurulumu doğrulamak için, bir web tarayıcısında, şu URL'ye gidin: https://&lt;Bilgisayar Adı&gt;:&lt;Bağlantı Noktası Numarası&gt;/HardwareStation/ping.
-    -   Bu URL bilgisayara erişilebildiğini doğrulamak için bir ping kullanır ve tarayıcı sertifikanın güvenilir olup olmadığını gösterir. (Örneğin, Internet Explorer uygulamasında kilit simgesi adres çubuğunda görünür. Bu simgeyi tıklattığınızda, Internet Explorer sertifikanın güvenilir olup olmadığını doğrular. Sertifikayı yerel bilgisayarda gösterilen sertifikanın ayrıntılarını görüntüleyerek yükleyebilirsiniz.)
--   Donanım istasyonu çalıştıran bilgisayarda, donanım istasyonu tarafından kullanılan bağlantı noktası güvenlik duvarında açılır.
--   Donanım istasyonu, donanım istasyon yükleyici sonunda çalışan Satıcı bilgilerini yükleme aracı ile ticari hesap bilgilerini doğru bir şekilde yükledi.
+-   <span data-ttu-id="c4bec-920">Modern POS çalıştıran bilgisayar donanım istasyonu çalıştıran bilgisayarda kullanılan sertifikaya güveniyor.</span><span class="sxs-lookup"><span data-stu-id="c4bec-920">The computer that is running Modern POS trusts the certificate that is used on the computer that runs the hardware station.</span></span>
+    -   <span data-ttu-id="c4bec-921">Bu kurulumu doğrulamak için, bir web tarayıcısında, şu URL'ye gidin: https://&lt;Bilgisayar Adı&gt;:&lt;Bağlantı Noktası Numarası&gt;/HardwareStation/ping.</span><span class="sxs-lookup"><span data-stu-id="c4bec-921">To verify this setup, in a web browser, go to the following URL: https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping.</span></span>
+    -   <span data-ttu-id="c4bec-922">Bu URL bilgisayara erişilebildiğini doğrulamak için bir ping kullanır ve tarayıcı sertifikanın güvenilir olup olmadığını gösterir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-922">This URL uses a ping to verify that the computer can be accessed, and the browser indicates whether the certificate is trusted.</span></span> <span data-ttu-id="c4bec-923">(Örneğin, Internet Explorer uygulamasında kilit simgesi adres çubuğunda görünür.</span><span class="sxs-lookup"><span data-stu-id="c4bec-923">(For example, in Internet Explorer, a lock icon appears in the address bar.</span></span> <span data-ttu-id="c4bec-924">Bu simgeyi tıklattığınızda, Internet Explorer sertifikanın güvenilir olup olmadığını doğrular.</span><span class="sxs-lookup"><span data-stu-id="c4bec-924">When you click this icon, Internet Explorer verifies whether the certificate is currently trusted.</span></span> <span data-ttu-id="c4bec-925">Sertifikayı yerel bilgisayarda gösterilen sertifikanın ayrıntılarını görüntüleyerek yükleyebilirsiniz.)</span><span class="sxs-lookup"><span data-stu-id="c4bec-925">You can install the certificate on the local computer by viewing the details of the certificate that is shown.)</span></span>
+-   <span data-ttu-id="c4bec-926">Donanım istasyonu çalıştıran bilgisayarda, donanım istasyonu tarafından kullanılan bağlantı noktası güvenlik duvarında açılır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-926">On the computer that runs the hardware station, the port that will be used by the hardware station is opened in the firewall.</span></span>
+-   <span data-ttu-id="c4bec-927">Donanım istasyonu, donanım istasyon yükleyici sonunda çalışan Satıcı bilgilerini yükleme aracı ile ticari hesap bilgilerini doğru bir şekilde yükledi.</span><span class="sxs-lookup"><span data-stu-id="c4bec-927">The hardware station has correctly installed merchant account information through the Install merchant information tool that runs at the end of the hardware station installer.</span></span>
 
-### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a>Modern POS, seçim listesinde bulunan donanım istasyonunu algılayamıyor
+### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a><span data-ttu-id="c4bec-928">Modern POS, seçim listesinde bulunan donanım istasyonunu algılayamıyor</span><span class="sxs-lookup"><span data-stu-id="c4bec-928">Modern POS can’t detect the hardware station in its list for selection</span></span>
 
-**Çözüm:** Aşağıdaki etkenlerden biri bu soruna neden olabilir:
+<span data-ttu-id="c4bec-929">**Çözüm:** Aşağıdaki etkenlerden biri bu soruna neden olabilir:</span><span class="sxs-lookup"><span data-stu-id="c4bec-929">**Solution:** Either of the following factors can cause this issue:</span></span>
 
--   Donanım istasyonu genel merkezden doğru şekilde ayarlanmamıştır. Donanım istasyonu profilinin ve donanım istasyonunun doğru şekilde girildiğinden emin olmak için bu konunun önceki bölümlerinde açıklanan adımları kullanın.
--   İşler kanal yapılandırmasını güncelleştirmek için çalıştırılmamış. Bu durumda, kanal konfigürasyonu için 1070 işini çalıştırın.
+-   <span data-ttu-id="c4bec-930">Donanım istasyonu genel merkezden doğru şekilde ayarlanmamıştır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-930">The hardware station hasn’t been set up correctly in headquarters.</span></span> <span data-ttu-id="c4bec-931">Donanım istasyonu profilinin ve donanım istasyonunun doğru şekilde girildiğinden emin olmak için bu konunun önceki bölümlerinde açıklanan adımları kullanın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-931">Use the steps earlier in this topic to verify that the hardware station profile and the hardware station are correctly entered.</span></span>
+-   <span data-ttu-id="c4bec-932">İşler kanal yapılandırmasını güncelleştirmek için çalıştırılmamış.</span><span class="sxs-lookup"><span data-stu-id="c4bec-932">The jobs haven’t been run to update the channel configuration.</span></span> <span data-ttu-id="c4bec-933">Bu durumda, kanal konfigürasyonu için 1070 işini çalıştırın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-933">In this case, run the 1070 job for channel configuration.</span></span>
 
-### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>Modern POS yeni kasa çekmecesi ayarlarını yansıtmıyor.
+### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a><span data-ttu-id="c4bec-934">Modern POS yeni kasa çekmecesi ayarlarını yansıtmıyor.</span><span class="sxs-lookup"><span data-stu-id="c4bec-934">Modern POS doesn't reflect new cash drawer settings</span></span>
 
-**Çözüm:** Geçerli toplu işi kapatın. Geçerli toplu işlem kapanıncaya kadar kasa çekmecesindeki değişiklikler Modern POS'da güncelleştirilmez.
+<span data-ttu-id="c4bec-935">**Çözüm:** Geçerli toplu işi kapatın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-935">**Solution:** Close the current batch.</span></span> <span data-ttu-id="c4bec-936">Geçerli toplu işlem kapanıncaya kadar kasa çekmecesindeki değişiklikler Modern POS'da güncelleştirilmez.</span><span class="sxs-lookup"><span data-stu-id="c4bec-936">Changes to the cash drawer aren't updated to Modern POS until the current batch is closed.</span></span>
 
-### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a>Modern POS bir perakende çevre birimiyle ilgili bir sorun raporluyor
+### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a><span data-ttu-id="c4bec-937">Modern POS bir perakende çevre birimiyle ilgili bir sorun raporluyor</span><span class="sxs-lookup"><span data-stu-id="c4bec-937">Modern POS is reporting an issue with a retail peripheral</span></span>
 
-**Çözüm:** Bu sorunun tipik bazı nedenleri şunlardır:
+<span data-ttu-id="c4bec-938">**Çözüm:** Bu sorunun tipik bazı nedenleri şunlardır:</span><span class="sxs-lookup"><span data-stu-id="c4bec-938">**Solution:** Here are some typical causes of this issue:</span></span>
 
--   Diğer aygıt sürücüsü yapılandırma yardımcı programlarının kapalı olduğundan emin olun. Bu yardımcı programlar açıksa, Modern POS veya donanım istasyonunun cihazdan talepte bulunmasını engelleyebilir.
--   Perakende çevre birimi birden fazla POS cihazıyla paylaşılıyorsa, aşağıdaki kategorilerden birine ait olduğundan emin olun:
-    -   Kasa çekmecesi
-    -   Makbuz yazıcısı
-    -   Ödeme terminali 
+-   <span data-ttu-id="c4bec-939">Diğer aygıt sürücüsü yapılandırma yardımcı programlarının kapalı olduğundan emin olun.</span><span class="sxs-lookup"><span data-stu-id="c4bec-939">Make sure that other device driver configuration utilities are closed.</span></span> <span data-ttu-id="c4bec-940">Bu yardımcı programlar açıksa, Modern POS veya donanım istasyonunun cihazdan talepte bulunmasını engelleyebilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-940">If these utilities are open, they might prevent Modern POS or the hardware station from claiming the device.</span></span>
+-   <span data-ttu-id="c4bec-941">Perakende çevre birimi birden fazla POS cihazıyla paylaşılıyorsa, aşağıdaki kategorilerden birine ait olduğundan emin olun:</span><span class="sxs-lookup"><span data-stu-id="c4bec-941">If the retail peripheral is shared with multiple POS devices, make sure that it belongs to one of the following categories:</span></span>
+    -   <span data-ttu-id="c4bec-942">Kasa çekmecesi</span><span class="sxs-lookup"><span data-stu-id="c4bec-942">Cash drawer</span></span>
+    -   <span data-ttu-id="c4bec-943">Makbuz yazıcısı</span><span class="sxs-lookup"><span data-stu-id="c4bec-943">Receipt printer</span></span>
+    -   <span data-ttu-id="c4bec-944">Ödeme terminali </span><span class="sxs-lookup"><span data-stu-id="c4bec-944">Payment terminal</span></span>
 
-    Çevre birim aşağıdaki kategorilerden birine ait değilse, donanım istasyonu çevre birimin birden fazla POS cihazı arasında paylaşılmasına olanak tanımak için tasarlanmamıştır.
--   Bazen, cihaz sürücüleri, genel denetim nesnelerinin (CCOs) düzgün çalışmayı durdurmasına neden olabilir. Son zamanlarda bir cihaz yüklendiyse, ancak düzgün çalışmıyorsa veya başka sorunlar fark ediyorsanız, genellikle sorunu CCO'ları yeniden yükleyerek çözebilirsiniz. CCO'ları indirmek için <http://monroecs.com/oposccos_current.htm> adresini ziyaret edin.
--   Sınama ve sorun giderme sırasında sık sık çevre birim değişikliği yaparsanız, önbelleğin kendisini yenilemesini beklemek yerine IIS'yi sıfırlamanız gerekebilir. IIS'yi sıfırlamak için şu adımları izleyin:
-    1.  **Başlat** menüsüde **CMD** yazın.
-    2.  Arama sonuçlarında, **Komut istemi**'ne sağ tıklayın ve **Yönetici olarak çalıştır**'a tıklayın.
-    3.  **Komut istemi** penceresinde, **iisreset/Restart** yazıp Enter tuşuna basın.
-    4.  IIS yeniden başlatıldıktan sonra Modern POS'u yeniden başlatın.
--   Çevre birimi cihazlarında için sık sık değişiklik yaptığınızda, POS istemcisini de sık sık başlatıp çıkıyorsanız, bir önceki POS oturumundaki dllhost işlemi geçerli oturumla etkileşime girebilir. Bu durumda, önceki oturumu yöneten dinamik bağlantı kitaplığı (DLL) ana bilgisayarı kapatılıncaya kadar cihaz kullanılamayabilir. DLL ana bilgisayarını kapatmak için şu adımları izleyin:
-    1.  **Başlat** menüsüde **Görev yöneticisi** yazın.
-    2.  Arama sonuçlarında **Görev yöneticisi**'ne tıklayın.
-    3.  Görev yöneticisinde, **Ayrıntılar** sekmesinde, **Ad** etiketli sütun başlığına tıklayıp tabloyu ada göre alfabetik olarak sıralayın.
-    4.  dllhost.exe'yi bulana kadar aşağı kaydırın.
-    5.  Her DLL ana bilgisayarını seçin ve ardından **Görevi sonlandır**'a tıklayın.
-    6.  DLL ana bilgisayarları kapandıktan sonra Modern POS'u yeniden başlatın.
+    <span data-ttu-id="c4bec-945">Çevre birim aşağıdaki kategorilerden birine ait değilse, donanım istasyonu çevre birimin birden fazla POS cihazı arasında paylaşılmasına olanak tanımak için tasarlanmamıştır.</span><span class="sxs-lookup"><span data-stu-id="c4bec-945">If the peripheral doesn't belong to one of these categories, the hardware station isn't designed to enable the peripheral to be shared among multiple POS devices.</span></span>
+-   <span data-ttu-id="c4bec-946">Bazen, cihaz sürücüleri, genel denetim nesnelerinin (CCOs) düzgün çalışmayı durdurmasına neden olabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-946">Sometimes, device drivers can cause the common control objects (CCOs) to stop working correctly.</span></span> <span data-ttu-id="c4bec-947">Son zamanlarda bir cihaz yüklendiyse, ancak düzgün çalışmıyorsa veya başka sorunlar fark ediyorsanız, genellikle sorunu CCO'ları yeniden yükleyerek çözebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c4bec-947">If a device has recently been installed, but it isn't working properly or you notice other issues, you can often resolve the issue by reinstalling the CCOs.</span></span> <span data-ttu-id="c4bec-948">CCO'ları indirmek için <http://monroecs.com/oposccos_current.htm> adresini ziyaret edin.</span><span class="sxs-lookup"><span data-stu-id="c4bec-948">To download the CCOs, visit <http://monroecs.com/oposccos_current.htm>.</span></span>
+-   <span data-ttu-id="c4bec-949">Sınama ve sorun giderme sırasında sık sık çevre birim değişikliği yaparsanız, önbelleğin kendisini yenilemesini beklemek yerine IIS'yi sıfırlamanız gerekebilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-949">If you make frequent peripheral changes during testing or troubleshooting, you might have to reset IIS instead of waiting for the cache to refresh itself.</span></span> <span data-ttu-id="c4bec-950">IIS'yi sıfırlamak için şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="c4bec-950">To reset IIS, follow these steps:</span></span>
+    1.  <span data-ttu-id="c4bec-951">**Başlat** menüsüde **CMD** yazın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-951">From the **Start** menu, type **CMD**.</span></span>
+    2.  <span data-ttu-id="c4bec-952">Arama sonuçlarında, **Komut istemi**'ne sağ tıklayın ve **Yönetici olarak çalıştır**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-952">In the search results, right-click **Command prompt**, and then click **Run as administrator**.</span></span>
+    3.  <span data-ttu-id="c4bec-953">**Komut istemi** penceresinde, **iisreset/Restart** yazıp Enter tuşuna basın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-953">In the **Command prompt** window, type **iisreset /Restart** and then press Enter.</span></span>
+    4.  <span data-ttu-id="c4bec-954">IIS yeniden başlatıldıktan sonra Modern POS'u yeniden başlatın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-954">After IIS has restarted, restart Modern POS.</span></span>
+-   <span data-ttu-id="c4bec-955">Çevre birimi cihazlarında için sık sık değişiklik yaptığınızda, POS istemcisini de sık sık başlatıp çıkıyorsanız, bir önceki POS oturumundaki dllhost işlemi geçerli oturumla etkileşime girebilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-955">While you're making frequent changes to peripheral devices, if you also frequently start and exit the POS client, the dllhost process from a previous POS session can interfere with the current session.</span></span> <span data-ttu-id="c4bec-956">Bu durumda, önceki oturumu yöneten dinamik bağlantı kitaplığı (DLL) ana bilgisayarı kapatılıncaya kadar cihaz kullanılamayabilir.</span><span class="sxs-lookup"><span data-stu-id="c4bec-956">In this case, a device might not be usable until you close the dynamic-link library (DLL) host that is managing the previous session.</span></span> <span data-ttu-id="c4bec-957">DLL ana bilgisayarını kapatmak için şu adımları izleyin:</span><span class="sxs-lookup"><span data-stu-id="c4bec-957">To close the DLL host, follow these steps:</span></span>
+    1.  <span data-ttu-id="c4bec-958">**Başlat** menüsüde **Görev yöneticisi** yazın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-958">From the **Start** menu, type **Task manager**.</span></span>
+    2.  <span data-ttu-id="c4bec-959">Arama sonuçlarında **Görev yöneticisi**'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-959">In the search results, click **Task manager**.</span></span>
+    3.  <span data-ttu-id="c4bec-960">Görev yöneticisinde, **Ayrıntılar** sekmesinde, **Ad** etiketli sütun başlığına tıklayıp tabloyu ada göre alfabetik olarak sıralayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-960">In Task manager, on the **Details** tab, click the column header that is labeled **Name** to sort the table alphabetically by name.</span></span>
+    4.  <span data-ttu-id="c4bec-961">dllhost.exe'yi bulana kadar aşağı kaydırın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-961">Scroll down until you find dllhost.exe.</span></span>
+    5.  <span data-ttu-id="c4bec-962">Her DLL ana bilgisayarını seçin ve ardından **Görevi sonlandır**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-962">Select each DLL host, and then click **End task**.</span></span>
+    6.  <span data-ttu-id="c4bec-963">DLL ana bilgisayarları kapandıktan sonra Modern POS'u yeniden başlatın.</span><span class="sxs-lookup"><span data-stu-id="c4bec-963">After the DLL hosts have been closed, restart Modern POS.</span></span>
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="see-also"></a><span data-ttu-id="c4bec-964">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="c4bec-964">See also</span></span>
 --------
 
-[Perakende çevre birimi benzeticisi](dev-itpro/retail-peripheral-simulator.md)
+[<span data-ttu-id="c4bec-965">Perakende çevre birimi benzeticisi</span><span class="sxs-lookup"><span data-stu-id="c4bec-965">Retail peripheral simulator</span></span>](dev-itpro/retail-peripheral-simulator.md)
 
 
 

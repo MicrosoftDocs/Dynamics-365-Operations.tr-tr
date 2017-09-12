@@ -16,98 +16,98 @@ ms.custom: 7151
 ms.assetid: bbc4f9a2-df4b-4d92-9f18-25282a85541f
 ms.search.region: Global
 ms.author: omulvad
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a9cabce5400216ee0214eb6d56f0d32d746b260f
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 9e9d1912abf9a356542ce2c317fa717bc991dbf9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="order-entry-deadlines"></a>Sipariş son giriş tarihleri
+# <a name="order-entry-deadlines"></a><span data-ttu-id="57723-104">Sipariş son giriş tarihleri</span><span class="sxs-lookup"><span data-stu-id="57723-104">Order entry deadlines</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede sipariş giriş son tarihleri hakkında bilgiler verilmiştir. Bir sipariş girişi son tarihi, bir müşteri siparişinin o gün ya da ertesi gün alındığının kabul edilip edilmeyeceğini (ve yerine getirilip getirilmediğini) belirleyen bir kesim tarihidir.
+<span data-ttu-id="57723-105">Bu makalede sipariş giriş son tarihleri hakkında bilgiler verilmiştir.</span><span class="sxs-lookup"><span data-stu-id="57723-105">This article provides information about order entry deadlines.</span></span> <span data-ttu-id="57723-106">Bir sipariş girişi son tarihi, bir müşteri siparişinin o gün ya da ertesi gün alındığının kabul edilip edilmeyeceğini (ve yerine getirilip getirilmediğini) belirleyen bir kesim tarihidir.</span><span class="sxs-lookup"><span data-stu-id="57723-106">An order entry deadline is a cut-off time that determines whether a customer order is treated (and fulfilled) as if it was received on the current day or the next day.</span></span>
 
-Çoğu şirkette, günün yalnızca belirli bir saati öncesinde alınan satış siparişleri o gün alınmış sayılır. O saatten sonra alınan siparişler, sonraki işgünü alınmış sayılır. Siparişlerin sonlanacağı bu saate, son sipariş giriş saati denilir.  
+<span data-ttu-id="57723-107">Çoğu şirkette, günün yalnızca belirli bir saati öncesinde alınan satış siparişleri o gün alınmış sayılır.</span><span class="sxs-lookup"><span data-stu-id="57723-107">In many companies, only sales orders that are received before a certain time of day are treated as if they were received on that day.</span></span> <span data-ttu-id="57723-108">O saatten sonra alınan siparişler, sonraki işgünü alınmış sayılır.</span><span class="sxs-lookup"><span data-stu-id="57723-108">Any orders that are received after that time are treated as if they are received on the next business day.</span></span> <span data-ttu-id="57723-109">Siparişlerin sonlanacağı bu saate, son sipariş giriş saati denilir.</span><span class="sxs-lookup"><span data-stu-id="57723-109">This cut-off time for orders is known as the order entry deadline.</span></span>  
 
-Son sipariş giriş saatleri, sipariş vaatleri için bir girdi olarak kullanılırlar. Bu nedenle, müşterilerin sipariş teslimi konusundaki beklentilerini yönetmenize yardımcı olurlar. Örneğin, müşteriler belirli bir saatten önce size sipariş verdiklerinde malları aynı gün teslim etmeyi vaat ettiğinizi görebilirler. Ancak, bu son saati kaçırırlarsa, teslimatın ancak sonraki işgünü yapılmasını bekleyebilirler. Son sipariş giriş saatlerini ambar kapasitenize ve taşıma kuryesi planlarınıza dayalı olarak ayarlarsınız.  
+<span data-ttu-id="57723-110">Son sipariş giriş saatleri, sipariş vaatleri için bir girdi olarak kullanılırlar.</span><span class="sxs-lookup"><span data-stu-id="57723-110">Order entry deadlines are used as input for order promising.</span></span> <span data-ttu-id="57723-111">Bu nedenle, müşterilerin sipariş teslimi konusundaki beklentilerini yönetmenize yardımcı olurlar.</span><span class="sxs-lookup"><span data-stu-id="57723-111">Therefore, they help you manage customer expectations about order deliveries.</span></span> <span data-ttu-id="57723-112">Örneğin, müşteriler belirli bir saatten önce size sipariş verdiklerinde malları aynı gün teslim etmeyi vaat ettiğinizi görebilirler.</span><span class="sxs-lookup"><span data-stu-id="57723-112">For example, customers can see that, if they place an order with you before a specific time, you will commit to shipping the goods on the same day.</span></span> <span data-ttu-id="57723-113">Ancak, bu son saati kaçırırlarsa, teslimatın ancak sonraki işgünü yapılmasını bekleyebilirler.</span><span class="sxs-lookup"><span data-stu-id="57723-113">However, if they miss that deadline, they can expect the shipment only on the next business day.</span></span> <span data-ttu-id="57723-114">Son sipariş giriş saatlerini ambar kapasitenize ve taşıma kuryesi planlarınıza dayalı olarak ayarlarsınız.</span><span class="sxs-lookup"><span data-stu-id="57723-114">You set order entry deadlines based on your warehouse capabilities and shipping carrier schedules.</span></span>  
 
-**Son sipariş giriş saatleri** sayfasında, haftanın tüm günleri için son sipariş giriş saati ayarlayın. Belirtilmiş o saatten sonra sipariş alınırsa, sonraki işgünü alınmış sayılır. Varsayılan olarak bu saatler ilgili günün gece yarısına bir dakika kalan 23:59 saatine ayarlanmıştır. Varsayılan saatleri, gerçek sevk tarihi veya giriş tarihi saatleriyle örtüşecek şekilde değiştirebilirsiniz.  
+<span data-ttu-id="57723-115">**Son sipariş giriş saatleri** sayfasında, haftanın tüm günleri için son sipariş giriş saati ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="57723-115">On the **Order entry deadlines** page, you set up order entry deadline times for all the days of the week.</span></span> <span data-ttu-id="57723-116">Belirtilmiş o saatten sonra sipariş alınırsa, sonraki işgünü alınmış sayılır.</span><span class="sxs-lookup"><span data-stu-id="57723-116">If orders are received after the specified times, they are treated as if they are received on the next day.</span></span> <span data-ttu-id="57723-117">Varsayılan olarak bu saatler ilgili günün gece yarısına bir dakika kalan 23:59 saatine ayarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="57723-117">By default, these times are set to 23:59 (that is, one minute before midnight at the end of the relevant day).</span></span> <span data-ttu-id="57723-118">Varsayılan saatleri, gerçek sevk tarihi veya giriş tarihi saatleriyle örtüşecek şekilde değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="57723-118">You can change the default times so that they coincide with actual ship or receipt deadline times.</span></span>  
 
-Belirli bir müşteri grubu için son sipariş giriş saati tanımlayabilirsiniz. Örneğin, belirli bir müşteri grubunun diğer müşterilerden daha geç son sipariş giriş saatlerine sahip olmasını isteyebilirsiniz. Bu durumda, önce son sipariş giriş saatleri için **Son sipariş giriş saati grupları** sayfasında gruplar tanımlayın. Ardından grupları **Müşteriler** sayfasındaki müşterilere atayın.  
+<span data-ttu-id="57723-119">Belirli bir müşteri grubu için son sipariş giriş saati tanımlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="57723-119">You can define order entry deadlines for a specific group of customers.</span></span> <span data-ttu-id="57723-120">Örneğin, belirli bir müşteri grubunun diğer müşterilerden daha geç son sipariş giriş saatlerine sahip olmasını isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="57723-120">For example, you might want a specific group of customers to have order entry deadlines that are later than those of other customers.</span></span> <span data-ttu-id="57723-121">Bu durumda, önce son sipariş giriş saatleri için **Son sipariş giriş saati grupları** sayfasında gruplar tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="57723-121">In this case, you first define groups for order entry deadlines on the **Order entry deadline groups** page.</span></span> <span data-ttu-id="57723-122">Ardından grupları **Müşteriler** sayfasındaki müşterilere atayın.</span><span class="sxs-lookup"><span data-stu-id="57723-122">You then assign the groups to customers on the **Customers** page.</span></span>  
 
-Şirketiniz birkaç tesisten oluşuyorsa, her tesis için son sipariş giriş saatlerini ayarlayabilirsiniz. Tesisler farklı saat dilimlerinde bulunuyorsa, son sipariş giriş saati söz konusu tesisin saat diliminde ayarlanır. Ancak, satış siparişleri ve satış teklifleri ile çalışırken, son sipariş giriş saati **Mevcut sevk ve giriş tarihleri** sayfasındaki saat diliminize dönüştürülür.  
+<span data-ttu-id="57723-123">Şirketiniz birkaç tesisten oluşuyorsa, her tesis için son sipariş giriş saatlerini ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="57723-123">If your company consists of several sites, you can set up order entry deadlines for each site.</span></span> <span data-ttu-id="57723-124">Tesisler farklı saat dilimlerinde bulunuyorsa, son sipariş giriş saati söz konusu tesisin saat diliminde ayarlanır.</span><span class="sxs-lookup"><span data-stu-id="57723-124">If the sites are located in different time zones, the order entry deadlines are set up in each site's time zone.</span></span> <span data-ttu-id="57723-125">Ancak, satış siparişleri ve satış teklifleri ile çalışırken, son sipariş giriş saati **Mevcut sevk ve giriş tarihleri** sayfasındaki saat diliminize dönüştürülür.</span><span class="sxs-lookup"><span data-stu-id="57723-125">However, when you work with sales orders and sales quotations, the order entry deadline is converted to your time zone on the **Available ship and receipt dates** page.</span></span>  
 
-**Son sipariş giriş saat birleşimlerini etkinleştir** sayfasında, izin verilen tesis birleşimlerini ve son sipariş giriş saati gruplarını tanımlarsınız.
+<span data-ttu-id="57723-126">**Son sipariş giriş saat birleşimlerini etkinleştir** sayfasında, izin verilen tesis birleşimlerini ve son sipariş giriş saati gruplarını tanımlarsınız.</span><span class="sxs-lookup"><span data-stu-id="57723-126">On the **Activate order entry deadline combinations** page, you define the combinations of sites and order entry deadline groups that are allowed.</span></span>
 
-## <a name="example-order-entry-deadline"></a>Örnek: Son sipariş giriş saati
-Son sipariş giriş saati, Salı günü 16:00 olarak ayarlandı. Belirli bir Salı günü saat 17:00'de, geçerli tarihi sevk tarihi olarak ayarlamaya çalışın. (Bu örnek için sağlama süresi bulunmadığını unutmayın.) **Teslim tarihi kontrolü** onay kutusu seçiliyse, tarihin geçerli olmadığını belirten bir uyarı alırsınız. Bu uyarı, alternatif tarihler seçebileceğiniz **Mevcut sevk ve giriş tarihleri** sayfasında belirir.
+## <a name="example-order-entry-deadline"></a><span data-ttu-id="57723-127">Örnek: Son sipariş giriş saati</span><span class="sxs-lookup"><span data-stu-id="57723-127">Example: Order entry deadline</span></span>
+<span data-ttu-id="57723-128">Son sipariş giriş saati, Salı günü 16:00 olarak ayarlandı.</span><span class="sxs-lookup"><span data-stu-id="57723-128">The order entry deadline on Tuesdays has been set to 16:00.</span></span> <span data-ttu-id="57723-129">Belirli bir Salı günü saat 17:00'de, geçerli tarihi sevk tarihi olarak ayarlamaya çalışın.</span><span class="sxs-lookup"><span data-stu-id="57723-129">On a particular Tuesday, at 17:00, you try to set the current date as the ship date.</span></span> <span data-ttu-id="57723-130">(Bu örnek için sağlama süresi bulunmadığını unutmayın.) **Teslim tarihi kontrolü** onay kutusu seçiliyse, tarihin geçerli olmadığını belirten bir uyarı alırsınız.</span><span class="sxs-lookup"><span data-stu-id="57723-130">(Note that there is no lead time for this example.) If the **Delivery date control** check box is selected, you receive a warning that states that the date isn't valid.</span></span> <span data-ttu-id="57723-131">Bu uyarı, alternatif tarihler seçebileceğiniz **Mevcut sevk ve giriş tarihleri** sayfasında belirir.</span><span class="sxs-lookup"><span data-stu-id="57723-131">This warning appears on the **Available ship and receipt dates** page, where you can then select alternative dates.</span></span>
 
-## <a name="example-different-order-entry-deadlines-per-site"></a>Örnek: Her tesis için farklı son sipariş giriş saati
-Şirketiniz iki tesisten oluşuyor. Tesisler, aşağıdaki tabloda gösterilen şekilde farklı saat dilimlerinde yer almaktadır.
+## <a name="example-different-order-entry-deadlines-per-site"></a><span data-ttu-id="57723-132">Örnek: Her tesis için farklı son sipariş giriş saati</span><span class="sxs-lookup"><span data-stu-id="57723-132">Example: Different order entry deadlines per site</span></span>
+<span data-ttu-id="57723-133">Şirketiniz iki tesisten oluşuyor.</span><span class="sxs-lookup"><span data-stu-id="57723-133">Your company consists of two sites.</span></span> <span data-ttu-id="57723-134">Tesisler, aşağıdaki tabloda gösterilen şekilde farklı saat dilimlerinde yer almaktadır.</span><span class="sxs-lookup"><span data-stu-id="57723-134">The sites are located in different time zones, as shown in the following table.</span></span>
 
-| Tesis A                      | Tesis B                      |
+| <span data-ttu-id="57723-135">Tesis A</span><span class="sxs-lookup"><span data-stu-id="57723-135">Site A</span></span>                      | <span data-ttu-id="57723-136">Tesis B</span><span class="sxs-lookup"><span data-stu-id="57723-136">Site B</span></span>                      |
 |-----------------------------|-----------------------------|
-| California                  | Florida                     |
-| PST (Pasifik Standart Saati) | EST (Doğu Standart Saati) |
+| <span data-ttu-id="57723-137">California</span><span class="sxs-lookup"><span data-stu-id="57723-137">California</span></span>                  | <span data-ttu-id="57723-138">Florida</span><span class="sxs-lookup"><span data-stu-id="57723-138">Florida</span></span>                     |
+| <span data-ttu-id="57723-139">PST (Pasifik Standart Saati)</span><span class="sxs-lookup"><span data-stu-id="57723-139">PST (Pacific Standard Time)</span></span> | <span data-ttu-id="57723-140">EST (Doğu Standart Saati)</span><span class="sxs-lookup"><span data-stu-id="57723-140">EST (Eastern Standard Time)</span></span> |
 
-Tesis A ve B, aşağıdaki son sipariş giriş saatlerini tanımladılar.
+<span data-ttu-id="57723-141">Tesis A ve B, aşağıdaki son sipariş giriş saatlerini tanımladılar.</span><span class="sxs-lookup"><span data-stu-id="57723-141">Sites A and B have defined the following order entry deadlines.</span></span>
 
-| Haftanın günü             | A: Sipariş son giriş tarihleri (PST) | B: Sipariş son giriş tarihleri (EST) |
+| <span data-ttu-id="57723-142">Haftanın günü</span><span class="sxs-lookup"><span data-stu-id="57723-142">Day of the week</span></span>             | <span data-ttu-id="57723-143">A: Sipariş son giriş tarihleri (PST)</span><span class="sxs-lookup"><span data-stu-id="57723-143">A: Order entry deadlines (PST)</span></span> | <span data-ttu-id="57723-144">B: Sipariş son giriş tarihleri (EST)</span><span class="sxs-lookup"><span data-stu-id="57723-144">B: Order entry deadlines (EST)</span></span> |
 |-----------------------------|--------------------------------|--------------------------------|
-| Pazartesi                      | 13:00                          | 14:00                          |
-| Salı                     | 13:00                          | 14:00                          |
-| Çarşamba                   | 13:00                          | 14:00                          |
-| Perşembe                    | 13:00                          | 14:00                          |
-| Cuma                      | 13:00                          | 14:00                          |
+| <span data-ttu-id="57723-145">Pazartesi</span><span class="sxs-lookup"><span data-stu-id="57723-145">Monday</span></span>                      | <span data-ttu-id="57723-146">13:00</span><span class="sxs-lookup"><span data-stu-id="57723-146">13:00</span></span>                          | <span data-ttu-id="57723-147">14:00</span><span class="sxs-lookup"><span data-stu-id="57723-147">14:00</span></span>                          |
+| <span data-ttu-id="57723-148">Salı</span><span class="sxs-lookup"><span data-stu-id="57723-148">Tuesday</span></span>                     | <span data-ttu-id="57723-149">13:00</span><span class="sxs-lookup"><span data-stu-id="57723-149">13:00</span></span>                          | <span data-ttu-id="57723-150">14:00</span><span class="sxs-lookup"><span data-stu-id="57723-150">14:00</span></span>                          |
+| <span data-ttu-id="57723-151">Çarşamba</span><span class="sxs-lookup"><span data-stu-id="57723-151">Wednesday</span></span>                   | <span data-ttu-id="57723-152">13:00</span><span class="sxs-lookup"><span data-stu-id="57723-152">13:00</span></span>                          | <span data-ttu-id="57723-153">14:00</span><span class="sxs-lookup"><span data-stu-id="57723-153">14:00</span></span>                          |
+| <span data-ttu-id="57723-154">Perşembe</span><span class="sxs-lookup"><span data-stu-id="57723-154">Thursday</span></span>                    | <span data-ttu-id="57723-155">13:00</span><span class="sxs-lookup"><span data-stu-id="57723-155">13:00</span></span>                          | <span data-ttu-id="57723-156">14:00</span><span class="sxs-lookup"><span data-stu-id="57723-156">14:00</span></span>                          |
+| <span data-ttu-id="57723-157">Cuma</span><span class="sxs-lookup"><span data-stu-id="57723-157">Friday</span></span>                      | <span data-ttu-id="57723-158">13:00</span><span class="sxs-lookup"><span data-stu-id="57723-158">13:00</span></span>                          | <span data-ttu-id="57723-159">14:00</span><span class="sxs-lookup"><span data-stu-id="57723-159">14:00</span></span>                          |
 
-MST (Sıradağlar Standart Saati) saat diliminde yer alan Utah'ta bir sipariş işlemcisisiniz. Dolayısıyla bu, A tesisine MST 14:00'dan önce ve B sitesine MST 12:00'dan önce sipariş verdiğiniz sürece, her iki tesisin de son sipariş giriş saatlerine uygun davrandığınız anlamına gelir.  
+<span data-ttu-id="57723-160">MST (Sıradağlar Standart Saati) saat diliminde yer alan Utah'ta bir sipariş işlemcisisiniz.</span><span class="sxs-lookup"><span data-stu-id="57723-160">You're an order processor in Utah, where the time zone is MST (Mountain Standard Time).</span></span> <span data-ttu-id="57723-161">Dolayısıyla bu, A tesisine MST 14:00'dan önce ve B sitesine MST 12:00'dan önce sipariş verdiğiniz sürece, her iki tesisin de son sipariş giriş saatlerine uygun davrandığınız anlamına gelir.</span><span class="sxs-lookup"><span data-stu-id="57723-161">Therefore, provided that you place orders with site A before 14:00 MST and place orders with site B before 12:00 MST, you meet the order entry deadlines for both sites.</span></span>  
 
-Aşağıdaki tabloda A ve B tesisleri için MST saatine dönüştürülmüş son sipariş giriş saatleri gösterilir.
+<span data-ttu-id="57723-162">Aşağıdaki tabloda A ve B tesisleri için MST saatine dönüştürülmüş son sipariş giriş saatleri gösterilir.</span><span class="sxs-lookup"><span data-stu-id="57723-162">The following table shows how the order entry deadlines for sites A and B are converted to MST time.</span></span>
 
-| Tesis A: PST         | Tesis A: MST        | Tesis B: EST           | Tesis B: MST        |
+| <span data-ttu-id="57723-163">Tesis A: PST</span><span class="sxs-lookup"><span data-stu-id="57723-163">Site A: PST</span></span>         | <span data-ttu-id="57723-164">Tesis A: MST</span><span class="sxs-lookup"><span data-stu-id="57723-164">Site A: MST</span></span>        | <span data-ttu-id="57723-165">Tesis B: EST</span><span class="sxs-lookup"><span data-stu-id="57723-165">Site B: EST</span></span>           | <span data-ttu-id="57723-166">Tesis B: MST</span><span class="sxs-lookup"><span data-stu-id="57723-166">Site B: MST</span></span>        |
 |---------------------|--------------------|-----------------------|--------------------|
-| 13:00               | 14:00              | 14:00                 | 12:00              |
+| <span data-ttu-id="57723-167">13:00</span><span class="sxs-lookup"><span data-stu-id="57723-167">13:00</span></span>               | <span data-ttu-id="57723-168">14:00</span><span class="sxs-lookup"><span data-stu-id="57723-168">14:00</span></span>              | <span data-ttu-id="57723-169">14:00</span><span class="sxs-lookup"><span data-stu-id="57723-169">14:00</span></span>                 | <span data-ttu-id="57723-170">12:00</span><span class="sxs-lookup"><span data-stu-id="57723-170">12:00</span></span>              |
 
-**Not:** Yaz saati uygulaması devredeyse, son sipariş giriş saati ona göre ayarlanır.
+<span data-ttu-id="57723-171">**Not:** Yaz saati uygulaması devredeyse, son sipariş giriş saati ona göre ayarlanır.</span><span class="sxs-lookup"><span data-stu-id="57723-171">**Note:** If adjustment for daylight saving time is in effect, the order entry deadlines are adjusted accordingly.</span></span>
 
-## <a name="example-same-order-entry-deadline-per-site"></a>Örnek: Her tesiste aynı son sipariş giriş saati
-Şirketiniz iki tesisten oluşuyor. Tesisler, aşağıdaki tabloda gösterilen şekilde farklı saat dilimlerinde yer almaktadır.
+## <a name="example-same-order-entry-deadline-per-site"></a><span data-ttu-id="57723-172">Örnek: Her tesiste aynı son sipariş giriş saati</span><span class="sxs-lookup"><span data-stu-id="57723-172">Example: Same order entry deadline per site</span></span>
+<span data-ttu-id="57723-173">Şirketiniz iki tesisten oluşuyor.</span><span class="sxs-lookup"><span data-stu-id="57723-173">Your company consists of two sites.</span></span> <span data-ttu-id="57723-174">Tesisler, aşağıdaki tabloda gösterilen şekilde farklı saat dilimlerinde yer almaktadır.</span><span class="sxs-lookup"><span data-stu-id="57723-174">The sites are located in different time zones, as shown in the following table.</span></span>
 
-| Tesis A                      | Tesis B                      |
+| <span data-ttu-id="57723-175">Tesis A</span><span class="sxs-lookup"><span data-stu-id="57723-175">Site A</span></span>                      | <span data-ttu-id="57723-176">Tesis B</span><span class="sxs-lookup"><span data-stu-id="57723-176">Site B</span></span>                      |
 |-----------------------------|-----------------------------|
-| California                  | Florida                     |
-| PST (Pasifik Standart Saati) | EST (Doğu Standart Saati) |
+| <span data-ttu-id="57723-177">California</span><span class="sxs-lookup"><span data-stu-id="57723-177">California</span></span>                  | <span data-ttu-id="57723-178">Florida</span><span class="sxs-lookup"><span data-stu-id="57723-178">Florida</span></span>                     |
+| <span data-ttu-id="57723-179">PST (Pasifik Standart Saati)</span><span class="sxs-lookup"><span data-stu-id="57723-179">PST (Pacific Standard Time)</span></span> | <span data-ttu-id="57723-180">EST (Doğu Standart Saati)</span><span class="sxs-lookup"><span data-stu-id="57723-180">EST (Eastern Standard Time)</span></span> |
 
-Tesis A ve B, aşağıdaki son sipariş giriş saatlerini tanımladılar.
+<span data-ttu-id="57723-181">Tesis A ve B, aşağıdaki son sipariş giriş saatlerini tanımladılar.</span><span class="sxs-lookup"><span data-stu-id="57723-181">Sites A and B have defined the following order entry deadlines.</span></span>
 
-| Haftanın günü | PST ve EST |
+| <span data-ttu-id="57723-182">Haftanın günü</span><span class="sxs-lookup"><span data-stu-id="57723-182">Day of the week</span></span> | <span data-ttu-id="57723-183">PST ve EST</span><span class="sxs-lookup"><span data-stu-id="57723-183">PST and EST</span></span> |
 |-----------------|-------------|
-| Pazartesi          | 13:00       |
-| Salı         | 13:00       |
-| Çarşamba       | 13:00       |
-| Perşembe        | 13:00       |
-| Cuma          | 13:00       |
+| <span data-ttu-id="57723-184">Pazartesi</span><span class="sxs-lookup"><span data-stu-id="57723-184">Monday</span></span>          | <span data-ttu-id="57723-185">13:00</span><span class="sxs-lookup"><span data-stu-id="57723-185">13:00</span></span>       |
+| <span data-ttu-id="57723-186">Salı</span><span class="sxs-lookup"><span data-stu-id="57723-186">Tuesday</span></span>         | <span data-ttu-id="57723-187">13:00</span><span class="sxs-lookup"><span data-stu-id="57723-187">13:00</span></span>       |
+| <span data-ttu-id="57723-188">Çarşamba</span><span class="sxs-lookup"><span data-stu-id="57723-188">Wednesday</span></span>       | <span data-ttu-id="57723-189">13:00</span><span class="sxs-lookup"><span data-stu-id="57723-189">13:00</span></span>       |
+| <span data-ttu-id="57723-190">Perşembe</span><span class="sxs-lookup"><span data-stu-id="57723-190">Thursday</span></span>        | <span data-ttu-id="57723-191">13:00</span><span class="sxs-lookup"><span data-stu-id="57723-191">13:00</span></span>       |
+| <span data-ttu-id="57723-192">Cuma</span><span class="sxs-lookup"><span data-stu-id="57723-192">Friday</span></span>          | <span data-ttu-id="57723-193">13:00</span><span class="sxs-lookup"><span data-stu-id="57723-193">13:00</span></span>       |
 
-Bir sipariş işlemcisisiniz ve MST saat diliminde yer alan Utah'ta bulunuyorsunuz. Dolayısıyla bu, A tesisine MST 14:00'dan önce ve B sitesine MST 11:00'dan önce sipariş verdiğiniz sürece, her iki tesisin de son sipariş giriş saatlerine uygun davrandığınız anlamına gelir. 
+<span data-ttu-id="57723-194">Bir sipariş işlemcisisiniz ve MST saat diliminde yer alan Utah'ta bulunuyorsunuz.</span><span class="sxs-lookup"><span data-stu-id="57723-194">You're an order processor in Utah, where the time zone is MST.</span></span> <span data-ttu-id="57723-195">Dolayısıyla bu, A tesisine MST 14:00'dan önce ve B sitesine MST 11:00'dan önce sipariş verdiğiniz sürece, her iki tesisin de son sipariş giriş saatlerine uygun davrandığınız anlamına gelir.</span><span class="sxs-lookup"><span data-stu-id="57723-195">Therefore, provided that you place orders with site A before 14:00 MST and place orders with site B before 11:00 MST, you meet the order entry deadlines for both sites.</span></span> 
 
-Aşağıdaki tabloda A ve B tesisleri için MST saatine dönüştürülmüş son sipariş giriş saatleri gösterilir.
+<span data-ttu-id="57723-196">Aşağıdaki tabloda A ve B tesisleri için MST saatine dönüştürülmüş son sipariş giriş saatleri gösterilir.</span><span class="sxs-lookup"><span data-stu-id="57723-196">The following table shows how the order entry deadlines for sites A and B are converted to MST time.</span></span>
 
-| Tesis A: PST         | Tesis A: MST        | Tesis B: EST           | Tesis B: MST        |
+| <span data-ttu-id="57723-197">Tesis A: PST</span><span class="sxs-lookup"><span data-stu-id="57723-197">Site A: PST</span></span>         | <span data-ttu-id="57723-198">Tesis A: MST</span><span class="sxs-lookup"><span data-stu-id="57723-198">Site A: MST</span></span>        | <span data-ttu-id="57723-199">Tesis B: EST</span><span class="sxs-lookup"><span data-stu-id="57723-199">Site B: EST</span></span>           | <span data-ttu-id="57723-200">Tesis B: MST</span><span class="sxs-lookup"><span data-stu-id="57723-200">Site B: MST</span></span>        |
 |---------------------|--------------------|-----------------------|--------------------|
-| 13:00               | 14:00              | 13:00                 | 11:00              |
+| <span data-ttu-id="57723-201">13:00</span><span class="sxs-lookup"><span data-stu-id="57723-201">13:00</span></span>               | <span data-ttu-id="57723-202">14:00</span><span class="sxs-lookup"><span data-stu-id="57723-202">14:00</span></span>              | <span data-ttu-id="57723-203">13:00</span><span class="sxs-lookup"><span data-stu-id="57723-203">13:00</span></span>                 | <span data-ttu-id="57723-204">11:00</span><span class="sxs-lookup"><span data-stu-id="57723-204">11:00</span></span>              |
 
-**Not:** Yaz saati uygulaması devredeyse, son sipariş giriş saati ona göre ayarlanır.
+<span data-ttu-id="57723-205">**Not:** Yaz saati uygulaması devredeyse, son sipariş giriş saati ona göre ayarlanır.</span><span class="sxs-lookup"><span data-stu-id="57723-205">**Note:** If adjustment for daylight saving time is in effect, the order entry deadlines are adjusted accordingly.</span></span>
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="see-also"></a><span data-ttu-id="57723-206">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="57723-206">See also</span></span>
 --------
 
-[Teslimat zaman çizelgeleri](delivery-schedules.md)
+[<span data-ttu-id="57723-207">Teslimat zaman çizelgeleri</span><span class="sxs-lookup"><span data-stu-id="57723-207">Delivery schedules</span></span>](delivery-schedules.md)
 
 
 

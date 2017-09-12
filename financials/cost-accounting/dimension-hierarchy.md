@@ -17,321 +17,321 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: dcbab70d2057a2eb252538a51343fa8bae16873d
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 7fb7efdd574c705c2ecfbb46e302985db0729517
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="dimension-hierarchy"></a>Boyut hiyerarşisi
+# <a name="dimension-hierarchy"></a><span data-ttu-id="e6ede-104">Boyut hiyerarşisi</span><span class="sxs-lookup"><span data-stu-id="e6ede-104">Dimension hierarchy</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, boyu hiyerarşileri hakkında bilgiler sağlar. Maliyet muhasebesi içerisinde ayarlanmış raporlama yapısını, maliyet ilkelerini ve güvenlik gruplarını tanımlamak için bir boyut hiyerarşisi kullanırsınız.  
+<span data-ttu-id="e6ede-105">Bu konu, boyu hiyerarşileri hakkında bilgiler sağlar.</span><span class="sxs-lookup"><span data-stu-id="e6ede-105">This topic provides information about dimension hierarchies.</span></span> <span data-ttu-id="e6ede-106">Maliyet muhasebesi içerisinde ayarlanmış raporlama yapısını, maliyet ilkelerini ve güvenlik gruplarını tanımlamak için bir boyut hiyerarşisi kullanırsınız.</span><span class="sxs-lookup"><span data-stu-id="e6ede-106">You use a dimension hierarchy to define the reporting structure, cost policies, and security setup in Cost accounting.</span></span>  
 
-## <a name="overview"></a>Özet
+## <a name="overview"></a><span data-ttu-id="e6ede-107">Özet</span><span class="sxs-lookup"><span data-stu-id="e6ede-107">Overview</span></span>
 
-Boyut hiyerarşileri Maliyet muhasebesinin çeşitli yerlerinde kullanılır. Bir boyut hiyerarşisi aşağıdaki bilgileri tanımlamanıza olanak sağlar:
+<span data-ttu-id="e6ede-108">Boyut hiyerarşileri Maliyet muhasebesinin çeşitli yerlerinde kullanılır.</span><span class="sxs-lookup"><span data-stu-id="e6ede-108">Dimension hierarchies are used in various places in Cost accounting.</span></span> <span data-ttu-id="e6ede-109">Bir boyut hiyerarşisi aşağıdaki bilgileri tanımlamanıza olanak sağlar:</span><span class="sxs-lookup"><span data-stu-id="e6ede-109">A dimension hierarchy lets you define the following information:</span></span>
 
--  Kuruluşun gereksinimlerini karşılayan raporlama yapısı
--  Maliyet ilkeleri
--  Güvenlik kurulumu
+-  <span data-ttu-id="e6ede-110">Kuruluşun gereksinimlerini karşılayan raporlama yapısı</span><span class="sxs-lookup"><span data-stu-id="e6ede-110">The reporting structure that fits into the organization's requirements</span></span>
+-  <span data-ttu-id="e6ede-111">Maliyet ilkeleri</span><span class="sxs-lookup"><span data-stu-id="e6ede-111">Cost policies</span></span>
+-  <span data-ttu-id="e6ede-112">Güvenlik kurulumu</span><span class="sxs-lookup"><span data-stu-id="e6ede-112">The security setup</span></span>
 
-Bir boyut hiyerarşisi örneği burada verilmiştir.
+<span data-ttu-id="e6ede-113">Bir boyut hiyerarşisi örneği burada verilmiştir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-113">Here is an example of a dimension hierarchy.</span></span>
 
 ![Bir boyut hiyerarşisi örneği](./media/dimension-hierarchy.png)
 
-Aşağıdaki boyut türleri için bir boyut hiyerarşisi oluşturulabilir:
+<span data-ttu-id="e6ede-115">Aşağıdaki boyut türleri için bir boyut hiyerarşisi oluşturulabilir:</span><span class="sxs-lookup"><span data-stu-id="e6ede-115">A dimension hierarchy can be created for the following types of dimensions:</span></span>
 
--  Maliyet öğesi boyutları
--  Maliyet nesnesi boyutları
--  İstatistiksel boyutlar
+-  <span data-ttu-id="e6ede-116">Maliyet öğesi boyutları</span><span class="sxs-lookup"><span data-stu-id="e6ede-116">Cost element dimensions</span></span>
+-  <span data-ttu-id="e6ede-117">Maliyet nesnesi boyutları</span><span class="sxs-lookup"><span data-stu-id="e6ede-117">Cost object dimensions</span></span>
+-  <span data-ttu-id="e6ede-118">İstatistiksel boyutlar</span><span class="sxs-lookup"><span data-stu-id="e6ede-118">Statistical dimensions</span></span>
 
 > [!NOTE]
-> - Farklı görünümler gerekiyorsa aynı boyut için çok sayıda boyut hiyerarşisi oluşturabilirsiniz.
-> - Bir boyut hiyerarşisi yalnızca bir boyut ile ilişkilendirilebilir.
-> - Bir boyut hiyerarşisi, yapısında sınırsız düzey barındırabilir. Tüm boyutlar **Maliyet kontrolü** çalışma alanında kullanılabilir olacaktır. Raporlama için Microsoft Excel veya Microsoft Power BI kullanırsanız, boyut hiyerarşisinin yalnızca ilk 15 düzeyi raporlanır. Bu sınırlama hem Excel hem de Power BI'ın sabir bir şemaya ihtiyaç duymasından kaynaklanır.
-> - Bir boyut hiyerarşisinin yürürlük tarihi yoktur. Bu nedenle bir boyut hiyerarşisinde yapılan değişim kayda anında kaydedilir ve öncesi tarih ve sonrası tarihi kıyaslayamazsınız.
+> - <span data-ttu-id="e6ede-119">Farklı görünümler gerekiyorsa aynı boyut için çok sayıda boyut hiyerarşisi oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-119">You can create multiple dimension hierarchies for the same dimension if different perspectives are required.</span></span>
+> - <span data-ttu-id="e6ede-120">Bir boyut hiyerarşisi yalnızca bir boyut ile ilişkilendirilebilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-120">A dimension hierarchy can be associated with only one dimension.</span></span>
+> - <span data-ttu-id="e6ede-121">Bir boyut hiyerarşisi, yapısında sınırsız düzey barındırabilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-121">A dimension hierarchy can have unlimited levels in its structure.</span></span> <span data-ttu-id="e6ede-122">Tüm boyutlar **Maliyet kontrolü** çalışma alanında kullanılabilir olacaktır.</span><span class="sxs-lookup"><span data-stu-id="e6ede-122">All the levels will be available in the **Cost control** workspace.</span></span> <span data-ttu-id="e6ede-123">Raporlama için Microsoft Excel veya Microsoft Power BI kullanırsanız, boyut hiyerarşisinin yalnızca ilk 15 düzeyi raporlanır.</span><span class="sxs-lookup"><span data-stu-id="e6ede-123">When you use Microsoft Excel or Microsoft Power BI for reporting purposes, only the first 15 levels of the dimension hierarchy are exported.</span></span> <span data-ttu-id="e6ede-124">Bu sınırlama hem Excel hem de Power BI'ın sabir bir şemaya ihtiyaç duymasından kaynaklanır.</span><span class="sxs-lookup"><span data-stu-id="e6ede-124">This limitation exists because both Excel and Power BI require a fixed schema.</span></span>
+> - <span data-ttu-id="e6ede-125">Bir boyut hiyerarşisinin yürürlük tarihi yoktur.</span><span class="sxs-lookup"><span data-stu-id="e6ede-125">A dimension hierarchy isn't date-effective.</span></span> <span data-ttu-id="e6ede-126">Bu nedenle bir boyut hiyerarşisinde yapılan değişim kayda anında kaydedilir ve öncesi tarih ve sonrası tarihi kıyaslayamazsınız.</span><span class="sxs-lookup"><span data-stu-id="e6ede-126">Therefore, any change to a dimension hierarchy is immediately saved to the record, and you can't compare the before date and after date.</span></span>
 
-## <a name="dimension-hierarchy-type"></a>Boyut hiyerarşisi türü
+## <a name="dimension-hierarchy-type"></a><span data-ttu-id="e6ede-127">Boyut hiyerarşisi türü</span><span class="sxs-lookup"><span data-stu-id="e6ede-127">Dimension hierarchy type</span></span>
 
-Yeni bir boyut hiyerarşisi oluşturduğunuzda bir hiyerarşi türü seçmeniz gerekir. **Maliyet muhasebesi** > **Boyutlar** > **Boyut hiyerarşileri**'ne gidin. **Yeni** üzerine tıklayın ve bir boyut hiyerarşisi türü seçin. Bir **Boyut kategorizasyon hiyerarşisi** veya **Boyut sınıflandırma hiyerarşisi** seçebilirsiniz.
+<span data-ttu-id="e6ede-128">Yeni bir boyut hiyerarşisi oluşturduğunuzda bir hiyerarşi türü seçmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-128">When you create a new dimension hierarchy, you must select a hierarchy type.</span></span> <span data-ttu-id="e6ede-129">**Maliyet muhasebesi** > **Boyutlar** > **Boyut hiyerarşileri**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="e6ede-129">Go to **Cost accounting** > **Dimensions** > **Dimension hierarchies**.</span></span> <span data-ttu-id="e6ede-130">**Yeni** üzerine tıklayın ve bir boyut hiyerarşisi türü seçin.</span><span class="sxs-lookup"><span data-stu-id="e6ede-130">Click **New**, and select a dimension hierarchy type.</span></span> <span data-ttu-id="e6ede-131">Bir **Boyut kategorizasyon hiyerarşisi** veya **Boyut sınıflandırma hiyerarşisi** seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-131">You can select either **Dimension categorization hierarchy** or **Dimension classification hierarchy**.</span></span>
 
-### <a name="dimension-categorization-hierarchy"></a>Boyut sınıflandırması hiyerarşisi
+### <a name="dimension-categorization-hierarchy"></a><span data-ttu-id="e6ede-132">Boyut sınıflandırması hiyerarşisi</span><span class="sxs-lookup"><span data-stu-id="e6ede-132">Dimension categorization hierarchy</span></span>
 
-**Boyut kategorizasyon hiyerarşisi** türü raporlama amacıyla kullanılır. Yalnızca maliyet öğesi boyutlarını destekler. Bu türü seçtiğinizde aşağıdaki işleme kuralları geçerlidir:
+<span data-ttu-id="e6ede-133">**Boyut kategorizasyon hiyerarşisi** türü raporlama amacıyla kullanılır.</span><span class="sxs-lookup"><span data-stu-id="e6ede-133">The **Dimension categorization hierarchy** type is used for reporting purposes.</span></span> <span data-ttu-id="e6ede-134">Yalnızca maliyet öğesi boyutlarını destekler.</span><span class="sxs-lookup"><span data-stu-id="e6ede-134">It supports only the cost element dimensions.</span></span> <span data-ttu-id="e6ede-135">Bu türü seçtiğinizde aşağıdaki işleme kuralları geçerlidir:</span><span class="sxs-lookup"><span data-stu-id="e6ede-135">When you select this type, the following rules apply:</span></span>
 
--  Bir boyut üyesi, hiyerarşi yapısında birden fazla kere ilişkilendirilebilir.
--  Bir maliyet öğesi boyutu üyesini, yaprak düğüme bir maliyet davranışı atayarak farklı düğümlere koyabilirsiniz.
+-  <span data-ttu-id="e6ede-136">Bir boyut üyesi, hiyerarşi yapısında birden fazla kere ilişkilendirilebilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-136">A dimension member can be associated more than one time in the hierarchy structure.</span></span>
+-  <span data-ttu-id="e6ede-137">Bir maliyet öğesi boyutu üyesini, yaprak düğüme bir maliyet davranışı atayarak farklı düğümlere koyabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-137">You can put a cost element dimension member in different nodes by assigning a cost behavior to the leaf node.</span></span>
 
-### <a name="dimension-classification-hierarchy"></a>Boyut sınıflandırması hiyerarşisi
+### <a name="dimension-classification-hierarchy"></a><span data-ttu-id="e6ede-138">Boyut sınıflandırması hiyerarşisi</span><span class="sxs-lookup"><span data-stu-id="e6ede-138">Dimension classification hierarchy</span></span>
 
-**Boyut sınıflandırma hiyerarşisi** türü kuralları tanımlamak ve raporlama amacıyla kullanılır. Maliyet nesneleri, maliyet öğeleri ve istatistiksel boyutlar gibi tüm boyutları destekler. Bu türü seçtiğinizde, bir boyut üyesi, hiyerarşi yapısında yalnızca bir kere ilişkilendirilebilir.
+<span data-ttu-id="e6ede-139">**Boyut sınıflandırma hiyerarşisi** türü kuralları tanımlamak ve raporlama amacıyla kullanılır.</span><span class="sxs-lookup"><span data-stu-id="e6ede-139">The **Dimension classification hierarchy** type is used to define rules and for reporting purposes.</span></span> <span data-ttu-id="e6ede-140">Maliyet nesneleri, maliyet öğeleri ve istatistiksel boyutlar gibi tüm boyutları destekler.</span><span class="sxs-lookup"><span data-stu-id="e6ede-140">It supports all dimensions, such as cost objects, cost elements, and statistical dimensions.</span></span> <span data-ttu-id="e6ede-141">Bu türü seçtiğinizde, bir boyut üyesi, hiyerarşi yapısında yalnızca bir kere ilişkilendirilebilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-141">When you select this type, a dimension member can be associated only one time in the hierarchy structure.</span></span>
 
-## <a name="create-and-maintain-a-dimension-hierarchy"></a>Bir boyut hiyerarşisi oluşturmak ve saklamak
+## <a name="create-and-maintain-a-dimension-hierarchy"></a><span data-ttu-id="e6ede-142">Bir boyut hiyerarşisi oluşturmak ve saklamak</span><span class="sxs-lookup"><span data-stu-id="e6ede-142">Create and maintain a dimension hierarchy</span></span>
 
-Bir boyut hiyerarşisi, bir düğüm ve yaprak düğüm ilişkilerine sahip bir ağaç yapısı olarak oluşturulur.
+<span data-ttu-id="e6ede-143">Bir boyut hiyerarşisi, bir düğüm ve yaprak düğüm ilişkilerine sahip bir ağaç yapısı olarak oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="e6ede-143">A dimension hierarchy is created as a tree structure that has node and leaf node relationships.</span></span>
 
--  Bir düğüm 1:_n_ alt düğüme sahip olabilir.
--  Bir düğüme hem alt düğümler hem de yaprak düğümler atanmış olamaz.
--  Hiyerarşideki en alt düzeydeki yalnızca bir yaprak düğüm atayabilirsiniz.
+-  <span data-ttu-id="e6ede-144">Bir düğüm 1:_n_ alt düğüme sahip olabilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-144">A node can have 1:_n_ subnodes.</span></span>
+-  <span data-ttu-id="e6ede-145">Bir düğüme hem alt düğümler hem de yaprak düğümler atanmış olamaz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-145">A node can’t have both subnodes and leaf nodes assigned to it.</span></span>
+-  <span data-ttu-id="e6ede-146">Hiyerarşideki en alt düzeydeki yalnızca bir yaprak düğüm atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-146">A leaf node can be assigned only at the lowest level in the hierarchy.</span></span>
 
-### <a name="example"></a>Örnek
+### <a name="example"></a><span data-ttu-id="e6ede-147">Örnek</span><span class="sxs-lookup"><span data-stu-id="e6ede-147">Example</span></span>
 
-Burada Finans ve İnsan kaynakları yönetimi altındaki departmanları ve derleme ve ambalaj üretim altındaki departmanları aşağıdaki Organizasyon yapısını, küçük bir şirket vardır.
+<span data-ttu-id="e6ede-148">Burada Finans ve İnsan kaynakları yönetimi altındaki departmanları ve derleme ve ambalaj üretim altındaki departmanları aşağıdaki Organizasyon yapısını, küçük bir şirket vardır.</span><span class="sxs-lookup"><span data-stu-id="e6ede-148">A small company has the following organization structure, where Finance and Human resources are departments under Admin, and Assembly and Packaging are departments under Production.</span></span>
 
 ![Bir kuruluş yapısı örneği](./media/dimension-hierarchy-org.png)
 
-Bir maliyet nesne boyutu, kuruluştaki tüm maliyet merkezlerini temsil eder
+<span data-ttu-id="e6ede-150">Bir maliyet nesne boyutu, kuruluştaki tüm maliyet merkezlerini temsil eder</span><span class="sxs-lookup"><span data-stu-id="e6ede-150">A cost object dimension represents all the cost centers in the organization.</span></span>
 
-- Maliyet nesnesi boyutu
-    - Maliyet merkezleri
+- <span data-ttu-id="e6ede-151">Maliyet nesnesi boyutu</span><span class="sxs-lookup"><span data-stu-id="e6ede-151">Cost object dimension</span></span>
+    - <span data-ttu-id="e6ede-152">Maliyet merkezleri</span><span class="sxs-lookup"><span data-stu-id="e6ede-152">Cost centers</span></span>
 
-Tüm maliyet merkezlerini temsil eden bir maliyet nesne boyutu burada gösterildiği gibi ayarlanabilir.
+<span data-ttu-id="e6ede-153">Tüm maliyet merkezlerini temsil eden bir maliyet nesne boyutu burada gösterildiği gibi ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-153">The cost object dimension that represents all the cost centers can be set up as shown here.</span></span>
 
-| Maliyet merkezleri | Açıklama |
+| <span data-ttu-id="e6ede-154">Maliyet merkezleri</span><span class="sxs-lookup"><span data-stu-id="e6ede-154">Cost centers</span></span> | <span data-ttu-id="e6ede-155">Açıklama</span><span class="sxs-lookup"><span data-stu-id="e6ede-155">Description</span></span> |
 |--------------|-------------|
-| CC001        | İK          |
-| CC002        | Finans     |
-| CC003        | Vergi         |
-| CC007        | AR/AP       |
-| CC005        | Montaj    |
-| CC006        | Paketleme   |
+| <span data-ttu-id="e6ede-156">CC001</span><span class="sxs-lookup"><span data-stu-id="e6ede-156">CC001</span></span>        | <span data-ttu-id="e6ede-157">İK</span><span class="sxs-lookup"><span data-stu-id="e6ede-157">HR</span></span>          |
+| <span data-ttu-id="e6ede-158">CC002</span><span class="sxs-lookup"><span data-stu-id="e6ede-158">CC002</span></span>        | <span data-ttu-id="e6ede-159">Finans</span><span class="sxs-lookup"><span data-stu-id="e6ede-159">Finance</span></span>     |
+| <span data-ttu-id="e6ede-160">CC003</span><span class="sxs-lookup"><span data-stu-id="e6ede-160">CC003</span></span>        | <span data-ttu-id="e6ede-161">Vergi</span><span class="sxs-lookup"><span data-stu-id="e6ede-161">Tax</span></span>         |
+| <span data-ttu-id="e6ede-162">CC007</span><span class="sxs-lookup"><span data-stu-id="e6ede-162">CC007</span></span>        | <span data-ttu-id="e6ede-163">AR/AP</span><span class="sxs-lookup"><span data-stu-id="e6ede-163">AR/AP</span></span>       |
+| <span data-ttu-id="e6ede-164">CC005</span><span class="sxs-lookup"><span data-stu-id="e6ede-164">CC005</span></span>        | <span data-ttu-id="e6ede-165">Montaj</span><span class="sxs-lookup"><span data-stu-id="e6ede-165">Assembly</span></span>    |
+| <span data-ttu-id="e6ede-166">CC006</span><span class="sxs-lookup"><span data-stu-id="e6ede-166">CC006</span></span>        | <span data-ttu-id="e6ede-167">Paketleme</span><span class="sxs-lookup"><span data-stu-id="e6ede-167">Packaging</span></span>   |
 
-Bir maliyet öğe boyutu, kuruluştaki tüm maliyet öğelerini temsil eder
+<span data-ttu-id="e6ede-168">Bir maliyet öğe boyutu, kuruluştaki tüm maliyet öğelerini temsil eder</span><span class="sxs-lookup"><span data-stu-id="e6ede-168">A cost element dimension represents all the cost elements in the organization.</span></span>
 
-- Maliyet öğesi boyutu
-    - Maliyet öğeleri
+- <span data-ttu-id="e6ede-169">Maliyet öğesi boyutu</span><span class="sxs-lookup"><span data-stu-id="e6ede-169">Cost element dimension</span></span>
+    - <span data-ttu-id="e6ede-170">Maliyet öğeleri</span><span class="sxs-lookup"><span data-stu-id="e6ede-170">Cost elements</span></span>
 
-Tüm maliyet öğelerini temsil eden bir maliyet öğe boyutu burada gösterildiği gibi ayarlanabilir.
+<span data-ttu-id="e6ede-171">Tüm maliyet öğelerini temsil eden bir maliyet öğe boyutu burada gösterildiği gibi ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-171">The cost element dimension that represents all the cost elements can be set up as shown here.</span></span>
 
-| Maliyet öğeleri | Açıklama |
+| <span data-ttu-id="e6ede-172">Maliyet öğeleri</span><span class="sxs-lookup"><span data-stu-id="e6ede-172">Cost elements</span></span> | <span data-ttu-id="e6ede-173">Açıklama</span><span class="sxs-lookup"><span data-stu-id="e6ede-173">Description</span></span> |
 |---------------|-------------|
-| 10001         | Elektrik |
-| 10010         | Temizlik    |
-| 10011         | Isınma     |
-| 40001         | SMM        |
+| <span data-ttu-id="e6ede-174">10001</span><span class="sxs-lookup"><span data-stu-id="e6ede-174">10001</span></span>         | <span data-ttu-id="e6ede-175">Elektrik</span><span class="sxs-lookup"><span data-stu-id="e6ede-175">Electricity</span></span> |
+| <span data-ttu-id="e6ede-176">10010</span><span class="sxs-lookup"><span data-stu-id="e6ede-176">10010</span></span>         | <span data-ttu-id="e6ede-177">Temizlik</span><span class="sxs-lookup"><span data-stu-id="e6ede-177">Cleaning</span></span>    |
+| <span data-ttu-id="e6ede-178">10011</span><span class="sxs-lookup"><span data-stu-id="e6ede-178">10011</span></span>         | <span data-ttu-id="e6ede-179">Isınma</span><span class="sxs-lookup"><span data-stu-id="e6ede-179">Heating</span></span>     |
+| <span data-ttu-id="e6ede-180">40001</span><span class="sxs-lookup"><span data-stu-id="e6ede-180">40001</span></span>         | <span data-ttu-id="e6ede-181">SMM</span><span class="sxs-lookup"><span data-stu-id="e6ede-181">COGS</span></span>        |
 
-Kuruluşun raporlama gereksinimlerini karşılayan bir boyut hiyerarşisi burada gösterildiği gibi ayarlanabilir.
+<span data-ttu-id="e6ede-182">Kuruluşun raporlama gereksinimlerini karşılayan bir boyut hiyerarşisi burada gösterildiği gibi ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-182">A dimension hierarchy that meets the organizational reporting requirements can be set up as shown here.</span></span>
 
-**Boyut hiyerarşisi ayrıntıları**
+<span data-ttu-id="e6ede-183">**Boyut hiyerarşisi ayrıntıları**</span><span class="sxs-lookup"><span data-stu-id="e6ede-183">**Dimension hierarchy details**</span></span>
 
-| Boyut hiyerarşisi adı | Boyut    | Boyut hiyerarşisi türü adı      | Erişim listesi hiyerarşisi |
+| <span data-ttu-id="e6ede-184">Boyut hiyerarşisi adı</span><span class="sxs-lookup"><span data-stu-id="e6ede-184">Dimension hierarchy name</span></span> | <span data-ttu-id="e6ede-185">Boyut</span><span class="sxs-lookup"><span data-stu-id="e6ede-185">Dimension</span></span>    | <span data-ttu-id="e6ede-186">Boyut hiyerarşisi türü adı</span><span class="sxs-lookup"><span data-stu-id="e6ede-186">Dimension hierarchy type name</span></span>      | <span data-ttu-id="e6ede-187">Erişim listesi hiyerarşisi</span><span class="sxs-lookup"><span data-stu-id="e6ede-187">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Organizasyon             | Maliyet merkezleri | Boyut sınıflandırması hiyerarşisi | Hayır                    |
+| <span data-ttu-id="e6ede-188">Organizasyon</span><span class="sxs-lookup"><span data-stu-id="e6ede-188">Organization</span></span>             | <span data-ttu-id="e6ede-189">Maliyet merkezleri</span><span class="sxs-lookup"><span data-stu-id="e6ede-189">Cost centers</span></span> | <span data-ttu-id="e6ede-190">Boyut sınıflandırması hiyerarşisi</span><span class="sxs-lookup"><span data-stu-id="e6ede-190">Dimension classification hierarchy</span></span> | <span data-ttu-id="e6ede-191">Hayır</span><span class="sxs-lookup"><span data-stu-id="e6ede-191">No</span></span>                    |
 
-Raporlama için boyut hiyerarşisi burada gösterildiği gibi ayarlanabilir.
+<span data-ttu-id="e6ede-192">Raporlama için boyut hiyerarşisi burada gösterildiği gibi ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-192">The dimension hierarchy for reporting can be set up as shown here.</span></span>
 
-|                   | Boyut üyesi aralıkları   |                         |
+|                   | <span data-ttu-id="e6ede-193">Boyut üyesi aralıkları</span><span class="sxs-lookup"><span data-stu-id="e6ede-193">Dimension member ranges</span></span>   |                         |
 |-------------------|---------------------------|-------------------------|
-| **Düğümler**         | **Kaynak boyut üyesi** | **Hedef boyut üyesi** |
-| Organizasyon      |                           |                         |
-| &nbsp;&nbsp;Yönetici         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Finans   | CC002                     | CC003                   |
-|                   | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;İK        | CC001                     | CC001                   |
-| &nbsp;&nbsp;Üretim    |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Paketleme | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Montaj  | CC006                     | CC006                   |
+| <span data-ttu-id="e6ede-194">**Düğümler**</span><span class="sxs-lookup"><span data-stu-id="e6ede-194">**Nodes**</span></span>         | <span data-ttu-id="e6ede-195">**Kaynak boyut üyesi**</span><span class="sxs-lookup"><span data-stu-id="e6ede-195">**From dimension member**</span></span> | <span data-ttu-id="e6ede-196">**Hedef boyut üyesi**</span><span class="sxs-lookup"><span data-stu-id="e6ede-196">**To dimension member**</span></span> |
+| <span data-ttu-id="e6ede-197">Organizasyon</span><span class="sxs-lookup"><span data-stu-id="e6ede-197">Organization</span></span>      |                           |                         |
+| <span data-ttu-id="e6ede-198">&nbsp;&nbsp;Yönetici</span><span class="sxs-lookup"><span data-stu-id="e6ede-198">&nbsp;&nbsp;Admin</span></span>         |                           |                         |
+|<span data-ttu-id="e6ede-199">&nbsp;&nbsp;&nbsp;&nbsp;Finans</span><span class="sxs-lookup"><span data-stu-id="e6ede-199">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="e6ede-200">CC002</span><span class="sxs-lookup"><span data-stu-id="e6ede-200">CC002</span></span>                     | <span data-ttu-id="e6ede-201">CC003</span><span class="sxs-lookup"><span data-stu-id="e6ede-201">CC003</span></span>                   |
+|                   | <span data-ttu-id="e6ede-202">CC007</span><span class="sxs-lookup"><span data-stu-id="e6ede-202">CC007</span></span>                     | <span data-ttu-id="e6ede-203">CC007</span><span class="sxs-lookup"><span data-stu-id="e6ede-203">CC007</span></span>                   |
+| <span data-ttu-id="e6ede-204">&nbsp;&nbsp;&nbsp;&nbsp;İK</span><span class="sxs-lookup"><span data-stu-id="e6ede-204">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="e6ede-205">CC001</span><span class="sxs-lookup"><span data-stu-id="e6ede-205">CC001</span></span>                     | <span data-ttu-id="e6ede-206">CC001</span><span class="sxs-lookup"><span data-stu-id="e6ede-206">CC001</span></span>                   |
+| <span data-ttu-id="e6ede-207">&nbsp;&nbsp;Üretim</span><span class="sxs-lookup"><span data-stu-id="e6ede-207">&nbsp;&nbsp;Production</span></span>    |                           |                         |
+| <span data-ttu-id="e6ede-208">&nbsp;&nbsp;&nbsp;&nbsp;Paketleme</span><span class="sxs-lookup"><span data-stu-id="e6ede-208">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="e6ede-209">CC005</span><span class="sxs-lookup"><span data-stu-id="e6ede-209">CC005</span></span>                     | <span data-ttu-id="e6ede-210">CC005</span><span class="sxs-lookup"><span data-stu-id="e6ede-210">CC005</span></span>                   |
+| <span data-ttu-id="e6ede-211">&nbsp;&nbsp;&nbsp;&nbsp;Montaj</span><span class="sxs-lookup"><span data-stu-id="e6ede-211">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="e6ede-212">CC006</span><span class="sxs-lookup"><span data-stu-id="e6ede-212">CC006</span></span>                     | <span data-ttu-id="e6ede-213">CC006</span><span class="sxs-lookup"><span data-stu-id="e6ede-213">CC006</span></span>                   |
 
-İlke gereksinimlerini karşılayan bir boyut hiyerarşisi burada gösterildiği gibi ayarlanabilir.
+<span data-ttu-id="e6ede-214">İlke gereksinimlerini karşılayan bir boyut hiyerarşisi burada gösterildiği gibi ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-214">A dimension hierarchy that meets the policy requirement can be set up as shown here.</span></span>
 
-**Boyut hiyerarşisi ayrıntıları**
+<span data-ttu-id="e6ede-215">**Boyut hiyerarşisi ayrıntıları**</span><span class="sxs-lookup"><span data-stu-id="e6ede-215">**Dimension hierarchy details**</span></span>
 
-| Boyut hiyerarşisi adı | Boyut     | Boyut hiyerarşisi türü adı      |
+| <span data-ttu-id="e6ede-216">Boyut hiyerarşisi adı</span><span class="sxs-lookup"><span data-stu-id="e6ede-216">Dimension hierarchy name</span></span> | <span data-ttu-id="e6ede-217">Boyut</span><span class="sxs-lookup"><span data-stu-id="e6ede-217">Dimension</span></span>     | <span data-ttu-id="e6ede-218">Boyut hiyerarşisi türü adı</span><span class="sxs-lookup"><span data-stu-id="e6ede-218">Dimension hierarchy type name</span></span>      |
 |--------------------------|---------------|------------------------------------|
-| Maliyet davranışı            | Maliyet öğeleri | Boyut sınıflandırması hiyerarşisi |
+| <span data-ttu-id="e6ede-219">Maliyet davranışı</span><span class="sxs-lookup"><span data-stu-id="e6ede-219">Cost behavior</span></span>            | <span data-ttu-id="e6ede-220">Maliyet öğeleri</span><span class="sxs-lookup"><span data-stu-id="e6ede-220">Cost elements</span></span> | <span data-ttu-id="e6ede-221">Boyut sınıflandırması hiyerarşisi</span><span class="sxs-lookup"><span data-stu-id="e6ede-221">Dimension classification hierarchy</span></span> |
 
-İlke için boyut hiyerarşisi burada gösterildiği gibi ayarlanabilir.
+<span data-ttu-id="e6ede-222">İlke için boyut hiyerarşisi burada gösterildiği gibi ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-222">The dimension hierarchy for the policy can be set up as shown here.</span></span>
 
-|                   | Boyut üyesi aralıkları   |                         |
+|                   | <span data-ttu-id="e6ede-223">Boyut üyesi aralıkları</span><span class="sxs-lookup"><span data-stu-id="e6ede-223">Dimension member ranges</span></span>   |                         |
 |-------------------|---------------------------|-------------------------|
-| **Düğümler**         | **Kaynak boyut üyesi** | **Hedef boyut üyesi** |
-| Maliyet davranışı     |                           |                         |
-| &nbsp;&nbsp;Sabit maliyet    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Değişken maliyet | 40001                     | 40010                   |
+| <span data-ttu-id="e6ede-224">**Düğümler**</span><span class="sxs-lookup"><span data-stu-id="e6ede-224">**Nodes**</span></span>         | <span data-ttu-id="e6ede-225">**Kaynak boyut üyesi**</span><span class="sxs-lookup"><span data-stu-id="e6ede-225">**From dimension member**</span></span> | <span data-ttu-id="e6ede-226">**Hedef boyut üyesi**</span><span class="sxs-lookup"><span data-stu-id="e6ede-226">**To dimension member**</span></span> |
+| <span data-ttu-id="e6ede-227">Maliyet davranışı</span><span class="sxs-lookup"><span data-stu-id="e6ede-227">Cost behavior</span></span>     |                           |                         |
+| <span data-ttu-id="e6ede-228">&nbsp;&nbsp;Sabit maliyet</span><span class="sxs-lookup"><span data-stu-id="e6ede-228">&nbsp;&nbsp;Fixed cost</span></span>    | <span data-ttu-id="e6ede-229">10001</span><span class="sxs-lookup"><span data-stu-id="e6ede-229">10001</span></span>                     | <span data-ttu-id="e6ede-230">10011</span><span class="sxs-lookup"><span data-stu-id="e6ede-230">10011</span></span>                   |
+|<span data-ttu-id="e6ede-231">&nbsp;&nbsp;Değişken maliyet</span><span class="sxs-lookup"><span data-stu-id="e6ede-231">&nbsp;&nbsp;Variable cost</span></span> | <span data-ttu-id="e6ede-232">40001</span><span class="sxs-lookup"><span data-stu-id="e6ede-232">40001</span></span>                     | <span data-ttu-id="e6ede-233">40010</span><span class="sxs-lookup"><span data-stu-id="e6ede-233">40010</span></span>                   |
 
 > [!NOTE]
-> **Boyut üye aralığı** altında, bir düğüm 1:_n_ boyut üye aralığı içerebilir. Henüz boyut üyeleri olarak mevcut olmayan boyut üye kodları ekleyebilirsiniz. Bu yaklaşım hiyerarşiyi geleceğe yönelik esnek yapar.  
+> <span data-ttu-id="e6ede-234">**Boyut üye aralığı** altında, bir düğüm 1:_n_ boyut üye aralığı içerebilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-234">Under **Dimension member ranges**, a node can contain 1:_n_ dimension member ranges.</span></span> <span data-ttu-id="e6ede-235">Henüz boyut üyeleri olarak mevcut olmayan boyut üye kodları ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-235">You can insert dimension member IDs that don’t yet exist as dimension members.</span></span> <span data-ttu-id="e6ede-236">Bu yaklaşım hiyerarşiyi geleceğe yönelik esnek yapar.</span><span class="sxs-lookup"><span data-stu-id="e6ede-236">This approach makes the hierarchy resilient for the future.</span></span>  
 
-### <a name="copy-a-hierarchy"></a>Bir hiyerarşiyi kopyala
+### <a name="copy-a-hierarchy"></a><span data-ttu-id="e6ede-237">Bir hiyerarşiyi kopyala</span><span class="sxs-lookup"><span data-stu-id="e6ede-237">Copy a hierarchy</span></span>
 
-Yeni bir boyut hiyerarşisi için bir başlangıç noktası olarak geçerli boyut hiyerarşisini kopyalayabilirsiniz. Bu yaklaşım, önceki boyut hiyerarşisini yeni boyut hiyerarşisiyle kıyaslamak istiyorsanız kullanışlı olabilir.
+<span data-ttu-id="e6ede-238">Yeni bir boyut hiyerarşisi için bir başlangıç noktası olarak geçerli boyut hiyerarşisini kopyalayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-238">You can copy a current dimension hierarchy as the starting point for a new dimension hierarchy.</span></span> <span data-ttu-id="e6ede-239">Bu yaklaşım, önceki boyut hiyerarşisini yeni boyut hiyerarşisiyle kıyaslamak istiyorsanız kullanışlı olabilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-239">This approach can be useful if you want to compare the previous dimension hierarchy to the new dimension hierarchy.</span></span>
 
-### <a name="rearrange-nodes-in-a-hierarchy"></a>Hiyerarşideki düğümleri yeniden düzenleme
+### <a name="rearrange-nodes-in-a-hierarchy"></a><span data-ttu-id="e6ede-240">Hiyerarşideki düğümleri yeniden düzenleme</span><span class="sxs-lookup"><span data-stu-id="e6ede-240">Rearrange nodes in a hierarchy</span></span>
 
-Bir düğümü, yapı içerisindeki mevcut seviyesi içerisinde yukarı ve aşağı taşıyabilirsiniz. Bu şekilde, **Maliyet kontrolü** çalışma alanı içindeki düğümlerin sırasını raporlama için yeniden düzenleyebilirsiniz.
+<span data-ttu-id="e6ede-241">Bir düğümü, yapı içerisindeki mevcut seviyesi içerisinde yukarı ve aşağı taşıyabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-241">You can move a node up and down within its current level in the structure.</span></span> <span data-ttu-id="e6ede-242">Bu şekilde, **Maliyet kontrolü** çalışma alanı içindeki düğümlerin sırasını raporlama için yeniden düzenleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-242">In this way, you can rearrange the order of nodes for reporting in the **Cost control** workspace.</span></span>
 
-Hedef düğümü seçerek bir düğümü hiyerarşi içinde yeni bir konuma taşırsınız. Bir düğümü taşımanın iki yolu vardır:
+<span data-ttu-id="e6ede-243">Hedef düğümü seçerek bir düğümü hiyerarşi içinde yeni bir konuma taşırsınız.</span><span class="sxs-lookup"><span data-stu-id="e6ede-243">You move a node to a new location in the hierarchy by selecting the target node.</span></span> <span data-ttu-id="e6ede-244">Bir düğümü taşımanın iki yolu vardır:</span><span class="sxs-lookup"><span data-stu-id="e6ede-244">There are two ways to move a node:</span></span>
 
-- **Aşağı taşı** – Seçili düğümü hiyerarşideki mevcut konumundan yukarı taşı ve seçili hedef düğümün **altına** ekle.
-- **Sonrasında taşı** – Seçili düğümü hiyerarşideki mevcut konumundan taşı ve kendi hiyerarşi düzeyindeki seçili hedef düğümden **sonra** yerleştir.
+- <span data-ttu-id="e6ede-245">**Aşağı taşı** – Seçili düğümü hiyerarşideki mevcut konumundan yukarı taşı ve seçili hedef düğümün **altına** ekle.</span><span class="sxs-lookup"><span data-stu-id="e6ede-245">**Move below** – Move the selected node from its current position in the hierarchy, and insert it **under** the selected target node.</span></span>
+- <span data-ttu-id="e6ede-246">**Sonrasında taşı** – Seçili düğümü hiyerarşideki mevcut konumundan taşı ve kendi hiyerarşi düzeyindeki seçili hedef düğümden **sonra** yerleştir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-246">**Move after** – Move the selected node from its current position in the hierarchy, and insert it **after** the selected target node at its level of the hierarchy.</span></span>
 
 > [!NOTE] 
-> Veriyi Excel veya Power BI'a aktarırsanız düğümlerin sırası korunmaz çünkü bu araçlar varsayılan olarak bir alfasayısal sıralama düzeni kullanırlar. Sırayı el ile yeniden düzenlemelisiniz.
+> <span data-ttu-id="e6ede-247">Veriyi Excel veya Power BI'a aktarırsanız düğümlerin sırası korunmaz çünkü bu araçlar varsayılan olarak bir alfasayısal sıralama düzeni kullanırlar.</span><span class="sxs-lookup"><span data-stu-id="e6ede-247">The order of the nodes isn't maintained when you export data to Excel or Power BI, because those tools use an alphanumeric sort order by default.</span></span> <span data-ttu-id="e6ede-248">Sırayı el ile yeniden düzenlemelisiniz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-248">You should manually rearrange the order.</span></span>
 
-## <a name="define-dimension-hierarchies-for-reporting"></a>Raporlama için boyut hiyerarşileri tanımlayın
+## <a name="define-dimension-hierarchies-for-reporting"></a><span data-ttu-id="e6ede-249">Raporlama için boyut hiyerarşileri tanımlayın</span><span class="sxs-lookup"><span data-stu-id="e6ede-249">Define dimension hierarchies for reporting</span></span>
 
-Boyut hiyerarşileri raporlama için önemlidir. Belirli bir kuruluşa uyan belirli yapıyı tanımlamanıza olanak sağlarlar. Boyut hiyerarşisinin düğüm seviyesinde gerçekleştirilen toplamlar, kuruluşun herhangi bir düzeyinde bulunan hissedarların veriyi herhangi bir düzeyde görmelerini sağlar.
+<span data-ttu-id="e6ede-250">Boyut hiyerarşileri raporlama için önemlidir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-250">Dimension hierarchies are important for reporting.</span></span> <span data-ttu-id="e6ede-251">Belirli bir kuruluşa uyan belirli yapıyı tanımlamanıza olanak sağlarlar.</span><span class="sxs-lookup"><span data-stu-id="e6ede-251">They let you define the specific structure that fits into the individual organization.</span></span> <span data-ttu-id="e6ede-252">Boyut hiyerarşisinin düğüm seviyesinde gerçekleştirilen toplamlar, kuruluşun herhangi bir düzeyinde bulunan hissedarların veriyi herhangi bir düzeyde görmelerini sağlar.</span><span class="sxs-lookup"><span data-stu-id="e6ede-252">The aggregations that are done at the node level of the dimension hierarchy let stakeholders at any level of the organization see data at any level.</span></span>
 
-Boyut hiyerarşileri aşağıdaki raporlama araçlarında kullanılabilir. Bu yaklaşım raporlama yapısında tutarlılığı garanti etmeye yardımcı olur.
+<span data-ttu-id="e6ede-253">Boyut hiyerarşileri aşağıdaki raporlama araçlarında kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-253">Dimension hierarchies are available in the following reporting tools.</span></span> <span data-ttu-id="e6ede-254">Bu yaklaşım raporlama yapısında tutarlılığı garanti etmeye yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="e6ede-254">This approach helps guarantee consistency in the reporting structure.</span></span>
 
-- **Maliyet kontrolü** çalışma alanı (İstemci):
+- <span data-ttu-id="e6ede-255">**Maliyet kontrolü** çalışma alanı (İstemci):</span><span class="sxs-lookup"><span data-stu-id="e6ede-255">**Cost control** workspace (Client):</span></span>
 
-    - Yapılandırma tarafından denetimli.
+    - <span data-ttu-id="e6ede-256">Yapılandırma tarafından denetimli.</span><span class="sxs-lookup"><span data-stu-id="e6ede-256">Controlled by configuration.</span></span>
 
-- **Maliyet kontrolü** çalışma alanı (Mobil uygulama):
+- <span data-ttu-id="e6ede-257">**Maliyet kontrolü** çalışma alanı (Mobil uygulama):</span><span class="sxs-lookup"><span data-stu-id="e6ede-257">**Cost control** workspace (Mobile application):</span></span>
 
-    - Yapılandırma tarafından denetimli.
+    - <span data-ttu-id="e6ede-258">Yapılandırma tarafından denetimli.</span><span class="sxs-lookup"><span data-stu-id="e6ede-258">Controlled by configuration.</span></span>
 
-- Excel
+- <span data-ttu-id="e6ede-259">Excel</span><span class="sxs-lookup"><span data-stu-id="e6ede-259">Excel</span></span>
 
-    - Dışa aktarma tanımı başına belirli boyut hiyerarşileri seçme seçeneği sağlar.
+    - <span data-ttu-id="e6ede-260">Dışa aktarma tanımı başına belirli boyut hiyerarşileri seçme seçeneği sağlar.</span><span class="sxs-lookup"><span data-stu-id="e6ede-260">Provides the option to select specific dimension hierarchies per export definition:</span></span>
 
-        - Bir maliyet öğesi boyut hiyerarşisi (zorunlu)
-        - Bir maliyet nesnesi boyut hiyerarşisi (isteğe bağlı)
-        - Bir istatistiksel boyut hiyerarşisi (isteğe bağlı)
+        - <span data-ttu-id="e6ede-261">Bir maliyet öğesi boyut hiyerarşisi (zorunlu)</span><span class="sxs-lookup"><span data-stu-id="e6ede-261">One cost element dimension hierarchy (mandatory)</span></span>
+        - <span data-ttu-id="e6ede-262">Bir maliyet nesnesi boyut hiyerarşisi (isteğe bağlı)</span><span class="sxs-lookup"><span data-stu-id="e6ede-262">One cost object dimension hierarchy (optional)</span></span>
+        - <span data-ttu-id="e6ede-263">Bir istatistiksel boyut hiyerarşisi (isteğe bağlı)</span><span class="sxs-lookup"><span data-stu-id="e6ede-263">One statistical dimension hierarchy (optional)</span></span>
 
-- Power BI:
+- <span data-ttu-id="e6ede-264">Power BI:</span><span class="sxs-lookup"><span data-stu-id="e6ede-264">Power BI:</span></span>
 
-    - Tüm boyut hiyerarşileri kullanılabilir.
+    - <span data-ttu-id="e6ede-265">Tüm boyut hiyerarşileri kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-265">All dimension hierarchies are available.</span></span>
     
-Excel veya Power BI kullanarak raporlar oluşturursanız, boyut hiyerarşilerinin yalnızca ilk 15 düzeyi dışa aktarılır. Bu sınırlama Excel ve Power BI içerisinde bir sabit şema gerektiğinden mevcuttur. Bir hiyerarşinin 15'ten fazla düzeyi varsa, ek düzeyler dışa aktarılmaz. Normalleştirilmiş tablo, hiyerarşi içerisindeki her bir boyut üyesi için bir kayıt içerir. Bu nedenle, otomatik toplama gerçekleşir. Bu davranış, hiyerarşi içerisindeki kullanılabilir 15 seviyeden herhangi birinin bakiyesinin halen doğru olmasını garanti etmeye yardımcı olur.
+<span data-ttu-id="e6ede-266">Excel veya Power BI kullanarak raporlar oluşturursanız, boyut hiyerarşilerinin yalnızca ilk 15 düzeyi dışa aktarılır.</span><span class="sxs-lookup"><span data-stu-id="e6ede-266">If you create reports by using Excel or Power BI, only the first 15 levels of the dimension hierarchies are exported.</span></span> <span data-ttu-id="e6ede-267">Bu sınırlama Excel ve Power BI içerisinde bir sabit şema gerektiğinden mevcuttur.</span><span class="sxs-lookup"><span data-stu-id="e6ede-267">This limitation exists because a fixed schema is required in Excel and Power BI.</span></span> <span data-ttu-id="e6ede-268">Bir hiyerarşinin 15'ten fazla düzeyi varsa, ek düzeyler dışa aktarılmaz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-268">If a hierarchy has more than 15 levels, the additional levels won't be exported.</span></span> <span data-ttu-id="e6ede-269">Normalleştirilmiş tablo, hiyerarşi içerisindeki her bir boyut üyesi için bir kayıt içerir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-269">The normalized table contains a record for each dimension member in the hierarchy.</span></span> <span data-ttu-id="e6ede-270">Bu nedenle, otomatik toplama gerçekleşir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-270">Therefore, automated aggregation occurs.</span></span> <span data-ttu-id="e6ede-271">Bu davranış, hiyerarşi içerisindeki kullanılabilir 15 seviyeden herhangi birinin bakiyesinin halen doğru olmasını garanti etmeye yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="e6ede-271">This behavior helps guarantee that the balances at any of the 15 available levels in the hierarchy are still correct.</span></span>
 
-Aşağıdaki örnek, bir boyut hiyerarşisinin raporlama yapısında nasıl görünebileceğini gösterir.
+<span data-ttu-id="e6ede-272">Aşağıdaki örnek, bir boyut hiyerarşisinin raporlama yapısında nasıl görünebileceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-272">The following example shows what a dimension hierarchy might look like in the reporting structure.</span></span>
 
-| Maliyet nesnesi boyut hiyerarşisi – Düzey 1 | Maliyet nesnesi boyut hiyerarşisi – Düzey 2 | Maliyet nesnesi boyut hiyerarşisi – Düzey 3 | Maliyet nesnesi boyut hiyerarşisi – Düzey 4 | Maliyet nesnesi boyut hiyerarşisi – Düzey 15 |
+| <span data-ttu-id="e6ede-273">Maliyet nesnesi boyut hiyerarşisi – Düzey 1</span><span class="sxs-lookup"><span data-stu-id="e6ede-273">Cost object dimension hierarchy – Level 1</span></span> | <span data-ttu-id="e6ede-274">Maliyet nesnesi boyut hiyerarşisi – Düzey 2</span><span class="sxs-lookup"><span data-stu-id="e6ede-274">Cost object dimension hierarchy – Level 2</span></span> | <span data-ttu-id="e6ede-275">Maliyet nesnesi boyut hiyerarşisi – Düzey 3</span><span class="sxs-lookup"><span data-stu-id="e6ede-275">Cost object dimension hierarchy – Level 3</span></span> | <span data-ttu-id="e6ede-276">Maliyet nesnesi boyut hiyerarşisi – Düzey 4</span><span class="sxs-lookup"><span data-stu-id="e6ede-276">Cost object dimension hierarchy – Level 4</span></span> | <span data-ttu-id="e6ede-277">Maliyet nesnesi boyut hiyerarşisi – Düzey 15</span><span class="sxs-lookup"><span data-stu-id="e6ede-277">Cost object dimension hierarchy – Level 15</span></span> |
 |-------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|--------------------------------------------|
-| Organizasyon                              | Yönetici                                     | Finans                                   | CC002                                     |                                            |
-| Organizasyon                              | Yönetici                                     | Finans                                   | CC003                                     |                                            |
-| Organizasyon                              | Yönetici                                     | Finans                                   | CC007                                     |                                            |
-| Organizasyon                              | Yönetici                                     | İK                                        | CC001                                     |                                            |
-| Organizasyon                              | Üretim                                | Paketleme                                 | CC005                                     |                                            |
-| Organizasyon                              | Üretim                                | Montaj                                  | CC006                                     |                                            |
+| <span data-ttu-id="e6ede-278">Organizasyon</span><span class="sxs-lookup"><span data-stu-id="e6ede-278">Organization</span></span>                              | <span data-ttu-id="e6ede-279">Yönetici</span><span class="sxs-lookup"><span data-stu-id="e6ede-279">Admin</span></span>                                     | <span data-ttu-id="e6ede-280">Finans</span><span class="sxs-lookup"><span data-stu-id="e6ede-280">Finance</span></span>                                   | <span data-ttu-id="e6ede-281">CC002</span><span class="sxs-lookup"><span data-stu-id="e6ede-281">CC002</span></span>                                     |                                            |
+| <span data-ttu-id="e6ede-282">Organizasyon</span><span class="sxs-lookup"><span data-stu-id="e6ede-282">Organization</span></span>                              | <span data-ttu-id="e6ede-283">Yönetici</span><span class="sxs-lookup"><span data-stu-id="e6ede-283">Admin</span></span>                                     | <span data-ttu-id="e6ede-284">Finans</span><span class="sxs-lookup"><span data-stu-id="e6ede-284">Finance</span></span>                                   | <span data-ttu-id="e6ede-285">CC003</span><span class="sxs-lookup"><span data-stu-id="e6ede-285">CC003</span></span>                                     |                                            |
+| <span data-ttu-id="e6ede-286">Organizasyon</span><span class="sxs-lookup"><span data-stu-id="e6ede-286">Organization</span></span>                              | <span data-ttu-id="e6ede-287">Yönetici</span><span class="sxs-lookup"><span data-stu-id="e6ede-287">Admin</span></span>                                     | <span data-ttu-id="e6ede-288">Finans</span><span class="sxs-lookup"><span data-stu-id="e6ede-288">Finance</span></span>                                   | <span data-ttu-id="e6ede-289">CC007</span><span class="sxs-lookup"><span data-stu-id="e6ede-289">CC007</span></span>                                     |                                            |
+| <span data-ttu-id="e6ede-290">Organizasyon</span><span class="sxs-lookup"><span data-stu-id="e6ede-290">Organization</span></span>                              | <span data-ttu-id="e6ede-291">Yönetici</span><span class="sxs-lookup"><span data-stu-id="e6ede-291">Admin</span></span>                                     | <span data-ttu-id="e6ede-292">İK</span><span class="sxs-lookup"><span data-stu-id="e6ede-292">HR</span></span>                                        | <span data-ttu-id="e6ede-293">CC001</span><span class="sxs-lookup"><span data-stu-id="e6ede-293">CC001</span></span>                                     |                                            |
+| <span data-ttu-id="e6ede-294">Organizasyon</span><span class="sxs-lookup"><span data-stu-id="e6ede-294">Organization</span></span>                              | <span data-ttu-id="e6ede-295">Üretim</span><span class="sxs-lookup"><span data-stu-id="e6ede-295">Production</span></span>                                | <span data-ttu-id="e6ede-296">Paketleme</span><span class="sxs-lookup"><span data-stu-id="e6ede-296">Packaging</span></span>                                 | <span data-ttu-id="e6ede-297">CC005</span><span class="sxs-lookup"><span data-stu-id="e6ede-297">CC005</span></span>                                     |                                            |
+| <span data-ttu-id="e6ede-298">Organizasyon</span><span class="sxs-lookup"><span data-stu-id="e6ede-298">Organization</span></span>                              | <span data-ttu-id="e6ede-299">Üretim</span><span class="sxs-lookup"><span data-stu-id="e6ede-299">Production</span></span>                                | <span data-ttu-id="e6ede-300">Montaj</span><span class="sxs-lookup"><span data-stu-id="e6ede-300">Assembly</span></span>                                  | <span data-ttu-id="e6ede-301">CC006</span><span class="sxs-lookup"><span data-stu-id="e6ede-301">CC006</span></span>                                     |                                            |
 
-### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a>Raporlama için kullanılan boyut hiyerarşilerini güncelleştir 
+### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a><span data-ttu-id="e6ede-302">Raporlama için kullanılan boyut hiyerarşilerini güncelleştir</span><span class="sxs-lookup"><span data-stu-id="e6ede-302">Update the dimension hierarchies that are used for reporting</span></span> 
 
-Zaman içerisinde önceden belirtilen raporlama araçlarında kullanılan boyut hiyerarşilerinin güncelleştirilmesi gerekecektir. Boyut hiyerarşilerini istemciyi yenileyerek güncelleştirebilirsiniz.
+<span data-ttu-id="e6ede-303">Zaman içerisinde önceden belirtilen raporlama araçlarında kullanılan boyut hiyerarşilerinin güncelleştirilmesi gerekecektir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-303">Over time, the dimension hierarchies that are used in the previously mentioned reporting tools will have to be updated.</span></span> <span data-ttu-id="e6ede-304">Boyut hiyerarşilerini istemciyi yenileyerek güncelleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-304">You can update dimension hierarchies by refreshing the client.</span></span>
 
-- **Maliyet kontrolü** çalışma alanı (İstemci)
-- **Maliyet kontrolü** çalışma alanı (Mobil uygulama)
+- <span data-ttu-id="e6ede-305">**Maliyet kontrolü** çalışma alanı (İstemci)</span><span class="sxs-lookup"><span data-stu-id="e6ede-305">**Cost control** workspace (Client)</span></span>
+- <span data-ttu-id="e6ede-306">**Maliyet kontrolü** çalışma alanı (Mobil uygulama)</span><span class="sxs-lookup"><span data-stu-id="e6ede-306">**Cost control** workspace (Mobile application)</span></span>
 
-Boyut hiyerarşilerindeki güncelleştirmeler, önceden önbelleğe alınmış bir iş tarafından her 24 saatte bir çekilir. Dışa aktarılan veri güncelleştirildikten sonra, güncelleştirilen boyut hiyerarşileri halen aşağıdaki araçlarda kullanılabilir:
+<span data-ttu-id="e6ede-307">Boyut hiyerarşilerindeki güncelleştirmeler, önceden önbelleğe alınmış bir iş tarafından her 24 saatte bir çekilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-307">Updates to dimension hierarchies are picked up every 24 hours by a pre-cached job.</span></span> <span data-ttu-id="e6ede-308">Dışa aktarılan veri güncelleştirildikten sonra, güncelleştirilen boyut hiyerarşileri halen aşağıdaki araçlarda kullanılabilir:</span><span class="sxs-lookup"><span data-stu-id="e6ede-308">After the exported data is updated, the updated dimension hierarchies are available in the following tools:</span></span>
 
-- Excel
-- Power BI
+- <span data-ttu-id="e6ede-309">Excel</span><span class="sxs-lookup"><span data-stu-id="e6ede-309">Excel</span></span>
+- <span data-ttu-id="e6ede-310">Power BI</span><span class="sxs-lookup"><span data-stu-id="e6ede-310">Power BI</span></span>
 
 > [!NOTE] 
-> Boyut hiyerarşisi önbelleğinin güncelleştirilmesini el ile tetiklemek için boyut hiyerarşisi veya güncelleştirilmesi gereken hiyerarşiler için Excel'e yeni bir dışa aktarma oluşturabilirsiniz.
+> <span data-ttu-id="e6ede-311">Boyut hiyerarşisi önbelleğinin güncelleştirilmesini el ile tetiklemek için boyut hiyerarşisi veya güncelleştirilmesi gereken hiyerarşiler için Excel'e yeni bir dışa aktarma oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-311">To manually trigger an update of the dimension hierarchy cache, you can create a new export to Excel for the dimension hierarchy or hierarchies that must be updated.</span></span>
 
-## <a name="define-dimension-hierarchies-for-cost-policies"></a>Maliyet ilkeleri için boyut hiyerarşileri tanımlayın
+## <a name="define-dimension-hierarchies-for-cost-policies"></a><span data-ttu-id="e6ede-312">Maliyet ilkeleri için boyut hiyerarşileri tanımlayın</span><span class="sxs-lookup"><span data-stu-id="e6ede-312">Define dimension hierarchies for cost policies</span></span>
 
-Maliyet muhasebesi, ayrıntılı kuralların tanımlandığı birden fazla ilkeden oluşur. Aşağıdaki ilkeler için bir veya daha fazla boyut hiyerarşisi tanımlamalısınız:
+<span data-ttu-id="e6ede-313">Maliyet muhasebesi, ayrıntılı kuralların tanımlandığı birden fazla ilkeden oluşur.</span><span class="sxs-lookup"><span data-stu-id="e6ede-313">Cost accounting consists of multiple policies where detailed rules are defined.</span></span> <span data-ttu-id="e6ede-314">Aşağıdaki ilkeler için bir veya daha fazla boyut hiyerarşisi tanımlamalısınız:</span><span class="sxs-lookup"><span data-stu-id="e6ede-314">You must define one or more dimension hierarchies for the following policies:</span></span>
 
-- Maliyet davranışı
-- Maliyet dağılımı
-- Maliyet tahsisatı
-- Maliyet yuvarlaması
+- <span data-ttu-id="e6ede-315">Maliyet davranışı</span><span class="sxs-lookup"><span data-stu-id="e6ede-315">Cost behavior</span></span>
+- <span data-ttu-id="e6ede-316">Maliyet dağılımı</span><span class="sxs-lookup"><span data-stu-id="e6ede-316">Cost distribution</span></span>
+- <span data-ttu-id="e6ede-317">Maliyet tahsisatı</span><span class="sxs-lookup"><span data-stu-id="e6ede-317">Cost allocation</span></span>
+- <span data-ttu-id="e6ede-318">Maliyet yuvarlaması</span><span class="sxs-lookup"><span data-stu-id="e6ede-318">Cost rollup</span></span>
 
-Boyut hiyerarşileri kurallar oluşturmayı kolaylaştırır. Her bir boyut üyesi için kurallar yaratmaktan kaçınmak amacıyla, boyut hiyerarşi düzeyleri tarafından sağlanan boyut üyelerinin toplamından yararlanabilirsiniz. Çakışan kurallara sahipseniz, genel gider hesaplaması yaptığında sistemin dikkate alacağı belirli kurallar tanımlamalısınız.
+<span data-ttu-id="e6ede-319">Boyut hiyerarşileri kurallar oluşturmayı kolaylaştırır.</span><span class="sxs-lookup"><span data-stu-id="e6ede-319">Dimension hierarchies make it easy to create rules.</span></span> <span data-ttu-id="e6ede-320">Her bir boyut üyesi için kurallar yaratmaktan kaçınmak amacıyla, boyut hiyerarşi düzeyleri tarafından sağlanan boyut üyelerinin toplamından yararlanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-320">To avoid having to create rules for every dimension member, you can take advantage of the aggregations of dimension members that are provided by dimension hierarchy levels.</span></span> <span data-ttu-id="e6ede-321">Çakışan kurallara sahipseniz, genel gider hesaplaması yaptığında sistemin dikkate alacağı belirli kurallar tanımlamalısınız.</span><span class="sxs-lookup"><span data-stu-id="e6ede-321">If you have overlapping rules, you must define specific rules that the system will consider when it does the overhead calculation.</span></span>
 
-### <a name="example-define-a-cost-behavior-policy"></a>Örnek: Bir maliyet davranışı ilkesi tanımla
+### <a name="example-define-a-cost-behavior-policy"></a><span data-ttu-id="e6ede-322">Örnek: Bir maliyet davranışı ilkesi tanımla</span><span class="sxs-lookup"><span data-stu-id="e6ede-322">Example: Define a cost behavior policy</span></span>
 
-Yeni bir maliyet davranışı ilkesi oluşturuldu ve uygun boyut hiyerarşileri ilkeye, burada gösterildiği gibi atandı.
+<span data-ttu-id="e6ede-323">Yeni bir maliyet davranışı ilkesi oluşturuldu ve uygun boyut hiyerarşileri ilkeye, burada gösterildiği gibi atandı.</span><span class="sxs-lookup"><span data-stu-id="e6ede-323">A new cost behavior policy is created, and appropriate dimension hierarchies are assigned to the policy, as shown here.</span></span>
 
-**Maliyet davranışı ilkesi**
+<span data-ttu-id="e6ede-324">**Maliyet davranışı ilkesi**</span><span class="sxs-lookup"><span data-stu-id="e6ede-324">**Cost behavior policy**</span></span>
 
-| İlke adı   | Maliyet öğesi boyut hiyerarşisi | Maliyet nesnesi boyut hiyerarşisi | Muhasebe para birimi |
+| <span data-ttu-id="e6ede-325">İlke adı</span><span class="sxs-lookup"><span data-stu-id="e6ede-325">Policy name</span></span>   | <span data-ttu-id="e6ede-326">Maliyet öğesi boyut hiyerarşisi</span><span class="sxs-lookup"><span data-stu-id="e6ede-326">Cost element dimension hierarchy</span></span> | <span data-ttu-id="e6ede-327">Maliyet nesnesi boyut hiyerarşisi</span><span class="sxs-lookup"><span data-stu-id="e6ede-327">Cost object dimension hierarchy</span></span> | <span data-ttu-id="e6ede-328">Muhasebe para birimi</span><span class="sxs-lookup"><span data-stu-id="e6ede-328">Accounting currency</span></span> |
 |---------------|----------------------------------|---------------------------------|---------------------|
-| Maliyet davranışı | Maliyet davranışı                    | Organizasyon                    | ABD Doları                 |
+| <span data-ttu-id="e6ede-329">Maliyet davranışı</span><span class="sxs-lookup"><span data-stu-id="e6ede-329">Cost behavior</span></span> | <span data-ttu-id="e6ede-330">Maliyet davranışı</span><span class="sxs-lookup"><span data-stu-id="e6ede-330">Cost behavior</span></span>                    | <span data-ttu-id="e6ede-331">Organizasyon</span><span class="sxs-lookup"><span data-stu-id="e6ede-331">Organization</span></span>                    | <span data-ttu-id="e6ede-332">ABD Doları</span><span class="sxs-lookup"><span data-stu-id="e6ede-332">USD</span></span>                 |
 
-**Kurallar**
+<span data-ttu-id="e6ede-333">**Kurallar**</span><span class="sxs-lookup"><span data-stu-id="e6ede-333">**Rules**</span></span>
 
-| Maliyet öğesi boyut hiyerarşisi düğümü | Maliyet nesnesi boyut hiyerarşisi düğümü | Sabit yüzde | Sabit tutar | Geçerlilik başlangıcı | Geçerlilik bitişi |
+| <span data-ttu-id="e6ede-334">Maliyet öğesi boyut hiyerarşisi düğümü</span><span class="sxs-lookup"><span data-stu-id="e6ede-334">Cost element dimension hierarchy node</span></span> | <span data-ttu-id="e6ede-335">Maliyet nesnesi boyut hiyerarşisi düğümü</span><span class="sxs-lookup"><span data-stu-id="e6ede-335">Cost object dimension hierarchy node</span></span> | <span data-ttu-id="e6ede-336">Sabit yüzde</span><span class="sxs-lookup"><span data-stu-id="e6ede-336">Fixed percentage</span></span> | <span data-ttu-id="e6ede-337">Sabit tutar</span><span class="sxs-lookup"><span data-stu-id="e6ede-337">Fixed amount</span></span> | <span data-ttu-id="e6ede-338">Geçerlilik başlangıcı</span><span class="sxs-lookup"><span data-stu-id="e6ede-338">Valid from</span></span> | <span data-ttu-id="e6ede-339">Geçerlilik bitişi</span><span class="sxs-lookup"><span data-stu-id="e6ede-339">Valid to</span></span> |
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|----------|
-| Sabit maliyet                            | Organizasyon                         | 100,00           | 0,00         | 1/1/2017   | Hiçbir Zaman    |
-| 10001                                 | Organizasyon                         | 0,00             | 150.00       | 1/1/2017   | Hiçbir Zaman    |
-| 10001 (\*)                             | Finans                              |                  | 50,00        | 1/1/2017   | Hiçbir Zaman    |
-| Maliyet davranışı veya Değişken maliyet (\*\*)   | Organizasyon                         | 0,00             | 0,00         | 1/1/2017   | Hiçbir Zaman    |
+| <span data-ttu-id="e6ede-340">Sabit maliyet</span><span class="sxs-lookup"><span data-stu-id="e6ede-340">Fixed cost</span></span>                            | <span data-ttu-id="e6ede-341">Organizasyon</span><span class="sxs-lookup"><span data-stu-id="e6ede-341">Organization</span></span>                         | <span data-ttu-id="e6ede-342">100,00</span><span class="sxs-lookup"><span data-stu-id="e6ede-342">100.00</span></span>           | <span data-ttu-id="e6ede-343">0,00</span><span class="sxs-lookup"><span data-stu-id="e6ede-343">0.00</span></span>         | <span data-ttu-id="e6ede-344">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="e6ede-344">1/1/2017</span></span>   | <span data-ttu-id="e6ede-345">Hiçbir Zaman</span><span class="sxs-lookup"><span data-stu-id="e6ede-345">Never</span></span>    |
+| <span data-ttu-id="e6ede-346">10001</span><span class="sxs-lookup"><span data-stu-id="e6ede-346">10001</span></span>                                 | <span data-ttu-id="e6ede-347">Organizasyon</span><span class="sxs-lookup"><span data-stu-id="e6ede-347">Organization</span></span>                         | <span data-ttu-id="e6ede-348">0,00</span><span class="sxs-lookup"><span data-stu-id="e6ede-348">0.00</span></span>             | <span data-ttu-id="e6ede-349">150.00</span><span class="sxs-lookup"><span data-stu-id="e6ede-349">150.00</span></span>       | <span data-ttu-id="e6ede-350">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="e6ede-350">1/1/2017</span></span>   | <span data-ttu-id="e6ede-351">Hiçbir Zaman</span><span class="sxs-lookup"><span data-stu-id="e6ede-351">Never</span></span>    |
+| <span data-ttu-id="e6ede-352">10001 (\*)</span><span class="sxs-lookup"><span data-stu-id="e6ede-352">10001 (\*)</span></span>                             | <span data-ttu-id="e6ede-353">Finans</span><span class="sxs-lookup"><span data-stu-id="e6ede-353">Finance</span></span>                              |                  | <span data-ttu-id="e6ede-354">50,00</span><span class="sxs-lookup"><span data-stu-id="e6ede-354">50.00</span></span>        | <span data-ttu-id="e6ede-355">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="e6ede-355">1/1/2017</span></span>   | <span data-ttu-id="e6ede-356">Hiçbir Zaman</span><span class="sxs-lookup"><span data-stu-id="e6ede-356">Never</span></span>    |
+| <span data-ttu-id="e6ede-357">Maliyet davranışı veya Değişken maliyet (\*\*)</span><span class="sxs-lookup"><span data-stu-id="e6ede-357">Cost behavior or Variable cost (\*\*)</span></span>   | <span data-ttu-id="e6ede-358">Organizasyon</span><span class="sxs-lookup"><span data-stu-id="e6ede-358">Organization</span></span>                         | <span data-ttu-id="e6ede-359">0,00</span><span class="sxs-lookup"><span data-stu-id="e6ede-359">0.00</span></span>             | <span data-ttu-id="e6ede-360">0,00</span><span class="sxs-lookup"><span data-stu-id="e6ede-360">0.00</span></span>         | <span data-ttu-id="e6ede-361">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="e6ede-361">1/1/2017</span></span>   | <span data-ttu-id="e6ede-362">Hiçbir Zaman</span><span class="sxs-lookup"><span data-stu-id="e6ede-362">Never</span></span>    |
 
-\* Değişken maliyet düğümü gerekli değildir. Maliyet, bir sabit maliyet olarak sınıflandırılmamışsa, bir değişken maliyet olmalıdır.
+<span data-ttu-id="e6ede-363">\* Değişken maliyet düğümü gerekli değildir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-363">\* The variable cost node isn't required.</span></span> <span data-ttu-id="e6ede-364">Maliyet, bir sabit maliyet olarak sınıflandırılmamışsa, bir değişken maliyet olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="e6ede-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
 
-\*\* Maliyet öğe üyesi 10001 ve Finans hiyerarşisi düzeyi altında toplanan tüm maliyet üyelerinin (CC002, CC003, CC007)kombinasyonu için ayrıntılı bir kural oluşturuldu.
+<span data-ttu-id="e6ede-365">\*\* Maliyet öğe üyesi 10001 ve Finans hiyerarşisi düzeyi altında toplanan tüm maliyet üyelerinin (CC002, CC003, CC007)kombinasyonu için ayrıntılı bir kural oluşturuldu.</span><span class="sxs-lookup"><span data-stu-id="e6ede-365">\*\* A detailed rule is created for the combination of cost element member 10001 and all cost object members that are aggregated under the Finance hierarchy level (CC002, CC003, CC007).</span></span>
 
-Önceki kurallar, boyut hiyerarşilerinin sağladığı esnekliği gösterir. Yüksek seviye kurallar tanımlayarak bakımı en aza indirmeye yardımcı olabilirsiniz. Daha sonra belirli iş amaçlarına uyacak şekilde ayrıntılı kurallar tanımlayabilirsiniz.
+<span data-ttu-id="e6ede-366">Önceki kurallar, boyut hiyerarşilerinin sağladığı esnekliği gösterir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-366">The preceding rules show the flexibility that dimension hierarchies provide.</span></span> <span data-ttu-id="e6ede-367">Yüksek seviye kurallar tanımlayarak bakımı en aza indirmeye yardımcı olabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-367">By defining high-level rules, you can help minimize maintenance.</span></span> <span data-ttu-id="e6ede-368">Daha sonra belirli iş amaçlarına uyacak şekilde ayrıntılı kurallar tanımlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-368">You can then define detailed rules to fit into a specific business objective.</span></span>
 
-Kurallar içinde kullanılan boyut hiyerarşileri güncelleştirilirse, sistem otomatik olarak güncelleştirmeleri öne getirir.
+<span data-ttu-id="e6ede-369">Kurallar içinde kullanılan boyut hiyerarşileri güncelleştirilirse, sistem otomatik olarak güncelleştirmeleri öne getirir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-369">If the dimension hierarchies that are used in rules are updated, the system automatically brings the updates forward.</span></span>
 
-Kurallar içerisindeki bir ayrıntı düzeyi daha fazla gerekmiyorsa, kural sonra erdirilebilir.
+<span data-ttu-id="e6ede-370">Kurallar içerisindeki bir ayrıntı düzeyi daha fazla gerekmiyorsa, kural sonra erdirilebilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-370">If a level of granularity in the rules is no longer required, the rule can be expired.</span></span>
 
-Örneğin, Finans maliyet nesne boyut hiyerarşi düğümü için belirli bir maliyet davranış kuralı daha fazla gerekli değildir. Bu durumda kuralı sonlandırmak için **Kuralı sonlandır** üzerine tıklayın.
+<span data-ttu-id="e6ede-371">Örneğin, Finans maliyet nesne boyut hiyerarşi düğümü için belirli bir maliyet davranış kuralı daha fazla gerekli değildir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-371">For example, a specific cost behavior rule for the Finance cost object dimension hierarchy node is no longer required.</span></span> <span data-ttu-id="e6ede-372">Bu durumda kuralı sonlandırmak için **Kuralı sonlandır** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e6ede-372">In this case, click **Expire rule** to expire the rule.</span></span>
 
-| Maliyet öğesi boyut hiyerarşisi düğümü | Maliyet nesnesi boyut hiyerarşisi düğümü | Sabit yüzde | Sabit tutar | Geçerlilik başlangıcı | Geçerlilik bitişi  |
+| <span data-ttu-id="e6ede-373">Maliyet öğesi boyut hiyerarşisi düğümü</span><span class="sxs-lookup"><span data-stu-id="e6ede-373">Cost element dimension hierarchy node</span></span> | <span data-ttu-id="e6ede-374">Maliyet nesnesi boyut hiyerarşisi düğümü</span><span class="sxs-lookup"><span data-stu-id="e6ede-374">Cost object dimension hierarchy node</span></span> | <span data-ttu-id="e6ede-375">Sabit yüzde</span><span class="sxs-lookup"><span data-stu-id="e6ede-375">Fixed percentage</span></span> | <span data-ttu-id="e6ede-376">Sabit tutar</span><span class="sxs-lookup"><span data-stu-id="e6ede-376">Fixed amount</span></span> | <span data-ttu-id="e6ede-377">Geçerlilik başlangıcı</span><span class="sxs-lookup"><span data-stu-id="e6ede-377">Valid from</span></span> | <span data-ttu-id="e6ede-378">Geçerlilik bitişi</span><span class="sxs-lookup"><span data-stu-id="e6ede-378">Valid to</span></span>  |
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|-----------|
-| Sabit maliyet                            | Organizasyon                         | 100,00           | 0.00         | 1/1/2017   | Hiçbir Zaman     |
-| 10001                                 | Organizasyon                         | 0.00             | 150,00       | 1/1/2017   | Hiçbir Zaman     |
-| 10001                                 | Finans                              |                  | 50,00        | 1/1/2017   | 20/1/2017 |
-| Maliyet davranışı veya Değişken maliyet        | Organizasyon                         | 0.00             | 0.00         | 1/1/2017   | Hiçbir Zaman     |
+| <span data-ttu-id="e6ede-379">Sabit maliyet</span><span class="sxs-lookup"><span data-stu-id="e6ede-379">Fixed cost</span></span>                            | <span data-ttu-id="e6ede-380">Organizasyon</span><span class="sxs-lookup"><span data-stu-id="e6ede-380">Organization</span></span>                         | <span data-ttu-id="e6ede-381">100,00</span><span class="sxs-lookup"><span data-stu-id="e6ede-381">100,00</span></span>           | <span data-ttu-id="e6ede-382">0.00</span><span class="sxs-lookup"><span data-stu-id="e6ede-382">0,00</span></span>         | <span data-ttu-id="e6ede-383">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="e6ede-383">1/1/2017</span></span>   | <span data-ttu-id="e6ede-384">Hiçbir Zaman</span><span class="sxs-lookup"><span data-stu-id="e6ede-384">Never</span></span>     |
+| <span data-ttu-id="e6ede-385">10001</span><span class="sxs-lookup"><span data-stu-id="e6ede-385">10001</span></span>                                 | <span data-ttu-id="e6ede-386">Organizasyon</span><span class="sxs-lookup"><span data-stu-id="e6ede-386">Organization</span></span>                         | <span data-ttu-id="e6ede-387">0.00</span><span class="sxs-lookup"><span data-stu-id="e6ede-387">0,00</span></span>             | <span data-ttu-id="e6ede-388">150,00</span><span class="sxs-lookup"><span data-stu-id="e6ede-388">150,00</span></span>       | <span data-ttu-id="e6ede-389">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="e6ede-389">1/1/2017</span></span>   | <span data-ttu-id="e6ede-390">Hiçbir Zaman</span><span class="sxs-lookup"><span data-stu-id="e6ede-390">Never</span></span>     |
+| <span data-ttu-id="e6ede-391">10001</span><span class="sxs-lookup"><span data-stu-id="e6ede-391">10001</span></span>                                 | <span data-ttu-id="e6ede-392">Finans</span><span class="sxs-lookup"><span data-stu-id="e6ede-392">Finance</span></span>                              |                  | <span data-ttu-id="e6ede-393">50,00</span><span class="sxs-lookup"><span data-stu-id="e6ede-393">50,00</span></span>        | <span data-ttu-id="e6ede-394">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="e6ede-394">1/1/2017</span></span>   | <span data-ttu-id="e6ede-395">20/1/2017</span><span class="sxs-lookup"><span data-stu-id="e6ede-395">20/1/2017</span></span> |
+| <span data-ttu-id="e6ede-396">Maliyet davranışı veya Değişken maliyet</span><span class="sxs-lookup"><span data-stu-id="e6ede-396">Cost behavior or Variable cost</span></span>        | <span data-ttu-id="e6ede-397">Organizasyon</span><span class="sxs-lookup"><span data-stu-id="e6ede-397">Organization</span></span>                         | <span data-ttu-id="e6ede-398">0.00</span><span class="sxs-lookup"><span data-stu-id="e6ede-398">0,00</span></span>             | <span data-ttu-id="e6ede-399">0.00</span><span class="sxs-lookup"><span data-stu-id="e6ede-399">0,00</span></span>         | <span data-ttu-id="e6ede-400">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="e6ede-400">1/1/2017</span></span>   | <span data-ttu-id="e6ede-401">Hiçbir Zaman</span><span class="sxs-lookup"><span data-stu-id="e6ede-401">Never</span></span>     |
 
-20 Ocak 2017'den sonra çalıştırılacak herhangi bir genel gider hesaplaması bu kuralı dikkate almaz.
+<span data-ttu-id="e6ede-402">20 Ocak 2017'den sonra çalıştırılacak herhangi bir genel gider hesaplaması bu kuralı dikkate almaz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-402">Any overhead calculation that is run after January 20, 2017, no longer considers this rule.</span></span>
 
 > [!NOTE] 
-> **Geçerlilik başlangıcı** ve **Geçerlilik son tarihi** alanları saat ve tarihe dayalıdır. Kuralı sona erdirebilir ve aynı gün içerisinde yeni bir genel gider hesaplaması çalıştırabilirsiniz.
+> <span data-ttu-id="e6ede-403">**Geçerlilik başlangıcı** ve **Geçerlilik son tarihi** alanları saat ve tarihe dayalıdır.</span><span class="sxs-lookup"><span data-stu-id="e6ede-403">The **Valid from** and **Valid to** fields are date-effective and time-effective.</span></span> <span data-ttu-id="e6ede-404">Kuralı sona erdirebilir ve aynı gün içerisinde yeni bir genel gider hesaplaması çalıştırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-404">You can expire the rule and run a new overhead calculation on the same day.</span></span>
 
-## <a name="define-dimension-hierarchies-for-security-setup"></a>Güvelik kurulumu için boyut hiyerarşileri tanımlayın
+## <a name="define-dimension-hierarchies-for-security-setup"></a><span data-ttu-id="e6ede-405">Güvelik kurulumu için boyut hiyerarşileri tanımlayın</span><span class="sxs-lookup"><span data-stu-id="e6ede-405">Define dimension hierarchies for security setup</span></span>
 
-Maliyet muhasebesi verisi, bir raporlama biriminden sorumlu tüm yöneticilere kullanılabilir yapılmalıdır. Bir raporlama birimi, maliyet muhasebesi terminolojisinde bir maliyet nesnesi veya maliyet nesnelerinin bir kümesi olarak temsil edilir.
+<span data-ttu-id="e6ede-406">Maliyet muhasebesi verisi, bir raporlama biriminden sorumlu tüm yöneticilere kullanılabilir yapılmalıdır.</span><span class="sxs-lookup"><span data-stu-id="e6ede-406">Cost accounting data should be made available to all managers who are responsible for a reporting unit.</span></span> <span data-ttu-id="e6ede-407">Bir raporlama birimi, maliyet muhasebesi terminolojisinde bir maliyet nesnesi veya maliyet nesnelerinin bir kümesi olarak temsil edilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-407">In Cost accounting terminology, a reporting unit is represented as a cost object or a set of cost objects.</span></span>
 
-Potansiyel olarak tüm yöneticileri, gelirler ve marjlar gibi yüksek hassasiyete sahip işletme verilerine erişebileceklerdir. Bu nedenle, güvenlik kurulumu yapmanız, yöneticilerin yalnızca kendilerini ilgilendiren verileri görmeleri için önemlidir. Veri güvenliğini denetlemeye yardımcı olmak için boyut hiyerarşilerini tanımlarsınız.
+<span data-ttu-id="e6ede-408">Potansiyel olarak tüm yöneticileri, gelirler ve marjlar gibi yüksek hassasiyete sahip işletme verilerine erişebileceklerdir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-408">Potentially, all managers will be able to access highly sensitive business data, such revenues and margins.</span></span> <span data-ttu-id="e6ede-409">Bu nedenle, güvenlik kurulumu yapmanız, yöneticilerin yalnızca kendilerini ilgilendiren verileri görmeleri için önemlidir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-409">Therefore, it's important that you set up security, so that managers see only the data that is relevant to them.</span></span> <span data-ttu-id="e6ede-410">Veri güvenliğini denetlemeye yardımcı olmak için boyut hiyerarşilerini tanımlarsınız.</span><span class="sxs-lookup"><span data-stu-id="e6ede-410">To help control data security, you define dimension hierarchies.</span></span>
 
-- Boyut hiyerarşilerinin kullanımı, boyut hiyerarşisi referansında seçilen bir boyut değeri yalnızca bir maliyet nesne boyutu olduğunda uygulanır.
-- Erişim listesi hiyerarşisinde yalnızca bir boyut hiyerarşisi, maliyet nesne boyutu başına etkinleştirilebilir.
+- <span data-ttu-id="e6ede-411">Boyut hiyerarşilerinin kullanımı, boyut hiyerarşisi referansında seçilen bir boyut değeri yalnızca bir maliyet nesne boyutu olduğunda uygulanır.</span><span class="sxs-lookup"><span data-stu-id="e6ede-411">The use of dimension hierarchies applies only when the dimension value that is selected in the dimension hierarchy reference is a cost object dimension.</span></span>
+- <span data-ttu-id="e6ede-412">Erişim listesi hiyerarşisinde yalnızca bir boyut hiyerarşisi, maliyet nesne boyutu başına etkinleştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-412">Only one dimension hierarchy can be enabled per cost object dimension in the access list hierarchy.</span></span>
 
-**Boyut hiyerarşisi ayrıntıları**
+<span data-ttu-id="e6ede-413">**Boyut hiyerarşisi ayrıntıları**</span><span class="sxs-lookup"><span data-stu-id="e6ede-413">**Dimension hierarchy details**</span></span>
 
-| Boyut hiyerarşisi adı | Boyut    | Boyut hiyerarşisi türü adı      | Erişim listesi hiyerarşisi |
+| <span data-ttu-id="e6ede-414">Boyut hiyerarşisi adı</span><span class="sxs-lookup"><span data-stu-id="e6ede-414">Dimension hierarchy name</span></span> | <span data-ttu-id="e6ede-415">Boyut</span><span class="sxs-lookup"><span data-stu-id="e6ede-415">Dimension</span></span>    | <span data-ttu-id="e6ede-416">Boyut hiyerarşisi türü adı</span><span class="sxs-lookup"><span data-stu-id="e6ede-416">Dimension hierarchy type name</span></span>      | <span data-ttu-id="e6ede-417">Erişim listesi hiyerarşisi</span><span class="sxs-lookup"><span data-stu-id="e6ede-417">Access list hierarchy</span></span> |
 |--------------------------|--------------|------------------------------------|-----------------------|
-| Organizasyon             | Maliyet merkezleri | Boyut sınıflandırması hiyerarşisi | **Evet**               |
+| <span data-ttu-id="e6ede-418">Organizasyon</span><span class="sxs-lookup"><span data-stu-id="e6ede-418">Organization</span></span>             | <span data-ttu-id="e6ede-419">Maliyet merkezleri</span><span class="sxs-lookup"><span data-stu-id="e6ede-419">Cost centers</span></span> | <span data-ttu-id="e6ede-420">Boyut sınıflandırması hiyerarşisi</span><span class="sxs-lookup"><span data-stu-id="e6ede-420">Dimension classification hierarchy</span></span> | <span data-ttu-id="e6ede-421">**Evet**</span><span class="sxs-lookup"><span data-stu-id="e6ede-421">**Yes**</span></span>               |
 
-Yeni bir **Kullanıcılar** hızlı sekmesi hiyerarşi tasarımcısında kullanılabilir. Burada bir veya birden fazla kullanıcı kimliğini, hiyerarşi içerisindeki her bir düğümde ekleyebilirsiniz.
+<span data-ttu-id="e6ede-422">Yeni bir **Kullanıcılar** hızlı sekmesi hiyerarşi tasarımcısında kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-422">A new **Users** FastTab is available in the hierarchy designer.</span></span> <span data-ttu-id="e6ede-423">Burada bir veya birden fazla kullanıcı kimliğini, hiyerarşi içerisindeki her bir düğümde ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-423">Here, you can insert one or more user IDs at each node in the hierarchy.</span></span>
 
-|                 | Kullanıcılar            | Boyut üyesi aralıkları   |                         |
+|                 | <span data-ttu-id="e6ede-424">Kullanıcılar</span><span class="sxs-lookup"><span data-stu-id="e6ede-424">Users</span></span>            | <span data-ttu-id="e6ede-425">Boyut üyesi aralıkları</span><span class="sxs-lookup"><span data-stu-id="e6ede-425">Dimension member ranges</span></span>   |                         |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Düğümler**       | **Kullanıcı Kimliği**      | **Kaynak boyut üyesi** | **Hedef boyut üyesi** |
-| Organizasyon    | Benjamin, Claire |                           |                         |
-| &nbsp;&nbsp;Yönetici         | Nisan            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Finans   | Alicia           | CC002                     | CC003                   |
-|                 |                  | CC007                     | CC007                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;İK        | Arnie            | CC001                     | CC001                   |
-| &nbsp;&nbsp;Üretim    | David            |                           |                         |
-| &nbsp;&nbsp;&nbsp;&nbsp;Paketleme | Ellen            | CC005                     | CC005                   |
-| &nbsp;&nbsp;&nbsp;&nbsp;Montaj  | Chris            | CC006                     | CC006                   |
+| <span data-ttu-id="e6ede-426">**Düğümler**</span><span class="sxs-lookup"><span data-stu-id="e6ede-426">**Nodes**</span></span>       | <span data-ttu-id="e6ede-427">**Kullanıcı Kimliği**</span><span class="sxs-lookup"><span data-stu-id="e6ede-427">**User ID**</span></span>      | <span data-ttu-id="e6ede-428">**Kaynak boyut üyesi**</span><span class="sxs-lookup"><span data-stu-id="e6ede-428">**From dimension member**</span></span> | <span data-ttu-id="e6ede-429">**Hedef boyut üyesi**</span><span class="sxs-lookup"><span data-stu-id="e6ede-429">**To dimension member**</span></span> |
+| <span data-ttu-id="e6ede-430">Organizasyon</span><span class="sxs-lookup"><span data-stu-id="e6ede-430">Organization</span></span>    | <span data-ttu-id="e6ede-431">Benjamin, Claire</span><span class="sxs-lookup"><span data-stu-id="e6ede-431">Benjamin, Claire</span></span> |                           |                         |
+| <span data-ttu-id="e6ede-432">&nbsp;&nbsp;Yönetici</span><span class="sxs-lookup"><span data-stu-id="e6ede-432">&nbsp;&nbsp;Admin</span></span>         | <span data-ttu-id="e6ede-433">Nisan</span><span class="sxs-lookup"><span data-stu-id="e6ede-433">April</span></span>            |                           |                         |
+| <span data-ttu-id="e6ede-434">&nbsp;&nbsp;&nbsp;&nbsp;Finans</span><span class="sxs-lookup"><span data-stu-id="e6ede-434">&nbsp;&nbsp;&nbsp;&nbsp;Finance</span></span>   | <span data-ttu-id="e6ede-435">Alicia</span><span class="sxs-lookup"><span data-stu-id="e6ede-435">Alicia</span></span>           | <span data-ttu-id="e6ede-436">CC002</span><span class="sxs-lookup"><span data-stu-id="e6ede-436">CC002</span></span>                     | <span data-ttu-id="e6ede-437">CC003</span><span class="sxs-lookup"><span data-stu-id="e6ede-437">CC003</span></span>                   |
+|                 |                  | <span data-ttu-id="e6ede-438">CC007</span><span class="sxs-lookup"><span data-stu-id="e6ede-438">CC007</span></span>                     | <span data-ttu-id="e6ede-439">CC007</span><span class="sxs-lookup"><span data-stu-id="e6ede-439">CC007</span></span>                   |
+| <span data-ttu-id="e6ede-440">&nbsp;&nbsp;&nbsp;&nbsp;İK</span><span class="sxs-lookup"><span data-stu-id="e6ede-440">&nbsp;&nbsp;&nbsp;&nbsp;HR</span></span>        | <span data-ttu-id="e6ede-441">Arnie</span><span class="sxs-lookup"><span data-stu-id="e6ede-441">Arnie</span></span>            | <span data-ttu-id="e6ede-442">CC001</span><span class="sxs-lookup"><span data-stu-id="e6ede-442">CC001</span></span>                     | <span data-ttu-id="e6ede-443">CC001</span><span class="sxs-lookup"><span data-stu-id="e6ede-443">CC001</span></span>                   |
+| <span data-ttu-id="e6ede-444">&nbsp;&nbsp;Üretim</span><span class="sxs-lookup"><span data-stu-id="e6ede-444">&nbsp;&nbsp;Production</span></span>    | <span data-ttu-id="e6ede-445">David</span><span class="sxs-lookup"><span data-stu-id="e6ede-445">David</span></span>            |                           |                         |
+| <span data-ttu-id="e6ede-446">&nbsp;&nbsp;&nbsp;&nbsp;Paketleme</span><span class="sxs-lookup"><span data-stu-id="e6ede-446">&nbsp;&nbsp;&nbsp;&nbsp;Packaging</span></span> | <span data-ttu-id="e6ede-447">Ellen</span><span class="sxs-lookup"><span data-stu-id="e6ede-447">Ellen</span></span>            | <span data-ttu-id="e6ede-448">CC005</span><span class="sxs-lookup"><span data-stu-id="e6ede-448">CC005</span></span>                     | <span data-ttu-id="e6ede-449">CC005</span><span class="sxs-lookup"><span data-stu-id="e6ede-449">CC005</span></span>                   |
+| <span data-ttu-id="e6ede-450">&nbsp;&nbsp;&nbsp;&nbsp;Montaj</span><span class="sxs-lookup"><span data-stu-id="e6ede-450">&nbsp;&nbsp;&nbsp;&nbsp;Assembly</span></span>  | <span data-ttu-id="e6ede-451">Chris</span><span class="sxs-lookup"><span data-stu-id="e6ede-451">Chris</span></span>            | <span data-ttu-id="e6ede-452">CC006</span><span class="sxs-lookup"><span data-stu-id="e6ede-452">CC006</span></span>                     | <span data-ttu-id="e6ede-453">CC006</span><span class="sxs-lookup"><span data-stu-id="e6ede-453">CC006</span></span>                   |
 
 > [!NOTE] 
-> Maliyet muhasebesindeki tüm girişleri görebilmeleri için maliyet muhasebecileri, hiyerarşinin en üst düzeyine atanmalıdır.
+> <span data-ttu-id="e6ede-454">Maliyet muhasebesindeki tüm girişleri görebilmeleri için maliyet muhasebecileri, hiyerarşinin en üst düzeyine atanmalıdır.</span><span class="sxs-lookup"><span data-stu-id="e6ede-454">Cost accountants should be assigned to the top level of the hierarchy, so that they can see all entries in Cost accounting.</span></span>
 
-Erişim listesi hiyerarşisi ve bunun güvenlik ayarlarını etkinleştirmek için **Maliyet muhasebesi** > **Kurulum** > **Parametreler** > **Genel**'e gidin. **Maliyet nesnesi boyut üyeleri için görüntüleme erişimini etkinleştir** parametresini seçin.
+<span data-ttu-id="e6ede-455">Erişim listesi hiyerarşisi ve bunun güvenlik ayarlarını etkinleştirmek için **Maliyet muhasebesi** > **Kurulum** > **Parametreler** > **Genel**'e gidin.</span><span class="sxs-lookup"><span data-stu-id="e6ede-455">To enable the access list hierarchy and its security settings, go to **Cost accounting** > **Setup** > **Parameters** > **General**.</span></span> <span data-ttu-id="e6ede-456">**Maliyet nesnesi boyut üyeleri için görüntüleme erişimini etkinleştir** parametresini seçin.</span><span class="sxs-lookup"><span data-stu-id="e6ede-456">Select the **Enable view access for cost object dimension members** parameter.</span></span>
 
-Erişim listesi hiyerarşisi için ayarlar, aşağıdaki alanlarda gösterilen veriyi denetlemek için kullanılır:
+<span data-ttu-id="e6ede-457">Erişim listesi hiyerarşisi için ayarlar, aşağıdaki alanlarda gösterilen veriyi denetlemek için kullanılır:</span><span class="sxs-lookup"><span data-stu-id="e6ede-457">The settings for the access list hierarchy are used to control the data that is shown in the following areas:</span></span>
 
-- **Maliyet kontrolü** çalışma alanı (İstemci):
+- <span data-ttu-id="e6ede-458">**Maliyet kontrolü** çalışma alanı (İstemci):</span><span class="sxs-lookup"><span data-stu-id="e6ede-458">**Cost control** workspace (Client):</span></span>
 
-    - Ayrıntıya in senaryolarında kullanılan formlardaki veriler
+    - <span data-ttu-id="e6ede-459">Ayrıntıya in senaryolarında kullanılan formlardaki veriler</span><span class="sxs-lookup"><span data-stu-id="e6ede-459">Data in forms that are used to drill through scenarios</span></span>
 
-- **Maliyet kontrolü** çalışma alanı (Mobil uygulama):
+- <span data-ttu-id="e6ede-460">**Maliyet kontrolü** çalışma alanı (Mobil uygulama):</span><span class="sxs-lookup"><span data-stu-id="e6ede-460">**Cost control** workspace (Mobile application):</span></span>
 
-    - Kartlardaki bakiyeler
+    - <span data-ttu-id="e6ede-461">Kartlardaki bakiyeler</span><span class="sxs-lookup"><span data-stu-id="e6ede-461">Balances in cards</span></span>
 
-- Power BI:
+- <span data-ttu-id="e6ede-462">Power BI:</span><span class="sxs-lookup"><span data-stu-id="e6ede-462">Power BI:</span></span>
 
-    - Veri, Power BI görselleştirmeleri içinde gösterilir
-    - Microsoft Dynamics 365 for Finance and Operations, Enterprise edition istemcisinde gömülü veri Power BI görselleştirmeleri
+    - <span data-ttu-id="e6ede-463">Veri, Power BI görselleştirmeleri içinde gösterilir</span><span class="sxs-lookup"><span data-stu-id="e6ede-463">Data that is shown in Power BI visualizations</span></span>
+    - <span data-ttu-id="e6ede-464">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition istemcisinde gömülü veri Power BI görselleştirmeleri</span><span class="sxs-lookup"><span data-stu-id="e6ede-464">Data Power BI visualizations that are embedded in the Microsoft Dynamics 365 for Finance and Operations, Enterprise edition client</span></span>
 
 > [!NOTE] 
-> - Erişim listesi hiyerarşisi Power BI içerisindeki veriyi etkileyebilmeden önce, Power BI içindeki erişim listesi hiyerarşisi ve satır düzeyi güvenliği eşleştirilmelidir. Daha fazla bilgi için bkz [Maliyet muhasebesi İçerik Paketi için güvenlik kurma](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).
-> - Erişim listesi hiyerarşisi, verinin Excel'e aktarılmasını güvenli hale getirmeye yardımcı olmaz. Bu nedenle, bu raporlama aracı yalnızca veriyi görüntülemeye tam erişime sahip maliyet muhasebecileri ve yöneticiler tarafından kullanılmalıdır.
+> - <span data-ttu-id="e6ede-465">Erişim listesi hiyerarşisi Power BI içerisindeki veriyi etkileyebilmeden önce, Power BI içindeki erişim listesi hiyerarşisi ve satır düzeyi güvenliği eşleştirilmelidir.</span><span class="sxs-lookup"><span data-stu-id="e6ede-465">Before the access list hierarchy can affect data in Power BI, access list hierarchy and row-level security in Power BI must be paired.</span></span> <span data-ttu-id="e6ede-466">Daha fazla bilgi için bkz [Maliyet muhasebesi İçerik Paketi için güvenlik kurma](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span><span class="sxs-lookup"><span data-stu-id="e6ede-466">For more information, see [Set up security for Cost accounting content pack](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).</span></span>
+> - <span data-ttu-id="e6ede-467">Erişim listesi hiyerarşisi, verinin Excel'e aktarılmasını güvenli hale getirmeye yardımcı olmaz.</span><span class="sxs-lookup"><span data-stu-id="e6ede-467">The access list hierarchy doesn't help secure the export of data to Excel.</span></span> <span data-ttu-id="e6ede-468">Bu nedenle, bu raporlama aracı yalnızca veriyi görüntülemeye tam erişime sahip maliyet muhasebecileri ve yöneticiler tarafından kullanılmalıdır.</span><span class="sxs-lookup"><span data-stu-id="e6ede-468">Therefore, that reporting tool should be used only by cost accountants and managers who must have full access to view the data.</span></span>
 

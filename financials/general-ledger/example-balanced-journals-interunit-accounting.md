@@ -19,40 +19,40 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0909b64a77024d551af0dad2de985887cf6ff06d
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: f45d180dc8dcafb0579e76b890dd5d516df5b8c0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="balanced-journals-for-interunit-accounting"></a>Birimlerarası muhasebe için dengelenmiş günlükler
+# <a name="balanced-journals-for-interunit-accounting"></a><span data-ttu-id="e310e-103">Birimlerarası muhasebe için dengelenmiş günlükler</span><span class="sxs-lookup"><span data-stu-id="e310e-103">Balanced journals for interunit accounting</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede Genel muhasebe sayfasında bir karşı mali boyut seçildiğinde bir defterin nasıl otomatik olarak dengeleneceği açıklanmıştır. 
+<span data-ttu-id="e310e-104">Bu makalede Genel muhasebe sayfasında bir karşı mali boyut seçildiğinde bir defterin nasıl otomatik olarak dengeleneceği açıklanmıştır.</span><span class="sxs-lookup"><span data-stu-id="e310e-104">This article shows how a journal is automatically balanced when a balancing financial dimension is selected on the Ledger page.</span></span> 
 
-Muhasebe girişleri mali boyut değerleri düzeyinde dengelenmiyorsa, günlüğü dengelemek için ek hesap girişleri oluşturulur. Bu hesap girişleri, ana hesabı belirlemek için **Otomatik hareketlere yönelik hesaplar** sayfasındaki **Birimlerarası - borç** ve **Birimlerarası - kredi** deftere nakil türlerini kullanır. Örneğin, Dal, genel muhasebe hesabındaki ikinci segmenttir ve dengeleme mali boyutu olarak seçilir ve aşağıdaki muhasebe girişleri oluşturulmak üzeredir.
+<span data-ttu-id="e310e-105">Muhasebe girişleri mali boyut değerleri düzeyinde dengelenmiyorsa, günlüğü dengelemek için ek hesap girişleri oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="e310e-105">If account entries don't balance at the level of the financial dimension values, additional account entries are created automatically to balance the journal.</span></span> <span data-ttu-id="e310e-106">Bu hesap girişleri, ana hesabı belirlemek için **Otomatik hareketlere yönelik hesaplar** sayfasındaki **Birimlerarası - borç** ve **Birimlerarası - kredi** deftere nakil türlerini kullanır.</span><span class="sxs-lookup"><span data-stu-id="e310e-106">These account entries use the **Interunit - debit** and **Interunit - credit** posting types on the **Accounts for automatic transactions** page to determine the main account.</span></span> <span data-ttu-id="e310e-107">Örneğin, Dal, genel muhasebe hesabındaki ikinci segmenttir ve dengeleme mali boyutu olarak seçilir ve aşağıdaki muhasebe girişleri oluşturulmak üzeredir.</span><span class="sxs-lookup"><span data-stu-id="e310e-107">For example, Branch, which is the second segment of the ledger account, is selected as the balancing financial dimension, and the following accounting entries are about to be created.</span></span>
 
 |                      |           |
 |----------------------|-----------|
-| 6100 – MSP – OU\_256 | 100,00 DR |
-| 6100 – NY – OU\_249  | 100,00 DR |
-| 2100 – MSP – OU\_256 | 200,00 CR |
+| <span data-ttu-id="e310e-108">6100 – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="e310e-108">6100 – MSP – OU\_256</span></span> | <span data-ttu-id="e310e-109">100,00 DR</span><span class="sxs-lookup"><span data-stu-id="e310e-109">100.00 DR</span></span> |
+| <span data-ttu-id="e310e-110">6100 – NY – OU\_249</span><span class="sxs-lookup"><span data-stu-id="e310e-110">6100 – NY – OU\_249</span></span>  | <span data-ttu-id="e310e-111">100,00 DR</span><span class="sxs-lookup"><span data-stu-id="e310e-111">100.00 DR</span></span> |
+| <span data-ttu-id="e310e-112">2100 – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="e310e-112">2100 – MSP – OU\_256</span></span> | <span data-ttu-id="e310e-113">200,00 CR</span><span class="sxs-lookup"><span data-stu-id="e310e-113">200.00 CR</span></span> |
 
-Bu durumda, aşağıdaki bakiyeler belirlenir:
+<span data-ttu-id="e310e-114">Bu durumda, aşağıdaki bakiyeler belirlenir:</span><span class="sxs-lookup"><span data-stu-id="e310e-114">In this case, the following balances are determined:</span></span>
 
--   Dal MSP için = 100,00 CR
--   Dal NY için = 100,00 DR
+-   <span data-ttu-id="e310e-115">Dal MSP için = 100,00 CR</span><span class="sxs-lookup"><span data-stu-id="e310e-115">For Branch MSP = 100.00 CR</span></span>
+-   <span data-ttu-id="e310e-116">Dal NY için = 100,00 DR</span><span class="sxs-lookup"><span data-stu-id="e310e-116">For Branch NY = 100.00 DR</span></span>
 
-Bu nedenle, günlüğü mali boyut değerlerinin düzeyinde dengelemek için aşağıdaki muhasebe girişleri otomatik olarak oluşturulur.
+<span data-ttu-id="e310e-117">Bu nedenle, günlüğü mali boyut değerlerinin düzeyinde dengelemek için aşağıdaki muhasebe girişleri otomatik olarak oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="e310e-117">Therefore, the following accounting entries are created automatically to balance the  journal at the level of the financial dimension values.</span></span>
 
 |                                   |           |
 |-----------------------------------|-----------|
-| (Birimlerarası Borç) – MSP – OU\_256 | 100,00 DR |
-| (Birimlerarası Alacak) – NY – OU\_249 | 100,00 CR |
+| <span data-ttu-id="e310e-118">(Birimlerarası Borç) – MSP – OU\_256</span><span class="sxs-lookup"><span data-stu-id="e310e-118">(Interunit Debit) – MSP – OU\_256</span></span> | <span data-ttu-id="e310e-119">100,00 DR</span><span class="sxs-lookup"><span data-stu-id="e310e-119">100.00 DR</span></span> |
+| <span data-ttu-id="e310e-120">(Birimlerarası Alacak) – NY – OU\_249</span><span class="sxs-lookup"><span data-stu-id="e310e-120">(Interunit Credit) – NY – OU\_249</span></span> | <span data-ttu-id="e310e-121">100,00 CR</span><span class="sxs-lookup"><span data-stu-id="e310e-121">100.00 CR</span></span> |
 
 
 

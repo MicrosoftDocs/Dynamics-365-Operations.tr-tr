@@ -17,180 +17,180 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 044da854273345877be92c9eab787f4edf0bba5b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1082c86361180db84bb2b5c0b8158816f76a219e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-locations-in-a-wms-enabled-warehouse"></a>WMS özellikli bir ambarda yerleşimleri yapılandırma
+# <a name="configure-locations-in-a-wms-enabled-warehouse"></a><span data-ttu-id="beaed-103">WMS özellikli bir ambarda yerleşimleri yapılandırma</span><span class="sxs-lookup"><span data-stu-id="beaed-103">Configure locations in a WMS-enabled warehouse</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu kılavuz, yeni bir WMS etkin ambarın (gelişmiş ambar yönetimi süreçleri kullanan bir ambarın) konum kurulumunun nasıl yapılandırılacağını gösterir. Bu işlem genellikle ambar yöneticisi tarafından yapılır. Bu kılavuzu, demo verileri şirketi USMF'yi veya kendi verilerinizi kullanarak yerine getirebilirsiniz. Bir önkoşul, yapılandırılmış en az bir tesis olmasıdır.
+<span data-ttu-id="beaed-104">Bu kılavuz, yeni bir WMS etkin ambarın (gelişmiş ambar yönetimi süreçleri kullanan bir ambarın) konum kurulumunun nasıl yapılandırılacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="beaed-104">This guide shows you how to configure the location setup for a new WMS-enabled warehouse (a warehouse that uses advanced warehouse management processes).</span></span> <span data-ttu-id="beaed-105">Bu işlem genellikle ambar yöneticisi tarafından yapılır.</span><span class="sxs-lookup"><span data-stu-id="beaed-105">The process is typically done by a warehouse manager.</span></span> <span data-ttu-id="beaed-106">Bu kılavuzu, demo verileri şirketi USMF'yi veya kendi verilerinizi kullanarak yerine getirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="beaed-106">You can run this guide in demo data company USMF or on your own data.</span></span> <span data-ttu-id="beaed-107">Bir önkoşul, yapılandırılmış en az bir tesis olmasıdır.</span><span class="sxs-lookup"><span data-stu-id="beaed-107">A precondition is that you have at least one site configured.</span></span>
 
 
-## <a name="create-a-new-warehouse"></a>Yeni bir ambar oluşturun
-1. Ambarlara git.
-2. Yeni'ye tıklayın.
-3. Ambar alanına bir değer yazın.
-4. İsim alanına bir değer yazın.
-5. Tesis alanına bir değer yazın.
-6. Ambar bölümünü genişletin veya daraltın.
-7. Ambar yönetimi süreçleri kullanımını Evet olarak ayarlayın.
-    * Bu ayar, ambar çalışma ve mobil aygıtları kullanarak gelişmiş ambar işlemleri çalıştırmanızı sağlar.  
-8. Sayfayı kapatın.
+## <a name="create-a-new-warehouse"></a><span data-ttu-id="beaed-108">Yeni bir ambar oluşturun</span><span class="sxs-lookup"><span data-stu-id="beaed-108">Create a new warehouse</span></span>
+1. <span data-ttu-id="beaed-109">Ambarlara git.</span><span class="sxs-lookup"><span data-stu-id="beaed-109">Go to Warehouses.</span></span>
+2. <span data-ttu-id="beaed-110">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-110">Click New.</span></span>
+3. <span data-ttu-id="beaed-111">Ambar alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-111">In the Warehouse field, type a value.</span></span>
+4. <span data-ttu-id="beaed-112">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-112">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="beaed-113">Tesis alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-113">In the Site field, type a value.</span></span>
+6. <span data-ttu-id="beaed-114">Ambar bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="beaed-114">Expand or collapse the Warehouse section.</span></span>
+7. <span data-ttu-id="beaed-115">Ambar yönetimi süreçleri kullanımını Evet olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-115">Set the Use warehouse management processes option to Yes.</span></span>
+    * <span data-ttu-id="beaed-116">Bu ayar, ambar çalışma ve mobil aygıtları kullanarak gelişmiş ambar işlemleri çalıştırmanızı sağlar.</span><span class="sxs-lookup"><span data-stu-id="beaed-116">This setting allows you to  run advanced warehousing processes using warehouse work and mobile devices.</span></span>  
+8. <span data-ttu-id="beaed-117">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="beaed-117">Close the page.</span></span>
 
-## <a name="define-a-location-format"></a>Konum biçimi tanımlayın.
-1. Konum biçimlerine git.
-    * Konum biçimleri, bir ambar içinde kullanılan farklı konum bölme pozisyonları için tutarlı ve benzersiz adlar oluşturmak için kullanılan isim sistemi biçimlerdir. Ayırıcıları, yerleşimin koridor numarası gibi bileşenlerini tanımlamayı kolaylaştırmak için bir konum biçimi parçası olarak kullanmak için yararlı olabilir. Bu örnekte, dört bileşenli bir isim oluşturacağız. Örneğin, bu koridor, dolap, raf ve bölme olabilir.  
-2. Yeni'ye tıklayın.
-3. Konum biçimi alanına bir değer yazın.
-4. İsim alanına bir değer yazın.
-5. Segment tanımı alanına bir değer yazın.
-    * Bu konum adının ilk bölmesinin neyi temsil ettiğini açıklar. Örneğin bu, koridor olabilir.  
-6. Uzunluk alanına bir sayı girin.
-    * Bu, bu yerleşim adı bölümünün kaç karakter olması gerektiğini belirler. Unutmayın, ayırıcılar da dahil olmak üzere, adın tüm bileşenlerinin toplam 10 karakterden uzun olamaz.  
-7. Ayırıcı alanına bir değer yazın.
-    * Bu, adın birinci ve ikinci bileşeni arasında hangi karakter veya simgenin kullanıldığını belirler.  
-8. Yeni'ye tıklayın.
-9. Segment tanımı alanına bir değer yazın.
-10. Uzunluk alanına bir sayı girin.
-11. Ayırıcı alanına bir değer yazın.
-12. Yeni'yi tıklatın.
-13. Segment tanımı alanına bir değer yazın.
-14. Uzunluk alanına bir sayı girin.
-15. Ayırıcı alanına bir değer yazın.
-16. Yeni'yi tıklatın.
-17. Segment tanımı alanına bir değer yazın.
-18. Uzunluk alanına bir sayı girin.
-19. Kaydet'e tıklayın.
-20. Sayfayı kapatın.
+## <a name="define-a-location-format"></a><span data-ttu-id="beaed-118">Konum biçimi tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-118">Define a location format</span></span>
+1. <span data-ttu-id="beaed-119">Konum biçimlerine git.</span><span class="sxs-lookup"><span data-stu-id="beaed-119">Go to Location formats.</span></span>
+    * <span data-ttu-id="beaed-120">Konum biçimleri, bir ambar içinde kullanılan farklı konum bölme pozisyonları için tutarlı ve benzersiz adlar oluşturmak için kullanılan isim sistemi biçimlerdir.</span><span class="sxs-lookup"><span data-stu-id="beaed-120">Location formats are a naming-system used to create unique and consistent names for the different location bin positions used within a warehouse.</span></span> <span data-ttu-id="beaed-121">Ayırıcıları, yerleşimin koridor numarası gibi bileşenlerini tanımlamayı kolaylaştırmak için bir konum biçimi parçası olarak kullanmak için yararlı olabilir.</span><span class="sxs-lookup"><span data-stu-id="beaed-121">It can be useful to use separators as part of the location format to make it easier to identify components of the location such as the aisle number.</span></span> <span data-ttu-id="beaed-122">Bu örnekte, dört bileşenli bir isim oluşturacağız.</span><span class="sxs-lookup"><span data-stu-id="beaed-122">In this example, we’ll create a name with four components.</span></span> <span data-ttu-id="beaed-123">Örneğin, bu koridor, dolap, raf ve bölme olabilir.</span><span class="sxs-lookup"><span data-stu-id="beaed-123">For example, these could be aisle, rack, shelf, and bin.</span></span>  
+2. <span data-ttu-id="beaed-124">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-124">Click New.</span></span>
+3. <span data-ttu-id="beaed-125">Konum biçimi alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-125">In the Location format field, type a value.</span></span>
+4. <span data-ttu-id="beaed-126">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-126">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="beaed-127">Segment tanımı alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-127">In the Segment description field, type a value.</span></span>
+    * <span data-ttu-id="beaed-128">Bu konum adının ilk bölmesinin neyi temsil ettiğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="beaed-128">This describes what the first component of the location name represents.</span></span> <span data-ttu-id="beaed-129">Örneğin bu, koridor olabilir.</span><span class="sxs-lookup"><span data-stu-id="beaed-129">For example, it could be Aisle.</span></span>  
+6. <span data-ttu-id="beaed-130">Uzunluk alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="beaed-130">In the Length field, enter a number.</span></span>
+    * <span data-ttu-id="beaed-131">Bu, bu yerleşim adı bölümünün kaç karakter olması gerektiğini belirler.</span><span class="sxs-lookup"><span data-stu-id="beaed-131">This determines how many characters this part of the location name must have.</span></span> <span data-ttu-id="beaed-132">Unutmayın, ayırıcılar da dahil olmak üzere, adın tüm bileşenlerinin toplam 10 karakterden uzun olamaz.</span><span class="sxs-lookup"><span data-stu-id="beaed-132">Note that the total of all components in the name, including the separators, cannot exceed 10 characters.</span></span>  
+7. <span data-ttu-id="beaed-133">Ayırıcı alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-133">In the Separator field, type a value.</span></span>
+    * <span data-ttu-id="beaed-134">Bu, adın birinci ve ikinci bileşeni arasında hangi karakter veya simgenin kullanıldığını belirler.</span><span class="sxs-lookup"><span data-stu-id="beaed-134">This determines which character or symbol is used between the first and second component of the name.</span></span>  
+8. <span data-ttu-id="beaed-135">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-135">Click New.</span></span>
+9. <span data-ttu-id="beaed-136">Segment tanımı alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-136">In the Segment description field, type a value.</span></span>
+10. <span data-ttu-id="beaed-137">Uzunluk alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="beaed-137">In the Length field, enter a number.</span></span>
+11. <span data-ttu-id="beaed-138">Ayırıcı alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-138">In the Separator field, type a value.</span></span>
+12. <span data-ttu-id="beaed-139">Yeni'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="beaed-139">Click New.</span></span>
+13. <span data-ttu-id="beaed-140">Segment tanımı alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-140">In the Segment description field, type a value.</span></span>
+14. <span data-ttu-id="beaed-141">Uzunluk alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="beaed-141">In the Length field, enter a number.</span></span>
+15. <span data-ttu-id="beaed-142">Ayırıcı alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-142">In the Separator field, type a value.</span></span>
+16. <span data-ttu-id="beaed-143">Yeni'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="beaed-143">Click New.</span></span>
+17. <span data-ttu-id="beaed-144">Segment tanımı alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-144">In the Segment description field, type a value.</span></span>
+18. <span data-ttu-id="beaed-145">Uzunluk alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="beaed-145">In the Length field, enter a number.</span></span>
+19. <span data-ttu-id="beaed-146">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-146">Click Save.</span></span>
+20. <span data-ttu-id="beaed-147">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="beaed-147">Close the page.</span></span>
 
-## <a name="define-location-types"></a>Konum türlerini tanımlayın
-1. Konum türlerine git.
-    * Yerleşim tipleri farklı ambar yönetimi işlemlerini denetlemek için filtreleme seçenekleri olarak kullanılabilir. En düşük gereksinim olarak giden ambar yönetimi işlemi tanımlamak için hazırlama ve son sevkiyat yerleşim tiplerini oluşturmanız gerekir.  
-2. Yeni'ye tıklayın.
-3. Konum türü alanına bir değer yazın.
-4. Açıklama alanına bir değer girin.
-5. Sayfayı kapatın.
+## <a name="define-location-types"></a><span data-ttu-id="beaed-148">Konum türlerini tanımlayın</span><span class="sxs-lookup"><span data-stu-id="beaed-148">Define location types</span></span>
+1. <span data-ttu-id="beaed-149">Konum türlerine git.</span><span class="sxs-lookup"><span data-stu-id="beaed-149">Go to Location types.</span></span>
+    * <span data-ttu-id="beaed-150">Yerleşim tipleri farklı ambar yönetimi işlemlerini denetlemek için filtreleme seçenekleri olarak kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="beaed-150">Location types can be used as filtering options to control the different warehouse management processes.</span></span> <span data-ttu-id="beaed-151">En düşük gereksinim olarak giden ambar yönetimi işlemi tanımlamak için hazırlama ve son sevkiyat yerleşim tiplerini oluşturmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="beaed-151">As a minimum, you need to create staging and final shipping location types in order to define the outbound warehouse management process.</span></span>  
+2. <span data-ttu-id="beaed-152">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-152">Click New.</span></span>
+3. <span data-ttu-id="beaed-153">Konum türü alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-153">In the Location type field, type a value.</span></span>
+4. <span data-ttu-id="beaed-154">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="beaed-154">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="beaed-155">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="beaed-155">Close the page.</span></span>
 
-## <a name="define-location-profile"></a>Konum profilleri tanımlayın
-1. Konum profillerine gidin.
-    * Konum profillerinin tanımı çok önemlidir. Gruplandırılmış konum kapasitelerinin yanı sıra, hangi stokun depolanacağı ve nasıl depolandığına dair ilgili ilkeler buradan kontrol edilebilir. Yerleşim profilleri farklı ambar yönetimi işlemlerini denetlemek için filtreleme seçenekleri olarak kullanılabilir. En düşük gereksinim olarak ambar yönetimi işlemlerini etkinleştirmek için bir kullanıcı konumu profili oluşturmanız gerekir.  
-2. Yeni'ye tıklayın.
-3. Konum profili numarası alanına bir değer yazın.
-4. İsim alanına bir değer yazın.
-5. Konum formatı alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-6. Listede, istenen kaydı bulun ve seçin.
-7. Listede, seçili satırdaki bağlantıya tıklayın.
-8. Konum türü alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-9. Listede, istenen kaydı bulun ve seçin.
-10. Listede, seçili satırdaki bağlantıya tıklayın.
-11. Karışık stok durumlarına izin ver onay kutusunu işaretleyin veya bu onay kutusunun işaretini kaldırın.
-    * Bu konum profiline göre gruplandırılacak konumlarda karışık stok durum değerlerine izin vermek istiyorsanız bu seçeneği etkinleştirin.  
-12. Toplu günler için atlatma kuralları onay kutusunu işaretleyin veya onay kutusundaki işareti kaldırın.
-    * Bu kurala uymayan stok toplu işlerinin karıştırılmasına izin vermek istiyorsanız, stok toplu sona erme tarihlerinin kaç gün farklılık gösterebileceğine dair kuralı geçersiz kılmak için bu seçeneği etkinleştirin.  
-13. Döngü sayımına izin ver onay kutusunu işaretleyin veya onay kutusundaki işareti kaldırın.
-    * Bu konum profiline göre gruplandırılacak tüm konumlarda döngü sayımı işlemesine izin vermek istiyorsanız bu seçeneği etkinleştirin.  
-14. Boyutlar bölümünü genişletin veya daraltın.
-    * Boyutlar sekmesi, konumlardan her birinin içindeki yük kapasitesini hassas şekilde hesaplamak için parametreler ve yöntemler tanımlamanıza olanak sağlar.  
-15. Sayfayı kapatın.
+## <a name="define-location-profile"></a><span data-ttu-id="beaed-156">Konum profilleri tanımlayın</span><span class="sxs-lookup"><span data-stu-id="beaed-156">Define location profile</span></span>
+1. <span data-ttu-id="beaed-157">Konum profillerine gidin.</span><span class="sxs-lookup"><span data-stu-id="beaed-157">Go to Location profiles.</span></span>
+    * <span data-ttu-id="beaed-158">Konum profillerinin tanımı çok önemlidir.</span><span class="sxs-lookup"><span data-stu-id="beaed-158">The definition of location profiles is very important.</span></span> <span data-ttu-id="beaed-159">Gruplandırılmış konum kapasitelerinin yanı sıra, hangi stokun depolanacağı ve nasıl depolandığına dair ilgili ilkeler buradan kontrol edilebilir.</span><span class="sxs-lookup"><span data-stu-id="beaed-159">Grouped locations capacity can be controlled here, as well as the policies related to what inventory gets stored, and how it is stored.</span></span> <span data-ttu-id="beaed-160">Yerleşim profilleri farklı ambar yönetimi işlemlerini denetlemek için filtreleme seçenekleri olarak kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="beaed-160">Location profiles can be used as filtering options to control the different warehouse management processes.</span></span> <span data-ttu-id="beaed-161">En düşük gereksinim olarak ambar yönetimi işlemlerini etkinleştirmek için bir kullanıcı konumu profili oluşturmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="beaed-161">As a minimum, you must create a user location profile in order to enable the warehouse management processes.</span></span>  
+2. <span data-ttu-id="beaed-162">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-162">Click New.</span></span>
+3. <span data-ttu-id="beaed-163">Konum profili numarası alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-163">In the Location profile ID field, type a value.</span></span>
+4. <span data-ttu-id="beaed-164">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-164">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="beaed-165">Konum formatı alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-165">In the Location format field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="beaed-166">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="beaed-166">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="beaed-167">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-167">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="beaed-168">Konum türü alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-168">In the Location type field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="beaed-169">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="beaed-169">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="beaed-170">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-170">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="beaed-171">Karışık stok durumlarına izin ver onay kutusunu işaretleyin veya bu onay kutusunun işaretini kaldırın.</span><span class="sxs-lookup"><span data-stu-id="beaed-171">Select or clear the Allow mixed  inventory statuses check box.</span></span>
+    * <span data-ttu-id="beaed-172">Bu konum profiline göre gruplandırılacak konumlarda karışık stok durum değerlerine izin vermek istiyorsanız bu seçeneği etkinleştirin.</span><span class="sxs-lookup"><span data-stu-id="beaed-172">Enable this option if you want to allow mixed inventory status values in the locations that are going to be grouped by this location profile.</span></span>  
+12. <span data-ttu-id="beaed-173">Toplu günler için atlatma kuralları onay kutusunu işaretleyin veya onay kutusundaki işareti kaldırın.</span><span class="sxs-lookup"><span data-stu-id="beaed-173">Select or clear the Override rules for batch days check box.</span></span>
+    * <span data-ttu-id="beaed-174">Bu kurala uymayan stok toplu işlerinin karıştırılmasına izin vermek istiyorsanız, stok toplu sona erme tarihlerinin kaç gün farklılık gösterebileceğine dair kuralı geçersiz kılmak için bu seçeneği etkinleştirin.</span><span class="sxs-lookup"><span data-stu-id="beaed-174">Enable this option to override the rule for how many days the inventory batch expiration dates can differ, to allow mixing of inventory batches that don’t obeying this rule.</span></span>  
+13. <span data-ttu-id="beaed-175">Döngü sayımına izin ver onay kutusunu işaretleyin veya onay kutusundaki işareti kaldırın.</span><span class="sxs-lookup"><span data-stu-id="beaed-175">Select or clear the Allow cycle counting check box.</span></span>
+    * <span data-ttu-id="beaed-176">Bu konum profiline göre gruplandırılacak tüm konumlarda döngü sayımı işlemesine izin vermek istiyorsanız bu seçeneği etkinleştirin.</span><span class="sxs-lookup"><span data-stu-id="beaed-176">Enable this option to allow cycle counting processing in all the locations that are going to be grouped by this location profile.</span></span>  
+14. <span data-ttu-id="beaed-177">Boyutlar bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="beaed-177">Expand or collapse the Dimensions section.</span></span>
+    * <span data-ttu-id="beaed-178">Boyutlar sekmesi, konumlardan her birinin içindeki yük kapasitesini hassas şekilde hesaplamak için parametreler ve yöntemler tanımlamanıza olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="beaed-178">The Dimensions tab allows you to define parameters and methods to enable precise calculations of the load capacity within each of the locations.</span></span>  
+15. <span data-ttu-id="beaed-179">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="beaed-179">Close the page.</span></span>
 
-## <a name="enable-warehouse-management-parameters"></a>Ambar yönetim parametrelerini etkinleştirin
-1. Ambar yönetim parametrelerine gidin.
-    * Ambar işlerini işlemeye hazırlayabilmek için, kullanıcı konum profili, hazırlama konum türü ve son sevkiyat konum türü için parametreler ayarlamanız gerekir. Giden işlemler, tanımladığınız son sevkiyat konum türünde biter bitmez, ilgili giden hareketleri 'Çekildi' olarak güncelleştirilir.  
-2. Konum profilleri bölümünü genişletin veya daraltın.
-3. Kullanıcı konumu alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-4. Listede, seçili satırdaki bağlantıya tıklayın.
-5. Konum türleri bölümünü genişletin veya daraltın.
-6. Depolama konum türü alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-7. Listede, seçili satırdaki bağlantıya tıklayın.
-8. Son yükleme konumu türü alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-9. Listede, seçili satırdaki bağlantıya tıklayın.
-10. Sayfayı kapatın.
+## <a name="enable-warehouse-management-parameters"></a><span data-ttu-id="beaed-180">Ambar yönetim parametrelerini etkinleştirin</span><span class="sxs-lookup"><span data-stu-id="beaed-180">Enable warehouse management parameters</span></span>
+1. <span data-ttu-id="beaed-181">Ambar yönetim parametrelerine gidin.</span><span class="sxs-lookup"><span data-stu-id="beaed-181">Go to Warehouse management parameters.</span></span>
+    * <span data-ttu-id="beaed-182">Ambar işlerini işlemeye hazırlayabilmek için, kullanıcı konum profili, hazırlama konum türü ve son sevkiyat konum türü için parametreler ayarlamanız gerekir. Giden işlemler, tanımladığınız son sevkiyat konum türünde biter bitmez, ilgili giden hareketleri 'Çekildi' olarak güncelleştirilir.</span><span class="sxs-lookup"><span data-stu-id="beaed-182">To be able to process warehouse work, you need to set parameters for the user location profile the staging location type, and the final shipping location type  As soon as the outbound process ends at the final shipping location type that you define, the related outbound transactions will be updated to ‘Picked’.</span></span>  
+2. <span data-ttu-id="beaed-183">Konum profilleri bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="beaed-183">Expand or collapse the Location profiles section.</span></span>
+3. <span data-ttu-id="beaed-184">Kullanıcı konumu alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-184">In the User location field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="beaed-185">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-185">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="beaed-186">Konum türleri bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="beaed-186">Expand or collapse the Location types section.</span></span>
+6. <span data-ttu-id="beaed-187">Depolama konum türü alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-187">In the Staging location type field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="beaed-188">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-188">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="beaed-189">Son yükleme konumu türü alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-189">In the Final shipping location type field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="beaed-190">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-190">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="beaed-191">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="beaed-191">Close the page.</span></span>
 
-## <a name="define-warehouse-zone-groups"></a>Ambar bölge gruplarını tanımlayın.
-1. Ambar bölge gruplarına gidin.
-    * Ambar bölgeleri, farklı ambar yönetimi işlemlerini denetleme seçenekleri için filtre olarak kullanılabilir. Bir bölge tanımlamadan önce bölge grubu oluşturmanız gerekir.  
-2. Yeni'ye tıklayın.
-3. Bölge grubu numarası alanına bir değer yazın.
-4. Bölge grubu adı alanına bir değer yazın.
-5. Sayfayı kapatın.
+## <a name="define-warehouse-zone-groups"></a><span data-ttu-id="beaed-192">Ambar bölge gruplarını tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-192">Define warehouse zone groups</span></span>
+1. <span data-ttu-id="beaed-193">Ambar bölge gruplarına gidin.</span><span class="sxs-lookup"><span data-stu-id="beaed-193">Go to Warehouse zone groups.</span></span>
+    * <span data-ttu-id="beaed-194">Ambar bölgeleri, farklı ambar yönetimi işlemlerini denetleme seçenekleri için filtre olarak kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="beaed-194">Warehouse zones can be used as filters for options to control the different warehouse management processes.</span></span> <span data-ttu-id="beaed-195">Bir bölge tanımlamadan önce bölge grubu oluşturmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="beaed-195">You need to create a zone group before you can define a zone.</span></span>  
+2. <span data-ttu-id="beaed-196">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-196">Click New.</span></span>
+3. <span data-ttu-id="beaed-197">Bölge grubu numarası alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-197">In the Zone group ID field, type a value.</span></span>
+4. <span data-ttu-id="beaed-198">Bölge grubu adı alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-198">In the Zone group name field, type a value.</span></span>
+5. <span data-ttu-id="beaed-199">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="beaed-199">Close the page.</span></span>
 
-## <a name="define-warehouse-zones"></a>Ambar bölgelerini tanımlayın
-1. Gidilecek bölgeler.
-2. Yeni'ye tıklayın.
-3. Bölge numarası alanında bir değer girin.
-4. Bölge adı alanına bir değer girin.
-5. Bölge grubu numarası alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-6. Listede, istenen kaydı bulun ve seçin.
-7. Listede, seçili satırdaki bağlantıya tıklayın.
-8. Sayfayı kapatın.
+## <a name="define-warehouse-zones"></a><span data-ttu-id="beaed-200">Ambar bölgelerini tanımlayın</span><span class="sxs-lookup"><span data-stu-id="beaed-200">Define Warehouse zones</span></span>
+1. <span data-ttu-id="beaed-201">Gidilecek bölgeler.</span><span class="sxs-lookup"><span data-stu-id="beaed-201">Go to Zones.</span></span>
+2. <span data-ttu-id="beaed-202">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-202">Click New.</span></span>
+3. <span data-ttu-id="beaed-203">Bölge numarası alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="beaed-203">In the Zone ID field, type a value.</span></span>
+4. <span data-ttu-id="beaed-204">Bölge adı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="beaed-204">In the Zone name field, type a value.</span></span>
+5. <span data-ttu-id="beaed-205">Bölge grubu numarası alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-205">In the Zone group ID field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="beaed-206">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="beaed-206">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="beaed-207">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-207">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="beaed-208">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="beaed-208">Close the page.</span></span>
 
-## <a name="create-locations-using-the-location-setup-wizard"></a>Konum Kurulum Sihirbazı'nı kullanarak konumlar oluşturun
-1. Konum kurulum sihirbazına gidin.
-2. Ambar alanında, açılır menü düğmesine tıklayarak aramayı açın.
-3. Listede, istenen kaydı bulun ve seçin.
-4. Listede, seçili satırdaki bağlantıya tıklayın.
-5. Bölge numarası alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-6. Listede, istenen kaydı bulun ve seçin.
-7. Listede, seçili satırdaki bağlantıya tıklayın.
-8. Konum profil numarası alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-9. Listede, istenen kaydı bulun ve seçin.
-10. Listede, seçili satırdaki bağlantıya tıklayın.
-11. Listede, seçili satırı işaretleyin.
-12. Gönderen numarası alanına bir tarih girin.
-    * Gönderen numarası ve Alıcı numarası alanları kaç adet konum oluşturulacağını belirler. Örneğin, gönderen numarası olarak 1 ve Alıcı numarası olarak 3 girerseniz, konum biçiminde tüm dört satır için 81 konum (3x3x3x3) oluşturulur.  
-13. Alıcı numarası alanına bir sayı girin.
-14. Listede, istenen kaydı bulun ve seçin.
-15. Gönderen numarası alanına bir tarih girin.
-16. Alıcı numarası alanına bir sayı girin.
-17. Listede, istenen kaydı bulun ve seçin.
-18. Gönderen numarası alanına bir tarih girin.
-19. Alıcı numarası alanına bir sayı girin.
-20. Listede, istenen kaydı bulun ve seçin.
-21. Gönderen numarası alanına bir tarih girin.
-22. Alıcı numarası alanına bir sayı girin.
-23. Oluştur'a tıklayın.
+## <a name="create-locations-using-the-location-setup-wizard"></a><span data-ttu-id="beaed-209">Konum Kurulum Sihirbazı'nı kullanarak konumlar oluşturun</span><span class="sxs-lookup"><span data-stu-id="beaed-209">Create locations using the Location setup wizard</span></span>
+1. <span data-ttu-id="beaed-210">Konum kurulum sihirbazına gidin.</span><span class="sxs-lookup"><span data-stu-id="beaed-210">Go to Location setup wizard.</span></span>
+2. <span data-ttu-id="beaed-211">Ambar alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="beaed-211">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="beaed-212">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="beaed-212">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="beaed-213">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-213">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="beaed-214">Bölge numarası alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-214">In the Zone ID field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="beaed-215">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="beaed-215">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="beaed-216">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-216">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="beaed-217">Konum profil numarası alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-217">In the Location profile ID field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="beaed-218">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="beaed-218">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="beaed-219">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-219">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="beaed-220">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="beaed-220">In the list, mark the selected row.</span></span>
+12. <span data-ttu-id="beaed-221">Gönderen numarası alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="beaed-221">In the From number field, enter a number.</span></span>
+    * <span data-ttu-id="beaed-222">Gönderen numarası ve Alıcı numarası alanları kaç adet konum oluşturulacağını belirler.</span><span class="sxs-lookup"><span data-stu-id="beaed-222">The From number and To number fields define how many locations will be created.</span></span> <span data-ttu-id="beaed-223">Örneğin, gönderen numarası olarak 1 ve Alıcı numarası olarak 3 girerseniz, konum biçiminde tüm dört satır için 81 konum (3x3x3x3) oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="beaed-223">For example, if you set From number to 1 and To number to 3 for all four lines in the location format, 81 locations will be created (3x3x3x3).</span></span>  
+13. <span data-ttu-id="beaed-224">Alıcı numarası alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="beaed-224">In the To number field, enter a number.</span></span>
+14. <span data-ttu-id="beaed-225">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="beaed-225">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="beaed-226">Gönderen numarası alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="beaed-226">In the From number field, enter a number.</span></span>
+16. <span data-ttu-id="beaed-227">Alıcı numarası alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="beaed-227">In the To number field, enter a number.</span></span>
+17. <span data-ttu-id="beaed-228">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="beaed-228">In the list, find and select the desired record.</span></span>
+18. <span data-ttu-id="beaed-229">Gönderen numarası alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="beaed-229">In the From number field, enter a number.</span></span>
+19. <span data-ttu-id="beaed-230">Alıcı numarası alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="beaed-230">In the To number field, enter a number.</span></span>
+20. <span data-ttu-id="beaed-231">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="beaed-231">In the list, find and select the desired record.</span></span>
+21. <span data-ttu-id="beaed-232">Gönderen numarası alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="beaed-232">In the From number field, enter a number.</span></span>
+22. <span data-ttu-id="beaed-233">Alıcı numarası alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="beaed-233">In the To number field, enter a number.</span></span>
+23. <span data-ttu-id="beaed-234">Oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-234">Click Create.</span></span>
 
-## <a name="create-locations-manually"></a>Konumları el ile oluştur
-1. Konumlara gidin.
-    * Ambar içinde konumların el ile oluşturulması kolaylıkla yapılabilir. Konum adı ve konum profil kimliği zorunlu değerlerdir.  
-2. Yeni'ye tıklayın.
-3. Ambar alanına bir değer yazın.
-4. Yerleşim alanına bir değer girin.
-    * Burada yeni bir konum yarattığınızı ve bu yüzden mevcut bir tanesini kullanmak yerine, yeni ve benzersiz bir isim yazmanız gerektiğini unutmayın.  
-5. Konum profili numarası alanına bir değer yazın.
-6. Sayfayı kapatın.
+## <a name="create-locations-manually"></a><span data-ttu-id="beaed-235">Konumları el ile oluştur</span><span class="sxs-lookup"><span data-stu-id="beaed-235">Create locations manually</span></span>
+1. <span data-ttu-id="beaed-236">Konumlara gidin.</span><span class="sxs-lookup"><span data-stu-id="beaed-236">Go to Locations.</span></span>
+    * <span data-ttu-id="beaed-237">Ambar içinde konumların el ile oluşturulması kolaylıkla yapılabilir.</span><span class="sxs-lookup"><span data-stu-id="beaed-237">Manually creation of locations within a warehouse can easily be done.</span></span> <span data-ttu-id="beaed-238">Konum adı ve konum profil kimliği zorunlu değerlerdir.</span><span class="sxs-lookup"><span data-stu-id="beaed-238">The location name and the Location profile ID are mandatory values.</span></span>  
+2. <span data-ttu-id="beaed-239">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-239">Click New.</span></span>
+3. <span data-ttu-id="beaed-240">Ambar alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-240">In the Warehouse field, type a value.</span></span>
+4. <span data-ttu-id="beaed-241">Yerleşim alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="beaed-241">In the Location field, type a value.</span></span>
+    * <span data-ttu-id="beaed-242">Burada yeni bir konum yarattığınızı ve bu yüzden mevcut bir tanesini kullanmak yerine, yeni ve benzersiz bir isim yazmanız gerektiğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-242">Note that you're creating a new location here, so you need to type a new unique name, rather than selecting an existing one.</span></span>  
+5. <span data-ttu-id="beaed-243">Konum profili numarası alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-243">In the Location profile ID field, type a value.</span></span>
+6. <span data-ttu-id="beaed-244">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="beaed-244">Close the page.</span></span>
 
-## <a name="define-pack-size-categories"></a>Ambalaj boyutu kategorilerini tanımla
-1. Paket boyutu kategorilerine gidin.
-    * Ambalaj boyutu kategorileri, fiziki olarak benzer ambalaj boyutlarına öğeleri gruplandırmak için kullanılabilir. Bu örnekte, ambalaj boyutu kategorisi, ambarın belirli bir bölümündeki çekme konumlarının kapasitesini denetlemekte kullanılacak. Lütfen ambalaj boyut kategori kimliğinin stoklamanın bir parçası olarak kullanılabilmesi için serbest bırakılan ürünün varlığının stoklama limitlerinin işlenmesi için atanması gerektiğini unutmayın.  
-2. Yeni'ye tıklayın.
-3. Paket boyutu kategori numarası alanına bir değer yazın.
-4. Paket boyutu kategori ismi alanına bir değer yazın.
-5. Sayfayı kapatın.
+## <a name="define-pack-size-categories"></a><span data-ttu-id="beaed-245">Ambalaj boyutu kategorilerini tanımla</span><span class="sxs-lookup"><span data-stu-id="beaed-245">Define Pack size categories</span></span>
+1. <span data-ttu-id="beaed-246">Paket boyutu kategorilerine gidin.</span><span class="sxs-lookup"><span data-stu-id="beaed-246">Go to Pack size categories.</span></span>
+    * <span data-ttu-id="beaed-247">Ambalaj boyutu kategorileri, fiziki olarak benzer ambalaj boyutlarına öğeleri gruplandırmak için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="beaed-247">Pack size categories can be used to group items that have similar physical packing sizes.</span></span> <span data-ttu-id="beaed-248">Bu örnekte, ambalaj boyutu kategorisi, ambarın belirli bir bölümündeki çekme konumlarının kapasitesini denetlemekte kullanılacak.</span><span class="sxs-lookup"><span data-stu-id="beaed-248">In this example the pack size category will be used to control the capacity at the picking locations within a specific zone of the warehouse.</span></span> <span data-ttu-id="beaed-249">Lütfen ambalaj boyut kategori kimliğinin stoklamanın bir parçası olarak kullanılabilmesi için serbest bırakılan ürünün varlığının stoklama limitlerinin işlenmesi için atanması gerektiğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-249">Please note that the pack size category ID must be assigned to the released product entity in order to be used as part of the stocking limits processing.</span></span>  
+2. <span data-ttu-id="beaed-250">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-250">Click New.</span></span>
+3. <span data-ttu-id="beaed-251">Paket boyutu kategori numarası alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-251">In the Pack size category ID field, type a value.</span></span>
+4. <span data-ttu-id="beaed-252">Paket boyutu kategori ismi alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-252">In the Pack size category name field, type a value.</span></span>
+5. <span data-ttu-id="beaed-253">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="beaed-253">Close the page.</span></span>
 
-## <a name="define-location-stocking-limits"></a>Konum stoklama sınırlarını tanımla
-1. Konum stoklama sınırlarına gidin.
-    * Konum stoklama limitleri, stok miktarını taşıyacak fiziksel kapasitenin mevcut olmadığı konumlara yerleştirilmesini talep edecek işlerin oluşturulmasının önüne geçmeye yardımcı olmaktadır.  
-2. Yeni'ye tıklayın.
-3. Ambar alanına bir değer yazın.
-4. Konum profili numarası alanına bir değer yazın.
-5. Paket boyutu kategori numarası alanına bir değer yazın.
-6. Miktar alanına bir sayı girin.
-7. Kaydet'e tıklayın.
-8. Sayfayı kapatın.
+## <a name="define-location-stocking-limits"></a><span data-ttu-id="beaed-254">Konum stoklama sınırlarını tanımla</span><span class="sxs-lookup"><span data-stu-id="beaed-254">Define location stocking limits</span></span>
+1. <span data-ttu-id="beaed-255">Konum stoklama sınırlarına gidin.</span><span class="sxs-lookup"><span data-stu-id="beaed-255">Go to Location stocking limits.</span></span>
+    * <span data-ttu-id="beaed-256">Konum stoklama limitleri, stok miktarını taşıyacak fiziksel kapasitenin mevcut olmadığı konumlara yerleştirilmesini talep edecek işlerin oluşturulmasının önüne geçmeye yardımcı olmaktadır.</span><span class="sxs-lookup"><span data-stu-id="beaed-256">Location stocking limits help to make sure that work isn't created to request that inventory to be put in a location that doesn't have the physical capacity to carry the inventory.</span></span>  
+2. <span data-ttu-id="beaed-257">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-257">Click New.</span></span>
+3. <span data-ttu-id="beaed-258">Ambar alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-258">In the Warehouse field, type a value.</span></span>
+4. <span data-ttu-id="beaed-259">Konum profili numarası alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-259">In the Location profile ID field, type a value.</span></span>
+5. <span data-ttu-id="beaed-260">Paket boyutu kategori numarası alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-260">In the Pack size category ID field, type a value.</span></span>
+6. <span data-ttu-id="beaed-261">Miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="beaed-261">In the Quantity field, enter a number.</span></span>
+7. <span data-ttu-id="beaed-262">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-262">Click Save.</span></span>
+8. <span data-ttu-id="beaed-263">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="beaed-263">Close the page.</span></span>
 
-## <a name="define-fixed-picking-locations"></a>Sabit Malzeme çekme konumlarını tanımla
-1. Sabit yerleşimlere gidin.
-    * Ürün veya ürün varyantı başına kullanılacak konumlarını tanımlayabilirsiniz. Aynı ambar içinde aynı ürün için birden fazla sabit konum oluşturmak mümkündür.  
-2. Yeni'ye tıklayın.
-3. Madde numarası alanına bir değer girin.
-4. Ambar alanına bir değer yazın.
-5. Yerleşim alanında, açılır menü düğmesine tıklayarak aramayı açın.
-6. Listede, seçili satırdaki bağlantıya tıklayın.
-7. Sayfayı kapatın.
+## <a name="define-fixed-picking-locations"></a><span data-ttu-id="beaed-264">Sabit Malzeme çekme konumlarını tanımla</span><span class="sxs-lookup"><span data-stu-id="beaed-264">Define fixed picking locations</span></span>
+1. <span data-ttu-id="beaed-265">Sabit yerleşimlere gidin.</span><span class="sxs-lookup"><span data-stu-id="beaed-265">Go to Fixed locations.</span></span>
+    * <span data-ttu-id="beaed-266">Ürün veya ürün varyantı başına kullanılacak konumlarını tanımlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="beaed-266">You can define the locations to be used per product or per product variant.</span></span> <span data-ttu-id="beaed-267">Aynı ambar içinde aynı ürün için birden fazla sabit konum oluşturmak mümkündür.</span><span class="sxs-lookup"><span data-stu-id="beaed-267">It is possible to create multiple fixed locations for the same product within the same warehouse.</span></span>  
+2. <span data-ttu-id="beaed-268">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-268">Click New.</span></span>
+3. <span data-ttu-id="beaed-269">Madde numarası alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="beaed-269">In the Item number field, type a value.</span></span>
+4. <span data-ttu-id="beaed-270">Ambar alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="beaed-270">In the Warehouse field, type a value.</span></span>
+5. <span data-ttu-id="beaed-271">Yerleşim alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="beaed-271">In the Location field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="beaed-272">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="beaed-272">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="beaed-273">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="beaed-273">Close the page.</span></span>
 
 

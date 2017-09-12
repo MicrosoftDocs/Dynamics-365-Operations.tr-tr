@@ -16,52 +16,52 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: a9f9a780868926009f30cee6aa634c53ca870b3f
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 33324a9b95026600bcc6facb9c22a04fd2e323c8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-free-text-invoice"></a>Serbest metin faturası oluşturma
+# <a name="create-a-free-text-invoice"></a><span data-ttu-id="3acdd-103">Serbest metin faturası oluşturma</span><span class="sxs-lookup"><span data-stu-id="3acdd-103">Create a free text invoice</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu görev kılavuzu, serbest metin faturası oluşturmayı gösterir. Bu görevde USMF demo şirketi kullanılmaktadır.
+<span data-ttu-id="3acdd-104">Bu görev kılavuzu, serbest metin faturası oluşturmayı gösterir.</span><span class="sxs-lookup"><span data-stu-id="3acdd-104">This task guide demonstrates creating a free text invoice.</span></span> <span data-ttu-id="3acdd-105">Bu görevde USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="3acdd-105">This task uses the USMF demo company.</span></span>
 
-1. Alacak hesapları > Faturalar > Tüm serbest metin faturaları'na gidin.
-2. Yeni'ye tıklayın.
-3. Müşteri hesabı alanında bir değer seçin.
-    * Fatura hesabı, varsayılan olarak müşteri hesabı için kullanılan hesap olacaktır.   
-    * Fatura deftere nakledilmediyse, muhasebe durumunun başlangıç değeri İşlemde olur.   
-    * Fatura numarası fatura deftere nakledildiğinde atanır.  
-    * SEPA yönergelerini kullanıyorsanız, otomatik ödeme yönergesi müşteri hesabını seçtiğinizde otomatik olarak bir yönergeyle doldurulur.  
-4. Açıklama alanına bir değer girin.
-5. Ana hesap alanında, boyutları olmayan bir hesap numarası belirtin.
-    * Ayrıca ana hesap için bir veya daha fazla karakter girebilir ve hesabınızı bulmak için arama özelliğini kullanabilirsiniz. Bu kılavuzda boyutları daha sonra gireceksiniz.  
-6. Ana hesabınıza boyutlar eklemek için Satır ayrıntıları hızlı sekmesini genişletin.
-7. Mali boyutlar satırı sekmesine tıklayın.
-    * Boyutlar yalnızca seçilen satır için kullanılır.    
-    * Satış vergisi grubu müşteriden doldurulur. Müşterinin satış vergisi grubu yoksa, ana hesaptan alınan satış vergisi grubu kullanılır.  
-    * Madde satış vergisi grubu ana hesaptan doldurulur. Ana hesapta madde satış vergisi grubu yoksa, Genel muhasebe satış vergisi parametrelerindeki madde satış vergisi grubu kullanılır.    
-8. Miktar alanına bir sayı girin.
-    * Miktar isteğe bağlıdır.  
-9. Birim fiyatı alanına bir sayı girin.
-    * Birim fiyatı isteğe bağlıdır.  
-    * Tutar, miktarla birim fiyatı çarpılarak hesaplanır. Ancak, hesabı geçersiz kılıp kendiniz bir tutar girebilirsiniz.  
-10. Faturanız için hesaplanan satış vergisini görüntülemek için Satış vergisi öğesine tıklayın.
-    * Bu sayfada satış vergisi tutarlarını görüntüleyebilir veya Ayarlama sekmesinde tutarları geçersiz kılabilirsiniz.  
-11. Tamam'a tıklayın.
-12. Faturanıza masraf eklemek için Masraflar'a tıklayın. 
-13. Masraf kodu alanına bir değer girin.
-14. Masraf değeri alanına bir sayı girin.
-15. Sayfayı kapatın.
-16. Özet fatura ayrıntılarını ve toplamları görüntülemek için Toplamlar öğesine tıklayın.
-17. Kapat’a tıklayın.
-18. Faturayı deftere nakletmek için Deftere naklet'e tıklayın. Deftere nakletmeden önce iptal edebilirsiniz.
-    * Faturanızı yazdırma zamanını değiştirmek için:  Her faturayı güncelleştirilir güncelleştirilmez   yazdırmak için Geçerli'yi, tüm faturalar güncelleştirildikten sonra yazdırmak için  Sonra'yı seçin.  
-    * Nakledilmeden önce müşteri kredi limitini kontrol etme yolunu değiştirmek isterseniz Kredi limiti türü'nü değiştirin.  
-    * Faturayı yazdırmak isterseniz Evet'i seçin.  
-    * Faturayı nakletmek isterseniz Evet'i seçin. Faturayı nakletmeden yazdırabilirsiniz.  
-19. Tamam'a tıklayın.
+1. <span data-ttu-id="3acdd-106">Alacak hesapları > Faturalar > Tüm serbest metin faturaları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="3acdd-106">Go to Accounts receivable > Invoices > All free text invoices.</span></span>
+2. <span data-ttu-id="3acdd-107">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3acdd-107">Click New.</span></span>
+3. <span data-ttu-id="3acdd-108">Müşteri hesabı alanında bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="3acdd-108">In the Customer account field, select a value.</span></span>
+    * <span data-ttu-id="3acdd-109">Fatura hesabı, varsayılan olarak müşteri hesabı için kullanılan hesap olacaktır.</span><span class="sxs-lookup"><span data-stu-id="3acdd-109">The invoice account will default to the same account used for the customer account.</span></span>   
+    * <span data-ttu-id="3acdd-110">Fatura deftere nakledilmediyse, muhasebe durumunun başlangıç değeri İşlemde olur.</span><span class="sxs-lookup"><span data-stu-id="3acdd-110">The accounting status starts with In process if the invoice is not posted.</span></span>   
+    * <span data-ttu-id="3acdd-111">Fatura numarası fatura deftere nakledildiğinde atanır.</span><span class="sxs-lookup"><span data-stu-id="3acdd-111">The invoice number will be assigned when the invoice is posted.</span></span>  
+    * <span data-ttu-id="3acdd-112">SEPA yönergelerini kullanıyorsanız, otomatik ödeme yönergesi müşteri hesabını seçtiğinizde otomatik olarak bir yönergeyle doldurulur.</span><span class="sxs-lookup"><span data-stu-id="3acdd-112">If you are using SEPA mandates, the direct debit mandate will be automatically populated with a mandate when you select the customer account.</span></span>  
+4. <span data-ttu-id="3acdd-113">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="3acdd-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="3acdd-114">Ana hesap alanında, boyutları olmayan bir hesap numarası belirtin.</span><span class="sxs-lookup"><span data-stu-id="3acdd-114">In the Main account field, specify an account number without dimensions.</span></span>
+    * <span data-ttu-id="3acdd-115">Ayrıca ana hesap için bir veya daha fazla karakter girebilir ve hesabınızı bulmak için arama özelliğini kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3acdd-115">You can also enter one or more characters for the main account and use the lookup to find your account.</span></span> <span data-ttu-id="3acdd-116">Bu kılavuzda boyutları daha sonra gireceksiniz.</span><span class="sxs-lookup"><span data-stu-id="3acdd-116">You will enter dimensions later on in this guide.</span></span>  
+6. <span data-ttu-id="3acdd-117">Ana hesabınıza boyutlar eklemek için Satır ayrıntıları hızlı sekmesini genişletin.</span><span class="sxs-lookup"><span data-stu-id="3acdd-117">Expand the Line details fasttab so you can add dimensions to your main account.</span></span>
+7. <span data-ttu-id="3acdd-118">Mali boyutlar satırı sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3acdd-118">Click the Financial dimensions line tab.</span></span>
+    * <span data-ttu-id="3acdd-119">Boyutlar yalnızca seçilen satır için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="3acdd-119">The dimensions are for the selected line only.</span></span>    
+    * <span data-ttu-id="3acdd-120">Satış vergisi grubu müşteriden doldurulur.</span><span class="sxs-lookup"><span data-stu-id="3acdd-120">The sales tax group is populated from the customer.</span></span> <span data-ttu-id="3acdd-121">Müşterinin satış vergisi grubu yoksa, ana hesaptan alınan satış vergisi grubu kullanılır.</span><span class="sxs-lookup"><span data-stu-id="3acdd-121">If the customer does not have a sales tax group, the sales tax group from the main account is used.</span></span>  
+    * <span data-ttu-id="3acdd-122">Madde satış vergisi grubu ana hesaptan doldurulur.</span><span class="sxs-lookup"><span data-stu-id="3acdd-122">The items sales tax group is populated from the main account.</span></span> <span data-ttu-id="3acdd-123">Ana hesapta madde satış vergisi grubu yoksa, Genel muhasebe satış vergisi parametrelerindeki madde satış vergisi grubu kullanılır.</span><span class="sxs-lookup"><span data-stu-id="3acdd-123">If the main account does not have a item sales tax group, then the item sales tax group in the General ledger sales tax parameters is used.</span></span>    
+8. <span data-ttu-id="3acdd-124">Miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="3acdd-124">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="3acdd-125">Miktar isteğe bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="3acdd-125">The quantity is optional.</span></span>  
+9. <span data-ttu-id="3acdd-126">Birim fiyatı alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="3acdd-126">In the Unit price field, enter a number.</span></span>
+    * <span data-ttu-id="3acdd-127">Birim fiyatı isteğe bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="3acdd-127">The unit price is optional.</span></span>  
+    * <span data-ttu-id="3acdd-128">Tutar, miktarla birim fiyatı çarpılarak hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="3acdd-128">The amount is calculated as the quantity times the unit price.</span></span> <span data-ttu-id="3acdd-129">Ancak, hesabı geçersiz kılıp kendiniz bir tutar girebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3acdd-129">However, you can override that calculation and enter an amount.</span></span>  
+10. <span data-ttu-id="3acdd-130">Faturanız için hesaplanan satış vergisini görüntülemek için Satış vergisi öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3acdd-130">Click on Sales tax to view the sales tax calculated for your invoice.</span></span>
+    * <span data-ttu-id="3acdd-131">Bu sayfada satış vergisi tutarlarını görüntüleyebilir veya Ayarlama sekmesinde tutarları geçersiz kılabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3acdd-131">View the sales tax amounts in this page or you can override the amounts on the Adjustment tab.</span></span>  
+11. <span data-ttu-id="3acdd-132">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3acdd-132">Click OK.</span></span>
+12. <span data-ttu-id="3acdd-133">Faturanıza masraf eklemek için Masraflar'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3acdd-133">Click Charges to add a charge to your invoice.</span></span> 
+13. <span data-ttu-id="3acdd-134">Masraf kodu alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="3acdd-134">In the Charges code field, type a value.</span></span>
+14. <span data-ttu-id="3acdd-135">Masraf değeri alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="3acdd-135">In the Charges value field, enter a number.</span></span>
+15. <span data-ttu-id="3acdd-136">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="3acdd-136">Close the page.</span></span>
+16. <span data-ttu-id="3acdd-137">Özet fatura ayrıntılarını ve toplamları görüntülemek için Toplamlar öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3acdd-137">Click Totals to view the summary invoice details and totals.</span></span>
+17. <span data-ttu-id="3acdd-138">Kapat’a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3acdd-138">Click Close.</span></span>
+18. <span data-ttu-id="3acdd-139">Faturayı deftere nakletmek için Deftere naklet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3acdd-139">Click Post to post the invoice.</span></span> <span data-ttu-id="3acdd-140">Deftere nakletmeden önce iptal edebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3acdd-140">You will be able to cancel before you post.</span></span>
+    * <span data-ttu-id="3acdd-141">Faturanızı yazdırma zamanını değiştirmek için:  Her faturayı güncelleştirilir güncelleştirilmez   yazdırmak için Geçerli'yi, tüm faturalar güncelleştirildikten sonra yazdırmak için  Sonra'yı seçin.</span><span class="sxs-lookup"><span data-stu-id="3acdd-141">To change the timing of your invoice printing:  Select Current to print each invoice as it is updated   or  Select After to print after all invoices have been updated.</span></span>  
+    * <span data-ttu-id="3acdd-142">Nakledilmeden önce müşteri kredi limitini kontrol etme yolunu değiştirmek isterseniz Kredi limiti türü'nü değiştirin.</span><span class="sxs-lookup"><span data-stu-id="3acdd-142">If you want to change how the customer's credit limit is checked before posting, change the Credit limit type.</span></span>  
+    * <span data-ttu-id="3acdd-143">Faturayı yazdırmak isterseniz Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="3acdd-143">If you want to print the invoice, select Yes.</span></span>  
+    * <span data-ttu-id="3acdd-144">Faturayı nakletmek isterseniz Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="3acdd-144">If you want to post the invoice, select Yes.</span></span> <span data-ttu-id="3acdd-145">Faturayı nakletmeden yazdırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3acdd-145">You can print the invoice without posting.</span></span>  
+19. <span data-ttu-id="3acdd-146">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3acdd-146">Click OK.</span></span>
 
 

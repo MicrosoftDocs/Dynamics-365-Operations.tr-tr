@@ -19,33 +19,33 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: e6d88503972850f6163aba6b45547a111f44abab
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 8859359f70132e9116e6a2d534a0f5f1d0bfeb80
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="process-allocations"></a>Tahsisatları işleme
+# <a name="process-allocations"></a><span data-ttu-id="0ce97-105">Tahsisatları işleme</span><span class="sxs-lookup"><span data-stu-id="0ce97-105">Process allocations</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede tahsisatlar, Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünde tahsisatları işleme seçenekleri ve bütçe planlamasında tahsisatların nasıl kullanılabileceği hakkında bilgiler verilmektedir. Tahsisatlar, tutarları birden fazla genel muhasebe hesabı birleşimleri arasında dağıtmak için kullanılır. Gider ve gelirlerin muhasebede doğru nesneye yazılmasının garanti altına alınmasına yardımcı olurlar.
+<span data-ttu-id="0ce97-106">Bu makalede tahsisatlar, Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünde tahsisatları işleme seçenekleri ve bütçe planlamasında tahsisatların nasıl kullanılabileceği hakkında bilgiler verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="0ce97-106">This article provides information about allocations, the options for processing them in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, and how they can be used in budget planning.</span></span> <span data-ttu-id="0ce97-107">Tahsisatlar, tutarları birden fazla genel muhasebe hesabı birleşimleri arasında dağıtmak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="0ce97-107">Allocations are used to distribute amounts across multiple ledger account combinations.</span></span> <span data-ttu-id="0ce97-108">Gider ve gelirlerin muhasebede doğru nesneye yazılmasının garanti altına alınmasına yardımcı olurlar.</span><span class="sxs-lookup"><span data-stu-id="0ce97-108">They help guarantee that expenses or revenue is charged to the correct object in accounting.</span></span>
 
-Microsoft Dynamics 365 for Finance and Operations bu süreci desteklemek için şu özellikleri sağlar:
+<span data-ttu-id="0ce97-109">Microsoft Dynamics 365 for Finance and Operations bu süreci desteklemek için şu özellikleri sağlar:</span><span class="sxs-lookup"><span data-stu-id="0ce97-109">Microsoft Dynamics 365 for Finance and Operations provides the following capabilities to support this process:</span></span>
 
--   Muhasebe dağılımlarında Böl eylemini kullanarak veya bir belgeye mali boyut varsayılan şablonları uygulayarak hareket tutarlarını el ile atayabilirsiniz. Daha fazla bilgi için bkz.  [Hesap dağıtımları.](../accounts-payable/accounting-distributions.md)
--   Her bir ana hesapta tanımlanan atama şartlarına dayalı olarak hareket tutarlarını otomatik olarak atayın. Tahsisat hesabı girişleri, bir muhasebe girişinin kaynak defter hesabı olarak tanımlanan kriterleri karşılaması durumunda her bir günlük için yüzdeye ve hedef defter hesabına dayalı olarak üretilecektir.
--   Defter bakiyelerini veya sabit tutarları defter tahsisat kurallarına dayalı olarak otomatik olarak atayın. Defter tahsisat kuralları, atama günlükleri kullanılarak düzenli olarak işlenir. 
+-   <span data-ttu-id="0ce97-110">Muhasebe dağılımlarında Böl eylemini kullanarak veya bir belgeye mali boyut varsayılan şablonları uygulayarak hareket tutarlarını el ile atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0ce97-110">Manually allocate transaction amounts by using the Split action in accounting distributions, or by applying financial dimension default templates to a document.</span></span> <span data-ttu-id="0ce97-111">Daha fazla bilgi için bkz.  [Hesap dağıtımları.](../accounts-payable/accounting-distributions.md)</span><span class="sxs-lookup"><span data-stu-id="0ce97-111">For more information, see [Accounting distributions.](../accounts-payable/accounting-distributions.md)</span></span>
+-   <span data-ttu-id="0ce97-112">Her bir ana hesapta tanımlanan atama şartlarına dayalı olarak hareket tutarlarını otomatik olarak atayın.</span><span class="sxs-lookup"><span data-stu-id="0ce97-112">Automatically allocate transactions amounts based on allocation terms defined on individual main account.</span></span> <span data-ttu-id="0ce97-113">Tahsisat hesabı girişleri, bir muhasebe girişinin kaynak defter hesabı olarak tanımlanan kriterleri karşılaması durumunda her bir günlük için yüzdeye ve hedef defter hesabına dayalı olarak üretilecektir.</span><span class="sxs-lookup"><span data-stu-id="0ce97-113">Allocation account entries will be generated for each journal based on the percentage and destination ledger account whenever an accounting entry meets the criteria defined as the source ledger account.</span></span>
+-   <span data-ttu-id="0ce97-114">Defter bakiyelerini veya sabit tutarları defter tahsisat kurallarına dayalı olarak otomatik olarak atayın.</span><span class="sxs-lookup"><span data-stu-id="0ce97-114">Automatically allocate ledger balances or fixed amounts based on ledger allocation rules.</span></span> <span data-ttu-id="0ce97-115">Defter tahsisat kuralları, atama günlükleri kullanılarak düzenli olarak işlenir.</span><span class="sxs-lookup"><span data-stu-id="0ce97-115">The ledger allocation rules are processed on a periodic basis using allocation journals.</span></span> 
 
-###  <a name="allocations-in-budget-planning"></a>Bütçe planlamasında tahsisatlar
+###  <a name="allocations-in-budget-planning"></a><span data-ttu-id="0ce97-116">Bütçe planlamasında tahsisatlar</span><span class="sxs-lookup"><span data-stu-id="0ce97-116">Allocations in budget planning</span></span>
 
-Defter tahsisat kuralları, bütçe planları için kullanılabilir. Defter tahsisat kurallarını bütçe planlamada kullanıyorsanız, tahsisat kuralları, defterdekiyle aynı şekilde çalışacaktır, ancak kaynak verileri ve hedef verileri bütçe planından gelir. Bütçe planları için kullanılacak genel muhasebe tahsisat kurallarını el ile seçebilirsiniz. Alternatif olarak, bir iş akışı işleminin bir parçası olarak çalışan bir tahsisat zamanlaması kullanabilirsiniz.
+<span data-ttu-id="0ce97-117">Defter tahsisat kuralları, bütçe planları için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="0ce97-117">Ledger allocation rules can be used for budget plans.</span></span> <span data-ttu-id="0ce97-118">Defter tahsisat kurallarını bütçe planlamada kullanıyorsanız, tahsisat kuralları, defterdekiyle aynı şekilde çalışacaktır, ancak kaynak verileri ve hedef verileri bütçe planından gelir.</span><span class="sxs-lookup"><span data-stu-id="0ce97-118">When you use ledger allocation rules in budget planning, the allocation rules work the same way they would in the ledger, but the source data and destination data comes from the budget plan.</span></span> <span data-ttu-id="0ce97-119">Bütçe planları için kullanılacak genel muhasebe tahsisat kurallarını el ile seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0ce97-119">You can manually select ledger allocation rules to use for budget plans.</span></span> <span data-ttu-id="0ce97-120">Alternatif olarak, bir iş akışı işleminin bir parçası olarak çalışan bir tahsisat zamanlaması kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0ce97-120">Alternatively, you can use an allocation schedule that runs as part of a workflow process.</span></span>
 
 > [!NOTE]
-> Bütçe planlama için şirketler arası defter tahsisat kurallarını kullanamazsınız.
+> <span data-ttu-id="0ce97-121">Bütçe planlama için şirketler arası defter tahsisat kurallarını kullanamazsınız.</span><span class="sxs-lookup"><span data-stu-id="0ce97-121">You can’t use intercompany ledger allocation rules for budget planning.</span></span>
 
 
 

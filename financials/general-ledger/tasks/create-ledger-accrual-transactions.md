@@ -16,36 +16,36 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 5a8d9fb805838be67424926ca0cd56577ae43cba
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 368614ff447ae9f5cb6e74274558b92a0873ec7a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-ledger-accrual-transactions"></a>Genel muhasebe tahakkuk hareketleri oluşturma
+# <a name="create-ledger-accrual-transactions"></a><span data-ttu-id="c0243-103">Genel muhasebe tahakkuk hareketleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="c0243-103">Create ledger accrual transactions</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu görev kılavuzu, tahakkuk düzenlerine dayalı genel muhasebe tahakkuk hareketleri oluşturmayı adım adım açıklar
+<span data-ttu-id="c0243-104">Bu görev kılavuzu, tahakkuk düzenlerine dayalı genel muhasebe tahakkuk hareketleri oluşturmayı adım adım açıklar</span><span class="sxs-lookup"><span data-stu-id="c0243-104">This task guide steps through generating ledger accrual transactions that are based on accrual schemes</span></span>
 
-1. Genel muhasebe > Günlük girişleri > Genel günlükler'e gidin.
-2. Listede, istediğiniz günlüğü bulun ve seçin veya yeni bir tane oluşturun.
-3. Günlük toplu iş numarası alanındaki bağlantıyı izlemek için tıklatın.
-4. Listede, seçili satırı işaretleyin.
-5. Hesap alanında istediğiniz değerleri belirtin.
-    * Bu örnekte, sigorta harcaması tanımlanmaktadır. Bu, düzenli gider tutarı olacaktır.  
-6. Açıklama alanına bir değer girin.
-7. Borç alanına bir sayı girin.
-8. Mahsup hesap alanında istediğiniz değerleri belirtin.
-9. İşlevler'i tıklatın.
-10. Genel muhasebe tahakkukları öğesini tıklatın.
-11. Tahakkuk kimliği alanında, aramayı açmak için açılır menü düğmesini tıklatın.
-12. Listede, uygulamak istediğiniz tahakkuk düzenini bulun ve seçin.
-13. Listede, seçili satırdaki bağlantıya tıklayın.
-14. Başlangıç tarihi alanına bir tarih girin.
-15. Hareketler'e tıklayın.
-16. Sayfayı kapatın.
-17. Tamam'a tıklayın.
-18. Deftere Naklet öğesine tıklayın.
+1. <span data-ttu-id="c0243-105">Genel muhasebe > Günlük girişleri > Genel günlükler'e gidin.</span><span class="sxs-lookup"><span data-stu-id="c0243-105">Go to General ledger > Journal entries > General journals.</span></span>
+2. <span data-ttu-id="c0243-106">Listede, istediğiniz günlüğü bulun ve seçin veya yeni bir tane oluşturun.</span><span class="sxs-lookup"><span data-stu-id="c0243-106">In the list, find and select the desired journal or create a new one.</span></span>
+3. <span data-ttu-id="c0243-107">Günlük toplu iş numarası alanındaki bağlantıyı izlemek için tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c0243-107">Click to follow the link in the Journal batch number field.</span></span>
+4. <span data-ttu-id="c0243-108">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="c0243-108">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="c0243-109">Hesap alanında istediğiniz değerleri belirtin.</span><span class="sxs-lookup"><span data-stu-id="c0243-109">In the Account field, specify the desired values.</span></span>
+    * <span data-ttu-id="c0243-110">Bu örnekte, sigorta harcaması tanımlanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="c0243-110">In this example, we are defining the expense for the insurance.</span></span> <span data-ttu-id="c0243-111">Bu, düzenli gider tutarı olacaktır.</span><span class="sxs-lookup"><span data-stu-id="c0243-111">It will be come periodic expense amount.</span></span>  
+6. <span data-ttu-id="c0243-112">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="c0243-112">In the Description field, type a value.</span></span>
+7. <span data-ttu-id="c0243-113">Borç alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="c0243-113">In the Debit field, enter a number.</span></span>
+8. <span data-ttu-id="c0243-114">Mahsup hesap alanında istediğiniz değerleri belirtin.</span><span class="sxs-lookup"><span data-stu-id="c0243-114">In the Offset account field, specify the desired values.</span></span>
+9. <span data-ttu-id="c0243-115">İşlevler'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c0243-115">Click Functions.</span></span>
+10. <span data-ttu-id="c0243-116">Genel muhasebe tahakkukları öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c0243-116">Click Ledger accruals.</span></span>
+11. <span data-ttu-id="c0243-117">Tahakkuk kimliği alanında, aramayı açmak için açılır menü düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="c0243-117">In the Accrual identification field, click the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="c0243-118">Listede, uygulamak istediğiniz tahakkuk düzenini bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="c0243-118">In the list, find and select the accural scheme you want to apply.</span></span>
+13. <span data-ttu-id="c0243-119">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c0243-119">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="c0243-120">Başlangıç tarihi alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="c0243-120">In the Start date field, enter a date.</span></span>
+15. <span data-ttu-id="c0243-121">Hareketler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c0243-121">Click Transactions.</span></span>
+16. <span data-ttu-id="c0243-122">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="c0243-122">Close the page.</span></span>
+17. <span data-ttu-id="c0243-123">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c0243-123">Click OK.</span></span>
+18. <span data-ttu-id="c0243-124">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="c0243-124">Click Post.</span></span>
 
 

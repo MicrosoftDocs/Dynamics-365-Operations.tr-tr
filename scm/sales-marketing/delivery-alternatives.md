@@ -20,35 +20,35 @@ ms.author: crytt
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
-ms.openlocfilehash: 9240e86a80e23ed5e787bdb3dd1a72b0318e3cc0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e4ddd796fb6d29c0bcc810943f668cb89698153b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="delivery-alternatives"></a>Teslimat alternatifleri
+# <a name="delivery-alternatives"></a><span data-ttu-id="1fc4d-103">Teslimat alternatifleri</span><span class="sxs-lookup"><span data-stu-id="1fc4d-103">Delivery alternatives</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Satış siparişi alanlar, Teslimat alternatif sayfasını, alternatif sipariş karşılama seçeneklerini bulmak için kullanabilirler.
+<span data-ttu-id="1fc4d-104">Satış siparişi alanlar, Teslimat alternatif sayfasını, alternatif sipariş karşılama seçeneklerini bulmak için kullanabilirler.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-104">Sales order takers can use the Delivery alternatives page to discover alternative order fulfillment options.</span></span>
 
-Microsoft Dynamics 365 for Operations sürüm 1611 (Kasım 2016) içerisinde, satış siparişi alanlar, **Teslimat alternatifleri** sayfasını, alternatif sipariş karşılama seçeneklerini bulmak için kullanabilirler. Yeniden tasarlanan sayfa düzeni, tüm alternatif seçenekler hakkında daha iyi bir görünüm verir. Ayrıca sipariş alanların, geçerli şirketin karşılama fırsatlarının ötesine bakmalarına izin verir. Şimdi hem şirketlerarası fırsatlar hem de harici satıcılardan fırsatları görebilirler. Seçenekleri teslimat tarihine göre dizerek, satış siparişi alanlar teslimat alternatiflerinin akıllı bir listesini görebilirler. Ek olarak, parametreler önerilen teslimatları daha iyi yönetmelerine yardımcı olur. Taşıma süresi teslimat tarihini etkileyebileceğinden, satış siparişi alanlar, taşıyıcının sunduğu çeşitli taşıma seçeneklerini keşfedebilirler. Her bir öneri için ayrıntılı bilgi sunulduğundan, sipariş alanlar **Teslimat alternatifleri** sayfasından doğrudan bilinçli kararlar verebilirler.
+<span data-ttu-id="1fc4d-105">Microsoft Dynamics 365 for Operations sürüm 1611 (Kasım 2016) içerisinde, satış siparişi alanlar, **Teslimat alternatifleri** sayfasını, alternatif sipariş karşılama seçeneklerini bulmak için kullanabilirler.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-105">In Microsoft Dynamics 365 for Operations version 1611 (November 2016), sales order takers can use the **Delivery alternatives** page to discover alternative order fulfillment options.</span></span> <span data-ttu-id="1fc4d-106">Yeniden tasarlanan sayfa düzeni, tüm alternatif seçenekler hakkında daha iyi bir görünüm verir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-106">The redesigned page layout gives a better overview of all alternative options.</span></span> <span data-ttu-id="1fc4d-107">Ayrıca sipariş alanların, geçerli şirketin karşılama fırsatlarının ötesine bakmalarına izin verir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-107">It also lets order takers look beyond the current company for fulfillment opportunities.</span></span> <span data-ttu-id="1fc4d-108">Şimdi hem şirketlerarası fırsatlar hem de harici satıcılardan fırsatları görebilirler.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-108">They can now view both intercompany opportunities and opportunities from external vendors.</span></span> <span data-ttu-id="1fc4d-109">Seçenekleri teslimat tarihine göre dizerek, satış siparişi alanlar teslimat alternatiflerinin akıllı bir listesini görebilirler.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-109">By sorting the options by delivery date, sales order takers can view an intelligent list of delivery alternatives.</span></span> <span data-ttu-id="1fc4d-110">Ek olarak, parametreler önerilen teslimatları daha iyi yönetmelerine yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-110">In addition, parameters help them better manage the suggested deliveries.</span></span> <span data-ttu-id="1fc4d-111">Taşıma süresi teslimat tarihini etkileyebileceğinden, satış siparişi alanlar, taşıyıcının sunduğu çeşitli taşıma seçeneklerini keşfedebilirler.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-111">Because transport time can affect delivery dates, sales order takers can explore the various transportation choices that carriers offer.</span></span> <span data-ttu-id="1fc4d-112">Her bir öneri için ayrıntılı bilgi sunulduğundan, sipariş alanlar **Teslimat alternatifleri** sayfasından doğrudan bilinçli kararlar verebilirler.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-112">Because detailed information is shown for each suggestion, order takers can make informed decisions directly from the **Delivery alternatives** page.</span></span>
 
-## <a name="open-the-delivery-alternatives-page"></a>Teslimat alternatifleri sayfasını aç
-**Teslimat** **alternatifleri** sayfasını satış siparişi satırından açabilirsiniz.
+## <a name="open-the-delivery-alternatives-page"></a><span data-ttu-id="1fc4d-113">Teslimat alternatifleri sayfasını aç</span><span class="sxs-lookup"><span data-stu-id="1fc4d-113">Open the Delivery alternatives page</span></span>
+<span data-ttu-id="1fc4d-114">**Teslimat** **alternatifleri** sayfasını satış siparişi satırından açabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-114">You can open the **Delivery** **alternatives** page from the sales order line.</span></span>
 
-1.  **Ürün ve tedarik** &gt; **Teslimat alternatifleri** üzerine tıklayın.
-2.  **Satır ayrıntıları** &gt; **Teslimat** &gt; **Teslimat alternatifleri** üzerine tıklayın.
+1.  <span data-ttu-id="1fc4d-115">**Ürün ve tedarik** &gt; **Teslimat alternatifleri** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-115">Click **Products and supply** &gt; **Delivery alternatives**.</span></span>
+2.  <span data-ttu-id="1fc4d-116">**Satır ayrıntıları** &gt; **Teslimat** &gt; **Teslimat alternatifleri** üzerine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-116">Click **Line details** &gt; **Delivery** &gt; **Delivery alternatives.**</span></span>
 
-**Teslimat alternatifleri** sayfasını, **Satış siparişi işleme ve sorgu** çalışma alanını da açarak ve sonra **Siparişler ve favoriler** &gt; **Gecikmeli sipariş satırları** &gt; **Teslimat alternatifleri** üzerine tıklayarak açabilirsiniz **Not:** **Teslimat alternatifleri** sayfasını, yalnızca aşağıdaki koşullar yerine getiriliyorsa açabilirsiniz:
+<span data-ttu-id="1fc4d-117">**Teslimat alternatifleri** sayfasını, **Satış siparişi işleme ve sorgu** çalışma alanını da açarak ve sonra **Siparişler ve favoriler** &gt; **Gecikmeli sipariş satırları** &gt; **Teslimat alternatifleri** üzerine tıklayarak açabilirsiniz **Not:** **Teslimat alternatifleri** sayfasını, yalnızca aşağıdaki koşullar yerine getiriliyorsa açabilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="1fc4d-117">You can also open the **Delivery alternatives** page by opening the **Sales order processing and inquiry** workspace, and then clicking **Orders and favorites** &gt; **Delayed order lines** &gt; **Delivery alternatives** **Note:** You can open the **Delivery alternatives** page only if both the following conditions are met:</span></span>
 
--   Tüm zorunlu satış satır bilgileri girilmiştir.
--   **Teslimat tarih denetimi** alanı, **Yok**'tan başka bir değere ayarlanmıştır.
+-   <span data-ttu-id="1fc4d-118">Tüm zorunlu satış satır bilgileri girilmiştir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-118">All mandatory sales line information is filled in.</span></span>
+-   <span data-ttu-id="1fc4d-119">**Teslimat tarih denetimi** alanı, **Yok**'tan başka bir değere ayarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-119">The **Delivery date control** field is set to a value other than **None**.</span></span>
 
-## <a name="delivery-date-control-methods"></a>Teslimat tarihi kontrol yöntemleri
-Teslimat tarihi denetim yöntemi, sistemin teslimat tarihlerini nasıl oluşturduğunu, teslimat alternatiflerinin nasıl hesaplandığını ve hangi bilginin gösterildiğini belirler. Teslimat veri denetiminin takvimleri dikkate aldığını unutmayın. Bu nedenle, aşağıdaki takvimler önerilen giriş tarihini etkileyebilir: Ambar takvimi, Taşıma takvimi, Satıcı takvimi ve Müşteri takvimi. Aşağıdaki tablo teslimat tarihi denetimi için her bir yöntemi açıklar.
+## <a name="delivery-date-control-methods"></a><span data-ttu-id="1fc4d-120">Teslimat tarihi kontrol yöntemleri</span><span class="sxs-lookup"><span data-stu-id="1fc4d-120">Delivery date control methods</span></span>
+<span data-ttu-id="1fc4d-121">Teslimat tarihi denetim yöntemi, sistemin teslimat tarihlerini nasıl oluşturduğunu, teslimat alternatiflerinin nasıl hesaplandığını ve hangi bilginin gösterildiğini belirler.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-121">The delivery date control method determines how the system establishes delivery dates, how delivery alternatives are calculated, and what information is shown.</span></span> <span data-ttu-id="1fc4d-122">Teslimat veri denetiminin takvimleri dikkate aldığını unutmayın.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-122">Note that delivery data control takes calendars into consideration.</span></span> <span data-ttu-id="1fc4d-123">Bu nedenle, aşağıdaki takvimler önerilen giriş tarihini etkileyebilir: Ambar takvimi, Taşıma takvimi, Satıcı takvimi ve Müşteri takvimi.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-123">Therefore, the following calendars can affect the suggested receipt date: Warehouse calendar, Transport calendar, Vendor calendar, and Customer calendar.</span></span> <span data-ttu-id="1fc4d-124">Aşağıdaki tablo teslimat tarihi denetimi için her bir yöntemi açıklar.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-124">The following table describes each method for delivery date control.</span></span>
 
 <table>
 <colgroup>
@@ -57,100 +57,100 @@ Teslimat tarihi denetim yöntemi, sistemin teslimat tarihlerini nasıl oluşturd
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Yöntem</strong></td>
-<td><strong>Açıklama</strong></td>
+<td><span data-ttu-id="1fc4d-125"><strong>Yöntem</strong></span><span class="sxs-lookup"><span data-stu-id="1fc4d-125"><strong>Method</strong></span></span></td>
+<td><span data-ttu-id="1fc4d-126"><strong>Açıklama</strong></span><span class="sxs-lookup"><span data-stu-id="1fc4d-126"><strong>Description</strong></span></span></td>
 </tr>
 <tr class="even">
-<td><strong>Yok</strong></td>
+<td><span data-ttu-id="1fc4d-127"><strong>Yok</strong></span><span class="sxs-lookup"><span data-stu-id="1fc4d-127"><strong>None</strong></span></span></td>
 <td><ul>
-<li>Satış satırları için teslimat alternatifleri desteklenmez. Bu seçenek teslimat veri denetimini devre dışı bırakır.</li>
+<li><span data-ttu-id="1fc4d-128">Satış satırları için teslimat alternatifleri desteklenmez.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-128">Delivery alternatives for sales lines aren't supported.</span></span> <span data-ttu-id="1fc4d-129">Bu seçenek teslimat veri denetimini devre dışı bırakır.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-129">This option turns off delivery data control.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Satış sağlama süresi</strong></td>
+<td><span data-ttu-id="1fc4d-130"><strong>Satış sağlama süresi</strong></span><span class="sxs-lookup"><span data-stu-id="1fc4d-130"><strong>Sales lead time</strong></span></span></td>
 <td><ul>
-<li>Teslimat alternatifleri önceden tanımlanmış satış sağlama süresinde hesaplanır. Taşıma günleri, teslimat şekline dayanarak hesaplanır.</li>
-<li>Teslimat alternatifleri, eldeki stoka sahip ambarları ve arz/talep siparişlerini içerir.</li>
+<li><span data-ttu-id="1fc4d-131">Teslimat alternatifleri önceden tanımlanmış satış sağlama süresinde hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-131">Delivery alternatives are calculated based on the predefined sales lead time.</span></span> <span data-ttu-id="1fc4d-132">Taşıma günleri, teslimat şekline dayanarak hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-132">The transport days are calculated based on the mode of delivery.</span></span></li>
+<li><span data-ttu-id="1fc4d-133">Teslimat alternatifleri, eldeki stoka sahip ambarları ve arz/talep siparişlerini içerir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-133">Delivery alternatives include warehouses that have on-hand inventory, and supply/demand orders.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>KM</strong></td>
+<td><span data-ttu-id="1fc4d-134"><strong>KM</strong></span><span class="sxs-lookup"><span data-stu-id="1fc4d-134"><strong>ATP</strong></span></span></td>
 <td><ul>
-<li>Teslimat alternatifleri, karşılanabilir miktar (KM) mantığına göre hesaplanır. Geçerli kullanılabilirlik ve beklenen gelecek kullanılabilirlik dikkate alınır. Taşıma günleri, teslimat şekline dayanarak hesaplanır.</li>
-<li>Teslimat alternatifleri, eldeki stoka sahip ambarları ve arz/talep siparişlerini içerir.</li>
+<li><span data-ttu-id="1fc4d-135">Teslimat alternatifleri, karşılanabilir miktar (KM) mantığına göre hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-135">Delivery alternatives are calculated based on available to promise (ATP) logic.</span></span> <span data-ttu-id="1fc4d-136">Geçerli kullanılabilirlik ve beklenen gelecek kullanılabilirlik dikkate alınır.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-136">The current availability and expected future availability are considered.</span></span> <span data-ttu-id="1fc4d-137">Taşıma günleri, teslimat şekline dayanarak hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-137">The transport days are calculated based on the mode of delivery.</span></span></li>
+<li><span data-ttu-id="1fc4d-138">Teslimat alternatifleri, eldeki stoka sahip ambarları ve arz/talep siparişlerini içerir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-138">Delivery alternatives include warehouses that have on-hand inventory, and supply/demand orders.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>KM + Çıkış marjı</strong></td>
+<td><span data-ttu-id="1fc4d-139"><strong>KM + Çıkış marjı</strong></span><span class="sxs-lookup"><span data-stu-id="1fc4d-139"><strong>ATP + Issue margin</strong></span></span></td>
 <td><ul>
-<li>Teslimat alternatifleri KM yönteminde olduğu gibi hesaplanır ancak çıkış marjı hesaplamaya dahil edilir.</li>
+<li><span data-ttu-id="1fc4d-140">Teslimat alternatifleri KM yönteminde olduğu gibi hesaplanır ancak çıkış marjı hesaplamaya dahil edilir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-140">Delivery alternatives are calculated as for the ATP method, but the issue margin is included in the calculation.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>TEM</strong></td>
+<td><span data-ttu-id="1fc4d-141"><strong>TEM</strong></span><span class="sxs-lookup"><span data-stu-id="1fc4d-141"><strong>CTP</strong></span></span></td>
 <td><ul>
-<li>Teslimat alternatifleri, teslim edilebilir miktar (TEM) mantığına göre hesaplanır. MRP açılımı kullanılabilirliği belirlemek üzere kullanılır. En azından TEM mahsup işlemi teslimat tarihlerini satış sağlama süresine unutmayın. Taşıma günleri, teslimat şekline dayanarak hesaplanır.</li>
-<li>Teslimat alternatifleri aşağıdaki ambarlar için önerileri içerir:
+<li><span data-ttu-id="1fc4d-142">Teslimat alternatifleri, teslim edilebilir miktar (TEM) mantığına göre hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-142">Delivery alternatives are calculated based on the capable to promise (CTP) logic.</span></span> <span data-ttu-id="1fc4d-143">MRP açılımı kullanılabilirliği belirlemek üzere kullanılır.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-143">MRP explosion is used to determine availability.</span></span> <span data-ttu-id="1fc4d-144">En azından TEM mahsup işlemi teslimat tarihlerini satış sağlama süresine unutmayın.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-144">Note that, at a minimum, CTP offsets delivery dates to the sales lead time.</span></span> <span data-ttu-id="1fc4d-145">Taşıma günleri, teslimat şekline dayanarak hesaplanır.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-145">The transport days are calculated based on the mode of delivery.</span></span></li>
+<li><span data-ttu-id="1fc4d-146">Teslimat alternatifleri aşağıdaki ambarlar için önerileri içerir:</span><span class="sxs-lookup"><span data-stu-id="1fc4d-146">Delivery alternatives include suggestions for the following warehouses:</span></span>
 <ul>
-<li>Geçerli ambar</li>
-<li>Varsayılan ambar</li>
-<li>Elde stok bulunduran tüm ambarlar</li>
-<li>Tedarik emirleri olan tüm ambarlar</li>
-<li>Etkin ürün reçetesi (BOM) sürümlerine sahip tüm ambarlar</li>
+<li><span data-ttu-id="1fc4d-147">Geçerli ambar</span><span class="sxs-lookup"><span data-stu-id="1fc4d-147">Current warehouse</span></span></li>
+<li><span data-ttu-id="1fc4d-148">Varsayılan ambar</span><span class="sxs-lookup"><span data-stu-id="1fc4d-148">Default warehouse</span></span></li>
+<li><span data-ttu-id="1fc4d-149">Elde stok bulunduran tüm ambarlar</span><span class="sxs-lookup"><span data-stu-id="1fc4d-149">All warehouses that have available on-hand inventory</span></span></li>
+<li><span data-ttu-id="1fc4d-150">Tedarik emirleri olan tüm ambarlar</span><span class="sxs-lookup"><span data-stu-id="1fc4d-150">All warehouses that have supply orders</span></span></li>
+<li><span data-ttu-id="1fc4d-151">Etkin ürün reçetesi (BOM) sürümlerine sahip tüm ambarlar</span><span class="sxs-lookup"><span data-stu-id="1fc4d-151">All warehouses that have active bill of materials (BOM) versions</span></span></li>
 </ul></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="view-information-about-delivery-alternatives"></a>Teslimat alternatifleri hakkında bilgi görüntüle
-Bu bölüm, **Teslimat alternatifleri** sayfasının her sekmesinde bulunan teslimat alternatifleri hakkında bilgileri açıklamaktadır.
+## <a name="view-information-about-delivery-alternatives"></a><span data-ttu-id="1fc4d-152">Teslimat alternatifleri hakkında bilgi görüntüle</span><span class="sxs-lookup"><span data-stu-id="1fc4d-152">View information about delivery alternatives</span></span>
+<span data-ttu-id="1fc4d-153">Bu bölüm, **Teslimat alternatifleri** sayfasının her sekmesinde bulunan teslimat alternatifleri hakkında bilgileri açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-153">This section describes the information about delivery alternatives that is available on each tab of the **Delivery alternatives** page.</span></span>
 
-### <a name="products"></a>Ürünler
+### <a name="products"></a><span data-ttu-id="1fc4d-154">Ürünler</span><span class="sxs-lookup"><span data-stu-id="1fc4d-154">Products</span></span>
 
-Bu sekme, geçerli satış satırının ürün ve ayrıntılarının bir özetini gösterir.
+<span data-ttu-id="1fc4d-155">Bu sekme, geçerli satış satırının ürün ve ayrıntılarının bir özetini gösterir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-155">This tab shows a summary of the product and details of the current sales line.</span></span>
 
-### <a name="delivery-alternatives"></a>Teslimat alternatifleri
+### <a name="delivery-alternatives"></a><span data-ttu-id="1fc4d-156">Teslimat alternatifleri</span><span class="sxs-lookup"><span data-stu-id="1fc4d-156">Delivery alternatives</span></span>
 
-Bu sekme, giriş verisine göre sıralanan bir teslimat alternatiflerinin listesini gösterir. Listenin yukarısında, önerilerin hangi seçeneklere dayanacağını seçebilirsiniz. Ayrıca taşıma gününü belirleyen teslimat şeklini de seçebilirsiniz. Aşağıdaki seçenekler bulunur:
+<span data-ttu-id="1fc4d-157">Bu sekme, giriş verisine göre sıralanan bir teslimat alternatiflerinin listesini gösterir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-157">This tab shows a list of delivery alternatives that is sorted by receipt data.</span></span> <span data-ttu-id="1fc4d-158">Listenin yukarısında, önerilerin hangi seçeneklere dayanacağını seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-158">Above the list, you can select which options to base the suggestions on.</span></span> <span data-ttu-id="1fc4d-159">Ayrıca taşıma gününü belirleyen teslimat şeklini de seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-159">You can also select the mode of delivery, which determines the transport days.</span></span> <span data-ttu-id="1fc4d-160">Aşağıdaki seçenekler bulunur:</span><span class="sxs-lookup"><span data-stu-id="1fc4d-160">The following options are available:</span></span>
 
--   **Diğer ürün çeşitlerini dahil et** - Bu seçenek, ürün çeşitlerine sahip ürünler için kullanılabilir. Ürünün diğer çeşitlerinin teslimat alternatiflerini dahil eder. Bu seçenek TEM için kullanılamaz.
--   **Kısmi miktar dahil et** - Varsayılan olarak, yalnızca satış satırının tüm miktarını karşılayan öneriler dahil edilir. Bu seçeneği işaretleyerek, satış siparişini kısmi olarak karşılayan önerileri dahil edin. Müşteri daha erken bir teslimat tarihi talep ediyor ve kısmi teslimatı kabul ediyorsa, bu seçenek yararlıdır.
--   **Sonraki tarihleri dahil et** - Varsayılan olarak, yalnızca satış satırındaki tarihlerden daha iyi (erken) olan öneriler gösterilir. Sonraki tarihleri dahil etmek için bu seçeneği belirleyin. Bu seçenek, tarihten başka parametrelerin önceliği olduğunda yararlı olabilir. Örneğin, belirli bir satıcı veya ambar tercih edilebilir.
--   **Teslimat şekli** - Taşıma süresi ve maliyetini en iyi duruma getirmek için tercih edilen teslimat şeklini seçin. Önerilen teslimat alternatifleri üzerindeki etkisi hemen görünür. Bu nedenle, bu alternatifleri karşılaştırmak kolaydır.
--   **Tedariki dahil et** - Tedarik seçildiğinde, önerilen teslimat alternatifleri hem harici satıcıları ve hem de kuruluştaki diğer şirketleri (şirketlerarası) içerir. **Tedariki dahil et** seçeneği KM ve KM + çıkış marjı için desteklenir. Ürün için varsayılan satınalma satıcısından tüm tedarik seçenekleri ve ürün için tüm onaylanan satıcılar dahil edilir.
--   Harici satıcılar için, hesaplama satınalma sağlama süresine dayanır.
--   Hesaplama, sirketlerarası için tedarikçi şirketten nelerin kullanılabilir olduğunu, tedarikçi şirketin teslimat tarihi denetimine dayanarak dikkate alır.
--   **Teslimat türü** (Tedarik için ilgili)
-    -   **Stok** - Ürünler tedarikçi ambardan, satış hattındaki tesise/ambara sevk edilir. Daha sonra bu ambardan müşteriye sevk edilir.
-    -   **Doğrudan teslim** - Ürünler doğrudan tedarikçi ambardan müşteriye sevk edilir.
+-   <span data-ttu-id="1fc4d-161">**Diğer ürün çeşitlerini dahil et** - Bu seçenek, ürün çeşitlerine sahip ürünler için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-161">**Include other product variants** - This option is available for products that have product variants.</span></span> <span data-ttu-id="1fc4d-162">Ürünün diğer çeşitlerinin teslimat alternatiflerini dahil eder.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-162">It will include delivery alternatives for other variants of the product.</span></span> <span data-ttu-id="1fc4d-163">Bu seçenek TEM için kullanılamaz.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-163">This option isn't available for CTP.</span></span>
+-   <span data-ttu-id="1fc4d-164">**Kısmi miktar dahil et** - Varsayılan olarak, yalnızca satış satırının tüm miktarını karşılayan öneriler dahil edilir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-164">**Include partial quantity** - By default, only suggestions that fulfill the full quantity of the sales line are included.</span></span> <span data-ttu-id="1fc4d-165">Bu seçeneği işaretleyerek, satış siparişini kısmi olarak karşılayan önerileri dahil edin.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-165">Select this option to include suggestions that only partially fulfill the order line.</span></span> <span data-ttu-id="1fc4d-166">Müşteri daha erken bir teslimat tarihi talep ediyor ve kısmi teslimatı kabul ediyorsa, bu seçenek yararlıdır.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-166">This option is useful when the customer requests an earlier delivery date and accepts partial delivery.</span></span>
+-   <span data-ttu-id="1fc4d-167">**Sonraki tarihleri dahil et** - Varsayılan olarak, yalnızca satış satırındaki tarihlerden daha iyi (erken) olan öneriler gösterilir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-167">**Include later dates** - By default, only suggestions that are better (earlier) than the current dates on the sales line are shown.</span></span> <span data-ttu-id="1fc4d-168">Sonraki tarihleri dahil etmek için bu seçeneği belirleyin.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-168">Select this option to include later dates.</span></span> <span data-ttu-id="1fc4d-169">Bu seçenek, tarihten başka parametrelerin önceliği olduğunda yararlı olabilir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-169">This option can be useful in situations where parameters other than the date have priority.</span></span> <span data-ttu-id="1fc4d-170">Örneğin, belirli bir satıcı veya ambar tercih edilebilir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-170">For example, a specific vendor or warehouse might be preferred.</span></span>
+-   <span data-ttu-id="1fc4d-171">**Teslimat şekli** - Taşıma süresi ve maliyetini en iyi duruma getirmek için tercih edilen teslimat şeklini seçin.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-171">**Mode of delivery** - Select the preferred mode of delivery to optimize transport time and cost.</span></span> <span data-ttu-id="1fc4d-172">Önerilen teslimat alternatifleri üzerindeki etkisi hemen görünür.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-172">You will immediately see the effect on the suggested delivery alternatives.</span></span> <span data-ttu-id="1fc4d-173">Bu nedenle, bu alternatifleri karşılaştırmak kolaydır.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-173">Therefore, it's easy to compare the alternatives.</span></span>
+-   <span data-ttu-id="1fc4d-174">**Tedariki dahil et** - Tedarik seçildiğinde, önerilen teslimat alternatifleri hem harici satıcıları ve hem de kuruluştaki diğer şirketleri (şirketlerarası) içerir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-174">**Include procurement** - When procurement is selected, the suggested delivery alternatives include options to procure from both external vendors and other companies in the enterprise (intercompany).</span></span> <span data-ttu-id="1fc4d-175">**Tedariki dahil et** seçeneği KM ve KM + çıkış marjı için desteklenir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-175">The **Include procurement** option is supported for ATP and ATP + Issue margin delivery date control.</span></span> <span data-ttu-id="1fc4d-176">Ürün için varsayılan satınalma satıcısından tüm tedarik seçenekleri ve ürün için tüm onaylanan satıcılar dahil edilir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-176">Procurement options from the default purchase vendor for the product and all approved vendors for the product are included.</span></span>
+-   <span data-ttu-id="1fc4d-177">Harici satıcılar için, hesaplama satınalma sağlama süresine dayanır.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-177">For external vendors, the calculation is based on the purchase lead time.</span></span>
+-   <span data-ttu-id="1fc4d-178">Hesaplama, sirketlerarası için tedarikçi şirketten nelerin kullanılabilir olduğunu, tedarikçi şirketin teslimat tarihi denetimine dayanarak dikkate alır.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-178">For intercompany, the calculation considers what is available from the sourcing company, based on delivery date control in the sourcing company.</span></span>
+-   <span data-ttu-id="1fc4d-179">**Teslimat türü** (Tedarik için ilgili)</span><span class="sxs-lookup"><span data-stu-id="1fc4d-179">**Delivery type** (Relevant for procurement)</span></span>
+    -   <span data-ttu-id="1fc4d-180">**Stok** - Ürünler tedarikçi ambardan, satış hattındaki tesise/ambara sevk edilir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-180">**Stock** - Products are shipped from the sourcing warehouse to the site/warehouse on the sales line.</span></span> <span data-ttu-id="1fc4d-181">Daha sonra bu ambardan müşteriye sevk edilir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-181">They are then shipped from that warehouse to the customer.</span></span>
+    -   <span data-ttu-id="1fc4d-182">**Doğrudan teslim** - Ürünler doğrudan tedarikçi ambardan müşteriye sevk edilir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-182">**Direct delivery** - Products are shipped directly from the sourcing warehouse to the customer.</span></span>
 
-### <a name="availability-information"></a>Kullanılabilirlikle ilgili bilgiler
+### <a name="availability-information"></a><span data-ttu-id="1fc4d-183">Kullanılabilirlikle ilgili bilgiler</span><span class="sxs-lookup"><span data-stu-id="1fc4d-183">Availability information</span></span>
 
-Bu sekme üzerindeki bilgi, seçilen teslimat alternatif satırıyla ilişkilidir. Satış satırındaki teslimat tarihi denetimine bağlı olarak aşağıdaki bilgiler gösterilir:
+<span data-ttu-id="1fc4d-184">Bu sekme üzerindeki bilgi, seçilen teslimat alternatif satırıyla ilişkilidir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-184">Information on this tab is related to the delivery alternative line that is selected.</span></span> <span data-ttu-id="1fc4d-185">Satış satırındaki teslimat tarihi denetimine bağlı olarak aşağıdaki bilgiler gösterilir:</span><span class="sxs-lookup"><span data-stu-id="1fc4d-185">The following information is shown, depending on the delivery date control for the sales line:</span></span>
 
--   **Satış sağlama süresi**
-    -   **Bugün kullanılabilir** - Eldeki fiziksel, fiziksel rezerve ve kullanılabilir fiziksel stoku göster.
-    -   **Parametreler** - Stok birimi ve satış sağlama sürelerini göster.
+-   <span data-ttu-id="1fc4d-186">**Satış sağlama süresi**</span><span class="sxs-lookup"><span data-stu-id="1fc4d-186">**Sales lead time**</span></span>
+    -   <span data-ttu-id="1fc4d-187">**Bugün kullanılabilir** - Eldeki fiziksel, fiziksel rezerve ve kullanılabilir fiziksel stoku göster.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-187">**Available today** - Show the current physical on-hand, physical reserved, and available physical inventory.</span></span>
+    -   <span data-ttu-id="1fc4d-188">**Parametreler** - Stok birimi ve satış sağlama sürelerini göster.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-188">**Parameters** - Show the inventory unit and sales lead time.</span></span>
 
--   **KM ve KM + çıkış marjı**
-    -   **Bugün kullanılabilir** - Eldeki fiziksel, fiziksel rezerve ve kullanılabilir fiziksel stoku göster.
-    -   **Parametreler** - Stok birimi ve satış sağlama sürelerini göster.
-    -   **Gelecekteki kullanılabilirlik** - **Teslimat alternatifleri** altında seçili tesis ve ambar için mevcut ve gelecek kullanılabilirliğin görsel bir temsilini göster. Ürünün gelecekteki bulunabilirliği hakkında daha ayrıntılı bilgi görmek için grafik sütunlarına tıklayabilirsiniz. Kaydırıcı, KM zaman dilimi içerisinde ilgili arz ve talep siparişlerinin listesini gösterir.
+-   <span data-ttu-id="1fc4d-189">**KM ve KM + çıkış marjı**</span><span class="sxs-lookup"><span data-stu-id="1fc4d-189">**ATP and ATP + Issue margin**</span></span>
+    -   <span data-ttu-id="1fc4d-190">**Bugün kullanılabilir** - Eldeki fiziksel, fiziksel rezerve ve kullanılabilir fiziksel stoku göster.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-190">**Available today** - Show the current physical on-hand, physical reserved, and available physical inventory.</span></span>
+    -   <span data-ttu-id="1fc4d-191">**Parametreler** - Stok birimi ve satış sağlama sürelerini göster.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-191">**Parameters** - Show the inventory unit and sales lead time.</span></span>
+    -   <span data-ttu-id="1fc4d-192">**Gelecekteki kullanılabilirlik** - **Teslimat alternatifleri** altında seçili tesis ve ambar için mevcut ve gelecek kullanılabilirliğin görsel bir temsilini göster.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-192">**Future availability** - Show a graphical representation of current and future availability for the selected site and warehouse under **Delivery alternatives**.</span></span> <span data-ttu-id="1fc4d-193">Ürünün gelecekteki bulunabilirliği hakkında daha ayrıntılı bilgi görmek için grafik sütunlarına tıklayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-193">You can click the chart columns to see more detailed information about the future availability of the product.</span></span> <span data-ttu-id="1fc4d-194">Kaydırıcı, KM zaman dilimi içerisinde ilgili arz ve talep siparişlerinin listesini gösterir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-194">The slider shows a list of relevant demand and supply orders within the ATP time fence.</span></span>
 
--   **TEM**
-    -   **Bugün kullanılabilir** - Eldeki fiziksel, fiziksel rezerve ve kullanılabilir fiziksel stoku göster.
-    -   **Parametreler** - Stok birimi ve satış sağlama sürelerini göster.
-    -   **Açılım** - Seçilen teslimat alternatifi için bir tedarik açılımı göster. Açılımda gösterilen alanları ve stok boyutlarını değiştirmek için **Kurulum**'u kullanabilirsiniz.
+-   <span data-ttu-id="1fc4d-195">**TEM**</span><span class="sxs-lookup"><span data-stu-id="1fc4d-195">**CTP**</span></span>
+    -   <span data-ttu-id="1fc4d-196">**Bugün kullanılabilir** - Eldeki fiziksel, fiziksel rezerve ve kullanılabilir fiziksel stoku göster.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-196">**Available today** - Show the current physical on-hand, physical reserved, and available physical inventory.</span></span>
+    -   <span data-ttu-id="1fc4d-197">**Parametreler** - Stok birimi ve satış sağlama sürelerini göster.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-197">**Parameters** - Show the inventory unit and sales lead time.</span></span>
+    -   <span data-ttu-id="1fc4d-198">**Açılım** - Seçilen teslimat alternatifi için bir tedarik açılımı göster.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-198">**Explosion** - Show a supply explosion of the selected delivery alternative.</span></span> <span data-ttu-id="1fc4d-199">Açılımda gösterilen alanları ve stok boyutlarını değiştirmek için **Kurulum**'u kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-199">You can use **Setup** to change the fields and inventory dimensions that are shown in the explosion.</span></span>
 
-### <a name="impact-of-selected-alternative"></a>Seçilen alternatifin etkisi
+### <a name="impact-of-selected-alternative"></a><span data-ttu-id="1fc4d-200">Seçilen alternatifin etkisi</span><span class="sxs-lookup"><span data-stu-id="1fc4d-200">Impact of selected alternative</span></span>
 
-Bu sekme, seçili teslimat alternatifinin etkisini vurgular. **Tamam** üzerine tıklarsanız, satış satırı SEÇİLİ sütunlarındaki vurgulanan değerler ile güncelleştirilir. Seçilen teslimat alternatifindeki miktar, satış satırındaki miktardan az ise, bir teslimat planının oluşturulacağını ve sipariş satırının iki satıra ayrılacağını unutmayın: bir satır seçilen miktar için ve bir satır kalan miktar için. Ticari satırı da planlı satırlar ile eşleşecek ve böylece fiyatlandırmayı etkileyecek şekilde güncelleştirebilirsiniz.
+<span data-ttu-id="1fc4d-201">Bu sekme, seçili teslimat alternatifinin etkisini vurgular.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-201">This tab highlights the impact of the selected delivery alternative.</span></span> <span data-ttu-id="1fc4d-202">**Tamam** üzerine tıklarsanız, satış satırı SEÇİLİ sütunlarındaki vurgulanan değerler ile güncelleştirilir.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-202">If you click **OK**, the sales line is updated with the highlighted values in the SELECTED columns.</span></span> <span data-ttu-id="1fc4d-203">Seçilen teslimat alternatifindeki miktar, satış satırındaki miktardan az ise, bir teslimat planının oluşturulacağını ve sipariş satırının iki satıra ayrılacağını unutmayın: bir satır seçilen miktar için ve bir satır kalan miktar için.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-203">Note that, if the quantity on the selected delivery alternative is less than quantity on the sales line, a delivery schedule is created, and the order line is split into two lines: one line for the selected quantity and one line for the remaining quantity.</span></span> <span data-ttu-id="1fc4d-204">Ticari satırı da planlı satırlar ile eşleşecek ve böylece fiyatlandırmayı etkileyecek şekilde güncelleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-204">You can also update the commercial line so that it matches the schedule lines and affects the pricing.</span></span>
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="see-also"></a><span data-ttu-id="1fc4d-205">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="1fc4d-205">See also</span></span>
 --------
 
-[Sipariş taahhüdü](delivery-dates-available-promise-calculations.md)
+[<span data-ttu-id="1fc4d-206">Sipariş taahhüdü</span><span class="sxs-lookup"><span data-stu-id="1fc4d-206">Order promising</span></span>](delivery-dates-available-promise-calculations.md)
 
 
 

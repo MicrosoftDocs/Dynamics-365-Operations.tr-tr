@@ -1,4 +1,4 @@
---- 
+---
 title: "Ambardaki stoğu sayma"
 description: "Bu yordam, ambarda bir yerleşimdeki belirli bir ürünün sayımını yapmak için stok sayım günlüğü oluşturma ve deftere nakletme işlemini adım adım açıklar."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,56 +17,55 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 1d2ecf1cd80e05b59f206fb5f684d6a86fa5733e
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: fa72cb0d651f5e60797fa41f6e2b2cf1891730b5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="count-inventory-in-a-warehouse"></a>Ambardaki stoğu sayma
+# <a name="count-inventory-in-a-warehouse"></a><span data-ttu-id="20767-103">Ambardaki stoğu sayma</span><span class="sxs-lookup"><span data-stu-id="20767-103">Count inventory in a warehouse</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, ambarda bir yerleşimdeki belirli bir ürünün sayımını yapmak için stok sayım günlüğü oluşturma ve deftere nakletme işlemini adım adım açıklar. Yordam, "temel depolama" işlevi içindir ve Stok Yönetimi modülünde yer alır; Ambar Yönetimi modülünde bulunan ambarlama işlevi için geçerli değildir. Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz. Kendi verilerinizi kullanıyorsanız, ürünlerin ve yerleşimlerin ayarlandığından ve sayım günlükleri için bir stok günlüğü adı oluşturduğunuzdan emin olun. Stok sayımı normalde bir ambar çalışanı tarafından gerçekleştirilir.
+<span data-ttu-id="20767-104">Bu yordam, ambarda bir yerleşimdeki belirli bir ürünün sayımını yapmak için stok sayım günlüğü oluşturma ve deftere nakletme işlemini adım adım açıklar.</span><span class="sxs-lookup"><span data-stu-id="20767-104">This procedure walks you through the process of creating and posting an inventory counting journal in order to count a specific item at a location in the warehouse.</span></span> <span data-ttu-id="20767-105">Yordam, "temel depolama" işlevi içindir ve Stok Yönetimi modülünde yer alır; Ambar Yönetimi modülünde bulunan ambarlama işlevi için geçerli değildir.</span><span class="sxs-lookup"><span data-stu-id="20767-105">The procedure applies to “basic warehousing” functionality, available in the Inventory management module, not to the warehousing functionality that’s available in the Warehouse management module.</span></span> <span data-ttu-id="20767-106">Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="20767-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="20767-107">Kendi verilerinizi kullanıyorsanız, ürünlerin ve yerleşimlerin ayarlandığından ve sayım günlükleri için bir stok günlüğü adı oluşturduğunuzdan emin olun.</span><span class="sxs-lookup"><span data-stu-id="20767-107">If you’re using your own data, make sure that you have products and locations set up, and that you’ve created an inventory journal name for counting journals.</span></span> <span data-ttu-id="20767-108">Stok sayımı normalde bir ambar çalışanı tarafından gerçekleştirilir.</span><span class="sxs-lookup"><span data-stu-id="20767-108">Inventory counting is normally carried out by a warehouse employee.</span></span>
 
 
-## <a name="create-an-inventory-counting-journal"></a>Stok sayım günlüğü oluşturma
-1. Stok Yönetimi > Günlük girişleri > Ürün sayımı > Sayım'a gidin.
-2. Yeni'ye tıklayın.
-3. Ad alanında, açılır menü düğmesine tıklayarak aramayı açın.
-4. Listede, kullanmak istediğiniz stok sayım günlüğünün adını tıklatın.
-    * Diğer bazı alanlar, seçtiğiniz stok sayımı günlük adı kurulumu temel alınarak doldurulur.  
-5. Çalışan alanında, aramayı açmak için açılır menü düğmesini tıklatın.
-6. Listede kullanmak istediğiniz çalışanı seçin.
-7. Seç'e tıklayın.
-8. Tamam'a tıklayın.
+## <a name="create-an-inventory-counting-journal"></a><span data-ttu-id="20767-109">Stok sayım günlüğü oluşturma</span><span class="sxs-lookup"><span data-stu-id="20767-109">Create an inventory counting journal</span></span>
+1. <span data-ttu-id="20767-110">Stok Yönetimi > Günlük girişleri > Ürün sayımı > Sayım'a gidin.</span><span class="sxs-lookup"><span data-stu-id="20767-110">Go to Inventory management > Journal entries > Item counting > Counting.</span></span>
+2. <span data-ttu-id="20767-111">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="20767-111">Click New.</span></span>
+3. <span data-ttu-id="20767-112">Ad alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="20767-112">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="20767-113">Listede, kullanmak istediğiniz stok sayım günlüğünün adını tıklatın.</span><span class="sxs-lookup"><span data-stu-id="20767-113">In the list, click on the inventory counting journal name you want to use</span></span>
+    * <span data-ttu-id="20767-114">Diğer bazı alanlar, seçtiğiniz stok sayımı günlük adı kurulumu temel alınarak doldurulur.</span><span class="sxs-lookup"><span data-stu-id="20767-114">Some other fields will be populated based on the setup of the inventory counting journal name that you select.</span></span>  
+5. <span data-ttu-id="20767-115">Çalışan alanında, aramayı açmak için açılır menü düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="20767-115">In the Worker field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="20767-116">Listede kullanmak istediğiniz çalışanı seçin.</span><span class="sxs-lookup"><span data-stu-id="20767-116">In the list, select the worker you want to use.</span></span>
+7. <span data-ttu-id="20767-117">Seç'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="20767-117">Click Select.</span></span>
+8. <span data-ttu-id="20767-118">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="20767-118">Click OK.</span></span>
 
-## <a name="create-journal-lines"></a>Günlük satırları oluştur
-1. Yeni'ye tıklayın.
-2. Madde numarası alanında, açılır menü düğmesine tıklayarak aramayı açın.
-3. Listede, istenen kaydı bulun ve seçin.
-    * Demo verileri şirket USMF'yi kullanıyorsanız, 'A0001' öğesini seçin.  
-4. Tesis alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-5. Listede, istenen kaydı bulun ve seçin.
-    * Demo verileri şirket USMF'yi kullanıyorsanız, tesis '2' öğesini seçin.  
-6. Ambar alanında, açılır menü düğmesine tıklayarak aramayı açın.
-7. Listede, istenen kaydı bulun ve seçin.
-    * Demo verileri şirket USMF'yi kullanıyorsanız, ambar '24' öğesini seçin.  
-8. Yerleşim alanında, açılır menü düğmesine tıklayarak aramayı açın.
-9. Listede, istenen kaydı bulun ve seçin.
-    * Demo verileri şirket USMF'yi kullanıyorsanız, yerleşim 'BULK-001' öğesini seçin.  
-10. Sayılan alanında bir sayı girin.
-    * Eldeki ürün alanında gösterilen sayıdan farklı bir sayım rakamı girerseniz, Miktar alanı uyuşmazlığı gösterecek şekilde güncelleştirilir.  
-11. Kaydet'e tıklayın.
+## <a name="create-journal-lines"></a><span data-ttu-id="20767-119">Günlük satırları oluştur</span><span class="sxs-lookup"><span data-stu-id="20767-119">Create journal lines</span></span>
+1. <span data-ttu-id="20767-120">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="20767-120">Click New.</span></span>
+2. <span data-ttu-id="20767-121">Madde numarası alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="20767-121">In the Item number field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="20767-122">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="20767-122">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="20767-123">Demo verileri şirket USMF'yi kullanıyorsanız, 'A0001' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="20767-123">If you are using demo data company USMF, select 'A0001'.</span></span>  
+4. <span data-ttu-id="20767-124">Tesis alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="20767-124">In the Site field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="20767-125">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="20767-125">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="20767-126">Demo verileri şirket USMF'yi kullanıyorsanız, tesis '2' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="20767-126">If you are using demo data company USMF, select site '2'.</span></span>  
+6. <span data-ttu-id="20767-127">Ambar alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="20767-127">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="20767-128">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="20767-128">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="20767-129">Demo verileri şirket USMF'yi kullanıyorsanız, ambar '24' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="20767-129">If you are using demo data company USMF, select warehouse '24'.</span></span>  
+8. <span data-ttu-id="20767-130">Yerleşim alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="20767-130">In the Location field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="20767-131">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="20767-131">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="20767-132">Demo verileri şirket USMF'yi kullanıyorsanız, yerleşim 'BULK-001' öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="20767-132">If you are using demo data company USMF, select location 'BULK-001'</span></span>  
+10. <span data-ttu-id="20767-133">Sayılan alanında bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="20767-133">In the Counted field, enter a number.</span></span>
+    * <span data-ttu-id="20767-134">Eldeki ürün alanında gösterilen sayıdan farklı bir sayım rakamı girerseniz, Miktar alanı uyuşmazlığı gösterecek şekilde güncelleştirilir.</span><span class="sxs-lookup"><span data-stu-id="20767-134">If you enter a counted number that’s different to the number shown in the On-hand field, the Quantity field is updated to show the discrepancy.</span></span>  
+11. <span data-ttu-id="20767-135">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="20767-135">Click Save.</span></span>
 
-## <a name="post-the-inventory-counting-journal"></a>Stok sayım günlüğünü deftere nakletme
-1. Deftere Naklet öğesine tıklayın.
-    * Bir stok sayım günlüğünü deftere naklettiğinizde, sayım miktarı Eldeki ürün alanında belirtilenden farklıysa deftere bir stok girişi veya sorun nakledilir, stok düzeyi ve değer değiştirilir ve genel muhasebe hareketleri oluşturulur.  
-2. Tamam'a tıklayın.
+## <a name="post-the-inventory-counting-journal"></a><span data-ttu-id="20767-136">Stok sayım günlüğünü deftere nakletme</span><span class="sxs-lookup"><span data-stu-id="20767-136">Post the inventory counting journal</span></span>
+1. <span data-ttu-id="20767-137">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="20767-137">Click Post.</span></span>
+    * <span data-ttu-id="20767-138">Bir stok sayım günlüğünü deftere naklettiğinizde, sayım miktarı Eldeki ürün alanında belirtilenden farklıysa deftere bir stok girişi veya sorun nakledilir, stok düzeyi ve değer değiştirilir ve genel muhasebe hareketleri oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="20767-138">When you post an inventory counting journal, if the counted amount differs from amount that’s reported in the On-hand field an inventory receipt or issue is posted, the inventory level and value are changed, and ledger transactions are generated.</span></span>  
+2. <span data-ttu-id="20767-139">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="20767-139">Click OK.</span></span>
 
-## <a name="view-inventory-transactions"></a>Stok hareketlerini görüntüle
-1. Stok'u tıklatın.
-2. Hareketler'e tıklayın.
-    * Burada, stok sayım günlüğünüzü deftere naklettiğinizde oluşturulacak tüm ilgili hareketleri görebilirsiniz.   
-
+## <a name="view-inventory-transactions"></a><span data-ttu-id="20767-140">Stok hareketlerini görüntüle</span><span class="sxs-lookup"><span data-stu-id="20767-140">View inventory transactions</span></span>
+1. <span data-ttu-id="20767-141">Stok'u tıklatın.</span><span class="sxs-lookup"><span data-stu-id="20767-141">Click Inventory.</span></span>
+2. <span data-ttu-id="20767-142">Hareketler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="20767-142">Click Transactions.</span></span>
+    * <span data-ttu-id="20767-143">Burada, stok sayım günlüğünüzü deftere naklettiğinizde oluşturulacak tüm ilgili hareketleri görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="20767-143">Here you can see any related transactions that will be created when you post your inventory counting journal.</span></span>   
 

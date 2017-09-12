@@ -18,131 +18,131 @@ ms.author: aevengir
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: dbedf75a6f61a9e2bc644056f0dd1e7499cedc42
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6019634c47bd97fb16ea8aaf029ea176f095b8b6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="cost-controlling-mobile-workspace"></a>Mobil çalışma alanının maliyet denetimi
+# <a name="cost-controlling-mobile-workspace"></a><span data-ttu-id="c57eb-104">Mobil çalışma alanının maliyet denetimi</span><span class="sxs-lookup"><span data-stu-id="c57eb-104">Cost controlling mobile workspace</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, **Maliyet denetleme** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, maliyet merkezi yöneticilerinin maliyet merkezi performansı hakkındaki bilgileri her zaman ve her yerde görebilmelerini sağlar.
+<span data-ttu-id="c57eb-105">Bu konu, **Maliyet denetleme** mobil çalışma alanı hakkında bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="c57eb-105">This topic provides information about the **Cost controlling** mobile workspace.</span></span> <span data-ttu-id="c57eb-106">Bu çalışma alanı, maliyet merkezi yöneticilerinin maliyet merkezi performansı hakkındaki bilgileri her zaman ve her yerde görebilmelerini sağlar.</span><span class="sxs-lookup"><span data-stu-id="c57eb-106">This workspace lets cost center managers view information about cost center performance anytime and anywhere.</span></span>
 
-Bu mobil çalışma alanı, Microsoft Dynamics 365 for Unified Operations mobil uygulaması ile kullanılmak üzere geliştirilmiştir.
+<span data-ttu-id="c57eb-107">Bu mobil çalışma alanı, Microsoft Dynamics 365 for Unified Operations mobil uygulaması ile kullanılmak üzere geliştirilmiştir.</span><span class="sxs-lookup"><span data-stu-id="c57eb-107">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
-## <a name="overview"></a>Özet
-**Maliyet denetleme** mobil çalışma alanı, maliyet merkezlerinin mevcut performansı hakkında anında bilgiyi, ffili maliyetleri, bütçelendirilmiş maliyete kıyaslayarak sağlar. Tekil maliyet öğelerinin durumunun detayına inebilirsiniz.
+## <a name="overview"></a><span data-ttu-id="c57eb-108">Özet</span><span class="sxs-lookup"><span data-stu-id="c57eb-108">Overview</span></span>
+<span data-ttu-id="c57eb-109">**Maliyet denetleme** mobil çalışma alanı, maliyet merkezlerinin mevcut performansı hakkında anında bilgiyi, ffili maliyetleri, bütçelendirilmiş maliyete kıyaslayarak sağlar.</span><span class="sxs-lookup"><span data-stu-id="c57eb-109">The **Cost controlling** mobile workspace provides an instant view of the current performance of cost centers by comparing actual costs against the budgeted costs.</span></span> <span data-ttu-id="c57eb-110">Tekil maliyet öğelerinin durumunun detayına inebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c57eb-110">You can drill down to the status of individual cost elements.</span></span>
 
-Örneğin, bir personel uluslararası bir konferansa davetiye almıştır ancak kuruluşun tüm seyahat masraflarını üstlenmesi gerekir. Personel, yöneticisi kendi konferansa katılıp katılamayacağını sorar. Yönetici, personelin konferansa katılması için bütçeye sahip olup olmadığını görmek için mobil cihazında **Maliyet denetimi** mobil çalışma alanını açar.
+<span data-ttu-id="c57eb-111">Örneğin, bir personel uluslararası bir konferansa davetiye almıştır ancak kuruluşun tüm seyahat masraflarını üstlenmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="c57eb-111">For example, an employee receives an invitation to an international conference, but the organization must cover all the travel expenses.</span></span> <span data-ttu-id="c57eb-112">Personel, yöneticisi kendi konferansa katılıp katılamayacağını sorar.</span><span class="sxs-lookup"><span data-stu-id="c57eb-112">The employee asks his manager whether he can attend the conference.</span></span> <span data-ttu-id="c57eb-113">Yönetici, personelin konferansa katılması için bütçeye sahip olup olmadığını görmek için mobil cihazında **Maliyet denetimi** mobil çalışma alanını açar.</span><span class="sxs-lookup"><span data-stu-id="c57eb-113">The manager opens the **Cost controlling** mobile workspace on her mobile device to see whether she has budget for the employee to attend the conference.</span></span>
 
-### <a name="data-security"></a>Veri güvenliği
-**Maliyet denetimi** mobil çalışma alanındaki veriler, kullanıcı kimlik bilgileriyle güvenlik altına alınır. Maliyet merkezi yöneticilerinin yalnızca kendi maliyet merkezleri için verileri görmelerine izin verilir. Erişim düzeyi güvenliği **Maliyet muhasebesi** modülünde yönetilir.
+### <a name="data-security"></a><span data-ttu-id="c57eb-114">Veri güvenliği</span><span class="sxs-lookup"><span data-stu-id="c57eb-114">Data security</span></span>
+<span data-ttu-id="c57eb-115">**Maliyet denetimi** mobil çalışma alanındaki veriler, kullanıcı kimlik bilgileriyle güvenlik altına alınır.</span><span class="sxs-lookup"><span data-stu-id="c57eb-115">The data in the **Cost controlling** mobile workspace is secured through user credentials.</span></span> <span data-ttu-id="c57eb-116">Maliyet merkezi yöneticilerinin yalnızca kendi maliyet merkezleri için verileri görmelerine izin verilir.</span><span class="sxs-lookup"><span data-stu-id="c57eb-116">Cost center managers are allowed to see data only for their own cost center.</span></span> <span data-ttu-id="c57eb-117">Erişim düzeyi güvenliği **Maliyet muhasebesi** modülünde yönetilir.</span><span class="sxs-lookup"><span data-stu-id="c57eb-117">The access-level security is managed in the **Cost accounting** module.</span></span>
 
-Maliyet muhasebecileri, **Maliyet muhasebesi** modülünde **Maliyet denetimi** mobil çalışma alanının yapılandırmasını tanımlar. Çalışma alanı mobil uygulamada yayımlandıktan sonra, uygulamada kullanılabilir. Bu sayede, kuruluşunuzdaki tüm maliyet merkezi yöneticilerinin aynı biçimdeki veriyi görüntüleyebilirler.
+<span data-ttu-id="c57eb-118">Maliyet muhasebecileri, **Maliyet muhasebesi** modülünde **Maliyet denetimi** mobil çalışma alanının yapılandırmasını tanımlar.</span><span class="sxs-lookup"><span data-stu-id="c57eb-118">Cost accountants define the configuration of the **Cost controlling** mobile workspace in the **Cost accounting** module.</span></span> <span data-ttu-id="c57eb-119">Çalışma alanı mobil uygulamada yayımlandıktan sonra, uygulamada kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="c57eb-119">After the workspace is published to the mobile app, it's available in the app.</span></span> <span data-ttu-id="c57eb-120">Bu sayede, kuruluşunuzdaki tüm maliyet merkezi yöneticilerinin aynı biçimdeki veriyi görüntüleyebilirler.</span><span class="sxs-lookup"><span data-stu-id="c57eb-120">Therefore, all cost center managers in the organization can view data in the same format.</span></span>
 
-### <a name="actions-views-and-links"></a>Eylemler, görünümler ve bağlantılar
-**Maliyet denetleme** mobil çalışma alanı aşağıdaki eylemleri, görünümleri ve bağlantıları sağlar:
+### <a name="actions-views-and-links"></a><span data-ttu-id="c57eb-121">Eylemler, görünümler ve bağlantılar</span><span class="sxs-lookup"><span data-stu-id="c57eb-121">Actions, views, and links</span></span>
+<span data-ttu-id="c57eb-122">**Maliyet denetleme** mobil çalışma alanı aşağıdaki eylemleri, görünümleri ve bağlantıları sağlar:</span><span class="sxs-lookup"><span data-stu-id="c57eb-122">The **Cost controlling** mobile workspace provides the following actions, views, and links:</span></span>
 
--   **Eylemler:**
+-   <span data-ttu-id="c57eb-123">**Eylemler:**</span><span class="sxs-lookup"><span data-stu-id="c57eb-123">**Actions:**</span></span>
 
-    -   Düzeni seçmek için **Yapılandırmayı seç**'i kullanın.
-    -   **Maliyet nesnesini seç**'i, verinin filtreleneceği maliyet merkezini seçmek için kullanın.
+    -   <span data-ttu-id="c57eb-124">Düzeni seçmek için **Yapılandırmayı seç**'i kullanın.</span><span class="sxs-lookup"><span data-stu-id="c57eb-124">Use **Select configuration** to select a layout.</span></span>
+    -   <span data-ttu-id="c57eb-125">**Maliyet nesnesini seç**'i, verinin filtreleneceği maliyet merkezini seçmek için kullanın.</span><span class="sxs-lookup"><span data-stu-id="c57eb-125">Use **Select cost object** to select the cost centers to filter data on.</span></span>
     
         > [!NOTE]
-        > Listede görünen maliyet merkezleri, **Maliyet muhasebesi** modülünde verilmiş olan erişime bağlıdır.
+        > <span data-ttu-id="c57eb-126">Listede görünen maliyet merkezleri, **Maliyet muhasebesi** modülünde verilmiş olan erişime bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="c57eb-126">The cost centers that appear in the list depend on the access that is granted in the **Cost accounting** module.</span></span>
 
--   **Görünümler:** **Maliyet muhasebesi** modülünün yapılandırmasında seçilen eylemlere dayanarak, kartlarda aşağıdaki bilgileri görüntüleyebilirsiniz:
+-   <span data-ttu-id="c57eb-127">**Görünümler:** **Maliyet muhasebesi** modülünün yapılandırmasında seçilen eylemlere dayanarak, kartlarda aşağıdaki bilgileri görüntüleyebilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="c57eb-127">**Views:** Based on the actions that are selected and the configuration in the **Cost accounting** module, you can view the following information on the cards:</span></span>
 
-    -   Gerçek tutar ile bütçe karşılaştırması (geçerli dönem)
-    -   Gerçek tutar ile düzeltilmiş bütçe karşılaştırması (geçerli dönem)
-    -   Fiili - bütçe (önceki dönem) karşılaştırması
-    -   Fiili - revize edilmiş bütçe (önceki dönem) karşılaştırması
-    -   Fiili - bütçe (günümüze kadar yıl) karşılaştırması
-    -   Fiili - revize edilmiş bütçe (günümüze kadar yıl) karşılaştırması
+    -   <span data-ttu-id="c57eb-128">Gerçek tutar ile bütçe karşılaştırması (geçerli dönem)</span><span class="sxs-lookup"><span data-stu-id="c57eb-128">Actual vs budget (current period)</span></span>
+    -   <span data-ttu-id="c57eb-129">Gerçek tutar ile düzeltilmiş bütçe karşılaştırması (geçerli dönem)</span><span class="sxs-lookup"><span data-stu-id="c57eb-129">Actual vs revised budget (current period)</span></span>
+    -   <span data-ttu-id="c57eb-130">Fiili - bütçe (önceki dönem) karşılaştırması</span><span class="sxs-lookup"><span data-stu-id="c57eb-130">Actual vs budget (previous period)</span></span>
+    -   <span data-ttu-id="c57eb-131">Fiili - revize edilmiş bütçe (önceki dönem) karşılaştırması</span><span class="sxs-lookup"><span data-stu-id="c57eb-131">Actual vs revised budget (previous period)</span></span>
+    -   <span data-ttu-id="c57eb-132">Fiili - bütçe (günümüze kadar yıl) karşılaştırması</span><span class="sxs-lookup"><span data-stu-id="c57eb-132">Actual vs budget (year to date)</span></span>
+    -   <span data-ttu-id="c57eb-133">Fiili - revize edilmiş bütçe (günümüze kadar yıl) karşılaştırması</span><span class="sxs-lookup"><span data-stu-id="c57eb-133">Actual vs revised budget (year to date)</span></span>
 
-    Aşağıda tutarlar tüm kartlar üzerinde gösterilir: Fiili, Bütçe, Fark ve Fark %'si.
+    <span data-ttu-id="c57eb-134">Aşağıda tutarlar tüm kartlar üzerinde gösterilir: Fiili, Bütçe, Fark ve Fark %'si.</span><span class="sxs-lookup"><span data-stu-id="c57eb-134">The following amounts are shown on every card: Actual, Budget, Variance, and Variance %.</span></span>
 
--   **Bağlantılar:**
+-   <span data-ttu-id="c57eb-135">**Bağlantılar:**</span><span class="sxs-lookup"><span data-stu-id="c57eb-135">**Links:**</span></span>
 
-    -   Geçerli dönem için ayrıntılar
-    -   Önceki dönem için ayrıntılar
-    -   Yıl başından bu güne için ayrıntılar
+    -   <span data-ttu-id="c57eb-136">Geçerli dönem için ayrıntılar</span><span class="sxs-lookup"><span data-stu-id="c57eb-136">Details for current period</span></span>
+    -   <span data-ttu-id="c57eb-137">Önceki dönem için ayrıntılar</span><span class="sxs-lookup"><span data-stu-id="c57eb-137">Details for previous period</span></span>
+    -   <span data-ttu-id="c57eb-138">Yıl başından bu güne için ayrıntılar</span><span class="sxs-lookup"><span data-stu-id="c57eb-138">Details for year to date</span></span>
 
-    Bir bağlantıyı seçtiğinizde, her bir maliyet öğesi için bir kart gösterilir. Her kart için aşağıdaki tutarlar gösterilir: Fiili, Bütçe, Bütçe farkı, Bütçe farkı %'si, Revize edilmiş bütçe, Revize edilmiş farkı ve Revize edilmiş farkı %'si.
+    <span data-ttu-id="c57eb-139">Bir bağlantıyı seçtiğinizde, her bir maliyet öğesi için bir kart gösterilir.</span><span class="sxs-lookup"><span data-stu-id="c57eb-139">When you select a link, a card is shown for each cost element.</span></span> <span data-ttu-id="c57eb-140">Her kart için aşağıdaki tutarlar gösterilir: Fiili, Bütçe, Bütçe farkı, Bütçe farkı %'si, Revize edilmiş bütçe, Revize edilmiş farkı ve Revize edilmiş farkı %'si.</span><span class="sxs-lookup"><span data-stu-id="c57eb-140">The following amounts are shown on every card: Actual, Budget, Budget variance, Budget variance %, Revised budget, Revised budget variance, and Revised budget variance %.</span></span>
     
-    [![Bir maliyet öğesi için kart ](./media/Cost-controlling.png)](./media/Cost-controlling.png)
+    <span data-ttu-id="c57eb-141">[![Bir maliyet öğesi için kart ](./media/Cost-controlling.png)](./media/Cost-controlling.png)</span><span class="sxs-lookup"><span data-stu-id="c57eb-141">[![Card for a cost element](./media/Cost-controlling.png)](./media/Cost-controlling.png)</span></span>
 
-## <a name="prerequisites"></a>Ön koşullar
-Önkoşullar, kuruluşunuza dağıtılan Microsoft Dynamics 365 sürümüne dayalı olarak farklılık gösterir.
+## <a name="prerequisites"></a><span data-ttu-id="c57eb-142">Ön koşullar</span><span class="sxs-lookup"><span data-stu-id="c57eb-142">Prerequisites</span></span>
+<span data-ttu-id="c57eb-143">Önkoşullar, kuruluşunuza dağıtılan Microsoft Dynamics 365 sürümüne dayalı olarak farklılık gösterir.</span><span class="sxs-lookup"><span data-stu-id="c57eb-143">The prerequisites differ, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition Temmuz 2017 güncelleştirmesini kullanıyorsanız önkoşullar
-Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü Temmuz 2017 güncelleştirmesi kuruluşunuza dağıtıldıysa, sistem yöneticisinin **Maliyet denetleme** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a><span data-ttu-id="c57eb-144">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition Temmuz 2017 güncelleştirmesini kullanıyorsanız önkoşullar</span><span class="sxs-lookup"><span data-stu-id="c57eb-144">Prerequisites if you use Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update</span></span>
+<span data-ttu-id="c57eb-145">Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü Temmuz 2017 güncelleştirmesi kuruluşunuza dağıtıldıysa, sistem yöneticisinin **Maliyet denetleme** mobil çalışma alanını yayımlaması gerekir.</span><span class="sxs-lookup"><span data-stu-id="c57eb-145">If Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update has been deployed for your organization, the system administrator must publish the **Cost controlling** mobile workspace.</span></span> <span data-ttu-id="c57eb-146">Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span><span class="sxs-lookup"><span data-stu-id="c57eb-146">For instructions, see [Publish a mobile workspace](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).</span></span>
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Microsoft Dynamics 365 for Operations sürüm 1611 platform güncelleştirmesi 3 veya daha sonraki sürüm kullanıyorsanız ön koşullar
-Kuruluşunuza platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 365 for Operations 1611 sürümü dağıtılmışsa, sistem yöneticisinin aşağıdaki ön koşulları yerine getirmesi gerekir.
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="c57eb-147">Microsoft Dynamics 365 for Operations sürüm 1611 platform güncelleştirmesi 3 veya daha sonraki sürüm kullanıyorsanız ön koşullar</span><span class="sxs-lookup"><span data-stu-id="c57eb-147">Prerequisites if you use Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="c57eb-148">Kuruluşunuza platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 365 for Operations 1611 sürümü dağıtılmışsa, sistem yöneticisinin aşağıdaki ön koşulları yerine getirmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="c57eb-148">If Microsoft Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th>Önkoşul</th>
-<th>Rol</th>
-<th>Açıklama</th>
+<th><span data-ttu-id="c57eb-149">Önkoşul</span><span class="sxs-lookup"><span data-stu-id="c57eb-149">Prerequisite</span></span></th>
+<th><span data-ttu-id="c57eb-150">Rol</span><span class="sxs-lookup"><span data-stu-id="c57eb-150">Role</span></span></th>
+<th><span data-ttu-id="c57eb-151">Açıklama</span><span class="sxs-lookup"><span data-stu-id="c57eb-151">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>KB 4013633 uygulayın.</td>
-<td>Sistem yöneticisi</td>
+<td><span data-ttu-id="c57eb-152">KB 4013633 uygulayın.</span><span class="sxs-lookup"><span data-stu-id="c57eb-152">Implement KB 4013633.</span></span></td>
+<td><span data-ttu-id="c57eb-153">Sistem yöneticisi</span><span class="sxs-lookup"><span data-stu-id="c57eb-153">System administrator</span></span></td>
 
-<td>KB 4013633, <strong>Maliyet denetleme</strong> mobil çalışma alanını içeren bir X++ güncelleştirmesi veya meta veri düzeltmesidir. KB 4013633 uygulamak için sistem yöneticiniz bu adımları atması gerekir.
+<td><span data-ttu-id="c57eb-154">KB 4013633, <strong>Maliyet denetleme</strong> mobil çalışma alanını içeren bir X++ güncelleştirmesi veya meta veri düzeltmesidir.</span><span class="sxs-lookup"><span data-stu-id="c57eb-154">KB 4013633 is an X++ update or metadata hotfix that contains the <strong>Cost controlling</strong> mobile workspace.</span></span> <span data-ttu-id="c57eb-155">KB 4013633 uygulamak için sistem yöneticiniz bu adımları atması gerekir.</span><span class="sxs-lookup"><span data-stu-id="c57eb-155">To implement KB 4013633, your system administrator must follow these steps.</span></span>
 <ol>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Meta veri düzeltmesini Microsoft Dynamics Lifecycle Services (LCS) üzerinden indirin</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Meta veri düzeltmesini kurun</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Şunu içeren bir dağıtılabilir paket oluşturun:</a> <strong>SCMMobile</strong> modeli ve daha sonra dağıtılabilir paketi LCS'ye yükleyin.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Dağıtılabilir paketi uygulayın</a>.</li>
+<li><span data-ttu-id="c57eb-156"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Meta veri düzeltmesini Microsoft Dynamics Lifecycle Services (LCS) üzerinden indirin</a>.</span><span class="sxs-lookup"><span data-stu-id="c57eb-156"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
+<li><span data-ttu-id="c57eb-157"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Meta veri düzeltmesini kurun</a>.</span><span class="sxs-lookup"><span data-stu-id="c57eb-157"><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="c57eb-158"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Şunu içeren bir dağıtılabilir paket oluşturun:</a> <strong>SCMMobile</strong> modeli ve daha sonra dağıtılabilir paketi LCS'ye yükleyin.</span><span class="sxs-lookup"><span data-stu-id="c57eb-158"><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>SCMMobile</strong> model, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="c57eb-159"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Dağıtılabilir paketi uygulayın</a>.</span><span class="sxs-lookup"><span data-stu-id="c57eb-159"><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</span></span></li>
 
 </ol></td>
 </tr>
 <tr class="even">
-<td><strong>Maliyet denetleme</strong> mobil çalışma alanını yayımlayın.</td>
-<td>Sistem yöneticisi</td>
-<td>Bkz. <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobil çalışma alanı yayınlama</a>.</td>
+<td><span data-ttu-id="c57eb-160"><strong>Maliyet denetleme</strong> mobil çalışma alanını yayımlayın.</span><span class="sxs-lookup"><span data-stu-id="c57eb-160">Publish the <strong>Cost controlling</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="c57eb-161">Sistem yöneticisi</span><span class="sxs-lookup"><span data-stu-id="c57eb-161">System administrator</span></span></td>
+<td><span data-ttu-id="c57eb-162">Bkz. <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Mobil çalışma alanı yayınlama</a>.</span><span class="sxs-lookup"><span data-stu-id="c57eb-162">See <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="download-and-install-the-mobile-app"></a>Mobil uygulamayı indirin ve yükleyin
-Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:
+## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="c57eb-163">Mobil uygulamayı indirin ve yükleyin</span><span class="sxs-lookup"><span data-stu-id="c57eb-163">Download and install the mobile app</span></span>
+<span data-ttu-id="c57eb-164">Dynamics 365 for Unified Operations mobil uygulamasını yükleyin ve kurun:</span><span class="sxs-lookup"><span data-stu-id="c57eb-164">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
--   [Android telefonlar için](https://go.microsoft.com/fwlink/?linkid=850662)
--   [iPhone'lar için](https://go.microsoft.com/fwlink/?linkid=850663)
+-   [<span data-ttu-id="c57eb-165">Android telefonlar için</span><span class="sxs-lookup"><span data-stu-id="c57eb-165">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [<span data-ttu-id="c57eb-166">iPhone'lar için</span><span class="sxs-lookup"><span data-stu-id="c57eb-166">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>Mobil uygulamaya oturum açın
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="c57eb-167">Mobil uygulamaya oturum açın</span><span class="sxs-lookup"><span data-stu-id="c57eb-167">Sign in to the mobile app</span></span>
 
-1.  Mobil cihazınızda uygulamayı başlatın.
-2.  Dynamics 365 URL'nizi girin.
-3.  İlk kez oturum açtığınızda, kullanıcı adınız ve parolanız istenir. Kimlik bilgilerinizi girin.
-4.  Oturum açtıktan sonra şirketiniz için kullanılabilir çalışma alanları gösterilir. Sistem yöneticiniz yeni bir çalışma alanını daha sonra yayınlarsa, mobil çalışma alanlarının listesini yenilemeniz gerekeceğini unutmayın.
+1.  <span data-ttu-id="c57eb-168">Mobil cihazınızda uygulamayı başlatın.</span><span class="sxs-lookup"><span data-stu-id="c57eb-168">Start the app on your mobile device.</span></span>
+2.  <span data-ttu-id="c57eb-169">Dynamics 365 URL'nizi girin.</span><span class="sxs-lookup"><span data-stu-id="c57eb-169">Enter your Dynamics 365 URL.</span></span>
+3.  <span data-ttu-id="c57eb-170">İlk kez oturum açtığınızda, kullanıcı adınız ve parolanız istenir.</span><span class="sxs-lookup"><span data-stu-id="c57eb-170">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="c57eb-171">Kimlik bilgilerinizi girin.</span><span class="sxs-lookup"><span data-stu-id="c57eb-171">Enter your credentials.</span></span>
+4.  <span data-ttu-id="c57eb-172">Oturum açtıktan sonra şirketiniz için kullanılabilir çalışma alanları gösterilir.</span><span class="sxs-lookup"><span data-stu-id="c57eb-172">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="c57eb-173">Sistem yöneticiniz yeni bir çalışma alanını daha sonra yayınlarsa, mobil çalışma alanlarının listesini yenilemeniz gerekeceğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="c57eb-173">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-[![Yenilemek için çekin](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+<span data-ttu-id="c57eb-174">[![Yenilemek için çekin](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="c57eb-174">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="view-the-performance-of-your-cost-center-by-using-the-cost-controlling-mobile-workspace"></a>Maliyet merkezinizin performansını Maliyet denetimi mobil çalışma alanını kullanarak görüntüleyin
+## <a name="view-the-performance-of-your-cost-center-by-using-the-cost-controlling-mobile-workspace"></a><span data-ttu-id="c57eb-175">Maliyet merkezinizin performansını Maliyet denetimi mobil çalışma alanını kullanarak görüntüleyin</span><span class="sxs-lookup"><span data-stu-id="c57eb-175">View the performance of your cost center by using the Cost controlling mobile workspace</span></span>
 
-1.  Mobil cihazınızda **Maliyet denetleme** çalışma alanını seçin.
-2.  **Maliyet nesnesi denetleme** seçeneğini işaretleyin.
-3.  **Eylemler**'i seçin.
-4.  **Yapılandırma seç**'i seçerek bir maliyet denetleme biçimi seçin.
-5.  **Tamam**'ı seçin.
-6.  **Eylemler**'i seçin.
-7.  **Maliyet nesnesi seç**'i seçerek erişiminizin sağlandığı maliyet merkezlerini seçin.
-8.  **Tamam**'ı seçin.
-9.  Maliyet merkezinizin toplam performansını görün.
-10. **Geçerli dönem için ayrıntılar** bağlantısını seçin.
-11. Bireysel maliyet öğelerinin performansını görün.
-12. Belirli maliyet öğeleri için de arama yapabilirsiniz.
+1.  <span data-ttu-id="c57eb-176">Mobil cihazınızda **Maliyet denetleme** çalışma alanını seçin.</span><span class="sxs-lookup"><span data-stu-id="c57eb-176">On your mobile device, select the **Cost controlling** workspace.</span></span>
+2.  <span data-ttu-id="c57eb-177">**Maliyet nesnesi denetleme** seçeneğini işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="c57eb-177">Select **Cost object controlling**.</span></span>
+3.  <span data-ttu-id="c57eb-178">**Eylemler**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="c57eb-178">Select **Actions**.</span></span>
+4.  <span data-ttu-id="c57eb-179">**Yapılandırma seç**'i seçerek bir maliyet denetleme biçimi seçin.</span><span class="sxs-lookup"><span data-stu-id="c57eb-179">Select **Select configuration** to select a cost controlling layout.</span></span>
+5.  <span data-ttu-id="c57eb-180">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="c57eb-180">Select **Done**.</span></span>
+6.  <span data-ttu-id="c57eb-181">**Eylemler**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="c57eb-181">Select **Actions**.</span></span>
+7.  <span data-ttu-id="c57eb-182">**Maliyet nesnesi seç**'i seçerek erişiminizin sağlandığı maliyet merkezlerini seçin.</span><span class="sxs-lookup"><span data-stu-id="c57eb-182">Select **Select cost object** to select the cost centers that you've been granted access to.</span></span>
+8.  <span data-ttu-id="c57eb-183">**Tamam**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="c57eb-183">Select **Done**.</span></span>
+9.  <span data-ttu-id="c57eb-184">Maliyet merkezinizin toplam performansını görün.</span><span class="sxs-lookup"><span data-stu-id="c57eb-184">View the overall performance of your cost center.</span></span>
+10. <span data-ttu-id="c57eb-185">**Geçerli dönem için ayrıntılar** bağlantısını seçin.</span><span class="sxs-lookup"><span data-stu-id="c57eb-185">Select the **Details for current period** link.</span></span>
+11. <span data-ttu-id="c57eb-186">Bireysel maliyet öğelerinin performansını görün.</span><span class="sxs-lookup"><span data-stu-id="c57eb-186">View the performance of individual cost elements.</span></span>
+12. <span data-ttu-id="c57eb-187">Belirli maliyet öğeleri için de arama yapabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c57eb-187">You can also search for specific cost elements.</span></span>
 
 

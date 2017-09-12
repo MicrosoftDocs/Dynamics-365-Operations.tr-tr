@@ -17,50 +17,50 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 0ccc4d009422b148e46bc6d4772435a18a6dc9e8
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7fb52291f15bfe9063b2a9d4a572dcdc44286402
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="validate-a-production-flow-and-version"></a>Üretim akışını ve sürümünü doğrulama
+# <a name="validate-a-production-flow-and-version"></a><span data-ttu-id="dc125-103">Üretim akışını ve sürümünü doğrulama</span><span class="sxs-lookup"><span data-stu-id="dc125-103">Validate a production flow and version</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, yalın imalat için yeni bir üretim akışının ve bir ilk sürümün nasıl oluşturulacağını gösterir. Önkoşullar: Yalın imalat için üretim parametreleri ve sınıf zamanı için ölçü birimleri tanımlanmalıdır. Bir Değer akışı ve Üretim grubu tanımlamanız gerekir. Üretim akışları ve faaliyetleri kavramlarını öğrenmek üzere Yalın imalat hakkındaki teknik incelemelere bakın. Bu yordam, demo verilerindeki USMF tüzel kişiliğini referans alır. Ancak, tüzel kişiliklerin Yalın imalat için yapılandırıldığı varsayılarak diğer tüzel kişilikler de kullanılabilir.
+<span data-ttu-id="dc125-104">Bu yordam, yalın imalat için yeni bir üretim akışının ve bir ilk sürümün nasıl oluşturulacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="dc125-104">This procedure shows how to create a new production flow and a first version for lean manufacturing.</span></span> <span data-ttu-id="dc125-105">Önkoşullar: Yalın imalat için üretim parametreleri ve sınıf zamanı için ölçü birimleri tanımlanmalıdır.</span><span class="sxs-lookup"><span data-stu-id="dc125-105">Prerequisites: The production parameters for Lean manufacturing and the units of measure for class time must be defined.</span></span> <span data-ttu-id="dc125-106">Bir Değer akışı ve Üretim grubu tanımlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="dc125-106">You need to define a Value stream and a Production group.</span></span> <span data-ttu-id="dc125-107">Üretim akışları ve faaliyetleri kavramlarını öğrenmek üzere Yalın imalat hakkındaki teknik incelemelere bakın.</span><span class="sxs-lookup"><span data-stu-id="dc125-107">Refer to the white papers on Lean manufacturing to familiarize yourself with the concepts of production flows and activities.</span></span> <span data-ttu-id="dc125-108">Bu yordam, demo verilerindeki USMF tüzel kişiliğini referans alır.</span><span class="sxs-lookup"><span data-stu-id="dc125-108">This procedure refers to the legal entity USMF in demo data.</span></span> <span data-ttu-id="dc125-109">Ancak, tüzel kişiliklerin Yalın imalat için yapılandırıldığı varsayılarak diğer tüzel kişilikler de kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="dc125-109">However, assuming that the legal entity is configured for Lean manufacturing, other legal entities can be used.</span></span>
 
 
-## <a name="create-a-production-flow"></a>Üretim akışı oluşturun
-1. Üretim kontrolü > Kurulum > Yalın üretim akışı > Üretim akışları seçeneğine gidin.
-2. Yeni'ye tıklayın.
-3. İsim alanına bir değer yazın.
-4. Açıklama alanına bir değer girin.
-5. Ad alanında, açılır menü düğmesine tıklayarak aramayı açın.
-6. Listede, seçili satırdaki bağlantıya tıklayın.
-    * Bir değer akışı, değer akışının tüm faaliyetlerini ve hareketlerini kapsayan faaliyet birimidir.   Bu aşamada, işletme birimleri bir tüzel varlık ile sınırlıdır ve hiçbir ek işlevselliğe sahip değildirler.  
-7. Üretim grubu alanında, aramayı açmak için açılır menü düğmesine tıklayın.
-8. Listede, seçili satırdaki bağlantıya tıklayın.
-    * Üretim grupları, bir üretim işlemi için malzeme, işçilik ve Süren iş hesaplarını tanımlamayı sağlar. Üretim akışını bir hesap bağlamıyla ilişkilendirmek için bir üretim grubu seçilmelidir.  
-9. Kaydet'e tıklayın.
+## <a name="create-a-production-flow"></a><span data-ttu-id="dc125-110">Üretim akışı oluşturun</span><span class="sxs-lookup"><span data-stu-id="dc125-110">Create a production flow</span></span>
+1. <span data-ttu-id="dc125-111">Üretim kontrolü > Kurulum > Yalın üretim akışı > Üretim akışları seçeneğine gidin.</span><span class="sxs-lookup"><span data-stu-id="dc125-111">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="dc125-112">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dc125-112">Click New.</span></span>
+3. <span data-ttu-id="dc125-113">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="dc125-113">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="dc125-114">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="dc125-114">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="dc125-115">Ad alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="dc125-115">In the Name field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="dc125-116">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dc125-116">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="dc125-117">Bir değer akışı, değer akışının tüm faaliyetlerini ve hareketlerini kapsayan faaliyet birimidir.</span><span class="sxs-lookup"><span data-stu-id="dc125-117">A value stream is an operating unit that spans over all activities and flows of the value stream.</span></span>   <span data-ttu-id="dc125-118">Bu aşamada, işletme birimleri bir tüzel varlık ile sınırlıdır ve hiçbir ek işlevselliğe sahip değildirler.</span><span class="sxs-lookup"><span data-stu-id="dc125-118">At this stage, operating units are limited to a legal entity and have no further functionality.</span></span>  
+7. <span data-ttu-id="dc125-119">Üretim grubu alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dc125-119">In the Production group field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="dc125-120">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dc125-120">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="dc125-121">Üretim grupları, bir üretim işlemi için malzeme, işçilik ve Süren iş hesaplarını tanımlamayı sağlar.</span><span class="sxs-lookup"><span data-stu-id="dc125-121">Production groups allow the definition of material, labor, and WIP accounts for a production process.</span></span> <span data-ttu-id="dc125-122">Üretim akışını bir hesap bağlamıyla ilişkilendirmek için bir üretim grubu seçilmelidir.</span><span class="sxs-lookup"><span data-stu-id="dc125-122">To associate the accounting context to a production flow, a production group must be selected.</span></span>  
+9. <span data-ttu-id="dc125-123">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dc125-123">Click Save.</span></span>
 
-## <a name="create-a-production-flow-version"></a>Üretim akışı sürümü oluşturma
-1. Ekle öğesini tıklatın.
-2. Bitiş tarihi alanına bir tarih ve saat girin.
-    * Sürümün bitiş tarihini, etkin sürümler için bile, istediğiniz zaman güncelleştirebilirsiniz. Sürüm dışında bir aşama planlamak için sürümün bitiş tarihini kullanın.  
-3. Tamam'a tıklayın.
-4. Listede, seçili satırı işaretleyin.
-5. Birim alanına bir değer yazın.
-6. Takt birimini seçin.
-7. Ortalama takt zamanı alanına bir sayı girin.
-    * Üretim akışı sürümünün takt denetimi için hedeflenen ortalama takt zamanını tanımlayın.   Takt, zaman aralığına düşen miktar olarak tanımlanır.  Verilen örnekte, takt zamanı 10 parça başına 0,2 saattir. 8 saatlik bir çalışma zamanı için, günlük 400 parçalık üretim kapasitesine karşılık gelir.  
-8. Miktar esası döngüsü alanında bir sayı girin.
-9. Sürümler detayları bölümünü genişletin veya daraltın.
-10. Minimum takt zamanı alanına bir sayı girin.
-    * Minimum takt zamanı ortalama takt süresine eşit veya daha küçük olmalıdır.  
-11. Maksimum takt zamanı alanına bir sayı girin.
-    * Maksimum takt zamanı ortalama takt süresine eşit veya daha büyük olmalıdır.  
-12. Gerçek döngü süresi için dönem alanında bir gün sayısı gir
-    * Döneme ait gerçek döngü süresi, güncel dakikadan geriye yönelik toplanarak hesaplanan gerçek döngü süresinin gün olarak sayısıdır. Değer herhangi bir zamanda değiştirilebilir ve yalnızca gerçek döngü zamanının hesaplanması için kullanılır.  
-13. Kaydet'e tıklayın.
+## <a name="create-a-production-flow-version"></a><span data-ttu-id="dc125-124">Üretim akışı sürümü oluşturma</span><span class="sxs-lookup"><span data-stu-id="dc125-124">Create a production flow version</span></span>
+1. <span data-ttu-id="dc125-125">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="dc125-125">Click Add.</span></span>
+2. <span data-ttu-id="dc125-126">Bitiş tarihi alanına bir tarih ve saat girin.</span><span class="sxs-lookup"><span data-stu-id="dc125-126">In the Expiration date field, enter a date and time.</span></span>
+    * <span data-ttu-id="dc125-127">Sürümün bitiş tarihini, etkin sürümler için bile, istediğiniz zaman güncelleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="dc125-127">You can update the Expiration date of the version at any given time, even for active versions.</span></span> <span data-ttu-id="dc125-128">Sürüm dışında bir aşama planlamak için sürümün bitiş tarihini kullanın.</span><span class="sxs-lookup"><span data-stu-id="dc125-128">Use the expiration of the version to plan for a phase out of a version.</span></span>  
+3. <span data-ttu-id="dc125-129">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dc125-129">Click OK.</span></span>
+4. <span data-ttu-id="dc125-130">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="dc125-130">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="dc125-131">Birim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="dc125-131">In the Unit field, type a value.</span></span>
+6. <span data-ttu-id="dc125-132">Takt birimini seçin.</span><span class="sxs-lookup"><span data-stu-id="dc125-132">Select the Takt unit.</span></span>
+7. <span data-ttu-id="dc125-133">Ortalama takt zamanı alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="dc125-133">In the Average takt time field, enter a number.</span></span>
+    * <span data-ttu-id="dc125-134">Üretim akışı sürümünün takt denetimi için hedeflenen ortalama takt zamanını tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="dc125-134">For the takt control of the production flow version, define a targeted average takt time.</span></span>   <span data-ttu-id="dc125-135">Takt, zaman aralığına düşen miktar olarak tanımlanır.</span><span class="sxs-lookup"><span data-stu-id="dc125-135">The takt is defined as quantity  per time period.</span></span>  <span data-ttu-id="dc125-136">Verilen örnekte, takt zamanı 10 parça başına 0,2 saattir.</span><span class="sxs-lookup"><span data-stu-id="dc125-136">In the given example, the takt time is 0.2 hours per 10 pieces.</span></span> <span data-ttu-id="dc125-137">8 saatlik bir çalışma zamanı için, günlük 400 parçalık üretim kapasitesine karşılık gelir.</span><span class="sxs-lookup"><span data-stu-id="dc125-137">For a working time of 8 hours, this corresponds to a daily throughput capacity of 400 pieces.</span></span>  
+8. <span data-ttu-id="dc125-138">Miktar esası döngüsü alanında bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="dc125-138">In the Quantity per cycle field, enter a number.</span></span>
+9. <span data-ttu-id="dc125-139">Sürümler detayları bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="dc125-139">Expand or collapse the Version details section.</span></span>
+10. <span data-ttu-id="dc125-140">Minimum takt zamanı alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="dc125-140">In the Minimum takt time field, enter a number.</span></span>
+    * <span data-ttu-id="dc125-141">Minimum takt zamanı ortalama takt süresine eşit veya daha küçük olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="dc125-141">The minimum takt time must be less than or equal to the average takt time.</span></span>  
+11. <span data-ttu-id="dc125-142">Maksimum takt zamanı alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="dc125-142">In the Maximum takt time field, enter a number.</span></span>
+    * <span data-ttu-id="dc125-143">Maksimum takt zamanı ortalama takt süresine eşit veya daha büyük olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="dc125-143">The maximum takt time must be higher than or equal to the Average takt time.</span></span>  
+12. <span data-ttu-id="dc125-144">Gerçek döngü süresi için dönem alanında bir gün sayısı gir</span><span class="sxs-lookup"><span data-stu-id="dc125-144">Enter a number of days in the Period for actual cycle time</span></span>
+    * <span data-ttu-id="dc125-145">Döneme ait gerçek döngü süresi, güncel dakikadan geriye yönelik toplanarak hesaplanan gerçek döngü süresinin gün olarak sayısıdır.</span><span class="sxs-lookup"><span data-stu-id="dc125-145">The period for actual cycle time is the number of days that jobs are aggregated from the actual minute backwards to calculate the actual cycle time.</span></span> <span data-ttu-id="dc125-146">Değer herhangi bir zamanda değiştirilebilir ve yalnızca gerçek döngü zamanının hesaplanması için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="dc125-146">The value can be changed at any time and is only used for the calculation of the actual cycle times.</span></span>  
+13. <span data-ttu-id="dc125-147">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="dc125-147">Click Save.</span></span>
 
 

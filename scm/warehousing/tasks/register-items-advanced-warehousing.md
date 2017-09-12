@@ -17,62 +17,62 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 80f71f4ec5710ab257a45edbaee06d7c0e6a281e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 4721ec8437ff7907a417a331bba887847c7e447a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Gelişmiş ambar işlemleri etkinleştirilmiş madde için madde varış günlüğü kullanarak maddeleri kaydetme
+# <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a><span data-ttu-id="7bbd7-103">Gelişmiş ambar işlemleri etkinleştirilmiş madde için madde varış günlüğü kullanarak maddeleri kaydetme</span><span class="sxs-lookup"><span data-stu-id="7bbd7-103">Register items for an advanced warehousing enabled item using an item arrival journal</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, gelişmiş ambar yönetimi işlemlerini kullanırken ürünlerin ürün varış günlüğü kullanılarak nasıl kaydedileceğini gösterir. Bu genellikle bir teslim alma memuru tarafından yapılır. 
+<span data-ttu-id="7bbd7-104">Bu yordam, gelişmiş ambar yönetimi işlemlerini kullanırken ürünlerin ürün varış günlüğü kullanılarak nasıl kaydedileceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-104">This procedure shows you how to register items using the item arrival journal when you are using advanced warehouse management processes.</span></span> <span data-ttu-id="7bbd7-105">Bu genellikle bir teslim alma memuru tarafından yapılır.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-105">This would usually be done by a receiving clerk.</span></span> 
 
-Bu yordamı, demo verileri şirketi USMF'de veya kendi verilerinizde çalıştırabilirsiniz. Bu kılavuzu başlatmadan önce, elinizde açık bir satınalma sipariş satırı içeren onaylı bir satınalma siparişi bulunması gerekir. Satırdaki madde stokta olmalı, ürün çeşitleri kullanmamalı ve izleme boyutları olmamalıdır. Ayrıca, ürünün ambar yönetimi işlemi etkin bir depolama boyut grubuyla ilişkilendirilmesi gerekir. Kullanılan ambar, ambar yönetimi işlemleri için etkinleştirilmelidir ve alım işlemi için kullanılan yerleşimin plakası kontrol edilmiş olmalıdır. USMF kullanıyorsanız, SAS oluşturmak için şirket hesabı 1001, ambar 51 ve ürün M9200 değerlerini kullanabilirsiniz. 
+<span data-ttu-id="7bbd7-106">Bu yordamı, demo verileri şirketi USMF'de veya kendi verilerinizde çalıştırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-106">You can run this procedure in demo data company USMF, or on your own data.</span></span> <span data-ttu-id="7bbd7-107">Bu kılavuzu başlatmadan önce, elinizde açık bir satınalma sipariş satırı içeren onaylı bir satınalma siparişi bulunması gerekir.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-107">You need to have a confirmed purchase order with an open purchase order line before you start this guide.</span></span> <span data-ttu-id="7bbd7-108">Satırdaki madde stokta olmalı, ürün çeşitleri kullanmamalı ve izleme boyutları olmamalıdır.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-108">The item on the line must be stocked, and it must not use product variants, and must not have tracking dimensions.</span></span> <span data-ttu-id="7bbd7-109">Ayrıca, ürünün ambar yönetimi işlemi etkin bir depolama boyut grubuyla ilişkilendirilmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-109">And the item needs to be associated with a warehouse management process enabled storage dimension group.</span></span> <span data-ttu-id="7bbd7-110">Kullanılan ambar, ambar yönetimi işlemleri için etkinleştirilmelidir ve alım işlemi için kullanılan yerleşimin plakası kontrol edilmiş olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-110">The warehouse that’s used must be enabled for warehouse management processes and the location that you use for receiving must be license plate controlled.</span></span> <span data-ttu-id="7bbd7-111">USMF kullanıyorsanız, SAS oluşturmak için şirket hesabı 1001, ambar 51 ve ürün M9200 değerlerini kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-111">If you’re using USMF, you can use company account 1001, Warehouse 51, and item M9200 to create your PO.</span></span> 
 
-Oluşturduğunuz satınalma siparişinin numarasınının yanı sıra, satınalma siparişi satırı için kullandığınız ürün numarası ve tesisi de not edin .
+<span data-ttu-id="7bbd7-112">Oluşturduğunuz satınalma siparişinin numarasınının yanı sıra, satınalma siparişi satırı için kullandığınız ürün numarası ve tesisi de not edin .</span><span class="sxs-lookup"><span data-stu-id="7bbd7-112">Make a note of the number of the purchase order that you create, and also note the item number and the site that you used for your purchase order line.</span></span>
 
 
-## <a name="create-an-item-arrival-journal-header"></a>Bir ürün varış günlüğü başlığı oluşturma
-1. Ürün varışı'na gidin.
-2. Yeni'ye tıklayın.
-3. İsim alanına bir değer yazın.
-    * USMF kullanıyorsanız, WHS yazabilirsiniz. Başka veriler kullanıyorsanız, adını seçtiğiniz günlükte iki özelliğin olması gerekir: Malzeme çekme yerleşimini denetle ayarı Hayır, Karantina yönetimi ayarı Hayır olmalıdır.  
-4. Numara alanına bir değer girin.
-5. Tesis alanına bir değer yazın.
-    * Satınalma siparişi satırı için kullanılacak tesisi seçin. Bu, günlükteki tüm satırlar için varsayılan olan bir varsayılan değer işlevi görür. USMF'de ambar 51'i kullandıysanız, tesis 5'i seçin.  
-6. Ambar alanına bir değer yazın.
-    * Seçmiş olduğunuz tesis için geçerli bir ambar seçin. Bu, günlükteki tüm satırlar için varsayılan olan bir varsayılan değer işlevi görür. USMF'te örnek değerler kullanıyorsanız, 51'i seçin.  
-7. Yerleşim alanına bir değer girin.
-    * Seçmiş olduğunuz ambar için geçerli bir yerleşim seçin. Yerleşim, plakanın kontrol edildiği bir yerleşim profiliyle ilişkili olmalıdır. Bu, günlükteki tüm satırlar için varsayılan olan bir varsayılan değer işlevi görür. USMF'te örnek değerler kullanıyorsanız, Bulk-008'i seçin.  
-8. Plaka alanında aşağı açılan oku sağ tıklatın ve sonra Ayrıntıları göster'i seçin.
-9. Yeni'ye tıklayın.
-10. Plaka alanında bir değer girin.
-    * Değerini not edin.  
-11. Kaydet'e tıklayın.
-12. Sayfayı kapatın.
-13. Plaka alanında bir değer girin.
-    * Yeni oluşturduğunuz plakanın değerini girin. Bu, günlükteki tüm satırlar için varsayılan olan bir varsayılan değer işlevi görür.  
-14. Tamam'a tıklayın.
+## <a name="create-an-item-arrival-journal-header"></a><span data-ttu-id="7bbd7-113">Bir ürün varış günlüğü başlığı oluşturma</span><span class="sxs-lookup"><span data-stu-id="7bbd7-113">Create an item arrival journal header</span></span>
+1. <span data-ttu-id="7bbd7-114">Ürün varışı'na gidin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-114">Go to Item arrival.</span></span>
+2. <span data-ttu-id="7bbd7-115">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-115">Click New.</span></span>
+3. <span data-ttu-id="7bbd7-116">İsim alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-116">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="7bbd7-117">USMF kullanıyorsanız, WHS yazabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-117">If you are using USMF, you can type WHS.</span></span> <span data-ttu-id="7bbd7-118">Başka veriler kullanıyorsanız, adını seçtiğiniz günlükte iki özelliğin olması gerekir: Malzeme çekme yerleşimini denetle ayarı Hayır, Karantina yönetimi ayarı Hayır olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-118">If you’re using other data, the journal whose name you choose has to have the following properties: Check picking location must be set to No, and Quarantine management must be set to No.</span></span>  
+4. <span data-ttu-id="7bbd7-119">Numara alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-119">In the Number field, type a value.</span></span>
+5. <span data-ttu-id="7bbd7-120">Tesis alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-120">In the Site field, type a value.</span></span>
+    * <span data-ttu-id="7bbd7-121">Satınalma siparişi satırı için kullanılacak tesisi seçin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-121">Select the site that you used for your purchase order line.</span></span> <span data-ttu-id="7bbd7-122">Bu, günlükteki tüm satırlar için varsayılan olan bir varsayılan değer işlevi görür.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-122">This will serve as a default value, which will default to all lines in the journal.</span></span> <span data-ttu-id="7bbd7-123">USMF'de ambar 51'i kullandıysanız, tesis 5'i seçin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-123">If you used warehouse 51 in USMF, choose site 5.</span></span>  
+6. <span data-ttu-id="7bbd7-124">Ambar alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-124">In the Warehouse field, type a value.</span></span>
+    * <span data-ttu-id="7bbd7-125">Seçmiş olduğunuz tesis için geçerli bir ambar seçin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-125">Select a valid warehouse for the site that you’ve selected.</span></span> <span data-ttu-id="7bbd7-126">Bu, günlükteki tüm satırlar için varsayılan olan bir varsayılan değer işlevi görür.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-126">This will serve as a default value, which will default to all lines in the journal.</span></span> <span data-ttu-id="7bbd7-127">USMF'te örnek değerler kullanıyorsanız, 51'i seçin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-127">If you’re using the example values in USMF, select 51.</span></span>  
+7. <span data-ttu-id="7bbd7-128">Yerleşim alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-128">In the Location field, type a value.</span></span>
+    * <span data-ttu-id="7bbd7-129">Seçmiş olduğunuz ambar için geçerli bir yerleşim seçin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-129">Select a valid location in the warehouse that you’ve selected.</span></span> <span data-ttu-id="7bbd7-130">Yerleşim, plakanın kontrol edildiği bir yerleşim profiliyle ilişkili olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-130">The location has to be associated with a location profile, which is license plate controlled.</span></span> <span data-ttu-id="7bbd7-131">Bu, günlükteki tüm satırlar için varsayılan olan bir varsayılan değer işlevi görür.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-131">This will serve as a default value, which will default to all lines in the journal.</span></span> <span data-ttu-id="7bbd7-132">USMF'te örnek değerler kullanıyorsanız, Bulk-008'i seçin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-132">If you’re using the example values in USMF, select Bulk-008.</span></span>  
+8. <span data-ttu-id="7bbd7-133">Plaka alanında aşağı açılan oku sağ tıklatın ve sonra Ayrıntıları göster'i seçin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-133">Right-click on the drop-down arrow in the License plate field and then select View details.</span></span>
+9. <span data-ttu-id="7bbd7-134">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-134">Click New.</span></span>
+10. <span data-ttu-id="7bbd7-135">Plaka alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-135">In the License plate field, type a value.</span></span>
+    * <span data-ttu-id="7bbd7-136">Değerini not edin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-136">Make a note of the value.</span></span>  
+11. <span data-ttu-id="7bbd7-137">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-137">Click Save.</span></span>
+12. <span data-ttu-id="7bbd7-138">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-138">Close the page.</span></span>
+13. <span data-ttu-id="7bbd7-139">Plaka alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-139">In the License plate field, type a value.</span></span>
+    * <span data-ttu-id="7bbd7-140">Yeni oluşturduğunuz plakanın değerini girin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-140">Enter the value of the license plate that you just created.</span></span> <span data-ttu-id="7bbd7-141">Bu, günlükteki tüm satırlar için varsayılan olan bir varsayılan değer işlevi görür.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-141">This will serve as a default value, which will default to all lines in the journal.</span></span>  
+14. <span data-ttu-id="7bbd7-142">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-142">Click OK.</span></span>
 
-## <a name="add-a-line"></a>Bir satır ekleyin
-1. Satır ekle'ye tıklayın.
-2. Madde numarası alanına bir değer girin.
-    * Satınalma siparişi satırında kullandığınız ürün numarasını girin.  
-3. Miktar alanına bir sayı girin.
-    * Kaydetmek istediğiniz miktarı girin.  
-    * Tarih alanı, bu ürünün eldeki miktarın stokta kaydedileceği tarihi belirler.  
-    * Lot kodu sağlanan bilgilerden hareketle benzersiz şekilde tanımlanabiliyorsa, sistem tarafından doldurulur. Aksi halde, bunu el ile eklemeniz gerekir. Bu, bu kaydı belirli bir kaynak belge satırına bağlayan zorunlu bir alandır.  
+## <a name="add-a-line"></a><span data-ttu-id="7bbd7-143">Bir satır ekleyin</span><span class="sxs-lookup"><span data-stu-id="7bbd7-143">Add a line</span></span>
+1. <span data-ttu-id="7bbd7-144">Satır ekle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-144">Click Add line.</span></span>
+2. <span data-ttu-id="7bbd7-145">Madde numarası alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-145">In the Item number field, type a value.</span></span>
+    * <span data-ttu-id="7bbd7-146">Satınalma siparişi satırında kullandığınız ürün numarasını girin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-146">Enter the item number that you used on the purchase order line.</span></span>  
+3. <span data-ttu-id="7bbd7-147">Miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-147">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="7bbd7-148">Kaydetmek istediğiniz miktarı girin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-148">Enter the quantity that you want to register.</span></span>  
+    * <span data-ttu-id="7bbd7-149">Tarih alanı, bu ürünün eldeki miktarın stokta kaydedileceği tarihi belirler.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-149">The Date field determines the date on which the on-hand quantity of this item will be registered in the inventory.</span></span>  
+    * <span data-ttu-id="7bbd7-150">Lot kodu sağlanan bilgilerden hareketle benzersiz şekilde tanımlanabiliyorsa, sistem tarafından doldurulur.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-150">The lot ID will be populated by the system if it can be uniquely identified from the information provided.</span></span> <span data-ttu-id="7bbd7-151">Aksi halde, bunu el ile eklemeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-151">Otherwise you will have to add this manually.</span></span> <span data-ttu-id="7bbd7-152">Bu, bu kaydı belirli bir kaynak belge satırına bağlayan zorunlu bir alandır.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-152">This is a mandatory field, which links this registration to a specific source document line.</span></span>  
 
-## <a name="complete-the-registration"></a>Kaydı tamamlama
-1. Doğrula'ya tıklayın.
-    * Bu günlüğün deftere nakile hazır olup olmadığını denetler. Doğrulama başarısız olursa, günlüğü deftere nakledebilmek için hataları düzeltmeniz gerekir.  
-2. Tamam'a tıklayın.
-    * Tamam düğmesini tıklattıktan sonra iletiyi gözden geçirin. Günlükte sorun olmadığını belirten bir ileti görünmesi gerekir.  
-3. Deftere Naklet öğesine tıklayın.
-4. Tamam'a tıklayın.
-    * Tamam düğmesine tıkladıktan sonra ileti çubuğunu kontrol edin. İşlemin tamamlandığını belirten bir ileti görünmesi gerekir.  
-5. Sayfayı kapatın.
+## <a name="complete-the-registration"></a><span data-ttu-id="7bbd7-153">Kaydı tamamlama</span><span class="sxs-lookup"><span data-stu-id="7bbd7-153">Complete the registration</span></span>
+1. <span data-ttu-id="7bbd7-154">Doğrula'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-154">Click Validate.</span></span>
+    * <span data-ttu-id="7bbd7-155">Bu günlüğün deftere nakile hazır olup olmadığını denetler.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-155">This checks that the journal is ready to be posted.</span></span> <span data-ttu-id="7bbd7-156">Doğrulama başarısız olursa, günlüğü deftere nakledebilmek için hataları düzeltmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-156">If the validation fails you will need to fix the errors before you can post the journal.</span></span>  
+2. <span data-ttu-id="7bbd7-157">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-157">Click OK.</span></span>
+    * <span data-ttu-id="7bbd7-158">Tamam düğmesini tıklattıktan sonra iletiyi gözden geçirin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-158">After you clicked OK, check the message.</span></span> <span data-ttu-id="7bbd7-159">Günlükte sorun olmadığını belirten bir ileti görünmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-159">There should be a message saying that the journal is OK.</span></span>  
+3. <span data-ttu-id="7bbd7-160">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-160">Click Post.</span></span>
+4. <span data-ttu-id="7bbd7-161">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-161">Click OK.</span></span>
+    * <span data-ttu-id="7bbd7-162">Tamam düğmesine tıkladıktan sonra ileti çubuğunu kontrol edin.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-162">After you have clicked OK, check the message bar.</span></span> <span data-ttu-id="7bbd7-163">İşlemin tamamlandığını belirten bir ileti görünmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-163">There should be a message saying that the operation completed.</span></span>  
+5. <span data-ttu-id="7bbd7-164">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="7bbd7-164">Close the page.</span></span>
 
 

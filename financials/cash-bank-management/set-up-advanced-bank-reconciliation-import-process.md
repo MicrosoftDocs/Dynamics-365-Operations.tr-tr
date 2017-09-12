@@ -18,165 +18,165 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: a4d1c81386c0ef03391f3127fa51a6b09a5142b3
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 785da18a851c4d040843f49ca9f1b9ae12d701d3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Gelişmiş banka mutabakatı içe aktarma sürecini ayarlama
+# <a name="set-up-the-advanced-bank-reconciliation-import-process"></a><span data-ttu-id="919db-104">Gelişmiş banka mutabakatı içe aktarma sürecini ayarlama</span><span class="sxs-lookup"><span data-stu-id="919db-104">Set up the advanced bank reconciliation import process</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations Enterprise sürümündeki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu makalede banka ekstreleriniz için içe aktarma işlevinin nasıl ayarlanacağı açıklanmaktadır. 
+<span data-ttu-id="919db-105">Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations Enterprise sürümündeki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir.</span><span class="sxs-lookup"><span data-stu-id="919db-105">The Advanced bank reconciliation feature lets you import electronic bank statements and automatically reconcile them with bank transactions in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="919db-106">Bu makalede banka ekstreleriniz için içe aktarma işlevinin nasıl ayarlanacağı açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="919db-106">This article explains how to set up the import functionality for your bank statements.</span></span> 
 
-Banka ekstresi içe aktarma işleminin kurulumu elektronik banka ekstrenizin biçimine bağlı olarak değişir. Finance and Operations ISO20022, MT940 ve BAI2 olmak üzere, kullanıma hazır üç banka ekstresi biçimini destekler.
+<span data-ttu-id="919db-107">Banka ekstresi içe aktarma işleminin kurulumu elektronik banka ekstrenizin biçimine bağlı olarak değişir.</span><span class="sxs-lookup"><span data-stu-id="919db-107">The setup for bank statement import varies, depending on the format of your electronic bank statement.</span></span> <span data-ttu-id="919db-108">Finance and Operations ISO20022, MT940 ve BAI2 olmak üzere, kullanıma hazır üç banka ekstresi biçimini destekler.</span><span class="sxs-lookup"><span data-stu-id="919db-108">Finance and Operations supports three bank statement formats out of the box: ISO20022, MT940, and BAI2.</span></span>
 
-## <a name="sample-files"></a>Örnek dosyalar
-Bu üç biçim için, elektronik banka ekstresini orijinal biçimden Finance and Operations uygulamasının kullanabileceği bir biçime çeviren dosyalara sahip olmanız gerekir. Gerekli kaynak dosyaları Microsoft Visual Studio içindeki Uygulama Gezgini'nde **Kaynaklar** düğümü altında bulabilirsiniz. Dosyaları bulduktan sonra kurulum sürecinde daha kolay bir şekilde yükleyebilmeniz için dosyaları bilinen tek bir konuma kopyalayın.
+## <a name="sample-files"></a><span data-ttu-id="919db-109">Örnek dosyalar</span><span class="sxs-lookup"><span data-stu-id="919db-109">Sample files</span></span>
+<span data-ttu-id="919db-110">Bu üç biçim için, elektronik banka ekstresini orijinal biçimden Finance and Operations uygulamasının kullanabileceği bir biçime çeviren dosyalara sahip olmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="919db-110">For all three formats, you must have files that translate the electronic bank statement from the original format to a format that Finance and Operations can use.</span></span> <span data-ttu-id="919db-111">Gerekli kaynak dosyaları Microsoft Visual Studio içindeki Uygulama Gezgini'nde **Kaynaklar** düğümü altında bulabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="919db-111">You can find the required resource files under the **Resources** node in Application Explorer in Microsoft Visual Studio.</span></span> <span data-ttu-id="919db-112">Dosyaları bulduktan sonra kurulum sürecinde daha kolay bir şekilde yükleyebilmeniz için dosyaları bilinen tek bir konuma kopyalayın.</span><span class="sxs-lookup"><span data-stu-id="919db-112">After you find the files, copy them to a single known location, so that you can more easily upload them during the setup process.</span></span>
 
-| Kaynak adı                                           | Dosya adı                            |
+| <span data-ttu-id="919db-113">Kaynak adı</span><span class="sxs-lookup"><span data-stu-id="919db-113">Resource name</span></span>                                           | <span data-ttu-id="919db-114">Dosya adı</span><span class="sxs-lookup"><span data-stu-id="919db-114">File name</span></span>                            |
 |---------------------------------------------------------|--------------------------------------|
-| BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt              | BAI2CSV-to-BAI2XML.xslt              |
-| BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt       | BAI2XML-to-Reconciliation.xslt       |
-| BankStmtImport\_BankReconciliation\_to\_Composite\_xslt | BankReconciliation-to-Composite.xslt |
-| BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt   | ISO20022XML-to-Reconciliation.xslt   |
-| BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt            | MT940TXT-to-MT940XML.xslt            |
-| BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt      | MT940XML-to-Reconciliation.xslt      |
-| BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
+| <span data-ttu-id="919db-115">BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="919db-115">BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt</span></span>              | <span data-ttu-id="919db-116">BAI2CSV-to-BAI2XML.xslt</span><span class="sxs-lookup"><span data-stu-id="919db-116">BAI2CSV-to-BAI2XML.xslt</span></span>              |
+| <span data-ttu-id="919db-117">BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="919db-117">BankStmtImport\_BAI2XML\_to\_Reconciliation\_xslt</span></span>       | <span data-ttu-id="919db-118">BAI2XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="919db-118">BAI2XML-to-Reconciliation.xslt</span></span>       |
+| <span data-ttu-id="919db-119">BankStmtImport\_BankReconciliation\_to\_Composite\_xslt</span><span class="sxs-lookup"><span data-stu-id="919db-119">BankStmtImport\_BankReconciliation\_to\_Composite\_xslt</span></span> | <span data-ttu-id="919db-120">BankReconciliation-to-Composite.xslt</span><span class="sxs-lookup"><span data-stu-id="919db-120">BankReconciliation-to-Composite.xslt</span></span> |
+| <span data-ttu-id="919db-121">BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="919db-121">BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt</span></span>   | <span data-ttu-id="919db-122">ISO20022XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="919db-122">ISO20022XML-to-Reconciliation.xslt</span></span>   |
+| <span data-ttu-id="919db-123">BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt</span><span class="sxs-lookup"><span data-stu-id="919db-123">BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt</span></span>            | <span data-ttu-id="919db-124">MT940TXT-to-MT940XML.xslt</span><span class="sxs-lookup"><span data-stu-id="919db-124">MT940TXT-to-MT940XML.xslt</span></span>            |
+| <span data-ttu-id="919db-125">BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt</span><span class="sxs-lookup"><span data-stu-id="919db-125">BankStmtImport\_MT940XML\_to\_Reconciliation\_xslt</span></span>      | <span data-ttu-id="919db-126">MT940XML-to-Reconciliation.xslt</span><span class="sxs-lookup"><span data-stu-id="919db-126">MT940XML-to-Reconciliation.xslt</span></span>      |
+| <span data-ttu-id="919db-127">BankStmtImport\_SampleBankCompositeEntity\_xml</span><span class="sxs-lookup"><span data-stu-id="919db-127">BankStmtImport\_SampleBankCompositeEntity\_xml</span></span>          | <span data-ttu-id="919db-128">SampleBankCompositeEntity.xml</span><span class="sxs-lookup"><span data-stu-id="919db-128">SampleBankCompositeEntity.xml</span></span>        |
 
-## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Banka ekstresi biçimleri ve teknik düzenlerine örnekler
-Aşağıda gelişmiş banka mutabakatı içe aktarma dosyası teknik düzen tanımları örnekleri ve üç ilgili banka ekstresi örnek dosyası verilmektedir: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a><span data-ttu-id="919db-129">Banka ekstresi biçimleri ve teknik düzenlerine örnekler</span><span class="sxs-lookup"><span data-stu-id="919db-129">Examples of bank statement formats and technical layouts</span></span>
+<span data-ttu-id="919db-130">Aşağıda gelişmiş banka mutabakatı içe aktarma dosyası teknik düzen tanımları örnekleri ve üç ilgili banka ekstresi örnek dosyası verilmektedir: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span><span class="sxs-lookup"><span data-stu-id="919db-130">Below are examples of the advanced bank reconciliation import file technical layout definitions and three related bank statement example files: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts</span></span>  
 
-| Teknik düzen tanımı                             | Banka ekstresi örnek dosya          |
+| <span data-ttu-id="919db-131">Teknik düzen tanımı</span><span class="sxs-lookup"><span data-stu-id="919db-131">Technical layout definition</span></span>                             | <span data-ttu-id="919db-132">Banka ekstresi örnek dosya</span><span class="sxs-lookup"><span data-stu-id="919db-132">Bank statement example file</span></span>          |
 |---------------------------------------------------------|--------------------------------------|
-| DynamicsAXMT940Layout                                   | MT940StatementExample                |
-| DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
-| DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+| <span data-ttu-id="919db-133">DynamicsAXMT940Layout</span><span class="sxs-lookup"><span data-stu-id="919db-133">DynamicsAXMT940Layout</span></span>                                   | <span data-ttu-id="919db-134">MT940StatementExample</span><span class="sxs-lookup"><span data-stu-id="919db-134">MT940StatementExample</span></span>                |
+| <span data-ttu-id="919db-135">DynamicsAXISO20022Layout</span><span class="sxs-lookup"><span data-stu-id="919db-135">DynamicsAXISO20022Layout</span></span>                                | <span data-ttu-id="919db-136">ISO20022StatementExample</span><span class="sxs-lookup"><span data-stu-id="919db-136">ISO20022StatementExample</span></span>             |
+| <span data-ttu-id="919db-137">DynamicsAXBAI2Layout</span><span class="sxs-lookup"><span data-stu-id="919db-137">DynamicsAXBAI2Layout</span></span>                                    | <span data-ttu-id="919db-138">BAI2StatementExample</span><span class="sxs-lookup"><span data-stu-id="919db-138">BAI2StatementExample</span></span>                 |
 
  
 
-## <a name="set-up-the-import-of-iso20022-bank-statements"></a>ISO20022 banka ekstrelerinin içe aktarma işlemini ayarlama
-İlk olarak, veri varlık çerçevesini kullanarak ISO20022 banka ekstreleri için banka ekstresi biçimi işlem grubu tanımlamanız gerekir.
+## <a name="set-up-the-import-of-iso20022-bank-statements"></a><span data-ttu-id="919db-139">ISO20022 banka ekstrelerinin içe aktarma işlemini ayarlama</span><span class="sxs-lookup"><span data-stu-id="919db-139">Set up the import of ISO20022 bank statements</span></span>
+<span data-ttu-id="919db-140">İlk olarak, veri varlık çerçevesini kullanarak ISO20022 banka ekstreleri için banka ekstresi biçimi işlem grubu tanımlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="919db-140">First, you must define the bank statement format processing group for ISO20022 bank statements by using the data entity framework.</span></span>
 
-1.  **Çalışma alanları** &gt; **Veri yönetimi**'ne gidin.
-2.  **İçe aktar**'a tıklayın.
-3.  Biçim için bir ad girin, örneğin **ISO20022**.
-4.  **Kaynak veri biçimi** alanını **XML-Element** olarak ayarlayın.
-5.  **Varlık adı** alanını **Banka ekstreleri** olarak ayarlayın.
-6.  İçe aktarılan dosyaları karşıya yüklemek için **Karşıya yükle** öğesine tıklayın ve ardından daha önce kaydettiğiniz **SampleBankCompositeEntity.xml** dosyasını seçmek üzere dosya konumuna gidin.
-7.  Banka ekstreleri varlığı karşıya yüklendikten ve eşleştirme işlemi tamamlandıktan sonra varlığın **Eşlemeyi görüntüle** eylemine tıklayın.
-8.  Banka ekstreleri varlığı dört farklı varlıktan oluşan birleşik bir varlıktır. Listeden **BankStatementDocumentEntity** öğesini seçin ve **Eşlemeyi görüntüle** eylemine tıklayın.
-9.  **Dönüşümler** sekmesinde **Yeni** öğesine tıklayın.
-10. Sıra numarası 1 için **Dosyayı karşıya yükle** öğesine tıklayın ve daha önce kaydettiğiniz **ISO20022XML-to-Reconciliation.xslt** dosyasını seçin. **Not:** Finance and Operations dönüşüm dosyaları standart biçim için oluşturulmuştur. Bankalar genellikle bu biçimden ayrıldıkları için dönüşüm dosyasını banka ekstresi biçiminizle eşleşecek şekilde güncelleştirmeniz gerekebilir. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
-11. **Yeni**'ye tıklayın.
-12. Sıra numarası 2 için **Dosyayı karşıya yükle** öğesine tıklayın ve daha önce kaydettiğiniz **BankReconciliation-to-Composite.xslt** dosyasını seçin.
-13. **Dönüşümleri uygula**'ya tıklayın.
+1.  <span data-ttu-id="919db-141">**Çalışma alanları** &gt; **Veri yönetimi**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="919db-141">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="919db-142">**İçe aktar**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-142">Click **Import**.</span></span>
+3.  <span data-ttu-id="919db-143">Biçim için bir ad girin, örneğin **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="919db-143">Enter a name for the format, such as **ISO20022**.</span></span>
+4.  <span data-ttu-id="919db-144">**Kaynak veri biçimi** alanını **XML-Element** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="919db-144">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="919db-145">**Varlık adı** alanını **Banka ekstreleri** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="919db-145">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="919db-146">İçe aktarılan dosyaları karşıya yüklemek için **Karşıya yükle** öğesine tıklayın ve ardından daha önce kaydettiğiniz **SampleBankCompositeEntity.xml** dosyasını seçmek üzere dosya konumuna gidin.</span><span class="sxs-lookup"><span data-stu-id="919db-146">To upload the import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="919db-147">Banka ekstreleri varlığı karşıya yüklendikten ve eşleştirme işlemi tamamlandıktan sonra varlığın **Eşlemeyi görüntüle** eylemine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-147">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="919db-148">Banka ekstreleri varlığı dört farklı varlıktan oluşan birleşik bir varlıktır.</span><span class="sxs-lookup"><span data-stu-id="919db-148">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="919db-149">Listeden **BankStatementDocumentEntity** öğesini seçin ve **Eşlemeyi görüntüle** eylemine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-149">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="919db-150">**Dönüşümler** sekmesinde **Yeni** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-150">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="919db-151">Sıra numarası 1 için **Dosyayı karşıya yükle** öğesine tıklayın ve daha önce kaydettiğiniz **ISO20022XML-to-Reconciliation.xslt** dosyasını seçin.</span><span class="sxs-lookup"><span data-stu-id="919db-151">For sequence number 1, click **Upload file**, and select the **ISO20022XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="919db-152">**Not:** Finance and Operations dönüşüm dosyaları standart biçim için oluşturulmuştur.</span><span class="sxs-lookup"><span data-stu-id="919db-152">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="919db-153">Bankalar genellikle bu biçimden ayrıldıkları için dönüşüm dosyasını banka ekstresi biçiminizle eşleşecek şekilde güncelleştirmeniz gerekebilir.</span><span class="sxs-lookup"><span data-stu-id="919db-153">Because banks often diverge from this format, you may have to update the transformation file to map to your bank statement format.</span></span> <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+11. <span data-ttu-id="919db-154">**Yeni**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-154">Click **New**.</span></span>
+12. <span data-ttu-id="919db-155">Sıra numarası 2 için **Dosyayı karşıya yükle** öğesine tıklayın ve daha önce kaydettiğiniz **BankReconciliation-to-Composite.xslt** dosyasını seçin.</span><span class="sxs-lookup"><span data-stu-id="919db-155">For sequence number 2, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+13. <span data-ttu-id="919db-156">**Dönüşümleri uygula**'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-156">Click **Apply transforms**.</span></span>
 
-Biçim işlem grubu ayarlandıktan sonraki adım ISO20022 banka ekstreleri için banka ekstresi biçim kurallarını tanımlamaktır.
+<span data-ttu-id="919db-157">Biçim işlem grubu ayarlandıktan sonraki adım ISO20022 banka ekstreleri için banka ekstresi biçim kurallarını tanımlamaktır.</span><span class="sxs-lookup"><span data-stu-id="919db-157">After the format processing group is set up, the next step is to define the bank statement format rules for ISO20022 bank statements.</span></span>
 
-1.  **Nakit ve banka yönetimi** &gt; **Kurulum** &gt; **Gelişmiş banka mutabakatı kurulumu** &gt; **Banka ekstresi biçimi**'ne gidin.
-2.  **Yeni**'ye tıklayın.
-3.  Bir ekstre biçimi belirtin, örneğin **ISO20022**.
-4.  Biçim için bir ad girin.
-5.  **İşlem grubu** alanını daha önce tanımladığınız grup olarak ayarlayın, örneğin **ISO20022**.
-6.  **XML dosyası** onay kutusunu seçin.
+1.  <span data-ttu-id="919db-158">**Nakit ve banka yönetimi** &gt; **Kurulum** &gt; **Gelişmiş banka mutabakatı kurulumu** &gt; **Banka ekstresi biçimi**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="919db-158">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="919db-159">**Yeni**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-159">Click **New**.</span></span>
+3.  <span data-ttu-id="919db-160">Bir ekstre biçimi belirtin, örneğin **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="919db-160">Specify a statement format, such as **ISO20022**.</span></span>
+4.  <span data-ttu-id="919db-161">Biçim için bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="919db-161">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="919db-162">**İşlem grubu** alanını daha önce tanımladığınız grup olarak ayarlayın, örneğin **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="919db-162">Set the **Processing group** field to the group that you defined earlier, such as **ISO20022**.</span></span>
+6.  <span data-ttu-id="919db-163">**XML dosyası** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="919db-163">Select the **XML file** check box.</span></span>
 
-Son adım Gelişmiş banka mutabakatını etkinleştirmek ve banka hesabındaki ekstre biçimini ayarlamaktır.
+<span data-ttu-id="919db-164">Son adım Gelişmiş banka mutabakatını etkinleştirmek ve banka hesabındaki ekstre biçimini ayarlamaktır.</span><span class="sxs-lookup"><span data-stu-id="919db-164">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  **Nakit ve banka yönetimi** &gt; **Banka hesapları**'na gidin.
-2.  Banka hesabını seçin ve ayrıntılarını görüntülemek için hesabı açın.
-3.  **Mutabakat** sekmesinde, **Gelişmiş banka mutabakatı** seçeneğini **Evet** olarak ayarlayın.
-4.  **Ekstre biçimi** alanını daha önce oluşturduğunuz biçime ayarlayın, örneğin **ISO20022**.
+1.  <span data-ttu-id="919db-165">**Nakit ve banka yönetimi** &gt; **Banka hesapları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="919db-165">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="919db-166">Banka hesabını seçin ve ayrıntılarını görüntülemek için hesabı açın.</span><span class="sxs-lookup"><span data-stu-id="919db-166">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="919db-167">**Mutabakat** sekmesinde, **Gelişmiş banka mutabakatı** seçeneğini **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="919db-167">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="919db-168">**Ekstre biçimi** alanını daha önce oluşturduğunuz biçime ayarlayın, örneğin **ISO20022**.</span><span class="sxs-lookup"><span data-stu-id="919db-168">Set the **Statement format** field to the format that you created earlier, such as **ISO20022**.</span></span>
 
-## <a name="set-up-the-import-of-mt940-bank-statements"></a>MT940 banka ekstrelerinin içe aktarma işlemini ayarlama
-İlk olarak, veri varlık çerçevesini kullanarak MT940 banka ekstreleri için banka ekstresi biçimi işlem grubu tanımlamanız gerekir.
+## <a name="set-up-the-import-of-mt940-bank-statements"></a><span data-ttu-id="919db-169">MT940 banka ekstrelerinin içe aktarma işlemini ayarlama</span><span class="sxs-lookup"><span data-stu-id="919db-169">Set up the import of MT940 bank statements</span></span>
+<span data-ttu-id="919db-170">İlk olarak, veri varlık çerçevesini kullanarak MT940 banka ekstreleri için banka ekstresi biçimi işlem grubu tanımlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="919db-170">First, you must define the bank statement format processing group for MT940 bank statements by using the data entity framework.</span></span>
 
-1.  **Çalışma alanları** &gt; **Veri yönetimi**'ne gidin.
-2.  **İçe aktar**'a tıklayın.
-3.  Biçim için bir ad girin, örneğin **MT940**.
-4.  **Kaynak veri biçimi** alanını **XML-Element** olarak ayarlayın.
-5.  **Varlık adı** alanını **Banka ekstreleri** olarak ayarlayın.
-6.  İçe aktarılan dosyaları karşıya yüklemek için **Karşıya yükle** öğesine tıklayın ve ardından daha önce kaydettiğiniz **SampleBankCompositeEntity.xml** dosyasını seçmek üzere dosya konumuna gidin.
-7.  Banka ekstreleri varlığı karşıya yüklendikten ve eşleştirme işlemi tamamlandıktan sonra varlığın **Eşlemeyi görüntüle** eylemine tıklayın.
-8.  Banka ekstreleri varlığı dört farklı varlıktan oluşan birleşik bir varlıktır. Listeden **BankStatementDocumentEntity** öğesini seçin ve **Eşlemeyi görüntüle** eylemine tıklayın.
-9.  **Dönüşümler** sekmesinde **Yeni** öğesine tıklayın.
-10. Sıra numarası 1 için **Dosyayı karşıya yükle** öğesine tıklayın ve daha önce kaydettiğiniz **MT940TXT-to-MT940XML.xslt** dosyasını seçin.
-11. **Yeni**'yi tıklatın.
-12. Sıra numarası 2 için **Dosyayı karşıya yükle** öğesine tıklayın ve daha önce kaydettiğiniz **MT940XML-to-Reconciliation.xslt** dosyasını seçin. **Not:** Finance and Operations dönüşüm dosyaları standart biçim için oluşturulmuştur. Bankalar genellikle bu biçimden ayrıldıkları için dönüşüm dosyasını banka ekstresi biçiminizle eşleşecek şekilde güncelleştirmeniz gerekebilir. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
-13. **Yeni**'ye tıklayın.
-14. Sıra numarası 3 için **Dosyayı karşıya yükle** öğesine tıklayın ve daha önce kaydettiğiniz **BankReconciliation-to-Composite.xslt** dosyasını seçin.
-15. **Dönüşümleri uygula**'ya tıklayın.
+1.  <span data-ttu-id="919db-171">**Çalışma alanları** &gt; **Veri yönetimi**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="919db-171">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="919db-172">**İçe aktar**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-172">Click **Import**.</span></span>
+3.  <span data-ttu-id="919db-173">Biçim için bir ad girin, örneğin **MT940**.</span><span class="sxs-lookup"><span data-stu-id="919db-173">Enter a name for the format, such as **MT940**.</span></span>
+4.  <span data-ttu-id="919db-174">**Kaynak veri biçimi** alanını **XML-Element** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="919db-174">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="919db-175">**Varlık adı** alanını **Banka ekstreleri** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="919db-175">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="919db-176">İçe aktarılan dosyaları karşıya yüklemek için **Karşıya yükle** öğesine tıklayın ve ardından daha önce kaydettiğiniz **SampleBankCompositeEntity.xml** dosyasını seçmek üzere dosya konumuna gidin.</span><span class="sxs-lookup"><span data-stu-id="919db-176">To upload import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="919db-177">Banka ekstreleri varlığı karşıya yüklendikten ve eşleştirme işlemi tamamlandıktan sonra varlığın **Eşlemeyi görüntüle** eylemine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-177">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="919db-178">Banka ekstreleri varlığı dört farklı varlıktan oluşan birleşik bir varlıktır.</span><span class="sxs-lookup"><span data-stu-id="919db-178">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="919db-179">Listeden **BankStatementDocumentEntity** öğesini seçin ve **Eşlemeyi görüntüle** eylemine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-179">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="919db-180">**Dönüşümler** sekmesinde **Yeni** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-180">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="919db-181">Sıra numarası 1 için **Dosyayı karşıya yükle** öğesine tıklayın ve daha önce kaydettiğiniz **MT940TXT-to-MT940XML.xslt** dosyasını seçin.</span><span class="sxs-lookup"><span data-stu-id="919db-181">For sequence number 1, click **Upload file**, and select the **MT940TXT-to-MT940XML.xslt** file that you saved earlier.</span></span>
+11. <span data-ttu-id="919db-182">**Yeni**'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="919db-182">Click **New**.</span></span>
+12. <span data-ttu-id="919db-183">Sıra numarası 2 için **Dosyayı karşıya yükle** öğesine tıklayın ve daha önce kaydettiğiniz **MT940XML-to-Reconciliation.xslt** dosyasını seçin.</span><span class="sxs-lookup"><span data-stu-id="919db-183">For sequence number 2, click **Upload file**, and select the **MT940XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="919db-184">**Not:** Finance and Operations dönüşüm dosyaları standart biçim için oluşturulmuştur.</span><span class="sxs-lookup"><span data-stu-id="919db-184">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="919db-185">Bankalar genellikle bu biçimden ayrıldıkları için dönüşüm dosyasını banka ekstresi biçiminizle eşleşecek şekilde güncelleştirmeniz gerekebilir.</span><span class="sxs-lookup"><span data-stu-id="919db-185">Because banks often diverge from this format, you may have to update the transformation file to map to your bank statement format.</span></span> <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
+13. <span data-ttu-id="919db-186">**Yeni**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-186">Click **New**.</span></span>
+14. <span data-ttu-id="919db-187">Sıra numarası 3 için **Dosyayı karşıya yükle** öğesine tıklayın ve daha önce kaydettiğiniz **BankReconciliation-to-Composite.xslt** dosyasını seçin.</span><span class="sxs-lookup"><span data-stu-id="919db-187">For sequence number 3, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+15. <span data-ttu-id="919db-188">**Dönüşümleri uygula**'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-188">Click **Apply transforms**.</span></span>
 
-Biçim işlem grubu ayarlandıktan sonraki adım MT940 banka ekstreleri için banka ekstresi biçim kurallarını tanımlamaktır.
+<span data-ttu-id="919db-189">Biçim işlem grubu ayarlandıktan sonraki adım MT940 banka ekstreleri için banka ekstresi biçim kurallarını tanımlamaktır.</span><span class="sxs-lookup"><span data-stu-id="919db-189">After the format processing group is set up, the next step is to define the bank statement format rules for MT940 bank statements.</span></span>
 
-1.  **Nakit ve banka yönetimi** &gt; **Kurulum** &gt; **Gelişmiş banka mutabakatı kurulumu** &gt; **Banka ekstresi biçimi**'ne gidin.
-2.  **Yeni**'ye tıklayın.
-3.  Bir ekstre biçimi belirtin, örneğin **MT940**.
-4.  Biçim için bir ad girin.
-5.  **İşlem grubu** alanını daha önce tanımladığınız grup olarak ayarlayın, örneğin **MT940**.
-6.  **Dosya türü** alanını **txt** olarak ayarlayın.
+1.  <span data-ttu-id="919db-190">**Nakit ve banka yönetimi** &gt; **Kurulum** &gt; **Gelişmiş banka mutabakatı kurulumu** &gt; **Banka ekstresi biçimi**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="919db-190">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="919db-191">**Yeni**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-191">Click **New**.</span></span>
+3.  <span data-ttu-id="919db-192">Bir ekstre biçimi belirtin, örneğin **MT940**.</span><span class="sxs-lookup"><span data-stu-id="919db-192">Specify a statement format, such as **MT940**.</span></span>
+4.  <span data-ttu-id="919db-193">Biçim için bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="919db-193">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="919db-194">**İşlem grubu** alanını daha önce tanımladığınız grup olarak ayarlayın, örneğin **MT940**.</span><span class="sxs-lookup"><span data-stu-id="919db-194">Set the **Processing group** field to the group that you defined earlier, such as **MT940**.</span></span>
+6.  <span data-ttu-id="919db-195">**Dosya türü** alanını **txt** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="919db-195">Set the **File type** field to **txt**.</span></span>
 
-Son adım Gelişmiş banka mutabakatını etkinleştirmek ve banka hesabındaki ekstre biçimini ayarlamaktır.
+<span data-ttu-id="919db-196">Son adım Gelişmiş banka mutabakatını etkinleştirmek ve banka hesabındaki ekstre biçimini ayarlamaktır.</span><span class="sxs-lookup"><span data-stu-id="919db-196">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  **Nakit ve banka yönetimi** &gt; **Banka hesapları**'na gidin.
-2.  Banka hesabını seçin ve ayrıntılarını görüntülemek için hesabı açın.
-3.  **Mutabakat** sekmesinde, **Gelişmiş banka mutabakatı** seçeneğini **Evet** olarak ayarlayın.
-4.  Seçiminizi onaylamanız ve Gelişmiş banka mutabakatı seçeneğini etkinleştirmeniz istendiğinde **Tamam**'a tıklayın.
-5.  **Ekstre biçimi** alanını daha önce oluşturduğunuz biçime ayarlayın, örneğin **MT940**.
+1.  <span data-ttu-id="919db-197">**Nakit ve banka yönetimi** &gt; **Banka hesapları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="919db-197">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="919db-198">Banka hesabını seçin ve ayrıntılarını görüntülemek için hesabı açın.</span><span class="sxs-lookup"><span data-stu-id="919db-198">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="919db-199">**Mutabakat** sekmesinde, **Gelişmiş banka mutabakatı** seçeneğini **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="919db-199">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="919db-200">Seçiminizi onaylamanız ve Gelişmiş banka mutabakatı seçeneğini etkinleştirmeniz istendiğinde **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-200">When you're prompted to confirm your selection and enable Advanced bank reconciliation, click **OK**.</span></span>
+5.  <span data-ttu-id="919db-201">**Ekstre biçimi** alanını daha önce oluşturduğunuz biçime ayarlayın, örneğin **MT940**.</span><span class="sxs-lookup"><span data-stu-id="919db-201">Set the **Statement format** field to the format that you created earlier, such as **MT940**.</span></span>
 
-## <a name="set-up-the-import-of-bai2-bank-statements"></a>BAI2 banka ekstrelerinin içe aktarma işlemini ayarlama
-İlk olarak, veri varlık çerçevesini kullanarak BAI2 banka ekstreleri için banka ekstresi biçimi işlem grubu tanımlamanız gerekir.
+## <a name="set-up-the-import-of-bai2-bank-statements"></a><span data-ttu-id="919db-202">BAI2 banka ekstrelerinin içe aktarma işlemini ayarlama</span><span class="sxs-lookup"><span data-stu-id="919db-202">Set up the import of BAI2 bank statements</span></span>
+<span data-ttu-id="919db-203">İlk olarak, veri varlık çerçevesini kullanarak BAI2 banka ekstreleri için banka ekstresi biçimi işlem grubu tanımlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="919db-203">First, you must define the bank statement format processing group for BAI2 bank statements by using the data entity framework.</span></span>
 
-1.  **Çalışma alanları** &gt; **Veri yönetimi**'ne gidin.
-2.  **İçe aktar**'a tıklayın.
-3.  Biçim için bir ad girin, örneğin **BAI2**.
-4.  **Kaynak veri biçimi** alanını **XML-Element** olarak ayarlayın.
-5.  **Varlık adı** alanını **Banka ekstreleri** olarak ayarlayın.
-6.  İçe aktarılan dosyaları karşıya yüklemek için **Karşıya yükle** öğesine tıklayın ve ardından daha önce kaydettiğiniz **SampleBankCompositeEntity.xml** dosyasını seçmek üzere dosya konumuna gidin.
-7.  Banka ekstreleri varlığı karşıya yüklendikten ve eşleştirme işlemi tamamlandıktan sonra varlığın **Eşlemeyi görüntüle** eylemine tıklayın.
-8.  Banka ekstreleri varlığı dört farklı varlıktan oluşan birleşik bir varlıktır. Listeden **BankStatementDocumentEntity** öğesini seçin ve **Eşlemeyi görüntüle** eylemine tıklayın.
-9.  **Dönüşümler** sekmesinde **Yeni** öğesine tıklayın.
-10. Sıra numarası 1 için **Dosyayı karşıya yükle** öğesine tıklayın ve daha önce kaydettiğiniz **BAI2CSV-to-BAI2XML.xslt** dosyasını seçin.
-11. **Yeni**'yi tıklatın.
-12. Sıra numarası 2 için **Dosyayı karşıya yükle** öğesine tıklayın ve daha önce kaydettiğiniz **BAI2XML-to-Reconciliation.xslt** dosyasını seçin. **Not:** Finance and Operations dönüşüm dosyaları standart biçim için oluşturulmuştur. Bankalar genellikle bu biçimden ayrıldıkları için dönüşüm dosyasını banka ekstresi biçiminizle eşleşecek şekilde güncelleştirmeniz gerekebilir. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
-13. **Yeni**'ye tıklayın.
-14. Sıra numarası 3 için **Dosyayı karşıya yükle** öğesine tıklayın ve daha önce kaydettiğiniz **BankReconciliation-to-Composite.xslt** dosyasını seçin.
-15. **Dönüşümleri uygula**'ya tıklayın.
+1.  <span data-ttu-id="919db-204">**Çalışma alanları** &gt; **Veri yönetimi**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="919db-204">Go to **Workspaces** &gt; **Data management**.</span></span>
+2.  <span data-ttu-id="919db-205">**İçe aktar**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-205">Click **Import**.</span></span>
+3.  <span data-ttu-id="919db-206">Biçim için bir ad girin, örneğin **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="919db-206">Enter a name for the format, such as **BAI2**.</span></span>
+4.  <span data-ttu-id="919db-207">**Kaynak veri biçimi** alanını **XML-Element** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="919db-207">Set the **Source data format** field to **XML-Element**.</span></span>
+5.  <span data-ttu-id="919db-208">**Varlık adı** alanını **Banka ekstreleri** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="919db-208">Set the **Entity name** field to **Bank statements**.</span></span>
+6.  <span data-ttu-id="919db-209">İçe aktarılan dosyaları karşıya yüklemek için **Karşıya yükle** öğesine tıklayın ve ardından daha önce kaydettiğiniz **SampleBankCompositeEntity.xml** dosyasını seçmek üzere dosya konumuna gidin.</span><span class="sxs-lookup"><span data-stu-id="919db-209">To upload import files, click **Upload**, and then browse to select the **SampleBankCompositeEntity.xml** file that you saved earlier.</span></span>
+7.  <span data-ttu-id="919db-210">Banka ekstreleri varlığı karşıya yüklendikten ve eşleştirme işlemi tamamlandıktan sonra varlığın **Eşlemeyi görüntüle** eylemine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-210">After the Bank statements entity is uploaded and the mapping is completed, click the **View map** action for the entity.</span></span>
+8.  <span data-ttu-id="919db-211">Banka ekstreleri varlığı dört farklı varlıktan oluşan birleşik bir varlıktır.</span><span class="sxs-lookup"><span data-stu-id="919db-211">The Bank statements entity is a composite entity that consists of four separate entities.</span></span> <span data-ttu-id="919db-212">Listeden **BankStatementDocumentEntity** öğesini seçin ve **Eşlemeyi görüntüle** eylemine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-212">In the list, select **BankStatementDocumentEntity**, and then click the **View map** action.</span></span>
+9.  <span data-ttu-id="919db-213">**Dönüşümler** sekmesinde **Yeni** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-213">On the **Transformations** tab, click **New**.</span></span>
+10. <span data-ttu-id="919db-214">Sıra numarası 1 için **Dosyayı karşıya yükle** öğesine tıklayın ve daha önce kaydettiğiniz **BAI2CSV-to-BAI2XML.xslt** dosyasını seçin.</span><span class="sxs-lookup"><span data-stu-id="919db-214">For sequence number 1, click **Upload file**, and select the **BAI2CSV-to-BAI2XML.xslt** file that you saved earlier.</span></span>
+11. <span data-ttu-id="919db-215">**Yeni**'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="919db-215">Click **New**.</span></span>
+12. <span data-ttu-id="919db-216">Sıra numarası 2 için **Dosyayı karşıya yükle** öğesine tıklayın ve daha önce kaydettiğiniz **BAI2XML-to-Reconciliation.xslt** dosyasını seçin.</span><span class="sxs-lookup"><span data-stu-id="919db-216">For sequence number 2, click **Upload file**, and select the **BAI2XML-to-Reconciliation.xslt** file that you saved earlier.</span></span> <span data-ttu-id="919db-217">**Not:** Finance and Operations dönüşüm dosyaları standart biçim için oluşturulmuştur.</span><span class="sxs-lookup"><span data-stu-id="919db-217">**Note:** Finance and Operations transformation files are built for the standard format.</span></span> <span data-ttu-id="919db-218">Bankalar genellikle bu biçimden ayrıldıkları için dönüşüm dosyasını banka ekstresi biçiminizle eşleşecek şekilde güncelleştirmeniz gerekebilir.</span><span class="sxs-lookup"><span data-stu-id="919db-218">Because banks often diverge from this format, and you may have to update the transformation file to map to your bank statement format.</span></span> <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
+13. <span data-ttu-id="919db-219">**Yeni**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-219">Click **New**.</span></span>
+14. <span data-ttu-id="919db-220">Sıra numarası 3 için **Dosyayı karşıya yükle** öğesine tıklayın ve daha önce kaydettiğiniz **BankReconciliation-to-Composite.xslt** dosyasını seçin.</span><span class="sxs-lookup"><span data-stu-id="919db-220">For sequence number 3, click **Upload file**, and select the **BankReconciliation-to-Composite.xslt** file that you saved earlier.</span></span>
+15. <span data-ttu-id="919db-221">**Dönüşümleri uygula**'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-221">Click **Apply transforms**.</span></span>
 
-Biçim işlem grubu ayarlandıktan sonraki adım BAI2 banka ekstreleri için banka ekstresi biçim kurallarını tanımlamaktır.
+<span data-ttu-id="919db-222">Biçim işlem grubu ayarlandıktan sonraki adım BAI2 banka ekstreleri için banka ekstresi biçim kurallarını tanımlamaktır.</span><span class="sxs-lookup"><span data-stu-id="919db-222">After the format processing group is set up, the next step is to define the bank statement format rules for BAI2 bank statements.</span></span>
 
-1.  **Nakit ve banka yönetimi** &gt; **Kurulum** &gt; **Gelişmiş banka mutabakatı kurulumu** &gt; **Banka ekstresi biçimi**'ne gidin.
-2.  **Yeni**'ye tıklayın.
-3.  Bir ekstre biçimi belirtin, örneğin **BAI2**.
-4.  Biçim için bir ad girin.
-5.  **İşlem grubu** alanını daha önce tanımladığınız grup olarak ayarlayın, örneğin **BAI2**.
-6.  **Dosya türü** alanını **txt** olarak ayarlayın.
+1.  <span data-ttu-id="919db-223">**Nakit ve banka yönetimi** &gt; **Kurulum** &gt; **Gelişmiş banka mutabakatı kurulumu** &gt; **Banka ekstresi biçimi**'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="919db-223">Go to **Cash and bank management** &gt; **Setup** &gt; **Advanced bank reconciliation setup** &gt; **Bank statement format**.</span></span>
+2.  <span data-ttu-id="919db-224">**Yeni**'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-224">Click **New**.</span></span>
+3.  <span data-ttu-id="919db-225">Bir ekstre biçimi belirtin, örneğin **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="919db-225">Specify a statement format, such as **BAI2**.</span></span>
+4.  <span data-ttu-id="919db-226">Biçim için bir ad girin.</span><span class="sxs-lookup"><span data-stu-id="919db-226">Enter a name for the format.</span></span>
+5.  <span data-ttu-id="919db-227">**İşlem grubu** alanını daha önce tanımladığınız grup olarak ayarlayın, örneğin **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="919db-227">Set the **Processing group** field to the group that you defined earlier, such as **BAI2**.</span></span>
+6.  <span data-ttu-id="919db-228">**Dosya türü** alanını **txt** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="919db-228">Set the **File type** field to **txt**.</span></span>
 
-Son adım Gelişmiş banka mutabakatını etkinleştirmek ve banka hesabındaki ekstre biçimini ayarlamaktır.
+<span data-ttu-id="919db-229">Son adım Gelişmiş banka mutabakatını etkinleştirmek ve banka hesabındaki ekstre biçimini ayarlamaktır.</span><span class="sxs-lookup"><span data-stu-id="919db-229">The last step is to enable Advanced bank reconciliation and set the statement format on the bank account.</span></span>
 
-1.  **Nakit ve banka yönetimi** &gt; **Banka hesapları**'na gidin.
-2.  Banka hesabını seçin ve ayrıntılarını görüntülemek için hesabı açın.
-3.  **Mutabakat** sekmesinde, **Gelişmiş banka mutabakatı** seçeneğini **Evet** olarak ayarlayın.
-4.  Seçiminizi onaylamanız ve Gelişmiş banka mutabakatı seçeneğini etkinleştirmeniz istendiğinde **Tamam**'a tıklayın.
-5.  **Ekstre biçimi** alanını daha önce oluşturduğunuz biçime ayarlayın, örneğin **BAI2**.
+1.  <span data-ttu-id="919db-230">**Nakit ve banka yönetimi** &gt; **Banka hesapları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="919db-230">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="919db-231">Banka hesabını seçin ve ayrıntılarını görüntülemek için hesabı açın.</span><span class="sxs-lookup"><span data-stu-id="919db-231">Select the bank account, and open it to view the details.</span></span>
+3.  <span data-ttu-id="919db-232">**Mutabakat** sekmesinde, **Gelişmiş banka mutabakatı** seçeneğini **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="919db-232">On the **Reconciliation** tab, set the **Advanced bank reconciliation** option to **Yes**.</span></span>
+4.  <span data-ttu-id="919db-233">Seçiminizi onaylamanız ve Gelişmiş banka mutabakatı seçeneğini etkinleştirmeniz istendiğinde **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-233">When you're prompted to confirm your selection and enable Advanced bank reconciliation, click **OK**.</span></span>
+5.  <span data-ttu-id="919db-234">**Ekstre biçimi** alanını daha önce oluşturduğunuz biçime ayarlayın, örneğin **BAI2**.</span><span class="sxs-lookup"><span data-stu-id="919db-234">Set the **Statement format** field to the format that you created earlier, such as **BAI2**.</span></span>
 
-## <a name="test-the-bank-statement-import"></a>Banka ekstresi içe aktarma sınaması
-Son adım banka ekstrenizi içe aktarıp aktaramadığınızı sınamaktır.
+## <a name="test-the-bank-statement-import"></a><span data-ttu-id="919db-235">Banka ekstresi içe aktarma sınaması</span><span class="sxs-lookup"><span data-stu-id="919db-235">Test the bank statement import</span></span>
+<span data-ttu-id="919db-236">Son adım banka ekstrenizi içe aktarıp aktaramadığınızı sınamaktır.</span><span class="sxs-lookup"><span data-stu-id="919db-236">The final step is to test that you can import your bank statement.</span></span>
 
-1.  **Nakit ve banka yönetimi** &gt; **Banka hesapları**'na gidin.
-2.  Gelişmiş banka mutabakatı işlevinin etkinleştirildiği banka hesabını seçin.
-3.  **Mutabakat** sekmesinde **Banka ekstreleri** seçeneğine tıklayın.
-4.  **Banka ekstresi** sayfasında **Ekstreyi içe aktar** öğesine tıklayın.
-5.  **Banka hesabı** alanını seçili banka hesabı olacak şekilde ayarlayın. **Ekstre biçimi** alanı banka hesabının ayarına göre otomatik olarak ayarlanır.
-6.  **Gözat**'a tıklayın ve elektronik banka ekstresi dosyanızı seçin.
-7.  **Karşıya yükle** seçeneğini tıklatın.
-8.  **Tamam** düğmesini tıklatın.
+1.  <span data-ttu-id="919db-237">**Nakit ve banka yönetimi** &gt; **Banka hesapları**'na gidin.</span><span class="sxs-lookup"><span data-stu-id="919db-237">Go to **Cash and bank management** &gt; **Bank accounts**.</span></span>
+2.  <span data-ttu-id="919db-238">Gelişmiş banka mutabakatı işlevinin etkinleştirildiği banka hesabını seçin.</span><span class="sxs-lookup"><span data-stu-id="919db-238">Select the bank account that Advanced bank reconciliation functionality is enabled for.</span></span>
+3.  <span data-ttu-id="919db-239">**Mutabakat** sekmesinde **Banka ekstreleri** seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-239">On the **Reconcile** tab, click **Bank statements**.</span></span>
+4.  <span data-ttu-id="919db-240">**Banka ekstresi** sayfasında **Ekstreyi içe aktar** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-240">On the **Bank statement** page, click **Import statement**.</span></span>
+5.  <span data-ttu-id="919db-241">**Banka hesabı** alanını seçili banka hesabı olacak şekilde ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="919db-241">Set the **Bank account** field to the selected bank account.</span></span> <span data-ttu-id="919db-242">**Ekstre biçimi** alanı banka hesabının ayarına göre otomatik olarak ayarlanır.</span><span class="sxs-lookup"><span data-stu-id="919db-242">The **Statement format** field will be set automatically, based on the setting on the bank account.</span></span>
+6.  <span data-ttu-id="919db-243">**Gözat**'a tıklayın ve elektronik banka ekstresi dosyanızı seçin.</span><span class="sxs-lookup"><span data-stu-id="919db-243">Click **Browse**, and select your electronic bank statement file.</span></span>
+7.  <span data-ttu-id="919db-244">**Karşıya yükle** seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="919db-244">Click **Upload**.</span></span>
+8.  <span data-ttu-id="919db-245">**Tamam** düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="919db-245">Click **OK**.</span></span>
 
-İçe aktarma işlemi başarılı olduğunda ekstrenizin içe aktarıldığını belirten bir ileti alırsınız. İçe aktarma işlemi başarılı olmazsa, **Veri yönetimi** çalışma alanındaki **İş geçmişi** bölümünde işi bulun. İşin **Yürütme ayrıntıları**'na tıklayıp **Yürütme özeti** sayfasını açın ve içe aktarma hatalarını görüntülemek için **Yürütme günlüğünü görüntüle** seçeneğine tıklayın.
+<span data-ttu-id="919db-246">İçe aktarma işlemi başarılı olduğunda ekstrenizin içe aktarıldığını belirten bir ileti alırsınız.</span><span class="sxs-lookup"><span data-stu-id="919db-246">If the import is successful, you will receive a message that states that your statement was imported.</span></span> <span data-ttu-id="919db-247">İçe aktarma işlemi başarılı olmazsa, **Veri yönetimi** çalışma alanındaki **İş geçmişi** bölümünde işi bulun.</span><span class="sxs-lookup"><span data-stu-id="919db-247">If the import wasn't successful, in the **Data management** workspace, in the **Job history** section, find the job.</span></span> <span data-ttu-id="919db-248">İşin **Yürütme ayrıntıları**'na tıklayıp **Yürütme özeti** sayfasını açın ve içe aktarma hatalarını görüntülemek için **Yürütme günlüğünü görüntüle** seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="919db-248">Click **Execution details** for the job to open the **Execution summary** page, and then click **View execution log** to view the import errors.</span></span>
 
 
 

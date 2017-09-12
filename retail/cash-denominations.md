@@ -19,35 +19,35 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d280a11670b5887ae5ae582cedf30c093b4b5d7c
-ms.openlocfilehash: 9abcbb706d7120c6bcd91fc759b33cb518802a5b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 45e70765c43b93e9d8abab5fbb9de1d67a739a74
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="configure-cash-denominations-for-pos"></a>POS için nakit para birimlerini yapılandırma
+# <a name="configure-cash-denominations-for-pos"></a><span data-ttu-id="4182d-103">POS için nakit para birimlerini yapılandırma</span><span class="sxs-lookup"><span data-stu-id="4182d-103">Configure cash denominations for POS</span></span>
 
 [!include[banner](includes/banner.md)]
 
-Banknotlar ve bozuk paralar için arka ofiste tanımlana nakit para birimleri, kasiyerler, satış sorumluları ve yöneticiler tarafından mağazada POS içerisinden kullanılabilir. Bu para birimleri, gün sonu kasa sayımlarında sayıma yardımcı olmak veya bir satışın sayımını hızlıca gerçekleştirmek için kullanılabilir.
+<span data-ttu-id="4182d-104">Banknotlar ve bozuk paralar için arka ofiste tanımlana nakit para birimleri, kasiyerler, satış sorumluları ve yöneticiler tarafından mağazada POS içerisinden kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="4182d-104">Cash denominations for notes and coins can be defined in the back office to be used by cashiers, sales associates, and managers at the store from within the POS.</span></span> <span data-ttu-id="4182d-105">Bu para birimleri, gün sonu kasa sayımlarında sayıma yardımcı olmak veya bir satışın sayımını hızlıca gerçekleştirmek için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="4182d-105">These denominations can be used to aid in counting cash for end of day tender declarations or for quickly tendering a sale.</span></span>
 
-## <a name="define-denominations"></a>Para birimlerini tanımla
-Para birimleri mağaza başına **Ayarlama** > **Mağaza özelliğinden nakit ara birimi seçeneği** üzerinde ayarlanır. 
+## <a name="define-denominations"></a><span data-ttu-id="4182d-106">Para birimlerini tanımla</span><span class="sxs-lookup"><span data-stu-id="4182d-106">Define denominations</span></span>
+<span data-ttu-id="4182d-107">Para birimleri mağaza başına **Ayarlama** > **Mağaza özelliğinden nakit ara birimi seçeneği** üzerinde ayarlanır.</span><span class="sxs-lookup"><span data-stu-id="4182d-107">The denominations are set up per store on the **Set up** > **Cash declaration option from the store property** page.</span></span> 
 
 ![nakit para birimleri](./media/image1-denomination.png)
 
-Bir para birimini tanımlamak için:
-1. **Yeni**'yi tıklatın.
-1. Türü belirtin (bozuk para veya banknot).
-1. Tutarı (değeri) belirtin.
+<span data-ttu-id="4182d-109">Bir para birimini tanımlamak için:</span><span class="sxs-lookup"><span data-stu-id="4182d-109">To define a denomination:</span></span>
+1. <span data-ttu-id="4182d-110">**Yeni**'yi tıklatın.</span><span class="sxs-lookup"><span data-stu-id="4182d-110">Click **New**.</span></span>
+1. <span data-ttu-id="4182d-111">Türü belirtin (bozuk para veya banknot).</span><span class="sxs-lookup"><span data-stu-id="4182d-111">Specify the type (coin or note).</span></span>
+1. <span data-ttu-id="4182d-112">Tutarı (değeri) belirtin.</span><span class="sxs-lookup"><span data-stu-id="4182d-112">Specify the amount (value).</span></span>
 
 ![nakit para birimleri](./media/image2-denomination.png)
 
-## <a name="configure-the-functionality-profile"></a>İşlev profilini yapılandırın
-POS içinde nakit ile öderken, kullanıcı banknot para birimlerini, müşteri tarafından ödenen tutarı hızlıca girmek için kullanabilir. İşlev profilinde, para birimini POS içerisinde göstermek için iki seçeneği yapılandırabilirsiniz.
+## <a name="configure-the-functionality-profile"></a><span data-ttu-id="4182d-114">İşlev profilini yapılandırın</span><span class="sxs-lookup"><span data-stu-id="4182d-114">Configure the functionality profile</span></span>
+<span data-ttu-id="4182d-115">POS içinde nakit ile öderken, kullanıcı banknot para birimlerini, müşteri tarafından ödenen tutarı hızlıca girmek için kullanabilir.</span><span class="sxs-lookup"><span data-stu-id="4182d-115">When paying by cash in POS, the user can use the note denominations to quickly enter the amount paid by the customer.</span></span> <span data-ttu-id="4182d-116">İşlev profilinde, para birimini POS içerisinde göstermek için iki seçeneği yapılandırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4182d-116">In the functionality profile, you can configure the two options for showing the denomination in POS.</span></span>
 
-**Vadesi gelen tutara eşit veya büyük**: Varsayılan olarak, POS yalnızca vadesi gelen tutardan büyük olan banknot para birimlerini gösterir, bu da tek dokunuşla kasa sayımına olanak sağlar. Örneğin, vadesi gelen tutar 7,50 $ ise, POS aşağıdaki para birimlerini gösterir: 10 $, 20 $, 50 $ ve 100 $. Bu tutarlardan herhangi birine dokunmak, satış için kasa sayımını otomatik olarak bu tutardan yapar. 1 $ ve 5 $ banknotları, bunların vadesi gelen tutardan daha az olmalarından dolayı görüntülenmez.
+<span data-ttu-id="4182d-117">**Vadesi gelen tutara eşit veya büyük**: Varsayılan olarak, POS yalnızca vadesi gelen tutardan büyük olan banknot para birimlerini gösterir, bu da tek dokunuşla kasa sayımına olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="4182d-117">**Greater or equal to amount due**: By default, POS will only show the note denominations that are greater than the amount due, which allows for one-touch tendering.</span></span> <span data-ttu-id="4182d-118">Örneğin, vadesi gelen tutar 7,50 $ ise, POS aşağıdaki para birimlerini gösterir: 10 $, 20 $, 50 $ ve 100 $.</span><span class="sxs-lookup"><span data-stu-id="4182d-118">For example, if the amount due is $7.50, POS would show the following denominations: $10, $20, $50, and $100.</span></span> <span data-ttu-id="4182d-119">Bu tutarlardan herhangi birine dokunmak, satış için kasa sayımını otomatik olarak bu tutardan yapar.</span><span class="sxs-lookup"><span data-stu-id="4182d-119">Touching any of these amounts will automatically tender the sale for that amount.</span></span> <span data-ttu-id="4182d-120">1 $ ve 5 $ banknotları, bunların vadesi gelen tutardan daha az olmalarından dolayı görüntülenmez.</span><span class="sxs-lookup"><span data-stu-id="4182d-120">The $1 and $5 notes are not shown since these amounts are less than the amount due.</span></span>
 
-**Tüm para birimleri**: Tüm banknot para birimlerini, vadesi gelen tutardan bağımsız olarak POS içerisinde her zaman göstermek için bu seçeneği seçin. Bu, kullanıcının vadesi gelen tutara ulaşmak için banknot kombinasyonlarını kullanabileceği anlamına gelir. Örneğin, vadesi gelen tutar 25,00 $ ise, kullanıcı satışı tamamlamak için 20 $ ve 5 $ seçebilir.
+<span data-ttu-id="4182d-121">**Tüm para birimleri**: Tüm banknot para birimlerini, vadesi gelen tutardan bağımsız olarak POS içerisinde her zaman göstermek için bu seçeneği seçin.</span><span class="sxs-lookup"><span data-stu-id="4182d-121">**All denominations**: Select this option to always show all note denominations in POS, regardless of the amount due.</span></span> <span data-ttu-id="4182d-122">Bu, kullanıcının vadesi gelen tutara ulaşmak için banknot kombinasyonlarını kullanabileceği anlamına gelir.</span><span class="sxs-lookup"><span data-stu-id="4182d-122">This means that the user can use a combination of notes to reach the amount due.</span></span> <span data-ttu-id="4182d-123">Örneğin, vadesi gelen tutar 25,00 $ ise, kullanıcı satışı tamamlamak için 20 $ ve 5 $ seçebilir.</span><span class="sxs-lookup"><span data-stu-id="4182d-123">For example, if the amount due is $25.00, the user can choose $20 and $5 to complete the sale.</span></span>
 

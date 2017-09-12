@@ -1,7 +1,7 @@
 ---
 title: Karantina emirleri
 description: "Bu makalede, karantina emirlerinin stok durdurma için nasıl kullanıldığını açıklanmaktadır."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,66 +10,63 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: ec3d54e8e08850cd81891e7058b2b787e08b0fb9
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 17dde4a4e3380beb98eeb71c719fb898b40a94f7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/12/2017
 
 ---
 
-# <a name="quarantine-orders"></a>Karantina emirleri
+# <a name="quarantine-orders"></a><span data-ttu-id="0edf4-103">Karantina emirleri</span><span class="sxs-lookup"><span data-stu-id="0edf4-103">Quarantine orders</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, karantina emirlerinin stok durdurma için nasıl kullanıldığını açıklanmaktadır. 
+<span data-ttu-id="0edf4-104">Bu makalede, karantina emirlerinin stok durdurma için nasıl kullanıldığını açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="0edf4-104">This article describes how quarantine orders are used to block inventory.</span></span>
 
-Karantina emirleri stok durdurma için kullanılabilir. Örneğin, maddeleri kalite kontrol nedeniyle karantinaya almak isteyebilirsiniz. Karantinaya alınan stok bir karantina ambarına transfer edilir. **Not:** (Ambar yönetiminde) gelişmiş ambar yönetimi işlemleri kullanıyorsanız, karantina emri işleme yalnızca iade satış siparişleri için kullanılır.
+<span data-ttu-id="0edf4-105">Karantina emirleri stok durdurma için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="0edf4-105">Quarantine orders can be used to block inventory.</span></span> <span data-ttu-id="0edf4-106">Örneğin, maddeleri kalite kontrol nedeniyle karantinaya almak isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0edf4-106">For example, you might want to quarantine items for quality control reasons.</span></span> <span data-ttu-id="0edf4-107">Karantinaya alınan stok bir karantina ambarına transfer edilir.</span><span class="sxs-lookup"><span data-stu-id="0edf4-107">Inventory that has been quarantined is transferred to a quarantine warehouse.</span></span> <span data-ttu-id="0edf4-108">**Not:** (Ambar yönetiminde) gelişmiş ambar yönetimi işlemleri kullanıyorsanız, karantina emri işleme yalnızca iade satış siparişleri için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="0edf4-108">**Note:** If you're using advanced warehouse management processes (in Warehouse management), quarantine order processing is used only for return sales orders.</span></span>
 
-## <a name="quarantine-onhand-inventory-items"></a>Eldeki stok maddelerini karantinaya alma
-Maddeleri karantinaya aldığınızda, karantina emirlerini el ile oluşturabilirsiniz veya gelen işleme sırasında karantina emirlerini otomatik olarak oluşturmak için sistemi ayarlayabilirsiniz. Karantina emirlerini otomatik olarak oluşturmak için **Madde modeli grupları** sayfasındaki **Stok ilkeleri** sekmesinde **Karantina yönetimi** seçeneğini seçin. Teslim alma ambarları için **Ambarı karantinaya al** alanında varsayılan bir ambar belirtmeniz de gerekir. Eldeki fiziksel stok satınalma siparişi veya üretim emrinde kaydedildiğinde, karantinaya alınan maddeler otomatik olarak Microsoft Dynamics 365 for Finance and Operations içindeki karantina ambarına taşınır. Bu taşımanın gerçekleşmesinin nedeni karantina emrinin durumunun **Başladı** olarak değişmesidir. Karantina emirlerini el ile oluşturduğunuzda, ilişkili madde model grubunda karantina yönetimi için maddenin ayarlanmasına gerek yoktur. Bu işlem için karantinaya alınması gereken eldeki stoğu ve kullanılması gereken karantina ambarını belirtmeniz gerekir. Süreci planlamaya yardımcı olması için karantina emri durumlarını kullanabilirsiniz.
+## <a name="quarantine-onhand-inventory-items"></a><span data-ttu-id="0edf4-109">Eldeki stok maddelerini karantinaya alma</span><span class="sxs-lookup"><span data-stu-id="0edf4-109">Quarantine onhand inventory items</span></span>
+<span data-ttu-id="0edf4-110">Maddeleri karantinaya aldığınızda, karantina emirlerini el ile oluşturabilirsiniz veya gelen işleme sırasında karantina emirlerini otomatik olarak oluşturmak için sistemi ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0edf4-110">When you quarantine items, you can either create the quarantine orders manually or set up the system to create the quarantine orders automatically during inbound processing.</span></span> <span data-ttu-id="0edf4-111">Karantina emirlerini otomatik olarak oluşturmak için **Madde modeli grupları** sayfasındaki **Stok ilkeleri** sekmesinde **Karantina yönetimi** seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="0edf4-111">To create quarantine orders automatically, select the **Quarantine management** option on the **Inventory policies** tab on the **Item model groups** page.</span></span> <span data-ttu-id="0edf4-112">Teslim alma ambarları için **Ambarı karantinaya al** alanında varsayılan bir ambar belirtmeniz de gerekir.</span><span class="sxs-lookup"><span data-stu-id="0edf4-112">You must also specify a default quarantine warehouse in the **Quarantine warehouse** field for the receiving warehouses.</span></span> <span data-ttu-id="0edf4-113">Eldeki fiziksel stok satınalma siparişi veya üretim emrinde kaydedildiğinde, karantinaya alınan maddeler otomatik olarak Microsoft Dynamics 365 for Finance and Operations içindeki karantina ambarına taşınır.</span><span class="sxs-lookup"><span data-stu-id="0edf4-113">When the physically on-hand inventory is recorded in a purchase order or production order, quarantined items are automatically moved to a quarantine warehouse in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="0edf4-114">Bu taşımanın gerçekleşmesinin nedeni karantina emrinin durumunun **Başladı** olarak değişmesidir.</span><span class="sxs-lookup"><span data-stu-id="0edf4-114">This movement occurs because the status of the quarantine order is changed to **Started**.</span></span> <span data-ttu-id="0edf4-115">Karantina emirlerini el ile oluşturduğunuzda, ilişkili madde model grubunda karantina yönetimi için maddenin ayarlanmasına gerek yoktur.</span><span class="sxs-lookup"><span data-stu-id="0edf4-115">When you create quarantine orders manually, the item doesn't have to be set up for quarantine management in the associated item model group.</span></span> <span data-ttu-id="0edf4-116">Bu işlem için karantinaya alınması gereken eldeki stoğu ve kullanılması gereken karantina ambarını belirtmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="0edf4-116">For this process, you must specify the on-hand inventory that should be quarantined and the quarantine warehouse that should be used.</span></span> <span data-ttu-id="0edf4-117">Süreci planlamaya yardımcı olması için karantina emri durumlarını kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0edf4-117">You can use the quarantine order statuses to help plan the process.</span></span>
 
-## <a name="quarantine-order-statuses"></a>Karantina emri durumları
-Karantina siparişleri aşağıdaki durumlarda olabilir:
+## <a name="quarantine-order-statuses"></a><span data-ttu-id="0edf4-118">Karantina emri durumları</span><span class="sxs-lookup"><span data-stu-id="0edf4-118">Quarantine order statuses</span></span>
+<span data-ttu-id="0edf4-119">Karantina siparişleri aşağıdaki durumlarda olabilir:</span><span class="sxs-lookup"><span data-stu-id="0edf4-119">Quarantine orders can have the following statuses:</span></span>
 
--   Oluşturulma
--   Başladı
--   Bitirildi olarak bildirildi
--   Bitti
+-   <span data-ttu-id="0edf4-120">Oluşturulma</span><span class="sxs-lookup"><span data-stu-id="0edf4-120">Created</span></span>
+-   <span data-ttu-id="0edf4-121">Başladı</span><span class="sxs-lookup"><span data-stu-id="0edf4-121">Started</span></span>
+-   <span data-ttu-id="0edf4-122">Bitirildi olarak bildirildi</span><span class="sxs-lookup"><span data-stu-id="0edf4-122">Reported as finished</span></span>
+-   <span data-ttu-id="0edf4-123">Bitti</span><span class="sxs-lookup"><span data-stu-id="0edf4-123">Ended</span></span>
 
-### <a name="created"></a>Oluşturulma
+### <a name="created"></a><span data-ttu-id="0edf4-124">Oluşturulma</span><span class="sxs-lookup"><span data-stu-id="0edf4-124">Created</span></span>
 
-Karantina emri el ile oluşturulduğunda, fakat madde henüz karantina ambarına yerleştirilmediğinde karantina emrinin durumu **Oluşturuldu** olur. İki stok hareketi oluşturulur. Bir hareket, durumu **Siparişte**, **Fiziksel olarak ayrıldı** veya **Çekildi** olan çıkış hareketidir. Diğer hareket ise karantina ambarında durumu **Sipariş edildi** veya **Kayıtlı** olan giriş hareketidir. Normal işlemleri kullanarak stok güncelleştirmelerini ayırabilir, seçebilir ve kaydedebilirsiniz.
+<span data-ttu-id="0edf4-125">Karantina emri el ile oluşturulduğunda, fakat madde henüz karantina ambarına yerleştirilmediğinde karantina emrinin durumu **Oluşturuldu** olur.</span><span class="sxs-lookup"><span data-stu-id="0edf4-125">When a quarantine order has been created manually, but the item isn't yet in the quarantine warehouse, the quarantine order has a status of **Created**.</span></span> <span data-ttu-id="0edf4-126">İki stok hareketi oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="0edf4-126">Two inventory transactions are generated.</span></span> <span data-ttu-id="0edf4-127">Bir hareket, durumu **Siparişte**, **Fiziksel olarak ayrıldı** veya **Çekildi** olan çıkış hareketidir.</span><span class="sxs-lookup"><span data-stu-id="0edf4-127">One transaction is an issue transaction that can have a status of **On order**, **Reserved physical**, or **Picked**.</span></span> <span data-ttu-id="0edf4-128">Diğer hareket ise karantina ambarında durumu **Sipariş edildi** veya **Kayıtlı** olan giriş hareketidir.</span><span class="sxs-lookup"><span data-stu-id="0edf4-128">The other transaction is a receipt transaction that can have a status of **Ordered** or **Registered** at the quarantine warehouse.</span></span> <span data-ttu-id="0edf4-129">Normal işlemleri kullanarak stok güncelleştirmelerini ayırabilir, seçebilir ve kaydedebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0edf4-129">You can reserve, pick, and register updates to the inventory by using the usual processes.</span></span>
 
-### <a name="started"></a>Başladı
+### <a name="started"></a><span data-ttu-id="0edf4-130">Başladı</span><span class="sxs-lookup"><span data-stu-id="0edf4-130">Started</span></span>
 
-Bir karantina emrinin durumu **Başlatıldı** ise, stok normal ambardan karantina ambarına taşınır ve iki stok hareketi oluşturulur. Bir hareketin durumu **kesinti yapıldı** ve diğer hareket durumu **alınan**. Aynı zamanda, iade aktarımının işlenmesi için iki stok hareketi oluşturulur. Bu hareketler tarihli değildir. Bir hareketin durumu **Ayrıldı fiziksel** ve diğer hareket durumu **sipariş edildi**.
+<span data-ttu-id="0edf4-131">Bir karantina emrinin durumu **Başlatıldı** ise, stok normal ambardan karantina ambarına taşınır ve iki stok hareketi oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="0edf4-131">When a quarantine order has a status of **Started**, the inventory is transferred from the regular warehouse to the quarantine warehouse, and two inventory transactions are generated.</span></span> <span data-ttu-id="0edf4-132">Bir hareketin durumu **kesinti yapıldı** ve diğer hareket durumu **alınan**.</span><span class="sxs-lookup"><span data-stu-id="0edf4-132">One transaction has a status of **Deducted**, and the other transaction has a status of **Received**.</span></span> <span data-ttu-id="0edf4-133">Aynı zamanda, iade aktarımının işlenmesi için iki stok hareketi oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="0edf4-133">At the same time, two inventory transactions are created to handle the return transfer.</span></span> <span data-ttu-id="0edf4-134">Bu hareketler tarihli değildir.</span><span class="sxs-lookup"><span data-stu-id="0edf4-134">These transactions aren't dated.</span></span> <span data-ttu-id="0edf4-135">Bir hareketin durumu **Ayrıldı fiziksel** ve diğer hareket durumu **sipariş edildi**.</span><span class="sxs-lookup"><span data-stu-id="0edf4-135">One transaction has a status of **Reserved physical**, and the other transaction has a status of **Ordered**.</span></span>
 
-### <a name="reported-as-finished"></a>Bitirildi olarak bildirildi
+### <a name="reported-as-finished"></a><span data-ttu-id="0edf4-136">Bitirildi olarak bildirildi</span><span class="sxs-lookup"><span data-stu-id="0edf4-136">Reported as finished</span></span>
 
-**Tamamlandı olarak bildir**'e tıklayarak başlatılan bir karantina siparişinin tamamlandığını bildirebilirsiniz. Madde karantinadan serbest bırakılır fakat henüz normal ambara geri taşınmaz. Normal ambara taşıma Rapor sırasında başlatılabilen Madde varış günlüğü ile tamamlanmış olarak işlenebilir.
+<span data-ttu-id="0edf4-137">**Tamamlandı olarak bildir**'e tıklayarak başlatılan bir karantina siparişinin tamamlandığını bildirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0edf4-137">By clicking **Report as finished**, you can report a started quarantine order as finished.</span></span> <span data-ttu-id="0edf4-138">Madde karantinadan serbest bırakılır fakat henüz normal ambara geri taşınmaz.</span><span class="sxs-lookup"><span data-stu-id="0edf4-138">The item is released from quarantine but isn't yet moved back to the regular warehouse.</span></span> <span data-ttu-id="0edf4-139">Normal ambara taşıma Rapor sırasında başlatılabilen Madde varış günlüğü ile tamamlanmış olarak işlenebilir.</span><span class="sxs-lookup"><span data-stu-id="0edf4-139">The movement back to the regular warehouse can be procesed via an Item arrival journal that can be initialized during the Report as finished process.</span></span>
 
-### <a name="ended"></a>Bitti
+### <a name="ended"></a><span data-ttu-id="0edf4-140">Bitti</span><span class="sxs-lookup"><span data-stu-id="0edf4-140">Ended</span></span>
 
-Karantina emri sonlandırıldığında, madde karantina ambarından normal ambara geri taşınır. Madde hareketinin durumu karantina ambarında **satıldı** ve normal ambarda **satın alınan** olarak ayarlanır.
+<span data-ttu-id="0edf4-141">Karantina emri sonlandırıldığında, madde karantina ambarından normal ambara geri taşınır.</span><span class="sxs-lookup"><span data-stu-id="0edf4-141">When a quarantine order is ended, the item is moved from the quarantine warehouse back to the regular warehouse.</span></span> <span data-ttu-id="0edf4-142">Madde hareketinin durumu karantina ambarında **satıldı** ve normal ambarda **satın alınan** olarak ayarlanır.</span><span class="sxs-lookup"><span data-stu-id="0edf4-142">The status of the item transaction is set to **Sold** at the quarantine warehouse and **Purchased** at the regular warehouse.</span></span>
 
-## <a name="quarantine-order-scrap"></a>Karantina siparişi hurda
-Karantina emri işleminin bir parçası olarak stoğu hurdaya çıkartabilirsiniz. Hurdayı işlerken, stoğun durumu karantina ambarından çıkış hareketi tarafından **Satıldı** olarak ayarlanacaktır.
+## <a name="quarantine-order-scrap"></a><span data-ttu-id="0edf4-143">Karantina siparişi hurda</span><span class="sxs-lookup"><span data-stu-id="0edf4-143">Quarantine order scrap</span></span>
+<span data-ttu-id="0edf4-144">Karantina emri işleminin bir parçası olarak stoğu hurdaya çıkartabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0edf4-144">As part of the quarantine order process, you can scrap inventory.</span></span> <span data-ttu-id="0edf4-145">Hurdayı işlerken, stoğun durumu karantina ambarından çıkış hareketi tarafından **Satıldı** olarak ayarlanacaktır.</span><span class="sxs-lookup"><span data-stu-id="0edf4-145">When you process scrap, the status of the inventory will be set to **Sold** by an issue transaction from the quarantine warehouse.</span></span>
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="see-also"></a><span data-ttu-id="0edf4-146">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="0edf4-146">See also</span></span>
 --------
 
-[Stok durdurma](inventory-blocking.md)
-
-
-
+[<span data-ttu-id="0edf4-147">Stok durdurma</span><span class="sxs-lookup"><span data-stu-id="0edf4-147">Inventory blocking</span></span>](inventory-blocking.md)
 

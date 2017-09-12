@@ -19,97 +19,97 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 06a75889e62cbba6e47a8543cf663868df5ae2e3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="row-definitions-in-financial-report-designer"></a>Finansal rapor tasarımcısında satır tanımları
+# <a name="row-definitions-in-financial-report-designer"></a><span data-ttu-id="2516b-104">Finansal rapor tasarımcısında satır tanımları</span><span class="sxs-lookup"><span data-stu-id="2516b-104">Row definitions in financial report designer</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Satır tanımını finansal rapordaki her satırın içeriğini belirten bir rapor bileşeni veya yapı taşıdır. Satır tanımı birden çok şirket tarafından kullanılabilen bir yapı taşı grubu oluşturmak için sütun tanımları, raporlama ağacı tanımları ve rapor tanımları ile birleştirilebilir.
+<span data-ttu-id="2516b-105">Satır tanımını finansal rapordaki her satırın içeriğini belirten bir rapor bileşeni veya yapı taşıdır.</span><span class="sxs-lookup"><span data-stu-id="2516b-105">A row definition is a report component, or building block, that specifies the contents of each row on a financial report.</span></span> <span data-ttu-id="2516b-106">Satır tanımı birden çok şirket tarafından kullanılabilen bir yapı taşı grubu oluşturmak için sütun tanımları, raporlama ağacı tanımları ve rapor tanımları ile birleştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="2516b-106">A row definition can be combined with column definitions, reporting tree definitions, and report definitions to create a building block group that can be used by multiple companies.</span></span>
 
-<a name="create-a-row-definition"></a>Satır tanımı oluşturma
+<a name="create-a-row-definition"></a><span data-ttu-id="2516b-107">Satır tanımı oluşturma</span><span class="sxs-lookup"><span data-stu-id="2516b-107">Create a row definition</span></span>
 -----------------------
 
-1.  Rapor Tasarımcısında gezinme bölmesinde **Satır Tanımları** öğesine tıklayın.
-2.  **Dosya** menüsünde, **Yeni** öğesine ve ardından **Satır Tanımı** öğesine tıklayın. Her bir hücrenin içeriği hakkında daha fazla bilgi için [Satır tanımı hücrelerini değiştirme](modify-row-definition-cells-financial-reporting.md) bölümüne bakın.
+1.  <span data-ttu-id="2516b-108">Rapor Tasarımcısında gezinme bölmesinde **Satır Tanımları** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2516b-108">In Report Designer, in the navigation pane, click **Row Definitions**.</span></span>
+2.  <span data-ttu-id="2516b-109">**Dosya** menüsünde, **Yeni** öğesine ve ardından **Satır Tanımı** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2516b-109">On the **File** menu, click **New**, and then click **Row Definition**.</span></span> <span data-ttu-id="2516b-110">Her bir hücrenin içeriği hakkında daha fazla bilgi için [Satır tanımı hücrelerini değiştirme](modify-row-definition-cells-financial-reporting.md) bölümüne bakın.</span><span class="sxs-lookup"><span data-stu-id="2516b-110">For more information about the content of each cell, see [Modify row definition cells](modify-row-definition-cells-financial-reporting.md).</span></span>
 
-## <a name="open-a-row-definition"></a>Bir satır tanımını açma
-1.  Rapor Tasarımcısında gezinme bölmesinde **Satır Tanımları** öğesine tıklayın.
-2.  Açılacak satır tanımının adını çift tıklayın.
-3.  Satır tanımıyla ilişkili olan tüm yapı taşlarını görüntülemek için satır tanımına sağ tıklayın ve arından **İlişkiler** öğesini seçin.
+## <a name="open-a-row-definition"></a><span data-ttu-id="2516b-111">Bir satır tanımını açma</span><span class="sxs-lookup"><span data-stu-id="2516b-111">Open a row definition</span></span>
+1.  <span data-ttu-id="2516b-112">Rapor Tasarımcısında gezinme bölmesinde **Satır Tanımları** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2516b-112">In Report Designer, in the navigation pane, click **Row Definitions**.</span></span>
+2.  <span data-ttu-id="2516b-113">Açılacak satır tanımının adını çift tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2516b-113">Double-click the name of the row definition to open.</span></span>
+3.  <span data-ttu-id="2516b-114">Satır tanımıyla ilişkili olan tüm yapı taşlarını görüntülemek için satır tanımına sağ tıklayın ve arından **İlişkiler** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="2516b-114">To view any building blocks that are associated with the row definition, right-click the row definition, and then select **Associations**.</span></span>
 
-## <a name="contents-of-a-row-definition"></a>Bir satır tanımının içeriği
-Bir satır tanımı, 20.000 mali boyut satırına kadar alabilir ve şu bilgileri içerebilir:
+## <a name="contents-of-a-row-definition"></a><span data-ttu-id="2516b-115">Bir satır tanımının içeriği</span><span class="sxs-lookup"><span data-stu-id="2516b-115">Contents of a row definition</span></span>
+<span data-ttu-id="2516b-116">Bir satır tanımı, 20.000 mali boyut satırına kadar alabilir ve şu bilgileri içerebilir:</span><span class="sxs-lookup"><span data-stu-id="2516b-116">A row definition can contain up to 20,000 financial dimension rows and can include the following information:</span></span>
 
--   Örneğin **nakit** veya **Toplam Gelir** gibi bölüm üstbilgileri, satırları ve boşlukları oluşturarak rapora anlam katan açıklayıcı metinler
--   Microsoft Dynamics 365 for Finance and Operations'taki boyut değerlerini içerebilen mali verilere bağlantılar. **Not:** Rapor her üretildiğinde mali boyutlar sisteminden veri çekecek bir satır tanımını ayarlayabilirsiniz.
--   Bağlantılı mali verilere dayalı satır toplamları ve formülleri
+-   <span data-ttu-id="2516b-117">Örneğin **nakit** veya **Toplam Gelir** gibi bölüm üstbilgileri, satırları ve boşlukları oluşturarak rapora anlam katan açıklayıcı metinler</span><span class="sxs-lookup"><span data-stu-id="2516b-117">Descriptive text that adds meaning to the report by creating section headings, lines, and spaces, such as **Cash** or **Total Revenue**</span></span>
+-   <span data-ttu-id="2516b-118">Microsoft Dynamics 365 for Finance and Operations'taki boyut değerlerini içerebilen mali verilere bağlantılar. **Not:** Rapor her üretildiğinde mali boyutlar sisteminden veri çekecek bir satır tanımını ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2516b-118">Links to financial data, which can include dimension values in the Microsoft Dynamics 365 for Finance and Operations **Note:** You can set up a row definition to pull data from the financial dimensions system every time that the report is generated.</span></span>
+-   <span data-ttu-id="2516b-119">Bağlantılı mali verilere dayalı satır toplamları ve formülleri</span><span class="sxs-lookup"><span data-stu-id="2516b-119">Row totals and formulas that are based on the linked financial data</span></span>
 
-Genellikle, her bir satır tanımındaki her bir satır aşağıdaki veri türlerinden birini içerir:
+<span data-ttu-id="2516b-120">Genellikle, her bir satır tanımındaki her bir satır aşağıdaki veri türlerinden birini içerir:</span><span class="sxs-lookup"><span data-stu-id="2516b-120">Usually, each row in a row definition contains one of the following types of information:</span></span>
 
--   Mali boyutlar sistemine başvurular
--   Verilere dayalı toplamlar veya hesaplamalar
--   Biçimlendirme
+-   <span data-ttu-id="2516b-121">Mali boyutlar sistemine başvurular</span><span class="sxs-lookup"><span data-stu-id="2516b-121">References to the financial dimensions system</span></span>
+-   <span data-ttu-id="2516b-122">Verilere dayalı toplamlar veya hesaplamalar</span><span class="sxs-lookup"><span data-stu-id="2516b-122">Totals or calculations that are based on the data</span></span>
+-   <span data-ttu-id="2516b-123">Biçimlendirme</span><span class="sxs-lookup"><span data-stu-id="2516b-123">Formatting</span></span>
 
-Satır tanımına veri girmek için iki yöntem bulunmaktadır:
+<span data-ttu-id="2516b-124">Satır tanımına veri girmek için iki yöntem bulunmaktadır:</span><span class="sxs-lookup"><span data-stu-id="2516b-124">There are two methods for entering information in a row definition:</span></span>
 
--   Yeni satır tanımında satır bilgilerini el ile girin. Daha fazla bilgi için [Satır tanımı hücrelerini değiştirme](modify-row-definition-cells-financial-reporting.md) bölümüne bakın.
--   Satır bilgilerini doğrudan finansal boyutlardan çekmek için rapor tasarımcısını kullanın. Daha fazla bilgi için bkz. [Satır tanımı hücrelerini değiştirme](modify-row-definition-cells-financial-reporting.md) içindeki "İlgili formüller/satırlar/birimler" bölümü.
+-   <span data-ttu-id="2516b-125">Yeni satır tanımında satır bilgilerini el ile girin.</span><span class="sxs-lookup"><span data-stu-id="2516b-125">Manually enter row information in a new row definition.</span></span> <span data-ttu-id="2516b-126">Daha fazla bilgi için [Satır tanımı hücrelerini değiştirme](modify-row-definition-cells-financial-reporting.md) bölümüne bakın.</span><span class="sxs-lookup"><span data-stu-id="2516b-126">For more information, see [Modify row definition cells](modify-row-definition-cells-financial-reporting.md).</span></span>
+-   <span data-ttu-id="2516b-127">Satır bilgilerini doğrudan finansal boyutlardan çekmek için rapor tasarımcısını kullanın.</span><span class="sxs-lookup"><span data-stu-id="2516b-127">Use report designer to pull row information directly from the financial dimensions.</span></span> <span data-ttu-id="2516b-128">Daha fazla bilgi için bkz. [Satır tanımı hücrelerini değiştirme](modify-row-definition-cells-financial-reporting.md) içindeki "İlgili formüller/satırlar/birimler" bölümü.</span><span class="sxs-lookup"><span data-stu-id="2516b-128">For more information, see the "Related formulas/rows/units" section in [Modify row definition cells](modify-row-definition-cells-financial-reporting.md).</span></span>
 
-## <a name="add-dimensions-in-a-row-definition"></a>Bir satır tanımına boyutlar ekleme
-Bir boyut, veri ve değerlerin bir kesişimidir. Rapor tasarımcısında verileri ve değerleri gruplandırabilirsiniz. Ardından hareketleri sınıflandırabilir ve daha ayrıntılı şekilde çözümleyebilirsiniz. Bir satır tanımına aynı anda birden fazla satır eklemek için **Boyutlardan Satır Ekle** iletişim kutusunu kullanabilirsiniz. İletişim kutusu her bir boyut için bir sütun görüntüler. Aşağıdaki tabloda her boyut için belirtebileceğiniz bilgiler açıklanmaktadır.
+## <a name="add-dimensions-in-a-row-definition"></a><span data-ttu-id="2516b-129">Bir satır tanımına boyutlar ekleme</span><span class="sxs-lookup"><span data-stu-id="2516b-129">Add dimensions in a row definition</span></span>
+<span data-ttu-id="2516b-130">Bir boyut, veri ve değerlerin bir kesişimidir.</span><span class="sxs-lookup"><span data-stu-id="2516b-130">A dimension is an intersection of data and values.</span></span> <span data-ttu-id="2516b-131">Rapor tasarımcısında verileri ve değerleri gruplandırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2516b-131">You can group data and values in report designer.</span></span> <span data-ttu-id="2516b-132">Ardından hareketleri sınıflandırabilir ve daha ayrıntılı şekilde çözümleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2516b-132">You can then classify and analyze transactions in more detail.</span></span> <span data-ttu-id="2516b-133">Bir satır tanımına aynı anda birden fazla satır eklemek için **Boyutlardan Satır Ekle** iletişim kutusunu kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2516b-133">You can use the **Insert Rows from Dimensions** dialog box to add multiple rows to a row definition at the same time.</span></span> <span data-ttu-id="2516b-134">İletişim kutusu her bir boyut için bir sütun görüntüler.</span><span class="sxs-lookup"><span data-stu-id="2516b-134">The dialog box displays one column for each dimension.</span></span> <span data-ttu-id="2516b-135">Aşağıdaki tabloda her boyut için belirtebileceğiniz bilgiler açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="2516b-135">The following table describes the information that you can specify for each dimension.</span></span>
 
-| Seçenek                | Açıklama                                                                                                                                                                                                                                                                      |
+| <span data-ttu-id="2516b-136">Seçenek</span><span class="sxs-lookup"><span data-stu-id="2516b-136">Option</span></span>                | <span data-ttu-id="2516b-137">Açıklama</span><span class="sxs-lookup"><span data-stu-id="2516b-137">Description</span></span>                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Boyut             | Satır tanımına eklenecek boyutu tanımlayan model. Bu model, boyutlardaki her bir konum için bir ve işareti (&) veya rakam işareti (\#) içerir. Genellikle, Ana Hesap boyutu için tüm ve işaretlerini ve diğer boyutlar için tüm rakam işaretlerini kullanırsınız. |
-| Boyut Aralığı Başlangıcı | Bu boyutun satır tanımına ekleyeceği ilk değer.                                                                                                                                                                                                                 |
-| Boyut Aralığı Sonu   | Bu boyutun satır tanımına ekleyeceği son değer.                                                                                                                                                                                                                  |
+| <span data-ttu-id="2516b-138">Boyut</span><span class="sxs-lookup"><span data-stu-id="2516b-138">Dimension</span></span>             | <span data-ttu-id="2516b-139">Satır tanımına eklenecek boyutu tanımlayan model.</span><span class="sxs-lookup"><span data-stu-id="2516b-139">The pattern that identifies the dimension to add to the row definition.</span></span> <span data-ttu-id="2516b-140">Bu model, boyutlardaki her bir konum için bir ve işareti (&) veya rakam işareti (\#) içerir.</span><span class="sxs-lookup"><span data-stu-id="2516b-140">This pattern contains one ampersand (&) or number sign (\#) for each position in the dimensions.</span></span> <span data-ttu-id="2516b-141">Genellikle, Ana Hesap boyutu için tüm ve işaretlerini ve diğer boyutlar için tüm rakam işaretlerini kullanırsınız.</span><span class="sxs-lookup"><span data-stu-id="2516b-141">Generally, use all ampersands for the Main Account dimension and all number signs for other dimensions.</span></span> |
+| <span data-ttu-id="2516b-142">Boyut Aralığı Başlangıcı</span><span class="sxs-lookup"><span data-stu-id="2516b-142">Dimension Range Start</span></span> | <span data-ttu-id="2516b-143">Bu boyutun satır tanımına ekleyeceği ilk değer.</span><span class="sxs-lookup"><span data-stu-id="2516b-143">The first value for this dimension to add to the row definition.</span></span>                                                                                                                                                                                                                 |
+| <span data-ttu-id="2516b-144">Boyut Aralığı Sonu</span><span class="sxs-lookup"><span data-stu-id="2516b-144">Dimension Range End</span></span>   | <span data-ttu-id="2516b-145">Bu boyutun satır tanımına ekleyeceği son değer.</span><span class="sxs-lookup"><span data-stu-id="2516b-145">The last value for this dimension to add to the row definition.</span></span>                                                                                                                                                                                                                  |
 
-Bir satır tanımına boyutlar eklemek için şu adımları izleyin.
+<span data-ttu-id="2516b-146">Bir satır tanımına boyutlar eklemek için şu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="2516b-146">To add dimensions to a row definition, follow these steps.</span></span>
 
-1.  Rapor Tasarımcısında **Satır Tanımları** öğesine tıklayın ve ardından değiştirmek için satır tanımını açın.
-2.  **Düzenle** menüsündeki **Boyutlardan Satır Ekle** öğesini tıklayın.
-3.  **Boyutlardan Satır Ekle** iletişim kutusunda, **Boyutlar** satırında, boyutun satır tanımına aktarılacağı hücreyi seçin ve **Tüm &&&** öğesine tıklayın.
-4.  Satır tanımını boyut değerlerinin belirli bir aralığıyla sınırlandırmak için **Boyut Aralığı Başlangıcı** hücresine başlangıç boyut değerini ve ardından **Boyut Aralığı Sonu** hücresine bitiş boyut değerini girin. Seçilen boyut için tüm değerleri eklemek için bu hücreleri boş bırakın. **Not:** Boyut aralıklarındaki joker karakterler (\* veya ?) boyut aralıkları, ERP veritabanının verileri nasıl topladığına bağlı olarak istediğiniz tüm sonuçları vermeyebilir.
-5.  **Başlangıç satırı kodu** alanında, satır tanımına eklenecek ilk boyut için satır kodunu belirtin.
-6.  **Her satıra şuna göre artır** alanında, birbirini takip eden satır kodları arasındaki boşluğu belirtin. Örneğin, ilk satır kodu 100 ve artış değeri 30 ise, ilk yeni satırların kodları 100, 130, 160, 190 ve 220 olur. Yeni biçim ve formül satırlarını eklemek için yeterli alan sağlayan bir artış değerini kullanın.
-7.  **Tamam** düğmesini tıklatın. Seçili boyut değerlerinin her biri için satır tanımına bir satır eklenir.
+1.  <span data-ttu-id="2516b-147">Rapor Tasarımcısında **Satır Tanımları** öğesine tıklayın ve ardından değiştirmek için satır tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2516b-147">In Report Designer, click **Row Definitions**, and then open the row definition to modify.</span></span>
+2.  <span data-ttu-id="2516b-148">**Düzenle** menüsündeki **Boyutlardan Satır Ekle** öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2516b-148">On the **Edit** menu, click **Insert Rows from Dimensions**.</span></span>
+3.  <span data-ttu-id="2516b-149">**Boyutlardan Satır Ekle** iletişim kutusunda, **Boyutlar** satırında, boyutun satır tanımına aktarılacağı hücreyi seçin ve **Tüm &&&** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2516b-149">In the **Insert Rows from Dimensions** dialog box, in the **Dimensions** row, select the cell for the dimension to transfer to the row definition, and then click **All &&&**.</span></span>
+4.  <span data-ttu-id="2516b-150">Satır tanımını boyut değerlerinin belirli bir aralığıyla sınırlandırmak için **Boyut Aralığı Başlangıcı** hücresine başlangıç boyut değerini ve ardından **Boyut Aralığı Sonu** hücresine bitiş boyut değerini girin.</span><span class="sxs-lookup"><span data-stu-id="2516b-150">To limit the row definition to a specific range of dimension values, enter the starting dimension value in the **Dimension Range Start** cell, and then enter the ending dimension value in the **Dimension Range End** cell.</span></span> <span data-ttu-id="2516b-151">Seçilen boyut için tüm değerleri eklemek için bu hücreleri boş bırakın.</span><span class="sxs-lookup"><span data-stu-id="2516b-151">To include all values for the selected dimension, leave these cells empty.</span></span> <span data-ttu-id="2516b-152">**Not:** Boyut aralıklarındaki joker karakterler (\* veya ?) boyut aralıkları, ERP veritabanının verileri nasıl topladığına bağlı olarak istediğiniz tüm sonuçları vermeyebilir.</span><span class="sxs-lookup"><span data-stu-id="2516b-152">**Note:** Wildcard characters (\* or ?) in dimension ranges might not return all the results that you want, depending on how the ERP database collates data.</span></span>
+5.  <span data-ttu-id="2516b-153">**Başlangıç satırı kodu** alanında, satır tanımına eklenecek ilk boyut için satır kodunu belirtin.</span><span class="sxs-lookup"><span data-stu-id="2516b-153">In the **Starting row code** field, specify the row code for the first dimension value to add to the row definition.</span></span>
+6.  <span data-ttu-id="2516b-154">**Her satıra şuna göre artır** alanında, birbirini takip eden satır kodları arasındaki boşluğu belirtin.</span><span class="sxs-lookup"><span data-stu-id="2516b-154">In the **Increment each row by** field, specify the gap between consecutive row codes.</span></span> <span data-ttu-id="2516b-155">Örneğin, ilk satır kodu 100 ve artış değeri 30 ise, ilk yeni satırların kodları 100, 130, 160, 190 ve 220 olur.</span><span class="sxs-lookup"><span data-stu-id="2516b-155">For example, if the first row code is 100, and the increment value is 30, the first new rows have the codes 100, 130, 160, 190, and 220.</span></span> <span data-ttu-id="2516b-156">Yeni biçim ve formül satırlarını eklemek için yeterli alan sağlayan bir artış değerini kullanın.</span><span class="sxs-lookup"><span data-stu-id="2516b-156">Use an increment value that provides enough space to insert new format and formula rows.</span></span>
+7.  <span data-ttu-id="2516b-157">**Tamam** düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="2516b-157">Click **OK**.</span></span> <span data-ttu-id="2516b-158">Seçili boyut değerlerinin her biri için satır tanımına bir satır eklenir.</span><span class="sxs-lookup"><span data-stu-id="2516b-158">For each of the selected dimension values, one line is added to the row definition.</span></span>
 
-## <a name="adjust-rounding-in-a-row-definition"></a>Bir satır tanımında yuvarlamayı ayarlama
-Tutarların yuvarlandığı bir bilançonuz varsa, toplamlar bakiyeyi vermeyebilir. Bu sorun, örneğin bilanço raporunda yuvarlama seçeneğini kullandığınızda ve rapor tanımını da yuvarlama işlemi belirttiğinde ortaya çıkabilir. Bilançolarınızdaki tutarları dengelemek için satır tanımındaki **Yuvarlama düzeltmesi** seçeneğini kullanabilirsiniz. Yuvarlama seçeneğini rapor tanımlarının **Ayarlar** sekmesinden kapatabilir veya değiştirebilirsiniz. Aşağıdaki tabloda tutarların nasıl yuvarlandığı gösterilmiştir. Bu tabloda, satır 100 ve 200 toplamları yuvarlama açık konuma getirildiğinde farklı çıkmaktadır.
+## <a name="adjust-rounding-in-a-row-definition"></a><span data-ttu-id="2516b-159">Bir satır tanımında yuvarlamayı ayarlama</span><span class="sxs-lookup"><span data-stu-id="2516b-159">Adjust rounding in a row definition</span></span>
+<span data-ttu-id="2516b-160">Tutarların yuvarlandığı bir bilançonuz varsa, toplamlar bakiyeyi vermeyebilir.</span><span class="sxs-lookup"><span data-stu-id="2516b-160">If you have a balance sheet where the amounts are rounded, the totals might not balance.</span></span> <span data-ttu-id="2516b-161">Bu sorun, örneğin bilanço raporunda yuvarlama seçeneğini kullandığınızda ve rapor tanımını da yuvarlama işlemi belirttiğinde ortaya çıkabilir.</span><span class="sxs-lookup"><span data-stu-id="2516b-161">This issue can occur if, for example, you use the rounding option on a balance sheet report and the report definition also specifies rounding.</span></span> <span data-ttu-id="2516b-162">Bilançolarınızdaki tutarları dengelemek için satır tanımındaki **Yuvarlama düzeltmesi** seçeneğini kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2516b-162">You can use the **Rounding adjustment** option in the row definition to balance the amounts in the balance sheets.</span></span> <span data-ttu-id="2516b-163">Yuvarlama seçeneğini rapor tanımlarının **Ayarlar** sekmesinden kapatabilir veya değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2516b-163">You can turn rounding off or modify it on the **Settings** tab of the report definition.</span></span> <span data-ttu-id="2516b-164">Aşağıdaki tabloda tutarların nasıl yuvarlandığı gösterilmiştir.</span><span class="sxs-lookup"><span data-stu-id="2516b-164">The following table shows how amounts are rounded.</span></span> <span data-ttu-id="2516b-165">Bu tabloda, satır 100 ve 200 toplamları yuvarlama açık konuma getirildiğinde farklı çıkmaktadır.</span><span class="sxs-lookup"><span data-stu-id="2516b-165">In this table, the totals of rows 100 and 200 differ when rounding is turned on.</span></span>
 
-| Satır kodu | Yuvarlama yapılmadan tutarlar | Tam binlere yuvarlama yapıldığında tutar |
+| <span data-ttu-id="2516b-166">Satır kodu</span><span class="sxs-lookup"><span data-stu-id="2516b-166">Row code</span></span> | <span data-ttu-id="2516b-167">Yuvarlama yapılmadan tutarlar</span><span class="sxs-lookup"><span data-stu-id="2516b-167">Amounts without rounding</span></span> | <span data-ttu-id="2516b-168">Tam binlere yuvarlama yapıldığında tutar</span><span class="sxs-lookup"><span data-stu-id="2516b-168">Amount with rounding to whole thousands</span></span> |
 |----------|--------------------------|-----------------------------------------|
-| 100      | 3,600                    | 4                                       |
-| 200      | 3,700                    | 4                                       |
-| Toplam    | 7,300                    | 8                                       |
+| <span data-ttu-id="2516b-169">100</span><span class="sxs-lookup"><span data-stu-id="2516b-169">100</span></span>      | <span data-ttu-id="2516b-170">3,600</span><span class="sxs-lookup"><span data-stu-id="2516b-170">3,600</span></span>                    | <span data-ttu-id="2516b-171">4</span><span class="sxs-lookup"><span data-stu-id="2516b-171">4</span></span>                                       |
+| <span data-ttu-id="2516b-172">200</span><span class="sxs-lookup"><span data-stu-id="2516b-172">200</span></span>      | <span data-ttu-id="2516b-173">3,700</span><span class="sxs-lookup"><span data-stu-id="2516b-173">3,700</span></span>                    | <span data-ttu-id="2516b-174">4</span><span class="sxs-lookup"><span data-stu-id="2516b-174">4</span></span>                                       |
+| <span data-ttu-id="2516b-175">Toplam</span><span class="sxs-lookup"><span data-stu-id="2516b-175">Total</span></span>    | <span data-ttu-id="2516b-176">7,300</span><span class="sxs-lookup"><span data-stu-id="2516b-176">7,300</span></span>                    | <span data-ttu-id="2516b-177">8</span><span class="sxs-lookup"><span data-stu-id="2516b-177">8</span></span>                                       |
 
-Bir bilançoda yuvarlamayı ayarlamak için şu adımları izleyin.
+<span data-ttu-id="2516b-178">Bir bilançoda yuvarlamayı ayarlamak için şu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="2516b-178">To adjust rounding in a balance sheet, follow these steps.</span></span>
 
-1.  Rapor Tasarımcısında **Satır Tanımları** öğesini tıklayın ve ardından değiştirmek için satır tanımını açın.
-2.  **Düzenle** menüsünden **Yuvarlama Ayarı** öğesini tıklayın.
-3.  **Yuvarlama Ayarları** iletişim kutusunda şu değerleri girin:
-    -   **Yuvarlama ayar satırı** – Bilançonun dengelenmesi için ayarlanması gereken satır için satır kodu.
-    -   **Toplam kıymetler satırı** – Toplam kıymetleri içeren bilançodaki satır için satır kodu.
-    -   **Toplam borçlar ve öz varlık satırı** – Toplam borçları ve öz varlığı içeren bilançodaki satır için satır kodu.
-    -   **Ayar tutarı sınırı** – Otomatik ayarlar için sınırı belirten pozitif tam sayı. Bu tutar, fiili yuvarlama farkının mutlak değeri ile karşılaştırılır.
+1.  <span data-ttu-id="2516b-179">Rapor Tasarımcısında **Satır Tanımları** öğesini tıklayın ve ardından değiştirmek için satır tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2516b-179">In Report Designer, click **Row Definitions**, and then open the row definition to modify.</span></span>
+2.  <span data-ttu-id="2516b-180">**Düzenle** menüsünden **Yuvarlama Ayarı** öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2516b-180">On the **Edit** menu, click **Rounding Adjustment**.</span></span>
+3.  <span data-ttu-id="2516b-181">**Yuvarlama Ayarları** iletişim kutusunda şu değerleri girin:</span><span class="sxs-lookup"><span data-stu-id="2516b-181">In the **Rounding Adjustments** dialog box, enter the following values:</span></span>
+    -   <span data-ttu-id="2516b-182">**Yuvarlama ayar satırı** – Bilançonun dengelenmesi için ayarlanması gereken satır için satır kodu.</span><span class="sxs-lookup"><span data-stu-id="2516b-182">**Rounding adjustment row** – The row code for the row that should be adjusted to balance the balance sheet.</span></span>
+    -   <span data-ttu-id="2516b-183">**Toplam kıymetler satırı** – Toplam kıymetleri içeren bilançodaki satır için satır kodu.</span><span class="sxs-lookup"><span data-stu-id="2516b-183">**Total assets row** – The row code for the row in the balance sheet that contains the total assets.</span></span>
+    -   <span data-ttu-id="2516b-184">**Toplam borçlar ve öz varlık satırı** – Toplam borçları ve öz varlığı içeren bilançodaki satır için satır kodu.</span><span class="sxs-lookup"><span data-stu-id="2516b-184">**Total liabilities and equity row** – The row code for the row in the balance sheet that contains the total liabilities and equity.</span></span>
+    -   <span data-ttu-id="2516b-185">**Ayar tutarı sınırı** – Otomatik ayarlar için sınırı belirten pozitif tam sayı.</span><span class="sxs-lookup"><span data-stu-id="2516b-185">**Adjustment amount limit** – A positive whole number that specifies the limit on automatic adjustments.</span></span> <span data-ttu-id="2516b-186">Bu tutar, fiili yuvarlama farkının mutlak değeri ile karşılaştırılır.</span><span class="sxs-lookup"><span data-stu-id="2516b-186">This amount is compared with the absolute value of the actual rounding difference.</span></span>
 
-    **Not:** Bu satır kodları mutlaka mali verilerinizle ilişkilendirilmelidir. Başka bir ifadeyle, satır mutlaka **Mali Boyutları Bağlantı** hücresinde bir boyut değerine sahip olmalıdır. **Kesinlikle** bir açıklama satırına (**DESC**), hesaplanan satıra (**CALC**) veya toplanan satıra (**TOT**) başvuru vermeyin.
+    <span data-ttu-id="2516b-187">**Not:** Bu satır kodları mutlaka mali verilerinizle ilişkilendirilmelidir.</span><span class="sxs-lookup"><span data-stu-id="2516b-187">**Note:** These row codes must be linked to your financial data.</span></span> <span data-ttu-id="2516b-188">Başka bir ifadeyle, satır mutlaka **Mali Boyutları Bağlantı** hücresinde bir boyut değerine sahip olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="2516b-188">In other words, the row must have a dimension value in its **Link to Financial Dimensions** cell.</span></span> <span data-ttu-id="2516b-189">**Kesinlikle** bir açıklama satırına (**DESC**), hesaplanan satıra (**CALC**) veya toplanan satıra (**TOT**) başvuru vermeyin.</span><span class="sxs-lookup"><span data-stu-id="2516b-189">Do **not** reference a description (**DESC**), calculated (**CALC**), or totaled (**TOT**) row.</span></span>
 
-Bilançonuzdaki tutarlar, yuvarlama açık konumdayken eşit şekilde dengelenir. **Not:** Ayar sınırı, rapor tanımı için belirtilen **Yuvarlama hassasiyeti** seçeneğine bağlı olarak uygulanır. Örneğin raporu binlere yuvarlayıp **Ayar tutarı sınırı** alanına **2** girdiğinizde **Yuvarlama ayar satırı** alanındaki değer 2.000'den fazla artar veya azalırsa bir uyarı mesajı alırsınız.
+<span data-ttu-id="2516b-190">Bilançonuzdaki tutarlar, yuvarlama açık konumdayken eşit şekilde dengelenir.</span><span class="sxs-lookup"><span data-stu-id="2516b-190">The amounts in your balance sheet will now balance evenly when rounding is turned on.</span></span> <span data-ttu-id="2516b-191">**Not:** Ayar sınırı, rapor tanımı için belirtilen **Yuvarlama hassasiyeti** seçeneğine bağlı olarak uygulanır.</span><span class="sxs-lookup"><span data-stu-id="2516b-191">**Note:** The adjustment limit is applied based on the **Rounding precision** option that is specified for the report definition.</span></span> <span data-ttu-id="2516b-192">Örneğin raporu binlere yuvarlayıp **Ayar tutarı sınırı** alanına **2** girdiğinizde **Yuvarlama ayar satırı** alanındaki değer 2.000'den fazla artar veya azalırsa bir uyarı mesajı alırsınız.</span><span class="sxs-lookup"><span data-stu-id="2516b-192">For example, if you round your report to thousands and enter **2** in the **Adjustment amount limit** field, you receive a warning message when the value in the **Rounding adjustment row** field increases or decreases by more than 2,000.</span></span>
 
-## <a name="format-row-and-column-text"></a>Satır ve sütun metni biçimlendirme
-Yazı tiplerini değiştirerek ve metni biçimlendirerek raporlarınızın görünümünü özelleştirebilirsiniz. Aşağıdaki bölümde raporların satır ve sütunlarının görünümünün nasıl biçimlendirileceği açıklanmıştır.
+## <a name="format-row-and-column-text"></a><span data-ttu-id="2516b-193">Satır ve sütun metni biçimlendirme</span><span class="sxs-lookup"><span data-stu-id="2516b-193">Format row and column text</span></span>
+<span data-ttu-id="2516b-194">Yazı tiplerini değiştirerek ve metni biçimlendirerek raporlarınızın görünümünü özelleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2516b-194">You can customize the appearance of your reports by changing fonts and formatting text.</span></span> <span data-ttu-id="2516b-195">Aşağıdaki bölümde raporların satır ve sütunlarının görünümünün nasıl biçimlendirileceği açıklanmıştır.</span><span class="sxs-lookup"><span data-stu-id="2516b-195">The following sections explain how to format the appearance of rows and columns on reports.</span></span>
 
-### <a name="manage-font-styles"></a>Yazı tipi stillerini yönetme
+### <a name="manage-font-styles"></a><span data-ttu-id="2516b-196">Yazı tipi stillerini yönetme</span><span class="sxs-lookup"><span data-stu-id="2516b-196">Manage font styles</span></span>
 
-Raporunuz için yazı tipi stilleri oluşturabilir ve değiştirebilirsiniz. Bu stilleri belgeye veya rapordaki belirli bir satıra veya sütuna uygulayabilirsiniz.
+<span data-ttu-id="2516b-197">Raporunuz için yazı tipi stilleri oluşturabilir ve değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2516b-197">You can create and modify font styles for your report.</span></span> <span data-ttu-id="2516b-198">Bu stilleri belgeye veya rapordaki belirli bir satıra veya sütuna uygulayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2516b-198">You can then apply those styles to the document, or to a specific row or column on a report.</span></span>
 
 <table>
 <colgroup>
@@ -118,65 +118,65 @@ Raporunuz için yazı tipi stilleri oluşturabilir ve değiştirebilirsiniz. Bu 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Bir yazı tipi stili oluşturma</td>
+<td><span data-ttu-id="2516b-199">Bir yazı tipi stili oluşturma</span><span class="sxs-lookup"><span data-stu-id="2516b-199">Create a font style</span></span></td>
 <td><ol>
-<li>Rapor Tasarımcısında, <strong>Biçim </strong>menüsünde <strong>Stiller ve Biçimlendirme</strong> öğesini tıklayın.</li>
-<li><strong>Stiller ve Biçimlendirme</strong> iletişim kutusunda <strong>Yeni</strong> öğesine tıklayın ve ardından yeni stil için bir özgün ad girin.</li>
-<li>Yazı tipi seçimlerini oluşturun ve ardından <strong>Tamam</strong> düğmesini tıklayın.</li>
+<li><span data-ttu-id="2516b-200">Rapor Tasarımcısında, <strong>Biçim </strong>menüsünde <strong>Stiller ve Biçimlendirme</strong> öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2516b-200">In Report Designer, on the <strong>Format</strong> menu, click <strong>Styles and Formatting</strong>.</span></span></li>
+<li><span data-ttu-id="2516b-201"><strong>Stiller ve Biçimlendirme</strong> iletişim kutusunda <strong>Yeni</strong> öğesine tıklayın ve ardından yeni stil için bir özgün ad girin.</span><span class="sxs-lookup"><span data-stu-id="2516b-201">In the <strong>Styles and Formatting</strong> dialog box, click <strong>New</strong>, and then enter a unique name for the new style.</span></span></li>
+<li><span data-ttu-id="2516b-202">Yazı tipi seçimlerini oluşturun ve ardından <strong>Tamam</strong> düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2516b-202">Make your font selections, and then click <strong>OK</strong>.</span></span></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Bir yazı tipi stilini değiştirme</td>
+<td><span data-ttu-id="2516b-203">Bir yazı tipi stilini değiştirme</span><span class="sxs-lookup"><span data-stu-id="2516b-203">Modify a font style</span></span></td>
 <td><ol>
-<li>Rapor Tasarımcısında, <strong>Biçim </strong>menüsünde <strong>Stiller ve Biçimlendirme</strong> öğesini tıklayın.</li>
-<li><strong>Stiller ve Biçimlendirme</strong> iletişim kutusundan değiştirilecek stili seçin ve ardından <strong>Değiştir</strong> öğesine tıklayın.</li>
-<li>Yazı tipi seçimlerini oluşturun ve ardından <strong>Tamam</strong> düğmesini tıklayın.</li>
+<li><span data-ttu-id="2516b-204">Rapor Tasarımcısında, <strong>Biçim </strong>menüsünde <strong>Stiller ve Biçimlendirme</strong> öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2516b-204">In Report Designer, on the <strong>Format</strong> menu, click <strong>Styles and Formatting</strong>.</span></span></li>
+<li><span data-ttu-id="2516b-205"><strong>Stiller ve Biçimlendirme</strong> iletişim kutusundan değiştirilecek stili seçin ve ardından <strong>Değiştir</strong> öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2516b-205">In the <strong>Styles and Formatting</strong> dialog box, select a style to modify, and then click <strong>Modify</strong>.</span></span></li>
+<li><span data-ttu-id="2516b-206">Yazı tipi seçimlerini oluşturun ve ardından <strong>Tamam</strong> düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2516b-206">Make your font selections, and then click <strong>OK</strong>.</span></span></li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Bir yazı tipi stili uygulama</td>
+<td><span data-ttu-id="2516b-207">Bir yazı tipi stili uygulama</span><span class="sxs-lookup"><span data-stu-id="2516b-207">Apply a font style</span></span></td>
 <td><ol>
-<li>Rapor Tasarımcısı'nda bir tanımda veya bir sütun tanımında veya üstbilgilerde ve altbilgilerde bir veya daha fazla sayıda hücre seçin.</li>
-<li>Araç çubuğundaki <strong>Stil</strong> listesinden bir yazı tipi stili seçin.</li>
+<li><span data-ttu-id="2516b-208">Rapor Tasarımcısı'nda bir tanımda veya bir sütun tanımında veya üstbilgilerde ve altbilgilerde bir veya daha fazla sayıda hücre seçin.</span><span class="sxs-lookup"><span data-stu-id="2516b-208">In Report Designer, in a definition or column definition, or in headers and footers, select one or more cells.</span></span></li>
+<li><span data-ttu-id="2516b-209">Araç çubuğundaki <strong>Stil</strong> listesinden bir yazı tipi stili seçin.</span><span class="sxs-lookup"><span data-stu-id="2516b-209">In the <strong>Style</strong> list on the toolbar, select a font style.</span></span></li>
 </ol></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="format-row-text"></a>Satır metnini biçimlendirme
+### <a name="format-row-text"></a><span data-ttu-id="2516b-210">Satır metnini biçimlendirme</span><span class="sxs-lookup"><span data-stu-id="2516b-210">Format row text</span></span>
 
-Satır tanımında belirtilen biçimlendirme sütun ve rapor tanımında belirtilen biçimlendirmeyi geçersiz kılar. Metin biçimini biçimlendirme araç çubuğundaki denetimleri kullanarak değiştirebilirsiniz. Bu kontroller standart Microsoft Windows kontrolleridir.
+<span data-ttu-id="2516b-211">Satır tanımında belirtilen biçimlendirme sütun ve rapor tanımında belirtilen biçimlendirmeyi geçersiz kılar.</span><span class="sxs-lookup"><span data-stu-id="2516b-211">The formatting that is specified in the row definition overrides any formatting that is specified in the column definition and the report definition.</span></span> <span data-ttu-id="2516b-212">Metin biçimini biçimlendirme araç çubuğundaki denetimleri kullanarak değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2516b-212">You can modify the text format by using the controls on the formatting toolbar.</span></span> <span data-ttu-id="2516b-213">Bu kontroller standart Microsoft Windows kontrolleridir.</span><span class="sxs-lookup"><span data-stu-id="2516b-213">These controls are standard Microsoft Windows controls.</span></span>
 
-1.  Rapor Tasarımcısında değiştirilecek satır tanımını açın.
-2.  Biçimlendirilecek hücreleri seçin. Birden fazla hücre seçmek için, hücreleri seçerken Ctrl tuşunu basılı tutun.
-3.  Araç çubuğunda uygulanacak biçimlendirmeye karşılık gelen düğmeyi tıklayın. Örneğin, bir satıra girinti vermek için satırı seçin ve araç çubuğundaki **Girintiyi Artır** ![Girintiyi Artır](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Girintiyi Artır") düğmesine tıklayın.
+1.  <span data-ttu-id="2516b-214">Rapor Tasarımcısında değiştirilecek satır tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2516b-214">In Report Designer, open the row definition to modify.</span></span>
+2.  <span data-ttu-id="2516b-215">Biçimlendirilecek hücreleri seçin.</span><span class="sxs-lookup"><span data-stu-id="2516b-215">Select the cells to format.</span></span> <span data-ttu-id="2516b-216">Birden fazla hücre seçmek için, hücreleri seçerken Ctrl tuşunu basılı tutun.</span><span class="sxs-lookup"><span data-stu-id="2516b-216">To select multiple cells, hold down the Ctrl key while you select the cell.</span></span>
+3.  <span data-ttu-id="2516b-217">Araç çubuğunda uygulanacak biçimlendirmeye karşılık gelen düğmeyi tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2516b-217">Click the toolbar button of the format to apply.</span></span> <span data-ttu-id="2516b-218">Örneğin, bir satıra girinti vermek için satırı seçin ve araç çubuğundaki **Girintiyi Artır** ![Girintiyi Artır](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Girintiyi Artır") düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2516b-218">For example, to indent a row, select the row, and then click **Increase Indent** ![Increase Indent](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Increase Indent") on the toolbar.</span></span>
 
-### <a name="adjust-columns-while-you-design-reports"></a>Rapor tasarlarken sütunları ayarlama
+### <a name="adjust-columns-while-you-design-reports"></a><span data-ttu-id="2516b-219">Rapor tasarlarken sütunları ayarlama</span><span class="sxs-lookup"><span data-stu-id="2516b-219">Adjust columns while you design reports</span></span>
 
-Üzerinde çalıştığınız satırları satır tanımında daha kolay görüntüleyebilmek için, bir sütunun genişliğini ayarlanabilir ve sütunları görünüm bölmesinde gizleyebilir (simge durumuna küçültebilir) veya gösterebilirsiniz. Yaptığınız değişiklikler sütunların yalnızca ekrandaki görünümlerini etkiler. Raporlardaki sütun biçimlendirmesini etkilemez.
+<span data-ttu-id="2516b-220">Üzerinde çalıştığınız satırları satır tanımında daha kolay görüntüleyebilmek için, bir sütunun genişliğini ayarlanabilir ve sütunları görünüm bölmesinde gizleyebilir (simge durumuna küçültebilir) veya gösterebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2516b-220">To make it easier to view the columns that you're working on in the row definition, you can adjust the width of a column, and can also hide (minimize) or show columns in the view pane.</span></span> <span data-ttu-id="2516b-221">Yaptığınız değişiklikler sütunların yalnızca ekrandaki görünümlerini etkiler.</span><span class="sxs-lookup"><span data-stu-id="2516b-221">The modifications that you make affect only the on-screen appearance of the columns.</span></span> <span data-ttu-id="2516b-222">Raporlardaki sütun biçimlendirmesini etkilemez.</span><span class="sxs-lookup"><span data-stu-id="2516b-222">They don't affect the column formatting on reports.</span></span>
 
-### <a name="change-the-width-of-a-column-in-the-view-pane"></a>Bir sütunun görünüm bölmesindeki genişliğini değiştirme
+### <a name="change-the-width-of-a-column-in-the-view-pane"></a><span data-ttu-id="2516b-223">Bir sütunun görünüm bölmesindeki genişliğini değiştirme</span><span class="sxs-lookup"><span data-stu-id="2516b-223">Change the width of a column in the view pane</span></span>
 
-1.  Rapor Tasarımcısında değiştirilecek satır tanımını açın.
-2.  **Biçim** menüsünde **Sütun Genişliği** öğesini seçin.
-3.  **Sütun Genişliği** iletişim kutusuna bir değer girin ve ardından **Tamam**'a tıklayın. Alternatif olarak, sütun genişliğini değiştirmek için bir sütun üstbilgi hücresinin sağ sınırını da sürükleyebilirsiniz.
+1.  <span data-ttu-id="2516b-224">Rapor Tasarımcısında değiştirilecek satır tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2516b-224">In Report Designer, open the row definition to modify.</span></span>
+2.  <span data-ttu-id="2516b-225">**Biçim** menüsünde **Sütun Genişliği** öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="2516b-225">On the **Format** menu, select **Column Width**.</span></span>
+3.  <span data-ttu-id="2516b-226">**Sütun Genişliği** iletişim kutusuna bir değer girin ve ardından **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2516b-226">In the **Column Width** dialog box, enter a value, and then click **OK**.</span></span> <span data-ttu-id="2516b-227">Alternatif olarak, sütun genişliğini değiştirmek için bir sütun üstbilgi hücresinin sağ sınırını da sürükleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="2516b-227">Alternatively, you can drag the right boundary of a column heading cell to change the width of the column.</span></span>
 
-### <a name="hide-columns-in-the-view-pane"></a>Sütunları görünüm bölmesinde gizleme
+### <a name="hide-columns-in-the-view-pane"></a><span data-ttu-id="2516b-228">Sütunları görünüm bölmesinde gizleme</span><span class="sxs-lookup"><span data-stu-id="2516b-228">Hide columns in the view pane</span></span>
 
-1.  Rapor Tasarımcısında değiştirilecek satır tanımını açın.
-2.  Simge durumuna getirilecek sütunu veya sütunları seçin.
-3.  Sağ tıklayın ve ardından **Gizle** öğesini tıklayın.
+1.  <span data-ttu-id="2516b-229">Rapor Tasarımcısında değiştirilecek satır tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2516b-229">In Report Designer, open the row definition to modify.</span></span>
+2.  <span data-ttu-id="2516b-230">Simge durumuna getirilecek sütunu veya sütunları seçin.</span><span class="sxs-lookup"><span data-stu-id="2516b-230">Select the column or columns to minimize.</span></span>
+3.  <span data-ttu-id="2516b-231">Sağ tıklayın ve ardından **Gizle** öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2516b-231">Right-click, and then click **Hide**.</span></span>
 
-### <a name="show-all-hidden-columns-in-the-view-pane"></a>Görünüm bölmesindeki tüm gizli sütunları gösterme
+### <a name="show-all-hidden-columns-in-the-view-pane"></a><span data-ttu-id="2516b-232">Görünüm bölmesindeki tüm gizli sütunları gösterme</span><span class="sxs-lookup"><span data-stu-id="2516b-232">Show all hidden columns in the view pane</span></span>
 
-1.  Rapor Tasarımcısında değiştirilecek satır tanımını açın.
-2.  Görüntülenecek simge durumuna küçültülmüş sütuna sağ tıklayın ve ardından **Göster** öğesine tıklayın.
+1.  <span data-ttu-id="2516b-233">Rapor Tasarımcısında değiştirilecek satır tanımını açın.</span><span class="sxs-lookup"><span data-stu-id="2516b-233">In Report Designer, open the row definition to modify.</span></span>
+2.  <span data-ttu-id="2516b-234">Görüntülenecek simge durumuna küçültülmüş sütuna sağ tıklayın ve ardından **Göster** öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="2516b-234">Right-click the minimized column to display, and then click **Unhide**.</span></span>
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="see-also"></a><span data-ttu-id="2516b-235">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="2516b-235">See also</span></span>
 --------
 
-[Mali raporlama](financial-reporting-intro.md)
+[<span data-ttu-id="2516b-236">Mali raporlama</span><span class="sxs-lookup"><span data-stu-id="2516b-236">Financial reporting</span></span>](financial-reporting-intro.md)
 
 
 

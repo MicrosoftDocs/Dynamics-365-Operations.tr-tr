@@ -15,7 +15,7 @@ ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
 ms.author: chwolf
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
@@ -25,107 +25,107 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="hardware-sizing-for-on-premises-environments"></a>Şirket içi ortamlar için donanım boyutlandırma
-Şirket içi ortam için donanım ve altyapı boyutlandırmaya başlamadan önce, [Sistem gereksinimleri](../get-started/system-requirements.md) ve [Kurulum ve dağıtım yönergeleri](../deployment/setup-deploy-on-premises-environments.md) belgelerini okuyun ve altyapı hakkında derinlikli bilgi sahibi olun. 
+# <a name="hardware-sizing-for-on-premises-environments"></a><span data-ttu-id="57e9d-103">Şirket içi ortamlar için donanım boyutlandırma</span><span class="sxs-lookup"><span data-stu-id="57e9d-103">Hardware sizing for on-premises environments</span></span>
+<span data-ttu-id="57e9d-104">Şirket içi ortam için donanım ve altyapı boyutlandırmaya başlamadan önce, [Sistem gereksinimleri](../get-started/system-requirements.md) ve [Kurulum ve dağıtım yönergeleri](../deployment/setup-deploy-on-premises-environments.md) belgelerini okuyun ve altyapı hakkında derinlikli bilgi sahibi olun.</span><span class="sxs-lookup"><span data-stu-id="57e9d-104">Before you begin the hardware and infrastructure sizing process for an on-premises environment, familiarize yourself with the [System requirements](../get-started/system-requirements.md) and [Setup and deployment instructions](../deployment/setup-deploy-on-premises-environments.md) to gain a solid understanding off the underlying infrastructure.</span></span> 
 
-  **Not:** Optimum performans için sistem en iyi uygulamalarına dikkat edin. 
+  <span data-ttu-id="57e9d-105">**Not:** Optimum performans için sistem en iyi uygulamalarına dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="57e9d-105">**Note:** Pay close attention to the system setup best practices for optimum performance.</span></span> 
 
-Belgeyi gözden geçirdikten sonra, hareket ve eş zamanlı kullanıcı hacminizi tahmin edebilir ve ortalama çekirdek çıkışına dayanarak ortamınızı boyutlandırabilirsiniz.
+<span data-ttu-id="57e9d-106">Belgeyi gözden geçirdikten sonra, hareket ve eş zamanlı kullanıcı hacminizi tahmin edebilir ve ortalama çekirdek çıkışına dayanarak ortamınızı boyutlandırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="57e9d-106">After you have reviewed the documentation, you can start the process of estimating your transactional and concurrent user volume and sizing your environment based on the average core throughput.</span></span>
 
-## <a name="factors-that-affect-sizing"></a>Boyutlandırmayı etkileyen faktörler
-Aşağıdaki görselde gösterilen tüm faktörler boyutlandırmaya katkıda bulunur. Daha ayrıntılı bilgi toplandıkça boyutlandırmayı daha hassas şekilde belirleyebilirsiniz. Destekleyici veri olmadan donanım boyutlandırmanın tutarlı olması olası değildir. Gerekli veri için minimum gereksinim saat başına hareket hat yükünün tepe noktasıdır. 
+## <a name="factors-that-affect-sizing"></a><span data-ttu-id="57e9d-107">Boyutlandırmayı etkileyen faktörler</span><span class="sxs-lookup"><span data-stu-id="57e9d-107">Factors that affect sizing</span></span>
+<span data-ttu-id="57e9d-108">Aşağıdaki görselde gösterilen tüm faktörler boyutlandırmaya katkıda bulunur.</span><span class="sxs-lookup"><span data-stu-id="57e9d-108">All the factors shown in the following illustration contribute to sizing.</span></span> <span data-ttu-id="57e9d-109">Daha ayrıntılı bilgi toplandıkça boyutlandırmayı daha hassas şekilde belirleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="57e9d-109">The more detailed information that is collected, the more precisely you can determine sizing.</span></span> <span data-ttu-id="57e9d-110">Destekleyici veri olmadan donanım boyutlandırmanın tutarlı olması olası değildir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-110">Hardware sizing, without supporting data, is likely to be inaccurate.</span></span> <span data-ttu-id="57e9d-111">Gerekli veri için minimum gereksinim saat başına hareket hat yükünün tepe noktasıdır.</span><span class="sxs-lookup"><span data-stu-id="57e9d-111">The absolute minimum requirement for necessary data is the peak transaction line load per hour.</span></span> 
 
-[![Şirket içi ortamlar için donanım boyutlandırma](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+<span data-ttu-id="57e9d-112">[![Şirket içi ortamlar için donanım boyutlandırma](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)</span><span class="sxs-lookup"><span data-stu-id="57e9d-112">[![Hardware sizing for on-premises environments](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)</span></span>
 
-Soldan sağa bakıldığında, boyutlandırmayı doğru şekilde tahmin etmek için ilk ve en önemli faktör bir hareket profili veya hareket nitelendirmedir. Saat başına tepe hareket hacmini her zaman bulmak önemlidir. Birden fazla tepe dönemi varsa, bu dönemlerin doğru olarak tanımlanması gerekir. 
+<span data-ttu-id="57e9d-113">Soldan sağa bakıldığında, boyutlandırmayı doğru şekilde tahmin etmek için ilk ve en önemli faktör bir hareket profili veya hareket nitelendirmedir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-113">Viewed from left to right, the first and most important factor needed to accurately estimate sizing is a transaction profile or a transaction characterization.</span></span> <span data-ttu-id="57e9d-114">Saat başına tepe hareket hacmini her zaman bulmak önemlidir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-114">It’s important to always find the peak transactional volume per hour.</span></span> <span data-ttu-id="57e9d-115">Birden fazla tepe dönemi varsa, bu dönemlerin doğru olarak tanımlanması gerekir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-115">If there are multiple peak periods, then these periods need to be accurately defined.</span></span> 
 
-Yüküm altyapınızı nasıl etkilediğini anladığınızda, bu faktörler hakkında daha fazla ayrıntıyı anlamanız gerekir: 
+<span data-ttu-id="57e9d-116">Yüküm altyapınızı nasıl etkilediğini anladığınızda, bu faktörler hakkında daha fazla ayrıntıyı anlamanız gerekir:</span><span class="sxs-lookup"><span data-stu-id="57e9d-116">As you understand the load that impacts your infrastructure, you also need to understand more detail about these factors:</span></span> 
 
-- **Hareketler** - Hareketlerin genellikle gün/hafta boyunca çeşitli tepe noktaları vardır. Bu genellikle hareket türüne bağlıdır. Zaman ve gider girişleri genellikle haftada bir tepe noktası gösterirlerken Satış siparişi girişleri gün içerisinde tümleştirme veya trickle yolu ile gelirler. 
+- <span data-ttu-id="57e9d-117">**Hareketler** - Hareketlerin genellikle gün/hafta boyunca çeşitli tepe noktaları vardır.</span><span class="sxs-lookup"><span data-stu-id="57e9d-117">**Transactions** - Typically transactions have certain peaks throughout the day/week.</span></span> <span data-ttu-id="57e9d-118">Bu genellikle hareket türüne bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="57e9d-118">This mostly depends on the transaction type.</span></span> <span data-ttu-id="57e9d-119">Zaman ve gider girişleri genellikle haftada bir tepe noktası gösterirlerken Satış siparişi girişleri gün içerisinde tümleştirme veya trickle yolu ile gelirler.</span><span class="sxs-lookup"><span data-stu-id="57e9d-119">Time and expense entries usually show peaks once per week, whereas Sales order entries often come in bulk via integration or trickle in during the day.</span></span> 
 
-- **Eş zamanlı kullanıcıların sayısı** – Eş zamanlı kullanıcıların sayısı ikinci en önemli boyutlandırma faktörüdür. Eş zamanlı kullanıcıların sayısına dayanarak güvenilir boyutlandırma elde edemezsiniz, bu yüzden de kullanabileceğiniz tek veri buysa, bir yaklaşık sayı tahmin edin ve bunu daha fazla veriniz olduğunda elden geçirin. Doğru bir eş zamanlı kullanıcı tanımı şu anlama gelir: 
-  - Adlandırılmış kullanıcılar eşzamanlı kullanıcı değildir.
-  - Eş zamanlı kullanıcılar adlandırılmış kullanıcıların her zaman bir alt kümesidir. 
-  - Tepe iş yükleri boyutlandırma için maksimum eş zamanlılığı tanımlar.
+- <span data-ttu-id="57e9d-120">**Eş zamanlı kullanıcıların sayısı** – Eş zamanlı kullanıcıların sayısı ikinci en önemli boyutlandırma faktörüdür.</span><span class="sxs-lookup"><span data-stu-id="57e9d-120">**Number of concurrent users** – The number of concurrent users is the second most important sizing factor.</span></span> <span data-ttu-id="57e9d-121">Eş zamanlı kullanıcıların sayısına dayanarak güvenilir boyutlandırma elde edemezsiniz, bu yüzden de kullanabileceğiniz tek veri buysa, bir yaklaşık sayı tahmin edin ve bunu daha fazla veriniz olduğunda elden geçirin.</span><span class="sxs-lookup"><span data-stu-id="57e9d-121">You cannot reliably get sizing estimates based on the number of concurrent users, so if this is the only data you have available, estimate an approximate number, and then revisit this when you have more data.</span></span> <span data-ttu-id="57e9d-122">Doğru bir eş zamanlı kullanıcı tanımı şu anlama gelir:</span><span class="sxs-lookup"><span data-stu-id="57e9d-122">An accurate concurrent user definition means that:</span></span> 
+  - <span data-ttu-id="57e9d-123">Adlandırılmış kullanıcılar eşzamanlı kullanıcı değildir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-123">Named users are not concurrent users.</span></span>
+  - <span data-ttu-id="57e9d-124">Eş zamanlı kullanıcılar adlandırılmış kullanıcıların her zaman bir alt kümesidir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-124">Concurrent users are always a subset of named users.</span></span> 
+  - <span data-ttu-id="57e9d-125">Tepe iş yükleri boyutlandırma için maksimum eş zamanlılığı tanımlar.</span><span class="sxs-lookup"><span data-stu-id="57e9d-125">Peak workload defines the maximum concurrency for sizing.</span></span>
  
-- Eş zamanlı kullanıcılar için ölçüt, kullanıcının aşağıdaki ölçütlerin tümüne uymasıdır: 
-  - Oturum açmış. 
-  - Sayım sırasında çalışan hareketler/sorgular. 
-  - Kullanılmayan bir oturum değil. 
+- <span data-ttu-id="57e9d-126">Eş zamanlı kullanıcılar için ölçüt, kullanıcının aşağıdaki ölçütlerin tümüne uymasıdır:</span><span class="sxs-lookup"><span data-stu-id="57e9d-126">Criteria for concurrent users is that the user meets all the following criteria:</span></span> 
+  - <span data-ttu-id="57e9d-127">Oturum açmış.</span><span class="sxs-lookup"><span data-stu-id="57e9d-127">Logged on.</span></span> 
+  - <span data-ttu-id="57e9d-128">Sayım sırasında çalışan hareketler/sorgular.</span><span class="sxs-lookup"><span data-stu-id="57e9d-128">Working transactions/inquiries at the time of counting.</span></span> 
+  - <span data-ttu-id="57e9d-129">Kullanılmayan bir oturum değil.</span><span class="sxs-lookup"><span data-stu-id="57e9d-129">Not an idle session.</span></span> 
  
-- **Veri bileşimi** – Bu çoğunlukla sisteminizin nasıl ayarlanıp yapılandırılacağıyla ilgilidir. Örneğin, kaç adet tüzel kişiliğe, kaç tane maddeye, kaç tane ürün reçetesi düzeyine sahip olacaksınız ve güvenlik kurulumunuz ne kadar karmaşık olacak. Bu faktörlerin her biri performansınız üzerinde küçük bir etkiye sahip olacaktır, bu yüzden de bu faktörler, altyapı sözkonusu olduğunda akıllı tercihlerde bulunarak denkleştirilebilir. 
+- <span data-ttu-id="57e9d-130">**Veri bileşimi** – Bu çoğunlukla sisteminizin nasıl ayarlanıp yapılandırılacağıyla ilgilidir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-130">**Data composition** – This is mostly about how your system will be set up and configured.</span></span> <span data-ttu-id="57e9d-131">Örneğin, kaç adet tüzel kişiliğe, kaç tane maddeye, kaç tane ürün reçetesi düzeyine sahip olacaksınız ve güvenlik kurulumunuz ne kadar karmaşık olacak.</span><span class="sxs-lookup"><span data-stu-id="57e9d-131">For example, how many legal entities you will have, how many items, how many BOM levels, and how complex your security setup will be.</span></span> <span data-ttu-id="57e9d-132">Bu faktörlerin her biri performansınız üzerinde küçük bir etkiye sahip olacaktır, bu yüzden de bu faktörler, altyapı sözkonusu olduğunda akıllı tercihlerde bulunarak denkleştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-132">Each of those factors may have a small impact on performance, so these factors can be offset by using smart choices when it comes to infrastructure.</span></span> 
 
-- **Uzantılar** – Özelleştirmeler basit veya karmaşık olabilir. Özelleştirmelerin sayısı ve karmaşıklığın doğası ve kullanımı, gerek duyulan altyapının boyutunu çeşitli şekillerde etkileyebilir. Örnek özelleştirmeler için, sadece verimliliği test etmekle kalmak için değil, aynı zamanda altyapı ihtiyaçlarını anlamaya yardımcı olmak için de performans değerlendirmeleri yapmak tavsiye edilir. Uzantılar performans ve ölçeklenebilirlik için en iyi yöntemlere uygun olarak kodlanmadıysa daha da önemlidir. 
+- <span data-ttu-id="57e9d-133">**Uzantılar** – Özelleştirmeler basit veya karmaşık olabilir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-133">**Extensions** – Customizations can be simple or complex.</span></span> <span data-ttu-id="57e9d-134">Özelleştirmelerin sayısı ve karmaşıklığın doğası ve kullanımı, gerek duyulan altyapının boyutunu çeşitli şekillerde etkileyebilir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-134">The number of customizations and the nature of complexity and usage has a varied impact on the size of the infrastructure needed.</span></span> <span data-ttu-id="57e9d-135">Örnek özelleştirmeler için, sadece verimliliği test etmekle kalmak için değil, aynı zamanda altyapı ihtiyaçlarını anlamaya yardımcı olmak için de performans değerlendirmeleri yapmak tavsiye edilir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-135">For complex customizations, it’s advised to conduct performance evaluations to ensure that they are not only tested for efficiency but also help understand the infrastructure needs.</span></span> <span data-ttu-id="57e9d-136">Uzantılar performans ve ölçeklenebilirlik için en iyi yöntemlere uygun olarak kodlanmadıysa daha da önemlidir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-136">This is even more critical when the extensions are not coded according to best practices for performance and scalability.</span></span> 
 
-- **Raporlama ve analizler** – Bu faktörler genellikle ağır sorgularını, Finance and Operations veritabanları sistemlerinde çeşitli veritabanlarına karşı çalıştırır. Pahalı raporların çalıştırılma sıklığını anlamak ve azaltmak, bunların etkisini daha iyi anlamanıza yardımcı olacaktır. 
+- <span data-ttu-id="57e9d-137">**Raporlama ve analizler** – Bu faktörler genellikle ağır sorgularını, Finance and Operations veritabanları sistemlerinde çeşitli veritabanlarına karşı çalıştırır.</span><span class="sxs-lookup"><span data-stu-id="57e9d-137">**Reporting and analytics** – These factors typically include running heavy queries against the various databases in the Finance and Operations database systems.</span></span> <span data-ttu-id="57e9d-138">Pahalı raporların çalıştırılma sıklığını anlamak ve azaltmak, bunların etkisini daha iyi anlamanıza yardımcı olacaktır.</span><span class="sxs-lookup"><span data-stu-id="57e9d-138">Understanding and reducing the frequency when expensive reports run will help you understand the impact of them.</span></span> 
 
-- **Üçüncü taraf çözümler** – Bu çözümler, ISV'ler gibi, uzantılarla aynı çıkarımlara ve önerilere sahiptir. 
+- <span data-ttu-id="57e9d-139">**Üçüncü taraf çözümler** – Bu çözümler, ISV'ler gibi, uzantılarla aynı çıkarımlara ve önerilere sahiptir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-139">**Third-party solutions** – These solutions, like ISVs, have the same implications and recommendations as extensions.</span></span> 
 
-## <a name="sizing-your-finance-and-operations-environment"></a>Finance and Operations ortamınızı boyutlandırma
-Boyutlandırma gereksinimlerinizi anlamak için işlemeniz gereken hareketlerin tepe hacmini bilmeniz gerekir. Yönetim Raporlayıcısı veya SSRS gibi çoğu yedek sistem, daha az kritiktir. Bunun sonucu olarak, bu belge çoğunlukla AOS ve SQL Server'a odaklanır. 
+## <a name="sizing-your-finance-and-operations-environment"></a><span data-ttu-id="57e9d-140">Finance and Operations ortamınızı boyutlandırma</span><span class="sxs-lookup"><span data-stu-id="57e9d-140">Sizing your Finance and Operations environment</span></span>
+<span data-ttu-id="57e9d-141">Boyutlandırma gereksinimlerinizi anlamak için işlemeniz gereken hareketlerin tepe hacmini bilmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-141">To understand your sizing requirements, you need to know the peak volume of transactions that you need to process.</span></span> <span data-ttu-id="57e9d-142">Yönetim Raporlayıcısı veya SSRS gibi çoğu yedek sistem, daha az kritiktir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-142">Most auxiliary systems, like Management Reporter or SSRS, are less mission critical.</span></span> <span data-ttu-id="57e9d-143">Bunun sonucu olarak, bu belge çoğunlukla AOS ve SQL Server'a odaklanır.</span><span class="sxs-lookup"><span data-stu-id="57e9d-143">As a result, this document focuses mostly on AOS and SQL Server.</span></span> 
 
-**Not:** Genel olarak, hesaplama katmanları ölçeklenir ve N+1 şeklinde ayarlanmalıdır, bu da üç AOS tahmin ediyorsanız, dördüncü bir AOS eklemeniz anlamına gelir. Veritabanı katmanı her zaman açık yüksek kullanılabilirlik kurulumunda ayarlanmalıdır. 
+<span data-ttu-id="57e9d-144">**Not:** Genel olarak, hesaplama katmanları ölçeklenir ve N+1 şeklinde ayarlanmalıdır, bu da üç AOS tahmin ediyorsanız, dördüncü bir AOS eklemeniz anlamına gelir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-144">**Note:** In general, the compute tiers scale out and should be set up in an N+1 fashion, meaning if you estimate three AOS, add a fourth AOS.</span></span> <span data-ttu-id="57e9d-145">Veritabanı katmanı her zaman açık yüksek kullanılabilirlik kurulumunda ayarlanmalıdır.</span><span class="sxs-lookup"><span data-stu-id="57e9d-145">The database tier should be set up in an Always On highly-available setup.</span></span> 
 
 
-## <a name="sql-server-oltp"></a>SQL Server (OLTP)
+## <a name="sql-server-oltp"></a><span data-ttu-id="57e9d-146">SQL Server (OLTP)</span><span class="sxs-lookup"><span data-stu-id="57e9d-146">SQL Server (OLTP)</span></span>
 
-### <a name="sizing"></a>Boyutlandırma
+### <a name="sizing"></a><span data-ttu-id="57e9d-147">Boyutlandırma</span><span class="sxs-lookup"><span data-stu-id="57e9d-147">Sizing</span></span>
 
-- DB sunucusunda çekirdek başına saat başına 3K - 15K hareket satırı.
-- Tipik AOS'tan SQL'e çekirdek oranı birincil SQL Server için 3:1'dir. Ek çekirdekler, seçilen yüksek kullanılabilirlik yapılandırmasına dayalı olarak gereklidir. 
-  - Veritabanının yoğun olarak işleyen işlemlerin işlenmesi bunu 2:1'e geriletebilir. 
-- Aşağıdaki etkenler değişimleri etkiler: 
-  - Kullanımda olan parametre ayarları. 
-  - Eklenti düzeyleri. 
-  - Veritabanı günlüğü ve uyarılar gibi ek işlevlerin kullanımı. Ekstrem veritabanı kaydı alma saat başına çekirdek başına çıkışı 3K satır altına çekecektir. 
-  - Veri bileşiminin karmaşıklığı – Basit bir hesap planına karşılık ayrıntılı bir hesap planının çıkış üzerine etkileri vardır (örnek olarak). 
-  - Hareket nitelendirme.
-  - Her bir çekirdek için 2 GB - 4 GB arası bellek 
-  - DB sunucusu üzerinde Yönetim raporlayıcısı ve SSRS veritabanları gibi yedek veritabanları.
-  - Temp DB = veritabanı boyutunun %15'i, fiziksel işlemciler kadar fazla sayıda dosya ile. 
-  - SAN boyutu ve çıkış, toplam eş zamanlı hareket hacmi/kullanımına dayalıdır. 
+- <span data-ttu-id="57e9d-148">DB sunucusunda çekirdek başına saat başına 3K - 15K hareket satırı.</span><span class="sxs-lookup"><span data-stu-id="57e9d-148">3K to 15K transaction lines per hour per core on DB server.</span></span>
+- <span data-ttu-id="57e9d-149">Tipik AOS'tan SQL'e çekirdek oranı birincil SQL Server için 3:1'dir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-149">Typical AOS-to-SQL core ratio 3:1 for the primary SQL Server.</span></span> <span data-ttu-id="57e9d-150">Ek çekirdekler, seçilen yüksek kullanılabilirlik yapılandırmasına dayalı olarak gereklidir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-150">Additional cores are required based on the chosen high availability configuration.</span></span> 
+  - <span data-ttu-id="57e9d-151">Veritabanının yoğun olarak işleyen işlemlerin işlenmesi bunu 2:1'e geriletebilir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-151">Processing database-heavy operations may regress this to 2:1.</span></span> 
+- <span data-ttu-id="57e9d-152">Aşağıdaki etkenler değişimleri etkiler:</span><span class="sxs-lookup"><span data-stu-id="57e9d-152">The following factors influence variations:</span></span> 
+  - <span data-ttu-id="57e9d-153">Kullanımda olan parametre ayarları.</span><span class="sxs-lookup"><span data-stu-id="57e9d-153">Parameter settings in use.</span></span> 
+  - <span data-ttu-id="57e9d-154">Eklenti düzeyleri.</span><span class="sxs-lookup"><span data-stu-id="57e9d-154">Levels of extensions.</span></span> 
+  - <span data-ttu-id="57e9d-155">Veritabanı günlüğü ve uyarılar gibi ek işlevlerin kullanımı.</span><span class="sxs-lookup"><span data-stu-id="57e9d-155">Usage of additional functionality, such as database log and alerts.</span></span> <span data-ttu-id="57e9d-156">Ekstrem veritabanı kaydı alma saat başına çekirdek başına çıkışı 3K satır altına çekecektir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-156">Extreme database logging will further reduce throughput per hour per core below 3K lines.</span></span> 
+  - <span data-ttu-id="57e9d-157">Veri bileşiminin karmaşıklığı – Basit bir hesap planına karşılık ayrıntılı bir hesap planının çıkış üzerine etkileri vardır (örnek olarak).</span><span class="sxs-lookup"><span data-stu-id="57e9d-157">Complexity of data composition – A simple chart of accounts versus a detailed fine-grained chart of accounts has implications on throughput (as an example).</span></span> 
+  - <span data-ttu-id="57e9d-158">Hareket nitelendirme.</span><span class="sxs-lookup"><span data-stu-id="57e9d-158">Transaction characterization.</span></span>
+  - <span data-ttu-id="57e9d-159">Her bir çekirdek için 2 GB - 4 GB arası bellek</span><span class="sxs-lookup"><span data-stu-id="57e9d-159">2 GB to 4 GB memory for each core.</span></span> 
+  - <span data-ttu-id="57e9d-160">DB sunucusu üzerinde Yönetim raporlayıcısı ve SSRS veritabanları gibi yedek veritabanları.</span><span class="sxs-lookup"><span data-stu-id="57e9d-160">Auxiliary databases on DB server such as Management reporter and SSRS databases.</span></span>
+  - <span data-ttu-id="57e9d-161">Temp DB = veritabanı boyutunun %15'i, fiziksel işlemciler kadar fazla sayıda dosya ile.</span><span class="sxs-lookup"><span data-stu-id="57e9d-161">Temp DB = 15% of DB size, with as many files as physical processors.</span></span> 
+  - <span data-ttu-id="57e9d-162">SAN boyutu ve çıkış, toplam eş zamanlı hareket hacmi/kullanımına dayalıdır.</span><span class="sxs-lookup"><span data-stu-id="57e9d-162">SAN size and throughput based on total concurrent transaction volume/usage.</span></span> 
 
-### <a name="high-availability"></a>Yüksek kullanılabilirlik 
-SQL Server'ı her zaman bir küme veya yansıtma kurulumunda kullanmanızı öneririz. İkinci SQL düğümü, birincil düğüm ile aynı sayıda çekirdeğe sahip olmalıdır. 
+### <a name="high-availability"></a><span data-ttu-id="57e9d-163">Yüksek kullanılabilirlik</span><span class="sxs-lookup"><span data-stu-id="57e9d-163">High availability</span></span> 
+<span data-ttu-id="57e9d-164">SQL Server'ı her zaman bir küme veya yansıtma kurulumunda kullanmanızı öneririz.</span><span class="sxs-lookup"><span data-stu-id="57e9d-164">We recommend always utilizing SQL Server in either a cluster or mirroring setup.</span></span> <span data-ttu-id="57e9d-165">İkinci SQL düğümü, birincil düğüm ile aynı sayıda çekirdeğe sahip olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="57e9d-165">The second SQL node should have the same number of cores as the primary node.</span></span> 
 
-### <a name="active-directory-federation-services-ad-fs"></a>Active Directory Federasyon Hizmetleri (AD FS)
-AD FS boyutlandırma için bkz [AD FS Sunucu Kapasite belgeleri](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
+### <a name="active-directory-federation-services-ad-fs"></a><span data-ttu-id="57e9d-166">Active Directory Federasyon Hizmetleri (AD FS)</span><span class="sxs-lookup"><span data-stu-id="57e9d-166">Active Directory Federation Services (AD FS)</span></span>
+<span data-ttu-id="57e9d-167">AD FS boyutlandırma için bkz [AD FS Sunucu Kapasite belgeleri](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).</span><span class="sxs-lookup"><span data-stu-id="57e9d-167">For AD FS sizing, see the [AD FS Server Capacity documentation](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).</span></span>
 
-Bir [boyutlandırma elektronik tablosu](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) dağıtımınızdaki örneklerin sayısını planlamak için kullanılabilir.
+<span data-ttu-id="57e9d-168">Bir [boyutlandırma elektronik tablosu](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) dağıtımınızdaki örneklerin sayısını planlamak için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-168">A [sizing spreadsheet](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) is available for planning the number of instances in your deployment.</span></span>
 
-<a name="aos-online-and-batch"></a>AOS (Çevrimiçi ve toplu iş)
+<a name="aos-online-and-batch"></a><span data-ttu-id="57e9d-169">AOS (Çevrimiçi ve toplu iş)</span><span class="sxs-lookup"><span data-stu-id="57e9d-169">AOS (Online and batch)</span></span>
 ----------------------
 
-### <a name="sizing"></a>Boyutlandırma
+### <a name="sizing"></a><span data-ttu-id="57e9d-170">Boyutlandırma</span><span class="sxs-lookup"><span data-stu-id="57e9d-170">Sizing</span></span>
 
-- Hareket hacmi/kullanıma göre boyutlandırma
-  - Çekirdek başına 2K - 6K satır
-  - Örnek başına 16 GB
-  - Standart kutu – 4 - 24 arası çekirdek
-  - Çekirdek başına 10 - 15 Kurumsal kullanıcı
-  - Çekirdek başına 15 - 25 Faaliyet kullanıcısı
-  - Çekirdek başına 25 - 50 Takım üyesi
-- Toplu İş
-   - Çekirdek başına 1 - 4 toplu iş iş parçacığı
-   - Toplu iş pencere nitelendirmesine göre boyut
-- AOS, Veri Yönetimi ve Toplu işin Service Fabric'te aynı rolde olduğunu unutmayın. Bu üç iş yükünü birleştirerek boyutlandırmanız, bunları Microsoft Dynamics AX'teki gibi ayırmamanız gerekir.
-- SQL Server için aynı değişkenlik faktörleri burada da geçerlidir.
+- <span data-ttu-id="57e9d-171">Hareket hacmi/kullanıma göre boyutlandırma</span><span class="sxs-lookup"><span data-stu-id="57e9d-171">Sizing by transaction volume/usage</span></span>
+  - <span data-ttu-id="57e9d-172">Çekirdek başına 2K - 6K satır</span><span class="sxs-lookup"><span data-stu-id="57e9d-172">2K to 6K lines per core</span></span>
+  - <span data-ttu-id="57e9d-173">Örnek başına 16 GB</span><span class="sxs-lookup"><span data-stu-id="57e9d-173">16 GB per instance</span></span>
+  - <span data-ttu-id="57e9d-174">Standart kutu – 4 - 24 arası çekirdek</span><span class="sxs-lookup"><span data-stu-id="57e9d-174">Standard box – 4 to 24 cores</span></span>
+  - <span data-ttu-id="57e9d-175">Çekirdek başına 10 - 15 Kurumsal kullanıcı</span><span class="sxs-lookup"><span data-stu-id="57e9d-175">10 to 15 Enterprise users per core</span></span>
+  - <span data-ttu-id="57e9d-176">Çekirdek başına 15 - 25 Faaliyet kullanıcısı</span><span class="sxs-lookup"><span data-stu-id="57e9d-176">15 to 25 Activity users per core</span></span>
+  - <span data-ttu-id="57e9d-177">Çekirdek başına 25 - 50 Takım üyesi</span><span class="sxs-lookup"><span data-stu-id="57e9d-177">25 to 50 Team members per core</span></span>
+- <span data-ttu-id="57e9d-178">Toplu İş</span><span class="sxs-lookup"><span data-stu-id="57e9d-178">Batch</span></span>
+   - <span data-ttu-id="57e9d-179">Çekirdek başına 1 - 4 toplu iş iş parçacığı</span><span class="sxs-lookup"><span data-stu-id="57e9d-179">1 to 4 batch threads per core</span></span>
+   - <span data-ttu-id="57e9d-180">Toplu iş pencere nitelendirmesine göre boyut</span><span class="sxs-lookup"><span data-stu-id="57e9d-180">Size based on batch window characterization</span></span>
+- <span data-ttu-id="57e9d-181">AOS, Veri Yönetimi ve Toplu işin Service Fabric'te aynı rolde olduğunu unutmayın.</span><span class="sxs-lookup"><span data-stu-id="57e9d-181">Note that the AOS, Data Management, and Batch are on the same role in the Service Fabric.</span></span> <span data-ttu-id="57e9d-182">Bu üç iş yükünü birleştirerek boyutlandırmanız, bunları Microsoft Dynamics AX'teki gibi ayırmamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-182">You need to size for these three workloads combined, and not separate these like in Microsoft Dynamics AX 2012.</span></span>
+- <span data-ttu-id="57e9d-183">SQL Server için aynı değişkenlik faktörleri burada da geçerlidir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-183">The same variability factors for SQL Server apply here.</span></span>
 
-### <a name="high-availability"></a>Yüksek kullanılabilirlik
-- Tahmin ettiğinizden 1-2 adet daha fazla kullanılabilir AOS'e sahip olduğunuzdan emin olun.
-- En az 3-4 sanal ana bilgisayara sahip olduğunuzdan emin olun.
+### <a name="high-availability"></a><span data-ttu-id="57e9d-184">Yüksek kullanılabilirlik</span><span class="sxs-lookup"><span data-stu-id="57e9d-184">High availability</span></span>
+- <span data-ttu-id="57e9d-185">Tahmin ettiğinizden 1-2 adet daha fazla kullanılabilir AOS'e sahip olduğunuzdan emin olun.</span><span class="sxs-lookup"><span data-stu-id="57e9d-185">Ensure that you have at least 1 to 2 more AOS available than you estimate.</span></span>
+- <span data-ttu-id="57e9d-186">En az 3-4 sanal ana bilgisayara sahip olduğunuzdan emin olun.</span><span class="sxs-lookup"><span data-stu-id="57e9d-186">Ensure that you have at least 3 to 4 virtual hosts available.</span></span>
 
-## <a name="management-reporter"></a>Yönetim raporlayıcısı
-Çoğu durumunda ve yaygın olarak kullanılmadığında, iki düğümün kullanılmasıyla önerilen minimum gereksinimler iyi iş görecektir. Yalnızca ağır kullanımınız söz konusu olduğu durumlarda ikiden fazla düğüme ihtiyaç duyarsınız. Lütfen gerektiği şekilde ölçeklendirin.
+## <a name="management-reporter"></a><span data-ttu-id="57e9d-187">Yönetim raporlayıcısı</span><span class="sxs-lookup"><span data-stu-id="57e9d-187">Management reporter</span></span>
+<span data-ttu-id="57e9d-188">Çoğu durumunda ve yaygın olarak kullanılmadığında, iki düğümün kullanılmasıyla önerilen minimum gereksinimler iyi iş görecektir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-188">In most cases, unless used extensively, the recommended minimum requirements using two nodes should work well.</span></span> <span data-ttu-id="57e9d-189">Yalnızca ağır kullanımınız söz konusu olduğu durumlarda ikiden fazla düğüme ihtiyaç duyarsınız.</span><span class="sxs-lookup"><span data-stu-id="57e9d-189">Only in cases where there is heavy use will you need more than two nodes.</span></span> <span data-ttu-id="57e9d-190">Lütfen gerektiği şekilde ölçeklendirin.</span><span class="sxs-lookup"><span data-stu-id="57e9d-190">Please scale as needed.</span></span>
 
-## <a name="sql-server-reporting-services"></a>SQL Server Reporting Services
-Genel kullanım sürümü için yalnızca bir SSRS düğümü dağıtılabilir. SSRS düğümünüzü test ederken izleyin ve SSRS tarafından kullanılabilir çekirdeklerin sayısını ihtiyaca göre artırın. Önceden yapılandırılmış bir ikincil düğümün SSRS VM'den farklı bir sanal makinede kullanılabilir olduğundan emin olun. Bu, SSRS'yi barındıran sanal makine veya sanal ana bilgisayarda bir sorun olursa önemlidir. Bu durumda, bunların değiştirilmesi gerekir. 
+## <a name="sql-server-reporting-services"></a><span data-ttu-id="57e9d-191">SQL Server Reporting Services</span><span class="sxs-lookup"><span data-stu-id="57e9d-191">SQL Server Reporting Services</span></span>
+<span data-ttu-id="57e9d-192">Genel kullanım sürümü için yalnızca bir SSRS düğümü dağıtılabilir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-192">For the general availability release, only one SSRS node can be deployed.</span></span> <span data-ttu-id="57e9d-193">SSRS düğümünüzü test ederken izleyin ve SSRS tarafından kullanılabilir çekirdeklerin sayısını ihtiyaca göre artırın.</span><span class="sxs-lookup"><span data-stu-id="57e9d-193">Monitor your SSRS node while testing and increase the number of cores available for SSRS on a need basis.</span></span> <span data-ttu-id="57e9d-194">Önceden yapılandırılmış bir ikincil düğümün SSRS VM'den farklı bir sanal makinede kullanılabilir olduğundan emin olun.</span><span class="sxs-lookup"><span data-stu-id="57e9d-194">Make sure that you have a preconfigured secondary node available on a virtual host that is different than the SSRS VM.</span></span> <span data-ttu-id="57e9d-195">Bu, SSRS'yi barındıran sanal makine veya sanal ana bilgisayarda bir sorun olursa önemlidir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-195">This is important if there is an issue with the virtual machine that hosts SSRS or the virtual host.</span></span> <span data-ttu-id="57e9d-196">Bu durumda, bunların değiştirilmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-196">If this the case, they would need to be replaced.</span></span> 
 
-## <a name="environment-orchestrator"></a>Ortam Orchestrator
-Orchestrator hizmeti, dağıtım ve LCS ile ilgili iletişimi yöneten hizmetidir. Bu hizmet, birincil Service Fabric hizmeti olarak dağıtılır ve en az üç VM gerektirir. Bu hizmet Service Fabric düzenleme hizmeti ile birlikte yer alır. Bu, kümenin tepe yük noktasına göre boyutlandırılmalıdır. Daha fazla bilgi için bkz [Service Fabric küme kapasite planlama konusunda dikkate alınacaklar](/azure/service-fabric/service-fabric-cluster-capacity).  
+## <a name="environment-orchestrator"></a><span data-ttu-id="57e9d-197">Ortam Orchestrator</span><span class="sxs-lookup"><span data-stu-id="57e9d-197">Environment Orchestrator</span></span>
+<span data-ttu-id="57e9d-198">Orchestrator hizmeti, dağıtım ve LCS ile ilgili iletişimi yöneten hizmetidir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-198">The Orchestrator service is the service that manages your deployment and the related communication with LCS.</span></span> <span data-ttu-id="57e9d-199">Bu hizmet, birincil Service Fabric hizmeti olarak dağıtılır ve en az üç VM gerektirir.</span><span class="sxs-lookup"><span data-stu-id="57e9d-199">This service is deployed as the primary Service Fabric service and requires at least three VMs.</span></span> <span data-ttu-id="57e9d-200">Bu hizmet Service Fabric düzenleme hizmeti ile birlikte yer alır.</span><span class="sxs-lookup"><span data-stu-id="57e9d-200">This service is co-located with the Service Fabric orchestration services.</span></span> <span data-ttu-id="57e9d-201">Bu, kümenin tepe yük noktasına göre boyutlandırılmalıdır.</span><span class="sxs-lookup"><span data-stu-id="57e9d-201">This and should be sized to the peak load of the cluster.</span></span> <span data-ttu-id="57e9d-202">Daha fazla bilgi için bkz [Service Fabric küme kapasite planlama konusunda dikkate alınacaklar](/azure/service-fabric/service-fabric-cluster-capacity).</span><span class="sxs-lookup"><span data-stu-id="57e9d-202">For more information, see [Service Fabric cluster capacity planning considerations](/azure/service-fabric/service-fabric-cluster-capacity).</span></span>  
 
 
-## <a name="virtualization-and-oversubscription"></a>Sanallaştırma ve aşırı talep
-AOS gibi pek çok kritik görev hizmetleri ayrılmış kaynaklara (çekirdekler, bellek ve disk) sahip Sanal ana bilgisayarlarda barındırılmalıdır.   
+## <a name="virtualization-and-oversubscription"></a><span data-ttu-id="57e9d-203">Sanallaştırma ve aşırı talep</span><span class="sxs-lookup"><span data-stu-id="57e9d-203">Virtualization and oversubscription</span></span>
+<span data-ttu-id="57e9d-204">AOS gibi pek çok kritik görev hizmetleri ayrılmış kaynaklara (çekirdekler, bellek ve disk) sahip Sanal ana bilgisayarlarda barındırılmalıdır.</span><span class="sxs-lookup"><span data-stu-id="57e9d-204">Mission critical services like the AOS should be hosted on Virtual hosts that have dedicated resources – cores, memory, and disk.</span></span>   
 
 

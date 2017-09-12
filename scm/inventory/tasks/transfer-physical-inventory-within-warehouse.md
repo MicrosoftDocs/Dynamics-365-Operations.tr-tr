@@ -1,4 +1,4 @@
---- 
+---
 title: "Ambar içindeki fiziksel stoğu transfer etme"
 description: "Bu yordam, bir ürünün bir yerleşimden başka bir yerleşimdeki ambara taşınması kaydı için bir stok transfer günlüğü oluşturma ve deftere nakletme işlemini adım adım açıklar."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,55 +17,54 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: fedb209ab111ed1fb6281fda2f4dea345e0905ef
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: bfba69731a4897906d08ff9fb9ce69e79121efeb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="transfer-physical-inventory-within-the-warehouse"></a>Ambar içindeki fiziksel stoğu transfer etme
+# <a name="transfer-physical-inventory-within-the-warehouse"></a><span data-ttu-id="f67d7-103">Ambar içindeki fiziksel stoğu transfer etme</span><span class="sxs-lookup"><span data-stu-id="f67d7-103">Transfer physical inventory within the warehouse</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, bir ürünün bir yerleşimden başka bir yerleşimdeki ambara taşınması kaydı için bir stok transfer günlüğü oluşturma ve deftere nakletme işlemini adım adım açıklar. Buna başlamadan önce stok transferleri için ayarlanmış bir stok günlüğü adı olması gerekir. USMF demo verisi şirketindeki bu yordam ile gösterilen örnek değerleri nasıl kullanacağınızı veya ayarlanmış ürün ve yerleşimleriniz varsa kendi verilerinizi nasıl kullanacağınızı adım adım görebilirsiniz. Bu görevler normalde ambar personeli tarafından yerine getirilir.
+<span data-ttu-id="f67d7-104">Bu yordam, bir ürünün bir yerleşimden başka bir yerleşimdeki ambara taşınması kaydı için bir stok transfer günlüğü oluşturma ve deftere nakletme işlemini adım adım açıklar.</span><span class="sxs-lookup"><span data-stu-id="f67d7-104">This procedure walks you through the process of creating and posting an inventory transfer journal in order to register movement of an item from one location in a warehouse to another.</span></span> <span data-ttu-id="f67d7-105">Buna başlamadan önce stok transferleri için ayarlanmış bir stok günlüğü adı olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="f67d7-105">You need to have an inventory journal name set up for inventory transfers before you start this.</span></span> <span data-ttu-id="f67d7-106">USMF demo verisi şirketindeki bu yordam ile gösterilen örnek değerleri nasıl kullanacağınızı veya ayarlanmış ürün ve yerleşimleriniz varsa kendi verilerinizi nasıl kullanacağınızı adım adım görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f67d7-106">You can walk through this procedure in demo data company USMF using the example values that are shown, or using you can use your own data if you have products and locations set up.</span></span> <span data-ttu-id="f67d7-107">Bu görevler normalde ambar personeli tarafından yerine getirilir.</span><span class="sxs-lookup"><span data-stu-id="f67d7-107">These tasks would normally be carried out by a warehouse employee.</span></span>
 
 
-## <a name="create-an-inventory-transfer-journal"></a>Bir stok transferi günlüğü yaratma
-1. Transfer'e gidin.
-2. Yeni'ye tıklayın.
-3. Ad alanına bir değer girin veya buradan bir değer seçin.
-4. Tamam'a tıklayın.
-    * Her bir günlük satırının 'Başlangıç' ve 'Bitiş' boyutlarını belirtmek için seçenek vardır. Bu günlük türü için bunlar önemlidir. Ürünleri yerleşimlere farklı kurallar kullanarak transfer edebilirsiniz. Bu örnekte, aynı ambar içindeki bir ürün bir plaka denetimli olan bir yerleşimden plaka denetimli olmayan bir yerleşime transfer ediliyor.   
+## <a name="create-an-inventory-transfer-journal"></a><span data-ttu-id="f67d7-108">Bir stok transferi günlüğü yaratma</span><span class="sxs-lookup"><span data-stu-id="f67d7-108">Create an inventory transfer journal</span></span>
+1. <span data-ttu-id="f67d7-109">Transfer'e gidin.</span><span class="sxs-lookup"><span data-stu-id="f67d7-109">Go to Transfer.</span></span>
+2. <span data-ttu-id="f67d7-110">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f67d7-110">Click New.</span></span>
+3. <span data-ttu-id="f67d7-111">Ad alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="f67d7-111">In the Name field, enter or select a value.</span></span>
+4. <span data-ttu-id="f67d7-112">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f67d7-112">Click OK.</span></span>
+    * <span data-ttu-id="f67d7-113">Her bir günlük satırının 'Başlangıç' ve 'Bitiş' boyutlarını belirtmek için seçenek vardır.</span><span class="sxs-lookup"><span data-stu-id="f67d7-113">There is the option to specify 'From' and 'To' dimensions for each journal line.</span></span> <span data-ttu-id="f67d7-114">Bu günlük türü için bunlar önemlidir.</span><span class="sxs-lookup"><span data-stu-id="f67d7-114">These are essential for this journal type.</span></span> <span data-ttu-id="f67d7-115">Ürünleri yerleşimlere farklı kurallar kullanarak transfer edebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f67d7-115">You can transfer items to locations using different rules.</span></span> <span data-ttu-id="f67d7-116">Bu örnekte, aynı ambar içindeki bir ürün bir plaka denetimli olan bir yerleşimden plaka denetimli olmayan bir yerleşime transfer ediliyor.</span><span class="sxs-lookup"><span data-stu-id="f67d7-116">In this example we’ll transfer an item within the same warehouse, from a license plate controlled location to a location that is not license plate controlled.</span></span>   
 
-## <a name="create-journal-lines"></a>Günlük satırları oluştur
-1. Yeni'ye tıklayın.
-2. Madde numarası alanında bir değer girin veya seçin.
-    * USMF kullanıyorsanız, 'A0001' öğesini seçebilirsiniz.  
-3. Kaynak tesis alanında bir değer girin veya bir değer seçin.
-    * USMF kullanıyorsanız, '2' öğesini seçebilirsiniz.  
-4. Hedef tesis alanında bir değer girin veya bir değer seçin.
-    * USMF kullanıyorsanız, '2' öğesini seçebilirsiniz.  
-5. Kaynak ambar alanında bir değer girin veya bir değer seçin.
-    * USMF kullanıyorsanız, '24' öğesini seçebilirsiniz.  
-6. Hedef ambar alanında bir değer girin veya bir değer seçin.
-    * USMF kullanıyorsanız, '24' öğesini seçebilirsiniz.  
-7. Çıkış yerleşimi alanında bir değer girin veya seçin.
-    * USMF kullanıyorsanız, 'FL-001' öğesini seçebilirsiniz.  
-8. Hedef yerleşim alanında bir değer girin veya seçin.
-    * USMF kullanıyorsanız, 'BULK-001' öğesini seçebilirsiniz.  
-9. Miktar alanına bir sayı girin.
-10. Stok boyutları sekmesine tıklayın.
-11. Plaka alanına bir değer girin veya bir değer seçin.
-    * USMF kullanıyorsanız, '24' öğesini seçebilirsiniz.  
-12. Kaydet'e tıklayın.
+## <a name="create-journal-lines"></a><span data-ttu-id="f67d7-117">Günlük satırları oluştur</span><span class="sxs-lookup"><span data-stu-id="f67d7-117">Create journal lines</span></span>
+1. <span data-ttu-id="f67d7-118">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f67d7-118">Click New.</span></span>
+2. <span data-ttu-id="f67d7-119">Madde numarası alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="f67d7-119">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="f67d7-120">USMF kullanıyorsanız, 'A0001' öğesini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f67d7-120">If you are using USMF, you can select 'A0001'.</span></span>  
+3. <span data-ttu-id="f67d7-121">Kaynak tesis alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="f67d7-121">In the From site field, enter or select a value.</span></span>
+    * <span data-ttu-id="f67d7-122">USMF kullanıyorsanız, '2' öğesini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f67d7-122">If you are using USMF, you can select '2'.</span></span>  
+4. <span data-ttu-id="f67d7-123">Hedef tesis alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="f67d7-123">In the To site field, enter or select a value.</span></span>
+    * <span data-ttu-id="f67d7-124">USMF kullanıyorsanız, '2' öğesini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f67d7-124">If you are using USMF, you can select '2'.</span></span>  
+5. <span data-ttu-id="f67d7-125">Kaynak ambar alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="f67d7-125">In the From warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="f67d7-126">USMF kullanıyorsanız, '24' öğesini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f67d7-126">If you are using USMF, you can select '24'.</span></span>  
+6. <span data-ttu-id="f67d7-127">Hedef ambar alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="f67d7-127">In the To warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="f67d7-128">USMF kullanıyorsanız, '24' öğesini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f67d7-128">If you are using USMF, you can select '24'.</span></span>  
+7. <span data-ttu-id="f67d7-129">Çıkış yerleşimi alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="f67d7-129">In the From location field, enter or select a value.</span></span>
+    * <span data-ttu-id="f67d7-130">USMF kullanıyorsanız, 'FL-001' öğesini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f67d7-130">If you are using USMF, you can select 'FL-001'.</span></span>  
+8. <span data-ttu-id="f67d7-131">Hedef yerleşim alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="f67d7-131">In the To location field, enter or select a value.</span></span>
+    * <span data-ttu-id="f67d7-132">USMF kullanıyorsanız, 'BULK-001' öğesini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f67d7-132">If you are using USMF, you can select 'BULK-001'.</span></span>  
+9. <span data-ttu-id="f67d7-133">Miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="f67d7-133">In the Quantity field, enter a number.</span></span>
+10. <span data-ttu-id="f67d7-134">Stok boyutları sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f67d7-134">Click the Inventory dimensions tab.</span></span>
+11. <span data-ttu-id="f67d7-135">Plaka alanına bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="f67d7-135">In the License plate field, enter or select a value.</span></span>
+    * <span data-ttu-id="f67d7-136">USMF kullanıyorsanız, '24' öğesini seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f67d7-136">If you are using USMF, you can select '24'.</span></span>  
+12. <span data-ttu-id="f67d7-137">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f67d7-137">Click Save.</span></span>
 
-## <a name="post-the-inventory-transfer-journal"></a>Stok transfer günlüğünü deftere nakletme
-1. Deftere Naklet öğesine tıklayın.
-2. Tamam'a tıklayın.
+## <a name="post-the-inventory-transfer-journal"></a><span data-ttu-id="f67d7-138">Stok transfer günlüğünü deftere nakletme</span><span class="sxs-lookup"><span data-stu-id="f67d7-138">Post the inventory transfer journal</span></span>
+1. <span data-ttu-id="f67d7-139">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f67d7-139">Click Post.</span></span>
+2. <span data-ttu-id="f67d7-140">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f67d7-140">Click OK.</span></span>
 
-## <a name="view-inventory-transactions"></a>Stok hareketlerini görüntüle
-1. Stok'u tıklatın.
-2. Hareketler'e tıklayın.
-    * Burada, günlüğünüzü deftere naklettiğinizde oluşturulan hareketleri görebilirsiniz.  
-
+## <a name="view-inventory-transactions"></a><span data-ttu-id="f67d7-141">Stok hareketlerini görüntüle</span><span class="sxs-lookup"><span data-stu-id="f67d7-141">View inventory transactions</span></span>
+1. <span data-ttu-id="f67d7-142">Stok'u tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f67d7-142">Click Inventory.</span></span>
+2. <span data-ttu-id="f67d7-143">Hareketler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f67d7-143">Click Transactions.</span></span>
+    * <span data-ttu-id="f67d7-144">Burada, günlüğünüzü deftere naklettiğinizde oluşturulan hareketleri görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f67d7-144">Here you can see the transactions that were created when you posted your journal.</span></span>  
 

@@ -16,63 +16,63 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 93bd832b4bbb91e6bd0288042098383eb5f4488d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1e4a0204d74c8966cd90b52ae13c88e222ebc3ef
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Teslimat planı olan satınalma siparişi oluşturma
+# <a name="create-a-purchase-order-with-a-delivery-schedule"></a><span data-ttu-id="621e7-103">Teslimat planı olan satınalma siparişi oluşturma</span><span class="sxs-lookup"><span data-stu-id="621e7-103">Create a purchase order with a delivery schedule</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu prosedür, satınalma siparişi için teslimat oluşturmayı göstermektedir. Teslimat planı, bir siparişteki veya günlükteki miktarın birden fazla sevkiyatlar halinde teslim edilmesi istendiği zaman kullanılır. Bu kılavuzda gösterilen örnek, demo veriler şirketi USMF'de kullanılabilir. Bu prosedür tipik olarak bir satın alma temsilcisi tarafından gerçekleştirilir.
+<span data-ttu-id="621e7-104">Bu prosedür, satınalma siparişi için teslimat oluşturmayı göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="621e7-104">This procedure demonstrates how to create a delivery schedule for a purchase order.</span></span> <span data-ttu-id="621e7-105">Teslimat planı, bir siparişteki veya günlükteki miktarın birden fazla sevkiyatlar halinde teslim edilmesi istendiği zaman kullanılır.</span><span class="sxs-lookup"><span data-stu-id="621e7-105">A delivery schedule is used when a quantity on an order or a journal is requested to be delivered in multiple shipments.</span></span> <span data-ttu-id="621e7-106">Bu kılavuzda gösterilen örnek, demo veriler şirketi USMF'de kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="621e7-106">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="621e7-107">Bu prosedür tipik olarak bir satın alma temsilcisi tarafından gerçekleştirilir.</span><span class="sxs-lookup"><span data-stu-id="621e7-107">This procedure would typically be done by a purchasing agent.</span></span>
 
 
-## <a name="create-a-delivery-schedule"></a>Teslimat planı oluşturma
-1. Tedarik ve kaynak atama > Sipariş emirleri > Tüm sipariş emirleri öğesine gidin.
-2. Yeni'ye tıklayın.
-3. Satıcı hesabı alanına, US-101 girin.
-4. Tamam'a tıklayın.
-5. Madde numarası alanına M0001 girin.
-6. Miktar alanına 10 yazın.
-7. Satınalma siparişi satırına tıklayın.
-8. Teslimat planı öğesine tıklayın.
-    * Teslimat planı sayfası, sipariş satırı toplam miktarının satıcıdan teslim edileceği sevkiyat sayısını belirtmenize olanak tanır.  
-    * Varsayılan olarak, sistem orijinal satınalma satırının toplam miktarını ve diğer teslimat ayrıntılarını ilk teslimat planı satırına kopyalar. Bu örnekte iki sevkiyat planı oluşturacağız ve ikinci sevkiyatın tarihi, ilk sevkiyattan bir hafta sonra olacak.  
-9. Miktar alanında miktarı 4 olarak değiştirin.
-10. Yeni'ye tıklayın.
-11. Miktar alanına, kalan miktar olarak 6 girin.
-    * Teslimat tarihi alanında ilk teslimat satırındaki tarihten bir hafta sonraki tarihi seçin.  
-    * Toplam ve Kalan alanlarına bakarak, teslimat planı satırlarına tahsis edilen toplam miktarı izleyebilirsiniz. Kalan miktar sıfır olduğunda, orijinal satırdan alınan tüm miktar plana tahsis edilmiştir.  
-12. Gider dönüştürme bölümünü genişletin.
-    * Burada seçenekler, teslimat planı satırları üzerinden masrafları nasıl dağıtmak istediğinizi kontrol etmenize olanak tanır. Brüt tutarları kopyala'yı seçerseniz her teslimat satırına orijinal sipariş satırındaki masraf tutarı kopyalanır. Teslimat satırlarına tahsis et seçeneği orijinal satırdaki masrafı her bir teslimat satırındaki miktara göre böler.  
-13. Gider dönüştürme bölümünü daraltın.
-14. Tamam'a tıklayın.
-    * Teslimat planı siparişe artık uygulanmıştır.  
-    * Ticari satırı olarak anılan orijinal sipariş satırı, birden fazla teslimatlı bir Siparişe dönüştürülmüştür. Farklı bir simgeyle işaretlenir ve teslimat satırları için başlık olarak işlev görür.  
-15. İki teslimat satırının ilki olan ikinci sipariş satırını seçin.
-    * Teslimat satırları olarak anılan iki yeni satır bir teslim planı oluşturur. Sipariş orijinal satıra göre değil, bu satırlara göre işlenir. Onaylar, ürün girişi günlükleri veya faturalar gibi belgeler yazdırılırken yalnızca teslimat satırları gösterilir.  
+## <a name="create-a-delivery-schedule"></a><span data-ttu-id="621e7-108">Teslimat planı oluşturma</span><span class="sxs-lookup"><span data-stu-id="621e7-108">Create a delivery schedule</span></span>
+1. <span data-ttu-id="621e7-109">Tedarik ve kaynak atama > Sipariş emirleri > Tüm sipariş emirleri öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="621e7-109">Go to Procurement and sourcing > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="621e7-110">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="621e7-110">Click New.</span></span>
+3. <span data-ttu-id="621e7-111">Satıcı hesabı alanına, US-101 girin.</span><span class="sxs-lookup"><span data-stu-id="621e7-111">In the Vendor account field, enter US-101.</span></span>
+4. <span data-ttu-id="621e7-112">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="621e7-112">Click OK.</span></span>
+5. <span data-ttu-id="621e7-113">Madde numarası alanına M0001 girin.</span><span class="sxs-lookup"><span data-stu-id="621e7-113">In the Item number field, enter M0001.</span></span>
+6. <span data-ttu-id="621e7-114">Miktar alanına 10 yazın.</span><span class="sxs-lookup"><span data-stu-id="621e7-114">In the Quantity field, enter 10.</span></span>
+7. <span data-ttu-id="621e7-115">Satınalma siparişi satırına tıklayın.</span><span class="sxs-lookup"><span data-stu-id="621e7-115">Click Purchase order line.</span></span>
+8. <span data-ttu-id="621e7-116">Teslimat planı öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="621e7-116">Click Delivery schedule.</span></span>
+    * <span data-ttu-id="621e7-117">Teslimat planı sayfası, sipariş satırı toplam miktarının satıcıdan teslim edileceği sevkiyat sayısını belirtmenize olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="621e7-117">The Delivery schedule page allows you to specify the number of shipments in which the total quantity of the order line will be delivered from the vendor.</span></span>  
+    * <span data-ttu-id="621e7-118">Varsayılan olarak, sistem orijinal satınalma satırının toplam miktarını ve diğer teslimat ayrıntılarını ilk teslimat planı satırına kopyalar.</span><span class="sxs-lookup"><span data-stu-id="621e7-118">By default, the system copies the total quantity and other delivery details of the original purchase line into the first delivery schedule line.</span></span> <span data-ttu-id="621e7-119">Bu örnekte iki sevkiyat planı oluşturacağız ve ikinci sevkiyatın tarihi, ilk sevkiyattan bir hafta sonra olacak.</span><span class="sxs-lookup"><span data-stu-id="621e7-119">In this example, we’ll create a schedule for two shipments, with the second shipment’s date offset by a week from the first shipment.</span></span>  
+9. <span data-ttu-id="621e7-120">Miktar alanında miktarı 4 olarak değiştirin.</span><span class="sxs-lookup"><span data-stu-id="621e7-120">In the Quantity field, change the quantity to 4.</span></span>
+10. <span data-ttu-id="621e7-121">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="621e7-121">Click New.</span></span>
+11. <span data-ttu-id="621e7-122">Miktar alanına, kalan miktar olarak 6 girin.</span><span class="sxs-lookup"><span data-stu-id="621e7-122">In the Quantity field, enter 6 as the remaining quantity.</span></span>
+    * <span data-ttu-id="621e7-123">Teslimat tarihi alanında ilk teslimat satırındaki tarihten bir hafta sonraki tarihi seçin.</span><span class="sxs-lookup"><span data-stu-id="621e7-123">In the delivery date field, select a date that’s one week after the date on the first delivery line.</span></span>  
+    * <span data-ttu-id="621e7-124">Toplam ve Kalan alanlarına bakarak, teslimat planı satırlarına tahsis edilen toplam miktarı izleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="621e7-124">You can keep track of the total quantity that’s allocated to the delivery schedule lines by looking at the Total and Remaining fields.</span></span> <span data-ttu-id="621e7-125">Kalan miktar sıfır olduğunda, orijinal satırdan alınan tüm miktar plana tahsis edilmiştir.</span><span class="sxs-lookup"><span data-stu-id="621e7-125">When the remaining quantity is zero, the full quantity from the original line has been allocated to the schedule.</span></span>  
+12. <span data-ttu-id="621e7-126">Gider dönüştürme bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="621e7-126">Expand the Charges conversion section.</span></span>
+    * <span data-ttu-id="621e7-127">Burada seçenekler, teslimat planı satırları üzerinden masrafları nasıl dağıtmak istediğinizi kontrol etmenize olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="621e7-127">The options here allow you to control how you want charges to be distributed across the delivery schedule lines.</span></span> <span data-ttu-id="621e7-128">Brüt tutarları kopyala'yı seçerseniz her teslimat satırına orijinal sipariş satırındaki masraf tutarı kopyalanır.</span><span class="sxs-lookup"><span data-stu-id="621e7-128">If you select Copy gross amounts, the charge amount on the original order line is copied to each delivery line.</span></span> <span data-ttu-id="621e7-129">Teslimat satırlarına tahsis et seçeneği orijinal satırdaki masrafı her bir teslimat satırındaki miktara göre böler.</span><span class="sxs-lookup"><span data-stu-id="621e7-129">The Allocate to delivery lines option divides the original line charge according to the quantity on each delivery line.</span></span>  
+13. <span data-ttu-id="621e7-130">Gider dönüştürme bölümünü daraltın.</span><span class="sxs-lookup"><span data-stu-id="621e7-130">Collapse the Charges conversion section.</span></span>
+14. <span data-ttu-id="621e7-131">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="621e7-131">Click OK.</span></span>
+    * <span data-ttu-id="621e7-132">Teslimat planı siparişe artık uygulanmıştır.</span><span class="sxs-lookup"><span data-stu-id="621e7-132">The delivery schedule has now been applied to the order.</span></span>  
+    * <span data-ttu-id="621e7-133">Ticari satırı olarak anılan orijinal sipariş satırı, birden fazla teslimatlı bir Siparişe dönüştürülmüştür.</span><span class="sxs-lookup"><span data-stu-id="621e7-133">The original order line, now referred to as a Commercial line, has been converted to an Order line with multiple deliveries.</span></span> <span data-ttu-id="621e7-134">Farklı bir simgeyle işaretlenir ve teslimat satırları için başlık olarak işlev görür.</span><span class="sxs-lookup"><span data-stu-id="621e7-134">It is marked with a distinct icon and acts as a header for the delivery lines.</span></span>  
+15. <span data-ttu-id="621e7-135">İki teslimat satırının ilki olan ikinci sipariş satırını seçin.</span><span class="sxs-lookup"><span data-stu-id="621e7-135">Select the second order line, which is the first of the two delivery lines.</span></span>
+    * <span data-ttu-id="621e7-136">Teslimat satırları olarak anılan iki yeni satır bir teslim planı oluşturur.</span><span class="sxs-lookup"><span data-stu-id="621e7-136">The two new lines, referred to as Delivery lines, make up one delivery schedule.</span></span> <span data-ttu-id="621e7-137">Sipariş orijinal satıra göre değil, bu satırlara göre işlenir.</span><span class="sxs-lookup"><span data-stu-id="621e7-137">The order will be processed against these lines and not the original line.</span></span> <span data-ttu-id="621e7-138">Onaylar, ürün girişi günlükleri veya faturalar gibi belgeler yazdırılırken yalnızca teslimat satırları gösterilir.</span><span class="sxs-lookup"><span data-stu-id="621e7-138">If documents such as confirmations, product receipt journals, or invoices are printed, only the delivery lines are shown.</span></span>  
 
-## <a name="change-the-delivery-schedule"></a>Teslimat planını değiştirin
-    * Teslimat satırlarında miktarı değiştirebilirsiniz. Bunu yaparsanız, ticari satırı otomatik olarak güncelleştirilip, teslimat satırlarındaki toplam miktara çevrilir.  
-1. İlk teslimat satırının miktar alanında miktarı 4'ten 5'e değiştirin.
-2. İlk sipariş satırını (ticari satırı) seçin.
-    * Ticari satırındaki miktar 11'e değiştirilmiştir.  
+## <a name="change-the-delivery-schedule"></a><span data-ttu-id="621e7-139">Teslimat planını değiştirin</span><span class="sxs-lookup"><span data-stu-id="621e7-139">Change the delivery schedule</span></span>
+    * <span data-ttu-id="621e7-140">Teslimat satırlarında miktarı değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="621e7-140">You can change the quantity on delivery lines.</span></span> <span data-ttu-id="621e7-141">Bunu yaparsanız, ticari satırı otomatik olarak güncelleştirilip, teslimat satırlarındaki toplam miktara çevrilir.</span><span class="sxs-lookup"><span data-stu-id="621e7-141">If you do this, the commercial line is automatically updated to the total quantity in the delivery lines.</span></span>  
+1. <span data-ttu-id="621e7-142">İlk teslimat satırının miktar alanında miktarı 4'ten 5'e değiştirin.</span><span class="sxs-lookup"><span data-stu-id="621e7-142">In the Quantity field of the first delivery line, change the quantity from 4 to 5.</span></span>
+2. <span data-ttu-id="621e7-143">İlk sipariş satırını (ticari satırı) seçin.</span><span class="sxs-lookup"><span data-stu-id="621e7-143">Select the first order line (the commercial line).</span></span>
+    * <span data-ttu-id="621e7-144">Ticari satırındaki miktar 11'e değiştirilmiştir.</span><span class="sxs-lookup"><span data-stu-id="621e7-144">The quantity on the commercial line has been changed to 11.</span></span>  
 
-## <a name="process-product-receipt-using-delivery-schedules"></a>Teslimat planlarını kullanarak ürün girişini işleyin
-    * Satınalma siparişi ürün girişi işlenmeden önce onaylanmalıdır. Bu örnekte giriş doğrudan satınalma siparişi üzerinden kaydedilir. Mallar ambara ulaştığında da giriş kaydedilmiş olur.  
-1. Eylem Bölmesinde, Satınalma öğesine tıklayın.
-2. Onayla seçeneğine tıklayın.
-3. Eylem Bölmesinde, Al öğesine tıklayın.
-4. Ürün girişi seçeneğine tıklayın.
-5. Ürün girişi alanına herhangi bir değer yazın.
-    * Bu alan, ürün giriş günlüğünde makbuz olarak kullanılacak bir referans girmek için kullanılır.  
-    * Miktar alanında, 'Sipariş edilen miktar'ı seçin. Bu seçenek, sipariş satırlarının birlikte oluşturulduğu miktar için girişin işleneceği anlamına gelir.  
-    * Ürün girişi yazdır alanının Hayır olarak ayarlandığından emin olun. Bu örnekte, yazdırma gerekli değildir.  
-6. Satırlar bölümünü genişletin.
-    * Ürün girişinin orijinal sipariş satırı değil iki teslimat satırı için oluşturulduğuna dikkat edin. Giriş ambarda kaydedilmişse teslimat planı satırlarında da kaydedilmiş olur.  
-7. Satırlar bölümünü daraltın.
-8. Girişi nakletmek için Tamam'a tıklayın.
+## <a name="process-product-receipt-using-delivery-schedules"></a><span data-ttu-id="621e7-145">Teslimat planlarını kullanarak ürün girişini işleyin</span><span class="sxs-lookup"><span data-stu-id="621e7-145">Process product receipt using delivery schedules</span></span>
+    * <span data-ttu-id="621e7-146">Satınalma siparişi ürün girişi işlenmeden önce onaylanmalıdır.</span><span class="sxs-lookup"><span data-stu-id="621e7-146">The purchase order must be confirmed before product receipt can be processed.</span></span> <span data-ttu-id="621e7-147">Bu örnekte giriş doğrudan satınalma siparişi üzerinden kaydedilir.</span><span class="sxs-lookup"><span data-stu-id="621e7-147">In this example, receipt is recorded directly on the purchase order.</span></span> <span data-ttu-id="621e7-148">Mallar ambara ulaştığında da giriş kaydedilmiş olur.</span><span class="sxs-lookup"><span data-stu-id="621e7-148">Receipt could also have been recorded when the goods arrived in the warehouse.</span></span>  
+1. <span data-ttu-id="621e7-149">Eylem Bölmesinde, Satınalma öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="621e7-149">On the Action Pane, click Purchase.</span></span>
+2. <span data-ttu-id="621e7-150">Onayla seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="621e7-150">Click Confirm.</span></span>
+3. <span data-ttu-id="621e7-151">Eylem Bölmesinde, Al öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="621e7-151">On the Action Pane, click Receive.</span></span>
+4. <span data-ttu-id="621e7-152">Ürün girişi seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="621e7-152">Click Product receipt.</span></span>
+5. <span data-ttu-id="621e7-153">Ürün girişi alanına herhangi bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="621e7-153">In the Product receipt field, type any value.</span></span>
+    * <span data-ttu-id="621e7-154">Bu alan, ürün giriş günlüğünde makbuz olarak kullanılacak bir referans girmek için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="621e7-154">This field is used to enter a reference that will be used as voucher for the product receipt journal.</span></span>  
+    * <span data-ttu-id="621e7-155">Miktar alanında, 'Sipariş edilen miktar'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="621e7-155">In the Quantity field, select ‘Ordered quantity’.</span></span> <span data-ttu-id="621e7-156">Bu seçenek, sipariş satırlarının birlikte oluşturulduğu miktar için girişin işleneceği anlamına gelir.</span><span class="sxs-lookup"><span data-stu-id="621e7-156">This option means that receipt will process for the quantity that the order lines were created with.</span></span>  
+    * <span data-ttu-id="621e7-157">Ürün girişi yazdır alanının Hayır olarak ayarlandığından emin olun.</span><span class="sxs-lookup"><span data-stu-id="621e7-157">Make sure that the Print product receipt field is set to No.</span></span> <span data-ttu-id="621e7-158">Bu örnekte, yazdırma gerekli değildir.</span><span class="sxs-lookup"><span data-stu-id="621e7-158">Printing isn’t needed in this example.</span></span>  
+6. <span data-ttu-id="621e7-159">Satırlar bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="621e7-159">Expand the Lines section.</span></span>
+    * <span data-ttu-id="621e7-160">Ürün girişinin orijinal sipariş satırı değil iki teslimat satırı için oluşturulduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="621e7-160">Notice how the product receipt is created for the two delivery lines and not the original order line.</span></span> <span data-ttu-id="621e7-161">Giriş ambarda kaydedilmişse teslimat planı satırlarında da kaydedilmiş olur.</span><span class="sxs-lookup"><span data-stu-id="621e7-161">If receipt had been recorded in the warehouse, it would also have been recorded on the delivery schedule lines.</span></span>  
+7. <span data-ttu-id="621e7-162">Satırlar bölümünü daraltın.</span><span class="sxs-lookup"><span data-stu-id="621e7-162">Collapse the Lines section.</span></span>
+8. <span data-ttu-id="621e7-163">Girişi nakletmek için Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="621e7-163">Click OK to post the receipt.</span></span>
 
 

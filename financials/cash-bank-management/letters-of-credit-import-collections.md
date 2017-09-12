@@ -19,41 +19,41 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5b27e8731dde9a834ee0ff5aa7a289bd2ecfeef1
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 4332c7bb0344bd0caabd5d1a26fb8e4bb4fc862d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="letters-of-credit-and-import-collections"></a>Kredi mektupları ve ithalat tahsilatları
+# <a name="letters-of-credit-and-import-collections"></a><span data-ttu-id="42231-104">Kredi mektupları ve ithalat tahsilatları</span><span class="sxs-lookup"><span data-stu-id="42231-104">Letters of credit and import collections</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, kredi mektupları ve ithalat tahsilatları hakkında genel bilgiler verilmektedir. Her iki banka belgesi sıklıkla uluslararası mal alım satımı için kullanılır.
+<span data-ttu-id="42231-105">Bu makalede, kredi mektupları ve ithalat tahsilatları hakkında genel bilgiler verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="42231-105">This article provides general information about letters of credit and import collections.</span></span> <span data-ttu-id="42231-106">Her iki banka belgesi sıklıkla uluslararası mal alım satımı için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="42231-106">Both types of bank document are often used for the purchase and sale of goods across international borders.</span></span>
 
-<a name="letters-of-credit"></a>Kredi mektupları
+<a name="letters-of-credit"></a><span data-ttu-id="42231-107">Kredi mektupları</span><span class="sxs-lookup"><span data-stu-id="42231-107">Letters of credit</span></span>
 -----------------
 
-Kredi ödemelerini garantilemek için, uluslararası hareketlerde kredi mektupları kullanılır. Bir kredi mektubu, bir banka tarafından verilen ve bu bankanın, alıcı ve satıcı arasındaki sözleşmenin koşullar yerine getirildiğinde, alıcı adına ödeme yapmayı garanti ettiği bir anlaşmadır. Bir kredi mektubu da bir belgeli kredi (DC) olarak adlandırılır.
+<span data-ttu-id="42231-108">Kredi ödemelerini garantilemek için, uluslararası hareketlerde kredi mektupları kullanılır.</span><span class="sxs-lookup"><span data-stu-id="42231-108">Letters of credit are used for international transactions and help guarantee that payments will be made.</span></span> <span data-ttu-id="42231-109">Bir kredi mektubu, bir banka tarafından verilen ve bu bankanın, alıcı ve satıcı arasındaki sözleşmenin koşullar yerine getirildiğinde, alıcı adına ödeme yapmayı garanti ettiği bir anlaşmadır.</span><span class="sxs-lookup"><span data-stu-id="42231-109">A letter of credit is an agreement that is issued by a bank, in which the bank agrees to guarantee payment on behalf of a buyer, provided that the terms of the agreement between the buyer and seller are met.</span></span> <span data-ttu-id="42231-110">Bir kredi mektubu da bir belgeli kredi (DC) olarak adlandırılır.</span><span class="sxs-lookup"><span data-stu-id="42231-110">A letter of credit is also referred to as a documentary credit (DC).</span></span>
 
-Bir ithalat kredi mektubu için, tüzel kişilik, alıcı veya kredi mektubuna başvuran taraftır. Bir ihracat kredi mektubu için, tüzel kişilik, satıcı veya kredi mektubunun lehdarıdır. Bir kredi mektubunun tarafları şunlardır:
+<span data-ttu-id="42231-111">Bir ithalat kredi mektubu için, tüzel kişilik, alıcı veya kredi mektubuna başvuran taraftır.</span><span class="sxs-lookup"><span data-stu-id="42231-111">For an import letter of credit, the legal entity is the buyer or the applicant for the letter of credit.</span></span> <span data-ttu-id="42231-112">Bir ihracat kredi mektubu için, tüzel kişilik, satıcı veya kredi mektubunun lehdarıdır.</span><span class="sxs-lookup"><span data-stu-id="42231-112">For an export letter of credit, the legal entity is the seller or the beneficiary of the letter of credit.</span></span> <span data-ttu-id="42231-113">Bir kredi mektubunun tarafları şunlardır:</span><span class="sxs-lookup"><span data-stu-id="42231-113">The following parties are involved in a letter of credit:</span></span>
 
--   Malların parasını ödemeyi kabul eden, başvuru sahibi (alıcı)
--   Ödemeyi alacak lehtar (satıcı)
--   Kredi mektubunu veren amir banka
--   Başvuru sahibi adına hareketi gerçekleştiren ihbar bankası
+-   <span data-ttu-id="42231-114">Malların parasını ödemeyi kabul eden, başvuru sahibi (alıcı)</span><span class="sxs-lookup"><span data-stu-id="42231-114">The applicant (buyer) who intends to pay for the goods</span></span>
+-   <span data-ttu-id="42231-115">Ödemeyi alacak lehtar (satıcı)</span><span class="sxs-lookup"><span data-stu-id="42231-115">The beneficiary (seller) who will receive the payment</span></span>
+-   <span data-ttu-id="42231-116">Kredi mektubunu veren amir banka</span><span class="sxs-lookup"><span data-stu-id="42231-116">The issuing bank that issues the letter of credit</span></span>
+-   <span data-ttu-id="42231-117">Başvuru sahibi adına hareketi gerçekleştiren ihbar bankası</span><span class="sxs-lookup"><span data-stu-id="42231-117">The advising bank that carries out the transaction on behalf of the applicant</span></span>
 
-Kredi mektubu malların açıklamasını, gerekli belgeleri, sevkiyat tarihini ve dolduğunda ödemenin yapılamayacağı geçerlilik bitiş tarihini içerir. Amir banka, kredi mektubu karşılığında bir marj tahsil eder. 
+<span data-ttu-id="42231-118">Kredi mektubu malların açıklamasını, gerekli belgeleri, sevkiyat tarihini ve dolduğunda ödemenin yapılamayacağı geçerlilik bitiş tarihini içerir.</span><span class="sxs-lookup"><span data-stu-id="42231-118">The letter of credit includes a description of the goods, any required documents, the date of shipment, and the expiration date after which payment won't be made.</span></span> <span data-ttu-id="42231-119">Amir banka, kredi mektubu karşılığında bir marj tahsil eder.</span><span class="sxs-lookup"><span data-stu-id="42231-119">The issuing bank collects a margin for the letter of credit.</span></span> 
 
-Kredi mektubu **kabili rücu** veya **gayri kabili rücu** olabilir. Kredi mektubunun niteliği **transfer edilebilir**, **transfer edilemez** veya **döner** olabilir. Genellikle, bir kredi mektubu gayri kabili rücudur ve sevkiyat belgelerinin eksiksiz ve doğru teslimi üzerine belirli bir lehdara ödeme yapılacağı anlaşmasını teyit eder.
+<span data-ttu-id="42231-120">Kredi mektubu **kabili rücu** veya **gayri kabili rücu** olabilir.</span><span class="sxs-lookup"><span data-stu-id="42231-120">A letter of credit can be **revocable** or **irrevocable**.</span></span> <span data-ttu-id="42231-121">Kredi mektubunun niteliği **transfer edilebilir**, **transfer edilemez** veya **döner** olabilir.</span><span class="sxs-lookup"><span data-stu-id="42231-121">The nature of a letter of credit can be **transferable**, **non-transferable**, or **revolving**.</span></span> <span data-ttu-id="42231-122">Genellikle, bir kredi mektubu gayri kabili rücudur ve sevkiyat belgelerinin eksiksiz ve doğru teslimi üzerine belirli bir lehdara ödeme yapılacağı anlaşmasını teyit eder.</span><span class="sxs-lookup"><span data-stu-id="42231-122">Typically, a letter of credit is an irrevocable and confirmed agreement that payment will be made to a specific beneficiary upon submission of complete and accurate shipping documentation.</span></span>
 
-## <a name="import-collections"></a>İthalat tahsilatları
-Bir ithalat tahsilatı, banka ve ihracatçı (satıcı) arasında bir anlaşmadır ve banka bu anlaşmayla sevkiyat belgelerini uluslararası ithalatçıya (alıcı) teslim etmeyi garanti eder. Bankadan, sevk edilen malların ödemesini nakit olarak aldığında veya ödeme için imzalanan bir taslağı aldığında sevkiyat belgelerini teslim etmesi beklenir. 
+## <a name="import-collections"></a><span data-ttu-id="42231-123">İthalat tahsilatları</span><span class="sxs-lookup"><span data-stu-id="42231-123">Import collections</span></span>
+<span data-ttu-id="42231-124">Bir ithalat tahsilatı, banka ve ihracatçı (satıcı) arasında bir anlaşmadır ve banka bu anlaşmayla sevkiyat belgelerini uluslararası ithalatçıya (alıcı) teslim etmeyi garanti eder.</span><span class="sxs-lookup"><span data-stu-id="42231-124">An import collection is an agreement between the bank and the exporter (seller), in which the bank agrees to deliver the shipping documentation to the international importer (buyer).</span></span> <span data-ttu-id="42231-125">Bankadan, sevk edilen malların ödemesini nakit olarak aldığında veya ödeme için imzalanan bir taslağı aldığında sevkiyat belgelerini teslim etmesi beklenir.</span><span class="sxs-lookup"><span data-stu-id="42231-125">The bank is expected to deliver the shipping documentation upon receipt of payment for the shipped goods in cash, or upon receipt of a signed draft toward the payment.</span></span> 
 
-Bir ithalat tahsilatı, alıcı, ithal edilen malları teslim almak üzere sevkiyat belgelerini aldığında satıcıya ödeme yapılmasının garanti edilmesine yardımcı olur.
+<span data-ttu-id="42231-126">Bir ithalat tahsilatı, alıcı, ithal edilen malları teslim almak üzere sevkiyat belgelerini aldığında satıcıya ödeme yapılmasının garanti edilmesine yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="42231-126">An import collection helps guarantee that the seller is paid when the buyer collects the shipping documents to take delivery of the imported goods.</span></span>
 
 
 

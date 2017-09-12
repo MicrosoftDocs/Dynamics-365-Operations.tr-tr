@@ -16,89 +16,89 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 34a6485c6f4c11d794fbdb5f4d33f22c0e577221
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ba28cf1fa6a8e9a4497d3bac1a2161098ec53db1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-compensation-process-and-calculate-results"></a>Ücret işlemini tanımlama ve sonuçları hesaplama
+# <a name="define-compensation-process-and-calculate-results"></a><span data-ttu-id="f05fd-103">Ücret işlemini tanımlama ve sonuçları hesaplama</span><span class="sxs-lookup"><span data-stu-id="f05fd-103">Define compensation process and calculate results</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Ücret işlemleri, sabit ve değişken ücret planlarında kayıtlı çalışanlar için yeni ücret tutarlarını ve ödülleri belirlemek için kullanılır. Tüm değişikliklerin ve ayarların doğruluğunu onaylamak amacıyla "ne yapmalı" analizlerini gerçekleştirmek için birden çok defa çalıştırılabilir. Bu yordam bir ücret işlemi oluşturur, işlemi çalıştırır ve sonuçları görüntüler. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
+<span data-ttu-id="f05fd-104">Ücret işlemleri, sabit ve değişken ücret planlarında kayıtlı çalışanlar için yeni ücret tutarlarını ve ödülleri belirlemek için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="f05fd-104">Compensation processes are used to determine new compensation amounts and awards for employees enrolled in fixed and variable compensation plans.</span></span> <span data-ttu-id="f05fd-105">Tüm değişikliklerin ve ayarların doğruluğunu onaylamak amacıyla "ne yapmalı" analizlerini gerçekleştirmek için birden çok defa çalıştırılabilir.</span><span class="sxs-lookup"><span data-stu-id="f05fd-105">Compensation processes can be run multiple times to perform "what-if" analysis, to verify all changes and settings are correct.</span></span> <span data-ttu-id="f05fd-106">Bu yordam bir ücret işlemi oluşturur, işlemi çalıştırır ve sonuçları görüntüler.</span><span class="sxs-lookup"><span data-stu-id="f05fd-106">This procedure will create a compensation process, run the process, and view the results.</span></span> <span data-ttu-id="f05fd-107">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="f05fd-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-compensation-process"></a>Ücret işlemi oluşturma
-1. İnsan kaynakları > Ücret > İşlem > Ücret işlemleri'ne gidin.
-2. Yeni'ye tıklayın.
-3. İşlem alanında bir değer girin.
-4. Açıklama alanına bir değer girin.
-5. İşlem türü alanında bir seçenek belirleyin.
-    * Bir döngü, ücreti belirlemek için değerlendirilecek dönemi belirtir. Değerlendirme, hangi pozisyonların çalışanlar tarafından kullanıldığını, hangi performans derecelendirmesinin dahil edileceğini, döngü boyunca çalışanların çalışma süresi yüzdesi hesaplamasını ve daha fazlasını göz önüne alır. Dngü başlangıç tarihinin bir örneği önceki mali yılın ilk günü olabilir.  
-6. Döngü başlangıç tarihi alanında bir tarih girin.
-    * Döngü bitiş tarihi, hangi çalışanların aktif çalıştığını ve bir veya daha fazla ücret planına kaydolduğunu belirlemek için kullanılan tarih olduğundan önemlidir.  
-7. Döngü bitiş tarihi alanında bir tarih girin.
-    * Hareket etkin tarihi, yeni ücret oranlarının etkili olması gereken tarihtir. Birçok şirket kendi döngüsünün sonu ile yeni ücret oranlarının yürürlüğe gireceği süre arasında birkaç ay bırakır. Ek zaman, yeni maaşı işleme koyma ve gözden geçirme için kullanılır.  
-8. Hareket etkin tarihi alanında bir tarih girin.
-    * Zaman noktası, çalışanın ilgili zaman noktasındaki ücret oranlarına dayalı ödül miktarını belirleyen değişken ücret planları için kullanılır.  
-    * Sabit ödemeli eşit dağıtılmış işe alma tarihi, işe alma kuralı yüzdesi olan sabit ücret planlarıyla birlikte kullanılır.  Döngü başlangıç tarihi ile sabit ödemeli eşit dağıtılmış işe alma tarihi arasındaki dönemde işe alınan çalışanlar eşit dağıtılmış yüzde yerine hesaplanan ücret artışlarının %100'ünü alırlar.  
-9. Sabit ödemeli eşit dağıtılmış işe alma tarihi alanında bir tarih girin.
-    * Gözden geçirme son tarihi, o zamana kadar tüm işlem sonuçlarının gözden geçirileceği tarihtir; böylece sonuçlar hareket etkin tarihinden önce bir çalışanın ücret kaydına yüklenebilir. Bu alan yalnızca bilgi amaçlıdır.  
-10. İnceleme son tarihi alanında bir tarih girin.
-11. Kaydet'e tıklayın.
+## <a name="create-a-compensation-process"></a><span data-ttu-id="f05fd-108">Ücret işlemi oluşturma</span><span class="sxs-lookup"><span data-stu-id="f05fd-108">Create a compensation process</span></span>
+1. <span data-ttu-id="f05fd-109">İnsan kaynakları > Ücret > İşlem > Ücret işlemleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-109">Go to Human resources > Compensation > Process > Compensation processes.</span></span>
+2. <span data-ttu-id="f05fd-110">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f05fd-110">Click New.</span></span>
+3. <span data-ttu-id="f05fd-111">İşlem alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-111">In the Process field, type a value.</span></span>
+4. <span data-ttu-id="f05fd-112">Açıklama alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-112">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="f05fd-113">İşlem türü alanında bir seçenek belirleyin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-113">In the Process type field, select an option.</span></span>
+    * <span data-ttu-id="f05fd-114">Bir döngü, ücreti belirlemek için değerlendirilecek dönemi belirtir.</span><span class="sxs-lookup"><span data-stu-id="f05fd-114">A cycle specifies the time period evaluated to determine compensation.</span></span> <span data-ttu-id="f05fd-115">Değerlendirme, hangi pozisyonların çalışanlar tarafından kullanıldığını, hangi performans derecelendirmesinin dahil edileceğini, döngü boyunca çalışanların çalışma süresi yüzdesi hesaplamasını ve daha fazlasını göz önüne alır.</span><span class="sxs-lookup"><span data-stu-id="f05fd-115">The evaluation considers which positions were held by employees, which performance ratings to include, calculation of the percentage of time the employee was employed during the cycle, and more.</span></span> <span data-ttu-id="f05fd-116">Dngü başlangıç tarihinin bir örneği önceki mali yılın ilk günü olabilir.</span><span class="sxs-lookup"><span data-stu-id="f05fd-116">An example of a cycle start date might be the first day of the past fiscal year.</span></span>  
+6. <span data-ttu-id="f05fd-117">Döngü başlangıç tarihi alanında bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-117">In the Cycle start field, enter a date.</span></span>
+    * <span data-ttu-id="f05fd-118">Döngü bitiş tarihi, hangi çalışanların aktif çalıştığını ve bir veya daha fazla ücret planına kaydolduğunu belirlemek için kullanılan tarih olduğundan önemlidir.</span><span class="sxs-lookup"><span data-stu-id="f05fd-118">The cycle end date is  important because it is the date used to determine which employees were actively employed and enrolled in one or more compensation plans.</span></span>  
+7. <span data-ttu-id="f05fd-119">Döngü bitiş tarihi alanında bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-119">In the Cycle end field, enter a date.</span></span>
+    * <span data-ttu-id="f05fd-120">Hareket etkin tarihi, yeni ücret oranlarının etkili olması gereken tarihtir.</span><span class="sxs-lookup"><span data-stu-id="f05fd-120">The transaction active date is the date the new compensation rates should take effect.</span></span> <span data-ttu-id="f05fd-121">Birçok şirket kendi döngüsünün sonu ile yeni ücret oranlarının yürürlüğe gireceği süre arasında birkaç ay bırakır.</span><span class="sxs-lookup"><span data-stu-id="f05fd-121">Many companies include a few months between their end of a cycle and the time the new compensation rates go into effect.</span></span> <span data-ttu-id="f05fd-122">Ek zaman, yeni maaşı işleme koyma ve gözden geçirme için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="f05fd-122">The additional time is used for processing and reviewing the new compensation.</span></span>  
+8. <span data-ttu-id="f05fd-123">Hareket etkin tarihi alanında bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-123">In the Transaction active date field, enter a date.</span></span>
+    * <span data-ttu-id="f05fd-124">Zaman noktası, çalışanın ilgili zaman noktasındaki ücret oranlarına dayalı ödül miktarını belirleyen değişken ücret planları için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="f05fd-124">The point-in-time date is used for variable compensation plans that determine an employee's award amount based on their compensation rate at this point in time.</span></span>  
+    * <span data-ttu-id="f05fd-125">Sabit ödemeli eşit dağıtılmış işe alma tarihi, işe alma kuralı yüzdesi olan sabit ücret planlarıyla birlikte kullanılır.</span><span class="sxs-lookup"><span data-stu-id="f05fd-125">The fixed pay pro rated hire date is used with fixed compensation plans with a hire rule of Percent.</span></span>  <span data-ttu-id="f05fd-126">Döngü başlangıç tarihi ile sabit ödemeli eşit dağıtılmış işe alma tarihi arasındaki dönemde işe alınan çalışanlar eşit dağıtılmış yüzde yerine hesaplanan ücret artışlarının %100'ünü alırlar.</span><span class="sxs-lookup"><span data-stu-id="f05fd-126">Employees who are hired between the cycle start and the fixed pay pro rated hire date will receive 100% of their calculated compensation increase, instead of pro-rated percentage.</span></span>  
+9. <span data-ttu-id="f05fd-127">Sabit ödemeli eşit dağıtılmış işe alma tarihi alanında bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-127">In the Fixed pay pro rated hire date field, enter a date.</span></span>
+    * <span data-ttu-id="f05fd-128">Gözden geçirme son tarihi, o zamana kadar tüm işlem sonuçlarının gözden geçirileceği tarihtir; böylece sonuçlar hareket etkin tarihinden önce bir çalışanın ücret kaydına yüklenebilir.</span><span class="sxs-lookup"><span data-stu-id="f05fd-128">The review deadline is the date by which all process results should be reviewed so that they can be loaded into an employee's compensation record before the transaction active date.</span></span> <span data-ttu-id="f05fd-129">Bu alan yalnızca bilgi amaçlıdır.</span><span class="sxs-lookup"><span data-stu-id="f05fd-129">This field is informational only.</span></span>  
+10. <span data-ttu-id="f05fd-130">İnceleme son tarihi alanında bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-130">In the Review deadline field, enter a date.</span></span>
+11. <span data-ttu-id="f05fd-131">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f05fd-131">Click Save.</span></span>
 
-## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a>Bir ücret işlemi için ücret planları ve eylemleri ayarlama
-1. Kurulum’u tıklatın.
-    * Ayarlar sayfası bu ücret işleminin parçası olarak işlenecek planların hangileri olacağının seçmenin yanı sıra her bir plan için gerçekleştirilecek işlemleri belirlemek için de kullanılır.  
-2. Plan alanında bir değer girin veya bir değer seçin.
-3. Kaydet'e tıklayın.
-4. Ekle öğesini tıklatın.
-5. İşlem alanında işlemin öz varlık türünü belirleyin.
-6. Ekle öğesini tıklatın.
-7. İşlem alanında işlemin liyakat türünü belirleyin.
-    * Ücret işlemleri, seçilen işlem için bu işlemin hesaplamasında çalışanın taban ödemesinin mi yoksa önceki işlemin sonucunun mu başlangıç noktası olarak kullanılacağını belirlemek üzere Önceki sonucu kullan alanı kullanılarak birlikte "kayıt altına alınabilir".  
-8. Önceki sonucu kullan alanında Evet'i seçin.
-9. Ekle öğesini tıklatın.
-10. İşlem alanında İşlemin Genel türünü belirleyin.
-    * Farklı ücret işlemi türleri farklı alanları etkinleştirir. Genel ücret işlemi türü için bir artış yüzdesi veya artış miktarı belirtilebilir.  
-11. Artış tutarını seç seçeneğini belirleyin.
-12. Artış miktarı alanında bir sayı girin.
-13. Ekle öğesini tıklatın.
-14. İşlem alanında İşlemin Promosyon türünü belirleyin.
-    * Terfi ve Diğer düzey değişikliği işlem türleri, kullanıcılara çalışan ücreti düzenlemelerini el ile yapma olanağı sağlar. Öneriler bu eylem türlerinin yanı sıra bir çalışan için yeni önerilen ücret değeri girilmesini sağlayacak diğer eylem türleri de etkinleştirilebilir.  
-15. Ekle öğesini tıklatın.
-16. Tür alanında, bir seçenek seçin.
-    * Sabit ve değişken ücret planları aynı ücret işleminde çalıştırılabilir.  
-17. Plan alanında bir değer girin veya bir değer seçin.
-    * Sabit ve değişken ücret miktarlarının çalışanın performans derecesine göre mi düzenlenmesi gerektiğini belirlemek üzere Performans için ödemeyi etkinleştir onay kutusunu kullanın.  
-    * Dengeleme, değişken ücret planlarında geçersiz kılınabilir.  
-18. Kaydet'e tıklayın.
-19. Ekle öğesini tıklatın.
-20. Sayfayı kapatın.
+## <a name="setup-the-compensation-plans-and-actions-for-a-compensation-process"></a><span data-ttu-id="f05fd-132">Bir ücret işlemi için ücret planları ve eylemleri ayarlama</span><span class="sxs-lookup"><span data-stu-id="f05fd-132">Setup the compensation plans and actions for a compensation process</span></span>
+1. <span data-ttu-id="f05fd-133">Kurulum’u tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f05fd-133">Click Setup.</span></span>
+    * <span data-ttu-id="f05fd-134">Ayarlar sayfası bu ücret işleminin parçası olarak işlenecek planların hangileri olacağının seçmenin yanı sıra her bir plan için gerçekleştirilecek işlemleri belirlemek için de kullanılır.</span><span class="sxs-lookup"><span data-stu-id="f05fd-134">The Setup page is used to select which plans to process as part of this compensation process, as well as which actions should be taken against each plan.</span></span>  
+2. <span data-ttu-id="f05fd-135">Plan alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-135">In the Plan field, enter or select a value.</span></span>
+3. <span data-ttu-id="f05fd-136">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f05fd-136">Click Save.</span></span>
+4. <span data-ttu-id="f05fd-137">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f05fd-137">Click Add.</span></span>
+5. <span data-ttu-id="f05fd-138">İşlem alanında işlemin öz varlık türünü belirleyin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-138">In the Action field, select an Equity type of action.</span></span>
+6. <span data-ttu-id="f05fd-139">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f05fd-139">Click Add.</span></span>
+7. <span data-ttu-id="f05fd-140">İşlem alanında işlemin liyakat türünü belirleyin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-140">In the Action field, select a Merit type of action.</span></span>
+    * <span data-ttu-id="f05fd-141">Ücret işlemleri, seçilen işlem için bu işlemin hesaplamasında çalışanın taban ödemesinin mi yoksa önceki işlemin sonucunun mu başlangıç noktası olarak kullanılacağını belirlemek üzere Önceki sonucu kullan alanı kullanılarak birlikte "kayıt altına alınabilir".</span><span class="sxs-lookup"><span data-stu-id="f05fd-141">Compensation actions can be "chained" together using the Use previous result field to indicate whether the selected action should use the employees base pay or the result of the previous action as the starting point for this action's calculation.</span></span>  
+8. <span data-ttu-id="f05fd-142">Önceki sonucu kullan alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-142">Select Yes in the Use previous result field.</span></span>
+9. <span data-ttu-id="f05fd-143">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f05fd-143">Click Add.</span></span>
+10. <span data-ttu-id="f05fd-144">İşlem alanında İşlemin Genel türünü belirleyin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-144">In the Action field, select a General type of Action.</span></span>
+    * <span data-ttu-id="f05fd-145">Farklı ücret işlemi türleri farklı alanları etkinleştirir.</span><span class="sxs-lookup"><span data-stu-id="f05fd-145">Different compensation action types enable different fields.</span></span> <span data-ttu-id="f05fd-146">Genel ücret işlemi türü için bir artış yüzdesi veya artış miktarı belirtilebilir.</span><span class="sxs-lookup"><span data-stu-id="f05fd-146">For a General compensation action type, an increase percent or increase amount can be specified.</span></span>  
+11. <span data-ttu-id="f05fd-147">Artış tutarını seç seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-147">Select the Select increase amount option.</span></span>
+12. <span data-ttu-id="f05fd-148">Artış miktarı alanında bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-148">In the Increase amount field, enter a number.</span></span>
+13. <span data-ttu-id="f05fd-149">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f05fd-149">Click Add.</span></span>
+14. <span data-ttu-id="f05fd-150">İşlem alanında İşlemin Promosyon türünü belirleyin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-150">In the Action field, select a Promotion type of Action.</span></span>
+    * <span data-ttu-id="f05fd-151">Terfi ve Diğer düzey değişikliği işlem türleri, kullanıcılara çalışan ücreti düzenlemelerini el ile yapma olanağı sağlar.</span><span class="sxs-lookup"><span data-stu-id="f05fd-151">Promotion and Other level change action types enable users to make manual adjustments to employee compensation.</span></span> <span data-ttu-id="f05fd-152">Öneriler bu eylem türlerinin yanı sıra bir çalışan için yeni önerilen ücret değeri girilmesini sağlayacak diğer eylem türleri de etkinleştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="f05fd-152">Recommendations can be enabled for these action types, as well as other action types to enable you to enter a new recommended compensation value for an employee.</span></span>  
+15. <span data-ttu-id="f05fd-153">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f05fd-153">Click Add.</span></span>
+16. <span data-ttu-id="f05fd-154">Tür alanında, bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-154">In the Type field, select an option.</span></span>
+    * <span data-ttu-id="f05fd-155">Sabit ve değişken ücret planları aynı ücret işleminde çalıştırılabilir.</span><span class="sxs-lookup"><span data-stu-id="f05fd-155">Fixed and variable compensation plans can be run in the same compensation process.</span></span>  
+17. <span data-ttu-id="f05fd-156">Plan alanında bir değer girin veya bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-156">In the Plan field, enter or select a value.</span></span>
+    * <span data-ttu-id="f05fd-157">Sabit ve değişken ücret miktarlarının çalışanın performans derecesine göre mi düzenlenmesi gerektiğini belirlemek üzere Performans için ödemeyi etkinleştir onay kutusunu kullanın.</span><span class="sxs-lookup"><span data-stu-id="f05fd-157">Use the Enable pay for performance check box to determined whether fixed and variable compensation amounts should be adjusted based on the employee's performance rating.</span></span>  
+    * <span data-ttu-id="f05fd-158">Dengeleme, değişken ücret planlarında geçersiz kılınabilir.</span><span class="sxs-lookup"><span data-stu-id="f05fd-158">Leverage can be overridden on variable compensation plans.</span></span>  
+18. <span data-ttu-id="f05fd-159">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f05fd-159">Click Save.</span></span>
+19. <span data-ttu-id="f05fd-160">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f05fd-160">Click Add.</span></span>
+20. <span data-ttu-id="f05fd-161">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="f05fd-161">Close the page.</span></span>
 
-## <a name="run-the-compensation-process"></a>Ücret işlemini çalıştırma
-1. İşlemi çalıştır'ı tıklatın.
-    * İşlem sonuçlarını göster denetimi, işleme sonlandığında tam ücret işleminin işlem iletilerini görüntülemenizi sağlar.  
-2. İşlem sonuçlarını göster alanında Evet'i seçin.
-3. Tamam'a tıklayın.
+## <a name="run-the-compensation-process"></a><span data-ttu-id="f05fd-162">Ücret işlemini çalıştırma</span><span class="sxs-lookup"><span data-stu-id="f05fd-162">Run the compensation process</span></span>
+1. <span data-ttu-id="f05fd-163">İşlemi çalıştır'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f05fd-163">Click Run process.</span></span>
+    * <span data-ttu-id="f05fd-164">İşlem sonuçlarını göster denetimi, işleme sonlandığında tam ücret işleminin işlem iletilerini görüntülemenizi sağlar.</span><span class="sxs-lookup"><span data-stu-id="f05fd-164">The Show processing results control lets you view processing messages for the complete compensation process when processing has finished.</span></span>  
+2. <span data-ttu-id="f05fd-165">İşlem sonuçlarını göster alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-165">Select Yes in the Show processing results field.</span></span>
+3. <span data-ttu-id="f05fd-166">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f05fd-166">Click OK.</span></span>
 
-## <a name="view-the-results"></a>Sonuçları görüntüleme
-1. İşlem sonuçları'nı tıklatın.
-2. Çalışan sonuçları'nı tıklatın.
-3. Listede, istenen kaydı bulun ve seçin.
-4. Sabit ücret bölümünü genişletin.
-    * İşleminin sonuçlarını görüntülemek için FastTabs'i genişletin. Bir ücret işlemi için Önerileri etkinleştir işaretlenmişse, bu işlem için Öneri alanları etkinleştirilir.  
-5. Listede, istenen kaydı bulun ve seçin.
-    * Tek bir çalışana ilişkin sonuçlar Sonuçları görüntüle düğmesi tıklatılarak görüntülenebilir.  
-    * Öneri alanlarında yüzdeyi veya artış tutarını ayarlayarak hesaplanan ücret tutarının üzerine yazabilirsiniz.  
-6. Yüzde önerisi alanında bir sayı girin.
-7. Listede, istenen kaydı bulun ve seçin.
-8. Yüzde önerisi alanında bir sayı girin.
-    * Yeniden hesapla öğesi, mevcut kayda yapılan değişiklikleri yoksaymak ve seçili çalışan için yeni bir ücret sonucu oluşturmak için kullanılabilir.  
-    * Bir çalışan için tüm değişiklikler tamamlandığında, durumu Onaylandı olarak değiştirin.  
-9. Durumu değiştir öğesine tıklayın.
-10. Onaylandı’yı tıklatın.
-    * Kayıt onaylandıktan sonra çalışanın resmi ücret kaydına yüklenebilir. Yeni ücret, ücret işleminde ayarlanan hareket tarihi itibariyle geçerli olur.  
+## <a name="view-the-results"></a><span data-ttu-id="f05fd-167">Sonuçları görüntüleme</span><span class="sxs-lookup"><span data-stu-id="f05fd-167">View the results</span></span>
+1. <span data-ttu-id="f05fd-168">İşlem sonuçları'nı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f05fd-168">Click Process results.</span></span>
+2. <span data-ttu-id="f05fd-169">Çalışan sonuçları'nı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f05fd-169">Click Employee results.</span></span>
+3. <span data-ttu-id="f05fd-170">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-170">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="f05fd-171">Sabit ücret bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-171">Expand the Fixed compensation section.</span></span>
+    * <span data-ttu-id="f05fd-172">İşleminin sonuçlarını görüntülemek için FastTabs'i genişletin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-172">Expand the FastTabs to view the results of the process.</span></span> <span data-ttu-id="f05fd-173">Bir ücret işlemi için Önerileri etkinleştir işaretlenmişse, bu işlem için Öneri alanları etkinleştirilir.</span><span class="sxs-lookup"><span data-stu-id="f05fd-173">If Enable recommendations was marked for a compensation action, the Recommendation fields will be enabled for that action.</span></span>  
+5. <span data-ttu-id="f05fd-174">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-174">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="f05fd-175">Tek bir çalışana ilişkin sonuçlar Sonuçları görüntüle düğmesi tıklatılarak görüntülenebilir.</span><span class="sxs-lookup"><span data-stu-id="f05fd-175">The results for a single employee can be viewed by clicking the View results button.</span></span>  
+    * <span data-ttu-id="f05fd-176">Öneri alanlarında yüzdeyi veya artış tutarını ayarlayarak hesaplanan ücret tutarının üzerine yazabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f05fd-176">You can overwrite the calculated compensation amount by adjusting the percent or the increase amount in the Recommendation fields.</span></span>  
+6. <span data-ttu-id="f05fd-177">Yüzde önerisi alanında bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-177">In the percent recommended field, enter a number.</span></span>
+7. <span data-ttu-id="f05fd-178">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-178">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="f05fd-179">Yüzde önerisi alanında bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-179">In the percent recommended field, enter a number.</span></span>
+    * <span data-ttu-id="f05fd-180">Yeniden hesapla öğesi, mevcut kayda yapılan değişiklikleri yoksaymak ve seçili çalışan için yeni bir ücret sonucu oluşturmak için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="f05fd-180">Recalculate can be used to ignore any changes made to the existing record and generate a new compensation result for the selected employee.</span></span>  
+    * <span data-ttu-id="f05fd-181">Bir çalışan için tüm değişiklikler tamamlandığında, durumu Onaylandı olarak değiştirin.</span><span class="sxs-lookup"><span data-stu-id="f05fd-181">When all changes are complete for an employee, change the status to Approved.</span></span>  
+9. <span data-ttu-id="f05fd-182">Durumu değiştir öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f05fd-182">Click Change status.</span></span>
+10. <span data-ttu-id="f05fd-183">Onaylandı’yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="f05fd-183">Click Approved.</span></span>
+    * <span data-ttu-id="f05fd-184">Kayıt onaylandıktan sonra çalışanın resmi ücret kaydına yüklenebilir.</span><span class="sxs-lookup"><span data-stu-id="f05fd-184">After the record has been approved it can be loaded to the employee's official compensation record.</span></span> <span data-ttu-id="f05fd-185">Yeni ücret, ücret işleminde ayarlanan hareket tarihi itibariyle geçerli olur.</span><span class="sxs-lookup"><span data-stu-id="f05fd-185">The new compensation will be effective as of the transaction date set on the compensation process.</span></span>  
 
 

@@ -17,58 +17,58 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: ff397d850cb40112bf1c862e230b577e6f8a4a99
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1c5a9bdd0e9eb77308030fb7bea2fa6e438019f1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-channel-attributes"></a> Kanal özniteliklerini tanımlama
+# <a name="define-channel-attributes"></a><span data-ttu-id="09aa0-103"> Kanal özniteliklerini tanımlama</span><span class="sxs-lookup"><span data-stu-id="09aa0-103">Define channel attributes</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Kanalı, ürün ve kanal öznitelikleri ekleyerek zenginleştirin. Öznitelikleri tanımlamadan önce kanalı varsayılan organizasyon hiyerarşisine eklemeniz gerekir.
+<span data-ttu-id="09aa0-104">Kanalı, ürün ve kanal öznitelikleri ekleyerek zenginleştirin.</span><span class="sxs-lookup"><span data-stu-id="09aa0-104">Enrich the channel by adding channel and product attributes.</span></span> <span data-ttu-id="09aa0-105">Öznitelikleri tanımlamadan önce kanalı varsayılan organizasyon hiyerarşisine eklemeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="09aa0-105">You must add the channel to the organization default hierarchy before you can define the attributes.</span></span>
 
 
-## <a name="define-channel-product-attribute"></a>Kanal ürün özniteliğini tanımlayın.
-1. Perakende ve ticaret > Kanal Kurulumu > Kanal kategorileri ve ürün nitelikleri seçeneğine gidin.
-2. Ağaçta 'Contoso Retail\Fashion\Houston' seçin.
-3. Düzenle öğesine tıklayın.
-4. Kategori hiyerarşisi alanına bir değer girin veya buradan bir değer seçin.
-    * Gezinti hiyerarşisi, kanallarınız içindeki ürüne gitmek için kullanılır.  
-5. Öznitelik grubu bölümünü genişletin.
-6. Ekle öğesini tıklatın.
-    * Öznitelik grubu, ürün ayrıntılarında gösterilir ve ürün filtresi kullanılırken de yardımcı olur.  
-7. Ad alanına bir değer girin veya buradan bir değer seçin.
-8. Öznitelikleri görüntüle'ye tıklayın.
-9. Öznitelikler bölümünü genişletin.
-10. Ekle öğesini tıklatın.
-11. Listede, seçili satırı işaretleyin.
-12. AddBtn'ı tıklatın.
-13. Tamam'a tıklayın.
-14. Kaydet'e tıklayın.
-15. Sayfayı kapatın.
-16. Ürünler bölümünü genişletin.
-17. Ekle öğesini tıklatın.
-18. Listede, seçili satırı işaretleyin.
-19. Ekle öğesini tıklatın.
-    * Benzer şekilde, birden fazla ürün ekleyebilirsiniz.  
-20. Tamam'a tıklayın.
-21. Öznitelikleri tıklayın.
-22. Kanal ortam bölümünü genişletin.
-23. Düzenle öğesine tıklayın.
-24. Kanal alanında, bir seçenek seçin.
-25. Varsayılan onay kutusunu seçin.
-26. Tamam'ı tıklatın.
-27. Kanal ürün nitelikleri bölümünü genişletin.
-28. Marka alanına bir değer yazın.
-    * Benzer şekilde, diğer öznitelikleri ayarlayabilirsiniz.  
-29. Kaydet'e tıklayın.
-30. Sayfayı kapatın.
-31. Kaydet'e tıklayın.
-32. Kanal güncelleştirmelerini yayınla'ya tıklayın.
-    * Yayımlama sonrasında, veri, kanalı tabloları ile eşitleme için hazır olacak. Yayımlamadıysanız, değiştirilen veri, veri kanalı tablolarla eşitlenmez.  
-33. Tamam'a tıklayın.
-34. Kaydet'e tıklayın.
+## <a name="define-channel-product-attribute"></a><span data-ttu-id="09aa0-106">Kanal ürün özniteliğini tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-106">Define channel product attribute.</span></span>
+1. <span data-ttu-id="09aa0-107">Perakende ve ticaret > Kanal Kurulumu > Kanal kategorileri ve ürün nitelikleri seçeneğine gidin.</span><span class="sxs-lookup"><span data-stu-id="09aa0-107">Go to Retail and commerce > Channel setup > Channel categories and product attributes.</span></span>
+2. <span data-ttu-id="09aa0-108">Ağaçta 'Contoso Retail\Fashion\Houston' seçin.</span><span class="sxs-lookup"><span data-stu-id="09aa0-108">In the tree, select 'Contoso Retail\Fashion\Houston'.</span></span>
+3. <span data-ttu-id="09aa0-109">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-109">Click Edit.</span></span>
+4. <span data-ttu-id="09aa0-110">Kategori hiyerarşisi alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="09aa0-110">In the Category hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="09aa0-111">Gezinti hiyerarşisi, kanallarınız içindeki ürüne gitmek için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="09aa0-111">The navigation hierarchy will be used for navigating the product inside your channels.</span></span>  
+5. <span data-ttu-id="09aa0-112">Öznitelik grubu bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="09aa0-112">Expand the Attribute group section.</span></span>
+6. <span data-ttu-id="09aa0-113">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-113">Click Add.</span></span>
+    * <span data-ttu-id="09aa0-114">Öznitelik grubu, ürün ayrıntılarında gösterilir ve ürün filtresi kullanılırken de yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="09aa0-114">The attribute group will be shown in the product details and also will help when using the product filter.</span></span>  
+7. <span data-ttu-id="09aa0-115">Ad alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="09aa0-115">In the Name field, enter or select a value.</span></span>
+8. <span data-ttu-id="09aa0-116">Öznitelikleri görüntüle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-116">Click View attributes.</span></span>
+9. <span data-ttu-id="09aa0-117">Öznitelikler bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="09aa0-117">Expand the Attributes section.</span></span>
+10. <span data-ttu-id="09aa0-118">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-118">Click Add.</span></span>
+11. <span data-ttu-id="09aa0-119">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="09aa0-119">In the list, mark the selected row.</span></span>
+12. <span data-ttu-id="09aa0-120">AddBtn'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-120">Click AddBtn.</span></span>
+13. <span data-ttu-id="09aa0-121">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-121">Click OK.</span></span>
+14. <span data-ttu-id="09aa0-122">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-122">Click Save.</span></span>
+15. <span data-ttu-id="09aa0-123">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-123">Close the page.</span></span>
+16. <span data-ttu-id="09aa0-124">Ürünler bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="09aa0-124">Expand the Products section.</span></span>
+17. <span data-ttu-id="09aa0-125">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-125">Click Add.</span></span>
+18. <span data-ttu-id="09aa0-126">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="09aa0-126">In the list, mark the selected row.</span></span>
+19. <span data-ttu-id="09aa0-127">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-127">Click Add.</span></span>
+    * <span data-ttu-id="09aa0-128">Benzer şekilde, birden fazla ürün ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="09aa0-128">Similarly you can add multiple products.</span></span>  
+20. <span data-ttu-id="09aa0-129">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-129">Click OK.</span></span>
+21. <span data-ttu-id="09aa0-130">Öznitelikleri tıklayın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-130">Click Attributes.</span></span>
+22. <span data-ttu-id="09aa0-131">Kanal ortam bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="09aa0-131">Expand the Channel media section.</span></span>
+23. <span data-ttu-id="09aa0-132">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-132">Click Edit.</span></span>
+24. <span data-ttu-id="09aa0-133">Kanal alanında, bir seçenek seçin.</span><span class="sxs-lookup"><span data-stu-id="09aa0-133">In the Channel field, select an option.</span></span>
+25. <span data-ttu-id="09aa0-134">Varsayılan onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="09aa0-134">Select the Default check box.</span></span>
+26. <span data-ttu-id="09aa0-135">Tamam'ı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-135">Click OK.</span></span>
+27. <span data-ttu-id="09aa0-136">Kanal ürün nitelikleri bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="09aa0-136">Expand the Channel product attributes section.</span></span>
+28. <span data-ttu-id="09aa0-137">Marka alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-137">In the Brand field, type a value.</span></span>
+    * <span data-ttu-id="09aa0-138">Benzer şekilde, diğer öznitelikleri ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="09aa0-138">Similarly you can set the other attributes.</span></span>  
+29. <span data-ttu-id="09aa0-139">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-139">Click Save.</span></span>
+30. <span data-ttu-id="09aa0-140">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-140">Close the page.</span></span>
+31. <span data-ttu-id="09aa0-141">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-141">Click Save.</span></span>
+32. <span data-ttu-id="09aa0-142">Kanal güncelleştirmelerini yayınla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-142">Click Publish channel updates.</span></span>
+    * <span data-ttu-id="09aa0-143">Yayımlama sonrasında, veri, kanalı tabloları ile eşitleme için hazır olacak.</span><span class="sxs-lookup"><span data-stu-id="09aa0-143">After publish the data will be ready for sync with the channel tables.</span></span> <span data-ttu-id="09aa0-144">Yayımlamadıysanız, değiştirilen veri, veri kanalı tablolarla eşitlenmez.</span><span class="sxs-lookup"><span data-stu-id="09aa0-144">If you didn't publish the modified data will not be synced with the channel tables.</span></span>  
+33. <span data-ttu-id="09aa0-145">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-145">Click OK.</span></span>
+34. <span data-ttu-id="09aa0-146">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="09aa0-146">Click Save.</span></span>
 
 

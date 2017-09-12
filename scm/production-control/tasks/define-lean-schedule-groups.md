@@ -17,42 +17,42 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 75d8b6614fd3b36d87bcb95b0b753b611a101f62
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a5bc20c0a9e2396365caebeb3751d2090e4575a4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-lean-schedule-groups"></a>Yalın planlama gruplarını tanımlama
+# <a name="define-lean-schedule-groups"></a><span data-ttu-id="93e00-103">Yalın planlama gruplarını tanımlama</span><span class="sxs-lookup"><span data-stu-id="93e00-103">Define lean schedule groups</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Yalın planlama grupları, ürünleri kanban planlamada gruplamak ve ayırt etmek için tanımlanır. Gruplandırma, şirket başına genel bir ilişkilendirmeyle veya belirli bir iş hücresine özgü olarak yapılabilir. Kanban planlama liste sayfasında görsel bir gösterge olması amacıyla her grup için atanmış bir renk kodu vardır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
+<span data-ttu-id="93e00-104">Yalın planlama grupları, ürünleri kanban planlamada gruplamak ve ayırt etmek için tanımlanır.</span><span class="sxs-lookup"><span data-stu-id="93e00-104">Lean schedule groups are defined to group and distinguish products in kanban scheduling.</span></span> <span data-ttu-id="93e00-105">Gruplandırma, şirket başına genel bir ilişkilendirmeyle veya belirli bir iş hücresine özgü olarak yapılabilir.</span><span class="sxs-lookup"><span data-stu-id="93e00-105">The grouping can be done as generic association per company or specific to a work cell.</span></span> <span data-ttu-id="93e00-106">Kanban planlama liste sayfasında görsel bir gösterge olması amacıyla her grup için atanmış bir renk kodu vardır.</span><span class="sxs-lookup"><span data-stu-id="93e00-106">Each group has a color code assigned for visual indication in the kanban scheduling listpage.</span></span> <span data-ttu-id="93e00-107">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="93e00-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="define-lean-scheduling-group"></a>Yalın planlama grubunu tanımlama
-1. Ürün bilgileri yönetimi > Yalın imalat > Kanban planlama kuralları'na gidin.
-2. Yeni'ye tıklayın.
-3. Zamanlama grubu alanında bir değer girin.
-    * Zamanlama grubu, genel grup olarak veya belirli bir iş hücresine özgü şekilde tanımlanabilir. Bu basit örnekte, genel bir grup tanımlanmıştır ve iş hücresi boş tutulur. Bu grubun ayarları, belirli zamanlama grupları olmayan tüm iş hücreleri için geçerlidir.  
-4. Renk seçiminden bir renk seçin.
-    * Renkler, kanban zamanlama listesi sayfasındaki veya kanban işlem panosundaki işleri vurgulamak için kullanılır.  
-5. Listede, seçili satırı işaretleyin.
-6. Listede, seçili satırdaki bağlantıya tıklayın.
+## <a name="define-lean-scheduling-group"></a><span data-ttu-id="93e00-108">Yalın planlama grubunu tanımlama</span><span class="sxs-lookup"><span data-stu-id="93e00-108">Define lean scheduling group</span></span>
+1. <span data-ttu-id="93e00-109">Ürün bilgileri yönetimi > Yalın imalat > Kanban planlama kuralları'na gidin.</span><span class="sxs-lookup"><span data-stu-id="93e00-109">Go to Product information management > Lean manufacturing > Lean schedule groups.</span></span>
+2. <span data-ttu-id="93e00-110">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93e00-110">Click New.</span></span>
+3. <span data-ttu-id="93e00-111">Zamanlama grubu alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="93e00-111">In the Schedule group field, type a value.</span></span>
+    * <span data-ttu-id="93e00-112">Zamanlama grubu, genel grup olarak veya belirli bir iş hücresine özgü şekilde tanımlanabilir.</span><span class="sxs-lookup"><span data-stu-id="93e00-112">A schedule group can be defined as global group or specific to a work cell.</span></span> <span data-ttu-id="93e00-113">Bu basit örnekte, genel bir grup tanımlanmıştır ve iş hücresi boş tutulur.</span><span class="sxs-lookup"><span data-stu-id="93e00-113">In this simple example, we define a global group, and the work cell is kept empty.</span></span> <span data-ttu-id="93e00-114">Bu grubun ayarları, belirli zamanlama grupları olmayan tüm iş hücreleri için geçerlidir.</span><span class="sxs-lookup"><span data-stu-id="93e00-114">The settings of this group apply to all work cells that do not have specific schedule groups.</span></span>  
+4. <span data-ttu-id="93e00-115">Renk seçiminden bir renk seçin.</span><span class="sxs-lookup"><span data-stu-id="93e00-115">Select a color from the color selection.</span></span>
+    * <span data-ttu-id="93e00-116">Renkler, kanban zamanlama listesi sayfasındaki veya kanban işlem panosundaki işleri vurgulamak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="93e00-116">The colors are used to highlight the jobs on the kanban schedule list page or the kanban process board.</span></span>  
+5. <span data-ttu-id="93e00-117">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="93e00-117">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="93e00-118">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93e00-118">In the list, click the link in the selected row.</span></span>
 
-## <a name="associate-product"></a>Ürün ilişkilendirme
-1. Belirli bir ürünle ilişkilendirme yapma
-    * Yalın planlama gruplarıyla, belirli bir ürün (Ürün ilişkisi türü = Ürün) ya da bir ürün tahsisat anahtarının parçası olarak (Ürün ilişkisi türü = grup) ürün ilişkilendirmek için iki yol vardır.    
-2. İlişki türü alanında Ürün öğesini seçin.
-3. Madde numarası alanına bir değer girin.
-4. İş çıkarma yeteneği oranı alanında bir sayı girin.
-    * Varsayılan İş çıkarma yeteneği oranı 1'dir ve bunun anlamı ilgili ürünlerin üretim akışlarının işlem faaliyetlerinde belirtilen tam kapasiteyi tüketeceğidir. İş çıkarma yeteneği oranı > 1, daha yüksek kaynak tüketimi, İş çıkarma yeteneği oranı > 1 ise daha düşük bir kaynak tüketimi ifade edilir. Oran, maliyet hesaplamasında ve kanban işi tüketiminin hesaplanmasında kullanılır.  
+## <a name="associate-product"></a><span data-ttu-id="93e00-119">Ürün ilişkilendirme</span><span class="sxs-lookup"><span data-stu-id="93e00-119">Associate product</span></span>
+1. <span data-ttu-id="93e00-120">Belirli bir ürünle ilişkilendirme yapma</span><span class="sxs-lookup"><span data-stu-id="93e00-120">Associate a specific product</span></span>
+    * <span data-ttu-id="93e00-121">Yalın planlama gruplarıyla, belirli bir ürün (Ürün ilişkisi türü = Ürün) ya da bir ürün tahsisat anahtarının parçası olarak (Ürün ilişkisi türü = grup) ürün ilişkilendirmek için iki yol vardır.</span><span class="sxs-lookup"><span data-stu-id="93e00-121">There are two ways to associate products to lean schedule groups, either as a specific product (Item relation type = Item) or as part of an item allocation key (item relation type = group).</span></span>    
+2. <span data-ttu-id="93e00-122">İlişki türü alanında Ürün öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="93e00-122">In the Item relation type field, select Item</span></span>
+3. <span data-ttu-id="93e00-123">Madde numarası alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="93e00-123">In the Item number field, type a value.</span></span>
+4. <span data-ttu-id="93e00-124">İş çıkarma yeteneği oranı alanında bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="93e00-124">In the Throughput ratio field, enter a number.</span></span>
+    * <span data-ttu-id="93e00-125">Varsayılan İş çıkarma yeteneği oranı 1'dir ve bunun anlamı ilgili ürünlerin üretim akışlarının işlem faaliyetlerinde belirtilen tam kapasiteyi tüketeceğidir.</span><span class="sxs-lookup"><span data-stu-id="93e00-125">The default Throughput ratio is 1, which means that the related products consume exactly the capacity specified in the process activites of the production flows.</span></span> <span data-ttu-id="93e00-126">İş çıkarma yeteneği oranı > 1, daha yüksek kaynak tüketimi, İş çıkarma yeteneği oranı > 1 ise daha düşük bir kaynak tüketimi ifade edilir.</span><span class="sxs-lookup"><span data-stu-id="93e00-126">Throughput ratio > 1 defines a higher resource consumption, Throughput ratio < 1 defines a lower resource consumption.</span></span> <span data-ttu-id="93e00-127">Oran, maliyet hesaplamasında ve kanban işi tüketiminin hesaplanmasında kullanılır.</span><span class="sxs-lookup"><span data-stu-id="93e00-127">The ratio is used in the cost calculation and in the calculation of the kanban job consumption.</span></span>  
 
-## <a name="associate-item-allocation-key"></a>Ürün tahsisat anahtarını ilişkilendirme
-1. Ürün tahsisat anahtarını ilişkilendirme
-    * Ürün ilişki türü Grubu kullanarak bir ürün tahsisat anahtarına bir ilişki ekleyin.   Bu işlem için verilerinizde tanımlanan bir tahmini ürün tahsisatı anahtarı gerektiğini unutmayın.  
-2. İlişki türü alanında Grup öğesini seçin.
-3. Ürün tahsisat anahtarı alanında, aramayı açmak için açılır menü düğmesini tıklatın.
-4. Listede, seçili satırdaki bağlantıya tıklayın.
+## <a name="associate-item-allocation-key"></a><span data-ttu-id="93e00-128">Ürün tahsisat anahtarını ilişkilendirme</span><span class="sxs-lookup"><span data-stu-id="93e00-128">Associate item allocation key</span></span>
+1. <span data-ttu-id="93e00-129">Ürün tahsisat anahtarını ilişkilendirme</span><span class="sxs-lookup"><span data-stu-id="93e00-129">Associate an item allocation key</span></span>
+    * <span data-ttu-id="93e00-130">Ürün ilişki türü Grubu kullanarak bir ürün tahsisat anahtarına bir ilişki ekleyin.</span><span class="sxs-lookup"><span data-stu-id="93e00-130">Add an association to an item allocation key by using the Item relation type Group.</span></span>   <span data-ttu-id="93e00-131">Bu işlem için verilerinizde tanımlanan bir tahmini ürün tahsisatı anahtarı gerektiğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="93e00-131">Note that for this process, you need a forecast item alllocation key defined in your data.</span></span>  
+2. <span data-ttu-id="93e00-132">İlişki türü alanında Grup öğesini seçin.</span><span class="sxs-lookup"><span data-stu-id="93e00-132">In the Item relation type field, select Group</span></span>
+3. <span data-ttu-id="93e00-133">Ürün tahsisat anahtarı alanında, aramayı açmak için açılır menü düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="93e00-133">In the Item allocation key field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="93e00-134">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="93e00-134">In the list, click the link in the selected row.</span></span>
 
 

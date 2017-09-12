@@ -17,54 +17,54 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 3e26f4261c4028767c20a1118107777d582bb277
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 4de7257ed5e9c9c08ec6cc423c29739a541926d5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-intercompany-project-invoicing"></a>Şirketlerarası proje faturalamasını yapılandırma
+# <a name="configure-intercompany-project-invoicing"></a><span data-ttu-id="6a1a1-103">Şirketlerarası proje faturalamasını yapılandırma</span><span class="sxs-lookup"><span data-stu-id="6a1a1-103">Configure intercompany project invoicing</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, kuruluşunuzdaki iki şirket arasında proje faturalandırmasını ayarlamayı gösterir. Bu görev, USSI veri kümesini kullanır.
+<span data-ttu-id="6a1a1-104">Bu yordam, kuruluşunuzdaki iki şirket arasında proje faturalandırmasını ayarlamayı gösterir.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-104">This procedure shows how to set up project invoicing between two companies in your organization.</span></span> <span data-ttu-id="6a1a1-105">Bu görev, USSI veri kümesini kullanır.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-105">This task uses the USSI data set.</span></span>
 
-1. Borç hesapları > Satıcılar > Tüm satıcılar seçeneğine gidin.
-2. Listede, istenen kaydı bulun ve seçin.
-3. Eylem Bölmesinde, Genel öğesine tıklayın.
-4. Şirketlerarası'na tıklayın.
-5. Şirketlerarası ticareti etkinleştirmek için Etkin seçeneğini Evet olarak ayarlayın.
-6. Müşteri şirketi alanında bir değer girin veya seçin.
-7. Hesabım alanında bir değer girin veya seçin.
-8. Kaydet'e tıklayın.
-9. Sayfayı kapatın.
-10. Sayfayı kapatın.
-11. Proje yönetimi ve muhasebe > Kurulum > Proje yönetimi ve muhasebe parametreleri öğesine gidin.
-12. Şirketlerarası sekmesine tıklayın.
-13. Şirketlerarası kaynak planlama ve zaman çizelgelerini etkinleştirmek için kaydırma çubuğunu Evet konumuna getirin.
-14. Listede, seçili satırı işaretleyin.
-15. Yeni'ye tıklayın.
-16. Listede, seçili satırı işaretleyin.
-17. Ödünç alma tüzel kişiliği alanına bir değer girin veya buradan bir değer seçin.
-18. Gelir tahakkuku onay kutusunu işaretleyin.
-19. Varsayılan zaman çizelgesi kategorisi alanına bir değer girin veya buradan bir değer seçin.
-20. Varsayılan gider kategorisi alanına bir değer girin veya buradan bir değer seçin.
-21. Kaydet'e tıklayın.
-22. Sayfayı kapatın.
-23. Proje yönetimi ve muhasebe > Kurulum > Deftere Nakil > Deftere Nakil kurulumu öğesine gidin.
-24. Genel muhasebe hesap türleri alanında bir seçenek belirleyin.
-25. Yeni'ye tıklayın.
-26. Listede, seçili satırı işaretleyin.
-27. Listede, seçili satırı işaretleyin.
-28. Ana hesap alanında istediğiniz değerleri belirtin.
-29. Kaydet'e tıklayın.
-30. Sayfayı kapatın.
-31. Proje yönetimi ve muhasebe > Kurulum > Fiyatlar > Transfer fiyatı öğesine gidin.
-32. Yeni'ye tıklayın.
-33. Yürürlük tarihi alanına bir tarih girin.
-34. Ödünç alma tüzel kişiliği alanına bir değer girin veya buradan bir değer seçin.
-35. Transfer fiyatı modeli alanında bir seçenek belirleyin.
-36. Fiyatlandırma alanına bir sayı girin.
-37. Kaydet'e tıklayın.
+1. <span data-ttu-id="6a1a1-106">Borç hesapları > Satıcılar > Tüm satıcılar seçeneğine gidin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-106">Go to Accounts payable > Vendors > All vendors.</span></span>
+2. <span data-ttu-id="6a1a1-107">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-107">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="6a1a1-108">Eylem Bölmesinde, Genel öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-108">On the Action Pane, click General.</span></span>
+4. <span data-ttu-id="6a1a1-109">Şirketlerarası'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-109">Click Intercompany.</span></span>
+5. <span data-ttu-id="6a1a1-110">Şirketlerarası ticareti etkinleştirmek için Etkin seçeneğini Evet olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-110">Set Active to Yes to enable intercompany trading.</span></span>
+6. <span data-ttu-id="6a1a1-111">Müşteri şirketi alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-111">In the Customer company field, enter or select a value.</span></span>
+7. <span data-ttu-id="6a1a1-112">Hesabım alanında bir değer girin veya seçin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-112">In the My account field, enter or select a value.</span></span>
+8. <span data-ttu-id="6a1a1-113">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-113">Click Save.</span></span>
+9. <span data-ttu-id="6a1a1-114">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-114">Close the page.</span></span>
+10. <span data-ttu-id="6a1a1-115">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-115">Close the page.</span></span>
+11. <span data-ttu-id="6a1a1-116">Proje yönetimi ve muhasebe > Kurulum > Proje yönetimi ve muhasebe parametreleri öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-116">Go to Project management and accounting > Setup > Project management and accounting parameters.</span></span>
+12. <span data-ttu-id="6a1a1-117">Şirketlerarası sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-117">Click the Intercompany tab.</span></span>
+13. <span data-ttu-id="6a1a1-118">Şirketlerarası kaynak planlama ve zaman çizelgelerini etkinleştirmek için kaydırma çubuğunu Evet konumuna getirin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-118">Move the slider to Yes to enable intercompany resource scheduling and timesheets.</span></span>
+14. <span data-ttu-id="6a1a1-119">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-119">In the list, mark the selected row.</span></span>
+15. <span data-ttu-id="6a1a1-120">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-120">Click New.</span></span>
+16. <span data-ttu-id="6a1a1-121">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-121">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="6a1a1-122">Ödünç alma tüzel kişiliği alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-122">In the Borrowing legal entity field, enter or select a value.</span></span>
+18. <span data-ttu-id="6a1a1-123">Gelir tahakkuku onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-123">Select the Accrue revenue check box.</span></span>
+19. <span data-ttu-id="6a1a1-124">Varsayılan zaman çizelgesi kategorisi alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-124">In the Default timesheet category field, enter or select a value.</span></span>
+20. <span data-ttu-id="6a1a1-125">Varsayılan gider kategorisi alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-125">In the Default expense category field, enter or select a value.</span></span>
+21. <span data-ttu-id="6a1a1-126">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-126">Click Save.</span></span>
+22. <span data-ttu-id="6a1a1-127">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-127">Close the page.</span></span>
+23. <span data-ttu-id="6a1a1-128">Proje yönetimi ve muhasebe > Kurulum > Deftere Nakil > Deftere Nakil kurulumu öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-128">Go to Project management and accounting > Setup > Posting > Ledger posting setup.</span></span>
+24. <span data-ttu-id="6a1a1-129">Genel muhasebe hesap türleri alanında bir seçenek belirleyin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-129">In the Ledger account types field, select an option.</span></span>
+25. <span data-ttu-id="6a1a1-130">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-130">Click New.</span></span>
+26. <span data-ttu-id="6a1a1-131">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-131">In the list, mark the selected row.</span></span>
+27. <span data-ttu-id="6a1a1-132">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-132">In the list, mark the selected row.</span></span>
+28. <span data-ttu-id="6a1a1-133">Ana hesap alanında istediğiniz değerleri belirtin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-133">In the Main account field, specify the desired values.</span></span>
+29. <span data-ttu-id="6a1a1-134">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-134">Click Save.</span></span>
+30. <span data-ttu-id="6a1a1-135">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-135">Close the page.</span></span>
+31. <span data-ttu-id="6a1a1-136">Proje yönetimi ve muhasebe > Kurulum > Fiyatlar > Transfer fiyatı öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-136">Go to Project management and accounting > Setup > Prices > Transfer price.</span></span>
+32. <span data-ttu-id="6a1a1-137">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-137">Click New.</span></span>
+33. <span data-ttu-id="6a1a1-138">Yürürlük tarihi alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-138">In the Effective date field, enter a date.</span></span>
+34. <span data-ttu-id="6a1a1-139">Ödünç alma tüzel kişiliği alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-139">In the Borrowing legal entity field, enter or select a value.</span></span>
+35. <span data-ttu-id="6a1a1-140">Transfer fiyatı modeli alanında bir seçenek belirleyin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-140">In the Transfer price model field, select an option.</span></span>
+36. <span data-ttu-id="6a1a1-141">Fiyatlandırma alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-141">In the Pricing field, enter a number.</span></span>
+37. <span data-ttu-id="6a1a1-142">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6a1a1-142">Click Save.</span></span>
 
 

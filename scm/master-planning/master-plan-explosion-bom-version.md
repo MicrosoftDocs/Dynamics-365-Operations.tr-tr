@@ -20,33 +20,33 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: efb184269c66483304af0589e4305a55ae08ce08
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f8c633e09103c45aff5614270a94a3bfe4fc5e20
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="explosion-of-a-bom-version"></a>Bir ürün reçetesi versiyonu açılımı
+# <a name="explosion-of-a-bom-version"></a><span data-ttu-id="3e8c4-103">Bir ürün reçetesi versiyonu açılımı</span><span class="sxs-lookup"><span data-stu-id="3e8c4-103">Explosion of a BOM version</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede ürün reçetesi (BOM) sürümü açılımı içeren bir master planlama senaryosu açıklanmaktadır.
+<span data-ttu-id="3e8c4-104">Bu makalede ürün reçetesi (BOM) sürümü açılımı içeren bir master planlama senaryosu açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="3e8c4-104">This article explains a master planning scenario that involves explosion of a bill of materials (BOM) version.</span></span>
 
-Bir ürün reçetesi sürümünün talep açılımı, belirli bir tesisteki ve muhtemelen belirli bir ambardaki her ürün satırı maddesine yönelik bir talep oluşturur. Bir tesise özel ürün reçetesinde, her ürün reçetesi satırı için belirli bir ambar tanımlanabilir. Ek olarak, her ürün reçetesi satırı için maddenin boyut ayarları ambarın gerekli olup olmadığını belirlemektedir. Her ürün reçetesi satırı maddesi için sonuçta elde edilen talep, ardından ilave talep açılımının başlangıç noktasını oluşturmaktadır. Bu master planlama senaryosu aşağıdaki koşulları kapsar:
+<span data-ttu-id="3e8c4-105">Bir ürün reçetesi sürümünün talep açılımı, belirli bir tesisteki ve muhtemelen belirli bir ambardaki her ürün satırı maddesine yönelik bir talep oluşturur.</span><span class="sxs-lookup"><span data-stu-id="3e8c4-105">A demand explosion of a bill of materials (BOM) version creates a demand for each BOM line item at a specific site and, possibly, at a specific warehouse.</span></span> <span data-ttu-id="3e8c4-106">Bir tesise özel ürün reçetesinde, her ürün reçetesi satırı için belirli bir ambar tanımlanabilir.</span><span class="sxs-lookup"><span data-stu-id="3e8c4-106">In a site-specific BOM, a specific warehouse can be defined for each BOM line.</span></span> <span data-ttu-id="3e8c4-107">Ek olarak, her ürün reçetesi satırı için maddenin boyut ayarları ambarın gerekli olup olmadığını belirlemektedir.</span><span class="sxs-lookup"><span data-stu-id="3e8c4-107">Additionally, for each BOM line, the item's dimension settings determine whether the warehouse is required.</span></span> <span data-ttu-id="3e8c4-108">Her ürün reçetesi satırı maddesi için sonuçta elde edilen talep, ardından ilave talep açılımının başlangıç noktasını oluşturmaktadır.</span><span class="sxs-lookup"><span data-stu-id="3e8c4-108">The resulting demand for each BOM line item then becomes the starting point for additional demand explosion.</span></span> <span data-ttu-id="3e8c4-109">Bu master planlama senaryosu aşağıdaki koşulları kapsar:</span><span class="sxs-lookup"><span data-stu-id="3e8c4-109">This master planning scenario involves the following conditions:</span></span>
 
--   Tesis boyutları zorunludur ve talep hareketinde girilmesi gerekmektedir.
--   Tesis boyutu tutarlıdır. Bu nedenle, daha düşük düzeydeki talep için tasarlanmış tesis başlangıçtaki talep hareketindeki tesisle aynıdır.
+-   <span data-ttu-id="3e8c4-110">Tesis boyutları zorunludur ve talep hareketinde girilmesi gerekmektedir.</span><span class="sxs-lookup"><span data-stu-id="3e8c4-110">The site dimension is mandatory and must be entered on the demand transaction.</span></span>
+-   <span data-ttu-id="3e8c4-111">Tesis boyutu tutarlıdır.</span><span class="sxs-lookup"><span data-stu-id="3e8c4-111">The site dimension is consistent.</span></span> <span data-ttu-id="3e8c4-112">Bu nedenle, daha düşük düzeydeki talep için tasarlanmış tesis başlangıçtaki talep hareketindeki tesisle aynıdır.</span><span class="sxs-lookup"><span data-stu-id="3e8c4-112">Therefore, the site for lower-level demand is the same as the site on the initial demand transaction.</span></span>
 
-Aşağıdaki resimde, master planlama talep açılımının ne şekilde ilerlediği gösterilmiştir. ![Ürün reçetesi versiyonu kullanılarak talep açılımı](./media/multisitedemandexplosionscenariousingbomversion.gif)
+<span data-ttu-id="3e8c4-113">Aşağıdaki resimde, master planlama talep açılımının ne şekilde ilerlediği gösterilmiştir.</span><span class="sxs-lookup"><span data-stu-id="3e8c4-113">The following illustration shows how the process for master planning demand explosion.</span></span> ![Ürün reçetesi versiyonu kullanılarak talep açılımı](./media/multisitedemandexplosionscenariousingbomversion.gif)
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="see-also"></a><span data-ttu-id="3e8c4-115">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="3e8c4-115">See also</span></span>
 --------
 
-[Master planlama - ürün reçetesi sürümünün nasıl belirlendiği](master-plan-bom-version-determined.md)
+[<span data-ttu-id="3e8c4-116">Master planlama - ürün reçetesi sürümünün nasıl belirlendiği</span><span class="sxs-lookup"><span data-stu-id="3e8c4-116">Master planning - how the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
 
-[Master planlama ve birden çok tesis işlevi](master-plan-multisite-functionality.md)
+[<span data-ttu-id="3e8c4-117">Master planlama ve birden çok tesis işlevi</span><span class="sxs-lookup"><span data-stu-id="3e8c4-117">Master planning and multisite functionality</span></span>](master-plan-multisite-functionality.md)
 
 
 

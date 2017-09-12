@@ -1,4 +1,4 @@
---- 
+---
 title: "Ambardaki stok düzeylerini başlatma"
 description: "Bu yordam, eldeki stoğu, stok hareket günlüğü kullanarak el ile nasıl güncelleştirileceğini gösterir."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,10 +17,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 953125ae6e9d669bd13a3344c9f679747af6ff93
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 45c93febbbc4ea78fe2b87735ed96fd773605d96
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
 # Ambardaki stok düzeylerini başlatma
@@ -58,5 +58,4 @@ Bu yordam, eldeki stoğu, stok hareket günlüğü kullanarak el ile nasıl gün
 24. Tamam'a tıklayın.
 25. Sayfayı kapatın.
 26. Sayfayı kapatın.
-
 

@@ -26,68 +26,68 @@ ms.lasthandoff: 08/01/2017
 
 ---
 
-# <a name="general-journal-processing"></a>Yevmiye defteri işlemi
+# <a name="general-journal-processing"></a><span data-ttu-id="be3ab-103">Yevmiye defteri işlemi</span><span class="sxs-lookup"><span data-stu-id="be3ab-103">General journal processing</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu makaleler, yevmiye işlemlerini daha kolay yapmaya yardımcı olabilecek Microsoft Dynamics 365 for Finance and Operations, Enterprise edition yeteneklerini açıklamaktadır. Bunlar ayrıca doğru verilerin kaydedildiğini ve dahili denetimin hatasız olduğunu da garanti etmeye yardımcı olurlar.  
+<span data-ttu-id="be3ab-104">Bu makaleler, yevmiye işlemlerini daha kolay yapmaya yardımcı olabilecek Microsoft Dynamics 365 for Finance and Operations, Enterprise edition yeteneklerini açıklamaktadır. Bunlar ayrıca doğru verilerin kaydedildiğini ve dahili denetimin hatasız olduğunu da garanti etmeye yardımcı olurlar.</span><span class="sxs-lookup"><span data-stu-id="be3ab-104">This articles describes capabilities in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition that can help make general journal processing easier, and that can also help guarantee that correct data is captured and internal control isn't compromised.</span></span>  
 
-Günlük adları
+<span data-ttu-id="be3ab-105">Günlük adları</span><span class="sxs-lookup"><span data-stu-id="be3ab-105">Journal names</span></span>
 
-Ayarlanması gereken en önemli alanlardan biri günlük adlarıdır. Her amaç için belirli günlük adlarını tanımlamak iyi bir fikirdir; örneğin şirketlerarası, tahakkuk ayarlaması ve hata düzeltme gibi. Her günlük adını, her bir amaç için bir veri girişi yapmak için güvenle ve kolayca özelleştirebilirsiniz. 
+<span data-ttu-id="be3ab-106">Ayarlanması gereken en önemli alanlardan biri günlük adlarıdır.</span><span class="sxs-lookup"><span data-stu-id="be3ab-106">One of the most important areas to set up is journal names.</span></span> <span data-ttu-id="be3ab-107">Her amaç için belirli günlük adlarını tanımlamak iyi bir fikirdir; örneğin şirketlerarası, tahakkuk ayarlaması ve hata düzeltme gibi.</span><span class="sxs-lookup"><span data-stu-id="be3ab-107">It's a good idea to define specific journal names for each purpose, such as intercompany, accrual adjustment, and error correction.</span></span> <span data-ttu-id="be3ab-108">Her günlük adını, her bir amaç için bir veri girişi yapmak için güvenle ve kolayca özelleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="be3ab-108">You can tailor each journal name to help make data entry for each purpose easy and secure.</span></span> 
 
-**Günlük adları** sayfasında aşağıdaki öğeleri ayarlayabilirsiniz.
+<span data-ttu-id="be3ab-109">**Günlük adları** sayfasında aşağıdaki öğeleri ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="be3ab-109">On the **Journal names** page, you can set up the following elements:</span></span>
 
--   **İş akışı onayı** – İç denetim artırmak için toplam borç tutarı gibi ölçütlere göre gözden geçirme ve onay adımları için maddesellik sınırları kuran günlük iş akışları tanımlayın. Genel günlükler için iş akışlarını **Genel muhasebe iş akışları** sayfası üzerinde ayarlarsınız.
--   **Varsayılan değerler** – Mahsup hesaplar, para ve mali boyutlar için varsayılan değerleri seçin.
--   **Günlük kontrolü** – Şirket ve hesap türü ve ayrıca segment değerleri üzerindeki kısıtlamaları ayarlayabilirsiniz. 
+-   <span data-ttu-id="be3ab-110">**İş akışı onayı** – İç denetim artırmak için toplam borç tutarı gibi ölçütlere göre gözden geçirme ve onay adımları için maddesellik sınırları kuran günlük iş akışları tanımlayın.</span><span class="sxs-lookup"><span data-stu-id="be3ab-110">**Workflow approval** – To increase internal control, define journal workflows that establish materiality limits for review and approval steps, based on criteria such as total debit amount.</span></span> <span data-ttu-id="be3ab-111">Genel günlükler için iş akışlarını **Genel muhasebe iş akışları** sayfası üzerinde ayarlarsınız.</span><span class="sxs-lookup"><span data-stu-id="be3ab-111">You set up workflows for the general journals on the** General ledger workflows** page.</span></span>
+-   <span data-ttu-id="be3ab-112">**Varsayılan değerler** – Mahsup hesaplar, para ve mali boyutlar için varsayılan değerleri seçin.</span><span class="sxs-lookup"><span data-stu-id="be3ab-112">**Default values** – Select default values for offset accounts, currency, and financial dimensions.</span></span>
+-   <span data-ttu-id="be3ab-113">**Günlük kontrolü** – Şirket ve hesap türü ve ayrıca segment değerleri üzerindeki kısıtlamaları ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="be3ab-113">**Journal control** – You can set up restrictions on the company and account type, and also the segment values.</span></span> 
 
-**Örnekler**
+<span data-ttu-id="be3ab-114">**Örnekler**</span><span class="sxs-lookup"><span data-stu-id="be3ab-114">**Examples**</span></span>
 
-Günlük adı sadece ayarlamalar için kullanılabilir. Bu durumda, yalnızca **defter** hesap türünün tüm şirketler arasında geçerli olduğunu belirtebilirsiniz. [![Günlük kontrol hesap tipleri](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+<span data-ttu-id="be3ab-115">Günlük adı sadece ayarlamalar için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="be3ab-115">A journal name can be used only for adjustments.</span></span> <span data-ttu-id="be3ab-116">Bu durumda, yalnızca **defter** hesap türünün tüm şirketler arasında geçerli olduğunu belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="be3ab-116">In this case, you can specify that only the **Ledger** account type is valid across all companies.</span></span> <span data-ttu-id="be3ab-117">[![Günlük kontrol hesap tipleri](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)</span><span class="sxs-lookup"><span data-stu-id="be3ab-117">[![Journal control account types](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)</span></span>
 
-Günlük adı yalnızca belirli bir kesim veya ana hesap aralığı için kullanılabilir. [![Günlük kontrol segmenti](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+<span data-ttu-id="be3ab-118">Günlük adı yalnızca belirli bir kesim veya ana hesap aralığı için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="be3ab-118">A journal name can be used only for a specific segment or for a range for main accounts.</span></span> <span data-ttu-id="be3ab-119">[![Günlük kontrol segmenti](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)</span><span class="sxs-lookup"><span data-stu-id="be3ab-119">[![Journal control segment](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)</span></span>
 
-**Otomatik ters** seçeneği genel günlüklerde kullanılabilir. Örneğin, aşağıdaki çizimde gösterildiği gibi gerçek belgenin henüz işlenmemiş olduğu tahakkuk ayarlamanız vardır.
-[![Yevmiye günlüğü tersine çevirme](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+<span data-ttu-id="be3ab-120">**Otomatik ters** seçeneği genel günlüklerde kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="be3ab-120">The **Automatic reversal** option is available in general journals.</span></span> <span data-ttu-id="be3ab-121">Örneğin, aşağıdaki çizimde gösterildiği gibi gerçek belgenin henüz işlenmemiş olduğu tahakkuk ayarlamanız vardır.</span><span class="sxs-lookup"><span data-stu-id="be3ab-121">For example, you have an accrual adjustment where the actual document hasn't yet been processed, as shown in the following illustration.</span></span>
+<span data-ttu-id="be3ab-122">[![Yevmiye günlüğü tersine çevirme](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png)</span><span class="sxs-lookup"><span data-stu-id="be3ab-122">[![General journal reversing](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png)</span></span> 
 
-Günlük girdisi için Microsoft Excel eklentisi, otomasyon ek düzeyi sağlar ve veri girişini kolaylaştırır. **Satırları Excel'de açma** eylemi **yevmiye defteri** ve **günlük fişi** sayfalarında mevcuttur. 
+<span data-ttu-id="be3ab-123">Günlük girdisi için Microsoft Excel eklentisi, otomasyon ek düzeyi sağlar ve veri girişini kolaylaştırır.</span><span class="sxs-lookup"><span data-stu-id="be3ab-123">The Microsoft Excel add-in for journal entry provides an additional level of automation and makes data entry easier.</span></span> <span data-ttu-id="be3ab-124">**Satırları Excel'de açma** eylemi **yevmiye defteri** ve **günlük fişi** sayfalarında mevcuttur.</span><span class="sxs-lookup"><span data-stu-id="be3ab-124">The **Open lines in Excel** action is available on the **General journal** and **Journal voucher** pages.</span></span> 
 
-**Periyodik günlüklere** sayfası üzerinde, günlük işlemini otomatikleştirmek için yinelenen günlükler ayarlayabilirsiniz. 
+<span data-ttu-id="be3ab-125">**Periyodik günlüklere** sayfası üzerinde, günlük işlemini otomatikleştirmek için yinelenen günlükler ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="be3ab-125">On the **Periodic journals** page, you can set up recurring journals to automate journal processing.</span></span> 
 
-Herhangi bir anda fiş şablonları kullanabilirsiniz. **Yevmiye defterleri** sayfası üzerinde, **Kaydet** ve **Fiş şablonu seç** eylemleri **Günlük fişi** sayfası üzerinde **İşlevler** altında fiş satırları için bulunur.
+<span data-ttu-id="be3ab-126">Herhangi bir anda fiş şablonları kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="be3ab-126">You can use voucher templates at any time.</span></span> <span data-ttu-id="be3ab-127">**Yevmiye defterleri** sayfası üzerinde, **Kaydet** ve **Fiş şablonu seç** eylemleri **Günlük fişi** sayfası üzerinde **İşlevler** altında fiş satırları için bulunur.</span><span class="sxs-lookup"><span data-stu-id="be3ab-127">On the **General journals** page, the **Save** and **Select voucher template** actions are found on the **Journal voucher** page, under **Functions** for the voucher lines.</span></span>
 
-## <a name="related-setup"></a>İlgili kurulum
-Aşağıdaki kurulum genel günlüklere özgü değildir, ancak veri girişinin doğru veri olduğunu ve kolay olduğunu garantilemeye yardımcı olur.
+## <a name="related-setup"></a><span data-ttu-id="be3ab-128">İlgili kurulum</span><span class="sxs-lookup"><span data-stu-id="be3ab-128">Related setup</span></span>
+<span data-ttu-id="be3ab-129">Aşağıdaki kurulum genel günlüklere özgü değildir, ancak veri girişinin doğru veri olduğunu ve kolay olduğunu garantilemeye yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="be3ab-129">The following setup isn't specific to general journals, but will help guarantee that data entry is correct data and easy.</span></span>
 
-### <a name="main-account"></a>Ana hesap
+### <a name="main-account"></a><span data-ttu-id="be3ab-130">Ana hesap</span><span class="sxs-lookup"><span data-stu-id="be3ab-130">Main account</span></span>
 
-Ana hesap kurulumu yevmiye defterine işlemek için birçok seçenek sağlar:
+<span data-ttu-id="be3ab-131">Ana hesap kurulumu yevmiye defterine işlemek için birçok seçenek sağlar:</span><span class="sxs-lookup"><span data-stu-id="be3ab-131">The main account setup provides many options for general journal processing:</span></span>
 
--   **DC/CR gereksinimi** – Bir ana hesap borç veya alacak hareketleriyle sınırlandırılmışsa, bu seçeneği kullanın. Kurulum, bir günlük doğrulandığında veya deftere nakledildiğinde doğrulanır.
--   **Varsayılan mahsup hesap**
--   **Askıya alınmış** – Tüm şirketler arasında veya belirli şirket/yasal varlıklar için bir ana hesap veri girişini askıya alma.
--   **El ile girişe izin verme** – Kullanıcıların hesap günlükleri için el ile bir değer girmesini engellemek.
--   **Varsayılan/Para birimi doğrula**
--   **Tüzel kişilik geçersizleştir** – Bu kurulum tanımlanan şirket/yasal varlığa özeldir:
-    -   **Varsayılan/Satış vergisini doğrula**
-    -   **Varsayılan boyut** – **Sabit olmayan** veya **Sabit değer**. **Sabit değer** bu ana hesap için tüm nakillerin **Sabit** olarak ayarladığınız herhangi bir boyut değeri her zaman kullanmasını garantilemeye yardımcı olur.
--   **Deftere nakli doğrulama**
-    -   **Kullanıcı doğrulama** – Bu seçenek, bir ana hesap için deftere nakletmek için hangi kullanıcıların izinli olacağını denetler.
-    -   **Deftere gönderme türü doğrulama** – Bu seçenek, bir ana hesap için hangi deftere nakletme türlerinin izinli olacağını denetler.
+-   <span data-ttu-id="be3ab-132">**DC/CR gereksinimi** – Bir ana hesap borç veya alacak hareketleriyle sınırlandırılmışsa, bu seçeneği kullanın.</span><span class="sxs-lookup"><span data-stu-id="be3ab-132">**DC/CR requirement** – Use this option if a main account is limited to debit or credit transactions.</span></span> <span data-ttu-id="be3ab-133">Kurulum, bir günlük doğrulandığında veya deftere nakledildiğinde doğrulanır.</span><span class="sxs-lookup"><span data-stu-id="be3ab-133">The setup is verified when a journal is validated or posted.</span></span>
+-   <span data-ttu-id="be3ab-134">**Varsayılan mahsup hesap**</span><span class="sxs-lookup"><span data-stu-id="be3ab-134">**Default offset account**</span></span>
+-   <span data-ttu-id="be3ab-135">**Askıya alınmış** – Tüm şirketler arasında veya belirli şirket/yasal varlıklar için bir ana hesap veri girişini askıya alma.</span><span class="sxs-lookup"><span data-stu-id="be3ab-135">**Suspended** – Suspend a main account for data entry across all companies or for a specific company/legal entities.</span></span>
+-   <span data-ttu-id="be3ab-136">**El ile girişe izin verme** – Kullanıcıların hesap günlükleri için el ile bir değer girmesini engellemek.</span><span class="sxs-lookup"><span data-stu-id="be3ab-136">**Do not allow manual entry** – Prevent users from manually entering a value for the account in journals.</span></span>
+-   <span data-ttu-id="be3ab-137">**Varsayılan/Para birimi doğrula**</span><span class="sxs-lookup"><span data-stu-id="be3ab-137">**Default/Validate currency**</span></span>
+-   <span data-ttu-id="be3ab-138">**Tüzel kişilik geçersizleştir** – Bu kurulum tanımlanan şirket/yasal varlığa özeldir:</span><span class="sxs-lookup"><span data-stu-id="be3ab-138">**Legal entity override** – This setup is specific to the defined company/legal entity:</span></span>
+    -   <span data-ttu-id="be3ab-139">**Varsayılan/Satış vergisini doğrula**</span><span class="sxs-lookup"><span data-stu-id="be3ab-139">**Default/Validate sales tax**</span></span>
+    -   <span data-ttu-id="be3ab-140">**Varsayılan boyut** – **Sabit olmayan** veya **Sabit değer**.</span><span class="sxs-lookup"><span data-stu-id="be3ab-140">**Default dimension** – **Not fixed** or **Fixed value**.</span></span> <span data-ttu-id="be3ab-141">**Sabit değer** bu ana hesap için tüm nakillerin **Sabit** olarak ayarladığınız herhangi bir boyut değeri her zaman kullanmasını garantilemeye yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="be3ab-141">**Fixed value** will help guarantee that all postings for this main account always use any dimension value that is set up as **Fixed**.</span></span>
+-   <span data-ttu-id="be3ab-142">**Deftere nakli doğrulama**</span><span class="sxs-lookup"><span data-stu-id="be3ab-142">**Posting validation**</span></span>
+    -   <span data-ttu-id="be3ab-143">**Kullanıcı doğrulama** – Bu seçenek, bir ana hesap için deftere nakletmek için hangi kullanıcıların izinli olacağını denetler.</span><span class="sxs-lookup"><span data-stu-id="be3ab-143">**User validation** – This option controls which users are allowed to post to a main account.</span></span>
+    -   <span data-ttu-id="be3ab-144">**Deftere gönderme türü doğrulama** – Bu seçenek, bir ana hesap için hangi deftere nakletme türlerinin izinli olacağını denetler.</span><span class="sxs-lookup"><span data-stu-id="be3ab-144">**Posting type validation** – This option controls which posting types are allowed for a main account.</span></span>
 
-### <a name="accounting-structures-and-advanced-rules-structures"></a>Hesap yapıları ve gelişmiş kurallar yapıları
+### <a name="accounting-structures-and-advanced-rules-structures"></a><span data-ttu-id="be3ab-145">Hesap yapıları ve gelişmiş kurallar yapıları</span><span class="sxs-lookup"><span data-stu-id="be3ab-145">Accounting structures and advanced rules structures</span></span>
 
-Hesap yapıları ve Gelişmiş kurallar yapıları finansal raporlama ve performans izleme için gerekli olan verilerin yevmiye işleme ve belgeleri sırasında yakalandığını güvence altına almak için büyük önem taşımaktadır. Hesap yapıları ve gelişmiş kurallar yapıları veri girişi deneyimini uyarlamanızı sağlar. Veri girişini sadece her durumda ilgili olan mali boyutları için izin verebilirsiniz ve zorunlu ve doğru verileri her zaman yakalanmasını gereksinimini de zorlayabilirsiniz.
+<span data-ttu-id="be3ab-146">Hesap yapıları ve Gelişmiş kurallar yapıları finansal raporlama ve performans izleme için gerekli olan verilerin yevmiye işleme ve belgeleri sırasında yakalandığını güvence altına almak için büyük önem taşımaktadır.</span><span class="sxs-lookup"><span data-stu-id="be3ab-146">Accounting structures and advanced rules structures are extremely important for guaranteeing that the data that is required for financial reporting and performance tracking is captured during general journal processing and any documentation.</span></span> <span data-ttu-id="be3ab-147">Hesap yapıları ve gelişmiş kurallar yapıları veri girişi deneyimini uyarlamanızı sağlar.</span><span class="sxs-lookup"><span data-stu-id="be3ab-147">Accounting structures and advanced rules structures let you tailor the data entry experience.</span></span> <span data-ttu-id="be3ab-148">Veri girişini sadece her durumda ilgili olan mali boyutları için izin verebilirsiniz ve zorunlu ve doğru verileri her zaman yakalanmasını gereksinimini de zorlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="be3ab-148">You can allow data entry only for financial dimensions that are relevant in each situation, and can also enforce the requirement that mandatory and correct data always be captured.</span></span>
 
-Daha fazla bilgi için aşağıdaki konulara bakın:
-- [Planlama: Hesap planı](plan-chart-of-accounts.md). 
-- [Günlükler için gelişmiş kurallar oluşturma](tasks/create-advanced-rules-journals.md)
-- [Şablon kullanarak yevmiye defteri girişi oluşturma](tasks/create-journal-entry-template.md)
-- [Günlükler oluşturma ve doğrulama](tasks/create-validate-journals.md)
-- [Periyodik günlükleri deftere nakletme](tasks/post-periodic-journals.md)
-- [Genel muhasebe tahsisat günlüğünü işleme](tasks/process-ledger-allocation-journal.md)
+<span data-ttu-id="be3ab-149">Daha fazla bilgi için aşağıdaki konulara bakın:</span><span class="sxs-lookup"><span data-stu-id="be3ab-149">For more information, see the following topics:</span></span>
+- <span data-ttu-id="be3ab-150">[Planlama: Hesap planı](plan-chart-of-accounts.md).</span><span class="sxs-lookup"><span data-stu-id="be3ab-150">[Planning: Chart of accounts](plan-chart-of-accounts.md).</span></span> 
+- [<span data-ttu-id="be3ab-151">Günlükler için gelişmiş kurallar oluşturma</span><span class="sxs-lookup"><span data-stu-id="be3ab-151">Create advanced rules for journals</span></span>](tasks/create-advanced-rules-journals.md)
+- [<span data-ttu-id="be3ab-152">Şablon kullanarak yevmiye defteri girişi oluşturma</span><span class="sxs-lookup"><span data-stu-id="be3ab-152">Create a journal entry using a template</span></span>](tasks/create-journal-entry-template.md)
+- [<span data-ttu-id="be3ab-153">Günlükler oluşturma ve doğrulama</span><span class="sxs-lookup"><span data-stu-id="be3ab-153">Create and validate journals</span></span>](tasks/create-validate-journals.md)
+- [<span data-ttu-id="be3ab-154">Periyodik günlükleri deftere nakletme</span><span class="sxs-lookup"><span data-stu-id="be3ab-154">Post periodic journals</span></span>](tasks/post-periodic-journals.md)
+- [<span data-ttu-id="be3ab-155">Genel muhasebe tahsisat günlüğünü işleme</span><span class="sxs-lookup"><span data-stu-id="be3ab-155">Process ledger allocation journal</span></span>](tasks/process-ledger-allocation-journal.md)
 
 
 

@@ -14,39 +14,39 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: c5340f4dacd743600ef955c8d5228d1e2d2d2fa9
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 62b637b81a522c353067248deea79cfbf98518e9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="piece-picking-confirmation"></a>Parça çekme onayı
+# <a name="piece-picking-confirmation"></a><span data-ttu-id="05242-103">Parça çekme onayı</span><span class="sxs-lookup"><span data-stu-id="05242-103">Piece picking confirmation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Parça çekme, bir mobil cihazda çekme veya sayım işi aracılığıyla stoktaki her parçayı onaylamanıza olanak tanır. Çekme işleri için, işte çekim için belirtilen miktara kadar olan miktarda işi onaylayabilirsiniz. Sayım işi için, saydığınız stoğu tarayabilir ve toplam tutarı izleyebilirsiniz.
+<span data-ttu-id="05242-104">Parça çekme, bir mobil cihazda çekme veya sayım işi aracılığıyla stoktaki her parçayı onaylamanıza olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="05242-104">Piece picking allows you to confirm each piece of inventory through picking or counting work on a mobile device.</span></span> <span data-ttu-id="05242-105">Çekme işleri için, işte çekim için belirtilen miktara kadar olan miktarda işi onaylayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="05242-105">For picks, you can confirm the quantity of work to be processed up to the quantity that is specified on work to be picked.</span></span> <span data-ttu-id="05242-106">Sayım işi için, saydığınız stoğu tarayabilir ve toplam tutarı izleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="05242-106">For counting work, you can scan the inventory that you are counting and track the total amount.</span></span>
 
-Parça çekmeyi etkinleştirdiğinizde, ürün onayı otomatik olarak seçilir. İş türü çekmeler için, maksimum parça sayısı etkinleştirilir. Bu, parça sayısı için iş işlenirken onaylanması gereken maksimum değeri ayarlamanıza olanak sağlar. Maksimum miktar işlenmekte olan geçerli iş birimini temel alır. Sayım iş türü maksimum ayarlanmasına izin vermez.
+<span data-ttu-id="05242-107">Parça çekmeyi etkinleştirdiğinizde, ürün onayı otomatik olarak seçilir.</span><span class="sxs-lookup"><span data-stu-id="05242-107">When you enable piece picking, product confirmation is automatically selected.</span></span> <span data-ttu-id="05242-108">İş türü çekmeler için, maksimum parça sayısı etkinleştirilir.</span><span class="sxs-lookup"><span data-stu-id="05242-108">For work-type picks, a maximum number of pieces is enabled.</span></span> <span data-ttu-id="05242-109">Bu, parça sayısı için iş işlenirken onaylanması gereken maksimum değeri ayarlamanıza olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="05242-109">This allows you to set a maximum to the number of pieces that must be confirmed during the work process.</span></span> <span data-ttu-id="05242-110">Maksimum miktar işlenmekte olan geçerli iş birimini temel alır.</span><span class="sxs-lookup"><span data-stu-id="05242-110">The maximum quantity is based on the current work unit that is being processed.</span></span> <span data-ttu-id="05242-111">Sayım iş türü maksimum ayarlanmasına izin vermez.</span><span class="sxs-lookup"><span data-stu-id="05242-111">The counting work type does not allow a maximum.</span></span>
 
-Taranan bir barkodla ilişkili olan miktarı ve ölçü birimini de kullanabilirsiniz. Karma plaka alma, satınalma siparişi maddesi, transfer emri maddesi ve yük maddesi de dahil olmak üzere gelen akışlar üzerinde alma için işe yarar. Ayrıca, barkod tarama işleminin miktarı onaylanan toplam parça sayısına barkod ile iş birimi üzerindeki ölçü birimine göre dönüştürme yaparak eklediği parça çekme işleminde de kullanılabilir. Barkod üzerindeki ölçü birimi sayımı yapılırken, miktarın sıra grubunda sayımına izin verildiği onaylanırsa, miktar toplam sayıma eklenir.
+<span data-ttu-id="05242-112">Taranan bir barkodla ilişkili olan miktarı ve ölçü birimini de kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="05242-112">You can also use the quantity and unit of measure (UOM) that is associated with a scanned bar code.</span></span> <span data-ttu-id="05242-113">Karma plaka alma, satınalma siparişi maddesi, transfer emri maddesi ve yük maddesi de dahil olmak üzere gelen akışlar üzerinde alma için işe yarar.</span><span class="sxs-lookup"><span data-stu-id="05242-113">This will work for receiving on inbound flows including mixed license plate receiving, purchase order item, transfer order item, and load item.</span></span> <span data-ttu-id="05242-114">Ayrıca, barkod tarama işleminin miktarı onaylanan toplam parça sayısına barkod ile iş birimi üzerindeki ölçü birimine göre dönüştürme yaparak eklediği parça çekme işleminde de kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="05242-114">It also works for piece picking where scanning the bar code will add the quantity to the total number of confirmed pieces converting between the UOM on the bar code and the work unit.</span></span> <span data-ttu-id="05242-115">Barkod üzerindeki ölçü birimi sayımı yapılırken, miktarın sıra grubunda sayımına izin verildiği onaylanırsa, miktar toplam sayıma eklenir.</span><span class="sxs-lookup"><span data-stu-id="05242-115">If, when counting the UOM on the bar code, it is confirmed that the quantity is allowed for counting on the sequence group, the quantity will be added to the total count.</span></span>
 
-## <a name="where-it-applies"></a>Uygulandığı yerler
+## <a name="where-it-applies"></a><span data-ttu-id="05242-116">Uygulandığı yerler</span><span class="sxs-lookup"><span data-stu-id="05242-116">Where it applies</span></span>
 
-Parça çekme tüm sayım işlemleri ve herhangi bir iş türü için ilk çekme işleminde kullanılır. Parça çekme, madde seri numaraları tarafından denetleniyorsa veya bir plaka konumundan yapılan bir kanban veya üretim çekme işlemiyse ve madde aşamalandırma için ayarlandıysa kullanılamaz.
+<span data-ttu-id="05242-117">Parça çekme tüm sayım işlemleri ve herhangi bir iş türü için ilk çekme işleminde kullanılır.</span><span class="sxs-lookup"><span data-stu-id="05242-117">Piece picking works for all counting work and for the initial pick for any type of work.</span></span> <span data-ttu-id="05242-118">Parça çekme, madde seri numaraları tarafından denetleniyorsa veya bir plaka konumundan yapılan bir kanban veya üretim çekme işlemiyse ve madde aşamalandırma için ayarlandıysa kullanılamaz.</span><span class="sxs-lookup"><span data-stu-id="05242-118">Piece picking does not apply if the item is controlled by serial numbers or if it is a production or kanban pick from a license plate (LP) location and the item is set to staging.</span></span>
 
-## <a name="set-up-piece-picking"></a>Parça çekme işlemini ayarlama
+## <a name="set-up-piece-picking"></a><span data-ttu-id="05242-119">Parça çekme işlemini ayarlama</span><span class="sxs-lookup"><span data-stu-id="05242-119">Set up piece picking</span></span>
 
-1.  Mobil cihaz menü öğesinden iş onayı için kurulum formunu açın: Ambar yönetimi > **Ambar yönetimi** > **Kurulum** > **Mobil cihaz** > **Mobil cihaz menü öğeleri**. 
-2. Mobil cihaz menü öğesinden İş onayı ayarını açın.
+1.  <span data-ttu-id="05242-120">Mobil cihaz menü öğesinden iş onayı için kurulum formunu açın: Ambar yönetimi > **Ambar yönetimi** > **Kurulum** > **Mobil cihaz** > **Mobil cihaz menü öğeleri**.</span><span class="sxs-lookup"><span data-stu-id="05242-120">On a mobile device menu item, open the setup form for work confirmation: Warehouse management > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span> 
+2. <span data-ttu-id="05242-121">Mobil cihaz menü öğesinden İş onayı ayarını açın.</span><span class="sxs-lookup"><span data-stu-id="05242-121">From the mobile device menu item, open Work confirmation setup.</span></span>
 
-İş türü çekme veya sayım olduğunda aşağıdaki seçenekler seçim için kullanılabilir hale gelir.
+<span data-ttu-id="05242-122">İş türü çekme veya sayım olduğunda aşağıdaki seçenekler seçim için kullanılabilir hale gelir.</span><span class="sxs-lookup"><span data-stu-id="05242-122">The following options become available for selection when the work type is pick or counting.</span></span>
 
-| Seçenek        | Açıklama   | 
+| <span data-ttu-id="05242-123">Seçenek</span><span class="sxs-lookup"><span data-stu-id="05242-123">Option</span></span>        | <span data-ttu-id="05242-124">Açıklama</span><span class="sxs-lookup"><span data-stu-id="05242-124">Description</span></span>   | 
 | ------------- | ------------- |
-| Parça çekme onayı   | Çekme ve sayım iş türleri için kullanılabilir. Ürün onayı otomatik olarak seçilir. Her stok parçasını mobil cihazınızdan onaylamanıza olanak tanır. | 
-| Maksimum parça sayısı     | Parça çekme onayı etkinleştirilmişse, çekme işi için kullanılabilir. Onaylamak zorunda olduğunuz parça sayısı için bir sınır ayarlar. |  
+| <span data-ttu-id="05242-125">Parça çekme onayı</span><span class="sxs-lookup"><span data-stu-id="05242-125">Piece picking confirmation</span></span>   | <span data-ttu-id="05242-126">Çekme ve sayım iş türleri için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="05242-126">Available for pick and counting work types.</span></span> <span data-ttu-id="05242-127">Ürün onayı otomatik olarak seçilir.</span><span class="sxs-lookup"><span data-stu-id="05242-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="05242-128">Her stok parçasını mobil cihazınızdan onaylamanıza olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="05242-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> | 
+| <span data-ttu-id="05242-129">Maksimum parça sayısı</span><span class="sxs-lookup"><span data-stu-id="05242-129">Maximum number of pieces</span></span>     | <span data-ttu-id="05242-130">Parça çekme onayı etkinleştirilmişse, çekme işi için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="05242-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="05242-131">Onaylamak zorunda olduğunuz parça sayısı için bir sınır ayarlar.</span><span class="sxs-lookup"><span data-stu-id="05242-131">Sets a limit to the number of pieces that you must confirm.</span></span> |  
 
