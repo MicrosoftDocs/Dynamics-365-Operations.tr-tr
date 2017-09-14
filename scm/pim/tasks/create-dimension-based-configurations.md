@@ -1,7 +1,7 @@
 --- 
 title: "Boyut tabanlı yapılandırmalar oluşturma"
 description: "Bu prosedürde bir boyut tabanlı ürün için bir yapılandırmanın nasıl tanımlanacağı açıklanmıştır."
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 06/21/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis

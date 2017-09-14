@@ -1,7 +1,7 @@
 --- 
 title: "Önceden tanımlanmış ürün çeşitleri oluşturma"
 description: "Bu prosedürde ürün boyutları kombinasyonları kullanılarak bir ana ürün için ürün seçeneklerinin nasıl oluşturulacağı adım adım açıklanmıştır."
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 10/27/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
