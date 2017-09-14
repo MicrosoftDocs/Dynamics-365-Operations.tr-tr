@@ -1,9 +1,9 @@
 ---
 title: "Proje sözleşmeleri"
 description: "Bu makalede Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünde çeşitli proje türleri ve finansman kaynakları için oluşturabileceğiniz proje sözleşmeleri örneklerle açıklanmakta, sözleşmeleri nasıl yöneteceğiniz ve proje müşterilerini nasıl faturalandıracağınız anlatılmaktadır."
-author: twheeloc
+author: KimANelson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,14 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: d13362acf70edc03a47662c4c3eff680cc04bd8f
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: 0d7d3b64b0d6a662246074b12e3a3fe105dfae47
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/14/2017
 
 ---
 

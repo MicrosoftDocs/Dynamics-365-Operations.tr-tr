@@ -1,7 +1,7 @@
 --- 
 title: "Ürün sınıflandırması için hiyerarşi oluşturma"
 description: "Bu yordam yeni bir kategori hiyerarşisi oluşturmayı ve emtia kodu hiyerarşi türü atamayı gösterir."
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
-ms.openlocfilehash: 46a5d21550cfe1728ee6ca468c4ad523beb719da
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: 0c107c9d15e0e023de51891f23c2d2360c3b8e7f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/14/2017
 
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a><span data-ttu-id="a65ef-103">Ürün sınıflandırması için hiyerarşi oluşturma</span><span class="sxs-lookup"><span data-stu-id="a65ef-103">Create a hierarchy of product classification</span></span>

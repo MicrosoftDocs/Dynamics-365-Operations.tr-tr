@@ -1,9 +1,9 @@
 ---
 title: "Bir proje için satın alma emirleri"
 description: "Bu makalede bir proje için satın alma emirlerinin oluşturulmasında kullanılabilecek çeşitli yöntemler açıklanmıştır. Kullandığınız yöntem, satın alma emrinin amacına, satın alınan maddelerin ne zaman tüketildiğine ve satın alınan maddelerin bir projeye ne zaman şarj edileceğine göre değişir."
-author: twheeloc
+author: KimANelson
 manager: AnnBe
-ms.date: 08/07/2017
+ms.date: 09/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 83972
 ms.assetid: 247e4d72-610b-4fa5-9873-601ed0f4b2d6
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
-ms.openlocfilehash: d55c999ed1f506a2d9487c8cc94bf0e9cce3bed1
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: 985a57ae9fb116b1c4514b836b35c5da0f8838fd
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/14/2017
 
 ---
 

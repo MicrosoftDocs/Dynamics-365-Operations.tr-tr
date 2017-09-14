@@ -1,9 +1,9 @@
 ---
 title: "Proje yönetimi ve muhasebe"
 description: "Proje yönetimi ve muhasebe işlevi, birden çok sektörde hizmet almak, ürün üretmek veya bir sonuç elde etmek için kullanılabilir."
-author: twheeloc
+author: KimANelson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: cfecabef2689814f6f8f2fecf0f22903cce98f2a
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: cd30c9278c58f8e0ca9b50f67a999708bd64c0a2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/14/2017
 
 ---
 

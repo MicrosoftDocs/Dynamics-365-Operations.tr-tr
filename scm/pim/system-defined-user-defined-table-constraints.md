@@ -1,7 +1,7 @@
 ---
 title: "Sistem tanımlı ve kullanıcı tanımlı tablo kısıtlamaları"
 description: "Bu makalede, kullanıcı tanımlı ve sistem tanımlı olmak üzere, bir ürün yapılandırma modelindeki bileşenler için iki tablo sınırlandırma türü açıklanmaktadır. Tablo sınırlandırmaları, her bir satırın bir pozitif öznitelik değeri setine karşılık geldiği, izin verilen öznitelik kombinasyonlarının matrislerini temsil eder."
-author: YuyuScheller
+author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PCTableConstraintAttachAttributeTree, PCTableConstraintColumnSystem, PCTableConstraintContentUserDef, PCTableConstraintDefinition, PCTableConstraintWizard
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19781
 ms.assetid: 0a4ea930-b344-43a8-871e-d5cd077892c4
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 9bce875b5688c3b2449262437091e28dbcb740f0
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: b59452496f0ad47f1fe2ff034895a082a205dda9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/14/2017
 
 ---
 

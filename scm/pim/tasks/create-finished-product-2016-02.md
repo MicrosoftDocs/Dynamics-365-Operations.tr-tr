@@ -1,7 +1,7 @@
 --- 
 title: "Tamamlanmış ürün oluşturma (yalnızca Şubat 2016)"
 description: "Bu görev, bitmiş bir ürün oluşturmaya odaklanır."
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
-ms.openlocfilehash: 9d1718c5e9c98c77fbc274de1bf94f7f0e5eccb4
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: a14b56b508e5d46bb2898828bd30fdf6c3c14023
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/14/2017
 
 ---
 # <a name="create-a-finished-product-february-2016-only"></a><span data-ttu-id="ac5f0-103">Tamamlanmış ürün oluşturma (yalnızca Şubat 2016)</span><span class="sxs-lookup"><span data-stu-id="ac5f0-103">Create a finished product (February 2016 only)</span></span>
