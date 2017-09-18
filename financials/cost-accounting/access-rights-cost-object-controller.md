@@ -27,7 +27,7 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-## <a name="access-rights-of-a-cost-object-controller"></a>Bir maliyet nesnesi denetleyicisinin erişim hakları
+# <a name="access-rights-of-a-cost-object-controller"></a>Bir maliyet nesnesi denetleyicisinin erişim hakları
 
 [!include[banner](../includes/banner.md)]
 
