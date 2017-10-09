@@ -1,6 +1,6 @@
 ---
 title: "Finance and Operations sözlüğü"
-description: "Bu sözlük Microsoft Dynamics 365 for Finance and Operations Enterprise Edition'daki temel terimleri ve kavramları tanımlar."
+description: "Bu sözlük Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümündeki temel terimleri ve kavramları tanımlar."
 author: tonyafehr
 manager: AnnBe
 ms.date: 07/25/2017
@@ -18,10 +18,10 @@ ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 84ee9110fa32a551133a6ab4b7c6feb9ea9c017a
-ms.openlocfilehash: 0b4d5285cc1aa44da566ec5d7fa7ebe568729fdf
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 04f47b838bb5ca0d22f36855c3a969d4c38430de
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 07/27/2017
 
 [!include[banner](../includes/banner.md)]
 
-Bu sözlük Microsoft Dynamics 365 for Finance and Operations Enterprise Edition'daki temel terimleri ve kavramları tanımlar. 
+Bu sözlük Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümündeki temel terimleri ve kavramları tanımlar. 
 
 ### <a name="a"></a>**A**
 
