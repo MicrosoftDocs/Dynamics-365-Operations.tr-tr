@@ -451,6 +451,7 @@
 ### [Bölünmüş modeller](dev-tools/model-split.md)
 ### [Modeller arasındaki bağımlılıkları çözmek için temsilci kullanma](migration-upgrade/delegates-migration.md)
 
+
 ## Yeni bir güncelleştirmeye yükseltme
 ### [En son güncelleştirmeye geçme işlemi](migration-upgrade/upgrade-latest-update.md)
 ### [Yaşam döngüsü ilkesi](migration-upgrade/versions-update-policy.md)
@@ -511,6 +512,8 @@
 ## [Özel iş süreçleri yükleme](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [İzleme ve tanılama ](lifecycle-services/monitoring-diagnostics.md)
 ## [Varlık kitaplığı](lifecycle-services/asset-library.md)
+## [Microsoft Dynamics 365 - Çeviri Hizmetine genel bakış](lifecycle-services/translation-service-overview.md)
+### [Microsoft Dynamics 365 Çeviri Hizmeti kullanıcı kılavuzu  ](lifecycle-services/use-translation-service.md)
 
 ## Dynamics AX 2012 Lifecycle Services özellikleri
 ### Dağıtım
