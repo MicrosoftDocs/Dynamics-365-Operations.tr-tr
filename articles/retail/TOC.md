@@ -1,5 +1,8 @@
 # [Dynamics 365 for Retail'e hoş geldiniz](index.md)
 
+# Başlayın
+## [Yenilikler veya değişenler](get-started/whats-new.md)
+
 # Ödemeler
 ## [Ödeme yöntemleri](payment-methods.md)
 ## [Kredi kartı ayarı, onayı ve çekimi](../financials/accounts-receivable/credit-card-authorizations.md)
@@ -32,7 +35,7 @@
 ## [Perakende ortamında tohum verileri başlatma](enable-configure-retail-functionality.md)
 ## [Perakende kanallarını tanımlama](define-maintain-retail-channels.md)
 ## [Çevrimiçi mağazaya genel bakış](online-stores.md)
-## [Perakende donanım istasyonu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md)
+## [Retail donanım istasyonu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md)
 ## [Perakende saat ve işe devam](retail-time-attendance.md)
 
 # Modern Satış Noktası (MPOS) ve Bulut POS
@@ -173,9 +176,10 @@
 ### [Retail Modern POS konfigürasyonu ve yüklemesi](retail-modern-pos-device-activation.md)
 #### [Retail hesaplarını ve cihazlarını genel merkezden yönetme](set-up-activation-accounts-validate-devices-hq.md)
 #### [Retail POS cihazını etkinleştirme](dev-itpro/retail-device-activation.md)
-#### [Güvenli Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
-### [Perakende Donanım İstasyonu konfigürasyonu ve yüklemesi](retail-hardware-station-configuration-installation.md).
-### [Tanılama ve sorun giderme için perakende bileşeni olayları](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
+#### [Güvenli Retail Bulut POS](dev-itpro/secure-retail-cloud-pos.md)
+### [Retail Donanım İstasyonu yapılandırması ve yüklemesi](retail-hardware-station-configuration-installation.md).
+### [Retail self servis bileşenlerinin toplu dağıtımı](dev-itpro/retail-mass-deployment.md)
+### [Tanılama ve sorun giderme için Retail bileşeni olayları](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
 ### [Dağıtılabilir paket uygulama](../dev-itpro/deployment/apply-deployable-package-system.md)
 
 ## Yükseltme ve N-1 desteği
