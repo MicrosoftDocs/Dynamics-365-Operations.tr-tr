@@ -14,11 +14,11 @@ ms.search.scope:
 ms.assetid: 
 ms.search.region: Global
 ms.author: bking
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: e105c4b171979a03c20718c1fa9d558c921cd704
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 447fd87cb2f71147d7a9f6476f4ed9e12d75640a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ Bu konu, **Veri doğrulama denetim listesi** çalışma alanı ve bununla ilişk
 
 ### <a name="summary-tiles"></a>Özet kutucukları
 
-**Özet** kutucukları sürece genel bakış sağlar ve veri doğrulama sürecini izlemenize yardımcı olacak göstergeleri sağlar. İşlem için tüm kalan görevleri, tamamlanan görevleri, süren görevleri ve başlatılmamış görevleri görebilirsiniz. Bu bilgi, seçilen veri doğrulama projesine dahil tüm şirketler için geçerlidir.
+**Özet** kutucukları işleme genel bir bakış sağlar ve veri doğrulama işleminin yolunda gittiğinden emin olmanızı sağlar. Kalan tüm görevleri, tamamlanan görevleri, süren görevleri ve işlem için başlatılmamış görevleri görürsünüz. Bu bilgi, seçilen veri doğrulama projesine dahil tüm şirketler için geçerlidir.
 
 ### <a name="tasks-and-status-section"></a>Görevler ve durum bölümü
 

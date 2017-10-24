@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a454a487a0879234eee76a39b2f095d1d80ea1e
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 3099ed24275267f81f85c4e7d3625cfa6eea0309
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -68,7 +68,7 @@ April sonra ödemeyi deftere nakleder. Faturanın artık 700,00 miktarında baki
 | DISC-10020 | Nakit iskontosu    | 1/7/2015  |         | 3,00                                 |                                       | 0,00    | ABD Doları      |
 
 ## <a name="remaining-payment-on-july-15-use-cash-discount--normal"></a>Kalan ödeme Temmuz 15'te, Nakit indirimi kullanın = Normal
-April, faturanın geri kalanını, iskonto döneminden sonra olan, 15 Temmuz'da öder. **Açık hareketleri kapatma** sayfasında, **Tahmini nakit iskontosu**alanında hiçbir indirim tutarı görüntülenmez ve **Nakit iskontosu tutarı** alanında değer **0,00** olur. April kalan 700,00'ü ödediğinde, hiçbir ek iskonto alınmaz.
+April, faturanın geri kalanını, iskonto döneminden sonra olan, 15 Temmuz'da öder. **Açık hareketleri kapatma** sayfasında, **Tahmini nakit iskontosu** alanında hiçbir indirim tutarı görüntülenmez ve **Nakit iskontosu tutarı** alanında değer **0,00** olur. April kalan 700,00'ü ödediğinde, hiçbir ek iskonto alınmaz.
 
 | İşaret     | Nakit iskontosu kullan | Fiş   | Hesap | Tarih      | Vade tarihi  | Fatura | Hareket para birimi cinsinden tutar | Para Birimi | Kapatılacak tutar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|

@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f227a630f7d1245d5db810d6d48df2b20f699185
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fb61a3dd6534cd20f311b5b0c85b9e712981a5dd
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -60,7 +60,7 @@ April, **Yayınla** düğmesini tıklar. Daha sonra tamamlanan işlemleri gözde
 | Seçildi ve vurgulandı | Normal            | Inv-10070 | 3050    | 29/6/2015 | 29/7/2015 | 10070    | -1.000,00                      | ABD Doları      | -200,00          |
 | Seçildi                 | Normal            | CR-10070  | 3050    | 2/7/2015  | 29/7/2015 | CR-10070 | 200,00                         | ABD Doları      | 198,00           |
 
-April, **Tüm satıcılar** sayfasını seçerek **Satıcı işlemleri**sayfasındaki satıcı işlemlerini gözden geçirebilir ve ardından İşlem Panosundan **İşlemler** düğmesini tıklayabilir. April, bu sayada faturanın -800,00 değerinde bir bakiyeye sahip olduğunu görür. Ayrıca, 198,00 değerinde bir credit note ve 2,00 değerinde bir iskonto bulunduğunu görür.
+April, **Tüm satıcılar** sayfasını seçerek **Satıcı işlemleri** sayfasındaki satıcı işlemlerini gözden geçirebilir ve ardından İşlem Panosundan **İşlemler** düğmesini tıklayabilir. April, bu sayada faturanın -800,00 değerinde bir bakiyeye sahip olduğunu görür. Ayrıca, 198,00 değerinde bir credit note ve 2,00 değerinde bir iskonto bulunduğunu görür.
 
 | Fiş    | Hareket türü | Tarih      | Fatura | Hareket para birimi borcundaki tutar | Hareket para birimi alacağındaki tutar | Kalan | Para Birimi |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

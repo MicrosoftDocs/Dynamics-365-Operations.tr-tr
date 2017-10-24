@@ -16,13 +16,13 @@ ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 01955aefb27bd18809b35fd025c9dd1b8eb70520
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 035c5d15e5508c78dd66a349defd534bfecc96bb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +42,7 @@ Belirli talep sahibi, satınalma tüzelkişiliği ve alıcı işlem birimi için
 İlkelerle ilgili daha fazla bilgi için bkz. [Satınalma ilkeleri](../procurement/purchase-policies.md).
 
 - Belirli tedarik kategorileri için harici katalogları bulmak üzere katalog arama alanına metin girin.
-- Satıcının web sitesindeki harici kataloğundan ürünler eklemek için harici kataloğu tıklayın. Ardından alışveriş sepetine ürün ekleyin ve çıkın. Alışveriş sepeti satırları Microsoft Dynamics 365'e transfer edilir.
+- Satıcının web sitesindeki harici kataloğundan ürünler eklemek için harici kataloğu tıklayın. Daha sonra ürünleri alışveriş sepetine ekleyin ve ödemeye geçin. Alışveriş sepeti satırları Microsoft Dynamics 365'e aktarılacaktır.
 
 Tedarik kategorileri için birden fazla seçenek varsa, talebe satırları eklemeden önce doğru tedarik kategorisini seçin.
 Talebe satırlar eklendikten sonra harici katalogları kullanmadan daha fazla satır ekleyebilirsiniz. Alternatif olarak, satır eklemek için harici katalogları kullanmaya devam edebilirsiniz.

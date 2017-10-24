@@ -16,13 +16,13 @@ ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
 ms.author: mrolecki
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: fb2aeee1f38823e7ea96071f773e8448d65ba8ff
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: dedabf13044be30a67a945ff4ca2ecfb1eea8150
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -101,7 +101,7 @@ Konum dosyanın kaydedildiği yeri belirler. **Arşiv** hedefi etkinleştirildik
 
 #### <a name="sharepoint"></a>SharePoint
 
-Dosyayı belirlenen bir SharePoint klasörüne kaydedebilirsiniz. Varsayılan SharePoint sunucusunu **SharePoint** sekmesinde **Kuruluş yönetimi** &gt; **Belge yönetimi** &gt; **Belge yönetimi parametreleri** altından tanımlayın. SharePoint klasörü yapılandırıldıktan sonra bunu ER çıkışının kaydedileceği klasör olarak belge türü için seçebilirsiniz. 
+Dosyayı belirlenen bir SharePoint klasörüne kaydedebilirsiniz. Varsayılan SharePoint sunucusunu **Kuruluş yönetimi** &gt; **Belge yönetimi** &gt; **Belge yönetim parametreleri** üzerinde, **SharePoint** sekmesinde tanımlarsınız. SharePoint klasörü yapılandırıldıktan sonra, ER çıkışının belge türü için kaydedileceği klasör olarak seçebilirsiniz. 
 
 [![Bir SharePoint klasörünü seçme](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg) 
 

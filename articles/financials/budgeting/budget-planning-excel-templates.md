@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 7cec40859a8c68cb8a9751c5531c67cef7706258
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -133,7 +133,7 @@ Ek bir menü için oku tıklatın. **Kilidi** seçin.
 
 Evet, Excel yeteneklerinden çoğu bütçe planı şablonlarında çalışacaktır. Salt okunur ve düzenlenebilir sütunlar arasında ayrım yapmak için renk kodlaması kullanmanızı öneririz. Koşullu biçimlendirme, bütçenin sorunlu alanlarını vurgulamak için kullanılabilir. Standart Excel formüllerini tablo üzerinde kullanarak sütun toplamları kolaylıkla sunulabilir.
 
-Bütçe verisinin ek gruplama ve görselleştirmeleri için özet tabloları ve grafikleri oluşturabilir ve kullanabilirsiniz. **Veri** sekmesinde, **Bağlantılar** grubunda, **Tümünü Yenile** üzerine tıklayın ve daha sonra **Bağlantı Özellikleri** üzerine tıklayın. **Kullanım** sekmesini tıklatın. **Yenile** altında, **Dosya açarken veriyi yenile** onay kutusuna seçin. 
+Bütçe verisinin ek gruplama ve görselleştirmeleri için özet tabloları ve grafikleri oluşturabilir ve kullanabilirsiniz. **Veri** sekmesinde, **Bağlantılar** grubunda, **Tümünü Yenile** üzerine tıklayın ve daha sonra **Bağlantı Özellikleri** üzerine tıklayın. **Kullanım** sekmesini tıklatın. **Yenile** altında, **Dosya açarken veriyi yenile** onay kutusunu seçin. 
 
 [![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
 

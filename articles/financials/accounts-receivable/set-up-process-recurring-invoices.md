@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 463a81d615e6820b6ab45592cd21e28a76c6c04d
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 5f095b74df8b680f6e7e54520f9684298ec51aad
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -55,11 +55,11 @@ Pratikte, tüm bir fatura oluşturur ve bunu şablon olarak kaydedersiniz. **Yin
 Bir müşteri, farklı sıklıklara sahip, birden fazla şablona sahip olabilir.
 
 ## <a name="generate-the-recurring-invoices"></a>Yinelenen faturalar oluşturma
-**Yinelenen faturalar**sayfasında, yinelenen fatura şablonlarının işlenmesi için bir görev mevcuttur. Fatura tarihini ve faturaların oluşturulacağı şablonu belirtirsiniz. Faturalar oluşturulur ve işlenen her bir fatura grubu için tek bir yineleme kimlik numarası atanır.
+**Yinelenen faturalar** sayfasında, yinelenen fatura şablonlarının işlenmesi için bir görev mevcuttur. Fatura tarihini ve faturaların oluşturulacağı şablonu belirtirsiniz. Faturalar oluşturulur ve işlenen her bir fatura grubu için tek bir yineleme kimlik numarası atanır.
 Yinelenen serbest metin faturalarını nakletme
 ---------------------------------
 
-Yinelenen faturalar oluşturulduktan sonra fatura yineleme kimlikleri **Yinelenen faturalar**sayfasındaki bir nakil görevinde görüntülenir. Bağlantıyı tıklayarak bir yineleme kimliği için faturaların tümünü görüntüleyebilirsiniz. Yineleme kimliği için faturaları gözden geçirerek faturaları ayrı ayrı silebilirsiniz. Müşterinin yineleme ayarları o şablon için sıfırlanır ve böylece daha sonra yeniden oluşturulabilir. Bir yineleme kimliği için faturaların biri, birden fazlası veya tümü nakledilebilir. İş akışları etkinleştirilirse, faturaları nakletmeden önce mutlaka **Gönder** düğmesini tıklamalısınız.
+Yinelenen faturalar oluşturulduktan sonra fatura yineleme kimlikleri **Yinelenen faturalar** sayfasındaki bir nakil görevinde görüntülenir. Bağlantıyı tıklayarak bir yineleme kimliği için faturaların tümünü görüntüleyebilirsiniz. Yineleme kimliği için faturaları gözden geçirerek faturaları ayrı ayrı silebilirsiniz. Müşterinin yineleme ayarları o şablon için sıfırlanır ve böylece daha sonra yeniden oluşturulabilir. Bir yineleme kimliği için faturaların biri, birden fazlası veya tümü nakledilebilir. İş akışları etkinleştirilirse, faturaları nakletmeden önce mutlaka **Gönder** düğmesini tıklamalısınız.
 Yinelenen serbest metin faturalarını yazdırma
 ----------------------------------
 

@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 721c5851cd399398a8dcec5ae110b97a4f17ae0a
+ms.sourcegitcommit: 25a6f326c57e84d6a7c356ac5407be7ed3095f83
+ms.openlocfilehash: 5edc6f0b2240e9dd2d3b72a13f35e96f016aa013
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 10/04/2017
 
 ---
 
@@ -87,7 +87,7 @@ Gerçek donanım gereksinimleri, sistem yapılandırmasına, veri bileşimi ve k
 - Eşzamanlı kullanıcıların sayısı
 
 ## <a name="minimum-infrastructure-requirements"></a>Altyapı minimum gereksinimleri
-Finance and Operations (şirket içi) AOS, Toplu iş, Veri yönetimi, Yönetim raporlayıcısı ve Ortam düzenleyici hizmetleri için Service Fabric kullanır. Microsoft SQL Server Reporting Services (SSRS), Service Fabric kümesinde barındırılmaz.
+Finance and Operations (şirket içi) AOS, Toplu iş, Veri yönetimi, Yönetim raporlayıcısı ve Ortam düzenleyici hizmetleri için Service Fabric kullanır. 
 
 SQL Server üretim kullanımı için en az iki düğüme sahip yüksek kullanılabilirlik HADRON kurulumuna sahip olmalıdır.
 
@@ -225,6 +225,12 @@ Aşağıdaki tablo Finance and Operations veritabanları için desteklenen SQL S
 |------------------------------------------------------------------|-------|
 | Microsoft SQL Server 2016 Standard Edition veya Enterprise Edition | SQL Server 2016 donanım gereksinimleri için bkz. [SQL Server 2016 yüklemek için Donanım ve Yazılım Gereksinimleri](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server). |
 
+## <a name="software-requirements-for-application-object-server-aos"></a>Uygulama Nesne Sunucusu (AOS) için yazılım gereksinimleri 
+- SQL Server Integation Services (SSIS)
+
+## <a name="software-requirements-for-reporting-server-bi"></a>Raporlama Sunucusu için yazılım gereksinimleri (BI)
+- SQL Server Reporting Services (SSRS)
+
 ## <a name="software-requirements-for-client-computers"></a>İstemci bilgisayarları için yazılım gereksinimleri
 Finance and Operations web uygulaması HTML 5.0 uyumlu web tarayıcısına sahip herhangi bir cihazda çalışabilir. Microsoft'un onaylamış olduğu belirli cihaz/tarayıcı kombinasyonlarından bazıları şunlardır:
 
@@ -244,7 +250,7 @@ Etki alanı denetleyicisi 2012 R2 veya daha büyük etki alanı işlev düzeyine
 ## <a name="supported-microsoft-office-applications"></a>Desteklenen Microsoft Office uygulamaları
 Aşağıdaki Microsoft Office uygulamaları Finance and Operations şirket içi dağıtımlarında bulutta desteklenir.
 
--   Microsoft Excel ve Microsoft Word eklentilerini çalıştırmak için Windows veya Mac için Microsoft Office 2016'yı yüklemiş olmanız gerekir. Sürüm gereksinimleri hakkında daha fazla bilgi için bkz. [Office tümleştirme sorunlarını giderme](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Microsoft Excel ve Microsoft Word eklentilerini çalıştırmak için Windows veya Mac için Microsoft Office 2016'yı yüklemiş olmanız gerekir. Sürüm gereksinimleri hakkında daha fazla bilgi için bkz. [Office tümleştirme sorunlarını giderme](../../dev-itpro/office-integration/office-integration-troubleshooting.md).
 -   Excel'e Aktar veya Word'e Aktar işleviyle oluşturulan belgeleri görüntülemek için Microsoft Office 2007 veya sonraki bir sürümü yüklemiş olmanız gerekir.
  
 ## <a name="hardware-and-software-requirements-for-retail-components"></a>Perakende bileşenleri için donanım ve yazılım gereksinimleri

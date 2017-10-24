@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3c9bcb5968740a3892b4d70a02cb398b1faa6aee
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 3fd3842f2e69e8f5d5e269a61ca7f3ec0ff471c0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/02/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="leave-and-absence-management-overview"></a>İzin ve devamsızlık yönetimi genel bakış

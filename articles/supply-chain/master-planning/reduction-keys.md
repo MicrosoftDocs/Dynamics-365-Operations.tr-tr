@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ce3ff2ac0a5bd9bd342baa05425d7d0957ab8a09
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 30634b0af343ad171c385a95c4ba0934180f70cf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -39,7 +39,7 @@ Bu makalelerde bir azaltma anahtarının nasıl ayarlanacağını gösteren örn
 
 Bu örnek bir azaltma anahtarının, talep tahmini gereksinimlerini azaltma anahtarı tarafından tanımlanan yüzdelere ve dönemlere göre nasıl azalttığını gösterir.
 
-1.  **Azaltma anahtarları**sayfasında aşağıdaki satırları ayarlayın.
+1.  **Azaltma anahtarları** sayfasında aşağıdaki satırları ayarlayın.
     | Değiştirme | Birim  | Yüzde |
     |--------|-------|---------|
     | 1      | Ay | 100     |
@@ -48,7 +48,7 @@ Bu örnek bir azaltma anahtarının, talep tahmini gereksinimlerini azaltma anah
     | 4      | Ay | 25      |
 
 2.  Azaltma anahtarını ürünün kapsam grubuna bağlayın.
-3.  **Ana planlar**sayfasında, **Azaltma ilkesi**alanında **Yüzde - azaltma anahtarı**'nı seçin.
+3.  **Ana planlar** sayfasında, **Azaltma ilkesi** alanında **Yüzde - azaltma anahtarı**'nı seçin.
 4.  Aylık 1.000 parçalık bir talep tahmini oluşturun.
 
 Tahmin planını 1 Ocak'ta çalıştırırsanız, talep tahmini gereksinimleri **Azaltma anahtarları** sayfasında ayarladığınız yüzdelere göre tüketilir. Aşağıdaki gereksinim miktarları ana plana transfer edilir.
@@ -64,7 +64,7 @@ Tahmin planını 1 Ocak'ta çalıştırırsanız, talep tahmini gereksinimleri *
 ## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>Örnek 2: Hareketler azaltma anahtarı tahmini azaltma ilkesi
 Bu örnek, azaltma anahtarı tarafından tanımlanan dönemler boyunca gerçekleşen fiili siparişlerin talep tahmini gereksinimlerini nasıl azalttığını gösterir.
 
--   **Ana planlar** sayfasında, **Azaltma ilkesi**alanında **Hareketler - azaltma anahtarı**'nı seçin.
+-   **Ana planlar** sayfasında, **Azaltma ilkesi** alanında **Hareketler - azaltma anahtarı**'nı seçin.
 
 Aşağıdaki satış siparişleri 1 Ocak'tadır.
 

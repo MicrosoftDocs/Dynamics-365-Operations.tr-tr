@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 624f38a7348ede3cc9e6fb7ce0b78a61b1452b61
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 6f665f34055e36775c8bb41be4aae9c4577639d7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -59,7 +58,7 @@ Bu makale, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri
 | Satıcı banka havalesi            | Kuruluşunuzun Bankasına gönderilen bir senet Havale dosyası oluşturun.                                                                                                                                                                                                                                                                      | Havale günlüğü                                             |
 | Satıcıya ödeme               | Satıcıya ödeme hareketleri oluşturun.                                                                                                                                                                                                                                                                                                                    | Ödeme günlüğü                                                |
 | Satıcıya düzenlenen senet       | Ödeme yöntemi olarak Satıcı senetlerini düzenleyin. Bu günlük tipi kullanmak için **Faturaları naklederken düzenleme günlüğünü otomatik olarak oluştur ve naklet** seçeneğini **ödeme yöntemleri - satıcılar** sayfasında temizleyin.                                                                                                                                          | Düzenlenen senet günlüğü                                   |
-| Satıcı fatura havuzu hariç deftere nakletme | Henüz geçici varış hesabına nakledilmeyen satıcı fatura hareketleri oluşturun.                                                                                                                                                                                                                                                             | Deftere nakledilen ayrıntılar hariç satıcı faturası havuzu                  |
+| Satıcı fatura havuzu hariç bırakma nakli | Henüz geçici varış hesabına nakledilmeyen satıcı fatura hareketleri oluşturun.                                                                                                                                                                                                                                                             | Deftere nakledilen ayrıntılar hariç satıcı faturası havuzu                  |
 | Satıcı fatura havuzu               | Satıcı fatura havuz hareketleri oluşturun.                                                                                                                                                                                                                                                                                                                    |                                                                |
 | Satıcı faturası kaydı          | Defterde olan satıcı faturalarını nakledin.                                                                                                                                                                                                                                                                                                                 | Fatura günlüğü                                                |
 | Satıcı yeniden düzenlenen senedi     | Daha önce bankanız tarafından kabul edilip ödenmiş bir senedi yeniden düzenleyin.                                                                                                                                                                                                                                                                      | Yeniden düzenlenen senet günlüğü                                 |

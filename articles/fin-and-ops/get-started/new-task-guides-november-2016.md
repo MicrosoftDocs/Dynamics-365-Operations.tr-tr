@@ -15,13 +15,13 @@ ms.custom: 270894
 ms.assetid: 1b90768d-8bf7-4e35-90c0-65962fea5d26
 ms.search.region: global
 ms.author: josaw
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bea93ea1e8d17d4d4d31b21e1fad6f3eaa31b3e2
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: a40899df4f4f0cf2b404d21bf2c172bcc8a137af
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -143,14 +143,14 @@ Bu konu, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - t�
 |--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | BAS raporu kutuları ekleme ve Avustralya Ticari Etkinlik Raporunu (BAS) oluşturma                                                    | Avustralya ve Yeni Zelanda         |
 | Avustralya BAS için neden kodları ayarlama                                                                                                | Avustralya ve Yeni Zelanda         |
-| **\***Çince fişlerin süreklilik denetimi                                                                                               | Çin                             |
-| **\***CN-00010 Çin hesap planı hiyerarşisi                                                                                  | Çin                             |
-| **\***CN-00016 Çin çalışma kuralı tarafından kullanıcı işlemi günlüğü                                                                              | Çin                             |
-| **\***Altın vergisi tümleştirmesi dışa aktarma kurulumu                                                                                            | Çin                             |
-| **\***Satış faturaları gibi diğer modüllerden fişleri deftere nakletme                                                                          | Çin                             |
-| **\***Yevmiye defterinden fişleri deftere nakletme                                                                                         | Çin                             |
-| **\***Çin için temel vergi tümleştirme profilini ayarlama                                                                                 | Çin                             |
-| **\***Çince fişleri ayarlama                                                                                                        | Çin                             |
+| **\*** Çince fişlerin süreklilik denetimi                                                                                               | Çin                             |
+| **\*** CN-00010 Çin hesap planı hiyerarşisi                                                                                  | Çin                             |
+| **\*** CN-00016 Çin çalışma kuralı tarafından kullanıcı işlemi günlüğü                                                                              | Çin                             |
+| **\*** Altın vergisi tümleştirmesi dışa aktarma kurulumu                                                                                            | Çin                             |
+| **\*** Satış faturaları gibi diğer modüllerden fişleri deftere nakletme                                                                          | Çin                             |
+| **\*** Yevmiye defterinden fişleri deftere nakletme                                                                                         | Çin                             |
+| **\*** Çin için temel vergi tümleştirme profilini ayarlama                                                                                 | Çin                             |
+| **\*** Çince fişleri ayarlama                                                                                                        | Çin                             |
 | Kamu sektörü müşterisi için müşteri faturası oluşturma ve deftere nakletme                                                                      | Danimarka                           |
 | Kamu sektörü müşterisi için serbest metin faturası oluşturma ve deftere nakletme                                                                     | Danimarka                           |
 | Kamu sektörü müşterisi için proje faturası oluşturma ve deftere nakletme                                                                       | Danimarka                           |
@@ -160,26 +160,26 @@ Bu konu, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - t�
 | OIOUBL elektronik faturalama için müşteri hesaplarını ayarlama                                                                             | Danimarka                           |
 | OIOUBL elektronik faturası ayarlama                                                                                                   | Danimarka                           |
 | Ödeme fişi biçimini ayarlama                                                                                                           | Danimarka                           |
-| **\***EEU-00047 Çalışanlara avans ödemesi                                                                                          | Doğu Avrupa                    |
+| **\*** EEU-00047 Çalışanlara avans ödemesi                                                                                          | Doğu Avrupa                    |
 | ISO20022 ödeme biçimi kullanarak satıcı ödemeleri oluşturma ve dışa aktarma                                                                      | Avrupa                            |
 | Otomatik ödeme talimatları olan müşteri için ödemeler oluştur                                                                          | Avrupa                            |
-| **\***EE-00015 Ödeme referansı oluşturma aracı                                                                                     | Avrupa                            |
+| **\*** EE-00015 Ödeme referansı oluşturma aracı                                                                                     | Avrupa                            |
 | EUR-00002 Bir AB Instrastat beyanı oluşturma                                                                                       | Avrupa                            |
-| **\***EUR-00002 Topluluk içi bir hareket için yükleme adresi belirtme                                                          | Avrupa                            |
+| **\*** EUR-00002 Topluluk içi bir hareket için yükleme adresi belirtme                                                          | Avrupa                            |
 | EUR-00002 Hareketleri Intrastat'a transfer etme                                                                                     | Avrupa                            |
 | EUR-00011 AB satış listesi raporu oluştur                                                                                          | Avrupa                            |
 | EUR-00011 AB satış listesi raporlamasını yapılandır                                                                                             | Avrupa                            |
 | EUR-00012 Bir AB giriş sertifikası çıkartın                                                                                              | Avrupa                            |
 | EUR-00012 AB giriş sertifikası alın                                                                                            | Avrupa                            |
-| **\***EUR-00015 KDV Kimliği kullanılarak taraf arama                                                                                            | Avrupa                            |
-| **\***EUR-00015 Satıcı KDV Kimliği kaydı                                                                                        | Avrupa                            |
-| **\***EUR-00015 KDV Kimliği ayarlama                                                                                                        | Avrupa                            |
-| **\***HU-00001 Döviz kuru hesaplama                                                                                             | Avrupa                            |
+| **\*** EUR-00015 KDV Kimliği kullanılarak taraf arama                                                                                            | Avrupa                            |
+| **\*** EUR-00015 Satıcı KDV Kimliği kaydı                                                                                        | Avrupa                            |
+| **\*** EUR-00015 KDV Kimliği ayarlama                                                                                                        | Avrupa                            |
+| **\*** HU-00001 Döviz kuru hesaplama                                                                                             | Avrupa                            |
 | ISO20022 kredi transferi yapılandırmasını içe aktar                                                                                        | Avrupa                            |
 | ISO20022 hesaptan ödeme yapılandırmasını içe aktar                                                                                           | Avrupa                            |
-| **\***LT-00003 Şirket içindeki malların taşınması için transfer belgeleri/Şirket içi bir stok transferi için bir transfer belgesi oluşturma   | Avrupa                            |
-| **\***LT-00003 Şirket içindeki malların taşınması için transfer belgeleri/Şirket içindeki malların taşınması için transfer belgelerini ayarlama | Avrupa                            |
-| **\***NO-00002 Ödeme kimliğine göre müşteri ödemesi                                                                                  | Avrupa                            |
+| **\*** LT-00003 Şirket içindeki malların taşınması için transfer belgeleri/Şirket içi bir stok transferi için bir transfer belgesi oluşturma   | Avrupa                            |
+| **\*** LT-00003 Şirket içindeki malların taşınması için transfer belgeleri/Şirket içindeki malların taşınması için transfer belgelerini ayarlama | Avrupa                            |
+| **\*** NO-00002 Ödeme kimliğine göre müşteri ödemesi                                                                                  | Avrupa                            |
 | ISO20022 kredi transferleri için şirket banka hesapları ayarlama                                                                           | Avrupa                            |
 | ISO20022 otomatik ödemeleri için şirket banka hesapları ayarlama                                                                              | Avrupa                            |
 | ISO20022 otomatik ödemeleri için müşteriler ve müşteri banka hesapları ayarlama                                                               | Avrupa                            |
@@ -222,7 +222,7 @@ Bu konu, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - t�
 | ER Excel raporlarına dinamik olarak sütun eklemek için yatay olarak genişletilebilir aralıkları kullanma (Bölüm 2: Biçimi çalıştırma)                               | Almanya                           |
 | Almanca denetim dosyası oluştur                                                                                                           | Almanya                           |
 | Almanca denetim dosyası yapılandırmasını içe aktar                                                                                               | Almanya                           |
-| **\***EUR-00018 KDV mutabakat raporu                                                                                            | İzlanda                           |
+| **\*** EUR-00018 KDV mutabakat raporu                                                                                            | İzlanda                           |
 | IS-00006 Satıcı fatura beyanı/Bir satıcı hesabı oluşturma ve fatura beyanı ekleme                                       | İzlanda                           |
 | IS-00006 Satıcı fatura beyanı/Satıcılar için bir fatura beyanı ayarlama                                                        | İzlanda                           |
 | IS-00006 Satıcı fatura beyanı/Satıcı fatura beyannamelerini güncelleştirme ve rapor oluşturma                                       | İzlanda                           |
@@ -391,9 +391,9 @@ Bu konu, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - t�
 
 | BPM satırı                                                                       | Ülke/bölge |
 |--------------------------------------------------------------------------------|----------------|
-| **\***Üretim talebine göre konsinye stok sahipliğini değiştirme | Genel         |
-| **\***Konsinye stok yenileme siparişi oluşturma                                 | Genel         |
-| **\***Satıcı iş birliğini kullanarak konsinye stoğu izleme                 | Genel         |
+| **\*** Üretim talebine göre konsinye stok sahipliğini değiştirme | Genel         |
+| **\*** Konsinye stok yenileme siparişi oluşturma                                 | Genel         |
+| **\*** Satıcı iş birliğini kullanarak konsinye stoğu izleme                 | Genel         |
 
 ### 
 
@@ -420,9 +420,9 @@ Bu konu, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - t�
 
 | BPM satırı                                                         | Ülke/bölge |
 |------------------------------------------------------------------|----------------|
-| **\***Performans günlüğüne ekleme ve birine övgü gönderme | Genel         |
-| **\***Hedef oluşturma                                              | Genel         |
-| **\***Performans değerlendirmesi oluşturun                                | Genel         |
+| **\*** Performans günlüğüne ekleme ve birine övgü gönderme | Genel         |
+| **\*** Hedef oluşturma                                              | Genel         |
+| **\*** Performans değerlendirmesi oluşturun                                | Genel         |
 
 ### 
 
@@ -497,9 +497,9 @@ Bu konu, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - t�
 | BPM satırı                                                         | Ülke/bölge |
 |------------------------------------------------------------------|----------------|
 | Bir çalışanı yapılandırma                                               | Genel         |
-| **\***Makine öğrenimi destekli ürün önerileri yapılandırma | Genel         |
+| **\*** Makine öğrenimi destekli ürün önerileri yapılandırma | Genel         |
 | Satış temsilcisi için işlevsellik profili yapılandırma   | Genel         |
-| **\***POS görsel profili oluşturma (Kasım 2016)                | Genel         |
+| **\*** POS görsel profili oluşturma (Kasım 2016)                | Genel         |
 | Kayıtları oluşturma ve ilişkilendirme                                   | Genel         |
 | Çağrı merkezi siparişleri oluştur                                        | Genel         |
 | Kategori fiyatlandırma kuralları kullanarak ticari anlaşmalar oluştur            | Genel         |
@@ -507,7 +507,7 @@ Bu konu, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - t�
 | Bir ilişki tanımlama ve iskonto atama                      | Genel         |
 | POS izin gruplarını belirleme ve yönetme                          | Genel         |
 | Süreklilik planını tanımlama                                       | Genel         |
-| **\***Perakende kanal iletişimlerini (CDX) tanımlama                 | Genel         |
+| **\*** Perakende kanal iletişimlerini (CDX) tanımlama                 | Genel         |
 | Bağlılık ödülleri ayarlamaları                                      | Genel         |
 | Ürün çeşitlerini yönet                                               | Genel         |
 | Satış vergisi atama ve geçersiz kılma                                | Genel         |
@@ -579,14 +579,14 @@ Bu konu, Microsoft Dynamics 365 for Operations için Microsoft (Kasım 2016 - t�
 | BPM satırı                                                                    | Ülke/bölge |
 |-----------------------------------------------------------------------------|----------------|
 | Yerleşim profili oluşturma                                                   | Genel         |
-| **\***Plaka birleştirme işlemi için bir mobil cihaz menü öğesi oluşturma      | Genel         |
+| **\*** Plaka birleştirme işlemi için bir mobil cihaz menü öğesi oluşturma      | Genel         |
 | El ile navlun mutabakatı sağlama                                                  | Genel         |
 | Randevu için sürücü girişi ve çıkışı kaydetme                   | Genel         |
 | Satınalma siparişi iş türünü tamamlamak için bir mobil cihaz menü öğesi ayarlama | Genel         |
 | Bir yük için randevu ayarlama                                            | Genel         |
 | Taşıma ödemesi ayarlama                                              | Genel         |
 | Otomatik navlun mutabakatı ayarlama                                     | Genel         |
-| **\***Kısa çekme maddesinin yeniden tahsisini ayarlama                                | Genel         |
+| **\*** Kısa çekme maddesinin yeniden tahsisini ayarlama                                | Genel         |
 
 
 

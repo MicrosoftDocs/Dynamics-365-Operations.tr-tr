@@ -16,10 +16,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 844badb3b3037df8c4f22be558f01ea3dbf37f9d
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: f62d07ffa1ee4a525f0f266922bc88e5ac8d5ada
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="define-vendor-payment-fees"></a>Satıcı ödeme masraflarını tanımlama

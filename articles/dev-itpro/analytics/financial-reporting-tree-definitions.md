@@ -16,13 +16,13 @@ ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 331f3480b8454dac7da12be169ba017f36cefa06
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 4708ff4427fe507fee7e1ce1ca226289ddf648cc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,32 +33,32 @@ ms.lasthandoff: 05/25/2017
 
 Bu makalede raporlama ağacı tanımları hakkında bilgi verilmektedir. Raporlama ağacı tanımı, kuruluşunuzun yapısı ve hiyerarşisini tanımlamaya yardımcı olan bir rapor bileşeni veya yapı taşıdır.
 
-Mali raporlama, iş yapınız değiştikçe kolaylıkla değişiklik yapabilmeniz için esnek raporlamayı destekler. Raporlar çeşitli bileşenlerden veya yapı taşlarından oluşturulur. Bu yapı taşlarından biri raporlama ağaç tanımıdır. Raporlama ağacı tanımı kuruluşunuzun yapısı ve hiyerarşisini tanımlamaya yardımcı olur. Mali verilerinizde boyutlu ilişkilere dayanan çapraz boyutlu hiyerarşik bir yapıdır. Ağaçtaki tüm birimler için raporlama birimi düzeyinde ve özet düzeyinde bilgi sağlar. Raporlama ağacı tanımları, birden çok şirket tarafından kullanılabilen bir yapı taşı grubu oluşturmak için sütün tanımları ve rapor tanımları ile birleştirilebilir. Raporlama birimi bir kuruluş şemasındaki her bir kutu için kullanılır. Raporlama birimi, mali verilerden tek bir departman veya diğer raporlama birimlerinden bilgileri birleştiren bir üst düzey özet birim olabilir. Raporlama ağacı içeren bir rapor tanımı için, her özet düzeyi ve raporlama birimi için bir rapor oluşturulur. Rapor tanımı satır tanımından raporlama ağacının kullanılması gerektiğini belirtmediği sürece, tüm bu raporlar rapor tanımında belirtilen satır ve sütun tanımlarını kullanır. Satır ve sütun tanımları, tasarım ve mali raporlar işlevselliğinin önemli bileşenleridir. Raporlama ağaçları bileşenleri gücünü artırır ve iş yapısı değiştikçe esnek raporlamayı destekler. Raporlama ağacına dayalı olmayan mali raporlar, mali raporlama özelliklerinin yalnızca bir bölümünü kullanır. Kuruluşunuzun verilerini çeşitli şekillerde görüntülemek için aynı satır ve sütun tanımları ile birlikte birden çok raporlama ağacı tanımı kullanabilirsiniz.
+Mali raporlama, iş yapınız değiştikçe kolaylıkla değişiklik yapabilmeniz için esnek raporlamayı destekler. Raporlar çeşitli bileşenlerden veya yapı taşlarından oluşturulur. Bu yapı taşlarından biri raporlama ağaç tanımıdır. Raporlama ağacı tanımı kuruluşunuzun yapısı ve hiyerarşisini tanımlamaya yardımcı olur. Mali verilerinizde boyutlu ilişkilere dayanan çapraz boyutlu hiyerarşik bir yapıdır. Ağaçtaki tüm birimler için raporlama birimi düzeyinde ve özet düzeyinde bilgi sağlar. Raporlama ağacı tanımları, birden çok şirket tarafından kullanılabilen bir yapı taşı grubu oluşturmak için sütün tanımları ve rapor tanımları ile birleştirilebilir. Raporlama birimi bir kuruluş şemasındaki her bir kutu için kullanılır. Bir raporlama birimi mali verilerdeki tek bir departman veya diğer raporlama birimlerindeki bilgileri birleştiren üst düzey bir özet birimi olabilir. Raporlama ağacı içeren bir rapor tanımı için, her özet düzeyi ve raporlama birimi için bir rapor oluşturulur. Rapor tanımı satır tanımından raporlama ağacının kullanılması gerektiğini belirtmediği sürece, tüm bu raporlar rapor tanımında belirtilen satır ve sütun tanımlarını kullanır. Satır ve sütun tanımları, tasarım ve mali raporlar işlevselliğinin önemli bileşenleridir. Raporlama ağaçları bileşenleri gücünü artırır ve iş yapısı değiştikçe esnek raporlamayı destekler. Raporlama ağacına dayalı olmayan mali raporlar, mali raporlama özelliklerinin yalnızca bir bölümünü kullanır. Kuruluşunuzun verilerini çeşitli şekillerde görüntülemek için aynı satır ve sütun tanımları ile birlikte birden çok raporlama ağacı tanımı kullanabilirsiniz.
 
-## <a name="reporting-tree-best-practices"></a>Raporlama ağacı en iyi uygulamaları
-Raporlama ağacı oluşturmadan önce aşağıdaki en iyi uygulamaları dikkate alın:
+## <a name="reporting-tree-best-practices"></a>Raporlama ağacıyla ilgili en iyi uygulamalar
+Bir raporlama ağacı oluşturmadan önce aşağıdaki en iyi uygulamaları dikkate alın:
 
 -   Önce tüzel kişilik veya şirketinizin hangi raporlama boyutlarını gerektirdiğini belirleyin.
--   Yapınızı nasıl kurduğunuzu düşünün ve ardından şirketinizin kuruluş şemasını çizin. Kuruluş şeması raporlama birimlerini bir veya daha fazla raporlama ağacı olarak nasıl gruplayacağınızı görselleştirmenize yardımcı olur.
+-   Yapınızı nasıl kurduğunuzu düşünün ve ardından şirketinizin kuruluş şemasını çizin. Kuruluş şeması, raporlama birimlerini nasıl bir veya daha fazla raporlama ağacı halinde gruplandıracağınızı görselleştirmenize yardımcı olur.
 -   Departmanlar ve mali verilerde tanımlı projeler gibi detayların en düşük düzeyi ile başlayın. Daha yüksek düzeyli bölümler veya bölgeler göstermek için ayrıntı düzeyinde olabildiğince çok kutuyu gereken şekilde ekleyin. Her kutu, oluşturduğunuz herhangi bir raporlama ağacında olası bir raporlama birimini temsil eder.
 -   Ağaçları oluşturmak için en iyi yolu dikkate almanız gerekir. Raporlama ağacı oluşturmak için otomatik yapılandırma işlemini kullanabilir veya elle bir raporlama ağacı oluşturabilirsiniz. Ağaçlarınızı tasarlamadan önce her iki yöntemi de anlamanız önemlidir.
 -   Raporlama birimlerini raporlama ağacı tanımına eklemek için mali veriler sistemi içinde tanımlanan raporlama birimlerini kullanabilirsiniz.
 
-## <a name="create-multiple-reporting-trees"></a> Birden çok raporlama ağacı oluştur
-Kuruluşunuzun verilerini çeşitli şekillerde görüntülemek için sınırsız sayıda raporlama ağacı oluşturabilirsiniz. Her raporlama ağacı bölümler ve özet birimlerin herhangi bir bileşimini içerebilir. Rapor tanımı aynı anda yalnızca bir raporlama ağacı için bir bağlantı içerebilir. Raporlama birimleri yapısını yeniden düzenleyerek, farklı raporlama ağaçları oluşturabilirsiniz. Daha sonra her bir raporlama ağacı için aynı satır ve sütun tanımlarını kullanabilirsiniz. Bu şekilde, farklı mali rapor düzenlerini hızlı bir şekilde oluşturabilirsiniz. Birden fazla raporlama ağacı oluşturursanız şirketinizin operasyonlarını analiz eden ve çeşitli şekillerde sunan bir dizi mali tabloyu her ay yazdırabilirsiniz. Daha fazla bilgi için bu makalenin sonundaki raporlama birimi yapıları örneklerine bakın.
+## <a name="create-multiple-reporting-trees"></a> Birden fazla raporlama ağacı oluşturma
+Kuruluşunuzun verilerini farklı yollarla görüntülemek için sınırsız sayıda raporlama ağacı oluşturabilirsiniz. Her raporlama ağacı herhangi bir departman ve özet birimi birleşimini içerebilir. Bir rapor tanımı bir seferde yalnızca bir adet raporlama ağacı bağlantısı içerebilir. Raporlama birimleri yapısını yeniden düzenleyerek, farklı raporlama ağaçları oluşturabilirsiniz. Daha sonra her bir raporlama ağacı için aynı satır ve sütun tanımlarını kullanabilirsiniz. Bu şekilde, farklı mali rapor düzenlerini hızlı bir şekilde oluşturabilirsiniz. Birden fazla raporlama ağacı oluşturursanız şirketinizin operasyonlarını analiz eden ve çeşitli şekillerde sunan bir dizi mali tabloyu her ay yazdırabilirsiniz. Daha fazla bilgi için bu makalenin sonundaki raporlama birimi yapıları örneklerine bakın.
 
 ## <a name="create-a-reporting-tree-definition"></a> Bir raporlama ağacı tanımı oluşturma
 Raporlama ağacı tanımı aşağıdaki tabloda açıklanan sütunları içerir.
 
 | Raporlama ağacı sütunu | Açıklama|
 |---|---|
-| Şirket               | Raporlama birimi için şirket adı. Genellikle yalnızca özet düzeyine atanan **@ANY** değeri raporlama ağacının tüm şirketler için kullanılmasını sağlar. Tüm alt dalların, kendilerine atanmış bir şirket vardır.|
+| Şirket               | Raporlama birimi için şirket adı. Genellikle yalnızca özet düzeyine atanan **@ANY** değeri raporlama ağacının tüm şirketler için kullanılmasını sağlar. Tüm alt şubelerin kendilerine atanmış bir şirketi vardır.|
 | Birim Adı             | Bu raporlama birimini grafiksel raporlama ağacında tanımlayan kod. Tutarlı ve kullanıcılar için anlaşılması kolay olacak benzersiz bir kodlama sistemi kurduğunuzdan emin olun. |
-| Birim Açıklama      | Raporlama birimi başlığı, rapor tanımı **Üstbilgiler ve Altbilgiler** sekmesinin bir kodu olarak **UnitDesc** girerseniz rapor üst bilgisinde veya alt bilgisinde görüntülenir. Satır tanımının **açıklama** hücresinde **UnitDesc** girerseniz başlık rapor satır tanımında görünür.|
-| Boyutlar            | mali verilerden doğrudan bilgi çeken raporlama birimi. Hesap ve ilgili kesimler için mantıksal konumlandırma ve uzunlukları tanımlar. Her bir raporlama birimi satırı bu sütunda bir boyuta sahip olmalıdır. Özet birimi satırına bir boyut da yerleştirebilirsiniz (örneğin, bu birimle doğrudan ilgili giderler için). Özet birimi satırına boyut girerseniz üst birimlerde kullanılan hesaplar alt birimlerde kullanılmamalıdır. Aksi halde, tutarlar yinelenebilir.|
+| Birim Açıklama      | Raporlama birimi başlığı, rapor tanımı **Üstbilgiler ve Altbilgiler** sekmesinin bir kodu olarak **UnitDesc** girerseniz rapor üst bilgisinde veya alt bilgisinde görüntülenir. Satır tanımının **Açıklama** hücresine **UnitDesc** ifadesini girerseniz başlık rapor satırı açıklamasında görünür.|
+| Boyutlar            | Doğrudan mali verilerden bilgi alan bir raporlama birimi. Hesap ve ilgili segmentler için mantıksal konumlandırmayı ve uzunlukları tanımlar. Her bir raporlama birimi satırı bu sütunda bir boyuta sahip olmalıdır. Özet birimi satırına bir boyut da yerleştirebilirsiniz (örneğin, bu birimle doğrudan ilgili giderler için). Özet birimi satırına boyut girerseniz üst birimlerde kullanılan hesaplar alt birimlerde kullanılmamalıdır. Aksi halde, tutarlar yinelenebilir.|
 | Satır Tanımları       | Raporlama birimi için satır tanımı adı. Aynı satır tanımı raporlama ağacının her birimi için kullanılır. Rapor oluşturduğunuzda, bu satır tanımı her bir raporlama birimi için kullanılır. Satır tanımı birden fazla mali boyut bağlantısı içerebilir. Satır tanımı raporlama ağacında belirtilmişse rapor tanımının **Rapor** sekmesindeki **Raporlama ağacındaki satır tanımını kullan** onay kutusunu işaretleyin.|
-| Satır bağlantısı              | Raporlama birimi için kullanılacak satır bağlantısı. Satır bağlantıları bağlanılacak mali boyutları tanımlamak için satır tanımı için tanımlanır.|
-| Dış bağlantı         | Bu raporlama birimi için kullanılacak satır bağlantısı. Satır bağlantıları bağlanılacak raporu belirlemek amacıyla satır tanımı için tanımlanır.|
+| Satır bağlantısı              | Raporlama birimi için kullanılacak satır bağlantısı. İlişkilendirilecek mali boyutları tanımlamak üzere satır tanımı için satır bağlantıları tanımlanır.|
+| Harici bağlantı         | Bu raporlama birimi için kullanılacak satır bağlantısı. Satır bağlantıları bağlanılacak raporu belirlemek amacıyla satır tanımı için tanımlanır.|
 | Harici dosya         | Verilerin alınacağı mali raporlama çalışma sayfasının dosya yoludur.|
 | Sayfa Seçenekleri          | Bu sütun, rapor görüntülendiğinde veya yazdırıldığında raporlama birimi ayrıntılarının gizlenip gizlenmediğini denetler.|
 | Toplama %              | Ana birime tahsis edilmesi gereken raporlama biriminin yüzdesi. Bu sütuna girdiğiniz yüzde, satır değeri üst rapora eklenmeden önce satır tanımının her satırı için geçerlidir. Örneğin, alt birimin iki bölüm arasında eşit olarak bölünmesi gerekiyorsa değer departman raporuna eklenmeden önce her satırdaki tutarlar yüzde 50 ile çarpılır. Bir raporlama birimi iki ana birime sahip olamaz. Bir raporlama biriminden gelen tutarları iki ana birime tahsis etmek için ek yüzde 50 toplanacak aynı boyuta sahip başka bir raporlama birimi oluşturun. Tam yüzdeleri ondalık basamak olmadan girin. Örneğin, **25** ana birime yüzde 25 tahsisi temsil eder. Ondalık değer (**0,25**) eklerseniz ana birime yüzde 0,25 tahsis edilir. Yüzde 1'den küçük bir yüzde kullanmak için rapor tanımında **&lt;%1 Toplamaya İzin Ver** seçeneğini kullanın. Bu seçenek, **rapor ayarları** iletişim kutusu **Ek Seçenekler** sekmesinde bulunur. Bu iletişim kutusuna rapor tanımının **Ayarlar** sekmesindeki **Diğer** düğmesinden erişebilirsiniz. |
@@ -70,11 +70,11 @@ Raporlama ağacı tanımı oluşturmak için aşağıdaki adımları izleyin.
 1.  Rapor Tasarımcısını açın.
 2.  **Dosya** &gt; **Yeni** &gt; **Raporlama Ağacı Tanımı** seçeneğine tıklayın.
 3.  **Düzenle** &gt; **Boyutlardan Raporlama Birimleri Ekle** seçeneğine tıklayın.
-4.  **Boyutlardan Raporlama Birimi Ekle** onay kutusunda raporlama ağacına eklemek her boyut için iletişim kutusunu seçin. **Boyutlardan Raporlama Birimi Ekle** iletişim kutusu aşağıdaki bölümleri içerir.
+4.  **Boyutlardan Raporlama Birimi Ekle** onay kutusunda raporlama ağacına eklemek her boyut için iletişim kutusunu seçin. **Boyutlardan Raporlama Birimleri Ekle** iletişim kutusu aşağıdaki bölümleri içerir.
 
     | Bölüm                          | Açıklama                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
     |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Boyut bölümlenmesi raporlama | Parçaların sayısı ve uzunluğunu değiştirmek için **Parçaları Böl** ve **Parçaları Birleştir** düğmelerini kullanın. **Not:** Yalnızca böldüğünüz parçaları birleştirebilirsiniz. Birden çok boyut birleştirmek için boyut değerlerinde joker karakterler kullanın.                                                                                                                                                                                                          |
+    | Raporlama boyutu segmentasyonu | Parçaların sayısı ve uzunluğunu değiştirmek için **Parçaları Böl** ve **Parçaları Birleştir** düğmelerini kullanın. **Not:** Yalnızca böldüğünüz parçaları birleştirebilirsiniz. Birden çok boyut birleştirmek için boyut değerlerinde joker karakterler kullanın.                                                                                                                                                                                                          |
     | Dahil et/Karakter konumu       | Bu bölümde mali verilerde tanımlanan boyutlar listelenir ve her boyut için tanımlanmış en uzun değerde karakter sayısı gösterilir. Raporlama ağacı hiyerarşisine bu boyutu eklemek için boyutun onay kutusunu seçin.                                                                                                                                                                                           |
     | Parça hiyerarşisi ve aralıkları     | Bu bölümde boyut hiyerarşisi gösterilir. Boyutları raporlama sıralamalarını değiştirmek için listede taşıyabilirsiniz. **Kaynak Boyut** ve **Hedef Boyut** alanlarında, her bir boyutta bir değer aralığı belirtebilirsiniz. Bir aralık belirlemezseniz tüm boyut değerleri raporlama ağacına eklenir. **Not:** Birden fazla boyut kullanıyorsanız yalnızca deftere nakledilen boyut birleşimleri sonuçlara döndürülür. |
 
@@ -90,7 +90,7 @@ Raporlama ağacı tanımı oluşturmak için aşağıdaki adımları izleyin.
 10. Raporlama birimlerinizin yeni raporlama ağacına nasıl getirilmesi gerektiğini tanımlamayı bitirdikten sonra **Tamam** seçeneğine tıklayın.
 11. Raporlama ağacını kaydetmek için **Dosya** &gt; **Kaydet** seçeneğine tıklayın. Benzersiz bir ad ve raporlama ağacı için açıklama girin ve ardından **Tamam** seçeneğine tıklayın.
 
-### <a name="open-an-existing-reporting-tree-definition"></a>Varolan bir raporlama ağaç tanımını açın
+### <a name="open-an-existing-reporting-tree-definition"></a>Var olan bir raporlama ağacı tanımını açma
 
 1.  Rapor Tasarımcısı'nda gezinme bölmesinde **Raporlama Ağaç Tanımları** seçeneğine tıklayın.
 2.  Açmak için raporlama ağaç listesinden bir adı çift tıklatın.
@@ -119,7 +119,7 @@ Raporlama birimlerinin aşağıdaki türleri mali raporlamada kullanılır:
 
 ### <a name="organize-reporting-units"></a>Raporlama birimlerini düzenlemek
 
-Raporlama ağaç tanımı organizasyon yapısını grafik görünümünde raporlama birimlerini taşıyarak düzenleyebilirsiniz. Ayrıca raporlama birimlerini raporlama ağacında üst bir düzeye yükseltebilir ve daha düşük bir düzeye indirebilirsiniz.
+Grafiksel görünümde raporlama birimlerini taşıyarak bir raporlama ağacı tanımının kuruluş yapısını yeniden düzenleyebilirsiniz. Ayrıca raporlama birimlerini raporlama ağacında üst bir düzeye yükseltebilir ve daha düşük bir düzeye indirebilirsiniz.
 
 1.  Rapor Tasarımcısı'nda raporlama ağaç tanımını değiştirmek için açın.
 2.  Raporlama ağacı tanımı grafik görünümünde bir raporlama birimi seçin.
@@ -138,7 +138,7 @@ Ek metin girişi, raporlama ağacı tanımına bilgiler ekleyen 255 karaktere ka
 
 ### <a name="remove-additional-text-from-a-reporting-unit"></a>Ek metni bir raporlama biriminden çıkarın
 
-1.  Rapor Tasarımcısı'nda raporlama ağaç tanımını değiştirmek için açın.
+1.  Rapor Tasarımcısı'nda, değiştirilecek raporlama ağacı tanımını açın.
 2.  Raporlama birimi satırı için **Ek Metin** hücresine çift tıklayın.
 3.  **Ek Metin** iletişim kutusunda, kaldırmak istediğiniz girişi seçin ve ardından **Temizle** seçeneğine tıklayın. Alternatif olarak, girişe sağ tıklayın ve sonra **Kes**'i seçin.
 4.  **Tamam** düğmesini tıklatın.
@@ -148,15 +148,15 @@ Ek metin girişi, raporlama ağacı tanımına bilgiler ekleyen 255 karaktere ka
 Belirli kullanıcıların ve grupların bir raporlama birimine erişimini engelleyebilirsiniz. Raporlama biriminin alt raporlama birimleri için geçerli olacak şekilde kısıtlamalar da tanımlayabilirsiniz.
 
 1.  Rapor Tasarımcısı'nda raporlama ağaç tanımını değiştirmek için açın.
-2.  Erişimi kısıtlanacak raporlama birimi satırı için **birim güvenlik** hücresini çift tıklatın.
+2.  Erişimi kısıtlanacak raporlama birimi satırının **Birim Güvenliği** hücresine çift tıklayın.
 3.  **Birim Güvenlik** iletişim kutusunda, **kullanıcılar ve gruplar**'ı seçin.
 4.  Raporlama birimine erişimi olması gereken kullanıcıları veya grupları seçin ve sonra **Tamam**'a tıklayın.
 5.  Alt raporlama birimlerine erişimi kısıtlamak için **Alt raporlama birimlerine güvenlik ekle** onay kutusunu seçin.
 6.  **Tamam** düğmesini tıklatın.
 
-### <a name="remove-access-to-a-reporting-unit"></a>Bir raporlama birimi için erişim kaldır
+### <a name="remove-access-to-a-reporting-unit"></a>Bir raporlama birimine erişimi kaldırma
 
-1.  Rapor Tasarımcısı'nda raporlama ağaç tanımını değiştirmek için açın.
+1.  Rapor Tasarımcısı'nda, değiştirilecek raporlama ağacı tanımını açın.
 2.  Erişimi kaldırılacak raporlama birimi satırı için **Birim Güvenliği** hücresine çift tıklayın.
 3.  **Birim Güvenliği** iletişim kutusunda bir ad seçin ve sonra **Kaldır**'a tıklayın.
 4.  **Tamam** düğmesini tıklatın.

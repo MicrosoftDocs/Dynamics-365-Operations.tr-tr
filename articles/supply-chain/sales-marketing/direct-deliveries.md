@@ -16,13 +16,13 @@ ms.custom: 9704
 ms.assetid: 64c51384-8a4e-45d0-83c1-12cea22902f9
 ms.search.region: Global
 ms.author: omulvad
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fd1e98f677835f2ef3449adbb452d536441b0a65
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: a62c1c78ae66ffff7e36fe17757bb98d2e7fbc54
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -45,7 +45,7 @@ Satış sipariş satırları ve satın alma emri satırları arasında doğrudan
 Satış siparişi satırındaki **Talep edilen alış tarihi** alanını güncellediğinizde ilgili satın alma emri satırındaki **Teslimat tarihi** alanı da güncellenir. Benzer şekilde, satın alma emri satırındaki **Onaylandı** alanını güncellediğinizde, karşılık gelen satış siparişi satırındaki **Onaylanan alım tarihi** ve **Onaylanan gönderi tarihi** alanları da güncellenir.
 
 ## <a name="delivery-address"></a>Teslimat adresi
-Tipik olarak, bir satın alma emrinin teslim adresi şirketin adresidir. Ancak, yeni bir teslimat oluşturduğunuzda müşterinin adresini teslimat adresine girersiniz. Teslimat türü**Doğrudan teslimat** olan bir satın alma emri satırındaki teslimat adresini değiştirirseniz, buna karşılık gelen satış siparişi satırındaki teslimat adresi de güncellenecektir. Benzer şekilde, satış siparişi satırındaki teslimat adresini değiştirirseniz, satın alma emri satırındaki teslimat adresi de güncellenir.
+Tipik olarak, bir satın alma emrinin teslim adresi şirketin adresidir. Ancak, yeni bir teslimat oluşturduğunuzda müşterinin adresini teslimat adresine girersiniz. Teslimat türü **Doğrudan teslimat** olan bir satın alma emri satırındaki teslimat adresini değiştirirseniz, buna karşılık gelen satış siparişi satırındaki teslimat adresi de güncellenecektir. Benzer şekilde, satış siparişi satırındaki teslimat adresini değiştirirseniz, satın alma emri satırındaki teslimat adresi de güncellenir.
 
 ## <a name="deleting-order-lines"></a>Sipariş satırları siliniyor
 Teslimat türü **Doğrudan teslimat** olan bir satış siparişi satırını silmeye çalıştığınızda satın alma emri satırlarının bu satıra bağlı olduğunu açıklanan bir mesaj kutusu görüntülenir. Satış sipariş satırı kısmen teslim edildiyse, satış siparişi satırını veya bununla ilişkili satın alma emri satırını silemezsiniz.

@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 942a1e9ddcf6e0952da66b239e1884cb83369175
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 67c7582665255e65995be688ef133e71938e7c28
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -46,7 +46,7 @@ Stok rezerve etmenin birkaç nedeni vardır:
 Yeni sipariş satırı oluşturulduğunda stok otomatik olarak, stok da her sipariş için tek tek el ile rezerve edilebilir. toğu üretim sürecinin farklı aşamalarında rezerve etmek de mümkündür. Yalnızca stoğu tutulan ürünler rezerve edilebilir. Eldeki stok olmadığından hizmetler rezerve edilemez. Hem fiziksel olarak eldeki stok hem de sipariş verilmiş, ancak alınmamış stok rezerve edilebilir. Eldeki stokta bulunandan daha fazla miktar rezerve edilirse bu kadar büyük bir miktarı rezerve edemeyeceğinizi belirten bir ileti görüntülenir. Bu durumda miktarı yine de rezerve etmeyi seçebilir veya sipariş verilen miktarı değiştirebilirsiniz. Miktar ya rezerve edilir ya da değiştirilir. Kullanılabilen miktardan daha fazla madde rezerve edilirse, maddelerin bir sonraki teslimata hazır oluşunda bu eksiklik kapatılır.
 
 ## <a name="inventory-reservation-policies"></a>Stok rezervasyonu ilkeleri
-Stok rezervasyonu ilkeleri **Madde model grupları**sayfasında, **Stok ve ambar yönetim parametreleri** sayfasında ve **Üretim parametreleri** sayfasında ayarlanır.
+Stok rezervasyonu ilkeleri **Madde model grupları** sayfasında, **Stok ve ambar yönetim parametreleri** sayfasında ve **Üretim parametreleri** sayfasında ayarlanır.
 ### <a name="policies-on-the-item-model-groups-page"></a>Madde model grupları sayfasındaki ilkeler
 
 **Stok ilkeleri** bölümü aşağıdaki rezervasyon ilkelerini içerir.

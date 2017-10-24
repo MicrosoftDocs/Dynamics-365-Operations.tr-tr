@@ -18,13 +18,15 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 4399dc7374ae11f2eca3add37b60c50574dfad9d
+ms.sourcegitcommit: 61395e0e57eb02aaa1c95a7dbd9c15082b822701
+ms.openlocfilehash: 15992b1666caea21cdcf440fefcf65ff18111801
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 10/05/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Şirket içi dağıtım giriş sayfası
+
+[!include[banner](../includes/banner.md)]
 
 Bir Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü (şirket içi) dağıtabilirsiniz. Bir şirket içi dağıtım türünü seçtiğinizde, sistem gereksinimleri, donanım boyutlandırma ve işlev, bir bulut dağıtımından farklılık gösterir. Bu konu, şirket içi dağıtımlara ilişkin çeşitli konulara dair bilgi içeren içeriklere bağlantılar sağlar.
 
@@ -32,10 +34,10 @@ Bir Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü (şi
 
 ## <a name="get-started"></a>Başlayın
 - [Dynamics 365 for Finance and Operations, Enterprise sürümüne (şirket içi) genel bakış](on-premises-overview.md)
-- [Şirket içi dağıtımlar için sistem gereksinimleri](../get-started/system-requirements-on-prem.md)
-- [Şirket içi ortamlar için donanım boyutlandırma](../get-started/hardware-sizing-on-premises-environments.md)
+- [Şirket içi dağıtımlar için sistem gereksinimleri](../../fin-and-ops/get-started/system-requirements-on-prem.md)
+- [Şirket içi ortamlar için donanım boyutlandırma](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Çevrimiçi hizmet ve şirket içi yazılım yaşam döngüsü ilkesi](../migration-upgrade/versions-update-policy.md)
-- [Dynamics 365 for Finance and Operations, Enterprise sürümü (şirket içi) satın alma](../get-started/purchase-on-premises.md)
+- [Dynamics 365 for Finance and Operations, Enterprise sürümü (şirket içi) satın alma](../../fin-and-ops/get-started/purchase-on-premises.md)
 
 ## <a name="onboard"></a>Onboard
 - [Lifecycle Services'da şirket içi proje oluşturma](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
@@ -44,14 +46,14 @@ Bir Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü (şi
 - [Özel modeller geliştirme ve şirket içi ortamlara dağıtma](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>Şirket içi dağıtımınızda çalışın
-- [Belge yönetimini konfigüre etme](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-document-management)
+- [Belge yönetimini konfigüre etme](../../fin-and-ops/organization-administration/configure-document-management.md)
 - [Elektronik raporlama yapılandırmalarını içe aktarma](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Şirket içi dağıtımlarda belge oluşturma, yayınlama ve yazdırma yetenekleri](../analytics/printing-capabilities-on-premises.md)
 - [Teknik desteği ayarla](../lifecycle-services/support-experience.md)
 - [İstemci İnternet bağlantısı sorun giderme](../user-interface/client-disconnected.md)
 
 ## <a name="other-resources"></a>Diğer kaynaklar
-- [Şirket içi dağıtımlarda uygulanmayan özellikler](../get-started/features-not-implemented-on-prem.md)
+- [Şirket içi dağıtımlarda uygulanmayan özellikler](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Kullanımdan kaldırılan özellikler](../migration-upgrade/deprecated-features.md)
  
 

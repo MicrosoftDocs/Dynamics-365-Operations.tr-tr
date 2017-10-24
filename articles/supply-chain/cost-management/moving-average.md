@@ -1,7 +1,7 @@
 ---
 title: Hareketli ortalama
 description: 
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0018f5df3d0d2882c300b6458bfb8adfba84e2ad
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/25/2017
 Aşağıdakiler, maliyetlendirme yöntemi olarak hareketli ortalama maliyet kullanırkenki gerekliliklerdir.
 1.  **Madde model grupları** sayfasında, **Stok modeli** alanında Hareketli ortalama seçili olan bir madde model grubu belirleyin. **Not:** Varsayılan olarak, Hareketli ortalama seçiliyken, **Fiziksel stoku deftere naklet** ve **Mali stoku deftere naklet** alanları da seçilidir. 
 
-2.  **Deftere nakil** sayfasında, hesapları **Stok** sekmesindeki **Hareketli ortalama için fiyat farkı** ve **Hareketli ortalama için maliyet yeniden değerlemesi** hesaplarına atayın. Maliyetin orantılı harcanması gerektiğinde, **Hareketli ortalama için fiyat farkı** hesabını kullanırsınız. Bunun sebebi, satınalma girişi ile satınalma faturası arasındaki bir maliyet farkıdır ve orijinal stok miktarı ile elde olan miktar arasındaki bir farktır. Bir ürün için hareketli ortalama maliyeti yeni bir birim fiyatına ayarlarken **Hareketli ortalama için maliyet yeniden değerlemesi** hesabını kullanın.
+2.  **Deftere nakil** sayfasında, hesapları **Hareketli ortalama için fiyat farkı** ve **Hareketli ortalama için maliyet yeniden değerleme** hesaplarında, **Stok** sekmesinde hesapları atayın. **Hareketli ortalama için fiyat farkı** hesabını, maliyet orantılı olarak gider kaydedilecekse kullanırsınız. Bunun sebebi, satınalma girişi ile satınalma faturası arasındaki bir maliyet farkıdır ve orijinal stok miktarı ile elde olan miktar arasındaki bir farktır. Bir ürün için hareketli ortalama maliyeti yeni bir birim fiyatına ayarlarken **Hareketli ortalama için maliyet yeniden değerlemesi** hesabını kullanın.
 3.  **Serbest bırakılan ürünler** sayfasında, ürüne hareketli ortalama madde model grubu atayın. **Not:** Stok kapatma işlemi yalnızca muhasebe dönemini kapatır. Kendilerine bir madde model grubu olarak hareketli ortalama atanmış olan ürünleri etkilemez.
 
 ## <a name="convert-to-the-moving-average-costing-method"></a>Hareketli ortalamaya dönüştürme maliyetlendirme yöntemi

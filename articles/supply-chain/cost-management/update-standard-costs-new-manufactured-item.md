@@ -1,7 +1,7 @@
 ---
 title: "Yeni üretilmiş bir madde için standart maliyetleri güncelleştirme"
 description: "Bu makalede, yeni üretilen bir madde için standart maliyetlerin güncellenmesine yönelik yönergeler sağlanmıştır."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: ba64b70f-3f4c-4373-9a7d-8fd07c45a8cf
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d8f1b5614811faad3fda15809e4e606c93e6b786
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 9672b5063193ba62b731a9536fdca326cfaa7b6f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -39,7 +39,7 @@ Aşağıdaki yönergelerde, standart maliyetleri iki sürümlü bir yaklaşım k
 -   **Standart maliyet** için bir maliyetlendirme tipi atayın.
 -   Maliyetlendirme sürümünün içeriklerini belirtmek için **2016-UPDATES** gibi anlamlı bir tanımlayıcı atayın.
 -   **Fiyat türlerine izin ver** alan grubunda, **Maliyet fiyatı** öğesinin **Evet** konumuna ayarlandığından emin olun.
--   Tüm sahalar için girilecek maliyet kayıtlarına izin verin (yani, **Saha**alanını boş bırakın). Bir tesis girerseniz, maliyet kayıtları yalnızca o tesis için girilebilir.
+-   Tüm sahalar için girilecek maliyet kayıtlarına izin verin (yani, **Saha** alanını boş bırakın). Bir tesis girerseniz, maliyet kayıtları yalnızca o tesis için girilebilir.
 -   **Etkin** maliyetler için bir geri dönüş ilkesi kullanın.
 
 Donmuş dönem boyunca yeni üretilmiş maddeler eklemek için aşağıdaki adımları takip edin.

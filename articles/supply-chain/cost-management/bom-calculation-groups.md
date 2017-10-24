@@ -1,7 +1,7 @@
 ---
 title: "Ürün reçetesi hesaplamaları grupları"
 description: "Bu makalede, ürün reçeteleri için hesaplama grupları ve bunların nasıl ayarlanacağı hakkında bilgi verilmektedir. Bir ürün reçetesi hesaplaması çalıştırmak için ya hesaplama grupları ayarlamalı ve bunları tek tek maddelere atamalısınız ya da varsayılan bir hesaplama grubu ayarlamalısınız. Ardından, hesaplama grubundaki hesaplama ayarları, ürün reçetesi hesaplaması sayfasında ürün reçetesi hesaplamasında varsayılan değerler olarak kullanılır."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: 63e1b7dc-c2c5-41b0-81ed-e3e02d1b39e0
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3372c22d6ed90e7669f1335fdd3366b8e167ad27
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: c91f7ac3ded942afd5e359b59cee2ff58256622f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -72,13 +72,21 @@ Hesaplama gruplarını, maliyet yönetiminde **Önceden tanımlanan maliyet ilke
 
 ### <a name="warnings"></a>Uyarılar
 
-**Uyarılar** FastTab'ında kullanıcıların, ürün reçetesi hesaplamaları yaparken almaları gereken her türlü uyarı iletileri için seçenekleri seçin. Örneğin, **Ürün reçetesi yok** onay kutusunu seçtiğinizde, bileşenlerden biri veya ürün reçetesi hesaplamasının çalıştırıldığı ana madde için etkin ürün reçetesi bulunamazsa kullanıcı uyarı alır. **Rota yok** onay kutusunu seçerseniz, kullanıcı etkin rota sürümü bulunamazsa uyarı alır. Rotalarınızda ve işlemlerinizde kaynaklar kullanıyorsanız sisteme, bu kaynaklar için denetim yapmasını söyleyebilirsiniz. Ardından etkin rota içindeki her bir satırda birer kaynak bulunamazsa kullanıcı bir uyarı alır. Ayrıca tüketimi doğrulayabilir ve denetleyebilirsiniz. Tüketim, belirli bir rotadaki miktardır. Normalde, bir üretim sürecinde belirli bir işlemi gerçekleştirmek için gerekli zaman miktarını temsil eder. Bir maddenin maliyet fiyatı olup olmadığını denetleyebilirsiniz. Madde için etkin maliyet fiyatı yoksa ürün reçetesi hesaplamasına hiçbir maliyet eklenmez. Ayrıca maliyet fiyatının yaşını denetleyebilir ve doğrulayabilirsiniz. Örneğin, birim maliyet fiyatının 60 günden sonra yeniden değerlendirilmesi gerektiğini belirtmek için **60** girin. Sınıra ulaşılırsa, sistem bir uyarı oluşturur. Örneğin, bu yılın Ocak ayında bir madde için maliyet fiyatı girildi. Maliyet fiyatının girilmesinden 60 günden daha geç olan Ağustos ayına gelindiğinde, kullanıcı ürün reçetesi hesaplaması çalıştırıldığında bir uyarı alır. **Minimum katkı payı** alanına bir yüzde girebilirsiniz. Bu değer, minimum katkı payının karşılanmadığı noktayı belirtir. Belirli bir bileşen için katkı payı karşılanmamışsa kullanıcı bir uyarı alır. Bu nedenle, bu alan maliyetlerinizin ve maddeleriniz için gerekli olabilecek ek taşıma maliyetlerinin altına inmemenizi garantilemeye yardımcı olur.
-Stok ve ambar yönetimi parametrelerinde varsayılan ayar
---------------------------------------------------------------
+**Uyarılar** FastTab'ında kullanıcıların, ürün reçetesi hesaplamaları yaparken almaları gereken her türlü uyarı iletileri için seçenekleri seçin. 
 
-Hesaplamaları çalıştırmak için hesaplama grupları gerekli olduğundan, Stok yönetimi parametrelerinde varsayılan hesaplama grubunu ayarlamanız gerekir. Bu ayar, şirketlerin tüm maddeler için standart maliyet grupları ve kar ayarları olmasını sağlar. Ardından, belirli bir maddenin özel hesaplama gereksinimleri varsa, kullanıcı bu madde için farklı bir hesaplama grubu atayabilir. Normalde, ürün reçetesi maddeleri yerine ürün reçetesinin bileşen maddelerinde hesaplama grupları ayarlayabilirsiniz. Ancak, uyarı iletileri gösterildiğinde hesaplama grupları uygulanabilir. Maddelere atanmış bir hesaplama grubu, Stok yönetimi parametrelerinde ayarlanan varsayılan değeri geçersiz kılar. Varsayılan parametreyi, **Maliyet yönetimi** &gt; **Stok muhasebesi politikaları kurulumu** &gt; **Parametreler** &gt; **Stok muhasebesi** &gt; **Hesaplama grubu** üzerinde ayarlayabilirsiniz. Varsayılan yapılandırma grubu ayarlayarak, ürün reçetesi hesaplama sürecinde kullanıcılara, seçili bileşenlerin hesaplama hatalarına neden olabileceğini belirtecek uyarı koşullarını da yapılandırabilirsiniz.
-Tamamla sayfasında uyarı iletileri görüntüleme
-------------------------------------------
+Örneğin, **Ürün reçetesi yok** onay kutusunu seçtiğinizde, bileşenlerden biri veya ürün reçetesi hesaplamasının çalıştırıldığı ana madde için etkin ürün reçetesi bulunamazsa kullanıcı uyarı alır. **Rota yok** onay kutusunu seçerseniz, kullanıcı etkin rota sürümü bulunamazsa uyarı alır. Rotalarınızda ve işlemlerinizde kaynaklar kullanıyorsanız sisteme, bu kaynaklar için denetim yapmasını söyleyebilirsiniz. Ardından etkin rota içindeki her bir satırda birer kaynak bulunamazsa kullanıcı bir uyarı alır. 
+
+Ayrıca tüketimi doğrulayabilir ve denetleyebilirsiniz. Tüketim, belirli bir rotadaki miktardır. Normalde, bir üretim sürecinde belirli bir işlemi gerçekleştirmek için gerekli zaman miktarını temsil eder. Bir maddenin maliyet fiyatı olup olmadığını denetleyebilirsiniz. Madde için etkin maliyet fiyatı yoksa ürün reçetesi hesaplamasına hiçbir maliyet eklenmez. 
+
+Ayrıca maliyet fiyatının yaşını denetleyebilir ve doğrulayabilirsiniz. Örneğin, birim maliyet fiyatının 60 günden sonra yeniden değerlendirilmesi gerektiğini belirtmek için **60** girin. Sınıra ulaşılırsa, sistem bir uyarı oluşturur. Örneğin, bu yılın Ocak ayında bir madde için maliyet fiyatı girildi. Maliyet fiyatının girilmesinden 60 günden daha geç olan Ağustos ayına gelindiğinde, kullanıcı ürün reçetesi hesaplaması çalıştırıldığında bir uyarı alır. **Minimum katkı payı** alanına bir yüzde girebilirsiniz. Bu değer, minimum katkı payının karşılanmadığı noktayı belirtir. Belirli bir bileşen için katkı payı karşılanmamışsa kullanıcı bir uyarı alır. Bu nedenle, bu alan maliyetlerinizin ve maddeleriniz için gerekli olabilecek ek taşıma maliyetlerinin altına inmemenizi garantilemeye yardımcı olur.
+
+### <a name="default-setup-in-inventory-and-warehouse-management-parameters"></a>Stok ve ambar yönetimi parametrelerinde varsayılan ayar
+
+Hesaplamaları çalıştırmak için hesaplama grupları gerekli olduğundan, Stok yönetimi parametrelerinde varsayılan hesaplama grubunu ayarlamanız gerekir. Bu ayar, şirketlerin tüm maddeler için standart maliyet grupları ve kar ayarları olmasını sağlar. Ardından, belirli bir maddenin özel hesaplama gereksinimleri varsa, kullanıcı bu madde için farklı bir hesaplama grubu atayabilir. Normalde, ürün reçetesi maddeleri yerine ürün reçetesinin bileşen maddelerinde hesaplama grupları ayarlayabilirsiniz. Ancak, uyarı iletileri gösterildiğinde hesaplama grupları uygulanabilir. Maddelere atanmış bir hesaplama grubu, Stok yönetimi parametrelerinde ayarlanan varsayılan değeri geçersiz kılar. 
+
+Varsayılan parametreyi, **Maliyet yönetimi** &gt; **Stok muhasebesi politikaları kurulumu** &gt; **Parametreler** &gt; **Stok muhasebesi** &gt; **Hesaplama grubu** üzerinde ayarlayabilirsiniz. Varsayılan yapılandırma grubu ayarlayarak, ürün reçetesi hesaplama sürecinde kullanıcılara, seçili bileşenlerin hesaplama hatalarına neden olabileceğini belirtecek uyarı koşullarını da yapılandırabilirsiniz.
+
+### <a name="view-warning-messages-on-the-complete-page"></a>Tamamla sayfasında uyarı iletileri görüntüleme
 
 Ürün reçetesi hesaplaması uyarı iletileri oluşturur. Bir seçili madde hakkındaki uyarıları görüntüleyebilirsiniz. Örneğin, Satış ve pazarlamada, D0001 maddesi için yeni bir satış siparişi oluşturun. Ardından, hesaplama ayrıntılarını ve uyarıları görüntülemek için, satış sipariş satırında **Satırı güncelleştir** menüsünde **Ürün Reçetesine/Formüle göre Hesapla** öğesini tıklayın. Ayrıca **Tamamla** sayfasında ürün reçetesi hesaplama sonuçlarını da görüntüleyebilirsiniz. Uyarı iletileri için, herhangi bir maddeye dört uyarı koşulu uygulanırken üretilen maddelere yalnızca iki uyarı koşulu uygulanır:
 -   Üretilen maddenin etkin ürün reçetesi olmadığında tespit edin.

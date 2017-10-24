@@ -1,7 +1,7 @@
 ---
 title: "Stok nesnesi değerleri"
 description: "Bu makalede, stok nesnesi değerlerinin nasıl hesaplandığı hakkında bilgiler verilmektedir."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: 56a7c8ba-bf4a-4b1d-918d-56bb96926c4f
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
-ms.openlocfilehash: af31af5e8f11119c03ee7cb7101f2c94714720ff
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: e4892223d1e92e0483a67b1b473ef20c3f68bbfa
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -145,7 +145,7 @@ Aşağıdaki tabloda, bir stok nesnesi için yapılan hesaplamanın sonucu göst
 
 [Maliyet girişleri](cost-entries.md)
 
-[Yenilikler ve değişiklikler](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed)
+[Yenilikler ve değişiklikler](../../fin-and-ops/get-started/whats-new-changed.md)
 
 
 

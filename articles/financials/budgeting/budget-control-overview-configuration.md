@@ -15,13 +15,13 @@ ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: d8565ec692036d7a9411cb8663d7293d3ab91a44
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -104,7 +104,7 @@ Ardından, **Bütçe denetim kurallarını tanımla** sekmesinde, bütçe deneti
 
 ### <a name="select-main-accounts"></a>Ana hesapları seç
 
-**Parametreleri tanımla** sayfasında **Ana hesap** bütçe denetim boyutu olarak seçilmediyse ve belirli harcamalar yönetiliyorsa bu harcamaları **Ana hesapları seç** sekmesinde seçebilirsiniz. **Ana hesap** bütçe denetim boyutu olarak seçilmişse giriş yapılmasına gerek yoktur.  
+**Parametreleri tanımla** sayfasında **Ana hesap** bütçe denetim boyutu olarak seçilmediyse ve belirli harcamalar yönetiliyorsa bu harcamaları **Ana hesapları seç** sekmesinde seçebilirsiniz. **Ana hesap** bir bütçe denetim boyutu olarak seçildiyse, giriş gerekmez.  
 
 ### <a name="define-budget-groups"></a>Bütçe grupları tanımla
 
@@ -116,7 +116,7 @@ Tüm kullanıcı grupları için bütçe denetimi uyarı iletileri bastırılaca
 
 ### <a name="activate-budget-control"></a>Bütçe kontrolünü etkinleştir
 
-Bütçe denetimi yapılandırıldıktan sonra, **Bütçe denetimi etkinleştir** sekmesinde açabilir ve etkinleştirebilirsiniz. Ardından, taslak sürüm etkin konuma gelir.
+Bütçe denetimi yapılandırıldıktan sonra, **Bütçe denetimi etkinleştir** sekmesinde açabilir ve etkinleştirebilirsiniz. Taslak sürümü o zaman etkin olacaktır.
 > [!Important]
 > Bütçe denetimi açık konuma getirildikten ve etkinleştirildikten sonra hareketler nakledilirse, bütçe kontrolü yıl ortasında kapalı konuma getirilmemelidir. Bütçe denetimi kapalı konuma getirildiğinde, bütçe denetim amacıyla etkinlikler kaydedilmez ve bundan sonra bütçe denetimleri gerçekleştirilemez. Bu nedenle, deftere nakledilmiş olan belgeler hafifletme tutarlarını veya sorgu ve raporlardaki bütçe denetimi ile ilgili bakiyeleri doğru olarak yansıtmayabilir. Bunlar, herhangi bir aşağı akış veya ayarlama belgeleri ve günlükleri için bütçe denetim istatistikleri içerir. 
 

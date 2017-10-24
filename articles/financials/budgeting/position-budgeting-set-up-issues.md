@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c3fe1e1842b1cd808d35105ec7ec494107127690
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 421520fcd1b215a19c126ccea51b025977552448
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -51,7 +51,7 @@ Bir maliyet öğesini kaldıramazsınız. Ancak, başlangıç ve bitiş tarihler
 Bazı bütçe maliyeti öğeleri, hesaplama temeli olarak kazanç maliyet öğesini kullanır. **Bütçe maliyet türünü** değiştirmek için, kazanç maliyet öğesini tüm bütçe maliyeti öğelerinin **Hesaplama temeli** FastTab'inden kaldırın.
 
 ## <a name="why-cant-i-change-the-date-on-budget-cost-element-lines-for-a-budget-cost-element"></a>Bir bütçe maliyeti öğesi için bütçe maliyeti öğesi satırlarındaki tarihi neden değiştiremiyorum?
-Bir bütçe maliyeti öğesi bir tahmin pozisyonu tarafından kullanılıyorsa o bütçe maliyeti öğesindeki tarihi değiştiremezsiniz. Bu sınırlama, tahmin pozisyonların her zaman bütçe maliyeti öğesinin kuralları dahilinde kalmasının garanti edilmesine yardımcı olur. Tarihi değiştirmek için **Maliyet hesaplaması** FastTab'inde **Tarihleri değiştir**düğmesini tıklayın ve yeni tarihleri girin. Ardından, maliyet öğesinin atandığı pozisyonları güncellemek için **Tamam** düğmesini tıklayın.
+Bir bütçe maliyeti öğesi bir tahmin pozisyonu tarafından kullanılıyorsa o bütçe maliyeti öğesindeki tarihi değiştiremezsiniz. Bu sınırlama, tahmin pozisyonların her zaman bütçe maliyeti öğesinin kuralları dahilinde kalmasının garanti edilmesine yardımcı olur. Tarihi değiştirmek için **Maliyet hesaplaması** FastTab'inde **Tarihleri değiştir** düğmesini tıklayın ve yeni tarihleri girin. Ardından, maliyet öğesinin atandığı pozisyonları güncellemek için **Tamam** düğmesini tıklayın.
 
 ## <a name="why-cant-i-change-the-costs-for-a-budget-cost-element-on-the-compensation-group-page"></a>Ücret grubu sayfasındaki bir bütçe maliyeti öğesi için maliyetleri neden değiştiremiyorum?
 Bütçe maliyet öğelerini sadece **Bütçe maliyet öğeleri** sayfasında oluşturabilir ve değiştirebilirsiniz.

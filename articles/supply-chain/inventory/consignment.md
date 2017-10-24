@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a6e3f0e58e14cc4d68d2249a4e3b69515f23e838
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: b5f2f6d24537a6e28a820b298a88525553e1cd18
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -56,7 +56,7 @@ Bu örnek senaryoda, USMF şirketinin ABD-104 satıcısıyla hammadde M9211CI ü
 USMF ilave periyodik işlemleri gerçekleştirir:
 
 -   Satıcıya ait stoğun farklı ambarlar arasındaki fiziksel hareketi, transfer günlüğü kullanılarak işlenir.
--   Eldeki fiziksel stok,**Madde sayımı**günlüğü kullanılarak güncelleştirilir. Sayım, satıcının izni varsa eldeki stok güncelleştirmesi için de kullanılabilir.
+-   Eldeki fiziksel stok,**Madde sayımı** günlüğü kullanılarak güncelleştirilir. Sayım, satıcının izni varsa eldeki stok güncelleştirmesi için de kullanılabilir.
 
 Satıcı, ABD-104 **Eldeki konsinye stok** sayfasını kullanarak güncelleştirmeleri izleyebilir.
 
