@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 9c0ae4ed27578301573bead17ff2175bb9042036
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -131,7 +130,7 @@ Tahmin pozisyonlarını bütçe döngüsü için bilinen değişiklikleri uygula
 
 ### <a name="modifying-forecast-positions"></a>Tahmin pozisyonlarını değiştirme
 
-Tahmin pozisyonlarında yapılan değişiklikler bu tahmin pozisyonları ile sınırlıdır. Değişiklikler İnsan kaynakları'ndaki pozisyon kayıtlarını etkilemez. Değişikliklerin çoğu düzenlenen tahmin pozisyonu ile de sınırlıdır. Diğer bir deyişle, değişiklikler atanan bütçe planlama süreci ve bütçe planı senaryosuna özgüdür. Özel durumlar, işlemler ve senaryolar arasında pozisyon için paylaşılan alanlarda yapılan değişikliklerdir. Bu alanlar **Genel** öğesindeki ve **Mali boyutlar** öğesindeki alanları içerir. Bu alanlar değiştirildiğinde, yeni değerler tüm bütçe planlama senaryolarındaki pozisyona uygulanır. Böylece, bu alanlar tüm sürümleri hızla güncelleştirmenizi sağlar.
+Tahmin pozisyonlarında yapılan değişiklikler bu tahmin pozisyonları ile sınırlıdır. Değişiklikler İnsan kaynakları'ndaki pozisyon kayıtlarını etkilemez. Değişikliklerin çoğu düzenlenen tahmin pozisyonu ile de sınırlıdır. Diğer bir deyişle, değişiklikler atanan bütçe planlama süreci ve bütçe planı senaryosuna özgüdür. Özel durumlar, işlemler ve senaryolar arasında pozisyon için paylaşılan alanlarda yapılan değişikliklerdir. Bu alanlar **Mali boyutlar** sekmesinde ve **Genel** sekmesindeki alanları içerir. Bu alanlar değiştirildiğinde, yeni değerler tüm bütçe planlama senaryolarındaki konuma uygulanır. Böylece, bu alanlar tüm sürümleri hızla güncelleştirmenizi sağlar.
 
 #### <a name="budget-cost-elements"></a>Bütçe maliyet öğeleri
 

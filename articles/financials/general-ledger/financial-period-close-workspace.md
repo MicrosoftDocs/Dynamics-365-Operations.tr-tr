@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 5de5e3aad0b7a5853653ae53326dac078ec94fea
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 0bbf8f979aeb8b861164e345f9e46bb396f370ce
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +41,7 @@ Mali dönem kapatma çalışma alanı
 
 ### <a name="summary-tiles"></a>Özet kutucukları
 
-**Özet** kutucukları sürece genel bakış sağlarken, göstergeler kapatma sürecini izlemenize yardımcı olur. Tarihi geçmiş görevleri, bugün için kalan görevleri, bugün tamamlanacak ancak gereksinimler yüzünden engellenmiş görevleri ve işlemin tüm kalan görevlerini görebilirsiniz. Bu bilgi, seçilen kapma zamanlama çizelgesine dahil tüm şirketler için geçerlidir.
+**Özet** kutucuğu, işleme genel bir bakış ve kapanış işlemini yolunda tutmanıza yardımcı olacak göstergeler sağlar. Süresi dolmuş görevleri, bugün için kalan görevleri, bugün süresi dolan ancak bağımlılıklar yüzünden engellenmiş görevleri ve işlemin tüm kalan görevlerini görebilirsiniz. Bu bilgi, seçilen kapma zamanlama çizelgesine dahil tüm şirketler için geçerlidir.
 
 ### <a name="tasks-and-status-section"></a>Görevler ve durum bölümü
 
@@ -82,7 +81,7 @@ Kapanış görevlerini organizasyonunuz içindeki mantıklı mülkiyet alanları
 
 ### <a name="calendars"></a>Takvimler
 
-Takvimler sekmesini kullanarak finansal kapanış takvimleri oluşturun ve düzenleyin.  Bu, kapanış işlemleri için çalışma günlerini tanımlayacağınız yerdir ve kapanış görevlerini zamanlamak için kullanılır.  Yeni bir takvim oluşturun ve görev zamanlama için kullanılacak çalışma günlerini belirtin.  Bir takvimi uzun bir dönem için oluşturmak, örneğin bir yıl veya birden fazla yıl gibi, en iyisidir çünkü oluşturulduktan sonra düzenlenebilir.  Bir takvim oluşturduktan sonra, takvimi örneğin tatiller gibi belirli günler için güncelleştirmek için Düzenle düğmesini tıklatın.  Kapanış görevleri, Denetim değerinin Açık olarak ayarlandığı günlerde zamanlanır.  Kapanış görevleri belirli bir güne zamanlanmayacaksa, o günün Denetim değeri Kapalı olarak ayarlanmalıdır.
+Takvimler sekmesini kullanarak mali kapanış takvimlerini oluşturabilir ve düzenleyebilirsiniz. Kapatma işlemleri için çalışma günlerini tanımlayabilir ve bunu kapanış görevlerini zamanlamak için de burayı kullanabilirsiniz.  Yeni bir takvim oluşturun ve görev zamanlama için kullanılacak çalışma günlerini belirtin.  Bir takvimi uzun bir dönem için oluşturmak, örneğin bir yıl veya birden fazla yıl gibi, en iyisidir çünkü oluşturulduktan sonra düzenlenebilir.  Bir takvim oluşturduktan sonra, takvimi örneğin tatiller gibi belirli günler için güncelleştirmek için Düzenle düğmesini tıklatın.  Kapanış görevleri, Denetim değerinin Açık olarak ayarlandığı günlerde zamanlanır.  Kapanış görevleri belirli bir güne zamanlanmayacaksa, o günün Denetim değeri Kapalı olarak ayarlanmalıdır.
 
 ### <a name="templates"></a>Şablonlar
 

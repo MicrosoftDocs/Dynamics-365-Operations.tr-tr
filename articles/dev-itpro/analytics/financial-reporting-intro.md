@@ -15,13 +15,13 @@ ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 4e0c984b95cd395e7ab23394b886782e55fac90f
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: de8167eeea1f4a4db764a7f6398533ec3b9f4306
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -39,7 +39,7 @@ Mali raporlamanın aşağıdaki bileşenleri raporların oluşturulmasını, gö
 
 | Bileşen        | İşlevler                                                                                                                                                                                                                                                                           | Ek bilgiler                                                                          |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| Rapor Tasarımcısı  | Bir rapor tanımlamak ve oluşturmak için bir araya getirilebilen rapor yapı taşlarını oluşturun. Rapor sihirbazı, daha az deneyimli kullanıcıları tasarım süreci boyunca yönlendirir. İleri düzey kullanıcılar, yeni rapor yapı taşları oluşturabilir veya mevcut yapı taşlarını gereksinimlerini karşılayacak şekilde değiştirebilirler. |                                                                                                 |
+| Rapor Tasarımcısı  | Bir rapor tanımlamak ve oluşturmak için birleştirilebilecek rapor yapı taşları oluşturun. Rapor sihirbazı daha az deneyimli kullanıcılara tasarım süreci boyunca rehberlik eder. İleri düzey kullanıcılar, yeni rapor yapı taşları oluşturabilir veya mevcut yapı taşlarını gereksinimlerini karşılayacak şekilde değiştirebilirler. |                                                                                                 |
 | Rapor programları | Düzenli aralıklarla oluşturulması için tek bir raporu veya bir raporlar grubu planlayın.                                                                                                                                                                                          | [Mali rapor oluşturma](generate-financial-report.md) |
 
 ## <a name="features"></a>Özellikler
@@ -55,30 +55,30 @@ Mali raporlamanın aşağıdaki bileşenleri raporların oluşturulmasını, gö
 <td>Rapor tasarım esnekliği</td>
 <td>Rapor Tasarımcısı, bir rapor tasarlarken size şu raporlama seçeneklerini sağlar:
 <ul>
-<li>Boyut kombinasyonlarını kaydedin ve boyutları birden fazla rapor için yeniden kullanın.</li>
-<li>Boyut açıklamalarının nasıl biçimlendirildiğini ve görüntülendiğini kontrol edin.</li>
-<li>Rapor yapı taşlarından hariç tutulan hesapları veya boyutları tanımlayın.</li>
-<li>Nakledilen tahminler için üstbilgileri biçimlendirin.</li>
+<li>Boyut birleşimlerini kaydedin ve boyutları birden fazla rapor için yeniden kullanın.</li>
+<li>Boyut açıklamalarının nasıl biçimlendirilip görüntülendiğini kontrol edin.</li>
+<li>Rapor yapı taşlarında atlanan hesapları veya boyutları belirleyin.</li>
+<li>Toplanan tahminler için başlıkları biçimlendirin.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Mali rapor işbirliği</td>
-<td>Aşağıdaki özellikler, raporların oluşturulmasını ve dağıtımını yönetmenize yardımcı olur:
+<td>Aşağıdaki özellikler raporların oluşturulmasını ve dağıtılmasını yönetmenize yardımcı olur:
 <ul>
-<li>Raporları günlük, haftalık, aylık veya yıllık bazda otomatik olarak oluşturulacak şekilde planlayın.</li>
-<li>Dijital imzalar aracılığıyla daha iyi belge güvenliği sağlayan salt okunur XPS biçimine dışa aktarın.</li>
-<li>Bir Microsoft Excel çalışma sayfasına aktarın.</li>
-<li>Raporları paylaşmak için raporlara bağlantılar içeren e-posta iletileri oluşturabilirsiniz.</li>
+<li>Raporları günlük, haftalık, aylık veya yıllık olarak otomatik şekilde oluşturulmaları için planlayın.</li>
+<li>Dijital imzalarla daha iyi belge güvenliği sunan salt okunur XPS biçiminde dışa aktarın.</li>
+<li>Microsoft Excel çalışma sayfası olarak dışa aktarın.</li>
+<li>Raporları paylaşmak için, raporlara ait bağlantılar içeren e-posta iletileri oluşturabilirsiniz.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Etkileşimli rapor görüntüleme</td>
-<td>Etkileşimli özellikler aşağıdaki görevleri gerçekleştirmenize olanak sağlar:
+<td>Etkileşimli özellikler aşağıdaki görevleri yerine getirmenizi sağlar:
 <ul>
-<li>Görüntülemekte olduğunuz rapor için rapor tarihini değiştirin.</li>
-<li>Görüntülemekte olduğunuz rapor için rapor para birimini değiştirin.</li>
-<li>Raporu ya özet görünümde ya da ayrıntılı görünümde görüntüleyin.</li>
-<li>Rapor içeriğini, belirli bir boyut veya boyut birleşimleri ile sınırlamak için boyut filtreleri ekleyin.</li>
+<li>Görüntülediğiniz raporun rapor tarihini değiştirin.</li>
+<li>Görüntülediğiniz raporun para birimini değiştirin.</li>
+<li>Raporu özet veya ayrıntılı görünümde görüntüleyin.</li>
+<li>Rapor içeriğini belirli bir boyutla veya boyut birleşimiyle sınırlandırmak için boyut filtreleri ekleyin.</li>
 <li>Rapor içeriğini, belirli bir öznitelik veya öznitelik birleşimleri ile sınırlamak için öznitelik filtreleri ekleyin.</li>
 </ul>
 </td>

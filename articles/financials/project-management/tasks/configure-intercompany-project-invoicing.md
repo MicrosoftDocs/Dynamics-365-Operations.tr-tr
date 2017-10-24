@@ -17,10 +17,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 3e26f4261c4028767c20a1118107777d582bb277
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 4de7257ed5e9c9c08ec6cc423c29739a541926d5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Şirketlerarası proje faturalamasını yapılandırma

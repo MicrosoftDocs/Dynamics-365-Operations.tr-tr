@@ -16,13 +16,13 @@ ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 387b804cb20ffdc17ad74dac5d927ecbaf421bae
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fb5c39a65ea59acda05b0828f84bfaea4ad75062
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -52,7 +52,7 @@ Bu konu, Power BI Maliyet Yönetimi'nde nelerin bulunduğunu açıklar. Power BI
 CostAggregatedCostStatementEntryEntity için birincil veri kaynağı CostStatementCache tablosudur. Bu tablo Veri kümesi önbelleğini çerçevesi tarafından yönetilir. Tablo varsayılan olarak her 24 saatte bir güncelleştirilir, ancak güncelleştirmeleri veri önbelleği yapılandırmasında el ile etkinleştirebilirsiniz. Daha sonra **Yönetimi maliyeti** veya **Maliyet analizi** çalışma alanlarında bir el ile güncelleştirme gerçekleştirebilirsiniz. CostStatementCache güncelleştirmesi çalıştırıldıktan sonra sitede güncelleştirilmiş verileri görmek için Power BI.com'da OData bağlantısını güncelleştirmeniz gerekir. Bu Power BI içeriğindeki fark (satın alma, üretim) önlemler, yalnızca Standart maliyet stok yönteminde değerlenmiş olan öğelerle ilgilidir. Üretim farkı gerçekleşmiş maliyet ve etkin maliyet arasındaki fark olarak hesaplanır. Üretim farkı, üretim siparişinin durumu **Bitti** olduğunda hesaplanır. Üretim farkı türleri ve her türün nasıl hesaplandığı hakkında daha fazla bilgi için bkz: [Tamamlanmış üretim emri için varyans çözümleme hakkında](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
-**Yönetimi maliyeti** Power BI içeriği PowerBI.com adresinde bulunabilir. Microsoft Dynamics 365 for Finance and Operations verinizi yüklemek ve bağlamak hakkında daha fazla bilgi için bkz. [Power BI içeriğine PowerBI.com'dan erişin](power-bi-home-page.md).
+**Maliyet yönetimi** Power BI içeriği PowerBI.com adresinde bulunabilir. Microsoft Dynamics 365 for Finance and Operations verinizi bağlamak ve yüklemek hakkında daha fazla için bkz. [Power BI içeriğine PowerBI.com'dan erişin](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan ölçümler
 İçerik bir dizi rapor sayfası içermektedir. Her sayfa grafikler, döşemeler ve tablolar ile görselleştirilen bir dizi ölçüm kümesinden oluşur. Aşağıdaki tablo **Yönetim maliyeti** Power BI içeriğindeki görselleştirmelere bir bakış sağlar.

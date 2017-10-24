@@ -16,13 +16,13 @@ ms.custom: 3481
 ms.assetid: d4e73a3f-633b-48b2-b8db-7a4a59a4d7ec
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: aa5598ddd0d397314b42c6ac0c1b0d02eb95ebb4
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 84e7e6eb17e5741a2984c570786a495864ffbc74
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 

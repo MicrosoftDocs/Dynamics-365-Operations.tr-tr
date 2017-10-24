@@ -16,13 +16,13 @@ ms.custom: 3421
 ms.assetid: f5187c21-eec5-4148-b178-b8a5feff7f23
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: aaacf596f2ea1107a53647d779e9d2b6c37ab530
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -48,7 +48,7 @@ Aşağıdaki bilgiler, türetilmiş defter işleviyle alım hareketlerinin nası
     -   Muhasebeye yönelik defter: VM 1, Geçerli deftere nakil katmanı
     -   Vergi amaçlı defter: VM 2, Vergi deftere nakil katmanı
 
-2.  VM 1'de, Türetilmiş defterler sekmesine tıklayın. Defter alanında VM 2'yi ve Hareket türü alanında Alım'ı seçin.
+2.  VM 1'de, Türetilen defterler sekmesine tıklayın. VM 2'yi Defter alanından ve Hareket türü alnından Satınalma'yı seçin.
 
 Ardından, defterler belirli sabit kıymetlere eklenebilir. 
 

@@ -1,6 +1,6 @@
 ---
 title: "Finansal rapor tasarımcısında rapor tanımları"
-description: "Bu makalede rapor tanımları hakkında bilgi verilmektedir. Bir rapor tanımı bir rapor oluşturmak üzere bir satır tanımı, bir sütun tanımı ve bir opsiyonel raporlama ağacı tanımı kullanan bir rapor bileşenidir (veya yapı taşıdır). Bir rapor tanımı ayrıca bir raporu özelleştirmek için kullanılan seçenek ve ayarlar sunar."
+description: "Bu makalede rapor tanımları hakkında bilgi verilmektedir. Bir rapor tanımı, bir satır tanımı, bir sütun tanımı ve rapor oluşturmak için isteğe bağlı bir raporlama ağacı tanımı kullanılan bir rapor bileşenidir (veya yapı taşıdır). Bir rapor tanımı ayrıca bir raporu özelleştirmek için kullanılan seçenek ve ayarlar sunar."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -16,13 +16,13 @@ ms.custom: 59131
 ms.assetid: 966a3f1d-c59c-4a84-acd4-5bb7e65144c8
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 86b527b72ef0c9af71e70fe280bcdfe3992a36b1
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 96090a3ae15294d98d6207c8eb4a1e58429ca9eb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -31,22 +31,22 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede rapor tanımları hakkında bilgi verilmektedir. Bir rapor tanımı bir rapor oluşturmak üzere bir satır tanımı, bir sütun tanımı ve bir opsiyonel raporlama ağacı tanımı kullanan bir rapor bileşenidir (veya yapı taşıdır). Bir rapor tanımı ayrıca bir raporu özelleştirmek için kullanılan seçenek ve ayarlar sunar. 
+Bu makalede rapor tanımları hakkında bilgi verilmektedir. Bir rapor tanımı, bir satır tanımı, bir sütun tanımı ve rapor oluşturmak için isteğe bağlı bir raporlama ağacı tanımı kullanılan bir rapor bileşenidir (veya yapı taşıdır). Bir rapor tanımı ayrıca bir raporu özelleştirmek için kullanılan seçenek ve ayarlar sunar. 
 
-Bir rapor tanımı bir rapor oluşturmak üzere bir satır tanımı, bir sütun tanımı ve bir opsiyonel raporlama ağacı tanımı kullanan bir rapor bileşenidir (veya yapı taşıdır). Bir rapor tanımı, ayrıca raporun özelleştirilmesi için kullanabileceğiniz ilave seçenekler ve ayarlar da sağlar. Satır tanımlarını ve sütun tanımları tanımladıktan sonra rapor tanımında birleştirmeniz gerekir. Bu noktada, ayrıntı düzeyi ve rapor tarihi gibi diğer tanım yönlerini de tanımlarsınız. Ardından kaydedebilir ve rapor oluşturabilirsiniz. Mali raporlama aşağıdaki ayrıntı düzeylerini sunar:
+Bir rapor tanımı bir rapor oluşturmak üzere bir satır tanımı, bir sütun tanımı ve bir opsiyonel raporlama ağacı tanımı kullanan bir rapor bileşenidir (veya yapı taşıdır). Ayrıca bir rapor tanımı, bir raporu özelleştirmek için kullanabileceğiniz seçenekler ve ayarlar sağlar. Satır tanımları ile sütun tanımlarını belirlemenizin ardından, bunları bir rapor tanımında birleştirmeniz gerekir. Bu noktada, ayrıntı düzeyi ve rapor tarihi gibi diğer tanım yönlerini de tanımlarsınız. Ardından kaydedebilir ve rapor oluşturabilirsiniz. Mali raporlama aşağıdaki ayrıntı düzeylerini sunar:
 
 -   Mali
 -   Finans ve Hesap
 -   Finans, Hesap ve İşlem
 
-Ancak, verilerin Microsoft Dynamics ERP sisteminde nasıl depolandığına bağlı olarak, işlem ayrıntıları raporlarda mevcut olmayabilir.
+Ancak, verilerin Microsoft Dynamics ERP sisteminde nasıl saklandığına bağlı olarak, hareket ayrıntıları raporlarda kullanılamayabilir.
 
 ## <a name="create-a-report-definition"></a>Rapor tanımı oluşturma
-1.  Rapor Tasarımcısı'nda **Dosya** menüsünde **Yeni** seçeneğini tıklatın ve sonra **Rapor Tanımı** seçeneğini seçin.
-2.  **Rapor**, **Çıktı ve Dağıtım**, **Üstbilgiler ve Altbilgiler** ve **Ayarlar** sekmelerinde uygun bilgileri belirtin.
+1.  Rapor Tasarımcısı'ndaki **Dosya** menüsünde, **Yeni**'ye tıklayın ve ardından **Rapor Tanımı**'nı seçin.
+2.  **Rapor**, **Çıkış ve Dağıtım**, **Üst Bilgiler ve Alt Bilgiler** ve **Ayarlar** sekmelerinde ilgili bilgileri belirtin.
 
-## <a name="contents-of-a-report-definition"></a>Bir rapor tanımı içeriği
-Aşağıdaki tablo, rapor tanımı sekmeleirni ve bilgilerin nasıl kullanıldığını açıklanmaktadır.
+## <a name="contents-of-a-report-definition"></a>Bir rapor tanımının içerikleri
+Aşağıdaki tabloda bir rapor tanımındaki sekmeler ve bilgilerin nasıl kullanıldığı açıklanmaktadır.
 
 <table>
 <colgroup>
@@ -62,21 +62,21 @@ Aşağıdaki tablo, rapor tanımı sekmeleirni ve bilgilerin nasıl kullanıldı
 <tbody>
 <tr class="odd">
 <td>Rapor</td>
-<td>Rapor oluşturma, rapor yapılandırma veya varolan bir raporu değiştirme.</td>
+<td>Rapor oluşturun, rapor yapılandırın veya var olan bir raporu değiştirin.</td>
 </tr>
 <tr class="even">
-<td>Çıktı ve Dağıtım</td>
-<td>Çıktı türünü ve rapor hedefini değiştirin.</td>
+<td>Çıkış ve Dağıtım</td>
+<td>Raporun çıkış türünü ve hedefini değiştirin.</td>
 </tr>
 <tr class="odd">
-<td>Üst Bilgiler ve Alt bilgiler</td>
-<td>Rapor için üst bilgileri ve alt bilgileri tanımlayın ve biçimlendirin. Örneğin, üstbilgiye veya altbilgiye metin veya resim ekleyebilirsiniz. Mali raporlama görüntülerde .bmp, .jpg ve .png dosyalarını destekler. Şirket adı, rapor adı veya sayfa numarası gibi diğer bilgileri eklemek için otomatik metin kodlarını da ekleyebilirsiniz.</td>
+<td>Üst Bilgiler ve Alt Bilgiler</td>
+<td>Raporun üst bilgilerini ve alt bilgilerini tanımlayıp biçimlendirin. Örneğin, üstbilgiye veya altbilgiye metin veya resim ekleyebilirsiniz. Mali raporlama görüntülerde .bmp, .jpg ve .png dosyalarını destekler. Şirket adı, rapor adı veya sayfa numarası gibi diğer bilgileri eklemek için otomatik metin kodlarını da ekleyebilirsiniz.</td>
 </tr>
 <tr class="even">
 <td>Ayarlar</td>
-<td>Aşağıdaki ayarları gibi rapor tanımı ayarlarını belirtin:
+<td>Aşağıdaki ayarlar gibi rapor tanımı ayarlarını belirtin:
 <ul>
-<li>Biçimlendirme ve tutarların yuvarlanması</li>
+<li>Tutarları biçimlendirme ve yuvarlama</li>
 <li>Ayrıntı raporlarını biçimlendirme</li>
 <li>Raporlama ağaçlarını biçimlendirme</li>
 <li>Özel durum raporu oluşturma</li>

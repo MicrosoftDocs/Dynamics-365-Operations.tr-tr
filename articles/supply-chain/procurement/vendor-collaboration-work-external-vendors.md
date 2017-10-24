@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: cbd099403f48b502ca74bcb38ae12decedb8f2da
+ms.sourcegitcommit: 9036b7f9863871915f9ad39d76bf027ae4c2f4bf
+ms.openlocfilehash: aee8db8ddaeac135ed1f9d8b1b8a621609c6d358
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 10/05/2017
 
 ---
 
@@ -34,9 +34,9 @@ Bu konu, satınalma aracılarının satınalma siparişleri ve konsinye stok hak
 
 **Satıcı iş birliği** modülü Microsoft Dynamics 365 for Finance and Operations ile elektronik veri alış verişi (EDI) tümleştirmesi olmayan satıcılar için tasarlanmıştır. Satıcıların satınalma siparişi, fatura ve konsinye stoğu bilgileriyle çalışmasına olanak tanır. Bu konuda SS'ler ve konsinye stokla çalışmak için satıcı iş birliği arabirimini kullanan harici satıcılarla nasıl iş birliği yapabileceğiniz açıklanmaktadır. Ayrıca belirli bir satıcının satıcı iş birliğini kullanmak üzere nasıl etkinleştirileceği ve tüm satıcıların bir SS'ye yanıt verdiklerinde görecekleri bilgilerin nasıl tanımlanacağı da açıklanır. Satıcıların harici satıcı iş birliği arabiriminde yapabilecekleri hakkında daha fazla bilgi için bkz. [Müşterilerle satıcı iş birliği](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
-Satıcıların faturalama işlemlerinde satıcı iş birliğini nasıl kullanacakları hakkında daha fazla bilgi için bkz. [Satıcı iş birliği faturalama çalışma alanı](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). Yeni satıcı iş birliği kullanıcılarını hazırlama hakkında daha fazla bilgi için bkz. [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md).
+Satıcıların faturalama işlemlerinde satıcı iş birliğini nasıl kullanacakları hakkında daha fazla bilgi için bkz. [Satıcı iş birliği faturalama çalışma alanı](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Yeni satıcı iş birliği kullanıcılarını hazırlama hakkında daha fazla bilgi için bkz. [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md).
 
-Satıcıların faturalama işlemlerinde satıcı iş birliğini nasıl kullanacakları hakkında daha fazla bilgi için bkz. [Satıcı iş birliği faturalama çalışma alanı](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
+Satıcıların faturalama işlemlerinde satıcı iş birliğini nasıl kullanacakları hakkında daha fazla bilgi için bkz. [Satıcı iş birliği faturalama çalışma alanı](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). 
 
 Yeni satıcı iş birliği kullanıcılarını hazırlama hakkında daha fazla bilgi için bkz. [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md).
 
@@ -131,7 +131,7 @@ Satıcının hangi satınalma siparişlerini yanıtladığını izlemek için **
 
 ### <a name="cancelling-a-po"></a>SS'yi iptal etme
 
-Bir SS'yi iptal ettiğinizde durum yeniden **Onaylandı** olarak değiştirilir. Satıcının iptali onaylayabilmesi veya reddedebilmesi için PO'yu Satıcı portalı üzerinden satıcıya tekrar göndermeniz gerekir. İptal onaylandıktan sonra, SS satıcının onaylanan SS listesinde **İptal edildi** olarak görünür.
+Bir SS'yi iptal ettiğinizde durum yeniden **Onaylandı** olarak değiştirilir. Satınalma siparişini satıcıya geri göndermelisiniz; böylece satıcı iptali onaylayabilir veya reddedebilir. İptal onaylandıktan sonra, SS satıcının onaylanan SS listesinde **İptal edildi** olarak görünür.
 
 ### <a name="adding-attachments-to-a-po"></a>SS'ye ek ekleme
 

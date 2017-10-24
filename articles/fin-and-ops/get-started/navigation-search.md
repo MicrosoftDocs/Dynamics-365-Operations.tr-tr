@@ -15,13 +15,13 @@ ms.custom: 25991
 ms.assetid: eef0676f-c4b1-490e-a032-e9c8580f3fea
 ms.search.region: Global
 ms.author: aneesa
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 431165d541c9a3b63100a93108ee770df8e88aa8
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 6159f78e57752b9519ccf88677a7fc9010ada35a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 

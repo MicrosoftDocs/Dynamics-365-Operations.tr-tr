@@ -1,7 +1,7 @@
 ---
 title: "Stok kapanışı"
 description: "Çıkış hareketlerinin giriş hareketleriyle kapatılması sürecinin bir parçası olarak, genel defterin yapılan düzenlemeleri yansıtacak şekilde güncellenmesini seçebilirsiniz."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: c210c882-6849-4704-b78c-a777dd6cfdb6
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9ff992be8a2a4f1cc0cd3146f138d12267bb74ee
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: dc192b332bd736fd2ba1aac16e9e4614f3afc1dd
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -53,7 +53,7 @@ Bir satış emrinden satınalma emri oluşturduğunuzda, orijinal satış emri i
 
 Güncelleştirme tamamlandıktan sonra, bu görevlerden biri dolayısıyla nakledilmiş genel muhasebe fişini inceleyebilirsiniz.
 
-1.  **Kapanış ve düzeltme**sayfası üzerindeki **Genel bakış**sekmesinde, incelenecek güncelleştirmeyi seçin.
+1.  **Kapanış ve düzeltme** sayfası üzerindeki **Genel bakış** sekmesinde, incelenecek güncelleştirmeyi seçin.
 2.  **Ayrıntılar** ve daha sonra **Fiş** seçeneğini tıklatın.
 
 ## <a name="effects-of-the-inventory-close-process-on-the-general-ledger"></a>Stok kapatma işleminin genel muhasebeye etkileri

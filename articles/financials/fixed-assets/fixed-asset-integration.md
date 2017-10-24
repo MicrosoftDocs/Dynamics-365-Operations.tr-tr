@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 305010c41aa87222c652f98e6aa2b097606052e8
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1f1cf8ef9f75b7463188d47d8e8dd0efff61a030
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -60,7 +59,7 @@ Dahili kullanıma yönelik sabit kıymetler, bir **Sabit kıymet girişi** hesap
 
 Genel olarak bu hesap bir gider hesabıdır. Madde grubu veya tek tek maddeler için **Sabit kıymet girişi** hesap türünü **Madde grubu** veya **Deftere nakil** sayfasında **Satınalma siparişi** sekmesini kullanarak ayarlayabilirsiniz.
 
-Benzer şekilde, dahili kullanıma yönelik sabit kıymetler, bir **Sabit kıymet çıkışı** hesap türüne sahip olacak şekilde ayarlanabilir. Bu hesap türü, alıcı için sabit kıymet çıkışını izlemek üzere kullanılır. Bir kıymet satınalma siparişi kullanılarak alındığında, sabit kıymet çıkış hesabı sabit kıymet borç hesabını mahsup eder. Kıymet alımı bir satıcı faturasını deftere naklettiğinizde veya Sabit kıymetler günlüğündeki kıymet alımını deftere naklettiğinizde, büyük olasılıkla bir alım teklifi kullanılarak deftere nakledilebilir. Madde grubu veya tek tek maddeler için **Madde grubu** veya **Madde defter nakli** sayfasında **Stok** sekmesini kullanarak**Sabit kıymet çıkışı** hesap türünü ayarlayabilirsiniz. 
+Benzer şekilde, dahili kullanıma yönelik sabit kıymetler, bir **Sabit kıymet çıkışı** hesap türüne sahip olacak şekilde ayarlanabilir. Bu hesap türü, alıcı için sabit kıymet çıkışını izlemek üzere kullanılır. Bir kıymet satınalma siparişi kullanılarak alındığında, sabit kıymet çıkış hesabı sabit kıymet borç hesabını mahsup eder. Kıymet alımı bir satıcı faturasını deftere naklettiğinizde veya Sabit kıymetler günlüğündeki kıymet alımını deftere naklettiğinizde, büyük olasılıkla bir alım teklifi kullanılarak deftere nakledilebilir. Madde grubu veya tek tek maddeler için **Madde grubu** veya **Madde defter nakli** sayfasında **Stok** sekmesini kullanarak **Sabit kıymet çıkışı** hesap türünü ayarlayabilirsiniz. 
 
 Sonuçta, deftere nakil için kullanılan ana hesaplar madde model grubu için belirlenen genel muhasebe tümleştirme seçenekleri tarafından belirlenir. Ayrıca, kullanılan ana hesaplar kıymetin satınalma sipariş satırına atanıp atanmadığına bağlı olarak farklılık gösterir. Hesaplar, her madde grubunun nakil profilinden türetilir. 
 **Not:** Ürün girişleri deftere nakledilirken bir stok rezervasyonu varsa satıra bir sabit kıymet atayamaz veya satırdan sabit kıymet oluşturamazsınız. 

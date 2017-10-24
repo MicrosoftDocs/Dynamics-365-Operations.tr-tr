@@ -16,10 +16,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 3b050d47910c146b9691e7aae5b4a1a847ce716e
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 6331c3680169b305c4bfbfada4ba106b619be092
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-a-collection-letter-sequence"></a>Tahsilat mektubu sırası oluşturma

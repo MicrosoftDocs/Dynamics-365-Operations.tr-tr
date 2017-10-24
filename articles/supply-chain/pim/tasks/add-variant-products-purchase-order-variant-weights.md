@@ -16,10 +16,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 410b3a88b3decb31ed6ce9373f14a11bf354acce
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 3db13646c82ea6dc6949aaa714a5769f9c5ad2a9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a>Varyant ağırlıkları kullanarak satınalma siparişlerine çeşitli ürünler ekleme

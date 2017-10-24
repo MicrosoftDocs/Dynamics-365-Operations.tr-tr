@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c871cf4e5ee7f359010aac1fa0fef81e0e0df564
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 011e8220e155a5202b7b0a18bbfa9581826645d0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -98,7 +98,7 @@ BOM ve rotaya uygulanan filtre, BOM tasarımcısının başlığında görüntü
 Bir veya daha fazla sayıda hayalet görüntü içeren BOM'ları İncelemek veya düzenlemek, için BOM tasarımcısını kullanıyorsanız birinci ürünle bağlantılı rota tipik olarak tüm BOM hiyerarşisini kaplayacak şekilde genişler. Görünümü basitleştirmek için ekrandaki üst seviye rotaya **Görünüm** &gt; **Rotayı kilitle** seçeneklerini tıklayarak kilitleyebilirsiniz. Rotanın kilidini açmak için **Görünüm** &gt; **Rotanın kilidini aç** seçeneklerini tıklayın.
 
 ## <a name="adding-and-editing-boms-and-bom-lines"></a>BOM'ların ve BOM satırlarının eklenmesi ve düzenlenmesi
-BOM satırlarını veya BOM'u değiştirmek için **BOM satırlarını**veya **BOM** işlevlerini kullanın. Ağaç görünümden bir düğüm seçtiğinizde düğümün türü, kullanılabilecek işlevleri belirleyecektir.
+BOM satırlarını veya BOM'u değiştirmek için **BOM satırlarını** veya **BOM** işlevlerini kullanın. Ağaç görünümden bir düğüm seçtiğinizde düğümün türü, kullanılabilecek işlevleri belirleyecektir.
 
 | İşlev                            | Açıklama                                                                                               | Düğüm türü ve koşullar                                                                                                                                                                                                                                                                       |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

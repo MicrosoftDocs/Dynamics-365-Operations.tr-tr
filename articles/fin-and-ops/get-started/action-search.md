@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: cd024f2bc06fca9c21ea41fbed44efbc519cee94
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 9b9bb0acc6f0dc1722c916f133eed766ffdd4cc8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -62,7 +61,7 @@ Finance and Operations içerisinde bir düğmenin amacını tamamen anlamak içi
 -   Menü ayırıcı (düğme bir menü düğmesi içindeki adlandırılmış bir grup içinde ise)
 -   Sayfadaki grup veya öğe (örneğin, bir Hızlı Sekmenin adı)
 
-Örneğin, **eylem arama** alanına **top** yazdınız ve şimdi sonuçlar listesini inceliyorsunuz. Bir düğme için ilk girişte **Toplamlar** adına sahiptir ve vurgulanır. **Satış siparişi** &gt; **Görünüm** düğme yolu da gösterilir. **Satış siparişi**, Eylem Panosunda **Satış siparişi**'ne karşılık gelen yolun parçasıdır ve yolun **Görünüm** parçası, o sekmedeki **Görünüm** grubuna karşılık gelir. Benzer şekilde, **Toplam iskonto** düğmesinin yolu (**Sat** &gt; **Hesapla**), bu düğmenin Eylem Panosu üzerindeki **Satış** sekmesinde bulunan **Hesapla** grubu üzerinde bulunduğunu bildirir. Bu nedenle, bu bilgi size tam olarak hangi düğmenin hangi eylem arama tarafından tetiklendiğini anlamanıza yardımcı olur (düğmeyi sonuç listesinden seçerseniz). 
+Örneğin, **eylem arama** alanına **top** yazdınız ve şimdi sonuçlar listesini inceliyorsunuz. Bir düğme için ilk girişte **Toplamlar** adına sahiptir ve vurgulanır. **Satış siparişi** &gt; **Görünüm** düğme yolu da gösterilir. Yolun **Satış siparişi** parçasına karşılık gelen **Satış siparişi** sekmesi, Eylem bölmesinde ve yolun **Görüntüle** parçasına karşılık gelen o sekmede **Görüntüle** grubunda. Benzer şekilde **Toplam indirim** düğmesi (**Sat** &gt; **Hesapla**), bu düğmenin **Hesapla** grubunda, Eylem bölmesinin **Sat** sekmesinde olduğunu size belirtir. Bu nedenle, bu bilgi size tam olarak hangi düğmenin hangi eylem arama tarafından tetiklendiğini anlamanıza yardımcı olur (düğmeyi sonuç listesinden seçerseniz). 
 
 [![eylem-arama-alan-ile-veri](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png) 
 

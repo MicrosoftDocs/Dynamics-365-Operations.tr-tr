@@ -16,13 +16,13 @@ ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 40ae4e0774c5752d697baba6c8add8aaf44fbb6d
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: eb09c0bb28c2ba8e7b890854c444cec80fe8277c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,11 +35,11 @@ Bu makalede bir finansal raporun satır tanımındaki tüm hücreler için gerek
 
 # <a name="specify-a-row-code-in-a-row-definition"></a>Bir satır tanımında bir satır kodu belirleme
 
-Satır tanımlarında, **Satır Kodu** hücresindeki rakamlar veya etiketler, satır tanımındaki her bir satırı tanımlar. Hesaplamalardaki ve toplamalardaki verilere başvurmak için satır kodunu belirtebilirsiniz.
+Satır tanımlarında, **Satır Kodu** hücresindeki rakamlar veya etiketler, satır tanımındaki her bir satırı tanımlar. Hesaplamalar ve toplamlardaki verilere bakmak için satır kodunu belirtebilirsiniz.
 
 ### <a name="row-code-requirements"></a>Satır kodu gereksinimleri
 
-Tüm satırlar için bir satır kodu gereklidir. Bir satır tanımında sayısal, alfasayısal ve ayarlanmamış (boş) satır kodlarını karıştırabilirsiniz. Satır kodu herhangi bir pozitif tamsayı (100.000.000'in altında) veya bu satırı tanımlayan bir açıklama etiketi olabilir. Açıklayıcı etiket mutlaka şu kurallara uygun olmalıdır:
+Tüm satırlar için bir satır kodu gereklidir. Bir satır tanımında, sayısal, alfa sayısal ve ayarlanmamış (boş) satır kodlarını karıştırabilirsiniz. Satır kodu söz konusu satırı tanımlayan herhangi bir pozitif tamsayı (100.000.000'dan küçük) veya açıklayıcı bir etiket olabilir. Açıklayıcı bir etiket şu kurallara uymalıdır:
 
 -   Etiket mutlaka bir alfabetik karakterle (a'dan z'ye veya A'dan Z'ye) başlamalıdır ve 16 karaktere kadar herhangi bir rakam ve harf kombinasyonundan meydana gelebilir. 
     > [!NOTE]
@@ -55,87 +55,87 @@ Aşağıdaki örnekler, geçerli satır kodlarıdır:
 ### <a name="change-a-row-code-in-a-row-definition"></a>Bir satır tanımındaki bir satır kodunu değiştirme
 
 1.  Rapor Tasarımcısında **Satır Tanımları** öğesine tıklayın ve ardından değiştirmek için satır tanımını açın.
-2.  İlgili satırda **Satır Kodu** sütunundaki hücreye yeni bir değer girin.
+2.  İlgili satırda, **Satır Kodu** sütunundaki hücreye yeni değeri girin.
 
-### <a name="reset-numeric-row-codes"></a>Nümerik satır kodlarını sıfırlama
+### <a name="reset-numeric-row-codes"></a>Sayısal satır kodlarını sıfırlama
 
-1.  Rapor Tasarımcısında **Satır Tanımları** öğesini tıklayın ve ardından değiştirmek için satır tanımını açın.
-2.  **Düzenle** menüsünde **Satırları Yeniden Numaralandır** öğesini tıklayın.
-3.  **Satırları Yeniden Numaralandır** iletişim kutusunda, başlangıç satır kodu ve satır kodu artışı için yeni değerler belirleyin. Nümerik satır kodlarını birbirine eşit değerlere sıfırlayabilirsiniz. Ancak, rapor tasarımcısı sadece rakamla başlayan satır kodlarını (örneğin 130 veya 246) yeniden numaralandırır. Harflerle başlayan (örneğin INCOME\_93 veya TP0693) satır kodlarını yeniden numaralandırmaz. 
+1.  Rapor Tasarımcısı'nda, **Satır Tanımları**'na tıklayın ve ardından değiştirilecek satır tanımını açın.
+2.  **Düzenle** menüsünde, **Satırları Yeniden Numaralandır**'a tıklayın.
+3.  **Satırları Yeniden Numaralandır** iletişim kutusunda, başlangıç satır kodu ve satır kodu artışı için yeni değerler belirtin. Nümerik satır kodlarını birbirine eşit değerlere sıfırlayabilirsiniz. Ancak, rapor tasarımcısı sadece rakamla başlayan satır kodlarını (örneğin 130 veya 246) yeniden numaralandırır. Harflerle başlayan (örneğin INCOME\_93 veya TP0693) satır kodlarını yeniden numaralandırmaz. 
 > [!NOTE]
 > Satır kodlarını yeniden numaralandırdığınızda rapor tasarımcısı **TOT** ve **CAL** referanslarını otomatik olarak güncelleştirir. Örneğin, bir **TOT** satırı, 100 satır kodu ile başlayan bir aralığa karşılık geliyorsa ve satırları 90'dan başlayarak yeniden numaralandırırsanız, başlangıç **TOT** referansı 100'den 90'a değişir.
 
-## <a name="add-a-description"></a>Bir açıklama ekle
-Açıklama hücresi, örneğin "Gelir" veya "Net Gelir" gibi rapor satırındaki mali verilerin açıklamalarını içerir. **Açıklama** hücresindeki metin, satır tanımına girdiğinizde raporda tam olarak görüntülenir. 
+## <a name="add-a-description"></a>Açıklama ekleme
+Açıklama hücresi raporun satırındaki "Gelir" veya "Net Gelir" gibi mali verilerin açıklamasını sunar. **Açıklama** hücresindeki metin, satır tanımına girdiğinizde raporda tam olarak görüntülenir. 
 > [!NOTE]
-> Açıklama sütununun rapordaki genişliği sütun tanımı altından ayarlanır. **Açıklama** sütununda, satır tanımındaki metin uzunsa **DESC** sütununun genişliğini doğrulayın. **Satır Ekle** iletişim kutusunu kullandığınızda, **Açıklama** sütunu altındaki değerler, mali verilerden alınan segment değerleri veya boyut değerleridir. Bölüm başlığı veya bölümün toplamı gibi açıklayıcı metin ve bir toplam satırından önce bir satır vb. gibi biçimlendirme kuralları eklemek üzere satır ekleyebilirsiniz. Rapor bir raporlama ağacı içeriyorsa, raporlama ağacındaki raporlama birimleri için tanımlanan ilave metinleri dahil edebilirsiniz. Ayrıca, ilave metni belirli bir raporlama birimiyle sınırlayabilirsiniz.
+> Açıklama sütununun rapordaki genişliği sütun tanımı altından ayarlanır. Satır tanımında yer alan **Açıklama** sütunundaki metin uzunsa **DESC** sütununun genişliğini kontrol edin. **Şunlardan Satır Ekle:** iletişim kutusunu kullandığınızda, **Açıklama** sütunundaki değerler mali verilerden alınan segment değerleri veya boyut değerleridir. Bölüm başlığı veya bölüm toplamı gibi açıklayıcı metin ve bir toplam satırından önce bir çizgi gibi biçimlendirme eklemek için satır ekleyebilirsiniz. Rapor raporlama ağacı içeriyorsa raporlama ağacına raporlama birimleri için tanımlanan ek metni ekleyebilirsiniz. Ayrıca, ek metni belirli bir raporlama birimiyle de sınırlandırabilirsiniz.
 
-### <a name="add-the-description-for-a-line-on-a-report"></a>Bir rapordaki bir satır için açıklama ekleme
+### <a name="add-the-description-for-a-line-on-a-report"></a>Bir rapordaki bir satıra açıklama ekleme
 
-1.  Rapor Tasarımcısında **Satır Tanımları** öğesini tıklayın ve ardından değiştirmek için satır tanımını açın.
+1.  Rapor Tasarımcısı'nda, **Satır Tanımları**'na tıklayın ve ardından değiştirilecek satır tanımını açın.
 2.  **Açıklama** hücresini seçin ve ardından rapor satırının adını girin.
 3.  Biçimlendirme uygulayın.
 
-### <a name="add-additional-text-from-a-reporting-tree-in-the-description"></a>Açıklamaya bir raporlama ağacından ilave metin ekleme
+### <a name="add-additional-text-from-a-reporting-tree-in-the-description"></a>Açıklamadaki bir raporlama ağacından ek metin ekleme
 
-1.  Rapor Tasarımcısında **Satır Tanımları** öğesini tıklayın ve ardından değiştirmek için satır tanımını açın.
-2.  İlave metin kodunu ve diğer metinleri ilgili **Açıklama** hücresine girin.
+1.  Rapor Tasarımcısı'nda, **Satır Tanımları**'na tıklayın ve ardından değiştirilecek satır tanımını açın.
+2.  Uygun **Açıklama** hücresine ek metin kodunu ve her türlü diğer metni girin.
 3.  Biçimlendirme uygulayın.
 
-### <a name="limit-the-additional-text-to-a-specific-reporting-unit"></a>İlave metni belirli bir raporlama birimiyle sınırlandırma
+### <a name="limit-the-additional-text-to-a-specific-reporting-unit"></a>Ek metni belirli bir raporlama birimiyle sınırlandırın.
 
-1.  Rapor Tasarımcısında **Satır Tanımları** öğesini tıklayın ve ardından değiştirmek için satır tanımını açın.
-2.  İlave metnin oluşturulması gereken satırı bulun ve ardından **İlgili Formüller/Satırlar/Birimler** sütunundaki hücreyi çift tıklayın.
+1.  Rapor Tasarımcısı'nda, **Satır Tanımları**'na tıklayın ve ardından değiştirilecek satır tanımını açın.
+2.  Ek metnin oluşturulması gereken satırı bulun ve ardından **İlgili Formüller/Satırlar/Birimler** sütunundaki hücreye çift tıklayın.
 3.  **Raporlama Birimi Seçimi** iletişim kutusundaki **Raporlama ağacı** alanından bir raporlama ağacı seçin.
 4.  **Kısıtlama için raporlama birimi seç** alanında, raporlama ağacını genişletin veya daraltın ve ardından bir raporlama birimi seçin.
 
-## <a name="add-a-format-code"></a>Bir biçim kodu ekleme
-**Biçim Kodu** hücresi, ilgili satır içeriği için önceden biçimlendirilmiş seçeneklerden oluşan bir seçim sunar. **Biçim Kodu** hücresi boşsa, satır bir mali veri ayrıntı satırı olarak yorumlanır. 
+## <a name="add-a-format-code"></a>Biçim kodu ekleme
+**Biçim Kodu** hücresi söz konusu satırın içeriği için önceden biçimlendirilmiş bir seçki sunar. **Biçim Kodu** hücresi boşsa, satır bir mali veri ayrıntı satırı olarak yorumlanır. 
 > [!NOTE]
 > Bir rapor, baskılanan tutar satırlarıyla bağlantılı, tutar içermeyen biçimlendirme satırları içeriyorsa (örneğin, sıfır bakiyeler nedeniyle), başlık ve biçim satırlarının yazdırılmaması için **İlgili Formüller/Satırlar/Birimler** sütununu kullanabilirsiniz.
 
-### <a name="add-a-format-code-to-a-report-row"></a>Bir rapor satırına bir biçim kodu ekleme
+### <a name="add-a-format-code-to-a-report-row"></a>Bir rapor satırına biçim kodu ekleme
 
-1.  Report Designer'da **Satır Tanımları** öğesini tıklayın ve ardından değiştirilecek satır tanımını seçin.
-2.  **Biçim Kodu** hücresini çift tıklayın.
-3.  Listeden bir biçim kodu seçin. Aşağıdaki tabloda biçim kodları ve eylemleri açıklanmıştır.
+1.  Rapor Tasarımcısı'nda, **Satır Tanımları**'na tıklayın ve ardından değiştirmek için bir satır tanımı seçin.
+2.  **Biçim Kodu** hücresine çift tıklayın.
+3.  Listedeki bir biçim kodunu seçin. Aşağıdaki tabloda biçim kodları ve bunların eylemleri açıklanmaktadır.
     | Biçim kodu                   | Biçim kodunun yorumlanması | Eylem|
     |---|---|---|
     | (Yok)                        |                                    | **Biçim Kodu** hücresini temizler.                                                                                                                                                                               |
     | TOT                           | Toplam                              | **İlgili Formüller/Satır/Birim** sütununda matematiksel işleçler kullanan bir satırı belirtir. Toplamlar **+** veya **-** gibi basit işleçler içerir.                                                      |
     | CAL                           | Hesaplama                        | **İlgili Formüller/Satır/Birim** sütununda matematiksel işleçler kullanan bir satırı belirtir. Hesaplamalar **+**, **-**, **\***, **/** ve **IF/THEN/ELSE** ifadeleri gibi karmaşık işleçler içerir. |
     | DES                           | Açıklama                        | Bir rapordaki başlık satırını veya boş bir satırı tanımlar.                                                                                                                                                        |
-    | LFT RGT CEN                   | Sol Sağ Orta                  | Metnin sütun tanımındaki yerleşimine bakılmaksızın, rapor sayfasında satır tanımını metnini hizalar.                                                                                               |
-    | CBR                           | Değişiklik Temel Satırı                    | Sütun hesaplamaları için temel satırı ayarlayan bir satırı tanımlar.                                                                                                                                               |
-    | SÜTUN                        | Sütun sonu                       | Raporda yeni bir sütun başlatır.                                                                                                                                                                             |
+    | LFT RGT CEN                   | Sol Sağ Orta                  | Metnin sütun tanımındaki yerinden bağımsız olarak rapor sayfasındaki satır açıklaması metnini hizalar.                                                                                               |
+    | CBR                           | Temel Satırı Değiştir                    | Sütun hesaplamaları için temel satırı ayarlayan bir satır tanımlar.                                                                                                                                               |
+    | COLUMN                        | Sütun sonu                       | Raporda yeni bir sütun başlatır.                                                                                                                                                                             |
     | SAYFA                          | Sayfa sonu                         | Raporda yeni bir sayfa başlatır.                                                                                                                                                                               |
     | ---                           | Tek alt çizgi                   | Rapordaki tüm tutar sütunlarını tek altı çizili hale getirir.                                                                                                                                                     |
     | ===                           | Çift alt çizgi                   | Rapordaki tüm tutar sütunlarını çift altı çizili hale getirir.                                                                                                                                                     |
-    | ÇiZGi1                         | İnce çizgi                          | Sayfa boyunca tek bir ince çizgi çizer.                                                                                                                                                                      |
-    | ÇiZGi2                         | Kalın çizgi                         | Sayfa boyunca tek bir kalın çizgi çizer.                                                                                                                                                                     |
-    | ÇiZGi3                         | Kesikli çizgi                        | Sayfa boyunca tek bir kesikli çizgi çizer.                                                                                                                                                                    |
-    | ÇiZGi4                         | Kalın çizgi ve ince çizgi           | Sayfa boyunca iki çizgi çizer. Üst çizgi kalın ve alt çizgi incedir.                                                                                                                       |
-    | ÇiZGi5                         | İnce çizgi ve kalın çizgi           | Sayfa boyunca iki çizgi çizer. Üst çizgi incedir ve alt çizgi kalındır.                                                                                                                       |
-    | BXB BXC                       | Kutuyla çevrilmiş satır                          | **BXB** satırı ile başlayan ve **BXC** satırı ile biten rapor satırlarının etrafını kutuyla çevirir.                                                                                                               |
-    | REM                           | Açıklama                             | Bir yorum satırı olan ve raporda yazdırılmaması gereken bir satırı tanımlar. Örneğin, bir hatırlatma satırı, biçimlendirme tekniklerini açıklıyor olabilir.                                                            |
-    | SIRALAMA SORTDESC ASORTDESC | Sırala                               | Harcamaları veya gelirleri sıralar, bir fiili veya bütçe farkı raporunu en büyük farka göre sıralar veya sıra tanımlarını alfabetik olarak sıralar.                                                                   |
+    | LINE1                         | İnce çizgi                          | Sayfa boyunca tek bir ince çizgi çizer.                                                                                                                                                                      |
+    | LINE2                         | Kalın çizgi                         | Sayfa boyunca tek bir kalın çizgi çizer.                                                                                                                                                                     |
+    | LINE3                         | Noktalı çizgi                        | Sayfa boyunca tek bir noktalı çizgi çizer.                                                                                                                                                                    |
+    | LINE4                         | Kalın çizgi ve ince çizgi           | Sayfa boyunca çift çizgi çizer. Üstteki çizgi kalın, alttaki çizgi ise incedir.                                                                                                                       |
+    | LINE5                         | İnce çizgi ve kalın çizgi           | Sayfa boyunca çift çizgi çizer. Üstteki çizgi ince, alttaki çizgi ise kalındır.                                                                                                                       |
+    | BXB BXC                       | Kutu içinde satır                          | **BXB** satırıyla başlayan ve **BXC** satırıyla biten rapor satırlarının çevresine bir kutu çizer.                                                                                                               |
+    | REM                           | Açıklama                             | Bir satırın yorum satırı olduğunu ve raporda yazdırılmaması gerektiğini belirtir. Örneğin, bir açıklama satırı biçimlendirme tekniklerinizi açıklayabilir.                                                            |
+    | SORT ASORT SORTDESC ASORTDESC | Sırala                               | Giderleri veya gelirleri sıralar, en büyük varyansa göre gerçek varyans veya bütçe varyansı raporunu sıralar ya da satır açıklamalarını alfabetik olarak sıralar.                                                                   |
 
-## <a name="specify-related-formulasrowsunits"></a>İlgili formülleri/satırları/birimleri tanımla
-**İlgili Formüller/Satırlar/Birimler** hücresi birden fazla amaca sahiptir. Bir **İlgili Formüller/Satırlar/Birimler** hücresi, satır türüne bağlı olarak aşağıdaki işlevlerden birini yerine getirebilir:
+## <a name="specify-related-formulasrowsunits"></a>İlgili formülleri/satırları/birimleri belirt
+**İlgili Formüller/Satırlar/Birimler** hücresinin birden fazla amacı vardır. Satırın türüne bağlı olarak, bir **İlgili Formüller/Satırlar/Birimler** hücresi aşağıdaki işlevlerden birini gerçekleştirir:
 
--   Bir **TOT** biçim kodu veya bir **CAL** biçim kodu kullandığınızda bir hesaplamaya dahil edilecek satırları tanımlayın.
--   Biçimlendirmenin sadece ilgili tutar yazdırıldığında yazdırılması için bir tutar satırıyla bir biçimlendirme satırı ilişkilendirin.
--   Bir satırı belirli bir raporlama birimiyle sınırlandırın.
--   **BASEROW** biçim kodu kullandığınızda hesaplamalar için temel satırı tanımlayın.
--   Herhangi bir sıralama biçim kodu kullandığınızda sıralanacak satırları tanımlayın.
+-   Bir **TOT** veya **CAL** biçim kodunu kullandığınızda bir hesaplamaya eklenecek satırları tanımlama.
+-   Biçimlendirmenin yalnızca ilgili tutar yazdırıldığında yazdırılması için bir biçimlendirme satırını bir tutar satırıyla ilişkilendirme.
+-   Bir satırı belirli bir raporlama birimiyle sınırlandırma.
+-   **BASEROW** biçim kodunu kullandığınızda hesaplamalar için temel satırı tanımlama.
+-   Sıralama biçim kodlarından herhangi birini kullandığınızda sıralanacak satırları tanımlama.
 
-### <a name="use-a-row-total-in-a-row-definition"></a>Bir satır tanımında bir satır toplamı kullanma
+### <a name="use-a-row-total-in-a-row-definition"></a>Bir satır tanımındaki bir satır toplamını kullanma
 
-Başka satırlara tutar eklemek veya başka satırlardan tutar çıkarmak için bir satır toplam formülü kullanın. Bir satır toplamının oluşturulması için formül, ayrı satır kodlarını ve aralıklarını birleştirmek üzere + ve - işleçlerini içerebilir. Aralıklar, iki nokta üst üste (:) ile belirtilir. Formül, 1.024 karaktere kadar içerebilir. Burada standart bir toplama formülüne örnek verilmiştir: 400+420+430+450+460BORÇLAR+ÖZ VARLIK520:546520:546-BORÇLAR
+Diğer satırlara tutar eklemek ve bunlardan tutar çıkarmak için bir satır toplamı formülü kullanın. Satır toplamı oluşturma amaçlı bir formül, bağımsız satır kodlarını ve aralıklarını birleştirmek için + ve - işleçlerini kullanabilir. Aralıkla bir iki nokta üst üste işaretiyle (:) gösterilir. Formül en fazla 1.024 karakter içerebilir. Standart bir toplama formülü örneği şu şekildedir: 400+420+430+450+460LIABILITIES+EQUITY520:546520:546-LIABILITIES
 
-### <a name="components-of-a-row-total-formula"></a>Bir satır toplam formülünün bileşenleri
+### <a name="components-of-a-row-total-formula"></a>Bir satır toplamı formülünün bileşenleri
 
-Bir satır toplam formülü oluşturduğunuzda, mevcut satır tanımına hangi satırların ekleneceğini veya mevcut satır tanımından hangi satırların çıkarılacağını belirlemek için yeni kodlar kullanmanız ve satırların nasıl birleştirileceğini tanımlamak için işleçlerden yararlanmanız gerekir. Toplam satırları ve tutar satırları herhangi bir kombinasyonda kullanılabilir. **Not:** Bir aralıkta bulunan tüm toplam satırları hariç tutulur. Bir genel toplam oluşturmak için satır aralığını belirtebilirsiniz. Bir aralığın ilk satırı bir toplam satırı ise, bu satır yeni toplama dahil edilir. Aşağıdaki tabloda işleçlerin satır toplam formüllerinde nasıl kullanıldığı açıklanmıştır.
+Bir satır toplamı formülü oluşturduğunuzda, geçerli satır tanımına hangi satırların ekleneceğini veya bu tanımdan hangi satırların çıkarılacağını belirtmek için satır kodlarını, ayrıca satırların nasıl birleştirileceğini belirtmek için de işleçleri kullanmanız gerekir. Toplam satırları ve tutar satırları herhangi bir birleşimde kullanılabilir. **Not:** Bir aralıktaki tüm toplam satırları hariçtir. Bir genel toplam oluşturmak için, satır aralığını belirtebilirsiniz. Bir aralığın ilk satırı bir toplam satırıysa söz konusu satır yeni toplama eklenir. Aşağıdaki tabloda işleçlerin satır toplam formüllerinde nasıl kullanıldığı açıklanmıştır.
 
 | İşleç | Örnek formül | Açıklama                                                 |
 |----------|-----------------|-------------------------------------------------------------|
@@ -143,13 +143,13 @@ Bir satır toplam formülü oluşturduğunuzda, mevcut satır tanımına hangi s
 | :        | 100:330         | Tüm satırların toplamlarını 100 satırı ile 330 satırı arasına ekler.    |
 | -        | 100-330         | 100 satırındaki tutarı 330 satırındaki tutardan çıkarır. |
 
-### <a name="create-a-row-total"></a>Bir satır toplamı oluşturma
+### <a name="create-a-row-total"></a>Satır toplamı oluşturma
 
-1.  Rapor Tasarımcısında **Satır Tanımları** öğesini tıklayın ve ardından değiştirmek için satır tanımını açın.
-2.  Satır tanımındaki **Biçim Kodu** hücresini çift tıklayın ve **TOT** öğesini seçin.
-3.  **İlgili Formüller/Satırlar/Birimler** hücresine toplam formülü girin.
+1.  Rapor Tasarımcısı'nda, **Satır Tanımları**'na tıklayın ve ardından değiştirilecek satır tanımını açın.
+2.  Satır tanımındaki **Biçim Kodu** hücresine çift tıklayın ve **TOT**'u seçin.
+3.  **İlgili Formüller/Satırlar/Birimler** hücresine toplam formülünü girin.
 
-### <a name="relate-a-format-row-to-an-amount-row"></a>Bir format satırını bir tutar satırıyla ilişkilendirme
+### <a name="relate-a-format-row-to-an-amount-row"></a>Bir biçim satırını bir tutar satırıyla ilişkilendirme
 
 Bir satır tanımındaki **Biçim Kodu** sütununda **DES**, **LFT**, **RGT**, **CEN**, **---** ve **===** biçim kodları, biçimlendirmeyi tutar içermeyen satırlara uygular. İlgili tutar satırları baskılandığında (örneğin, tutar satırlarının sıfır değerleri içermesi veya dönem faaliyeti içermemesi nedeniyle) format satırlarını ilgili tutar satırlarıyla ilişkilendirmeniz gerekir. Bu özellik, dönem için yazdırılacak ayrıntı bulunmuyorsa alt toplamlarla ilgili başlıkların veya biçimlendirmenin yazdırılmasını önlemek istediğiniz durumlarda kullanışlıdır. 
     > [!NOTE]
@@ -158,57 +158,57 @@ Bir satır tanımındaki **Biçim Kodu** sütununda **DES**, **LFT**, **RGT**, *
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Bir format satırını bir tutar satırıyla ilişkilendirme
 
 1.  Report Designer'da **Satır Tanımları** öğesini tıklayın ve ardından değiştirilecek satır tanımını seçin.
-2.  Biçimlendirme satırında, **İlgili Formüller/Satırlar/Birimler** hücresinde baskılanacak tutar satırının satır kodunu girin. **Not:** Bir tutar satırını baskılamak için satır bakiyesi mutlaka 0 (sıfır) olmalıdır. Bakiyesi olan bir tutar satırı baskılanmaz.
-3.  **Dosya** menüsünden **Kaydet** düğmesini tıklayın.
+2.  Biçimlendirme satırındaki **İlgili Formüller/Satırlar/Birimler** hücresine gizlenecek tutar satırının satır kodunu girin. **Not:** Bir tutar satırını gizlemek için, satırın bakiyesi 0 (sıfır) olmalıdır. Bakiyesi olan bir tutar satırı gizlenmez.
+3.  **Dosya** menüsünde **Kaydet**'e tıklayın.
 
-### <a name="example-of-preventing-printing-of-rows"></a>Satırların yazdırılmasının önlenmesine örnek
+### <a name="example-of-preventing-printing-of-rows"></a>Satırların yazdırılmasını engellemeye ilişkin örnek
 
 Aşağıdaki örnekte Phyllis raporun başlığının ve **Toplam Nakit** satırındaki alt çizgilerin yazdırılmasını engellemek istiyor, çünkü nakit tutarlarının hiçbirinde faaliyet bulunmuyor. Bu nedenle, 220 satırında (**---** biçim kodunun da belirttiği gibi bir biçimlendirme satırıdır), **İlgili Formüller/Satırlar/Birimler** hücresinde, baskılamak istediği tutar satırının satır kodu olan **250** değerini giriyor. [![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
-## <a name="select-the-base-row-for-a-column-calculation"></a>Bir sütun hesaplaması için temel satır seçme
-İlişkisel raporlamada, satır tanımında **CBR** (temel satırı değiştir) biçim kodunu kullanarak bir veya daha fazla sayıda temel satır atayabilirsiniz. Temel satıra daha sonra sütun tanımındaki bir hesaplama tarafından başvurulur. Burada CBR hesaplamaları için bazı tipik örnekler verilmiştir:
+## <a name="select-the-base-row-for-a-column-calculation"></a>Bir sütun hesaplaması için temel satırı seçme
+İlişkiye dayalı raporlamada **CBR** (temel satırı değiştir) biçim kodunu kullanarak satır tanımındaki bir veya daha fazla satırı atarsınız. Böylece sütun tanımındaki bir hesaplama bir temel satıra başvurur. Aşağıda CBR hesaplamalarının tipik bazı örnekleri sunulmuştur:
 
--   Bireysel gelir maddelerle ilişkili toplam gelir yüzdesi
--   Bireysel harcama maddelerle ilişkili toplam harcama yüzdesi
--   Bölüm veya departman ayrıntılarıyla ilişkili brüt kar yüzdesi.
+-   Bağımsız gelir maddeleriyle ilişkili olduğundan toplam gelir yüzdesi
+-   Bağımsız gider maddeleriyle ilişkili olduğundan toplam gider yüzdesi
+-   Bölüm veya departman ayrıntılarıyla ilişkili olduğundan brüt marj yüzdesi.
 
-Satır tanımında bir veya daha fazla sayıda temel satır tanımlanır ve ardından sütun tanımı, temel satırın raporlanacağı ilişkiyi belirler. Sütun formülünde **BASEROW** kodu kullanılmaktadır. **BASEROW** ile birlikte şu temel matematiksel işlemler kullanılır: çarpma, bölme, toplama ve çıkarma. En sık kullanılan işlem, **BASEROW** ile bölümdür ve sonuç bir yüzde olarak gösterilir. Formülde **BASEROW** kullanan sütun hesaplamaları, ilgili temel satır kodları için satır tanımını kullanır.  **CBR** satırları şu özelliklere sahiptir:
+Satır tanımında bir veya daha fazla temel satır tanımlanır ve ardından sütun tanımı temel satırın rapor edildiği ilişkiyi belirler. Sütun formülünde kullanılan kod **BASEROW**'dur. Şu temel matematik işlemleri **BASEROW** ile birlikte kullanılır: bölme, çarpma, toplama veya çıkarma. En sık kullanılan işlem sonucun yüzde olarak gösterildiği **BASEROW**'a bölmektir. Formülde **BASEROW**'un kullanıldığı sütun hesaplamaları ilgili temel satır kodları için satır tanımından yararlanır. **CBR** satırları aşağıdaki özelliklere sahiptir:
 
--   **CBR** satırları, tamamlanan rapora yazdırılmaz.
--   **CBR** biçim kodu ve bununla ilişkili kod, ilgili hesaplamaları gösteren satırın veya bölümün üstüne yerleştirilir.
+-   **CBR** satırları tamamlanan raporda yazdırılmaz.
+-   **CBR** biçim kodu ve ilgili satır kodu ilgili hesaplamaları gösteren satırın veya bölümün üst kısmına konumlandırılır.
 
-Sütun tanımında **CALC** sütun türü, **Formül** satırında bir formül gösteren bir sütunu belirtir. Bu formül, raporun bu sütunu için verilere dayalı olarak çalışır ve satırdaki **CBR** biçim kodlarıyla ilgili temel hesaplamalar için Baserow anahtar kelimesini kullanır. Satır tanımında **CBR** biçim kodu, rapordaki her bir satır için temel satırın bir yüzdesini veya çarpımını hesaplayan sütunlar için temel satırı tanımlar. Örneğin bir tanesi net satışlar, bir tanesi brüt satışlar ve biri toplam giderler olmak üzere bir satır formatında birden fazla **CBR** biçim koduna sahip olabilirsiniz. Genellikle, **CBR** biçim kodu, bir toplam satırı ile karşılaştırılan hesaplar için bir yüzde oluşturmak için kullanılır. Bir temel satır, başka bir temel satır tanımlanana kadar tüm hesaplamalar için kullanılır. Bir başlangıç **CBR** biçim kodu ve bir bitiş **CBR** biçim kodu tanımlamanız gerekir. Örneğin, giderleri net satışların bir yüzdesi olarak belirlemek için, her bir gider satırındaki değeri net satışlar satırındaki değere bölebilirsiniz. Bu durumda net satılar satırı temel satırdır. Aşağıdaki örnekte gösterildiği gibi, mevcut ve yılbaşından bugüne sonuçlarını ve her bir sonucun bir temel yüzdesini raporlayan bir sütun tanımı oluşturabilirsiniz. Ayrıntılı bir gelir tablosu ile başlayın.
+Bir sütun tanımında, **CALC** sütun türü **Formül** satırındaki bir formülü belirten bir sütunu gösterir. Bu formül raporun bu sütununa ilişkin verilerde çalışır ve hesaplamaları satırdaki **CBR** biçim kodlarına dayandırmak için Baserow'u kullanır. Satır tanımında **CBR** biçim kodu rapordaki her satır için bir yüzde hesaplayan veya temel satırla çarpım yapan sütunlar için temel satırı tanımlar. Bir satır biçiminde, net satış için bir, brüt satış için bir ve toplam giderler için bir adet gibi birden fazla **CBR** biçim kodunuz olabilir. Genellikle **CBR** biçim kodu, bir toplam satırıyla karşılaştırılan hesaplar için bir yüzde oluşturmak üzere kullanılır. Başka bir temel satır tanımlanana kadar tüm hesaplamalar için bir temel satır kullanılır. Bir başlangıç **CBR** biçim kodu ile bir son **CBR** biçim kodu tanımlamanız gerekir. Örneğin, giderleri net satışın yüzdesi olarak belirlemek için her gider satırındaki değeri net satış satırındaki değere bölebilirsiniz. Bu durumda, net satış satırı temel satırdır. Aşağıdaki örnekte gösterildiği gibi her sonucun taban yüzdesiyle birlikte cari ve yılın başından beri alınan sonuçları raporlayan bir sütun tanımı tanımlayabilirsiniz. Ayrıntılı bir gelir tablosuyla başlayın.
 
-### <a name="select-the-base-row-in-a-row-definition-for-a-column-calculation"></a>Bir sütun hesaplaması için bir satır tanımındaki temel satırı seçin.
+### <a name="select-the-base-row-in-a-row-definition-for-a-column-calculation"></a>Bir sütun hesaplaması için bir satır tanımında temel satırı seçme
 
-1.  Report Designer'da **Sütun Tanımları** öğesini tıklayın ve ardından bir gelir tablosu için sütun tanımını açın.
-2.  Sütun tanımına yeni bir sütun ekleyin ve sütun türünü **CAC** olarak ayarlayın.
-3.  Yeni sütunun **Formül** hücresine **X/BASEROW** formülünü girin; burada **X**, yüzde olarak görüntülenecek **FD** sütun türünü ifade eder.
-4.  **Biçim/Para Birimi Atlatma** hücresini çift tıklayın.
-5.  **Biçimi Atlatma** iletişim kutusunda, **Biçim Kategorisi** listesinden **Yüzde** öğesini seçin ve **Tamam** öğesini tıklayın.
+1.  Rapor Tasarımcısı'nda, **Sütun Tanımları**'na tıklayın ve ardından bir gelir tablosuna ait sütun tanımını açın.
+2.  Sütun tanımına yeni sütun ekleyin ve sütun türünü **CALC** olarak ayarlayın.
+3.  Yeni sütunun **Formül** hücresine **X/BASEROW** formülünü girin. Burada **X** yüzdesi olarak görülecek **FD** sütun türüdür.
+4.  **Biçim/Para Birimi Geçersiz Kalma** hücresine çift tıklayın.
+5.  **Biçim Geçersiz Kılma** iletişim kutusundaki **Biçim Kategorisi** listesinde **Yüzde**'yi seçin ve ardından **Tamam**'a tıklayın.
 6.  **Dosya** menüsünde, sütun tanımını yeni bir adla kaydetmek için **Farklı Kaydet** öğesini tıklayın. **CBR** öğesini mevcut dosya adına ekleyin (örneğin **CUR\_YTD\_CBR**). Bu sütun tanımı, temel satır sütunu tanımınızdır.
-7.  Report Designer'da **Satır Tanımları** öğesini tıklayın ve ardından temel satır hesaplamasını kullanarak değiştirmek istediğiniz satır tanımını açın.
+7.  Rapor Tasarımcısı'nda, **Satır Tanımları**'na tıklayın ve ardından temel satır hesaplamasını kullanarak değişiklik yapmak için satır tanımını açın.
 8.  Temel satır hesaplamasının başlaması gereken satırın üzerine yeni bir satır ekleyin.
-9.  Satır tanımındaki **Biçim Kodu** hücresini çift tıklayın ve ardından **CBR** öğesini seçin.
-10. **İlgili Formüller/Satırlar/Birimler** hücresine temel satır için satır kodu numarasını girin.
+9.  Satır tanımının **Biçim Kodu** hücresine çift tıklayın ve ardından **CBR**'yi seçin.
+10. **İlgili Formüller/Satırlar/Birimler** hücresine temel satırın satır kodu numarasını girin.
 
-### <a name="example-of-base-row-calculation"></a>Temel satır hesaplamasına örnek
+### <a name="example-of-base-row-calculation"></a>Temel satır hesaplaması örneği
 
-Aşağıdaki satır tanımı örneğinde, 100 satırı, hesaplamalar için temel satırın 280 olduğunu gösterir. [![Temel satır hesaplamasına örnek.](./media/cbrrowdefinition.png)](./media/cbrrowdefinition.png) Aşağıdaki sütun tanımı örneğinde hesaplamalar **CBR** biçim kodunu kullanır. C sütunundaki hesaplama, raporun B sütunundaki değeri B sütununun 280 satırındaki değere böler. B sütunundaki biçim atlatma, hesaplama sonucunu bir yüzde olarak yazdırır. Benzer şekilde, E sütunundaki her bir tutar, net satışların bir yüzdesi olarak D sütunundaki tutardır. [![Sütun tanımı örneği.](./media/cbrcolumndefinition2.png)](./media/cbrcolumndefinition2.png) Aşağıdaki örnekte önceki hesaplamalara göre oluşturulabilecek bir rapor gösterilmiştir. [![Önceki örnek hesaplamalarına dayalı örnek rapor.](./media/cbrreport-1024x272.png)](./media/cbrreport.png)
+Aşağıdaki satır tanımı örneğinde, 100 satırı, hesaplamalar için temel satırın 280 olduğunu gösterir. [![Temel satır hesaplamasına örnek.](./media/cbrrowdefinition.png)](./media/cbrrowdefinition.png) Aşağıdaki sütun tanımı örneğinde, hesaplamalarda **CBR** biçim kodu kullanılmaktadır. C sütunundaki hesaplama raporun B sütunundaki değeri sütunun 280. satırındaki değere bölmektedir. B sütunundaki biçim geçersiz kılma işlemi, hesaplamanın sonucunu yüzde olarak yazdırmaktadır. Benzer şekilde, E sütunundaki her tutar net satışın yüzdesi olarak D sütunundaki tutardır. [![Sütun tanımı örneği.](./media/cbrcolumndefinition2.png)](./media/cbrcolumndefinition2.png) Aşağıdaki örnek önceki hesaplamalara göre oluşturulabilecek bir raporu göstermektedir. [![Önceki örnek hesaplamalarına dayalı örnek rapor.](./media/cbrreport-1024x272.png)](./media/cbrreport.png)
 
-## <a name="select-a-sorting-code-for-a-row-definition"></a>Bir satır tanımı için bir sıralama kodu seçin.
-Sıralama kodları hesapları veya değerleri sıralar, bir fiili veya bütçe farkı raporunu en büyük farka göre sıralar veya satır tanımlarını alfabetik olarak sıralar. Aşağıdaki sıralama kodları mevcuttur:
+## <a name="select-a-sorting-code-for-a-row-definition"></a>Bir satır tanımı için bir sıralama kodu seçme
+Sıralama kodları hesapları veya gelirleri sıralar, en büyük varyansa göre gerçek varyans veya bütçe varyansı raporunu sıralar ya da satır açıklamalarını alfabetik olarak sıralar. Aşağıdaki sıralama kodları kullanılabilir:
 
--   **SORT** – Raporu belirtilen sütundaki değerlere dayalı olarak artan sırada sıralar.
--   **ASORT** – Raporu belirtilen sütundaki değerlerin mutlak değerlerine dayalı olarak artan sırada sıralar. Diğer bir deyişle, değerler sıralanırken değerlerin işaretleri dikkate alınmaz. Bu biçim kodu, farkın pozitif veya negatif olup olmamasından bağımsız olarak değerleri fark büyüklüğüne göre sıralar.
--   **SORTDESC** – Raporu belirtilen sütundaki değerlere dayalı olarak azalan sırada sıralar.
--   **ASORTDESC** – Raporu belirtilen sütundaki değerlerin mutlak değerlerine dayalı olarak azalan sırada sıralar.
+-   **SORT**: Raporu belirtilen sütundaki değerlere göre artan sırada sıralar.
+-   **ASORT**: Raporu belirtilen sütundaki değerlerin mutlak değerine göre artan sırada sıralar. Başka bir deyişle, değerler sıralanırken her değerin işareti yok sayılır. Bu biçim kodu değerleri varyansın pozitif veya negatif olmasından bağımsız olarak varyansın büyüklüğüne göre sıralar.
+-   **SORTDESC**: Raporu belirtilen sütundaki değerlere göre azalan sırada sıralar.
+-   **ASORTDESC**: Raporu belirtilen sütundaki değerlerin mutlak değerine göre azalan sırada sıralar.
 
-### <a name="select-a-sorting-code"></a>Bir sıralama kodu seçin
+### <a name="select-a-sorting-code"></a>Sıralama kodu seçme
 
-1.  Rapor Tasarımcısında **Satır Tanımları** öğesini tıklayın ve ardından değiştirmek için satır tanımını açın.
-2.  **Biçim Kodu** hücresini çift tıklayın ve ardından bir sıralama kodu seçin.
-3.  **İlgili Formüller/Satırlar/Birimler** hücresinde sıralanacak satır kodlarının aralığını belirtin. Bir aralık belirlemek için ilk satır kodunu, bir iki nokta üst üste işareti (:) ve ardından son satır kodunu girin. Örneğin, aralığın 160 satırından 490 satırına kadar olduğunu belirtmek için **160:490** değerini girin.
+1.  Rapor Tasarımcısı'nda, **Satır Tanımları**'na tıklayın ve ardından değiştirilecek satır tanımını açın.
+2.  **Biçim Kodu** hücresine çift tıklayın ve ardından bir sıralama kodu seçin.
+3.  **İlgili Formüller/Satırlar/Birimler** hücresinde, sıralanacak satır kodları aralığını belirtin. Aralık belirtmek için ilk satır kodunu, bir iki nokta üst üste işareti (:) ve ardından son satır kodunu girin. Örneğin, aralığın 160. satır ila 490. satır arasında olduğunu belirtmek için **160:490** girin.
 4.  **Sütun Kısıtlama** hücresinde sıralama için kullanılacak rapor sütunu harfini girin. 
     > [!NOTE]
     > Bir satır hesaplamasına sadece tutar satırlarını dahil edin.
@@ -217,27 +217,27 @@ Sıralama kodları hesapları veya değerleri sıralar, bir fiili veya bütçe f
 
 Aşağıdaki örnekte, raporun D sütunundaki değerler 160 ile 490 arasındaki satırlar için artan düzende sıralanır. Buna ek olarak, raporun G sütunundaki mutlak değerler 610 ile 940 arasındaki satırlar için azalan düzende sıralanır.
 
-| Satır Kodu | Açıklama                                         | Biçim Kodu | İlgili Formüller/Satırlar/Birimler | Normal Bakiye | Sütun Kısıtlama | Mali Boyutlarla İlişkilendirme |
+| Satır Kodu | Açıklama                                         | Biçim Kodu | İlgili Formüller/Satırlar/Birimler | Normal Bakiye | Sütun Kısıtlaması | Mali Boyutlarla İlişkilendir |
 |----------|-----------------------------------------------------|-------------|-----------------------------|----------------|--------------------|------------------------------|
-| 100      | Aylık Farka Göre Artan Sırada Sıralanır       | DES         |                             |                |                    |                              |
-| 130      |                                                     | SORT        | 160:490                     |                | B                  |                              |
-| 160      | Satışlar                                               |             |                             | A              |                    | 4100                         |
+| 100      | Aylık Varyansa Göre Artan Sırada Sıralanmış       | DES         |                             |                |                    |                              |
+| 130      |                                                     | SORT        | 160:490                     |                | D                  |                              |
+| 160      | Satış                                               |             |                             | C              |                    | 4100                         |
 | 190      | Satış İadeleri                                       |             |                             |                |                    | 4110                         |
 |          | ...                                                 |             |                             |                |                    |                              |
-| 490      | Faiz Geliri                                     |             |                             | A              |                    | 7000                         |
+| 490      | Faiz Geliri                                     |             |                             | C              |                    | 7000                         |
 | 520      |                                                     | DES         |                             |                |                    |                              |
-| 550      | YTD Mutlak Farkına Göre Azalan Sırada Sıralanır | DES         |                             |                |                    |                              |
-| 580      |                                                     | ASORTDESC   | 610:940                     |                | G:                  |                              |
-| 610      | Satışlar                                               |             |                             | A              |                    | 4100                         |
+| 550      | YTD Mutlak Varyansına Göre Azalan Sırada Sıralanmış | DES         |                             |                |                    |                              |
+| 580      |                                                     | ASORTDESC   | 610:940                     |                | G                  |                              |
+| 610      | Satış                                               |             |                             | C              |                    | 4100                         |
 | 640      | Satış İadeleri                                       |             |                             |                |                    | 4110                         |
 |          | ...                                                 |             |                             |                |                    |                              |
-| 940      | Faiz Geliri                                     |             |                             | A              |                    | 7000                         |
+| 940      | Faiz Geliri                                     |             |                             | C              |                    | 7000                         |
 
-Burada oluşturulan rapora bir örnek verilmiştir.
+Oluşturulan raporun bir örneği aşağıda sunulmuştur.
 
 |||||||||
 |---|---|---|---|---|---|---|
-|**Fark Analizi (Farka Göre Sıralanmış)**|||||||
+|**Varyans Analizi (Varyansa Göre Sıralanmış)**|||||||
 
 |**Beijing ve Atlanta Bölgeleri**|||||||
 
@@ -254,61 +254,61 @@ Burada oluşturulan rapora bir örnek verilmiştir.
 |Maaşlar ve Ücretler|97.624|65.573|(32.051)|653.884|441.664|(212.220)| |Satış Iskontoları|36.383|24.152|(12.231)|241.562|162.670|(78.892)| |Satış İadeleri|10.917|7.246|(3.671)|62.809|48.803|(14.006)| |Kira Gideri|12.052|9.019|(3.033)|80.444|60.748|(19.696)| |Ofis Gideri|5.023|3.291|(1.732)|33.420|22.098|(11.322)| |Seyahat Gideri|7.656|7.641|(15)|51.062|51.469|407| |Satışlar|1.240.119|410.389|829.730|7.139.288|2.764.549|4.374.739| |**YTD Mutlak Fark'a Göre Azalan Sıraya Göre Sıralanmış**||||||| |Satışlar|1.240.119|410.389|829.730|7.139.288|2.764.549|4.374.739| |Seyahat Gideri|7.656|7.641|(15)|51.062|51.469|407| |Ofis Gideri|5.023|3.291|(1.732)|33.420|22.098|(11.322)| |Satış İadeleri|10.917|7.246|(3.671)|62.809|48.803|(14.006)| |Kira Gideri|12.052|9.019|(3.033)|80.444|60.748|(19.696)| |Satış Iskontoları|36.383|24.152|(12.231)|241.562|162.670|(78.892)| |Maaşlar ve Ücretler|97.624|65.573|(32.051)|653.884|441.664|(212.220)| |COGS|873.872|236.144|(637.728)|4.864.274|1.590.315|(3.273.959)|
 
 ## <a name="specify-a-format-override-cell"></a>Bir Biçim Atlatma hücresi tanımlama
-**Biçim Atlatma** hücresi, rapor yazdırıldığında satır için kullanılan biçimlendirmeyi belirtir. Bu biçimlendirme, sütun tanımında ve rapor tanımında belirtilen biçimlendirmeyi geçersiz kılar. Varsayılan olarak, bu tanımlarda belirtilen biçimlendirme para birimidir. Raporun bir satırı, bina sayısı gibi kıymetlerin sayısını listeliyorsa ve başka bir satırı bu kıymetlerin parasal değerini listeliyorsa para birimi biçimlendirmesini atlatabilir ve binaların sayısını belirleyen satır için nümerik biçimlendirmeyi girebilirsiniz. Bu bilgileri **Biçim Atlatma** iletişim kutusunda belirtirsiniz. Kullanılabilir seçenekler, seçtiğiniz biçim kategorisine bağlıdır. İletişim kutusunun **Örnek** alanında örnek biçimler gösterilir. Aşağıdaki biçim kategorileri kullanılabilir:
+**Biçim Atlatma** hücresi, rapor yazdırıldığında satır için kullanılan biçimlendirmeyi belirtir. Bu biçimlendirme sütun tanımında ve rapor tanımında belirtilen biçimlendirmeyi geçersiz kılar. Varsayılan olarak bu tanımlarda belirtilen biçimlendirme para birimidir. Raporun bir satırı bina sayısı gibi varlık sayısını, başka bir satır ise bu varlıkların parasal değerini belirtirse para birimi biçimlendirmesini geçersiz kılarak bina sayısını belirten satır için sayısal biçimlendirme girebilirsiniz. Bu bilgileri **Biçim Geçersiz Kılma** iletişim kutusunda belirtin. Kullanılabilir seçenekler seçtiğiniz biçim kategorisine bağlıdır. İletişim kutusunun **Örnek** alanı örnek biçimleri gösterir. Aşağıdaki biçim kategorileri kullanılabilir:
 
 -   Para birimi biçimlendirmesi
--   Nümerik biçimlendirme
+-   Sayısal biçimlendirme
 -   Yüzde biçimlendirmesi
 -   Özel biçimlendirme
 
-### <a name="override-cell-formatting"></a>Hücre biçimlendirmesini atlatma
+### <a name="override-cell-formatting"></a>Geçersiz kılma hücresi biçimlendirmesi
 
-1.  Rapor Tasarımcısında değiştirilecek satır tanımını açın.
-2.  Biçimin atlatılacak satırda **Biçimi Atlat** sütunundaki hücreyi çift tıklayın.
-3.  **Biçim Atlatma** iletişim kutusunda rapordaki bu satır için kullanılacak biçimlendirme seçeneklerini belirleyin.
+1.  Rapor Tasarımcısı'nda, değiştirilecek satır tanımını açın.
+2.  Biçim geçersiz kılma satırında, **Biçim Geçersiz Kılma** sütunundaki hücreye çift tıklayın.
+3.  **Biçim Geçersiz Kılma** iletişim kutusunda, rapordaki söz konusu satır için kullanacağınız biçimlendirme seçeneklerini seçin.
 4.  **Tamam** düğmesini tıklatın.
 
 ### <a name="currency-formatting"></a>Para birimi biçimlendirmesi
 
-Para birimi biçimlendirmesi bir mali bir tutara uygulanır ve para birimi simgesini içerir. Aşağıdaki seçenekler bulunur:
+Para birimi biçimlendirmesi mali bir tutara uygulanır ve para birimi simgesini içerir. Aşağıdaki seçenekler kullanılabilir durumdadır:
 
--   **Para birimi simgesi** – Rapor için para birimi simgesi. Bu değer, şirket bilgileri için **Bölgesel Seçenekler** ayarını geçersiz kılar.
--   **Negatif sayılar** – Negatif sayılar eksi işaretine (-) sahip olabilir, parantez içinde görüntülenebilir veya bir üçgen (∆) ile görüntülenebilir.
--   **Ondalık basamak sayısı** – Virgülden sonra gösterilen basamak sayısıdır.
+-   **Para birimi simgesi**: Raporun para birimi simgesi. Bu değer şirket bilgileri için **Bölgesel Seçenekler** ayarını geçersiz kılar.
+-   **Negatif sayılar**: Negatif sayılar eksi işaretine (-) sahip olabilir, parantez içinde görünebilir veya bir üçgen işaretine (∆) sahip olabilir.
+-   **Ondalık basamaklar**: Virgülden sonra gösterilecek basamak sayısı.
 -   **Sıfır değeri atlatma metni** – Tutar, 0 (sıfır) olduğunda rapora eklenecek metindir. Bu metin **Örnek** alanında son satır olarak görüntülenir. 
     > [!NOTE]
     >  Yazdırma işlemi sıfır değerleri veya aktif olmayan dönem için baskılanırsa bu metin de baskılanır.
 
-### <a name="numeric-formatting"></a>Nümerik biçimlendirme
+### <a name="numeric-formatting"></a>Sayısal biçimlendirme
 
-Nümerik biçimlendirme, herhangi bir tutara uygulanır ve bir para birimi simgesini içermez. Aşağıdaki seçenekler bulunur:
+Sayısal biçimlendirme her türlü tutara uygulanır ve para birimi simgesi içermez. Aşağıdaki seçenekler kullanılabilir durumdadır:
 
--   **Negatif sayılar** – Negatif sayılar eksi işaretine (-) sahip olabilir, parantez içinde görüntülenebilir veya bir üçgen (∆) ile görüntülenebilir.
--   **Ondalık basamak sayısı** – Virgülden sonra gösterilen basamak sayısıdır.
+-   **Negatif sayılar**: Negatif sayılar eksi işaretine (-) sahip olabilir, parantez içinde görünebilir veya bir üçgen işaretine (∆) sahip olabilir.
+-   **Ondalık basamaklar**: Virgülden sonra gösterilecek basamak sayısı.
 -   **Sıfır değeri atlatma metni** – Tutar, 0 (sıfır) olduğunda rapora eklenecek metindir. Bu metin **Örnek** alanında son satır olarak görüntülenir. 
     > [!NOTE]
     >  Yazdırma işlemi sıfır değerleri veya aktif olmayan dönem için baskılanırsa bu metin de baskılanır.
 
 ### <a name="percentage-formatting"></a>Yüzde biçimlendirmesi
 
-Yüzde biçimlendirmesi yüzde işareti (%) içerir. Aşağıdaki seçenekler bulunur:
+Yüzde biçimlendirme yüzde işaretini (%) içerir. Aşağıdaki seçenekler kullanılabilir durumdadır:
 
--   **Negatif sayılar** – Negatif sayılar eksi işaretine (-) sahip olabilir, parantez içinde görüntülenebilir veya bir üçgen (∆) ile görüntülenebilir.
--   **Ondalık basamak sayısı** – Virgülden sonra görüntülenecek basamak sayısıdır.
+-   **Negatif sayılar**: Negatif sayılar eksi işaretine (-) sahip olabilir, parantez içinde görünebilir veya bir üçgen işaretine (∆) sahip olabilir.
+-   **Ondalık basamaklar**: Virgülden sonra gösterilecek basamak sayısı.
 -   **Sıfır değeri atlatma metni** – Tutar, 0 (sıfır) olduğunda rapora eklenecek metindir. Bu metin **Örnek** alanında son satır olarak görüntülenir. 
     > [!NOTE]
     >  Yazdırma işlemi sıfır değerleri veya aktif olmayan dönem için baskılanırsa bu metin de baskılanır.
 
 ### <a name="custom-formatting"></a>Özel biçimlendirme
 
-Bir özel biçim atlatması oluşturmak için özel biçimlendirme kategorisini kullanın. Aşağıdaki seçenekler bulunur:
+Özel bir biçim geçersiz kılma işlemi oluşturmak için özel biçimlendirme kategorisini kullanın. Aşağıdaki seçenekler kullanılabilir durumdadır:
 
--   **Tür** – Özel biçim.
+-   **Tür**: Özel biçim.
 -   **Sıfır değeri atlatma metni** – Tutar, 0 (sıfır) olduğunda rapora eklenecek metindir. Bu metin **Örnek** alanında son satır olarak görüntülenir. 
     > [!NOTE]
     >  Yazdırma işlemi sıfır değerleri veya aktif olmayan dönem için baskılanırsa bu metin de baskılanır.
 
-Tür, pozitif değeri ve ardından negatif değeri temsil etmelidir. Genellikle, pozitif ve negatif değerleri ayıran, benzer bir biçim girersiniz. Örneğin, hem pozitif hem negatif değerlerin iki ondalık basamağa sahip olmasını, ancak negatif değerlerin parantez içinde görüntülenmesini belirtmek için **0.00;(0.00)** girin. Aşağıdaki tabloda değerlerinizin biçimini kontrol etmek için kullanabileceğiniz özel biçimler gösterilmiştir. Tüm örnekler, 1234.56 değerinden başlar.
+Tür pozitif değeri ve ardından negatif değeri temsil etmelidir. Genellikle pozitif ve negatif değerleri birbirinden ayıran benzer bir biçim girebilirsiniz. Örneğin, hem pozitif hem negatif değerlerin iki ondalık basamağa sahip olmasını, ancak negatif değerlerin parantez içinde görüntülenmesini belirtmek için **0.00;(0.00)** girin. Aşağıdaki tabloda, değerlerinizin biçimini kontrol etmek için kullanabileceğiniz özel biçimler gösterilmektedir. Tüm örnekler 1234.56 değerinden başlamaktadır.
 
 | Biçim                         | Pozitif   | Eksi     | Sıfır    |
 |--------------------------------|------------|--------------|---------|
@@ -317,34 +317,34 @@ Tür, pozitif değeri ve ardından negatif değeri temsil etmelidir. Genellikle,
 | 0;(0);-                        | 1235       | 1235         | -       |
 | \#,\#\#\#;(\#,\#\#\#);“”       | 1,235      | (1.235)      | (Boş) |
 | \#,\#\#0.00;(\#,\#\#0.00);sıfır | 1,234.56   | (1.234,56)   | sıfır    |
-| %0,00;(%0,00)                  | %123456,00 | (%123456,00) | %0,00   |
+| %0,00;(%0,00)                  | %123456,00 | (123456.00%) | 0.00%   |
 
-## <a name="specify-a-normal-balance-cell"></a>Bir Normal bakiye hücresi tanımlama
-Bir satır tanımında **Normal Bakiye** hücresi, o satırdaki tutarların işaretini kontrol eder. Bir satırın işaretini ters çevirmek veya bir hesabın normal bakiyesi bir borç ise, bu satır **Normal Bakiye** hücresine **C** yazın. Rapor tasarımcısı o satırdaki tüm borç bakiyesi hesaplarının işaretini ters çevirir. Rapor tasarımcısı bu hesapları ters çevirdiğinde tüm tutarlardan alacak/borç özelliğini kaldırır ve böylece toplama işlemi kolaylaşır. Örneğin, net geliri hesaplamak için giderleri gelirden çıkartırsınız. Genellikle, toplanan ve hesaplanan satırlar **C** kodundan etkilenmez. Ancak, sütun tanımındaki **XCR** baskı kontrolü, **Normal Bakiye** sütununda **C** içeren herhangi bir satırın işaretini ters çevirir. Bu biçimlendirme özellikle, tüm istenmeyen farkları negatif tutarlar olarak göstermek istediğiniz durumlarda önemlidir. Toplanan veya hesaplanan rakam eski işarete sahipse işaretini değiştirmek istediğiniz satır için **Normal Bakiye** hücresine **C** yazın.
+## <a name="specify-a-normal-balance-cell"></a>Normal Bakiye hücresi belirtme
+Bir satır tanımındaki **Normal Bakiye** hücresi bir satırdaki tutarların işaretini kontrol edin. Bir satırın işaretini ters çevirmek veya bir hesabın normal bakiyesi bir borç ise, bu satır **Normal Bakiye** hücresine **C** yazın. Rapor tasarımcısı o satırdaki tüm borç bakiyesi hesaplarının işaretini ters çevirir. Rapor tasarımcısı bu hesapları ters çevirdiğinde tüm tutarlardan alacak/borç özelliğini kaldırır ve böylece toplama işlemi kolaylaşır. Örneğin, net geliri hesaplamak için giderleri gelirlerden çıkarırsınız. Genellikle, toplanan ve hesaplanan satırlar **C** kodundan etkilenmez. Ancak, sütun tanımındaki **XCR** yazdırma denetimi, **Normal Bakiye** sütununda bir **C** içeren her türlü satırın işaretini ters çevirir. Bu biçimlendirme özellikle tüm olumsuz varyansları negatif tutarlar olarak göstermek istediğinizde önemlidir. Toplanan veya hesaplanan sayı yanlış işarete sahipse işareti ters çevirmek için satırın **Normal Bakiye** hücresine bir **C** girin.
 
-## <a name="specify-a-row-modifier-cell"></a>Bir Satır Değiştirici hücresi tanımlama
-Bir satır tanımındaki **Satır Değiştirici** hücresinin içeriği o satır için sütun tanımında belirtilen mali yılları, dönemleri ve diğer bilgileri atlatır. Seçilen değiştirici satırdaki her hesap için geçerlidir. Her bir satırı aşağıdaki değiştirici türlerinin birini veya birkaçını kullanarak değiştirebilirsiniz:
+## <a name="specify-a-row-modifier-cell"></a>Satır Değiştirici hücresi belirtme
+Bir satır tanımındaki **Satır Değiştirici** hücresinin içeriği söz konusu satıra ait sütun tanımında belirtilen mali yıllar, dönemler ve diğer bilgileri geçersiz kılar. Seçilen değiştirici satırdaki her hesaba uygulanır. Aşağıdaki değiştirici türlerinden birini veya daha fazlasını kullanarak her satırı değiştirebilirsiniz:
 
 -   Hesap değiştiriciler
 -   Defter kodu değiştiriciler
--   Hesap ve hareket özellikleri
+-   Hesap ve hareket öznitelikleri
 
-### <a name="override-a-column-definition"></a>Bir sütun tanımını atlatma
+### <a name="override-a-column-definition"></a>Bir sütun tanımını geçersiz kılma
 
-1.  Rapor Tasarımcısında değiştirilecek satır tanımını açın.
-2.  Sütun tanımını atlatmak istediğiniz satırda **Satır Değiştirici** hücresini çift tıklayın.
-3.  **Satır Değiştirici** iletişim kutusunda, bir **Hesap değiştirici** alanından bir seçenek belirleyin. Seçeneklerin açıklamaları için "Hesap değiştiriciler" bölümüne bakın.
-4.  **Defter kodu değiştirici** alanında o satır için kullanılacak defter kodunu seçin.
-5.  **Öznitelikler** altında, satır koduyla birlikte dahil edilmesi gereken her bir öznitelik için bir giriş eklemek üzere bu adımları takip edin:
+1.  Rapor Tasarımcısı'nda, değiştirilecek satır tanımını açın.
+2.  Sütun tanımını geçersiz kılmak istediğiniz satırda, **Satır Değiştirici** hücresine çift tıklayın.
+3.  **Satır Değiştirici** iletişim kutusunda, **Hesap değiştirici** alanında bir seçenek seçin. Seçeneklerin açıklaması için "Hesap değiştiriciler" bölümüne bakın.
+4.  **Defter kodu değiştirici** alanında, satır için kullanılacak defter kodunu seçin.
+5.  **Öznitelikler**'in altında, satır koduyla eklenmesi gereken her öznitelik için bir giriş eklemek üzere şu adımları izleyin:
     1.  **Öznitelik** hücresini çift tıklayın ve bir öznitelik adı seçin. **Dikkat:** Sayı işaretini (\#) bir sayısal değer ile değiştirin.
     2.  **Başlangıç** hücresini çift tıklayın ve aralık için ilk değeri girin.
-    3.  **Bitiş** hücresini çift tıklayın ve aralık için son değeri girin.
+    3.  **Bitiş** hücresine çift tıklayın ve aralığın son değerini girin.
 
 6.  **Tamam** düğmesini tıklatın.
 
 ### <a name="account-modifiers"></a>Hesap değiştiriciler
 
-Belirli bir hesap seçtiğinizde, rapor tasarımcısı genellikle sütun tanımında belirlediğiniz hesabı ve mali yılları, dönemleri ve diğer bilgileri birleştirir. Belirli satırlar için, farklı mali dönemler vb. gibi farklı bilgiler kullanabilirsiniz. Aşağıdaki tabloda kullanılabilecek hesap değiştiriciler gösterilmiştir. Sayı işaretini (\#) bir mali yıl içindeki dönemlerin sayısına eşit veya bundan daha düşük bir değerle değiştirin.
+Belirli bir hesap seçtiğinizde, rapor tasarımcısı genellikle sütun tanımında belirlediğiniz hesabı ve mali yılları, dönemleri ve diğer bilgileri birleştirir. Belirli satırlar için farklı mali yıllar gibi farklı bilgiler kullanabilirsiniz. Aşağıdaki tabloda kullanılabilecek hesap değiştiriciler gösterilmiştir. Sayı işaretini (\#) bir mali yıl içindeki dönemlerin sayısına eşit veya bundan daha düşük bir değerle değiştirin.
 
 | Hesap değiştirici | Ne yazdırılır                                                                           |
 |------------------|-------------------------------------------------------------------------------------------|
@@ -365,45 +365,45 @@ Bir satırı mevcut bir defter koduyla sınırlayabilirsiniz. Sütun tanımı bi
 > [!NOTE]
 > Bir satır için defter kodu kısıtlaması, o satır için sütun tanımındaki defter kodu kısıtlamalarını atlatır.
 
-### <a name="account-and-transaction-attributes"></a>Hesap ve hareket özellikleri
+### <a name="account-and-transaction-attributes"></a>Hesap ve hareket öznitelikleri
 
-Bazı muhasebe sistemleri, mali verilerdeki hesap özniteliklerini ve hareket özniteliklerini destekler. Bu öznitelikler, sanal hesap segmentleri gibi çalışır ve hesap veya hareket hakkında ilave bilgiler taşıyabilir. Bu ilave bilgiler hesap kimlikleri, toplu iş kimlikleri, posta kodları veya diğer öznitelikler olabilir. Muhasebe sisteminiz öznitelikleri destekliyorsa, satır tanımında satır değiştirici olarak hesap özniteliklerini veya hareket özniteliklerini kullanabilirsiniz. Satır bilgilerinin nasıl atlatılacağı hakkında bilgi için, bu makalenin başındaki "Bir sütun tanımını atlatma" bölümüne bakın.
+Bazı muhasebe sistemleri, mali verilerdeki hesap özniteliklerini ve hareket özniteliklerini destekler. Bu öznitelikler sanal hesap segmentleri gibi çalışır ve hesap veya hareket hakkında ek bilgiler taşıyabilir. Bu ek bilgiler hesap kodları, toplu iş kodları, posta kodları ve diğer öznitelikler olabilir. Muhasebe sisteminiz öznitelikleri destekliyorsa satır tanımında hesap özniteliklerini veya hareket özniteliklerini satır değiştiriciler olarak kullanabilirsiniz. Satır bilgilerini geçersiz kılma hakkında bilgi için, bu makalenin önceki kısmındaki "Bir sütun tanımını geçersiz kılma" bölümüne bakın.
 
-## <a name="specify-a-link-to-financial-dimensions-cell"></a>Mali Boyutlar hücresi için bir Bağlantı tanımlama
-**Mali Boyutlara Bağlantı** hücresi, bir raporun her bir satırına dahil edilmesi gereken mali verilere bağlantılar içerir. Bu hücre, boyut değerlerini içerir, ancak bunun yerine bir Microsoft Excel çalışma sayfasında hücreler tanımlayabilir ve buna ek olarak segment değerleri veya boyut değerleri belirtebilirsiniz. **Boyutlar** iletişim kutusunu açmak için **Mali Boyutlara Bağlantı** hücresini çift tıklayın. 
+## <a name="specify-a-link-to-financial-dimensions-cell"></a>Mali Boyutlarla İlişkilendir hücresi belirtme
+**Mali Boyutlarla İlişkilendir** hücresi bir raporun her satırına eklenmesi gereken mali verilerin bağlantılarını içerir. Bu hücre boyut değerlerini içerir, ancak hücreleri segment değerleri veya boyut değerleri yerine veya bunlara ek olarak Microsoft Excel çalışma sayfasında belirtebilirsiniz. **Boyutlar** iletişim kutusunu açmak için **Mali Boyutlara Bağlantı** hücresini çift tıklayın. 
 > [!NOTE]
-> Rapor Tasarımcısı aşağıdaki şu ayrılmış karakterlerden herhangi birini içeren Microsoft Dynamics ERP sisteminden hesapları, boyutları veya alanları seçemez: &, \*, \[, \], {, veya }. Halihazırda satır tanımında olan bir satır için bilgileri belirlemek için, bilgileri **Mali Boyutlara Bağlantı** hücresine ekleyin. Mali verilere bağlanan yeni satırlar eklemek için, rapor tanımında yeni satırlar oluşturmak için **Satır Ekleme kaynağı** iletişim kutusunu kullanın. Sütun başlığı, aşağıdaki tabloda gösterildiği gibi sütunun nasıl yapılandırıldığına bağlı olarak değişir.
+> Rapor Tasarımcısı aşağıdaki şu ayrılmış karakterlerden herhangi birini içeren Microsoft Dynamics ERP sisteminden hesapları, boyutları veya alanları seçemez: &, \*, \[, \], {, veya }. Halihazırda satır tanımında olan bir satır için bilgileri belirlemek için, bilgileri **Mali Boyutlara Bağlantı** hücresine ekleyin. Mali verilerle ilişkilendirilen yeni satırlar eklemek için, rapor tanımında yeni satırlar oluşturmak için **Şuradan satır ekle:** iletişim kutusunu kullanın. Aşağıdaki tabloda gösterildiği gibi sütunun nasıl yapılandırıldığına bağlı olarak sütun başlığı değişir.
 
-| Seçilen bağlantı türü       | Bağlantı sütununun tanımı şuna değiştirir |
+| Seçilen bağlantı türü       | Bağlantı sütununun açıklaması şu şekilde değişir |
 |----------------------------------|----------------------------------------------------|
-| Mali Boyutlar             | Mali Boyutlarla İlişkilendirme                       |
-| Dış Çalışma Sayfası               | Çalışma Sayfası Bağlantı                                  |
-| Mali Boyutları + Çalışma Sayfası | Mali Boyutlarla Bağlantı + Çalışma Sayfası           |
+| Mali Boyutlar             | Mali Boyutlarla İlişkilendir                       |
+| Harici Çalışma Sayfası               | Çalışma Sayfası Bağlantısı                                  |
+| Mali Boyutlar + Çalışma Sayfası | Mali Boyutlarla İlişkilendir + Çalışma Sayfası           |
 | Management Reporter Raporu       | Management Reporter Raporu                         |
 
-### <a name="specify-a-dimension-or-range"></a>Bir boyut veya aralık belirleme
+### <a name="specify-a-dimension-or-range"></a>Boyut veya aralık belirtme
 
-1.  Rapor Tasarımcısında değiştirilecek satır tanımını açın.
-2.  **Mali Boyutlara Bağlantı** sütunundaki bir hücreyi çift tıklayın.
-3.  **Boyutlar** iletişim kutusunda, boyut adının altındaki hücreyi çift tıklatın.
-4.  Boyut için iletişim kutusunda **Bireysel veya aralık** öğesini seçin.
-5.  **Başlangıç** alanında başlangıç boyutunu girin veya mevcut boyutlar arasında arama yapmak için ![Gözat](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Gözat") öğesini tıklayın. Bir boyut aralığı girmek için **Bitiş** alanına bitiş boyutunu girin.
-6.  Boyut için iletişim kutusunu kapatmak için **Tamam** düğmesini tıklayın. **Boyutlar** iletişim kutusunda güncellenen boyut veya aralık görüntüler.
-7.  **Tamam** düğmesini tıklayarak **Boyutlar** iletişim kutusunu kapatın.
+1.  Rapor Tasarımcısı'nda, değiştirilecek satır tanımını açın.
+2.  **Mali Boyutlarla İlişkilendir** sütunundaki bir hücreye çift tıklayın.
+3.  **Boyutlar** iletişim kutusunda, boyut adının altındaki bir hücreye çift tıklayın.
+4.  Boyuta ait iletişim kutusunda, **Tek veya aralık**'ı seçin.
+5.  **Başlangıç** alanında başlangıç boyutunu girin veya mevcut boyutlar arasında arama yapmak için ![Gözat](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Gözat") öğesini tıklayın. Boyut aralığı girmek için **Bitiş** alanına bitiş boyutunu girin.
+6.  **Tamam**'a tıklayarak boyuta ait iletişim kutusunu kapatın. **Boyutlar** iletişim kutusu güncelleştirilniş boyutu veya aralığı görüntüler.
+7.  **Tamam**'a tıklayarak **Boyutlar** iletişim kutusunu kapatın.
 
 ## <a name="display-zero-balance-accounts-in-a-row-definition"></a>Bir satır tanımında sıfır bakiye hesaplarını görüntüleme
-Varsayılan olarak, rapor tasarımcısı mali verilerinde karşılık gelen bir bakiye bulunmayan hiçbir satırı yazdırmaz. Bu nedenle, tüm doğal segment değerlerini veya tüm boyut değerlerini içeren bir satır tanımı oluşturabilir ve ardından bu satır tanımını departmanlarınızdan herhangi biri için kullanabilirsiniz.
+Varsayılan olarak, rapor tasarımcısı mali verilerinde karşılık gelen bir bakiye bulunmayan hiçbir satırı yazdırmaz. Bu nedenle, tüm ana hesap kodu segmenti değerlerini veya tüm boyut değerlerini içeren bir satır tanımı oluşturabilir ve ardından bu satır tanımını departmanlarınızdan biri için kullanabilirsiniz.
 
 ### <a name="modify-zero-balance-settings"></a>Sıfır bakiye ayarlarını değiştirme
 
-1.  Rapor Tasarımcısında değiştirmek istediğiniz rapor tanımını açın.
-2.  **Ayarlar** sekmesinde, **Diğer biçimlendirme** altından, rapor tanımında kullanılan satır tanımı için seçenekleri belirleyin.
-3.  **Dosya** menüsünde değişiklikleri kaydetmek için **Kaydet** düğmesini tıklayın.
+1.  Rapor Tasarımcısı'nda, değiştirilecek rapor tanımını açın.
+2.  **Ayarlar** sekmesinde, **Diğer biçimlendirme**'nin altında rapor tanımında kullanılan satır tanımına ilişkin seçenekleri seçin.
+3.  Yaptığınız değişiklikleri kaydetmek için **Dosya** menüsünde **Kaydet**'e tıklayın.
 
-## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Bir satır tanımında joker karakterler ve aralıklar kullanma
+## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Bir satır tanımında joker karakterleri ve aralıkları kullanma
 **Boyutlar** iletişim kutusuna bir doğal segment değeri girdiğinizde, bir segmentin herhangi bir konumuna bir joker karakter (? veya \*) girebilirsiniz. Rapor tasarımcısı, joker karakterleri dikkate almadan tanımlanan konumlar için tüm değerleri ayıklar. Örneğin, satır tanımı yalnızca doğal segment değerlerini içeriyor ve doğal segmentler dört karaktere sahip. Bir satıra **6???** girerek rapor tasarımcısına 6 ile başlayan bir doğal segment değerine sahip tüm hesapları dahil etmesini söylersiniz. **6\*** girerseniz aynı sonuçları döndürülür, ancak sonuçlar **60** ve **600000** gibi değişken genişlikli değerleri de içerir. Rapor tasarımcısı her bir joker karakterini (?) harfler ve özel karakterler içeren tam bir olası değer aralığıyla değiştirir. Örneğin,**12?0** ile **12?4** arasındaki aralıkta, **12?0** altındaki joker karakteri, karakter setindeki en düşük değerle değiştirilir ve **12?4** altındaki joker karakteri, karakter setindeki en yüksek değerle değiştirilir. 
 > [!NOTE]
-> Aralığın başlangıç ve bitiş hesapları için joker karakterler kullanmaktan kaçınmalısınız. Başlangıç hesabında veya bitiş hesabında joker karakterler kullanırsanız, beklenmeyen sonuçlar alabilirsiniz.
+> Aralığın başlangıç ve bitiş hesapları için joker karakterler kullanmaktan kaçınmalısınız. Başlangıç hesabında veya bitiş hesabında joker karakterleri kullanırsanız beklenmedik sonuçlarla karşılaşabilirsiniz.
 
 ### <a name="single-segment-or-single-dimension-ranges"></a>Tek segmentli veya tek boyutlu aralıklar
 
@@ -411,16 +411,16 @@ Bir segment değerleri veya boyut değerleri aralığı belirtebilirsiniz. Bir a
 > [!NOTE]
 > Rapor Tasarımcısı aşağıdaki şu ayrılmış karakterlerden herhangi birini içeren Microsoft Dynamics ERP sisteminden hesapları, boyutları veya alanları seçemez: &, \*, \[, \], {, veya }. Ve (&) işaretini sadece **Boyutlardan Satırlar Ekle** iletişim kutusunu kullanarak otomatik olarak satır tanımları oluşturduğunuzda ekleyebilirsiniz.
 
-### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Çok segmentli veya çok boyutlu aralıklar
+### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Birden fazla segment veya birden fazla boyut bulunan aralıklar
 
 Birden fazla boyut değeri içeren kombinasyonlar kullanarak bir aralık girdiğinizde, aralık karşılaştırması ..\mali-boyutlar\tek tek boyutlar temelinde yapılır. Aralık karşılaştırma, tek tek karakterlere dayalı olarak veya kısmi segmente dayalı olarak gerçekleştirilmez. Örneğin, **+Hesap=\[5000:6000\], Departman=\[1000:2000\], Maliyet merkezi=\[00\]** aralığı sadece her bir segmentle eşleşen hesapları içerir. Bu senaryoda, ilk boyut 5000-6000 aralığında olmalıdır, ikinci boyut 1000 ile 2000 aralığında olmalıdır ve son boyut 00 olmalıdır. Örneğin, **+Hesap=\[5100\], Departman=\[1100\], Maliyet merkezi=\[01\]** son segment belirtilen aralık dışında olduğundan rapora dahil edilmez. Bir segment değeri boşluk içeriyorsa, değeri köşeli parantez (\[ \]) içine alın. Aşağıdaki değerler dört karakterli bir segment için geçerlidir: **\[ 234\], \[123 \], \[1 34\]**. Boyut değerleri köşeli parantez (\[ \]) içine alınmalıdır ve rapor tasarımcısı bu köşeli parantezleri sizin için ekler. Birden fazla segment veya birden fazla boyut aralığı joker karakterleri (? veya \*) içerdiğinde, tüm çoklu segment veya çoklu boyut aralığının düşük ve yüksek noktaları belirlenir ve ardından bitiş değerleri ve bunlar arasında kalan tüm değerler dahil edilir. Örneğin 40000 ile 99999 arasındaki tüm hesap aralığı gibi geniş bir aralığa sahipseniz, mümkün olduğu durumlarda geçerli bir başlangıç hesabı ve bitiş hesabı belirtmelisiniz. 
 > [!NOTE]
 > Rapor Tasarımcısı aşağıdaki şu ayrılmış karakterlerden herhangi birini içeren Microsoft Dynamics ERP sisteminden hesapları, boyutları veya alanları seçemez: &, \*, \[, \], {, veya }. Ve (&) işaretini sadece **Boyutlardan Satırlar Ekle** iletişim kutusunu kullanarak otomatik olarak satır tanımları oluşturduğunuzda ekleyebilirsiniz.
 
-## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Bir satır tanımına başka hesaplar ekleme veya bir satır tanımındaki hesapları çıkarma
-Bir hesaba başka bir hesaptaki parasal tutarlardan parasal tutar eklemek veya bir hesaptan aynı şekilde parasal tutar çıkarmak için **Mali Boyutlara Bağlantı** hücresindeki artı işaretini (+) ve eksi işaretini (-) kullanabilirsiniz. Aşağıdaki tabloda mali verilere bağlantılar eklemek veya bağlantılar çıkarmak için kullanılabilecek biçimler gösterilmiştir.
+## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Bir satır tanımındaki diğer hesaplarda toplama veya çıkarma işlemi yapma
+Bir hesaptaki parasal tutarları başka bir hesaptaki parasal tutarlara eklemek veya bunlardan çıkarmak için, **Mali Boyutlarla İlişkilendir** hücresinde artı işareti (+) ve eksi işareti (-) kullanabilirsiniz. Aşağıdaki tablo mali verilere bağlantı eklemek veya bunlardaki bağlantıları kaldırmak için uygun biçimleri göstermektedir.
 
-| Operasyon  | Bu biçimi kullanma  |
+| İşlem  | Bu biçimi kullanma  |
 |------------|-----------------|
 | İki tam donanımlı hesap ekleyin.                                                       | +Bölüm=\[000\], Hesap=\[1205\], Departman=\[00\]+Bölüm=\[100\], Hesap=\[1205\], Departman=\[00\] |
 | İki segment değeri ekleyin.                                                                 | +Hesap=\[1205\]+Hesap=\[1210\]                                                                           |
@@ -439,14 +439,14 @@ Hesapları doğrudan değiştirebilirsiniz, ancak mali veri bağlantılarına do
 > [!NOTE]
 > Değerleri çıkarmak için bu değerler etrafına parantez eklemelisiniz. Örneğin **450?-(4509)** girerseniz **+Hesap\[4509\]-Hesap=\[450?\]** olarak görüntülenir ve rapor tasarımcısına 4509 hesap segmenti için tutarı 450 ile başlayan herhangi bir hesap segmenti tutarından çıkarma komutu vermiş olursunuz.
 
-### <a name="add-or-subtract-accounts-from-other-accounts"></a>Diğer hesaplara hesap ekleme veya diğer hesaplardan hesap çıkarma
+### <a name="add-or-subtract-accounts-from-other-accounts"></a>Hesapları diğer hesaplarla toplama veya bunlardan çıkarma
 
-1.  Rapor Tasarımcısında değiştirilecek satır tanımını açın.
-2.  Uygun satırda **Mali Boyutlara Bağlantı** sütunundaki hücreyi çift tıklayın.
-3.  **Boyutlar** iletişim kutusunun ilk satırında, şu adımları takip edin:
+1.  Rapor Tasarımcısı'nda, değiştirilecek satır tanımını açın.
+2.  İlgili satırda, **Mali Boyutlarla İlişkilendir** sütunundaki hücreye çift tıklayın.
+3.  **Boyutlar** iletişim kutusunun ilk satırında, şu adımları izleyin:
     1.  İlk alanda tüm boyutları (varsayılan) seçin veya **Boyut Kümelerini Yönet** iletişim kutusunu açmak üzere tıklayın; burada bir set oluşturabilir veya mevcut bir seti değiştirebilir, kopyalayabilir veya silebilirsiniz.
     2.  **İşleç +/-** hücresini çift tıklayın ve satırdaki bir veya daha fazla sayıdaki boyut değerine veya sete uygulanacak artı (**+**+) veya eksi (**-**) işlecini seçin.
-    3.  Uygun boyut değeri sütununda, **Boyutlar** iletişim kutusunu açmak için hücreyi çift tıklatın ve bu boyut değerinin bir ayrı değer veya aralık için mi, bir boyut değeri seti için mi, yoksa toplama hesapları için mi olduğunu seçin. **Boyutlar** iletişim kutusundaki alanların açıklamaları için, "Boyut Açıklaması iletişim kutusu" bölümüne bakın.
+    3.  İlgili boyut değeri sütununda, **Boyutlar** iletişim kutusunu açmak için hücreye çift tıklayın ve bu boyut değerinin tek mi yoksa aralık, boyut değeri kümesi veya toplam alma hesapları mı olduğunu seçin. **Boyutlar** iletişim kutusundaki alanların açıklamaları için, "Boyut iletişim kutusunun açıklaması" bölümüne bakın.
     4.  **Başlangıç** ve **Bitiş** sütunlarına segment değerlerini girin.
 
 4.  Daha fazla işleç eklemek için 2 ile 3. adımlar arasındaki işlemleri tekrarlayın.
@@ -455,54 +455,54 @@ Hesapları doğrudan değiştirebilirsiniz, ancak mali veri bağlantılarına do
 > İşleç, satırdaki tüm boyutlar için geçerlidir.
 
 ## <a name="description-of-the-dimensions-dialog-box"></a>Boyut Açıklaması iletişim kutusu
-Aşağıdaki tabloda **Boyutlar** iletişim kutusunun alanları açıklanmıştır.
+Aşağıdaki tabloda **Boyutlar** iletişim kutusundaki alanlar açıklanmaktadır.
 
 | Madde                | Açıklama                                                                                                                                                                                                                                                                                             |
 |---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ayrı veya aralık | **Başlangıç** alanında, bir hesabın adını girin veya hesabı aramak için **Gözat** düğmesini ![Gözat](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Gözat") tıklayın. Bir aralık seçmek için, **Bitiş** alanına bir değer girin veya bu değeri arayın.                                             |
-| Boyut Değeri Seti | **Ad** alanına bir boyut değeri setinin adını girin. Bir set oluşturmak veya bir seti değiştirmek, kopyalamak veya silmek için **Boyut Değeri Setlerini Yönet** öğesini tıklayın. **Formül** alanı, satır tanımında ayarlanan bu boyut değeri için **Mali Boyutlara Bağlantı** hücresindeki formülle doldurulur. |
-| Toplama hesapları   | **Ad** alanına toplama hesapları için bir boyut girin veya bunu arayın. **Formül** alanı, rapor tanımındaki bu toplama hesabı için **Mali Boyutlara Bağlantı** hücresindeki formülden doldurulur.                                                                       |
+| Tek veya aralık | **Başlangıç** alanında, bir hesabın adını girin veya hesabı aramak için **Gözat** düğmesini ![Gözat](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Gözat") tıklayın. Aralık seçmek için **Bitiş** alanına bir değer girin veya bu alanda bir değere göz atın.                                             |
+| Boyut Değeri Kümesi | **Ad** alanına boyut değeri kümesinin adını girin. Bir kümeyi oluşturmak, değiştirmek, kopyalamak veya silmek için, **Boyut Değeri Kümelerini Yönet**'e tıklayın. **Formül** alanı, satır tanımında ayarlanan bu boyut değeri için **Mali Boyutlara Bağlantı** hücresindeki formülle doldurulur. |
+| Toplam alma hesapları   | **Ad** alanına toplam alma hesaplarına ait bir boyut girin veya bu boyuta göz atın. **Formül** alanı rapor tanımındaki bu toplam alma hesabına ait **Mali Boyutlarla İlişkilendir** hücresindeki formülle doldurulur.                                                                       |
 
-## <a name="add-dimension-value-sets-in-a-row-definition"></a>Bir satır tanımına boyut değeri setleri ekleme
-Bir boyut değeri seti, boyut değerlerinin adlandırılmış bir grubudur. Bir boyut değeri seti sadece tek bir boyuttaki değerleri içerir, ancak birden fazla satır tanımındaki, sütun tanımındaki, raporlama ağaç tanımlarındaki ve rapor tanımlarındaki bir boyut değeri setini kullanabilirsiniz. Ayrıca, bir rapor tanımında boyut değerleri setlerini de birleştirebilirsiniz. Mali verilerinizdeki bir değişiklik, boyut değer setini değiştirmenizi gerektiriyorsa, boyut değer seti aralığını güncelleştirebilirsiniz ve bu güncelleştirme boyut değer setini kullanan tüm alanlar için geçerli olur. Örneğin, mali verilerinize bağlantı için genellikle bir değer aralığı, örneğin 5100 ile 5600 arasındaki değerleri belirtiyorsanız, bu aralığı Satışlar olarak adlandırılan bir hesap setine atayabilirsiniz. Boyut değerleri seti oluşturduktan sonra bu seti mali veri bağlantınız olarak seçebilirsiniz. Bir başka örnek olarak, 5100-5600 değer aralığı Satışa atanırsa ve 4175 İskontolara atanırsa, toplam satışları İskontoları Satışlardan çıkararak belirleyebilirsiniz. Bu işlemi **(5100:5600)-4175** olarak gösterilir.
+## <a name="add-dimension-value-sets-in-a-row-definition"></a>Bir satır tanımına boyut değeri kümeleri ekleme
+Boyut değeri kümesi, adlandırılmış bir boyut değerleri grubudur. Bir boyut değeri kümesi yalnızca tek bir boyuttaki değerleri içerebilir, ancak birden fazla satır tanımı, sütun tanımı, raporlama ağacı tanımı ve rapor tanımında bir boyut değeri kümesi kullanabilirsiniz. Ayrıca, bir rapor tanımındaki boyut değerlerini de birleştirebilirsiniz. Mali değerlerinizde yapılan bir değişiklik boyut değeri kümesini değiştirmenizi gerektirdiğinde, boyut değeri kümesi tanımını güncelleştirebilir ve bu güncelleştirme boyut değeri kümesini kullanan tüm alanlara uygulanır. Örneğin, mali verilerinizi ilişkilendirmek için sıkça 5100 ila 5600 arasındaki değerler gibi bir değer aralığını belirtiyorsanız bu aralığı Satış adındaki bir hesap kümesine atayabilirsiniz. Bir boyut değerleri kümesi oluşturmanızın ardından, mali veri bağlantınız olarak bu kümeyi seçebilirsiniz. Başka bir örnek olarak, 5100 ila 5600 arasındaki değer aralığı Satışa, 4175 ise İskontolara atanırsa toplam satışı İskontoları Satıştan çıkararak belirleyebilirsiniz. Bu işlem **(5100:5600)-4175** olarak gösterilir.
 
-### <a name="create-a-set-of-dimension-values"></a>Bir boyut değeri seti oluşturma
+### <a name="create-a-set-of-dimension-values"></a>Boyut değerleri kümesi oluşturma
 
-1.  Rapor Tasarımcısında değiştirmek istediğiniz satır, sütun veya ağaç tanımını açın.
-2.  **Düzen** menüsünden **Boyut Değer Setlerini Yönet** öğesini tıklayın.
-3.  **Boyut Değer Setlerini Yönet** iletişim kutusundaki **Boyut** alanında, oluşturulacak boyut değeri setinin türünü seçin ve ardından **Yeni** öğesini tıklayın.
-4.  **Yeni** iletişim kutusunda set için bir ad ve açıklama girin.
-5.  **Başlangıç** sütununda bir hücreyi çift tıklatın.
-6.  **Hesap** iletişim kutusunda, listeden hesap adını seçin veya **Arama** alanında girişi arayın. Ardından **Tamam**'ı tıklatın.
-7.  Bu işleç için bir formül oluşturmak üzere 5 ile 6. adımlar arasındaki işlemleri **Bitiş** sütunu için tekrarlayın.
-8.  Formül tamamlandığında **Tamam** öğesini tıklayın.
-9.  **Boyut Setlerini Yönet** iletişim kutusunda **Kapat** öğesini tıklayın.
+1.  Rapor Tasarımcısı'nda, değiştirilecek satır, sütun veya ağaç tanımını açın.
+2.  **Düzenle** menüsünde, **Boyut Değeri Kümelerini Yönet**'e tıklayın.
+3.  **Boyut Değeri Kümelerini Yönet** iletişim kutusundaki **Boyut** alanında, oluşturulacak boyut değeri kümesinin türünü seçin ve ardından **Yeni**'ye tıklayın.
+4.  **Yeni** iletişim kutusunda küme için ad ve açıklama girin.
+5.  **Başlangıç** sütununda, bir hücreye çift tıklayın.
+6.  **Hesap** iletişim kutusunda, listeden hesap adını seçin veua **Arama** alanında girişi arayın. Ardından **Tamam**'ı tıklatın.
+7.  Söz konusu işleç için formül tasarlamak üzere **Bitiş** sütunundaki 5 ila 6. adımları tekrarlayın.
+8.  Formül tamamlandığında, **Tamam**'a tıklayın.
+9.  **Boyut Kümelerini Yönet** iletişim kutusunda, **Kapat**'a tıklayın.
 
-### <a name="update-a-set-of-dimension-values"></a>Bir boyut değeri setini güncelleştirme
+### <a name="update-a-set-of-dimension-values"></a>Bir boyut değerleri kümesini güncelleştirme
 
-1.  Rapor Tasarımcısında değiştirmek istediğiniz satır, sütun veya ağaç tanımını açın.
-2.  **Düzen** menüsünden **Boyut Değer Setlerini Yönet** öğesini tıklayın.
-3.  **Boyut Değer Setlerini Yönet** iletişim kutusundaki **Boyut** alanında, boyut türünü seçin.
-4.  Listede, güncellenecek boyut değeri setini seçin ve ardından **Değiştir** düğmesini tıklayın.
+1.  Rapor Tasarımcısı'nda, değiştirilecek satır, sütun veya ağaç tanımını açın.
+2.  **Düzenle** menüsünde, **Boyut Değeri Kümelerini Yönet**'e tıklayın.
+3.  **Boyut Değeri Kümelerini Yönet** iletişim kutusundaki **Boyut** alanından boyut türünü seçin.
+4.  Listeden güncelleştirilecek boyut değeri kümesini seçin ve ardından **Değiştir**'e tıklayın.
 5.  **Değiştir** iletişim kutusunda, sete dahil edilecek formül değerlerini değiştirin. 
     > [!NOTE]
     >  Yeni hesaplar veya boyutlar eklerseniz, değişiklikleri dahil etmek için mevcut boyut değeri setlerini değiştirdiğinizden emin olun.
-6.  Hücreyi çift tıklatın ve uygun bir işleç, **Başlangıç** hesabını ve **Bitiş** hesabını seçin.
-7.  **Tamam** düğmesini tıklayarak **Değiştir** iletişim kutusunu kapatın ve değişikliklerinizi kaydedin.
+6.  Hücreye çift tıklayın ve ilgili işleci, **Başlangıç** hesabını ve **Bitiş** hesabını seçin.
+7.  **Tamam**'a tıklayarak **Değiştir** iletişim kutusunu kapatın ve yaptığınız değişiklikleri kaydedin.
 
-### <a name="copy-a-dimension-set"></a>Bir boyut kümesi kopyalama
+### <a name="copy-a-dimension-set"></a>Bir boyut kümesini kopyalama
 
-1.  Rapor Tasarımcısında değiştirmek istediğiniz satır, sütun veya ağaç tanımını açın.
-2.  **Düzen** menüsünden **Boyut Değer Setlerini Yönet** öğesini tıklayın.
-3.  **Boyut Değer Setlerini Yönet** iletişim kutusundaki **Boyut** alanından boyut türünü seçin.
-4.  Listede, kopyalanacak seti seçin ve ardından **Farklı Kaydet** düğmesini tıklatın.
-5.  Kopyalanan set için yeni bir ad girin ve ardından **Tamam** düğmesini tıklatın.
+1.  Rapor Tasarımcısı'nda, değiştirilecek satır, sütun veya ağaç tanımını açın.
+2.  **Düzenle** menüsünde, **Boyut Değeri Kümelerini Yönet**'e tıklayın.
+3.  **Boyut Değeri Kümelerini Yönet** iletişim kutusundaki **Boyut** alanından boyut türünü seçin.
+4.  Listeden kopyalanacak kümeyi seçin ve ardından **Farklı Kaydet**'e tıklayın.
+5.  Kopyalanan küme için yeni bir ad girin ve ardından **Tamam**'a tıklayın.
 
-### <a name="delete-a-dimension-set"></a>Bir boyut setini silme
+### <a name="delete-a-dimension-set"></a>Bir boyut kümesini silme
 
-1.  Rapor Tasarımcısında değiştirmek istediğiniz satır, sütun veya ağaç tanımını açın.
-2.  **Düzen** menüsünden **Boyut Değer Setlerini Yönet** öğesini tıklayın.
-3.  **Boyut Değer Setlerini Yönet** iletişim kutusundaki **Boyut** alanında, boyut türünü seçin.
+1.  Rapor Tasarımcısı'nda, değiştirilecek satır, sütun veya ağaç tanımını açın.
+2.  **Düzenle** menüsünde, **Boyut Değeri Kümelerini Yönet**'e tıklayın.
+3.  **Boyut Değeri Kümelerini Yönet** iletişim kutusundaki **Boyut** alanından boyut türünü seçin.
 4.  Silinecek seti seçin ve ardından **Sil** düğmesini tıklayın. Boyut değer setini kalıcı olarak silmek için **Evet** düğmesini tıklayın.
 
 

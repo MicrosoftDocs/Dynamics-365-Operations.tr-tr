@@ -16,13 +16,13 @@ ms.custom: 13851
 ms.assetid: 0fa2f71a-596c-414c-a6e6-8f7405a0bf81
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 765825ba43cad44b076ea6628d2787011e97fc57
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 4ad82f3177e4abb7b9cb575b910aabc69901f475
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -55,7 +55,7 @@ Bir sabit kıymek amortisman profili ayarladığınızda ve **Amortisman profill
 **Amortisman yılı** alanından **Mali Yıl** seçimini yaparsanız düz çizgi kalan yaşam amortismanı kullanılır Amortisman, kalan mali yıllar temel alınarak hesaplanır. Örneğin, 1 Temmuz 2015 ile 30 Haziran 2016 arasındaki mali yıl için amortisman hesaplaması 1 Temmuz'da başlar. Mali yıl 12 aydan daha uzun veya daha kısa olabilir. Amortisman her mali dönem için ayarlanır. Bir sonraki mali yılın uzunluğu, **Mali takvimler** sayfasında ayarlanan mali dönemler tarafından belirlenir. Amortisman yılı olarak **Mali** seçerseniz, **Dönem sıklığı** alanında şu seçenekler kullanılabilir:
 
 -   **Yıllık**, mali yıl için hesaplanan toplam amortisman tutarını tek tutar olarak, mali yılın son gününde nakleder.
--   **Mali dönem** seçeneği, mali yılın amortismanının toplam tutarını hesaplar. Bu tutar daha sonra, defter için belirtilen mali takvim için**Mali takvimler** sayfasında tanımlanan mali dönemlere aktarılır.
+-   **Mali dönem** seçeneği, mali yılın amortismanının toplam tutarını hesaplar. Bu tutar daha sonra, defter için belirtilen mali takvim için **Mali takvimler** sayfasında tanımlanan mali dönemlere aktarılır.
 
 ## <a name="example-of-straight-line-depreciation-of-an-unchanged-fixed-asset"></a>Değişmeyen bir sabit kıymet için düz çizgi amortisman örneği
 Bir sabit kıymet aşağıdaki özelliklere sahiptir.

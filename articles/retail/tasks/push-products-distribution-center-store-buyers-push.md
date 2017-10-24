@@ -17,10 +17,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: b73147d76880714d22db8e95d1369b4a01ddaae6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: dce0016ede691a70a6eb1bf3240fa595efec0241
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a> Merkezi alım kullanarak ürünleri dağıtım merkezinden mağazaya gönderme

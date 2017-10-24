@@ -16,10 +16,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 8a9bf8241a0dc66f34715513d2d201569b810582
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e70a5f28635e75a69811085637f7e7431c0f1d40
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-a-product-number-for-configured-product-variants"></a>Yapılandırılmış ürün çeşitleri için ürün numarası oluşturma

@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -63,7 +63,7 @@ Açık kişiselleştirmeler, bir kişiselleştirme menüsü seçerek bir öğe y
 
 Salt bir öğenin etiketini değiştirmek, öğeyi sayfada görülmeyecek şekilde gizlemek (bu yüzden hiçbir veri değişmez, sadece bilgileri göremezsiniz), öğeyle gezerken alanı atlamak veya verileri "Düzenleme" olarak işaretleyerek değiştirilemeyecek hale getirmek istiyorsanız, sayfanızda bu öğeyi kişiselleştirebilirsiniz. 
 
-Öğeleri taşımak veya gizlemek ya da birkaç değişiklik yapmak istiyorsanız, **Bu formu kişiselleştir** seçeneğini seçerek öğe Özellikler penceresinden ulaşabileceğiniz Kişiselleştirme araç çubuğunu kullanabilirsiniz. Kişiselleştirme araç çubuğu **Seçenekler** öğesinin Kişiselleştir grubunun altında, formun Eylem bölmesinde de bulunur. **Bu formu kişiselleştir** seçeneğini seçtiğinizde, Kişiselleştirme araç çubuğunu görürsünüz. 
+Öğeleri taşımak veya gizlemek ya da birkaç değişiklik yapmak istiyorsanız, **Bu formu kişiselleştir** seçeneğini seçerek öğe Özellikler penceresinden ulaşabileceğiniz Kişiselleştirme araç çubuğunu kullanabilirsiniz. Kişiselleştirme araç çubuğu formun Eylem bölmesinde de kullanılabilir, **Seçenekler** sekmesinin Kişiselleştirme grubu altında. **Bu formu kişiselleştir**'i seçin ve Kişiselleştirme araç çubuğunu göreceksiniz. 
 
 [![Kişiselleştirmeye araç çubuğu](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
@@ -90,7 +90,7 @@ Araç çubuğunu kapatmak ve sayfayı daha önceki interaktif durumuna geri geti
 Kişiselleştirme aracı ile, kaydetme örtülüdür. Kişiselleştirmeleriniz bunları yapar yapmaz hemen kullanıma girer ve ayrıca **Kaydet** düğmesine tıklamanız gerekmez. Bazı durumlarda, bir araç seçtiğinizde, öğenin yanında bir asma kilit simgesi görürsünüz. Bu simge, sayfanın doğru çalışması için seçilen araçla ilgili özellikleri değiştiremeyeceğinizi gösterir. Kişiselleştirme araç çubuğu açıldığında, sayfa etkileşimsiz hale gelir. Veri giremez veya bölümleri genişletip daraltamazsınız.
 
 ## <a name="explicit-personalization-adding-a-tile-or-list-to-a-workspace"></a>Açık kişiselleştirme: Çalışma alanına kutucuk veya liste ekleme
-Listeler içeren bazı sayfalarda Seçenekler öğesinin Kişiselleştir grubunun altında, Eylem Bölmesi içinde, ek bir kişiselleştirme özelliği bulunacaktır. Size geçerli listedeki bilgileri (filtrelenmiş veya sıralanmış veya varsayılan) Çalışma alanında liste veya özet kutucukları (listedeki kalemlerin sayısını göstermek için kullanılabilir) halinde gösterebilme imkanı veren açılır listeyi açmak için **Çalışma Listesine Ekle** düğmesini seçin. 
+Listelere sahip bazı sayfalar, Eylem bölmesi içerisinde ek bir kişiselleştirme özelliğine, Ayarlar sekmesinin Kişiselleştirme grubunda sahip olacaktır. **Çalışma alanına ekle**'yi seçerek bir Çalışma alanında bir liste olarak veya özet kutucuğu olarak (listedeki maddelerin sayısını göstermekte kullanılabilecek) size geçerli listedeki bilgiyi görüntülemek imkanı veren açılır listeyi açın (filtreli ve sıralı veya varsayılan). 
 
 [![Çalışma alanına ekle](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png) 
 

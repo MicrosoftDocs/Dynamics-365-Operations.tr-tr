@@ -1,7 +1,7 @@
 ---
 title: "Maliyet sürümleri"
 description: "Bu makalede, maliyetlendirme sürümleri, bu sürümlerin nasıl sürdürüleceği ve bu sürümlere ekleyebileceğiniz veri türleri hakkında bilgiler verilmektedir. Maliyetlendirme versiyonunun birincil amacı madde, maliyet kategorileri için dolaylı maliyet hesaplama formülleri hakkındaki maliyet kayıtlarını içermektir."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: cd239da5-f434-4d1b-8196-5414c888d76d
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ce1f0c2107b701f12c18646ff4369e543bec7c97
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 5d22abca3f55ffbe162060bd75191c480992d485
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 

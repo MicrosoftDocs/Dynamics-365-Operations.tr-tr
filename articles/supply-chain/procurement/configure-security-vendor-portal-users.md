@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 560e0760c33cab4186095ac2ae7e105d75cc16d0
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: ab096bcc7003f60851077d9c7e03b16c5d46ce2a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -39,7 +39,7 @@ Satıcı portal işlevi, Dynamics 365 for Operations sürüm 1611'de genişletil
 Tedarikçi portalı kullanan birisi için bir kullanıcı hesabı oluşturmadan önce satıcıyı satıcı portal işbirliği için izin verecek şekilde ayarlamanız gerekir. **satıcılar** sayfasında **genel** sekmesinde **satın alma siparişi işbirliği** alanını seçin. Tedarikçi portalı kullanan harici satıcılarda aşağıdaki Kurulum olması gerekir:
 
 -   Microsoft Azure Active Directory (AAD) kullanıcı hesabı Dynamics AX'de **kullanıcı** sayfasında satıcı üzerinde kayıtlı olması gerekir.
--   Satıcı **(Dış) satıcı** güvenlik rolüne sahip olması gerekir, **SystemUser**rolü değil. **Not:** **SystemUser** rolü Dynamics AX uygulamasında yeni bir kullanıcı hesabı oluşturduğunuzda otomatik olarak verilir. Bu nedenle, bu rolü kaldırmanız ve aldığınız uyarı iletisini kabul etmeniz gerekir.
+-   Satıcı **(Dış) satıcı** güvenlik rolüne sahip olması gerekir, **SystemUser** rolü değil. **Not:** **SystemUser** rolü Dynamics AX uygulamasında yeni bir kullanıcı hesabı oluşturduğunuzda otomatik olarak verilir. Bu nedenle, bu rolü kaldırmanız ve aldığınız uyarı iletisini kabul etmeniz gerekir.
 -   Satıcı kullanıcıya kendi PO görünümüne PO tablolardan ek alanlar eklemek için izni verilmemelidir. **kişiselleştirme** sekmesinde, **kullanıcılar** sekmesinde, kullanıcı için **açık kişiselleştirme izinli** seçeneğini **Hayır** olarak ayarlayın.
 -   Kullanıcı hesabı kayıtlı bir ilgili kişi ile ilişkilendirilmiş olması gerekir. **kullanıcı** sayfasında, **Ad** alanında bir kişiyi seçin. Seçtiğiniz kişinin ilgili satıcı için **kişi** rolüne sahip olması gerekir.
 

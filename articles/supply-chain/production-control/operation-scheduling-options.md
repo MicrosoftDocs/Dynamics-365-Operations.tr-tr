@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ede111a8c7e8fe17b95747aadef30d1af1fea6aa
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 5a64445b58c3d6b523b766b4e864aeea9f93de2b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -99,7 +99,7 @@ Referanslar, üretim emirlerini temel aldığında alt üretimler olarak da bili
 
 ### <a name="synchronize-references"></a>Referansları eşitle
 
-Ayrıca referansları üretim emriyle eşitleyebilirsiniz. Bu seçenek tercih edilirse üretim emri planlamasında değişiklik yapıldığında alt üretimlerdeki tarihler taşınır ve hizalanır. Üretim siparişinde bir veya daha fazla alt üretim varsa alt üretimleri ana üretimle birlikte planlamak isteyebilirsiniz. Bu durumda, ilgili alt üretim tamamlanana kadar ana üretim başlatılamaz. Bu nedenle alt üretimlerin planlanmasının seçilen üretimin başlangıç ve bitiş zamanlarına göre yapılması gerekiyorsa bu onay kutusunu seçin. Bu onay kutusunu yalnızca**Referansları planla** onay kutusu da seçilirse seçebilirsiniz.
+Ayrıca referansları üretim emriyle eşitleyebilirsiniz. Bu seçenek tercih edilirse üretim emri planlamasında değişiklik yapıldığında alt üretimlerdeki tarihler taşınır ve hizalanır. Üretim siparişinde bir veya daha fazla alt üretim varsa alt üretimleri ana üretimle birlikte planlamak isteyebilirsiniz. Bu durumda, ilgili alt üretim tamamlanana kadar ana üretim başlatılamaz. Bu nedenle alt üretimlerin planlanmasının seçilen üretimin başlangıç ve bitiş zamanlarına göre yapılması gerekiyorsa bu onay kutusunu seçin. Bu onay kutusunu yalnızca **Referansları planla** onay kutusu da seçilirse seçebilirsiniz.
 
 ## <a name="cancellation"></a>İptal
 ### <a name="cancel-queue-time"></a>Kuyruk süresini iptal et

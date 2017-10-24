@@ -1,7 +1,7 @@
 ---
 title: "Standart maliyet dönüştürme özeti"
 description: "Bu makalede bir standart maliyet dönüştürme işleminin kurulması ve yürütülmesine yardımcı olacak sürecin genel görünümü verilmiştir. Listelenen adımlar bir standart maliyet dönüştürme işlemi için ön koşulları tamamlamanızdan sonra tamamlanacak şekilde açıklanmıştır."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: d601d9d5-1de3-4868-aff4-534dca01d624
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6e223c2d9a683d7b92b73d3fe3d3c8b22684d22c
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 2e59fd6e137d5f677ed4055385ef88922c8c42ba
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ Bu makalede bir standart maliyet dönüştürme işleminin kurulması ve yürüt
 Seçili maddeler grubu için stok modelini bir fiili maliyetlendirme yaklaşımından standart maliyetlendirme yaklaşımına dönüştürmek için **Standart maliyet dönüştürme işlemleri** sayfasını kullanın. Dönüştürme süreci bir önkoşul stok kapanışı yapmayı, geçiş döneminde (geçiş başlangıç tarihi ve planlanan dönüştürme tarihi tarafından tanımlanır) birkaç adım gerçekleştirmeyi ve dönüştürmeyi ve ilgili stok kapanışını gerçekleştirmeyi içerir.
 
 -   Geçiş döneminden önce stok kapanışı − Stok kapanışı bir önkoşul adımını temsil eder, çünkü bir maddenin eski değerleme yöntemi altındaki açık hareketlerini kapatır. Geçiş dönemi içinde, örneğin faturalar gibi eski tarihli hareketleri girebilir ve deftere nakledebilirsiniz, böylece önceki dönemi kapatabilirsiniz. Eski değerleme yönteminin tümüyle devre dışı kalması için stok kapatma tarihi geçiş başlangıç tarihinden bir gün önce olmalıdır.
--   Geçiş dönemindeki dönüştürme adımları − Yeni bir maliyetlendirme versiyonu için kullanıcı tanımlı bir tanımlayıcı içeren bir dönüştürme kaydı oluşturmak için**Standart maliyet dönüştürme işlemleri** sayfasını kullanın. Dönüştürülmesi gereken maddeleri belirler ve maddenin bekleyen standart maliyetlerini yeni maliyetlendirme versiyonuna girersiniz. Dönüştürme işlemini önleyebilecek sorunları belirlemek üzere seçilen maddelerde bir denetim gerçekleştirir ve ardından başka bir denetim gerçekleştirmeden önce sorunları çözersiniz. Maddeler kontrolleri başarıyla geçtikten sonra durumu (dönüştürme kaydının) **Hazır** olarak değiştirin. Planlanan dönüştürme tarihinde, dönüştürmeyi gerçekleştirin ve isteğe bağlı olarak bir stok kapanışı ekleyin. Bir geçiş dönemi içinde bir maddenin stok hareketleri eski stok modeline göre yayınlanır ve değerlendirilir. Ardından, dönüştürme işlemi başarıyla tamamlanır, stok hareketleri standart maliyete yeniden değerlendirilir.
+-   Geçiş dönemindeki dönüştürme adımları − Yeni bir maliyetlendirme versiyonu için kullanıcı tanımlı bir tanımlayıcı içeren bir dönüştürme kaydı oluşturmak için **Standart maliyet dönüştürme işlemleri** sayfasını kullanın. Dönüştürülmesi gereken maddeleri belirler ve maddenin bekleyen standart maliyetlerini yeni maliyetlendirme versiyonuna girersiniz. Dönüştürme işlemini önleyebilecek sorunları belirlemek üzere seçilen maddelerde bir denetim gerçekleştirir ve ardından başka bir denetim gerçekleştirmeden önce sorunları çözersiniz. Maddeler kontrolleri başarıyla geçtikten sonra durumu (dönüştürme kaydının) **Hazır** olarak değiştirin. Planlanan dönüştürme tarihinde, dönüştürmeyi gerçekleştirin ve isteğe bağlı olarak bir stok kapanışı ekleyin. Bir geçiş dönemi içinde bir maddenin stok hareketleri eski stok modeline göre yayınlanır ve değerlendirilir. Ardından, dönüştürme işlemi başarıyla tamamlanır, stok hareketleri standart maliyete yeniden değerlendirilir.
 -   Dönüştürmeden önce stok kapanışı − Stok kapanışı, dönüştürmeyi planlanan dönüştürme tarihinde gerçekleştirmenin bir parçası olarak dahil edilebilir veya dönüştürme öncesinde ayrı bir adım olarak gerçekleştirilebilir.
 
 Dönüştürme süreci başarıyla tamamlandıktan sonra, her bir madde için stok modeli, standart maliyete dayalı olur ve maddenin standart maliyetleri etkinleştirilir. İzleyen stok hareketleri maddenin standart maliyetiyle değerlenir. Buna ek olarak sistem maddenin fiziksel stok hareketlerini girişler için dönüştürür ve dönüştürme tarihi itibariyle standart maliyete çıkarır. Sistem ayrıca maddenin mali eldeki stokunu standart maliyete dönüştürür ve değer farkını bir stok yeniden değerlemesi olarak deftere nakleder. Dönüştürmeden sonra gerçekleşen herhangi bir hareket maddenin standart maliyetiyle değerlenir. Eski tarihli hareketleri dönüştürme tarihinden önce giremezsiniz çünkü dönüştürme tarihinden bir gün önce stok kapanışı gerçekleştirilmelidir. Dönüştürme yalnızca bir önceki gün stok kapanışı yapılmışsa gerçekleştirilebilir. Bu stok kapanışı iptal edilemez.
@@ -49,7 +49,7 @@ Bir dönüştürme kaydı oluşturmak için **Standart maliyet dönüştürme i�
 Yeni maliyetlendirme sürümü, **Dönüştürme** maliyetlendirme tipinin gösterdiği gibi dönüştürme kaydı için ayrılır. Ayrılan maliyetlendirme sürümü, standart maliyetler için bir maliyetlendirme sürümüne benzerdir ve dönüştürme kaydıyla ilişkili maddelerin madde maliyet kayıtlarını içerir. Bir dönüştürme kaydı için ayrılan maliyetlendirme sürümü, incelemeniz ve gerektiği gibi düzenlemeniz gereken aşağıdaki ayarlara sahiptir.
 
 -   **Maliyet Türü:** Bu alanın **Standart maliyet** konumuna ayarlanmalıdır.
--   **Sürüm:**Bu tanımlayıcı, maliyet versiyonu kimliği için dönüştürme kaydına girilen bilgileri yansıtır.
+-   **Sürüm:** Bu tanımlayıcı, maliyet versiyonu kimliği için dönüştürme kaydına girilen bilgileri yansıtır.
 -   **Ad:** Varsayılan olarak ad boştur. İsteğe bağlı olarak bir ad girebilirsiniz.
 -   **Blok:** Bu alan **Hayır** konumuna ayarlanmalıdır. Dönüştürme kaydının durumunu **Hazır** olarak değiştirene kadar maliyetlendirme versiyonuna maliyet kayıtları girebilirsiniz. **Hazır** durumu, seçilen öğelerin denetlendiğini ve maliyet kayıtlarında değişikliğe izin verilmemesi gerektiğini gösterir.
 -   **Blok etkinleştirme:** Bu alan **Evet** konumuna ayarlanmalıdır. Ayrılan maliyetlendirme versiyonunda beklemede olan bir maliyet kaydını el ile etkinleştiremezsiniz. Etkinleştirme, dönüştürmeyi uyguladığınızda gerçekleşir.

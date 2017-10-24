@@ -16,13 +16,13 @@ ms.custom: 3811
 ms.assetid: b4969b30-2fe1-4a3c-bbea-725dc37c8b60
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 616366009ce7bf7135704e980becc331617cf5af
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 

@@ -13,13 +13,13 @@ ms.reviewer: twheeloc
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: sarasch
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
-ms.openlocfilehash: a8ccd99431178c3cb4e73e7cd199de8e0845d716
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: b637a1b4a50f7044b0a826560f1e65e02be692e7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/14/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
