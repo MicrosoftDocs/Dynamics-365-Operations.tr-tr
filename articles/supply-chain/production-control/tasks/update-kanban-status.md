@@ -17,34 +17,34 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 3c2b5a5fbfc5bd83cc68ffafaa243dac9244c003
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="update-kanban-status"></a><span data-ttu-id="f6d6f-103">Kanban durumunu güncelleştirme</span><span class="sxs-lookup"><span data-stu-id="f6d6f-103">Update kanban status</span></span>
+# <a name="update-kanban-status"></a><span data-ttu-id="ab043-103">Kanban durumunu güncelleştirme</span><span class="sxs-lookup"><span data-stu-id="ab043-103">Update kanban status</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="f6d6f-104">Yanlışlıkla bir kanban boşaltılırsa veya alınan bir kanbanın boşaltılması gerekiyorsa, kanban durumunu güncelleştirmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="f6d6f-104">When a kanban is emptied by mistake or a received kanban needs to be emptied, you need to update kanban status.</span></span> <span data-ttu-id="f6d6f-105">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="f6d6f-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="f6d6f-106">Bu prosedür, mağaza denetleyicisi için hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="f6d6f-106">This procedure is intended for the shop supervisor.</span></span>
+<span data-ttu-id="ab043-104">Yanlışlıkla bir kanban boşaltılırsa veya alınan bir kanbanın boşaltılması gerekiyorsa, kanban durumunu güncelleştirmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="ab043-104">When a kanban is emptied by mistake or a received kanban needs to be emptied, you need to update kanban status.</span></span> <span data-ttu-id="ab043-105">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="ab043-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="ab043-106">Bu prosedür, mağaza denetleyicisi için hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="ab043-106">This procedure is intended for the shop supervisor.</span></span>
 
 
-## <a name="find-the-kanban"></a><span data-ttu-id="f6d6f-107">Kanbanı bulun.</span><span class="sxs-lookup"><span data-stu-id="f6d6f-107">Find the kanban.</span></span>
-1. <span data-ttu-id="f6d6f-108">Üretim denetimi > Kanban > Kanbanlar öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="f6d6f-108">Go to Production control > Kanban > Kanbans.</span></span>
-2. <span data-ttu-id="f6d6f-109">İşleme ünitesi durumu sütun filtresini açın.</span><span class="sxs-lookup"><span data-stu-id="f6d6f-109">Open Handling unit status column filter.</span></span>
-3. <span data-ttu-id="f6d6f-110">Temizle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f6d6f-110">Click Clear.</span></span>
-    * <span data-ttu-id="f6d6f-111">Bu, filtreleri sıfırlar.</span><span class="sxs-lookup"><span data-stu-id="f6d6f-111">This resets the filters.</span></span>  
-4. <span data-ttu-id="f6d6f-112">Kayıtları bulmak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="f6d6f-112">Use the Quick Filter to find records.</span></span> <span data-ttu-id="f6d6f-113">Örneğin, Kart numarası alanını bir '000149' değeriyle filtreleyin.</span><span class="sxs-lookup"><span data-stu-id="f6d6f-113">For example, filter on the Card number field with a value of '000149'.</span></span>
+## <a name="find-the-kanban"></a><span data-ttu-id="ab043-107">Kanbanı bulun.</span><span class="sxs-lookup"><span data-stu-id="ab043-107">Find the kanban.</span></span>
+1. <span data-ttu-id="ab043-108">Üretim denetimi > Kanban > Kanbanlar öğesine gidin.</span><span class="sxs-lookup"><span data-stu-id="ab043-108">Go to Production control > Kanban > Kanbans.</span></span>
+2. <span data-ttu-id="ab043-109">İşleme ünitesi durumu sütun filtresini açın.</span><span class="sxs-lookup"><span data-stu-id="ab043-109">Open Handling unit status column filter.</span></span>
+3. <span data-ttu-id="ab043-110">Temizle'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ab043-110">Click Clear.</span></span>
+    * <span data-ttu-id="ab043-111">Bu, filtreleri sıfırlar.</span><span class="sxs-lookup"><span data-stu-id="ab043-111">This resets the filters.</span></span>  
+4. <span data-ttu-id="ab043-112">Kayıtları bulmak için Hızlı Filtre'yi kullanın.</span><span class="sxs-lookup"><span data-stu-id="ab043-112">Use the Quick Filter to find records.</span></span> <span data-ttu-id="ab043-113">Örneğin, Kart numarası alanını bir '000149' değeriyle filtreleyin.</span><span class="sxs-lookup"><span data-stu-id="ab043-113">For example, filter on the Card number field with a value of '000149'.</span></span>
 
-## <a name="change-emptied-status-to-received-status"></a><span data-ttu-id="f6d6f-114">Boşaltıldı durumunu alındı olarak değiştirme</span><span class="sxs-lookup"><span data-stu-id="f6d6f-114">Change emptied status to received status</span></span>
-1. <span data-ttu-id="f6d6f-115">Boş işleme ünitesini ters çevir düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f6d6f-115">Click Reverse empty handling unit.</span></span>
-2. <span data-ttu-id="f6d6f-116">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f6d6f-116">Click OK.</span></span>
-    * <span data-ttu-id="f6d6f-117">İşlem ünitesi durumunun Alındı olduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="f6d6f-117">Notice that the Handling unit status is Received.</span></span>  
+## <a name="change-emptied-status-to-received-status"></a><span data-ttu-id="ab043-114">Boşaltıldı durumunu alındı olarak değiştirme</span><span class="sxs-lookup"><span data-stu-id="ab043-114">Change emptied status to received status</span></span>
+1. <span data-ttu-id="ab043-115">Boş işleme ünitesini ters çevir düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ab043-115">Click Reverse empty handling unit.</span></span>
+2. <span data-ttu-id="ab043-116">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ab043-116">Click OK.</span></span>
+    * <span data-ttu-id="ab043-117">İşlem ünitesi durumunun Alındı olduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="ab043-117">Notice that the Handling unit status is Received.</span></span>  
 
-## <a name="change-received-status-to-emptied-status"></a><span data-ttu-id="f6d6f-118">Alındı durumunu boşaltıldı olarak değiştirme</span><span class="sxs-lookup"><span data-stu-id="f6d6f-118">Change received status to emptied status</span></span>
-1. <span data-ttu-id="f6d6f-119">Kanbanı boşaltı düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f6d6f-119">Click Empty kanban.</span></span>
-2. <span data-ttu-id="f6d6f-120">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="f6d6f-120">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="f6d6f-121">İşlem ünitesi durumunun Boşaltıldı olduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="f6d6f-121">Notice that the Handling unit status is Emptied.</span></span>  
+## <a name="change-received-status-to-emptied-status"></a><span data-ttu-id="ab043-118">Alındı durumunu boşaltıldı olarak değiştirme</span><span class="sxs-lookup"><span data-stu-id="ab043-118">Change received status to emptied status</span></span>
+1. <span data-ttu-id="ab043-119">Kanbanı boşaltı düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ab043-119">Click Empty kanban.</span></span>
+2. <span data-ttu-id="ab043-120">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="ab043-120">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="ab043-121">İşlem ünitesi durumunun Boşaltıldı olduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="ab043-121">Notice that the Handling unit status is Emptied.</span></span>  
 
 

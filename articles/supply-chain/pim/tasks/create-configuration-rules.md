@@ -16,42 +16,42 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 71f429d3aba1b5c51b35b0d08337f69094d0b135
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/14/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="create-configuration-rules"></a><span data-ttu-id="18df5-103">Yapılandırma kuralları oluşturma</span><span class="sxs-lookup"><span data-stu-id="18df5-103">Create configuration rules</span></span>
+# <a name="create-configuration-rules"></a><span data-ttu-id="d64a1-103">Yapılandırma kuralları oluşturma</span><span class="sxs-lookup"><span data-stu-id="d64a1-103">Create configuration rules</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="18df5-104">Bu yordam, çeşitli ürün reçetesi satırlarının oluşmasını engellemek veya zorlamak için boyut tabanlı yapılandırmada kullanılmak üzere konfigürasyon kurallarını oluşturur.</span><span class="sxs-lookup"><span data-stu-id="18df5-104">This procedure creates configuration rules that can be used for dimension-based configuration to enforce or prevent certain combinations of BOM lines.</span></span> <span data-ttu-id="18df5-105">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="18df5-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="18df5-106">Boyut tabanlı yapılandırma birleşimlerini nasıl oluşturulacağını açıklayan sekiz prosedür arasındaki yedinci budur.</span><span class="sxs-lookup"><span data-stu-id="18df5-106">This is the seventh procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
+<span data-ttu-id="d64a1-104">Bu yordam, çeşitli ürün reçetesi satırlarının oluşmasını engellemek veya zorlamak için boyut tabanlı yapılandırmada kullanılmak üzere konfigürasyon kurallarını oluşturur.</span><span class="sxs-lookup"><span data-stu-id="d64a1-104">This procedure creates configuration rules that can be used for dimension-based configuration to enforce or prevent certain combinations of BOM lines.</span></span> <span data-ttu-id="d64a1-105">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="d64a1-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="d64a1-106">Boyut tabanlı yapılandırma birleşimlerini nasıl oluşturulacağını açıklayan sekiz prosedür arasındaki yedinci budur.</span><span class="sxs-lookup"><span data-stu-id="d64a1-106">This is the seventh procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
 
-1. <span data-ttu-id="18df5-107">Ürün bilgi yönetimi > Ürün reçeteleri, malzemeler ve formülleri > Ürün reçetesi seçeneğine git.</span><span class="sxs-lookup"><span data-stu-id="18df5-107">Go to Product information management > Bills of materials and formulas > Bills of materials.</span></span>
-2. <span data-ttu-id="18df5-108">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="18df5-108">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="18df5-109">Boyut tabanlı yapılandırma için ürün reçetesini bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="18df5-109">Find and select the BOM for the dimension-based configuration.</span></span>  
-3. <span data-ttu-id="18df5-110">Eylem Bölmesinde, Seçenekler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="18df5-110">On the Action Pane, click Options.</span></span>
-4. <span data-ttu-id="18df5-111">Görünümü değiştir'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="18df5-111">Click Change view.</span></span>
-5. <span data-ttu-id="18df5-112">Başlık görünümü'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="18df5-112">Click Header view.</span></span>
-    * <span data-ttu-id="18df5-113">Konfigürasyon rotası hızlı sekmesine erişim için üstbilgi görünümünü açın.</span><span class="sxs-lookup"><span data-stu-id="18df5-113">Open the header view to access the Configuration route FastTab.</span></span>  
-6. <span data-ttu-id="18df5-114">Yapılandırma yolu bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="18df5-114">Expand or collapse the Configuration route section.</span></span>
-    * <span data-ttu-id="18df5-115">Konfigürasyon rotası hızlı sekmesinin genişletilmiş modda olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="18df5-115">The Configuration route FastTab must be in the expanded mode.</span></span>  
-7. <span data-ttu-id="18df5-116">Konfigürasyon kuralları'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="18df5-116">Click Configuration rules.</span></span>
-8. <span data-ttu-id="18df5-117">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="18df5-117">Click New.</span></span>
-9. <span data-ttu-id="18df5-118">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="18df5-118">In the list, mark the selected row.</span></span>
-10. <span data-ttu-id="18df5-119">Madde numarası alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="18df5-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="18df5-120">Geçerli konfigürasyon grubu içindeki öğeler görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="18df5-120">The items in the current configuration group are displayed.</span></span> <span data-ttu-id="18df5-121">Kuraldaki koşulu temsil eden birini seçin.</span><span class="sxs-lookup"><span data-stu-id="18df5-121">Select the one that represents the condition in the rule.</span></span>  
-11. <span data-ttu-id="18df5-122">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="18df5-122">In the list, click the link in the selected row.</span></span>
-12. <span data-ttu-id="18df5-123">Yöntem alanında bir seçenek belirtin.</span><span class="sxs-lookup"><span data-stu-id="18df5-123">In the Method field, select an option.</span></span>
-    * <span data-ttu-id="18df5-124">Başka bir konfigürasyon grubundaki bir maddenin seçilmesi veya seçiminin kaldırılmasını zorlamak mümkündür.</span><span class="sxs-lookup"><span data-stu-id="18df5-124">It is possible to enforce either a selection or a deselection of an item from another configuration group.</span></span>  
-13. <span data-ttu-id="18df5-125">Türetilen grup alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="18df5-125">In the Derived group field, click the drop-down button to open the lookup.</span></span>
-14. <span data-ttu-id="18df5-126">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="18df5-126">In the list, find and select the desired record.</span></span>
-15. <span data-ttu-id="18df5-127">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="18df5-127">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="18df5-128">İstenen konfigürasyon grubunu seçin.</span><span class="sxs-lookup"><span data-stu-id="18df5-128">Select the desired configuration group.</span></span>  
-16. <span data-ttu-id="18df5-129">Türetilen madde numarası alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="18df5-129">In the Derived item number field, click the drop-down button to open the lookup.</span></span>
-17. <span data-ttu-id="18df5-130">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="18df5-130">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="18df5-131">Tercih edilen yönteme göre seçilecek veya seçimi kaldırılacak madde numarasını seçin.</span><span class="sxs-lookup"><span data-stu-id="18df5-131">Select the item number that will be either selected or deselected depending on the chosen method.</span></span>  
-18. <span data-ttu-id="18df5-132">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="18df5-132">Close the page.</span></span>
+1. <span data-ttu-id="d64a1-107">Ürün bilgi yönetimi > Ürün reçeteleri, malzemeler ve formülleri > Ürün reçetesi seçeneğine git.</span><span class="sxs-lookup"><span data-stu-id="d64a1-107">Go to Product information management > Bills of materials and formulas > Bills of materials.</span></span>
+2. <span data-ttu-id="d64a1-108">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="d64a1-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="d64a1-109">Boyut tabanlı yapılandırma için ürün reçetesini bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="d64a1-109">Find and select the BOM for the dimension-based configuration.</span></span>  
+3. <span data-ttu-id="d64a1-110">Eylem Bölmesinde, Seçenekler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d64a1-110">On the Action Pane, click Options.</span></span>
+4. <span data-ttu-id="d64a1-111">Görünümü değiştir'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d64a1-111">Click Change view.</span></span>
+5. <span data-ttu-id="d64a1-112">Başlık görünümü'ne tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d64a1-112">Click Header view.</span></span>
+    * <span data-ttu-id="d64a1-113">Konfigürasyon rotası hızlı sekmesine erişim için üstbilgi görünümünü açın.</span><span class="sxs-lookup"><span data-stu-id="d64a1-113">Open the header view to access the Configuration route FastTab.</span></span>  
+6. <span data-ttu-id="d64a1-114">Yapılandırma yolu bölümünü genişletin veya daraltın.</span><span class="sxs-lookup"><span data-stu-id="d64a1-114">Expand or collapse the Configuration route section.</span></span>
+    * <span data-ttu-id="d64a1-115">Konfigürasyon rotası hızlı sekmesinin genişletilmiş modda olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="d64a1-115">The Configuration route FastTab must be in the expanded mode.</span></span>  
+7. <span data-ttu-id="d64a1-116">Konfigürasyon kuralları'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d64a1-116">Click Configuration rules.</span></span>
+8. <span data-ttu-id="d64a1-117">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d64a1-117">Click New.</span></span>
+9. <span data-ttu-id="d64a1-118">Listede, seçili satırı işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="d64a1-118">In the list, mark the selected row.</span></span>
+10. <span data-ttu-id="d64a1-119">Madde numarası alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="d64a1-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="d64a1-120">Geçerli konfigürasyon grubu içindeki öğeler görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="d64a1-120">The items in the current configuration group are displayed.</span></span> <span data-ttu-id="d64a1-121">Kuraldaki koşulu temsil eden birini seçin.</span><span class="sxs-lookup"><span data-stu-id="d64a1-121">Select the one that represents the condition in the rule.</span></span>  
+11. <span data-ttu-id="d64a1-122">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d64a1-122">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="d64a1-123">Yöntem alanında bir seçenek belirtin.</span><span class="sxs-lookup"><span data-stu-id="d64a1-123">In the Method field, select an option.</span></span>
+    * <span data-ttu-id="d64a1-124">Başka bir konfigürasyon grubundaki bir maddenin seçilmesi veya seçiminin kaldırılmasını zorlamak mümkündür.</span><span class="sxs-lookup"><span data-stu-id="d64a1-124">It is possible to enforce either a selection or a deselection of an item from another configuration group.</span></span>  
+13. <span data-ttu-id="d64a1-125">Türetilen grup alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d64a1-125">In the Derived group field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="d64a1-126">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="d64a1-126">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="d64a1-127">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d64a1-127">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="d64a1-128">İstenen konfigürasyon grubunu seçin.</span><span class="sxs-lookup"><span data-stu-id="d64a1-128">Select the desired configuration group.</span></span>  
+16. <span data-ttu-id="d64a1-129">Türetilen madde numarası alanında, aramayı açmak için açılır menü düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d64a1-129">In the Derived item number field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="d64a1-130">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d64a1-130">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="d64a1-131">Tercih edilen yönteme göre seçilecek veya seçimi kaldırılacak madde numarasını seçin.</span><span class="sxs-lookup"><span data-stu-id="d64a1-131">Select the item number that will be either selected or deselected depending on the chosen method.</span></span>  
+18. <span data-ttu-id="d64a1-132">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="d64a1-132">Close the page.</span></span>
 
 

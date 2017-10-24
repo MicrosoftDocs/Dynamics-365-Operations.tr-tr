@@ -17,23 +17,23 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: d545090daea6f5d4ec2e045da07f7dc1f756f560
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="configure-the-functionality-profile-for-a-sales-representative"></a><span data-ttu-id="f30a6-103"> Satış temsilcisi için işlevsellik profilini yapılandırma</span><span class="sxs-lookup"><span data-stu-id="f30a6-103">Configure the functionality profile for a sales representative</span></span>
+# <a name="configure-the-functionality-profile-for-a-sales-representative"></a><span data-ttu-id="a51b4-103"> Satış temsilcisi için işlevsellik profilini yapılandırma</span><span class="sxs-lookup"><span data-stu-id="a51b4-103">Configure the functionality profile for a sales representative</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="f30a6-104">Bu yordam bir mağazanın satış temsilcileri için geçerli olan işlevsellik profil ayarlarının nasıl yapılandırılacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="f30a6-104">This procedure demonstrates how to configure a store's functionality profile settings that apply to sales representatives.</span></span> <span data-ttu-id="f30a6-105">Bu yordamlar, USRT demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="f30a6-105">This procedures uses the USRT demo data company.</span></span>
+<span data-ttu-id="a51b4-104">Bu yordam bir mağazanın satış temsilcileri için geçerli olan işlevsellik profil ayarlarının nasıl yapılandırılacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="a51b4-104">This procedure demonstrates how to configure a store's functionality profile settings that apply to sales representatives.</span></span> <span data-ttu-id="a51b4-105">Bu yordamlar, USRT demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="a51b4-105">This procedures uses the USRT demo data company.</span></span>
 
-1. <span data-ttu-id="f30a6-106">Perakende ve ticaret > Kanal kurulumu > POS kurulumu > POS profilleri > İşlevsellik profilleri öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f30a6-106">Go to Retail and commerce > Channel setup > POS setup > POS profiles > Functionality profiles.</span></span>
-2. <span data-ttu-id="f30a6-107">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="f30a6-107">Click Edit.</span></span>
-3. <span data-ttu-id="f30a6-108">İşlevler bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="f30a6-108">Expand the Functions section.</span></span>
-    * <span data-ttu-id="f30a6-109">POS'u kasiyerin varsayılan satış grubuna otomatik olarak ekleyecek, satış grupları için sormasını sağlayacak ve satış grupları gerektirecek şekilde yapılandırmak için işlevsellik profil ayarlarını kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f30a6-109">You can use the functionality profile settings to configure POS to automatically add the cashier's default sales group, to prompt for sales groups, and to require sales groups.</span></span>  
-4. <span data-ttu-id="f30a6-110">Satış temsilcisi istemi alanında, bir seçenek belirleyin.</span><span class="sxs-lookup"><span data-stu-id="f30a6-110">In the Prompt for sales representative field, select an option.</span></span>
-5. <span data-ttu-id="f30a6-111">Satış temsilcisi iste alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="f30a6-111">Select Yes in the Require sales representative field.</span></span>
+1. <span data-ttu-id="a51b4-106">Perakende ve ticaret > Kanal kurulumu > POS kurulumu > POS profilleri > İşlevsellik profilleri öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a51b4-106">Go to Retail and commerce > Channel setup > POS setup > POS profiles > Functionality profiles.</span></span>
+2. <span data-ttu-id="a51b4-107">Düzenle öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a51b4-107">Click Edit.</span></span>
+3. <span data-ttu-id="a51b4-108">İşlevler bölümünü genişletin.</span><span class="sxs-lookup"><span data-stu-id="a51b4-108">Expand the Functions section.</span></span>
+    * <span data-ttu-id="a51b4-109">POS'u kasiyerin varsayılan satış grubuna otomatik olarak ekleyecek, satış grupları için sormasını sağlayacak ve satış grupları gerektirecek şekilde yapılandırmak için işlevsellik profil ayarlarını kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a51b4-109">You can use the functionality profile settings to configure POS to automatically add the cashier's default sales group, to prompt for sales groups, and to require sales groups.</span></span>  
+4. <span data-ttu-id="a51b4-110">Satış temsilcisi istemi alanında, bir seçenek belirleyin.</span><span class="sxs-lookup"><span data-stu-id="a51b4-110">In the Prompt for sales representative field, select an option.</span></span>
+5. <span data-ttu-id="a51b4-111">Satış temsilcisi iste alanında Evet'i seçin.</span><span class="sxs-lookup"><span data-stu-id="a51b4-111">Select Yes in the Require sales representative field.</span></span>
 
 

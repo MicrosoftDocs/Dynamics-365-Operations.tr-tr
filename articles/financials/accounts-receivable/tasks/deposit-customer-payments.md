@@ -16,42 +16,42 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: dbf21bd5df70cd80e4fe3f2f5d699aa82b62423b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="deposit-customer-payments"></a><span data-ttu-id="aca3f-103">Müşteri ödemelerini havale etme</span><span class="sxs-lookup"><span data-stu-id="aca3f-103">Deposit customer payments</span></span>
+# <a name="deposit-customer-payments"></a><span data-ttu-id="811de-103">Müşteri ödemelerini havale etme</span><span class="sxs-lookup"><span data-stu-id="811de-103">Deposit customer payments</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="aca3f-104">Müşteri ödemelerini havale edin.</span><span class="sxs-lookup"><span data-stu-id="aca3f-104">Deposit customer payments.</span></span> <span data-ttu-id="aca3f-105">Bu görevde USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="aca3f-105">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="811de-104">Müşteri ödemelerini havale edin.</span><span class="sxs-lookup"><span data-stu-id="811de-104">Deposit customer payments.</span></span> <span data-ttu-id="811de-105">Bu görevde USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="811de-105">This task uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="aca3f-106">Alacak hesapları > Ödemeler > Ödeme günlüğü'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="aca3f-106">Go to Accounts receivable > Payments > Payment journal.</span></span>
-2. <span data-ttu-id="aca3f-107">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="aca3f-107">Click New.</span></span>
-3. <span data-ttu-id="aca3f-108">Ad alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="aca3f-108">In the Name field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="aca3f-109">Ödeme günlüğünü seçin.</span><span class="sxs-lookup"><span data-stu-id="aca3f-109">Select the payment journal.</span></span> 
-5. <span data-ttu-id="aca3f-110">Satırlar seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="aca3f-110">Click Lines.</span></span>
-6. <span data-ttu-id="aca3f-111">Hesap alanında, bir ödemesini kaydettiğiniz Müşteriyi seçin.</span><span class="sxs-lookup"><span data-stu-id="aca3f-111">In the Account field, select the Customer for whom you are recording the payment.</span></span>
-7. <span data-ttu-id="aca3f-112">Alacak alanına, ödeme tutarını girin.</span><span class="sxs-lookup"><span data-stu-id="aca3f-112">In the Credit field, enter the amount of the payment.</span></span>
-    * <span data-ttu-id="aca3f-113">Tutarı boş bırakmayı ve ödenen faturaları seçerek hesaplamayı sistemin yapmasını tercih edebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="aca3f-113">You can choose to leave the amount blank, and have the system calculate it by selecting the invoices which were paid.</span></span>  
-8. <span data-ttu-id="aca3f-114">Ödeme referansı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="aca3f-114">In the Payment reference field, type a value.</span></span>
-    * <span data-ttu-id="aca3f-115">Ödeme referansı, girmekte olduğunuz ödemenin çek numarası olabilir.</span><span class="sxs-lookup"><span data-stu-id="aca3f-115">The payment reference could be the check number for the payment you are entering.</span></span> <span data-ttu-id="aca3f-116">Ödemenin havale makbuzuna eklenmesi için ödeme referansı gereklidir.</span><span class="sxs-lookup"><span data-stu-id="aca3f-116">The payment reference is required in order to include the payment on a deposit slip.</span></span>  
-9. <span data-ttu-id="aca3f-117">Depozito makbuzu kullan kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="aca3f-117">Mark the box Use a deposit slip.</span></span>
-    * <span data-ttu-id="aca3f-118">Ödeme depozitoya eklenecekse bu ayarı değiştirip Evet yapın.</span><span class="sxs-lookup"><span data-stu-id="aca3f-118">If the payment should be included in the deposit, change this setting to Yes.</span></span>  
-10. <span data-ttu-id="aca3f-119">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="aca3f-119">Click New.</span></span>
-11. <span data-ttu-id="aca3f-120">Hesap alanında, sonraki ödemenin Müşterisini seçin.</span><span class="sxs-lookup"><span data-stu-id="aca3f-120">In the Account field, select the Customer for the next payment.</span></span>
-12. <span data-ttu-id="aca3f-121">Alacak alanına, ödeme tutarını girin.</span><span class="sxs-lookup"><span data-stu-id="aca3f-121">In the Credit field, enter the payment amount.</span></span>
-13. <span data-ttu-id="aca3f-122">Ödeme referansı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="aca3f-122">In the Payment reference field, type a value.</span></span>
-14. <span data-ttu-id="aca3f-123">Depozito makbuzu kullan kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="aca3f-123">Mark the box Use a deposit slip.</span></span>
-15. <span data-ttu-id="aca3f-124">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="aca3f-124">Click Post.</span></span>
-    * <span data-ttu-id="aca3f-125">Havale makbuzu oluşturulabilmesi için ödemelerin deftere nakledilmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="aca3f-125">Payments must be posted before the deposit slip can be generated.</span></span> <span data-ttu-id="aca3f-126">Bu, havale makbuzu oluşturulduktan sonra ödemelerin değiştirilmediğinden emin olmak için yapılır.</span><span class="sxs-lookup"><span data-stu-id="aca3f-126">This is to ensure that the payments don't change after the deposit slip is generated.</span></span>  
-16. <span data-ttu-id="aca3f-127">İşlevler'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="aca3f-127">Click Functions.</span></span>
-17. <span data-ttu-id="aca3f-128">Havale makbuzu'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="aca3f-128">Click Deposit slip.</span></span>
-18. <span data-ttu-id="aca3f-129">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="aca3f-129">Click OK.</span></span>
-    * <span data-ttu-id="aca3f-130">Havale makbuzu oluşturmak için ilk sayfa kullanılır.</span><span class="sxs-lookup"><span data-stu-id="aca3f-130">The first page is used to create the deposit slip.</span></span>  
-19. <span data-ttu-id="aca3f-131">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="aca3f-131">Click OK.</span></span>
-    * <span data-ttu-id="aca3f-132">İkinci adım havale makbuzunu yazdırmaktır, ancak bu adım zorunlu değildir.</span><span class="sxs-lookup"><span data-stu-id="aca3f-132">The second step is to print the deposit slip, but this step is not required.</span></span>  
+1. <span data-ttu-id="811de-106">Alacak hesapları > Ödemeler > Ödeme günlüğü'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="811de-106">Go to Accounts receivable > Payments > Payment journal.</span></span>
+2. <span data-ttu-id="811de-107">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="811de-107">Click New.</span></span>
+3. <span data-ttu-id="811de-108">Ad alanında, açılır menü düğmesine tıklayarak aramayı açın.</span><span class="sxs-lookup"><span data-stu-id="811de-108">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="811de-109">Ödeme günlüğünü seçin.</span><span class="sxs-lookup"><span data-stu-id="811de-109">Select the payment journal.</span></span> 
+5. <span data-ttu-id="811de-110">Satırlar seçeneğini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="811de-110">Click Lines.</span></span>
+6. <span data-ttu-id="811de-111">Hesap alanında, bir ödemesini kaydettiğiniz Müşteriyi seçin.</span><span class="sxs-lookup"><span data-stu-id="811de-111">In the Account field, select the Customer for whom you are recording the payment.</span></span>
+7. <span data-ttu-id="811de-112">Alacak alanına, ödeme tutarını girin.</span><span class="sxs-lookup"><span data-stu-id="811de-112">In the Credit field, enter the amount of the payment.</span></span>
+    * <span data-ttu-id="811de-113">Tutarı boş bırakmayı ve ödenen faturaları seçerek hesaplamayı sistemin yapmasını tercih edebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="811de-113">You can choose to leave the amount blank, and have the system calculate it by selecting the invoices which were paid.</span></span>  
+8. <span data-ttu-id="811de-114">Ödeme referansı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="811de-114">In the Payment reference field, type a value.</span></span>
+    * <span data-ttu-id="811de-115">Ödeme referansı, girmekte olduğunuz ödemenin çek numarası olabilir.</span><span class="sxs-lookup"><span data-stu-id="811de-115">The payment reference could be the check number for the payment you are entering.</span></span> <span data-ttu-id="811de-116">Ödemenin havale makbuzuna eklenmesi için ödeme referansı gereklidir.</span><span class="sxs-lookup"><span data-stu-id="811de-116">The payment reference is required in order to include the payment on a deposit slip.</span></span>  
+9. <span data-ttu-id="811de-117">Depozito makbuzu kullan kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="811de-117">Mark the box Use a deposit slip.</span></span>
+    * <span data-ttu-id="811de-118">Ödeme depozitoya eklenecekse bu ayarı değiştirip Evet yapın.</span><span class="sxs-lookup"><span data-stu-id="811de-118">If the payment should be included in the deposit, change this setting to Yes.</span></span>  
+10. <span data-ttu-id="811de-119">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="811de-119">Click New.</span></span>
+11. <span data-ttu-id="811de-120">Hesap alanında, sonraki ödemenin Müşterisini seçin.</span><span class="sxs-lookup"><span data-stu-id="811de-120">In the Account field, select the Customer for the next payment.</span></span>
+12. <span data-ttu-id="811de-121">Alacak alanına, ödeme tutarını girin.</span><span class="sxs-lookup"><span data-stu-id="811de-121">In the Credit field, enter the payment amount.</span></span>
+13. <span data-ttu-id="811de-122">Ödeme referansı alanına bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="811de-122">In the Payment reference field, type a value.</span></span>
+14. <span data-ttu-id="811de-123">Depozito makbuzu kullan kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="811de-123">Mark the box Use a deposit slip.</span></span>
+15. <span data-ttu-id="811de-124">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="811de-124">Click Post.</span></span>
+    * <span data-ttu-id="811de-125">Havale makbuzu oluşturulabilmesi için ödemelerin deftere nakledilmesi gerekir.</span><span class="sxs-lookup"><span data-stu-id="811de-125">Payments must be posted before the deposit slip can be generated.</span></span> <span data-ttu-id="811de-126">Bu, havale makbuzu oluşturulduktan sonra ödemelerin değiştirilmediğinden emin olmak için yapılır.</span><span class="sxs-lookup"><span data-stu-id="811de-126">This is to ensure that the payments don't change after the deposit slip is generated.</span></span>  
+16. <span data-ttu-id="811de-127">İşlevler'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="811de-127">Click Functions.</span></span>
+17. <span data-ttu-id="811de-128">Havale makbuzu'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="811de-128">Click Deposit slip.</span></span>
+18. <span data-ttu-id="811de-129">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="811de-129">Click OK.</span></span>
+    * <span data-ttu-id="811de-130">Havale makbuzu oluşturmak için ilk sayfa kullanılır.</span><span class="sxs-lookup"><span data-stu-id="811de-130">The first page is used to create the deposit slip.</span></span>  
+19. <span data-ttu-id="811de-131">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="811de-131">Click OK.</span></span>
+    * <span data-ttu-id="811de-132">İkinci adım havale makbuzunu yazdırmaktır, ancak bu adım zorunlu değildir.</span><span class="sxs-lookup"><span data-stu-id="811de-132">The second step is to print the deposit slip, but this step is not required.</span></span>  
 
 

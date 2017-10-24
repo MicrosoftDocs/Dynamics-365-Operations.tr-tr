@@ -16,20 +16,20 @@ ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 69a449766f2e5d9a6833127fcd28a2959d4578fc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="change-the-date-for-the-session"></a><span data-ttu-id="83185-103">Oturumun tarihini değiştirme</span><span class="sxs-lookup"><span data-stu-id="83185-103">Change the date for the session</span></span>
+# <a name="change-the-date-for-the-session"></a><span data-ttu-id="0162e-103">Oturumun tarihini değiştirme</span><span class="sxs-lookup"><span data-stu-id="0162e-103">Change the date for the session</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="83185-104">Varsayılan olarak, günlük girişlerini veya kaynak belgelerini girerken ya da deftere naklederken geçerli tarih kullanılır.</span><span class="sxs-lookup"><span data-stu-id="83185-104">By default, the current date is used when entering and posting journal entries or source documents.</span></span> <span data-ttu-id="83185-105">Geçerli oturumunuzda kullanılan tarihi değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="83185-105">You can change the date that is used for your current session.</span></span> <span data-ttu-id="83185-106">Gerektiğinde günlük girişlerini veya kaynak belgelerini geri tarihli işlemek için bu özelliği kullanın.</span><span class="sxs-lookup"><span data-stu-id="83185-106">Use this feature to back-date journal entries or source documents, as necessary.</span></span>
+<span data-ttu-id="0162e-104">Varsayılan olarak, günlük girişlerini veya kaynak belgelerini girerken ya da deftere naklederken geçerli tarih kullanılır.</span><span class="sxs-lookup"><span data-stu-id="0162e-104">By default, the current date is used when entering and posting journal entries or source documents.</span></span> <span data-ttu-id="0162e-105">Geçerli oturumunuzda kullanılan tarihi değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0162e-105">You can change the date that is used for your current session.</span></span> <span data-ttu-id="0162e-106">Gerektiğinde günlük girişlerini veya kaynak belgelerini geri tarihli işlemek için bu özelliği kullanın.</span><span class="sxs-lookup"><span data-stu-id="0162e-106">Use this feature to back-date journal entries or source documents, as necessary.</span></span>
 
-1. <span data-ttu-id="83185-107">Ortak > Ortak > Oturum tarihi ve saati'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="83185-107">Go to Common > Common > Session date and time.</span></span>
-2. <span data-ttu-id="83185-108">Tarih alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="83185-108">In the Date field, enter a date.</span></span>
-3. <span data-ttu-id="83185-109">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="83185-109">Click OK.</span></span>
+1. <span data-ttu-id="0162e-107">Ortak > Ortak > Oturum tarihi ve saati'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="0162e-107">Go to Common > Common > Session date and time.</span></span>
+2. <span data-ttu-id="0162e-108">Tarih alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="0162e-108">In the Date field, enter a date.</span></span>
+3. <span data-ttu-id="0162e-109">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="0162e-109">Click OK.</span></span>
 
 

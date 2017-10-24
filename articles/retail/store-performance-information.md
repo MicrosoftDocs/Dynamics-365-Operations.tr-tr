@@ -18,34 +18,34 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 5cb5881cdb9c769bfc4272da85bc1c886a36705b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="analyze-store-performance"></a><span data-ttu-id="021af-103">Mağaza performansını analiz etme</span><span class="sxs-lookup"><span data-stu-id="021af-103">Analyze store performance</span></span>
+# <a name="analyze-store-performance"></a><span data-ttu-id="cf6eb-103">Mağaza performansını analiz etme</span><span class="sxs-lookup"><span data-stu-id="cf6eb-103">Analyze store performance</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-<span data-ttu-id="021af-104">Bu makale, bellek içi ve gerçek zamanlı analizleri Microsoft Dynamics 365 for Retail verilerinizi temel alan mağaza performansına erişmek, keşfetmek ve bunlar hakkında bilgi edinmek için nasıl kullanabileceğinizi açıklar.</span><span class="sxs-lookup"><span data-stu-id="021af-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about store performance, based on your Microsoft Dynamics 365 for Retail data.</span></span> 
+<span data-ttu-id="cf6eb-104">Bu makale, bellek içi ve gerçek zamanlı analizleri Microsoft Dynamics 365 for Retail verilerinizi temel alan mağaza performansına erişmek, keşfetmek ve bunlar hakkında bilgi edinmek için nasıl kullanabileceğinizi açıklar.</span><span class="sxs-lookup"><span data-stu-id="cf6eb-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about store performance, based on your Microsoft Dynamics 365 for Retail data.</span></span> 
 
-<span data-ttu-id="021af-105">Dynamics 365 for Retail'in bir parçası olarak, kullanıcılar mağaza performansını aşağıdaki konumlardan birinden yeni **Kanal özeti** raporunu açarak seçilen bir periyotta farklı kuruluş hiyerarşisi düzeylerinde gerçek zamanlı olarak inceleyebilir:</span><span class="sxs-lookup"><span data-stu-id="021af-105">As part of Dynamics 365 for Retail, users can study store performance in real time across different levels of the organization hierarchy over a selected period by opening the out-of-box **Channel summary** report from any of the following locations:</span></span>
+<span data-ttu-id="cf6eb-105">Dynamics 365 for Retail'in bir parçası olarak, kullanıcılar mağaza performansını aşağıdaki konumlardan birinden yeni **Kanal özeti** raporunu açarak seçilen bir periyotta farklı kuruluş hiyerarşisi düzeylerinde gerçek zamanlı olarak inceleyebilir:</span><span class="sxs-lookup"><span data-stu-id="cf6eb-105">As part of Dynamics 365 for Retail, users can study store performance in real time across different levels of the organization hierarchy over a selected period by opening the out-of-box **Channel summary** report from any of the following locations:</span></span>
 
--   <span data-ttu-id="021af-106">**Perakende mağaza yönetimi** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza yönetimi** &gt; **Raporlar** &gt; **Kanal özet raporu**</span><span class="sxs-lookup"><span data-stu-id="021af-106">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel summary report**</span></span>
--   <span data-ttu-id="021af-107">**Perakende mağaza mali bilgileri** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza mali bilgileri** &gt; **Raporlar** &gt; **Kanal özet raporu**</span><span class="sxs-lookup"><span data-stu-id="021af-107">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel summary report**</span></span>
--   <span data-ttu-id="021af-108">**Sorgular ve raporlar** bölümü &gt; **Perakende** &gt; **Sorgular ve raporlar** &gt; **Satış raporları** &gt; **Kanal özet raporu**</span><span class="sxs-lookup"><span data-stu-id="021af-108">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel summary report**</span></span>
+-   <span data-ttu-id="cf6eb-106">**Perakende mağaza yönetimi** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza yönetimi** &gt; **Raporlar** &gt; **Kanal özet raporu**</span><span class="sxs-lookup"><span data-stu-id="cf6eb-106">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel summary report**</span></span>
+-   <span data-ttu-id="cf6eb-107">**Perakende mağaza mali bilgileri** çalışma alanı &gt; **Perakende** &gt; **Kanallar** &gt; **Perakende mağaza mali bilgileri** &gt; **Raporlar** &gt; **Kanal özet raporu**</span><span class="sxs-lookup"><span data-stu-id="cf6eb-107">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel summary report**</span></span>
+-   <span data-ttu-id="cf6eb-108">**Sorgular ve raporlar** bölümü &gt; **Perakende** &gt; **Sorgular ve raporlar** &gt; **Satış raporları** &gt; **Kanal özet raporu**</span><span class="sxs-lookup"><span data-stu-id="cf6eb-108">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel summary report**</span></span>
 
-<span data-ttu-id="021af-109">Bu rapor aşağıdaki özetlerin anlık görüntüsünü mağaza performansının bir parçası olarak sunar:</span><span class="sxs-lookup"><span data-stu-id="021af-109">This report provides a snapshot of following summaries as part of store performance:</span></span>
+<span data-ttu-id="cf6eb-109">Bu rapor aşağıdaki özetlerin anlık görüntüsünü mağaza performansının bir parçası olarak sunar:</span><span class="sxs-lookup"><span data-stu-id="cf6eb-109">This report provides a snapshot of following summaries as part of store performance:</span></span>
 
--   <span data-ttu-id="021af-110">Brüt satış özeti</span><span class="sxs-lookup"><span data-stu-id="021af-110">Gross sales summary</span></span>
--   <span data-ttu-id="021af-111">Ödeme türü özeti</span><span class="sxs-lookup"><span data-stu-id="021af-111">Tender type summary</span></span>
--   <span data-ttu-id="021af-112">Vergi özeti</span><span class="sxs-lookup"><span data-stu-id="021af-112">Tax summary</span></span>
--   <span data-ttu-id="021af-113">Fiyat geçersiz kılma özeti</span><span class="sxs-lookup"><span data-stu-id="021af-113">Price overrides summary</span></span>
--   <span data-ttu-id="021af-114">İskonto özeti</span><span class="sxs-lookup"><span data-stu-id="021af-114">Discounts summary</span></span>
+-   <span data-ttu-id="cf6eb-110">Brüt satış özeti</span><span class="sxs-lookup"><span data-stu-id="cf6eb-110">Gross sales summary</span></span>
+-   <span data-ttu-id="cf6eb-111">Ödeme türü özeti</span><span class="sxs-lookup"><span data-stu-id="cf6eb-111">Tender type summary</span></span>
+-   <span data-ttu-id="cf6eb-112">Vergi özeti</span><span class="sxs-lookup"><span data-stu-id="cf6eb-112">Tax summary</span></span>
+-   <span data-ttu-id="cf6eb-113">Fiyat geçersiz kılma özeti</span><span class="sxs-lookup"><span data-stu-id="cf6eb-113">Price overrides summary</span></span>
+-   <span data-ttu-id="cf6eb-114">İskonto özeti</span><span class="sxs-lookup"><span data-stu-id="cf6eb-114">Discounts summary</span></span>
 
 
 
