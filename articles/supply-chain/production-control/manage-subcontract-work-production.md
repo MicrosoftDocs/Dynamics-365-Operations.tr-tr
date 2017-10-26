@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ebcae0e323203a98a9b8ed1113db945fceaaa4af
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: e1c29f597b190bd36b6fc64b16913ecdd02daf75
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -68,7 +68,7 @@ Bu yapılandırma kullanıldığında, ilgili hizmet ürünü için bir üretim 
 Bir üretim emrinin birçok işlemi olabilir ve her işlem farklı bir satıcıya tahsis edilebilir. Bu nedenle, uçtan uca üretim emri çok sayıda satınalma siparişini tetikleyebilir.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Üretim akışı etkinliklerinin alt sözleşmeyle verilmesi
-[Yalın imalat](lean-manufacturing-overview.md)çözümü, alt sözleşmeli işi bir [üretim akışı](/dynamics365/unified-operations/supply-chain/production-control/tasks/create-production-flow-version) (görev kılavuzu konusu) aktivitesiyle ilişkili bir hizmet olarak modeller. Bu nedenle, bu tür alt sözleşmeler [etkinlik tabanlı alt sözleşme](activity-based-subcontracting.md) olarak da bilinir. **Doğrudan dış kaynak kullanımı** olarak bilinen bir özel maliyet grup türü kullanılmaya başlamıştır ve alt sözleşme hizmetleri, mamul malın BOM'unun parçası değildir. Yalın imalat kullandığınızda, tüm etkinlikler bir ya da birçok üretim akış etkinliğiyle ilişkilendirilebilir kanbanlar ile tanımlanır. Şu ana kadar bu açıklama, üretim emirleri açıklamasına benzemektedir. Ancak üretim emirleri her zaman bir mamul mal ile sonlanmak zorundayken, bir yarı bitmiş ürün sağlamak için kanbanlar oluşturabilirsiniz. Yeni ürün ve ürün reçetesi düzeyi tanıtmak zorunda değilsiniz.  
+[Yalın imalat](lean-manufacturing-overview.md)çözümü, alt sözleşmeli işi bir [üretim akışı](tasks/create-production-flow-version.md) (görev kılavuzu konusu) aktivitesiyle ilişkili bir hizmet olarak modeller. Bu nedenle, bu tür alt sözleşmeler [etkinlik tabanlı alt sözleşme](activity-based-subcontracting.md) olarak da bilinir. **Doğrudan dış kaynak kullanımı** olarak bilinen bir özel maliyet grup türü kullanılmaya başlamıştır ve alt sözleşme hizmetleri, mamul malın BOM'unun parçası değildir. Yalın imalat kullandığınızda, tüm etkinlikler bir ya da birçok üretim akış etkinliğiyle ilişkilendirilebilir kanbanlar ile tanımlanır. Şu ana kadar bu açıklama, üretim emirleri açıklamasına benzemektedir. Ancak üretim emirleri her zaman bir mamul mal ile sonlanmak zorundayken, bir yarı bitmiş ürün sağlamak için kanbanlar oluşturabilirsiniz. Yeni ürün ve ürün reçetesi düzeyi tanıtmak zorunda değilsiniz.  
 
 Kanban kuralları çok dinamik olabileceğinden, bir üretim akışı üzerinde aynı ürün için farklı tedarik türevleri modelleyebilirsiniz. Yalın alt sözleşme kullandığınızda, üretim akışı ve finansal akış katı bir biçimde ayrılır. Tüm malzeme akışı kanban etkinlikleri ile temsil edilir. Hizmet ürünleri ve bu hizmetlerin alış irsaliyesi deftere nakilleri, üretim akışındaki kanban işlerinin durumuna dayalı olarak otomatikleştirilebilir. Kanban işleri satınalma siparişleri başlamadan hatta oluşturulmadan önce başlatılabilir.a Alt sözleşme belgeleri (satınalma emri ve hizmetin satınalma alış irsaliyesi) dönem ve hizmet ile toplanabilmektedir. Bu nedenle, satınalma belgeleri ve satırları küçük tutulabilir, satıcıların tek bir parça akışında alt sözleşmeli hizmetler sağladığı büyük ölçüde tekrar eden operasyonlarda bile.
 

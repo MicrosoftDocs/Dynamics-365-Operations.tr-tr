@@ -17,10 +17,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
-ms.openlocfilehash: 49f7a8f69729002812e78de757ae889266327ff4
+ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
+ms.openlocfilehash: e074426f4b863e692b91ce1ebf3b428435dadd94
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/02/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -47,38 +47,38 @@ ms.lasthandoff: 08/02/2017
 
 İnsan kaynakları ile çalışırken departman, iş ve pozisyon gibi öğeleri kullanarak kuruluşunuzun yapısını belirlersiniz. Bunlar, İnsan kaynaklarında yapılandıracağınız temel unsurlar arasındadır. Personel tek tek, işlerle ilişkilendirilmiş pozisyonlara atanır.
 
--   [Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme](/dynamics365/unified-operations/talent/departments-jobs-positions)
--   [Şirkete özgü İK parametrelerini ayarlama](/dynamics365/unified-operations/talent/set-up-company-specific-hr-parameters)
--   [Tüzel kişilikler arasında İK parametreleri ayarlama](/dynamics365/unified-operations/talent/set-up-hr-parameters-across-legal-entities) 
+-   [Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme](../../talent/departments-jobs-positions.md)
+-   [Şirkete özgü İK parametrelerini ayarlama](../../talent/set-up-company-specific-hr-parameters.md)
+-   [Tüzel kişilikler arasında İK parametreleri ayarlama](../../talent/set-up-hr-parameters-across-legal-entities.md) 
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Personeli işe alma, dönemsel işe alma ve motive etme
 
 İşe alma projeleri, açık pozisyonlar için duyurularında kullanılan içeriği yönetir ve açık pozisyonlar için başvuruları yönetmenize yardımcı olabilir. Belirli bir işe alma projesi için iş ilanlarına yanıtları veya belirli başvuranları izlemek ve açık pozisyonların durumunu güncelleştirmek için kullanabilirsiniz. Ayrıca tek başvuruları işe alabilir veya örneğin, mevsimlik iş gereksinimlerini karşılamak amacıyla çok sayıda çalışan işe almayı kolaylaştıran "toplu işe alma projelerini" de yönetebilirsiniz.
 
--   [İşe alma sürecini yönetme](/dynamics365/unified-operations/talent/manage-recruiting-process)
--   [Toplu işe alma projeleri](/dynamics365/unified-operations/talent/mass-hire-projects) 
+-   [İşe alma sürecini yönetme](manage-recruiting-process.md)
+-   [Toplu işe alma projeleri](mass-hire-projects.md) 
 
 Personeli işe aldıktan sonra ücret ile birlikte kuruluşunuzun çalışanlarınıza verdiği bilgisayarlar veya telefonlar gibi öğeleri de etkin ve adaletli bir şekilde yönetebilirsiniz. Sabit ve değişken ücret planları oluşturabileceğiniz gibi bu plan ölçütlerini karşılayan ücret planının uygulandığı kurallar da tanımlayabilirsiniz.
 
--   [Ücret planları](/dynamics365/unified-operations/talent/compensation-plans)
--   [Sabit ücret planları oluşturma](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
--   [Değişken ücret planları oluşturma](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+-   [Ücret planları](../../talent/compensation-plans.md)
+-   [Sabit ücret planları oluşturma](../../talent/create-fixed-compensation-plans.md)
+-   [Değişken ücret planları oluşturma](../../talent/create-variable-compensation-plans.md)
 
-## <a name="develop-and-train-employees"></a>Çalışanları geliştirme ve eğitme
+## <a name="develop-and-train-employees"></a>Personeli geliştirme ve eğitme
 
-Çalışanlarınızın kritik iş ihtiyaçlarını karşılarken kariyer hedeflerine ulaşmalarına yardımcı olmak için hedefler belirleyebilir, performans incelemeleri oluşturabilir ve geri bildirimleri izleyebilirsiniz. Çalışanların gerekli becerileri geliştirmelerine yardımcı olmak için bir derse eğitmen atamadan veya bir kişiyi bir kursa kaydetmeden önce eğitmenler, kurs türleri, kurslar, kurs tanımları, gündemler, izleme ve oturumlar ayarlayabilirsiniz. Eğitmenlerin zaten birer çalışan, başvuran veya ilgili kişi olarak bulunması gerekir.
+Personelinizin kritik iş ihtiyaçlarını karşılarken kariyer hedeflerine ulaşmalarına yardımcı olmak için hedefler belirleyebilir, performans incelemeleri oluşturabilir ve geri bildirimleri izleyebilirsiniz. Personelin gerekli becerileri geliştirmelerine yardımcı olmak için bir derse eğitmen atamadan veya bir kişiyi bir kursa kaydetmeden önce eğitmenler, kurs türleri, kurslar, kurs tanımları, gündemler, izleme ve oturumlar ayarlayabilirsiniz. Eğitmenlerin zaten birer çalışan, başvuran veya ilgili kişi olarak bulunması gerekir.
 
--   [Performans yönetimi](/dynamics365/unified-operations/talent/performance-management-overview)
--   [İş gücü becerilerini ve iş ihtiyaçlarını ayarlama](/dynamics365/unified-operations/talent/skills)
--   [Eğitimi kurslar aracılığıyla yönetme](/dynamics365/unified-operations/talent/courses)
+-   [Performans yönetimi](../../talent/performance-management-overview.md)
+-   [İş gücü becerilerini ve iş ihtiyaçlarını ayarlama](../../talent/skills.md)
+-   [Eğitimi kurslar aracılığıyla yönetme](../../talent/courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Kazançlar oluşturma ve koruma
 
-Personelinizi ücretler, maaşlar ve ikramiyeler ile dengelemenin yanı sıra sağlık sigortası ve emeklilik planları gibi kazanç programları da geliştirebilirsiniz. Ayrıca bilgisayarlar veya telefonlar gibi, şirketinizin çalışanlarına verdiği öğeler için ödünç alma programları gibi kazançları da yönetebilirsiniz.
+Personelinizi ücretler, maaşlar ve ikramiyeler ile dengelemenin yanı sıra sağlık sigortası ve emeklilik planları gibi kazanç programları da geliştirebilirsiniz. Ayrıca bilgisayarlar veya telefonlar gibi, şirketinizin personeline verdiği öğeler için ödünç alma programları gibi kazançları da yönetebilirsiniz.
 
--   [Kazanç programını yönetme](/dynamics365/unified-operations/talent/manage-benefit-program)
--   [Kazanca uygunluk ilkeleri](/dynamics365/unified-operations/talent/benefit-eligibility-policies)
--   [Çalışanlara ödünç verilen öğeleri yönetme](/dynamics365/unified-operations/talent/loan-items)
+-   [Kazanç programını yönetme](../../talent/manage-benefit-program.md)
+-   [Kazanca uygunluk ilkeleri](../../talent/benefit-eligibility-policies.md)
+-   [Çalışanlara ödünç verilen öğeleri yönetme](../../talent/loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Çalışma alanı güvenliğini ve uyumluluğu koruma
 
@@ -92,10 +92,10 @@ Microsoft Dynamics AX, diğerlerinin yanı sıra Engelli Amerikalılar Yasası i
 
 Çeşitli amaçlarla kullanılmak üzere bilgi toplamak için soru formları tasarlayabilir ve yönetebilirsiniz. Soru formu özelliği, soru formları tasarlamanıza ve oluşturmanıza olanak tanır. Bir soru formu hazır olduğunda, genel olarak veya belirli bir yanıtlayan grubunun doldurması için dağıtın. Yanıtlayanlar yanıtlarını verdikten sonra sonuçları gözden geçirebilir ve analiz edebilirsiniz.
 
--   [Soru formları](/dynamics365/unified-operations/talent/questionnaires)
--   [Soru formu tasarlama](/dynamics365/unified-operations/talent/design-questionnaires)
--   [Soru formunu dağıtma ve doldurma](/dynamics365/unified-operations/talent/distribute-questionnaires)
--   [Soru formunun sonuçlarını görüntüleme ve değerlendirme](/dynamics365/unified-operations/talent/evaluate-questionnaire-results)
+-   [Soru formları](../../talent/questionnaires.md)
+-   [Soru formu tasarlama](../../talent/design-questionnaires.md)
+-   [Soru formunu dağıtma ve doldurma](../../talent/distribute-questionnaires.md)
+-   [Soru formunun sonuçlarını görüntüleme ve değerlendirme](../../talent/evaluate-questionnaire-results.md)
 
 
 

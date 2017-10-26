@@ -16,13 +16,13 @@ ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
+ms.translationtype: HT
+ms.sourcegitcommit: 908f854e5ca50f4298110c08c87fefd9427b5cc9
+ms.openlocfilehash: 841c18630a59c3f5a7b51cd005962fa8a7f7163f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ Microsoft Dynamics 365 for Finance and Operations'ın karmaşık alanlarından b
 
 Tüm sayfaların alan açıklamaları yoktur. Kullanımı belirgin olan alanların değil, yalnızca daha karmaşık alanların açıklamalarını sağlamak istiyoruz. Bu nedenle, bazı sayfalarda alan açıklamaları bulunmaz, bazı sayfalarda birkaç açıklama vardır ve parametre sayfaların çoğunda olduğu gibi daha karmaşık sayfalarda birçok açıklama vardır. 
 
-Microsoft Dynamics 365 for Finance and Operations geliştirme ortamına erişiminiz varsa yeni alan açıklamalarınızı ekleyebilirsiniz ve mevcut açıklamaları özelleştirebilirsiniz. Örneğin, bir alan açıklamasına şirkete özgü bilgiler ekleyebilirsiniz. Daha fazla bilgi için, [Alanı özelleştirme yardımı](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help) sayfasına bakın.
+Microsoft Dynamics 365 for Finance and Operations geliştirme ortamına erişiminiz varsa yeni alan açıklamalarınızı ekleyebilirsiniz ve mevcut açıklamaları özelleştirebilirsiniz. Örneğin, bir alan açıklamasına şirkete özgü bilgiler ekleyebilirsiniz. Daha fazla bilgi için, [Alanı özelleştirme yardımı](../../dev-itpro/user-interface/customize-field-help.md) sayfasına bakın.
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Kullanıcı arabirimindeki alan açıklamalarına bakın
 Alanın üzerine getirerek alan açıklamaları görüntüleyebilirsiniz. Açıklama yoksa, üzerine getirdiğinizde alan adını görürsünüz. (Not: Dynamics AX 7.0 (Şuat 2016) sürümünde alan açıklamaları yalnızca **Alan açıklamaları** sayfasında görüntülenebilir.) Aşağıdaki şekilde, **Sayım sırasında madde kilitlemesi** alanına fare imlecini getirdiğiniz zaman görünen alan açıklaması gösterilmektedir. 
@@ -101,7 +101,7 @@ Sayfaları aramanın çeşitli yolları hakkında daha fazla bilgi için, bu mak
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Alanı özelleştirme yardımı](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
+[Alanı özelleştirme yardımı](../../dev-itpro/user-interface/customize-field-help.md)
 
 
 

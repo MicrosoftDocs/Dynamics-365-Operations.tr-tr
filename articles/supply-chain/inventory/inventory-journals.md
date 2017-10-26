@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: d549f38b9278eed222a1318c51962b248149c569
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6dfb82acb5dafd365d878949b35d4fe6ff58793d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -78,7 +78,7 @@ Madde varış günlüğünü, (örneğin, satınalma siparişlerindeki) maddeler
 
 ### <a name="counting"></a>Sayım
 
-Sayım günlükleri madde veya madde grupları için eldeki stok miktarını düzeltmenize yardımcı olur ve böylece farkları bağdaştırmak için gerekli ayarları yapıp gerçek fiziksel sayımları deftere nakletmenizi sağlar. Sayım ilkelerini çeşitli özelliklere sahip öğeleri gruplamak amacıyla sayım grupları ile ilişkilendirebilirsiniz ve böylece bu maddeler de sayım günlüğüne dahil edilirler. Örneğin, sayım gruplarını belirli bir sıklığa sahip maddelerin sayımına ya da stok belirli bir düzeye düştüğünde maddelerin sayımını gerçekleştirecek şekilde ayarlayabilirsiniz. Sayım grupları tanımlama hakkında bilgi için bkz. [Stok sayım işlemlerini tanımlama (Görev kılavuzu)](/dynamics365/unified-operations/supply-chain/inventory/tasks/define-inventory-counting-processes).
+Sayım günlükleri madde veya madde grupları için eldeki stok miktarını düzeltmenize yardımcı olur ve böylece farkları bağdaştırmak için gerekli ayarları yapıp gerçek fiziksel sayımları deftere nakletmenizi sağlar. Sayım ilkelerini çeşitli özelliklere sahip öğeleri gruplamak amacıyla sayım grupları ile ilişkilendirebilirsiniz ve böylece bu maddeler de sayım günlüğüne dahil edilirler. Örneğin, sayım gruplarını belirli bir sıklığa sahip maddelerin sayımına ya da stok belirli bir düzeye düştüğünde maddelerin sayımını gerçekleştirecek şekilde ayarlayabilirsiniz. Sayım grupları tanımlama hakkında bilgi için bkz. [Stok sayım işlemlerini tanımlama (Görev kılavuzu)](tasks/define-inventory-counting-processes.md).
 
 ### <a name="tag-counting"></a>Etiket sayımı
 

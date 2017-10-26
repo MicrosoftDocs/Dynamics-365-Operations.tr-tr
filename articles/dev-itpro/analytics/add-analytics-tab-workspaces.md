@@ -13,14 +13,14 @@ ms.reviewer: robinr
 ms.search.scope: Operations, Platform, UnifiedOperations
 ms.search.region: Global
 ms.author: tjvass
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.intro: Platform update 8
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: e819aafbdf55fbc2a6dc996d275244de1e11d89b
+ms.sourcegitcommit: fc8102d945faf9ad533f57ec1a45b0e0dc344963
+ms.openlocfilehash: d36abbf7c08c56d84ed83dbec1bfa33f30b47ef5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -47,10 +47,10 @@ Mevcut bir uygulama çalışma alanını genişlettiğinizde veya kendinize ait 
 4. İsteğe bağlı: Görünümü özelleştirmek için uzantılar ekleyin.
 
 > [!NOTE]
-> Analitik raporlar oluşturmak hakkında daha fazla bilgi için bkz. [Power BI Masaüstü ile çalışmaya başlamak](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/). Bu sayfa, ilgi çekici analitik raporlama çözümleri oluşturmanıza yardımcı olacak harika bir bilgi kaynağıdır.
+> Analitik raporlar oluşturmak hakkında daha fazla bilgi için bkz. [Power BI Masaüstü ile çalışmaya başlamak](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Bu sayfa, ilgi çekici analitik raporlama çözümleri oluşturmanıza yardımcı olacak harika bir bilgi kaynağıdır.
 
 # <a name="add-a-pbix-file-as-a-resource"></a>Bir .pbix dosyasını bir kaynak olarak ekleyin.
-Başlamadan önce, çalışma alanına katıştıracağınız Power BI raporunu oluşturun veya alın. Analitik raporlar oluşturmak hakkında daha fazla bilgi için bkz. [Power BI Masaüstü ile çalışmaya başlamak](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/).
+Başlamadan önce, çalışma alanına katıştıracağınız Power BI raporunu oluşturun veya alın. Analitik raporlar oluşturmak hakkında daha fazla bilgi için bkz. [Power BI Masaüstü ile çalışmaya başlamak](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
  
 Bir .pbix doyasını bir Visual Studio yapıtı olarak eklemek için şu adımları izleyin.
 

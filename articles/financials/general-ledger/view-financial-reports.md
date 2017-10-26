@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 102031174417a33b12c32f6b8185556b8c4701e5
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: b22c38ef6edf203d26e4de3a96305a448128a798
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -88,7 +87,7 @@ Bir mali raporu dışa aktarmak için Eylem Panosundan **Dışa aktar** düğmes
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Microsoft Dynamics AX için finansal raporlama](/dynamics365/unified-operations/dev-itpro/analytics/financial-reporting-intro)
+[Microsoft Dynamics AX için finansal raporlama](../../dev-itpro/analytics/financial-reporting-intro.md)
 
 
 

@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7d00aaa272de32d4ef2082bf1822125800ca8a1e
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: a59a382f90cb34c9479d64931790137f00040c6b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -64,9 +64,9 @@ Aşağıdaki örnekte, bir satınalma siparişi sevk irsaliyesi deftere nakledil
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Stok durdurma oluştur ve sürdür (Görev kılavuzu)](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-maintain-inventory-blocking)
+[Bir stok durdurma oluşturma ve yönetme (Görev kılavuzu)](tasks/create-maintain-inventory-blocking.md
 
 [Kalite yönetimi işlemleri](quality-management-processes.md)
 
-[Malların kalitesini denetle (Görev kılavuzu)](/dynamics365/unified-operations/supply-chain/inventory/tasks/inspect-quality-goods)
+[Malların kalitesini denetleme (Görev kılavuzu)](tasks/inspect-quality-goods.md)
 

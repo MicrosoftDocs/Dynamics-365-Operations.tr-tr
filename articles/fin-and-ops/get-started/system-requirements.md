@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 46eacb2a01c3bfcc7144c7d8c39ee0189fd72e16
+ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
+ms.openlocfilehash: 7fe11966b27eb0793a47835e05e465d809bf3407
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +42,7 @@ Web uygulamasını belirtilen işletim sistemleri üzerinde çalışan aşağıd
 Her web tarayıcısı için en son sürümü bulmak için, yazılım üreticisinin web sitesine gidin. 
 
 > [!NOTE]
-> -   Görev Kaydedici'yi ekran görüntüleri yakalamak ve bunları oluşturulan Microsoft Word belgelerine dahile etmek için bir önceden yayınlanmış Chrome eklentisinin etkinleştirilmesi gerekir. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder).-->
+> -   Görev Kaydedici'yi ekran görüntüleri yakalamak ve bunları oluşturulan Microsoft Word belgelerine dahile etmek için bir önceden yayınlanmış Chrome eklentisinin etkinleştirilmesi gerekir. <!---For instructions about how to install the extension, see [Screenshot Extension setup](../../dev-itpro/user-interface/task-recorder).-->
 > -   İş Akışı Düzenleyicisi bir ClickOnce uygulaması olarak başlatılır. ClickOnce uygulamalarını yalnızca Microsoft Edge ve Internet Explorer (Microsoft Windows'un desteklenen bir sürümünde) destekler. İş Akışı Düzenleyicisi ClickOnce uygulaması için 64-bit uyumlu bir işletim sistemi gereklidir.
 > -   Finansal raporlama için Rapor Tasarımcısı bir ClickOnce uygulaması olarak başlatılır. 64-bit uyumlu bir işletim sistemi gerektirir. Chrome kullanıyorsanız, Rapor Tasarımcısı istemcisini indirebilmek için ClickOnce eklentisini yüklemeniz gerekir. Chrome'u gizli modda kullanıyorsnız, ClickOnce eklentisinin gizli mod için de etkinleştirildiğinden emin olun.
 > -   PDF dosyalarının önizlemesini yapmak için (en son sürüm genel kullanıma açık) Windows 10 üzerinde, Microsoft Edge veya (en son sürüm genel kullanıma açık) Windows 10, Windows 8.1, Windows 8, Windows 7 veya Google Nexus 10 tablet üzerinde Google Chrome gibi tarayıcıları kullanmanızı öneririz.
@@ -70,7 +70,7 @@ Finance and Operations, belge yönlendirme aracısı gibi ClickOnce uygulamalar�
 ## <a name="supported-microsoft-office-applications"></a>Desteklenen Microsoft Office uygulamaları
 Aşağıdaki Microsoft Office uygulamaları Finance and Operations şirket içi dağıtımlarında bulutta desteklenir.
 
--   Microsoft Excel ve Word eklentilerini çalıştırmak için Windows veya Mac için Microsoft Office 2016'yı yüklemiş olmanız gerekir. Sürüm gereksinimleri hakkında daha fazla bilgi için bkz. [Office tümleştirme sorunlarını giderme](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting).
+-   Microsoft Excel ve Word eklentilerini çalıştırmak için Windows veya Mac için Microsoft Office 2016'yı yüklemiş olmanız gerekir. Sürüm gereksinimleri hakkında daha fazla bilgi için bkz. [Office tümleştirme sorunlarını giderme](../../dev-itpro/office-integration/office-integration-troubleshooting.md).
 -   Excel'e Aktar veya Word'e Aktar işleviyle oluşturulan belgeleri görüntülemek için Microsoft Office 2007 veya sonraki bir sürümü yüklemiş olmanız gerekir.
 
 ## <a name="retail-modern-pos-requirements"></a>Retail Modern POS gereksinimleri
@@ -153,10 +153,10 @@ Aşağıdaki öğelerin yüklenip kullanılabilmesi için bilgisayarın tüm sis
 -   En az 10 GB boş alan (kanal veritabanı için büyük bir boş alan gerekebilir.)
 
 ## <a name="requirements-for-development-on-local-vms"></a>Yerel VM'ler üzerinde geliştirme için gereksinimler
-Yerel sanal makinelerde (VM) geliştirme için gereksinimler hakkında bilgi için bkz. [yerinde çalışan VM](../dev-tools/access-instances.md).
+Yerel sanal makinelerde (VM) geliştirme için gereksinimler hakkında bilgi için bkz. [yerinde çalışan VM](../../dev-itpro/dev-tools/access-instances.md).
 
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
-[Dynamics 365 for Finance and Operations, Enterprise Edition'ın değerlendirme kopyasını edinin](/dynamics365/unified-operations/dev-itpro/dev-tools/get-evaluation-copy)
+[Dynamics 365 for Finance and Operations, Enterprise Edition'ın değerlendirme kopyasını edinin](../../dev-itpro/dev-tools/get-evaluation-copy.md)
 
