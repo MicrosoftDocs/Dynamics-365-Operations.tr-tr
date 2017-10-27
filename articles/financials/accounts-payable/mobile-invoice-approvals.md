@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
-ms.openlocfilehash: 108a4f4ce366d2efd66fc1ed27ffb6b23ff0e933
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 661c5a14d27f3ad9df6088c2977c507ca315a998
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/10/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içindeki 
 
 | Önkoşul                                                                                            | Açıklama                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mobil el kitabı ön okuma                                                                                |[Mobil platform](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)                                                                                                  |
+| Mobil el kitabı ön okuma                                                                                |[Mobil platform](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 for Finance and Operations                                                                             | Microsoft Dynamics 365 for Operations sürüm 1611 ve Microsoft Dynamics for Operations platform güncelleştirmesi 3 (Kasım 2016) güncelleştirmelerine sahip bir ortam                   |
 | KB 3204341 numaralı düzeltmeyi yükleyin.                                                                              | Görev kaydedici Dynamics 365 for Operation platform güncelleştirmesi 3'te (Kasım 2016 güncellemesi) bulunan açılır iletişim kutusu için yanlışlıkla iki Kapat komutu kaydedebilir. |
 | KB 3207800 numaralı düzeltmeyi yükleyin.                                                                              | Bu düzeltme eklerin Dynamics 365 for Operation platform güncelleştirmesi 3'te (güncelleştirme Kasım 2016) bulunan mobil istemci üzerinde görüntülenmesini sağlar.           |

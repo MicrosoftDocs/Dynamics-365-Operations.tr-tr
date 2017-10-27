@@ -19,10 +19,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
-ms.openlocfilehash: 157cb807a5a5e61b022b3186dfbe67b95c2408ec
+ms.sourcegitcommit: fc8102d945faf9ad533f57ec1a45b0e0dc344963
+ms.openlocfilehash: c5942ecb80047628c863deb878c0959727ab57bb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/01/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -57,7 +57,7 @@ Ağ gereksinimleri
 
 ## <a name="supported-microsoft-office-applications"></a>Desteklenen Microsoft Office uygulamaları
 
-*   Microsoft Excel ve Word eklentilerini çalıştırmak için Windows veya Mac için Microsoft Office 2016'yı yüklemiş olmanız gerekir. Sürüm gereksinimleri hakkında ayrıntılar için bkz. [Office tümleştirme sorun giderme] (https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting "Office integration troubleshooting").
+*   Microsoft Excel ve Word eklentilerini çalıştırmak için Windows veya Mac için Microsoft Office 2016'yı yüklemiş olmanız gerekir. Sürüm gereksinimleri hakkında ayrıntılar için bkz. [Office tümleştirme sorun giderme] (../dev-itpro/office-integration/office-integration-troubleshooting.md "Office integration troubleshooting").
 *   Excel'e Aktar veya Word'e Aktar işleviyle oluşturulan belgeleri görüntülemek için Microsoft Office 2007 veya sonraki bir sürümü yüklemiş olmanız gerekir.
 
 ## <a name="update-policy"></a>Güncelleştirme ilkesi

@@ -15,18 +15,18 @@ ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
 ms.author: chwolf
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 4a1cab8c126ad063a52827421d2ea1104d0c7287
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: 5be9b195754d6c8315342c83451128092f64a241
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>Şirket içi ortamlar için donanım boyutlandırma
-Şirket içi ortam için donanım ve altyapı boyutlandırmaya başlamadan önce, [Sistem gereksinimleri](../get-started/system-requirements.md) ve [Kurulum ve dağıtım yönergeleri](../deployment/setup-deploy-on-premises-environments.md) belgelerini okuyun ve altyapı hakkında derinlikli bilgi sahibi olun. 
+Şirket içi ortam için donanım ve altyapı boyutlandırmaya başlamadan önce, [Sistem gereksinimleri](system-requirements.md) ve [Kurulum ve dağıtım yönergeleri](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) belgelerini okuyun ve altyapı hakkında derinlikli bilgi sahibi olun. 
 
   **Not:** Optimum performans için sistem en iyi uygulamalarına dikkat edin. 
 
@@ -89,7 +89,7 @@ Boyutlandırma gereksinimlerinizi anlamak için işlemeniz gereken hareketlerin 
 SQL Server'ı her zaman bir küme veya yansıtma kurulumunda kullanmanızı öneririz. İkinci SQL düğümü, birincil düğüm ile aynı sayıda çekirdeğe sahip olmalıdır. 
 
 ### <a name="active-directory-federation-services-ad-fs"></a>Active Directory Federasyon Hizmetleri (AD FS)
-AD FS boyutlandırma için bkz [AD FS Sunucu Kapasite belgeleri](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
+AD FS boyutlandırma için bkz [AD FS Sunucu Kapasite belgeleri](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
 
 Bir [boyutlandırma elektronik tablosu](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) dağıtımınızdaki örneklerin sayısını planlamak için kullanılabilir.
 

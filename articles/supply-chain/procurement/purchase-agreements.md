@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: e7412eb1be4b1f5431fc0dd07aa2f778f461a74b
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 029f70a995bed25b991d374608d782768b20988c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -95,9 +95,9 @@ Finansal boyutları belge başlıklarına ve satınalma sözleşmelerinin tekil 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Satınalma sözleşmesi oluşturma (Görev kılavuzu)](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-agreement)
+[Satınalma sözleşmesi oluşturma (Görev kılavuzu)](tasks/create-purchase-agreement.md)
 
-[Satınalma sözleşmesinden satınalma sevk emri oluşturma (Görev kılavuzu)](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-purchase-release-order-purchase-agreement)
+[Satınalma sözleşmesinden satınalma sevk emri oluşturma (Görev kılavuzu)](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 

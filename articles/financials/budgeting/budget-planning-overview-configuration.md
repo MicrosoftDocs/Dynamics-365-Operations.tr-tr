@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 64d915a5e039ba242f6d5ae5f43c8e09d6ca282e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -78,7 +77,7 @@ Aşağıdaki örnekte, şirket genel merkezleri, başlangıç bütçe temel tuta
 
 **Organizasyon hiyerarşisi** sayfasında, bir organizasyon hiyerarşisini her bir bütçe planlama süreci için bir bütçe planlama hiyerarşisi olarak belirleyebilirsiniz. Bütçe planlama hiyerarşisi, başka amaçlar için kullanılan standart organizasyon hiyerarşisiyle eşleşmek zorunda değildir. Bu hiyerarşi, verilerin toplanması ve dağıtılması için kullanıldığından, farklı bir yapıya sahip olmasını isteyebilirsiniz. Bu örnek şemada, satış departmanları bütçe ve finans departmanlarını içeren bir genel merkez düzeyi altındadır. Bu yapı, satış departmanlarına yönelik işlemlerin yönetilmesi için kullanılan yapı büyük olasılıkla farklı olacaktır. Her bir bütçe planlama sürecine sadece tek bir organizasyon hiyerarşisi atanabilir. 
 
-Daha fazla bilgi için, bkz. [Organizasyonlar ve organizasyon hiyerarşileri](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies).
+Daha fazla bilgi için, bkz. [Organizasyonlar ve organizasyon hiyerarşileri](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Kullanıcı güvenliği
 

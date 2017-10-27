@@ -18,11 +18,11 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 007a7e8a34f3f5a2d0d18eb3955822a8fd8bdd0a
+ms.translationtype: HT
+ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
+ms.openlocfilehash: 9a1e3f08eeda93adeac4509edad244754770db65
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -126,7 +126,7 @@ Bir ek açıklama, kayıt içerisinde bir adıma eklediğiniz ek metindir. Örne
 **Notlar** alanına girdiğiniz metinler, Görev kılavuzunda adımın *altında* görüntülenir. Not metnini okumak için kullanıcının adım metnini açılan pencerede genişletmesi gerekir. Bu konum, ek okuma materyalleri ve kullanıcıya yarar sağlayabilecek ancak kullanıcının eylemi tamamlaması için zorunlu olmayan diğer bilgiler için uygundur.
 
 ## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Retail Modern POS ve Bulut POS'da yardım
-Görev kayıtlarınızın Perakende Modern POS ve Bulut POS için metin olarak görüntülenebilmesi için onları Yardım bölmesinde göstermek için, görev kayıtlarınızı kendi BPM kitaplığınıza kaydetmelisiniz ve sonra Yardım sistemi parametrelerinizi BPM kitaplığınıza işaret edecek şekilde güncelleştirmelisiniz. Daha fazla bilgi için bkz. [Yardım sistemine bağlanma](/dynamics365/unified-operations/dev-itpro/get-started/help-connect) Perakende Modern POS ve Bulut POS Yardımı, LCS'yi gerçek zamanlı olarak arar. Microsoft Dynamics 365 for Retail Yardım sistemi parametrelerinde seçili olan tüm BPM kütüphaneleri arasında arar ve ilgili sonuçları gösterir. **Yardım** menüsüne erişmek için ekranın üzerinde bulunan **Yardım** düğmesine (soru işareti) tıklayın ve daha sonra arama kutusu içerisinde işlem adınızı yazın ve ara düğmesine tıklayın. 
+Görev kayıtlarınızın Perakende Modern POS ve Bulut POS için metin olarak görüntülenebilmesi için onları Yardım bölmesinde göstermek için, görev kayıtlarınızı kendi BPM kitaplığınıza kaydetmelisiniz ve sonra Yardım sistemi parametrelerinizi BPM kitaplığınıza işaret edecek şekilde güncelleştirmelisiniz. Daha fazla bilgi için bkz. [Yardım sistemine bağlanma](../fin-and-ops/get-started/help-connect.md) Perakende Modern POS ve Bulut POS Yardımı, LCS'yi gerçek zamanlı olarak arar. Microsoft Dynamics 365 for Retail Yardım sistemi parametrelerinde seçili olan tüm BPM kütüphaneleri arasında arar ve ilgili sonuçları gösterir. **Yardım** menüsüne erişmek için ekranın üzerinde bulunan **Yardım** düğmesine (soru işareti) tıklayın ve daha sonra arama kutusu içerisinde işlem adınızı yazın ve ara düğmesine tıklayın. 
 
 [![Yardım düğmesi](./media/help.jpg)](./media/help.jpg) 
 

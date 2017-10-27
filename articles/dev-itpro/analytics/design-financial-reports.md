@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 0dc453ab56a2d381afa6e22d847f0b1eb7a16e7e
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: d1fbcefd80f1c48fafbbcb6315406856eaae68a0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -50,7 +49,7 @@ Bu alıştırma için mevcut bir varsayılan raporu oluşturacak ve keşfedeceks
 4.  Genel muhasebede **Sorgular ve raporlar** altındaki **Mali raporlar** öğesine gelin.
 5.  **GM Ayrıntısı – Varsayılan** adlı rapor satırını seçin.
 6.  **Düzenle** öğesini seçin. Not: Tek tıklamayla rapor tasarımcısını indirmeniz ve oturum açmanız istenecektir. Oturum açmak için bilgilerinizi girin.
-7.  Taban yılı 2012 olarak değiştirin ve **Oluştur** öğesini seçin. Rapor tasarımcısından bir rapor oluşturulduğunda yeni bir tarayıcı sekmesinde açılır. Raporu yeni tarayıcı sekmesinde inceleyebilir veya orijinal tarayıcı sekmesine gidebilir ve raporu **Mali raporlar** listesinden seçerek burada açabilirsiniz.
+7.  Taban yılı 2012 olarak değiştirin ve **Oluştur** öğesini seçin. Bir rapor, rapor tasarımcısından oluşturulduktan sonra, yeni bir tarayıcı sekmesinde açılacaktır. Raporu yeni bir tarayıcıs sekmesine keşfedebilir veya ilk tarayıcı sekmenize gidebilir ve rapor buradan, **Mali raporlar** listesini seçerek açabilirsiniz.
 8.  Açılan raporda, raporun hesap bilgilerini ayrıntılı şekilde incelemek için tutarlardan birini seçin.
 9.  Hesap bilgilerine geldikten sonra verileri içeren bir hesap seçin **rapor hareket düzeyini** ayrıntılı şekilde inceleyin. Rapor hareket düzeyinde bu raporun tasarımına dahil edilen özellikleri (öznitelikleri) görebilirsiniz. Harekete ve hesaba bağlı olarak, özniteliklerden bazıları veya tümü görüntülenebilir.
 10. Rapor hareket düzeyini kapatın.
@@ -183,8 +182,8 @@ Bu alıştırmada yeni bir rapor oluşturacaksınız. Bu rapor, yan yana bir dep
 18. Değişikliklerinizi **Kaydedin** ve **Oluştur** öğesini seçin. Raporun oluşturulması tamamlandıktan ve rapor açıldıktan sonra raporu inceleyebilirsiniz.
 
 ## <a name="additional-resources"></a>Ek kaynaklar
-[Mali raporlama](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
-[Mali raporları görüntüle](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
+[Mali raporlama](../../financials/general-ledger/financial-reporting-getting-started.md) 
+[Mali raporları görüntüle](../../financials/general-ledger/view-financial-reports.md) 
 [Dynamics Mali Raporlama Blogu](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
