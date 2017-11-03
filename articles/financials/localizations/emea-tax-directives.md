@@ -10,16 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Latvia, Lithuania, Netherlands, Norway, Poland, Spain, Sweden, Switzerland, Turkey, United Kingdom
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 004a1c240bdf4d8bfb46d39fdc6090a17ba882d9
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 6dc7cff49f98baead4d67aa2b629b214c4b4d8de
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
