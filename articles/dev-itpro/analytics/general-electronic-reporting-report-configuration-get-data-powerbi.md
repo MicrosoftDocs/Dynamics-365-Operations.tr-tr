@@ -1,7 +1,7 @@
 ---
 title: "Power BI'a veri çekmek için Elektronik raporlamayı yapılandır"
 description: "Bu konu, verilerinizi Finance and Operations kurulumunuzdan Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı nasıl kullanacağınızı açıklar. Örnek olarak, bu konu Intrastat hareketlerini aktarılması gereken iş verileri olarak kullanır. Power BI harita görselleştirmesi, bu Intrastat hareket verilerini şirketin içe aktarma/dışa aktarma etkinliklerinin Power BI raporundaki analizinin bir görünümünü sunmak için kullanır."
-author: kfend
+author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
