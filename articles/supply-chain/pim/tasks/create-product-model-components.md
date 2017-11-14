@@ -1,7 +1,7 @@
 --- 
 title: "Ürün model bileşenleri oluşturma"
 description: "Kısıtlama tabanlı ürün yapılandırması modelleri, ürün modeli yapısı oluşturmak için temel olarak bileşenleri kullanır."
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 03/02/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
