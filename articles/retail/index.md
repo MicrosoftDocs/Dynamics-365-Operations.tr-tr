@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: b53f95a55e66f7df4f7b3b85dd0dee2047019439
-ms.openlocfilehash: f0f601b2cf66daf0d7d3175bc78938e13aa6cd19
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 35b574e24e721e80ca1469878697aba4c1699dff
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 Microsoft Dynamics 365 for Retail, tüm kanallarda birleştirilmiş ticaret olanağı sunan uçtan uca bir perakende çözümüdür. Perakendeciler ve çalışanların bulut öncelikli, mobil öncelikli bir tarzda daha fazlasını başarmalarına yardımcı olmak için satış, hareketlilik, karar destek ve üretkenliği kapsar. Retail, alım satım, stok gibi geniş bir işletme süreçleri ve kanal yönetim yetenekleri yelpazesini yürütmek için kapsamlı destek sunar. Ayrıca tüm temas noktalarında kapsayıcı müşteri deneyimleri sağlar.
 
 > [!NOTE] 
-> Dynamics 365 for Retail; Dynamics 365 for Finance and Operations, Enterprise sürümü ve Dynamics 365 for Talent ile yakından ilgilidir. Aynı işlev her üç üründe de görülebilir. Bu nedenle birincil olarak Retail ile ilgili konularda ürün adı Microsoft Dynamics 365 for Retail; birincil olarak temel ürün (Finance and Operations) ile ilgili olan konularda ürün adı Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü ve birincil olarak insan kaynakları ile ilgili konularda ürün adı Dynamics 365 for Talent olacaktır. 
+> Dynamics 365 for Retail; Dynamics 365 for Finance and Operations, Enterprise edition ve Dynamics 365 for Talent ile yakından ilgilidir. Aynı işlev her üç üründe de görülebilir. Bu nedenle birincil olarak Retail ile ilgili konularda ürün adı Microsoft Dynamics 365 for Retail; birincil olarak temel ürün (Finance and Operations) ile ilgili olan konularda ürün adı Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ve birincil olarak insan kaynakları ile ilgili konularda ürün adı Dynamics 365 for Talent olacaktır. 
 
 Soldaki bölmede, bir özellik alanı seçerek özellik hakkında daha fazla bilgi edinebilirsiniz.
 

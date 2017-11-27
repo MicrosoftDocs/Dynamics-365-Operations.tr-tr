@@ -1,16 +1,16 @@
 ---
 title: "Tedarik zinciri yönetimi giriş sayfası"
-description: "Bu sayfa sizi Microsoft Dynamics 365 for Finance and Operations - Tedarik Zinciri yönetimini daha verimli bir şekilde kullanmanıza yardımcı olacak kaynaklara yönlendirir."
+description: "Bu konu, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'ın tedarik zinciri yönetim özellikleri için yardım konularının ve diğer kaynakların bir listesini sağlar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 07/20/2017
+ms.date: 11/02/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: 6cef449562ba75b03b10b4fe27a436ecff3a6691
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0ca879fc4b0a43cd3af1e45c78a48f1c942a9a6a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](includes/banner.md)]
 
-Bu sayfa sizi Microsoft Dynamics 365 for Finance and Operations - Tedarik Zinciri yönetimini daha verimli bir şekilde kullanmanıza yardımcı olacak kaynaklara yönlendirir. 
+Bu konu, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'ın tedarik zinciri yönetim özellikleri için yardım konularının ve diğer kaynakların bir listesini sağlar. 
 
 ## <a name="whats-new-and-in-development"></a>Geliştirmedeki yenilikler
 Yayımlanan ve geliştirilmekte olan yeni özellikleri görmek için <a href="https://roadmap.dynamics.com/">Dynamics 365 Yol Haritası</a> bölümüne gidin. 
@@ -41,7 +41,7 @@ Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
 
 - [Maliyet muhasebesi](../financials/cost-accounting/cost-accounting-home-page.md)
 - [Maliyet yönetimi](cost-management/costing-sheets.md)  
-- [Stok yönetimi](inventory/consignment.md)
+- [Stok yönetimi](inventory/inventory-home-page.md)
 - [Master planlama](master-planning/introduction-demand-forecasting.md)
 - [Tedarik ve kaynak atama](procurement/procurement-sourcing-overview.md)
 - [Ürün bilgileri yönetimi](pim/product-information.md)
@@ -54,7 +54,7 @@ Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
 
 ### <a name="get-started"></a>Başlayın  
 
-Bu kısa videolar, Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümündeki (Temmuz 2017) yeni özellikleri kullanmaya başlamanıza yardımcı olur.
+Bu kısa videolar, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'daki (Temmuz 2017) yeni özellikleri kullanmaya başlamanıza yardımcı olur.
 
 -  [Maliyet muhasebesine giriş](https://youtu.be/1pUDtJQZ8FU)
 -  [Maliyet kontrolü mobil çalışma alanı](https://youtu.be/imsuTg8rUVk)
@@ -84,7 +84,7 @@ Bu kayıtların büyük bölümünde Finance and Operations'ın önceki sürüm�
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Maliyet muhasebesi uygulamalı laboratuvarları</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Yalın imalat: Teslim edilebilir miktar ve Kanban işi planlaması</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Maliyetlendirme tablosu kullanarak ürün reçetesi hesaplama</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü ile kolaylaştırılan Ambar mobilitesi</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ile kolaylaştırılan Ambar mobilitesi</a>
 
 ## <a name="elearning-courses"></a>e-Öğrenme kursları
 Microsoft Dynamics 365 for Finance and Operations eğitimi hakkında daha fazla bilgi için bkz. <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics Öğrenme Portalı</a>. (CustomerSource hesabı gerektirir) 

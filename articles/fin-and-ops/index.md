@@ -1,9 +1,9 @@
 ---
-title: "Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü Belgeleri"
-description: "Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü belgeleri."
+title: Microsoft Dynamics 365 for Finance and Operations, Enterprise edition Belgeleri
+description: Microsoft Dynamics 365 for Finance and Operations, Enterprise edition belgeleri.
 author: margoc
 manager: AnnBe
-ms.date: 09/29/2017
+ms.date: 11/13/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb040b28078e5072fdb695e7b39e82557219addc
-ms.openlocfilehash: ca1658a9dc7594168476298132274b2c5910b012
+ms.sourcegitcommit: bb258999e072dc280bccfe64fb0dbd41d6577a0e
+ms.openlocfilehash: dbcbd7f7b0c23545eec74de538f1d7ec96ac98b6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
 # <a name="introduction-to-microsoft-dynamics-365-for-finance-and-operations"></a>Microsoft Dynamics 365 for Finance and Operations tanıtımı
 [!include[banner](includes/banner.md)]
 
-Son kullanıcılar, geliştirmeciler ve BT uzmanları için harika içeriklere ulaşmak isterseniz aşağıdaki kaynakları kullanarak Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünü işletmenizde nasıl kullanacağınızı öğrenin. 
+Son kullanıcılar, geliştirmeciler ve BT uzmanları için harika içeriklere ulaşmak isterseniz aşağıdaki kaynakları kullanarak Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'ı işletmenizde nasıl kullanacağınızı öğrenin. 
 
 Bu içeriğin çoğu ilgili ürünler için de geçerlidir: Microsoft Dynamics 365 for Retail ve Microsoft Dynamics 365 for Talent. 
 
@@ -67,7 +67,7 @@ Bu içeriğin çoğu ilgili ürünler için de geçerlidir: Microsoft Dynamics 3
 
 <h3><a href="../supply-chain/index.md">Tedarik zinciri yönetimi</a></h3>
 <p><a href="../supply-chain/cost-management/costing-sheets.md">Maliyet yönetimi</a></p>
-<p><a href="../supply-chain/inventory/inventory-locations.md">Stok yönetimi</a></p>
+<p><a href="../supply-chain/inventory/inventory-home-page.md">Stok yönetimi</a></p>
 <p><a href="../supply-chain/master-planning/master-plans.md">Master planlama</a></p>
 <p><a href="../supply-chain/procurement/procurement-sourcing-overview.md">Tedarik ve kaynak atama</a></p>
 <p><a href="../supply-chain/pim/product-information.md">Ürün bilgileri yönetimi</a></p>
@@ -88,7 +88,10 @@ Bu içeriğin çoğu ilgili ürünler için de geçerlidir: Microsoft Dynamics 3
 
 <h3><a href="../dev-itpro/dev-tools/developer-home-page.md">Geliştirme</h3>
 <p><a href="../dev-itpro/extensibility/extensibility-home-page.md">Genişletilebilirlik</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">Veri yönetimi ve tümleştirmesi</a></p>
+
+<p><a href="../dev-itpro/data-entities/integration-overview.md">Veri tümleştirmesi</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">Veri yönetimi</a></p>
+
 <p><a href="../dev-itpro/office-integration/office-integration.md">Office tümleştirmesi</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">Sürekli teslimat</a></p>
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Mobil platform</a></p>
@@ -97,8 +100,8 @@ Bu içeriğin çoğu ilgili ürünler için de geçerlidir: Microsoft Dynamics 3
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Yönetim</h3>
 <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Dağıtım</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Yükseltme</a></p>
-<p><a href="../dev-itpro/dev-tools/developer-home-page.md#service-environments">Bakım</a></p>
-<p><a href="../dev-itpro/data-entities/data-management-integration-data-entity.md">Veri yönetimi</a></p>
+<p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Bakım</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">Veri yönetimi çerçevesi</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></p>
 <p><a href="organization-administration/organization-administration-home-page.md">Kuruluş yönetimi</a></p>
 </td>

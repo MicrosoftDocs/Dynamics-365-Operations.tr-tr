@@ -28,7 +28,7 @@
 ### [Model dışa ve içe aktarma](dev-tools/models-export-import.md)
 ### [Visual Studio'da meta veri arama](dev-tools/metadata-search-visual-studio.md)
 ### [Modeller](dev-tools/models.md)
-### [Dynamics 365 for Finance and Operations, Enterprise sürümünde projeler](dev-tools/projects.md)
+### [Dynamics 365 for Finance and Operations, Enterprise edition'da projeler](dev-tools/projects.md)
 ### [Visual Studio araç eklentileri](dev-tools/developer-tools-add-ins.md)
 ### [Model özelleştirmeyi kapatma ve işlevi kaldırma](dev-tools/lock-models.md)
 ### [Visual Studio geliştirme araçlarını güncelleştirme](dev-tools/update-development-tools.md)
@@ -54,57 +54,54 @@
 #### [X++ öznitelik sınıfları](dev-ref/xpp-attribute-classes.md)
 #### [X++ ve C\# karşılaştırması](dev-ref/xpp-cs-comparison.md)
 #### [X++ söz dizimi](dev-ref/xpp-syntax.md)
-## Derleme zamanı işlevleri
+## [API, sınıf ve tablo referansı](dev-ref/api-reference.md)
 ### [X++ derleme zamanı işlevleri](dev-ref/xpp-compile-time-functions.md)
-## Çalıştırma zamanı işlevleri
-### [X++ iş çalıştırma zamanı işlevleri](dev-ref/xpp-business-run-time-functions.md)
-### [X++ konteyner çalıştırma zamanı işlevleri](dev-ref/xpp-container-run-time-functions.md)
-### [X++ dönüştürme çalıştırma zamanı işlevleri](dev-ref/xpp-conversion-run-time-functions.md)
-### [X++ tarih çalıştırma zamanı işlevleri](dev-ref/xpp-date-run-time-functions.md)
-### [X++ matematik çalıştırma zamanı işlevleri](dev-ref/xpp-math-run-time-functions.md)
-### [X++ yansıtma çalıştırma zamanı işlevleri](dev-ref/xpp-reflection-run-time-functions.md)
 ### [X++ çalıştırma zamanı işlevleri](dev-ref/xpp-run-time-functions.md)
-### [X++ oturum çalıştırma zamanı işlevleri](dev-ref/xpp-session-run-time-functions.md)
-### [X++ dize çalıştırma zamanı işlevleri](dev-ref/xpp-string-run-time-functions.md)
-## Sistem tabloları
+#### [X++ iş çalıştırma zamanı işlevleri](dev-ref/xpp-business-run-time-functions.md)
+#### [X++ konteyner çalıştırma zamanı işlevleri](dev-ref/xpp-container-run-time-functions.md)
+#### [X++ dönüştürme çalıştırma zamanı işlevleri](dev-ref/xpp-conversion-run-time-functions.md)
+#### [X++ tarih çalıştırma zamanı işlevleri](dev-ref/xpp-date-run-time-functions.md)
+#### [X++ matematik çalıştırma zamanı işlevleri](dev-ref/xpp-math-run-time-functions.md)
+#### [X++ yansıtma çalıştırma zamanı işlevleri](dev-ref/xpp-reflection-run-time-functions.md)
+#### [X++ oturum çalıştırma zamanı işlevleri](dev-ref/xpp-session-run-time-functions.md)
+#### [X++ dize çalıştırma zamanı işlevleri](dev-ref/xpp-string-run-time-functions.md)
 ### [Sistem tabloları](dev-ref/system-tables.md)
-## Sistem sınıfları
-### [API, sınıf ve tablo referansı](dev-ref/api-reference.md)
-### [A Sınıfları](dev-ref/a-classes.md)
-### [B Sınıfları](dev-ref/b-classes.md)
-### [C Sınıfları](dev-ref/c-classes.md)
-### [D Sınıfları](dev-ref/d-classes.md)
-### [E Sınıfları](dev-ref/e-classes.md)
-### [F Sınıfları: FieldBinding-FormBuildAnimateControl](dev-ref/fieldbinding-classes.md)
-### [F Sınıfları: FormBuildButtonControl-FormBuildFastTabSummarySeparator](dev-ref/formbuildbuttoncontrol-classes.md)
-### [F Sınıfları: FormBuildFilterPaneControl-FormBuildRealControl](dev-ref/formbuildfilterpanecontrol-classes.md)
-### [F Sınıfları: FormBuildReferenceControl-FormButtonSeparatorControl](dev-ref/formbuildreferencecontrol-classes.md)
-### [F Sınıfları: FormChangeTracker-FormControlEventArgs](dev-ref/formchangetracker-classes.md)
-### [F Sınıfları: FormDataObject-FormFastTabHeaderControl](dev-ref/formdataobject-classes.md)
-### [F Sınıfları: FormFastTabSummarySeparator-FormGridControl](dev-ref/formfasttabsummaryseparator-classes.md)
-### [F Sınıfları: FormGroupControl-FormIntControl](dev-ref/formgroupcontrol-classes.md)
-### [F Sınıfları: FormListBoxControl-FormNotifyEventArgs](dev-ref/formlistboxcontrol-classes.md)
-### [F Sınıfları: FormObject-FormRealControl](dev-ref/formobject-classes.md)
-### [F Sınıfları: FormReferenceControl-FormStringControl](dev-ref/formreferencecontrol-classes.md)
-### [F Sınıfları: FormTabControl-FormWindowControl](dev-ref/formtabcontrol-classes.md)
-### [G Sınıfları](dev-ref/g-classes.md)
-### [H Sınıfları](dev-ref/h-classes.md)
-### [I Sınıfları](dev-ref/i-classes.md)
-### [J Sınıfları](dev-ref/j-classes.md)
-### [K Sınıfları](dev-ref/k-classes.md)
-### [L Sınıfları](dev-ref/l-classes.md)
-### [M Sınıfları](dev-ref/m-classes.md)
-### [N Sınıfları](dev-ref/n-classes.md)
-### [O Sınıfları](dev-ref/o-classes.md)
-### [P Sınıfları](dev-ref/p-classes.md)
-### [Q Sınıfları](dev-ref/q-classes.md)
-### [R Sınıfları](dev-ref/r-classes.md)
-### [S Sınıfları](dev-ref/s-classes.md)
-### [T Sınıfları](dev-ref/t-classes.md)
-### [U Sınıfları](dev-ref/u-classes.md)
-### [V Sınıfları](dev-ref/v-classes.md)
-### [W Sınıfları](dev-ref/w-classes.md)
-### [X Sınıfları](dev-ref/x-classes.md)
+### Sistem sınıfları
+#### [A Sınıfları](dev-ref/a-classes.md)
+#### [B Sınıfları](dev-ref/b-classes.md)
+#### [C Sınıfları](dev-ref/c-classes.md)
+#### [D Sınıfları](dev-ref/d-classes.md)
+#### [E Sınıfları](dev-ref/e-classes.md)
+#### [F Sınıfları: FieldBinding-FormBuildAnimateControl](dev-ref/fieldbinding-classes.md)
+#### [F Sınıfları: FormBuildButtonControl-FormBuildFastTabSummarySeparator](dev-ref/formbuildbuttoncontrol-classes.md)
+#### [F Sınıfları: FormBuildFilterPaneControl-FormBuildRealControl](dev-ref/formbuildfilterpanecontrol-classes.md)
+#### [F Sınıfları: FormBuildReferenceControl-FormButtonSeparatorControl](dev-ref/formbuildreferencecontrol-classes.md)
+#### [F Sınıfları: FormChangeTracker-FormControlEventArgs](dev-ref/formchangetracker-classes.md)
+#### [F Sınıfları: FormDataObject-FormFastTabHeaderControl](dev-ref/formdataobject-classes.md)
+#### [F Sınıfları: FormFastTabSummarySeparator-FormGridControl](dev-ref/formfasttabsummaryseparator-classes.md)
+#### [F Sınıfları: FormGroupControl-FormIntControl](dev-ref/formgroupcontrol-classes.md)
+#### [F Sınıfları: FormListBoxControl-FormNotifyEventArgs](dev-ref/formlistboxcontrol-classes.md)
+#### [F Sınıfları: FormObject-FormRealControl](dev-ref/formobject-classes.md)
+#### [F Sınıfları: FormReferenceControl-FormStringControl](dev-ref/formreferencecontrol-classes.md)
+#### [F Sınıfları: FormTabControl-FormWindowControl](dev-ref/formtabcontrol-classes.md)
+#### [G Sınıfları](dev-ref/g-classes.md)
+#### [H Sınıfları](dev-ref/h-classes.md)
+#### [I Sınıfları](dev-ref/i-classes.md)
+#### [J Sınıfları](dev-ref/j-classes.md)
+#### [K Sınıfları](dev-ref/k-classes.md)
+#### [L Sınıfları](dev-ref/l-classes.md)
+#### [M Sınıfları](dev-ref/m-classes.md)
+#### [N Sınıfları](dev-ref/n-classes.md)
+#### [O Sınıfları](dev-ref/o-classes.md)
+#### [P Sınıfları](dev-ref/p-classes.md)
+#### [Q Sınıfları](dev-ref/q-classes.md)
+#### [R Sınıfları](dev-ref/r-classes.md)
+#### [S Sınıfları](dev-ref/s-classes.md)
+#### [T Sınıfları](dev-ref/t-classes.md)
+#### [U Sınıfları](dev-ref/u-classes.md)
+#### [V Sınıfları](dev-ref/v-classes.md)
+#### [W Sınıfları](dev-ref/w-classes.md)
+#### [X Sınıfları](dev-ref/x-classes.md)
 
 ## [Genişletilebilirlik ana sayfası](extensibility/extensibility-home-page.md)
 ### Giriş ve başlarken
@@ -138,15 +135,12 @@
 #### [Formda başlığı değiştirme](extensibility/change-caption-form.md)
 #### [Form denetim özelliklerini değiştirme](extensibility/modify-control-properties.md)
 #### [Etiketi değiştirme](extensibility/change-label.md)
-#### [Numara sırası kapsamını genişletme](extensibility/extend-number-sequence-scope.md)
+#### [Numara serisi kapsamını genişletme](extensibility/extend-number-sequence-scope.md)
 
-## [Sürekli teslimat giriş sayfası](dev-tools/continuous-delivery-home-page.md)
-### [Geliştirme ve sürekli teslimatla ilgili SSS](dev-tools/continuous-delivery-faq.md)
-### [Test paketlerini yapı çıkışından çıkarma](dev-tools/exclude-test-packages.md)
-### [Kaynak kontrolü kullanarak üçüncü taraf modellerini ve çalışma zamanı paketlerini yönetme](dev-tools/manage-runtime-packages.md)
-### [Otomatik yapıdaki sürüm modelleri](dev-tools/version-models-build.md)
 
-## Performans giriş sayfası
+
+
+## Performans
 ### [İzleme ayrıştırıcıyı kullanarak izleme yapma](perf-test/trace-trace-tutorial.md)
 ### [Visual Studio Team Services ile PerfSDK ve çoklu kullanıcı testi](perf-test/perfsdk-tutorial.md)
 ### [İzleme ayrıştırıcı kullanarak sorunları tanılama ve performans sorunlarını analiz etme](perf-test/trace-parser.md)
@@ -155,10 +149,8 @@
 ### [Test ve doğrulamalar](perf-test/testing-validation.md)
 ### [Visual Studio'da test projeleri](perf-test/testing-support.md)
 ### [Sürekli oluşturma ve test otomasyonuyla dağıtma](perf-test/continuous-build-test-automation.md)
-## Tarihler
-### [Tarih etkililiği](dev-tools/date-effectivity.md)
-## Lisanslama
-### [ISV lisanslaması](dev-tools/isv-licensing.md)
+## [Tarih etkililiği](dev-tools/date-effectivity.md)
+## [ISV lisanslaması](dev-tools/isv-licensing.md)
 
 # [Kullanıcı arabirimi geliştirme](user-interface/user-interface-development-home-page.md)
 ## Eğitimler
@@ -167,8 +159,8 @@
 ### [Gezinti oluşturma](user-interface/build-navigation.md)
 ### [Çalışma alanı oluşturma](user-interface/build-workspace.md)
 ## Formlar
-### [Dynamics 365 for Finance and Operations, Enterprise sürümünde gezinti](user-interface/page-navigation.md)
-### [Dynamics 365 for Finance and Operations, Enterprise sürümünde düzen](user-interface/page-layout.md)
+### [Dynamics 365 for Finance and Operations, Enterprise edition'da gezinti](user-interface/page-navigation.md)
+### [Dynamics 365 for Finance and Operations, Enterprise edition'da düzen](user-interface/page-layout.md)
 ### [Simge yazı tipi](user-interface/symbol-font.md)
 ### [Özel modellere sahip test formları](user-interface/testing-forms-custom-patterns.md)
 ### [Derin bağlantılar oluşturma ve kullanma](user-interface/create-deep-links.md)
@@ -197,7 +189,7 @@
 ## İletiler
 ### [Kaydırıcı ve İleti Kutusu](user-interface/slider-messagebox.md)
 ### [İleti merkezi, ileti çubuğu ve ileti ayrıntıları API'sı](user-interface/messaging-api-center-bar-details.md)
-### [İleti merkezi, ileti çubuğu ve ileti ayrıntıları FAQ'sı](user-interface/messaging-user.md)
+### [İleti merkezi, ileti çubuğu ve ileti ayrıntılarıyla ilgili SSS](user-interface/messaging-user.md)
 ## Birincil form modeli kuralları
 ### [Form modeli seçme](user-interface/select-form-pattern.md)
 ### [Form tarzları ve modelleri](user-interface/form-styles-patterns.md)
@@ -359,6 +351,104 @@
 #### [ValueDesign Türü](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md)
 #### [ValueMetadata Türü](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
 
+# Veri tümleştirmesi
+## [Tümleştirme modelleri](data-entities/integration-overview.md)
+
+## Veri tümleştirme API'ları
+### [Veri yönetimi paketi API'sı](data-entities/data-management-api.md)
+### [Hizmet uç noktaları](data-entities/services-home-page.md)
+#### [Hizmet kimlik doğrulamasıyla ilgili sorunları giderme](data-entities/troubleshoot-service-authentication.md)
+### [OData](data-entities/odata.md)
+### [Özel hizmetler](data-entities/custom-services.md)
+### [Yinelenen tümleştirmeler](data-entities/recurring-integrations.md)
+
+## Tümleştirme için geliştirme
+### [Veri varlıklarını kullanarak veri tümleştirmesi](data-entities/data-management-integration-data-entity.md)
+#### [Veri geçişi için varlık geliştirme](data-entities/develop-entity-for-data-migration.md)
+#### [Bileşik veri varlıkları geliştirme](data-entities/develop-composite-data-entities.md)
+#### [Şirketler arası mali veri paylaşımını yapılandırma](data-entities/tasks/configure-financial-cross-company-data-sharing.md)
+#### [Veri girişini kolaylaştırmak için bir kayıt şablonu oluşturma](data-entities/tasks/create-record-template-facilitate-data-entry.md)
+#### [Yeni kayıt oluşturmak için kayıt şablonu kullanma](data-entities/tasks/use-record-template-new-record.md)
+
+### [Common Data Service'ı kullanarak veri tümleştirmesi](data-entities/data-integration-cds.md) 
+#### [Aday müşteriden nakde senaryosu yapılandırma](../supply-chain/sales-marketing/prospect-to-cash.md)
+##### [Finance and Operations'taki ürünleri Sales'teki ürünlerle eşitleme](../supply-chain/sales-marketing/products-template-mapping.md)
+##### [Sales'teki firmaları Finance and Operations'taki müşterilerle eşitleme](../supply-chain/sales-marketing/accounts-template-mapping.md)
+##### [Sales'teki ilgili kişileri Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme](../supply-chain/sales-marketing/contacts-template-mapping.md)
+##### [Sales'deki satış teklifi başlıklarını ve satırlarını Finance and Operations'la eşitleme](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
+##### [Finance and Operations'daki satış siparişi başlıklarını ve satırlarını Sales ile eşitleme](../supply-chain/sales-marketing/sales-order-template-mapping.md)
+##### [Finance and Operations'daki satış faturası başlıklarını ve satırlarını Sales ile eşitleme](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+##### [Sales'teki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+##### [Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle eşitleme](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+##### [Sales'teki ilgili kişileri doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+##### [Finance and Operations'daki satış siparişi başlıklarını ve satırlarını doğrudan Sales ile eşitleme](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [Finance and Operations'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+
+### [Harici web hizmetleri kullanma](data-entities/consume-external-web-service.md)
+
+
+# [Veri yönetimi](data-entities/data-entities-data-packages.md)
+
+## [Veri varlıkları](data-entities/data-entities.md)
+
+### [Yapılandırma verileri projeleri](data-entities/configuration-data-projects.md)
+### [Yapılandırma veri paketleri](data-entities/configuration-data-packages.md)
+### [Şirketler arasında yapılandırma verilerini kopyalama](data-entities/copy-configuration.md)
+### [Yapılandırma verisi şablonları](data-entities/configuration-data-templates.md)
+### [Varlık üzerindeki değişiklikleri izleme](data-entities/entity-change-track.md)
+
+## Standart veri varlıkları
+### [Veri varlıkları raporu](data-entities/data-entities-report.md)
+### [Veri varlıkları: Borç hesapları ve vergiler](data-entities/data-entities-accounts-payable-taxes.md)
+### [Veri varlıkları: Alacak hesapları](data-entities/data-entities-accounts-receivable.md)
+### [Veri varlıkları: Banka](data-entities/data-entities-bank.md)
+### [Veri varlıkları: Başlangıç bakiyeleri](data-entities/data-entities-beginning-balances.md)
+### [Veri varlıkları: Bütçe planlaması](data-entities/data-entities-budget-plan.md)
+### [Veri varlıkları: Bütçeleme](data-entities/data-entities-budgeting.md)
+### [Veri varlıkları: Maliyetlendirme](data-entities/data-entities-costing.md)
+### [Veri varlıkları: Gider yönetimi](data-entities/data-entities-expense-management.md)
+### [Veri varlıkları: Sabit kıymetler](data-entities/data-entities-fixed-assets.md)
+### [Veri varlıkları: Genel muhasebe](data-entities/data-entities-general-ledger.md)
+### [Veri varlıkları: Genel adres defteri](data-entities/data-entities-global-address-book.md)
+### [Veri varlıkları: İnsan kaynakları](data-entities/data-entities-human-resources.md)
+### [Veri varlıkları: Stok yönetimi](data-entities/data-entities-inventory-management.md)
+### [Veri varlıkları: Master planlama](data-entities/data-entities-master-plan.md)
+### [Veri varlıkları: Tedarik ve kaynak atama](data-entities/data-entities-procurement-sourcing.md)
+### [Veri varlıkları: Ürün bilgileri yönetimi](data-entities/data-entities-product-information-management.md)
+### [Veri varlıkları: Üretim kontrolü](data-entities/data-entities-production-control.md)
+### [Veri varlıkları: Proje muhasebesi](data-entities/data-entities-project-accounting.md)
+### [Veri varlıkları: Kamu sektörü](data-entities/data-entities-public-sector.md)
+### [Veri varlıkları: Perakende](data-entities/data-entities-retail.md)
+### [Veri varlıkları: Satış ve pazarlama yürütme](data-entities/data-entities-sales-marketing.md)
+### [Veri varlıkları: Satış ve pazarlama ön satışı](data-entities/data-entities-sales-marketing-pre-sales.md)
+### [Veri varlıkları: Sistem yönetimi](data-entities/data-entities-system-administration.md)
+### [Veri varlıkları: İş akışı](data-entities/data-entities-workflow.md)
+
+## [Veri içe ve dışa aktarma işleri](data-entities/data-import-export-job.md)
+
+### [Yevmiye defteri varlığını kullanarak fişleri içe aktarmaya yönelik en iyi uygulamalar](data-entities/tips-tricks-import-general-journal-entity.md)
+
+## Veri varlıkları için geliştirme
+### [Yeni veri varlıkları oluşturma](data-entities/build-consuming-data-entities.md)
+### [Veri varlığı özellikleri](data-entities/behavioral-properties-data-entities.md)
+### [Hesaplama sütunları ve sanal alanlar oluşturma](data-entities/data-entity-computed-columns-virtual-fields.md)
+### [Şirketler arası davranış](data-entities/cross-company-behavior.md)
+### [Ülke/bölge kodlarını yönetme](data-entities/countryregion-codes-configuration-keys.md)
+### [Devralma modelleri](data-entities/support-super-type-sub-type.md)
+### [Veri varlığı sihirbazı kuralları](data-entities/data-entity-wizard-rules.md)
+### [Meta veri özellikleri](data-entities/behavioral-properties-data-entities.md)
+### [Doğrulamalar, varsayılanlar ve eşlenmeyen alanlar](data-entities/validations-defaults-unmapped-fields.md)
+### [Güvenlik ve veri varlıkları](data-entities/security-data-entities.md)
+
+## [Kendi veritabanınızı getirme](analytics/export-entities-to-your-own-database.md)
+
+# [Sürekli teslimat giriş sayfası](dev-tools/continuous-delivery-home-page.md)
+## [Geliştirme ve sürekli teslimatla ilgili SSS](dev-tools/continuous-delivery-faq.md)
+## [Test paketlerini yapı çıkışından çıkarma](dev-tools/exclude-test-packages.md)
+## [Kaynak kontrolü kullanarak üçüncü taraf modellerini ve çalışma zamanı paketlerini yönetme](dev-tools/manage-runtime-packages.md)
+## [Otomatik yapıdaki sürüm modelleri](dev-tools/version-models-build.md)
+
+
 # Lifecycle Services kullanarak çözümler yayımlama
 ## [Geliştirme ve yayımlama](lcs-solutions/lcs-solutions-app-source.md)
 ## [Aşamalandırma ve yayınlama](lcs-solutions/marketing-content-lcs-solutions.md)
@@ -377,9 +467,7 @@
 ### [Yerelleştirme modellerini ayırma](lcs-solutions/separate-localization-models.md)
 ### [Yasal uyarı gönderme](lcs-solutions/submit-localization-alerts.md)
 
-
-
-# Mali öğeleri geliştirme
+# [Mali öğeleri geliştirme](financial/financial-dev-home-page.md)
 ## [Boyutlar](financial/dimensions.md)
 ## [Excel şablonuna boyut ekleme](financial/dimensions-overview.md)
 ## [Boyut Giriş kontrolü iletişim kutusu desteği](financial/dimension-entry-control-dialog-support.md)
@@ -408,7 +496,7 @@
 
 ## Bulut dağıtımı
 ### [Azure Resource Manager kullanmaya başlama](deployment/arm-onboarding.md)
-### [Azure ExpressRoute ve Dynamics 365 for Finance and Operations, Enterprise sürümü](deployment/expressroute.md)
+### [Azure ExpressRoute ve Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
 
 ## [Şirket içi dağıtım](deployment/on-premises-deployment-landing-page.md)
 ### [Şirket içine genel bakış](deployment/on-premises-overview.md)
@@ -416,6 +504,7 @@
 ### [Şirket içi proje oluşturma](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Şirket içi ortamlar ayarlama ve dağıtma](deployment/setup-deploy-on-premises-environments.md)
 ### [Özel modeller geliştirme ve şirket içi ortamlara dağıtma](deployment/develop-deploy-custom-models-on-premises.md)
+### [Şirket içi dağıtıma güncelleştirmeler uygulama](deployment/apply-updates-on-premises.md)
 
 ## Özel kod dağıtma
 ### [Dağıtılabilir paket oluşturma](deployment/create-apply-deployable-package.md)
@@ -426,7 +515,7 @@
 # [Yükseltme ve geçiş](migration-upgrade/upgrade-home-page.md)
 ## [AX 2012'den Dynamics 365 for Finance and Operations'a yükseltme](migration-upgrade/upgrade-overview-2012.md)
 ### [Analiz etme - Yükseltmeyi planlamak için Yükseltme çözümleyicisi aracını kullanma](migration-upgrade/upgrade-analyzer-tool.md)
-### [Analiz etme – Kodu yükseltme çabasını tahmin etmek için Kod yükseltme hizmetini kulllanma](migration-upgrade/analyze-code-upgrade.md)
+### [Analiz etme – Kodu yükseltme çabasını tahmin etmek için Kod yükseltme hizmetini kullanma](migration-upgrade/analyze-code-upgrade.md)
 ### [Analiz etme - Korumalı alan ortamı dağıtma](migration-upgrade/analysis-sandbox.md)
 ### [Yükseltme - Bir geliştirme ortamında veri yükseltme](migration-upgrade/data-upgrade-2012.md)
 ### [Yükseltme - AX 2012 veri yükseltme görevleri](migration-upgrade/prepare-data-upgrade.md)
@@ -445,7 +534,7 @@
 #### [Yükseltilmiş bir satış küpünü varlık deposuna geçirme](migration-upgrade/migrate-upgraded-cube-entity-store.md)
 #### [Bütçe planlamasını yükseltme](migration-upgrade/upgrade-budget-planning.md)
 
-## Kod geçişi ve yükseltmesi
+## [Kod geçişi ve yükseltmesi](migration-upgrade/code-migration-home-page.md)
 ### [Kod taşımaya hazırlanma](migration-upgrade/prepare-migration.md)
 ### [Kod geçişi sırasında Visual Studio Team Services eşlemesini yapılandırma](migration-upgrade/configure-vso-solution.md)
 ### [Bölünmüş modeller](dev-tools/model-split.md)
@@ -476,6 +565,7 @@
 ## [Lisans kodları ve yapılandırma anahtarları raporu](sysadmin/license-codes-configuration-keys-report.md)
 ## [Şirketler arası veri paylaşımı](sysadmin/cross-company-data-sharing.md)
 ## [Bakım modu](sysadmin/maintenance-mode.md)
+## [Önceden yapılandırılmış sistem hesapları](sysadmin/pre-configured-system-accounts.md)
 ## [Rol tabanlı güvenlik](sysadmin/role-based-security.md)
 ### [Güvenlik mimarisi](sysadmin/security-architecture.md)
 ### [Güvenlik raporları](sysadmin/security-reports.md)
@@ -496,7 +586,8 @@
 ### [Yenilikler](lifecycle-services/whats-new-lcs.md)
 ### [Bilinen sorunlar](lifecycle-services/known-issues.md)
 ## [Dynamics Lifecycle Services kullanıcı kılavuzu](lifecycle-services/lcs-user-guide.md)
-## [Güvenliği konfigüre etme](lifecycle-services/configure-lcs-security.md)
+## [Abonelik tahmin aracı](lifecycle-services/subscription-estimator.md)
+## [Güvenliği yapılandırma](lifecycle-services/configure-lcs-security.md)
 ## [Konu arama](lifecycle-services/issue-search-lcs.md)
 ## [Yapılandırma yöneticisi](lifecycle-services/configuration-manager-lcs.md)
 ### [Yapılandırma yöneticisini ayarlama](lifecycle-services/set-up-configuration-manager-lcs.md)
@@ -511,6 +602,7 @@
 ## [İş süreci modelleyici akış tabloları](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [Özel iş süreçleri yükleme](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [İzleme ve tanılama ](lifecycle-services/monitoring-diagnostics.md)
+## [Kullanıcı oturum açma bilgilerini izleme](lifecycle-services/user-logins.md)
 ## [Varlık kitaplığı](lifecycle-services/asset-library.md)
 ## [Microsoft Dynamics 365 - Çeviri Hizmetine genel bakış](lifecycle-services/translation-service-overview.md)
 ### [Microsoft Dynamics 365 Çeviri Hizmeti kullanıcı kılavuzu  ](lifecycle-services/use-translation-service.md)
@@ -594,12 +686,13 @@
 ## [SQL Server'dan bir üretim Azure SQL Veritabanı ortamına veritabanı kopyalama](database/copy-database-from-sql-server-to-azure-sql.md)
 ## [Bir veritabanını üretim dışı bir ortama geri yükleme](database/request-point-in-time-restore.md)
 ## [Bir veritabanı kopyasını daha sonra geri yüklemek için dışa aktarma](database/copy-operations-database.md)
+## [Korumalı alan veritabanı yenilemesi isteme](database/database-refresh.md)
 
 # Destek
-## [Dynamics 365 for Finance and Operations, Enterprise sürümü ve Lifecycle Services için destek alma](lifecycle-services/lcs-support.md)
+## [Dynamics 365 for Finance and Operations, Enterprise edition ve Lifecycle Services için destek alma](lifecycle-services/lcs-support.md)
 ## [Premier destek bileti kaydetme](lifecycle-services/premier-support.md)
 ## [Dynamics Servis Mühendisliği takımına istek gönderme](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [Dynamics 365 for Finance and Operations, Enterprise sürümü için teknik destek ayarlama](lifecycle-services/support-experience.md) 
+## [Dynamics 365 for Finance and Operations, Enterprise edition için teknik destek ayarlama](lifecycle-services/support-experience.md) 
 ## [Planlı bakım aralığıyla ilgili SSS](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [Bulut işlemleri ve servis](lifecycle-services/cloud-operations-servicing.md)
 ## [Finance and Operations Destek deneyimlerini yönetme](lifecycle-services/cloud-powered-support-lcs.md)

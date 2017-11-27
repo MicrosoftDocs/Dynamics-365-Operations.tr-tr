@@ -1,6 +1,6 @@
 ---
 title: "Karar desteği"
-description: "Bu konu sizi Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünde bulunan karar desteği ve raporlama araçları hakkında bilgi edinmek için kullanabileceğiniz kaynaklara yönlendirir."
+description: "Bu konu sizi Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da bulunan karar desteği ve raporlama araçları hakkında bilgi edinmek için kullanabileceğiniz kaynaklara yönlendirir."
 author: sericks007
 manager: AnnBe
 ms.date: 09/07/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
-ms.openlocfilehash: 9d9d6fe03c876097aedc501422b88d2f3e70f1d0
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 335d38e0fb5e47136b87bac5bfa9d2fd2923def6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu sizi Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünde bulunan karar desteği (BI) ve raporlama araçları hakkında bilgi edinmek için kullanabileceğiniz kaynaklara yönlendirir.
+Bu konu sizi Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da bulunan karar desteği (BI) ve raporlama araçları hakkında bilgi edinmek için kullanabileceğiniz kaynaklara yönlendirir.
 
 ## <a name="get-started"></a>Başlayın
 - [Bilgi erişimi ve raporlama](information-access-reporting.md)
