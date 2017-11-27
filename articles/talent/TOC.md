@@ -1,10 +1,9 @@
 # [Dynamics 365 for Talent'a hoş geldiniz](index.md)
 
-# Başlarken
+# [Başlarken](talent-get-started.md)
 ## [Sistem gereksinimleri ve güncelleştirme ilkesi](talent-versions-update-policy.md)
 
-# İnsan kaynakları stratejisi geliştirme
-## [Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme](departments-jobs-positions.md)
+# [İnsan kaynakları stratejisi geliştirme](departments-jobs-positions.md)
 ## [İş bileşenlerini ayarlama](create-job.md)
 ## [Departman oluşturma ve departman hiyerarşisi ile ilişkilendirme](create-department-add-department-hierarchy.md)
 ## [Tüzel kişilikler arasında İK parametreleri ayarlama](set-up-hr-parameters-across-legal-entities.md)
@@ -28,13 +27,11 @@
 ## [İş gücü becerilerini iş ihtiyaçlarına uygun hale getirme](skills.md)
 ## [Eğitim kursları ayarlama](courses.md)
 
-# Kazançlar oluşturma ve koruma
-## [Kazanç programını yönetme](manage-benefit-program.md)
-## [Kazanca uygunluk ilkeleri](benefit-eligibility-policies.md)
+# [Kazançlar oluşturma ve koruma](manage-benefit-program.md)
+# [Kazanca uygunluk ilkeleri](benefit-eligibility-policies.md)
 ## [Çalışanlara ödünç verilen öğeleri yönetme](loan-items.md)
 
-# Soru formları kullanarak bilgi toplama
-## [Soru formları](questionnaires.md)
+# [Soru formları kullanarak bilgi toplama](questionnaires.md)
 ## [Soru formu tasarlama](design-questionnaires.md)
 ## [Soru formunu dağıtma ve doldurma](distribute-questionnaires.md)
 ## [Soru formunun sonuçlarını değerlendirme](evaluate-questionnaire-results.md)
