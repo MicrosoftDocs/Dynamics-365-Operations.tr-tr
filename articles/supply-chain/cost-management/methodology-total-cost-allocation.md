@@ -1,9 +1,9 @@
 ---
-title: "Toplam maliyet tahsisatı yöntemi"
-description: "Bu makalede, toplam maliyet tahsisatı (TCA) kullanma yönergeleri sağlanmıştır. Toplam maliyet tahsisatı (TCA), bir toplu iş emrine yönelik ana formül maddesi ile formül için tanımlanmış ortak ürünler arasındaki maliyetin hesaplanmasına yönelik bir yöntemdir."
+title: "Toplam maliyet tahsisat yöntemi"
+description: "Bu konuda, toplam maliyet tahsisatı (TCA) kullanma yönergeleri sağlanmıştır. Toplam maliyet tahsisatı (TCA), bir toplu iş emrine yönelik ana formül maddesi ile formül için tanımlanmış ortak ürünler arasındaki maliyetin hesaplanmasına yönelik bir yöntemdir."
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 10/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 83852
 ms.assetid: 7c14c3e5-9476-4a79-a210-e77fc91cc7fc
 ms.search.region: Global
@@ -20,19 +20,19 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b070aaeecacdee7af08d8136dc4232449b8f988b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 4f3d75411e8c99365f1aba8214c78e93b4741871
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="total-cost-allocation-method"></a>Toplam maliyet tahsisatı yöntemi
+# <a name="total-cost-allocation-method"></a>Toplam maliyet tahsisat yöntemi
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, toplam maliyet tahsisatı (TCA) kullanma yönergeleri sağlanmıştır. Toplam maliyet tahsisatı (TCA), bir toplu iş emrine yönelik ana formül maddesi ile formül için tanımlanmış ortak ürünler arasındaki maliyetin hesaplanmasına yönelik bir yöntemdir.
+Bu konuda, toplam maliyet tahsisatı (TCA) kullanma yönergeleri sağlanmıştır. Toplam maliyet tahsisatı (TCA), bir toplu iş emrine yönelik ana formül maddesi ile formül için tanımlanmış ortak ürünler arasındaki maliyetin hesaplanmasına yönelik bir yöntemdir.
 
 Toplam maliyet tahsisi (TCA), bir toplu iş emrine yönelik ana formül maddesi ile formül için tanımlanmış ortak ürünler arasındaki maliyet farklarının hesaplanmasına yönelik bir yöntemdir. Bu dinamik bir yöntemdir. Maliyeti, formül maddesi ve ortak ürün için bitmiş olarak raporlanan miktarlar arasındaki bir ağırlıklı ortalama olarak hesaplar. TCA kullanıldığında, her toplu iş emri için maliyet tahsisatı gözden geçirmeniz gerekmez. TCA kullanılmıyorsa, formül hesaplaması mevcut işlevi kullanır.
 
@@ -42,7 +42,7 @@ Ortak ürünler için TCA kullanmaya yönelik bazı yönergeler şunlardır:
 -   Bir formül sürümü için **Toplam Maliyet Tahsisi** kaydırıcısını **Evet** olarak ayarlarsanız, ortak ürünlerin maliyet fiyatı 0'dan (sıfır) fazla olacaktır. Değer aynı tesise veya formülün tesise özel olmadığı ilk tesise yönelik etkin maliyet sürümünden alınabilir. Bu koşul formül onaylandığında doğrulanır.
 
     -   Yan ürünler için maliyet tahsisat yüzdelerini el ile girmeniz gerekmez. Bunun yerine, sistem ortak ürünlerin maliyet fiyatlarının etkin ortalama maliyet tahsisat yüzdesini otomatik olarak oluşturur. 
-    -   Yan ürünler olan standart olmayan maliyet maddeleri için standart maliyetleri girmeniz gerekmez. Sistemde iki türde maliyetlendirme sürümü vardır:standart maliyet ve planlı maliyet 
+    -   Yan ürünler olan standart olmayan maliyet maddeleri için standart maliyetleri girmeniz gerekmez. Sistemde iki türde maliyetlendirme sürümü vardır: standart maliyet ve planlı maliyet 
     -   Bir madde standart maliyet değerleme yöntemi ile değerlendirilmediyse, planlı maliyet sürümünde bir etkin maliyet fiyatını kullanmanızı öneririz. Bu fiyat maliyet tahmini için kullanılır, örneğin ürün reçetesi hesaplaması, üretim maliyeti tahmini ve stok değerleme işleminde geri dönüş fiyatı. 
 
 -   Formül sürümü için **Toplam Maliyet Tahsisi** kaydırıcısını **Evet** olarak ayarlarsanız ve aşağıdaki koşullar doğru ise, maliyet tahsisi yöntemi **TCA** olur ve maliyet tahsisi yüzdesi değişmez:

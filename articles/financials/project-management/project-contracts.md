@@ -1,9 +1,9 @@
 ---
 title: "Proje sözleşmeleri"
-description: "Bu makalede Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünde çeşitli proje türleri ve finansman kaynakları için oluşturabileceğiniz proje sözleşmeleri örneklerle açıklanmakta, sözleşmeleri nasıl yöneteceğiniz ve proje müşterilerini nasıl faturalandıracağınız anlatılmaktadır."
+description: "Bu konuda Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da çeşitli proje türleri ve finansman kaynakları için oluşturabileceğiniz proje sözleşmeleri örneklerle açıklanmakta, sözleşmeleri nasıl yöneteceğiniz ve proje müşterilerini nasıl faturalandıracağınız anlatılmaktadır."
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0d7d3b64b0d6a662246074b12e3a3fe105dfae47
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: c8328bd2d93bbe763e629248edc1b7b4576005ae
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünde çeşitli proje türleri ve finansman kaynakları için oluşturabileceğiniz proje sözleşmeleri örneklerle açıklanmakta, sözleşmeleri nasıl yöneteceğiniz ve proje müşterilerini nasıl faturalandıracağınız anlatılmaktadır.
+Bu makalede Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da çeşitli proje türleri ve finansman kaynakları için oluşturabileceğiniz proje sözleşmeleri örneklerle açıklanmakta, sözleşmeleri nasıl yöneteceğiniz ve proje müşterilerini nasıl faturalandıracağınız anlatılmaktadır.
 
 Bir proje sözleşmesi için oluşturduğunuz proje türü, projenin müşterilerinin faturalandırılması için kullanılacak yöntemi belirleyecektir. Bir proje sözleşmesini ve ilgili projeyi değiştirebilirsiniz, ancak proje türünü değiştiremezsiniz. 
 
@@ -224,7 +224,7 @@ Aşağıdaki tabloda bu senaryoyu daha ayrıntılı olarak inceler.
 </tr>
 <tr class="odd">
 <td>Hareket 2</td>
-<td><strong>Hareket tutarı:</strong> 5.000,00<strong>Finansman:</strong> Hareket üç kuralın tümüne göre ödenir.<strong>Kural 1</strong>
+<td><strong>Hareket tutarı:</strong> 5.000,00<strong>Finansman:</strong> Hareket üç kuralın tümüne göre ödenir. <strong>Kural 1</strong>
 <ul>
 <li>Finansman kaynağı 2: 450,00</li>
 <li>Finansman kaynağı 3: 450,00</li>

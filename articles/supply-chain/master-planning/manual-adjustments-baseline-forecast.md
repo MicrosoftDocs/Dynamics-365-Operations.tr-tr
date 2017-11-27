@@ -1,9 +1,9 @@
 ---
 title: "Temel tahminde manüel ayarlamalar yapma"
-description: "Bu makalede bir temel tahminde manüel ayarlamalar yapma ve tahminin ayrıntılarını görüntüleme yolları açıklanmıştır."
+description: "Bu konuda bir temel tahminde manüel ayarlamalar yapma ve tahminin ayrıntılarını görüntüleme yolları açıklanmıştır."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 218374cdb6b5588648422d97c04fb60f26e47ac7
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: dbc195da36d31e01400fe66a1c02ea49609400eb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede bir temel tahminde manüel ayarlamalar yapma ve tahminin ayrıntılarını görüntüleme yolları açıklanmıştır. 
+Bu konuda bir temel tahminde manüel ayarlamalar yapma ve tahminin ayrıntılarını görüntüleme yolları açıklanmıştır. 
 
 Manüel ayarlamalar yapmadan önce, çeşitli sayfalarda bulunan birkaç kavramı anlamanız önemlidir.
 
@@ -43,7 +43,7 @@ Manüel ayarlamalar yapmadan önce, çeşitli sayfalarda bulunan birkaç kavram�
 -   Sonraki sütunlar tahminin oluşturulma amacı olan tahmin aralıklarını temsil eder. Her sütun başlığı sütunun gösterdiği tahmin aralığının ilk tarihidir.
 -   Hücrelerdeki değerler, o özel tahmin aralığında bir maddeyi, madde tahsisat anahtarını, vb. temsil eder.
 
-## <a name="forecast-aggregation-and-deaggregation"></a>Tahmin toplama ve toplamayı kaldırma
+## <a name="forecast-aggregation-and-de-aggregation"></a>Tahmin toplama ve toplamayı kaldırma
 Sayfanın alt başlığı tahmin toplama düzeyini gösterir. 
 
 Örneğin, sayfanın alt başlığı **Şirket / Tesis / Tahsisat anahtarı / Madde numarası / Renk / Boyut / Yapılandırma / Stil** ise, hiç tahmin toplama yoktur ve tahmin madde ve boyutları düzeyinde gösterilir. Toplamı değiştirmek için, uygulama menüsünden açabileceğiniz **Tahmin boyutlarını değiştir** sayfasını kullanabilirsiniz. 

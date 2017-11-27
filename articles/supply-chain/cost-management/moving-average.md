@@ -1,9 +1,9 @@
 ---
 title: Hareketli ortalama
-description: 
+description: "Hareketli ortalama, stok çıkışlarındaki maliyetlerin satın alma maliyeti değiştiğinde değişmediği ortalama ilkesini temel alan kalıcı bir maliyetlendirme yöntemidir. Fark aktifleştirilir ve orantısal bir hesaplamaya dayanır. Kalan tutar gider gösterilir."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,8 +31,12 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
+Hareketli ortalama, stok çıkışlarındaki maliyetlerin satın alma maliyeti değiştiğinde değişmediği ortalama ilkesini temel alan kalıcı bir maliyetlendirme yöntemidir. Fark aktifleştirilir ve orantısal bir hesaplamaya dayanır. Kalan tutar gider gösterilir. 
+
+Hareketli ortalama kullandığınızda, stok kapatmaları ve stok işaretleme desteklenmez. Stok kapanışı stok model grubu olarak hareketli ortalamaya sahip ürünleri etkilemez ve hareketler arasında herhangi bir kapatma oluşturmaz.
 
 Aşağıdakiler, maliyetlendirme yöntemi olarak hareketli ortalama maliyet kullanırkenki gerekliliklerdir.
+
 1.  **Madde model grupları** sayfasında, **Stok modeli** alanında Hareketli ortalama seçili olan bir madde model grubu belirleyin. **Not:** Varsayılan olarak, Hareketli ortalama seçiliyken, **Fiziksel stoku deftere naklet** ve **Mali stoku deftere naklet** alanları da seçilidir. 
 
 2.  **Deftere nakil** sayfasında, hesapları **Hareketli ortalama için fiyat farkı** ve **Hareketli ortalama için maliyet yeniden değerleme** hesaplarında, **Stok** sekmesinde hesapları atayın. **Hareketli ortalama için fiyat farkı** hesabını, maliyet orantılı olarak gider kaydedilecekse kullanırsınız. Bunun sebebi, satınalma girişi ile satınalma faturası arasındaki bir maliyet farkıdır ve orijinal stok miktarı ile elde olan miktar arasındaki bir farktır. Bir ürün için hareketli ortalama maliyeti yeni bir birim fiyatına ayarlarken **Hareketli ortalama için maliyet yeniden değerlemesi** hesabını kullanın.

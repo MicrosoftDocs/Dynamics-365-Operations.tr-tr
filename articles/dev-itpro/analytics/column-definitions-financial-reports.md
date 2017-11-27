@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 924177f4974358d2283dfd46306d663c27ccd87b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 8c877a4ad6d4c29607159da52bf1cedae1476f92
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -528,7 +528,7 @@ Birden fazla para birimi içeren bir rapor tutarları doğal (yerel) para birimi
 
 Pelin, sütun tanımında aşağıdaki para birimi seçimlerini yaptı:
 
--   **Para Birimi Filtresi:** Yen
+-   **Para Birimi Filtresi:**Yen
 -   **Para Birimi Ekranı:** İşlevsel (ABD doları)
 
 Pelinin seçtiği para birimi filtresi nedeniyle, rapor yalnızca Japon yeni (JPY) olarak girilen hareketleri içerir. Seçtiği para birimi ekranı nedeniyle, rapor işlevsel para birimi olan ABD doları (USD) cinsinden olan hareketleri görüntüler.
@@ -579,7 +579,7 @@ Tüm değerleri belirli bir sütunda temel sayının yüzdesi olarak görüntül
 
 #### <a name="divide-the-amount-in-a-column-by-the-number-of-periods"></a>Bir sütundaki tutarı dönem sayısına bölme
 
-Bir sütundaki tutarı belirtilen bir dönem sayısına bölebilirsiniz. Örneğin, **B/Dönem Sayısı** B sütunundaki değeri B sütunundaki dönem sayısına böler. Hesaplama birden fazla sütuna yayılıyorsa hesaplamada kullanılacak dönem sayısını belirtin. Örneğin, **(B+C)/Dönemler** formülü, B ve C sütunundaki tutarları toplar ve ardından sonucu dönem değerine böler.
+Bir sütundaki tutarı belirtilen bir dönem sayısına bölebilirsiniz. Örneğin, **B/Dönem Sayısı**B sütunundaki değeri B sütunundaki dönem sayısına böler. Hesaplama birden fazla sütuna yayılıyorsa hesaplamada kullanılacak dönem sayısını belirtin. Örneğin, **(B+C)/Dönemler** formülü, B ve C sütunundaki tutarları toplar ve ardından sonucu dönem değerine böler.
 
 <a name="see-also"></a>Ayrıca bkz.
 --------

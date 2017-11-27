@@ -1,9 +1,9 @@
 ---
 title: "Karışık mod planlama - Ayrık, işlem ve yalın kaynak birleştirme"
-description: "Bu makale, karma mod planlama hakkında bilgi sağlar. Karma mod planlamada, tedarik zincirinizi, madde akışı tabanlı olarak modelleyebilirsiniz. Microsoft Dynamics 365 for Finance and Operations, seçili olan tedarik ilkesi ne olursa olsun malzeme akışının modellerinizi takip ettiğinden emin olur (kanbanlar, üretim emirleri, satınalma emirleri, toplu siparişler veya transfer emirleri)."
+description: "Bu konu, karma mod planlama hakkında bilgi sağlar."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 52931
 ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 09ced68ffe8ff300a04beb65fdf8527e63456f04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makale, karma mod planlama hakkında bilgi sağlar. Karma mod planlamada, tedarik zincirinizi, madde akışı tabanlı olarak modelleyebilirsiniz. Microsoft Dynamics 365 for Finance and Operations, seçili olan tedarik ilkesi ne olursa olsun malzeme akışının modellerinizi takip ettiğinden emin olur (kanbanlar, üretim emirleri, satınalma emirleri, toplu siparişler veya transfer emirleri). 
+Bu konu, karma mod planlama hakkında bilgi sağlar. Karma mod planlamada, tedarik zincirinizi, madde akışı tabanlı olarak modelleyebilirsiniz. Microsoft Dynamics 365 for Finance and Operations, seçili olan tedarik ilkesi ne olursa olsun malzeme akışının modellerinizi takip ettiğinden emin olur (kanbanlar, üretim emirleri, satınalma emirleri, toplu siparişler veya transfer emirleri). 
 
 Bir ürün sağlamak için, ürün yapısı ne olursa olsun, genel strateji seçebilirsiniz.  
 
@@ -59,7 +59,7 @@ Genellikle, bir kanban ömrü kısa olduğundan kanbanlar gelecekteki tarihler i
 
 Diğer tüm tedarik ilke türleri için aynı mantık mevcuttur. Bu nedenle, uzun dönemli malzemeleri planlama, üretim ve tedarik onaylandıktan sonra gerçek siparişlerle ile çalıştırmak için beklediğiniz aynı mantığa dayanır.
 
-## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>Tedarik arası malzeme tahsisatı ilkesi – Ürün reçetelerindeki kaynak tüketimi
+## <a name="materials-allocation-cross-supply-policy--resource-consumption-on-boms"></a>Tedarik arası malzemeleri ayırma ilkesi – ürün reçetelerinde kaynak tüketimi
 Kaynak tüketimi önemli bir işlevdir. Kaynak tüketimi (sipariş türü) tedarik ilkesini temel alarak bir ambar için dinamik olarak seçilen malzeme çekme sağlar ve ayrıca temel verilerin bakımını kolaylaştırır.  
 
 Kaynak tüketimi gelen malzemelerin çekildiği ambarın ürünün tedarik şekline göre atanmasını gerektirir. Diğer bir deyişle, çalışma zamanında sistem üretim için kullanılması gereken kaynaklar bulur. Bu kaynaklara bağlı olarak, sistem sonra malzeme çekme ambarı bulur.  

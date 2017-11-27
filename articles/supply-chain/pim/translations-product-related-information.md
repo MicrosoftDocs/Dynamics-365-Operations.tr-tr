@@ -3,7 +3,7 @@ title: "Ürünle ilgili çeviriler hakkında SSS"
 description: "Bu konuda, ürünler, ürün boyut değerleri ve ürün öznitelikleri için çevirilerin nasıl yönetileceğini açıklanır."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b2976d4fc62a71039da0bc8be5b50be92a95959c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 2c58e3e2f60c00d8d834c1d80b347e2e7087809d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -47,7 +47,7 @@ Bu konuda, ürünler, ürün boyut değerleri ve ürün öznitelikleri için çe
 ## <a name="where-can-i-view-the-translated-information"></a>Çevrilmiş bilgileri nerede görüntüleyebilirim?
 Ürünle ilgili bilgilerin çevirilerini, fatura gibi çevirilerin kullanılabilir olduğu bir dili kullanan her türlü harici kaynak belgesinde görüntüleyebilirsiniz.
 
-## <a name="how-do-i-create-translations-for-productrelated-information"></a>Ürünle ilgili bilgilerin çevirilerini nasıl oluştururum?
+## <a name="how-do-i-create-translations-for-product-related-information"></a>Ürünle ilgili bilgilerin çevirilerini nasıl oluştururum?
 Ürün için çeviriler oluşturmak için şu adımları izleyin:
 1.  **Ürün bilgileri yönetimi** &gt; **Ortak** &gt; **Serbest bırakılan ürünler**'e tıklayın.
 2.  Ürün seçin ve Eylem Bölmesi'nde **Diller** grubunda **Çeviriler**'e tıklayın.
@@ -124,7 +124,7 @@ Boyut değeri grubundaki değerler için çevirileri yönetmek üzere aşağıda
 1.  **Ebat grubu satırları**, **Renk grubu satırları** veya **Stil grubu satırları** sayfasını açmak için bir boyut değeri grubu oluşturmak üzere önceki yordamdaki adımları izleyin.
 2.  **Metin çevirisi**'ne tıklayın. **Metin çevirisi** sayfasında, **Çevrilmiş metin** grubundaki **Ad** ve **Açıklama** alanlarına çevirileri girin.
 
-## <a name="when-can-translations-of-productrelated-information-be-managed"></a>Ürünle ilgili bilgilerin çevirileri ne zaman yönetilebilir?
+## <a name="when-can-translations-of-product-related-information-be-managed"></a>Ürünle ilgili bilgilerin çevirileri ne zaman yönetilebilir?
 Ürünle ilgili bilgilerin çevirileri her an yönetilebilir. Çeviriler bir ürünle ilişkilendirilmiş bir boyut değeri için güncelleştirildiğinde, ürünün hareketlere sahip olmasına bakılmaksızın ürün bilgileri güncelleştirilir.
 
 

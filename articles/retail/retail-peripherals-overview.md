@@ -1,9 +1,8 @@
 ---
 title: "Perakende çevre birimlerine genel bakış"
-description: "Bu konu, perakende çevre birimleriyle ilgili kavramları açıklar. Bu çevre birimlerinin satış noktasına (POS) bağlanmasıyla ilgili çeşitli yollar ve POS ile bağlantı yönetiminden sorumlu olan bileşenler açıklanmaktadır."
-author: rubencdelgado
+description: "Bu konu, perakende çevre birimleriyle ilgili kavramları açıklar."
 manager: AnnBe
-ms.date: 06/19/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -18,10 +17,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e886411421fda17bb67f8ecedc1f7f3420e1fa72
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: 347100651302bb97806783d00559f2396d031fcc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -575,7 +574,7 @@ Geçerli güvenlik standartlarına göre, bir üretim ortamında aşağıdaki ay
 ## <a name="peripheral-simulator"></a>Çevre birimi benzeticisi
 Bilgi için bkz. [Perakende çevre birimi benzeticisi](dev-itpro/retail-peripheral-simulator.md).
 
-## <a name="microsofttested-peripheral-devices"></a>Microsoft tarafından test edilmiş çevre birim cihazları
+## <a name="microsoft-tested-peripheral-devices"></a>Microsoft tarafından test edilmiş çevre birim cihazları
 ### <a name="ipc-built-in-hardware-station"></a>IPC (yerleşik) donanım istasyonu
 
 Aşağıdaki çevre birimler Windows için Modern POS içine yerleşik olan IPC donanım istasyonu kullanılarak sınanmıştır.

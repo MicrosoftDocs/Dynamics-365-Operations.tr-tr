@@ -3,7 +3,7 @@ title: "Satış komisyonu kurallarını ayarlama"
 description: "Bu yordam, satış komisyonu hesaplamanın ve izlemenin nasıl ayarlanacağını ve etkinleştirileceğini gösterir."
 author: omulvad
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8d81765884f741443d1c0f5b0cb8bc545945e1a1
+ms.sourcegitcommit: 8e7d2198b4976a6f60f05690d7b6f11f3da55e28
+ms.openlocfilehash: 3d5c38b1f07803242350fe016b45c45d49c0b59b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="set-up-sales-commission-rules"></a>Satış komisyonu kurallarını ayarlama
@@ -45,7 +45,7 @@ Bu yordam, satış komisyonu hesaplamanın ve izlemenin nasıl ayarlanacağını
     * Komisyon satış grubu, ilgili satış grubuyla ilişkili bir müşteri belirli ürünler satın aldığında bir komisyon kazanmaya uygun olan satış temsilcisi rollerini belirtir.  
     * USMF demo verisi şirketinde, "Satış temsilcileri ABD." adında bir satış grubu vardır.  
 13. Eylem Bölmesinde, Genel öğesine tıklayın.
-14. Satış temsilcisi'ni tıklatın.
+14. Satış temsilcisi'ne tıklayın.
     * Satış temsilcisi sayfası, şirketin bir özel komisyon grubu ile ilişkili olan satış personelinin bir listesini görüntüler. Aynı gruba birden fazla satış temsilcisi atayabilirsiniz ve bunların ilgili toplam komisyon ücreti payını bir yüzde değeri olarak tanımlayabilirsiniz. Tüm çalışanlar arasında toplam komisyon payı 100'ü geçemez.  
 15. Listede, seçili satırı işaretleyin.
 16. Düzenle öğesine tıklayın.

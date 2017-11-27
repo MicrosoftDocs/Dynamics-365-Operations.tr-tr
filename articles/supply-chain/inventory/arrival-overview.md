@@ -3,7 +3,7 @@ title: "Varışa genel bakış"
 description: "Bu konu, Varış genel bakış özelliği hakkında bilgi sağlamaktadır. Varış genel bakış sayfası bu özelliğin bir parçasıdır ve gelen maddelere, varması beklenen maddeler olarak genel bir bakış sağlamaktadır."
 author: perlynne
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d9ebc0ea12de0c97718b565b77d99c3a1fcd6f21
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 9c174dc7bf61ffab0d20c7685a29007e0b6e2e7e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -104,7 +104,7 @@ Sami ayrıca aşağıdaki bilgileri görüntüleyebilir:
 
 ### <a name="update-journals"></a>Günlükleri güncelleştir
 
-İşlenme süresi gelmiş bir ya da birden fazla sipariş satırını kaydetmek için Sami genel bakış kılavuzu veya satır kılavuzundaki satırları seçebilir ve daha sonra **Günlükler** &gt; **Girişlerden varışları göster** üzerine tıklayabilir. Satırlarla eşleşen madde varış başlıkları gösterilir. Kayıtlı maddeleri güncelleştirmek için satınalma siparişi ürün girişlerini almak amacıyla, Sami halihazırda güncelleştirilmeye hazır olan madde varış günlük başlıklarına erişebilir. Bu madde varış günlük başlıklarına erişmek için **Günlükler** &gt; **Ürün giriş hazır günlükleri** üzerine tıklar. Belirtilen ambardaki ürün giriş güncelleştirmesine hazır olan tüm başlık satırları gösterilir. (Gösterilen başlık satırları, gün aralığıyla ilişkili değildir).
+İşlenme süresi gelmiş bir ya da birden fazla sipariş satırını kaydetmek için Sami genel bakış kılavuzu veya satır kılavuzundaki satırları seçebilir ve daha sonra **Günlükler** &gt; **Girişlerden varışları göster** üzerine tıklayabilir. Satırlarla eşleşen madde varış başlıkları gösterilir. Kayıtlı maddeleri güncelleştirmek için satınalma siparişi ürün girişlerini güncelleştirmek amacıyla, Sami halihazırda güncelleştirilmeye hazır olan madde varış günlük başlıklarına erişebilir. Bu madde varış günlük başlıklarına erişmek için **Günlükler** &gt; **Ürün giriş hazır günlükleri** üzerine tıklar. Belirtilen ambardaki ürün giriş güncelleştirmesine hazır olan tüm başlık satırları gösterilir. (Gösterilen başlık satırları, gün aralığıyla ilişkili değildir).
 
 ### <a name="start-an-arrival-registration"></a>Bir varış kaydı başlat
 

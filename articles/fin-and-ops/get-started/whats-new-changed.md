@@ -3,7 +3,7 @@ title: "Yeni veya değişenler nedir"
 description: "Bu sayfa Microsoft Dynamics 365 for Finance and Operations'ın son sürümlerindeki yeni özellikler hakkında bilgi almanıza yardımcı olabilecek konulara sizi yönlendirir."
 author: josaw1
 manager: AnnBe
-ms.date: 09/12/2017
+ms.date: 10/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 27141
 ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 1a75ad433bcca5fcb041391e0c09883449755094
-ms.openlocfilehash: e92a42ca34d42504ce9d7c3ba7c326429d97a089
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1ffe0480c1607925093bf823d75289d87995a17f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/02/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -58,25 +58,7 @@ En son sürüme yükseltme hakkında bilgi için bkz. [En son güncelleştirmeye
 </thead>
 <tbody>
 <tr class="even">
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü</td>
-<td>Uygulama güncelleştirmesi 3</td>
-<td>7.2.11792.62370</td>
-<td>2017 Eylül</td>
-<td><a href="https://fix.lcs.dynamics.com/Issue/Resolved?kb=4043284&bugId=3857197&qc=a454835bf86493b0a878eed878045540ba632d897fabdc0b13c60f58292c7a84">KB 4043284 Dynamics 365 for Operations (İkili parça) için Uygulama Güncelleştirmesi 3</a></td>
-</tr>
-<tr class="even">
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü</td>
-<td>Uygulama güncelleştirmesi 2</td>
-<td>7.2.11792.62192</td>
-<td>2017 Eylül</td>
-<td><a href="https://fix.lcs.dynamics.com/Issue/Resolved?kb=4039142&bugId=3850590&qc=204b1f37a96118e0538a6cad6c91a398019308d0a6b558b86e1ebe35d8fb73c8">KB 4039142 Uygulama Güncelleştirmesi 2 (İkili)</a></td>
-</tr>
-<tr class="even">
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü</td>
-<td>Uygulama güncelleştirmesi 1</td>
-<td>7.2.11792.62089</td>
-<td>Temmuz 2017</td>
-<td><a href="https://fix.lcs.dynamics.com/Issue/Resolved?kb=4035749&bugId=3845890&qc=204b1f37a96118e0538a6cad6c91a398019308d0a6b558b86e1ebe35d8fb73c8">KB 4035749 Dynamics 365 for Finance and Operations, Enterprise edition uygulama güncelleştirmesi 1 (ikili)</a></td>
+
 </tr>
 <tr class="even">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü</td>
@@ -128,6 +110,13 @@ En son sürüme yükseltme hakkında bilgi için bkz. [En son güncelleştirmeye
 <th>Daha fazla bilgi edinin</th>
 </tr>
 </thead>
+<tbody>
+<tr class="odd">
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü</td>
+<td>Platform güncelleştirmesi 11</td>
+<td>7.0.4679.35176</td>
+<td>2017 Ekim</td>
+<td><a href="whats-new-platform-update-11.md">Dynamics 365 for Finance and Operations, Enterprise edition platform güncelleştirmesi 11'deki (Ekim 2017) yenilikler ve değiştirilenler</a></td>
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü</td>

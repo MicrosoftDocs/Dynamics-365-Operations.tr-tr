@@ -3,7 +3,7 @@ title: "Yedekleme planı geliştirme"
 description: "Kuruluşunuz büyüdükçe ve ardışık planlama yapmayı düşündüğünüzde, başka bir kişiye benzer yeteneklere sahip olan birini bulmak isteyebilirsiniz."
 author: kherr75
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b1caaf5f52282a8daae62602dcc5ef86b901e338
+ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
+ms.openlocfilehash: 2ca5f541abe4f85187aaefdbb03ca84e4f314b3c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="develop-a-succession-plan"></a>Yedekleme planı geliştirme
@@ -36,7 +36,7 @@ Kuruluşunuz büyüdükçe ve ardışık planlama yapmayı düşündüğünüzde
 6. Profili al'a tıklayın.
 7. Kişi'ye tıklayın.
 8. Kişi alanına bir ad yazın veya açılan menüden seçin.  Örnek: Cassie Hicks.
-9. Tamam'ı tıklatın.
+9. Tamam'a tıklayın.
 10. Yetenek eşlemeye dahil edilen sertifikaları görüntülemek veya düzenlemek için sertifikalar hızlı sekmesini genişletin.
 11. Dahil edilecek yetenekleri görmek veya düzenlemek için Yetenekler hızlı sekmesini genişletin.
 12. Listede ilk satırı işaretleyin.  Örnek: Muhasebe

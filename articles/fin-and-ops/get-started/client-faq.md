@@ -3,14 +3,14 @@ title: Finance and Operations istemcisiyle ilgili SSS
 description: "Bu makalede, Microsoft Dynamics 365 for Finance and Operations istemcisi hakkında sık sorulan soruların yanıtlarını verilmektedir."
 author: jasongre
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 12334
 ms.assetid: a9a57f0e-a67c-46b1-83c9-5d6350fb3b86
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 55d4fa4629d203aa888fe6400126a872d2eee000
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 658d5a1a031f2292dbd445fa7fb345be01c61947
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -43,7 +43,7 @@ Tarayıcınızdaki güvenlik ayarları simgelerin doğru yüklenmesini engelleye
 ## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>Dynamics AX 2012'deki şeridi arıyorum. Eylem Pano sekmelerini her zaman açık tutabilir miyim?
 Bu özelliği yakında uygulamayı planlıyoruz. Böylece kullanıcıların Eylem Bölmelerindeki sekmeleri sürekli açık tutmaları mümkün olacaktır. Aksi halde, sekmeler kullanıldıkları sırada daralarak sayfa için daha fazla ekran alanı açacaktır.
 
-## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-rightclick"></a>Sağ tıkladığımda bazen neden farklı kısayol menüleri görüyorum?
+## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-right-click"></a>Sağ tıkladığımda bazen neden farklı kısayol menüleri görüyorum?
 Düzenlenebilir bir alana sağ tıkladığınız zaman (veya metin seçilirse), tarayıcının kısayol menüsü görüntülenir. Bu menü **Kes**, **Kopyala** ve **Yapıştır** komutlarına erişmenizi sağlar. Bu komutları Finance and Operations kısayol menülerine ekleyemeyiz çünkü güvenlik nedeniyle, tarayıcılar programlı olarak sistem panosuna erişmemize izin vermiyor.
 
 Bir alan etiketine veya salt okunur bir denetimin değerine sağ tıkladığınız zaman Finance and Operations kısayol menüsünü görürsünüz.

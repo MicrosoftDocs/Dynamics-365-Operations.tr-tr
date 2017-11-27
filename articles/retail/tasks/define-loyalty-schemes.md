@@ -3,7 +3,7 @@ title: " Bağlılık şemalarını tanımlama"
 description: "Bu yordamı bir bağlılık şemasının nasıl tanımlanacağını açıklar."
 author: jashanno
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 23c8876b1983d6bc20b68f24fa7cd5b042cfd488
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 1fc193e113961705f18488a4341652b3576fb275
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -50,7 +50,7 @@ Bu yordamı bir bağlılık şemasının nasıl tanımlanacağını açıklar. B
 13. Ödül puanı kodu alanında, aramayı açmak için açılır menü düğmesine tıklayın.
 14. Listede, seçili satırdaki bağlantıya tıklayın.
 15. Ödül puanları alanına bir sayı girin.
-    * Tutar türü ödül puanları, kazanılan tutarları ondalık değerlerle kaydeder. Örneğin, kazanç kuralı her 1 Kanada dolarlı harcama için 1 ödül puanı kazanılacağını belirtiyorsa ve müşteri 1,25 Kanada doları harcarsa, bu durumda müşteri 1,25 ödül puanı kazanacaktır. Miktar türü ödül puanları kazanılan tutarları tam sayı olarak kaydeder. Kazanç kuralı her 1 Kanada dolarlı harcama için 1 ödül puanı kazanılacağını belirten örneği kullanarak ve müşteri 1,25 Kanada doları harcarsa, bu durumda müşteri 1,0 ödül puanı kazanacaktır.  
+    * Tutar türü ödül puanları, kazanılan tutarları ondalık değerlerle kaydeder. Örneğin, kazanç kuralı her 1 Kanada dolarlı harcama için 1 ödül puanı kazanılacağını belirtiyorsa ve müşteri 1,25 Kanada doları harcarsa, bu durumda müşteri 1,25 ödül puanı kazanacaktır. Miktar türü ödül puanları kazanılan tutarları tam sayı olarak kaydeder. Kazanç kuralı her 1 Kanada dolarlı harcama için 1 ödül puanı kazanılacağını belirten örneği kullanıldığında ve müşteri 1,25 Kanada doları harcadığında, bu durumda müşteri 1,0 ödül puanı kazanacaktır.  
 16. Kaydet'e tıklayın.
 17. Satır ekle'ye tıklayın.
     * Kullanım kuralları, bağlılık ödül yöntemi kullanıldığı zaman kullanılır.  

@@ -1,9 +1,9 @@
 ---
 title: "Ağırlıklı ortalama tarihi"
-description: 
+description: "Ağırlıklı ortalama tarihi, stoktan çıkışların stok kapatma dönemindeki her ayrı gün için stoka girişi yapılan maddelerin ortalama değeriyle değerlendirildiği ağırlıklı ortalama ilkesini temel alan bir stok modelidir."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 95cc937a97596e4f6ce28636fb30b86e9b328220
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,8 +33,9 @@ ms.lasthandoff: 09/29/2017
 
 [!include[retail name](../includes/retail-name.md)]
 
+Ağırlıklı ortalama tarihi, ağırlıklı ortalama ilkesini temel alan bir stok modelidir. Ağırlıklı ortalama ilkesi için, stoktan yapılan çıkışlar, stok kapanış döneminde her gün stoğa alınan maddelerin ortalama değerinden değerlenir. 
 
-Ağırlıklı ortalama tarihi, ağırlıklı ortalama ilkesini temel alan bir stok modelidir. Ağırlıklı ortalama ilkesi için, stoktan yapılan çıkışlar, stok kapanış döneminde her gün stoğa alınan maddelerin ortalama değerinden değerlenir. Ağırlıklı ortalama tarihi kullanarak stok kapanışı çalıştırdığınızda, tüm günlük girişler bir sanal bir çıkışa karşılık kapatılır. Bu sanal çıkış o güne ilişkin toplam alınan miktarı ve değeri tutar. Sanal çıkış, çıkışların kapatılacağı karşılık gelen bir sanal girişe sahiptir. Bu nedenle, tüm çıkışlar aynı ortalama maliyeti alır. Sanal çıkış ve sanal giriş, *ağırlıklı ortalama stok kapatma transferi* olarak bilinen sanal bir transfer olarak görülebilir. 
+Ağırlıklı ortalama tarihi kullanarak stok kapanışı çalıştırdığınızda, tüm günlük girişler bir sanal bir çıkışa karşılık kapatılır. Bu sanal çıkış o güne ilişkin toplam alınan miktarı ve değeri tutar. Sanal çıkış, çıkışların kapatılacağı karşılık gelen bir sanal girişe sahiptir. Bu nedenle, tüm çıkışlar aynı ortalama maliyeti alır. Sanal çıkış ve sanal giriş, *ağırlıklı ortalama stok kapatma transferi* olarak bilinen sanal bir transfer olarak görülebilir. 
 
 Bu tarihte veya bu tarihten önce yalnızca bir giriş gerçekleştiyse, ortalamayı değerlemeniz gerekmez. Tüm çıkışlar bu girişten kapatılacağından, sanal transfer oluşturulmaz. Benzer şekilde, o tarihte yalnızca çıkışlar oluşursa, ortalamanın değerlendirileceği bir giriş yoktur ve sanal transfer oluşturulmayacaktır. Ağırlıkı ortalama tarihini kullandığınızda, stok hareketlerini belirli bir madde girişinin belirli bir çıkışa göre kapatılması için işaretleyebilirsiniz. Bu durumda, ağırlıklı ortalama tarihi kuralı kullanılmaz. Ağırlıklı ortalama tarihi stok modelini kullanırken aylık stok kapatma yapmanızı öneririz. 
 

@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 1a627e2261c4c9c854b68262d7ce316ab6d40dd4
+ms.sourcegitcommit: 7de5fbcaa9f287752e3ae4834eb48d622d263579
+ms.openlocfilehash: 890f035a291dbec936594ceeabc5de284d160ad4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/25/2017
 
 ---
-# <a name="define-the-dependency-of-configurations-from-othcomponents-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için diğer bileşenlerin yapılandırmalarının bağımlılığını tanımlama
+# <a name="define-the-dependency-of-configurations-from-other-components-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için diğer bileşenlerin yapılandırmalarının bağımlılığını tanımlama
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 

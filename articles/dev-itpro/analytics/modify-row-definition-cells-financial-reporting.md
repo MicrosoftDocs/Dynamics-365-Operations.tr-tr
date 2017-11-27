@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eb09c0bb28c2ba8e7b890854c444cec80fe8277c
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 9c0372f3bc4e1fb4394d69f6e3dbf6c0f844b991
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -320,7 +320,7 @@ Tür pozitif değeri ve ardından negatif değeri temsil etmelidir. Genellikle p
 | %0,00;(%0,00)                  | %123456,00 | (123456.00%) | 0.00%   |
 
 ## <a name="specify-a-normal-balance-cell"></a>Normal Bakiye hücresi belirtme
-Bir satır tanımındaki **Normal Bakiye** hücresi bir satırdaki tutarların işaretini kontrol edin. Bir satırın işaretini ters çevirmek veya bir hesabın normal bakiyesi bir borç ise, bu satır **Normal Bakiye** hücresine **C** yazın. Rapor tasarımcısı o satırdaki tüm borç bakiyesi hesaplarının işaretini ters çevirir. Rapor tasarımcısı bu hesapları ters çevirdiğinde tüm tutarlardan alacak/borç özelliğini kaldırır ve böylece toplama işlemi kolaylaşır. Örneğin, net geliri hesaplamak için giderleri gelirlerden çıkarırsınız. Genellikle, toplanan ve hesaplanan satırlar **C** kodundan etkilenmez. Ancak, sütun tanımındaki **XCR** yazdırma denetimi, **Normal Bakiye** sütununda bir **C** içeren her türlü satırın işaretini ters çevirir. Bu biçimlendirme özellikle tüm olumsuz varyansları negatif tutarlar olarak göstermek istediğinizde önemlidir. Toplanan veya hesaplanan sayı yanlış işarete sahipse işareti ters çevirmek için satırın **Normal Bakiye** hücresine bir **C** girin.
+Bir satır tanımındaki **Normal Bakiye** hücresi bir satırdaki tutarların işaretini kontrol edin. Bir satırın işaretini ters çevirmek veya bir hesabın normal bakiyesi bir borç ise, bu satır **Normal Bakiye** hücresine **C** yazın. Rapor tasarımcısı o satırdaki tüm borç bakiyesi hesaplarının işaretini ters çevirir. Rapor tasarımcısı bu hesapları ters çevirdiğinde tüm tutarlardan alacak/borç özelliğini kaldırır ve böylece toplama işlemi kolaylaşır. Örneğin, net geliri hesaplamak için giderleri gelirlerden çıkarırsınız. Genellikle, toplanan ve hesaplanan satırlar **C** kodundan etkilenmez. Ancak, sütun tanımındaki**XCR** yazdırma denetimi, **Normal Bakiye** sütununda bir **C** içeren her türlü satırın işaretini ters çevirir. Bu biçimlendirme özellikle tüm olumsuz varyansları negatif tutarlar olarak göstermek istediğinizde önemlidir. Toplanan veya hesaplanan sayı yanlış işarete sahipse işareti ters çevirmek için satırın **Normal Bakiye** hücresine bir **C** girin.
 
 ## <a name="specify-a-row-modifier-cell"></a>Satır Değiştirici hücresi belirtme
 Bir satır tanımındaki **Satır Değiştirici** hücresinin içeriği söz konusu satıra ait sütun tanımında belirtilen mali yıllar, dönemler ve diğer bilgileri geçersiz kılar. Seçilen değiştirici satırdaki her hesaba uygulanır. Aşağıdaki değiştirici türlerinden birini veya daha fazlasını kullanarak her satırı değiştirebilirsiniz:
@@ -473,7 +473,7 @@ Boyut değeri kümesi, adlandırılmış bir boyut değerleri grubudur. Bir boyu
 3.  **Boyut Değeri Kümelerini Yönet** iletişim kutusundaki **Boyut** alanında, oluşturulacak boyut değeri kümesinin türünü seçin ve ardından **Yeni**'ye tıklayın.
 4.  **Yeni** iletişim kutusunda küme için ad ve açıklama girin.
 5.  **Başlangıç** sütununda, bir hücreye çift tıklayın.
-6.  **Hesap** iletişim kutusunda, listeden hesap adını seçin veua **Arama** alanında girişi arayın. Ardından **Tamam**'ı tıklatın.
+6.  **Hesap** iletişim kutusunda, listeden hesap adını seçin veua **Arama** alanında girişi arayın. Ardından **Tamam**'a tıklayın.
 7.  Söz konusu işleç için formül tasarlamak üzere **Bitiş** sütunundaki 5 ila 6. adımları tekrarlayın.
 8.  Formül tamamlandığında, **Tamam**'a tıklayın.
 9.  **Boyut Kümelerini Yönet** iletişim kutusunda, **Kapat**'a tıklayın.

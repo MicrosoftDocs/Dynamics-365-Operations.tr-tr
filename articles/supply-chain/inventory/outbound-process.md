@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 9c09a7bd314bb9005eb0b6c69d7cccad1c30cfdb
-ms.openlocfilehash: 7b395cab2184f8f9f3f50a7a595c6ed782645323
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1b8b17b719713097d77a117cca53eff6886ff1c7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -63,7 +63,7 @@ Aynı kurulum transfer emirlerine de uygulanır. **Stok yönetimi** \> **Kurulum
 
 [![Stok çıkış emrini sonlandır seçeneği](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
 
-Bazen, stoktaki bazı maddeler malzeme çekme listesi işleminin bir parçası olarak çekilemez. Örneği, bu durum bir ambar çalışanı çekme satırlarındaki miktarları azalttığında ve malzeme çekme listesini işlediğinde gerçekleşebilir. **Stok çıkış emrini sonlandır** seçeneği **Evet** olarak ayarlanmışsa, kalan çekilmemiş miktarlar sipariş düzeyine geri bildirilidir. Seçenek **Hayır** olarak ayarlanmışsa, kalan çekilmemiş miktarlar bir açık çıkış siparişi miktarı olarak tutulur. Bu durumda, miktarlar ambara serbest bırakılmış kalır ve yeni bir malzeme çekme listesine **Açık çıkış emirleri** işlevinin parçası olarak eklenmelidir.
+Ambar çalışanı malzeme çekme listesi miktarlarını azalttığında, karşılık gelen stok sipariş miktarları sevkiyattan çıkarılır. Malzeme çekme listesi belirli bir zamanda güncelleştirildiğinde, **Stok çıkış siparişini sonlandır** seçeneği **Evet** olarak ayarlanmışsa kalan miktarlar siparişe geri bildirilir. **Stok çıkış siparişini sonlandır** seçeneği **Hayır** olarak ayarlanmışsa, kalan miktarlar açık çıkış siparişi miktarı olarak tutulur ve yeni bir malzeme çekme listesine **Açık çıkış siparişleri** işlevinin bir parçası olarak eklenmelidir. 
 
 [![İşlevler menüsünde açık çıkış emirleri komutu](./media/open-output-order.png)](./media/open-output-order.png)
 

@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fbe32e248727912073631f1dfb8ee0a49cbf0a5e
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 7563c749d0d2b5747f1b7886def82ba7191499b1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/15/2017
 
 ---
 
@@ -36,9 +36,8 @@ Faturaları ve müşterilerden gelen ödemeleri izlemek için Alacak hesapların
 Müşteri grupları, müşteriler, nakil profilleri, çeşitli ödeme seçenekleri, faiz notları, tahsilat mektupları, komisyon ücretleri, müşterilerle ilgili parametreler, giderler, teslimatlar ve teslimat yerleri ve diğer Alacak hesapları ve Alacaklar ile Tahsilatların bilgilerini oluşturabilirsiniz.
 Aşağıdaki tablo, Alacak hesapları ve kredi ve tahsilatların yapılandırma ve bakımını destekleyen sayfaları listeler. Tablo girişleri önce göreve göre, ardından sayfa adına göre alfabetik olarak sıralanmıştır.
 
-| ![Not](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Not")**Not**          |
-|--------------------------------------------------------------------------------------------------|
-| Aşağıdaki tablodaki bazı sayfalara gidilmesi için bilgi veya parametre ayarları gerekir. |
+> [!NOTE]
+> Veri veya parametre ayarları diğer sayfalara girilmemişse aşağıdaki tabloda bazı sayfalara gidemezsiniz.
 
 | Görev                                                 | Sayfa adı                            | Kullanım                                                                                                                                                                                                                                                                             |
 |------------------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

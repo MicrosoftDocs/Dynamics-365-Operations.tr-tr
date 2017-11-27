@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c4c900d7599b0dc09e97e6a62d5b43971a8c3e33
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 6b2346c635fd16fce99c2813856e0fc9b5b03a44
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -38,12 +38,11 @@ Aşağıdaki öğrenme haritası, Maliyet muhasebesi modülünün çerçevesini 
 ## <a name="quick-links"></a>Hızlı bağlantılar
 |      |   |
 |------|---|
-|  [Başlayın](terms-cost-accounting.md)    | [Kaynak sistemi yapılandır](../general-ledger/financial-dimensions.md)  |
-|  [Boyut oluşturma ve boyut üyelerini içe aktarma](cost-elements.md)    |[Boyut hiyerarşisi oluşturma](dimension-hierarchy.md)   |
-|  [Temel ayar oluşturma](./tasks/define-cost-control-units.md)    |  [Tahsisat tabanı tanımlama](allocation-bases.md) |
-|    [İlkeleri tanımlama](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md)  | [Veri kaynağı ve veri sağlayıcı](./tasks/manage-data-source-cost-accounting-ledger.md)  |
-| [Veri kaynağı işleme](./tasks/process-trace-source-data.md)     | [Genel gider hesaplaması](overhead-calculation.md)  |
-|   [Çözümleme ve raporlama](cost-control-workspace.md)   |   |
+|  [Temel varlıkları yapılandırma (e-öğrenme)](https://mbspartner.microsoft.com/Home) (CustomerSource hesabı gerektirir)  |[Boyut oluştur](cost-elements.md)  |
+|  [Boyut hiyerarşisi oluşturma](dimension-hierarchy.md)  |[Temel ayar oluşturma](./tasks/define-cost-control-units.md)| 
+| [Tahsisat tabanı tanımlama](allocation-bases.md)|[İlkeleri tanımlama](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [Veri kaynağı ve veri sağlayıcı](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Veri kaynağı ve veri sağlayıcı](./tasks/process-trace-source-data.md)     | 
+|[Genel gider hesaplaması](overhead-calculation.md)  | [Çözümleme ve raporlama](cost-control-workspace.md)   |
 
 ## <a name="get-started-videosbr"></a>Başlangıç videoları<br/>
 

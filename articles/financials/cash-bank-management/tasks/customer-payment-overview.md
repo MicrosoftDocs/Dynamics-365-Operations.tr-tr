@@ -3,7 +3,7 @@ title: "Müşteri ödemesine genel bakış"
 description: "Bu görev kılavuzu, müşteri ödemelerini girmek için kullanılan çeşitli yöntemleri açıklar."
 author: kweekley
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 10/26/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e6e10d0d0a05b0594ba5cf6a77f474b461bd9dca
+ms.sourcegitcommit: 621ad64c06a6cebff90e888ac89bba922052cf35
+ms.openlocfilehash: de2526d5c674de9505174d3f40f9ae597b8a0a6b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="customer-payment-overview"></a>Müşteri ödemesine genel bakış
@@ -53,8 +53,8 @@ Bu görev kılavuzu, müşteri ödemelerini girmek için kullanılan çeşitli y
 15. Başka bir ödeme oluşturmak için Yeni seçeneğine tıklayın. 
 16. Ödemeyi aldığınız müşteriyi seçin.
     * Müşteriyi bilmiyor ancak ödeme tarafından ödenen bir faturayı biliyorsanız, Fatura alanını kullanarak faturayı el ile girin veya seçin. Fatura seçildikten sonra müşteri varsayılan olarak seçilir.  
-17. Ödenen faturaları işaretlemek için Hareketleri kapat seçeneğine tıklayın.
-    * Ödemeyi herhangi bir fatura karşılık kapatmanıza gerek yoktur. Bu bir ön ödemeyse veya hangi faturanın ödendiğini bilmiyorsanız, ödemeyi girebilir ve deftere nakledebilirsiniz. Ödeme, daha sonraki bir zamanda bir faturaya karşılık kapatılabilir.  
+17. Hareketleri kapatma'yı seçerek ödenen faturaları işaretleyin.
+    * Ödemeyi herhangi bir faturaya kapatmanıza gerek yoktur. Bu bir ön ödemeyse veya hangi faturanın ödendiğini bilmiyorsanız, ödemeyi girebilir ve deftere nakledebilirsiniz. Ödeme, daha sonraki bir zamanda bir faturaya karşılık kapatılabilir.  
 18. Ödeme ile ödenen faturaları işaretleyin. 
 19. Faturaya kapatılacak olan ödemenin tutarını girin.
 20. Tamam'a tıklayın.

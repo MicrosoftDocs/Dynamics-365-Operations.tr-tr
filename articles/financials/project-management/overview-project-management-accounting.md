@@ -3,7 +3,7 @@ title: "Proje yönetimi ve muhasebe"
 description: "Proje yönetimi ve muhasebe işlevi, birden çok sektörde hizmet almak, ürün üretmek veya bir sonuç elde etmek için kullanılabilir."
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cd30c9278c58f8e0ca9b50f67a999708bd64c0a2
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 6a2c51d9ffe288dad2db43ecd0a4c8f717c6379a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -243,15 +243,15 @@ Finance and Operations, öngörülen tahminleri otomatik olarak azaltmaz. Bu ned
 > </tr>
 <tr class="odd">
 <td>Kalan bütçe</td>
-<td>Bu yöntem, projenin tamamlanması için gerekli maliyeti hesaplamak için bir kalan bütçe modeli kullanır. Bu yöntemi kullandığınızda, fiili maliyetler ve kalan bütçe modelindeki tahmin edilen tutarlar toplanır. Sonuç bir toplam maliyettir. Bu yöntemi kullanmadan önce hareketlerin sisteme kaydettiğiniz gerçek hareketlere dayalı olarak düşürülmesi için mutlaka bir kalan bütçe modeli kurulmalıdır. <strong>Tahmin modelleri</strong> sayfasında, alanların <strong>Otomatik tahmin azaltma</strong> grubunda işaretlendiğinden emin olun. Tipik olarak, bir kalan bütçe bir orijinal bütçeden kopyalanır. Hareketler girildikçe kalan bütçedeki hareketler düşürülür. Proje ilerledikçe kalan bütçenin mutlaka ayarlanması gerektiğine karar verirseniz tahmin hareketlerini kalan bütçeye şarj edersiniz. <strong>Not:</strong> Bu yöntem yalnızca tahmin modeli tahmine eklenmişse uygulanabilir.</td>
+<td>Bu yöntem, projenin tamamlanması için gerekli maliyeti hesaplamak için bir kalan bütçe modeli kullanır. Bu yöntemi kullandığınızda, fiili maliyetler ve kalan bütçe modelindeki tahmin edilen tutarlar toplanır. Sonuç toplam maliyettir. Bu yöntemi kullanmadan önce hareketlerin sisteme kaydettiğiniz gerçek hareketlere dayalı olarak düşürülmesi için mutlaka bir kalan bütçe modeli kurulmalıdır. <strong>Tahmin modelleri</strong> sayfasında, alanların <strong>Otomatik tahmin azaltma</strong> grubunda işaretlendiğinden emin olun. Tipik olarak, bir kalan bütçe bir orijinal bütçeden kopyalanır. Hareketler girildikçe kalan bütçedeki hareketler düşürülür. Proje ilerledikçe kalan bütçenin mutlaka ayarlanması gerektiğine karar verirseniz tahmin hareketlerini kalan bütçeye şarj edersiniz. <strong>Not:</strong> Bu yöntem yalnızca tahmin modeli tahmine eklenmişse uygulanabilir.</td>
 </tr>
 <tr class="even">
 <td>Önceki tahmin gibi</td>
-<td>Önceki dönemde kullanılan tahmin yöntemiyle aynı yöntem uygulanır. Önceki dönemde bir tahmin modeli gerekmişse bu yöntem de bir tahmin modeli gerektirir.</td>
+<td>Önceki dönem içinde kullanılan aynı tahmin yöntemi uygulanır. Önceki dönem bir tahmin modeli gerektirdiyse bu yöntem bir tahmin modeli gerektirir.</td>
 </tr>
 <tr class="odd">
 <td>Tamamlama maliyetini sıfıra ayarla</td>
-<td>Tipik olarak, bu yöntem tahmin projesi kaldırılmadan kullanılır. Bu yöntem, toplam tahminleri nakledilen gerçek hareketlerle eşleştirir ve <strong>Tamamlanacak maliyet</strong> sütununu siler. Neticedeki tamamlanma yüzdesi daima yüzde 100'dür. <strong>Tahmin</strong> alanı, oluşturduğunuz her bir maliyet satırı için seçilmez ve toplam tahmin bir önceki maliyet tahmininden kopyalanır. Tahmin dönemi için gerçek tüketim, projenin tamamlanma maliyetinden düşürülür. Bu yöntem bir tahmin modeli gerektirmez.</td>
+<td>Tipik olarak, bu yöntem tahmin projesi kaldırılmadan kullanılır. Bu yöntem, toplam tahminleri nakledilen gerçek hareketlerle eşleştirir ve <strong>Tamamlanacak maliyet</strong> sütununu siler. Neticedeki tamamlanma yüzdesi daima yüzde 100'dür. <strong>Tahmin</strong> alanı, oluşturduğunuz her bir maliyet satırı için seçilmez ve toplam tahmin bir önceki maliyet tahmininden kopyalanır. Tahmin dönemi için asıl tüketim proje tamamlama maliyetinden çıkarılır. Bu yöntem için bir tahmin modeli gerekmez.</td>
 </tr>
 <tr class="even">
 <td>Maliyet şablonundan</td>

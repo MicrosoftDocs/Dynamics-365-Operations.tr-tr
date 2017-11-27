@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 01bb8999e5d9c0e16f133a621ebfe1d102565f2f
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 2986d218318951b7e46cb5dfafcbd17f2d513755
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/15/2017
 
 ---
 
@@ -34,9 +34,9 @@ ms.lasthandoff: 09/29/2017
 Bu konu mali rapor oluşturma hakkında bilgi sağlar. 
 
 Bir rapor oluşturmak için rapor tanımı açın ve ardından araç çubuğundaki Oluştur düğmesini tıklatın. Rapor Kuyruğu Durumu penceresi açılır ve raporunuzun kuyruktaki konumunu gösterir. Varsayılan olarak, oluşturulan rapor Web Görüntüleyici'de açılır.
-| ![Not](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Not")**Not**        |
-|------------------------------------------------------------------------------------------------|
-| Yalnızca erişim izni olan klasörlere ve konumlar için raporlar oluşturabilirsiniz. |
+
+> [!NOTE]
+> Yalnızca erişim izni olan klasörlere ve konumlar için raporlar oluşturabilirsiniz.
 
 Aşağıdaki tablo, rapor oluşturmak için kullanabileceğiniz seçenekleri açıklar.
 
@@ -51,9 +51,10 @@ Bir rapor oluşturduğunuzda, Rapor tanımını sekmesinde belirlediğiniz seçe
 Birçok şirket, iş süreçlerinin hizalamak için zamanlanmış aralıklarla çalıştırmak çekirdek raporlar kümesine sahiptir. Bir raporun örneğin günlük, haftalık, aylık veya yıllık olarak oluşturulmasını planlayabilirsiniz. Bu, tek bir rapor ya da birden fazla şirketi içeren bir rapor grubu olabilir. Bir raporlama ağacı tanımındakiler gibi belirtilen şirketlerin her biri için kimlik bilgilerinizi girmeniz gerekir. Kimlik bilgileri geçerli değilse rapor yalnızca erişime izniniz bulunan o anda oturum açtığınız şirket gibi bilgileri görüntüler. Çıkış bilgileri önce rapor grubundan ve ardından tek raporlardan okunur.
 
 Rapor planları oluşturulup kaydedildikçe Rapor Planları'nın altındaki gezinti bölmesinde görüntülenir. Raporları düzenlemek için klasörler oluşturabilirsiniz. Bir plandaki tek bir rapor çalışmıyorsa tüm diğer raporlar çalışmaya devam eder.
-| ![Önemli](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Önemli")**Önemli**                                                                                                           |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Rapor planlarını oluşturmak, değiştirmek ve silmek için, tasarımcı veya yönetici rolüne sahip olmanız gerekir. Bir rapor çalıştırıldığında, raporu oluşturmak için planı oluşturan kullanıcının kimlik bilgileri kullanılır. |
+
+> [!IMPORTANT]
+> Rapor planlarını oluşturmak, değiştirmek ve silmek için, tasarımcı veya yönetici rolüne sahip olmanız gerekir. Bir rapor çalıştırıldığında, raporu oluşturmak için planı oluşturan kullanıcının kimlik bilgileri kullanılır.
+
 
 ### <a name="create-a-report-schedule"></a>Rapor planı oluşturma
 
@@ -100,14 +101,15 @@ Devam etmek için, Rapor Planları iletişim kutusundaki İzinler düğmesine t�
 Bir yapı taşı grubundaki tüm satır tanımları, raporlama ağacı tanımları ve rapor tanımları çapında eksik olabilecek mali hesapları ve boyutları arayabilirsiniz. Bu kısa dönemde birkaç hesap veya yapı taşı oluşturduğunuzda veya güncellediğinizde ve tüm yeni bilgilerin raporlarınızda bulunduğunu doğrulamak istediğiniz zaman yararlıdır.
 
 Eksik hesaplar en düşük ve en yüksek değerleri satır tanımını kullanılarak veya raporlama ağaç tanımından belirlenir ve daha sonra satır tanımı ya da raporlama ağaç tanımında olmayan, ancak mali verileri olan hesapların listesini görüntülenir. Eksik bir hesap satır tanımındaki değerlerden büyükse veya küçükse söz konusu hesap eksik hesaplar listesine eklenmez.
-| ![İpucu](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "İpucu")**İpucu**                                             |
-|----------------------------------------------------------------------------------------------------------------------------------|
-| Doğrulama amacıyla, bu işlem aylık raporları oluşturmanızdan önce ve yeni yap taşları oluşturduğunuzda çalıştırılmalıdır. |
+
+> [!TIP]
+> Doğrulama amacıyla, bu işlem aylık raporları oluşturmanızdan önce ve yeni yap taşları oluşturduğunuzda çalıştırılmalıdır.
 
 Değer aralıklarına sahip raporlarda eksik hesap bulunması ihtimali daha düşüktür. Mümkün olduğunda, aralıkları Yapı bloğu içinde oluşturuldukları sırada yeni hesaplar eklemek için kullanın. Hiçbir rapor tanımı, @ANY şirketi olarak ayarlanmamışsa, belirli bir şirkete oturum açın ve bu şirket için eksik bir hesap analizi çalıştırın.
-| ![Not](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Not")**Not**                                                                                           |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Yeni bir şirket eklenmişse, yeni şirketi varolan tüm raporlarda raporlama ağaçlarına eklemeniz gerekir veya şirket eksik hesap analizine dahil edilmez. |
+
+> [!NOTE]
+> Yeni bir şirket eklenmişse, yeni şirketi varolan tüm raporlarda raporlama ağaçlarına eklemeniz gerekir veya şirket eksik hesap analizine dahil edilmez.
+
 
 ### <a name="run-missing-account-analysis"></a>Eksik hesap analizi çalıştırma
 
@@ -119,9 +121,9 @@ Değer aralıklarına sahip raporlarda eksik hesap bulunması ihtimali daha dü�
 6.  Etkilenen maddeyi açmak için, liste bölmesinde görüntülenen ilişkili simgeye tıklayın veya maddeye sağ tıklayarak Aç'ı seçin. Birden fazla madde seçmek için, alt bölmede maddeleri seçerken Ctrl tuşunu basılı tutun.
 7.  Analize dahil edilmemesi gereken herhangi bir değer, yapı taşı veya rapor alırsanız maddeye sağ tıklayın ve Hariç tut'u seçin ya da maddeyi listeden kaldırmak için maddenin yanındaki Hariç tut onay kutusunu işaretleyin. Liste yenilendiğinde hariç tutulan maddeler dahil edilmez. Birden fazla madde seçmek için, alt bölmede maddeleri seçerken Ctrl tuşunu basılı tutun. Analizden çıkarmak için daha önce seçtiğiniz her türlü sonuç dahil tüm maddeleri görüntülemek için Hariç tutulan yapı taşlarını ve değerleri göster onay kutusunu işaretleyin ve ardından Yenile'ye tıklayın.
 8.  Ele aldığınız özel durumları yenilemek için Yenile'ye tıklayın. Tüm sonuçları tamamen yenilemek için Evet'e, ele alınan maddeleri kısmen yenilemek için ise Hayır'a tıklayın.
-    | ![Not](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Not")**Not**                    |
-    |------------------------------------------------------------------------------------------------------------|
-    | Form, son 15 dakikada açılmadığı sürece açıldığında otomatik olarak yenilenir. |
+
+    > [!NOTE]
+    > Form, son 15 dakikada açılmadığı sürece açıldığında otomatik olarak yenilenir.
 
 9.  Sorunlar çözüldüğünde, Tamam'a tıklayarak iletişim kutusunu kapatın.
 

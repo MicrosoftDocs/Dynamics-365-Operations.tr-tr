@@ -1,16 +1,16 @@
 ---
 title: "Yardıma genel bakış"
-description: "Bu makale, Microsoft Dynamics 365 for Finance and Operations Yardım sistemi bileşenlerine genel bir bakış sunar. Makalede, kuruluşunuz için özel belgeleri ve eğitimi nasıl sağlayabileceğiniz açıklanmaktadır."
+description: "Bu konu, Microsoft Dynamics 365 for Finance and Operations Yardım sistemi bileşenlerine genel bir bakış sunar. Makalede, kuruluşunuz için özel belgeleri ve eğitimi nasıl sağlayabileceğiniz açıklanmaktadır."
 author: margoc
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
@@ -18,18 +18,18 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
-ms.openlocfilehash: 2df27a23d31ecde99bb31b4f8a19295c331cae09
+ms.sourcegitcommit: d2063cd0ae592357d57fb3c787450c604fb9be58
+ms.openlocfilehash: 549d059e549ba470eb299753fd7b87920e6dd43d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/11/2017
 
 ---
 
-# <a name="help-overview"></a>Yardıma genel bakış
+# <a name="help-system-overview"></a>Yardım sistemine genel bakış
 
 [!include[banner](../includes/banner.md)]
 
-Bu makale, Microsoft Dynamics 365 for Finance and Operations Yardım sistemi bileşenlerine genel bir bakış sunar. Makalede, kuruluşunuz için özel belgeleri ve eğitimi nasıl sağlayabileceğiniz açıklanmaktadır. 
+Bu konu, Microsoft Dynamics 365 for Finance and Operations Yardım sistemi bileşenlerine genel bir bakış sunar. Makalede, kuruluşunuz için özel belgeleri ve eğitimi nasıl sağlayabileceğiniz açıklanmaktadır. 
 
 > [!NOTE] 
 > Aşağıdaki ürünler yakından ilişkilidir: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail ve Dynamics 365 for Talent. Aynı işlev, her 3 üründe de görülebilir. Sonuç olarak, Perakende ile ilişkili olan konularda, ürün adı Dynamics 365 for Retail olacaktır; öncelikli olarak Talent ile ilgili konularda, ürün adı Dynamics 365 for Talent olacaktır ve temel ürünle ilgili konularda, ürün adı Dynamics 365 for Finance and Operations olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
@@ -69,16 +69,17 @@ docs.microsoft.com sitesi ([docs.microsoft.com/dynamics365/unified-operations](.
 
 İçeriği herhangi bir arama motoruyla da bulabilirsiniz. En iyi sonuçları almanız için, site:docs.microsoft.com dynamics 365 "arama terimi" şeklinde site aramasını kullanmanızı öneririz.  
 
-![Site araması](./media/site-search-1.png)
-
-![Site araması sonuçları](./media/site-search-results-2.png)
-
 ### <a name="the-docsmicrosoftcom-table-of-contents"></a>docs.microsoft.com içindekiler tablosu
-Tüm ürünler, docs sayfasında tek bir içindekiler tablosunu paylaşırlar ve bu da müşterilerin içinde bulundukları konu hakkındaki bağlamı görmelerine olanak sağlar. Ayrıca, aradığınız konuları bulmak için Filtre denetimini kullanmanıza olanak sağlar.
+Finance and Operations, Retail ve Talent, belgeler sitesinde tek bir içindekiler tablosunu paylaşır ve bu da müşterilerin içinde bulundukları konu hakkındaki bağlamı görmelerine olanak sağlar. Ayrıca, aradığınız konuları bulmak için içindekiler bölümünün üstünde bulunan Filtre denetimini kullanmanıza olanak sağlar.
 
-### <a name="how-can-i-contribute"></a>Nasıl katkıda bulunabilirim? 
+### <a name="follow-a-topic"></a>Bir konuyu izleme
+Bir konuyu izlemek için açıklama kutusunun altındaki +İzle düğmesine tıklayın. Konuyu izlemek için oturum açmanız gerekir. Ayrıntılar için bkz. [Bize bir yorum yazın](#leave-us-a-comment).  
 
-Bize bir yorum yazın! 
+### <a name="give-feedback"></a>Görüş bildirin 
+Müşteri geri bildirimlerinden gerçekten memnuniyet duyuyoruz. GitHub aracılığıyla yorum yapabilir veya içeriğimizle ilgili değişiklikler önerebilirsiniz.
+
+##### <a name="leave-us-a-comment"></a>Bize bir yorum yazın 
+Bir konuyla ilgili geri bildiriminiz veya sorunuz varsa, sayfanın alt kısmından bize yorum bırakın.  
 
 1 Sayfanın altındaki yorumlara ulaşmak için **Yorumlar** üzerine tıklayın.
 
@@ -96,6 +97,19 @@ Veya
 Site için yeni bir hesap oluşturmak için sağda, bir e-posta adresi ve yeni bir parola girin. 
 
 ![Oturum açma seçenekleri](./media/signin-options.png)
+
+
+##### <a name="suggest-a-change-or-contribute-content-through-github"></a>GitHub aracılığıyla değişiklik önerin veya içeriğe katkıda bulunun
+Bir değişiklik önermek için GitHub hesabınız olması ve Katılımcı Lisansı Sözleşmesi imzalamanız gerekir.  Talebinizi gönderdikten sonra önerilen değişiklikleri gözden geçiririz. Gerekirse, içeride bu konuyu tartışır ve size geri döneriz.  
+
+Başlamak için bir konudaki **Düzenle** (Kalem) düğmesini tıklayın veya https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public adresine gidin. 
+
+Daha fazla bilgi için lütfen katılımcı kılavuzumuza başvurun: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
+
+
+> [!NOTE]
+> Şu anda yalnızca İngilizce havuzlarımıza katılımları kabul edebiliyoruz.  
+> GitHub üzerinden bildirilen Sorunları kabul etmiyoruz. Lütfen içerik önerileri için çekme talebi kullandığınızdan emin olun. Özellik ve ürün geribildirimleri için en uygun yer Dynamics 365 Fikirler Portalıdır: https://ideas.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Görev kılavuzları
@@ -164,7 +178,7 @@ Bir sistem yöneticisi bu adımları tamamladıktan sonra, Yardım bölmesini a�
 
 ### <a name="where-are-the-translated-task-guides"></a>Çevrilmiş Görev kılavuzları nerededir?
 
-Çevrilmiş Görev kılavuzları, kütüphanede, başlıklarında "Tüm diller" olarak yayınlanır. Finance and Operations içinde yerelleştirilmiş Görev kılavuzu yardımını görmek için uygun bir kitaplığa bağlı olduğunuzdan emin olun. Görev kılavuzunun görüntülendiği dil her kullanıcı için **Seçenekler** &gt; **Tercihler** altındaki Dil ayarlarından kontrol edilir. 
+Çevrilmiş Görev kılavuzları, kütüphanede, başlıklarında "Tüm diller" olarak yayınlanır. Finance and Operations'da yerelleştirilmiş Görev kılavuzu yardımını görmek için uygun bir kitaplığa bağlı olduğunuzdan emin olun. Görev kılavuzunun görüntülendiği dil her kullanıcı için **Seçenekler** &gt; **Tercihler** altındaki Dil ayarlarından kontrol edilir. 
 -   Görev kılavuzu çevrildiyse, Görev kılavuzunu açtığınızda, Görev kılavuzundaki tüm metin seçmiş olduğunuz dilde görüntülenir.
 -   Görev kılavuzu çevrilmediyse, açtığınızda, yalnızca bazı metinler (kontrollerin metinleri) seçmiş olduğunuz dilde görüntülenir.
 
@@ -196,9 +210,4 @@ Aşağıdaki tablo web sitelerimizi listeler. İçerik web sitelerimiz müşteri
 [Yeni veya güncelleştirilmiş Görev kılavuzları (Ağustos 2016)](new-updated-task-guides-available-august-2016.md)
 [Yeni veya güncelleştirilmiş Görev kılavuzları (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
 [Yeni veya güncelleştirilmiş Görev kılavuzları(Şubat 2016)](new-task-guides-available-february-2016.md)
-
-
-
-
-
 

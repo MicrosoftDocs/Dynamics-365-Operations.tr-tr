@@ -3,7 +3,7 @@ title: "Operations kaynakları"
 description: "Operasyon kaynakları, bir projenin veya bir üretim işleminin etkinliklerini gerçekleştirir. Bunlar farklı türlerde, farklı yeteneklere sahip olabilir."
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WrkCtrCapability
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 61943
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a333c4d9c0e614c513bf3e1a02b943b186fb1e5
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -63,7 +63,7 @@ Bir proje ve üretim zamanlandığında operasyon kaynakları faaliyetlere atan�
 
 -   **Kapasite** – Kapasite ölçü birimi olarak operasyon kaynağının saatlik kapasitesini belirtin.
 -   **Toplu kapasite** – Operasyon kaynağının çalışma başına işleyebileceği maksimum parça sayısını belirtin.
--   **Verimlilik yüzdesi** – Operasyon kaynağından beklediğiniz verimliliği belirtin. Verimlilik yüzdesi, operasyon kaynağının iş çıkarma yeteneğini ayarlar ve kaynağa ayrılan zamanı etkiler. Operasyon kaynağını kullanan operasyonların sağlama süreleri de buna göre ayarlanır. Hesaplamada kullanılan formül şöyledir: Planlama süresi = Zaman × 100÷ Formüldeki verimlilik yüzdesi, *Zaman* hem çalışma zamanını hem kurulum zamanını içerir.
+-   **Verimlilik yüzdesi** – Operasyon kaynağından beklediğiniz verimliliği belirtin. Verimlilik yüzdesi, operasyon kaynağının iş çıkarma yeteneğini ayarlar ve kaynağa ayrılan zamanı etkiler. Operasyon kaynağını kullanan operasyonların sağlama süreleri de buna göre ayarlanır. Hesaplama için kullanılan formül şudur: Planlama zamanı = Zaman × 100 ÷ Verimlilik yüzdesi. *Zaman* hem çalıştırma süresini, hem de kurulum süresini içerir.
 -   **Operasyon planlama çizelgeleme yüzdesi** – Operasyon planlamasında kullanmak istediğiniz operasyon kaynağı kapasitesinin maksimum yüzdesini belirtin. İş planlaması yapılırken kapasitede esneklik sağlaması için bu değeri yüzde 100'den az olacak şekilde ayarlamalısınız.
 -   **Sınırlı kapasite** – Operasyon kaynağı, mevcut kullanılabilir kapasiteye göre planlanacaksa ve mevcut kapasite rezervasyonları değerlendirilecekse bu seçeneği **Evet** yapın. Bu seçenek **Hayır** yapılırsa, operasyon kaynağının sonsuz kapasiteye sahip olduğu varsayılır ve dolayısıyla kaynak kapasitesinin üzerinde rezerve edilebilir.
 -   **Sınırlı kaynak** – Operasyon kaynağının gerekli çalışma zamanı planlama özellikleriyle ilgili kullanılabilir fiili kapasiteye dayalı olarak zamanlanmasını istiyorsanız bu seçeneği **Evet** olarak ayarlayın.

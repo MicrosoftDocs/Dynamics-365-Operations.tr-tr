@@ -3,7 +3,7 @@ title: "Satınalma siparişini yerine koyma için yerleşim yönergesi ayarlama"
 description: "Bu yordam, bir basit konum yönergesini kurmayı göstermektedir."
 author: BibiSp
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 45e1e54c807597d4d5ff7370748012cbf28c1c6b
+ms.sourcegitcommit: 4bb4af7cb7aff101a8b9e6162823515f63b12886
+ms.openlocfilehash: 98ce3ad38dddda33be5466490fcd39d81251679c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Satınalma siparişini yerine koyma için yerleşim yönergesi ayarlama
@@ -61,7 +61,7 @@ Bu yordam, bir basit konum yönergesini kurmayı göstermektedir. Gösterilen ö
 4. Birim alanına bir değer yazın.
     * Gönderici miktarı ve Alıcı miktarı birim olarak ifade edilir. Bu alanı boş bırakırsanız, maddenin sahip olduğu stok birimi kullanılır.  
 5. Konum miktarı alanında, bir seçenek seçin.
-    * Hiçbiri, veya plaka miktarı: her plaka üzerine kayıtlı miktar. Birimleştirilmiş miktar: Kayıt edilmiş olan tüm miktar. Kalan miktar: Satınalma siparişi satırından henüz kaydedilecek olan miktar. Beklenen Miktar: Satınalma siparişi satırında belirtilen toplam miktarı.  
+    * Hiçbiri veya plaka miktarı: Her plaka üzerine kayıtlı miktar. Birimleştirilmiş miktar: Kayıt edilmiş olan tüm miktar. Kalan miktar: Satınalma siparişi satırından henüz kaydedilecek olan miktar. Beklenen Miktar: Satınalma siparişi satırında belirtilen toplam miktarı.  
 6. Birim ile sınırlayın onay kutusunu işaretleyin veya işareti kaldırın.
     * Bu seçeneği seçerseniz ve birim sayfası üzerinde birimi ile sınırla belirtirseniz, yalnızca bu ölçüm birimine sahip maddelerin bir konuma koyabilirsiniz. Örneğin, ölçüm PL (palet) ise, sadece palet öğelerini belirtilen konuma koyabilirsiniz.  
 7. Bölünmeye izin ver onay kutusunu işaretleyin veya işaretini kaldırın.

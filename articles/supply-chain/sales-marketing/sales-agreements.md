@@ -1,9 +1,9 @@
 ---
 title: "Satış sözleşmeleri"
-description: "Bu makalede, satış anlaşmalarıyla ilgili bilgiler verilmektedir. Satış anlaşması, müşterinin özel fiyatlar ve iskontolar karşılığında ürünleri, belirli miktarda veya belirli bir zaman aralığında belirli bir tutarda almasını sağlayan bir sözleşmedir."
+description: "Bu konu, satış sözleşmeleri hakkında bilgiler sağlar. Satış anlaşması, müşterinin özel fiyatlar ve iskontolar karşılığında ürünleri, belirli miktarda veya belirli bir zaman aralığında belirli bir tutarda almasını sağlayan bir sözleşmedir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 15e3f872e4ded027734ee73081ba7af68be5107d
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 21e9c53f39b0f4def0052bf7f04c77279bfc610b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, satış anlaşmalarıyla ilgili bilgiler verilmektedir. Satış anlaşması, müşterinin özel fiyatlar ve iskontolar karşılığında ürünleri, belirli miktarda veya belirli bir zaman aralığında belirli bir tutarda almasını sağlayan bir sözleşmedir.
+Bu konu, satış sözleşmeleri hakkında bilgiler sağlar. Satış anlaşması, müşterinin özel fiyatlar ve iskontolar karşılığında ürünleri, belirli miktarda veya belirli bir zaman aralığında belirli bir tutarda almasını sağlayan bir sözleşmedir.
 
 Bir satış anlaşması,müşterinin belirli bir miktarda ya da belirli bir zaman zarfında ürün satın alması karşılığında özel fiyatlar, özel iskontolar ve ödeme ve teslimat koşulları gibi diğer özel koşullara hak kazanmasını sağlayan bir anlaşmadır. Mevcut herhangi bir ticaret anlaşmasındaki belirtilen fiyatlar ve iskontolar, satış anlaşmasındaki fiyatlar ve iskontolar tarafından geçersiz kılınır.  
 
@@ -88,7 +88,7 @@ Bir satış anlaşmasını onaylamazsanız, satış siparişleri oluşturmak iç
 Onaylamaların tüm revizyonlarını yazdırabilir veya önizleyebilirsiniz. Daha sonra onay almak için düzeltmeleri müşterinizle paylaşabilirsiniz.
 
 ## <a name="applying-sales-agreements-during-the-ordering-process"></a>Satış anlaşmalarını sipariş işlemleri sırasında uygulamak
-Bir satış anlaşmaları için satış siparişlerini doğrudan sevk etmezseniz, bir satış anlaşmasını sipariş girişi işlemi sırasında yine de bir siparişe bağlayabilirsiniz. Yeni bir satış siparişi oluşturuyorsanız ve bir satış anlaşmasını seçtiğinizde, bu anlaşmanın ödeme koşulları, teslimat koşulları ve teslimat adresi gibi şartları sipariş başlığına uygulanır ve anlaşmam ile sipariş arasında bir bağlantı oluşturulur. Sonra, sipariş satırlarında satış anlaşmasında belirtilen ürünleri ve kategorileri seçtiğinizde fiyat ve iskontolar ilgili anlaşmadan kopyalanır. Aynı satış siparişi hem bir satış anlaşmasıyla ilişkili olmayan satırları hem de satış anlaşmasında taahhüt edilen satırları içerebilir.
+Bir satış sözleşmesi için satış siparişlerini doğrudan serbest bırakmazsanız, bir satış sözleşmesini sipariş girişi işlemi sırasında yine de bir siparişe bağlayabilirsiniz. Yeni bir satış siparişi oluşturuyorsanız ve bir satış anlaşmasını seçtiğinizde, bu anlaşmanın ödeme koşulları, teslimat koşulları ve teslimat adresi gibi şartları sipariş başlığına uygulanır ve anlaşmam ile sipariş arasında bir bağlantı oluşturulur. Sonra, sipariş satırlarında satış anlaşmasında belirtilen ürünleri ve kategorileri seçtiğinizde fiyat ve iskontolar ilgili anlaşmadan kopyalanır. Aynı satış siparişi hem bir satış anlaşmasıyla ilişkili olmayan satırları hem de satış anlaşmasında taahhüt edilen satırları içerebilir.
 
 ## <a name="modifying-sales-orders-that-are-linked-to-sales-agreements"></a>Satış anlaşmalarına bağlı satış siparişlerini değiştirme
 Bir satış anlaşması üzerinden satış siparişi oluşturduysanız (yayınladıysanız), yalnızca ilişkili satış anlaşması satırlarına bağlantıyı kaldırırsanız ilgili satış siparişi satırlarındaki bazı alanlar değiştirilebilir. Aşağıdaki tabloda bu alanların bazıları listelenmiştir.

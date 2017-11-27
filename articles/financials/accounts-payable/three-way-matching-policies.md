@@ -1,9 +1,9 @@
 ---
 title: "Üç yönlü eşleştirme ilkeleri"
-description: "Bu makalede üç yönlü eşleştirme örnekleri sağlanmıştır."
+description: "Bu konuda üç yönlü eşleştirme örnekleri sağlanmıştır."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bc53df6b994c0d2e490e8823a53478f2ad04e163
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: da3099a07e3084bf49d03e0f4d421aebe9b39940
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede üç yönlü eşleştirme örnekleri sağlanmıştır.
+Bu konuda üç yönlü eşleştirme örnekleri sağlanmıştır.
 
 <a name="example-three-way-matching-for-items"></a>Örnek: Maddeler için üç yönlü eşleştirme
 -------------------------------------
@@ -65,7 +65,7 @@ Bu örnekteki fatura eşleştirme ilkeleri aşağıdaki rollerde görev yapan ki
 1.  Fabrikam'da alım departmanındaki bir çalışan olan Sammy, Contoso tarafından sevk edilen makinelerin toplam miktarını alır. Ürün girişine miktar olarak 5 girer. Satınalma siparişi tam olarak alındığından, satınalma siparişinin durumu Alındı olarak değişir.
 2.  Fabrikam'da borç hesapları koordinatörü olan April, Contoso tarafından gönderilen faturayı girer ve doğrular. April aşağıdaki bilgileri doğrular:
     -   Üç yönlü eşleştirme gerektiren maddeler için fatura satırındaki miktarın alınan miktarla eşleştiğini. Ürün girişinde belirtilen alınan miktarın faturayla eşleştiğini.
-    -   İki yönlü veya üç yönlü eşleştirme gerektiren maddeler için, fatura satırındaki fiyatlar Microsoft Dynamics 365 for Finance Operations, Enterprise sürümünde tanımlanan toleranslar aralığındadır. Bu, aşağıdaki fiyat eşleştirme türlerini kapsar:
+    -   İki yönlü veya üç yönlü eşleştirme gerektiren maddeler için, fatura satırındaki fiyatlar Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da tanımlanan toleranslar aralığındadır. Bu aşağıdaki fiyat eşleştirme türlerini içerir:
         -   Net birim fiyatı eşleştirme – Fatura satırındaki net birim fiyatı, satınalma siparişi satırındaki net birim fiyatla, tolerans yüzdesi aralığında eşleşir. Bu örnekte, net birim fiyat toleransı +%8'dir.
         -   Fiyat toplamları eşleştirme – Fatura satırlarındaki net tutar, tolerans yüzdesi, tutarı veya yüzde ve tutarı kapsamında satınalma siparişi satırındaki net tutarla eşleşir. Bu örnekte, fiyat toplamları eşleştirme toleransı +%15'dir.
 

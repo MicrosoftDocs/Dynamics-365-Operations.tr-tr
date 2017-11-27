@@ -1,27 +1,27 @@
 ---
 title: "İş akışı öğeleri"
-description: "Bu makalede, bir iş akışını oluşturan çeşitli öğeler açıklanmaktadır."
+description: "Bu konuda, bir iş akışını oluşturan çeşitli öğeler açıklanmaktadır."
 author: sericks007
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 56441
 ms.assetid: de740262-6ffd-42b9-a325-540eae5cec94
 ms.search.region: Global
-ms.author: tjvass
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 255777651a45b899850fc870c9da288f65df702c
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 15cac09a97305c1b467cbb97da2d4b8a864ccbc7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, bir iş akışını oluşturan çeşitli öğeler açıklanmaktadır.
+Bu konuda, bir iş akışını oluşturan çeşitli öğeler açıklanmaktadır.
 
 İş akışı öğelerden oluşur. Aşağıdaki bölümlerde her bir öğe türü tanımlanmıştır.
 
@@ -59,7 +59,7 @@ Bu makalede, bir iş akışını oluşturan çeşitli öğeler açıklanmaktadı
 -   Belgede değişiklik talep etme.
 -   Belgeyi onay için başka bir kullanıcıya atama.
 
-## <a name="lineitem-workflow-elements"></a>Satır maddesi iş akışı öğeleri
+## <a name="line-item-workflow-elements"></a>Satır maddesi iş akışı öğeleri
 Belgeleri veya bir belgedeki satır maddelerini işlemek için bir iş akışı oluşturulabilir. Örneğin, zaman çizelgeleri için onay iş akışı hazırladınız. (Biz bu iş akışına *belge iş akışı* diyeceğiz.) Bu belge iş akışına bir *satır öğesi iş akışı* öğesi ekleyebilirsiniz. Satır maddesi öğesi çalıştırıldığında, belgedeki her satır maddesi işlenmek üzere gönderilir. Tüm satır maddelerinin aynı satır maddesi iş akışı tarafından işlenmesini isteyebilirsiniz veya her bir satır maddesinin farklı bir satır maddesi iş akışı tarafından işlenmesini isteyebilirsiniz. Bir işçinin aşağıdaki şekle benzer bir zaman çizelgesi gönderdiğini düşünün.
 
 ![Satır öğeleri ile iş akışı](./media/workflow_lineitemworkflow.gif) 
@@ -70,7 +70,7 @@ Bu senaryoda, aşağıdaki satır maddesi iş akışlarını oluşturmak isteyeb
 -   **Satır maddesi iş akışı 2** – Bu iş akışı proje kodunun 2222 olduğu satır maddelerini işlemek için kullanılır.
 -   **Satır maddesi iş akışı 3** – Bu iş akışı proje kodunun 3333 olduğu satır maddelerini işlemek için kullanılır.
 
-## <a name="flowcontrol-elements"></a>Akış kontrolü öğeleri
+## <a name="flow-control-elements"></a>Akış kontrolü öğeleri
 Aşağıdaki öğeler, alternatif dalları veya aynı anda çalışan dalları olan iş akışları tasarlamanıza imkan verir.
 
 ### <a name="manual-decision"></a>El ile karar
