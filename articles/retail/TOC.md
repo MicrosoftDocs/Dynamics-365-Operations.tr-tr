@@ -2,6 +2,11 @@
 
 # Başlayın
 ## [Yenilikler veya değişenler](get-started/whats-new.md)
+## [Dynamics 365 for Retail'i satın almadan önce](get-started/before-you-buy.md)
+## [Önizleme aboneliğine kaydolma](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
+## [Tanıtım ortamını dağıtma](../dev-itpro/deployment/deploy-demo-environment.md)
+## [Dağıtım seçenekleri](dev-itpro/choose-deployment.md)
+
 
 # Ödemeler
 ## [Ödeme yöntemleri](payment-methods.md)
@@ -36,12 +41,14 @@
 ## [Perakende kanallarını tanımlama](define-maintain-retail-channels.md)
 ## [Çevrimiçi mağazaya genel bakış](online-stores.md)
 ## [Retail donanım istasyonu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md)
-## [Perakende saat ve işe devam](retail-time-attendance.md)
+## [Retail saati ve işe devam](retail-time-attendance.md)
 
-# Modern Satış Noktası (MPOS) ve Bulut POS
+# Modern Point of Sale (MPOS) ve Cloud POS
+## [POS işlemleri](POS-operations.md)
+## [MPOS/CPOS'taki tanıtım verileri ekran düzenleri](demo-data.md)
 ## Donanım çevre birimleri
 ### [Perakende çevre birimlerine genel bakış](retail-peripherals-overview.md)
-### [Microsoft tarafından test edilen POS donanım çevre birimleri](microsoft-tested-pos-hardware-peripherals.md)
+### [Microsoft tarafından test edilen POS donanımı çevre birimleri](microsoft-tested-pos-hardware-peripherals.md)
 ### [Perakende çevre birimi benzeticisi](dev-itpro/retail-peripheral-simulator.md)
 ### [Kanal istemcilerini, kasaları ve donanım istasyonlarını tanımlama ve koruma](define-maintain-channel-clients-registers-hw-stations.md)
 ## Ekran düzeni
@@ -60,10 +67,11 @@
 ### [Karma müşteri siparişleri](hybrid-customer-orders.md)
 ## Satış ilişkileri
 ### [Satış gruplarını kullanarak POS'taki komisyonları izleme](pos-sales-groups-track-commissions.md)
+## [Siparişi farklı bir mağazadan sevk etme](charge-send.md)
 ## Cihaz etkinleştirme
 ### [MPOS yapılandırması ve kurulumu](retail-modern-pos-device-activation.md)
-### [Bulut POS ve MPOS için genişletilmiş oturum açma ayarlama](extended-logon.md)
-### [Perakende hesapları ve cihazları genel merkezden yönetme](set-up-activation-accounts-validate-devices-hq.md)
+### [Cloud POS ve MPOS için genişletilmiş oturum açma ayarlama](extended-logon.md)
+### [Retail hesapları ve cihazları genel merkezden yönetme](set-up-activation-accounts-validate-devices-hq.md)
 ## Girişler
 ### [Makbuz şablonlarını ayarlama](receipt-templates-printing.md) 
 ### [MPOS'tan e-posta makbuzları gönderme](email-receipts.md)
@@ -163,7 +171,7 @@
 # [Perakende geliştirme ve yönetimi](dev-itpro/dev-retail-home-page.md)
 
 ## Mimarlık
-### [Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü bileşenleri - Retail](retail-components.md)
+### [Microsoft Dynamics 365 for Finance and Operations, Enterprise edition bileşenleri - Retail](retail-components.md)
 ### [Retail Server mimarisi](dev-itpro/retail-server-architecture.md)
 ### [Perakende kanalı iletişimleri](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [MPOS mimarisi](dev-itpro/retail-modern-pos-architecture.md)
@@ -171,9 +179,9 @@
 ### [Perakende Kanalı Performansı Power BI içeriği](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
 
 ## Dağıtım ve düzeltmeler
-### [Perakende Mağaza Ölçeği Birimi konfigürasyonu ve yüklemesi](dev-itpro/retail-store-scale-unit-configuration-installation.md)
-#### [Perakende mağazası sistemi, başlamadan önce](dev-itpro/retail-store-system-begin.md)
-### [Retail Modern POS konfigürasyonu ve yüklemesi](retail-modern-pos-device-activation.md)
+### [Perakende Mağaza Ölçeği Birimine genel bakış](dev-itpro/retail-store-system-begin.md)
+#### [Perakende Mağaza Ölçeği Birimi yapılandırması ve yüklemesi](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+### [Retail Modern POS yapılandırması ve yüklemesi](retail-modern-pos-device-activation.md)
 #### [Retail hesaplarını ve cihazlarını genel merkezden yönetme](set-up-activation-accounts-validate-devices-hq.md)
 #### [Retail POS cihazını etkinleştirme](dev-itpro/retail-device-activation.md)
 #### [Güvenli Retail Bulut POS](dev-itpro/secure-retail-cloud-pos.md)
@@ -187,6 +195,7 @@
 ### [N-1 bileşenlerini yükleme](dev-itpro/n-1-installation-configuration.md)
 
 ## Ortam yapılandırması
+### [Kuruluşunuzun yasal koşullarına ve gizlilik bildirimine bağlantı ekleme](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
 ### [Bing Haritaları Yönetme](dev-itpro/manage-bing-maps.md)
 
 ## Genişletilebilirlik
@@ -197,7 +206,8 @@
 #### [MPOS ve Cloud POS tetikleyici genişletilebilirliği](dev-itpro/modern-pos-trigger-extensibility.md)
 #### [POS görünümüne özel denetim ekleme](dev-itpro/pos-custom-control.md)
 #### [POS ödeme uzantısı](dev-itpro/pos-payment-extension.md)
-### [Perakende Deneyimi uygulaması oluşturma](dev-itpro/create-retail-experience-app.md)
+#### [Harici hediye kartı desteği](dev-itpro/gift-card.md)
+### [Retail Deneyimi uygulaması oluşturma](dev-itpro/create-retail-experience-app.md)
 ### [Donanım İstasyonuna genel bakış ve genişletilebilirlik](dev-itpro/hardware-station-extensibility.md)
 
 ### Retail Server
@@ -230,10 +240,16 @@
 ### [Retail SDK genişletilebilirlik örnekleri](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [İsveç için yazar kasalar](localizations/emea-swe-cash-registers.md)
 ### [İsveç için kontrol birimleriyle Retail POS tümleştirmesi örneği](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
+### [Norveç için yazar kasalar](localizations/emea-nor-cash-registers.md)
+### [Norveç için yazar kasalara ilişkin dağıtım kılavuzları](localizations/emea-nor-loc-deployment-guidelines.md)
 ### [Retail SDK paketleme](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [Retail SDK örnekleri ](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [Kanal veritabanı (DB) uzantıları](dev-itpro/channel-db-extensions.md)
 ### [CDX genişletilebilirliği](dev-itpro/cdx-extensibility.md)
+### [Sipariş öznitelikleri](dev-itpro/order-attributes.md)
+### [Müşteri öznitelikleri](dev-itpro/customer-attributes.md)
+### [Retail Typescript ve C# proxy](dev-itpro/typescript-proxy-retail-pos.md)
+
 
 ## Ticaret çalışma süresi
 ### [Bağlılık genişletme](dev-itpro/retail-sdk/loyalty-extension-sample.md)
