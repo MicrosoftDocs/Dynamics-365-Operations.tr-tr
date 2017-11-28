@@ -1,9 +1,9 @@
 ---
 title: "Ürün çeşidi numaraları ve adlarının terminolojisi"
-description: "Bu konu, ürün numaraları terminolojisini, sabit [Ana ürün numarası - Yapılandırma - Ebat - Renk - Stil] biçimini değiştirmek için nasıl ayarlayabileceğinizi açıklar. Yeni terminoloji, ana ürün numarası, etkin ürün boyutları ve tercihiniz olan metin ayırıcılarını içeren hedeflenmiş bir biçime sahiptir. Ürün adları için bir terminoloji de oluşturabilirsiniz. Son olarak, kısıtlama tabanlı ürün yapılandırıcısı ile oluşturulan yapılandırmaları belirlemek için bir terminoloji oluşturabilirsiniz. Bu terminolojiler istediğiniz öznitelikleri içerebilir."
+description: "Bu konu, ürün numaraları terminolojisini, sabit [Ana ürün numarası - Yapılandırma - Ebat - Renk - Stil] biçimini değiştirmek için nasıl ayarlayabileceğinizi açıklar."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 4ebebc1d287908dbe8ac7557c34fc6693c88bfae
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 067e14d8a0ab9cb5b703c1d2596dab3e20487336
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -68,7 +68,7 @@ Bir tişört (TS1234), üç bedende (S, M, L), dört renkte (Kırmızı, Yeşil,
 
 Bu durumda, kırmızı, small bir polo tişört için ürün çeşidi numarası TS1234-Kırmızı-Small-Polo olacaktır.
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>Kısıtlama tabanlı yapılandırma terminolojisi
+## <a name="nomenclature-of-constraint-based-configurations"></a>Kısıtlama tabanlı yapılandırma terminolojisi
 Kısıtlama tabanlı yapılandırmalar için yapılandırma ürün boyutuna yönelik adanmış bir terminoloji oluşturabilirsiniz. **Ürün terminolojisi** sayfasında aşağıdaki segmentleri seçebilirsiniz:
 
 -   Numara serisi değeri
@@ -92,7 +92,7 @@ Aşağıdaki bölümlere sahip bir yapılandırma terminolojisi oluşturabilirsi
 
 Bu durumda, 78 uzunluğuna sahip ahşap malzeme için yapılandırma kodu WoodAAA78 olacaktır.
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>Boyut tabanlı yapılandırmaların terminolojisi
+## <a name="nomenclature-of-dimension-based-configurations"></a>Boyut tabanlı yapılandırmaların terminolojisi
 Boyut tabanlı yapılandırmalar için yapılandırma ürün boyutuna yönelik adanmış bir terminoloji oluşturabilirsiniz. **Ürün terminolojisi** sayfasında aşağıdaki segmentleri seçebilirsiniz:
 
 -   Numara serisi değeri

@@ -3,7 +3,7 @@ title: "Ambalaj malzemeleri ve ücretler"
 description: "Ambalaj malzemesi masrafları, belirli aralıklarla bir geri dönüştürme şirketine ödenmektedir. Bir ambalaj birimini meydana getiren her malzeme için ağırlık birimi başına bir tutar ödenir. Ambalaj malzemesi masrafları hesaplanır ve raporlanır, fakat masraflar bir kuruma ödenecek vergiler olarak görülmediğinden, genel muhasebeye hareket nakledilmez."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2194
 ms.assetid: 040b65dc-43c9-4256-b69f-b2d6e736fbe9
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5d7cd7b3d60e9c265a766695b53d8d27ee2a8d0a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b131cdfa2f0e3b6a8f116464323d49eaa4584634
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -56,7 +56,7 @@ Bir satış sipariş satırı oluşturduğunuzda, ambalaj birimlerinin madde iç
 ## <a name="packing-units-on-purchase-order-lines"></a>Satınalma siparişi satırlarındaki ambalaj birimleri
 Sistem tarafından bir satınalma siparişi satırı için ambalaj malzemesi hareketleri oluşturulmaz. Faturalanmış sipariş satırları için hareketleri **Ambalaj malzemesi hareketleri** sayfasında el ile oluşturabilirsiniz.
 
-## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Müşteri ambalaj malzemesi ücreti lisans numaralarını ayarlama
+## <a name="set-up-customer-packaging-material-fee-license-numbers"></a>Müşteri ambalaj malzemesi ücreti lisans numaralarını ayarlama
 Müşteriler ambalaj malzemesi ücretlerini ödüyorsa, müşterilerin ambalaj malzemesi ücreti lisans numaralarını **Müşteriler** sayfasında belirtin. Müşteriye lisans numarası atandığında, satış siparişleri faturalandığında ambalaj malzemesi ücretleri otomatik olarak hesaplanacaktır. Faturalamadan sonra **Ambalaj malzemesi hareketleri** sayfasındaki **Ücreti hesapla** onay kutusu temizlenir çünkü hesaplamanıza ve bir rapor yazdırmanıza gerek kalmamıştır. Ambalaj malzemesi ağırlıklarını faturaya yazdırmayı ve müşterileri ücretleri ödemeleri konusunda bilgilendirebilirsiniz. 
 
 Şirketinizin ambalaj malzemesi ücretlerini ödemesi durumunda, müşteri lisans numaralarını belirtmeyin. Faturalama sonra **Ambalaj malzemesi hareketleri** sayfasında **Ücreti hesapla** onay kutusu seçilidir. Bu da rapor oluşturulduğunda ücretlerin hesaplandığını gösterir. Ağırlıkları faturaya yazdırmayı ve şirketinizin ücretleri ödediğini belirtebilirsiniz.

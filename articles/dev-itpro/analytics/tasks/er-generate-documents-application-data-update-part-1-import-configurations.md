@@ -3,7 +3,7 @@ title: "Elektronik raporlama (ER) için uygulama verileri güncelleştirmesiyle 
 description: "Bu yordamdaki adımları tamamlamak için öncelikle \"ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme\" yordamını tamamlamanız gerekir."
 author: NickSelin
 manager: AnnBe
-ms.date: 06/19/2017
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
-ms.openlocfilehash: 7f2fe7228856ff6377be7d527b32d3ddee252981
+ms.sourcegitcommit: 5d4f57ae2a309d9e15c1afe60c3e91d7d7eb3870
+ms.openlocfilehash: 6a945eb6c733d760cc723bfa7135d73bdf502724
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="import-configurations-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için uygulama verileri güncelleştirmesiyle belge oluşturmak üzere yapılandırmaları içe aktarma
@@ -32,7 +32,7 @@ Bu yordamdaki adımlar bir Elektronik raporlama (ER) yapılandırmasının, bir 
 
 1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.
     * Örnek şirket ‘Litware, Inc.’ için yapılandırma sağlayıcısının kullanılabilir olduğunu ve etkin olarak işaretlemiş olduğundan emin olun. Bu yapılandırma sağlayıcısını göremiyorsanız "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlayın.  
-    * Bu yordamdaki adımlar ER yeteneklerini bir uygulama veri güncelleştirmesini tamamlamak ve bir Intrastat raporunu oluşturmak için nasıl kullanılacağını gösterir. Raporlama işleminin ayrıntıları uygulama tablolarında arşivlenir. Şu anda, Intrastat raporlama işlemi Intrastat formunda etkinleştirildiğinde, arşivleme mevcut kaynak kodundaki mantığa dayalı olarak gerçekleştirilir. Bu yordamda, uygulama verisinin benzeri ancak basitleştirilmiş mantığını, yalnızca ER çerçevesini kullanarak yapılandıracaksınız. Kaynak kodda hiçbir değişiklik yapılmayacak.   
+    * Bu yordamdaki adımlar ER yeteneklerinin bir uygulama veri güncelleştirmesini tamamlamak ve bir Intrastat raporunu oluşturmak için nasıl kullanılacağını gösterir. Raporlama işleminin ayrıntıları uygulama tablolarında arşivlenir. Şu anda, Intrastat raporlama işlemi Intrastat formunda etkinleştirildiğinde, arşivleme mevcut kaynak kodundaki mantığa dayalı olarak gerçekleştirilir. Bu yordamda, uygulama verisinin benzeri ancak basitleştirilmiş mantığını, yalnızca ER çerçevesini kullanarak yapılandıracaksınız. Kaynak kodda hiçbir değişiklik yapılmayacak.   
 
 ## <a name="import-er-configurations"></a>ER yapılandırmaları içe aktarın
 1. Raporlama konfigürasyonları'na tıklayın.

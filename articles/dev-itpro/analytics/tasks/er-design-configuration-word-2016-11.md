@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d602e07548d22bcdee3f375c3c327c0e8963c3b4
+ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
+ms.openlocfilehash: 300cf6ed1a5a7098e71b812d682c1b51c2cf786c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için Microsoft Word biçiminde rapor oluşturmak üzere bir yapılandırma tasarlama
@@ -30,9 +30,9 @@ Aşağıdaki adımlar, bir Sistem yöneticisi veya Elektronik raporlama gelişti
 
 Bu adımları tamamlamak için öncelikle "OPENXML biçiminde raporlar oluşturmak için bir ER yapılandırması oluşturma" görev kılavuzundaki adımları tamamlamanız gerekir. Aşağıdaki şablonları aynı rapor için önceden indirmeli ve yerel olarak kaydetmelisiniz:
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReport.docx
+[Ödeme Raporu şablonu](https://go.microsoft.com/fwlink/?linkid=862266)
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBounded.docx
+[Ödeme Raporunun Bağlı Şablonu](https://go.microsoft.com/fwlink/?linkid=862266)
 
 Bu yordam, Microsoft Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik içindir.
 
@@ -49,7 +49,7 @@ Bu yordam, Microsoft Dynamics 365 for Operations sürüm 1611'e eklenen bir öze
 ## <a name="replace-the-excel-template-with-the-word-template"></a>Excel şablonunu Word şablonu ile değiştirme
     * Şu anda, Excel belgesi OPENXML biçiminde çıktı üretmek için şablon olarak kullanılmaktadır. Raporun şablonunu Word biçiminde içeri aktaracağız.  
 1. Ekler'e tıklayın.
-    * Mevcut Excel şablonunu daha önce indirdiğiniz Word şablonuyla (SampleVendPaymDocReport.docx) değiştirin. Bu şablonun yalnızca ER çıktısı olarak oluşturmak istediğimiz belgenin düzenini içerdiğini unutmayın.  
+    * Mevcut Excel şablonunu daha önce indirdiğiniz Word şablonuyla (Ödeme Raporu Şablonu) değiştirin. Bu şablonun yalnızca ER çıktısı olarak oluşturmak istediğimiz belgenin düzenini içerdiğini unutmayın.  
 2. Sil'i tıklatın.
 3. Evet'i tıklatın.
 4. Yeni'ye tıklayın.

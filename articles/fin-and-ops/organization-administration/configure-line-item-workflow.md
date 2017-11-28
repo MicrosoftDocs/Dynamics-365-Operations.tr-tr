@@ -3,14 +3,14 @@ title: "Satır maddesi iş akışı yapılandırma"
 description: "Bu konu, bir satır maddesi iş akışı öğesinin nasıl yapılandırılacağını açıklar."
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 195833
 ms.assetid: 3237347e-71d5-4569-bc9a-0d0fc9410b78
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d888bf4285a27369b197ed66e5975cc806c640d3
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: d30d6aeda6be7bc81763c0b3f20c568d3fc81526
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -34,7 +34,7 @@ Bu konu, bir satır maddesi iş akışı öğesinin nasıl yapılandırılacağ�
 
 Satır maddesi iş akışı öğesi yapılandırmak için öğeye sağ tıklayın ve ardından **Özellikler** sayfasını açmak için **Özellikler**'e tıklayın. Ardından satır maddesi iş akışı öğesinin özelliklerini yapılandırmak için aşağıdaki yordamları kullanın.
 
-## <a name="name-the-lineitem-workflow-element"></a>Satır maddesi iş akışı öğesini adlandırın
+## <a name="name-the-line-item-workflow-element"></a>Satır maddesi iş akışı öğesini adlandırın
 Satır maddesi iş akışı öğesi için bir ad girmek için bu adımları izleyin.
 
 1.  Sol bölmede **Temel Ayarlar**'a tıklayın.

@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c222f0d17be6eea0f776f5460c793b82d8b3e0ab
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 6b896c28f475a8f827a1db1b6dd684b6ec64e872
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/15/2017
 
 ---
 
@@ -138,7 +138,7 @@ Yayınlanmış bir ürünün bileşen veya alt bileşen olarak kullanılıp kull
 </tr>
 <tr class="odd">
 <td>Kullanıcı gereksinimleri</td>
-<td>Kullanıcı gereksinimleri, bir kullanıcının gereksinimlerini ve belirli bileşenler ve öznitelikler arasındaki bir soyutlamayı temsil eder. Bir öğeye bir kullanıcı gereksinimini eşleyemezsiniz. Örneğin, bir müşteri bir ev sineması sistemi almak istiyor. Satış Temsilcisi ihtiyaç duyulacak watt miktarını belirlemek için müşteriye sistemin kurulacağı odanın boyutunu sorabilir. Bu örnekte, oda büyüklüğü belirli bir bileşen için uygun öznitelik değerini saptamaya yardımcı olan bir kullanıcı gereksinimi olabilir. Bir yapılandırma oturumu sırasında kullanıcı gereksinimlerini kullanıcıya görüntülenmemeleri için gizleyebilirsiniz. Kullanıcı gereksinimleri ile ilintili öznitelikler, alt bileşenler ve kullanıcı gereksinimleri de gizlenir. Bir kullanıcı gereksiniminin gizli olup olmadığını denetlemek için bir koşul yazabilirsiniz. Durumu, En iyi duruma getirme Modelleme Dili (OML) sözdizimini kullanarak yazmalısınız.</td>
+<td>Kullanıcı gereksinimleri, bir kullanıcının gereksinimlerini ve belirli bileşenler ve öznitelikler arasındaki bir soyutlamayı temsil eder. Bir öğeye bir kullanıcı gereksinimini eşleyemezsiniz. Örneğin, bir müşteri bir ev sineması sistemi almak istiyor. Satış Temsilcisi ihtiyaç duyulacak watt miktarını belirlemek için müşteriye sistemin kurulacağı odanın boyutunu sorabilir. Bu örnekte, oda büyüklüğü belirli bir bileşen için uygun öznitelik değerini saptamaya yardımcı olan bir kullanıcı gereksinimi olabilir. Bir yapılandırma oturumu sırasında gereksinimleri kullanıcıya görünmemeleri için gizleyebilirsiniz. Kullanıcı gereksinimleri ile ilintili öznitelikler, alt bileşenler ve kullanıcı gereksinimleri de gizlenir. Bir kullanıcı gereksiniminin gizli olup olmadığını denetlemek için bir koşul yazabilirsiniz. Durumu, En iyi duruma getirme Modelleme Dili (OML) sözdizimini kullanarak yazmalısınız.</td>
 </tr>
 <tr class="even">
 <td>Ürün reçetesi satırları</td>

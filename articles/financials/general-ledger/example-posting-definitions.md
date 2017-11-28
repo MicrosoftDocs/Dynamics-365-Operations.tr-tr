@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 004f3f24ec410d9f0e7d1e7264ec2730b9467410
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1bbd9230219f11407bc7afbd59670c6287b77c02
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -57,7 +57,7 @@ Satınalma emri yükümlülüğüne yönelik tüm fiş hareketleri, bir fiş üz
 |-------------------------|----------------------|----------|
 | Hesap Yapısı - Kar ve Zarar | \*                   | 1        |
 
-***Hesap numarasını eşleştir** alanında boş bir değer olması, tanımlı hesap yapısındaki tüm eşleşen hesapların eşleştirme kuralının parçası olduğu anlamına gelir.
+**Hesap numarasını eşleştir** alanında boş bir değer olması, tanımlı hesap yapısındaki tüm eşleşen hesapların eşleştirme kuralının parçası olduğu anlamına gelir.
 
 ### <a name="posting-definition--generated-entries"></a>Nakil tanımı – Üretilen girişler
 
@@ -98,7 +98,7 @@ Bütçe tahsisatları ve nakil tanımları etkinleştirildiğinde, bütçe kayd�
 |-------------------------|----------------------|----------|
 | Hesap Yapısı - Kar ve Zarar | \*                   | 1        |
 
-***Hesap numarasını eşleştir** alanında boş bir değer olması, tanımlı hesap yapısındaki tüm eşleşen hesapların eşleştirme kuralının parçası olduğu anlamına gelir.
+**Hesap numarasını eşleştir** alanında boş bir değer olması, tanımlı hesap yapısındaki tüm eşleşen hesapların eşleştirme kuralının parçası olduğu anlamına gelir.
 
 ### <a name="posting-definition--generated-entries"></a>Nakil tanımı – Üretilen girişler
 

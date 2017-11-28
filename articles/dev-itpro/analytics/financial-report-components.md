@@ -1,17 +1,17 @@
 ---
 title: "Mali rapor bileşenleri"
 description: "Bu makalede rapor tanımlarının bileşenlerinin veya yapı taşlarının finansal raporlamada nasıl kullanıldığı açıklanmaktadır. Bu yapı taşları satır tanımlarını, sütun tanımlarını ve raporlama ağacı tanımlarını içerir. Bu makalede yapı taşlarının nasıl düzenleneceği ve kilitleneceği ve yapı taşı grupları ile nasıl çalışılacağı açıklanmaktadır."
-author: ShylaThompson
+author: aolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 074a2f377c16d47e95343dae3ebec6cbba4d5050
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 7b283b8550bd7e5eff969d45c761d0a54d93a33e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede rapor tanımlarının bileşenlerinin veya yapı taşlarının finansal raporlamada nasıl kullanıldığı açıklanmaktadır. Bu yapı taşları satır tanımlarını, sütun tanımlarını ve raporlama ağacı tanımlarını içerir. Bu makalede yapı taşlarının nasıl düzenleneceği ve kilitleneceği ve yapı taşı grupları ile nasıl çalışılacağı açıklanmaktadır. 
+Bu makalede rapor tanımlarının bileşenlerinin veya yapı taşlarının finansal raporlamada nasıl kullanıldığı açıklanmaktadır. Bu yapı taşları satır tanımlarını, sütun tanımlarını ve raporlama ağacı tanımlarını içerir. Bu makalede yapı taşlarının nasıl düzenleneceği ve kilitleneceği açıklanmaktadır. 
 
-Finansal rapor tasarımcısının ardında yatan tasarım felsefesi bilgiyi en küçük bileşenlerine veya yapı taşlarına ayırmak ve bileşenleri gerektiği gibi karıştırıp eşleştirmektir. Bu nedenle rapor biçimlendirmeniz mali verilerinizden ayrıdır ve bir raporun tasarımını Microsoft Dynamics ERP sisteminizdeki mali verileri değiştirmeden değiştirebilirsiniz. Bu yapı taşı yaklaşımını kullanarak, ihtiyaç duyduğunuz raporları üretmek için metinleri, tutarları ve hesaplamaları birleştirebilirsiniz. Ayrıca, bu esneklik işlemlerinizi farklı yollarla görüntülemenizi kolaylaştırarak yaratıcılığı teşvik eder. Bir rapor tanımının bağımsız yapı taşları üç boyutlu bir elektronik tabloya benzer, ancak daha fazla güce sahiptir. Bir rapor tanımı, satır tanımı, sütun tanımı ve rapor için kullanılması gereken isteğe bağlı raporlama ağacı tanımını belirtir. Ayrıca oluşturulan raporun nerede saklanacağı ve nasıl biçimlendirileceği hakkında bilgiler içerir. Tekrar kullanım ve paylaşım kolaylığı için, bir şirketle bağlantılı olan mevcut rapor tanımları, satır tanımları, sütun tanımları, raporlama ağacı tanımları ve boyut kümelerinin bir birleşimi olan bir yapı taşı grubu oluşturabilirsiniz.
+Finansal rapor tasarımcısının ardında yatan tasarım felsefesi bilgiyi en küçük bileşenlerine veya yapı taşlarına ayırmak ve bileşenleri gerektiği gibi karıştırıp eşleştirmektir. Bu nedenle rapor biçimlendirmeniz mali verilerinizden ayrıdır ve bir raporun tasarımını Microsoft Dynamics ERP sisteminizdeki mali verileri değiştirmeden değiştirebilirsiniz. Bu yapı taşı yaklaşımını kullanarak, ihtiyaç duyduğunuz raporları üretmek için metinleri, tutarları ve hesaplamaları birleştirebilirsiniz. Ayrıca, bu esneklik işlemlerinizi farklı yollarla görüntülemenizi kolaylaştırarak yaratıcılığı teşvik eder. Bir rapor tanımının bağımsız yapı taşları üç boyutlu bir elektronik tabloya benzer, ancak daha fazla güce sahiptir. Bir rapor tanımı, satır tanımı, sütun tanımı ve rapor için kullanılması gereken isteğe bağlı raporlama ağacı tanımını belirtir. Ayrıca oluşturulan raporun nerede saklanacağı ve nasıl biçimlendirileceği hakkında bilgiler içerir. 
 
-## <a name="building-blocks-of-a-report"></a> Bir raporun yapı taşları
-| Yapı taşı            | Açıklama                                                                                                                                                                                                                                                                              | Daha fazla bilgi için                                                                                                 |
-|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+## <a name="building-blocks-of-a-report"></a>Bir raporun yapı taşları
+| Yapı taşı            | Tanım                     | Daha fazla bilgi için                                    |
+|---------------------------|---------------------------------|---------------------------------------------------------|
 | Satır tanımı            | Satır tanımı bir rapordaki açıklayıcı satırları (örneğin, maaşlar veya satışlar) tanımlar. Ayrıca her kalemin değerlerini içeren segment değerlerini veya boyutlarını belirtir ve satır biçimlendirmesi ile hesaplamalarını içerir.                                                    | [Satır tanımları](row-definitions-financial-reporting.md)                       |
 | Sütun tanımı         | Sütun tanımı veriler mali boyutlardan çıkarıldığında kullanılacak dönemi tanımlar. Ayrıca sütun biçimlendirmesini ve hesaplamalarını da içerir.                                                                                                                                 | [Sütun tanımları](column-definitions-financial-reports.md)         |
 | Raporlama ağacı tanımı | Raporlama ağacı tanımı bir kuruluş şemasına benzer. Şemadaki her kutuyu temsil eden bağımsız raporlama birimleri içerir. Birimler mali verilerdeki bağımsız departmanlar ya da diğer raporlama birimlerindeki verileri özetleyen üst düzey birimler olabilir. | [Raporlama ağacı tanımları](financial-reporting-tree-definitions.md) |
@@ -67,44 +67,20 @@ Kilitli bir yapı taşının kilidini açmak için, yapı taşını açın ve ar
 
 ## <a name="building-block-groups"></a>Yapı taşı grupları
 
-Yapı taşları bir rapor için oluşturduğunuz satır tanımları, sütun tanımları, raporlama ağacı tanımları ve rapor tanımlarıdır. Yapı taşı grupları bir şirketle ilişkili tanımlardan ve boyut kümelerinden oluşan koleksiyonlardır. Yapı taşı grupları şirkete özel olabilir veya birkaç şirket aynı yapı taşı kümesini paylaşabilir. Şirketlerinizden bazılarının farklı bir hesap tablosu varsa her şirket için farklı bir yapı taşı grubu kullanmak isteyebilirsiniz. Alternatif olarak tüm bağımsız yapı taşlarınızı uyumlu oldukları şirketi gösterecek şekilde adlandırmak isteyebilirsiniz.
-### <a name="create-a-building-block-group"></a>Yapı taşı grubu oluşturma
+Yapı taşları bir rapor için oluşturduğunuz satır tanımları, sütun tanımları, raporlama ağacı tanımları ve rapor tanımlarıdır. Yapı taşı grupları tanımlardan ve boyut kümelerinden oluşan koleksiyonlardır. 
 
-1.  Rapor Tasarımcısı'nda, **Şirket** menüsünde, **Yapı taşı grupları**'na tıklayın.
-2.  **Yapı taşı grupları** iletişim kutusunda, **Yeni**'ye tıklayın.
-3.  Yapı taşı grubu için benzersiz bir ad ve açıklama girin. Her alan en fazla 256 karakter içerebilir. (Bu rakama boşluklar dahildir.)
-4.  Yeni yapı taşı grubunu oluşturmak için **Tamam**'a tıklayın.
-
-### <a name="assign-a-building-block-group"></a>Yapı taşı grubu atama
-
-Bir yapı taşı grubu oluşturduktan sonra, bunu en az bir şirkete atamanız gerekir. Ardından rapor, satır, sütun ve raporlama ağacı tanımları oluşturabilir ve bunları yapı taşı grubuna kaydedebilirsiniz. Aşağıdaki işleme başlamadan önce tüm yapı taşlarını kapatmanız gerekir.
-1.  Rapor Tasarımcısı'nda, **Şirket** menüsünde, **Şirketler**'e tıklayın.
-2.  **Şirketler** iletişim kutusunda, bir yapı taşı grubu atayacağınız şirketi seçin.
-3.  **Değiştir**'e tıklayın.
-4.  **Şirketi Değiştir** iletişim kutusunda, **Yapı taşı grubu** alanında, şirkete atayacağınız yapı taşı grubunu seçin veya yeni bir yapı taşı grubu oluşturmak için **Yeni**'ye tıklayın.
-5.  Yapı taşı grubunu atamak için **Tamam**'a tıklayın.
-6.  **Kapat**'a tıklayarak **Şirketler** iletişim kutusunu kapatın. Seçtiğiniz yapı taşı grubu artık şirkete atanmıştır. Artık oluşturulan tüm yeni satır tanımları, sütun tanımları vb. bu şirkete atanan yapı taşı grubunun parçası olacaktır. Ayrıca, başka bir sistemden bir .tdcx dosyasını veya raporu içe aktarabilirsiniz.
 
 ### <a name="view-a-building-block-group"></a>Bir yapı taşı grubunu görüntüleme
 
-Bir yapı taşı grubu oluşturulup kullanılmaya başladıktan sonra, bu yapı taşı grubuna atanan tüm yapı taşlarını görüntüleyebilirsiniz. Ayrıca, bir yapı taşı grubunu dışa veya içe aktarabilir ve yapı taşı gruplarında ek bakım yapabilirsiniz.
+Bir yapı taşı grubuna atanan tüm yapı taşlarını görüntüleyebilirsiniz. Ayrıca bir yapı taşı grubunu dışa veya içe aktarabilirsiniz.
 1.  Rapor Tasarımcısı'nda, **Şirket** menüsünde, **Yapı Taşı Grupları**'na tıklayın.
 2.  **Yapı Taşı Grupları** iletişim kutusunda, görüntülenecek yapı taşı grubunu seçin.
 3.  **Görüntüle**'ye tıklayarak **Yapı Taşı Grubunu Görüntüle** iletişim kutusunu açın. Burada yapı taşı grubunun içindekileri görüntüleyebilirsiniz.
 4.  İletişim kutularını kapatmak için **Kapat**'a tıklayın.
 
-### <a name="save-a-building-block-group-under-a-new-name"></a>Bir yapı taşı grubunu yeni bir adla kaydetme
-
-Var olan bir yapı taşı grubunu yeni bir adla kaydedebilirsiniz. Ardından ilk yapı taşı grubunu değiştirmeden yeni yapı taşı grubunu değiştirebilirsiniz.
-1.  Rapor Tasarımcısı'nda, **Şirket** menüsünde, **Yapı Taşı Grupları**'na tıklayın.
-2.  **Yapı Taşı Grupları** iletişim kutusunda, yeni adla kaydedeceğiniz yapı taşı grubunu seçin.
-3.  **Farklı Kaydet**'e tıklayın.
-4.  Yapı taşı grubu için yeni bir ad ve açıklama girin.
-5.  **Tamam** düğmesini tıklatın. Yeni yapı taşı grubu **Yapı Taşı Grupları** iletişim kutusunda görünür.
-
 ### <a name="export-a-building-block-group"></a>Bir yapı taşı grubunu dışa aktarma
 
-Bir yapı taşı grubunu veya bir yapı taşı grubundaki belirli rapor yapı taşlarını dışa aktarabilirsiniz. Dışa aktarılan yapı taşı grubunu yedek olarak kullanabilirsiniz. Dışa aktarılan veriyi yapı taşları grupları arasında veya Finance and Operations kurulumları arasında kopyalayabilirsiniz. Rapor tasarımcısı, yapı taşı grubuyla birlikte başvurulan yazı tipi stillerini ve boyut kümelerini içerir.
+Bir yapı taşı grubunu veya bir yapı taşı grubundaki belirli rapor yapı taşlarını dışa aktarabilirsiniz. Dışa aktarılan yapı taşı grubunu yedek olarak kullanabilirsiniz. Dışa aktarılan veriyi Finance and Operations kurulumları arasında kopyalayabilirsiniz. Rapor tasarımcısı, yapı taşı grubuyla birlikte başvurulan yazı tipi stillerini ve boyut kümelerini içerir.
 1.  Rapor Tasarımcısı'nda, **Şirket** menüsünde, **Yapı Taşı Grupları**'na tıklayın.
 2.  **Yapı Taşı Grupları** iletişim kutusunda, dışa aktarılacak yapı taşı grubunu seçin ve ardından **Dışa Aktar**'a tıklayın.
 3.  **Dışa Aktar** iletişim kutusunda, dışa aktarılacak rapor tanımlarını seçin:
@@ -118,7 +94,7 @@ Bir yapı taşı grubunu veya bir yapı taşı grubundaki belirli rapor yapı ta
 
 ### <a name="import-a-building-block-group"></a>Bir yapı taşı grubunu içe aktarma
 
-Bir yapı taşı grubunu var olan bir yapı taşı grubuna aktarabilir veya veriler için yeni bir yapı taşı grubu oluşturabilirsiniz. İçe aktarılan tüm yapı taşı grupları kendi orijinal yazı tipi stillerini ve şirket referanslarını korur ve ilgili boyut kümelerini içerir.
+Bir yapı taşı grubunu mevcut bir yapı taşı grubuna aktarabilirsiniz. İçe aktarılan tüm yapı taşı grupları kendi orijinal yazı tipi stillerini ve şirket referanslarını korur ve ilgili boyut kümelerini içerir.
 1.  Rapor Tasarımcısı'nda, **Şirket** menüsünde, **Yapı Taşı Grupları**'na tıklayın.
 2.  **Yapı Taşı Grupları** iletişim kutusunda, bir yapı taşı grubuna aktarılacak yapı taşını seçin ve ardından **İçe Aktar**'a tıklayın.
 3.  **Aç** iletişim kutusunda, içe aktarılacak yapı taşı grubunu seçin ve ardından **Aç**'a tıklayın.

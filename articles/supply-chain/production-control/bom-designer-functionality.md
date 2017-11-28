@@ -1,9 +1,9 @@
 ---
-title: "BOM tasarımcısı işlevi"
-description: "Bu makale, ürün reçetesi tasarımcısı sayfasını, ürün reçeteleri (BOM) tasarlamak ve ağaç yapıları ile çalışmak için nasıl kullanabileceğinizi açıklar. Farklı yapılandırmaları seçmek için Kurulum'u tıklatabilir ve ağacın satırlarında hangi bilgilerin gösterileceğini belirleyebilirsiniz."
+title: "Ürün reçetesi tasarımcısı işlevi"
+description: "Bu konu, ürün reçetesi tasarımcısı sayfasını, ürün reçeteleri (BOM) tasarlamak ve ağaç yapıları ile çalışmak için nasıl kullanabileceğinizi açıklar."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMDesigner
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 20981
 ms.assetid: 2b92eec1-d28c-4965-9086-939c77b3c62b
 ms.search.region: Global
@@ -20,19 +20,19 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 011e8220e155a5202b7b0a18bbfa9581826645d0
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 41f629401731920a9cb6443ada8b1a34a70e8da9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="bom-designer-functionality"></a>BOM tasarımcısı işlevi
+# <a name="bom-designer-functionality"></a>Ürün reçetesi tasarımcısı işlevi
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu makale, ürün reçetesi tasarımcısı sayfasını, ürün reçeteleri (BOM) tasarlamak ve ağaç yapıları ile çalışmak için nasıl kullanabileceğinizi açıklar. Farklı yapılandırmaları seçmek için Kurulum'u tıklatabilir ve ağacın satırlarında hangi bilgilerin gösterileceğini belirleyebilirsiniz.
+Bu konu, ürün reçetesi tasarımcısı sayfasını, ürün reçeteleri (BOM) tasarlamak ve ağaç yapıları ile çalışmak için nasıl kullanabileceğinizi açıklar. Farklı yapılandırmaları seçmek için Kurulum'u tıklatabilir ve ağacın satırlarında hangi bilgilerin gösterileceğini belirleyebilirsiniz.
 
 **Çıkan ürünler** sayfasından **BOM tasarımcısı** sayfasını açtığınızda seçilen ürün için etkin olan ve onaylanmış malzeme listesi (BOM) hiyerarşisi, ürün için varsayılan sipariş sitesi ve gerçek tarih görüntülenir.  
 
@@ -66,7 +66,7 @@ BOM ve rotaya uygulanan filtre, BOM tasarımcısının başlığında görüntü
 <tbody>
 <tr class="odd">
 <td>Ürün boyutları</td>
-<td>Seçilen nihai ürün bir master ürün ise, ana seçim için etkin ürün boyutlarını tanımlayabilirsiniz.<strong>Not:</strong> Bir master ürün olmayan bir ürün için BOM tasarımcısını açarsanız <strong>Filtre</strong> iletişim kutusundan hiçbir ürün boyutu seçilemez.</td>
+<td>Seçilen bitmiş ürün bir ana ürün ise, etkin ürün boyutlarını ana bölüm için tanımlayabilirsiniz. <strong>Note:</strong> Ana ürün olmayan bir ürün için ürün reçetesi tasarımcısını açarsanız, <strong>Filtre</strong> iletişim kutusunda hiçbir ürün boyutu seçilemez.</td>
 </tr>
 <tr class="even">
 <td>Tesis</td>

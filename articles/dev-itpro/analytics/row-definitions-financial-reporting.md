@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 06a75889e62cbba6e47a8543cf663868df5ae2e3
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 4fbcc83123ce11a8f9208226a67a01e43b255bab
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -100,9 +100,9 @@ Bir bilançodaki yuvarlamayı ayarlamak için bu adımları izleyin.
     -   **Toplam borçlar ve öz sermaye satırı**: Bilançoda toplam borçları ve öz sermayeyi içeren satıra ait satır kodu.
     -   **Ayarlama tutarı sınırı**: Otomatik ayarlamalarda sınırı belirten pozitif bir tam sayı. Bu tutar gerçek yuvarlama farkının mutlak değeriyle kıyaslanır.
 
-    **Not:** Bu satır kodları mali verilerinizle ilişkilendirilmelidir. Başka bir deyişle, satırın **Mali Boyutlarla İlişkilendir** hücresinde bir boyut değeri olmalıdır. Bir açıklamaya (**DESC**), hesaplanan (**CALC**) ya da toplamı alınan (**TOT**) satıra **başvurmayın**.
+    **Not:**Bu satır kodları mali verilerinizle ilişkilendirilmelidir. Başka bir deyişle, satırın **Mali Boyutlarla İlişkilendir** hücresinde bir boyut değeri olmalıdır. Bir açıklamaya (**DESC**), hesaplanan (**CALC**) ya da toplamı alınan (**TOT**) satıra **başvurmayın**.
 
-Artık bilançonuzdaki tutarlar yuvarlama açıkken eşitlenir. **Not:** Ayarlama sınırı, rapor tanımı için belirtilen **Yuvarlama duyarlığı** seçeneğine göre uygulanır. Örneğin, raporunuzu binlere yuvarlayıp **Ayarlama tutarı sınırı** alanına **2** girerseniz **Yuvarlama ayarlaması satırı** alanındaki değer 2.000'den fazla artarsa veya azalırsa bir uyarı mesajı alırsınız.
+Artık bilançonuzdaki tutarlar yuvarlama açıkken eşitlenir. **Not:**Ayarlama sınırı, rapor tanımı için belirtilen **Yuvarlama duyarlığı** seçeneğine göre uygulanır. Örneğin, raporunuzu binlere yuvarlayıp **Ayarlama tutarı sınırı** alanına **2** girerseniz **Yuvarlama ayarlaması satırı** alanındaki değer 2.000'den fazla artarsa veya azalırsa bir uyarı mesajı alırsınız.
 
 ## <a name="format-row-and-column-text"></a>Satır ve sütun metnini biçimlendirme
 Raporlarınızın görünümünü yazı tiplerini değiştirip metni biçimlendirerek özelleştirebilirsiniz. Aşağıdaki bölümlerde raporlardaki satırların ve sütunların görünümünün nasıl değiştirileceği açıklanmaktadır.

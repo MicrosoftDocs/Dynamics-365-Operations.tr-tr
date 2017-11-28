@@ -1,9 +1,9 @@
 ---
-title: "Otomatik kapatma ve önceliklendirme"
-description: "Bu makalede Alacak hesapları parametreleri sayfasında Otomatik kapatmayı seçtiğinizde hareketlerin nasıl kapatılacağı açıklanmıştır. Ayrıca, otomatik kapatmanın ödeme önceliği ile birlikte nasıl kullanılabileceği de açıklanmıştır."
+title: "Otomatik kapatma ve öncelik belirleme"
+description: "Bu konuda Alacak hesapları parametreleri sayfasında Otomatik kapatmayı seçtiğinizde hareketlerin nasıl kapatılacağı açıklanmıştır. Ayrıca, otomatik kapatmanın ödeme önceliği ile birlikte nasıl kullanılabileceği de açıklanmıştır."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 14531
 ms.assetid: e7837cf6-ec69-44b4-8d47-eba38d5c7b1f
 ms.search.region: Global
@@ -19,19 +19,19 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a0f87aca78f1263f1f6ce65e2629b91312716cb
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: fc091e401f84ce2ac425897ad6cbd92fd7399736
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="automatic-settlement-and-prioritization"></a>Otomatik kapatma ve önceliklendirme
+# <a name="automatic-settlement-and-prioritization"></a>Otomatik kapatma ve öncelik belirleme
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede Alacak hesapları parametreleri sayfasında Otomatik kapatmayı seçtiğinizde hareketlerin nasıl kapatılacağı açıklanmıştır. Ayrıca, otomatik kapatmanın ödeme önceliği ile birlikte nasıl kullanılabileceği de açıklanmıştır.
+Bu konuda Alacak hesapları parametreleri sayfasında Otomatik kapatmayı seçtiğinizde hareketlerin nasıl kapatılacağı açıklanmıştır. Ayrıca, otomatik kapatmanın ödeme önceliği ile birlikte nasıl kullanılabileceği de açıklanmıştır.
 
 Ödemeleri faturalar ve diğer hareketlerle kapatma sırasında iki seçeneğiniz vardır. Microsoft Dynamics 365 for Finance and Operations hareketleri otomatik olarak otomatik kapatma işlevini kullanarak seçebilir veya kapatmak için hareketleri el ile seçebilirsiniz. **Kapatma önceliklendirme** seçeneğini kullanarak otomatik kapatmaların nasıl işleneceğini de özelleştirebilirsiniz. Tüm bu özellikler, **Alacak hesapları parametreleri** sayfasında tanımlanan kapatma parametrelerinin parçasıdır. Hareketlerin otomatik olarak kapatılabileceği yollar, otomatik kapatma için kullandığınız yönteme bağlı olarak farklılık gösterebilir. Aşağıdaki yöntemler kullanılabilir:
 
@@ -50,7 +50,7 @@ Bu makalenin sonraki bölümlerindeki kapatma örnekleri, aşağıdaki hareketle
 | Fatura 3     | 15 Ekim  | 500,00 | %2 14/Net 30        | 29 Ekim         |                                                                                                                                                                                               |
 | Vade farkı dekontu | 15 Ekim  | 7,00   |                     |                    | Bu vade farkı dekontu fatura 1 ve fatura 2 içindir. Tutar, süresi 30 gün veya daha fazla geçen tutarlar üzerinde yüzde 2 faiz olarak hesaplanır. Örneğin, 0,02 × (100,00 + 250,00) = 7,00. |
 
-## <a name="userdefined-settlement-priority"></a>Kullanıcı tanımlı kapatma önceliği
+## <a name="user-defined-settlement-priority"></a>Kullanıcı tanımlı kapatma önceliği
 **Otomatik kapatmalar için öncelik kullan** ayarını **Alacak hesapları parametreleri** sayfasında **Evet** yaparsanız, otomatik kapatma için hareketler seçilirken **Kapatma önceliği** sayfasında tanımladığınız kapatma önceliği kullanılır. Bu örnekte, aşağıdaki kapatma önceliği tanımlanır:
 
 1.  Hareket türü

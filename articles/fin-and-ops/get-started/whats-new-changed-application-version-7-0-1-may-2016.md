@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Operations
 ms.custom: 91213
 ms.assetid: f0bbc78f-87fc-40e9-b46a-6655893f69be
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f3853169b7452e307a36579facea0cf0ab83ca47
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b8e4f306d2ee20323229b478c93c1c7eeaba50be
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -70,14 +70,14 @@ Bu makale, Microsoft Dynamics AX uygulamasının sürüm 7.0.1'inde yeni olan ve
 | Ürün çıkış konumunun plaka denetimli olmadığını belirtin.                                                                                                                                                                                                                                                                                                               | Artık bir ürün çıkış konumunun plaka denetimli olmadığını belirtebilirsiniz. Örneğin, bu özellik yukarı doğru bir üretim emri maddeleri aşağı doğru bir ürün emri için ürün giriş konumu görevi gören bir konuma doğrudan tamamlandı olarak bildirdiğinde yararlıdır.                                                                                                                                                     |
 | Aynı maddenin farklı üretim boyutlarına sahip maddeleri içeren ürün reçetelerini destekleyin.                                                                                                                                                                                                                                                                                                     | Üretimde bir veya daha fazla üretim boyutu kullanırken, maddeyi aynı maddenin farklı seçeneklerine göre üretmek istediğiniz durumlar olabilir. Daha fazla bilgi için bkz. [bu blog](https://blogs.msdn.microsoft.com/axmfg/2015/12/22/support-for-boms-that-includes-items-with-different-product-dimensions-of-the-same-item/).                                                                  |
 | Ürün reçetelerinin birinci düzeyinde döngüsel yapıya sahip üretim emirleri malzeme kaynak planlamasında ürün reçetesi düzeyi hesaplamanın dışında bırakılır.                                                                                                                                                                                                                                     | Ürün reçetesi hiyerarşisinde döngüselliğe neden olan üretim emirlerinde seçenek üretmek için doğru ürün reçetesi düzeyleri atamak mümkün değildir.                                                                                                                                                                                                                                                                                                  |
-| Malzeme kaynağı planlama ve maliyet hesaplaması için ayrı ürün reçetesi düzeylerini hesaplayın: • Malzeme kaynak planlaması için ürün reçetesi düzeyleri yeni **ReqItemLevel** tablosunda hesaplanır. Biten üretim emirleri hesaplamada dikkate alınmaz. • Üretim maliyeti hesaplamasında, ürün reçetesi düzeyleri **InventTable** üzerinde hesaplanır. Biten üretim emirleri hesaplamaya dahil edilir. | • Malzeme kaynak planlaması çalıştırırken, örneğin master planlama plan planlama ve açılım, yalnızca malzeme kaynak planlamasında kullanılan ürün reçetesi düzeylerinin hesaplanması gerekir. Diğer bir deyişle, üretim maliyeti hesaplamasında kullanılan ürün reçetesi düzeylerini hesaplamaya gerek yoktur. • Maliyet işlemleri çalıştırırken, örneğin stok kapatma, yalnızca üretim maliyeti hesaplamasında kullanılan ürün reçetesi düzeylerinin yeniden hesaplanması gerekir. |
+| Malzeme kaynağı planlama ve maliyet hesaplaması için ayrı ürün reçetesi düzeylerini hesaplayın: • Malzeme kaynak planlaması için ürün reçetesi düzeyleri yeni **ReqItemLevel** tablosunda hesaplanır. Biten üretim emirleri hesaplamada dikkate alınmaz. • Üretim maliyeti hesaplamasında, ürün reçetesi düzeyleri **InventTable** üzerinde hesaplanır. Biten üretim emirleri hesaplamaya dahil edilir. | • Malzeme kaynak planlaması çalıştırırken, örneğin master planlama plan planlama ve açılım, yalnızca malzeme kaynak planlamasında kullanılan ürün reçetesi düzeylerinin hesaplanması gerekir. Diğer bir deyişle, üretim maliyeti hesaplamasında kullanılan ürün reçetesi düzeylerini hesaplamaya gerek yoktur. • Maliyet işlemleri çalıştırırken (örneğin stok kapatma), yalnızca üretim maliyeti hesaplamasında kullanılan ürün reçetesi düzeylerinin yeniden hesaplanması gerekir. |
 
  
 
 <a name="see-also"></a>Ayrıca bkz.
 --------
 
-[Yeni veya değişenler nedir](whats-new-changed.md)
+[Yenilikler veya değişenler](whats-new-changed.md)
 
 [Yeni veya güncelleştirilmiş kılavuzlar (Mayıs 2016)](new-updated-task-guides-available-may-2016.md)
 

@@ -1,7 +1,7 @@
 ---
 title: "BOM hesaplamaları"
 description: "Maliyet toplaması ve satış fiyatı hesaplamaları, ürün reçetesi (BOM) hesaplamaları olarak bilinir ve onları Hesaplamalar sayfasından başlatırsınız. Bu konu, BOM hesaplamaları hakkında bilgiler sağlar."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice, SalesQuotationTable, SalesTable, SMAServiceOrderTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 273763
 ms.assetid: c6fa3348-eafa-4847-9132-e65c5f55cbf4
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: b1bcf11a8f6fc4921e8659fe1d00c093e3ad5b74
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: ad00a3b5e41892aaa705fd8eafa52cc199e1d806
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -87,7 +87,7 @@ Maliyet artı kar marjı yaklaşımı kullandığınızda, bir maddenin hesaplan
 -   **Bir madde için geçerli ürün reçetesi hesaplaması ve belirtilen maliyetlendirme sürümü** − Ürün reçetesi, maliyetlendirme versiyonu içeresinde bekleyen bir satış fiyatı kaydı oluşturur. Bu satış fiyatı kaydı, hesaplama ayrıntılarının görüntülenmesi için bir başlangıç noktası sağlar (örneğin **Madde maliyetini hesapla** sayfasında). Satış fiyatı kaydı öncelikli olarak başvuru bilgileri olarak kullanılır ve satış siparişlerindeki bir satış fiyatı için temel olarak kullanılamazlar.
 -   **Siparişe özel ürün reçetesi hesaplaması** − **Ürün reçetesi hesaplama** sayfasının değişik bir şekli satış siparişi, satış teklifi veya servis siparişi satırı maddesi bağlamında kullanılır. Bir siparişe özel ürün reçetesi hesaplaması bir maliyetlendirme versiyonu dahilinde bir kayıt oluşturmamaktadır. Bunun yerine, **Ürün reçetesi hesaplama sonuçları** sayfası üzerinde görünen bir hesaplama kaydı oluşturur. Bu hesaplama kaydı, hesaplama ayrıntılarının görüntülenmesi için bir başlangıç noktası sağlar (örneğin **Madde maliyetini hesapla** sayfasında). Seçilen bir hesaplama kaydı hakkında bilgi, kaynak satır maddesine aktarılabilir. Örneğin, hesaplanan satış fiyatı, bir satış sipariş satırı maddesine aktarılabilir.
 
-## <a name="orderspecific-bom-calculations"></a>Siparişe özel ürün reçetesi hesaplamaları
+## <a name="order-specific-bom-calculations"></a>Siparişe özel ürün reçetesi hesaplamaları
 Siparişe özel bir ürün reçetesi hesaplaması, ürün reçetesi hesaplamasının üretilen bir maddeye ilişkin değişimini temsil eder. Siparişe özel ürün reçetesi hesaplaması bir satış siparişi, satış teklifi veya servis sipariş satırı maddesi bağlamında gerçekleştirilir. Siparişe özel ürün reçetesi hesaplaması, **Ürün reçetesi hesaplama** sayfasında görünen bir hesaplama kaydı oluşturur. Hesaplama kaydı hesaplanmış bir ağırlık, etkin maliyet kayıtlarını temel alan hesaplanmış bir maliyet ve hesaplanmış bir satış fiyatı içerir. Bir madde için her siparişe özel ürün reçetesi hesaplamasının **Ürün reçetesi sonuçları** sayfasında oluşturduğu hesaplama kaydı, bir hesaplama numarası ile benzersiz şekilde tanımlanır. Bir hesaplama kaydının sonuçları, isteğe bağlı olarak kaynak satır maddesine transfer edilebilir. Siparişe özel ürün reçetesi hesaplaması, üretilen bir maddenin ürün reçetesi hesaplamasından iki şekilde farklıdır:
 
 -   Siparişe özel ürün bir reçetesi hesaplaması maliyet versiyonunda bir madde maliyet kaydı oluşturmaz. Bu nedenle, ürün reçetesi hesaplama ilkeleri, bir madde maliyet kaydı oluşturulduğunda veya bir maliyet kaydı geçersiz kılında yazıldığında uygulanmaz.

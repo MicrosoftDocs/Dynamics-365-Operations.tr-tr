@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8b5437e5652ca5111ded89cb3417db46ab4b45af
+ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
+ms.openlocfilehash: c42a7e50d6efb6408e480b50b3e520f5812aeb56
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -69,7 +69,7 @@ Bu konu, Microsoft Dynamics AX için Microsoft (Mayıs 2016 - tüm diller) APQC 
 | ER OPENXML formatında raporların oluşturulması için bir yapılandırma tasarlama         | Genel         |
 | ER Biçim yapılandırmayı kullanarak ödemeler için elektronik belgeler oluşturma | Genel         |
 | ER Lifecycle Services'tan bir yapılandırmayı içe aktarma                          | Genel         |
-| **\*** ER Hizmet sağlayıcısı seçme                                           | Genel         |
+| **\***ER Hizmet sağlayıcısı seçme                                           | Genel         |
 | ER Formatınızı, o formatın yeni bir temel sürümünü benimseyerek yükseltme      | Genel         |
 | ER Lifecycle Services'a bir yapılandırma yükleme                          | Genel         |
 
@@ -180,12 +180,12 @@ Bu konu, Microsoft Dynamics AX için Microsoft (Mayıs 2016 - tüm diller) APQC 
 | BPM satırı                                                            | Ülke/bölge |
 |---------------------------------------------------------------------|----------------|
 | Dalga işlemeyi yapılandırma                                           | Genel         |
-| **\*** Plaka kontrollü olmayan bir konuma tamamlandı olarak rapor etme | Genel         |
+| **\***Plaka kontrollü olmayan bir konuma tamamlandı olarak rapor etme | Genel         |
 | Min-maks yenileme işlemi ayarlama                              | Genel         |
 | Konteyner kullanımını ayarlama                                             | Genel         |
 | Manuel ambalajlamayı ayarlama                                               | Genel         |
 | Bir madde için taşıma sınırlamalarını ayarlama                       | Genel         |
-| **\*** Ambar iş ilkelerini ayarlama                                | Genel         |
+| **\***Ambar iş ilkelerini ayarlama                                | Genel         |
 
 
 

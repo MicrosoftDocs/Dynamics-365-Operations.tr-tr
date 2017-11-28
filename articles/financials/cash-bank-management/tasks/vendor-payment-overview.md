@@ -3,7 +3,7 @@ title: "Satıcı ödemesine genel bakış"
 description: "Bu görev kılavuzu size satıcı ödemeleri oluşturmak için çeşitli yöntemleri gösterecektir. Bunların arasında ödeme teklifi veya tek seferlik bir ödemeyi elden girmek de bulunmaktadır."
 author: kweekley
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 020d147744df24b2065e66e5fc68ed5d5479127b
+ms.sourcegitcommit: cafd499e849570cae7b7f58bf2d487a7ac0093e6
+ms.openlocfilehash: e9a94231f755ff23bb442d62e90daff8f2d1f4fb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/30/2017
 
 ---
 # <a name="vendor-payment-overview"></a>Satıcı ödemesine genel bakış
@@ -55,7 +55,7 @@ Bu görev kılavuzu size satıcı ödemeleri oluşturmak için çeşitli yöntem
 18. Ödemelerinizi tarayın ve ödeme yönteminin tüm ödemeler için tanımlanmış olduğundan emin olun. 
     * Çek yazdırma ve elektronik ödeme oluşturma gibi ödemeleri oluşturursanız, öncelikle ödeme yöntemini tanımlamalısınız. Ödeme yöntemi aynı zamanda ödemenin yapılacağı banka hesabını da varsayılan olarak ayarlar.  
 19. Tek seferlik ödeme oluşturmak için Yeni'yi tıklatın.
-    * Tek seferlik bir ödeme, deftere nakledilmeden önce herhangi bir zamanda ödeme günlüğüne eklenebilir. Bu ekleme, ödeme teklifini kullanmak yerine, Yeni düğmesini tıklatarak ve sonra ödeme bilgilerini el ile girerek yapılır.  
+    * Tek seferlik bir ödeme, deftere nakledilmeden önce herhangi bir zamanda ödeme günlüğüne eklenebilir. Bu ekleme, Ödeme teklifini kullanmak yerine, Yeni düğmesini tıklatarak ve sonra ödeme bilgilerini el ile girerek yapılır.  
 20. Ödemenin yapılacağı satıcıyı seçin.
 21. Bir faturayı ödemek için varsa, ödeme için faturayı seçmek için, Kapanış hareketleri'ni seçin.
     * Bu bir ön ödeme ise, bu adım isteğe bağlıdır. Bir fatura seçmeden ödemeyi oluşturabilirsiniz.  
@@ -66,13 +66,13 @@ Bu görev kılavuzu size satıcı ödemeleri oluşturmak için çeşitli yöntem
 25. Sil'i tıklatın.
     * Bir ödemeyi silmek yalnızca ödemenin silinmesine neden olur. Ödeme için işaretlenmiş herhangi bir fatura, başka bir ödeme tarafından ödenebilir olmaya devam edecektir.  
 26. Evet'i tıklatın.
-27. Ödeme oluştur'u seçerek Çekleri yazdırmak veya elektronik ödeme dosyası oluşturabilirsiniz.
+27. Çekleri yazdırmak için Ödeme oluştur'u seçin veya elektronik ödeme dosyası oluşturun.
 28. Oluşturmak istediğiniz ödeme türünü seçin.
     * Ödeme günlüğü hem Çekler hem de elektronik ödemeler için ödemeler içerebilir fakat bir seferde sadece bir ödeme türü oluşturabilirsiniz.  
 29. Ödemeler oluşturmak için kullanmak istediğiniz banka hesabını seçin.
 30. Tamam'a tıklayın.
     * Ödemeler yalnızca ödeme yöntemiyle ve seçtiğiniz banka hesabıyla eşleşen ödemeler için oluşturulur.  
-31. Çek oluşturuyorsanız, Çekler için doğru yazdırma hedefinin sağlamak için Belge'yi seçin.
+31. Çek oluşturuyorsanız, Çekler için doğru yazdırma hedefini sağlamak için Belge'yi seçin.
 32. Tamam'a tıklayın.
 33. Tamam'ı tıklayarak ödemeleri oluşturun.
 34. Tüm ödemeler oluşturuldu ve onaylandıysa, Deftere Naklet'i tıklatın. 

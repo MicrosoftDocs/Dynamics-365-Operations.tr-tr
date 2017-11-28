@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4064a44601712a860d2a70a84ed415fda4669db3
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 09a182b50917bff449f76598d61c38ae18160dd1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -263,7 +263,7 @@ Böylece sonuç miktarı daha yüksek düzey bir birime yuvarlanmayacak şekilde
 
 #### <a name="restrict-a-calculation-to-a-reporting-unit"></a>Bir hesaplamayı bir raporlama birimiyle kısıtlama
 
-1.  Rapor Tasarımcısında **Satır Tanımları** öğesini tıklayın ve ardından değiştirmek için satır tanımını açın.
+1.  Rapor Tasarımcısı'nda, **Satır Tanımları**'na tıklayın ve ardından değiştirilecek satır tanımını açın.
 2.  **biçim kodu** hücresini çift tıklatın ve **CAL** seçin.
 3.  **ilgili formüller/satır/birim** hücresini tıklatın ve daha sonra **IF @Unit** yapımıyla başlayan bir koşullu hesaplamayı girin.
 

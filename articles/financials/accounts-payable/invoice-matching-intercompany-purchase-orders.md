@@ -3,7 +3,7 @@ title: "Fatura eşleştirme ve şirketlerarası satınalma siparişleri"
 description: "Bir şirketlerarası ticaret hareketinde yer alan satın alma tüzel kişiliği, borç hesapları fatura eşleştirmesini kullanacak şekilde ayarlanabilir. Bu durumda, şirketlerarası satıcı faturalarının deftere nakledilebilmesi için, hem şirketlerarası ticaret için, hem de borç hesapları fatura eşleştirmesi için deftere nakil gereksinimleri karşılanmalıdır."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/20/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: affdffd5e73958788ed2a5a4959eea71024140ab
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -52,7 +52,7 @@ Bu başlıktaki örnekler aşağıdaki şirketlerarası ticaret ayarlarını kul
 2.  Maddelerin alındığını Fabrikam Satışlar'da kaydedin ve bir sevk irsaliyesini deftere nakledin. ICSO888'in durumu Teslim Edildi olarak değişir. ICPO222'nin durumu Alındı olarak değişir.
 3.  Fabrikam Satışlar'da ICSO888 için bir fatura güncelleştirmesi gerçekleştirin. Birim fiyat 0,45 olur ve 100 madde güncelleştirilir.
 4.  Fabrikam Satınalma'da ICPO222 için bir fatura oluşturun. Net fiyatı yanlışlıkla 45,00'ten 54,00'e değiştirin. Fiyatın, izin verilen yüzde 2'lik fiyat toleransını aştığını belirtmek üzere bir simge görüntülenir.
-5.  Fatura eşleme ayrıntıları sayfasında, farklılıklarıyla deftere nakletmeye izin verecek seçeneği işaretleyin. Satıcı Fatura sayfasında Tamam seçeneğini tıklatın. Eğer satıcı faturası şirketlerarası satıcı faturası değilse, nakletme başarılı olur. Ancak, bir şirketlerarası satıcı faturası ile çalıştığınız için, deftere nakil başarısız olur. Şirketlerarası ticaret için şirketlerarası satış siparişindeki fatura toplamları ilgili şirketlerarası satınalma siparişi fatura toplamları ile eşit miktarda olmalıdır. Bu sorunu gidermek için faturadaki net fiyatı, tekrar varsayılan tutar olan 45,00'e değiştirmeniz gerekir.
+5.  Fatura eşleme ayrıntıları sayfasında, farklılıklarıyla deftere nakletmeye izin verecek seçeneği işaretleyin. Satıcı fatura sayfasında Tamam'ı tıklatın. Eğer satıcı faturası şirketlerarası satıcı faturası değilse, nakletme başarılı olur. Ancak, bir şirketlerarası satıcı faturası ile çalıştığınız için, deftere nakil başarısız olur. Şirketlerarası ticaret için şirketlerarası satış siparişindeki fatura toplamları ilgili şirketlerarası satınalma siparişi fatura toplamları ile eşit miktarda olmalıdır. Bu sorunu gidermek için faturadaki net fiyatı, tekrar varsayılan tutar olan 45,00'e değiştirmeniz gerekir.
 
 ## <a name="example-quantity-matching-with-intercompany-trade"></a> Örnek: Şirketlerarası ticaretle miktar eşleştirme
 Şirketlerarası satınalma siparişi ve şirketlerarası satış siparişi üzerindeki miktarlar eşit olmalıdır. Bu zorunluluk, tüm uygulanan fatura eşleştirme onaylarını geçersiz kılar. Bu örnek şirketlerarası ticaret için aşağıdaki ek ayarı kullanır:

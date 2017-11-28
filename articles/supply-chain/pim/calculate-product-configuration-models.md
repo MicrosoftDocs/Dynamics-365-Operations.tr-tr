@@ -1,9 +1,9 @@
 ---
 title: "Ürün yapılandırma modeli için hesaplamalar SSS"
-description: "Bu makale ürün yapılandırma modelleriyle ilgili hesaplamaları açıklar ve hesaplamalar kısıtlamaları ile birlikte kullanılmasını açıklar."
+description: "Bu konu ürün yapılandırma modelleriyle ilgili hesaplamaları açıklar ve hesaplamaların kısıtlamalarla birlikte nasıl kullanılacağını açıklar."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fea4e139d32c780769bafe08d603b828d366550c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 0763e5a02e7a14b6ef369103aa25e435559abe19
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makale ürün yapılandırma modelleriyle ilgili hesaplamaları açıklar ve hesaplamalar kısıtlamaları ile birlikte kullanılmasını açıklar.
+Bu konu ürün yapılandırma modelleriyle ilgili hesaplamaları açıklar ve hesaplamaların kısıtlamalarla birlikte nasıl kullanılacağını açıklar.
 
 Hesaplamalar aritmetik veya mantıksal işlemler için kullanılabilir. Ürün yapılandırma modellerindeki ifade kısıtlamalarını tamamlar. **Kısıtlamaya dayalı ürün yapılandırma modeli ayrıntıları** sayfasında hesaplamaları tanımlayabilir ve ardından ifade düzenleyicideki hesaplamalar için ifadeler oluşturabilirsiniz. Daha fazla bilgi için, Hesaplamalar oluşturma bölümüne bakın.
 
@@ -75,7 +75,7 @@ Hesaplamalar tüm öznitelik değerleri için bir değer sağlanmışsa oluşur.
 ## <a name="can-i-overwrite-the-value-that-is-calculated-for-the-target-attribute"></a>Hedef özniteliği için hesaplanan değerin üzerine yazabilir miyim?
 Hedef özniteliği, gizli veya salt okunur olarak ayarlanmadığı sürece hedef özniteliği olarak hesaplanan değerin üzerine yazabilirsiniz.
 
-## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>Bir hedef özniteliği nasıl gizli veya salt okunur olarak ayarlarım?
+## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>Bir hedef özniteliği nasıl gizli veya salt okunur olarak ayarlarım?
 Bir özniteliği gizli veya salt okunur olarak ayarlamak için şu adımları izleyin:
 
 1.  **Ürün bilgileri yönetimi** &gt; **Ortak** &gt; **Ürün yapılandırma modelleri** öğelerini tıklayın.

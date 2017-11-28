@@ -3,7 +3,7 @@ title: "Konteyner kullanımını ayarlama"
 description: "Bu yordam, Ambar yönetimindeki yüklerin konteyner kullanımının nasıl otomatikleştirileceğini açıklar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/07/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: aeb7d956560c513c08d5e20dcf20989b49137a52
+ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
+ms.openlocfilehash: c5faf926071dec5d2ddc1c9e921a98ecd0754917
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="set-up-containerization"></a>Konteyner kullanımını ayarlama
@@ -83,7 +83,7 @@ Bu yordam, Ambar yönetimindeki yüklerin konteyner kullanımının nasıl otoma
 ## <a name="set-up-a-container-group"></a>Bir konteyner grubu ayarla
 1. Ambar yönetimi > Kurulum > Konteynerler > Konteyner grupları öğesine gidin.
 2. Yeni'ye tıklayın.
-    * Konteyner türleri için mantıksal grupları ayarlayabilirsiniz. Her bir grup için, konteynerlerin paketleneceği sıralamayı ve konteynerlerin doldurulacağı yüzdeyi belirtebilirsiniz. Maddenin ebat boyutları, bir konteynere sığı sığmayacağını belirlemekte kullanılır. Maddenin ebat boyutuna en yakın olan konteyner kullanılacaktır. Bir grup içinde birden çok konteyner türü varsa, sırayı boyuta göre düzenlemenizi öneririz, böylelikle en büyük konteyner birinci, sıralama içerisinde birinci numarada olur ve en küçük konteyner en sona kalır.    
+    * Konteyner türleri için mantıksal grupları ayarlayabilirsiniz. Her bir grup için, konteynerleri paketleyecek sıralamayı ve konteynerlerin doldurulması istediğiniz yüzdesi belirtebilirsiniz. Maddenin boyut özellikleri konteynerin içinde sığacak olup olmadığını belirlemek için kullanır. Maddenin ebat boyutuna en yakın olan konteyner kullanılacaktır. Bir grup içinde birden çok konteyner türü varsa, sırayı boyuta göre düzenlemenizi öneririz, böylelikle en büyük konteyner birinci, sıralama içerisinde birinci numarada olur ve en küçük konteyner en sona kalır.    
 3. Konteyner grubu numarası alanına bir değer yazın.
 4. Açıklama alanına bir değer girin.
 5. Yeni'yi tıklatın.

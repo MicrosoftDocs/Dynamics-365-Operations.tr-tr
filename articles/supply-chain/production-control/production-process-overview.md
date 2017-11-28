@@ -1,9 +1,9 @@
 ---
-title: "Üretim işlemine genel bakış"
-description: "Bu makalede, üretim işlemleri hakkında genel bir bakış verilmektedir. Bu, sipariş oluşturulmasından mali dönem kapanışına dek üretim emirlerinin, toplu iş emirlerinin ve kanbanların çeşitli aşamalarını açıklamaktadır."
+title: "Üretim sürecine genel bakış"
+description: "Bu konuda, üretim işlemleri hakkında genel bir bakış verilmektedir. Bu, sipariş oluşturulmasından mali dönem kapanışına dek üretim emirlerinin, toplu iş emirlerinin ve kanbanların çeşitli aşamalarını açıklamaktadır."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
@@ -20,19 +20,19 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e50e64057d19d0e1fbf5645c2abc31fbd19ea43a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="production-process-overview"></a>Üretim işlemine genel bakış
+# <a name="production-process-overview"></a>Üretim sürecine genel bakış
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, üretim işlemleri hakkında genel bir bakış verilmektedir. Bu, sipariş oluşturulmasından mali dönem kapanışına dek üretim emirlerinin, toplu iş emirlerinin ve kanbanların çeşitli aşamalarını açıklamaktadır. 
+Bu konuda, üretim işlemleri hakkında genel bir bakış verilmektedir. Bu, sipariş oluşturulmasından mali dönem kapanışına dek üretim emirlerinin, toplu iş emirlerinin ve kanbanların çeşitli aşamalarını açıklamaktadır. 
 
 Üretim yaşam döngüsü olarak da bilinen bir süreç olan ürün üretimi, bir maddenin üretimini tamamlamak için gereken belirli adımları izler. Yaşam döngüsü, üretim emri, toplu iş emri veya kanban oluşturulması ile başlar. Müşteriye veya başka bir üretim aşamasına hazır, bitmiş, mamul bir madde ile sona erer. Sürecin tamamlanabilmesi için, yaşam döngüsündeki her adımda farklı türde bilgiler gerekir. Adımlar bir bir tamamlandıkça, üretim emri, toplu iş emri veya kanban üretim durumunda bir değişikliği gösterir. Farklı türdeki ürünler, farklı imalat süreçleri gerektirirler.  
 

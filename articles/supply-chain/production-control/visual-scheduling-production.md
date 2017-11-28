@@ -3,7 +3,7 @@ title: "İş planlaması için Gantt şeması"
 description: "Üretim planlayıcıları Gantt şemalarını kullanarak üretim planlarını denetleyebilir ve en iyi duruma getirebilirler."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: cc7543305ac634dfed3779bb83806ee4fd97d7fa
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 5a4b0450cc76c8d9307b9b21b78a170afcc298e4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -39,7 +39,7 @@ Gantt grafiği belirli bir zaman aralığındaki planlanmış faaliyetlerin gör
 -   Planlı üretim emirlerinden gelen işler.
 -   Saat tahmini türündeki iş planlama projesi faaliyetleri.
 
-Gantt grafiği iki farklı görünümde açılabilir: **Sipariş görünümü** ve **Kaynak görünümü**[.](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true), **Sipariş görünümünde**, faaliyetler üretim emirleri altında gruplandırılır. Örneğin, aynı siparişlere ait işlerin genel görünümünü korumak istiyorsanız bu faydalı olabilir. **Kaynak görünümünde** tüm işler ayrı kaynakların altında gruplanır. Bu görünüm, planı kaynak düzeyinde (örneğin bir makine veya makine grubu) optimize ederken faydalı olabilir. Aşağıdaki örnekte verilen Gantt grafikleri şu temel öğelerle birlikte **Sipariş görünümü** ve **Kaynak görünümünü** gösterir:
+Gantt grafiği iki farklı görünümde açılabilir: **Sipariş görünümü** ve **Kaynak görünümü**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). **Sipariş görünümünde**, faaliyetler üretim emirleri altında gruplandırılır. Örneğin, aynı siparişlere ait işlerin genel görünümünü korumak istiyorsanız bu faydalı olabilir. **Kaynak görünümünde** tüm işler ayrı kaynakların altında gruplanır. Bu görünüm, planı kaynak düzeyinde (örneğin bir makine veya makine grubu) optimize ederken faydalı olabilir. Aşağıdaki örnekte verilen Gantt grafikleri şu temel öğelerle birlikte **Sipariş görünümü** ve **Kaynak görünümünü** gösterir:
 
 1.  Gantt grafiği faaliyeti
 2.  Malzeme eksikliği simgesi
@@ -156,5 +156,7 @@ Gantt grafiği aşağıdaki sayfalardan açılabilir.
 | **Serbest bırakılacak üretim emirleri** (**Üretim katı yönetimi** çalışma alanından açılan) | Serbest bırakılacak üretim emirleri sayfası **Üretim katı yönetimi** çalışma alanından açılır. Bu sayfa, serbest bırakma işlemi bekleyen planlanmış üretim ve toplu iş emirlerini gösterir. Bu sayfada, seçili üretim emirleri için Gantt grafiğini açabilirsiniz.                                                                                                                                                                                                                                                        |
 ## <a name="see-also"></a>Ayrıca bkz.  
 [Ürün ve toplu siparişler için Gantt şemasıyla görsel planlama (Video)](https://youtu.be/BtbuShkGj4I)
+
+[Üretim için görsel planlama (demo kod)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
 

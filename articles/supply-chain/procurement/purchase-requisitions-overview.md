@@ -1,9 +1,9 @@
 ---
 title: "Satınalma talebine genel bakış"
-description: "Bu makalede, satınalma talebi iş akışı ve satınalma talebinin sahip olabileceği farklı durumlar anlatılmaktadır."
+description: "Bu konuda, satınalma talebi iş akışı ve satınalma talebinin sahip olabileceği farklı durumlar açıklanmaktadır."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 6fb8bbc7340650341618f3a9613f4234ef1e9c04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b96a89bcabdaa3e3a3be3786dda15f9725f5a50d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, satınalma talebi iş akışı ve satınalma talebinin sahip olabileceği farklı durumlar anlatılmaktadır.
+Bu konuda, satınalma talebi iş akışı ve satınalma talebinin sahip olabileceği farklı durumlar açıklanmaktadır.
 
 Organizasyonunuzun kurulumuna bağlı olarak, organizasyonunuzun kullandığı ürünler için satın alma talepleri oluşturabilirsiniz. Bir satın alma talebi, Satın alma departmanına madde veya hizmet satın alma yetkisini veren bir belgedir.  
 
@@ -70,7 +70,7 @@ Bir satın alma talebinin genel durumu, satın alma talebi satırlarının durum
 <tr class="odd">
 <td>Taslak</td>
 <td>Taslak</td>
-<td>Satın alma talebi ve satın alma talebi satırı oluşturulmuştur, ancak henüz gözden geçirilmek üzere gönderilmemiştir. <strong>Taslak</strong> durumuna sahip atın alma talepleri ve satın alma talebi satırları değiştirilebilir. Geri çağrılan, ancak henüz gözden geçirilmek üzere yeniden gönderilmeyen bir satın alma talebi veya satın alma talebi satırı <strong>Taslak</strong> durumundadır. <strong>Not:</strong> Bir satın alma talebini belge seviyesinde gönderebilir veya geri çağırabilirsiniz. Ancak, bir tekli satın alma talebi satırını gönderemez veya geri çağıramazsınız.</td>
+<td>Satın alma talebi ve satın alma talebi satırı oluşturulmuştur, ancak henüz gözden geçirilmek üzere gönderilmemiştir. <strong>Taslak</strong> durumundaki satın alma talepleri ve satın alma talebi satırlarında değişiklik yapılabilir. Satınalma talebi veya satınalma talebi satırının durumu geri çağrılmış ancak gözden geçirme için yeniden gönderilmemiş olması durumunda da <strong>Taslak</strong> olur. <strong>Not:</strong> Bir satın alma talebini belge düzeyinde gönderebilir veya geri çağırabilirsiniz. Ancak, bir tekli satın alma talebi satırını gönderemez veya geri çağıramazsınız.</td>
 </tr>
 <tr class="even">
 <td>İncelemede</td>
@@ -111,7 +111,7 @@ Reddedilen bir satın alma talebi satırını yeniden gönderirseniz gözden ge�
 <tr class="odd">
 <td>İptal edildi</td>
 <td>İptal edildi</td>
-<td>Satın alma talebi ve tüm satın alma talebi satırları iptal edilmiştir. <strong>Not:</strong> Bir satın alma talebi satırındaki bir maddeye artık ihtiyaç duymuyorsanız, halihazırda onaylanmışsa satın alma talebi satırını mutlaka iptal etmelisiniz. Sadece onaylanan satın alma talebi satırları iptal edilebilir. Satın alma talep satırları gözden geçiriliyor ise, satın alma talebi <strong>Gözden geçiriliyor</strong> durumunda olacaktır. Bu durumda satın alma talebini geri çağırabilir ve uygun satın alma talep satırını silebilirsiniz.</td>
+<td>Satınalma talebi ve tüm satınalma talebi satırları iptal edilmiştir. <strong>Not:</strong> Bir satın alma talebi satırındaki bir maddeye artık ihtiyaç duymuyorsanız, halihazırda onaylanmışsa satın alma talebi satırını mutlaka iptal etmelisiniz. Sadece onaylanan satın alma talebi satırları iptal edilebilir. Satın alma talep satırları gözden geçiriliyor ise, satın alma talebi <strong>Gözden geçiriliyor</strong> durumunda olacaktır. Bu durumda satın alma talebini geri çağırabilir ve uygun satın alma talep satırını silebilirsiniz.</td>
 </tr>
 <tr class="even">
 <td>Kapalı</td>

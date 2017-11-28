@@ -3,7 +3,7 @@ title: "Genel muhasebe tahakkuk hareketleri oluşturma"
 description: "Bu görev kılavuzu, tahakkuk düzenlerine dayalı genel muhasebe tahakkuk hareketleri oluşturmayı adım adım açıklar."
 author: aprilolson
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 10/26/2016
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 368614ff447ae9f5cb6e74274558b92a0873ec7a
+ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
+ms.openlocfilehash: a05f0777a14d627dc57ef4f4666abb6f92eee59a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="create-ledger-accrual-transactions"></a>Genel muhasebe tahakkuk hareketleri oluşturma

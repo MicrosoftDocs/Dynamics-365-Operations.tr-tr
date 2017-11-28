@@ -1,9 +1,9 @@
 ---
 title: "Çağrı merkezi işlevi"
-description: "Bu makale Microsoft Dynamics 365 for Retail içerisindeki çağrı merkezi satış özelliği hakkında genel bakış sağlar."
+description: "Bu konu Microsoft Dynamics 365 for Retail içerisindeki çağrı merkezi satış özelliği hakkında genel bakış sağlar."
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 00d24e9933d087f150ec5270da94ad911423824d
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: 75dc09ffc84ef8ec48f50ea410974c99aabc212e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -40,7 +40,7 @@ Dynamics for Retal'daki perakende, çağrı merkezlerini bir perakende kanalı t
 
 Bu özellikleri çağrı Merkezi ayarlarında etkinleştirdikten sonra **satış sipariş** sayfasında çağrı merkezi ile ilişkili olan kullanıcılar için kullanılabilir. Bu özelliklerin çoğu kullanılabilmesi için önce ek kurulum gerektirir. Kullanıcılar çağrı merkezi siparişleri oluşturmadan üzere önce, bu kullanıcıları çağrı merkezine çağrı merkezi kullanıcıları olarak eklemeniz gerekir. Bu adım çağrı merkezi kanal özgü yapılandırma ve işlevselliği sağlar. Burada, kullanılabilir hale gelen işlevlere bazı örnekler verilmiştir:
 
--   Destekli satış, tele-satış kodları ve ürün resimleri, siparişler'i alırken satış elemanı rehberlik ve Yardım için yapılandırma seçenekleri sağlar.
+-   Destekli satış, siparişleri alırken satış elemanı rehberlik ve yardım sağlamak amacıyla tele-satış kodları ve ürün resimleri için yapılandırma seçenekleri sağlar.
 -   Siparişler, satış elemanı en az bir ödeme yöntemi yakalayana kadar tamamlanamaz.
 -   Üst model satış ve çapraz satış kuralları belirli ürünleri müşteriye tanıtmak satış elemanından istenecek şekilde yapılandırılabilir.
 -   Satış elemanı müşteri tarafından sipariş kataloğu için kaynak kodunu yakalayabilir.

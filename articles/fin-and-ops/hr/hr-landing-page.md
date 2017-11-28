@@ -3,24 +3,24 @@ title: "İnsan kaynakları"
 description: "İnsan kaynakları, pek çok rutin kayıt tutma görevini basitleştirir ve kuruluşunuzun personel ile ilgili bir dizi sürecini otomatikleştirir. Ayrıca, insan kaynakları personelinin gözetim alanlarını yönetmek için de bir çerçeve sağlar. Bu alanlar personel işe alma ve saklama, kazançların yönetimi, eğitim, performans değerlendirmeleri ve değişim yönetimi konularını içerir."
 author: rschloma
 manager: AnnBe
-ms.date: 07/06/2017
+ms.date: 11/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Operations, Core
 ms.custom: 20931
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: e074426f4b863e692b91ce1ebf3b428435dadd94
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 217eef722383cf0ad9dfdfbe5ca2973eb1337fe1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -66,7 +66,7 @@ Personeli işe aldıktan sonra ücret ile birlikte kuruluşunuzun çalışanlar�
 
 ## <a name="develop-and-train-employees"></a>Personeli geliştirme ve eğitme
 
-Personelinizin kritik iş ihtiyaçlarını karşılarken kariyer hedeflerine ulaşmalarına yardımcı olmak için hedefler belirleyebilir, performans incelemeleri oluşturabilir ve geri bildirimleri izleyebilirsiniz. Personelin gerekli becerileri geliştirmelerine yardımcı olmak için bir derse eğitmen atamadan veya bir kişiyi bir kursa kaydetmeden önce eğitmenler, kurs türleri, kurslar, kurs tanımları, gündemler, izleme ve oturumlar ayarlayabilirsiniz. Eğitmenlerin zaten birer çalışan, başvuran veya ilgili kişi olarak bulunması gerekir.
+Personelinizin kariyer hedeflerine yardımcı olmak için, işle ilgili önemli gereksinimlerini sağlarken hedefler ayarlayabilir, performans incelemeleri oluşturabilir ve geri bildirimleri izleyebilirsiniz. Personelinizin gerekli yetenekleri geliştirmesine yardımcı olmak için kursa bir eğitmen atamadan veya kursa birini kaydetmeden önce eğitmenler, kurs tipleri, kurslar, kurs açıklamaları, gündemler, dersler ve oturumlar ayarlayabilirsiniz. Eğitmenlerin zaten birer çalışan, başvuran veya ilgili kişi olarak bulunması gerekir.
 
 -   [Performans yönetimi](../../talent/performance-management-overview.md)
 -   [İş gücü becerilerini ve iş ihtiyaçlarını ayarlama](../../talent/skills.md)
