@@ -10,9 +10,10 @@
 ##### [Bulut dağıtımları için sistem gereksinimleri](get-started/system-requirements.md)
 ##### [Şirket içi dağıtım](../dev-itpro/deployment/on-premises-deployment-landing-page.md)
 ##### [Şirket içi dağıtımlar için sistem gereksinimleri](get-started/system-requirements-on-prem.md)
+##### [Şirket içi dağıtımlar için ambarlama](../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)
 
 #### Finance and Operations'ı satın alma
-##### [Microsoft FastTrack for Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
+##### [Dynamics 365 için Microsoft FastTrack](get-started/fasttrack-dynamics-365-overview.md)
 ##### [Finance and Operations'ı (şirket içi) satın alma](get-started/purchase-on-premises.md)
 
 ### [Yenilikler veya değişenler](get-started/whats-new-changed.md)
@@ -20,6 +21,7 @@
 #### [Ertelenen AX 2012 özellikleri](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Şirket içi dağıtımlarda uygulanmayan özellikler](get-started/features-not-implemented-on-prem.md)
 #### [Yaşam döngüsü ilkesi](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [Platform update 12 (Kasım 2017)](get-started/whats-new-platform-update-12.md)
 #### [Platform update 11 (Ekim 2017)](get-started/whats-new-platform-update-11.md)
 #### [Platform update 10 (Ağustos 2017)](get-started/whats-new-platform-update-10.md)
 #### [Finance and Operations, Enterprise Edition (Temmuz 2017)](get-started/whats-new-application-July-2017-update.md)
@@ -42,6 +44,7 @@
 ##### [Şubat 2016 görev kılavuzları](get-started/new-task-guides-available-february-2016.md)
 
 ### Kullanıcı arabirimini keşfetme
+#### [Erişilebilirlik özellikleri](get-started/accessibility-features.md)
 #### [İstemci kullanıcı arabirimiyle ilgili SSS](get-started/client-faq.md)
 #### [Eylem arama](get-started/action-search.md)
 #### [Gelişmiş filtreleme ve sorgu sözdizimi](get-started/advanced-filtering-query-options.md)
@@ -56,7 +59,7 @@
 #### [Kullanıcının tercih edilen saat dilimini ayarlama](organization-administration/tasks/set-users-preferred-time-zone.md)
 #### [Lifecycle Services'ı anlama](../dev-itpro/lifecycle-services/lcs-works-lcs.md)
 
-### Yardım ve destek alma
+### Belgeleri okuma ve çalıştırma
 #### [Yardıma genel bakış](get-started/help-overview.md)
 #### [Yardım'a bağlanma](get-started/help-connect.md)
 #### [Alan açıklamalarını görüntüleme ve dışa aktarma](get-started/view-export-field-descriptions.md)
@@ -152,17 +155,21 @@
 
 #### [Common Data Service'ı kullanarak veri tümleştirmesi](../dev-itpro/data-entities/data-integration-cds.md) 
 ##### [Aday müşteriden nakde senaryosu yapılandırma](../supply-chain/sales-marketing/prospect-to-cash.md)
-###### [Finance and Operations'taki ürünleri Sales'teki ürünlerle eşitleme](../supply-chain/sales-marketing/products-template-mapping.md)
-###### [Sales'teki firmaları Finance and Operations'taki müşterilerle eşitleme](../supply-chain/sales-marketing/accounts-template-mapping.md)
-###### [Sales'teki ilgili kişileri Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme](../supply-chain/sales-marketing/contacts-template-mapping.md)
-###### [Sales'deki satış teklifi başlıklarını ve satırlarını Finance and Operations'la eşitleme](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-###### [Finance and Operations'daki satış siparişi başlıklarını ve satırlarını Sales ile eşitleme](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-###### [Finance and Operations'daki satış faturası başlıklarını ve satırlarını Sales ile eşitleme](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
-###### [Sales'teki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-###### [Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle eşitleme](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-###### [Sales'teki ilgili kişileri doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [Finance and Operations'daki satış siparişi başlıklarını ve satırlarını doğrudan Sales ile eşitleme](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [Finance and Operations'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Sales'deki hesapları koruma ve onları doğrudan Sales'den Finance and Operations'a eşitleme](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+###### [Finance and Operations'taki ürünleri koruma ve onları doğrudan Sales ile eşitleme](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+###### [Sales'deki ilgili kişileri koruma ve onları doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+###### [Sales'deki satış teklifini doğrudan Finance and Operations'la eşitleme](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [Finance and Operations'taki satış siparişlerini doğrudan Sales'le eşitleme](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+###### [Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [Finance and Operations'taki satış faturasını doğrudan Sales'le eşitleme](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Sales'deki hesapları koruma ve onları Finance and Operations ile eşitleme](../supply-chain/sales-marketing/accounts-template-mapping.md)
+###### [Sales'deki ilgili kişileri koruma ve onları Finance and Operations ile eşitleme](../supply-chain/sales-marketing/contacts-template-mapping.md)
+###### [Finance and Operations'taki ürünleri koruma ve onları Sales ile eşitleme](../supply-chain/sales-marketing/products-template-mapping.md)
+###### [Sales'de satış teklifleri oluşturma ve onları Finance and Operations'la eşitleme](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
+###### [Finance and Operations'ta satış siparişleri oluşturma ve onları doğrudan Sales ile eşitleme](../supply-chain/sales-marketing/sales-order-template-mapping.md)
+###### [Finance and Operations'ta satış faturaları oluşturma ve onları doğrudan Sales ile eşitleme](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+
+
 
 #### [Harici web hizmetleri kullanma](../dev-itpro/data-entities/consume-external-web-service.md)
 
@@ -894,6 +901,7 @@
 ##### [Kara liste raporu](../financials/localizations/emea-ita-black-list-report.md)
 ##### [Yetki tarihi](../financials/localizations/emea-ita-competence-date.md)
 ##### [Sabit kıymetlerin amortismanı](../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
+##### [Modello 770](../financials/localizations/emea-ita-modello770.md)
 ##### [Faturalarda sevk irsaliyesi tarihi doğrulama](../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
 ##### [Satış vergisi defterleri](../financials/localizations/emea-ita-fiscal-books.md)
 ##### [Kamu İdaresi için düzenlenen faturalarda bölünmüş ödeme](../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
@@ -1347,7 +1355,29 @@
 ### [Stok boyutu başına cari ortalama maliyeti izleme](../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md)
 
 
-## Master planlama
+## [Master planlama](../supply-chain/master-planning/master-planning-home-page.md)
+### [Master plan](../supply-chain/master-planning/master-plans.md)
+#### [Kapsam ayarları](../supply-chain/master-planning/coverage-settings.md)
+#### [Maddeler için kapsam kurallarını tanımlama (Görev kılavuzu)](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
+#### [Kısıtlanmış plan oluşturma (Görev kılavuzu)](../supply-chain/master-planning/tasks/constrained-plan.md)
+#### [Ortak ürünler için malzeme planı oluşturma (Görev kılavuzu)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
+#### [Planlı siparişleri koruma](../supply-chain/master-planning/maintain-planned-orders.md)
+#### [Gecikmeleri işleme](../supply-chain/master-planning/delays.md)
+#### [Açılımı izleme](../supply-chain/master-planning/trace-explosion.md)
+#### [Eylem iletileri](../supply-chain/master-planning/action-messages.md)
+#### [Master planlama yürütmeyi izleme (Görev kılavuzu)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
+#### [Tesis için planlama oluşturma (Görev kılavuzu)](../supply-chain/master-planning/tasks/create-schedule-site.md)
+#### [Tesis için plan oluşturma (Görev kılavuzu)](../supply-chain/master-planning/tasks/create-plan-site.md)
+#### [Master planlar ve çoklu tesis işlevi](../supply-chain/master-planning/master-plan-multisite-functionality.md)
+##### [Tesis kapsamı planı, zorunlu ambar](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
+##### [Tesis kapsamı planı, zorunlu olmayan ambar](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
+##### [Tesis ve ambar kapsamı planı, ambar zorunlu](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+##### [Tesis ve ambar kapsamı planı, ambar zorunlu değil](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+##### [Ürün reçetesi sürümünü belirleme](../supply-chain/master-planning/master-plan-bom-version-determined.md)
+##### [Ürün reçetesi sürümünün açılımı](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
+#### [Şirketlerarası plan oluşturma (Görev kılavuzu)](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
+#### [Giden planlanmış şirketlerarası talebi görüntüleme (Görev kılavuzu)](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
+#### [İç tedarik zinciri müşterileriyle işbirliği yapma (Görev kılavuzu)](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 ### [Talep tahmini](../supply-chain/master-planning/introduction-demand-forecasting.md)
 #### [Talep tahmini ayarlama](../supply-chain/master-planning/demand-forecasting-setup.md)
 #### [Talep tahminleri için geçmiş verilerini içe aktarma](../supply-chain/master-planning/import-historical-data.md)
@@ -1359,29 +1389,6 @@
 #### [Azaltma anahtarları](../supply-chain/master-planning/reduction-keys.md)
 #### [Temel tahmin oluşturma (Görev kılavuzu)](../supply-chain/master-planning/tasks/create-baseline-forecast.md)
 #### [Talep tahminini el ile değiştirme (Görev kılavuzu)](../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md)
-
-### [Master plan](../supply-chain/master-planning/master-plans.md)
-#### [Kapsam ayarları](../supply-chain/master-planning/coverage-settings.md)
-#### [Planlı siparişleri koruma](../supply-chain/master-planning/maintain-planned-orders.md)
-#### [Gecikmeler](../supply-chain/master-planning/delays.md)
-#### [Eylem iletileri](../supply-chain/master-planning/action-messages.md)
-#### [Açılımı izleme](../supply-chain/master-planning/trace-explosion.md)
-#### [Master planlar ve çoklu tesis işlevi](../supply-chain/master-planning/master-plan-multisite-functionality.md)
-##### [Tesis kapsamı planı, zorunlu ambar](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
-##### [Tesis kapsamı planı, zorunlu olmayan ambar](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
-##### [Tesis ve ambar kapsamı planı, ambar zorunlu](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
-##### [Tesis ve ambar kapsamı planı, ambar zorunlu değil](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
-##### [Ürün reçetesi sürümünü belirleme](../supply-chain/master-planning/master-plan-bom-version-determined.md)
-##### [Ürün reçetesi sürümünün açılımı](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
-#### [Master planlama yürütmeyi izleme (Görev kılavuzu)](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
-#### [Maddeler için kapsam kurallarını tanımlama (Görev kılavuzu)](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
-#### [Tesis için plan oluşturma (Görev kılavuzu)](../supply-chain/master-planning/tasks/create-plan-site.md)
-#### [Tesis için planlama oluşturma (Görev kılavuzu)](../supply-chain/master-planning/tasks/create-schedule-site.md)
-#### [Kısıtlanmış plan oluşturma (Görev kılavuzu)](../supply-chain/master-planning/tasks/constrained-plan.md)
-#### [Şirketlerarası plan oluşturma (Görev kılavuzu)](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
-#### [Ortak ürünler için malzeme planı oluşturma (Görev kılavuzu)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
-#### [Giden planlanmış şirketlerarası talebi görüntüleme (Görev kılavuzu)](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
-#### [İç tedarik zinciri müşterileriyle iş birliği (Görev kılavuzu)](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 
 
 ## [Mobil uygulama](../dev-itpro/mobile-apps/Mobile-app-home-page.md)
@@ -1853,7 +1860,7 @@
 #### [Satınalma siparişleri için iş şablonunu ayarlama](../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md)
 #### [Yük planlama çalışma ekranını kullanarak yükleri ve sevkiyatları planlama](../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md)
 
-# [Geliştirme ve yönetim](../dev-itpro/toc.md)
+# [Finance and Operations için geliştirme ve yönetim](../dev-itpro/toc.md)
 
 # [Dynamics 365 for Retail](../retail/toc.md)
 

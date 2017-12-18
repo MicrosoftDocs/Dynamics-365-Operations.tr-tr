@@ -2,6 +2,8 @@
 
 # [Başlarken](talent-get-started.md)
 ## [Sistem gereksinimleri ve güncelleştirme ilkesi](talent-versions-update-policy.md)
+## [Microsoft Dynamics 365 for Talent sağlama](provisioning-talent.md)
+## [Talent işlevini genişletme](extend-talent-functionality.md)
 
 # [İnsan kaynakları stratejisi geliştirme](departments-jobs-positions.md)
 ## [İş bileşenlerini ayarlama](create-job.md)

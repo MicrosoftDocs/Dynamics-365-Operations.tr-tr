@@ -180,11 +180,11 @@
 
 ## Dağıtım ve düzeltmeler
 ### [Perakende Mağaza Ölçeği Birimine genel bakış](dev-itpro/retail-store-system-begin.md)
-#### [Perakende Mağaza Ölçeği Birimi yapılandırması ve yüklemesi](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+### [Perakende Mağaza Ölçeği Birimi yapılandırması ve yüklemesi](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Retail Modern POS yapılandırması ve yüklemesi](retail-modern-pos-device-activation.md)
-#### [Retail hesaplarını ve cihazlarını genel merkezden yönetme](set-up-activation-accounts-validate-devices-hq.md)
-#### [Retail POS cihazını etkinleştirme](dev-itpro/retail-device-activation.md)
-#### [Güvenli Retail Bulut POS](dev-itpro/secure-retail-cloud-pos.md)
+### [Retail hesaplarını ve cihazlarını genel merkezden yönetme](set-up-activation-accounts-validate-devices-hq.md)
+### [Retail POS cihazını etkinleştirme](dev-itpro/retail-device-activation.md)
+### [Güvenli Retail Bulut POS](dev-itpro/secure-retail-cloud-pos.md)
 ### [Retail Donanım İstasyonu yapılandırması ve yüklemesi](retail-hardware-station-configuration-installation.md).
 ### [Retail self servis bileşenlerinin toplu dağıtımı](dev-itpro/retail-mass-deployment.md)
 ### [Tanılama ve sorun giderme için Retail bileşeni olayları](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
@@ -194,49 +194,53 @@
 ### [Yükseltme ve N-1 desteğine genel bakış](dev-itpro/overview-upgrade-n-minus1.md)
 ### [N-1 bileşenlerini yükleme](dev-itpro/n-1-installation-configuration.md)
 
+## Uygulama kılavuzu
+### [Cihaz yönetimi uygulama kılavuzu](implementation-considerations-devices.md)
+
 ## Ortam yapılandırması
 ### [Kuruluşunuzun yasal koşullarına ve gizlilik bildirimine bağlantı ekleme](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
 ### [Bing Haritaları Yönetme](dev-itpro/manage-bing-maps.md)
 
-## Genişletilebilirlik
-### Satış noktası
-#### [Retail POS ekran düzenleri](pos-screen-layouts.md)
-##### [POS Düzeni tasarımcısını yükleme](install-pos-layout-designer.md)
-#### [MPOS'u çevrimdışı mod için yapılandırma](dev-itpro/retail-modern-pos-offline.md)
-#### [MPOS ve Cloud POS tetikleyici genişletilebilirliği](dev-itpro/modern-pos-trigger-extensibility.md)
-#### [POS görünümüne özel denetim ekleme](dev-itpro/pos-custom-control.md)
-#### [POS ödeme uzantısı](dev-itpro/pos-payment-extension.md)
-#### [Harici hediye kartı desteği](dev-itpro/gift-card.md)
+## Satış noktası genişletilebilirliği
+### [Retail POS ekran düzenleri](pos-screen-layouts.md)
+### [POS Düzeni tasarımcısını yükleme](install-pos-layout-designer.md)
+### [MPOS'u çevrimdışı mod için yapılandırma](dev-itpro/retail-modern-pos-offline.md)
+### [MPOS ve Cloud POS tetikleyici genişletilebilirliği](dev-itpro/modern-pos-trigger-extensibility.md)
+### [POS görünümüne özel denetim ekleme](dev-itpro/pos-custom-control.md)
+### [POS ödeme uzantısı](dev-itpro/pos-payment-extension.md)
+### [Harici hediye kartı desteği](dev-itpro/gift-card.md)
 ### [Retail Deneyimi uygulaması oluşturma](dev-itpro/create-retail-experience-app.md)
 ### [Donanım İstasyonuna genel bakış ve genişletilebilirlik](dev-itpro/hardware-station-extensibility.md)
 
-### Retail Server
-#### [Bir Retail Server OData denetleyicisini genişletme](dev-itpro/extend-retail-server-odata-controller.md)
-#### [Web API'sı ve OData denetleyicileri](dev-itpro/odata-controllers-api.md)
-#### [Retail Server müşteri ve tüketici API'ları](dev-itpro/retail-server-customer-consumer-api.md)
-#### [Meta verileri genişletme](dev-itpro/extend-metadata.md)
-#### [POS çevrimdışı modunu desteklemek için ticaret çalışma süresini uzatma](dev-itpro/call-crt-service-offline.md)
-### Ticaret çalışma süresi
-#### [Ticaret çalışma süresine genel bakış](dev-itpro/commerce-runtime-overview.md)
-#### [Ticaret çalışma süresi ve Retail Server genişletilebilirliği](dev-itpro/commerce-runtime-extensibility.md)
-#### [Müşteri tercihi verilerini bir kanal veritabanına ekleme](dev-itpro/add-customer-preference-channel.md)
-#### [Bir satış siparişine özellik ekleme](dev-itpro/add-properties-sales-order.md)
-#### [Ticaret çalışma süresi genişletilebilirliği ve tetikleyiciler](dev-itpro/commerce-runtime-extensibility-trigger.md)
-#### [Tetikleyici örneği: Hareketi engelleme](dev-itpro/trigger-example-blocking-transaction.md)
-#### [Tetikleyici örneği: İade ilkesi](dev-itpro/trigger-example-return-policy.md)
-### e-Ticaret
-#### [Çevrimiçi mağaza konfigüre etme](dev-itpro/configure-online-store.md)
-#### [Kimlik doğrulama sağlayıcılarını konfigüre etme](dev-itpro/configure-authentication-providers.md)
-#### [e-Ticaret platformu](dev-itpro/ecommerce-platform.md)
-#### [e-ticaret platformu SDK'si](dev-itpro/ecommerce-platform-sdk.md)
-### Ödeme bağlayıcısı
-#### [Ödeme bağlayıcısı ve ödeme cihazı uygulama (teknik rapor)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
-#### [Ödeme bağlayıcısı dağıtma](dev-itpro/deploy-payment-connector.md)
-#### [Ödeme bağlayıcısı için Windows yükleyicisi oluşturma](dev-itpro/create-windows-installer-payment-connector.md)
+## Retail Server genişletilebilirliği
+### [Bir Retail Server OData denetleyicisini genişletme](dev-itpro/extend-retail-server-odata-controller.md)
+### [Web API'sı ve OData denetleyicileri](dev-itpro/odata-controllers-api.md)
+### [Retail Server müşteri ve tüketici API'ları](dev-itpro/retail-server-customer-consumer-api.md)
+### [Meta verileri genişletme](dev-itpro/extend-metadata.md)
+### [POS çevrimdışı modunu desteklemek için ticaret çalışma süresini uzatma](dev-itpro/call-crt-service-offline.md)
 
-## Retail SDK
-### [Retail SDK'ye genel bakış](dev-itpro/retail-sdk/retail-sdk-overview.md)
-### [Retail SDK'yi sürekli oluşturma sistemiyle tümleştirme](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
+## Ticaret çalışma süresi genişletilebilirliği
+### [Ticaret çalışma süresine genel bakış](dev-itpro/commerce-runtime-overview.md)
+### [Ticaret çalışma süresi ve Retail Server genişletilebilirliği](dev-itpro/commerce-runtime-extensibility.md)
+### [Müşteri tercihi verilerini bir kanal veritabanına ekleme](dev-itpro/add-customer-preference-channel.md)
+### [Bir satış siparişine özellik ekleme](dev-itpro/add-properties-sales-order.md)
+### [Ticaret çalışma süresi genişletilebilirliği ve tetikleyiciler](dev-itpro/commerce-runtime-extensibility-trigger.md)
+### [Tetikleyici örneği: Hareketi engelleme](dev-itpro/trigger-example-blocking-transaction.md)
+### [Tetikleyici örneği: İade ilkesi](dev-itpro/trigger-example-return-policy.md)
+
+## e-Ticaret genişletilebilirliği
+### [Çevrimiçi mağaza yapılandırma](dev-itpro/configure-online-store.md)
+### [Kimlik doğrulama sağlayıcılarını yapılandırma](dev-itpro/configure-authentication-providers.md)
+### [e-Ticaret platformu](dev-itpro/ecommerce-platform.md)
+### [e-ticaret platformu SDK](dev-itpro/ecommerce-platform-sdk.md)
+
+## Ödeme bağlayıcısı genişletilebilirliği
+### [Ödeme bağlayıcısı ve ödeme cihazı uygulama (teknik rapor)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
+### [Ödeme bağlayıcısı dağıtma](dev-itpro/deploy-payment-connector.md)
+### [Ödeme bağlayıcısı için Windows yükleyicisi oluşturma](dev-itpro/create-windows-installer-payment-connector.md)
+
+## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
+### [Retail SDK'yı sürekli oluşturma sistemiyle tümleştirme](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [Retail SDK genişletilebilirlik örnekleri](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [İsveç için yazar kasalar](localizations/emea-swe-cash-registers.md)
 ### [İsveç için kontrol birimleriyle Retail POS tümleştirmesi örneği](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
@@ -249,7 +253,13 @@
 ### [Sipariş öznitelikleri](dev-itpro/order-attributes.md)
 ### [Müşteri öznitelikleri](dev-itpro/customer-attributes.md)
 ### [Retail Typescript ve C# proxy](dev-itpro/typescript-proxy-retail-pos.md)
-
+### [Retail POS örnekleri çalıştırma](dev-itpro/pos-run-samples.md)
+### [Özel sütunlar ve uygulama çubuğu düğmeleri eklemek için mevcut POS görünümleri genişletme](dev-itpro/pos-view-extension.md)
+### [Retail Modern POS hareket sayfalarına özel denetimler ekleme](dev-itpro/pos-custom-transaction.md)
+### [POS hareketi kılavuzuna özel sütunlar ekleme](dev-itpro/pos-custom-transaction-column.md)
+### [POS uzantısından bir POS API'sı veya işlem çağırma](dev-itpro/pos-api-extension.md)
+### [Özel sütunlar ve uygulama çubuğu düğmeleri eklemek için mevcut POS görünümleri genişletme](dev-itpro/pos-view-extension.md)
+### [Retail Modern POS tetikleyicileri ve yazdırma](dev-itpro/pos-trigger-printing.md)
 
 ## Ticaret çalışma süresi
 ### [Bağlılık genişletme](dev-itpro/retail-sdk/loyalty-extension-sample.md)
