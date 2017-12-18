@@ -124,6 +124,7 @@
 #### [Fabrika yöntemleri için alt sınıf kaydetme](extensibility/register-subclass-factory-methods.md)
 #### [EventHandlerResult ile yanıtlama](extensibility/respond-event-handler-result.md)
 #### [RunBase sınıfını genişletme](extensibility/extend-runbase-class.md)
+#### [Uygulama başlangıcını özelleştirmek için temsilcileri kullanma](extensibility/startup-customizations.md)
 #### [Tabloda mevcut bir alanı değiştirme](extensibility/modify-existing-field.md)
 #### [Mevcut bir tabloya yeni alan ekleme](extensibility/add-field-extension.md)
 #### [Mevcut bir tabloya dizin ekleme](extensibility/add-index.md)
@@ -505,12 +506,14 @@
 ### [Şirket içi ortamlar ayarlama ve dağıtma](deployment/setup-deploy-on-premises-environments.md)
 ### [Özel modeller geliştirme ve şirket içi ortamlara dağıtma](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Şirket içi dağıtıma güncelleştirmeler uygulama](deployment/apply-updates-on-premises.md)
+### [Bir şirket içi dağıtımı yeniden dağıtma](deployment/redeploy-on-prem.md)
+### [Dynamics 365 for Finance and Operations, Enterprise Edition şirket içi sürümünde sorun giderme](deployment/troubleshoot-on-prem.md)
 
 ## Özel kod dağıtma
 ### [Dağıtılabilir paket oluşturma](deployment/create-apply-deployable-package.md)
-### [Dağıtılabilir paket uygulama](deployment/apply-deployable-package-system.md)
+### [Bulut ortamına güncelleştirmeleri uygulama](deployment/apply-deployable-package-system.md)
 ### [Dağıtılabilir paket yükleme](deployment/install-deployable-package.md)
-### [Uygulama paketi sorunlarını giderme](deployment/deployable-package-troubleshooting.md)
+### [Paket uygulama sorunlarını giderme](deployment/deployable-package-troubleshooting.md)
 
 # [Yükseltme ve geçiş](migration-upgrade/upgrade-home-page.md)
 ## [AX 2012'den Dynamics 365 for Finance and Operations'a yükseltme](migration-upgrade/upgrade-overview-2012.md)
@@ -541,14 +544,16 @@
 ### [Modeller arasındaki bağımlılıkları çözmek için temsilci kullanma](migration-upgrade/delegates-migration.md)
 
 
-## Yeni bir güncelleştirmeye yükseltme
+## En son güncelleştirmeye yükseltme
 ### [En son güncelleştirmeye geçme işlemi](migration-upgrade/upgrade-latest-update.md)
 ### [Yaşam döngüsü ilkesi](migration-upgrade/versions-update-policy.md)
-### [En son platform güncelleştirmesine yükseltme](migration-upgrade/upgrade-latest-platform-update.md)
+### [Ortamınız için en son platform güncelleştirmesini uygulama](migration-upgrade/upgrade-latest-platform-update.md)
 ### [Dynamics platformunu Ağustos 2016 sürümüne yükseltme](migration-upgrade/update-platform-each-release.md)
 ### [Bir korumalı alan ortamını yükseltme](migration-upgrade/upgrade-sandbox-environment.md)
 ### [Geliştirme veya tanıtım ortamlarındaki verileri yükseltme](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [Geliştirme araçlarını güncelleştirme](dev-tools/update-development-tools.md)
+### [Şirket içi dağıtıma güncelleştirmeler uygulama](deployment/apply-updates-on-premises.md)
+### [Bir şirket içi dağıtımı yeniden dağıtma](deployment/redeploy-on-prem.md)
 
 ## Düzeltmeler ve servis işlemleri
 ### [Lifecycle Services'dan düzeltme indirme](migration-upgrade/download-hotfix-lcs.md)
@@ -566,6 +571,7 @@
 ## [Şirketler arası veri paylaşımı](sysadmin/cross-company-data-sharing.md)
 ## [Bakım modu](sysadmin/maintenance-mode.md)
 ## [Önceden yapılandırılmış sistem hesapları](sysadmin/pre-configured-system-accounts.md)
+## [B2B kullanıcılarını Azure AD'ye aktarma](sysadmin/implement-b2b.md)
 ## [Rol tabanlı güvenlik](sysadmin/role-based-security.md)
 ### [Güvenlik mimarisi](sysadmin/security-architecture.md)
 ### [Güvenlik raporları](sysadmin/security-reports.md)
