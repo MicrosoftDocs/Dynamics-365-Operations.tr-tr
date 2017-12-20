@@ -3,7 +3,7 @@ title: "Kaldırılan özellikler"
 description: "Bu konu kaldırılmış veya kaldırılması planlanan özellikleri açıklar."
 author: sericks007
 manager: AnnBe
-ms.date: 10/23/2017
+ms.date: 11/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee051bbf50a6124fe1700a244b36b5f9c599e714
+ms.sourcegitcommit: 408854737847590841814ed74209618bbf22ec23
+ms.openlocfilehash: b0eb041ee1a4309b010e510e1f7428d6c930e4a0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 11/27/2017
 
 ---
 
@@ -490,8 +490,8 @@ Veri bölümleri, Microsoft Dynamics AX veritabanındaki verinin mantıksal bir 
 
 |   |   |
 |---|---|
-| **Kaldırılma nedeni**       | Veri bölümleri, veri yalıtımı sağlamak için Microsoft Dynamics AX 2012 R2'de kullanılmaya başlanmıştır. Yaygın bir senaryoda, bir şirketin bağlı kuruluşları vardır ve her iki bağlı kuruluş da aynı BT departmanı tarafından yönetilseler bile bir bağlı kuruluşun verisinin diğer bağlı kuruluşa görünür olmaması gerekir. Ancak, yeni bölümler oluşturmak, bunları veri ile doldurmak ve bölüm verilerini yedeklemek için ekstra kodlar ve program boyunca genel yönetim giderleri gerekir. Hizmet olarak platform (PaaS) veritabanına (Microsoft Azure SQL veritabanı) erişimimizin olduğu bulutta, veritabanını bir yalıtım konteyneri olarak kullanmak program içinde yalıtmaya göre çok daha etkilidir. Veri bölümlemenin bağlı kuruluşlar, çoklu kiracılar veya yalnızca ölçek için gerekli olup olmadığına bakılmaksızın, senaryoların birden çok veritabanı veya birden çok Dynamics AX kurulumları ile daha iyi işlenebileceğine inanırız. |
-| **Başka bir özellik ile değiştirildi?** | Veri bölümleri, birden çok veritabanı veya Dynamics AX kurulumları için destek aracılığıyla ileriki bir sürümde değiştirilecektir.    |
+| **Kaldırılma nedeni**       | Veri bölümleri, veri yalıtımı sağlamak için Microsoft Dynamics AX 2012 R2'de kullanılmaya başlanmıştır. Yaygın bir senaryoda, bir şirketin bağlı kuruluşları vardır ve her iki bağlı kuruluş da aynı BT departmanı tarafından yönetilseler bile bir bağlı kuruluşun verisinin diğer bağlı kuruluşa görünür olmaması gerekir. Ancak, yeni bölümler oluşturmak, bunları veri ile doldurmak ve bölüm verilerini yedeklemek için ekstra kodlar ve program boyunca genel yönetim giderleri gerekir. Hizmet olarak platform (PaaS) veritabanına (Microsoft Azure SQL veritabanı) erişimimizin olduğu bulutta, veritabanını bir yalıtım konteyneri olarak kullanmak program içinde yalıtmaya göre çok daha etkilidir. Veri bölümlemenin bağlı kuruluşlar, çoklu kiracılar veya yalnızca ölçek için gerekli olup olmadığına bakılmaksızın, senaryoların birden çok veritabanı veya birden çok Finance and Operations kurulumları ile daha iyi işlenebileceğine inanırız. |
+| **Başka bir özellik ile değiştirildi?** | Veritabanı düzeyinde ayırma önemli bir sorunsa, veri bölümleri kullanan müşterilerin birden çok Finance and Operations kurulumu kullanması gerekir.    |
 | **Etkilenen modüller**             | Tümü  |
 
 ### <a name="database-and-file-share-storage-for-attachments"></a>Ekler için veritabanı ve dosya paylaşım depolama

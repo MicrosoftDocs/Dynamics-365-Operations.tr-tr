@@ -3,7 +3,7 @@ title: "İşe alma Power BI içeriği"
 description: "Bu konu, İşe alma Power BI içeriğini açıklar. Bu raporlara nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: jcart1106
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 42d7b94e655799596f478e7592a17437b336099e
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 22138ab34243aa5f8c74f785ce3aaf68b27b9622
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 Bu konu, **İşe alma** Microsoft Power BI içeriğini açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017) kullanıyorsanız, **İşe alma** Power BI içeriği **İşe alma yönetimi** çalışma alanında görüntülenir. 
+**İşe alma** Power BI içeriği **İşe alma yönetimi** çalışma alanında gösterilir. 
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>İşe alma yönetimi çalışma alanındaki raporlar ve görseller
 **İşe alma yönetimi** çalışma alanı bir **Analitik** sekmesi içerir. Bu sekme, işe alma için gömülü Power BI içeriğini barındırır. İçerik bir genel bakış sekmesinden ve ayrıntıları içeren ek sekmelerden oluşur. Aşağıdaki tablo her sekmedeki raporları açıklar.

@@ -3,7 +3,7 @@ title: "CFO'ya genel bakış Power BI içeriği"
 description: "Bu konu, CFO'ya genel bakış Microsoft Power BI içeriğini açıklar."
 author: kweekley
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e08277850d36804e3d4508b87547d2c819e2faf3
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: fcc93daf96f65cd340d6be766c6ef83a74d62cc5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ Bu konu, **CFO'ya genel bakış** Microsoft Power BI içeriğini açıklar.
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017) kullanıyorsanız, **CFO'ya genel bakış** Power BI içeriklerindeki raporlar **CFO'ya genel bakış** çalışma alanında görüntülenir.
+**CFO'ya genel bakış** Power BI içeriğindeki raporlar **CFO'ya genel bakış** çalışma alanında gösterilir.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan raporlar
 **CFO'ya genel bakış** Power BI içeriği, çeşitli diğer Power BI içeriklerinden gelen raporlarıyla, Genel muhasebeden gelen bazı gerçek ve bütçe bakiyeleriyle bir karmasıdır, Bu nedenle, bu Power BI içeriği mali işler müdürüne (CFO), kuruluşa dair bir genel bakış sağlar.

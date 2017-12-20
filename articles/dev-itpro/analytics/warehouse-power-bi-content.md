@@ -3,7 +3,7 @@ title: "Ambar performansı Power BI içeriği"
 description: "Bu konu, Ambar performansı Power BI içeriğinde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: Mirzaab
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d30a14e78e35c94b9f8945d2fcc973f921698953
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: ea53e2bcd01cd06ccdd836ead1671b54aa9e9750
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ Ambar yöneticileri, **Ambar performansı** Power BI içeriğini aşağıdaki ü
 -   **Yerleşim stok doğruluğu** - Stok doğruluğu, önemli bir dahili ambar iş zekâsıdır (BI). Genel olarak ne kadar doğru sayım yaptığınızı belirlemeniz çok önemlidir. Ancak, maddeleri doğru konumlarda depolama konusunda ne kadar isabetli olduğunuzu belirlemek ve tutarsız verilerin altını çizebilmeniz de önemlidir, böylece maddeler için daha iyi konumlar bulabilir veya belirli maddelerde toplam sayımları başlatabilirsiniz. (Şu anda, maddeye dayalı yeni sayım işlevi bir düzeltme olarak sunulmaktadır.) Bu Power BI içeriğini, eldeki stokun konuma göre doğruluğunu bulmakta kullanıyorsanız, mağazalarınızdaki hırsızlığı da tespit edebilirsiniz. Ayrıca, herhangi bir konumun eldeki stokun, kuruluş kaynak planlaması (ERP) verisinden farklı olduğunu da belirleyebilirsiniz. Bu konumlar çok büyük olabilir veya sayılmaları imkansız olabilir. Alternatif olarak, bazı fiziksel konumlandırmalar hatalı olabilir, bu yüzden de tek bir madde türünü eldeki veri ile eşleştirilmiş tutmak zordur.
 
 ## <a name="accessing-the-power-bi-content-pack"></a>Power BI içerik paketine erişme
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017) kullanıyorsanız, **Ambar performansı** Power BI içeriği **Ambar performansı** sayfasında (**Ambar yönetimi** > **Sorgular ve raporlar** > **Ambar performansı analizi** > **Ambar performansı**) gösterilir. 
+**Ambar performansı** Power BI içeriği **Ambar performansı** sayfasında gösterilir (**Ambar yönetimi** > **Sorgulamalar ve raporlar** > **Ambar performansı analizi** > **Ambar performansı**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan ölçümler
 **Ambar performansı** Power BI içeriği, bir raporu içerir. Bu rapor grafikler, döşemeler ve tablolar ile görselleştirilen bir dizi ölçüm kümesinden oluşur. Aşağıdaki tablo **Ambar performansı** Power BI içeriğindeki görselleştirmelere bir bakış sağlar.

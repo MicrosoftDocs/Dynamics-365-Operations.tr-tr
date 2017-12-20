@@ -3,7 +3,7 @@ title: "Kredi ve tahsilatlar yönetimi Power BI içeriği"
 description: "Bu konu, Power BI Kredi ve Tahsilatlar Yönetimi'nde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5f08df6cb8549e87e123b10c5a771ae1c60ff39c
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 536ebae3ec44954aba314a966c9b0d2dabef45d1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -41,7 +41,7 @@ Gösterilen tüm tutarlar sistem para birimi cinsindendir. Sistem para birimini 
 Şirket için kredi ve tahsilatlar verisi varsayılan olarak gösterilir. Tüm şirketler arasında veriyi görmek için **CustCollectionsBICrossCompany** görevini role ekleyin.
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017) kullanıyorsanız, **Kredi ve tahsilatlar yönetimi** Power BI içeriği **Müşteri kredi ve tahsilatları** çalışma alanında görüntülenir.
+**Alacak ve tahsilatlar yönetimi** Power BI içeriği **Müşteri alacak ve tahsilatları** çalışma alanında gösterilir.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan raporlar
 

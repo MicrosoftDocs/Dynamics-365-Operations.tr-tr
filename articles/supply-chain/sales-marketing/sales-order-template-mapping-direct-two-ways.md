@@ -1,6 +1,6 @@
 ---
 title: "Sales ile Finance and Operations arasında satış siparişlerini doğrudan eşitleme"
-description: "Bu konu, satış siparişi başlıkları ve satırlarını doğrudan Microsoft Dynamics 365 for Sales ile Microsoft Dynamics 365 for Finance and Operations, Enterprise edition arasında iki yönlü eşitleme çalıştırmak için temel görevleri ve şablonları açıklar."
+description: "Bu konu, satış siparişlerini doğrudan Microsoft Dynamics 365 for Sales ile Microsoft Dynamics 365 for Finance and Operations, Enterprise edition arasında eşitlemek için temel görevleri ve şablonları açıklar."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/31/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 568c33a63efdc58a179dadcb617634dcf533fd4b
-ms.openlocfilehash: c31d65328250539fbe172f220272eec9d8b59bbf
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 9aa8c78f5aea5a818d517c2baa9051750b132fc6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 11/13/2017
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, satış siparişi başlıkları ve satırlarını doğrudan Microsoft Dynamics 365 for Sales ile Microsoft Dynamics 365 for Finance and Operations, Enterprise edition arasında iki yönlü eşitleme çalıştırmak için temel görevleri ve şablonları açıklar.
+Bu konu, satış siparişlerini doğrudan Microsoft Dynamics 365 for Sales ile Microsoft Dynamics 365 for Finance and Operations, Enterprise edition arasında eşitlemek için temel görevleri ve şablonları açıklar.
 
 ## <a name="templates-and-tasks"></a>Şablonlar ve görevler
 
 Kullanılabilir şablonlara erişmek için [PowerApps Yönetim Merkezi](https://preview.admin.powerapps.com/dataintegration)'ni açın. **Projeler**'i seçin ve ardından genel şablonları seçmek için sağ üst köşeden **Yeni proje**'yi seçin.
 
-Aşağıdaki şablonlar ve temel görevler, satış siparişi başlıklarını ve satırlarını doğrudan Sales ile Finance and Operations arasında iki yönlü eşitlemek için kullanılır:
+Aşağıdaki şablonlar ve temel görevler, satış siparişlerini doğrudan Finance and Operations ile Sales arasında eşitlemek için kullanılır:
 
 - **Veri tümleştirmesindeki şablonların adları:** 
 

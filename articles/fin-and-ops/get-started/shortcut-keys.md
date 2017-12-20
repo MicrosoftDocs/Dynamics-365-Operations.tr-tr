@@ -3,7 +3,7 @@ title: "Klavye kısayolları"
 description: "Aşağıdaki klavye kısayolları tüm Dynamics 365 for Finance and Operations, Enterprise edition genelinde geçerlidir."
 author: jasongre
 manager: AnnBe
-ms.date: 09/12/2017
+ms.date: 10/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 39ffbe81c0cc9ecb3f91f791442bfd27231a0516
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -34,10 +34,14 @@ Aşağıdaki klavye kısayolları tüm Dynamics 365 for Finance and Operations, 
 
 **Not:** Burada anlatılan klavye kısayolları, ABD klavye düzenine göredir. Diğer klavye düzenlerindeki tuşlar ABD klavyedeki tuşlara tam olarak karşılık gelmeyebilir.
 
+## <a name="finding-a-shorcut"></a>Bir kısayolu bulma
+Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısayolları doğrudan kullanıcı arabiriminden bulabilir. Sağ tıklamanız ve **Kısayolları görüntüle**'yi seçmeniz yeterlidir. Bu, sayfada bulunduğunuz konuma göre kullanabileceğiniz kısayolları gösteren bir iletişim kutusunu açar. 
+
+
 ## <a name="action-shortcuts"></a>Eylem kısayolları
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
-| **Bunun için**                                    | **Basın**                        |
+| **Bunu yapmak için**                                    | **Basın**                        |
 | Eylem aramasını açma                                | Ctrl+’ veya Alt+Q                  |
 | Standart Eylem Bölmesine taşıma                  | Alt+M,A veya Ctrl+F6               |
 | Eylem Bölmesinde veya bir menü içinde bir sekme açma           | Enter veya Space veya Alt+Aşağı ok |
@@ -48,13 +52,14 @@ Aşağıdaki klavye kısayolları tüm Dynamics 365 for Finance and Operations, 
 | Form/iletişim kutusu üzerinde varsayılan düğmeyi yürütme   | Alt+Enter                        |
 | Bir düğmeyi veya döşemeyi tıklama                            | Enter veya Boşluk                   |
 | Bir sayım döşemesi için yenileme bilgilerini görüntüleme         | Alt+Yukarı ok                     |
+| Mevcut kullanılabilir kısayolları görüntüleme                | Alt+Shift+K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Tarih seçici kısayolları
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Bunu yapmak için**                        | **Basın**                                 |
 | Tarih seçiciyi açma                  | Alt+Aşağı ok                            |
-| Tarih seçicide tarihler arasında gezinme | Ctrl+ok tuşları                               |
+| Tarih seçicide tarihler arasında gezinme | Ctrl+ok tuşları                           |
 | Sonraki/önceki aya gitme       | Sayfa aşağı / Sayfa yukarı                       |
 | Sonraki/önceki yıla gitme        | Ctrl+Shift+Sayfa aşağı / Ctrl+Shift+Sayfa yukarı |
 | Bugüne taşı                         | Ctrl+Home                                 |
@@ -65,6 +70,7 @@ Aşağıdaki klavye kısayolları tüm Dynamics 365 for Finance and Operations, 
 ## <a name="factbox-shortcuts"></a>FactBox kısayolları
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
+| **Bunu yapmak için**                                                                  | **Basın**                                 |
 | FactBox bölmesini açma (veya zaten açıksa odağı FactBox bölmesine taşıma) | Alt+M,B veya Ctrl+F2                        |
 | FactBox bölmesini kapatma (odak FactBox bölmesindeyken)                         | Esc                                       |
 | Sonraki/önceki FactBox'a gitme (odak FactBox bölmesindeyken)              | Alt+Shift+Aşağı ok / Alt+Shift+Yukarı ok |

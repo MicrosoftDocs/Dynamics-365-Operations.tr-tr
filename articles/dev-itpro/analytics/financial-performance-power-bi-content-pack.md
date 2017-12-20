@@ -3,7 +3,7 @@ title: "Mali performans Power BI içeriği"
 description: "Bu konu, Mali performans Power BI içeriğini açıklar. Panoyu ve içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: kweekley
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f111698315cd42c0c1c0d470b94688b548375bee
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -38,7 +38,7 @@ Bu konu, **Mali performans** Microsoft Power BI içeriğini açıklar. Panoyu ve
 ### <a name="available-from-lcs"></a>LCS'den bulunabilir
 LCS'den erişilebilir olan **Mali performans** Power BI içeriği, aşağıdaki sürümleri destekler:
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017)
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise edition sürümleri
 - Microsoft Dynamics 365 for Operations sürüm 1611 
 
 Power BI içeriğini LCS'deki Paylaşılan varlık kitaplığında bulabilirsiniz. İçerik paketini indirmek ve kuruluşunuzda tümleştirmek hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](power-bi-content-microsoft-partners.md). Power BI içeriğinin nasıl uygulanacağını gösteren bir demo izlemek için bakınız [Microsoft ve Dynamics Lifecycle Services ortaklarınızdan Power BI içeriği](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.

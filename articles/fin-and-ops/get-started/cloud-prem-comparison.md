@@ -3,7 +3,7 @@ title: "Bulut ve şirket içi özellik karşılaştırması"
 description: "Bu konu, hangi özelliklerin Bulut ve şirket içinde desteklendiğini gösterir."
 author: robinarh
 manager: AnnBe
-ms.date: 07/13/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,13 +15,13 @@ ms.custom: 89563
 ms.assetid: 
 ms.search.region: Global
 ms.author: robinr
-ms.search.validFrom: 2017-07-13
+ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: efe06929db414475f6457dfe49ff1791a3d609d5
+ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
+ms.openlocfilehash: 32cc0c01a096cd678c605f57e0cccfe42d0479aa
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -59,6 +59,9 @@ Aşağıdaki tablolar ürün alanlarını listeler. Bulut ve şirket içi deste�
 | | PowerBI.com ile tümleştirme| Evet | Hayır |
 | | Analitik çalışma alanları | Evet | Hayır |
 | | Akıllı iş süreci: Öneriler| Evet | Hayır |
+| | Power BI masaüstü veya Excel PowerQuery araçlarını kullanarak OData ile Power BI raporları yazma | Evet | Hayır |
+| | SQL Server Raporlama Servisleri (SSRS) ölçeklemeyi destekler  | Evet | Hayır |
+| | Telemetri buluta aktarılır | Evet | Hayır |
 | Stok Yönetimi| | Evet | Evet |
 | Lifecycle services| | Evet | Evet |
 | | Yapılandırılabilir işletme süreçleri | Evet | Hayır |
@@ -86,7 +89,7 @@ Aşağıdaki tablolar ürün alanlarını listeler. Bulut ve şirket içi deste�
 | Taşıma yönetimi| | Evet | Evet |
 | Satıcı işbirliği| | Evet | Evet|
 | Ambar yönetimi| | Evet | Evet |
-| | Mobil ambar uygulaması| Evet | Hayır |
+| | Mobil ambar uygulaması| Evet | Evet |
 | | Power BI raporları ambarlama| Evet | Hayır |
 | Web istemcisi | | Evet | Evet |
 | | Görev kaydedici - Görev kayıtlarını BPM kitaplığından kaydet veya yükle| Evet | Hayır |
@@ -103,6 +106,7 @@ Aşağıdaki tablolar ürün alanlarını listeler. Bulut ve şirket içi deste�
 | Platform uyumluluğu  || Evet | Evet |
 | Bakım | | Evet | Evet |
 | | Servis ortamları | Evet | Hayır |
+| İzleme Ayrıştırıcı ve PerfTimer | | Evet | Hayır |
 | Yükselt | | Evet | Evet |
 | | Yükselt | Evet | Hayır |
 | | Önceki sürümler için yükseltme ve destek | Evet | Hayır |
@@ -121,6 +125,8 @@ Aşağıdaki tablolar ürün alanlarını listeler. Bulut ve şirket içi deste�
 |---|---|---|---|
 | Tüm Talent alanları | Tüm Talent özellikleri | Evet | Hayır |
 
+## <a name="see-also"></a>Ayrıca bkz.
 
+- [Şirket içi dağıtımlarda uygulanmayan özellikler](features-not-implemented-on-prem.md)
 
 

@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ef58898a6822224e44873afdd7c55800215c37a0
+ms.sourcegitcommit: ff0d19a2d712ccb17762803e2fe4ab2ed5aa024e
+ms.openlocfilehash: bd5f055ef816f050ed99390c455a613d46dd6323
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/06/2017
 
 ---
 
@@ -74,7 +74,7 @@ Bir ürün üretim çıkış konumuna (3) bitmiş olarak raporlanır ve bir fork
 ### <a name="cross-docking-policy-name-transfer-order"></a>Çapraz sevk ilke adı: Transfer emri
 
 -   Sıra numarası: 10
--   İş emri türü: Transfer sorunu
+ -   İş emri türü: Transfer sorunu
 -   Çapraz sevk talebi konum gerektirir: Yanlış
 -   Çapraz sevk stratejisi: Tarih ve saat
 
@@ -102,10 +102,9 @@ Bir ürün üretim hattında tamamlanmış olarak raporlandığında, bir kamyon
 6.  Transfer emri oluşturma. Madde numarası L0101 için transfer emri oluştur. Miktar = 20.
 7.  Transfer emrini yük planlama workbench'inden serbest bırakın. **Sevk** sekmesinde, yük hattının **Serbest bırak** menüsü üzerinde yük planlama workbench'i için menü öğesini seçin, **Ambara serbest bırak**'ı seçin. **Transfer sorunu** türünde bir açık dalga hattı şimdi transfer emri için artık mevcuttur.
 8.  Bir üretim emri oluşturun. **Üretim emri** liste sayfasına gidin ve L0101 için bir üretim emri oluşturun. Miktar = 20. Üretim emrini tahmin edin ve başlatın. **Malzeme çekme listesini şimdi naklet** alanı **Hayır** olarak kalır.
-9.  Mobil cihazdan tamamlanmış olarak raporlayın. Mobil cihaz portalına gidin ve menü öğesi **Tamamlanmış olarak raporla ve kaldır**'ı seçin. Mobil cihazdan L0101 tamamlanmış olarak raporlayın. Koyma konumunun **BÖLME KAPISI** olduğunu dikkate alın. Bu konum, **Koyma** iş emri türü için **Transfer sorunu** konum yönergesinden bulunur. **Transfer sorunu** türündeki işin oluşturulduğunu ve tamamlandığını da dikkate alın. İşi doğrulamak için transfer emri iş ayrıntılarına gidin.
-10. Şimdi üretim emrinden 20 adet daha başlatmaya çalışın ve daha sonra 20 adeti mobil cihazı kullanarak tamamlanmış olarak raporlamaya çalışın. Bu sefer, konum **LP-001** koyma konumu olarak önerilir. Bu konum, **Tamamlanmış ürünleri koyma** için konum yönergesinden bulunur. Bu konum yönergesi, çapraz sevk için hiçbir fırsat olmadığından mevcut olmadığından kullanılır. LP-001 için transfer emri, ilk çapraz sevk etkinliği tarafından tamamlanır.
-
-**Tamamlanmış ürünleri koyma** türünde iş oluşturuldu ve işlendi.
+9.  Mobil cihazdan tamamlanmış olarak raporlayın. Mobil cihaz portalına gidin ve menü öğesi **Tamamlanmış olarak raporla ve kaldır**'ı seçin. Mobil cihazdan L0101 tamamlanmış olarak raporlayın. Miktar = 10. Koyma konumunun **BÖLME KAPISI** olduğunu dikkate alın. Bu konum, **Koyma** iş emri türü için **Transfer sorunu** konum yönergesinden bulunur. **Transfer sorunu** türündeki işin oluşturulduğunu ve tamamlandığını da dikkate alın. İşi doğrulamak için transfer emri iş ayrıntılarına gidin.
+10. Şimdi mobil cihazdan ek 10 adet daha bildirin. Yerine koyma konumunun yine **BÖLME KAPISI** olduğunu dikkate alın. Ayrıca 10 adet için **Transfer sorunu** türündeki yeni bir işin oluşturulduğuna dikkat edin.
+11. Şimdi üretim emrinden 20 adet daha başlatmaya çalışın ve daha sonra 20 adeti mobil cihazı kullanarak tamamlanmış olarak raporlamaya çalışın. Bu sefer, konum **LP-001** koyma konumu olarak önerilir. Bu konum, **Tamamlanmış ürünleri koyma** için konum yönergesinden bulunur. Bu konum yönergesi, çapraz sevk için hiçbir fırsat olmadığından mevcut olmadığından kullanılır. LP-001 için transfer emri, adım 9 ve 10'da iki çapraz sevk etkinliği tarafından tamamlanır. **Tamamlanmış ürünleri yerine koyma** türündeki işin oluşturulduğuna ve işlendiğine dikkat edin.
 
 #### <a name="scenario-2---cross-docking-from-production-to-transfer-orders-with-an-appointment-schedule"></a>Senaryo 2 - Üretimden transfer siparişine bir randevu zamanlama ile çapraz sevk
 
@@ -123,7 +122,7 @@ Bir ürün üretim hattında tamamlanmış olarak raporlandığında, bölme kap
 
 ### <a name="additional-information"></a>Ek bilgi
 
--   Çapraz sevk senaryosu toplu iş ve seri denetlenen öğeler için desteklenir; her ikisi de rezervasyon hiyerarşisinin üstünde ve altında toplu iş ve seri numarası boyutları ile tanımlanır.
+-   Çapraz sevk senaryosu toplu iş ve seri denetlenen öğeler için desteklenir; her ikisi de rezervasyon hiyerarşisinin üstünde ve altında toplu iş ve seri numarası boyutları ile tanımlanır. 
 
 
 

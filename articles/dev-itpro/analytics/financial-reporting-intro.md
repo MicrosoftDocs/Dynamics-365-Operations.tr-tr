@@ -1,15 +1,15 @@
 ---
 title: "Finance and Operations için mali raporlama"
 description: "Finance and Operations için mali raporlama, finans ve şirket profesyonellerinin mali tabloları oluşturmasını, güncelleştirmesini, dağıtmasını ve görüntülemesini sağlar. Geleneksel raporlama kısıtlamalarının ötesine geçerek çeşitli rapor türlerini etkin şekilde oluşturmanıza yardımcı olur."
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Operations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d1e1ec9fff9f1a41fd8a219c9fbbf8a26ad3d7b6
+ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
+ms.openlocfilehash: b23883c1f66cda8a719db64a2f50e00605f6bfe9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,18 @@ ms.lasthandoff: 11/03/2017
 
 Finance and Operations için mali raporlama, finans ve şirket profesyonellerinin mali tabloları oluşturmasını, güncelleştirmesini, dağıtmasını ve görüntülemesini sağlar. Geleneksel raporlama kısıtlamalarının ötesine geçerek çeşitli rapor türlerini etkin şekilde oluşturmanıza yardımcı olur.
 
-Mali raporlama boyut desteği içerir. Bu nedenle, hesap segmentleri veya boyutları derhal kullanılabilir hale gelir Hiçbir ek araç veya yapılandırma adımı gerekli değildir.
+Mali raporlama boyut desteği içerir. Bu nedenle, hesap segmentleri veya boyutları derhal kullanılabilir hale gelir Ek araçlar veya yapılandırma adımları gerekli değildir.
+
+## <a name="financial-reporting-setup"></a>Mali raporlama ayarı
+**Mali raporlama kurulumu** sayfası sistemdeki tüm finansal boyutların listesini içerir. **Genel muhasebe** > **Genel muhasebe kurulumu** > **Mali raporlama kurulumu**. 
+
+**Mali raporlama kurulumu** sayfası, Mali raporda bildirdiğiniz verileri belirleyen iki bölüm içerir:
+
+• **Boyutlar sekmesi** - Farklı şirketler farklı boyutlar ve hesap yapıları kullandığından, kullanıcıların raporlarda tüm mali boyutları görüntülemek istediği sırayı belirlemenin bir yolu yoktur. Bu sayfa, Mali raporlamada bir rapor oluşturduğunuzda ve görüntülediğinizde mali boyutların görünmesini istediğiniz sırayı ayarlamanıza olanak tanır.
+
+• **Öznitelikler sekmesi**, **Aatıcılar** ve **Müşteriler**'i filtreleme ve rapor tasarımı için öznitelik olarak kullanmayı isteyip istemediğiniz belirleyeceğiniz alandır. Satıcı ve Müşteri üzerinde raporlama yapmak ancak hareketleri deftere naklederken birden çok müşteri veya satıcıyı tek bir fişe girmiyor olmanız durumunda değerlidir. Müşteri ve/veya Satıcı seçme tümleştirmeye ek süre ekler.
+
+
 
 ## <a name="financial-reporting-components"></a>Mali raporlama bileşenleri
 Mali raporlamanın aşağıdaki bileşenleri raporların oluşturulmasını, görüntülenmesini ve programlanmasını kolaylaştırır.

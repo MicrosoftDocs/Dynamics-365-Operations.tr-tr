@@ -1,16 +1,16 @@
 ---
 title: "Bir mali rapor oluştur"
 description: "Bu konu mali rapor oluşturma hakkında bilgi sağlar."
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 68843
 ms.assetid: 271df6f4-12b7-4b3e-b2d7-36ea98ef1871
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
-ms.openlocfilehash: 2986d218318951b7e46cb5dfafcbd17f2d513755
+ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
+ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -38,17 +38,33 @@ Bir rapor oluşturmak için rapor tanımı açın ve ardından araç çubuğunda
 > [!NOTE]
 > Yalnızca erişim izni olan klasörlere ve konumlar için raporlar oluşturabilirsiniz.
 
-Aşağıdaki tablo, rapor oluşturmak için kullanabileceğiniz seçenekleri açıklar.
+Aşağıdaki tabloda rapor oluşturmak için kullanılabilen seçenekler açıklanmaktadır.
 
-| Seçenek                                                                                | Daha fazla bilgi için |
-|---------------------------------------------------------------------------------------|----------------------|
-| Bir raporu veya rapor grubu otomatik olarak oluşturmak için bir zamanlama ayarlayın              |                      |
-| Hesapları veya bir rapordaki verileri eksik olup olmadığını denetleyin ve raporun doğruluğunu doğrulayın |                      |
+| Seçenek                                                                                | 
+|---------------------------------------------------------------------------------------|
+| Otomatik olarak rapor veya rapor grubu oluşturmak için bir plan ayarlayın              |   
+| Hesapları veya bir rapordaki verileri eksik olup olmadığını denetleyin ve raporun doğruluğunu doğrulayın |   
 
 Bir rapor oluşturduğunuzda, Rapor tanımını sekmesinde belirlediğiniz seçenekleri kullanılır. Çıktı ve dağıtım sekmesi raporu paylaşmak için kolay bir yol sağlayan bir rapor kitaplığı konumu belirtmenize olanak sağlar.
 
-## <a name="schedule-report-generation"></a>Zamanlama raporu oluşturma
-Birçok şirket, iş süreçlerinin hizalamak için zamanlanmış aralıklarla çalıştırmak çekirdek raporlar kümesine sahiptir. Bir raporun örneğin günlük, haftalık, aylık veya yıllık olarak oluşturulmasını planlayabilirsiniz. Bu, tek bir rapor ya da birden fazla şirketi içeren bir rapor grubu olabilir. Bir raporlama ağacı tanımındakiler gibi belirtilen şirketlerin her biri için kimlik bilgilerinizi girmeniz gerekir. Kimlik bilgileri geçerli değilse rapor yalnızca erişime izniniz bulunan o anda oturum açtığınız şirket gibi bilgileri görüntüler. Çıkış bilgileri önce rapor grubundan ve ardından tek raporlardan okunur.
+## <a name="generate-a-financial-report"></a>Bir mali rapor oluştur
+
+Microsoft Dynamics 365 for Finance and Operations ile mali rapor oluşturmak için **Genel muhasebe** > **Sorgulamalar ve raporlar** > **Mali raporlar**'a gidin. 
+ - Oluşturmak için bir rapor seçip **Oluştur**'a tıklayın. 
+ - **Rapor tarihi** alanını doldurup **Tamam**'a tıklayın.
+ 
+ Rapor oluşturulduktan sonra raporu **Raporlar** bölümünden görüntüleyebilirsiniz.
+ Raporu **Görüntülemeyi** veya **Silmeyi** seçebilirsiniz.
+ 
+ 
+**Rapor tasarımcısını** kullanarak rapor oluşturmak için rapor tanımını açın ve ardından araç çubuğundaki Oluştur düğmesine tıklayın. Rapor Kuyruğu Durumu penceresi açılır ve raporunuzun kuyruktaki konumunu gösterir. Varsayılan olarak, oluşturulan rapor Web Görüntüleyici'de açılır.
+
+> [!NOTE]
+> Yalnızca erişim izni olan klasörlere ve konumlar için raporlar oluşturabilirsiniz.
+
+
+## <a name="schedule-report-generation"></a> Rapor oluşturmayı planlama
+Birçok şirket iş süreçleriyle uyum sağlamak üzere planlı aralıklarda çalıştırılan temel bir rapor kümesine sahiptir. Bir raporun örneğin günlük, haftalık, aylık veya yıllık olarak oluşturulmasını planlayabilirsiniz. Bu, tek bir rapor ya da birden fazla şirketi içeren bir rapor grubu olabilir. Bir raporlama ağacı tanımındakiler gibi belirtilen şirketlerin her biri için kimlik bilgilerinizi girmeniz gerekir. Kimlik bilgileri geçerli değilse rapor yalnızca erişime izniniz bulunan o anda oturum açtığınız şirket gibi bilgileri görüntüler. Çıkış bilgileri önce rapor grubundan ve ardından tek raporlardan okunur.
 
 Rapor planları oluşturulup kaydedildikçe Rapor Planları'nın altındaki gezinti bölmesinde görüntülenir. Raporları düzenlemek için klasörler oluşturabilirsiniz. Bir plandaki tek bir rapor çalışmıyorsa tüm diğer raporlar çalışmaya devam eder.
 

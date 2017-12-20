@@ -3,7 +3,7 @@ title: "Satış ve karlılık performansı Power BI içeriği"
 description: "Bu konu, Satış ve karlılık performansı Power BI içeriğinde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3692b9be0fb93e0e2de743775a54bb9c9dbf5809
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: c065eb2f19bbbd553e070f06c29f73114e3efad5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -49,7 +49,7 @@ Karlılık analiz aşağıdaki şekillerde analiz edilebilir:
 -   Müşteri karlılığı (gelir - brüt kar marjı karşılaştırması)
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017) kullanıyorsanız, **Satış ve karlılık performansı** Power BI içeriği **Satış ve karlılık performansı** sayfasında (**Satış ve pazarlama** > **Sorgular ve raporlar** > **Satış performansı analizi** > **Satış ve karlılık performansı**) gösterilir. 
+**Satış ve karlılık performansı** Power BI içeriği **Satış ve karlılık performansı** sayfasında gösterilir (**Satış ve pazarlama** > **Sorgulamalar ve raporlar** > **Satış performansı analizi** > **Satış ve karlılık performansı**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan ölçümler
 **Satış ve karlılık performansı** Power BI içeriği bir dizi ölçümden oluşan bir rapor içerir. Bu ölçümler grafikler, kutucuklar ve tablolar şeklinde görüntülenir. Aşağıdaki tabloda içerikteki görselleştirmelere genel bakış sunulmaktadır.
