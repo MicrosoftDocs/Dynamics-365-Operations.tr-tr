@@ -1,0 +1,52 @@
+---
+title: "Microsoft Dynamics 365 for Talent işlevselliğini genişletme"
+description: "Herhangi bir Microsoft PowerApps oluşturduysanız, bu uygulamaları Microsoft Dynamics 365 for Talent içindeki bağlantılardan başlatabilirsiniz."
+author: rschloma
+manager: AnnBe
+ms.date: 11/28/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: Talent
+audience: Application User
+ms.reviewer: rschloma
+ms.search.scope: Talent
+ms.custom: 17271
+ms.assetid: ba1ad49d-8232-400e-b11f-525423506a3f
+ms.search.region: Global
+ms.author: rschloma
+ms.search.validFrom: 2017-11-28
+ms.dyn365.ops.version: Talent July 2017 update
+ms.translationtype: HT
+ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
+ms.openlocfilehash: 0ab829803634871c9060daa381bd02d7d2bbdf42
+ms.contentlocale: tr-tr
+ms.lasthandoff: 12/01/2017
+
+---
+# <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="fe94d-103">Microsoft Dynamics 365 for Talent işlevselliğini genişletme</span><span class="sxs-lookup"><span data-stu-id="fe94d-103">Extend the functionality of Microsoft Dynamics 365 for Talent</span></span>
+<span data-ttu-id="fe94d-104">Herhangi bir Microsoft PowerApps oluşturduysanız, bu uygulamaları Microsoft Dynamics 365 for Talent içindeki bağlantılardan başlatabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="fe94d-104">If you’ve created any Microsoft PowerApps, you can start those applications from links within Microsoft Dynamics 365 for Talent.</span></span> <span data-ttu-id="fe94d-105">Uygulamalarınıza erişim ayarlamak için, Talent içinde bazı bilgileri **Sistem yönetimi** çalışma alanından açabileceğiniz bir yapılandırma sayfasında ayarlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="fe94d-105">To set up access to your applications, you’ll need to set up some information in Talent on a configuration page that you can open from the **System administration** workspace.</span></span>
+
+## <a name="configuring-embedded-powerapps-within-talent"></a><span data-ttu-id="fe94d-106">Talent içinde katıştırılmış PowerApps yapılandırma</span><span class="sxs-lookup"><span data-stu-id="fe94d-106">Configuring embedded PowerApps within Talent</span></span>
+<span data-ttu-id="fe94d-107">PowerApps uygulamalarını başlatmak üzere Talent sayfalarını yapılandırmak için **Katıştırılmış Microsoft PowerApps ayarlama** sayfasını kullanın.</span><span class="sxs-lookup"><span data-stu-id="fe94d-107">Use the **Set embedded Microsoft PowerApps** page to configure Talent pages to start PowerApps applications.</span></span> <span data-ttu-id="fe94d-108">**Katıştırılmış Microsoft PowerApps ayarlama** sayfasını açmak için, **Sistem yönetimi** çalışma alanını ve ardından **Bağlantılar** sekmesini açın. **Kurulum** grubundan **Microsoft PowerApps**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="fe94d-108">To open the **Set embedded Microsoft PowerApps** page, open the **System administration** workspace and then open the **Links** tab. Select **Microsoft PowerApps** from the **Setup** group.</span></span> 
+
+<span data-ttu-id="fe94d-109">Aşağıdaki bilgileri bu sayfadan girilir veya ayarlanır:</span><span class="sxs-lookup"><span data-stu-id="fe94d-109">The following information is entered or set on this page:</span></span> 
+
+> - <span data-ttu-id="fe94d-110">Her PowerApps uygulaması için açıklayıcı bir ad veya bir tanımlayıcı.</span><span class="sxs-lookup"><span data-stu-id="fe94d-110">A descriptive name or identifier for each PowerApps application.</span></span>
+> - <span data-ttu-id="fe94d-111">Talent sayfasına eklediğiniz her uygulama için benzersiz bir tanımlayıcı (GUID).</span><span class="sxs-lookup"><span data-stu-id="fe94d-111">A unique identifier (GUID) for each application that you add to a Talent page.</span></span> <span data-ttu-id="fe94d-112">Uygulama kodu PowerApps sitesinde bulunur, [powerapps.com](http://powerapps.com/).</span><span class="sxs-lookup"><span data-stu-id="fe94d-112">The app ID is available on the PowerApps site, [powerapps.com](http://powerapps.com/).</span></span> 
+> - <span data-ttu-id="fe94d-113">Kullanıcıların bir uygulama veya rapor açabilecekleri sayfa.</span><span class="sxs-lookup"><span data-stu-id="fe94d-113">The page from which users can open an application or report.</span></span> <span data-ttu-id="fe94d-114">Tüm Talent sayfaları katıştırılmış PowerApps'i ve Power BI raporlarını desteklemez.</span><span class="sxs-lookup"><span data-stu-id="fe94d-114">Not all Talent pages support embedded PowerApps and Power BI reports.</span></span> 
+
+ > [!NOTE]
+ >  <span data-ttu-id="fe94d-115">Sayfanın üstünde görüntülenen görünen ad yerine sayfanın dahili adını girin.</span><span class="sxs-lookup"><span data-stu-id="fe94d-115">Enter the internal name of the page, rather than the display name that appears at the top of the page.</span></span> <span data-ttu-id="fe94d-116">Dahili adı bulmak için, adını öğrenmek istediğiniz sayfası açın ve sayfada herhangi bir yere sağ tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fe94d-116">To find the internal name, open the page that you need the internal name of, and right-click anywhere on the page.</span></span> <span data-ttu-id="fe94d-117">Menü açıldığında, **Form bilgileri** öğesinin üzerine gidin.</span><span class="sxs-lookup"><span data-stu-id="fe94d-117">When the menu opens, hover over the **Form information** item.</span></span> <span data-ttu-id="fe94d-118">Dahili form adı menüdeki **Form bilgileri** öğesinin yanında görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="fe94d-118">The internal form name is displayed next to the **Form information** item in the menu.</span></span>
+ 
+> - <span data-ttu-id="fe94d-119">Uygulamanın bağlam verilerini alabileceği form denetimini belirtin.</span><span class="sxs-lookup"><span data-stu-id="fe94d-119">Specify the form control from which the application can retrieve context data.</span></span> <span data-ttu-id="fe94d-120">Örneğin, bir uygulama bir çalışan hakkındaki verileri kullanabilir.</span><span class="sxs-lookup"><span data-stu-id="fe94d-120">For example, an application might use data about a worker.</span></span> <span data-ttu-id="fe94d-121">**Bağlam** alanındaki **Çalışan** sayfasına girerseniz, **Çalışan** sayfası uygulamayı başlattığınızda açılır.</span><span class="sxs-lookup"><span data-stu-id="fe94d-121">If you enter the **Worker** page in the **Context** field, the **Worker** page will open when you start the application.</span></span> <span data-ttu-id="fe94d-122">**Bağlam alanındaki** bir giriş isteğe bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="fe94d-122">An entry in the **Context field** is optional.</span></span> 
+> - <span data-ttu-id="fe94d-123">PowerApps uygulamasının çalıştırılacağı iletişim kutusunun boyutunu ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="fe94d-123">Set the size of the dialog box on which the PowerApps application will run.</span></span> <span data-ttu-id="fe94d-124">İletişim kutuları, uygulamanız bir telefonda veya geniş bir cihazda çalıştığında kullanıcı arabirimini en iyi duruma getirmek için sırasıyla "küçük" veya "büyük" olarak belirlenebilir.</span><span class="sxs-lookup"><span data-stu-id="fe94d-124">The dialog boxes are designated as “small” or “large” to optimize the user interface when your application for running on a phone or a larger device, respectively.</span></span> 
+
+<span data-ttu-id="fe94d-125">Ayrıca bir uygulamanın hangi tüzel kişilikler tarafından kullanılabileceğini belirleyebilir veya uygulamanın tüm tüzel kişilikler tarafından kullanılabilmesini sağlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="fe94d-125">You can also specify which legal entities an application will be available for, or you can make it available to all your legal entities.</span></span> <span data-ttu-id="fe94d-126">Varsayılan olarak, PowerApps uygulamalarınız tüm tüzel kişiliklerin kullanımına sunulur.</span><span class="sxs-lookup"><span data-stu-id="fe94d-126">By default, your PowerApps applications are available to all legal entities.</span></span>
+
+## <a name="opening-an-application"></a><span data-ttu-id="fe94d-127">Uygulama açma</span><span class="sxs-lookup"><span data-stu-id="fe94d-127">Opening an application</span></span>
+<span data-ttu-id="fe94d-128">Katıştırılmış PowerApps uygulamaları yapılandırdığınızda, belirttiğiniz uygulama bağlantıları Talent içindeki sayfalara eklenir.</span><span class="sxs-lookup"><span data-stu-id="fe94d-128">When you’ve configured embedded PowerApps applications, links to the applications that you specified will be added to the pages within Talent.</span></span> <span data-ttu-id="fe94d-129">Bir uygulamayı açmak için bir bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fe94d-129">Click a link to open an application.</span></span> 
+
+
+
