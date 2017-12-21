@@ -3,7 +3,7 @@ title: "Mali dönem kapatma çalışma alanı"
 description: "Bu makale, Mali dönem kapanış çalışma alanı ve bununla ilişkili yapılandırma hakkında genel bir bakış sağlar."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5dbefc953c0f1608b6f5b5676850a0e9aba36cc
+ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
+ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/29/2017
 
 ---
 
@@ -91,7 +91,8 @@ Görevin uygulanacağı bir veya daha fazla şirkete bir görevi şablonda ataya
 
 **Görev bağlantısı** menü öğesi görev eforuyla ilişkilidir ve çalışma alanındaki görev bağlantısından, ilişkili sayfaya doğrudan gitmek için kullanılabilir. Örneğin, Borç hesapları için para birimini yeniden değerleme işlemini gerçekleştirecek bir kapanış görevi, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içerisinde **Yabancı para birimi yeniden değerleme** sayfasında bağlanabilir. Ayrıca, bir harici URL'ye de bağlayabilirsiniz. 
 
-> [!İpucu] Bir mali dönem kapanış görevine belirli ir Yönetim Raporlayıcı raporu ilişkilendirmek istiyorsanız, rapor URL'si kullanabilirsiniz. Rapor URL'sine erişmek için raporu rapor tasarlayıcıda açın ve ardından raporu bir web tarayıcısında açmak için **Dosya** &gt; **Raporu göster** öğelerini tıklayın. Tarayıcının adres çubuğundaki URL'yi kopyalayabilir ve bunu **Görev bağlantısı** **URL** alanına yapıştırabilirsiniz. 
+> [!TIP]
+> Bir mali dönem kapanış görevine belirli bir Yönetim Raporlayıcı raporu ilişkilendirmek istiyorsanız, rapor URL'si kullanabilirsiniz. Rapor URL'sine erişmek için raporu rapor tasarlayıcıda açın ve ardından raporu bir web tarayıcısında açmak için **Dosya** &gt; **Raporu göster** öğelerini tıklayın. Tarayıcının adres çubuğundaki URL'yi kopyalayabilir ve bunu **Görev bağlantısı** **URL** alanına yapıştırabilirsiniz. 
 
 Görev bağımlılıklarını şablonda tanımlayabilirsiniz. Bir görev, bir ya da birden çok göreve bağlı olacak şekilde ayarlanmış ise, tüm bağımlılıkları tamamlanmış olarak işaretlenene kadar tamamlandı olarak işaretlenemez. 
 

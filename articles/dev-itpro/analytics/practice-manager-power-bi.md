@@ -3,7 +3,7 @@ title: "Uygulama yöneticisi Power BI içeriği"
 description: "Bu konu, Power BI Uygulama yöneticisi nelerin bulunduğunu açıklar. Bu ayrıca, içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: KimANelson
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3462ef1bbde9a98ac6a7bc9a5c54e58ff98559c8
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 836997f9f5b146ff48252c3f06153791ec1aabed
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -39,7 +39,7 @@ Bu konu, Microsoft Power BI **Uygulama yöneticisi** nelerin bulunduğunu açık
 İçerikteki tüm tutarlar sistem para birimi cinsinden gösterilir. Sistem para birimini **Sistem parametreleri** sayfasından ayarlayabilirsiniz.
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017) güncelleştirmesini kullanıyorsanız, **Uygulama yöneticisi** Power BI içeriği **Proje yönetimi** çalışma alanında görüntülenir.
+**Uygulama yöneticisi** Power BI içeriği **Proje yönetimi** çalışma alanında gösterilir.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan raporlar
 

@@ -3,7 +3,7 @@ title: "İşgücü ölçümleri Power BI içeriği"
 description: "Bu konu, İşgücü ölçümleri Power BI içeriğini açıklar. Bu raporlara nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: jcart1106
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1a94eb68d017a334ae0246b50813de9add0ea82a
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: ade42c932b764b8cf5540bddd099e57901637f35
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -34,7 +34,7 @@ Bu konu, **İşgücü ölçümleri** Microsoft Power BI içeriğini açıklar. P
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
 **İşgücü ölçümleri** Power BI içeriği **Personel yönetimi** çalışma alanında, aşağıdaki ürünlerden birini kullanıyorsanız görünür:
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017)
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü 
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan ölçümler

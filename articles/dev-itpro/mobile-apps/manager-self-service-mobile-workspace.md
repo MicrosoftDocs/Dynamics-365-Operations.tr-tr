@@ -3,7 +3,7 @@ title: "Ekibim mobil çalışma alanı"
 description: "Bu konu, yöneticilerin doğrudan rapor verenlerini ve genişletilmiş ekiplerini görüntülemelerine olanak sağlayan Ekibim mobil çalışma alanı hakkında bilgi sağlar. Kullanıcılar, raporlama zincirlerindeki bireylere övgü de gönderebilirler."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a49e7ba9c1cbc525f388b345b7c6b2102bc81f54
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 30a5b88b5f4a0b107b39742770587eeb4bcb87cf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -53,7 +53,7 @@ Bu mobil çalışma alanını kullanmadan önce, aşağıdaki gereksinimleri kar
 <tbody>
 <tr class="odd">
 <td>Aşağıdaki ürünlerden birinin kuruluşunuzda dağıtılmış olması gerekir:
-<ul><li>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017)</li>
+<ul><li>Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü</li>
 <li>Microsoft Dynamics 365 for Talent</li>
 </ul>
 </td>

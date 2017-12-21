@@ -3,7 +3,7 @@ title: "Satınalma siparişi onayı mobil çalışma"
 description: "Bu konu satın alma siparişlerini görmenizi ve eylemler aracılığıyla yanıt vermenizi sağlayan Satınalma siparişi onayı mobil çalışma alanı hakkında bilgi sağlar. Örneğin, bir satınalma siparişini onaylayabilir veya reddedebilirsiniz."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 60744c2b90e64ac77155ba28cdc4fcf65fee1bb6
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 2108f7fd7ba7c24b172befc8d294faeeae4c101f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -41,8 +41,8 @@ Onay gerektiren satınalma siparişleri bir onay iş akışından geçer. İş a
 ## <a name="prerequisites"></a>Ön koşullar
 Önkoşullar, kuruluşunuza dağıtılan Finance and Operations sürümüne göre değişiklik gösterir.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017) kullanıyorsanız önkoşullar 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017) kuruluşunuza dağıtıldıysa, sistem yöneticisinin **Satınalma siparişi onayı** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition kullanıyorsanız önkoşullar 
+Microsoft Dynamics 365 for Finance and Operations, Enterprise edition kuruluşunuza dağıtıldıysa, sistem yöneticisinin **Satınalma siparişi onayı** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Microsoft Dynamics 365 for Operations sürüm 1611 Platform güncelleştirmesi 3 veya daha sonraki sürüm kullanıyorsanız ön koşullar
 Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 365 for Operations 1611 sürümü dağıtılmışsa, sistem yöneticisinin aşağıdaki ön koşulları yerine getirmesi gerekir. 

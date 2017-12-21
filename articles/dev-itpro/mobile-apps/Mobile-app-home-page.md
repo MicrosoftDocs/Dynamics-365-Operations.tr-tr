@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 88e4737bd8abf7f7dbab54fa6fb18afa525177e9
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 233d91138b11905d971be90154da54e61bbe2919
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -84,7 +84,7 @@ Aşağıdaki tablo, Microsoft ve özel mobil çalışma alanlarından sağlanan 
 <tr class="odd">
 <td>1</td>
 <td>Sistem yöneticisi</td>
-<td>Kuruluşunuzda Finance and Operations veya Finance and Operations'ı uygulayın.</td>
+<td>Kuruluşunuzda Finance and Operations uygulayın.</td>
 <td><ul><li>Henüz bir Microsoft Dynamics 365 sürümünü dağıtmadıysanız, bkz. <a href="../deployment/deploy-demo-environment.md">Bir gösteri sürümü dağıtmak</a>.</li><li>Kullanılabilir mobil çalışma alanlarının bir listesini görmek için bkz. <a href="mobile-workspaces-released.md">Yakın zamanda yayımlanmış olan mobil çalışma alanları</a>.</li></ul></td>
 </tr>
 <tr class="even">

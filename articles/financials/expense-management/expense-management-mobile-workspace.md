@@ -3,7 +3,7 @@ title: "Mobil çalışma alanında gider yönetimi"
 description: "Bu konu, Gider yönetimi mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı kullanıcıların bir girişi yakalamasını ve yüklemesini, böylece daha sonra bir gider raporuna ekleyebilmelerini sağlar. Kullanıcılar ayrıca ekli bir alış irsaliyesi kullanarak bir gider satırını hızla oluşturabilir ve gider raporlarını oluşturup yönetebilirler."
 author: KimANelson
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4880c74047f53704f5f4d8efb19b6f8c6b04d479
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: bbbe37330e16a079b817dfe04f4a47f046263e88
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -46,7 +46,7 @@ Bu mobil çalışma alanı, Microsoft Dynamics 365 for Unified Operations mobil 
 - Dosyayı kaydedilen bir giriş olarak yüklemek. Daha sonra dosyayı bir gider raporuna daha sonra ekleyebilirsiniz.
 - Ekli bir fişi kullanarak yeni bir gider satırı oluşturmak. Satır maddesini bir gider raporuna daha sonra ekleyebilir ve onay ve iade için gönderebilirsiniz.
 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017) kullanıyorsanız, aşağıdaki özelliklerden de faydalanabilirsiniz:
+Microsoft Dynamics 365 for Finance and Operations, Enterprise edition kullanıyorsanız, aşağıdaki özelliklerden de faydalanabilirsiniz:
 
 - Yeni gider raporu oluştur.
 - Kredi kartı hareketlerini ve önceden oluşturulmuş diğer giderleri bir gider raporuna ekleyin.
@@ -60,8 +60,8 @@ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 20
 ## <a name="prerequisites"></a>Ön koşullar
 Önkoşullar, kuruluşunuza dağıtılan Microsoft Dynamics 365 sürümüne dayalı olarak farklılık gösterir.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017) kullanıyorsanız önkoşullar 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017) kuruluşunuza dağıtıldıysa, sistem yöneticisinin **Gider yönetimi** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition kullanıyorsanız önkoşullar 
+Microsoft Dynamics 365 for Finance and Operations, Enterprise edition kuruluşunuza dağıtıldıysa, sistem yöneticisinin **Gider yönetimi** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Microsoft Dynamics 365 for Operations sürüm 1611 platform güncelleştirmesi 3 veya daha sonraki sürüm kullanıyorsanız ön koşullar
 Kuruluşunuza platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 365 for Operations 1611 sürümü dağıtılmışsa, sistem yöneticisinin aşağıdaki ön koşulları yerine getirmesi gerekir. 

@@ -3,7 +3,7 @@ title: "Personel gelişimi Power BI içeriği"
 description: "Bu konu, Personel gelişimi Power BI içeriğini açıklar. Bu raporlara nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: jcart1106
 manager: AnnBe
-ms.date: 05/24/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c6a1125d56239f4370d6219a93988d50d402045e
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: f8ba7a968a1a5b376bac52106671607247f061d9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -31,7 +31,7 @@ Bu konu, **Personel gelişimi** Microsoft Power BI içeriğini açıklar. Bu rap
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017) kullanıyorsanız, **Personel gelişimi** içerik paketini, Microsoft Dynamics Lifecycle Services (LCS) Paylaşılan varlıklar kütüphanesinde bulabilirsiniz. İçerik paketini indirmek ve verilerinize bağlamak hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](power-bi-content-microsoft-partners.md).
+**Personel gelişimi** içerik paketini, Microsoft Dynamics Lifecycle Services (LCS) içindeki Paylaşılan varlık kütüphanesinde bulabilirsiniz. İçerik paketini indirmek ve verilerinize bağlamak hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](power-bi-content-microsoft-partners.md).
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan raporlar
 **Personel gelişimi** Power BI içeriğinde bulunan raporlar, ek bilgiler içeren hem grafiklere hem de tablolara sahiptir. Aşağıdaki tablo bu raporları açıklar.
