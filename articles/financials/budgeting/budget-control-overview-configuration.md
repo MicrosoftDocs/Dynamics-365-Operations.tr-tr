@@ -3,7 +3,7 @@ title: "Bütçe denetimine genel bakış"
 description: "Bu makale bütçe denetimini tanıtır ve mali kaynakları yönetebilmeniz için Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içinde bütçe denetimini yapılandırmanıza yardımcı olacak bilgiler sağlar."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
