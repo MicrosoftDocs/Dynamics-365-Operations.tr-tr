@@ -3,14 +3,14 @@ title: "Eleme kuralları"
 description: "Bu konuda, eleme kuralları ve elemeler hakkında raporlama için çeşitli seçenekler ile ilgili bilgiler verilmektedir."
 author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerEliminationRule
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 818572a8d1f790aaa7c6e4befc1d2222a1c35c50
+ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
+ms.openlocfilehash: 2a0897bd80a508474be384e8086ca47dd9de7efb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
@@ -140,7 +140,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="94066-182">Temelleri tanımladıktan sonra, **Satırlar** üzerine tıklatarak gerçek işleme kurallarını tanımlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="94066-182">After you have defined the basics, you can define the actual processing rules by clicking **Lines**.</span></span> <span data-ttu-id="94066-183">Elemeler için iki seçenek mevcuttur; net değişim tutarını eleme veya sabit bir tutar tanımlama.</span><span class="sxs-lookup"><span data-stu-id="94066-183">There are two options for eliminations, eliminating the net change amount or defining a fixed amount.</span></span> 
 
-<span data-ttu-id="94066-184">Kaynak hesabınızı seçin.</span><span class="sxs-lookup"><span data-stu-id="94066-184">Select your source account.</span></span> <span data-ttu-id="94066-185">Joker karakter olarak bir yıldız (\*) kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="94066-185">You can use an asterisk (\*) as a wild card.</span></span> <span data-ttu-id="94066-186">Örneğin, 1\* tahsisat için veri kaynağı olarak 1 ile başlayan tüm hesapları seçer.</span><span class="sxs-lookup"><span data-stu-id="94066-186">For example, 1\* would select all accounts that start with a 1 as a source of data for the allocation.</span></span> 
+<span data-ttu-id="94066-184">Kaynak hesabınızı seçin.</span><span class="sxs-lookup"><span data-stu-id="94066-184">Select your source account.</span></span> <span data-ttu-id="94066-185">Joker karakter olarak bir yıldız (\\*) kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="94066-185">You can use an asterisk (\\*) as a wild card.</span></span> <span data-ttu-id="94066-186">Örneğin, 1\\* tahsisat için veri kaynağı olarak 1 ile başlayan tüm hesapları seçer.</span><span class="sxs-lookup"><span data-stu-id="94066-186">For example, 1\\* would select all accounts that start with a 1 as a source of data for the allocation.</span></span> 
 
 <span data-ttu-id="94066-187">Kaynak hesaplarınızı seçtikten sonra **Hesap belirtimi**, hedef şirketinden kullanılan hesabı belirler.</span><span class="sxs-lookup"><span data-stu-id="94066-187">After you have selected your source accounts, the **Account specification** determines the account from the destination company that is used.</span></span> <span data-ttu-id="94066-188">**Kaynak** hesabında tanımlanan aynı ana hesabı kullanmak istiyorsanız **Kaynak**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="94066-188">Select **Source** if you want to use the same main account defined in the **Source** account.</span></span> <span data-ttu-id="94066-189">**Kullanıcı tanımlı**'yı seçerseniz, bir hedef hesabı belirtmeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="94066-189">If you select **User defined**, then you must specify a destination account.</span></span> 
 
