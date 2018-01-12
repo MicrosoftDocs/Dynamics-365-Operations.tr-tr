@@ -3,14 +3,14 @@ title: "Kredi kartı hareketlerini içe aktarma ve yönetme"
 description: "Bu konu, giderle ilişkili kredi kartı hareketlerinin nasıl içe aktarılacağını ve korunacağını açıklar. Bu hareketler, otomatik olarak yinelenen bir zamanlamada içe aktarılacak şekilde ayarlanabilir veya ihtiyaç duyuldukça el ile içe aktarılabilir."
 author: KimANelson
 manager: AnnBe
-ms.date: 08/29/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global

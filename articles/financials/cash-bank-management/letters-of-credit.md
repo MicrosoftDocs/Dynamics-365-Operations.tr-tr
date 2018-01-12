@@ -3,7 +3,7 @@ title: "Kredi mektupları"
 description: "Kredi mektupları, malların uluslararası alım ve satımı için yaygın olarak kullanılan banka belgelerdir."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

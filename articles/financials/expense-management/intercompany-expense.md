@@ -3,7 +3,7 @@ title: "Şirketlerarası giderler"
 description: "Bir kuruluştaki bir tüzel kişilikte çalışan bir çalışan, aynı kuruluştaki başka bir tüzel kişilik için iş yapabilir. Bu durumda, şirketlerarası gider özelliğini, çalışanın giderini işin gerçekleştirildiği tüzel kişiliğe atamak için kullanabilirsiniz."
 author: saraschi2
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
