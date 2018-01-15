@@ -1,7 +1,7 @@
 ---
 title: "Satış işleminde seri numaralarını kaydetme"
 description: "Bu konuda, satış işlemi sırasında sevk irsaliyeleri veya faturalar üzerine seri numaralarını nasıl kaydedeceğiniz açıklanmaktadır. Bu işlev, bir şirket servis veya garanti amaçlı olarak seri numaralarını tutmak istediğinde ancak seri numaralarını girişten çıkışa stokta tutması gerekmediğinde kullanışlıdır."
-author: YuyuScheller
+author: omulvad
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: bis
 ms.search.scope: Core, Operations, Retail
 ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: sorenand
+ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 23683ff3b232d485d0e4386963b3dcf37cd96c6f
+ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
+ms.openlocfilehash: 061555a228d1d40f2a2d864e72f39dc27155d1bd
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/15/2018
 
 ---
 
