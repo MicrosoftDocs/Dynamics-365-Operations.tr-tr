@@ -41,9 +41,10 @@
 ## [Perakende kanallarını tanımlama](define-maintain-retail-channels.md)
 ## [Çevrimiçi mağazaya genel bakış](online-stores.md)
 ## [Retail donanım istasyonu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md)
-## [Retail saati ve işe devam](retail-time-attendance.md)
+## [Retail saat ve işe devam](retail-time-attendance.md)
 
 # Modern Point of Sale (MPOS) ve Cloud POS
+## [Modern POS ile Cloud POS arasında seçim yapma](MPOS-or-CPOS.md)
 ## [POS işlemleri](POS-operations.md)
 ## [MPOS/CPOS'taki tanıtım verileri ekran düzenleri](demo-data.md)
 ## Donanım çevre birimleri
@@ -75,7 +76,12 @@
 ## Girişler
 ### [Makbuz şablonlarını ayarlama](receipt-templates-printing.md) 
 ### [MPOS'tan e-posta makbuzları gönderme](email-receipts.md)
-## [POS için görev kaydedici ve Yardım](task-recorder-retail-pos.md)
+## [POS için Görev kaydedici ve Yardım](task-recorder-retail-pos.md)
+
+# Sipariş karşılama
+## [Mağaza sipariş karşılamaya genel bakış](Order-fulfillment-overview.md)
+## [Mağazada karşılamayı ayarlama](Order-fulfillment-POS-setup.md)
+## [Satış noktasında bildirimleri etkinleştirme](Notifications-POS.md)
 
 # İzleme ve analiz
 ## [Satış ve kar performansını izleme](monitor-sales-margin-performance.md)
@@ -184,7 +190,7 @@
 ### [Retail Modern POS yapılandırması ve yüklemesi](retail-modern-pos-device-activation.md)
 ### [Retail hesaplarını ve cihazlarını genel merkezden yönetme](set-up-activation-accounts-validate-devices-hq.md)
 ### [Retail POS cihazını etkinleştirme](dev-itpro/retail-device-activation.md)
-### [Güvenli Retail Bulut POS](dev-itpro/secure-retail-cloud-pos.md)
+### [Güvenli Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
 ### [Retail Donanım İstasyonu yapılandırması ve yüklemesi](retail-hardware-station-configuration-installation.md).
 ### [Retail self servis bileşenlerinin toplu dağıtımı](dev-itpro/retail-mass-deployment.md)
 ### [Tanılama ve sorun giderme için Retail bileşeni olayları](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
@@ -258,8 +264,10 @@
 ### [Retail Modern POS hareket sayfalarına özel denetimler ekleme](dev-itpro/pos-custom-transaction.md)
 ### [POS hareketi kılavuzuna özel sütunlar ekleme](dev-itpro/pos-custom-transaction-column.md)
 ### [POS uzantısından bir POS API'sı veya işlem çağırma](dev-itpro/pos-api-extension.md)
-### [Özel sütunlar ve uygulama çubuğu düğmeleri eklemek için mevcut POS görünümleri genişletme](dev-itpro/pos-view-extension.md)
 ### [Retail Modern POS tetikleyicileri ve yazdırma](dev-itpro/pos-trigger-printing.md)
+### [Ekran tasarımcısı tabanlı olmayan bir Retail POS görünümüne özel denetim ekleme](dev-itpro/pos-control-non-screen.md)
+### [POS ve e-Ticaret için Retail proxy'si oluşturma](dev-itpro/pos-generate-retail-proxy.md)
+### [Bulutta barındırılan geliştirme kutuları üzerinde çalışan Retail geliştiricileri için yapılandırma adımları](dev-itpro/cloud-dev-box.md)
 
 ## Ticaret çalışma süresi
 ### [Bağlılık genişletme](dev-itpro/retail-sdk/loyalty-extension-sample.md)
