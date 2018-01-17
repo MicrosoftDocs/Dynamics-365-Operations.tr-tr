@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 02d777da3b97706f9e63478a1978ac9b230a591e
+ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
+ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -104,6 +104,7 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 | 521 | Bağlılık programı kartı puanı bakiyesi | Belirtilen bağlılık programı kartının puan bakiyesi gösterin. | Evet | Evet | Hayır | Hayır | Hayır |
 | 914 | POS penceresini simge durumuna küçült | Bu işlem desteklenmez. | Uygulanamaz | Uygulanamaz | Uygulanamaz | Uygulanamaz | Hayır |
 | 1000 | Çekmeceyi aç | "Satış yok" işlemi gerçekleştirin ve seçili olan kasa çekmecesini açın. | Evet | Evet | Evet | Evet | Hayır |
+| 928 | Sipariş karşılama | Bu işlem kullanıcıların siparişleri mağazadan çekme işlemi için çekmesine, paketlemesine, sevk etmesine veya geri çağırmasına olanak tanır. | Evet | Evet | Evet | Hayır | Hayır |
 | 129 | Satır ürünü vergisini geçersiz kıl | Seçilen satır maddesindeki vergi geçersiz kılın ve farklı bir vergi kullanın. | Evet | Evet | Hayır | Evet | Hayır |
 | 130 | Listedeki satır ürünü vergisini geçersiz kıl | Seçilen satır maddesindeki vergiyi geçersiz kılın ve kullanıcının listeden seçtiği bir vergiyi kullanın. | Evet | Evet | Hayır | Evet | Hayır |
 | 127 | Hareket vergisini geçersiz kıl | Hareketteki vergiyi geçersiz kılın ve farklı bir vergi kullanın. | Evet | Evet | Hayır | Evet | Hayır |

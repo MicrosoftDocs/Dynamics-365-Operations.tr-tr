@@ -3,7 +3,7 @@ title: "İşe alma Power BI içeriği"
 description: "Bu konu, İşe alma Power BI içeriğini açıklar. Bu raporlara nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 22138ab34243aa5f8c74f785ce3aaf68b27b9622
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 0d6bc8584d202810ed14367d36d113d9b109ea7a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -66,5 +66,5 @@ Aşağıdaki tablo, **İşe Alma** Power BI içeriğinin temel aldığı varlık
 | İşe Alma Projesi  | Proje açıklaması, proje durumu ve açılan yerler                | Başvuran, İstihdam Edilen Başvuran, Sonlandırılan Başvuran |
 | İşten Çıkarılan Başvuran | Sonlandırılan başvuranlar, neden, performans ve sonlandırma tarihi | Şirket, Takvim Kaydırma, Tarih, Coğrafi Konum, Performans, Demografi, İstihdam, Ortam, İşe Alma Projesi, Başvuranın Adı |
 
-Bu varlıklar hesaplanmış ölçümler oluşturmak için kullanılıyordu. Bu hesaplanmış ölçümler daha sonra anahtar performans göstergeleri (KPI'ları) hesaplamak ve içerikte kullanılan raporları hesaplamakta kullanılır. Raporlarınıza ve panonuza ek hesaplamalar dahil etmek istiyorsanız, Recruiting.pbix dosyasını Microsoft Dynamics Lifecycle Services'dan (LCS) indirebilir ve değiştirebilirsiniz. Bu dosya, içeriği oluşturmak için kullanılan varsayılan veri modelidir. Değişikliklerinizi yaptıktan sonra, eklediğiniz içerikleri kapsayan bir kuruluş içerik paketi ve panosu oluşturabilirsiniz.
+
 

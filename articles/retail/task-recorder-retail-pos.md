@@ -19,10 +19,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a527136f77b65ef5a43576291e38cb168dbbd322
+ms.sourcegitcommit: e66208ccceb4c248c2704bb7358d77447e032205
+ms.openlocfilehash: 43360ea18ccc0fc4622f6da70ff10f2aca8b56c8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -98,10 +98,10 @@ Duraklattıktan sonra kayıt oturumuna devam etmek için **Devam et** üzerine t
 
 ### <a name="capture-screenshots"></a>Ekran görüntülerini yakala
 
-Görev kaydedici, Perakende Modern POS arabirimi ekran görüntülerini, siz bir iş işlemini kaydederken yakalayabilir. Görev kaydedici, kaydı bir Word belgesi olarak indirirseniz ekran görüntülerini kullanır. Ekran görüntüsü yakalama özelliğini açmak için **Ekran görüntüsü yakala** seçeneğini **Evet** olarak ayarlayın. 
+Görev kaydedici, Perakende Modern POS arabirimi ekran görüntülerini, siz bir iş işlemini kaydederken yakalayabilir. Ekran görüntüsü yakalama özelliğini açmak için **Ekran görüntüsü yakala** seçeneğini **Evet** olarak ayarlayın ve ardından kaydı yapın. Kayıt tamamlandıktan sonra **Durdur**'a tıklayın ve Word belgesini indirin. Belge ilgili ekran görüntüleriyle birlikte adımları içerecektir.
 
 #### <a name="note"></a>Not
-> Ekran görüntüsü yakalama işlevi Bulut POS içerisinde desteklenmez.
+> Ekran görüntüsü yakalama işlevi Modern POS'ta desteklenmez.
 
 ### <a name="start-task-and-end-task"></a>Görevi başlat ve bitir
 

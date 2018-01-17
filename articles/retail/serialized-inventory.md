@@ -17,10 +17,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9eb962e903ac9ee359134cae35ebd399e23cc4e1
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 83c2ce79f5bef058f55af0ecf498b207efc0507a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -41,4 +41,5 @@ Perakende merkezindeki ayarlara dayanarak, ürünler seri veya seri değil olara
     
 - **Seri numaraları müşteri siparişlerini eklemek için gerekli değildir** – Müşteri siparişleri bir mağazadan eklenip başka bir mağazadan gerçekleştirilebilir. Bir müşteri siparişi ekleyen bir kasiyerin seri numarasını eklemesi gerekmez. Seri numarası malzeme çekme veya toplama adımı sırasında sağlanır. Ancak, **Alıp git** teslimat türünün seçilmiş olduğu tüm satır maddeleri için bir seri numarasının verilmiş olması gerekir. Aksi durumda, işlem tamamlanamaz.    
 - **Seri hale getirilen ürünler hareket ekranında toplanmaz** – **İşlev profili** sayfasındaki **Terminal** alanı grubundaki **Ürünleri topla** ayarı, hareket ekranında seri halde olmayan aynı ürünleri toplamanıza olanak sağlar. Aynı ürünler toplanırken, hareket kılavuzunda görülmeleri daha kolaydır. Ancak, seri numaraları genellikle benzersiz olduğunda ve satış sorumlularının ödeme adımına kadar seri numarası girmek zorunda olmadıklarından **Ürünleri topla** ayarı seri haldeki ürünlere uygulanmaz. Bu nedenle seri haldeki ürünler hareket ekranında **Ürünleri topla** ayarı seçiliyse toplanmayacaktır.
+- **Günlükleri seri numarasına göre arama yeteneği** - Günlükler artık seri numaralarına göre de aranabilir. Bunu yapmak için "Günlükler" işlemini açın ve uygulama çubuğundaki "Gelişmiş arama" düğmesine basın. "Filtre ekle" düğmesini kullanarak, seri numarası aramasına bir filtre de uygulanabilir.
 

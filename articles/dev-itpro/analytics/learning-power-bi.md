@@ -1,9 +1,9 @@
 ---
 title: "Öğrenme Power BI içeriği"
-description: "Bu konu, Öğrenme Power BI içeriğini açıklar. Bu raporlara nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar."
+description: "Bu konu, Öğrenme Power BI içeriğini açıklar."
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: bb4a2d6d725f79fe3f095a37b8a37d47339a7966
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: e5a78812aabaa5c835fe23787a9cbb57d1a7770e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -27,11 +27,7 @@ ms.lasthandoff: 12/01/2017
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, **Öğrenme** Microsoft Power BI içeriğini açıklar. İçeriğe nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
-
-## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
-
-**Öğrenme** Power BI içeriğini, Microsoft Dynamics Lifecycle Services (LCS) içindeki Paylaşılan varlık kütüphanesinde bulabilirsiniz. İçeriği indirmek ve kuruluşunuzda tümleştirmek hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](power-bi-content-microsoft-partners.md). Power BI içeriğinin nasıl uygulanacağını gösteren bir demo izlemek için bakınız [Microsoft ve Dynamics Lifecycle Services ortaklarınızdan Power BI içeriği](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
+Bu konu, **Öğrenme** Microsoft Power BI içeriğini açıklar.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan raporlar
 
@@ -69,5 +65,5 @@ Aşağıdaki veriler **Öğrenme** Power BI içeriğindeki raporları doldurmak 
 | Personel Adı    | Adı, ikinci ad ve tam adı                             | Kurs Katılımcıları |
 | Personel Unvanı   | Başlık ve kıdem tarihi                                         | Kurs Katılımcıları |
 
-Bu varlıklar, veri modelinde hesaplanmış ölçümler oluşturmak için kullanılıyordu. Bu hesaplanmış ölçümler daha sonra anahtar performans göstergeleri (KPI'ları) hesaplamak ve içerikte kullanılan raporları hesaplamakta kullanılır. Raporlarınıza ve panonuza ek hesaplamalar dahil etmek istiyorsanız, .pbix dosyasını LCS'den indirebilir ve değiştirebilirsiniz. Bu dosya, içeriği oluşturmak için kullanılan varsayılan veri modelidir. Değişikliklerinizi yaptıktan sonra, eklediğiniz içerikleri kapsayan bir kuruluş içerik paketi ve panosu oluşturabilirsiniz.
+
 

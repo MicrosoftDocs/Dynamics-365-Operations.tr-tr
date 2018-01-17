@@ -3,7 +3,7 @@ title: "Maliyet muhasebesi analizi Power BI içeriği"
 description: "Bu konu, Power BI Maliyet muhasebesi analizinde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d2966954ccb9df03227edab1fe7c471ddd20f32
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2d0fb4de84838f1778625d977bdd2ceeaac61f8c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -44,7 +44,7 @@ Maliyet muhasebesi hakkında daha fazla bilgi için bkz: [Maliyet muhasebesi gir
 Maliyet muhasebesi erişim seviyesi güvenliğini tanımlayarak ve bunu satır düzeyi güvenlik ile Power BI içerisinde birleştirerek tüm maliyet öğesi sahiplerine **Maliyet muhasebesi** Power BI içeriğine erişim sağlayabilirsiniz. Görsellerdeki tüm veri daha sonra Maliyet muhasebesi içinde denetlenen erişim seviyesinde filtrelenir. Erişim seviyesi güvenliği ve satır düzeyi güvenliği hakkında daha fazla bilgi için bkz: [Power BI için Maliyet muhasebesi içeriği için güvenlik kurulumu](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
-**Maliyet muhasebesi analizi** Power BI içeriğini, Microsoft Dynamics Lifecycle Services (LCS) içindeki Paylaşılan varlık kütüphanesinde bulabilirsiniz. İçeriği indirmek ve kuruluşunuzda tümleştirmek hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](power-bi-content-microsoft-partners.md). Power BI içeriğinin nasıl uygulanacağını gösteren bir demo izlemek için bakınız [Microsoft ve Dynamics Lifecycle Services ortaklarınızdan Power BI içeriği](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
+**Maliyet muhasebesi analizi** Power BI içeriğini, Microsoft Dynamics Lifecycle Services (LCS) içindeki Paylaşılan varlık kütüphanesinde bulabilirsiniz. İçeriği indirmek ve kuruluşunuzda tümleştirmek hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/). Power BI içeriğinin nasıl uygulanacağını gösteren bir demo izlemek için bakınız [Microsoft ve Dynamics Lifecycle Services ortaklarınızdan Power BI içeriği](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
 
 Kullanmakta olduğunuz Microsoft Dynamics 365 sürümü için geçerli **Maliyet muhasebesi analizi** içeriğini indirdiğinizden emin olun.
 

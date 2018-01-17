@@ -3,7 +3,7 @@ title: "Mali raporlama veri reyonunu sıfırlama"
 description: "Bu konuda Mali raporlama veri reyonunun nasıl sıfırlanacağı açıklanmaktadır."
 author: aolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: aloson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 0786d3377b914791106ef30455d676e5ab2ae03d
-ms.openlocfilehash: c708fa18b8676d8ff57c26b3176a36d86df29387
+ms.sourcegitcommit: 5b956dcc5a4a93033396ae0ffcf8b7aeba2cf3f2
+ms.openlocfilehash: a07e8b5bae2c4f71e9212cd2f8080d2481769818
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/07/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ Bu konu Mali raporlama veri reyonunun aşağıdaki sürümler için nasıl sıf�
 - Microsoft Dynamics 365 for Finance and Operations Mali raporlama sürüm 7.0.10000.4 veya üstü
 - Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (şirket içi)
 
-Finance and Operations Mali raporlama sürüm 7.2.6.0'ı edinmek için <https://support.microsoft.com/en-us/help/4052514> adresinden KB 4052514'ü indirebilirsiniz.
+Finance and Operations Mali raporlama sürüm 7.2.6.0'ı edinmek için <https://fix.lcs.dynamics.com/Issue/Resolved?kb=4052514>adresinden KB 4052514'ü indirebilirsiniz.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-7260-and-later"></a>Finance and Operations Mali raporlama sürüm 7.2.6.0 ve üstü için Mali raporlama veri reyonunu sıfırlama
 
@@ -55,7 +55,7 @@ Veri reyonu sıfırlama yalnızca veritabanındaki işlem gerçekleştirme mikta
 
 Veri reyonunu sıfırlamak için Rapor tasarımcısında, **Araçlar** menüsünden **Veri Reyonunu Sıfırla**'yı seçin. Görüntülenen iletişim kutusunda iki bölüm vardır: **İstatistikler** ve **Sıfırla**.
 
-[![Veri Reyonunu Sıfırla iletişim kutusu](./media/Statistics.png)](./media/Statistics.png)
+[![Veri Reyonunu Sıfırla iletişim kutusu](./media/Reset-72.jpg)](./media/Reset-72.jpg)
 
 ##### <a name="integration-attempts"></a>Tümleştirme denemeleri
 
@@ -83,8 +83,10 @@ Veri reyonunun sıfırlanmasının gerekli olduğunu belirlerseniz, **Veri reyon
 - **Veritabanını sıfırlama**  – Finance and Operations veri tabanı geri yüklendi ancak Mali raporlama veri reyonu için veritabanı geri yüklenmedi.
 - **Diğer** – Veri reyonunu başka bir nedenle sıfırlıyorsunuz. Bir sorun olduğundan endişe duyuyorsanız, sorunu belirlemek için Desteğe başvurun.
 
+[![Veri reyonunu sıfırla](./media/Integration.png)](./media/Integration.png)
+
 > [!NOTE]
-> Adımları tamamlamadan önce mevcut tüm görevlerin tümleştirme işlemlerini tamamladığını doğrulayın. Tümleştirme durumu **Araçlar** &gt; **Tümleştirme durumu**'nu seçerek görüntüleyebilirsiniz.
+> Tüm veri reyonu sıfırlama görevlerinin siz bir sıfırlama başlatmadan önce başlangıç yüklemesini tamamladığını doğrulayın. Bunu, **Araçlar** &gt; **Tümleştirme durumu**'nu seçerek Son Çalıştırma Zamanı sütunundaki değere bakarak onaylayabilirsiniz.
 
 #### <a name="clear-users-and-companies"></a>Kullanıcıları ve şirketleri temizle
 
@@ -94,7 +96,10 @@ Sıfırlama işlemini başlatmaya hazır olduğunuzda, **Tamam**'ı seçin. İş
 
 Tümleştirme durumunu gözden geçirmek isterseniz, tümleştirmenin en son çalıştırıldığı zamanı ve durumu görüntülemek için **Araçlar** &gt; **Tümleştirme durumu**'nu seçin.
 
-[![Tümleştirmenin durumunu görüntüleme](./media/Integration.png)](./media/Integration.png)
+[![Tümleştirmenin durumunu görüntüleme](./media/New-integration.PNG)](./media/New-integration.PNG)
+
+> [!NOTE]
+> Sıfırlama işlemi tüm eşlemelerin durumu RanToCompletion olarak göründüğünde ve Tümleştirme Durumu penceresinin sol alt köşesinde "Tümleştirme tamamlandı" ifadesi olduğunda tamamlanır.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-70100004-and-later"></a>Finance and Operations Mali raporlama sürüm 7.0.10000.4 ve üstü için Mali raporlama veri reyonunu sıfırlama
 
@@ -142,7 +147,9 @@ Aşağıdaki Microsoft Windows hizmetlerinin Finance and Operations veritabanın
 
 #### <a name="download-the-latest-minorversiondataupgradezip-package"></a>En güncel MinorVersionDataUpgrade.zip paketini indirin.
 
-En güncel MinorVersionDataUpgrade.zip paketini indirin. Veri yükseltme paketinin doğru sürümünü bulma ve indirme ile ilgili yönergeler için bkz. [En son veri yükseltme dağıtılabilir paketini indirme](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-packages). MinorVersionDataUpgrade.zip paketini indirmek için bir yükseltme gerekli değildir. Bu nedenle, bu konudaki "En son veri yükseltme dağıtılabilir paketini indirme" bölümündeki adımları izlemeniz yeterlidir. Konu içindeki tüm diğer adımları atlayabilirsiniz.
+En güncel MinorVersionDataUpgrade.zip paketini indirin. Veri yükseltme paketinin doğru sürümünü bulma ve indirme ile ilgili yönergeler için bkz. [En son veri yükseltme dağıtılabilir paketini indirme](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package). 
+
+MinorVersionDataUpgrade.zip paketini indirmek için bir yükseltme gerekli değildir. Bu nedenle, bu konudaki "En son veri yükseltme dağıtılabilir paketini indirme" bölümündeki adımları izlemeniz yeterlidir. Konu içindeki tüm diğer adımları atlayabilirsiniz.
 
 #### <a name="run-scripts-against-the-finance-and-operations-database"></a>Finance and Operations veritabanı için komut dosyalarını çalıştırma
 

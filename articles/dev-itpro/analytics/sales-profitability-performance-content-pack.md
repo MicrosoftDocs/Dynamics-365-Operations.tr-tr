@@ -3,7 +3,7 @@ title: "Satış ve karlılık performansı Power BI içeriği"
 description: "Bu konu, Satış ve karlılık performansı Power BI içeriğinde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: c065eb2f19bbbd553e070f06c29f73114e3efad5
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 55699cb41c712b49954f9ad6b03c2e7813a3a98a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -76,15 +76,6 @@ Karlılık analiz aşağıdaki şekillerde analiz edilebilir:
 
 \* Bu yılki ve geçen yılki gelir ve büyüme, satış kategorisine göre.
 
-## <a name="extending-the-power-bi-content"></a>Power BI içeriğini genişletmek
-Microsoft Dynamics Lifecycle Services (LCS) içinde kullanılabilir durumda olan içerik paketlerini kullanarak, Microsoft Dynamics 365'e oturum açmayan kişilere harika analizler sunabilirsiniz. Bu içerik paketlerini diğer raporları veya görsel öğeleri içerecek şekilde değiştirebilir ve içerik paketlerini analiz için Power BI.com kiracınıza yayınlayabilirsiniz.
-
-**Satış ve karlılık performansı** Power BI içeriğini LCS'deki Paylaşılan varlıklar kitaplığında bulabilirsiniz. İçeriği indirmek ve kuruluşunuzda tümleştirmek hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](power-bi-content-microsoft-partners.md). Power BI içeriğinin nasıl uygulanacağını gösteren bir demo izlemek için bakınız [Microsoft ve Dynamics Lifecycle Services ortaklarınızdan Power BI içeriği](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
-
-Kullanmakta olduğunuz Dynamics 365 sürümü için geçerli **Satış ve karlılık performansı** içeriğini indirdiğinizden emin olun.
-
-> [!NOTE]
-> Microsoft Dynamics 365 for Operations, 1611 sürümünü kullanıyorsanız, bu Power BI içeriği için KB 4011327 bir önkoşuldur: LCS'de oturum açtıktan sonra KB'ye buradan erişebilirsiniz: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
 Aşağıdaki veriler **Satış ve karlılık performansı** Power BI içeriğindeki raporu doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Sunucu veritabanıdır. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesine genel bakış](power-bi-integration-entity-store.md). 
