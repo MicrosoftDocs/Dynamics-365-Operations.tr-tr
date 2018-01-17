@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,10 +17,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 73981313fc662094ee4f8bb15a88271e16d41193
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: fbc99ae02576cb76edecb9ac74b1823305c5936b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="set-up-quality-orders"></a><span data-ttu-id="ec641-103">Kalite emirlerini ayarlama</span><span class="sxs-lookup"><span data-stu-id="ec641-103">Set up quality orders</span></span>
@@ -92,7 +92,7 @@ ms.lasthandoff: 09/29/2017
 7. <span data-ttu-id="ec641-165">Madde numarası satırını seçin</span><span class="sxs-lookup"><span data-stu-id="ec641-165">Select the Item number row</span></span>
     * <span data-ttu-id="ec641-166">Bu örnekte filtreleme madde numarasına göre yapılacak.</span><span class="sxs-lookup"><span data-stu-id="ec641-166">In this example the filtering will be run based on  the item number.</span></span>  
 8. <span data-ttu-id="ec641-167">Ölçütler alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="ec641-167">In the Criteria field, type a value.</span></span>
-    * <span data-ttu-id="ec641-168">Örneğin, T harfiyle başlayan madde numaralarını filtrelemek için T* yazın.</span><span class="sxs-lookup"><span data-stu-id="ec641-168">For example, type T* to filter on the item numbers that start with T.</span></span>  
+    * <span data-ttu-id="ec641-168">Örneğin, T harfiyle başlayan madde numaralarını filtrelemek için T\* yazın.</span><span class="sxs-lookup"><span data-stu-id="ec641-168">For example, type T\* to filter on the item numbers that start with T.</span></span>  
 9. <span data-ttu-id="ec641-169">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ec641-169">Click OK.</span></span>
 10. <span data-ttu-id="ec641-170">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ec641-170">Click OK.</span></span>
 11. <span data-ttu-id="ec641-171">Madde kalite gruplarına tıklayın.</span><span class="sxs-lookup"><span data-stu-id="ec641-171">Click Item quality groups.</span></span>

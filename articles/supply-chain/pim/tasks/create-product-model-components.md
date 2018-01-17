@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 674d2e1f2c5cdbccf43618a9083ca01abed0735a
-ms.openlocfilehash: 85ac24f388fa9982a0f41919ba44337e7b852502
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: b8b0ef5a580eae551742f984f9229e0da295ea43
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="create-product-model-components"></a><span data-ttu-id="f0b5b-103">Ürün model bileşenleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="f0b5b-103">Create product model components</span></span>
