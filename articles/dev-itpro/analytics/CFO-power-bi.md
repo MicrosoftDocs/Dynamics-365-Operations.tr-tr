@@ -3,7 +3,7 @@ title: "CFO'ya genel bakış Power BI içeriği"
 description: "Bu konu, CFO'ya genel bakış Microsoft Power BI içeriğini açıklar."
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: fcc93daf96f65cd340d6be766c6ef83a74d62cc5
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: fd3696321598267a2acd3ad61f533641c2cc2e77
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -47,8 +47,5 @@ Aşağıdaki tablolar, raporların kopyalandığı Power BI içeriğini ve **CFO
 | [Alacak ve tahsilat yönetimi](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Vadesi geçmiş müşteri</li><li>Müşteri fazla kredi limiti</li><li>Yaşlandırılmış bakiyeler</li></ul> |
 | [Satınalma ve harcama analizi](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Ay/gün olarak satın almalar</li><li>Satın almalara göre en üst 10 satıcı</li><li>Satın almalara göre en üst 10 ürün</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>Power BI içeriğini genişletmek
-Microsoft Dynamics Lifecycle Services (LCS) içinde kullanılabilir durumda olan içerik paketlerini kullanarak, Microsoft Dynamics 365'e oturum açmayan kişilere harika analizler sunabilirsiniz. Bu içerik paketlerini diğer raporları veya görsel öğeleri içerecek şekilde değiştirebilir ve içerik paketlerini analiz için Power BI.com kiracınıza yayınlayabilirsiniz.
 
-**CFO'ya genel bakış** Power BI içeriğini LCS'deki Paylaşılan varlıklar kitaplığında bulabilirsiniz. İçeriği indirmek ve kuruluşunuzda tümleştirmek hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](power-bi-content-microsoft-partners.md). Power BI içeriğinin nasıl uygulanacağını gösteren bir demo izlemek için bakınız [Microsoft ve Dynamics Lifecycle Services ortaklarınızdan Power BI içeriği](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
 

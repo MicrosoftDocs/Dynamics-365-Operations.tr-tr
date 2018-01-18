@@ -3,7 +3,7 @@ title: Excel eklentisini kullanma
 description: "Bu konuda, Microsoft Excel'de varlık verilerinin nasıl açılacağı, ardından Excel için Microsoft Dynamics Office eklentisini kullanarak bu verilerin nasıl görüntüleneceği, güncelleştirileceği ve düzenleneceği açıklanmaktadır."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/27/2017
+ms.date: 11/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: bf2607596993d01abaf5e8a66f14f8c091791d4a
-ms.openlocfilehash: b4151ca929d0dbe073c1a8444cf63a90ac74e20c
+ms.sourcegitcommit: 9b1f25f3630ad5126edd20c5508b83a9811a65f8
+ms.openlocfilehash: dd986d8f82c42c4e229e6e60bdfe8d15a273e149
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 11/07/2017
 
 ---
 
@@ -104,6 +104,18 @@ Veri kaynakları ilişkili veri kaynakları olarak eklenmişse, başlık satırl
 
 4. Veri kaynağına değişikliklerinizi uygulamak için **Güncelleştir**'i seçin. Ardından **Bitti**'yi seçerek tasarımcıdan çıkın.
 5. Bir alan (sütun) eklediyseniz güncelleştirilmiş bir veri kümesini almak için **Yenile**'yi seçin.
+
+## <a name="copy-environment-data"></a>Ortam verilerini kopyala
+
+Bir ortamdaki çalışma kitabından okunan veriler başka bir ortama kopyalanabilir. Bununla birlikte, çalışma kitabındaki veri önbelleği veriyi mevcut veri gibi ele almaya devam edeceğinden bağlantı URL'sini değiştiremezsiniz. Bunun yerine, verileri yeni ortama yeni veri olarak yayımlamak için Ortam Verilerini Kopyala işlevini kullanmanız gerekir.
+
+1. **Seçenekler** düğmesini (çark simgesi) ve daha sonra **Veri Bağlayıcısı** hızlı sekmesinde **Ortam Verilerini Kopyala**'yı seçin. 
+2. Yeni ortamın sunucu URL'sini girin. 
+3. **Tamam**'ı ve ardından **Evet**'i seçerek eylemi onaylayın. Excel eklentisi yeniden başlatılır ve yeni ortama bağlanır. Çalışma kitabında varolan veriler yeni veri olarak kabul edilir.
+
+    Excel eklentisi yeniden başlatıldıktan sonra bir ileti kutusu çalışma kitabının Ortam kopyalama modunda olduğunu belirtir.
+
+4. Veriyi yeni ortama yeni veri olarak kopyalamak için **Yayımla**'yı seçin. Ortam kopyalama işlemi iptal etmek ve yeni ortamdaki mevcut verileri incelemek için **Yenile**'yi seçin.
 
 ## <a name="troubleshooting"></a>Sorun Giderme
 Bazı kolay adımlarla çözülebilecek birkaç sorun var.

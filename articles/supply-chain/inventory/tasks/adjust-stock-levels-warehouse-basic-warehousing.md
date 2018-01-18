@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -23,14 +23,14 @@ ms.contentlocale: tr-tr
 ms.lasthandoff: 09/29/2017
 
 ---
-# Ambardaki stok düzeylerini ayarlama (temel ambarlama)
+# <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Ambardaki stok düzeylerini ayarlama (temel ambarlama)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, ürünlerin ambardaki stok düzeylerini ayarlamak için bir stok ayarlama günlüğünü oluşturma ve deftere nakletme işlemini size gösterecektir. Buna başlamadan önce stok düzeltmeleri için ayarlanmış bir stok günlüğü adı olması gerekir. Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz. Bu görevler normalde ambar personeli tarafından yerine getirilir.
 
 
-## Bir stok düzeltme günlüğünü yaratmak
+## <a name="create-an-inventory-adjustment-journal"></a>Bir stok düzeltme günlüğünü yaratmak
 1. Stok yönetimi > Yevmiye defteri girişleri > Öğeler > Stok düzeltmesi öğesine gidin.
 2. Yeni'ye tıklayın.
 3. Ad alanında, açılır menü düğmesine tıklayarak aramayı açın.
@@ -38,7 +38,7 @@ Bu yordam, ürünlerin ambardaki stok düzeylerini ayarlamak için bir stok ayar
     * Diğer bazı alanlar, seçtiğiniz stok ayarlama günlük adı kurulumu temel alınarak doldurulur.  
 5. Tamam'a tıklayın.
 
-## Günlük satırları oluştur
+## <a name="create-journal-lines"></a>Günlük satırları oluştur
 1. Yeni'ye tıklayın.
 2. Listede madde numarası alanını işaretleyin.
 3. Madde numarası alanında bir maddeyi seçin. Demo verileri şirket USMF'yi kullanıyorsanız, 'D0001' yazın.
@@ -50,7 +50,7 @@ Bu yordam, ürünlerin ambardaki stok düzeylerini ayarlamak için bir stok ayar
 8. Miktar alanına bir sayı girin.
     * Maliyet fiyatı alanı, stok girişleriyle bağlantılı olarak birim başına maliyeti belirtir. Madde numarası için maliyetin belirtilmemiş olması veya bunu el ile değiştirmek istemeniz durumunda, bunu burada yapabilirsiniz.  
 
-## Stok düzeltme günlüğünü geçerli kılın ve nakledin
+## <a name="validate-and-post-the-inventory-adjustment-journal"></a>Stok düzeltme günlüğünü geçerli kılın ve nakledin
 1. Doğrula'ya tıklayın.
 2. Tamam'a tıklayın.
 3. Deftere Naklet öğesine tıklayın.

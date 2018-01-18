@@ -1,9 +1,9 @@
 ---
 title: "Personel gelişimi Power BI içeriği"
-description: "Bu konu, Personel gelişimi Power BI içeriğini açıklar. Bu raporlara nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar."
+description: "Bu konu, Personel gelişimi Power BI içeriğini açıklar."
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: f8ba7a968a1a5b376bac52106671607247f061d9
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 99ae772f3a7fe9ad274a46398a577ad96f18e251
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -27,11 +27,7 @@ ms.lasthandoff: 12/01/2017
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, **Personel gelişimi** Microsoft Power BI içeriğini açıklar. Bu raporlara nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
-
-## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
-
-**Personel gelişimi** içerik paketini, Microsoft Dynamics Lifecycle Services (LCS) içindeki Paylaşılan varlık kütüphanesinde bulabilirsiniz. İçerik paketini indirmek ve verilerinize bağlamak hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](power-bi-content-microsoft-partners.md).
+Bu konu, **Personel gelişimi** Microsoft Power BI içeriğini açıklar.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan raporlar
 **Personel gelişimi** Power BI içeriğinde bulunan raporlar, ek bilgiler içeren hem grafiklere hem de tablolara sahiptir. Aşağıdaki tablo bu raporları açıklar.
@@ -74,5 +70,4 @@ Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve ku
 | Performans              | Değerlendirme, açıklama ve derecelendirme modeli                                                                      | Geçerli Personel, Geçerli Pozisyon, Personel Eğilimi, İş Tercih Edilen Yetenek, Geçmiş Pozisyon Ataması, Pozisyon Eğilimi, Sonlandırılan Personel |
 |  Yetenek                   | Beceri, beceri türü ve derecelendirme                                                                              | Personel Yetenek Analizi, İş Tercih Edilen Yetenek |                                                                                                                        
 
-Bu varlıklar, veri modelinde hesaplanmış ölçümler oluşturmak için kullanılıyordu. Bu hesaplanmış ölçümler daha sonra anahtar performans göstergeleri (KPI'ları) hesaplamak ve Power BI içeriğinde kullanılan raporları hesaplamakta kullanılır. Raporlarınıza ve panonuza ek hesaplamalar dahil etmek istiyorsanız, .pbix dosyasını LCS'den indirebilir ve değiştirebilirsiniz. Bu dosya, Power BI içeriğini oluşturmak için kullanılan varsayılan veri modelidir. Değişikliklerinizi yaptıktan sonra, eklediğiniz içerikleri kapsayan bir kuruluş içerik paketi ve panosu oluşturabilirsiniz.
 

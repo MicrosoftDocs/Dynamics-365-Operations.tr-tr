@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3bf244786e308ebcaee27a16fae378f41086f963
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: ce9bc42751cf0f537a0ddb5069aca7c9779a6bb1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -44,10 +44,11 @@ Aşağıdaki iş akışı türleri, Tedarik ve kaynak atama için kullanılabili
 |                                  |                                                               |
 |----------------------------------|---------------------------------------------------------------|
 | **Tip**                         | **Bu türü aşağıdakileri gerçekleştirmek için kullanın:**                                          |
-| Satınalma talebi incelemesi      | Satınalma talepleri için gözden geçirme iş akışları oluşturun.            |
-| Satınalma talep satırı gözden geçir | Satınalma talebi satırları için gözden geçirme iş akışları oluşturun.       |
+| Satınalma talebi incelemesi      | Satınalma talepleri için gözden geçirme ve onay iş akışları oluşturun.            |
+| Satınalma talep satırı gözden geçir | Satınalma talebi satırları için gözden geçirme ve onay iş akışları oluşturun.       |
 | Satınalma siparişi iş akışı          | Satınalma siparişleri için gözden geçirme ve onay iş akışları oluşturun.     |
 | Satınalma sipariş satırı iş akışı     | Satınalma siparişi satırları için gözden geçirme ve onaylama iş akışları oluşturun. |
+| Satıcı uygulama ekleme iş akışı  | Satıcı talepleri aracılığıyla yeni satıcılar eklemek için gözden geçirme ve onay iş akışları oluşturun. |
 
 ## <a name="creating-a-workflow"></a>İş akışı oluşturma
 Bir iş akışı oluşturmak için, Tedarik ve kaynak atama &gt; Kurulum &gt; Tedarik ve kaynak atama iş akışları menüsüne gidin ve oluşturmak istediğiniz iş akışı türünü seçerek yeni bir iş akışı oluşturun.  
@@ -75,6 +76,6 @@ Aşağıdaki katımcı gruplarına bir onay adımı atayabilirsiniz.
 
 [Satınalma talebi iş akışı](purchase-requisitions-workflow.md)
 
-
+[Satıcıları işe alma](vendor-onboarding.md)
 
 

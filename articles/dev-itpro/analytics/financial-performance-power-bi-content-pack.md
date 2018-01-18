@@ -1,9 +1,9 @@
 ---
 title: "Mali performans Power BI içeriği"
-description: "Bu konu, Mali performans Power BI içeriğini açıklar. Panoyu ve içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar."
+description: "Bu konu, Mali performans Power BI içeriğini açıklar."
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 83ea868e7612f30afa1b99f374878f4ba415113f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,21 +30,6 @@ ms.lasthandoff: 12/01/2017
 [!include[banner](../includes/banner.md)]
 
 Bu konu, **Mali performans** Microsoft Power BI içeriğini açıklar. Panoyu ve içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
-
-## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
-
-**Mali performans** Power BI içeriğine Microsoft Dynamics Lifecycle Services (LCS) üzerinden ve PowerBI.com'dan erişebilirsiniz.
-
-### <a name="available-from-lcs"></a>LCS'den bulunabilir
-LCS'den erişilebilir olan **Mali performans** Power BI içeriği, aşağıdaki sürümleri destekler:
-
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise edition sürümleri
-- Microsoft Dynamics 365 for Operations sürüm 1611 
-
-Power BI içeriğini LCS'deki Paylaşılan varlık kitaplığında bulabilirsiniz. İçerik paketini indirmek ve kuruluşunuzda tümleştirmek hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](power-bi-content-microsoft-partners.md). Power BI içeriğinin nasıl uygulanacağını gösteren bir demo izlemek için bakınız [Microsoft ve Dynamics Lifecycle Services ortaklarınızdan Power BI içeriği](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
-
-### <a name="available-from-powerbicom"></a>PowerBI.com'dan kullanılabilir
-PowerBI.com'dan erişilebilir olan **Finansal performans** Power BI içeriği Microsoft Dynamics AX sürüm 7.0 ve 7.0.1'i destekler. Dynamics AX verinizi yüklemek ve bağlamak hakkında daha fazla bilgi için bkz. [Power BI içeriğine PowerBI.com'dan erişin](power-bi-home-page.md).
 
 ## <a name="main-account-setup"></a>Ana hesap kurulumu
 Kuruluşlar borçlar ve gelirlerin raporlarda pozitif tutarlarda görünmesini istedikleri için ana hesapların kurulumu önemlidir. Bu ana hesapların pozitif tutarlarda görünmesi için, ana hesap türü **Pasif** veya **Gelir** olarak ayarlanmalıdır. Bu hesap türleri kullanıldığında, Power BI aracılığıyla gerçekleştirilen raporlama işaretleri ters çevirir ve tutarları pozitif gösterir.
@@ -101,5 +86,5 @@ Tüm bu raporlardaki grafikler ve kutucuklar filtrelenebilir ve panoya sabitlene
 - Genel muhasebe defterleri
 - ChartofAccounts
 
-Bu varlıklar, veri modelinde hesaplanmış ölçümler oluşturmak için kullanılıyordu. Hesaplanmış ölçümler, anahtar performans göstergeleri (KPI'ları) hesaplamak ve içerikte kullanıla raporları hesaplamakta kullanılır. İçerik, varsayılan olarak son üç yılın ve gelecekteki bir yılın verilerini getirir. Raporlara ve panoya ek hesaplamalar dahil etmek için [Microsoft Excel çalışma kitabı](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi)'nı değiştirebilirsiniz. Bu çalışma kitabı, içeriği oluşturmak için kullanılan varsayılan veri modelidir. Değişikliklerinizi yapmayı bitirdikten sonra, eklediğiniz içerikleri kapsayan bir kuruluş içerik paketi ve panosu oluşturabilirsiniz.
+Bu varlıklar, veri modelinde hesaplanmış ölçümler oluşturmak için kullanılıyordu. Hesaplanmış ölçümler, anahtar performans göstergeleri (KPI'ları) hesaplamak ve içerikte kullanıla raporları hesaplamakta kullanılır. İçerik, varsayılan olarak son üç yılın ve gelecekteki bir yılın verilerini getirir. Raporlara ve panoya ek hesaplamalar dahil etmek için [Microsoft Excel çalışma kitabı](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi)'nı değiştirebilirsiniz. Bu çalışma kitabı, içeriği oluşturmak için kullanılan varsayılan veri modelidir. 
 

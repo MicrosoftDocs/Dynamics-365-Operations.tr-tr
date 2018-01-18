@@ -3,7 +3,7 @@ title: "Üretim performansı Power BI içeriği"
 description: "Bu konu, Üretim performansı Power BI içeriğinde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar."
 author: AndersGirke
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 592514e9ef8b0ec1e3bacda0f26d5991da88449e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -59,15 +59,6 @@ Aşağıdaki tabloda, dahil edilen görsellere yönelik genel bakış sunulur.
 | Kaynağa göre hasar eğilimi                  | İşlenen miktara göre hasar oranı (ppm) | |
 | İş emri maliyetlendirme için üretim farkları | <ul><li>Tarih ve maliyet grubu türüne göre üretim farkı</li><li>Tesis ve maliyet grubu türüne göre üretim farkı</li><li>İstenmeyen üretim farkıyla en iyi 10 ürün</li><li>Kaynağa göre ilk 10 istenmeyen üretim farkı </li></ul> | <ul><li>Gerçekleşen maliyet</li><li>Üretim farkı</li><li>Üretim farkı yüzdesi</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>Power BI içeriğini genişletmek
-Microsoft Dynamics Lifecycle Services (LCS) içinde kullanılabilir durumda olan içerik paketlerini kullanarak, Microsoft Dynamics 365'e oturum açmayan kişilere harika analizler sunabilirsiniz. Bu içerik paketlerini diğer raporları veya görsel öğeleri içerecek şekilde değiştirebilir ve içerik paketlerini analiz için Power BI.com kiracınıza yayınlayabilirsiniz.
-
-**Üretim performansı** Power BI içeriğini LCS'deki Paylaşılan varlıklar kitaplığında bulabilirsiniz. İçeriği indirmek ve kuruluşunuzda tümleştirmek hakkında daha fazla bilgi için bkz. [Microsoft LCS ve iş ortaklarınızdan Power BI içeriği](power-bi-content-microsoft-partners.md). Power BI içeriğinin nasıl uygulanacağını gösteren bir demo izlemek için bakınız [Microsoft ve Dynamics Lifecycle Services ortaklarınızdan Power BI içeriği](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.
-
-Kullanmakta olduğunuz Dynamics 365 sürümü için geçerli **Üretim performansı** içeriğini indirdiğinizden emin olun.
-
-> [!NOTE]
-> Microsoft Dynamics 365 for Operations, 1611 sürümünü kullanıyorsanız, bu Power BI içeriği için KB 4011327 bir önkoşuldur: LCS'de oturum açtıktan sonra KB'ye buradan erişebilirsiniz: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
 
@@ -139,12 +130,5 @@ Aşağıdaki tablo, daha büyük hassasiyet ve daha derin analiz bilgileri elde 
 | Kaynaklar                 | Kaynak Kodu, Kaynak adı, Kaynak türü ve Kaynak grubu |
 | Ürünler                  | Ürün numarası, Ürün adı, Madde Kodu ve Madde grubu         |
 
-## <a name="additional-resources"></a>Ek kaynaklar
 
-Power BI içeriği oluşturmak ve varlıklarla ilgili bazı yararlı bağlantılar şunlardır:
-
-- [Veri varlıkları](../data-entities/data-entities.md)
-- [Kuruluş içerik paketleri oluşturma](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
-- [Power BI kullanarak veri modelleme](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
-- [Çalışma alanlarına Power BI kutucukları ekleme](configure-power-bi-integration.md)
 

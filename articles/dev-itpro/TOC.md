@@ -2,6 +2,7 @@
 # [Bulut dağıtımları için sistem gereksinimleri](../fin-and-ops/get-started/system-requirements.md)
 # [Şirket içi dağıtımlar için sistem gereksinimleri](../fin-and-ops/get-started/system-requirements-on-prem.md)
 # [Tanıtım verileri](../fin-and-ops/get-started/demo-data.md)
+## [Paketler ile tanıtım verileri oluşturma](data-entities/generate-demo-data-packages.md)
 
 
 # [Visual Studio kullanarak geliştirme ve özelleştirme](dev-tools/developer-home-page.md)
@@ -362,6 +363,7 @@
 ### [OData](data-entities/odata.md)
 ### [Özel hizmetler](data-entities/custom-services.md)
 ### [Yinelenen tümleştirmeler](data-entities/recurring-integrations.md)
+### [Hizmetlerle birlikte üçüncü taraf hizmet sınama yardımcı programlarını kullanma](data-entities/third-party-service-test.md)
 
 ## Tümleştirme için geliştirme
 ### [Veri varlıklarını kullanarak veri tümleştirmesi](data-entities/data-management-integration-data-entity.md)
@@ -396,6 +398,7 @@
 ### [Yapılandırma veri paketleri](data-entities/configuration-data-packages.md)
 ### [Şirketler arasında yapılandırma verilerini kopyalama](data-entities/copy-configuration.md)
 ### [Yapılandırma verisi şablonları](data-entities/configuration-data-templates.md)
+### [Birden çok çalışma sayfasına sahip veri şablonları](data-entities/excel-template-multiple.md)
 ### [Varlık üzerindeki değişiklikleri izleme](data-entities/entity-change-track.md)
 
 ## Standart veri varlıkları
@@ -501,13 +504,16 @@
 
 ## [Şirket içi dağıtım](deployment/on-premises-deployment-landing-page.md)
 ### [Şirket içine genel bakış](deployment/on-premises-overview.md)
+### [Şirket içi dağıtımınız için planlama](deployment/plan-onprem-deployment.md)
 ### [Donanım boyutlandırma](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 ### [Şirket içi proje oluşturma](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Şirket içi ortamlar ayarlama ve dağıtma](deployment/setup-deploy-on-premises-environments.md)
 ### [Özel modeller geliştirme ve şirket içi ortamlara dağıtma](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Şirket içi dağıtıma güncelleştirmeler uygulama](deployment/apply-updates-on-premises.md)
 ### [Bir şirket içi dağıtımı yeniden dağıtma](deployment/redeploy-on-prem.md)
-### [Dynamics 365 for Finance and Operations, Enterprise Edition şirket içi sürümünde sorun giderme](deployment/troubleshoot-on-prem.md)
+### [Yerel aracıyı güncelleştirme](lifecycle-services/update-local-agent.md)
+### [Ortamınızı yeniden yapılandırma](lifecycle-services/reconfigure-environment.md)
+### [Dynamics 365 for Finance and Operations, Enterprise şirket içi sürümünde sorun giderme](deployment/troubleshoot-on-prem.md)
 
 ## Özel kod dağıtma
 ### [Dağıtılabilir paket oluşturma](deployment/create-apply-deployable-package.md)

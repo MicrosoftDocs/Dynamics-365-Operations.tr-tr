@@ -14,15 +14,16 @@
 
 #### Finance and Operations'ı satın alma
 ##### [Dynamics 365 için Microsoft FastTrack](get-started/fasttrack-dynamics-365-overview.md)
-##### [Finance and Operations'ı (şirket içi) satın alma](get-started/purchase-on-premises.md)
+##### [Finance and Operations (şirket içi) satın alma](get-started/purchase-on-premises.md)
 
 ### [Yenilikler veya değişenler](get-started/whats-new-changed.md)
-#### [Kullanımdan kaldırılan özellikler](../dev-itpro/migration-upgrade/deprecated-features.md)
+#### [Kaldırılan veya artık kullanılmayan özellikler](../dev-itpro/migration-upgrade/deprecated-features.md)
 #### [Ertelenen AX 2012 özellikleri](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Şirket içi dağıtımlarda uygulanmayan özellikler](get-started/features-not-implemented-on-prem.md)
-#### [Yaşam döngüsü ilkesi](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [Platform update 12 (Kasım 2017)](get-started/whats-new-platform-update-12.md)
-#### [Platform update 11 (Ekim 2017)](get-started/whats-new-platform-update-11.md)
+#### [Sürümler ve yaşam döngüsü ilkesi](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [Finance and Operations, Enterprise edition 7.3](get-started/whats-new-application-7.3-update.md)
+#### [Platform güncelleştirmesi 12 (Kasım 2017)](get-started/whats-new-platform-update-12.md)
+#### [Platform güncelleştirmesi 11 (Ekim 2017)](get-started/whats-new-platform-update-11.md)
 #### [Platform update 10 (Ağustos 2017)](get-started/whats-new-platform-update-10.md)
 #### [Finance and Operations, Enterprise Edition (Temmuz 2017)](get-started/whats-new-application-July-2017-update.md)
 #### [Platform update 9 (Temmuz 2017)](get-started/whats-new-platform-update-9.md)
@@ -141,7 +142,7 @@
 #### [Veri yönetimi paketi API'sı](../dev-itpro/data-entities/data-management-api.md)
 #### [Hizmet uç noktaları](../dev-itpro/data-entities/services-home-page.md)
 ##### [Hizmet kimlik doğrulamasıyla ilgili sorunları giderme](../dev-itpro/data-entities/troubleshoot-service-authentication.md)
-#### [OData](../dev-itpro//data-entities/odata.md)
+#### [OData](../dev-itpro/data-entities/odata.md)
 #### [Özel hizmetler](../dev-itpro/data-entities/custom-services.md)
 #### [Yinelenen tümleştirmeler](../dev-itpro/data-entities/recurring-integrations.md)
 
@@ -179,9 +180,10 @@
 ### [Veri varlıkları](../dev-itpro/data-entities/data-entities.md)
 
 #### [Yapılandırma verileri projeleri](../dev-itpro/data-entities/configuration-data-projects.md)
-#### [Yapılandırma veri paketleri](../dev-itpro/data-entities/configuration-data-packages.md)
 #### [Şirketler arasında yapılandırma verilerini kopyalama](../dev-itpro/data-entities/copy-configuration.md)
+##### [Yapılandırma veri paketleri (yalnızca Temmuz 2017 sürümü)](../dev-itpro/data-entities/configuration-data-packages.md)
 #### [Yapılandırma verileri şablonları](../dev-itpro/data-entities/configuration-data-templates.md)
+
 #### [Varlık üzerindeki değişiklikleri izleme](../dev-itpro/data-entities/entity-change-track.md)
 
 ### Standart veri varlıkları
@@ -646,6 +648,11 @@
 ##### [Negatif borç alacaklarını ayarlama ](../financials/localizations/apac-chn-negative-debits-credits.md)
 ##### [Çin çalışma kuralına göre kullanıcı işlemi günlüğü](../financials/localizations/tasks/user-operation-log-china-working-rule.md)
 ##### [KDV müşteri faturalarıyla ilgili SSS](../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
+
+#### Hindistan
+##### [Vergi altyapısına genel bakış](../financials/general-ledger/tax-engine.md)
+##### [Vergi altyapısı tümleştirmesi](../financials/general-ledger/tax-engine-integration.md)
+##### [Vergi altyapısını genişletme](../financials/general-ledger/extend-tax-engine-configurations.md)
 
 #### Japonya
 ##### [Sabit kıymeti alma ve devlet desteği yardımı için talepte bulunma](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -1214,10 +1221,11 @@
 #### [İş gücü ölçümleri](../dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md)
 
 ### Belge raporlama ve yazdırma
-#### [Belge Raporlama Hizmetlerine genel bakış](../dev-itpro/analytics/document-reporting-services.md)
+#### [Document Reporting Services'a genel bakış](../dev-itpro/analytics/document-reporting-services.md)
+#### [Şirket içi ortamlara ağ yazıcısı cihazları kurma](../dev-itpro/analytics/install-network-printer-onprem.md)
 #### [Şirket içi dağıtım için SSRS yapılandırma](../dev-itpro/analytics/configure-ssrs-on-premises.md)
 #### [Yazdırma](../dev-itpro/analytics/print-documents.md)
-##### [Ağ yazıcısı cihazlarını etkinleştirmek için Belge Rota Aracısı'nı yükleme](../dev-itpro/analytics/install-document-routing-agent.md)
+##### [Ağ yazıcısı cihazlarını etkinleştirmek için Belge Yönlendirme Aracısı'nı yükleme](../dev-itpro/analytics/install-document-routing-agent.md)
 ##### [Şirket içi dağıtımlarda belge oluşturma, yayınlama ve yazdırma yetenekleri](../dev-itpro/analytics/printing-capabilities-on-premises.md)
 ##### [Windows hizmeti olarak Belge Rota Aracısı'nı çalıştırma](../dev-itpro/analytics/run-document-routing-agent-as-windows-service.md)
 #### [Uzun süre çalışan raporların zaman aşımına uğramasını önlemeye yardımcı olma](../dev-itpro/analytics/prevent-long-running-reports-timing-out.md)
@@ -1284,31 +1292,29 @@
 ##### [Elektronik raporlama için harici bir dosyadan verileri içe aktarmak üzere gerekli yapılandırmaları oluşturma](../dev-itpro/analytics/tasks/er-required-configurations-import-data.md)
 ##### [Elektronik raporlama için biçim oluştururken veri modeli tanımını seçme](../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md)
 ##### [Elektronik raporlama için yeni temel sürümünü benimseyerek biçiminizi yükseltme](../dev-itpro/analytics/tasks/er-upgrade-format.md)
-##### [Elektronik raporlama için Lifecycle Services'a bir yapılandırmayı yükleme](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md)
+##### [Elektronik raporlama için Lifecycle Services'a bir yapılandırma yükleme](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md)
+##### [Uygulama güncelleştirmesi 7.3 için elektronik raporlama çerçevesi API değişiklikleri](../dev-itpro/analytics/er-apis-app73.md)
 
-### Analiz araçları ve sanallaştırmalar
+### Katıştırılmış analiz çözümleri
+#### [Çalışma alanlarında katıştırılmış Power BI](../dev-itpro/analytics/embed-power-bi-workspaces.md)
+#### [Power BI Embedded tümleştirmesi](../dev-itpro/analytics/power-bi-embedded-integration.md)
+
+### PowerBI.com ile kişiselleştirme seçenekleri
+#### [Power BI tümleştirmesi](../dev-itpro/analytics/power-bi-integration.md)
+#### [Power BI raporlarını çalışma alanlarına sabitleme](../dev-itpro/analytics/pin-power-bi-reports.md)
+
+### Çözümler oluşturma ve genişletme araçları
 #### [Analiz, toplanan ölçümler ve KPI modellemesi](../dev-itpro/analytics/analytics.md)
+#### [Power BI Desktop kullanarak analiz raporları yazma](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
 #### [Modelleme ve toplanan veriler](../dev-itpro/analytics/model-aggregate-data.md)
 #### [Ölçümleri toplamak için mali boyutlar ekleme](../dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md)
-#### [Formlara bağlamsal BI ekleme](../dev-itpro/analytics/add-contextual-bi-forms.md)
-#### [Toplanan ölçümler raporu](../dev-itpro/analytics/aggregate-measurements-report.md)
-#### [Toplanan veri varlıkları raporu](../dev-itpro/analytics/aggregate-data-entities-report.md)
-#### [Ana performans göstergesi (KPI.md) raporu](../dev-itpro/analytics/key-performance-indicators-report.md)
-#### [Power BI tümleştirmesi](../dev-itpro/analytics/power-bi-integration.md)
-#### [Power BI içeriğine erişme](../dev-itpro/analytics/power-bi-content-microsoft-partners.md)
-#### [Power BI raporu ve panosu oluşturma](../dev-itpro/analytics/create-powerbi-report-dashboard.md)
-#### [Finance and Operations verilerini kullanarak bir Power BI raporu oluşturma](../dev-itpro/analytics/create-powerbi-report-data.md)
-#### [Çalışma alanları için Power BI tümleştirmesini yapılandırma](../dev-itpro/analytics/configure-power-bi-integration.md)
-#### [Power BI Embedded tümleştirmesi](../dev-itpro/analytics/power-bi-embedded-integration.md)
-#### [Çalışma alanlarında katıştırılmış Power BI](../dev-itpro/analytics/embed-power-bi-workspaces.md)
-#### [Katıştırılmış Power BI kullanarak çalışma alanlarına analiz ekleme](../dev-itpro/analytics/add-analytics-tab-workspaces.md)
-#### [Katıştırılmış Power BI kullanarak analiz çalışma alanlarını ve raporlarını güvenlik altına almaya yardımcı olma](../dev-itpro/analytics/secure-analytical-workspaces.md)
-#### [Çalışma alanlarına Power BI ekleme](../dev-itpro/analytics/add-bi-workspaces.md)
-#### [Power BI raporlarını çalışma alanlarına sabitleme](../dev-itpro/analytics/pin-power-bi-reports.md)
+#### [Power BI Embedded kullanarak çalışma alanlarına analiz ekleme](../dev-itpro/analytics/add-analytics-tab-workspaces.md)
+#### [Power BI Embedded kullanarak analiz çalışma alanlarını ve raporlarını güvenlik altına almaya yardımcı olma](../dev-itpro/analytics/secure-analytical-workspaces.md)
+
+### Yetkili kullanıcı yönetimi araçları
 #### [Varlık deposu ile Power BI tümleştirmesi](../dev-itpro/analytics/power-bi-integration-entity-store.md)
+#### [Çalışma alanları için Power BI tümleştirmesini yapılandırma](../dev-itpro/analytics/configure-power-bi-integration.md)
 #### [Kendi veritabanınızı getirme](../dev-itpro/analytics/export-entities-to-your-own-database.md)
-#### [Power BI Desktop kullanarak analiz raporları yazma](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
-#### [Power BI'da analiz uygulamaları yayımlama](../dev-itpro/analytics/publish-apps-powerbi.md)
 
 
 ## [Stok yönetimi](../supply-chain/inventory/inventory-home-page.md)
@@ -1362,6 +1368,7 @@
 #### [Kısıtlanmış plan oluşturma (Görev kılavuzu)](../supply-chain/master-planning/tasks/constrained-plan.md)
 #### [Ortak ürünler için malzeme planı oluşturma (Görev kılavuzu)](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
 #### [Planlı siparişleri koruma](../supply-chain/master-planning/maintain-planned-orders.md)
+#### [Emniyet stoğunu işleme](../supply-chain/master-planning/safety-stock-replenishment.md)
 #### [Gecikmeleri işleme](../supply-chain/master-planning/delays.md)
 #### [Açılımı izleme](../supply-chain/master-planning/trace-explosion.md)
 #### [Eylem iletileri](../supply-chain/master-planning/action-messages.md)
@@ -1436,10 +1443,12 @@
 #### [Satıcı deftere nakil profilleri](../financials/accounts-payable/vendor-posting-profiles.md)
 ### Satıcı yönetimi ve iş birliği
 #### [Satıcı iş birliğini ayarlama ve koruma](../supply-chain/procurement/set-up-maintain-vendor-collaboration.md)
-#### [Satıcı iş birliği kullanıcılarını yönetme](../supply-chain/procurement/manage-vendor-collaboration-users.md)
+#### [Satıcı işbirliği kullanıcılarını yönetme](../supply-chain/procurement/manage-vendor-collaboration-users.md)
 #### [Satıcı hesaplarını ayarlama](../supply-chain/procurement/set-up-vendor-accounts.md)
-#### [Harici satıcılarla satıcı iş birliği](../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
-#### [Müşterilerle satıcı iş birliği](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+#### [Satıcı talebi yapılandırmaları](../supply-chain/procurement/vendor-request-configurations.md)
+#### [Satıcı işe alım süreci](../supply-chain/procurement/vendor-onboarding.md)
+#### [Harici satıcılarla satıcı işbirliği](../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
+#### [Müşterilerle satıcı işbirliği](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
 #### [PunchOut eProcurement için harici katalog ayarlama](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
 #### [PunchOut eProcurement için harici katalogları kullanma](../supply-chain/procurement/use-external-catalogs-for-punchout.md)
 #### [Satıcı işbirliği mobil çalışma alanı](../supply-chain/procurement/vendor-collaboration-mobile-workspace.md)
@@ -1550,7 +1559,9 @@
 #### Üretim işlerini çalıştırma
 ##### [Üretim emirleri oluşturma](../supply-chain/production-control/create-production-orders.md)
 ##### [Üretim emirlerini serbest bırakma](../supply-chain/production-control/release-production-orders.md)
-##### [Üretim emri durumunu tersine çevirme](../supply-chain/production-control/reverse-production-order-status.md)
+##### [Malzeme özel durumlarının görünürlüğü](../supply-chain/production-control/improved-visibility-into-material-exceptions.md)
+##### [Ürün reçetesi ve formülü satırlarını ambara serbest bırakma](../supply-chain/production-control/releasing-bom-and-formula-lines-to-warehouse.md)
+#####[Üretim emri durumunu tersine çevirme](../supply-chain/production-control/reverse-production-order-status.md)
 ##### [Mobil cihaz kullanarak malzeme tüketimini kaydetme](../supply-chain/production-control/register-material-consumption-hand-held-device.md)
 ##### [Temizlik ilkeleri kullanarak ham madde tüketimini kontrol etme](../supply-chain/production-control/flushing-principles.md) 
 ##### [Üretim emirlerinden çıkış noktalarına çapraz sevk](../supply-chain/production-control/cross-docking-opportunities.md)
@@ -1561,7 +1572,7 @@
 ##### [İmalat yürütme için kaydolma](../supply-chain/production-control/registration-manufacturing-execution.md)
 ##### [Üretim geri bildirimi](../supply-chain/production-control/production-feedback.md)
 ##### [Saat ve işe devam durumu kaydı](../supply-chain/production-control/time-attendance-registrations.md)
-##### [Saat ve işe devamda devamsızlık kaydı](..//supply-chain/production-control/absence-registration-in-time-and-attendance.md)
+##### [Saat ve işe devamda devamsızlık kaydı](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
 #### Üretimde mali öğeleri yönetme
 ##### [İş ürün demetindeki işlere zaman tahsis etme](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
 ##### [Malzeme tüketimini hesaplama](../supply-chain/production-control/consumption.md)
@@ -1686,6 +1697,7 @@
 #### [Yeni bir ana ürün oluşturma (Görev kılavuzu)](../supply-chain/pim/tasks/create-product-master.md)
 #### [Önceden tanımlanmış ürün çeşitleri oluşturma (Görev kılavuzu)](../supply-chain/pim/tasks/create-predefined-product-variants.md)
 #### [Tek bir şirket için serbest bırakılan ürün oluşturma (Görev kılavuzu)](../supply-chain/pim/tasks/create-released-product-single-company.md)
+#### [Ürün yaşam döngüsü durumu](../supply-chain/pim/product-lifecycle.md)
 #### [Ürün için barkod oluşturma (Görev kılavuzu)](../supply-chain/pim/tasks/create-bar-code-product.md)
 #### [Ürünün GTIN kodunu girme (Görev kılavuzu)](../supply-chain/pim/tasks/enter-gtin-code-product.md)
 #### [Ürün için toplu iş öznitelikleri oluşturma (Görev kılavuzu)](../supply-chain/pim/tasks/create-batch-attributes-product.md)
@@ -1800,8 +1812,9 @@
 ### [Madde için taşıma sınırlamalarını ayarlama](../supply-chain/transportation/tasks/set-up-transportation-constraints-item.md)
 
 ## [Ambar yönetimi](../supply-chain/warehousing/warehouse-management-overview.md)
-### [Ambar yapılandırması](../supply-chain/warehousing/warehouse-configuration.md) 
-#### [İş şablonları ve yerleşim yönergelerini kullanarak iş denetimi](../supply-chain/warehousing/control-warehouse-location-directives.md)
+### [Ambar yapılandırması](../supply-chain/warehousing/warehouse-configuration.md)
+#### [Ambar yapılandırma şablonu kullanarak bir ambarı ayarlama](../supply-chain/inventory/warehouse-template.md)
+#### [İş şablonları ve yerleşim yönergelerini kullanarak işi denetleme](../supply-chain/warehousing/control-warehouse-location-directives.md)
 #### [Ölçü birimi ve stoklama ilkeleri](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [Ambar Power BI içeriği](../dev-itpro/analytics/warehouse-power-bi-content.md)
 #### [Açık bir iş listesinde sistem gruplama](../supply-chain/warehousing/system-group-on-open-work-list.md)

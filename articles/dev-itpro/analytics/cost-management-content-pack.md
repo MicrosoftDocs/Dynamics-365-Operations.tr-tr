@@ -1,9 +1,9 @@
 ---
 title: "Power BI maliyet yönetimi içeriği"
-description: "Bu konu, Power BI Maliyet Yönetimi'nde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar."
+description: "Bu konu, Power BI Maliyet Yönetimi'nde nelerin bulunduğunu açıklar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f509852f15b9518d0a01be1f89d4f07c76caf341
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu konu, Power BI Maliyet Yönetimi'nde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar.
+Bu konu, Power BI Maliyet Yönetimi'nde nelerin bulunduğunu açıklar. 
 
 # <a name="overview"></a>Özet
 
@@ -51,8 +51,6 @@ Bu konu, Power BI Maliyet Yönetimi'nde nelerin bulunduğunu açıklar. Power BI
 
 CostAggregatedCostStatementEntryEntity için birincil veri kaynağı CostStatementCache tablosudur. Bu tablo Veri kümesi önbelleğini çerçevesi tarafından yönetilir. Tablo varsayılan olarak her 24 saatte bir güncelleştirilir, ancak güncelleştirmeleri veri önbelleği yapılandırmasında el ile etkinleştirebilirsiniz. Daha sonra **Yönetimi maliyeti** veya **Maliyet analizi** çalışma alanlarında bir el ile güncelleştirme gerçekleştirebilirsiniz. CostStatementCache güncelleştirmesi çalıştırıldıktan sonra sitede güncelleştirilmiş verileri görmek için Power BI.com'da OData bağlantısını güncelleştirmeniz gerekir. Bu Power BI içeriğindeki fark (satın alma, üretim) önlemler, yalnızca Standart maliyet stok yönteminde değerlenmiş olan öğelerle ilgilidir. Üretim farkı gerçekleşmiş maliyet ve etkin maliyet arasındaki fark olarak hesaplanır. Üretim farkı, üretim siparişinin durumu **Bitti** olduğunda hesaplanır. Üretim farkı türleri ve her türün nasıl hesaplandığı hakkında daha fazla bilgi için bkz: [Tamamlanmış üretim emri için varyans çözümleme hakkında](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
-## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
-**Maliyet yönetimi** Power BI içeriği PowerBI.com adresinde bulunabilir. Microsoft Dynamics 365 for Finance and Operations verinizi bağlamak ve yüklemek hakkında daha fazla için bkz. [Power BI içeriğine PowerBI.com'dan erişin](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan ölçümler
 İçerik bir dizi rapor sayfası içermektedir. Her sayfa grafikler, döşemeler ve tablolar ile görselleştirilen bir dizi ölçüm kümesinden oluşur. Aşağıdaki tablo **Yönetim maliyeti** Power BI içeriğindeki görselleştirmelere bir bakış sağlar.
@@ -136,13 +134,6 @@ Aşağıdaki anahtar boyutlar, daha büyük hassasiyet elde etmek ve daha derin 
 | Genel muhasebe defterleri          | Para birimi, Adı, Açıklama                  |
 | Tesisler            | Kimlik, Ad, Ülke, Şehir                      |
 
-## <a name="additional-resources"></a>Ek kaynaklar
-Power BI içeriği oluşturmak ve varlıklarla ilgili bazı yararlı bağlantılar şunlardır:
-
--   [Veri varlıkları](..\data-entities\data-entities.md)
--   [Kuruluş içerik paketleri oluşturma](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Power BI kullanarak veri modelleme](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Çalışma alanlarına Power BI kutucukları ekleme](configure-power-bi-integration.md)
 
 
 

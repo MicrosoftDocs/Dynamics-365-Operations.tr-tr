@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -23,14 +23,14 @@ ms.contentlocale: tr-tr
 ms.lasthandoff: 09/29/2017
 
 ---
-# Stok uygunluğu denetleme
+# <a name="check-the-availability-of-stock"></a>Stok uygunluğu denetleme
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
 Bu prosedürde size belirli bir madde numarası için eldeki ve fiziksel stoğun nasıl kontrol edileceği gösterilmektedir. Ayrıca, bir maddeyle ilgili tedarik bilgilerinin nasıl alınacağı da gösterilmektedir. Eldeki fiziksel stok, eldeki mevcut, yani satın alınmış, teslim alınmış ve kaydedilmiş stoktur. Eldeki stok, eldeki mevcut stoğun yanı sıra, sipariş edilip beklenen ve henüz teslim alınıp kaydedilmemiş stoğu da içerir. Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz. USMF kullanıyorsanız, gösterilen örnek değerleri kullanabilirsiniz. Bu görevler genellikle bir ambar çalışanı tarafından yerine getirilir.
 
 
-## Eldeki stokta bir maddeyi kontrol edin
+## <a name="check-on-hand-inventory-for-an-item"></a>Eldeki stokta bir maddeyi kontrol edin
 1. Stok yönetimi > Sorgular ve raporlar > Eldeki stok öğesine gidin.
 2. Madde numarası satırını seçin.
     * Eldeki stoğu madde numarasına göre sorgulamak için, Tablo ayarının Eldeki stok ve Alan ayarının Madde numarası olarak ayarlandığı satırı seçin.  
@@ -49,7 +49,7 @@ Bu prosedürde size belirli bir madde numarası için eldeki ve fiziksel stoğun
 11. Sayfayı kapatın.
 12. Sayfayı kapatın.
 
-## Eldeki fiziksel stoğu kontrol edin
+## <a name="check-physical-on-hand-inventory"></a>Eldeki fiziksel stoğu kontrol edin
 1. Ambar yönetimi > Sorgular ve raporlar > Eldeki fiziksel stok öğesine gidin.
 2. Madde numarası alanına bir değer girin.
     * Maddeler listesini filtre etmek için Tesis ve Ambar alanlarını kullanabilirsiniz.  
@@ -59,7 +59,7 @@ Bu prosedürde size belirli bir madde numarası için eldeki ve fiziksel stoğun
 5. Tamam'a tıklayın.
 6. Sayfayı kapatın.
 
-## Eldeki stoğu yerleşime göre kontrol edin
+## <a name="check-on-hand-inventory-by-location"></a>Eldeki stoğu yerleşime göre kontrol edin
 1. Ambar yönetimi > Sorgular ve raporlar > Yerleşime göre eldeki öğesine gidin.
 2. Ambar alanına bir değer yazın.
     * USMF demo veri şirketini kullanıyorsanız, "51" kullanabilirsiniz.  

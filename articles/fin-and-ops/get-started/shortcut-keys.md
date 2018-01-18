@@ -3,7 +3,7 @@ title: "Klavye kısayolları"
 description: "Aşağıdaki klavye kısayolları tüm Dynamics 365 for Finance and Operations, Enterprise edition genelinde geçerlidir."
 author: jasongre
 manager: AnnBe
-ms.date: 10/10/2017
+ms.date: 12/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ Aşağıdaki klavye kısayolları tüm Dynamics 365 for Finance and Operations, 
 
 **Not:** Burada anlatılan klavye kısayolları, ABD klavye düzenine göredir. Diğer klavye düzenlerindeki tuşlar ABD klavyedeki tuşlara tam olarak karşılık gelmeyebilir.
 
-## <a name="finding-a-shorcut"></a>Bir kısayolu bulma
+## <a name="finding-a-shortcut"></a>Bir kısayolu bulma
 Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısayolları doğrudan kullanıcı arabiriminden bulabilir. Sağ tıklamanız ve **Kısayolları görüntüle**'yi seçmeniz yeterlidir. Bu, sayfada bulunduğunuz konuma göre kullanabileceğiniz kısayolları gösteren bir iletişim kutusunu açar. 
 
 
@@ -143,6 +143,9 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | İlk kayda taşı                                                                                               | Ctrl+Home                       |
 | Son kayda taşı                                                                                                | Ctrl+End                        |
 | Bir kılavuzda varsayılan eylemi yürüt<br><br>**Not:** Bu kısayol odak köprü içeren bir hücre ve o sütundaki tüm hücreleri köprüler etkinleştirilir.                 | Gir                           |
+| Seçilen satır ile başlık satırı arasında odağı değiştirme                                                               | Alt+Shift+H                     |
+| Geçerli sütunu daha büyük/daha küçük yapma (odakta başlık satırı varken)                                                  | Sağ ok / Sol ok        |
+| Geçerli sütun için ızgara filtrelemeyi açma (odakta başlık satırı varken)                                              | Gir                           |
 
 ## <a name="input-control-shortcuts"></a>Giriş denetimi kısayolları
 |                                                                              |                               |

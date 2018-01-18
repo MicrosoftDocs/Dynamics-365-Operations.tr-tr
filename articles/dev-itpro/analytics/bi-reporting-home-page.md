@@ -3,7 +3,7 @@ title: "Karar desteği"
 description: "Bu konu sizi Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da bulunan karar desteği ve raporlama araçları hakkında bilgi edinmek için kullanabileceğiniz kaynaklara yönlendirir."
 author: sericks007
 manager: AnnBe
-ms.date: 09/07/2017
+ms.date: 12/18/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 335d38e0fb5e47136b87bac5bfa9d2fd2923def6
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -48,7 +48,6 @@ Kullanıcılar sayfadaki görsellere tıklayarak veya dokunarak verilerle etkile
  - [Çalışma alanlarında katıştırılmış Power BI](embed-power-bi-workspaces.md)
  - [Power BI Embedded tümleştirmesi](power-bi-embedded-integration.md)
  - [Power BI Embedded kullanarak çalışma alanlarına analiz ekleme](add-analytics-tab-workspaces.md)
- - [Power BI'da analiz uygulamaları yayımlama](publish-apps-powerbi.md)
  - [Power BI Embedded kullanarak analiz çalışma alanlarını ve raporlarını güvenlik altına almaya yardımcı olma](secure-analytical-workspaces.md)
  - [Finance and Operations için Power BI içeriği](power-bi-home-page.md)
 
@@ -59,7 +58,7 @@ Raporlama çözümleri genellikle iş hareketlerini yakalamak ve ayrıntıların
 
 Daha fazla bilgi için aşağıdaki konulara bakın:
 
-- [Belge Raporlama Hizmetlerine genel bakış](document-reporting-services.md)
+- [Document Reporting Services'a genel bakış](document-reporting-services.md)
 - [Finance and Operations uygulamalarında yazdırma](print-documents.md)
 - [Ağ yazıcısı cihazlarını etkinleştirmek için Belge Rota Aracısı'nı yükleme](install-document-routing-agent.md)
 
@@ -88,10 +87,7 @@ Daha fazla bilgi için aşağıdaki konulara bakın:
 ## <a name="technical-reference-reports"></a>Teknik referans raporları
 Aşağıdaki raporlar Finance and Operations içindeki nesneler hakkında referans bilgileri sağlar:
 
-- [Toplanan veri varlıkları raporu](aggregate-data-entities-report.md)
-- [Toplanan ölçümler raporu](aggregate-measurements-report.md)
 - [Veri varlıkları raporu](../data-entities/data-entities-report.md)
-- [Ana performans göstergeleri (KPI'lar) raporu](key-performance-indicators-report.md)
 - [Lisans kodları ve yapılandırma anahtarları raporu](../sysadmin/license-codes-configuration-keys-report.md)
 - [SQL Server Reporting Services raporları raporu](SSRS-report.md)
 - [İş akışı türleri raporu](../../fin-and-ops/organization-administration/workflow-types-report.md)
