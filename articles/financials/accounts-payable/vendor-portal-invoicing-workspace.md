@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ff1818d927f7ab9212c4d5d9109c426be5e0e152
-ms.openlocfilehash: 0d11e4fecc4c42636be63c1ce622f0b2f8e58f2c
+ms.sourcegitcommit: 17a7d9c40d07524378a671397fed566b9bd3af6b
+ms.openlocfilehash: af284d31714df7fe87d49b311c951f9df818fa22
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -47,10 +48,12 @@ ms.lasthandoff: 11/29/2017
 -   <span data-ttu-id="3c11f-113">Ödenmiş faturalar Finance and Operations uygulamasında tamamen ödenmiş faturalardır.</span><span class="sxs-lookup"><span data-stu-id="3c11f-113">Paid invoices are those that have been fully paid in Finance and Operations.</span></span>
 
 <span data-ttu-id="3c11f-114">Bir kutucuğa tıklandığında **Faturalar listesi** sayfasının filtrelenmiş bir görünümü açılır.</span><span class="sxs-lookup"><span data-stu-id="3c11f-114">Clicking on a tile will open a filtered view of the **Invoices list** page.</span></span>
+
 ### <a name="tabular-lists"></a><span data-ttu-id="3c11f-115">Sekmeli listeler</span><span class="sxs-lookup"><span data-stu-id="3c11f-115">Tabular lists</span></span>
 
 <span data-ttu-id="3c11f-116">**Sekmeli listeler** bölümünde, faturalamanın durumu özet kutucuklardaki gibi, Taslak ve Gönderildi, onaylanmadı listelerine benzer şekilde ayrılır.</span><span class="sxs-lookup"><span data-stu-id="3c11f-116">In the **Tabular lists** section, the status of the invoicing is broken down in similar ways as the summary tiles: Draft and Submitted, not approved lists.</span></span> <span data-ttu-id="3c11f-117">Taslak durumunda, fatura iş akışına gönderilebilir veya silinebilir.</span><span class="sxs-lookup"><span data-stu-id="3c11f-117">While in the Draft state, an invoice can be submitted to workflow or deleted.</span></span> <span data-ttu-id="3c11f-118">Son sekmeli liste, faturaları bulmak için bir seçenektir.</span><span class="sxs-lookup"><span data-stu-id="3c11f-118">The last tabular list is an option to find invoices.</span></span> <span data-ttu-id="3c11f-119">Ararken filtreleyerek daha hızlı arama yapabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3c11f-119">You can filter as you search, to allow for faster searches.</span></span>
-<span data-ttu-id="3c11f-120">Tüm satıcı faturaları liste sayfası</span><span class="sxs-lookup"><span data-stu-id="3c11f-120">All vendor invoices list page</span></span>
+
+<a name="all-vendor-invoices-list-page"></a><span data-ttu-id="3c11f-120">Tüm satıcı faturaları liste sayfası</span><span class="sxs-lookup"><span data-stu-id="3c11f-120">All vendor invoices list page</span></span>
 -----------------------------
 
 <span data-ttu-id="3c11f-121">Tüm deftere nakledilmiş ve nakledilmemiş satıcı faturalarını **Satıcı işbirliği faturaları** listesi sayfasında görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3c11f-121">You can view all posted and unposted vendor invoices on the **Vendor collaboration invoices** list page.</span></span> <span data-ttu-id="3c11f-122">Faturaların ödeme durumunu görüntülemek için bu liste sayfasını kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3c11f-122">You can use this list page to view the payment status of the invoices.</span></span> <span data-ttu-id="3c11f-123">Ödeme durumları Nakledilmedi, Ödenmedi, Kısmen ödendi ve Tamamen ödendi durumlarını içerir.</span><span class="sxs-lookup"><span data-stu-id="3c11f-123">The payment statuses include Unposted, Unpaid, Partially paid, and Fully paid.</span></span>

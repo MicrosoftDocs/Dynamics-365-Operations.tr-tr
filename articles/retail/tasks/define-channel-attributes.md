@@ -10,17 +10,17 @@ ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations
+ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: e56a2da90bf92080a09d79a8285ce609f8e3324a
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 868b52cd809a0cf090055e7016a1d307a4b1f63b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 01/19/2018
 
 ---
 # <a name="define-channel-attributes"></a><span data-ttu-id="0ca5e-103"> Kanal özniteliklerini tanımlama</span><span class="sxs-lookup"><span data-stu-id="0ca5e-103">Define channel attributes</span></span>
