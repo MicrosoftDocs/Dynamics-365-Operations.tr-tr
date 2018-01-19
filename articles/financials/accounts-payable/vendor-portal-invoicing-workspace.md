@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -47,10 +48,12 @@ Bu konuda, satıcı faturalarını görüntüleme ve satıcı iş birliği fatur
 -   Ödenmiş faturalar Finance and Operations uygulamasında tamamen ödenmiş faturalardır.
 
 Bir kutucuğa tıklandığında **Faturalar listesi** sayfasının filtrelenmiş bir görünümü açılır.
+
 ### <a name="tabular-lists"></a>Sekmeli listeler
 
 **Sekmeli listeler** bölümünde, faturalamanın durumu özet kutucuklardaki gibi, Taslak ve Gönderildi, onaylanmadı listelerine benzer şekilde ayrılır. Taslak durumunda, fatura iş akışına gönderilebilir veya silinebilir. Son sekmeli liste, faturaları bulmak için bir seçenektir. Ararken filtreleyerek daha hızlı arama yapabilirsiniz.
-Tüm satıcı faturaları liste sayfası
+
+<a name="all-vendor-invoices-list-page"></a>Tüm satıcı faturaları liste sayfası
 -----------------------------
 
 Tüm deftere nakledilmiş ve nakledilmemiş satıcı faturalarını **Satıcı işbirliği faturaları** listesi sayfasında görüntüleyebilirsiniz. Faturaların ödeme durumunu görüntülemek için bu liste sayfasını kullanabilirsiniz. Ödeme durumları Nakledilmedi, Ödenmedi, Kısmen ödendi ve Tamamen ödendi durumlarını içerir.

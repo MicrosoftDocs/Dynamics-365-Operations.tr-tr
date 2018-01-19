@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -59,9 +60,9 @@ Bu örnek için FRSI, USSI tüzel kişiliğinde bir müşteri olmalı ve USSI, F
 
 1.  USSI tüzel kişiliğinde FRSI'yı müşteri olarak ve FRSI tüzel kişiliğinde USSI'yı satıcı olarak ayarlayın. Bu görevin gerektirdiği adımlar için üç giriş noktası vardır.
     | Adım | Giriş noktası                                                                       | Açıklama   |
-    |------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | A:    | USSI'da **Alacak hesapları** &gt; **Müşteriler** &gt; **Tüm müşteriler**'e tıklayın. | FRSI için yeni bir müşteri kaydı oluşturun ve müşteri grubunu seçin.                                                                                                                                                                                                                           |
-    | B:    | FRSI'da **Borç hesapları** &gt; **Satıcılar** &gt; **Tüm satıcılar**'a tıklayın.        | USSI için yeni bir satıcı kaydı oluşturun ve satıcı grubunu seçin.                                                                                                                                                                                                                               |
+    |------|-----------------------------------------------------------------------------------|------------------|
+    | A:    | USSI'da **Alacak hesapları** &gt; **Müşteriler** &gt; **Tüm müşteriler**'e tıklayın. | FRSI için yeni bir müşteri kaydı oluşturun ve müşteri grubunu seçin.                                                                                  |
+    | B:    | FRSI'da **Borç hesapları** &gt; **Satıcılar** &gt; **Tüm satıcılar**'a tıklayın.        | USSI için yeni bir satıcı kaydı oluşturun ve satıcı grubunu seçin.                                                                                    |
     | A    | FRSI'da yeni oluşturduğunuz satıcı kaydını açın.                            | Eylem Bölmesinde, **Genel** sekmesindeki **Ayarla** gurubunda **Şirketlerarası**'na tıklayın. **Şirketlerarası** sayfasındaki **Ticari ilişki** sekmesinde **Etkin** kaydırma çubuğunu **Evet** konumuna getirin. **Müşteri şirketi** alanında adım A'da oluşturduğunuz müşteri kaydını seçin. |
 
 2.  **Proje yönetimi ve muhasebe** &gt; **Kurulum** &gt; **Proje yönetimi muhasebe parametreleri** üzerine tıklayın ve sonra **Şirketlerarası** sekmesine tıklayın. Parametreleri ayarlama şekliniz ödünç veren tüzel kişilik veya ödünç alan tüzel kişilik olmanıza göre değişir.
