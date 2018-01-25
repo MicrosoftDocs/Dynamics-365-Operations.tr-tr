@@ -30,14 +30,14 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > Bu özellik Dynamics 365 for Finance and Operations (sürüm 7.2 ve sonrası) için desteklenir.
 
-# <a name="introduction"></a>Giriş
+## <a name="introduction"></a>Giriş
 bu konu bir Microsoft Power BI raporunu bir çalışma alanının **Analizler** sekmesine katıştırmayı gösterir. Burada verilen örnek için Filo Yönetimi uygulamasındaki **Rezervasyon yönetimi** çalışma alanını, bir **Analizler** sekmesinde bir analitik çalışma alanı katıştırmak üzere genişleteceğiz.
 
-# <a name="prerequisites"></a>Ön koşullar
+## <a name="prerequisites"></a>Ön koşullar
 + Platform güncelleştirmesi 8 veya sonraki bir sürümü çalıştıran bir geliştirici ortamına erişin.
 + Microsoft Power BI Masaüstü kullanarak oluşturulmuş ve kaynağı Varlık deposu veritabanı olan bir veri modeline sahip bir analitik rapor (.pbix dosyası).
 
-# <a name="overview"></a>Özet
+## <a name="overview"></a>Özet
 Mevcut bir uygulama çalışma alanını genişlettiğinizde veya kendinize ait yeni bir çalışma alanı kullandığınızda, iş verilerinize bilgilendirici ve etkileşimli görünümler sunan katıştırılmış analitik görünümler kullanabilirsiniz. Bir analitik çalışma alanı sekmesi eklemenin dört adımı vardır.
 
 1. Dynamics 365 kaynağına bir .pbix dosyası ekleyin.
@@ -48,7 +48,7 @@ Mevcut bir uygulama çalışma alanını genişlettiğinizde veya kendinize ait 
 > [!NOTE]
 > Analitik raporlar oluşturmak hakkında daha fazla bilgi için bkz. [Power BI Masaüstü ile çalışmaya başlamak](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Bu sayfa, ilgi çekici analitik raporlama çözümleri oluşturmanıza yardımcı olacak harika bir bilgi kaynağıdır.
 
-# <a name="add-a-pbix-file-as-a-resource"></a>Bir .pbix dosyasını bir kaynak olarak ekleyin.
+## <a name="add-a-pbix-file-as-a-resource"></a>Bir .pbix dosyasını bir kaynak olarak ekleyin.
 Başlamadan önce, çalışma alanına katıştıracağınız Power BI raporunu oluşturun veya alın. Analitik raporlar oluşturmak hakkında daha fazla bilgi için bkz. [Power BI Masaüstü ile çalışmaya başlamak](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
  
 Bir .pbix doyasını bir Visual Studio yapıtı olarak eklemek için şu adımları izleyin.
@@ -66,7 +66,7 @@ Bir .pbix doyasını bir Visual Studio yapıtı olarak eklemek için şu adımla
   
 Şimdi .pbix dosyasını bir Dynamics 365 kaynağı olarak ekledikten sonra, raporları çalışma alanlarına katıştırabilir ve menü öğelerini kullanarak doğrudan bağlantılar ekleyebilirsiniz.
 
-# <a name="add-a-tab-control-to-an-application-workspace"></a>Bir uygulama çalışma alanına bir sekme denetimi ekleyin
+## <a name="add-a-tab-control-to-an-application-workspace"></a>Bir uygulama çalışma alanına bir sekme denetimi ekleyin
 Bu örnekte Filo Yönetimi modelinde, **Analizler** sekmesini **FMClerkWorkspace** formuna ekleyerek **Rezervasyon yönetimi** çalışma alanını genişleteceğiz.
  
 Aşağıdaki görsel, **FMClerkWorkspace** formunun Microsoft Visual Studio tasarımcısında nasıl görüneceğini gösterir.
@@ -105,7 +105,7 @@ Aşağıdaki görsel, bu değişiklikler uygulandıktan sonra tasarımın nasıl
  
 Şimdi uygulama form tanımını genişletme görevini tamamladınız. Uzantıların nasıl kullanılacağı ve özelleştirmelerin nasıl yapılacağına dair daha fazla bilgi için bkz.  [Özelleştirme: Katmanlama ve uzantılar](../extensibility/customization-overlayering-extensions.md).
 
-# <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Bir görüntüleyici denetimi katıştırmak için X++ iş mantığı ekleyin
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Bir görüntüleyici denetimi katıştırmak için X++ iş mantığı ekleyin
 **Rezervasyon yönetimi** çalışma alanına katıştırılmış olan rapor görüntüleyici denetimini başlatan bir iş mantığı eklemek için bu adımları izleyin.
 
 1. Tasarım tanımını genişletmek için **FMClerkWorkspace** form tasarımcısını açın.
@@ -151,12 +151,12 @@ Katıştırılmış rapor görüntüleme denetimini başlatmak için iş mantı�
 > [!NOTE]
 > Sayfa başlığının altındaki çalışma alanı sekmelerini kullanarak mevcut operasyonel görünümlere erişebilirsiniz.
 
-# <a name="reference"></a>Referans
+## <a name="reference"></a>Referans
 
-## <a name="pbireporthelperinitializereportcontrol-method"></a>PBIReportHelper.initializeReportControl yöntemi
+### <a name="pbireporthelperinitializereportcontrol-method"></a>PBIReportHelper.initializeReportControl yöntemi
 Bu bölüm, bir Power BI raporunu (.pbix kaynağı) bir form grubu denetimine eklemek için kullanılan yardımcı sınıf hakkında bilgi sağlar.
 
-### <a name="syntax"></a>Sözdizimi
+#### <a name="syntax"></a>Sözdizimi
 ```
 public static void initializeReportControl(
      str                 _resourceName,
@@ -167,7 +167,7 @@ public static void initializeReportControl(
      List                _defaultFilters = new List(Types::Class))
 ```
 
-### <a name="parameters"></a>Parametreler
+#### <a name="parameters"></a>Parametreler
 
 | Dosya Adı | Açıklama |
 |---|---|

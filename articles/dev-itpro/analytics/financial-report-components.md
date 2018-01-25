@@ -112,7 +112,7 @@ Bir yapı taşını açtığınızda, diğer kullanıcılar söz konusu yapı ta
 3.  Bir yapı taşı seçin ve ardından **Etkinliği Geri Al** öğesini tıklayın.
 4.  Yapı taşını kullanıma sokmak için **Evet** öğesini tıklayın.
 
-# <a name="see-also"></a>Ayrıca bkz.
+## <a name="see-also"></a>Ayrıca bkz.
 
 [Mali raporlama](financial-reporting-intro.md)
 

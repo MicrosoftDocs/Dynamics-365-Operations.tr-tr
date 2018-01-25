@@ -43,7 +43,7 @@ Tahsis kurallarına göre parasal tutarları bir veya daha fazla hesaba veya hes
 
 [![İş süreci](./media/GL-process.PNG)](./media/GL-process.PNG)
 
-# <a name="sales-tax"></a>Satış vergisi
+## <a name="sales-tax"></a>Satış vergisi
 Her şirket vergi toplar ve çeşitli vergi kurumlarına vergi öder. Kurallar ve oranlar ülke/bölge, il, ilçe ve şehre göre değişiklik gösterir.
 Ayrıca, vergi dairesi gereksinimleri değiştirdiğinde kuralların düzenli olarak güncelleştirilmesi gerekir. Satış vergisi kodları yetkili kurumlardan aldığınız ve yetkili kurumlara ödediğiniz tutarla ilgili temel ilgileri içerir. Satış vergisi kodlarını ayarladığınızda, toplanması gereken tutarları veya yüzdeleri tanımlarsınız. Ayrıca bu tutarların veya yüzdelerin hareket tutarlarına uygulanması için çeşitli yöntemleri de tanımlarsınız. Bu bölümdeki konular, vergi dairelerinin gerektirdiği yöntemler ve oranlar için satış vergisi kodlarının nasıl ayarlanacağı hakkında bilgi sağlar.
 
@@ -52,13 +52,13 @@ Ayrıca, vergi dairesi gereksinimleri değiştirdiğinde kuralların düzenli ol
  - [Satış vergisi ödemeleri ve yuvarlama kuralları](round-sales-tax-payments.md)
 
 
-### <a name="additional-resources"></a>Ek kaynaklar
+## <a name="additional-resources"></a>Ek kaynaklar
 
-#### <a name="whats-new-and-in-development"></a>Geliştirmedeki yenilikler
+### <a name="whats-new-and-in-development"></a>Geliştirmedeki yenilikler
 
 Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) bölümüne gidin. 
 
-#### <a name="blogs"></a>Bloglar
+### <a name="blogs"></a>Bloglar
 
 [Microsoft Dynamics 365 blogunda](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) Borç hesapları ve diğer çözümler hakkında fikirlere, haberlere ve diğer bilgilere ulaşabilirsiniz.
 
@@ -66,10 +66,10 @@ Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microso
 
 [Microsoft Dynamics Operations İş Ortağı Topluluğu Blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog), Microsoft Dynamics İş Ortakları'na MBS Operations'daki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunar.
 
-#### <a name="task-guides"></a>Görev kılavuzları
+### <a name="task-guides"></a>Görev kılavuzları
 Ek yardıma Finance and Operations içinde görev kılavuzları olarak ulaşılabilir. Görev kılavuzlarına erişmek için herhangi bir sayfada Yardım düğmesine tıklayın.
 
-#### <a name="videos"></a>Videolar
+### <a name="videos"></a>Videolar
 
 [Microsoft Dynamics 365 YouTube Kanalında](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) bulunan nasıl yapılır videolarına hemen göz atın.
 

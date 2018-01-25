@@ -36,8 +36,7 @@ Bu konu, Finance and Operations için ambar uygulaması alan adlarını ve önce
 
 **Not:** Bu konu, Ambar yönetimindeki özellikler için geçerlidir. Stok yönetimindeki özellikler için geçerli değildir. Finance and Operations - Ambarlama, ambar görevlerini gerçekleştirmek için kullanabileceğiniz bir uygulamadır. Uygulama içerisinde kullanılan alan adlarını tanımlayabilir ve yapılandırabilirsiniz ve ayrıca alan adlarının atanacağı önceliği de yapılandırabilirsiniz. Bu konu, bu ambar uygulamaların alan adlarını ve önceliklerini nasıl tanımlayacağını ve yapılandıracağını ve bunların Finance and Operations - Ambarlama içerisinde nasıl kullanıldıklarını açıklar. Finance and Operations - Ambarlama'ya bağlantıyı yapılandırmak hakkında ayrıntılı bilgi için şu kılavuza bakınız [Finance and Operations - Ambarlama'yı kurma ve yapılandırma](install-configure-warehousing-app.md).
 
-<a name="configure-warehouse-app-field-names"></a>Ambar uygulaması alan adlarını yapılandırın
-===================================
+## <a name="configure-warehouse-app-field-names"></a>Ambar uygulaması alan adlarını yapılandırın
 
 Finance and Operations - Ambarlama'yı mobil cihazınızda kullandığınızda, meta verini cihazınızda nasıl görüntüleceğini **Ambar uygulaması alan adları** sayfasından ayarlayabilirsiniz. Finance and Operations içerisindeki yeni bir şirkette ambar mobil cihaz iş akışlarında kullanılacak tüm alan adlarını oluşturmak için **Varsayılan kurulum oluşturma**'yı seçin ve daha sonra tercih edilen giriş modunu ve giriş türünü bunlara atayın. Tüm alan adlarını oluşturduktan sonra, aşağıdaki giriş seçeneklerini seçebilirsiniz.
 
@@ -70,8 +69,7 @@ Finance and Operations - Ambarlama'yı mobil cihazınızda kullandığınızda, 
 </tbody>
 </table>
 
-<a name="configure-warehouse-app-field-priority"></a>Ambar uygulaması alan önceliğini yapılandırma
-======================================
+## <a name="configure-warehouse-app-field-priority"></a>Ambar uygulaması alan önceliğini yapılandırma
 
 **Ambar uygulaması alan önceliği** sayfasında, alan adlarını farklı öncelik gruplarına yerleştirebilirsiniz. Ambar çalışanları uygulamayı kullanırlarken ana görev sayfasında hangi bilginin gösterileceğini belirlemeyi mümkün kılar. **Varsayılan kurulum oluştur** üzerine tıklarsanız, öncelik gruplarının varsayılan bir kümesi oluşturulur. İhtiyaç duyulduğu kadar öncelik grubu oluşturmak mümkündür, ancak görev sayfasında sadece üç öncelik grubu gösterilir. Finance and Operations uygulamaya meta veri gönderdiğinde her alanın öncelik grubuna göre bir göreceli öncelik atar ve uygulama, görev sayfası içerisindeki meta veride içerilen ilk üç öncelik grubunu görüntüler. Taşan meta verinin geri kalanı, ikincil ayrıntılar sayfasında görüntülenir. Aşağıdaki tablo beş öncelik grubu örneğini gösterir.
 

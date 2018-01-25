@@ -98,7 +98,7 @@ Mali raporlamanın aşağıdaki bileşenleri raporların oluşturulmasını, gö
 </tbody>
 </table>
 
-#<a name="see-also"></a>Ayrıca bkz.
+## <a name="see-also"></a>Ayrıca bkz.
 [Mali rapor oluşturma](generate-financial-report.md)
 
 
