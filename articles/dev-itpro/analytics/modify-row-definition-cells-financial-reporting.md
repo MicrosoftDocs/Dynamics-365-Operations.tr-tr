@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 49b63216cc306553b2d3b7141f57f3c0581e1d5a
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: f3ed894445c44da6de9062da5c9399e867952d43
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 01/19/2018
 
 <span data-ttu-id="bc517-104">Bu makalede bir finansal raporun satır tanımındaki tüm hücreler için gerekli olan bilgiler ve bu bilgilerin nasıl girileceği açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="bc517-104">This article describes the information that is required for each cell in a row definition on a financial report and explains how to enter that information.</span></span> 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a><span data-ttu-id="bc517-105">Bir satır tanımında bir satır kodu belirleme</span><span class="sxs-lookup"><span data-stu-id="bc517-105">Specify a row code in a row definition</span></span>
+## <a name="specify-a-row-code-in-a-row-definition"></a><span data-ttu-id="bc517-105">Bir satır tanımında bir satır kodu belirleme</span><span class="sxs-lookup"><span data-stu-id="bc517-105">Specify a row code in a row definition</span></span>
 
 <span data-ttu-id="bc517-106">Satır tanımlarında, **Satır Kodu** hücresindeki rakamlar veya etiketler, satır tanımındaki her bir satırı tanımlar.</span><span class="sxs-lookup"><span data-stu-id="bc517-106">In row definitions, the numbers or labels in the **Row Code** cell identify each line in the row definition.</span></span> <span data-ttu-id="bc517-107">Hesaplamalar ve toplamlardaki verilere bakmak için satır kodunu belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="bc517-107">You can specify the row code to refer to data in calculations and totals.</span></span>
 
@@ -506,8 +506,7 @@ ms.lasthandoff: 01/19/2018
 4.  <span data-ttu-id="bc517-709">Silinecek seti seçin ve ardından **Sil** düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="bc517-709">Select the set to delete, and then click **Delete**.</span></span> <span data-ttu-id="bc517-710">Boyut değer setini kalıcı olarak silmek için **Evet** düğmesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="bc517-710">Click **Yes** to permanently delete the dimension value set.</span></span>
 
 
-<a name="see-also"></a><span data-ttu-id="bc517-711">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="bc517-711">See also</span></span>
---------
+## <a name="see-also"></a><span data-ttu-id="bc517-711">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="bc517-711">See also</span></span>
 
 [<span data-ttu-id="bc517-712">Mali raporlama</span><span class="sxs-lookup"><span data-stu-id="bc517-712">Financial reporting</span></span>](financial-reporting-intro.md)
 

@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 17a7d9c40d07524378a671397fed566b9bd3af6b
-ms.openlocfilehash: 5f204519bc656c919fbd92c24ac2c364ed0e5a93
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: a38621c0877345efc6ea81f81d994f5c271f3ee7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -98,7 +98,7 @@ ms.lasthandoff: 01/19/2018
 </tbody>
 </table>
 
-#<a name="see-also"></a><span data-ttu-id="0ede7-153">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="0ede7-153">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0ede7-153">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="0ede7-153">See also</span></span>
 [<span data-ttu-id="0ede7-154">Mali rapor oluşturma</span><span class="sxs-lookup"><span data-stu-id="0ede7-154">Generate a financial report</span></span>](generate-financial-report.md)
 
 

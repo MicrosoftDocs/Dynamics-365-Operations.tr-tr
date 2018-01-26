@@ -16,10 +16,10 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 7a3ff5a00af72dd7810337d1390b39d4f849dada
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 9447b0d9eedbdd56f1e221a48f687a94a19d31c4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -30,14 +30,14 @@ ms.lasthandoff: 01/19/2018
 > [!NOTE]
 > <span data-ttu-id="a3279-104">Bu özellik Dynamics 365 for Finance and Operations (sürüm 7.2 ve sonrası) için desteklenir.</span><span class="sxs-lookup"><span data-stu-id="a3279-104">This feature is supported in Dynamics 365 for Finance and Operations (version 7.2 and later).</span></span>
 
-# <a name="introduction"></a><span data-ttu-id="a3279-105">Giriş</span><span class="sxs-lookup"><span data-stu-id="a3279-105">Introduction</span></span>
+## <a name="introduction"></a><span data-ttu-id="a3279-105">Giriş</span><span class="sxs-lookup"><span data-stu-id="a3279-105">Introduction</span></span>
 <span data-ttu-id="a3279-106">bu konu bir Microsoft Power BI raporunu bir çalışma alanının **Analizler** sekmesine katıştırmayı gösterir.</span><span class="sxs-lookup"><span data-stu-id="a3279-106">This topic shows how to embed a Microsoft Power BI report on the **Analytics** tab of a workspace.</span></span> <span data-ttu-id="a3279-107">Burada verilen örnek için Filo Yönetimi uygulamasındaki **Rezervasyon yönetimi** çalışma alanını, bir **Analizler** sekmesinde bir analitik çalışma alanı katıştırmak üzere genişleteceğiz.</span><span class="sxs-lookup"><span data-stu-id="a3279-107">For the example that is given here, we will extend the **Reservation management** workspace in the Fleet Management application to embed an analytical workspace on an **Analytics** tab.</span></span>
 
-# <a name="prerequisites"></a><span data-ttu-id="a3279-108">Ön koşullar</span><span class="sxs-lookup"><span data-stu-id="a3279-108">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="a3279-108">Ön koşullar</span><span class="sxs-lookup"><span data-stu-id="a3279-108">Prerequisites</span></span>
 + <span data-ttu-id="a3279-109">Platform güncelleştirmesi 8 veya sonraki bir sürümü çalıştıran bir geliştirici ortamına erişin.</span><span class="sxs-lookup"><span data-stu-id="a3279-109">Access to a developer environment that runs Platform update 8 or later.</span></span>
 + <span data-ttu-id="a3279-110">Microsoft Power BI Masaüstü kullanarak oluşturulmuş ve kaynağı Varlık deposu veritabanı olan bir veri modeline sahip bir analitik rapor (.pbix dosyası).</span><span class="sxs-lookup"><span data-stu-id="a3279-110">An analytical report (.pbix file) that was created by using Microsoft Power BI Desktop, and that has a data model that is sourced from the Entity store database.</span></span>
 
-# <a name="overview"></a><span data-ttu-id="a3279-111">Özet</span><span class="sxs-lookup"><span data-stu-id="a3279-111">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="a3279-111">Özet</span><span class="sxs-lookup"><span data-stu-id="a3279-111">Overview</span></span>
 <span data-ttu-id="a3279-112">Mevcut bir uygulama çalışma alanını genişlettiğinizde veya kendinize ait yeni bir çalışma alanı kullandığınızda, iş verilerinize bilgilendirici ve etkileşimli görünümler sunan katıştırılmış analitik görünümler kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a3279-112">Whether you extend an existing application workspace or introduce a new workspace of your own, you can use embedded analytical views to deliver insightful and interactive views of your business data.</span></span> <span data-ttu-id="a3279-113">Bir analitik çalışma alanı sekmesi eklemenin dört adımı vardır.</span><span class="sxs-lookup"><span data-stu-id="a3279-113">The process for adding an analytical workspace tab has four steps.</span></span>
 
 1. <span data-ttu-id="a3279-114">Dynamics 365 kaynağına bir .pbix dosyası ekleyin.</span><span class="sxs-lookup"><span data-stu-id="a3279-114">Add a .pbix file as a Dynamics 365 resource.</span></span>
@@ -48,7 +48,7 @@ ms.lasthandoff: 01/19/2018
 > [!NOTE]
 > <span data-ttu-id="a3279-118">Analitik raporlar oluşturmak hakkında daha fazla bilgi için bkz. [Power BI Masaüstü ile çalışmaya başlamak](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span><span class="sxs-lookup"><span data-stu-id="a3279-118">For more information about how to create analytical reports, see [Getting started with Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span></span> <span data-ttu-id="a3279-119">Bu sayfa, ilgi çekici analitik raporlama çözümleri oluşturmanıza yardımcı olacak harika bir bilgi kaynağıdır.</span><span class="sxs-lookup"><span data-stu-id="a3279-119">This page is a great source for insights that can help you create compelling analytical reporting solutions.</span></span>
 
-# <a name="add-a-pbix-file-as-a-resource"></a><span data-ttu-id="a3279-120">Bir .pbix dosyasını bir kaynak olarak ekleyin.</span><span class="sxs-lookup"><span data-stu-id="a3279-120">Add a .pbix file as a resource</span></span>
+## <a name="add-a-pbix-file-as-a-resource"></a><span data-ttu-id="a3279-120">Bir .pbix dosyasını bir kaynak olarak ekleyin.</span><span class="sxs-lookup"><span data-stu-id="a3279-120">Add a .pbix file as a resource</span></span>
 <span data-ttu-id="a3279-121">Başlamadan önce, çalışma alanına katıştıracağınız Power BI raporunu oluşturun veya alın.</span><span class="sxs-lookup"><span data-stu-id="a3279-121">Before you begin, you must create or obtain the Power BI report that you will embed in the workspace.</span></span> <span data-ttu-id="a3279-122">Analitik raporlar oluşturmak hakkında daha fazla bilgi için bkz. [Power BI Masaüstü ile çalışmaya başlamak](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span><span class="sxs-lookup"><span data-stu-id="a3279-122">For more information about how to create analytical reports, see [Getting started with Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span></span>
  
 <span data-ttu-id="a3279-123">Bir .pbix doyasını bir Visual Studio yapıtı olarak eklemek için şu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="a3279-123">Follow these steps to add a .pbix file as a Visual Studio project artifact.</span></span>
@@ -66,7 +66,7 @@ ms.lasthandoff: 01/19/2018
   
 <span data-ttu-id="a3279-131">Şimdi .pbix dosyasını bir Dynamics 365 kaynağı olarak ekledikten sonra, raporları çalışma alanlarına katıştırabilir ve menü öğelerini kullanarak doğrudan bağlantılar ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a3279-131">Now that you've added the .pbix file as a Dynamics 365 resource, you can embed the reports in workspaces and add direct links by using menu items.</span></span>
 
-# <a name="add-a-tab-control-to-an-application-workspace"></a><span data-ttu-id="a3279-132">Bir uygulama çalışma alanına bir sekme denetimi ekleyin</span><span class="sxs-lookup"><span data-stu-id="a3279-132">Add a tab control to an application workspace</span></span>
+## <a name="add-a-tab-control-to-an-application-workspace"></a><span data-ttu-id="a3279-132">Bir uygulama çalışma alanına bir sekme denetimi ekleyin</span><span class="sxs-lookup"><span data-stu-id="a3279-132">Add a tab control to an application workspace</span></span>
 <span data-ttu-id="a3279-133">Bu örnekte Filo Yönetimi modelinde, **Analizler** sekmesini **FMClerkWorkspace** formuna ekleyerek **Rezervasyon yönetimi** çalışma alanını genişleteceğiz.</span><span class="sxs-lookup"><span data-stu-id="a3279-133">In this example, we will extend the **Reservation management** workspace in the Fleet Management model by adding the **Analytics** tab to the definition of the **FMClerkWorkspace** form.</span></span>
  
 <span data-ttu-id="a3279-134">Aşağıdaki görsel, **FMClerkWorkspace** formunun Microsoft Visual Studio tasarımcısında nasıl görüneceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="a3279-134">The following illustration shows what the **FMClerkWorkspace** form looks like in the designer in Microsoft Visual Studio.</span></span>
@@ -105,7 +105,7 @@ ms.lasthandoff: 01/19/2018
  
 <span data-ttu-id="a3279-161">Şimdi uygulama form tanımını genişletme görevini tamamladınız.</span><span class="sxs-lookup"><span data-stu-id="a3279-161">You've now completed the task of extending the application form definition.</span></span> <span data-ttu-id="a3279-162">Uzantıların nasıl kullanılacağı ve özelleştirmelerin nasıl yapılacağına dair daha fazla bilgi için bkz.  [Özelleştirme: Katmanlama ve uzantılar](../extensibility/customization-overlayering-extensions.md).</span><span class="sxs-lookup"><span data-stu-id="a3279-162">For more information about how to use extensions to do customizations, see  [Customization: Overlayering and extensions](../extensibility/customization-overlayering-extensions.md).</span></span>
 
-# <a name="add-x-business-logic-to-embed-a-viewer-control"></a><span data-ttu-id="a3279-163">Bir görüntüleyici denetimi katıştırmak için X++ iş mantığı ekleyin</span><span class="sxs-lookup"><span data-stu-id="a3279-163">Add X++ business logic to embed a viewer control</span></span>
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a><span data-ttu-id="a3279-163">Bir görüntüleyici denetimi katıştırmak için X++ iş mantığı ekleyin</span><span class="sxs-lookup"><span data-stu-id="a3279-163">Add X++ business logic to embed a viewer control</span></span>
 <span data-ttu-id="a3279-164">**Rezervasyon yönetimi** çalışma alanına katıştırılmış olan rapor görüntüleyici denetimini başlatan bir iş mantığı eklemek için bu adımları izleyin.</span><span class="sxs-lookup"><span data-stu-id="a3279-164">Follow these steps to add business logic that initializes the report viewer control that is embedded in the **Reservation management** workspace.</span></span>
 
 1. <span data-ttu-id="a3279-165">Tasarım tanımını genişletmek için **FMClerkWorkspace** form tasarımcısını açın.</span><span class="sxs-lookup"><span data-stu-id="a3279-165">Open the **FMClerkWorkspace** form designer to extend the design definition.</span></span>
@@ -151,12 +151,12 @@ ms.lasthandoff: 01/19/2018
 > [!NOTE]
 > <span data-ttu-id="a3279-172">Sayfa başlığının altındaki çalışma alanı sekmelerini kullanarak mevcut operasyonel görünümlere erişebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a3279-172">You can access the existing operational view by using the workspace tabs below the page title.</span></span>
 
-# <a name="reference"></a><span data-ttu-id="a3279-173">Referans</span><span class="sxs-lookup"><span data-stu-id="a3279-173">Reference</span></span>
+## <a name="reference"></a><span data-ttu-id="a3279-173">Referans</span><span class="sxs-lookup"><span data-stu-id="a3279-173">Reference</span></span>
 
-## <a name="pbireporthelperinitializereportcontrol-method"></a><span data-ttu-id="a3279-174">PBIReportHelper.initializeReportControl yöntemi</span><span class="sxs-lookup"><span data-stu-id="a3279-174">PBIReportHelper.initializeReportControl method</span></span>
+### <a name="pbireporthelperinitializereportcontrol-method"></a><span data-ttu-id="a3279-174">PBIReportHelper.initializeReportControl yöntemi</span><span class="sxs-lookup"><span data-stu-id="a3279-174">PBIReportHelper.initializeReportControl method</span></span>
 <span data-ttu-id="a3279-175">Bu bölüm, bir Power BI raporunu (.pbix kaynağı) bir form grubu denetimine eklemek için kullanılan yardımcı sınıf hakkında bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="a3279-175">This section provides information about the helper class that is used to embed a Power BI report (.pbix resource) in a form group control.</span></span>
 
-### <a name="syntax"></a><span data-ttu-id="a3279-176">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="a3279-176">Syntax</span></span>
+#### <a name="syntax"></a><span data-ttu-id="a3279-176">Sözdizimi</span><span class="sxs-lookup"><span data-stu-id="a3279-176">Syntax</span></span>
 ```
 public static void initializeReportControl(
      str                 _resourceName,
@@ -167,7 +167,7 @@ public static void initializeReportControl(
      List                _defaultFilters = new List(Types::Class))
 ```
 
-### <a name="parameters"></a><span data-ttu-id="a3279-177">Parametreler</span><span class="sxs-lookup"><span data-stu-id="a3279-177">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="a3279-177">Parametreler</span><span class="sxs-lookup"><span data-stu-id="a3279-177">Parameters</span></span>
 
 | <span data-ttu-id="a3279-178">Dosya Adı</span><span class="sxs-lookup"><span data-stu-id="a3279-178">Name</span></span> | <span data-ttu-id="a3279-179">Açıklama</span><span class="sxs-lookup"><span data-stu-id="a3279-179">Description</span></span> |
 |---|---|

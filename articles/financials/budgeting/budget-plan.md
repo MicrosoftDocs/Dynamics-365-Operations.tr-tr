@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 09266e28c0fec4200e1644049e4a7f2880ebdcc4
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: b28d3abb31fe2b54bd207b3dbdd26b26edb31695
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -53,10 +53,9 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="ae5e8-128">[![Excel şablonu](./media/screenshot2-1024x352.png)](./media/screenshot2.png)</span><span class="sxs-lookup"><span data-stu-id="ae5e8-128">[![Excel template](./media/screenshot2-1024x352.png)](./media/screenshot2.png)</span></span>
 
-<a name="exercise-1-configuration"></a><span data-ttu-id="ae5e8-129">Alıştırma 1: Yapılandırma</span><span class="sxs-lookup"><span data-stu-id="ae5e8-129">Exercise 1: Configuration</span></span>
-=========================
+## <a name="exercise-1-configuration"></a><span data-ttu-id="ae5e8-129">Alıştırma 1: Yapılandırma</span><span class="sxs-lookup"><span data-stu-id="ae5e8-129">Exercise 1: Configuration</span></span>
 
-## <a name="task-1-create-organizational-hierarchy"></a><span data-ttu-id="ae5e8-130">**Görev 1: Organizasyon hiyerarşisi oluşturma**</span><span class="sxs-lookup"><span data-stu-id="ae5e8-130">**Task 1: Create organizational hierarchy**</span></span>
+### <a name="task-1-create-organizational-hierarchy"></a><span data-ttu-id="ae5e8-130">**Görev 1: Organizasyon hiyerarşisi oluşturma**</span><span class="sxs-lookup"><span data-stu-id="ae5e8-130">**Task 1: Create organizational hierarchy**</span></span>
 <span data-ttu-id="ae5e8-131">Tüm bütçe süreci Finans departmanında cereyan etmektedir, bu nedenle Julia sadece Finans departmanını içeren, çok basit bir organizasyon hiyerarşisi oluşturuyor.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-131">As all the budgeting process happens in the Finance department, therefore Julia needs to create a very simple organizational hierarchy – consisting of Finance department only.</span></span> <span data-ttu-id="ae5e8-132">1.1.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-132">1.1.</span></span> <span data-ttu-id="ae5e8-133">Organizasyon hiyerarşilerine gidin (Organizasyon yönetimi &gt; Organizasyonlar &gt; Organizasyon hiyerarşileri) ve Yeni düğmesini tıklayın</span><span class="sxs-lookup"><span data-stu-id="ae5e8-133">Navigate to Organization hierarchies (Organization administration &gt; Organizations &gt; Organization hierarchies) and click New button</span></span>
 
 ![Kuruluş hiyerarşisi](./media/screenshot3.png) 
@@ -85,7 +84,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="ae5e8-155">[![Yürürlük tarihi](./media/screenshot9.png)](./media/screenshot9.png)</span><span class="sxs-lookup"><span data-stu-id="ae5e8-155">[![Effective date](./media/screenshot9.png)](./media/screenshot9.png)</span></span>
 
-## <a name="task-2-configure-user-security"></a><span data-ttu-id="ae5e8-156">Görev 2: Kullanıcı güvenliği yapılandırma</span><span class="sxs-lookup"><span data-stu-id="ae5e8-156">Task 2: Configure user security</span></span>
+### <a name="task-2-configure-user-security"></a><span data-ttu-id="ae5e8-156">Görev 2: Kullanıcı güvenliği yapılandırma</span><span class="sxs-lookup"><span data-stu-id="ae5e8-156">Task 2: Configure user security</span></span>
 <span data-ttu-id="ae5e8-157">Bütçe planlama, bütçe plan verilerine erişim yapılandırmak için özel güvenlik ilkeleri kullanır.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-157">Budget planning uses special security policies to configure access to budget plans data.</span></span> <span data-ttu-id="ae5e8-158">Julia'nın kendisi için Finans bütçe planlarına erişim yetkisi vermesi gerekiyor.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-158">Julia needs to give access to Finance budget plans for herself.</span></span> 
 
 <span data-ttu-id="ae5e8-159">2.1.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-159">2.1.</span></span> <span data-ttu-id="ae5e8-160">DEMF tüzel kişilik içeriğine geçiş.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-160">Switch to DEMF legal entity context.</span></span> 
@@ -109,7 +108,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="ae5e8-178">[![Erişime izin ver](./media/screenshot14.png)](./media/screenshot14.png)</span><span class="sxs-lookup"><span data-stu-id="ae5e8-178">[![Grant access](./media/screenshot14.png)](./media/screenshot14.png)</span></span>
 
-## <a name="task-3-create-scenarios"></a><span data-ttu-id="ae5e8-179">Görev 3: Senaryo oluşturma</span><span class="sxs-lookup"><span data-stu-id="ae5e8-179">Task 3: Create scenarios</span></span>
+### <a name="task-3-create-scenarios"></a><span data-ttu-id="ae5e8-179">Görev 3: Senaryo oluşturma</span><span class="sxs-lookup"><span data-stu-id="ae5e8-179">Task 3: Create scenarios</span></span>
 <span data-ttu-id="ae5e8-180">3.1.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-180">3.1.</span></span> <span data-ttu-id="ae5e8-181">Bütçeleme&gt;Kur &gt; Bütçe planlama &gt; Bütçe planlama yapılandırma seçimlerini yapın.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-181">Navigate to Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration.</span></span> <span data-ttu-id="ae5e8-182">Senaryolar sayfasında, bu laboratuvarda kullanacağımız senaryolara dikkat edin: Önceki yılın fiili tutarları ve bütçelenen tutarları.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-182">In the Scenarios page note the scenarios we are going to use further in this lab: Previous year actuals and Budgeted.</span></span> 
 
 <span data-ttu-id="ae5e8-183">*Not: İsterseniz bu alıştırma için yeni senaryolar oluşturabilir ve mevcut senaryolar yerine bunları kullanabilirsiniz.*</span><span class="sxs-lookup"><span data-stu-id="ae5e8-183">*Note: You can create new scenarios for this exercise if desired and use those instead.*</span></span> 
@@ -118,7 +117,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="ae5e8-185">*Not: Julia, bütçe hazırlama için resmi onay sürecini kullanmıyor, bu nedenle bu laboratuvarda İş Akışları, Aşamalar ve İş akışı aşamaları kurulumunu geçiyoruz, Otomatik kurulumu kullanıyor – iş akışını onaylıyoruz. Bu iş akışı yapılandırması için eke bakın*</span><span class="sxs-lookup"><span data-stu-id="ae5e8-185">*Note: as Julia is not using formal approval process for budget preparation, we will skip Workflows, Stages and Workflow stages setup in this lab and will use existing setup for Auto – approve workflow. See appendix for this workflow configuration.*</span></span>
 
-## <a name="task-4-create-budget-plan-columns"></a><span data-ttu-id="ae5e8-186">Görev 4: Bütçe planı sütunları oluşturma</span><span class="sxs-lookup"><span data-stu-id="ae5e8-186">Task 4: Create budget plan columns</span></span>
+### <a name="task-4-create-budget-plan-columns"></a><span data-ttu-id="ae5e8-186">Görev 4: Bütçe planı sütunları oluşturma</span><span class="sxs-lookup"><span data-stu-id="ae5e8-186">Task 4: Create budget plan columns</span></span>
 <span data-ttu-id="ae5e8-187">Bütçe plan sütunları, bütçe plan belgesi düzeninde kullanılabilen Parasal değere veya miktara dayalı sütunlardır.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-187">Budget plan columns are either Monetary or quantity based columns that can be used in budget plan document layout.</span></span> <span data-ttu-id="ae5e8-188">Örneğimizde Önceki yılın fiili tutarları için bir sütun ve bütçelenen bir yıldaki her bir ayı temsil etmesi için 12 sütun oluşturmamız gerekiyor.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-188">In our example we need to create a column for Previous year actuals and 12 columns to represent each month in a budgeted year.</span></span> <span data-ttu-id="ae5e8-189">Sütunlar Ekle düğmesi tıklandıktan sonra değerler doldurularak veya Veri varlığı yardımıyla oluşturulabilir.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-189">Columns can be created either by simply clicking Add button and filling in the values, or with a help of Data entity.</span></span> <span data-ttu-id="ae5e8-190">Bu laboratuvarda değerleri doldurmak için Veri varlığını kullanacağız.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-190">In this lab we will use Data entity to fill in the values.</span></span> 
 
 <span data-ttu-id="ae5e8-191">4.1.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-191">4.1.</span></span> <span data-ttu-id="ae5e8-192">Bütçeleme&gt;Kur &gt; Bütçe planlama &gt; Bütçe planlama yapılandırma altından Sütunlar sayfasını açın.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-192">In Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration open Columns page.</span></span> <span data-ttu-id="ae5e8-193">Formun sağ üst köşesindeki Office düğmesini tıklatın ve Sütunları (filtrelenmemiş)</span><span class="sxs-lookup"><span data-stu-id="ae5e8-193">Click Office button on the top right corner of the form and pick Columns (unfiltered)</span></span> 
@@ -151,7 +150,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="ae5e8-219">[![Yenile](./media/screenshot23.png)](./media/screenshot23.png)</span><span class="sxs-lookup"><span data-stu-id="ae5e8-219">[![Refresh](./media/screenshot23.png)](./media/screenshot23.png)</span></span>
 
-## <a name="task-5-create-budget-plan-document-layouts-and-templates"></a><span data-ttu-id="ae5e8-220">Görev 5: Bütçe planı belge düzenleri ve şablonları oluşturma</span><span class="sxs-lookup"><span data-stu-id="ae5e8-220">Task 5: Create budget plan document layouts and templates</span></span>
+### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a><span data-ttu-id="ae5e8-220">Görev 5: Bütçe planı belge düzenleri ve şablonları oluşturma</span><span class="sxs-lookup"><span data-stu-id="ae5e8-220">Task 5: Create budget plan document layouts and templates</span></span>
 <span data-ttu-id="ae5e8-221">Düzen; kullanıcı, bütçe planı belgesini açtığında bütçe planı belge satırları ızgarasının nasıl görüneceğini tanımlar.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-221">Layout defines how budget plan document lines grid is going to look like when user opens budget plan document.</span></span> <span data-ttu-id="ae5e8-222">Aynı verileri farklı açılardan görmek için bütçe planı belge düzenine geçiş yapılması da mümkündür.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-222">It is also possible to switch the layout for budget plan document to see the same data in different angles.</span></span> <span data-ttu-id="ae5e8-223">Şimdi, bütçe planı belgesiyle kullanılmak üzere tanımlanan sütunlara sahip olan Julia'nın şimdi de bütçe verilerini oluşturmak için kullandığı Excel tablosuna oldukça benzer bir görünüme sahip olacak bir bütçe plan belgesi düzeni oluşturması gerekiyor (bu laboratuvardaki Senaryoya genel bakış bölümüne bakın)</span><span class="sxs-lookup"><span data-stu-id="ae5e8-223">Now, as she’s got columns defined to be used with our budget plan document, Julia needs to create a budget plan document layout, that would look similar to the Excel table she uses to create budget data (see section Scenario overview in this lab)</span></span> 
 
 <span data-ttu-id="ae5e8-224">5.1.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-224">5.1.</span></span> <span data-ttu-id="ae5e8-225">Bütçeleme&gt; Kur &gt; Bütçe planlama &gt; Bütçe planlama yapılandırma altından Düzenler sayfasını açın.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-225">In Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration open Layouts page.</span></span> <span data-ttu-id="ae5e8-226">Aylık bütçe girişi için yeni bir düzen oluşturun:</span><span class="sxs-lookup"><span data-stu-id="ae5e8-226">Create a new layout for Monthly budget entry:</span></span>
@@ -172,7 +171,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="ae5e8-240">5.3.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-240">5.3.</span></span> <span data-ttu-id="ae5e8-241">&lt; Opsiyonel adım&gt; Daha kullanıcı dostu hale getirmek için Excel şablonunu değiştirtirin – toplama formülleri, başlık alanları, biçimlendirme vb. ekleyin. Değişiklikleri kaydedin ve dosyayı Düzen &gt; Yükle düğmelerini tıklayarak bütçe planı düzenine yükleyin [![Karşıya yükle](./media/screenshot26.png)](./media/screenshot26.png)</span><span class="sxs-lookup"><span data-stu-id="ae5e8-241">&lt; Optional step&gt; Modify Excel template to make it look more user friendly – add total formulas, header fields, formatting, etc. Save the changes and upload the file to budget plan layout by clicking Layout &gt; Upload [![Upload](./media/screenshot26.png)](./media/screenshot26.png)</span></span>
 
-## <a name="task-6-create-a-budget-planning-process"></a><span data-ttu-id="ae5e8-242">Görev 6: Bütçe planlama süreci oluşturma</span><span class="sxs-lookup"><span data-stu-id="ae5e8-242">Task 6: Create a budget planning process</span></span>
+### <a name="task-6-create-a-budget-planning-process"></a><span data-ttu-id="ae5e8-242">Görev 6: Bütçe planlama süreci oluşturma</span><span class="sxs-lookup"><span data-stu-id="ae5e8-242">Task 6: Create a budget planning process</span></span>
 <span data-ttu-id="ae5e8-243">Julia, bütçe planlarını girmeye başlamak için yukarıdaki tüm kurulumu birleştiren yeni bir bütçe planlama süreci oluşturmalı ve bunu etkinleştirmelidir.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-243">Julia needs to create and activate a new budget planning process combining all the setup above to start entering budget plans.</span></span> <span data-ttu-id="ae5e8-244">Bütçe planlama süreci, bütçe planlarının oluşturulması için hangi bütçeleme organizasyonlarının, iş akışının, düzenlerin ve şablonların kullanılacağını tanımlar.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-244">Budget planning process defines what budgeting organizations, workflow, layouts and templates will be used for creating budget plans.</span></span> 
 
 <span data-ttu-id="ae5e8-245">6.1.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-245">6.1.</span></span> <span data-ttu-id="ae5e8-246">Bütçeleme &gt; Kurulum &gt; Bütçe planlama &gt; Bütçe planlama süreci öğelerini seçin ve yeni bir kayıt oluşturun.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-246">Navigate to Budgeting &gt; Setup &gt; Budget planning &gt; Budget planning process and create a new record.</span></span>
@@ -193,10 +192,9 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="ae5e8-258">[![Etkinleştir](./media/screenshot28.png)](./media/screenshot28.png)</span><span class="sxs-lookup"><span data-stu-id="ae5e8-258">[![Activate](./media/screenshot28.png)](./media/screenshot28.png)</span></span>
 
-<a name="exercise-2-process-simulation"></a><span data-ttu-id="ae5e8-259">Alıştırma 2: İşlem simülasyonu</span><span class="sxs-lookup"><span data-stu-id="ae5e8-259">Exercise 2: Process simulation</span></span>
-==============================
+## <a name="exercise-2-process-simulation"></a><span data-ttu-id="ae5e8-259">Alıştırma 2: İşlem simülasyonu</span><span class="sxs-lookup"><span data-stu-id="ae5e8-259">Exercise 2: Process simulation</span></span>
 
-## <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a><span data-ttu-id="ae5e8-260">Görev 7: Genel muhasebeden bütçe planı için ilk verileri oluşturma</span><span class="sxs-lookup"><span data-stu-id="ae5e8-260">Task 7: Generate initial data for budget plan from General ledger</span></span>
+### <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a><span data-ttu-id="ae5e8-260">Görev 7: Genel muhasebeden bütçe planı için ilk verileri oluşturma</span><span class="sxs-lookup"><span data-stu-id="ae5e8-260">Task 7: Generate initial data for budget plan from General ledger</span></span>
 <span data-ttu-id="ae5e8-261">7.1.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-261">7.1.</span></span> <span data-ttu-id="ae5e8-262">Bütçeleme &gt; Periyodik &gt; Genel muhaseben bütçe planı oluştur öğelerini seçin.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-262">Navigate to Budgeting &gt; Periodic &gt; Generate budget plan from General ledger.</span></span> <span data-ttu-id="ae5e8-263">Periyodik süreç parametrelerini doldurun ve Oluştur düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-263">Fill in the periodic process parameters and click button Generate.</span></span> 
 
 <span data-ttu-id="ae5e8-264">[![Oluştur](./media/screenshot29.png)](./media/screenshot29.png)</span><span class="sxs-lookup"><span data-stu-id="ae5e8-264">[![Generate](./media/screenshot29.png)](./media/screenshot29.png)</span></span> 
@@ -209,7 +207,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="ae5e8-271">[![Bütçe planı görünümü](./media/screenshot31.png)](./media/screenshot31.png)</span><span class="sxs-lookup"><span data-stu-id="ae5e8-271">[![Budget plan display](./media/screenshot31.png)](./media/screenshot31.png)</span></span>
 
-## <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a><span data-ttu-id="ae5e8-272">Görev 8: Önceki yılın fiili değerlerine dayalı olarak mevcut yıl bütçesi oluşturma</span><span class="sxs-lookup"><span data-stu-id="ae5e8-272">Task 8: Create current year budget based on previous year actuals</span></span>
+### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a><span data-ttu-id="ae5e8-272">Görev 8: Önceki yılın fiili değerlerine dayalı olarak mevcut yıl bütçesi oluşturma</span><span class="sxs-lookup"><span data-stu-id="ae5e8-272">Task 8: Create current year budget based on previous year actuals</span></span>
 <span data-ttu-id="ae5e8-273">Bütçe planları için bir senaryodaki bilgileri kolayca başka bir senaryoya kopyalamak / bunları dönemler arasında dağıtmak / boyutlara atamak için bütçe planında tahsisat yöntemleri kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-273">Allocation methods can be used in budget plan to easily copy information for budget plans from one scenario to another/ spread them across periods/ allocate to dimensions.</span></span> <span data-ttu-id="ae5e8-274">Mevcut yıl bütçesini önceki yılı fiili tutarlarından oluşturmak için tahsisatları kullanacağız.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-274">We will use allocations to create current year budget from previous year actuals.</span></span> 
 
 <span data-ttu-id="ae5e8-275">8.1.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-275">8.1.</span></span> <span data-ttu-id="ae5e8-276">Bütçe planı belge ızgarasındaki tüm satırları seçin ve bütçeyi tahsis et düğmesini tıklatın</span><span class="sxs-lookup"><span data-stu-id="ae5e8-276">Pick all lines in the budget plan document grid and click button allocate budget</span></span> 
@@ -224,7 +222,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="ae5e8-282">[![Satış eğrisi](./media/screenshot34.png)](./media/screenshot34.png)</span><span class="sxs-lookup"><span data-stu-id="ae5e8-282">[![Sales curve](./media/screenshot34.png)](./media/screenshot34.png)</span></span>
 
-## <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a><span data-ttu-id="ae5e8-283">Görev 9: Bütçe planı belgesini Excel kullanarak ayarlama ve belgeyi son haline getirme</span><span class="sxs-lookup"><span data-stu-id="ae5e8-283">Task 9: Adjust budget plan document using Excel and finalize the document</span></span>
+### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a><span data-ttu-id="ae5e8-283">Görev 9: Bütçe planı belgesini Excel kullanarak ayarlama ve belgeyi son haline getirme</span><span class="sxs-lookup"><span data-stu-id="ae5e8-283">Task 9: Adjust budget plan document using Excel and finalize the document</span></span>
 <span data-ttu-id="ae5e8-284">9.1.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-284">9.1.</span></span> <span data-ttu-id="ae5e8-285">Excel'de belge içeriklerini açmak için çalışma sayfası düğmesini tıklatın</span><span class="sxs-lookup"><span data-stu-id="ae5e8-285">Click Button worksheet to open document contents in Excel</span></span>
 
 <span data-ttu-id="ae5e8-286">[![Excel](./media/screenshot35.png)](./media/screenshot35.png)</span><span class="sxs-lookup"><span data-stu-id="ae5e8-286">[![Excel](./media/screenshot35.png)](./media/screenshot35.png)</span></span>
@@ -239,8 +237,7 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="ae5e8-294">İş akışı tamamlandıktan sonra, bütçe planı belge aşaması Onaylandı olarak değişir.</span><span class="sxs-lookup"><span data-stu-id="ae5e8-294">Once workflow completes, budget plan document stage changes to Approved.</span></span> <span data-ttu-id="ae5e8-295">[![Onaylandı](./media/screenshot38.png)](./media/screenshot38.png)</span><span class="sxs-lookup"><span data-stu-id="ae5e8-295">[![Approved](./media/screenshot38.png)](./media/screenshot38.png)</span></span>
 
-<a name="appendix"></a><span data-ttu-id="ae5e8-296">Ek</span><span class="sxs-lookup"><span data-stu-id="ae5e8-296">Appendix</span></span>
-========
+## <a name="appendix"></a><span data-ttu-id="ae5e8-296">Ek</span><span class="sxs-lookup"><span data-stu-id="ae5e8-296">Appendix</span></span>
 
 ### <a name="auto-approve-workflow-configuration"></a><span data-ttu-id="ae5e8-297">İş akışı yapılandırmasını otomatik onaylama</span><span class="sxs-lookup"><span data-stu-id="ae5e8-297">Auto-Approve workflow configuration</span></span>
 
