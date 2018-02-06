@@ -1,4 +1,4 @@
---- 
+---
 title: "Üretim emrini planlama"
 description: "Bu yordam, bir üretim emrini nasıl planlayacağınızı gösterir."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -17,10 +17,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4aeb51fd2d9e916d5838b47c4a6b74800572a9ca
+ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
+ms.openlocfilehash: 6cbbf509c9e60040e08ab7932fcb0e8eed5ddd22
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 # <a name="schedule-a-production-order"></a><span data-ttu-id="9e5af-103">Üretim emrini planlama</span><span class="sxs-lookup"><span data-stu-id="9e5af-103">Schedule a production order</span></span>
@@ -53,5 +53,4 @@ ms.lasthandoff: 09/29/2017
     * <span data-ttu-id="9e5af-127">Kapasite yükü sayfası; iş planlaması üzerinden ayrılan kapasiteyi, kaynakta geçerli olarak ayrılan toplam saat sayısını ve kaynak iş planlaması için kalan saat sayısını görüntüler.</span><span class="sxs-lookup"><span data-stu-id="9e5af-127">The Capacity load page displays the capacity that is reserved through job scheduling, the total number of hours that are currently reserved on the resource, and the number of hours that remain available for job scheduling on the resource.</span></span>  
 6. <span data-ttu-id="9e5af-128">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="9e5af-128">Close the page.</span></span>
 7. <span data-ttu-id="9e5af-129">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="9e5af-129">Close the page.</span></span>
-
 

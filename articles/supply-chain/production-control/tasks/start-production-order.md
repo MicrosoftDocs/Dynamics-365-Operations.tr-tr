@@ -1,4 +1,4 @@
---- 
+---
 title: "Üretim emrini başlatma"
 description: "Bu yordam, üretim emirlerinin atölyede nasıl başlatılacağını gösterir."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -17,10 +17,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 33558053d33d9fe4a2ecb3576da569b2c441db80
+ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
+ms.openlocfilehash: 3b5657e5eb2719702eae3a3c5178b3a04f7545e3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 # <a name="start-a-production-order"></a><span data-ttu-id="74014-103">Üretim emrini başlatma</span><span class="sxs-lookup"><span data-stu-id="74014-103">Start a production order</span></span>
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/29/2017
 7. <span data-ttu-id="74014-146">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="74014-146">Click Post.</span></span>
 8. <span data-ttu-id="74014-147">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="74014-147">Click OK.</span></span>
     * <span data-ttu-id="74014-148">Tekil operasyonlar için harcanan zaman rota kartı günlüğünde kaydedilir.</span><span class="sxs-lookup"><span data-stu-id="74014-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="74014-149">İyi ve hata miktarı da bildirilebilir.</span><span class="sxs-lookup"><span data-stu-id="74014-149">Good and error quantity can also be reported.</span></span>  
-
 
