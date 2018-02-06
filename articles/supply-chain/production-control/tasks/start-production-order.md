@@ -1,4 +1,4 @@
---- 
+---
 title: "Üretim emrini başlatma"
 description: "Bu yordam, üretim emirlerinin atölyede nasıl başlatılacağını gösterir."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -70,5 +70,4 @@ Bu yordam, üretim emirlerinin atölyede nasıl başlatılacağını gösterir. 
 7. Deftere Naklet öğesine tıklayın.
 8. Tamam'a tıklayın.
     * Tekil operasyonlar için harcanan zaman rota kartı günlüğünde kaydedilir. İyi ve hata miktarı da bildirilebilir.  
-
 

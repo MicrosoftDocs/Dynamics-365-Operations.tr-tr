@@ -1,4 +1,4 @@
---- 
+---
 title: "Üretim emrini tahmin etme"
 description: "USMF demo veri şirketi veya kendi veri kümenizi kullanarak, bu yordamı çalıştırabilirsiniz."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -42,5 +42,4 @@ USMF demo veri şirketi veya kendi veri kümenizi kullanarak, bu yordamı çalı
 1. Eylem Bölmesinde Yönet'e tıklayın.
 2. Hesaplama ayrıntılarını görüntüle seçeneğine tıklayın.
     * Bu sayfayı maliyet dökümünü görüntüler. Örneğin, ilk satırın bitmiş ürünü için birim başına toplam maliyet fiyatı görüntüleyebilirsiniz. Sonraki satırlar, ürün reçetesi, üretim rotası ve dolaylı maliyetlere göre olan maliyetleri içerir.  
-
 
