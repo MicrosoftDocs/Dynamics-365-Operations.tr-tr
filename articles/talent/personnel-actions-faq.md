@@ -1,7 +1,7 @@
 ---
 title: Personel eylemleri [SSS]
 description: "Bu konu, kuruluşununuz personel eylemleri kullanıyorsa sahip olabileceğiniz sorulara yanıtlar içerir. Personel eylemleri, personelle ilgili çeşitli görevleri gerçekleştirdiğinizde tamamlamanız gereken ek adımlardır."
-author: shielas
+author: ShielaSogge
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article

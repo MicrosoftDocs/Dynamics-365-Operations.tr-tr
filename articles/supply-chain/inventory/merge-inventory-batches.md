@@ -1,7 +1,7 @@
 ---
 title: "Stok toplu işlerini birleştir"
 description: "Bu makalede iki veya daha fazla stok toplu işinin birleştirilmiş bir toplu iş ile nasıl konsolide edileceği hakkında bilgiler verilmiştir."
-author: perlynne
+author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: "Sabit kıymet yönetim çalışma alanı"
 description: "Bu konu Sabit kıymet yönetimi çalışma alanı hakkında bilgiler sağlar. Bu çalışma alanı, sisteme girilen sabit kıymetlerle ilgili bilgileri gösterir. Bir özet görünümü ve bir analiz görünümü içerir."
-author: saraschi
+author: saraschi2
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
@@ -14,7 +14,7 @@ ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.assetid: 
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT

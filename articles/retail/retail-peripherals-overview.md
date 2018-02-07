@@ -1,6 +1,7 @@
 ---
 title: "Perakende çevre birimlerine genel bakış"
 description: "Bu konu, perakende çevre birimleriyle ilgili kavramları açıklar."
+author: rubencdelgado
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article
