@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 02/17/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-retail
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: ee2e3c743aee5eb7e34b0e3e79bfb4aa4ac0a029
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 9d9a5d4fdece1cfb573224bd54d96ccd281c0f09
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a><span data-ttu-id="16261-103"> Merkezi alım kullanarak ürünleri dağıtım merkezinden mağazaya gönderme</span><span class="sxs-lookup"><span data-stu-id="16261-103">Push products from distribution center to store using buyer's push</span></span>

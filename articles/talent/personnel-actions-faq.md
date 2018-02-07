@@ -1,7 +1,7 @@
 ---
 title: Personel eylemleri [SSS]
 description: "Bu konu, kuruluşununuz personel eylemleri kullanıyorsa sahip olabileceğiniz sorulara yanıtlar içerir. Personel eylemleri, personelle ilgili çeşitli görevleri gerçekleştirdiğinizde tamamlamanız gereken ek adımlardır."
-author: shielas
+author: ShielaSogge
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
@@ -18,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: df3f85efc7947eb8b803d5280505adc1dc8b4886
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 3b53484f2e7f9bef7bf8372383ff9d6ba67631c1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 

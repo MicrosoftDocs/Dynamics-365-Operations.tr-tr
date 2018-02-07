@@ -1,7 +1,7 @@
 --- 
 title: "Ürünü/ana ürünü tüzel kişiliklere serbest bırakma"
 description: "Bu yordam bir ürün veya ana ürünün nasıl bir veya daha fazla tüzel kişiliğe serbest bırakılacağını gösterir."
-author: josaw1
+author: BibiSp
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -16,10 +16,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 8f3a1ae27bd1569d7a8fb9fe4ea609d43bc57298
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: b378f65fcb7f557b8689a123577948e2f7c97253
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a><span data-ttu-id="70597-103">Ürünü/ana ürünü tüzel kişiliklere serbest bırakma</span><span class="sxs-lookup"><span data-stu-id="70597-103">Release a product/product master to legal entities</span></span>
