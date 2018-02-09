@@ -114,6 +114,7 @@
 #### [Özelleştirme: katmanlama ve uzantılar](extensibility/customization-overlayering-extensions.md)
 ### Yenilikler
 #### [Genişletilebilirlik değişiklikleri Temmuz 2017](extensibility/changes-july-2017.md)
+#### [Dynamics 365 for Finance and Operations, Enterprise edition 7.3'te genişletilebilirlik değişiklikleri](extensibility/extensibility-changes-73.md)
 ### Temel bilgiler
 #### [Kullanışsız özelleştirmeler](extensibility/intrusive-customizations.md)
 #### [Sınıf uzantıları](extensibility/class-extensions.md)
@@ -137,15 +138,20 @@
 #### [Formda başlığı değiştirme](extensibility/change-caption-form.md)
 #### [Form denetim özelliklerini değiştirme](extensibility/modify-control-properties.md)
 #### [Etiketi değiştirme](extensibility/change-label.md)
-#### [Numara serisi kapsamını genişletme](extensibility/extend-number-sequence-scope.md)
+#### [Numara sırası kapsamını genişletme](extensibility/extend-number-sequence-scope.md)
+#### [Yeni bir stok boyutu ekleme](extensibility/inventory-dimensions.md)
+#### [Fiyat ve iskonto genişletilebilirliğinde yapılan değişiklikler](extensibility/pricing-app73.md)
+#### [Tablo eşlemesi uzantısı](extensibility/map-extensions.md)
+#### [Arabirim olarak kullanılan tablo eşlemelerini genişletme](extensibility/maps-as-interfaces.md)
+#### [Sürüm oluşturma için kullanılan tablo eşlemelerini genişletme](extensibility/maps-with-versioning.md)
 
 
 
 
 ## Performans
-### [İzleme ayrıştırıcıyı kullanarak izleme yapma](perf-test/trace-trace-tutorial.md)
+### [Trace parser'ı kullanarak izleme yapma](perf-test/trace-trace-tutorial.md)
 ### [Visual Studio Team Services ile PerfSDK ve çoklu kullanıcı testi](perf-test/perfsdk-tutorial.md)
-### [İzleme ayrıştırıcı kullanarak sorunları tanılama ve performans sorunlarını analiz etme](perf-test/trace-parser.md)
+### [Trace parser'ı kullanarak sorunları tanılama ve performans sorunlarını analiz etme](perf-test/trace-parser.md)
 ### [Performans zamanlayıcısı](perf-test/performance-timer.md)
 ## Visual Studio'da test desteği
 ### [Test ve doğrulamalar](perf-test/testing-validation.md)
@@ -523,16 +529,16 @@
 
 # [Yükseltme ve geçiş](migration-upgrade/upgrade-home-page.md)
 ## [AX 2012'den Dynamics 365 for Finance and Operations'a yükseltme](migration-upgrade/upgrade-overview-2012.md)
-### [Analiz etme - Yükseltmeyi planlamak için Yükseltme çözümleyicisi aracını kullanma](migration-upgrade/upgrade-analyzer-tool.md)
-### [Analiz etme – Kodu yükseltme çabasını tahmin etmek için Kod yükseltme hizmetini kullanma](migration-upgrade/analyze-code-upgrade.md)
-### [Analiz etme - Korumalı alan ortamı dağıtma](migration-upgrade/analysis-sandbox.md)
-### [Yükseltme - Bir geliştirme ortamında veri yükseltme](migration-upgrade/data-upgrade-2012.md)
-### [Yükseltme - AX 2012 veri yükseltme görevleri](migration-upgrade/prepare-data-upgrade.md)
-### [Yükseltme - Korumalı alan ortamında veri yükseltme](migration-upgrade/upgrade-data-sandbox.md)
-### [Doğrulama - Kesin bitiş testi](migration-upgrade/upgrade-cutover-testing.md)
-### [Doğrulama - Yükseltmeden sonra yapılacak görevler](migration-upgrade/app-validation-process.md)
-### [Doğrulama - İşlev testi](migration-upgrade/upgrade-functional-validation.md)
-### [Doğrulama - Canlı yayın için hazırlanma](migration-upgrade/upgrade-go-live-prep.md)
+### [AX 2012 yükseltmesi - Planlamak için Yükseltme çözümleyicisi aracını kullanma](migration-upgrade/upgrade-analyzer-tool.md)
+### [AX 2012 yükseltmesi – Çabayı tahmin etmek için Kod yükseltme hizmetini kullanma](migration-upgrade/analyze-code-upgrade.md)
+### [AX 2012 yükseltmesi - Korumalı alan ortamı dağıtma](migration-upgrade/analysis-sandbox.md)
+### [AX 2012 yükseltmesi - Geliştirme ortamında veri yükseltme](migration-upgrade/data-upgrade-2012.md)
+### [AX 2012 yükseltmesi - AX 2012 veri yükseltme görevleri](migration-upgrade/prepare-data-upgrade.md)
+### [AX 2012 yükseltmesi - Korumalı alan ortamında veri yükseltme](migration-upgrade/upgrade-data-sandbox.md)
+### [AX 2012 yükseltmesi - Kesin bitiş testi](migration-upgrade/upgrade-cutover-testing.md)
+### [AX 2012 yükseltmesi - Yükseltmeden sonra yapmanız gereken görevler](migration-upgrade/app-validation-process.md)
+### [AX 2012 yükseltmesi - İşlev testi geçişi](migration-upgrade/upgrade-functional-validation.md)
+### [AX 2012 yükseltmesi - Canlı yayın için hazırlanma](migration-upgrade/upgrade-go-live-prep.md)
 
 
 ### AX 2012'den yükseltmeyi etkileyen değişiklikler
@@ -590,6 +596,8 @@
 ## [Toplu işleme](sysadmin/batch-processing-overview.md)
 ### [Toplu iş sunucusuna genel bakış](sysadmin/batch-server-overview.md)
 ### [Toplu iş oluşturma](sysadmin/tasks/create-batch-job.md)
+
+## [İyileştirme danışmanına ilişkin kurallar oluşturma](sysadmin/optimization-advisor.md)
 
 # Lifecycle Services
 ## [Lifecycle Services'a genel bakış](lifecycle-services/lcs.md)
