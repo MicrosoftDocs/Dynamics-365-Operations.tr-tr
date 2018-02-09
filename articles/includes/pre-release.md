@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Bu özellik, hedeflenen sürümün bir parçasıdır ve yalnızca Sürekli Otomatik Güncelleştirme Avantajı Programı'na (CAAP) katılmayı seçen kullanıcılar tarafından kullanılabilir. Bu özellik, gelecekteki bir başka genel kullanım sürümüne eklenecektir. Standart ve hedeflenen sürümler hakkında daha fazla bilgi için bkz. [Standart ve hedeflenen platform sürümleri](../../fin-and-ops/get-started/public-preview-releases.md).

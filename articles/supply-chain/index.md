@@ -3,7 +3,7 @@ title: "Tedarik zinciri yönetimi giriş sayfası"
 description: "Bu konu, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'ın tedarik zinciri yönetim özellikleri için yardım konularının ve diğer kaynakların bir listesini sağlar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 01/10/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 98008b494f675209949afd961e3cd06dfdc9ec9a
-ms.openlocfilehash: 81a5d21233f12e7c26f0cce6a6c05fefde2ca7dd
+ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
+ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/22/2018
 
 ---
 
@@ -52,18 +52,20 @@ Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
 
 ## <a name="videos"></a>Videolar
 
-### <a name="get-started"></a>Başlayın  
+Bu kısa videolar, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3'teki (Aralık 2017) yeni özellikleri öğrenmenize yardımcı olur.
 
-Bu kısa videolar, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'daki (Temmuz 2017) yeni özellikleri kullanmaya başlamanıza yardımcı olur.
+-  [Müşteriden nakde tümleştirmesi](https://youtu.be/AVV9x5x-XCg) 
+-  [İyileştirme danışmanı](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+
+Bu kısa videolar, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'daki (Temmuz 2017) yeni özellikleri öğrenmenize yardımcı olur.
 
 -  [Maliyet muhasebesine giriş](https://youtu.be/1pUDtJQZ8FU)
 -  [Maliyet kontrolü mobil çalışma alanı](https://youtu.be/imsuTg8rUVk)
 -  [Maliyet analizi için Excel'i kullanma](https://youtu.be/-HKHYdClvx8)
 -  [Mobil cihazda satınalma siparişlerini onaylama](https://youtu.be/gZ-gOlJe7H8)
--  [Ürün ve toplu siparişler için Gantt şemasıyla görsel planlama](https://youtu.be/BtbuShkGj4I)
+-  [Ürün ve toplu siparişler için Gantt grafiğiyle görsel planlama](https://youtu.be/BtbuShkGj4I)
 
-### <a name="tech-conference-recordings"></a>Teknik konferans kayıtları
-Bu kayıtların büyük bölümünde Finance and Operations'ın önceki sürümüne ilişkin ürün işlevleri açıklanmaktadır ancak aynı kavramlar hala geçerlidir ve geçerli sürümde yordamlar benzerdir. 
+Bu teknik konferans kayıtlarında Finance and Operations'ın önceki sürümüne ilişkin ürün işlevleri açıklanmaktadır. Ancak aynı kavramlar hala geçerlidir ve geçerli sürümde yordamlar benzerdir. 
 
 -  <a href="https://youtu.be/zotrj3SbCl4">Microsoft Dynamics AX'teki Ürün Yapılandırıcısı</a>
 -  <a href="https://youtu.be/7v8BPmEs9Dg">Master Planlama: Performans sorunlarını gidermek için ipuçları ve püf noktaları</a>
