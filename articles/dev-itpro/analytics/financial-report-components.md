@@ -1,7 +1,7 @@
 ---
 title: "Mali rapor bileşenleri"
 description: "Bu makalede rapor tanımlarının bileşenlerinin veya yapı taşlarının finansal raporlamada nasıl kullanıldığı açıklanmaktadır. Bu yapı taşları satır tanımlarını, sütun tanımlarını ve raporlama ağacı tanımlarını içerir. Bu makalede yapı taşlarının nasıl düzenleneceği ve kilitleneceği ve yapı taşı grupları ile nasıl çalışılacağı açıklanmaktadır."
-author: aolson
+author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
@@ -112,7 +112,7 @@ Bir yapı taşını açtığınızda, diğer kullanıcılar söz konusu yapı ta
 3.  Bir yapı taşı seçin ve ardından **Etkinliği Geri Al** öğesini tıklayın.
 4.  Yapı taşını kullanıma sokmak için **Evet** öğesini tıklayın.
 
-# <a name="see-also"></a>Ayrıca bkz.
+## <a name="see-also"></a>Ayrıca bkz.
 
 [Mali raporlama](financial-reporting-intro.md)
 

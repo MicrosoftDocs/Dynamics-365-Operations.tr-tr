@@ -31,14 +31,14 @@ ms.lasthandoff: 12/18/2017
 
 Bu konu, **Gerçek ve bütçe karşılaştırması** Microsoft Power BI içeriğini açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar. 
 
-# <a name="overview"></a>Özet
+## <a name="overview"></a>Özet
 
 **Gerçek ve bütçe karşılaştırması** Power BI içeriği, gerçek ve bütçe performansı karşılaştırmasını kuruluşları içinde izlemekten sorumlu kişiler için oluşturulmuştur. **Gerçek ve bütçe karşılaştırması** Power BI içeriği, bütçe farklılıklarınıza görünürlük sağlar. Farkların sebebini daha iyi anlayabilmek için geçerli yıl için bütçeyi hesap kategorisi, bütçe kodu, ana hesap, ana hesap açıklamaları veya mali dönem için analiz edebilirsiniz. 
 
-# <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
+## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
 **Fiili - bütçe karşılaştırması** Power BI içeriğindeki raporlar **Genel muhasebe bütçesi ve tahminleri** ile **CFO** çalışma alanlarında gösterilir.
 
-# <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan raporlar
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan raporlar
 Aşağı tablo, **Gerçek ve bütçe karşılaştırması** Power BI içeriğinin her bir rapor sayfasında bulunan ölçümler hakkında ayrıntılar sağlar.
 
 | Rapor                      | Ölçümler |
@@ -50,7 +50,7 @@ Aşağı tablo, **Gerçek ve bütçe karşılaştırması** Power BI içeriğini
 | Net gelir                  | <ul><li>Bu yılki net gelir</li><li>Bütçeye dayalı net gelir hedefleri </li><ul> |
 
 
-# <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
+## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
 
 | Varlık                    | İçindekiler |
 |---------------------------|----------|

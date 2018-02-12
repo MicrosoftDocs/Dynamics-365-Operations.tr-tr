@@ -1,7 +1,7 @@
 ---
 title: "Perakende ürünler için indirimleri engelle"
 description: "Satıcıların bazı ürünlerin ister bir promosyon isterse de POS'taki satış sırasında indirime girmesini engellemeleri için çeşitli sebepler olabilir."
-author: jeffbl
+author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

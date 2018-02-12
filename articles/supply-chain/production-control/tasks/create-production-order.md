@@ -1,4 +1,4 @@
---- 
+---
 title: "Üretim emri oluşturma"
 description: "Bu prosedür, bir üretim emrinin nasıl oluşturulacağını gösterir."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -69,5 +69,4 @@ Bu prosedür, bir üretim emrinin nasıl oluşturulacağını gösterir. Bu yön
     * İşlem süresini değiştirmek tahmini rota tüketimini ve üretim emri maliyetini etkiler.  
 6. Kaydet'e tıklayın.
 7. Sayfayı kapatın.
-
 

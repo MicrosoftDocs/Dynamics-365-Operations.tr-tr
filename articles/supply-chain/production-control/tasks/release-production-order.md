@@ -1,4 +1,4 @@
---- 
+---
 title: "Üretim emrini serbest bırakma"
 description: "Bu prosedürde bir üretim emrinin nasıl verildiği gösterilmektedir."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: johanho
@@ -39,5 +39,4 @@ Bu prosedürde bir üretim emrinin nasıl verildiği gösterilmektedir. Bu yönt
 5. Rota kartını yazdır onay kutusuna tıklayın.
 6. Tamam'a tıklayın.
 7. Sayfayı kapatın.
-
 

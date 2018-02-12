@@ -1,4 +1,4 @@
---- 
+---
 title: "Üretim emrini bitirme"
 description: "Bu yordam, bir üretim emrini nasıl sonlandırabileceğinizi gösterir."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -46,5 +46,4 @@ Bu yordam, bir üretim emrini nasıl sonlandırabileceğinizi gösterir. Bu yön
 1. Eylem Bölmesinde Yönet'e tıklayın.
 2. Maliyet karşılaştırmasını görüntüle'ye tıklayın.
     * Üretim emrini sona erdirdikten sonra, üretim farklarının genel bir bakış elde etmek için, tahmini maliyet fiyatını, gerçekleşmiş maliyet fiyatı ile karşılaştırabilirsiniz.  
-
 

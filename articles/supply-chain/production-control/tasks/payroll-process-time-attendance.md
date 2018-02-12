@@ -1,4 +1,4 @@
---- 
+---
 title: "Personel saat ve işe devam için bordro işlemini etkinleştirme"
 description: "Bu yordamda, saat ve işe devam için bordro işleminin nasıl etkinleştirileceği gösterilir."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -68,5 +68,4 @@ Bu yordamda, saat ve işe devam için bordro işleminin nasıl etkinleştirilece
 6. Zaman kaydı bölümünü genişletin.
 7. Düzenle öğesine tıklayın.
 8. Ödeme anlaşması alanına bir değer girin veya buradan bir değer seçin.
-
 

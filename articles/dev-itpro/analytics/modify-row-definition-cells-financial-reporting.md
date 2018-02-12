@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Bu makalede bir finansal raporun satır tanımındaki tüm hücreler için gerekli olan bilgiler ve bu bilgilerin nasıl girileceği açıklanmaktadır. 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a>Bir satır tanımında bir satır kodu belirleme
+## <a name="specify-a-row-code-in-a-row-definition"></a>Bir satır tanımında bir satır kodu belirleme
 
 Satır tanımlarında, **Satır Kodu** hücresindeki rakamlar veya etiketler, satır tanımındaki her bir satırı tanımlar. Hesaplamalar ve toplamlardaki verilere bakmak için satır kodunu belirtebilirsiniz.
 
@@ -506,8 +506,7 @@ Boyut değeri kümesi, adlandırılmış bir boyut değerleri grubudur. Bir boyu
 4.  Silinecek seti seçin ve ardından **Sil** düğmesini tıklayın. Boyut değer setini kalıcı olarak silmek için **Evet** düğmesini tıklayın.
 
 
-<a name="see-also"></a>Ayrıca bkz.
---------
+## <a name="see-also"></a>Ayrıca bkz.
 
 [Mali raporlama](financial-reporting-intro.md)
 

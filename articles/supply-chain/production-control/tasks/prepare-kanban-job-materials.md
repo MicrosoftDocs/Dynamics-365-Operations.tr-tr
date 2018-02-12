@@ -1,4 +1,4 @@
---- 
+---
 title: "Malzemeler iş hücresi için kullanılabilir olduğunda bir süreç kanban işi hazırlama"
 description: "Bu görev, tüm malzemeler iş hücresi için kullanılabilir olduğunda bir kanban işi hazırlamaya odaklanır."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -40,5 +40,4 @@ Bu görev, tüm malzemeler iş hücresi için kullanılabilir olduğunda bir kan
     * Eğer birden fazla işi seçtiyseniz, malzeme çekme listesi, seçili projeler için gerekli tüm maddelerin toplamını gösterir.  
 6. Hazırla'ya tıklayın.
     * Hazırlama işlemi şimdi tamamlandı. Seçili malzeme çekme listesindeki tüm satırlar için seçili onay kutusu, tedarik durumunun çekilmiş olduğunu gösterir.  
-
 

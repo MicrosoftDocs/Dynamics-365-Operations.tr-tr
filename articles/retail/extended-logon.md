@@ -34,8 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 Bu konu Bulut POS ve Perakende Modern POS (MPOS) için genişletilmiş oturum açma seçeneğini ayarlamada kullanabileceğiniz seçenekleri ele alır.
 
-<a name="setting-up-extended-logon"></a>Genişletilmiş oturum açma ayarlaması
-=========================
+## <a name="setting-up-extended-logon"></a>Genişletilmiş oturum açma ayarlaması
 
 Barkod maskeleri ayarını **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **İşlevsellik profilleri** menüsünden bulabilirsiniz. **İşlevler** Hızlı Sekmesi genişletilmiş oturum açma ile ilgili aşağıdaki seçenekleri içerir.
 
@@ -55,23 +54,19 @@ Barkod maskeleri ayarını **Perakende** &gt; **Kanal kurulumu** &gt; **POS kuru
 
 **Personel kartla oturum açma parola gerektiriyor** seçeneği etkinleştirilmişse, personel kartla oturum açma yalnızca mevcut genişletilmiş oturum açmaya atanan çalışanı seçer. Bu seçenek etkinleştirildiğinde, çalışanların gene de parolalarını girmesi gerekir.
 
-<a name="assigning-an-extended-logon"></a>Genişletilmiş oturum açma ataması
-===========================
+## <a name="assigning-an-extended-logon"></a>Genişletilmiş oturum açma ataması
 
 Varsayılan olarak, yalnızca yöneticiler çalışanlara genişletilmiş oturum açma atayabilir. Genişletilmiş oturum atamak için POS içinde **Genişletilmiş oturum açma**'ya gidin. Daha sonra, operatör kimliğini arama alanına girerek çalışanı arayın. Çalışanı seçip **Ata** öğesine tıklayın. Bir sonraki sayfada, çalışana atamak için genişletilmiş oturum açma kartını geçirin veya taratın. Kart geçirme veya tarama başarıyla okunursa, **Tamam** düğmesi kullanılabilir olur. O çalışan için genişletilmiş oturum açmayı kaydetmek için **Tamam** düğmesine tıklayın.
 
-<a name="deleting-an-extended-logon"></a>Genişletilmiş oturum açmanın silinmesi
-==========================
+## <a name="deleting-an-extended-logon"></a>Genişletilmiş oturum açmanın silinmesi
 
 Bir çalışana atanan genişletilmiş oturum açmayı silmek için, **Genişletilmiş oturum açma** işlemini kullanarak o çalışanı arayın. Çalışanı seçip **Atamayı Kaldır** öğesine tıklayın. Bu çalışan ile ilişkili olan tüm genişletilmiş oturum açma kimlik bilgileri kaldırılır.
 
-<a name="extending-extended-logon"></a>Genişletilmiş oturum açmanın genişletilmesi
-========================
+## <a name="extending-extended-logon"></a>Genişletilmiş oturum açmanın genişletilmesi
 
 Oturum açma hizmeti, avuç içi tarayıcılar gibi ek genişletilmiş oturum açma cihazları desteklenecek şekilde genişletilebilir. Daha fazla bilgi için, POS genişletilebilirlik belgelerine bakın.
 
-<a name="using-extended-logon"></a>Genişletilmiş oturum açmanın kullanılması
-====================
+## <a name="using-extended-logon"></a>Genişletilmiş oturum açmanın kullanılması
 
 Genişletilmiş oturum açma yapılandırıldığında ve bir çalışana barkod ya da manyetik bant atandığında, o çalışanın sadece POS oturum açma sayfası ekrana geldiğinde kartını geçirmesi veya taratması gerekir. Oturum açma işlemine devam edebilmesi için önce bir parola da gerekliyse, çalışandan parolasını girmesi istenir.
 

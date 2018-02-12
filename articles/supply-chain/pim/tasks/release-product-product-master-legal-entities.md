@@ -1,7 +1,7 @@
 --- 
 title: "Ürünü/ana ürünü tüzel kişiliklere serbest bırakma"
 description: "Bu yordam bir ürün veya ana ürünün nasıl bir veya daha fazla tüzel kişiliğe serbest bırakılacağını gösterir."
-author: josaw1
+author: BibiSp
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process

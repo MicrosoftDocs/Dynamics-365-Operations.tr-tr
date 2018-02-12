@@ -1,4 +1,4 @@
---- 
+---
 title: "Üretim emrini planlama"
 description: "Bu yordam, bir üretim emrini nasıl planlayacağınızı gösterir."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -53,5 +53,4 @@ Bu yordam, bir üretim emrini nasıl planlayacağınızı gösterir. Bu yöntemi
     * Kapasite yükü sayfası; iş planlaması üzerinden ayrılan kapasiteyi, kaynakta geçerli olarak ayrılan toplam saat sayısını ve kaynak iş planlaması için kalan saat sayısını görüntüler.  
 6. Sayfayı kapatın.
 7. Sayfayı kapatın.
-
 

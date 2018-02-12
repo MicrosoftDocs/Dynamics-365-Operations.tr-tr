@@ -137,7 +137,7 @@ Aşağıdaki senaryolarda, bir iş kullanıcısı kimliği için **Bir döngü s
 
 Sayılan değerdeki farkları düzeltebilir ve ardından sayılan değeri **Gözden geçirilmeyi bekleyen döngü sayımı** sayfasında kabul edebilirsiniz. Madde miktarının değiştirilen sayısını **Konuma göre eldeki** sayfasında doğrulayabilirsiniz. Fark onaylanamıyorsa, sayılan değer reddedilir.
 
-# <a name="see-also"></a>Ayrıca bkz.
+## <a name="see-also"></a>Ayrıca bkz.
 [Ambar işi için mobil cihazları yapılandırma](configure-mobile-devices-warehouse.md)
 
 

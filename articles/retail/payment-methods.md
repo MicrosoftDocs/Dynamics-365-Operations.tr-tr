@@ -1,7 +1,7 @@
 ---
 title: "Ödeme yöntemleri"
 description: "Perakendecinin kabul edeceği ödeme türlerinin her biri, sistem ayarlandığında mutlaka yapılandırılmalıdır. Bu makale, ayarlayabileceğiniz ödeme türlerini ve bunları ayarlamak için gerekli işlemi açıklamaktadır."
-author: MargoC
+author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

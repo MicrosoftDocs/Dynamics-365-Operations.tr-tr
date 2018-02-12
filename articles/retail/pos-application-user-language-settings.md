@@ -34,9 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 Bu konu, Retail Modern POS (MPOS) ve Bulut POS'daki dil ayarlarının nasıl değiştirileceğini açıklar.
 
-<a name="overview"></a>Özet
-========
-
+## <a name="overview"></a>Özet
 Retail Modern POS (MPOS) ve Bulut POS dil ayarları ve çevirilerin mağaza ve kullanıcı ayarları arasında farklılık gösterebildiği ortamları destekler. Örneğin, mağaza müşterileri için yaygın olarak İngilizce kullanılan bir bölgede bulunabilir ancak bazı çalışanlar uygulamayı Fransızca çevirileri ile kullanmayı tercih edebilir.
 
 ## <a name="data-language"></a>Veri dili

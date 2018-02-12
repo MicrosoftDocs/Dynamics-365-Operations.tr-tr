@@ -69,4 +69,3 @@ Bu yordam, çalışanın kullanıcı hesabına doğru rollerin nasıl atanacağ�
 6. Üretim birimi alanında çalışanın varsayılan filtresini ayarlayabilirsiniz. Bu, çalışan bu cihazda oturum açtığında yalnızca seçili üretim biriminin üretim işlerinin gösterilmesini sağlar.
 7. Sayfayı kapatın.
 
-

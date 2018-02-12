@@ -1,4 +1,4 @@
---- 
+---
 title: "Üretim emrinin bittiğini rapor etme"
 description: "Bu yordam, bir üretim emrinin nasıl tamamlanmış olarak bildirileceğini gösterir."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -50,5 +50,4 @@ Bu yordam, bir üretim emrinin nasıl tamamlanmış olarak bildirileceğini gös
 3. Listede, seçili satırı işaretleyin.
 4. Listede, seçili satırdaki bağlantıya tıklayın.
     * Tamamlandı bildirimi günlüğü deftere nakledilir. Günlükte ayarlamalar yapmak istiyorsanız, üzerinde değişiklik yapabileceğiniz yeni bir günlüğü el ile oluşturabilirsiniz.  
-
 
