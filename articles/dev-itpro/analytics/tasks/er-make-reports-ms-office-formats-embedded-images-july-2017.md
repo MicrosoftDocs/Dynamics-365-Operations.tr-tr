@@ -1,9 +1,9 @@
 --- 
-title: "Elektronik raporlama (ER) için katıştırılmış resimlere sahip Microsoft Office biçimlerinde rapor yapma (Bölüm 1)"
-description: "Aşağıdaki adımlar 'Sistem yöneticisi' veya 'Elektronik raporlama geliştiricisi' rolündeki bir kullanıcının, MS office biçimlerinde (Excel ve Word) katıştırılmış resimler içeren elektronik belgeler oluşturmak için Elektronik raporlama (ER) yapılandırmalarını nasıl tasarlayabileceklerini açıklar."
+title: "Elektronik raporlama için katıştırılmış resimlere sahip Microsoft Office biçimlerinde rapor oluşturmak üzere yapılandırmalar tasarlama (ER) (Bölüm 1)"
+description: "Bu konudaki adımlar, Microsoft Office biçimlerinde (Excel ve Word) katıştırılmış resimler içeren elektronik belgelerin Elektronik raporlama (ER) yapılandırmalarının nasıl tasarlanacağını hakkında bilgi verir."
 author: NickSelin
 manager: AnnBe
-ms.date: 06/13/2017
+ms.date: 01/23/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,108 +16,79 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: f610fe4b7f265c4fc38db89938d5c208b4f7661a
+ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
+ms.openlocfilehash: 844d8de1d5a1958457eaab1d434bef015f92e33c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 01/23/2018
 
 ---
-# <a name="make-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er--part-1"></a>Elektronik raporlama (ER) için katıştırılmış resimlere sahip Microsoft Office biçimlerinde rapor yapma (Bölüm 1) 
+# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er-part-1"></a>Elektronik raporlama için katıştırılmış resimlere sahip Microsoft Office biçimlerinde rapor oluşturmak üzere yapılandırmalar tasarlama (ER) (Bölüm 1) 
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Aşağıdaki adımlar 'Sistem yöneticisi' veya 'Elektronik raporlama geliştiricisi' rolündeki bir kullanıcının, MS office biçimlerinde (Excel ve Word) katıştırılmış resimler içeren elektronik belgeler oluşturmak için Elektronik raporlama (ER) yapılandırmalarını nasıl tasarlayabileceklerini açıklar.
+Bu yordamdaki adımları tamamlamak için öncelikle "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamını tamamlayın. Bu yordam, katıştırılmış resimler içeren Microsoft Excel veya Word belgeleri oluşturmak üzere Elektronik raporlama (ER) yapılandırmalarının nasıl tasarlanacağını gösterir. Bu yordamda, Litware, Inc. adlı örnek şirket için gerekli ER yapılandırmalarını oluşturacaksınız. Bu adımlar USMF veri kümesi kullanılarak tamamlanabilir. Bu yordam, sistem yöneticisi veya elektronik raporlama geliştiricisi rolüne atanmış kullanıcılar için oluşturulmuştur. Başlamadan önce [Elektronik raporlama aracı kullanılarak oluşturulan iş belgelerine görüntü ve şekil katıştırma](../electronic-reporting-embed-images-shapes.md) Yardım konusunda listelenen dosyaları indirin ve kaydedin. Bu dosyalar şunlardır: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png, and Cheque template Word.docx.
 
-Bu örnekte, 'Litware, Inc.' örnek şirketi için oluşturulmuş ER yapılandırmalarını kullanacaksınız.  Bu adımları tamamlamak için öncelikle "ER Katıştırılmış resimler barındıran MS Office biçimlerinde raporlar hazırla (Bölüm 2: Yapılandırmaları gözden geçir)" görev kılavuzundaki adımları tamamlayın. Bu adımlar 'USMF' şirketinde gerçekleştirilebilir.
+## <a name="verify-prerequisites"></a>Ön koşulları doğrulama  
+ 1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.  
+ 2. Örnek şirket ‘Litware, Inc.’ için yapılandırma sağlayıcısının kullanılabilir olduğunu ve etkin olarak işaretlemiş olduğundan emin olun. Bu yapılandırma sağlayıcısını göremiyorsanız "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlayın.   
+ 3. Raporlama konfigürasyonları'na tıklayın.  
+ 
+## <a name="add-a-new-er-model-configuration"></a>Yeni bir ER model yapılandırması ekleme  
+ 1. Yeni bir model oluşturmak yerine, daha önce kaydetmiş olduğunuz ER modeli yapılandırma dosyasını (Model for cheques.xml) yükleyebilirsiniz. Bu dosya ödeme çekleri için örnek veri modelini ve veri modelinin Dynamics 365 for Operations uygulamasındaki veri bileşenleriyle eşleşmesini içerir.   
+ 2. Sürümler hızlı sekmesinde, Değiştir'e tıklayın.   
+ 3. XML dosyasından yükle'ye tıklayın.  
+ 4. Gözat'a tıklayın ve sonra Model for cheques.xml dosyasını seçin.   
+ 5. Tamam'a tıklayın.  
+ 6. Yüklenen model resimler içeren Excel ve Word biçiminde belgeler oluşturmak için veri kaynağı olarak kullanılır.  
 
+## <a name="add-a-new-er-format-configuration"></a>Yeni bir ER biçim yapılandırması ekleme  
+ 1. Yeni bir biçim oluşturmak yerine, daha önce kaydetmiş olduğunuz ER biçimi yapılandırma dosyasını (Cheques printing format.xml) yükleyebilirsiniz. Bu dosya, önceden yazdırılan formu ve bu biçimin 'Çekler için model' veri modelindeki eşlemesini kullanan çekleri yazdırmaya yönelik biçim için örnek düzeni içerir.   
+ 2. Değiştir seçeneğine tıklayın.  
+ 3. XML dosyasından yükle'ye tıklayın.  
+ 4. Gözat'a tıklayın ve Çek yazdırma biçimi.xml dosyasını seçin.   
+ 5. Tamam'a tıklayın.  
+ 6. Ağaçta, 'Çekler için model' öğesini genişletin.  
+ 7. Ağaçta 'Çekler için model\Çek yazdırma biçimi' seçin.  
+ 8. Yüklenen biçim resimler içeren Excel ve Word biçiminde belgeler oluşturmak için kullanılır.   
 
-## <a name="run-format-with-initial-model-mapping"></a>Biçimi ilk model eşleme ile çalıştırın
-1. Nakit ve banka yönetimi > Banka hesapları > Banka hesapları öğesine gidin.
-2. Banka hesabı alanında "USMF OPER" değeriyle filtre uygulamak için Hızlı Filtre'yi kullanın.
-3. Eylem Bölmesinde Kurulum'a tıklayın.
-4. Denetle'yi tıklatın.
-5. Testi yazdır'a tıklayın.
-    * Test amacıyla biçimi çalıştırın.  
-6. Ciro edilebilir çek biçimi alanında Evet'i işaretleyin.
-7. Tamam'a tıklayın.
-    * Oluşturulan sonucu inceleyin. Şirket logosunun hem raporda hem de kişinin imzasında görüleceğini unutmayın. İmza resmi seçilen banka hesabıyla ilişkilendirilmiş 'Konteyner' veri türünün çek düzeni alanından alınır.  
-8. Kopyalar bölümünü genişletin.
-9. Düzenle öğesine tıklayın.
-10. Filigran alanında 'Filigranı Geçersiz olarak yazdır' girin.
-    * Bir Excel şekli öğesinde belge oluştururken filigranı göstermek için filigran biçim ayarını değiştirin.  
-11. Testi yazdır'a tıklayın.
-12. Tamam'a tıklayın.
-    * Oluşturulan sonucu inceleyin. Filigranın oluşturulan raporda seçin seçeneğine uygun olarak gösterileceğini unutmayın.  
-13. Sayfayı kapatın.
-14. Eylem Bölmesinde, Ödemeleri yönet'e tıklayın.
-15. Çekler'i tıklatın.
-16. Filtreleri göster'e tıklayın.
-17. Aşağıdaki filtreleri uygulayın: "Çek numarası" alanında "şunlardan biri" filtre işlecini kullanarak "381", "385", "389" filtre değerini girin.
-18. Listede, tüm satırları işaretleyin.
-19. Çek kopyasını yazdır'ı tıklatın.
-    * Seçilen çekleri yeniden yazdırmak için biçimi çalıştırın.  
-    * Oluşturulan sonucu inceleyin. Seçilen çeklerin yeniden yazdırıldığını unutmayın. Şirket logosu ve etiketleri yazdırılmaz çünkü önceden yazdırılmış formda mevcutturlar.  
+## <a name="configure-er-user-parameters"></a>ER kullanıcı parametrelerini yapılandırma  
+ 1. Eylem Bölmesi'nde, Yapılandırmalar'a tıklayın.  
+ 2. Kullanıcı parametreleri'ne tıklayın.  
+ 3. Çalıştırma ayarları alanında Evet'i seçin.  
+  Seçilen biçimin tamamlanmış sürümü yerine taslak sürümünü başlatmak için 'Taslak çalıştır' bayrağını etkinleştirin.  
+ 4. Tamam'a tıklayın.  
 
-## <a name="modify-the-mapping-of-the-imported-data-model"></a>İçe aktarılan veri modelinin eşlemesini değiştirin
-1. Sayfayı kapatın.
-2. Sayfayı kapatın.
-3. Kuruluş yönetimi > Elektronik raporlama > Yapılandırmalar seçeneğine git.
-4. Ağaçta, 'Çekler için model' öğesini seçin.
-5. Tasarımcı'yı tıklatın.
-6. Modeli veri kaynağına eşle'yi tıklayın.
-7. Tasarımcı'yı tıklatın.
-    * Seçilen banka hesabıyla ilişkilendirilmiş çek biçim kaydına eklenmiş olan dosyadan imza resmi almak için veri modelinin imza öğesini değiştireceğiz.  
-8. Ayrıntıları göster'i kapatın.
-9. Ağaçta, 'düzen' metnini genişletin.
-10. Ağaçta, 'düzen\imza' öğesini genişletin.
-11. Ağaçta 'düzen\imza\resim = chequesaccount.'<Relations'.BankChequeLayout.Signature1Bmp' seçeneğini belirleyin.
-12. Ağaçta, 'chequesaccount' öğesini genişletin veya daraltın.
-13. Ağaç altından 'chequesaccount\<İlişkiler' seçeneğini genişletin.
-14. Ağaçta 'chequesaccount\<İlişkiler\BankChequeLayout' seçeneğini genişletin.
-15. Ağaçta 'chequesaccount\<İlişkiler\BankChequeLayout\<İlişkiler' seçeneğini genişletin.
-16. Ağaçta 'chequesaccount\<İlişkiler\BankChequeLayout\<İlişkiler\<Belgeler' seçeneğini genişletin.
-17. Ağaçta 'chequesaccount\<İlişkiler\BankChequeLayout\<İlişkiler\Belgeler\<getFileContentAsContainer()' seçeneğini belirleyin.
-18. Bağla'ya tıklayın.
-19. Kaydet'e tıklayın.
-20. Sayfayı kapatın.
-21. Sayfayı kapatın.
-22. Sayfayı kapatın.
-23. Sayfayı kapatın.
-
-## <a name="run-format-using-the-adjusted-model-mapping"></a>Ayarlanan model eşlemesini kullanarak biçimi çalıştırın
-1. Nakit ve banka yönetimi > Banka hesapları > Banka hesapları öğesine gidin.
-2. Kayıtları bulmak için Hızlı Filtre'yi kullanın. Örneğin, Banka hesabı alanında 'USMF OPER' değerini girerek filtreleme yapın.
-3. Eylem Bölmesinde Kurulum'a tıklayın.
-4. Denetle'yi tıklatın.
-5. Testi yazdır'a tıklayın.
-6. Tamam'a tıklayın.
-    * Oluşturulan sonucu inceleyin. Belge yönetim ekinin, yetkili bir kişinin imzası olarak gösterileceğini unutmayın.  
-
-## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a>MS Word belgesini içe aktarılan biçimde bir şablon olarak kullanın
-1. Sayfayı kapatın.
-2. Sayfayı kapatın.
-3. Kuruluş yönetimi > Elektronik raporlama > Yapılandırmalar seçeneğine git.
-4. Ağaçta, 'Çekler için model' öğesini genişletin.
-5. Ağaçta 'Çekler için model\Çek yazdırma biçimi' seçin.
-6. Tasarımcı'yı tıklatın.
-7. Ekler'e tıklayın.
-8. Sil'i tıklatın.
-9. Evet'i tıklatın.
-10. Yeni'ye tıklayın.
-11. Dosya'ya tıklayın.
-    * Gözat'ı tıklatın ve önceden indirilen 'Çek şablonu Word.docx' dosyasını seçin.  
-12. Sayfayı kapatın.
-13. Şablon alanına bir değer girin veya seçin.
-14. Kaydet'e tıklayın.
-15. Sayfayı kapatın.
-16. Düzenle öğesine tıklayın.
-17. Taslak Çalıştır alanında Evet'e tıklayın.
-18. Sayfayı kapatın.
-19. Nakit ve banka yönetimi > Banka hesapları > Banka hesapları öğesine gidin.
-20. Banka hesabı alanında "USMF OPER" değeriyle filtre uygulamak için Hızlı Filtre'yi kullanın.
-21. Denetle'yi tıklatın.
-22. Testi yazdır'a tıklayın.
-23. Tamam'a tıklayın.
-    * Oluşturulan sonucu inceleyin. Çıktının şirket logosunu, yetkili kişinin imzasını ve filigranın seçilen metnini gösteren bir MS Word belgesi olarak oluşturulduğunu unutmayın.  
-
+## <a name="configure-cash--bank-management-parameters"></a>Nakit ve banka yönetimi parametrelerini yapılandırma  
+ 1. Nakit ve banka yönetimi > Banka hesapları > Banka hesapları öğesine gidin.  
+ 2. Banka hesabı alanında "USMF OPER" değeriyle filtre uygulamak için Hızlı Filtre'yi kullanın.  
+ 3. Eylem Bölmesinde Kurulum'a tıklayın.  
+ 4. Denetle'yi tıklatın.  
+ 5. Kurulum bölümünü genişletin.  
+ 6. Düzenle öğesine tıklayın.  
+ 7. Şirket logosu alanından Evet'i seçin.  
+ 8. Şirket logosuna tıklayın.  
+ 9. Değiştir seçeneğine tıklayın.  
+ 10. Gözat'a tıklayın ve daha önce indirdiğiniz Şirket logosu.png dosyasını seçin.   
+ 11. Kaydet'e tıklayın.  
+ 12. Sayfayı kapatın.  
+ 13. İmza bölümünü genişletin.  
+ 14. İlk imzayı yazdır alanında Evet'i seçin.  
+ 15. Değiştir seçeneğine tıklayın.  
+ 16. Gözat'a tıklayın ve daha önce indirdiğiniz İmza görüntüsü.png dosyasını seçin.   
+ 17. Kopyalar bölümünü genişletin.  
+ 18. Filigran alanında, bir seçenek seçin.  
+ 19. Genel elektronik Dışa aktarma biçimi alanında Evet'i seçin.  
+ 20. 'Çek yazdırma formu' yapılandırmasını seçin.  
+ 21. Seçilen ER biçimi artık çekleri yazdırmak için kullanılır.  
+ 22. İliştir'e tıklayın.  
+ 23. Yeni'ye tıklayın.  
+ 24. Dosya'ya tıklayın.  
+ 25. Gözat'a tıklayın ve daha önce indirdiğiniz İmza görüntüsü 2.png dosyasını seçin.   
+ 26. Sayfayı kapatın.  
+ 27. Sayfayı kapatın.  
+ 28. Sayfayı kapatın.  
+ 29. Nakit ve Banka yönetimi > Kurulum > Nakit ve Banka yönetim parametreleri.  
+ 30. Etkin olmayan banka hesaplarında açık provizyon oluşturmaya izin ver: alanında Evet'i seçin.  
+ 31. Kaydet'e tıklayın.  
+ 32. Sayfayı kapatın.  
 

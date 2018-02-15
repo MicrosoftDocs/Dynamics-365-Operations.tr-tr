@@ -3,11 +3,12 @@ title: "Diğer modüllerle bütçe planlama tümleştirmesi"
 description: "Bütçe planları aşağıdaki çeşitli farklı kaynaklardan oluşturulabilir. Periyodik işlemin temel unsurları tüm kaynaklar için aynıdır."
 author: twheeloc
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanGenerate
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7663453ddf87bcb43d2f19ebec3c9bda90eda884
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: f50e58d63a9db4d6a8b5390174e2c7b87970717d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -51,7 +52,7 @@ Periyodik işlemin temel unsurları tüm işlemlerde aynıdır. Sekmeler, size v
 
 Her oluşturma işlemi için üç eylem uygulanabilir:
 
--   **Yeni bir bütçe planı oluşturmak**, **Hedef bölümünde **seçilen özniteliklere sahip yeni bir plan oluşturur. Bu özniteliklerin benzersiz olması gerekmez. Bu nedenle, iki planın adları ve diğer değerleri aynı olabilir.
+-   **Yeni bir bütçe planı oluşturmak** **Hedef** bölümünde seçilen özniteliklere sahip yeni bir plan oluşturur. Bu özniteliklerin benzersiz olması gerekmez. Bu nedenle, iki planın adları ve diğer değerleri aynı olabilir.
 -   **Var olan bütçe planı senaryosunu değiştirmek** seçilen bütçe planı senaryosunda hedef bütçe planındaki tüm verileri siler ve seçilen kaynak verilerini kullanan yeni satırlar oluşturur.
 -   **Var olan bütçe planı senaryosunu güncelleştirmek ve yeni veriler eklemek** hedef planda kaynak satırlarla eşleşen mevcut satırları günceller ve yeni veriler için yeni satırlar ekler. Eşleşme, genel muhasebe hesabına, tarihe, bütçe sınıfına ve diğer muhtelif alanlara dayanır. Örneğin, tahmin konumlarından bütçe planlarını oluştururken, konum numarası önemli bir alandır. Kaynak konum numarasıyla eşleşen bir konum numarası olan tüm satırlar, kaynaktan yeni satırlar ile değiştirilir.
 
@@ -65,7 +66,7 @@ Tüm işlemler için **Kaynak** sekmesi veriyi **Filtrele** düğmesini kullanar
 
 Sayfanın üstündeki **Toplama göre toplam** alanı da kullanılan tarihi belirler. Bu alan tutarları toplar ve yürürlük tarihini isteğe bağlı olarak mali yılın veya mali dönemin ilk gününe ayarlar. 
 
-**Hedef** öğesindeki alanların çoğu seçtiğiniz eyleme bağlı olarak düzenlenebilir veya salt okunur olabilir. Yeni bir bütçe planı oluşturmaktan mevcut bir planı güncellemeye geçtiğinizde, **Bütçe planı adı** kullanılamaz olur ve mevcut bir planı seçmekle ilgili alanlar kullanılabilir hale gelir. Hem **Hedef** sekmesinde hem de **Kaynak *sekmesinde, **Genel muhasebe** alanı her zaman kullanılamaz, çünkü değer seçili bütçe planlama süreci ile belirlenir. 
+**Hedef** öğesindeki alanların çoğu seçtiğiniz eyleme bağlı olarak düzenlenebilir veya salt okunur olabilir. Yeni bir bütçe planı oluşturmaktan mevcut bir planı güncellemeye geçtiğinizde, **Bütçe planı adı** kullanılamaz olur ve mevcut bir planı seçmekle ilgili alanlar kullanılabilir hale gelir. Hem **Hedef** sekmesinde hem de **Kaynak** sekmesinde, **Genel muhasebe** alanı her zaman kullanılamaz, çünkü değer seçili bütçe planlama süreci ile belirlenir. 
 
 **Bütçe sınıfı** alanı size bütçe planı satırlarını masraf hareketleri veya gelir hareketleri olarak ayarlama olanağı sağlar. Genellikle gelir hareketleri bir genel muhasebe hesabına geçirilir ve bu nedenle negatif tutarlar olarak saklanır. Genellikle, bu hareketler bütçe planında da negatif tutarlar olarak görünür. Ancak, bütçe sınıfını plan düzeninde bir alan olarak ekleyerek, gelirin pozitif tutarlar olarak görünmesini sağlayabilirsiniz.
 

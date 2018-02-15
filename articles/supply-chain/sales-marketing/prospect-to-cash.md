@@ -3,12 +3,12 @@ title: "Müşteri adayından nakde"
 description: "Bu konuda, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ile Microsoft Dynamics 365 for Sales arasındaki Müşteri adayından nakde çözümüne genel bakış sunulmaktadır."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 12/20/2017
+ms.date: 02/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: 
+ms.search.form: CustTable, SalesTable, EcoResProductListPage
 audience: Application User, IT Pro
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -17,13 +17,13 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: 
 ms.author: crytt
-ms.dyn365.ops.intro: July 2017 update
+ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: f169b0ee20a7ca0c8d05c8bdcf2c04d411722f01
-ms.openlocfilehash: ff166f89d13acbc3aefcbdb39f485881c81cb42c
+ms.sourcegitcommit: 602873e8af976c57f27ce53b76391516351755e3
+ms.openlocfilehash: 29d33d3ecf97c15fed0247d172ff6fb3bbdaa018
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -31,17 +31,21 @@ ms.lasthandoff: 12/21/2017
 
 [!include[banner](../includes/banner.md)]
 
-Müşteri adayından nakde çözümü, Dynamics 365 for Finance and Operations, Enterprise edition ile Dynamics 365 for Sales arasında doğrudan eşitleme yapılmasını sağlar. Veri Tümleştirme özelliğiyle birlikte kullanılan Müşteri adayından nakde şablonları Finance and Operations ile Sales arasında hesaplar, ürünler, satışlar, satış teklifleri, satış siparişleri ve satış faturaları için veri akışı sağlar. Finance and Operations ile Sales arasında veri akışı sağlanırken, Sales'de satış ve pazarlama faaliyetlerini gerçekleştirebilir ve Finance and Operations'da stok yönetimini kullanarak sipariş karşılamaları işleyebilirsiniz.
+Müşteri adayından nakde çözümü, Dynamics 365 for Finance and Operations, Enterprise edition ile Dynamics 365 for Sales arasında doğrudan eşitleme yapılmasını sağlar. Veri Tümleştirme özelliğiyle birlikte kullanılan Müşteri adayından nakde şablonları Finance and Operations ile Sales arasında hesaplar, ürünler, satışlar, satış teklifleri, satış siparişleri ve satış faturaları için veri akışı sağlar. Finance and Operations ile Sales arasında veri akışı sağlanırken, Sales'de satış ve pazarlama faaliyetlerini gerçekleştirebilir ve Finance and Operations'da stok yönetimini kullanarak sipariş karşılamaları işleyebilirsiniz. 
+
+Müşteri adayından nakde tümleştirmesi hakkında daha fazla bilgi için kısa YouTube videosunu izleyin:
+
+> [!Video https://www.youtube.com/embed/AVV9x5x-XCg]
 
 Geçerli sürümde, Müşteri adayından nakde çözümü aşağıdaki türlerde doğrudan eşitleme sağlar:
 
 - [Hesapları Sales içinde koruma ve onları doğrudan Sales'den Finance and Operations'a eşitleme](accounts-template-mapping-direct.md)
 - [Finance and Operations'taki ürünleri koruma ve onları doğrudan Sales ile eşitleme](products-template-mapping-direct.md)
 - [Sales'deki ilgili kişileri koruma ve onları doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme](contacts-template-mapping-direct.md)
-- [Sales'deki satış teklifini doğrudan Finance and Operations'la eşitleme](sales-quotation-template-mapping-sales-fin.md)
+- [Sales'deki satış tekliflerini doğrudan Finance and Operations'la eşitleme (şablon sürümü beklemede)](sales-quotation-template-mapping-sales-fin.md)
 - [Finance and Operations'taki satış siparişlerini doğrudan Sales'le eşitleme](sales-order-template-mapping-direct.md)
-- [Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme](sales-order-template-mapping-direct-two-ways.md)
-- [Satış faturasını doğrudan Finance and Operations'tan Sales'e eşitleme](sales-invoice-template-mapping-direct.md)
+- [Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme (şablon sürümü beklemede)](sales-order-template-mapping-direct-two-ways.md)
+- [Finance and Operations'taki satış faturasını doğrudan Sales'le eşitleme](sales-invoice-template-mapping-direct.md)
 
 Önceki sürümlerde, Müşteri adayından nakde çözümü doğrudan yapılamayan aşağıdaki eşitleme türlerini sağlıyordu:
 
@@ -50,15 +54,19 @@ Geçerli sürümde, Müşteri adayından nakde çözümü aşağıdaki türlerde
 - [Finance and Operations'taki ürünleri koruma ve onları Sales ile eşitleme](products-template-mapping.md)
 - [Sales'de satış teklifleri oluşturma ve onları Finance and Operations'la eşitleme](sales-quotation-template-mapping.md)
 - [Finance and Operations'ta satış siparişleri oluşturma ve onları doğrudan Sales ile eşitleme](sales-order-template-mapping.md)
-- [Finance and Operations içinde satış faturaları oluşturun ve onları Sales ile eşitleyin](sales-invoice-template-mapping.md)
+- [Finance and Operations'ta satış faturaları oluşturma ve onları doğrudan Sales ile eşitleme](sales-invoice-template-mapping.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Finance and Operations için sistem gereksinimleri
 
-Müşteri adayından nakde çözümünü kullanmak için aşağıdaki bileşenleri yüklemeniz gerekir:
+Müşteri adayından nakde tümleştirmesi aşağıdaki sürümlerde desteklenir:
+
+### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (Aralık 2017)
+
+- Dynamics 365 for Finance and Operations, Enterprise edition (Aralık 2017) - Uygulama derlemesi 7.3.11971.56116 Platform Güncelleştirmesi 12 ile birlikte (7.0.4709.41129)
 
 ### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017), platform güncelleştirmesi 8 ile birlikte (uygulama derlemesi 7.2.11792.56024, platform derlemesi 7.0.4565.16212 ile birlikte)
+- Dynamics 365 for Finance and Operations, Enterprise edition (Temmuz 2017) - platform güncelleştirmesi 8 ile birlikte (uygulama derlemesi 7.2.11792.56024, platform derlemesi 7.0.4565.16212 ile birlikte).
 - Aşağıdaki düzeltmeler gereklidir:
 
     - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** - Bu düzeltme Veri Tümleştirme özelliğiyle Sales'den Finance and Operations'a satış siparişi eşitlemesine olanak tanır. Başka geliştirmeler de içerir.
@@ -68,7 +76,7 @@ Müşteri adayından nakde çözümünü kullanmak için aşağıdaki bileşenle
     > [!NOTE]
     > Yalnızca KB4045570 düzeltmesini yüklemeniz yeterlidir çünkü yükleme diğer düzeltmelerdeki değişiklikleri içerir. 
 
-### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations sürüm 1611 (Kasım 2016) 
+### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations sürüm 1611 (Kasım 2016)
 
 - Dynamics 365 for Finance and Operations sürüm 1611 (Kasım 2016), platform güncelleştirmesi 8 veya üstü ile birlikte
 
@@ -106,4 +114,6 @@ Müşteri adayından nakde çözümünü kullanmak için aşağıdaki bileşenle
     2. **Gelişmişi göster**'i seçin.
     3. Hızlı yükleme için bir bölge seçin. **Bilmiyorum**'u seçerseniz, sistem tüm bölgeleri arayacaktır ve yükleme daha uzun sürecektir.
     4. Yükleme haklarına sahip bir yönetici kullanıcı için kullanıcı adı ve parola girin.
+
+
 

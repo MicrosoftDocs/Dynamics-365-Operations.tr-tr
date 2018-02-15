@@ -1,7 +1,7 @@
 ---
 title: "Satın almadan önce"
 description: "Dynamics 365 for Finance and Operations, Enterprise edition satın almayı düşündüğünüzde adım adım yönergeler."
-author: margoc
+author: kfend
 manager: AnnBe
 ms.date: 07/10/2017
 ms.topic: article
@@ -13,14 +13,14 @@ ms.reviewer: margoc
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: margoc
+ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c4bd67b15e893613bed14d2bdc1d9a07da81dc26
+ms.sourcegitcommit: 98740e5b992283b924adab34f291b9c1f2703457
+ms.openlocfilehash: d6c4e475925cdc94be614822ffb242eb7ac8cfa7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/31/2018
 
 ---
 
@@ -35,7 +35,17 @@ Dynamics 365 for Finance and Operations'ı e-posta ile basitçe kaydolarak 30 g�
 
 ## <a name="step-two-choose-a-deployment-option"></a>Adım iki: Bir dağıtım seçeneği belirleme
 Şimdi bir Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünü bulutta veya şirket içinde dağıtabilirsiniz. Bulut dağıtımları, tümüyle Microsoft tarafından yönetilen bir ERP hizmeti sunarken, şirket içi dağıtımlar, müşterinin veri merkezinde yerel olarak dağıtılır.
-Daha fazla bilgi için bkz: [Dağıtım seçenekleri](../../dev-itpro/deployment/choose-deployment-type.md) 
+
+Dağıtım seçeneği olarak şirket içini seçtiğinizde aşağıdaki önemli noktaların dikkate alınması gerekir:
+- [Bulut sertifikalarında](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities) mevcut olmayan düzenleme ve uyumluluk gereklilikleri
+- Uygulama yaşam döngüsü yönetimi için Microsoft Dynamics Lifecycle Services'a (LCS) erişmek üzere gerekli olan kesintili internet bağlantısı nedeniyle bağlantısı kesilen iş süreci
+- [Şirket içi dağıtımlarda şu anda uygulanmayan özellikler](features-not-implemented-on-prem.md)
+- [Altyapı minimum gereksinimleri](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+
+> [!IMPORTANT]
+> Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'ın şirket içi dağıtımları Azure dahil olmak üzere genel bulut alt yapısında desteklenmemektedir. 
+
+Daha fazla bilgi için bkz. [Dağıtım seçenekleri](../../dev-itpro/deployment/choose-deployment-type.md).
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>Adım üç: Bir abonelik satın alın ve yönetin
 Abonelik seçeneklerini keşfetmek için [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/pricing) fiyatlandırma sayfasına gidin. Bu sayfa, kuruluşunuzun ihtiyaçlarına uymak için çeşitli farklı planları içerir.

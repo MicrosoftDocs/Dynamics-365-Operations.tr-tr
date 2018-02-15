@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 211442c7bd0d3079a5eb4f6d01944c0eddf533af
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: cbe0374ff21ff39ed2bbc8d647bd933ced9dcff6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -52,7 +52,7 @@ Referans oluşturduktan sonra her klasör veya dosya için bir dosya hedefi olu�
 
 [![Bir dosya hedefi oluşturma](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-**Not:** Klasör veya dosya gibi **Dosya Adı** alanında seçilen aynı biçimdeki her bir çıkış bileşeni için bir dosya hedefi oluşturabilirsiniz. Sonra dosya için tekil hedefleri **Hedef ayarları** iletişim kutusunda etkinleştirebilir ve devre dışı bırakabilirsiniz. **Ayarlar** düğmesi seçili dosya hedefi için tüm hedefleri denetlemek amacıyla kullanılır. **Hedef ayarları** iletişim kutusunda **Etkin** seçeneğini ayarlayarak her hedefi ayrı olarak denetleyebilirsiniz.
+> ![NOT] Klasör veya dosya gibi **Dosya Adı** alanında seçilen aynı biçimdeki her bir çıkış bileşeni için bir dosya hedefi oluşturabilirsiniz. Sonra dosya için tekil hedefleri **Hedef ayarları** iletişim kutusunda etkinleştirebilir ve devre dışı bırakabilirsiniz. **Ayarlar** düğmesi seçili dosya hedefi için tüm hedefleri denetlemek amacıyla kullanılır. **Hedef ayarları** iletişim kutusunda **Etkin** seçeneğini ayarlayarak her hedefi ayrı olarak denetleyebilirsiniz.
 
 [![Hedef ayarları iletişim kutusu](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
 
@@ -71,7 +71,7 @@ E-posta ile bir çıkış dosyası göndermek için **Etkin** değerini **Evet**
 
 #### <a name="print-management"></a>Yazdırma yönetimi
 
-**Yazdırma Yönetimi e-postası** türünü seçerseniz, **Giden** alanına sabit bir e-posta adresi girebilirsiniz. Sabit olmayan e-posta adreslerini kullanmak amacıyla bir dosya hedefi için e-posta kaynak türünü seçmelisiniz. Aşağıdaki değerler desteklenir: **Müşteri**, **Satıcı**, **Müşteri Adayı**, **İlgili kişi**, **Rakip**, **Çalışan**, **Başvuran**, **Satıcı adayı** ve **Onaylanmamış satıcı**. Bir e-posta kaynak türü seçtikten sonra **Formül tasarımcısı ** formunu açmak için **E-posta kaynak hesabı** alanının yanındaki düğmeyi kullanın. Bu formu kullanarak seçilen tarafın hesabını temsil eden bir formülü, e-posta hedefine ekleyebilirsiniz.
+**Yazdırma Yönetimi e-postası** türünü seçerseniz, **Giden** alanına sabit bir e-posta adresi girebilirsiniz. Sabit olmayan e-posta adreslerini kullanmak amacıyla bir dosya hedefi için e-posta kaynak türünü seçmelisiniz. Aşağıdaki değerler desteklenir: **Müşteri**, **Satıcı**, **Müşteri Adayı**, **İlgili kişi**, **Rakip**, **Çalışan**, **Başvuran**, **Satıcı adayı** ve **Onaylanmamış satıcı**. Bir e-posta kaynak türü seçtikten sonra **Formül tasarımcısı** formunu açmak için **E-posta kaynak hesabı** alanının yanındaki düğmeyi kullanın. Bu formu kullanarak seçilen tarafın hesabını temsil eden bir formülü, e-posta hedefine ekleyebilirsiniz.
 
 [![Yazdırma yönetimi e-posta türünü yapılandırma](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg) 
 
@@ -131,7 +131,7 @@ ER hedefleri için iki tür ayrıcalık ve görev kullanılır. Bir tüzel kişi
 | PaymAccountsPayablePaymentsClerk    | Borç hesapları ödeme memuru            | ERFormatDestinationRuntimeConfigure | Çalışma zamanında kullanılacak elektronik raporlama biçimi hedefini yapılandır |
 | PaymAccountsReceivablePaymentsClerk | Alacak hesapları ödeme memuru         | ERFormatDestinationRuntimeConfigure | Çalışma zamanında kullanılacak elektronik raporlama biçimi hedefini yapılandır |
 
-**Not:** Önceki görevlerde iki ayrıcalık kullanılır. Bu ayrıcalıklar ilgili görevlerle aynı adlara sahiptir: **ERFormatDestinationConfigure** ve **ERFormatDestinationRuntimeConfigure**.
+> ![NOT] Önceki görevlerde iki ayrıcalık kullanılır. Bu ayrıcalıklar ilgili görevlerle aynı adlara sahiptir: **ERFormatDestinationConfigure** ve **ERFormatDestinationRuntimeConfigure**.
 
 ## <a name="frequently-asked-questions"></a>Sıkça sorulan sorular
 ### <a name="i-have-imported-electronic-configurations-and-i-see-them-on-the-electronic-reporting-configurations-page-but-why-dont-i-see-them-on-the-electronic-reporting-destinations-page"></a>Elektronik yapılandırmaları içe aktardım ve bunları Elektronik raporlama yapılandırmaları sayfasında görüyorum. Ancak bunları neden Elektronik raporlama hedefleri sayfasında görmüyorum?
@@ -154,7 +154,7 @@ Formül ER yapılandırmasına özgüdür. Örneğin, ISO 20022 Borç Transferi 
 
 Biçiminizin ER yapılandırmalarında kullanılması ön koşuldur. Kendi biçiminiz varsa **Elektronik raporlama hedefi** sayfasını açın ve bu yapılandırma için yeni bir referans oluşturun. Sonra her bir çıkış bileşeni için bir adet olmak üzere dört dosya hedefinizin olması gerekir. İlk dosya hedefini oluşturun, buna **Klasör** gibi bir ad verin ve yapılandırmanızda klasörü gösteren bir dosya adı seçin. Sonra **Ayarlar**'a tıklayın ve tüm hedeflerin devre dışı bırakıldığından emin olun. Bu dosya hedefi için klasör oluşturulmayacaktır. Varsayılan olarak, dosyalar ve ana klasörler arasındaki hiyerarşik bağımlılıklar nedeniyle dosyalar aynı şekilde davranmayacaktır. Diğer bir deyişle, bunlar her yere gönderilemeyecektir. Bu varsayılan davranışı geçersiz kılmak için her bir dosya için bir adet olmak üzere üç dosya daha oluşturmanız gerekir. Her biri için hedef ayarlarında dosyanın gönderilmesi gereken hedefi etkinleştirmeniz gerekir.
 
-# <a name="see-also"></a>Ayrıca bkz.
+## <a name="see-also"></a>Ayrıca bkz.
 
 [Elektronik raporlamaya genel bakış](general-electronic-reporting.md)
 

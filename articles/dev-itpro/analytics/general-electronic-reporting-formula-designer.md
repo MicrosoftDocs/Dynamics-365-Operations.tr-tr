@@ -3,7 +3,7 @@ title: "Elektronik raporlama (Kural Yöneticisi) içinde Formül Tasarımcısı"
 description: "Bu konu, formül tasarımcısının Elektronik raporlamada (ER) nasıl kullanılacağını açıklar."
 author: NickSelin
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 58bef33642d83def841eaa8334ea6f942063e0b3
+ms.sourcegitcommit: 946584d8afa8937afc7a26835e05b0eecebaad35
+ms.openlocfilehash: 67558889dea03738a665d8f1e2f30833b96c4656
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/23/2017
 
 ---
 
@@ -30,94 +30,117 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](../includes/banner.md)]
 
+Bu konu, formül tasarımcısının Elektronik raporlamada (ER) nasıl kullanılacağını açıklar. Belirli bir elektronik belge için ER içerisinde bir biçim tasarladığınızda, belgenin gereksinimlerini karşılamak ve biçimlendirmek üzere formülleri veri dönüştürme için kullanabilirsiniz. Bu formüller Microsoft Excel'deki formüllere benzer. Formüllerde farklı türde işlevler desteklenmektedir: metin, tarih ve saat, matematiksel mantıksal, bilgi, veri türü dönüştürme ve diğer (iş etki alanına özel işlevler).
 
-Bu konu, formül tasarımcısının Elektronik raporlamada (ER) nasıl kullanılacağını açıklar. Belirli bir elektronik belge için ER içerisinde bir biçim tasarladığınızda, söz konusu belgenin gereksinimlerini karşılamak ve biçimlendirmek için Microsoft Excel benzeri formülleri veri dönüştürme için kullanabilirsiniz. Farklı türde işlevler desteklenmektedir - metin, tarih ve saat, matematiksel mantıksal, bilgi, veri türü dönüştürme ve diğer (iş etki alanına özel işlevler).
+## <a name="formula-designer-overview"></a>Formül tasarımcısına genel bakış
 
-<a name="formula-designer-overview"></a>Formül tasarımcısına genel bakış
--------------------------
+ER formül tasarımcısını destekler. Bu nedenle, tasarım zamanında aşağıdaki görevler için çalışma zamanında kullanılabilecek ifadeler yapılandırabilirsiniz:
 
-Elektronik raporlama (ER), formül tasarımcısını destekler. Bu nedenle, tasarım zamanında aşağıdaki görevler için çalışma zamanında kullanılabilecek ifadeler yapılandırabilirsiniz:
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise edition veritabanından alınan verileri dönüştürün ve bu verileri ER biçimleri için (filtreleme, gruplama, veri türü dönüştürme vb.) bir veri kaynağı olmak üzere tasarlanmış ER veri modeline girin. (Örneğin, bu dönüştürme işlemleri filtrelemeyi, gruplandırmayı ve veri türü dönüşümünü içerebilir.)
+- Oluşturulan bir elektronik belgeye belirli bir ER biçiminin düzenine ve koşullarına uygun olarak gönderilmesi gereken verileri biçimlendirin. (Örneğin, biçimlendirme istenen dil veya kültüre ya da kodlamaya uygun olarak yapılabilir).
+- Elektronik belge oluşturma işlemini kontrol edin. (Örneğin, ifadeler veri işlemeye bağlı olarak biçimin belirli öğelerinin çıkışını etkinleştirebilir veya devre dışı bırakabilir. Aynı zamanda, belge oluşturma işlemini durdurabilir veya kullanıcılara ileti gönderebilir.)
 
--   Microsoft Dynamics 365 for Finance and Operations veritabanından alınan verileri dönüştürmek ve bu verileri ER biçimleri için (filtreleme, gruplama, veri türü dönüştürme vb.) bir veri kaynağı olmak üzere tasarlanmış ER veri modelinde doldurmak.
--   Elektronik raporlama oluşturmaya gönderilecek biçimlendirme verisinin belirli bir ER biçiminin (talep edilen dil, kültür, kodlama vb. gibi) düzeni ve koşulları ile uyumlu olması gerekir.
--   Elektronik belge oluşturma işlemini denetleme (veri işlemeye, belgenin oluşturulmasının kesilmesine, son kullanıcılar için iletiler atılmasına vb. bağlı olarak belirli biçim öğelerinin çıktısını etkinleştirme/devre dışı bırakma).
+**Formül tasarımcısı** sayfasını aşağıdaki eylemlerden birini gerçekleştirirken açabilirsiniz:
 
-Formül tasarımcısı sayfası aşağıdakilerden birini gerçekleştirdiğinizde açılabilir:
-
--   Veri kaynağı maddelerini veri modeli bileşenlerine bağlayın.
--   Veri kaynağı maddelerini biçim bileşenlerine bağlayın.
--   Veri kaynaklarının parçası olarak hesaplanan alanların bakımını tamamlayın.
--   Kullanıcı giriş parametreleri için görünürlük koşullarını tanımlayın.
--   Biçimin dönüşümlerini tasarlayın.
--   Biçimin bileşenlerinin etkinleştirme koşullarını tanımlayın.
--   Biçimin DOSYA bileşenleri için dosya adlarını tanımlayın.
--   İşlem denetimi doğrulamaları için koşulları tanımlayın.
--   İşlem denetimi doğrulamaları için ileti metnini tanımlayın.
+- Veri kaynağı maddelerini veri modeli bileşenlerine bağlayın.
+- Veri kaynağı maddelerini biçim bileşenlerine bağlayın.
+- Veri kaynaklarının parçası olan hesaplanan alanların bakımını tamamlayın.
+- Kullanıcı giriş parametreleri için görünürlük koşullarını tanımlayın.
+- Biçimin dönüşümlerini tasarlayın.
+- Biçimin bileşenlerinin etkinleştirme koşullarını tanımlayın.
+- Biçimin DOSYA bileşenleri için dosya adlarını tanımlayın.
+- İşlem denetimi doğrulamaları için koşulları tanımlayın.
+- İşlem denetimi doğrulamaları için ileti metnini tanımlayın.
 
 ## <a name="designing-er-formulas"></a>ER formülleri tasarlama
+
 ### <a name="data-binding"></a>Veri ilişkilendirme
 
-ER formül tasarımcısı, veri kaynaklarından alınan verinin, söz konusu veri veri tüketicisinde çalışma zamanında kullanılabilecek şekilde dönüştürecek bir ifade tanımlamak için kullanılabilir:
+ER formül tasarımcısı, veri kaynaklarından alınan verinin, söz konusu veri veri tüketicisinde çalışma zamanında girilebilecek şekilde dönüştürecek bir ifade tanımlamak için kullanılabilir:
 
--   Finance and Operations veri kaynaklarından ve çalışma zamanı parametrelerinden ER veri modeline.
--   ER veri modelinden ER biçimine.
--   Finance and Operations veri kaynaklarından ve çalışma zamanı parametrelerinden ER biçimine.
+- Finance and Operations veri kaynaklarından ve çalışma zamanı parametrelerinden ER veri modeline
+- Bir ER veri modelinden ER biçimine
+- Finance and Operations veri kaynaklarından ve çalışma zamanı parametrelerinden ER biçimine
 
-Bu tür bir ifadenin tasarımı aşağıda gösterilmiştir. Bu örnekte ifade, Finance and Operations **Intrastat** tablosunun **Intrastat.AmountMST** alanının değerini, değer iki ondalık basamağa yuvarlandıktan sonra döndürür. [![resim-ifadesi-bağlama](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg) Aşağıda, bu tür bir ifadenin nasıl kullanılabileceği gösterilmiştir. Bu örnekte, tasarlanmış ifadenin sonucu, **Vergi raporlama modeli** veri modelinin **Transaction.InvoicedAmount** bileşeninde doldurulur. [![resim-ifade-baglama2](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg) Çalışma zamanında, tasarlanmış formül **ROUND (Intrastat.AmountMST, 2)**, **Intrastat** tablosunun **AmountMST** alanının değerini iki ondalık sayıya yuvarlar ve yuvarlanmış değeri **Vergi raporlama** veri modelinin **Transaction.InvoicedAmount** bileşenine doldurur.
+Bu tür bir ifadenin tasarımı aşağıda gösterilmiştir. Bu örnekte ifade, Finance and Operations Intrastat tablosunun **Intrastat.AmountMST** alanının değerini iki ondalık basamağa yuvarlar ve yuvarlanan değeri döndürür.
+
+[![Veri ilişkilendirme](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
+
+Aşağıdaki çizim bu tür bir ifadenin nasıl kullanılabileceğini gösterir. Bu örnekte, tasarlanmış ifadenin sonucu, **Vergi raporlama modeli** veri modelinin **Transaction.InvoicedAmount** bileşenine girilir.
+
+[![Kullanılan veri bağlama](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
+
+Çalışma zamanında, tasarlanan formül olan **ROUND (Intrastat.AmountMST, 2)** **AmountMST** alanındaki değeri Intrastat tablosundaki her kayıt için iki ondalık basamağa yuvarlar. Daha sonra yuvarlanan değeri **Vergi raporlama** veri modelinin **Transaction.InvoicedAmount** bileşenine girer.
 
 ### <a name="data-formatting"></a>Veri biçimlendirme
 
-ER formül tasarımcısı, veri kaynaklarından alınan verinin, söz konusu veri, elektronik belgenin oluşturulmasında kullanılabilecek şekilde biçimlendirecek bir ifade tanımlamak için kullanılabilir. Bir biçim olarak yeniden kullanılacak tipik bir kural olarak uygulanacak bir biçimlendirmeniz varsa, bu biçimlendirmeyi, tek seferde bir biçimlendirme yapılandırmasında, biçimlendirme ifadesine sahip bir adlandırılmış bir dönüştürmesi olarak kullanıma sokabilirsiniz. Daha sonra bu adlandırılan dönüştürme oluşturulmuş ifadeye göre hangi çıktının biçimlendirilmesi gerektiği birçok biçimi bileşenler ile bağlanabilir. Bu tür bir dönüştürmenin tasarımı aşağıda gösterilmiştir. Bu örnekte, **TrimmedString** dönüşümü, **dize** veri türünden gelen verileri alır ve baştaki ve sondaki boşlukları dize değerini döndürdüğünde keser. [![resim-dönüşüm-tasarımı](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg) Aşağıdaki çizim bu tür bir dönüştürmenin nasıl kullanılabileceğini gösterir. Bu örnekte, çalışma zamanında elektronik belge oluşturmasına metni çıktı olarak gönderen çeşitli biçim bileşeni **TrimmedString** dönüştürmesine adıyla başvururlar. [![resim-dönüşüm-kullanımı](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg) Biçim bileşenleri **TrimmedString** dönüşümüne referansta bulunduğunda (örneğin, önceki çizimdeki **partyName** bileşeni) bu, oluşturulan belgeye metni çıktı olarak gönderir. Metin baştaki ve sondaki boşlukları içermez. Tek tek uygulanması zorunlu olan bir biçimlendirmeniz varsa, bu biçimlendirmeyi belirli bir biçim bileşeninin bir bağlamasının tekil ifadesi olarak tanıtabilirsiniz. Aşağıdaki çizim bu türde bir ifadeyi gösterir. Bu örnekte **partyType** biçim bileşeni, veri kaynağına **Model.Company.RegistrationType** alanından gelen veriyi bir ifade yardımıyla büyük harfe dönüştüren ve bu metni çıktı olarak elektronik belgeye gönderir. [![resim-formül-ile-bağlama](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
+ER formül tasarımcısı, veri kaynaklarından alınan verinin, söz konusu veri, elektronik belgenin oluşturulmasında kullanılabilecek şekilde biçimlendirecek bir ifade tanımlamak için kullanılabilir. Bir biçim için yeniden kullanılması gereken tipik bir kural olarak uygulanması gereken bir biçimlendirmeniz olabilir. Bu durumda, bu biçimlendirmeyi biçim yapılandırmasına, biçimlendirme ifadesine sahip adlandırılmış bir dönüştürme olarak bir kez girebilirsiniz. Daha sonra bu adlandırılan dönüştürme, oluşturduğunuz biçimlendirme ifadesine çıktının biçimlendirilmesi gereken birçok biçim bileşeni ile bağlanabilir.
+
+Bu tür bir dönüştürmenin tasarımı aşağıda gösterilmiştir. Bu örnekte, **TrimmedString** dönüşümü, **Dize** veri türünden gelen verileri baştaki ve sondaki boşlukları kaldırarak keser. Daha sonra Itd kesilmiş dize değerini döndürür.
+
+[![Dönüşüm](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
+
+Aşağıdaki çizim bu tür bir dönüştürmenin nasıl kullanılabileceğini gösterir. Bu örnekte, birçok biçim bileşeni metni çıktı olarak çalışma zamanında oluşturulan elektronik belgeye gönderir. Bu biçim bileşenlerinin tümü ada göre **TrimmedString** dönüştürmesine başvurur.
+
+[![Kullanılan dönüştürme](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
+
+Önceki örnekte yer alan **partyName** gibi biçim bileşenleri **TrimmedString** dönüşümüne referansta bulunur, dönüştürme metni çıktı olarak oluşturulan elektronik belgeye gönderir. Bu metin baştaki ve sondaki boşlukları içermez.
+
+Tek tek uygulanması zorunlu olan bir biçimlendirmeniz varsa, bu biçimlendirmeyi belirli bir biçim bileşeninin bir bağlamasının tekil ifadesi olarak tanıtabilirsiniz. Aşağıdaki çizim bu türde bir ifadeyi gösterir. Bu örnekte **partyType** biçim bileşeni veri kaynağındaki **Model.Company.RegistrationType** alanından gelen veriyi büyük harfe dönüştüren bir ifade aracılığıyla veri kaynağına bağlıdır. Sonra ifade metni çıktı olarak elektronik belgeye gönderir.
+
+[![Ayrı bir bileşene biçimlendirme uygulama](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
 ### <a name="process-flow-control"></a>İşlem akış denetimi
 
-ER formül tasarımcısı, belge oluşturma işlem akışını denetleyen ifadeleri tanımlamak için kullanılabilir. Aşağıdakileri yapabilirisiniz:
+ER formül tasarımcısı, elektronik belge oluşturma işlem akışını denetleyen ifadeleri tanımlamak için kullanılabilir. Aşağıdaki görevlerini yerine getirebilirsiniz:
 
--   Bir belge oluşturma işleminin ne zaman durdurulması gerektiği koşullarını tanımlayın.
--   Durdurulan işlemler hakkında son kullanıcıya iletiler oluşturan veya devam eden rapor oluşturma işlemleri hakkında yürütme günlüğü iletileri oluşturan ifadeleri belirtin.
--   Oluşturma belgelerinin dosya adlarını belirtin ve bunların oluşturulma koşullarını denetleyin.
+- Bir belge oluşturma işleminin ne zaman durdurulması gerektiği koşullarını tanımlayın.
+- Durdurulan işlemler hakkında kullanıcıya iletiler oluşturan veya devam eden rapor oluşturma işlemleri hakkında yürütme günlüğü iletileri oluşturan ifadeleri belirtin.
+- Oluşturulan elektronik belgelerinin dosya adlarını belirtin ve bunların oluşturulma koşullarını denetleyin.
 
 İşlem akışı denetiminin her kuralı ayrı ayrı bir doğrulama olarak tasarlanmıştır. Aşağıdaki çizim bu türde bir doğrulamayı gösterir. u örnekteki yapılandırmanın bir açıklaması aşağıdadır:
 
--   **INSTAT** düğümü, oluşturma XML dosyasında oluşturulduğunda doğrulama değerlendirilir.
--   Hareketin listesi boşsa, doğrulama işlem yürütmesini durdurur ve **YANLIŞ** döndürür.
--   Doğrulama, kullanıcının tercih ettiği dilde SYS70894 etiket metnini içeren bir hata iletisi döndürür.
+- Doğrulama, XML dosyasının oluşturulduğu sırada **INSTAT** düğümü oluşturulurken değerlendirilir.
+- Hareketin listesi boşsa, doğrulama işlem yürütmesini durdurur ve **YANLIŞ** döndürür.
+- Doğrulama, kullanıcının tercih ettiği dilde Finance and Operations SYS70894 etiket metnini içeren bir hata iletisi döndürür.
 
-[![resim-doğrulama](./media/picture-validation.jpg)](./media/picture-validation.jpg) Doğrulama örneği ER formül tasarımcısı elektronik belgenin oluşturulması ve dosya oluşturma işlemini denetlemek için bir dosya adı belirtmekte de kullanılabilir. Aşağıdaki çizim, bu türdeki bir işlem akış denetiminin tasarımını gösterir. u örnekteki yapılandırmanın bir açıklaması aşağıdadır:
+[![Doğrulama](./media/picture-validation.jpg)](./media/picture-validation.jpg)
 
--   **model.Intrastat** veri kaynağının kayıt listesi, her biri 1.000 kayda kadar içeren çeşitli toplu işlere bölünmüştür.
--   Çıktı her toplu işlem için XML biçiminde oluşturulmuş bir dosya içeren bir zip dosyası oluşturur.
--   Bir ifade, elektronik belge oluşturması için dosya adı ve dosya uzantısını birleştirerek bir dosya adı döndürür. İkinci toplu iş ve tüm sonraki toplu işler için, dosya adı toplu iş kimliğini bir sonek olarak içerir.
--   Bir ifade (**DOĞRU** döndürerek) en az bir kayıt içeren toplu işler için dosya oluşturma işlemini etkinleştirir.
+ER formül tasarımcısı elektronik belgenin oluşturulması ve dosya oluşturma işlemini denetlemek için bir dosya adı oluşturmak için de kullanılabilir. Aşağıdaki çizim, bu türdeki bir işlem akış denetiminin tasarımını gösterir. u örnekteki yapılandırmanın bir açıklaması aşağıdadır:
 
-[![resim-dosya-kontrolü](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+- **model.Intrastat** veri kaynağındaki kayıtların listesi toplu işlere bölünür. Her toplu iş en çok 1000 kayıt içerir.
+- Çıktı her toplu işlem için XML biçiminde oluşturulmuş bir dosya içeren bir zip dosyası oluşturur.
+- Bir ifade, elektronik belge oluşturması için dosya adı ve dosya adı uzantısını birleştirerek bir dosya adı döndürür. İkinci toplu iş ve tüm sonraki toplu işler için, dosya adı toplu iş kimliğini bir sonek olarak içerir.
+- Bir ifade (**DOĞRU** döndürerek) en az bir kayıt içeren toplu işler için dosya oluşturma işlemini etkinleştirir.
+
+[![Dosya denetimi](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
 ### <a name="basic-syntax"></a>Temel sözdizimi
 
 ER ifadeleri aşağıdaki öğelerden birini veya tümünü içerebilirler:
 
--   Sabitler
--   İşleçler
--   Referanslar
--   Yollar
--   İşlevler
+- Sabitler
+- İşleçler
+- Referanslar
+- Yollar
+- İşlevler
 
 #### <a name="constants"></a>Sabitler
 
-İfadeler tasarlarken metin veya sayısal sabitler (hesaplanmayan değerler) içeren ifadeler kullanabilirsiniz. Örneğin **VALUE ("100") + 20**ifadesi, sayısal sabit 20 ve dize sabiti "100" kullanır ve **120** sayısal değerini döndürür. ER formül tasarımcısı kaçış sıralarını destekler. Bu özellik, ifade dizesinin bir bölümünün farklı ele alınması gerektiğini belirtebileceğiniz anlamına gelir. Örneğin **"Leo Tolstoy ""Savaş ve Barış"" Cilt 1""** ifadesi aşağıdaki metin dizesini döndürür: **Leo Tolstoy "Savaş ve Barış" Cilt 1**.
+İfadeleri tasarlarken metin ve sayısal sabitler (hesaplanmayan değerler) içeren ifadeler kullanabilirsiniz. Örneğin **VALUE ("100") + 20** ifadesi, sayısal sabit olarak **20** ve dize sabiti olarak **"100"** kullanır ve **120** sayısal değerini döndürür. ER formül tasarımcısı kaçış sıralarını destekler. Bu nedenle, farklı şekilde ele alınması gereken bir ifade dizesi belirtebilirsiniz. Örneğin **"Leo Tolstoy ""Savaş ve Barış"" Cilt 1""** ifadesi aşağıdaki metin dizesini döndürür: **Leo Tolstoy "Savaş ve Barış" Cilt 1**.
 
 #### <a name="operators"></a>İşleçler
 
 Aşağıdaki tablo, toplama, çıkarma, bölme ve çarpma gibi temel matematik işlemleri gerçekleştirmek için kullanabileceğiniz aritmetik işleçleri gösterir.
 
-| İşleç | Anlamı              | Örnek |
-|----------|----------------------|---------|
-| +        | Fark hesap eki             | 1+2     |
-| -        | Çıkartma Olumsuzluğu | 5-2 -1  |
-| \*       | Çarpma       | 7\*8    |
-| /        | Bölüm             | 9/3     |
+| İşleç | Anlamı               | Örnek |
+|----------|-----------------------|---------|
+| +        | Fark hesap eki              | 1+2     |
+| -        | Çıkartma, olumsuzluk | 5-2, -1 |
+| \*       | Çarpma        | 7\*8    |
+| /        | Bölüm              | 9/3     |
 
-Aşağıdaki tablo, iki değeri karşılaştırmak için kullanabileceğiniz desteklenen karşılaştırma işleçlerini gösterir.
+Aşağıdaki tablo desteklenen karşılaştırma işleçlerini göstermektedir. Bu işleçleri iki değeri karşılaştırmak için kullanabilirsiniz.
 
 | İşleç | Anlamı                  | Örnek    |
 |----------|--------------------------|------------|
@@ -128,86 +151,90 @@ Aşağıdaki tablo, iki değeri karşılaştırmak için kullanabileceğiniz des
 | &lt;=    | Küçüktür veya eşittir    | X&lt;=Y    |
 | &lt;&gt; | Eşit değil             | X&lt;&gt;Y |
 
-Ayrıca bir veya daha fazla metin dizesini tek bir metin parçası içine birleştirmek için veya metin birleştirme işleci olarak bir ampersan (&) kullanabilirsiniz.
+Ayrıca, bir metin birleştirme işleci olarak (&) işareti kullanabilirsiniz. Bu şekilde, bir veya daha fazla metin dizesini tek bir metin içinde birleştirebilir veya art arda ekleyebilirsiniz.
 
-| İşleç | Anlamı     | Örnek                                        |
-|----------|-------------|------------------------------------------------|
-| &        | Art arda eklemek | "Yazdırılacak bir şey yok" & ": " & "kayıt bulunamadı" |
+| İşleç | Anlamı     | Örnek                                             |
+|----------|-------------|-----------------------------------------------------|
+| &        | Art arda eklemek | "Yazdırılacak bir şey yok" & ":&nbsp;" & "kayıt bulunamadı" |
 
-#### <a name="operator-precedence"></a>İşleç önceliği
+##### <a name="operator-precedence"></a>İşleç önceliği
 
-Bir bileşik ifadenin parçalarının hangi sırada değerlendirilecekleri önemlidir. Örneğin, **1 + 4 / 2** deyiminin sonucu, bölme işleminin mi yoksa toplama işleminin mi önce gerçekleşeceğine göre farklılık göstermektedir. Bir ifadenin nasıl değerlendirileceğini açıkça tanımlamak için parantezleri kullanabilirsiniz. Örneğin, toplama işlemi önce yapılması gerektiğini belirtmek için yukarıdaki ifadeyi şuna değiştirebilirsiniz **(1 + 4) / 2**. Eğer bir ifadede gerçekleştirilmesi gereken işleçlerin sırası özellikle belirtilmemişse sıralama, desteklenen işleçlerin varsayılan önceliğine dayandırılır. Aşağıdaki tablolar, işleçleri ve her birine atanan önceliği gösterir. Daha yüksek bir önceliğe sahip işleçler (örneğin, 7) daha düşük önceliğe sahip işleçlerden önce değerlendirilirler (örneğin, 1).
+Bir bileşik ifadenin parçalarının hangi sırada değerlendirilecekleri önemlidir. Örneğin, **1 + 4 / 2** deyiminin sonucu, bölme işleminin mi yoksa toplama işleminin mi önce gerçekleşeceğine göre farklılık göstermektedir. Bir ifadenin nasıl değerlendirileceğini açıkça tanımlamak için parantezleri kullanabilirsiniz. Örneğin, toplama işleminin önce yapılması gerektiğini belirtmek için yukarıdaki ifadeyi şuna değiştirebilirsiniz: **(1 + 4) / 2**. Bir ifadede gerçekleştirilmesi gereken işleçlerin sırasını özellikle belirtmezseniz sıralama, desteklenen işleçlerin varsayılan önceliğine dayandırılır. Aşağıdaki tablo, işleçlerin her birine atanan önceliği gösterir. Daha yüksek bir önceliğe sahip işleçler (örneğin, 7) daha düşük önceliğe sahip işleçlerden önce değerlendirilirler (örneğin, 1).
 
-| Öncelik | İşleçler      | Sözdizimi                                                   |
-|------------|----------------|----------------------------------------------------------|
-| 7          | Gruplama       | ( … )                                                    |
-| 6          | Üye erişimi  | … 'i tıklatın. …                                                    |
-| 5          | İşlev çağrısı  | … ( … )                                                  |
-| 4          | Çarpımsal | … \* … … / …                                             |
-| 3          | Eklenecek       | … + … … - …                                              |
-| 2          | Karşılaştırma     | … &lt; … … &lt;= … … =&gt; … … &gt; … … = … … &lt;&gt; … |
-| 1          | Ayrılma     | … , …                                                    |
+| Öncelik | İşleçler      | Sözdizimi                                                                  |
+|------------|----------------|-------------------------------------------------------------------------|
+| 7          | Gruplama       | ( … )                                                                   |
+| 6          | Üye erişimi  | … 'i tıklatın. …                                                                   |
+| 5          | İşlev çağrısı  | … ( … )                                                                 |
+| 4          | Çarpımsal | … \* …<br>… / …                                                         |
+| 3          | Eklenecek       | … + …<br>… - …                                                          |
+| 2          | Karşılaştırma     | … &lt; …<br>… &lt;= …<br>… =&gt; …<br>… &gt; …<br>… = …<br>… &lt;&gt; … |
+| 1          | Ayrılma     | … , …                                                                   |
 
-Aynı satırda olan işleçler eşit önceliğe sahiptirler. Eğer bir ifade bu işleçlerden bir taneden fazla içeriyorsa, ifade soldan sağa değerlendirilir. Örneğin, **1 + 6 / 2 \* 3 &gt; 5** ifadesi, **doğru** sonucunu verir. Deyimlerin okunmasını ve bakımını daha kolay hale getirmek için, deyimlerin arzu edilen değerlendirme sıralarını, parantezler kullanarak açıkça belirtmenizi tavsiye ederiz.
+Bir ifadenin aynı önceliğe sahip birden çok işleç içeriyorsa, bu işleçler soldan sağa doğru değerlendirilir. Örneğin, **1 + 6 / 2 \* 3 &gt; 5** ifadesi, **doğru** sonucunu verir. Deyimlerin okunmasını ve bakımını daha kolay hale getirmek için, deyimlerin ifadedeki arzu edilen işlem sıralarını, parantezler kullanarak açıkça belirtmenizi tavsiye ederiz.
 
 #### <a name="references"></a>Referanslar
 
-Bir ifadenin tasarımında kullanılabilir olan bir mevcut ER bileşeninin tüm veri kaynakları (bir model ya da bir biçim), adlandırılmış referanslar olarak kullanılabilirler. Örneğin, mevcut ER veri modeli, **DATATIME** veri türünün değerini döndüren **ReportingDate** veri kaynağını içerir. Bu değeri oluşturulan belgede doğru biçimlendirmek için veri kaynağına ifadede şu şekilde referans gösterebilirsiniz **DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy"** Referans gösterilen bir veri kaynağının adındaki, alfabenin bir harfini temsil etmeyen tüm karakterlerden önce bir tek tırnak işareti (') gelmelidir. Referans gösterilen veri kaynağı alfabede temsil edilmeyen en az bir simgeyi içeriyorsa (örneğin noktalama işaretleri ya da diğer yazılı simgeler), adın tek tırnak işaretleri içerisine alınması gerekir. Burada bazı örnekler verilmiştir:
+Bir ifadenin tasarımında kullanılabilir olan bir mevcut ER bileşeninin tüm veri kaynakları, adlandırılmış referanslar olarak kullanılabilirler. (Geçerli ER bileşeni bir model veya biçim olabilir.) Örneğin, geçerli ER veri modeli **ReportingDate** veri kaynağını içerir ve bu veri kaynağı **DATETIME** veri türünde bir değer döndürür. Oluşturulan belgede bu değeri uygun şekilde biçimlendirmek için ifadedeki veri kaynağına başvurabilirsiniz: **DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")**.
 
--   **Bugünün tarihi ve saati** veri kaynağının bir ER deyiminde şu şekilde referans gösterilmiş olması gerekir **'Bugünün tarihi ve saati'**
--   **Müşteriler** veri kaynağının **name()** yöntemi, bir ER deyimi içerisinde aşağıdaki gibi referans gösterilmelidir: **Customers.'name()'**
+Referansta bulunan veri kaynağının adında yer alan ve alfabedeki bir harfi temsil etmeyen tüm karakterlerin önünde tek bir tırnak işareti (') olmalıdır. Referans gösterilen veri kaynağı adı alfabede temsil edilmeyen en az bir simgeyi içeriyorsa, adın tekli tırnak işaretleri içerisine alınması gerekir. (Örneğin, alfabetik olmayan simgeler noktalama işaretleri veya diğer yazılı simgeleri olabilir.) Bazı örnekler şunlardır:
 
-Aşağaki sözdiziminin, Dynamics 365 for Operations veri kaynaklarının yöntemlerini parametreler ile çağırmak için kullanıldığını unutmayın:
+- **Bugünün tarihi ve saati** veri kaynağının bir ER deyiminde şu şekilde referans gösterilmiş olması gerekir: **'Bugünün tarihi ve saati'**.
+- **Müşteriler** veri kaynağının **name()** yöntemi, bir ER deyimi içerisinde aşağıdaki gibi referans gösterilmelidir: **Customers.'name()'**.
 
-- Metin veri türündeki parametre EN-US sistem verisi kaynağının isLanguageRTL yöntemi, bir ER deyiminde aşağıdaki şekilde referans gösterilmelidir: System.’isLanguageRTL’(“EN-US”).
-- Bir yöntem adı yalnızca alfasayısal simgelerden oluşuyorsa tırnak işaretleri zorunlu değildir. Bir tablonun bir yönteminin adı köşeli parantez içerdiğinde zorunludur.
+Finance and Operations veri kaynaklarının yöntemlerinde parametreler varsa, yöntemleri çağırmak için aşağıdaki sözdizimi kullanılır:
 
-Sistem veri kaynağı, Dynamics 365 for Operation uygulama sınıfı Global'e referans gösteren bir ER eşlemesine eklendiğinde, deyim YANLIŞ mantıksal değerini döndürür. Değiştirilmiş deyim, System.' isLanguageRTL'("AR"), DOĞRU boole değerini döndürür.
+- **Sistem** veri kaynağının **isLanguageRTL** yönteminde **Dize** veri türünün **EN-US** parametresi varsa, bu yönteme bir ER deyiminde **System.'isLanguageRTL'("EN-US")** olarak referans verilmelidir.
+- Bir yöntem adı yalnızca alfasayısal simgelerden oluşuyorsa tırnak işaretleri zorunlu değildir. Ancak, bir tablonun bir yönteminin adı köşeli parantez içerdiğinde zorunludur.
 
-Bu tür yöntem parametrelerine aktarmak, aşağıdaki sınırlamalarla tanımlanabilir:
+**Sistem** veri kaynağı **Global** Finance and Operations uygulama sınıfına referansta bulunan bir ER eşlemesine eklendiğinde, ifade **YANLIŞ** Boole değerini döndürür. Değiştirilen ifade **System.' isLanguageRTL'("AR")** **DOĞRU** Boole değeri döndürür.
 
-- Yalnızca değerleri tasarım zamanında tanımlanmış sabitler bu tür yöntemlere aktarılabilir.
-- Yalnızca basit (temel) veri türleri bu tür parametreler için desteklenir (tamsayı, gerçek, boole, dize, vs.).
+Değerlerin bu yöntem türünün parametrelerine geçiş şeklini sınırlandırabilirsiniz:
 
-#### <a name="path"></a>Yol
+- Bu tür yöntemlere yalnızca sabitler geçirilebilir. Sabitlerin değerleri tasarım zamanında tanımlanır.
+- Yalnızca basit (temel) veri türleri bu tür parametreler için desteklenir. (Temel veri türleri şunlardır: tamsayı, gerçek, Boole, dize, vb.).
 
-Bir ifade yapılandırılmış bir veri kaynağına başvurduğunda, bu veri kaynağının belirli bir temel öğesini seçmek için bir yol tanımı kullanabilirsiniz. Yapılandırılmış veri kaynağının öğelerini tek tek ayırmak için bir nokta karakteri (.) kullanılır. Örneğin, mevcut ER veri modeli, kayıtların bir listesini döndüren **InvoiceTransactions** veri kaynağını içerir. **InvoiceTransactions** kayıt yapısı sayısal değerler döndüren **AmountDebit** ve **AmountCredit** alanlarını içerir. Bu nedenle, faturalanan tutarı hesaplamak için aşağıdaki deyimi tasarlayabilirsiniz: **InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit**
+#### <a name="paths"></a>Yollar
+
+Bir ifade yapılandırılmış bir veri kaynağına başvurduğunda, bu veri kaynağının belirli bir temel öğesini seçmek için bir yol tanımı kullanabilirsiniz. Yapılandırılmış veri kaynağının öğelerini tek tek ayırmak için bir nokta karakteri (.) kullanılır. Örneğin, mevcut ER veri modeli **InvoiceTransactions** veri kaynağını içerir ve bu veri kaynağı kayıtların listesini döndürür. **InvoiceTransactions** kayıt yapısı her ikisi de sayısal değerler döndüren **AmountDebit** ve **AmountCredit** alanlarını içerir. Bu nedenle, faturalanan tutarı hesaplamak için şu deyimi tasarlayabilirsiniz: **InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit**.
 
 #### <a name="functions"></a>İşlevler
 
-Sonraki bölüm, ER deyimlerinde kullanılabilecek işlevleri açıklamaktadır. İfade bağlamının tüm veri kaynakları (geçerli ER veri modeli ya da ER biçimi ) ve bunun yanı sıra sabitler çağırma işlev değişkenleri listesine uygun işlevleri çağırma parametreleri olarak kullanılabilir. Örneğin, mevcut ER veri modeli, kayıtların bir listesini döndüren **InvoiceTransactions** veri kaynağını içerir. **InvoiceTransactions** kayıt yapısı sayısal değerler döndüren **AmountDebit** ve **AmountCredit** alanlarını içerir. Bu sebeple, faturalanan tutarı hesaplamak için, dahili ER yuvarlama işlevini kullanan aşağıdaki deyimi tasarlayabilirsiniz: **ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)**
+Sonraki bölüm, ER deyimlerinde kullanılabilecek işlevleri açıklamaktadır. İfade bağlamının tüm veri kaynakları (geçerli ER veri modeli ya da ER biçimi ) çağırma işlevlerinin bağımsız değişkenleri listesine uygun işlevleri çağırma parametreleri olarak kullanılabilir. Sabitler çağırma işlevleri parametreleri olarak da kullanılabilir. Örneğin, mevcut ER veri modeli **InvoiceTransactions** veri kaynağını içerir ve bu veri kaynağı kayıtların listesini döndürür. **InvoiceTransactions** kayıt yapısı her ikisi de sayısal değerler döndüren **AmountDebit** ve **AmountCredit** alanlarını içerir. Bu sebeple, faturalanan tutarı hesaplamak için, dahili ER yuvarlama işlevini kullanan şu deyimi tasarlayabilirsiniz: **ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)**.
 
 ## <a name="supported-functions"></a>Desteklenen işlevler
-Aşağıdaki tablolar, ER veri modelleri ve ER raporları tasarlamak için kullanabileceğiniz veri düzenleme işlevleri açıklamaktadır. İşlevlerin listesi sabit değildir ve geliştiriciler tarafından genişletilebilir. Kullanabileceğiniz işlevlerin listesini görmek için ER formül tasarımcısında işlevler bölmesine erişin.
+
+Aşağıdaki tablolar, ER veri modelleri ve ER raporları tasarlamak için kullanabileceğiniz veri düzenleme işlevleri açıklamaktadır. İşlevlerin listesi sabit değildir. Geliştiriciler listeyi genişletebilir. Kullanabileceğiniz işlevlerin listesini görmek için ER formül tasarımcısında işlevler bölmesini açın.
 
 ### <a name="date-and-time-functions"></a>Tarih ve saat işlevleri
 
-| İşlev                                   | Açıklama                                                                                                                                                                                                                                                                                                                                                      | Örnek                                                                                                                                                                                                                                                                                               |
-|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ADDDAYS (datetime, gün)                   | Belirtilen gün sayısını belirtilen datetime değerine ekleyin.                                                                                                                                                                                                                                                                                                | **ADDDAYS (NOW(), 7)** bugünden yedi gün sonraki tarih ve saati döndürür.                                                                                                                                                                                                                            |
-| DATETODATETIME (tarih)                      | Belirtilen tarih değerini tarih/saat değerine dönüştürür.                                                                                                                                                                                                                                                                                                            | **DATETODATETIME (CompInfo. 'getCurrentDate()')** geçerli Finance and Operations oturum tarihini, 12/24/2015, as **12/24/2015 12:00:00 AM** olarak döndürür. Bu örnekte, **CompInfo**, CompanyInfo tablosuna referans gösteren **Finance and Operations/Table** türünde bir ER veri kaynağıdır. |
-| NOW ()                                     | Geçerli Finance and Operations uygulama sunucusu oturum tarih ve saatini bir datetime değerine döndürür.                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                       |
-| TODAY ()                                   | Geçerli Finance and Operations uygulama sunucusu tarih ve saatini bir tarih değeri olarak döndürür.                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                       |
-| NULLDATE ()                                | Bir **null** tarih değeri döndür.                                                                                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                       |
-| NULLDATETIME ()                            | Bir **null** datetime değeri döndür.                                                                                                                                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                       |
-| DATETIMEFORMAT (datetime, biçim)          | Belirtilen datetime değerini belirtilen bir biçimdeki dizeye dönüştürmek. (Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ve [özel](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).)                                                                        | **DATETIMEFORMAT (NOW(), "gg-aa-yyyy")** olarak geçerli Finance and Operations uygulama sunucusu tarihi olan 12/24/2015 tarihini, **"24-12-2015"** olarak verir, belirtilen özel biçime göre.                                                                                                          |
-| DATETIMEFORMAT (datetime, biçim, kültür) | Belirtilen datetime değerini ve [kültürü](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) belirtilen bir biçimdeki dizeye dönüştürmek. (Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ve [özel](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | **DATETIMEFORMAT (NOW(), "d", "de")** geçerli Finance and Operations uygulama sunucusu tarihi olan 24/12/2015 tarihini, seçilen Alman kültürüne göre **"24.12.2015"** tarihine döndürür.                                                                                                             |
-| SESSIONTODAY ()                            | Geçerli Finance and Operations oturum tarihini, tarih değeri olarak döndürür.                                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                       |
-| SESSIONNOW ()                              | Geçerli Finance and Operations oturum tarihini ve saatini tarih/saat değerine döndürür.                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                       |
-| DATEFORMAT (tarih, biçim)                  | Belirtilen biçimi kullanarak tarihin dize gösterimini verir.                                                                                                                                                                                                                                                                                                    | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** geçerli Finance and Operations oturum tarihi olan 24/12/2015 tarihini belirtilen özel biçime göre "**"24-12-2015"**" tarihine döndürür.                                                                                                                      |
-| DATEFORMAT (tarih, biçim, kültür)         | Belirtilen tarih değerini, belirtilen biçimde ve [kültür](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx)'de bir dizeye dönüştürür. (Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ve [özel](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)).     | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** geçerli Finance and Operations oturum tarihi olan 24/12/2015 tarihini, seçilen Alman kültürüne göre **“24.12.2015“** tarihi olarak döndürür.                                                                                                                       |
-| DAYOFYEAR (tarih)              | Ocak 1 ve belirtilen tarih arasındaki günlerin sayısının bir tamsayı temsilini döndürür.       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** **61** döndürür. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** **1** döndürür. 
-                                                                                                                      |
+| İşlev | Açıklama | Örnek |
+|----------|-------------|---------|
+| ADDDAYS (datetime, gün) | Belirtilen gün sayısını belirtilen tarih/saat değerine ekleyin. | **ADDDAYS (NOW(), 7)** bugünden yedi gün sonraki tarih ve saati döndürür. |
+| DATETODATETIME (tarih) | Belirtilen tarih değerini tarih/saat değerine dönüştürün. | **DATETODATETIME (CompInfo. 'getCurrentDate()')** geçerli Finance and Operations oturum tarihi olan Aralık 24, 2015'i **12/24/2015 12:00:00 AM** olarak döndürür. Bu örnekte, **CompInfo** **Finance and Operations/Table** türünde bir ER veri kaynağıdır ve CompanyInfo tablosuna referans verir. |
+| NOW () | Geçerli Finance and Operations uygulama sunucusu tarihi ve saatini bir tarih/saat değeri olarak döndürür. | |
+| TODAY () | Geçerli Finance and Operations uygulama sunucusu tarih ve saatini bir tarih değeri olarak döndürür. | |
+| NULLDATE () | Bir **null** tarih değeri döndür. | |
+| NULLDATETIME () | Bir **boş** tarih/saat değeri döndürür. | |
+| DATETIMEFORMAT (datetime, biçim) | Belirtilen tarih/saat değerini belirtilen bir biçimdeki dizeye dönüştürür. (Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ve [özel](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** Aralık 24, 2015 olan Finance and Operations uygulama sunucusu tarihini belirtilen özel biçimi temel alarak **"24-12-2015"** olarak döndürür. |
+| DATETIMEFORMAT (datetime, biçim, kültür) | Belirtilen tarih/saat değerini ve [kültürü](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) belirtilen bir biçimdeki dizeye dönüştürür. (Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ve [özel](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | **DATETIMEFORMAT (NOW(), "d", "de")** Aralık 24, 2015 olan geçerli Finance and Operations uygulama sunucusu tarihini seçilen Alman kültürünü temel alarak **"24.12.2015"** olarak döndürür. |
+| SESSIONTODAY () | Geçerli Finance and Operations oturumu tarih ve saatini bir tarih değeri olarak döndürür. | |
+| SESSIONNOW () | Geçerli Finance and Operations oturum tarihi ve saatini bir tarih/saat değeri olarak döndürür. | |
+| DATEFORMAT (tarih, biçim) | Belirtilen tarihin, belirtilen biçimdeki dize olarak temsilini döndür. | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** Aralık 24, 2015 olan Finance and Operations oturum tarihini belirtilen özel biçimi temel alarak **"24-12-2015"** olarak döndürür. |
+| DATEFORMAT (tarih, biçim, kültür) | Belirtilen tarih değerini, belirtilen biçimde ve [kültür](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx)'de bir dizeye dönüştürür. (Desteklenen biçimler hakkında daha fazla bilgi için bkz. [standart](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) ve [özel](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)). | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** Aralık 24, 2015 olan geçerli Finance and Operations oturumu tarihini seçilen Alman kültürünü temel alarak **"24.12.2015"** olarak döndürür. |
+| DAYOFYEAR (tarih) | Ocak 1 ve belirtilen tarih arasındaki günlerin sayısının bir tamsayı temsilini döndürür. | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** **61** döndürür. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** **1** döndürür. |
+| GÜN (tarih 1, tarih 2) | İlk belirtilen tarih ile ikinci belirtilen tarih arasındaki gün sayısını döndürür. İlk tarih ikinci tarihten sonra olduğunda pozitif bir değer döndürür; ilk tarih ikinci tarihle aynı olduğunda **0** (sıfır) değerini döndürür; aksi halde negatif değer döndürür. | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** **-1** döndürür. |
 
-**Veri dönüştürme işlemleri**
+### <a name="data-conversion-functions"></a>Veri dönüştürme işlemleri
 
-| İşlev                                   | Açıklama                                                                                                                                                                                                                                                                                                                                                      | Örnek                                                                                                                                                                                                                                                                                               |
-|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| DATETODATETIME (tarih)                 | Belirtilen tarih değerini tarih/saat değerine dönüştürür.           | **DATETODATETIME (CompInfo. 'getCurrentDate()')** geçerli Finance and Operations oturum tarihini, 12/24/2015, as **12/24/2015 12:00:00 AM** olarak döndürür. Bu örnekte, **CompInfo**, **CompanyInfo** tablosuna referans gösteren **Finance and Operations/Table** türünde bir ER veri kaynağıdır.                                                                                                                       |
-| DATEVALUE (dize, biçim)              | Belirtilen bir biçimi kullanarak bir dizenin tarih gösterimini verir.       | **DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")** belirtilen özel biçim ve varsayılan uygulamanın **EN-US** kültürüne göre tarihi 12/21/2016 olarak döndürür.                                                                                                                       |
-| DATEVALUE (dize, biçim, kültür)              | Belirtilen biçimi ve kültürü kullanarak dizenin tarih gösterimini döndürür.       | **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", “IT”)** 01/21/2016 tarihini, belirtilen özel biçim ve kültüre uygun olarak döndürür. Bu işlevin çağrısı için bir özel durum ilan edilir, **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", “EN-US”)** ve verilen dizenin geçerli bir tarih olarak tanınmadığını bildirir.                                                                                                                       |
-| DATETIMEVALUE (dize, biçim)              | Bir dizenin belirli bir biçim kullanarak datetime gösterimini döndürür.       | **DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")** 2:55:00 AM of Dec 21st, 2016 değerini, varsayılan uygulamanın **EN-US** kültürü ve belirtilen özel biçime uygun olarak döndürür.                                                                                                                       |
-| DATETIMEVALUE (dize, biçim, kültür)              | Belirtilen biçimi ve kültürü kullanarak dizenin datetime gösterimini döndürür.       | **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", “IT”)** 2:55:00 AM of Dec 21st, 2016 belirtilen bir özel biçim ve kültüre uygun olarak döndürür. Bu işlevin çağrısı için bir özel durum ilan edilir, **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", “EN-US”)** ve verilen dizenin geçerli bir datetime olarak tanınmadığını bildirir.                                                                                                                       |
+| İşlev | Tanım | Örnek |
+|----------|-------------|---------|
+| DATETODATETIME (tarih) | Belirtilen tarih değerini tarih/saat değerine dönüştürün. | **DATETODATETIME (CompInfo. 'getCurrentDate()')** geçerli Finance and Operations oturum tarihi olan Aralık 24, 2015'i **12/24/2015 12:00:00 AM** olarak döndürür. Bu örnekte, **CompInfo** **Finance and Operations/Table** türünde bir ER veri kaynağıdır ve CompanyInfo tablosuna referans verir. |
+| DATEVALUE (dize, biçim) | Belirtilen dizenin, belirtilen biçimdeki tarih olarak temsilini döndür. | **DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")** belirtilen özel biçimi ve varsayılan uygulamanın **EN-US** kültürünü temel alarak Aralık 21, 2016 tarihini döndürür. |
+| DATEVALUE (dize, biçim, kültür) | Belirtilen dizenin, belirtilen biçim ve kültürdeki tarih olarak temsilini döndür. | **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "IT")** belirtilen özel biçim ve kültürü temel alarak Ocak 21, 2016 tarihini döndürür. Bununla birlikte, **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")** belirtilen dizenin geçerli bir tarih olarak tanınmadığını kullanıcıya bildirmek için bir özel durum oluşturur. |
+| DATETIMEVALUE (dize, biçim) | Belirtilen dizenin, belirtilen biçimdeki tarih/saat olarak temsilini döndür. | **DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")** belirtilen özel biçimi ve varsayılan uygulamanın **EN-US** kültürünü temel alarak 2:55:00 AM, Aralık 21, 2016 değerini döndürür. |
+| DATETIMEVALUE (dize, biçim, kültür) | Belirtilen dizenin, belirtilen biçim ve kültürdeki tarih/saat olarak temsilini döndür. | **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "IT")** belirtilen özel biçimi ve kültürü temel alarak 2:55:00 AM Aralık 21, 2016 değerini döndürür. Bununla birlikte **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "EN-US")** belirtilen dizenin geçerli bir tarih olarak tanınmadığını kullanıcıya bildirmek için bir özel durum oluşturur. |
+
 ### <a name="list-functions"></a>Liste işlevleri
 
 <table>
@@ -219,7 +246,7 @@ Aşağıdaki tablolar, ER veri modelleri ve ER raporları tasarlamak için kulla
 <thead>
 <tr class="header">
 <th>İşlev</th>
-<th>Açıklama</th>
+<th>Tanım</th>
 <th>Örnek</th>
 </tr>
 </thead>
@@ -236,28 +263,26 @@ Aşağıdaki tablolar, ER veri modelleri ve ER raporları tasarlamak için kulla
 <li>Toplu işler düzenli listelerdir (<strong>Değer </strong>bileşen)</li>
 <li>Geçerli toplu iş numarası (<strong>BatchNumber</strong>bileşeni)</li>
 </ul></td>
-<td>Aşağıdaki örnekte, <strong>Satırlar</strong> veri kaynağı, her biri en çok iki kayıt içeren toplu işlere bölünen, üç kaydın kayıt listesi olarak oluşturulur. 
-<a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> 
-
-Bu, tasarlanan biçim düzenini gösterir; burada <strong>Satırlar</strong> veri kaynağına bağlantılar her bir toplu iş ve içindeki kayıtlar için tek tek düğümleri temsil eden XML biçiminde çıktı üretmek için oluşturulur. 
-<a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> 
-
-Tasarlanan biçim yürütüldüğünde çıkan sonuç aşağıdadır. 
+<td>Aşağıdaki örnekte, üç kaydın kayıt listesi olarak <strong>Satırlar</strong> veri kaynağı oluşturulur. Bu liste her biri en çok iki kayıt içeren toplu işlere ayrılır.
+<p><a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></p>
+<p>Aşağıdaki örnekte tasarlanmış biçim düzeni gösterilir. Bu biçim düzeninde, <strong>Satırlar</strong> veri kaynağına bağlamalar XML biçiminde çıktı üretmek için oluşturulur. Bu çıktı her toplu iş ve içindeki kayıtlar için ayrı ayrı düğümleri sunar.</p>
+<p><a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a></p>
+<p>Aşağıdaki örnekte tasarlanan biçim çalıştırıldığında elde edilen sonuç gösterilir.</p>
 <a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
 </tr>
 <tr class="odd">
-<td>LIST (kayıt 1 [, kayıt 2, ...])</td>
+<td>LIST (record 1 [, record 2, …])</td>
 <td>Belirtilen değişkenlerden oluşturulan yeni bir liste döndür.</td>
 <td><strong>LIST (model.MainData, model.OtherData)</strong>, <strong>MainData</strong> ve <strong>OtherData</strong> alan listesinin, kayıt listelerinin tüm alanlarını içeren boş bir kaydı döndürür.</td>
 </tr>
 <tr class="even">
-<td>LISTJOIN (liste 1, liste 2, ...)</td>
+<td>LISTJOIN (list 1, list 2, …)</td>
 <td>Belirtilen değişkenlerin listesinden oluşturulan birleştirilmiş bir liste döndür.</td>
-<td><strong>LISTJOIN (SPLIT (&quot;abc&quot;, 1), SPLIT (&quot;def&quot;, 1))</strong> <strong>DİZE</strong> veri türünün bir alanının tek harfler içerdiği altı listelik bir kaydı döndürür.</td>
+<td><strong>LISTJOIN (SPLIT (&quot;abc&quot;, 1), SPLIT (&quot;def&quot;, 1))</strong> altı kaydın listesini döndürür; <strong>DİZE</strong> veri türündeki alanlardan biri tek harfler içerir.</td>
 </tr>
 <tr class="odd">
 <td>ISEMPTY (liste)</td>
-<td>Eğer belirtilen liste herhangi bir öğe içermiyorsa <strong>DOĞRU</strong> döndürür. Aksi takdirde <strong>YANLIŞ</strong> döndürür.</td>
+<td>Belirtilen liste herhangi bir öğe içermiyorsa <strong>DOĞRU</strong> döndürür. Aksi takdirde <strong>YANLIŞ</strong> döndürür.</td>
 <td></td>
 </tr>
 <tr class="even">
@@ -282,23 +307,23 @@ Tasarlanan biçim yürütüldüğünde çıkan sonuç aşağıdadır.
 </tr>
 <tr class="even">
 <td>ALLITEMS (yol)</td>
-<td>Belirtilen yolla eşleşen tüm öğelerin temsil edildiği yeni bir düzleştirilmiş liste döndür. Yol, kayıt listesi veri türünün veri kaynağı öğesine geçerli veri kaynağı yolu olarak tanımlanmalıdır. Dize yolu, tarih vb. veri öğeleri, ER ifade oluşturucudaki tasarım zamanında hata vermelidir.</td>
+<td>Belirtilen yolla eşleşen tüm öğelerin temsil edildiği yeni bir düzleştirilmiş liste döndür. Yol, kayıt listesi veri türünün veri kaynağı öğesine geçerli veri kaynağı yolu olarak tanımlanmalıdır. Dize yolu ve tarih gibi veri öğeleri, ER ifade oluşturucuda tasarım zamanında hata vermelidir.</td>
 <td>Eğer <strong>SPLIT(&quot;abcdef&quot; , 2)</strong> veri kaynağı (DS) olarak girerseniz, <strong>COUNT( ALLITEMS (DS.Value))</strong>, <strong>3</strong> döndürür.</td>
 </tr>
 <tr class="odd">
 <td>ORDERBY (liste [ifade 1, ifade 2,...])</td>
-<td>İfadeler olarak tanımlanabilen, belirtilmiş bağımsız değişkenlere göre sıralanmış belirtilen listeyi döndür.</td>
-<td><strong>Satıcı</strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırıldığında,<strong>ORDERBY (Vendors, Vendors.'name()')</strong>, satıcıların isme göre sıralanan listesini artan sıraya göre dizilmiş şekilde döndürür.</td>
+<td>Belirtilen bağımsız değişkenlere göre sıralandıktan sonra belirtilen listeyi döndürür. Bu bağımsız değişkenler ifadeler olarak tanımlanabilir.</td>
+<td><strong>Satıcı</strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılsa,<strong>ORDERBY (Vendors, Vendors.'name()')</strong>, satıcıların isme göre sıralanan listesini artan sıraya göre dizilmiş şekilde döndürür.</td>
 </tr>
 <tr class="even">
 <td>REVERSE (liste)</td>
 <td>Belirtilen listeyi ters sıralama düzeninde döndür.</td>
-<td><strong>Satıcı </strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırıldığında, <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong>, satıcıların isme göre sıralanan listesini azalan sıraya göre dizilmiş şekilde döndürür.</td>
+<td><strong>Satıcı </strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılırsa, <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong>, satıcıların isme göre sıralanan listesini azalan sıraya göre dizilmiş şekilde döndürür.</td>
 </tr>
 <tr class="odd">
 <td>WHERE (liste, koşul)</td>
-<td>Belirtilen koşula göre filtrelenmiş olan belirtilen listeyi döndürür. <strong>FİLTRE</strong> işlevinin aksine belirtilen koşul bellekteki listeye uygulanır.</td>
-<td><strong>Satıcı</strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırıldığında, <strong>WHERE(Vendors, Vendors.VendGroup = &quot;40&quot;)</strong>, grup 40'a dahil olan satıcıların listesini döndürür.</td>
+<td>Belirtilen koşula göre filtrelendikten sonra belirtilen listeyi döndürür. Belirtilen koşul bellekteki listeye uygulanır. Bu şekilde, <strong>WHERE</strong> işlevi <strong>FILTER</strong> işlevinden ayrılır.</td>
+<td><strong>Satıcı</strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılırsa, <strong>WHERE(Vendors, Vendors.VendGroup = &quot;40&quot;)</strong>, yalnızca grup 40'a dahil olan satıcıların listesini döndürür.</td>
 </tr>
 <tr class="even">
 <td>ENUMERATE (liste)</td>
@@ -307,13 +332,11 @@ Tasarlanan biçim yürütüldüğünde çıkan sonuç aşağıdadır.
 <li>Belirtilen liste kayıtları, düzenli olarak (<strong>Değer </strong>bileşeni) listeler</li>
 <li>Geçerli kayıt dizini (<strong>Numara </strong>bileşeni)</li>
 </ul></td>
-<td>Aşağıdaki örnekte, <strong>Enumerated</strong> veri kaynağı, satıcı kayıtlarının, <strong>satıcılar</strong> veri kaynağına başvuran <strong>VendTable</strong> tablo sunun numaralandırılmış bir listesi olarak oluşturulur. 
-<a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a> 
-
-Tekil satıcıları, numaralandırılmış düğümler olarak temsil eden XML biçiminde çıktı oluşturmak için veri ilişkilendirmelerinin oluşturulduğu biçim buradadır. 
-<a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> 
-
-Bu, tasarlanan biçim yürütüldüğünde çıkan sonuçtur. 
+<td>Aşağıdaki örnekte, <strong>Numaralandırılan</strong> veri kaynağı, VendTable tablosuna başvuran <strong>Satıcılar</strong> veri kaynağındaki satıcı kayıtlarının numaralandırılmış bir listesi olarak oluşturulur.
+<p><a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a></p>
+<p>Aşağıdaki örnekte biçim gösterilmiştir. Bu biçimde, veri bağlamaları XML biçiminde çıktı üretmek için oluşturulur. Bu çıktı ayrı ayrı satıcıları numaralandırılmış düğümler olarak gösterir.</p>
+<p><a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a></p>
+<p>Aşağıdaki örnekte tasarlanan biçim çalıştırıldığında elde edilen sonuç gösterilir.</p>
 <a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
 </tr>
 <tr class="odd">
@@ -323,155 +346,120 @@ Bu, tasarlanan biçim yürütüldüğünde çıkan sonuçtur.
 </tr>
 <tr class="even">
 <td>LISTOFFIELDS (yol)</td>
-<td>Aşağıdaki türlerden birinin bağımsız değişkeninden oluşturulan kayıtlar listesine döndürür:
+<td>Aşağıdaki türlerden birinin bağımsız değişkeninden oluşturulan kayıtlar listesini döndürür:
 <ul>
 <li>Model numaralandırma</li>
 <li>Biçim numaralandırma</li>
 <li>Kapsayıcı</li>
 </ul>
-Oluşturulan liste aşağıdaki alanları olan kayıtlar içerir:
+<p>Oluşturulan liste aşağıdaki alanlara sahip kayıtları içerir:</p>
 <ul>
 <li>Dosya Adı</li>
 <li>Etiket</li>
-<li>Açıklama</li>
+<li>Tanım</li>
 </ul>
-Etiket ve Açıklama alanları, biçimin dil ayarlarına göre çalışma zamanı değerlerine döndürülür.</td>
-<td>Aşağıdaki örnek bir veri modelinde oluşturulan numaralandırmayı gösterir. 
-<a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>
-
-Aşağıdaki örnek şunu gösterir:
+Çalışma zamanında, <strong>Etiket</strong> ve <strong>Açıklama</strong> alanları, biçimin dil ayarlarını temel alan değerler döndürür.</td>
+<td>Aşağıdaki örnekte, bir veri modelinde oluşturulan numaralandırma gösterilmektedir.
+<p><a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="Enumeration in a model" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a></p>
+<p>Aşağıdaki örnek ayrıntıları göstermektedir:</p>
 <ul>
 <li>Veri kaynağı olarak bir rapora eklenen model numaralandırma.</li>
-<li>Bu işlevin parametresi olarak model numaralandırma kullanmak için tasarlanan ER ifadesi.</li>
+<li>Bir ER ifadesi <strong>LISTOFFIELDS</strong> işlevi parametresi olarak bir model numaralandırma kullanır.</li>
 <li>Oluşturulan ER ifadesini kullanarak bir rapora eklenen kayıt listesi türünün veri kaynağı.</li>
 </ul>
-<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> 
-
-Aşağıdaki örnek LISTOFFIELDS işlevi kullanılarak oluşturulan ve kayıt listesi türündeki veri kaynağına bağlı olan ER biçim öğelerini gösterir.
-<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>
-
-Bu, tasarlanan biçim çalıştırılmasından çıkan sonuçtur.
-<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>
-
-No:</strong> Etiketler ve açıklamalar için çevrilen metin ER biçimi çıkışına, ana DOSYA ve KLASÖR biçim öğeleri için yapılandırılan dil ayarlarına uygun olarak doldurulur.</td>
+<p><a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="Format" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a></p>
+<p>Aşağıdaki örnek <strong>LISTOFFIELDS</strong> işlevi kullanılarak oluşturulan ve kayıt listesi türündeki veri kaynağına bağlı olan ER biçim öğelerini gösterir.</p>
+<p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
+<p>Aşağıdaki örnekte tasarlanan biçim çalıştırıldığında elde edilen sonuç gösterilir.</p>
+<p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
+<blockquote>[!NOTE]<br>
+Ana DOSYA ve KLASÖR biçim öğelerinin dil ayarlarına uygun olarak, etiketler ve açıklamalar için çevrilen metin ER biçiminin çıktısına girilir.</blockquote></td>
 </tr>
 <tr class="odd">
-<td>STRINGJOIN (liste, alan adı, ayırıcı)</td>
-<td>Seçili ayırıcı ile ayrılan bir listeden bir alanın birbirine bağlanan değerlerinin dizesini döndürür.</td>
-<td>DS veri kaynağı olarak SPLIT(“abc” , 1) girdiğinizde STRINGJOIN (DS, DS.Value, “:”) ifadesi “a:b:c” sonucunu verir</td>
+<td>LISTOFFIELDS (yol, dil)</td>
+<td>Model numaralandırması, biçim numaralandırması veya kapsayıcı gibi bir bağımsız değişkenden oluşturulan bir kayıt listesi döndürür. Oluşturulan liste aşağıdaki alanlara sahip kayıtları içerir:
+<ul>
+<li>Dosya Adı</li>
+<li>Etiket</li>
+<li>Tanım</li>
+<li>Çevrildi</li>
+</ul>
+<p>Çalışma zamanında, <strong>Etiket</strong> ve <strong>Açıklama</strong> alanları, biçimin dil ayarlarını ve belirtilen dili temel alan değerler döndürür. <strong>Çevrildi</strong> alanı <strong>Etiket</strong> alanının belirtilen dile çevrilmiş olduğunu belirtir.</td>
+<td>Örneğin, <strong>enumType</strong> veri modeli numaralandırması için <strong>enumType_de</strong> ve <strong>enumType_deCH</strong> veri kaynaklarını yapılandırmak üzere <strong>Hesaplanan alan</strong> veri kaynağı türünü kullanırsınız:
+<ul>
+<li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
+<li>enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</li>
+</ul>
+Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma değeri etiketiki İsviçre Almancası dilinde almak için aşağıdaki ifadeyi kullanabilirsiniz. İsviçre Almancası çeviri kullanılabilir durumda değilse, etiket Almanca olur: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.</td>
 </tr>
 <tr class="even">
-<td>SPLITLISTBYLIMIT (liste, sınır değeri, sınır kaynağı)</td>
-<td>Verilen listeyi alt listelerin yeni listesine ayırır ve kayıt listesi içeriğinde sonucu verir. Sınır kaynağı parametresi, kaynak listeyi ayırmak için sınırın değerini belirtir. Sınır kaynağı parametresi toplamın artırıldığı adımı belirtir. Sınır kaynağı tanımlanan sınırı aştığında sınır, verilen listedeki tek bir öğeye uygulanmaz.</td>
-<td>Aşağıdaki örnek veri kaynaklarını kullanan örnek biçimi gösterir. 
-<a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>
-
-Bu, emtia öğelerinin düz listesini temsil eden biçim yürütmesinin sonucudur.
-<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>
-
-Aşağıdaki örnek, tek bir toplu iş 9 limitini geçmemesi gereken toplam ağırlığa sahip emtiaları içerdiğinde, emtia maddelerinin listesini toplu işlerde ayarlananla aynı biçimde gösterir.
-<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>
-
-Bu, düzeltilen biçim çalıştırılmasından çıkan sonuçtur. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a>
-
-<strong>Not</strong>: Sınırının kaynak (ağırlık) değeri (11) tanımlanan sınırı (9) geçtiğinden sınır, kaynak listedeki son maddeye uygulanmaz. Rapor oluştururken (gerekirse) alt listeleri yok saymak (atlamak) için <strong>WHERE</strong> işlevini veya ilgili biçim öğesinin <strong>Etkinleştirildi</strong> ifadesini kullanın.</td>
+<td>STRINGJOIN (liste, alan adı, ayırıcı)</td>
+<td>Belirtilen listedeki belirtilen alanın art arda eklenmiş değerlerinden oluşan bir dize döndürür. Değerler belirtilen sınırlayıcı ile ayrılır.</td>
+<td>Veri kaynağı (DS) olarak <strong>SPLIT(&quot;abc&quot; , 1)</strong> girerseniz, <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> ifadesi <strong>&quot;a:b:c&quot;</strong> döndürür.</td>
 </tr>
 <tr class="odd">
+<td>SPLITLISTBYLIMIT (liste, sınır değeri, sınır kaynağı)</td>
+<td>Belirtilen listeyi alt listelerin yeni listesine ayırır ve kayıt listesi içeriğinde sonucu verir. Sınır değeri parametresi, kaynak listeyi ayırmak için sınırın değerini tanımlar. Sınır kaynağı parametresi toplamın artırıldığı adımı tanımlar. Sınır kaynağı tanımlanan sınırı aştığında sınır, kaynak listedeki tek bir öğeye uygulanmaz.</td>
+<td>Aşağıdaki örneklerde bunun için kullanılan biçin ve veri kaynakları gösterilmektedir. 
+<p><a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="Format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a></p>
+<p><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="Data sources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a></p>
+<p>Aşağıdaki örnekte biçim çalıştırıldığında elde edilen sonuç gösterilir. Bu durumda, çıktı emtia maddelerinin düz listesi olur.</p>
+<p><a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="Output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a></p>
+<p>Aşağıdaki örneklerde, tek bir toplu iş 9 limitini geçmemesi gereken toplam ağırlığa sahip emtiaları içerdiğinde, emtia maddelerinin listesini toplu işlerde ayarlananla aynı biçimde gösterir.</p>
+<p><a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="Adjusted format" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a></p>
+<p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
+<p>Aşağıdaki örnekte düzeltilen biçim çalıştırıldığında elde edilen sonuç gösterilir.</p>
+<p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
+<blockquote>[!NOTE]<br>
+Sınırının kaynak (ağırlık) değeri (11) tanımlanan sınırı (9) geçtiğinden sınır, kaynak listedeki son maddeye uygulanmaz. Rapor oluştururken gerekirse alt listeleri yok saymak (atlamak) için <strong>WHERE</strong> işlevini veya ilgili biçim öğesinin <strong>Etkinleştirildi</strong> ifadesini kullanın.</blockquote></td>
+</tr>
+<tr class="even">
 <td>FİLTRE (liste, koşul)</td>
-<td>Sorguyu değiştirerek belirtilen koşul için filtrelenmiş verilen listeye döndürür. <strong>WHERE</strong> işlevinin aksine, belirtilen koşul veri tabanı düzeyinde Tablo kayıt türünün herhangi bir ER veri kaynağına uygulanabilir.</td>
-<td><strong>Satıcı</strong>, <strong>VendTable</strong> tablosuna referansta bulunan ER veri kaynağı olarak yapılandırıldığında FİLTRE (Satıcılar, Vendors.VendGroup = &quot;40&quot;) yalnızca grup "40" listesinde bulunan satıcıların listesini döndürür</td>
+<td>Sorgu belirtilen koşula göre filtre uygulayacak şekilde değiştirildikten sonra belirtilen listeyi döndürür. <strong>WHERE</strong> işlevinden farklı olarak bu işlev, belirtilen koşul <strong>Tablo kayıtları</strong> türünün herhangi bir ER veri kaynağına veritabanı düzeyinde uygulanabilir. Liste ve koşul tablolar ve ilişkiler kullanılarak tanımlanabilir.</td>
+  <td><strong>Satıcı</strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılırsa, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong>, yalnızca grup 40'a dahil olan satıcıların listesini döndürür. <strong>Satıcı</strong> <strong>VendTable</strong> tablosuna başvuran bir ER veri kaynağı olarak yapılandırılsa ve ER veri kaynağı olarak yapılandırılan <strong>parmVendorBankGroup</strong> dize veri türündeki değeri döndürürse,  <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> yalnızca belirli bir banka grubuna ait olan satısı hesaplarının listesini döndürür.</td>
 </tr>
 </tbody>
 </table>
 
 ### <a name="logical-functions"></a>Mantıksal işlevler
 
-| İşlev                                                                                | Açıklama                                                                                                                                                                                                                                                                     | Örnek                                                                                                                                                                                                                                                      |
-|-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CASE (ifade, seçenek 1, sonuç 1 \[, seçenek 2, sonuç 2\]... \[, varsayılan sonuç\]) | Belirtilen ifade değerini, belirtilen alternatif seçeneklere karşı değerlendirin. İfadenin değerine eşit olan seçeneğin sonucunu döndür. Aksi halde, isteğe bağlı olarak girilen varsayılan sonucu (daha öncesinde bir seçenek olmayan son parametreyi) döndürür. | **CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "KIŞ", "11", "KIŞ", "12", "KIŞ", "")**, eğer geçerli Finance and Operations oturum tarihi Ekim ve Aralık arasındaysa, **KIŞ** dizesini döndürür. Aksi halde, boş bir dize döndürür. |
-| IF (koşul, değer 1, değer 2)                                                        | Belirli bir koşul karşılandığında belirtilen değer 1'i döndürür. Aksi takdirde değer 2'yi döndür. Eğer değer 1 ve değer 2, kayıt veya kayıt listeleriyse, sonuç sadece her iki listede de mevcut olan alanları içerecektir.                                                                     | **IF (1=2, "koşul karşılandı", "koşul karşılanmadı")**, **"koşul karşılanmadı"** dizesini döndürür.                                                                                                                                                      |
-| NOT (koşul)                                                                         | Belirtilen koşulun ters mantıksal değerini döndürür.                                                                                                                                                                                                                   | **DEĞİL (DOĞRU)**, **YANLIŞ** döndürür.                                                                                                                                                                                                                            |
-| VE (koşul 1\[, koşul 2, ...\])                                                 | *Tüm* belirtilen koşullar doğruysa, **DOĞRU** döndür. Aksi takdirde **YANLIŞ** döndürür.                                                                                                                                                                                            | **VE (1=1, "a"="a")**,**DOĞRU** döndürür. **AND (1=2, "a"="a")** **YANLIŞ** döndürür.                                                                                                                                                                           |
-| VEYA (koşul 1\[, koşul 2, ...\])                                                  | *Tüm* belirtilen koşullar yanlışsa, **YANLIŞ** döndür. *Herhangi bir* belirtilen koşul doğruysa **DOĞRU** döndür.                                                                                                                                                                 | **VEYA (1=2, "a"="a")**,**DOĞRU** döndürür.                                                                                                                                                                                                                      |
+| İşlev | Tanım | Örnek |
+|----------|-------------|---------|
+| CASE (ifade, seçenek 1, sonuç 1 \[, seçenek 2, sonuç 2\] … \[, varsayılan sonuç\]) | Belirtilen ifade değerini, belirtilen alternatif seçeneklere karşı değerlendirin. İfadenin değerine eşit olan seçeneğin sonucunu döndürür. Aksi takdirde, varsayılan sonuç belirtilmişse, isteğe bağlı varsayılan sonucu döndürür. (Varsayılan sonuç öncesinde bir seçenek olmayan son parametredir). | **CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "KIŞ", "11", "KIŞ", "12", "KIŞ", "")**, eğer geçerli Finance and Operations oturum tarihi Ekim ve Aralık arasındaysa, **KIŞ** dizesini döndürür. Aksi halde, boş bir dize döndürür. |
+| IF (koşul, değer 1, değer 2) | Belirtilen koşul karşılandığında ilk belirtilen değeri döndürür. Aksi takdirde, ikinci belirtilen değeri döndürür. Değer 1 ve değer 2, kayıt veya kayıt listeleriyse, sonuç sadece her iki listede de mevcut olan alanları içerir. | **IF (1=2, "koşul karşılandı", "koşul karşılanmadı")**, **"koşul karşılanmadı"** dizesini döndürür. |
+| NOT (koşul) | Belirtilen koşulun ters mantıksal değerini döndürür. | **DEĞİL (DOĞRU)**, **YANLIŞ** döndürür. |
+| AND (koşul 1\[, koşul 2, …\]) | *Tüm* belirtilen koşullar doğruysa, **DOĞRU** döndür. Aksi takdirde **YANLIŞ** döndürür. | **VE (1=1, "a"="a")**,**DOĞRU** döndürür. **AND (1=2, "a"="a")** **YANLIŞ** döndürür. |
+| OR (koşul 1\[, koşul 2, …\]) | *Tüm* belirtilen koşullar yanlışsa, **YANLIŞ** döndür. *Herhangi bir* belirtilen koşul doğruysa **DOĞRU** döndür. | **VEYA (1=2, "a"="a")**,**DOĞRU** döndürür. |
 
 ### <a name="mathematical-functions"></a>Matematik işlevi
 
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>İşlev</th>
-<th>Açıklama</th>
-<th>Örnek</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ABS (numara)</td>
-<td>Belirtilen sayının mutlak değerini döndürür (sayının işareti olmadan).</td>
-<td><strong>ABS (-1)</strong>, <strong>1</strong> döndürür.</td>
-</tr>
-<tr class="even">
-<td>KUVVET (sayı, kuvvet)</td>
-<td>Belirtilen pozitif sayının, belirtilen kuvvetine yükseltilmesinin sonucunu döndür.</td>
-<td><strong>KUVVET (10, 2)</strong>, <strong>100</strong> döndürür.</td>
-</tr>
-<tr class="odd">
-<td>NUMBERVALUE (dize, ondalık ayırıcı, basamak gruplandırma ayırıcı)</td>
-<td>Belirtilen dizeyi sayıya dönüştürün. Belirtilen sembol, bir ondalık sayının tamsayı ve ondalık kısımlarını ayırmak için kullanılır ve belirtilen binlik ayırıcısı da kullanılır.</td>
-<td><strong>NUMBERVALUE(&quot;1 234,56&quot;, &quot;,&quot;, &quot; &quot;)</strong> <strong>1234,56</strong> değerini döndürür.</td>
-</tr>
-<tr class="even">
-<td>VALUE (dize)</td>
-<td>Belirtilen dizeyi sayıya dönüştürün. Virgül ve nokta karakterleri (.) ondalık ayırıcı olarak kabul edilir ve önde gelen bir tire (-) eksi işareti olarak kullanılır. Belirtilen dizenin içinde sayısal olmayan karakterlerle karşılaşılırsa, bir özel durum hatası oluştur.</td>
-<td><strong>DEĞER (&quot;1 234,56&quot;)</strong> bir istisna oluşturur.</td>
-</tr>
-<tr class="odd">
-<td>ROUND (sayı, ondalık basamak)</td>
-<td>Belirtilen sayıdaki ondalık basamağa yuvarlanmış olan belirtilen sayıyı döndürür.
-<ul>
-<li>Eğer belirtilen ondalık değer 0'dan (sıfır) büyük ise, belirtilen sayı, belirtilen miktardaki ondalık basamağa yuvarlanır.</li>
-<li>Belirtilen ondalık değeri 0 (sıfır) ise, belirtilen sayı en yakın tamsayıya yuvarlanır.</li>
-<li>Eğer belirtilen ondalık değer 0'dan (sıfır) küçük ise, belirtilen sayı, belirtilen ondalık basamağın soluna yuvarlanır.</li>
-</ul></td>
-<td><strong>ROUND (1200.767, 2)</strong> iki ondalık basamağa yuvarlar ve <strong>1200.77</strong> sonucunu döndürür. <strong>ROUND (1200.767, -3)</strong> 1.000'in en yakın katına yuvarlar ve <strong>1000</strong> döndürür.</td>
-</tr>
-<tr class="even">
-<td>ROUNDDOWN (sayı, ondalık basamak)</td>
-<td>Belirtilen miktardaki ondalık basamağa aşağı yuvarlanmış (sıfıra doğru) olan belirtilmiş sayıyı döndürür. <strong>Not:</strong> Bu işlev <strong>YUVARLA</strong> gibi davranır ancak bu her zaman belirtilen aşağı doğru yuvarlar.</td>
-<td><strong>ROUNDDOWN (1200.767, 2)</strong> iki ondalık basamağa aşağı yuvarlar ve <strong>1200.76</strong> sonucunu döndürür. <strong>ROUNDDOWN (1700.767, -3)</strong> 1.000'in en yakın katına aşağı yuvarlar ve <strong>1000</strong> döndürür.</td>
-</tr>
-<tr class="odd">
-<td>ROUNDUP (sayı, ondalık basamak)</td>
-<td>Belirtilen miktardaki ondalık basamağa yukarı yuvarlanmış (sıfırdan uzağa) olan belirtilmiş sayıyı döndürür. <strong>Not:</strong> Bu işlev <strong>YUVARLA</strong> gibi davranır ancak bu her zaman belirtilen sayıyı yukarı doğru yuvarlar.</td>
-<td><strong>ROUNDUP (1200.763, 2)</strong> iki ondalık basamağa yukarı yuvarlar ve <strong>1200.77</strong> sonucunu döndürür. <strong>ROUNDUP (1200.767, -3)</strong> 1.000'in en yakın katına yukarı yuvarlar ve <strong>2000</strong> döndürür.</td>
-</tr>
-</tbody>
-</table>
+| İşlev | Açıklama | Örnek |
+|----------|-------------|---------|
+| ABS (numara) | Belirtilen sayının mutlak değerini döndürür. (Diğer bir deyişle, işareti olmadan sayıyı döndürür). | **ABS (-1)**, **1** döndürür. |
+| KUVVET (sayı, kuvvet) | Belirtilen pozitif sayının, belirtilen kuvvetine yükseltilmesinin sonucunu döndür. | **KUVVET (10, 2)**, **100** döndürür. |
+| NUMBERVALUE (dize, ondalık ayırıcı, basamak gruplandırma ayırıcı) | Belirtilen dizeyi sayıya dönüştürün. Belirtilen ondalık basamak ayırıcısı ondalık sayısının tam sayısı ile kesirli sayıları arasında kullanılır. Belirtilen basamak gruplandırma ayırıcısı binler basamağı ayırıcısı olarak kullanılır. | **NUMBERVALUE("1 234,56", ",", " ")**, **1234.56** değerini döndürür. |
+| VALUE (dize) | Belirtilen dizeyi sayıya dönüştürün. Virgül ve nokta karakterleri (.) ondalık ayırıcı olarak kabul edilir ve önde gelen bir tire (-), bir eksi işareti olarak kullanılır. Belirtilen dizenin sayısal olmayan karakterler içermesi durumunda bir özel durum oluşturur. | **DEĞER ("1 234,56")** bir istisna oluşturur. |
+| ROUND (sayı, ondalık basamak) | Belirtilen sayıyı, ondalık basamağındaki sayısı yuvarladıktan sonra döndürür.<ul><li>Ondalık parametresinin değeri 0'dan (sıfır) büyük ise, belirtilen sayı birçok ondalık basamağa yuvarlanır.</li><li>Ondalık parametresinin değeri **0** (sıfır) ise, belirtilen sayı en yakın tamsayıya yuvarlanır.</li><li>Ondalık parametresinin değeri 0'dan (sıfır) küçük ise, belirtilen sayı ondalık basamağın soluna yuvarlanır.</li></ul> | **ROUND (1200.767, 2)** iki ondalık basamağa yuvarlar ve **1200.77** sonucunu döndürür. **ROUND (1200.767, -3)** 1.000'in en yakın katına yuvarlar ve **1000** döndürür. |
+| ROUNDDOWN (sayı, ondalık basamak) | Belirtilen sayıyı, ondalık basamağındaki sayısı aşağı yuvarladıktan sonra döndürür.<blockquote>[!NOTE]<br>Bu işlev <strong>YUVARLA</strong> işlevi gibi davranır ancak belirtilen sayıyı daima aşağı doğru (sıfıra doğru) yuvarlar.</blockquote> | **ROUNDDOWN (1200.767, 2)** iki ondalık basamağa aşağı yuvarlar ve **1200.76** sonucunu döndürür. **ROUNDDOWN (1700.767, -3)** 1.000'in en yakın katına aşağı yuvarlar ve **1000** döndürür. |
+| ROUNDUP (sayı, ondalık basamak) | Belirtilen sayıyı, ondalık basamağındaki sayı yukarı yuvarladıktan sonra döndürür.<blockquote>[!NOTE]<br>Bu işlev <strong>YUVARLA</strong> işlevi gibi davranır ancak belirtilen sayıyı daima yukarı doğru (sıfırdan uzağa doğru) yuvarlar.</blockquote> | **ROUNDUP (1200.763, 2)** iki ondalık basamağa yukarı yuvarlar ve **1200.77** sonucunu döndürür. **ROUNDUP (1200.767, -3)** 1.000'in en yakın katına yukarı yuvarlar ve **2000** döndürür. |
 
-**Veri dönüştürme işlemleri**
+### <a name="data-conversion-functions"></a>Veri dönüştürme işlemleri
 
-| İşlev             | Açıklama                                                                                                                                                                                                                                     | Örnek                                                                                                                                             |
-|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| VALUE (dize) | Belirtilen dizeyi sayıya dönüştürün. Virgül ve nokta karakterleri (.) ondalık ayırıcı olarak kabul edilir ve önde gelen bir tire (-), bir eksi işareti olarak kullanılır. Belirtilen dizenin içinde sayısal olmayan karakterlerle karşılaşılırsa, bir hata oluştur.                                                                                  | **DEĞER ("1 234,56")** bir istisna oluşturur.   |
-| NUMBERVALUE (dize, ondalık ayırıcı, basamak gruplandırma ayırıcı) | Belirtilen dizeyi sayıya dönüştürün. Belirtilen sembol, bir ondalık sayının tamsayı ve ondalık kısımlarını ayırmak için kullanılır ve belirtilen binlik ayırıcısı da kullanılır.                                                                                  | **NUMBERVALUE("1 234,56", ",", " ")**, **1234.56** değerini döndürür.    |
-| INTVALUE (dize) | Dizenin tamsayı temsilini döndürür. Kullanılabilir tüm ondalık bölümler kesilir.                                                                                  | **INTVALUE (“100.77”)** **100** döndürür. |
-| INTVALUE (sayı) | Sayının tamsayı temsilini döndürür. Kullanılabilir tüm ondalık bölümler kesilir.                                                                                  | **INTVALUE (-100.77)** **-100** döndürür. |
-| INT64VALUE (dize) | Dizenin int64 temsilini döndürür. Kullanılabilir tüm ondalık bölümler kesilir.                                                                                  | **INT64VALUE (“22565422744”)** **22565422744** döndürür. |
-| INT64VALUE (numara) | Sayının int64 temsilini döndürür. Kullanılabilir tüm ondalık bölümler kesilir.                                                                                  | **INT64VALUE (22565422744.00)** **22565422744** döndürür. |
-
-
+| İşlev | Açıklama | Örnek |
+|----------|-------------|---------|
+| VALUE (dize) | Belirtilen dizeyi sayıya dönüştürün. Virgül ve nokta karakterleri (.) ondalık ayırıcı olarak kabul edilir ve önde gelen bir tire (-), bir eksi işareti olarak kullanılır. Belirtilen dizenin sayısal olmayan karakterler içermesi durumunda bir özel durum oluşturur. | **DEĞER ("1 234,56")** bir istisna oluşturur. |
+| NUMBERVALUE (dize, ondalık ayırıcı, basamak gruplandırma ayırıcı) | Belirtilen dizeyi sayıya dönüştürün. Belirtilen ondalık basamak ayırıcısı ondalık sayısının tam sayısı ile kesirli sayıları arasında kullanılır. Belirtilen basamak gruplandırma ayırıcısı binler basamağı ayırıcısı olarak kullanılır. | **NUMBERVALUE("1 234,56", ",", " ")** **1234.56** döndürür. |
+| INTVALUE (dize) | Belirtilen dizenin tamsayı temsilini döndürür. Ondalık basamaklar kesilir. | **INTVALUE ("100.77")** **100** döndürür. |
+| INTVALUE (sayı) | Belirtilen sayının tamsayı temsilini döndürür. Ondalık basamaklar kesilir. | **INTVALUE (-100.77)** **-100** döndürür. |
+| INT64VALUE (dize) | Belirtilen dizenin int64 temsilini döndürür. Ondalık basamaklar kesilir. | **INT64VALUE ("22565422744")** **22565422744** döndürür. |
+| INT64VALUE (numara) | Belirtilen sayının int64 temsilini döndürür. Ondalık basamaklar kesilir. | **INT64VALUE (22565422744.00)** **22565422744** döndürür. |
 
 ### <a name="record-functions"></a>Kayıt işlevleri
 
-| İşlev             | Açıklama                                                                                                                                                                                                                                     | Örnek                                                                                                                                             |
-|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| NULLCONTAINER (liste) | Belirtilen kayıt listesi veya kayıt ile aynı yapıya sahip bir **null** kaydı döndürür. **Not:** bu işlev artık kullanılmamaktadır. Bunun yerine **EMPTYRECORD** kullanın.                                                                                  | **NULLCONTAINER (SPLIT ("abc", 1))**, **SPLIT** işlevi tarafından döndürülen listeyle aynı yapıya sahip, boş yeni bir kayıt döndürür. |
-| EMPTYRECORD (kayıt) | Belirtilen kayıt listesi veya kayıt ile aynı yapıya sahip bir **null** kaydı döndürür. **Not:** Bir **null** kaydı, tüm alanların boş değere sahip olduğu bir kayıttır (sayılar için **0** \[sıfır\], dizeler için boş dize ve benzeri şekilde). | **EMPTYRECORD (SPLIT ("abc", 1))**, **SPLIT** işlevi tarafından döndürülen listeyle aynı yapıya sahip, boş yeni bir kayıt döndürür.   |
+| İşlev | Açıklama | Örnek |
+|----------|-------------|---------|
+| NULLCONTAINER (liste) | Belirtilen kayıt listesi veya kayıt ile aynı yapıya sahip bir **null** kaydı döndürür.<blockquote>[!NOTE]<br>Bu işlev artık kullanılmamaktadır. Bunun yerine <strong>EMPTYRECORD</strong> kullanın.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))**, **SPLIT** işlevi tarafından döndürülen listeyle aynı yapıya sahip, boş yeni bir kayıt döndürür. |
+| EMPTYRECORD (kayıt) | Belirtilen kayıt listesi veya kayıt ile aynı yapıya sahip bir **null** kaydı döndürür.<blockquote>[!NOTE]<br><strong>Boş</strong> kayıt, tüm alanlarda boş değeri bulunan kayıttır. Boş değer sayılar için <strong>0</strong> (sıfır), dizeler için boş bir dize vb.'dir.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))**, **SPLIT** işlevi tarafından döndürülen listeyle aynı yapıya sahip, boş yeni bir kayıt döndürür. |
 
 ### <a name="text-functions"></a>Metin işlevleri
 
@@ -484,19 +472,19 @@ Bu, düzeltilen biçim çalıştırılmasından çıkan sonuçtur. <a href="./me
 <thead>
 <tr class="header">
 <th>İşlev</th>
-<th>Açıklama</th>
+<th>Tanım</th>
 <th>Örnek</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>UPPER (dize)</td>
-<td>Büyük harfe dönüştürülmüş olan, belirtilen dizeyi döndürür.</td>
+<td>Belirtilen dizeyi büyük harfe dönüştürdükten sonra döndürür.</td>
 <td><strong>UPPER(&quot;Örnek&quot;)</strong>, <strong>&quot;ÖRNEK&quot;</strong> sonucunu döndürür.</td>
 </tr>
 <tr class="even">
 <td>LOWER (dize)</td>
-<td>Küçük harfe dönüştürülmüş olan, belirtilen dizeyi döndürür.</td>
+<td>Belirtilen dizeyi küçük harfe dönüştürdükten sonra döndürür.</td>
 <td><strong>LOWER(&quot;Örnek&quot;)</strong>, <strong>&quot;örnek&quot;</strong> sonucunu döndürür.</td>
 </tr>
 <tr class="odd">
@@ -522,12 +510,18 @@ Bu, düzeltilen biçim çalıştırılmasından çıkan sonuçtur. <a href="./me
 <tr class="odd">
 <td>CHAR (numara)</td>
 <td>Belirtilen Unicode numarası tarafından başvuruda bulunulan karakter dizesini döndürür.</td>
-<td><strong>CHAR (255)</strong>, <strong>&quot;ÿ&quot;</strong> döndürür. <strong>Not:</strong> Döndürülen dize DOSYA biçimi üst öğesinde seçtiğiniz kodlamaya bağlıdır. Desteklenen kodlamalar listesi <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Kodlama Sınıfı</a> konusunda bulunabilir.</td>
+<td><strong>CHAR (255)</strong>, <strong>&quot;ÿ&quot;</strong> döndürür.
+<blockquote>[!NOTE]<br>
+Bu işlevin döndürdüğü dize DOSYA biçimi üst öğesinde seçtiğiniz kodlamaya bağlıdır. Desteklenen kodlamalar listesi için bkz. <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Kodlama sınıfı</a>.</blockquote>
+</td>
 </tr>
 <tr class="even">
 <td>CONCATENATE (dize 1 [, dize 2, …])</td>
-<td>Bir dizeye dahil edilen, belirtilen tüm dizeleri döndür.</td>
-<td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong>, <strong>&quot;abcdef&quot;</strong>döndürür. <strong>Not:</strong> <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> ifadesi de <strong>&quot;abcdef&quot;</strong> döndürür.</td>
+<td>Tüm belirtilen metin dizelerini bir dizeye bağlandıktan sonra döndürür.</td>
+<td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong>, <strong>&quot;abcdef&quot;</strong>döndürür.
+<blockquote>[!NOTE]<br>
+<strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> ifadesi ayrıca <strong>&quot;abcdef&quot;</strong> döndürür.</blockquote>
+</td>
 </tr>
 <tr class="odd">
 <td>TRANSLATE (dize, kalıp, değiştirme)</td>
@@ -536,21 +530,20 @@ Bu, düzeltilen biçim çalıştırılmasından çıkan sonuçtur. <a href="./me
 </tr>
 <tr class="even">
 <td>REPLACE (dize, desen, değiştirme, normal ifade işareti)</td>
-<td>Belirtilen normal ifade bayrağı <strong>doğru</strong> olduğunda, bir desen olarak bu işlev için belirtilen normal ifade uygulanarak modifiye edilen belirtilen dizeyi döndür. Bu ifade, değiştirilmesi gereken karakterleri bulmakta kullanılır. Belirtilen değiştirme bağımsız değişkenindeki karakterler, bulunan karakterleri değiştirmek için kullanılır. Belirtilen normal ifade bayrağı <strong>yanlış</strong> ise, bu işlev <strong>TRANSLATE</strong> gibi davranır.</td>
-<td>  <strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> üm sayısal olmayan karakterleri kaldıran bir normal ifade uygular ve <strong>&quot;19234564971&quot;</strong> döndürür. <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, yanlış)</strong> <strong>&quot;cd&quot;</strong> desenini <strong>&quot;GH&quot;</strong> satırı ile değiştirir ve <strong>&quot;abGHef&quot;</strong> döndürür.</td>
+<td>Belirtilen normal ifade bayrağı <strong>doğru</strong> olduğunda, belirtilen dizeyi bu işlev için desen bağımsız değişkeni olarak belirtilen normal ifadeyi uygulayarak değiştirdikten sonra döndürür. Bu ifade, değiştirilmesi gereken karakterleri bulmakta kullanılır. Belirtilen değiştirme bağımsız değişkenindeki karakterler, bulunan karakterleri değiştirmek için kullanılır. Belirtilen normal ifade bayrağı <strong>yanlış</strong> ise, bu işlev <strong>TRANSLATE</strong> gibi davranır.</td>
+<td><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> üm sayısal olmayan karakterleri kaldıran bir normal ifade uygular ve <strong>&quot;19234564971&quot;</strong> döndürür. <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, yanlış)</strong> <strong>&quot;cd&quot;</strong> desenini <strong>&quot;GH&quot;</strong> satırı ile değiştirir ve <strong>&quot;abGHef&quot;</strong> döndürür.</td>
 </tr>
 <tr class="odd">
 <td>TEXT (giriş)</td>
-<td>Geçerli Finance and Operations örneğinin sunucu yerel ayarlarına göre biçimlendirilmiş bir metin dizesine çevrilmiş olan belirtilen girişi döndürür. <strong>gerçek</strong> türün değerleri için, dize dönüşümü iki ondalık basamakla sınırlıdır.</td>
-<td>Eğer Finance and Operations kurulumunun sunucu yerel ayarı <strong>EN-US</strong> olarak tanımlanmışsa, T<strong>EXT (NOW ())</strong> 12/17/2015 geçerli mevcut Finance and Operations oturum tarihini, <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong> olarak döndürür. <strong>TEXT (1/3)</strong> <strong>&quot;0.33&quot;</strong> döndürür.</td>
+<td>Belirtilen giriş geçerli Finance and Operations örneğinin sunucu yerel ayarlarına göre biçimlendirilmiş bir metin dizesine çevrildikten sonra döndürür. <strong>gerçek</strong> türün değerleri için, dize dönüşümü iki ondalık basamakla sınırlıdır.</td>
+<td>Finance and Operations örneğinin sunucu yerel ayarı <strong>EN-US</strong> olarak tanımlanırsa, <strong>TEXT (NOW ())</strong> geçerli Finance and Operations oturum tarihi olan Aralık 17, 2015 değerini <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong> metin dizesi olarak döndürür. <strong>TEXT (1/3)</strong> <strong>&quot;0.33&quot;</strong> döndürür.</td>
 </tr>
 <tr class="even">
-<td>FORMAT (dize 1, dize 2[, dize 3, ...])</td>
-<td>Tüm <strong>%N</strong> oluşumlarını <em>n</em>'ci bağımsız değişken ile değiştirilmiş belirtilen dizeyi döndür. Bağımsız değişkenler, dizelerdir. Bir parametre için bir bağımsız değişken sağlanmamışsa, parametre izede <strong>&quot;%N&quot;</strong> olarak döndürülür. <strong>gerçek</strong> türün değerleri için, dize dönüşümü iki ondalık basamakla sınırlıdır.</td>
-<td>Bu örnekte, <strong>PaymentModel</strong> veri kaynağı müşteri kayıtlarının listesini <strong>Müşteri</strong> bileşeni ve işleme tarihi değerini <strong>ProcessingDate</strong> alan üzerinden verir. 
-<a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> 
-
-Seçilen müşteriler için elektronik dosya oluşturmak üzere tasarlanmış ER biçiminde veri kaynağı olarak <strong>PaymentModel</strong> seçilir ve işlem akışını denetler. Seçilmiş bir müşteri, raporun işlendiği tarihte durdurulmuşsa, son kullanıcılar için bir özel durum oluşturulur. Bu tür bir işleme denetimi için tasarlanmış formül aşağıdaki kaynakları kullanabilir:
+<td>FORMAT (dize 1, dize 2[, dize 3, …])</td>
+<td>Belirtilen dizeyi, tüm <strong>%N</strong> oluşumlarını <em>n</em>'ci bağımsız değişken ile değiştirerek biçimlendirdikten sonra döndürür. Bağımsız değişkenler, dizelerdir. Bir parametre için bir bağımsız değişken sağlanmamışsa, parametre izede <strong>&quot;%N&quot;</strong> olarak döndürülür. <strong>gerçek</strong> türün değerleri için, dize dönüşümü iki ondalık basamakla sınırlıdır.</td>
+<td>Aşağıdaki örnekte, <strong>PaymentModel</strong> veri kaynağı müşteri kayıtlarının listesini <strong>Müşteri</strong> bileşeni ve işleme tarihi değerini <strong>ProcessingDate</strong> alanı üzerinden döndürür.
+<p><a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a></p>
+<p>Seçilen müşteriler için elektronik dosya oluşturmak üzere tasarlanmış ER biçiminde veri kaynağı olarak <strong>PaymentModel</strong> seçilir ve işlem akışını denetler. Seçilmiş bir müşteri raporun işlendiği tarihte durdurulmuşsa, kullanıcıyı bilgilendirmek için bir özel durum oluşturulur. Bu tür bir işleme denetimi için tasarlanmış formül aşağıdaki kaynakları kullanabilir:</p>
 <ul>
 <li>Aşağıdaki metne sahip Finance and Operations SYS70894 etiketi:
 <ul>
@@ -563,11 +556,18 @@ Seçilen müşteriler için elektronik dosya oluşturmak üzere tasarlanmış ER
 <li><strong>DE dili için:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
-Tasarlanabilir formül şudur: FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;)) Eğer bir rapor <strong>Litware Perakende müşterisi</strong> için 17 Aralık 2015 tarihinde, <strong>TR-TR</strong> kültüründe ve <strong>TR-TR</strong> dilinde işlenmişse, bu formül son kullanıcıya bir özel durum iletisi olarak sunulabilecek aşağıdaki metni içerir: &quot;Yazdırılacak hiçbir şey yok. Müşteri Litware Retail, 17/12/2015 için durdurulmuştur.&quot; Eğer aynı rapor<strong> Litware Retail müşterisi</strong> için 17 Aralık 2015 tarihinde <strong>DE</strong> kültürü ve <strong>DE</strong> dilinde işlenmişse, bu formül başka bir tarih biçimini kullanan aşağıdaki metni döndürür: &quot;Nichts zu drucken. Debitor 'Litware Retail' 17.12.2015 için kilitlenir&quot; <strong>Not:</strong> Aşağıdaki sözdizimi etiketler için ER formüllerinde uygulanır:
+<p>Tasarlanabilen formül şudur:</p>
+<p>FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;))</p>
+<p>Rapor <strong>Litware Retail</strong> müşterisi için Aralık 17, 2015 tarihinde <strong>EN-US</strong> kültüründe ve <strong>EN-US</strong> dilinde işlenmişse bu formül son kullanıcıya özel durum iletisi olarak sunulabilecek aşağıdaki metni içerir:</p>
+<p>&quot;Yazdırılacak hiçbir şey yok. Müşteri Litware perakende 17/12/2015 için durduruldu.&quot;</p>
+<p>Aynı rapor <strong>Litware Retail</strong> müşterisi için Aralık 17, 2015 tarihinde <strong>DE</strong> kültürü ve <strong>DE</strong> dilinde işlenmişse, bu formül başka bir tarih biçimini kullanan aşağıdaki metni döndürür:</p>
+<p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
+<blockquote>[!NOTE]<br>
+Aşağıdaki sözdizimi, etiketler için ER formüllerinde kullanılır:
 <ul>
 <li><strong>Finance and Operations kaynaklarından etiketler için:</strong> <strong>@&quot;X&quot;</strong>, burada X Uygulama Nesne Ağacı (AOT) etiket kimliğidir.</li>
 <li><strong>ER yapılandırmaları içinde bulunan etiketler için:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, burada X, ER yapılandırma etiket kimliğidir.</li>
-</ul></td>
+</ul></blockquote></td>
 </tr>
 <tr class="odd">
 <td>NUMBERFORMAT (sayı, biçim)</td>
@@ -576,84 +576,78 @@ Tasarlanabilir formül şudur: FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot
 </tr>
 <tr class="even">
 <td>NUMERALSTOTEXT (sayı, dil, para birimi, para birimi adını yazdır bayrağı, ondalık basamaklar)</td>
-<td>Tanımlanmış dildeki metin dizelerine hecelenen (dönüştürülen) sayıya döner. Dil kodu isteğe bağlıdır: Boş dize olarak tanımlandığında yerine çalışan içerik dil kodu (bir dosya veya klasör oluşturmak için tanımlanan) kullanılır. Para birimi kodu isteğe bağlıdır. Boş dize olarak tanımlandığında, şirket para birimi alınır. <strong>Para birimi adını yazdır</strong> parametresi ve <strong>Ondalık basamaklar</strong> parametresinin yalnızca aşağıdaki dil kodları için analiz edildiğini unutmayın: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong>, <strong>RU</strong>. <strong>Para birimi adını yazdır</strong> parametresinin yalnızca para birimi gerilemesini destekleyen ülkeye bağlı Finance and Operations şirketleri için analiz edildiğini unutmayın.</td>
-<td>NUMERALSTOTEXT (1234.56, &quot;TR&quot;, &quot;&quot;, yanlış, 2) “Bin iki yüz otuz dört ve 56” döndürür NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, yanlış, 0) “Sto dwadzieścia” döndürür NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, doğru, 2) “Сто двадцать евро 21 евроцент” döndürür</td>
+<td>Belirtilen sayıyı belirtilen dilde metin dizeleri olarak hecelendikten (dönüştürüldükten) sonra döndürür. Dil kodu isteğe bağlıdır. Boş dize olarak tanımlandığında, bunun yerine çalışma bağlamının dil kodu kullanılır. (Çalışılan bağlamın dil kodu oluşturulan klasör veya dosya için tanımlanır.) Para birimi kodu da isteğe bağlıdır. Boş dize olarak tanımlandığında, şirket para birimi kullanılır.
+<blockquote>[!NOTE]<br>
+Para birimi adını yazdır bayrağı ve ondalık basamak parametreleri yalnozca şu dil kodları için analiz edilir: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> ve <strong>RU</strong>. Ek olarak, para birimi adını yazdır bayrağı parametresi yalnızca ülke veya bölge bağlamının para birimi adlarının gerilemesini destekleyen Finance and Operations şirketleri için analiz edilir.</blockquote></td>
+<td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> <strong>&quot;One Thousand Two Hundred Thirty Four and 56&quot;</strong> döndürür. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0)</strong> <strong>&quot;Sto dwadzieścia&quot;</strong> döndürür. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong> döndürür.</td>
 </tr>
 <tr class="odd">
 <td>PADLEFT (dize, uzunluk, doldurma karakterleri)</td>
-<td>Geçerli dizenin başlangıcının belirtilen karakterlerle doldurulduğu belirtilen uzunlukta bir dize verir.</td>
-<td>PADLEFT ("1234", 10,"") “      1234” metin dizesini döndürür</td>
+<td>Belirtilen dizenin başlangıcının belirtilen karakterlerle doldurulduğu belirtilen uzunlukta bir dize döndürür.</td>
+<td><strong>PADLEFT (&quot;1234&quot;, 10, &quot;&nbsp;&quot;)</strong> <strong>&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234&quot;</strong> metin dizesini döndürür.</td>
 </tr>
 <tr class="even">
 <td>TRIM (dize)</td>
-<td>Baştaki ve sondaki boşlukların kesilmesinden sonra belirli bir metni ve sözcükler arasındaki birden fazla boşluğu kaldırarak döndürür. </td>
-<td><strong>TRIM ("     Örnek     metin     ")</strong>, <strong>"Örnek metin" döndürür.</strong></td>
+<td>Belirtilen metin dizesini baştaki ve sondaki boşluklar kesildikten ve sözcükler arasındaki birden fazla boşluk kaldırıldıktan sonra döndürür.</td>
+<td><strong>TRIM (&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sample&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;)</strong>  <strong>&quot;Örnek metin&quot;</strong> döndürür.</td>
 </tr>
 <tr class="odd">
 <td>GETENUMVALUEBYNAME (veri kaynağı yolu numaralandırması, değer etiket metni numaralandırması)</td>
-<td>Belirli bir numaralandırma veri kaynağının değerini, bu numaralandırma etiketinin belirtilen metni ile döndürür.</td>
-<td>Aşağıdaki örnek bir veri modelinde oluşturulan ReportDirection numaralandırmasını gösterir. Etiketlerin numaralandırma değerleri ile tanımlandığını unutmayın.
-<a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>  
-<p>Aşağıdaki örnekler şunu gösterir:</p>
-<ul><li>Veri kaynağı <strong>$Direction</strong> olarak bir rapora eklenen model numaralandırma <strong>ReportDirection</strong></li>
-<li>Bu işlevin parametresi olarak model numaralandırma kullanmak için tasarlanan ER ifadesi <strong>$IsArrivals</strong>. Bu ifadenin değeri <strong>DOĞRU</strong>'dur.
-</li></ul>
+<td>Belirli bir numaralandırma veri kaynağının değerini, numaralandırma etiketinin belirtilen metnini temel alarak döndürür.</td>
+<td>Aşağıdaki örnekte, bir veri modelinde oluşturulan <strong>ReportDirection</strong> numaralandırması gösterilmektedir. Etiketlerin numaralandırma değerleri ile tanımlandığını unutmayın.
+<p><a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></p>
+<p>Aşağıdaki örnek ayrıntıları göstermektedir:</p>
+<ul>
+<li>Veri kaynağı <strong>$Direction</strong> olarak bir rapora eklenen <strong>ReportDirection</strong> model numaralandırması.</li>
+<li>Bu işlevin parametresi olarak model numaralandırma kullanmak için tasarlanan <strong>$IsArrivals</strong> ER ifadesi. Bu ifadenin değeri <strong>DOĞRU</strong>'dur.</li>
+</ul>
 <a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></td>
 </tr>
 </tbody>
 </table>
 
-**Veri dönüştürme işlemleri**
+### <a name="data-conversion-functions"></a>Veri dönüştürme işlemleri
 
-| İşlev             | Tanım                                                                                                                                                                                                                                     | Örnek                                                                                                                                             |
-|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| TEXT (giriş) | Geçerli Finance and Operations örneğinin sunucu yerel ayarlarına göre biçimlendirilmiş bir metin dizesine çevrilmiş olan belirtilen girişi döndürür.
-gerçek türün değerleri için, dize dönüşümü iki ondalık basamakla sınırlıdır.| Eğer Finance and Operations kurulumunun sunucu yerel ayarı **EN-US, TEXT (NOW ())** olarak tanımlanmışsa, 12/17/2015 geçerli mevcut Finance and Operations oturum tarihini, **12/17/2015 07:59:23 AM** olarak döndürülür.
-**TEXT (1/3) "0.33" döndürür**. |
-| QRCODE (dize) | Belirli bir dize için base64 ikili biçiminde QR kodu görüntüsü döndürür. | **QRCODE (“Örnek metin”)**, **U2FtcGxlIHRleHQ=** döndürür.   |
+| İşlev | Tanım | Örnek |
+|----------|-------------|---------|
+| TEXT (giriş) | Belirtilen giriş geçerli Finance and Operations örneğinin sunucu yerel ayarlarına göre biçimlendirilmiş bir metin dizesine çevrildikten sonra döndürür. **gerçek** türün değerleri için, dize dönüşümü iki ondalık basamakla sınırlıdır. | Finance and Operations örneğinin sunucu yerel ayarı **EN-US** olarak tanımlanırsa, **TEXT (NOW ())** geçerli Finance and Operations oturum tarihi olan Aralık 17, 2015 değerini **12/17/2015 07:59:23 AM** metin dizesi olarak döndürür. **TEXT (1/3)**, **"0.33"** döndürür. |
+| QRCODE (dize) | Belirtilen dize için base64 ikili biçiminde QR kodu görüntüsü döndürür. | **QRCODE ("Örnek metin")** **U2FtcGxlIHRleHQ=** döndürür. |
 
 ### <a name="data-collection-functions"></a>Veri toplama işlevleri
 
-| İşlev             | Açıklama                                                                                                                                                                                                                                     | Örnek                                                                                                                                             |
-|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| FORMATELEMENTNAME () | Geçerli biçimin öğesinin adını verir. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında boş dizeye döner.| Bu işlevlerin kullanımı hakkında daha fazla bilgi edinmek için **ER Sayma ve toplama için çıktı biçiminde verileri kullanma** (**BT hizmeti/çözüm bileşenleri al/geliştir** iş sürecinin parçası) Görev kılavuzuna başvurun. |
-| SUMIFS (toplamı alınacak temel dize, ölçüt aralığı1 dizesi, ölçüt değeri1 dizesi \[, ölçüt aralığı2 dizesi, ölçütlere değeri2 dizesi, ...\]) |Bu biçim yürütme işlemi sırasında toplanan ve girilen koşulları (aralık ve değer çiftleri) karşılayan XML düğümlerinin (bir anahtar olarak tanımlanan ada sahip) değerlerine ait bir toplama döner. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında sıfır değerine döner. |            |
-| SUMIF (toplama için temel dize, ölçüt aralığı dizesi, ölçüt değeri dizesi) | Bu biçim yürütme işlemi sırasında toplanan ve girilen koşulu (aralık ve değer) karşılayan XML düğümlerinin (bir anahtar olarak tanımlanan ada sahip) değerlerine ait bir toplama döner. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında sıfır değerine döner.|           |
-| COUNTIFS (ölçüt aralığı1 dizesi, ölçüt değeri1 dizesi \[, ölçüt aralığı2 dizesi, ölçütlere değeri2 dizesi, ...\]) | Bu biçim yürütme işlemi sırasında toplanan ve girilen koşulları (aralık ve değer çiftleri) karşılayan XML düğüm sayısına döner. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında sıfır değerine döner.|     |
-| COUNTIF (ölçüt aralığı dizesi, ölçüt değeri dizesi) | Bu biçim yürütme işlemi sırasında toplanan ve girilen koşulu (aralık ve değer) karşılayan XML düğüm sayısına döner. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında sıfır değerine döner.|          |
-| COLLECTEDLIST (ölçüt aralığı1 dizesi, ölçüt değeri1 dizesi \[, ölçüt aralığı2 dizesi, ölçütlere değeri2 dizesi, ...\]) | Bu biçim yürütme işlemi sırasında toplanan ve girilen koşulları (aralık ve değer) karşılayan XML düğüm değerlerinin listesine döner. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında boş listeye döner.|               |   
-
-
-
+| İşlev | Tanım | Örnek |
+|----------|-------------|---------|
+| FORMATELEMENTNAME () | Geçerli biçimin öğesinin adını döndürür. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında boş bir size döndürür. | Bu işlevlerin kullanımı hakkında daha fazla bilgi edinmek için **ER Sayma ve toplama için çıktı biçiminde verileri kullanma** görev kılavuzuna (**BT hizmeti/çözüm bileşenleri alma/geliştirme** iş sürecinin parçasıdır) başvurun. |
+| SUMIFS (toplamı alınacak temel dize, ölçüt aralığı1 dizesi, ölçüt değeri1 dizesi \[, ölçüt aralığı2 dizesi, ölçütlere değeri2 dizesi, ...\]) | Bu biçimi yürütme işlemi sırasında toplanan ve belirtilen koşulları (aralık ve değer çiftleri) karşılayan XML düğümlerinin (bir anahtar olarak tanımlanan ada sahip) değerlerine ait bir toplama döndürür. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında **0** (sıfır) değeri döndürür. | |
+| SUMIF (toplama için temel dize, ölçüt aralığı dizesi, ölçüt değeri dizesi) | Bu biçimi yürütme işlemi sırasında toplanan ve belirtilen koşulu (aralık ve değer) karşılayan XML düğümlerinin (bir anahtar olarak tanımlanan ada sahip) değerlerine ait bir toplama döndürür. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında **0** (sıfır) değeri döndürür. | |
+| COUNTIFS (ölçüt aralığı1 dizesi, ölçüt değeri1 dizesi \[, ölçüt aralığı2 dizesi, ölçütlere değeri2 dizesi, ...\]) | Biçimi yürütme işlemi sırasında toplanan ve belirtilen koşulları (aralık ve değer çiftleri) karşılayan XML düğüm sayısını döndürür. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında **0** (sıfır) değeri döndürür. | |
+| COUNTIF (ölçüt aralığı dizesi, ölçüt değeri dizesi) | Biçimi yürütme işlemi sırasında toplanan ve girilen koşulu (aralık ve değer) karşılayan XML düğüm sayısını döndürür. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında **0** (sıfır) değeri döndürür. | |
+| COLLECTEDLIST (ölçüt aralığı1 dizesi, ölçüt değeri1 dizesi \[, ölçüt aralığı2 dizesi, ölçütlere değeri2 dizesi, ...\]) | Biçimi yürütme işlemi sırasında toplanan ve girilen koşulları (aralık ve değer) karşılayan XML'in XML düğümleri değer listesini döndürür. Geçerli dosyaların **Çıkış ayrıntılarını topla** bayrağı kapatıldığında boş liste döndürür. | |
 
 ### <a name="other-business-domainspecific-functions"></a>Diğer (belirli iş etki alanı) işlevleri
 
-| İşlev                                                                         | Açıklama                                                                                                                                                                                                                                                        | Örnek                                                                                                                                                                                                                                                                                                       |
-|----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CONVERTCURRENCY (tutar, kaynak para birimi, hedef para birimi, tarih, şirket)        | Belirtilen parasal tutarı kaynak para biriminden, belirtilen tarihte Finance and Operations şirketin belirtilen ayarları kullanarak hedef para birimine dönüştürür.                                                                            | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")**, şimdiki oturum tarihinde, DEMF şirket ayarlarına dayalı olarak bir euro'nun ABD doları olarak karşılığını döndürür.                                                                                                                                  |
-| ROUNDAMOUNT (sayı, ondalık, yuvarlama kuralı)                                       | Belirtilmiş yuvarlama kuralına ve belirtilen ondalık basamağa göre belirtilen tutarı yuvarla. **Not:** Yuvarlama kuralı Finance and Operations **RoundOffType** numaralandırmasının bir değeri olarak belirtilmelidir.                          | Eğer **model.RoundOff** parametresi ****Aşağıya**** olarak ayarlanmışsa, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)**, **1000,78** değerini döndürür. Eğer **model.RoundOff** parametresi **Normal** ya da **Yukarıya yuvarla** olarak ayarlanmışsa, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)**, **1000,79** değerini döndürür. |
-| CURCredRef (basamak)                                                              | Belirtilen fatura numarasının basamaklarına dayalı olarak bir alacaklı başvurusu döndür.                                                                                                                                                                                  | **CURCredRef ("Satıcı-200002")**, **"2200002"** döndürür.                                                                                                                                                                                                                                                         |
-| MOD\_97 (basamak)                                                                 | Belirtilen fatura numarasının basamaklarına dayalı olarak bir alacaklı başvurusunu bir MOD97 ifadesi olarak döndür.                                                                                                                                                            | **MOD\_97 ("VEND-200002")**, **"20000285"** döndürür.                                                                                                                                                                                                                                                           |
-| ISOCredRef (basamak)                                                              | Bir ISO alacaklı başvurusunu, belirtilen fatura numarasının basamakları ve alfabetik sembollerine dayalı olarak döndür. **Not:** ISO uyumlu olmayan alfabelerden sembolleri elemek için, giriş parametresinin işleve gönderilmeden önce çevrilmesi gerekir. | **ISOCredRef ("VEND-200002")**, **"RF23VEND-200002"** döndürür.                                                                                                                                                                                                                                                 |
-| CN\_GBT\_AdditionalDimensionID (dize, sayı)                                  | Ek mali boyut kimliğini alın. Boyutlar bu dizede kimlikler virgüllerle ayrılmış olarak gösterilir. Sayılar, bu dizede istenen boyutun sıra kodunu tanımlar.                                                                            | CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3) “CC” döndürür                                                                                                                                                                                                                                      |
-| GetCurrentCompany ()                                                             | Bir kullanıcının oturum açmış olduğu tüzel kişiliğin (şirket) kodunun metin olarak gösterimini döndürür.                                                                                                                                                                                                                    | **GETCURRENTCOMPANY ()**, **Contoso Entertainment System USA** şirketine oturum açmış bir kullanıcı için **USMF** döndürür.                                                                                                                                                                                                                                                                                                              |
-| CH\_BANK\_MOD\_10 (basamaklar)                                                       | Belirtilen fatura numarasının basamaklarını temel alarak bir alacaklı referansı olan MOD10 ifadesini döndürür.                                                                                                                                                                      | CH\_BANK\_MOD\_10 ("VEND-200002") 3 döndürür                                                                                                                                                                                                                                                                   |
-| FA\_SUM (sabit kıymet kodu, değer modeli kodu, başlangıç tarihi, bitiş tarihi)               | Bir döneme ait sabit kıymet tutarlarının hazırlanan veri kapsayıcısını verir.                                                                                                                                                                                         | FA\_SUM ("COMP 000001", "Geçerli", Tarih1, Tarih2) Tarih1'den Tarih2'ye kadar olan bir dönem için "Geçerli" değer modeli ile hazırlanmış "COMP-000001" sabit kıymet veri kapsayıcısını döndürür.                                                                                                                        |
-| FA\_BALANCE (sabit kıymet kodu, değer modeli kodu, raporlama yılı, raporlama tarihi) | Sabit kıymet bakiyelerinin hazırlanan veri kapsayıcısını döndürür. Raporlama yılı, Finance and Operations numaralandırması **AssetYear** değeri olarak belirtilmelidir.                                                                                           | FA\_SUM ("COMP 000001", "Geçerli", AxEnumAssetYear.ThisYear, SESSIONTODAY ()) geçerli 365 for Finance and Operations oturum tarihinde "Geçerli" değer modeli ile "COMP-000001" sabit kıymeti için hazırlanan bilanço veri kapsayıcısını döndürür.                                                                |
-| TABLENAME2ID (dize)                                                       | Belirli bir Tablo Adı için Tablo Kodunun tam sayı olarak gösterimini döndürür.                                                                                                                                                                      | **TABLENAME2ID ("Intrastat")**, **1510** döndürür.                                                                                                                                                                                                                                                                   |
-| ISVALIDCHARACTERISO7064 (dize)                                                       | Belirli bir dize, geçerli bir uluslararası banka hesap numarasını (IBAN) temsil ediyorsa, **DOĞRU** boole değerini döndürür. Aksi takdirde **YANLIŞ** boole değerini döndürür.                                                                                                                                                                      | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")**, **DOĞRU** döndürür. **ISVALIDCHARACTERISO7064 ("AT61")** **YANLIŞ** döndürür.                                                                                                                                                                                                                                                                   |
+| İşlev | Açıklama | Örnek |
+|----------|-------------|---------|
+| CONVERTCURRENCY (tutar, kaynak para birimi, hedef para birimi, tarih, şirket) | Belirtilen parasal tutarı kaynak para biriminden, belirtilen tarihte belirtilen Finance and Operations şirketinin ayarlarını kullanarak belirtilen hedef para birimine dönüştürür. | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")**, şimdiki oturum tarihinde, DEMF şirket ayarlarına dayalı olarak bir euro'nun ABD doları olarak karşılığını döndürür. |
+| ROUNDAMOUNT (sayı, ondalık, yuvarlama kuralı) | Belirtilen yuvarlama kuralına göre belirtilen tutarı belirtilen ondalık basamak sayısına yuvarlar.<blockquote>[!NOTE]<br>Yuvarlama kuralı Finance and Operations <strong>RoundOffType</strong> numaralandırmasının bir değeri olarak belirtilmelidir.</blockquote> | **model.RoundOff** parametresi **Aşağıya** olarak ayarlanırsa, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** **1000.78** değerini döndürür. Eğer **model.RoundOff** parametresi **Normal** ya da **Yukarıya yuvarla** olarak ayarlanmışsa, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)**, **1000,79** değerini döndürür. |
+| CURCredRef (basamak) | Belirtilen fatura numarasının basamaklarına dayalı olarak bir alacaklı başvurusu döndür. | **CURCredRef ("Satıcı-200002")**, **"2200002"** döndürür. |
+| MOD\_97 (basamak) | Belirtilen fatura numarasının basamaklarına dayalı olarak bir alacaklı başvurusunu bir MOD97 ifadesi olarak döndür. | **MOD\_97 ("VEND-200002")**, **"20000285"** döndürür. |
+| ISOCredRef (basamak) | Bir Uluslararası Standartlar Kuruluşu (ISO) alacaklı başvurusunu, belirtilen fatura numarasının basamakları ve alfabetik sembollerine dayalı olarak döndürür.<blockquote>[!NOTE]<br>ISO uyumlu olmayan alfabelerden sembolleri elemek için, giriş parametresinin işleve gönderilmeden önce çevrilmesi gerekir.</blockquote> | **ISOCredRef ("VEND-200002")**, **"RF23VEND-200002"** döndürür. |
+| CN\_GBT\_AdditionalDimensionID (dize, sayı) | Ek mali boyut kimliğini alın. Boyutlar bu dizede kodlar virgüllerle ayrılmış olarak gösterilir. Bu dizede, sayılar istenen boyutun sıra kodunu tanımlar. | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** **"CC"** döndürür. |
+| GetCurrentCompany () | Bir kullanıcının oturum açmış olduğu tüzel kişiliğin (şirket) kodunun metin olarak gösterimini döndürür. | **GETCURRENTCOMPANY ()**, Finance and Operations'da **Contoso Entertainment System USA** şirketinde oturum açmış bir kullanıcı için **USMF** döndürür. |
+| CH\_BANK\_MOD\_10 (basamaklar) | Belirtilen fatura numarasının basamaklarına dayalı olarak bir alacaklı başvurusunu bir MOD10 ifadesi olarak döndürür. | **CH\_BANK\_MOD\_10 ("VEND-200002")** **3** döndürür. |
+| FA\_SUM (sabit kıymet kodu, değer modeli kodu, başlangıç tarihi, bitiş tarihi) | Belirtilen dönem için sabit kıymet tutarının hazırlanan veri kapsayıcısını döndürür. | **FA\_SUM ("COMP-000001", "Current", Date1, Date2)** **Date1** ile **Date2** arasındaki dönem için **"Current"**  değer modeline sahip **"COMP-000001"** sabit kıymet için hazırlanan veri kapsayıcısını döndürür. |
+| FA\_BALANCE (sabit kıymet kodu, değer modeli kodu, raporlama yılı, raporlama tarihi) | Sabit kıymet bakiyesinin hazırlanan veri kapsayıcısını döndürür. Raporlama yılı, Finance and Operations'daki **AssetYear** numaralandırması değeri olarak belirtilmelidir. | **FA\_SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** geçerli Finance and Operations oturum tarihinde **"Current"** değer modeline sahip **"COMP-000001"** sabit kıymet bakiyeleri için hazırlanan veri kapsayıcısını döndürür. |
+| TABLENAME2ID (dize) | Belirtilen tablo adı için tablo kodunun tam sayı olarak gösterimini döndürür. | **TABLENAME2ID ("Intrastat")** **1510** döndürür. |
+| ISVALIDCHARACTERISO7064 (dize) | Belirtilen dize, geçerli bir uluslararası banka hesap numarasını (IBAN) temsil ediyorsa, **DOĞRU** boole değerini döndürür. Aksi takdirde, **YANLIŞ** Boole değeri döndürür. | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")**, **DOĞRU** döndürür. **ISVALIDCHARACTERISO7064 ("AT61")** **YANLIŞ** döndürür. |
 
 ### <a name="functions-list-extension"></a>Liste uzantı işlevleri
 
 ER, ER ifadelerinde kullanılan işlevlerin listesini genişletmenize olanak sağlar. Bazı mühendislik çabaları gereklidir. Ayrıntılı bilgi için bkz: [Elektronik raporlama işlevlerinin listesini genişletme](general-electronic-reporting-formulas-list-extension.md).
 
-<a name="see-also"></a>Ayrıca bkz.
---------
+## <a name="see-also"></a>Ayrıca bkz.
 
 [Elektronik Raporlamaya genel bakış](general-electronic-reporting.md)
 
 [Elektronik raporlama (ER) işlev listesini genişletme](general-electronic-reporting-formulas-list-extension.md)
-
-
-
 
