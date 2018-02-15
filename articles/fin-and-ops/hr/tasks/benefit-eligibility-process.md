@@ -16,10 +16,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 537708c29716b5b8f88cda2eeee26f97bb3a536d
+ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
+ms.openlocfilehash: fe773bd2375b2dea8e13a57918ad584f83f61073
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 02/15/2018
 
 ---
 # <a name="benefit-eligibility-process"></a><span data-ttu-id="192d9-103">Kazanç uygunluğu işlemi</span><span class="sxs-lookup"><span data-stu-id="192d9-103">Benefit eligibility process</span></span>
