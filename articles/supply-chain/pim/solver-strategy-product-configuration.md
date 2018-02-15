@@ -1,0 +1,77 @@
+---
+title: "Ürün yapılandırması için Çözücü stratejisi"
+description: "Bu konu çözücü stratejisini ürün yapılandırmasının performansını artırmak üzere nasıl kullanabileceğinizi açıklar."
+author: cvocph
+manager: AnnBe
+ms.date: 01/02/2018
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+ms.search.form: PCCreateProductConfigurationModel, PCProductConfigurationModelListPage
+audience: Application User
+ms.reviewer: yuyus
+ms.search.scope: Core, Operations
+ms.custom: 
+ms.assetid: 
+ms.search.region: Global
+ms.search.industry: 
+ms.author: conradv
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 4544128e580b30b14a6236a9a6147ff0a8641d72
+ms.contentlocale: tr-tr
+ms.lasthandoff: 02/07/2018
+
+---
+
+# <a name="solver-strategy-for-product-configuration"></a><span data-ttu-id="dd251-103">Ürün yapılandırması için Çözücü stratejisi</span><span class="sxs-lookup"><span data-stu-id="dd251-103">Solver strategy for product configuration</span></span>
+
+[!include[banner](../includes/banner.md)]
+
+<span data-ttu-id="dd251-104">Bu konu çözücü stratejisini ürün yapılandırmasının performansını artırmak üzere nasıl kullanabileceğinizi açıklar.</span><span class="sxs-lookup"><span data-stu-id="dd251-104">This topic describes how you can use the solver strategy to improve the performance of product configuration.</span></span>
+
+<span data-ttu-id="dd251-105">Çözücü stratejileri kavramı ilk olarak Microsoft Dynamics AX 2012 R2 için Toplu güncelleştirme 7'de (CU7) kullanılmıştır.</span><span class="sxs-lookup"><span data-stu-id="dd251-105">The concept of solver strategies was first introduced in Cumulative update 7 (CU7) for Microsoft Dynamics AX 2012 R2.</span></span> <span data-ttu-id="dd251-106">Microsoft Dynamics AX 2012 R3 için Toplu güncelleştirme 8'e (CU8) ve Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3'e genişletilmiştir.</span><span class="sxs-lookup"><span data-stu-id="dd251-106">It was extended in Cumulative update 8 (CU8) for Microsoft Dynamics AX 2012 R3 and Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.</span></span>
+
+<span data-ttu-id="dd251-107">Çözücü stratejisi kavramı şu anda aşağıdaki stratejileri içermektedir:</span><span class="sxs-lookup"><span data-stu-id="dd251-107">The solver strategy concept now consists of the following strategies:</span></span>
+
+- <span data-ttu-id="dd251-108">Varsayılan</span><span class="sxs-lookup"><span data-stu-id="dd251-108">Default</span></span>
+- <span data-ttu-id="dd251-109">Önce minimal etki alanları</span><span class="sxs-lookup"><span data-stu-id="dd251-109">Minimal domains first</span></span>
+- <span data-ttu-id="dd251-110">Yukarıdan aşağıya</span><span class="sxs-lookup"><span data-stu-id="dd251-110">Top-down</span></span>
+- <span data-ttu-id="dd251-111">Z3</span><span class="sxs-lookup"><span data-stu-id="dd251-111">Z3</span></span>
+
+## <a name="solver-strategy"></a><span data-ttu-id="dd251-112">Çözüm stratejisi</span><span class="sxs-lookup"><span data-stu-id="dd251-112">Solver strategy</span></span> 
+
+<span data-ttu-id="dd251-113">Ürün yapılandırma modeli [kısıtlama memnuniyet sorunu (CSP)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf) olarak formüle edilebilir.</span><span class="sxs-lookup"><span data-stu-id="dd251-113">A product configuration model can be formulated as a [constraint satisfaction problem (CSP)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf).</span></span> <span data-ttu-id="dd251-114">Microsoft Solver Foundation (MSF), ürün yapılandırma modellerinden kullanılabilen CSP'leri çözmek için iki tür çözücü stratejisi sağlar.</span><span class="sxs-lookup"><span data-stu-id="dd251-114">Microsoft Solver Foundation (MSF) provides two types of solver strategies to solve the CSPs that can be used from product configuration models.</span></span> <span data-ttu-id="dd251-115">Bu çözücü stratejileri, sorun çözüldüğünde CSP'lerin değişkenlerinin dikkate alındığı sırayı belirlemek üzere kullanılan [buluşsal yöntemlere](https://techterms.com/definition/heuristic) dayanır.</span><span class="sxs-lookup"><span data-stu-id="dd251-115">These solver strategies rely on [heuristics](https://techterms.com/definition/heuristic), which are used to determine the order that the variables of the CSPs are considered in when the problem is being solved.</span></span> <span data-ttu-id="dd251-116">Buluşsal yöntemler, bir sorun veya sorunlar sınıfı çözüldüğünde performansı belirgin şekilde etkileyebilir.</span><span class="sxs-lookup"><span data-stu-id="dd251-116">Heuristics can significantly affect performance when a problem or class of problems is being solved.</span></span>
+
+<span data-ttu-id="dd251-117">Finance and Operations'ta, ürün yapılandırma modellerine yönelik çözücü stratejisi buluşsal yöntemlerle hangi çözücünün kullanıldığını belirler.</span><span class="sxs-lookup"><span data-stu-id="dd251-117">In Finance and Operations, the solver strategy for product configuration models determines which solver is used with heuristics.</span></span> <span data-ttu-id="dd251-118">**Varsayılan**, **En az etki alanları önce** ve **Yukarıdan aşağıya** stratejileri MSF'den iki çözücüyü kullanırken, **Z3** stratejisi Z3 çözücüsü kullanır.</span><span class="sxs-lookup"><span data-stu-id="dd251-118">The **Default**, **Minimal domains first**, and **Top-down** strategies use the two solvers from MSF, whereas the **Z3** strategy uses the Z3 solver.</span></span> 
+
+<span data-ttu-id="dd251-119">Gerçek müşteri uygulaması çalışmaları, bir ürün yapılandırma modeline yönelik çözücü stratejisindeki bir değişikliğin, yanıt sürelerini dakikalardan mili saniyelere düşürebildiğini göstermiştir.</span><span class="sxs-lookup"><span data-stu-id="dd251-119">Real customer implementation studies have shown that a change in the solver strategy for a product configuration model can reduce the response time from minutes to milliseconds.</span></span> <span data-ttu-id="dd251-120">Bu nedenle, ürün yapılandırma modeliniz için en etkili stratejisi bulmak için farklı çözücü stratejileri denemek faydalıdır.</span><span class="sxs-lookup"><span data-stu-id="dd251-120">Therefore, it's worth the effort to try different solver strategies to find the most efficient strategy for your product configuration model.</span></span>
+
+## <a name="change-the-settings-for-the-solver-strategy"></a><span data-ttu-id="dd251-121">Çözücü stratejisi ayarlarını değiştirme</span><span class="sxs-lookup"><span data-stu-id="dd251-121">Change the settings for the solver strategy</span></span>
+
+<span data-ttu-id="dd251-122">Çözücü stratejisini değiştirmek için, Eylem Bölmesindeki **Ürün yapılandırma modeli** sayfasında **Model özellikleri**'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="dd251-122">To change the solver strategy, on the **Product configuration models** page, on the Action Pane, select **Model properties**.</span></span> <span data-ttu-id="dd251-123">Sonra, **Model ayrıntılarını düzenle** iletişim kutusunda, bir çözücü stratejisi seçin.</span><span class="sxs-lookup"><span data-stu-id="dd251-123">Then, in the **Edit the model details** dialog box, select a solver strategy.</span></span>
+
+<span data-ttu-id="dd251-124">[![Çözüm stratejisini değiştirme](./media/solver-strategy.png)](./media/solver-strategy.png)</span><span class="sxs-lookup"><span data-stu-id="dd251-124">[![Changing the solver strategy](./media/solver-strategy.png)](./media/solver-strategy.png)</span></span>
+
+<span data-ttu-id="dd251-125">Şu anda, sınırlama tabanlı ürün yapılandırması için en etkili olacak çözücü stratejisini otomatik olarak algılayan bir mantık yoktur.</span><span class="sxs-lookup"><span data-stu-id="dd251-125">Currently, there is no logic that automatically detects which solver strategy will be the most efficient strategy for constraint-based product configuration.</span></span> <span data-ttu-id="dd251-126">Bu nedenle, çözücü stratejilerini tek tek denemeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="dd251-126">Therefore, you must try the solver strategies one by one.</span></span>
+
+<span data-ttu-id="dd251-127">Aşağıdaki tablo çeşitli senaryolarda kullanılacak çözücü stratejisi hakkında öneriler sağlar.</span><span class="sxs-lookup"><span data-stu-id="dd251-127">The following table provides recommendations about the solver strategy to use in various scenarios.</span></span>
+
+| <span data-ttu-id="dd251-128">Çözüm stratejisi</span><span class="sxs-lookup"><span data-stu-id="dd251-128">Solver strategy</span></span>      | <span data-ttu-id="dd251-129">Stratejiyi bu senaryoda kullan</span><span class="sxs-lookup"><span data-stu-id="dd251-129">Use the strategy in this scenario</span></span> |
+|----------------------|-----------------------------------|
+| <span data-ttu-id="dd251-130">Varsayılan</span><span class="sxs-lookup"><span data-stu-id="dd251-130">Default</span></span>              | <span data-ttu-id="dd251-131">**Varsayılan** strateji tablo sınırlamalarına dayanan modelleri çözmek üzere en iyi duruma getirilmiştir.</span><span class="sxs-lookup"><span data-stu-id="dd251-131">The **Default** strategy has been optimized to solve models that rely on table constraints.</span></span> <span data-ttu-id="dd251-132">Müşteri uygulaması çalışmaları, bu stratejinin tablo sınırlamalarının yoğun şekilde kullanıldığı senaryolarda en etkili strateji olduğunu göstermiştir.</span><span class="sxs-lookup"><span data-stu-id="dd251-132">Customer implementation studies have shown that this strategy is the most efficient strategy in scenarios where table constraints are used extensively.</span></span> |
+| <span data-ttu-id="dd251-133">Önce minimal etki alanı</span><span class="sxs-lookup"><span data-stu-id="dd251-133">Minimal domain first</span></span> | <span data-ttu-id="dd251-134">**Önce minimal etki alanı** ve **Yukarıdan aşağıya** stratejileri yakından ilişkilidir.</span><span class="sxs-lookup"><span data-stu-id="dd251-134">The **Minimal domain first** and **Top-down** strategies are closely related.</span></span> <span data-ttu-id="dd251-135">Müşteri uygulama çalışmaları, CU8'de sunulan **Yukarıdan aşağıya** stratejisinin **Önce minimal etki alana** stratejisinden daha iyi performans gösterdiğini ortaya koymuştur.</span><span class="sxs-lookup"><span data-stu-id="dd251-135">Customer implementation studies have shown that the **Top-down** strategy, which was introduced in CU8, outperforms the **Minimal domain first** strategy.</span></span> <span data-ttu-id="dd251-136">Ancak, **Önce minimal etki alanı** stratejisi, geriye doğru uyumluluk açısından üründe tutulmuştur.</span><span class="sxs-lookup"><span data-stu-id="dd251-136">However, the **Minimal domain first** strategy is kept in the product for backward compatibility.</span></span> <span data-ttu-id="dd251-137">Bu iki çözücü stratejisinin de tablo sınırlamalarının kullanılmadığı çeşitli aritmetik ifadeler içeren çözüm modellerinde daha etkili olduğu görülmüştür.</span><span class="sxs-lookup"><span data-stu-id="dd251-137">Both these solver strategies have been shown to be more efficient at solving models that contain several arithmetic expressions where no table constraints are used.</span></span> <span data-ttu-id="dd251-138">Ancak, bazı durumlarda, **Varsayılan** strateji bu iki stratejiden daha iyi performans gösterir.</span><span class="sxs-lookup"><span data-stu-id="dd251-138">However, in some cases, the **Default** strategy outperforms these two strategies.</span></span> <span data-ttu-id="dd251-139">Bu nedenle, her bir strateji denemeyi unutmayın.</span><span class="sxs-lookup"><span data-stu-id="dd251-139">Therefore, remember to try each strategy.</span></span> |
+| <span data-ttu-id="dd251-140">Yukarıdan aşağıya</span><span class="sxs-lookup"><span data-stu-id="dd251-140">Top-down</span></span>             | <span data-ttu-id="dd251-141">**Önce minimal etki alanı** ve **Yukarıdan aşağıya** stratejileri yakından ilişkilidir.</span><span class="sxs-lookup"><span data-stu-id="dd251-141">The **Minimal domain first** and **Top-down** strategies are closely related.</span></span> <span data-ttu-id="dd251-142">Müşteri uygulama çalışmaları, CU8'de sunulan **Yukarıdan aşağıya** stratejisinin **Önce minimal etki alana** stratejisinden daha iyi performans gösterdiğini ortaya koymuştur.</span><span class="sxs-lookup"><span data-stu-id="dd251-142">Customer implementation studies have shown that the **Top-down** strategy, which was introduced in CU8, outperforms the **Minimal domain first** strategy.</span></span> <span data-ttu-id="dd251-143">Ancak, **Önce minimal etki alanı** stratejisi, geriye doğru uyumluluk açısından üründe tutulmuştur.</span><span class="sxs-lookup"><span data-stu-id="dd251-143">However, the **Minimal domain first** strategy is kept in the product for backward compatibility.</span></span> <span data-ttu-id="dd251-144">Bu iki çözücü stratejisinin de tablo sınırlamalarının kullanılmadığı çeşitli aritmetik ifadeler içeren çözüm modellerinde daha etkili olduğu görülmüştür.</span><span class="sxs-lookup"><span data-stu-id="dd251-144">Both these solver strategies have been shown to be more efficient at solving models that contain several arithmetic expressions where no table constraints are used.</span></span> <span data-ttu-id="dd251-145">Ancak, bazı durumlarda, **Varsayılan** strateji bu iki stratejiden daha iyi performans gösterir.</span><span class="sxs-lookup"><span data-stu-id="dd251-145">However, in some cases, the **Default** strategy outperforms these two strategies.</span></span> <span data-ttu-id="dd251-146">Bu nedenle, her bir strateji denemeyi unutmayın.</span><span class="sxs-lookup"><span data-stu-id="dd251-146">Therefore, remember to try each strategy.</span></span> |
+| <span data-ttu-id="dd251-147">Z3</span><span class="sxs-lookup"><span data-stu-id="dd251-147">Z3</span></span>                   | <span data-ttu-id="dd251-148">Varsayılan çözücü stratejisi olarak **Z3** stratejisini kullanmanızı öneririz.</span><span class="sxs-lookup"><span data-stu-id="dd251-148">We recommend that you use the **Z3** strategy as the default solver strategy.</span></span> <span data-ttu-id="dd251-149">Performans ve ölçeklenebilirlik hakkında endişeleriniz olması durumunda, diğer stratejileri değerlendirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="dd251-149">If you're concerned about performance and scalability, you can evaluate the other strategies.</span></span> |
+
+## <a name="additional-resources"></a><span data-ttu-id="dd251-150">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="dd251-150">Additional resources</span></span>
+
+[<span data-ttu-id="dd251-151">Ürün yapılandırma modeli oluşturma</span><span class="sxs-lookup"><span data-stu-id="dd251-151">Build product configuration model</span></span>](build-product-configuration-model.md)
+
+[<span data-ttu-id="dd251-152">Buluşsal yöntemler</span><span class="sxs-lookup"><span data-stu-id="dd251-152">Heuristics</span></span>](https://techterms.com/definition/heuristic)
+
+[<span data-ttu-id="dd251-153">Sınırlama Memnuniyet Sorunu</span><span class="sxs-lookup"><span data-stu-id="dd251-153">Constraint Satisfaction Problem</span></span>](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
+
