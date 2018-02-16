@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4b3d068ddbf6f0b28c97618f5fa10fa486f3af51
+ms.sourcegitcommit: 5737d9c52727077d34c6f5553c9788bf07032914
+ms.openlocfilehash: 0521f0b443efb761e7d3f63182728dd836dbf8a0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/15/2018
 
 ---
 
@@ -31,6 +31,9 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](../includes/banner.md)]
 
+
+> [!NOTE]
+> Bu konu bulut dağıtımları için ambarlamanın nasıl yapılandırılacağını açıklar. Ambarlamanın şirket içi dağıtımlar için nasıl yapılandırılacağını öğrenmek istiyorsanız bkz. [Şirket için dağıtımlar için ambarlama](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/deployment/warehousing-for-on-premise-deployments).
 
 Bu konu, Microsoft Dynamics 365 for Finance and Operations - Ambarlama'nın nasıl yükleneceğini ve yapılandırılacağnı açıklar.
 
@@ -43,32 +46,29 @@ Uygulama Android ve Windows işletim sistemlerinde kullanılabilir. Bu uygulamay
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Android                     | 4.4, 5.0, 6.0                                                                                                                                                               |
 | Windows (UWP)               | Windows 10 (tüm sürümler)                                                                                                                                                   |
-| Finance and Operations | Microsoft Finance and Operations sürüm 1611 <br>-veya- <br>Microsoft Dynamics AX sürüm 7.0/7.0.1 ve Microsoft Dynamics AX platform güncelleştirmesi 2, KB 3210014 düzeltmesiyle |
+| Finance and Operations | Microsoft Dynamics 365 for Operations, sürüm 1611 <br>-veya- <br>Microsoft Dynamics AX sürüm 7.0/7.0.1 ve Microsoft Dynamics AX platform güncelleştirmesi 2, KB 3210014 düzeltmesiyle |
 
 ## <a name="get-the-app"></a>Uygulamayı edinin
--   Windows (UWP) - [Finance and Operations - Ambarlama Windows Mağazası'nda](https://www.microsoft.com/store/apps/9p1bffd5tstm)
--   Android:
+-   Windows (UWP)
+     - [Finance and Operations - Windows Mağazasında Ambarlama](https://www.microsoft.com/store/apps/9p1bffd5tstm)
+-   Android
     - [Finance and Operations - Ambarlama Google Play Mağazası'nda](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
     - [Finance and Operations - Ambarlama Zebra App Galerisi'nde](https://appgallery.zebra.com/showcase/apps/146?type=showcase)
 
-## <a name="create-a-web-service-application-in-active-directory"></a>Active Directory içinde bir web hizmeti uygulaması oluştur
+## <a name="create-a-web-service-application-in-azure-active-directory"></a>Azure Active Directory içinde bir web hizmeti uygulaması oluşturma
 Uygulamanın belirli bir Finance and Operations sunucusu ile etkileşime girmesini etkinleştirmek için önce bir web hizmet uygulamasını, Finance and Operations kiracısında bir Azure Active Directory içinde kaydetmelisiniz. Güvenlik nedeniyle, kullandığınız her cihaz için bir web hizmeti uygulaması oluşturmanızı öneririz. Azure Active Directory (AD Azure) içinde bir web hizmeti uygulaması oluşturmak için aşağıdaki adımları izleyin:
 
-1.  Bir web tarayıcısında <https://manage.windowsazure.com> adresine gidin.
+1.  Bir web tarayıcısında <https://portal.azure.com> adresine gidin.
 2.  Azure aboneliğine erişimi olan kullanıcının adını ve parolasını girin.
-3.  Azure Portal'da, sol gezinti bölmesinde tıklatın **Active Directory**.[](./media/wh-01-active-directory-example.png)[![wh-01-active-directory-örnek](./media/wh-01-active-directory-example.png)](./media/wh-01-active-directory-example.png)
-4.  Kılavuzda, Finance and Operations tarafından kullanılan Active Directory örneğini seçin.
-5.  Üstteki araç çubuğunda **Uygulamalar** üzerine tıklatın. [![wh-02-active-directory-uygulamaları](./media/wh-02-active-directory-applications-1024x197.png)](./media/wh-02-active-directory-applications.png)
-6.  Alt panoda, **Ekle** üzerine tıklatın. **Uygulama eklemek** sihirbazı başlar.
-7.  Uygulama için bir ad girin ve **Web uygulaması ve/veya web API'si** seçin. [![wh-03-active-directory-uygulama-ekle](./media/wh-03-active-directory-add-application.png)](./media/wh-03-active-directory-add-application.png)
-8.  Web uygulamanızın URL'si olan oturum açma URL'sini girin. Bu URL, dağıtım URL'niz ile aynıdır, ancak sonuna oauth eklenir. Uygulama Kodu URI'sini girin, bu değer zorunludur, ancak kimlik doğrulaması için gerekli değildir. Bu Uygulama Kodu URI'sinin, https://contosooperations/wmapp gibi bir sahte URI olduğundan emin olun çünkü dağıtım URL'nizi kullanmak, Excel eklentisi gibi diğer AAD uygulamaları ile oturum açma sorunlarına sebep olabilir. [![WH-04-AD-add-properties3](./media/WH-04-AD-add-properties3.png)](./media/WH-04-AD-add-properties3.png)
-9.  **Yapılandırma** sekmesine gidin. [![wh-05-ad-configure-app](./media/wh-05-ad-configure-app.png)](./media/wh-05-ad-configure-app.png)
-10. **İzinler ve diğer uygulamalar** bölümünü görene kadar aşağı kaydırın. **Başvuru ekle** üzerine tıklayın. [![wh-06-ad-uygulama-izinleri-ekle](./media/wh-06-ad-app-add-permissions.png)](./media/wh-06-ad-app-add-permissions.png)
-11. Listede **Microsoft Dynamics ERP**'yi seçin. Sayfanın sağ köşesindeki **Tam denetim** düğmesini tıklatın. [![wh-07-ad-izinleri-seç](./media/wh-07-ad-select-permissions.png)](./media/wh-07-ad-select-permissions.png)
-12. **Temsilci İzinleri** listesinde, tüm onay kutularını seçin. **Kaydet**'i tıklatın. [![wh-08-ad-temsilci-izinleri](./media/wh-08-ad-delegate-permissions.png)](./media/wh-08-ad-delegate-permissions.png)
-13. Aşağıdaki bilgileri not alın:
-    -   **İstemci kimliği** - Sayfada yukarı kaydırırken **İstemci kimliği**'nin görüntülendiğini görürsünüz.
-    -   **Anahtar** - **Anahtarlar** bölümünde, süre seçerek bir anahtar oluşturun ve anahtarı kopyalayın. Bu anahtar daha sonra **İstemci sırrı** olarak anılacaktır.
+3.  Azure Portalında, sol gezinme bölmesindei **Azure Active Directory** öğesine tıklayın.[](./media/WMA-01-active-directory-example.png)[![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+4.  Active Directory örneğinin Finance and Operations tarafından kullanılan örnek olduğundan emin olun.
+5.  Listede **Uygulama kayıtları**'na tıklayın. [![WMA-02-active-directory-app-registrations](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
+6.  Üst bölmede **Yeni uygulama kaydı**'na tıklayın. **Uygulama eklemek** sihirbazı başlar.
+7.  Uygulama için bir ad girin ve **Web application/web API** seçeneğini seçin. Web uygulamanızın URL'si olan oturum açma URL'sini girin. Bu URL, dağıtım URL'niz ile aynıdır, ancak sonuna oauth eklenir. **Oluştur**'a tıklayın. [![WMA-03-active-directory-add-application](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
+8.  Listeden yeni uygulamayı seçin. [![WMA-04-active-directory-configure-app](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
+9.  Daha sonra ihtiyacınız olacağından **Uygulama Kodunu** unutmayın. **Uygulama Kodu** daha sonra **İstemci Kodu** olarak ifade edilecektir.
+10. **Ayarlar bölmesi**'nde **Anahtarlar**'a tıklayın. **Parolalar** bölümüne bir anahtar açıklaması ve bir süre girerek bir anahtar oluşturun. 
+11. **Kaydet**'i tıklayın ve anahtarı kopyalayın. Bu anahtar daha sonra **İstemci sırrı** olarak anılacaktır. [![WMA-05-active-directory-create-key](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
 
 ## <a name="create-and-configure-a-user-account-in-finance-and-operations"></a>Finance and Operations içinde bir kullanıcı hesabı oluşturma ve yapılandırma
 Finance and Operations'ın Azure AD uygulamanızı kullanmasını sağlamak için, aşağıdaki yapılandırma adımlarını tamamlamanız gerekir:
@@ -90,8 +90,8 @@ Azure AD uygulaması aracılığıyla Finance and Operations sunucusuna erişebi
 1.  Uygulamanın içinde **Bağlantı ayarları**'na gidin.
 2.  **Demo modu** alanını temizleyin. <br>[![wh-11-uygulama-bağlantı-ayarları-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
 3.  Aşağıdaki bilgileri girin: 
-    + **Azure Active directory istemci kodu** - İstemci kodu, "Active Directory'de bir web hizmeti uygulaması oluştur" içindeki 13. adımdan edinilir. 
-    + **Azure Active directory istemci sırrı** - İstemci sırrı, "Active Directory'de bir web hizmeti uygulaması oluştur" içindeki 13. adımdan edinilir. 
+    + **Azure Active directory istemci kodu** - İstemci kodu, "Active Directory'de bir web hizmeti uygulaması oluştur" içindeki 9. adımdan edinilir. 
+    + **Azure Active directory istemci sırrı** - İstemci sırrı, "Active Directory'de bir web hizmeti uygulaması oluştur" içindeki 11. adımdan edinilir. 
     + **Azure Active directory kaynağı** -Azure AD dizini kaynağı, Finance and Operations kök URL'sini gösterir. **Not**: Bu alanı bir eğik çizgi (/) ile bitirmeyin. 
     + **Azure Active directory kiracısı** - Finance and Operations sunucusu ile kullanılan Azure AD dizini kiracısı: https://login.windows.net/sizin-AD-kiracı-kimliğiniz. Örneğin: https://login.windows.net/contosooperations.onmicrosoft.com.
     <br>**Not**: Bu alanı bir eğik çizgi (/) ile bitirmeyin. 
@@ -102,15 +102,11 @@ Azure AD uygulaması aracılığıyla Finance and Operations sunucusuna erişebi
 Kayıp veya güvenliği aşılmış bir cihaz durumunda, bu cihaz için Finance and Operations erişimini kaldırmanız gerekir. Aşağıdaki adımlar, erişimi kaldırmak için önerilen adımları açıklar.
 
 1.  Finance and Operations içerisinde **Sistem yönetimi** &gt; **Kurulum** &gt; **Azure Active Directory uygulamaları** konumuna gidin.
-2.  Erişimini kaldırmak istediğiniz cihaza karşılık gelen satırı silin. Kaldırılan cihaz için **İstemci Kimliğini** not alın.
-3.  <https://manage.windowsazure.com> adresinden Azure klasik portala oturum açın.
-4.  Sol menüdeki **Active Directory** menüsüne tıklayın ve daha sonra istediğiniz dizine tıklayın.
-5.  Üst menüde, **Uygulamalar** üzerine tıklayın ve daha sonra yapılandırmak istediğiniz uygulamayı tıklatın. **Hızlı Başlat** sayfası, tek oturum açma ve diğer yapılandırma bilgilerine sahip bir sayfayla görüntülenir.
-6.  **Yapılandır** sekmesini tıklatın, aşağı kaydırın ve uygulamanın **İstemci kimliği**'nin bu bölümün 2. adımındaki ile aynı olduğundan emin olun.
-7.  Komut çubuğunda **Sil** düğmesini tıklatın.
+2.  Erişimini kaldırmak istediğiniz cihaza karşılık gelen satırı silin. Daha sonra ihtiyacınız olacağından kaldırılan cihaz için kullanılan **İstemci Kodu**'nu unutmayın.
+3.  <https://portal.azure.com> adresinden Azure portalında oturum açın.
+4.  Sol menüde **Active Directory** simgesine tıklayın ve doğru dizinde olduğunuzdan emin olun.
+5.  Listede **Uygulama kayıtları**'na ve daha sonra yapılandırmak istediğiniz uygulamaya tıklayın. **Ayarlar** sayfası yapılandırma bilgileriyle birlikte görüntülenir.
+6.  Uygulamanın **İstemci kodunun** bu bölümdeki adım 2'deki kodla aynı olduğundan emin olun.
+7.  Üst bölmedeki **Sil** düğmesine tıklayın.
 8.  Onay iletisinde **Evet**'i tıklatın.
-
-
-
-
 

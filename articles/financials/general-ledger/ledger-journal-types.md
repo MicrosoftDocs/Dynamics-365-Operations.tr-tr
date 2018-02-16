@@ -1,6 +1,6 @@
 ---
 title: "Genel muhasebe günlük tabloları"
-description: "Bu makale, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da kullanabileceğiniz günlükleri ayarlamak için günlük adları sayfasını kullanın."
+description: "Bu makale, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da kullanabileceğiniz günlükleri ayarlamak için **Günlük adları** sayfasını kullanın."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalSetup
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c05b199104af2c367266e3cd15937425e6457397
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: ccd1b9056f8c18de1b2ef706f70f53bac6cc43a1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -30,23 +31,23 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makale, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da kullanabileceğiniz günlükleri ayarlamak için günlük adları sayfasını kullanın.
+Bu makale, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da kullanabileceğiniz günlükleri ayarlamak için **Günlük adları** sayfasını kullanın.
 
-| Günlük türü:                      | Amaç                                                                                                                                                                                                                                                                                                                                                     | Bu sayfada hareketleri girin                                |
-|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| Tahsisat                        | Bir tahsisat günlüğünde tahsisat hareketleri oluşturun. Bir tahsisat günlüğü oluşturmadan önce, **Genel muhasebe tahsisat kuralı** sayfasında tahsisat kuralı oluşturmalısınız.                                                                                                                                                                           | Tahsisat talebini işleme koy                                     |
-| Onay                          | Onaylanan satıcı faturalarını uygun genel muhasebe hesaplarına nakledin.                                                                                                                                                                                                                                                                            | Fatura onay günlüğü                                       |
-| Banka çeki ters işlemi               | Gönderilen çeke ters işlem uygulayın. Bu günlük tipi kullanmak için **ödeme iptalleri için inceleme işlemi kullan** seçeneğini **nakit ve Banka yönetimi parametreleri** sayfasında seçin.                                                                                                                                                                                       | Çek ters işlemleri, Ödeme ters kaydı                              |
-| Banka depozit makbuzu iptali    | Bir havale makbuzu iptal edin. Bu günlük tipi kullanmak için **Havale makbuzu ödeme iptalleri için inceleme işlemi kullan** seçeneğini **nakit ve Banka yönetimi parametreleri** sayfasında seçin.                                                                                                                                                                       | Havale makbuzu ödeme iptalleri                             |
+| Günlük türü:                      | Amaç                       | Bu sayfada hareketleri girin                                |
+|-----------------------------------|-------------------------------|----------------------------------------------------------------|
+| Tahsisat                        | Bir tahsisat günlüğünde tahsisat hareketleri oluşturun. Bir tahsisat günlüğü oluşturmadan önce, **Genel muhasebe tahsisat kuralı** sayfasında tahsisat kuralı oluşturmalısınız.      | Tahsisat talebini işleme koy             |
+| Onay                          | Onaylanan satıcı faturalarını uygun genel muhasebe hesaplarına nakledin.  | Fatura onay günlüğü                                       |
+| Banka çeki ters işlemi               | Gönderilen çeke ters işlem uygulayın. Bu günlük tipi kullanmak için **ödeme iptalleri için inceleme işlemi kullan** seçeneğini **nakit ve Banka yönetimi parametreleri** sayfasında seçin.   | Çek ters işlemleri, Ödeme ters kaydı                   |
+| Banka depozit makbuzu iptali    | Bir havale makbuzu iptal edin. Bu günlük tipi kullanmak için **Havale makbuzu ödeme iptalleri için inceleme işlemi kullan** seçeneğini **nakit ve Banka yönetimi parametreleri** sayfasında seçin.   | Havale makbuzu ödeme iptalleri            |
 | Bütçe                            | Bütçe tahsisatlarını işleyin. Bu günlük tipi kullanmak için **bütçe tahsisatı etkinleştir** seçeneğini **genel muhasebe parametreleri** sayfasında seçin. Bütçe günlük girişleri **tanımları nakil** sayfasında tanımlanan genel muhasebe hesaplarını temel alan bilgiler içerir.                                                        |                                                                |
-| Müşteri kabullü kambiyo senedi  | Kambiyo senetleri için müşteri kabul hareketlerini oluştur.                                                                                                                                                                                                                                                                                              | Kambiyo senedi günlüğünü düzenle, kambiyo senetlerini yeniden düzenle |
-| Müşteri banka havalesi          | Kuruluşunuzun Bankasına gönderilen bir kambiyo senedini Havale dosyası oluşturun. Bu günlük tipi kullanmak için **otomatik kapatma** seçeneğini **Alacak** **hesapları parametreleri** sayfasında temizleyin.                                                                                                                                             | Havale                                                     |
-| Müşteriye keşide edilen kambiyo senedi    | Müşteriye düzenlenen kambiyo senedi hareketleri oluşturun. Bu günlük tipi kullanmak için **Faturaları naklederken düzenleme günlüğünü otomatik olarak oluştur ve naklet** seçeneğini **ödeme yöntemleri - müşteriler** sayfasında temizleyin.                                                                                                                                         | Düzenlenen kambiyo senetleri günlüğü                                  |
-| Müşteri ödemesi                  | Müşteri ödeme hareketlerini oluşturun.                                                                                                                                                                                                                                                                                                                       | Ödeme günlüğü                                                |
-| Müşteri protestolu kambiyo senedi | Müşteri protestolu kambiyo senedi hareketlerini oluşturun.                                                                                                                                                                                                                                                                                                      | Protestolu kambiyo senetleri günlüğü                               |
-| Müşteriye yeniden düzenlenen kambiyo senedi  | Müşteriye yeniden düzenlenen kambiyo senedi hareketleri oluşturun.                                                                                                                                                                                                                                                                                                       | Yeniden düzenlenen kambiyo senetleri günlüğü                                |
-| Müşteri tarafından ödenen kambiyo senedi  | Müşteri tarafından ödenen kambiyo senedi hareketleri oluşturun.                                                                                                                                                                                                                                                                                                       | Kambiyo senetleri kapatma günlüğü                                |
-| Günlük                             | Günlük hareketleri yevmiye defterinde oluşturun.                                                                                                                                                                                                                                                                                                             | Genel günlük                                                |
+| Müşteri kabullü kambiyo senedi  | Kambiyo senetleri için müşteri kabul hareketlerini oluştur.             | Kambiyo senedi günlüğünü düzenle, kambiyo senetlerini yeniden düzenle |
+| Müşteri banka havalesi          | Kuruluşunuzun Bankasına gönderilen bir kambiyo senedini Havale dosyası oluşturun. Bu günlük tipi kullanmak için **otomatik kapatma** seçeneğini **Alacak** **hesapları parametreleri** sayfasında temizleyin.            | Havale                                                     |
+| Müşteriye keşide edilen kambiyo senedi    | Müşteriye düzenlenen kambiyo senedi hareketleri oluşturun. Bu günlük tipi kullanmak için **Faturaları naklederken düzenleme günlüğünü otomatik olarak oluştur ve naklet** seçeneğini **ödeme yöntemleri - müşteriler** sayfasında temizleyin.   | Düzenlenen kambiyo senetleri günlüğü                                  |
+| Müşteri ödemesi                  | Müşteri ödeme hareketlerini oluşturun.                             | Ödeme günlüğü             |
+| Müşteri protestolu kambiyo senedi | Müşteri protestolu kambiyo senedi hareketlerini oluşturun.                    | Protestolu kambiyo senetleri günlüğü                               |
+| Müşteriye yeniden düzenlenen kambiyo senedi  | Müşteriye yeniden düzenlenen kambiyo senedi hareketleri oluşturun.                     | Yeniden düzenlenen kambiyo senetleri günlüğü                                |
+| Müşteri tarafından ödenen kambiyo senedi  | Müşteri tarafından ödenen kambiyo senedi hareketleri oluşturun.                       | Kambiyo senetleri kapatma günlüğü                                |
+| Günlük                             | Günlük hareketleri yevmiye defterinde oluşturun.                          | Genel günlük                                                |
 | Eleme                       | Bir eleme günlüğünde eleme hareketleri oluşturun. Bu günlük tipi kullanmak için **mali eleme işlemi için kullan** ve **mali konsolidasyon sürecinde kullan** seçeneklerini **tüzel kişilikler** sayfasında seçin. Bu günlük tipi kullanmadan önce **genel muhasebe eliminasyon kuralı** sayfasında genel muhasebe eliminasyon kuralı oluşturmanız gerekir. | Eleme                                                    |
 | Sabit kıymet bütçesi                | Sabit kıymetler bütçe kayıt girişleri oluşturun.                                                                                                                                                                                                                                                                                                                 | Sabit kıymet bütçesi                                             |
 | Fatura defteri                  | Satıcı faturaları hakkındaki temel bilgileri kaydedin.                                                                                                                                                                                                                                                                                                           | Fatura defteri                                               |

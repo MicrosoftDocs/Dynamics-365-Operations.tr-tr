@@ -1,9 +1,9 @@
 ---
 title: "Erişilebilirlik özellikleri"
-description: "Bu konu, çeşitli engelleri bulunan kullanıcılara yardımcı olmak üzere tasarlanan işlevleri açıklar. Örneğin, Windows Ekran Okuyucusu gibi yardımcı görme teknolojileri kullanan kişilere yönelik özellikler vardır."
+description: "Bu konu, çeşitli engelleri bulunan kullanıcıların Dynamics 365 for Finance and Operations, Enterprise edition, Dynamics 365 for Retail ve Dynamics 365 for Talent'ı kullanmalarına yardımcı olmak üzere tasarlanan işlevi açıklamaktadır."
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 11/16/2017
+ms.date: 01/23/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,16 +16,16 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 158caf6c05515069b58121a72df1b7fe16bae236
-ms.openlocfilehash: bd71d2dee7ff7984f2088a64e9943b2541c88451
+ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
+ms.openlocfilehash: 42b4f670dee95c073ce8dcca16afef83bbf78ff8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/16/2017
+ms.lasthandoff: 01/23/2018
 
 ---
 
 # <a name="accessibility-features"></a>Erişilebilirlik özellikleri
 
-Bu konu, çeşitli engelleri bulunan kullanıcılara yardımcı olmak üzere tasarlanan işlevleri açıklar. Örneğin, Microsoft Windows Ekran Okuyucusu gibi yardımcı görme teknolojileri kullanan kişilere yönelik özellikler vardır.
+Bu konu, çeşitli engelleri bulunan kullanıcıların Dynamics 365 for Finance and Operations, Enterprise edition, Dynamics 365 for Retail ve Dynamics 365 for Talent'ı kullanmalarına yardımcı olmak üzere tasarlanan işlevi açıklamaktadır. Örneğin, Microsoft Windows Ekran Okuyucusu gibi yardımcı görme teknolojileri kullanan kişilere yönelik özellikler vardır.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows Ekran Okuyucusu ve yalnızca klavye erişimi
 

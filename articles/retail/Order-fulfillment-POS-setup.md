@@ -6,19 +6,22 @@ manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
-ms.search.scope: 
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
+ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
-ms.openlocfilehash: bb4d8fae432eca7fe9163dcb0763fff5c8d465f0
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 2fa843aee8927a1cb4f642c31d6f5683098d3c74
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -49,9 +52,9 @@ Mağaza seviyesinde, bir sipariş satırının satış noktası içinden el ile 
 
 Varsayılan olarak, bir mağazaya atanan sipariş satırları **Kabul edildi** olarak işaretlenir. Bu, siparişlerin atandıkları mağaza tarafından karşılanacaklarının ve başka bir atama olmayacağının varsayıldığı anlamına gelir. Belirli durumlarda, perakendeciler karşılanmadan önce siparişleri el ile kabul etmek isteyebilir. Örneğin, mağazada personel sayısı kısıtlıysa ve mağaza siparişi karşılayamayacaksa, mağaza yöneticisi yalnızca belirtilen tarihte uygun şekilde işleme alınabileceğini düşündüğü sayıdaki siparişi işlemek üzere kabul edebilir. Sipariş kabul edilinceye kadar, arka ofis tarafından farklı bir mağazaya atanabilir. Bu şekilde, sipariş kabulü de bir siparişin bir mağaza tarafından onaylandığını ve karşılanacağını belirtmek üzere kullanılabilir. 
 
-Mağazadan çekilecek sipariş satırlar her zaman olduğu gibi **Beklemede** olarak işaretlenir ve kabul etme işlemine tabi değildir.
+Mağazadan çekilecek sipariş satırları **Beklemede** olarak işaretlenir ve kabul etme işlemine tabi değildir.
 
-El ile kabul etmeyi veya sipariş satırlarını açmak için **Perakende** > **Kanallar** > **Perakende mağazalar** > **Tüm perakende mağazalar**'a gidin. Mağazayı seçin ve mağaza ayrıntılarını görmek için mağaza koduna tıklayın. **Düzenle**'yi tıklatın. **Genel** hızlı sekmesinde **Sipariş karşılama** alt başlığını bulun ve **El ile kabul et** seçeneğini **Hayır** yerine **Evet** olarak ayarlayın. 
+Sipariş satırları için el ile kabul etmeyi açmak için **Perakende** > **Kanallar** > **Perakende mağazalar** > **Tüm perakende mağazalar**'a gidin. Mağazayı seçin ve mağaza ayrıntılarını görmek için mağaza koduna tıklayın. **Düzenle**'yi tıklatın. **Genel** hızlı sekmesinde **Sipariş karşılama** alt başlığını bulun ve **El ile kabul et** seçeneğini **Hayır** yerine **Evet** olarak ayarlayın. 
 
 ### <a name="enable-reject-order-line-capability"></a>Sipariş satırını reddet özelliğini etkinleştirme
 
@@ -114,7 +117,7 @@ Varsayılan olarak, siparişlerin durumu **Kabul edildi** olur. Sipariş durumu 
 
 **Paketle** - Paketle seçeneği iki eylemi destekler: **Sevk irsaliyesi yazdır** seçeneği seçili satırlar için sevk irsaliyesi yazdırır ve **Paketlendi olarak işaretle** seçeneği satırları paketlendi olarak işaretler ve satırlar arka ofiste teslim edildi olarak işaretlenir. Yalnızca aynı siparişe ait olan ve aynı teslimat şekline sahip olan sipariş satırları aynı anda paketlenebilir. Sevk irsaliyesi biçimleri makbuz biçimlerinin bir parçası olarak denetlenir. Makbuz biçimleri ayarlama hakkında daha fazla bilgi için bkz. [Makbuz şablonları ve yazdırma](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/receipt-templates-printing).
 
-**Sevk et** - Sevk etme eylemi seçili satırları arka ofiste **Teslim edildi** olarak işaretler. Bir satır tam olarak sevk edildikten sonra, artık mağaza karşılama görünümünde görüntülenmez.
+**Sevk et** - Sevk etme eylemi seçili satırları arka ofiste **Teslim edildi** olarak işaretler. Bir satır tam olarak sevk edildikten sonra, artık sipariş karşılama görünümünde görüntülenmez.
 
 **Malzeme çekme** - Malzeme çekme eylemi çekme için satırları hareket görünümüne ekler. Siparişte henüz çekilmemiş başka satırlar olması durumunda, bu satırlar hareket görünümüne sıfır miktarıyla eklenir. Bir satır tam olarak çekildikten sonra, artık sipariş karşılama görünümünde görüntülenmez. 
 

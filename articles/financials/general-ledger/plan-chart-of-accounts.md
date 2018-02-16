@@ -3,14 +3,14 @@ title: "Hesap planınızı planlama"
 description: "Bu makalede, kuruluşunuzun hesap planını yapmanıza yardımcı olacak bilgiler verilmektedir."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 01/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 038886f0a6e1c133a33ee34725eb20352e64341a
+ms.sourcegitcommit: ad55dd57483de4351c8501c5e226180fc73606aa
+ms.openlocfilehash: 3d2cdeaf2fdeb2f587f82c97249886fb8db49154
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/11/2018
 
 ---
 
@@ -45,12 +45,12 @@ Burada kurumunuz için hesap planının yapısını planlarken mutlaka göz ön�
 -   Yasal biriminizin raporlama gereksinimleri
 -   Hem dış kurumlar hem kendi kurumunuz için gerekli olan tanımlama derecesi
 
-**Hesap planı** sayfasından hesap planınızı oluşturun. Ana hesaplar **Hesap planı** sayfasından veya **Ana hesaplar** sayfasından oluşturulabilir. Ana hesaplarınız, hesap planı sınırlayıcıları olarak kullanılan hiçbir özel karakteri kullanmamalıdır. Hesap planı sınırlayıcınızla aynı olan bir özel karakter bulunuyorsa tutarsızlık yaşayabilir veya hesap ve boyut kombinasyonları girerken daima arama veya sorgulama özelliklerini kullanmak durumunda kalabilirsiniz. Daha fazla bilgi için bkz. [Ana hesap oluşturma](tasks/create-account-structures.md).
+**Hesap planı** sayfasından hesap planınızı oluşturun. Ana hesaplar **Hesap planı** sayfasından veya **Ana hesaplar** sayfasından oluşturulabilir. Ana hesaplarınız, hesap planı sınırlayıcıları olarak kullanılan hiçbir özel karakteri kullanmamalıdır. Hesap planı sınırlayıcınızla aynı olan bir özel karakter bulunuyorsa tutarsızlık yaşayabilir veya hesap ve boyut kombinasyonları girerken daima arama veya sorgulama özelliklerini kullanmak durumunda kalabilirsiniz. Daha fazla bilgi için bkz. [Ana hesap oluşturma](tasks/create-main-account.md).
 
 
 Ana hesapların ana hesap kategorileriyle ilişkilendirilmesi iyi bir fikirdir, böylece herhangi bir değişiklik yapmak zorunda kalmadan varsayılan finansal raporları istediğiniz gibi kullanabilirsiniz. Böylece, raporları daha hızlı ve kolay bir şekilde tasarlayabilir ve tutabilirsiniz. 
 
-Hesap yapıları oluşturmak için **Hesap yapıları oluştur** sayfasını kullanın. Hesap yapıları geçerli kombinasyonları tanımlar. Kombinasyonlar, ana hesaplarla birlikte bir hesap planı oluşturur.  Daha fazla bilgi için bkz. [Hesap yapıları oluşturma](tasks/create-main-account.md).
+Hesap yapıları oluşturmak için **Hesap yapıları oluştur** sayfasını kullanın. Hesap yapıları geçerli kombinasyonları tanımlar. Kombinasyonlar, ana hesaplarla birlikte bir hesap planı oluşturur.  Daha fazla bilgi için bkz. [Hesap yapıları oluşturma](tasks/create-account-structures.md).
 
 **Tüzel varlık geçersiz kılmaları** 
 
