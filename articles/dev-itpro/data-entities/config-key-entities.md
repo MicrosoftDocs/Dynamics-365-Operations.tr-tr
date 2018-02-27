@@ -18,14 +18,17 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: 40bfc3f1f7c5fe1eec788d252cbe7be7d1c7536f
-ms.openlocfilehash: 1dab5e2e93bb87a926e9c66599ad711556206765
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: f9ea932b48d57baad4b4ab66069191ebd7cbbd6c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/27/2018
 
 ---
 
 # <a name="configuration-keys-and-data-entities"></a><span data-ttu-id="38ac3-103">Yapılandırma anahtarları ve veri varlıkları</span><span class="sxs-lookup"><span data-stu-id="38ac3-103">Configuration keys and data entities</span></span>
+
+[!include[banner](../includes/banner.md)]
+
 <span data-ttu-id="38ac3-104">Verileri içe veya dışa aktarmak için veri varlıklarını kullanmadan önce öncelikle yapılandırma anahtarlarının kullanmayı planladığınız veri varlıkları üzerindeki etkisini belirlemenizi öneririz.</span><span class="sxs-lookup"><span data-stu-id="38ac3-104">Before you use data entities to import or export data, we recommended that you first determine the impact of configuration keys on the data entities that you are planning to use.</span></span> 
 
 <span data-ttu-id="38ac3-105">Finance and Operations'taki yapılandırma anahtarları hakkında daha fazla bilgi için bkz. [Lisans kodları ve yapılandırma anahtarları raporu](../sysadmin/license-codes-configuration-keys-report.md).</span><span class="sxs-lookup"><span data-stu-id="38ac3-105">To learn more about configuration keys in Finance and Operations, see the [License codes and configuration keys report](../sysadmin/license-codes-configuration-keys-report.md).</span></span>
