@@ -62,7 +62,7 @@ Aşağıdaki adımlar özel alan oluşturma ve bu alanı forma yerleştirme sür
 10.   İşaretlenen alanları formun seçilen bölgesine eklemek için **Ekle**'ye tıklayın. 
 11.   **İsteğe bağlı:** Yeni alanları seçilen bölümde istenen konuma taşımak için kişiselleştirme araç çubuğundaki **Taşı** modunu etkinleştirin. Kişisel kullanım için bir formu en iyi duruma getirmek amacıyla çeşitli kişiselleştirme özelliklerinin kullanılmasıyla ilgili daha fazla bilgi edinmek için [Kullanıcı deneyimini kişiselleştirme](personalize-user-experience.md) bölümüne bakın.  
 
-### <a name="sharing-custom-fields-with-other-users"></a>Özel alanları diğer kullanıcılarla paylaşma
+## <a name="sharing-custom-fields-with-other-users"></a>Özel alanları diğer kullanıcılarla paylaşma
 Özel alan oluşturup formda görüntülenmesini sağladıktan sonra, güncelleştirilen ve yeni alanı içeren bu sayfa görünümünü sistemdeki diğer kullanıcılara sunmak isteyebilirsiniz. Bunu üründeki kişiselleştirme özelliklerini kullanarak iki farklı yoldan yapabilirsiniz:
 
 -   Önerilen yol bu işlemi bir kişiselleştirmeyi tüm kullanıcılara veya bir kullanıcı alt kümesine sunabilecek olan sistem yöneticisi aracılığıyla gerçekleştirmektir. Daha fazla bilgi için bkz. [Kullanıcı deneyimini kişiselleştirme](personalize-user-experience.md). 
