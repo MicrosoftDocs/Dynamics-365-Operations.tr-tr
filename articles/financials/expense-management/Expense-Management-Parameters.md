@@ -17,14 +17,17 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 2abc0c2f2bdfe9cd8d8698bb9daf16436679d7e0
+ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
+ms.openlocfilehash: 2b3a384a3b9be686b10ce1f181664b0b9bbe9969
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/05/2018
 
 ---
 
 # <a name="expense-management-parameters"></a><span data-ttu-id="299a0-103">Gider yönetimi parametreleri</span><span class="sxs-lookup"><span data-stu-id="299a0-103">Expense management parameters</span></span>
+
+[!include[banner](../includes/banner.md)]
+
 -----------------------------
 
 <span data-ttu-id="299a0-104">Parametreler Gider yönetimi içindeki genel davranışı denetler.</span><span class="sxs-lookup"><span data-stu-id="299a0-104">The parameters control the general behavior in Expense management.</span></span>
