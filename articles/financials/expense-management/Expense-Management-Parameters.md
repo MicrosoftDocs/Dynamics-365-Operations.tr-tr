@@ -25,6 +25,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="expense-management-parameters"></a>Gider yönetimi parametreleri
+
+[!include[banner](../includes/banner.md)]
+
 -----------------------------
 
 Parametreler Gider yönetimi içindeki genel davranışı denetler.

@@ -27,6 +27,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="websearchax-retired"></a>WebSearchAX kaldırıldı
 
+[!include[banner](../includes/banner.md)]
+
 WebSearchAX sayfasını kaldırdık. Bunun yerine favori arama motorunuzu kullanarak site araması yapmanızı öneririz.  Örneğin: 
 
 site:technet.microsoft.com dynamics ax 2012 "arama terimi"
