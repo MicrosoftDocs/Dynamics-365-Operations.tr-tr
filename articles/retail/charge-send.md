@@ -19,14 +19,16 @@ ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7612935c42ee7b28e1d1e24b22801e31114dc675
+ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
+ms.openlocfilehash: 41434614b01f9a00f2b8a56765ecb90ee07e3d90
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/06/2018
 
 ---
 
 # <a name="ship-an-order-from-a-different-store"></a><span data-ttu-id="6055e-103">Bir siparişi farklı bir mağazadan sevk etme</span><span class="sxs-lookup"><span data-stu-id="6055e-103">Ship an order from a different store</span></span>
+
+[!include[banner](includes/banner.md)]
 
 <span data-ttu-id="6055e-104">Dynamics 365 for Retail'deki Gönderimle görevlendirme özelliğiyle, müşteri siparişleri bir mağazadan alınabilir ve başka bir mağazadan sevk edilebilir.</span><span class="sxs-lookup"><span data-stu-id="6055e-104">With the Charge send feature in Dynamics 365 for Retail, customer orders can be placed in one store and shipped from another store.</span></span> <span data-ttu-id="6055e-105">Satış noktası (POS) istemcisindeki müşteri siparişleri birden fazla karşılama seçeneğini destekler.</span><span class="sxs-lookup"><span data-stu-id="6055e-105">Customer orders in the point of sale (POS) client support multiple fulfillment options.</span></span> <span data-ttu-id="6055e-106">Karşılama seçeneklerine örnek olarak aşağıdakiler verilebilir:</span><span class="sxs-lookup"><span data-stu-id="6055e-106">Some examples of fulfillment options include:</span></span>
 -   <span data-ttu-id="6055e-107">Farklı bir tarihte aynı mağazadan alma.</span><span class="sxs-lookup"><span data-stu-id="6055e-107">Pick up from the same store on a different date.</span></span>
