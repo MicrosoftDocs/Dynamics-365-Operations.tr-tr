@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="register-material-consumption-using-a-mobile-device"></a>Mobil cihaz kullanarak malzeme tüketimini kaydetme
+
+[!include[banner](../includes/banner.md)]
+
 Bu konu, bir taşınabilir aygıt kullanarak üretimdeki ham madde tüketimini kaydetmeyi sağlayan bir iş akışını açıklar.
 
 <a name="introduction"></a>Giriş

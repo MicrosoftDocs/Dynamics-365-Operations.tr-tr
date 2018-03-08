@@ -26,6 +26,8 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="credit-and-collections-management-power-bi-content"></a>Kredi ve tahsilatlar yönetimi Power BI içeriği
 
+[!include[banner](../includes/banner.md)]
+
 Bu konu, Microsoft Power BI **Kredi ve Tahsilatlar Yönetimi**'nde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
 ## <a name="overview"></a>Özet

@@ -25,6 +25,8 @@ ms.lasthandoff: 01/23/2018
 
 # <a name="accessibility-features"></a>Erişilebilirlik özellikleri
 
+[!include[banner](../includes/banner.md)]
+
 Bu konu, çeşitli engelleri bulunan kullanıcıların Dynamics 365 for Finance and Operations, Enterprise edition, Dynamics 365 for Retail ve Dynamics 365 for Talent'ı kullanmalarına yardımcı olmak üzere tasarlanan işlevi açıklamaktadır. Örneğin, Microsoft Windows Ekran Okuyucusu gibi yardımcı görme teknolojileri kullanan kişilere yönelik özellikler vardır.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows Ekran Okuyucusu ve yalnızca klavye erişimi

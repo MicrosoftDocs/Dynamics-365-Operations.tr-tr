@@ -26,6 +26,8 @@ ms.lasthandoff: 11/15/2017
 
 # <a name="create-an-engaging-onboarding-experience"></a>Etkileyici bir onboarding deneyimi oluşturmak
 
+[!include[banner](includes/banner.md)]
+
 Etkili şekilde yapıldığında, onboarding yeni çalışanların daha etkili çalışmalarına yardımcı olurken aynı zamanda yeni rollerine aidiyet hissi oluşturur. Onboarding, yeni çalışanların yeni rollerini daha hızlı ve doğru anlamalarına yardımcı olur ve başarılı olmalarına yardımcı olacak ilişkiler kurmalarında önayak olur. Alternatif olarak verimsiz bir onboarding deneyimi, çalışanın kuruluşunuza katılma kararını sorgulamasına neden olabilir. Gartner tarafından 2014 yılında gerçekleştirilen bir araştırma, 1.005 yanıtlayandan işi ilk altı ayda bırakan neredeyse üçte birinin, liderlik tarafından verilen rehberliğin yetersiz olmasından, eğitim etkili olmamasından veya yeni ortamlarında etkili ilişkiler kuramamış olmalarından kaynaklandığını ortaya koymuştur.
 
 ## <a name="have-an-onboarding-program-in-place"></a>Bir onboarding programı oluşturun

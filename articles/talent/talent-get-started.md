@@ -25,6 +25,9 @@ ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent kullanmaya başlama
+
+[!include[banner](includes/banner.md)]
+
 Microsoft Dynamics 365 for Talent'ta kullanıcı arabirimini değiştirmek ve seçenekleri yazılımı ihtiyaçlarınızı en iyi şekilde karşılayacak şekilde ayarlamak kolaydır. Bu konu, kullanıcı arabirimini nasıl tercihlerinize uygun hale getirebileceğinizle ilgili bilgiler sunan konulara bağlantılar içerir. Bu konu ayrıca sistem içinde bilgileri etkin ve doğru şekilde bulmanıza yardımcı olabilecek bilgiler de içerir. 
 
 > [!NOTE] 

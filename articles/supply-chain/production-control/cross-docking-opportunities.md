@@ -28,6 +28,8 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Üretim emirlerinden çıkış noktalarına çapraz sevk
 
+[!include[banner](../includes/banner.md)]
+
 Bu konu, bir üretim hattından bir harici nakliye sevk noktasından tamamlanmış olarak raporlanan çapraz sevk malzemesinin yönetilme işlemini açıklar.
 
 <a name="introduction"></a>Giriş

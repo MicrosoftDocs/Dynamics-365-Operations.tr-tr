@@ -28,6 +28,8 @@ ms.lasthandoff: 10/10/2017
 
 # <a name="ship-an-order-from-a-different-store"></a>Bir siparişi farklı bir mağazadan sevk etme
 
+[!include[banner](includes/banner.md)]
+
 Dynamics 365 for Retail'deki Gönderimle görevlendirme özelliğiyle, müşteri siparişleri bir mağazadan alınabilir ve başka bir mağazadan sevk edilebilir. Satış noktası (POS) istemcisindeki müşteri siparişleri birden fazla karşılama seçeneğini destekler. Karşılama seçeneklerine örnek olarak aşağıdakiler verilebilir:
 -   Farklı bir tarihte aynı mağazadan alma.
 -   Aynı tarihte veya farklı bir tarihte farklı bir mağazadan alma.

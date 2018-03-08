@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="modify-an-electronic-reporting-format-by-reapplying-a-microsoft-excel-template"></a>Bir Microsoft şablonunu yeniden uygulayarak bir Elektronik raporlama biçimini değiştirme
+
+[!include[banner](../includes/banner.md)]
+
 Elektronik raporlama (ER) aracı, elektronik biçimde iş belgeleri oluşturmak için kullanılır. Bir iş belgesi oluşturmak için bir ER biçimi oluşturmanız, ardından iş belgesinin düzenini tanımlamak için ER tasarımcısını kullanmanız ve buna dahil edilmesi gereken bilgileri belirtmeniz gerekir. Daha sonra iş belgeleri oluşturmak için ER biçimini çalıştırabilirsiniz.
 
 ER aracı Microsoft Excel dosyaları biçiminde iş belgeleri oluşturmak için kullanılabilir. Bu belgeler için bir Excel belgesini şablon olarak kullanabilirsiniz. ER tasarımcısında belge düzenini tanımlamak için, kullanmak istediğiniz Excel belgesinin içeriklerini şablon olarak tanımlanan ER biçimine aktarabilirsiniz. Ayrıntılı bilgi edinmek ve bu senaryoyu uygulamak için **ER OPENXML biçiminde raporlar oluşturmak için bir yapılandırma tasarlama** görev kılavuzunu (7.5.4.3 Al/BT hizmeti geliştir/çözüm bileşenleri (10677) iş işleminin parçası ) oynatın.

@@ -27,6 +27,8 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Bulut ve şirket içi özellik karşılaştırması
 
+[!include[banner](../includes/banner.md)]
+
 Bu konu, her bir özelliğin bu ürünlerde kullanılabilir olup olmadığını gösterir:
 
 + Dynamics 365 for Finance and Operations, Enterprise edition (bulut)

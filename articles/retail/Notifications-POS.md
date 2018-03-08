@@ -27,6 +27,8 @@ ms.lasthandoff: 12/20/2017
 
 # <a name="display-notifications-in-point-of-sale"></a>Satış Noktasında bildirimleri görüntüleme
 
+[!include[banner](includes/banner.md)]
+
 Bugünkü modern perakende ortamında, mağaza yetkilileri müşterilere yardım etme, hareketleri girme, stok sayımı yapma ve mağazada siparişleri alma gibi çeşitli görevlere atanmaktadır. Satış Noktası istemcisi, tek bir uygulamayla, mağaza yetkililerini bu görevleri gerçekleştirme ve çok daha fazlası için destekler. Gün içinde birçok görev yerine getiren çalışanların, dikkat etmelerini gerektiren bir konu olduğunda bildirim almaları gerekebilir. POS'taki bildirim çerçevesi, perakendecilere rol tabanlı bildirimler yapılandırma olanağı sunarak bu sorunu çözer. Uygulama güncelleştirmesi 5'e sahip Dynamics 365 for Retail'de bu bildirimler yalnızca POS işlemleri için yapılandırılabilir.
 
 Şu anda sistem sipariş karşılama işlemi için bildirimleri görüntüleme olanağı sunmaktadır ancak çerçeve genişletilebilecek şekilde tasarlanmıştır. Bu sayede geliştiriciler gelecekte herhangi bir işlem için bildirim işleyici yazma ve bildirimleri POS'ta görüntüleme olanağına sahip olacaktır.  

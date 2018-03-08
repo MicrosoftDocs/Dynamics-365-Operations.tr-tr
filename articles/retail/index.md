@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="welcome-to-dynamics-365-for-retail"></a>Dynamics 365 for Retail'e hoş geldiniz
 
+[!include[banner](includes/banner.md)]
+
 Microsoft Dynamics 365 for Retail, tüm kanallarda birleştirilmiş ticaret olanağı sunan uçtan uca bir perakende çözümüdür. Perakendeciler ve çalışanların bulut öncelikli, mobil öncelikli bir tarzda daha fazlasını başarmalarına yardımcı olmak için satış, hareketlilik, karar destek ve üretkenliği kapsar. Retail, alım satım, stok gibi geniş bir işletme süreçleri ve kanal yönetim yetenekleri yelpazesini yürütmek için kapsamlı destek sunar. Ayrıca tüm temas noktalarında kapsayıcı müşteri deneyimleri sağlar.
 
 > [!NOTE] 

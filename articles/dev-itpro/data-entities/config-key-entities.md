@@ -26,6 +26,9 @@ ms.lasthandoff: 01/19/2018
 ---
 
 # <a name="configuration-keys-and-data-entities"></a>Yapılandırma anahtarları ve veri varlıkları
+
+[!include[banner](../includes/banner.md)]
+
 Verileri içe veya dışa aktarmak için veri varlıklarını kullanmadan önce öncelikle yapılandırma anahtarlarının kullanmayı planladığınız veri varlıkları üzerindeki etkisini belirlemenizi öneririz. 
 
 Finance and Operations'taki yapılandırma anahtarları hakkında daha fazla bilgi için bkz. [Lisans kodları ve yapılandırma anahtarları raporu](../sysadmin/license-codes-configuration-keys-report.md).

@@ -25,6 +25,8 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="bank-management-workspace"></a>Banka yönetimi çalışma alanı
 
+[!include[banner](../includes/banner.md)]
+
 **Banka yönetimi** çalışma alanı, şirket banka hesaplarıyla ilgili bilgileri gösterir. Bu çalışma alanı bir **Özet** görünümü ve bir **Analiz** sayfası içerir. Bu **Özet** görünümü, özet kutucuklarını, banka hesap bilgisini, bir bakiye grafiğini ve ilgili bilgileri gösterir. **Analiz** sayfası, Microsoft Power BI yeteneklerini, banka hesabı bakiyeleriyle ilgili görselleri göstermek için kullanır.
 
 ## <a name="summary-view"></a>Özet görünümü

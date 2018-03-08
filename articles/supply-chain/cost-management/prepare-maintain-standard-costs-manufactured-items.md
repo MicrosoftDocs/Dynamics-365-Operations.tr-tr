@@ -30,6 +30,8 @@ ms.lasthandoff: 01/19/2018
 
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Üretilmiş maddeler için standart maliyetleri sürdürmeye hazırlanma
 
+[!include[banner](../includes/banner.md)]
+
 Bu konu üretilmiş maddeler için maliyetleri korumaya hazırlanmayla ilgili adımları açıklar. Üretilmiş maddelerle ilgili adımlar satın alınan maddelerle ilgili adımlardan biraz farklıdır.
 
 Üretilmiş maddelere atanan ilkeler, üretilmiş üst maddelere ait maliyet hesaplarını etkileyebilir. Üretilmiş maddeler için standart maliyetleri korumaya hazırlanmak için aşağıdaki adımları uygulayın.
