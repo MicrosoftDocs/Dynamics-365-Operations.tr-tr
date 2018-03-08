@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="design-a-questionnaire"></a>Bir soru formu tasarlama
 
+[!include[banner](includes/banner.md)]
+
 Bu konu bir anket oluşturma işlemini açıklar. İlk adım anketi tasarlamaktır. Bir anket tasarladığınızda, yalnızca soru ve yanıtları yazmayın, aynı zamanda yanıtların kaydedilip tablolar oluşturulmasını sağlayan yapıyı oluşturun. 
 
 Dikkatli şekilde tasarlanmış bir anket, topladığınız verilerin kalitesini artırabilir. Dikkatli tasarım ile bir anket için uygun zamanda uygun seçenekleri daha iyi seçebilirsiniz. Aşağıdaki noktalar etkili bir anket planlamanıza yardımcı olabilir:

@@ -27,6 +27,8 @@ ms.lasthandoff: 01/31/2018
 ---
 # <a name="leave-and-absence-management-overview"></a>İzin ve devamsızlık yönetimi genel bakış
 
+[!include[banner](includes/banner.md)]
+
 **İzin ve devamsızlık yönetim** modülü devamsızlık yönetimini tanımlamak için esnek bir çerçeve sunar. İzin ve devamsızlık planları, personelin boş zamanın nasıl atanacağını belirlemek için oluşturulabilir. Çalışanlar bir plana kaydedildikten sonra, yöneticilerine onay için izin istekleri gönderebilirler. İzin izleme, hem birinci seviye yöneticilerin hem de İnsan Kaynakları (İK) yöneticilerinin kimin izinli olduğunu ve her bir personelin en kadar süresi kaldığını izleme olanağı sağlar.  
 
 İzin ve devamsızlık yönetimi aşağıdaki özellikleri sağlar: 

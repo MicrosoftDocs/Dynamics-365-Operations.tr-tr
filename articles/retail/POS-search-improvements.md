@@ -28,6 +28,8 @@ ms.lasthandoff: 01/19/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Satış noktası içinde ürün ve müşteri arama genel bakışı
 
+[!include[banner](includes/banner.md)]
+
 Modern Satış Noktası (MPOS) ve Bulut Satış Noktası (CPOS), kolay kullanımlı arama işlevi sağlar ve mağaza çalışanlarının ürün ve müşterileri hızlıca aramasına olanak sağlar. Arama çubuğu her zaman MPOS ve CPOS'un üstünde mevcuttur, böylece çalışanlar ürünleri ve müşterileri hızla bulabilir.
 
 Çalışanlar ürünleri geçerli mağaza ile ilişkilendirilmiş sınıflamalar ve kataloglar ve şirketteki diğer herhangi bir mağaza ile ilişkilendirilmiş kataloglar ve sınıflandırmalar içerisinde arayabilirler. Bu nedenle, kasiyerler mağaza sınıflandırması dışındaki ürünleri satabilir ve iade alabilir. Benzer şekilde, çalışanlar geçerli mağaza veya şirketle ilişkili herhangi başka bir mağaza ile ilişkili müşterileri arayabilir. Ek olarak, çalışanlar, üst kuruluştaki başka bir şirketle ilişkilendirilmiş müşterileri arayabilirler.

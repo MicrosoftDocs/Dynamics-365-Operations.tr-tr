@@ -25,6 +25,9 @@ ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="generate-affordable-care-act-reports"></a>Ekonomik Bakım Yasası raporları oluşturun
+
+[!include[banner](includes/banner.md)]
+
 Ekonomik Bakım Yasası'nın **İşveren Yönergesi** bölümündeki Formlar 1095-B ve 1095-C'den raporlanan bilgileri izlemesi gereken işverenlere destek olmak için işlev mevcuttur. Bu işlevin yalnızca Amerika Birleşik Devletleri'ndeki tüzel varlıklar için etkin olduğunu unutmayın.
 
 ## <a name="getting-started"></a>Başlarken

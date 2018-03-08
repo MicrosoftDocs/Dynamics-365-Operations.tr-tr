@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="personnel-actions-faq"></a>Personel eylemleri [SSS]
+
+[!include[banner](includes/banner.md)]
+
 Bu konu, kuruluşununuz personel eylemleri kullanıyorsa sahip olabileceğiniz sorulara yanıtlar içerir. Personel eylemleri, personelle ilgili çeşitli görevleri gerçekleştirdiğinizde tamamlamanız gereken ek adımlardır. Personel eylemleri gerektirebilen görevlere örnekler arasında yeni pozisyonlar oluşturduğunuz, mevcut pozisyon değerlerini düzenlediğiniz, yeni çalışanları işe aldığınız, çalışanları transfer ettiğiniz, çalışan ücretini değiştirdiğiniz, pozisyon atamalarını değiştirdiğiniz veya çalışanların işine son verdiğiniz durumları içerebilir.
 
 **Not:** Personel eylemleri yalnızca **Personel eylemlerini etkinleştir** ve **Konum eylemlerini etkinleştir** alanları **Evet** olarak **Personel eylemleri** sekmesinde, **İnsan kaynakları paylaşılan parametreleri** sayfasında ayarlanmışsa kullanılabilir. 

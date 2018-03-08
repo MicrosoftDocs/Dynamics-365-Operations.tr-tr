@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="questionnaires"></a>Soru formları
 
+[!include[banner](includes/banner.md)]
+
 Bu konu, anketler hakkında genel bilgi ve daha ayrıntılı bilgiler için bağlantılar sağlar. Bir anket çeşitli amaçlarla bilgi toplamak için kullanılan bir soru kümesidir. Soru formları tasarlayabilir, oluşturabilir, dağıtabilir, doldurabilir ve ardından sonuçları çözümleyebilirsiniz. 
 
 Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünde kullanılabilen çeşitli özellikleri kullanarak bir anketi belirli gereksinimlerinize uyacak şekilde özelleştirebilirsiniz. Anketleri nasıl kullanabileceğinizin bazı örnekleri şunlardır:

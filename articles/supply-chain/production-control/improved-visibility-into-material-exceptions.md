@@ -26,6 +26,8 @@ ms.lasthandoff: 12/14/2017
 ---
 # <a name="visibility-into-material-exceptions"></a>Malzeme özel durumlarının görülebilirliği
 
+[!include[banner](../includes/banner.md)]
+
 **Üretim katı yönetimi** çalışma alanında bulunan üç kutucuk üretim emirleri ve toplu iş emirleri için ham madde özel durumlarının daha iyi görüntülenebilmesini sağlamanıza olanak tanır.
 
 - Dikkat gerektiren serbest bırakılmamış malzeme satırları
