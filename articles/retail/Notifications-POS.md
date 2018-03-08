@@ -18,14 +18,16 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: a1206aea3f78246951581c1dc6338e39a0942ea2
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: d4af3436c609ad7612e72a1dcace2e3c0ffd078a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/08/2018
 
 ---
 
 # <a name="display-notifications-in-point-of-sale"></a><span data-ttu-id="f5db3-103">Satış Noktasında bildirimleri görüntüleme</span><span class="sxs-lookup"><span data-stu-id="f5db3-103">Display notifications in Point of Sale</span></span>
+
+[!include[banner](includes/banner.md)]
 
 <span data-ttu-id="f5db3-104">Bugünkü modern perakende ortamında, mağaza yetkilileri müşterilere yardım etme, hareketleri girme, stok sayımı yapma ve mağazada siparişleri alma gibi çeşitli görevlere atanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="f5db3-104">In today's modern retail environment, store associates are assigned various tasks, such as helping customers, entering transactions, performing stock counts, and receiving orders in store.</span></span> <span data-ttu-id="f5db3-105">Satış Noktası istemcisi, tek bir uygulamayla, mağaza yetkililerini bu görevleri gerçekleştirme ve çok daha fazlası için destekler.</span><span class="sxs-lookup"><span data-stu-id="f5db3-105">The Point of Sale (POS) client empowers the associates to do these tasks and much more, all in a single application.</span></span> <span data-ttu-id="f5db3-106">Gün içinde birçok görev yerine getiren çalışanların, dikkat etmelerini gerektiren bir konu olduğunda bildirim almaları gerekebilir.</span><span class="sxs-lookup"><span data-stu-id="f5db3-106">With various tasks to be performed during a day, associates may need to be notified when something requires their attention.</span></span> <span data-ttu-id="f5db3-107">POS'taki bildirim çerçevesi, perakendecilere rol tabanlı bildirimler yapılandırma olanağı sunarak bu sorunu çözer.</span><span class="sxs-lookup"><span data-stu-id="f5db3-107">The notification framework in the POS solves this problem by allowing the retailers to configure role-based notifications.</span></span> <span data-ttu-id="f5db3-108">Uygulama güncelleştirmesi 5'e sahip Dynamics 365 for Retail'de bu bildirimler yalnızca POS işlemleri için yapılandırılabilir.</span><span class="sxs-lookup"><span data-stu-id="f5db3-108">With Dynamics 365 for Retail with Application update 5, these notifications can be only configured for POS operations.</span></span>
 
