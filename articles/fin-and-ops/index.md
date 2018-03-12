@@ -3,7 +3,7 @@ title: Microsoft Dynamics 365 for Finance and Operations, Enterprise edition Bel
 description: Microsoft Dynamics 365 for Finance and Operations, Enterprise edition belgeleri.
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2017
+ms.date: 03/02/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: bb258999e072dc280bccfe64fb0dbd41d6577a0e
-ms.openlocfilehash: dbcbd7f7b0c23545eec74de538f1d7ec96ac98b6
+ms.sourcegitcommit: 7142c6bcb6e98929afdb8bb982a17efc7223ab12
+ms.openlocfilehash: 0d12082a2b10ae8e83217c5451627239e6ec640b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
@@ -43,9 +43,13 @@ Bu içeriğin çoğu ilgili ürünler için de geçerlidir: Microsoft Dynamics 3
 <h3><a href="get-started/before-you-buy.md">Satın almadan önce</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Önizleme aboneliğine kaydolma</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Bir dağıtım seçeneği belirleme</a></p>
-  <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
-  <p><a href="get-started/purchase-on-premises.md">Finance and Operations'ı (şirket içi) satın alma</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Finance and Operations (şirket içi) satın alma</a></p>
 
+<h3><a href="imp-lifecycle/implementation-lifecycle.md">Uygulama yaşam döngüsü</a></h3>
+<p><a href="get-started/fasttrack-dynamics-365-overview.md">Dynamics 365 için FastTrack</a></p>
+<p><a href="imp-lifecycle/onboard.md">Bir projeyi işe alma</a></p>
+<p><a href="imp-lifecycle/prepare-go-live.md">Servise almak için hazırlama</a></p>
+  
 <h3><a href="../financials/index.md">Mali yönetim</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Borç hesapları</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">Alacak hesapları</a></p>
@@ -90,7 +94,7 @@ Bu içeriğin çoğu ilgili ürünler için de geçerlidir: Microsoft Dynamics 3
 <h3><a href="../dev-itpro/dev-tools/developer-home-page.md">Geliştirme</h3>
 <p><a href="../dev-itpro/extensibility/extensibility-home-page.md">Genişletilebilirlik</a></p>
 
-<p><a href="../dev-itpro/data-entities/integration-overview.md">Veri tümleştirmesi</a></p>
+<p><a href="../dev-itpro/data-entities/integration-overview.md">Veri tümleştirme</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Veri yönetimi</a></p>
 
 <p><a href="../dev-itpro/office-integration/office-integration.md">Office tümleştirmesi</a></p>
@@ -99,7 +103,8 @@ Bu içeriğin çoğu ilgili ürünler için de geçerlidir: Microsoft Dynamics 3
 <p><a href="get-started/demo-data.md">Tanıtım verileri</a></p>
 
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Yönetim</h3>
-<p><a href="../dev-itpro/deployment/choose-deployment-type.md">Dağıtım</a></p>
+<p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Bulut dağıtımı</a></p>
+<p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">Şirket içi dağıtım</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Yükseltme</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Bakım</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Veri yönetimi çerçevesi</a></p>

@@ -1,9 +1,9 @@
 ---
 title: "Tedarik zinciri yönetimi giriş sayfası"
-description: "Bu konu, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'ın tedarik zinciri yönetim özellikleri için yardım konularının ve diğer kaynakların bir listesini sağlar."
+description: "Bu sayfa, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'ın tedarik zinciri yönetim özellikleri için yardım konularının ve diğer kaynakların bir listesini sağlar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 02/15/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
-ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
+ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
+ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/22/2018
+ms.lasthandoff: 02/21/2018
 
 ---
 
@@ -40,7 +40,7 @@ Yayımlanan ve geliştirilmekte olan yeni özellikleri görmek için <a href="ht
 Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
 
 - [Maliyet muhasebesi](../financials/cost-accounting/cost-accounting-home-page.md)
-- [Maliyet yönetimi](cost-management/costing-sheets.md)  
+- [Maliyet yönetimi](cost-management/cost-management-home-page.md)  
 - [Stok yönetimi](inventory/inventory-home-page.md)
 - [Master planlama](master-planning/master-planning-home-page.md)
 - [Tedarik ve kaynak atama](procurement/procurement-sourcing-overview.md)
@@ -56,6 +56,7 @@ Bu kısa videolar, Microsoft Dynamics 365 for Finance and Operations, Enterprise
 
 -  [Müşteriden nakde tümleştirmesi](https://youtu.be/AVV9x5x-XCg) 
 -  [İyileştirme danışmanı](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+-  [Yapılandırmayı kopyalamak için ambar şablonu kullanma](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 Bu kısa videolar, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'daki (Temmuz 2017) yeni özellikleri öğrenmenize yardımcı olur.
 
@@ -67,17 +68,36 @@ Bu kısa videolar, Microsoft Dynamics 365 for Finance and Operations, Enterprise
 
 Bu teknik konferans kayıtlarında Finance and Operations'ın önceki sürümüne ilişkin ürün işlevleri açıklanmaktadır. Ancak aynı kavramlar hala geçerlidir ve geçerli sürümde yordamlar benzerdir. 
 
--  <a href="https://youtu.be/zotrj3SbCl4">Microsoft Dynamics AX'teki Ürün Yapılandırıcısı</a>
--  <a href="https://youtu.be/7v8BPmEs9Dg">Master Planlama: Performans sorunlarını gidermek için ipuçları ve püf noktaları</a>
--  <a href="https://youtu.be/RLXybx20B5o">Yardım edin! MRP yavaş!</a>
--  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">Ambar yönetiminde gelen ASN'leri işleme</a> 
--  <a href="https://www.youtube.com/watch?v=--_didmZKHo&t=10s">Ambar yönetimi sisteminizden en iyi şekilde yararlanın</a>
--  <a href="https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s">Gelişmiş R3 Ambar Yönetimi: Gelen İşleme ve Minimum/Maksimum Stok Yenilemesi</a>
--  <a href="https://youtu.be/Og0gLlVp7jA">Gelişmiş R3 Ambar yönetimi: Yaşamdan bir gün, giden işleme ve Talep Stok Yenilemesi</a>
--  <a href="https://youtu.be/5w1MngVchBA">Yeni Microsoft Dynamics AX 2012 R3 ambar yönetiminde etiketler</a>
--  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3: Gelişmiş ambar yönetimi - Süreç bazlı üretimde bir gün</a>
--  <a href="https://youtu.be/y1jrd3A_k70">İmalatta alt sözleşme işlemleri ve faaliyetleri</a>
--  <a href="https://youtu.be/jgmTgJIgEFQ">Yeni Microsoft Dynamics AX'te taşıma yönetimi (TMS)</a>
+**Maliyet yönetimi**
+
+-  [Maliyet yönetimine genel bakış](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+
+**Master planlama**
+
+-  [Talep tahmin işlevini genişletme](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+-  [Master planlama: Performans sorunlarını gidermek için ipuçları ve püf noktaları](https://youtu.be/7v8BPmEs9Dg)
+-  [Yardım edin! MRP yavaş!](https://youtu.be/RLXybx20B5o)
+
+**Ürün bilgileri yönetimi**
+
+-  [Microsoft Dynamics AX'teki ürün yapılandırıcı](https://youtu.be/zotrj3SbCl4)
+
+**Ambar yönetimi** 
+
+-  [Ambar yönetiminde gelen ÖSB'leri işleme](https://mix.office.com/watch/wpf78tr7rjuh)  
+-  [Ambar yönetimi sisteminizden en iyi şekilde yararlanma](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+-  [Gelişmiş R3 Ambar yönetimi: Gelen işleme ve minimum/maksimum stok yenileme](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
+-  [Gelişmiş R3 Ambar yönetimi: Yaşamdan bir gün, giden işleme ve talep stok yenilemesi](https://youtu.be/Og0gLlVp7jA)
+-  [Yeni Microsoft Dynamics AX 2012 R3 Ambar yönetiminde etiketler](https://youtu.be/5w1MngVchBA)
+-  [Dynamics AX 2012 R3: Gelişmiş ambar yönetimi - Süreç bazlı üretimde bir gün](https://www.youtube.com/embed/QUxXUrN-7n4)
+
+**Üretim denetimi**
+
+-  [İmalatta alt sözleşme işlemleri ve faaliyetleri](https://youtu.be/y1jrd3A_k70)
+
+**Taşıma yönetimi**
+
+-  [Yeni Microsoft Dynamics AX'te taşıma yönetimi (TMS)](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Bloglar
 <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX İmalat Ar-Ge Ekibi Blogu</a>'nda ve <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Dynamics AX'te Tedarik Zinciri Yönetimi Ar-Ge Ekibi Blogu</a>'nda imalat ve tedarik zinciri yönetimi hakkında pek çok konu bulunmaktadır. Bu içeriğin büyük bölümü Finance and Operations'ın önceki sürümü için yazılmıştır ancak aynı kavramlar hala geçerlidir ve geçerli sürümde yordamlar benzerdir. 

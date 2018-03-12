@@ -181,8 +181,9 @@
 ### [Retail Server mimarisi](dev-itpro/retail-server-architecture.md)
 ### [Perakende kanalı iletişimleri](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [MPOS mimarisi](dev-itpro/retail-modern-pos-architecture.md)
-### [Çevrimiçi perakende mağazası yayınlama mimarisi](dev-itpro/retail-online-store-publishing-architecture.md)
+### [Çevrimiçi perakende mağazası yayımlama mimarisi](dev-itpro/retail-online-store-publishing-architecture.md)
 ### [Perakende Kanalı Performansı Power BI içeriği](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Ödeme Uygulaması Veri Güvenliği Standartları (PA-DSS) sertifikası](dev-itpro/PA-DSS-Certification.md)
 
 ## Dağıtım ve düzeltmeler
 ### [Perakende Mağaza Ölçeği Birimine genel bakış](dev-itpro/retail-store-system-begin.md)
