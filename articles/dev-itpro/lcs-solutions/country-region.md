@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 1cb4305b3ef425ec19ae63c8186bffef212b9890
+ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
+ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -215,8 +215,23 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 ### <a name="hungary"></a>Macaristan
 
 -   [Sabit kıymet amortisman yöntemleri](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
--   [Sabit kıymeti stoka taşıma](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+-   [Sabit kıymeti stoğa taşıma](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
 -   [Düşük maliyetli sabit kıymetler](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+
+### <a name="india"></a>Hindistan
+
+- [Sabit kıymetler](../../financials/localizations/apac-ind-fixed-assets.md)
+    - [Sermaye maddelerini sabit kıymete transfer etme](../../financials/localizations/tasks/apac-ind-transfer-capital-items.md)
+    - [Sabit kıymet defterine gün tabanlı takvim ekleme](../../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md)
+    - [Amortismanı hesaplamak için parametreleri ayarlama](../../financials/localizations/tasks/apac-ind-set-up-depreciation.md)
+    - [Amortisman defterleri için kıymet grubu amortismanı ayarlama](../../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md)
+    - [Sermaye maddeleri için stok modeli grubu oluşturma](../../financials/localizations/tasks/apac-ind-create-inventory-model-group.md)
+    - [Hindistan sabit kıymetler için vardiya amortismanı hesaplaması](../../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md)
+    - [Defterler için vardiya ve endüstri türünü tanımlama ve sabit kıymete ekleme](../../financials/localizations/tasks/apac-ind-books-shift-industry-types.md)
+- [Vergi altyapısına genel bakış](../../financials/general-ledger/tax-engine.md)
+    - [Vergi altyapısı tümleştirmesi](../../financials/general-ledger/tax-engine-integration.md)
+    - [Vergi eşikleriyle ilgili SSS](../../financials/localizations/apac-ind-tax-thresholds.md)
+    - [Vergi altyapısını genişletme](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
 ### <a name="italy"></a>İtalya
 

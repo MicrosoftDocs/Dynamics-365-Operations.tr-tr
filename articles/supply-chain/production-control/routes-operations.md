@@ -1,7 +1,7 @@
 ---
 title: Rotalar ve operasyonlar
 description: "Bu konu rotalar ve operasyonlar hakkında bilgi sağlar."
-author: YuyuScheller
+author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
