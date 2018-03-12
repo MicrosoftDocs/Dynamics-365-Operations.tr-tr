@@ -9,7 +9,7 @@
 ## [Uygulama yığını ve sunucu mimarisi](dev-tools/application-stack-server-architecture.md)
 ## [Değerlendirme kopyası alma](dev-tools/get-evaluation-copy.md)
 ## [Bir aboneliğe kaydolma](dev-tools/sign-up-preview-subscription.md)
-## [Erişim örnekleri](dev-tools/access-instances.md)
+## [Bir geliştirme ortamını dağıtma ve ortama erişme](dev-tools/access-instances.md)
 ## [Geliştirme sistemi gereksinimleri](dev-tools/development-system-requirements.md)
 ## Filo Yönetimi örnek uygulaması
 ### [Filo Yönetimi örnek uygulaması](dev-tools/fleet-management-sample.md)
@@ -359,8 +359,8 @@
 #### [ValueDesign Türü](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md)
 #### [ValueMetadata Türü](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
 
-# Veri tümleştirmesi
-## [Tümleştirme modelleri](data-entities/integration-overview.md)
+# Veri tümleştirme
+## [Bir veri tümleştirme (içe aktarma/dışa aktarma) stratejisi seçme](data-entities/integration-overview.md)
 
 ## Veri tümleştirme API'ları
 ### [Veri yönetimi paketi API'sı](data-entities/data-management-api.md)
@@ -381,12 +381,12 @@
 
 ### [Common Data Service'ı kullanarak veri tümleştirmesi](data-entities/data-integration-cds.md) 
 #### [Aday müşteriden nakde senaryosu yapılandırma](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [Finance and Operations'taki ürünleri Sales'teki ürünlerle eşitleme](../supply-chain/sales-marketing/products-template-mapping.md)
-##### [Sales'teki firmaları Finance and Operations'taki müşterilerle eşitleme](../supply-chain/sales-marketing/accounts-template-mapping.md)
-##### [Sales'teki ilgili kişileri Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme](../supply-chain/sales-marketing/contacts-template-mapping.md)
-##### [Sales'deki satış teklifi başlıklarını ve satırlarını Finance and Operations'la eşitleme](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-##### [Finance and Operations'daki satış siparişi başlıklarını ve satırlarını Sales ile eşitleme](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-##### [Finance and Operations'daki satış faturası başlıklarını ve satırlarını Sales ile eşitleme](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+##### [Finance and Operations'taki ürünleri Sales'teki ürünlerle eşitleme](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+##### [Sales'teki firmaları Finance and Operations'taki müşterilerle eşitleme](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+##### [Sales'teki ilgili kişileri Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+##### [Sales'deki satış teklifi başlıklarını ve satırlarını Finance and Operations'la eşitleme](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [Finance and Operations'daki satış siparişi başlıklarını ve satırlarını Sales ile eşitleme](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [Finance and Operations'daki satış faturası başlıklarını ve satırlarını Sales ile eşitleme](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Sales'teki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle eşitleme](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Sales'teki ilgili kişileri doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
@@ -447,10 +447,12 @@
 ### [Devralma modelleri](data-entities/support-super-type-sub-type.md)
 ### [Veri varlığı sihirbazı kuralları](data-entities/data-entity-wizard-rules.md)
 ### [Meta veri özellikleri](data-entities/behavioral-properties-data-entities.md)
-### [Doğrulamalar, varsayılanlar ve eşlenmeyen alanlar](data-entities/validations-defaults-unmapped-fields.md)
+### [Doğrulamalar, varsayılanlar ve eşlenmemiş alanlar](data-entities/validations-defaults-unmapped-fields.md)
 ### [Güvenlik ve veri varlıkları](data-entities/security-data-entities.md)
 
 ## [Kendi veritabanınızı getirme](analytics/export-entities-to-your-own-database.md)
+
+## [Bir GDPR veri isteğine yanıt verme için kaynaklar](gdpr/gdpr-home-page.md)
 
 # [Sürekli teslimat giriş sayfası](dev-tools/continuous-delivery-home-page.md)
 ## [Geliştirme ve sürekli teslimatla ilgili SSS](dev-tools/continuous-delivery-faq.md)
@@ -515,6 +517,7 @@
 ### [Şirket içi proje oluşturma](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Şirket içi ortamlar ayarlama ve dağıtma](deployment/setup-deploy-on-premises-environments.md)
 ### [Özel modeller geliştirme ve şirket içi ortamlara dağıtma](deployment/develop-deploy-custom-models-on-premises.md)
+### [Şirket içi ortamınızda ters proxy yapılandırma](deployment/onprem-reverseproxy.md)
 ### [Şirket içi dağıtıma güncelleştirmeler uygulama](deployment/apply-updates-on-premises.md)
 ### [Bir şirket içi dağıtımı yeniden dağıtma](deployment/redeploy-on-prem.md)
 ### [Yerel aracıyı güncelleştirme](lifecycle-services/update-local-agent.md)
@@ -527,7 +530,7 @@
 ### [Dağıtılabilir paket yükleme](deployment/install-deployable-package.md)
 ### [Paket uygulama sorunlarını giderme](deployment/deployable-package-troubleshooting.md)
 
-# [Yükseltme ve geçiş](migration-upgrade/upgrade-home-page.md)
+# [Yükseltmeler, güncelleştirmeler ve düzeltmeler](migration-upgrade/upgrade-home-page.md)
 ## [AX 2012'den Dynamics 365 for Finance and Operations'a yükseltme](migration-upgrade/upgrade-overview-2012.md)
 ### [AX 2012 yükseltmesi - Planlamak için Yükseltme çözümleyicisi aracını kullanma](migration-upgrade/upgrade-analyzer-tool.md)
 ### [AX 2012 yükseltmesi – Çabayı tahmin etmek için Kod yükseltme hizmetini kullanma](migration-upgrade/analyze-code-upgrade.md)
@@ -555,8 +558,7 @@
 ### [Bölünmüş modeller](dev-tools/model-split.md)
 ### [Modeller arasındaki bağımlılıkları çözmek için temsilci kullanma](migration-upgrade/delegates-migration.md)
 
-
-## En son güncelleştirmeye yükseltme
+## En son güncelleştirmeye yükseltme (bulut)
 ### [En son güncelleştirmeye geçme işlemi](migration-upgrade/upgrade-latest-update.md)
 ### [Yaşam döngüsü ilkesi](migration-upgrade/versions-update-policy.md)
 ### [Ortamınız için en son platform güncelleştirmesini uygulama](migration-upgrade/upgrade-latest-platform-update.md)
@@ -564,16 +566,20 @@
 ### [Bir korumalı alan ortamını yükseltme](migration-upgrade/upgrade-sandbox-environment.md)
 ### [Geliştirme veya tanıtım ortamlarındaki verileri yükseltme](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [Geliştirme araçlarını güncelleştirme](dev-tools/update-development-tools.md)
+
+## En son güncelleştirmeye yükseltme (şirket içi)
 ### [Şirket içi dağıtıma güncelleştirmeler uygulama](deployment/apply-updates-on-premises.md)
 ### [Bir şirket içi dağıtımı yeniden dağıtma](deployment/redeploy-on-prem.md)
 
-## Düzeltmeler ve servis işlemleri
-### [Lifecycle Services'dan düzeltme indirme](migration-upgrade/download-hotfix-lcs.md)
-### [Meta veri düzeltmesi kurma](migration-upgrade/install-metadata-hotfix-package.md).
-### [Yerleşik ortamda Raporlama Servisleri için yama oluşturma](migration-upgrade/patch-reporting-service-environment.md)
+## Düzeltmeler
+### [Lifecycle Services'dan düzeltmeleri indirme](migration-upgrade/download-hotfix-lcs.md)
+### [Bulut ortamına güncelleştirmeleri uygulama](deployment/apply-deployable-package-system.md)
+### [Meta veri düzeltmesi yükleme](migration-upgrade/install-metadata-hotfix-package.md).
+### [Yerleşik ortamda Reporting Services için yama oluşturma](migration-upgrade/patch-reporting-service-environment.md)
+### [Visual Studio geliştirme araçlarını güncelleştirme](dev-tools/update-development-tools.md)
 
-## Kaldırma işlemleri
-### [Kaldırılan API'lar](migration-upgrade/deprecated-apis.md)
+## Kullanımdan kaldırma işlemleri
+### [Kullanımdan kaldırılan API'lar](migration-upgrade/deprecated-apis.md)
 ### [Kullanımdan kaldırılan özellikler](migration-upgrade/deprecated-features.md)
 
 # [Sistem yönetimi](sysadmin/system-administration-home-page.md)
