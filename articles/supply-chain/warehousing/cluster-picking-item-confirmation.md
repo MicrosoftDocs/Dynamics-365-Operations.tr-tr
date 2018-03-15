@@ -1,6 +1,6 @@
 ---
 title: "Küme çekme için ürün onayı"
-description: "Bu konu, küme çekme ile madde onaylamayı nasıl kuracağınızı açıklar."
+description: "Bu konu, madde onaylamayı küme çekmeyle birlikte nasıl kuracağınızı açıklar."
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
@@ -18,10 +18,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2e9b3bfa7b90b2dfc1914876eccda3eea01bd740
+ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
+ms.openlocfilehash: 530082a23163cf348bcbb133175e3af963d55f2b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 

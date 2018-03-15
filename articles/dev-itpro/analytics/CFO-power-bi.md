@@ -3,7 +3,7 @@ title: "CFO'ya genel bakış Power BI içeriği"
 description: "Bu konu, CFO'ya genel bakış Microsoft Power BI içeriğini açıklar."
 author: kweekley
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: b0a7adb684850a0f0b914ea89ce3af1636b3084c
-ms.openlocfilehash: fd3696321598267a2acd3ad61f533641c2cc2e77
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 01233890603f6f199b7a815eb91d1d5a7f2ae53e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -28,7 +28,8 @@ ms.lasthandoff: 02/02/2018
 [!include[banner](../includes/banner.md)]
 
 
-Bu konu, **CFO'ya genel bakış** Microsoft Power BI içeriğini açıklar. 
+Bu konu, **CFO'ya genel bakış** Microsoft Power BI içeriğini açıklar. Bu Power BI içeriği, Microsoft Dynamics 365 for Finance and Operations sürüm 7.2 kullananlar için geçerlidir. 7.3 veya üstü sürüm kullanıyorsanız lütfen [Mali Bilgiler](financial-insights.md)'e başvurun.
+
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
 

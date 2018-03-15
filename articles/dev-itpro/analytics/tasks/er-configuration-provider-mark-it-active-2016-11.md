@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 2dfa04f280249884af2a237807fb283059444a6c
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 018aee917c13f576759ebd812d31cbc9d83e2d1a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 02/23/2018
 
 ---
 # <a name="create-a-configuration-provider-and-mark-it-as-active-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için bir yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme
@@ -33,11 +33,10 @@ Aşağıdaki adımlar Sistem Yöneticisi veya Elektronik Raporlama Geliştiricis
 1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.
 2. Yapılandırma sağlayıcılar'a tıklayın.
 3. Yeni'ye tıklayın.
-    * Sağlayıcı kaydı benzersiz bir ada ve URL'ye sahiptir. Bu sayfanın içeriğini gözden geçirin ve Litware, Inc. (http://www.litware.com) için bir kayıt zaten varsa bu adımı atlayın.  
+    * Sağlayıcı kaydı benzersiz bir ada ve URL'ye sahiptir. Bu sayfanın içeriğini gözden geçirin ve Litware, Inc. (`http://www.litware.com`) için bir kayıt zaten varsa bu yordamı atlayın.  
 4. Ad alanına "Litware, Inc." yazın.
     * Litware, Inc.  
-5. İnternet adresi alanına "http://www.litware.com" yazın.
-    * http://www.litware.com  
+5. İnternet adresi alanına `http://www.litware.com` yazın.
 6. Kaydet'e tıklayın.
 7. Sayfayı kapatın.
 

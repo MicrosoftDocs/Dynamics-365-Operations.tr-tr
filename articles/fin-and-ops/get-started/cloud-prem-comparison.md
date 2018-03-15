@@ -3,7 +3,7 @@ title: "Bulut ve şirket içi özellik karşılaştırması"
 description: "Bu konu, hangi özelliklerin Bulut ve şirket içinde desteklendiğini gösterir."
 author: robinarh
 manager: AnnBe
-ms.date: 11/29/2017
+ms.date: 03/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
-ms.openlocfilehash: 32cc0c01a096cd678c605f57e0cccfe42d0479aa
+ms.sourcegitcommit: 4ffdc5dd54f8a069676f62c8b43f2892764dc046
+ms.openlocfilehash: 88640007ec54ed0c566e163e3dd701faeebc50ce
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
@@ -49,8 +49,9 @@ Aşağıdaki tablolar ürün alanlarını listeler. Bulut ve şirket içi deste�
 | | Power BI için Maliyet yönetimi içerik paketi | Evet | Hayır |
 | Veri yönetimi ve tümleştirmesi| | Evet | Evet |
 | | Yapılandırmaya dayalı eklenti| Evet | Hayır |
-| | Veriyi kendi veri ambarınıza dışa aktarın| Evet | Hayır |
+| | Veriyi kendi veri ambarınıza dışa aktarın| Evet | Evet |
 | | Bir veri varlığına artımlı güncelleştirmelerin dışa aktarılmasını etkinleştirin | Evet | Hayır |
+| | Yinelenen tümleştirmeler                 |Evet | Hayır|
 | Belge yönetimi| | Evet| Evet |
 | Mali yönetim|  | Evet | Evet |
 | Yardım| | Evet | Hayır |

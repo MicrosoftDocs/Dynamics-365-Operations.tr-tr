@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: aeb851587cc40828088dfa22fda1d70f49561c3a
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: f9ea6190823a5af951538e0da2760f05896ee993
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](includes/banner.md)]
 
-Microsoft Dynamics for Retail içerisinde, ekstre deftere nakletme işlemi, Bulut satış noktası (POS) veya Modern POS (MPOS) içerisinde gerçekleşen hareketlerin muhasebesini yapmak için kullanılır. Beyan deftere nakil işlemi, bir POS hareket kümesini merkez (HQ) istemcisine çekmek için dağıtım planlama kullanılır. **Perakende parametreleri** ve **Mağazalar** sayfalarında tanımlanan parametreler, tek tek ekstrelere çekilecek hareketleri seçmek için kullanılır.  
+Microsoft Dynamics 365 for Retail içerisinde, ekstre deftere nakletme işlemi, Bulut satış noktası (POS) veya Modern POS (MPOS) içerisinde gerçekleşen hareketlerin muhasebesini yapmak için kullanılır. Beyan deftere nakil işlemi, bir POS hareket kümesini merkez (HQ) istemcisine çekmek için dağıtım planlama kullanılır. **Perakende parametreleri** ve **Mağazalar** sayfalarında tanımlanan parametreler, tek tek ekstrelere çekilecek hareketleri seçmek için kullanılır.  
 
 Aşağıdaki çizimde ekstre deftere nakletme işlemi gösterilmiştir. Bu işlemde, POS içerisinde kaydedilen hareketler, istemciye Perakende planlayıcısı kullanılarak aktarılır. İstemci hareketleri aldıktan sonra, mağaza için hareket ekstrelerinı oluşturabilir, hesaplayabilir ve deftere nakledebilirsiniz. 
 

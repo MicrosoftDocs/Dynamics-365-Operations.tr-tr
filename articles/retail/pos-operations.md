@@ -1,5 +1,5 @@
 ---
-title: "POS işlemleri"
+title: "Çevrimiçi ve çevrimdışı POS işlemleri"
 description: "Bu konu Microsoft Dynamics 365 for Retail'deki satış noktası (POS) işlemleri hakkında ayrıntılar sağlar. Uygulamada işlemlerin nereden çağrılabileceğini ve çevrimdışı modda kullanılabilir olup olmadığını belirtir."
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,17 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
-ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
+ms.sourcegitcommit: edfed83d4703c081d857faad0771dc1010be41b4
+ms.openlocfilehash: edd6dd23066eca782b8fd510dabab612241e480a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 
-# <a name="pos-operations"></a>POS işlemleri
+# <a name="pos-operations-online-and-offline"></a>Çevrimiçi ve çevrimdışı POS işlemleri
+
+[!include[banner](includes/banner.md)]
+
 Kullanıcının satış noktasında (POS) gerçekleştirdiği çoğu eylem işlem olarak kabul edilir. İşlemler Microsoft Dynamics 365 for Retail arka ofiste yapılandırılır ve yönetilir. Çoğu işlem POS düğme grubundaki düğmelere eklenebilir. Kullanıcılar daha sonra işlemleri başlatmak ve işlevlerini gerçekleştirmek için düğmeleri seçebilir. Diğer işlemler ana POS uygulamasının parçalarıdır ve ekran düğmeleri veya diğer iş akışları veya süreçleri tarafından başlatılır.
 
 Aşağıdaki tabloda Dynamics 365 for Retail için Retail Modern POS ve Cloud POS'ta bulunan işlemlerle ilgili ayrıntılar verilmektedir. Tablo uygulamada işlemlerin nereden çağrılabileceğini ve POS çevrimdışı moddayken kullanılabilir olup olmadığını da belirtir.

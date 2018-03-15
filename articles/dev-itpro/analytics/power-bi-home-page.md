@@ -3,7 +3,7 @@ title: "Power BI içeriği"
 description: "Bu konuda kullanılabilir Power BI içeriği listelenmektedir ve bu konuda daha fazla bilgi edinebileceğiniz kaynaklar belirtilmektedir."
 author: sericks007
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: b0a7adb684850a0f0b914ea89ce3af1636b3084c
-ms.openlocfilehash: 0969f9f30e50a36b667765fbe375e6c14d3412da
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: d5b1bb5f25710b7d4feea55414d68d5390c87308
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -42,6 +42,7 @@ Microsoft Dynamics 365 for Finance and Operations, Enterprise edition kullanıyo
 - [Maliyet muhasebesi analizi Power BI içeriği](cost-accounting-analysis-content-pack.md) 
 - [Kredi ve tahsilatlar yönetimi Power BI içeriği](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [Personel gelişimi Power BI içeriği](employee-development-PBI.md) 
+- [Mali bilgiler Power BI içeriği](financial-insights.md)
 - [Mali performans Power BI içeriği](financial-performance-power-bi-content-pack.md)
 - [Sabit kıymet yönetimi Power BI içeriği](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
 - [Öğrenme Power BI içeriği](learning-power-bi.md)
@@ -73,6 +74,9 @@ Microsoft Dynamics 365 for Operations, 1611 sürümünü kullanıyorsanız, aşa
 
 ## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>Microsoft Dynamics AX için Power BI içeriği
 Microsoft Dynamics AX 7.0 veya Microsoft Dynamics AX 7.0.1 kullanıyorsanız, aşağıdaki Power BI içeriğini kullanabilirsiniz:
+
+> [!Note]
+> Bu içerik paketleri [PowerBI.com'da yayımlanan Power BI içerik paketleri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom) bölümünde belirtildiği üzere kullanım dışı bırakılmıştır.
 
 - [Maliyet yönetimi Power BI içeriği](cost-management-content-pack.md)    
 - [Mali performans Power BI içeriği](financial-performance-power-bi-content-pack.md)

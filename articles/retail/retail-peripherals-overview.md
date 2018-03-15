@@ -19,10 +19,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
-ms.openlocfilehash: 347100651302bb97806783d00559f2396d031fcc
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: ba9c828efc39d45a78500d30295e5d1d6c770c99
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -482,8 +482,8 @@ Bu yapılandırma geleneksel, sabit POS kasalar için en genel yapılandırmadı
 2.  Donanım profilini POS kasayla eşleyin.
 3.  POS kasanın kullanılacağı perakende mağaza için **Adanmış** türde bir donanım istasyonu oluşturun. Açıklama isteğe bağlıdır. **Not:** Donanım istasyonunda diğer özellikleri ayarlamanız gerekmez. Donanım profili gibi gerekli tüm diğer bilgiler, kasanın kendisinden gelecektir.
 4.  **Perakende** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine tıklayın.
-5.  Yeni donanım profilini mağazayla eşitlemek için **1090** dağıtım planını seçin. Değşiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a  tıklayın.
-6.  Yeni donanım istasyonunu mağazayla eşitlemek için **1040** dağıtım planını seçin. Değşiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a  tıklayın.
+5.  Yeni donanım profilini mağazayla eşitlemek için **1090** dağıtım planını seçin. Değişiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a tıklayın.
+6.  Yeni donanım istasyonunu mağazayla eşitlemek için **1040** dağıtım planını seçin. Değişiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a tıklayın.
 7.  Windows için Modern POS'u yükleyin ve etkinleştirin.
 8.  Windows için Modern POS'u başlatın ve bağlı çevrebirim cihazlarını kullanmaya başlayın.
 
@@ -501,8 +501,8 @@ Bu yapılandırma, özellikle bir POS kasası tarafından kullanılan donanım i
     -   **Paket adı** – Donanım istasyonu dağıtıldığında kullanılan donanım istasyonu paketi.
 
 4.  **Perakende** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine tıklayın.
-5.  Yeni donanım profilini mağazayla eşitlemek için **1090** dağıtım planını seçin. Değşiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a  tıklayın.
-6.  Yeni donanım istasyonunu mağazayla eşitlemek için **1040** dağıtım planını seçin. Değşiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a  tıklayın.
+5.  Yeni donanım profilini mağazayla eşitlemek için **1090** dağıtım planını seçin. Değişiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a tıklayın.
+6.  Yeni donanım istasyonunu mağazayla eşitlemek için **1040** dağıtım planını seçin. Değişiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a tıklayın.
 7.  Donanım istasyonunu yükleyin. Donanım istasyonu yükleme hakkında daha fazla bilgi için bkz. [Perakende donanım istasyonu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md).
 8.  Modern POS'u yükleyin ve etkinleştirin. Modern POS yükleme hakkında daha fazla bilgi için bkz. [Retail Modern POS yapılandırma ve yükleme](retail-modern-pos-device-activation.md).
 9.  Modern POS için oturum açın ve **Çekmece işlemi olmayan işlem gerçekleştir**'i seçin.
@@ -529,8 +529,8 @@ Bu yapılandırma, donanım istasyonlarını diğer aygıtlarla paylaşan tüm M
 
 4.  Mağazadaki gerekli her ek donanım istasyon için 2 ve 3 numaralı adımları yineleyin.
 5.  **Perakende** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine tıklayın.
-6.  Yeni donanım profilini mağazayla eşitlemek için **1090** dağıtım planını seçin. Değşiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a  tıklayın.
-7.  Yeni donanım istasyonunu mağazayla eşitlemek için **1040** dağıtım planını seçin. Değşiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a  tıklayın.
+6.  Yeni donanım profilini mağazayla eşitlemek için **1090** dağıtım planını seçin. Değişiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a tıklayın.
+7.  Yeni donanım istasyonunu mağazayla eşitlemek için **1040** dağıtım planını seçin. Değişiklikleri POS ile eşitlemek için **Şimdi çalıştır**'a tıklayın.
 8.  2 ve 3 numaralı adımlarda kurduğunuz her ana bilgisayara donanım istasyonunu yükleyin. Donanım istasyonu yükleme hakkında daha fazla bilgi için bkz. [Perakende donanım istasyonu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md).
 9.  Modern POS'u yükleyin ve etkinleştirin. Modern POS yükleme hakkında daha fazla bilgi için bkz. [Retail Modern POS yapılandırma ve yükleme](retail-modern-pos-device-activation.md).
 10. Modern POS için oturum açın ve **Çekmece işlemi olmayan işlem gerçekleştir**'i seçin.

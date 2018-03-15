@@ -17,10 +17,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 4804fc1a52371284ab69d1490454bebd5e91fcd9
+ms.sourcegitcommit: 1bd23b6e87c95d2c3d2131ec1ee9548bc4fe10cb
+ms.openlocfilehash: 2816fb094504bb5d0b595f812764620d480da401
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/04/2018
 
 ---
 
@@ -47,6 +47,9 @@ Aşağıdaki tablo işleme dahil olan adımları ve rolleri gösterir.
 | Tedarik uzmanı | | İşe alma işlemini başlatın. | | | Satıcı talebini inceleyin ve kabul edin veya reddedin. | |
 | Yönetici            | | | Finance and Operations ve Microsoft Azure'da bir kullanıcı oluşturun. | | | |
 | Satıcı ilgili kişisi    | | | İlgili kişiye e-posta gönderin. | Satıcı bilgilerini kaydedin. | | |
+
+Satıcı işe alım sürecinin hızlı bir tanıtımı için bu kısa YouTube videosunu izleyin: 
+> [!Video https://www.youtube.com/embed/0KUc3AGaTKk]
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Aday satıcı kaydı talebini içe aktarma
 

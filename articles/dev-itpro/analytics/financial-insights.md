@@ -3,7 +3,7 @@ title: Mali Bilgiler
 description: "Mali Bilgiler mali anahtar performans göstergeleri (KPI'lar), mali tablolar ve grafikleri bir araya getirmek için Microsoft Power BI kullanır."
 author: kweekley
 manager: AnnBe
-ms.date: 01/09/2018
+ms.date: 02/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: 3da5344ec6edec0af28aa21d45af962307231e67
+ms.sourcegitcommit: d527df21e791978b41527c01c2e6b68b393861ac
+ms.openlocfilehash: 90dc6214f1eb31440a3ec78a58c6a07394245cd2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/28/2018
 
 ---
 
@@ -102,10 +102,15 @@ Varlıklardaki verileri düzenli olarak güncelleştirmek için tekrarlayan bir 
 | Şirket içinde mali bilgileri görüntüle   | •   Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3'te bu görev bir role atanmamıştır. • Sonraki sürümde, bu görev Mali işler müdürü rolüne atanacaktır. | •    Bu görev CFO'ya genel bakış çalışma alanı için menü öğesine erişim sağlar. •  Varsayılan olarak, etkin şirket filtre olarak kullanılır. Ancak, kullanıcının diğer tüzel kişiliklere erişimi olup olmadığına bakılmaksızın tüm tüzel kişilikleri ekleyebilirsiniz.             |
 
 
-## <a name="how-financial-statements-work"></a>Mali tabloların çalışma şekli
-**Mali Bilgiler** mali tabloları içermese de, Finance and Operations'taki Mali raporlamanın yerine geçecek bir özellik değildir. **Mali Bilgiler**'deki varsayılan mali tabloların kapsamı sınırlıdır ve tüm mali tablo türlerini içermez. Mali raporlama yasal mali tabloları tasarlamak, oluşturmak ve üretmek için birincil araç olmaya devam eder.
+## <a name="financial-reporting-vs-finanical-insights"></a>Mali raporlama ile Mali bilgilerin karşılaştırılması
+**Mali bilgiler** mali tabloları içerse de, Finance and Operations'taki Mali raporlamanın yerine geçecek bir özellik değildir. **Mali bilgiler** içindeki varsayılan mali tabloların kapsamı sınırlıdır ve tüm mali tablo türlerini içermez. Mali raporlama yasal mali tabloları tasarlamak, oluşturmak ve üretmek için birincil araç olmaya devam eder.
 
-Orijinal **CFO'ya genel bakış** çalışma alanındaki görsellere ek olarak yeni KPI'lar, grafikler ve mali tablolar artık kullanıma sunulmaktadır. Aşağıdaki mali tablolar bulunur:
+Aşağıdaki karşılaştırma grafiği iki seçeneğin ayrılmasına yardımcı olur:
+
+|                                         | **Mali Raporlama**                            | **Mali Bilgiler**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Varsayılan raporları düzenleme**                | Evet                                                | Hayır                                 | | **Yeni raporlar oluşturma**                  | Evet                                                | Hayır                                 | | **Raporları yazdırma**                       | Evet                                                | Hayır                                 | | **Excel'e Aktarma**                     | Evet          | Ham verileri, biçimlendirilmiş rapor olmadan Excel'e Sınırlı Aktarma       | | **Raporlama hiyerarşisini /Kuruluş hiyerarşisini destekleme**   | Evet                               | Hayır                                 | | **Yardımcı muhasebe defterindeki verileri raporlama**       | Evet Yalnızca satıcı, müşteri ile sınırlıdır    | Evet Satıcı, müşteri, satıcı/müşteri grupları, satıcı/müşteri adresleri vb.  | | **Raporlama Para Birimi**      | Evet Muhasebe Para Birimi ve raporlama para birimine çevirme       | Muhasebe olmadan yalnızca para birimi      | | **Güvenlik**                | Evet Finance and Operations ve raporlama ağacı güvenliğine bağlı kalır | Tüm şirketler için veya yalnızca etkin şirket için raporları Sınırlı Görüntüleme (Finance and Operations güvenliğinden bağımsız olarak) | | **Farklı Hesap planlarını ve mali yılları destekleme** | Evet                   | Hayır                   | | **harici veriler üzerinden raporlama**                              | Hayır                   | Hayır                                   | | **Konsolidasyonları destekleme**                               | Evet                          | Sınırlı birden çok şirket üzerinden raporlama yapabilir ancak yalnızca muhasebe para birimini kullanır                                 |
+
+
+Orijinal **CFO'ya genel bakış** çalışma alanındaki kullanıcı arabirimine ek olarak yeni KPI'lar, grafikler ve mali tablolar artık hazır. Aşağıdaki mali tablolar bulunur:
 
 •   Geçici mizan
 

@@ -3,7 +3,7 @@ title: "Kaldırılan özellikler"
 description: "Bu konu kaldırılmış veya kaldırılması planlanan özellikleri açıklar."
 author: sericks007
 manager: AnnBe
-ms.date: 11/28/2017
+ms.date: 02/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: addd8c62ba034b47d8abbec29fa8682deb9698b1
+ms.sourcegitcommit: 16bdf2176869e5822ddf8732c829b65f1e60632c
+ms.openlocfilehash: 03b79816ffea649cf226408ed4660c3419103a7a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -40,6 +40,17 @@ Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlam
 > Platform güncelleştirmesi 8 ile Dynamics 365 for Finance and Operations, Enterprise edition Temmuz 2017 sürümünden başlayarak, kaldırılan veya kullanımına son verilen her özellik için dağıtımların türü not edilmiştir. Bu konuda söz edilen önceki tüm sürümler yalnızca desteklenen bulut dağıtımlarıdır.
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise edition 7.3, platform güncelleştirmesi 12 ile
+
+### <a name="personalized-product-recommendations"></a>Kişiselleştirilmiş ürün önerileri 
+15 Şubat 2018 tarihinden itibaren perakendeciler artık satış noktası cihazındaki (POS) kişiselleştirilmiş ürün önerilerini görüntüleyemeyecektir. Daha fazla bilgi için bkz. [Kişiselleştirilmiş ürün önerileri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Bu özelliği daha iyi bir algoritma ve daha yeni perakende odaklı yeteneklerle yeniden tasarladığımızdan ürün öneri hizmetinin geçerli sürümünü kaldırıyoruz.  |
+| **Başka bir özellik ile değiştirildi?**   | Hayır. Ancak, 2018 yılı bahar aylarından sonra yeni bir öneri hizmetinden yararlanmak için bu özelliği geri getirmeyi planlıyoruz.   |
+| **Etkilenen ürün alanları**         | POS'ta kişiselleştirilmiş ürün önerileri.                                                    |
+| **Dağıtım seçeneği**              | Tümü                                                                                      |
+| **Durum**                         |15 Şubat 2018 itibarıyla kaldırıldı. Bu, Dynamics 365 for Operations 1611 ve sonraki sürümleri çalıştıran müşterileri etkiler.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Elektronik raporlama (ER) işlev listesi genişletmesi
 ER ifade oluşturucuda kullanılmak üzere özel işlevler sağlama olasılığı (daha fazla bilgi için bkz. [Elektronik raporlama işlev listesini genişletme](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) artık desteklenmemektedir. ER API'larındaki değişiklikler nedeniyle, ER ifade oluşturucudan yerleşik işlevleri çağırmak için kullanılan API dahili hale gelmiştir ve artık genişletilemez.
@@ -132,6 +143,19 @@ Kullanıcılar bu formu resmi devlet portalından indirebilir.
 | **Dağıtım seçeneği**                       | Tüm modüller                                                                    |
 | **Durum**                                  | Kullanımı sonlandırıldı: Bu özellik için kaldırma tarihi belirlenmedi.  |    
 
+
+## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
+
+### <a name="personalized-product-recommendations"></a>Kişiselleştirilmiş ürün önerileri 
+15 Şubat 2018 tarihinden itibaren perakendeciler artık satış noktası cihazındaki (POS) kişiselleştirilmiş ürün önerilerini görüntüleyemeyecektir. Daha fazla bilgi için bkz. [Kişiselleştirilmiş ürün önerileri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+
+|   |  |
+|------------|--------------------|
+| **Kullanımı sonlandırma/kaldırma nedeni** | Bu özelliği daha iyi bir algoritma ve daha yeni perakende odaklı yeteneklerle yeniden tasarladığımızdan ürün öneri hizmetinin geçerli sürümünü kaldırıyoruz.  |
+| **Başka bir özellik ile değiştirildi?**   | Hayır. Ancak, 2018 yılı bahar aylarından sonra yeni bir öneri hizmetinden yararlanmak için bu özelliği geri getirmeyi planlıyoruz.   |
+| **Etkilenen ürün alanları**         | POS'ta kişiselleştirilmiş ürün önerileri.                                                    |
+| **Dağıtım seçeneği**              | Tümü                                                                                      |
+| **Durum**                         |15 Şubat 2018 itibarıyla kaldırıldı. Bu, Dynamics 365 for Retail 7.2 ve sonraki sürümleri çalıştıran müşterileri etkiler. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise edition Temmuz 2017, platform güncelleştirmesi 8 ile
@@ -494,7 +518,7 @@ Personel hedeflerini oluşturmayı yöneten iş akışı, performans yönetim i�
 
 |   |  |
 |------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Performans yönetimi, Microsoft Dynamics for Finance and Operations'da tamamen yeniden tasarlanmıştır.     |
+| **Kullanımı sonlandırma/kaldırma nedeni** | Performans yönetimi, Microsoft Dynamics 365 for Finance and Operations'da tamamen yeniden tasarlanmıştır.     |
 | **Başka bir özellik ile değiştirildi?**   | Yeniden tasarlanan Performans yönetimi özelliği hedef içeriği, ilerlemeyi izlemek için kullanılan ölçümler ve destekleyici belge eki üzerinde daha fazla kontrol sağlar. Hedefler şablon olarak saklanabilir ve daha sonra yeniden kullanılabilir. Bu özellik personeliniz için ek hedefleri daha hızlı bir şekilde ayarlamanıza yardımcı olabilir. |
 | **Etkilenen ürün alanları**         | İnsan sermayesi yönetimi                 |
 | **Durum**                         | Dynamics 365 for Operations 1611 sürümü itibarıyla kaldırıldı. |

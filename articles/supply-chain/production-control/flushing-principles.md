@@ -1,6 +1,6 @@
 ---
 title: "Otomatik tüketim kuralları"
-description: "Bu konu ham madde tüketiminde kullanılan dört otomatik tüketim prensibini açıklar."
+description: "Bu konu hammadde tüketiminde kullanılan dört otomatik tüketim prensibini açıklar."
 author: johanhoffmann
 manager: AnnBe
 ms.date: 04/04/2017
@@ -19,18 +19,18 @@ ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 54d438de096b0ff317d94a03d8ae572e6350a865
+ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
+ms.openlocfilehash: f5fc4db479852ffac5f2b3401a0c1bd92c35a7cb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/08/2018
 
 ---
 
-# <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Temizlik ilkeleri kullanarak ham madde tüketimini kontrol etme
+# <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Temizlik ilkeleri kullanarak hammadde tüketimini kontrol etme
 
 [!include[banner](../includes/banner.md)]
 
-Otomatik tüketim ilkeleri, üretim işlemlerinde kullanılan ham maddeler için farklı tüketim stratejilerini yansıtır. Tüketim, malzemeyi eldeki stoktan azaltan ve tüketilen maddelerin değerini üretim emirleri ve toplu iş siparişleri için **Süren iş**'e (WIP) ayarlayan işlemdir. Hammaddeler genellikle, maddeyi tüketen işlem için yapılandırılan konumda tüketilir. Bu konum üretim giriş konumu olarak bilinir.
+Otomatik tüketim ilkeleri, üretim işlemlerinde kullanılan hammaddeler için farklı tüketim stratejilerini yansıtır. Tüketim, malzemeyi eldeki stoktan azaltan ve tüketilen maddelerin değerini üretim emirleri ve toplu iş siparişleri için **Süren iş**'e (WIP) ayarlayan işlemdir. Hammaddeler genellikle, maddeyi tüketen işlem için yapılandırılan konumda tüketilir. Bu konum üretim giriş konumu olarak bilinir.
 
 Malzeme tüketiminden önce, malzemeler giriş konumuna taşınır. Aşağıdaki çizimde işlem gösterilmiştir.
 
