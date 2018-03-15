@@ -1,6 +1,6 @@
 ---
 title: "Master planlama ana sayfası"
-description: "Master planlama, şirketlerin şirket hedeflerini karşılamak için gelecekteki ham madde ve kapasite gereksinimini belirlemesine ve planlamasına olanak tanır."
+description: "Master planlama, şirketlerin şirket hedeflerini karşılamak için gelecekteki hammadde ve kapasite gereksinimini belirlemesine ve planlamasına olanak tanır."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 11/20/2017
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a24f75bf7e27702505d8a61ae3db83d03fe4a933
-ms.openlocfilehash: a2e91cd2b72ffed78669fe3cc83b141db6f26aa2
+ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
+ms.openlocfilehash: 030579ac73d6333ac4ed55433b9679a58247c088
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 
@@ -32,10 +32,10 @@ ms.lasthandoff: 11/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Temel olarak master planlama, şirketlerin şirket hedeflerini karşılamak için gelecekteki ham madde ve kapasite gereksinimini belirlemesine ve planlamasına olanak tanır. Master planlama aşağıdakileri değerlendirir: 
+Temel olarak master planlama, şirketlerin şirket hedeflerini karşılamak için gelecekteki hammadde ve kapasite gereksinimini belirlemesine ve planlamasına olanak tanır. Master planlama aşağıdakileri değerlendirir: 
 
--  Şu anda mevcut olan ham maddeler ve kapasiteler nelerdir? 
--  Üretimi tamamlamak için ne kadar ham madde ve kapasite gerekli? Örneğin, üretimi tamamlayabilmek için imal edilmesi, satın alınması, transfer edilmesi veya emniyet stoğu olarak ayrılması gerekenleri değerlendirir.
+-  Şu anda mevcut olan hammaddeler ve kapasiteler nelerdir? 
+-  Üretimi tamamlamak için ne kadar hammadde ve kapasite gerekli? Örneğin, üretimi tamamlayabilmek için imal edilmesi, satın alınması, transfer edilmesi veya emniyet stoğu olarak ayrılması gerekenleri değerlendirir.
 
 Master planlama gereksinimleri hesaplamak ve planlanmış siparişler oluşturmak için bilgileri kullanır.
 
@@ -80,6 +80,10 @@ Ek yardıma Finance and Operations içinde görev kılavuzları olarak ulaşıla
 ### <a name="webinars"></a>Web seminerleri
 [Talep tahmini için Azure makine öğrenimi kullanma](https://www.youtube.com/watch?v=4nQsccdFFDA&feature=youtu.be)
 
+### <a name="tech-conference-recordings"></a>Teknik konferans kayıtları
+-  [Talep tahmini işlevini genişletme](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+-  [Master planlama: Performans sorunlarını gidermek için ipuçları ve püf noktaları](https://youtu.be/7v8BPmEs9Dg)
+-  [Yardım edin! MRP yavaş!](https://youtu.be/RLXybx20B5o)
 
 
 

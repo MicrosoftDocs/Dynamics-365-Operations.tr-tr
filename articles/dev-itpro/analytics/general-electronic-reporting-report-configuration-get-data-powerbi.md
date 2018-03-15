@@ -1,6 +1,6 @@
 ---
 title: "Power BI'a veri çekmek için Elektronik raporlamayı yapılandır"
-description: "Bu konu, verilerinizi Finance and Operations kurulumunuzdan Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı nasıl kullanacağınızı açıklar. Örnek olarak, bu konu Intrastat hareketlerini aktarılması gereken iş verileri olarak kullanır. Power BI harita görselleştirmesi, bu Intrastat hareket verilerini şirketin içe aktarma/dışa aktarma etkinliklerinin Power BI raporundaki analizinin bir görünümünü sunmak için kullanır."
+description: "Bu konu, verilerinizi Finance and Operations kurulumunuzdan Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı nasıl kullanacağınızı açıklar."
 author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,14 +18,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 90749012c3eb4f3d1c275f0661f8cff43ec285a2
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 8f89d0740098fbd5af9d838f1f4b7ddf47ee7e10
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/23/2018
 
 ---
 
-# <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Power BI'a veri çekmek için Elektronik raporlamayı yapılandır
+# <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Power BI'ya veri çekmek için Elektronik raporlamayı yapılandırma
 
 [!include[banner](../includes/banner.md)]
 
@@ -100,22 +100,38 @@ Yeni hedef kaydı için **Ayarlar** düğmesine tıklayın. Daha sonra, **Hedef 
 2.  **SharePoint** alanında, önceden oluşturduğunuz **Paylaşılan** belge türünü seçin.
 
 ## <a name="schedule-execution-of-the-configured-er-format"></a>Yapılandırılmış ER biçiminin yürütülmesini planlama
-**Yapılandırmalar** sayfasında (**Organizasyon yönetimi** &gt; **Elektronik raporlama** &gt; **Yapılandırmalar**), yapılandırmalar ağacından önceden oluşturduğunuz **İçe aktarma / dışa aktarma etkinlikleri** yapılandırmasını seçin. 1.1 sürümünün durumunu **Taslak**'tan **Tamamlandı** olarak değiştirerek bu biçimi kullanılabilir hale getirin. [![Yapılandırmalar sayfası](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) **İçe aktarma / dışa aktarma etkinlikleri** yapılandırmasının tamamlanmış sürümünü seçin ve **Çalıştır**'a tıklayın. Yapılandırılan hedefin Excel biçiminde üretilen çıktı sonucuna uygulandığına dikkat edin. Bu raporu katılımsız modda çalıştırmak için **Toplu işleme** seçeneğini **Evet** olarak ayarlayın. Bu toplu iş yürütmesinin gerekli yinelemelerini planlamak için **Tekrar**'a tıklayın. Yineleme, güncelleştirilen verilerin Finance and Operations uygulamasından Power BI'ya ne kadar sıklıkla aktarılacağını belirler. [![Elektronik rapor parametreleri iletişim kutusu](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) Yapılandırıldıktan sonra, ER raporu yürütme işini **Toplu işler** sayfasında (**Sistem yönetimi &gt; Sorgulamalar &gt; Toplu işler**) bulabilirsiniz. [![Toplu işler sayfası](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png) Bu iş ilk kez çalıştırıldığında hedef, seçili SharePoint klasöründe yapılandırılan ada sahip yeni bir Excel dosyası oluşturur. İşin sonraki her çalıştırılmasında, hedef bu Excel dosyasının yeni bir sürümünü oluşturur. [![Excel dosyasının yeni sürümü](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
+1. **Yapılandırmalar** sayfasında (**Organizasyon yönetimi** &gt; **Elektronik raporlama** &gt; **Yapılandırmalar**), yapılandırmalar ağacından önceden oluşturduğunuz **İçe aktarma / dışa aktarma etkinlikleri** yapılandırmasını seçin. 
+2. 1.1 sürümünün durumunu **Taslak**'tan **Tamamlandı** olarak değiştirerek bu biçimi kullanılabilir hale getirin. [![Yapılandırmalar sayfası](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) 
+3. **İçe aktarma / dışa aktarma etkinlikleri** yapılandırmasının tamamlanmış sürümünü seçin ve **Çalıştır**'a tıklayın. Yapılandırılan hedefin Excel biçiminde üretilen çıktı sonucuna uygulandığına dikkat edin. 
+4. Bu raporu katılımsız modda çalıştırmak için **Toplu işleme** seçeneğini **Evet** olarak ayarlayın. 
+5. Bu toplu iş yürütmesinin gerekli yinelemelerini planlamak için **Tekrar**'a tıklayın. Yineleme, güncelleştirilen verilerin Finance and Operations uygulamasından Power BI'ya ne kadar sıklıkla aktarılacağını belirler. [![Elektronik rapor parametreleri iletişim kutusu](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) 
+6. Yapılandırıldıktan sonra, ER raporu yürütme işini **Toplu işler** sayfasında (**Sistem yönetimi &gt; Sorgular &gt; Toplu işler**) bulabilirsiniz. [![Toplu işler sayfası](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png) 
+7. Bu iş ilk kez çalıştırıldığında hedef, seçili SharePoint klasöründe yapılandırılan ada sahip yeni bir Excel dosyası oluşturur. İşin sonraki her çalıştırılmasında, hedef bu Excel dosyasının yeni bir sürümünü oluşturur. [![Excel dosyasının yeni sürümü](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>ER biçiminin çıktı sonucunu kullanarak bir Power BI veri kümesi oluşturma
-Power BI'da oturum açın ve var olan bir Power BI grubunu (çalışma alanı) açın veya yeni bir grup oluşturun. **İçe Aktarma veya Verilere Bağlanma** bölümünde, **Dosyalar** altında **Ekle**'ye tıklayın veya sol bölmede **Veri kümeleri**'nin yanındaki artı işaretine (**+**) tıklayın. [![Bir veri seti oluşturmak](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) **SharePoint – Ekip siteleri** seçeneğini belirleyin ve kullandığınız SharePoint Server yolunu girin (örneğimizde **https://ax7partner.litware.com**). Daha sonra **/Shared Documents/GER data/PowerBI** klasörüne gidin ve yeni Power BI veri kümesinin veri kaynağı olarak oluşturduğunuz Excel dosyasını seçin. [![Excel dosyasını seçmek](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) **Bağlan**'ı tıklatın ve sonra **İçe aktarma**'yı tıklatın. Seçili Excel dosyasını temel alan yeni bir veri kümesi oluşturulur. Veri kümesi yeni oluşturulan panoya da otomatik olarak eklenebilir. [![Panodaki veri seti](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Periyodik güncelleştirmeyi zorlamak amacıyla bu veri kümesi için yenileme zamanlamasını yapılandırın. Periyodik güncelleştirmeler, ER raporunun SharePoint Server'da oluşturulan Excel dosyasının yeni sürümleri üzerinden periyodik olarak yürütülmesi aracılığıyla Finance and Operations uygulamasından gelen yeni iş verilerinin kullanılabilmesini sağlar.
+1. Power BI'da oturum açın ve var olan bir Power BI grubunu (çalışma alanı) açın veya yeni bir grup oluşturun. **İçe Aktarma veya Verilere Bağlanma** bölümünde, **Dosyalar** altında **Ekle**'ye tıklayın veya sol bölmede **Veri kümeleri**'nin yanındaki artı işaretine (**+**) tıklayın. [![Veri kümesi oluşturma](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) 
+2. **SharePoint – Ekip siteleri** seçeneğini belirleyin ve ardından kullandığınız SharePoint Server yolunu girin (örneğimizde `https://ax7partner.litware.com`) 
+3. **/Shared Documents/GER data/PowerBI** klasörüne gidin ve yeni Power BI veri kümesinin veri kaynağı olarak oluşturduğunuz Excel dosyasını seçin. [![Excel dosyasını seçme](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) 
+4. **Bağlan**'a ve ardından **İçe aktar**'a tıklayın. Seçili Excel dosyasını temel alan yeni bir veri kümesi oluşturulur. Veri kümesi yeni oluşturulan panoya da otomatik olarak eklenebilir. [![Panodaki veri kümesi](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) 
+5. Periyodik güncelleştirmeyi zorlamak amacıyla bu veri kümesi için yenileme zamanlamasını yapılandırın. Periyodik güncelleştirmeler, ER raporunun SharePoint Server'da oluşturulan Excel dosyasının yeni sürümleri üzerinden periyodik olarak yürütülmesi aracılığıyla Finance and Operations uygulamasından gelen yeni iş verilerinin kullanılabilmesini sağlar.
 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Yeni veri kümesini kullanarak Power BI raporu oluşturun
-Yeni bir Power BI raporu oluşturmak için, oluşturduğunuz **İçe aktarma ve dışa aktarma ayrıntıları** Power BI veri kümesine tıklayın. Daha sonra görselleştirmeyi yapılandırın. Örneğin, **Dolgulu harita** görselleştirmesini seçin ve aşağıdaki şekilde yapılandırın:
+1. Oluşturduğunuz **İçe aktarma ve dışa aktarma ayrıntıları** Power BI veri kümesine tıklayın. 
+2. Görselleştirmeyi yapılandırın. Örneğin, **Dolgulu harita** görselleştirmesini seçin ve aşağıdaki şekilde yapılandırın:
+ -   Harita görselleştirmesinin **Konum** alanına **CountryOrigin** veri kümesi alanını atayın.
+ -   Harita görselleştirmesinin **Renk doygunluğu** alanına **Miktar** veri kümesi alanını atayın.
+ -   Harita görselleştirmesinin **Filtreler** alanları koleksiyonuna **Etkinlik** ve **Yıl** veri kümesi alanlarını ekleyin.
 
--   Harita görselleştirmesinin **Konum** alanına **CountryOrigin** veri kümesi alanını atayın.
--   Harita görselleştirmesinin **Renk doygunluğu** alanına **Miktar** veri kümesi alanını atayın.
--   Harita görselleştirmesinin **Filtreler** alanları koleksiyonuna **Etkinlik** ve **Yıl** veri kümesi alanlarını ekleyin.
-
-Power BI raporunu **İçe aktarma ve dışa aktarma ayrıntıları raporu** olarak kaydedin. [![Ayrıntılar raporu içe ve dışa aktarmak](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Haritanın Excel dosyasında belirtilen ülkeleri/bölgeleri (bu örnekte Avusturya ve İsviçre) gösterdiğine dikkat edin. Bu ülkeler/bölgeler her biri için faturalanan miktarların oranını gösterecek şekilde renklendirilmiştir. Intrastat hareketlerin listesini güncelleştirin. İtalya'dan kaynaklanan dışa aktarma hareketi eklendi. [![Intrastat hareketler listesi](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png) ER raporunun bir sonraki planlanan yürütülmesini ve Power BI veri kümesinin bir sonraki planlanan güncelleştirmesini bekleyin. Daha sonra, Power BI raporunu inceleyin (yalnızca içe aktarma hareketlerini göstermeyi seçin). Güncelleştirilen harita artık İtalya'yı göstermektedir. [![Güncelleştirilen harita](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
+3. Power BI raporunu **İçe aktarma ve dışa aktarma ayrıntıları raporu** olarak kaydedin. [![Ayrıntılar raporu içe ve dışa aktarmak](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Haritanın Excel dosyasında belirtilen ülkeleri/bölgeleri (bu örnekte Avusturya ve İsviçre) gösterdiğine dikkat edin. Bu ülkeler/bölgeler her biri için faturalanan miktarların oranını gösterecek şekilde renklendirilmiştir. 
+4. Intrastat hareketlerin listesini güncelleştirin. İtalya'dan kaynaklanan dışa aktarma hareketi eklendi. [![Intrastat hareketleri listesi](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png) 
+5. ER raporunun bir sonraki planlanan yürütülmesini ve Power BI veri kümesinin bir sonraki planlanan güncelleştirmesini bekleyin. Daha sonra, Power BI raporunu inceleyin (yalnızca içe aktarma hareketlerini göstermeyi seçin). Güncelleştirilen harita artık İtalya'yı göstermektedir. [![Güncelleştirilen harita](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
 ## <a name="access-power-bi-report-in-finance-and-operations"></a>Power BI raporunu Finance and Operations'da erişilebilir hale getirin.
-Finance and Operations ve Power BI arasındaki tümleştirmeyi ayarlayın. Daha fazla bilgi için bkz. [Çalışma alanları için Power BI tümleştirmesini yapılandırma](configure-power-bi-integration.md). Power BI tümleştirmesini destekleyen **Elektronik raporlama** çalışma alanı sayfasında (**Organizasyon yönetimi** &gt; **Çalışma alanları** &gt; **Elektronik raporlama çalışma alanı**), **Seçenekler** &gt; **Rapor kataloğunu aç**'a tıklayın. Oluşturduğunuz **İçe aktarma ve dışa aktarma ayrıntıları** Power BI raporunu seçili sayfada bir eylem öğesi olarak göstermek için raporu seçin. Power BI'da tasarladığınız raporu gösteren Finance and Operations sayfasını açmak için eylem öğesine tıklayın. [![İçe aktarma ve dışa aktarma ayrıntıları raporu](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
+Finance and Operations ve Power BI arasındaki tümleştirmeyi ayarlayın. Daha fazla bilgi için bkz. [Çalışma alanları için Power BI tümleştirmesini yapılandırma](configure-power-bi-integration.md). 
+
+1. Power BI tümleştirmesini destekleyen **Elektronik raporlama** çalışma alanı sayfasında (**Organizasyon yönetimi** &gt; **Çalışma alanları** &gt; **Elektronik raporlama çalışma alanı**), **Seçenekler** &gt; **Rapor kataloğunu aç**'a tıklayın. 
+2. Oluşturduğunuz **İçe aktarma ve dışa aktarma ayrıntıları** Power BI raporunu seçili sayfada bir eylem öğesi olarak göstermek için raporu seçin. 
+3. Power BI'da tasarladığınız raporu gösteren Finance and Operations sayfasını açmak için eylem öğesine tıklayın. [![İçe aktarma ve dışa aktarma ayrıntıları raporu](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
 <a name="see-also"></a>Ayrıca bkz.
 --------

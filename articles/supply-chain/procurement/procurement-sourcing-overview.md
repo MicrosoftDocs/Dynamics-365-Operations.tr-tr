@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0692518afc5c8b385773dad3c44dc4e3c978362b
+ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
+ms.openlocfilehash: 91881ca3999b4937d20161b8beab8e80c2675eb6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/08/2018
 
 ---
 

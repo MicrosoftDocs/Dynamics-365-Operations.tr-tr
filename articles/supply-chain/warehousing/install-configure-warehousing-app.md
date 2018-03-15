@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 5737d9c52727077d34c6f5553c9788bf07032914
-ms.openlocfilehash: 0521f0b443efb761e7d3f63182728dd836dbf8a0
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: 0f83735ec42e945c5e0abf8d72b83936e076e60e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 02/27/2018
 
 ---
 
@@ -33,7 +33,9 @@ ms.lasthandoff: 01/15/2018
 
 
 > [!NOTE]
-> Bu konu bulut dağıtımları için ambarlamanın nasıl yapılandırılacağını açıklar. Ambarlamanın şirket içi dağıtımlar için nasıl yapılandırılacağını öğrenmek istiyorsanız bkz. [Şirket için dağıtımlar için ambarlama](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/deployment/warehousing-for-on-premise-deployments).
+
+> Bu konu bulut dağıtımları için ambarlamanın nasıl yapılandırılacağını açıklar. Ambarlamanın şirket içi dağıtımlar için nasıl yapılandırılacağını öğrenmek istiyorsanız bkz. [Şirket için dağıtımlar için ambarlama](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+
 
 Bu konu, Microsoft Dynamics 365 for Finance and Operations - Ambarlama'nın nasıl yükleneceğini ve yapılandırılacağnı açıklar.
 
@@ -44,7 +46,7 @@ Uygulama Android ve Windows işletim sistemlerinde kullanılabilir. Bu uygulamay
 
 | Platform                    | Sürüm                                                                                                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Android                     | 4.4, 5.0, 6.0                                                                                                                                                               |
+| Android                     | 4.4, 5.0, 6.0, 7.0, 8.0                                                                                                                                                     |
 | Windows (UWP)               | Windows 10 (tüm sürümler)                                                                                                                                                   |
 | Finance and Operations | Microsoft Dynamics 365 for Operations, sürüm 1611 <br>-veya- <br>Microsoft Dynamics AX sürüm 7.0/7.0.1 ve Microsoft Dynamics AX platform güncelleştirmesi 2, KB 3210014 düzeltmesiyle |
 
@@ -58,7 +60,7 @@ Uygulama Android ve Windows işletim sistemlerinde kullanılabilir. Bu uygulamay
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a>Azure Active Directory içinde bir web hizmeti uygulaması oluşturma
 Uygulamanın belirli bir Finance and Operations sunucusu ile etkileşime girmesini etkinleştirmek için önce bir web hizmet uygulamasını, Finance and Operations kiracısında bir Azure Active Directory içinde kaydetmelisiniz. Güvenlik nedeniyle, kullandığınız her cihaz için bir web hizmeti uygulaması oluşturmanızı öneririz. Azure Active Directory (AD Azure) içinde bir web hizmeti uygulaması oluşturmak için aşağıdaki adımları izleyin:
 
-1.  Bir web tarayıcısında <https://portal.azure.com> adresine gidin.
+1.  Web tarayıcısında <https://portal.azure.com> adresine gidin.
 2.  Azure aboneliğine erişimi olan kullanıcının adını ve parolasını girin.
 3.  Azure Portalında, sol gezinme bölmesindei **Azure Active Directory** öğesine tıklayın.[](./media/WMA-01-active-directory-example.png)[![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
 4.  Active Directory örneğinin Finance and Operations tarafından kullanılan örnek olduğundan emin olun.
@@ -93,7 +95,7 @@ Azure AD uygulaması aracılığıyla Finance and Operations sunucusuna erişebi
     + **Azure Active directory istemci kodu** - İstemci kodu, "Active Directory'de bir web hizmeti uygulaması oluştur" içindeki 9. adımdan edinilir. 
     + **Azure Active directory istemci sırrı** - İstemci sırrı, "Active Directory'de bir web hizmeti uygulaması oluştur" içindeki 11. adımdan edinilir. 
     + **Azure Active directory kaynağı** -Azure AD dizini kaynağı, Finance and Operations kök URL'sini gösterir. **Not**: Bu alanı bir eğik çizgi (/) ile bitirmeyin. 
-    + **Azure Active directory kiracısı** - Finance and Operations sunucusu ile kullanılan Azure AD dizini kiracısı: https://login.windows.net/sizin-AD-kiracı-kimliğiniz. Örneğin: https://login.windows.net/contosooperations.onmicrosoft.com.
+    + **Azure Active Directory kiracısı**- Finance and Operations sunucusu ile kullanılan Azure AD dizini kiracısı: `https://login.windows.net/your-AD-tenant-ID`. Örnek olarak: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**Not**: Bu alanı bir eğik çizgi (/) ile bitirmeyin. 
     + **Şirket** - Uygulamanın bağlanmasını istediğiniz tüzel varlığı, Finance and Operations içerisinde girin. <br>[![wh-12-uygulama-bağlantı-ayarları](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Uygulamanın sol üst köşesindeki **Geri** düğmesini seçin. Uygulama şimdi, Finance and Operations sunucunuza bağlanır ve ambar çalışanı için oturum açma ekranı görüntülenir. <br>[![wh-13-oturum-açma-ekranı](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
@@ -103,7 +105,7 @@ Kayıp veya güvenliği aşılmış bir cihaz durumunda, bu cihaz için Finance 
 
 1.  Finance and Operations içerisinde **Sistem yönetimi** &gt; **Kurulum** &gt; **Azure Active Directory uygulamaları** konumuna gidin.
 2.  Erişimini kaldırmak istediğiniz cihaza karşılık gelen satırı silin. Daha sonra ihtiyacınız olacağından kaldırılan cihaz için kullanılan **İstemci Kodu**'nu unutmayın.
-3.  <https://portal.azure.com> adresinden Azure portalında oturum açın.
+3.  Azure portalında <https://portal.azure.com> adresinden oturum açın.
 4.  Sol menüde **Active Directory** simgesine tıklayın ve doğru dizinde olduğunuzdan emin olun.
 5.  Listede **Uygulama kayıtları**'na ve daha sonra yapılandırmak istediğiniz uygulamaya tıklayın. **Ayarlar** sayfası yapılandırma bilgileriyle birlikte görüntülenir.
 6.  Uygulamanın **İstemci kodunun** bu bölümdeki adım 2'deki kodla aynı olduğundan emin olun.

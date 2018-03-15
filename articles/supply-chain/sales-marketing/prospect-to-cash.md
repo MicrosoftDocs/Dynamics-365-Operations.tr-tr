@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 602873e8af976c57f27ce53b76391516351755e3
-ms.openlocfilehash: 29d33d3ecf97c15fed0247d172ff6fb3bbdaa018
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 62f328c5a6bf5343c97de0b7d907bbcfe2fcde4d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -46,15 +46,6 @@ Geçerli sürümde, Müşteri adayından nakde çözümü aşağıdaki türlerde
 - [Finance and Operations'taki satış siparişlerini doğrudan Sales'le eşitleme](sales-order-template-mapping-direct.md)
 - [Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme (şablon sürümü beklemede)](sales-order-template-mapping-direct-two-ways.md)
 - [Finance and Operations'taki satış faturasını doğrudan Sales'le eşitleme](sales-invoice-template-mapping-direct.md)
-
-Önceki sürümlerde, Müşteri adayından nakde çözümü doğrudan yapılamayan aşağıdaki eşitleme türlerini sağlıyordu:
-
-- [Hesapları Sales içinde yönetin ve onları Finance and Operations ile eşitleyin](accounts-template-mapping.md)
-- [Sales'deki ilgili kişileri koruma ve onları Finance and Operations ile eşitleme](contacts-template-mapping.md)
-- [Finance and Operations'taki ürünleri koruma ve onları Sales ile eşitleme](products-template-mapping.md)
-- [Sales'de satış teklifleri oluşturma ve onları Finance and Operations'la eşitleme](sales-quotation-template-mapping.md)
-- [Finance and Operations'ta satış siparişleri oluşturma ve onları doğrudan Sales ile eşitleme](sales-order-template-mapping.md)
-- [Finance and Operations'ta satış faturaları oluşturma ve onları doğrudan Sales ile eşitleme](sales-invoice-template-mapping.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Finance and Operations için sistem gereksinimleri
 
@@ -87,7 +78,7 @@ Müşteri adayından nakde tümleştirmesi aşağıdaki sürümlerde desteklenir
     - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** - Veri varlıkları aracılığıyla müşteri adayından nakde tümleştirmesi için destek gereklidir.
     
     > [!NOTE]
-    > Düzeltmeleri yükledikten sonra aşağıdaki toplu işi **SalesPopulateProspectToCash** formundan tetiklemeniz gerekir. Bu form yalnızca bir kez gereksinim duyacağınızdan gizlenmiştir. Forma ulaşmak için ortamda oturum açın ve aşağıdaki URL'yi tarayıcı adresinize ekleyin: &mi=action:SalesPopulateProspectToCash, for example, https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash. Form açıldığında Tamam'a tıklayın. Bu, **SalesLine**, **SalesQuotationLine** ve **CustInvoiceTrans** tablolarında benzersiz değerlere sahip yeni bir **LineCreationSequnceNumber** alanı oluşturur ve ürün listesi yenilenir. Müşteri adayından nakde tümleştirmesinin çalışması için gereklidir.
+    > Düzeltmeleri yükledikten sonra aşağıdaki toplu işi **SalesPopulateProspectToCash** formundan tetiklemeniz gerekir. Bu form yalnızca bir kez gereksinim duyacağınızdan gizlenmiştir. Forma erişmek için ortamda oturum açın ve şu ifadeyi tarayıcı adresinizdeki URL'ye ekleyin: &mi=action:SalesPopulateProspectToCash. (Örneğin, `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`). Form açıldığında Tamam'a tıklayın. Bu, **SalesLine**, **SalesQuotationLine** ve **CustInvoiceTrans** tablolarında benzersiz değerlere sahip yeni bir **LineCreationSequnceNumber** alanı oluşturur ve ürün listesi yenilenir. Müşteri adayından nakde tümleştirmesinin çalışması için gereklidir.
 
 
 ## <a name="system-requirements-for-sales"></a>Sales için sistem gereksinimleri
@@ -96,12 +87,6 @@ Müşteri adayından nakde çözümünü kullanmak için aşağıdaki bileşenle
 
 - Dynamics 365 for Sales sürüm 1612 (8.2.1.207) (DB 8.2.1.207) çevrimiçi
 - Dynamics 365 for Sales, sürüm 1.15.0.0 (v15) için müşteri adayından nakde çözümü 
-
-   > [!NOTE]
-   >
-   > 1.0.0.0 ve 1.0.0.1 sürümlü şablonlar Dynamics 365 for Sales, sürüm 1.14.1.0'a yönelik Müşteri adayından nakde çözümümde desteklenir
-   >
-   > 2.0.0.0 ve 2.1.0.0 sürümlü şablonlar Dynamics 365 for Sales, sürüm 1.15.0.0'a yönelik Müşteri adayından nakde çözümümde desteklenir
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>Sales için Aday müşteriden nakde çözümünü yükleyin
 

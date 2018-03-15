@@ -18,14 +18,16 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ec6cb212766dd90fa9db7719a2119419ecb935c7
-ms.openlocfilehash: e0aa0e576f88fd497472aa4141704a66d51605c3
+ms.sourcegitcommit: 997b6843fb729ed204e4e8ec5369c5a380efc25e
+ms.openlocfilehash: fb36f6ce81c5e781e3c98132f18ecbd84d0d4089
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/12/2018
 
 ---
 
 # <a name="store-order-fulfillment"></a>Mağaza sipariş karşılama
+
+[!include[banner](includes/banner.md)]
 
 Birçok satıcı, mağazaların siparişleri karşılamasını sağlayarak sipariş karşılama yeteneğini en iyi duruma getirmek istemektedir. Mağaza seviyesinde sipariş karşılama belirli bir mağazayla ilgili aşırı stok senaryolarını kolay hale getirmeye yardımcı olabilir ve bir mağazanın ekstra kapasitesi olması veya müşteriye daha yakın bir sevkiyat mesafesinde yer alması durumunda lojistik açıdan gerekli olabilir. Bu ihtiyacı karşılamak için, satış noktasında birleştirilmiş sipariş karşılama işlemi bulunmaktadır.
 
@@ -56,7 +58,7 @@ Satırlar Eylem Bölmesindeki **Seç** işlevi kullanılarak seçilebilir. **Se�
 
 ## <a name="line-details"></a>Satır ayrıntıları
 
-Satır ayrıntıları satır ayrıntıları açılır menüsü kullanılarak görüntülenebilir. Bu menü kullanıldığında, seçili satır için ek bilgileri görüntülemek üzere kullanılmak üzere iki sekme sağlanır. İlk sekme olan **Satır ayrıntıları**, sipariş edilen ve kalan miktar gibi satırın kendisiyle ilgili ayrıntıları gösterir. Çekilen, paketlenen ve faturalanan miktar ve teslimat şekli ve adresi gibi ek bilgiler sağlanır. **Sipariş ayrıntıları** sekmesi müşteri, müşteri kodu, sipariş numarası, toplam tutar ve bakiye dahil olmak üzere sipariş başlığı bilgilerini gösterir.
+Satır ayrıntıları satır ayrıntıları açılır menüsü kullanılarak görüntülenebilir. Bu menü kullanıldığında, seçili satır için ek bilgileri görüntülemek üzere üç sekme sağlanır. İlk sekme olan **Satır ayrıntıları**, sipariş edilen ve kalan miktar gibi satırın kendisiyle ilgili ayrıntıları gösterir. Çekilen, paketlenen ve faturalanan miktar ve teslimat şekli ve adresi gibi ek bilgiler sağlanır. **Sipariş ayrıntıları** sekmesi müşteri, müşteri kodu, sipariş numarası, toplam tutar ve bakiye dahil olmak üzere sipariş başlığı bilgilerini gösterir. **Stok** sekmesi, kullanılabilir stok, ayrılmış stok ve sipariş edilen stok cinsinden seçilen satıra ilişkin bilgileri gösterir.
 
 Birden çok satır seçiliyse, sipariş satırı ayrıntıları açılır menüsü yalnızca birden çok satırın seçili olduğunu belirtir. Tek bir satırın ayrıntıları göstermek için, yalnızca tek bir satır kalana kadar satırları temizleyin. 
 

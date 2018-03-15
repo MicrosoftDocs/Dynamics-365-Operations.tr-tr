@@ -3,14 +3,14 @@ title: "Şirket içi dağıtım"
 description: "bu konu şirket içi dağıtım hakkında içeriğe bağlantılar ve bilgi sağlar."
 author: kfend
 manager: AnnBe
-ms.date: 12/11/2017
+ms.date: 03/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core
+ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
-ms.openlocfilehash: 697f5a43124aace645e0cc8c6df98a4f986ab852
+ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
+ms.openlocfilehash: 12b8a6e8f28501bce76d5a1d58b39e4711b75330
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/06/2018
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Şirket içi dağıtım giriş sayfası
@@ -31,6 +31,7 @@ ms.lasthandoff: 12/21/2017
 Bir Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü (şirket içi) dağıtabilirsiniz. Bir şirket içi dağıtım türünü seçtiğinizde, sistem gereksinimleri, donanım boyutlandırma ve işlev, bir bulut dağıtımından farklılık gösterir. Bu konu, şirket içi dağıtımlara ilişkin çeşitli konulara dair bilgi içeren içeriklere bağlantılar sağlar.
 
 ## <a name="get-started"></a>Başlayın
+- [Platform güncelleştirmesi 12'ye (Mart 2018) sahip Dynamics 365 for Finance and Operations, Enterprise edition 7.2'nin şirket içi dağıtımlarında yenilikler veya değişenler](../../fin-and-ops/get-started/whats-new-LBD-PU12-App72.md)
 - [Dynamics 365 for Finance and Operations, Enterprise sürümüne (şirket içi) genel bakış](on-premises-overview.md)
 - [Şirket içi dağıtımınızı planlama](plan-onprem-deployment.md)
 - [Şirket içi dağıtımlar için sistem gereksinimleri](../../fin-and-ops/get-started/system-requirements-on-prem.md)
@@ -50,6 +51,7 @@ Bir Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü (şi
 - [Belge yönetimini konfigüre etme](../../fin-and-ops/organization-administration/configure-document-management.md)
 - [Elektronik raporlama yapılandırmalarını içe aktarma](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Şirket içi dağıtımlarda belge oluşturma, yayınlama ve yazdırma yetenekleri](../analytics/printing-capabilities-on-premises.md)
+- [Şirket içi ortamınız için ters proxy yapılandırma](onprem-reverseproxy.md)
 - [Teknik desteği ayarla](../lifecycle-services/support-experience.md)
 - [İstemci İnternet bağlantısı sorun giderme](../user-interface/client-disconnected.md)
 - [Şirket içi dağıtıma güncelleştirmeler uygulama](apply-updates-on-premises.md)

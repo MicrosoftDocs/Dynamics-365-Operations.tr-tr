@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b167d7577823bbc88d8e64952333110f9a652b64
-ms.openlocfilehash: 1f552e1ee0286326e3a2a8bb6a7bfb84df53b45d
+ms.sourcegitcommit: 7b5c4428c8610a7b2d4cf1a28287ba2bb1f9c2ea
+ms.openlocfilehash: 6739d769c3f7876f67d80554743458b0abd5aae5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 02/06/2018
 
 ---
 
@@ -30,12 +30,13 @@ ms.lasthandoff: 02/02/2018
 
 [!include[banner](../includes/banner.md)]
 
-> [Not] Bu içerik paketi [PowerBI.com'da yayımlanan Power BI içerik paketleri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom) bölümünde belirtildiği üzere kullanım dışı bırakılmıştır.
+> [!Note]
+> Bu içerik paketi [PowerBI.com'da yayımlanan Power BI içerik paketleri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom) bölümünde belirtildiği üzere kullanım dışı bırakılmıştır.
 
 
 Bu konu, Power BI Maliyet Yönetimi'nde nelerin bulunduğunu açıklar. 
 
-**Maliyet yönetimi** Microsoft Power BI içeriği stok muhasebecileri veya kuruluştaki stoktan sorumlu olan kişiler için tasarlanmıştır. **Yönetimi maliyeti** Power BI içeriği stok ve sürmekte olan iş (WIP) stokuna dair yönetimsel bilgi sağlar ve maliyetlerin bunların arasında zaman içerisinde nasıl bir akış gösterdiğini kategorilerle gösterir. Bu bilgiler, mali tabloya detaylı bir destekleyici olarak da kullanılabilir.
+**Maliyet yönetimi** Microsoft Power BI içeriği stok muhasebecileri veya kuruluştaki stoktan sorumlu olan kişiler için tasarlanmıştır. **Maliyet yönetimi** Power BI içeriği stok ve süren iş (WIP) stokuna dair yönetimsel öngörü sağlar ve maliyetlerin bunların arasında zaman içerisinde kategorilere göre nasıl bir akış gösterdiğini gösterir. Bu bilgiler, mali tabloya detaylı bir destekleyici olarak da kullanılabilir.
 
 ## <a name="key-measures"></a>Önemli ölçüler
 
@@ -49,7 +50,7 @@ Bu konu, Power BI Maliyet Yönetimi'nde nelerin bulunduğunu açıklar.
 + Stok dönüşü
 + Stok doğruluğu
 
-CostAggregatedCostStatementEntryEntity için birincil veri kaynağı CostStatementCache tablosudur. Bu tablo Veri kümesi önbelleğini çerçevesi tarafından yönetilir. Tablo varsayılan olarak her 24 saatte bir güncelleştirilir, ancak güncelleştirmeleri veri önbelleği yapılandırmasında el ile etkinleştirebilirsiniz. Daha sonra **Yönetimi maliyeti** veya **Maliyet analizi** çalışma alanlarında bir el ile güncelleştirme gerçekleştirebilirsiniz. CostStatementCache güncelleştirmesi çalıştırıldıktan sonra sitede güncelleştirilmiş verileri görmek için Power BI.com'da OData bağlantısını güncelleştirmeniz gerekir. Bu Power BI içeriğindeki fark (satın alma, üretim) önlemler, yalnızca Standart maliyet stok yönteminde değerlenmiş olan öğelerle ilgilidir. Üretim farkı gerçekleşmiş maliyet ve etkin maliyet arasındaki fark olarak hesaplanır. Üretim farkı, üretim siparişinin durumu **Bitti** olduğunda hesaplanır. Üretim farkı türleri ve her türün nasıl hesaplandığı hakkında daha fazla bilgi için bkz: [Tamamlanmış üretim emri için varyans çözümleme hakkında](https://technet.microsoft.com/en-us/library/gg242850.aspx).
+CostAggregatedCostStatementEntryEntity için birincil veri kaynağı CostStatementCache tablosudur. Bu tablo Veri kümesi önbelleğini çerçevesi tarafından yönetilir. Tablo varsayılan olarak her 24 saatte bir güncelleştirilir, ancak güncelleştirmeleri veri önbelleği yapılandırmasında el ile etkinleştirebilirsiniz. Daha sonra **Maliyet yönetimi** veya **Maliyet analizi** çalışma alanlarında bir el ile güncelleştirme gerçekleştirebilirsiniz. CostStatementCache güncelleştirmesi çalıştırıldıktan sonra sitede güncelleştirilmiş verileri görmek için Power BI.com'da OData bağlantısını güncelleştirmeniz gerekir. Bu Power BI içeriğindeki fark (satın alma, üretim) önlemler, yalnızca Standart maliyet stok yönteminde değerlenmiş olan öğelerle ilgilidir. Üretim farkı gerçekleşmiş maliyet ve etkin maliyet arasındaki fark olarak hesaplanır. Üretim farkı, üretim siparişinin durumu **Bitti** olduğunda hesaplanır. Üretim farkı türleri ve her türün nasıl hesaplandığı hakkında daha fazla bilgi için bkz: [Tamamlanmış üretim emri için varyans çözümleme hakkında](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan ölçümler

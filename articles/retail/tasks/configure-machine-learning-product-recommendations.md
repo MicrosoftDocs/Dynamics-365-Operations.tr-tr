@@ -1,5 +1,5 @@
 --- 
-title: " Makine öğrenimi destekli ürün önerilerini yapılandırma"
+title: "Makine öğrenimi destekli ürün önerilerini yapılandırma"
 description: "Bu yordam, ürün önerilerini destekleyen makine öğrenimi sistemi tarafından kullanılan Varlık deposundaki verileri yeniler ve POS istemcileri üzerinde ürün önerilerini etkinleştirir."
 author: ashishmsft
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e32c7cf1283487cb7a52f7d8e261b6b587b76364
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 277ffb879b80fe57deeaa2b52c1543baaf820274
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="configure-machine-learning-powered-product-recommendations"></a> Makine öğrenimi destekli ürün önerilerini yapılandırma
+# <a name="configure-machine-learning-powered-product-recommendations"></a>Makine öğrenimi destekli ürün önerilerini yapılandırma
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
