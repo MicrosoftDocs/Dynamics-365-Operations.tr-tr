@@ -37,10 +37,11 @@
 ## [Ödeme seçenekleri](work-with-payments.md)
 
 # Kanal kurulumu ve yönetimi
-## [Perakende ortamında tohum verileri başlatma](enable-configure-retail-functionality.md)
+## [Retail ortamında çekirdek verileri başlatma](enable-configure-retail-functionality.md)
 ## [Perakende kanallarını tanımlama](define-maintain-retail-channels.md)
+## [Ürün çeşidi yönetimi](assortments.md)
 ## [Çevrimiçi mağazaya genel bakış](online-stores.md)
-## [Retail donanım istasyonu yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md)
+## [Retail hardware station'ı yapılandırma ve yükleme](retail-hardware-station-configuration-installation.md)
 ## [Retail saat ve işe devam](retail-time-attendance.md)
 
 # Modern Point of Sale (MPOS) ve Cloud POS
@@ -53,8 +54,9 @@
 ### [Perakende çevre birimi benzeticisi](dev-itpro/retail-peripheral-simulator.md)
 ### [Kanal istemcilerini, kasaları ve donanım istasyonlarını tanımlama ve koruma](define-maintain-channel-clients-registers-hw-stations.md)
 ## Ekran düzeni
-### [POS için ekran düzenini yapılandırma](pos-screen-layouts.md)
+### [POS için ekran düzenlerini yapılandırma](pos-screen-layouts.md)
 ### [Retail POS Düzeni tasarımcısını yükleme](install-pos-layout-designer.md)
+### [Bildirim ayarlarını seçme](Notifications-POS.md)
 ### [POS uygulaması ve kullanıcı dili ayarları](pos-application-user-language-settings.md)
 ### [MPOS için resimleri ayarlama](set-up-manage-images-retail-mpos.md)
 ## [Bilgi kodlarına genel bakış](info-codes-retail.md) 
@@ -100,6 +102,7 @@
 # Ürünler ve alım satım
 ## [Ürün bilgilerine genel bakış](../supply-chain/pim/product-information.md)
 ## [Perakende hiyerarşileri](retail-hierarchies.md)
+## [Özniteliklere ve öznitelik gruplarına genel bakış](attribute-attributegroups-lifecycle.md)
 ## [Öznitelikler oluşturma ve yönetme](create-manage-attributes.md)
 ## [Perakende ürünleri ayarlama](set-up-retail-products.md)
 ## [Ürün boyutları](../supply-chain/pim/product-dimensions.md)
@@ -130,6 +133,16 @@
 # İnsan kaynakları
 ## [Departmanlar, işler ve pozisyonları kullanarak iş gücünüzü düzenleme](../talent/departments-jobs-positions.md)
 ## [İşin bileşenlerini ayarlama](../talent/create-job.md)
+
+# Yerelleştirme ve mevzuat özellikleri
+## Hindistan
+### [Hindistan için yazar kasalara ilişkin GST tümleştirmesi](localizations/apac-ind-cash-registers.md)
+### [Hindistan için yazar kasalara ilişkin dağıtım kılavuzları](localizations/apac-ind-loc-deployment-guidelines.md)
+## Norveç
+### [Norveç için yazar kasalar](localizations/emea-nor-cash-registers.md)
+### [Norveç için yazar kasalara ilişkin dağıtım kılavuzları](localizations/emea-nor-loc-deployment-guidelines.md)
+## İsveç
+### [İsveç için yazar kasalar](localizations/emea-swe-cash-registers.md)
 
 # Retail görevleri
 ## [Ürün oluşturma](../supply-chain/pim/tasks/create-product.md)
@@ -249,12 +262,8 @@
 ## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [Retail SDK'yı sürekli oluşturma sistemiyle tümleştirme](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [Retail SDK genişletilebilirlik örnekleri](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
-### [İsveç için yazar kasalar](localizations/emea-swe-cash-registers.md)
-### [İsveç için kontrol birimleriyle Retail POS tümleştirmesi örneği](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
-### [Norveç için yazar kasalar](localizations/emea-nor-cash-registers.md)
-### [Norveç için yazar kasalara ilişkin dağıtım kılavuzları](localizations/emea-nor-loc-deployment-guidelines.md)
 ### [Retail SDK paketleme](dev-itpro/retail-sdk/retail-sdk-packaging.md)
-### [Retail SDK örnekleri ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+### [Retail SDK örnekleri](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [Kanal veritabanı (DB) uzantıları](dev-itpro/channel-db-extensions.md)
 ### [CDX genişletilebilirliği](dev-itpro/cdx-extensibility.md)
 ### [Sipariş öznitelikleri](dev-itpro/order-attributes.md)
