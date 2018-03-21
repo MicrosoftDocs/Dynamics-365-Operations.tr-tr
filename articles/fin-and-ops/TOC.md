@@ -21,6 +21,7 @@
 #### [Ertelenen AX 2012 özellikleri](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Şirket içi dağıtımlarda uygulanmayan özellikler](get-started/features-not-implemented-on-prem.md)
 #### [Sürümler ve yaşam döngüsü ilkesi](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [Şirket içi dağıtımlar (Mart 2018)](get-started/whats-new-LBD-PU12-App72.md)
 #### [Platform update 13 (Ocak 2018)](get-started/whats-new-platform-update-13.md)
 #### [Finance and Operations, Enterprise edition 7.3](get-started/whats-new-application-7.3-update.md)
 #### [Platform update 12 (Kasım 2017)](get-started/whats-new-platform-update-12.md)
@@ -134,7 +135,7 @@
 ### [Maliyet yönetimi Power BI içerik paketi](../dev-itpro/analytics/cost-management-content-pack.md)
 
 ## Veri tümleştirme
-### [Tümleştirme modelleri](../dev-itpro/data-entities/integration-overview.md)
+### [Bir veri tümleştirme (içe aktarma/dışa aktarma) stratejisi seçme](../dev-itpro/data-entities/integration-overview.md)
 
 ### Veri tümleştirme API'ları
 #### [Veri yönetimi paketi API'sı](../dev-itpro/data-entities/data-management-api.md)
@@ -157,10 +158,9 @@
 ###### [Sales'deki hesapları koruma ve onları doğrudan Sales'den Finance and Operations'a eşitleme](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ###### [Finance and Operations'taki ürünleri koruma ve onları doğrudan Sales ile eşitleme](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ###### [Sales'deki ilgili kişileri koruma ve onları doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [Sales'deki satış teklifini doğrudan Finance and Operations'la eşitleme](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-###### [Finance and Operations'taki satış siparişlerini doğrudan Sales'le eşitleme](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-###### [Satış faturasını doğrudan Finance and Operations'tan Sales'e eşitleme](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [Sales'deki satış tekliflerini koruma ve onları doğrudan Finance and Operations'a eşitleme](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [Finance and Operations'taki satış siparişlerini koruma ve onları doğrudan Sales'e eşitleme](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [Finance and Operations'taki satış faturalarını koruma ve onları doğrudan Sales'e eşitleme](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 
 
 #### [Harici web hizmetleri kullanma](../dev-itpro/data-entities/consume-external-web-service.md)
@@ -473,11 +473,17 @@
 #### [Gider raporundaki dağıtımlar](../financials/expense-management/expense-report-distributions.md)
 #### [Şirketlerarası giderler](../financials/expense-management/intercompany-expense.md)
 #### [Gider ilkeleri](../financials/expense-management/travel-expense-policies.md)
-
+#### [Gider raporu görüntüleme](../financials/expense-management/view-expense-report.md)
+#### [Gider raporunu deftere nakletme](../financials/expense-management/post-expense.md)
+#### [Gider raporları ve birden çok onaylayan](../financials/expense-management/expense-report-multiple-approvers.md)
+#### [Gider yönetiminde KDV kurtarma](../financials/expense-management/VAT-expense-report.md)
+#### [Harcırah kuralları](../financials/expense-management/per-diem.md)
+#### [Seyahat talepleri](../financials/expense-management/travel-req.md)
+#### [Bir gider raporundaki kişisel giderler](../financials/expense-management/personal-expenses.md)
 
 ### [Bütçeleme](../financials/budgeting/budgeting-overview.md)
-#### [Bütçe planlamaya genel bakış ](../financials/budgeting/budget-planning-overview-configuration.md)
-#### [Bütçe denetimine genel bakış ](../financials/budgeting/budget-control-overview-configuration.md)
+#### [Bütçe planlamaya genel bakış](../financials/budgeting/budget-planning-overview-configuration.md)
+#### [Bütçe denetimine genel bakış](../financials/budgeting/budget-control-overview-configuration.md)
 #### [Bütçelemeye genel bakış ](../financials/budgeting/basic-budgeting-overview-configuration.md)
 #### [Pozisyon tahmini](../financials/budgeting/position-forecasting.md)
 #### [Bütçe planlama gerekçe belgeleri](../financials/budgeting/budget-planning-justification-docs.md)
@@ -631,6 +637,8 @@
 ##### [Vergi altyapısı tümleştirmesi](../financials/general-ledger/tax-engine-integration.md)
 ##### [Vergi eşikleriyle ilgili SSS](../financials/localizations/apac-ind-tax-thresholds.md)
 ##### [Vergi altyapısını genişletme](../financials/general-ledger/extend-tax-engine-configurations.md)
+##### [Yazar kasalara ilişkin GST tümleştirmesi](../retail/localizations/apac-ind-cash-registers.md)
+##### [Yazar kasalara ilişkin dağıtım kılavuzları](../retail/localizations/apac-ind-loc-deployment-guidelines.md)
 
 #### Japonya
 ##### [Sabit kıymeti alma ve devlet desteği yardımı için talepte bulunma](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -910,7 +918,10 @@
 ##### [Müşteri ve satıcı ödeme biçimleri](../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md)
 ##### [Ödeme koduna göre müşteri ödemesi](../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md)
 ##### [Nets içe aktarma biçimi](../financials/localizations/emea-nor-nets-import-format.md)
-##### [KDV beyanı](../financials/localizations/emea-nor-sales-tax-payment-report.md) 
+##### [KDV beyanı](../financials/localizations/emea-nor-sales-tax-payment-report.md)
+##### [Yazar kasalar](../retail/localizations/emea-nor-cash-registers.md)
+##### [Yazar kasalara ilişkin dağıtım kılavuzları](../retail/localizations/emea-nor-loc-deployment-guidelines.md)
+
 #### Polonya
 ##### [Satır iskontolarını birim fiyatı üzerinden hesaplama](../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
 ##### [Düzeltme notları](../financials/localizations/emea-pol-correction-notes.md)
@@ -937,6 +948,7 @@
 ##### [Özel girişler ve açılış tabloları](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### İsveç
 ##### [Ödeme biçimlerini içe aktarma](../financials/localizations/emea-swe-payment-formats-import.md)
+##### [Yazar kasalar](../retail/localizations/emea-swe-cash-registers.md)
 #### İsviçre
 ##### [ESR'de müşteri ödemelerini içe aktarma](../financials/localizations/emea-che-esr-customer-payments-import.md)
 #### Birleşik Krallık
@@ -1534,7 +1546,7 @@
 ##### [Ürün reçetesi hesaplamaları](../supply-chain/cost-management/bom-calculations.md)
 ##### [Ölçüm birimini yönetme (Görev kılavuzu)](../supply-chain/pim/tasks/manage-unit-measure.md)
 ##### [Üretim yürütmede üretim parametreleri](../supply-chain/production-control/production-parameters-manufacturing-execution.md)
-##### [İşlem kaynakları](../supply-chain/production-control/operations-resources.md)
+##### [İşlemler kaynakları](../supply-chain/production-control/operations-resources.md)
 ##### [İşlem kaynağı oluşturma (görev kılavuzu)](../supply-chain/production-control/tasks/create-operations-resource.md)
 ##### [Kaynak yetenekleri](../supply-chain/production-control/resource-capabilities.md)
 ##### [Kaynak özelliklerini tanımlama (görev kılavuzu)](../supply-chain/production-control/tasks/define-resource-capabilities.md)
@@ -1593,7 +1605,7 @@
 
 #### Üretim ana verilerini koruma
 ##### [Yalın kuruluş modelleme](../supply-chain/production-control/lean-manufacturing-modeling-lean-organization.md)
-##### [İşlem kaynakları](../supply-chain/production-control/operations-resources.md)
+##### [İşlemler kaynakları](../supply-chain/production-control/operations-resources.md)
 ##### [Yalın imalat iş hücreleri tanımlama (görev kılavuzu)](../supply-chain/production-control/tasks/define-lean-manufacturing-work-cells.md)
 ##### [Yalın planlama grupları tanımlama (görev kılavuzu)](../supply-chain/production-control/tasks/define-lean-schedule-groups.md)
 
@@ -1641,9 +1653,10 @@
 #### Üretim ana verilerini koruma
 ##### [Ürün reçeteleri ve formüller](../supply-chain/production-control/bill-of-material-bom.md)
 ##### [Formüller ve formül sürümleri](../supply-chain/production-control/formulas-versions.md)
-##### [İşlem kaynakları](../supply-chain/production-control/operations-resources.md)
+##### [İşlemler kaynakları](../supply-chain/production-control/operations-resources.md)
 ##### [Kaynak yetenekleri](../supply-chain/production-control/resource-capabilities.md)
 ##### [Toplu iş öznitelikleri](../supply-chain/production-control/batch-attributes.md)
+##### [Toplu iş dengelemesi](../supply-chain/production-control/batch-balancing.md)
 ##### [Bir formülü kopyalama (görev kılavuzları)](../supply-chain/production-control/tasks/copy-formula.md)
 ##### [Mevcut bir formülden kopyalayarak formül oluşturma (görev kılavuzu)](../supply-chain/production-control/tasks/create-formula-copying-existing-formula.md)
 ##### [Mevcut bir formül sürümünden ortak ürünler kopyalama (görev kılavuzu)](../supply-chain/production-control/tasks/copy-co-products-existing-formula-version.md)
@@ -1808,6 +1821,7 @@
 #### [Ölçü birimi ve stoklama ilkeleri](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [Ambar Power BI içeriği](../dev-itpro/analytics/warehouse-power-bi-content.md)
 #### [Açık bir iş listesinde sistem gruplama](../supply-chain/warehousing/system-group-on-open-work-list.md)
+#### [Dynamics 365 for Finance and Operations'ta kamera kullanarak barkod tarama](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Mobil barkod desteği](../supply-chain/warehousing/mobile-barcode-support.md)
 ### [Ambar iş ilkeleri](../supply-chain/warehousing/warehouse-work-policies.md)
 #### [Ambar yönetiminde stoğu ilişkili işle birlikte taşıma](../supply-chain/warehousing/move-inventory-associated-work.md)
@@ -1818,6 +1832,7 @@
 #### [Karma plaka alımı](../supply-chain/warehousing/mixed-license-plate-receiving.md)
 #### [Mobil cihazda ambar içindeki eski toplu işleri görüntülemeyi yapılandırma](../supply-chain/warehousing/display-older-batches-within-warehouses.md)
 #### [Mobil cihazda en eski toplu işi çekme](../supply-chain/warehousing/pick-oldest-batch.md)
+#### [Dynamics 365 for Finance and Operations'ta kamera kullanarak barkod tarama](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Parça çekme onayı](../supply-chain/warehousing/piece-picking-confirmation.md)
 #### [Küme çekme için ürün onayı](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
 #### [Kısmen rezerve edilen transfer emirleri için toplu iş serbest bırakma](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)
