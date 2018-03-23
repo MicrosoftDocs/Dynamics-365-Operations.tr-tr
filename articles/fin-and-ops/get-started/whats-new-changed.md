@@ -3,7 +3,7 @@ title: "Yeni veya değişenler nedir"
 description: "Bu sayfa Microsoft Dynamics 365 for Finance and Operations'ın son sürümlerindeki yeni özellikler hakkında bilgi almanıza yardımcı olabilecek konulara sizi yönlendirir."
 author: josaw1
 manager: AnnBe
-ms.date: 10/10/2017
+ms.date: 03/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -34,6 +34,8 @@ Bu sayfa Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition'�
 
 En son sürüme yükseltme hakkında bilgi için bkz. [En son güncelleştirmeye yükseltme işlemi](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
+
+[!include[release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>Uygulama sürümleri
 
