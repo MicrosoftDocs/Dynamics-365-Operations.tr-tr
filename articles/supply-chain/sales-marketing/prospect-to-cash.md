@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 62f328c5a6bf5343c97de0b7d907bbcfe2fcde4d
+ms.sourcegitcommit: e342c67f53828c77f77d99a2c3f909a23ced8989
+ms.openlocfilehash: 5d9bc41c92258f9856088b04ec5af123c8e915e5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -42,10 +42,9 @@ Geçerli sürümde, Müşteri adayından nakde çözümü aşağıdaki türlerde
 - [Hesapları Sales içinde koruma ve onları doğrudan Sales'den Finance and Operations'a eşitleme](accounts-template-mapping-direct.md)
 - [Finance and Operations'taki ürünleri koruma ve onları doğrudan Sales ile eşitleme](products-template-mapping-direct.md)
 - [Sales'deki ilgili kişileri koruma ve onları doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme](contacts-template-mapping-direct.md)
-- [Sales'deki satış tekliflerini doğrudan Finance and Operations'la eşitleme (şablon sürümü beklemede)](sales-quotation-template-mapping-sales-fin.md)
-- [Finance and Operations'taki satış siparişlerini doğrudan Sales'le eşitleme](sales-order-template-mapping-direct.md)
-- [Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme (şablon sürümü beklemede)](sales-order-template-mapping-direct-two-ways.md)
-- [Finance and Operations'taki satış faturasını doğrudan Sales'le eşitleme](sales-invoice-template-mapping-direct.md)
+- [Sales'deki satış teklifini doğrudan Finance and Operations'la eşitleme](sales-quotation-template-mapping-sales-fin.md)
+- [Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme](sales-order-template-mapping-direct-two-ways.md)
+- [Satış faturasını doğrudan Finance and Operations'tan Sales'e eşitleme](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Finance and Operations için sistem gereksinimleri
 
@@ -85,7 +84,7 @@ Müşteri adayından nakde tümleştirmesi aşağıdaki sürümlerde desteklenir
 
 Müşteri adayından nakde çözümünü kullanmak için aşağıdaki bileşenleri yüklemeniz gerekir:
 
-- Dynamics 365 for Sales sürüm 1612 (8.2.1.207) (DB 8.2.1.207) çevrimiçi
+- Dynamics 365 for Sales sürüm 1612 (8.2.1.207) (DB 8.2.1.207) çevrimiçi veya sonraki bir sürüm.
 - Dynamics 365 for Sales, sürüm 1.15.0.0 (v15) için müşteri adayından nakde çözümü 
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>Sales için Aday müşteriden nakde çözümünü yükleyin

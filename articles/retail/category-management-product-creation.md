@@ -1,47 +1,63 @@
 ---
-title: "Ürün kategorisi yönetimi ve oluşturulması"
-description: "Bu konu, Perakende ürün kategorileri için yönetim deneyimine yapılan geliştirmeleri açıklar. Bu geliştirmeler alım satım yöneticilerinin Perakende ürün hiyerarşisi ve serbest bırakılan ürün ayrıntıları arasında bir ilişkiye sahip olmalarını imkan verir."
+title: "Ürün kategorisi yönetimi"
+description: "Bu konu alım satım yöneticilerinin, Perakende ürün hiyerarşisi ve serbest bırakılan ürün ayrıntıları arasındaki ilişkileri yönetmek için Perakende ürün kategorilerini nasıl kullanacağını açıklar."
 author: ashishmsft
 manager: AnnBe
-ms.date: 09/01/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
-ms.search.form: RetailCategoryAndProductWorkspace, RetailCategory
+ms.search.form: 
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.search.region: Global
-ms.search.industry: retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.custom: 
+ms.assetid: c7ed2ba5-87c6-4d99-9728-2a83e6d95ca9
+ms.search.region: global
+ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
-ms.dyn365.ops.version: 
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 74a8fa863736177bcf8cb4b3d90911c78122252b
+ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
+ms.openlocfilehash: 4b7ef962b777a31e1da238a8ec1be9a42ec5bb5f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/13/2018
 
 ---
 
-# <a name="product-category-management-and-creation"></a>Ürün kategorisi yönetimi ve oluşturulması
+
+# <a name="enhanced-product-and-category-management"></a>Gelişmiş ürün ve kategori yönetimi
 
 [!include[banner](./includes/banner.md)]
 
-Perakende ürün kategorileri için yönetim deneyiminde yapılmış geliştirmeler alım satım yöneticilerinin Perakende ürün hiyerarşileri ve serbest bırakılan ürün ayrıntıları arasında bir ilişkiye sahip olmalarına olanak verir. Bu geliştirmeleri görüntülemek için **Kategori ve ürün yönetimi**  çalışma alanında **Perakende ürün kategorisi yeni yapısı** sayfasını açmak için **Perakende ürün hiyerarşisi**'ni seçin. 
+Bu konu,Dynamics 365 for Retail'de Perakende ürün kategorilerini ve ürünlerini yönetmenin gelişmiş bir yolunu açıklar. Bu geliştirmeler alım satım yöneticilerinin Perakende ürün hiyerarşisi ve serbest bırakılan ürün ayrıntıları arasındaki ürün özelliklerinin genel yapısını görüntülemesine olanak tanır.
 
-Önceki sürümlerde, ürün özellikleri temel ürün özellikleri ve Perakende ürün özelliklerine ayrılmıştı; uygulanabilirliklerinin kapsamına dayanarak. Perakende ürün *genel* özelliklerdi. Başka bir deyişle, belirli bir ürün özelliği için, aynı değer farklı tüzel kişilikler arasında paylaşılıyor. Temel ürün özellikleri *tüzel kişiliğe özel* idi. Başka bir deyişle, bir ürün özelliği, tekil iş gereksinimlerine dayanarak tüzel kişilikler arasında fark gösterebiliyordu.
+Perakende ürün kategorilerini yönetme hakkında daha fazla bilgi için **Kategori ve ürün yönetimi** çalışma alanından **Perakende ürün hiyerarşisi**'ne gidin ve **Perakende ürün kategorisi** sayfasının gelişmiş yapısını not edin.
 
-Bu geliştirmelerle, Perakende ürün kategorisi içindeki bir ürün özelliği için alanları ayırmaya devam ediyoruz, bir grup içerisindeki uygulanabilirliklerine dayanarak; serbest bırakılan ürün ayrıntıları form yapısını yansıtmak için.
+![Kategori ve ürün yönetimi çalışma alanı](media/LaunchRetailProductHierarchy.png)
 
-Tüm tüzel kişilikler arasında tüzel varlığa özel şirketleri yönetmek ve bunları özel bir tüzel kişilik için yönetmek arasında geçiş yapabilirsiniz. **Tüm tüzel kişilikleri görüntüle/düzenle** veya **Belirli bir tüzel kişiliği görüntüle/düzenle**'yi ihtiyaç duyduğunuz şekilde seçin.
+Önceki sürümlerde, ürün özellikleri uygulanabilirliklerinin kapsamına dayalı olarak **Temel ürün özellikleri** ve **Perakende ürün özelliklerine** ayrılmıştı. **Perakende ürün özellikleri**'nin uygulanabilirlik kapsamı *genel*di; bu, belirli bir **Perakende ürün özelliği** için tüm tüzel kişilikler arasında aynı değerin paylaşıldığı anlamına gelir. **Temel ürün özellikleri** *tüzel kişiliğe* özeldir. Başka bir deyişle, belirli bir **Temel ürün özelliği** için değer, tekil iş gereksinimlerine dayanarak tüzel kişilikler arasında fark gösterebiliyordu.
 
-Satış yöneticileri ayrıca tekil kategori düzeyinde ürün özellikleri için ek varsayılan değerler de tanımlayabilirler. Bu özellik değerleri ürün başına, ürün oluşturulması sırasında bir kategori ile ilişkilendirmelerine dayanarak devralınır.
+Gelişmiş Perakende ürün kategorisi yapısında, ürün özellikleri, serbest bırakılan ürün ayrıntıları form yapısını yansıtmak amacıyla bir grup içerisindeki uygulanabilirlikleri temel alınarak ayrılır.
 
-## <a name="select-properties-to-update-products-from-the-retail-product-category-form"></a>Perakende ürün kategorisi formundan ürünleri güncelleştirmek için özellikleri seçin
+![Alanları uygulanabilirlik kapsamlarına göre gruplandırma](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
-Hangi güncelleştirilen ürün özelliklerinin ilişkilendirilmiş ürünlere gönderileceğini seçmek için mantıksal gruplama özelliklerini kullanabilirsiniz.
+Tüm tüzel kişilikler arasında tüzel varlığa özel şirketleri yönetmek ve bunları özel bir tüzel kişilik için yönetmek arasında geçiş yapabilirsiniz. Bunu yapmak için, **Tüm tüzel kişilikleri görüntüle/düzenle** veya **Belirli bir tüzel kişiliği görüntüle/düzenle**'yi seçin.
+
+![Tek ve tüm tüzel kişilikler arasında geçiş yapma](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+
+![Tek ve tüm tüzel kişilikler arasında geçiş yapma](media/ToggleToEditForAllLegalEntities.PNG)  
+
+Önceki sürümlerle karşılaştırıldığında, yeni Perakende ürün kategorisi yapısında bir alım satım yöneticisi tek kategori düzeyindeki ek bir ürün özellikleri kümesi için varsayılan değerler de tanımlayabilir. Ürün oluşturma sırasında, bu varsayılan ürün özellik değerleri, Perakende ürün hiyerarşisindeki ayrı bir kategori ile olan ilişkisi temel alınarak bir ürün tarafından devralınabilir. Her bir ürün için devralınan bu ürün özellikleri, tekil işletme gereksinimlerini karşılamak üzere değiştirilebilir.
+
+## <a name="select-properties-to-update-products-from-the-retail-product-category-form"></a>Perakende ürün kategorisi formundan ürünleri güncelleştirmek için özellikleri seçin 
+ 
+Hangi güncelleştirilmiş ürün özelliklerinin ilişkili ürünlere gönderileceğini seçmek amacıyla ürün özellikleri için geliştirilmiş bu yeni yapıyı kullanabilirsiniz. 
+
+![Güncelleştirilmiş ürünlerin yeni gelişmiş görünümü](media/NewUpdateProductsEnhancedView.PNG) 
 
 Satış yöneticileri, her bir ürün için devralınan bu ürün özelliklerini, tekil işletme gereksinimlerini karşılamak üzere değiştirebilirler.
+
 
