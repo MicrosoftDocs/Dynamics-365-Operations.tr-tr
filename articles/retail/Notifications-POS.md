@@ -1,9 +1,9 @@
 ---
 title: "Satış Noktasında sipariş bildirimlerini görüntüleme"
-description: "Bu konu, Satış Noktasında sipariş bildirimlerinin etkinleştirilmesini diğer işlemlere genişletilebilen bildirim çerçevesini açıklar."
+description: "Bu konu, satış noktasında sipariş bildirimlerinin etkinleştirilmesini ve bildirim çerçevesini açıklar. Sonuç olarak, geliştiriciler bu bildirimleri sipariş karşılama işlemlerinin yanı sıra işlemlere de genişletebileceklerdir."
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 03/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -18,49 +18,58 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: a1206aea3f78246951581c1dc6338e39a0942ea2
+ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
+ms.openlocfilehash: a55af4c26d74cc392d3c53aacb66e0a8bc97abf2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/13/2018
 
 ---
 
-# <a name="display-notifications-in-point-of-sale"></a>Satış Noktasında bildirimleri görüntüleme
+# <a name="show-order-notifications-in-the-point-of-sale"></a>Satış Noktasında sipariş bildirimlerini görüntüleme
 
 [!include[banner](includes/banner.md)]
 
-Bugünkü modern perakende ortamında, mağaza yetkilileri müşterilere yardım etme, hareketleri girme, stok sayımı yapma ve mağazada siparişleri alma gibi çeşitli görevlere atanmaktadır. Satış Noktası istemcisi, tek bir uygulamayla, mağaza yetkililerini bu görevleri gerçekleştirme ve çok daha fazlası için destekler. Gün içinde birçok görev yerine getiren çalışanların, dikkat etmelerini gerektiren bir konu olduğunda bildirim almaları gerekebilir. POS'taki bildirim çerçevesi, perakendecilere rol tabanlı bildirimler yapılandırma olanağı sunarak bu sorunu çözer. Uygulama güncelleştirmesi 5'e sahip Dynamics 365 for Retail'de bu bildirimler yalnızca POS işlemleri için yapılandırılabilir.
+Modern perakende ortamında, mağaza yetkilileri müşterilere yardım etme, hareketleri girme, stok sayımı yapma ve mağazada siparişleri alma gibi çeşitli görevlere atanmaktadır. Satış noktası (POS) istemcisi, tek bir uygulamayla, mağaza yetkililerini bu görevleri gerçekleştirme ve çok daha fazlası için destekler. Gün içinde birçok görev yerine getiren çalışanların, dikkat etmelerini gerektiren bir konu olduğunda bildirim almaları gerekebilir. POS'taki bildirim çerçevesi, perakendecilere rol tabanlı bildirimler yapılandırma olanağı sunarak yardımcı olur. Uygulama güncelleştirmesi 5'e sahip Microsoft Dynamics 365 for Retail'de bu bildirimler yalnızca POS işlemleri için yapılandırılabilir.
 
-Şu anda sistem sipariş karşılama işlemi için bildirimleri görüntüleme olanağı sunmaktadır ancak çerçeve genişletilebilecek şekilde tasarlanmıştır. Bu sayede geliştiriciler gelecekte herhangi bir işlem için bildirim işleyici yazma ve bildirimleri POS'ta görüntüleme olanağına sahip olacaktır.  
+Şu anda sistem bildirimleri yalnızca sipariş karşılama işlemleri için gösterir. Ancak, çerçeve genişletilebilir olması için tasarlanmış olduğundan, geliştiricilerin zaman içinde herhangi bir işlem için bir bildirim işleyicisi yazmaları ve bu işlem için bildirimi POS'ta göstermeleri söz konusudur.
 
 ## <a name="enable-notifications-for-order-fulfillment-operations"></a>Sipariş karşılama işlemleri için bildirimleri etkinleştirme
 
-Sipariş karşılama işlemleri için bildirimleri etkinleştirmek üzere aşağıdaki adımları uygulayın:
+Sipariş karşılama işlemleri için bildirimleri etkinleştirmek üzere aşağıdaki adımları uygulayın.
 
- - **İşlemler** sayfasına gidin (**Perakende** > **Kanal kurulumu** > **POS kurulumu** > **POS** > **İşlemler**).
- - Sipariş karşılama işlemini arayıp bu işlem için **Bildirimleri etkinleştir** onay kutusunu işaretleyin. Bu, bildirim çerçevesine sipariş karşılama işlemi için işleyiciyi dinlemesi gerektiğini belirtir. İşleyici uygulanırsa bildirimler POS'ta görüntülenecektir. Aksi takdirde, bu bildirimler bu işlem için görüntülenmeyecektir.
-- Çalışanlarla ilişkili POS izinlerine gidin ve **Bildirimler** hızlı sekmesi altından"Görüntüleme sırası" 1 olacak şekilde Sipariş karşılama işlemini ekleyin. Birden fazla yapılandırılmış bildirim olması durumunda, görüntüleme sırası bildirimleri, 1 en üstte olacak şekilde yukarıdan aşağıya doğru düzenlemek için kullanılır. Bu işlemler yalnızca **Bildirimleri etkinleştir** onay kutusu seçili olduğunda eklenebilir. Ayrıca, bildirimler yalnızca buraya eklenmiş olan işlemler için ve işlemlerin ilgili POS izinlerine eklendiği çalışanlara gösterilir. 
+1. **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS** &gt; **İşlemler** öğelerini seçin.
+2. **Sipariş karşılama** işlemini bulun ve **Bildirimleri etkinleştir** onay kutusunu seçerek bildirim çerçevesinin bu işlem için işleyiciyi dinlemesi gerektiğini belirtin. İşleyicisi uygulanıyorsa, bu işlem için bildirimler POS'ta görüntülenir.
+3. **Perakende** &gt; **Personel** &gt; **Çalışanlar** &gt;'a gidin, Perakende sekmesi altından çalışanla ilişkili POS izinlerini açın. **Bildirimler** hızlı sekmesini genişletin, **Sipariş karşılama** işlemini ekleyin ve **Görüntüleme sırası** alanını **1** olarak ayarlayın. Birden fazla bildirim yapılandırılmışsa, bu alan bildirimleri düzenlemek için kullanılır. Daha düşük **Görüntüleme sırası** değeri olan bildirimler daha yüksek bir değere sahip bildirimlerin üzerinde görünür. **Görüntüleme sırası** değeri **1** olan bildirimler en üstte olur.
+
+    Bildirimler yalnızca **Bildirimler** hızlı sekmesinde eklenen işlemler için gösterilir ve işlemleri buraya yalnızca **Bildirimleri etkinleştir** onay kutusunun bu işlemler için **POS işlemleri** sayfasında işaretlenmiş olması durumunda ekleyebilirsiniz. Ayrıca, bir işlem için bildirimler çalışanlara yalnızca işlemin bu çalışanlar için POS izinlerine eklenmiş olması durumunda gösterilir.
+
+    > [!NOTE]
+    > Bildirimler kullanıcı düzeyinde geçersiz kılınabilir. Çalışan kaydını açın, **POS izinleri**'ni seçin ve ardından kullanıcının bildirim aboneliğini düzenleyin.
+
+4. **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **İşlev profilleri**'ne gidin. **Bildirim aralığı** alanında, bildirimlerin çekilme sıklığını belirtin. Bazı bildirimler için POS'un arka ofis uygulamasına gerçek zamanlı çağrılar yapması gerekir. Bu çağrılar, arka ofis uygulamanızın bilgi işlem kapasitesini tüketir. Bu nedenle, bildirim aralığı ayarladığınızda, hem iş gereksinimlerinizi hem de arka ofis uygulamasına yapılan gerçek zamanlı çağrıların etkisini düşünün. **0** (sıfır) değeri bildirimleri kapatır.
+5. **Perakende** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine gidin. Bildirim abonelik ayarlarını eşitlemek için **1060** (**Personel**) planını ve arından **Şimdi çalıştır**'ı seçin. Sonra, **1070** (**Kanal yapılandırması**) planını seçerek izin aralığını eşitleyin ve **Şimdi çalıştır**'a tıklayın.
+
+## <a name="view-notifications-in-the-pos"></a>POS'ta bildirimleri görüntüleme
+
+Yukarıdaki adımları tamamladıktan sonra çalışanlar POS'ta bildirimleri görüntüleyebilir. Bildirimleri görüntülemek için POS'un sağ üst kenarındaki bildirim simgesine tıklayın. Bir bildirim merkezi açılır ve sipariş karşılama işlemi için bildirimleri görüntüler. Bildirim merkezinin sipariş karşılama işlemi içinde aşağıdaki grupları görüntülemesi gerekir:
+
+- **Mağazadan çekme** - Bu grup teslimat modu **Çek** olan ve çekme işleminin geçerli mağaza için planlanmış olduğu siparişlerin sayısını gösterir. **Sipariş karşılama** sayfasını açmak için gruptaki numaraya basabilirsiniz. Bu durumda, sayfa filtrelenir ve yalnızca geçerli mağaza için malzeme çekme ayarlanan etkin siparişleri gösterir.
+- **Mağazadan sevkiyat** - Bu grup teslimat modu **Sevkiyat** olan ve sevkiyat işleminin geçerli mağaza için planlanmış olduğu siparişlerin sayısını gösterir. **Sipariş karşılama** sayfasını açmak için gruptaki numaraya basabilirsiniz. Bu durumda, sayfa filtrelenir ve yalnızca geçerli mağazadan sevkiyatı ayarlanan etkin siparişleri gösterir.
+
+Karşılama için mağazaya atanan yeni siparişler olduğunda, bildirim simgesi yeni bildirimleri gösterecek şekilde değişir ve ilgili grupların sayısı güncelleştirilir. Gruplar düzenli aralıklarla yenilenmesine karşın POS kullanıcıları istedikleri zaman grubun yanındaki **Yenile** düğmesini seçerek grupları el ile yenileyebilir. Son olarak, bir grupta geçerli çalışanın görüntülemediği yeni bir madde olması durumunda, grup yeni içeriği göstermek üzere bir simge gösterir.
+
+## <a name="enable-live-content-on-pos-buttons"></a>POS düğmelerinde canlı içeriği etkinleştirme
+
+POS düğmeleri artık çalışanların hangi görevlerle hemen ilgilenilmesi gerektiğini kolayca belirlemesine yardımcı olan bir sayı gösterir. Bu sayıyı POS düğmesine göstermek için bu konuda daha önce açıklanan bildirim ayarını tamamlamanız gerekir (bir işlem için bildirimleri etkinleştirmeniz, bir bildirim aralığı ayarlamanız ve çalışan için POS izin grubunu güncelleştirmeniz gerekir). Ayrıca, düğme grubu tasarımcısını açmanız, düğmenin özelliklerini görüntülemeniz ve **Canlı içeriği etkinleştir** onay kutusunu seçmeniz gerekir. **İçerik hizalama** alanında, sayının düğmenin sağ üst köşesinde mi (**Sağ üst**) yoksa ortasında mı (**Merkez**) görüntüleneceğini seçebilirsiniz.
 
 > [!NOTE]
-> Bildirimler çalışan kaydına gidilip **POS İzinleri** seçildikten sonra kullanıcının bildirim aboneliği düzenlenerek kullanıcı düzeyinde geçersiz kılınabilir.
+> Canlı içerik **Bildirimleri etkinleştir** onay kutusunun işlemler için daha önce açıklandığı şekilde **POS işlemleri** sayfasından seçilmiş olması durumunda işlemler için seçilebilir.
 
- - **İşlev profili** sayfasına gidin (**Perakende** > **Kanal kurulumu** > **POS kurulumu** > **POS profilleri** > **İşlev profilleri**). **Bildirim aralığı** özelliğini güncelleştirerek bildirimlerin çekileceği aralığı dakika cinsinden ayarlayabilirsiniz. Merkezle gereksiz iletişimi önlemek için bu değeri 10 dakika olarak ayarlamanızı öneririz. Bildirim aralığının "0" olarak ayarlanması bildirimleri kapatır.  
+Aşağıdaki örnek düğme grubu tasarımcısındaki canlı içerik ayarlarını göstermektedir.
 
- - **Perakende** > **Perakende BT** > **Dağıtım planı** öğesine gidin. Bildirim aboneliği ayarlarını eşitlemek için "1060-Personel" planını seçin ve ardından **Şimdi çalıştır**'a tıklayın. Sonra, "1070-Kanal yapılandırması"nı seçerek izin aralığını eşitleyin ve **Şimdi çalıştır**'a tıklayın. 
+![Düğme grubu tasarımcısındaki canlı içerik ayarları](./media/ButtonGridDesigner.png "Düğme grubu tasarımcısındaki canlı içerik ayarları")
 
-## <a name="view-notifications-in-pos"></a>POS'ta bildirimleri görüntüleme
+Aşağıdaki örnekte, farklı boyuttaki düğmeler için **İçerik hizalama** alanında **Sağ üst** ve **Merkez** seçimlerinin etkisini göstermektedir.
 
-Yukarıdaki adımlar tamamlandıktan sonra, kendileri için bildirimlerin ayarlandığı çalışanlar bildirimleri POS'ta görebilir. Bildirimleri görüntülemek için POS'taki başlık çubuğunda bulunan bildirim simgesine tıklayın. Bu, sipariş karşılama işlemi için bildirimleri içeren bildirim merkezini görüntüler. Bildirim merkezinin sipariş karşılama işlemi içinde aşağıdaki grupları görüntülemesi gerekir: 
-
-- **Bekleyen siparişler** - Bu grup, bekleme durumunda olan, mağaza karşılama için gerekli izinlere sahip POS çalışanı tarafından kabul edilmesi gereken siparişler gibi siparişlerin sayısını görüntüler. Gruptaki sayıya tıklandığında **Sipariş karşılama** sayfası açılır. Bu sayfa, yalnızca karşılama için mağaza atanmış olan bekleme durumundaki siparişleri görüntüler. Siparişler mağaza için otomatik olarak kabul ediliyorsa, bu grup için sayı sıfır olacaktır.
-
-- **Mağazadan çekme** - Bu grup teslimat modu **Çek** olan ve çekme işleminin geçerli mağaza için planlanmış olduğu siparişlerin sayısını gösterir. Gruptaki sayıya tıklandığında **Sipariş karşılama** sayfası açılır. Bu sayfa, yalnızca geçerli mağazadan çekilmek üzere ayarlanmış olan etkin siparişleri görüntüler.
-
-- **Mağazadan sevkiyat** - Bu grup teslimat modu **Sevkiyat** olan ve sevkiyat işleminin geçerli mağaza için planlanmış olduğu siparişlerin sayısını gösterir. Gruptaki sayıya tıklandığında **Sipariş karşılama** sayfası açılır. Bu sayfa, yalnızca geçerli mağazadan sevk edilmek üzere ayarlanmış olan etkin siparişleri görüntüler.
-
-Karşılama için mağazaya atanan yeni siparişler olduğunda, bildirim simgesi yeni bildirimleri gösterecek şekilde değişir ve ilgili grupların sayısı güncelleştirilir. Kullanıcı, grupların sayısını anında güncelleştirmek için işlem adının yanındaki yenile simgesine de tıklayabilir. Bu sayı önceden tanımlanan aralıklarla da güncelleştirilir. Geçerli çalışan tarafından görülmeyen ve yeni bir öğesi bulunan bir grup, bu grupta yeni bir öğe olduğunu belirtmek için bir patlama simgesi görüntüler. Bildirimlerdeki kutucuklara tıklandığında, bildirimin yapılandırıldığı işlem açılır. Yukarıdaki senaryolarda, bildirimler tıklandığında **Sipariş karşılama** sayfası açılacak ve uygun parametrelere geçilecektir: bekleyen siparişler, mağazadan çekme ve mağazadan sevkiyat. 
-
-> [!NOTE]
-> Bekleyen siparişler bildirimi, bir sonraki Dynamics 365 for Retail güncelleştirmesiyle etkinleştirilecektir. 
-
+![POS düğmelerinde canlı içerik](./media/ButtonsWithLiveContent.png "POS düğmelerinde canlı içerik")
 

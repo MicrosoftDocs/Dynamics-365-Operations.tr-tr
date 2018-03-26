@@ -3,7 +3,7 @@ title: "Şirket içi dağıtım"
 description: "bu konu şirket içi dağıtım hakkında içeriğe bağlantılar ve bilgi sağlar."
 author: kfend
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 03/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,13 +18,13 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
-ms.openlocfilehash: 12b8a6e8f28501bce76d5a1d58b39e4711b75330
+ms.sourcegitcommit: 0d551818c8d352af96f6e64613cfbbc4aec5bf5b
+ms.openlocfilehash: e35769e45b1017eef2ee5a5b6c2baa35ae13d90c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 03/15/2018
 
 ---
-# <a name="on-premises-deployment-landing-page"></a>Şirket içi dağıtım giriş sayfası
+# <a name="on-premises-deployment-home-page"></a>Şirket içi dağıtım ana sayfası
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,14 +36,14 @@ Bir Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü (şi
 - [Şirket içi dağıtımınızı planlama](plan-onprem-deployment.md)
 - [Şirket içi dağıtımlar için sistem gereksinimleri](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Şirket içi ortamlar için donanım boyutlandırma](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [Çevrimiçi hizmet ve şirket içi yazılım yaşam döngüsü ilkesi](../migration-upgrade/versions-update-policy.md)
 - [Dynamics 365 for Finance and Operations, Enterprise sürümü (şirket içi) satın alma](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [Bulut ve şirket içi özellik karşılaştırması](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Onboard
 - [Lifecycle Services'da şirket içi proje oluşturma](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Şirket içi ortamlar ayarlama ve dağıtma](setup-deploy-on-premises-environments.md)
-- [Şirket içi ortamlarda ağ yazıcısı cihazları yükleme](../analytics/install-network-printer-onprem.md)
+- [Şirket içi ortamlar ayarlama ve dağıtma (Platform güncelleştirmesi 12)](setup-deploy-on-premises-pu12.md)
+- [Şirket içi ortamlar ayarlama ve dağıtma (Platform güncelleştirmesi 8 ve 11)](setup-deploy-on-premises-pu8-pu11.md)
+- [Şirket içi ortamlara ağ yazıcısı cihazları kurma](../analytics/install-network-printer-onprem.md)
 - [Şirket içi bir dağıtım için SQL Server Reporting Services'ı konfigüre etme](../analytics/configure-ssrs-on-premises.md)
 - [Özel modeller geliştirme ve şirket içi ortamlara dağıtma](develop-deploy-custom-models-on-premises.md)
 

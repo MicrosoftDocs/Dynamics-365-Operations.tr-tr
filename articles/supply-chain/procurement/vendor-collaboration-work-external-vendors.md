@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: b56cf58f78e5b3ed9bdd0d88f85d31123ec63451
+ms.sourcegitcommit: 24a17d3734e39815684098f694a77e96cdbc1cfe
+ms.openlocfilehash: 2d879ee5a23e3263c9dce52f4732a2be74e60f8e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/07/2018
 
 ---
 

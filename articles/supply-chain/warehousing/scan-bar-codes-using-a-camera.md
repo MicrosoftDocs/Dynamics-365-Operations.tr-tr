@@ -18,14 +18,16 @@ ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ffbd853c15e479fc4350a19121f2aebcedda9854
-ms.openlocfilehash: 31b9d421f3fd5378f26faeee3a83b66861ef5008
+ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
+ms.openlocfilehash: f7fe3ab07578b09822fbfeaa4b07331b79f13610
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 
 ---
 
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Dynamics 365 for Finance and Operations - Ambarlama'da kamera kullanarak barkod tarama
+
+[!include[banner](../includes/banner.md)]
 
 Bu konuda, bir mobil cihazda kamera kullanarak barkodları taramak için Dynamics 365 for Finance and Operations – Ambarlama'nın nasıl kurulacağı açıklanmıştır. 
 
@@ -47,8 +49,8 @@ Kamera sayfası, giriş alanının Tarama'ya ayarlanmış tercih edilen giriş m
 - Kamera sayfasına dönmek için Görev ve ayrıntılar sayfasındaki kameraya tıklayın. 
 
 | Görev ve ayrıntılar sayfası | Kamera sayfası | 
-| --------------------- | -------------------- |
-| ![kamera-tarama-örnek-görev-ayrıntı-sayfa](media/camera-scanning-example-task-detail-page.png)          | ![kamera-tarama-örnek-kamera-sayfa](media/camera-scanning-example-camera-page.png)          |
+| :---------------------: | :--------------------: |
+| ![kamera-tarama-örnek-görev-ayrıntı-sayfa](./media/camera-scanning-example-task-detail-page50.png)          | ![kamera-tarama-örnek-kamera-sayfa-küçük](./media/camera-scanning-example-camera-page50.png)          |
 
 Kamera sayfasında, Kamera düğmesine tıkladığınızda, barkodu tanımlamaya çalışırken soluk görünür. Barkod 5 saniye içinde tanımlanmazsa işlem zaman aşımına uğrar ve Kamera düğmesi tekrar kullanılabilir olur. Ardından barkodu tekrar taramayı deneyebilirsiniz.
 

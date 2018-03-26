@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 221ce80cb7520f372f38859aa392b1d559448c81
+ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
+ms.openlocfilehash: 9c68cd0e1c214e22b8831e4f4a0c5d545387f982
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 
 ---
 
@@ -52,7 +52,7 @@ Her iki yardım konusuna ve görev kılavuzlarına, kullanmakta olduğun ürün�
 Bu konu, Yardım sistemini anlatır ve kuruluşunuz için özel belgeleri ve eğitim kaynaklarını nasıl oluşturabileceğinizi açıklar.
 
 > [!IMPORTANT]
-> **Görev kılavuzları** sekmesi Microsoft Dynamics 365 for Talent ve Microsoft Dynamics 365 for Retail için henüz kullanılabilir değildir. Bu işlevi gelecekteki bir sürümde etkinleştirmek için çalışıyoruz. Başlarken deneyimindeki Görev kılavuzları, temel işlevselliği kapsamak üzere kullanılabilir kalır. Yordamlama yardımı da docs.microsoft.com sitesinde, hem Retail hem Talen için kullanılabilir ([docs.microsoft.com/dynamics365/unified-operations](../../index.md).
+> **Görev kılavuzları** sekmesi Microsoft Dynamics 365 for Talent ve Microsoft Dynamics 365 for Retail için henüz kullanılabilir değildir. Bu işlevi gelecekteki bir sürümde etkinleştirmek için çalışıyoruz. Başlarken deneyimindeki Görev kılavuzları, temel işlevselliği kapsamak üzere kullanılabilir kalır. Yordamlama yardımı da docs.microsoft.com sitesinde, hem Retail hem Talen için kullanılabilir ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)).
 
 ## <a name="help-on-docsmicrosoftcom"></a>docs.microsoft.com adresindeki yardım
 
@@ -115,7 +115,7 @@ Daha fazla bilgi için lütfen katılımcı kılavuzumuza başvurun: https://git
 
 > [!NOTE]
 > Şu anda yalnızca İngilizce havuzlarımıza katılımları kabul edebiliyoruz.  
-> GitHub üzerinden bildirilen Sorunları kabul etmiyoruz. Lütfen içerik önerileri için çekme talebi kullandığınızdan emin olun. Özellik ve ürün geribildirimleri için en uygun yer Dynamics 365 Fikirler Portalıdır: https://ideas.dynamics.com/ideas/. 
+> GitHub üzerinden bildirilen Sorunları kabul etmiyoruz. Lütfen içerik önerileri için çekme talebi kullandığınızdan emin olun. Özellik ve ürün geribildirimleri için en uygun yer Dynamics 365 Fikirler Portalıdır: https://experience.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Görev kılavuzları
