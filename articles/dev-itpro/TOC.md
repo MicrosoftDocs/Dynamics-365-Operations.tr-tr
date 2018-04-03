@@ -1,7 +1,7 @@
 # [Dynamics 365 for Finance and Operations için geliştirme ve yönetim](index.md)
-# [Bulut dağıtımları için sistem gereksinimleri](../fin-and-ops/get-started/system-requirements.md)
-# [Şirket içi dağıtımlar için sistem gereksinimleri](../fin-and-ops/get-started/system-requirements-on-prem.md)
-# [Tanıtım verileri](../fin-and-ops/get-started/demo-data.md)
+# [Bulut dağıtımları için sistem gereksinimleri](../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json)
+# [Şirket içi dağıtımlar için sistem gereksinimleri](../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json)
+# [Tanıtım verileri](../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json)
 ## [Paketler ile tanıtım verileri oluşturma](data-entities/generate-demo-data-packages.md)
 
 
@@ -29,7 +29,7 @@
 ### [Model dışa ve içe aktarma](dev-tools/models-export-import.md)
 ### [Visual Studio'da meta veri arama](dev-tools/metadata-search-visual-studio.md)
 ### [Modeller](dev-tools/models.md)
-### [Dynamics 365 for Finance and Operations, Enterprise edition'da projeler](dev-tools/projects.md)
+### [Dynamics 365 for Finance and Operations'da Projeler](dev-tools/projects.md)
 ### [Visual Studio araç eklentileri](dev-tools/developer-tools-add-ins.md)
 ### [Model özelleştirmeyi kapatma ve işlevi kaldırma](dev-tools/lock-models.md)
 ### [Visual Studio geliştirme araçlarını güncelleştirme](dev-tools/update-development-tools.md)
@@ -114,7 +114,7 @@
 #### [Özelleştirme: katmanlama ve uzantılar](extensibility/customization-overlayering-extensions.md)
 ### Yenilikler
 #### [Genişletilebilirlik değişiklikleri Temmuz 2017](extensibility/changes-july-2017.md)
-#### [Dynamics 365 for Finance and Operations, Enterprise edition 7.3'te genişletilebilirlik değişiklikleri](extensibility/extensibility-changes-73.md)
+#### [Genişletilebilirlik değişiklikleri sürüm 7.3](extensibility/extensibility-changes-73.md)
 ### Temel bilgiler
 #### [Kullanışsız özelleştirmeler](extensibility/intrusive-customizations.md)
 #### [Sınıf uzantıları](extensibility/class-extensions.md)
@@ -163,16 +163,16 @@
 
 # [Kullanıcı arabirimi geliştirme](user-interface/user-interface-development-home-page.md)
 ## Eğitimler
-### [Kira Masrafı Türü formunu oluşturma](user-interface/build-rental-charge-type-form.md)
+### [Kira Masrafı Türü formu oluşturma](user-interface/build-rental-charge-type-form.md)
 ### [Müşteri formunu oluşturma](user-interface/build-customer-form.md)
 ### [Gezinti oluşturma](user-interface/build-navigation.md)
 ### [Çalışma alanı oluşturma](user-interface/build-workspace.md)
 ## Formlar
-### [Dynamics 365 for Finance and Operations, Enterprise edition'da gezinti](user-interface/page-navigation.md)
-### [Dynamics 365 for Finance and Operations, Enterprise edition'da düzen](user-interface/page-layout.md)
+### [Dynamics 365 for Finance and Operations'da Gezinme](user-interface/page-navigation.md)
+### [Dynamics 365 for Finance and Operations'da Düzen](user-interface/page-layout.md)
 ### [Simge yazı tipi](user-interface/symbol-font.md)
 ### [Özel modellere sahip test formları](user-interface/testing-forms-custom-patterns.md)
-### [Derin bağlantılar oluşturma ve kullanma](user-interface/create-deep-links.md)
+### [Ayrıntılı bağlantılar oluşturma ve kullanma](user-interface/create-deep-links.md)
 ### [Formlar, ürünler ve kontrollerde erişilebilirlik](user-interface/enable-accessibility.md)
 ### [Yardım alanını özelleştirme](user-interface/customize-field-help.md)
 ## Kontroller
@@ -489,12 +489,12 @@
 
 ## Bulut dağıtımı
 ### [Azure Resource Manager kullanmaya başlama](deployment/arm-onboarding.md)
-### [Azure ExpressRoute ve Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
+### [Azure ExpressRoute ve Dynamics 365 for Finance and Operations](deployment/expressroute.md)
 
 ## [Şirket içi dağıtım](deployment/on-premises-deployment-landing-page.md)
 ### [Şirket içine genel bakış](deployment/on-premises-overview.md)
 ### [Şirket içi dağıtımınız için planlama](deployment/plan-onprem-deployment.md)
-### [Donanım boyutlandırma](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
+### [Donanım boyutlandırma](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json)
 ### [Şirket içi proje oluşturma](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Şirket içi ortamları ayarlama ve dağıtma](deployment/setup-deploy-on-premises-environments.md)
 #### [Platform update 12 ile şirket içi ortamlar dağıtma](deployment/setup-deploy-on-premises-pu12.md)
@@ -507,7 +507,7 @@
 ### [Yerel aracıyı güncelleştirme](lifecycle-services/update-local-agent.md)
 ### [Ortamınızı yeniden yapılandırma](lifecycle-services/reconfigure-environment.md)
 ### [İstemci internet bağlantısı](user-interface/client-disconnected.md)
-### [Dynamics 365 for Finance and Operations, Enterprise şirket içi sürümünde sorun giderme](deployment/troubleshoot-on-prem.md)
+### [Dynamics 365 for Finance and Operations şirket içinde sorun giderme](deployment/troubleshoot-on-prem.md)
 
 ## Özel kod dağıtma
 ### [Dağıtılabilir paket oluşturma](deployment/create-apply-deployable-package.md)
@@ -527,7 +527,7 @@
 ### [AX 2012 yükseltmesi - Yükseltmeden sonra yapmanız gereken görevler](migration-upgrade/app-validation-process.md)
 ### [AX 2012 yükseltmesi - İşlev testi geçişi](migration-upgrade/upgrade-functional-validation.md)
 ### [AX 2012 yükseltmesi - Canlı yayın için hazırlanma](migration-upgrade/upgrade-go-live-prep.md)
-
+### [AX 2012 yükseltmesi - Hizmete alma](migration-upgrade/2012-upgrade-cutover.md)
 
 ### AX 2012'den yükseltmeyi etkileyen değişiklikler
 #### [Tek fiş ve para birimi yeniden değerleme yükseltmesi ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
@@ -584,11 +584,13 @@
 ### [Görev ayrımındaki çakışmaları tanımlama ve çözümleme](sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md)
 ### [Kullanıcıları güvenlik rollerine atama](sysadmin/tasks/assign-users-security-roles.md)
 
-## [Toplu işleme](sysadmin/batch-processing-overview.md)
+## [Toplu iş işleme](sysadmin/batch-processing-overview.md)
 ### [Toplu iş sunucusuna genel bakış](sysadmin/batch-server-overview.md)
 ### [Toplu iş oluşturma](sysadmin/tasks/create-batch-job.md)
 
-## [İyileştirme danışmanına ilişkin kurallar oluşturma](sysadmin/optimization-advisor.md)
+##  [En iyi duruma getirme danışmanına genel bakış](sysadmin/optimization-advisor-overview.md)
+### [En iyi duruma getirme danışmanına ilişkin kurallar oluşturma](sysadmin/create-rules-optimization-advisor.md)
+
 
 # Lifecycle Services
 ## [Lifecycle Services'a genel bakış](lifecycle-services/lcs.md)
@@ -701,10 +703,10 @@
 ## [Korumalı alan veritabanı yenilemesi isteme](database/database-refresh.md)
 
 # Destek
-## [Dynamics 365 for Finance and Operations, Enterprise edition ve Lifecycle Services için destek alma](lifecycle-services/lcs-support.md)
+## [Dynamics 365 for Finance and Operations ve Lifecycle Services için destek alma](lifecycle-services/lcs-support.md)
 ## [Premier destek bileti kaydetme](lifecycle-services/premier-support.md)
 ## [Dynamics Servis Mühendisliği takımına istek gönderme](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [Dynamics 365 for Finance and Operations, Enterprise edition için teknik destek ayarlama](lifecycle-services/support-experience.md) 
+## [Dynamics 365 for Finance and Operations için teknik destek ayarlama](lifecycle-services/support-experience.md) 
 ## [Planlı bakım aralığıyla ilgili SSS](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [Bulut işlemleri ve servis](lifecycle-services/cloud-operations-servicing.md)
 ## [Finance and Operations Destek deneyimlerini yönetme](lifecycle-services/cloud-powered-support-lcs.md)

@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 199a8961f782816c71e47f9e76e097c069fbf686
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: db8b2e87ad020dac16ec74f2fea62e445c38e116
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -43,7 +43,7 @@ Talent'ı şu görevleri gerçekleştirmek için kullanabilirsiniz:
 + Gündem, oturum ve yönerge içeren eğitim kursları hazırlayın, sağlayın ve analiz edin.
 
 > [!NOTE] 
-> Dynamics 365 for Talent, Dynamics 365 for Finance and Operations, Enterprise edition'da İnsan kaynaklarıyla yakından ilgilidir. Aynı işlev, iki üründe de görülebilir. Sonuç olarak, özellikle İnsan kaynaklarıyla ilgili konularda ürün adı Dynamics 365 for Finance and Operations, Enterprise edition, özellikle Talent ile ilgili konularda ise Dynamics 365 for Talent olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
+> Dynamics 365 for Talent, Dynamics 365 for Finance and Operations'da İnsan kaynaklarıyla yakından ilgilidir. Aynı işlev, iki üründe de görülebilir. Sonuç olarak, özellikle İnsan kaynaklarıyla ilgili konularda ürün adı Dynamics 365 for Finance and Operations, özellikle Talent ile ilgili konularda ise Dynamics 365 for Talent olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>İnsan kaynaklarınızı yönetmek için strateji geliştirme
 ---------------------------------------------------------

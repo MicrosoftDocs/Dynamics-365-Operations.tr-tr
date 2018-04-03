@@ -1,6 +1,6 @@
 ---
 title: "Tedarik zinciri yönetimi giriş sayfası"
-description: "Bu sayfa, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'ın tedarik zinciri yönetim özellikleri için yardım konularının ve diğer kaynakların bir listesini sağlar."
+description: "Bu sayfa, Microsoft Dynamics 365 for Finance and Operations'ın tedarik zinciri yönetim özellikleri için yardım konularının ve diğer kaynakların bir listesini sağlar."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 02/15/2018
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9e3551580cc03ebf62ec42283c5a9a885d8c8d8f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,9 +30,9 @@ ms.lasthandoff: 02/21/2018
 
 [!include[banner](includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'ın tedarik zinciri yönetim özellikleri için yardım konularının ve diğer kaynakların bir listesini sağlar. 
+Bu onu, Microsoft Dynamics 365 for Finance and Operations'ın tedarik zinciri yönetim özellikleri için yardım konularının ve diğer kaynakların bir listesini sağlar. 
 
-## <a name="whats-new-and-in-development"></a>Geliştirmedeki yenilikler
+## <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
 Yayımlanan ve geliştirilmekte olan yeni özellikleri görmek için <a href="https://roadmap.dynamics.com/">Dynamics 365 Yol Haritası</a> bölümüne gidin. 
 
 ## <a name="core-concepts-and-tasks"></a>Temel kavramlar ve görevler
@@ -106,7 +106,7 @@ Bu teknik konferans kayıtlarında Finance and Operations'ın önceki sürümün
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Maliyet muhasebesi uygulamalı laboratuvarları</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Yalın imalat: Teslim edilebilir miktar ve Kanban işi planlaması</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Maliyetlendirme tablosu kullanarak ürün reçetesi hesaplama</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ile kolaylaştırılan Ambar mobilitesi</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Microsoft Dynamics 365 for Finance and Operations ile kolaylaştırılan Ambar mobilitesi</a>
 
 ## <a name="elearning-courses"></a>e-Öğrenme kursları
 Microsoft Dynamics 365 for Finance and Operations eğitimi hakkında daha fazla bilgi için bkz. <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics Öğrenme Portalı</a>. (CustomerSource hesabı gerektirir) 
