@@ -3,8 +3,8 @@
 # Başlayın
 ## [Yenilikler veya değişenler](get-started/whats-new.md)
 ## [Dynamics 365 for Retail'i satın almadan önce](get-started/before-you-buy.md)
-## [Önizleme aboneliğine kaydolma](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
-## [Tanıtım ortamını dağıtma](../dev-itpro/deployment/deploy-demo-environment.md)
+## [Önizleme aboneliğine kaydolma](../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json)
+## [Tanıtım ortamını dağıtma](../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json)
 ## [Dağıtım seçenekleri](dev-itpro/choose-deployment.md)
 
 
@@ -46,8 +46,9 @@
 
 # Modern Point of Sale (MPOS) ve Cloud POS
 ## [Modern POS ile Cloud POS arasında seçim yapma](MPOS-or-CPOS.md)
-## [POS işlemleri](POS-operations.md)
+## [POS işlemleri, çevrimiçi ve çevrimdışı](pos-operations.md)
 ## [MPOS/CPOS'taki tanıtım verileri ekran düzenleri](demo-data.md)
+## [Satış Noktasında ürün ve müşteri aramaya genel bakış](POS-search-improvements.md)
 ## Donanım çevre birimleri
 ### [Perakende çevre birimlerine genel bakış](retail-peripherals-overview.md)
 ### [Microsoft tarafından test edilen POS donanımı çevre birimleri](microsoft-tested-pos-hardware-peripherals.md)
@@ -60,6 +61,7 @@
 ### [POS uygulaması ve kullanıcı dili ayarları](pos-application-user-language-settings.md)
 ### [MPOS için resimleri ayarlama](set-up-manage-images-retail-mpos.md)
 ## [Bilgi kodlarına genel bakış](info-codes-retail.md) 
+## [Serileştirilen ürünler için POS geliştirmeleri](serialized-inventory.md)
 ## Ürün önerileri
 ### [Kişiselleştirilmiş ürün önerilerine genel bakış](personalized-product-recommendations.md)
 ### [POS cihazına öneriler denetimi ekleme](add-recommendations-control-pos-screen.md)
@@ -97,6 +99,7 @@
 ## [Fiyat ayarlamaları ve iskontolar](price-adjustments-discounts.md)
 ## [Çakışan iskontolar için en uygun birleşimi belirleme](optimal-combination-overlapping-discounts.md)
 ## [Kanala özel iskontolar tanımlama](define-channel-specific-discounts.md)
+## [Perakende ürünler için iskontoları engelleme](prevent-discounts.md)
 ## [Perakende satışlar için kupon oluşturma](retail-coupons.md)
 
 # Ürünler ve alım satım
@@ -105,6 +108,7 @@
 ## [Özniteliklere ve öznitelik gruplarına genel bakış](attribute-attributegroups-lifecycle.md)
 ## [Öznitelikler oluşturma ve yönetme](create-manage-attributes.md)
 ## [Perakende ürünleri ayarlama](set-up-retail-products.md)
+## [Gelişmiş ürün ve kategori yönetimi](category-management-product-creation.md)
 ## [Ürün boyutları](../supply-chain/pim/product-dimensions.md)
 ## [Barkodlar ayarlama](set-up-bar-codes.md)
 ## [Barkod maskeleri ayarlama](set-up-bar-code-masks.md)
@@ -190,17 +194,18 @@
 # [Perakende geliştirme ve yönetimi](dev-itpro/dev-retail-home-page.md)
 
 ## Mimarlık
-### [Microsoft Dynamics 365 for Finance and Operations, Enterprise edition bileşenleri - Retail](retail-components.md)
+### [Microsoft Dynamics 365 for Finance and Operations bileşenleri - Retail](retail-components.md)
 ### [Retail Server mimarisi](dev-itpro/retail-server-architecture.md)
 ### [Perakende kanalı iletişimleri](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [MPOS mimarisi](dev-itpro/retail-modern-pos-architecture.md)
 ### [Çevrimiçi perakende mağazası yayımlama mimarisi](dev-itpro/retail-online-store-publishing-architecture.md)
-### [Perakende Kanalı Performansı Power BI içeriği](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [Perakende Kanalı Performansı Power BI içeriği](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json)
 ### [Ödeme Uygulaması Veri Güvenliği Standartları (PA-DSS) sertifikası](dev-itpro/PA-DSS-Certification.md)
+### [Şirket içi dağıtımlarda kullanılabilen perakende özellikleri](retail-onprem.md)
 
 ## Dağıtım ve düzeltmeler
-### [Perakende Mağaza Ölçeği Birimine genel bakış](dev-itpro/retail-store-system-begin.md)
-### [Perakende Mağaza Ölçeği Birimi yapılandırması ve yüklemesi](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+### [Retail Store Scale Unit'e genel bakış](dev-itpro/retail-store-system-begin.md)
+### [Retail Store Scale Unit yapılandırması ve yüklemesi](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Retail Modern POS yapılandırması ve yüklemesi](retail-modern-pos-device-activation.md)
 ### [Retail hesaplarını ve cihazlarını genel merkezden yönetme](set-up-activation-accounts-validate-devices-hq.md)
 ### [Retail POS cihazını etkinleştirme](dev-itpro/retail-device-activation.md)
@@ -208,7 +213,7 @@
 ### [Retail Donanım İstasyonu yapılandırması ve yüklemesi](retail-hardware-station-configuration-installation.md).
 ### [Retail self servis bileşenlerinin toplu dağıtımı](dev-itpro/retail-mass-deployment.md)
 ### [Tanılama ve sorun giderme için Retail bileşeni olayları](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
-### [Dağıtılabilir paket uygulama](../dev-itpro/deployment/apply-deployable-package-system.md)
+### [Dağıtılabilir paket uygulama](../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json)
 
 ## Yükseltme ve N-1 desteği
 ### [Yükseltme ve N-1 desteğine genel bakış](dev-itpro/overview-upgrade-n-minus1.md)
@@ -218,7 +223,7 @@
 ### [Cihaz yönetimi uygulama kılavuzu](implementation-considerations-devices.md)
 
 ## Ortam yapılandırması
-### [Kuruluşunuzun yasal koşullarına ve gizlilik bildirimine bağlantı ekleme](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
+### [Kuruluşunuzun yasal koşullarına ve gizlilik bildirimine bağlantı ekleme](../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json)
 ### [Bing Haritaları Yönetme](dev-itpro/manage-bing-maps.md)
 
 ## Satış noktası genişletilebilirliği
