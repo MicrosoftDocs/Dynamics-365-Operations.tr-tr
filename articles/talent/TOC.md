@@ -3,6 +3,8 @@
 # [Başlarken](talent-get-started.md)
 ## [Sistem gereksinimleri ve güncelleştirme ilkesi](talent-versions-update-policy.md)
 ## [Microsoft Dynamics 365 for Talent sağlama](provisioning-talent.md)
+## [Bir Talent ortamını kaldırma](remove-test-environment.md)
+## [Microsoft Dynamics 365 for Talent Modüler Uygulamaları sağlama](modular-app-tech-faq.md)
 ## [Talent işlevini genişletme](extend-talent-functionality.md)
 
 # [İnsan kaynakları stratejisi geliştirme](departments-jobs-positions.md)
@@ -39,5 +41,5 @@
 ## [Soru formunun sonuçlarını değerlendirme](evaluate-questionnaire-results.md)
 
 # Çalışma alanı güvenliği ve uyumluluğu (ABD)
-## [Form I-9 istihdamı doğrulama](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
-## [ADA ile uyumluluk](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
+## [Form I-9 istihdamı doğrulama](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json)
+## [ADA ile uyumluluk](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json)

@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 for Finance and Operations, Enterprise edition Belgeleri
-description: Microsoft Dynamics 365 for Finance and Operations, Enterprise edition belgeleri.
+title: Microsoft Dynamics 365 for Finance and Operations Belgeleri
+description: Microsoft Dynamics 365 for Finance and Operations Belgeleri.
 author: margoc
 manager: AnnBe
 ms.date: 03/02/2018
@@ -17,17 +17,17 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7142c6bcb6e98929afdb8bb982a17efc7223ab12
-ms.openlocfilehash: 0d12082a2b10ae8e83217c5451627239e6ec640b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: d1307729945494ee78c0ca6089b384d666fe5f20
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
 # <a name="introduction-to-microsoft-dynamics-365-for-finance-and-operations"></a>Microsoft Dynamics 365 for Finance and Operations tanıtımı
 [!include[banner](includes/banner.md)]
 
-Son kullanıcılar, geliştirmeciler ve BT uzmanları için harika içeriklere ulaşmak isterseniz aşağıdaki kaynakları kullanarak Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'ı işletmenizde nasıl kullanacağınızı öğrenin. 
+Son kullanıcılar, geliştirmeciler ve BT uzmanları için harika içeriklere ulaşmak isterseniz aşağıdaki kaynakları kullanarak Microsoft Dynamics 365 for Finance and Operations'ı işletmenizde nasıl kullanacağınızı öğrenin. 
 
 Bu içeriğin çoğu ilgili ürünler için de geçerlidir: Microsoft Dynamics 365 for Retail ve Microsoft Dynamics 365 for Talent. 
 
@@ -83,7 +83,7 @@ Bu içeriğin çoğu ilgili ürünler için de geçerlidir: Microsoft Dynamics 3
 
 </td>
 <td>
-<h3><a href="../dev-itpro/analytics/bi-reporting-home-page.md">Karar desteği</a></h3>
+<h3><a href="../dev-itpro/analytics/bi-reporting-home-page.md">Zeka</a></h3>
 <p><a href="../dev-itpro/analytics/analytics.md">Analiz</a></p>
  <p><a href="../dev-itpro/analytics/document-reporting-services.md">İş belgeleri</a></p>
 <p><a href="../dev-itpro/analytics/financial-reporting-intro.md">Mali raporlama</a></p>

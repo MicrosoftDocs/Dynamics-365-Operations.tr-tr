@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 40d54a9a2920e87caba62c92b5ca6465fa68e3d4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 164932ac3bc701696f5c0b08c5e2d585d9a8ba6a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/08/2018
 Microsoft Dynamics 365 for Retail, tüm kanallarda birleştirilmiş ticaret olanağı sunan uçtan uca bir perakende çözümüdür. Perakendeciler ve çalışanların bulut öncelikli, mobil öncelikli bir tarzda daha fazlasını başarmalarına yardımcı olmak için satış, hareketlilik, karar destek ve üretkenliği kapsar. Retail, alım satım, stok gibi geniş bir işletme süreçleri ve kanal yönetim yetenekleri yelpazesini yürütmek için kapsamlı destek sunar. Ayrıca tüm temas noktalarında kapsayıcı müşteri deneyimleri sağlar.
 
 > [!NOTE] 
-> Dynamics 365 for Retail; Dynamics 365 for Finance and Operations, Enterprise edition ve Dynamics 365 for Talent ile yakından ilgilidir. Aynı işlev her üç üründe de görülebilir. Bu nedenle birincil olarak Retail ile ilgili konularda ürün adı Microsoft Dynamics 365 for Retail; birincil olarak temel ürün (Finance and Operations) ile ilgili olan konularda ürün adı Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ve birincil olarak insan kaynakları ile ilgili konularda ürün adı Dynamics 365 for Talent olacaktır. 
+> Dynamics 365 for Retail; Dynamics 365 for Finance and Operations ve Dynamics 365 for Talent ile yakından ilgilidir. Aynı işlev her üç üründe de görülebilir. Bu nedenle birincil olarak Retail ile ilgili konularda ürün adı Microsoft Dynamics 365 for Retail; birincil olarak temel ürün (Finance and Operations) ile ilgili olan konularda ürün adı Microsoft Dynamics 365 for Finance and Operations ve birincil olarak insan kaynakları ile ilgili konularda ürün adı Dynamics 365 for Talent olacaktır. 
 
 Soldaki bölmede, bir özellik alanı seçerek özellik hakkında daha fazla bilgi edinebilirsiniz.
 
@@ -52,7 +52,7 @@ Retail Modern satış noktası (MPOS) ve Bulut POS'ta geniş bir donanım çevre
 
 Retail için Çevre birimi benzeticisi sanal bir çevre birimi benzeticisi ile bir POS benzeticisi içerir. Sanal çevre birimi benzeticisi genellikle fiziksel POS çevre birimi cihazlarını gerektiren senaryoların test edilmesini özellikle destekler. POS benzeticisi Retail ile fiziksel çevre birimi cihazlarının uyumluluğunu POS istemcisini dağıtmak zorunda kalmadan test etmenizi sağlar.
 
-## <a name="intelligence"></a>Karar desteği
+## <a name="intelligence"></a>Zeka
 Gelişmiş analiz perakende zorlukları için makine öğreniminin gücünü getirir ve büyüme ile karlılığa yönelmeye yardımcı olan öngörücü, optimize edilmiş ve kişiselleştirilmiş bilgiler sağlar. Retail ister çevrimiçi ister çevrimdışı olsun her cihazda görsel raporlar sunmanızı sağlar. Ayrıca, müşterilerin satınalma zamanından önce ihtiyaçlarını karşılayan ürünleri ve hizmetleri tanımlamasına yardımcı olur.
 
 ## <a name="monitoring-and-diagnosis"></a>İzleme ve tanı
@@ -75,7 +75,7 @@ Ortamınızı özelleştirmeniz istendiğinde veya sisteminizin dağıtımı ve 
 - [Dynamics 365 for Finance and Operations için Geliştirme ve Yönetim](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>Ek kaynaklar
-### <a name="whats-new-and-in-development"></a>Geliştirmedeki yenilikler
+### <a name="whats-new-and-in-development"></a>Yenilikler ve geliştirilen özellikler
 Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) bölümüne gidin.
 
 ### <a name="blogs"></a>Bloglar

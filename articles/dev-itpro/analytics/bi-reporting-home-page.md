@@ -1,6 +1,6 @@
 ---
-title: "Karar desteği"
-description: "Bu konu sizi Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da bulunan karar desteği ve raporlama araçları hakkında bilgi edinmek için kullanabileceğiniz kaynaklara yönlendirir."
+title: Zeka
+description: "Bu konu sizi Microsoft Dynamics 365 for Finance and Operations'da bulunan iş zekası ve raporlama araçları hakkında bilgi edinmek için kullanabileceğiniz kaynaklara yönlendirir."
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
@@ -18,23 +18,23 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 14a18681a98a2efbf6e3cfdbe77d282e74374c71
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
-# <a name="intelligence"></a>Karar desteği
+# <a name="intelligence"></a>Zeka
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu sizi Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da bulunan karar desteği (BI) ve raporlama araçları hakkında bilgi edinmek için kullanabileceğiniz kaynaklara yönlendirir.
+Bu konu sizi Microsoft Dynamics 365 for Finance and Operations'da bulunan iş zekası (BI) ve raporlama araçları hakkında bilgi edinmek için kullanabileceğiniz kaynaklara yönlendirir.
 
 ## <a name="get-started"></a>Başlayın
 - [Bilgi erişimi ve raporlama](information-access-reporting.md)
 - [Teknik Sohbet: Raporlama seçenekleri](https://www.youtube.com/watch?v=NzZONjKs5xA) (video)
-- [Finance and Operations: Karar desteği](https://blogs.msdn.microsoft.com/dynamicsaxbi/) (blog)
+- [Finance and Operations: İş zekası](https://blogs.msdn.microsoft.com/dynamicsaxbi/) (blog)
 
 ## <a name="analytical-workspaces"></a>Analitik çalışma alanları
 Finance and Operations, uygulama çalışma alanları ile sorunsuz bir şekilde tümleştirilmiş etkileşimli raporlar sağlar. Çalışma alanlarında Microsoft Power BI'nın desteklediği zengin infografikler ve görseller kullanılabilir. Bu infografikler ve görseller üçüncü tarafların sağladığı pek çok denetim içerir. Bu nedenle, çalışma alanları kullanıcılara oldukça görsel ve etkileşimli bir deneyim sunabilir.
