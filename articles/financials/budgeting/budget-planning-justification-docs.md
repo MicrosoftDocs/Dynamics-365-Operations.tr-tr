@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b033f6197e61a6030e12081a9e4f1d820bac458f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c4ac839e69440c8d3f1e86007a074999189e391d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ Bir bütçe planı şablonu, bütçe yöneticisi tarafından Microsoft Word içe
 
 1.  Microsoft Dynamics Office Ekletisi'ne oturum açtıktan sonra **Tasarım**'ı tıklatın.
 2.  Başlık bilgisi için **Alanlar ekle** düğmesini kullanın.
-3.  BudgetPlanJustification varlık veri kaynağını seçin ve **İleri**'yi tıklatın. **Not:** Bu varlık tüm gerekçe belgeleri için gereklidir. Diğer varlıklar da kullanılabilir ancak bu varlık dahil edilmemişse Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'a geri yüklerken başarısız olur.
+3.  BudgetPlanJustification varlık veri kaynağını seçin ve **İleri**'yi tıklatın. **Not:** Bu varlık tüm gerekçe belgeleri için gereklidir. Diğer varlıklar da kullanılabilir ancak bu varlık dahil edilmemişse Microsoft Dynamics 365 for Finance and Operations'a geri yükleme başarısız olur.
 4.  BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter ve DocumentNumber etiketlerini ve değerlerini Word dosyasına ekleyin. **Not:** Gerekirse standart etiketler yerine kendi özel etiketlerinizi kullanabilirsiniz.
 5.  Başlık bölümünü tamamlamak için **Tamam**'ı tıklatın.
 6.  Bütçe planı tutarlarının satır düzeyi ayrıntıları için **Tablo ekle**'yi tıklatın.

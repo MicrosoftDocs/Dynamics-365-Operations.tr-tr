@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7de5fbcaa9f287752e3ae4834eb48d622d263579
-ms.openlocfilehash: 890f035a291dbec936594ceeabc5de284d160ad4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a1ccd440353e986d296de370506fb1951331e2cf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/25/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için diğer bileşenlerin yapılandırmalarının bağımlılığını tanımlama
@@ -28,7 +28,7 @@ ms.lasthandoff: 10/25/2017
 
 Bu adımları tamamlamak için önce ER Model eşleme yapılandırmalarını yönet görev kılavuzundaki adımları tamamlamalı ve Microsoft Dynamics Lifecycle Services (LCS) üzerinde erişim sahibi olmanız gerekir.
 
-Bu yordam, bir Elektronik raporlama (ER) yapılandırmasının nasıl tasarlanacağını ve diğer yazılım bileşenlerine olan bağımlılıklarını nasıl belirtileceğini gösterir; bu sayede yapılandırmanı belirli bir Microsoft Dynamics 365 for Finance and Operations, Enterprise edition sürümüne doğru şekilde indirildiğinden emin olmaya yardımcı olabilirsiniz. Bu örnekte, Litware, Inc. adlı örnek şirket için gerekli ER yapılandırmalarını oluşturacaksınız. 
+Bu yordam, bir Elektronik raporlama (ER) yapılandırmasının nasıl tasarlanacağını ve diğer yazılım bileşenlerine olan bağımlılıklarını nasıl belirtileceğini gösterir; bu sayede yapılandırmanı belirli bir Microsoft Dynamics 365 for Finance and Operations sürümüne doğru şekilde indirildiğinden emin olmaya yardımcı olabilirsiniz. Bu örnekte, Litware, Inc. adlı örnek şirket için gerekli ER yapılandırmalarını oluşturacaksınız. 
 
 Bu yordam Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne atanmış kullanıcılar içindir. Adımlar, ER yapılandırmaları şirketler arasında paylaşıldığı için herhangi bir şirkette gerçekleştirilebilir. 
 

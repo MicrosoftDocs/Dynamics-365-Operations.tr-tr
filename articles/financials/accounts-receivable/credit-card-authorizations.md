@@ -1,6 +1,6 @@
 ---
 title: "Kredi kartı ayarlama, onaylama ve tutma"
-description: "Bu makale, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da kredi kartı onayına genel bakışı sağlar. Nasıl ödeme hizmeti ayarlanacağı, satış emrine kredi kartı ekleneceği ve yetkilendirme iptal edileceğine dair bilgiler içerir."
+description: "Bu makale, Microsoft Dynamics 365 for Finance and Operations'ta kredi kartı onayına genel bir bakış sağlar. Nasıl ödeme hizmeti ayarlanacağı, satış emrine kredi kartı ekleneceği ve yetkilendirme iptal edileceğine dair bilgiler içerir."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 40d636cac477871f094286d29edc32cd5616ad44
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4a6354563fdebff901498f1cd6caed3aedae668b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Bu makale, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da kredi kartı onayına genel bakışı sağlar. Nasıl ödeme hizmeti ayarlanacağı, satış emrine kredi kartı ekleneceği ve yetkilendirme iptal edileceğine dair bilgiler içerir.
+Bu makale, Microsoft Dynamics 365 for Finance and Operations'ta kredi kartı onayına genel bir bakış sağlar. Nasıl ödeme hizmeti ayarlanacağı, satış emrine kredi kartı ekleneceği ve yetkilendirme iptal edileceğine dair bilgiler içerir.
 
 <a name="setting-up-the-credit-card-payment-service"></a>Kredi kartı ödeme hizmeti ayarlama
 ------------------------------------------

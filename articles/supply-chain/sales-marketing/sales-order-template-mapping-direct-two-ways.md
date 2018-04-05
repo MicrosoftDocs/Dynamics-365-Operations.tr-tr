@@ -1,6 +1,6 @@
 ---
 title: "Sales ile Finance and Operations arasında satış siparişlerini doğrudan eşitleme"
-description: "Bu konu, satış siparişlerini doğrudan Microsoft Dynamics 365 for Sales ile Microsoft Dynamics 365 for Finance and Operations, Enterprise edition arasında eşitlemek için temel görevleri ve şablonları açıklar."
+description: "Bu konu, satış siparişlerini doğrudan Microsoft Dynamics 365 for Sales ile Microsoft Dynamics 365 for Finance and Operations arasında eşitlemek için temel görevleri ve şablonları açıklar."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/13/2018
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 0928f9c0af52c2e19f0669841e433423ae9db467
-ms.openlocfilehash: 09c5cd14c5948818878d3f830639abc166d7072e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e26244ffc380291a40edfbd2c2cb5911b0d8b3cb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, satış siparişlerini doğrudan Microsoft Dynamics 365 for Sales ile Microsoft Dynamics 365 for Finance and Operations, Enterprise edition arasında eşitlemek için temel görevleri ve şablonları açıklar.
+Bu konu, satış siparişlerini doğrudan Microsoft Dynamics 365 for Sales ile Microsoft Dynamics 365 for Finance and Operations arasında eşitlemek için temel görevleri ve şablonları açıklar.
 
 ## <a name="templates-and-tasks"></a>Şablonlar ve görevler
 

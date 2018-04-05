@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2ba38ddc5c717df29462e4316dc5045d0eef8c1a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6403aabb6b029807b42ab1ccb11756dcb0dda5dc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -96,7 +96,7 @@ Erişim listesi hiyerarşisi için ayarlar, aşağıdaki alanlarda gösterilen v
 - Microsoft Power BI:
 
     - Veri, Power BI görselleştirmeleri içinde gösterilir
-    - Microsoft Dynamics 365 for Finance and Operations, Enterprise edition istemcisinde gömülü veri Power BI görselleştirmeleri
+    - Microsoft Dynamics 365 for Finance and Operations istemcisinde gömülü veri Power BI görselleştirmeleri
 
 > [!IMPORTANT]
 > - Erişim listesi hiyerarşisi Power BI içerisindeki veriyi etkileyebilmeden önce, Power BI içindeki Erişim listesi hiyerarşisi ve satır düzeyi güvenliği eşleştirilmelidir. Daha fazla bilgi için bkz [Maliyet muhasebesi İçerik Paketi için güvenlik kurma](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).

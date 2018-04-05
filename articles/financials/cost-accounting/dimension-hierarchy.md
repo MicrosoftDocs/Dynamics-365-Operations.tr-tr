@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d183654ada9cdca23cf906f250988a967ffcf1f6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -156,7 +156,7 @@ Raporlama için boyut hiyerarşisi burada gösterildiği gibi ayarlanabilir.
 |&nbsp;&nbsp;Değişken maliyet | 40001                     | 40010                   |
 
 > [!NOTE]
-> **Boyut üye aralığı** altında, bir düğüm 1:_n_ boyut üye aralığı içerebilir. Henüz boyut üyeleri olarak mevcut olmayan boyut üye kodları ekleyebilirsiniz. Bu yaklaşım hiyerarşiyi geleceğe yönelik esnek yapar.  
+> **Boyut üyesi aralıkları** altında, bir düğüm 1:_n_ boyut üye aralığı içerebilir. Henüz boyut üyeleri olarak mevcut olmayan boyut üye kodları ekleyebilirsiniz. Bu yaklaşım hiyerarşiyi geleceğe yönelik esnek yapar.  
 
 ### <a name="copy-a-hierarchy"></a>Bir hiyerarşiyi kopyala
 
@@ -329,7 +329,7 @@ Erişim listesi hiyerarşisi için ayarlar, aşağıdaki alanlarda gösterilen v
 - Power BI:
 
     - Veri, Power BI görselleştirmeleri içinde gösterilir
-    - Microsoft Dynamics 365 for Finance and Operations, Enterprise edition istemcisinde gömülü veri Power BI görselleştirmeleri
+    - Microsoft Dynamics 365 for Finance and Operations istemcisinde gömülü veri Power BI görselleştirmeleri
 
 > [!NOTE] 
 > - Erişim listesi hiyerarşisi Power BI içerisindeki veriyi etkileyebilmeden önce, Power BI içindeki erişim listesi hiyerarşisi ve satır düzeyi güvenliği eşleştirilmelidir. Daha fazla bilgi için bkz [Maliyet muhasebesi İçerik Paketi için güvenlik kurma](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).

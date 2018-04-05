@@ -1,6 +1,6 @@
 ---
 title: "Bütçelemeye genel bakış"
-description: "Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içerisinde Finansal işlevleri kullanan hemen her şirket, bütçe - fiili karşılaştırma raporlarını oluşturmak zorunda olacaktır. Bu makale, Finance and Operations, Enterprise edition içerisinde bütçeler oluşturmak veya bunları bir üçüncü taraf programdan yüklemek için gereken asgari yapılandırmayı açıklar."
+description: "Microsoft Dynamics 365 for Finance and Operations içerisinde Finansal işlevleri kullanan hemen her şirket, bütçe - fiili karşılaştırma raporlarını oluşturmak zorunda olacaktır. Bu makale, Finance and Operations içerisinde bütçeler oluşturmak veya bunları bir üçüncü taraf programdan yüklemek için gereken asgari yapılandırmayı açıklar."
 author: twheeloc
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8e8b3a7e801e98929c4ba1b9fefe341abd91dbd4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1d768ee6d2244a237972f7183f27a60b93eea819
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içerisinde Finansal işlevleri kullanan hemen her şirket, bütçe - fiili karşılaştırma raporlarını oluşturmak zorunda olacaktır. Bu makale, Finance and Operations içerisinde bütçeler oluşturmak veya bunları bir üçüncü taraf programdan yüklemek için gereken asgari yapılandırmayı açıklar.
+Microsoft Dynamics 365 for Finance and Operations içerisinde Finansal işlevleri kullanan hemen her şirket, bütçe - fiili karşılaştırma raporlarını oluşturmak zorunda olacaktır. Bu makale, Finance and Operations içerisinde bütçeler oluşturmak veya bunları bir üçüncü taraf programdan yüklemek için gereken asgari yapılandırmayı açıklar.
 
 <a name="overview"></a>Özet
 --------
@@ -42,7 +42,7 @@ Finance and Operations içerisinde bütçe kayıt girişleri oluşturmak için b
 
 -   Belge bilgilerini **bütçe kayıt girişleri** sayfasına el ile girin.
 -   **Bütçe kayıt girişleri** sayfasında **Excel'de aç** düğmesini tıklatarak açabileceğiniz Microsoft Excel şablonunu kullanın.
--   Bütçe kayıt girişlerini almak için Veri yönetiminde **Bütçe Hesabı Girişleri** veri varlığını kullanın. Bu yöntemi kullanmayı ve bütçe hesabı girişlerini sisteme almanız gerektiğinde **Ayarlama tabanlı** **işlem **parametresini kullanmayı düşünmelisiniz.
+-   Bütçe kayıt girişlerini almak için Veri yönetiminde **Bütçe Hesabı Girişleri** veri varlığını kullanın. Bu yöntemi kullanmayı ve bütçe hesabı girişlerini sisteme almanız gerektiğinde **Ayarlama tabanlı** **işlem** parametresini kullanmayı düşünmelisiniz.
 -   Şirket bütçe verileri hazırlamak için bütçe planlama işlevini kullanıyorsa, **bütçe kayıt girdisi oluşturur** dönemsel işlemini kullanabilirsiniz.
 
 Bütçe kayıt girişi, bütçe bakiyeleri güncelleştirildiğinde tamamlandı olarak kabul edilir. **Bütçe kayıt girişleri** sayfası üzerinde, seçilen bir bütçe kaydı girişi veya birden fazla giriş için **Bütçe bakiyelerini güncelleştir**'i tıklatın. Bütçe bakiyelerini güncelleştirdikten sonra, bütçe kayıt girişi değişiklikleri durumu **Tamamlandı** olarak değişir. Tamamlanan bütçe kayıt girişi düzenleme için yeniden açılamaz. Bu nedenle, bütçe verilerini ayarlanmalıysa, tamamlanan bütçe kayıt giriş verileri düzeltmek yerine yeni bir bütçe kayıt girişi oluşturmanız gerekir.
@@ -54,7 +54,7 @@ Sonra, bütçe kayıt girişleri onayını yöneten ilkeler varsa, bütçe tür�
 
 **Bütçeleme boyutları** sayfasında, hesap planında kullanılan boyutlara göre, bütçeleme için kullanılan mali boyutları seçmeniz gerekir. Tüm mali boyutları veya bunların alt kümelerini bütçeleme için seçebilirsiniz.
 
-Tüm veya bazı bütçelere karşılık gelen bir *bütçe modeli *tanımlayın. tüm bütçe kayıt girişleri için tek bir bütçe modeli kullanabilirsiniz. Alternatif olarak, bütçe türü, coğrafi konumu veya bütçenin sınıflandırılabildiği başka bir yolla dayalı ayrı modeller oluşturabilirsiniz. 
+Tüm veya bazı bütçelere karşılık gelen bir *bütçe modeli* tanımlayın. tüm bütçe kayıt girişleri için tek bir bütçe modeli kullanabilirsiniz. Alternatif olarak, bütçe türü, coğrafi konumu veya bütçenin sınıflandırılabildiği başka bir yolla dayalı ayrı modeller oluşturabilirsiniz. 
 
 > [!NOTE] 
 > Bütçe denetimi kullanılırsa, tek bir bütçe modeli belirli bir bütçe döngüsü zaman aralığıyla ilişkilendirebilirsiniz. 

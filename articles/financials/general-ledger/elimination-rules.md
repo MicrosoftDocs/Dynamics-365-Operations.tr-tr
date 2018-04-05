@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 818572a8d1f790aaa7c6e4befc1d2222a1c35c50
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 882b8f21be94b8cbb0c162c965ffc129b47d7edf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -132,7 +132,7 @@ Tüzel kişiliğiniz (A tüzel kişiliği) kuruluşunuzdaki başka bir tüzel ki
 Tüm bu hareketler, borç ve alacak hesaplarına nakledilen şirketlerarası hareketleri oluşturur. Ayrıca bu hareketler, şirketlerarası satış ve satılan malların maliyeti eşit olmadığı zaman artırma ve azaltma tutarlarını da içerebilir.
 
 ## <a name="set-up-elimination-rules"></a>Eliminasyon kurallarını ayarlama
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içinde eleme kuralları ayarlanırken, eleme amaçlı ayrı bir mali boyut oluşturmanızı öneririz. Müşterilerin çoğu buna Ticaret Ortağı veya benzer bir ad verirler. Bir mali boyut kullanmamaya karar verirseniz, yalnızca şirketlerarası harektelere özel bir ana hesaba sahip olduğunuzdan emin olun. 
+Microsoft Dynamics 365 for Finance and Operations içinde eleme kuralları ayarlanırken eleme amaçlı ayrı bir mali boyut oluşturmanızı öneririz. Müşterilerin çoğu buna Ticaret Ortağı veya benzer bir ad verirler. Bir mali boyut kullanmamaya karar verirseniz, yalnızca şirketlerarası harektelere özel bir ana hesaba sahip olduğunuzdan emin olun. 
 
 Elemeler için kurulum, Konsolidasyonlar modülünün kurulum alanında bulunur. Bir kural için bir açıklama girdikten sonra, eleme günlüğünün nakledeceği şirketi seçmeniz gerekir. Bu, Tüzel varlık kurulumunda **Mali eleme sürecini kullan**'ın seçilmiş olduğu bir şirket olmalıdır. 
 

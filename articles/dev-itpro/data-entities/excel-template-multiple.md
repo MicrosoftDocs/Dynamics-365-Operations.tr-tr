@@ -1,6 +1,6 @@
 ---
 title: "Birden çok çalışma sayfası olan Excel veri varlığı şablonlarından içeri veri aktarma"
-description: "Bu konuda, verilerin Excel veri varlığı şablonları kullanılarak Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'a nasıl aktarılacağı açıklanmaktadır."
+description: "Bu konuda, verilerin Excel veri varlığı şablonları kullanılarak Microsoft Dynamics 365 for Finance and Operations'a nasıl aktarılacağı açıklanmaktadır."
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
@@ -18,10 +18,10 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: b314a649829dd14a525923802e19b847dc5a115e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2aefea9373df20bd3e99026e30aed096dcea9814
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/27/2018
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da veri yönetimi veri varlıkları için Microsoft Excel tabanlı şablonları destekler. Bu şablonlar, bir veya daha fazla çalışma sayfası içerebilir. Birden çok çalışma sayfası içeren şablonlar genellikle verileri tek bir dosyada yönetmek ve dosyayı birden çok veri varlığına aktarmak uygun olduğunda kullanılır. Tesisler ve ambarlar bir örnek olabilir.
+Microsoft Dynamics 365 for Finance and Operations'da veri yönetimi veri varlıkları için Microsoft Excel tabanlı şablonları destekler. Bu şablonlar, bir veya daha fazla çalışma sayfası içerebilir. Birden çok çalışma sayfası içeren şablonlar genellikle verileri tek bir dosyada yönetmek ve dosyayı birden çok veri varlığına aktarmak uygun olduğunda kullanılır. Tesisler ve ambarlar bir örnek olabilir.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>Önce bir dosya yükleyin ve bunu tüm varlıklarla eşleştirin
 **Tesisler** ve **Ambarlar** adlı çalışma sayfaları içeren bir Excel dosyasının kullanıldığı bir örneği ele alalım. Veri içe aktarma projesini ayarlamak için öncelikle **Tesisler** veri varlığını ekler ve sonra dosyayı karşıya yüklersiniz. Bu varlık için kullanılacak çalışma sayfası olarak **Tesisler**'i seçebilirsiniz.

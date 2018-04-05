@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: b2514b6ff7500863a312ee378be008a7dcfb7438
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3eb642944a31aad983758fc28bc692800bb6b4d2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent kullanmaya başlama
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/08/2018
 Microsoft Dynamics 365 for Talent'ta kullanıcı arabirimini değiştirmek ve seçenekleri yazılımı ihtiyaçlarınızı en iyi şekilde karşılayacak şekilde ayarlamak kolaydır. Bu konu, kullanıcı arabirimini nasıl tercihlerinize uygun hale getirebileceğinizle ilgili bilgiler sunan konulara bağlantılar içerir. Bu konu ayrıca sistem içinde bilgileri etkin ve doğru şekilde bulmanıza yardımcı olabilecek bilgiler de içerir. 
 
 > [!NOTE] 
-> Aşağıdaki ürünler yakından ilişkilidir: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail ve Dynamics 365 for Talent. Aynı işlev, her 3 üründe de görülebilir. Sonuç olarak, Perakende ile ilişkili olan konularda, ürün adı Dynamics 365 for Retail olacaktır; öncelikli olarak Talent ile ilgili konularda, ürün adı Dynamics 365 for Talent olacaktır ve temel ürünle ilgili konularda, ürün adı Dynamics 365 for Finance and Operations olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
+> Aşağıdaki ürünler yakından ilişkilidir: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail ve Dynamics 365 for Talent. Aynı işlev, her 3 üründe de görülebilir. Sonuç olarak, Perakende ile ilişkili olan konularda, ürün adı Dynamics 365 for Retail olacaktır; öncelikli olarak Talent ile ilgili konularda, ürün adı Dynamics 365 for Talent olacaktır ve temel ürünle ilgili konularda, ürün adı Dynamics 365 for Finance and Operations olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
 
 ### <a name="personalizing-talent"></a>Talent'ı kişiselleştirme 
 Aşağıda konular Dynamics 365 for Talent'ta bulunan ve işinizi zamanında kolayca tamamlamanızı sağlayan birçok özelliği nasıl ayarlayabileceğinizi göstermektedir. 

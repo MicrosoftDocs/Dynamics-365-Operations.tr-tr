@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1212a46cc937b9ccc6ebfa9cc4b89b931f144130
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c7de1d7e57a2a32c339bc576f929958b9de91fcc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Bu makalede, proje aşamasının ilk adımı olarak müşteriye cazip bir teklif sunmak için kullanabileceğiniz proje teklifleri kavramı tanıtılmaktadır. Proje teklifi, teklif edilecek madde ve hizmetleri, temel iletişim bilgilerini, özel ticari anlaşma ve iskontoları ve olası vergi ve ek talepleri içerebilir. 
 
-Tekliflere ve siparişlere ait potansiyel satışları izleme, gözden geçirme ve kontrol etme yeteneği proje yönetiminin önemli bir parçasıdır. Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümündeki birçok araç bu görevlere yardımcı olabilir. Örneğin doğru referans veri tanımları (teklif tipleri, teklif kaynağı ve teşhis ve olasılık) potansiyel satışları analiz etmenizi sağlar. Bir proje teklifinin kazanılma veya kaybedilme nedenlerini kategorize etmek ve bir teklifin potansiyel değerini belirlemek için bu araçları kullanabilirsiniz. 
+Tekliflere ve siparişlere ait potansiyel satışları izleme, gözden geçirme ve kontrol etme yeteneği proje yönetiminin önemli bir parçasıdır. Microsoft Dynamics 365 for Finance and Operations'ta bulunan çeşitli araçlar, bu görevlerde yardımcı olabilir. Örneğin doğru referans veri tanımları (teklif tipleri, teklif kaynağı ve teşhis ve olasılık) potansiyel satışları analiz etmenizi sağlar. Bir proje teklifinin kazanılma veya kaybedilme nedenlerini kategorize etmek ve bir teklifin potansiyel değerini belirlemek için bu araçları kullanabilirsiniz. 
 
 Bir proje teklifinde proje için hizmetleri, temel kişi bilgilerini, özel ticari anlaşmaları ve iskontoları ve tahmini vergiler ve ek talepleri girin. Ayrıca bir proje için etkinlikleri veya görevleri seçebilir ve görevlerin ve alt görevlerin bir hiyerarşisini oluşturabilirsiniz. Her bir etkinlik için zamanlama ve etkinlik süresi ve faaliyeti gerçekleştirecek çalışanların sahip olmaları gereken beceri ve deneyimler hakkında ayrıntılar girebilirsiniz. 
 

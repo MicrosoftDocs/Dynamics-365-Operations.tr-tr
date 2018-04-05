@@ -1,6 +1,6 @@
 ---
 title: "Bütçe planlama"
-description: "Bu laboratuvarın amacı, Bütçe planlama alanındaki Microsoft Dynamics 365 for Finance and Operations, Enterprise edition işlevi güncelleştirmelerine ilişkin rehber eşlikli bir görünüm sağlamaktır. Bu laboratuvarın amacı, bütçe planlama modülü yapılandırmasının hızlı bir örneğini ve bu yapılandırmayla bütçe planlamanın nasıl tamamlanabileceğini göstermektir.  Bu laboratuvar özellikle aşağıdaki iş süreçlerine veya görevlere odaklanmaktadır: -    - Bütçe planlama için kuruluş hiyerarşisi oluşturma ve kullanıcı güvenliğini yapılandırma   - Bütçe planı senaryoları, bütçe planı sütunları, yerleşimleri ve Excel şablonları tanımlama   - Bütçe planlama süreci oluşturma ve etkinleştirme   - Genel muhasebeden gerçek değerleri alarak bütçe planı belgesi oluşturma   - Bütçe planı belgesi verilerini ayarlamak için tahsisatları kullanma   - Excel'de bütçe planı belgesi verilerini düzenleme"
+description: "Bu laboratuvarın amacı, Bütçe planlama alanındaki Microsoft Dynamics 365 for Finance and Operations işlevi güncelleştirmelerine ilişkin rehber eşlikli bir görünüm sağlamaktır. Bu laboratuvarın amacı, bütçe planlama modülü yapılandırmasının hızlı bir örneğini ve bu yapılandırmayla bütçe planlamanın nasıl tamamlanabileceğini göstermektir.  Bu laboratuvar özellikle aşağıdaki iş süreçlerine veya görevlere odaklanmaktadır: -    - Bütçe planlama için kuruluş hiyerarşisi oluşturma ve kullanıcı güvenliğini yapılandırma   - Bütçe planı senaryoları, bütçe planı sütunları, yerleşimleri ve Excel şablonları tanımlama   - Bütçe planlama süreci oluşturma ve etkinleştirme   - Genel muhasebeden gerçek değerleri alarak bütçe planı belgesi oluşturma   - Bütçe planı belgesi verilerini ayarlamak için tahsisatları kullanma   - Excel'de bütçe planı belgesi verilerini düzenleme"
 author: twheeloc
 manager: AnnBe
 ms.date: 01/12/2018
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c6440591f847cbbb6be352270e3629a49d71598e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 59781da7681ece1c0c013f59e0d1a5d7efc51c3a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu laboratuvarın amacı, Bütçe planlama alanındaki Microsoft Dynamics 365 for Finance and Operations, Enterprise edition işlevi güncelleştirmelerine ilişkin rehber eşlikli bir görünüm sağlamaktır. Bu laboratuvarın amacı, bütçe planlama modülü yapılandırmasının hızlı bir örneğini ve bu yapılandırmayla bütçe planlamanın nasıl tamamlanabileceğini göstermektir.  Bu laboratuvar özellikle aşağıdaki iş süreçlerine veya görevlere odaklanmaktadır: -    - Bütçe planlama için kuruluş hiyerarşisi oluşturma ve kullanıcı güvenliğini yapılandırma   - Bütçe planı senaryoları, bütçe planı sütunları, yerleşimleri ve Excel şablonları tanımlama   - Bütçe planlama süreci oluşturma ve etkinleştirme   - Genel muhasebeden gerçek değerleri alarak bütçe planı belgesi oluşturma   - Bütçe planı belgesi verilerini ayarlamak için tahsisatları kullanma   - Excel'de bütçe planı belgesi verilerini düzenleme 
+Bu laboratuvarın amacı, Bütçe planlama alanındaki Microsoft Dynamics 365 for Finance and Operations işlevi güncelleştirmelerine ilişkin rehber eşlikli bir görünüm sağlamaktır. Bu laboratuvarın amacı, bütçe planlama modülü yapılandırmasının hızlı bir örneğini ve bu yapılandırmayla bütçe planlamanın nasıl tamamlanabileceğini göstermektir.  Bu laboratuvar özellikle aşağıdaki iş süreçlerine veya görevlere odaklanmaktadır: -    - Bütçe planlama için kuruluş hiyerarşisi oluşturma ve kullanıcı güvenliğini yapılandırma   - Bütçe planı senaryoları, bütçe planı sütunları, yerleşimleri ve Excel şablonları tanımlama   - Bütçe planlama süreci oluşturma ve etkinleştirme   - Genel muhasebeden gerçek değerleri alarak bütçe planı belgesi oluşturma   - Bütçe planı belgesi verilerini ayarlamak için tahsisatları kullanma   - Excel'de bütçe planı belgesi verilerini düzenleme 
 
 <a name="prerequisites"></a>Ön koşullar 
 ------------------

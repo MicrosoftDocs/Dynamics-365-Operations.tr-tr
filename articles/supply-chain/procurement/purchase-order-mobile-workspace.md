@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 24a17d3734e39815684098f694a77e96cdbc1cfe
-ms.openlocfilehash: d366ae53f4a9d8e676c3bc19e0450baa254cb716
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2f495fa3507fd54499e29b4c09f504dd037c0a6c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,13 +36,13 @@ Bu konu, **Satınalma siparişi onayı** mobil çalışma alanı hakkında bilgi
 ## <a name="overview"></a>Özet 
 Onay gerektiren satınalma siparişleri bir onay iş akışından geçer. İş akışı bir veya daha fazla kişinin eylem gerçekleştirmesini gerektiren çeşitli adımlar içerebilir. Örneğin, bir kişinin görevi tamamlaması veya satınalma siparişini onaylaması gerekebilir. 
 
-**Satınalma siparişi onayı** mobil çalışma alanı satınalma siparişlerini mobil cihazınızdan kolaylıkla görmenizi ve yanıtlamanızı sağlar. Bu çalışma alanı, Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition web istemcisinden alabileceğiniz aynı iş akışı eylemlerini almanıza da olanak tanır.
+**Satınalma siparişi onayı** mobil çalışma alanı satınalma siparişlerini mobil cihazınızdan kolaylıkla görmenizi ve yanıtlamanızı sağlar. Bu çalışma alanı, Microsoft Dynamics 365 for Finance and Operations web istemcisinden alabileceğiniz aynı iş akışı eylemlerini almanıza da olanak tanır.
 
 ## <a name="prerequisites"></a>Ön koşullar
 Önkoşullar, kuruluşunuza dağıtılan Finance and Operations sürümüne göre değişiklik gösterir.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition kullanıyorsanız önkoşullar 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition kuruluşunuza dağıtıldıysa, sistem yöneticisinin **Satınalma siparişi onayı** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Microsoft Dynamics 365 for Finance and Operations kullanıyorsanız önkoşullar 
+Microsoft Dynamics 365 for Finance and Operations kuruluşunuza dağıtıldıysa, sistem yöneticisinin **Satınalma siparişi onayı** mobil çalışma alanını yayımlaması gerekir. Yönergeler için bkz: [Bir mobil çalışma alanı yayımlama](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Microsoft Dynamics 365 for Operations sürüm 1611 Platform güncelleştirmesi 3 veya daha sonraki sürüm kullanıyorsanız ön koşullar
 Kuruluşunuza Platform güncelleştirmesi 3 veya üzeri ile Microsoft Dynamics 365 for Operations 1611 sürümü dağıtılmışsa, sistem yöneticisinin aşağıdaki ön koşulları yerine getirmesi gerekir. 

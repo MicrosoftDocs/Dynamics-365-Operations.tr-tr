@@ -18,17 +18,17 @@ ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: 2b5abc98f5788c5091e5be61688cfd0d4076a510
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2ecfb759a59292ddbce484b3ae20368c486fedd9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>Şirket içi bir dağıtım için SQL Server Reporting Services'ı konfigüre etme
 
 [!include[banner](../includes/banner.md)]
 
-Bu konudaki adımları, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (şirket içi) dağıtımınız için SQL Server Raporlama Servisleri'ni (SSRS) yapılandırmak için kullanın.
+Bu konudaki adımları, Microsoft Dynamics 365 for Finance and Operations (şirket içi) dağıtımınız için SQL Server Raporlama Servisleri'ni (SSRS) yapılandırmak için kullanın.
 
 1. Raporlama Servisleri Yapılandırma Yöneticisi uygulamasını açın.
 2. Geçerli makinenin adı olması gereken varsayılan **Sunucu adı**'nı ve **Sunucu Örneğini Raporla**, **MSSQLSERVER** bırakın. 

@@ -1,6 +1,6 @@
 ---
 title: "Müşteri adayından nakde"
-description: "Bu konuda, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ile Microsoft Dynamics 365 for Sales arasındaki Müşteri adayından nakde çözümüne genel bakış sunulmaktadır."
+description: "Bu konuda, Microsoft Dynamics 365 for Finance and Operations ile Microsoft Dynamics 365 for Sales arasındaki Müşteri adayından nakde çözümüne genel bakış sunulmaktadır."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 02/08/2018
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: e342c67f53828c77f77d99a2c3f909a23ced8989
-ms.openlocfilehash: 5d9bc41c92258f9856088b04ec5af123c8e915e5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 025be8b44726194e6fc219816c40d2a15a7349df
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-Müşteri adayından nakde çözümü, Dynamics 365 for Finance and Operations, Enterprise edition ile Dynamics 365 for Sales arasında doğrudan eşitleme yapılmasını sağlar. Veri Tümleştirme özelliğiyle birlikte kullanılan Müşteri adayından nakde şablonları Finance and Operations ile Sales arasında hesaplar, ürünler, satışlar, satış teklifleri, satış siparişleri ve satış faturaları için veri akışı sağlar. Finance and Operations ile Sales arasında veri akışı sağlanırken, Sales'de satış ve pazarlama faaliyetlerini gerçekleştirebilir ve Finance and Operations'da stok yönetimini kullanarak sipariş karşılamaları işleyebilirsiniz. 
+Müşteri adayından nakde çözümü, Dynamics 365 for Finance and Operations ile Dynamics 365 for Sales arasında doğrudan eşitleme yapılmasını sağlar. Veri Tümleştirme özelliğiyle birlikte kullanılan Müşteri adayından nakde şablonları Finance and Operations ile Sales arasında hesaplar, ürünler, satışlar, satış teklifleri, satış siparişleri ve satış faturaları için veri akışı sağlar. Finance and Operations ile Sales arasında veri akışı sağlanırken, Sales'de satış ve pazarlama faaliyetlerini gerçekleştirebilir ve Finance and Operations'da stok yönetimini kullanarak sipariş karşılamaları işleyebilirsiniz. 
 
 Müşteri adayından nakde tümleştirmesi hakkında daha fazla bilgi için kısa YouTube videosunu izleyin:
 

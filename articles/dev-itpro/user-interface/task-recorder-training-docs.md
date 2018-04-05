@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: ed3f8260cace494170bf1d4db80c3bcb9a1a086e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9550faec1bbbdc233631e149c09b8e4faf25f5ff
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -85,7 +85,7 @@ Görev kılavuzundaki "kabarcıkta" not ek açıklaması bu şekilde görünür.
 
 [![ekran4](./media/screen4.png)](./media/screen4.png)
 
--   **Bilgi adımı**: Bu ek açıklamalar bir denetime veya bir formdaki herhangi bir yere sağ tıklayıp &lt; **Görev Kaydedici** &lt; **Bilgi adımı ekle'ye tıklayarak oluşturulur. **Bilgi adımları, kullanıcı arabirimine herhangi bir işlem kaydedilmemiş olsa bile, eklediğiniz noktada numaralı adım olarak görünür. Bir form düzeyi bilgi adımı veya bir denetimle ilişkilendirilmiş bir bilgi adımı ekleyebilirsiniz. Bir bilgi adımı bir formla ilişkilendirildiğinde, görev kılavuzu oynatıldığında, formun herhangi bir yerinde işaretçi olmaksızın görev kılavuzu "kabarcığı" görünecektir. Bir bilgi adımı bir denetimle ilişkilendirildiğinde, görev kılavuzu oynatıldığı zaman, görev kılavuzu "kabarcığı" denetimi gösterir. Yardım bölmesinde, bir bilgi adımı ek açıklaması, girdiğiniz metni içeren numaralı bir adım olarak görünür. Kullanıcıyı sonraki adımlara hazırlamak, Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition dışında yapılması gereken adımları açıklamak veya diğer kayıtlara başvurmak için bilgi adımlarını kullanın (ancak ek açıklamalarda köprüler oluşturamazsınız.).
+-   **Bilgi adımı**: Bu ek açıklamalar bir denetime veya bir formdaki herhangi bir yere sağ tıklayıp &lt; **Görev Kaydedici** &lt; **Bilgi adımı ekle'ye tıklayarak oluşturulur. **Bilgi adımları, kullanıcı arabirimine herhangi bir işlem kaydedilmemiş olsa bile, eklediğiniz noktada numaralı adım olarak görünür. Bir form düzeyi bilgi adımı veya bir denetimle ilişkilendirilmiş bir bilgi adımı ekleyebilirsiniz. Bir bilgi adımı bir formla ilişkilendirildiğinde, görev kılavuzu oynatıldığında, formun herhangi bir yerinde işaretçi olmaksızın görev kılavuzu "kabarcığı" görünecektir. Bir bilgi adımı bir denetimle ilişkilendirildiğinde, görev kılavuzu oynatıldığı zaman, görev kılavuzu "kabarcığı" denetimi gösterir. Yardım bölmesinde, bir bilgi adımı ek açıklaması, girdiğiniz metni içeren numaralı bir adım olarak görünür. Kullanıcıyı sonraki adımlara hazırlamak, Microsoft Dynamics 365 for Finance and Operations dışında yapılması gereken adımları açıklamak veya diğer kayıtlara başvurmak için bilgi adımlarını kullanın (ancak ek açıklamalarda köprüler oluşturamazsınız.).
 
 **Kaydınızın süresini belirleyin**
 

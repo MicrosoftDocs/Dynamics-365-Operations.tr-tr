@@ -1,6 +1,6 @@
 ---
 title: "Alacak hesaplarında alacak ve tahsilatlar"
-description: "Alacak hesapları tahsilat bilgileri, Microsoft Dynamics 365 for Finance Operations, Enterprise edition Collections sayfası kullanılarak bir merkezi görünümde yönetilir. Kredi ve tahsilat yöneticileri bu merkezi görünümü kullanarak tahsilatları yönetebilir. Tahsilat temsilcileri, tahsilat işlemine önceden tanımlanmış tahsilat kriterlerini kullanarak oluşturulmuş müşteri listelerinden veya Müşteriler sayfasından başlayabilir."
+description: "Alacak hesapları tahsilat bilgileri, Microsoft Dynamics 365 for Finance and Operations Collections sayfası kullanılarak bir merkezi görünümde yönetilir. Kredi ve tahsilat yöneticileri, tahsilatları yönetmek için bu merkezi görünümü kullanabilir. Tahsilat temsilcileri, tahsilat işlemine önceden tanımlanmış tahsilat kriterlerini kullanarak oluşturulmuş müşteri listelerinden veya Müşteriler sayfasından başlayabilir."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a071d3151fbcc9e29bd138b096b34b88bc405a4f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 23fc1a160cf25255a1677ca0e501c374746b6e34
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 

@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: a72963f755f8eddb19b8526d2938eff039ab7df2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 01/17/2018
 Bir proje planı hazırlamak ve sürdürmek karmaşık olabilir bu nedenle proje yöneticilerinin kendilerine görevi yönetmede yardımcı olacak araçlar kullanması gerekir. Microsoft Project İstemcisi ile tümleştirme, bir proje iş kırılım yapısını açmayı ve yönetmeyi destekler. Proje yöneticisi, yaptığı değişiklikleri Finance and Operations proje iş kırılım yapısına geri yayımlayabilir.
 
 > [!NOTE]
-> Microsoft Dynamics 365 for Finance and Operations, Enterprise edition Temmuz güncelleştirmesini kullanıyorsanız, KB 4054797 ve 4055884'ü yüklemeniz gerekir.
+> Microsoft Dynamics 365 for Finance and Operations Temmuz güncelleştirmesini kullanıyorsanız KB 4054797 ve 4055884'ü yüklemeniz gerekir.
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>Microsoft Project İstemcisi eklentisini yapılandırma
 Microsoft Project İstemcisiyle tümleştirmeyi etkinleştirmek için, kullanıcının istemcisindeki Microsoft Project uygulamasına bir Microsoft Dynamics 365 eklentisi yüklenmesi gerekir. Bu işlem **Proje yönetimi çalışma alanı** açılarak yapılır.

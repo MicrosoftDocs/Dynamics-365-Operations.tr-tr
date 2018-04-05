@@ -1,6 +1,6 @@
 ---
 title: "Finance and Operations'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme"
-description: "Bu konu, satış faturası başlıkları ve satırlarını doğrudan Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'tan Microsoft Dynamics 365 for Sales'a eşitlemek için temel görevleri ve şablonları açıklar."
+description: "Bu konu, satış faturası başlıkları ve satırlarını doğrudan Microsoft Dynamics 365 for Finance and Operations'tan Microsoft Dynamics 365 for Sales'a eşitlemek için temel görevleri ve şablonları açıklar."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/26/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: 347509a9556f15e7d880508e36516f04bc6964b7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: afbf4a24b737cf7221bac4b688b8801b1bcd839c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, satış faturası başlıkları ve satırlarını doğrudan Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'tan Microsoft Dynamics 365 for Sales'a eşitlemek için temel görevleri ve şablonları açıklar.
+Bu konu, satış faturası başlıkları ve satırlarını doğrudan Microsoft Dynamics 365 for Finance and Operations'tan Microsoft Dynamics 365 for Sales'a eşitlemek için temel görevleri ve şablonları açıklar.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Aday müşteriden nakde çözümünde veri akışı
 

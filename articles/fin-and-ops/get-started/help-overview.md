@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: 9c68cd0e1c214e22b8831e4f4a0c5d545387f982
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,10 +33,10 @@ ms.lasthandoff: 03/09/2018
 Bu konu, Microsoft Dynamics 365 for Finance and Operations Yardım sistemi bileşenlerine genel bir bakış sunar. Makalede, kuruluşunuz için özel belgeleri ve eğitimi nasıl sağlayabileceğiniz açıklanmaktadır. 
 
 > [!NOTE] 
-> Aşağıdaki ürünler yakından ilişkilidir: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail ve Dynamics 365 for Talent. Aynı işlev, her 3 üründe de görülebilir. Sonuç olarak, Perakende ile ilişkili olan konularda, ürün adı Dynamics 365 for Retail olacaktır; öncelikli olarak Talent ile ilgili konularda, ürün adı Dynamics 365 for Talent olacaktır ve temel ürünle ilgili konularda, ürün adı Dynamics 365 for Finance and Operations olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
+> Aşağıdaki ürünler yakından ilişkilidir: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail ve Dynamics 365 for Talent. Aynı işlev, her 3 üründe de görülebilir. Sonuç olarak, Perakende ile ilişkili olan konularda, ürün adı Dynamics 365 for Retail olacaktır; öncelikli olarak Talent ile ilgili konularda, ürün adı Dynamics 365 for Talent olacaktır ve temel ürünle ilgili konularda, ürün adı Dynamics 365 for Finance and Operations olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
 
 Yardım sistemi tüm aşağıdaki ürünleri tarafından paylaşılır:
-- Dynamics 365 for Finance and Operations, Enterprise sürümü
+- Dynamics 365 for Finance and Operations
 - Dynamics 365 for Retail
 - Dynamics 365 for Talent
 
@@ -108,14 +108,14 @@ Site için yeni bir hesap oluşturmak için sağda, bir e-posta adresi ve yeni b
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>GitHub aracılığıyla değişiklik önerin veya içeriğe katkıda bulunun
 Bir değişiklik önermek için GitHub hesabınız olması ve Katılımcı Lisansı Sözleşmesi imzalamanız gerekir.  Talebinizi gönderdikten sonra önerilen değişiklikleri gözden geçiririz. Gerekirse, içeride bu konuyu tartışır ve size geri döneriz.  
 
-Başlamak için bir konudaki **Düzenle** (Kalem) düğmesini tıklayın veya https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public adresine gidin. 
+Başlamak için bir konudaki **Düzenle** (Kalem) düğmesine tıklayın veya https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public adresine gidin. 
 
 Daha fazla bilgi için lütfen katılımcı kılavuzumuza başvurun: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
 
 
 > [!NOTE]
 > Şu anda yalnızca İngilizce havuzlarımıza katılımları kabul edebiliyoruz.  
-> GitHub üzerinden bildirilen Sorunları kabul etmiyoruz. Lütfen içerik önerileri için çekme talebi kullandığınızdan emin olun. Özellik ve ürün geribildirimleri için en uygun yer Dynamics 365 Fikirler Portalıdır: https://experience.dynamics.com/ideas/. 
+> GitHub üzerinden bildirilen Sorunları kabul etmiyoruz. Lütfen içerik önerileri için çekme talebi kullandığınızdan emin olun. Ürün ve özellik geribildirimleri için en uygun yer Dynamics 365 Fikirler Portalıdır: https://experience.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Görev kılavuzları

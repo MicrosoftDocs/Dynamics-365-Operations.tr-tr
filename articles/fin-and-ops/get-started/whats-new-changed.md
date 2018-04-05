@@ -3,7 +3,7 @@ title: "Yeni veya değişenler nedir"
 description: "Bu sayfa Microsoft Dynamics 365 for Finance and Operations'ın son sürümlerindeki yeni özellikler hakkında bilgi almanıza yardımcı olabilecek konulara sizi yönlendirir."
 author: josaw1
 manager: AnnBe
-ms.date: 03/21/2018
+ms.date: 03/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: ff73fdb3e6ce97e01838228c45795ca64e888add
-ms.openlocfilehash: e00dece6a6f917028379d879ec81a5c7ab210253
+ms.sourcegitcommit: 47de452c2072b6a29d7e2d34eb73b472be669a6c
+ms.openlocfilehash: eb6132b6d535deb13a4cd1343d04967893a2cfe9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/25/2018
 
 ---
 
@@ -120,10 +120,10 @@ En son sürüme yükseltme hakkında bilgi için bkz. [En son güncelleştirmeye
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü</td>
-<td>Platform güncelleştirmesi 13</td>
-<td>7.0.4764</td>
-<td>Ocak 2018 (Bu yalnızca Sürekli Otomatik Güncelleştirme Avantajı Programına (CAAP) katılmayı seçen kullanıcılara sunulan özel bir sürümdür.)</td>
-<td><a href="whats-new-platform-update-13.md">Dynamics 365 for Finance and Operations, Enterprise edition platform güncelleştirmesi 13'deki (Ocak 2018) yenilikler ve değiştirilenler</a></td><tbody>
+<td>Platform güncelleştirmesi 15</td>
+<td>7.0.4839</td>
+<td>Mart 2018 (Bu yalnızca Sürekli Otomatik Güncelleştirme Avantajı Programına (CAAP) katılmayı seçen kullanıcılara sunulan özel bir sürümdür.)</td>
+<td><a href="whats-new-platform-update-15.md">Dynamics 365 for Finance and Operations, Enterprise edition platform güncelleştirmesi 15'teki (Mart 2018) yenilikler ve değiştirilenler</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü</td>
 <td>Platform güncelleştirmesi 12</td>

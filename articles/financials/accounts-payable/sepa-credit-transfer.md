@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1335d95c8bf02d5c571d37d78eca0ee7eae32bad
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3b6ded5e5accbbdba708c8b31119429e72bd58f5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -53,7 +53,7 @@ Avrupa bankalarından oluşan EPC, SEPA ödeme araçları için ticari ve teknik
 SEPA kredi transferi bir şirketten veya bir bireyden başka bir şirket veya bireye yapılan ödemedir. Ödemelerin Euro cinsinden olması gerekir ve her iki taraf için Uluslararası Banka Hesap Numarası (IBAN) ve Banka Tanımlayıcı Kodunu (BIC) içermelidir. (BIC, Dünya Çapındaki Bankalararası Finansal Telekomünikasyon Kurumu \[SWIFT\] kodu olarak da bilinir.) Ayrıca, işlem maliyetlerinin her iki taraf arasında paylaşılması gerekir. Taraflar arasında oluşan kredi transferlerinde ISO 20022 ödeme işleme standartları ve EPC tarafından belirtildiği gibi XML formatıyla uyumlu XML dosyaları kullanılmalıdır.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Kredi transferi nasıl uygulanır?
-Avrupa ülkeleri için kredi transferi ödeme biçimi, Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünde Elektronik raporlama (ER) ve Ödeme yöntemleri işlevi kullanılarak uygulanır. Diğer bölgelerde kullanılan birkaç kredi aktarma biçimi, eski ödeme çerçevesini kullanmaya devam etmektedir. Diğer pek çok biçim arasında on iki ISO 20022 kredi aktarım dosyası biçimi mevcuttur. Bu dışa aktarma biçimleri SEPA ISO 20022 XML standardına uygundur. Bunlar, kullanıldıkları ülkeler /bölgeler için euro dışı ödeme transferleri ve EPC'nin yayınladığı SEPA Kredi Transfer Şeması Kural Kitabı'nın 8.2 sürümünde belirtilen euro ödemeleri için kullanılır. Kredi transferlerini uygulamadan önce, elektronik bankacılık dosyalarını yüklemek için gereken yazılımı edinmek için bankanıza başvurmanız gerekir. Bu yazılımı ödeme emirlerini içeren XML dosyalarını bankanıza aktarmak için kullanacaksınız.
+Avrupa ülkeleri için kredi transferi ödeme biçimi, Microsoft Dynamics 365 for Finance and Operations'ta Elektronik raporlama (ER) ve Ödeme yöntemleri işlevi kullanılarak uygulanır. Diğer bölgelerde kullanılan birkaç kredi aktarma biçimi, eski ödeme çerçevesini kullanmaya devam etmektedir. Diğer pek çok biçim arasında on iki ISO 20022 kredi aktarım dosyası biçimi mevcuttur. Bu dışa aktarma biçimleri SEPA ISO 20022 XML standardına uygundur. Bunlar, kullanıldıkları ülkeler /bölgeler için euro dışı ödeme transferleri ve EPC'nin yayınladığı SEPA Kredi Transfer Şeması Kural Kitabı'nın 8.2 sürümünde belirtilen euro ödemeleri için kullanılır. Kredi transferlerini uygulamadan önce, elektronik bankacılık dosyalarını yüklemek için gereken yazılımı edinmek için bankanıza başvurmanız gerekir. Bu yazılımı ödeme emirlerini içeren XML dosyalarını bankanıza aktarmak için kullanacaksınız.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Finance and Operations'ta şu anda hangi kredi transfer biçimleri destekleniyor?
 Sürekli olarak Microsoft Dynamics Lifecycle Services'daki (LCS) Paylaşılan varlık kitaplığına gidip varlık türü **GER yapılandırması** olan mevcut dosyaların en güncel listesini görüntülemeniz gerekir. Sonraki "Neyi ayarlamam gerekiyor?" bölümünde, mevcut yapılandırmaları incelemek ve seçili yapılandırmaları içe aktarmak için bir LCS havuzunun nasıl oluşturulacağının açıklandığını açıklayan konuya bağlantı verilmektedir.

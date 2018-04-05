@@ -1,6 +1,6 @@
 ---
 title: "Genel muhasebe günlük tabloları"
-description: "Bu makale, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da kullanabileceğiniz günlükleri ayarlamak için **Günlük adları** sayfasını kullanın."
+description: "Bu makale, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Microsoft Dynamics 365 for Finance and Operations'ta kullanabileceğiniz günlükleri ayarlamak için **Günlük adları** sayfasını kullanın."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: ccd1b9056f8c18de1b2ef706f70f53bac6cc43a1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9f8fc40f199b83a9e0cb36ce905163c3ed547057
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 01/19/2018
 [!include[banner](../includes/banner.md)]
 
 
-Bu makale, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da kullanabileceğiniz günlükleri ayarlamak için **Günlük adları** sayfasını kullanın.
+Bu makale, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Microsoft Dynamics 365 for Finance and Operations'ta kullanabileceğiniz günlükleri ayarlamak için **Günlük adları** sayfasını kullanın.
 
 | Günlük türü:                      | Amaç                       | Bu sayfada hareketleri girin                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|

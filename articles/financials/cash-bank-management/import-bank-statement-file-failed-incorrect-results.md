@@ -1,6 +1,6 @@
 ---
 title: "Banka ekstresi dosya alma sorunlarını giderme"
-description: "Bankadan gelen banka ekstresi dosyasının, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition tarafından desteklenen düzenle eşleşmesi önemlidir. Banka ekstreleri için sıkı standartlar bulunduğundan çoğu tümleştirme doğru şekilde çalışacaktır. Ancak, bazen ekstre dosyası alınamayabilir veya hatalı sonuçlara sahip olabilir. Genellikle, bu sorunlar banka ekstresi dosyasındaki küçük farklılıklar nedeniyle ortaya çıkar. Bu makale, bu farklılıkları gidermeyi ve sorunların nasıl çözüleceğini açıklar."
+description: "Bankadan gelen banka ekstresi dosyasının, Microsoft Dynamics 365 for Finance and Operations tarafından desteklenen düzenle eşleşmesi önemlidir. Banka ekstreleri için sıkı standartlar bulunduğundan çoğu tümleştirme doğru şekilde çalışacaktır. Ancak, bazen ekstre dosyası alınamayabilir veya hatalı sonuçlara sahip olabilir. Genellikle, bu sorunlar banka ekstresi dosyasındaki küçük farklılıklar nedeniyle ortaya çıkar. Bu makale, bu farklılıkları gidermeyi ve sorunların nasıl çözüleceğini açıklar."
 author: twheeloc
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4feb77bf0031494dfd456c23c632a264c96f0e43
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c408f30c783d58766ab93b13c589079c3ef375de
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bankadan gelen banka ekstresi dosyasının, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition tarafından desteklenen düzenle eşleşmesi önemlidir. Banka ekstreleri için sıkı standartlar bulunduğundan çoğu tümleştirme doğru şekilde çalışacaktır. Ancak, bazen ekstre dosyası alınamayabilir veya hatalı sonuçlara sahip olabilir. Genellikle, bu sorunlar banka ekstresi dosyasındaki küçük farklılıklar nedeniyle ortaya çıkar. Bu makale, bu farklılıkları gidermeyi ve sorunların nasıl çözüleceğini açıklar.
+Bankadan gelen banka ekstresi dosyasının, Microsoft Dynamics 365 for Finance and Operations tarafından desteklenen düzenle eşleşmesi önemlidir. Banka ekstreleri için sıkı standartlar bulunduğundan çoğu tümleştirme doğru şekilde çalışacaktır. Ancak, bazen ekstre dosyası alınamayabilir veya hatalı sonuçlara sahip olabilir. Genellikle, bu sorunlar banka ekstresi dosyasındaki küçük farklılıklar nedeniyle ortaya çıkar. Bu makale, bu farklılıkları gidermeyi ve sorunların nasıl çözüleceğini açıklar.
 
 <a name="what-is-the-error"></a>Hata nedir?
 ------------------
@@ -64,7 +64,7 @@ BAI2 ve MT940 dosyaları metin tabanlı dosyalardır ve Genişletilebilir Stil S
 
 ### <a name="debug-the-xslt"></a>XSLT hata ayıklama
 
-Daha fazla bilgi için, bkz. <https://msdn.microsoft.com/en-us/library/ms255605.aspx>.
+Daha fazla bilgi için <https://msdn.microsoft.com/en-us/library/ms255605.aspx> konusuna bakın.
 
 1.  Microsoft Visual Studio'yu Başlatın.
 2.  Bir konsol uygulaması oluşturun.
@@ -92,7 +92,7 @@ Bazı durumlarda, borçlar alacak olarak ve alacaklar borç olarak içeri aktar�
 -   MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator şablonu
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Banka ekstresi biçimleri ve teknik düzenlerine örnekler
-Aşağıdaki tablo gelişmiş banka mutabakatı içe alma dosyaları ve üç ilgili banka ekstresi örnek dosyalarının teknik düzen tanımlarını örnek olarak verir. Teknik düzenleri ve örnek dosya buradan indirebilirsiniz: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+Aşağıdaki tablo gelişmiş banka mutabakatı içe alma dosyaları ve üç ilgili banka ekstresi örnek dosyalarının teknik düzen tanımlarını örnek olarak verir. Örnek dosyaları ve teknik düzenleri buradan indirebilirsiniz: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 
 | Teknik düzen tanımı                             | Banka ekstresi örnek dosya          |

@@ -1,6 +1,6 @@
 ---
 title: "Gelişmiş banka mutabakatı kurulumu işlemi"
-description: "Gelişmiş banka mutabakatı, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations Enterprise sürümündeki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir.  Bu makalede mutabakat için işlem ayarları açıklanır."
+description: "Gelişmiş banka mutabakatı, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations'taki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir.  Bu makalede mutabakat için işlem ayarları açıklanır."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: aec219f545e880407b9a7d62b2dda4a607ac6bdd
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: f77a9c927232c95558ba78037f6a6e9f77e202c2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Gelişmiş banka mutabakatı, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations Enterprise sürümündeki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir.  Bu makalede mutabakat için işlem ayarları açıklanır.  
+Gelişmiş banka mutabakatı, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations'taki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir.  Bu makalede mutabakat için işlem ayarları açıklanır.  
 
 Gelişmiş banka mutabakatı işlevini kullanmadan önce ayarlanması gereken bir dizi parça vardır. Banka ekstresi almayı ayarlama hakkında daha fazla bilgi için, bkz [Banka ekstresi alma işlemini ayarlama](set-up-advanced-bank-reconciliation-import-process.md).  Banka mutabakatı işleminin kurulması için gereksinimler aşağıda açıklanmıştır.
 

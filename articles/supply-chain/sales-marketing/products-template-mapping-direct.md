@@ -1,6 +1,6 @@
 ---
 title: "Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle eşitleme"
-description: "Bu konu, ürünleri Microsoft Dynamics 365 for Sales'a Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'dan eşitlemek için altta yatan görevleri ve şablonları açıklar."
+description: "Bu konu, ürünleri Microsoft Dynamics 365 for Finance and Operations'tan Microsoft Dynamics 365 for Sales'e eşitlemek için altta yatan görevleri ve şablonları açıklar."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: def88c291538e3ef278c51e4b87462782e222de2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3ae50372edcd473f2288f8172b71eac33e24b636
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/13/2018
 > [!NOTE]
 > Müşteri adayından nakde çözümünü kullanmadan önce [Dynamics 365 Veri tümleştirme](/common-data-service/entity-reference/dynamics-365-integration) hakkında bilgi sahibi olmanız gerekir.
 
-Bu konu, ürünleri doğrudan Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'dan Microsoft Dynamics 365 for Sales'e eşitlemek için temel görevleri ve şablonları açıklar.
+Bu konu, ürünleri doğrudan Microsoft Dynamics 365 for Finance and Operations'tan Microsoft Dynamics 365 for Sales'e eşitlemek için altta yatan görevleri ve şablonları açıklar.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Aday müşteriden nakde çözümünde veri akışı
 

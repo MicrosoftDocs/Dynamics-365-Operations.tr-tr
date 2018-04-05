@@ -20,10 +20,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d933910faa726ea279a3371f6c8a3eca9bc9dfee
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1b6086f7769086a9cdbb61c03882ea21d908ab4a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -56,7 +56,7 @@ Talep stok yenilemesi satış siparişleri, transfer emirleri, üretim emirleri 
 ## <a name="minmax-replenishment"></a>Min/Maks stok yenileme
 Min/Maks stok yenilemede stok ayarlanmış minimum ve maksimum sınırlar arasında yenilenir. Genellikle malzeme çekme işlemi başlamadan önce tüm malzeme çekme yerleşimlerinin maksimum düzeyde dolu olmasını sağlamaya yardımcı olmak üzere bu işlem her gün bir kere gerçekleştirilir. 
 
-Minimum ve maksimum tutarlar stok yenileme şablonunda ayarlanır. Şablondaki diğer ayarların çoğu dalga talebi stok yenilemesinde kullanılan şablonlardaki ayarlara benzer. Şablonda her madde ve yerleşim için bir satır olmalıdır. Stok yenilemeyi toplu iş kullanarak çalıştırdığınızda Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, satırların düzenlendiği sırayı kullanarak, stok yenilemenin gerekli olup olmadığını değerlendirir. 
+Minimum ve maksimum tutarlar stok yenileme şablonunda ayarlanır. Şablondaki diğer ayarların çoğu dalga talebi stok yenilemesinde kullanılan şablonlardaki ayarlara benzer. Şablonda her madde ve yerleşim için bir satır olmalıdır. Stok yenilemeyi toplu iş kullanarak çalıştırdığınızda Microsoft Dynamics 365 for Finance and Operations satırların düzenlendiği sırayı kullanarak, stok yenilemenin gerekli olup olmadığını değerlendirir. 
 
 Min/Maks stok yenileme stratejisinin madde için sabit yerleşim olarak ayarlanmamış boş yerleşimlerde stok yenilemesi yapamayacağını unutmayın. Stok yenilemesi yapılması gereken yerleşim sabit bir yerleşim değilse, sistem hangi maddenin stok yenilemesinin yapılacağını belirleyemez. Bu nedenle stok yenileme işlemi gerçekleşmeden önce eldeki miktarın en az bir kısmı gereklidir.
 

@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f3d494cc83b273eef071b23d0948b283ba85c17e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: ebbd442c9f69290dc995c05462ca70b554f7d9f2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="extend-data-model-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için biçim çıktılarında Belge Yönetimi dosyalarını kullanmak üzere veri modelini genişletme
@@ -57,7 +57,7 @@ Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik için
 17. Madde türü alanında 'Dize' seçin.
 18. Ekle öğesini tıklatın.
 
-## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-enterprise-edition-data-sources"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition veri kaynaklarına yeni veri modeli öğeleri eşleyin
+## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-data-sources"></a>Microsoft Dynamics 365 for Finance and Operations veri kaynaklarına yeni veri modeli öğeleri eşleyin
 1. Modeli veri kaynağına eşle'yi tıklayın.
 2. Açıklama alanına bir "InvoiceCustomer" değeriyle filtre uygulamak için Hızlı Filtre'yi kullanın.
     * InvoiceCustomer  

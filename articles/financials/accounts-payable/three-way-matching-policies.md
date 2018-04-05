@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: da3099a07e3084bf49d03e0f4d421aebe9b39940
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c8ea45ece05f006f1649c79fcdee427a0bc4b0b5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -65,9 +65,9 @@ Bu örnekteki fatura eşleştirme ilkeleri aşağıdaki rollerde görev yapan ki
 1.  Fabrikam'da alım departmanındaki bir çalışan olan Sammy, Contoso tarafından sevk edilen makinelerin toplam miktarını alır. Ürün girişine miktar olarak 5 girer. Satınalma siparişi tam olarak alındığından, satınalma siparişinin durumu Alındı olarak değişir.
 2.  Fabrikam'da borç hesapları koordinatörü olan April, Contoso tarafından gönderilen faturayı girer ve doğrular. April aşağıdaki bilgileri doğrular:
     -   Üç yönlü eşleştirme gerektiren maddeler için fatura satırındaki miktarın alınan miktarla eşleştiğini. Ürün girişinde belirtilen alınan miktarın faturayla eşleştiğini.
-    -   İki yönlü veya üç yönlü eşleştirme gerektiren maddeler için, fatura satırındaki fiyatlar Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da tanımlanan toleranslar aralığındadır. Bu aşağıdaki fiyat eşleştirme türlerini içerir:
+    -   İki yönlü veya üç yönlü eşleştirme gerektiren maddeler için fatura satırındaki fiyatlar, Microsoft Dynamics 365 for Finance and Operations'ta tanımlanan tolerans aralığındadır. Bu aşağıdaki fiyat eşleştirme türlerini içerir:
         -   Net birim fiyatı eşleştirme – Fatura satırındaki net birim fiyatı, satınalma siparişi satırındaki net birim fiyatla, tolerans yüzdesi aralığında eşleşir. Bu örnekte, net birim fiyat toleransı +%8'dir.
-        -   Fiyat toplamları eşleştirme – Fatura satırlarındaki net tutar, tolerans yüzdesi, tutarı veya yüzde ve tutarı kapsamında satınalma siparişi satırındaki net tutarla eşleşir. Bu örnekte, fiyat toplamları eşleştirme toleransı +%15'dir.
+        -   Fiyat toplamları eşleştirme – Fatura satırlarındaki net tutar, tolerans yüzdesi, tutarı veya yüzde ve tutarı kapsamında satınalma siparişi satırındaki net tutarla eşleşir. Bu örnekte, fiyat toplamları eşleştirme toleransı +%15'tir.
 
 Contoso'nun gönderdiği basılı fatura aşağıdaki bilgileri içerir.
 

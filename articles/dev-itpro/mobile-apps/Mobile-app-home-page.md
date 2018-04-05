@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 233d91138b11905d971be90154da54e61bbe2919
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b84778bd67e8c5bad6e8858d2af71f46e0dfe145
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -39,7 +39,7 @@ Bu konu, Microsoft Dynamics 365 for Unified Operations mobil uygulamasını aç�
 
 Mobil uygulama, kuruluşunuzun iş süreçlerinin mobil cihazlarda kullanılabilir olmasını sağlar. BT yöneticiniz mobil çalışma alanları, kuruluşunuz için etkinleştirdikten sonra, kullanıcılar uygulamaya oturum açabilir ve iş süreçlerini mobil cihazlarından yürütmeye anında başlayabilirler. Mobil uygulama, verimliliği artıracak aşağıdaki özellikleri içerir:
 
-- Kullanıcılar iş verilerini görebilir, düzenleyebilir ve bunlar üzerinde harekete geçebilirler, ağ bağlantıları kesintili olsa bile veya mobil cihazları tümüyle çevrimdışı olduğunda bile. Bir cihaz ağ bağlantısını tekrar kurduktan sonra, çevrimdışı veri işlemleri, Dynamics 365 for Finance and Operations, Enterprise edition veya Microsoft Dynamics 365 for Finance and Operations ile otomatik eşitlenir.
+- Kullanıcılar iş verilerini görebilir, düzenleyebilir ve bunlar üzerinde harekete geçebilirler, ağ bağlantıları kesintili olsa bile veya mobil cihazları tümüyle çevrimdışı olduğunda bile. Bir cihaz ağ bağlantısını yeniden kurduğunda, çevrimdışı veri operasyonları Dynamics 365 for Finance and Operations ile otomatik olarak eşitlenir.
 - BT yöneticileri veya geliştiricileri, kuruluşunuz için özel hazırlanmış mobil çalışma alanları hazırlayabilir ve bunları yayınlayabilirler. Uygulama, varolan kod varlıklarınızı kullanır. Bu nedenle, doğrulama yordamlarınızı, iş mantığınızı veya güvenlik yapılandırmanızı yeniden uygulamak zorunda kalmazsınız.
 - BT yöneticileri veya geliştiricileri, web istemcisi içinde dahil olan işaretle ve tıkla çalışma alanı tasarımcısını kullanarak kolayca tasarlayabilirler.
 - BT yöneticileri veya geliştiricileri, İş mantığı genişletilebilme çerçevesini kullanarak çalışma alanlarının kabiliyetlerini isteğe bağlı olarak optimize edebilirler. Cihaz çevrimdışıyken de veri işlenmeye devam ettiği için cihazlarınız sürekli internet bağlantısına sahip olmasa bile mobil senaryolarınız zengin ve akıcı kalır.
@@ -90,7 +90,7 @@ Aşağıdaki tablo, Microsoft ve özel mobil çalışma alanlarından sağlanan 
 <tr class="even">
 <td>2</td>
 <td>Sistem yöneticisi</td>
-<td><strong>Microsoft Dynamics 365 for Finance and Operations sürüm 1611 kullanıyorsanız:</strong> Microsoft tarafından sağlanan mobil çalışma alanlarını etkinleştiren KB'leri indir ve yükleyin.</td>
+<td><strong>Microsoft Dynamics 365 for Operations sürüm 1611 kullanıyorsanız:</strong> Microsoft tarafından sağlanan mobil çalışma alanlarını etkinleştiren KB'leri indir ve yükleyin.</td>
 <td>Daha fazla bilgi için aşağıdaki konulara göz atın:
 <ul>
 

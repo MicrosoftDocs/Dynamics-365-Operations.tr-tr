@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2c0a00b6a1956f1f22a50951308c434c3f0eefc4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: baefad4efd51661c236459493b7f02747593bbab
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -73,7 +73,7 @@ Burada, bazı tipik istatistiksel boyut üyelerinin örnekleri bulunmaktadır.
 
 ## <a name="statistical-measure-provider-template"></a>İstatistiksel ölçü sağlayıcısı şablonu
 
-İstatistiksel ölçüler,n kaynağı çok çeşitli kaynaklar olabilir. Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü istatistiksel ölçüleri çıkarmak için mükemmel bir kaynaktır. İstatistiksel ölçü sağlayıcı şablonunu, almak istediğiniz istatistiksel ölçüleri kolayca yapılandırmak için kullanabilirsiniz.
+İstatistiksel ölçüler,n kaynağı çok çeşitli kaynaklar olabilir. Microsoft Dynamics 365 for Finance and Operations, istatistiksel ölçüleri çıkarmak için mükemmel bir kaynaktır. İstatistiksel ölçü sağlayıcı şablonunu, almak istediğiniz istatistiksel ölçüleri kolayca yapılandırmak için kullanabilirsiniz.
 
 İstatistiksel ölçü sağlayıcısı şablon tanımını geneldir ve birden çok istatistiksel boyut üyesinde yeniden kullanılabilir.
 
@@ -132,13 +132,13 @@ Bu örnekte, yalnızca tüm tam zamanlı çalışanların sayısını (FTE) isti
 > [!NOTE]
 > Bu örnekte, **Geçerli sürüm** için yalnızca bir ilişki oluşturacağız.
 
-İlişkiyi kurmak için **Maliyet muhasebesi defteri**\> **Geçerli sürüm** \> **Yönet**\>**İstatistiksel ölçümler**'e gidin. Bu senaryo için verileri Finance and Operations'dan almak istediğimiz için **Dynamics 365 for Finance and Operations, Enterprise Edition – İstatistiksel ölçüler** veri bağlayıcısını seçin.
+İlişkiyi kurmak için **Maliyet muhasebesi defteri**\> **Geçerli sürüm** \> **Yönet**\>**İstatistiksel ölçümler**'e gidin. Bu senaryo için verileri Finance and Operations'tan almak istediğimiz için **Dynamics 365 for Finance and Operations – İstatistiksel ölçüler** veri bağlayıcısını seçin.
 
 **Veri kaynağı**
 
 | Dosya Adı        | Veri bağlayıcı                                                                     | İstatistiksel boyut üyesi |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| FTE D365FO | Dynamics 365 for Finance and Operations, Enterprise Edition – İstatistiksel ölçüler | FTE'ler                         |
+| FTE D365FO | Dynamics 365 for Finance and Operations – İstatistiksel ölçüler | FTE'ler                         |
 
 **Veri sağlayıcısı yapılandırması**
 
@@ -220,13 +220,13 @@ Bu örnekte, yalnızca CC010 Paketleme maliyet merkeziyle ilgili saatlerin topla
 > [!NOTE]
 > Bu örnekte, **Geçerli sürüm** için yalnızca bir ilişki oluşturacağız.
 
-İlişkiyi kurmak için **Maliyet muhasebesi defteri**\> **Geçerli sürüm** \> **Yönet**\>**İstatistiksel ölçümler**'e gidin. Bu senaryo için verileri Finance and Operations'dan almak istediğimiz için **Dynamics 365 for Finance and Operations, Enterprise Edition – İstatistiksel ölçüler** veri bağlayıcısını seçin.
+İlişkiyi kurmak için **Maliyet muhasebesi defteri**\> **Geçerli sürüm** \> **Yönet**\>**İstatistiksel ölçümler**'e gidin. Bu senaryo için verileri Finance and Operations'tan almak istediğimiz için **Dynamics 365 for Finance and Operations – İstatistiksel ölçüler** veri bağlayıcısını seçin.
 
 **Veri kaynağı**
 
 | Dosya Adı           | Veri bağlayıcı                                                                     | İstatistiksel boyut üyesi |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| Paket CC D365FO | Dynamics 365 for Finance and Operations, Enterprise Edition – İstatistiksel ölçüler | Paket CC                      |
+| Paket CC D365FO | Dynamics 365 for Finance and Operations – İstatistiksel ölçüler | Paket CC                      |
 
 Sistem ProdRouteTrans tablosunun her kaydın ayrı bir tüzel kişiliğe ait olduğu bir tablo olduğunu algılar. Bu nedenle, kaynak hareketlerinin aktarılması gereken tüzel kişiliği seçmeniz istenir.
 

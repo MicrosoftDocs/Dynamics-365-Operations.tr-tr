@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
-ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 02/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içinde içe ve dışa aktarma işlerini oluşturmak ve yönetmek için **Veri yönetimi** çalışma alanını kullanırsınız. Varsayılan olarak, veri içe ve dışa aktarma işlemi, hedef veritabanındaki her bir varlık için bir hazırlama tablosu oluşturur. Hazırlama tabloları, taşımadan önce verileri doğrulamanızı, temizlemenizi ve dönüştürmenizi sağlar.
+Microsoft Dynamics 365 for Finance and Operations'da içe ve dışa aktarma işlerini oluşturmak ve yönetmek için **Veri yönetimi** çalışma alanını kullanırsınız. Varsayılan olarak, veri içe ve dışa aktarma işlemi, hedef veritabanındaki her bir varlık için bir hazırlama tablosu oluşturur. Hazırlama tabloları, taşımadan önce verileri doğrulamanızı, temizlemenizi ve dönüştürmenizi sağlar.
 
 > [!NOTE]
 > Bu konu, [veri varlıkları](data-entities.md) hakkında bilgi sahibi olduğunuzu varsayar.
@@ -66,7 +66,7 @@ Belirli varlıkları bir içe veya dışa aktarma işine ekleyin veya uygulanaca
 ### <a name="set-the-data-format-for-the-job"></a>İş için veri biçimlerini ayarlayın
 Bir varlık seçtiğinizde, içe veya dışa aktarılacak verinin biçimini seçmelisiniz. **Veri kaynakları kurulumu** kutucuğunu kullanarak biçimleri tanımlayabilirsiniz. Pek çok kuruluş, demo veri kümesinde varsayılan olarak bulunanlardan başlar. Bu biçimlerin bir listesi aşağıda verilmiştir:
 
-- AX (Microsoft Dynamics 365 for Finance and Operations, Enterprise edition için kullanılanla aynı biçimde içe veya dışa aktarılması gereken veriler için)
+- AX (Microsoft Dynamics 365 for Finance and Operations için kullanılanla aynı biçimde içe veya dışa aktarılması gereken veriler için)
 - ColonSeparated
 - CSV
 - Excel

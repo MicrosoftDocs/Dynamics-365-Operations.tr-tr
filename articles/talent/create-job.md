@@ -19,10 +19,10 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 962b3084c5340813d1697cab680621350510d4b9
+ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
+ms.openlocfilehash: aaa8bdedc31ee03e96a0f7a5e78f25f888913e71
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -42,7 +42,7 @@ Bazı iş ayrıntıları, örneğin iş unvanı, türü ve işlevi, yürürlük 
 ## <a name="job-titles"></a>İş başlıkları
 İşler oluşturmadan önce, bu işler için unvanlar ayarlamanız gerekir. Pozisyonlar, iş unvanlarını, pozisyonların ilişkili olduğu işlerden devralır. 
 
-Arama özelliğini kullanarak açabileceğiniz **Unvanlar** sayfasını kullanarak iş unvanlarını korumak. **Unvanlar **sayfasında, işlerinizde kullanmayı planladığınız unvanları girin.
+Arama özelliğini kullanarak açabileceğiniz **Unvanlar** sayfasını kullanarak iş unvanlarını korumak. **Unvanlar** sayfasında, işlerinizde kullanmayı planladığınız unvanları girin.
 
 ## <a name="job-types"></a>İş tipleri
 Benzer işleri kategorilere gruplamak için iş türlerini kullanın. İş türleri, zorunlu değildir. Ancak, maaş yönetimi için uygunluk kuralları oluşturduğunuzda iş türlerini kullanmayı planlıyorsanız, işleri ayarlamadan önce iş tiplerini ayarlamalısınız. İş türlerine bazı örnekler tam zamanlı ve yarı zamanlı veya maaşlı ve saatlik ödemelidir. **İş türleri** sayfasını kullanarak iş türlerini yönetirsiniz. **İş türleri** sayfası üzerinde, iş türü için kısa bir açıklama ve ad girin. **Muaf durumu** alanında, Adil İş Standartları Yasası (FLSA) muafiyet durumunu, şu iş durumuna sahip işler için belirtmek üzere aşağıdaki seçeneklerden birini işaretleyin:
@@ -91,6 +91,6 @@ Benzer işleri kategorilere gruplamak için iş türlerini kullanın. İş türl
 ## <a name="areas-of-responsibility"></a>Sorumluluk alanları
 Bir pozisyondaki çalışanın o iş için sorumlu olacağı iş rollerini, süreçleri ve ürünleri belirtmek üzere sorumluluk alanlarını kullanırsınız. Örneğin, "Muhasebeci" olarak adlandırılan bir iş için, sorumluluk alanlarından biri "Ürün A için mali raporlama" olabilir. Arama işlevi ile bulabileceğiniz **Sorumluluk alanları** sayfasını kullanarak sorumluluk alanlarını yönetirsiniz. **Sorumluluk alanları** sayfasında, sorumluluk için bir isim ve açıklama girin. İsteğe bağlı olarak **Not** alanında ek bilgiler girebilirsiniz. Belirli bir iş için notlar, burada girmiş olduğunuz notları değiştirmeden güncelleştirilebilir.
 
-
-
+## <a name="steps-for-creating-a-job"></a>Bir iş oluşturma adımları
+Yeni bir iş oluşturmaya ilişkin adım adım yordam için [Yeni işler tanımlama](../fin-and-ops/hr/tasks/define-new-jobs.md) konusuna başvurun. 
 

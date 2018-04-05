@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0069246a60f1db6297df45fa57cd52d90cdb4ab5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 89a13ad5a1d3cb7f93a469d33530ec99b39160da
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Hareketlerin neden ve ne zaman kapatıldığı karmaşık konular olabilir. O yüzden, iş gereksinimlerinizi karşılayacak parametreleri doğru bir şekilde anlayıp tanımlamanız çok önemlidir. Bu makalede, hem Borç hesapları hem Alacak hesapları için kapanışta kullanılan parametreler açıklanmaktadır. 
 
-Aşağıdaki parametreler, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition kapatmaların nasıl işleneceğini etkiler. Kapatma işlemi bir faturanın bir ödemeye veya bir alacak dekontuna karşılık kapatılmasını içerir. Bu parametreler **Alacak hesapları parametreleri** ve **Borç hesapları parametreleri** sayfalarının **Kapatma** alanında bulunur.
+Aşağıdaki parametreler, Microsoft Dynamics 365 for Finance and Operations'ta kapatmaların nasıl işleneceğini etkiler. Kapatma işlemi bir faturanın bir ödemeye veya bir alacak dekontuna karşılık kapatılmasını içerir. Bu parametreler **Alacak hesapları parametreleri** ve **Borç hesapları parametreleri** sayfalarının **Kapatma** alanında bulunur.
 
 -   **Otomatik kapatma** – Nakledildiğinde bir hareketin diğer açık hareketlere karşılık otomatik olarak kapatılması gerekiyorsa bu seçeneği **Evet** konumuna ayarlayın. Bu seçenek **Hayır** olarak ayarlanırsa kullanıcılar, ödemeleri girdiğinde veya daha sonra **Hareketleri kapat** sayfasını kullanarak hareketleri el ile kapatabilirler.
 -   **Nakit iskontosu yönetimi** – Bir [nakit iskontosunun fatura fazla ödendiğinde nasıl yönetileceğini belirtir](cash-discount-handling-overpayments.md). Fazla ödeme için, nakit iskontosu azaltılabilir, fark olarak kabul edilebilir veya satıcı veya müşteri hesabında kalabilir.

@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: db9e66a67f20ca24de3a020c1871cdda0cf2f9be
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: cfc68c1d0810cbc296b35c09176dde2c948a50d0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için yeni temel sürümünü benimseyerek biçiminizi yükseltme
@@ -107,7 +107,7 @@ Proseware, Inc. BACS (UK hayali) yapılandırmasının, hizmet aboneliklerine uy
     * Oluşturulan yapılandırmanın tamamlanmış sürüm 1.1.1 olarak kaydedildiğini unutmayın. Bu, BACS (Birleşik Krallık, hayali özel) biçiminin, Ödemeler (basitleştirilmiş model) veri modelinin 1. sürümüne dayalı olan BACS (Birleşik Krallık hayali) biçiminin 1. sürümüne dayalı olduğu anlamına gelmektedir.  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>Ödeme dosyaları oluşturmak için özelleştirilmiş biçimi test et
-Paralel , Dynamics 365 for Finance and Operations, Enterprise edition oturumunda "Ödemeler için elektronik belgeleri oluşturmak için oluşturulan biçimi kullan" yordamındaki adımları tamamlayın. Elektronik Ödeme yöntemi parametrelerinde BACS (UK hayali özel) biçimi seçin. Oluşturulan ödeme dosyasında son sunulan XML düğümünün, bölgesel gereksinimleri uygun IBAN kodu sunma içerdiğinden emin olun.  
+Paralel , Dynamics 365 for Finance and Operations oturumunda "Ödemeler için elektronik belgeleri oluşturmak için oluşturulan biçimi kullan" yordamındaki adımları tamamlayın. Elektronik Ödeme yöntemi parametrelerinde BACS (UK hayali özel) biçimi seçin. Oluşturulan ödeme dosyasında son sunulan XML düğümünün, bölgesel gereksinimleri uygun IBAN kodu sunma içerdiğinden emin olun.  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>Ülkeye özgü varolan yapılandırmayı güncelleştirmek
 Litware, Inc. BACS (UK hayali) yapılandırmasını güncelleştirmek ve elektronik belge biçimini yönetmek için yeni ülke gereksinimleri benimsemesi gerekir. Daha sonra, bu yeni sürümünde Proseware, Inc. dahil olmak üzere hizmet aboneleri için sunulan bu yapılandırma içine alınacaktır.  
@@ -203,6 +203,6 @@ Proseware, Inc.'nin BACS (UK hayali) yapılandırmasının yeni sürümü 1.2'ni
     * Oluşturulan yapılandırmanın tamamlanmış sürüm 1.2.2: taban BACS (UK hayali özel) biçiminin 2. sürümü, yani temel BACS (UK hayali) biçiminin 2. sürümüne dayalı, bu da Ödemeler (basitleştirilmiş model) veri modelinin 1. sürümüne dayalı olan sürüm olduğunu unutmayın.  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Ödeme dosyaları oluşturması için özelleştirilmiş biçimi test et
-Paralel , Dynamics 365 for Finance and Operations, Enterprise edition oturumunda "Ödemeler için elektronik belgeleri oluşturmak için oluşturulan biçimi kullan" yordamındaki adımları tamamlayın. Elektronik Ödeme yöntemi parametrelerinde oluşturulan 'BACS (UK hayali özel)' biçimi seçin. Oluşturulan ödeme dosyasında Proseware, Inc. tarafından son sunulan XML düğümünün, bölgesel gereksinimleri uygun IBAN hesap kodu sunma içerdiğinden emin olun. Dosya ayrıca Litware, Inc. tarafından yakın zaman önce sunulan XML düğün sunum SWIFT banka kodunu ülke gereksinimlerine göre içermelidir.  
+Paralel , Dynamics 365 for Finance and Operations oturumunda "Ödemeler için elektronik belgeleri oluşturmak için oluşturulan biçimi kullan" yordamındaki adımları tamamlayın. Elektronik Ödeme yöntemi parametrelerinde oluşturulan 'BACS (UK hayali özel)' biçimi seçin. Oluşturulan ödeme dosyasında Proseware, Inc. tarafından son sunulan XML düğümünün, bölgesel gereksinimleri uygun IBAN hesap kodu sunma içerdiğinden emin olun. Dosya ayrıca Litware, Inc. tarafından yakın zaman önce sunulan XML düğün sunum SWIFT banka kodunu ülke gereksinimlerine göre içermelidir.  
 
 

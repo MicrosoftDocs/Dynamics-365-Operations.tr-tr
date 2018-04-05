@@ -1,6 +1,6 @@
 ---
-title: "Personel Yeterlikleri ve Geliştirme Power BI içeriği"
-description: "Bu konu Finance and Operations - Personel Yeterlik ve Gelişim Power BI içeriğini açıklar."
+title: "Personel uzmanlıkları ve gelişim Power BI içeriği"
+description: "Bu konu Finance and Operations - Personel yeterlilikleri ve gelişimi Power BI içeriğini açıklar."
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -18,19 +18,19 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 99fa6e396989e6e204d84cc776f627c7c4baf1d1
+ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
+ms.openlocfilehash: 0769596c5ebaed1f5698d596d66d6f0334d5fcc2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
-# <a name="employee-competencies-and-development-power-bi-content"></a>Personel Yeterlikleri ve Geliştirme Power BI içeriği
+# <a name="employee-competencies-and-development-power-bi-content"></a>Personel uzmanlıkları ve gelişim Power BI içeriği
 
 [!include[banner](../includes/banner.md)]
 
 
-Bu konu Finance and Operations - Personel Yeterlik ve Gelişim Power BI içeriğini açıklar. 
+Bu konu Finance and Operations - Personel yeterlilikleri ve gelişimi Power BI içeriğini açıklar. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>İçerik paketinde bulunan raporlar
 İçerik paketini Finance and Operations verinize bağladıktan sonra, raporlar kuruluşunuzun verilerinde görünür. Daha önce hiç Microsoft Power BI kullanmadıysanız, daha fazla bilgiyi şuradan edinin: [Power BI için Destekli Öğrenme sayfası](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). İçerik paketinde bulunan raporlar, ek bilgiler içeren hem grafiklere hem de tablolara sahiptir. Aşağıdaki tablo bu raporları açıklar.
@@ -44,7 +44,7 @@ Bu konu Finance and Operations - Personel Yeterlik ve Gelişim Power BI içeriğ
 Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve kutuları panoya sabitleyebilirsiniz. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano Oluşturma ve Yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
-Finance and Operations verisi, Personel Yeterlik ve Gelişim içerik paketindeki raporları doldurmak için kullanılır. Aşağıdaki tablo, içerik paketinin üzerine dayandırıldığı varlıkları gösterir.
+Finance and Operations verisi, Personel yeterlilikleri ve gelişimi içerik paketindeki raporları doldurmak için kullanılır. Aşağıdaki tablo, içerik paketinin üzerine dayandırıldığı varlıkları gösterir.
 
 | Varlık                            | İçindekiler                                                                                                   | Diğer varlıklarla ilişkiler                                                                                                                                                                                                                                                                       |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

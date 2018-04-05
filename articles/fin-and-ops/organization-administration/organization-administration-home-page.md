@@ -1,6 +1,6 @@
 ---
 title: "Kuruluş yönetimi giriş sayfası"
-description: "Bu konu sizi Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'u kuruluşunuzda kullanmanıza yardımcı olacak kaynaklara yönlendirir."
+description: "Bu konu sizi Microsoft Dynamics 365 for Finance and Operations'ı kuruluşunuzda kullanmanıza yardımcı olacak kaynaklara yönlendirir."
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f1cff2388b02ff6dfd52a39b7f3ea90f10807096
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu konu yetkili kullanıcıların ve yöneticilerin Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'u yapılandırmasına yardımcı olacak içeriklere yönlendirir. Bu içerik onlara sistemi kuruluşunuz ve işiniz için sorunsuz ve etkili çalışmak üzere yapılandırmalarına yardımcı olacaktır.
+Bu konu yetkili kullanıcıların ve yöneticilerin Microsoft Dynamics 365 for Finance and Operations'ı yapılandırmasına yardımcı olacak içeriğe yönlendirir. Bu içerik onlara sistemi kuruluşunuz ve işiniz için sorunsuz ve etkili çalışmak üzere yapılandırmalarına yardımcı olacaktır.
 
 Burada listelenen içeriğin büyük bölümü **Kuruluş yönetimi** modülündeki özelliklere uygulanır. Ancak, bir kayıt şablonu oluşturmak ve kullanmak gibi bazı görevler, kuruluşunuzun daha verimli çalışmasına yardımcı olmak için her modülde gerçekleştirilebilir. 
 

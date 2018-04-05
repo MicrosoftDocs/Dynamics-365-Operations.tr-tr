@@ -16,10 +16,10 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: daded9d8ef48456cbd3f97a7bae5fa75885ce9d1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bbf4da5a33876973a376a0580fd553e15bd6febc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ Bu konu, **Veri doğrulama denetim listesi** çalışma alanı ve bununla ilişk
 Son sekme, ayrıntılı görev listesi içindir. Bu liste, tam görev listesini gösterir.
 Görev listesini çeşitli şekillerde filtrelenebilir. Görevin durumunu değiştirmek veya bir görev atamak için **Görevi düzenle**'ye tıklayın. Görevin eklerini görüntülemek için **Ekler** üzerine tıklayın.
 
-Görev adı, kullanıcının görevi tamamlamak için gitmesi gereken Microsoft Dynamics 365 for Finance and Operations, Enterprise edition sayfasına giden bir köprüdür. Bu bağlantıyı, görevi **Veri yapılandırma projesi** formundan oluşturduğunuzda veya düzenlediğinizde **Menü öğesi adı** alanını kullanarak ayarlayabilirsiniz.
+Görev adı, kullanıcının görevi tamamlamak için gitmesi gereken Microsoft Dynamics 365 for Finance and Operations sayfasına giden bir köprüdür. Bu bağlantıyı, görevi **Veri yapılandırma projesi** formundan oluşturduğunuzda veya düzenlediğinizde **Menü öğesi adı** alanını kullanarak ayarlayabilirsiniz.
 
 Dosyalar, notlar, resimler veya URL'leri bir göreve **Ekler** eylemini kullanarak ekleyebilirsiniz. Örneğin, bir görev için yazdırılan rapor dosyasını ekleyebilirsiniz. Bir ek mevcutsa, **Ek** sütununda bir simge belirir.
 

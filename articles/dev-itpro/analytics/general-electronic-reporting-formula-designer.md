@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 946584d8afa8937afc7a26835e05b0eecebaad35
-ms.openlocfilehash: 67558889dea03738a665d8f1e2f30833b96c4656
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/23/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ Bu konu, formül tasarımcısının Elektronik raporlamada (ER) nasıl kullanıl
 
 ER formül tasarımcısını destekler. Bu nedenle, tasarım zamanında aşağıdaki görevler için çalışma zamanında kullanılabilecek ifadeler yapılandırabilirsiniz:
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise edition veritabanından alınan verileri dönüştürün ve bu verileri ER biçimleri için (filtreleme, gruplama, veri türü dönüştürme vb.) bir veri kaynağı olmak üzere tasarlanmış ER veri modeline girin. (Örneğin, bu dönüştürme işlemleri filtrelemeyi, gruplandırmayı ve veri türü dönüşümünü içerebilir.)
+- Microsoft Dynamics 365 for Finance and Operations veritabanından alınan verileri dönüştürün ve bu verileri ER biçimleri için (filtreleme, gruplama, veri türü dönüştürme vb.) bir veri kaynağı olmak üzere tasarlanmış ER veri modeline girin. (Örneğin, bu dönüştürme işlemleri filtrelemeyi, gruplandırmayı ve veri türü dönüşümünü içerebilir.)
 - Oluşturulan bir elektronik belgeye belirli bir ER biçiminin düzenine ve koşullarına uygun olarak gönderilmesi gereken verileri biçimlendirin. (Örneğin, biçimlendirme istenen dil veya kültüre ya da kodlamaya uygun olarak yapılabilir).
 - Elektronik belge oluşturma işlemini kontrol edin. (Örneğin, ifadeler veri işlemeye bağlı olarak biçimin belirli öğelerinin çıkışını etkinleştirebilir veya devre dışı bırakabilir. Aynı zamanda, belge oluşturma işlemini durdurabilir veya kullanıcılara ileti gönderebilir.)
 

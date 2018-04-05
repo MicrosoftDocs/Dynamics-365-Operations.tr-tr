@@ -1,6 +1,6 @@
 ---
 title: "Satınalma girişlerinde proje maliyet tahakkuku"
-description: "Bu konu, satınalma girişlerinden tahakkuk eden proje maliyetlerinin Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünde nasıl izlenebileceğini açıklar."
+description: "Bu konu, satınalma girişlerinden tahakkuk eden proje maliyetlerinin Microsoft Dynamics 365 for Finance and Operations'ta nasıl izlenebileceğini açıklar."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: f7355dc856d97a19d0f7558061b3e2d9902dab65
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9a74b684e955376b9c3036954f4a6e6628c468f0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 02/07/2018
 [!include[banner](../includes/banner.md)]
 
 
-Bu konu, satınalma girişlerinden tahakkuk eden proje maliyetlerinin Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünde nasıl izlenebileceğini açıklar. 
+Bu konu, satınalma girişlerinden tahakkuk eden proje maliyetlerinin Microsoft Dynamics 365 for Finance and Operations'ta nasıl izlenebileceğini açıklar. 
 
 Bir proje için fatura genellikle mallar ve hizmetler teslim edildikten daha sonra gelir; bu durumun projenin temel performans göstergeleri (KPI'ler) üzerinde önemli bir etkisi olabilir. Bu hareketleri hem mali hem de proje raporlarından izleyebilmek önemlidir.
 

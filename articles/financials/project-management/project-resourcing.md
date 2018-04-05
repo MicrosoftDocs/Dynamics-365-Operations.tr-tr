@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4dbcfd31030db8e40f89f86a76cdc666ac433749
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2d31a5dfd16a4404e19c6c9693dacecff6f2f064
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 
 Bu konu, projeye kaynak oluşturma hakkında bilgi sunar.
 
-Proje yöneticileri ve kaynak yöneticilerinin proje planlama aşamasında karşılaştıkları zorluklardan biri, projede çalışacak doğru kaynağı belirlemek ve rezerve etmeleri gereken kaynak tahsisatıdır. Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünde projelere kaynak sağlama becerileri geçici kaynaklar olarak kullanılan ve belirli bir görev ya da görevin bir bölümü için rezerve edilebilen rolleri tanımlamanıza olanak tanır. Bu tür kaynak oluşturma, proje yöneticileri ve kaynak yöneticilerinin aşağıdaki görevleri yerine getirmesini sağlar:
+Proje yöneticileri ve kaynak yöneticilerinin proje planlama aşamasında karşılaştıkları zorluklardan biri, projede çalışacak doğru kaynağı belirlemek ve rezerve etmeleri gereken kaynak tahsisatıdır. Microsoft Dynamics 365 for Finance and Operations'ta, projelere kaynak sağlama becerileri geçici kaynaklar olarak kullanılan ve belirli bir görev ya da görevin bir bölümü için rezerve edilebilen rolleri tanımlamanıza olanak tanır. Bu tür kaynak oluşturma, proje yöneticileri ve kaynak yöneticilerinin aşağıdaki görevleri yerine getirmesini sağlar:
 
 - Kaynakları eşleştirmeyi kolaylaştırmak için gerekli olan yetkinliklere sahip bir rol tanımlamak.
 - Rolleri, rezerve edilen kaynakarı temel alan ilk görev planlamasını belirlemek için kullanın.

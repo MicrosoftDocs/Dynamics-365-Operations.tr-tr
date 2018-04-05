@@ -17,10 +17,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 34dc8d762db4a4802e52188ebda298db234ee376
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 551f3d5fc52fac725fcc9fedc37dc1c85fac5a26
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="vendor-invoice-automation"></a>Satıcı faturası otomasyonu
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/05/2018
 
 Bu konu ekler içeren faturalar da dahil olmak üzere satıcı faturalarının uçtan uca otomasyonu için kullanılabilir olan özellikleri açıklar.
 
-Borç hesapları (AP) işlemlerini daha verimli kullanmak isteyen kuruluşlar genellikle fatura işlemlerini daha etkin olması gereken işlem alanları içinde ne üst sıralardan birine koyar. Çoğu durumda, bu kuruluşlar kağıt fatura işlemlerini üçüncü taraf bir optik karakter tanıma (OCR) servis sağlayıcısına aktarırlar. Daha sonra her faturanın taranan görüntüsüyle birlikte makine tarafından okunabilir fatura meta verilerini alırlar. Otomasyona yardımcı olmak için "son mil" çözümü faturalama sisteminde bu yapıların kullanımını etkinleştirmek için oluşturulmuştur. Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü şimdi bu "son mil" otomasyonunu, bir fatura otomasyon çözümüyle kullanıma hazır hale getirmektedir.
+Borç hesapları (AP) işlemlerini daha verimli kullanmak isteyen kuruluşlar genellikle fatura işlemlerini daha etkin olması gereken işlem alanları içinde ne üst sıralardan birine koyar. Çoğu durumda, bu kuruluşlar kağıt fatura işlemlerini üçüncü taraf bir optik karakter tanıma (OCR) servis sağlayıcısına aktarırlar. Daha sonra her faturanın taranan görüntüsüyle birlikte makine tarafından okunabilir fatura meta verilerini alırlar. Otomasyona yardımcı olmak için "son mil" çözümü faturalama sisteminde bu yapıların kullanımını etkinleştirmek için oluşturulmuştur. Microsoft Dynamics 365 for Finance and Operations şimdi bu "son mil" otomasyonunu, bir fatura otomasyon çözümüyle kullanıma hazır hale getirmektedir.
 
 ## <a name="solution-context"></a>Çözüm bağlamı
 
