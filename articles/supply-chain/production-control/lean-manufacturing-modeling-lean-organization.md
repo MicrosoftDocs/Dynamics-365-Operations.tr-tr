@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c858cc24cbba961024a67a2477d7271f64f9a0d4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c8e24234cfa54dcbbf3638c31ced7fb83881bb9f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -41,7 +41,7 @@ Bir yalın imalat senaryosu genellikle sadece birbiriyle alakasız kanban kurall
 
 Toplu üretimin sebep olduğu iş merkezleri arasındaki stok fazlasını ve teslimat sağlama sürelerini azaltmak için, yalın üretim kanban stok yenileme ve süpermarketleri üretim ve ambar yenileme içerisinde devreye sokar. Genellikle bu özellikler, kısmen bağımsız kanban döngülerinin üretimini bozar. Yarı Bitmiş ürünün bir kanban yenilemesi bitmiş bir ürün için siparişle daha fazla harekete geçmez. 
 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da teklif edilmiş olan çeşitli kanban senaryoları için bir üretim ve maliyet içeriği yeniden kurmak için, etkinlik tabanlı üretim akışlarının yalın üretim omurga olarak kullanılmaya başlanmıştır. Tüm kanban kuralları önceden tanımlanmış bu yapısına başvurur. Etkinlik tabanlı model, Dynamics AX için Yalın İmalatın daha önceki sürümlerinde desteklenenden daha geniş çaplı senaryoları desteklemektedir. Ancak, tüm senaryolar aynı etkinlik tabanlı kullanıcı arabirimini kullandığı için bu model atölye çalışanlarına daha fazla karmaşıklık eklemez.
+Microsoft Dynamics 365 for Finance and Operations'da teklif edilmiş olan çeşitli kanban senaryoları için bir üretim ve maliyet içeriği yeniden kurmak için, etkinlik tabanlı üretim akışlarının yalın üretim omurga olarak kullanılmaya başlanmıştır. Tüm kanban kuralları önceden tanımlanmış bu yapısına başvurur. Etkinlik tabanlı model, Dynamics AX için Yalın İmalatın daha önceki sürümlerinde desteklenenden daha geniş çaplı senaryoları desteklemektedir. Ancak, tüm senaryolar aynı etkinlik tabanlı kullanıcı arabirimini kullandığı için bu model atölye çalışanlarına daha fazla karmaşıklık eklemez.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Yarı bitmiş ürünler (ürün reçetesi düzeyleri olmayan)
 Dynamics AX için yalın imalat, stoklanmış ürünler ve yarı bitirilmiş ürünler için kanbanları tek bir çerçevede tümleştirir ve bu sayede tüm durumlar için bütünleştirilmiş bir kullanıcı deneyimi sunar. Bu mimari nedeniyle, yarı bitmiş ürünler için kullanılmak üzere kanbanları etkinleştirmek için ek ürün reçetelerinin dahil edilmesine gerek kalmamıştır. Ayrıca bu mimari stok hareketlerinin en aza indirilmesine yardımcı olur.

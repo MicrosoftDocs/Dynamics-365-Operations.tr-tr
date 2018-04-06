@@ -1,6 +1,6 @@
 --- 
 title: "CSV biçiminde bir harici dosyadan veri aktarmak için yapılandırma tasarlama (ER)"
-description: "Dynamics 365 for Finance and Operations, Enterprise edition'a CSV biçimindeki bir dış dosyadan veri aktarmak üzere Elektronik raporlama (ER) yapılandırmalarını tasarlamak için bu yordamı kullanın."
+description: "Dynamics 365 for Finance and Operations'a CSV biçimindeki bir dış dosyadan veri aktarmak üzere Elektronik raporlama (ER) yapılandırmalarını tasarlamak için bu yordamı kullanın."
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -16,24 +16,24 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 5c1766992531ee272ea156bc33c4c0ea8dfac27a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: f6bfa9f7c0638b0eaacf1a49bcd7d84ffab3acbf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a>CSV biçiminde bir harici dosyadan veri aktarmak için yapılandırma tasarlama (ER)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Dynamics 365 for Finance and Operations, Enterprise edition'a CSV biçimindeki bir dış dosyadan veri aktarmak üzere Elektronik raporlama (ER) yapılandırmalarını tasarlamak için bu yordamı kullanın. Bu yordamda, Litware, Inc. adlı örnek şirket için gerekli ER yapılandırmalarını oluşturacaksınız. Bu adımları tamamlamak için ilk olarak "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir. 
+Dynamics 365 for Finance and Operations'a CSV biçimindeki bir dış dosyadan veri aktarmak üzere Elektronik raporlama (ER) yapılandırmalarını tasarlamak için bu yordamı kullanın. Bu yordamda, Litware, Inc. adlı örnek şirket için gerekli ER yapılandırmalarını oluşturacaksınız. Bu adımları tamamlamak için ilk olarak "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir. 
 
 Bu yordam, Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne atanmış kullanıcılar için oluşturulmuştur. Bu adımlar USMF veri kümesi kullanılarak tamamlanabilir. 
 
 Şu dosyaları yerel olarak indirmeniz ve kaydetmeniz gerekir: (https://go.microsoft.com/fwlink/?linkid=862266): 1099model.xml, 1099formatcsv.xml, 1099entriescsv.csv.
 
 1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.
-    * Dynamics 365 for Finance and Operations, Enterprise edition'da tablolara XML, TXT veya CSV biçimindeki harici dosyaları içe aktarmak için bir işlem yapılandırabilirsiniz. İlk olarak iş açısından, içe aktarılan verileri temsil etmek üzere bir soyut veri modeli oluşturmanız gerekir. Bunun için bir ER veri modeli yapılandırması oluşturulur. Sonra, dosyadaki verileri soyut veri modeliyle bağlamanın bir yolu olarak tasarlanan veri modeliyle eşleşen içe aktarılmış dosya yapısını tanımlayın. Bunun için bir ER biçim yapılandırması oluşturulur. Ardından, ER veri modeli yapılandırmasının içe aktarılan dosyadaki verilerin ve soyut veri modelindeki kalıcı verilerin uygulama tablolarını veya veri varlığını güncelleştirmek için nasıl kullanıldığını açıklayan yeni bir model eşlemesi ile genişletilmesi gerekir.  
+    * Dynamics 365 for Finance and Operations'da tablolara XML, TXT veya CSV biçimindeki harici dosyaları içe aktarmak için bir işlem yapılandırabilirsiniz. İlk olarak iş açısından, içe aktarılan verileri temsil etmek üzere bir soyut veri modeli oluşturmanız gerekir. Bunun için bir ER veri modeli yapılandırması oluşturulur. Sonra, dosyadaki verileri soyut veri modeliyle bağlamanın bir yolu olarak tasarlanan veri modeliyle eşleşen içe aktarılmış dosya yapısını tanımlayın. Bunun için bir ER biçim yapılandırması oluşturulur. Ardından, ER veri modeli yapılandırmasının içe aktarılan dosyadaki verilerin ve soyut veri modelindeki kalıcı verilerin uygulama tablolarını veya veri varlığını güncelleştirmek için nasıl kullanıldığını açıklayan yeni bir model eşlemesi ile genişletilmesi gerekir.  
     * Aşağıdaki adımlar harici olarak izlenen satıcı hareketlerinin daha sonra 1099 formlarındaki satıcı kapatmaları için kullanılmak üzere harici bir CSV dosyasından nasıl içe aktarılacağını göstermektedir.   
     * Örnek şirket Litware, Inc. için yapılandırma sağlayıcısının kullanılabilir olduğunu ve etkin olarak işaretlendiğini doğrulayın. Bu yapılandırma sağlayıcısını göremiyorsanız öncelikle "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir.  
 2. Raporlama konfigürasyonları'na tıklayın.

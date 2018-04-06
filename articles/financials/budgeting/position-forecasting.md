@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fa11f1775017dd9bada61340b4bed70ea66a4137
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a44b3d2ee6e47e71103c7be04b731d4faa79c448
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -96,7 +96,7 @@ Son olarak, Jodi temel ödeme için hesaplama tabanları olarak kullanılan tüm
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Mevcut pozisyonlar için tahmin pozisyonları oluşturma
 
-En doğru bütçe planlama için, pozisyonun o anda doldurulmuş veya boş olmasından bağımsız olarak, Microsoft Dynamics Dynamics 365 for Finance and Operations, Enterprise sürümündeki mevcut pozisyonlardan ayrıntılar ile tahmin pozisyonları oluşturabilirsiniz. 
+En doğru bütçe planlaması için, pozisyonun şu anda doldurulmuş veya boş olmasından bağımsız olarak Microsoft Dynamics 365 for Finance and Operations'taki mevcut pozisyonlardan ayrıntıları kullanarak tahmin pozisyonları oluşturabilirsiniz. 
 
 **Mevcut pozisyonları ekle** işlevi bir kuruluşa ait tüm pozisyonları görüntüler. **Başlangıç** tarihini ayarlayarak, pozisyonlar listesini geçmişteki veya daha yaygın olarak gelecekte bir tarihteki mevcut pozisyonları içerecek şekilde değiştirebilirsiniz (örneğin, bir sonraki bütçe döngüsünün başlangıcı). Bir bütçe planlama süreci ve bütçe planı senaryosu seçin, listede pozisyonları seçin ve seçilen pozisyonlar için tahmin pozisyonları oluşturmak için **Tamam** düğmesine tıklayın. Bir bütçe planlama süreci ve senaryosundaki her bir mevcut pozisyon için sadece bir tahmin pozisyonu oluşturabileceğinizi unutmayın. Ancak, farklı bütçe planı senaryoları atayarak ek sürümler oluşturabilirsiniz. 
 

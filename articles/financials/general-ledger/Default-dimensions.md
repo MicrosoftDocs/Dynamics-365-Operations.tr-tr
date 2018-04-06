@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fa494ab9c3b3f0540ec042f952344c15796845e6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a0530a569978bafffcdcc63c8d502b9bfa645bc5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ Hesap planınızı planladığınızda ve ayarladığınızla, bir belgeyi veya 
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Hesap planı ve mali boyut bileşenleri
 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, ana hesaplar ve mali boyut değerlerinin geçerli birleşimlerini tanımlamak için kurallara dayalı, zengin bir sisteme sahiptir. Bu bölüm, her bir bileşenin işlevi hakkında genel bilgi sağlar ve bileşeni nerede bulabileceğinizi açıklar.
+Microsoft Dynamics 365 for Finance and Operations, ana hesaplar ve mali boyut değerlerinin geçerli birleşimlerini tanımlamak için kural tabanlı, zengin bir sisteme sahiptir. Bu bölüm, her bir bileşenin işlevi hakkında genel bilgi sağlar ve bileşeni nerede bulabileceğinizi açıklar.
 
 ### <a name="account-structures"></a>Hesap yapıları
 

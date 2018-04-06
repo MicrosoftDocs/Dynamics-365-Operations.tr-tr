@@ -3,7 +3,7 @@ title: "Özel alanlar"
 description: "Bu konu Microsoft Dynamics 365 for Finance and Operations'ın bazı kullanıcılara uygulamayı işletmelerine uygun hale getirmek üzere nasıl özel alanlar oluşturma olanağı tanıdığını açıklar."
 author: jasongre
 manager: AnnBe
-ms.date: 01/19/2018
+ms.date: 03/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -14,13 +14,13 @@ ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2017-12-31
+ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: ad59346f88b7a5984e16418e2aade7ccaedf180b
-ms.openlocfilehash: 142c66c189d6401cfb3db128e45fea6c071e99bf
+ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
+ms.openlocfilehash: 4420eeb249a4d1bdac203e32d017dcebbddf95c3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -30,7 +30,9 @@ ms.lasthandoff: 02/28/2018
 
 [!include[banner](../includes/pre-release.md)] 
 
-Microsoft Dynamics 365 for Finance and Operations, Enterprise edition çok sayıda iş sürecini yönetmek için kullanıma hazır kapsamlı bir alan kümesi sunmasına karşın bazen bir şirketin sistemde ilave bilgileri izlemesi gerekebilir. Finance and Operations bu ihtiyacı karşılamak amacıyla, özellik için gerekli izinlere sahip olmanız durumunda, uygulamayı işletmenize uygun hale getirmek üzere özel alanlar oluşturmanıza olanak tanır.
+Microsoft Dynamics 365 for Finance and Operations çok sayıda iş sürecini yönetmek için kullanıma hazır kapsamlı bir alan kümesi sunmasına karşın bazen bir şirketin sistemde ilave bilgileri izlemesi gerekebilir. Finance and Operations bu ihtiyacı karşılamak amacıyla, özellik için gerekli izinlere sahip olmanız durumunda, uygulamayı işletmenize uygun hale getirmek üzere özel alanlar oluşturmanıza olanak tanır. 
+
+Özel alanlar ekleme yeteneği, platform güncelleştirmesi 13 ve sonraki sürümlerde kullanılabilir.
 
 Bu videoda bir sayfaya özel alan eklemenin ne kadar kolay olduğu gösterilmektedir.
 

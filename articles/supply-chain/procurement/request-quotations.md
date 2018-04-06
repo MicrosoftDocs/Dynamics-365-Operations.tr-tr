@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 42ab7beb8a269cd37fd9100385bd302e4945c1e0
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b86363004b8702d1a654f2a1da49bba82fc8ff2a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -46,7 +46,7 @@ Planlanan siparişlerden, satınalma talebinden veya el ile yapılan bir girişt
 
 RFQ servis talebini hazırlayıp satıcılar ekledikten sonra RFQ servis talebinde **Gönder**'i seçin. RFQ gönderdiğiniz her satıcı için bir RFQ günlüğü oluşturulur. Gönder eylemi için Yazdırma yönetimi ayarlarını her satıcı için arşive gönderilecek bir rapor yazdıracak veya her satıcının e-posta adresine bir rapor gönderecek şekilde ayarlayabilirsiniz. Ayrıca, her satıcıya ilişkin RFQ günlüğü, satıcıya daha sonra gönderebileceğiniz veya yeniden gönderebileceğiniz bir rapor oluşturmak için kullanılabilir. Gönder eylemini, satıcının dolduracağı bir yanıt sayfası oluşturmak için de yapılandırabilirsiniz.
 
-Bu konu, satıcı işbirliği kullanılmadığında RFQ'ların işlenmesine ilişkin süreci kapsar. Sisteminiz satıcı işbirliği için ayarlanmışsa, satıcılar teklifleri doğrudan Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'dan girebilir. Daha fazla bilgi için bkz. [Müşterilerle satıcı işbirliği](vendor-collaboration-work-customers-dynamics-365-operations.md).
+Bu konu, satıcı işbirliği kullanılmadığında RFQ'ların işlenmesine ilişkin süreci kapsar. Sisteminiz satıcı işbirliği için ayarlanmışsa, satıcılar teklifleri doğrudan Microsoft Dynamics 365 for Finance and Operations'dan girebilir. Daha fazla bilgi için bkz. [Müşterilerle satıcı işbirliği](vendor-collaboration-work-customers-dynamics-365-operations.md).
  
 Gönderdikten sonra bir RFQ'da düzeltme yapmanız gerekirse, RFQ'yu işleminizi tamamladıktan sonra satıcılara iki düzeltme eylemini kullanarak gönderebilirsiniz: Oluştur ve Sonlandır.
 

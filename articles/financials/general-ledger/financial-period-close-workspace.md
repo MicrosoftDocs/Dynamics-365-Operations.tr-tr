@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
-ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -89,7 +89,7 @@ Kapanış işleminin parçası olan görevleri belirlemek için bir mali kapanı
 
 Görevin uygulanacağı bir veya daha fazla şirkete bir görevi şablonda atayabilirsiniz. Her şirkette işi eforunu tamamlamak için farklı bir kişi atandıysa, aynı iş eforu için birden fazla görev oluşturmayı yararlı bulabilirsiniz. Her şirket için bir görev oluşturun. 
 
-**Görev bağlantısı** menü öğesi görev eforuyla ilişkilidir ve çalışma alanındaki görev bağlantısından, ilişkili sayfaya doğrudan gitmek için kullanılabilir. Örneğin, Borç hesapları için para birimini yeniden değerleme işlemini gerçekleştirecek bir kapanış görevi, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içerisinde **Yabancı para birimi yeniden değerleme** sayfasında bağlanabilir. Ayrıca, bir harici URL'ye de bağlayabilirsiniz. 
+**Görev bağlantısı** menü öğesi görev eforuyla ilişkilidir ve çalışma alanındaki görev bağlantısından, ilişkili sayfaya doğrudan gitmek için kullanılabilir. Örneğin, Borç hesapları için para birimini yeniden değerleme işlemini gerçekleştirecek bir kapanış görevi, Microsoft Dynamics 365 for Finance and Operations içerisinde **Yabancı para birimi yeniden değerleme işlemi** sayfasında bağlanabilir. Ayrıca, bir harici URL'ye de bağlayabilirsiniz. 
 
 > [!TIP]
 > Bir mali dönem kapanış görevine belirli bir Yönetim Raporlayıcı raporu ilişkilendirmek istiyorsanız, rapor URL'si kullanabilirsiniz. Rapor URL'sine erişmek için raporu rapor tasarlayıcıda açın ve ardından raporu bir web tarayıcısında açmak için **Dosya** &gt; **Raporu göster** öğelerini tıklayın. Tarayıcının adres çubuğundaki URL'yi kopyalayabilir ve bunu **Görev bağlantısı** **URL** alanına yapıştırabilirsiniz. 

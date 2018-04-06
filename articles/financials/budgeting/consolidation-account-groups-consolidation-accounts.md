@@ -1,6 +1,6 @@
 ---
 title: "Konsolidasyon hesabı grupları ve ek konsolidasyon hesapları"
-description: "Bu konu, konsolidasyon hesabı grupları ve ek konsolidasyon hesapları oluşturma ve bunların Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içerisinde nasıl kullanıldıkları hakkında bilgi sağlar."
+description: "Bu konu, konsolidasyon hesap grupları ve ek konsolidasyon hesapları ve bunların Microsoft Dynamics 365 for Finance and Operations içerisinde nasıl kullanıldığı hakkında bilgi sağlar."
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4fcdaa26eb2f15bbf6f7d80bd59a54899f637a2c
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 60486002b520fdf347ed2537cefa0a45e06d6271
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu konu, konsolidasyon hesabı grupları ve ek konsolidasyon hesapları oluşturma ve bunların Microsoft Dynamics 365 for Finance and Operations, Enterprise edition içerisinde nasıl kullanıldıkları hakkında bilgi sağlar.
+Bu konu, konsolidasyon hesap grupları ve ek konsolidasyon hesapları ve bunların Microsoft Dynamics 365 for Finance and Operations içerisinde nasıl kullanıldığı hakkında bilgi sağlar.
 
 <a name="consolidation-account-groups"></a>Konsolidasyon hesap grupları
 ----------------------------

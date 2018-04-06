@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: 6a2c51d9ffe288dad2db43ecd0a4c8f717c6379a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -38,7 +38,7 @@ Proje, bir servis sağlamak, bir ürün üretmek veya bir sonuç elde etmek üze
 ## <a name="projects-across-industries"></a>Endüstrilerdeki projeler
 Proje yönetimi ve muhasebe işlevi, aşağıdaki şekilde gösterildiği gibi birden fazla endüstride kullanılabilir. [![Endüstriler arasındaki projeler](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Çağrı merkezinde bir bilet, bir çağrının çözülmesi için gerekli eylemlerin tanımlanması için kullanılabilir. Yönetim veya teknik danışmanlık kuruluşları veya reklam acenteleri gibi danışmanlık şirketleri projeler olarak bu etkinliklere bakar. Pazarlamada, kampanya temsil edilmesi gereken iş kümesini temsil eder. Projeye dayalı üretimlerde bir üretim emri, hedeflenen nihai ürünlerin üretilmesi için gerçekleştirilmesi gereken çeşitli çalışmaları kapsar. Bu projeler nasıl adlandırılırsa adlandırılsın kaynaklar, planlar ve maliyetler içerir ve Microsoft Dynamics 365 for Finance and Operations, Enterprise edition için proje yönetimi ve muhasebe işlevi bu projelerin planlanması, uygulanması ve analiz edilmesine yardımcı olabilir.
+Çağrı merkezinde bir bilet, bir çağrının çözülmesi için gerekli eylemlerin tanımlanması için kullanılabilir. Yönetim veya teknik danışmanlık kuruluşları veya reklam acenteleri gibi danışmanlık şirketleri projeler olarak bu etkinliklere bakar. Pazarlamada, kampanya temsil edilmesi gereken iş kümesini temsil eder. Projeye dayalı üretimlerde bir üretim emri, hedeflenen nihai ürünlerin üretilmesi için gerçekleştirilmesi gereken çeşitli çalışmaları kapsar. Bu projeler nasıl adlandırılırsa adlandırılsın kaynaklar, planlar ve maliyetler içerir ve Microsoft Dynamics 365 for Finance and Operations'taki proje yönetimi ve muhasebe işlevi bu projelerin planlanması, uygulanması ve analiz edilmesine yardımcı olabilir.
 
 ## <a name="project-phases"></a>Proje aşamaları
 Aşağıdaki süreç akışı, harici projelere veya bir veya daha fazla sayıda müşteri için tamamlanmış bir projeye yönelik olsa dahi bu işlev aynı zamanda dahili, maliyete dayalı projeler için de geçerlidir. 

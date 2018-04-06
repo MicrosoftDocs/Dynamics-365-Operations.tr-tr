@@ -1,6 +1,6 @@
 ---
 title: "Gelişmiş banka mutabakatı kullanarak banka ekstreleri arasında mutabakat sağlayın"
-description: "Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations Enterprise sürümündeki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda mutabakat işlemi açıklanmaktadır."
+description: "Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations uygulamasındaki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda mutabakat işlemi açıklanmaktadır."
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,19 +19,19 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b6c1b89256ab4b258f2901e47009a0eed573bd53
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: ed3a1fae6ca30b9411fde47e7ef8a08150d7d748
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
-# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Gelişmiş banka mutabakatı kullanarak banka ekstreleri arasında mutabakat sağlama
+# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Gelişmiş banka mutabakatı kullanarak banka ekstreleri arasında mutabakat sağlayın
 
 [!include[banner](../includes/banner.md)]
 
 
-Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations Enterprise sürümündeki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda mutabakat işlemi açıklanmaktadır.  
+Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations uygulamasındaki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu konuda mutabakat işlemi açıklanmaktadır.  
 
 <a name="import-an-electronic-bank-statement"></a>Elektronik banka ekstresini içe aktarma
 -----------------------------------

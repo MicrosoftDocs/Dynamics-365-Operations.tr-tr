@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1eb30ccbaa51bf794c7b3ea2be3fe749fb8ff88d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 02d28aef2316d7cfe5ad4eb45272dc1a22c96789
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -74,7 +74,7 @@ Her hareket (satış/satınalma belgesi satırları, günlükler vb.) üzerinde,
 Her harekette, hesaplanan satış vergisine **Satış vergisi hareketi** sayfasını açarak bakabilirsiniz . Belgenin tamamını veya bir belge satırı için satış vergisi arayabilirsiniz. Bazı belgeler için (örneğin, satıcı faturası ve genel günlükler), özgün belge sapmış tutarlar gösteriyorsa, hesaplanan satış vergisi ayarlayabilirsiniz.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Satış vergisi kapatması ve deftere nakli
-Satış vergisi, vergi dairesine düzenlenen aralıklarla (aylık, üç aylık, vb.) bildirilmeli ve ödenmelidir. Microsoft Dynamics 365 for Finance and Operations, Enterprise edition vergi hesaplarını aralık için kapatma ve vergi kapatma hesabındaki bakiyeleri mahsup etmeye, genel muhasebe nakil gruplarında belirtildiği gibi, olanak sağlan işlevsellik sağlar. Bu işleve **Satış vergisini kapatma ve deftere nakletme** sayfasında erişebilirsiniz. Satış vergisinin kapatılacağı satış vergisi kapatma dönemini belirtmeniz gerekir. 
+Satış vergisi, vergi dairesine düzenlenen aralıklarla (aylık, üç aylık, vb.) bildirilmeli ve ödenmelidir. Microsoft Dynamics 365 for Finance and Operations, genel muhasebe deftere nakil gruplarında belirtildiği gibi vergi hesaplarını aralık için kapatmaya ve vergi kapatma hesabındaki bakiyeleri mahsup etmeye olanak tanıyan işlevselliği sağlar. Bu işleve **Satış vergisini kapatma ve deftere nakletme** sayfasında erişebilirsiniz. Satış vergisinin kapatılacağı satış vergisi kapatma dönemini belirtmeniz gerekir. 
 
 Satış vergisi ödemesi yapıldıktan sonra, satış vergisi kapatma hesabındaki bakiye, banka hesabına karşı dengelenmelidir. Eğer satış vergisi kapatma döneminde belirtilen satış vergisi dairesi, satıcı hesabıyla ilişkiliyse, satış vergisi bakiyesi bir açık satıcı faturası olarak nakledilir ve düzenli ödeme teklifine sahil edilebilir.
 

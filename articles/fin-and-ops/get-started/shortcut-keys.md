@@ -1,6 +1,6 @@
 ---
 title: "Klavye kısayolları"
-description: "Aşağıdaki klavye kısayolları tüm Dynamics 365 for Finance and Operations, Enterprise edition genelinde geçerlidir."
+description: "Aşağıdaki klavye kısayolları tüm Dynamics 365 for Finance and Operations genelinde geçerlidir."
 author: jasongre
 manager: AnnBe
 ms.date: 12/12/2017
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 12/14/2017
 [!include[banner](../includes/banner.md)]
 
 
-Aşağıdaki klavye kısayolları tüm Dynamics 365 for Finance and Operations, Enterprise edition genelinde geçerlidir. 
+Aşağıdaki klavye kısayolları tüm Dynamics 365 for Finance and Operations genelinde geçerlidir. 
 
 **Not:** Burada anlatılan klavye kısayolları, ABD klavye düzenine göredir. Diğer klavye düzenlerindeki tuşlar ABD klavyedeki tuşlara tam olarak karşılık gelmeyebilir.
 
@@ -74,7 +74,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | FactBox bölmesini açma (veya zaten açıksa odağı FactBox bölmesine taşıma) | Alt+M,B veya Ctrl+F2                        |
 | FactBox bölmesini kapatma (odak FactBox bölmesindeyken)                         | Esc                                       |
 | Sonraki/önceki FactBox'a gitme (odak FactBox bölmesindeyken)              | Alt+Shift+Aşağı ok / Alt+Shift+Yukarı ok |
-| Sonraki/önceki &lt;n&gt;. FactBox'a gitme (odak FactBox bölmesindeyken)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| &lt;n&gt;. sıradaki Bilgi Kutusuna gitme (odak FactBox bölmesindedir)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Bir FactBox'ı genişletme (odak FactBox başlığındayken)                             | Boşluk veya Enter                            |
 | Geçerli FactBox'ı daraltma                                                    | Alt+0                                     |
 
@@ -115,11 +115,11 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | **Bunu yapmak için**                                      | **Basın**                                    |
 | Sonraki/önceki alana gitme                     | Tab / Shift+Tab                              |
 | Sonraki/önceki sekmesine gitme                       | Alt+Shift+Sağ ok / Alt+Shift+Sol ok |
-| &lt;n&gt;. sıradaki sekmeye git                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| &lt;n&gt;. sıradaki sekmeye gitme                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Sonraki/önceki hızlı sekmeye gitme                   | Alt+Shift+Aşağı ok / Alt+Shift+Yukarı ok    |
-| &lt;n&gt;. hızlı sekmeye git                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| &lt;n&gt;. sıradaki Hızlı Sekmeye gitme                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
 | Sonraki/önceki sekmeye (dikey sekme) taşı      | Alt+Shift+Sağ ok / Alt+Shift+Sol ok |
-| &lt;n&gt;. sekmeye (dikey sekme) taşı        | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| &lt;n&gt;. dikey pencereye (dikey sekme) taşı        | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Bir hızlı sekmeyi genişletme (odak hızlı şekme başlığındayken) | Boşluk veya Enter                               |
 | Geçerli hızlı sekmeyi daraltma                        | Alt+0                                        |
 | Kılavuz görünümüne geçme                                 | Ctrl+Shift+G                                 |

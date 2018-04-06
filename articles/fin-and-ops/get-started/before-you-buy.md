@@ -1,6 +1,6 @@
 ---
 title: "Satın almadan önce"
-description: "Dynamics 365 for Finance and Operations, Enterprise edition satın almayı düşündüğünüzde adım adım yönergeler."
+description: "Dynamics 365 for Finance and Operations, satın almayı düşündüğünüzde adım adım yönergeler."
 author: kfend
 manager: AnnBe
 ms.date: 07/10/2017
@@ -17,10 +17,10 @@ ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: 98740e5b992283b924adab34f291b9c1f2703457
-ms.openlocfilehash: d6c4e475925cdc94be614822ffb242eb7ac8cfa7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 160313ac375feb875982bfdbbd850db7f2d8be35
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -28,13 +28,13 @@ ms.lasthandoff: 01/31/2018
 
 [!include[banner](../includes/banner.md)]
 
-Dynamics 365 for Finance and Operations, Enterprise sürümünde neler yeni? Finance and Operations'ı değerlendirdiğiniz veya satın almaya hazır olduğunuz zamanlar için adım adım yönergeler hazırladık.
+Dynamics 365 for Finance and Operations'taki yenilikler nelerdir? Finance and Operations'ı değerlendirdiğiniz veya satın almaya hazır olduğunuz zamanlar için adım adım yönergeler hazırladık.
 
 ## <a name="step-one--try-out-finance-and-operations-free-for-30-days"></a>Adım bir: Finance and Operations'ı 30 gün ücretsiz deneyin
 Dynamics 365 for Finance and Operations'ı e-posta ile basitçe kaydolarak 30 gün deneyebilirsiniz. Finance and Operations'un deneme sürümü, çeşitli senaryoları görmenize olanak veren adım adım yönergeler sağlayan Başlarken görev kılavuzlarını içerir. Ürünün senaryoları keşfedilebilir ve denenebilir, ancak özelleştirilemez. Eklenmiş olan demo verileri, ürünün kullanımını kolaylaştırır ve deneyimi daha anlamlı hale getirir. Deneme süresinin sona ermesinden 3 gün önce bir anımsatıcı e-posta gönderilir. Ayrıntılara [www.microsoft.com/tr-tr/dynamics365/operations](https://www.microsoft.com/en-us/dynamics365/operations) adresinden ulaşın.
 
 ## <a name="step-two-choose-a-deployment-option"></a>Adım iki: Bir dağıtım seçeneği belirleme
-Şimdi bir Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünü bulutta veya şirket içinde dağıtabilirsiniz. Bulut dağıtımları, tümüyle Microsoft tarafından yönetilen bir ERP hizmeti sunarken, şirket içi dağıtımlar, müşterinin veri merkezinde yerel olarak dağıtılır.
+Microsoft Dynamics 365 for Finance and Operations'ı artık bulutta veya şirket içinde dağıtabilirsiniz. Bulut dağıtımları, tümüyle Microsoft tarafından yönetilen bir ERP hizmeti sunarken, şirket içi dağıtımlar, müşterinin veri merkezinde yerel olarak dağıtılır.
 
 Dağıtım seçeneği olarak şirket içini seçtiğinizde aşağıdaki önemli noktaların dikkate alınması gerekir:
 - [Bulut sertifikalarında](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities) mevcut olmayan düzenleme ve uyumluluk gereklilikleri
@@ -43,7 +43,7 @@ Dağıtım seçeneği olarak şirket içini seçtiğinizde aşağıdaki önemli 
 - [Altyapı minimum gereksinimleri](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
-> Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'ın şirket içi dağıtımları Azure dahil olmak üzere genel bulut alt yapısında desteklenmemektedir. 
+> Microsoft Dynamics 365 for Finance and Operations'ın şirket içi dağıtımları, Azure dahil olmak üzere genel bulut altyapısında desteklenmez. 
 
 Daha fazla bilgi için bkz. [Dağıtım seçenekleri](../../dev-itpro/deployment/choose-deployment-type.md).
 
@@ -70,7 +70,7 @@ Toplu Lisanslama'da, Finance and Operations şu şekilde kullanılabilir:
 Bir Microsoft Bulut Çözüm Sağlayıcı, işletmenizin veya kuruluşunuzun ihtiyaçlarını anlamak için sizinle bire bir çalışabilir. [Gereksinimlerinize uyacak bir ortak bulmak için Microsoft Partner Center portalını kullanın](https://partnercenter.microsoft.com/en-us/partner/home). 
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Bir Dynamics ortağı üzerinden satın alın (şirket içi)
-Finance and Operations şirket içi satın almak için bir ortak ile birlikte çalışmalısınız. Daha fazla bilgi için bkz. [Dynamics 365 for Finance and Operations, Enterprise sürümü (şirket içi) satın alma](purchase-on-premises.md)
+Finance and Operations şirket içi satın almak için bir ortak ile birlikte çalışmalısınız. Daha fazla bilgi için bkz. [Dynamics 365 for Finance and Operations (şirket içi) satın alma](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Destek seçeneğinizi belirleyin
 Microsoft, kullanıcılarının teknik sorunları hızlı şekilde çözebilmeleri ve Dynamics 365 yatırımınızdan maksimum faydayı alabilmeniz için esnek ve sektör lideri destek, hizmetler ve kaynaklar sunar. İş gereksinimlerinizi en iyi şekilde karşılayan bir plan seçin. 

@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 2c37f0253454a23d90904dd6b000b955146ad121
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2892feff0ab8845515543af1a71d8f9642113726
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/08/2018
 
 [!include[banner](../includes/banner.md)]
 
-Harici katalog kullanarak, daha sonra Dynamics 365 for Finance and Operations, Enterprise Edition Temmuz 2017'de işleyeceğiniz fiyat ve ürün bilgilerinin doğru ve güncel olmasını sağlayabilirsiniz. Talep daha sonra onaylanıp bir satın alma siparişine dönüştürülebilir ve sipariş satıcıya yerleştirilebilir.
+Harici katalog kullanarak, daha sonra Dynamics 365 for Finance and Operations Temmuz 2017'de işleyeceğiniz fiyat ve ürün bilgilerinin doğru ve güncel olmasını sağlayabilirsiniz. Talep daha sonra onaylanıp bir satın alma siparişine dönüştürülebilir ve sipariş satıcıya yerleştirilebilir.
 
 Harici katalog ayarlandığında ve bir çalışan bir talep hazırladığında, harici siteye, harici kataloğa yönlendirme ve harici sitede oluşturulan alışveriş sepetine geri dönme seçeneği olacaktır. Bu iletişim cXML protokolünü temel alır ve satınalma ve satış kuruluşunun sistemleri arasında ayarlanmalıdır.
 
@@ -85,7 +85,7 @@ Aşağıda şablonda bulunan etiketlerin açıklamasını bulabilirsiniz:
 
 İkincil öğe, çıkış yapan kullanıcının adına dayanan kullanıcı adı gibi bir ek bilgidir. İkincil öğe, çıkış yapma gerçekleştiğinde ayarlanır ve talep kurulum iletisinde gönderilebilir.
 Satıcınızın kurulum isteğinde bir ikincil öğe almak gibi bir gereksinimi olabilir. Bu durumda, **Harici katalog** sayfasının **İleti biçimi** bölümündeki ikincil öğeler listesine ikincil öğe eklemeniz gerekir. İkincil öğe için satıcının tanıyabileceği ve bir değerle eşleyebileceği için bir ad belirtin. Değerler için seçenekler şunlardır: Kullanıcı adı, Kullanıcı e-postası veya Rasgele değer.
-CXML protokolü hakkında daha fazla bilgi için bkz: http://cxml.org/
+cXML protokolü hakkında daha fazla bilgi için bkz. http://cxml.org/.
 
 ## <a name="post-back-message"></a>Geri gönderme iletisi
 Geri gönderme iletisi, kullanıcı harici siteden çıkış yapıp Finance and Operations'a döndüğünde satıcı tarafından gönderilen iletidir. Geri gönderme iletileri yapılandırılamaz. İletiler cXML protokolü tanımını temel alır. Bir talep satırında alınan geri gönderme iletisinin parçası olabilecek bilgiler aşağıda verilmektedir:

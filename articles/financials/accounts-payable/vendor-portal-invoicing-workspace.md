@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ff1818d927f7ab9212c4d5d9109c426be5e0e152
-ms.openlocfilehash: 0d11e4fecc4c42636be63c1ce622f0b2f8e58f2c
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2368fae3913f67d9d2ce0bbe6b2e0bee7968bb15
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/29/2017
 
 Bu konuda, satıcı faturalarını görüntüleme ve satıcı iş birliği faturalama çalışma alanından faturaları gönderme açıklanmaktadır.
 
-**Satıcı iş birliği faturalama** çalışma alanı, satıcı faturası bilgilerini görüntülemek ve iş akışı özelliklerini kullanarak Microsoft Dynamics 365 Finance and Operations, Enterprise Edition uygulamasına fatura göndermek için kullanılabilir.
+**Satıcı iş birliği faturalama** çalışma alanı, satıcı faturası bilgilerini görüntülemek ve iş akışı özelliklerini kullanarak Microsoft Dynamics 365 for Finance and Operations'a fatura göndermek için kullanılabilir.
 
 
 <a name="vendor-collaboration-invoicing-workspace"></a>Satıcı işbirliği faturalama çalışma alanı

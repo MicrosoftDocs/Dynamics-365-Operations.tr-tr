@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: d527df21e791978b41527c01c2e6b68b393861ac
-ms.openlocfilehash: 90dc6214f1eb31440a3ec78a58c6a07394245cd2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 33a8bc78006ae9e7d5ca905a98886fd7af706604
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/28/2018
 
 [!include[banner](../includes/banner.md)]
 
-**Mali Bilgiler** mali anahtar performans göstergeleri (KPI'lar), mali tablolar ve grafikleri bir araya getirmek için Microsoft Power BI kullanır. Power BI Microsoft Dynamics 365 Finance and Operations, Enterprise edition içine katıştırılmıştır.
+**Mali Bilgiler** mali anahtar performans göstergeleri (KPI'lar), mali tablolar ve grafikleri bir araya getirmek için Microsoft Power BI kullanır. Power BI Microsoft Dynamics 365 Finance and Operations içine katıştırılmıştır.
 **Mali Bilgiler**'in odağı analitik raporlamadır. Bir kuruluştaki kişiler görüntüleyebilir, araştırma yapabilir, anlayabilir ve harekete geçebilir. 
 
 **Mali Bilgiler** bir kuruluşun mali durumuna ilişkin eksiksiz bir görünüm sağlamak amacıyla genel muhasebe ve yardımcı muhasebe defterlerinden alınan verileri bir araya getirir.

@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 24a17d3734e39815684098f694a77e96cdbc1cfe
-ms.openlocfilehash: 2d879ee5a23e3263c9dce52f4732a2be74e60f8e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 76c2b078b583a1f8f2235eef15dbba514e57b0f8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/07/2018
 
 [!include[banner](../includes/banner.md)]
 
-**Satıcı işbirliği** modülü Microsoft Dynamics 365 for Finance and Operations, Enterprise edition ile elektronik veri alış verişi (EDI) tümleştirmesi olmayan satıcılar için tasarlanmıştır. Satıcıların satınalma siparişleri (PO'lar), faturalar, konsinye stok bilgileri ve teklif talepleri (RFQ'lar) ile çalışmasına ve satıcı ana verilerinin bir bölümüne erişebilmelerine olanak tanır. Bu konuda PO'lar, RFQ'lar ve konsinye stokla çalışmak için satıcı iş birliği arabirimini kullanan harici satıcılarla nasıl iş birliği yapabileceğiniz açıklanmaktadır. Ayrıca belirli bir satıcının satıcı iş birliğini kullanmak üzere nasıl etkinleştirileceği ve tüm satıcıların bir PO'ya yanıt verdiklerinde görecekleri bilgilerin nasıl tanımlanacağı da açıklanır.
+**Satıcı iş birliği** modülü Microsoft Dynamics 365 for Finance and Operations ile elektronik veri alış verişi (EDI) tümleştirmesi olmayan satıcılar için tasarlanmıştır. Satıcıların satınalma siparişleri (PO'lar), faturalar, konsinye stok bilgileri ve teklif talepleri (RFQ'lar) ile çalışmasına ve satıcı ana verilerinin bir bölümüne erişebilmelerine olanak tanır. Bu konuda PO'lar, RFQ'lar ve konsinye stokla çalışmak için satıcı iş birliği arabirimini kullanan harici satıcılarla nasıl iş birliği yapabileceğiniz açıklanmaktadır. Ayrıca belirli bir satıcının satıcı iş birliğini kullanmak üzere nasıl etkinleştirileceği ve tüm satıcıların bir PO'ya yanıt verdiklerinde görecekleri bilgilerin nasıl tanımlanacağı da açıklanır.
 
 Satıcıların harici satıcı iş birliği arabiriminde yapabilecekleri hakkında daha fazla bilgi için bkz. [Müşterilerle satıcı iş birliği](vendor-collaboration-work-customers-dynamics-365-operations.md).
 

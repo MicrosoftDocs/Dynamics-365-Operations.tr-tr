@@ -17,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 2c8570984e44499d8cc5d45ab38da43f461c61e9
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 532834b377cfb8eda4902c387a850314302b22d8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ Bu konu, **Kazançlar** Microsoft Power BI içeriğini açıklar. Bu ayrıca, i�
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
 **Kazançlar** Power BI içeriği **Kazanç yönetimi** çalışma alanında, aşağıdaki ürünlerden birini kullanıyorsanız gösterilir:
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü
+- Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan raporlar

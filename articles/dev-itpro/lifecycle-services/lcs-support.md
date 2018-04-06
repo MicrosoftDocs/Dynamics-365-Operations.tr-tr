@@ -1,6 +1,6 @@
 ---
 title: "Finance and Operations ve Dynamics Lifecycle Services için destek bulun"
-description: "Bu makale Microsoft Dynamics 365 for Finance and Operations, Enterprise edition veya Microsoft Dynamcis Lifecycle Services (LCS) için nasıl yardım alınacağını açıklar."
+description: "Bu makale Microsoft Dynamics 365 for Finance and Operations veya Microsoft Dynamcis Lifecycle Services (LCS) için nasıl yardım alınacağını açıklar."
 author: kfend
 manager: AnnBe
 ms.date: 06/23/2017
@@ -18,14 +18,14 @@ ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d5593c54cf139e38da51a0932382a4baecb83898
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a078631d1661d7d61156b9d85c18172abd79827d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
-# <a name="find-support-for-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-and-dynamics-lifecycle-services"></a>Microsoft Dynamics 365 for Finance and Operations Enterprise Edition ve Microsoft Lifecycle Services için destek bulma
+# <a name="find-support-for-microsoft-dynamics-365-for-finance-and-operations-and-dynamics-lifecycle-services"></a>Microsoft Dynamics 365 for Finance and Operations ve Microsoft Lifecycle Services için destek bulma
 
 [!include[banner](../includes/banner.md)]
 

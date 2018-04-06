@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: e4459e8be4bfab8e0789744eacd533286b6c05e0
+ms.sourcegitcommit: ba1a3a78d59f3aec91473ba9bb20bda4804ec92e
+ms.openlocfilehash: 0a43f5ff0987ede9f0cb80e5b4854f78e19e329b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/23/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent sağlama
@@ -47,13 +47,14 @@ Talent'ı kullanmaya başlamayla ilgili bilgiler için yeni projede oluşturduğ
 Bir LCS projesi oluşturduktan sonra, bir ortama Talent sağlayabilirsiniz.
 
 1. LCS projenizde **Talent Uygulama Yöneticisi** kutucuğunu seçin.
-2. Talent, PowerApps tümleştirmesi ve genişletilebilirliği sağlamak amacıyla daima bir Microsoft PowerApps ortamında sağlanır. Bir PowerApps ortamınız yoksa devam etmeden önce bu konuda yer alan "Yeni bir PowerApps ortamı oluşturma (gerekirse)" bölümündeki adımları izleyin.
+2. Talent, PowerApps tümleştirmesi ve genişletilebilirliği sağlamak amacıyla daima bir Microsoft PowerApps ortamında sağlanır. Devam etmeden önce bu konudaki "PowerApps ortamı seçme" bölümünü okuyun. 
+3. Bir PowerApps ortamınız yoksa devam etmeden önce bu konuda yer alan "Yeni bir PowerApps ortamı oluşturma (gerekirse)" bölümündeki adımları izleyin.
 
     > [!NOTE]
     > Varolan ortamları görüntülemek veya yeni ortamlar oluşturmak için, Talent'ı sağlayan kiracı yöneticisine PowerApps P2 lisansı atanması gerekir. Kuruluşunuzun PowerApps P2 lisansı yoksa, bir CSP'den veya [PowerApps fiyatlandırma sayfasından](https://powerapps.microsoft.com/en-us/pricing/) bir lisans satın alabilirsiniz.
 
-3. **Ekle**'yi ve ardından Talent sağlayacağınız ortamı seçin.
-4. Koşulları kabul etmek için **Evet**'i seçin ve dağıtıma başlayın.
+4. **Ekle**'yi ve ardından Talent sağlayacağınız ortamı seçin.
+5. Koşulları kabul etmek için **Evet**'i seçin ve dağıtıma başlayın.
 
     Yeni ortamınız, soldaki gezinti bölmesinde bulunan ortam listesinde görüntülenir. Bununla birlikte, dağıtım durumunu **Dağıtıldı** olarak güncelleştirilene kadar ortamı kullanmaya başlayamazsınız. Tipik olarak bu işlem birkaç dakika sürebilir. Sağlama işlemi başarısız olursa Desteğe başvurmanız gerekir.
 
@@ -65,32 +66,64 @@ Bir LCS projesi oluşturduktan sonra, bir ortama Talent sağlayabilirsiniz.
 > [!NOTE]
 > LCS aracılığıyla sağlanan Talent ortamları, İnsan Kaynakları (İK) görevleri için yapılandırılmış veya Talent'e özgü olan gösteri verilerini içermez. Demo verileri içeren bir ortama ihtiyaç duyarsanız 60 günlük ücretsiz [Talent deneme ortamına](https://dynamics.microsoft.com/en-us/talent/overview/) kaydolmanızı öneririz. Deneme ortamı, talep eden kullanıcıya ait olmakla birlikte, diğer kullanıcılar Ana İK için sistem yönetimi deneyimi aracılığıyla davet edilebilir. Deneme ortamları, programı güvenli bir şekilde keşfetmek için kullanılabilen hayali veriler içerir. Üretim ortamı olarak kullanılmaları amaçlanmamıştır. Deneme ortamının 60 gün sonra geçersiz olduğunda ortamdaki tüm verilerin silineceğini ve kurtarılamayacağını unutmayın. Mevcut ortam geçersiz olduktan sonra yeni bir deneme ortamına kaydolabilirsiniz.
 
+## <a name="select-a-powerapps-environment"></a>PowerApps ortamı seçme
+
+Talent ve PowerApps ortamları arasındaki tümleştirme, PowerApps araçlarını kullanarak Talent verilerinin kullanımını tümleştirmenizi ve genişletmenizi sağlar. PowerApps ortamlarının amacını anlamak yalnızca Talent'ı genişletecek uygulamalar oluşturmanıza değil aynı zamanda Talent'ı sağlarken doğru ortamı seçmenize de yardımcı olur. PowerApps ortamları hakkında ortamın kapsamı, ortama erişim ile ortam oluşturma ve seçme de dahil olmak üzere bilgi edinmek için bkz. [PowerApps ortamları duyurusu](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/). 
+
+Talent'ı hangi PowerApps ortamına dağıtacağınızı belirlerken aşağıdaki yönergeleri kullanın: 
+1. LCS'de Ortamları yönet öğesini seçin veya doğrudan mevcut ortamları görebileceğiniz ve yeni ortamlar oluşturabileceğiniz PowerApps Yönetim merkezine gidin.
+2. Tek bir PowerApps ortamına tek bir Talent ortamı eşlenir.
+3. PowerApps ortamı ilgili PowerApps, Flow ve CDS uygulamalarının yanı sıra Talent uygulamasını "içerir". PowerApps ortamı silinirse, içerdiği uygulamalar da silinir.
+4. Veri tümleştirme ve test stratejileri göz önünde bulundurmalıdır: örneğin Korumalı alan, UAT, Üretim. Bu nedenle, Talent ortamının eşlendiği PowerApps ortamını daha sonra değiştirmek kolay olmayacağından, dağıtımınızla ilgili çeşitli etkileri değerlendirmenizi öneririz.
+5. Aşağıdaki PowerApps ortamları Talent için kullanılamaz ve LCS'deki seçim listesinden filtrelenecektir:
+ 
+    **CD 2.0 Ortamları** CDS 2.0 21 Mart 2018'de genel kullanıma sunulacaktır ancak Talent henüz CDS 2.0'ı desteklememektedir. PowerApps Yönetim merkezinden CDS 2.0 veritabanları oluşturabilir ve görüntüleyebilirsiniz ancak bunları Talent'ta kullanamazsınız. CDS 2.0 Ortamlarını Talent dağıtımlarında kullanma seçeneği ileri bir tarihte kullanılabilir olacaktır.
+   
+ > [!Note]
+ > Yönetim portalında CDS 1.0 ve 2.0 ortamlarını birbirinden ayırmak için bir ortam seçin ve **Ayrıntılar**'a bakın. CD 2.0 ortamlarının tümü "Bu ayarları Dynamics 365 Yönetim Merkezinde yönetebilirsiniz" referansıyla bir örnek sürüme yönlendirir ve Veritabanı sekmesi bulunmaz. 
+ 
+   **Varsayılan Power Apps ortamları** Her kiracıya otomatik olarak varsayılan bir PowerApps ortamı sağlanmasına karşın tüm kiracı kullanıcıların PowerApps ortamına erişimi olduğundan ve kiracılar PowerApps veya Flow tümleştirmelerini test ederken ve keşfederken yanlışlıkla üretim verilerine zarar verebileceklerinden, bu alanların Talent ile kullanılmasını önermiyoruz.
+   
+   **Deneme Sürüşü ortamları** ‘TestDrive – alias@domain’ gibi bir ada sahip ortamlar 60 günlük kullanım için oluşturulur ve süre dolduğunda sonlandırılarak ortamınızın otomatik olarak kaldırılmasına neden olur.
+   
+   **Desteklenmeyen bölgeler** Talent şu anda yalnızca şu bölgelerde desteklenmektedir: Amerika Birleşik Devletleri, Avrupa veya Avustralya.
+  
+6. Kullanılacak doğru ortamı belirledikten sonra gerçekleştirmeniz gereken belirli bir eylem yoktur. Sağlama işlemine devam edin. 
+ 
 ## <a name="create-a-new-powerapps-environment-if-required"></a>Yeni bir PowerApps ortamı oluşturma (gerekirse)
-Talent ve PowerApps ortamları arasındaki tümleştirme, PowerApps araçlarını kullanarak Talent verilerinin kullanımını tümleştirmenizi ve genişletmenizi sağlar. PowerApps ortamlarının amacını anlamak, Talent'i genişletmek için ihtiyacınız olan uygulamaları oluşturmanıza yardımcı olur. PowerApps ortamları hakkında ortamın kapsamı, ortama erişim ile ortam oluşturma ve seçme de dahil olmak üzere bilgi edinmek için bkz. [PowerApps ortamları duyurusu](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/). Her kiracıya Varsayılan PowerApps ortamı otomatik olarak sağlanmasına karşın bu ortam, Talent dağıtımınız için kullanılacak en iyi ortam olmayabilir. Veri tümleştirme ve test stratejileri bu adımda değerlendirilmelidir. Daha sonra bazı kararların değiştirilmesi kolay olmayacağından, dağıtımınızı etkileyebilecek çeşitli etkileri değerlendirmenizi öneririz. 
 
-Her kiracıya Varsayılan PowerApps ortamı otomatik olarak sağlanmasına rağmen bu ortam, Talent dağıtımınız için kullanılacak en iyi ortam olmayabilir. Bu adım sırasında veri tümleştirme ve test stratejileri dikkate alınmalıdır. Bu nedenle, PowerApps ortamını daha sonra değiştirmek kolay olmayacağından, dağıtımınızla ilgili çeşitli etkileri değerlendirmenizi öneririz.
+PowerApps 2 lisansına sahip kiracı yönetici bağlamında Talent için yeni bir PowerApps ortamı oluşturmak için PowerShell komut dosyası çalıştırın. Komut dosyası otomatik olarak aşağıdaki adımları gerçekleştirir:
 
-1. LCS'de **Ortamları yönet**'i seçin. Mevcut ortamları görebileceğiniz ve yeni ortamlar oluşturabileceğiniz [PowerApps Yönetici merkezine](https://preview.admin.powerapps.com/environments) yönlendirilirsiniz.
-2. **Yeni Ortam**'ı seçin.
-3. Ortam için benzersiz bir ad girin ve dağıtmak için konum seçin.
 
-    > [!NOTE]
-    > Talent tüm bölgelerde kullanılamaz. Bu nedenle, ortamınız için konum seçmeden önce kullanılabilirliği kontrol ettiğinizden emin olun.
+ + PowerApps ortamı oluşturma
+ + CDS 1.0 veritabanı oluşturma
+ + CDS 1.0 veritabanındaki tüm örnek verileri temizleme
 
-4. Bir veritabanı oluşturmak isteyip istemediğiniz sorulduğunda, Talent verilerinizi barındıracak olan bir Common Data Service (CDS) veritabanı oluşturmak için **Veritabanı oluştur**'u seçin. Bir veritabanı oluşturarak, PowerApps uygulamalarını Talent ile tümleştirebilirsiniz.
-5. Veritabanı için kullanacağınız erişim düzeyi sorulur. **Erişimi kısıtla** seçeneğini belirlemenizi öneririz. Çünkü bu seçenek Talent kullanıcılarının PowerApps uygulamasını kullanarak hassas verilere doğrudan erişimini engeller.
-6. Oluşturulan CDS veritabanı üretim ortamınıza, diğer bilgilerin yanında etkin olmayan personel ve hayali adresler ekleyen demo veriler içerir. Demo verileri kaldırmak için, CDS veritabanını oluşturmayı tamamladıktan sonra aşağıdaki adımları uygulayın:
 
-    > [!IMPORTANT]
-    > Daha önce bir CDS veritabanı oluşturup şirketinizin üretim verilerini bu veritabanına girdiyseniz bu adımlar seçilen veritabanındaki şirketinizin üretim verileri de dahil olmak üzere **tüm** verileri siler.
+Komut dosyasını çalıştırmak için aşağıdaki yönergeleri izleyin:
 
-    1. [PowerApps](https://preview.web.powerapps.com/home) uygulamasında oturum açın.
-    2. Sağ üstteki açılır listede 2. adımda oluşturduğunuz ortamı seçin.
-    3. Soldaki gezinme bölmesinde **Common Data Service**'i genişletin ve ardından **Varlıklar**'ı seçin.
-    4. Sayfanın sağ tarafında, elips (**…**) düğmeyi seçin ve ardından **Tüm verileri temizle**'yi seçin.
-    5. Verileri kaldırmak istediğinizi onaylamak için **Verileri sil**'i seçin. Bu eylem varsayılan olarak CDS'ye dahil edilen tüm demo verileri kaldırır. Ayrıca, seçilen veritabanına girilmiş olan diğer tüm bilgileri de kaldırır.
+1. Şu konumdan ProvisionCDSEnvironment.zip dosyasını indirin: [ProvisionCDSEnvironment komut dosyaları](https://go.microsoft.com/fwlink/?linkid=870436)  
 
-Artık yeni ortamınızı kullanabilirsiniz.
+2. ProvisionCDSEnviroinment.zip dosyasının tüm içeriğini başka bir klasöre çıkarın.
+
+3. Yönetici olarak Windows PowerShell veya Windows PowerShell ISE programını çalıştırın.
+
+   Komut dosyasının çalışabilmesi için yürütme ilkesini ayarlama hakkında daha fazla bilgi için [Yürütme İlkesi Ayarlama](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) konusuna bakın.
+  
+4. PowerShell içinde, dosyayı çıkardığınız klasöre gidin ve değerleri aşağıda belirtildiği şekilde değiştirerek komutu çalıştırın:
+ 
+   ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
+
+    
+   **EnvironmentName** ortam adınız ile değiştirilmelidir. Bu ad LCS'de görüntülenir ve kullanıcılar kullanılacak Talent ortamını seçerken gösterilir. 
+
+   **YourLocation** Talent için desteklenen bölgelerden biriyle değiştirilir: amerika birleşik devletleri, avrupa, avustralya. 
+
+   **-Verbose** isteğe bağlıdır ve sorunla karşılaşırsanız destek birimine gönderilmek üzere ayrıntılı bilgiler sağlar.
+
+5. Sağlama işlemine devam edin.
+ 
+
 
 ## <a name="grant-access-to-the-environment"></a>Ortama erişim izni verme
 Varsayılan olarak, ortamı oluşturan genel yöneticinin ortama erişimi vardır. Ancak ek uygulama kullanıcılarına erişim izninin açıkça verilmesi gerekir. Erişim izni vermek için Ana İK ortamında [kullanıcılar ekleyin](../dev-itpro/sysadmin/tasks/create-new-users.md) ve [kullanıcılara uygun roller atayın](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md). Attract ve Onboard uygulamalarına erişebilmeleri için bu kullanıcıları PowerApps ortamına da eklemeniz gerekir. Yordam burada özetlenmiştir. Adımları tamamlamak için yardım gereksiniminiz varsa [PowerApps yönetim merkezine giriş](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/) başlıklı blog gönderisine bakın.
@@ -101,5 +134,5 @@ Bu yordam, Talent ortamını dağıtan genel yönetici tarafından tamamlanır.
 2. İlgili ortamları seçin.
 3. **Güvenlik** sekmesinde gereken kullanıcıları **Ortam Oluşturucu** rolüne ekleyin.
 
-Kullanıcıların PowerApps ortamına el ile eklendiği bu son adımın geçici olduğunu unutmayın. Sonuçta, kullanıcılar Ana İK'ya eklendiğinde otomatik olarak tamamlanacaktır.
+    Kullanıcıların PowerApps ortamına el ile eklendiği bu son adımın geçici olduğunu unutmayın. Sonuçta, kullanıcılar Ana İK'ya eklendiğinde otomatik olarak tamamlanacaktır.
 

@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ef108fb7be65b91c531db750018f00f7fdd67da1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -58,7 +58,7 @@ Bu konu ürün bilgileri yönetimi hakkında bilgiler sağlar. Ürün bilgileri 
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Ürün verilerini dağıtma, dışa aktarma ve içe aktarma
 
-Ürün tanımı Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümünde oluşturulabilir. Ayrıca ürün yaşam döngüsü yönetimi (PLM), ürün veri yönetimi (PDM) veya ürün bilgi yönetimi (PIM) sistemlerinden de alınabilir. Birden fazla Finance and Operations kurulumu kullanıldığında, bir kurulum diğer tüm kurulumlar için tipik olarak ürün verileri aslı olarak kullanılır. Bu yaklaşım, bir kurulumdan diğerine ürün tanımı bilgilerini aktarmaya olanak tanıyan geniş bir veri varlıkları kümesi tarafından desteklenir.
+Ürün tanımı Microsoft Dynamics 365 for Finance and Operations'da oluşturulabilir. Ayrıca ürün yaşam döngüsü yönetimi (PLM), ürün veri yönetimi (PDM) veya ürün bilgi yönetimi (PIM) sistemlerinden de alınabilir. Birden fazla Finance and Operations kurulumu kullanıldığında, bir kurulum diğer tüm kurulumlar için tipik olarak ürün verileri aslı olarak kullanılır. Bu yaklaşım, bir kurulumdan diğerine ürün tanımı bilgilerini aktarmaya olanak tanıyan geniş bir veri varlıkları kümesi tarafından desteklenir.
 
 Ürün verilerinin birden çok kuruluma dağıtılmasını desteklemek amacıyla Finance and Operations Common Data Service kullanmanıza olanak tanır. Ürün tanımları bir Finance and Operations kurulumundan Common Data Service'a aktarılabilir. Ürün tanımları daha sonra ürün verileriyle Microsoft Dynamics 365 for Sales gibi diğer iş uygulamalarını sağlamak için kullanılabilir.
 

@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: b0a1dba5afbd7beba45149340f637223f6ecedcf
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 631fa7bae808856efb8b95700fd2a85e6d5f8725
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="design-expressions-to-call-application-class-methods-er"></a>Uygulama sınıfı yöntemlerini çağırmak için ifadeler tasarlama (ER)
@@ -34,7 +34,7 @@ Bu adımları tamamlamak için ilk olarak "ER Yapılandırma sağlayıcısı olu
 
 1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.
     * Örnek şirket Litware, Inc. için yapılandırma sağlayıcısının kullanılabilir olduğunu ve etkin olarak işaretlendiğini doğrulayın. Bu yapılandırma sağlayıcısını göremiyorsanız öncelikle "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir.   
-    * Bir uygulamanın veri güncelleştirmesi için gelen banka ekstrekerini ayrıştırmak üzere bir işlem tasarladığınızı varsayalım. Gelen banka ekstrelerini IBAN kodlarını içeren TXT dosyaları olarak alacaksınız. Banka ekstresini içe aktarma işleminin bir parçası olarak, halihazırda Dynamics 365 for Finance and Operations, Enterprise edition'da mevcut olan mantığı kullanarak bu IBAN kodlarının doğru olduklarını doğrulamanız gerekir.   
+    * Bir uygulamanın veri güncelleştirmesi için gelen banka ekstrekerini ayrıştırmak üzere bir işlem tasarladığınızı varsayalım. Gelen banka ekstrelerini IBAN kodlarını içeren TXT dosyaları olarak alacaksınız. Banka ekstresini içe aktarma işleminin bir parçası olarak, halihazırda Dynamics 365 for Finance and Operations'da mevcut olan mantığı kullanarak bu IBAN kodlarının doğru olduklarını doğrulamanız gerekir.   
 
 ## <a name="import-a-new-er-model-configuration"></a>Yeni bir ER modeli yapılandırmasını içe aktarma
 1. Listede, istenen kaydı bulun ve seçin.

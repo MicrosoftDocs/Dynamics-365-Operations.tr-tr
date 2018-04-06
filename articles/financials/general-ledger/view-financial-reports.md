@@ -1,6 +1,6 @@
 ---
 title: "Mali raporları görüntüle"
-description: "Bu makale Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümündeki mali raporların nasıl görüntüleneceğini ve keşfedileceğini açıklar. Görünümlerini ve içerdikleri veriyi değiştirmek için finansal raporlara uygulayabileceğiniz çeşitli seçenekler hakkında bilgiler içerir."
+description: "Bu makale, Microsoft Dynamics 365 for Finance and Operations'ta mali raporların nasıl görüntüleneceğini ve keşfedileceğini açıklar. Görünümlerini ve içerdikleri veriyi değiştirmek için finansal raporlara uygulayabileceğiniz çeşitli seçenekler hakkında bilgiler içerir."
 author: kweekley
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 61763e57a54a24665d7ca899d8a26cf9e4d3984b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 055001c992e70ceacf57cf25a8bf83207d8d7334
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makale Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümündeki mali raporların nasıl görüntüleneceğini ve keşfedileceğini açıklar. Görünümlerini ve içerdikleri veriyi değiştirmek için finansal raporlara uygulayabileceğiniz çeşitli seçenekler hakkında bilgiler içerir.
+Bu makale, Microsoft Dynamics 365 for Finance and Operations'ta mali raporların nasıl görüntüleneceğini ve keşfedileceğini açıklar. Görünümlerini ve içerdikleri veriyi değiştirmek için finansal raporlara uygulayabileceğiniz çeşitli seçenekler hakkında bilgiler içerir.
 
 <a name="financial-reporting-overview"></a>Mali raporlamaya genel bakış
 ----------------------------
 
 ## <a name="open-a-financial-report"></a>Bir mali rapor açma
-Bir rapor açmak için raporun adını seçin. Bir rapor ilk defa açıldığında otomatik olarak önceki ay için oluşturulur. Örneğin, bir raporu ilk kez Ağustos 2015'de açarsanız, rapor 31 Temmuz 2015 tarihi için oluşturulur. Rapor açıldıktan sonra, belirli veri parçalarında ayrıntıya inerek ve rapor seçeneklerini değiştirerek keşfetmeye başlayabilirsiniz.
+Bir rapor açmak için raporun adını seçin. Bir rapor ilk defa açıldığında otomatik olarak önceki ay için oluşturulur. Örneğin, bir raporu ilk kez Ağustos 2015'te açarsanız rapor 31 Temmuz 2015 tarihi için oluşturulur. Rapor açıldıktan sonra, belirli veri parçalarında ayrıntıya inerek ve rapor seçeneklerini değiştirerek keşfetmeye başlayabilirsiniz.
 
 ## <a name="drill-down-on-a-financial-report"></a>Bir mali raporu ayrıntılı inceleme
 Mali raporlar birden çok ayrıntı düzeyi içerebilir. Mali düzey bir mali raporu ilk defa açtığınızda gördüğünüz düzeydir. Muhasebe düzeyine gitmek için ayrıntılı şekilde gözden geçirilecek verileri seçin. Örneğin, satışlar için hesap ayrıntılarını görmek için derinlemesine incelemek istediğiniz satış verilerini seçin. Hesap düzeyinden, hesap bakiyesini oluşturan hareketleri görüntüleyebilirsiniz. Hareketlerin görüntülenmesi için rapor hareketleri ve fiş hareketleri olmak üzere iki yöntem mevcuttur.

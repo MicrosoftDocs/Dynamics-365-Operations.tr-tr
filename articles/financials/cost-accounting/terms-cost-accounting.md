@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 957acdbbc6bba83b8b2e2b83fdf266524385141d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -40,7 +40,7 @@ Tahsisat tabanı, kullanılan makine saatleri, tüketilen kilovat saat veya dold
 
 **Maliyet muhasebesi**
 
-Maliyet muhasebesi; genel muhasebe, muavin defterler, bütçeler ve istatistiksel bilgiler gibi çeşitli kaynaklardan veri toplamanıza olanak sağlar. Maliyet verilerini analiz edebilir, özetleyebilir ve değerlendirebilirsiniz. Böylelikle yönetim; fiyat güncelleştirmeleri, bütçeler, maliyet kontrolü ve bu gibi konularda en iyi kararı verebilir. Maliyet analizinde kullanılan kaynak verileri, Maliyet muhasebesinde bağımsız olarak ele alınır. Bu nedenle, maliyet muhasebesindeki güncelleştirmeler kaynak veriyi etkilemez. Ancak çeşitli kaynaklardan maliyet verileri toplandığında ve özellikle ana hesapları genel muhasebeden Microsoft Dynamics 365 for Finance and Operation, Enterprise sürümüne maliyet öğeleri olarak içe aktardığınızda aynı bilgi hem genel muhasebede hem de maliyet muhasebesinde bulunduğundan veri fazlalığı meydana gelir. Bu fazlalık gereklidir, çünkü harici raporlama için mali yönetimi ve dahili raporlama için maliyet muhasebesini kullanırsınız.
+Maliyet muhasebesi; genel muhasebe, muavin defterler, bütçeler ve istatistiksel bilgiler gibi çeşitli kaynaklardan veri toplamanıza olanak sağlar. Maliyet verilerini analiz edebilir, özetleyebilir ve değerlendirebilirsiniz. Böylelikle yönetim; fiyat güncelleştirmeleri, bütçeler, maliyet kontrolü ve bu gibi konularda en iyi kararı verebilir. Maliyet analizinde kullanılan kaynak verileri, Maliyet muhasebesinde bağımsız olarak ele alınır. Bu nedenle, maliyet muhasebesindeki güncelleştirmeler kaynak veriyi etkilemez. Ancak çeşitli kaynaklardan maliyet verileri topladığınızda ve özellikle ana hesapları genel muhasebeden Microsoft Dynamics 365 for Finance and Operations'a maliyet öğesi olarak içe aktardığınızda, aynı bilgi hem Genel muhasebede hem de Maliyet muhasebesinde bulunduğundan veri fazlalığı meydana gelir. Bu fazlalık gereklidir, çünkü harici raporlama için mali yönetimi ve dahili raporlama için maliyet muhasebesini kullanırsınız.
 
 **Maliyet muhasebesi defteri**
 
@@ -120,7 +120,7 @@ Maliyet oranı, maliyet nesnesi başına fiyatı hesaplamak için kullanılır. 
 Maliyet muhasebesi, verinin kaynak sistemden bir dizi veri bağlantısı aracılığıyla tümleştirilmesini destekler. Aşağıdaki veri bağlantıları mevcuttur:
 
 -  İçe aktarılan hareketler (önceden yapılandırılmış)
--  Dynamics 365 for Finance and Operations Enterprise edition (önceden yapılandırılmış)
+-  Dynamics 365 for Finance and Operations (önceden yapılandırılmış)
 -  Dynamics AX (yapılandırma gerekli)
 
 **Not:** Veri bağlayıcı İçe aktarılan hareketler, veri varlıklarına dayanır.
@@ -129,7 +129,7 @@ Maliyet muhasebesi, verinin kaynak sistemden bir dizi veri bağlantısı aracıl
 
 Birçok kaynak sistem, Maliyet muhasebesinde bir veya daha fazla veri kaynağıyla eşleşen veriler sağlayabilir. Maliyet muhasebesinde veri kaynağı ile kaynak sistemden gelen veriyi hizalamak için bir veri sağlayıcısının yapılandırılmış olması gerekir. Aşağıdaki tablo, veri bağlayıcı ve veri kaynağı başına veri sağlayıcıların kullanılabilirliğini listeler.
 
-|  **Veri kaynakları** |  **İçe aktarılan hareketler veri bağlayıcısı** | **Dynamics 365 for Finance and Operations, Enterprise edition veri bağlayıcısı**  | **Dynamics AX veri bağlayıcısı**  |
+|  **Veri kaynakları** |  **İçe aktarılan hareketler veri bağlayıcısı** | **Dynamics 365 for Finance and Operations veri bağlayıcısı**  | **Dynamics AX veri bağlayıcısı**  |
 |---|---|---|---|
 | Maliyet öğesi boyut üyeleri  |  Evet | Evet  | Evet  |
 |  Maliyet nesnesi boyut üyeleri |  Evet | Evet  | Evet  |

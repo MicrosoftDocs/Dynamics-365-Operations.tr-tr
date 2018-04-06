@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 82c2fab72923cfec135e207dfe194fda7d16e8e9
+ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
+ms.openlocfilehash: d8cf283321b81c377498cd449b098f8fac1fe01f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -41,6 +41,8 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 - **Düğme grubu** – İşlem POS ekran düzeninin bir parçası olan POS düğme grubundaki düğmelere atanabilir.
 - **Hareket ekranı** – İşlem POS hareket ekranı üzerinde yapılandırılmış olan POS düğme gruplarından çağrılabilir.
 - **Karşılama ekranı** – İşlem POS karşılama ekranı üzerinde yapılandırılmış olan POS düğme gruplarından çağrılabilir.
+
+Not: Aşağıda listelenen işlemler Dynamics 365 for Retail'in en son sürümü için geçerlidir. Bazı işlemler değişmiş veya önceki sürümlerde bulunmuyor olabilir.
 
 | Kod | Operasyon | Tanım | Düğme grubu | Hareket ekranı | Hoş geldiniz ekranı | Çevrimdışı kullanılabilir | Konuma özgü |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|
@@ -105,6 +107,7 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 | 703 | Kaydı kilitle | Kullanılamaması için geçerli kaydı kilitler ancak kullanıcı oturumunu kapatmaz. | Hayır | Hayır | Hayır | Evet | Hayır |
 | 701 | Oturumu kapat | Geçerli kullanıcının kayıt oturumunu sonlandırır. | Evet | Evet | Evet | Evet | Hayır |
 | 521 | Bağlılık programı kartı puanı bakiyesi | Belirtilen bağlılık programı kartının puan bakiyesi gösterin. | Evet | Evet | Hayır | Hayır | Hayır |
+| 918 | Vardiyaları yönet | Etkin, beklemeye alınmış ve kapalı vardiyaların listesini görüntüleyin. | Evet | Evet | Evet | Hayır | Hayır |
 | 914 | POS penceresini simge durumuna küçült | Bu işlem desteklenmez. | Uygulanamaz | Uygulanamaz | Uygulanamaz | Uygulanamaz | Hayır |
 | 1000 | Çekmeceyi aç | "Satış yok" işlemi gerçekleştirin ve seçili olan kasa çekmecesini açın. | Evet | Evet | Evet | Evet | Hayır |
 | 928 | Sipariş karşılama | Bu işlem kullanıcıların siparişleri mağazadan çekme işlemi için çekmesine, paketlemesine, sevk etmesine veya geri çağırmasına olanak tanır. | Evet | Evet | Evet | Hayır | Hayır |
@@ -162,7 +165,6 @@ Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 | 638 | Satırdaki satış temsilcisini ayarla | Bu işlem kullanıcının seçili durumdaki satı için uygun komisyon satış gruplarından birini (satış temsilcileri) seçmesine olanak tanır. | Evet | Evet | Hayır | Evet | Hayır |
 | 630 | Tüm ürünleri sevk et | Karşılama modunu  tüm satırlar için **Sevkiyat** olarak ayarlayın. | Evet | Evet | Hayır | Evet\* | Hayır |
 | 629 | Seçilen ürünleri sevk et | Seçili satırlar için karşılama modunu **Sevkiyat** olarak ayarlayın. | Evet | Evet | Hayır | Evet\* | Hayır |
-| 918 | Tamamen kapalı vardiyaları göster | Tamamen kapalı olan vardiyaların listesini görüntüleyin. | Evet | Evet | Evet | Hayır | Hayır |
 | 115 | Günlüğü göster | Mağazanın günlüğünü görüntüleyin. Hareketleri görüntüleyebilir, makbuzları ve hediye girişlerini yeniden yazdırabilir veya iade için geri çağırabilirsiniz. | Evet | Evet | Evet | Evet\*\* | Hayır |
 | 802 | Stok sayımı | Bu işlem kullanıcının fiziksel stok veya döngü sayısı için stok sayım günlüklerini oluşturmasına veya değiştirmesine izin verir. | Evet | Evet | Evet | Hayır | Hayır |
 | 401 | Alt menü | Bu işlem kullanıcıyı başka bir bağlantılı düğme grubuna götürür. | Evet | Evet | Evet | Evet | Hayır |

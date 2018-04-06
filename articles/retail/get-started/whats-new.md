@@ -17,10 +17,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 008f1acec62c1fc6d423dd7629d3f92f758be5e8
+ms.sourcegitcommit: 9c974041c614c67335bb40f4f461bc1999bf3eb0
+ms.openlocfilehash: 476ae035674c0b9c3af18db28668442247b5e310
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -30,10 +30,14 @@ ms.lasthandoff: 03/08/2018
 
 Bu sayfa sizi Microsoft Dynamics 365 for Retail'in son sürümlerindeki yeni özellikler ve değişiklikler hakkında bilgi almanıza yardımcı olabilecek kaynaklara yönlendirir.
 
+[!include[release notes](../includes/release-notes.md)]
+ 
+
 ## <a name="releases-of-dynamics-365-for-retail"></a>Dynamics 365 for Retail sürümleri
 
 |Sürüm | Yapı numarası | Kullanılabilirlik | Daha fazla bilgi edinin |
 |--------|--------------|--------------|------------|
+|Dynamics 365 for Retail 7.3.2 | 7.3.21971.64040 | Mart 2018 | 1. [Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/)'na gidin.<br><br>2. **Yenilikler** sekmesine tıklayın.<br><br>3. **Dynamics 365 for Retail** onay kutusuna tıklayın.<br><br>4. **Dynamics 365 for Retail 7.3.2 ile yayımlandı** özelliklerini arayın. |
 |Dynamics 365 for Retail 7.3.1 | 7,3,21971,64032 | Mart 2018 | 1. [Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/)'na gidin.<br><br>2. **Yenilikler** sekmesine tıklayın.<br><br>3. **Dynamics 365 for Retail** onay kutusuna tıklayın.<br><br>4. **Dynamics 365 for Retail 7.3.1 ile yayımlandı** özelliklerini arayın. |
 |Dynamics 365 for Retail 7.3 | 7.3.21971.64028 | Şubat 2018 | 1. [Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/)'na gidin.<br><br>2. **Yenilikler** sekmesine tıklayın.<br><br>3. **Dynamics 365 for Retail** onay kutusuna tıklayın.<br><br>4. **Dynamics 365 for Retail 7.3 ile yayımlandı** özelliklerini arayın. |
 |Uygulama güncelleştirmesi 5 | 7.2.21792.64093 | Şubat 2018 | 1. [Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/)'na gidin.<br><br>2. **Yenilikler** sekmesine tıklayın.<br><br>3. **Dynamics 365 for Retail** onay kutusuna tıklayın.<br><br>4. **Uygulama güncelleştirmesi 5 ile yayımlandı** özelliklerini arayın. |

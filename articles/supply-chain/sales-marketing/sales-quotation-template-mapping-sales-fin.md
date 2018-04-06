@@ -1,6 +1,6 @@
 ---
 title: "Sales'deki satış teklifi başlıklarını ve satırlarını doğrudan Finance and Operations'la eşitleme"
-description: "Bu konu, satış teklif başlıkları ve satırlarını doğrudan Microsoft Dynamics 365 for Sales'tan Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'a eşitlemek için altta yatan görevleri ve şablonları açıklar."
+description: "Bu konu, satış teklifi başlıkları ve satırlarını doğrudan Microsoft Dynamics 365 for Sales'den Microsoft Dynamics 365 for Finance and Operations'a eşitlemek için temel görevleri ve şablonları açıklar."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 11/14/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 674d2e1f2c5cdbccf43618a9083ca01abed0735a
-ms.openlocfilehash: 8a75c6dd91020ab3e676e2bb40d5c822731e244f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 97536c27dea113cc3c019473f22d1925e7617f8f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/14/2017
 
 [!include[banner](../includes/banner.md)]
 
-Bu konu, satış teklif başlıkları ve satırlarını doğrudan Microsoft Dynamics 365 for Sales'tan Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'a eşitlemek için altta yatan görevleri ve şablonları açıklar.
+Bu konu, satış teklifi başlıkları ve satırlarını doğrudan Microsoft Dynamics 365 for Sales'den Microsoft Dynamics 365 for Finance and Operations'a eşitlemek için temel görevleri ve şablonları açıklar.
 
 > [!NOTE]
 > Müşteri adayından nakde çözümünü kullanmadan önce [Dynamics 365 Veri tümleştirme](/common-data-service/entity-reference/dynamics-365-integration) hakkında bilgi sahibi olmanız gerekir.

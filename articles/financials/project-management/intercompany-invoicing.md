@@ -1,6 +1,6 @@
 ---
 title: "Şirketlerarası faturalama"
-description: "Bu makalede, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da projeler için şirketlerarası faturalama hakkında bilgiler ve örnekler verilir."
+description: "Bu makalede, Microsoft Dynamics 365 for Finance and Operations'ta projeler için şirketlerarası faturalama hakkında bilgiler ve örnekler verilir."
 author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad14e2d145c6f6620bf8a31738fafa50d033d246
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 7cd19340c913fcda3fb537162dfbae52b5c8e922
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Bu makalede, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da projeler için şirketlerarası faturalama hakkında bilgiler ve örnekler verilir.
+Bu makalede, Microsoft Dynamics 365 for Finance and Operations'ta projeler için şirketlerarası faturalama hakkında bilgiler ve örnekler verilir.
 
 Kuruluşunuzda projeler için ürünler ve hizmetleri birbirlerine aktaran birden çok bölüm, yan kuruluşlar ve diğer tüzel kişilikler olabilir. Hizmet veya ürün sağlayan tüzel kişiliğe *ödünç veren tüzel kişilik* ve servis veya ürün alan tüzel kişiliğe ise *ödünç alan tüzel kişilik* adı verilir. 
 
