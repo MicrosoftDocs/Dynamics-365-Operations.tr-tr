@@ -20,17 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a8393efd51032271d3023f1e0569425a16222cc3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0696580dcf50139639dace641169d041021cf1b8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a><span data-ttu-id="35b7a-103">Barkod tarayıcıları desteği için kanban transfer panosu</span><span class="sxs-lookup"><span data-stu-id="35b7a-103">Kanban transfer board support for barcode scanners</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="35b7a-104">Kanban transfer panosunu, bir kanban işini Seçmek, Başlatmak, Tamamlamak ve Boşaltmak için bir pencere öğesi barkod tarayıcısından tarayıcı girişini destekler.</span><span class="sxs-lookup"><span data-stu-id="35b7a-104">The Kanban transfer board supports scanner input from a widget barcode scanner to Select, Start, Complete, and Empty a kanban job.</span></span>
 
@@ -38,6 +37,7 @@ ms.lasthandoff: 11/03/2017
 ------------------
 
 <span data-ttu-id="35b7a-106">**Tarayıcı kaydı** FastTab sekmesinde, bir kanban kart numarasını seçtiğinizde veya manuel olarak numarayı Kanban kart numarası alanına yazdığınızda eylemi kontrol eden kayıt modunu seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="35b7a-106">On the **Scanner registration** FastTab you can select the registration mode, which controls the action when you scan a kanban card number or manually type the number in the Kanban card number field.</span></span>
+
 | <span data-ttu-id="35b7a-107">Kayıt modu ayarla</span><span class="sxs-lookup"><span data-stu-id="35b7a-107">Set registration mode</span></span> | <span data-ttu-id="35b7a-108">Açıklama</span><span class="sxs-lookup"><span data-stu-id="35b7a-108">Description</span></span>                                                                                     |
 |-----------------------|-------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="35b7a-109">Başlangıç</span><span class="sxs-lookup"><span data-stu-id="35b7a-109">Start</span></span>                 | <span data-ttu-id="35b7a-110">Bir Kanban transfer işini devam eden olarak kaydeder.</span><span class="sxs-lookup"><span data-stu-id="35b7a-110">Registers a Kanban transfer job as in progress.</span></span>                                                 |

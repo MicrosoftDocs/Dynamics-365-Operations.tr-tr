@@ -19,16 +19,16 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 53af4335146be6c163a6d84b60155e1a741c0be4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad524e8d585da2140f3cdae17e3a1a2832ada3f0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a><span data-ttu-id="d1ca9-102">Öznitelikler, öznitelik grupları ve bunların Finance and Operations'da çeşitli Retail varlıklarıyla ilişkileri</span><span class="sxs-lookup"><span data-stu-id="d1ca9-102">Attributes, attribute groups, and their associations with various Retail entities in Finance and Operations</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="d1ca9-103">*Öznitelikler* kullanıcı tanımlı alanlar aracılığıyla bir ürünü ve özelliklerini daha fazla açıklamak için bir yol sağlar (**Bellek boyutu**, **Sabit disk kapasitesi**, **Energy star uyumluluğu**, vb.).</span><span class="sxs-lookup"><span data-stu-id="d1ca9-103">*Attributes* provide a way to further describe a product and its characteristics through user-defined fields (such as **Memory size**, **Hard disk capacity**, **Is Energy star compliant**, and so on).</span></span> <span data-ttu-id="d1ca9-104">Microsoft Dynamics 365 for Finance and Operations'da öznitelikler ürün kategorileri ve perakende kanalları gibi çeşitli perakende varlıklar ile ilişkili olabilir ve bunlar için varsayılan değerler ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="d1ca9-104">In Microsoft Dynamics 365 for Finance and Operations, attributes can be associated with various Retail entities, such as product categories and retail channels, and default values can be set for them.</span></span> <span data-ttu-id="d1ca9-105">Ürün kategorileri veya perakende kanalları ile ilişkili olduğunda ürünler özniteliklerini ve varsayılan değerleri devralır.</span><span class="sxs-lookup"><span data-stu-id="d1ca9-105">Products then inherit the attributes and the default values when they are associated with the product categories or retail channels.</span></span> <span data-ttu-id="d1ca9-106">Varsayılan değerler tek tek ürün düzeyinde, perakende kanal düzeyinde veya perakende kataloğu düzeyinde geçersiz kılınabilir.</span><span class="sxs-lookup"><span data-stu-id="d1ca9-106">The default values can be overridden at the individual product level, at the retail channel level, or in a retail catalog.</span></span>
  
@@ -227,13 +227,13 @@ ms.lasthandoff: 03/26/2018
 5. <span data-ttu-id="d1ca9-307">**Ürünler** hızlı sekmesinde gerekli ürünü seçin ve ardından ızgaranın üstünden **Öznitelikler**'i seçin.</span><span class="sxs-lookup"><span data-stu-id="d1ca9-307">On the **Products** FastTab, select the required product, and then select **Attributes** above the product grid.</span></span>
 6. <span data-ttu-id="d1ca9-308">Aşağıdaki hızlı sekmelerde gereken özniteliklerin değerlerini güncelleştirin:</span><span class="sxs-lookup"><span data-stu-id="d1ca9-308">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="d1ca9-309">Paylaşılan ürün ortamı</span><span class="sxs-lookup"><span data-stu-id="d1ca9-309">Shared product media</span></span>
-    - <span data-ttu-id="d1ca9-310">Paylaşılan ürün öznitelikleri</span><span class="sxs-lookup"><span data-stu-id="d1ca9-310">Shared product attributes</span></span>
-    - <span data-ttu-id="d1ca9-311">Kanal ortamı</span><span class="sxs-lookup"><span data-stu-id="d1ca9-311">Channel media</span></span>
-    - <span data-ttu-id="d1ca9-312">Kanal ürünü öznitelikleri</span><span class="sxs-lookup"><span data-stu-id="d1ca9-312">Channel product attributes</span></span>
+   - <span data-ttu-id="d1ca9-309">Paylaşılan ürün ortamı</span><span class="sxs-lookup"><span data-stu-id="d1ca9-309">Shared product media</span></span>
+   - <span data-ttu-id="d1ca9-310">Paylaşılan ürün öznitelikleri</span><span class="sxs-lookup"><span data-stu-id="d1ca9-310">Shared product attributes</span></span>
+   - <span data-ttu-id="d1ca9-311">Kanal ortamı</span><span class="sxs-lookup"><span data-stu-id="d1ca9-311">Channel media</span></span>
+   - <span data-ttu-id="d1ca9-312">Kanal ürünü öznitelikleri</span><span class="sxs-lookup"><span data-stu-id="d1ca9-312">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="d1ca9-313">Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri Finance and Operations'da oluşturulursa, tüm perakende ürünlere uygulanır.</span><span class="sxs-lookup"><span data-stu-id="d1ca9-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="d1ca9-313">Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri Finance and Operations'da oluşturulursa, tüm perakende ürünlere uygulanır.</span><span class="sxs-lookup"><span data-stu-id="d1ca9-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 
 ![Katalog ürünü öznitelik grupları](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ ms.lasthandoff: 03/26/2018
 
 5. <span data-ttu-id="d1ca9-321">Aşağıdaki hızlı sekmelerde gereken özniteliklerin değerlerini güncelleştirin:</span><span class="sxs-lookup"><span data-stu-id="d1ca9-321">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="d1ca9-322">Paylaşılan ürün ortamı</span><span class="sxs-lookup"><span data-stu-id="d1ca9-322">Shared product media</span></span>
-    - <span data-ttu-id="d1ca9-323">Paylaşılan ürün öznitelikleri</span><span class="sxs-lookup"><span data-stu-id="d1ca9-323">Shared product attributes</span></span>
-    - <span data-ttu-id="d1ca9-324">Kanal ortamı</span><span class="sxs-lookup"><span data-stu-id="d1ca9-324">Channel media</span></span>
-    - <span data-ttu-id="d1ca9-325">Kanal ürünü öznitelikleri</span><span class="sxs-lookup"><span data-stu-id="d1ca9-325">Channel product attributes</span></span>
+   - <span data-ttu-id="d1ca9-322">Paylaşılan ürün ortamı</span><span class="sxs-lookup"><span data-stu-id="d1ca9-322">Shared product media</span></span>
+   - <span data-ttu-id="d1ca9-323">Paylaşılan ürün öznitelikleri</span><span class="sxs-lookup"><span data-stu-id="d1ca9-323">Shared product attributes</span></span>
+   - <span data-ttu-id="d1ca9-324">Kanal ortamı</span><span class="sxs-lookup"><span data-stu-id="d1ca9-324">Channel media</span></span>
+   - <span data-ttu-id="d1ca9-325">Kanal ürünü öznitelikleri</span><span class="sxs-lookup"><span data-stu-id="d1ca9-325">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="d1ca9-326">Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri Finance and Operations'da oluşturulursa, tüm perakende ürünlere uygulanır.</span><span class="sxs-lookup"><span data-stu-id="d1ca9-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="d1ca9-326">Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri Finance and Operations'da oluşturulursa, tüm perakende ürünlere uygulanır.</span><span class="sxs-lookup"><span data-stu-id="d1ca9-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 

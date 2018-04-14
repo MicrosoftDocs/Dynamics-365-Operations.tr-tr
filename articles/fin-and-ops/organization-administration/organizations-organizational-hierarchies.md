@@ -19,17 +19,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a290f6f453d8440d6e68a13915339d3da31d959a
-ms.openlocfilehash: 116b907107eaff140e886f053cc76a7ae8729dac
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 86a4d52265a5c7f038ddc8c0201fa16b452d16cc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="organizations-and-organizational-hierarchies"></a><span data-ttu-id="e2095-104">Organizasyonlar ve organizasyon hiyerarşileri</span><span class="sxs-lookup"><span data-stu-id="e2095-104">Organizations and organizational hierarchies</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e2095-105">Bir organizasyon, bir iş sürecini gerçekleştirmek veya bir hedefe ulaşmak için birlikte çalışan bir grup insandır.</span><span class="sxs-lookup"><span data-stu-id="e2095-105">An organization is a group of people who are working together to carry out a business process or achieve a goal.</span></span> <span data-ttu-id="e2095-106">Organizasyonel hiyerarşiler, işinizi meydana getiren organizasyonlar arasındaki ilişkileri temsil eder.</span><span class="sxs-lookup"><span data-stu-id="e2095-106">Organizational hierarchies represent the relationships between the organizations that make up your business.</span></span>
 

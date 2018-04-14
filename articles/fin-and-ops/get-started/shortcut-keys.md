@@ -18,17 +18,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 445c639dc56a5d240f4e35353276ef893f2137da
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a><span data-ttu-id="3ace2-103">Klavye kısayolları</span><span class="sxs-lookup"><span data-stu-id="3ace2-103">Keyboard shortcuts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3ace2-104">Aşağıdaki klavye kısayolları tüm Dynamics 365 for Finance and Operations genelinde geçerlidir.</span><span class="sxs-lookup"><span data-stu-id="3ace2-104">The following keyboard shortcuts apply across Dynamics 365 for Finance and Operations.</span></span> 
 
@@ -39,6 +38,7 @@ ms.lasthandoff: 03/26/2018
 
 
 ## <a name="action-shortcuts"></a><span data-ttu-id="3ace2-111">Eylem kısayolları</span><span class="sxs-lookup"><span data-stu-id="3ace2-111">Action shortcuts</span></span>
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | <span data-ttu-id="3ace2-112">**Bunu yapmak için**</span><span class="sxs-lookup"><span data-stu-id="3ace2-112">**To do this**</span></span>                                    | <span data-ttu-id="3ace2-113">**Basın**</span><span class="sxs-lookup"><span data-stu-id="3ace2-113">**Press**</span></span>                        |
@@ -55,6 +55,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="3ace2-134">Mevcut kullanılabilir kısayolları görüntüleme</span><span class="sxs-lookup"><span data-stu-id="3ace2-134">View currently available shortcuts</span></span>                | <span data-ttu-id="3ace2-135">Alt+Shift+K</span><span class="sxs-lookup"><span data-stu-id="3ace2-135">Alt+Shift+K</span></span>                      |                              
 
 ## <a name="date-picker-shortcuts"></a><span data-ttu-id="3ace2-136">Tarih seçici kısayolları</span><span class="sxs-lookup"><span data-stu-id="3ace2-136">Date picker shortcuts</span></span>
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | <span data-ttu-id="3ace2-137">**Bunu yapmak için**</span><span class="sxs-lookup"><span data-stu-id="3ace2-137">**To do this**</span></span>                        | <span data-ttu-id="3ace2-138">**Basın**</span><span class="sxs-lookup"><span data-stu-id="3ace2-138">**Press**</span></span>                                 |
@@ -68,6 +69,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="3ace2-153">Hiçbir zaman (ya da maksimum tarihi) seç</span><span class="sxs-lookup"><span data-stu-id="3ace2-153">Pick Never (or the max date)</span></span>          | <span data-ttu-id="3ace2-154">N</span><span class="sxs-lookup"><span data-stu-id="3ace2-154">N</span></span>                                         |
 
 ## <a name="factbox-shortcuts"></a><span data-ttu-id="3ace2-155">FactBox kısayolları</span><span class="sxs-lookup"><span data-stu-id="3ace2-155">FactBox shortcuts</span></span>
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | <span data-ttu-id="3ace2-156">**Bunu yapmak için**</span><span class="sxs-lookup"><span data-stu-id="3ace2-156">**To do this**</span></span>                                                                  | <span data-ttu-id="3ace2-157">**Basın**</span><span class="sxs-lookup"><span data-stu-id="3ace2-157">**Press**</span></span>                                 |
@@ -79,6 +81,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="3ace2-168">Geçerli FactBox'ı daraltma</span><span class="sxs-lookup"><span data-stu-id="3ace2-168">Collapse the current FactBox</span></span>                                                    | <span data-ttu-id="3ace2-169">Alt+0</span><span class="sxs-lookup"><span data-stu-id="3ace2-169">Alt+0</span></span>                                     |
 
 ## <a name="filtering-shortcuts"></a><span data-ttu-id="3ace2-170">Kısayolları filtreleme</span><span class="sxs-lookup"><span data-stu-id="3ace2-170">Filtering shortcuts</span></span>
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | <span data-ttu-id="3ace2-171">**Bunun için**</span><span class="sxs-lookup"><span data-stu-id="3ace2-171">**To do this**</span></span>                     | <span data-ttu-id="3ace2-172">**Bas**</span><span class="sxs-lookup"><span data-stu-id="3ace2-172">**Press**</span></span>                |
@@ -89,6 +92,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="3ace2-181">Gelişmiş filtrelemeyi/sıralamayı açma</span><span class="sxs-lookup"><span data-stu-id="3ace2-181">Open advanced filtering/sort</span></span>                                      | <span data-ttu-id="3ace2-182">Ctrl+Shift+F3</span><span class="sxs-lookup"><span data-stu-id="3ace2-182">Ctrl+Shift+F3</span></span>            | 
 
 ## <a name="form-shortcuts"></a><span data-ttu-id="3ace2-183">Form kısayolları</span><span class="sxs-lookup"><span data-stu-id="3ace2-183">Form shortcuts</span></span>
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | <span data-ttu-id="3ace2-184">**Bunun için**</span><span class="sxs-lookup"><span data-stu-id="3ace2-184">**To do this**</span></span>                                      | <span data-ttu-id="3ace2-185">**Bas**</span><span class="sxs-lookup"><span data-stu-id="3ace2-185">**Press**</span></span>         |
@@ -110,6 +114,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="3ace2-216">Formu kaydedilmemiş değişiklikleri iptal ederek kapatma</span><span class="sxs-lookup"><span data-stu-id="3ace2-216">Close the form discarding any unsaved changes</span></span>       | <span data-ttu-id="3ace2-217">Alt+Shift+Q</span><span class="sxs-lookup"><span data-stu-id="3ace2-217">Alt+Shift+Q</span></span>       |
 
 ## <a name="form-navigation-shortcuts"></a><span data-ttu-id="3ace2-218">Formda gezinme kısayolları</span><span class="sxs-lookup"><span data-stu-id="3ace2-218">Form navigation shortcuts</span></span>
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | <span data-ttu-id="3ace2-219">**Bunu yapmak için**</span><span class="sxs-lookup"><span data-stu-id="3ace2-219">**To do this**</span></span>                                      | <span data-ttu-id="3ace2-220">**Basın**</span><span class="sxs-lookup"><span data-stu-id="3ace2-220">**Press**</span></span>                                    |
@@ -128,6 +133,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="3ace2-245">Satırlar görünümüne geç</span><span class="sxs-lookup"><span data-stu-id="3ace2-245">Switch to lines view</span></span>                                | <span data-ttu-id="3ace2-246">Ctrl+Shift+L</span><span class="sxs-lookup"><span data-stu-id="3ace2-246">Ctrl+Shift+L</span></span>                                 |
 
 ## <a name="grid-shortcuts"></a><span data-ttu-id="3ace2-247">Kılavuz kısayolları</span><span class="sxs-lookup"><span data-stu-id="3ace2-247">Grid shortcuts</span></span>
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | <span data-ttu-id="3ace2-248">**Bunu yapmak için**</span><span class="sxs-lookup"><span data-stu-id="3ace2-248">**To do this**</span></span>                                                                                                         | <span data-ttu-id="3ace2-249">**Basın**</span><span class="sxs-lookup"><span data-stu-id="3ace2-249">**Press**</span></span>                       |
@@ -148,6 +154,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="3ace2-283">Geçerli sütun için ızgara filtrelemeyi açma (odakta başlık satırı varken)</span><span class="sxs-lookup"><span data-stu-id="3ace2-283">Open grid filtering for the current column (with focus in the header row)</span></span>                                              | <span data-ttu-id="3ace2-284">Gir</span><span class="sxs-lookup"><span data-stu-id="3ace2-284">Enter</span></span>                           |
 
 ## <a name="input-control-shortcuts"></a><span data-ttu-id="3ace2-285">Giriş denetimi kısayolları</span><span class="sxs-lookup"><span data-stu-id="3ace2-285">Input control shortcuts</span></span>
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | <span data-ttu-id="3ace2-286">**Bunu yapmak için**</span><span class="sxs-lookup"><span data-stu-id="3ace2-286">**To do this**</span></span>                                                               | <span data-ttu-id="3ace2-287">**Basın**</span><span class="sxs-lookup"><span data-stu-id="3ace2-287">**Press**</span></span>                     |
@@ -163,6 +170,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="3ace2-306">Bir HTML düzenleyici denetiminde metin alanı ve araç çubuğu arasında geçiş yap</span><span class="sxs-lookup"><span data-stu-id="3ace2-306">Switch focus between the text area and the toolbar in an HTML editor control</span></span> | <span data-ttu-id="3ace2-307">F6</span><span class="sxs-lookup"><span data-stu-id="3ace2-307">F6</span></span>                            |
 
 ## <a name="messaging-shortcuts"></a><span data-ttu-id="3ace2-308">İleti kısayolları</span><span class="sxs-lookup"><span data-stu-id="3ace2-308">Messaging shortcuts</span></span>
+
 |                          |               |
 |--------------------------|---------------|
 | <span data-ttu-id="3ace2-309">**Bunu yapmak için**</span><span class="sxs-lookup"><span data-stu-id="3ace2-309">**To do this**</span></span>           | <span data-ttu-id="3ace2-310">**Basın**</span><span class="sxs-lookup"><span data-stu-id="3ace2-310">**Press**</span></span>     |
@@ -170,6 +178,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="3ace2-313">İleti Çubuğu'na gitme</span><span class="sxs-lookup"><span data-stu-id="3ace2-313">Go to the Message Bar</span></span>    | <span data-ttu-id="3ace2-314">Ctrl+F7</span><span class="sxs-lookup"><span data-stu-id="3ace2-314">Ctrl+F7</span></span>       |
 
 ## <a name="navigation-shortcuts"></a><span data-ttu-id="3ace2-315">Gezinme kısayolları</span><span class="sxs-lookup"><span data-stu-id="3ace2-315">Navigation shortcuts</span></span>
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | <span data-ttu-id="3ace2-316">**Bunu yapmak için**</span><span class="sxs-lookup"><span data-stu-id="3ace2-316">**To do this**</span></span>                                                                | <span data-ttu-id="3ace2-317">**Basın**</span><span class="sxs-lookup"><span data-stu-id="3ace2-317">**Press**</span></span>                  |
@@ -191,6 +200,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="3ace2-348">FactBox bölmesine taşı (açmayı içerebilir)</span><span class="sxs-lookup"><span data-stu-id="3ace2-348">Move to the FactBox pane (which may include opening it)</span></span>                       | <span data-ttu-id="3ace2-349">Alt+M,B veya Ctrl+F2</span><span class="sxs-lookup"><span data-stu-id="3ace2-349">Alt+M,B or Ctrl+F2</span></span>         |
 
 ## <a name="personalization-shortcuts"></a><span data-ttu-id="3ace2-350">Kişiselleştirme kısayolları</span><span class="sxs-lookup"><span data-stu-id="3ace2-350">Personalization shortcuts</span></span>
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | <span data-ttu-id="3ace2-351">**Bunu yapmak için**</span><span class="sxs-lookup"><span data-stu-id="3ace2-351">**To do this**</span></span>                                                                                                         | <span data-ttu-id="3ace2-352">**Basın**</span><span class="sxs-lookup"><span data-stu-id="3ace2-352">**Press**</span></span>                           |
@@ -219,6 +229,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="3ace2-397">Kişiselleştirme modundan çık (kişiselleştirme modundayken)</span><span class="sxs-lookup"><span data-stu-id="3ace2-397">Exit personalization mode (when in personalization mode)</span></span>                                                               | <span data-ttu-id="3ace2-398">Esc</span><span class="sxs-lookup"><span data-stu-id="3ace2-398">Esc</span></span>                                 |
 
 ## <a name="segmented-entry-shortcuts"></a><span data-ttu-id="3ace2-399">Bölümlenmiş giriş kısayolları</span><span class="sxs-lookup"><span data-stu-id="3ace2-399">Segmented entry shortcuts</span></span>
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | <span data-ttu-id="3ace2-400">**Bunu yapmak için**</span><span class="sxs-lookup"><span data-stu-id="3ace2-400">**To do this**</span></span>                                                                                                          | <span data-ttu-id="3ace2-401">**Basın**</span><span class="sxs-lookup"><span data-stu-id="3ace2-401">**Press**</span></span>                        |

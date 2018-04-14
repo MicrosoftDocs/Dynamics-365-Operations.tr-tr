@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 3d02b2ee0ee748546158bce1094d2b343afef7c5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 82370fffe9c296ef77f3b15929a9028bcac77677
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-invoices-overview"></a><span data-ttu-id="0d6d6-105">Satıcı faturalarına genel bakış</span><span class="sxs-lookup"><span data-stu-id="0d6d6-105">Vendor invoices overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="0d6d6-106">Bu makalede, satıcı faturaları hakkında genel bilgiler verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="0d6d6-106">This article provides general information about vendor invoices.</span></span> <span data-ttu-id="0d6d6-107">Satıcı faturaları, alınan ürün ve hizmetler için ödeme talepleridir.</span><span class="sxs-lookup"><span data-stu-id="0d6d6-107">Vendor invoices are requests for payment for products and services that were received.</span></span> <span data-ttu-id="0d6d6-108">Satıcı faturaları, devam eden hizmetler için bir faturayı temsil edebileceği gibi, belirli madde ve hizmetler için satınalma siparişlerine de dayanabilir.</span><span class="sxs-lookup"><span data-stu-id="0d6d6-108">Vendor invoices can represent a bill for ongoing services, or they can be based on purchase orders for specific items and services.</span></span> 
 
@@ -87,11 +86,11 @@ ms.lasthandoff: 01/17/2018
  - [<span data-ttu-id="0d6d6-170">Satıcı fatura ilkelerini ayarlama</span><span class="sxs-lookup"><span data-stu-id="0d6d6-170">Set up vendor invoice policies</span></span>](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
  - [<span data-ttu-id="0d6d6-171">Satıcı faturası kullanarak fatura verilerini borç hesaplarına girme</span><span class="sxs-lookup"><span data-stu-id="0d6d6-171">Key invoice data into accounts payable using a vendor invoice</span></span>](tasks/key-invoice-data-ap-system-vendor-invoice.md)
- 
+
  - [<span data-ttu-id="0d6d6-172">Onay günlüğü kullanarak fatura verilerini borç hesaplarına girme</span><span class="sxs-lookup"><span data-stu-id="0d6d6-172">Key invoice data into accounts payable using an approval journal</span></span>](tasks/key-invoice-data-into-ap-system-approval-journal.md)
-  
+
  - [<span data-ttu-id="0d6d6-173">Fatura havuzu kullanarak fatura verilerini AP sistemine girme</span><span class="sxs-lookup"><span data-stu-id="0d6d6-173">Key invoice data into the AP system using invoice pool</span></span>](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
- 
+
  - [<span data-ttu-id="0d6d6-174">Fatura günlüğüne satıcı faturası kaydetme</span><span class="sxs-lookup"><span data-stu-id="0d6d6-174">Record a vendor invoice in the invoice journal</span></span>](tasks/record-vendor-invoice-invoice-journal.md)
 
 

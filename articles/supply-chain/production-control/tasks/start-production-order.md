@@ -17,15 +17,15 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: 3b5657e5eb2719702eae3a3c5178b3a04f7545e3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a19647b0524333fdab96a9534bdc03ce8a07b30f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="start-a-production-order"></a><span data-ttu-id="9fee1-103">Üretim emrini başlatma</span><span class="sxs-lookup"><span data-stu-id="9fee1-103">Start a production order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9fee1-104">Bu yordam, üretim emirlerinin atölyede nasıl başlatılacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="9fee1-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="9fee1-105">Bu işlemde, zaman ve malzeme tüketimi bildirilir.</span><span class="sxs-lookup"><span data-stu-id="9fee1-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="9fee1-106">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="9fee1-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="9fee1-107">Bu, üretim emri ömrünü açıklayan yedi yordamdan beşincisidir.</span><span class="sxs-lookup"><span data-stu-id="9fee1-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
 

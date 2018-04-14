@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9766d96d16429d0ce0864695a3157f54cad4054
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9bd8a506fc0bbf4d4d8127afa71fe371be10b55b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a><span data-ttu-id="d917c-103">Sabit kıymet deftere nakil profilleri ayarlama</span><span class="sxs-lookup"><span data-stu-id="d917c-103">Set up fixed asset posting profiles</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d917c-104">Bu görev kılavuzunda Sabit kıymet deftere nakil profilleri ayarlanacak.</span><span class="sxs-lookup"><span data-stu-id="d917c-104">This task guide will set up Fixed asset posting profiles.</span></span>  <span data-ttu-id="d917c-105">Kılavuzda Muhasebeci rolü ve USMF adlı tüzel kişilik için demo verileri kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="d917c-105">It uses the Accountant role and demo data for the USMF legal entity.</span></span>  <span data-ttu-id="d917c-106">Özel hesap planınız ve mali raporlama gereksinimleriniz için deftere nakil profilleri oluşturulması gerekmesine karşın, bu görev kılavuzunda verilen örnekler temel bir deftere nakil profiline aittir.</span><span class="sxs-lookup"><span data-stu-id="d917c-106">Examples given in the task guide are for a basic posting profile, though posting profiles must be created for your specific chart of accounts and financial reporting requirements.</span></span>
 

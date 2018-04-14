@@ -19,18 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: 0e54a0dc9b643077d45fe76e073772e81f99ea44
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e7ee1935c006636f8d7bfce53287229e736e2f80
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="service-object-relations"></a><span data-ttu-id="19f28-103">Servis nesnesi ilişkileri</span><span class="sxs-lookup"><span data-stu-id="19f28-103">Service object relations</span></span> 
 
-[!include[banner](../includes/banner.md)]
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="19f28-104">Servis nesnesi ve servis sözleşmesi veya servis siparişi arasında servis nesnesi ilişkileri oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="19f28-104">You can create service object relations between a service object and a service agreement or service order.</span></span> <span data-ttu-id="19f28-105">Bir ilişki oluşturduğunuzda servis nesnesini servis sözleşmesine veya servis siparişine iliştirirsiniz.</span><span class="sxs-lookup"><span data-stu-id="19f28-105">When you create a relation, you attach the service object to the service agreement or service order.</span></span>
 

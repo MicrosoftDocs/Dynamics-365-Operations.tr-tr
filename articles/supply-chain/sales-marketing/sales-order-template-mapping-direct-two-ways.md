@@ -20,16 +20,16 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e26244ffc380291a40edfbd2c2cb5911b0d8b3cb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fec49f00e168460785b0376268499a87d75e2963
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a><span data-ttu-id="05211-103">Sales ile Finance and Operations arasında satış siparişlerini doğrudan eşitleme</span><span class="sxs-lookup"><span data-stu-id="05211-103">Synchronization of sales orders directly between Sales and Finance and Operations</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="05211-104">Bu konu, satış siparişlerini doğrudan Microsoft Dynamics 365 for Sales ile Microsoft Dynamics 365 for Finance and Operations arasında eşitlemek için temel görevleri ve şablonları açıklar.</span><span class="sxs-lookup"><span data-stu-id="05211-104">The topic discusses the templates and underlying tasks that are used to run synchronization of sales orders directly between Microsoft Dynamics 365 for Sales and Microsoft Dynamics 365 for Finance and Operations.</span></span>
 

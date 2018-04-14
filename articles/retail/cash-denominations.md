@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 523ceb85d7f6a297c1e6d1bfb70761ddd888abe1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4a7d80783368b6b39d48f80a3329d4053169c464
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-cash-denominations-for-pos"></a><span data-ttu-id="d492f-103">POS için nakit para birimlerini yapılandırma</span><span class="sxs-lookup"><span data-stu-id="d492f-103">Configure cash denominations for POS</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="d492f-104">Banknotlar ve bozuk paralar için arka ofiste tanımlana nakit para birimleri, kasiyerler, satış sorumluları ve yöneticiler tarafından mağazada POS içerisinden kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="d492f-104">Cash denominations for notes and coins can be defined in the back office to be used by cashiers, sales associates, and managers at the store from within the POS.</span></span> <span data-ttu-id="d492f-105">Bu para birimleri, gün sonu kasa sayımlarında sayıma yardımcı olmak veya bir satışın sayımını hızlıca gerçekleştirmek için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="d492f-105">These denominations can be used to aid in counting cash for end of day tender declarations or for quickly tendering a sale.</span></span>
 

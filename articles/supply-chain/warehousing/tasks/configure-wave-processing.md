@@ -17,15 +17,15 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f7a6db585468c235e07c4a0117a83995ec93f4b0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad45fd25a6911ca8f9976ee0040f193da0b3a993
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="configure-wave-processing"></a><span data-ttu-id="3ce99-103">Dalga işlemeyi yapılandırma</span><span class="sxs-lookup"><span data-stu-id="3ce99-103">Configure wave processing</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3ce99-104">Bu kılavuz bir dalga işlendiğinde bir ambar için hangi işin oluşturulacağını belirlemek için ölçütleri ayarlamayı ve dalgaların manuel mi yoksa otomatik olarak mı işlemden geçirileceğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="3ce99-104">This guide describes how to set up the criteria that determine what work is generated for a warehouse when a wave is processed, and whether waves are processed manually or automatically.</span></span> <span data-ttu-id="3ce99-105">Ölçütleri, bir dalgayı yayımlanan satış siparişleri, üretim emirleri veya kanban siparişleri ile eşleştiren dalga şablonları ve sorguları oluşturarak belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3ce99-105">You specify the criteria by setting up wave templates and queries that match a wave with released lines in sales orders, production orders, or kanban orders.</span></span> <span data-ttu-id="3ce99-106">Dalga işleme, Ambar yönetim modülünde bu işlevi kullanan ambarlarda kullanılır, Stok yönetim modülünde bu işlevi kullananlarda kullanılmaz.</span><span class="sxs-lookup"><span data-stu-id="3ce99-106">Wave processing is used in warehouses that use the functionality in the Warehouse management module, and not those that use the functionality in the Inventory management module.</span></span> <span data-ttu-id="3ce99-107">Bu yordamı USMF demo veri şirketinde çalıştırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3ce99-107">You can run this procedure in demo data company USMF.</span></span>
 

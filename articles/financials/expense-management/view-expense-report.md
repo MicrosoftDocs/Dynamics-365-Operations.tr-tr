@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 6397ca01ef100b6149c70a335ce854bc0439aff2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bc2431a8008ce6518974e240d12dc07f097bdbb0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="view-an-expense-report"></a><span data-ttu-id="864b2-103">Gider raporu görüntüle</span><span class="sxs-lookup"><span data-stu-id="864b2-103">View an expense report</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="864b2-104">Genel muhasebe veya Tedarik ve kaynak atamada hareketleri görüntülemek için bir sorgu çalıştırdığınızda, sorgu çok fazla bilgi döndürebilir.</span><span class="sxs-lookup"><span data-stu-id="864b2-104">When you run a query to view transactions in General ledger or Procurement and sourcing, the query might return too much information.</span></span> <span data-ttu-id="864b2-105">Bu nedenle, aramanızı daraltmak isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="864b2-105">Therefore, you might want to narrow your search.</span></span> <span data-ttu-id="864b2-106">Gerekli bilgiyi almak için, bir hareketin göründüğü gider raporunu görmek için hareket üzerinde ayrıntılara inebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="864b2-106">To get the information that you require, you can drill down into a transaction to see the expense report that it appeared on.</span></span>
 

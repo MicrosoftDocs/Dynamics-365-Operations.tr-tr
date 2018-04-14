@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: edcb01c177a3e43cea7f0b7936a4129d27314016
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3a5b9f98b371dbad9b6b0538e0d9975dc5ed701c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a><span data-ttu-id="a32f2-104">İşgücü yeteneklerini iş ihtiyaçlarıyla uyumlu hale getirme</span><span class="sxs-lookup"><span data-stu-id="a32f2-104">Align workforce skills with business needs</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="a32f2-105">Çalışanların, başvuranların veya ilgili kişilerin görevlerini etkili şekilde yerine getirmek için sahip olduğu veya sahip olması gereken yetenekleri izleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a32f2-105">You can track the skills that workers, applicants, or contact persons have, or should have, to fulfill their roles effectively.</span></span> <span data-ttu-id="a32f2-106">Ayrıca, belirli bir iş için gereken yetenekleri de belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a32f2-106">You can also specify the skills that are required for a specific job.</span></span>
 
@@ -55,8 +54,8 @@ ms.lasthandoff: 01/31/2018
 
 <span data-ttu-id="a32f2-133">Yetenek eşleştirme profilleri, iş gereksinimlerine doğrudan karşılık gelen nitelikleri taşıyan mevcut çalışanları veya adayları bulmanıza olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="a32f2-133">Skill-mapping profiles allow you to find current employees or candidates with qualifications that directly correspond to business needs.</span></span>  <span data-ttu-id="a32f2-134">Örneğin, kuruluşunuzdaki bir açık pozisyon için yetenek eşleştirme profili oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a32f2-134">For example, you could create a skill-mapping profile for an open position in your organization.</span></span> <span data-ttu-id="a32f2-135">Belirli bir iş için bir profil oluşturarak ve o işteki yetenekleri, eğitimi ve sertifikaları profile kopyalayarak profilde girilen bir veya daha fazla ölçüte uyan çalışanları, başvuranları ve ilgili kişileri hızlıca arayabilir ve bir iş için gereken yeteneklere en uygun adayların listesini görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a32f2-135">By creating a profile for a particular job and copying the skills, education and certificates from that job to the profile, you can quickly search workers, applicants and contact persons who match one or more of the criteria entered on the profile and view a list of the candidates whose skills most closely match the skills required for the job.</span></span>
 
-><span data-ttu-id="a32f2-136">**Not** Yalnızca yetenek eşleme aramalarına eklenmek üzere seçilen çalışanlar, başvuranlar ve ilgili kişiler bir yetenek eşleme sonuçları listesinde görüntülenebilir ya da yetenek profiline eklenebilir.</span><span class="sxs-lookup"><span data-stu-id="a32f2-136">**Note** Only workers, applicants, and contact persons who are selected to be included in skill mapping searches can be displayed in a skill-mapping results list, or included in a skill profile.</span></span> <span data-ttu-id="a32f2-137">Yetenek eşleme aramalarına bir çalışan, başvuran veya ilgili kişi eklemek için **Yetenek eşlemeye dahil et** seçimini aşağıdaki sayfalarda Evet olarak ayarlayın:</span><span class="sxs-lookup"><span data-stu-id="a32f2-137">To include a worker, applicant, or contact person in skill mapping searches, set the **Include in skill mapping** selection to Yes in the following pages:</span></span>
-
+> <span data-ttu-id="a32f2-136">**Not** Yalnızca yetenek eşleme aramalarına eklenmek üzere seçilen çalışanlar, başvuranlar ve ilgili kişiler bir yetenek eşleme sonuçları listesinde görüntülenebilir ya da yetenek profiline eklenebilir.</span><span class="sxs-lookup"><span data-stu-id="a32f2-136">**Note** Only workers, applicants, and contact persons who are selected to be included in skill mapping searches can be displayed in a skill-mapping results list, or included in a skill profile.</span></span> <span data-ttu-id="a32f2-137">Yetenek eşleme aramalarına bir çalışan, başvuran veya ilgili kişi eklemek için **Yetenek eşlemeye dahil et** seçimini aşağıdaki sayfalarda Evet olarak ayarlayın:</span><span class="sxs-lookup"><span data-stu-id="a32f2-137">To include a worker, applicant, or contact person in skill mapping searches, set the **Include in skill mapping** selection to Yes in the following pages:</span></span>
+> 
 > + <span data-ttu-id="a32f2-138">Çalışan</span><span class="sxs-lookup"><span data-stu-id="a32f2-138">Worker</span></span>
 > + <span data-ttu-id="a32f2-139">Çalışan</span><span class="sxs-lookup"><span data-stu-id="a32f2-139">Employee</span></span>
 > + <span data-ttu-id="a32f2-140">Başvuran</span><span class="sxs-lookup"><span data-stu-id="a32f2-140">Applicant</span></span>

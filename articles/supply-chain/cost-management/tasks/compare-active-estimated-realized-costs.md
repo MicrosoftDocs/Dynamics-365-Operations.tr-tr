@@ -17,15 +17,15 @@ ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1429229096e8aa06bab982f07d0281bbbd5f7861
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c705c4e411909cee2996049b519f1055c413eaf2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a><span data-ttu-id="9f7d9-103">Üretim emrindeki etkin, tahmini ve gerçekleşen maliyetleri karşılaştırma</span><span class="sxs-lookup"><span data-stu-id="9f7d9-103">Compare active, estimated, and realized costs on a production order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9f7d9-104">Bu yordam, bir üretim emri için yüksek üretim farkının nedenlerinin nasıl görüntüleneceğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="9f7d9-104">This procedure shows how to view reasons for high production variance for a production order.</span></span> <span data-ttu-id="9f7d9-105">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="9f7d9-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="9f7d9-106">Bu yordam maliyet denetleyicisi için hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="9f7d9-106">This procedure is intended for the cost controller.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 22fadf126dfa884520bc2fe6f94bc3fe3b612f77
-ms.openlocfilehash: 86c3f62e17d4955c12d09b512624eb5f576a9cd3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 16c59a53a5708a470fc1aa02d6730b7e83eece18
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/31/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-customers-and-customer-bank-accounts-for-iso20022-direct-debits"></a><span data-ttu-id="b5b6e-103">ISO20022 hesaptan ödemeleri için müşterileri ve müşteri banka hesaplarını ayarlama</span><span class="sxs-lookup"><span data-stu-id="b5b6e-103">Set up customers and customer bank accounts for ISO20022 direct debits</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b5b6e-104">Bu görev, ISO20022 hesaptan ödeme gibi müşteri ödeme dosyası oluşturmak için gereken bir müşteri banka hesabı ve bir müşteri hesaptan ödeme talimatı ayarlamada size yol gösterir.</span><span class="sxs-lookup"><span data-stu-id="b5b6e-104">This task walks you through setting up a customer bank account and a customer direct debit mandate which are required to generate the customer payment file like ISO20022 direct debit.</span></span> <span data-ttu-id="b5b6e-105">Ayarlanan müşteri ödeme biçimlerine bağlı olarak bir müşteri veya müşteri banka hesabı için bu yordamda incelenmeyen ek bilgiler gerekebilir.</span><span class="sxs-lookup"><span data-stu-id="b5b6e-105">Depending on the customer payment formats that are set up, additional information, not covered in this procedure, might be required for a customer or a customer bank account.</span></span> 
 

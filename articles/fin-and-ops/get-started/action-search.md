@@ -18,17 +18,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6563b6f422eb5562e9fc67c3734cf753a49d466d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 80beefe142eb46d7c330a472ffa594a8a35a296b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="action-search"></a><span data-ttu-id="4f745-104">Eylem Araması</span><span class="sxs-lookup"><span data-stu-id="4f745-104">Action search</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="4f745-105">Bu makalede, Microsoft Dynamics 365 for Finance and Operations'daki arama işlevi eylemi açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="4f745-105">This article describes the action search functionality in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="4f745-106">Eylem arama, bir sayfadaki eylemleri bulmanıza ve çalıştırmanıza yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="4f745-106">Action search will help you find and run actions on a page.</span></span>
 

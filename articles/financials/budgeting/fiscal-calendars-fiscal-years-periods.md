@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
-ms.openlocfilehash: b73ba41e1f7db9c26c9aaac065134abf35bcf524
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 76c1dfa387b6ed4706ee2eb127d4ee0088e5492f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a><span data-ttu-id="cef2d-103">Mali takvimler, mali yıllar ve dönemler</span><span class="sxs-lookup"><span data-stu-id="cef2d-103">Fiscal calendars, fiscal years, and periods</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="cef2d-104">Bu makalede, mali takvimler, mali yıllar, mali dönemler ve bunların tüzel kişilikler, sabit kıymetler ve bütçeleme için nasıl kullanıldığı ele alınmaktadır.</span><span class="sxs-lookup"><span data-stu-id="cef2d-104">This article discusses fiscal calendars, fiscal years and periods and how to utilize them for legal entities, fixed assets and budgeting.</span></span>
 

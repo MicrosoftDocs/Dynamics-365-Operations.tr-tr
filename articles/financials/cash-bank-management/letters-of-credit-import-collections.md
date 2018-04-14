@@ -19,17 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ebabff4d467df54b2e79485ba3a16344435140e6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3bab4b9981f58c133e8c5ed693e6ed345248809d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="letters-of-credit-and-import-collections"></a><span data-ttu-id="7d902-104">Kredi mektupları ve ithalat tahsilatları</span><span class="sxs-lookup"><span data-stu-id="7d902-104">Letters of credit and import collections</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="7d902-105">Bu makalede, kredi mektupları ve ithalat tahsilatları hakkında genel bilgiler verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="7d902-105">This article provides general information about letters of credit and import collections.</span></span> <span data-ttu-id="7d902-106">Her iki banka belgesi sıklıkla uluslararası mal alım satımı için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="7d902-106">Both types of bank document are often used for the purchase and sale of goods across international borders.</span></span>
 

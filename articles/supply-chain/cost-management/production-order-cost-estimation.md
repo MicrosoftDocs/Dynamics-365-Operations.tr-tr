@@ -20,17 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3ea3998014eb9ac2fd4610b5d52bd792d4f73869
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ef5a1b83ad0e6e0ef5c840913ce1a985dba69174
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="production-order-cost-estimation"></a><span data-ttu-id="23275-104">Üretim emri maliyet tahmini</span><span class="sxs-lookup"><span data-stu-id="23275-104">Production order cost estimation</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="23275-105">Bu makalede, üretim maliyet tahmini hakkında bilgiler verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="23275-105">This article provides information about production cost estimation.</span></span> <span data-ttu-id="23275-106">Üretim maliyeti tahmini, bir maddeyi planlanan üretim emri miktarında üretmek için gereken tahmini malzeme ve kapasite tüketim maliyetlerini sağlar.</span><span class="sxs-lookup"><span data-stu-id="23275-106">Production cost estimation provides the projected material and capacity consumption costs of producing an item in the planned production order quantity.</span></span> 
 

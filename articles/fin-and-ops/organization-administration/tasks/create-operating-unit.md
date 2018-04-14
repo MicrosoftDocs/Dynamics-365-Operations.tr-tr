@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 838d1c2d5d1ab2524e9f4be423fbf529b89f5f59
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 98005c91c98c5e924a36a71a88621cbcecb531bc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-an-operating-unit"></a><span data-ttu-id="f7cb8-103">Bir çalışma birimi oluşturun</span><span class="sxs-lookup"><span data-stu-id="f7cb8-103">Create an operating unit</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f7cb8-104">Bir işletme birimi bir işletmenin ekonomik kaynaklarının ve yönetimsel işlemlerinin kontrolünü bölmek için kullanılan bir kuruluştur.</span><span class="sxs-lookup"><span data-stu-id="f7cb8-104">An operating unit is an organization that is used to divide the control of economic resources and operational processes in a business.</span></span> <span data-ttu-id="f7cb8-105">Bir işletme birimindeki kişiler az bulunur kaynakların kullanımını en üst düzeye çıkarmak, süreçleri geliştirmek ve performansları için hesap verme görevlerine sahiptirler.</span><span class="sxs-lookup"><span data-stu-id="f7cb8-105">People in an operating unit have a duty to maximize the use of scarce resources, improve processes, and account for their performance.</span></span> <span data-ttu-id="f7cb8-106">Maliyet merkezleri, departmanlar, iş birimleri ve değer akış türündeki işletme birimlerini içerir.</span><span class="sxs-lookup"><span data-stu-id="f7cb8-106">The types of operating units include cost centers, business units, departments, and value streams.</span></span> <span data-ttu-id="f7cb8-107">İşletme birimi oluşturmak için aşağıdaki yordamı kullanın.</span><span class="sxs-lookup"><span data-stu-id="f7cb8-107">Use the following procedure to create an operating unit.</span></span> <span data-ttu-id="f7cb8-108">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="f7cb8-108">The demo data company used to create this procedure is USMF.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: fedb9162c81b9fa115b63402fe80cd4c857e8deb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4f2dc9221b72600c928db9fd306038725c7af305
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a><span data-ttu-id="1053d-103">Bir mobil cihazda ambar içindeki eski toplu işleri görüntülemeyi konfigüre etme</span><span class="sxs-lookup"><span data-stu-id="1053d-103">Configure Display older batches within warehouse on a mobile device</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="1053d-104">**Bu ambar içerisindeki daha eski toplu işleri görüntüle** yapılandırması, iş satırının geçerli konumundakinden eski toplu işlere sahip konumları listelemenizi sağlar.</span><span class="sxs-lookup"><span data-stu-id="1053d-104">The **Display older batches within warehouse** configuration lets you display a list of locations with batches older than the current location of the work line.</span></span> <span data-ttu-id="1053d-105">Görüntülenen konumların listesi konumdaki eski toplu işler hakkında bilgiyi, her bir toplu işin bitiş tarihi ve fiziksel stokunu içerir.</span><span class="sxs-lookup"><span data-stu-id="1053d-105">The list of locations that are displayed includes information about the older batches in the location with the expiration date and the physical inventory of each batch.</span></span> <span data-ttu-id="1053d-106">Yeni bir konumdan çekmeyi veya geçerli konumdan çekmeye devam etmeyi seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1053d-106">You can choose to pick from a new location or to continue picking from the current location.</span></span> 
 - <span data-ttu-id="1053d-107">Yeni bir konumdan çek - Çekmek için yeni bir konum seçerseniz, geçerli iş satırı yeni konumu kullanmak üzere güncelleştirilir ve iş, yeni konumda her zaman olduğu gibi devam eder.</span><span class="sxs-lookup"><span data-stu-id="1053d-107">Pick from a new location - If you select a new location to pick from, the  current work line will be updated to use the new location and work will continue as usual with the new location.</span></span> <span data-ttu-id="1053d-108">Yeni konumun geçerli olması için tüm iş satırı için yeterli kullanılabilir miktara sahip olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="1053d-108">For the new location to be valid, it must have enough available quantity for the whole work line.</span></span> <span data-ttu-id="1053d-109">Gerekli miktar kullanılabilir durumda değilse, iş satıcı güncelleştirilmez ve liste görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="1053d-109">If the required quantity is not available, the work line will not be updated, and the list will display.</span></span> 

@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 187482f29e6982220b844777ef31997f0d5ef0d3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 80e12de7a4da36ee6a8f54d9f6eeae52e94fb856
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a><span data-ttu-id="bfd36-104">Standart maliyetlere sahip ürün reçetesi hesaplamalarında kullanılan bilgiler</span><span class="sxs-lookup"><span data-stu-id="bfd36-104">Information used in BOM calculations with standard costs</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="bfd36-105">Ürün reçetesi (BOM) hesaplamaları, üretilmiş bir maddenin standart maliyetlerini hesaplamak için birkaç kaynaktan veri kullanır.</span><span class="sxs-lookup"><span data-stu-id="bfd36-105">Bills of material (BOM) calculations use data from several sources to calculate the standard costs of a manufactured item.</span></span> <span data-ttu-id="bfd36-106">Bu kaynaklar maddeler, ürün reçetesi rotaları, dolaylı maliyet hesaplama formülleri ve maliyet versiyonu hakkındaki bilgileri içerir.</span><span class="sxs-lookup"><span data-stu-id="bfd36-106">The sources include information about items, bills routings, indirect cost calculation formulas, and the costing version.</span></span>
 

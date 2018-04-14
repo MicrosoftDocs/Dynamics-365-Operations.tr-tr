@@ -19,19 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: 7186789fec1292d6ec33e4704a9a31e28140beb1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e75f385824f753928211a6d5784401616040c14e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-receipt-against-purchase-orders"></a><span data-ttu-id="b42d6-103">Ürün girişine karşılık satınalma siparişleri</span><span class="sxs-lookup"><span data-stu-id="b42d6-103">Product receipt against purchase orders</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="b42d6-104">Bu makalede ürünleri teslim alınmış olarak kaydetmeye yönelik çeşitli seçenekler açıklanmıştır.</span><span class="sxs-lookup"><span data-stu-id="b42d6-104">This article describes the various options for registering products as received.</span></span>
 

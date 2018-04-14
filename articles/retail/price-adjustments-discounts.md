@@ -20,17 +20,16 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 2168d6e1c994c106ea47b8ddfa8f07867b885d45
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c76fb69094486f74339f95e82300036b9d49f6b1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="price-adjustments-and-discounts"></a><span data-ttu-id="7dbc9-103">Fiyat ayarlamaları ve iskontolar</span><span class="sxs-lookup"><span data-stu-id="7dbc9-103">Price adjustments and discounts</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="7dbc9-104">Bu makalede, Microsoft Dynamics 365 for Retail'deki fiyat ayarlamaları ve indirimler hakkında bilgiler sağlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="7dbc9-104">This article provides information about price adjustments and discounts in Microsoft Dynamics 365 for Retail.</span></span>
 

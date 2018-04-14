@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b80c258d6a779a8fc5bb6c846abd3af7e69d5e06
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 37010003ad638e068ed7650532da29c6dbc033cb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a><span data-ttu-id="cadce-103">Satınalma siparişindeki işin tamamlanması için bir mobil cihazı menü öğesi ayarlama</span><span class="sxs-lookup"><span data-stu-id="cadce-103">Set up a mobile device menu item for completing work in a purchase order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cadce-104">Bu yordam bir Mobil cihaz menü öğesinin nasıl kurulacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="cadce-104">This procedure shows how to set up a Mobile device menu item.</span></span> <span data-ttu-id="cadce-105">Bu örnekte, menü öğesi Satın alma siparişi türünde işi yapan için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="cadce-105">In this example, the menu item is used for performing work of type Purchase order.</span></span> <span data-ttu-id="cadce-106">Menü öğesiyle ilişkili iş sınıfı, hangi işin geçerli olduğunu belirler.</span><span class="sxs-lookup"><span data-stu-id="cadce-106">The work class that’s associated with the menu item determines which work is valid.</span></span> <span data-ttu-id="cadce-107">Bu kılavuzu USMF demo şirketinde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cadce-107">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="cadce-108">Bu yordam genel olarak bir depo yöneticisi tarafından yerine getirilir.</span><span class="sxs-lookup"><span data-stu-id="cadce-108">This procedure is typically carried out by a warehouse manager.</span></span>
 

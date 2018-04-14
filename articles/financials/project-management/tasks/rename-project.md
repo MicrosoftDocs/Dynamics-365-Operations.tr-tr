@@ -17,15 +17,15 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c9b2c03f87bc4d43e6795aa2e1ac378637fe11ce
-ms.openlocfilehash: c3fbaa70ee2ae581e87031e5586b500098793c25
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 41db5fa77c020c0929868593fec16223676e5e31
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="rename-or-modify-a-project-stage"></a><span data-ttu-id="b8ddb-103">Proje aşamasını yeniden adlandırma veya değiştirme</span><span class="sxs-lookup"><span data-stu-id="b8ddb-103">Rename or modify a project stage</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b8ddb-104">Proje aşamaları projenin yaşam döngüsünde kılavuz olarak işlev görebilir.</span><span class="sxs-lookup"><span data-stu-id="b8ddb-104">Project stages can serve as a guide to the project life cycle.</span></span> <span data-ttu-id="b8ddb-105">Projelerinize eklemek istediğiniz proje aşamalarını, Proje yönetimi ve muhasebe parametreleri sayfasındaki Proje aşaması alanında tanımlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b8ddb-105">You can define the project stages that you want to include in your projects in the Project stage area in the Project management and accounting parameters page.</span></span> <span data-ttu-id="b8ddb-106">Dynamics 365 for Finance and Operations beş önceden tanımlanmış proje aşaması ve üç kullanıcı tanımlı aşama sağlar.</span><span class="sxs-lookup"><span data-stu-id="b8ddb-106">Dynamics 365 for Finance and Operations provides five predefined project stages and three user-defined stages.</span></span> <span data-ttu-id="b8ddb-107">Projelerin ilerlemesini izlemek için kullandığınız bir proje aşaması adını güncelleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b8ddb-107">You can update the name of a project stage that you are using to track the progress of projects.</span></span> <span data-ttu-id="b8ddb-108">Kullanıcı tanımlı durum adları için ad belirleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b8ddb-108">You can also provide names for user-defined status names.</span></span> <span data-ttu-id="b8ddb-109">Bu görev bir proje aşamasının nasıl yeniden adlandırılacağını veya değiştirileceğini gösterir ve USSI veri kümesini kullanır.</span><span class="sxs-lookup"><span data-stu-id="b8ddb-109">This task shows how to rename or modify a project stage and uses the USSI data set.</span></span>
 

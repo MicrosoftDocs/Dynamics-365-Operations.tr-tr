@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 4082facdba02cd69c6679e7f3e68e391d29e4195
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ba1b158908ac2328c29f7efe23756248be5be33c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manage-items-lent-to-workers"></a><span data-ttu-id="5a43f-103">Çalışanlara ödünç verilen öğeleri yönetme</span><span class="sxs-lookup"><span data-stu-id="5a43f-103">Manage items lent to workers</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="5a43f-104">Ödünç verilen maddeler, yöneticilerin şirketin çalışanlarına ödünç verdiği fiziksel öğeleri izlemede yardımcı kayıtlardır.</span><span class="sxs-lookup"><span data-stu-id="5a43f-104">Loan items are records that help managers track the physical items that your company lends to its workers.</span></span> 
 
@@ -51,7 +50,7 @@ ms.lasthandoff: 01/31/2018
 
 <span data-ttu-id="5a43f-120">Bir madde hasar görürse veya yanlış yere yerleştirilirse, hayali bir iade kaydı girin.</span><span class="sxs-lookup"><span data-stu-id="5a43f-120">If an item becomes damaged or misplaced, enter a fictitious return record.</span></span> <span data-ttu-id="5a43f-121">Sonra maddeyi silin veya özet kısmında tutun ve maddenin kullanılamaz olduğunu belirtmek için açıklamasını değiştirin.</span><span class="sxs-lookup"><span data-stu-id="5a43f-121">Then either delete the item or keep it in the overview and change the description to indicate that the item is not available.</span></span>
 
- 
+
 <a name="see-also"></a><span data-ttu-id="5a43f-122">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="5a43f-122">See also</span></span>
 --------
 

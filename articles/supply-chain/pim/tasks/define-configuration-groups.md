@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 70e960a8a183c3499b17af96d305da42168fd531
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 832dd57301f7a42dd8d05db8040255374f8fddad
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-configuration-groups"></a><span data-ttu-id="8d5cb-103">Konfigürasyon grupları tanımlama</span><span class="sxs-lookup"><span data-stu-id="8d5cb-103">Define configuration groups</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8d5cb-104">Bu yordam, demo verileri şirket USMF'de iki grup oluşturarak ürün konfigürasyon gruplarının nasıl tanımlanacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="8d5cb-104">This procedure shows how to define product configuration groups by creating two groups in the demo data company USMF Company.</span></span> <span data-ttu-id="8d5cb-105">Bu, boyut tabanlı yapılandırma birleşimlerini nasıl oluşturulacağını açıklayan sekiz prosedür arasındaki dördüncüsüdür.</span><span class="sxs-lookup"><span data-stu-id="8d5cb-105">This is the fourth procedure out of eight which explains how to build combinations for dimension-based configuration.</span></span>
 

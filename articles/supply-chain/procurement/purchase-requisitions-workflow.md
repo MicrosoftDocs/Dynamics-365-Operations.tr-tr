@@ -19,17 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: db1d517c305644b2157a2cc54b6ccc315fed5969
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 17f18b3cc74867f268101a4e5a1f9053b0f244b3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="purchase-requisition-workflow"></a><span data-ttu-id="f7e7f-105">Satınalma talebi iş akışı</span><span class="sxs-lookup"><span data-stu-id="f7e7f-105">Purchase requisition workflow</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f7e7f-106">İş akışı süreci, satın alma talebini, ilk durum olan Taslak durumundan son durum olan Onaylandı durumuna, gözden geçirme sürecine geçirir.</span><span class="sxs-lookup"><span data-stu-id="f7e7f-106">The workflow process moves purchase requisitions through the review process, from an initial status of Draft to a final status of Approved.</span></span> <span data-ttu-id="f7e7f-107">Bir satınalma talebi gözden geçirme amacıyla gönderildiğinde iş akışı süreci başlatılır.</span><span class="sxs-lookup"><span data-stu-id="f7e7f-107">When a purchase requisition is submitted for review, the workflow process is started.</span></span> <span data-ttu-id="f7e7f-108">Bir Satın alma talebi onaylandıktan sonra, satın alma talebi satırları için bir satın alma emri oluşturulabilir ve siparişin gerçekleştirilmesi için satıcıya sunulabilir.</span><span class="sxs-lookup"><span data-stu-id="f7e7f-108">After a purchase requisition is approved, a purchase order can be generated for the purchase requisition lines and submitted to the vendor for order fulfillment.</span></span>
 

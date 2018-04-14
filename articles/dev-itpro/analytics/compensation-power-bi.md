@@ -17,16 +17,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 93c005d4b85b56f77ddd488c91e477970f4ccd07
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fa3f93dae69040c77ff28484a2bea4d1503a616d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="compensation-power-bi-content"></a><span data-ttu-id="d2a4d-104">Ücret Power BI içeriği</span><span class="sxs-lookup"><span data-stu-id="d2a4d-104">Compensation Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d2a4d-105">Bu konu, **Ücret** Microsoft Power BI içeriğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="d2a4d-105">This topic describes the **Compensation** Microsoft Power BI content.</span></span> <span data-ttu-id="d2a4d-106">Bu raporlara nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="d2a4d-106">It explains how to access the reports, and provides information about the data model and entities that were used to build the content.</span></span>
 

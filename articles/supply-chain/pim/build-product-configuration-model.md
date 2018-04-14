@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2bfaf16cde329909c167d1ad402e08619bdcd5a2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 63c4147791a3b115f41638ab11a68c2dcf1c929a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="build-a-product-configuration-model"></a><span data-ttu-id="32843-103">Ürün konfigürasyon modeli oluşturun</span><span class="sxs-lookup"><span data-stu-id="32843-103">Build a product configuration model</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="32843-104">Ürünleri özel gereksinimleri karşılamak üzere yapılandırma gerekliliği hem işletmeden işletmeye hem de hem işletme-müşteri ilişkilerinde istisna yerine bir kural haline gelmektedir.</span><span class="sxs-lookup"><span data-stu-id="32843-104">The need to configure products to meet special requirements is becoming the rule rather than the exception, in both business-to-business and business-to-consumer relationships.</span></span>
 

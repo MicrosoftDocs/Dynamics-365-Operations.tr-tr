@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 75a76252cc3cb6f3e7516309a7d9a6f2d1934ccd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 194f5b0a361d07ba5c3187dd2b5d20549599ae45
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-activity-relation-successor"></a><span data-ttu-id="76d56-103">Faaliyet ilişkisi oluşturma: Ardıl</span><span class="sxs-lookup"><span data-stu-id="76d56-103">Create activity relation: Successor</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="76d56-104">Bir yalın imalat akışındaki faaliyetlerin akışı etkinlik ilişkileri üzerinden belgelenir.</span><span class="sxs-lookup"><span data-stu-id="76d56-104">The flow of activities in a lean production flow is documented through activity relations.</span></span> <span data-ttu-id="76d56-105">Bu kayıt, bir etkinlik ilişkisinin nasıl oluşturulacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="76d56-105">This recording shows how to create an activity relation.</span></span>
 

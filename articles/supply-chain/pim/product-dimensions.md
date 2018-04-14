@@ -20,19 +20,18 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9cb4bded4b8d841c6d164e6b8ded2cb3fb4d0978
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9ba0c5d44d58faac47b6a44265431a48c49874df
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-dimensions"></a><span data-ttu-id="a712a-105">Ürün boyutları</span><span class="sxs-lookup"><span data-stu-id="a712a-105">Product dimensions</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[Retail name](../includes/retail-name.md)]
-
+[!INCLUDE [Retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="a712a-106">Dört ürün boyutu bulunur - Renk, Yapılandırma, Boyut ve Stil.</span><span class="sxs-lookup"><span data-stu-id="a712a-106">There are four product dimensions -  Color, Configuration, Size and Style.</span></span> <span data-ttu-id="a712a-107">Ürün boyutlarını boyut gruplarında birleştirebilirsiniz ve ürün master öğelerine boyut grupları atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a712a-107">You combine product dimensions in dimension groups and assign dimension groups to product masters.</span></span> <span data-ttu-id="a712a-108">Ürün boyutlarının kombinasyonları, ürün çeşitlerinin nasıl tanımlanacağını belirler.</span><span class="sxs-lookup"><span data-stu-id="a712a-108">The combinations of product dimensions determine how product variants are defined.</span></span>
 
@@ -51,6 +50,7 @@ ms.lasthandoff: 02/07/2018
 -   <span data-ttu-id="a712a-129">**Ürün bilgileri yönetimi** &gt; **Serbest bırakılan ürünler**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a712a-129">Click **Product information management** &gt; **Released products**.</span></span> <span data-ttu-id="a712a-130">Bir ana ürün seçin.</span><span class="sxs-lookup"><span data-stu-id="a712a-130">Select a product master.</span></span> <span data-ttu-id="a712a-131">**Eylem Bölmesi**'nde, **Ürün**'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a712a-131">On the **Action Pane**, click **Product**.</span></span> <span data-ttu-id="a712a-132">**Ana ürün** grubunda **Ürün boyutları**'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="a712a-132">In the **Product master** group, click **Product dimensions**.</span></span>
 
 <span data-ttu-id="a712a-133">Maddeler için oluşturabileceğiniz varyant sayısı, olası ürün boyutu kombinasyonlarının sayısı ile sınırlıdır.</span><span class="sxs-lookup"><span data-stu-id="a712a-133">The number of variants that you can create for an item is limited by the number of possible product dimension combinations.</span></span>
+
 | <span data-ttu-id="a712a-134">**İpucu**</span><span class="sxs-lookup"><span data-stu-id="a712a-134">**Tip**</span></span>                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="a712a-135">Bir ürünü örneğin bir emir satırında kullanırken, birlikle çalışmak istediğiniz ürün varyantını tanımlamak için ürün boyutlarını seçerseniz.</span><span class="sxs-lookup"><span data-stu-id="a712a-135">When you use a product on, for example, an order line, you select the product dimensions to identify the product variant that you want to work with.</span></span> |

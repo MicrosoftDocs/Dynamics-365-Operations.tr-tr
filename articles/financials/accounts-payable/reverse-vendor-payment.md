@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 019b765cd1e9fa00078018354f0d0792b97faba6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7633b08bcb701863fb59c57eed3d9656ea72998c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="reverse-a-vendor-payment"></a><span data-ttu-id="ce247-104">Satıcı ödemesini tersine çevirme</span><span class="sxs-lookup"><span data-stu-id="ce247-104">Reverse a vendor payment</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ce247-105">Bu makalede bir ödemenin terse çevrilmesi, silinmesi, geçersiz sayılması ve reddedilmesi arasındaki farklar açıklanmıştır.</span><span class="sxs-lookup"><span data-stu-id="ce247-105">This article describes the differences between reversing, deleting, voiding, and rejecting a payment.</span></span> <span data-ttu-id="ce247-106">İlave olarak, bir satıcı çekinin ters çevrilmesi için iki yöntem açıklanmıştır.</span><span class="sxs-lookup"><span data-stu-id="ce247-106">Additionally, it explains the two methods for reversing a vendor check.</span></span> 
 

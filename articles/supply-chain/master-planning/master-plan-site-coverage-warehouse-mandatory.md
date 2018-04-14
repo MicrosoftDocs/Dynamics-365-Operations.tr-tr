@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4ca01913a0338004fabcda5136108ec3c5be8ff7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fcfdbf8cdc6aae7f82ba308d450b754d652ac699
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a><span data-ttu-id="12529-104">Tesis kapsamı için master planlama, ambar zorunlu</span><span class="sxs-lookup"><span data-stu-id="12529-104">Master planning for site coverage, mandatory warehouse</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="12529-105">Bu konuda, kapsam boyutu olarak tesisi olan bir maddenin nasıl planlanacağını açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="12529-105">This topic describes how an item that has the site as coverage dimension is planned.</span></span> <span data-ttu-id="12529-106">Ambar zorunlu bir boyuttur.</span><span class="sxs-lookup"><span data-stu-id="12529-106">Warehouse is a mandatory dimension.</span></span>
 

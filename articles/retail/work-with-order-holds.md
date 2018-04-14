@@ -20,17 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: c543a1538a83d88eaebce203e14cf8b0e10e2ad3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f5e4804035d16b525f0179e5e395ea11eab48ca0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="order-holds"></a><span data-ttu-id="7cc03-103">Sipariş tutmaları</span><span class="sxs-lookup"><span data-stu-id="7cc03-103">Order holds</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="7cc03-104">Bu konu Dynamics 365 for Retail kullanarak siparişlerdeki tutmaları açıklar.</span><span class="sxs-lookup"><span data-stu-id="7cc03-104">This topic describes holds on orders using Dynamics 365 for Retail.</span></span>
 

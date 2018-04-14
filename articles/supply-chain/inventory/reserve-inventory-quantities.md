@@ -19,17 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 6de5c66d4587f6577e36345f7b77d72508c449d5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c705f51e32cc03d201eb00b6a1aa8048e59ff59e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="reserve-inventory-quantities"></a><span data-ttu-id="31c91-103">Stok miktarlarını rezerve etme</span><span class="sxs-lookup"><span data-stu-id="31c91-103">Reserve inventory quantities</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="31c91-104">Bu konu stok rezervasyonunda kullanılabilen farklı seçenekleri açıklar.</span><span class="sxs-lookup"><span data-stu-id="31c91-104">This topic describes the different options that are available for reserving inventory.</span></span>
 
@@ -50,6 +49,7 @@ ms.lasthandoff: 01/17/2018
 ### <a name="policies-on-the-item-model-groups-page"></a><span data-ttu-id="31c91-128">Madde model grupları sayfasındaki ilkeler</span><span class="sxs-lookup"><span data-stu-id="31c91-128">Policies on the Item model groups page</span></span>
 
 <span data-ttu-id="31c91-129">**Stok ilkeleri** bölümü aşağıdaki rezervasyon ilkelerini içerir.</span><span class="sxs-lookup"><span data-stu-id="31c91-129">The **Inventory policies** section contains the following reservation policies.</span></span>
+
 |                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="31c91-130">**Rezervasyon ilkesi**</span><span class="sxs-lookup"><span data-stu-id="31c91-130">**Reservation policy**</span></span>  | <span data-ttu-id="31c91-131">**Açıklama**</span><span class="sxs-lookup"><span data-stu-id="31c91-131">**Description**</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -63,6 +63,7 @@ ms.lasthandoff: 01/17/2018
 #### <a name="example-for-fifo-date-controlled-and-backward-from-ship-date"></a><span data-ttu-id="31c91-155">FIFO tarihi denetimli ve Sevk tarihinden geriye doğru örneği</span><span class="sxs-lookup"><span data-stu-id="31c91-155">Example for FIFO date-controlled and Backward from ship date</span></span>
 
 <span data-ttu-id="31c91-156">Bu örnekte, madde numarası A için eldeki stok üç farklı toplu iş numarası için mevcuttur.</span><span class="sxs-lookup"><span data-stu-id="31c91-156">In this example, on-hand inventory for item number A exists for three different batch numbers.</span></span>
+
 | <span data-ttu-id="31c91-157">Madde kodu</span><span class="sxs-lookup"><span data-stu-id="31c91-157">Item number</span></span> | <span data-ttu-id="31c91-158">Parti numarası</span><span class="sxs-lookup"><span data-stu-id="31c91-158">Batch number</span></span> | <span data-ttu-id="31c91-159">Miktar</span><span class="sxs-lookup"><span data-stu-id="31c91-159">Quantity</span></span> | <span data-ttu-id="31c91-160">Tarih</span><span class="sxs-lookup"><span data-stu-id="31c91-160">Date</span></span>             |
 |-------------|--------------|----------|------------------|
 | <span data-ttu-id="31c91-161">A:</span><span class="sxs-lookup"><span data-stu-id="31c91-161">A</span></span>           | <span data-ttu-id="31c91-162">1000</span><span class="sxs-lookup"><span data-stu-id="31c91-162">1000</span></span>         | <span data-ttu-id="31c91-163">5</span><span class="sxs-lookup"><span data-stu-id="31c91-163">5</span></span>        | <span data-ttu-id="31c91-164">2 Şubat 2016</span><span class="sxs-lookup"><span data-stu-id="31c91-164">February 2, 2016</span></span> |

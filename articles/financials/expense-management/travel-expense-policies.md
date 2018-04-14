@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3b2a28fe6acf03e52c292048a797ce997f58bcce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 73e4fc7c1d0273c51be57d9c3ab04dbfbd839327
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expense-policies"></a><span data-ttu-id="36a3b-103">Gider ilkeleri</span><span class="sxs-lookup"><span data-stu-id="36a3b-103">Expense policies</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="36a3b-104">Çalışanlarınızın gider raporlarını ve seyahat taleplerini girerken veya gönderirken izlemeleri gereken ilkeleri tanımlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="36a3b-104">You can define policies that your workers must follow when entering and submitting expense reports and travel requisitions.</span></span>         
 <span data-ttu-id="36a3b-105">Gider ilkelerinin uygulanması giderleri etkili bir şekilde yönetmenize yardımcı olabilir.</span><span class="sxs-lookup"><span data-stu-id="36a3b-105">Implementing expense policies can help you manage expenses effectively.</span></span>         
@@ -39,14 +39,14 @@ ms.lasthandoff: 03/26/2018
 <span data-ttu-id="36a3b-111">Üç farklı ilke türü tanımlayabilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="36a3b-111">You can define three types of policies:</span></span>         
         
 - <span data-ttu-id="36a3b-112">Uyarı – Çalışanın bir gider raporu veya seyahat talebi göndermesine izin verir ancak gider sonra raporlanmak üzere tüm</span><span class="sxs-lookup"><span data-stu-id="36a3b-112">Warning – Allows the worker to submit an expense report or travel requisition but the expense will be marked for all approvers and</span></span>        
-<span data-ttu-id="36a3b-113">onaylayıcılar için işaretlenir.</span><span class="sxs-lookup"><span data-stu-id="36a3b-113">for later reporting.</span></span>        
+  <span data-ttu-id="36a3b-113">onaylayıcılar için işaretlenir.</span><span class="sxs-lookup"><span data-stu-id="36a3b-113">for later reporting.</span></span>        
 
 - <span data-ttu-id="36a3b-114">Hata – Çalışanın gider raporu veya seyahat talebini göndermeden önce ilke ile uyum sağlar hale getirmesini gerektirir.</span><span class="sxs-lookup"><span data-stu-id="36a3b-114">Error – Requires the worker to revise the expense to comply with the policy before submitting the expense report or travel requisition.</span></span>       
  
- - <span data-ttu-id="36a3b-115">Mazeret – Çalışanın veya bir yöneticini, gider raporunu veya seyahat talebini girmeden önce ilke tutarını aşmasına dair bir mazeret girmesini gerektirir.</span><span class="sxs-lookup"><span data-stu-id="36a3b-115">Justification – Requires the worker or a manager to enter a justification for exceeding the policy amount before submitting the expense report or travel requisition.</span></span>        
+  - <span data-ttu-id="36a3b-115">Mazeret – Çalışanın veya bir yöneticini, gider raporunu veya seyahat talebini girmeden önce ilke tutarını aşmasına dair bir mazeret girmesini gerektirir.</span><span class="sxs-lookup"><span data-stu-id="36a3b-115">Justification – Requires the worker or a manager to enter a justification for exceeding the policy amount before submitting the expense report or travel requisition.</span></span>        
  
- <span data-ttu-id="36a3b-116">Ayrıca, gider ilkelerinin yürürlükte olacağı bir tarih aralığı da ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="36a3b-116">You can also set up a date range for which expense policies are in effect.</span></span> <span data-ttu-id="36a3b-117">Örneğin Danimarka ile New York City arasındaki</span><span class="sxs-lookup"><span data-stu-id="36a3b-117">For example, airline fares for flights between Denmark</span></span>      
- <span data-ttu-id="36a3b-118">uçuşlar için bilet ücreti tatil dönemlerinde pahalı olabilir.</span><span class="sxs-lookup"><span data-stu-id="36a3b-118">and New York City can be expensive during the peak holiday travel season.</span></span> <span data-ttu-id="36a3b-119">New York City'ye yapılacak uçuşlar için maliyeti</span><span class="sxs-lookup"><span data-stu-id="36a3b-119">You can define a flight expense rule that restricts the</span></span>      
- <span data-ttu-id="36a3b-120">5000 DKK ile sınırlayacak bir gider kuralı oluşturabilir ve bu kuralın 15 Mart ile</span><span class="sxs-lookup"><span data-stu-id="36a3b-120">cost of flights to New York City to a limit of DKK 5000, and you can specify that this rule be in effect between March 15 and</span></span>      
- <span data-ttu-id="36a3b-121">15 Eylül arasında geçerli olacağını belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="36a3b-121">September 15.</span></span>
+  <span data-ttu-id="36a3b-116">Ayrıca, gider ilkelerinin yürürlükte olacağı bir tarih aralığı da ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="36a3b-116">You can also set up a date range for which expense policies are in effect.</span></span> <span data-ttu-id="36a3b-117">Örneğin Danimarka ile New York City arasındaki</span><span class="sxs-lookup"><span data-stu-id="36a3b-117">For example, airline fares for flights between Denmark</span></span>      
+  <span data-ttu-id="36a3b-118">uçuşlar için bilet ücreti tatil dönemlerinde pahalı olabilir.</span><span class="sxs-lookup"><span data-stu-id="36a3b-118">and New York City can be expensive during the peak holiday travel season.</span></span> <span data-ttu-id="36a3b-119">New York City'ye yapılacak uçuşlar için maliyeti</span><span class="sxs-lookup"><span data-stu-id="36a3b-119">You can define a flight expense rule that restricts the</span></span>      
+  <span data-ttu-id="36a3b-120">5000 DKK ile sınırlayacak bir gider kuralı oluşturabilir ve bu kuralın 15 Mart ile</span><span class="sxs-lookup"><span data-stu-id="36a3b-120">cost of flights to New York City to a limit of DKK 5000, and you can specify that this rule be in effect between March 15 and</span></span>      
+  <span data-ttu-id="36a3b-121">15 Eylül arasında geçerli olacağını belirtebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="36a3b-121">September 15.</span></span>
 

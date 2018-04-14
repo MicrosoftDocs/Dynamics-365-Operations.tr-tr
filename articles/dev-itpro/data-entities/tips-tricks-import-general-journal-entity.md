@@ -18,17 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 688fa17072cb340d6d02be31528339fb98601825
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 11406dad0c0a2b7f01d95375dd18c4d5ab1170c7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a><span data-ttu-id="01fec-103">Yevmiye defteri varlığını kullanarak fişleri içe aktarmak için en iyi uygulamalar</span><span class="sxs-lookup"><span data-stu-id="01fec-103">Best practices for importing vouchers using the General journal entity</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="01fec-104">Bu konuda, Yevmiye defteri varlığı kullanılarak Yevmiye defterine veri aktarmak için ipuçları verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="01fec-104">This topic provides tips for importing data into the General journal by using the General journal entity.</span></span>  
 

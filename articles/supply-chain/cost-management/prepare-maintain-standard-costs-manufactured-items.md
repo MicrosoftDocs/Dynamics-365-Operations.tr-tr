@@ -20,17 +20,17 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: c1942d1f2c8eeb05a6cbaddd2d7911a93b7e05a1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 40bcde0a43386cfd9e55d96e4a1cbc82b47e8494
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a><span data-ttu-id="5b598-103">Üretilmiş maddeler için standart maliyetleri sürdürmeye hazırlanma</span><span class="sxs-lookup"><span data-stu-id="5b598-103">Prepare to maintain standard costs for manufactured items</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5b598-104">Bu konu üretilmiş maddeler için maliyetleri korumaya hazırlanmayla ilgili adımları açıklar.</span><span class="sxs-lookup"><span data-stu-id="5b598-104">This topic describes the steps for preparing to maintain costs for manufactured items.</span></span> <span data-ttu-id="5b598-105">Üretilmiş maddelerle ilgili adımlar satın alınan maddelerle ilgili adımlardan biraz farklıdır.</span><span class="sxs-lookup"><span data-stu-id="5b598-105">The steps for manufactured items differ slightly from the steps for purchased items.</span></span>
 

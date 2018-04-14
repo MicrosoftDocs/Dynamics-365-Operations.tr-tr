@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 4544128e580b30b14a6236a9a6147ff0a8641d72
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 468e2c5ce2915bf346ade20159e24fb98fcd4336
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="solver-strategy-for-product-configuration"></a><span data-ttu-id="f4d90-103">Ürün yapılandırması için Çözücü stratejisi</span><span class="sxs-lookup"><span data-stu-id="f4d90-103">Solver strategy for product configuration</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f4d90-104">Bu konu çözücü stratejisini ürün yapılandırmasının performansını artırmak üzere nasıl kullanabileceğinizi açıklar.</span><span class="sxs-lookup"><span data-stu-id="f4d90-104">This topic describes how you can use the solver strategy to improve the performance of product configuration.</span></span>
 

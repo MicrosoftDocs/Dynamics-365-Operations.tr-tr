@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: fa503ac82286099a0eafc7034d169e165b538e2c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e539d92753bbbc4ac0ca88cec83c4d15135c388b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="service-object-groups"></a><span data-ttu-id="e612d-103">Servis nesne grupları</span><span class="sxs-lookup"><span data-stu-id="e612d-103">Service object groups</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e612d-104">Nesne grupları, raporlara ve istatistiklere yönelik nesneler hakkındaki verilerin sıralaması ve filtrelenmesi açısından yararlıdır.</span><span class="sxs-lookup"><span data-stu-id="e612d-104">Object groups are useful for sorting and filtering the data about objects for reports and statistics.</span></span> <span data-ttu-id="e612d-105">Örneğin, nesneleri coğrafi konuma veya türe göre gruplandırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e612d-105">For example, you can group objects by geographical location or by type.</span></span>
 

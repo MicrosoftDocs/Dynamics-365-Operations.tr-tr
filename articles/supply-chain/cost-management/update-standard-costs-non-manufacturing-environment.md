@@ -20,17 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0386ca1e5e7bf6e578ba2abf1b2c9eefe4dd2a02
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 432cdc516c74c4fff570366d0eab77323d3159bf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a><span data-ttu-id="34de1-103">Standart maliyetleri imalat dışı bir ortamda güncelleme</span><span class="sxs-lookup"><span data-stu-id="34de1-103">Update standard costs in a non-manufacturing environment</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="34de1-104">Bu makalede, imalat dışı bir ortamda standart maliyetlerin güncellenmesine yönelik yönergeler sağlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="34de1-104">This article provides guidance for updating standard costs in a non-manufacturing environment.</span></span>
 

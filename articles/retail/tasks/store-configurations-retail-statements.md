@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 441ba692f559f9966f3e2512c7760ad2f732b768
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d28e9cd63277a3a0c8dc0bce61177d7f7ae9c1ab
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="store-configurations-for-retail-statements"></a><span data-ttu-id="c4d2a-103"> Perakende ekstreleri için mağaza yapılandırmaları</span><span class="sxs-lookup"><span data-stu-id="c4d2a-103">Store configurations for Retail statements</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c4d2a-104">Bu yordam, Perakende ekstrelerinin oluşturulması ve nakledilmesini etkileyen Perakende mağazasına ilişkin yapılandırmaları gösterir.</span><span class="sxs-lookup"><span data-stu-id="c4d2a-104">This procedure walks through configurations for the Retail store that affect how Retail statements get created and posted.</span></span> <span data-ttu-id="c4d2a-105">Perakende mağazalardaki mali boyutlar başka bir yordamda anlatılacaktır.</span><span class="sxs-lookup"><span data-stu-id="c4d2a-105">Financial dimensions on Retail stores are covered in another procedure.</span></span> <span data-ttu-id="c4d2a-106">Bu yordam, USRT demo şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="c4d2a-106">This procedure uses the USRT demo company.</span></span>
 

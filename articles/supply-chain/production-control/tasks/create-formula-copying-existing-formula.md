@@ -17,15 +17,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d34ca5befd04b0f82bf9564fd3976f4c2daab0ce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fcde37715287a5d9b862f9e35c594636ef11d395
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a><span data-ttu-id="f5493-103">Mevcut bir formülden kopyalayarak formül oluşturma</span><span class="sxs-lookup"><span data-stu-id="f5493-103">Create a formula by copying from an existing formula</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f5493-104">Bu yordam, mevcut bir formülden kopyalayarak yeni bir formülün nasıl hızlıca oluşturulacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="f5493-104">This procedure shows how to quickly create a new formula by copying from an existing formula.</span></span> <span data-ttu-id="f5493-105">Bu yordamı oluşturmak için USMF, USP2 veya USPI Demo verisi şirketlerini kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f5493-105">You can use the demo data companies USMF, USP2, or USPI to create this procedure.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6a947d4a5302c6ed1848396d50cfbfcb78aabf97
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 134fbbb2cde4c611798ec010ee7a128c06a80392
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a><span data-ttu-id="8e549-103">Kanban kuralına kanban miktarı hesaplama ilkesi ekleme</span><span class="sxs-lookup"><span data-stu-id="8e549-103">Add a kanban quantity calculation policy to a kanban rule</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8e549-104">Bu yordam, kanban miktarı hesaplama ilkesi oluşturma ve miktarları ve kanban boyutunu en iyi duruma getirmek için kanban kuralına eklemeye odaklanır.</span><span class="sxs-lookup"><span data-stu-id="8e549-104">This procedure focuses on creating a kanban quantity calculation policy and adding it to a kanban rule to optimize the kanban size and quantities.</span></span> <span data-ttu-id="8e549-105">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="8e549-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="8e549-106">Bu yordam değer akışı yöneticisi için hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="8e549-106">This procedure is intended for the value stream manager.</span></span> <span data-ttu-id="8e549-107">Bu yordam kanban miktarı önerilerini hesapla yordamını oluşturmak için bir önkoşuldur.</span><span class="sxs-lookup"><span data-stu-id="8e549-107">This procedure is a prerequisite for creating the procedure Calculate kanban quantity suggestions.</span></span> 
 

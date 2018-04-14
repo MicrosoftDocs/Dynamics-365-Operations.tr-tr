@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4a7eee6617e12d59a3d06207f5f6b58c93e28240
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a7a09c67008582a8ee9703a93751ede525a7d4d3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="deactivate-a-production-flow-version"></a><span data-ttu-id="1d892-103">Üretim akışı sürümünü devre dışı bırakma</span><span class="sxs-lookup"><span data-stu-id="1d892-103">Deactivate a production flow version</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1d892-104">Etkin bir üretim akışı sürümüne artık ihtiyaç duyulmuyorsa devre dışı bırakılabilir.</span><span class="sxs-lookup"><span data-stu-id="1d892-104">When an active production flow version is no longer needed, it can be deactivated.</span></span> <span data-ttu-id="1d892-105">Bu seçeneği yalnızca tüm kanban kuralları ve etkinlikler sonlandırmışsa ve yeniden etkinleştirilmeyecekse kullanmalısınız.</span><span class="sxs-lookup"><span data-stu-id="1d892-105">You should only use this option if all kanban rules and activities have ended and will not be activated again.</span></span> <span data-ttu-id="1d892-106">Bu üretim akışı sürümüyle ilgili tüm kanban kurallarının bitiş tarihinin geçerli tarih ve saat ile güncelleştirileceğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="1d892-106">Note that the expiry date of all kanban rules related to this production flow version will be updated with the current date and time.</span></span> 
 

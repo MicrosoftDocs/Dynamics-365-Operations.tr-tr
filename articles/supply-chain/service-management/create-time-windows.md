@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4ea10e4c0fbfd21538bba16d2b01deb3e4b3a10d
-ms.openlocfilehash: a469ecc018ddb8916cb9b14ec595a548d78710af
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1a5a23d61ba8f45c068e17d5f60899c0ca9b6315
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/20/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-time-windows"></a><span data-ttu-id="60f5b-103">Zaman aralıkları oluşturma</span><span class="sxs-lookup"><span data-stu-id="60f5b-103">Create time windows</span></span>   
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="60f5b-104">Servis siparişi satırlarının planlamasını en iyi duruma getirmek için zaman aralıkları kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="60f5b-104">You can use time windows to optimize the scheduling of service order lines.</span></span>
 

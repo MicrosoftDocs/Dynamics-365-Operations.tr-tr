@@ -20,17 +20,16 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 0adfb1dcdaa1c57a3f8af0d874c081e19844d20a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3b1346917dc8482181acdb9dac31efbc5356dd24
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="info-codes"></a><span data-ttu-id="83b81-103">Bilgi kodları</span><span class="sxs-lookup"><span data-stu-id="83b81-103">Info codes</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="83b81-104">Bu makalede bilgi kodları, bilgi kodu grupları ve bunların nasıl kullanılacağı hakkında genel bir bakış sunulmuştur.</span><span class="sxs-lookup"><span data-stu-id="83b81-104">This article provides an overview about info codes, info code groups, and how to use them.</span></span>
 
@@ -52,7 +51,7 @@ ms.lasthandoff: 01/18/2018
 
 <span data-ttu-id="83b81-132">**Örnek 2: Bilgi kodlarını bilgi kodu gruplarına bağlama** Mobil cihaz gibi belirli ürünler satarken her zaman telefon numarası, mobil cihaz ekipmanı tanımlayıcısı (MEID) ve seri numarası gibi bir dizi bilgiyi toplamak isteyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="83b81-132">**Example 2: Link info codes to info code groups** When you sell certain products, for example mobile devices, you always want to collect a specific set of information, such as telephone number, mobile equipment identifier (MEID), and serial number.</span></span> <span data-ttu-id="83b81-133">Ancak, aynı zamanda cep telefonunun yanı sıra bir tablete ilişkin farklı bilgiler de toplamak istersiniz.</span><span class="sxs-lookup"><span data-stu-id="83b81-133">However, you also want to collect different information for a tablet versus a mobile phone.</span></span> <span data-ttu-id="83b81-134">Telefon numarası, MEID ve seri numarası istemlerini içeren bir bilgi kodu grubu ayarlayabilir ve sonra bilgi kodu grubunu bağımsız bir bilgi koduna bağlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="83b81-134">You can set up an info code group that includes prompts for the telephone number, MEID, and the serial number, and then link the info code group to an individual info code.</span></span> <span data-ttu-id="83b81-135">Ürüne özgü bilgi kodları tetiklendiğinde her cihaz için birden çok bağlı bilgi kodu grubunu tanımlamanız gerekmeden genel verileri toplayabilmeniz için ardından bilgi kodu grubu tetiklenebilir.</span><span class="sxs-lookup"><span data-stu-id="83b81-135">When the product-specific info code is triggered, the info code group can be triggered next to enable you to collect the common data without having to define multiple sets of linked info codes for each device.</span></span>
 
- 
+
 
 
 

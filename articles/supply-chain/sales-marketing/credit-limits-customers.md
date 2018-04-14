@@ -17,16 +17,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3c43a42822f291607fbc9708dd07ebf99b9d7ec4
-ms.openlocfilehash: 0250706fea6d6dfa7b59729162c2afad9ca11a46
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e57389ac2882b011bf4ae98334db18a8f35846e2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="credit-limits-for-customers"></a><span data-ttu-id="ba96e-103">Müşteriler için kredi limitleri</span><span class="sxs-lookup"><span data-stu-id="ba96e-103">Credit limits for customers</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ba96e-104">Bir kredi limiti ayarlamak, müşterilerinize sunacağınız maksimum kredi tutarını belirlemenizi sağlar.</span><span class="sxs-lookup"><span data-stu-id="ba96e-104">Setting a credit limit lets you specify the maximum amount of credit to extend to your customers.</span></span> <span data-ttu-id="ba96e-105">Bir kredi limiti belirtilirse, bir kullanıcı bir belgeyi güncelleştirmeye teşebbüs ettiğinde otomatik denetlenir.</span><span class="sxs-lookup"><span data-stu-id="ba96e-105">If a credit limit is specified, it is checked automatically when a user attempts to update a document.</span></span> <span data-ttu-id="ba96e-106">Kredi limiti aşıldığında, kullanıcıya bir ileti görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="ba96e-106">If the credit limit is exceeded, a message is displayed to the user.</span></span> <span data-ttu-id="ba96e-107">Bu makale, kredi limitlerinin nasıl çalıştığına genel bir bakış sağlar ve aşağıdaki soruları yanıtlar:</span><span class="sxs-lookup"><span data-stu-id="ba96e-107">This article provides an overview of how credit limits work  and answers the following questions:</span></span>
 

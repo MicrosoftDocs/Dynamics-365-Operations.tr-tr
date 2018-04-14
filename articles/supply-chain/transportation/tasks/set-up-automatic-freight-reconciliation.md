@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 97f0c4d8fe06ab2fc252b9543cb688306214c79f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 69e2a11d3a8c51d11c4c53e76359e07be1ec5402
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a><span data-ttu-id="c712e-103">Otomatik navlun mutabakatını ayarlama</span><span class="sxs-lookup"><span data-stu-id="c712e-103">Set up automatic freight reconciliation</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c712e-104">Bu yordam, otomatik navlun mutabakatı için verilerin nasıl ayarlanacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="c712e-104">This procedure shows how to set up data for automatic freight reconciliation.</span></span> <span data-ttu-id="c712e-105">Bu, genellikle ambar yöneticisi tarafından yapılır.</span><span class="sxs-lookup"><span data-stu-id="c712e-105">This is typically done by a warehouse manager.</span></span> <span data-ttu-id="c712e-106">Bu yordamı USMF demo veri şirketinde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c712e-106">You can use this procedure in demo data company USMF.</span></span>
 

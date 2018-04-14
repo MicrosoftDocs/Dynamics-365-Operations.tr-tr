@@ -19,17 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2e309655bbc1d0fe7a088062b90fab34c642ab29
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fd6f32e266dcbd78c464e42da50a347bea39fcfc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-centralized-payments"></a><span data-ttu-id="d0f4e-103">Merkezi ödemeleri ayarlama</span><span class="sxs-lookup"><span data-stu-id="d0f4e-103">Set up centralized payments</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d0f4e-104">Ödemeleri kuruluşunuzdaki diğer tüzel kişilikler adına tek bir tüzel kişilikten yürütmek üzere hazırlamak için bu adımları kullanın.</span><span class="sxs-lookup"><span data-stu-id="d0f4e-104">Follow these steps to prepare to process payments in one legal entity on behalf of other legal entities in your organization.</span></span> <span data-ttu-id="d0f4e-105">Başlamadan önce aşağıdaki kurulumun tamamlanması gerekir:</span><span class="sxs-lookup"><span data-stu-id="d0f4e-105">Before you begin, the following setup must be completed:</span></span>
 

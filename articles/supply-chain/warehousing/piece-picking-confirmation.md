@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: b1868851d22f41d3278cd9574a48bdf062185012
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5109bc180cedfb21dfb8b2920d71d54812e7e6cf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="piece-picking-confirmation"></a><span data-ttu-id="4c666-103">Parça çekme onayı</span><span class="sxs-lookup"><span data-stu-id="4c666-103">Piece picking confirmation</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="4c666-104">Parça çekme, bir mobil cihazda çekme veya sayım işi aracılığıyla stoktaki her parçayı onaylamanıza olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="4c666-104">Piece picking allows you to confirm each piece of inventory through picking or counting work on a mobile device.</span></span> <span data-ttu-id="4c666-105">Çekme işleri için, işte çekim için belirtilen miktara kadar olan miktarda işi onaylayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4c666-105">For picks, you can confirm the quantity of work to be processed up to the quantity that is specified on work to be picked.</span></span> <span data-ttu-id="4c666-106">Sayım işi için, saydığınız stoğu tarayabilir ve toplam tutarı izleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4c666-106">For counting work, you can scan the inventory that you are counting and track the total amount.</span></span>
 
@@ -46,8 +46,10 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="4c666-122">İş türü çekme veya sayım olduğunda aşağıdaki seçenekler seçim için kullanılabilir hale gelir.</span><span class="sxs-lookup"><span data-stu-id="4c666-122">The following options become available for selection when the work type is pick or counting.</span></span>
 
-| <span data-ttu-id="4c666-123">Seçenek</span><span class="sxs-lookup"><span data-stu-id="4c666-123">Option</span></span>        | <span data-ttu-id="4c666-124">Açıklama</span><span class="sxs-lookup"><span data-stu-id="4c666-124">Description</span></span>   | 
-| ------------- | ------------- |
-| <span data-ttu-id="4c666-125">Parça çekme onayı</span><span class="sxs-lookup"><span data-stu-id="4c666-125">Piece picking confirmation</span></span>   | <span data-ttu-id="4c666-126">Çekme ve sayım iş türleri için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="4c666-126">Available for pick and counting work types.</span></span> <span data-ttu-id="4c666-127">Ürün onayı otomatik olarak seçilir.</span><span class="sxs-lookup"><span data-stu-id="4c666-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="4c666-128">Her stok parçasını mobil cihazınızdan onaylamanıza olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="4c666-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> | 
-| <span data-ttu-id="4c666-129">Maksimum parça sayısı</span><span class="sxs-lookup"><span data-stu-id="4c666-129">Maximum number of pieces</span></span>     | <span data-ttu-id="4c666-130">Parça çekme onayı etkinleştirilmişse, çekme işi için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="4c666-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="4c666-131">Onaylamak zorunda olduğunuz parça sayısı için bir sınır ayarlar.</span><span class="sxs-lookup"><span data-stu-id="4c666-131">Sets a limit to the number of pieces that you must confirm.</span></span> |  
+
+|           <span data-ttu-id="4c666-123">Seçenek</span><span class="sxs-lookup"><span data-stu-id="4c666-123">Option</span></span>           |                                                                            <span data-ttu-id="4c666-124">Açıklama</span><span class="sxs-lookup"><span data-stu-id="4c666-124">Description</span></span>                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="4c666-125">Parça çekme onayı</span><span class="sxs-lookup"><span data-stu-id="4c666-125">Piece picking confirmation</span></span> | <span data-ttu-id="4c666-126">Çekme ve sayım iş türleri için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="4c666-126">Available for pick and counting work types.</span></span> <span data-ttu-id="4c666-127">Ürün onayı otomatik olarak seçilir.</span><span class="sxs-lookup"><span data-stu-id="4c666-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="4c666-128">Her stok parçasını mobil cihazınızdan onaylamanıza olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="4c666-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> |
+|  <span data-ttu-id="4c666-129">Maksimum parça sayısı</span><span class="sxs-lookup"><span data-stu-id="4c666-129">Maximum number of pieces</span></span>  |                   <span data-ttu-id="4c666-130">Parça çekme onayı etkinleştirilmişse, çekme işi için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="4c666-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="4c666-131">Onaylamak zorunda olduğunuz parça sayısı için bir sınır ayarlar.</span><span class="sxs-lookup"><span data-stu-id="4c666-131">Sets a limit to the number of pieces that you must confirm.</span></span>                   |
+
 

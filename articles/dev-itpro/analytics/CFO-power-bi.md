@@ -16,17 +16,16 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 01233890603f6f199b7a815eb91d1d5a7f2ae53e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ccb18a677e5d43fc0fab7646d575b13e22f47e13
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cfo-overview-power-bi-content"></a><span data-ttu-id="7e3b6-103">CFO'ya genel bakış Power BI içeriği</span><span class="sxs-lookup"><span data-stu-id="7e3b6-103">CFO overview Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)] 
 
 <span data-ttu-id="7e3b6-104">Bu konu, **CFO'ya genel bakış** Microsoft Power BI içeriğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="7e3b6-104">This topic describes the **CFO overview** Microsoft Power BI content.</span></span> <span data-ttu-id="7e3b6-105">Bu Power BI içeriği, Microsoft Dynamics 365 for Finance and Operations sürüm 7.2 kullananlar için geçerlidir.</span><span class="sxs-lookup"><span data-stu-id="7e3b6-105">This Power BI content applies to those using Microsoft Dynamics 365 for Finance and Operations version 7.2.</span></span> <span data-ttu-id="7e3b6-106">7.3 veya üstü sürüm kullanıyorsanız lütfen [Mali Bilgiler](financial-insights.md)'e başvurun.</span><span class="sxs-lookup"><span data-stu-id="7e3b6-106">If you are using version 7.3 or later, please refer to [Financial Insights](financial-insights.md).</span></span>
 

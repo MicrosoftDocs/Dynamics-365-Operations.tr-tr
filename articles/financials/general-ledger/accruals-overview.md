@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
-ms.openlocfilehash: 4fa27cbfe6129aa78b5e05de704894da173d853b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0b4d8e7eb268857ce753415a24e600b8006eb5e3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="accruals-overview"></a><span data-ttu-id="ff9ee-103">Tahakkuklara genel bakış</span><span class="sxs-lookup"><span data-stu-id="ff9ee-103">Accruals overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ff9ee-104">Bu makalede tahakkuklar açıklanmakta, tahakkukları nasıl ayarlayacağınız ve hareketleri nasıl oluşturacağınız hakkında bilgiler verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="ff9ee-104">This article describes accruals, and provides information about how to set them up and create transactions.</span></span>
 

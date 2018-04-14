@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b210bddf640dff2d65e2aec63a18c27acebdc5a8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fe92e2f0d57a1daeb2c20da91e1b60b2308dce6a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a><span data-ttu-id="f6540-103">Sabit kıymet hareketlerini deftere nakil katmanlarında deftere nakletme</span><span class="sxs-lookup"><span data-stu-id="f6540-103">Post fixed asset transactions to posting layers</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f6540-104">Bu makalede sabit kıymet hareketleri için katman işlevlerinin deftere nakline genel bir bakış sunulmuştur.</span><span class="sxs-lookup"><span data-stu-id="f6540-104">This article gives an overview of posting layer functionality for fixed asset transactions.</span></span>
 

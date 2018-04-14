@@ -20,17 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: d7ea09f1ef1c6403631520ca1b0d8fdca2d91932
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5a66cbb2051e762b0188c95d5287e2cab7a9cc53
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="retail-hierarchies"></a><span data-ttu-id="5ad19-103">Perakende hiyerarşileri</span><span class="sxs-lookup"><span data-stu-id="5ad19-103">Retail hierarchies</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="5ad19-104">Bu makalede Microsoft Dynamics 365 for Retail'deki perakende hiyerarşileri açıklanmıştır.</span><span class="sxs-lookup"><span data-stu-id="5ad19-104">This article describes retail hierarchies in Microsoft Dynamics 365 for Retail.</span></span>
 

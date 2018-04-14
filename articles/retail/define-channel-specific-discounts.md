@@ -20,17 +20,16 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f68400bf10b6235decc7ac5cb82e58b369c7c0c7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 34039b298e8994e50a7c06ef034698e8c1264389
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="define-channel-specific-discounts"></a><span data-ttu-id="fb73d-104">Kanala özel indirimler tanımla</span><span class="sxs-lookup"><span data-stu-id="fb73d-104">Define channel-specific discounts</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="fb73d-105">Perakendeciler sık sık farklı kanallara farklı iskontolar uygular.</span><span class="sxs-lookup"><span data-stu-id="fb73d-105">Retailers often set different discounts in different channels.</span></span> <span data-ttu-id="fb73d-106">Bu konuda, belirli bir kanala ait bir indirim oluşturmak için bilmeniz gereken kavramlar incelenmektedir.</span><span class="sxs-lookup"><span data-stu-id="fb73d-106">This topic reviews the concepts you need to know to create a discount for a specific channel.</span></span> 
 
@@ -61,7 +60,7 @@ ms.lasthandoff: 11/03/2017
 4.  <span data-ttu-id="fb73d-133">**Okula dönüş** yeni iskontosunu oluşturduktan sonra, **İndirim** sayfasının tepesindeki **Fiyat grupları** tıklamanız lazım.</span><span class="sxs-lookup"><span data-stu-id="fb73d-133">After you create the new **Back-to-School** discount, you need to click **Price groups** on the top of the **Discount** page.</span></span> <span data-ttu-id="fb73d-134">**İndirim fiyat grupları** sayfası açılacaktır.</span><span class="sxs-lookup"><span data-stu-id="fb73d-134">The **Discount price groups** page will open.</span></span> <span data-ttu-id="fb73d-135">Bundan sonra **Yeni**'ye tıklayın ve **Houston-PG** fiyat grubunu seçin.</span><span class="sxs-lookup"><span data-stu-id="fb73d-135">Next, click **New** and select the **Houston-PG** price group.</span></span>
 5.  <span data-ttu-id="fb73d-136">Şimdi iskontoyu etkinleştirebilir ve kanala itebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="fb73d-136">Now you can enable the discount and push it to the channel.</span></span>
 
- 
+
 
 <a name="see-also"></a><span data-ttu-id="fb73d-137">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="fb73d-137">See also</span></span>
 --------

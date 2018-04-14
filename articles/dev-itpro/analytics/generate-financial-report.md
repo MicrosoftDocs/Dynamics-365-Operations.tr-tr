@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e4c49a9aaae2d6c7324dfb6a13f6079610bb24fa
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="generate-a-financial-report"></a><span data-ttu-id="093e1-103">Bir mali rapor oluştur</span><span class="sxs-lookup"><span data-stu-id="093e1-103">Generate a financial report</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="093e1-104">Bu konu mali rapor oluşturma hakkında bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="093e1-104">This topic provides information about generating a financial report.</span></span> 
 
@@ -50,13 +49,13 @@ ms.lasthandoff: 12/01/2017
 ## <a name="generate-a-financial-report"></a><span data-ttu-id="093e1-115">Bir mali rapor oluştur</span><span class="sxs-lookup"><span data-stu-id="093e1-115">Generate a financial report</span></span>
 
 <span data-ttu-id="093e1-116">Microsoft Dynamics 365 for Finance and Operations ile mali rapor oluşturmak için **Genel muhasebe** > **Sorgulamalar ve raporlar** > **Mali raporlar**'a gidin.</span><span class="sxs-lookup"><span data-stu-id="093e1-116">To generate a financal report with Microsoft Dynamics 365 for Finance and Operations, go to **General ledger** > **Inquiries and reports** > **Financial reports**.</span></span> 
- - <span data-ttu-id="093e1-117">Oluşturmak için bir rapor seçip **Oluştur**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="093e1-117">Select a report to generate and click **Generate**.</span></span> 
- - <span data-ttu-id="093e1-118">**Rapor tarihi** alanını doldurup **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="093e1-118">Fill in the **Report date** field and click **OK**.</span></span>
- 
- <span data-ttu-id="093e1-119">Rapor oluşturulduktan sonra raporu **Raporlar** bölümünden görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="093e1-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
- <span data-ttu-id="093e1-120">Raporu **Görüntülemeyi** veya **Silmeyi** seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="093e1-120">You can select to **View** or **Delete** the report.</span></span>
- 
- 
+- <span data-ttu-id="093e1-117">Oluşturmak için bir rapor seçip **Oluştur**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="093e1-117">Select a report to generate and click **Generate**.</span></span> 
+- <span data-ttu-id="093e1-118">**Rapor tarihi** alanını doldurup **Tamam**'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="093e1-118">Fill in the **Report date** field and click **OK**.</span></span>
+
+  <span data-ttu-id="093e1-119">Rapor oluşturulduktan sonra raporu **Raporlar** bölümünden görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="093e1-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
+  <span data-ttu-id="093e1-120">Raporu **Görüntülemeyi** veya **Silmeyi** seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="093e1-120">You can select to **View** or **Delete** the report.</span></span>
+
+
 <span data-ttu-id="093e1-121">**Rapor tasarımcısını** kullanarak rapor oluşturmak için rapor tanımını açın ve ardından araç çubuğundaki Oluştur düğmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="093e1-121">To generate a report using **Report designer**, open the report definition and then click the Generate button in the toolbar.</span></span> <span data-ttu-id="093e1-122">Rapor Kuyruğu Durumu penceresi açılır ve raporunuzun kuyruktaki konumunu gösterir.</span><span class="sxs-lookup"><span data-stu-id="093e1-122">The Report Queue Status window will open and indicate the location of your report in the queue.</span></span> <span data-ttu-id="093e1-123">Varsayılan olarak, oluşturulan rapor Web Görüntüleyici'de açılır.</span><span class="sxs-lookup"><span data-stu-id="093e1-123">By default, the generated report will open in the Web Viewer.</span></span>
 
 > [!NOTE]
@@ -159,7 +158,7 @@ ms.lasthandoff: 12/01/2017
 | <span data-ttu-id="093e1-237">Seçilen rapor tanımını aç</span><span class="sxs-lookup"><span data-stu-id="093e1-237">Open the selected report definition</span></span>  | <span data-ttu-id="093e1-238">Ctrl+R</span><span class="sxs-lookup"><span data-stu-id="093e1-238">Ctrl+R</span></span>                     |
 | <span data-ttu-id="093e1-239">Seçilen satır tanımını aç</span><span class="sxs-lookup"><span data-stu-id="093e1-239">Open the selected row definition</span></span>     | <span data-ttu-id="093e1-240">Ctrl+O</span><span class="sxs-lookup"><span data-stu-id="093e1-240">Ctrl+O</span></span>                     |
 
- 
+
 <a name="see-also"></a><span data-ttu-id="093e1-241">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="093e1-241">See also</span></span>
 --------
 

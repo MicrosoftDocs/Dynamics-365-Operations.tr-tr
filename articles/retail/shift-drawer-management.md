@@ -20,17 +20,16 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
-ms.openlocfilehash: c1483d3240d266845cea7789b70c038cb98fdfcc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4b39fafb7fb51ee26bd45fb28ce4b505a91de813
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="shift-and-cash-drawer-management"></a><span data-ttu-id="6cea4-104">Vardiya ve kasa çekmecesi yönetimi</span><span class="sxs-lookup"><span data-stu-id="6cea4-104">Shift and cash drawer management</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="6cea4-105">Bu makalede paylaşılan ve bağımsız olmak üzere iki perakende satış noktası (POS) vardiyası türünün nasıl ayarlanacağı ve kullanılacağı açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="6cea4-105">This article explains how to set up and use the two types of retail point of sale (POS) shifts -  shared and stand-alone.</span></span> <span data-ttu-id="6cea4-106">Paylaşılan vardiyalar birden fazla yerdeki çok sayıda kullanıcı tarafından kullanılabilir, bağımsız vardiyalar ise aynı anda yalnızca bir çalışan tarafından kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="6cea4-106">Shared shifts can be used by multiple users in multiple places, whereas stand-alone shifts can be used by only one worker at a time.</span></span>
 

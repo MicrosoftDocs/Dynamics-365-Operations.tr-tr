@@ -18,16 +18,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 4477749c721cf8c8bd244f551d9eca7ec9449fd1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 39e70aa7b020cdceb53e9ed4af8fa87268161f54
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a><span data-ttu-id="388cf-103">Kısmen rezerve edilen transfer emirleri için toplu iş serbest bırakma</span><span class="sxs-lookup"><span data-stu-id="388cf-103">Batch release of partially reserved transfer orders</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="388cf-104">Kısmi rezerve edilmiş transfer emirlerini toplu serbest bırakma işlevi, bir transfer emrini bir ambara, bir toplu iş kullanarak kısmi serbest bırakmanıza olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="388cf-104">The functionality for batch release of partially reserved transfer orders lets you partially release transfer orders to a warehouse by using a batch job.</span></span>
 <span data-ttu-id="388cf-105">Kısmi bir miktarı serbest bırakma seçeneğine sahip olduğunuz için bir siparişi serbest bırakmadan önce tüm miktarın ambarda kullanılabilir olmasını beklemenize gerek yoktur.</span><span class="sxs-lookup"><span data-stu-id="388cf-105">Because you have the option to release a partial quantity, you don’t have to wait for the whole order quantity to be available in the warehouse before you release an order.</span></span>

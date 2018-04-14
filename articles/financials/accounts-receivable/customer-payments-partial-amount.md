@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 6b7494a05392cbee70e6d5883bae0295e8b55ac9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1805c5972e2205cffa1a691348e5aa1e36f5f144
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="customer-payments-for-a-partial-amount"></a><span data-ttu-id="e93e7-105">Bir kısmi tutar için müşteri ödemeleri</span><span class="sxs-lookup"><span data-stu-id="e93e7-105">Customer payments for a partial amount</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e93e7-106">Bazen müşteriler, faturanın toplam miktarından az olan bir ödeme yaparlar.</span><span class="sxs-lookup"><span data-stu-id="e93e7-106">Sometimes, customers make a payment that is less than the amount of an invoice.</span></span> <span data-ttu-id="e93e7-107">Bu makale, bu durumda yapılabilecek çeşitli seçenekleri açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="e93e7-107">This article describes the various options for handling this situation.</span></span> <span data-ttu-id="e93e7-108">Kullanabileceğiniz seçenekler, iş gereksinimlerinize ve yapılandırmanıza bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="e93e7-108">The options that are available to you depend on your business requirements and configuration.</span></span>
 

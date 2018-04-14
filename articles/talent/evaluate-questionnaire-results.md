@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 7ae83192924a790451d8da511638c7fc1cd92f90
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c346108408c47d1c5c9ce6df32e67e8cd3063926
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a><span data-ttu-id="fa0ad-103">Bir anketin sonuçlarını görüntüleyin ve değerlendirin</span><span class="sxs-lookup"><span data-stu-id="fa0ad-103">View and evaluate the results of a questionnaire</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="fa0ad-104">Bu konu yanıtlayanların tamamladığı anketlerin sonuçlarını nasıl görüntüleyeceğinizi ve değerlendireceğinizi açıklar.</span><span class="sxs-lookup"><span data-stu-id="fa0ad-104">This topic explains how you can view and evaluate the results of questionnaires that respondents complete.</span></span> 
 

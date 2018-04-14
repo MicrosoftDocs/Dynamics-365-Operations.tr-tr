@@ -18,16 +18,16 @@ ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 32b0d71d98c64ce998acbf5cdc03645401a2be7b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 14522e73f78041cca7d283f3156c3996af7cd3cd
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="hardware-sizing-for-on-premises-environments"></a><span data-ttu-id="e6695-103">Şirket içi ortamlar için donanım boyutlandırma</span><span class="sxs-lookup"><span data-stu-id="e6695-103">Hardware sizing for on-premises environments</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e6695-104">Şirket içi ortam için donanım ve altyapı boyutlandırmaya başlamadan önce, [Sistem gereksinimleri](system-requirements.md) ve [Kurulum ve dağıtım yönergeleri](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) belgelerini okuyun ve altyapı hakkında derinlikli bilgi sahibi olun.</span><span class="sxs-lookup"><span data-stu-id="e6695-104">Before you begin the hardware and infrastructure sizing process for an on-premises environment, familiarize yourself with the [System requirements](system-requirements.md) and [Setup and deployment instructions](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) to gain a solid understanding off the underlying infrastructure.</span></span> 
 

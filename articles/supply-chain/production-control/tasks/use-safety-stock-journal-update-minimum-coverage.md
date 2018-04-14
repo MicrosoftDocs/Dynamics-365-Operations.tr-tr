@@ -17,62 +17,62 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d278b20724006ec3b3aa557738e8b130ca2bba15
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b9e3245af746b120117a23b3859e03bd4216e1cd
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# Minimum kapsamı güncelleştirmek için emniyet stoku günlüğünü kullanma
+# <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a><span data-ttu-id="d79d4-103">Minimum kapsamı güncelleştirmek için emniyet stoku günlüğünü kullanma</span><span class="sxs-lookup"><span data-stu-id="d79d4-103">Use the safety stock journal to update minimum coverage</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yordam, geçmiş işlemleri temel alarak minimum kapsam tekliflerinin nasıl hesaplanacağını ve ardından tekliflerle madde kapsamının nasıl güncelleştirileceğini gösterir. Bu işlem emniyet stoku günlüğü kullanılarak yapılır. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu görev, üretim planlamacısına minimum kapsamı korumasında yardım etmeye yönelik olarak tasarlanmıştır.
+<span data-ttu-id="d79d4-104">Bu yordam, geçmiş işlemleri temel alarak minimum kapsam tekliflerinin nasıl hesaplanacağını ve ardından tekliflerle madde kapsamının nasıl güncelleştirileceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="d79d4-104">This procedure shows how to calculate minimum coverage proposals based on historical transactions and then update the item coverage with the proposals.</span></span> <span data-ttu-id="d79d4-105">Bu işlem emniyet stoku günlüğü kullanılarak yapılır.</span><span class="sxs-lookup"><span data-stu-id="d79d4-105">This is done using the safety stock journal.</span></span> <span data-ttu-id="d79d4-106">Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="d79d4-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="d79d4-107">Bu görev, üretim planlamacısına minimum kapsamı korumasında yardım etmeye yönelik olarak tasarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="d79d4-107">This task is intended for the production planner, to help maintain minimum coverage.</span></span>
 
 
-## Yeni bir emniyet stoku günlüğü adı oluşturun.
-1. Emniyet stoku günlük adlarına gidin.
-2. Yeni'ye tıklayın.
-3. Ad alanına "Malzeme" yazın.
-4. Açıklama alanına "Malzeme" yazın.
-5. Sayfayı kapatın.
+## <a name="create-a-new-safety-stock-journal-name"></a><span data-ttu-id="d79d4-108">Yeni bir emniyet stoku günlüğü adı oluşturun.</span><span class="sxs-lookup"><span data-stu-id="d79d4-108">Create a new safety stock journal name</span></span>
+1. <span data-ttu-id="d79d4-109">Emniyet stoku günlük adlarına gidin.</span><span class="sxs-lookup"><span data-stu-id="d79d4-109">Go to Safety stock journal names.</span></span>
+2. <span data-ttu-id="d79d4-110">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d79d4-110">Click New.</span></span>
+3. <span data-ttu-id="d79d4-111">Ad alanına "Malzeme" yazın.</span><span class="sxs-lookup"><span data-stu-id="d79d4-111">In the Name field, type 'Material'.</span></span>
+4. <span data-ttu-id="d79d4-112">Açıklama alanına "Malzeme" yazın.</span><span class="sxs-lookup"><span data-stu-id="d79d4-112">In the Description field, type 'Material'.</span></span>
+5. <span data-ttu-id="d79d4-113">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="d79d4-113">Close the page.</span></span>
 
-## Emniyet stoku günlüğü adı oluştur
-1. Emniyet stoku hesaplamaya gidin.
-2. Yeni'ye tıklayın.
-3. Ad alanına bir değer girin veya buradan bir değer seçin.
-    * Örneğin, Malzeme gibi oluşturduğunuz emniyet stoku günlük adını seçin.  
-4. Satır oluştur'a tıklayın.
-5. Başlangıç tarihi alanına bir tarih girin.
-    * Tarihi "02.01.2015" olarak ayarlayın.  
-6. Bitiş tarihi alanına bir tarih girin.
-    * Tarihi "30.12.2015" olarak ayarlayın.  
-7. Tamam'a tıklayın.
-    * Bu işlem, stok işlemleri olan boyutlar için satırlar oluşturur.  
+## <a name="create-a-safety-stock-journal"></a><span data-ttu-id="d79d4-114">Emniyet stoku günlüğü adı oluştur</span><span class="sxs-lookup"><span data-stu-id="d79d4-114">Create a safety stock journal</span></span>
+1. <span data-ttu-id="d79d4-115">Emniyet stoku hesaplamaya gidin.</span><span class="sxs-lookup"><span data-stu-id="d79d4-115">Go to Safety stock calculation.</span></span>
+2. <span data-ttu-id="d79d4-116">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d79d4-116">Click New.</span></span>
+3. <span data-ttu-id="d79d4-117">Ad alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="d79d4-117">In the Name field, enter or select a value.</span></span>
+    * <span data-ttu-id="d79d4-118">Örneğin, Malzeme gibi oluşturduğunuz emniyet stoku günlük adını seçin.</span><span class="sxs-lookup"><span data-stu-id="d79d4-118">Select the safety stock journal name that you created, for example, Material.</span></span>  
+4. <span data-ttu-id="d79d4-119">Satır oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d79d4-119">Click Create lines.</span></span>
+5. <span data-ttu-id="d79d4-120">Başlangıç tarihi alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="d79d4-120">In the From date field, enter a date.</span></span>
+    * <span data-ttu-id="d79d4-121">Tarihi "02.01.2015" olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="d79d4-121">Set the date to '2015-01-02'.</span></span>  
+6. <span data-ttu-id="d79d4-122">Bitiş tarihi alanına bir tarih girin.</span><span class="sxs-lookup"><span data-stu-id="d79d4-122">In the To date field, enter a date.</span></span>
+    * <span data-ttu-id="d79d4-123">Tarihi "30.12.2015" olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="d79d4-123">Set the date to '2015-12-30'.</span></span>  
+7. <span data-ttu-id="d79d4-124">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d79d4-124">Click OK.</span></span>
+    * <span data-ttu-id="d79d4-125">Bu işlem, stok işlemleri olan boyutlar için satırlar oluşturur.</span><span class="sxs-lookup"><span data-stu-id="d79d4-125">This will create lines for the dimensions that have inventory transactions.</span></span>  
 
-## Teklifi hesapla
-1. Teklifi hesapla'ya tıklayın.
-2. Sağlama süresi içinde ortalama stok çıkışını kullan seçeneğini belirleyin.
-3. Çarpım faktörünü 10 olarak ayarlayın.
-    * Teklifi düzenlemek için Çarpma faktörü kullanılır. Demo verilerde yalnızca birkaç işlem bulunduğundan gerçekçi bir teklif elde etmek için faktörü ayarlamanız gerekir.  
-4. Tamam'a tıklayın.
-    * M0002 ve M0003'ü bulmak için aşağı kaydırın. Hesaplanan minimum miktar sütununu görüntüleyin.   
+## <a name="calculate-proposal"></a><span data-ttu-id="d79d4-126">Teklifi hesapla</span><span class="sxs-lookup"><span data-stu-id="d79d4-126">Calculate proposal</span></span>
+1. <span data-ttu-id="d79d4-127">Teklifi hesapla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d79d4-127">Click Calculate proposal.</span></span>
+2. <span data-ttu-id="d79d4-128">Sağlama süresi içinde ortalama stok çıkışını kullan seçeneğini belirleyin.</span><span class="sxs-lookup"><span data-stu-id="d79d4-128">Select the Use average issue during lead time option.</span></span>
+3. <span data-ttu-id="d79d4-129">Çarpım faktörünü 10 olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="d79d4-129">Set Multiplication factor to '10'.</span></span>
+    * <span data-ttu-id="d79d4-130">Teklifi düzenlemek için Çarpma faktörü kullanılır.</span><span class="sxs-lookup"><span data-stu-id="d79d4-130">The Multiply factor is used to adjust the proposal.</span></span> <span data-ttu-id="d79d4-131">Demo verilerde yalnızca birkaç işlem bulunduğundan gerçekçi bir teklif elde etmek için faktörü ayarlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="d79d4-131">Because demo data only has a few transactions, you will need to set the factor to get a realistic proposal.</span></span>  
+4. <span data-ttu-id="d79d4-132">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d79d4-132">Click OK.</span></span>
+    * <span data-ttu-id="d79d4-133">M0002 ve M0003'ü bulmak için aşağı kaydırın.</span><span class="sxs-lookup"><span data-stu-id="d79d4-133">Scroll down to find M0002 and M0003.</span></span> <span data-ttu-id="d79d4-134">Hesaplanan minimum miktar sütununu görüntüleyin.</span><span class="sxs-lookup"><span data-stu-id="d79d4-134">View the Calculated minimum quantity column.</span></span>   
 
-## Minimum miktarı güncelleştir
-1. Yeni minimum miktar alanına bir sayı girin.
-    * Hesaplanan minimum miktardaki değer ile eşleşmesi için Yeni minimum miktarı güncelleştirin. Hesaplanan minimum miktar sıfır ise istediğiniz gelecek değerini girebilirsiniz. Örneğin, ambar 12'si olan M0002 için bu alana Hesaplanan minimum miktarı girebilirsiniz.  
-2. Listede, istenen kaydı bulun ve seçin.
-    * Örneğin, ambar 12'si olan M0002'yi seçebilirsiniz.  
-3. Yeni minimum miktar alanına bir sayı girin.
-    * Hesaplanan minimum miktardaki değer ile eşleşmesi için Yeni minimum miktarı güncelleştirin. Hesaplanan minimum miktar sıfır ise istediğiniz gelecek değerini girebilirsiniz.  
+## <a name="update-minimum-quantity"></a><span data-ttu-id="d79d4-135">Minimum miktarı güncelleştir</span><span class="sxs-lookup"><span data-stu-id="d79d4-135">Update minimum quantity</span></span>
+1. <span data-ttu-id="d79d4-136">Yeni minimum miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="d79d4-136">In the New minimum quantity field, enter a number.</span></span>
+    * <span data-ttu-id="d79d4-137">Hesaplanan minimum miktardaki değer ile eşleşmesi için Yeni minimum miktarı güncelleştirin.</span><span class="sxs-lookup"><span data-stu-id="d79d4-137">Update the New minimum quantity to match the value in the Calculated minimum quantity.</span></span> <span data-ttu-id="d79d4-138">Hesaplanan minimum miktar sıfır ise istediğiniz gelecek değerini girebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d79d4-138">If the Calculated minimum is zero,  you can enter the desired future value.</span></span> <span data-ttu-id="d79d4-139">Örneğin, ambar 12'si olan M0002 için bu alana Hesaplanan minimum miktarı girebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d79d4-139">For example, you can enter the Calculated minimum quantity in this field for M0002 that has warehouse 12.</span></span>  
+2. <span data-ttu-id="d79d4-140">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="d79d4-140">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="d79d4-141">Örneğin, ambar 12'si olan M0002'yi seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d79d4-141">For example, you can select M0002 that has warehouse 12.</span></span>  
+3. <span data-ttu-id="d79d4-142">Yeni minimum miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="d79d4-142">In the New minimum quantity field, enter a number.</span></span>
+    * <span data-ttu-id="d79d4-143">Hesaplanan minimum miktardaki değer ile eşleşmesi için Yeni minimum miktarı güncelleştirin.</span><span class="sxs-lookup"><span data-stu-id="d79d4-143">Update the New minimum quantity to match the value in the Calculated minimum quantity.</span></span> <span data-ttu-id="d79d4-144">Hesaplanan minimum miktar sıfır ise istediğiniz gelecek değerini girebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d79d4-144">If the Calculated minimum is zero you can enter the desired future value.</span></span>  
 
-## Yeni minimum miktarı gönderin ve sonucu doğrulayın
-1. Deftere Naklet öğesine tıklayın.
-2. Tamam'a tıklayın.
-3. Madde numarası alanındaki bağlantıyı izlemek için tıklayın.
-4. Madde numarası alanındaki bağlantıyı izlemek için tıklayın.
-5. Eylem Bölmesinde, Planla öğesine tıklayın.
-6. Madde kapsamı'na tıklayın.
-    * Minimum miktarın, emniyet stoku günlüğündeki yeni minimum miktar ile güncelleştirildiğine dikkat edin.  
+## <a name="post-the-new-minimum-quantity-and-validate-the-result"></a><span data-ttu-id="d79d4-145">Yeni minimum miktarı gönderin ve sonucu doğrulayın</span><span class="sxs-lookup"><span data-stu-id="d79d4-145">Post the new minimum quantity and validate the result</span></span>
+1. <span data-ttu-id="d79d4-146">Deftere Naklet öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d79d4-146">Click Post.</span></span>
+2. <span data-ttu-id="d79d4-147">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d79d4-147">Click OK.</span></span>
+3. <span data-ttu-id="d79d4-148">Madde numarası alanındaki bağlantıyı izlemek için tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d79d4-148">Click to follow the link in the Item number field.</span></span>
+4. <span data-ttu-id="d79d4-149">Madde numarası alanındaki bağlantıyı izlemek için tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d79d4-149">Click to follow the link in the Item number field.</span></span>
+5. <span data-ttu-id="d79d4-150">Eylem Bölmesinde, Planla öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d79d4-150">On the Action Pane, click Plan.</span></span>
+6. <span data-ttu-id="d79d4-151">Madde kapsamı'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d79d4-151">Click Item coverage.</span></span>
+    * <span data-ttu-id="d79d4-152">Minimum miktarın, emniyet stoku günlüğündeki yeni minimum miktar ile güncelleştirildiğine dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="d79d4-152">Notice that the Minimum quantity has been updated with the new minimum quantity from the safety stock journal.</span></span>  
 
 

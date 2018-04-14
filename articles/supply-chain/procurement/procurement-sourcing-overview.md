@@ -19,17 +19,16 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 91881ca3999b4937d20161b8beab8e80c2675eb6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7c738d888b7177a26b28438c820ce18312947318
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="procurement-and-sourcing-overview"></a><span data-ttu-id="21b9f-103">Tedarik ve kaynak atama genel özeti</span><span class="sxs-lookup"><span data-stu-id="21b9f-103">Procurement and sourcing overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="21b9f-104">Bu makalede, Tedarik ve kaynak atama modülündeki kullanılabilir işlevlere genel bakış sağlar.</span><span class="sxs-lookup"><span data-stu-id="21b9f-104">This article gives an overview of the functionality that's available in the Procurement and sourcing module.</span></span>
 
@@ -39,7 +38,7 @@ ms.lasthandoff: 02/08/2018
 <span data-ttu-id="21b9f-108">Ürün ve hizmet ihtiyacı *talepler* sonucunda, örneğin bir çalışan bir ürün istediği zaman ortaya çıkabilir.</span><span class="sxs-lookup"><span data-stu-id="21b9f-108">The need for products or services may arise from *requisitions*, for example, when an employee requires a product.</span></span> <span data-ttu-id="21b9f-109">*Ürün katalogları* aralarından seçim yapılabilecek mevcut ürünlerde seçimi yönlendirecek şekilde ayarlanabilir veya henüz katalogda bulunmayan ürünlere yönelik taleplerde bulunulabilir ve satınalma departmanına ürünün nasıl tedarik edilebileceğini düşünme olanağı verilir.</span><span class="sxs-lookup"><span data-stu-id="21b9f-109">*Product catalogs* can be set up to guide the selection of available products to select from, or requests can be made for products that are not yet made available in a catalog, allowing the purchasing department to consider how the product can be supplied.</span></span>  
 
 <span data-ttu-id="21b9f-110">*Harcama sınırları* harcama talebini sınırlamak için kullanılabilir ve *satınalma iş akışı* sipariş verilmeden önce onay isteme seçeneği ekler.</span><span class="sxs-lookup"><span data-stu-id="21b9f-110">*Spending limits* can be used to constrain requisition spending, and the *purchasing workflow* adds the option of requiring approval before ordering happen.</span></span> <span data-ttu-id="21b9f-111">Ayrıca gerektiğinde, bütçe fon tahsisatını belirtmek de mümkündür.</span><span class="sxs-lookup"><span data-stu-id="21b9f-111">It's also possible to specify budget fund allocation, if required.</span></span>  
-  
+
 <span data-ttu-id="21b9f-112">Tedarik departmanı gerekli ürün ve hizmetler için tedarikçileri belirler ve bunun içinde birden çok potansiyel tedarikçiye gönderilen bir *teklif talebi* de bulunabilir.</span><span class="sxs-lookup"><span data-stu-id="21b9f-112">The procurement department identifies suppliers for required products and services, and this can involve a *request for quotation* being sent out to multiple potential suppliers.</span></span> <span data-ttu-id="21b9f-113">Talep edilen ürünün teknik özelliklerini paylaşmak mümkündür ve potansiyel satıcılar bu özelliklere uygun bir ürün teslim edip edemeyeceklerini görmek için bu özellikleri görüntüleyebilir.</span><span class="sxs-lookup"><span data-stu-id="21b9f-113">It's possible to share the specifications of the product that's being requested and potential vendors can view these to see if they can deliver a product that conforms with them.</span></span> <span data-ttu-id="21b9f-114">Satıcılar tekliflerini geri gönderir ve sonrasında bu teklifler satınalma departmanı tarafından alışveriş yapmak istedikleri tedarikçiyi seçmeden önce gözden geçirilir.</span><span class="sxs-lookup"><span data-stu-id="21b9f-114">Vendors return their bids which are then reviewed by the procurement department before they select the supplier that they want to procure from.</span></span>  
 
 <span data-ttu-id="21b9f-115">Satınalma siparişleri daha kapsamlı bir teklif talebi sürecine alternatif olarak satıcıya bir *satınalma sorgulaması* gönderme seçeneği içerir.</span><span class="sxs-lookup"><span data-stu-id="21b9f-115">Purchase orders include an option to send out a *purchase inquiry* to the vendor as an alternative to a more comprehensive request for quotation process.</span></span> <span data-ttu-id="21b9f-116">Satınalma sorgulaması, fiyatlar, iskontolar ve sipariş teslimat tarihi gibi şartları belirlemeye yardımcı olmak için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="21b9f-116">The purchase inquiry can be used to help establish terms like prices, discounts, and delivery date for the order.</span></span> <span data-ttu-id="21b9f-117">Satıcılar **Satıcı** portalını kullanacak şekilde ayarlanmışsa, satınalma sorgulaması işlevi devre dışı bırakılır.</span><span class="sxs-lookup"><span data-stu-id="21b9f-117">If vendors are set up to use the **Vendor** portal, purchase inquiry functionality is disabled.</span></span> <span data-ttu-id="21b9f-118">Bunun yerine sipariş **Satıcı** portalında paylaşılır ve bir *onay isteği* gönderildiğinde, satıcı doğrudan sipariş onaylayabilir.</span><span class="sxs-lookup"><span data-stu-id="21b9f-118">Instead the order is shared on the **Vendor** portal, and when a *confirmation request* is sent the vendor can directly confirm the order.</span></span>  

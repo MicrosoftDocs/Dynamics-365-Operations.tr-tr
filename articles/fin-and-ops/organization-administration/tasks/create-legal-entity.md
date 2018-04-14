@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 89d3babc4447ca7398521b93634db7ecb6cfb5de
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b8f3961e17ba381a75de448c85335abb026c0c53
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-legal-entity"></a><span data-ttu-id="0b3b6-103">Bir tüzel kişilik oluşturma</span><span class="sxs-lookup"><span data-stu-id="0b3b6-103">Create a legal entity</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0b3b6-104">Bir tüzel kişilik, yasal bir yetkiliye kayıt yoluyla tanımlanmış bir kuruluştur.</span><span class="sxs-lookup"><span data-stu-id="0b3b6-104">A legal entity is an organization that is identified through registration with a legal authority.</span></span> <span data-ttu-id="0b3b6-105">Tüzel kişilikler sözleşmelere girebilir ve performanslarını raporlayacak bildirimler hazırlamaları gerekir.</span><span class="sxs-lookup"><span data-stu-id="0b3b6-105">Legal entities can enter into contracts and are required to prepare statements that report on their performance.</span></span> <span data-ttu-id="0b3b6-106">Aşağıdaki prosedürde bir tüzel kişiliğin nasıl oluşturulacağı açıklanmıştır.</span><span class="sxs-lookup"><span data-stu-id="0b3b6-106">The following procedure explains how to create a legal entity.</span></span> <span data-ttu-id="0b3b6-107">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="0b3b6-107">The demo data company used to create this procedure is USMF.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4b05f744120e940bfea3e92b8aac3e41fc8151d9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1bd87a5c65fb01e0a277d7bd790e2b86686fbf55
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-audit-policies-for-source-documents"></a><span data-ttu-id="dd2fa-103">Kaynak belgeler için denetim ilkeleri tanımlama</span><span class="sxs-lookup"><span data-stu-id="dd2fa-103">Define audit policies for source documents</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="dd2fa-104">Bu prosedür, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="dd2fa-104">This procedure shows how to set up and run audit policy rules.</span></span> <span data-ttu-id="dd2fa-105">Örnekte, otel gideri türünde gider raporları kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="dd2fa-105">The example uses expense reports with the hotel expense type.</span></span> <span data-ttu-id="dd2fa-106">Bu yordam, USMF demo şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="dd2fa-106">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="dd2fa-107">Denetçi rolü bu görevleri gerçekleştirmek için uygun izinleri içerir.</span><span class="sxs-lookup"><span data-stu-id="dd2fa-107">The auditor role contains the correct permissions in order to perform these tasks.</span></span>
 

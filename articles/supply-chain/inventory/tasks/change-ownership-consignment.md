@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: f02e37a21e2417d46c5ad990e165c2eff5a70811
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e3058987dcd511c59a9eae1b79ef5d1b6d4b3d68
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a><span data-ttu-id="72a98-103">Üretim talebine bağlı olarak konsinye stok sahipliğini değiştirme</span><span class="sxs-lookup"><span data-stu-id="72a98-103">Change the ownership of consignment inventory based on production demand</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="72a98-104">Bu yordam üretimde stok için bir talep olduğunda, konsinye stoğun sahibini satıcıdan tüzel kişiliğinize değiştirmeyi gösterir.</span><span class="sxs-lookup"><span data-stu-id="72a98-104">This procedure shows how to change the owner of consignment inventory from the vendor to your legal entity when there is demand for the inventory in production.</span></span> <span data-ttu-id="72a98-105">Bu sahiplik değişikliği bir stok sahipliği değişiklik günlüğü oluşturup bunu deftere naklederek yapılır.</span><span class="sxs-lookup"><span data-stu-id="72a98-105">This change of ownership is done by creating and posting an inventory ownership change journal.</span></span> <span data-ttu-id="72a98-106">Sahiplik değişikliği günlük satırları el ile veya bu kayıtta gösterildiği gibi, var olan üretim talebine göre oluşturulabilir.</span><span class="sxs-lookup"><span data-stu-id="72a98-106">The ownership change journal lines can be created manually or, as shown in this recording, based on existing production demand.</span></span> <span data-ttu-id="72a98-107">Genellikle, bu görevi bir atölye gözetmeni gerçekleştirir.</span><span class="sxs-lookup"><span data-stu-id="72a98-107">Typically, a shop floor supervisor performs this task.</span></span> <span data-ttu-id="72a98-108">Bu yordamı, demo verileri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="72a98-108">You can use this procedure in the USMF demo data company or on your own data.</span></span> <span data-ttu-id="72a98-109">Kendi verilerinizi kullanıyorsanız şu önkoşullara sahip olduğunuzdan emin olun: stok sahibi değişikliği için ayarlanmış bir stok günlüğü adı, fiziksel olarak kaydedilmiş satıcıya ait eldeki maddeler ve malzeme için bir veya daha fazla üretim emri satırı.</span><span class="sxs-lookup"><span data-stu-id="72a98-109">If you're using your own data, make sure that you have the following prerequisites: an inventory journal name that has been set up for inventory ownership change, physically recorded vendor-owned on-hand items, and one or more production order lines for the material.</span></span> <span data-ttu-id="72a98-110">Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik içindir.</span><span class="sxs-lookup"><span data-stu-id="72a98-110">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

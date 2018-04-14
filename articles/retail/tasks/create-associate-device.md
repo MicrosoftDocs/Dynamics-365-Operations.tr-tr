@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 19be7c38e9612b54fe56ef6e0fd942587dd64a69
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c12980fed5e6b26cc23aed93ce1f5ed71ea05b2b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-and-associate-a-device"></a><span data-ttu-id="c36e7-103"> Cihaz oluşturma ve ilişkilendirme</span><span class="sxs-lookup"><span data-stu-id="c36e7-103">Create and associate a device</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c36e7-104">Bu yordam yeni bir aygıt oluşturma ve kayıtla ilişkilendirme konusunda açıklamalar içerir.</span><span class="sxs-lookup"><span data-stu-id="c36e7-104">This procedure walks through how to create a new device and associate it to a register.</span></span> <span data-ttu-id="c36e7-105">Kaydın daha önce oluşturulduğu varsayılır.</span><span class="sxs-lookup"><span data-stu-id="c36e7-105">It is assumed that the register is already created.</span></span>  <span data-ttu-id="c36e7-106">Bu görev demo verilerdeki USRT şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="c36e7-106">This task uses the USRT company in demo data.</span></span> <span data-ttu-id="c36e7-107">Bu görev Yöneticiler, BT Uzmanı veya Perakende BT Uzmanı ve Mağaza Yöneticisi rollerine yöneliktir.</span><span class="sxs-lookup"><span data-stu-id="c36e7-107">This task is intended for Administrators, IT Professional or Retail IT, and the Store Manager roles.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: e082092ec959658c9509578d95fd32ca3e5e9bd9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d6d3bc10b3fbde9cc3410d6fa3afd8c6d9cc2266
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product"></a><span data-ttu-id="4ef18-103">Ürün yaşam döngüsü durumunu serbest bırakılan bir ürüne atama</span><span class="sxs-lookup"><span data-stu-id="4ef18-103">Assign a product lifecycle state to a released product</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4ef18-104">Bu yordam, serbest bırakılan bir ürüne nasıl ürün yaşam döngüsü durumu atanacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="4ef18-104">This procedure shows how to assign a product lifecycle state to a released product.</span></span> <span data-ttu-id="4ef18-105">Önkoşul: Bu görev kılavuzunu oynatabilmek için önce "Yeni ürün yaşam döngüsü durumu oluşturma" görev kılavuzunu oynatarak en az bir ürün yaşam döngüsü durumu oluşturmuş olduğunuzdan emin olmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="4ef18-105">Prerequisite: You need to play the task guide "Create a new product lifecycle state" first to make sure that at least one product lifecycle state is created before you can play this guide.</span></span>
 

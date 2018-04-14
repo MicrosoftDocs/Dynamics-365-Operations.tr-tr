@@ -19,17 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ea9550b7209064a2842d7e5efe55e9e51c23b9f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: eeea5f6f9860bf109bb3063c5a2cc0517192e95d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="electronic-reporting-overview"></a><span data-ttu-id="c80e9-104">Elektronik raporlamaya genel bakış</span><span class="sxs-lookup"><span data-stu-id="c80e9-104">Electronic reporting overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c80e9-105">Bu konu, Elektronik raporlama (ER) aracına genel bakış sağlar.</span><span class="sxs-lookup"><span data-stu-id="c80e9-105">This topic provides an overview of the Electronic reporting (ER) tool.</span></span> <span data-ttu-id="c80e9-106">Temel kavramlar, ER'nin desteklediği senaryolar ve çözümün bir parçası olarak tasarlanan ve yayınlanan biçimlerin listesini içermektedir.</span><span class="sxs-lookup"><span data-stu-id="c80e9-106">It includes information about key concepts, the scenarios that ER supports, and a list of formats that have been designed and released as part of the solution.</span></span>
 
@@ -287,6 +286,7 @@ ms.lasthandoff: 11/03/2017
 <span data-ttu-id="c80e9-344">ER, türetilen bileşenin geçerli taslak sürümünde temel bileşenin en son sürümünün değişikliklerini otomatik olarak benimsemenizi sağlar.</span><span class="sxs-lookup"><span data-stu-id="c80e9-344">ER lets you automatically adopt changes of the latest version of the base component in the current draft version of the derived component.</span></span> <span data-ttu-id="c80e9-345">Bu işlem *yeniden temelleme*olarak bilinmektedir.</span><span class="sxs-lookup"><span data-stu-id="c80e9-345">This process is known as *rebasing*.</span></span> <span data-ttu-id="c80e9-346">Örneğin, LCS'den aktarılan biçimin en son sürümünde kullanılan yeni yasal değişiklik elektronik belgenin bu biçiminin özelleştirilmiş sürümüyle otomatik olarak birleştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="c80e9-346">For example, a new regulatory change that has been introduced in the latest version of the format that was imported from LCS can be automatically merged into the customized version of this format of the electronic document.</span></span> <span data-ttu-id="c80e9-347">Otomatik olarak birleştirilemeyen herhangi bir değişiklik çakışma olarak kabul edilir.</span><span class="sxs-lookup"><span data-stu-id="c80e9-347">Any changes that can’t be merged automatically are considered conflicts.</span></span> <span data-ttu-id="c80e9-348">Bu çakışmalar uygun bileşen için tasarımcı aracında elle çözüm için sunulur.</span><span class="sxs-lookup"><span data-stu-id="c80e9-348">These conflicts are presented for manual resolution in the designer tool for the appropriate component.</span></span> <span data-ttu-id="c80e9-349">Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Bu biçimin yeni temel sürüm benimsenerek biçimi yükselt** görev kılavuzunu (**7.5.5.3 Al/Değiştirilmiş BT servisi geliştir/çözüm bileşeni (10683)** iş işlemi parçası) oynatın.</span><span class="sxs-lookup"><span data-stu-id="c80e9-349">To become familiar with the details of this scenario, play the **ER Upgrade format by adoption of new base version of that format** task guide (part of the **7.5.5.3 Acquire/Develop changed IT service/solution component (10683)** business process).</span></span>
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a><span data-ttu-id="c80e9-350">Finance and Operations çözümüne teslim edilen ER konfigürasyonları listesi</span><span class="sxs-lookup"><span data-stu-id="c80e9-350">List of ER configurations that are delivered in the Finance and Operations solution</span></span>
+
 | <span data-ttu-id="c80e9-351">Etki alanına özgü veri modeli konfigürasyonları: Başlık</span><span class="sxs-lookup"><span data-stu-id="c80e9-351">Domain-specific data model configurations: Title</span></span> | <span data-ttu-id="c80e9-352">Etki alanı</span><span class="sxs-lookup"><span data-stu-id="c80e9-352">Domain</span></span>                | <span data-ttu-id="c80e9-353">Veri modeline dayalı biçim konfigürasyonları: Başlık</span><span class="sxs-lookup"><span data-stu-id="c80e9-353">Data model–dependent format configurations: Title</span></span> | <span data-ttu-id="c80e9-354">Açıklama</span><span class="sxs-lookup"><span data-stu-id="c80e9-354">Description</span></span>                                                        |
 |--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | <span data-ttu-id="c80e9-355">Denetim dosyası modeli</span><span class="sxs-lookup"><span data-stu-id="c80e9-355">Audit file model</span></span>                                 | <span data-ttu-id="c80e9-356">Mali denetim</span><span class="sxs-lookup"><span data-stu-id="c80e9-356">Financial audit</span></span>       |                                                   |                                                                    |

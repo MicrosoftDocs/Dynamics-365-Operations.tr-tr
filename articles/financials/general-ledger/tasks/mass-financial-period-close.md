@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
-ms.openlocfilehash: 1954bfdf4807e91d275e3a1ba80f959bdf9464a8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 83ecd06c1bb0b2179251fdccb3898fb3edbca51f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="mass-financial-period-close"></a><span data-ttu-id="46259-103">Toplu mali dönem kapatma</span><span class="sxs-lookup"><span data-stu-id="46259-103">Mass financial period close</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="46259-104">Bu yordamda, bir dönemin nasıl beklemeye alındığı veya bir kerede bir dönemin ya da birden fazla tüzel kişiliğin nasıl kalıcı olarak kapatıldığı gösterilir.</span><span class="sxs-lookup"><span data-stu-id="46259-104">This procedure shows how to place a period on hold or permanently close a period or more than one legal entity at a time.</span></span> <span data-ttu-id="46259-105">Ayrıca görev, kullanıcı grubunun belirli modüllere naklinin nasıl sınırlandırılacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="46259-105">In addition, the task will show how to restrict user group posting to specific modules.</span></span>
 

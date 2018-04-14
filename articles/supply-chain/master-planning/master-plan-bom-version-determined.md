@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 737784bd9bd87a72227978cb61e99d2b317088af
-ms.openlocfilehash: 1670cd41d3c4c17fcc91556cd56d18cc112668ed
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d7d66f8b498f7a55446b80245561b292cadfa9b4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="determine-the-bom-version"></a><span data-ttu-id="29f2d-103">Ürün reçetesi sürümünü belirleme</span><span class="sxs-lookup"><span data-stu-id="29f2d-103">Determine the BOM version</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="29f2d-104">Bir talep açılımı sırasında bir maddenin varsayılan bir Üretim emri varsa, planlama altyapısı tesise göre geçerli bir ürün reçetesi sürümü bulur.</span><span class="sxs-lookup"><span data-stu-id="29f2d-104">During a demand explosion, if an item has a default order type of Production, the planning engine finds a valid BOM version based on the site.</span></span> 
 

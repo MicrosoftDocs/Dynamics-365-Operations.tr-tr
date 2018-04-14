@@ -18,17 +18,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad840f4ed2cf27615e699a13fcd8be7f3c2cd5c8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d57f3138f5a456c85550baf1eb18b4f99733a3d1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="convert-accounting-or-reporting-currencies"></a><span data-ttu-id="c4363-103">Muhasebe veya raporlama para birimlerini dönüştürme</span><span class="sxs-lookup"><span data-stu-id="c4363-103">Convert accounting or reporting currencies</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c4363-104">Muhasebe para birimini ya da raporlama para birimini değiştirmesi gereken bir şirketin iki seçeneği vardır.</span><span class="sxs-lookup"><span data-stu-id="c4363-104">A company that must change its accounting currency or reporting currency has two options.</span></span> <span data-ttu-id="c4363-105">İlk seçenek, yeni bir şirket oluşturmak ve taze bir başlangıç yapmaktır.</span><span class="sxs-lookup"><span data-stu-id="c4363-105">The first option is to create a new company and start fresh.</span></span> <span data-ttu-id="c4363-106">İkinci seçenek ise, muhasebe ve raporlama para birimi dönüştürme işlemini çalıştırmaktır.</span><span class="sxs-lookup"><span data-stu-id="c4363-106">The second option is to run the accounting and reporting currency conversion process.</span></span> <span data-ttu-id="c4363-107">Bu, sistemdeki her hareketi değiştiren ve çok uzun süren bir işlemdir.</span><span class="sxs-lookup"><span data-stu-id="c4363-107">This is a very long-running process that changes every transaction in the system.</span></span> <span data-ttu-id="c4363-108">İşlemin çalıştırılması için bazı ayarlar da yapılması gerekir.</span><span class="sxs-lookup"><span data-stu-id="c4363-108">Some setup is also required before the process can be run.</span></span>
 

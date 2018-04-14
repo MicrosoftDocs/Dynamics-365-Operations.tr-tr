@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4e2808e57dc8d137fac892d48e99d7687ff1bf81
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 15253a9c96af67eb405b9ce42c5a328c8aec7ecc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a><span data-ttu-id="e3f65-103">Bireysel olarak numara serileri ayarlama</span><span class="sxs-lookup"><span data-stu-id="e3f65-103">Set up number sequences on an individual basis</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e3f65-104">Numara serileri, ana veri kayıtları ve bunları gerektiren işlem kayıtları için okunabilir ve benzersiz tanımlayıcılarını oluşturmada kullanılır.</span><span class="sxs-lookup"><span data-stu-id="e3f65-104">Number sequences are used to generate readable, unique identifiers for master data records and transaction records that require them.</span></span> <span data-ttu-id="e3f65-105">Tanımlayıcı gerektiren bir ana veri veya hareket kaydı, referans olarak adlandırılır.</span><span class="sxs-lookup"><span data-stu-id="e3f65-105">A master data or transaction record that requires an identifier is referred to as a reference.</span></span> <span data-ttu-id="e3f65-106">Bir referans için yeni kayıtlar oluşturmadan önce, bir numara serisi oluşturmalı ve bunu referans ile ilişkilendirmelisiniz.</span><span class="sxs-lookup"><span data-stu-id="e3f65-106">Before you can create new records for a reference, you must set up a number sequence and associate it with the reference.</span></span> <span data-ttu-id="e3f65-107">Tüm gerekli numara serilerini aynı zamanda, Numara serileri ayarla sihirbazını kullanarak ayarlayabilir veya Numara serileri sayfasından tek tek numara serilerini oluşturabilir, değiştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e3f65-107">You can set up all required number sequences at the same time by using the Set up number sequences wizard, or you can create or modify individual number sequences by using the Number sequences page.</span></span>
 

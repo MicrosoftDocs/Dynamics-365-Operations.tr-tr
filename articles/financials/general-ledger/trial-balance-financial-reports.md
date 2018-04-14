@@ -19,17 +19,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 77e46e8693c65410ac7c44754edcb3c181f2aa18
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7363ac8d83c5d8f9da550f76ad888a666149cd6e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="trial-balance-financial-reports"></a><span data-ttu-id="5ffa8-104">Mizan mali raporları</span><span class="sxs-lookup"><span data-stu-id="5ffa8-104">Trial balance financial reports</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5ffa8-105">Bu makalede, mizanlar için varsayılan raporlar açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="5ffa8-105">This article describes the default reports for trial balances.</span></span> <span data-ttu-id="5ffa8-106">Ayrıca, bu raporlarla ilgili yapı taşları ve raporların iş gereksinimlerinize uyacak şekilde nasıl değiştirileceği açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="5ffa8-106">It also describes the building blocks that are associated with these reports and how you can modify the reports to fit your business requirements.</span></span> 
 
@@ -99,7 +98,7 @@ ms.lasthandoff: 03/26/2018
     -   <span data-ttu-id="5ffa8-175">**FD** – Geçen yıl için yalnızca borçları içeren mali veriler</span><span class="sxs-lookup"><span data-stu-id="5ffa8-175">**FD** – Financial data that contains only debits for the last year</span></span>
     -   <span data-ttu-id="5ffa8-176">**FD** – Geçen yıl için yalnızca alacakları içeren mali veriler</span><span class="sxs-lookup"><span data-stu-id="5ffa8-176">**FD** – Financial data that contains only credits for the last year</span></span>
 
- 
+
 
 <a name="see-also"></a><span data-ttu-id="5ffa8-177">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="5ffa8-177">See also</span></span>
 --------

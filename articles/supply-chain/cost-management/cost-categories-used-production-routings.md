@@ -20,17 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 53e038183a10b8732a9a5e0f25aac440c224400e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1bda8d9d656f1760061599d100ca4af9186742ea
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-categories-used-in-production-routing"></a><span data-ttu-id="193a6-103">Üretim rotasında kullanılan maliyet kategorileri</span><span class="sxs-lookup"><span data-stu-id="193a6-103">Cost categories used in production routing</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="193a6-104">Bu makalede, rota kullanan imalat ortamlarına uygulanan maliyet kategorileri hakkında bilgiler sağlanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="193a6-104">This article provides information about cost categories that apply to manufacturing environments that use routing.</span></span>
 

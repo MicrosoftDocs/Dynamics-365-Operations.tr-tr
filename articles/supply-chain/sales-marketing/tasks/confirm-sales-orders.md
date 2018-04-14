@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7cab69222c5004e6a62c632a9e85085403434ffd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b60dbe15eca10511f4aaaf472b512eb003fbf6bc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="confirm-sales-orders"></a><span data-ttu-id="a9fa0-103">Satış siparişlerini onaylama</span><span class="sxs-lookup"><span data-stu-id="a9fa0-103">Confirm sales orders</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a9fa0-104">Bu yordam, satış siparişlerinin nasıl onaylanacağını göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="a9fa0-104">This procedure demonstrates how to confirm sales orders.</span></span> <span data-ttu-id="a9fa0-105">Tek bir siparişin ve aynı anda birden fazla siparişin nasıl onaylanacağı size gösterilecektir.</span><span class="sxs-lookup"><span data-stu-id="a9fa0-105">You’ll be shown how to confirm a single order, and how to confirm multiple orders at once.</span></span> <span data-ttu-id="a9fa0-106">Bu görevler genellikler satış siparişi işlemcisi tarafından yerine getirilir.</span><span class="sxs-lookup"><span data-stu-id="a9fa0-106">These tasks would typically be carried out by a sales order processor.</span></span> <span data-ttu-id="a9fa0-107">Bu yordamı, demo verileri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a9fa0-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="a9fa0-108">Başlamadan önce aynı müşteri için birkaç açık satış siparişleri bulunduğundan emin olun.</span><span class="sxs-lookup"><span data-stu-id="a9fa0-108">Before you start, make sure there are several open sales orders for the same customer.</span></span> <span data-ttu-id="a9fa0-109">USMF kullanıyorsanız, US-027 müşterisini kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a9fa0-109">If you’re using USMF, you can use customer US-027.</span></span>
 

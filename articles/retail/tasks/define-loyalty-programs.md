@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: a27a2367ac41e86a3038594261c080ad2515eb94
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d8b0271aa9db79bd1f002624c7619bb3d572a3ec
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-loyalty-programs"></a><span data-ttu-id="a876b-103"> Bağlılık programları tanımlama</span><span class="sxs-lookup"><span data-stu-id="a876b-103">Define loyalty programs</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a876b-104">Bu yordam, iki bağlılık katmanıyla bir bağlılık programı ayarlamayla ilgili açıklamalar içerir.</span><span class="sxs-lookup"><span data-stu-id="a876b-104">This procedure shows how to set up a loyalty program with two loyalty tiers.</span></span> <span data-ttu-id="a876b-105">Bu yordam, USRT demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="a876b-105">This procedure uses the USRT demo data company.</span></span>
 

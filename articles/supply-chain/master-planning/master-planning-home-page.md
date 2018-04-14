@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 030579ac73d6333ac4ed55433b9679a58247c088
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 336356b5abe38b27fdfa5fe74d52a130e7b8d445
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="master-planning-home-page"></a><span data-ttu-id="f6154-103">Master planlama ana sayfası</span><span class="sxs-lookup"><span data-stu-id="f6154-103">Master planning home page</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f6154-104">Temel olarak master planlama, şirketlerin şirket hedeflerini karşılamak için gelecekteki hammadde ve kapasite gereksinimini belirlemesine ve planlamasına olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="f6154-104">At its core, Master planning allows companies to determine and balance the future need for raw materials and capacity to meet company goals.</span></span> <span data-ttu-id="f6154-105">Master planlama aşağıdakileri değerlendirir:</span><span class="sxs-lookup"><span data-stu-id="f6154-105">Master planning assesses the following:</span></span> 
 
@@ -58,6 +57,7 @@ ms.lasthandoff: 02/13/2018
 <span data-ttu-id="f6154-130">[![Master planlama için öğrenim haritası](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)</span><span class="sxs-lookup"><span data-stu-id="f6154-130">[![Learning map for master planning](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)</span></span>
 
 ## <a name="quick-links"></a><span data-ttu-id="f6154-131">Hızlı bağlantılar</span><span class="sxs-lookup"><span data-stu-id="f6154-131">Quick links</span></span>
+
 |      |   |
 |------|---|
 |        [<span data-ttu-id="f6154-132">Master planlar</span><span class="sxs-lookup"><span data-stu-id="f6154-132">Master plans</span></span>](master-plans.md)       |     [<span data-ttu-id="f6154-133">Kısıtlanmış plan oluşturma</span><span class="sxs-lookup"><span data-stu-id="f6154-133">Generate a constrained plan</span></span>](./tasks/constrained-plan.md)  |

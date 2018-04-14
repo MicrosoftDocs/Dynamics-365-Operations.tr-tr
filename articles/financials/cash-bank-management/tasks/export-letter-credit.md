@@ -16,15 +16,15 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 0fa4b57825bcf81778d91ee01484511bb40f6bd7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bd598d5962ca0f963d67380d99f0b8fc806b2ac9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="export-a-letter-of-credit"></a><span data-ttu-id="ca9fc-103">Kredi mektubunu dışa aktarma</span><span class="sxs-lookup"><span data-stu-id="ca9fc-103">Export a letter of credit</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ca9fc-104">Bu yordam, bir ihracat kredi mektubu sürecini adım adım anlatır.</span><span class="sxs-lookup"><span data-stu-id="ca9fc-104">This procedure walks through the process of the Export letter of credit.</span></span>
 

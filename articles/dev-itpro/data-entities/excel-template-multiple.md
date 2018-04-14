@@ -18,16 +18,16 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2aefea9373df20bd3e99026e30aed096dcea9814
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 45e46e06e7c934f18f6d5406ddaafc3b09f3a98f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="excel-templates-with-multiple-worksheets"></a><span data-ttu-id="e2428-103">Birden çok çalışma sayfası içeren Excel şablonları</span><span class="sxs-lookup"><span data-stu-id="e2428-103">Excel templates with multiple worksheets</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e2428-104">Microsoft Dynamics 365 for Finance and Operations'da veri yönetimi veri varlıkları için Microsoft Excel tabanlı şablonları destekler.</span><span class="sxs-lookup"><span data-stu-id="e2428-104">Data management in Microsoft Dynamics 365 for Finance and Operations supports Microsoft Excel-based templates for data entities.</span></span> <span data-ttu-id="e2428-105">Bu şablonlar, bir veya daha fazla çalışma sayfası içerebilir.</span><span class="sxs-lookup"><span data-stu-id="e2428-105">These templates can contain one or more worksheets.</span></span> <span data-ttu-id="e2428-106">Birden çok çalışma sayfası içeren şablonlar genellikle verileri tek bir dosyada yönetmek ve dosyayı birden çok veri varlığına aktarmak uygun olduğunda kullanılır.</span><span class="sxs-lookup"><span data-stu-id="e2428-106">Templates with multiple worksheets are often used when it is convenient to manage data in a single file and import it to multiple data entities.</span></span> <span data-ttu-id="e2428-107">Tesisler ve ambarlar bir örnek olabilir.</span><span class="sxs-lookup"><span data-stu-id="e2428-107">An example would be sites and warehouses.</span></span>
 

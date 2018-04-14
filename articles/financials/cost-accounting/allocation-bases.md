@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: fe0be9164a285ce3884d1f35e99bdad80eb8b581
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1a32b49e7589113d518ef17a39eecc4c518b362d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="allocation-bases"></a><span data-ttu-id="37495-104">Tahsisat temelleri</span><span class="sxs-lookup"><span data-stu-id="37495-104">Allocation bases</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="37495-105">bir tahsisat tabanı, Maliyet muhasebesinin genel giderleri tahsis ettiği tabandır.</span><span class="sxs-lookup"><span data-stu-id="37495-105">An allocation base is the basis on which Cost accounting allocates overhead costs.</span></span> <span data-ttu-id="37495-106">Bir tahsisat tabanı, kullanılan makine saatleri, tüketilen kilovat saat (kWh) veya doldurulan metrekare alan gibi bir miktar olabilir.</span><span class="sxs-lookup"><span data-stu-id="37495-106">An allocation base can be a quantity, such as machine hours that are used, kilowatt hours (kWh) that are consumed, or square footage that is occupied.</span></span> <span data-ttu-id="37495-107">Tahsisat tabanları, genellikle üretilen stoklara genel giderleri atamak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="37495-107">Allocation bases are mostly used to assign overhead costs to inventory that is produced.</span></span> <span data-ttu-id="37495-108">Örneğin bir BT bölümü, giderlerini her bir bölümün kullandığı bilgisayarların sayısına göre tahsis eder.</span><span class="sxs-lookup"><span data-stu-id="37495-108">For example, an IT department allocates its expenses according to the number of computers that each department uses.</span></span>
 
@@ -424,9 +424,11 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="37495-775">Elektrik sabit formül tahsisat tabanı, bunun içerisinde tahsisat tabanı olarak atanmışsa, bir maliyet dağıtımı kuralının örneği buradadır.</span><span class="sxs-lookup"><span data-stu-id="37495-775">Here is an example of a cost distribution rule if the Electricity fixed formula allocation base is assigned as the allocation base in it.</span></span>
 
-| <span data-ttu-id="37495-776">Maliyet nesnesi</span><span class="sxs-lookup"><span data-stu-id="37495-776">Cost object</span></span> |  <span data-ttu-id="37495-777">Açıklama</span><span class="sxs-lookup"><span data-stu-id="37495-777">Description</span></span>  | <span data-ttu-id="37495-778">Büyüklük</span><span class="sxs-lookup"><span data-stu-id="37495-778">Magnitude</span></span> | <span data-ttu-id="37495-779">Tahsisat faktörü</span><span class="sxs-lookup"><span data-stu-id="37495-779">Allocation factor</span></span>                |
-|-------------|----|-----------|----------------------------------|
-| <span data-ttu-id="37495-780">CC001</span><span class="sxs-lookup"><span data-stu-id="37495-780">CC001</span></span>       | <span data-ttu-id="37495-781">İK</span><span class="sxs-lookup"><span data-stu-id="37495-781">HR</span></span> | <span data-ttu-id="37495-782">1.837,50</span><span class="sxs-lookup"><span data-stu-id="37495-782">1,837.50</span></span>  | <span data-ttu-id="37495-783">(1.837,50 ÷ 18.162,50) × Tutar</span><span class="sxs-lookup"><span data-stu-id="37495-783">(1,837.50 ÷ 18,162.50) × Amount</span></span>  |
-| <span data-ttu-id="37495-784">CC002</span><span class="sxs-lookup"><span data-stu-id="37495-784">CC002</span></span>       | <span data-ttu-id="37495-785">FI</span><span class="sxs-lookup"><span data-stu-id="37495-785">FI</span></span> | <span data-ttu-id="37495-786">3.075,00</span><span class="sxs-lookup"><span data-stu-id="37495-786">3,075.00</span></span>  | <span data-ttu-id="37495-787">(3.075,00 ÷ 18.162,50) × Tutar</span><span class="sxs-lookup"><span data-stu-id="37495-787">(3,075.00 ÷ 18,162.50) × Amount</span></span>  |
-| <span data-ttu-id="37495-788">CC003</span><span class="sxs-lookup"><span data-stu-id="37495-788">CC003</span></span>       | <span data-ttu-id="37495-789">ST</span><span class="sxs-lookup"><span data-stu-id="37495-789">IT</span></span> | <span data-ttu-id="37495-790">13.250,00</span><span class="sxs-lookup"><span data-stu-id="37495-790">13,250.00</span></span> | <span data-ttu-id="37495-791">(13.250,00 ÷ 18.162,50) × Tutar</span><span class="sxs-lookup"><span data-stu-id="37495-791">(13,250.00 ÷ 18,162.50) × Amount</span></span> |
+
+| <span data-ttu-id="37495-776">Maliyet nesnesi</span><span class="sxs-lookup"><span data-stu-id="37495-776">Cost object</span></span> | <span data-ttu-id="37495-777">Açıklama</span><span class="sxs-lookup"><span data-stu-id="37495-777">Description</span></span> | <span data-ttu-id="37495-778">Büyüklük</span><span class="sxs-lookup"><span data-stu-id="37495-778">Magnitude</span></span> |        <span data-ttu-id="37495-779">Tahsisat faktörü</span><span class="sxs-lookup"><span data-stu-id="37495-779">Allocation factor</span></span>         |
+|-------------|-------------|-----------|----------------------------------|
+|    <span data-ttu-id="37495-780">CC001</span><span class="sxs-lookup"><span data-stu-id="37495-780">CC001</span></span>    |     <span data-ttu-id="37495-781">İK</span><span class="sxs-lookup"><span data-stu-id="37495-781">HR</span></span>      | <span data-ttu-id="37495-782">1.837,50</span><span class="sxs-lookup"><span data-stu-id="37495-782">1,837.50</span></span>  | <span data-ttu-id="37495-783">(1.837,50 ÷ 18.162,50) × Tutar</span><span class="sxs-lookup"><span data-stu-id="37495-783">(1,837.50 ÷ 18,162.50) × Amount</span></span>  |
+|    <span data-ttu-id="37495-784">CC002</span><span class="sxs-lookup"><span data-stu-id="37495-784">CC002</span></span>    |     <span data-ttu-id="37495-785">FI</span><span class="sxs-lookup"><span data-stu-id="37495-785">FI</span></span>      | <span data-ttu-id="37495-786">3.075,00</span><span class="sxs-lookup"><span data-stu-id="37495-786">3,075.00</span></span>  | <span data-ttu-id="37495-787">(3.075,00 ÷ 18.162,50) × Tutar</span><span class="sxs-lookup"><span data-stu-id="37495-787">(3,075.00 ÷ 18,162.50) × Amount</span></span>  |
+|    <span data-ttu-id="37495-788">CC003</span><span class="sxs-lookup"><span data-stu-id="37495-788">CC003</span></span>    |     <span data-ttu-id="37495-789">ST</span><span class="sxs-lookup"><span data-stu-id="37495-789">IT</span></span>      | <span data-ttu-id="37495-790">13.250,00</span><span class="sxs-lookup"><span data-stu-id="37495-790">13,250.00</span></span> | <span data-ttu-id="37495-791">(13.250,00 ÷ 18.162,50) × Tutar</span><span class="sxs-lookup"><span data-stu-id="37495-791">(13,250.00 ÷ 18,162.50) × Amount</span></span> |
+
 

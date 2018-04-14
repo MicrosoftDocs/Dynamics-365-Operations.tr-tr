@@ -19,16 +19,16 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 46eeb9cb19eed71256d38db78738c09761060c66
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e7e0fffcda8f05d5cbff4cd1674c5e0967ab4040
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cash-and-bank-management-home-page"></a><span data-ttu-id="a5d41-103">Nakit ve banka yönetimi giriş sayfası</span><span class="sxs-lookup"><span data-stu-id="a5d41-103">Cash and bank management home page</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a5d41-104">Nakit ve banka yönetimini, tüzel kişiliğin banka hesaplarını ve bu hesaplarla ilişkilendirilmiş mali araçlarını korumak için kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a5d41-104">You can use Cash and bank management to maintain the legal entity’s bank accounts and the financial instruments that are associated with those bank accounts.</span></span> 
 

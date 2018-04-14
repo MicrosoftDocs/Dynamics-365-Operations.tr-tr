@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6672047cb3234e4432190d3afb20f46827ad5ef4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 786fad1ced1d6d4608b9852c300824ff4f795362
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="depreciation-effects-with-reversals"></a><span data-ttu-id="6b592-103">Ters işlemli amortismanın etkileri</span><span class="sxs-lookup"><span data-stu-id="6b592-103">Depreciation effects with reversals</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="6b592-104">Bu makalede, sabit kıymet hareketini ters kaydetmenin olası etkileri ele alınmaktadır.</span><span class="sxs-lookup"><span data-stu-id="6b592-104">This article discusses potential implications of reversing a fixed asset transaction.</span></span> 
 

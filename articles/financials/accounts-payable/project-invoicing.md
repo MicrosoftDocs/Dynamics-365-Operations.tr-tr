@@ -19,17 +19,16 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2434e0a97846ce9ca0643327a7a032a9998bde5b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1198da234b9e036e22c29da3c4ab5ec8e0a44431
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="project-invoicing"></a><span data-ttu-id="959e9-104">Proje faturalama</span><span class="sxs-lookup"><span data-stu-id="959e9-104">Project invoicing</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="959e9-105">Bu makalede, Zaman ve malzeme projeleri ve Sabit fiyatlı projeler için proje faturalamaya genel bir bakış verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="959e9-105">This article provides an overview of project invoicing for Time and material projects and Fixed-price projects.</span></span> <span data-ttu-id="959e9-106">Fatura teklifleri (ön faturalar), fatura kontrolü, hesaba mahsup faturalama, satıcı faturalama ve hakkındaki bilgileri içerir ve alacak dekontları hakkında bilgiler içermektedir.</span><span class="sxs-lookup"><span data-stu-id="959e9-106">It includes information about invoice proposals (preliminary invoices), invoice control, on-account invoicing, vendor invoicing, and credit notes.</span></span>
 

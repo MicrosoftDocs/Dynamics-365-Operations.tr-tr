@@ -20,16 +20,16 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
-ms.openlocfilehash: e812bb13c903e72e31e62effd0c70f9b9d62de55
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 41bd135c1b891841bd147d8ff9c905d49319b88e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="demo-data-screen-layouts-in-mposcpos"></a><span data-ttu-id="b5d43-103">MPOS/CPOS'taki tanıtım verileri ekranı düzenleri</span><span class="sxs-lookup"><span data-stu-id="b5d43-103">Demo data screen layouts in MPOS/CPOS</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="b5d43-104">Bu konu, Microsoft Dynamics 365 for Retail'deki satış noktası (POS) deneyimleriyle ilgili tanıtım verileri kümesiyle dahil edilen ekran düzenlerine ilişkin bilgiler sağlar.</span><span class="sxs-lookup"><span data-stu-id="b5d43-104">This topic provides information about the screen layouts that are included with the demo data set for the point of sale (POS) experiences in Microsoft Dynamics 365 for Retail.</span></span>
 

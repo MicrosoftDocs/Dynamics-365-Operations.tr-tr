@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6800668741bfd86555b72faf8cce01f73cb9a278
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 450d347a0ddcb407a116a07d7de7f61028dd4290
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="master-planning-and-multisite-functionality"></a><span data-ttu-id="916ca-103">Master planlama ve birden çok tesis işlevi</span><span class="sxs-lookup"><span data-stu-id="916ca-103">Master planning and multisite functionality</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="916ca-104">Master planlama, tesis ve ambar stok boyutlarının ayarlarını dikkate alır.</span><span class="sxs-lookup"><span data-stu-id="916ca-104">Master planning takes the settings of the site and warehouse inventory dimensions into account.</span></span> 
 

@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 54329582abd36a8ca896ce731ce06ca4de58bbb0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5ee2295c44a5b037b66c756cd91193a8ad09f1e6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="centralized-payments-for-accounts-payable"></a><span data-ttu-id="9933d-105">Borç hesapları için merkezi ödemeler</span><span class="sxs-lookup"><span data-stu-id="9933d-105">Centralized payments for Accounts payable</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="9933d-106">Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten tek bir tüzel kişilik kullanarak ödemeleri oluşturabilir ve yönetebilirler.</span><span class="sxs-lookup"><span data-stu-id="9933d-106">Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments.</span></span> <span data-ttu-id="9933d-107">Bu nedenle, birden çok tüzel kişilikte aynı ödemelerin girilmesi gerekmez.</span><span class="sxs-lookup"><span data-stu-id="9933d-107">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="9933d-108">Bu makalede, çeşitli senaryolarda deftere nakletmenin merkezi ödemeler için nasıl işlendiğini gösteren örnekler yer almaktadır.</span><span class="sxs-lookup"><span data-stu-id="9933d-108">This article provides examples that show how posting for centralized payments is handled in various scenarios.</span></span>
 

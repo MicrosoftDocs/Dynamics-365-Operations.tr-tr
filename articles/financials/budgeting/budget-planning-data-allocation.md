@@ -19,17 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b5f262318b4defb941f1216d0bfe06961f62bad4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6436a412f6b10040e1c7254a4912c839e610dede
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning-data-allocation"></a><span data-ttu-id="8f473-103">Bütçe planlama veri tahsisatı</span><span class="sxs-lookup"><span data-stu-id="8f473-103">Budget planning data allocation</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="8f473-104">Bu makale, Microsoft Dynamics 365 for Finance and Operations içerisindeki çeşitli tahsisat yöntemlerini ve bunların nasıl kullanılabileceğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="8f473-104">This article describes the various allocation methods that are available in Microsoft Dynamics 365 for Finance and Operations and how they can be used.</span></span>  
 

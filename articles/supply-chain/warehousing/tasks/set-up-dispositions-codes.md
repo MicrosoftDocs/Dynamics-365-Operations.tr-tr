@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c004543188656dfd53d7539717cd6e93d0b9f47a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e12a2ac565bb8a8383044bd76a97f01e0434c739
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-dispositions-codes"></a><span data-ttu-id="4b16b-103">Değerlendirme kodlarını ayarlama</span><span class="sxs-lookup"><span data-stu-id="4b16b-103">Set up dispositions codes</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4b16b-104">Bu yordam, iade emri alma işlemi için mobil aygıtta kullanılabilecek bir değerlendirme kodunun kurulumuna odaklanır.</span><span class="sxs-lookup"><span data-stu-id="4b16b-104">This procedure focuses on the setup of a disposition code that can be used on a mobile device for the return order receiving process.</span></span> <span data-ttu-id="4b16b-105">Değerlendirme kodları, maddeler alındığında kullanılabilir kurallar topluluğudur.</span><span class="sxs-lookup"><span data-stu-id="4b16b-105">Disposition codes are a collection of rules that can be used when items are received.</span></span> <span data-ttu-id="4b16b-106">Örneğin, kullanıcı bir iş kullanıcısı zarar görmüş maddeleri almak için mobil aygıta kullandığında, bozuk öğeler için bir değerlendirme kodu taratmalıdır.</span><span class="sxs-lookup"><span data-stu-id="4b16b-106">For example, when a work user uses a mobile device to receive items that were damaged, the user must scan a disposition code for damaged items.</span></span> <span data-ttu-id="4b16b-107">Alınan malların stok durumu, iş şablonu ve yerleşim yönergesi taranan değerlendirme kodundan belirlenebilmektedir.</span><span class="sxs-lookup"><span data-stu-id="4b16b-107">The inventory status of the goods received, the work template, and the location directive can be determined from the scanned disposition code.</span></span> <span data-ttu-id="4b16b-108">Satınalma siparişi alma işlemi ve bitirilmiş bir işlem olarak üretim emri raporu için değerlendirme kodu kullanımı isteğe bağlıdır.</span><span class="sxs-lookup"><span data-stu-id="4b16b-108">For the purchase order receiving process and the production order report as finished process, the use of a disposition code is optional.</span></span> <span data-ttu-id="4b16b-109">Maddeler bir taşınabilir aygıt kullanarak kayıt edilmiş ise satış siparişi iade alma işlemi için değerlendirme kodu kullanımı zorunludur.</span><span class="sxs-lookup"><span data-stu-id="4b16b-109">For the sales order return receiving process, if the items are registered using a mobile device, the use of disposition code is mandatory.</span></span>  <span data-ttu-id="4b16b-110">Bu kılavuz oluşturulurken USMF demo verisi şirketi kullanılmıştır.</span><span class="sxs-lookup"><span data-stu-id="4b16b-110">This guide was created using the demo data company USMF.</span></span> <span data-ttu-id="4b16b-111">Bu yordam ambar yöneticisi için hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="4b16b-111">This procedure is intended for the warehouse manager.</span></span> 
 

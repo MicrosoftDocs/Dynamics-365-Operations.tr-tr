@@ -20,17 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: e7c815cc5b660b505cb06560efc3e7501645c350
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec804559d6514b4443bd295ec9d9b8b192f45ec0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-rfm-analysis"></a><span data-ttu-id="3c595-103">RFM analiz ayarla</span><span class="sxs-lookup"><span data-stu-id="3c595-103">Set up RFM analysis</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="3c595-104">Bu konuda müşterilerinizin Recency, Sıklığı ve parasal (RFM) Analizi açıklanır.</span><span class="sxs-lookup"><span data-stu-id="3c595-104">This topic explains how to set up a Recency, Frequency, and Monetary (RFM) analysis of your customers.</span></span>
 
@@ -60,25 +59,25 @@ ms.lasthandoff: 01/18/2018
     - <span data-ttu-id="3c595-126">RFM puanının her bölümünün eşit sayıda müşteri içermesi gerekiyorsa, **Eşit dağıtım** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="3c595-126">If each section of the RFM score must contain an equal count of customers, select the **Even distribution** check box.</span></span> 
     - <span data-ttu-id="3c595-127">Üç puanı toplamak için **Puan ekle** onay kutusunu işaretleyin.</span><span class="sxs-lookup"><span data-stu-id="3c595-127">Select the **Add scores** check box to aggregate the three scores.</span></span> <span data-ttu-id="3c595-128">Örneğin, bu müşteriye 535 yerine 13 RFM puanı verecektir.</span><span class="sxs-lookup"><span data-stu-id="3c595-128">For example, this would give a customer an RFM score of 13 instead of 535.</span></span> 
     - <span data-ttu-id="3c595-129">Sistemin müşteriler için istatistik verilerini kaydetmesini sağlamak için **Geçmişi kaydet** onay kutusunu işaretleyin; böylece veriler RFM puanını hesaplamak için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="3c595-129">Select the **Save history** check box to require the system to save the statistical data for customers so that the data can be used to calculate the RFM score.</span></span>
-  
+
 5.  <span data-ttu-id="3c595-130">**Recency** hızlı sekmesinde, aşağıdakileri yapın:</span><span class="sxs-lookup"><span data-stu-id="3c595-130">On the **Recency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="3c595-131">**Bölümler** alanına, müşterilerin recency puanını hesaplamak için kullanılacak bölümlerin veya grupların sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="3c595-131">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the recency score for customers.</span></span> <span data-ttu-id="3c595-132">Örneğin, 100 müşteriniz ve 5 bölümünüz varsa, her puanlama için 20 müşteri olacaktır.</span><span class="sxs-lookup"><span data-stu-id="3c595-132">For example, if you have 100 customers, a division of 5 means that there are 20 customers for each score.</span></span> <span data-ttu-id="3c595-133">En yakın zamanda satınalım yapan 20 müşterinin recency puanı 5 olacaktır.</span><span class="sxs-lookup"><span data-stu-id="3c595-133">The 20 customers who have made purchases most recently have a recency score of 5.</span></span> <span data-ttu-id="3c595-134">Sonraki 20 müşterinin recency puanı 4 olacak ve bu şekilde devam edecektir.</span><span class="sxs-lookup"><span data-stu-id="3c595-134">The next 20 customers have a recency score of 4, and so on.</span></span> <span data-ttu-id="3c595-135">50 müşteriniz varsa, 10 müşterinin recency puanı 5, 10 müşterinin recency puanı 4 olacak ve bu şekilde devam edecektir.</span><span class="sxs-lookup"><span data-stu-id="3c595-135">If you have 50 customers, 10 customers have a recency score of 5, 10 have a recency score of 4, and so on.</span></span> 
     - <span data-ttu-id="3c595-136">**Öncelik** alanında, bir müşteri için RFM puanı hesaplanırken recency parametresine diğer parametrelere oranla ne kadar ağırlık verileceğini seçin.</span><span class="sxs-lookup"><span data-stu-id="3c595-136">In the **Priority** field, select how much weight to give the recency parameter in relation to the other parameters when the RFM score is calculated for a customer.</span></span> <span data-ttu-id="3c595-137">Örneğin, recency puanına parasal puandan daha fazla değer atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3c595-137">For example, you might place more value on the recency score than the monetary score.</span></span> 
     - <span data-ttu-id="3c595-138">**Çarpan** alanına, recency puanının çarpılacağı değeri girin.</span><span class="sxs-lookup"><span data-stu-id="3c595-138">In the **Multiplier** field, enter the value by which to multiply the recency score.</span></span> <span data-ttu-id="3c595-139">Bir değer girmezseniz, puan çarpılmaz.</span><span class="sxs-lookup"><span data-stu-id="3c595-139">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="3c595-140">**Dönem** alanında, recency puanının hangi dönem için hesaplanacağını seçin.</span><span class="sxs-lookup"><span data-stu-id="3c595-140">In the **Period** field, select the time period by which the recency score is calculated.</span></span> <span data-ttu-id="3c595-141">Örneğin haftalık veya aylık.</span><span class="sxs-lookup"><span data-stu-id="3c595-141">For example, by week or by month.</span></span>
-   
+
 6.  <span data-ttu-id="3c595-142">**Sıklık** hızlı sekmesinde, aşağıdakileri yapın:</span><span class="sxs-lookup"><span data-stu-id="3c595-142">On the **Frequency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="3c595-143">**Bölümler** alanına, müşterilerin sıklık puanını hesaplamak için kullanılacak bölümlerin veya grupların sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="3c595-143">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the frequency score for customers.</span></span> 
     - <span data-ttu-id="3c595-144">**Öncelik** alanında, bir müşteri için RFM puanı hesaplanırken sıklık parametresine diğer parametrelere oranla ne kadar ağırlık verileceğini seçin.</span><span class="sxs-lookup"><span data-stu-id="3c595-144">In the **Priority** field, select how much weight to give the frequency parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="3c595-145">**Çarpan** alanına, sıklık puanının çarpılacağı değeri girin.</span><span class="sxs-lookup"><span data-stu-id="3c595-145">In the **Multiplier** field, enter the value by which to multiply the frequency score.</span></span> <span data-ttu-id="3c595-146">Bir değer girmezseniz, puan çarpılmaz.</span><span class="sxs-lookup"><span data-stu-id="3c595-146">If you do not enter a value, the score will not be multiplied.</span></span>
-   
+
 7.  <span data-ttu-id="3c595-147">**Parasal** hızlı sekmesinde, aşağıdakileri yapın:</span><span class="sxs-lookup"><span data-stu-id="3c595-147">On the **Monetary** FastTab, do the following:</span></span> 
     - <span data-ttu-id="3c595-148">**Bölümler** alanına, müşterilerin parasal puanını hesaplamak için kullanılacak bölümlerin veya grupların sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="3c595-148">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the monetary score for customers.</span></span> 
     - <span data-ttu-id="3c595-149">**Öncelik** alanında, bir müşteri için RFM puanı hesaplanırken parasal parametresine diğer parametrelere oranla ne kadar ağırlık verileceğini seçin.</span><span class="sxs-lookup"><span data-stu-id="3c595-149">In the **Priority** field, select how much weight to give the monetary parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="3c595-150">**Çarpan** alanına, parasal puanın çarpılacağı değeri girin.</span><span class="sxs-lookup"><span data-stu-id="3c595-150">In the **Multiplier** field, enter the value by which to multiply the monetary score.</span></span> <span data-ttu-id="3c595-151">Bir değer girmezseniz, puan çarpılmaz.</span><span class="sxs-lookup"><span data-stu-id="3c595-151">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="3c595-152">**Brüt/net** alanında, müşterinin parasal puanının brüt fatura tutarı mı yoksa net fatura tutarı mı kullanılarak hesaplanacağını seçin.</span><span class="sxs-lookup"><span data-stu-id="3c595-152">In the **Gross/net** field, select whether the customer’s monetary score should be calculated by using the gross or net invoice amount.</span></span> 
     - <span data-ttu-id="3c595-153">Müşterinin iade tutarlarının müşterinin toplam fatura tutarından çıkarılması gerekiyorsa, **İadeleri çıkar** onay kutusunu seçin.</span><span class="sxs-lookup"><span data-stu-id="3c595-153">If a customer’s return amounts should be subtracted from the customer’s total invoice calculation, select the **Subtract returns** check box.</span></span> 
- 
+
 ## <a name="view-a-customers-rfm-score"></a><span data-ttu-id="3c595-154">Bir müşterinin RFM puanını görüntüleme</span><span class="sxs-lookup"><span data-stu-id="3c595-154">View a customer’s RFM score</span></span>
 <span data-ttu-id="3c595-155">Bu yordamı bir müşterinin RFM puanını görüntülemek için kullanın.</span><span class="sxs-lookup"><span data-stu-id="3c595-155">Use this procedure to view a customer’s RFM score.</span></span> 
 

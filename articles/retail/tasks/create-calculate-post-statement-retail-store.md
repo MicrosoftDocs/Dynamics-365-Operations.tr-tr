@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 33ebb28196baa9ae944dbd124274b05cb587fea4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d9f9888d04f4e2419de9d4a6857a81ae40f6f21a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a><span data-ttu-id="80cd8-103"> Perakende mağazasına yönelik bir ekstre oluşturma, hesaplama ve deftere nakletme</span><span class="sxs-lookup"><span data-stu-id="80cd8-103">Create, calculate, and post a statement for a retail store</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="80cd8-104">Bu yordam bir mağaza için el ile ekstre oluşturma, hesaplama ve deftere nakletme adımlarını açıklar.</span><span class="sxs-lookup"><span data-stu-id="80cd8-104">This procedure walks through the manual steps for creating, calculating, and posting a statement for a store.</span></span> <span data-ttu-id="80cd8-105">Aynı görevler için yapılandırılabilecek toplu işler de vardır.</span><span class="sxs-lookup"><span data-stu-id="80cd8-105">There are also batch jobs that can be configured for the same tasks.</span></span> <span data-ttu-id="80cd8-106">Toplu işleri yapılandırma ve çalıştırmayla ilgili adımlar diğer konularda bulunabilir.</span><span class="sxs-lookup"><span data-stu-id="80cd8-106">The steps for configuring and running the batch jobs can be found in other topics.</span></span> <span data-ttu-id="80cd8-107">Bu yordamı tamamlamak için POS'ta tamamlanan ve ardından Dynamics AX uygulamasına çekilen hareketleriniz olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="80cd8-107">To complete this procedure, you must have transactions that were completed in POS and then pulled into Dynamics AX.</span></span> <span data-ttu-id="80cd8-108">Bu kayıt USRT demo veri şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="80cd8-108">This recording uses the USRT company in demo data.</span></span> <span data-ttu-id="80cd8-109">Bu yordam, Microsoft Dynamics AX'e başvuru içerebilir.</span><span class="sxs-lookup"><span data-stu-id="80cd8-109">This procedure may refer to Microsoft Dynamics AX.</span></span> <span data-ttu-id="80cd8-110">Dynamics AX'in artık Microsoft Dynamics 365 for Operations olarak adlandırıldığını unutmayın.</span><span class="sxs-lookup"><span data-stu-id="80cd8-110">Please note that Dynamics AX is now called Microsoft Dynamics 365 for Operations.</span></span>
 

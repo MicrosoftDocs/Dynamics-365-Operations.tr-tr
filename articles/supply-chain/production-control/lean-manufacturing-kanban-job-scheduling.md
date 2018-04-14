@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6ac4c1afecb72d4007d830a9927bd3171ddd48ec
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c5373c8283f51ec8ad4ed8ed4134f6c5a0ca4fa4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a><span data-ttu-id="cb078-103">Yalın üretim için Kanban iş planlama</span><span class="sxs-lookup"><span data-stu-id="cb078-103">Kanban job scheduling for lean manufacturing</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="cb078-104">Bu makale, kanban iş planlamaları üzerinde görsel denetim sağlamak ve kanban işlerini planlamak için çeşitli yöntemler hakkında bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="cb078-104">This article provides information about visual control over kanban job scheduling and various ways to schedule kanban jobs.</span></span>  
 

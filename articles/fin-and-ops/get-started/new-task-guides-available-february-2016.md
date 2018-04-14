@@ -18,17 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 33cd67bda4d4b868b00cb1c0a062de03d3aa6273
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: caa07418cb834c7f004c4fb95d5ea1c0e3a28f56
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="new-task-guides-february-2016"></a><span data-ttu-id="0a277-104">Yeni görev kılavuzları (Şubat 2016)</span><span class="sxs-lookup"><span data-stu-id="0a277-104">New task guides (February 2016)</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="0a277-105">Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev kılavuzlarını listeler.</span><span class="sxs-lookup"><span data-stu-id="0a277-105">This topic lists the Task guides that were released to the Microsoft BPM libraries as of February 2016.</span></span>  <span data-ttu-id="0a277-106">Yayımlanmış olan kitaplıklar arasında (Şubat 2016) APQC Unified Library for Microsoft Dynamics AX ve (Şubat 2016) Başlangıç bulunmaktadır.</span><span class="sxs-lookup"><span data-stu-id="0a277-106">The libraries that were published include the (February 2016) APQC Unified Library for Microsoft Dynamics AX and (February 2016) Getting started.</span></span>
 
@@ -50,8 +49,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-124">Borç hesapları fatura eşleştirme doğrulaması ayarlama</span><span class="sxs-lookup"><span data-stu-id="0a277-124">Set up Accounts payable invoice matching validation</span></span>       | <span data-ttu-id="0a277-125">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-125">Global</span></span>             |
 | <span data-ttu-id="0a277-126">Satıcı fatura ilkelerini ayarla</span><span class="sxs-lookup"><span data-stu-id="0a277-126">Set up vendor invoice policies</span></span>                            | <span data-ttu-id="0a277-127">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-127">Global</span></span>             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a><span data-ttu-id="0a277-128">Alacak hesapları</span><span class="sxs-lookup"><span data-stu-id="0a277-128">Accounts receivable</span></span>
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-153">Tahsilat bilgilerini gözden geçirme</span><span class="sxs-lookup"><span data-stu-id="0a277-153">Review collections information</span></span>                              | <span data-ttu-id="0a277-154">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-154">Global</span></span>             |
 | <span data-ttu-id="0a277-155">Alacak hesapları yaşlandırma bilgilerini ayarlayın ve oluşturun</span><span class="sxs-lookup"><span data-stu-id="0a277-155">Set up and generate accounts receivable aging information</span></span>   | <span data-ttu-id="0a277-156">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-156">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a><span data-ttu-id="0a277-157">Nakit ve banka yönetimi</span><span class="sxs-lookup"><span data-stu-id="0a277-157">Cash and bank management</span></span>
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-196">Bir müşterinin ileri tarih atılmış çekini kapatmak</span><span class="sxs-lookup"><span data-stu-id="0a277-196">Settle a postdated check from a customer</span></span>                             | <span data-ttu-id="0a277-197">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-197">Global</span></span>             |
 | <span data-ttu-id="0a277-198">Satıcı ödemesi özeti</span><span class="sxs-lookup"><span data-stu-id="0a277-198">Vendor payment overview</span></span>                                              | <span data-ttu-id="0a277-199">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-199">Global</span></span>             |
 
- 
 
+ 
 ### <a name="compliance"></a><span data-ttu-id="0a277-200">Uyumluluk</span><span class="sxs-lookup"><span data-stu-id="0a277-200">Compliance</span></span>
 
 |                                            |                    |
@@ -108,8 +107,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-201">**BPM Satırı**</span><span class="sxs-lookup"><span data-stu-id="0a277-201">**BPM Line**</span></span>                               | <span data-ttu-id="0a277-202">**Ülke/Bölge**</span><span class="sxs-lookup"><span data-stu-id="0a277-202">**Country/Region**</span></span> |
 | <span data-ttu-id="0a277-203">Kaynak belgeler için denetim ilkelerini tanımla</span><span class="sxs-lookup"><span data-stu-id="0a277-203">Define audit policies for source documents</span></span> | <span data-ttu-id="0a277-204">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-204">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cost-management"></a><span data-ttu-id="0a277-205">Maliyet yönetimi</span><span class="sxs-lookup"><span data-stu-id="0a277-205">Cost management</span></span>
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-214">Bir üretim emrindeki süren iş durumunu görüntüleme</span><span class="sxs-lookup"><span data-stu-id="0a277-214">View current WIP status on a production order</span></span>                       | <span data-ttu-id="0a277-215">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-215">Global</span></span>             |
 | <span data-ttu-id="0a277-216">Stok ekstresini ve maliyet nesnesine göre KPI görüntüleme</span><span class="sxs-lookup"><span data-stu-id="0a277-216">View inventory statement and KPI by cost object</span></span>                     | <span data-ttu-id="0a277-217">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-217">Global</span></span>             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a><span data-ttu-id="0a277-218">Ülke/Bölge işlevleri</span><span class="sxs-lookup"><span data-stu-id="0a277-218">Country/Region functionality</span></span>
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-485">GB-00009 Kapatma iskontosunda alacak dekontu oluştur</span><span class="sxs-lookup"><span data-stu-id="0a277-485">GB-00009 Create a credit note on the settlement discount</span></span>                                               | <span data-ttu-id="0a277-486">İngiltere</span><span class="sxs-lookup"><span data-stu-id="0a277-486">United Kingdom</span></span>                  |
 | <span data-ttu-id="0a277-487">GB-00009 Hızlı ödeme iskontosu üzerinden alacak dekontu için parametreleri ayarla</span><span class="sxs-lookup"><span data-stu-id="0a277-487">GB-00009 Setup parameters for credit note on prompt payment discount</span></span>                                   | <span data-ttu-id="0a277-488">İngiltere</span><span class="sxs-lookup"><span data-stu-id="0a277-488">United Kingdom</span></span>                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a><span data-ttu-id="0a277-489">Vizyon ve Strateji geliştir</span><span class="sxs-lookup"><span data-stu-id="0a277-489">Develop Vision and Strategy</span></span>
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-498">Bir soruyu önceki sorunun cevabına bağımlı hale getirme (Koşullu sorular)</span><span class="sxs-lookup"><span data-stu-id="0a277-498">Make a question dependent on the answer of the previous question (Conditional questions)</span></span> | <span data-ttu-id="0a277-499">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-499">Global</span></span>             |
 | <span data-ttu-id="0a277-500">Soru formunu yüzdeye göre puanlayın</span><span class="sxs-lookup"><span data-stu-id="0a277-500">Score a questionnaire based on Percent</span></span>                                                   | <span data-ttu-id="0a277-501">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-501">Global</span></span>             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a><span data-ttu-id="0a277-502">Elektronik raporlama</span><span class="sxs-lookup"><span data-stu-id="0a277-502">Electronic reporting</span></span>
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-511">ER seçili veri kaynaklarına veri modeli eşle</span><span class="sxs-lookup"><span data-stu-id="0a277-511">ER Map data model to selected data sources</span></span>      | <span data-ttu-id="0a277-512">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-512">Global</span></span>             |
 | <span data-ttu-id="0a277-513">ER Hizmet sağlayıcısı seç</span><span class="sxs-lookup"><span data-stu-id="0a277-513">ER Select service provider</span></span>                      | <span data-ttu-id="0a277-514">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-514">Global</span></span>             |
 
- 
 
+ 
 ### <a name="expense-management"></a><span data-ttu-id="0a277-515">Gider yönetimi</span><span class="sxs-lookup"><span data-stu-id="0a277-515">Expense management</span></span>
 
 |                              |                    |
@@ -298,8 +297,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-516">**BPM Satırı**</span><span class="sxs-lookup"><span data-stu-id="0a277-516">**BPM Line**</span></span>                 | <span data-ttu-id="0a277-517">**Ülke/Bölge**</span><span class="sxs-lookup"><span data-stu-id="0a277-517">**Country/Region**</span></span> |
 | <span data-ttu-id="0a277-518">Gider yönetimini yapılandır</span><span class="sxs-lookup"><span data-stu-id="0a277-518">Configure expense management</span></span> | <span data-ttu-id="0a277-519">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-519">Global</span></span>             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a><span data-ttu-id="0a277-520">Sabit kıymetler</span><span class="sxs-lookup"><span data-stu-id="0a277-520">Fixed assets</span></span>
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-549">Sabit kıymeti parçalara ayırın</span><span class="sxs-lookup"><span data-stu-id="0a277-549">Split a fixed asset</span></span>                                       | <span data-ttu-id="0a277-550">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-550">Global</span></span>             |
 | <span data-ttu-id="0a277-551">Bir sabit kıymeti transfer edin</span><span class="sxs-lookup"><span data-stu-id="0a277-551">Transfer a fixed asset</span></span>                                    | <span data-ttu-id="0a277-552">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-552">Global</span></span>             |
 
- 
 
+ 
 ### <a name="general-ledger"></a><span data-ttu-id="0a277-553">Genel muhasebe</span><span class="sxs-lookup"><span data-stu-id="0a277-553">General ledger</span></span>
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-602">Yevmiye defteri girişlerini veya hareketlerini görüntüleyin</span><span class="sxs-lookup"><span data-stu-id="0a277-602">View journal entries or transactions</span></span>                              | <span data-ttu-id="0a277-603">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-603">Global</span></span>             |
 | <span data-ttu-id="0a277-604">Günlükten ilgili şirketlerarası fişi görüntüleyin</span><span class="sxs-lookup"><span data-stu-id="0a277-604">View related intercompany voucher from journal</span></span>                    | <span data-ttu-id="0a277-605">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-605">Global</span></span>             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a><span data-ttu-id="0a277-606">İnsan sermayesi yönetimi</span><span class="sxs-lookup"><span data-stu-id="0a277-606">Human capital management</span></span>
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-677">Kazanca uygunluk ilkeleri ayarlama</span><span class="sxs-lookup"><span data-stu-id="0a277-677">Setting benefit eligibility policies</span></span>                             | <span data-ttu-id="0a277-678">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-678">Global</span></span>             |
 | <span data-ttu-id="0a277-679">i9 belge türleri ayarlama</span><span class="sxs-lookup"><span data-stu-id="0a277-679">Setting up i9 document types</span></span>                                     | <span data-ttu-id="0a277-680">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-680">Global</span></span>             |
 
- 
 
+ 
 ### <a name="inventory-management"></a><span data-ttu-id="0a277-681">Stok yönetimi</span><span class="sxs-lookup"><span data-stu-id="0a277-681">Inventory management</span></span>
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-712">Bir madde veya hammaddeyi izleme</span><span class="sxs-lookup"><span data-stu-id="0a277-712">Trace an item or raw material</span></span>                                                     | <span data-ttu-id="0a277-713">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-713">Global</span></span>             |
 | <span data-ttu-id="0a277-714">Ambardaki fiziksel stoğu transfer etme</span><span class="sxs-lookup"><span data-stu-id="0a277-714">Transfer physical inventory within the warehouse</span></span>                                  | <span data-ttu-id="0a277-715">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-715">Global</span></span>             |
 
- 
 
+ 
 ### <a name="manufacturing"></a><span data-ttu-id="0a277-716">İmalat</span><span class="sxs-lookup"><span data-stu-id="0a277-716">Manufacturing</span></span>
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-803">Kanban işleriyle malzeme transfer etme</span><span class="sxs-lookup"><span data-stu-id="0a277-803">Transfer material with Kanban jobs</span></span>                            | <span data-ttu-id="0a277-804">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-804">Global</span></span>             |
 | <span data-ttu-id="0a277-805">Üretim akışını ve sürümü onaylama</span><span class="sxs-lookup"><span data-stu-id="0a277-805">Validate production flow and version</span></span>                          | <span data-ttu-id="0a277-806">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-806">Global</span></span>             |
 
- 
 
+ 
 ### <a name="master-planning"></a><span data-ttu-id="0a277-807">Master planlama</span><span class="sxs-lookup"><span data-stu-id="0a277-807">Master planning</span></span>
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-816">Kritik malzeme ve tedarikçi kapasitesini tanımla</span><span class="sxs-lookup"><span data-stu-id="0a277-816">Identify critical materials and supplier capacity</span></span> | <span data-ttu-id="0a277-817">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-817">Global</span></span>             |
 | <span data-ttu-id="0a277-818">Talep tahminini manuel olarak değiştir</span><span class="sxs-lookup"><span data-stu-id="0a277-818">Modify a demand forecast manually</span></span>                 | <span data-ttu-id="0a277-819">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-819">Global</span></span>             |
 
- 
 
+ 
 ### <a name="organization-administration"></a><span data-ttu-id="0a277-820">Kuruluş yönetimi</span><span class="sxs-lookup"><span data-stu-id="0a277-820">Organization administration</span></span>
 
 |                                           |                    |
@@ -501,8 +500,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-831">Elektronik imza ayarlama</span><span class="sxs-lookup"><span data-stu-id="0a277-831">Set up electronic signatures</span></span>              | <span data-ttu-id="0a277-832">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-832">Global</span></span>             |
 | <span data-ttu-id="0a277-833">Bir sihirbaz kullanarak satınalma için numara serilerini ayarla</span><span class="sxs-lookup"><span data-stu-id="0a277-833">Set up number sequences by using a wizard</span></span> | <span data-ttu-id="0a277-834">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-834">Global</span></span>             |
 
- 
 
+ 
 ### <a name="planning"></a><span data-ttu-id="0a277-835">Planlama</span><span class="sxs-lookup"><span data-stu-id="0a277-835">Planning</span></span>
 
 |                        |                    |
@@ -510,8 +509,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-836">**BPM Satırı**</span><span class="sxs-lookup"><span data-stu-id="0a277-836">**BPM Line**</span></span>           | <span data-ttu-id="0a277-837">**Ülke/Bölge**</span><span class="sxs-lookup"><span data-stu-id="0a277-837">**Country/Region**</span></span> |
 | <span data-ttu-id="0a277-838">Kullanılabilirliğini belirle</span><span class="sxs-lookup"><span data-stu-id="0a277-838">Determine availability</span></span> | <span data-ttu-id="0a277-839">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-839">Global</span></span>             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a><span data-ttu-id="0a277-840">Tedarik ve kaynak atama</span><span class="sxs-lookup"><span data-stu-id="0a277-840">Procurement and sourcing</span></span>
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-853">Satıcıları arama</span><span class="sxs-lookup"><span data-stu-id="0a277-853">Search for vendors</span></span>                                               | <span data-ttu-id="0a277-854">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-854">Global</span></span>             |
 | <span data-ttu-id="0a277-855">Tedarik kategori hiyerarşisi ayarlama</span><span class="sxs-lookup"><span data-stu-id="0a277-855">Set up a procurement category hierarchy</span></span>                          | <span data-ttu-id="0a277-856">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-856">Global</span></span>             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a><span data-ttu-id="0a277-857">Ürün bilgisi ve yapılandırma</span><span class="sxs-lookup"><span data-stu-id="0a277-857">Product information and configuration</span></span>
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-892">..\mali-boyutlar\boyut tabanlı ana ürün serbest bırakma</span><span class="sxs-lookup"><span data-stu-id="0a277-892">Release a ..\financial-dimensions\dimension-based product master</span></span>              | <span data-ttu-id="0a277-893">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-893">Global</span></span>             |
 | <span data-ttu-id="0a277-894">Ürün modelleri için verileri aktarma</span><span class="sxs-lookup"><span data-stu-id="0a277-894">Transfer data for product models</span></span>                      | <span data-ttu-id="0a277-895">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-895">Global</span></span>             |
 
- 
 
+ 
 ### <a name="public-sector"></a><span data-ttu-id="0a277-896">Kamu sektörü</span><span class="sxs-lookup"><span data-stu-id="0a277-896">Public sector</span></span>
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-931">Kamu Sektörü için bir fon ayarlama</span><span class="sxs-lookup"><span data-stu-id="0a277-931">Set up a fund for Public sector</span></span>                                                         | <span data-ttu-id="0a277-932">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-932">Global</span></span>             |
 | <span data-ttu-id="0a277-933">Kamu sektörü için satınalma anlaşması sınıflandırmalarını ayarla</span><span class="sxs-lookup"><span data-stu-id="0a277-933">Set up purchase agreement classifications for Public Sector</span></span>                             | <span data-ttu-id="0a277-934">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-934">Global</span></span>             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a><span data-ttu-id="0a277-935">Perakende ve ticaret</span><span class="sxs-lookup"><span data-stu-id="0a277-935">Retail and commerce</span></span>
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-1002">Perakende fiyat ayarlamaları</span><span class="sxs-lookup"><span data-stu-id="0a277-1002">Retail price adjustments</span></span>                                                                  | <span data-ttu-id="0a277-1003">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-1003">Global</span></span>             |
 | <span data-ttu-id="0a277-1004">Perakende ekstreleri için yapılandırmaları saklama</span><span class="sxs-lookup"><span data-stu-id="0a277-1004">Store configurations for Retail statements</span></span>                                                | <span data-ttu-id="0a277-1005">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-1005">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales"></a><span data-ttu-id="0a277-1006">Satış</span><span class="sxs-lookup"><span data-stu-id="0a277-1006">Sales</span></span>
 
 |                                            |                    |
@@ -642,8 +641,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-1035">Siparişleri doğrudan teslimatlar olarak sevk etme</span><span class="sxs-lookup"><span data-stu-id="0a277-1035">Ship orders as direct deliveries</span></span>           | <span data-ttu-id="0a277-1036">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-1036">Global</span></span>             |
 | <span data-ttu-id="0a277-1037">Satış siparişlerini depolama olmadan sevk etme</span><span class="sxs-lookup"><span data-stu-id="0a277-1037">Ship sales orders without warehousing</span></span>      | <span data-ttu-id="0a277-1038">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-1038">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales-tax"></a><span data-ttu-id="0a277-1039">Satış vergisi</span><span class="sxs-lookup"><span data-stu-id="0a277-1039">Sales tax</span></span>
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-1060">Stopaj vergisi ayarlayın</span><span class="sxs-lookup"><span data-stu-id="0a277-1060">Set up withholding tax</span></span>                             | <span data-ttu-id="0a277-1061">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-1061">Global</span></span>             |
 | <span data-ttu-id="0a277-1062">Deftere nakledilen satış vergisi hareketlerini görüntüle</span><span class="sxs-lookup"><span data-stu-id="0a277-1062">View posted sales tax transactions</span></span>                 | <span data-ttu-id="0a277-1063">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-1063">Global</span></span>             |
 
- 
 
+ 
 ### <a name="security"></a><span data-ttu-id="0a277-1064">Güvenlik</span><span class="sxs-lookup"><span data-stu-id="0a277-1064">Security</span></span>
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-1069">Görev ayrımındaki çakışmaları tanımlayın ve çözümleyin</span><span class="sxs-lookup"><span data-stu-id="0a277-1069">Identify and resolve conflicts in segregation of duties</span></span> | <span data-ttu-id="0a277-1070">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-1070">Global</span></span>             |
 | <span data-ttu-id="0a277-1071">Görev ayrımını ayarlamak</span><span class="sxs-lookup"><span data-stu-id="0a277-1071">Set up segregation of duties</span></span>                            | <span data-ttu-id="0a277-1072">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-1072">Global</span></span>             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a><span data-ttu-id="0a277-1073">Ambar ve taşıma</span><span class="sxs-lookup"><span data-stu-id="0a277-1073">Warehouse and transportation</span></span>
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="0a277-1106">Sevk eden taşımacıları ayarlama</span><span class="sxs-lookup"><span data-stu-id="0a277-1106">Set up shipping carriers</span></span>                                                          | <span data-ttu-id="0a277-1107">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-1107">Global</span></span>             |
 | <span data-ttu-id="0a277-1108">Yükleri ve sevkiyatları planlamak için Yük Planlama Workbench'ini kullanma</span><span class="sxs-lookup"><span data-stu-id="0a277-1108">Use the Load Planning Workbench to plan loads and shipments</span></span>                       | <span data-ttu-id="0a277-1109">Genel</span><span class="sxs-lookup"><span data-stu-id="0a277-1109">Global</span></span>             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a><span data-ttu-id="0a277-1110">(Şubat 2016) Başlarken kitaplığındaki görev kılavuzları</span><span class="sxs-lookup"><span data-stu-id="0a277-1110">Task guides in the (February 2016) Getting started library</span></span>
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | <span data-ttu-id="0a277-1111">**BPM Satırı**</span><span class="sxs-lookup"><span data-stu-id="0a277-1111">**BPM Line**</span></span>                                       | <span data-ttu-id="0a277-1112">**Ülke/Bölge**</span><span class="sxs-lookup"><span data-stu-id="0a277-1112">**Country/Region**</span></span> |

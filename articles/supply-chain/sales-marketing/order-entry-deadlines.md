@@ -19,17 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: d308edfbfb614ef744cb879bd1dc9753601d39bb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: eea198bd72d4434b2f7408816e75cabb3ac2bff9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="order-entry-deadlines"></a><span data-ttu-id="c1a09-104">Sipariş son giriş tarihleri</span><span class="sxs-lookup"><span data-stu-id="c1a09-104">Order entry deadlines</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c1a09-105">Bu makalede sipariş giriş son tarihleri hakkında bilgiler verilmiştir.</span><span class="sxs-lookup"><span data-stu-id="c1a09-105">This article provides information about order entry deadlines.</span></span> <span data-ttu-id="c1a09-106">Bir sipariş girişi son tarihi, bir müşteri siparişinin o gün ya da ertesi gün alındığının kabul edilip edilmeyeceğini (ve yerine getirilip getirilmediğini) belirleyen bir kesim tarihidir.</span><span class="sxs-lookup"><span data-stu-id="c1a09-106">An order entry deadline is a cut-off time that determines whether a customer order is treated (and fulfilled) as if it was received on the current day or the next day.</span></span>
 

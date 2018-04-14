@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 6084ddb1c5b8fae9111ea1459f6e94b14930bfc5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9ec77585e259bc759b422b97f4f3b10271a02b02
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a><span data-ttu-id="f0bc3-104">Satış ve karlılık performansı Power BI içeriği</span><span class="sxs-lookup"><span data-stu-id="f0bc3-104">Sales and profitability performance Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f0bc3-105">Bu konu, **Satış ve karlılık performansı** Microsoft Power BI içeriğinde nelerin bulunduğunu açıklar.</span><span class="sxs-lookup"><span data-stu-id="f0bc3-105">This topic describes what is included in the **Sales and profitability performance** Microsoft Power BI content.</span></span> <span data-ttu-id="f0bc3-106">Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="f0bc3-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="f0bc3-140">Ürüne göre gelir</span><span class="sxs-lookup"><span data-stu-id="f0bc3-140">Revenue by product</span></span>     | <span data-ttu-id="f0bc3-141">Satış kategorisine göre gelir ve brüt kar</span><span class="sxs-lookup"><span data-stu-id="f0bc3-141">Revenue & gross profit by sales category</span></span>   | <span data-ttu-id="f0bc3-142">Toplam \# ürün sayısı</span><span class="sxs-lookup"><span data-stu-id="f0bc3-142">Total \# of products</span></span>                                    |
 |                        | <span data-ttu-id="f0bc3-143">Gelire göre ilk 10 ürün</span><span class="sxs-lookup"><span data-stu-id="f0bc3-143">Top 10 products by revenue</span></span>                 | <span data-ttu-id="f0bc3-144">Etkin ürünlerin toplam sayısı ve toplamdaki yüzdesi</span><span class="sxs-lookup"><span data-stu-id="f0bc3-144">Total number of active products and percentage of total</span></span> |
 |                        | <span data-ttu-id="f0bc3-145">Satış kategorisine göre toplam gelir</span><span class="sxs-lookup"><span data-stu-id="f0bc3-145">Total revenue by sales category</span></span>            | <span data-ttu-id="f0bc3-146">Gelirin %80'ini oluşturan ürünlerin sayısı</span><span class="sxs-lookup"><span data-stu-id="f0bc3-146">Number of products accounting for 80% revenue</span></span>           |
-| <span data-ttu-id="f0bc3-147">Gelir, döneme göre\\*</span><span class="sxs-lookup"><span data-stu-id="f0bc3-147">Revenue by period\\*</span></span>    | <span data-ttu-id="f0bc3-148">Gelir, aya göre</span><span class="sxs-lookup"><span data-stu-id="f0bc3-148">Revenue by month</span></span>                           | <span data-ttu-id="f0bc3-149">Gelir büyümesi, yıldan yıla</span><span class="sxs-lookup"><span data-stu-id="f0bc3-149">YOY revenue growth</span></span>                                      |
+| <span data-ttu-id="f0bc3-147">Gelir, döneme göre\*</span><span class="sxs-lookup"><span data-stu-id="f0bc3-147">Revenue by period\*</span></span>    | <span data-ttu-id="f0bc3-148">Gelir, aya göre</span><span class="sxs-lookup"><span data-stu-id="f0bc3-148">Revenue by month</span></span>                           | <span data-ttu-id="f0bc3-149">Gelir büyümesi, yıldan yıla</span><span class="sxs-lookup"><span data-stu-id="f0bc3-149">YOY revenue growth</span></span>                                      |
 |                        | <span data-ttu-id="f0bc3-150">Son bütçe farkı, yıldan yıla</span><span class="sxs-lookup"><span data-stu-id="f0bc3-150">Trailing revenue variance, YOY</span></span>             | <span data-ttu-id="f0bc3-151">Gelir büyümesi yüzdesi, yıldan yıla</span><span class="sxs-lookup"><span data-stu-id="f0bc3-151">YOY revenue growth %</span></span>                                    |
 |                        | <span data-ttu-id="f0bc3-152">Satış toplamı farkı, müşteri bölgesine göre</span><span class="sxs-lookup"><span data-stu-id="f0bc3-152">Total sales variance by customer region</span></span>    |                                                         |
 | <span data-ttu-id="f0bc3-153">Gelir, yerleşime göre</span><span class="sxs-lookup"><span data-stu-id="f0bc3-153">Revenue by location</span></span>    | <span data-ttu-id="f0bc3-154">Satış geliri, şehre göre</span><span class="sxs-lookup"><span data-stu-id="f0bc3-154">Sales revenue by city</span></span>                      |                                                         |
@@ -75,7 +75,7 @@ ms.lasthandoff: 01/17/2018
 |                        | <span data-ttu-id="f0bc3-162">İlk 15 müşteri, brüt kara göre</span><span class="sxs-lookup"><span data-stu-id="f0bc3-162">Top 15 customers by gross margin</span></span>           |                                                         |
 |                        | <span data-ttu-id="f0bc3-163">Brüt kar, aya göre, yıldan yıla</span><span class="sxs-lookup"><span data-stu-id="f0bc3-163">Gross profit by month, YOY</span></span>                 |                                                         |
 
-<span data-ttu-id="f0bc3-164">\\* Bu yılki ve geçen yılki gelir ve büyüme, satış kategorisine göre.</span><span class="sxs-lookup"><span data-stu-id="f0bc3-164">\\* Revenue this and last year, and growth by sales category.</span></span>
+<span data-ttu-id="f0bc3-164">\* Bu yılki ve geçen yılki gelir ve büyüme, satış kategorisine göre.</span><span class="sxs-lookup"><span data-stu-id="f0bc3-164">\* Revenue this and last year, and growth by sales category.</span></span>
 
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="f0bc3-165">Veri modellerini ve varlıklarını anlama</span><span class="sxs-lookup"><span data-stu-id="f0bc3-165">Understanding the data model and entities</span></span>

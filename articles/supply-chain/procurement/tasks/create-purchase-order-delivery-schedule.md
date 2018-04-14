@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1e4a0204d74c8966cd90b52ae13c88e222ebc3ef
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d0e86c33580cbcafb16f508c2f6330d81422f12d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a><span data-ttu-id="9ef38-103">Teslimat planı olan satınalma siparişi oluşturma</span><span class="sxs-lookup"><span data-stu-id="9ef38-103">Create a purchase order with a delivery schedule</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9ef38-104">Bu prosedür, satınalma siparişi için teslimat oluşturmayı göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="9ef38-104">This procedure demonstrates how to create a delivery schedule for a purchase order.</span></span> <span data-ttu-id="9ef38-105">Teslimat planı, bir siparişteki veya günlükteki miktarın birden fazla sevkiyatlar halinde teslim edilmesi istendiği zaman kullanılır.</span><span class="sxs-lookup"><span data-stu-id="9ef38-105">A delivery schedule is used when a quantity on an order or a journal is requested to be delivered in multiple shipments.</span></span> <span data-ttu-id="9ef38-106">Bu kılavuzda gösterilen örnek, demo veriler şirketi USMF'de kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="9ef38-106">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="9ef38-107">Bu prosedür tipik olarak bir satın alma temsilcisi tarafından gerçekleştirilir.</span><span class="sxs-lookup"><span data-stu-id="9ef38-107">This procedure would typically be done by a purchasing agent.</span></span>
 

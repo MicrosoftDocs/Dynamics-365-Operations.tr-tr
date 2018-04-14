@@ -20,24 +20,23 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: 236b0253f20330f09f07dbcfa19257350fb5d37f
-ms.openlocfilehash: 8ef72de3f226a3270ac0145a20e4da7dfe64f4ba
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8625e9c9b91acee52e2207d462f38286cafeb773
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-lifecycle-state"></a><span data-ttu-id="1727f-103">Ürün yaşam döngüsü durumu</span><span class="sxs-lookup"><span data-stu-id="1727f-103">Product lifecycle state</span></span> 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="1727f-104">Ürün yaşam döngüsü durumu, serbest bırakılan bir ürünün veya ürün çeşidinin yaşam döngüsü durumunu belgeler.</span><span class="sxs-lookup"><span data-stu-id="1727f-104">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="1727f-105">Ürün yaşam döngüsü durumları genellikle bir ürün yöneticisi veya ürün ana verileri yöneticisi olan bir kullanıcı tarafından tanımlanır.</span><span class="sxs-lookup"><span data-stu-id="1727f-105">Product lifecycle states are defined by the user, typically a product manager or a product master data manager.</span></span> <span data-ttu-id="1727f-106">Master planlama gibi belirli iş süreçleri belirli bir yaşam döngüsü durumu tarafından etkilenebilir.</span><span class="sxs-lookup"><span data-stu-id="1727f-106">Specific business processes, such as master planning, can be affected by a specific lifecycle state.</span></span>   
- 
+
 <span data-ttu-id="1727f-107">Serbest bırakılan ürün veya ürün çeşidi, belirli bir ürün veya ürün çeşidi yaşam döngüsü durumunun içinde bulunduğunu belgeleyen bir ürün yaşam döngüsü durumu ile ilişkilendirilebilir.</span><span class="sxs-lookup"><span data-stu-id="1727f-107">A released product or product variant can be associated with a product lifecycle state that documents in which lifecycle state a specific product or variant is currently in.</span></span> <span data-ttu-id="1727f-108">Bir durum adı ve açıklaması atayarak istediğiniz sayıda ürün yaşam döngüsü durumu tanımlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1727f-108">You can define any number of product lifecycle states by assigning a state name and description.</span></span> <span data-ttu-id="1727f-109">Yeni serbest bırakılan ürünler için varsayılan durum olarak bir yaşam döngüsü durumu seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1727f-109">You can select one lifecycle state as the default state for new released products.</span></span> <span data-ttu-id="1727f-110">Serbest bırakılan ürün çeşitleri, ürün yaşam döngüsü durumlarını oluşturma sırasındaki serbest bırakılan ana üründen alır.</span><span class="sxs-lookup"><span data-stu-id="1727f-110">Released product variants inherit their product lifecycle state from their released product master on creation.</span></span> <span data-ttu-id="1727f-111">Serbest bırakılan bir ana üründe yaşam döngüsü durumunu değiştirirken, aynı orijinal duruma sahip mevcut tüm ürün çeşitlerini güncelleştirmeyi seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1727f-111">When changing the lifecycle state on a released product master, you can choose to update all existing variants that have the same original state.</span></span>  
 
 ## <a name="create-a-new-product-lifecycle-state"></a><span data-ttu-id="1727f-112">Yeni ürün yaşam döngüsü durumu oluşturma</span><span class="sxs-lookup"><span data-stu-id="1727f-112">Create a new product lifecycle state</span></span> 
- 
+
 - <span data-ttu-id="1727f-113">Yeni bir ürün yaşam döngüsü durumu oluşturmak için **Yeni ürün yaşam döngüsü durumu oluşturma** görev kılavuzu okuyun veya yürütün.</span><span class="sxs-lookup"><span data-stu-id="1727f-113">To create a new product lifecycle state, play or read the task guide **Create a new product lifecycle state**.</span></span> 
 
 -  <span data-ttu-id="1727f-114">Varsayılan bir ürün yaşam döngüsü durumu oluşturmak için **Varsayılan ürün yaşam döngüsü durumu oluşturma** görev kılavuzu okuyun veya yürütün.</span><span class="sxs-lookup"><span data-stu-id="1727f-114">To create a default product lifecycle state, play or read the task guide **Create a default product lifecycle state**.</span></span>   
@@ -73,7 +72,7 @@ ms.lasthandoff: 02/08/2018
 
 > [!NOTE]
 > <span data-ttu-id="1727f-134">Performansı iyileştirmek amacıyla, tüm eski serbest bırakılan ürünlerin ve ürün çeşitlerinin, özellikle de yeniden kullanılmayan ürün yapılandırma çeşitleriyle çalışılırken, master planlama için devre dışı bırakılmış bir ürün yaşam döngüsü durumuyla ilişkilendirilmesi önerilir.</span><span class="sxs-lookup"><span data-stu-id="1727f-134">For performance reasons, it is highly recommended to associate all obsolete released products or product variants, especially when working with non-reusable product configuration variants, with a product lifecycle state that is deactivated for master planning.</span></span>  
- 
+
 ## <a name="default-migration-import-and-export"></a><span data-ttu-id="1727f-135">Varsayılan geçiş, içe aktarma ve dışa aktarma</span><span class="sxs-lookup"><span data-stu-id="1727f-135">Default migration, import, and export</span></span> 
 
 <span data-ttu-id="1727f-136">Ürün yaşam döngüsü durumları veri varlıkları tarafından desteklenmez ve yaşam döngüsü durumu serbest bırakılan ürün veri varlıkları aracılığıyla değişken bir duruma ayarlanamaz.</span><span class="sxs-lookup"><span data-stu-id="1727f-136">The product lifecycle states are not supported by data entities, and the lifecycle state cannot be set to a variable state through the released product data entities.</span></span>
@@ -81,18 +80,18 @@ ms.lasthandoff: 02/08/2018
 -  <span data-ttu-id="1727f-137">Önceki sürümlerden geçiş yapıldığında, tüm ürünlerin ve ürün çeşitlerinin yaşam döngüsü durumu boş olacaktır.</span><span class="sxs-lookup"><span data-stu-id="1727f-137">On migration from previous releases, the lifecycle state of all products and product variants will be blank.</span></span>  
 -  <span data-ttu-id="1727f-138">Serbest bırakılan ürünler bir veri varlığıyla içe aktarılırken, oluşturma sırasındaki varsayılan yaşam döngüsü durumu uygulanır.</span><span class="sxs-lookup"><span data-stu-id="1727f-138">When importing released products through a data entity, the default lifecycle state will be applied on creation.</span></span>  
 -  <span data-ttu-id="1727f-139">Serbest bırakılan ürün çeşitleri bir veri varlığıyla içe aktarılırken, serbest bırakılan ana ürünün ürün yaşam döngüsü durumu içe aktarılır.</span><span class="sxs-lookup"><span data-stu-id="1727f-139">When importing released product variants through a data entity, the product lifecycle state of the released product master will be imported.</span></span>   
- 
+
 ## <a name="find-obsolete-products-and-products-variants"></a><span data-ttu-id="1727f-140">Eski ürünleri ve ürün çeşitlerini bulma</span><span class="sxs-lookup"><span data-stu-id="1727f-140">Find obsolete products and products variants</span></span> 
- 
+
 <span data-ttu-id="1727f-141">Eski ürünleri ve ürün çeşitlerini bulmak için bir benzerim analizi çalıştırabilir ve daha sonra ürün yaşam döngüsü durumlarını güncelleştirebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1727f-141">You can run a simulation analysis to find the obsolete released products or product variants and then update their product lifecycle status.</span></span> <span data-ttu-id="1727f-142">Eski ürünleri bulmak için **Eski ürün çeşitlerini bulma ve bir ürün yaşam döngüsü durumu atama** görev kılavuzunu oynatın ve okuyun.</span><span class="sxs-lookup"><span data-stu-id="1727f-142">To find obsolete products, play and read the task guide **Find obsolete product variants and assign a product lifecycle state**.</span></span> <span data-ttu-id="1727f-143">Bu görev kılavuzu eski ürünleri veya ürün çeşitlerini nasıl bulabileceğinizi ve bir ürün yaşam döngüsü durumunu eski ürünlerle nasıl ilişkilendirebileceğinizi gösterir.</span><span class="sxs-lookup"><span data-stu-id="1727f-143">This task guide shows how to find obsolete released products or product variants and how to associate a product lifecycle state to the obsolete products.</span></span> <span data-ttu-id="1727f-144">Ayrıca, benzetim sonuçlarının nasıl görüntüleneceğini ve benzetim olmadan güncelleştirme çalıştırıldığında ne kadar ürün ve ürün çeşidinin yeni bir ürün yaşam döngüsü durumuyla ilişkilendirileceğinin nasıl değerlendirileceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="1727f-144">It also shows hot to view the simulation results and assess how many products and product variants will be associated with a new product lifecycle state when running the update without simulation.</span></span>  
- 
+
 <span data-ttu-id="1727f-145">Analiz benzetim modunda çalıştırıldığında, eski olarak tanımlanan ürünler ve ürün çeşitleri kolay bir şekilde gözden geçirilmelerini sağlayan özel bir formda görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="1727f-145">By running the analysis in a simulation mode, the products and product variants identified as obsolete are displayed in a specific form, where they can easily be reviewed.</span></span> <span data-ttu-id="1727f-146">Analiz, değişken bir dönem içinde talep edilmemiş olan ve talep durumunda herhangi bir ana veriye ulaşılamayacak ürünleri tanımlamak için hareketleri ve belirli ana verileri arar.</span><span class="sxs-lookup"><span data-stu-id="1727f-146">The analysis searches for transactions and specific master data to identify products that have no demand within a variable period and no master data that can result in demand.</span></span> <span data-ttu-id="1727f-147">Değişken bir dönem içinde yeni serbest bırakılan ürünler bu analizin dışında bırakılabilir.</span><span class="sxs-lookup"><span data-stu-id="1727f-147">New released products within a variable period can be excluded from the analysis.</span></span> <span data-ttu-id="1727f-148">Analiz benzetimi beklenen sonucu döndürdüğünde, kullanıcı analizi çalıştırabilir ve analiz tarafından eski olarak tanımlanan tüm ürünler için yeni bir ürün yaşam döngüsü durumu ayarlayabilir.</span><span class="sxs-lookup"><span data-stu-id="1727f-148">When the analysis simulation returns the expected result, the user can run the analysis and set a new product lifecycle state to all products identified as obsolete by the analysis.</span></span>  
- 
+
 > [!NOTE]
 > <span data-ttu-id="1727f-149">Tüm analizlerin ve güncelleştirmelerin aynı tüzel kişilik içinde yapılması gerektiğini unutmayın.</span><span class="sxs-lookup"><span data-stu-id="1727f-149">Note that all analysis and updates must be done within the same legal entity.</span></span>  
- 
+
 ## <a name="criteria-to-select-and-update-released-products-or-product-variants"></a><span data-ttu-id="1727f-150">Serbest bırakılan ürünleri veya ürün çeşitlerini seçme ve güncelleştirme ölçütü</span><span class="sxs-lookup"><span data-stu-id="1727f-150">Criteria to select and update released products or product variants</span></span> 
- 
+
 <span data-ttu-id="1727f-151">Serbest bırakılan ürünleri ve ürün çeşitlerini seçmek ve güncelleştirmek için aşağıdaki ölçütü kullanın:</span><span class="sxs-lookup"><span data-stu-id="1727f-151">Use the following criteria to select and update the released products and product variants:</span></span> 
 
 -    <span data-ttu-id="1727f-152">Ürün veya ürün çeşidinin ürün yaşam döngüsü durumu istenen yeni durumdan farklı olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="1727f-152">The product lifecycle state of the product or product variant must be different from the new desired state.</span></span> 

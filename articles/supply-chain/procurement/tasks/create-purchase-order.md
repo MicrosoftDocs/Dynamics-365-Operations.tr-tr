@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 27ed15e6d9a376c4203e5446d056f221bd3eb730
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 165f29ceaabe4d09785e5f1edfe57db525264c15
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-purchase-order"></a><span data-ttu-id="de931-103">Satınalma siparişi oluşturma</span><span class="sxs-lookup"><span data-stu-id="de931-103">Create a purchase order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="de931-104">Bu yordam, size bir satınalma siparişinin el ile nasıl oluşturulacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="de931-104">This procedure shows you how to create a purchase order manually.</span></span> <span data-ttu-id="de931-105">Satınalma siparişlerinin master planlama, doğrudan teslimat ve diğer işlemler sonucunda otomatik olarak oluşturulması daha normaldir.</span><span class="sxs-lookup"><span data-stu-id="de931-105">It’s more typical for purchase orders to be created automatically as result of master planning, direct delivery, and other processes.</span></span> <span data-ttu-id="de931-106">Satınalma siparişleri genellikle bir satınalma aracısı tarafından oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="de931-106">Purchase orders are typically created by a purchasing agent.</span></span> <span data-ttu-id="de931-107">Buradaki örnek, çeşitli adımlardaki tavsiye edilen notlardaki değerleri kullanarak USMF demo verisi şirketinde kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="de931-107">The example shown here can be used in the USMF demo data company using the values that are suggested in the notes for various steps.</span></span>
 

@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 83d9b76334c887a92c357eceeffd36e9a1e65b7f
-ms.openlocfilehash: 86b8e5755f5b2591c04ad6f2335d2ed874102a75
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d1025619d799cb94af73571f8ca78eca578782f4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/22/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="monitor-forecast-accuracy"></a><span data-ttu-id="9a44c-103">Tahmin doğruluğunu izleme</span><span class="sxs-lookup"><span data-stu-id="9a44c-103">Monitor forecast accuracy</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="9a44c-104">Bu makalede, Microsoft Dynamics 365 for Finance and Operations'ın hesapladığı tahmin doğruluğu türleri anlatılmakta ve doğruluk değerlerini nasıl görüntüleyebileceğiniz açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="9a44c-104">This article describes the types of forecast accuracy that Microsoft Dynamics 365 for Finance and Operations calculates, and explains how you can view the accuracy values.</span></span>
 

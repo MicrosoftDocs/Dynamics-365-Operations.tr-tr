@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 92a981cbf9803e8adce1efc26a3fcfcb998540da
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: df8c74697251fa762520d62f7d87d82179390f80
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a><span data-ttu-id="bd96c-104">Birden fazla iskonto dönemine yayılan birden fazla faturayı kapatmak için bir müşteri ödemesi kullanma</span><span class="sxs-lookup"><span data-stu-id="bd96c-104">Use a customer payment to settle multiple invoices that span multiple discount periods</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="bd96c-105">Bu konuda, her bir fatura nakit indirimine uygunsa birden fazla faturanın nasıl ödeneceği gösterilmektedir.</span><span class="sxs-lookup"><span data-stu-id="bd96c-105">This topic shows how multiple invoices are paid when each invoice qualifies for a cash discount.</span></span> <span data-ttu-id="bd96c-106">Bu makaledeki senaryolar, alınan nakit indirimlerinin ödemenin ne zaman yapıldığına bağlı olarak nasıl değiştiğini açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="bd96c-106">The scenarios in his article highlight how the cash discounts that are taken vary, depending on when the payment is made.</span></span>
 

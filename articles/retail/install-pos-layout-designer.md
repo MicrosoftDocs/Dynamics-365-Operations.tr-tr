@@ -20,17 +20,16 @@ ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 9c7830941ea5fcb270b83807cf718421c02d5776
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cbd4680219969af0ce4e0f0d65dee50a0de0088e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="install-the-retail-pos-layout-designer"></a><span data-ttu-id="a9513-103">Perakende POS düzeni tasarımcısını yükleme</span><span class="sxs-lookup"><span data-stu-id="a9513-103">Install the Retail POS Layout designer</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="a9513-104">Tek işlemli tasarımcıyı mağazalar, kayıtlar, kasiyerler ve yöneticiler için Yatay modda veya Dikey Modda farklı Perakende Modern POS (MPOS) ve Bulut POS düzenleri tasarlamak için kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a9513-104">You can use the one-click designer to design different Retail Modern POS (MPOS) and Cloud POS layouts, in either Landscape mode or Portrait mode, for stores, registers, cashiers, and managers.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3e07fa270b47be3527c572dc53ca30a7bcde5ba6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 50435f858524013c3b0e67939bd29ab18b4272b0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-lean-schedule-groups"></a><span data-ttu-id="365e0-103">Yalın planlama gruplarını tanımlama</span><span class="sxs-lookup"><span data-stu-id="365e0-103">Define lean schedule groups</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="365e0-104">Yalın planlama grupları, ürünleri kanban planlamada gruplamak ve ayırt etmek için tanımlanır.</span><span class="sxs-lookup"><span data-stu-id="365e0-104">Lean schedule groups are defined to group and distinguish products in kanban scheduling.</span></span> <span data-ttu-id="365e0-105">Gruplandırma, şirket başına genel bir ilişkilendirmeyle veya belirli bir iş hücresine özgü olarak yapılabilir.</span><span class="sxs-lookup"><span data-stu-id="365e0-105">The grouping can be done as generic association per company or specific to a work cell.</span></span> <span data-ttu-id="365e0-106">Kanban planlama liste sayfasında görsel bir gösterge olması amacıyla her grup için atanmış bir renk kodu vardır.</span><span class="sxs-lookup"><span data-stu-id="365e0-106">Each group has a color code assigned for visual indication in the kanban scheduling list page.</span></span> <span data-ttu-id="365e0-107">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="365e0-107">The demo data company used to create this procedure is USMF.</span></span>
 

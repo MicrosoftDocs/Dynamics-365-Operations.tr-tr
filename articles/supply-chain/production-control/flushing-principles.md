@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: f5fc4db479852ffac5f2b3401a0c1bd92c35a7cb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 818d7d21605ada63a29a41d3bf20ed9cbf21a178
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a><span data-ttu-id="85986-103">Temizlik ilkeleri kullanarak hammadde tüketimini kontrol etme</span><span class="sxs-lookup"><span data-stu-id="85986-103">Controlling raw material consumption by using flushing principles</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="85986-104">Otomatik tüketim ilkeleri, üretim işlemlerinde kullanılan hammaddeler için farklı tüketim stratejilerini yansıtır.</span><span class="sxs-lookup"><span data-stu-id="85986-104">The flushing principles reflect different consumption strategies for raw materials that are used in production processes.</span></span> <span data-ttu-id="85986-105">Tüketim, malzemeyi eldeki stoktan azaltan ve tüketilen maddelerin değerini üretim emirleri ve toplu iş siparişleri için **Süren iş**'e (WIP) ayarlayan işlemdir.</span><span class="sxs-lookup"><span data-stu-id="85986-105">Consumption is the process that deducts material from the on-hand inventory and sets the value of the consumed materials to **Work in progress** (WIP) for production orders and batch orders.</span></span> <span data-ttu-id="85986-106">Hammaddeler genellikle, maddeyi tüketen işlem için yapılandırılan konumda tüketilir.</span><span class="sxs-lookup"><span data-stu-id="85986-106">Raw materials are usually consumed from a location that is configured for the process that consumes the material.</span></span> <span data-ttu-id="85986-107">Bu konum üretim giriş konumu olarak bilinir.</span><span class="sxs-lookup"><span data-stu-id="85986-107">This location is known as the production input location.</span></span>
 

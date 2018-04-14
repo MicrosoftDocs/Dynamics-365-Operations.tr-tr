@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b35b8ea652ccb06c45b8091cc7f57e849e1a5915
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 931c12278853d87e6fddbb166b56c6079d40b142
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="150-percent-reducing-balance-depreciation"></a><span data-ttu-id="7e859-103">Yüzde 150 azalan bakiyeli amortisman</span><span class="sxs-lookup"><span data-stu-id="7e859-103">150 percent reducing balance depreciation</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="7e859-104">Bu makale, amortismanın Yüzde 150 Azalan bakiye yöntemi hakkında genel bir bakış sağlar.</span><span class="sxs-lookup"><span data-stu-id="7e859-104">This article gives an overview of the 150 percent reducing balance method of depreciation.</span></span>
 
@@ -68,6 +67,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="7e859-135">**Mali dönem**, mali yıl için hesaplanan toplam amortisman tutarını nakleder.</span><span class="sxs-lookup"><span data-stu-id="7e859-135">**Fiscal period** posts the total amount of the depreciation that is calculated for the fiscal year.</span></span> <span data-ttu-id="7e859-136">Bu tutar, **Mali Takvimler** sayfası üzerinde tanımlanan mali dönemlere tahakkuk edilir.</span><span class="sxs-lookup"><span data-stu-id="7e859-136">This amount is accrued into the fiscal periods that are defined on the **Fiscal calendars** page.</span></span>
 
 ## <a name="example-of-150-reducing-balance-depreciation"></a><span data-ttu-id="7e859-137">%150 azalan bakiyeli amortisman örneği</span><span class="sxs-lookup"><span data-stu-id="7e859-137">Example of 150% reducing balance depreciation</span></span>
+
 |                                |        |
 |--------------------------------|--------|
 | <span data-ttu-id="7e859-138">Alım maliyeti</span><span class="sxs-lookup"><span data-stu-id="7e859-138">Acquisition cost</span></span>               | <span data-ttu-id="7e859-139">11.000</span><span class="sxs-lookup"><span data-stu-id="7e859-139">11,000</span></span> |

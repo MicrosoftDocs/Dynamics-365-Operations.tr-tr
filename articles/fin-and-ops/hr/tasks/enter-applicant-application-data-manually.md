@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6aef83b18ba5f18506921e08f3674b6bb272d3ab
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0da2c4e308ef377b7657f0905fec56e47f27b99
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-applicant-and-application-data-manually"></a><span data-ttu-id="04935-103">Başvuran ve başvuru verilerini el ile girme</span><span class="sxs-lookup"><span data-stu-id="04935-103">Enter applicant and application data manually</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="04935-104">Bu yordam başvuranlar ve başvuruları hakkındaki bilgileri el ile girmeyi gösterir.</span><span class="sxs-lookup"><span data-stu-id="04935-104">This procedure shows how to manually maintain information about applicants and their application.</span></span>   <span data-ttu-id="04935-105">Başvuranlar için kişisel bilgileri, görüşme tarihi ve saatlerin, referansları, yetkinlikleri ve konaklama taleplerini girebilir ve muhafaza edebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="04935-105">You can enter and maintain personal information, interview dates and times, references, competencies, and accommodation requests for applicants.</span></span> <span data-ttu-id="04935-106">Ayrıca başvuranların iş başvurularının durumunu güncelleştirebilir ve başvuranlar ile iletişim kurmak için mektup veya e-posta iletileri oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="04935-106">You can also update the status of applicants’ applications for employment and create letters or email messages to communicate with applicants.</span></span> <span data-ttu-id="04935-107">Bir başvuran kaydı oluşturduğunuzda, Genel Adres Defteri'nde o başvuran kişi için kayıt oluşturulur.</span><span class="sxs-lookup"><span data-stu-id="04935-107">When you create an applicant record, a person record for that applicant is created in the global address book.</span></span>       <span data-ttu-id="04935-108">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="04935-108">The demo data company used to create this procedure is USMF.</span></span>
 

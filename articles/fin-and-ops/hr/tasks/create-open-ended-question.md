@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: f1a631a6db20d86551e58a624217de433c47904a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 317f361cbd7d63a1017cfa085afee80a5c67e0eb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-an-open-ended-question"></a><span data-ttu-id="54922-103">Açık uçlu soru oluşturma</span><span class="sxs-lookup"><span data-stu-id="54922-103">Create an open-ended question</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="54922-104">Açık uçlu sorular, katılımcıların kendi yanıtlarını sağlamalarına olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="54922-104">Open-ended questions enable respondents to provide their own response.</span></span> <span data-ttu-id="54922-105">Bu yanıtı sayı, ondalık, tarih, açıklama ve benzeri olup olmadığını yönetebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="54922-105">You can control whether that response is a number, decimal, date, comment and so on.</span></span> <span data-ttu-id="54922-106">Bu yordam, özel türde, açık uçlu bir soru oluşturma sürecini adım adım gösterecektir.</span><span class="sxs-lookup"><span data-stu-id="54922-106">This procedure walks through the process of creating a specific type of question, an open-ended question.</span></span> <span data-ttu-id="54922-107">Bu yordamı başlatmak için, Soru formu > Tasarım > Sorular seçeneğine gidin.</span><span class="sxs-lookup"><span data-stu-id="54922-107">To begin this procedure, go to Questionnaire > Design > Questions.</span></span> <span data-ttu-id="54922-108">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="54922-108">The demo data company used to create this procedure is USMF.</span></span>
 

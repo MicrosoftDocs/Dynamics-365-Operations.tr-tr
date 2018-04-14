@@ -19,16 +19,16 @@ ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a3b06832112779a4b0826a51b696a1ced10711ec
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1a02c435814e446c6ee5a25ed75e1359455b8f6f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-orders-mobile-workspace"></a><span data-ttu-id="0fc49-104">Satış siparişleri mobil çalışma alanı</span><span class="sxs-lookup"><span data-stu-id="0fc49-104">Sales orders mobile workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="0fc49-105">Bu konu, **Satış siparişleri** mobil çalışma alanı hakkında bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="0fc49-105">This topic provides information about the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="0fc49-106">Bu çalışma alanı, satış siparişleri konusunda her zaman ve her yerde güncel kalmanıza yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="0fc49-106">This workspace helps you stay up to date about your sales orders anywhere and anytime.</span></span> 
 

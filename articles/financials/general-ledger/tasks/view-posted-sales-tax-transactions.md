@@ -16,15 +16,15 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3a6aa136018e586fd66e77c0f2af3a9f321f822f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1ba52113ce83b0c153bb021032b5b4e46e00c7bd
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="view-posted-sales-tax-transactions"></a><span data-ttu-id="47822-103">Deftere nakledilen satış vergisi hareketlerini görüntüle</span><span class="sxs-lookup"><span data-stu-id="47822-103">View posted sales tax transactions</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="47822-104">Görüntüleme gereksinimlerinize bağlı olarak, farklı sayfalardaki nakledilmiş satış vergisi hareketlerini de görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="47822-104">You can view posted sales tax transactions from various page depending on what you need to view.</span></span> <span data-ttu-id="47822-105">Bu görevde USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="47822-105">This task uses the USMF demo company.</span></span>
 

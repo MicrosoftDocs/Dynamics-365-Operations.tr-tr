@@ -19,17 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 27fbc54afca384b804f2b0468206242ff89d4031
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a86709bc222339531a21997510a65c138024256c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-training-courses"></a><span data-ttu-id="9a4b2-103">Eğitim kursları ayarlama</span><span class="sxs-lookup"><span data-stu-id="9a4b2-103">Set up training courses</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="9a4b2-104">İnsan Kaynakları yöneticileri ve yöneticileri, kursları özelliğini kullanarak işçilere sunulan eğitim hakkındaki bilgileri tutabilirler.</span><span class="sxs-lookup"><span data-stu-id="9a4b2-104">Human resources administrators and managers can use the courses features to maintain information about the training that's offered to workers.</span></span>
 
@@ -81,15 +80,15 @@ ms.lasthandoff: 02/23/2018
 
 ## <a name="course-tasks"></a><span data-ttu-id="9a4b2-134"> Kurs görevleri</span><span class="sxs-lookup"><span data-stu-id="9a4b2-134">Course tasks</span></span>
 <span data-ttu-id="9a4b2-135">Her kurs için aşağıdaki görevleri yerine getirebilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="9a4b2-135">For each course, you can complete the following tasks.</span></span>
--   <span data-ttu-id="9a4b2-136">Katılımcı kaydetme</span><span class="sxs-lookup"><span data-stu-id="9a4b2-136">Register participants</span></span>
--   <span data-ttu-id="9a4b2-137">Kayıt için süre sonu belirleme</span><span class="sxs-lookup"><span data-stu-id="9a4b2-137">Specify a registration deadline</span></span>
--   <span data-ttu-id="9a4b2-138">Katılımcılar için en az ve en fazla sayı belirleme</span><span class="sxs-lookup"><span data-stu-id="9a4b2-138">Define the minimum and maximum number of participants</span></span>
--   <span data-ttu-id="9a4b2-139">Bir kurs yeri ve sınıfı atama</span><span class="sxs-lookup"><span data-stu-id="9a4b2-139">Assign a course location and classroom</span></span>
--   <span data-ttu-id="9a4b2-140">Kurs katılımcılarına otel önerme</span><span class="sxs-lookup"><span data-stu-id="9a4b2-140">Recommend hotels to course participants</span></span>
--   <span data-ttu-id="9a4b2-141">Çalışan self servis portalında daha sonra ilan edebileceğiniz bir kurs açıklaması oluşturma</span><span class="sxs-lookup"><span data-stu-id="9a4b2-141">Create a course description, which you can then advertise on Employee self service</span></span>
+- <span data-ttu-id="9a4b2-136">Katılımcı kaydetme</span><span class="sxs-lookup"><span data-stu-id="9a4b2-136">Register participants</span></span>
+- <span data-ttu-id="9a4b2-137">Kayıt için süre sonu belirleme</span><span class="sxs-lookup"><span data-stu-id="9a4b2-137">Specify a registration deadline</span></span>
+- <span data-ttu-id="9a4b2-138">Katılımcılar için en az ve en fazla sayı belirleme</span><span class="sxs-lookup"><span data-stu-id="9a4b2-138">Define the minimum and maximum number of participants</span></span>
+- <span data-ttu-id="9a4b2-139">Bir kurs yeri ve sınıfı atama</span><span class="sxs-lookup"><span data-stu-id="9a4b2-139">Assign a course location and classroom</span></span>
+- <span data-ttu-id="9a4b2-140">Kurs katılımcılarına otel önerme</span><span class="sxs-lookup"><span data-stu-id="9a4b2-140">Recommend hotels to course participants</span></span>
+- <span data-ttu-id="9a4b2-141">Çalışan self servis portalında daha sonra ilan edebileceğiniz bir kurs açıklaması oluşturma</span><span class="sxs-lookup"><span data-stu-id="9a4b2-141">Create a course description, which you can then advertise on Employee self service</span></span>
 
   ><span data-ttu-id="9a4b2-142">**Not** Kursu sadece kimse kayıt olmadıysa silebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="9a4b2-142">**Note** You can delete a course only if no one has registered for it.</span></span> 
-    
+
 ## <a name="course-statuses"></a><span data-ttu-id="9a4b2-143">Kurs durumları</span><span class="sxs-lookup"><span data-stu-id="9a4b2-143">Course statuses</span></span>
 <span data-ttu-id="9a4b2-144">Aşağıdaki tabloda olası kurs durumları ve kursun belirli bir durumu varsa tamamlayabilmeniz için eylemler listelenir.</span><span class="sxs-lookup"><span data-stu-id="9a4b2-144">The following table lists the possible course statuses and the actions that you can complete when the course has a specific status.</span></span>
 

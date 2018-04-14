@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 5de1f5b40af076173dd0b38c6f6110f83c04528a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1aa6c869b5bd109b2da1a33d659854a79b73894c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-reporting"></a><span data-ttu-id="943a0-104">Mali raporlama</span><span class="sxs-lookup"><span data-stu-id="943a0-104">Financial reporting</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="943a0-105">Bu konu, Microsoft Dynamics 365 for Finance and Operations içerisinden mali raporlara nereden erişileceğini ve finansal raporlama yeteneklerinin nasıl kullanılacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="943a0-105">This topic describes where to access financial reporting in Microsoft Dynamics 365 for Finance and Operations and how to use the financial reporting capabilities.</span></span> <span data-ttu-id="943a0-106">Sağlanan varsayılan mali raporların bir açıklamasını da içerir.</span><span class="sxs-lookup"><span data-stu-id="943a0-106">It includes a description of the default financial reports that are provided.</span></span>
 

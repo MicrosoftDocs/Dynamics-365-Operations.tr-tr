@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d6ee4ea9c8af06c493d906887f5ed6f7874e703e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4c6be66eef6434f9ecca82903cc1e16b4bc290fe
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="consolidated-batch-orders"></a><span data-ttu-id="ce8dd-103">Konsolide toplu iş emirleri</span><span class="sxs-lookup"><span data-stu-id="ce8dd-103">Consolidated batch orders</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ce8dd-104">Bu makale konsolide edilen toplu siparişler kavramını açıklar.</span><span class="sxs-lookup"><span data-stu-id="ce8dd-104">This article describes the concept of consolidated batch orders.</span></span>
 

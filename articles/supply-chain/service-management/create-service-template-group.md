@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4ea10e4c0fbfd21538bba16d2b01deb3e4b3a10d
-ms.openlocfilehash: 93d768577afe14ac49f57e3c207e79bbe3f080fd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4c2d04f6b9cb8ea4eab4eea246f5f753bb24388b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/20/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-a-service-template-group"></a><span data-ttu-id="154e6-103">Servis şablonu grubu oluşturma</span><span class="sxs-lookup"><span data-stu-id="154e6-103">Create a service template group</span></span>  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="154e6-104">Servis şablonlarını sıralamak ve bunlara filtre uygulamak için servis şablonu gruplarını kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="154e6-104">You can use service template groups to sort and filter service templates.</span></span>
 

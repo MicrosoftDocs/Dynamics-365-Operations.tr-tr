@@ -20,16 +20,16 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: b1513e5a7cb3a19fd3743a5aac8efd211aa02ce8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 25115084af1366770741063a9f839bc0ddd9147d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-management-home-page"></a><span data-ttu-id="1e497-103">Maliyet yönetimi giriş sayfası</span><span class="sxs-lookup"><span data-stu-id="1e497-103">Cost management home page</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="1e497-104">[Maliyet yönetimi (video)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) hammaddelerin, yarı mamul malların, mamul malların ve süren iş kıymetlerinin değerlemesi ve muhasebesi üzerinde çalışmanızı sağlar.</span><span class="sxs-lookup"><span data-stu-id="1e497-104">[Cost management (video)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) lets you work with the valuation and accounting of raw materials, semi-finished goods, finished goods, and work-in-progress assets.</span></span> <span data-ttu-id="1e497-105">Bu, [Stok muhasebesi](cost-object.md) ve [Üretim muhasebesini](bom-calculations.md) tanımlama, yönetme ve raporlama işlemidir.</span><span class="sxs-lookup"><span data-stu-id="1e497-105">It is the process of defining, managing, and reporting [Inventory accounting](cost-object.md) and [Manufacturing accounting](bom-calculations.md).</span></span>
 

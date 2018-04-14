@@ -20,17 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 2a0055086c29a2ce1ddf14a008bf7ce8b82d011f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d9df8682769254f44cc23675fe2237080b447925
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="call-center-catalogs"></a><span data-ttu-id="201a1-103">Çağrı merkezi katalogları</span><span class="sxs-lookup"><span data-stu-id="201a1-103">Call center catalogs</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="201a1-104">Bu makalede Microsoft Dynamics 365 for Retail'da kataloglar için çağrı merkezine özel işlevler açıklanır.</span><span class="sxs-lookup"><span data-stu-id="201a1-104">This article describes the call center–specific functionality for catalogs in Microsoft Dynamics 365 for Retail.</span></span>
 

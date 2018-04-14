@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b3e70a6ad074911438ef45b6aac2523a4a9fccf8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bf26d93272a4759d997eabe30c285fb9f3ead032
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="material-substitution-in-manufacturing"></a><span data-ttu-id="cb810-103">Üretimde malzeme değiştirme</span><span class="sxs-lookup"><span data-stu-id="cb810-103">Material substitution in manufacturing</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="cb810-104">Bu konuda, üretim süreci sırasında malzemelerin nasıl değiştirileceği açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="cb810-104">This topic describes how to substitute materials during the production process.</span></span> 
 

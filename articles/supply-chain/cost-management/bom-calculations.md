@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 9a5fff747e0725b39ecd8d54b69f2fd03524f37e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 43979414ee049dab05042b9949ae5316e626f9d5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="bom-calculations"></a><span data-ttu-id="521ff-104">BOM hesaplamaları</span><span class="sxs-lookup"><span data-stu-id="521ff-104">BOM calculations</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="521ff-105">Maliyet toplaması ve satış fiyatı hesaplamaları, ürün reçetesi (BOM) hesaplamaları olarak bilinir ve onları Hesaplamalar sayfasından başlatırsınız.</span><span class="sxs-lookup"><span data-stu-id="521ff-105">The cost roll-up and sales price calculations are known as bill of materials (BOM) calculations, and you initiate them from the Calculations page.</span></span> <span data-ttu-id="521ff-106">Bu konu, BOM hesaplamaları hakkında bilgiler sağlar.</span><span class="sxs-lookup"><span data-stu-id="521ff-106">This topic provides information about BOM calculations.</span></span>
 

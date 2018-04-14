@@ -19,17 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1d768ee6d2244a237972f7183f27a60b93eea819
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ddfc7093ae2fb246f66486787e225f5b4c34ba1b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budgeting-overview"></a><span data-ttu-id="03964-104">Bütçelemeye genel bakış </span><span class="sxs-lookup"><span data-stu-id="03964-104">Budgeting overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="03964-105">Microsoft Dynamics 365 for Finance and Operations içerisinde Finansal işlevleri kullanan hemen her şirket, bütçe - fiili karşılaştırma raporlarını oluşturmak zorunda olacaktır.</span><span class="sxs-lookup"><span data-stu-id="03964-105">Almost every company that uses Financials functionality in Microsoft Dynamics 365 for Finance and Operations will have to be able to create reports of budget vs. actuals.</span></span> <span data-ttu-id="03964-106">Bu makale, Finance and Operations içerisinde bütçeler oluşturmak veya bunları bir üçüncü taraf programdan yüklemek için gereken asgari yapılandırmayı açıklar.</span><span class="sxs-lookup"><span data-stu-id="03964-106">This article explains the minimum configuration that is required in order to create budgets in Finance and Operations or load them from a third-party program.</span></span>
 

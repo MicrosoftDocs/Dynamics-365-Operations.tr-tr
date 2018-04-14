@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dcafcb067717a1d0ca6f45a57628fe001d1074f2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d21a4aa035b55385c8b0ced3bfe91c7aaf064267
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a><span data-ttu-id="ec631-103">Randevu için sürücü girişini ve çıkışını kaydetme</span><span class="sxs-lookup"><span data-stu-id="ec631-103">Register driver check-in and check-out for an appointment</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ec631-104">Bu yordam bir sürücü giriş ve sürücü çıkışının nasıl kaydedileceğini gösterir. Bu, genellikle bir taşıma koordinatörü tarafından yapılır.</span><span class="sxs-lookup"><span data-stu-id="ec631-104">This procedure shows how to register a driver check-in and a driver check-out. This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="ec631-105">Bu yordamı USMF demo veri şirketinde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ec631-105">You can use this procedure in the USMF demo data company.</span></span> <span data-ttu-id="ec631-106">Başlamadan önce bir yük için bir randevu ayarı olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="ec631-106">Before you start, there must be an appointment set up for a load.</span></span> <span data-ttu-id="ec631-107">Randevu oluşturmak için önkoşul olarak "Bir yük için randevu ayarlama" yordamını çalıştırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ec631-107">To create an appointment, you can run the “Set up an appointment for a load” procedure as a prerequisite.</span></span>
 

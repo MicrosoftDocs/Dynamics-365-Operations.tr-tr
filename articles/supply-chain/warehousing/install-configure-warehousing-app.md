@@ -20,20 +20,19 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 608543c9cfd93c4772e93089e1d174312d8b23a6
-ms.openlocfilehash: 411bb28668f5aa9d07774211814da4e9757ac43c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f8ab1d719b6f0a469219b58ed3a919b0c36dcb45
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a><span data-ttu-id="429d5-103">Microsoft Dynamics 365 for Finance and Operations &#8211; Ambarlama yükleme ve yapılandırma</span><span class="sxs-lookup"><span data-stu-id="429d5-103">Install and configure Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
-
+> 
 > <span data-ttu-id="429d5-104">Bu konu bulut dağıtımları için ambarlamanın nasıl yapılandırılacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="429d5-104">This topic describes how to configure warehousing for cloud deployments.</span></span> <span data-ttu-id="429d5-105">Ambarlamanın şirket içi dağıtımlar için nasıl yapılandırılacağını öğrenmek istiyorsanız bkz. [Şirket için dağıtımlar için ambarlama](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).</span><span class="sxs-lookup"><span data-stu-id="429d5-105">If you are looking for how to configure warehousing for on-premises deployments, please see [Warehousing for on-premises deployments](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).</span></span>
 
 

@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 60313da23fdbd5a06b71c7c91a236165f8f189de
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 591c71cccc5ec5f00734bef21dc9551325432020
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-accounts-payable"></a><span data-ttu-id="aaa78-104">Borç hesaplarını yapılandırın</span><span class="sxs-lookup"><span data-stu-id="aaa78-104">Configure Accounts payable</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="aaa78-105">Bu makale, Microsoft Dynamics 365 for Finance and Operations'ta Borç hesapları için temel ve isteğe bağlı işlevleri ayarlamada kullanacağınız sayfaları açıklar.</span><span class="sxs-lookup"><span data-stu-id="aaa78-105">This article describes the pages that you use to set up basic and optional functionality for Accounts payable in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="aaa78-106">Ayrıca, Borç hesaplarını ayarlamaya başlamadan önce tamamlamanız gereken kurulum adımları da açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="aaa78-106">It also describes setup steps that you must complete before you start to set up Accounts payable.</span></span>
 

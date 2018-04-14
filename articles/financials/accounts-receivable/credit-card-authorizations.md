@@ -19,19 +19,18 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4a6354563fdebff901498f1cd6caed3aedae668b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a7ed8352e87a31905fe8a60556d91169f13963f3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="credit-card-setup-authorization-and-capture"></a><span data-ttu-id="4db2a-104">Kredi kartı ayarlama, onaylama ve tutma</span><span class="sxs-lookup"><span data-stu-id="4db2a-104">Credit card setup, authorization, and capture</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="4db2a-105">Bu makale, Microsoft Dynamics 365 for Finance and Operations'ta kredi kartı onayına genel bir bakış sağlar.</span><span class="sxs-lookup"><span data-stu-id="4db2a-105">This article provides an overview of credit card authorization in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="4db2a-106">Nasıl ödeme hizmeti ayarlanacağı, satış emrine kredi kartı ekleneceği ve yetkilendirme iptal edileceğine dair bilgiler içerir.</span><span class="sxs-lookup"><span data-stu-id="4db2a-106">It includes information about how to set up a payment service, add a credit card to a sales order, and void an authorization.</span></span>
 

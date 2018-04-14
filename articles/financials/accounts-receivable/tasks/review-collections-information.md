@@ -16,15 +16,15 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eb0866505702ec5d047b6c8f3f0657aae787bedc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1ed1652a65a73c4b91131f9af7313789ad302b19
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="review-collections-information"></a><span data-ttu-id="39a03-103">Tahsilat bilgilerini gözden geçirme</span><span class="sxs-lookup"><span data-stu-id="39a03-103">Review collections information</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="39a03-104">Bu yordam, tahsilat bilgilerini gözden geçirmenin yanı sıra çeşitli seçenekleri ve tahsilat hareketlerini ayarlamayı adım adım açıklar.</span><span class="sxs-lookup"><span data-stu-id="39a03-104">This procedure walks you through how to review collections information as well as various setup options and collections transactions.</span></span> <span data-ttu-id="39a03-105">Bu yordam, USMF demo şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="39a03-105">This procedure uses the USMF demo company.</span></span>
 

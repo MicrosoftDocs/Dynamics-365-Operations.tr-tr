@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c71d7632cfdafe48eee49c848982dfa85116df75
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec7a5aa8471c39f0cf58a4cf9edca58fee3d1c87
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="generate-a-statistical-baseline-forecast"></a><span data-ttu-id="ab5d0-103">Bir istatistik temel tahmin oluştur</span><span class="sxs-lookup"><span data-stu-id="ab5d0-103">Generate a statistical baseline forecast</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ab5d0-104">Bu makalede, talep tahmini hesaplamasında kullanılan parametreler ve filtreler hakkında bilgiler verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="ab5d0-104">This article provides information about the parameters and filters that are used in the calculation of demand forecasting.</span></span> 
 
