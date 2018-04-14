@@ -27,8 +27,7 @@ ms.lasthandoff: 01/12/2018
 
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Sabit kıymet grupları için yenileme maliyetlerini ve sigortalı değerleri yeniden hesaplama
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, sabit kıymetlerin yenileme maliyetlerini ve sigortalanan değerlerini güncelleştirme işlemi açıklanmaktadır.
 

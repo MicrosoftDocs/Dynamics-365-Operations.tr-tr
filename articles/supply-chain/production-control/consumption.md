@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="calculate-material-consumption"></a>Malzeme tüketimini hesapla
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, malzeme tüketiminin hesaplanmasına ilişkin çeşitli seçenekler hakkında bilgiler sağlanmaktadır. 
 

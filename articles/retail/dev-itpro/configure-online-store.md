@@ -27,13 +27,14 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-online-store"></a>Bir çevrimiçi mağazayı yapılandırma
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, bir çevrimiçi mağazayı merkezi olarak yapılandırma ve yönetme hakkında yardımcı olacak konulara bağlantılar sağlar.
 
 Aşağıdaki tabloda listelenen konular, Retail bileşenlerini ve istemcideki Retail çevrimiçi mağazayı yapılandırmanıza yardımcı olur.
 
 ## <a name="configure-an-online-store"></a>Bir çevrimiçi mağazayı yapılandırma
+
 | Görev                                                | Ayrıntılı                                                                                                                                                                                                                                                                                                                                                   | Konular                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Perakende bileşenlerini yapılandır.                        | Perakende operasyonları için bilgiyi ayarlama ve saklama. Bu bilgiler, mağazalar, vergiler, ürünler, hediye kartları, promosyonlar ve indirimleri içerir.                                                                                                                                                                                                          | [Perakende'yi kurmak ve korumak](https://technet.microsoft.com/en-us/library/hh597201.aspx) (Microsoft Dynamics AX 2012 için TechNet içeriği)                                                                                                                                                                                                                                                                                          |
@@ -43,6 +44,7 @@ Aşağıdaki tabloda listelenen konular, Retail bileşenlerini ve istemcideki Re
 | Öznitelikleri eşle ve meta veri ekle.                   | Her kategori veya kanal ürününün Microsoft SharePoint sitesi çevrimiçi mağazasındaki özniteliklerin nasıl davranacağını belirten seçenekleri işaretleyin.                                                                                                                                                                                              | [Bir çevrimiçi mağaza kurmak](https://technet.microsoft.com/en-us/library/jj682095.aspx) (AX 2012 için TechNet içeriği)                                                                                                                                                                                                                                                                                                     |
 
 ## <a name="configure-online-store-products"></a>Çevrimiçi mağaza ürünlerini yapılandır
+
 | Görev                                 | Ayrıntılı                                                                                                                                           | Konular                                                                                                                                                                                                                                                                            |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Çevrimiçi mağazaya ürün çeşidi ekle. | Bir çevrimiçi mağazada sunduğunuz ürünleri içeren sınıfları ekleyin.                                                                  | [Bir çevrimiçi mağaza kurmak](https://technet.microsoft.com/en-us/library/jj682095.aspx) (AX 2012 için TechNet içeriği)                                                                                                                                              |
@@ -53,11 +55,12 @@ Aşağıdaki tabloda listelenen konular, Retail bileşenlerini ve istemcideki Re
 | Teslimat şekillerini yönet.            | Çevrimiçi mağazanın sunduğu teslimat modlarını yönetin.                                                                                        | [Teslimat modlarını ayarlamak](https://technet.microsoft.com/en-us/library/jj728719.aspx) (AX 2012 için TechNet içeriği)                                                                                                                                            |
 
 ## <a name="set-up-data-exchange-between-microsoft-dynamics-365-for-retail-and-the-online-store"></a>Microsoft Dynamics 365 for Retail ve çevrimiçi mağaza arasındaki veri değişimini ayarlayın
+
 | Görev                                 | Ayrıntılı                                                                                                                               | Konular                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kanal tümleştirme profillerini ayarlayın. | Profiller, Perakende bileşenlerinin birbirleriyle iletişim kurabilmesini sağlar. Veri değişimi ayarlarını yapılandırmadan önce profiller ayarlayın. | [Gerçek zamanlı hizmet profili kurmak](https://technet.microsoft.com/en-us/library/hh580631.aspx) (AX 2012 için TechNet içeriği) [Bir kanal profili kurmak](https://technet.microsoft.com/en-us/library/jj677402.aspx) (AX 2012 için TechNet içeriği) |
 
- 
+
 
 
 

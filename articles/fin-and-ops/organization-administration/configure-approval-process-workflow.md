@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Bir onay işlemini bir iş akışında yapılandır
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Onay işleminin özelliklerini yapılandırmak için aşağıdaki yordamı kullanın.
 
@@ -136,6 +135,7 @@ Onaylayanın belgeyi onay için gönderen kişi olduğu senaryolar için son ona
 
 ## <a name="set-a-time-limit"></a>Zaman limiti ayarlama
 Onay işleminin belirli bir süre içerisinde tamamlanması gerekiyorsa bu adımları izleyin.
+
 | **Not**                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bu adımlarda belirlediğiniz seçenekler her onay adımının **Atama** ve **İlerletme** alanlarında belirlediğiniz seçenekleri geçersiz kılar. |

@@ -29,8 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="safety-stock-fulfillment-for-items"></a>Maddeler için emniyet stoğu karşılama
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Emniyet stoğu, maddenin stokta kalmama riskini azaltmak amacıyla bir madde için stokta tutulan ek miktarı belirtir. Emniyet stoğu, satış siparişlerinin gelmesi ve tedarikçinin ek maddeleri müşteri tarafından talep edilen sevk tarihini karşılayacak şekilde teslim edememesi durumunda tampon stok olarak kullanılır. Emniyet stoğu bir satış siparişini karşılamak için kullanıldığında, emniyet stoğu azalacaktır. Stoğu yeniden emniyet düzeyine otomatik olarak getirmek için Master planlamayı kullanabilirsiniz.    
 

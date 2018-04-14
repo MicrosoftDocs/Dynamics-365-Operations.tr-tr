@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="factor-depreciation"></a>Faktör amortisman
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, faktör amortisman yöntemi hakkında genel bir bakış sağlar.
 

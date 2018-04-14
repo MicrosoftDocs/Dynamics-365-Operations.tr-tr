@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-invoices-overview"></a>Satıcı faturalarına genel bakış
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, satıcı faturaları hakkında genel bilgiler verilmektedir. Satıcı faturaları, alınan ürün ve hizmetler için ödeme talepleridir. Satıcı faturaları, devam eden hizmetler için bir faturayı temsil edebileceği gibi, belirli madde ve hizmetler için satınalma siparişlerine de dayanabilir. 
 
@@ -87,11 +86,11 @@ Daha fazla bilgi için bkz.:
  - [Satıcı fatura ilkelerini ayarlama](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
  - [Satıcı faturası kullanarak fatura verilerini borç hesaplarına girme](tasks/key-invoice-data-ap-system-vendor-invoice.md)
- 
+
  - [Onay günlüğü kullanarak fatura verilerini borç hesaplarına girme](tasks/key-invoice-data-into-ap-system-approval-journal.md)
-  
+
  - [Fatura havuzu kullanarak fatura verilerini AP sistemine girme](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
- 
+
  - [Fatura günlüğüne satıcı faturası kaydetme](tasks/record-vendor-invoice-invoice-journal.md)
 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a> Çağrı merkezi kanalı ve kanal özniteliklerini tanımlama
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam yeni bir perakende kanalı oluşturma ve kanal özniteliklerini tanımlamayla ilgilidir. Bu görevi oluşturmak için kullanılan demo verisi şirketi USRT'dir. Bu yordam Perakende BT rolü için hazırlanmıştır.
 

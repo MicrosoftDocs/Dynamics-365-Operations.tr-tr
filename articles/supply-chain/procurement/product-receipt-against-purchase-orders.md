@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="product-receipt-against-purchase-orders"></a>Ürün girişine karşılık satınalma siparişleri
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Bu makalede ürünleri teslim alınmış olarak kaydetmeye yönelik çeşitli seçenekler açıklanmıştır.
 

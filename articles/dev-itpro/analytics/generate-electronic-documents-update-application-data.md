@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="generate-electronic-documents-and-update-application-data-using-the-electronic-reporting-tool"></a>Elektronik raporlama aracını kullanarak elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Giden elektronik belgeler oluşturmak için Finance and Operations uygulamasında kullanılabilen Elektronik raporlama (ER) biçimlerini tasarlayabilirsiniz. Ayrıca gelen elektronik belgeleri ayrıştıran ER biçimleri tasarlayabilir ve bu belgelerdeki içerikleri uygulama verisini güncelleştirmek için kullanabilirsiniz. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="create-a-free-text-invoice"></a>Serbest metin faturası oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev kılavuzu, serbest metin faturası oluşturmayı gösterir. Bu görevde USMF demo şirketi kullanılmaktadır.
 

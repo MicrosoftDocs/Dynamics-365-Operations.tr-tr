@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a>Malzemeler iş hücresi için kullanılabilir olduğunda bir süreç kanban işi hazırlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev, tüm malzemeler iş hücresi için kullanılabilir olduğunda bir kanban işi hazırlamaya odaklanır. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu görev makine operatörü için hazırlanmıştır.
 

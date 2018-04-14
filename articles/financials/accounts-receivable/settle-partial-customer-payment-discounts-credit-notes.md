@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Alacak dekontlarında iskontolar içeren bir kısmi müşteri ödemesini kapatma
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede orijinal fatura da bir nakit iskontosu içeriyorken bir credit note'a nakit iskontosunun uygulandığı bir senaryo açıklanmıştır. 
 

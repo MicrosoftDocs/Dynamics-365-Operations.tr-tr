@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="financial-dimensions-and-main-accounts-in-a-right-to-left-language"></a>Sağdan sola doğru okunan dilde mali boyutlar ve ana hesaplar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, sağdan sola doğru okunan bir dil kullandığınızda ve finansal boyutlar ve ana hesaplar ayarlamanız gerektiğinde değerlendirmeniz gereken bazı uygulama kararlarını açıklar.
 

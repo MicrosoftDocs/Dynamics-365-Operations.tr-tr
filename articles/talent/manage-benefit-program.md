@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-and-manage-a-benefits-program"></a>Bir kazançlar programı tanımlama ve yönetme
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 İnsan kaynakları bir organizasyonun sunduğu veya çalışanları için yürürlüğe koyduğu kazançları, kesintileri ve çalışanların tazminat planlarını oluşturmak ve bunları yönetmek için kullanılabilecek bir takım araçlar sağlar. Bu konuda kazançların nasıl kurulacağı ve yönetileceği hakkında bilgiler verilmiştir.
 

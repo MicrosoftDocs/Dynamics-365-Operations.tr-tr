@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-feedback"></a>Üretim geribildirimi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, çalışanlara üretim işleri hakkında geribildirim veren üretim geribildirimi konusunda bilgiler sağlanmıştır. Makale, üretim geribildiriminin güncelleştirilebileceği çeşitli yollar hakkında bilgiler içerir.
 

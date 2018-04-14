@@ -29,7 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="task-recorder-and-help-for-pos"></a>POS için görev kaydedici ve Yardım
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu konu, Görev kaydedicinin Retail Modern POS ve Bulut POS içerisinde nasıl kullanılacağını açıklar.
 

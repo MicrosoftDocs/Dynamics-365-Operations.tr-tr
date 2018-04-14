@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-designer-interface"></a>Rapor Tasarımcısı arayüzü
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, Rapor Tasarımcısı'nda nasıl gezineceğiniz ve belirli gereksinimlerinizi karşılamak için çeşitli seçenekleri nasıl kullanacağınız açıklanmaktadır. 
 

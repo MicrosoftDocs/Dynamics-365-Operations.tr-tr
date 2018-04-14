@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="add-a-predecessor-to-a-production-flow-activity"></a>Üretim akışı faaliyetine bir öncel ekleme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Üretim akışı sürümünde, tüm faaliyetlerin sıralı olması gerekir. Bir faaliyet bir veya daha fazla öncele ve ardıla sahip olabilir. 
 

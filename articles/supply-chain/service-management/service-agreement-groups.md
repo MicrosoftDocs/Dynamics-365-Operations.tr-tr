@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-agreement-groups"></a>Servis sözleşmesi grupları 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Servis sözleşmesi grupları, servis sözleşmelerinin sıralanması ve filtrelenmesi açısından yararlıdır. Servis sözleşmelerini şirket büyüklüğü, coğrafi konum veya sektör türü gibi özelliklere göre gruplandırmak için servis sözleşmesi gruplarını kullanın. Ayrıca, servis sözleşmelerini bir müşteriye sunulan servis düzeyine göre gruplandırmak için sözleşme gruplarını kullanabilirsiniz.
 

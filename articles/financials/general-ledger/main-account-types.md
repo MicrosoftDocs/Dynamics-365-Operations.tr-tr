@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="main-account-types"></a>Ana hesap türleri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Ana hesap türleri, ana hesabın hesap planında nasıl kullanılacağını belirler.
 

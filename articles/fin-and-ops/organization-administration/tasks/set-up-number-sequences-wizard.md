@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-number-sequences-by-using-a-wizard"></a>Bir sihirbaz kullanarak satınalma için numara serilerini ayarla
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Numara serileri, ana veri kayıtları ve bunları gerektiren işlem kayıtları için okunabilir ve benzersiz tanımlayıcılarını oluşturmada kullanılır. Tanımlayıcı gerektiren bir ana veri veya hareket kaydı, referans olarak adlandırılır. Bir referans için yeni kayıtlar oluşturmadan önce, bir numara serisi oluşturmalı ve bunu referans ile ilişkilendirmelisiniz. Bu yordam, bir sihirbaz kullanarak aynı anda tüm gerekli numara sıralarının nasıl ayarlanacağını açıklar. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

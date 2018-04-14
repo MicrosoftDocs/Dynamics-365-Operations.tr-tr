@@ -28,8 +28,7 @@ ms.lasthandoff: 01/18/2018
 
 # <a name="customer-payments-for-a-partial-amount"></a>Bir kısmi tutar için müşteri ödemeleri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bazen müşteriler, faturanın toplam miktarından az olan bir ödeme yaparlar. Bu makale, bu durumda yapılabilecek çeşitli seçenekleri açıklamaktadır. Kullanabileceğiniz seçenekler, iş gereksinimlerinize ve yapılandırmanıza bağlıdır.
 

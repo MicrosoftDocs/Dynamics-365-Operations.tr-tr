@@ -28,10 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Konsolidasyon şirketinde para birimi yeniden değerleme
 
-[!include[banner](../includes/banner.md)]
-
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Verileri bir hesap para biriminden öbürüne birleştirdiğinizde, para biriminde değişiklik varsa para birimi yeniden değerlendirmesini hâlâ çalıştırmanız gerekir, böylece hesap bakileri doğru yeniden değerlendirilir. Özgün verileri birleştirdiğinizde, **para birimi çeviri** sekmesini kullanarak ilk birleştirme işlemi sırasında döviz kurları çevirmek için seçin. Yeni bir döviz kuru (örneğin, gelecek ay içinde) girildikten sonra hesap bakiyelerini yeniden değerlemek gerekir. Gerçekleşmemiş Kazançlar veya zararlar sonra buna göre yeni döviz kuru ve tarihe göre güncelleştirilir. Aşağıdaki örnek işlem sırasında oluşturulan hesap girişlerini gösterir.
 
@@ -52,6 +49,7 @@ Verileri bir hesap para biriminden öbürüne birleştirdiğinizde, para birimin
 | 10/11/2015 | 130100 – Alacak Hesapları | ABD Doları      | -500   |
 
 ## <a name="exchange-rates"></a>Döviz kurları
+
 | Kaynak para birimi | Hedef para birimi | Başlangıç tarihi | Döviz kuru |
 |---------------|-------------|------------|---------------|
 | Euro           | ABD Doları         | 10/1/2015  | 200           |

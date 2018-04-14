@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a>Pozisyonun raporlama ilişkilerini değiştirme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, bir personel için raporlama ilişkisinin nasıl değiştirileceğini gösterir. Raporlama ilişkisi, iş akışı içinde belgeleri yönlendirmek için kullanılabilir. Yordam, personelin ayrıca ek hiyerarşilere nasıl atanacağını da gösterir. Örneğin bir personel, proje yöneticisine resmi olmayan bir raporlama ilişkisi olan bir projede takımının bir parçası olabilir. Ek olarak konuma, çeşitli Proje veya Matris senaryoları kapsayacak raporlama ilişkileri tanımlanabilir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

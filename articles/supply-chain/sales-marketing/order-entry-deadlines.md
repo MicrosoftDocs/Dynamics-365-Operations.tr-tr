@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-entry-deadlines"></a>Sipariş son giriş tarihleri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede sipariş giriş son tarihleri hakkında bilgiler verilmiştir. Bir sipariş girişi son tarihi, bir müşteri siparişinin o gün ya da ertesi gün alındığının kabul edilip edilmeyeceğini (ve yerine getirilip getirilmediğini) belirleyen bir kesim tarihidir.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="physical-and-financial-updates"></a>Fiziksel ve mali güncellemeler
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu hangi türdeki hareketlerin miktarları arttırdığı veya azalttığına ilişkin genel bir bakış sağlar. 
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>Sales'deki satış teklifi başlıklarını ve satırlarını doğrudan Finance and Operations'la eşitleme
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, satış teklifi başlıkları ve satırlarını doğrudan Microsoft Dynamics 365 for Sales'den Microsoft Dynamics 365 for Finance and Operations'a eşitlemek için temel görevleri ve şablonları açıklar.
 

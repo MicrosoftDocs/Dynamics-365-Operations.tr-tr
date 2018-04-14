@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Otomatik navlun mutabakatını ayarlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, otomatik navlun mutabakatı için verilerin nasıl ayarlanacağını gösterir. Bu, genellikle ambar yöneticisi tarafından yapılır. Bu yordamı USMF demo veri şirketinde kullanabilirsiniz.
 

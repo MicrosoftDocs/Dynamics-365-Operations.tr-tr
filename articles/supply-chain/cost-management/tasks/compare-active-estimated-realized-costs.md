@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a>Üretim emrindeki etkin, tahmini ve gerçekleşen maliyetleri karşılaştırma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, bir üretim emri için yüksek üretim farkının nedenlerinin nasıl görüntüleneceğini açıklar. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam maliyet denetleyicisi için hazırlanmıştır.
 

@@ -23,14 +23,14 @@ ms.contentlocale: tr-tr
 ms.lasthandoff: 09/29/2017
 
 ---
-# Minimum stok olayı kullanarak kanban kuralı oluşturma
+# <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a>Minimum stok olayı kullanarak kanban kuralı oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, belirli bir ürünün her zaman belirli bir konumda bulunabilir olmasını sağlamak için bir minimum stok olayı kullanan bir kanban kuralı oluşturmak için gereken kuruluma odaklanır. Stok seviyesi 200 adedin altına düştüğünde konuma malzeme transfer etmek için bir kanban kuralı oluşturulur. İlişkilendirme olayının işlenmesini çalıştırarak gerekli kanbanlar oluşturulur. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu görev, yalın bir ortamda yeni veya değiştirilmiş bir ürünün üretimine hazırlanırken kullanılması için işlem mühendisi veya değer akışı yöneticisi için hazırlanmıştır.
 
 
-## Yeni bir kanban kuralı oluştur
+## <a name="create-a-new-kanban-rule"></a>Yeni bir kanban kuralı oluştur
 1. Ürün bilgi yönetimi > Yalın imalat > Kanban kuralları'na gidin.
 2. Yeni'ye tıklayın.
 3. Tür alanından 'Çek' seçimini yapın.
@@ -46,7 +46,7 @@ Bu yordam, belirli bir ürünün her zaman belirli bir konumda bulunabilir olmas
 9. Stok yenileme olayı alanında "Toplu İş" öğesini seçin.
     * Bu, İlişkilendirme olayının işlenmesi sırasında ilgili konumda gereken malzemenin karşılanması için kanbanlar oluşturur.  
 
-## Madde için minimum miktarı ayarlayın
+## <a name="set-the-minimum-quantity-for-the-item"></a>Madde için minimum miktarı ayarlayın
 1. Ürün alanındaki bağlantıyı izlemek için tıklayın.
 2. Madde numarası alanındaki bağlantıyı izlemek için tıklayın.
 3. Ürün resmi bilgi kutusunu genişletin.
@@ -58,7 +58,7 @@ Bu yordam, belirli bir ürünün her zaman belirli bir konumda bulunabilir olmas
     * Ambar'ı 12 olarak ayarlayın.  
 9. Minimumu "200" olarak ayarlayın.
 
-## Toplu olay oluşturma işini çalıştırın
+## <a name="run-the-batch-event-creation-job"></a>Toplu olay oluşturma işini çalıştırın
 1. Üretim kontrolü > Dönemsel görevler > Kanban işi toplu işlemi > İlişkilendirme olayının işlenmesi'ne gidin.
 2. Tamam'a tıklayın.
 3. Ürün bilgi yönetimi > Yalın imalat > Kanban kuralları'na gidin.

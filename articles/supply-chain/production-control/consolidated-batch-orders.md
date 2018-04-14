@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="consolidated-batch-orders"></a>Konsolide toplu iş emirleri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale konsolide edilen toplu siparişler kavramını açıklar.
 

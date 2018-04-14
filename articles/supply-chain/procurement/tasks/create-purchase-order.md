@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order"></a>Satınalma siparişi oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, size bir satınalma siparişinin el ile nasıl oluşturulacağını gösterir. Satınalma siparişlerinin master planlama, doğrudan teslimat ve diğer işlemler sonucunda otomatik olarak oluşturulması daha normaldir. Satınalma siparişleri genellikle bir satınalma aracısı tarafından oluşturulur. Buradaki örnek, çeşitli adımlardaki tavsiye edilen notlardaki değerleri kullanarak USMF demo verisi şirketinde kullanılabilir.
 

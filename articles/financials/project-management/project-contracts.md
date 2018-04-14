@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-contracts"></a>Proje sözleşmeleri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, Microsoft Dynamics 365 for Finance and Operations'ta çeşitli proje türleri ve finansman kaynakları için oluşturabileceğiniz proje sözleşmeleri ile sözleşmeleri nasıl yöneteceğiniz ve proje müşterilerini nasıl faturalandıracağınız örneklerle açıklanmaktadır.
 

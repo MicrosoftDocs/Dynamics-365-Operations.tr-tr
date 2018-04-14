@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-vendor-payment-terms"></a>Satıcı ödeme koşullarını tanımlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Satıcı faturaları için ödeme koşulları ayarlayın. Bu görevde USMF demo şirketi kullanılmaktadır.
 

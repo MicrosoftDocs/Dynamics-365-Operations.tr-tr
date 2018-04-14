@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="moving-average"></a>Hareketli ortalama
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Hareketli ortalama, stok çıkışlarındaki maliyetlerin satın alma maliyeti değiştiğinde değişmediği ortalama ilkesini temel alan kalıcı bir maliyetlendirme yöntemidir. Fark aktifleştirilir ve orantısal bir hesaplamaya dayanır. Kalan tutar gider gösterilir. 
 

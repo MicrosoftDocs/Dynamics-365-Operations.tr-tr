@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-statuses"></a>Stok durumları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, stoğu kategorilendirmek ve izlemek için stok durumlarını nasıl kullanabileceğiniz açıklanmaktadır.
 

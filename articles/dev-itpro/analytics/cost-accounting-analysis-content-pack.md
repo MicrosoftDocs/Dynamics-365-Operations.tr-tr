@@ -27,7 +27,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="cost-accounting-analysis-power-bi-content"></a>Maliyet muhasebesi analizi Power BI içeriği
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Power BI **Maliyet muhasebesi analizinde** nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
@@ -111,18 +111,20 @@ Aşağıdaki tablo önemli toplam ölçümlerin çok sayıda hesaplanmış ölç
 
 Aşağıdaki anahtar boyutlar, daha büyük hassasiyet elde etmek ve daha derin analitik bilgiler edinmek için toplam ölçümleri bölmek amaçlı filtreler olarak kullanılır.
 
-| Varlık                             | Öznitelik örnekleri                                                                                               |
+
+|               Varlık               |                                                Öznitelik örnekleri                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Maliyet muhasebesi defterleri            | Maliyet muhasebesi defteri                                                                                               |
-| Maliyet kontrolü birimleri                 | Maliyet kontrolü birimi adı                                                                                               |
-| Maliyet öğesi boyutları            | Maliyet öğeleri boyutu adı, Maliyeti öğesi boyut üye adı, Maliyet öğesi boyut üye açıklaması          |
-| Maliyet nesnesi boyutları             | Maliyet nesnesi boyutu adı, Maliyeti nesnesi boyutu üye adı, Maliyet nesnesi boyut üye açıklaması              |
-| İstatistiksel boyutlar             | İstatistiksel boyut adı, İstatistiksel boyut üye adı, İstatistiksel boyut üye açıklaması              |
-| Maliyet nesnesi boyut hiyerarşileri  | Maliyet nesnesi boyutu hiyerarşi adı, Maliyet nesnesi boyutu hiyerarşi seviyesi, Maliyet nesnesi boyutu hiyerarşi ağacı    |
+|      Maliyet muhasebesi defterleri       |                                                Maliyet muhasebesi defteri                                                |
+|         Maliyet kontrolü birimleri         |                                                Maliyet kontrolü birimi adı                                                |
+|      Maliyet öğesi boyutları       |     Maliyet öğeleri boyutu adı, Maliyeti öğesi boyut üye adı, Maliyet öğesi boyut üye açıklaması      |
+|       Maliyet nesnesi boyutları       |       Maliyet nesnesi boyutu adı, Maliyeti nesnesi boyutu üye adı, Maliyet nesnesi boyut üye açıklaması        |
+|       İstatistiksel boyutlar       |       İstatistiksel boyut adı, İstatistiksel boyut üye adı, İstatistiksel boyut üye açıklaması        |
+| Maliyet nesnesi boyut hiyerarşileri  |  Maliyet nesnesi boyutu hiyerarşi adı, Maliyet nesnesi boyutu hiyerarşi seviyesi, Maliyet nesnesi boyutu hiyerarşi ağacı   |
 | Maliyet öğesi boyut hiyerarşileri | Maliyet öğesi boyutu hiyerarşi adı, Maliyet öğesi boyutu hiyerarşi seviyesi, Maliyet öğesi boyutu hiyerarşi ağacı |
-| İstatistiksel boyut hiyerarşileri  | İstatistiksel boyut hiyerarşi adı, İstatistiksel boyut hiyerarşi seviyesi, İstatistiksel boyut hiyerarşi ağacı    |
-| Hareket sürümleri               | Sürüm adı                                                                                                         |
-| Mali takvimler                   | Takvim, Takvim açıklaması                                                                                       |
-| Mali yıllar                       | Takvim yılı                                                                                                        |
-| Mali dönemler                     | Takvim yılı dönemi                                                                                                 |
+| İstatistiksel boyut hiyerarşileri  |  İstatistiksel boyut hiyerarşi adı, İstatistiksel boyut hiyerarşi seviyesi, İstatistiksel boyut hiyerarşi ağacı   |
+|        Hareket sürümleri        |                                                     Sürüm adı                                                     |
+|          Mali takvimler          |                                            Takvim, Takvim açıklaması                                            |
+|            Mali yıllar            |                                                    Takvim yılı                                                     |
+|           Mali dönemler           |                                                 Takvim yılı dönemi                                                 |
+
 

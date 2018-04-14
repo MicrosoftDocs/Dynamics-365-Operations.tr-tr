@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-automated-task-in-a-workflow"></a>Bir görev akışında otomatikleştirilmiş görev yapılandır
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, otomatik bir görevin özelliklerini yapılandırmayı açıklar.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-prerequisites-for-management"></a>Yönetim ön koşullarını ayarlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Uygunsuzluk yönetimi işlemlerini etkinleştirmek için bu yordamı kullanın. Uyumsuzluk, açıklayıcı bilgilerin sorunun kaynağını ve tipini içerdiği bir kalite sorunu olan bir yordamı veya maddeyi tanımlar. Bu yordam, USMF demo verisi şirketini kullanır. Bu yordam genellikle kalite yöneticisi tarafından gerçekleştirilir.
 

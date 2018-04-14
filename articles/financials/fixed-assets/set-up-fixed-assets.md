@@ -28,7 +28,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="set-up-fixed-assets"></a>Sabit kıymetleri ayarlama
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, **Sabit kıymetler** modülünün kurulumu hakkında genel bir bakış sunar.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a> Perakende kanalları için mali boyutlar oluşturma ve mağazalardaki boyut değerlerini yapılandırma
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam, boyut değerleriyle bir perakende kanalı mali boyutu oluşturma konusunu ve perakende mağazalarda mali boyut değerleri yapılandırma adımlarını açıklamaktadır. Konu, boyut kümeleri ve hesap yapıları oluşturmak gibi diğer ilgili adımları içermez. Bu yordam USRT demo veri şirketini kullanır.
 

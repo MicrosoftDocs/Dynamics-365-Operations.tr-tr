@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="manage-warehouse-workers"></a>Ambar çalışanlarını yönetme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, Microsoft Dynamics 365 for Finance and Operations'u ambarlarınızdaki çalışanlarca yürütülen işi denetlemeye ve izlemeye yardımcı olacak şekilde nasıl kullanabileceğinizi açıklamaktadır.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-fixed-compensation-plans"></a>Sabit ücret planları oluşturma
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Sabit ücret, çalışanın düzenli brüt maaşını veya ücretlerini ifade eder. Bu konuda, sabit maaş planı oluşturabilmeniz veya çalışanları kaydedebilmeniz için ayarlamanız gereken bileşenler açıklanmaktadır.
 

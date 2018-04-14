@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Bir anketi dağıtın ve tamamlayın.
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu konu, tasarladığınız anketlerin onları tamamlayacak kişi veya kişi grubu için kullanılabilir olması için onları nasıl dağıtacağınızı açıklar. 
 

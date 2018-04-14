@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>İstatistiksel boyut üyeleri ve istatistiksel ölçü sağlayıcısı şablonları
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 İstatistiksel bir boyut ve üyeleri Maliyet muhasebesinde parasal olmayan girişleri kaydetmek ve kontrol etmek için kullanılır. İstatistiksel boyut üyeleri iki amaçla kullanılabilir:
 

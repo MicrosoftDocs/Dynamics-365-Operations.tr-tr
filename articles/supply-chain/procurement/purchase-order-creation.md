@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-purchase-orders"></a>Satınalma siparişleri oluşturma
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Bu makalede bir satınalma siparişini el ile oluşturmak için gereken işlem ve seçenekler tanımlanır.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-batch-job"></a>Toplu iş oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Toplu iş, otomatik işlem için bir Uygulama Nesne Sunucusu (AOS) kurulumuna gönderilmiş görevlerin bir grubudur. Toplu işler işi oluşturan kullanıcının güvenlik kimlik bilgilerini kullanarak çalışır. Toplu bir iş oluşturmak için aşağıdaki yordamı kullanın. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-new-jobs"></a>Yeni işler tanımlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görevde yeni iş oluşturmaya odaklanılmaktadır. El ile giriş ve şablondan kopyalama işlevleri kullanılarak tamamlanır. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu görev, insan kaynakları uzmanlarına yöneliktir.
 

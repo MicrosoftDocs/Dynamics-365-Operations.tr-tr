@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Satış vergisi için genel muhasebe deftere nakil grupları ayarlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Satış vergisi hesaplanır ve Genel muhasebe deftere nakil gruplarında belirtilen ana hesaplara nakledilir. Genel muhasebe deftere nakil grupları, her bir satış vergisi koduna eklenir. Her satış vergisi kodu için ayrı ayrı genel muhasebe deftere nakil grupları ayarlayabilir, bir genel muhasebe deftere nakil grubunu tüm satış vergisi kodları için kullanabilir veya satış vergisi kodlarına birden fazla genel muhasebe deftere nakil grubu atayabilirsiniz. Bu kayıtta DEMF demo şirketi kullanılmaktadır. 
 

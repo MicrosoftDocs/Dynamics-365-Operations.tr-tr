@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-vendors-for-specific-products"></a>Belirli ürünler için satıcıları onaylama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, belirli ürünler için satıcıları onaylamayı gösterir. Bu, bir ürün satınalma siparişine eklendiğinde hangi satıcıların kullanılabileceğini denetlemenize olanak sağlar. Bu yordamı, demo veri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz. Genellikle bu görev bir Satınalma yöneticisi tarafından gerçekleştirilir.
 

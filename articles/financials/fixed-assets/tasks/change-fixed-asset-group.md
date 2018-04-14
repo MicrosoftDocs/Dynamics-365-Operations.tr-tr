@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-a-fixed-asset-group"></a>Sabit kıymet grubunu değiştirme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Sabit kıymetlerin doğru sabit kıymetler grubuna atanması gerekir. Sabit kıymetler grubu şunu yaptığınızda kullanılır:
 

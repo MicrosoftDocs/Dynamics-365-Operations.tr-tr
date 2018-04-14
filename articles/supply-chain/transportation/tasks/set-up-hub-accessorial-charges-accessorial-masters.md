@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a>Hub ilave masraflarını ve ana ilaveleri ayarlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam bir hub için ana ilavenin nasıl oluşturulacağını ve onu hub ilave masrafı olarak kullanmayı gösterir. Bu yordam USMF veri kümesini kullanır. Bu ayar genellikle taşımacılık düzenleyicisi tarafından yapılır.
 

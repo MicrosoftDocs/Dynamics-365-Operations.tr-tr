@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-a-pos-visual-profile"></a> POS görsel profili oluşturma  
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam yeni bir noktası (POS) görsel profili oluşturma konusunda açıklama sağlar. Görsel profil, POS kayıtlarının görünümünü belirleyen temel bilgileri içerir. Birden fazla görsel profiliniz oluşturabilir ve belirli kayıtlarda çalışacak belirli profiller atayabilirsiniz. Bu yordam, USRT demo veri şirketini kullanır.
 

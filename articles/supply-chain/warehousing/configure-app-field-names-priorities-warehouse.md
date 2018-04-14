@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-app-field-names-in-warehousing-app"></a>Ambarlama uygulaması içerisinde alan adlarını yapılandırma
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, Finance and Operations için ambar uygulaması alan adlarını ve önceliklerini tanımlamayı ve yapılandırmayı açıklamaktadır. 
 

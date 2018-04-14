@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="view-financial-reports"></a>Mali raporları görüntüle
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, Microsoft Dynamics 365 for Finance and Operations'ta mali raporların nasıl görüntüleneceğini ve keşfedileceğini açıklar. Görünümlerini ve içerdikleri veriyi değiştirmek için finansal raporlara uygulayabileceğiniz çeşitli seçenekler hakkında bilgiler içerir.
 

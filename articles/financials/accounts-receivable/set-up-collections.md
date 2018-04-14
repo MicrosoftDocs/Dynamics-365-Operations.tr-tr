@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-credit-and-collections"></a>Alacak ve Tahsilatları ayarlamak
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale koleksiyonlar işlevselliği ayarlamayı açıklar.
 
@@ -97,9 +96,9 @@ Bir satış temsilcisi belirtilmezse, müşteri kuruluşun birincil satış tems
 Daha fazla bilgi için aşağıdaki konulara bakın:
 
  - [Tahsilat mektubu sırası oluşturma](tasks/create-collection-letter-sequence.md)
- 
+
  - [Tahsilat mektuplarını işleme](tasks/process-collection-letters.md)
- 
+
  - [Tahsilat bilgilerini gözden geçirme](tasks/review-collections-information.md)
 
 

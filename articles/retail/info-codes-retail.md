@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="info-codes"></a>Bilgi kodları
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu makalede bilgi kodları, bilgi kodu grupları ve bunların nasıl kullanılacağı hakkında genel bir bakış sunulmuştur.
 
@@ -52,7 +51,7 @@ Dynamics 365 for Retail içerisinde bilgi kodları grupları oluşturabilirsiniz
 
 **Örnek 2: Bilgi kodlarını bilgi kodu gruplarına bağlama** Mobil cihaz gibi belirli ürünler satarken her zaman telefon numarası, mobil cihaz ekipmanı tanımlayıcısı (MEID) ve seri numarası gibi bir dizi bilgiyi toplamak isteyebilirsiniz. Ancak, aynı zamanda cep telefonunun yanı sıra bir tablete ilişkin farklı bilgiler de toplamak istersiniz. Telefon numarası, MEID ve seri numarası istemlerini içeren bir bilgi kodu grubu ayarlayabilir ve sonra bilgi kodu grubunu bağımsız bir bilgi koduna bağlayabilirsiniz. Ürüne özgü bilgi kodları tetiklendiğinde her cihaz için birden çok bağlı bilgi kodu grubunu tanımlamanız gerekmeden genel verileri toplayabilmeniz için ardından bilgi kodu grubu tetiklenebilir.
 
- 
+
 
 
 

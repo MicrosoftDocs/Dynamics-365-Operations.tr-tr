@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="establish-customer-payment-fees"></a>Müşteri ödeme masrafları oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Müşteri ödemeleri için ödeme masrafları oluşturun.
 

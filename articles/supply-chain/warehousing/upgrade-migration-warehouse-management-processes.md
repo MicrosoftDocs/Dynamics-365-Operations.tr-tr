@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="migrate-products-and-warehouse-management-from-ax-2012-to-finance-and-operations"></a>Ürün ve ambar yönetimi AX 2012'den Finance and Operations'a geçirme
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu Microsoft Dynamics 365 for Finance and Operations içindeki ürün ve ambar yönetimi taşıma seçeneklerine genel bir bakış sağlar.
 

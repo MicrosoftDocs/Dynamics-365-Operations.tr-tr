@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="on-premises-deployment-home-page"></a>Şirket içi dağıtım ana sayfası
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations'ı (şirket içi) dağıtabilirsiniz. Bir şirket içi dağıtım türünü seçtiğinizde, sistem gereksinimleri, donanım boyutlandırma ve işlev, bir bulut dağıtımından farklılık gösterir. Bu konu, şirket içi dağıtımlara ilişkin çeşitli konulara dair bilgi içeren içeriklere bağlantılar sağlar.
 

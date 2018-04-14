@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="enter-project-timesheets"></a>Proje zaman çizelgelerini girme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yöntem, bir zaman çizelgesini, boş zaman çizelgesi formu kullanarak oluşturmanızı sağlar. Yeni Zaman Çizelgesi, önceki bir zaman çizelgesi bilgilerini veya Sık Kullanılanlarım sayfasındaki proje ve faaliyet atamalarını baz alabilir. Varsayılan olarak, tüm zaman çizelgeleri listesi sayfası, geçerli dönem için tüm zaman çizelgelerini görüntüler. Çizelgelerim sayfasındaki Göster alanındaki aşağı açılan listeyi, çizelgeleri süre ya da proje zaman çizelgesi listesine göre filtrelemek, veya diğer çalışanlar adına oluşturulan zaman çizelgelerini görüntülemek için kullanabilirsiniz. Bu yöntemi oluşturmak için kullanılan demo verisi şirketi USSI'dir. Bu yöntemi başlatmak için: Proje yönetimi ve muhasebe > Zaman çizelgeleri > Çizelgelerim seçeneğine gidin.
 

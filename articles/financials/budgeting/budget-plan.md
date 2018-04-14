@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning"></a>Bütçe planlama
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu laboratuvarın amacı, Bütçe planlama alanındaki Microsoft Dynamics 365 for Finance and Operations işlevi güncelleştirmelerine ilişkin rehber eşlikli bir görünüm sağlamaktır. Bu laboratuvarın amacı, bütçe planlama modülü yapılandırmasının hızlı bir örneğini ve bu yapılandırmayla bütçe planlamanın nasıl tamamlanabileceğini göstermektir.  Bu laboratuvar özellikle aşağıdaki iş süreçlerine veya görevlere odaklanmaktadır: -    - Bütçe planlama için kuruluş hiyerarşisi oluşturma ve kullanıcı güvenliğini yapılandırma   - Bütçe planı senaryoları, bütçe planı sütunları, yerleşimleri ve Excel şablonları tanımlama   - Bütçe planlama süreci oluşturma ve etkinleştirme   - Genel muhasebeden gerçek değerleri alarak bütçe planı belgesi oluşturma   - Bütçe planı belgesi verilerini ayarlamak için tahsisatları kullanma   - Excel'de bütçe planı belgesi verilerini düzenleme 
 

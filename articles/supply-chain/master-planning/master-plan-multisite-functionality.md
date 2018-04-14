@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-planning-and-multisite-functionality"></a>Master planlama ve birden çok tesis işlevi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Master planlama, tesis ve ambar stok boyutlarının ayarlarını dikkate alır. 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="consumption-depreciation"></a>Tüketim esasına göre amortisman
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, amortismanın Tüketim yöntemi hakkında genel bir bakış verilmektedir.
 

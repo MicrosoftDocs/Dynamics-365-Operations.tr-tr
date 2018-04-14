@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Üretim emirlerinden çıkış noktalarına çapraz sevk
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, bir üretim hattından bir harici nakliye sevk noktasından tamamlanmış olarak raporlanan çapraz sevk malzemesinin yönetilme işlemini açıklar.
 
@@ -76,10 +76,10 @@ Bir ürün üretim çıkış konumuna (3) bitmiş olarak raporlanır ve bir fork
 
 ### <a name="cross-docking-policy-name-transfer-order"></a>Çapraz sevk ilke adı: Transfer emri
 
--   Sıra numarası: 10
- -   İş emri türü: Transfer sorunu
--   Çapraz sevk talebi konum gerektirir: Yanlış
--   Çapraz sevk stratejisi: Tarih ve saat
+- Sıra numarası: 10
+  -   İş emri türü: Transfer sorunu
+- Çapraz sevk talebi konum gerektirir: Yanlış
+- Çapraz sevk stratejisi: Tarih ve saat
 
 ### <a name="sequence-number"></a>Numara serisi
 

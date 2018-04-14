@@ -25,7 +25,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="learning-power-bi-content"></a>Öğrenme Power BI içeriği
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, **Öğrenme** Microsoft Power BI içeriğini açıklar.
 

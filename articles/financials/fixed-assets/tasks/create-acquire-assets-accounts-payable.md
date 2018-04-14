@@ -24,7 +24,7 @@ ms.lasthandoff: 10/05/2017
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Borç hesaplarından kıymetler oluşturma ve alma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev kılavuzu size satınalma işlemiyle sabit kıymet oluşturma ve alımını gösterecek. Kılavuzda Muhasebeci, Borç hesabı memurları ve demo USMF şirketi kullanılmaktadır.
 

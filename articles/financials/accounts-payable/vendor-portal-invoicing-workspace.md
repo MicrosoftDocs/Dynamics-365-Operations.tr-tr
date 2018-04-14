@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="vendor-collaboration-invoicing-workspace"></a>Satıcı iş birliği faturalama çalışma alanı
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda, satıcı faturalarını görüntüleme ve satıcı iş birliği faturalama çalışma alanından faturaları gönderme açıklanmaktadır.
 

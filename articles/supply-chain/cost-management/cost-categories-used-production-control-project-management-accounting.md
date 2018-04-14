@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Üretim kontrolde ve Proje yönetimi muhasebesinde kullanılan maliyet kategorileri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bazı üretim iş türleri, proje süresi tahminlerine ve raporlamaya uygulanabilir. Bu makalede, bu tip üretim işi için üretim ve proje amaçlı olarak tanımlamanız gereken maliyet kategorileri hakkında bilgiler sağlanmıştır.
 

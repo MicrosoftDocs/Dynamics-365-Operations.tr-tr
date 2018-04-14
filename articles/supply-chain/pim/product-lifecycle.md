@@ -29,15 +29,14 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="product-lifecycle-state"></a>Ürün yaşam döngüsü durumu 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Ürün yaşam döngüsü durumu, serbest bırakılan bir ürünün veya ürün çeşidinin yaşam döngüsü durumunu belgeler. Ürün yaşam döngüsü durumları genellikle bir ürün yöneticisi veya ürün ana verileri yöneticisi olan bir kullanıcı tarafından tanımlanır. Master planlama gibi belirli iş süreçleri belirli bir yaşam döngüsü durumu tarafından etkilenebilir.   
- 
+
 Serbest bırakılan ürün veya ürün çeşidi, belirli bir ürün veya ürün çeşidi yaşam döngüsü durumunun içinde bulunduğunu belgeleyen bir ürün yaşam döngüsü durumu ile ilişkilendirilebilir. Bir durum adı ve açıklaması atayarak istediğiniz sayıda ürün yaşam döngüsü durumu tanımlayabilirsiniz. Yeni serbest bırakılan ürünler için varsayılan durum olarak bir yaşam döngüsü durumu seçebilirsiniz. Serbest bırakılan ürün çeşitleri, ürün yaşam döngüsü durumlarını oluşturma sırasındaki serbest bırakılan ana üründen alır. Serbest bırakılan bir ana üründe yaşam döngüsü durumunu değiştirirken, aynı orijinal duruma sahip mevcut tüm ürün çeşitlerini güncelleştirmeyi seçebilirsiniz.  
 
 ## <a name="create-a-new-product-lifecycle-state"></a>Yeni ürün yaşam döngüsü durumu oluşturma 
- 
+
 - Yeni bir ürün yaşam döngüsü durumu oluşturmak için **Yeni ürün yaşam döngüsü durumu oluşturma** görev kılavuzu okuyun veya yürütün. 
 
 -  Varsayılan bir ürün yaşam döngüsü durumu oluşturmak için **Varsayılan ürün yaşam döngüsü durumu oluşturma** görev kılavuzu okuyun veya yürütün.   
@@ -73,7 +72,7 @@ Bir ürün yaşam döngüsü durumunu serbest bırakılan ürün veya ürün çe
 
 > [!NOTE]
 > Performansı iyileştirmek amacıyla, tüm eski serbest bırakılan ürünlerin ve ürün çeşitlerinin, özellikle de yeniden kullanılmayan ürün yapılandırma çeşitleriyle çalışılırken, master planlama için devre dışı bırakılmış bir ürün yaşam döngüsü durumuyla ilişkilendirilmesi önerilir.  
- 
+
 ## <a name="default-migration-import-and-export"></a>Varsayılan geçiş, içe aktarma ve dışa aktarma 
 
 Ürün yaşam döngüsü durumları veri varlıkları tarafından desteklenmez ve yaşam döngüsü durumu serbest bırakılan ürün veri varlıkları aracılığıyla değişken bir duruma ayarlanamaz.
@@ -81,18 +80,18 @@ Bir ürün yaşam döngüsü durumunu serbest bırakılan ürün veya ürün çe
 -  Önceki sürümlerden geçiş yapıldığında, tüm ürünlerin ve ürün çeşitlerinin yaşam döngüsü durumu boş olacaktır.  
 -  Serbest bırakılan ürünler bir veri varlığıyla içe aktarılırken, oluşturma sırasındaki varsayılan yaşam döngüsü durumu uygulanır.  
 -  Serbest bırakılan ürün çeşitleri bir veri varlığıyla içe aktarılırken, serbest bırakılan ana ürünün ürün yaşam döngüsü durumu içe aktarılır.   
- 
+
 ## <a name="find-obsolete-products-and-products-variants"></a>Eski ürünleri ve ürün çeşitlerini bulma 
- 
+
 Eski ürünleri ve ürün çeşitlerini bulmak için bir benzerim analizi çalıştırabilir ve daha sonra ürün yaşam döngüsü durumlarını güncelleştirebilirsiniz. Eski ürünleri bulmak için **Eski ürün çeşitlerini bulma ve bir ürün yaşam döngüsü durumu atama** görev kılavuzunu oynatın ve okuyun. Bu görev kılavuzu eski ürünleri veya ürün çeşitlerini nasıl bulabileceğinizi ve bir ürün yaşam döngüsü durumunu eski ürünlerle nasıl ilişkilendirebileceğinizi gösterir. Ayrıca, benzetim sonuçlarının nasıl görüntüleneceğini ve benzetim olmadan güncelleştirme çalıştırıldığında ne kadar ürün ve ürün çeşidinin yeni bir ürün yaşam döngüsü durumuyla ilişkilendirileceğinin nasıl değerlendirileceğini gösterir.  
- 
+
 Analiz benzetim modunda çalıştırıldığında, eski olarak tanımlanan ürünler ve ürün çeşitleri kolay bir şekilde gözden geçirilmelerini sağlayan özel bir formda görüntülenir. Analiz, değişken bir dönem içinde talep edilmemiş olan ve talep durumunda herhangi bir ana veriye ulaşılamayacak ürünleri tanımlamak için hareketleri ve belirli ana verileri arar. Değişken bir dönem içinde yeni serbest bırakılan ürünler bu analizin dışında bırakılabilir. Analiz benzetimi beklenen sonucu döndürdüğünde, kullanıcı analizi çalıştırabilir ve analiz tarafından eski olarak tanımlanan tüm ürünler için yeni bir ürün yaşam döngüsü durumu ayarlayabilir.  
- 
+
 > [!NOTE]
 > Tüm analizlerin ve güncelleştirmelerin aynı tüzel kişilik içinde yapılması gerektiğini unutmayın.  
- 
+
 ## <a name="criteria-to-select-and-update-released-products-or-product-variants"></a>Serbest bırakılan ürünleri veya ürün çeşitlerini seçme ve güncelleştirme ölçütü 
- 
+
 Serbest bırakılan ürünleri ve ürün çeşitlerini seçmek ve güncelleştirmek için aşağıdaki ölçütü kullanın: 
 
 -    Ürün veya ürün çeşidinin ürün yaşam döngüsü durumu istenen yeni durumdan farklı olmalıdır. 

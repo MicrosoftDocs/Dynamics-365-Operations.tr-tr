@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="single-voucher-and-currency-revaluation-upgrade"></a>Tek fiş ve para birimi yeniden değerleme yükseltmesi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bazı kuruluşlar, birden fazla müşteri veya satıcı olan tek bir fiş içeren günlükler girer ve ayrıca Alacak hesapları veya Borç hesapları yabancı para birimi yeniden değerleme işlemini çalıştırır. Bu konuda, bu kuruluşlar Microsoft Dynamics 365 for Operations'ı sürüm 1611'e yükseltirken izlemeleri gereken adımlar açıklanmaktadır.
 

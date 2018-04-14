@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-the-global-address-book"></a>Genel adres defterini yapılandır
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Genel adres defteri için güvenlik ilkeleri ve varsayılan değerleri ayarlamak için bu yordamı kullanın. 
 

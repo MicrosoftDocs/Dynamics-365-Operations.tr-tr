@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bom-line-event-kanban-rule"></a>Ürün reçetesi satırı olayı kanban kuralı oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev, karışık bir yalın ve klasik üretim ortamında üretim BOM hatları için tedarikin garanti edilmesi amacıyla bir olay kanban kuralının oluşturulması için gerekli kurulum üzerine odaklanmaktadır. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu görev, yeni veya değiştirilmiş bir ürünün üretimine hazırlanırken kullanılması için işlem mühendisi veya değer akışı yöneticisi için hazırlanmıştır.
 

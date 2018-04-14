@@ -30,7 +30,7 @@ ms.lasthandoff: 01/17/2018
 
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>Standart maliyetler için maliyetlendirme sürümlerindeki kısıtlamalar
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu standart maliyetler için maliyetlendirme sürümüne uygulanan kısıtlamaları açıklar. 
 

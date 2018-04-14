@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-validate-journals"></a>Günlükler oluşturma ve doğrulama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev kılavuzu günlükler ile günlük satırları oluşturur ve doğrular. Bu kılavuzlar, USMF demo şirketini kullanır.  
 

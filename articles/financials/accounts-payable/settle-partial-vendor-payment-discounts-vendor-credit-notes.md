@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Satıcı alacak dekontlarında iskontolar içeren bir kısmi satıcı ödemesini kapatma
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede bir faturaya karşılık bir alacak dekontunun kapanışın yapıldığı bir senaryoda size eşlik edilmektedir.
 

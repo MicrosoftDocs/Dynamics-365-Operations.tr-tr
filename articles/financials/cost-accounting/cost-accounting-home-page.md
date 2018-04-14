@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-accounting-home-page"></a>Maliyet muhasebesi ana sayfası
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>Öğrenme haritası 
 
@@ -37,6 +37,7 @@ Aşağıdaki öğrenme haritası, Maliyet muhasebesi modülünün çerçevesini 
 [![Maliyet muhasebesi için öğrenme haritası](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>Hızlı bağlantılar
+
 |      |   |
 |------|---|
 |  [Temel varlıkları yapılandırma (e-öğrenme)](https://mbspartner.microsoft.com/Home) (CustomerSource hesabı gerektirir)  |[Boyut oluştur](cost-elements.md)  |

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="use-tracing-for-explosion"></a>Açılım için izlemeyi kullanma
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, bir siparişi açılımının sonucu arkasındaki nedenleri keşfetmek için izlemeyi nasıl kullanabileceğiniz açıklanmaktadır.
 

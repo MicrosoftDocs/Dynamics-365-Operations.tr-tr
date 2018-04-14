@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>Elektronik raporlama yapılandırması yaşam döngüsünü yönetme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 for Finance and Operations çözümü için Elektronik raporlama (ER) yapılandırmalarının yaşam döngüsünün nasıl yönetileceğini açıklar.
 

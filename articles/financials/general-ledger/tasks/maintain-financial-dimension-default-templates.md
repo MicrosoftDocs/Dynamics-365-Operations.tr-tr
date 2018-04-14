@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>Mali boyut varsayılan şablonlarını koru
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordamda, mali boyut varsayılan şablonlarının nasıl ayarlanacağı gösterilir. Şablonlar, tutarları kaynak belgelere hızlı bir şekilde dağıtmak için kullanılabilir.
 

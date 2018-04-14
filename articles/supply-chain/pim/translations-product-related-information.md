@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-related-translations-faq"></a>Ürünle ilgili çeviriler hakkında SSS
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda, ürünler, ürün boyut değerleri ve ürün öznitelikleri için çevirilerin nasıl yönetileceğini açıklanır. 
 
@@ -95,8 +94,7 @@ Müşteri birkaç tane küçük, kırmızı tişört satın almak istiyorsa, Ti�
 <tbody>
 <tr class="odd">
 <td>Müşterinin tercih ettiği dili ayarlamak için aşağıdaki adımları izleyin:
-<ol>  
-<li><strong>Satış ve pazarlama</strong> &gt; <strong>Ortak</strong> &gt; <strong>Müşteriler</strong> &gt; <strong>Tüm</strong> <strong>müşteriler</strong>'e tıklayın.</li>
+<ol><br/><li><strong>Satış ve pazarlama</strong> &gt; <strong>Ortak</strong> &gt; <strong>Müşteriler</strong> &gt; <strong>Tüm</strong> <strong>müşteriler</strong>'e tıklayın.</li>
 <li><strong>Müşteriler</strong> sayfasını açmak için bir müşteriye çift tıklayın. <strong>Genel</strong> sekmesinde <strong>Dil</strong> alanında <strong>dili</strong> seçin.</li>
 </ol></td>
 </tr>

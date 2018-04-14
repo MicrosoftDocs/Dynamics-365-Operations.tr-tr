@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Finance and Operations'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, satış faturası başlıkları ve satırlarını doğrudan Microsoft Dynamics 365 for Finance and Operations'tan Microsoft Dynamics 365 for Sales'a eşitlemek için temel görevleri ve şablonları açıklar.
 

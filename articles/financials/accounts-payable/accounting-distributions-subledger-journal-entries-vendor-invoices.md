@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Satıcı faturaları için hesap dağıtımları ve muavin defteri günlük girdileri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Muhasebe dağılımları, bir tutarın, örneğin giderin, verginin veya masrafların, bir satıcı faturasında nasıl hesaba katılacağını tanımlamak için kullanılır. Satıcı faturası günlüğe kaydedildiğinde hesaba katılması gereken tüm tutarlar, bir veya daha fazla muhasebe dağıtımına sahip olacaktır. 
 
@@ -231,7 +230,7 @@ Satıcı faturası girdiğinizde, her tutar aşağıdaki şekilde dağılır.
 </tbody>
 </table>
 
- 
+
 <a name="distributing-taxes"></a>Vergileri dağıtma
 ------------------
 

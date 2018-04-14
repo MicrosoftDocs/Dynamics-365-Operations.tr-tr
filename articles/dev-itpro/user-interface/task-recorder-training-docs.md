@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="create-documentation-or-training-using-task-recordings"></a>Görev kayıtlarını kullanarak belgeler veya eğitim oluşturma
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda, Görev kaydedici ve görev kılavuzlarının neler olduğu, görev kayıtlarının nasıl oluşturulacağı ve Microsoft görev kılavuzlarının özelleştirilip bunların Yardım bölümünüze nasıl ekleneceği açıklanmaktadır.
 

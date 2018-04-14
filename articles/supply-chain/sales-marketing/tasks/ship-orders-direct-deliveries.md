@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Siparişleri doğrudan teslim olarak sevk etme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, satış siparişi için bir doğrudan teslimat oluşturmayı göstermektedir. Malları ilk önce ambarınız yerine doğrudan satıcınızdan müşteriye sevk etmek istediğinizde doğrudan teslimat seçeneğini kullanırsınız. Bu prosedürü demo veri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz. "Doğrudan teslimatları çalışma alanından oluştur" ikincil alt görevini başarıyla tamamlamak için, satış siparişinde seçtiğiniz ürün için Serbest bırakılan ana ürünlerin Satınalma FastTab'inde belirtilmiş varsayılan bir Satıcı olduğundan emin olun.
 

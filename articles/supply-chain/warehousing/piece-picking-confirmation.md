@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="piece-picking-confirmation"></a>Parça çekme onayı
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Parça çekme, bir mobil cihazda çekme veya sayım işi aracılığıyla stoktaki her parçayı onaylamanıza olanak tanır. Çekme işleri için, işte çekim için belirtilen miktara kadar olan miktarda işi onaylayabilirsiniz. Sayım işi için, saydığınız stoğu tarayabilir ve toplam tutarı izleyebilirsiniz.
 
@@ -46,8 +46,10 @@ Parça çekme tüm sayım işlemleri ve herhangi bir iş türü için ilk çekme
 
 İş türü çekme veya sayım olduğunda aşağıdaki seçenekler seçim için kullanılabilir hale gelir.
 
-| Seçenek        | Açıklama   | 
-| ------------- | ------------- |
-| Parça çekme onayı   | Çekme ve sayım iş türleri için kullanılabilir. Ürün onayı otomatik olarak seçilir. Her stok parçasını mobil cihazınızdan onaylamanıza olanak tanır. | 
-| Maksimum parça sayısı     | Parça çekme onayı etkinleştirilmişse, çekme işi için kullanılabilir. Onaylamak zorunda olduğunuz parça sayısı için bir sınır ayarlar. |  
+
+|           Seçenek           |                                                                            Açıklama                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Parça çekme onayı | Çekme ve sayım iş türleri için kullanılabilir. Ürün onayı otomatik olarak seçilir. Her stok parçasını mobil cihazınızdan onaylamanıza olanak tanır. |
+|  Maksimum parça sayısı  |                   Parça çekme onayı etkinleştirilmişse, çekme işi için kullanılabilir. Onaylamak zorunda olduğunuz parça sayısı için bir sınır ayarlar.                   |
+
 

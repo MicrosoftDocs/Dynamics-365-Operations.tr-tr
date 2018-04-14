@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-workflow"></a>Gider iş akışı
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Gider yönetimindeki gider raporları için bir gözden geçirme işlemi ayarlamak üzere Microsoft Dynamics 365 for Finance and Operations'ta iş akışı sistemini kullanabilirsiniz. Gider raporlarını kimin onaylayacağını belirlemek için aşağıdaki ölçütleri kullanan bir iş akışı ayarlayabilirsiniz:
 

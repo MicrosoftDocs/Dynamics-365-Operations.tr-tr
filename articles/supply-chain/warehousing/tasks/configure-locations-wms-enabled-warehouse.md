@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>WMS özellikli bir ambarda yerleşimleri yapılandırma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu kılavuz, yeni bir WMS etkin ambarın (gelişmiş ambar yönetimi süreçleri kullanan bir ambarın) konum kurulumunun nasıl yapılandırılacağını gösterir. Bu işlem genellikle ambar yöneticisi tarafından yapılır. Bu kılavuzu, demo verileri şirketi USMF'yi veya kendi verilerinizi kullanarak yerine getirebilirsiniz. Bir önkoşul, yapılandırılmış en az bir tesis olmasıdır.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="derived-books"></a>Türetilen defterler
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, türetilmiş defter işlevselliğine genel bir bakış sağlar.
 

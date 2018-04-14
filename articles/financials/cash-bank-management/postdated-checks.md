@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="postdated-checks"></a>İleri tarih atılmış çekler
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, Microsoft Dynamics 365 for Finance and Operations'ta ileri tarih atılmış çeklere verilen destek hakkında bilgiler sağlar. İleri tarih atılmış çekler, ileri bir tarihte ödeme yapmak veya almak için kesilen çeklerdir. Bu nedenle, çek belirtilen tarihe kadar nakde çevrilemez.
 
@@ -76,14 +75,14 @@ Bir satıcıya verdiğiniz veya bir müşteriden aldığınız orijinal çek kay
 <td>Bu gibi durumlarda deftere nakledilen ileri tarhi atılmış bir çeki iptal edebilirsiniz: - Çek banka tarafından döndürülür.
 - Çek yanlış bir faturaya uygulanmıştır.
 - Çek karşılığında nakit ödeme yapılmıştır.
-</td>
-</tr>
-<tr class="even">
-<td>İleri tarih atılmış bir çekin ödemesini durdurma</td>
-<td>Yetersiz fon, satıcıyla anlaşma koşullarında değişiklik, satıcıdan tedarik edilen malların kusurlu olması veya satıcıya iade edilmesi gibi nedenlerle, satıcıya verilen, ileri tarih atılmış bir çekin ödemesini durdurabilirsiniz. Yalnızca takasa girmemiş çeklerin ödemesini durdurabilirsiniz.</td>
-</tr>
-</tbody>
-</table>
+  </td>
+  </tr>
+  <tr class="even">
+  <td>İleri tarih atılmış bir çekin ödemesini durdurma</td>
+  <td>Yetersiz fon, satıcıyla anlaşma koşullarında değişiklik, satıcıdan tedarik edilen malların kusurlu olması veya satıcıya iade edilmesi gibi nedenlerle, satıcıya verilen, ileri tarih atılmış bir çekin ödemesini durdurabilirsiniz. Yalnızca takasa girmemiş çeklerin ödemesini durdurabilirsiniz.</td>
+  </tr>
+  </tbody>
+  </table>
 
 
 

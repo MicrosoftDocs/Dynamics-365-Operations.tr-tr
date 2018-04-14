@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-linked-products"></a>Bağlı ürünleri yapılandırma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, bağlantılı ürünlerin nasıl yapılandırılacağını açıklar. Bu yordam, USRT demo verilerini kullanır ve her iki ürünün de önceden oluşturulup serbest bırakıldığını varsayar.
 

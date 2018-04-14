@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="retail-hierarchies"></a>Perakende hiyerarşileri
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu makalede Microsoft Dynamics 365 for Retail'deki perakende hiyerarşileri açıklanmıştır.
 

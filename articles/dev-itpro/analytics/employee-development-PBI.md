@@ -25,7 +25,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="employee-development-power-bi-content"></a>Personel gelişimi Power BI içeriği
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, **Personel gelişimi** Microsoft Power BI içeriğini açıklar.
 
@@ -45,6 +45,7 @@ Bu konu, **Personel gelişimi** Microsoft Power BI içeriğini açıklar.
 Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve kutuları panoya sabitleyebilirsiniz. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano Oluşturma ve Yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
+
 | Varlık                   | İçindekiler                                                                                                   | Diğer varlıklarla ilişkiler |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | Takvim Kaydırma          | Raporları dilimlemek için takvim kaydırmaları                                                                          | Geçmiş Pozisyon Ataması, Pozisyon Eğilimi, Personel Eğilimi, Sonlandırılan Personel 

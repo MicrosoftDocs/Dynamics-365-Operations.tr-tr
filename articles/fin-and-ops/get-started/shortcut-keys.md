@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>Klavye kısayolları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Aşağıdaki klavye kısayolları tüm Dynamics 365 for Finance and Operations genelinde geçerlidir. 
 
@@ -39,6 +38,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 
 
 ## <a name="action-shortcuts"></a>Eylem kısayolları
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | **Bunu yapmak için**                                    | **Basın**                        |
@@ -55,6 +55,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Mevcut kullanılabilir kısayolları görüntüleme                | Alt+Shift+K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Tarih seçici kısayolları
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Bunu yapmak için**                        | **Basın**                                 |
@@ -68,6 +69,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Hiçbir zaman (ya da maksimum tarihi) seç          | N                                         |
 
 ## <a name="factbox-shortcuts"></a>FactBox kısayolları
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | **Bunu yapmak için**                                                                  | **Basın**                                 |
@@ -79,6 +81,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Geçerli FactBox'ı daraltma                                                    | Alt+0                                     |
 
 ## <a name="filtering-shortcuts"></a>Kısayolları filtreleme
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | **Bunun için**                     | **Bas**                |
@@ -89,6 +92,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Gelişmiş filtrelemeyi/sıralamayı açma                                      | Ctrl+Shift+F3            | 
 
 ## <a name="form-shortcuts"></a>Form kısayolları
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | **Bunun için**                                      | **Bas**         |
@@ -110,6 +114,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Formu kaydedilmemiş değişiklikleri iptal ederek kapatma       | Alt+Shift+Q       |
 
 ## <a name="form-navigation-shortcuts"></a>Formda gezinme kısayolları
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | **Bunu yapmak için**                                      | **Basın**                                    |
@@ -128,6 +133,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Satırlar görünümüne geç                                | Ctrl+Shift+L                                 |
 
 ## <a name="grid-shortcuts"></a>Kılavuz kısayolları
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | **Bunu yapmak için**                                                                                                         | **Basın**                       |
@@ -148,6 +154,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Geçerli sütun için ızgara filtrelemeyi açma (odakta başlık satırı varken)                                              | Gir                           |
 
 ## <a name="input-control-shortcuts"></a>Giriş denetimi kısayolları
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | **Bunu yapmak için**                                                               | **Basın**                     |
@@ -163,6 +170,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Bir HTML düzenleyici denetiminde metin alanı ve araç çubuğu arasında geçiş yap | F6                            |
 
 ## <a name="messaging-shortcuts"></a>İleti kısayolları
+
 |                          |               |
 |--------------------------|---------------|
 | **Bunu yapmak için**           | **Basın**     |
@@ -170,6 +178,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | İleti Çubuğu'na gitme    | Ctrl+F7       |
 
 ## <a name="navigation-shortcuts"></a>Gezinme kısayolları
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | **Bunu yapmak için**                                                                | **Basın**                  |
@@ -191,6 +200,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | FactBox bölmesine taşı (açmayı içerebilir)                       | Alt+M,B veya Ctrl+F2         |
 
 ## <a name="personalization-shortcuts"></a>Kişiselleştirme kısayolları
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | **Bunu yapmak için**                                                                                                         | **Basın**                           |
@@ -219,6 +229,7 @@ Platform güncelleştirmesi 11 itibarıyla, kullanıcılar kullanılabilir kısa
 | Kişiselleştirme modundan çık (kişiselleştirme modundayken)                                                               | Esc                                 |
 
 ## <a name="segmented-entry-shortcuts"></a>Bölümlenmiş giriş kısayolları
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | **Bunu yapmak için**                                                                                                          | **Basın**                        |

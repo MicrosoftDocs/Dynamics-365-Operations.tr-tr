@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="new-task-guides-february-2016"></a>Yeni görev kılavuzları (Şubat 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev kılavuzlarını listeler.  Yayımlanmış olan kitaplıklar arasında (Şubat 2016) APQC Unified Library for Microsoft Dynamics AX ve (Şubat 2016) Başlangıç bulunmaktadır.
 
@@ -50,8 +49,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Borç hesapları fatura eşleştirme doğrulaması ayarlama       | Genel             |
 | Satıcı fatura ilkelerini ayarla                            | Genel             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a>Alacak hesapları
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Tahsilat bilgilerini gözden geçirme                              | Genel             |
 | Alacak hesapları yaşlandırma bilgilerini ayarlayın ve oluşturun   | Genel             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a>Nakit ve banka yönetimi
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Bir müşterinin ileri tarih atılmış çekini kapatmak                             | Genel             |
 | Satıcı ödemesi özeti                                              | Genel             |
 
- 
 
+ 
 ### <a name="compliance"></a>Uyumluluk
 
 |                                            |                    |
@@ -108,8 +107,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | **BPM Satırı**                               | **Ülke/Bölge** |
 | Kaynak belgeler için denetim ilkelerini tanımla | Genel             |
 
- 
 
+ 
 ### <a name="cost-management"></a>Maliyet yönetimi
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Bir üretim emrindeki süren iş durumunu görüntüleme                       | Genel             |
 | Stok ekstresini ve maliyet nesnesine göre KPI görüntüleme                     | Genel             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a>Ülke/Bölge işlevleri
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | GB-00009 Kapatma iskontosunda alacak dekontu oluştur                                               | İngiltere                  |
 | GB-00009 Hızlı ödeme iskontosu üzerinden alacak dekontu için parametreleri ayarla                                   | İngiltere                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a>Vizyon ve Strateji geliştir
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Bir soruyu önceki sorunun cevabına bağımlı hale getirme (Koşullu sorular) | Genel             |
 | Soru formunu yüzdeye göre puanlayın                                                   | Genel             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a>Elektronik raporlama
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | ER seçili veri kaynaklarına veri modeli eşle      | Genel             |
 | ER Hizmet sağlayıcısı seç                      | Genel             |
 
- 
 
+ 
 ### <a name="expense-management"></a>Gider yönetimi
 
 |                              |                    |
@@ -298,8 +297,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | **BPM Satırı**                 | **Ülke/Bölge** |
 | Gider yönetimini yapılandır | Genel             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a>Sabit kıymetler
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Sabit kıymeti parçalara ayırın                                       | Genel             |
 | Bir sabit kıymeti transfer edin                                    | Genel             |
 
- 
 
+ 
 ### <a name="general-ledger"></a>Genel muhasebe
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Yevmiye defteri girişlerini veya hareketlerini görüntüleyin                              | Genel             |
 | Günlükten ilgili şirketlerarası fişi görüntüleyin                    | Genel             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a>İnsan sermayesi yönetimi
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Kazanca uygunluk ilkeleri ayarlama                             | Genel             |
 | i9 belge türleri ayarlama                                     | Genel             |
 
- 
 
+ 
 ### <a name="inventory-management"></a>Stok yönetimi
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Bir madde veya hammaddeyi izleme                                                     | Genel             |
 | Ambardaki fiziksel stoğu transfer etme                                  | Genel             |
 
- 
 
+ 
 ### <a name="manufacturing"></a>İmalat
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Kanban işleriyle malzeme transfer etme                            | Genel             |
 | Üretim akışını ve sürümü onaylama                          | Genel             |
 
- 
 
+ 
 ### <a name="master-planning"></a>Master planlama
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Kritik malzeme ve tedarikçi kapasitesini tanımla | Genel             |
 | Talep tahminini manuel olarak değiştir                 | Genel             |
 
- 
 
+ 
 ### <a name="organization-administration"></a>Kuruluş yönetimi
 
 |                                           |                    |
@@ -501,8 +500,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Elektronik imza ayarlama              | Genel             |
 | Bir sihirbaz kullanarak satınalma için numara serilerini ayarla | Genel             |
 
- 
 
+ 
 ### <a name="planning"></a>Planlama
 
 |                        |                    |
@@ -510,8 +509,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | **BPM Satırı**           | **Ülke/Bölge** |
 | Kullanılabilirliğini belirle | Genel             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a>Tedarik ve kaynak atama
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Satıcıları arama                                               | Genel             |
 | Tedarik kategori hiyerarşisi ayarlama                          | Genel             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a>Ürün bilgisi ve yapılandırma
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | ..\mali-boyutlar\boyut tabanlı ana ürün serbest bırakma              | Genel             |
 | Ürün modelleri için verileri aktarma                      | Genel             |
 
- 
 
+ 
 ### <a name="public-sector"></a>Kamu sektörü
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Kamu Sektörü için bir fon ayarlama                                                         | Genel             |
 | Kamu sektörü için satınalma anlaşması sınıflandırmalarını ayarla                             | Genel             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a>Perakende ve ticaret
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Perakende fiyat ayarlamaları                                                                  | Genel             |
 | Perakende ekstreleri için yapılandırmaları saklama                                                | Genel             |
 
- 
 
+ 
 ### <a name="sales"></a>Satış
 
 |                                            |                    |
@@ -642,8 +641,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Siparişleri doğrudan teslimatlar olarak sevk etme           | Genel             |
 | Satış siparişlerini depolama olmadan sevk etme      | Genel             |
 
- 
 
+ 
 ### <a name="sales-tax"></a>Satış vergisi
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Stopaj vergisi ayarlayın                             | Genel             |
 | Deftere nakledilen satış vergisi hareketlerini görüntüle                 | Genel             |
 
- 
 
+ 
 ### <a name="security"></a>Güvenlik
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Görev ayrımındaki çakışmaları tanımlayın ve çözümleyin | Genel             |
 | Görev ayrımını ayarlamak                            | Genel             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a>Ambar ve taşıma
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Sevk eden taşımacıları ayarlama                                                          | Genel             |
 | Yükleri ve sevkiyatları planlamak için Yük Planlama Workbench'ini kullanma                       | Genel             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a>(Şubat 2016) Başlarken kitaplığındaki görev kılavuzları
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | **BPM Satırı**                                       | **Ülke/Bölge** |

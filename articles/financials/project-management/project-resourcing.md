@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-resourcing"></a>Projeye kaynak oluşturma
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, projeye kaynak oluşturma hakkında bilgi sunar.
 

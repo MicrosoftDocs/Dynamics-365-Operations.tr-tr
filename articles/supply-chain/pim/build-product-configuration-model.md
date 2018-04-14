@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="build-a-product-configuration-model"></a>Ürün konfigürasyon modeli oluşturun
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Ürünleri özel gereksinimleri karşılamak üzere yapılandırma gerekliliği hem işletmeden işletmeye hem de hem işletme-müşteri ilişkilerinde istisna yerine bir kural haline gelmektedir.
 

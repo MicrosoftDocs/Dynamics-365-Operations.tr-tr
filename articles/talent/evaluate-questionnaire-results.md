@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Bir anketin sonuçlarını görüntüleyin ve değerlendirin
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu konu yanıtlayanların tamamladığı anketlerin sonuçlarını nasıl görüntüleyeceğinizi ve değerlendireceğinizi açıklar. 
 

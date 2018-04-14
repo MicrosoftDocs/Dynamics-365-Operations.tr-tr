@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bom-calculations"></a>BOM hesaplamaları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Maliyet toplaması ve satış fiyatı hesaplamaları, ürün reçetesi (BOM) hesaplamaları olarak bilinir ve onları Hesaplamalar sayfasından başlatırsınız. Bu konu, BOM hesaplamaları hakkında bilgiler sağlar.
 

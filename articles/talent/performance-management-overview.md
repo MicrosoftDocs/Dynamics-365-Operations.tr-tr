@@ -27,8 +27,7 @@ ms.lasthandoff: 02/15/2018
 
 # <a name="performance-management-overview"></a>Performans yönetimine genel bakış
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Performans yönetimi işlemi, personelin performanslarını belgelendirmelerini ve yöneticileriyle tartışmalarını sağlar. Bu sayede, yöneticiler de personele geri bildirim ve kılavuzluk sağlayabilir.  
 

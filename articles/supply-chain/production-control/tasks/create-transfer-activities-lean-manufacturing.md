@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-transfer-activities-for-lean-manufacturing"></a>Yalın imalat için transfer faaliyetleri oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Yalın imalat için bir transfer faaliyeti oluşturun. 
 

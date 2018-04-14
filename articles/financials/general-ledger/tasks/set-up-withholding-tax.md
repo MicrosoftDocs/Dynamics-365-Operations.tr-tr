@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-withholding-tax"></a>Stopaj vergisini ayarlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Stopaj vergisi, satış vergisi hareketleri oluşturmayan satıcılara uygulanan bir vergidir. Satıcı ödemelerinden hesaplanan stopaj vergisi bir borçtur. Dolayısıyla, stopajın nakledilebileceği hesaplar yalnızca bilanço hesapları veya pasif hesaplarıdır. Bu görev kılavuzunda, stopaj vergisinin nasıl ayarlanacağı gösterilmektedir.
 

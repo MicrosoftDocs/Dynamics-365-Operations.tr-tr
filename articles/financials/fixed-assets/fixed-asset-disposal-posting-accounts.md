@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-disposal-posting-accounts"></a>Sabit kıymeti elden çıkarma deftere nakil hesapları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda, genel muhasebe deftere nakil hesaplarının kıymetlerin elden çıkarılmasına yönelik nasıl ayarlanacağı açıklanmaktadır.
 

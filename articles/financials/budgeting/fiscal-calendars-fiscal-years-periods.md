@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Mali takvimler, mali yıllar ve dönemler
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, mali takvimler, mali yıllar, mali dönemler ve bunların tüzel kişilikler, sabit kıymetler ve bütçeleme için nasıl kullanıldığı ele alınmaktadır.
 

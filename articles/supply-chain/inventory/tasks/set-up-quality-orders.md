@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-quality-orders"></a>Kalite emirlerini ayarlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu prosedürde, size, gelen stoğun varış kaydı yapıldıktan hemen sonra incelenmesi gerektiği durumlarda kalite yönetim işleminin nasıl etkinleştirileceği gösterilmektedir. Bu prosedür genellikle bir kalite yöneticisi tarafından gerçekleştirilir. İşlem, örnek alınacak maddeleri tanımlamak üzere bir kalite grubu oluşturmayı ve kalite grubundaki maddeler üzerinde uygulanacak testleri gruplandırmak üzere bir test grubu oluşturmayı içerir. USMF demo veriler şirketinde bu kılavuzu çalıştırabilirsiniz.
 

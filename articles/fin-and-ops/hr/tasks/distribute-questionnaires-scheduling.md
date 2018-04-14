@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Planlamayı kullanarak soru formlarını dağıtma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Soru formu planlama, soru formlarınızı planlamanıza ve birden fazla alıcıya dağıtmanıza izin verir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

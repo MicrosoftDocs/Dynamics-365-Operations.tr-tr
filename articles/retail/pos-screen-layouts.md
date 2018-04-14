@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-screen-layouts-for-pos"></a>POS için ekran düzenini yapılandırma
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu konu Microsoft Dynamics 365 for Retail satış noktası (POS) deneyimleri için ekran düzenleri hakkında bilgi sağlar.
 

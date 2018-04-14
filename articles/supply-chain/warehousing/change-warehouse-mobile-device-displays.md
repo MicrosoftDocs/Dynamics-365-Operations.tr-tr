@@ -28,8 +28,7 @@ ms.lasthandoff: 02/05/2018
 
 # <a name="warehouse-mobile-device-display-settings"></a>Ambar mobil cihazı görüntüleme ayarları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, mobil cihaz ekranın görünümünün nasıl ayarlandığını ve bu düğmelerin denetimi için klavye kısayollarının nasıl eşleneceğini açıklar. 
 

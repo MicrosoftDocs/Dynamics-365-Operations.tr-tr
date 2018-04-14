@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="monitor-sales-and-margin-performance"></a>Satış ve kar performansını izleme
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 for Retail kullanarak satış ve kar marjı performansını gerçek zamanlı izleyebilirsiniz.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-bar-code-masks"></a>Barkod maskesi ayarlama
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu konu, barkod maskesi karakterlerini, barkod maskelerini ve barkod maskelerinin barkodlara nasıl atanacağını açıklamaktadır.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-benefit-expiration-dates"></a>Kazanç geçerlilik bitiş tarihlerini yönetme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam bir yararın süresini uzatmayı veya bitirmeyi, ve bu yarara kaydedilmiş çalışanların kayıt tarihlerini yönetmeyi gösterir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

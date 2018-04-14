@@ -29,8 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="demand-forecasting-overview"></a>Talep tahminine genel bakış
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Talep tahmini, satış siparişlerinden bağımsız talebi ve müşteri siparişlerine ilişkin herhangi bir dekuplaj noktasındaki bağımlı talebi tahmin etmede kullanılır. Geliştirilmiş talep tahmin azaltma kuralları, kitlesel özelleştirme için ideal bir çözüm sunar.
 

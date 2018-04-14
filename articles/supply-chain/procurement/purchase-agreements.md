@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-agreements"></a>Satınalma sözleşmeleri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, satınalma anlaşmalarıyla ilgili bilgiler verilmektedir. Bir satınalma anlaşması, kuruluşun belirli bir süre içinde birden fazla satınalma siparişi kullanarak, belirli bir miktarda veya tutarda alım yapacağını taahhüt eden bir sözleşmedir. Bu taahhüt karşılığında, alıcıya özel fiyatlar ve iskontolar verilir. 
 

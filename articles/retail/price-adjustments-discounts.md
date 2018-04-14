@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="price-adjustments-and-discounts"></a>Fiyat ayarlamaları ve iskontolar
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu makalede, Microsoft Dynamics 365 for Retail'deki fiyat ayarlamaları ve indirimler hakkında bilgiler sağlanmıştır.
 

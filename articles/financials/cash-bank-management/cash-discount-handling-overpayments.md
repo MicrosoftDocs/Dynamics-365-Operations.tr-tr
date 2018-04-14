@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="handling-cash-discounts-for-overpayments"></a>Fazla ödemeler için nakit iskontolarını işleme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, bir müşteri nakit iskontosu alıp aynı zamanda fazla ödeme yaparsa, bunun nasıl işlendiğini gösteren senaryoyu sağlar. 
 

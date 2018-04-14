@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="use-a-record-template-to-create-a-new-record"></a>Yeni kayıt oluşturmak için kayıt şablonu kullanma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, yeni bir kayıt oluşturmak için önceden tanımlanmış bir şablonun nasıl kullanılacağını gösterir. Bu yordamı tamamlamak için öncelikle "Veri girişini kolaylaştırmak için bir kayıt şablonu oluşturma" yordamını tamamlamanız gerekir.
 

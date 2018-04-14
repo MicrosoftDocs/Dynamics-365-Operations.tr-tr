@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="system-defined-and-user-defined-table-constraints"></a>Sistem tanımlı ve kullanıcı tanımlı tablo kısıtlamaları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, kullanıcı tanımlı ve sistem tanımlı olmak üzere, bir ürün yapılandırma modelindeki bileşenler için iki tablo sınırlandırma türü açıklanmaktadır. Tablo sınırlandırmaları, her bir satırın bir pozitif öznitelik değeri setine karşılık geldiği, izin verilen öznitelik kombinasyonlarının matrislerini temsil eder.
 

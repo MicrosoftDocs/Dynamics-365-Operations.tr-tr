@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Maliyet yuvarlama ilkesi ve genel gider hesaplaması 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Maliyet muhasebesi, maliyet akışının bir kuruluş içerisinde teslim edilen ürünler ve hizmetlerle nasıl ilişkili olduğu hakkında bilgiler sağlar. Maliyet saydamlığını görmek için, uygun tahsisat tabanına dayalı maliyet nesneleri arasında maliyet tahsisatı elde etmek önemlidir. Varsayılan olarak, maliyet tahsisatı, bazı durumlarda istenilen ancak dikkate alınması gereken birkaç olası etkiye sahip birincil maliyet öğesi için elde edilir.
 

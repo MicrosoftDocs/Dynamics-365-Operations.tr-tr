@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a>Satınalma siparişindeki işin tamamlanması için bir mobil cihazı menü öğesi ayarlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam bir Mobil cihaz menü öğesinin nasıl kurulacağını gösterir. Bu örnekte, menü öğesi Satın alma siparişi türünde işi yapan için kullanılır. Menü öğesiyle ilişkili iş sınıfı, hangi işin geçerli olduğunu belirler. Bu kılavuzu USMF demo şirketinde kullanabilirsiniz. Bu yordam genel olarak bir depo yöneticisi tarafından yerine getirilir.
 

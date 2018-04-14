@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="positive-pay-overview"></a>Pozitif ödemeye genel bakış
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede bir bankaya sunulabilecek çeklerin bir elektronik listesinin oluşturulması için kullanılan pozitif ödemeler hakkında bilgi verilmiştir. 
 

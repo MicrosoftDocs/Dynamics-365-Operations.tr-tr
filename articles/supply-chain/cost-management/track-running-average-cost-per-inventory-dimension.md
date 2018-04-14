@@ -29,10 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="tracking-running-average-cost-per-inventory-dimension"></a>Stok boyutu başına cari ortalama maliyeti izleme
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Her stok maddesine bir stok boyutu grubu eklenir. Dolayısıyla, cari ortalama maliyet fiyatı, mali olarak izlenmekte olan stok boyutlarından seçilenlere dayanarak hesaplanır.
 

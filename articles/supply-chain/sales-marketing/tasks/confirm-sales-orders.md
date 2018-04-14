@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="confirm-sales-orders"></a>Satış siparişlerini onaylama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, satış siparişlerinin nasıl onaylanacağını göstermektedir. Tek bir siparişin ve aynı anda birden fazla siparişin nasıl onaylanacağı size gösterilecektir. Bu görevler genellikler satış siparişi işlemcisi tarafından yerine getirilir. Bu yordamı, demo verileri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz. Başlamadan önce aynı müşteri için birkaç açık satış siparişleri bulunduğundan emin olun. USMF kullanıyorsanız, US-027 müşterisini kullanabilirsiniz.
 

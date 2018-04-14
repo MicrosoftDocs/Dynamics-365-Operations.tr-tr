@@ -28,9 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-object-relations"></a>Servis nesnesi ilişkileri 
 
-[!include[banner](../includes/banner.md)]
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Servis nesnesi ve servis sözleşmesi veya servis siparişi arasında servis nesnesi ilişkileri oluşturabilirsiniz. Bir ilişki oluşturduğunuzda servis nesnesini servis sözleşmesine veya servis siparişine iliştirirsiniz.
 

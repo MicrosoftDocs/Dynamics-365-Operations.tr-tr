@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="lean-manufacturing-overview"></a>Yalın imalata genel bakış
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale Microsoft Dynamics 365 for Finance and Operations içindeki yalın imalat özelliklerinin genel bakışını ve açıklamasını sağlar.
 
@@ -40,6 +39,7 @@ Yalın üretim, yalın operasyonları modellemede kullanabileceğiniz araçlar s
 -   Kanban işlerini izleyin ve sürdürün.
 
 Finance and Operations'daki yalın üretim mimarisi, üretim akışları, etkinlikler ve kanban kurallarından oluşur. Bu yapılar, Finance and Operations işlemleri ile tamamen tümleşiktir. Yalın üretimi çeşitli tedarik, üretim ve kaynak belirleme stratejilerini birleştiren bir karma mod üretim ortamında kullanabilirsiniz. Bu stratejilere üretim emirleri, işlem endüstrileri için toplu siparişler, satınalma siparişleri ve transfer emirleri dahildir.
+
 | **Önemli**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Finance and Operations'u, kanbanlar ile yalın üretim uygulamasını desteklemek için kullanabilirsiniz. Ancak, yalın prensiplerin başarılı bir şekilde uygulaması, kullandığınızı dahili iş süreçlerine ve gerçek üretim koşulları ve ortamına bağlıdır. |

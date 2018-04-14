@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Birden fazla duraklı navlun taşıma rotaları planlama
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede Microsoft Dynamics 365 for Finance and Operations uygulamasında ulaşım yolları planlamak için kullandığınız çeşitli öğeler açıklanmaktadır.
 

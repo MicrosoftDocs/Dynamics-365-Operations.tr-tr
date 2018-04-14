@@ -29,7 +29,7 @@ ms.lasthandoff: 03/06/2018
 
 # <a name="demo-data-screen-layouts-in-mposcpos"></a>MPOS/CPOS'taki tanıtım verileri ekranı düzenleri
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 for Retail'deki satış noktası (POS) deneyimleriyle ilgili tanıtım verileri kümesiyle dahil edilen ekran düzenlerine ilişkin bilgiler sağlar.
 

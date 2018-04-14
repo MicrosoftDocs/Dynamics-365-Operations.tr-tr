@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-destinations-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için hedefleri yapılandırma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordamda bir klasör veya bir dosya gibi Elektronik raporlama (ER) çıkış bileşenleri için farklı hedeflerin nasıl ayarlanacağı ve kullanılacağı gösterilmiştir. Bu yordamı oluşturmak için kullanılan demo veri şirketi DEMF'dir. Almanya, tüzel kişiliğin ana adresinin bulunduğu ülke\bölgedir, ancak bu yordam için herhangi bir tüzel kişilik kullanabilirsiniz. 
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-flow-forecasting"></a>Nakit akışı tahmini
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Nakit akışı tahmin araçlarını gelen nakit akışı ve para birimi gereksinimlerini analiz etmek için kullanabilir, böylece şirketin gelecekteki nakit ihtiyacını öngörebilirsiniz. Nakit akışının tahminini elde etmek için aşağıdaki görevleri tamamlamalısınız:
 

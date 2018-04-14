@@ -27,7 +27,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>Şirket içi ortamlar için donanım boyutlandırma
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Şirket içi ortam için donanım ve altyapı boyutlandırmaya başlamadan önce, [Sistem gereksinimleri](system-requirements.md) ve [Kurulum ve dağıtım yönergeleri](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) belgelerini okuyun ve altyapı hakkında derinlikli bilgi sahibi olun. 
 

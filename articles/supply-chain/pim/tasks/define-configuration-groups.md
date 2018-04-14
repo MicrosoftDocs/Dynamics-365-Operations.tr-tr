@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-configuration-groups"></a>Konfigürasyon grupları tanımlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, demo verileri şirket USMF'de iki grup oluşturarak ürün konfigürasyon gruplarının nasıl tanımlanacağını gösterir. Bu, boyut tabanlı yapılandırma birleşimlerini nasıl oluşturulacağını açıklayan sekiz prosedür arasındaki dördüncüsüdür.
 

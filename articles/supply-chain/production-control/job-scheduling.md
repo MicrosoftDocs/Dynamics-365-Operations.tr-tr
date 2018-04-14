@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="job-scheduling"></a>İş planlama çizelgeleme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, operasyon planlamasından daha ayrıntılı bir planlama biçimi olan iş planlaması hakkında bilgi sağlar. İşleri veya mağaza siparişlerini tek tek programlamak ve üretim ortamını kontrol etmek için iş planlamayı kullanabilirsiniz.
 

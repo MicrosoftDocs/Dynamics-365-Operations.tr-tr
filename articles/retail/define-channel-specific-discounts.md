@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-channel-specific-discounts"></a>Kanala özel indirimler tanımla
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Perakendeciler sık sık farklı kanallara farklı iskontolar uygular. Bu konuda, belirli bir kanala ait bir indirim oluşturmak için bilmeniz gereken kavramlar incelenmektedir. 
 
@@ -61,7 +60,7 @@ Aşağıdaki örnek bir kanal iskonto ayarının kurulmasıyla ilgili görevleri
 4.  **Okula dönüş** yeni iskontosunu oluşturduktan sonra, **İndirim** sayfasının tepesindeki **Fiyat grupları** tıklamanız lazım. **İndirim fiyat grupları** sayfası açılacaktır. Bundan sonra **Yeni**'ye tıklayın ve **Houston-PG** fiyat grubunu seçin.
 5.  Şimdi iskontoyu etkinleştirebilir ve kanala itebilirsiniz.
 
- 
+
 
 <a name="see-also"></a>Ayrıca bkz.
 --------

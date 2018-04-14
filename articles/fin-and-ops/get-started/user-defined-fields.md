@@ -26,9 +26,9 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="custom-fields"></a>Özel alanlar
 
-[!include[banner](../includes/banner.md)] 
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 Microsoft Dynamics 365 for Finance and Operations çok sayıda iş sürecini yönetmek için kullanıma hazır kapsamlı bir alan kümesi sunmasına karşın bazen bir şirketin sistemde ilave bilgileri izlemesi gerekebilir. Finance and Operations bu ihtiyacı karşılamak amacıyla, özellik için gerekli izinlere sahip olmanız durumunda, uygulamayı işletmenize uygun hale getirmek üzere özel alanlar oluşturmanıza olanak tanır. 
 

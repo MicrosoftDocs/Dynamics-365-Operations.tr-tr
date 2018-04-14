@@ -28,8 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="service-intervals"></a>Servis aralıkları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Servis sözleşmesi aralığı, servis siparişlerini otomatik olarak oluşturduğunuzda servis siparişi satırlarının oluşturulma sıklığını gösterir.
 

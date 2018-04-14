@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit-and-import-collections"></a>Kredi mektupları ve ithalat tahsilatları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, kredi mektupları ve ithalat tahsilatları hakkında genel bilgiler verilmektedir. Her iki banka belgesi sıklıkla uluslararası mal alım satımı için kullanılır.
 

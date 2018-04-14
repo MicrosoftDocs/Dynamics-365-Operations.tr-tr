@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budgeting-home-page"></a>Bütçeleme giriş sayfası
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda, Finance and Operations'daki bütçeleme işlevi bileşenlerine, bütçeleme araçlarına ve raporlama yeteneklerine genel bir bakış sağlanmaktadır. 
 

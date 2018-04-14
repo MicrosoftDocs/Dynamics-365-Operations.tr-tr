@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="create-required-configurations-to-import-data-from-an-external-file-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için harici bir dosyadan verileri içe aktarmak üzere gerekli yapılandırmaları oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Aşağıdaki adımlar, Sistem yöneticisi veya Elektronik raporlama geliştirici rolüne sahip bir kullanıcının harici bir dosyadan Dynamics 365 for Finance and Operations uygulamasına verileri içeri aktarmak için Elektronik raporlama (ER) yapılandırmalarını nasıl tasarlayabileceğini açıklar. Bu örnekte bir örnek şirket olan Litware, Inc. için gerekli ER yapılandırmalarını oluşturacaksınız. Bu adımları tamamlamak için önce "ER Bir yapılandırma sağlayıcısı oluştur ve bunu etkin olarak işaretle" Görev kılavuzundaki adımları tamamlamanız gerekir. Bu adımlar USMF veri kümesi kullanılarak tamamlanabilir. Ayrıca, Elektronik raporlamaya genel bakış konusundan (https://go.microsoft.com/fwlink/?linkid=852550): bağlantıları kullanarak şu dosyaları yerel olarak indirmeniz ve kaydetmeniz gerekir: 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 

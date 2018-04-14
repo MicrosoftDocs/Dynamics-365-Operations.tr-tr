@@ -28,14 +28,14 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prepayment-invoices-vs-prepayments"></a>Ön ödeme faturaları ve ön ödemeler karşılaştırması
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda kuruluşların peşin ödemeler (ön ödemeler) için kullanabileceği iki yöntem açıklanmış ve karşılaştırılmıştır. Birinci yöntemde bir satın alma emriyle ilişkilendirilmiş bir ön ödeme faturası oluşturursunuz. İkinci yöntemde ise günlük girişleri oluşturup ön ödeme günlüğü fişleri olarak işaretleyerek ön ödeme günlüğü fişleri oluşturursunuz.
 
 Kuruluşlar, satıcılara mal veya hizmetleri için bu mal veya hizmetler karşılanmadan önce ön ödeme (avans ödeme) yapabilirler. Satıcılara ön ödeme yapmak için iki yöntem kullanılabilir. Riski en aza indirmek için, bir satınalma emrine ön ödeme tanımlayarak ön ödemeleri izleyebilirsiniz. Bu yöntem için satınalma emriyle ilişkilendirilmiş bir ön ödeme faturası oluşturmanız gerekir. Bu yöntem ön ödeme faturalandırması olarak adlandırılır. Ön ödemeleri yakında takip etmek istemeyen veya satıcılarından ön ödeme faturası almayan kuruluşlar, ön ödeme faturalandırması yöntemi yerine ön ödeme günlüğü fişleri kullanabilirler. Günlük girişleri oluşturup ön ödeme günlüğü fişleri olarak işaretleyerek ön ödeme günlüğü fişleri oluşturabilirsiniz. Bu yöntemde, bir satıcıya hangi ön ödemelerin hangi satınalma emirlerine karşı yapıldığını takip edemezsiniz. Ancak, deftere nakledilen bir ön ödemeyi bir satınalma emrine karşı kapatma olarak işaretleyebilirsiniz.
 
 ## <a name="when-to-use-prepayment-invoicing-vs-prepayments"></a>Ön ödeme faturalandırması - ön ödemeler ne zaman kullanılır
+
 | Ön ödeme faturalandırması                                                                | Ön ödemeler                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Satınalma emrine bir ön ödeme değeri tanımlayın.                                    | Satınalma emrine hiçbir ön ödeme değeri tanımlanmamıştır.                    |

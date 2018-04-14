@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Tedarik kategorisi hiyerarşileri için ilkeler ayarlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bir kategorideki ürünleri sipariş etmek amacıyla kuralları ayarlamak için bu prosedürü kullanın. Kurallar belirli bir satın alma ilkesi için tanımlanır. Kategori erişimi kuralı, talep oluşturulduğunda hangi tedarik kategorisi çalışanlarının erişime sahip olacağını denetler. Bir talep oluşturulduktan sonra uygulanması gereken satınalma ilkesi ve kategori erişim kuralı çalışanların bağlı olduğu tüzel kişilik ve işletme birimi tarafından belirlenir. Bu prosedürü USMF demo veri şirketinde kullanabilirsiniz. Genellikle bu görev bir satınalma yöneticisi tarafından gerçekleştirilir.
 

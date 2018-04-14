@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="trial-balance-financial-reports"></a>Mizan mali raporları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, mizanlar için varsayılan raporlar açıklanmaktadır. Ayrıca, bu raporlarla ilgili yapı taşları ve raporların iş gereksinimlerinize uyacak şekilde nasıl değiştirileceği açıklanmaktadır. 
 
@@ -99,7 +98,7 @@ Her bir mizan raporunu farklı bir sütun tanımı kullanır. Bu sütun tanımla
     -   **FD** – Geçen yıl için yalnızca borçları içeren mali veriler
     -   **FD** – Geçen yıl için yalnızca alacakları içeren mali veriler
 
- 
+
 
 <a name="see-also"></a>Ayrıca bkz.
 --------

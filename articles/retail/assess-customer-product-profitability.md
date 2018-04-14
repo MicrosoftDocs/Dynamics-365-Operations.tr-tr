@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="assess-customer-and-product-profitability"></a>Müşteri ve ürün karlılığını değerlendirme
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu makale, bellek içi ve gerçek zamanlı analizleri Microsoft Dynamics 365 for Retail verilerinizden müşteriler ve ürün karlılığı bilgilerine erişmek, keşfetmek ve bunlar hakkında bilgi edinmek için nasıl kullanabileceğinizi açıklar. 
 

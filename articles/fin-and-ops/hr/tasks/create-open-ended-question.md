@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-open-ended-question"></a>Açık uçlu soru oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Açık uçlu sorular, katılımcıların kendi yanıtlarını sağlamalarına olanak sağlar. Bu yanıtı sayı, ondalık, tarih, açıklama ve benzeri olup olmadığını yönetebilirsiniz. Bu yordam, özel türde, açık uçlu bir soru oluşturma sürecini adım adım gösterecektir. Bu yordamı başlatmak için, Soru formu > Tasarım > Sorular seçeneğine gidin. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

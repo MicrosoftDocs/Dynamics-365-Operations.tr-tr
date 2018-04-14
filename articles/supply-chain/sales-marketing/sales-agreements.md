@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-agreements"></a>Satış sözleşmeleri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, satış sözleşmeleri hakkında bilgiler sağlar. Satış anlaşması, müşterinin özel fiyatlar ve iskontolar karşılığında ürünleri, belirli miktarda veya belirli bir zaman aralığında belirli bir tutarda almasını sağlayan bir sözleşmedir.
 

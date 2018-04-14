@@ -28,7 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Temizlik ilkeleri kullanarak hammadde tüketimini kontrol etme
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Otomatik tüketim ilkeleri, üretim işlemlerinde kullanılan hammaddeler için farklı tüketim stratejilerini yansıtır. Tüketim, malzemeyi eldeki stoktan azaltan ve tüketilen maddelerin değerini üretim emirleri ve toplu iş siparişleri için **Süren iş**'e (WIP) ayarlayan işlemdir. Hammaddeler genellikle, maddeyi tüketen işlem için yapılandırılan konumda tüketilir. Bu konum üretim giriş konumu olarak bilinir.
 

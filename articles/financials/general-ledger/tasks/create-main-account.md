@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-main-account"></a>Ana hesap oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev kılavuzu, mevcut bir hesap planına ana hesap eklemeyi adım adım açıklar. Bu kayıtta USMF demo şirketi kullanılmaktadır.  
 

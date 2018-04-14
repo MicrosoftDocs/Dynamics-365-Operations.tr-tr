@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-new-departments"></a>Yeni departmanlar tanımlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Departmanlar bir işin, işlevsel bir bölümünü temsil eden bir faaliyet birimleridir, örneğin satış ve muhasebe gibi. Birçok şirketin, bir işletme içindeki çeşitli bölümler görüntülemek kuruluş hiyerarşileri vardır. Bu yordam bölümler oluşturma ve bu bölümleri bir kuruluşun bölüm hiyerarşisi içine ekleme işlemini adım adım anlatılmaktadır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

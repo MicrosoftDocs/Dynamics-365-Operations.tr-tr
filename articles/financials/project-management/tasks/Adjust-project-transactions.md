@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="adjust-project-transactions"></a>Proje hareketlerini düzelt
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev kılavuzu, bir projedeki bir hareketin nasıl ayarlanacağını gösterir. Bununla birlikte, proje hareketlerini tek tek ayarlayabilir veya tüm proje hareketleri listesinden seçebilirsiniz. Bu görev genellikle Proje gözetmeni tarafından tamamlanır. Bu görev kılavuzu, USSI veri kümesini kullanır.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-vendor-bank-account"></a>Satıcı banka hesabı oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu prosedür, bir satıcının banka hesabının nasıl oluşturulacağını gösterir. Bu yordamı USMF demo veri şirketinde kullanabilirsiniz.
 

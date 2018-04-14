@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-order-overview"></a>Satınalma siparişine genel bakış
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Bu makale, satınalma siparişleri (PO) ve bir PO'nun geçtiği çeşitli aşamalarla ilgili ek makalelere bağlantılar hakkında genel bilgi verir.
 

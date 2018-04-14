@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>CFO çalışma alanına mali boyutlar ekleme
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, genel muhasebe ve bütçe raporları için kullanılabilmeleri amacıyla Mali İşler Müdürü (CFO) çalışma alanına mali boyutların nasıl ekleneceğini açıklar. CFO çalışma alanı bir **Genel bakış** sekmesine ve bir **Mali** sekmesine sahiptir. Bu iki sekmedeki raporlar iki ölçüt tarafından desteklenir: LedgerActivityMeasure ve BudgetActivityMeasure. Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da (Temmuz 2017) bu iki ölçü ve DimensionCombinationEntity varlığı arasında bir ilişki vardır. Bu nedenle, boyutları seçebilirsiniz.
 

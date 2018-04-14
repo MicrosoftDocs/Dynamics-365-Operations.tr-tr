@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="questionnaires"></a>Soru formları
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu konu, anketler hakkında genel bilgi ve daha ayrıntılı bilgiler için bağlantılar sağlar. Bir anket çeşitli amaçlarla bilgi toplamak için kullanılan bir soru kümesidir. Soru formları tasarlayabilir, oluşturabilir, dağıtabilir, doldurabilir ve ardından sonuçları çözümleyebilirsiniz. 
 

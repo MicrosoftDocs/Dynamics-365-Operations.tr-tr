@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mobile-bar-code-support"></a>Mobil barkod desteği
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Android bir açık kaynak projesi olduğu için, ambar barkod tarayıcı üreten tüm donanım üreticileri Android işletim sistemini çalıştıran için bir cihaz oluşturabilir. Bir cihaz, yalnızca Android yürütme ortamı için yazılan uygulamaları yürütebilmesi durumunda Android uyumlu olur.
 Ancak, bir donanım satıcısı kendi donanımında çalışan Android sürümü için alt katmanları değiştirebilir veya alt katmanlar oluşturabilir. Microsoft Android için bir mobil barkod tarama uygulamasının bir üreticinin barkod tarama donanımıyla ve bu donanımda çalışan Android sürümüyle uyumlu olmasını sağlamak konusunda herhangi bir sorumluluk alamaz. 

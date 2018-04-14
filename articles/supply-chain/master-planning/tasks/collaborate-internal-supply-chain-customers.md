@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="collaborate-with-internal-supply-chain-customers"></a>İç tedarik zinciri müşterileriyle iş birliği
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, şirketlerarası satıcı tarafından karşılanacak tüm planlı siparişlerin nasıl görüntüleneceğini gösterir. Bu yordamı oluşturmak için kullanılan demo veri şirketi DEMF'dir.
 

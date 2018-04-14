@@ -29,8 +29,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="define-and-maintain-retail-channels"></a>Perakende kanallarını tanımla ve koru
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 for Retail perakende mağazaları olarak adlandırılan geleneksel mağazaları ayarlama işlemine genel bakış verilmektedir. Makalede, perakende mağaza ayarlamanızdan önce ve sonra tamamlamanız gereken görevleri hakkında bilgiler yer almaktadır.
 

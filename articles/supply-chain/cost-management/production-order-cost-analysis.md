@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-order-cost-analysis"></a>Üretim emri maliyet analizi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, tamamlanmış ve geçerli üretim emirleri için yapabileceğiniz maliyet analizi hakkında bilgiler sağlanmıştır. Tahmini maliyetleri ve gerçek maliyetleri Fiyat hesaplaması sayfasını veya Maliyet tahminleri ve maliyetlendirmeler raporunu kullanarak analiz edebilirsiniz. Her bir bileşen maddesine, rota operasyonuna ve dolaylı maliyete yönelik tahmini ve gerçek maliyetler (ve miktar) hakkındaki bilgileri görüntüleyebilirsiniz.
 

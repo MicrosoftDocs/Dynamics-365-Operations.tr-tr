@@ -23,7 +23,7 @@ ms.lasthandoff: 03/12/2018
 ---
 
 # <a name="assortment-management"></a>Ürün çeşidi yönetimi
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Özet
 Microsoft Dynamics 365 for Retail kanallar arasında ürün kullanılabilirliğini yönetmenizi sağlayan *ürün çeşitleri* sunar. Ürün çeşitleri, belirli mağazalarda ve belirli bir dönemde hangi ürünlerin kullanılabilir olduğunu belirler.

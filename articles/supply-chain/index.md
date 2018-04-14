@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="supply-chain-management-home-page"></a>Tedarik zinciri yönetimi giriş sayfası
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu onu, Microsoft Dynamics 365 for Finance and Operations'ın tedarik zinciri yönetim özellikleri için yardım konularının ve diğer kaynakların bir listesini sağlar. 
 

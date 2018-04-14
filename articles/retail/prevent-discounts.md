@@ -29,7 +29,7 @@ ms.lasthandoff: 10/24/2017
 
 # <a name="prevent-discounts-for-retail-products"></a>Perakende ürünler için indirimleri engelle
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Satıcıların bazı ürünlerin ister bir promosyon isterse de POS'taki satış sırasında indirime girmesini engellemeleri için çeşitli sebepler olabilir.
 

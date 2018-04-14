@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Ürün için barkod oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, örnek olarak M0001 madde numarasını kullanarak el ile nasıl bir barkod oluşturulacağını gösterir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

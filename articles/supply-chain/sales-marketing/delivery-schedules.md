@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="delivery-schedules"></a>Teslimat zaman çizelgeleri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Teslimat zaman çizelgeleri tek bir satış siparişi, satış teklifi veya satın alma emri için birden fazla teslimat kullanılıyorken sipariş çizgisi miktarını izlemenize olanak tanır.
 

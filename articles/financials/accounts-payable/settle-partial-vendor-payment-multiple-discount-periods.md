@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Birden fazla iskonto dönemi olan bir kısmi satıcı ödemesini kapatma
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, birden fazla nakit indirimi öneren bir satıcıya birden fazla kısmi ödemenin yapıldığı bir senaryo açıklanmaktadır. 
 

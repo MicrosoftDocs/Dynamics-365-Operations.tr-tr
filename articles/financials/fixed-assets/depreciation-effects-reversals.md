@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-effects-with-reversals"></a>Ters işlemli amortismanın etkileri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, sabit kıymet hareketini ters kaydetmenin olası etkileri ele alınmaktadır. 
 

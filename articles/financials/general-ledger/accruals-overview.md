@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accruals-overview"></a>Tahakkuklara genel bakış
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede tahakkuklar açıklanmakta, tahakkukları nasıl ayarlayacağınız ve hareketleri nasıl oluşturacağınız hakkında bilgiler verilmektedir.
 

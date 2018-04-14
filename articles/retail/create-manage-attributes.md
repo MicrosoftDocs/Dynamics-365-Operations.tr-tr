@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-and-manage-attributes"></a>Öznitelikler oluşturmak ve yönetmek
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu makale Microsoft Dynamics 365 for Retail'daki öznitelikleri açıklar. Öznitelikler kullanıcı tanımlı alanlar aracılığıyla ürün ve özellikleri açıklamanızı sağlar.
 
@@ -58,7 +57,7 @@ Bu makale Microsoft Dynamics 365 for Retail'daki öznitelikleri açıklar. Özni
 
 ## <a name="attribute-type"></a>Öznitelik türü
   [![öznitelikler-sabit-kopya](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
-  
+
 Öznitelik, öznitelik türlerini temel alır. Öznitelik türleri, belirli bir öznitelik için girilen veri türünü tanımlar. Şu anda, Microsoft Dynamics 365 for Retail aşağıdaki öznitelik türlerini destekler:
 
 -   **Para** – bu öznitelik türü para birimi değerlerini destekler. Bağlantılı olmalıdır (diğer bir deyişle, bir değer aralığı destekleyebilir) veya açık bırakılabilir.

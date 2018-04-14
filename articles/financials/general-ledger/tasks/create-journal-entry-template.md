@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-journal-entry-using-a-template"></a>Şablon kullanarak yevmiye defteri girişi oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Deftere nakledilen günlük fişleri Fiş şablonu olarak kaydedilebilir ve yeni bir günlük fişine uygulanabilir. Bu yordam, USMF demo şirketini kullanır.
 

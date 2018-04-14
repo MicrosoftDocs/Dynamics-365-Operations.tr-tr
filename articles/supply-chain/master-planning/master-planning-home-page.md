@@ -29,8 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>Master planlama ana sayfası
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Temel olarak master planlama, şirketlerin şirket hedeflerini karşılamak için gelecekteki hammadde ve kapasite gereksinimini belirlemesine ve planlamasına olanak tanır. Master planlama aşağıdakileri değerlendirir: 
 
@@ -58,6 +57,7 @@ Aşağıdaki öğrenme haritası, Master planlama modülünün çerçevesini olu
 [![Master planlama için öğrenim haritası](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)
 
 ## <a name="quick-links"></a>Hızlı bağlantılar
+
 |      |   |
 |------|---|
 |        [Master planlar](master-plans.md)       |     [Kısıtlanmış plan oluşturma](./tasks/constrained-plan.md)  |

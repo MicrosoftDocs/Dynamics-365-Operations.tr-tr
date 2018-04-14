@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Şirketlerarası proje faturalamasını yapılandırma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, kuruluşunuzdaki iki şirket arasında proje faturalandırmasını ayarlamayı gösterir. Bu görev, USSI veri kümesini kullanır.
 

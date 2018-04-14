@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduce-balance-depreciation"></a>Bakiyeli amortismanı azaltma
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, amortismanın Azalan bakiye yöntemi hakkında genel bir bakış sağlar.
 
@@ -80,7 +79,7 @@ Amortismana esas olan değerin yüzde 30'u (net defter değeri eksi hurda değer
 | 2. yıl | (7.000 - 1.000) \* %30 = 1.800            | (7.000 -1.800) = 5.200                |
 | 3. yıl | (5.200 - 1.000) \* %30 = 1.260            | (5.200 - 1.260) = 3.940               |
 
- 
+
 -
 
 

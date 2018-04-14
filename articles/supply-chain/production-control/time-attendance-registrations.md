@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="time-and-attendance-registration"></a>Saat ve işe devam durumu kaydı
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Zaman kayıt çalışanları, örneğin giriş saati, çıkış saati, dolaylı faaliyetlerin kaydı ve devamsızlık kaydı gibi farklı türlerde zaman kayıtları girebilirler. Bu konuda kayıtlar, bunların hesaplanması, onaylanması ve zaman çizelgelerinin onaylanması sürecine yapı ve otomatik onay eklenmesi için iş akışının kullanımı hakkında bilgiler verilmiştir. 
 
@@ -95,7 +94,7 @@ Bir hesaplama grubunu bir defa bir zaman kayıt çalışanına atadığınız i�
 | Saat ve işe devam durumu toplam gün sayısı            | İş akışı, örneğin gün için beklenen çalışma saati sayısına göre kayıtları doğrular. |                                                                                                                                                                                                                                                       |
 | Saat ve işe devam durumu günlük kaydı. | İş akışı, kayıt tarihi için her bir kayıt türünü doğrular.                           | Saat ve işe devam • Giriş • Çıkış • Devamsızlık • Mola • Geçiş kodu • Proje • Proje faaliyeti • Dolaylı faaliyet Üretim işleri • Operasyon öncesi kuyruk • Ayarlar • İşlem • Çakışma • Taşıma • Operasyon sonrası kuyruk • Asistanı başlat • Asistanı durdur |
 
- 
+
 
 ## <a name="transferring-approved-registrations"></a>Onaylanan kayıtları transfer etme
 Kayıtların onaylanmasının ardından bunları periyodik bir bordro işine transfer edebilirsiniz. Transfer edilen bir kayıt bir faaliyet veya bir üretim emri veya proje gibi ilgili iş için deftere nakledilir. Bordro hareketleri kayıtlara dayalı her çalışan için oluşturulur.  

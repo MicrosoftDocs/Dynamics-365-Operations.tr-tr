@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="personnel-actions-faq"></a>Personel eylemleri [SSS]
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu konu, kuruluşununuz personel eylemleri kullanıyorsa sahip olabileceğiniz sorulara yanıtlar içerir. Personel eylemleri, personelle ilgili çeşitli görevleri gerçekleştirdiğinizde tamamlamanız gereken ek adımlardır. Personel eylemleri gerektirebilen görevlere örnekler arasında yeni pozisyonlar oluşturduğunuz, mevcut pozisyon değerlerini düzenlediğiniz, yeni çalışanları işe aldığınız, çalışanları transfer ettiğiniz, çalışan ücretini değiştirdiğiniz, pozisyon atamalarını değiştirdiğiniz veya çalışanların işine son verdiğiniz durumları içerebilir.
 
@@ -64,9 +64,9 @@ Personel eylemi listesi sayfalarından herhangi birini açın ve bir personel ey
 Bir personel eylemi talebi başarısız olursa, hatayı çözümlemek ve talebi yeniden göndermek için şu adımları izleyin:
 
 > 1. Sorunu açıklayan ileti metnini görmek için **Eylem Bölmesi** üzerinde **Hata metni** düğmesine tıklayın.
-
+> 
 > 2. **Eylem Bölmesi** üzerinde, en güncel bilgiyi yüklemek ve personel eyleminin durumunu **Taslak**'a geri çevirmek için **Yeniden etkinleştir** üzerine tıklayın.
-
+> 
 > 3. Hatayı çözümleyin ve sonra **Tamamlandı** veya **Gönder** üzerine tıklayın.
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>Son onay tamamlandığında iş akışı kullanan bir personel eylemine ne olur?

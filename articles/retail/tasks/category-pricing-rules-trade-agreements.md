@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a>Ticari sözleşmeler oluşturmak için kategori fiyatlandırma kuralları
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam, kategori fiyatlandırma kuralı kullanarak satış fiyatı ticaret anlaşmalarının nasıl oluşturulacağını göstermektedir. Bu görevi oluşturmak için kullanılan demo verisi şirketi USRT'dir. Bu görev, perakende ticaret yöneticisi rolü için hazırlanmıştır.
 

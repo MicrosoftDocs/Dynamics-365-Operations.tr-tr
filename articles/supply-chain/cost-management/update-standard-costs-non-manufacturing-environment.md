@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Standart maliyetleri imalat dışı bir ortamda güncelleme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, imalat dışı bir ortamda standart maliyetlerin güncellenmesine yönelik yönergeler sağlanmıştır.
 

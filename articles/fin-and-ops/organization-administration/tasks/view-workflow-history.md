@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-workflow-history"></a>İş akışı geçmişini görüntüle
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 İşlenmesi ve onaylanması için iş akışı sistemine gönderilen bir belgenin durumunu görüntülemek için bu adımları kullanın. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

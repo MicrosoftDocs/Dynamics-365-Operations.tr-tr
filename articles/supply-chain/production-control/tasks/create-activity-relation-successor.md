@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-activity-relation-successor"></a>Faaliyet ilişkisi oluşturma: Ardıl
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bir yalın imalat akışındaki faaliyetlerin akışı etkinlik ilişkileri üzerinden belgelenir. Bu kayıt, bir etkinlik ilişkisinin nasıl oluşturulacağını gösterir.
 

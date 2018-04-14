@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-bar-codes"></a>Barkodlar ayarlama
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu makalede, Microsoft Dynamics 365 for Retail'de barkodların nasıl kullanılacağı açıklanmaktadır.
 

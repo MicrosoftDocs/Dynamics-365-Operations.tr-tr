@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-an-operations-resource"></a>Operasyon kaynağı oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Operasyon kaynağı, bir projenin veya bir üretim işleminin etkinliklerini gerçekleştirir. Bu yordam, size bir operasyon kaynağının nasıl tanımlanacağını gösterir. Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz.
 

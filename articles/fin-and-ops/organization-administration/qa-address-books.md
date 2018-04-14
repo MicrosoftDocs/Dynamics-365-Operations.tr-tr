@@ -28,10 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="address-books-faq"></a>Adres defterleri SSS
 
-[!include[banner](../includes/banner.md)]
-
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <a name="how-do-i-check-for-duplicate-records"></a>Tekrarlanan kayıtları nasıl denetlerim?
 -------------------------------------

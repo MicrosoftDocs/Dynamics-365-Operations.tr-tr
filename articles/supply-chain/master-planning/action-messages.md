@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="action-messages"></a>Eylem iletileri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bir eylem mesajı, geçerli bir planlanmış veya kesinleştirilmiş siparişi değiştirmek için sistem tarafından oluşturulan bir öneridir.
 

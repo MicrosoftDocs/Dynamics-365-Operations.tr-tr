@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Hesap ve boyut kombinasyonları (segmentlere ayrılmış giriş kontrolü) girme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, hesap ve boyut birleşimlerinin veya genel muhasebe hesaplarının nasıl girileceği açıklanmaktadır. Giriş deneyimine sıklıkla bölümlenmiş giriş denetimi denir.
 
@@ -112,7 +111,7 @@ Aşağıdaki tabloda arama açıkken kullanılabilecek klavye kısayolları aç�
 </tbody>
 </table>
 
- 
+
 
 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-product"></a>Ürün oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam perakende ürün hiyerarşisinde nasıl yeni ürün oluşturulacağını gösterir. Bu görevi oluşturmak için kullanılan demo veri şirketi USRT'dir ve bu görev Satış Geliştirme Yöneticisi ve Ürün Tasarımcısı'na yöneliktir.
 

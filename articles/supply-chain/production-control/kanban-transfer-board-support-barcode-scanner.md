@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Barkod tarayıcıları desteği için kanban transfer panosu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kanban transfer panosunu, bir kanban işini Seçmek, Başlatmak, Tamamlamak ve Boşaltmak için bir pencere öğesi barkod tarayıcısından tarayıcı girişini destekler.
 
@@ -38,6 +37,7 @@ Kanban transfer panosunu, bir kanban işini Seçmek, Başlatmak, Tamamlamak ve B
 ------------------
 
 **Tarayıcı kaydı** FastTab sekmesinde, bir kanban kart numarasını seçtiğinizde veya manuel olarak numarayı Kanban kart numarası alanına yazdığınızda eylemi kontrol eden kayıt modunu seçebilirsiniz.
+
 | Kayıt modu ayarla | Açıklama                                                                                     |
 |-----------------------|-------------------------------------------------------------------------------------------------|
 | Başlangıç                 | Bir Kanban transfer işini devam eden olarak kaydeder.                                                 |

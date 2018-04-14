@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-orders"></a>Satış siparişleri oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu prosedür, size bir satış siparişinin nasıl oluşturulacağını göstermektedir. Bu prosedürü USMF demo veri şirketinde kullanabilirsiniz. Satış siparişleri genellikle bir satış siparişi işlemcisi tarafından oluşturulur. 
 

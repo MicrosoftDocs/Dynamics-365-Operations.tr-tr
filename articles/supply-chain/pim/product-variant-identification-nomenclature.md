@@ -29,7 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Ürün çeşidi numaraları ve adlarının terminolojisi
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, ürün numaraları terminolojisini, sabit [Ana ürün numarası - Yapılandırma - Ebat - Renk - Stil] biçimini değiştirmek için nasıl ayarlayabileceğinizi açıklar. Yeni terminoloji, ana ürün numarası, etkin ürün boyutları ve tercihiniz olan metin ayırıcılarını içeren hedeflenmiş bir biçime sahiptir. Ürün adları için bir terminoloji de oluşturabilirsiniz. Son olarak, kısıtlama tabanlı ürün yapılandırıcısı ile oluşturulan yapılandırmaları belirlemek için bir terminoloji oluşturabilirsiniz. Bu terminolojiler istediğiniz öznitelikleri içerebilir.
 

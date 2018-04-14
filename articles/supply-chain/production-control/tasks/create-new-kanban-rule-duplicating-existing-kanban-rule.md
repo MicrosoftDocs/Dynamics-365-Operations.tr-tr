@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a>Mevcut bir kuralı çoğaltarak yeni bir kanban kuralı oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, varolan bir kanban kuralının kopyasını oluşturmaya odaklanır. Varolan kanban kurallara dayalı yeni kanban kurallar oluşturmak istiyorsanız yararlıdır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam, değiştirilmiş bir üretim akışı ve yeni bir yenileme kuralı hazırlanırken kullanılması için işlem mühendisi veya değer akışı yöneticisi için hazırlanmıştır.
 

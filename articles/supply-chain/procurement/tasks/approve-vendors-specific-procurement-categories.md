@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>Belirli tedarik kategorileri için satıcıları onaylama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Satınalma talebi oluşturulduğunda satınalma ilkelerinin nasıl ayarlandığına bağlı olarak onaylanan veya tercih edilen bir satıcıyı seçmek gerekebilir. Bu prosedür belirli bir tedarik kategorisi için bir satıcının onaylanan veya tercih edilen olduğunu nasıl belirleyeceğinizi gösterir. Bu görev genellikle bir tedarik profesyoneli tarafından gerçekleştirilir. Bu yordamı USMF demo veri şirketinde kullanabilirsiniz.
 

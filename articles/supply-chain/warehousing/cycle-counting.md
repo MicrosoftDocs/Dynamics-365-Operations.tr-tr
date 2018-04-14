@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cycle-counting"></a>Döngü sayımı
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, sayım döngüsünü Ambar yönetiminde bulunan ambar çözümü ile birlikte nasıl kullanabileceğiniz açıklanmaktadır. Bu makale, Stok yönetiminde bulunan ambar çözümü için geçerli değildir.
 

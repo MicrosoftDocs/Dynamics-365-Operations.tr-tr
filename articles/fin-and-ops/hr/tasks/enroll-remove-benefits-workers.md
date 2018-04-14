@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Çalışanlara kazanç kaydetme ve çalışanlardan kazanç kaldırma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, tek bir çalışanın bir veya daha fazla kazançta veya birden çok çalışanın tek bir kazançta nasıl kaydedileceğini göstermektedir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

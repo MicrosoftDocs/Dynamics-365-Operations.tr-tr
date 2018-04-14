@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a>Maaş/ücret yapısı ve planları geliştirme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev kılavuzu, bir Sabit ücret planı oluşturma ve çalışanların uygunluk kuralları aracılığıyla plana kaydedilmesini sağlama konusunda açıklamalar içerir. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir ve bu görev Ücret ve Kazanç Yöneticilerine yöneliktir.
 

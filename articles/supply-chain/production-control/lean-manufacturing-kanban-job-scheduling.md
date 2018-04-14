@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Yalın üretim için Kanban iş planlama
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, kanban iş planlamaları üzerinde görsel denetim sağlamak ve kanban işlerini planlamak için çeşitli yöntemler hakkında bilgi sağlar.  
 

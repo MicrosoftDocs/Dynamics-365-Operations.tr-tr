@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-process-recurring-invoices"></a>Yinelenen faturalar oluşturma ve işleme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, yinelenen faturaların nasıl ayarlanıp işleneceği açıklanmaktadır. Müşterilere düzenli olarak aynı tutar için fatura kesmeniz gerekiyorsa, yinelenen faturalar kullanabilirsiniz.
 

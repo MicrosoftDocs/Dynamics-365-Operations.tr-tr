@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>İş ürün demetindeki işlere zaman atama
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 İmalat yürütmede, işleri gruplayabilirsiniz. Ardından İş listesi sayfasında birden fazla işi aynı anda başlatabilirsiniz.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="process-allocations"></a>Tahsisatları işleme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale; tahsisatlar, Microsoft Dynamics 365 for Finance and Operations'ta tahsisatları işleme seçenekleri ve bütçe planlamasında tahsisatların nasıl kullanılabileceği hakkında bilgiler sağlar. Tahsisatlar, tutarları birden fazla genel muhasebe hesabı birleşimleri arasında dağıtmak için kullanılır. Gider ve gelirlerin muhasebede doğru nesneye yazılmasının garanti altına alınmasına yardımcı olurlar.
 

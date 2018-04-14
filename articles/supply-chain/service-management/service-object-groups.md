@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-object-groups"></a>Servis nesne grupları 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Nesne grupları, raporlara ve istatistiklere yönelik nesneler hakkındaki verilerin sıralaması ve filtrelenmesi açısından yararlıdır. Örneğin, nesneleri coğrafi konuma veya türe göre gruplandırabilirsiniz.
 

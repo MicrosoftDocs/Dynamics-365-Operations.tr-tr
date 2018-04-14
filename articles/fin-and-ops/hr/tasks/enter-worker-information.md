@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-worker-information"></a>Çalışan bilgilerini girme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bir işe alma sorumlusu toplu işe alma projesini ve pozisyonları oluşturduktan sonra, bir sonraki adım işe alınan kişilerin çalışan bilgilerini girmektir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu demo, açık bir toplu işe alma projesi verilerini içerir. Bu prosedüre başlatmak için İnsan kaynakları > İşe alma > Toplu işe alma projeleri'ne gidin.
 

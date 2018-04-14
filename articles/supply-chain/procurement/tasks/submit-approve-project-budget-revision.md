@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="submit-and-approve-project-budget-revisions"></a>Proje bütçe revizyonlarını gönderme ve onaylama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, bir proje bütçesini düzeltme hakkında bilgi sağlar. Proje bütçesini gerektiği kadar çok kez düzeltebilirsiniz ancak bütçe birden fazla kez düzeltildiyse tek tek düzeltmelerin tutarını göremezsiniz. 
 

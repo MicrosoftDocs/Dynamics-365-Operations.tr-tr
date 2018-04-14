@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="elimination-rules"></a>Eleme kuralları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda, eleme kuralları ve elemeler hakkında raporlama için çeşitli seçenekler ile ilgili bilgiler verilmektedir.
 

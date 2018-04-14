@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Kaynak belgeler için denetim ilkeleri tanımlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu prosedür, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını gösterir. Örnekte, otel gideri türünde gider raporları kullanılmaktadır. Bu yordam, USMF demo şirketini kullanır. Denetçi rolü bu görevleri gerçekleştirmek için uygun izinleri içerir.
 

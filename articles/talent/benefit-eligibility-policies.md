@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="benefit-eligibility-policies"></a>Kazanca uygunluk ilkeleri
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu konu, kazanç uygunluk ilkeleri hakkında, belirli kazançlara uygun olan kişileri tanımlamanıza yardımcı olacak bilgiler verilmektedir.
 

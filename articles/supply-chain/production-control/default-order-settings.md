@@ -29,10 +29,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Boyutlar ve ürün çeşitleri için varsayılan sipariş ayarları
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Microsoft Dynamics 365 for Finance and Operations içindeki varsayılan sipariş ayarları maddelerin bulunduğu veya depolandığı tesisi ve ambarı, ticari veya stok yönetimi için kullanılacak minimum, maksimum, birden fazla ve standart miktarları, sağlama sürelerini, durdurma bayrağını ve sipariş taahhüt hesabını tanımlar. Varsayılan sipariş ayarları, satınalma siparişleri, satış siparişleri, transfer emirleri, stok günlükleri oluştururken ve master planlama ile planlı siparişler oluştururken kullanılır. Varsayılan sipariş ayarları maddeye, tesise, ürün çeşidine veya ürün boyutuna özel olabilir.
 

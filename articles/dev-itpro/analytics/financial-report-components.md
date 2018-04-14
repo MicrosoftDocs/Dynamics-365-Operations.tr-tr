@@ -28,14 +28,14 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="financial-report-components"></a>Mali rapor bileşenleri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede rapor tanımlarının bileşenlerinin veya yapı taşlarının finansal raporlamada nasıl kullanıldığı açıklanmaktadır. Bu yapı taşları satır tanımlarını, sütun tanımlarını ve raporlama ağacı tanımlarını içerir. Bu makalede yapı taşlarının nasıl düzenleneceği ve kilitleneceği açıklanmaktadır. 
 
 Finansal rapor tasarımcısının ardında yatan tasarım felsefesi bilgiyi en küçük bileşenlerine veya yapı taşlarına ayırmak ve bileşenleri gerektiği gibi karıştırıp eşleştirmektir. Bu nedenle rapor biçimlendirmeniz mali verilerinizden ayrıdır ve bir raporun tasarımını Microsoft Dynamics ERP sisteminizdeki mali verileri değiştirmeden değiştirebilirsiniz. Bu yapı taşı yaklaşımını kullanarak, ihtiyaç duyduğunuz raporları üretmek için metinleri, tutarları ve hesaplamaları birleştirebilirsiniz. Ayrıca, bu esneklik işlemlerinizi farklı yollarla görüntülemenizi kolaylaştırarak yaratıcılığı teşvik eder. Bir rapor tanımının bağımsız yapı taşları üç boyutlu bir elektronik tabloya benzer, ancak daha fazla güce sahiptir. Bir rapor tanımı, satır tanımı, sütun tanımı ve rapor için kullanılması gereken isteğe bağlı raporlama ağacı tanımını belirtir. Ayrıca oluşturulan raporun nerede saklanacağı ve nasıl biçimlendirileceği hakkında bilgiler içerir. 
 
 ## <a name="building-blocks-of-a-report"></a>Bir raporun yapı taşları
+
 | Yapı taşı            | Tanım                     | Daha fazla bilgi için                                    |
 |---------------------------|---------------------------------|---------------------------------------------------------|
 | Satır tanımı            | Satır tanımı bir rapordaki açıklayıcı satırları (örneğin, maaşlar veya satışlar) tanımlar. Ayrıca her kalemin değerlerini içeren segment değerlerini veya boyutlarını belirtir ve satır biçimlendirmesi ile hesaplamalarını içerir.                                                    | [Satır tanımları](row-definitions-financial-reporting.md)                       |

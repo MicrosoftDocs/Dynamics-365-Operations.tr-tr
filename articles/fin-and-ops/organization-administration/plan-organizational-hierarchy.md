@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-your-organizational-hierarchy"></a>Kuruluş hiyerarşinizi planlama
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations'da kuruluşlar ve kuruluş hiyerarşilerini ayarlamadan önce işinizin nasıl modellendirileceğini planladığınızdan emin olun. Kuruluş modelinin Finance and Operations'ın uygulanması ve iş süreçleri üzerinde önemli bir etkisi vardır. 
 
@@ -158,7 +157,7 @@ Yasalar ve muhasebe uygulamaları, organizasyonlarınızın bulunduğu ülkeler/
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Organizasyon bir işletme birimi olarak modellenmişse 
 Yasalar ve muhasebe uygulamaları, organizasyonlarınızın bulunduğu ülkeler/bölgelerde aynıysa, tek bir yıl sonu yordamları kümesi kullanabilirsiniz. Bu, organizasyonları işletme birimleri olarak modelleyebileceğiniz anlamına gelir. Tüm işletme birimlerinin aynı yıl sonu kapatma yordamını kullanması gerekir. 
-   
+
 ### <a name="number-sequences"></a>Numara serileri
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Organizasyon tüzel kişilik olarak modellenmişse
 Bazı referanslar için numara serileri tüzel kişilik başına ayarlanabilir. Bazı numara serileri paylaşılabilir. 

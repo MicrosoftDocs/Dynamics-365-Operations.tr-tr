@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-items-lent-to-workers"></a>Çalışanlara ödünç verilen öğeleri yönetme
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Ödünç verilen maddeler, yöneticilerin şirketin çalışanlarına ödünç verdiği fiziksel öğeleri izlemede yardımcı kayıtlardır. 
 
@@ -51,7 +50,7 @@ Yöneticiler doğrudan raporları aracılığıyla ödünç öğeleri görüntü
 
 Bir madde hasar görürse veya yanlış yere yerleştirilirse, hayali bir iade kaydı girin. Sonra maddeyi silin veya özet kısmında tutun ve maddenin kullanılamaz olduğunu belirtmek için açıklamasını değiştirin.
 
- 
+
 <a name="see-also"></a>Ayrıca bkz.
 --------
 

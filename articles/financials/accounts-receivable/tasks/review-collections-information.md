@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="review-collections-information"></a>Tahsilat bilgilerini gözden geçirme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, tahsilat bilgilerini gözden geçirmenin yanı sıra çeşitli seçenekleri ve tahsilat hareketlerini ayarlamayı adım adım açıklar. Bu yordam, USMF demo şirketini kullanır.
 

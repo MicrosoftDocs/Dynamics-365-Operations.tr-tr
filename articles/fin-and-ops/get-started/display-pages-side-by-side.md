@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="display-pages-side-by-side-using-the-open-in-new-window-icon"></a>Yeni Pencerede Aç simgesini kullanarak sayfaları yan yana görüntüleme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, Microsoft Dynamics 365 for Finance and Operations'da sayfaların yan yana nasıl görüntüleneceğini açıklar.
 

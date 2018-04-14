@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="registration-for-manufacturing-execution"></a>Üretim uygulama için kayıt
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu üretim yürütmeyi yapılandırmak ve kullanmak için anlamanız gereken temel kavramları ve koşulları açıklar. 
 

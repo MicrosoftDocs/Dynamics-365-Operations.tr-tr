@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-conditional-decision-in-a-workflow"></a>Bir iş akışında koşullu bir kararı yapılandırma
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Koşullu kararın özelliklerini yapılandırmak için aşağıdaki yordamı kullanın.
 

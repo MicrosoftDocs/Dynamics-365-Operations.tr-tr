@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="align-workforce-skills-with-business-needs"></a>İşgücü yeteneklerini iş ihtiyaçlarıyla uyumlu hale getirme
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Çalışanların, başvuranların veya ilgili kişilerin görevlerini etkili şekilde yerine getirmek için sahip olduğu veya sahip olması gereken yetenekleri izleyebilirsiniz. Ayrıca, belirli bir iş için gereken yetenekleri de belirtebilirsiniz.
 
@@ -55,8 +54,8 @@ Belirli türde bir görevi yerine getirmeye uygun nitelikte bir işçi, başvuru
 
 Yetenek eşleştirme profilleri, iş gereksinimlerine doğrudan karşılık gelen nitelikleri taşıyan mevcut çalışanları veya adayları bulmanıza olanak sağlar.  Örneğin, kuruluşunuzdaki bir açık pozisyon için yetenek eşleştirme profili oluşturabilirsiniz. Belirli bir iş için bir profil oluşturarak ve o işteki yetenekleri, eğitimi ve sertifikaları profile kopyalayarak profilde girilen bir veya daha fazla ölçüte uyan çalışanları, başvuranları ve ilgili kişileri hızlıca arayabilir ve bir iş için gereken yeteneklere en uygun adayların listesini görüntüleyebilirsiniz.
 
->**Not** Yalnızca yetenek eşleme aramalarına eklenmek üzere seçilen çalışanlar, başvuranlar ve ilgili kişiler bir yetenek eşleme sonuçları listesinde görüntülenebilir ya da yetenek profiline eklenebilir. Yetenek eşleme aramalarına bir çalışan, başvuran veya ilgili kişi eklemek için **Yetenek eşlemeye dahil et** seçimini aşağıdaki sayfalarda Evet olarak ayarlayın:
-
+> **Not** Yalnızca yetenek eşleme aramalarına eklenmek üzere seçilen çalışanlar, başvuranlar ve ilgili kişiler bir yetenek eşleme sonuçları listesinde görüntülenebilir ya da yetenek profiline eklenebilir. Yetenek eşleme aramalarına bir çalışan, başvuran veya ilgili kişi eklemek için **Yetenek eşlemeye dahil et** seçimini aşağıdaki sayfalarda Evet olarak ayarlayın:
+> 
 > + Çalışan
 > + Çalışan
 > + Başvuran

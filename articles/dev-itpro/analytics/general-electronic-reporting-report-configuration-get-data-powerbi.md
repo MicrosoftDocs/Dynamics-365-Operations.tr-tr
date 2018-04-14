@@ -27,8 +27,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Power BI'ya veri çekmek için Elektronik raporlamayı yapılandırma
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, verilerinizi Finance and Operations kurulumunuzdan Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı nasıl kullanacağınızı açıklar. Örnek olarak, bu konu Intrastat hareketlerini aktarılması gereken iş verileri olarak kullanır. Power BI harita görselleştirmesi, bu Intrastat hareket verilerini şirketin içe aktarma/dışa aktarma etkinliklerinin Power BI raporundaki analizinin bir görünümünü sunmak için kullanır.
 
@@ -118,9 +117,9 @@ Yeni hedef kaydı için **Ayarlar** düğmesine tıklayın. Daha sonra, **Hedef 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Yeni veri kümesini kullanarak Power BI raporu oluşturun
 1. Oluşturduğunuz **İçe aktarma ve dışa aktarma ayrıntıları** Power BI veri kümesine tıklayın. 
 2. Görselleştirmeyi yapılandırın. Örneğin, **Dolgulu harita** görselleştirmesini seçin ve aşağıdaki şekilde yapılandırın:
- -   Harita görselleştirmesinin **Konum** alanına **CountryOrigin** veri kümesi alanını atayın.
- -   Harita görselleştirmesinin **Renk doygunluğu** alanına **Miktar** veri kümesi alanını atayın.
- -   Harita görselleştirmesinin **Filtreler** alanları koleksiyonuna **Etkinlik** ve **Yıl** veri kümesi alanlarını ekleyin.
+   -   Harita görselleştirmesinin **Konum** alanına **CountryOrigin** veri kümesi alanını atayın.
+   -   Harita görselleştirmesinin **Renk doygunluğu** alanına **Miktar** veri kümesi alanını atayın.
+   -   Harita görselleştirmesinin **Filtreler** alanları koleksiyonuna **Etkinlik** ve **Yıl** veri kümesi alanlarını ekleyin.
 
 3. Power BI raporunu **İçe aktarma ve dışa aktarma ayrıntıları raporu** olarak kaydedin. [![Ayrıntılar raporu içe ve dışa aktarmak](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Haritanın Excel dosyasında belirtilen ülkeleri/bölgeleri (bu örnekte Avusturya ve İsviçre) gösterdiğine dikkat edin. Bu ülkeler/bölgeler her biri için faturalanan miktarların oranını gösterecek şekilde renklendirilmiştir. 
 4. Intrastat hareketlerin listesini güncelleştirin. İtalya'dan kaynaklanan dışa aktarma hareketi eklendi. [![Intrastat hareketleri listesi](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png) 

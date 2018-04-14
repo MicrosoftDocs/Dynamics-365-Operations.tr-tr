@@ -24,7 +24,7 @@ ms.lasthandoff: 02/13/2018
 ---
 # <a name="create-routes-february-2016-only"></a>Rotalar oluşturma (yalnızca Şubat 2016)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev, tamamlanmış bir ürün ve yarı mamul bir ürün için üretim rotalarını oluşturmaya odaklanır. Ürün reçetesi hesaplaması serisindeki beşinci görevdir. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Ücret işlemini tanımlama ve sonuçları hesaplama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Ücret işlemleri, sabit ve değişken ücret planlarında kayıtlı çalışanlar için yeni ücret tutarlarını ve ödülleri belirlemek için kullanılır. Tüm değişikliklerin ve ayarların doğruluğunu onaylamak amacıyla "ne yapmalı" analizlerini gerçekleştirmek için birden çok defa çalıştırılabilir. Bu yordam bir ücret işlemi oluşturur, işlemi çalıştırır ve sonuçları görüntüler. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

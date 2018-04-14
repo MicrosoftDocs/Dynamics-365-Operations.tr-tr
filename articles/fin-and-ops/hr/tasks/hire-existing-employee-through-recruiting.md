@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-an-existing-employee-through-recruiting"></a>Mevcut bir personeli işe alma yoluyla istihdam etme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bazen açık pozisyonlar, kuruluşunuzda halihazırda personel konumunda olan olan adaylar tarafından doldurulabilir. Bu yordam, mevcut bir personelin işe alma süreciyle işe alınması adımlarını gösterecektir. Bu yordamda, bir işe alma projesi zaten ayarlanmıştır ve mevcut bir personel zaten bu işe alma projesine bir başvuru göndermiştir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

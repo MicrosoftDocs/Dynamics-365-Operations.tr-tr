@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-dimensions-and-posting"></a>Mali boyutlar ve deftere nakletme 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Hesap planınızı planladığınızda ve ayarladığınızla, bir belgeyi veya günlüğü deftere naklettiğinizde çeşitli bileşenlerin nasıl çalışacağını dikkate almanız gerekir. Bu bileşenler hesap yapıları, gelişmiş kurallar ve bilanço ve sabit boyutları içerir. Bu konu, her bir bileşenin en olduğunu ve bileşenlerin birlikte nasıl çalıştığını açıklar.
 

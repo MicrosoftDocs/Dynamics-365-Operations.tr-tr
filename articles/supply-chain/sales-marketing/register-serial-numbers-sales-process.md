@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="register-serial-numbers-in-the-sales-process"></a>Satış işleminde seri numaralarını kaydetme
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Bu konuda, satış işlemi sırasında sevk irsaliyeleri veya faturalar üzerine seri numaralarını nasıl kaydedeceğiniz açıklanmaktadır. Bu işlev, bir şirket servis veya garanti amaçlı olarak seri numaralarını tutmak istediğinde ancak seri numaralarını girişten çıkışa stokta tutması gerekmediğinde kullanışlıdır.
 

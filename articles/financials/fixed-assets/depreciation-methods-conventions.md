@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="depreciation-methods-and-conventions"></a>Amortisman yöntemleri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, Microsoft Dynamics 365 for Finance and Operations tarafından desteklenen amortisman dönüştürmelerine ve amortisman yöntemlerine genel bir bakış sağlar.
 
@@ -62,7 +61,7 @@ Aşağıdaki amortisman yöntemlerinden birini seçebilirsiniz.
 -   %150 azalan bakiye
 -   %125 azalan bakiye
 
- 
+
 
 
 

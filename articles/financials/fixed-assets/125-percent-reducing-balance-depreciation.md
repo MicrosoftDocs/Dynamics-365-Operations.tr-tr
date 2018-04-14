@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="125-percent-reducing-balance-depreciation"></a>Yüzde 125 azalan bakiyeli amortisman
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, amortismanın Yüzde 125 Azalan bakiye yöntemi hakkında genel bir bakış sağlar.
 
@@ -68,6 +67,7 @@ Amortisman yılı olarak **Mali** seçerseniz, **Dönem sıklığı** alanında 
 -   **Mali dönem**, mali yıl için hesaplanan toplam amortisman tutarını nakleder. Bu tutar, **Mali Takvimler** sayfası üzerinde tanımlanan mali dönemlere tahakkuk edilir.
 
 ## <a name="example-of-125-reducing-balance-depreciation"></a>%125 azalan bakiyeli amortisman örneği
+
 |                                |        |
 |--------------------------------|--------|
 | Alım maliyeti               | 11.000 |

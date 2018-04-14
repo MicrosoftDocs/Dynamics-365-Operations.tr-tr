@@ -28,8 +28,7 @@ ms.lasthandoff: 11/15/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Alacak hesapları, Alacak ve Tahsilatları yapılandır
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Faturaları ve müşterilerden gelen ödemeleri izlemek için Alacak hesaplarını ve Alacak ve Tahsilatları yapılandırın.
 
@@ -107,7 +106,7 @@ Aşağıdaki tablo, Alacak hesapları ve kredi ve tahsilatların yapılandırma 
 |                                                      | NSF bilgisi                     | Banka hesabındaki bir ödemenin Tahsilatlar sayfasında bir NSF hareketi olarak işaretlendiğinde, kullanılacak NSF bilgilerini ayarlayın.                                                                                                                                              |
 |                                                      | Satış temsilcisi bilgileri              | Satış temsilcileri için e-posta adresi ayarlayın. Bu adresler Tahsilatlar sayfasında görünür ve bu sayfadan bir satış temsilcisine e-posta göndermek için kullanabilirsiniz.                                                                                                                |
 
- 
+
 Daha fazla bilgi için bkz. [Alacak hesaplarındaki borç ve alacaklar](collections-credit-accounts-receivable.md).
 
 

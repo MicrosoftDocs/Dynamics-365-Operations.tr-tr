@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="map-components-of-the-created-format-to-data-model-elements-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için oluşturulan biçimin bileşenlerini veri modeli öğelerine eşleme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Aşağıdaki yordam, Sistem yöneticisi veya Elektronik raporlama geliştirici rolüne sahip bir kullanıcının, veri modeli öğelerini ödemeler iş etki alanı için bir elektronik dosya biçimini tanımlayan, oluşturulmuş Elektronik raporlama (ER) yapılandırmasının bileşenlerine nasıl eşleyebileceğini gösterir. Bu biçim daha sonra ödeme işlemleri için elektronik belgeler oluşturmak üzere kullanılır. Bu örnekte, 'Litware, Inc.' örnek şirketi için bir biçim yapılandırması oluşturacaksınız. Bu adımlar, ER yapılandırmaları tüm şirketlerde paylaşıldığı için herhangi bir şirkette gerçekleştirilebilir. Bu adımları tamamlamak için öncelikle "Bir biçim yapılandırması oluşturma" görev kılavuzundaki adımları tamamlamalısınız.
 

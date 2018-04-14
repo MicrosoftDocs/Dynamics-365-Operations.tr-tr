@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="retail-peripherals-overview"></a>Perakende çevre birimlerine genel bakış
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu konu, perakende çevre birimleriyle ilgili kavramları açıklar. Bu çevre birimlerinin satış noktasına (POS) bağlanmasıyla ilgili çeşitli yollar ve POS ile bağlantı yönetiminden sorumlu olan bileşenler açıklanmaktadır.
 

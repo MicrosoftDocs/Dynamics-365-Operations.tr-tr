@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="post-an-expense-report"></a>Gider raporunu deftere nakletme
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bir gider raporu, onaylanmasından ve genel günlüğe aktarılmasından sonra genel muhasebeye nakledilebilir. Gider raporunu deftere naklettiğinizde, katma değer vergisi (KDV) iadesi uyun olan giderler tanımlanır. KDV ödemelerini doğrulama ve iade görevi gider raporunu doğrulamakla sorumlu personele atanır.
 

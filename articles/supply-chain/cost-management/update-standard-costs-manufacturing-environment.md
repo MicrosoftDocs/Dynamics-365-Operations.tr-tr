@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>Bir üretim ortamındaki standart maliyetleri güncelleştirme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, bir üretim ortamındaki standart maliyetleri güncelleştirme konusunda rehberlik sağlar. 
 

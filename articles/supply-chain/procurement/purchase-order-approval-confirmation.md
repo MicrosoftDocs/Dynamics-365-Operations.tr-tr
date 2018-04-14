@@ -28,9 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="approve-and-confirm-purchase-orders"></a>Satınalma siparişlerini onaylama ve doğrulama
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Bu makalede oluşturulduktan sonra bir satınalma siparişinin (PO) geçtiği durumlar ve değişiklik yönetiminin etkinleştirilmesinin PO'lara etkisi tanımlanır.
 

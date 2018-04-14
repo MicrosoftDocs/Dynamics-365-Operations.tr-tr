@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>Kategori hiyerarşilerini kullanarak bir ürünü sınıflandırma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Dışa aktarma, tedarik etme, satış ve diğer amaçlar için kategori hiyerarşilerini kullanın. Bu görev, genel olarak bir ürün yöneticisi tarafından gerçekleştirilir. Örnek, demo veri şirketi USMF'de M0009 ürün numarasını kullanır.
 
