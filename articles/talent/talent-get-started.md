@@ -33,7 +33,7 @@ Microsoft Dynamics 365 for Talent'ta kullanıcı arabirimini değiştirmek ve se
 > [!NOTE] 
 > Aşağıdaki ürünler yakından ilişkilidir: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail ve Dynamics 365 for Talent. Aynı işlev, her 3 üründe de görülebilir. Sonuç olarak, Perakende ile ilişkili olan konularda, ürün adı Dynamics 365 for Retail olacaktır; öncelikli olarak Talent ile ilgili konularda, ürün adı Dynamics 365 for Talent olacaktır ve temel ürünle ilgili konularda, ürün adı Dynamics 365 for Finance and Operations olacaktır. Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.
 
-### <a name="personalizing-talent"></a>Talent'ı kişiselleştirme 
+## <a name="personalizing-talent"></a>Talent'ı kişiselleştirme 
 Aşağıda konular Dynamics 365 for Talent'ta bulunan ve işinizi zamanında kolayca tamamlamanızı sağlayan birçok özelliği nasıl ayarlayabileceğinizi göstermektedir. 
 
 -   [Kullanıcı deneyimini kişiselleştirme](../fin-and-ops/get-started/personalize-user-experience.md) - Bu konu Talent'ı kişiselleştirmek ve ürünün parçalarını tercihlerinizi en iyi karşılayacak şekilde uyarlamak için kullanabileceğiniz farklı yolları açıklar.
@@ -44,7 +44,7 @@ Aşağıda konular Dynamics 365 for Talent'ta bulunan ve işinizi zamanında kol
 
 -   [Klavye kısayolları](../fin-and-ops/get-started/shortcut-keys.md) - Bu konu, Amerika Birleşik Devletleri klavye düzeni için klavye kısayollarını listeler. 
 
-### <a name="accessing-information"></a>Bilgilere erişme
+## <a name="accessing-information"></a>Bilgilere erişme
 Aşağıdaki konular aramaları, arama ve filtreleme özelliklerini bilgileri daha hızlı bulmak amacıyla nasıl kullanabileceğinizi açıklar. 
 
 -   [Bilgileri bulmak için aramaları kullanma](../fin-and-ops/get-started/use-lookups-to-find-information.md) - Bu konu, aramaların doğru veya istenen değeri hızlıca bulmanıza nasıl yardımcı olabileceğini açıklar. Bu konuda aramaların nasıl çalıştığı açıklanmakta ve bunları en iyi şekilde kullanmanıza yardımcı olacak ipuçları sağlanmaktadır.
