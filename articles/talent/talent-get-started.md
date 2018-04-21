@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a8c2d097626fad905741c35ffa8c13336f8735b9
+ms.sourcegitcommit: 3662bb1a20fbdd3769b94247ac071a7cfd7e04f1
+ms.openlocfilehash: 94c07d18de06a75ad86d69d7c06a78e446f0b506
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/20/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="9e333-103">Microsoft Dynamics 365 for Talent kullanmaya başlama</span><span class="sxs-lookup"><span data-stu-id="9e333-103">Getting started with Microsoft Dynamics 365 for Talent</span></span>
@@ -33,7 +33,7 @@ ms.lasthandoff: 04/13/2018
 > [!NOTE] 
 > <span data-ttu-id="9e333-107">Aşağıdaki ürünler yakından ilişkilidir: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail ve Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="9e333-107">The following products are closely related: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; and Dynamics 365 for Talent.</span></span> <span data-ttu-id="9e333-108">Aynı işlev, her 3 üründe de görülebilir.</span><span class="sxs-lookup"><span data-stu-id="9e333-108">The same functionality may appear in all 3 products.</span></span> <span data-ttu-id="9e333-109">Sonuç olarak, Perakende ile ilişkili olan konularda, ürün adı Dynamics 365 for Retail olacaktır; öncelikli olarak Talent ile ilgili konularda, ürün adı Dynamics 365 for Talent olacaktır ve temel ürünle ilgili konularda, ürün adı Dynamics 365 for Finance and Operations olacaktır.</span><span class="sxs-lookup"><span data-stu-id="9e333-109">As a result, in topics that are primarily related to Retail, the product name will be Dynamics 365 for Retail; in topics that are primarily related to Talent, the product name will be Dynamics 365 for Talent; and in topics that are related to the core product, the product name will be Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="9e333-110">Tek ürün için hazırlanan konular ilgili bir üründeki aynı işlev için geçerli olabilir.</span><span class="sxs-lookup"><span data-stu-id="9e333-110">Topics that are written for one product may apply to the same functionality in a related product.</span></span>
 
-### <a name="personalizing-talent"></a><span data-ttu-id="9e333-111">Talent'ı kişiselleştirme</span><span class="sxs-lookup"><span data-stu-id="9e333-111">Personalizing Talent</span></span> 
+## <a name="personalizing-talent"></a><span data-ttu-id="9e333-111">Talent'ı kişiselleştirme</span><span class="sxs-lookup"><span data-stu-id="9e333-111">Personalizing Talent</span></span> 
 <span data-ttu-id="9e333-112">Aşağıda konular Dynamics 365 for Talent'ta bulunan ve işinizi zamanında kolayca tamamlamanızı sağlayan birçok özelliği nasıl ayarlayabileceğinizi göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="9e333-112">The following topics show how to set up many features in Dynamics 365 for Talent that make it easier for you to get your work done in a timely manner.</span></span> 
 
 -   <span data-ttu-id="9e333-113">[Kullanıcı deneyimini kişiselleştirme](../fin-and-ops/get-started/personalize-user-experience.md) - Bu konu Talent'ı kişiselleştirmek ve ürünün parçalarını tercihlerinizi en iyi karşılayacak şekilde uyarlamak için kullanabileceğiniz farklı yolları açıklar.</span><span class="sxs-lookup"><span data-stu-id="9e333-113">[Personalize the user experience](../fin-and-ops/get-started/personalize-user-experience.md) - This topic explains the different ways in which you can personalize Talent and adapt parts of the product to more closely suite your preferences.</span></span>
@@ -44,7 +44,7 @@ ms.lasthandoff: 04/13/2018
 
 -   <span data-ttu-id="9e333-117">[Klavye kısayolları](../fin-and-ops/get-started/shortcut-keys.md) - Bu konu, Amerika Birleşik Devletleri klavye düzeni için klavye kısayollarını listeler.</span><span class="sxs-lookup"><span data-stu-id="9e333-117">[Keyboard shortcuts](../fin-and-ops/get-started/shortcut-keys.md) - This topic lists keyboard shortcuts for the United States keyboard layout.</span></span> 
 
-### <a name="accessing-information"></a><span data-ttu-id="9e333-118">Bilgilere erişme</span><span class="sxs-lookup"><span data-stu-id="9e333-118">Accessing information</span></span>
+## <a name="accessing-information"></a><span data-ttu-id="9e333-118">Bilgilere erişme</span><span class="sxs-lookup"><span data-stu-id="9e333-118">Accessing information</span></span>
 <span data-ttu-id="9e333-119">Aşağıdaki konular aramaları, arama ve filtreleme özelliklerini bilgileri daha hızlı bulmak amacıyla nasıl kullanabileceğinizi açıklar.</span><span class="sxs-lookup"><span data-stu-id="9e333-119">The following topics explain how to use lookups, and the search and filtering features, to find information quickly.</span></span> 
 
 -   <span data-ttu-id="9e333-120">[Bilgileri bulmak için aramaları kullanma](../fin-and-ops/get-started/use-lookups-to-find-information.md) - Bu konu, aramaların doğru veya istenen değeri hızlıca bulmanıza nasıl yardımcı olabileceğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="9e333-120">[Use lookups to find information](../fin-and-ops/get-started/use-lookups-to-find-information.md) - This topic shows how lookups can help you quickly find the correct or desired value.</span></span> <span data-ttu-id="9e333-121">Bu konuda aramaların nasıl çalıştığı açıklanmakta ve bunları en iyi şekilde kullanmanıza yardımcı olacak ipuçları sağlanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="9e333-121">The topic describes how lookups work and includes tips to help you optimize your use of them.</span></span>
