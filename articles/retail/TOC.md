@@ -31,9 +31,9 @@
 ## [Çağrı merkezi katalogları](call-center-catalogs.md)
 ## [Çağrı merkezi kataloğu oluşturma](create-call-center-catalogs.md)
 ## [Sahtekarlık uyarılarını ayarlama](set-up-fraud-alerts.md)
-## [Sipariş işleme seçeneklerini ayarlama](set-up-order-processing-options.md)
+## [Çağrı merkezi ayarlama](set-up-order-processing-options.md)
 ## [Çağrı merkezi için bir süreklilik programı kurma](set-up-continuity-program.md)
-## [Sipariş tutmaları](work-with-order-holds.md)
+## [Sipariş tutmalar](work-with-order-holds.md)
 ## [Ödeme seçenekleri](work-with-payments.md)
 
 # Kanal kurulumu ve yönetimi
@@ -47,8 +47,9 @@
 # Modern Point of Sale (MPOS) ve Cloud POS
 ## [Modern POS ile Cloud POS arasında seçim yapma](MPOS-or-CPOS.md)
 ## [POS işlemleri, çevrimiçi ve çevrimdışı](pos-operations.md)
-## [MPOS/CPOS'taki tanıtım verileri ekran düzenleri](demo-data.md)
-## [Satış Noktasında ürün ve müşteri aramaya genel bakış](POS-search-improvements.md)
+## [MPOS/CPOS'taki tanıtım verileri ekranı düzenleri](demo-data.md)
+## [Satış Noktası içinde ürün ve müşteri aramaya genel bakış](POS-search-improvements.md)
+## [Satış Noktasında stok araması](product-variants-POS.md)
 ## Donanım çevre birimleri
 ### [Perakende çevre birimlerine genel bakış](retail-peripherals-overview.md)
 ### [Microsoft tarafından test edilen POS donanımı çevre birimleri](microsoft-tested-pos-hardware-peripherals.md)
@@ -96,6 +97,7 @@
 ## [RFM analizi ayarlama](set-up-rfm-analysis.md)
 
 # İskontolar ve fiyat ayarlamaları
+## [Perakende satış fiyatı yönetimi](price-management.md)
 ## [Fiyat ayarlamaları ve iskontolar](price-adjustments-discounts.md)
 ## [Çakışan iskontolar için en uygun birleşimi belirleme](optimal-combination-overlapping-discounts.md)
 ## [Kanala özel iskontolar tanımlama](define-channel-specific-discounts.md)
@@ -139,14 +141,18 @@
 ## [İşin bileşenlerini ayarlama](../talent/create-job.md)
 
 # Yerelleştirme ve mevzuat özellikleri
+## Fransa
+### [Fransa için yazar kasalar](localizations/emea-fra-cash-registers.md)
+### [Fransa için yazar kasalara ilişkin dağıtım kılavuzları](localizations/emea-fra-deployment.md)
 ## Hindistan
-### [Hindistan için yazar kasalara ilişkin GST tümleştirmesi](localizations/apac-ind-cash-registers.md)
+### [Yazar kasalara ilişkin GST tümleştirmesi](localizations/apac-ind-cash-registers.md)
 ### [Hindistan için yazar kasalara ilişkin dağıtım kılavuzları](localizations/apac-ind-loc-deployment-guidelines.md)
 ## Norveç
 ### [Norveç için yazar kasalar](localizations/emea-nor-cash-registers.md)
 ### [Norveç için yazar kasalara ilişkin dağıtım kılavuzları](localizations/emea-nor-loc-deployment-guidelines.md)
 ## İsveç
 ### [İsveç için yazar kasalar](localizations/emea-swe-cash-registers.md)
+### [Kontrol birimleriyle Retail POS tümleştirmesi örneği](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
 
 # Retail görevleri
 ## [Ürün oluşturma](../supply-chain/pim/tasks/create-product.md)
@@ -257,9 +263,10 @@
 ### [Çevrimiçi mağaza yapılandırma](dev-itpro/configure-online-store.md)
 ### [Kimlik doğrulama sağlayıcılarını yapılandırma](dev-itpro/configure-authentication-providers.md)
 ### [e-Ticaret platformu](dev-itpro/ecommerce-platform.md)
-### [e-ticaret platformu SDK](dev-itpro/ecommerce-platform-sdk.md)
+### [e-ticaret platformu SDK'sı](dev-itpro/ecommerce-platform-sdk.md)
 
 ## Ödeme bağlayıcısı genişletilebilirliği
+### [Bir ödeme terminaliyle ödeme tümleştirmesi](dev-itpro/end-to-end-payment-extension.md)
 ### [Ödeme bağlayıcısı ve ödeme cihazı uygulama (teknik rapor)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
 ### [Ödeme bağlayıcısı dağıtma](dev-itpro/deploy-payment-connector.md)
 ### [Ödeme bağlayıcısı için Windows yükleyicisi oluşturma](dev-itpro/create-windows-installer-payment-connector.md)
@@ -268,8 +275,9 @@
 ### [Retail SDK'yı sürekli oluşturma sistemiyle tümleştirme](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [Retail SDK genişletilebilirlik örnekleri](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [Retail SDK paketleme](dev-itpro/retail-sdk/retail-sdk-packaging.md)
-### [Retail SDK örnekleri](dev-itpro/retail-sdk/retail-sdk-samples.md)
-### [Kanal veritabanı (DB) uzantıları](dev-itpro/channel-db-extensions.md)
+### [Retail SDK örnekleri ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+#### [Sevk irsaliyeleri için genişletme noktaları](dev-itpro/extensions-shipping-carrier-integration.md)
+### [Kanal veritabanı (DB) genişletmeleri](dev-itpro/channel-db-extensions.md)
 ### [CDX genişletilebilirliği](dev-itpro/cdx-extensibility.md)
 ### [Sipariş öznitelikleri](dev-itpro/order-attributes.md)
 ### [Müşteri öznitelikleri](dev-itpro/customer-attributes.md)

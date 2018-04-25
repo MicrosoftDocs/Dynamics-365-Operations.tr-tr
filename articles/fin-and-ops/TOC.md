@@ -1,3 +1,4 @@
+
 # [Dynamics 365 for Finance and Operations](index.md)
 
 ## Başlayın
@@ -17,12 +18,14 @@
 ##### [Finance and Operations (şirket içi) satın alma](get-started/purchase-on-premises.md)
 
 ### [Yenilikler veya değişenler](get-started/whats-new-changed.md)
+#### [Yazılım yaşam döngüsü ilkesi ve bulut sürümleri](../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json)
+#### [Yazılım yaşam döngüsü ilkesi ve şirket içi sürümler](../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json)
 #### [Kaldırılan veya artık kullanılmayan özellikler](../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json)
 #### [Ertelenen AX 2012 özellikleri](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [Şirket içi dağıtımlarda uygulanmayan özellikler](get-started/features-not-implemented-on-prem.md)
+#### [Finance and Operations 8.0 (Nisan 2018)](get-started/whats-new-changed-8-0-April-2018.md)
 #### [Platform update 15 (Mart 2018)](get-started/whats-new-platform-update-15.md)
-#### [Sürümler ve yaşam döngüsü ilkesi](../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json)
-#### [Şirket içi dağıtımlar (Mart 2018)](get-started/whats-new-LBD-PU12-App72.md)
+#### [Platform update 12 ile birlikte 7.2 sürümü şirket içi dağıtımları, (Mart 2018)](get-started/whats-new-LBD-PU12-App72.md)
 #### [Finance and Operations, Enterprise edition 7.3](get-started/whats-new-application-7.3-update.md)
 #### [Platform update 12 (Kasım 2017)](get-started/whats-new-platform-update-12.md)
 #### [Platform update 11 (Ekim 2017)](get-started/whats-new-platform-update-11.md)
@@ -162,6 +165,10 @@
 ###### [Sales'teki satış teklifi başlıklarını ve satırlarını doğrudan Finance and Operations ile eşitleme](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
 ###### [Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ###### [Finance and Operations'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+##### [Field Service ile tümleştirmeyi yapılandırma](../supply-chain/sales-marketing/field-service.md)
+###### [Finance and Operations'taki ürünleri Field Service'daki ürünlerle eşitleme](../supply-chain/sales-marketing/field-service-product.md)
+###### [Field Service'daki iş emirlerini Finance and Operations'taki satış siparişleriyle eşitleme](../supply-chain/sales-marketing/field-service-work-order.md)
+###### [Field Service'daki sözleşme faturalarını Finance and Operations'taki serbest metin faturalarıyla eşitleme](../supply-chain/sales-marketing/field-service-invoice.md)
 
 
 #### [Harici web hizmetleri kullanma](../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json)
@@ -194,10 +201,12 @@
 #### [Devralma modelleri](../dev-itpro/data-entities/support-super-type-sub-type.md?toc=/fin-and-ops/toc.json)
 #### [Veri varlığı sihirbazı kuralları](../dev-itpro/data-entities/data-entity-wizard-rules.md?toc=/fin-and-ops/toc.json)
 #### [Mera veri özellikleri](../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/fin-and-ops/toc.json)
-#### [Doğrulamalar, varsayılanlar ve eşlenmeyen alanlar](../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/fin-and-ops/toc.json)
+#### [Doğrulamalar, varsayılanlar ve eşlenmemiş alanlar](../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/fin-and-ops/toc.json)
 #### [Güvenlik ve veri varlıkları](../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json)
 
 ### [Kendi veritabanınızı getirme](../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json)
+
+### [Veri görevi otomasyonu](../dev-itpro/data-entities/data-task-automation.md)
 
 ## [Mali yönetim](../financials/index.md)
 
@@ -752,8 +761,9 @@
 #### [AB satış listesi raporlaması](../financials/localizations/emea-eu-sales-list.md)
 #### [Döviz kuru ayarlamaları](../financials/localizations/emea-exchange-rate-adjustments.md)
 #### [Ödeme yöntemlerine ait dosya biçimleri](../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md)
-#### [Mali hizmet (ESR) tümleştirmesi](../financials/localizations/emea-fiscal-service-integration.md)
+#### [Mali hizmeti (ESR) tümleştirme](../financials/localizations/emea-fiscal-service-integration.md)
 #### [Estonya ve Litvanya için sabit kıymetleri elden çıkarma](../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+#### [Yabancı para birimi yeniden değerleme işlemi](../financials/localizations/emea-foreign-currency-revaluation.md)
 #### [Şirket içi stok transferi için bir transfer belgesi oluşturma](../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md)
 #### [AB Instrastat beyanı oluşturma](../financials/localizations/tasks/eur-00002-eu-intrastat-declaration.md)
 #### [AB satış listesi raporu oluşturma](../financials/localizations/tasks/eur-00011-eu-sales-list-report.md)
@@ -809,13 +819,7 @@
 
 #### [Avusturya](../financials/localizations/austria.md)
 
-#### Belçika
-##### [CODA banka ekstresi](../financials/localizations/emea-bel-coda-bank-statement-import.md)
-##### [Hareket oluşturma ve BLWI'ya transfer etme](../financials/localizations/tasks/be-00011-create-transfer-blwi.md)
-##### [Intervat vergi beyannamesi](../financials/localizations/emea-bel-intervat-tax-declaration.md)
-##### [PRODCOM raporu ayarı](../financials/localizations/emea-bel-prodcom-report.md)
-##### [Mutabakat raporları](../financials/localizations/emea-bel-reconciliation-reports.md)
-##### [Ödeme bakiyesi raporlamasını ayarlama](../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md)
+#### [Belçika](../financials/localizations/belgium.md)
 
 #### [Çek Cumhuriyeti](../financials/localizations/czech-republic.md)
 
@@ -833,6 +837,7 @@
 ##### [Ödeme makbuzu biçimini ayarlama](../financials/localizations/tasks/set-up-payment-slip-format.md)
 
 #### Estonya
+##### [Kişisel bilgi talepleri](../financials/localizations/emea-est-personal-info.md)
 ##### [KDV beyanı](../financials/localizations/emea-est-vat-statement-details.md)
 
 #### Fransa
@@ -859,6 +864,9 @@
 ##### [RB/SL amortismanı](../financials/localizations/emea-fra-rbsl-depreciation.md)
 ##### [Ödeme yöntemi ayarlama](../financials/localizations/tasks/fr-00004-setup-method-payment.md)
 ##### [Müşterinin ödeme yöntemini güncelleştirme](../financials/localizations/tasks/fr-00004-update-method-payment-customer.md)
+##### Retail
+###### [Yazar kasalar](../retail/localizations/emea-fra-cash-registers.md)
+###### [Yazar kasalara ilişkin dağıtım kılavuzları](../retail/localizations/emea-fra-deployment.md)
 
 #### Almanya
 ##### [Ek alım amortismanı](../financials/localizations/emea-deu-additional-acquisition-depreciation.md)
@@ -877,6 +885,7 @@
 ##### [Sabit kıymet amortisman yöntemleri](../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)
 ##### [Düşük maliyetli sabit kıymetler](../financials/localizations/emea-hun-low-cost-fixed-assets.md)
 ##### [Sabit kıymeti stoğa taşıma](../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+##### [Vergi iadesi belgeleri](../financials/localizations/emea-hun-tax-reimbursement-docs.md)
 
 #### İzlanda
 ##### [Satıcı hesabı oluşturma ve fatura beyanı kategorisini iliştirme](../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md)
@@ -891,6 +900,7 @@
 ##### [Sabit kıymetlerin amortismanı](../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
 ##### [Modello 770](../financials/localizations/emea-ita-modello770.md)
 ##### [Faturalarda sevk irsaliyesi tarihi doğrulama](../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
+##### [Taşıma teslimat ayrıntılarını içeren sevk irsaliyesini deftere nakletme ve yazdırma](../financials/localizations/emea-ita-packing-slip.md)
 ##### [Satış vergisi defterleri](../financials/localizations/emea-ita-fiscal-books.md)
 ##### [Kamu İdaresi için düzenlenen faturalarda bölünmüş ödeme](../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
 ##### [Stopaj vergisi](../financials/localizations/emea-ita-withholding-tax.md)
@@ -945,6 +955,7 @@
 ##### [Satış ve satınalma döngüleri](../financials/localizations/emea-esp-sales-purchase-cycle.md)
 ##### [Özel girişler ve açılış tabloları](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### İsveç
+##### [İsveç'te denetçiler için mali bilgileri dışa aktarma](../financials/localizations/emea-swe-sie-standard-report.md)
 ##### [Ödeme biçimlerini içe aktarma](../financials/localizations/emea-swe-payment-formats-import.md)
 ##### [Yazar kasalar](../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json)
 #### İsviçre
@@ -1075,7 +1086,7 @@
 #### [Tüzel kişilikler arasında İK parametreleri ayarlama](../talent/set-up-hr-parameters-across-legal-entities.md)
 #### [Şirkete özgü İK parametrelerini ayarlama](../talent/set-up-company-specific-hr-parameters.md)
 #### [Personel eylemleriyle ilgili SSS](../talent/personnel-actions-faq.md)
-#### [Personel bilgilerini yönetmek için iş akışını kullanma](../talent/workflow-manage-employee-information.md)
+#### [Personel bilgilerini yönetmek için iş akışı kullanma](../talent/workflow-manage-employee-information.md)
 
 ### İşe alma
 #### [İşe alma sürecini yönetme](hr/manage-recruiting-process.md)
@@ -1218,7 +1229,8 @@
 #### [Belge Raporlama Hizmetlerine genel bakış](../dev-itpro/analytics/document-reporting-services.md?toc=/fin-and-ops/toc.json)
 #### [Şirket içi dağıtım için SSRS yapılandırma](../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json)
 #### [Yazdırma](../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json)
-##### [Ağ yazıcısı cihazlarını etkinleştirmek için Belge Yönlendirme Aracısını yükleme](../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json)
+##### [Ağ yazıcısı cihazlarını etkinleştirmek için Belge Yönlendirme Aracısı'nı yükleme](../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json)
+##### [Belge Yönlendirme Aracısını yükseltme](../dev-itpro/analytics/upgrade-document-routing-agent.md)
 ##### [Şirket içi ortamlara ağ yazıcısı cihazları kurma](../dev-itpro/analytics/install-network-printer-onprem.md?toc=/fin-and-ops/toc.json)
 ##### [Şirket içi dağıtımlarda belge oluşturma, yayımlama ve yazdırma yetenekleri](../dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/fin-and-ops/toc.json)
 ##### [Windows hizmeti olarak Belge Rota Aracısı'nı çalıştırma](../dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/fin-and-ops/toc.json)
@@ -1234,6 +1246,7 @@
 
 ### [Elektronik raporlama](../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json)
 #### [Elektronik raporlama çerçevesini yapılandırma](../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json)
+#### [Yapılandırma oluşturma](../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json)
 ##### [Elektronik raporlama için bir yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme](../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json)
 ##### [Elektronik raporlama için etki alanına özel bir veri modeli tasarlama](../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json)
 ##### [Elektronik raporlama için model eşlemeyi tanımlama ve veri kaynaklarını seçme](../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json)
@@ -1248,48 +1261,46 @@
 ##### [Elektronik raporlama için hedefleri yapılandırma](../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json)
 #### [Elektronik raporlama için Microsoft Word biçiminde rapor oluşturmak üzere bir yapılandırma tasarlama](../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json)
 #### [Elektronik raporlama için OpenXML biçiminde rapor oluşturmak üzere bir yapılandırma tasarlama](../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json)
-#### [Elektronik raporlama için bir Microsoft Excel şablonunu yeniden uygulayarak biçimi değiştirme](../dev-itpro/analytics/tasks/er-modify-format-by-reapplying-microsoft-excel-template-july-2017.md?toc=/fin-and-ops/toc.json)
 #### [Bir Microsoft Excel şablonunu yeniden uygulayarak bir Elektronik raporlama biçimini değiştirme](../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json)
 #### [Elektronik raporlama için biçim oluştururken veri modeli tanımını seçme](../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için diğer bileşenlerin yapılandırmalarının bağımlılığını tanımlama](../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için mali boyutları veri kaynağı olarak kullanmak üzere veri modeli tasarlama](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için mali boyutları veri kaynağı olarak kullanmak üzere modelleri eşleme](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için mali boyutları veri kaynağı olarak kullanmak üzere bir rapor tasarlama](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için mali boyutları veri kaynağı olarak kullanan bir raporu çalıştırma](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için sayım ve toplama biçimi oluşturma](../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlamada sayım ve toplama yapmak için hesaplamaları yapılandırma](../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlamada sayım ve toplama çıktısı oluşturmak için hesaplamaları kullanma](../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlamada sayım ve toplama yapmak için biçimi çalıştırma](../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için Excel raporlarına dinamik olarak sütun eklemek üzere yatay olarak genişletilebilir aralıkları kullanan bir biçim tasarlama](../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için Excel raporlarına dinamik olarak sütun eklemek üzere yatay olarak genişletilebilir aralıkları kullanan bir biçimi çalıştırma](../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için biçim çıktılarında Belge Yönetimi dosyalarını kullanmak üzere veri modelini hazırlama](../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için biçim çıktılarında Belge Yönetimi dosyalarını kullanmak üzere veri modelini genişletme](../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için biçim çıktılarında Belge Yönetimi dosyalarını kullanmak üzere biçimi oluşturma](../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için biçim çıktılarında Belge Yönetimi dosyalarını kullanmak üzere biçimi çalıştırma](../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için biçim çıktılarında Belge Yönetimi dosyalarını kullanmak üzere biçimi değiştirme ve çalıştırma](../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama (ER) için katıştırılmış resimlere sahip Microsoft Office biçimlerinde rapor oluşturmak üzere yapılandırmalar tasarlama (Bölüm 1) ](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için katıştırılmış resimlere sahip Microsoft Office biçimlerinde rapor oluşturmak üzere yapılandırmaları inceleme](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için katıştırılmış resimlere sahip Microsoft Office biçimlerinde rapor oluşturma](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json)
+#### [Elektronik raporlama için diğer bileşenlerin yapılandırmalarının bağımlılığını tanımlama](../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [Mali boyutları veri kaynağı olarak kullanmak üzere veri modeli tasarlama](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json)
+##### [Mali boyutları veri kaynağı olarak kullanmak üzere modelleri eşleme](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json)
+##### [Mali boyutları veri kaynağı olarak kullanmak üzere bir rapor tasarlama](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json)
+##### [Mali boyutları veri kaynağı olarak kullanan bir rapor çalıştırma](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json)
+##### [Sayım ve toplama için biçim oluşturma](../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json)
+##### [Sayım ve toplama yapmak için hesaplamaları yapılandırma](../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json)
+##### [Sayım ve toplama çıktısı oluşturmak için hesaplamaları kullanma](../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json)
+##### [Sayım ve toplama yapmak için biçimi çalıştırma](../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json)
+##### [Excel raporlarına dinamik olarak sütun eklemek için yatay olarak genişletilebilir aralıkları kullanan bir biçim tasarlama](../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json)
+##### [Excel raporlarına dinamik olarak sütun eklemek için yatay olarak genişletilebilir aralıkları kullanan bir biçim çalıştırma](../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json)
+##### [Biçim çıktılarında Belge Yönetimi dosyalarını kullanmak için veri modeli tasarlama](../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json)
+##### [Biçim çıktılarında Belge Yönetimi dosyalarını kullanmak için veri modelini genişletme](../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json)
+##### [Biçim çıktılarında Belge Yönetimi dosyalarını kullanmak üzere biçim oluşturma](../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json)
+##### [Biçim çıktılarında Belge Yönetimi dosyalarını kullanmak üzere biçimi çalıştırma](../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json)
+##### [Biçim çıktılarında Belge Yönetimi dosyalarını kullanmak üzere biçimi değiştirme ve çalıştırma](../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json)
+##### [Katıştırılmış resimlere sahip Microsoft Office biçimlerinde rapor oluşturmak için yapılandırmalar tasarlama](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [Katıştırılmış resimlere sahip Microsoft Office biçimlerinde rapor oluşturmak için yapılandırmaları gözden geçirme](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json)
+##### [Katıştırılmış resimlere sahip Microsoft Office biçimlerinde rapor oluşturma](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json)
 #### [Elektronik raporlama aracını kullanarak elektronik belgeler oluşturma ve uygulama verilerini güncelleştirme](../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için uygulama verileri güncelleştirmesiyle belge oluşturmak üzere yapılandırmaları içe aktarma](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için uygulama verileri güncelleştirmesiyle belge oluşturma](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için uygulama verileri güncelleştirmesiyle belge oluşturmak üzere modeli değiştirme ve eşleme](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için uygulama verileri güncelleştirmesiyle belge oluşturmak üzere biçimi değiştirme](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için uygulama verileri güncelleştirmesiyle belge oluşturma](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json)
+##### [Uygulama verileri içeren belgeler oluşturmak için yapılandırmaları içe aktarma](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json)
+##### [Uygulama verileri içeren belgeler oluşturmak için yapılandırmalar tasarlama](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json)
+##### [Uygulama verileri içeren belgeler oluşturmak için model ve eşlemeyi değiştirme](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json)
+##### [Uygulama verileri içeren belgeler oluşturmak için biçimi değiştirme](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json)
+##### [Uygulama verileri içeren belgeler oluşturma](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json)
 #### [Elektronik raporlama aracı kullanılarak oluşturulan iş belgelerine görüntü ve şekil katıştırma](../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json)
-#### [Elektronik raporlama için Lifecycle Services'a bir yapılandırma yükleme](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için Lifecycle Services'dan bir yapılandırmayı içe aktarma](../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json)
 #### [Yapılandırma yaşam döngüsünü yönetme](../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json)
-#### [Yapılandırma oluşturma](../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json)
-#### [Lifecycle Services'dan yapılandırmalar indirme](../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json)
-#### [Elektronik raporlama işlevlerini genişletme](../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json)
-##### [Elektronik raporlama için model eşleme yapılandırmalarını yönetme](../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [Elektronik raporlama için Lifecycle Services'a yapılandırma yükleme](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json)
+##### [Elektronik raporlama için Lifecycle Services'dan bir yapılandırmayı içe aktarma](../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json)
+##### [Lifecycle Services'dan yapılandırmalar indirme](../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json)
+##### [Elektronik raporlama yapılandırmalarını içe aktarma](../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json)
+#### [Elektronik raporlama için model eşleme yapılandırmalarını yönetme](../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json)
 ##### [Elektronik raporlama için harici bir dosyadan verileri içe aktarmak üzere gerekli yapılandırmaları oluşturma](../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json)
-#### [Elektronik raporlama yapılandırmalarını içe aktarma](../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json)
 #### [Uygulama verilerini güncelleştirmek için gelen belgeleri ayrıştırma](../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json)
 #### [Gelen belgeleri CSV biçiminde ayrıştırma](../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json)
-
+##### [Elektronik raporlama işlevlerini genişletme](../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json)
 ##### [Application update 7.3 için elektronik raporlama çerçevesi API değişiklikleri](../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json)
+
 
 ### Katıştırılmış analiz çözümleri
 #### [Çalışma alanlarında katıştırılmış Power BI](../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/fin-and-ops/toc.json)
@@ -1451,6 +1462,7 @@
 #### [Satıcı işe alım süreci](../supply-chain/procurement/vendor-onboarding.md)
 #### [Harici satıcılarla satıcı işbirliği](../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 #### [Müşterilerle satıcı işbirliği](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+#### [Satıcı kataloglarını içe aktarma](../supply-chain/procurement/vendor-catalogs-import.md)
 #### [PunchOut eProcurement için harici katalog ayarlama](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
 #### [PunchOut eProcurement için harici katalogları kullanma](../supply-chain/procurement/use-external-catalogs-for-punchout.md)
 #### [Satıcı işbirliği mobil çalışma alanı](../supply-chain/procurement/vendor-collaboration-mobile-workspace.md)
@@ -1598,14 +1610,16 @@
 ##### [İmalatta malzeme değiştirme](../supply-chain/production-control/substitute-items-bom-lines.md)
 ##### [İmalat yürütme için kaydolma](../supply-chain/production-control/registration-manufacturing-execution.md)
 ##### [Üretim geri bildirimi](../supply-chain/production-control/production-feedback.md)
-##### [Saat ve işe devam durumu kaydı](../supply-chain/production-control/time-attendance-registrations.md)
-##### [Saat ve işe devamda devamsızlık kaydı](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
 ##### [Saat ve işe devam için bordro işlemini etkinleştirme](../supply-chain/production-control/tasks/payroll-process-time-attendance.md)
 ##### [Mobil iş cihazını kullanarak çalışanı yapılandırma](../supply-chain/production-control/tasks/worker-mobile-job-device.md)
 #### Üretimde mali öğeleri yönetme
 ##### [İş ürün demetindeki işlere zaman tahsis etme](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
 ##### [Malzeme tüketimini hesaplama](../supply-chain/production-control/consumption.md)
 ##### [Üretim deftere nakli](../supply-chain/cost-management/production-posting.md)
+#### [Saat ve işe devam durumu kaydı](../supply-chain/production-control/time-attendance-registrations.md)
+##### [Kayıtlara dayalı ödeme yapma](../supply-chain/production-control/pay-based-on-registrations.md)
+##### [Saat ve işe devamda devamsızlık kaydı](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
+##### [Esnek gruplar](../supply-chain/production-control/time-attendance-flex-groups.md)
 
 ### Yalın imalat 
 #### [Yalın imalata genel bakış](../supply-chain/production-control/lean-manufacturing-overview.md)
@@ -1836,6 +1850,7 @@
 #### [Ambar yönetiminde stoğu ilişkili işle birlikte taşıma](../supply-chain/warehousing/move-inventory-associated-work.md)
 #### [Ambar çalışanlarını yönetme](../supply-chain/warehousing/manage-warehouse-workers.md)
 ### Malzeme çekme ve paketleme
+#### [Küme malzeme çekme ayarlama](../supply-chain/warehousing/set-up-cluster-picking.md)
 #### [Toplu iş ve plaka onayı](../supply-chain/warehousing/batch-and-license-plate-confirmation.md)
 #### [Plaka birleştirme işlemi için bir mobil cihaz menü öğesi oluşturma](../supply-chain/warehousing/tasks/create-mobile-device-license-plate-consolidation.md)
 #### [Karma plaka alımı](../supply-chain/warehousing/mixed-license-plate-receiving.md)
@@ -1843,11 +1858,12 @@
 #### [Mobil cihazda en eski toplu işi çekme](../supply-chain/warehousing/pick-oldest-batch.md)
 #### [Dynamics 365 for Finance and Operations'ta kamera kullanarak barkod tarama](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [Parça çekme onayı](../supply-chain/warehousing/piece-picking-confirmation.md)
-#### [Küme çekme için ürün onayı](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
+#### [Taşıma yükü kısmi sevkiyatı](../supply-chain/warehousing/partial-shipping-of-transport-loads.md)
 #### [Kısmen rezerve edilen transfer emirleri için toplu iş serbest bırakma](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)
 #### [Ambalaj malzemeleri ve ücretleri](../supply-chain/warehousing/pack-materials-packing-material-fees.md)
 ### Stok sayımı
-#### [Stoku engelleme](../supply-chain/inventory/inventory-blocking.md)
+#### [Stok sayımı neden kodları](../supply-chain/warehousing/reason-codes-for-counting-journals.md)
+#### [Stoğu engelleme](../supply-chain/inventory/inventory-blocking.md)
 #### [Döngü sayımı](../supply-chain/warehousing/cycle-counting.md)
 #### [Döngü sayımı tanımlama ](../supply-chain/warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md)
 #### [Kısmi konum döngü sayımı](../supply-chain/warehousing/partial-location-cycle-counting.md)
@@ -1857,6 +1873,7 @@
 #### [Stok durumu](../supply-chain/inventory/inventory-statuses.md)
 #### [Stok etiket sayımı](../supply-chain/inventory/inventory-tag-counting.md)
 ### [Stok yenileme](../supply-chain/warehousing/replenishment.md)
+#### [Anlık stok yenileme](../supply-chain/warehousing/immediate-replenishment.md)
 #### [Çekme kanbanlarıyla stok yenileme](../supply-chain/warehousing/material-replenishment-withdrawal-kanban.md)
 ### [Ambarlama uygulamasını yükleme ve yapılandırma ](../supply-chain/warehousing/install-configure-warehousing-app.md)
 #### [Ambarlama uygulamasında alan adlarını yapılandırma](../supply-chain/warehousing/configure-app-field-names-priorities-warehouse.md)
