@@ -3,7 +3,7 @@ title: "Yerelleştirme ve mevzuat özellikleri"
 description: "Bu konu, ülkeye/bölgeye özgü işlevler hakkında daha fazla bilgi edinmenize yardımcı olabilecek kaynakların listesini içerir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 04/12/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
-ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Yerelleştirme ve mevzuat özellikleri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations'ta, [Uluslararası ürün bulunabilirliği kılavuzu](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf)'nda belirtilen ülkeler/bölgelere yönelik işlevler bulunur. Bu işlev, etkin tüzel kişiliğin birincil adresi esas alınarak etkinleştirilir. 
 
@@ -53,8 +52,8 @@ Aşağıdaki kaynaklar, planlanan ve yeni yerelleştirme özellikleri hakkında 
 -   [Mevzuat izleme ve mevzuat güncelleştirme iletişimi](regulatory-watch-communication.md)
 -   [Microsoft'u ülke/bölge mevzuatıyla ilgili uyarılar konusunda bilgilendirme ve mevzuat özelliklerinin durumunu izleme](submit-localization-alerts.md)
 
-### <a name="dynamics-365-roadmap"></a>Dynamics 365 yol haritası
-[Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) üzerinde çalıştıklarımızın anlık bir görüntüsünü sağlar. Bu yol haritasını kullanarak genel olarak kullanıma sunulan ve geliştirme aşamasında içeriği öğrenin. Geliştirme aşamasındaki tüm tarihler ve özellikler hazırlık niteliğinde olup mevcut beklentilere dayalıdır ve önceden haber verilmeden değiştirilebilir.
+### <a name="dynamics-365-release-notes"></a>Dynamics 365 sürüm notları
+[Dynamics 365 sürüm notları (indirilebilir PDF)](https://aka.ms/businessappsreleasenotes) Dynamics 365 iş uygulamaları ve uygulama platformlarındaki yeni ve geliştirilmiş özelliklerle ilgili açıklamalar sağlar. 
 
 ## <a name="electronic-reporting"></a>Elektronik raporlama
 Elektronik raporlama (ER) aracı, elektronik belgelerin biçimini çeşitli ülkelerin/bölgelerin yasal gereksinimlerine uygun şekilde yapılandırmanıza olanak tanır. ER, yaşam döngüleri boyunca bu biçimleri yönetmenizi sağlar. Daha fazla bilgi için aşağıdaki konulardan birine başvurun:
@@ -77,27 +76,11 @@ Daha fazla bilgi için bkz. [Görev kılavuzları](../../fin-and-ops/get-started
 
 
 ## <a name="countryregion-specific-help-topics"></a>Ülkeye/bölgeye özgü yardım konuları
-Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
+Aşağıdaki bölümler ülkeye/bölgeye göre kaynaklarını listeler.
 
-### <a name="australia"></a>Avustralya
-
--   [Banka dosyası biçimleri](../../financials/localizations/apac-aus-method-of-payment-pay-vendors-banks.md)
--   [İş faaliyet raporu ](../../financials/localizations/apac-aus-business-activity-statement.md)
--   [Düşük değer havuzu amortismanı](../../financials/localizations/apac-aus-low-value-pool-depreciation.md)
-
-### <a name="austria"></a>Avusturya
-
-- [Yarı yıl amortismanı](../../financials/localizations/emea-aut-half-year-depreciation.md)
-- [Ambalaj malzemesi ücretleri](../../financials/localizations/emea-aut-packing-material-fee-calculation.md)
-- [Satınalma harçları](../../financials/localizations/emea-aut-purchase-duties.md)
-- [KDV beyanı](../../financials/localizations/emea-aut-vat-statement-details.md)
-
-### <a name="belgium"></a>Belçika
-
--   [CODA banka ekstresi](../../financials/localizations/emea-bel-coda-bank-statement-import.md)
--   [Intervat vergi beyannamesi](../../financials/localizations/emea-bel-intervat-tax-declaration.md)
--   [PRODCOM raporu ayarı](../../financials/localizations/emea-bel-prodcom-report.md)
--   [Mutabakat raporları](../../financials/localizations/emea-bel-reconciliation-reports.md)
+### <a name="australiafinancialslocalizationsaustraliamd"></a>[Avustralya](../../financials/localizations/australia.md)
+### <a name="austriafinancialslocalizationsaustriamd"></a>[Avusturya](../../financials/localizations/austria.md)
+### <a name="belgiumfinancialslocalizationsbelgiummd"></a>[Belçika](../../financials/localizations/belgium.md)
 
 ### <a name="brazil"></a>Brezilya
 
@@ -134,22 +117,9 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 -   [Stok ana hesaplarını tesise göre deftere nakletme](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
 -   [Genel muhasebe hesapları için borç ve alacak tutarlarını görüntüleme](../../financials/localizations/apac-chn-negative-debits-credits.md)
 
-### <a name="the-czech-republic"></a>Çek Cumhuriyeti
-
--   [Alacak dekontunda nakit iskontosu](../../financials/localizations/emea-cze-credit-note-cash-discount.md)
--   [Amortisman yuvarlama](../../financials/localizations/emea-cze-depreciation-rounding.md)
--   [Çek Cumhuriyeti için sabit kıymet elden çıkarmada yarı yıl amortismanı](../../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md)
--   [Amortisman bekletme (tatiller.md)](../../financials/localizations/emea-cze-depreciation-suspension-holidays.md)
--   [Çek Cumhuriyeti için sabit kıymetler amortisman yöntemleri](../../financials/localizations/emea-cze-fixed-assets-depreciation.md)
--   [Sabit kıymetin ön alımını deftere nakletme](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
--   [Çek Cumhuriyeti için KDV beyanı](../../financials/localizations/emea-cze-vat-statement-details.md)
--   [Satış vergisi raporlama ](../../financials/localizations/emea-cze-intra-community-vat-transactions.md)
--   [Periyodik günlüklerde bölünmüş dönemler](../../financials/localizations/emea-create-post-periodic-journals.md)
--   [Basılı formlar için imzalayanları ayarlama](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
--   [Tutarların raporlarda ve belgelerde nasıl görüntüleneceğini güncelleştirme](../../financials/localizations/emea-amount-printing-forms.md)
+### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[Çek Cumhuriyeti](../../financials/localizations/czech-republic.md)
 
 ### <a name="estonia"></a>Estonya
-
 -   [Estonya için KDV beyanı ayrıntıları](../../financials/localizations/emea-est-vat-statement-details.md)
 -   [Sabit kıymetleri elden çıkarma](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
 
@@ -280,7 +250,7 @@ Aşağıdaki bölümler, kaynakları ülkeye/bölgeye göre listeler.
 -   [Enflasyon ayarlaması beyanname raporu](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
 -   [ISR beyanname raporu](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
 -   [Elektronik faturalar (CFDI)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
-   
+
 ### <a name="malaysia"></a>Malezya
 
 -   [Ürün ve hizmet vergisi (GST)](../../financials/localizations/apac-mys-gst.md)
