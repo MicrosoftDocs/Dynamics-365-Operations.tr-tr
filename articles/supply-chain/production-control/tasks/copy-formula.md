@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="copy-a-formula"></a>Formül kopyalama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, varolan bir formülün, ancak küçük farklılıklar ile aynı maddeleri içeren bir formül oluşturma üzerinde odaklanır. Formül satırlarını oluşturmak için gereken malzemelerin çoğunu içeren varolan bir formülü kopyalamak için Kopyala işlevini kullanabilirsiniz. Tek tek satırlara yeni sürümünde gerekli değişiklikleri daha sonra yapabilirsiniz. Kopyalama işlevini kullanarak, neredeyse aynı olan birden çok formül oluşturmanız gerekmez. Bu görevi oluşturmak için kullanılan demo verisi şirketi USP2'dir.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="backflush-costing"></a>Geriye dönük maliyetlendirme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, Yalın imalat için geriye dönük maliyetlendirme kavramını tanıtmaktadır. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="monitor-a-master-planning-run"></a>Master planlama çalışmasını izleme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Üretim planlayıcısı, bir master planlama çalışmasının devam edip etmediğini görmek istiyor. Bu prosedürü tamamlamak için USMF demo veri şirketini kullanın.
 

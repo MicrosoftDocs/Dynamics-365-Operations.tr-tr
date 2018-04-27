@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="income-statement-financial-report"></a>Gelir tablosu mali raporu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale varsayılan rapor için gelir tablolarını açıklar. Ayrıca, bu raporla ilişkili olan yapı taşlarını açıklar. 
 
@@ -60,7 +59,7 @@ Sütun tanımları, farklı ayrıntı ve mali veri düzeyleri sunmak üzere fark
     -   **FD** – Mevcut dönem için mali veriler
     -   **FD** – Yılbaşından bugüne kadar olan süre için mali veriler
 
- 
+
 
 <a name="see-also"></a>Ayrıca bkz.
 --------

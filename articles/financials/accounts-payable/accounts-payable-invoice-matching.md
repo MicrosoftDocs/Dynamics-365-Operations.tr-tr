@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accounts-payable-invoice-matching"></a>Borç hesapları fatura eşleşmesi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Borç hesapları faturası eşleştirme, satıcı faturasını, satın alma siparişini ve ürün alındı bilgilerini eşleştirme işlemidir.
 

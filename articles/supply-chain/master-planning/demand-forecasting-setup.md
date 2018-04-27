@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="demand-forecasting-setup"></a>Talep tahmini kurulumu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu başlığı, talep tahmini için hazırlamak üzere gerçekleştirmeniz gereken kurulum görevlerini açıklar.  
 

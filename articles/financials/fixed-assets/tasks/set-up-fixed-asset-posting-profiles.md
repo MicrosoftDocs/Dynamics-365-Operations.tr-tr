@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Sabit kıymet deftere nakil profilleri ayarlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev kılavuzunda Sabit kıymet deftere nakil profilleri ayarlanacak.  Kılavuzda Muhasebeci rolü ve USMF adlı tüzel kişilik için demo verileri kullanılmaktadır.  Özel hesap planınız ve mali raporlama gereksinimleriniz için deftere nakil profilleri oluşturulması gerekmesine karşın, bu görev kılavuzunda verilen örnekler temel bir deftere nakil profiline aittir.
 

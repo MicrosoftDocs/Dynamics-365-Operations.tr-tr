@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="use-lookups-to-find-information"></a>Bilgi bulmak için aramaları kullanma
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations'taki birçok alanda, doğru veya istediğiniz değeri bulmanıza yardımcı olabilecek aramalar vardır. Bu denetimleri daha kullanışlı hale getiren ve kullanıcıları daha üretken hale getiren aramalara çeşitli geliştirmeler eklendi. Bu konuda, bu yeni arama özellikleri hakkında bilgi edineceksiniz ve sistemdeki aramalardan en iyi sonucu almak için bazı yararlı ipuçları edineceksiniz.  
 

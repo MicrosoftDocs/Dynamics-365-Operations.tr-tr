@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>POS aygıt hareket sayfasında önerileri denetimi ekleyin
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 > [!NOTE]
 > Bu özelliği daha iyi bir algoritma ve daha yeni perakende odaklı yeteneklerle yeniden tasarladığımızdan ürün öneri hizmetinin geçerli sürümünü kaldırıyoruz. Daha fazla bilgi için bkz. [Kaldırılan veya artık kullanılmayan özellikler](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features). 

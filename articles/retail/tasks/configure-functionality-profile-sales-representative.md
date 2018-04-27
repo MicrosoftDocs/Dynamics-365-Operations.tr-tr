@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a>Satış temsilcisi için işlevsellik profilini yapılandırma
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam bir mağazanın satış temsilcileri için geçerli olan işlevsellik profil ayarlarının nasıl yapılandırılacağını gösterir. Bu yordamlar, USRT demo veri şirketini kullanır.
 

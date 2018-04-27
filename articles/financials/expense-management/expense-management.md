@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="expense-management"></a>Gider yönetimi
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Gider yönetimi içinde ödeme yöntemi bilgilerini saklayabileceğiniz, kredi kartı hareketlerini içe aktarabileceğiniz ve işiniz için masraf yaptıklarında çalışanların harcadığı para miktarını izleyebileceğiniz tümleşik bir iş akışı kullanın. Ayrıca, gider ilkelerini tanımlayabilir ve seyahat masraflarının geri ödemesini otomatikleştirebilirsiniz. 
 

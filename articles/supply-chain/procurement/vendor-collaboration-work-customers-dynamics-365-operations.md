@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="vendor-collaboration-with-customers"></a>Müşterilerle satıcı iş birliği
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 for Finance and Operations'da müşteriler ile çalışmak için satıcı iş birliğini nasıl kullanabileceğinizi açıklar. Satıcılar bir dizi iş sürecini aşağıdaki çalışma alanlarından gerçekleştirebilir:
 

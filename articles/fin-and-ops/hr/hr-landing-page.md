@@ -26,7 +26,7 @@ ms.lasthandoff: 02/15/2018
 
 # <a name="welcome-to-human-resources"></a>İnsan kaynaklarına hoş geldiniz
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 İnsan kaynakları, pek çok rutin kayıt tutma görevini basitleştirir ve kuruluşunuzun personel ile ilgili bir dizi sürecini otomatikleştirir. Ayrıca, insan kaynakları personelinin gözetim alanlarını yönetmek için de bir çerçeve sağlar. Bu alanlar personel işe alma ve saklama, kazançların yönetimi, eğitim, performans değerlendirmeleri ve değişim yönetimi konularını içerir.
 

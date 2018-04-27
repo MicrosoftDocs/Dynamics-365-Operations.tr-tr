@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-requisition-workflow"></a>Satınalma talebi iş akışı
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 İş akışı süreci, satın alma talebini, ilk durum olan Taslak durumundan son durum olan Onaylandı durumuna, gözden geçirme sürecine geçirir. Bir satınalma talebi gözden geçirme amacıyla gönderildiğinde iş akışı süreci başlatılır. Bir Satın alma talebi onaylandıktan sonra, satın alma talebi satırları için bir satın alma emri oluşturulabilir ve siparişin gerçekleştirilmesi için satıcıya sunulabilir.
 

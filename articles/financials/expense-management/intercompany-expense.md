@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="intercompany-expenses"></a>Şirketlerarası giderler
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bir kuruluştaki bir tüzel kişilikte çalışan bir çalışan, aynı kuruluştaki başka bir tüzel kişilik için iş yapabilir. Bu durumda, şirketlerarası gider özelliğini, çalışanın giderini işin gerçekleştirildiği tüzel kişiliğe atamak için kullanabilirsiniz. Çalışanı çalıştıran tüzel kişilik, kiralayan tüzel kişilik olarak adlandırılır. Çalışanın gider oluşturduğu tüzel kişilik, ödünç alan tüzel kişilik olarak adlandırılır. 
 

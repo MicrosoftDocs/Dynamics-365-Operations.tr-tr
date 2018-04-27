@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-manual-decision-in-a-workflow"></a>Bir iş akışında bir el ile kararı yapılandırma
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, el ile bir kararın özelliklerini yapılandırmayı açıklar.
 
@@ -252,73 +251,74 @@ El ile kararın kime atanacağını belirtmek için şu adımları izleyin.
 ## <a name="specify-what-happens-when-a-decision-is-overdue"></a>Bir kararın süresi geçtiğinde ne olacağını belirtin
 Eğer bir kullanıcı ayırılan zaman içerisinde kararı alamazsa, kararın vadesi geçer. Vadesi geçmiş bir karar ilerletilebilir veya başka bir kullanıcıya otomatik olarak atanabilir. Vadesi geçmiş ise, kararın üst düzeye ilerletilmesi için aşağıdaki adımları izleyin.
 
-1.  Sol bölmede **İlerletilme**'yı tıklatın.
-2.  İlerletme yolu oluşturmak için **İlerletme yolunu kullan** onay kutusunu seçin. Sistem kararı ilerletme yolunda listelenmiş olan kullanıcılara otomatik olarak atar. Örneğin, aşağıdaki tablo bir ilerletme yolunu temsil eder.
-    | Seri | İlerletme yolu            |
-    |----------|----------------------------|
-    | 1        | Şu kişiye ata: Donna           |
-    | 2        | Şu kişiye ata: Erin            |
-    | 3        | Son eylem: \[Karar 1\] |
+1. Sol bölmede **İlerletilme**'yı tıklatın.
+2. İlerletme yolu oluşturmak için **İlerletme yolunu kullan** onay kutusunu seçin. Sistem kararı ilerletme yolunda listelenmiş olan kullanıcılara otomatik olarak atar. Örneğin, aşağıdaki tablo bir ilerletme yolunu temsil eder.
 
-    Bu örnekte sistem süresi geçen kararı Donna'ya atar. Eğer Donna ayırılan süre içerisinde kararı alamazsa, sistem kararı Erin'e atar. Eğer Erin ayırılan süre içerisinde kararı alamazsa, sistem karar olarak **\[Karar 1\]**'i karar olarak seçer
-3.  Bir kullanıcıyı ilerletme yoluna eklemek için **İlerletme ekle**'yi tıklatın. Aşağıdaki tablodaki seçeneklerden birini seçin ve 4. adıma geçmeden önce ilgili seçeneğin ek adımlarını uygulayın.
-    <table>
-    <colgroup>
-    <col width="33%" />
-    <col width="33%" />
-    <col width="33%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Seçenek</th>
-    <th>Kararın ilerletildiği kullanıcılar</th>
-    <th>Ek adımlar</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Hiyerarşi</td>
-    <td>Belirli bir kuruluş hiyerarşisindeki kullanıcılar</td>
-    <td><ol>
-    <li><strong>Hiyerarşi türü</strong> listesindeki <strong>Hiyerarşi seçimi</strong> sekmesinde <strong>Hiyerarşi</strong>'yi seçtikten sonra, kararın ilerletileceği hiyerarşi türünü seçin.</li>
-    <li>Sistemin bu hiyerarşiden kullanıcı adları aralığını alması gerekir. Bu adlar kararın ilerletilebileceği kullanıcıları temsil eder. Sistemin alacağı adların aralığının başlangıç ve bitiş noktasını belirtmek için aşağıdaki adımları izleyin: <ol>
-    <li>Başlangıç noktasını belirtmek için, <strong>Buradan başla:</strong> listesinde bir kişi seçin.</li>
-    <li>Bitiş noktasını belirtmek için <strong>Koşul ekle</strong>'yi tıklatın. Daha sonra, sistemin hiyerarşinin neresinde ad almayı durduracağını belirten bir koşul girin.</li>
-    </ol></li>
-    <li><strong>Hiyerarşi seçenekleri</strong> sekmesinde, aralığın içindeki hangi kullanıcılara kararın ilerletilmesi gerektiğini belirtin: <ul>
-    <li><strong>Alınan tüm kullanıcılara ata</strong> – Karar bu aralıktaki tüm kullanıcılara ilerletilir.</li>
-    <li><strong>Yalnızca alınan son kullanıcıya ata</strong> – Karar yalnızca aralıktaki son kullanıcıya ilerletilir.</li>
-    <li><strong>Aşağıdaki koşul ile kullanıcıları dışarıda bırakmak:</strong> – Karar, aralıkta belirli bir koşulu yerine getiren herhangi bir kullanıcıya ilerletilmez. Koşulu belirtmek için <strong>Koşul ekle</strong>'yi tıklatın.</li>
-    </ul></li>
-    </ol></td>
-    </tr>
-    <tr class="even">
-    <td>İş akışı kullanıcısı</td>
-    <td>Mevcut iş akışındaki kullanıcılar</td>
-    <td><ul>
-    <li><strong>İş akışı kullanıcısı</strong> listesinde, <strong>İş akışı kullanıcısı</strong> sekmesinde, <strong>İş akışı kullanıcısı</strong>'nı seçtikten sonra, iş akışına katılım gösterecek bir kullanıcı seçin.</li>
-    </ul></td>
-    </tr>
-    <tr class="odd">
-    <td>Kullanıcı</td>
-    <td>Belirli Finance and Operations kullanıcıları</td>
-    <td><ol>
-    <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
-    <li><strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Finance and Operations kullanıcılarını içerir. Kararın ilerletileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
-    </ol></td>
-    </tr>
-    </tbody>
-    </table>
+   | Seri | İlerletme yolu            |
+   |----------|----------------------------|
+   | 1        | Şu kişiye ata: Donna           |
+   | 2        | Şu kişiye ata: Erin            |
+   | 3        | Son eylem: \[Karar 1\] |
 
-4.  **Zaman limiti** sekmesinde, **Süre** alnında, kullanıcının kararı almak üzere ne kadar zamanı olduğunu belirtin. Aşağıdaki seçeneklerden birini belirleyin:
-    -   **Saatler** – Kullanıcının kararı alması gereken saat sayısını girin. Daha sonra kuruluşunuzun kullandığı takvimi seçin ve kuruluşunuz iş haftası hakkında bilgi girin.
-    -   **Günler** – Kullanıcının kararı alması gereken gün sayısını girin. Daha sonra kuruluşunuzun kullandığı takvimi seçin ve kuruluşunuz iş haftası hakkında bilgi girin.
-    -   **Haftalar** – Kullanıcının kararı alması gereken hafta sayısını girin.
-    -   **Aylar** – Kullanıcının kararı almış olması gereken günü ve haftayı seçin. Örneğin kullanıcının kararı ayın üçüncü haftasının Cuma gününe kadar almasını isteyebilirsiniz.
-    -   **Yıllar** – Kullanıcının kararı almış olması gereken haftayı ve ayı seçin. Örneğin kullanıcının kararı Aralık ayının üçüncü haftasının Cuma gününe kadar almasını isteyebilirsiniz.
+   Bu örnekte sistem süresi geçen kararı Donna'ya atar. Eğer Donna ayırılan süre içerisinde kararı alamazsa, sistem kararı Erin'e atar. Eğer Erin ayırılan süre içerisinde kararı alamazsa, sistem karar olarak **\[Karar 1\]**'i karar olarak seçer
+3. Bir kullanıcıyı ilerletme yoluna eklemek için **İlerletme ekle**'yi tıklatın. Aşağıdaki tablodaki seçeneklerden birini seçin ve 4. adıma geçmeden önce ilgili seçeneğin ek adımlarını uygulayın.
+   <table>
+   <colgroup>
+   <col width="33%" />
+   <col width="33%" />
+   <col width="33%" />
+   </colgroup>
+   <thead>
+   <tr class="header">
+   <th>Seçenek</th>
+   <th>Kararın ilerletildiği kullanıcılar</th>
+   <th>Ek adımlar</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr class="odd">
+   <td>Hiyerarşi</td>
+   <td>Belirli bir kuruluş hiyerarşisindeki kullanıcılar</td>
+   <td><ol>
+   <li><strong>Hiyerarşi türü</strong> listesindeki <strong>Hiyerarşi seçimi</strong> sekmesinde <strong>Hiyerarşi</strong>'yi seçtikten sonra, kararın ilerletileceği hiyerarşi türünü seçin.</li>
+   <li>Sistemin bu hiyerarşiden kullanıcı adları aralığını alması gerekir. Bu adlar kararın ilerletilebileceği kullanıcıları temsil eder. Sistemin alacağı adların aralığının başlangıç ve bitiş noktasını belirtmek için aşağıdaki adımları izleyin: <ol>
+   <li>Başlangıç noktasını belirtmek için, <strong>Buradan başla:</strong> listesinde bir kişi seçin.</li>
+   <li>Bitiş noktasını belirtmek için <strong>Koşul ekle</strong>'yi tıklatın. Daha sonra, sistemin hiyerarşinin neresinde ad almayı durduracağını belirten bir koşul girin.</li>
+   </ol></li>
+   <li><strong>Hiyerarşi seçenekleri</strong> sekmesinde, aralığın içindeki hangi kullanıcılara kararın ilerletilmesi gerektiğini belirtin: <ul>
+   <li><strong>Alınan tüm kullanıcılara ata</strong> – Karar bu aralıktaki tüm kullanıcılara ilerletilir.</li>
+   <li><strong>Yalnızca alınan son kullanıcıya ata</strong> – Karar yalnızca aralıktaki son kullanıcıya ilerletilir.</li>
+   <li><strong>Aşağıdaki koşul ile kullanıcıları dışarıda bırakmak:</strong> – Karar, aralıkta belirli bir koşulu yerine getiren herhangi bir kullanıcıya ilerletilmez. Koşulu belirtmek için <strong>Koşul ekle</strong>'yi tıklatın.</li>
+   </ul></li>
+   </ol></td>
+   </tr>
+   <tr class="even">
+   <td>İş akışı kullanıcısı</td>
+   <td>Mevcut iş akışındaki kullanıcılar</td>
+   <td><ul>
+   <li><strong>İş akışı kullanıcısı</strong> listesinde, <strong>İş akışı kullanıcısı</strong> sekmesinde, <strong>İş akışı kullanıcısı</strong>'nı seçtikten sonra, iş akışına katılım gösterecek bir kullanıcı seçin.</li>
+   </ul></td>
+   </tr>
+   <tr class="odd">
+   <td>Kullanıcı</td>
+   <td>Belirli Finance and Operations kullanıcıları</td>
+   <td><ol>
+   <li><strong>Kullanıcı</strong> seçtikten sonra, <strong>Kullanıcı</strong> sekmesine tıklayın.</li>
+   <li><strong>Mevcut kullanıcılar</strong> listesi mevcut tüm Finance and Operations kullanıcılarını içerir. Kararın ilerletileceği kullanıcıları seçin ve sonra bu kullanıcıları <strong>Seçili kullanıcılar</strong> listesine taşıyın.</li>
+   </ol></td>
+   </tr>
+   </tbody>
+   </table>
 
-5.  İlerletme yoluna eklenecek tüm kullanıcılar için 3. adım ve 4. adımlar arasındaki süreci yineleyin. Kullanıcıların sıralamasını değiştirebilirsiniz.
-6.  İlerletme yolundaki kullanıcılar verilen süre içinde kararı alamazsa, sistem görev üstünde karar alır. Sistemin seçeceği seçeneği belirtmek için **Eylem** satırını seçin ve sonra **Eylemi bitir** sekmesi üzerinde bir seçenek seçin.
+4. **Zaman limiti** sekmesinde, **Süre** alnında, kullanıcının kararı almak üzere ne kadar zamanı olduğunu belirtin. Aşağıdaki seçeneklerden birini belirleyin:
+   -   **Saatler** – Kullanıcının kararı alması gereken saat sayısını girin. Daha sonra kuruluşunuzun kullandığı takvimi seçin ve kuruluşunuz iş haftası hakkında bilgi girin.
+   -   **Günler** – Kullanıcının kararı alması gereken gün sayısını girin. Daha sonra kuruluşunuzun kullandığı takvimi seçin ve kuruluşunuz iş haftası hakkında bilgi girin.
+   -   **Haftalar** – Kullanıcının kararı alması gereken hafta sayısını girin.
+   -   **Aylar** – Kullanıcının kararı almış olması gereken günü ve haftayı seçin. Örneğin kullanıcının kararı ayın üçüncü haftasının Cuma gününe kadar almasını isteyebilirsiniz.
+   -   **Yıllar** – Kullanıcının kararı almış olması gereken haftayı ve ayı seçin. Örneğin kullanıcının kararı Aralık ayının üçüncü haftasının Cuma gününe kadar almasını isteyebilirsiniz.
+
+5. İlerletme yoluna eklenecek tüm kullanıcılar için 3. adım ve 4. adımlar arasındaki süreci yineleyin. Kullanıcıların sıralamasını değiştirebilirsiniz.
+6. İlerletme yolundaki kullanıcılar verilen süre içinde kararı alamazsa, sistem görev üstünde karar alır. Sistemin seçeceği seçeneği belirtmek için **Eylem** satırını seçin ve sonra **Eylemi bitir** sekmesi üzerinde bir seçenek seçin.
 
 ## <a name="set-a-time-limit"></a>Zaman limiti ayarlama
 Kararın belirli bir süre içerisinde alınması gerekiyorsa bu adımları izleyin. **Not:** Bu yordamda belirlediğiniz seçenekler, sayfanın **Atama** ve **İlerletme** alanlarında belirlemiş olduğunuz seçenekleri geçersiz kılar.

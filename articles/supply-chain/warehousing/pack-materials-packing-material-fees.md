@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="packing-materials-and-fees"></a>Ambalaj malzemeleri ve ücretler
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Ambalaj malzemesi masrafları, belirli aralıklarla bir geri dönüştürme şirketine ödenmektedir. Bir ambalaj birimini meydana getiren her malzeme için ağırlık birimi başına bir tutar ödenir. Ambalaj malzemesi masrafları hesaplanır ve raporlanır, fakat masraflar bir kuruma ödenecek vergiler olarak görülmediğinden, genel muhasebeye hareket nakledilmez.
 
@@ -63,7 +62,7 @@ Müşteriler ambalaj malzemesi ücretlerini ödüyorsa, müşterilerin ambalaj m
 
 ## <a name="print-packaging-material-weights-on-invoices"></a>Faturalarda ambalaj malzemesi ağırlıklarını yazdırma
 Ambalaj malzemesi ağırlıklarını yazdırmayı ve faturadaki ambalaj malzemesi ücretlerini kimin ödeyeceğini belirtebilirsiniz. Ambalaj koduna göre ağırlıklar özetlenmiştir.
- 
+
 
 
 

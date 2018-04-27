@@ -28,10 +28,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="sales-tax-overview"></a>Satış vergisine genel bakış
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Bu konuda, satış vergisi sistemine bir genel bakış verilmektedir. Satış vergisi kurulumunun öğeleri ve birlikte nasıl çalıştıkları açıklanmaktadır.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="inventory-blocking"></a>Stok durdurma
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, Microsoft Dynamics 365 for Finance and Operations'ın kalite denetim sürecinin parçası olan stok durdurma işlemine genel bir bakış sağlar. Stok engellemeyi kullanarak maddelerin işlenmesini veya tüketilmesini engelleyebilirsiniz.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-element-dimensions"></a>Maliyet öğesi boyutları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Maliyet muhasebesinin temel direklerinden biri olarak maliyet öğesi boyutları maliyetlerin akış gerçekleştirdiği alanları sınıflandırmak ve izlemek için kullanılır. 
 

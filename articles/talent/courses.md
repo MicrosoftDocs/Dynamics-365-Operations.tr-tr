@@ -28,8 +28,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="set-up-training-courses"></a>Eğitim kursları ayarlama
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 İnsan Kaynakları yöneticileri ve yöneticileri, kursları özelliğini kullanarak işçilere sunulan eğitim hakkındaki bilgileri tutabilirler.
 
@@ -81,15 +80,15 @@ Kurslar için üç kurulum türü aşağıdaki tabloda listelenmektedir. Kursun 
 
 ## <a name="course-tasks"></a> Kurs görevleri
 Her kurs için aşağıdaki görevleri yerine getirebilirsiniz:
--   Katılımcı kaydetme
--   Kayıt için süre sonu belirleme
--   Katılımcılar için en az ve en fazla sayı belirleme
--   Bir kurs yeri ve sınıfı atama
--   Kurs katılımcılarına otel önerme
--   Çalışan self servis portalında daha sonra ilan edebileceğiniz bir kurs açıklaması oluşturma
+- Katılımcı kaydetme
+- Kayıt için süre sonu belirleme
+- Katılımcılar için en az ve en fazla sayı belirleme
+- Bir kurs yeri ve sınıfı atama
+- Kurs katılımcılarına otel önerme
+- Çalışan self servis portalında daha sonra ilan edebileceğiniz bir kurs açıklaması oluşturma
 
   >**Not** Kursu sadece kimse kayıt olmadıysa silebilirsiniz. 
-    
+
 ## <a name="course-statuses"></a>Kurs durumları
 Aşağıdaki tabloda olası kurs durumları ve kursun belirli bir durumu varsa tamamlayabilmeniz için eylemler listelenir.
 

@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3206e53c4f2659c6d9b9be64b01ac28cdd17bc88
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0235cf112b59ee86f77d26044e47eb9bff8f67db
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Ürün yapılandırma modellerindeki ifade kısıtlamaları ve tablo kısıtlamaları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda ifade kısıtlamalarının ve tablo kısıtlamalarının kullanımı açıklanmaktadır. Kısıtlamalar ürünleri satış siparişi, satış teklifi, satınalma siparişi veya üretim emri için yapılandırdığınızda, seçebileceğiniz öznitelik değerlerini denetler. Kısıtlamaları nasıl oluşturmayı tercih ettiğinizde bağlı olarak ifade kısıtlamalarını veya tablo kısıtlamalarını kullanabilirsiniz. 
 
@@ -204,23 +203,24 @@ Aşağıdaki tablolarda, ürün yapılandırma modelinde bir bileşen için bir 
 
 Sonraki tablodaki örnekler parantezli yazımın nasıl yazılacağını gösterir.
 
-| Parantezli yazım    | Açıklama                                                                                   |
+
+|  Parantezli yazım   |                                          Açıklama                                          |
 |-------------------|-----------------------------------------------------------------------------------------------|
-| x + y + z         | Fark hesap eki                                                                                      |
-| x \* y \* z       | Çarpma                                                                                |
-| x - y             | İkili çıkarma, negatife düşmüş bir ikinci varsa ikili toplama ile aynı şekilde çevrilir. |
-| x ^ y ^ z         | Sağa birleşimli üs                                                   |
-| !x                | Boole değil                                                                                   |
-| x -: y            | Boole çıkarım                                                                           |
-|  x  | y | z         | Boole ya da                                                                                    |
-| x & y & z         | Boole ve                                                                                   |
-| x == y == z       | Denklik                                                                                      |
-| x != y != z       | Benzersiz                                                                                      |
-| x &lt; y &lt; z   | Küçüktür                                                                                     |
-| x &gt; y &gt; z   | Büyüktür                                                                                  |
-| x &lt;= y &lt;= z | Küçüktür veya eşittir                                                                         |
-| x &gt;= y &gt;= z | Büyüktür veya eşittir                                                                      |
-| (x)               | Parantezler varsayılan önceliği geçersiz kılar.                                                      |
+|     x + y + z     |                                           Fark hesap eki                                            |
+|    x \* y \* z    |                                        Çarpma                                         |
+|       x - y       | İkili çıkarma, negatife düşmüş bir ikinci varsa ikili toplama ile aynı şekilde çevrilir. |
+|     x ^ y ^ z     |                          Sağa birleşimli üs                          |
+|        !x         |                                          Boole değil                                          |
+|      x -: y       |                                      Boole çıkarım                                      |
+|         x         |                                               y                                               |
+|     x & y & z     |                                          Boole ve                                          |
+|    x == y == z    |                                           Denklik                                            |
+|    x != y != z    |                                           Benzersiz                                            |
+|  x &lt; y &lt; z  |                                           Küçüktür                                           |
+|  x &gt; y &gt; z  |                                         Büyüktür                                          |
+| x &lt;= y &lt;= z |                                     Küçüktür veya eşittir                                     |
+| x &gt;= y &gt;= z |                                   Büyüktür veya eşittir                                    |
+|        (x)        |                           Parantezler varsayılan önceliği geçersiz kılar.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>İfade kısıtlamalarım neden hatasız doğrulanmıyor?
 Ayrılmış anahtar sözcükleri, öznitelikleri, bileşenleri veya ürün yapılandırma modelinde alt bileşenleri için çözücü ad olarak kullanamazsınız. Kullanamayacağınız anahtar sözcüklerin bir listesi aşağıdadır:

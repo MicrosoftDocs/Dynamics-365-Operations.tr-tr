@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="navigation-search"></a>Gezinti araması
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 for Finance and Operations sayfalarında gezinmek için arama işlevinin nasıl kullanılacağı açıklanmaktadır.
 

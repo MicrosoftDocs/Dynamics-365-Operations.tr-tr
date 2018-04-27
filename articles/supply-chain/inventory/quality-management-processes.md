@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="quality-management-processes"></a>Kalite yönetimi işlemleri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, uyumsuz ürünler için kalite yönetimi süreci hakkında bilgiler verilmektedir. Makale, kalite kontrol işlevlerini nasıl kullanacağınızı, uygunsuzlukların nasıl tanımlanıp korunacağını ve düzeltmelerin nasıl yapılacağını açıklamaktadır.
 

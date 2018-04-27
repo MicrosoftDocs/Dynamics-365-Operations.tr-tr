@@ -19,17 +19,16 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7e05361bf865e44ba6073198fba94d7102b1ed19
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b4e792cae66e38546b3bdfdfbd59a2e36d891c2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-coupons-for-retail-sales"></a>Perakende satışlar için kupon oluşturma
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview-of-coupons"></a>Kuponlara genel bakış
 
@@ -46,9 +45,12 @@ Kupon oluşturmak için iskontoyu ve kuponu ayrı olarak oluşturun. Ardından b
 
 ### <a name="limited-use-coupons"></a>Sınırlı kullanım kuponları
 
-Kuponlar sınırlı kullanım kuponları olarak yapılandırılabilir. Kullanım sınırı müşteri ya da kanal başına ya da genel bir sınır olarak tanımlanabilir. Kod veya barkod girildiğinde veya POS'ta tarandığında veya satış siparişi girişi sırasında bu sınır zorlanır. Kuponla ilişkilendirilmiş olan bir sipariş tamamlandığında, kupon kullanılmış olarak kaydedilir.
+Kuponlar sınırlı kullanım kuponları olarak yapılandırılabilir. Kullanım sınırı müşteri ya da kanal başına ya da genel bir sınır olarak tanımlanabilir. Kod veya barkod girildiğinde veya POS'ta tarandığında veya satış siparişi girişi sırasında bu sınır zorlanır.
 
 Limit, kupondaki kupon kodu başına zorlanır. Örneğin, iki kupon kodu içeren bir tek kullanım kupon iki kez kullanılabilir: her kupon kodu için bir kez. Kupondaki her kod bağımsız olarak etkin olacak şekilde ayarlanabilir.
+
+> [!NOTE]
+> Kupon kodu kullanım sınırına ulaştığında sistem kupon kod durumunu otomatik olarak "Kullanıldı" olarak *değiştirmez*. Bununla birlikte sistem kullanım sınırına ulaşan bir kupon kodunun daha fazla kullanılmasına izin vermez. Kupon kod durumu "Etkin" dışında bir ayara el ile ayarlanmışsa, bu kupon kodu herhangi bir kanalda kullanılamaz.
 
 ## <a name="managing-coupons"></a>Kupon yönetimi
 
@@ -68,8 +70,8 @@ Kupon ayarlamadan önce, kupon bar kodu ve iki numara serisi ayarlamanız gereki
     > [!NOTE]
     > Her iki numara serisi için **Kapsam** alanını **Şirket** olarak ayarlamanız gerekir. Çoğu durumda, her iki numara serisini otomatik olarak oluşturmanız gerekir.
 
-5.  **Perakende paylaşılan parametreleri** sayfasında, **Barkodlar** sekmesinde, daha önce oluşturduğunuz barkodu seçin.
-6.  **Perakende parametreleri** sayfasında, **Numara serileri** sekmesinde, kupon numarası ve kupon kodu kimliği için oluşturduğunuz numara serilerini seçin.
+5.  **Perakende parametreleri** sayfasında, **Barkodlar** sekmesinde, daha önce oluşturduğunuz barkodu seçin.
+6.  **Perakende paylaşılan parametreleri** sayfasında, **Numara serileri** sekmesinde, kupon numarası ve kupon kodu kimliği için oluşturduğunuz numara serilerini seçin.
 7.  Artık **Kuponlar** sayfasını açıp yeni kuponlar oluşturabilirsiniz.
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Kısmi güncelleştirmelerin kupon üzerindeki etkisi

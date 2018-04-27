@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-license-plate-receiving"></a>Karma plaka alımı
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Karma plaka almak, yerine koyma işlemi oluşturmadan önce çoklu öğelerden oluşan bir plaka oluşturmanıza izin verir. 
 

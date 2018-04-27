@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>İskonto tarihinden önce bir kısmi satıcı ödemesini ve nihai ödemeyi tam olarak kapatın
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale size, satıcı faturası için kısmi ödemelerin yapıldığı ve nakit iskontosunun alındığı bir senaryo sunar.
 

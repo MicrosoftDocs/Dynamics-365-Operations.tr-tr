@@ -29,10 +29,9 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-dimensions"></a>Ürün boyutları
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[Retail name](../includes/retail-name.md)]
-
+[!INCLUDE [Retail name](../includes/retail-name.md)]
 
 Dört ürün boyutu bulunur - Renk, Yapılandırma, Boyut ve Stil. Ürün boyutlarını boyut gruplarında birleştirebilirsiniz ve ürün master öğelerine boyut grupları atayabilirsiniz. Ürün boyutlarının kombinasyonları, ürün çeşitlerinin nasıl tanımlanacağını belirler.
 
@@ -51,6 +50,7 @@ Boyut, Renk ve Stil gibi ürün boyutu değerleri **Boyut**, **Renk** ve **Stil*
 -   **Ürün bilgileri yönetimi** &gt; **Serbest bırakılan ürünler**'e tıklayın. Bir ana ürün seçin. **Eylem Bölmesi**'nde, **Ürün**'e tıklayın. **Ana ürün** grubunda **Ürün boyutları**'na tıklayın.
 
 Maddeler için oluşturabileceğiniz varyant sayısı, olası ürün boyutu kombinasyonlarının sayısı ile sınırlıdır.
+
 | **İpucu**                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bir ürünü örneğin bir emir satırında kullanırken, birlikle çalışmak istediğiniz ürün varyantını tanımlamak için ürün boyutlarını seçerseniz. |

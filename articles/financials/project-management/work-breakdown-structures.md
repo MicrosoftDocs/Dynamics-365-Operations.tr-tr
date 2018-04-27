@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fc2fa16a44b6421d56e9cb662cfaa26da5b1c5d1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8bc3d23fac6112622e722e57b61fdb686f5a98ed
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="work-breakdown-structures"></a>İş kırılım yapıları
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 İş kırılım yapısı (WBS) bir projede yapılacak işin bir açıklamasıdır. Proje ekibinin iş bileşimi, her bir bileşen veya görevin boyut, maliyet ve süre anlayışını temsil eden bir görevler hiyerarşisidir. Bir WBS'nin üç ana amacı vardır:
 
@@ -115,7 +115,7 @@ Zamanlama tahmini genellikle bir WBS oluşturmanın ikinci adımıdır. Görevle
 
 Öncelleri olmayan bir alt düğüm görevinin başlangıç tarihi, projenin zamanlama başlangıç tarihine otomatik olarak ayarlanır. Bir alt düğüm görevinin süresi her zaman kendi başlangıç ve bitiş tarihleri arasındaki çalışma gün sayısı olarak hesaplanır. 
 
-****Zamanlama kuralları**** Otomatik zamanlama yardımcısı etkinleştirildiği zaman, alt düğüm görevleri için görev zamanlamasına aşağıdaki kurallar uygulanır:
+*<strong><em>Zamanlama kuralları</em></strong>* Otomatik zamanlama yardımcısı etkinleştirildiği zaman, alt düğüm görevleri için görev zamanlamasına aşağıdaki kurallar uygulanır:
 
 -   Bir görevin başlangıç ve bitiş tarihleri, projenin zamanlama takvimine göre, çalışma günleri olmalıdır.
 -   Öncelleri olan bir görevin başlangıç tarihi, öncellerinin en son bitiş tarihine otomatik olarak ayarlanır.

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="generate-a-statistical-baseline-forecast"></a>Bir istatistik temel tahmin oluştur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, talep tahmini hesaplamasında kullanılan parametreler ve filtreler hakkında bilgiler verilmektedir. 
 

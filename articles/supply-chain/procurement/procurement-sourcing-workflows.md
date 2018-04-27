@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="procurement-and-sourcing-workflows"></a>Tedarik ve kaynak atama iş akışları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bazı kuruluşlar satınalma taleplerinin ve satınalma siparişlerinin hareketi giren kişiden başka bir kullanıcı tarafından onaylanmasını gerektirir. Bir onay sürecini ayarlamak için iş akışı oluşturabilirsiniz.
 

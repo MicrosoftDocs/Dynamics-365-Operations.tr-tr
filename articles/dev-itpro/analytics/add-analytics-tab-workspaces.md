@@ -16,16 +16,16 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee95c3d79f7f401c767b9bc8415b21369c14478b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Katıştırılmış Power BI kullanarak çalışma alanlarına analiz ekleme
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Bu özellik Dynamics 365 for Finance and Operations (sürüm 7.2 ve sonrası) için desteklenir.
@@ -50,7 +50,7 @@ Mevcut bir uygulama çalışma alanını genişlettiğinizde veya kendinize ait 
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>Bir .pbix dosyasını bir kaynak olarak ekleyin.
 Başlamadan önce, çalışma alanına katıştıracağınız Power BI raporunu oluşturun veya alın. Analitik raporlar oluşturmak hakkında daha fazla bilgi için bkz. [Power BI Masaüstü ile çalışmaya başlamak](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
- 
+
 Bir .pbix doyasını bir Visual Studio yapıtı olarak eklemek için şu adımları izleyin.
 
 1. Uygun modelde yeni bir proje oluşturun.
@@ -63,12 +63,12 @@ Bir .pbix doyasını bir Visual Studio yapıtı olarak eklemek için şu adımla
 5. Analitik raporun tanımını içeren .pbix dosyasını bulun ve **Aç**'ı tıklatın.
 
     ![Bir Kaynak dosya iletişim kutusu seçin](media/analytical-workspace-select-resource.png)
-  
+
 Şimdi .pbix dosyasını bir Dynamics 365 kaynağı olarak ekledikten sonra, raporları çalışma alanlarına katıştırabilir ve menü öğelerini kullanarak doğrudan bağlantılar ekleyebilirsiniz.
 
 ## <a name="add-a-tab-control-to-an-application-workspace"></a>Bir uygulama çalışma alanına bir sekme denetimi ekleyin
 Bu örnekte Filo Yönetimi modelinde, **Analizler** sekmesini **FMClerkWorkspace** formuna ekleyerek **Rezervasyon yönetimi** çalışma alanını genişleteceğiz.
- 
+
 Aşağıdaki görsel, **FMClerkWorkspace** formunun Microsoft Visual Studio tasarımcısında nasıl görüneceğini gösterir.
 
 ![Değişikliklerden önce FMClerkWorkspace formu](media/analytical-workspace-definition-before.png)
@@ -93,16 +93,16 @@ Aşağıdaki görsel, **FMClerkWorkspace** formunun Microsoft Visual Studio tasa
 16. Sağ tıklayın ve daha sonra **Deseni sil**'i seçin.
 17. Yeniden sağ tıklayın ve **Desen ekle** > **Sekmeli Çalışma Alanı**'nı seçin.
 18. Yaptığınız değişiklikleri doğrulamak için bir yapı gerçekleştirin.
- 
+
 Aşağıdaki görsel, bu değişiklikler uygulandıktan sonra tasarımın nasıl görüneceğini gösterir.
 
 ![Değişikliklerden sonra FMClerkWorkspace](media/analytical-workspace-definition-after.png)
 
 Çalışma alanı raporunu katıştırmak için kullanılacak form denetimlerini ekledikten sonra, düzeni bulunduracak üst denetimin boyutunu tanımlamalısınız. Varsayılan olarak hem **Filtrelre Bölmesi** sayfası hem de **Sekmeler** sayfası raporda görünür olur. Bunula birlikte, bu denetimlerin görünürlüğünü raporun hedef tüketicisi için uygun şekilde değiştirebilirsiniz.
- 
+
 > [!NOTE]
 > Katıştırılmış çalışma alanları için tutarlılık amacıyla hem **Filtrelre Bölmesi** hem de **Sekme** sayfasını gizleyecek uzantılar kullanmanızı öneririz.
- 
+
 Şimdi uygulama form tanımını genişletme görevini tamamladınız. Uzantıların nasıl kullanılacağı ve özelleştirmelerin nasıl yapılacağına dair daha fazla bilgi için bkz.  [Özelleştirme: Katmanlama ve uzantılar](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Bir görüntüleyici denetimi katıştırmak için X++ iş mantığı ekleyin
@@ -169,12 +169,13 @@ public static void initializeReportControl(
 
 #### <a name="parameters"></a>Parametreler
 
-| Dosya Adı | Açıklama |
-|---|---|
-| resourceName | .pbix kaynağının adı. |
-| formGroupControl | Power BI rapor denetiminin uygulanacağı form grup denetimi. |
-| defaultPageName | Varsayılan sayfa adı. |
-| showFilterPane | Bir Boole değeri, filtre panosunun gösterilip (**doğru**) gösterilmeyeceğini (**yanlış**) belirtir. |
-| showNavPane | Bir Boole değeri, gezinti panosunun gösterilip (**doğru**) gösterilmeyeceğini (**yanlış**) belirtir. |
-| defaultFilters | Power BI raporu için varsayılan filtreler. |
+|       Dosya Adı       |                                                              Açıklama                                                               |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|   resourceName   |                                                    .pbix kaynağının adı.                                                     |
+| formGroupControl |                                    Power BI rapor denetiminin uygulanacağı form grup denetimi.                                     |
+| defaultPageName  |                                                         Varsayılan sayfa adı.                                                         |
+|  showFilterPane  |   Bir Boole değeri, filtre panosunun gösterilip (<strong>doğru</strong>) gösterilmeyeceğini (<strong>yanlış</strong>) belirtir.   |
+|   showNavPane    | Bir Boole değeri, gezinti panosunun gösterilip (<strong>doğru</strong>) gösterilmeyeceğini (<strong>yanlış</strong>) belirtir. |
+|  defaultFilters  |                                              Power BI raporu için varsayılan filtreler.                                              |
+
 

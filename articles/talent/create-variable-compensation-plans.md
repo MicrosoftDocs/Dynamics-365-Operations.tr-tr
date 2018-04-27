@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4ced76315bb4667f84be532a703e7e9b134b829b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>Değişken ücret planları oluşturma
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Değişken ücret, çalışanın düzenli almadığı, prim, hisse senedi ikramiyesi gibi ödemeleri ifade eder. Bu makalede, değişken ücret kullanabilmeniz ve çalışanları bir değişken ücret planına kaydedebilmeniz için ayarlanması gereken bileşenler açıklanmaktadır.
 
@@ -78,12 +77,12 @@ Dengeleme yalnızca dengeleme süreci çalışırken **Performans için ödeme**
 
 **Not:** Uygunluk kuralları hem sabit ücret planları hem de değişken ücret planları için uygunluğun belirlenmesinde kullanılır. Uygunluk kuralları, bir çalışanın bir ücret planı için uygun olup olmadığını belirlemek için iş, pozisyon ve çalışan kayıtları altındaki şu alanları dikkate alır:
 
--   **İş** sayfasında:
-    -   **İş** alanı
-    -   **İş sınıflandırma** sekmesi altındaki **Görev** ve **İş türü** alanları
-    -   **Ücret** sekmesindeki **Düzey** alanı
--   **Pozisyonlar** sayfasında: **Departman** ve **Ücret bölgesi** alanları
--   **Personel** sayfasında: ****Personel**** sekmesindeki **Kişisel bilgiler** &gt; **İşçi sendikaları** altında çalışanla bağlantılı işçi sendikaları hakkındaki bilgiler
+- **İş** sayfasında:
+  -   **İş** alanı
+  -   **İş sınıflandırma** sekmesi altındaki **Görev** ve **İş türü** alanları
+  -   **Ücret** sekmesindeki **Düzey** alanı
+- **Pozisyonlar** sayfasında: **Departman** ve **Ücret bölgesi** alanları
+- <strong>Personel</strong> sayfasında: *<strong><em>Çalışan</em></strong>* sekmesindeki <strong>Kişisel bilgiler</strong> &gt; <strong>İşçi sendikaları</strong> altında çalışanla bağlantılı işçi sendikaları hakkındaki bilgiler
 
 ### <a name="enable-enrollment-for-the-variable-compensation-plan"></a>Değişken ücret planı için kayıt etkinleştirme
 

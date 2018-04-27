@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-consignment"></a>Konsinyeyi ayarlama
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu gelen konsinye stok operasyonlarının nasıl yapılandırılacağını açıklar.
 

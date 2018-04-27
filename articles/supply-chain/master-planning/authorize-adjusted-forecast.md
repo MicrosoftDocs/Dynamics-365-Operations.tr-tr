@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="authorize-an-adjusted-forecast"></a>Bir düzeltilmiş tahmini onayla
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Tüm tahmin verilerinin hemen yetkilendirilmesi gerekmez. Bu makale bir tahminin yetkilendirildiği dönemi nasıl belirtebileceğinizi açıklar. Ayrıca, özel şirketler ve tahmin modelleri için tahmini nasıl yetkilendirebileceğinizi açıklar.
 

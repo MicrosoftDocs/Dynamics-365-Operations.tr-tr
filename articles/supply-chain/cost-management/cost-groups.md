@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-groups"></a>Maliyet grupları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Maliyet grupları, üretilen bir maddenin malzeme, işçilik ve genel giderler için maliyet katkıları gibi hesaplanan maliyetindeki maliyet katkılarını segmentlere ayırmak ve analiz etmek için temel sağlar. Maliyet grubu segmentasyonu üretim ortamlarında maliyet dökümü, maliyet dağılımı veya maliyet sınıflandırması gibi birçok eşanlamlı ifadeye sahiptir. 
 

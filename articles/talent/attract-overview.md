@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="attract-overview"></a>Attract'e genel bakış
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Attract, yeni yetenekleri işe alma süreci için yeterlikler sağlar. Adaylar açık işlere eklenebilir ve aşamalar arasından ilerletilerek bir teklif sunulabilir veya başvuru reddedilebilir. Her bir aşamada, adaylar eleme aramaları, değerlendirmeler veya mülakat planlamaları gibi etkinliklerden geçerler. Yanıt verdikten sonra adaylar onları Attract'e oturum açmaya davet eden bir e-posta alırlar; burada işin durumunu ve kendi başvurularını izleyebilir ve onlara atanmış görevlere yanıt verebilirler.
 

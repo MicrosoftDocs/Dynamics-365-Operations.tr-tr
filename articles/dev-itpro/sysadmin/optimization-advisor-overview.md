@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="optimization-advisor-overview"></a>En iyi duruma getirme danışmanına genel bakış
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu Microsoft Dynamics 365 Finance and Operations'ın optimum yapılandırmasını sağlamak üzere En iyi duruma getirme danışmanını nasıl kullanabileceğinizi açıklar.
 

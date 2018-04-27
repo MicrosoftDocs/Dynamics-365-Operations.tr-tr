@@ -29,10 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="running-average-cost-price"></a>Cari ortalama maliyet fiyatı
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Stok kapanışı işlemi, maddenin madde modeli grubunda seçilen stok değerleme yöntemine dayanarak çıkış hareketlerini giriş hareketlerine karşılık kapatır. Ancak, stok kapanışı çalıştırılmadan önce, sistem çoğu durumda çıkış hareketlerini deftere nakletmek için kullanılan bir cari ortalama maliyet fiyatı hesaplar.
 

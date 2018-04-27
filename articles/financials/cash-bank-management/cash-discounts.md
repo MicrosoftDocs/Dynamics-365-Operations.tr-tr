@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cash-discounts"></a>Nakit iskontoları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Nakit iskontoları Borç hesapları ve Alacak hesapları için ayarlanır ve paylaşılır.  Yapılabilecek nakit iskontosu müşteri faturasında veya satıcı faturasında tanımlanabilir ve fatura, nakit iskontosu tarihi geçmeden ödendiği takdirde alınır. 
 
@@ -65,6 +64,7 @@ Tüzel kişiliğinizin muhasebe para birimi EUR'dur ve aşağıdaki döviz kurla
 -   1 Mart = 80
 
 20D2% nakit iskonto koşullarına sahip 1000 USD'lik bir fatura 15 Şubat'ta nakledilir. Faturanın muhasebe para birimi tutarı 1100 EUR'dur. 980 USD için bir ödeme, fatura ile 1 Mart'ta kapatılır. Nakit iskontosu tutarı 20 USD'dir. Ödemenin muhasebe para birimi tutarı 784 Euro'dur. Nakit iskontosu hesap para miktarı, 1 Mart itibariyle döviz kuru kullanılarak hesaplanır: 20 \* 80 / 100 = 16 EUR.
+
 | **Not**                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Alacak hesapları parametreleri ya da hesapların borç parametreleri sayfaları hesapla nakit iskontoları için kısmi ödeme seçeneği seçili olduğunda her bir kısmi ödeme tarihinde geçerli olan döviz kuru kullanılır. |

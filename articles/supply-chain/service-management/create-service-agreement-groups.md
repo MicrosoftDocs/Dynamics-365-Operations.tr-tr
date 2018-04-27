@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="create-service-agreement-groups"></a>Servis sözleşmesi grupları oluşturma 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Servis sözleşmesi grupları, servis sözleşmelerinin sıralanması ve filtrelenmesi açısından yararlıdır.
 

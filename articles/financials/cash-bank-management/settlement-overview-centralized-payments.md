@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settlement-overview-for-centralized-payments"></a>Merkezi ödemeler için kapatmaya genel bakış
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten bir tüzel kişilik kullanarak ödemeleri oluşturabilir ve yönetebilirler. Bu, aynı hareketi birden fazla tüzel kişiliğe girme gereksinimini ortadan kaldırır ve merkezi ödemeler için ödeme teklifi işlemi, kapatma işlemi, açık hareket düzenleme ve kapalı hareket düzenleme akışını sağlayarak zaman kazandırır. 
 

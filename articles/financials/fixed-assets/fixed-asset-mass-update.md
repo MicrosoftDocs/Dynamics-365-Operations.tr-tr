@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-mass-update"></a>Sabit kıymet toplu olarak güncelleştirme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Defterleri kullanıyorsanız, aynı defterlerin parçası olan kıymet grupları için amortisman yöntemlerini değiştirebilirsiniz.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a>Madde için taşıma sınırlamalarını ayarlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, seçili bir öğenin, seçili bir hub üzerinden taşınmasını önlemek için bir taşıma kısıtlaması ayarlar. Bu görev genellikle Taşıma koordinatörü tarafından gerçekleştirilir. Bu yordamı, demo verileri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.
 

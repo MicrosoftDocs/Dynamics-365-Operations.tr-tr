@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a>Modern POS ile Cloud POS arasında seçim yapma
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu konu uygulamacılara, Microsoft Dynamics 365 for Retail dağıtırken dikkate almaları gereken faktörlerle ilgili ek bilgiler, ipuçları ve kılavuzlar sağlar. Dağıtım sürecinin bir parçası olarak bu kılavuzu gözden geçiren ve izleyen uygulamacılar kullanıcı memnuniyetini veya performansı etkileyebilecek sorunları önleyebilir.
 
@@ -92,8 +92,8 @@ Perakende mağazalarınızda POS uygulamanızı planlarken aşağıdaki bilgiler
 
     Belirli bir cihaz için bağlantı çok güvenilir ve esnek olmadığı veya belirli miktarda bir kesinti perakendeci tarafından kabul edilebilir olmadığı sürece, aşağıdaki seçeneklerden birini öneririz:
 
-    - Windows'ta MPOS kullanın ve çevrimdışı modu etkinleştirin.
-    - Bir şirket için RSSU dağıtın.
+  - Windows'ta MPOS kullanın ve çevrimdışı modu etkinleştirin.
+  - Bir şirket için RSSU dağıtın.
 
     Bu iki seçenek karşılıklı olarak birbirini dışarıda bırakmaz. En güvenilir topoloji için perakendeciler internet bağlantısına veya Azure'un kullanılabilirliğine olan bağımlılığı azaltmak amacıyla yerel bir RSSU dağıtabilir. Ayrıca, yerel sunucu veya ağ ile ilgili bir sorun olması durumunda çevrimdışı modun etkinleştirildiği POS kayıtları da dağıtabilir.
 

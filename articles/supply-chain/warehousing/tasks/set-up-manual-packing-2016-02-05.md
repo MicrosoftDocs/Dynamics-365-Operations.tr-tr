@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-manual-packing-february--may-2016-only"></a>El ile ambalajlamayı ayarlama (yalnızca Şubat ve Mayıs 2016)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Paketleme işlemi, doğrulamanıza ve ürünleri konteynerlere yerleştirmenize izin verir. Bu süreçte ambar çalışanları ürünleri depolama konumlarından çeker ve onları ürün miktarları ve türlerini denetledikleri bir paketleme istasyonuna taşır ve daha sonra onları uygun konteynerlere atar. Bir konteyner tam olarak paketlendiğinde, bunu kapatıp çıkış noktalarına taşıyabilirler ve böylece ürünler sevk edilmeye hazır hale gelir. Bu yordam, USMF demo şirketini kullanır.
 

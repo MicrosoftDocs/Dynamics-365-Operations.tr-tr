@@ -18,24 +18,23 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: c42a7e50d6efb6408e480b50b3e520f5812aeb56
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c301f27504f7f1545608bb214a4f1b4d4cecc47f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-may-2016"></a>Yeni veya güncelleştirilmiş kılavuzlar (Mayıs 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Dynamics AX için Microsoft (Mayıs 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır. 
 
 <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Microsoft Dynamics AX için (Mayıs 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'ndaki görev kılavuzları
 ------------------------------------------------------------------------------------------------
 
-(Mayıs 2016) APQC Birleştirilmiş Kitaplığı, Microsoft Dynamics AX Mayıs 2016 güncelleştirmesi ve Microsoft Dynamics AX Şubat 2016 sürümünün Yardım'ı için kullanılması planlanan Görev kılavuzlarını içerir. (Şubat 2016) APQC Birleştirilmiş Kitaplığı'nda yayımlanan Görev kılavuzlarının yerelleştirilmiş sürümleri bu kitaplıkta bulunabilir. Yardım sistemini bir Görev kılavuzu kitaplığına bağlama hakkında daha fazla bilgi için bkz. [Yardıma Giriş](help-overview.md). **Not:** İş süreci modelleyici (BPM) satırı başlığının yanında bulunan yıldız **\*** işareti bu iş sürecine ilişkin Görev kılavuzunun Dynamics AX Mayıs 2016 güncelleştirmesi için oluşturulduğunu ve Microsoft Dynamics AX uygulamasının önceki sürümlerinde desteklenmediğini gösterir.
+(Mayıs 2016) APQC Birleştirilmiş Kitaplığı, Microsoft Dynamics AX Mayıs 2016 güncelleştirmesi ve Microsoft Dynamics AX Şubat 2016 sürümünün Yardım'ı için kullanılması planlanan Görev kılavuzlarını içerir. (Şubat 2016) APQC Birleştirilmiş Kitaplığı'nda yayımlanan Görev kılavuzlarının yerelleştirilmiş sürümleri bu kitaplıkta bulunabilir. Yardım sistemini bir Görev kılavuzu kitaplığına bağlama hakkında daha fazla bilgi için bkz. [Yardıma Giriş](help-overview.md). <strong>Not:</strong> Bir İş süreci modelleyici (BPM) satırı başlığının yanında bulunan yıldız (<strong>\</strong>*) bu iş sürecine ilişkin görev kılavuzunun Dynamics AX Mayıs 2016 güncelleştirmesi için oluşturulduğunu ve Microsoft Dynamics AX uygulamasının önceki sürümlerinde desteklenmediğini gösterir.
 
 ### <a name="countryregion-functionality"></a>Ülke/bölge işlevleri
 
@@ -63,15 +62,15 @@ Bu konu, Microsoft Dynamics AX için Microsoft (Mayıs 2016 - tüm diller) APQC 
 
 ### <a name="electronic-reporting"></a>Elektronik raporlama
 
-| BPM satırı                                                                   | Ülke/bölge |
+|                                  BPM satırı                                  | Ülke/bölge |
 |----------------------------------------------------------------------------|----------------|
-| ER Hedefleri yapılandırma                                                  | Genel         |
-| ER OPENXML formatında raporların oluşturulması için bir yapılandırma tasarlama         | Genel         |
-| ER Biçim yapılandırmayı kullanarak ödemeler için elektronik belgeler oluşturma | Genel         |
-| ER Lifecycle Services'tan bir yapılandırmayı içe aktarma                          | Genel         |
-| **\***ER Hizmet sağlayıcısı seçme                                           | Genel         |
-| ER Formatınızı, o formatın yeni bir temel sürümünü benimseyerek yükseltme      | Genel         |
-| ER Lifecycle Services'a bir yapılandırma yükleme                          | Genel         |
+|                         ER Hedefleri yapılandırma                          |     Genel     |
+|     ER OPENXML formatında raporların oluşturulması için bir yapılandırma tasarlama     |     Genel     |
+| ER Biçim yapılandırmayı kullanarak ödemeler için elektronik belgeler oluşturma |     Genel     |
+|             ER Lifecycle Services'tan bir yapılandırmayı içe aktarma              |     Genel     |
+|               <strong>\</strong>*ER Hizmet sağlayıcısı seçme                |     Genel     |
+|   ER Formatınızı, o formatın yeni bir temel sürümünü benimseyerek yükseltme    |     Genel     |
+|             ER Lifecycle Services'a bir yapılandırma yükleme              |     Genel     |
 
 ### <a name="human-capital-management"></a>İnsan sermayesi yönetimi
 
@@ -177,17 +176,15 @@ Bu konu, Microsoft Dynamics AX için Microsoft (Mayıs 2016 - tüm diller) APQC 
 
 ### <a name="warehouse-and-transportation"></a>Ambar ve taşıma
 
-| BPM satırı                                                            | Ülke/bölge |
-|---------------------------------------------------------------------|----------------|
-| Dalga işlemeyi yapılandırma                                           | Genel         |
-| **\***Plaka kontrollü olmayan bir konuma tamamlandı olarak rapor etme | Genel         |
-| Min-maks yenileme işlemi ayarlama                              | Genel         |
-| Konteyner kullanımını ayarlama                                             | Genel         |
-| Manuel ambalajlamayı ayarlama                                               | Genel         |
-| Bir madde için taşıma sınırlamalarını ayarlama                       | Genel         |
-| **\***Ambar iş ilkelerini ayarlama                                | Genel         |
-
-
+|                                     BPM satırı                                     | Ülke/bölge |
+|----------------------------------------------------------------------------------|----------------|
+|                            Dalga işlemeyi yapılandırma                             |     Genel     |
+| <strong>\</strong>*Plaka kontrollü olmayan bir konuma tamamlandı olarak rapor etme |     Genel     |
+|                      Min-maks yenileme işlemi ayarlama                      |     Genel     |
+|                             Konteyner kullanımını ayarlama                              |     Genel     |
+|                              Manuel ambalajlamayı ayarlama                               |     Genel     |
+|                  Madde için taşıma sınırlamalarını ayarlama                   |     Genel     |
+|                <strong>\</strong>*Ambar iş ilkelerini ayarlama                 |     Genel     |
 
 <a name="see-also"></a>Ayrıca bkz.
 --------

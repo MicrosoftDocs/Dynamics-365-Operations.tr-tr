@@ -24,7 +24,7 @@ ms.lasthandoff: 10/27/2017
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Gelişmiş kural yapıları oluşturma ve atama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev kılavuzu, gelişmiş kural yapısı oluşturmayı ve bir hesap yapısına atamayı adım adım açıklar. Bu kılavuz, USMF demo şirketini kullanır.
 

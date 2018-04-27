@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-mass-hire-project"></a>Toplu işe alma projesi oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu prosedürde, bir toplu işe alma projesini ayarlama sürecinde size yol gösterilecek. Bir işveren kolayca çok sayıda pozisyon oluşturmak ve birçok çalışanı bu pozisyonlarda işe almak için toplu işe alma projelerini kullanabilir. Bu prosedüre başlatmak için İnsan kaynakları > İşe alma > Toplu işe alma projeleri'ne gidin. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

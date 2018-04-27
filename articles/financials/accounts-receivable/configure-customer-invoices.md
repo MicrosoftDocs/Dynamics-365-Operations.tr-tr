@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0e5605b65b6203a50ef2fef81d032a887da32bf9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f08131e01fddb259d3bb537b1625ea2615a1e958
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-a-customer-invoice"></a>Müşteri faturası oluşturma
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 **Satış siparişi için müşteri faturası** kuruluşun bir müşteriye verdiği, satışla ilişkili bir faturadır. Bu türdeki bir satış faturası, satış satırları ve madde numaraları içeren bir satış siparişine dayanarak oluşturulur. Madde numaraları genel muhasebede belirtilir ve deftere kaydedilir. Muavin defteri günlük girişleri, bir satış siparişi için müşteri faturası için kullanılamaz Daha fazla bilgi için bkz. [Satış siparişi faturaları oluşturun](tasks/create-sales-order-invoices.md).
 
@@ -100,7 +99,7 @@ Aşağıdaki alanlar deftere nakil işleminin davranışını değiştirir.
 <tr class="even">
 <td>Deftere nakil</td>
 <td><ul>
-<li>Satış emrini günlüğe girmek için bu seçeneği seçin.</li>
+<li>Satış emrini günlüğe girmek için bu seçeneği belirleyin.</li>
 <li>Proforma satış emri yazdırmak için bu seçeneği kaldırın. <strong>Not:</strong> Ödeme planı için anlaşma yaptıysanız, ödeme planı proforma satış emrinde gösterilmez. Ödeme planları yalnızca fiili satış emirlerinde gösterilir.</li>
 </ul></td>
 </tr>
@@ -145,7 +144,7 @@ Aşağıdaki alanlar deftere nakil işleminin davranışını değiştirir.
 </tr>
 <tr class="even">
 <td>Alacak düzeltme</td>
-<td>Alacak dekontunu fiş hareketlerinde borç olarak görüntülemek için bu seçeneği seçin.</td>
+<td>Alacak dekontunu fiş hareketlerinde borç olarak görüntülemek için bu seçeneği belirleyin.</td>
 </tr>
 <tr class="odd">
 <td>Kalan alacak miktarı</td>

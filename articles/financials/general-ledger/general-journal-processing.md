@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="general-journal-processing"></a>Yevmiye defteri işlemi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makaleler, yevmiye işlemlerini daha kolay yapmaya yardımcı olabilecek Microsoft Dynamics 365 for Finance and Operations yeteneklerini açıklar. Bunlar ayrıca doğru verilerin kaydedildiğini ve dahili kontrolün hatasız olduğunu da garanti etmeye yardımcı olur.  
 

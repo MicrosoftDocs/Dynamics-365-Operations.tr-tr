@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>Şirket içi bir dağıtım için SQL Server Reporting Services'ı konfigüre etme
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konudaki adımları, Microsoft Dynamics 365 for Finance and Operations (şirket içi) dağıtımınız için SQL Server Raporlama Servisleri'ni (SSRS) yapılandırmak için kullanın.
 
@@ -52,13 +52,13 @@ Bu konudaki adımları, Microsoft Dynamics 365 for Finance and Operations (şirk
 
     [![web portal url sekmesi](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)
     
-  Portal yapılandırıldıktan sonra, **Web Portalı** sekmesi aşağıdaki grafikle eşleşecektir.
+   Portal yapılandırıldıktan sonra, **Web Portalı** sekmesi aşağıdaki grafikle eşleşecektir.
     [![web portal url sekmesi](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)
     
 8. SQL Server Raporlama Servisleri web portalını görüntülemek için raporlar URL'sini tıklatın. 
-9.  Portaldayken, **Dynamics** adlı yeni bir klasör oluşturun.
+9. Portaldayken, **Dynamics** adlı yeni bir klasör oluşturun.
 
-    [![dynamics klasörü](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
+   [![dynamics klasörü](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
     
 10. **Raporlama Servisleri Yapılandırma Yöneticisi** içerisinde, **E-posta Ayarları** sekmesine tıklayın ve ayarların aşağıdaki grafikle eşleştiğini doğrulayın.
 
@@ -68,15 +68,15 @@ Bu konudaki adımları, Microsoft Dynamics 365 for Finance and Operations (şirk
 
     [![yürütme hesabı sekmesi](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)
     
-  **Şifreleme Anahtarları** sekmesindeki varsayılan ayarları değiştirmeyin. [![şifreleme anahtarları sekmesi](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
+    **Şifreleme Anahtarları** sekmesindeki varsayılan ayarları değiştirmeyin. [![şifreleme anahtarları sekmesi](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
     
 12. **Abonelik Ayarları** sekmesine tıklayın ve ayarların aşağıdaki grafikle eşleştiğini doğrulayın.
 
     [![abonelik ayarları sekmesi](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)
     
-  **Dağıtımı Ölçeklendir** sekmesindeki varsayılan ayarları değiştirmeyin. [![dağıtımı ölçeklendir sekmesi](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
+    **Dağıtımı Ölçeklendir** sekmesindeki varsayılan ayarları değiştirmeyin. [![dağıtımı ölçeklendir sekmesi](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
     
-  **Power BI Tümleştirmesi** sekmesindeki varsayılan ayarları değiştirmeyin. [![power bi tümleştirme sekmesi](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
+    **Power BI Tümleştirmesi** sekmesindeki varsayılan ayarları değiştirmeyin. [![power bi tümleştirme sekmesi](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
     
 13. **Raporlama Servisleri Yapılandırma Yöneticisi**'ni kapatmak için **Çıkış**'a tıklayın.
 

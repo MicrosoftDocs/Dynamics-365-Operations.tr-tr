@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="connect-the-help-system"></a>Yardım sistemini bağlama
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 for Finance and Operations'un Yardım sisteminin bileşenlerini açıklamaktadır. Bu bileşenlere nasıl bağlanılacağı ve özel yardım oluşturma hakkında genel bir bakış sağlar. 
 
@@ -42,7 +41,7 @@ Aşağıdaki çizim, Finance and Operations Yardım sisteminin bölümlerini gö
 ## <a name="connecting-the-help-system"></a>Yardım sistemine bağlanma
 > [!NOTE]
 > **Görev kılavuzları** sekmesi Microsoft Dynamics 365 for Talent ve Microsoft Dynamics 365 for Retail için henüz kullanılabilir değildir. Bu işlevi gelecekteki bir sürümde etkinleştirmek için çalışıyoruz. Başlarken deneyimindeki Görev kılavuzları, temel işlevselliği kapsamak üzere kullanılabilir kalır. Yordamlama yardımı da docs.microsoft.com sitesinde, hem Retail hem Talen için kullanılabilir ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)).
- 
+
 
 **Sistem Parametreleri** sayfasını kullanarak, sistem yöneticileri bir uygulama için Yardım sisteminin parçalarını bağlar. [![Sistem Parametreleri formu Yardım ayarları](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) **Sistem parametreleri** sayfasında şu adımları izleyin:
 

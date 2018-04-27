@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-journal-entries-and-transactions"></a>Günlük girişlerini veya hareketlerini görüntüleme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, günlük girişlerini ve hareketleri görüntüleyebileceğiniz çeşitli yollar açıklanmaktadır. 
 
@@ -55,7 +54,7 @@ Mali raporlara ek olarak, aşağıdaki genel muhasebe raporlarını kullanarak g
 -   **Hareket kaynağı** – Bu hareket raporu, hesabı günlüğe ve harekete, muhasebeye ve raporlama para birimine göre gösterir.  Ayrıca, bir mahsup olarak kullanılmış günlüğün her bir satırını gösterir.
 
 
-##<a name="see-also"></a>Ayrıca bkz.
+## <a name="see-also"></a>Ayrıca bkz.
 - [Genel muhasebe hesap bakiyeleri](general-ledger-account-balances.md) 
 - [Muhasebe kaynağı gezgini](..\accounts-payable\accounting-source-explorer.md)
 - [Mali raporlama](financial-reporting-getting-started.md)

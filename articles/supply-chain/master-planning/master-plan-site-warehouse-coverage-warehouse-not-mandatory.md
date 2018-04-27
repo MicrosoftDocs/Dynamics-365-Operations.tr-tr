@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Tesis ve ambar kapsamı için master planlama, ambar zorunlu değil
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, site ve ambarın kapsam olduğu bir maddenin nasıl planlanacağını anlatır. Ambar boyutu zorunlu değildir.
 
@@ -48,7 +47,7 @@ Aşağıdaki grafikte, master plan planlamasının ne şekilde ilerlediği göst
 
 ![Tesis ve ambar talebi, ambar zorunlu değil](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousenotmandatory.jpg)
 
- 
+
 -
 
 

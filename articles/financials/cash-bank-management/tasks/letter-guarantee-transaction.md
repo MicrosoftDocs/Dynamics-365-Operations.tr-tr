@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="letter-of-guarantee-transaction"></a>Teminat mektubu hareketi
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yöntem Teminat Mektubu sürecini anlatmaktadır.
 

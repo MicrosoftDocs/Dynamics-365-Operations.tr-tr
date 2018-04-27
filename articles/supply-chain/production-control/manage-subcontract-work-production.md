@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-subcontracting-work-in-production"></a>Üretimdeki alt sözleşme işini yönetme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, alt sözleşmeli operasyonların Microsoft Dynamics 365 for Finance and Operations'ta nasıl yönetileceğini açıklar. Başka bir deyişle, bir kaynağa atanan üretim operasyonlarının bir satıcı tarafından nasıl yönetileceğini açıklar.
 

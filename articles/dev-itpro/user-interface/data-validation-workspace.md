@@ -25,8 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="data-validation-workspace"></a>Veri doğrulama çalışma alanı
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, **Veri doğrulama denetim listesi** çalışma alanı ve bununla ilişkili yapılandırma hakkında genel bir bakış sağlar.
 

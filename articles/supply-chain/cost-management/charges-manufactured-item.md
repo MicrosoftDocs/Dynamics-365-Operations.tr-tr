@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="display-charges-for-a-manufactured-item"></a>Üretilen bir madde için giderleri görüntüleme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Üretilen bir ürünün sabit maliyetleri, operasyon hazırlık sürelerini ve sabit miktara veya sabit hurda tutarına sahip bileşeni yansıtır.
 

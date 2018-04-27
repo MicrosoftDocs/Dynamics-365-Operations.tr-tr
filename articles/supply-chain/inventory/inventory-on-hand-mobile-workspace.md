@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="inventory-on-hand-mobile-workspace"></a>Eldeki stok mobil çalışma alanı
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, **Eldeki stok** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, ayrılmış ve kullanılabilir stok hakkında bilgileri her yerde ve her zaman edinebilmenizi sağlar.
 

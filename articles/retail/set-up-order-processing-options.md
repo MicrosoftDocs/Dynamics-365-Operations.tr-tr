@@ -1,9 +1,9 @@
 ---
-title: "Sipariş işleme seçeneklerini ayarlamak"
-description: "Bu konuda, çağrı merkezleri için siparişlerin Dynamics 365 for Retail kullanarak nasıl işleneceği hakkında bilgi verilmektedir."
+title: "Çağrı merkezi kanalı ayarlama"
+description: "Bu konuda, çağrı merkezleri için siparişlerin Microsoft Dynamics 365 for Retail kullanarak nasıl işleneceği hakkında bilgi verilmektedir."
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,33 +20,64 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 144bee2102b8d1901d1b4964f6c92501c1cd573d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0d64a27aa8aed10c210ca3c2956dce67f8d634b8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
-# <a name="set-up-order-processing-options"></a>Sipariş işleme seçeneklerini ayarlama
+# <a name="set-up-a-call-center-channel"></a>Çağrı merkezi kanalı ayarlama
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
+Microsoft Dynamics 365 for Retail'de bir şirket birden fazla çağrı merkezi kanalı tanımlayabilir. Çağrı merkezi kanalları **Perakende** \> **Kanallar** \> **Çağrı merkezleri** \> **Tüm çağrı merkezleri**'nde yapılandırılır ve belirli bir tüzel kişiliğe özeldir.
 
-Bu konuda, çağrı merkezleri için siparişlerin Dynamics 365 for Retail kullanarak nasıl işleneceği hakkında bilgi verilmektedir. 
+Yeni bir çağrı merkezi kanalı oluşturulduğunda, sistematik olarak bir çalışma birimi numarası atanır. Çağrı merkezleri işletme birimleri olarak oluşturulduğundan, kullanıcılar çağrı merkezi kanalını ürün çeşitleri, kataloglar ve belirli teslimat şekilleri gibi çeşitli Retail özelliklerine bağlayabilir.
 
-Retail, çevrimiçi mağazalar, çağrı merkezleri ve fiziki mağazalar gibi birden fazla perakende kanalını destekler. Çağrı merkezlerinde, çalışanlar telefonda Müşteri Siparişlerini alır ve satış siparişleri oluşturur. Bu konu, bir çağrı merkezi oluşturmak ve çağrı Merkezi seçeneklerini yapılandırmayı açıklar. Her bir çağrı merkezinin kendi kullanıcıları, ödeme yöntemleri, fiyat grupları, mali boyutları ve teslimat modları olabilir. Çağrı merkezi oluşturduğunuzda, bu seçenekleri yapılandırabilirsiniz. **Önemli:** Çağrı merkezi iş akışlarının kullanıcı satış siparişleri oluştururken kullanılabilmesi için, kullanıcı çağrı merkezine çağrı merkezi kullanıcısı olarak atanmalıdır. **çağrı merkezi** sayfasını çağrı merkezlerine özgü özellikler gruplarını etkinleştirmek veya devre dışı bırakmak için kullanabilirsiniz. Aşağıdaki özellik grupları etkinleştirilebilir:
+Varsayılan ambar çağrı merkezi kanalından yapılandırılabilir. Ardından, bu kanalda satış siparişleri oluşturulduğunda, satış siparişi için seçilen müşteride başka bir ambar tanımlanmadığı sürece, varsayılan ambar otomatik olarak satış siparişi başlığına girilir. Bu durumda, müşterinin ambarı varsayılan olarak girilir.
 
--   **Sipariş tamamlama** – Bu grup ödemelerle ve **satış sipariş** sayfasındaki sipariş tamamlamayla ilgili özellikleri içerir.
--   **Yönlendirilen satış** – Bu grup kaynak kodlar, komut dosyaları ve katalog talepleriyle ilgili özellikleri içerir.
+Kullanıcıların çağrı merkezi özelliklerini kullanmak için bir çağrı merkezi kanalına bağlı olması gerekir. Bir kullanıcı tarafından Retail'de oluşturulan satış siparişi, otomatik olarak bu kullanıcının çağrı merkezi kanalına bağlanır. Şu anda, tek bir kullanıcı birden çok çağrı merkezi kanalına aynı anda bağlanamamaktadır.
 
-Bu özellikleri çağrı Merkezi ayarlarında etkinleştirdiğinizde **satış sipariş** sayfasında çağrı merkezi ile ilişkili olan kullanıcılar için kullanılabilir. Bu özelliklerin çoğu kullanılabilmesi için önce ek kurulum gerektirir. Görüntüler ve komut dosyaları, belirli çağrı merkezi için yönlendirilmiş satış ayarının bir parçası olarak etkinleştirilir. Bu özellik etkinleştirilirse, komut dosyalarını ve ürün resimleri **satış sipariş** sayfasının bilgi kutusu bölmesinde görüntülenir. Bir ürün için ayarlanan varsayılan resim gösterilir. Komut dosyaları, bir madde, katalog, müşteri veya madde bağlamında bir katalog için yapılandırılabilir. Çağrı merkezi siparişleri belirli bir sipariş satırı için fiyatın nasıl elde edildiği hakkında ek ayrıntıları gösterebilir. Örneğin, siparişler hangi iskontoların uygulandığını görüntüler. Bu işlevselliği **Alacak hesapları** &gt; **Kurulum** &gt; **Alacak hesapları parametreleri** &gt; **Fiyatlar** &gt; **Fiyat ayrıntıları**'nda ekinleştirebilirsiniz. **Fiyat ayrıntıları** sayfasına **satış sipariş satırı** açılan listesinden erişebilirsiniz. Sipariş olay izlemeyi denetim amacıyla, siparişin yaşam döngüsü sırasında bir siparişte alınan eylemleri gözden geçirmek veya belirli bir kullanıcının eylemlerini izlemek için kullanabilirsiniz. Örneğin, eylemi bir kullanıcı her satış siparişi oluşturduğunda, bir siparişi beklemeye aldığında, bir masrafı geçersiz kıldığında veya bir sipariş satırını güncellediğinde kaydedebilirsiniz. Sipariş olaylarını, eylemleri belirli kullanıcıları, kullanıcı gruplarını veya tüm kullanıcılar için belirli bir dönemde izlemek için ayarlayabilirsiniz. O belge için Eylem Bölmesinden **sipariş olayları** sayfasını açarak bir belge üzerinde gerçekleştirilen eylemleri görüntüleyebilirsiniz. Sipariş olaylarını **Satış ve pazarlama** &gt; **Kurulum** &gt; **Olaylar** &gt; **Sipariş olayları**'nda yapılandırabilirsiniz. Zamanında bir müşterinin siparişi sevk edilemez olduğunda, bir şirket sipariş durumunu açıklamak ve müşteriye siparişi iptal etmek için bir şans vermek için müşteriye otomatik olarak bildirim e-posta iletileri gönderebilir. Gecikme belirtilen bir eşiği geçerse, sipariş otomatik olarak iptal edilebilir. En çok üç e-posta iletileri belirtilen aralıklarla gönderilebilir:
+Bir e-posta bildirimi profili de çağrı merkezi kanalında yapılandırılabilir. Profil, e-posta siparişleri veren müşterilere çağrı merkezi kanalı üzerinden gönderildiğinde kullanılan e-posta şablonları kümesini tanımlar. E-posta tetikleyicileri sipariş gönderme veya siparişi sevk etme gibi sistem olaylarına karşı yapılandırılabilir.
 
-1.  **İlk iptal bildirimi** – müşteri siparişi iptal edebilir.
-2.  **İkinci iptal bildirimi** – müşteri siparişi iptal edebilir.
-3.  **Son iptal bildirimi** – sistem siparişi iptal eder ve müşteriye iptal bilgisi verilir.
+Satışın bir çağrı merkezi kanalı üzerinden doğru şekilde işlenebilmesi için doğru [ödeme yöntemleri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-payments) ve teslimat şekilleri kanal için tanımlanmalıdır.
 
-Tek tek müşterileri ve ürünleri otomatik bildirim ve iptal işleminden muaf tutabilirsiniz. Sipariş için bir öğe eklediğinizde, bir kenar boşluğu uyarı tetiklenir. Uyarı öğenin fiyat marjı ve madde kârlılık hakkında önemli bilgiler içerir. Satış siparişi için bir öğe eklediğinizde, fiyat geçersiz kılmanın uygun olup olmadığına karar vermek için bu bilgileri kullanabilirsiniz. Örneğin, maliyetin yüzde 40 veya daha fazla üzerindeki eşiğin bir madde için kabul edilir, ancak maliyetin yüzde 20 ila 39 üzerinde olan eşiğin sorgulanabilir olduğunu belirtmek için ticari marjlar için eşikler belirleyebilirsiniz. Bu durumda, yüzde 39 ile 20 arasında eşiği olan herhangi bir öğe bir uyarı tetikler. Maliyetin yüzde 20'sinden az eşiği olan bir öğe satılamaz ve öğe fiyatı ayarlanamaz. Marj uyarılarını **Alacak hesapları** &gt; **Kurulum** &gt; **Alacak hesapları parametreleri** &gt; **Marj uyarıları**'nda yapılandırabilirsiniz. Varsayılan kurallarına göre satış vergisi atama ayarladığınızda, adres öğeleri için eşleşen bir öncelik belirleyebilirsiniz. Örneğin, bir satış vergisi grubunu ZIP kodu veya posta kodu ile eşleşmenin bir satış vergisi grubu eyaletle eşleşmeden daha yüksek bir öncelik olduğunu belirtebilirsiniz. Yeni müşteri adres kayıtları girerken, satış vergisi grubu müşterinin adresinin varsayılan kurallarla eşleşmesine ve tanımladığınız öncelik eşlemesine bağlı olarak otomatik olarak atanır. Bu işlevi **genel muhasebe parametreleri** sayfasında yapılandırabilirsiniz.
+Çağrı merkezi kanalı düzeyinde, kanal tarafından oluşturulan siparişlere bağlanacak mali boyutlar ile ilgili diğer varsayılan değerleri tanımlayabilirsiniz.
 
+## <a name="options-for-order-processing-behavior"></a>Sipariş işleme davranışı seçenekleri
 
+Bir çağrı merkezinin yapılandırmasında üç ayarın çağrı merkezine göre oluşturulan satış siparişleri için kullanılabilen işlevler ve özellikler üzerinde önemli bir etkisi vardır: **Sipariş tamamlamayı etkinleştir**, **Doğrudan satışı etkinleştir** ve **Sipariş fiyat denetimini etkinleştir**.
 
+### <a name="enable-order-completion"></a>Sipariş tamamlamayı etkinleştir
+
+Çağrı merkezi kanalındaki **Sipariş tamamlamayı etkinleştir** ayarının bu kanal için girilen satış siparişlerinin sipariş işleme akışı üzerinde önemli bir etkisi vardır. Bu ayar etkinleştirildiğinde, tüm satış siparişlerinin onaylanabilmesi için önce bir doğrulama kural kümesinden geçmesi gerekir. Bu kuralları satış siparişi sayfasının Eylem Bölmesine eklenen **Tamamla** düğmesini seçerek çalıştırın. **Sipariş tamamlamayı etkinleştir** ayarı açık olduğunda oluşturulan tüm siparişlerin sipariş tamamlama işleminden geçmesi gerekir. Bu işlem, ödeme ve ödeme doğrulama mantığının yakalanmasını zorunlu kılar. Ödeme uygulama yanı sıra, sipariş gönderme işlemi sistemde yapılandırdığınız [sahtekarlık denetimlerini](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/set-up-fraud-alerts) tetikleyebilir. Ödemesi yapılmayan veya sahtekarlık doğrulamalarını geçemeyen siparişler beklemeye alınır ve beklemeye alınma nedeni çözülene kadar başka bir işlem (malzeme çekme veya sevkiyat gibi) yapılamaz.
+
+**Sipariş tamamlamayı etkinleştir** ayarı çağrı merkezi kanalı için açık olduğunda, satır maddeleri bir satış siparişine girilirse ve kanal kullanıcısı **Tamamla** 'yı seçmeden satış siparişi formunu kapatmayı veya formdan ayrılmayı denerse, sistem satış siparişi özet sayfasını açarak ve kullanıcıdan siparişi doğru şekilde göndermesini isteyerek satışı tamamlama işlemini zorunlu kılar. Sipariş ödeme ile birlikte sipariş doğru şekilde gönderilemiyorsa, kullanıcı siparişi beklemeye almak için [sipariş tutmalar](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-order-holds) işlevini kullanabilir. Kullanıcı siparişi iptal etmeye çalışırsa, siparişi kullanıcı güvenlik ayarlarının izin verdiği işleve bağlı olarak İptal et veya Sil işlevini kullanarak doğru şekilde iptal etmesi gerekir.
+
+**Sipariş tamamlamayı etkinleştir** ayarı çağrı merkezi kanalı için açılırsa **Ödeme durumu** alanı siparişte izlenir. Sistem satış siparişi gönderildiğinde **Ödeme durumu**'nu hesaplar. Yalnızca onaylanan ödeme durumundaki siparişlerin malzeme çekme ve sevkiyat gibi ek sipariş işleme adımları için sistem üzerinde ilerlemesine izin verilir. Ödemeler reddedilirse **işleme** bayrağı ayrıntılı sipariş durumunda etkin hale gelir ve bu, ödeme sorunu çözülene kadar siparişin beklemede kalmasını sağlar.
+
+Ayrıca, **Sipariş tamamlamayı etkinleştir** ayarı açık olursa, kullanıcılar satış siparişleri oluşturduğunda ve satır maddesi giriş modunda olduğunda **Kaynak** alanı ana satış siparişi başlığında kullanılabilir olacaktır. **Kaynak** alanı bir doğrudan pazarlama satış senaryosunda [katalog kaynak kodunu](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/call-center-catalogs) yakalamak için kullanılır. Bu kod promosyonlar ve özel fiyatlar sağlar.
+
+**Sipariş tamamlamayı etkinleştir** ayarı kapalı olsa bile, kullanıcılar hala satış siparişine bir kaynak kodu uygulayabilir. Bununla birlikte, önce **Kaynak** alanına erişmek için satış siparişi başlığı ayrıntılarını açmaları gerekir. Başka bir deyişle, bazı ek tıklamalar gereklidir. Aynı davranış sevki tamamlanan ve öncelikli siparişler gibi özellikler için de geçerlidir. Bu özellikler, çağrı merkezinde oluşturulan tüm siparişler için kullanılabilir. Bununla birlikte, **Sipariş tamamlamayı etkinleştir** ayarı açık olduğunda, kullanıcılar bu özelliklerin yapılandırmasını satış giriş görünümündeyken satış başlığında görebilir. Uygun ayarları ve alanları bulmak için satış siparişi başlığı ayrıntılarına gitmeleri gerekmez.
+
+### <a name="enable-direct-selling"></a>Doğrudan satışı etkinleştir
+
+**Doğrudan satışı etkinleştir** ayarı çağrı merkezi kanalı için açık olduğunda, kullanıcılar Retail'in yukarı satış ve çapraz satış özelliklerinden yararlanabilirler. Bu durumda, açılır pencereler sipariş girişi sırasında görüntülenir ve müşteriye çağrı merkezi kullanıcısının teklif edebileceği diğer ürünleri önerir. Önerilen ürünler, yalnızca satış siparişi satırında sipariş edilen ürünü temel alır. Şu anda yukarı satış ve çapraz satış önerileri ürünlerde veya kataloglarda madde düzeyinde yapılandırılabilir. **Doğrudan satışı etkinleştir** ayarı çağrı merkezi kanalı için devre dışı olduğunda, sipariş edilen madde için tanımlanmış bir çapraz satış veya yukarı satış olsa bile açılır pencereler sipariş girişi sırasında görünmez.
+
+**Doğrudan satışı etkinleştir** ayarı açık olduğunda, satış siparişi giriş sayfasının komut dosyaları ve resimler özellikleri de açılır. Bu durumda, bir bilgi bölmesi sipariş girişi sırasında sayfanın sağında kullanılabilir olacaktır. Bu panel, genel sipariş girişi işlemiyle ilgili komut dosyalarını, uygulanan katalog kaynak kodunu ve sipariş edilen maddelerle ilgili komut dosyalarını gösterir. Ayrıca, ürün kurulumunda madde için bir resim tanımlandıysa, resimler paneli sipariş edilen maddeler için bir ürün resmi gösterebilir.
+
+### <a name="enable-order-price-control"></a>Sipariş fiyatı denetimini etkinleştir
+
+**Sipariş fiyatı denetimini etkinleştir** ayarı açık olduğunda, yalnızca yetkili kullanıcılar sipariş girişi sırasında bir maddenin satış fiyatını değiştirebilir. Değişiklikleri tanımlanan tolerans içinde olmalıdır. Uygun yetkiye sahip olmayan kullanıcıların fiyat değişikliği isteği göndermesi gerekir. İstek daha sonra gözden geçirme ve onay için sistem iş akışları aracılığıyla işlenir.
+
+## <a name="channel-users"></a>Kanal kullanıcıları
+
+Çağrı merkezi kanalını tanımlarken, kanal kullanıcılarını çağrı merkezine bağlamanız gerekir. Aksi takdirde, çağrı merkezi sistemde kullanılamaz. Kullanıcılar Retail'de oturum açtığında ve satış siparişlerini veya iade siparişlerini sipariş girişiyle ilgili sayfaya girdiklerinde, kullanıcı kimliği çağrı merkezi kanalının yapılandırmasına karşı doğrulanır. Bir kullanıcı belirli bir çağrı merkezi kanalına bağlıysa, kullanıcı tarafından oluşturulan siparişler bu kanalın niteliklerini ve varsayılan değerlerini alır.
+
+Varsayılan olarak, satış siparişi başlığındaki **Perakende satış** bayrağı çağrı merkezi kullanıcılarının oluşturduğu tüm siparişler için açıktır. Siparişler sistemin perakendeye özel fiyat ve promosyon özelliklerinden yararlanabilir.
+
+Bir çağrı merkezi kanalına bağlı olmayan kullanıcılar, Microsoft Dynamics 365 for Finance and Operations'ın standart sipariş girişi özelliklerini kullanır. Bu kullanıcıların satış siparişi giriş formu aracılığıyla girdikleri siparişler sistematik olarak Retail siparişi olarak tanımlanmaz. Ayrıca, bu kullanıcılar tarafından girilen bu siparişler sipariş tamamlama işlemi kurallarına, perakende fiyatlandırma mantığına ya da çağrı merkezi kanal yapılandırması veya çağrı merkezi sistem parametrelerinde tanımlanabilecek diğer sipariş doğrulamalarına tabi olmazlar.
+
+Çağrı merkezi parametrelerini yapılandırmayı ve kanal kullanıcılarını tanımlamayı tamamladıktan sonra, istenen sistem davranışının sağlanmasına yardımcı olmak için tüm gerekli Çağrı merkezi parametrelerinin **Perakende** \> **Kanal kurulum** \> **Çağrı merkezi kurulumu** \> **Çağrı merkezi parametreleri** altından tanımlandığından emin olun. İlgili numara serilerinin de tanımlandığından emin olun.
 

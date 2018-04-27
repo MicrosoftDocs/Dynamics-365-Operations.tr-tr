@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Satınalma girişlerinde proje maliyet tahakkuku
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, satınalma girişlerinden tahakkuk eden proje maliyetlerinin Microsoft Dynamics 365 for Finance and Operations'ta nasıl izlenebileceğini açıklar. 
 

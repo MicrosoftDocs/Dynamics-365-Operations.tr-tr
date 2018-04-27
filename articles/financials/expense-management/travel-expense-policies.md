@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-policies"></a>Gider ilkeleri
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Çalışanlarınızın gider raporlarını ve seyahat taleplerini girerken veya gönderirken izlemeleri gereken ilkeleri tanımlayabilirsiniz.         
 Gider ilkelerinin uygulanması giderleri etkili bir şekilde yönetmenize yardımcı olabilir.         
@@ -39,14 +39,14 @@ yapılandırabilirsiniz.
 Üç farklı ilke türü tanımlayabilirsiniz:         
         
 - Uyarı – Çalışanın bir gider raporu veya seyahat talebi göndermesine izin verir ancak gider sonra raporlanmak üzere tüm        
-onaylayıcılar için işaretlenir.        
+  onaylayıcılar için işaretlenir.        
 
 - Hata – Çalışanın gider raporu veya seyahat talebini göndermeden önce ilke ile uyum sağlar hale getirmesini gerektirir.       
  
- - Mazeret – Çalışanın veya bir yöneticini, gider raporunu veya seyahat talebini girmeden önce ilke tutarını aşmasına dair bir mazeret girmesini gerektirir.        
+  - Mazeret – Çalışanın veya bir yöneticini, gider raporunu veya seyahat talebini girmeden önce ilke tutarını aşmasına dair bir mazeret girmesini gerektirir.        
  
- Ayrıca, gider ilkelerinin yürürlükte olacağı bir tarih aralığı da ayarlayabilirsiniz. Örneğin Danimarka ile New York City arasındaki      
- uçuşlar için bilet ücreti tatil dönemlerinde pahalı olabilir. New York City'ye yapılacak uçuşlar için maliyeti      
- 5000 DKK ile sınırlayacak bir gider kuralı oluşturabilir ve bu kuralın 15 Mart ile      
- 15 Eylül arasında geçerli olacağını belirtebilirsiniz.
+  Ayrıca, gider ilkelerinin yürürlükte olacağı bir tarih aralığı da ayarlayabilirsiniz. Örneğin Danimarka ile New York City arasındaki      
+  uçuşlar için bilet ücreti tatil dönemlerinde pahalı olabilir. New York City'ye yapılacak uçuşlar için maliyeti      
+  5000 DKK ile sınırlayacak bir gider kuralı oluşturabilir ve bu kuralın 15 Mart ile      
+  15 Eylül arasında geçerli olacağını belirtebilirsiniz.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="assess-sales-performance-by-product"></a>Satış performansını ürüne göre değerlendirme
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 for Retail kullanarak en iyi 10 ürün için karlılığı inceleyebilirsiniz. 
 

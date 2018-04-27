@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Alacak hesaplarında alacak ve tahsilatlar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Alacak hesapları tahsilat bilgileri, Finance and Operations Collections sayfası kullanılarak bir merkezi görünümde yönetilir. Kredi ve tahsilat yöneticileri bu merkezi görünümü kullanarak tahsilatları yönetebilir. Tahsilat temsilcileri, tahsilat işlemine önceden tanımlanmış tahsilat kriterlerini kullanarak oluşturulmuş müşteri listelerinden veya Müşteriler sayfasından başlayabilir.
 
@@ -70,9 +69,9 @@ Aşağıdaki liste sayfaları tahsilat bilgilerini düzenlemenize yardımcı olu
 
 > [!NOTE]
 > Bu liste sayfalarında bilgileri görebilmeniz için yaşlandırma anlık görüntüsünün oluşturulmuş olması gerekir. Bilgiler yalnızca yaşlandırma anlık görüntüsü oluşturulan müşteriler için gösterilir. Liste sayfasında gösterilen kayıtlara ek olarak aşağıdaki gibi filtre uygulanabilir:
-<li>Varsayılan olarak, Finance and Operations kullanıcısı bir yaşlandırma anlık görüntüsü bulunan tüm müşterilere erişebilir.</li>
-<li>Müşteri havuzları varsa, tahsilat liste sayfalarındaki bilgilerin filtreleneceği havuzları kullanmak için kullanıcının tahsilat temsilcisi olarak ayarlanması gerekir. Bilgiler, seçili müşteri havuzuna dahil olan müşterilerle sınırlıdır.</li>
-<li>Bir kullanıcı tahsilat temsilcisi olarak ayarlanırsa, yalnızca bu tahsilat temsilcisi için seçilen havuzlar liste sayfasında kullanılabilir. Tahsilat temsilcisi için Tahsilatlar sayfasında Temsilcinin tüm müşteri havuzlarını görmesine izin ver seçeneği seçilirse, söz konusu temsilci tüm havuzları görebilir.</li>
+> <li>Varsayılan olarak, Finance and Operations kullanıcısı bir yaşlandırma anlık görüntüsü bulunan tüm müşterilere erişebilir.</li>
+> <li>Müşteri havuzları varsa, tahsilat liste sayfalarındaki bilgilerin filtreleneceği havuzları kullanmak için kullanıcının tahsilat temsilcisi olarak ayarlanması gerekir. Bilgiler, seçili müşteri havuzuna dahil olan müşterilerle sınırlıdır.</li>
+> <li>Bir kullanıcı tahsilat temsilcisi olarak ayarlanırsa, yalnızca bu tahsilat temsilcisi için seçilen havuzlar liste sayfasında kullanılabilir. Tahsilat temsilcisi için Tahsilatlar sayfasında Temsilcinin tüm müşteri havuzlarını görmesine izin ver seçeneği seçilirse, söz konusu temsilci tüm havuzları görebilir.</li>
 
 
 ## <a name="collections-page"></a> Tahsilatlar sayfası

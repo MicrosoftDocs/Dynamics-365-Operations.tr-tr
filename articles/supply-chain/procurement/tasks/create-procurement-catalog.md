@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-procurement-catalog"></a>Tedarik kataloğu oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu kılavuzda bir tedarik kataloğunu nasıl oluşturacağınız gösterilir. Bu görev genellikle bir tedarik profesyoneli tarafından gerçekleştirilir. Ayrıca talep oluşturduklarında çalışanların kataloğu nasıl kullanabileceğini öğreneceksiniz. Katalog oluşturmadan önce sisteminizde bir tedarik kategorisi hiyerarşisi olması gerekir. Hiyerarşi, dahil olan tüm ürünlerle birlikte yeni katalog tarafından devralınır. Bu kılavuzu tedarik kategorisinin kullanılabilir olduğu demo veri şirketi USMF'de ve prosedür adımlarında kullanılan örneklerde kullanabilirsiniz.
 

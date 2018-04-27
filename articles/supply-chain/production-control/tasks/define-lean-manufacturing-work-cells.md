@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>Yalın imalat iş hücrelerini tanımlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 İş hücresi, yalın üretim işlem faaliyetlerinde kullanılabilen kaynak gruplarının belirli bir biçimidir. İş hücrelerinde bir üretim akışı modeline dayalı giriş ve çıkış yerleşimleri ve kapasite tanımları vardır. Yalın imalat iş hücreleri ve kapasite hesaplamalarına yönelik temel kavramlar hakkında daha fazla bilgi edinmek için Yalın üretim üzerine teknik incelemelere bakın. Bu yordamı oluşturmak için kullanılan demo verisi şirketi USMF'dir.
 

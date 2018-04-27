@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Minimum-maksimum stok yenileme işlemini ayarlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, minimum/maksimum stok yenileme stratejisini kullanan yeni bir stok yenileme işlemini nasıl ayarlayacağınızı gösterir. Stok minimum düzeyin altına düştüğünde, konumun yenilenmesi için iş oluşturulur. Bu yordam ayrıca sabit çekme konumlarının, stok belirli bir seviyenin altına düşse bile yeniden nasıl stoklanacağını ve bir toplu iş kullanarak stok yenileme işleminin düzenli aralıklarla nasıl çalıştırılacağını göstermektedir. Bu görevler genellikle ambar Yöneticisi tarafından yerine getirilir. Bu yordamı, notlardaki örnek değerleri USMF demo veri şirketini kullanarak ya da kendi verileriniz ile çalıştırabilirsiniz. Kendi verilerinizi kullanıyorsanız, Ambar yönetim işlemleri için etkin bir ambara sahip olduğunuzdan emin olun.
 

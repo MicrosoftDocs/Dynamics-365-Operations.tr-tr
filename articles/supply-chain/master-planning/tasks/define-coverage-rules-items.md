@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="define-coverage-rules-for-items"></a>Maddeler için kapsam kurallarını tanımlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam, kapsam kurallarını oluşturmayı ve belirli bir madde için kapsama ayarlarını geçersiz kılmayı gösterir. Ayrıca varsayılan stok ayarlarının nasıl belirleneceğini de açıklar.
 

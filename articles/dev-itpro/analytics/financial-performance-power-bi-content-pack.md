@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7b5c4428c8610a7b2d4cf1a28287ba2bb1f9c2ea
-ms.openlocfilehash: b7cb5f2096f0be5211024fc6ecbfaa61d6c48c9a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1fc3ab4f2a4b4604126ff72c570fc9d85e209f3c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-performance-power-bi-content"></a>Mali performans Power BI içeriği
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!Note]
 > Bu içerik paketi [PowerBI.com'da yayımlanan Power BI içerik paketleri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom) bölümünde belirtildiği üzere kullanım dışı bırakılmıştır.
@@ -58,7 +58,7 @@ Her bir kutucuk bir destek raporu tarafından desteklenmektedir. Bu raporlar ço
 
 | Rapor                      | Raporların içerdiği bilgiler |
 |-----------------------------|--------------------------------------|
-| Nakit Analizi               | Tüzel kişiliğe göre nakit, çeyreğe göre nakit, toplam nakit ve hesaba göre nakit<blockquote>[!NOTE]<br>Üç aya göre nakit bilgisi, ilk çeyrek için toplamdaki başlangıç bakiyelerini içermez. Her çeyrekte deftere nakledilen yeni hareketlerin toplamını gösterir.</blockquote> |
+| Nakit Analizi               | Tüzel kişiliğe göre nakit, çeyreğe göre nakit, toplam nakit ve hesaba göre nakit<br><br>**Not:** Üç aya göre nakit bilgisi, ilk çeyrek için toplamdaki başlangıç bakiyelerini içermez. Her çeyrekte deftere nakledilen yeni hareketlerin toplamını gösterir.|
 | Mevcut Oran Analizi      | Tüzel kişiliğe göre mevcut oran, çeyreğe göre mevcut oran ve mevcut kıymetler ve borçlar için bilanço |
 | Hızlı Oran Analizi        | Tüzel kişiliğe göre hızlı oran, çeyreğe göre hızlı oran ve nakit, alacak hesapları ve mevcut borçlar için bilançolar |
 | Satılan Malların Maliyeti Analizi | Tüzel kişiliğe göre Satılan malın maliyeti (SMM), bu yılki ve geçen çeyreğe göre SMM, tüzel kişiliğe satışların SMM'si, toplam SMM ve SMM'nin satışa oranı |
@@ -69,7 +69,7 @@ Her bir kutucuk bir destek raporu tarafından desteklenmektedir. Bu raporlar ço
 | Kazanç Analizi           | Tüzel kişiliğe göre vergi ve faiz öncesi gerçek ve bütçe kazançları (EBIT), bu yıl ve geçen yılki EBIT, giderlerin gelire oranı, gerçek ve bütçe giderlerinin gelirlere oranı |
 | Gelir Analizi            | Toplam gelir, tüzel kişiliğe göre gerçek ve bütçe toplam geliri, bu yıl ve geçen yılki toplam gelir, tüzel kişiliğe göre gelir bütçe farkı, bu dönem ve geçen dönem toplam gelir |
 | Gider Analizi            | Toplam giderler, tüzel kişiliğe göre gerçek ve bütçe toplam giderleri, çeyreğe göre gerçek ve bütçe toplam giderleri, hesap kategorisine göre toplam giderler ve faaliyet giderleri oranı |
-| Faturalandırılmış Gelir Analizi     | Alacak hesapları toplamı, tüzel kişiliğe göre alacak hesap toplamı, çeyreğe göre alacak hesap toplamı ve alacak hesaplarının bilançosu<blockquote>[!NOTE]<br>Bu bilgi, alacak hesapları genel muhasebe hesapları için başlangıç bakiyelerini içermez. Alacak hesaplarına nakledilen yeni hareketleri gösterir.</blockquote> |
+| Faturalandırılmış Gelir Analizi     | Alacak hesapları toplamı, tüzel kişiliğe göre alacak hesap toplamı, çeyreğe göre alacak hesap toplamı ve alacak hesaplarının bilançosu<br><br>**Not:** Bu bilgi, alacak hesapları genel muhasebe hesapları için başlangıç bakiyelerini içermez. Alacak hesaplarına nakledilen yeni hareketleri gösterir. |
 
 Tüm bu raporlardaki grafikler ve kutucuklar filtrelenebilir ve panoya sabitlenebilir. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano Oluşturma ve Yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 

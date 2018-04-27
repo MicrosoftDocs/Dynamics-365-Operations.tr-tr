@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-dimensions-and-import-dimension-members"></a>Boyut oluşturma ve boyut üyelerini içe aktarma
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Maliyet muhasebesi diğer modüllerden alınan verilere ihtiyaç duyan bağımsız modüldür. Bu veri aşağıdaki şekilde sınıflandırılır:
 

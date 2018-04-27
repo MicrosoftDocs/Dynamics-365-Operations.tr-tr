@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bd85f89917659ac9c94590bace765b2123d6e556
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 591b1cd739bb3be61299f33f180ca7c264d21a35
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="coverage-settings"></a>Kapsam ayarları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Master planlama, madde gereksinimlerini hesaplamak için karşılama ayarlarını kullanır. 
 
@@ -46,7 +45,7 @@ Karşılama ayarlarını birkaç şekilde belirtebilirsiniz:
 
 <!-- -->
 
--   Boyut grubu için kapsam ayarları belirtin. **Ürün bilgileri yönetimi &gt; Ortak &gt; Serbest bırakılan ürünler**'e tıklayın. **Serbest bırakılan ürün ayrıntısı **sayfasında, **Genel** sekmesinde, **Yönetim** grubunda, **Depolama boyut grubu** bağlantısına tıklayın. **Depolama boyut grubu** sayfasında **Boyuta göre kapsam planı** alanını seçerek depolama boyut grubundaki bir boyut için kapsam ayarları oluşturabilirsiniz. Yapılandırma, renk, boyut, stil gibi tüm ürün boyutlarının **Boyuta göre kapsam planı** alanı seçilmiş olmalıdır.
+- Boyut grubu için kapsam ayarları belirtin. <strong>Ürün bilgileri yönetimi &gt; Ortak &gt; Serbest bırakılan ürünler</strong>'e tıklayın. <strong>Serbest bırakılan ürün ayrıntısı **sayfasında, **Genel</strong> sekmesinde, <strong>Yönetim</strong> grubunda, <strong>Depolama boyut grubu</strong> bağlantısına tıklayın. <strong>Depolama boyut grubu</strong> sayfasında <strong>Boyuta göre kapsam planı</strong> alanını seçerek depolama boyut grubundaki bir boyut için kapsam ayarları oluşturabilirsiniz. Yapılandırma, renk, boyut, stil gibi tüm ürün boyutlarının <strong>Boyuta göre kapsam planı</strong> alanı seçilmiş olmalıdır.
 
 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="design-expressions-to-call-application-class-methods-er"></a>Uygulama sınıfı yöntemlerini çağırmak için ifadeler tasarlama (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu kılavuz, ER ifadelerinde gerekli uygulama sınıfları yöntemlerini çağırarak Elektronik raporlama (ER) yapılandırmalarında mevcut uygulama mantığının nasıl yeniden kullanılabileceğiyle ilgili bilgiler sağlar. Sınıfları çağırmak için bağımsız değişkenlerin değerleri, çalışma zamanında dinamik olarak (örneğin, doğruluğunu sağlamak için ayrıştırma belgesindeki bilgiye göre) tanımlanabilir. Bu kılavuzda, Litware, Inc. adlı örnek şirket için gerekli ER yapılandırmalarını oluşturacaksınız. Bu yordam, Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne atanmış kullanıcılar için oluşturulmuştur. 
 

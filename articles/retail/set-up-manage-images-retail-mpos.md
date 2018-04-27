@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Retail Modern POS için resimleri ayarlama ve yönetme
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu makalede, Retail Modern POS'ta (MPOS) görüntülenen çeşitli varlıklar için resimlerin ayarlanmasını ve yönetilmesini sağlayan adımlar açıklanmaktadır.
 
@@ -141,7 +140,7 @@ MPOS (Perakende sunucu veya ağ bağlantısı yok ve hareketler bir yerel çevri
 6.  MPOS çevrimiçi modunda çalışırken, HQ'da verileri çevrimdışı veritabanında en az bir kez gönderildiğinden emin olmak için katalog işlemini çalıştırın.
 7.  MPOS çevrimdışı moduna geçirin. HQ belirli ürün için karşıya görüntü görmelisiniz. [![çevrimdışı1](./media/offline1.png)](./media/offline1.png)
 
- 
+
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a>Katalog, kategori, çalışan ve müşteri görüntüleri Çevrimdışı modda MPOS için görünmesini Ayarla
 

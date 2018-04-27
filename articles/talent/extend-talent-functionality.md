@@ -3,7 +3,7 @@ title: "Microsoft Dynamics 365 for Talent işlevselliğini genişletme"
 description: "Herhangi bir Microsoft PowerApps oluşturduysanız, bu uygulamaları Microsoft Dynamics 365 for Talent içindeki bağlantılardan başlatabilirsiniz."
 author: rschloma
 manager: AnnBe
-ms.date: 11/28/2017
+ms.date: 03/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent işlevselliğini genişletme
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Herhangi bir Microsoft PowerApps oluşturduysanız, bu uygulamaları Microsoft Dynamics 365 for Talent içindeki bağlantılardan başlatabilirsiniz. Uygulamalarınıza erişim ayarlamak için, Talent içinde bazı bilgileri **Sistem yönetimi** çalışma alanından açabileceğiniz bir yapılandırma sayfasında ayarlamanız gerekir.
 
@@ -35,15 +35,16 @@ PowerApps uygulamalarını başlatmak üzere Talent sayfalarını yapılandırma
 
 Aşağıdaki bilgileri bu sayfadan girilir veya ayarlanır: 
 
-> - Her PowerApps uygulaması için açıklayıcı bir ad veya bir tanımlayıcı.
-> - Talent sayfasına eklediğiniz her uygulama için benzersiz bir tanımlayıcı (GUID). Uygulama kodu PowerApps sitesinde bulunur, [powerapps.com](http://powerapps.com/). 
-> - Kullanıcıların bir uygulama veya rapor açabilecekleri sayfa. Tüm Talent sayfaları katıştırılmış PowerApps'i ve Power BI raporlarını desteklemez. 
+ -  Her PowerApps uygulaması için açıklayıcı bir ad veya bir tanımlayıcı.
+ -  Talent sayfasına eklediğiniz her uygulama için benzersiz bir tanımlayıcı (GUID). Uygulama kodu PowerApps sitesinde bulunur, [powerapps.com](http://powerapps.com/). 
+ -  Kullanıcıların bir uygulama veya rapor açabilecekleri sayfa. Tüm Talent sayfaları katıştırılmış PowerApps'i ve Power BI raporlarını desteklemez. 
 
  > [!NOTE]
  >  Sayfanın üstünde görüntülenen görünen ad yerine sayfanın dahili adını girin. Dahili adı bulmak için, adını öğrenmek istediğiniz sayfası açın ve sayfada herhangi bir yere sağ tıklayın. Menü açıldığında, **Form bilgileri** öğesinin üzerine gidin. Dahili form adı menüdeki **Form bilgileri** öğesinin yanında görüntülenir.
  
-> - Uygulamanın bağlam verilerini alabileceği form denetimini belirtin. Örneğin, bir uygulama bir çalışan hakkındaki verileri kullanabilir. **Bağlam** alanındaki **Çalışan** sayfasına girerseniz, **Çalışan** sayfası uygulamayı başlattığınızda açılır. **Bağlam alanındaki** bir giriş isteğe bağlıdır. 
-> - PowerApps uygulamasının çalıştırılacağı iletişim kutusunun boyutunu ayarlayın. İletişim kutuları, uygulamanız bir telefonda veya geniş bir cihazda çalıştığında kullanıcı arabirimini en iyi duruma getirmek için sırasıyla "küçük" veya "büyük" olarak belirlenebilir. 
+-   Uygulamanın bağlam verilerini alabileceği form denetimini belirtin. Örneğin, bir uygulama bir çalışan hakkındaki verileri kullanabilir. **Bağlam** alanındaki **Çalışan** sayfasına girerseniz, **Çalışan** sayfası uygulamayı başlattığınızda açılır. **Bağlam alanındaki** bir giriş isteğe bağlıdır. 
+-   PowerApps uygulamasının çalıştırılacağı iletişim kutusunun boyutunu ayarlayın. İletişim kutuları, uygulamanız bir telefonda veya geniş bir cihazda çalıştığında kullanıcı arabirimini en iyi duruma getirmek için sırasıyla "küçük" veya "büyük" olarak belirlenebilir. 
+
 
 Ayrıca bir uygulamanın hangi tüzel kişilikler tarafından kullanılabileceğini belirleyebilir veya uygulamanın tüm tüzel kişilikler tarafından kullanılabilmesini sağlayabilirsiniz. Varsayılan olarak, PowerApps uygulamalarınız tüm tüzel kişiliklerin kullanımına sunulur.
 

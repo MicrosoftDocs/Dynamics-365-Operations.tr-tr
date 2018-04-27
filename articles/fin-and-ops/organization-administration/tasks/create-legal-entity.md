@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-legal-entity"></a>Bir tüzel kişilik oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bir tüzel kişilik, yasal bir yetkiliye kayıt yoluyla tanımlanmış bir kuruluştur. Tüzel kişilikler sözleşmelere girebilir ve performanslarını raporlayacak bildirimler hazırlamaları gerekir. Aşağıdaki prosedürde bir tüzel kişiliğin nasıl oluşturulacağı açıklanmıştır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f711ef739e8b885f2f09586f34775e826b619c82
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0033461e7cd2601993c006aba2ec7c8f6ac0c89
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobil cihazları ambar işi için ayarlama
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek için kullandığı menü öğelerinin nasıl yapılandırılacağı açıklanmaktadır.
 
@@ -204,12 +203,12 @@ Ambar işi oluşturmak için menü öğeleri ayarlamaya ek olarak, önceden olu�
 <thead>
 <tr class="header">
 <th>Seçenek</th>
-<th>Açıklama</th>
+<th>Tanım</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Yok</td>
+<td>Hiçbiri</td>
 <td>Bu varsayılan değer iş işlemez.</td>
 </tr>
 <tr class="even">
@@ -279,7 +278,7 @@ Aşağıdaki tablo bu seçenekleri açıklar.
 </tr>
 <tr class="odd">
 <td>Bağlayan</td>
-<td>Bağlama kullanıyorsanız, sevkıyatla mı yoksa yükle mi bağlayacağınızı belirtmeniz gerekir.</td>
+<td>Bağlama kullanıyorsanız, sevkiyatla mı yoksa yükle mi bağlayacağınızı belirtmeniz gerekir.</td>
 </tr>
 <tr class="even">
 <td>Denetim şablonu kodu</td>
@@ -368,7 +367,7 @@ Aşağıdaki tablo bu seçenekleri açıklar.
 </tr>
 <tr class="odd">
 <td>Sistem gruplandırma etiketi</td>
-<td>Çekme işi Microsoft Dynamics 365 for Finance and Operations tarafından gruplandığında çalışanın ne tarayacağını bildiren metni girin. Örneğin çekme işini sevkıyata göre gruplandırmak için <strong>ShipmentId</strong> alanını kullanıyorsanız alana <strong>Sevkıyat kodu</strong> girebilirsiniz. Bu alan, sistem tarafından gruplanan mevcut işi kullanmak için bir menü öğesi oluşturmanızı gerektirir. <strong>Sistem gruplandırma alanı</strong> alanında alanı nasıl gruplandıracağınızı da seçmelisiniz.</td>
+<td>Çekme işi Microsoft Dynamics 365 for Finance and Operations tarafından gruplandığında çalışanın ne tarayacağını bildiren metni girin. Örneğin çekme işini sevkiyata göre gruplandırmak için <strong>ShipmentId</strong> alanını kullanıyorsanız alana <strong>Sevkıyat kodu</strong> girebilirsiniz. Bu alan, sistem tarafından gruplanan mevcut işi kullanmak için bir menü öğesi oluşturmanızı gerektirir. <strong>Sistem gruplandırma alanı</strong> alanında alanı nasıl gruplandıracağınızı da seçmelisiniz.</td>
 </tr>
 <tr class="even">
 <td>Varsayılan verileri kullan</td>

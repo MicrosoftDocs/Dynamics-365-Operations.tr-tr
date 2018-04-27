@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="registration-ids"></a>Kayıt kodları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, kayıt kimliklerini ayarlama kullanma hakkında bilgi sağlar.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-step-in-a-workflow"></a>Bir onay adımını bir iş akışında yapılandır
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, bir onay adımının özelliklerini yapılandırmayı açıklar.
 
@@ -145,9 +144,9 @@ Onay adımının kime atanacağını belirtmek için şu adımları izleyin:
     Eğer kullanıcı bu zaman içerisinde belge üzerinde eyleme geçmezse, belgenin vadesi geçer. Vadesi geçmiş bir belge, sayfanın **İlerletme** bölgesinde işaretlemiş olduğunuz seçeneklere göre ilerletilir.
 4.  Eğer onay adımını birden fazla kullanıcıya ya da bir kullanıcı grubuna atadıysanız, **Tamamlanma ilkesi** sekmesinde aşağıdaki seçeneklerden birini işaretleyin:
     -   **Tek onaylayan** – Belgeye uygulanan eylem, yanıt veren ilk kişi tarafından belirlenir. Örneğin, Sam 15.000 USD tutarında bir gider raporu gönderdi. Gider raporu şu an Sue, Jo ve Bill'e atanmıştır. Eğer Sue belgeye ilk yanıt veren kişi olursa, onun aldığı eylem belgeye uygulanır. Sue belgeyi reddederse, belge reddedilir ve Sam'e geri gönderilir. Sue belgeyi onaylarsa, onaylanmak üzere Ann'e gönderilir. 
-    
+
     ![Onay işlemine sahip bir iş akışı](./media/workflow_multipleusersinstep.gif)
-    
+
     -   **Onaylayanların çoğunluğu** – Belgeye uygulanan eylem, onaylayanların çoğunluğu yanıt verdiğinde belirlenir. Örneğin, Sam 15.000 USD tutarında bir gider raporu gönderdi. Gider raporu şu an Sue, Jo ve Bill'e atanmıştır. Eğer Sue ve Jo yanıt veren ilk iki kişiyse, aldıkları eylem belgeye uygulanır.
         -   Sue belgeyi onaylar ama Jo reddederse, belge reddedilir ve Sam'e geri gönderilir.
         -   Eğer hem Sue hem de Jo belgeye onay verirse, onay için Ann'e gönderilir.

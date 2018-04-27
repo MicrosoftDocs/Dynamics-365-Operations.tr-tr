@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="partial-location-cycle-counting"></a>Kısmi konum döngü sayımı
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Döngü sayımı planları, gerçek sayım işlemlerine yol gösterir. Bir konumdaki tüm eldeki stokun sayılması yerine yalnızca belirli ürünlerin ve ürün çeşitlerinin sayılmasını talep edebilirsiniz.
 

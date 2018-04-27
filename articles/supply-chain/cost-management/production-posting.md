@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-posting"></a>Üretimin deftere nakli
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale üretim sürecindeki farklı türdeki nakiller hakkında bilgi sağlar.
 

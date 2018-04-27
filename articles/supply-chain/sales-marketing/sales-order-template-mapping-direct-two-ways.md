@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Sales ile Finance and Operations arasında satış siparişlerini doğrudan eşitleme
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, satış siparişlerini doğrudan Microsoft Dynamics 365 for Sales ile Microsoft Dynamics 365 for Finance and Operations arasında eşitlemek için temel görevleri ve şablonları açıklar.
 

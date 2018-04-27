@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reserve-inventory-quantities"></a>Stok miktarlarını rezerve etme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu stok rezervasyonunda kullanılabilen farklı seçenekleri açıklar.
 
@@ -50,6 +49,7 @@ Stok rezervasyonu ilkeleri **Madde model grupları** sayfasında, **Stok ve amba
 ### <a name="policies-on-the-item-model-groups-page"></a>Madde model grupları sayfasındaki ilkeler
 
 **Stok ilkeleri** bölümü aşağıdaki rezervasyon ilkelerini içerir.
+
 |                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Rezervasyon ilkesi**  | **Açıklama**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -63,6 +63,7 @@ Stok rezervasyonu ilkeleri **Madde model grupları** sayfasında, **Stok ve amba
 #### <a name="example-for-fifo-date-controlled-and-backward-from-ship-date"></a>FIFO tarihi denetimli ve Sevk tarihinden geriye doğru örneği
 
 Bu örnekte, madde numarası A için eldeki stok üç farklı toplu iş numarası için mevcuttur.
+
 | Madde kodu | Parti numarası | Miktar | Tarih             |
 |-------------|--------------|----------|------------------|
 | A:           | 1000         | 5        | 2 Şubat 2016 |

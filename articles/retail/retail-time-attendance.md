@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="retail-time-and-attendance"></a>Perakende saati ve işe devam
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 for Retail'de süre ve işe devam yönetimi için desteklenen senaryolar açıklanmaktadır. 
 

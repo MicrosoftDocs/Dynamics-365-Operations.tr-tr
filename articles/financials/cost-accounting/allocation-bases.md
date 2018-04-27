@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocation-bases"></a>Tahsisat temelleri 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 bir tahsisat tabanı, Maliyet muhasebesinin genel giderleri tahsis ettiği tabandır. Bir tahsisat tabanı, kullanılan makine saatleri, tüketilen kilovat saat (kWh) veya doldurulan metrekare alan gibi bir miktar olabilir. Tahsisat tabanları, genellikle üretilen stoklara genel giderleri atamak için kullanılır. Örneğin bir BT bölümü, giderlerini her bir bölümün kullandığı bilgisayarların sayısına göre tahsis eder.
 
@@ -424,9 +424,11 @@ CC003 (BT) için formüle daha ayrıntılı bir bakış aşağıda verilmiştir:
 
 Elektrik sabit formül tahsisat tabanı, bunun içerisinde tahsisat tabanı olarak atanmışsa, bir maliyet dağıtımı kuralının örneği buradadır.
 
-| Maliyet nesnesi |  Açıklama  | Büyüklük | Tahsisat faktörü                |
-|-------------|----|-----------|----------------------------------|
-| CC001       | İK | 1.837,50  | (1.837,50 ÷ 18.162,50) × Tutar  |
-| CC002       | FI | 3.075,00  | (3.075,00 ÷ 18.162,50) × Tutar  |
-| CC003       | ST | 13.250,00 | (13.250,00 ÷ 18.162,50) × Tutar |
+
+| Maliyet nesnesi | Açıklama | Büyüklük |        Tahsisat faktörü         |
+|-------------|-------------|-----------|----------------------------------|
+|    CC001    |     İK      | 1.837,50  | (1.837,50 ÷ 18.162,50) × Tutar  |
+|    CC002    |     FI      | 3.075,00  | (3.075,00 ÷ 18.162,50) × Tutar  |
+|    CC003    |     ST      | 13.250,00 | (13.250,00 ÷ 18.162,50) × Tutar |
+
 

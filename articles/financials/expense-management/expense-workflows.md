@@ -19,16 +19,18 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 19d725f15f00afce1a2ae4b336226f1dafa94b41
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cf35406b43c1ec40a7c248b970559b65fcd8a6c6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-workflows-for-expense"></a>Gider için iş akışlarını ayarla
 
-[!include[banner](../includes/banner.md)] Seyahat ve gider belgelerini gözden geçirmek ve onaylamakta kullanılan iş akışı işlemlerini ayarlayabilirsiniz. iş akışlarının tanımlandığı belgeler gider raporları, seyahat talepleri ve nakit avans taleplerini içerebilir.
+[!INCLUDE [banner](../includes/banner.md)]
+
+ Seyahat ve gider belgelerini gözden geçirmek ve onaylamakta kullanılan iş akışı işlemlerini ayarlayabilirsiniz. iş akışlarının tanımlandığı belgeler gider raporları, seyahat talepleri ve nakit avans taleplerini içerebilir.
 
 İş akışı, bir iş sürecini temsil eder. Bir belgenin sistem üzerinde nasıl aktığını tanımlar ve bir görevi kimin tamamlaması veya bir belgeyi kimin onaylaması gerektiğini tanımlar. İş akışı sistemini kuruluşunuzda kullanmanın bazı getirileri vardır:
 
@@ -42,13 +44,15 @@ ms.lasthandoff: 11/03/2017
 
 Aşağıdaki tablo **Gider** içerisinde oluşturabileceğiniz iş akışı türlerini listeler.
 
-| **Tip**                           | **Bu türü aşağıdakileri gerçekleştirmek için kullanın:**                                                 |     
-|------------------------------------|----------------------------------------------------------------------|
-| **Gider raporu**                 | Gider raporları için onay iş akışları oluşturun.                       |      
-| **Gider raporu otomatik olarak deftere nakletme**    | Gider raporları için belge otomatik deftere nakil iş akışları oluşturun.              |     
-| **Gider satırı öğesi**              | Gider raporları üzerinde satır maddeleri için onay iş akışları oluşturun.         |     
-| **Gider satırı öğesi otomatik olarak deftere nakletme** | Gider raporları üzerinde satır maddeleri için otomatik deftere nakil iş akışları oluşturun.|
-| **Seyahat talebi**             | Seyahat talepleri için onay iş akışları oluşturun.                   |    
-| **Nakit avans isteği**           | Nakit avans talepleri için onay iş akışları oluşturun.                 |     
-| **KDV vergisinden düşme**               | Katma değer vergisi (KDV) düşürme için onay iş akışları oluşturun. |       
+
+|              <strong>Tip</strong>              |                   <strong>Bu türü aşağıdakileri gerçekleştirmek için kullanın:</strong>                   |
+|-------------------------------------------------|-----------------------------------------------------------------------|
+|         <strong>Gider raporu</strong>         |            Gider raporları için onay iş akışları oluşturun.             |
+|  <strong>Gider raporu otomatik olarak deftere nakletme</strong>   |        Gider raporları için belge otomatik deftere nakil iş akışları oluşturun.        |
+|       <strong>Gider satırı öğesi</strong>        |     Gider raporları üzerinde satır maddeleri için onay iş akışları oluşturun.      |
+| <strong>Gider satırı öğesi otomatik olarak deftere nakletme</strong> | Gider raporları üzerinde satır maddeleri için otomatik deftere nakil iş akışları oluşturun. |
+|       <strong>Seyahat talebi</strong>       |          Seyahat talepleri için onay iş akışları oluşturun.           |
+|      <strong>Nakit avans isteği</strong>      |         Nakit avans talepleri için onay iş akışları oluşturun.          |
+|        <strong>KDV vergisinden düşme</strong>        | Katma değer vergisi (KDV) düşürme için onay iş akışları oluşturun.  |
+
 

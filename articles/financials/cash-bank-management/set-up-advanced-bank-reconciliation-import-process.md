@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Gelişmiş banka mutabakatı içe aktarma sürecini ayarlama
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations uygulamasındaki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu makalede banka ekstreleriniz için içe aktarma işlevinin nasıl ayarlanacağı açıklanmaktadır. 
 
@@ -57,7 +56,7 @@ Aşağıda gelişmiş banka mutabakatını içe aktarma dosyası teknik düzen t
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
 
- 
+
 
 ## <a name="set-up-the-import-of-iso20022-bank-statements"></a>ISO20022 banka ekstrelerinin içe aktarma işlemini ayarlama
 İlk olarak, veri varlık çerçevesini kullanarak ISO20022 banka ekstreleri için banka ekstresi biçimi işlem grubu tanımlamanız gerekir.

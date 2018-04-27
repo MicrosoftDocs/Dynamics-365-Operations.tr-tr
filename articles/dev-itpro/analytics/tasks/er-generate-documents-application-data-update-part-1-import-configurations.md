@@ -1,5 +1,5 @@
 --- 
-title: "Elektronik raporlama (ER) için uygulama verileri güncelleştirmesiyle belge oluşturmak üzere yapılandırmaları içe aktarma"
+title: "Uygulama verileriyle belgeler oluşturmak için yapılandırmaları içe aktarma"
 description: "Bu yordamdaki adımları tamamlamak için öncelikle \"ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme\" yordamını tamamlamanız gerekir."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5d4f57ae2a309d9e15c1afe60c3e91d7d7eb3870
-ms.openlocfilehash: 6a945eb6c733d760cc723bfa7135d73bdf502724
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 87352293a78d6a356db49deffb930016a1bf836c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="import-configurations-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için uygulama verileri güncelleştirmesiyle belge oluşturmak üzere yapılandırmaları içe aktarma
+# <a name="import-configurations-to-generate-documents-with-application-data"></a>Uygulama verileriyle belgeler oluşturmak için yapılandırmaları içe aktarma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordamdaki adımları tamamlamak için öncelikle "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamını tamamlamanız gerekir.
 

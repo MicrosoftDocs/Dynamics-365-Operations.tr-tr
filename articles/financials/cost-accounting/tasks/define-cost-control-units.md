@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-cost-control-units"></a>Maliyet kontrol birimlerini tanımlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, maliyet kontrol birimlerini maliyet muhasebesi defterinde tanımlamayı gösterir. Defterde maliyetlerini denetlemek istediğiniz maliyet nesnesi boyutunu seçersiniz. Maliyet nesnesi boyut üyeleri, maliyet kontrol birimlerinin maliyet nesnelerine dönüştürülür. Bu yöntemi oluşturmak için kullanılan demo verisi şirketi USP2'dir.
 

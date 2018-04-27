@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="copy-service-templates-lines"></a>Servis şablonları satırlarını kopyalama 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Şablon bilgileri başka bir servis sözleşmesine veya servis siparişine kopyalanabilir.
 

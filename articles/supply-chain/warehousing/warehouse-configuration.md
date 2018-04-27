@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="warehouse-configuration"></a>Ambar konfigürasyonu
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, bir ambarın nasıl yapılandırılacağı açıklanmaktadır. Konu, ambar düzeninin ve ambar süreçlerinin nasıl etkinleştirileceği hakkında bilgiler içermektedir.
 

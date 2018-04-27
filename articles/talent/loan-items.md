@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e7b29b1cca0b61f295449045a2d4e38abacf05b5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ba1b158908ac2328c29f7efe23756248be5be33c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manage-items-lent-to-workers"></a>Çalışanlara ödünç verilen öğeleri yönetme
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Ödünç verilen maddeler, yöneticilerin şirketin çalışanlarına ödünç verdiği fiziksel öğeleri izlemede yardımcı kayıtlardır. 
 
@@ -51,7 +50,7 @@ Yöneticiler doğrudan raporları aracılığıyla ödünç öğeleri görüntü
 
 Bir madde hasar görürse veya yanlış yere yerleştirilirse, hayali bir iade kaydı girin. Sonra maddeyi silin veya özet kısmında tutun ve maddenin kullanılamaz olduğunu belirtmek için açıklamasını değiştirin.
 
- 
+
 <a name="see-also"></a>Ayrıca bkz.
 --------
 

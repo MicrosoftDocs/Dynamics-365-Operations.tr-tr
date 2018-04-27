@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Satış vergisi raporlama kodlarını ayarla
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Satış vergisi raporlama kodları, satış vergisi raporundaki bir alan numarasına karşılık gelir. Bunlar, raporlama kodu başına özeti çıkarılan kapatma döneminin satış vergisi tutarlarının yazdırılacağı kod raporu tarafından, ülkeye özel rapor düzenlerinde ve Satış vergisi ödemesinde kullanılır. Satış vergisi raporlama kodlarını oluşturduktan sonra, Satış vergisi kodu sayfasındaki Rapor kurulumu hızlı sekmelerinde bu kodlara gönderme yapabilirsiniz. 
 

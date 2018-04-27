@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 
 ---
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 # <a name="electronic-reporting-sample-check-formats"></a>Elektronik raporlama örnek çek biçimleri
 

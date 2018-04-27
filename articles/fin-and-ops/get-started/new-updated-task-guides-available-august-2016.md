@@ -27,8 +27,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="new-or-updated-task-guides-august-2016"></a>Yeni veya güncelleştirilmiş görev kılavuzları (Ağustos 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Dynamics AX için Microsoft (Ağustos 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır.
 

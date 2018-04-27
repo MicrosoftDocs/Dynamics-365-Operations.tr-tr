@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Satınalma siparişleri için iş şablonunu ayarlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, alınan ürünler yerine koyulurken kullanılacak basit bir iş şablonunun nasıl ayarlanacağına odaklanır. İş şablonları, ürünler teslim alma alanından taşınırken bir mobil cihazda ambara yönelik yönergeler kümesini belirler. Bu yordamı, USMF demo verileri şirketinde söz edilen verilerle kullanabilirsiniz. Bu kılavuzu başlatmadan önce bir iş havuzu kodu oluşturun. Bu örnekte Gelen içinde bir iş havuzu kodu kullanılır. Bu yordam ambar yöneticisi için hazırlanmıştır.
 

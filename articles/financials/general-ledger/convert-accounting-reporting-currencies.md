@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Muhasebe veya raporlama para birimlerini dönüştürme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Muhasebe para birimini ya da raporlama para birimini değiştirmesi gereken bir şirketin iki seçeneği vardır. İlk seçenek, yeni bir şirket oluşturmak ve taze bir başlangıç yapmaktır. İkinci seçenek ise, muhasebe ve raporlama para birimi dönüştürme işlemini çalıştırmaktır. Bu, sistemdeki her hareketi değiştiren ve çok uzun süren bir işlemdir. İşlemin çalıştırılması için bazı ayarlar da yapılması gerekir.
 

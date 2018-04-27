@@ -19,23 +19,23 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 47de452c2072b6a29d7e2d34eb73b472be669a6c
-ms.openlocfilehash: eb6132b6d535deb13a4cd1343d04967893a2cfe9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0936ae3b8d07ef221345bda272170e1482f37cbf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/25/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="whats-new-or-changed"></a>Yenilikler veya değişenler
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu sayfa Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition'ın son sürümlerindeki yeni özellikler hakkında bilgi almanıza yardımcı olabilecek konulara sizi yönlendirir.
 
 En son sürüme yükseltme hakkında bilgi için bkz. [En son güncelleştirmeye yükseltme işlemi](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
 
-[!include[release notes](../includes/release-notes.md)]
+[!INCLUDE [release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>Uygulama sürümleri
 
@@ -61,6 +61,13 @@ En son sürüme yükseltme hakkında bilgi için bkz. [En son güncelleştirmeye
 
 </tr>
 <tr class="even">
+<tr class="even">
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>8.0</td>
+<td>8.0.30</td>
+<td>Nisan 2018</td>
+  <td><a href="whats-new-changed-8-0-April-2018.md">Dynamics 365 for Finance and Operations, 8.0 sürümündeki (Nisan 2018) yenilikler ve değiştirilenler</a></td>
+</tr>
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü</td>
 <td>7.3</td>
 <td>7.3.11971.56116</td>
@@ -122,7 +129,7 @@ En son sürüme yükseltme hakkında bilgi için bkz. [En son güncelleştirmeye
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü</td>
 <td>Platform güncelleştirmesi 15</td>
 <td>7.0.4839</td>
-<td>Mart 2018 (Bu yalnızca Sürekli Otomatik Güncelleştirme Avantajı Programına (CAAP) katılmayı seçen kullanıcılara sunulan özel bir sürümdür.)</td>
+<td>Mart 2018 (Bu yalnızca Sürekli Otomatik Güncelleştirme Avantajı Programına (CAAP) katılmayı seçen kullanıcılara sunulan özel bir sürümdür.) Platform güncelleştirmesi 15 aynı zamanda Dynamics 365 for Finance and Operations sürüm 8.0'da da bulunur.</td>
 <td><a href="whats-new-platform-update-15.md">Dynamics 365 for Finance and Operations, Enterprise edition platform güncelleştirmesi 15'teki (Mart 2018) yenilikler ve değiştirilenler</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü</td>

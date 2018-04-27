@@ -29,8 +29,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="call-center-functionality"></a>Çağrı merkezi işlevi
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu makale Microsoft Dynamics 365 for Retail içerisindeki çağrı merkezi satış özelliği hakkında genel bakış sağlar.
 

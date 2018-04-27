@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="intelligence"></a>Zeka
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu sizi Microsoft Dynamics 365 for Finance and Operations'da bulunan iş zekası (BI) ve raporlama araçları hakkında bilgi edinmek için kullanabileceğiniz kaynaklara yönlendirir.
 

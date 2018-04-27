@@ -28,8 +28,7 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="generate-a-financial-report"></a>Bir mali rapor oluştur
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu mali rapor oluşturma hakkında bilgi sağlar. 
 
@@ -50,13 +49,13 @@ Bir rapor oluşturduğunuzda, Rapor tanımını sekmesinde belirlediğiniz seçe
 ## <a name="generate-a-financial-report"></a>Bir mali rapor oluştur
 
 Microsoft Dynamics 365 for Finance and Operations ile mali rapor oluşturmak için **Genel muhasebe** > **Sorgulamalar ve raporlar** > **Mali raporlar**'a gidin. 
- - Oluşturmak için bir rapor seçip **Oluştur**'a tıklayın. 
- - **Rapor tarihi** alanını doldurup **Tamam**'a tıklayın.
- 
- Rapor oluşturulduktan sonra raporu **Raporlar** bölümünden görüntüleyebilirsiniz.
- Raporu **Görüntülemeyi** veya **Silmeyi** seçebilirsiniz.
- 
- 
+- Oluşturmak için bir rapor seçip **Oluştur**'a tıklayın. 
+- **Rapor tarihi** alanını doldurup **Tamam**'a tıklayın.
+
+  Rapor oluşturulduktan sonra raporu **Raporlar** bölümünden görüntüleyebilirsiniz.
+  Raporu **Görüntülemeyi** veya **Silmeyi** seçebilirsiniz.
+
+
 **Rapor tasarımcısını** kullanarak rapor oluşturmak için rapor tanımını açın ve ardından araç çubuğundaki Oluştur düğmesine tıklayın. Rapor Kuyruğu Durumu penceresi açılır ve raporunuzun kuyruktaki konumunu gösterir. Varsayılan olarak, oluşturulan rapor Web Görüntüleyici'de açılır.
 
 > [!NOTE]
@@ -159,7 +158,7 @@ Eksik bir hesap analizini çalıştırdığınızda, aşağıdaki klavye kısayo
 | Seçilen rapor tanımını aç  | Ctrl+R                     |
 | Seçilen satır tanımını aç     | Ctrl+O                     |
 
- 
+
 <a name="see-also"></a>Ayrıca bkz.
 --------
 

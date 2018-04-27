@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a>Öznitelikler, öznitelik grupları ve bunların Finance and Operations'da çeşitli Retail varlıklarıyla ilişkileri
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 *Öznitelikler* kullanıcı tanımlı alanlar aracılığıyla bir ürünü ve özelliklerini daha fazla açıklamak için bir yol sağlar (**Bellek boyutu**, **Sabit disk kapasitesi**, **Energy star uyumluluğu**, vb.). Microsoft Dynamics 365 for Finance and Operations'da öznitelikler ürün kategorileri ve perakende kanalları gibi çeşitli perakende varlıklar ile ilişkili olabilir ve bunlar için varsayılan değerler ayarlanabilir. Ürün kategorileri veya perakende kanalları ile ilişkili olduğunda ürünler özniteliklerini ve varsayılan değerleri devralır. Varsayılan değerler tek tek ürün düzeyinde, perakende kanal düzeyinde veya perakende kataloğu düzeyinde geçersiz kılınabilir.
  
@@ -227,13 +227,13 @@ Bir veya daha fazla öznitelik grubu perakende mağaza hiyerarşisindeki bir vey
 5. **Ürünler** hızlı sekmesinde gerekli ürünü seçin ve ardından ızgaranın üstünden **Öznitelikler**'i seçin.
 6. Aşağıdaki hızlı sekmelerde gereken özniteliklerin değerlerini güncelleştirin:
 
-    - Paylaşılan ürün ortamı
-    - Paylaşılan ürün öznitelikleri
-    - Kanal ortamı
-    - Kanal ürünü öznitelikleri
+   - Paylaşılan ürün ortamı
+   - Paylaşılan ürün öznitelikleri
+   - Kanal ortamı
+   - Kanal ürünü öznitelikleri
 
-    > [!NOTE]
-    > Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri Finance and Operations'da oluşturulursa, tüm perakende ürünlere uygulanır.
+     > [!NOTE]
+     > Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri Finance and Operations'da oluşturulursa, tüm perakende ürünlere uygulanır.
 
 ![Katalog ürünü öznitelik grupları](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ Bir veya daha fazla öznitelik grubu perakende mağaza hiyerarşisindeki bir vey
 
 5. Aşağıdaki hızlı sekmelerde gereken özniteliklerin değerlerini güncelleştirin:
 
-    - Paylaşılan ürün ortamı
-    - Paylaşılan ürün öznitelikleri
-    - Kanal ortamı
-    - Kanal ürünü öznitelikleri
+   - Paylaşılan ürün ortamı
+   - Paylaşılan ürün öznitelikleri
+   - Kanal ortamı
+   - Kanal ürünü öznitelikleri
 
-    > [!NOTE]
-    > Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri Finance and Operations'da oluşturulursa, tüm perakende ürünlere uygulanır.
+     > [!NOTE]
+     > Paylaşılan ürün ortamı ve paylaşılan ürün öznitelikleri Finance and Operations'da oluşturulursa, tüm perakende ürünlere uygulanır.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="record-templates"></a>Kayıt şablonları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, kayıt şablonları kavramını tanıtır ve bunların bilgi paylaşan kayıtları oluşturmada nasıl kullanılabileceklerini açıklar.
 

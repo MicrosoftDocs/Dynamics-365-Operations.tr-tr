@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-cost-entries-for-a-cost-object"></a>Maliyet nesnesi için maliyet girişlerini görüntüleme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, bir maliyet nesnesi için maliyet girişlerinin nasıl görüntüleneceğini gösterir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam maliyet denetleyicisi için hazırlanmıştır.
 

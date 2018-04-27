@@ -26,7 +26,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="credit-and-collections-management-power-bi-content"></a>Kredi ve tahsilatlar yönetimi Power BI içeriği
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Power BI **Kredi ve Tahsilatlar Yönetimi**'nde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
@@ -69,22 +69,24 @@ Tüm bu raporlardaki grafikler ve kutucuklar filtrelenebilir ve panoya sabitlene
 
 Aşağıdaki veriler **Kredi ve tahsilatlar yönetimi** Power BI içeriğindeki raporu doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Sunucu veritabanıdır. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesine genel bakış](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
 
-| Varlık                                      | Önemli toplam ölçümler           | Veri kaynağı                                 | Alan                                                      | Açıklama |
-|---------------------------------------------|--------------------------------------|---------------------------------------------|------------------------------------------------------------|-------------|
-| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities, AveragecClosedTime  | smmActivities                               | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) | Kapalı etkinliklerin sayısı ve bu etkinlikleri kapamak için ortalama süre. |
-| CustCollectionsBIActivitiesOpen             | ActivityNumber                       | smmActivities                               | Count(ActivityNumber)                                      | Açık aktivitelerin sayısı. |
-| CustCollectionsBIAgedBalances               | AgedBalances                         | CustCollectionsBIAgedBalancesView           | SUM(SystemCurrencyBalance)                                 | Yaşlandırılmış bakiyelerin toplamı. |
-| CustCollectionsBIBalancesDue                | SystemCurrencyAmount                 | CustCollectionsBIBalanceDueView             | Sum(SystemCurrencyAmount)                                  | Vadesi geçmiş tutarlar. |
-| CustCollectionsBICaseAverageCloseTIme       | NumOfCases, CaseAverageClosedTime    | CustCollectionsCaseDetail                   | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) | Kapalı vakaların sayısı ve bu vakaları kapamak için ortalama süre. |
-| CustCollectionsBICasesOpen                  | CaseId                               | CustCollectionsCaseDetail                   | Count(CaseId)                                              | Açık vakaların sayısı. |
-| CustCollectionsBICollectionLetter           | CollectionLetterNum                  | CustCollectionLetterJour                    | Count(CollectionLetterNum)                                 | Açık tahsilat mektuplarının sayısı. |
-| CustCollectionsBICollectionLetterAmount     | CollectionLetterAmounts              | CustCollectionsBIAccountsReceivables        | Sum(SystemCurrencyAmount)                                  | Nakledilen tahsilat mektuplarının bakiyesi. |
-| CustCollectionsBICollectionStatus           | CollectionStatusAmounts              | CustCollectionsBIAccountsReceivables        | Sum(SystemCurrencyAmount)                                  | Tahsilat durumundaki hareketlerin bakiyesi. |
-| CustCollectionsBICredit                     | CreditExposed, AmountOverCreditLimit | CustCollectionsBICreditView                 | Sum(CreditExposed), Sum(AmountOverCreditLimit)             | Kredi riski ve müşterilerin kredi limitlerinin üzerinde oldukları tutarların toplamı. |
-| CustCollectionsBICustOnHold                 | Bloke edilmiş                              | CustCollectionsBICustTable                  | Count(Blocked)                                             | Beklemede olan müşterilerin sayısı. |
-| CustCollectionsBIDSO                        | DSO30                                | CustCollectionsBIDSOView                    | AverageOfChildren(DSO30)                                   | 30 gün için bekleyen satış gün sayısı. |
-| CustCollectionsBIExpectedPayment            | ExpectedPayment                      | CustCollectionsBIExpectedPaymentView        | Sum(SystemCurrencyAmounts)                                 | Sonraki yılda beklenen ödemelerin toplamı. |
-| CustCollectionsBIInterestNote               | InterestNote                         | CustInterestJour                            | Count(InterestNote)                                        | Oluşturulmuş olan vade farkı dekontlarının sayısı. |
-| CustCollectionsBISalesOnHold                | SalesId                              | SalesTable                                  | Count(SalesId)                                             | Bekleme olan toplam satış siparişlerinin sayısı. |
-| CustCollectionsBIWriteOff                   | WriteOffAmount                       | CustCollectionsBIWriteOffView               | Sum(SystemCurrencyAmount)                                  | Silinmiş olan hareketlerin toplamı. |
+
+|                   Varlık                    |      Önemli toplam ölçümler      |             Veri kaynağı              |                           Alan                            |                                    Açıklama                                     |
+|---------------------------------------------|--------------------------------------|--------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
+| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities, AveragecClosedTime  |            smmActivities             | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) |     Kapalı etkinliklerin sayısı ve bu etkinlikleri kapamak için ortalama süre.     |
+|       CustCollectionsBIActivitiesOpen       |            ActivityNumber            |            smmActivities             |                   Count(ActivityNumber)                    |                           Açık aktivitelerin sayısı.                            |
+|        CustCollectionsBIAgedBalances        |             AgedBalances             |  CustCollectionsBIAgedBalancesView   |                 SUM(SystemCurrencyBalance)                 |                             Yaşlandırılmış bakiyelerin toplamı.                              |
+|        CustCollectionsBIBalancesDue         |         SystemCurrencyAmount         |   CustCollectionsBIBalanceDueView    |                 Sum(SystemCurrencyAmount)                  |                           Vadesi geçmiş tutarlar.                            |
+|    CustCollectionsBICaseAverageCloseTIme    |  NumOfCases, CaseAverageClosedTime   |      CustCollectionsCaseDetail       | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) |        Kapalı vakaların sayısı ve bu vakaları kapamak için ortalama süre.        |
+|         CustCollectionsBICasesOpen          |                CaseId                |      CustCollectionsCaseDetail       |                       Count(CaseId)                        |                              Açık vakaların sayısı.                              |
+|      CustCollectionsBICollectionLetter      |         CollectionLetterNum          |       CustCollectionLetterJour       |                 Count(CollectionLetterNum)                 |                       Açık tahsilat mektuplarının sayısı.                        |
+|   CustCollectionsBICollectionLetterAmount   |       CollectionLetterAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                     Nakledilen tahsilat mektuplarının bakiyesi.                      |
+|      CustCollectionsBICollectionStatus      |       CollectionStatusAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                Tahsilat durumundaki hareketlerin bakiyesi.                 |
+|           CustCollectionsBICredit           | CreditExposed, AmountOverCreditLimit |     CustCollectionsBICreditView      |       Sum(CreditExposed), Sum(AmountOverCreditLimit)       | Kredi riski ve müşterilerin kredi limitlerinin üzerinde oldukları tutarların toplamı. |
+|         CustCollectionsBICustOnHold         |               Bloke edilmiş                |      CustCollectionsBICustTable      |                       Count(Blocked)                       |                     Beklemede olan müşterilerin sayısı.                      |
+|            CustCollectionsBIDSO             |                DSO30                 |       CustCollectionsBIDSOView       |                  AverageOfChildren(DSO30)                  |                        30 gün için bekleyen satış gün sayısı.                         |
+|      CustCollectionsBIExpectedPayment       |           ExpectedPayment            | CustCollectionsBIExpectedPaymentView |                 Sum(SystemCurrencyAmounts)                 |                 Sonraki yılda beklenen ödemelerin toplamı.                 |
+|        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                Oluşturulmuş olan vade farkı dekontlarının sayısı.                |
+|        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 Bekleme olan toplam satış siparişlerinin sayısı.                 |
+|          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                Silinmiş olan hareketlerin toplamı.                 |
+
 

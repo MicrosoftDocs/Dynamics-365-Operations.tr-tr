@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="pos-improvements-for-serialized-products"></a>Seri hale getirilen ürünler için POS geliştirmeleri
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Özet 
 Perakende merkezindeki ayarlara dayanarak, ürünler seri veya seri değil olarak sınıflandırılabilir. Ürünler seri hale getirildiğinde, garantileri takip etmek, maddeleri izlemek ve sahipliği onaylamaya yardımcı olmak için her bir maddeye benzersiz bir numara atanabilir. Modern/Bulut Satış Noktası (POS) içerisinde seri haldeki ürünler için seri numaralar sağlama özelliği zaten bulunuyor olsa da, bir dizi geliştirme yapılarak kasiyerlere zaman kazandırma ve verimliliği artırmak hedeflenmiştir.  

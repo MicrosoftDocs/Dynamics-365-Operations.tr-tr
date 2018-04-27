@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Dynamics AX uygulama sürümü 7.0.1'deki yenilikler ve değişiklikler (Mayıs 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, Microsoft Dynamics AX uygulamasının sürüm 7.0.1'inde yeni olan veya değişen özellikleri açıklar. Bu sürüm Mayıs 2016 tarihinde yayımlanmıştır ve 7.0.1265.23014 yapım numarasına sahiptir.
 
@@ -44,12 +43,14 @@ Bu makale, Microsoft Dynamics AX uygulamasının sürüm 7.0.1'inde yeni olan ve
 | ER hedeflerini Bir biçimin çıkış sonucunun dosya, e-posta veya arşiv (Microsoft SharePoint klasörü veya Microsoft Azure Depolama) gibi belirli bir hedefe yönlendirileceği şekilde yapılandırın. | Önceden bir ER yapılandırması çalıştırdığınızda dosyayı kaydetmek veya açmak için kullanıcı eylemi gerektiren bir ileti kutusu görüntüleniyordu. Artık her bir biçim yapılandırması ve her bir çıkış bileşeni (bir klasör veya bir dosya) için ayrı bir hedefi önceden yapılandırabilirsiniz. Uygun erişim haklarına sahip kullanıcılar çalışma zamanında hedef ayarlarını da değiştirebilir. |
 
 ## <a name="pos--microsoft-dynamics-ax-retail"></a>POS - Microsoft Dynamics AX Perakende
+
 |                                |                                                                                                                                                                                         |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Ne yapabilirsiniz?**           | **Bu neden önemlidir?**                                                                                                                                                              |
 | Google Chrome tarayıcısını kullanın. | Perakendeciler artık Chrome tarayıcısından Bulut POS uygulamasını başlatabilir ve Bulut POS'un Microsoft Edge ve Internet Explorer sürümlerinde bulunan tüm işlevleri kullanabilir. |
 
 ## <a name="financial-reporting"></a>Mali raporlama
+
 |                                                                     |                                                                                                                                                                                                                                                                                                                    |
 |---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Ne yapabilirsiniz?**                                                | **Bu neden önemlidir?**                                                                                                                                                                                                                                                                                         |
@@ -57,12 +58,14 @@ Bu makale, Microsoft Dynamics AX uygulamasının sürüm 7.0.1'inde yeni olan ve
 | Artık geçerli olmayan rapor tasarımcısı seçeneklerini belirleyemezsiniz. | Yönetim raporlayıcısının pazar içi sürümlerinde kullanılan pek çok rapor tasarımcısı seçeneği Dynamics AX'in bu sürümünde geçerli değildir. Bu seçenekler, finansal rapor tasarımıyla, çıktıyla ve bağlama ile ilgiliydi. Bu seçenekler, kullanıcı hataları önlemek için mali rapor tasarımcısından kaldırılmıştır. |
 
 ## <a name="financial-management"></a>Mali yönetim
+
 |                                                            |                                                                  |
 |------------------------------------------------------------|------------------------------------------------------------------|
 | **Ne yapabilirsiniz?**                                       | **Bu neden önemlidir?**                                       |
 | Borç hesapları ödemeleri için pozitif ödeme dosyaları oluşturun. | Pozitif ödeme dosyaları çek sahteciliğini önlemeye yardımcı olmak için oluşturulabilir. |
 
 ## <a name="warehouse-and-production"></a>Ambar ve üretim
+
 |                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Ne yapabilirsiniz?**                                                                                                                                                                                                                                                                                                                                                                    | **Bu neden önemlidir?**                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -72,7 +75,7 @@ Bu makale, Microsoft Dynamics AX uygulamasının sürüm 7.0.1'inde yeni olan ve
 | Ürün reçetelerinin birinci düzeyinde döngüsel yapıya sahip üretim emirleri malzeme kaynak planlamasında ürün reçetesi düzeyi hesaplamanın dışında bırakılır.                                                                                                                                                                                                                                     | Ürün reçetesi hiyerarşisinde döngüselliğe neden olan üretim emirlerinde seçenek üretmek için doğru ürün reçetesi düzeyleri atamak mümkün değildir.                                                                                                                                                                                                                                                                                                  |
 | Malzeme kaynağı planlama ve maliyet hesaplaması için ayrı ürün reçetesi düzeylerini hesaplayın: • Malzeme kaynak planlaması için ürün reçetesi düzeyleri yeni **ReqItemLevel** tablosunda hesaplanır. Biten üretim emirleri hesaplamada dikkate alınmaz. • Üretim maliyeti hesaplamasında, ürün reçetesi düzeyleri **InventTable** üzerinde hesaplanır. Biten üretim emirleri hesaplamaya dahil edilir. | • Malzeme kaynak planlaması çalıştırırken, örneğin master planlama plan planlama ve açılım, yalnızca malzeme kaynak planlamasında kullanılan ürün reçetesi düzeylerinin hesaplanması gerekir. Diğer bir deyişle, üretim maliyeti hesaplamasında kullanılan ürün reçetesi düzeylerini hesaplamaya gerek yoktur. • Maliyet işlemleri çalıştırırken (örneğin stok kapatma), yalnızca üretim maliyeti hesaplamasında kullanılan ürün reçetesi düzeylerinin yeniden hesaplanması gerekir. |
 
- 
+
 
 <a name="see-also"></a>Ayrıca bkz.
 --------

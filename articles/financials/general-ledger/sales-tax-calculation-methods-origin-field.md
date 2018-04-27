@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Kaynak alanında satış vergisi hesaplama yöntemleri
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Bu makalede satış vergisi kodları sayfasında Başlangıç alanındaki seçenekler ve satış vergisinin bir satış vergisi kodu için belirlenen seçeneğe göre nasıl hesaplanacağı hakkında bilgiler verilmiştir.
 
@@ -53,11 +52,12 @@ Vergi dairesi bir maddeye özel vergi uygulamaktadır. Vergi tutarları, satış
 -   SATIŞ VERGİSİ = %25 Brüt tutar yüzdesi hesaplama yöntemini kullanarak
 
 Net tutar 10.00 ise HARÇ 1, 1.00 (10.00 x %10) ve HARÇ 2 = 2.00'dir (10.00 x %20). Tutarlar şu şekilde olacaktır: Brüt tutar: Net tutar + HARÇ 1 tutarı + HARÇ 2 tutarı (10.00 + 1.00 + 2.00) = 13.00 SATIŞ VERGİSİ = 13.00 x %25 = 3.25 Toplam HARÇLAR ve SATIŞ VERGİLERİ: 1.00 + 2.00 + 3.25 = 6.25 Toplam tutar: 10.00 + 6.25 = 16.25
+
 | **Not**                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Hareket için Kaynak = Brüt tutar yüzdesi değerine sahip yalnızca bir vergi kullanılabilir. Hareket için böyle birden fazla vergi kodu belirlenirse, satış vergisinin hesaplanamadığını bildiren bir hata iletisi görüntülenir. |
 
- 
+
 <a name="percentage-of-sales-tax"></a>Satış vergilerinin yüzdesi
 -----------------------
 
@@ -70,6 +70,7 @@ Aşağıdaki satış vergisi kodları durumunda:
 -   SATIŞ VERGİSİ = %25 Brüt tutar yüzdesi yöntemini kullanarak
 
 Net tutar: 10.00 HARÇ 1: 10.00 x %10 = 1.00 HARÇ 2: 1.00 x %20 = 0.20 Brüt tutar: 10.00 + 1.00 + 0.20 = 11.20 SATIŞ VERGİSİ: 11.20 x %25 = 2.80 Toplam HARÇLAR ve SATIŞ VERGİSİ: 1.00 + 0.20 + 2.80 = 4.00 Toplam tutar: 10.00 + 4.00 = 14.00
+
 | **Not**                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Vergi hesaplamalarında çok düzeyli vergi mümkün değildir.  Bir vergi, başka bir vergiye dayanılarak zaten hesaplanmış bir vergiye dayanılarak hesaplanamaz. Bir harekette, vergi kodları üzerinde birden fazla tek düzeyli vergi hesaplanabilir. |
@@ -79,6 +80,7 @@ Kaynak alanında Birim başına tutar seçimini yaptığınızda, satış vergis
 ### <a name="example"></a>Örnek
 
 Satış vergisi kodu şu şekilde ayarlanır: birim = kutu başına USD 1.20 Bir satış faturası satırında bir maddeden 25 kutu satılmış Satış vergisi 25 x 1.20 = 30.00 olarak hesaplanır
+
 | **Not**                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Hareket satış vergisi kodunda belirtilenden farklı bir birime girilirse, Birim dönüştürme sayfasında ayarlı birim dönüştürmelerine dayanılarak otomatik olarak dönüştürülür. |

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-control-overview"></a>Bütçe denetimine genel bakış 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale bütçe denetimini tanıtır ve mali kaynakları yönetebilmeniz için Microsoft Dynamics 365 for Finance and Operations içinde bütçe denetimini yapılandırmanıza yardımcı olacak bilgiler sağlar.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-cycle-counting"></a>Döngü sayımı tanımlama  
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Döngü sayımı eldeki stok maddelerini denetlemek için kullanabileceğiniz bir ambar işlemidir. Bu görev kaydı; varsayılan sayım işi önceliğinin ayarlanmasını, hem çekme hem de sayım süreçlerini işlemek için mobil cihaz menü öğesinin etkinleştirilmesini, bir konum boşaldığında sayım eşiği tetikleyicisinin etkinleştirilmesini ve belirli bir ambar içindeki belirli bir öğe için döngü sayımı planının etkinleştirilmesini kapsar. Bu görevler genellikle bir ambar yöneticisi tarafından yapılır. Bu yordamı demo verileri şirketi USMF veya kendi verilerinizi kullanarak yerine getirebilirsiniz.
 

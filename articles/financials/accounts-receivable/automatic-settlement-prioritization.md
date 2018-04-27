@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="automatic-settlement-and-prioritization"></a>Otomatik kapatma ve öncelik belirleme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda Alacak hesapları parametreleri sayfasında Otomatik kapatmayı seçtiğinizde hareketlerin nasıl kapatılacağı açıklanmıştır. Ayrıca, otomatik kapatmanın ödeme önceliği ile birlikte nasıl kullanılabileceği de açıklanmıştır.
 

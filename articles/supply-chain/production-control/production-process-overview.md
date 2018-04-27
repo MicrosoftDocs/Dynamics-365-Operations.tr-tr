@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-process-overview"></a>Üretim sürecine genel bakış
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda, üretim işlemleri hakkında genel bir bakış verilmektedir. Bu, sipariş oluşturulmasından mali dönem kapanışına dek üretim emirlerinin, toplu iş emirlerinin ve kanbanların çeşitli aşamalarını açıklamaktadır. 
 

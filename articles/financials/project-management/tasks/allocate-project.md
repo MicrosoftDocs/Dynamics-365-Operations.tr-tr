@@ -17,15 +17,17 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 3d486e5b7a7ef8f711b8f44af81292a7a8f0bcd4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a253a37bc83482c5bc971cad585e18ccb230b16f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Dönemler arasında bir proje bütçesi veya bütçe revizyonu tahsis etme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)] Bir proje bütçesi ya da proje bütçesi revizyonu girdikten sonra ve onay için göndermeden önce, tutarları dönemler arasında tahsis edebilirsiniz. Bütçe veya bütçe revizyonu reddedilirse, tutarları yeniden göndermeden önce de tahsis edebilirsiniz. 
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+
+ Bir proje bütçesi ya da proje bütçesi revizyonu girdikten sonra ve onay için göndermeden önce, tutarları dönemler arasında tahsis edebilirsiniz. Bütçe veya bütçe revizyonu reddedilirse, tutarları yeniden göndermeden önce de tahsis edebilirsiniz. 
 
 Bir bütçe ya da bütçe revizyonu tahsis edildikten sonra, tahsisat tutarlarını gözden geçirebilir ve bütçe veya bütçe revizyonunu onay iş akışı için göndermeden önce bunları düzenleyebilirsiniz. 
 
@@ -34,7 +36,7 @@ Bir bütçe ya da bütçe revizyonu tahsis edildikten sonra, tahsisat tutarları
 3. Eylem Bölmesinde, Plan sekmesindeki Bütçe gurubunda Projele bütçesi'ne tıklayın. 
 4. Proje bütçesi formunda, Eylem Panosundaki Bütçe sekmesinde Bütçe tahsis et'e tıklayın. 
 5. Bütçe tahsis et formunda, Tahsisat kaynağı ve Tahsisat hedefi alanlarına, bütçe tahsisatına dahil etmek istediğiniz ilk ve son tarihleri girin. Bu genellikle tüm projenin ilk ve son tarihleri veya geçerli yılın ilk ve son tarihleridir.  
-> [NOT!] Bir hareket türü tahsis edildikten ve tutarlar onaylandıktan sonra, tahsisat dönemi sonraki bütçe revizyonlarında değiştirilemez. 
+   > [NOT!] Bir hareket türü tahsis edildikten ve tutarlar onaylandıktan sonra, tahsisat dönemi sonraki bütçe revizyonlarında değiştirilemez. 
 6. Zaman dilimine göre alanında, proje bütçesini yıla göre mi yoksa şirketin yıl içindeki maki dönemlerine göre mi tahsis etmek istediğinizi seçin.
 7. Tahsis edilecek hareket türlerini seçin ve sonra Tahsis et'i tıklatın. 
 8. Proje bütçe tahsisatı formunda veya Proje bütçe revizyonu tahsisat formunda, tahsis edilen tutarları gözden geçirin veya güncelleştirin. 

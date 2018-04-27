@@ -17,15 +17,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7265e119a8b59399db1fa35373a7b6aba52ba8e0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 325cf12345afcf531181f65a41d0e5262798c14f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="onboard-vendors"></a>Satıcıları işe alma
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+
 ---
 
 Microsoft Dynamics 365 for Finance and Operations'da satıcıyı temsil eden bir kişiden alınan bilgiler temel alınarak yeni satıcılar işe alınabilir ve satıcı olarak kaydedilebilir.
@@ -164,13 +165,15 @@ Aday satıcı kayıt talebinin çeşitli durumları talebin ilerlemesi hakkında
 
 Aday satıcı kaydı talebindeki **Sil** eylemini kullanarak oluşturulan kayıt zincirini temizleyebilir ve kaldırabilir ve kullanıcı hesabını devre dışı bırakabilirsiniz. **Sil** eyleminin sonucu, aday satıcı kaydı talebinin durumuna göre aşağıdaki tabloda gösterildiği şekilde farklılık gösterir.
 
-| Durum                   | Durum açıklaması | Sil eyleminin sonucu |
-|--------------------------|--------------------|-----------------------------------|
-| Yeni                      | Talep üzerinde herhangi bir eylem gerçekleştirilmemiştir. | Aday satıcı kaydı talebi silinir. |
-| Kullanıcı istedi           | **Kullanıcıyı davet et**'i seçtiğinizde, durum **Talep edilen kullanıcı** olarak değişir ve aday kullanıcı talebi oluşturulup kullanıcı talebi iş akışına gönderilir. | Kullanıcı talebi iş akışı sonlandırılmadığından, bu duruma sahip olan bir aday satıcı kaydı talebini silemezsiniz. |
-| Kullanıcı davet edildi             | Kullanıcı talebi iş akışı onaylanır ve kullanıcı oluşturulur. | Kullanıcıyı devre dışı bırakma talebi oluşturulur ve aday satıcı kaydı talebi silinir. |
-| Kayıt devam ediyor | Yeni kullanıcı oturum açtı ve satıcı kaydı sihirbazını başlattı. | Kullanıcıyı devre dışı bırakmak üzere bir talep oluşturulur ve aday satıcı kaydı talebi ve satıcı kaydı sihirbazına girilen veriler silinir. |
-| Satıcı talebi oluşturuldu   | Satıcı kaydı sihirbazı tamamlandı. | Kullanıcıyı devre dışı bırakmak üzere bir talep oluşturulur ve aday satıcı kaydı talebi, satıcı kaydı sihirbazına girilen veriler ve satıcı talebi silinir.<blockquote>[!NOTE]<br>Satıcı talebi iş akışında gözden geçirme aşamasındayken **Sil** eylemini kullanamazsınız.</blockquote> |
-| Onaylandı                 | Satıcı talebi onaylanır. | Aday satıcı kaydı talebi, satıcı kaydı sihirbazına girilen veriler ve satıcı talebi silinir. |
-| Reddedildi                 | Satıcı talebi reddedilir. | Aday satıcı kaydı talebi, satıcı kaydı sihirbazına girilen veriler ve satıcı talebi silinir. |
+
+|          Durum          |                                                                                     Durum açıklaması                                                                                      |                                                                                                                                                            Sil eyleminin sonucu                                                                                                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|           Yeni            |                                                                         Talep üzerinde herhangi bir eylem gerçekleştirilmemiştir.                                                                          |                                                                                                                                              Aday satıcı kaydı talebi silinir.                                                                                                                                               |
+|      Kullanıcı istedi      | <strong>Kullanıcıyı davet et</strong>'i seçtiğinizde, durum <strong>Talep edilen kullanıcı</strong> olarak değişir ve aday kullanıcı talebi oluşturulup kullanıcı talebi iş akışına gönderilir. |                                                                                                          Kullanıcı talebi iş akışı sonlandırılmadığından, bu duruma sahip olan bir aday satıcı kaydı talebini silemezsiniz.                                                                                                          |
+|       Kullanıcı davet edildi       |                                                               Kullanıcı talebi iş akışı onaylanır ve kullanıcı oluşturulur.                                                               |                                                                                                                      Kullanıcıyı devre dışı bırakma talebi oluşturulur ve aday satıcı kaydı talebi silinir.                                                                                                                      |
+| Kayıt devam ediyor |                                                         Yeni kullanıcı oturum açtı ve satıcı kaydı sihirbazını başlattı.                                                          |                                                                                     Kullanıcıyı devre dışı bırakmak üzere bir talep oluşturulur ve aday satıcı kaydı talebi ve satıcı kaydı sihirbazına girilen veriler silinir.                                                                                      |
+|  Satıcı talebi oluşturuldu  |                                                                     Satıcı kaydı sihirbazı tamamlandı.                                                                      | Kullanıcıyı devre dışı bırakmak üzere bir talep oluşturulur ve aday satıcı kaydı talebi, satıcı kaydı sihirbazına girilen veriler ve satıcı talebi silinir.<blockquote>[!NOTE]<br>Satıcı talebi iş akışında gözden geçirme aşamasındayken <strong>Sil</strong> eylemini kullanamazsınız.</blockquote> |
+|         Onaylandı         |                                                                               Satıcı talebi onaylanır.                                                                               |                                                                                                   Aday satıcı kaydı talebi, satıcı kaydı sihirbazına girilen veriler ve satıcı talebi silinir.                                                                                                    |
+|         Reddedildi         |                                                                               Satıcı talebi reddedilir.                                                                               |                                                                                                   Aday satıcı kaydı talebi, satıcı kaydı sihirbazına girilen veriler ve satıcı talebi silinir.                                                                                                    |
+
 

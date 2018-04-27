@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="ledger-journal-types"></a>Genel muhasebe günlüğü türleri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, finansal günlükleriniz için ayarlayabileceğiniz günlük türleri açıklanmaktadır. Microsoft Dynamics 365 for Finance and Operations'ta kullanabileceğiniz günlükleri ayarlamak için **Günlük adları** sayfasını kullanın.
 

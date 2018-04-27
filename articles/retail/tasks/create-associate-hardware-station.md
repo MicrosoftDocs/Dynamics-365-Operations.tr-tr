@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-a-hardware-station"></a> Donanım istasyonu oluşturma ve ilişkilendirme
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordamda yeni bir donanım istasyonu oluşturma konusu açıklanmaktadır. Yeni bir donanım profili oluşturulur ve yeni donanım istasyonlarını önceden tanımlanmış bir mağazaya (kanal) eklemek için kullanılır. Bu yordam USRT demo veri şirketini kullanır.
 

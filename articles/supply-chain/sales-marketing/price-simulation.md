@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="price-simulation"></a>Fiyat benzetimi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, teklifler için fiyat benzetimiyle ilgili bilgiler verilmektedir. Fiyat benzetimi, belirli bir fiyat taahhüdünde bulunmadan önce teklif verme işlemi sırasında gelecekteki satış fiyatı kesintilerinin etkisini değerlendirmenize yardımcı olur.
 

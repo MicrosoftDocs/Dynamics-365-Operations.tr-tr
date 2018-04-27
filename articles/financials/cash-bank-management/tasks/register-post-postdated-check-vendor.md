@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>Satıcı için ileri tarih atılmış çeki kaydetme ve deftere nakletme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Günlük fişi kullanarak bir satıcıya çek kesmeden önce vadeli çekin ayrıntılarını kaydedebilirsiniz. Veya vadeli çeki nakledip finansal işlem oluşturabilirsiniz. Bir satıcıdan ileri tarihe atılmış bir çeki kaydetmeden ve deftere nakletmeden önce, aşağıdaki görevi tamamlayın: 
 

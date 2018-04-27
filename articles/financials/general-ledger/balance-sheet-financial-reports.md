@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="balance-sheet-financial-reports"></a>Bilanço mali raporları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, bilançolar için varsayılan raporları açıklar. Ayrıca, bu raporlarla ilişkili olan yapı taşlarını açıklar. 
 
@@ -71,7 +70,7 @@ Sütun tanımları, farklı ayrıntı ve mali veri düzeyleri sunmak üzere fark
     -   **DESC** – Satır tanımının açıklaması
     -   **FD** – Mevcut yıl için yılbaşından bugüne mali veriler
 
- 
+
 
 <a name="see-also"></a>Ayrıca bkz.
 --------

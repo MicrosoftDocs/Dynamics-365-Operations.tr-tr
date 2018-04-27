@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="help-system-overview"></a>Yardım sistemine genel bakış
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 for Finance and Operations Yardım sistemi bileşenlerine genel bir bakış sunar. Makalede, kuruluşunuz için özel belgeleri ve eğitimi nasıl sağlayabileceğiniz açıklanmaktadır. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="create-a-service-template-group"></a>Servis şablonu grubu oluşturma  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Servis şablonlarını sıralamak ve bunlara filtre uygulamak için servis şablonu gruplarını kullanabilirsiniz.
 

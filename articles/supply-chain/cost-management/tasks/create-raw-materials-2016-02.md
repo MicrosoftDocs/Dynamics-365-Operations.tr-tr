@@ -24,7 +24,7 @@ ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-raw-materials-february-2016-only"></a>Hammadde oluşturma (yalnızca Şubat 2016)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev, bitmiş ve yarı mamul ürünlerin bileşenlerini oluşturmaya odaklanır. Ürün Reçetesi hesaplama serisindeki üçüncü görevdir. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

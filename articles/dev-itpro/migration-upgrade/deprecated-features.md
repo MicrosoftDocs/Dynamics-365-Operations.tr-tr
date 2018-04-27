@@ -3,7 +3,7 @@ title: "Kaldırılan özellikler"
 description: "Bu konu kaldırılmış veya kaldırılması planlanan özellikleri açıklar."
 author: sericks007
 manager: AnnBe
-ms.date: 02/05/2018
+ms.date: 03/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 0618d71fdb4b29bfdacd6b9e1a8ed47e03abe00d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e629673c3a923ec74809e276ec39464bfacda124
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="removed-or-deprecated-features"></a>Kaldırılan veya kullanımına son verilen özellikler
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 for Finance and Operations'dan kaldırılmış veya kullanımına son verilmiş özellikler açıklanmaktadır.
 
@@ -37,7 +37,10 @@ Bu konuda, Microsoft Dynamics 365 for Finance and Operations'dan kaldırılmış
 Bu liste, kaldırılan veya kullanımına son verilen özellikleri kendi planlamanız için göz önünde bulundurmanız amacıyla hazırlanmıştır. 
 
 > [!Note]
-> Platform güncelleştirmesi 8 ile Dynamics 365 for Finance and Operations, Enterprise edition Temmuz 2017 sürümünden başlayarak, kaldırılan veya kullanımına son verilen her özellik için dağıtımların türü not edilmiştir. Bu konuda söz edilen önceki tüm sürümler yalnızca desteklenen bulut dağıtımlarıdır.
+> Platform güncelleştirmesi 8 ile Dynamics 365 for Finance and Operations Temmuz 2017 sürümünden başlayarak, kaldırılan veya kullanımına son verilen her özellik için dağıtımların türü not edilmiştir. Bu konuda söz edilen önceki tüm sürümler yalnızca desteklenen bulut dağıtımlarıdır.
+
+## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0, platform güncelleştirmesi 15 ile
+Bu sürümle hiçbir özellik kaldırılmamış veya kullanım dışı bırakılmamıştır. Platform Güncelleştirmesi 15 toplu güncelleştirmedir ve Platform Güncelleştirmesi 13, Platform Güncelleştirmesi 14 ve Platform Güncelleştirmesi 15'deki yeni veya değiştirilmiş özellikleri içerir.
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise edition 7.3, platform güncelleştirmesi 12 ile
 
@@ -96,7 +99,7 @@ Veri yönetimindeki standart kullanıcı arabirimi, veri yönetimi çalışma al
 | **Başka bir özellik ile değiştirildi?**   | *Gelişmiş görünümler* adlı yeni kullanıcı arabirimi eski kullanıcı arabiriminin yerini aldı.            |
 | **Etkilenen ürün alanları**         | Veri yönetimi çalışma alanı                                                     |
 | **Dağıtım seçeneği**              | Tümü                                                                           |
-| **Durum**                         | Kullanımı sonlandırıldı: İşlevin kaldırılması hedeflenen zaman aralığı 2018 yılı 1. çeyreğidir. |
+| **Durum**                         | Kullanımı sonlandırıldı: İşlevin kaldırılması hedeflenen zaman aralığı 2018 yılı 2. çeyreğidir. |
 
 ### <a name="excise-sales-tax-service-tax-for-india"></a>Hindistan için Tüketim, Satış Vergisi, Hizmet Vergisi
 
@@ -1033,10 +1036,11 @@ Windows 8 tablet uygulaması, gider girişi ve onayı için işlevler sağlardı
 
 ### <a name="x-financial-statements"></a>X++ mali tablolar
 
-|   |  |
-|------------|--------------------|
-| **Kullanımı sonlandırma/kaldırma nedeni** | Bu işlev başka bir özellik ile değiştirilmiştir.                                    |
-| **Başka bir özellik ile değiştirildi?**   | Yönetim Raporlayıcı (Dynamics AX'ın geçerli sürümünde **finansal raporlama** etiketli) |
-| **Etkilenen ürün alanları**         | Genel muhasebe                                                                              |
-| **Durum**                         | Dynamics AX 2012 itibarıyla kaldırıldı                                                              |
+|                                                 |                                                                                                          |
+|-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| <strong>Kullanımı sonlandırma/kaldırma nedeni</strong> |                         Bu işlev başka bir özellik ile değiştirilmiştir.                         |
+|  <strong>Başka bir özellik ile değiştirildi?</strong>  | Yönetim Raporlayıcı (Dynamics AX'ın geçerli sürümünde <strong>finansal raporlama</strong> etiketli) |
+|     <strong>Etkilenen ürün alanları</strong>     |                                              Genel muhasebe                                              |
+|             <strong>Durum</strong>             |                                      Dynamics AX 2012 itibarıyla kaldırıldı                                      |
+
 

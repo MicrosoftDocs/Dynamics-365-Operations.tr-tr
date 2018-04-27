@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="position-budgeting-troubleshooting"></a>Pozisyon bütçeleme için sorun giderme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede pozisyon bütçelemeyi yapılandırdığınızda karşılaşabileceğiniz sorulara yanıtlar verilmiştir. Bütçe maliyet öğelerinin, ücret gruplarının ve ücret ızgaralarının nasıl oluşturulacağı hakkında sıkça sorulan soruların yanıtlarını içerir. 
 

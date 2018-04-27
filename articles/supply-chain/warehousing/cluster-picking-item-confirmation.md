@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 
 ---
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a>Küme çekme için ürün onayı
 Küme malzeme çekme, çok sayıda sipariş için tek seferde malzeme çekmenize olanak sağlar. Küme malzeme çekme uygulandığında, öğe yapılandırması maddelerin kümelere eklendiğinden emin olmak için önemlidir. Küme malzeme çekme işlemi sırasında küme malzeme çekme içerisindeki öğeleri doğrulayabilirsiniz.
@@ -37,7 +37,8 @@ Küme malzeme çekme için madde doğrulaması, kümeli olmayan malzeme çekme i
 1.  Mobil cihaz menü öğesinden iş onayı için kurulum formunu açın: **Ambar yönetimi** > **Ambar yönetimi** > **Kurulum** > **Mobil cihaz** > **Mobil cihaz menü öğeleri**.
 2.  Mobil cihaz menü öğesinden **İş onayı ayarını** açın.
 
-| Seçenek        | Açıklama   | 
-| ------------- | ------------- |
-|Ürün onayı | Tarandığında, her stok parçasını mobil cihazınızdan doğrulamanıza olanak tanır.|
+|        Seçenek        |                                    Açıklama                                    |
+|----------------------|-----------------------------------------------------------------------------------|
+| Ürün onayı | Tarandığında, her stok parçasını mobil cihazınızdan doğrulamanıza olanak tanır. |
+
 

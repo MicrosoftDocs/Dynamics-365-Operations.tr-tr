@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="per-diem-rules"></a>Harcırah kuralları
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 *Harcırah* iş için seyahat eden çalışana ödenen bir tahsisattır. Gider yönetiminde, farklı seyahat durumları için harcırah kuralları oluşturabilirsiniz. Harcırah oranları seyahatin yılın hangi döneminde yapıldığı, seyahat yeri veya her ikisine dayanarak ayarlanabilir. Bir harcırah kuralı oluştururken, harcırahın çalışana ek yemek veya hizmetler sunulduğunda stopaj uygulanacak bir yüzdesini seçebilirsiniz. Aynı zamanda, bir çalışanın seyahatinde uygulanmak üzere, harcırah oranında izin verilen minimum ve maksimum saat sayısını ayarlayabilirsiniz.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="accounts-receivable-home-page"></a>Alacak hesapları giriş sayfası
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Müşteri faturalarını ve gelen ödemeleri izlemek için Alacak hesaplarını kullanın. 
 

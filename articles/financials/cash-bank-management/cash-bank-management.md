@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-and-bank-management-home-page"></a>Nakit ve banka yönetimi giriş sayfası
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Nakit ve banka yönetimini, tüzel kişiliğin banka hesaplarını ve bu hesaplarla ilişkilendirilmiş mali araçlarını korumak için kullanabilirsiniz. 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-period-close-workspace"></a>Mali dönem kapatma çalışma alanı
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, Mali dönem kapanış çalışma alanı ve bununla ilişkili yapılandırma hakkında genel bir bakış sağlar.
 

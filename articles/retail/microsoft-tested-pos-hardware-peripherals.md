@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pos-hardware-peripherals"></a>POS donanımı çevre birimleri
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Perakende Modern satış noktası (POS) ve Bulut POS, birden fazla arabirim ve dağıtım seçeneği ile bir satıcının çeşitlik iş senaryolarını sağlamak için çok çeşitli POS donanım aksesuarlarını kullanabilir. 
 

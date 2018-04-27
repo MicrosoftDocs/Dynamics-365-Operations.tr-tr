@@ -27,7 +27,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="practice-manager-power-bi-content"></a>Uygulama yöneticisi Power BI içeriği
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Power BI **Uygulama yöneticisi** nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar.
 
@@ -118,7 +118,9 @@ Aşağıdaki bölümler, her bir varlıkta kullanılan toplanan ölçümleri aç
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Varlık: ProjectAccountingCube\_TotalEstimatedCosts 
 **Veri kaynağı:** ProjTable
 
-| Kilit toplam ölçüm       | Alan               | Açıklama |
-|---------------------------------|---------------------|-------------|
+
+|    Kilit toplam ölçüm    |        Alan        |                                          Açıklama                                           |
+|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
 | Tamamlanan faaliyetin planlanan maliyeti | Sum(TotalCostPrice) | Tamamlanan görevlere sahip tüm proje hareket türleri için toplam maliyet fiyatı tahmini. |
+
 

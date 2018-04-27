@@ -29,8 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="set-up-rfm-analysis"></a>RFM analiz ayarla
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu konuda müşterilerinizin Recency, Sıklığı ve parasal (RFM) Analizi açıklanır.
 
@@ -60,25 +59,25 @@ Kuruluşunuz için puan toplama bir numarası kullanıyorsa, bireysel derecelend
     - RFM puanının her bölümünün eşit sayıda müşteri içermesi gerekiyorsa, **Eşit dağıtım** onay kutusunu seçin. 
     - Üç puanı toplamak için **Puan ekle** onay kutusunu işaretleyin. Örneğin, bu müşteriye 535 yerine 13 RFM puanı verecektir. 
     - Sistemin müşteriler için istatistik verilerini kaydetmesini sağlamak için **Geçmişi kaydet** onay kutusunu işaretleyin; böylece veriler RFM puanını hesaplamak için kullanılabilir.
-  
+
 5.  **Recency** hızlı sekmesinde, aşağıdakileri yapın: 
     - **Bölümler** alanına, müşterilerin recency puanını hesaplamak için kullanılacak bölümlerin veya grupların sayısını girin. Örneğin, 100 müşteriniz ve 5 bölümünüz varsa, her puanlama için 20 müşteri olacaktır. En yakın zamanda satınalım yapan 20 müşterinin recency puanı 5 olacaktır. Sonraki 20 müşterinin recency puanı 4 olacak ve bu şekilde devam edecektir. 50 müşteriniz varsa, 10 müşterinin recency puanı 5, 10 müşterinin recency puanı 4 olacak ve bu şekilde devam edecektir. 
     - **Öncelik** alanında, bir müşteri için RFM puanı hesaplanırken recency parametresine diğer parametrelere oranla ne kadar ağırlık verileceğini seçin. Örneğin, recency puanına parasal puandan daha fazla değer atayabilirsiniz. 
     - **Çarpan** alanına, recency puanının çarpılacağı değeri girin. Bir değer girmezseniz, puan çarpılmaz. 
     - **Dönem** alanında, recency puanının hangi dönem için hesaplanacağını seçin. Örneğin haftalık veya aylık.
-   
+
 6.  **Sıklık** hızlı sekmesinde, aşağıdakileri yapın: 
     - **Bölümler** alanına, müşterilerin sıklık puanını hesaplamak için kullanılacak bölümlerin veya grupların sayısını girin. 
     - **Öncelik** alanında, bir müşteri için RFM puanı hesaplanırken sıklık parametresine diğer parametrelere oranla ne kadar ağırlık verileceğini seçin. 
     - **Çarpan** alanına, sıklık puanının çarpılacağı değeri girin. Bir değer girmezseniz, puan çarpılmaz.
-   
+
 7.  **Parasal** hızlı sekmesinde, aşağıdakileri yapın: 
     - **Bölümler** alanına, müşterilerin parasal puanını hesaplamak için kullanılacak bölümlerin veya grupların sayısını girin. 
     - **Öncelik** alanında, bir müşteri için RFM puanı hesaplanırken parasal parametresine diğer parametrelere oranla ne kadar ağırlık verileceğini seçin. 
     - **Çarpan** alanına, parasal puanın çarpılacağı değeri girin. Bir değer girmezseniz, puan çarpılmaz. 
     - **Brüt/net** alanında, müşterinin parasal puanının brüt fatura tutarı mı yoksa net fatura tutarı mı kullanılarak hesaplanacağını seçin. 
     - Müşterinin iade tutarlarının müşterinin toplam fatura tutarından çıkarılması gerekiyorsa, **İadeleri çıkar** onay kutusunu seçin. 
- 
+
 ## <a name="view-a-customers-rfm-score"></a>Bir müşterinin RFM puanını görüntüleme
 Bu yordamı bir müşterinin RFM puanını görüntülemek için kullanın. 
 

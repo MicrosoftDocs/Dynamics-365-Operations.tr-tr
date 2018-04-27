@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6cd1e3a1f6b5c979a4f60d97cc2203cdcd32bbbe
-ms.openlocfilehash: 6de88b82c9a663bfe6d2756fde6f1a7412a44b1e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="pay-based-on-registrations"></a>Kayıtlara dayalı ödeme
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu ödemenin çalışan kayıtları temel alınarak nasıl hesaplanacağını ayrıntılarıyla açıklar. Hesaplama için kullanılan çeşitli kurulum seçenekleri kombinasyonlarının sonucu nasıl etkilediğini gösteren örnekler içerir. Ele alınacak alanlardan bazılarını aşağıda bulabilirsiniz:
 
@@ -446,7 +446,7 @@ Kayıtlar aktarıldıktan sonra aşağıdaki aktarılan kayıtlar oluşturulur.
 İş bir sorguyu temel alır. Bu nedenle, aynı hesaplama grubuna ait çalışanlar gibi birden çok çalışan için planlı izin oluşturabilirsiniz. Planlı devamsızlık tek bir çalışan için ise, kayıt **İşe devam** sayfasından veya **Zaman kaydı çalışanlar** sayfasından girilebilir.
 
 - **İşe devam** sayfasından devamsızlık girmek için **Saat ve işe devam** &gt; **Sorgular ve raporlar** &gt; **İşe devam** &gt; **İşe devam** ve ardından **Devamsızlık kaydı**'nı seçin.
-- ***Zaman kaydı çalışanlar*** sayfasından bir devamsızlık kaydı girmek için **Saat ve işe devam** &gt; **Kurulum** &gt; **Zaman kaydı çalışanlar**'ı ve daha sonra **Zaman** sekmesinde **Zaman atama** altından **Devamsızlık kayıtları**'nı seçin.
+- *<strong><em>Zaman kaydı çalışanlar</em></strong>* sayfasından bir devamsızlık kaydı girmek için <strong>Saat ve işe devam</strong> &gt; <strong>Kurulum</strong> &gt; <strong>Zaman kaydı çalışanlar</strong>'ı ve daha sonra <strong>Zaman</strong> sekmesinde <strong>Zaman atama</strong> altından <strong>Devamsızlık kayıtları</strong>'nı seçin.
 
 Çalışanlar için planlı devamsızlıkların özetini görmek için **Planlı devamsızlıklar** raporunu kullanabilirsiniz. Bu raporu açmak için **Saat ve işe devam** &gt; **Sorgular ve raporlar** &gt; **Devamsızlık raporları** &gt; **Planlı devamsızlıklar**'ı seçin.
 

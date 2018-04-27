@@ -27,8 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="configure-workflow-properties"></a>İş akışı özelliklerini yapılandırma
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu İş akışının çeşitli özelliklerini yapılandırmayı açıklar.
 

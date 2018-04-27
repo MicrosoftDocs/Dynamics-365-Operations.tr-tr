@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-accounting-terminology"></a>Maliyet muhasebesi terminolojisi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, Maliyet muhasebesinde kullanılan önemli terimleri tanımlar.
 
@@ -150,14 +149,14 @@ Formül tahsisat tabanları, doğru tahsisat tabanına ulaşmanız için gelişm
 |  + |  Fark hesap eki |
 |  – |  Çıkarma |
 | *  | Çarpma  |
-    
+
 Geleneksel IF ifadeleri desteklenmez. Ancak, deyimler oluşturabilir ve bunların doğru olup olmadığını doğrulayabilirsiniz.
 
 |  **Ekstre  Doğrulama.** | **Sonuç**  |
 |---|---|
 |  a > b| Doğru  |
 |  a > b |  Yanlış |
-    
+
 **Genel gider**
 
 İşletmenin faaliyetlerini sürdürmek için yapılan sürekli giderlere genel giderler denir. Bunlar, belirli iş faaliyetlerine doğrudan bağlanamayan maliyetlerdir. Aşağıda bazı genel gider örnekleri verilmiştir:

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Yeni üretilmiş bir madde için standart maliyetleri güncelleştirme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, yeni üretilen bir madde için standart maliyetlerin güncellenmesine yönelik yönergeler sağlanmıştır. 
 

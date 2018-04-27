@@ -29,8 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="personalized-product-recommendations-overview"></a>Kişiselleştirilmiş ürün önerilerine genel bakış
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 > [!NOTE]
 > Bu özelliği daha iyi bir algoritma ve daha yeni perakende odaklı yeteneklerle yeniden tasarladığımızdan ürün öneri hizmetinin geçerli sürümünü kaldırıyoruz. Daha fazla bilgi için bkz. [Kaldırılan veya artık kullanılmayan özellikler](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features). Ortamınız için zaten etkin ürün önerileri ile ilgili sorunlarla karşılaşırsanız sayfanın alt kısmına gidin. 
@@ -86,9 +85,9 @@ Dynamics 365 for Retail'da, ürün önerileri satış noktası cihazında (POS) 
 -   Model kimlik bilgileri ve kimliği CRT'nin kullanımına sunulur, böylece Bulut POS ve MPOS'tan çevrimiçi modda gelen ürün önerileri çağrıları değerlendirilir.
 
 > ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Zaten etkinleştirilmiş ürün önerileriyle ilgili sorunları giderme 
->- **Perakende Parametreleri** > **Makine öğrenimi** > **Ürün önerilerini devre dışı bırak**'a gidin ve **Ürün yapılandırma işini [1110]** çalıştırın. **Makine öğrenimi** sekmesini bulamıyorsanız, lütfen Dynamics Destek birimine başvurun. 
-
->- **Öneriler denetimini** hareket ekranınıza **Ekran düzeni tasarımcısını** kullanarak eklediyseniz bunu da kaldırın. 
+> - **Perakende Parametreleri** > **Makine öğrenimi** > **Ürün önerilerini devre dışı bırak**'a gidin ve **Ürün yapılandırma işini [1110]** çalıştırın. **Makine öğrenimi** sekmesini bulamıyorsanız, lütfen Dynamics Destek birimine başvurun. 
+> 
+> - **Öneriler denetimini** hareket ekranınıza **Ekran düzeni tasarımcısını** kullanarak eklediyseniz bunu da kaldırın. 
 
 
 

@@ -28,19 +28,17 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Satış vergisi kodları için tüm tutar ve Aralık hesaplaması seçenekleri
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Bu makalede satış vergisi kodları için Hesaplama yöntemi alanının seçenekleri ve satış vergisinin aralıklar ve tüm tutarlar için nasıl hesaplanacağı açıklanmıştır.
 
 Tam tutar veya bir aralık tutarına dayalı olarak hesaplanacak bir satış vergisi kodu ayarlayabilirsiniz. Satış vergisi kodları sayfasında, Hesaplama FastTab'indeki Hesaplama yöntemi alanını kullanarak satış vergisi kodunun nasıl hesaplanacağını seçin.
--   Tüm tutar – Vergi oranı tüm vergilendirilebilir tutara uygulanır.
--   Aralık – Vergilendirilebilir tutar, her biri belirli bir satış vergisi oranına sahip bir aralıkta yer alan parçalara bölünür. Belirli bir aralıkta yer alan tutarın parçası söz konusu aralığa ait vergi oranına göre vergilendirilir. Satış vergisi her tutar aralığı için hesaplanan vergi tutarlarının toplamıdır.
-> [!NOTE]                                                                                                                              
-> Aralık seçeneği, yalnızca Genel muhasebe parametreleri sayfasındaki Satış vergisi alanında Hesaplama yöntemi alanında Satır'ı seçtiğinizde kullanılabilir. 
+- Tüm tutar – Vergi oranı tüm vergilendirilebilir tutara uygulanır.
+- Aralık – Vergilendirilebilir tutar, her biri belirli bir satış vergisi oranına sahip bir aralıkta yer alan parçalara bölünür. Belirli bir aralıkta yer alan tutarın parçası söz konusu aralığa ait vergi oranına göre vergilendirilir. Satış vergisi her tutar aralığı için hesaplanan vergi tutarlarının toplamıdır.
+  > [!NOTE]                                                                                                                              
+  > Aralık seçeneği, yalnızca Genel muhasebe parametreleri sayfasındaki Satış vergisi alanında Hesaplama yöntemi alanında Satır'ı seçtiğinizde kullanılabilir. 
 
 Aralıklar, Satış vergisi kodu değerlerinde vergi oranı başına Minimum ve Maksimum sınır miktarlarını girerek ayarlanır. Seçilen hesaplama yönteminden bağımsız olarak, tüm vergilendirilebilir tutarlarda hesaplanacak vergiler için aralıkların aşağıdaki kurallara uygun olması gerekir:
 -   İlk aralık sıfır şeklinde bir Minimum sınıra sahip olmalıdır.
@@ -51,6 +49,7 @@ Bir tutarın önceki bir aralığın Maksimum sınırı ve sonraki aralığın M
 
 ## <a name="example-whole-amount-method-of-calculation"></a>Örnek: Tüm tutar hesaplama yöntemi
 Satış vergisi kod değerleri sayfasında, satış vergisi oranları aşağıdaki aralıklarda ayarlanır:
+
 |                   |                   |              |
 |-------------------|-------------------|--------------|
 | **Minimum sınır** | **Maksimum sınır** | **Vergi oranı** |
@@ -86,7 +85,7 @@ Satış vergisi her tutar aralığı için hesaplanan vergi tutarlarının topla
 | 85,00                  | (50,00 \* 0,30 = 15,00) + (35,00 \* 0,20 = 7,00)                          | 22,00     |
 | 305,00                 | (50,00 \* 0,30 = 15,00) + (50,00 \* 0,20 = 10,00) + (205 \* 0,10 = 20,50) | 45,50     |
 
- 
+
 
 Daha fazla bilgi için bkz. [Marjinal taban ve hesaplama yöntemi alanları temel alınarak satış vergisi oranlarını belirleme](marginal-base-field.md).
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="install-the-retail-pos-layout-designer"></a>Perakende POS düzeni tasarımcısını yükleme
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Tek işlemli tasarımcıyı mağazalar, kayıtlar, kasiyerler ve yöneticiler için Yatay modda veya Dikey Modda farklı Perakende Modern POS (MPOS) ve Bulut POS düzenleri tasarlamak için kullanabilirsiniz.
 

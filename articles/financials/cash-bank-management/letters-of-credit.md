@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit"></a>Kredi mektupları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Kredi mektupları, malların uluslararası alım ve satımı için yaygın olarak kullanılan banka belgelerdir. 
 

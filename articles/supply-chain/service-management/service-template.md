@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="service-templates"></a>Servis şablonları
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Servis sözleşmesini bir şablon olarak tanımlayabilir ve daha sonra şablonun satırlarını başka bir servis sözleşmesine veya servis siparişine kopyalayabilirsiniz.
 

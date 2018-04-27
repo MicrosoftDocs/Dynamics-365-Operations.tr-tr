@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: SysUserSetup
+ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -28,8 +28,7 @@ ms.lasthandoff: 11/20/2017
 
 # <a name="personalize-the-user-experience"></a>Kullanıcı deneyimini kişiselleştirme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda Microsoft Dynamics 365 for Finance and Operations'ı nasıl kişiselleştirebileceğiniz açıklanmaktadır.
 

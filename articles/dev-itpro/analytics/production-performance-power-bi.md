@@ -26,7 +26,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="production-performance-power-bi-content"></a>Üretim performansı Power BI içeriği
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, **Üretim performansı** Microsoft Power BI içeriğinde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 

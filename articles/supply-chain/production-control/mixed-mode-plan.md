@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Karışık mod planlama - Ayrık, işlem ve yalın kaynak birleştirme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, karma mod planlama hakkında bilgi sağlar. Karma mod planlamada, tedarik zincirinizi, madde akışı tabanlı olarak modelleyebilirsiniz. Microsoft Dynamics 365 for Finance and Operations, seçili olan tedarik ilkesi ne olursa olsun malzeme akışının modellerinizi takip ettiğinden emin olur (kanbanlar, üretim emirleri, satınalma emirleri, toplu siparişler veya transfer emirleri). 
 

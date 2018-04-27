@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-a-new-product-lifecycle-state"></a>Yeni ürün yaşam döngüsü durumu oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu prosedürde yeni bir ürün yaşam döngüsü durumunun nasıl oluşturulacağı gösterilmektedir. Ürün yaşam döngüsü durumu, serbest bırakılan bir ürünün veya ürün çeşidinin yaşam döngüsü durumunu belgeler. Ürün yaşam döngüsü durumları genellikle bir ürün yöneticisi veya ürün ana verileri yöneticisi olan bir kullanıcı tarafından tanımlanır. Master planlama gibi belirli iş süreçleri belirli bir yaşam döngüsü durumu tarafından etkilenebilir.
 

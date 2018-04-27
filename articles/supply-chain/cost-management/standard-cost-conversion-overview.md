@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="standard-cost-conversion-overview"></a>Standart maliyet dönüştürme özeti
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede bir standart maliyet dönüştürme işleminin kurulması ve yürütülmesine yardımcı olacak sürecin genel görünümü verilmiştir. Listelenen adımlar bir standart maliyet dönüştürme işlemi için ön koşulları tamamlamanızdan sonra tamamlanacak şekilde açıklanmıştır. 
 

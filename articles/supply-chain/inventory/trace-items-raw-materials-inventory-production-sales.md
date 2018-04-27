@@ -19,17 +19,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 98f5696cd6a279bdf0f8d9026a74e5a9bccd2f13
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Stok, üretim ve satıştaki maddeleri ve hammaddeleri izleme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda, madde izlemesini kullanarak maddelerin veya hammaddelerin üretim ve satış süreçlerinde nerede kullanılmış, kullanılmakta veya kullanılacak olduklarını belirleyebilirsiniz.
 
@@ -129,7 +128,7 @@ Bazı FastTab'ler seçilen düğüme ilişkin ek bilgilere erişim sunar. Örne�
 **Yeni geriye doğru** veya **Yeni ileriye doğru** seçeneğini kullanmak istiyorsanız yeni bir izlemenin yeni bir pencerede görüntülenmesini sağlamak için **Yeni pencerede aç** işlevini kullanmanız gerekir.
 
 ## <a name="can-i-save-the-trace-details"></a>İzleme ayrıntılarını kaydedebilir miyim?
-**Ayrıntılar** sekmesindeki bilgileri Eylem Bölmesinde ****İzleme**** eyleminin altındaki **Dışa aktar** düğmesine tıklayarak bir XML dosyası olarak kaydedebilirsiniz. İzleme ayrıntılarına ek olarak XML dosyası; izleme kriterleri, ana düğüm ve eldeki miktar da dahil edilir. Örneğin, bilgileri bir kalite emrine veya diğer uyum belgelerine eklemek istiyorsanız izleme ayrıntılarını kaydetme özelliği faydalıdır. Dosyanın nereye kaydedildiği belirtebilirsiniz. Dosyayı hemen görüntülemek için **Belgeyi göster** öğesini seçin. **Not:** Sadece görüntülemek isteseniz dahi, dosya her zaman kaydedilir. Varsayılan olarak, XML dosyası bir tarayıcı penceresinde açılır. Ancak dosyaya sağ tıklayıp **Birlikte aç**'ı seçtikten sonra içerikleri görüntülemek için kullanılacak programı seçebilirsiniz.
+<strong>Ayrıntılar</strong> sekmesindeki bilgileri Eylem Bölmesinde *<strong><em>İzleme</em></strong>* eyleminin altındaki <strong>Dışa Aktar</strong> düğmesine tıklayarak bir XML dosyası olarak kaydedebilirsiniz. İzleme ayrıntılarına ek olarak XML dosyası; izleme kriterleri, ana düğüm ve eldeki miktar da dahil edilir. Örneğin, bilgileri bir kalite emrine veya diğer uyum belgelerine eklemek istiyorsanız izleme ayrıntılarını kaydetme özelliği faydalıdır. Dosyanın nereye kaydedildiği belirtebilirsiniz. Dosyayı hemen görüntülemek için <strong>Belgeyi göster</strong> öğesini seçin. <strong>Not:</strong> Sadece görüntülemek isteseniz dahi, dosya her zaman kaydedilir. Varsayılan olarak, XML dosyası bir tarayıcı penceresinde açılır. Ancak dosyaya sağ tıklayıp <strong>Birlikte aç</strong>'ı seçtikten sonra içerikleri görüntülemek için kullanılacak programı seçebilirsiniz.
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>Belirli bir madde veya içerik için bakiyeyi hesaplayabilir miyim?
 Bilgileri özet sayfalarından Microsoft Excel'e aktarabilirsiniz. İlgili sayfada, **Microsoft Office'de aç** simgesine tıklayın ve ardından **Microsoft Excel'e Ver** öğesini seçin. Bu işlev, **Hareketler özeti** sayfasından bir madde veya içerik için toplu bakiye hesaplamak istediğinizde özellikle faydalıdır. **Hareketler özeti** sayfasında, madde veya içeriği ve isteğe bağlı olarak toplu işi filtreleyebilir ve ardından bilgileri Excel'e aktarabilirsiniz. Excel'de, örneğin eldeki miktarı, satılan miktarı ve üretimde kullanılmış olan miktarı izole edebilirsiniz.

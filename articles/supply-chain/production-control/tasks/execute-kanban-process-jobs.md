@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="execute-kanban-process-jobs"></a>Kanban işlem işlerini yürütme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu prosedür, kanban proses işlerinin yürütülmesiyle ilgilidir. İlk iş, beklenen miktar ile tamamlanır ve hiçbir hata alınmaz. İkinci iş bir takım hatalarla tamamlanır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam makine operatörü için hazırlanmıştır.
 

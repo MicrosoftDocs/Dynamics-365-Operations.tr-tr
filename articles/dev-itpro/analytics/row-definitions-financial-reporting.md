@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="row-definitions-in-financial-report-designer"></a>Finansal rapor tasarımcısında satır tanımları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Satır tanımını finansal rapordaki her satırın içeriğini belirten bir rapor bileşeni veya yapı taşıdır. Satır tanımı birden çok şirket tarafından kullanılabilen bir yapı taşı grubu oluşturmak için sütun tanımları, raporlama ağacı tanımları ve rapor tanımları ile birleştirilebilir.
 

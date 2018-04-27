@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-assortments"></a>Ürün çeşitleri ayarlama
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu makalede, bir ürün çeşidinin ne olduğu ve Microsoft Dynamics 365 for Retail'de ürün çeşitlerinin nasıl ayarlandığı açıklanmaktadır.
 

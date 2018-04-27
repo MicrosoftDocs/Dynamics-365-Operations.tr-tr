@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="customer-orders-overview"></a>Müşteri siparişlerine genel bakış
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu konu, Perakende Modern POS (MPOS) içerisindeki müşteri siparişleri hakkında bilgi sağlar. Müşteri siparişleri, özel siparişler olarak da adlandırılır. Bu konu, ilgili parametreler ve hareket akışları hakkında bir tartışma içerir.
 

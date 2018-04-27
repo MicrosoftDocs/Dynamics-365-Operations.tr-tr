@@ -28,8 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="procurement-and-sourcing-overview"></a>Tedarik ve kaynak atama genel özeti
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, Tedarik ve kaynak atama modülündeki kullanılabilir işlevlere genel bakış sağlar.
 
@@ -39,7 +38,7 @@ Tedarik ve kaynak atama, ürün ve hizmet ihtiyacını belirlemeden ürünü sat
 Ürün ve hizmet ihtiyacı *talepler* sonucunda, örneğin bir çalışan bir ürün istediği zaman ortaya çıkabilir. *Ürün katalogları* aralarından seçim yapılabilecek mevcut ürünlerde seçimi yönlendirecek şekilde ayarlanabilir veya henüz katalogda bulunmayan ürünlere yönelik taleplerde bulunulabilir ve satınalma departmanına ürünün nasıl tedarik edilebileceğini düşünme olanağı verilir.  
 
 *Harcama sınırları* harcama talebini sınırlamak için kullanılabilir ve *satınalma iş akışı* sipariş verilmeden önce onay isteme seçeneği ekler. Ayrıca gerektiğinde, bütçe fon tahsisatını belirtmek de mümkündür.  
-  
+
 Tedarik departmanı gerekli ürün ve hizmetler için tedarikçileri belirler ve bunun içinde birden çok potansiyel tedarikçiye gönderilen bir *teklif talebi* de bulunabilir. Talep edilen ürünün teknik özelliklerini paylaşmak mümkündür ve potansiyel satıcılar bu özelliklere uygun bir ürün teslim edip edemeyeceklerini görmek için bu özellikleri görüntüleyebilir. Satıcılar tekliflerini geri gönderir ve sonrasında bu teklifler satınalma departmanı tarafından alışveriş yapmak istedikleri tedarikçiyi seçmeden önce gözden geçirilir.  
 
 Satınalma siparişleri daha kapsamlı bir teklif talebi sürecine alternatif olarak satıcıya bir *satınalma sorgulaması* gönderme seçeneği içerir. Satınalma sorgulaması, fiyatlar, iskontolar ve sipariş teslimat tarihi gibi şartları belirlemeye yardımcı olmak için kullanılabilir. Satıcılar **Satıcı** portalını kullanacak şekilde ayarlanmışsa, satınalma sorgulaması işlevi devre dışı bırakılır. Bunun yerine sipariş **Satıcı** portalında paylaşılır ve bir *onay isteği* gönderildiğinde, satıcı doğrudan sipariş onaylayabilir.  

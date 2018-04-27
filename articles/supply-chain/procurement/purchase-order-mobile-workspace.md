@@ -27,9 +27,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="purchase-order-approval-mobile-workspace"></a>Satınalma siparişi onayı mobil çalışma
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Bu konu, **Satınalma siparişi onayı** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, satınalma siparişlerini görüntülemenizi ve bunları eylemleri kullanarak yanıtlamanızı sağlar. Örneğin, bir satınalma siparişini onaylayabilir veya reddedebilirsiniz.
  

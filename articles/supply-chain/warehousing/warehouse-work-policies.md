@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0c900dc208736f1823be50e8522061406c9f126
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="warehouse-work-policies"></a>Ambar iş ilkeleri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations'taki ambar işi ilkeleri ambar işinin üretimdeki ambar işlemleri tarafından oluşturulup oluşturulmadığını, iş emri türüne, stok yerleşimine ve ürüne dayanarak kontrol eder.
 
@@ -68,14 +67,15 @@ Bu senaryo için bir ambar işi ilkesi yapılandırmayı planlarken, aşağıdak
 
 Bu noktalara göre, ayarlayabileceğiniz iş ilkesine bir örneği aşağıda bulabilirsiniz.
 
-|                                         |                                                       |
-|-----------------------------------------|-------------------------------------------------------|
-|**İş ilkesi adı**<br>                 |**İş emri türleri**<br>                               |
-| Yerine koyma yok - 01     `                    |- Mamul ürünü yerine koy<br>                           |
-|                                         |**Yerleşimler**<br>                                      |
-|                                         |- O1   |                                               |
-|                                         |**Ürünler** <br>                                      |
-|                                         |- SC1                                                  |
+
+|                                       |                                       |
+|---------------------------------------|---------------------------------------|
+| <strong>İş ilkesi adı</strong><br> | <strong>İş emri türleri</strong><br> |
+|         Yerine koyma yok - 01     `          |     - Mamul ürünü yerine koy<br>      |
+|                                       |    <strong>Yerleşimler</strong><br>     |
+|                                       |                 - O1                  |
+|                                       |    <strong>Ürünler</strong> <br>     |
+|                                       |                 - SC1                 |
 
 Aşağıdaki yordamlar bu senaryo için ambar iş ilkesini ayarlama konusunda adım adım yönergeler sağlar. Bir üretim emrinin plaka denetimli olmayan bir konuma tamamlandı olarak nasıl bildirileceğini gösteren örnek bir kurulum da açıklanmıştır.
 
@@ -131,7 +131,7 @@ ADIMLAR (25)
 <tr>
 <td></td>
 <td>3.</td>
-<td>Düzenle'yi tıklatın.</td>
+<td>Düzenle öğesine tıklayın.</td>
 </tr>
 <tr>
 <td></td>
@@ -174,12 +174,12 @@ ADIMLAR (25)
 <tr>
 <td></td>
 <td>5.</td>
-<td>Oluştur öğesine tıklayın.</td>
+<td>Oluştur'a tıklayın.</td>
 </tr>
 <tr>
 <td></td>
 <td>6.</td>
-<td>Eylem Bölmesinde Üretime emri'ne tıklayın.</td>
+<td>Eylem Bölmesinde, Üretim emri öğesine tıklayın.</td>
 </tr>
 <tr>
 <td></td>
@@ -199,7 +199,7 @@ ADIMLAR (25)
 <tr>
 <td></td>
 <td>10.</td>
-<td>Genel sekmesini tıklatın.</td>
+<td>Genel sekmesine tıklayın.</td>
 </tr>
 <tr>
 <td></td>
@@ -209,17 +209,17 @@ ADIMLAR (25)
 <tr>
 <td></td>
 <td>12.</td>
-<td>Tamam'ı tıklatın.</td>
+<td>Tamam'a tıklayın.</td>
 </tr>
 <tr>
 <td></td>
 <td>13.</td>
-<td>Tamamlandı olarak bildir'i tıklatın.</td>
+<td>Tamamlandı olarak bildir öğesine tıklayın.</td>
 </tr>
 <tr>
 <td></td>
 <td>14.</td>
-<td>Genel sekmesini tıklatın.</td>
+<td>Genel sekmesine tıklayın.</td>
 </tr>
 <tr>
 <td></td>

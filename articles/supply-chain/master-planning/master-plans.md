@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-plans"></a>Master planlar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Şirketinizin günlük çalışma faaliyetlerini desteklemek, izlemek istediğiniz farklı planlama stratejilerinin benzetimini gerçekleştirmek ve dahili performans veya müşteri memnuniyetiyle ilgili şirket politikası uygulamak için çeşitli master planlar kullanın. 
 

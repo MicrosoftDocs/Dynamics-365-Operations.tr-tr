@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduction-keys"></a>Azaltma anahtarları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalelerde bir azaltma anahtarının nasıl ayarlanacağını gösteren örnekler verilmiştir. Çeşitli azaltma anahtarı ayarları ve her birinin sonuçları hakkında da bilgiler içerir. Bir zzaltma anahtarını, tahmin gereksinimlerinin nasıl azaltılacağını tanımlamak için kullanabilirsiniz.
 
@@ -39,17 +38,19 @@ Bu makalelerde bir azaltma anahtarının nasıl ayarlanacağını gösteren örn
 
 Bu örnek bir azaltma anahtarının, talep tahmini gereksinimlerini azaltma anahtarı tarafından tanımlanan yüzdelere ve dönemlere göre nasıl azalttığını gösterir.
 
-1.  **Azaltma anahtarları** sayfasında aşağıdaki satırları ayarlayın.
-    | Değiştirme | Birim  | Yüzde |
-    |--------|-------|---------|
-    | 1      | Ay | 100     |
-    | 2      | Ay | 75      |
-    | 3      | Ay | 50      |
-    | 4      | Ay | 25      |
+1. **Azaltma anahtarları** sayfasında aşağıdaki satırları ayarlayın.
 
-2.  Azaltma anahtarını ürünün kapsam grubuna bağlayın.
-3.  **Ana planlar** sayfasında, **Azaltma ilkesi** alanında **Yüzde - azaltma anahtarı**'nı seçin.
-4.  Aylık 1.000 parçalık bir talep tahmini oluşturun.
+   | Değiştirme | Birim  | Yüzde |
+   |--------|-------|---------|
+   |   1    | Ay |   100   |
+   |   2    | Ay |   75    |
+   |   3    | Ay |   50    |
+   |   4    | Ay |   25    |
+
+
+2. Azaltma anahtarını ürünün kapsam grubuna bağlayın.
+3. **Ana planlar** sayfasında, **Azaltma ilkesi** alanında **Yüzde - azaltma anahtarı**'nı seçin.
+4. Aylık 1.000 parçalık bir talep tahmini oluşturun.
 
 Tahmin planını 1 Ocak'ta çalıştırırsanız, talep tahmini gereksinimleri **Azaltma anahtarları** sayfasında ayarladığınız yüzdelere göre tüketilir. Aşağıdaki gereksinim miktarları ana plana transfer edilir.
 
@@ -88,20 +89,21 @@ Aylık 1.000 parçalık aynı talep tahminini kullanıyorsanız, aşağıdaki ge
 ## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Örnek 3: Hareketler dinamik dönem tahmini azaltma ilkesi
 Çoğu durumda, hareketlerin haftalık, aylık ve benzeri tahmin dönemlerinde talep tahminini azaltabilmesi için sistemler ayarlanır. Bu dönemler azaltma anahtarında tanımlanır. Ancak, iki tahmin satırı arasındaki süre bir dönemi*gösterebilir*.
 
-1.  Aşağıdaki tarihler ve miktarlar için bir talep tahmin oluşturun.
-    | Tarih       | Talep tahmini |
-    |------------|-----------------|
-    | 1 Ocak  | 1.000           |
-    | 5 Ocak  | 500             |
-    | 12 Ocak | 1.000           |
+1. Aşağıdaki tarihler ve miktarlar için bir talep tahmin oluşturun.
 
-    Bu tahminde, tahmin tarihleri arasında açıkça bir dönem yoktur: birinci ve ikinci tarihler arasında dört günlük bir süre; ikinci ve üçüncü tarihler arasında yedi günlük bir süre vardır. Bu süre çeşitliliği dinamik periyotları oluşturur.
-2.  Aşağıdaki satış siparişi satırlarını oluşturun.
-    | Tarih                             | Satış siparişi miktarı |
-    |----------------------------------|----------------------|
-    | Önceki yılın 15 Aralık tarihi | 500                  |
-    | 3 Ocak                        | 100                  |
-    | 10 Ocak                       | 200                  |
+   | Tarih       | Talep tahmini |
+   |------------|-----------------|
+   | 1 Ocak  | 1.000           |
+   | 5 Ocak  | 500             |
+   | 12 Ocak | 1.000           |
+
+   Bu tahminde, tahmin tarihleri arasında açıkça bir dönem yoktur: birinci ve ikinci tarihler arasında dört günlük bir süre; ikinci ve üçüncü tarihler arasında yedi günlük bir süre vardır. Bu süre çeşitliliği dinamik periyotları oluşturur.
+2. Aşağıdaki satış siparişi satırlarını oluşturun.
+   | Tarih                             | Satış siparişi miktarı |
+   |----------------------------------|----------------------|
+   | Önceki yılın 15 Aralık tarihi | 500                  |
+   | 3 Ocak                        | 100                  |
+   | 10 Ocak                       | 200                  |
 
 Tahmin aşağıdaki gibi azaltılır:
 

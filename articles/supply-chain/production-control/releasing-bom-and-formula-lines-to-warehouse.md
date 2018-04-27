@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Ürün reçetesi ve formül satırlarını ambara serbest bırakma
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda, ürün reçetesi satırları ve formül satırları için ambara hammadde serbest bırakma süreci açıklanmaktadır. Bir ürün reçetesi veya formül satırını ambara serbest bıraktığınızda, sistem önce malzemenin üretim sürecinde tüketileceği yer alan atölyedeki ürün girişi konumunda halihazırda kullanılabilir olup olmadığını belirler.
 
@@ -44,7 +44,7 @@ Bu konuda, ürün reçetesi satırları ve formül satırları için ambara hamm
 - **Ürün reçetesi veya formül satırlarını bir toplu iş aracılığıyla veya el ile etkileşim olarak serbest bırakma** – Bu yöntemde, ürün reçetesi ve formül satırları yalnızca **Ürün reçetesi ve formül satırlarını otomatik serbest bırakma** toplu işi aracılığıyla veya el ile etkileşim olarak serbest bırakılabilir. Ürün reçetesi ve formül satırlarını el ile serbest bırakmak için, Eylem Bölmesindeki üretim emri liste sayfasında veya üretim emri ayrıntıları sayfasında **Ambar için serbest bırak**'ı seçin.
 
 Ürün reçetesi ve formül satırlarının toplu iş kullanılarak üretime serbest bırakılması hakkında hızlı bir tanıtım için bu kısa YouTube videosunu izleyin:
-[!Video https://www.youtube.com/embed/8urAJn50dQ8]
+[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Ürün reçetesi veya formül satırlarını bir toplu iş kullanarak serbest bırakma
 
@@ -86,7 +86,7 @@ Aşağıdaki örnekte 10 ve 20 şeklinde iki işlemi bulunan bir üretim emri g�
 ![İşlem numarasına göre malzeme serbest bırakma örneği](media/two-operations.PNG)
 
 Malzemeyi mamul malların tutarıyla orantılı olarak serbest bırakma hakkında hızlı bir tanıtım için bu kısa YouTube videosunu izleyin:
-[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
+[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Malzemeyi mamul malların miktarıyla orantılı olarak bırakma
 

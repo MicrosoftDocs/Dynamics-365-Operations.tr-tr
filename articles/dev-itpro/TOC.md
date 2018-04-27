@@ -115,6 +115,7 @@
 ### Yenilikler
 #### [Genişletilebilirlik değişiklikleri Temmuz 2017](extensibility/changes-july-2017.md)
 #### [Genişletilebilirlik değişiklikleri sürüm 7.3](extensibility/extensibility-changes-73.md)
+#### [Genişletilebilirlik değişiklikleri sürüm 8.0](extensibility/changes-80.md)
 ### Temel bilgiler
 #### [Kullanışsız özelleştirmeler](extensibility/intrusive-customizations.md)
 #### [Sınıf uzantıları](extensibility/class-extensions.md)
@@ -382,17 +383,18 @@
 
 ### [Common Data Service'ı kullanarak veri tümleştirmesi](data-entities/data-integration-cds.md) 
 #### [Aday müşteriden nakde senaryosu yapılandırma](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [Finance and Operations'taki ürünleri Sales'teki ürünlerle eşitleme](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-##### [Sales'teki firmaları Finance and Operations'taki müşterilerle eşitleme](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-##### [Sales'teki ilgili kişileri Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [Sales'deki satış teklifi başlıklarını ve satırlarını Finance and Operations'la eşitleme](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-##### [Finance and Operations'daki satış siparişi başlıklarını ve satırlarını Sales ile eşitleme](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-##### [Finance and Operations'daki satış faturası başlıklarını ve satırlarını Sales ile eşitleme](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [Sales'teki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle eşitleme](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [Sales'teki ilgili kişileri doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [Finance and Operations'daki satış siparişi başlıklarını ve satırlarını doğrudan Sales ile eşitleme](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+##### [Sales'teki satış teklifi başlıklarını ve satırlarını doğrudan Finance and Operations ile eşitleme](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ##### [Finance and Operations'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+#### [Field Service ile tümleştirmeyi yapılandırma](../supply-chain/sales-marketing/field-service.md)
+##### [Finance and Operations'taki ürünleri Field Service'daki ürünlerle eşitleme](../supply-chain/sales-marketing/field-service-product.md)
+##### [Field Service'daki iş emirlerini Finance and Operations'taki satış siparişleriyle eşitleme](../supply-chain/sales-marketing/field-service-work-order.md)
+##### [Field Service'daki sözleşme faturalarını Finance and Operations'taki serbest metin faturalarıyla eşitleme](../supply-chain/sales-marketing/field-service-invoice.md)
+
+
 
 ### [Harici web hizmetleri kullanma](data-entities/consume-external-web-service.md)
 
@@ -407,7 +409,9 @@
 ### [Yapılandırma verisi şablonları](data-entities/configuration-data-templates.md)
 ### [Birden çok çalışma sayfasına sahip veri şablonları](data-entities/excel-template-multiple.md)
 ### [Varlık üzerindeki değişiklikleri izleme](data-entities/entity-change-track.md)
+
 ### [Standart veri varlıkları hakkında bilgileri bulma](data-entities/data-entities-report.md)
+
 
 ## [Veri içe ve dışa aktarma işleri](data-entities/data-import-export-job.md)
 
@@ -427,13 +431,18 @@
 
 ## [Kendi veritabanınızı getirme](analytics/export-entities-to-your-own-database.md)
 
+
+## [Veri görevi otomasyonu](data-entities/data-task-automation.md)
+
 ## [Bir GDPR veri isteğine yanıt verme için kaynaklar](gdpr/gdpr-home-page.md)
 ### [Microsoft Dynamics 365 for Finance and Operations için GDPR kılavuzu](gdpr/gdpr-auditing-sensitive-data.md)
+### [Kıymet sınıflandırmaları](gdpr/gdpr-asset-classification-values.md)
 ### [Kişi arama raporunu kullanma](gdpr/gdpr-person-search-report.md)
 ### [Kişi arama raporunu genişletme](gdpr/gdpr-extend-person-search-report.md)
 ### [Hassas verilere erişimi yönetme](gdpr/gdpr-auditing-sensitive-data.md)
 ### [Talent kullanarak kişisel veri isteğini yanıtlama](gdpr/respond-dsr-request-talent.md)
 ### [Microsoft Dynamics AX 2012 kullanarak kişisel veri isteğini yanıtlama](gdpr/gdpr-ax2012.md)
+
 
 # [Sürekli teslimat giriş sayfası](dev-tools/continuous-delivery-home-page.md)
 ## [Geliştirme ve sürekli teslimatla ilgili SSS](dev-tools/continuous-delivery-faq.md)
@@ -527,10 +536,11 @@
 ### [AX 2012 yükseltmesi - Yükseltmeden sonra yapmanız gereken görevler](migration-upgrade/app-validation-process.md)
 ### [AX 2012 yükseltmesi - İşlev testi geçişi](migration-upgrade/upgrade-functional-validation.md)
 ### [AX 2012 yükseltmesi - Canlı yayın için hazırlanma](migration-upgrade/upgrade-go-live-prep.md)
-### [AX 2012 yükseltmesi - Hizmete alma](migration-upgrade/2012-upgrade-cutover.md)
+### [AX 2012 yükseltmesi - Servise alma](migration-upgrade/2012-upgrade-cutover.md)
 
 ### AX 2012'den yükseltmeyi etkileyen değişiklikler
-#### [Tek fiş ve para birimi yeniden değerleme yükseltmesi ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
+#### [Hesap planı ayırıcı benzersiz olmalıdır](migration-upgrade/chart-accounts-delimiter-unique.md)
+#### [Tek fiş ve para birimi yeniden değerleme yükseltmesi](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
 #### [Proje kaynak planlaması veri modeli](migration-upgrade/data-model-changes-resource-management.md)
 #### [İş akışı alt sistemi değişiklikleri](migration-upgrade/workflow-subsystem.md)
 #### [Küplerden toplanan modellere geçme nedenimiz](migration-upgrade/in-memory-real-time-aggregate-models.md)
@@ -569,6 +579,7 @@
 
 # [Sistem yönetimi](sysadmin/system-administration-home-page.md)
 ## [Aylık platform güncelleştirmeleriyle ilgili SSS](sysadmin/faq-platform-monthly-updates.md)
+## [Yönetici erişimine izin vermeyen sanal makinelerle ilgili SSS](sysadmin/VMs-no-admin-access.md)
 ## [Kuruluşunuzun yasal koşullarına ve gizlilik bildirimine bağlantı ekleme](sysadmin/legal-terms-privacy-statement.md)
 ## [Lisans kodları ve yapılandırma anahtarları raporu](sysadmin/license-codes-configuration-keys-report.md)
 ## [Şirketler arası veri paylaşımı](sysadmin/cross-company-data-sharing.md)
@@ -612,6 +623,7 @@
 ## [BPM kitaplığındaki görevleri tamamlama](lifecycle-services/complete-tasks-bpm.md)
 ## [Etkinlik şemaları kullanma](lifecycle-services/using-activity-diagrams.md)
 ## [BPM kitaplığını Visual Studio Team Services (VSTS) ile eşitleme](lifecycle-services/synchronize-bpm-vsts.md)
+## [Görev kılavuzları ve BPM kullanarak bir kabul testi paketi oluşturma](lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
 ## [İş süreci modelleyici akış tabloları](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [Özel iş süreçleri yükleme](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [İzleme ve tanılama](lifecycle-services/monitoring-diagnostics.md)
@@ -620,6 +632,8 @@
 ## [Kıymet kitaplığı](lifecycle-services/asset-library.md)
 ## [Microsoft Dynamics 365 - Çeviri Hizmetine genel bakış](lifecycle-services/translation-service-overview.md)
 ### [Microsoft Dynamics 365 Çeviri Hizmeti kullanıcı kılavuzu  ](lifecycle-services/use-translation-service.md)
+### [Microsoft Dynamics 365 Çeviri Hizmeti - Belge dosyası çevirisi](lifecycle-services/use-translation-service-ua.md)
+### [Microsoft Dynamics 365 Çeviri Hizmeti - Çeviri belleği](lifecycle-services/use-translation-service-tm.md)
 
 ## Dynamics AX 2012 Lifecycle Services özellikleri
 ### Dağıtım

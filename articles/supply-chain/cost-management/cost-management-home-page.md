@@ -3,12 +3,12 @@ title: "Maliyet yönetimi giriş sayfası"
 description: "Maliyet yönetimi, hammaddelerin, yarı mamul malların, mamul malların ve süren iş varlıklarının değerlemesini ve muhasebesini yönetmenizi sağlar."
 author: AndersGirke
 manager: AnnBe
-ms.date: 02/14/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: 
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>Maliyet yönetimi giriş sayfası
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 [Maliyet yönetimi (video)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) hammaddelerin, yarı mamul malların, mamul malların ve süren iş kıymetlerinin değerlemesi ve muhasebesi üzerinde çalışmanızı sağlar. Bu, [Stok muhasebesi](cost-object.md) ve [Üretim muhasebesini](bom-calculations.md) tanımlama, yönetme ve raporlama işlemidir.
 

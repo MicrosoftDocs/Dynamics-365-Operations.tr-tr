@@ -29,8 +29,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="routes-and-operations"></a>Rotalar ve operasyonlar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu rotalar ve operasyonlar hakkında bilgi sağlar. Rota, bir ürün veya ürün çeşidini üretme sürecini tanımlar. Üretim sürecindeki her adımı (operasyonu) ve bu adımların gerçekleştirilmesi gereken sırayı açıklar. Rota her adım için gerekli operasyon kaynaklarını, gerekli hazırlık süresini ve çalışma süresini, maliyetin nasıl hesaplanacağını tanımlar.
 

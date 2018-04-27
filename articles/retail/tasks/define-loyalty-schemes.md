@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="define-loyalty-schemes"></a> Bağlılık şemalarını tanımlama
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordamı bir bağlılık şemasının nasıl tanımlanacağını açıklar. Bağlılık şemaları, bağlılık programına ilişkin ödül kazanma ve kullanma kurallarıdır. Bu yordam, USRT demo veri şirketini kullanır.
 

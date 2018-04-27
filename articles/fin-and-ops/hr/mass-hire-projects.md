@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mass-hire-projects"></a>Toplu işe alma projeleri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Toplu işe alma projeleri, insan kaynakları uzmanlarının çoklu pozisyonlar oluşturmasına ve çalışanları bu pozisyonlar için etkili biçimde işe almasına imkan verir.
 
@@ -94,7 +93,7 @@ Bir toplu işe alma projesi aşağıdaki durumlara sahip olabilir.
 </tbody>
 </table>
 
- 
+
 
 
 

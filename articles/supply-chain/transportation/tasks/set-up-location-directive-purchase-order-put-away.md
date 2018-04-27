@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Satınalma siparişini yerine koyma için yerleşim yönergesi ayarlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, bir basit konum yönergesini kurmayı göstermektedir. Gösterilen örnek, bir satınalma siparişi için alınan maddelerin yerleştirileceği yeri belirlemekte kullanılacak bir konum yönergesini oluşturmayı anlatmaktadır. Bu görev kılavuzunu belirtilen verilerle yürütmek için demo verileri şirketi USMF'yi kullanabilirsiniz. Ön koşullar: Değerlendirme kodu oluşturmanız gerekir. Bu yordamda yeniden etiketleme olarak adlandırılan bir değerlendirme kodunu kullanıyoruz. Kendi verinizde bir konum yönergesi oluşturuyorsanız, ambar ve maddeleriniz için gelişmiş ambar yönetimini ayarlamış olmanız gerekir.  Bu yordam ambar yöneticisi için hazırlanmıştır.
 

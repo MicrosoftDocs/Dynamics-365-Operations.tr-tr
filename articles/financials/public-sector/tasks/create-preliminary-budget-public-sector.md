@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a>Kamu sektörü için ön bütçe oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Belirli bir bütçe modeli ve boyut değerleri için bütçe ön kayıt girişlerini oluşturabilirsiniz. Gerçek bütçe onaylandıktan sonra orijinal bütçe kayıt girişlerini oluşturabilirsiniz. Bu yöntem kamu sektörü bölümündeki PSUS demo şirketinin verileri kullanılarak yaratılmıştır.
 

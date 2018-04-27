@@ -16,16 +16,16 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fc47f6cd9cfe4a850e0959bf89da086ca82f3b69
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="data-import-and-export-jobs"></a>Veri içe ve dışa aktarma işleri
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations'da içe ve dışa aktarma işlerini oluşturmak ve yönetmek için **Veri yönetimi** çalışma alanını kullanırsınız. Varsayılan olarak, veri içe ve dışa aktarma işlemi, hedef veritabanındaki her bir varlık için bir hazırlama tablosu oluşturur. Hazırlama tabloları, taşımadan önce verileri doğrulamanızı, temizlemenizi ve dönüştürmenizi sağlar.
 
@@ -64,13 +64,15 @@ Bir veri içe ve dışa aktarma işi bir veya birden fazla defa çalıştırıla
 Belirli varlıkları bir içe veya dışa aktarma işine ekleyin veya uygulanacak bir şablon seçin. Şablonlar, bir işi varlıkların listesi ile doldurur. **Şablonu Uygula** seçeneği, işe bir ad verdikten ve işi kaydettikten sonra kullanılabilir.
 
 ### <a name="set-the-data-format-for-the-job"></a>İş için veri biçimlerini ayarlayın
-Bir varlık seçtiğinizde, içe veya dışa aktarılacak verinin biçimini seçmelisiniz. **Veri kaynakları kurulumu** kutucuğunu kullanarak biçimleri tanımlayabilirsiniz. Pek çok kuruluş, demo veri kümesinde varsayılan olarak bulunanlardan başlar. Bu biçimlerin bir listesi aşağıda verilmiştir:
+Bir varlık seçtiğinizde, içe veya dışa aktarılacak verinin biçimini seçmelisiniz. **Veri kaynakları kurulumu** kutucuğunu kullanarak biçimleri tanımlayabilirsiniz. Bir veri kaynağı biçimi **Tür**, **Dosya biçimi**, **Satır sınırlayıcı** ve **Sütun sınırlayıcı**'nin birleşimidir. Başka öznitelikler de vardır, ancak bunlar anlamanız gereken temel özniteliklerdir. Aşağıdaki tabloda geçerli bileşimler listelenmiştir.
 
-- AX (Microsoft Dynamics 365 for Finance and Operations için kullanılanla aynı biçimde içe veya dışa aktarılması gereken veriler için)
-- ColonSeparated
-- CSV
-- Excel
-- Paket
+| **Dosya Biçimi**        | **Satır/Sütun sınırlayıcı**                   | **XML Stili**             |
+|------------------------|--------------------------------------------|---------------------------|
+| Excel                  | Excel                                      | \-Yok-                     |
+| XML                    | \-Yok-                                      | XML- XML Öğesi-Öznitelik |
+| Sınırlandırılmış, sabit genişlik | Virgül, noktalı virgül, sekme, dikey çubuk, iki nokta üst üste | \-Yok-                     |
+
+
 
 ### <a name="sequence-the-entities"></a>Varlıkları sıralayın
 Varlıklar bir veri şablonunda veya içe veya dışa aktarma işlerinde sıralanabilir. Birden fazla veri varlığı içeren bir iş çalıştırdığınızda, veri varlıklarının doğru sıralandığından emin olmanız gerekir. Öncelikli olarka, varlıklar arasında işlevsel bağımlılıkları adreslendirebilmek için varlıkları sıralarsınız. Varlıklar işlevsel bağımlılıklara sahip değilse, paralel içe veya dışa aktarma için zamanlanabilirler.

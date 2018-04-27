@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="enable-the-payroll-process-for-time-and-attendance"></a>Personel saat ve işe devam için bordro işlemini etkinleştirme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordamda, saat ve işe devam için bordro işleminin nasıl etkinleştirileceği gösterilir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

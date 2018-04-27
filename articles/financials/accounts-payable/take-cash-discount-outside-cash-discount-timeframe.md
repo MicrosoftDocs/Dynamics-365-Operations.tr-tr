@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Nakit iskonto döneminin dışında bir nakit iskontosu almak
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, bir nakit indiriminin ödeme nakit indirimi periyodu dışında yapılsa bile nasıl alınabileceğini gösteren iki senaryo verilmiştir.
 

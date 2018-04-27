@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-a-customer-loyalty-program"></a>Müşteri bağlılık programı ayarlama
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu makalede bir bağlılık programının nasıl oluşturulacağı açıklamaktadır. Bağlılık programları, müşterileri perakende mağazalarınızdan ürün satın aldığı için ödüllendirerek müşteri bağlılığını artırmanıza yardımcı olabilir. Microsoft Dynamics 365 for Retail'de, herhangi bir perakende kanalındaki tüzel kişiliklerinize uygulanan basit veya karmaşık bağlılık programları ayarlayabilirsiniz.
 

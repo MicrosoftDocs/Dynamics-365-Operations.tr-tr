@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-tag-counting"></a>Stok etiket sayımı
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Bu makalede, ambardaki mevcut içeriği eldeki stokla karşılaştırmak için kullanabileceğiniz etiket sayımı hakkında bilgiler verilmektedir.
 

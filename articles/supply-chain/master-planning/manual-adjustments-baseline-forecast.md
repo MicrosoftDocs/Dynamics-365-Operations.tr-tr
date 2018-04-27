@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Temel tahminde manüel ayarlamalar yapma
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda bir temel tahminde manüel ayarlamalar yapma ve tahminin ayrıntılarını görüntüleme yolları açıklanmıştır. 
 

@@ -29,10 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="lifo-date-with-physical-value-and-marking"></a>Fiziksel değer ve işaretleme ile LIFO Tarihi
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Son giren ilk çıkar Tarihi (LIFO Tarihi), LIFO ilkesine dayanan bir stok modelidir. Stok çıkışları, stok hareketinin tarihine dayalı olarak son son girişlerine göre kapatılır. LIFO Tarihini kullanarak, çıkıştan önce hiçbir giriş yoksa, çıkış, çıkış tarihinden sonraki tüm girişlere karşılık olarak kapatılır. Aynı tarihteki birkaç çıkış son çıkış, son giriş sırasıyla kapatılabilir. 
 
@@ -66,16 +65,16 @@ Aşağıdaki çizimde **Fiziksel değeri dahil et** seçeneği kullanılmadığ�
 
 **Diyagramın anahtarı**
 
--   Stok hareketleri dikey oklarla temsil edilir.
--   Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
--   Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
--   Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
--   Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
--   Parantezler içinde gösterilmeyen bir stok hareketi değeri, stok hareketinin stoka mali olarak nakledildiğini gösterir.
--   Her yeni giriş veya çıkış hareketi yeni bir etiketle gösterilir.
--   Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki stok hareket nakillerinin sırasını belirtir.
--   Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve *Stok Kapanışı* etiketiyle temsil edilir.
--   Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden kesikli kırmızı oklarla temsil edilir.
+- Stok hareketleri dikey oklarla temsil edilir.
+- Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
+- Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
+- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
+- Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
+- Parantezler içinde gösterilmeyen bir stok hareketi değeri, stok hareketinin stoka mali olarak nakledildiğini gösterir.
+- Her yeni giriş veya çıkış hareketi yeni bir etiketle gösterilir.
+- Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki stok hareket nakillerinin sırasını belirtir.
+- Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve *Stok Kapanışı* etiketiyle temsil edilir.
+- Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden kesikli kırmızı oklarla temsil edilir.
 
 ## <a name="lifo-date-with-the-include-physical-value-option"></a>Fiziksel değeri dahil et seçeneği kullanılarak LIFO Tarihi
 **Madde model grubu** sayfasındaki bir madde için **Fiziksel değeri dahil et** onay kutusunu seçebilirsiniz. Bu durumda, sistem cari ortalama maliyet fiyatını hesaplamak için hem fiziksel hem de mali olarak güncelleştirilen hareketleri kullanır. Uygun olan yerlerde sistem, fiziksel olarak güncelleştirilmiş çıkış hareketinde düzeltmeler de yapar. **Fiziksel değeri dahil et** seçim kutusunun onay işareti kaldırıldığında, LIFO Tarihi stok modeli ile stok kapanışı yalnızca mali olarak güncelleştirilen hareketlerde kapatmalar yapar. 
@@ -101,16 +100,16 @@ Aşağıdaki çizimde **Fiziksel değeri dahil et** seçeneği kullanıldığın
 
 **Diyagramın anahtarı**
 
--   Stok hareketleri dikey oklarla temsil edilir.
--   Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
--   Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
--   Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
--   Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
--   Parantezler içinde gösterilmeyen bir stok hareketi değeri, stok hareketinin stoka mali olarak nakledildiğini gösterir.
--   Her yeni giriş veya çıkış hareketi yeni bir etiketle gösterilir.
--   Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki stok hareket nakillerinin sırasını belirtir.
--   Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve *Stok Kapanışı* etiketiyle temsil edilir.
--   Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden kesikli kırmızı oklarla temsil edilir.
+- Stok hareketleri dikey oklarla temsil edilir.
+- Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
+- Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
+- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
+- Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
+- Parantezler içinde gösterilmeyen bir stok hareketi değeri, stok hareketinin stoka mali olarak nakledildiğini gösterir.
+- Her yeni giriş veya çıkış hareketi yeni bir etiketle gösterilir.
+- Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki stok hareket nakillerinin sırasını belirtir.
+- Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve *Stok Kapanışı* etiketiyle temsil edilir.
+- Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden kesikli kırmızı oklarla temsil edilir.
 
 ## <a name="lifo-date-with-marking"></a>İşaretleme kullanılarak LIFO Tarihi
 İşaretleme bir hareket giriş hareketini bağlamanıza, işaretlemenize veya vermenize olanak sağlayan bir işlemdir. İşaretleme bir hareket nakledilmeden önce veya nakledildikten sonra gerçekleşebilir. İşaretlemeyi, hareket deftere nakledildiğinde veya stok kapanışı gerçekleştirildiğinde stokun tam maliyetinden emin olmak istediğinizde kullanabilirsiniz. 
@@ -147,16 +146,16 @@ Aşağıdaki çizimde, çıkışlar ve girişler arasında işaretleme kullanıl
 
 **Diyagramın anahtarı**
 
--   Stok hareketleri dikey oklarla temsil edilir.
--   Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
--   Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
--   Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
--   Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
--   Parantezler içinde gösterilmeyen bir stok hareketi değeri, stok hareketinin stoka mali olarak nakledildiğini gösterir.
--   Her yeni giriş veya çıkış hareketi yeni bir etiketle gösterilir.
--   Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki stok hareket nakillerinin sırasını belirtir.
--   Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve *Stok Kapanışı* etiketiyle temsil edilir.
--   Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden kesikli kırmızı oklarla temsil edilir.
+- Stok hareketleri dikey oklarla temsil edilir.
+- Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
+- Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
+- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
+- Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
+- Parantezler içinde gösterilmeyen bir stok hareketi değeri, stok hareketinin stoka mali olarak nakledildiğini gösterir.
+- Her yeni giriş veya çıkış hareketi yeni bir etiketle gösterilir.
+- Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki stok hareket nakillerinin sırasını belirtir.
+- Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve *Stok Kapanışı* etiketiyle temsil edilir.
+- Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden kesikli kırmızı oklarla temsil edilir.
 
 
 

@@ -18,29 +18,29 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 27c03f7bd61ee7d4cb1d01f04af2f1821e9988e1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 93333757995c874c2cf03514acff28a54ae7f787
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="enter-payroll-beginning-balances"></a>Bordro başlangıç bakiyelerini girin
 
-[!include[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 Bu konu kazanç kodları, kesintiler, kazançlar ve vergiler girmek için gerekli adımları anlatır. Bu bilgiler, veriyi bir sistemden yeni bir Bordro uygulama sistemine taşıması veya aktaran ortaklar için kullanışlıdır. Bordro bakiyelerini girmeye hazırlanmak için aşağıdaki bilgileri doğrularız:
 
 > * Personel kayıtlarının sisteme girilmiş ve kullanılabilir olması
 > * Aşağıdaki verinin personele ayarlanmış ve atanmış olması:
-
+> 
 > > * Ödeme döngüleri ve ödeme dönemleri
 > > * Kazanç kodları
 > > * Vergiler
 > > * Kazançlar ve kesintiler
-
+> 
 > * Şirket, bordro başlangıç bakiyelerinin ayarlanabileceği bir tarih seçmiş olmalıdır.
-
+> 
 > * Bilgi, tüm kazançlardan, kazanç/kesintilerden, kazanç katkılarından, personel vergilerinden ve işveren vergileriyle onların eski sistemden YTD tutarlarından toplanmıştır.
 
 Başlangıç bakiyelerini girmeyi planladığınızda, verinin ne kadar ayrıntılı olması gerektiğini göz önünde bulundurun. Çoğu işletme tek bir birleştirilmiş yılbaşından bugüne tutarını girer Ancak, daha ayrıntılı bilgi gerekiyorsa, bakiyeler üç aylık aralıklarla girilebilir. Gerekli olan ayrıntı seviyesine karar vermek, her bir çalışan için kaç adet el ile ödeme ekstresinin oluşturulması gerektiğini belirler. Tek bir yılbaşından bugüne tutarı için her bir çalışana yalnızca bir el ile ekstre gereklidir. Bunu yapmak için önceki sistemden son ödeme ekstresinin yılbaşından bugüne tutarını, yeni bordro sisteminde girilen tutar olarak kullanın.
@@ -128,22 +128,22 @@ Başlangıç bakiyelerine sahip ödeme ekstreleri oluşturduktan sonra, ödeme e
 
 4. **Kazanç kesintileri** sekmesini açın ve aşağıdakini girin:
 
-| Alan                           | Değer            |
-|---------------------------------|------------------|
-| Kazanç                         | Kesinti tutarı |
-| 401K | Katıl              | 3000,00          |
-| Diş | SubSp                  | 495.00           |
-| Dep bakım harcaması | Katıl | 2500,00          |
-| Görme | SupSp                  | 500.00           |
+|       Alan       |      Değer       |
+|-------------------|------------------|
+|      Kazanç      | Kesinti tutarı |
+|       401K        |   Katıl    |
+|      Diş       |      SubSp       |
+| Dep bakım harcaması |   Katıl    |
+|      Görme       |      SupSp       |
 
 5. **Kazanç katkıları** sekmesinde aşağıdakileri girin:
 
-| Alan              | Değer               |
-|--------------------|---------------------|
-| Kazanç            | Katkı tutarı |
-| 401K | Katıl | 3000,00             |
-| Diş | SubSp     | 495.00              |
-| Görme | SubSp     | 500.00              |
+|  Alan  |        Değer        |
+|---------|---------------------|
+| Kazanç | Katkı tutarı |
+|  401K   |     Katıl     |
+| Diş  |        SubSp        |
+| Görme  |        SubSp        |
 
 6. **Vergi kesintileri** sekmesinde aşağıdakileri girin:
 
@@ -156,8 +156,8 @@ Başlangıç bakiyelerine sahip ödeme ekstreleri oluşturduktan sonra, ödeme e
 7. **Vergi katkıları** sekmesinde aşağıdakileri girin:
 
 8. **Hesapla** üzerine tıklayın.
-> [!IMPORTANT] 
-> Çalışan için ödeme ekstresi toplamlarının eski sistemin YTD'si ile eşleştiğini doğrulayın. Tüm ödeme ekstrelerinin toplamında bazı genel doğrulamalar gerçekleştirmek için sonraki adımda sonlandırmayı bekletmek isteyebilirsiniz. Doğrulandıktan sonra, tüm ödeme ekstreleri arasında çalıştırın ve onları sonlandırın.
+   > [!IMPORTANT] 
+   > Çalışan için ödeme ekstresi toplamlarının eski sistemin YTD'si ile eşleştiğini doğrulayın. Tüm ödeme ekstrelerinin toplamında bazı genel doğrulamalar gerçekleştirmek için sonraki adımda sonlandırmayı bekletmek isteyebilirsiniz. Doğrulandıktan sonra, tüm ödeme ekstreleri arasında çalıştırın ve onları sonlandırın.
 
 Aynı işlem gerek duyulursa, yıl içerisindeki tüm önceki çeyrekler için üç aylık aralıklarla yapılabilir. Bu yalnızca müşterinin eski sisteme geri gitmeden veriyi üç alık olarak görmesi gerekiyorsa gereklidir.
 

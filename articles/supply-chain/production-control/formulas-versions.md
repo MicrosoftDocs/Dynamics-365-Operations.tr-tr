@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="formulas-and-formula-versions"></a>Formüller ve formül sürümleri
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Malzemeleri, içerikleri ve işlem üretimindeki belirli bir işlemin sonucunu tanımlayan bir formül. Buna karşılık gelen yol ile birlikte, formül işlem üretimindeki tüm işlemi tanımlar. Formüller işlem üretiminde ürünleri planlamak ve üretmek için kullanılır.
 

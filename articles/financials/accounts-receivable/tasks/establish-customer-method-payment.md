@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="establish-customer-method-of-payment"></a>Müşteri ödeme yöntemi oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Müşteri ödemeleri için bir ödeme yöntemi oluşturun. Bu görevde USMF demo şirketi kullanılmaktadır.
 

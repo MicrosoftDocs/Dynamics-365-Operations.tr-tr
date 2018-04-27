@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="procurement-catalogs"></a>Tedarik katalogları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede yüksek bir düzeyde, satın alma uzmanlarının satın alma kataloglarını nasıl kurabilecekleri ve tutabilecekleri açıklanmıştır. Tedarik katalogları, şirket çalışanlarının şirket içi kullanım için sipariş edebileceği maddeleri ve hizmetleri tanımlar.
 

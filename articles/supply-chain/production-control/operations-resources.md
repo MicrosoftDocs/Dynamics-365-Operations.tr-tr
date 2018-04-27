@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: WrkCtrCapability
+ms.search.form: OpResLifecycleManagementWorkspace, WrkCtrCapability
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-resources"></a>Operations kaynakları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Operasyon kaynakları, bir projenin veya bir üretim işleminin etkinliklerini gerçekleştirir. Bunlar farklı türlerde, farklı yeteneklere sahip olabilir. 
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-templates-for-excel"></a>Excel'de bütçe planlama şablonları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu bütçe planlamalarında kullanılabilecek Microsoft Excel şablonlarının nasıl oluşturulacağını açıklar.
 
@@ -42,11 +41,11 @@ Bütçe planlama belgeleri bir veya daha fazla düzen kullanılarak görüntüle
 1. **Bütçe planları listesini** (**Bütçeleme** &gt; **Bütçe planları**) açın. 
 2. Yeni bir bütçe plan belgesi oluşturmak için **Yeni** üzerine tıklayın. 
 
-  [![Bütçe planları listesi](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+   [![Bütçe planları listesi](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 3. Satır eklemek için **Ekle** seçeneğini kullanın. Bütçe planı belge düzeni yapılandırmasını görüntülemek için **Düzenler** üzerine tıklayın. 
 
-  [![Bütçe planları ekle](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+   [![Bütçe planları ekle](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
 Düzen yapılandırmasını gözden geçirebilir ve gerektiği gibi ayarlayabilirsiniz. 
 1. **Şablon** &gt; **Oluştur** üzerine giderek bu düzen için bir Excel dosyası oluşturun. 

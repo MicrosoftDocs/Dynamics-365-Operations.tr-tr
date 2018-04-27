@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Aralığa sahip faiz kodu oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Faiz kodları değer aralığına göre farklı faiz tutarlarını hesaplayacak şekilde ayarlanabilir. Bu yordam, bir faiz kodunun nasıl ekleneceğini ve ona nasıl bir aralık ekleneceğini gösterir.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="set-up-rules-and-parameters-for-cross-docking-and-buyers-push"></a> Çapraz sevk ve merkezi alım için kurallar ve parametreler ayarlama
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam, Stok yenileme kuralları oluşturmak için gereken adımları gösterir. Stok yenileme kuralları, Çapraz sevk ve Merkezi alım kullanırken ürünlerin mağazalara nasıl dağıtıldığını denetlemek için kullanılabilir. Stok yenileme kuralları, mağazalar veya mağaza grupları için ayarlanabilir. Kuraldaki her satır için tanımlanan ağırlık, Çapraz sevk veya Merkezi alımda dağıtım yöntemi olarak Stok yenilene kuralları kullanıldığında ürünlerin mağazalar arasında nasıl dağıtılacağını kontrol eder. Bu yordam, USRT demo şirketini kullanır.
 

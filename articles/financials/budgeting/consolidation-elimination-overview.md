@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="consolidation-and-elimination-overview"></a>Birleştirme ve elemeye genel bakış
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale konsolidasyon ve eleme işlemleri hakkında genel bilgi sağlar. Sık sorulan bazı soruların yanıtlarını içerir.
 

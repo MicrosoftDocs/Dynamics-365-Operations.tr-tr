@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a>Mevcut bir formül sürümünden ortak ürünler kopyalama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, size ortak ürünleri bir formül sürümünden sevk edilen bir ürün için farklı bir formül sürümüne nasıl kopyalayacağınızı gösterir. Ortak ürünlerle ilişkili en az bir formül sürümü bulunması önkoşulu vardır. Bu yordamı oluşturmak için kullanılan demo verisi şirketi USP2'dir.
 

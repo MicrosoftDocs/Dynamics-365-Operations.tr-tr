@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-fraud-alerts"></a>Sahtekarlık uyarılarını ayarlama
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu konuda, potansiyel sahte satış siparişlerini daha fazla incelenmek üzere beklemeye almak için nasıl ölçütler ve kurallar ayarlayacağınız açıklanmaktadır. Sahtekarlık inceleme işlevi, bir satış siparişindeki bilgilerin geçerliliğini belirlemek için kullanılır. Satış siparişindeki bilgiler kuruluşun sahtekarlık ölçütlerine ve kurallarına göre şüpheli görünüyorsa, sipariş yönetici tarafından incelenmek üzere beklemeye alınabilir.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="excel-templates-with-multiple-worksheets"></a>Birden çok çalışma sayfası içeren Excel şablonları
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations'da veri yönetimi veri varlıkları için Microsoft Excel tabanlı şablonları destekler. Bu şablonlar, bir veya daha fazla çalışma sayfası içerebilir. Birden çok çalışma sayfası içeren şablonlar genellikle verileri tek bir dosyada yönetmek ve dosyayı birden çok veri varlığına aktarmak uygun olduğunda kullanılır. Tesisler ve ambarlar bir örnek olabilir.
 

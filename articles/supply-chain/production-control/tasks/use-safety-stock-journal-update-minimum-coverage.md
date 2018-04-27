@@ -23,21 +23,21 @@ ms.contentlocale: tr-tr
 ms.lasthandoff: 09/29/2017
 
 ---
-# Minimum kapsamı güncelleştirmek için emniyet stoku günlüğünü kullanma
+# <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>Minimum kapsamı güncelleştirmek için emniyet stoku günlüğünü kullanma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, geçmiş işlemleri temel alarak minimum kapsam tekliflerinin nasıl hesaplanacağını ve ardından tekliflerle madde kapsamının nasıl güncelleştirileceğini gösterir. Bu işlem emniyet stoku günlüğü kullanılarak yapılır. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu görev, üretim planlamacısına minimum kapsamı korumasında yardım etmeye yönelik olarak tasarlanmıştır.
 
 
-## Yeni bir emniyet stoku günlüğü adı oluşturun.
+## <a name="create-a-new-safety-stock-journal-name"></a>Yeni bir emniyet stoku günlüğü adı oluşturun.
 1. Emniyet stoku günlük adlarına gidin.
 2. Yeni'ye tıklayın.
 3. Ad alanına "Malzeme" yazın.
 4. Açıklama alanına "Malzeme" yazın.
 5. Sayfayı kapatın.
 
-## Emniyet stoku günlüğü adı oluştur
+## <a name="create-a-safety-stock-journal"></a>Emniyet stoku günlüğü adı oluştur
 1. Emniyet stoku hesaplamaya gidin.
 2. Yeni'ye tıklayın.
 3. Ad alanına bir değer girin veya buradan bir değer seçin.
@@ -50,7 +50,7 @@ Bu yordam, geçmiş işlemleri temel alarak minimum kapsam tekliflerinin nasıl 
 7. Tamam'a tıklayın.
     * Bu işlem, stok işlemleri olan boyutlar için satırlar oluşturur.  
 
-## Teklifi hesapla
+## <a name="calculate-proposal"></a>Teklifi hesapla
 1. Teklifi hesapla'ya tıklayın.
 2. Sağlama süresi içinde ortalama stok çıkışını kullan seçeneğini belirleyin.
 3. Çarpım faktörünü 10 olarak ayarlayın.
@@ -58,7 +58,7 @@ Bu yordam, geçmiş işlemleri temel alarak minimum kapsam tekliflerinin nasıl 
 4. Tamam'a tıklayın.
     * M0002 ve M0003'ü bulmak için aşağı kaydırın. Hesaplanan minimum miktar sütununu görüntüleyin.   
 
-## Minimum miktarı güncelleştir
+## <a name="update-minimum-quantity"></a>Minimum miktarı güncelleştir
 1. Yeni minimum miktar alanına bir sayı girin.
     * Hesaplanan minimum miktardaki değer ile eşleşmesi için Yeni minimum miktarı güncelleştirin. Hesaplanan minimum miktar sıfır ise istediğiniz gelecek değerini girebilirsiniz. Örneğin, ambar 12'si olan M0002 için bu alana Hesaplanan minimum miktarı girebilirsiniz.  
 2. Listede, istenen kaydı bulun ve seçin.
@@ -66,7 +66,7 @@ Bu yordam, geçmiş işlemleri temel alarak minimum kapsam tekliflerinin nasıl 
 3. Yeni minimum miktar alanına bir sayı girin.
     * Hesaplanan minimum miktardaki değer ile eşleşmesi için Yeni minimum miktarı güncelleştirin. Hesaplanan minimum miktar sıfır ise istediğiniz gelecek değerini girebilirsiniz.  
 
-## Yeni minimum miktarı gönderin ve sonucu doğrulayın
+## <a name="post-the-new-minimum-quantity-and-validate-the-result"></a>Yeni minimum miktarı gönderin ve sonucu doğrulayın
 1. Deftere Naklet öğesine tıklayın.
 2. Tamam'a tıklayın.
 3. Madde numarası alanındaki bağlantıyı izlemek için tıklayın.

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="procurement-and-sourcing-home-page"></a>Tedarik ve kaynak atama ana sayfası
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda, Tedarik ve kaynak atama için kullanılabilecek yardım konularının ve diğer kaynakların bir listesi verilmektedir.
 

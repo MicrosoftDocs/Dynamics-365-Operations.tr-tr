@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="export-a-letter-of-credit"></a>Kredi mektubunu dışa aktarma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, bir ihracat kredi mektubu sürecini adım adım anlatır.
 

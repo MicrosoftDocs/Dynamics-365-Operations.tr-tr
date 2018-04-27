@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="nonconformance-management"></a>Uygunsuzluk yönetimi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, uygunsuzlukları kullanmak için gereken temel kurulum açıklanmaktadır. Kalite emirleri kullanmak istiyorsanız ek kurulum gereklidir.
 

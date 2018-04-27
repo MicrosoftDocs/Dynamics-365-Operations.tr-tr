@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Tesis kapsamı için master planlama, ambar zorunlu değil
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, site boyutunun kapsam olduğu bir maddenin nasıl planlanacağını anlatır.
 

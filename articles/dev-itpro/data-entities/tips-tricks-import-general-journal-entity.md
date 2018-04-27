@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>Yevmiye defteri varlığını kullanarak fişleri içe aktarmak için en iyi uygulamalar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda, Yevmiye defteri varlığı kullanılarak Yevmiye defterine veri aktarmak için ipuçları verilmektedir.  
 

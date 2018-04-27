@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="vendor-portal-user-security"></a>Satıcı portal kullanıcı güvenliği
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, Satıcı portalını kullanan dış satıcılar için güvenliğin nasıl ayarlanacağını açıklamaktadır. Bu bilgiler, Dynamics AX'in yalnızca Şubat 2016 &amp; Mayıs 2016 sürümleri için geçerlidir.
 

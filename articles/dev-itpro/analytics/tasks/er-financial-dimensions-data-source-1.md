@@ -1,5 +1,5 @@
 --- 
-title: "Elektronik raporlama (ER) için mali boyutları veri kaynağı olarak kullanmak üzere veri modeli tasarlama"
+title: "Mali boyutları bir veri kaynağı olarak kullanmak için veri modeli tasarlama"
 description: "Aşağıdaki adımlar, bir sistem yöneticisinin veya elektronik raporlama geliştiricisinin bir Elektronik raporlama (ER) modelini ER raporları için veri kaynağı olarak mali boyutları kullanacak şekilde nasıl yapılandıracağını açıklamaktadır."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d8a03c4b85666975a7b42d46f3afdd35019e9b93
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3e55eedba1955ae79733afee1a0b3c7072147bb5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="design-data-model-to-use-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için mali boyutları veri kaynağı olarak kullanmak üzere veri modeli tasarlama
+# <a name="design-data-model-to-use-financial-dimensions-as-a-data-source"></a>Mali boyutları bir veri kaynağı olarak kullanmak için veri modeli tasarlama 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Aşağıdaki adımlar, bir sistem yöneticisinin veya elektronik raporlama geliştiricisinin bir Elektronik raporlama (ER) modelini ER raporları için veri kaynağı olarak mali boyutları kullanacak şekilde nasıl yapılandıracağını açıklamaktadır. Bu adımlar tüm şirketlerde gerçekleştirilebilir.
 

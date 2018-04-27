@@ -28,8 +28,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="manage-vendor-collaboration-users"></a>Satıcı iş birliği kullanıcılarını yönetme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, yeni satıcı iş birliği kullanıcıları hazırlama talebinde bulunma ve yeni satıcı iş birliği kişileri ekleme konularını ele alır. 
 
@@ -61,11 +60,11 @@ Kullanıcıyı hazırlamak, devre dışı bırakmak veya güvenlik rollerini de�
 
 Yeni bir kullanıcı hazırlanması için istekte bulunmadan önce ilgili kişinin bir veya daha fazla satıcı hesabında kayıtlı olması gerekir. Yeni bir satıcı iş birliği kullanıcısı isteği oluşturmak için:
 
-1.  **Tüm kişiler** sayfasındaki **Provizyon satıcı kullanıcısı**'na tıklayın.
-2.  Kullanıcının e-posta adresini girin. Bu adres kullanıcı tarafından Finance and Operations'ta oturum açmak için kullanılır. E-posta adresi, Microsoft Azure'da kiracı olarak kayıtlı bir etki alanına aitse hazırlama işleminin başarıyla tamamlanması için e-posta adresi mevcut bir Azure Active Directory (AAD) hesabı olmalıdır. E-posta adresi Microsoft Azure'da kayıtlı bir etki alanına ait değilse hazırlama işleminin bir parçası olarak EKLE hesabı oluşturulur ve yeni kullanıcı bir davet e-postası alır. Finance and Operations kullanıcı kaydı için  @hotmail.com, @gmail.com veya @comcast.net gibi etki alanları olan tüketici e-posta adresleri kullanılamaz.
-3.  Kullanıcının erişimi olması gereken tüm tüzel kişilikler için **Satıcı işbirliği erişimine izin verildi** seçeneğini **Evet** olarak ayarlayın.
-4.  **Kullanıcı rolleri ata** bölümünde, yeni kullanıcının sahip olması gereken güvenlik rolleri için **Ata** onay kutusunu işaretleyin.
-5.  **Gönder**'e tıklayın.
+1. **Tüm kişiler** sayfasındaki **Provizyon satıcı kullanıcısı**'na tıklayın.
+2. Kullanıcının e-posta adresini girin. Bu adres kullanıcı tarafından Finance and Operations'ta oturum açmak için kullanılır. E-posta adresi, Microsoft Azure'da kiracı olarak kayıtlı bir etki alanına aitse hazırlama işleminin başarıyla tamamlanması için e-posta adresi mevcut bir Azure Active Directory (AAD) hesabı olmalıdır. E-posta adresi Microsoft Azure'da kayıtlı bir etki alanına ait değilse hazırlama işleminin bir parçası olarak EKLE hesabı oluşturulur ve yeni kullanıcı bir davet e-postası alır. Finance and Operations kullanıcı kaydı için  @hotmail.com, @gmail.com veya @comcast.net gibi etki alanları olan tüketici e-posta adresleri kullanılamaz.
+3. Kullanıcının erişimi olması gereken tüm tüzel kişilikler için **Satıcı işbirliği erişimine izin verildi** seçeneğini **Evet** olarak ayarlayın.
+4. **Kullanıcı rolleri ata** bölümünde, yeni kullanıcının sahip olması gereken güvenlik rolleri için **Ata** onay kutusunu işaretleyin.
+5. **Gönder**'e tıklayın.
 
 Satıcı kullanıcısı talebi gönderildiğinde, **Satıcı işbirliği erişimine izin verildi** alanı seçilen satıcı hesabı için **Evet** olarak ayarlanır ve kullanıcı talebi iş akışı başlatılır. İş akışının bir parçası olarak, Finance and Operations'ta yeni bir kullanıcı oluşturulur ve güvenlik rolleri atanır. Buna ek olarak, Azure portalı ile etkileşim başlatan ve yeni veya mevcut bir AAD hesabını Finance and Operations kullanıcı hesabı ile ilişkilendiren bir Azure B2B hizmeti etkinleştirilir. Daha fazla bilgi için bkz. [Azure AD B2B işbirliği nedir?](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 

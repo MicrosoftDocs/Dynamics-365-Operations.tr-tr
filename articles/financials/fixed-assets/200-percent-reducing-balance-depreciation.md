@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="200-percent-reducing-balance-depreciation"></a>%200 azalan bakiyeli amortisman
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, yüzde 200 amortisman bilanço azaltma yöntemine genel bakış sunulmuştur.
 
@@ -70,6 +69,7 @@ Amortisman yılı olarak **Mali** seçildiğinde, **Dönem sıklığı** alanın
 -   **Mali dönem**, mali yıl için hesaplanan toplam amortisman tutarını nakleder. Bu tutar, **Mali Takvimler** sayfası üzerinde tanımlanan mali dönemlere tahakkuk edilir.
 
 ## <a name="example-of-200-reducing-balance-depreciation"></a>%200 azalan bakiyeli amortisman örneği
+
 |                                |        |
 |--------------------------------|--------|
 | Alım maliyeti               | 11.000 |

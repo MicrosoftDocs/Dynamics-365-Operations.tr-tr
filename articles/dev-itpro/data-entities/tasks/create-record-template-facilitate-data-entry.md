@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Veri girişini kolaylaştırmak için bir kayıt şablonu oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, sıklıkla kullanılan alan değerlerinin her yeni kayıt için açık olarak girilmesi gerekmeden bir kayıt şablonunun nasıl oluşturulacağını gösterir. Bu yordamda, sabit kıymetlerinize eklenmesi gereken yeni dizüstü bilgisayarlar için yeni bir kayıt oluşturacaksınız. Bu yordamda, USMF örnek şirketi kullanılır.
 

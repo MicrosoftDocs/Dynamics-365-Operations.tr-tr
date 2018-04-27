@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-management-home-page"></a>Mali yönetim giriş sayfası
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 for Finance and Operations'ın mali yönetim özellikleri için yardım konularının ve diğer kaynakların bir listesini sağlar. 
 

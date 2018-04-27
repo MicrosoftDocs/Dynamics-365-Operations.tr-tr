@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e9e66d3c6309c195e076fd86c31aa0adade97394
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3a5b9f98b371dbad9b6b0538e0d9975dc5ed701c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a>İşgücü yeteneklerini iş ihtiyaçlarıyla uyumlu hale getirme
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Çalışanların, başvuranların veya ilgili kişilerin görevlerini etkili şekilde yerine getirmek için sahip olduğu veya sahip olması gereken yetenekleri izleyebilirsiniz. Ayrıca, belirli bir iş için gereken yetenekleri de belirtebilirsiniz.
 
@@ -55,8 +54,8 @@ Belirli türde bir görevi yerine getirmeye uygun nitelikte bir işçi, başvuru
 
 Yetenek eşleştirme profilleri, iş gereksinimlerine doğrudan karşılık gelen nitelikleri taşıyan mevcut çalışanları veya adayları bulmanıza olanak sağlar.  Örneğin, kuruluşunuzdaki bir açık pozisyon için yetenek eşleştirme profili oluşturabilirsiniz. Belirli bir iş için bir profil oluşturarak ve o işteki yetenekleri, eğitimi ve sertifikaları profile kopyalayarak profilde girilen bir veya daha fazla ölçüte uyan çalışanları, başvuranları ve ilgili kişileri hızlıca arayabilir ve bir iş için gereken yeteneklere en uygun adayların listesini görüntüleyebilirsiniz.
 
->**Not** Yalnızca yetenek eşleme aramalarına eklenmek üzere seçilen çalışanlar, başvuranlar ve ilgili kişiler bir yetenek eşleme sonuçları listesinde görüntülenebilir ya da yetenek profiline eklenebilir. Yetenek eşleme aramalarına bir çalışan, başvuran veya ilgili kişi eklemek için **Yetenek eşlemeye dahil et** seçimini aşağıdaki sayfalarda Evet olarak ayarlayın:
-
+> **Not** Yalnızca yetenek eşleme aramalarına eklenmek üzere seçilen çalışanlar, başvuranlar ve ilgili kişiler bir yetenek eşleme sonuçları listesinde görüntülenebilir ya da yetenek profiline eklenebilir. Yetenek eşleme aramalarına bir çalışan, başvuran veya ilgili kişi eklemek için **Yetenek eşlemeye dahil et** seçimini aşağıdaki sayfalarda Evet olarak ayarlayın:
+> 
 > + Çalışan
 > + Çalışan
 > + Başvuran

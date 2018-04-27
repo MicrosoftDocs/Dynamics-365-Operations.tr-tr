@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="travel-requisitions"></a>Seyahat talepleri
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 *Seyahat talebi*, seyahat amacıyla gerçekleşecek giderleri belgeleyen bir kaynaktır. Seyahat talebi gözden geçirilmek üzere gönderilir ve ardından giderleri onaylamak için kullanılabilir.
 

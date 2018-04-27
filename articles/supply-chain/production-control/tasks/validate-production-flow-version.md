@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="validate-a-production-flow-and-version"></a>Üretim akışını ve sürümünü doğrulama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, yalın imalat için yeni bir üretim akışının ve bir ilk sürümün nasıl oluşturulacağını gösterir. Önkoşullar: Yalın imalat için üretim parametreleri ve sınıf zamanı için ölçü birimleri tanımlanmalıdır. Bir Değer akışı ve Üretim grubu tanımlamanız gerekir. Üretim akışları ve faaliyetleri kavramlarını öğrenmek üzere Yalın imalat hakkındaki teknik incelemelere bakın. Bu yordam, demo verilerindeki USMF tüzel kişiliğini referans alır. Ancak, tüzel kişiliklerin Yalın imalat için yapılandırıldığı varsayılarak diğer tüzel kişilikler de kullanılabilir.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="upgrade-budget-planning"></a>Bütçe planlamayı yükselt
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics AX 2012 ve Microsoft Dynamics 365 for Finance and Operations arasında, bütçe planlamada önemli farklar bulunmaktadır. Bazı özellikler yükseltilmemiştir ve bu nedenle yeniden yapılandırma gerektirmektedirler. Bu konu nelerin yeniden yapılandırılması gerektiğin ve yükseltme tamamlandıktan sonra dikkate alınması gereken yeni özellikleri açıklar.  
 
@@ -70,26 +69,27 @@ Yükseltilmiş sistemi nasıl yapılandıracağınızı belirlemeye yardımcı o
 
 ### <a name="define-columns-and-layouts"></a>Sütunları ve düzenleri tanımla
 
-1.  **Bütçe planlama yapılandırması** sayfasında **Sütunlar** sekmesine tıklayın. Güncelleştirmenin parçası olarak, yeni sütunlar bütçe planlama satırlarınıza dayanarak otomatik oluşturulur. Sütunlar artık dinamik tarihler kullanır, bunlarda ise zaman ve yıl, Bütçe planlama işleminde tanımlanan mali yıldan mahsup edilmiştir. **Not:** Yükseltme sırasında performansı artırmak için tüm bütçe döngülerinin mali yıl yerine takvim yılını temsil ettiği var sayılır. Mali yılları kullanıyorsanız, sütunları mali yılları ile doğru bir şekilde eşleştirmek düzenlemeler yapmanız gerekir. Örneğin, aşağıdaki öğeler AX 2012 içinde mevcuttu:
-    -   Bütçe planı senaryoları: Fiili değerler, Temel, Bütçe İsteği, Bütçe Onaylandı
-    -   2017 içindeki tüm senaryolar için Bütçe planı satırları ve hem 2017 hem de 2016 için Fiili değerler
+1. **Bütçe planlama yapılandırması** sayfasında **Sütunlar** sekmesine tıklayın. Güncelleştirmenin parçası olarak, yeni sütunlar bütçe planlama satırlarınıza dayanarak otomatik oluşturulur. Sütunlar artık dinamik tarihler kullanır, bunlarda ise zaman ve yıl, Bütçe planlama işleminde tanımlanan mali yıldan mahsup edilmiştir. **Not:** Yükseltme sırasında performansı artırmak için tüm bütçe döngülerinin mali yıl yerine takvim yılını temsil ettiği var sayılır. Mali yılları kullanıyorsanız, sütunları mali yılları ile doğru bir şekilde eşleştirmek düzenlemeler yapmanız gerekir. Örneğin, aşağıdaki öğeler AX 2012 içinde mevcuttu:
+   -   Bütçe planı senaryoları: Fiili değerler, Temel, Bütçe İsteği, Bütçe Onaylandı
+   -   2017 içindeki tüm senaryolar için Bütçe planı satırları ve hem 2017 hem de 2016 için Fiili değerler
 
-    Aşağıdaki sütunlar Finance and Operations içerisinde oluşturulur:
-    | Sütun adı    | Bütçe planı senaryosu | Sütun dönemi | Yıl denkleştirme |
-    |----------------|----------------------|--------------------|-------------|
-    | Oca Senaryo 1 | Gerçek değerler              | 1                  | 0           |
-    | Oca Senaryo 2 | Temel             | 1                  | 0           |
-    | Oca Senaryo 3 | Bütçe İsteği       | 1                  | 0           |
-    | Oca Senaryo 4 | Bütçe Onaylı      | 1                  | 0           |
-    | Oca Senaryo 5 | Gerçek değerler              | 1                  | -1          |
-    | Şub Senaryo 1 | Gerçek değerler              | 1                  | 0           |
-    | ...            | ...                  | ...                | ...         |
+   Aşağıdaki sütunlar Finance and Operations içerisinde oluşturulur:
 
-    Bu örnekte, **Oca Senaryo 1** olarak adlandırılan bir sütun, Ocak'ta hareketlerin mevcut olduğu en son bütçe planı hareketi için oluşturulur. Verilere sahip her senaryo için benzer bir sütun oluşturulur. Bu yıldaki tüm dönemler için sütunlar mevcut olduğunda, önceki yıllar için sütunlar oluşturulur.
-2.  Sütun adlarını ve açıklamalarını, diğer ayrıntılar da dahil olacak şekilde, ister istemci içerisinde el ile isterseniz de, bütçe planının veri varlığına işaret eden Excel eklentisi içerisinden toplu güncelleştirmeler yaparak. Matris alanlar için daha önce ayarlanmış olan herhangi bir filtre, şimdi sütunlar içinde ayarlanır.
-3.  Yeni bir bütçe planı düzeni oluştur. Bir düzen, Excel ve istemci içerisinde belirecek görünümü tanımlamak için birden fazla sütuna işaret eder. Düzen, ilk önce bir genel muhasebe boyutu setini, hangi mali boyutların girilebileceğini belirlemeniz için belirtmenizi gerektirir. Boyut kümesi belirttikten sonra, **Açıklamalar** üzerine tıklayarak, düzene dahil edilecek boyut açıklamalarını seçin.
-4.  **Düzen öğeleri** hızlı sekmesi üzerinde, her bir satır için bir para birimi, bir açıklama, gelir - gider satırlarının karşılaştırmasını belirleyecek bir bütçe sınıfı gibi meta veri eklemek için **Ekle** üzerine tıklayın. Daha sonra, aynı zaman dönemi için sütunlar ve bu bütçe döngüsüne ve aşamasına uyan senaryolar ekleyin. Bu değişiklikleri istemci içerisinde le ile veya bütçe planı düzeninin öğeler veri varlığına işaret eden Excel eklentisi aracılığıyla yapabilirisiniz.
-5.  Her bir düzen öğesi için sütunun düzenlenebilir olup olmadığını ve sütunun, bu düzen için Excel çalışma kitabında görünüp görünmeyeceğini seçin. **Not:** Geçmiş tarihi planlarımız için, bu işlem için tüm bütçe planı senaryoları için 12 aylık sütunlar gösteren bir düzen tercih edebilirsiniz.
+   | Sütun adı    | Bütçe planı senaryosu | Sütun dönemi | Yıl denkleştirme |
+   |----------------|----------------------|--------------------|-------------|
+   | Oca Senaryo 1 | Gerçek değerler              | 1                  | 0           |
+   | Oca Senaryo 2 | Temel             | 1                  | 0           |
+   | Oca Senaryo 3 | Bütçe İsteği       | 1                  | 0           |
+   | Oca Senaryo 4 | Bütçe Onaylı      | 1                  | 0           |
+   | Oca Senaryo 5 | Gerçek değerler              | 1                  | -1          |
+   | Şub Senaryo 1 | Gerçek değerler              | 1                  | 0           |
+   | ...            | ...                  | ...                | ...         |
+
+   Bu örnekte, **Oca Senaryo 1** olarak adlandırılan bir sütun, Ocak'ta hareketlerin mevcut olduğu en son bütçe planı hareketi için oluşturulur. Verilere sahip her senaryo için benzer bir sütun oluşturulur. Bu yıldaki tüm dönemler için sütunlar mevcut olduğunda, önceki yıllar için sütunlar oluşturulur.
+2. Sütun adlarını ve açıklamalarını, diğer ayrıntılar da dahil olacak şekilde, ister istemci içerisinde el ile isterseniz de, bütçe planının veri varlığına işaret eden Excel eklentisi içerisinden toplu güncelleştirmeler yaparak. Matris alanlar için daha önce ayarlanmış olan herhangi bir filtre, şimdi sütunlar içinde ayarlanır.
+3. Yeni bir bütçe planı düzeni oluştur. Bir düzen, Excel ve istemci içerisinde belirecek görünümü tanımlamak için birden fazla sütuna işaret eder. Düzen, ilk önce bir genel muhasebe boyutu setini, hangi mali boyutların girilebileceğini belirlemeniz için belirtmenizi gerektirir. Boyut kümesi belirttikten sonra, **Açıklamalar** üzerine tıklayarak, düzene dahil edilecek boyut açıklamalarını seçin.
+4. **Düzen öğeleri** hızlı sekmesi üzerinde, her bir satır için bir para birimi, bir açıklama, gelir - gider satırlarının karşılaştırmasını belirleyecek bir bütçe sınıfı gibi meta veri eklemek için **Ekle** üzerine tıklayın. Daha sonra, aynı zaman dönemi için sütunlar ve bu bütçe döngüsüne ve aşamasına uyan senaryolar ekleyin. Bu değişiklikleri istemci içerisinde le ile veya bütçe planı düzeninin öğeler veri varlığına işaret eden Excel eklentisi aracılığıyla yapabilirisiniz.
+5. Her bir düzen öğesi için sütunun düzenlenebilir olup olmadığını ve sütunun, bu düzen için Excel çalışma kitabında görünüp görünmeyeceğini seçin. **Not:** Geçmiş tarihi planlarımız için, bu işlem için tüm bütçe planı senaryoları için 12 aylık sütunlar gösteren bir düzen tercih edebilirsiniz.
 
 ### <a name="update-budget-planning-processes-to-use-the-appropriate-layout-for-each-budget-stage"></a>Her bütçe aşası için uygun düzeni kullanmak için bütçe planlama işlemini güncelleştir
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Birden fazla müşteri veya satıcı kaydına sahip tek bir fiş
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, birden fazla müşteri veya satıcı kaydı içeren tek bir fişi deftere naklettiğinizde olacaklara ilişkin genel bir bakış sağlar. Bu işlevsellik, Microsoft Dynamics 365 for Finance and Operations'ın gelecekteki sürümlerinde durdurulacaktır. Sonuç olarak, kapatma işlemine muhasebe etkisi nedeniyle bu deftere nakletme yöntemini önermiyoruz. 
 
@@ -251,7 +250,7 @@ Bu hareket için istenmeyen sorunlardan kaçınmak için bir fiş kullanmak yeri
 | 001         | Müşteri         | US-008      |                 |           |  75,00     | Genel Muhasebe          | 999999---          |
 | 002         | Satıcı           | 1001        |                 |  75,00    |            | Genel Muhasebe          | 999999---          |
 
- 
+
 
 
 

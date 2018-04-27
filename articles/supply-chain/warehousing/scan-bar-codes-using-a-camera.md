@@ -27,7 +27,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Dynamics 365 for Finance and Operations - Ambarlama'da kamera kullanarak barkod tarama
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda, bir mobil cihazda kamera kullanarak barkodları taramak için Dynamics 365 for Finance and Operations – Ambarlama'nın nasıl kurulacağı açıklanmıştır. 
 

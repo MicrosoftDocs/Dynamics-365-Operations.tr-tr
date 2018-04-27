@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="payment-configurations-for-retail-statements"></a> Perakende ekstreleri için ödeme yapılandırmaları
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam, Perakende ekstrelerinin oluşturulması ve nakledilmesini etkileyen Perakende mağaza ödeme yöntemlerine ilişkin yapılandırmaları gösterir.
 

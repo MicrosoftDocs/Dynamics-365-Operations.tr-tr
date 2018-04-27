@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Maliyet öğesi boyutu üyelerini ortak bir boyut öğeleri kümesine eşleme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Farklı maliyet öğesi boyut üyelerini ortak bir maliyet öğesi boyut üyesi kümesine eşleyerek verileri analiz amacıyla ortak bir biçimde birleştirirsiniz.
 

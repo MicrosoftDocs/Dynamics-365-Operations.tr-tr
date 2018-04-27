@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Tedarik kategorisi hiyerarşisini ayarlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, tedarik kategori hiyerarşisi içinde yeni düğümler oluşturmayı ve satın alma işleminde kullanılacak bir tedarik kategorisi yapılandırmayı gösterir. Bu görevler genellikle Satınalma yöneticisi tarafından yerine getirilir. Bu yordama başlamadan önce tedarik türünde bir kategori hiyerarşisi mevcut olmalıdır. Eğer bir demo verisi şirketi kullanıyorsanız, bu prosedürü USMF şirketinde çalıştırabilirsiniz.
 

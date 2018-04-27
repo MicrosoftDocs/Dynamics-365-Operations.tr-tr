@@ -19,17 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e874d7353e0d9561ca55f313bfb5209299298169
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning-overview"></a>Bütçe planlama genel bakış
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale bütçe planlamayı tanıtır ve bütçe planlamayı yapılandırmanıza ve bütçe planlama süreçleri oluşturmanıza yardımcı olacak bilgileri içerir.
 
@@ -116,18 +115,18 @@ Bütçe planlamada, bütçe planlama satırlarındaki tutarları veya miktarlar�
 
 Tahsisat programları, iş akışının işlenmesi sırasında otomatik olarak bütçe planı satırlarını tahsis eder. Tahsisat işlemlerini **Tahsisat yöntemi** listesinde bulunan, aşağıdaki yöntemlerden herhangi birini kullanarak gerçekleştirebilirsiniz:
 
--   **Dönemler arasında tahsis et** – Bütçe planı satırlarını kaynak bütçe planı senaryosundan hedef senaryodaki dönemler arasında tahsis etmek için bir dönem tahsisat anahtarı kullanırsınız. **Not:** Dönemler arasında tahsisat yapmadan önce mutlaka ****Dönem tahsisat kategorileri**** sayfasında dönem tahsisat anahtarlarını ayarlamanız gerekir.
--   **Boyutlara tahsis et** – Bütçe planı satırları kaynak bütçe planı senaryosundan hedef senaryodaki mali boyutlara tahsis edilir. **Not:** Boyutlara tahsis etmeden önce mutlaka ****Bütçe tahsisat koşulları**** sayfasında bütçe tahsisat koşullarını ayarlamanız gerekir.
--   **Toplama** – Bütçe planı satırları, ilgili bütçe planlarındaki kaynak bütçe planı senaryodan ana bütçe planındaki hedef senaryoya toplanır.
--   **Dağıtma** – Bütçe planı satırları, ana bütçe planındaki kaynak bütçe planı senaryodan ilişkili bütçe planlarındaki hedef senaryoya dağıtılır.
--   **Genel muhasebe tahsisat kurallarını kullan** – Bütçe planı satırları, seçilen genel muhasebe tahsisat kuralına dayalı olarak kaynak bütçe planı hedef senaryoya dağıtılır.
--   **Bütçe planından kopyala** – Tahsisatın kaynağı olarak kullanılmak üzere başka bir bütçe planı seçebilirsiniz.
+- <strong>Dönemler arasında tahsis et</strong> – Bütçe planı satırlarını kaynak bütçe planı senaryosundan hedef senaryodaki dönemler arasında tahsis etmek için bir dönem tahsisat anahtarı kullanırsınız. <strong>Not:</strong> Dönemler arasında tahsisat yapmadan önce mutlaka *<strong><em>Dönem tahsisat kategorileri</em></strong>* sayfasında dönem tahsisat anahtarlarını ayarlamanız gerekir.
+- <strong>Boyutlara tahsis et</strong> – Bütçe planı satırları kaynak bütçe planı senaryosundan hedef senaryodaki mali boyutlara tahsis edilir. <strong>Not:</strong> Boyutlara tahsis etmeden önce mutlaka *<strong><em>Bütçe tahsisat koşulları</em></strong>* sayfasında bütçe tahsisat koşullarını ayarlamanız gerekir.
+- **Toplama** – Bütçe planı satırları, ilgili bütçe planlarındaki kaynak bütçe planı senaryodan ana bütçe planındaki hedef senaryoya toplanır.
+- **Dağıtma** – Bütçe planı satırları, ana bütçe planındaki kaynak bütçe planı senaryodan ilişkili bütçe planlarındaki hedef senaryoya dağıtılır.
+- **Genel muhasebe tahsisat kurallarını kullan** – Bütçe planı satırları, seçilen genel muhasebe tahsisat kuralına dayalı olarak kaynak bütçe planı hedef senaryoya dağıtılır.
+- **Bütçe planından kopyala** – Tahsisatın kaynağı olarak kullanılmak üzere başka bir bütçe planı seçebilirsiniz.
 
 ### <a name="stage-allocations"></a>Aşama tahsisatları
 
 Aşama tahsisatları, iş akışının işlenmesi sırasında bütçe planı satırlarının otomatik olarak atanması için kullanılır. Aşama tahsisatları kullanıldığında hedef senaryodaki bütçe planı satırları, bütçe planını hazırlayan veya gözden geçiren kişinin müdahalesi olmaksızın oluşturulabilir ve değiştirilebilir.
 
-Bir aşama tahsisatı kurduğunuzda, bütçe planlama iş akışını ve aşamasını tahsisat programıyla ilişkilendirirsiniz. Bütçe planlama iş akışı mutlaka ****Bütçe planlama aşama tahsisatı**** otomatik iş akışı görevini kullanan bir Bütçeleme iş akışıyla ilişkilendirilmelidir. İş akışı, belirtilen aşamaya ulaştığında tahsisat otomatik olarak gerçekleşir. Bu otomatik görev yeni bir senaryoda bütçe planı oluşturulması için kullanılabilir. 
+Bir aşama tahsisatı kurduğunuzda, bütçe planlama iş akışını ve aşamasını tahsisat programıyla ilişkilendirirsiniz. Bütçe planlama iş akışı mutlaka *<strong><em>Bütçe planlama aşama tahsisatı</em></strong>* otomatik iş akışı görevini kullanan bir Bütçeleme iş akışıyla ilişkilendirilmelidir. İş akışı, belirtilen aşamaya ulaştığında tahsisat otomatik olarak gerçekleşir. Bu otomatik görev yeni bir senaryoda bütçe planı oluşturulması için kullanılabilir. 
 
 Bu makalenin başında verilen örnek şemada, bir bütçe planındaki tutarların ve genel merkez temel aşamasındaki senaryoların başka bütçe planına ve Satış departmanı Tahmin aşamasındaki senaryolara aktarılması için bir tahsisat gerçekleştirilmektedir. Aşağıdaki şekilde örnek şemanın ilgili bölümü gösterilmiştir.
 

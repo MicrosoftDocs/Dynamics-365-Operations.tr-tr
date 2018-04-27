@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reconcile-freight-in-transportation-management"></a>Navlun taşımacılık yönetiminde mutabakat sağlama
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede navlun mutabakatı işlemi anlatılmaktadır.
 

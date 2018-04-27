@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: d9b61e545067db592545d5fbce7b4315c51a8bf8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a4cfd017fe10bbda6eda0e3a9a045e0832b08753
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer"></a>Formül tasarımcısı
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, formül tasarımcısının, bir ağaç görünümündeki formülleri analiz etmek ve korumak için nasıl kullanılacağını açıklar.
 
@@ -88,7 +88,7 @@ Formül ve rotaya uygulanan filtre, formül tasarımcısının başlığında g�
 </tr>
 <tr class="odd">
 <td>Başlangıç miktarı</td>
-<td>Belirli bir "gelen" miktarı seçerek sürümleri filtreleyin. Bir değer ayarlarsanız farklı formül ve rota sürümleri seçilebilir.</td>
+<td>Belirli bir &quot;başlangıç&quot; miktarı seçerek sürümleri filtreleyin. Bir değer ayarlarsanız farklı formül ve rota sürümleri seçilebilir.</td>
 </tr>
 <tr class="even">
 <td>Yalnızca geçerli olanları göster</td>
@@ -116,8 +116,10 @@ Formül satırlarını veya formülü değiştirmek için **BOM satırları** ve
 ## <a name="configuring-the-tree-view"></a>Ağaç görünümünün yapılandırılması
 Formül tasarımcısının ağaç görünümünde gösterilen bilgileri özelleştirmek için **Kurulum** öğesini tıklayın.
 
-| Alan grubu | Açıklama |
-|-------------|-------------|
-| Ürün reçetesi         | Ağaç görünümünde gösterilen kriterleri seçmek için seçim kutularını kullanın. Formül tasarımcısı seçili ölçütleri her iki sekmenin altında gösterir. |
-| Rota       | Rotalar için gösterilen kriterleri seçmek için seçim kutularını kullanın. |
+
+| Alan grubu |                                                                          Açıklama                                                                          |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     Ürün reçetesi     | Ağaç görünümünde gösterilen kriterleri seçmek için seçim kutularını kullanın. Formül tasarımcısı seçili ölçütleri her iki sekmenin altında gösterir. |
+|    Rota    |                                           Rotalar için gösterilen kriterleri seçmek için seçim kutularını kullanın.                                           |
+
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Yalın imalat için görsel planlama
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, üretim planlayıcısının kanban işleri için üretim planını denetlemek ve en iyi duruma getirmek üzere kullanabileceği Kanban zamanlama panosu hakkında bilgiler sağlar.
 

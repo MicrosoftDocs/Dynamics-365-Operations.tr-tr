@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-delivery-schedule"></a>Teslimat planı oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu prosedür, satış siparişi için teslimat oluşturmayı göstermektedir. Teslimat planı, bir siparişteki veya teklifteki miktarın birden fazla sevkiyatlar halinde teslim edilmesi istendiği zaman kullanılır. Bu prosedürü demo veri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.
 

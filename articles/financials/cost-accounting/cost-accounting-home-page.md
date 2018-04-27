@@ -3,12 +3,12 @@ title: "Maliyet muhasebesi ana sayfası"
 description: "Bu konuda, Maliyet muhasebesi için kullanılabilecek yardım konularının ve diğer kaynakların bir listesi verilmektedir."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 08/20/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
+ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-accounting-home-page"></a>Maliyet muhasebesi ana sayfası
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>Öğrenme haritası 
 
@@ -37,6 +37,7 @@ Aşağıdaki öğrenme haritası, Maliyet muhasebesi modülünün çerçevesini 
 [![Maliyet muhasebesi için öğrenme haritası](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>Hızlı bağlantılar
+
 |      |   |
 |------|---|
 |  [Temel varlıkları yapılandırma (e-öğrenme)](https://mbspartner.microsoft.com/Home) (CustomerSource hesabı gerektirir)  |[Boyut oluştur](cost-elements.md)  |

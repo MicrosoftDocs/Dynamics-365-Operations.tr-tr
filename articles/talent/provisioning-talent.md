@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ba1a3a78d59f3aec91473ba9bb20bda4804ec92e
-ms.openlocfilehash: 0a43f5ff0987ede9f0cb80e5b4854f78e19e329b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b4b54e97bdebc158adc3bc6d57a6661cd536f5fb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent sağlama
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 for Talent için yeni bir üretim ortamı sağlama işlemi adım adım gösterecektir. Bu konuda, Talent'ı bir Bulut Çözümü Sağlayıcısı (CSP) veya kurumsal mimari (EA) sözleşmesi aracılığıyla aldığınız varsayılır. Zaten Talent hizmet planını içeren mevcut bir Microsoft Dynamics 365 lisansınız varsa ve bu konudaki adımları tamamlayamıyorsanız Destek birimine başvurun.
 
@@ -79,12 +79,12 @@ Talent'ı hangi PowerApps ortamına dağıtacağınızı belirlerken aşağıdak
  
     **CD 2.0 Ortamları** CDS 2.0 21 Mart 2018'de genel kullanıma sunulacaktır ancak Talent henüz CDS 2.0'ı desteklememektedir. PowerApps Yönetim merkezinden CDS 2.0 veritabanları oluşturabilir ve görüntüleyebilirsiniz ancak bunları Talent'ta kullanamazsınız. CDS 2.0 Ortamlarını Talent dağıtımlarında kullanma seçeneği ileri bir tarihte kullanılabilir olacaktır.
    
- > [!Note]
- > Yönetim portalında CDS 1.0 ve 2.0 ortamlarını birbirinden ayırmak için bir ortam seçin ve **Ayrıntılar**'a bakın. CD 2.0 ortamlarının tümü "Bu ayarları Dynamics 365 Yönetim Merkezinde yönetebilirsiniz" referansıyla bir örnek sürüme yönlendirir ve Veritabanı sekmesi bulunmaz. 
+   > [!Note]
+   > Yönetim portalında CDS 1.0 ve 2.0 ortamlarını birbirinden ayırmak için bir ortam seçin ve **Ayrıntılar**'a bakın. CD 2.0 ortamlarının tümü "Bu ayarları Dynamics 365 Yönetim Merkezinde yönetebilirsiniz" referansıyla bir örnek sürüme yönlendirir ve Veritabanı sekmesi bulunmaz. 
  
    **Varsayılan Power Apps ortamları** Her kiracıya otomatik olarak varsayılan bir PowerApps ortamı sağlanmasına karşın tüm kiracı kullanıcıların PowerApps ortamına erişimi olduğundan ve kiracılar PowerApps veya Flow tümleştirmelerini test ederken ve keşfederken yanlışlıkla üretim verilerine zarar verebileceklerinden, bu alanların Talent ile kullanılmasını önermiyoruz.
    
-   **Deneme Sürüşü ortamları** ‘TestDrive – alias@domain’ gibi bir ada sahip ortamlar 60 günlük kullanım için oluşturulur ve süre dolduğunda sonlandırılarak ortamınızın otomatik olarak kaldırılmasına neden olur.
+   <strong>Deneme Sürüşü ortamları</strong> ‘TestDrive – alias@domain’ gibi bir ada sahip ortamlar 60 günlük kullanım için oluşturulur ve süre dolduğunda sonlandırılarak ortamınızın otomatik olarak kaldırılmasına neden olur.
    
    **Desteklenmeyen bölgeler** Talent şu anda yalnızca şu bölgelerde desteklenmektedir: Amerika Birleşik Devletleri, Avrupa veya Avustralya.
   
@@ -115,7 +115,7 @@ Komut dosyasını çalıştırmak için aşağıdaki yönergeleri izleyin:
    ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
 
     
-   **EnvironmentName** ortam adınız ile değiştirilmelidir. Bu ad LCS'de görüntülenir ve kullanıcılar kullanılacak Talent ortamını seçerken gösterilir. 
+   **MyNewEnvironment** ortam adınız ile değiştirilmelidir. Bu ad LCS'de görüntülenir ve kullanıcılar kullanılacak Talent ortamını seçerken gösterilir. 
 
    **YourLocation** Talent için desteklenen bölgelerden biriyle değiştirilir: amerika birleşik devletleri, avrupa, avustralya. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="establish-customer-payment-terms"></a>Müşteri ödeme koşulları oluşturma
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu prosedürde bir nakit iskontosu ve vade tarihi kurulumu tanımlanmaktadır. Bu görev kılavuzunda USMF demo şirketi kullanılmaktadır.
 

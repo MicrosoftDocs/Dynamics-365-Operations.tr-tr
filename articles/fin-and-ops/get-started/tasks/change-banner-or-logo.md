@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-banner-or-logo"></a>Başlığı veya logoyu değiştirme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Aşağıdaki yordam, tüzel kişilik için görüntülenen logo ya da başlık resmini güncelleştirmek için sistem yöneticilerinin atabileceği adımları listelemektedir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

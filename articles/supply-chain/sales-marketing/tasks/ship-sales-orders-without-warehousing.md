@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Satış siparişlerini ambarlama olmadan sevk etme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu kılavuz, ürünler müşteriye sevk edildiğinde bir satış siparişinin nasıl güncelleştireceğini açıklamaktadır. Kılavuz, ambar yönetimi (temel veya gelişmiş depolama) için ayarlanmamış olan karşılama akışı için geçerlidir ve bu nedenle ürün çekme işleminin sevkiyat öncesinde kaydedilmesini gerektirmez. Bu yordamı, kendi verilerinizle veya USMF demo verisi şirketin çalıştırabilirsiniz. Her iki durumda da, bu göreve başlamadan önce stoklanmış bir ürünün, 1'den büyük bir miktar ile bir satış siparişini oluşturun. Bir deftere nakil hatasını önlemek için ürünün siparişte seçmiş olduğunuz tesisteki ve ambardaki eldeki miktarının, siparişteki miktarı karşıladığından emin olduğunu kontrol etmeniz gerekir.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="use-a-continuity-program"></a> Süreklilik programı kullanma
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam, süreklilik programının satılmasını ve ilgili satış siparişlerinin işlenmesini gösterir. Bu yordamı tamamlamak için kullanıcının bir çağrı merkezi kullanıcısı olarak ayarlanması gerekir. Bu yordam, USRT demo veri şirketini kullanır.
 

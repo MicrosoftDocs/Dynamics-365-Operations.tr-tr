@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="view-an-expense-report"></a>Gider raporu görüntüle
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Genel muhasebe veya Tedarik ve kaynak atamada hareketleri görüntülemek için bir sorgu çalıştırdığınızda, sorgu çok fazla bilgi döndürebilir. Bu nedenle, aramanızı daraltmak isteyebilirsiniz. Gerekli bilgiyi almak için, bir hareketin göründüğü gider raporunu görmek için hareket üzerinde ayrıntılara inebilirsiniz.
 

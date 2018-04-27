@@ -20,18 +20,18 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69876a9d1daec4e6980728527c784a5404239cc2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec7f1ef643d864a2729642d78d19fc43d5f6a7fb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="weighted-average-with-physical-value-and-marking"></a>Fiziksel değer ve işaretleme ile ağırlıklı ortalama
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Ağırlıklı ortalama, stoktaki çıkışların stok kapanış dönemi sırasında stokta ve önceki dönemdeki eldeki stoklarda girişi yapılan maddelerin ortalama değeri ile değerlendirildiği ortalama ağırlık ilkesine dayanan bir stok modelidir.
 
@@ -74,16 +74,16 @@ Aşağıdaki diyagramda, bu hareketler serisi, Ağırlıklı ortalama stok model
 ![Fiziksel Değeri Dahil Et Seçeneği Kullanılmadan Ağırlıklı Ortalama Doğrudan Kapatma    ](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Diyagram anahtarı**
--   Stok hareketleri dikey oklarla temsil edilir.
--   Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
--   Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
--   Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
--   Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
--   Parantez içinde olmayan bir stok hareketi değeri, stok hareketinin mali olarak stoka nakledildiğini gösterir.
--   Her yeni giriş veya çıkış hareketine yeni bir etiket atanır.
--   Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki hareket nakillerinin sırasını belirtir.
--   Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve Stok Kapanışı etiketiyle temsil edilir.
--   Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden noktalı kırmızı oklarla temsil edilir.
+- Stok hareketleri dikey oklarla temsil edilir.
+- Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
+- Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
+- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
+- Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
+- Parantez içinde olmayan bir stok hareketi değeri, stok hareketinin mali olarak stoka nakledildiğini gösterir.
+- Her yeni giriş veya çıkış hareketine yeni bir etiket atanır.
+- Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki hareket nakillerinin sırasını belirtir.
+- Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve Stok Kapanışı etiketiyle temsil edilir.
+- Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden noktalı kırmızı oklarla temsil edilir.
 
 ## <a name="weighted-average-summarized-settlement-without-the-include-physical-value-option"></a>Fiziksel değeri dahil et seçeneği kullanılmadan ağırlıklı ortalama özetlenmiş kapatma
 Ağırlıklı ortalama, kapanış dönemi dahilindeki tüm girişlerin Ağırlıklı ortalama stok kapanışı denilen bir harekette özetlendiği kapatma ilkesini kullanır. Dönemdeki tüm girişler, yeni oluşturulan stok transfer hareketinin çıkışına karşılık kapatılır. Dönemin tüm çıkışları, yeni stok transfer hareketinin girişine karşılık kapatılır. Eldeki stok, stok kapanışından sonra pozitifse, bu eldeki stok ve stok değeri yeni stok transfer hareketinde (giriş) özetlenir. Eldeki stok, stok kapanışından sonra negatifse, eldeki stok ve stok değeri tam kapatılmamış bireysel çıkışların toplamıdır. Aşağıdaki senaryoda birçok mali olarak güncelleştirilmiş giriş ile bir çıkış deftere nakledilmiştir. 
@@ -108,18 +108,18 @@ Aşağıdaki diyagramda, bu hareketler serisi, Ağırlıklı ortalama stok model
 ![Fiziksel Değeri Dahil Et Seçeneği Kullanılmadan Ağırlıklı Ortalama Özet Kapatma    ](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Diyagram anahtarı**
--   Stok hareketleri dikey oklarla temsil edilir.
--   Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
--   Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
--   Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
--   Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
--   Parantez içinde olmayan bir stok hareketi değeri, stok hareketinin mali olarak stoka nakledildiğini gösterir.
--   Her yeni giriş veya çıkış hareketine yeni bir etiket atanır.
--   Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki hareket nakillerinin sırasını belirtir.
--   Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve Stok Kapanışı etiketiyle temsil edilir.
--   Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden noktalı kırmızı oklarla temsil edilir.
--   Kırmızı oklar, sistem tarafından oluşturulan çıkış hareketine karşılık kapatılmakta olan giriş hareketlerini gösterir.
--   Yeşil ok, orijinal olarak nakledilmiş çıkış hareketinin kapatıldığı sistem tarafından oluşturulmuş mahsup giriş hareketini temsil eder
+- Stok hareketleri dikey oklarla temsil edilir.
+- Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
+- Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
+- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
+- Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
+- Parantez içinde olmayan bir stok hareketi değeri, stok hareketinin mali olarak stoka nakledildiğini gösterir.
+- Her yeni giriş veya çıkış hareketine yeni bir etiket atanır.
+- Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki hareket nakillerinin sırasını belirtir.
+- Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve Stok Kapanışı etiketiyle temsil edilir.
+- Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden noktalı kırmızı oklarla temsil edilir.
+- Kırmızı oklar, sistem tarafından oluşturulan çıkış hareketine karşılık kapatılmakta olan giriş hareketlerini gösterir.
+- Yeşil ok, orijinal olarak nakledilmiş çıkış hareketinin kapatıldığı sistem tarafından oluşturulmuş mahsup giriş hareketini temsil eder
 
 ## <a name="weighted-average-direct-settlement-with-the-include-physical-value-option"></a>Fiziksel değeri dahil et seçeneği ile ağırlıklı ortalama doğrudan kapatma
 Fiziksel değeri dahil et parametresi ağırlıklı ortalama stok modeli ile, ürünün daha eski sürümlerinde olduğundan farklı şekilde çalışır. Madde modeli grubu formunda bir madde için Fiziksel değeri dahil et kutusunu seçin. Ardından sistem tahmini maliyet fiyatını veya cari ortalamayı hesaplarken fiziksel olarak güncelleştirilen girişleri kullanır. Çıkışlar dönem sırasında bu tahmini maliyet fiyatına dayanarak deftere nakledilir. Stok kapanışı sırasında mali olarak güncelleştirilmiş girişler yalnızca ağırlıklı ortalama hesaplamasında hesaba katılır. Ağırlıklı ortalama stok modelini kullanırken aylık bir stok kapanışı öneririz. Bu ağırlıklı ortalama doğrudan kapatma örneğinde, madde modeli grubu fiziksel değeri içerecek şekilde işaretlenmiştir. 
@@ -137,16 +137,16 @@ Aşağıdaki diyagramda, bu hareketler serisi, Ağırlıklı ortalama stok model
 ![Fiziksel Değeri Dahil Et Seçeneği ile Ağırlıklı Ortalama Doğrudan Kapatma](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Diyagram anahtarı**
--   Stok hareketleri dikey oklarla temsil edilir.
--   Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
--   Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
--   Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
--   Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
--   Parantez içinde olmayan bir stok hareketi değeri, stok hareketinin mali olarak stoka nakledildiğini gösterir.
--   Her yeni giriş veya çıkış hareketine yeni bir etiket atanır.
--   Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki hareket nakillerinin sırasını belirtir.
--   Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve Stok Kapanışı etiketiyle temsil edilir.
--   Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden noktalı kırmızı oklarla temsil edilir.
+- Stok hareketleri dikey oklarla temsil edilir.
+- Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
+- Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
+- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
+- Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
+- Parantez içinde olmayan bir stok hareketi değeri, stok hareketinin mali olarak stoka nakledildiğini gösterir.
+- Her yeni giriş veya çıkış hareketine yeni bir etiket atanır.
+- Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki hareket nakillerinin sırasını belirtir.
+- Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve Stok Kapanışı etiketiyle temsil edilir.
+- Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden noktalı kırmızı oklarla temsil edilir.
 
 ## <a name="weighted-average-summarized-settlement-with-the-include-physical-value-option"></a>Fiziksel değeri dahil et seçeneği ile ağırlıklı ortalama özetlenmiş kapatma
 Fiziksel değeri dahil et parametresi, ağırlıklı ortalamayla, daha eski sürümlerdekinden farklı şekilde çalışır. Madde modeli grubu sayfasında bir madde için Fiziksel değeri dahil et kutusunu seçin. Ardından sistem tahmini maliyet fiyatını veya cari ortalamayı hesaplarken fiziksel olarak güncelleştirilen girişleri kullanır. Çıkışlar dönem sırasında bu tahmini maliyet fiyatına dayanarak deftere nakledilir. Stok kapanışı sırasında mali olarak güncelleştirilmiş girişler yalnızca ağırlıklı ortalama hesaplamasında hesaba katılır. Ağırlıklı ortalama stok modelini kullanırken aylık bir stok kapanışı öneririz. Bu ağırlıklı ortalama özetlenmiş kapatma örneğinde, stok modeli grubu fiziksel değeri içerecek şekilde işaretlenmiştir. 
@@ -170,18 +170,18 @@ Aşağıdaki diyagramda, bu hareketler serisi, ağırlıklı ortalama stok model
 ![Fiziksel Değeri Dahil Et Seçeneği ile Ağırlıklı Ortalama Özet Kapatma    ](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Diyagram anahtarı**
--   Stok hareketleri dikey oklarla temsil edilir.
--   Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
--   Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
--   Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
--   Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
--   Parantez içinde olmayan bir stok hareketi değeri, stok hareketinin mali olarak stoka nakledildiğini gösterir.
--   Her yeni giriş veya çıkış hareketine yeni bir etiket atanır.
--   Her dikey ok, 1a gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki hareket nakillerinin sırasını belirtir.
--   Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve Stok Kapanışı etiketiyle temsil edilir.
--   Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden noktalı kırmızı oklarla temsil edilir.
--   Kırmızı oklar, sistem tarafından oluşturulan çıkış hareketine karşılık kapatılmakta olan giriş hareketlerini gösterir.
--   Yeşil ok, orijinal olarak nakledilmiş çıkış hareketinin kapatıldığı sistem tarafından oluşturulmuş mahsup giriş hareketini temsil eder
+- Stok hareketleri dikey oklarla temsil edilir.
+- Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
+- Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
+- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
+- Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
+- Parantez içinde olmayan bir stok hareketi değeri, stok hareketinin mali olarak stoka nakledildiğini gösterir.
+- Her yeni giriş veya çıkış hareketine yeni bir etiket atanır.
+- Her dikey ok, 1a gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki hareket nakillerinin sırasını belirtir.
+- Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve Stok Kapanışı etiketiyle temsil edilir.
+- Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden noktalı kırmızı oklarla temsil edilir.
+- Kırmızı oklar, sistem tarafından oluşturulan çıkış hareketine karşılık kapatılmakta olan giriş hareketlerini gösterir.
+- Yeşil ok, orijinal olarak nakledilmiş çıkış hareketinin kapatıldığı sistem tarafından oluşturulmuş mahsup giriş hareketini temsil eder
 
 ## <a name="weighted-average-with-marking"></a>İşaretleme ile ağırlıklı ortalama
 İşaretleme bir hareket giriş hareketini bağlamanıza, işaretlemenize veya vermenize olanak sağlayan bir işlemdir. İşaretleme bir hareket nakledilmeden önce veya nakledildikten sonra gerçekleşebilir. İşaretlemeyi, hareket deftere nakledildiğinde veya stok kapanışı gerçekleştirildiğinde stokun tam maliyetinden emin olmak istediğinizde kullanabilirsiniz. 
@@ -218,16 +218,16 @@ Aşağıdaki diyagram bu hareketler serisini, işaretleme ile Ağırlıklı orta
 ![İşaretleme ile Ağırlıklı Ortalama    ](./media/weightedaveragewithmarking.gif) 
 
 **Diyagram anahtarı**
--   Stok hareketleri dikey oklarla temsil edilir.
--   Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
--   Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
--   Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar Quantity@Unitprice biçiminde belirtilir.
--   Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
--   Parantez içinde olmayan bir stok hareketi değeri, stok hareketinin mali olarak stoka nakledildiğini gösterir.
--   Her yeni giriş veya çıkış hareketine yeni bir etiket atanır.
--   Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki hareket nakillerinin sırasını belirtir.
--   Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve Stok Kapanışı etiketiyle temsil edilir.
--   Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden noktalı kırmızı oklarla temsil edilir.
+- Stok hareketleri dikey oklarla temsil edilir.
+- Stoka yapılan girişler zaman çizgisinin üzerinde dikey oklarla temsil edilir.
+- Stoktan yapılan çıkışlar zaman çizgisinin altında dikey oklarla temsil edilir.
+- Her dikey okun üstünde (veya altında), stok hareketinin değeri Miktar@"Unitprice" biçiminde belirtilir.
+- Parantezler içinde gösterilen bir stok hareketi değeri, stok hareketinin stoka fiziksel olarak nakledildiğini gösterir.
+- Parantez içinde olmayan bir stok hareketi değeri, stok hareketinin mali olarak stoka nakledildiğini gösterir.
+- Her yeni giriş veya çıkış hareketine yeni bir etiket atanır.
+- Her dikey ok, *1a* gibi bir sıra tanımlayıcısıyla etiketlenir. Tanımlayıcılar, zaman çizgisindeki hareket nakillerinin sırasını belirtir.
+- Stok kapanışları, kırmızı dikey bir kesikli çizgiyle ve Stok Kapanışı etiketiyle temsil edilir.
+- Stok kapanışıyla gerçekleştirilen kapatmalar, bir girişten çıkışa çapraz olarak giden noktalı kırmızı oklarla temsil edilir.
 
 
 

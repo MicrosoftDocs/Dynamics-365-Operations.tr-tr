@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reverse-a-vendor-payment"></a>Satıcı ödemesini tersine çevirme
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede bir ödemenin terse çevrilmesi, silinmesi, geçersiz sayılması ve reddedilmesi arasındaki farklar açıklanmıştır. İlave olarak, bir satıcı çekinin ters çevrilmesi için iki yöntem açıklanmıştır. 
 

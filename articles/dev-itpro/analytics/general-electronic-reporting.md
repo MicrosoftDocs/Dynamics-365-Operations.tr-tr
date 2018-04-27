@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="electronic-reporting-overview"></a>Elektronik raporlamaya genel bakış
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, Elektronik raporlama (ER) aracına genel bakış sağlar. Temel kavramlar, ER'nin desteklediği senaryolar ve çözümün bir parçası olarak tasarlanan ve yayınlanan biçimlerin listesini içermektedir.
 
@@ -287,6 +286,7 @@ ER, LCS'den aktarıla bir bileşenin güncel sürümünden (temel) yeni bir bile
 ER, türetilen bileşenin geçerli taslak sürümünde temel bileşenin en son sürümünün değişikliklerini otomatik olarak benimsemenizi sağlar. Bu işlem *yeniden temelleme*olarak bilinmektedir. Örneğin, LCS'den aktarılan biçimin en son sürümünde kullanılan yeni yasal değişiklik elektronik belgenin bu biçiminin özelleştirilmiş sürümüyle otomatik olarak birleştirilebilir. Otomatik olarak birleştirilemeyen herhangi bir değişiklik çakışma olarak kabul edilir. Bu çakışmalar uygun bileşen için tasarımcı aracında elle çözüm için sunulur. Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Bu biçimin yeni temel sürüm benimsenerek biçimi yükselt** görev kılavuzunu (**7.5.5.3 Al/Değiştirilmiş BT servisi geliştir/çözüm bileşeni (10683)** iş işlemi parçası) oynatın.
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a>Finance and Operations çözümüne teslim edilen ER konfigürasyonları listesi
+
 | Etki alanına özgü veri modeli konfigürasyonları: Başlık | Etki alanı                | Veri modeline dayalı biçim konfigürasyonları: Başlık | Açıklama                                                        |
 |--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | Denetim dosyası modeli                                 | Mali denetim       |                                                   |                                                                    |

@@ -3,7 +3,7 @@
 # [Başlarken](talent-get-started.md)
 ## [Sistem gereksinimleri ve güncelleştirme ilkesi](talent-versions-update-policy.md)
 ## [Microsoft Dynamics 365 for Talent sağlama](provisioning-talent.md)
-## [Bir Talent ortamını kaldırma](remove-test-environment.md)
+## [Bir Talent ortamını kaldırma](remove-talent-environment.md)
 ## [Microsoft Dynamics 365 for Talent Modüler Uygulamaları sağlama](modular-app-tech-faq.md)
 ## [Talent işlevini genişletme](extend-talent-functionality.md)
 
@@ -13,7 +13,8 @@
 ## [Tüzel kişilikler arasında İK parametreleri ayarlama](set-up-hr-parameters-across-legal-entities.md)
 ## [Şirkete özgü İK parametrelerini ayarlama](set-up-company-specific-hr-parameters.md)
 ## [Personel eylemleriyle ilgili SSS](personnel-actions-faq.md)
-## [Personel bilgilerini yönetmek için iş akışını kullanma](workflow-manage-employee-information.md)
+## [İş süreçlerini biçimlendirme](formalize-business-processes.md)
+## [Personel bilgilerini yönetmek için iş akışı kullanma](workflow-manage-employee-information.md)
 ## [İzin ve devamsızlığa genel bakış](leave-absence-overview.md)
 
 # Kuruluşunuzun personelini belirleme

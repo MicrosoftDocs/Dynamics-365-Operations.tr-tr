@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Talep tahminini el ile değiştirme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordamda, bir madde için tahminin nasıl değiştirileceği gösterilmiştir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu kayıt için üretim planlayıcısı içindir. 
 

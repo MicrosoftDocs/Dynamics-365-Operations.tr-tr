@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-control-overview"></a>Maliyet denetimi genel bakışı 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **Maliyet denetimi** çalışma alanı, bir maliyet nesnesini veya maliyet nesneleri dizisi bir boyut içinde veya boyutlar arasında (örneğin, maliyet merkezleri ve ürün grupları) denetlemekten sorumlu yöneticiler için raporlara erişebilmeleri amacıyla merkezi bir noktadır. Çalışma alanındaki raporlar, raporlama için kullanılan verinin tüm kuruluş çapında istikrarlı olabilmesi için tümüyle maliyet muhasebecileri tarafından kontrol edilir.
 

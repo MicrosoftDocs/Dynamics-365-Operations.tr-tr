@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7cd19340c913fcda3fb537162dfbae52b5c8e922
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3d4354316d0c37c6556c0ec3d27a3c62c5afb7b0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="intercompany-invoicing"></a>Şirketlerarası faturalama
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, Microsoft Dynamics 365 for Finance and Operations'ta projeler için şirketlerarası faturalama hakkında bilgiler ve örnekler verilir.
 
@@ -58,20 +57,22 @@ Bu örnekte USSI ödünç veren tüzel kişiliktir ve kaynakları son müşteri 
 
 Bu örnek için FRSI, USSI tüzel kişiliğinde bir müşteri olmalı ve USSI, FRSI tüzel kişiliğinde bir satıcı olmalıdır. Daha sonra iki tüzel kişilik arasında şirketlerarası bir ilişki kurabilirsiniz. Aşağıdaki prosedür her iki tüzel kişiliğin de şirketlerarası faturalamaya katılabilmesi için gereken parametrelerin nasıl ayarlanacağını gösterir.
 
-1.  USSI tüzel kişiliğinde FRSI'yı müşteri olarak ve FRSI tüzel kişiliğinde USSI'yı satıcı olarak ayarlayın. Bu görevin gerektirdiği adımlar için üç giriş noktası vardır.
-    | Adım | Giriş noktası                                                                       | Açıklama   |
-    |------|-----------------------------------------------------------------------------------|------------------|
-    | A:    | USSI'da **Alacak hesapları** &gt; **Müşteriler** &gt; **Tüm müşteriler**'e tıklayın. | FRSI için yeni bir müşteri kaydı oluşturun ve müşteri grubunu seçin.                                                                                  |
-    | B:    | FRSI'da **Borç hesapları** &gt; **Satıcılar** &gt; **Tüm satıcılar**'a tıklayın.        | USSI için yeni bir satıcı kaydı oluşturun ve satıcı grubunu seçin.                                                                                    |
-    | A    | FRSI'da yeni oluşturduğunuz satıcı kaydını açın.                            | Eylem Bölmesinde, **Genel** sekmesindeki **Ayarla** gurubunda **Şirketlerarası**'na tıklayın. **Şirketlerarası** sayfasındaki **Ticari ilişki** sekmesinde **Etkin** kaydırma çubuğunu **Evet** konumuna getirin. **Müşteri şirketi** alanında adım A'da oluşturduğunuz müşteri kaydını seçin. |
+1. USSI tüzel kişiliğinde FRSI'yı müşteri olarak ve FRSI tüzel kişiliğinde USSI'yı satıcı olarak ayarlayın. Bu görevin gerektirdiği adımlar için üç giriş noktası vardır.
 
-2.  **Proje yönetimi ve muhasebe** &gt; **Kurulum** &gt; **Proje yönetimi muhasebe parametreleri** üzerine tıklayın ve sonra **Şirketlerarası** sekmesine tıklayın. Parametreleri ayarlama şekliniz ödünç veren tüzel kişilik veya ödünç alan tüzel kişilik olmanıza göre değişir.
-    -   Ödünç alan tüzel kişilikseniz otomatik olarak oluşturulan ve satıcı faturalarını eşleştirmek için kullanılması gereken tedarik kategorisini seçin.
-    -   Ödünç alan tüzel kişilikseniz her bir ödünç alan tüzel kişilik için her bir hareket türüne ait varsayılan proje kategorisini seçin. Şirketlerarası hareketlerde faturalandırılmış kategori yalnızca ödünç alan tüzel kişilikte varken proje kategorileri vergi yapılandırması için kullanılır. Şirketlerarası hareketler için geliri tahakkuk ettirmeyi seçebilirsiniz. Bu tahakkuk hareketler nakledildiğinde yapılır ve sonra şirketlerarası fatura nakledildiğinde tersine çevrilir.
+   | Adım |                                                       Giriş noktası                                                        |                                                                                                                                                                                               Açıklama                                                                                                                                                                                               |
+   |------|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |  A:   | USSI'da <strong>Alacak hesapları</strong> &gt; <strong>Müşteriler</strong> &gt; <strong>Tüm müşteriler</strong>'e tıklayın. |                                                                                                                                                                  FRSI için yeni bir müşteri kaydı oluşturun ve müşteri grubunu seçin.                                                                                                                                                                  |
+   |  B:   |    FRSI'da <strong>Borç hesapları</strong> &gt; <strong>Satıcılar</strong> &gt; <strong>Tüm satıcılar</strong>'a tıklayın.     |                                                                                                                                                                    USSI için yeni bir satıcı kaydı oluşturun ve satıcı grubunu seçin.                                                                                                                                                                    |
+   |  A   |                                  FRSI'da yeni oluşturduğunuz satıcı kaydını açın.                                  | Eylem Bölmesinde, <strong>Genel</strong> sekmesindeki <strong>Ayarla</strong> gurubunda <strong>Şirketlerarası</strong>'na tıklayın. <strong>Şirketlerarası</strong> sayfasındaki <strong>Ticari ilişki</strong> sekmesinde <strong>Etkin</strong> kaydırma çubuğunu <strong>Evet</strong> konumuna getirin. <strong>Müşteri şirketi</strong> alanında adım A'da oluşturduğunuz müşteri kaydını seçin. |
 
-3.  **Proje yönetimi ve muhasebe** &gt; **Ayar** &gt; **Fiyatlar** &gt; **Transfer fiyatı**'na tıklayın.
-4.  Para birimini, hareket türünü ve transfer fiyatı modelini seçin. Faturada kullanılan para birimi ödünç veren tüzel kişilikte ödünç alan tüzel kişilik için müşteri kaydında yapılandırılan para birimidir. Para birimi transfer fiyat tablosundaki girişleri eşleştirmek için kullanılır.
-5.  **Genel muhasebe** &gt; **Deftere nakil kurulumu** &gt; **Şirketlerarası muhasebe**'ye tıklayın ve USSI ve FRSI için bir ilişki ayarlayın.
+
+2. **Proje yönetimi ve muhasebe** &gt; **Kurulum** &gt; **Proje yönetimi muhasebe parametreleri** üzerine tıklayın ve sonra **Şirketlerarası** sekmesine tıklayın. Parametreleri ayarlama şekliniz ödünç veren tüzel kişilik veya ödünç alan tüzel kişilik olmanıza göre değişir.
+   -   Ödünç alan tüzel kişilikseniz otomatik olarak oluşturulan ve satıcı faturalarını eşleştirmek için kullanılması gereken tedarik kategorisini seçin.
+   -   Ödünç alan tüzel kişilikseniz her bir ödünç alan tüzel kişilik için her bir hareket türüne ait varsayılan proje kategorisini seçin. Şirketlerarası hareketlerde faturalandırılmış kategori yalnızca ödünç alan tüzel kişilikte varken proje kategorileri vergi yapılandırması için kullanılır. Şirketlerarası hareketler için geliri tahakkuk ettirmeyi seçebilirsiniz. Bu tahakkuk hareketler nakledildiğinde yapılır ve sonra şirketlerarası fatura nakledildiğinde tersine çevrilir.
+
+3. **Proje yönetimi ve muhasebe** &gt; **Ayar** &gt; **Fiyatlar** &gt; **Transfer fiyatı**'na tıklayın.
+4. Para birimini, hareket türünü ve transfer fiyatı modelini seçin. Faturada kullanılan para birimi ödünç veren tüzel kişilikte ödünç alan tüzel kişilik için müşteri kaydında yapılandırılan para birimidir. Para birimi transfer fiyat tablosundaki girişleri eşleştirmek için kullanılır.
+5. **Genel muhasebe** &gt; **Deftere nakil kurulumu** &gt; **Şirketlerarası muhasebe**'ye tıklayın ve USSI ve FRSI için bir ilişki ayarlayın.
 
 ## <a name="example-2-create-and-post-an-intercompany-timesheet"></a>Örnek 2: Şirketlerarası zaman çizelgesi oluşturun ve nakledin
 USSI, ödünç veren tüzel kişilik FRSI ödünç alan şirketten gelen bir proje için zaman çizelgesi oluşturmalı ve nakletmelidir. Bu görevin gerektirdiği adımlar için iki giriş noktası vardır.

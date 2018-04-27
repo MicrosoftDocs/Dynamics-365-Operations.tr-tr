@@ -1,5 +1,5 @@
 --- 
-title: "Elektronik raporlama (ER) için uygulama verileri güncelleştirmesiyle belge oluşturma"
+title: "Uygulama verileriyle belgeler oluşturmak için yapılandırmalar tasarlama"
 description: "Bu yordamdaki adımları tamamlamak için ilk önce ER Uygulama veri güncelleştirmesi ile belgeler oluştur (Bölüm 1 - Yapılandırmaları içe aktar) yordamını tamamlamalısınız."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: c724ce3c39ed7097a5a842b44a095628dcdfa131
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad5508ea5807f505b29f2e60a1459c9c22552694
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için uygulama verileri güncelleştirmesiyle belge oluşturma
+# <a name="design-configurations-to-generate-documents-with-application-data"></a>Uygulama verileriyle belgeler oluşturmak için yapılandırmalar tasarlama
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordamdaki adımları tamamlamak için ilk önce ER Uygulama veri güncelleştirmesi ile belgeler oluştur (Bölüm 1: Yapılandırmaları içe aktar) yordamını tamamlamalısınız.
 

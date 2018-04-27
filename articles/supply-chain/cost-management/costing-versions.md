@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="costing-versions"></a>Maliyet sürümleri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, maliyetlendirme sürümleri, bu sürümlerin nasıl sürdürüleceği ve bu sürümlere ekleyebileceğiniz veri türleri hakkında bilgiler verilmektedir. Maliyetlendirme versiyonunun birincil amacı madde, maliyet kategorileri için dolaylı maliyet hesaplama formülleri hakkındaki maliyet kayıtlarını içermektir.
 

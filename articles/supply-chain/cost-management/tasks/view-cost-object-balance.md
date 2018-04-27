@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-cost-object-balance"></a>Maliyet nesnesi bakiyesini görüntüleme
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam maliyet denetleyicisi için hazırlanmıştır.
 

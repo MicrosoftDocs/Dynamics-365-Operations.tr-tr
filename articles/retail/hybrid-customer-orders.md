@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="hybrid-customer-orders"></a>Karma müşteri siparişleri
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Bir karma müşteri siparişi, hem müşteri tarafından mağazadan alınabilecek ürünler içeren hem de daha sonra çekilecek veya sevk edilecek tek bir sipariştir.
 

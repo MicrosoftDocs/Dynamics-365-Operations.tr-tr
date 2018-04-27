@@ -25,7 +25,7 @@ ms.lasthandoff: 02/08/2018
 ---
 
 # <a name="vendor-request-configurations"></a>Satıcı talep konfigürasyonları
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bir satıcı talebini tamamlamak için satıcı ilgili kişisinin aday satıcı kayıt sihirbazını tamamlaması gerekir.
 
@@ -39,12 +39,12 @@ Varsayılan olarak, Satıcı talebi yapılandırmaları formunda bir satıcı ya
 
 Varsayılan yapılandırma için ülke/bölge seçilemez, bu nedenle **Ülke/bölge** bölümü değiştirilemez.
 
-1.  **Tedarik ve kaynak atama** > **Kurulum** > **Satıcılar**'a ve ardından **Satıcı talebi yapılandırmaları**'na tıklayın.
-2.  Listelenen alanların durumunu ayarlamak için **Alanlar** sekmesine tıklayın.
--   Gizli (Görünmez)
--   Görüntülenen (Görünür, ancak zorunlu değildir)
--   Gerekli (Görünür ve zorunlu)
-3.  Metnin sihirbazda görünüp görünmeyeceğini ve aday satıcı kullanıcısının sihirbazda sonraki adıma geçmek için kabul etmesi gereken bir onay olup olmayacağını belirlemek için **İçerik** sekmesine tıklayın. Onay, kullanıcının devam etmek için kabul etmesi gereken tüm hüküm ve koşullar için istenecektir.
+1. **Tedarik ve kaynak atama** > **Kurulum** > **Satıcılar**'a ve ardından **Satıcı talebi yapılandırmaları**'na tıklayın.
+2. Listelenen alanların durumunu ayarlamak için **Alanlar** sekmesine tıklayın.
+3. Gizli (Görünmez)
+4. Görüntülenen (Görünür, ancak zorunlu değildir)
+5. Gerekli (Görünür ve zorunlu)
+6. Metnin sihirbazda görünüp görünmeyeceğini ve aday satıcı kullanıcısının sihirbazda sonraki adıma geçmek için kabul etmesi gereken bir onay olup olmayacağını belirlemek için **İçerik** sekmesine tıklayın. Onay, kullanıcının devam etmek için kabul etmesi gereken tüm hüküm ve koşullar için istenecektir.
 
 Ayrıca, sihirbaz tamamlandığı zaman gösterilecek bir onay iletisi girebilir ve bir veya daha fazla soru formu ekleyebilirsiniz.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-tasks"></a>Servis görevleri  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Servis görevlerini, servis siparişi sırasında tamamlanacak görevleri açıklamak için kullanın.
 Teknisyenler ve müşteriler bu bilgileri görebilir.

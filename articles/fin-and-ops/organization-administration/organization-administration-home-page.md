@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="organization-administration-home-page"></a>Kuruluş yönetimi giriş sayfası
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu yetkili kullanıcıların ve yöneticilerin Microsoft Dynamics 365 for Finance and Operations'ı yapılandırmasına yardımcı olacak içeriğe yönlendirir. Bu içerik onlara sistemi kuruluşunuz ve işiniz için sorunsuz ve etkili çalışmak üzere yapılandırmalarına yardımcı olacaktır.
 
