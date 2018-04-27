@@ -20,17 +20,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c8961d1c62167192fcf32d17c2941b8813ea0629
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 91cc547becfbd0c0d675d87921aed92eb2ab570d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="quality-management-overview"></a>Kalite yönetimine genel bakış
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda, tedarik zincirinizde ürün kalitesini artırmak için Microsoft Dynamics 365 for Finance and Operations'daki kalite yönetimini nasıl kullanabileceğiniz açıklanmaktadır.
 

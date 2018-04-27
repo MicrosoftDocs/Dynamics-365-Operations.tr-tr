@@ -1,9 +1,9 @@
 ---
 title: "Bir çağrı merkezindeki ödeme yöntemleri"
-description: "Bu konu Dynamics 365 for Retail içerisinde bir çağrı merkezinde kullanabileceğiniz farklı ödeme yöntemlerini ele alır."
+description: "Bu konu Microsoft Dynamics 365 for Retail'de bir çağrı merkezinde kullanabileceğiniz farklı ödeme yöntemlerini ele alır."
 author: josaw1
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 03/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,36 +20,38 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
-ms.openlocfilehash: 321d03d154c224b55ffedbe55a2d5952c2b29d9a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fe8dd3136f14e182e261a4dce57eef0b1946d304
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="payment-methods-in-a-call-center"></a>Bir çağrı merkezindeki ödeme yöntemleri
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
+Microsoft Dynamics 365 for Retail'deçağrı merkezi kanalı yapılandırması **Sipariş tamamlamayı etkinleştir** adında bir ayar içerir. Bu ayar kanal kullanıcılarının oluşturduğu tüm siparişlerin, yalnızca ön ödeme veya onaylanan tolerans dahilinde ödeme ön onayı olması durumunda sipariş işleme için serbest bırakılmasını sağlamaya yardımcı olur. **Sipariş tamamlamayı etkinleştir** ayarı açık olursa, çağrı merkezi kullanıcıları Çağrı merkezi ödeme işleme özelliklerini kullanarak müşteriler için satış siparişlerine karşı ödemeleri girebilirler. Bu ayar devre dışı bırakılırsa, çağrı merkezi kullanıcıları çağrı merkezi ödeme işleme özelliklerini kullanamaz ancak standart Alacak hesapları işlevini kullanarak satış siparişlerine ön ödemeleri uygulayabilirler.
 
-Bu konu Dynamics 365 for Retail içerisinde bir çağrı merkezinde kullanabileceğiniz farklı ödeme yöntemlerini ele alır.
+Kanal yapılandırmasının bir parçası olarak şirket bir çağrı merkezi kanalı için izin verilen ödeme yöntemleri tanımlayabilir. Çağrı merkezi kanalı perakende mağaza kanalları için tanımlananlarla aynı ödeme yöntemlerini kullanır.
 
-Diğer kanallarında kullanılan nakit, çek, kredi kartı ve hediye kartı gibi ödeme yöntemleri çağrı merkezlerinde de kullanılabilir. Çağrı merkezi için bir ödeme yöntemi ayarladıktan sonra bu yöntem çağrı merkezi kullanıcılarının **Satış siparişi** sayfasındaki **Ödemeler** bölümündeki seçeneklerden biri olarak görüntülenir. Ayrıca kuruluşunuzun çağrı merkezi üzerinden sipariş veren müşterilere indirim sunmak üzere kuponlar da ayarlayabilirsiniz. Kuponlar indirimi sabit tutarda veya madde fiyatının veya sipariş toplamının yüzdesi olarak sunabilir. Örneğin tutar tabanlı bir kupon, müşteri 750,00 veya üzerinde harcama yaptığında 75,00 indirim sağlayabilir. Farklı kupon türleri oluşturabilir, üst/alt kuponları ayarlayabilir ve bir kuponu kopyalayabilir veya geçersiz kılabilirsiniz. Kupon oluşturmak için  aşağıdaki tabloda gösterilen seçenekleri kullanın.
+Bir çağrı merkezi kanalı için ödeme yöntemlerini yapılandırmak üzere **Perakende** \> **Kanallar** \> **Çağrı merkezleri** \> **Tüm çağrı merkezleri**'ne gidin ve **Kurulum** menüsünde **Ödeme yöntemleri** seçeneğini seçin.
 
-|                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Öznitelik**             | **Paraya çevrilme oranı** alanına kuponun beklenen paraya çevrilme oranını yüzde olarak girin ve kuponun tek kullanımlık kupon olup olmadığını, otomatik olarak yeniden çıkarılıp çıkarılmayacağını veya belirli bir müşteriye özel olup olmadığını seçin.                                                                                                                                                                                                                                                                                                                                                                                       |
-| **Geçerli**                 | **Başlangıç tarihi** ve **Bitiş tarihi** alanlarına kuponun geçerli olduğu ilk ve son tarihleri girin.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| **Kuralları dahil et/dışarıda bırak** | **Kataloglar** ve **Maddeler** alanlarında, kupona dahil edilen veya dışarıda bırakılan katalog veya madde olup olmadığını seçin. **Dahil et** veya **Dışarıda Bırak** seçeneğini belirlerseniz, **Ayarlar**'a tıklayın, **Katalogları dahil et/dışarıda bırak** veya **Ürünleri dahil et/dışarıda bırak** seçeneklerinden birini belirletin ve katalog veya madde hakkında bilgileri girin. Bu alanlarda **Hiçbiri** seçeneğini belirlerseniz tüm kataloglar veya maddeler kupona dahil edilir.                                                                                                                                                                                                                          |
-| **Çeşitli**         | Bu kupon başka indirimlerle birlikte kullanılamazsa **Özel** onay kutusunu seçin. Daha sonra, **Kaynak** alanında kuponun kullanılabileceği yerleri seçin. B kupon bir üretici kuponuysa **Üretici kuponu** onay kutusunu seçin.                                                                                                                                                                                                                                                                                                                                                                |
-| **Gelecekteki kupon**         | Bu kupon üst kupon olarak diğer kuponlarla ilişkilendirilecekse **Üst kupon** onay kutusunu seçin. Bu kupon alt kupon olarak mevcut bir kuponla ilişkilendirilecekse **Üst kupon kimliği** alanından üst kuponu seçin. Örneğin gelecek bahar dönemine ait katalog için bir kupon oluşturuyorsunuz. Bahar kataloğu için oluşturduğunuz tüm diğer kuponlar bahar kataloğu kuponunun alt kuponu olacaktır. Alt kuponlar yeni müşteri siparişleri için yüzde 20 indirim, yeni sunulan bir madde için yüzde 10 indirim veya 1.000,00 veya üzerindeki siparişlerde 95,00 indirim içerebilir. |
+Bir ödeme yöntemi oluşturduğunuzda, atayabileceğiniz beş ödeme yöntemi işlevi bulunur.
 
-**Satış siparişi** sayfasından bir kredi kartı ödemesi gönderip kartın yetkili olmadığına ilişkin bir ileti alırsanız, yetkilendirme işlemini el ile gerçekleştirebilirsiniz. **Yetkilendirme yönetimi** sayfasını kullanarak bir kredi kartı hareketini yetkilendirebilir, reddedebilir veya yeniden gönderebilirsiniz. Ek ödeme işleme seçeneklerini yapılandırmak için çağrı merkezi parametreleri sayfasını kullanın:
+| İşlev            | Tanım |
+|---------------------|-------------|
+| Normal              | Nakit veya fiş gibi ödeme yöntemleri tanımlarken ödeme yönteminizde **Normal** işlevini kullanın. Bu tür ödemeler çağrı merkezindeki bir satış siparişine uygulandığında, müşteri hesabında hemen ön ödemeler olarak deftere nakledilir. Ön ödeme fişi müşterinin hareket geçmişinde deftere nakledilir ve burada faturalar oluşturulduğunda satış siparişi faturasına karşı sistematik olarak kapatılacaktır. |
+| Denetle               | Ödeme yöntemi olarak bir banka çeki tanımladığınızda **Çek** işlevini kullanın. Bir satış siparişine bu ödeme türü uygulandığında, kullanıcının ödeme uygulama işleminin bir parçası olarak müşterinin çek numarasını girmesi gerekir. Çek ödemeleri uygulandıklarında daima ön ödeme olarak kabul edilir. **Normal** ödeme işlevinde, bu ön ödeme fişleri sistematik olarak sipariş için oluşturulan faturalara karşı kapatılır. |
+| Kartlar               | Kart ödeme türleri müşterinin ödeme kartı üzerinde tanımlanmış olan bir kart numarasının girilmesini gerektiren herhangi bir ödeme türünü temsil eder. Hediye kartları ve kredi kartları örnek olarak verilebilir. Bu tür ödemeleri yapılandırırken bu ödeme yöntemiyle ilişkilendirilen kart kodlarını tanımlamak için **Kart kurulumu** menüsünü kullanmanız gerekir. Siparişi girerken kullanıcılar kart ödemesinin ön ödeme mi olacağını ödeme girişi sayfasında görüntülenen **Ön ödeme** seçeneğini kullanarak belirtebilir. İşletme ön ödemeleri gerekli kılmadığı sürece, gerçek kredi kartı ödemesinin tipik akışı iki adımlı bir süreçtir; sipariş girişi sırasında yetki alınır ve ardından ödeme kapatılır ve faturalama sırasında müşterinin kartından tahsil edilir. Hediye kartı ödemeleri için, hediye kartı bakiyesinin hemen düşülerek müşterinin aynı değeri başka yerde uygulamasını önlemek gerekli olduğundan, ön ödeme önerilir. |
+| Müşteri            | Bir ödeme yöntemindeki **Müşteri** işlevi ödemenin müşterinin kredi limitine uygulanacağı veya "açık hesaba" konulacağı anlamına gelir Retail'de, bir müşteriye sipariş girişi sırasında doğrulanabilen bir kredi limiti atanabilir. **Müşteri** işlevine bağlı bir ödeme yöntemi kullanılarak yapılan ödemeler müşteri hesabına karşı bir borç oluşturur. Satış siparişi faturalandığında, borç bakiyesi gösterilir. Bu durumlarda, müşteriler verilen koşullara göre tipik olarak bir ödeme gönderir. Alternatif olarak, müşteri hesabında daha önceden açılmış olan bir kredi fişi vadesi gelen bakiyeyi kapatmak için uygulanabilir. Bu ödeme yöntemini tanımlamış olsanız bile, **Hesap üzerinde izin ver** bayrağı üzerinde çalıştığınız müşteri için müşteri kaydında ayarlanmadıkça, çağrı merkezi sipariş girişi ödeme seçenekleri arasında görünmez. Bu bayrak müşteri kaydının **Ödeme varsayılanları** sekmesinde bulunur. |
+| Ödeme Kaldırma/Kaydırma | **Ödeme Kaldırma/Kaydırma** işlevi çağrı merkezi tarafından kullanılmaz. Bu yalnızca satış noktası (POS) uygulamasının mağaza kanalında kullandığı ödeme yöntemlerini tanımladığınızda kullanılır. |
 
--   Çek tutmaları finans personelinin ödeme yöntemi olarak çekin kullanıldığı ve çek tutması eşiği tutarının aşıldığı siparişleri işlemesine olanak tanır. Çek tutma durumu el ile serbest bırakılabilir veya yapılandırılan süre sonunda otomatik olarak sona erer.
--   Çek ve kredi kartı üzerinden yapılan geri ödemelerin el ile onaylanması gereken tutarın üzerinde eşikler ayarlayabilirsiniz. Eşik tutarını aşan tüm geri ödemeler onay sırasına eklenir. Geri ödemeyi onayladıktan sonra iade satış siparişi faturalandırılabilir.
+Ödeme yöntemleri tanımlandığında, bir genel muhasebe veya banka hesabına bağlanmalıdır. Bu adımı atlarsanız, kullanıcılar ödeme türünü kaydetmeye çalışırken hatalar alır.
 
+## <a name="refund-payment-methods"></a>Geri ödeme yöntemleri
 
+Geri ödeme işleme senaryoları için Çağrı merkezi Alacak hesaplarında tanımlanan ödeme yöntemlerinden bazılarını da kullanır. Bu ödeme yöntemlerini yapılandırmak için **Perakende** \> **Kanal kurulumu** \> **Çağrı merkezi kurulumu** \> **Çağrı merkezi geri ödeme yöntemleri**'ne gidin. Müşterilere geri ödeme çeklerini işlemek için bu yapılandırmayı tamamlamanız gerekir. Örneğin, bir müşteri bir siparişin ödemesini başlangıçta nakit veya çek kullanarak yaptıysa, kullanıcı müşteriye Alacak hesapları üzerinden bir geri ödeme çeki göndermek isteyebilir. Bu durumda, geri ödemenin düzgün şekilde gerçekleştirilebilmesi için çağrı merkezindeki çek ve nakit ödeme türlerinin Alacak hesaplarındaki doğru ödeme yöntemiyle eşlenmesi gerekir.
 
-
+Ayrıca, bir kullanıcı Retail'de bir iade siparişini çağrı merkezi kullanıcısı olarak işlerse ancak iadeyi orijinal satışa bağlayamazsa **İade** ödemesi yönteminin Çağrı merkezi parametrelerinde tanımlanması gerekir. **Perakende** \> **Kanal kurulumu** \> **Çağrı merkezi kurulumu** \> **Çağrı merkezi parametreleri**'ne gidin ve **RMA/İade** sekmesindeki **Ödeme yöntemi** alanında bir ödeme yönteminin tanımlandığından emin olun. Ödeme yöntemi geri ödemeler için kullanılan ödeme yöntemi olacaktır. Genellikle, bir çek yöntemi veya müşteri hesabı yöntemi olarak tanımlanacaktır.
 

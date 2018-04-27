@@ -18,17 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 98e32298d1c8285437adf3df9820a71e7a0d7f6c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a44e5d04edf327da2b3ba4676c8b823291801abe
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="mobile-invoice-approvals"></a>Mobil fatura onayları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations'taki mobil yetenekler işletme kullanıcısının mobil deneyimler tasarlamasına olanak tanır. Gelişmiş senaryolar için platform geliştiricilerin de yeteneklerini istedikleri gibi genişletmesine olanak tanır. Mobildeki yeni kavramlardan bazıları hakkında bilgi edinmek için en etkili yol, bir kaç senaryo tasarlama işleminde ilerlemektir. Bu konu, mobil için satıcı faturası onaylarını bir kullanım durumu olarak kullanarak mobil senaryolar tasarlamak amacıyla partik bir yaklaşım sunmak üzere hazırlanmıştır. Bu konu, senaryoların farklı çeşitlerini tasarlamanıza yardımcı olur ve satıcı faturalarıyla ilgili olmayan diğer senaryolara da uygulanablir.
 
@@ -127,7 +126,7 @@ Genel bir yönerge olarak, mobil tasarımcıyla çalışırken güncelleştirmel
 ### <a name="create-the-workspace"></a>Çalışma alanını oluştur
 
 1.  Bir tarayıcıda Finance and Operations'ı açın ve oturum açın.
-2.  Oturum açtıktan sonra, URL'ye aşağıdaki örnekte gösterildiği gibi **&mode=mobile** ekleyin ve sayfayı yenileyin: https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard**&mode=mobile**
+2.  Oturum açtıktan sonra, URL'ye aşağıdaki örnekte gösterildiği gibi **&mode=mobile** ekleyin ve sayfayı yenileyin: https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard **&mode=mobile**
 3.  Sayfanın sağ üst kısmındaki **Ayarlar** (dişli) düğmesine ve ardından **Mobil uygulama**'ya tıklayın. Mobil uygulama tasarımcısı Görev kaydedicinin göründüğü şekilde görünmelidir.
 4.  Yeni bir çalışma alanı oluşturmak için **Ekle**'ye tıklayın. Bu örnek için çalışma alanı adı **Onaylarım**'dır.
 5.  Açıklama girin.
@@ -173,23 +172,23 @@ Genel bir yönerge olarak, mobil tasarımcıyla çalışırken güncelleştirmel
 
 Mobil için fatura ayrıntıları sayfasını tasarlamak üzere Finance and Operations'daki **VendMobileInvoiceHeaderDetails** sayfasını kullanın. Sisteminizdeki faturaların sayısına bağlı olarak, bu sayfanın en eski faturayı (ilk oluşturulan fatura) gösterdiğini unutmayın. Belirli bir faturayı bulmak için soldaki filtreyi kullanabilirsiniz. Ancak, bu örnek için bize belirli bir fatura gerekmiyor. Mobil sayfayı tasarlayabilmek için sadece bazı fatura verileri gereklidir. [![İş akışı sayfası](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
-1.  Finance and Operations URL'sinde menü öğesinin adını **VendMobileInvoiceHeaderDetails** olarak değiştirerek formu açın.
-2.  Mobil tasarımcıyı **Ayarlar** (dişli) düğmesinden açın.
-3.  **Düzenle** düğmesine tıklayarak çalışma alanında düzenleme modunu başlatın.
-4.  Daha önce oluşturduğunuz **Satıcı faturalarım** sayfasını seçin ve **Düzenle**'ye tıklayın.
-5.  **Alanlar** ssekmesinde **Izgara** sütun başlığına tıklayın.
-6.  **Özellikler** &gt; **Sayfa ekle**'ye tıklayın. **Not:** **Izgara** başlığına tıkladığınızde ve sayfa eklediğinizde, ayrıntılar sayfasıyla ilişki otomatik olarak kurulur.
-7.  **Fatura ayrıntıları** gibi bir sayfa başlığı ve **Fatura başlığı ve satır ayrıntılarını görüntüle** gibi bir açıklama ekleyin.
-8.  **Alanları seç**'e tıklayın. Ekleme sıranızın alanların son kullanıcıya gösterileceği sıra olduğunu unutmayın. Alanların sıralamasını değiştirmenin tek yolu tüm alanları yeniden seçmektir. 
-9.  Bu senaryonın gerekliliklerini temel alarak başlıktan aşağıdaki alanları ekleyin:
-    - Satıcı adı
-    - Fatura toplamı
-    - Fatura hesabı
-    - Fatura numarası
-    - Fatura tarihi
-    - Fatura açıklaması
-    - Vade tarihi
-    - Fatura para birimi
+1. Finance and Operations URL'sinde menü öğesinin adını **VendMobileInvoiceHeaderDetails** olarak değiştirerek formu açın.
+2. Mobil tasarımcıyı **Ayarlar** (dişli) düğmesinden açın.
+3. **Düzenle** düğmesine tıklayarak çalışma alanında düzenleme modunu başlatın.
+4. Daha önce oluşturduğunuz <strong>Satıcı faturalarım **sayfasını seçin ve **Düzenle</strong>'ye tıklayın.
+5. **Alanlar** ssekmesinde **Izgara** sütun başlığına tıklayın.
+6. **Özellikler** &gt; **Sayfa ekle**'ye tıklayın. **Not:** **Izgara** başlığına tıkladığınızde ve sayfa eklediğinizde, ayrıntılar sayfasıyla ilişki otomatik olarak kurulur.
+7. **Fatura ayrıntıları** gibi bir sayfa başlığı ve **Fatura başlığı ve satır ayrıntılarını görüntüle** gibi bir açıklama ekleyin.
+8. **Alanları seç**'e tıklayın. Ekleme sıranızın alanların son kullanıcıya gösterileceği sıra olduğunu unutmayın. Alanların sıralamasını değiştirmenin tek yolu tüm alanları yeniden seçmektir. 
+9. Bu senaryonın gerekliliklerini temel alarak başlıktan aşağıdaki alanları ekleyin:
+   - Satıcı adı
+   - Fatura toplamı
+   - Fatura hesabı
+   - Fatura numarası
+   - Fatura tarihi
+   - Fatura açıklaması
+   - Vade tarihi
+   - Fatura para birimi
 
 10. Sayfadaki satır kılavuzundan aşağıdaki alanları ekleyin:
     - Tedarik kategorisi
@@ -199,7 +198,7 @@ Mobil için fatura ayrıntıları sayfasını tasarlamak üzere Finance and Oper
     - Vergi beyan tutarı
 
 11. Önceki iki adımda tüm alanları ekledikten sonra **Bitti**'yi tıklayın. Bu sayfa aşağıda gösterilene benzemelidir.
-[![Alanlar eklendikten sonra sayfa](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Alanlar eklendikten sonra sayfa](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 12. Düzenleme modundan çıkmak için **Bitti**'ye tıklayın.
 13. Çalışma alanından çıkmak için **Geri**'ye ve sonra **Bitti**'ye tıklayın.
 14. Çalışmanızı kaydetmek için **Çalışma alanını yayımla**'ya tıklayın
@@ -296,14 +295,14 @@ Mobil için fatura ayrıntıları sayfasını tasarlamak üzere Finance and Oper
 
 ### <a name="vendor-invoice-attachments"></a>Satıcı faturası ekleri
 
-1.  Sayfanın sağ üst kısmındaki **Ayarlar** (dişli) düğmesine ve ardından **Mobil uygulama**'ya tıklayın.
-2.  **Düzenle** düğmesine tıklayarak çalışma alanında düzenleme modunu başlatın.
-3.  Daha önce oluşturduğunuz **Fatura ayrıntıları** sayfasını seçin ve **Düzenle**'ye tıklayın.
-4.  **Belge yönetimi** seçeneğini aşağıda gösterildiği gibi **Evet** olarak ayarlayın. **Not:** Mobil cihazda ekleri göstermek için hiçbir gereklilik yoksa, bu seçeneği varsayılan ayar olan **Hayır** olarak bırakabilirsiniz.
-![Belge yönetimi](./media/docmanagement-216x300.png)
-6.  Düzenleme modundan çıkmak için **Bitti**'ye tıklayın.
-7.  Çalışma alanından çıkmak için **Geri**'ye ve sonra **Bitti**'ye tıklayın.
-8.  Çalışmanızı kaydetmek için **Çalışma alanını yayımla**'ya tıklayın
+1. Sayfanın sağ üst kısmındaki **Ayarlar** (dişli) düğmesine ve ardından **Mobil uygulama**'ya tıklayın.
+2. **Düzenle** düğmesine tıklayarak çalışma alanında düzenleme modunu başlatın.
+3. Daha önce oluşturduğunuz <strong>Fatura ayrıntıları **sayfasını seçin ve **Düzenle</strong>'ye tıklayın.
+4. **Belge yönetimi** seçeneğini aşağıda gösterildiği gibi **Evet** olarak ayarlayın. **Not:** Mobil cihazda ekleri göstermek için hiçbir gereklilik yoksa, bu seçeneği varsayılan ayar olan **Hayır** olarak bırakabilirsiniz.
+   ![Belge yönetimi](./media/docmanagement-216x300.png)
+5. Düzenleme modundan çıkmak için **Bitti**'ye tıklayın.
+6. Çalışma alanından çıkmak için **Geri**'ye ve sonra **Bitti**'ye tıklayın.
+7. Çalışmanızı kaydetmek için **Çalışma alanını yayımla**'ya tıklayın
 
 ### <a name="vendor-invoice-line-distributions"></a>Satıcı faturası satırı dağıtımları
 

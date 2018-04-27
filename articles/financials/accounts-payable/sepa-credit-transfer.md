@@ -19,17 +19,16 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3b6ded5e5accbbdba708c8b31119429e72bd58f5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1aa70dea3b0e7056afbdba96f4475c3e7e71f57c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredi transferine genel bakış
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, Tek Euro Ödeme Bölgesi (SEPA) kredi transferleri ve satıcılar için diğer elektronik ödemeleri içeren ISO 20022 kredi transferleri hakkında genel bilgi sağlar. SEPA kredi transferi bir şirketten veya bir bireyden başka bir şirket veya bireye yapılan özel türde bir ödemedir (euro cinsinden). Bu başlık altında, bir kredi transferi ödeme dosyasının nasıl ayarlanacağı ve aktarılacağı da açıklanmaktadır.
 
@@ -93,7 +92,7 @@ Sürekli olarak Microsoft Dynamics Lifecycle Services'daki (LCS) Paylaşılan va
 <td>Biçim</td>
 <td>Ülke/bölge veya banka gereksinimlerine bağlı olarak havale bilgileri için biçim seçin:
 <ul>
-<li><strong>Strd</strong> – Bir ödeme bir faturaya kapatıldığında yapılandırılmış biçimi kullanmak için bu seçeneği belirleyin. Bu seçenek, Fransa, Almanya veya Hollanda için ülkeye/bölgeye özgü aktarma biçimlerinde kullanılamaz.</li>
+<li><strong>Strd</strong> – Bir ödeme bir faturaya kapatıldığında yapılandırılmış biçimi kullanmak için bu seçeneği belirleyin. Bu seçenek Fransa, Almanya veya Hollanda için ülkeye/bölgeye özgü aktarma biçimlerinde kullanılamaz.</li>
 <li><strong>Ustrd</strong> – Bir ödeme çok sayıda faturaya kapatıldığında yapılandırılmamış biçimi kullanmak için bu seçeneği seçin. Kapatılan faturalar için fatura numaraları birleştirilir ve havale bilgisi olarak kullanılır. ISO 20022 yönergeleri gereğince, yapılandırılmamış havale bilgileri 140 karakterle sınırlıdır.</li>
 </ul></td>
 </tr>

@@ -18,17 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 09addfd9e4a5c601970b5c8c24a3d39b041e07e6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: be69aff98b1a3a8304461af0f38760988ac28d42
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Dynamics 365 for Operations sürüm 1611'deki yenilikler veya değişiklikler (Kasım 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda, Dynamics 365 for Operations sürüm 1611'de yeni olan veya değişen özellikler açıklanır.
 
@@ -113,6 +112,7 @@ Bu konuda, Dynamics 365 for Operations sürüm 1611'de yeni olan veya değişen 
 </table>
 
 ## <a name="expense-management"></a>Gider yönetimi
+
 | Yapabilecekleriniz                                                            | Bunun önemi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | İşten çıkarılan personelin kredi kartı hareketlerini yeniden atayın.                     | Bazen, bir personel işten çıkarıldığında, harcanması gereken etkin kredi kartı hareketleri içe aktarılırsa bu personelin Active Directory Domain Services (AD DS) hesabı devre dışı bırakılır. Önceden, gider girişi için bir temsilci atayabilir veya kredi kartı hareketlerini bir gider raporuna ekleyebilirdiniz. Artık ilişkili personelin işten çıkarıldığı her türlü kredi kartı hareketi için personeli yeniden atamak üzere, **Kredi kartı hareketleri** sayfasını kullanabilirsiniz. Kredi kartı hareketini yeniden atadıktan sonra, hareket bir gider raporu için seçilebilir ve gider raporu geri ödemeleri için uygulanan normal işlemlerle ödenebilir. |
@@ -211,7 +211,7 @@ Bu konuda, Dynamics 365 for Operations sürüm 1611'de yeni olan veya değişen 
 </tr>
 <tr class="even">
 <td>Tüm tüzel kişiliklerin elektronik banka ekstrelerini tek bir adımda içe aktarın.</td>
-<td>Artık, tüm tüzel kişiliklerin elektronik banka ekstrelerini tek bir adımda içe aktarabilirsiniz. Banka ekstresi dosyaları çok sayıda banka hesabına ve tüzel kişiliğe ait ekstreleri içerebilir ve zip dosyaları da çok sayıda banka ekstresi dosyası içerebilir. Tek bir içe aktarma işlemi kullanarak, tüm tüzel kişiliklerdeki bildirilen tüm banka hesapları için mutabakat başlatabilirsiniz. Bu özellik, şirketler ve çok sayıda ekstre içe aktarma işlemi arasında geçiş yapmak zorunda kalmayacağınız için zaman kazanabilirsiniz. Ayrıca, her şirkette içe aktarılan tüm ekstreler için eşleşen kuralları otomatik olarak çalıştırabilirsiniz.</td>
+<td>Artık, tüm tüzel kişiliklerin elektronik banka ekstrelerini tek bir adımda içe aktarabilirsiniz. Banka ekstresi dosyaları çok sayıda banka hesabına ve tüzel kişiliğe ait ekstreleri içerebilir ve zip dosyaları da çok sayıda banka ekstresi dosyası içerebilir. Tek bir içe aktarma işlemi kullanarak, tüm tüzel kişiliklerdeki bildirilen tüm banka hesapları için mutabakat başlatabilirsiniz. Bu özellik sayesinde, şirketler ve çok sayıda ekstre içe aktarma işlemi arasında geçiş yapmak zorunda kalmayacağınız için zaman kazanabilirsiniz. Ayrıca, her şirkette içe aktarılan tüm ekstreler için eşleşen kuralları otomatik olarak çalıştırabilirsiniz.</td>
 </tr>
 <tr class="odd">
 <td>Değerleme izleme</td>
@@ -225,6 +225,7 @@ Bu konuda, Dynamics 365 for Operations sürüm 1611'de yeni olan veya değişen 
 </table>
 
 ## <a name="human-capital-management"></a>İnsan sermayesi yönetimi
+
 | Yapabilecekleriniz                                                                                | Bunun önemi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Performans günlüğü oluşturun.                                                                  | Gözden geçirmenizi tamamlamadan önce, genellikle, gözden geçirme dönemi boyunca bir personel olarak başarınıza katkıda bulunan etkinlikler veya olaylar hakkında bilgi toplarsınız. Bu etkinlikleri ve olayları belgelemek için performans günlüğünüze bir giriş ekleyebilirsiniz. Ayrıca, gözden geçirene daha fazla bilgi sunmak için bu etkinlikleri ve olayları bir hedef veya performans gözden geçirmesine de bağlayabilirsiniz.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -579,6 +580,7 @@ Aşağıdaki ülkeler Perakende yerelleştirmesi de gerektirmektedir: Bu ülkele
 </table>
 
 ## <a name="planning-and-scheduling"></a>Planlama ve zaman çizelgesi planlaması
+
 | Yapabilecekleriniz                                                                                                                                                                                                      | Bunun önemi                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Satışlar ve satınalmalar için, ana üründe etkin tüm ürün boyutlarını temel alan varsayılan sipariş ayarlarını ayarlayın. Böylece, stok tutma birimi (SKU) veya kısmi SKU için varsayılan sipariş ayarlarını tanımlayabilirsiniz. | Ürün boyutu veya ürün boyutları birleşimi için geçerli olan varsayılan sipariş ayarlarını belirtebilirsiniz. **Örnek** Polo Tişört adlı bir ürün satıyorsunuz. Bu ürünün Yeşil ve Mavi olmak üzere iki rengi var. Small ve Medium boy olmak üzere iki boyu var. Polo Tişörtün etkin ürün boyutları Renk ve Ebat'tır. Ebattan bağımsız olarak tüm yeşil Polo Tişörtlerin satınalma işlemlerini engelleyebilirsiniz. |
@@ -624,6 +626,7 @@ Aşağıdaki ülkeler Perakende yerelleştirmesi de gerektirmektedir: Bu ülkele
 </table>
 
 ## <a name="project-management-and-accounting"></a>Proje yönetimi ve muhasebe
+
 | Yapabilecekleriniz                                                                                                           | Bunun önemi                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Fatura tekliflerini toplu olarak deftere naklettiğinizde geç seçimi kullanın.                                                            | Proje muhasebecileri teklifler toplu işte belirtilen ölçütleri karşılıyorsa deftere nakletmek üzere fatura tekliflerini otomatik olarak seçecek bir toplu iş ayarlayabilir. Toplu iş sürekli olarak çalışabildiği ve nakletmek için teklifleri otomatik olarak seçtiğinden, bu özellik fatura deftere nakil otomasyonunu iyileştirir. |

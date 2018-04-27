@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 09a182b50917bff449f76598d61c38ae18160dd1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8652766766a557d8399e6a94088a6f9bc82ff018
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Finansal raporlamada gelişmiş biçimlendirme seçenekleri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Finansal raporlamada bir rapor oluşturduğunuzda, ek biçimlendirme işlevleri mevcuttur; boyutlar için filtreler, sütunlar ve raporlama birimleri için kısıtlamalar, yazdırılmayan satırlar ve hesaplamalarda THEN/IF/ELSE deyimleri de dahil olmak üzere. 
 
@@ -66,12 +65,13 @@ Aşağıdaki örnekler satır tanımı ve temel nakit akışı raporu (örnek 1)
 
 Aşağıdaki tablo temel zorlama kullanan bir satır tanımı örneği gösterir.
 
-| Satır Kodu | Tanım                      | Biçim Kodu | İlgili Formüller/Satırlar/Birimler | Satır Değiştirici | Mali Boyutlarla İlişkilendir |
-|----------|----------------------------------|-------------|-----------------------------|----------------|----|
-| 100      | Dönemin Başlangıcındaki Nakit (NP) |             |                             | Hesap Değiştirici = \[/BB\] | +Segment2 = \[1100\]         |
-| 130      | Dönemin Başlangıcındaki Nakit      | CAL         | C=C.100,F=D.100             |               |     |   |
-| 160      |                                  |             |                             |              |     |   |
-| 190      |                                  |             |                             |                 |     |   |
+
+| Satır Kodu |           Tanım            | Biçim Kodu | İlgili Formüller/Satırlar/Birimler |        Satır Değiştirici        | Mali Boyutlarla İlişkilendir |
+|----------|----------------------------------|-------------|-----------------------------|----------------------------|------------------------------|
+|   100    | Dönemin Başlangıcındaki Nakit (NP) |             |                             | Hesap Değiştirici = \[/BB\] |     +Segment2 = \[1100\]     |
+|   130    |   Dönemin Başlangıcındaki Nakit    |     CAL     |       C=C.100,F=D.100       |                            |                              |
+|   160    |                                  |             |                             |                            |                              |
+|   190    |                                  |             |                             |                            |                              |
 
 > [!NOTE] 
 > Boş sütunlar önceki tablodan daha iyi görünürlük için kaldırılmıştır: Biçim Geçersiz Kılma, Normal Bakiye, Yazdırma Denetimi, Sütun Kısıtlama sütunları görüntülenmemektedir.
@@ -180,11 +180,11 @@ Bir satır tanımında **Sütun kısıtlama** hücresi birden çok amaca sahipti
 -   Hücre sıralanacak tutar sütununu belirtebilir.
 
 ## <a name="using-a-calculation-formula-in-a-row-definition"></a>Bir satır tanımındaki bir hesaplama formülü kullanmak
-Bir satır tanımında bir hesaplama formülü **+**, **-**, **\***, ve **/** işleçler ve ayrıca **IF/THEN/ELSE** ifadelerini içerebilir. Ayrıca, bir hesaplama tek tek hücreler ve mutlak (formülünde gerçek rakamlar) tutarlar içerebilir. Formül, 1.024 karaktere kadar içerebilir. Hesaplamalar **mali boyutlara bağlantı** (FD) türü hücreleri içeren satırlara uygulanamaz. Ancak, birbirini izleyen satırda hesaplamaları içerebilir, bu satırları yazdırmayı bastırabilir ve sonra hesaplama satırlarını toplayabilirsiniz.
+Bir satır tanımında bir hesaplama formülü <strong>+</strong>, <strong>-</strong>, <strong>\\</strong>, ve **/** işleçler ve ayrıca <strong>IF/THEN/ELSE</strong> ifadelerini içerebilir. Ayrıca, bir hesaplama tek tek hücreler ve mutlak (formülünde gerçek rakamlar) tutarlar içerebilir. Formül, 1.024 karaktere kadar içerebilir. Hesaplamalar <strong>mali boyutlara bağlantı</strong> (FD) türü hücreleri içeren satırlara uygulanamaz. Ancak, birbirini izleyen satırda hesaplamaları içerebilir, bu satırları yazdırmayı bastırabilir ve sonra hesaplama satırlarını toplayabilirsiniz.
 
 ### <a name="operators-in-a-calculation-formula"></a>Bir hesaplama formülündeki işleçler
 
-Bir hesaplama formülü bir satır toplam formülünden daha karmaşık işleçler kullanır. Ancak, tutarları çarpmak **\*** ve bölmek **/** için (\*) ve (/) işleçlerini ek işleçlerle birlikte kullanabilirsiniz. Satır tanımındaki bir sütun kullanmadığınız sürece, bir hesaplama formülünde bir aralık veya toplam kullanmak için herhangi bir satır kodu önünde (@) işareti kullanmanız gerekir. Örneğin, satır 100 miktarını satır 330 miktarına eklemek için satır toplam formülü **100+330** veya hesaplama formülü **@100+@330** kullanabilirsiniz. **Not:** bir hesaplama formülünde kullandığınız her satır kodundan önce (@) işareti kullanmanız gerekir. Aksi takdirde, sayı mutlak tutar olarak okunur. Örneğin, formül **@100+330**, 100 satır tutarına 330 USD ekler. Bir hesaplama formülünde bir sütuna başvuru yaptığınızda bir at işareti (@) gerekli değildir.
+Bir hesaplama formülü bir satır toplam formülünden daha karmaşık işleçler kullanır. Ancak, tutarları çarpmak (\*) ve bölmek (/) için * ve <strong>\\</strong> ve <strong>/</strong> işleçlerini ek işleçlerle birlikte kullanabilirsiniz. Satır tanımındaki bir sütun kullanmadığınız sürece, bir hesaplama formülünde bir aralık veya toplam kullanmak için herhangi bir satır kodu önünde (@) işareti kullanmanız gerekir. Örneğin, satır 100 miktarını satır 330 miktarına eklemek için satır toplam formülü <strong>100+330</strong> veya hesaplama formülü <strong>@100+@330</strong> kullanabilirsiniz. <strong>Not:</strong> bir hesaplama formülünde kullandığınız her satır kodundan önce (@) işareti kullanmanız gerekir. Aksi takdirde, sayı mutlak tutar olarak okunur. Örneğin, formül <strong>@100+330</strong>, 100 satır tutarına 330 USD ekler. Bir hesaplama formülünde bir sütuna başvuru yaptığınızda bir at işareti (@) gerekli değildir.
 
 ### <a name="create-a-calculation-formula"></a>Hesaplama formülü oluşturma
 
@@ -202,7 +202,7 @@ Bu örnekte, hesaplama formülü **@100+@330**, satır 100'deki tutarın, satır
 | 370      | Yıl başlangıcında Nakit   | CAL         | @100+@330                  | NP            |              |                              |
 | 400      | Dönem başlangıcında Nakit | TOT         | 340+370                    |               |              |                              |
 
-Bir satır tanımında satırın **CAL** biçimlendirme kodu olduğunda ve **ilgili formüller/satırlar/birimler** hücresine matematiksel bir hesaplama girdiğinizde, ilişkili sütun ve satır harfini raporda da girmeniz gerekir. Örneğin; **A.120** girmek, A sütunundaki satır 120'yi temsil eder. Alternatif olarak, tüm sütunları göstermek için bir at işareti (@) kullanabilirsiniz. Örneğin, satır 120'deki tüm satırları temsil etmek için **@120** girin. Bir sütun harfine veya at işareti (@) sahip olmayan herhangi bir matematiksel hesaplamanın gerçek bir sayı olduğu kabul edilir. **Not:** bir satır başvurusu için bir etiket satır kodu kullanırsanız, sütun harfi ve etiket arasında ayırıcı olarak nokta (.) kullanmanız gerekir (örneğin, **A.GROSS\_MARGIN/A.SALES**). (@) işareti kullanırsanız, bir ayırıcı gerekli değildir (örneğin, **@GROSS\_MARGIN/@SALES**).
+Bir satır tanımında satırın <strong>CAL</strong> biçimlendirme kodu olduğunda ve <strong>ilgili formüller/satırlar/birimler</strong> hücresine matematiksel bir hesaplama girdiğinizde, ilişkili sütun ve satır harfini raporda da girmeniz gerekir. Örneğin; <strong>A.120</strong> girmek, A sütunundaki satır 120'yi temsil eder. Alternatif olarak, tüm sütunları göstermek için bir at işareti (@) kullanabilirsiniz. Örneğin, satır 120'deki tüm satırları temsil etmek için <strong>@120</strong> girin. Bir sütun harfine veya at işareti (@) sahip olmayan herhangi bir matematiksel hesaplamanın gerçek bir sayı olduğu kabul edilir. <strong>Not:</strong> bir satır başvurusu için bir etiket satır kodu kullanırsanız, sütun harfi ve etiket arasında ayırıcı olarak nokta (.) kullanmanız gerekir (örneğin, <strong>A.GROSS\_MARGIN/A.SALES</strong>). (@) işareti kullanırsanız, bir ayırıcı gerekli değildir (örneğin, <strong>@GROSS\_MARGIN/@SALES</strong>).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Belirli bir sütun için bir hesaplama formülü örneği
 
@@ -255,17 +255,17 @@ Bir sayı veya bir sütun belirli bir satırın hesaplamada değiştirir, ancak 
 
 ### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Bir hesaplamayı bir satır tanımı raporlama biriminde sınırlandırma
 
-Böylece sonuç miktarı daha yüksek düzey bir birime yuvarlanmayacak şekilde bir hesaplamayı raporlama ağacında tek bir raporlama birimine sınırlamak için, satır tanımındaki **İlgili Formüller/Satırlar/Birimler** hücresinde **@Unit** kodunu kullanabilirsiniz. **@Unit** kodu **Birim Adı** raporlama ağacı B sütununda listelenir. **@Unit** kodu kullandığınızda değerler toplanmaz, ancak hesaplama raporlama ağacının her düzeyine değerlendirilir. **Not:** bu işlevi kullanmak için raporlama ağacı satır tanımı ile ilişkili olmalıdır. Hesaplama satırı bir hesaplama satırı veya bir mali veri satırına başvurabilir. Hesaplama satır tanımının ve finansal veri türündeki kısıtlamanın **ilgili formüller/satır/birim** hücresine kaydedilir. Hesaplama **IF @Unit** yapımı ile başlayan bir koşullu hesaplama kullanmalıdır. İşte bir örnek: IF @Unit(SALES) THEN @100 ELSE 0 Bu hesaplama yalnızca satış birimi için raporun her sütununda 100 satır tutarı içerir. Birden çok birim adı satış ise, bu birimlerin her birinde tutar görüntülenir. Ayrıca, satır 100 finansal verileri olabilir ve yazdırılmayan tanımlanabilir. Bu durumda, tutarın ağaçtaki tüm birimlerde görünmesi engellenir. Tutar raporun tek bir sütunu için, örneğin sütun H, yalnızca söz konusu rapor sütununun değerini yazdırmak için bir sütun kısıtlama kullanarak da sınırlandırabilirsiniz. Bir **EĞER** ifadesine **YADA** birleşimleri dahil edebilirsiniz. İşte bir örnek: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Aşağıdaki yollardan biriyle hesaplama türü kısıtlamasında bir birimi belirtebilirsiniz:
+Böylece sonuç miktarı daha yüksek düzey bir birime yuvarlanmayacak şekilde bir hesaplamayı raporlama ağacında tek bir raporlama birimine sınırlamak için, satır tanımındaki <strong>İlgili Formüller/Satırlar/Birimler</strong> hücresinde <strong>@Unit</strong> kodunu kullanabilirsiniz. <strong>@Unit</strong> kodu <strong>Birim Adı</strong> raporlama ağacı B sütununda listelenir. <strong>@Unit</strong> kodu kullandığınızda değerler toplanmaz, ancak hesaplama raporlama ağacının her düzeyine değerlendirilir. <strong>Not:</strong> bu işlevi kullanmak için raporlama ağacı satır tanımı ile ilişkili olmalıdır. Hesaplama satırı bir hesaplama satırı veya bir mali veri satırına başvurabilir. Hesaplama satır tanımının ve finansal veri türündeki kısıtlamanın <strong>ilgili formüller/satır/birim</strong> hücresine kaydedilir. Hesaplama <strong>IF @Unit</strong> yapımı ile başlayan bir koşullu hesaplama kullanmalıdır. İşte bir örnek: IF @Unit(SALES) THEN @100 ELSE 0 Bu hesaplama yalnızca satış birimi için raporun her sütununda 100 satır tutarı içerir. Birden çok birim adı satış ise, bu birimlerin her birinde tutar görüntülenir. Ayrıca, satır 100 finansal verileri olabilir ve yazdırılmayan tanımlanabilir. Bu durumda, tutarın ağaçtaki tüm birimlerde görünmesi engellenir. Tutar raporun tek bir sütunu için, örneğin sütun H, yalnızca söz konusu rapor sütununun değerini yazdırmak için bir sütun kısıtlama kullanarak da sınırlandırabilirsiniz. Bir <strong>EĞER</strong> ifadesine <strong>YADA</strong> birleşimleri dahil edebilirsiniz. İşte bir örnek: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 Aşağıdaki yollardan biriyle hesaplama türü kısıtlamasında bir birimi belirtebilirsiniz:
 
--   Eşleşen birim içerecek şekilde bir birim adı girin. Örneğin, **IF @Unit(SALES)** raporlama ağacında birkaç satış birimi olsa bile hesaplamayı Satışlar adlı bir birim için etkinleştirir.
--   Belirli birimler cinsinden belirli bir şirket için hesaplama kısıtlamak için şirket ve birim adını girin. Örneğin,hesaplamayı ACME şirketindeki satış birimlerine kısıtlamak için **IF @Unit(ACME:SALES**) girin.
--   Belirli bir birim için hesaplama kısıtlamak için raporlama ağaç hiyerarşisinde tam kodunu girin. Örneğin **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**. **Not:** Tam hiyerarşi kodunu bulmak için raporlama ağaç tanımı içinde sağ tıklatın ve sonra **Raporlama Birim tanımlayıcısı kopyala (H-code)** seçin.
+- Eşleşen birim içerecek şekilde bir birim adı girin. Örneğin, <strong>IF @Unit(SALES)</strong> raporlama ağacında birkaç satış birimi olsa bile hesaplamayı Satışlar adlı bir birim için etkinleştirir.
+- Belirli birimler cinsinden belirli bir şirket için hesaplama kısıtlamak için şirket ve birim adını girin. Örneğin,hesaplamayı ACME şirketindeki satış birimlerine kısıtlamak için <strong>IF @Unit(ACME:SALES</strong>) girin.
+- Belirli bir birim için hesaplama kısıtlamak için raporlama ağaç hiyerarşisinde tam kodunu girin. Örneğin <strong>IF @Unit(SUMMARY^ACME^WEST COAST^SALES)</strong>. <strong>Not:</strong> Tam hiyerarşi kodunu bulmak için raporlama ağaç tanımı içinde sağ tıklatın ve sonra <strong>Raporlama Birim tanımlayıcısı kopyala (H-code)</strong> seçin.
 
 #### <a name="restrict-a-calculation-to-a-reporting-unit"></a>Bir hesaplamayı bir raporlama birimiyle kısıtlama
 
-1.  Rapor Tasarımcısı'nda, **Satır Tanımları**'na tıklayın ve ardından değiştirilecek satır tanımını açın.
-2.  **biçim kodu** hücresini çift tıklatın ve **CAL** seçin.
-3.  **ilgili formüller/satır/birim** hücresini tıklatın ve daha sonra **IF @Unit** yapımıyla başlayan bir koşullu hesaplamayı girin.
+1. Rapor Tasarımcısı'nda, **Satır Tanımları**'na tıklayın ve ardından değiştirilecek satır tanımını açın.
+2. **biçim kodu** hücresini çift tıklatın ve **CAL** seçin.
+3. <strong>ilgili formüller/satır/birim</strong> hücresini tıklatın ve daha sonra <strong>IF @Unit</strong> yapımıyla başlayan bir koşullu hesaplamayı girin.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>Sütun tanımında IF/THEN/ELSE deyimleri
 

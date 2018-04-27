@@ -20,16 +20,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1b6086f7769086a9cdbb61c03882ea21d908ab4a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="replenishment"></a>Stok yenileme
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konuda Ambar yönetiminde bulunan işlevi kullanan ambarlarda kullanılabilen stok yenileme stratejileri açıklanmaktadır. Bu konudaki bilgiler Stok yönetiminde bulunan ambar çözümü için geçerli değildir.
 
@@ -67,13 +67,15 @@ Yük talebi stok birkaç yüke ait talebi toplar ve ilgili malzeme çekme yerle�
 Talebi bir tahsisat işleminin sonunda toplamak ve stok yenilemeyi toplanmış miktarı temel alarak yapmak yerine, Hemen yenileme stratejisini uygulayabilirsiniz. Bu stratejiyi kullandığınızda, stok bir yerleşim yönergesi satırı başarısız olduğunda hemen yenilenebilir. Bu nedenle, stok yenilemeyi belirli birimlerle sınırlandırsa ve belirli konumlar için ayarlanmış miktarları kullanmak üzere ayarlayabilirsiniz.
 
 ## <a name="replenishment-prerequisites"></a>Stok yenileme önkoşulları
-| Önkoşul            | Tanım |
-|-------------------------|-------------|
-| Madde                    | Madde mutlaka ambar yönetimi süreçleri için etkinleştirilmelidir. |
-| Ambar               | Ambar mutlaka ambar yönetimi süreçleri için etkinleştirilmelidir. Bir ambarı ambar yönetim süreçlerini etkinleştirmek üzere, **Ambarlar** sayfasında ambarı seçin, ardından **Ambar yönetim süreçlerini kullan** seçeneğini belirleyin. |
-| Stok yenileme şablonları | Min/Maks stok yenileme, Dalga talep stok yenilemesi veya Yük talebi stok yenilemesi için en az bir stok yenileme şablonu ayarlanmalıdır. |
-| Konumlar               | Yerleşimler oluşturulmalı ve bir yerleşim profiline bağlanmalıdır. |
-| Konum profilleri       | Yerleşim profilleri yerleşimleri oluşturmak için gereklidir. |
-| Konum yönergeleri     | Yerleşim yönergeleri işi stok yenilemenin gerektiği yerleşimlere ve stok kaynağı olarak kullanılacak yerleşimlere yönlendirmek için gereklidir. |
-| İş şablonları          | **Stok yenileme** türünün iş şablonları stoğu istenen yerleşimlere taşıyabilmek üzere stok yenileme işi oluşturmak için gereklidir. |
+
+|      Önkoşul       |                                                                                                                                Tanım                                                                                                                                 |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|          Madde           |                                                                                                        Madde mutlaka ambar yönetimi süreçleri için etkinleştirilmelidir.                                                                                                        |
+|        Ambar        | Ambar mutlaka ambar yönetimi süreçleri için etkinleştirilmelidir. Bir ambarı ambar yönetim süreçlerini etkinleştirmek üzere, <strong>Ambarlar</strong> sayfasında ambarı seçin, ardından <strong>Ambar yönetim süreçlerini kullan</strong> seçeneğini belirleyin. |
+| Stok yenileme şablonları |                                                                   Min/Maks stok yenileme, Dalga talep stok yenilemesi veya Yük talebi stok yenilemesi için en az bir stok yenileme şablonu ayarlanmalıdır.                                                                   |
+|        Konumlar        |                                                                                                       Yerleşimler oluşturulmalı ve bir yerleşim profiline bağlanmalıdır.                                                                                                       |
+|    Konum profilleri    |                                                                                                        Yerleşim profilleri yerleşimleri oluşturmak için gereklidir.                                                                                                        |
+|   Konum yönergeleri   |                                                       Yerleşim yönergeleri işi stok yenilemenin gerektiği yerleşimlere ve stok kaynağı olarak kullanılacak yerleşimlere yönlendirmek için gereklidir.                                                        |
+|     İş şablonları      |                                                   <strong>Stok yenileme</strong> türünün iş şablonları stoğu istenen yerleşimlere taşıyabilmek üzere stok yenileme işi oluşturmak için gereklidir.                                                    |
+
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: ProjTable
+ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 404f7d2b050aba1532cae0955a9579e1c2f174e3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="project-management-and-accounting"></a>Proje yönetimi ve muhasebe
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Proje yönetimi ve muhasebe işlevi, birden çok sektörde hizmet almak, ürün üretmek veya bir sonuç elde etmek için kullanılabilir.  
 
@@ -83,6 +82,7 @@ Organizasyonunuz bir operasyonel perspektife sahipse ve belirli hareketlerden el
 Microsoft Finance and Operations'da altı proje türü oluşturabilirsiniz. Her proje türü farklı maliyetlerin ve gelirin tanınması için farklı şekilde ayarlanır. Seçtiğiniz proje türü, projenin türüne dayalıdır. Aşağıdaki tabloda her bir proje türünün tipik kullanımı açıklanmıştır.
 
                                                                                                                                                                          |
+
 | Proje türü      | Açıklama                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Zaman ve malzeme | Zamana ve malzemeye dayalı projelerde müşteri, bir projede yapılan tüm maliyetler için faturalandırılır. Bu maliyetler saat, giderler, maddeler ve ücretler için yapılan maliyetleri de içerir.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -127,10 +127,10 @@ Projeyle ilgili bir üretim emri, nihai ürün yöntemi veya tüketilen madde y�
 
 Bu faktörlerin kombinasyonlarına dayalı olarak, aşağıdaki yöntemlerden birini kullanın:
 
--   **Tamamlanan madde/bağlantılı sipariş** – Projeyi bir satış emrine veya bir madde gereksinimine bağlayın. Bu yöntem kullanılıyorsa satış emri faturalandığında veya sevk irsaliyesi, madde gereksinimini için güncelleştirildiğinde gerçek proje maliyetleri nakledilir. Maliyet bir tamamlanan madde olarak nakledilir.
--   **Tamamlanan madde/bağlantılı olmayan sipariş** – Fiili maliyetler, bir madde için üretim döngüsünün durumu **Sonlandırıldı** olmadan nakledilemez. Tamamlanan madde maliyeti tek bir hareket olarak nakledilir.
--   **Tüketilen madde/bağlantılı sipariş** – Projeyi bir madde gereksinimine bağlayın. Bu yöntemi kullanarak, üretimin durumu **Başlatıldı** olduğunda veya bitti olarak raporlandığında gerçek proje maliyetlerini görüntüleyebilirsiniz. Maliyetler, üretim için kullanılan hammaddelere ve saatlere yönelik birden çok proje madde hareketi olarak deftere nakledilir. Madde gereksinimi için sevk irsaliyesi güncelleştirildiğinde, hiçbir proje maliyeti deftere nakledilmez. Üretimdeki projelerin takip edildiği ürün reçetesi (BOM) hiyerarşisindeki seviyeyi de tanımlayabilirsiniz.
--   ****Tüketilen madde/bağlantılı olmayan sipariş**** – Projeyi bir madde gereksinimine bağlayın. Bu yöntemi kullanarak, üretimin durumu **Başlatıldı** olduğunda veya bitti olarak raporlandığında gerçek proje maliyetlerini görüntüleyebilirsiniz. Maliyetler, üretim için kullanılan hammaddelere ve saatlere yönelik birden çok proje madde hareketi olarak deftere nakledilir. Üretimdeki projelerin takip edildiği BOM hiyerarşisindeki seviyeyi de tanımlayabilirsiniz.
+- **Tamamlanan madde/bağlantılı sipariş** – Projeyi bir satış emrine veya bir madde gereksinimine bağlayın. Bu yöntem kullanılıyorsa satış emri faturalandığında veya sevk irsaliyesi, madde gereksinimini için güncelleştirildiğinde gerçek proje maliyetleri nakledilir. Maliyet bir tamamlanan madde olarak nakledilir.
+- **Tamamlanan madde/bağlantılı olmayan sipariş** – Fiili maliyetler, bir madde için üretim döngüsünün durumu **Sonlandırıldı** olmadan nakledilemez. Tamamlanan madde maliyeti tek bir hareket olarak nakledilir.
+- **Tüketilen madde/bağlantılı sipariş** – Projeyi bir madde gereksinimine bağlayın. Bu yöntemi kullanarak, üretimin durumu **Başlatıldı** olduğunda veya bitti olarak raporlandığında gerçek proje maliyetlerini görüntüleyebilirsiniz. Maliyetler, üretim için kullanılan hammaddelere ve saatlere yönelik birden çok proje madde hareketi olarak deftere nakledilir. Madde gereksinimi için sevk irsaliyesi güncelleştirildiğinde, hiçbir proje maliyeti deftere nakledilmez. Üretimdeki projelerin takip edildiği ürün reçetesi (BOM) hiyerarşisindeki seviyeyi de tanımlayabilirsiniz.
+- *<strong><em>Tüketilen madde/bağlantılı olmayan sipariş</em></strong>*– Projeyi bir madde gereksinimine bağlayın. Bu yöntemi kullanarak, üretimin durumu <strong>Başlatıldı</strong> olduğunda veya bitti olarak raporlandığında gerçek proje maliyetlerini görüntüleyebilirsiniz. Maliyetler, üretim için kullanılan hammaddelere ve saatlere yönelik birden çok proje madde hareketi olarak deftere nakledilir. Üretimdeki projelerin takip edildiği BOM hiyerarşisindeki seviyeyi de tanımlayabilirsiniz.
 
 ### <a name="procure-products-and-services"></a>Ürün ve hizmet tedarik etme
 
@@ -239,9 +239,8 @@ Aşağıdaki tabloda proje tamamlama maliyetinin hesaplanması için kullanılab
 <li>Tahmin hareketleriyle gerçek hareketleri karşılaştırın.</li>
 <li>Sonraki dönem için tahminleri koruyun, azaltın veya artırın.</li>
 </ol>
-Finance and Operations, öngörülen tahminleri otomatik olarak azaltmaz. Bu nedenle, proje tamamlandığında karşılaştırma için bir temel oluşturmak için Sabit fiyatlı projede bir orijinal tahmin modelinin korunması iyi bir fikirdir. 
-> [!NOTE] Bu yöntemi seçtiğinizde en az iki tahmin modeli kullanın. bir modeli orijinal tahmini içermelidir. Diğer model için, tahmin modellerini başka bir modelden kopyalamanız gerekir. Bu yöntem sadece Sabit fiyatlı projeler ve Yatırım projeleri için geçerlidir.</td>
-> </tr>
+Finance and Operations, öngörülen tahminleri otomatik olarak azaltmaz. Bu nedenle, proje tamamlandığında karşılaştırma için bir temel oluşturmak için Sabit fiyatlı projede bir orijinal tahmin modelinin korunması iyi bir fikirdir. &gt; [!NOTE] &gt; Bu yöntemi seçtiğinizde en az iki tahmin modeli kullanın. bir modeli orijinal tahmini içermelidir. Diğer model için, tahmin modellerini başka bir modelden kopyalamanız gerekir. Bu yöntem sadece Sabit fiyatlı projeler ve Yatırım projeleri için geçerlidir.</td>
+</tr>
 <tr class="odd">
 <td>Kalan bütçe</td>
 <td>Bu yöntem, projenin tamamlanması için gerekli maliyeti hesaplamak için bir kalan bütçe modeli kullanır. Bu yöntemi kullandığınızda, fiili maliyetler ve kalan bütçe modelindeki tahmin edilen tutarlar toplanır. Sonuç toplam maliyettir. Bu yöntemi kullanmadan önce hareketlerin sisteme kaydettiğiniz gerçek hareketlere dayalı olarak düşürülmesi için mutlaka bir kalan bütçe modeli kurulmalıdır. <strong>Tahmin modelleri</strong> sayfasında, alanların <strong>Otomatik tahmin azaltma</strong> grubunda işaretlendiğinden emin olun. Tipik olarak, bir kalan bütçe bir orijinal bütçeden kopyalanır. Hareketler girildikçe kalan bütçedeki hareketler düşürülür. Proje ilerledikçe kalan bütçenin mutlaka ayarlanması gerektiğine karar verirseniz tahmin hareketlerini kalan bütçeye şarj edersiniz. <strong>Not:</strong> Bu yöntem yalnızca tahmin modeli tahmine eklenmişse uygulanabilir.</td>

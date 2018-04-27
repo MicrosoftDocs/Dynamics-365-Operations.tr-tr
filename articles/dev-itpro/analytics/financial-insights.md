@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 33a8bc78006ae9e7d5ca905a98886fd7af706604
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6679215a664ddf938a204196b00f3bc28bf65f8f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-insights"></a>Mali Bilgiler
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **Mali Bilgiler** mali anahtar performans göstergeleri (KPI'lar), mali tablolar ve grafikleri bir araya getirmek için Microsoft Power BI kullanır. Power BI Microsoft Dynamics 365 Finance and Operations içine katıştırılmıştır.
 **Mali Bilgiler**'in odağı analitik raporlamadır. Bir kuruluştaki kişiler görüntüleyebilir, araştırma yapabilir, anlayabilir ve harekete geçebilir. 
@@ -107,8 +107,20 @@ Varlıklardaki verileri düzenli olarak güncelleştirmek için tekrarlayan bir 
 
 Aşağıdaki karşılaştırma grafiği iki seçeneğin ayrılmasına yardımcı olur:
 
-|                                         | **Mali Raporlama**                            | **Mali Bilgiler**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Varsayılan raporları düzenleme**                | Evet                                                | Hayır                                 | | **Yeni raporlar oluşturma**                  | Evet                                                | Hayır                                 | | **Raporları yazdırma**                       | Evet                                                | Hayır                                 | | **Excel'e Aktarma**                     | Evet          | Ham verileri, biçimlendirilmiş rapor olmadan Excel'e Sınırlı Aktarma       | | **Raporlama hiyerarşisini /Kuruluş hiyerarşisini destekleme**   | Evet                               | Hayır                                 | | **Yardımcı muhasebe defterindeki verileri raporlama**       | Evet Yalnızca satıcı, müşteri ile sınırlıdır    | Evet Satıcı, müşteri, satıcı/müşteri grupları, satıcı/müşteri adresleri vb.  | | **Raporlama Para Birimi**      | Evet Muhasebe Para Birimi ve raporlama para birimine çevirme       | Muhasebe olmadan yalnızca para birimi      | | **Güvenlik**                | Evet Finance and Operations ve raporlama ağacı güvenliğine bağlı kalır | Tüm şirketler için veya yalnızca etkin şirket için raporları Sınırlı Görüntüleme (Finance and Operations güvenliğinden bağımsız olarak) | | **Farklı Hesap planlarını ve mali yılları destekleme** | Evet                   | Hayır                   | | **harici veriler üzerinden raporlama**                              | Hayır                   | Hayır                                   | | **Konsolidasyonları destekleme**                               | Evet                          | Sınırlı birden çok şirket üzerinden raporlama yapabilir ancak yalnızca muhasebe para birimini kullanır                                 |
 
+|                                                                       |               <strong>Mali Raporlama</strong>                |                                      <strong>Mali Bilgiler</strong>                                      |
+|-----------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+|                 <strong>Varsayılan raporları düzenle</strong>                 |                                Evet                                |                                                      Hayır                                                       |
+|                  <strong>Yeni raporlar oluştur</strong>                  |                                Evet                                |                                                      Hayır                                                       |
+|                    <strong>Raporları yazdır</strong>                     |                                Evet                                |                                                      Hayır                                                       |
+|                   <strong>Excel'e aktar</strong>                    |                                Evet                                |                           Sınırlı Ham verileri Excel'e aktarır, biçimlendirilmiş bir rapora değil                           |
+|  <strong>Raporlama hiyerarşisini/Kuruluş hiyerarşisini destekle</strong>  |                                Evet                                |                                                      Hayır                                                       |
+|               <strong>Yardımcı defter verilerini raporla</strong>               |               Evet Yalnızca satıcı, müşteri ile sınırlı                |                 Evet Satıcı, müşteri, satıcı/müşteri grupları, satıcı/müşteri adresleri vb.                 |
+|                  <strong>Raporlama para birimi</strong>                  |    Evet Muhasebe para birimi ve raporlama para birimine çevirme    |                                          Hayır Yalnızca muhasebe para birimi                                          |
+|                       <strong>Güvenlik</strong>                       | Evet Finance and Operations ile raporlama ağacı güvenliğine uyar | Sınırlı Tüm şirketler (Finance and Operations güvenliği ne olursa olsun) veya aktif şirket için raporları görüntüle |
+| <strong>Farklı hesap planlarını ve mali yılları destekle</strong> |                                Evet                                |                                                      Hayır                                                       |
+|               <strong>harici verileri raporla</strong>                |                                Hayır                                 |                                                      Hayır                                                       |
+|                <strong>Konsolidasyonları destekle</strong>                |                                Evet                                |                   Sınırlı Birden çok şirketle ilgili rapor verebilir ancak yalnızca muhasebe para birimini kullanır                   |
 
 Orijinal **CFO'ya genel bakış** çalışma alanındaki kullanıcı arabirimine ek olarak yeni KPI'lar, grafikler ve mali tablolar artık hazır. Aşağıdaki mali tablolar bulunur:
 

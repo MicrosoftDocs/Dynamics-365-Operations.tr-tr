@@ -16,16 +16,16 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: aa2bbfab4afa59c15e28526192cc07be13da11d7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d049c55a40761d0663e3d558b47b4840e5db9bf1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="my-team-mobile-workspace"></a>Ekibim mobil çalışma alanı
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, **Ekibim** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, yöneticilerin dorudan rapor verenlerini ve genişletilmiş personellerini görüntülemelerine olanak sağlar. Raporlama zincirlerindeki bireylere övgü de gönderebilirler.
 
@@ -58,7 +58,7 @@ Bu mobil çalışma alanını kullanmadan önce, aşağıdaki gereksinimleri kar
 </ul>
 </td>
 <td>Sistem yöneticisi</td>
-<td>Kuruluşunuzda Finance and Operations zaten mevcut değilse, bkz. <a href="../deployment/deploy-demo-environment.md">Bir gösteri ortamı dağıtmak</a>. Kuruluşunuzda Talent dağıtılmış değilse, sistem yöneticisi bir deneme sürümüne <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent web sitesi</a> üzerinden erişebilir.
+<td>Kuruluşunuzda Finance and Operations zaten mevcut değilse, bkz. <a href="../deployment/deploy-demo-environment.md">Bir tanıtım ortamı dağıtma</a>. Kuruluşunuzda Talent dağıtılmış değilse, sistem yöneticisi bir deneme sürümüne <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent web sitesi</a> üzerinden erişebilir.
 </td>
 </tr>
 <tr class="even">

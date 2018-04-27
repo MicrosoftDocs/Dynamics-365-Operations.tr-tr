@@ -19,17 +19,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 6772c1d7906db27333206ea2ecd5a0585c3eb939
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0ddc9d43f62df937a6fb18e15c718c37442bb9b4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-configuration-models-overview"></a>Ürün yapılandırma modellerine genel bakış
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, ürün yapılandırma modelleriyle ilgili koşullar ve kavramlar tanımlanmaktadır. Ürün yapılandırma modelleri, tek bir ürün için pek çok ürün çeşitleri yapılandırmak için kullanılan bir genel ürün yapısı oluşturmanızı sağlar.
 
@@ -58,7 +57,7 @@ Bu makalede, ürün yapılandırma modelleriyle ilgili koşullar ve kavramlar ta
 <td>Öznitelikler, ürün yapılandırma modelinin tüm özelliklerini açıklanmaktadır. Öznitelikleri farklı bir ürün yapılandırıldığında seçilebilir özellikleri belirtmek için kullanabilirsiniz. Öznitelikler kısıtlamalar ve şartlarda kullanılır. Öznitelikler oluşturulur ve ürün yapılandırma modeline eklenir, ilgili öznitelik türleri referans alınır. Bir öznitelik için bir varsayılan değer ayarlayabilirsiniz. Ürün yapılandırma modeli yapılandırıldığında, varsayılan değer yapılandırma kullanıcı arabiriminde (UI) kullanılır. Bir özniteliğin zorunlu, salt okunur veya gizli olduğunu belirtebilirsiniz.
 <ul>
 <li><strong>Zorunlu</strong> – ürün yapılandırıldığında, öznitelik için bir değer ayarlamanız gerekir.</li>
-<li><strong>Salt okunur</strong> – öznitelik değeri yapılandırma oturumu sırasında görüntülenir, ancak değiştirilemez.</li>
+<li><strong>Salt okunur</strong> – Öznitelik değeri yapılandırma oturumu sırasında görüntülenir, ancak değiştirilemez.</li>
 <li><strong>Gizli</strong> – öznitelik değeri, kısıtlamalara ve koşullara dahil edilir ancak yapılandırma oturumu sırasında görüntülenmez.</li>
 </ul>
 Ayrıca, öznitelikler için bir koşul belirtebilirsiniz. Koşul karşılanırsa, zorunlu öznitelik için bir değer girilmelidir. Koşulların ürün yapılandırma modeline dahil edilebilmeleri için özniteliklerde, ürün reçetelerinde ve rota operasyonlarında karşılanmalıdır Bir koşulda referans gösterilen herhangi bir öznitelik zorunlu hale gelir. Öznitelikleri, <strong>Öznitelikler</strong> sekmesinde zorunlu olarak seçmenizi öneririz. Bu, zorunlu öznitelikleri belirlemeyi kolaylaştırabilir. Öznitelik değerleri yeniden yapılandırmaların önemli bir parçasıdır. Sistem yapılandırma oturumu sırasında kullanıcı tarafından yapılan seçimler ile eşleşen bir yapılandırma var olup olmadığını belirlemek için öznitelik değerlerini kullanır.</td>

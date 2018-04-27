@@ -19,19 +19,20 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 84e00ef62a995d37878de6b2786dbc2ee2277070
-ms.openlocfilehash: 8a1ec5a3b19d1022232527f4960617bd985bc2b3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7d00df6263530ba9fff4c246cb3593cd607f6719
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="batch-balancing"></a>Toplu iş dengelemesi
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
+Bu konu toplu iş dengeleme işleminin nasıl desteklendiğini açıklar. 
 
-Bu konu toplu iş dengeleme işleminin nasıl desteklendiğini açıklar.
+[Microsoft Dynamics 365 for Finance and Operations'da toplu iş dengelemesi hakkında bir video](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be) izleyin.
 
 Toplu iş dengeleme işleminde, bir ürün toplu işinde kullanılacak bileşenlerin miktarı seçilen ürün toplu işlerindeki etkin bileşenlerin yoğunluğundan hesaplanır.
 
@@ -179,7 +180,7 @@ Bileşen miktarları hesaplandıktan sonra, formülü onaylayıp serbest bıraka
 
 -   Bir ürün ambar yönetimi işlemleri için etkinleştirilmişse, formül satırı ambar yönetim işlemleriyle ilgili ilkelere uygun olarak ambara serbest bırakılır. Formül satırı, dengelenen miktarlarla eşleşen miktarlarda serbest bırakılır ve etkin bileşenler için seçilen belirli toplu işler için serbest bırakılır.
 
->   [!NOTE]
+> [!NOTE]
 >   Formül satırları yalnızca ambara toplu iş dengeleme işleminin bir bölümü olarak serbest bırakılır. Üretim için malzemeleri ambara serbest bırakmak için başka seçenekler bulunmasına karşın, bu seçenekler formül satırları için kullanılamaz.
 
 -   Bir ürün ambar yönetim işlemleri için etkinleştirilmemişse, ürün için formülü onaylayıp serbest bıraktığınızda bir üretim malzeme çekme listesi oluşturulur.

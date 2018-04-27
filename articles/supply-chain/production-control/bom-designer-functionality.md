@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 41f629401731920a9cb6443ada8b1a34a70e8da9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b7d4530ecccf18d9370d84ff2b61be1514b80192
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="bom-designer-functionality"></a>Ürün reçetesi tasarımcısı işlevi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, ürün reçetesi tasarımcısı sayfasını, ürün reçeteleri (BOM) tasarlamak ve ağaç yapıları ile çalışmak için nasıl kullanabileceğinizi açıklar. Farklı yapılandırmaları seçmek için Kurulum'u tıklatabilir ve ağacın satırlarında hangi bilgilerin gösterileceğini belirleyebilirsiniz.
 
@@ -66,7 +65,7 @@ BOM ve rotaya uygulanan filtre, BOM tasarımcısının başlığında görüntü
 <tbody>
 <tr class="odd">
 <td>Ürün boyutları</td>
-<td>Seçilen bitmiş ürün bir ana ürün ise, etkin ürün boyutlarını ana bölüm için tanımlayabilirsiniz. <strong>Note:</strong> Ana ürün olmayan bir ürün için ürün reçetesi tasarımcısını açarsanız, <strong>Filtre</strong> iletişim kutusunda hiçbir ürün boyutu seçilemez.</td>
+<td>Seçilen bitmiş ürün bir ana ürün ise, etkin ürün boyutlarını ana bölüm için tanımlayabilirsiniz. <strong>Not:</strong> Ana ürün olmayan bir ürün için ürün reçetesi tasarımcısını açarsanız, <strong>Filtre</strong> iletişim kutusunda hiçbir ürün boyutu seçilemez.</td>
 </tr>
 <tr class="even">
 <td>Tesis</td>

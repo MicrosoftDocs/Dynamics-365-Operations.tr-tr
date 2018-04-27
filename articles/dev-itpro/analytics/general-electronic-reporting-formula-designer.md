@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Elektronik raporlamada formül tasarımcısı
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu konu, formül tasarımcısının Elektronik raporlamada (ER) nasıl kullanılacağını açıklar. Belirli bir elektronik belge için ER içerisinde bir biçim tasarladığınızda, belgenin gereksinimlerini karşılamak ve biçimlendirmek üzere formülleri veri dönüştürme için kullanabilirsiniz. Bu formüller Microsoft Excel'deki formüllere benzer. Formüllerde farklı türde işlevler desteklenmektedir: metin, tarih ve saat, matematiksel mantıksal, bilgi, veri türü dönüştürme ve diğer (iş etki alanına özel işlevler).
 
@@ -313,12 +313,12 @@ Aşağıdaki tablolar, ER veri modelleri ve ER raporları tasarlamak için kulla
 <tr class="odd">
 <td>ORDERBY (liste [ifade 1, ifade 2,...])</td>
 <td>Belirtilen bağımsız değişkenlere göre sıralandıktan sonra belirtilen listeyi döndürür. Bu bağımsız değişkenler ifadeler olarak tanımlanabilir.</td>
-<td><strong>Satıcı</strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılsa,<strong>ORDERBY (Vendors, Vendors.'name()')</strong>, satıcıların isme göre sıralanan listesini artan sıraya göre dizilmiş şekilde döndürür.</td>
+<td><strong>Satıcı</strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılsa,<strong>ORDERBY (Vendors, Vendors.&#39;name()&#39;)</strong>, satıcıların isme göre sıralanan listesini artan sıraya göre dizilmiş şekilde döndürür.</td>
 </tr>
 <tr class="even">
 <td>REVERSE (liste)</td>
 <td>Belirtilen listeyi ters sıralama düzeninde döndür.</td>
-<td><strong>Satıcı </strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılırsa, <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong>, satıcıların isme göre sıralanan listesini azalan sıraya göre dizilmiş şekilde döndürür.</td>
+<td><strong>Satıcı </strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılırsa, <strong>REVERSE (ORDERBY (Vendors, Vendors.&#39;name()&#39;)) )</strong>, satıcıların isme göre sıralanan listesini azalan sıraya göre dizilmiş şekilde döndürür.</td>
 </tr>
 <tr class="odd">
 <td>WHERE (liste, koşul)</td>
@@ -395,7 +395,9 @@ Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma de�
 <tr class="even">
 <td>STRINGJOIN (liste, alan adı, ayırıcı)</td>
 <td>Belirtilen listedeki belirtilen alanın art arda eklenmiş değerlerinden oluşan bir dize döndürür. Değerler belirtilen sınırlayıcı ile ayrılır.</td>
-<td>Veri kaynağı (DS) olarak <strong>SPLIT(&quot;abc&quot; , 1)</strong> girerseniz, <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> ifadesi <strong>&quot;a:b:c&quot;</strong> döndürür.</td>
+
+<td>Veri kaynağı olarak (DS) <strong>SPLIT(&quot;abc&quot; , 1)</strong> girerseniz, <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> ifadesi <strong>&quot;a</strong><strong>:b</strong><strong>:c&quot;</strong> döndürür.</td>
+
 </tr>
 <tr class="odd">
 <td>SPLITLISTBYLIMIT (liste, sınır değeri, sınır kaynağı)</td>
@@ -416,7 +418,7 @@ Sınırının kaynak (ağırlık) değeri (11) tanımlanan sınırı (9) geçti�
 <tr class="even">
 <td>FİLTRE (liste, koşul)</td>
 <td>Sorgu belirtilen koşula göre filtre uygulayacak şekilde değiştirildikten sonra belirtilen listeyi döndürür. <strong>WHERE</strong> işlevinden farklı olarak bu işlev, belirtilen koşul <strong>Tablo kayıtları</strong> türünün herhangi bir ER veri kaynağına veritabanı düzeyinde uygulanabilir. Liste ve koşul tablolar ve ilişkiler kullanılarak tanımlanabilir.</td>
-  <td><strong>Satıcı</strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılırsa, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong>, yalnızca grup 40'a dahil olan satıcıların listesini döndürür. <strong>Satıcı</strong> <strong>VendTable</strong> tablosuna başvuran bir ER veri kaynağı olarak yapılandırılsa ve ER veri kaynağı olarak yapılandırılan <strong>parmVendorBankGroup</strong> dize veri türündeki değeri döndürürse,  <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> yalnızca belirli bir banka grubuna ait olan satısı hesaplarının listesini döndürür.</td>
+  <td><strong>Satıcı</strong>, VendTable tablosuna başvuran ER kaynağı olarak yapılandırılırsa, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong>, yalnızca grup 40'a dahil olan satıcıların listesini döndürür. <strong>Satıcı</strong> <strong>VendTable</strong> tablosuna başvuran bir ER veri kaynağı olarak yapılandırılsa ve ER veri kaynağı olarak yapılandırılan <strong>parmVendorBankGroup</strong> dize veri türündeki değeri döndürürse, <strong>FILTER (Vendor.&#39;&lt;Relations&#39;.VendBankAccount, Vendor.&#39;&lt;Relations&#39;.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> yalnızca belirli bir banka grubuna ait olan satıcı hesaplarının listesini döndürür.</td>
 </tr>
 </tbody>
 </table>
@@ -540,7 +542,7 @@ Bu işlevin döndürdüğü dize DOSYA biçimi üst öğesinde seçtiğiniz kodl
 </tr>
 <tr class="even">
 <td>FORMAT (dize 1, dize 2[, dize 3, …])</td>
-<td>Belirtilen dizeyi, tüm <strong>%N</strong> oluşumlarını <em>n</em>'ci bağımsız değişken ile değiştirerek biçimlendirdikten sonra döndürür. Bağımsız değişkenler, dizelerdir. Bir parametre için bir bağımsız değişken sağlanmamışsa, parametre izede <strong>&quot;%N&quot;</strong> olarak döndürülür. <strong>gerçek</strong> türün değerleri için, dize dönüşümü iki ondalık basamakla sınırlıdır.</td>
+<td>Belirtilen dizeyi, tüm <strong>%N</strong> oluşumlarını <em>n</em>'ci bağımsız değişken ile değiştirerek biçimlendirdikten sonra döndürür. Bağımsız değişkenler, dizelerdir. Bir parametre için bir bağımsız değişken sağlanmamışsa, parametre dizede <strong>&quot;%N&quot;</strong> olarak döndürülür. <strong>gerçek</strong> türün değerleri için, dize dönüşümü iki ondalık basamakla sınırlıdır.</td>
 <td>Aşağıdaki örnekte, <strong>PaymentModel</strong> veri kaynağı müşteri kayıtlarının listesini <strong>Müşteri</strong> bileşeni ve işleme tarihi değerini <strong>ProcessingDate</strong> alanı üzerinden döndürür.
 <p><a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a></p>
 <p>Seçilen müşteriler için elektronik dosya oluşturmak üzere tasarlanmış ER biçiminde veri kaynağı olarak <strong>PaymentModel</strong> seçilir ve işlem akışını denetler. Seçilmiş bir müşteri raporun işlendiği tarihte durdurulmuşsa, kullanıcıyı bilgilendirmek için bir özel durum oluşturulur. Bu tür bir işleme denetimi için tasarlanmış formül aşağıdaki kaynakları kullanabilir:</p>
@@ -553,7 +555,7 @@ Bu işlevin döndürdüğü dize DOSYA biçimi üst öğesinde seçtiğiniz kodl
 <li>Aşağıdaki metne sahip Finance and Operations SYS18389 etiketi:
 <ul>
 <li><strong>TR-TR dili için:</strong> &quot;Müşteri %1, %2 için durduruldu.&quot;</li>
-<li><strong>DE dili için:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
+<li><strong>DE dili için:</strong> &quot;Debitor &#39;%1&#39; wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>Tasarlanabilen formül şudur:</p>
@@ -561,7 +563,7 @@ Bu işlevin döndürdüğü dize DOSYA biçimi üst öğesinde seçtiğiniz kodl
 <p>Rapor <strong>Litware Retail</strong> müşterisi için Aralık 17, 2015 tarihinde <strong>EN-US</strong> kültüründe ve <strong>EN-US</strong> dilinde işlenmişse bu formül son kullanıcıya özel durum iletisi olarak sunulabilecek aşağıdaki metni içerir:</p>
 <p>&quot;Yazdırılacak hiçbir şey yok. Müşteri Litware perakende 17/12/2015 için durduruldu.&quot;</p>
 <p>Aynı rapor <strong>Litware Retail</strong> müşterisi için Aralık 17, 2015 tarihinde <strong>DE</strong> kültürü ve <strong>DE</strong> dilinde işlenmişse, bu formül başka bir tarih biçimini kullanan aşağıdaki metni döndürür:</p>
-<p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
+<p>&quot;Nichts zu drucken. Debitor &#39;Litware Retail&#39; wird für 17.12.2015 gesperrt.&quot;</p>
 <blockquote>[!NOTE]<br>
 Aşağıdaki sözdizimi, etiketler için ER formüllerinde kullanılır:
 <ul>

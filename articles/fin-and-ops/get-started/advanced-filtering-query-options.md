@@ -19,17 +19,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1fe940d2d282a5b4468b3ba572626b5c87839e6d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4361311be0cf5c33c9b2fa4700b084a7b43f5b65
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-filtering-and-query-syntax"></a>Gelişmiş filtreleme ve sorgu söz dizimi
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusundaki "eşleşmeler" işlecini kullanırken kullanılabilecek filtreleme ve sorgu seçenekleri açıklanmaktadır.
 
@@ -68,7 +67,7 @@ Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusundaki "eşleşmeler
 <td><em>değerinden</em>..<em>değerine</em> (çift nokta)</td>
 <td>Çift nokta ile ayrılan iki değer arasında</td>
 <td>Başlangıç değerini girin, ardından çift nokta girin ve bitiş değerini girin.</td>
-<td><strong>1..10</strong>, 1 ile 10 arasındaki tüm değerleri bulur. Ancak bir dize alanında <strong>A..C</strong>, &quot;A&quot; ve &quot;B&quot; ile başlayan tüm değerleri ve &quot;C&quot; ile tam olarak eşdeğer olan tüm değerleri bulur. Örneğin, bu sorgu &quot;Ca&quot;'yı bulmayacaktır. &quot;A*&quot; tipinden &quot;C*&quot; tipine tüm değerleri bulmak için <strong>A..D</strong> yazın.</td>
+<td><strong>1..10</strong>, 1 ile 10 arasındaki tüm değerleri bulur. Ancak bir dize alanında <strong>A..C</strong>, &quot;A&quot; ve &quot;B&quot; ile başlayan tüm değerleri ve &quot;C&quot; ile tam olarak eşdeğer olan tüm değerleri bulur. Örneğin, bu sorgu &quot;Ca&quot;'yı bulmayacaktır. &quot;A<em>&quot; tipinden &quot;C</em>&quot; tipine tüm değerleri bulmak için <strong>A..D</strong> yazın.</td>
 </tr>
 <tr class="even">
 <td>..<em>değer</em> (çift nokta)</td>
@@ -97,20 +96,20 @@ Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusundaki "eşleşmeler
 <tr class="even">
 <td><em>değer</em>* (yıldız)</td>
 <td>Girilen değerden başlar</td>
-<td>Başlangıç değerini ve ardından yıldız yazın (<strong>*</strong>).</td>
-<td><strong>S*</strong> &quot;Stockholm&quot;, &quot;Sydney&quot; ve &quot;San Francisco&quot; gibi &quot;S&quot; ile başlayan dizeleri bulacaktır.</td>
+<td>Başlangıç değerini ve ardından yıldız yazın (<strong><em></strong>).</td>
+<td><strong>S</em></strong> &quot;Stockholm&quot;, &quot;Sydney&quot; ve &quot;San Francisco&quot; gibi &quot;S&quot; ile başlayan dizeleri bulacaktır.</td>
 </tr>
 <tr class="odd">
-<td>*<em>değer</em> (yıldız)</td>
+<td><em><em>değer</em> (yıldız)</td>
 <td>Girilen değerle biten</td>
 <td>Bir yıldız girin ve ardından bitiş değerini girin.</td>
-<td><strong>*doğu</strong>, &quot;Kuzeydoğu&quot; ve &quot;Güneydoğu&quot; gibi &quot;doğu&quot; ile biten dizeleri bulacaktır.</td>
+<td><strong></em>doğu</strong> &quot;Kuzeydoğu&quot; ve &quot;Güneydoğu&quot; gibi &quot;doğu&quot; ile biten dizeleri bulacaktır.</td>
 </tr>
 <tr class="even">
-<td>*<em>değer</em>* (yıldız)</td>
+<td><em><em>değer</em></em> (yıldız)</td>
 <td>Girilen değeri içeren</td>
 <td>Bir yıldız girin, ardından değeri girin ve daha sonra bir yıldız daha girin.</td>
-<td><strong>*th*</strong>, &quot;Northeast&quot; ve &quot;Southeast&quot; gibi &quot;th&quot; içeren dizeleri bulacaktır.</td>
+<td><strong><em>th</em></strong>, &quot;Northeast&quot; ve &quot;Southeast&quot; gibi &quot;th&quot; içeren dizeleri bulacaktır.</td>
 </tr>
 <tr class="odd">
 <td>? (soru işareti)</td>
@@ -131,7 +130,7 @@ Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusundaki "eşleşmeler
 <td><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
-<td>S</td>
+<td>T</td>
 <td>Bugünün tarihi</td>
 <td><strong>T</strong> yazın.</td>
 <td><strong>T</strong> bugünün tarihi ile eşleşir.</td>

@@ -19,17 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6426f208a51ffbf72c6faa8cb281aba2984052d7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0164d64b8c37c19a3b8b13970dbda5927073eca8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Alan açıklamalarını görüntüleme ve dışarı aktarma
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, alan açıklamalarının nasıl görüntüleneceği ve açıklamaları dışa aktarmak için Alan açıklamalarının nasıl kullanılacağı açıklanmaktadır.
 
@@ -77,7 +76,7 @@ Bir sayfanın açıklamalarını dışa aktarmak için, aşağıdaki adımları 
     -   Birden fazla tam eşleşme varsa hiçbir açıklama gösterilmez. Açılır listeyi açıp istediğiniz sayfayı seçmelisiniz.
     -   Yazdığınız ad, başka bir sayfanın adının parçası ise sayfanızın açıklamalarını görürsünüz. Ancak, açılır listeyi açarsanız bu adı içeren ek sayfaları da görürsünüz.
 
-Örneğin ****Sayfa seçin**** alanında **Sayım** yazarken hiçbir açıklama gösterilmez. Açılır listeyi açın ve adı **Sayım** olan iki sayfa ve adı, "Sayım" kelimesini içeren birkaç sayfa olduğunu görün. AOT adı **InventJournalCount** olan sayfayı seçerseniz, bu sayfanın alan açıklamaları gösterilir. Ancak açılır listeyi yeniden açarsanız listenin artık AOT adında "InventJournalCount" geçen tüm sayfaları içerdiğini görürsünüz.
+Örneğin *<strong><em>Sayfa seçin</em></strong>* alanında <strong>Sayım</strong> yazarken hiçbir açıklama gösterilmez. Açılır listeyi açın ve adı <strong>Sayım</strong> olan iki sayfa ve adı, "Sayım" kelimesini içeren birkaç sayfa olduğunu görün. AOT adı <strong>InventJournalCount</strong> olan sayfayı seçerseniz, bu sayfanın alan açıklamaları gösterilir. Ancak açılır listeyi yeniden açarsanız listenin artık AOT adında "InventJournalCount" geçen tüm sayfaları içerdiğini görürsünüz.
 
 ## <a name="troubleshooting"></a>Sorun Giderme
 Bu bölüm, alan açıklamalarını kullanırken karşılaşabileceğiniz sorunları gidermenize yardımcı olacak bilgiler içerir.

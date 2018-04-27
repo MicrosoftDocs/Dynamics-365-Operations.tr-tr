@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 76c2b078b583a1f8f2235eef15dbba514e57b0f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Harici satıcılarla satıcı iş birliği
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **Satıcı iş birliği** modülü Microsoft Dynamics 365 for Finance and Operations ile elektronik veri alış verişi (EDI) tümleştirmesi olmayan satıcılar için tasarlanmıştır. Satıcıların satınalma siparişleri (PO'lar), faturalar, konsinye stok bilgileri ve teklif talepleri (RFQ'lar) ile çalışmasına ve satıcı ana verilerinin bir bölümüne erişebilmelerine olanak tanır. Bu konuda PO'lar, RFQ'lar ve konsinye stokla çalışmak için satıcı iş birliği arabirimini kullanan harici satıcılarla nasıl iş birliği yapabileceğiniz açıklanmaktadır. Ayrıca belirli bir satıcının satıcı iş birliğini kullanmak üzere nasıl etkinleştirileceği ve tüm satıcıların bir PO'ya yanıt verdiklerinde görecekleri bilgilerin nasıl tanımlanacağı da açıklanır.
 
@@ -116,7 +116,7 @@ Satıcıya gönderilen ve <strong>Harici İnceleme</strong> durumunda olan PO sa
 <li>Bir maddenin yerine ikame ürün önerebilirsiniz.</li>
 </ul>
 Satıcı fiyat bilgilerini ve giderleri değiştiremez. Bununla birlikte, satıcı notları kullanarak bu değişiklikleri önerebilir.</td>
-<td>Satıcı yanıtı <strong>Değişikliklerle kabul edildi</strong> olarak kaydedilir ve PO'nun durumu <strong>Harici İncelemede</strong> olarak kalır. Durumlar satıcının hangi türde değişiklikler önerdiğini gösterir. Değişikliklerdeki otomatik tüketim hakkında bilgi için, bu konunun ilerleyen bölümündeki "Satıcı değişiklikler önerdiğinde satın alma siparişini güncelleştirme" bölümüne bakın. </td>
+<td>Satıcı yanıtı <strong>Değişikliklerle kabul edildi</strong> olarak kaydedilir ve PO'nun durumu <strong>Harici İncelemede</strong> olarak kalır. Durumlar satıcının hangi türde değişiklikler önerdiğini gösterir. Değişikliklerdeki otomatik tüketim hakkında bilgi için, bu konunun ilerleyen bölümündeki &quot;Satıcı değişiklikler önerdiğinde satın alma siparişini güncelleştirme&quot; bölümüne bakın. </td>
 </tr>
 </tbody>
 </table>

@@ -3,11 +3,12 @@ title: "Power BI maliyet yönetimi içeriği"
 description: "Bu konu, Power BI Maliyet Yönetimi'nde nelerin bulunduğunu açıklar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 02/02/2018
+ms.date: 03/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -19,124 +20,195 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7b5c4428c8610a7b2d4cf1a28287ba2bb1f9c2ea
-ms.openlocfilehash: 6739d769c3f7876f67d80554743458b0abd5aae5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a4eacafdf9b9e0eabe7fe599e679fca18c749733
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-management-power-bi-content"></a>Power BI maliyet yönetimi içeriği
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+
+## <a name="overview"></a>Özet
+
+**Maliyet yönetimi** Microsoft Power BI içeriği stok muhasebecileri veya kuruluş içinde stok durumundan veya süren işten (WIP) sorumlu olan veya bunlarla ilgilenen veya standart maliyet farklarından sorumlu kişilere yöneliktir.
 
 > [!Note]
-> Bu içerik paketi [PowerBI.com'da yayımlanan Power BI içerik paketleri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom) bölümünde belirtildiği üzere kullanım dışı bırakılmıştır.
+> Bu konuda açıklanan **Maliyet yönetimi** Power BI içeriği Dynamics 365 for Finance and Operations 8.0 için geçerlidir.
+> 
+> PowerBI.com adresinde yayımlanan **Maliyet yönetimi** Power BI içerik paketi kullanımdan kaldırılmıştır. Bu kullanımdan kaldırma hakkında daha fazla bilgi için bkz. [PowerBI.com'da yayımlanan Power BI içerik paketleri](../migration-upgrade/deprecated-features.md#power-bi-content-packs-published-to-powerbicom).
 
 
-Bu konu, Power BI Maliyet Yönetimi'nde nelerin bulunduğunu açıklar. 
+Bu Power BI içeriği stokların performansını izlemenize ve maliyetin bunlar üzerinde nasıl akış sağladığını görselleştirmenize yardımcı olan kategorilere ayrılmış bir biçim sağlar. Ciro oranı, stoğun elde olduğu gün sayısı, doğruluk, tercih ettiğiniz toplama düzeyinde "ABC sınıflandırması" (şirket, madde, madde grubu veya tesis) gibi yönetimsel öngörüler de elde edebilirsiniz. Kullanıma sunulan bu bilgiler, mali tabloya detaylı bir destekleyici olarak da kullanılabilir.
 
-**Maliyet yönetimi** Microsoft Power BI içeriği stok muhasebecileri veya kuruluştaki stoktan sorumlu olan kişiler için tasarlanmıştır. **Maliyet yönetimi** Power BI içeriği stok ve süren iş (WIP) stokuna dair yönetimsel öngörü sağlar ve maliyetlerin bunların arasında zaman içerisinde kategorilere göre nasıl bir akış gösterdiğini gösterir. Bu bilgiler, mali tabloya detaylı bir destekleyici olarak da kullanılabilir.
+Power BI içeriği birincil veri kaynağı olarak **CostObjectStatementCache** tablosunu kullanan **CostObjectStatementCacheMonthly** toplam ölçümüne yerleşiktir. Bu tablo Veri kümesi önbelleğini çerçevesi tarafından yönetilir. Tablo varsayılan olarak her 24 saatte bir güncelleştirilir, ancak güncelleştirme sıklığını değiştirebilir veya veri kümesi önbelleği yapılandırmasında el ile güncelleştirmeyi etkinleştirebilirsiniz. El ile güncelleştirmeler **Maliyet yönetimi** çalışma alanı veya **Maliyet analizi** çalışma alanından çalıştırılabilir.
 
-## <a name="key-measures"></a>Önemli ölçüler
+**CostObjectStatementCache** tablosunun her güncelleştirilmesinden sonra, **CostObjectStatementCacheMonthly** toplama ölçümünün Power BI görselleştirmelerindeki veriler güncelleştirilmeden önce güncelleştirilmesi gerekir.
 
-+ Başlangıç bakiyesi
-+ Kapanış bakiyesi
-+ Net değişiklik
-+ %'deki net değişiklik
-+ Yaşlandırma
+## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
 
-## <a name="key-performance-indicators"></a>Temel performans göstergeleri
-+ Stok dönüşü
-+ Stok doğruluğu
+**Maliyet yönetimi** Power BI içeriği **Maliyet yönetimi** ve **Maliyet analizi** çalışma alanında gösterilir.
 
-CostAggregatedCostStatementEntryEntity için birincil veri kaynağı CostStatementCache tablosudur. Bu tablo Veri kümesi önbelleğini çerçevesi tarafından yönetilir. Tablo varsayılan olarak her 24 saatte bir güncelleştirilir, ancak güncelleştirmeleri veri önbelleği yapılandırmasında el ile etkinleştirebilirsiniz. Daha sonra **Maliyet yönetimi** veya **Maliyet analizi** çalışma alanlarında bir el ile güncelleştirme gerçekleştirebilirsiniz. CostStatementCache güncelleştirmesi çalıştırıldıktan sonra sitede güncelleştirilmiş verileri görmek için Power BI.com'da OData bağlantısını güncelleştirmeniz gerekir. Bu Power BI içeriğindeki fark (satın alma, üretim) önlemler, yalnızca Standart maliyet stok yönteminde değerlenmiş olan öğelerle ilgilidir. Üretim farkı gerçekleşmiş maliyet ve etkin maliyet arasındaki fark olarak hesaplanır. Üretim farkı, üretim siparişinin durumu **Bitti** olduğunda hesaplanır. Üretim farkı türleri ve her türün nasıl hesaplandığı hakkında daha fazla bilgi için bkz: [Tamamlanmış üretim emri için varyans çözümleme hakkında](https://technet.microsoft.com/en-us/library/gg242850.aspx).
+**Maliyet yönetimi** çalışma alanı aşağıdaki sekmeleri içerir:
+
+- **Genel Bakış** – Bu sekme, uygulama verilerini gösterir.
+- **Stok muhasebesi durumu** – Bu sekme Power BI içeriğini gösterir.
+- **Üretim muhasebesi durumu** – Bu sekme Power BI içeriğini gösterir.
+
+**Maliyet analizi** çalışma alanı aşağıdaki sekmeleri içerir:
+
+- **Genel Bakış** – Bu sekme, uygulama verilerini gösterir.
+- **Stok muhasebesi analizi** – Bu sekme Power BI içeriğini gösterir.
+- **Üretim muhasebesi analizi** – Bu sekme Power BI içeriğini gösterir.
+- **Standart maliyet farkı analizi** – Bu sekme Power BI içeriğini gösterir.
+
+## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan rapor sayfaları
+
+**Cost management** Power BI içeriği, bir dizi ölçümden oluşan bir rapor sayfaları kümesi içerir. Bu ölçümler grafikler, kutucuklar ve tablolar şeklinde görüntülenir. 
+
+Aşağıdaki tablolar **Yönetim maliyeti** Power BI içeriğindeki görselleştirmelere bir bakış sağlar.
+
+### <a name="inventory-accounting-status"></a>Stok muhasebesi durumu
+
+| Rapor sayfası                               | Gözde canlandırma                                   |
+|-------------------------------------------|-------------------------------------------------|
+| Stok özeti                        | Başlangıç bakiyesi                               |
+|                                           | Net değişiklik                                      |
+|                                           | Net değişiklik %                                    |
+|                                           | Kapanış bakiyesi                                  |
+|                                           | Stok doğruluğu                              |
+|                                           | Stok devir hızı oranı                        |
+|                                           | Eldeki stok günleri                          |
+|                                           | Dönemdeki etkin ürün                        |
+|                                           | Dönemdeki etkin maliyet nesneleri                   |
+|                                           | Madde grubuna göre bakiye                           |
+|                                           | Tesise göre bakiye                                 |
+|                                           | Kategoriye göre ekstre                           |
+|                                           | Üç aylık dönem başına net değişiklik                           |
+| Tesis ve madde grubuna göre stoğa genel bakış | Tesise göre stok doğruluğu                      |
+|                                           | Tesise göre stok ciro oranı                |
+|                                           | Tesise göre stok bitiş bakiyesi                |
+|                                           | Madde grubuna göre stok doğruluğu                |
+|                                           | Madde grubuna göre stok ciro oranı          |
+|                                           | Tesise ve madde grubuna göre stok bitiş bakiyesi |
+| Stok ekstresi                       | Stok ekstresi                             |
+| Tesise göre stok ekstresi               | Tesise göre stok ekstresi                     |
+| Ürün hiyerarşisine göre stok ekstresi  | Stok ekstresi                             |
+| Ürün hiyerarşisine göre stok ekstresi  | Tesise göre stok ekstresi                     |
+
+### <a name="manufacturing-accounting-status"></a>Üretim muhasebesi durumu
+
+| Rapor sayfası                | Gözde canlandırma                       |
+|----------------------------|-------------------------------------|
+| Süren işe genel bakış YTD           | Başlangıç bakiyesi                   |
+|                            | Net değişiklik                          |
+|                            | Net değişiklik %                        |
+|                            | Kapanış bakiyesi                      |
+|                            | Süren iş ciro oranı                  |
+|                            | Süren iş eldeki stok günleri                    |
+|                            | Dönemdeki etkin maliyet nesnesi        |
+|                            | Kaynak grubuna göre net değişim        |
+|                            | Tesise göre bakiye                     |
+|                            | Kategoriye göre ekstre               |
+|                            | Üç aylık dönem başına net değişiklik               |
+| süren iş raporu              | Başlangıç bakiyesi                   |
+|                            | Kapanış bakiyesi                      |
+|                            | Kategoriye göre süren iş ekstresi           |
+| Tesise göre süren iş ekstresi      | Başlangıç bakiyesi                   |
+|                            | Kapanış bakiyesi                      |
+|                            | Kategori ve tesise göre süren iş ekstresi  |
+| Hiyerarşiye göre süren iş ekstresi | Başlangıç bakiyesi                   |
+|                            | Kapanış bakiyesi                      |
+|                            | Kategori hiyerarşisine göre süren iş ekstresi |
+
+### <a name="inventory-accounting-analysis"></a>Stok muhasebesi analizi
+
+| Rapor sayfası        | Gözde canlandırma                                                                |
+|--------------------|------------------------------------------------------------------------------|
+| Stok ayrıntıları  | Kapanış bakiyesine göre en iyi 10 kaynak                                           |
+|                    | Net değişim artışına göre en iyi 10 kaynak                                      |
+|                    | Net değişim düşüşüne göre en iyi 10 kaynak                                      |
+|                    | Stok ciro oranına göre en iyi 10 kaynak                                 |
+|                    | Düşük stok ciro oranı ve eşik üzerindeki kapanış bakiyesine göre kaynaklar |
+|                    | Düşük doğruluğa göre en iyi 10 kaynak                                             |
+| ABC sınıflandırması | Stok bitiş bakiyesi                                                     |
+|                    | Tüketilen malzeme                                                            |
+|                    | Satılan (SMM)                                                                  |
+| Stok eğilimleri   | Stok bitiş bakiyesi                                                     |
+|                    | Stok net değişimi                                                         |
+|                    | Stok devir hızı oranı                                                     |
+|                    | Stok doğruluğu                                                           |
+
+### <a name="manufacturing-accounting-analysis"></a>Üretim muhasebesi analizi
+
+| Rapor sayfası | Gözde canlandırma      |
+|-------------|--------------------|
+| Süren iş eğilimleri  | Süren iş kapanış bakiyesi |
+|             | Süren iş net değişim     |
+|             | Süren iş ciro oranı |
+
+### <a name="std-cost-variance-analysis"></a>Standart maliyet farkı analizi
+
+| Rapor sayfası                             | Gözde canlandırma                                        |
+|-----------------------------------------|------------------------------------------------------|
+| Satınalma fiyatı farkı (Std. maliyet) YTD | Sağlanan bakiye                                     |
+|                                         | Satınalma fiyat farkı                              |
+|                                         | Satınalma fiyat farkı oranı                        |
+|                                         | Madde grubuna göre fark                               |
+|                                         | Tesise göre fark                                     |
+|                                         | Üç aylık döneme göre satınalma fiyatı                            |
+|                                         | Üç aylık dönem ve madde grubuna göre satınalma fiyatı             |
+|                                         | Uygun olmayan satınalma fiyatı oranına göre en iyi 10 kaynak |
+|                                         | Uygun satınalma fiyatı oranına göre en iyi 10 kaynak   |
+| Üretim farkı (Std. maliyet) YTD     | Üretim maliyeti                                    |
+|                                         | Üretim farkı                                  |
+|                                         | Üretim farkı oranı                            |
+|                                         | Madde grubuna göre fark                               |
+|                                         | Tesise göre fark                                     |
+|                                         | Üç aylık döneme göre üretim farkı                       |
+|                                         | Üç aylık dönem ve fark türüne göre üretim farkı     |
+|                                         | Uygun olmayan üretim farkına göre en iyi 10 kaynak  |
+|                                         | Uygun üretim farkına göre en iyi 10 kaynak    |
+
+### <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
+
+Microsoft Dynamics 365 for Finance and Operations'dan alınan veriler **Maliyet yönetimi** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, analiz için en iyi duruma getirilen bir Microsoft SQL Server veritabanı olan varlık mağazasında hazırlanmış toplam ölçümler olarak temsil edilir. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesi](power-bi-integration-entity-store.md).
+
+Aşağıdaki nesnelerin başlıca toplama ölçümleri Power BI içeriğinin temeli olarak kullanılır.
+
+| Nesne                          | Önemli toplam ölçümler | Finance and Operations için veri kaynağı | Alan               |
+|---------------------------------|----------------------------|----------------------------------------|---------------------|
+| CostObjectStatementCacheMonthly | Tutar                     | CostObjectStatementCache               | Tutar              |
+| CostObjectStatementCacheMonthly | Miktar                   | CostObjectStatementCache               | Miktar                 |
+| CostInventoryAccountingKPIGoal  | AnnualInventoryTurn        | CostInventoryAccountingKPIGoal         | AnnualInventoryTurn |
+| CostInventoryAccountingKPIGoal  | InventoryAccuracy          | CostInventoryAccountingKPIGoal         | InventoryAccuracy   |
+
+Aşağıdaki tabloda Power BI içeriğinde hesaplanan temel ölçümler gösterilir.
+
+| Ölçü                            | Hesaplama |
+|------------------------------------|-------------|
+| Başlangıç bakiyesi                  | Başlangıç bakiyesi = [Bitiş bakiyesi]-[Net değişiklik] |
+| Başlangıç bakiyesi miktarı             | Başlangıç bakiyesi miktarı = [Bitiş bakiyesi miktarı]-[Net değişiklik miktarı] |
+| Kapanış bakiyesi                     | Bitiş bakiyesi = (CALCULATE(SUM([Amount]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE])))) |
+| Bitiş bakiyesi miktarı                | Bitiş bakiyesi miktarı = CALCULATE(SUM([QTY]), FILTER(ALL(FiscalCalendar),FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE]))) |
+| Net değişiklik                         | Net değişiklik = SUM([AMOUNT]) |
+| Net değişiklik miktarı                    | Net değişiklik miktarı = SUM([QTY]) |
+| Tutara göre stok ciro oranı | Tutara göre stok ciro oranı = if(OR([Stok ortalama bakiyesi] \<= 0, [Stok satılan veya tüketilen çıkışlar] \>= 0), 0, ABS([Stok satılan veya tüketilen çıkışlar])/[Stok ortalama bakiyesi]) |
+| Stok ortalama bakiye          | Stok ortalama bakiyesi = (([Bitiş bakiyesi] + [Başlangıç bakiyesi]) / 2) |
+| Eldeki stok günleri             | Eldeki stok günleri = 365 / CostObjectStatementEntries [Tutara göre stok ciro oranı] |
+| Stok doğruluğu                 | Tutara göre stok doğruluğu = IF([Bitiş bakiyesi] \<= 0, IF(OR([Stok sayılan tutarı] \<\> 0, [Bitiş bakiyesi] \< 0), 0, 1), MAX(0, ([Bitiş bakiyesi] - ABS([Stok sayılan tutarı]))/[Bitiş bakiyesi])) |
+
+Aşağıda belirtilen temel boyutlar daha büyük hassasiyet ve daha derin analiz bilgileri elde edebilmeniz amacıyla toplama ölçümlerini bölmek üzere filtre olarak kullanılır.
 
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan ölçümler
-İçerik bir dizi rapor sayfası içermektedir. Her sayfa grafikler, döşemeler ve tablolar ile görselleştirilen bir dizi ölçüm kümesinden oluşur. Aşağıdaki tablo **Yönetim maliyeti** Power BI içeriğindeki görselleştirmelere bir bakış sağlar.
-
-| Rapor sayfası | Grafikler | Başlıklar |
-|---|---|---|
-|Stok genel (Varsayılan geçerli döneme göre) |Doğruluk |Stok ölçüleri:<br>Stok bitiş bakiyesi<br>Stok net değişimi<br>Stok net değişimi %'si<br>|
-| |Stok dönüşü | |
-| |Kaynak grubuna göre stok kapanış bakiyesi | |
-| |Kategori adı düzey 1 ve Kategori adı düzeyi 2 stok net değişimi| |
-| |Kaynak grubu ve kategori adı düzeyi 3 ile satınalma sapmaları | |
-|Siteye göre stok (Varsayılan geçerli döneme göre) |Site adı ve Kaynak grubuna göre stok kapanış bakiyesi | |
-| |Site adı ve Kaynak grubuna göre stok dönüşü | |
-| |Şehre ve Kaynak grubuna göre stok kapanış bakiyesi | |
-|Kaynak grubuna göre stok (Varsayılan geçerli döneme göre) |Stok ölçüleri | |
-| |Tutara göre kaynağa göre stok doğruluğu | |
-| |Tutara göre kaynağa göre stok dönüşü | |
-|Yıldan yıla stok (varsayılan geçerli yıl - önceki yıla göre) |Stok ölçüleri | |
-| |Stok KPI'ları:<br>Stok dönüşü<br>Stok doğruluğu | |
-| |Yıl ve Kaynak grubuna göre stok kapanış bakiyesi | |
-| |Yıl ve kategori adı düzeyi 3 ile satınalma sapmaları | |
-|Stok yaşlandırma (Varsayılan olarak geçerli yıl) |Üç aylık dönem ve kaynak grubuna göre stok yaşlandırma | |
-| |Üç aylık dönem ve Site adına göre stok yaşlandırma | |
-|Süren iş genel (Varsayılan geçerli döneme göre) |Kategori adı düzey 1 ve Kategori adı düzeyi 2 Süren iş net değişimi |Süren iş süreci WIP ölçüleri:<br>Süren iş kapanış bakiyesi<br>Süren iş net değişim<br>Süren iş net değişim %'si<br> |
-| |Kaynak grubu ve kategori adı düzeyi 3 ile üretim sapmaları | |
-| |Kaynak grubuna göre süren iş net değişimi | |
-|Siteye göre süren iş (Varsayılan geçerli döneme göre) |Süren iş süreci WIP ölçüleri | |
-| |Site adı ve Kategori adı düzeyi 2 Süren iş net değişimi | |
-| |Site adı ve kategori adı düzeyi 3 ile üretim sapmaları | |
-
-## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
-Finance and Operations verisi, **Yönetim maliyeti** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, analytics için en iyi duruma getirilen bir Microsoft SQL veritabanı olan Varlık mağazasında hazırlanmış toplam ölçümler olarak temsil edilir. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesine genel bakış](power-bi-integration-entity-store.md). Aşağıdaki önemli toplam ölçümler, içeriğin temeli olarak kullanılır.
-
-| Varlık            | Kilit toplam ölçüm | Finance and Operations için veri kaynağı | Alan             | Açıklama                       |
-|-------------------|---------------------------|---------------------------------------------|-------------------|-----------------------------------|
-| Rapor girişleri | Net değişiklik                | CostAggregatedCostStatementEntryEntity      | toplam(\[Tutar\])   | Muhasebe para birimi cinsinden tutar |
-| Rapor girişleri | Net değişim miktarı       | CostAggregatedCostStatementEntryEntity      | toplam(\[Miktar\]) |                                   |
-
-Aşağıdaki tablo önemli toplam ölçümlerin çok sayıda hesaplanmış ölçümünü içerik veri kümesini oluşturmak için nasıl kullanıldığını gösterir.
-
-| Ölçü                                 | Ölçümün hesaplanması                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Başlangıç bakiyesi                       | \[Kapanış bakiyesi\]-\[Net değişiklik\]                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Başlangıç bakiyesi miktarı              | \[Bitiş bakiye miktarı\]-\[Net değişim miktarı\]                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Kapanış bakiyesi                          | HESAPLA(TOPLA (\[Tutar\]), FİLTRE(ALLEXCEPT('Mali takvimler', 'Mali takvimler'\[LedgerRecId\], 'varlık'\[kimlik\], 'varlık'\[adı\], 'Defterler'\[Para birimi\], 'Defterler'\[Açıklama\], 'Defterler'\[Adı\]), 'Mali takvimler'\[Tarih\] &lt;= MAX('Mali takvimler'\[Tarih\])))                                                                                                                                                                                           |
-| Bitiş bakiye miktarı                 | HESAPLA(TOPLA (\[Miktar\]), FİLTRE(ALLEXCEPT('Mali takvimler', 'Mali takvimler'\[LedgerRecId\], 'varlık'\[kimlik\], 'varlık'\[adı\], 'Defterler'\[Para birimi\], 'Defterler'\[Açıklama\], 'Defterler'\[Adı\]), 'Mali takvimler'\[Tarih\] &lt;= MAX('Mali takvimler'\[Tarih\])))                                                                                                                                                                                         |
-| Stok başlangıç bakiyesi             | HESAPLA(\[Açılış bakiyesi\], 'Ekstre girişleri'\[Ekstre türü\] = "Stok")                                                                                                                                                                                                                                                                                                                                                                                      |
-| Stok bitiş bakiyesi                | HESAPLA(\[Kapanış bakiyesi\], 'Ekstre girişleri'\[Ekstre türü\] = "Stok")                                                                                                                                                                                                                                                                                                                                                                                         |
-| Stok net değişimi                    | HESAPLA(\[Net değişim\], 'Ekstre girişleri'\[Ekstre türü\] = "Stok")                                                                                                                                                                                                                                                                                                                                                                                             |
-| Stok net değişimi miktarı           | HESAPLA(\[Net değişim miktarı\], 'Ekstre girişleri'\[Ekstre türü\] = "Stok")                                                                                                                                                                                                                                                                                                                                                                                    |
-| Stok net değişimi %'si                  | EĞER (\[Stok kapanış bakiyesi\] = 0, 0, \[Stok net değişimi\] / \[Stok kapanış bakiyesi\])                                                                                                                                                                                                                                                                                                                                                                           |
-| Tutara göre stok devri                | Eğer(YA DA (\[stok ortalama bakiyesi\] &lt;= 0, \[Satılan stok veya tüketilen sorunlar\] &gt;= 0), 0, ABS (\[Satılan stok veya tüketilen sorunlar\])/\[Stok ortalama bakiye\])                                                                                                                                                                                                                                                                                                  |
-| Stok ortalama bakiye               | (\[Stok kapanış bakiyesi\] + \[Stok başlangıç bakiyesi\]) / 2                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Satılan stok veya tüketilen sorunlar       | \[Satılan stok\] + \[tüketilen stok malzeme maliyeti\]                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Stok tüketilen malzeme maliyeti        | Hesapla (\[Stok net değişim\], 'Ekstre girişleri'\[Kategori adı - düzey 2\_\] = "ConsumedMaterialsCost")                                                                                                                                                                                                                                                                                                                                                            |
-| Satılan stok                          | Hesapla (\[Stok net değişim\], 'Ekstre girişleri'\[Kategori adı - düzey 2\_\] = "Satılan")                                                                                                                                                                                                                                                                                                                                                                             |
-| Tutara göre stok doğruluğu            | EĞER(\[stok kapanış bakiyesi\] &lt;= 0, EĞER(VEYA (\[stok sayımı tutarı\] &lt;&gt; 0, \[stok kapanış bakiyesi\] &lt; 0), 0, 1), MAKS (0, (\[stok kapanış bakiyesi\] -ABS (\[stok sayımı tutar\])) /\[stok kapanış bakiyesi\]))                                                                                                                                                                                                                              |
-| Stok sayılan tutar                | Hesapla (\[Stok net değişim\], 'Ekstre girişleri'\[Kategori adı - düzey 3\_\] = "Sayılmakta")                                                                                                                                                                                                                                                                                                                                                                         |
-| Stok eskimesi                         | Eğer (BOŞSA (maks ('Mali Takvimler'\[Tarih\])), blank(), MAKS (0, MİN (\[Stok yaşlandırma alınanlar miktarı\], \[Stok yaşlandırma bitiş bakiye miktarı\] - \[Gelecekteki stok yaşlandırma miktarı alınanları\]))) \* \[Stok ortalama birim maliyeti\]                                                                                                                                                                                                                                |
-| Stok yaşlandırma alınanlar miktarı       | EĞER (\[minDate\] = \[minDateAllSelected\], HESAPLA (\[Stok net değişim miktarı\], 'Deyim girişleri'\[Miktar\] &gt; 0, FİLTRE (ALLEXCEPT ('Mali takvimler', 'Mali takvimler'\[LedgerRecId\], 'varlık'\[kimliği\], 'varlık'\[adı\], 'Defterler'\[Para birimi\], 'Defterler'\[Açıklama\], 'Defterler'\[Adı\]), 'Mali takvimler'\[Tarih\] &lt;MAKS = ('Mali takvimler'\[Tarih\]))), Hesapla (\[Stok net değişim miktarı\], 'Ekstre girişleri'\[Miktar\] &gt; 0)) |
-| Stok yaşlandırma bitiş bakiye miktarı | \[Stok bitiş bakiye miktarı\] + HESAPLA(\[Stok net değişim miktarı\], FİLTRE(ALLEXCEPT('Mali takvimler', 'Mali takvimler'\[LedgerRecId\], 'varlıklar'\[ID\], 'varlıklar'\[Adı\], 'Defterler'\[Para birimi\], 'Defterler'\[Açıklama\], 'Defterler'\[Adı\]), 'Mali takvimler'\[Tarih\] &gt; maks('Mali takvimler'\[Tarih\]) ))                                                                                                                                 |
-| Gelecekteki stok yaşlandırma alacakları  | CALCULATE(\[Stok net değişim\], 'Ekstre girişleri'\[Tutar\] &gt; 0, FILTER(ALLEXCEPT('Mali takvimler', 'Mali takvimler'\[LedgerRecId\], 'varlıklar'\[ID\], 'varlıklar'\[Adı\], 'Defterler'\[Para birimi\], 'Defterler'\[Açıklama\], 'Defterler'\[Adı\]), 'Mali takvimler'\[Tarih\] &gt; MAX('Mali takvimler'\[Tarih\])))                                                                                                                                             |
-| Stok ortalama birim maliyeti                 | CALCULATE(\[Stok bitiş bakiyesi\] / \[Stok bitiş bakiye miktarı\],ALLEXCEPT('Mali takvimler', 'Mali takvimler'\[LedgerRecId\], 'varlıklar'\[ID\], 'varlıklar'\[Adı\], 'Defterler'\[Para birimi\], 'Defterler'\[Açıklama\], 'Defterler'\[Adı\]))                                                                                                                                                                                                                 |
-| Satınalma farkları                      | HESAPLA (TOPLA (\[Tutar\]), 'Ekstre girişleri'\[Kategori adı - düzey 2\_\] = "Alınan", 'Ekstre girişleri\[Ekstre türü\] ="Fark")                                                                                                                                                                                                                                                                                                                              |
-| Süren iş başlangıç bakiyesi                   | HESAPLA(\[Açılış bakiyesi\], 'Ekstre girişleri'\[Ekstre türü\] = "süren iş")                                                                                                                                                                                                                                                                                                                                                                                            |
-| Süren iş kapanış bakiyesi                      | HESAPLA(\[Kapanış bakiyesi\], 'Ekstre girişleri'\[Ekstre türü\] = "süren iş")                                                                                                                                                                                                                                                                                                                                                                                               |
-| Süren iş net değişim                          | HESAPLA(\[Net değişim\], 'Ekstre girişleri'\[Ekstre türü\] = "Süren iş")                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Süren iş net değişim %'si                        | EĞER (\[Süren iş kapanış bakiyesi\] = 0, 0, \[Süren iş net değişim\] / \[Süren iş kapanış bakiyesi\])                                                                                                                                                                                                                                                                                                                                                                                             |
-| Üretim farkları                    | HESAPLA (TOPLA (\[Tutar\]), 'Ekstre girişleri'\[Kategori adı - düzey 2\_\] = "ManufacturedCost", 'Ekstre girişleri\[Ekstre türü\] ="Fark")                                                                                                                                                                                                                                                                                                                      |
-| Kategori adı - seviye 1                 | geçiş(\[Kategori adı - düzey 1\_\], "Yok", "Yok", "NetSourcing", "Net kaynağı", "NetUsage", "Net kullanım", "NetConversionCost", "Net maliyet dönüştürme", "NetCostOfGoodsManufactured", "Üretilen malların net maliyeti", "BeginningBalance", "Başlangıç bakiyesi")                                                                                                                                                                                                         |
-| Kategori adı - seviye 2                 | geçiş(\[adı - seviye 2\_\], "yok", "Yok", "Alınan", "Alınan", "Atılan", "Atılan", "Aktarılan", "Aktarılan", "Satılan", "Satılan", "ConsumedMaterialsCost", "Tüketilen malzeme maliyeti", "ConsumedManufacturingCost", "Tüketilen üretim maliyeti", "ConsumedOutsourcingCost", "Tüketilen dış kaynak maliyeti", "ConsumedIndirectCost", "Tüketilen dolaylı maliyet", "ManufacturedCost", "Üretilen maliyet", "Farklar", "Farklar")                            |
-| Kategori adı - seviye 3                 | Geçiş (\[Kategori adı - düzey 3\_\], "Yok", "Yok", "Sayım", "None", "ProductionPriceVariance", "Üretim fiyatı", "QuantityVariance", "Miktar", "SubstitutionVariance", "Yedek", "ScrapVariance", "Hurda", "LotSizeVariance", "Lot Boyutu", "RevaluationVariance", "Değerleme", "PurchasePriceVariance", "Satınalma fiyatı", "CostChangeVariance" "" Yuvarlama farkı", "RoundingVariance", "Yuvarlama varyansı)                                                   |
-
-Aşağıdaki anahtar boyutlar, daha büyük hassasiyet elde etmek ve daha derin analitik bilgiler edinmek için toplam ölçümleri bölmek amaçlı filtreler olarak kullanılır.
-
-| Varlık           | Öznitelik örnekleri                       |
-|------------------|----------------------------------------------|
-| Varlıklar         | Kimliği, Adı                                     |
-| Mali takvimler | Takvim, Ay, Dönem, Çeyrek, Yıl       |
-| KPI hedefleri        | Stok doğruluk hedefi, Stok dönüş hedefi |
-| Genel muhasebe defterleri          | Para birimi, Adı, Açıklama                  |
-| Tesisler            | Kimlik, Ad, Ülke, Şehir                      |
-
-
-
-
+|                         Varlık                          |             Öznitelik örnekleri              |
+|---------------------------------------------------------|-------------------------------------------------|
+|                        Ürünler                         | Ürün numarası, Ürün adı, Birim, Madde grupları |
+| Kategori hiyerarşileri (Maliyet yönetimi rolüne atanan) |       Kategori hiyerarşisi, Kategori düzeyi        |
+|                     Tüzel kişilikler                      |               Tüzel kişilik adları                |
+|                    Mali takvimler                     |  Mali yıl, Yıl, Üç aylık dönem, Dönem, Ay  |
+|                          Tesis                           |        Kod, Ad, Adres, Eyalet, Ülke        |
 
 

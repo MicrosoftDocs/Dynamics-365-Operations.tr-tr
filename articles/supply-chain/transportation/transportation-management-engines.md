@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5472d69f6d0bb7a60fb417a0d1bdc3fbc6a5e18
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 813d13738171969b48d16a5ed52f2b04a8beaeef
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="transportation-management-engines"></a>Taşıma yönetimi altyapıları
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Nakliye yönetimi motorları, Nakliye yönetimindeki nakliye oranlarının oluşturulması ve işlenmesi için kullanılan mantığı tanımlar. 
 
@@ -47,7 +46,7 @@ Aşağıdaki tablo, Microsoft Dynamics 365 for Finance and Operations uygulamas�
 | **Bölge altyapısı**                  | Geçerli adrese dayalı olarak bölgeyi hesaplar ve A adresinden B adresine gitmek için geçilmesi gereken bölge sayısını hesaplar.                                                                                                                                                                    |
 | **Navlun fatura türü**            | Navlun faturasını ve navlun faturası satırlarını standartlaştırır ve otomatik navlun faturası eşleştirmesi için kullanılır.                                                                                                                                                                                                                |
 
- 
+
 <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Bir sevkıyatı değerlendirmek için hangi altyapılar yapılandırılmalıdır?
 ---------------------------------------------------
 
@@ -60,13 +59,13 @@ Taşıma yönetimi altyapısı, belirli bir şekilde işlemesi için başlangı�
 -   Basit yapılandırma verileri.
 
 Birçok durumda, taşıma yönetimi altyapısının kurulum formlarındaki **Parametreler** düğmesine tıklayarak başlangıç verilerini yapılandırabilirsiniz. **Bir mesafe altyapısına başvuran bir değerlendirme altyapısının yapılandırılmasına dair örnek** Aşağıdaki örnekte, .NET altyapısı türü Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEngine'e dayanan ve bir mesafe altyapısına başvuran bir değerlendirme altyapısı için gereken kurulum gösterilmektedir.
-| Parametre             | Açıklama                                                                                                                                                                                                                                                                                                                                                                      |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | Belirli bir şemaya yönelik değerlendirme taban ataması verilerini yorumlayan .NET türü. Parametre değerinin sözdizimi dikey bir çubukla (|) ayrılmış iki segmentten oluşur (|). İlk segment, atayıcı türünü tanımlayan derleme adını içerir. İkinci segment, atayıcı türünün tam adını tanımlar. Bu, türün ad alanını içerir. |
-| *MileageEngineCode*   | Microsoft Dynamics 365 for Finance and Operations veritabanındaki mesafe altyapısı kaydını tanımlayan mesafe altyapısı kodu.                                                                                                                                                                                                                                                             |
-| *ApportionmentEngine* | Microsoft Dynamics 365 for Finance and Operations veritabanındaki paylaştırma altyapısını tanımlayan genel altyapı kodu.                                                                                                                                                                                                                                                              |
 
- 
+|          Parametre           |                                                                                  Açıklama                                                                                  |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <em>RateBaseAssigner</em>   | Belirli bir şemaya yönelik değerlendirme taban ataması verilerini yorumlayan .NET türü. Parametre değerinin sözdizimi dikey bir çubukla (|) ayrılmış iki segmentten oluşur ( |
+|  <em>MileageEngineCode</em>  |                       Microsoft Dynamics 365 for Finance and Operations veritabanındaki mesafe altyapısı kaydını tanımlayan mesafe altyapısı kodu.                        |
+| <em>ApportionmentEngine</em> |                        Microsoft Dynamics 365 for Finance and Operations veritabanındaki paylaştırma altyapısını tanımlayan genel altyapı kodu.                        |
+
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>Meta veriler, taşıma yönetimi altyapısında nasıl kullanılır?
 ----------------------------------------------------------
 
@@ -77,6 +76,7 @@ Microsoft Dynamics 365 for Finance and Operations'da oranları hesaplarken kulla
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>Tüm altyapı yapılandırmaları meta veri gerektirir mi?
 Hayır, harici sistemlerden oran hesaplamak için gereken verileri almada kullanılan taşıma yönetimi altyapıları meta veri gerektirmez. Bu altyapılara yönelik oran verileri, harici taşıma taşıyıcı sistemlerinden, genellikle bir web hizmeti üzerinden alınabilir. Örneğin, doğrudan Bing haritalarından veri alan bir mesafe altyapısı kullanabilir, böylece bu altyapı için meta veriye ihtiyaç duymazsınız.
+
 | **Not**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Finance and Operations ile birlikte sağlanan taşımacı yönetimi altyapıları, uygulamadan alınan verileri kullanır. Operations, harici sistemlere bağlanan altyapıları içermez. Ancak, altyapı tabanlı genişletilebilirlik modeli Microsoft Dynamics 365 for Finance and Operations Visual Studio Araçları kullanarak uzantılar oluşturmanızı sağlar. |

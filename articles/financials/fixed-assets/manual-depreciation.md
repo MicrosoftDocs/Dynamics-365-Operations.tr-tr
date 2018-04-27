@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d7a672b80a0da7ab05acf5b5efe041f0f89c0042
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5081b3ff940167f305a6e17f97e246e5f8000185
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manual-depreciation"></a>El ile amortisman
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makalede, el ile amortisman yöntemi hakkında genel bir bakış verilmektedir.
 
@@ -67,7 +66,7 @@ Aşağıdaki tablo, her aralık için amortismanın nasıl hesaplandığını g�
 | Ocak  | (11.000 – 1.000) × %10 = 1.000 |
 | Şubat | (11.000 – 1.000) × %50 = 5.000 |
 
-****Dönem sıklığı** alanında** **Yarım Yıllık** seçeneğini işaretlerseniz , el ile en fazla iki planlama aralığı ayarlarsınız. Aşağıdaki tablo, bu iki aralık için amortisman tutarlarını gösterir.
+*<strong><em>Dönem sıklığı</em>* alanında </strong> <strong>Yarım Yıllık</strong> seçeneğini işaretlerseniz , el ile en fazla iki planlama aralığı ayarlarsınız. Aşağıdaki tablo, bu iki aralık için amortisman tutarlarını gösterir.
 
 | Aralık    | Amortisman tutarı            |
 |-------------|--------------------------------|

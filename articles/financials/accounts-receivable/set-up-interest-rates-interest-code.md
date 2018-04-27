@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7ae0bfdc157a7e2e5b9f871dae487a6f85e889b9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c0e80bae4716d2b12f515f38d3b641de24680571
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Bir vade farkı kodu için vade farkı oranları ayarlama
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Vade farkı kodları, faizin nasıl belirleneceğini ve ödemesi geciken hesaplarda nasıl hesaplanacağını belirleyen ayarlar içerir.
 
@@ -47,17 +46,17 @@ Bir vade farkı kodu, faizi hesaplamak için kullanıldığında, ödemenin hare
 ## <a name="interest-rates-based-on-a-percentage"></a>Yüzdeye dayalı vade farkı oranları
 Belirli bir yüzdeyi hesaplayan vade farkı oranlarını ayarlayabilirsiniz
 
--   Vade farkı tutarı tüm para birimleri için geçerlidir.
--   İsteğe bağlı vade farkı tutar limitleri girilebilir.
--   **Vade farkı kodlarını ayarla** sayfasındaki **Vade farkını şuna göre hesapla** alanında **Yüzde** seçilidir.
+- Vade farkı tutarı tüm para birimleri için geçerlidir.
+- İsteğe bağlı vade farkı tutar limitleri girilebilir.
+- <strong>Faiz kodlarını ayarla</strong> sayfasındaki <strong>**Faiz farklarının dayanağı</strong> alanındaki <strong>Yüzde</strong> seçilidir**.
 
 Örneğin, fatura ödemesinin hareket vade tarihini geçtiği her iki ay için yüzde 5 vade farkı koyan vade farkı kodunu ayarlamak için **Her biri için faiz hesapla** alanına 2 girer ve **Ay**'ı seçersiniz.
 
 ## <a name="interest-rates-based-on-amounts"></a>Tutarları temel alan faiz oranları
 Belirli bir para birimine göre tutarı hesaplayan vade farkı oranlarını ayarlayabilirsiniz
--   Vade farkı kodu içindeki her para birimi için vade farkı tutarı belirtilir.
--   İsteğe bağlı vade farkı tutar limitleri girilebilir.
--   **Vade farkı kodlarını ayarla** sayfasındaki **Vade farkını şuna göre hesapla** alanında **Tutar** seçilidir.
+- Vade farkı kodu içindeki her para birimi için vade farkı tutarı belirtilir.
+- İsteğe bağlı vade farkı tutar limitleri girilebilir.
+- <strong>Faiz kodlarını ayarla</strong> sayfasındaki <strong>**Faiz dayanağı alanındaki **Tutar</strong> seçilidir.
 
 Örneğin, fatura ödemesinin hareket vade tarihini geçtiği her 20 gün için yüzde 25,00 vade farkı koyan vade farkı kodunu ayarlamak için **Her biri için faiz hesapla** alanında 20 girer ve **Gün**'ü seçersiniz.
 
@@ -84,7 +83,7 @@ Aralığı bilgilerini aşağıdaki gibi ayarlayın.
 | 1,001          | 2                  |
 | 5,001          | 3                  |
 
- 
+
 ## <a name="example-2-interest-by-range--days"></a>Örnek 2: Aralığa göre faiz = Gün
 --------------------------------------------------
 
@@ -105,7 +104,7 @@ Aralığı bilgilerini aşağıdaki gibi ayarlayın.
 | 61             | 15                 |
 | 91             | 20                 |
 
- 
+
 ## <a name="example-3-interest-by-range--months"></a>Örnek 3: Aralığa göre faiz = Ay
 ----------------------------------------------------
 

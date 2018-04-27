@@ -3,7 +3,7 @@ title: "Bir fiş"
 description: "Mali günlükler için Bir fiş (yevmiye fişi, sabit kıymet günlüğü, satıcı ödeme günlüğü vb.), tek bir fiş bağlamında birden fazla yardımcı defter hareketi girmenizi sağlar."
 author: kweekley
 manager: AnnBe
-ms.date: 03/19/2018
+ms.date: 04/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 3831a6b5ec458495134b4b490d33a9acd76b6d2e
-ms.openlocfilehash: 76ea8470786bd50896400a65564d698d96119d6f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9f996131830f9bd4efd534143b3fb761c5ccc756
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="one-voucher"></a>Bir fiş
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  Bu işlev, 2018 yılı bahar aylarında piyasaya sunulacak olan Dynamics 365 for Finance and Operations sürüm 8.0'da kullanılabilir.   
@@ -38,9 +38,12 @@ ms.lasthandoff: 03/20/2018
 
 Mali günlükler için (yevmiye fişi, sabit kıymet günlüğü, satıcı ödeme günlüğü vb.) mevcut işlev, tek bir fiş bağlamında birden fazla yardımcı defter hareketi girmenizi sağlar. Bu işlevi "Bir fiş" olarak adlandırıyoruz. Bir fiş'i aşağıdaki yöntemlerden birini kullanarak oluşturabilirsiniz:
 
--   Günlük adını (**Genel muhasebe** \> **Günlük ayarı** \>**Günlük adları**), **Yeni fiş** alanı **Yalnızca bir fiş numarası** olacak şekilde ayarlayın. Günlüğe eklediğiniz her satır artık aynı fişte yer alır. Her satır aynı fişe eklendiğinden fiş, aynı satırda bir hesap/mahsup hesap veya birleşimi olarak çok satırlı bir fiş şeklinde girilebilir.
+-   Günlük adını (**Genel muhasebe** \> **Günlük ayarı** \>**Günlük adları**), **Yeni fiş** alanı **Yalnızca bir fiş numarası** olacak şekilde ayarlayın. * Günlüğe eklediğiniz her satır artık aynı fişte yer alır. Her satır aynı fişe eklendiğinden fiş, aynı satırda bir hesap/mahsup hesap veya birleşimi olarak çok satırlı bir fiş şeklinde girilebilir.
 
 [![Tek satır](./media/same-line.png)](./media/same-line.png)
+ 
+> [!IMPORTANT] 
+> *  'Bir fiş' tanımının yalnızca **Bir fiş numarası** olarak ayarlanan günlük adlarını İÇERMEDİĞİNİ ve kullanıcının yalnızca Genel muhasebe türlerini içeren bir fiş girdiğini unutmayın.  Bu belgede 'Bir fiş' birden çok satıcı, müşteri, banka, sabit kıymet veya proje içeren bir fiş olduğu anlamına gelir. 
 
 -   Mahsup hesabın olmadığı çok satırlı bir fiş girin.
 
@@ -68,13 +71,16 @@ Daha sonra **Mali Bilgiler** çalışma alanında, **Satıcıya göre giderler**
 
 Daha önce belirtilen sorunlar nedeniyle, Bir fiş işlevselliği geçersiz duruma getirilecektir. Ancak bu işleve bağlı olan işlevsel boşluklar olduğundan, işlev aynı anda tamamen geçersiz olmayacaktır. Bunun yerine, aşağıdaki planı kullanacağız: 
 
--   **2018 İlkbahar sürümü**: İşlev, Genel muhasebe parametresi aracılığıyla kapatılacaktır. Ancak kuruluşunuzun, bu konunun ilerleyen bölümlerinde listelenen iş senaryosu boşluklarına denk gelen bir senaryosu varsa işlevi açabilirsiniz.
+- **2018 İlkbahar sürümü**: İşlev, Genel muhasebe parametresi aracılığıyla kapatılacaktır. Ancak kuruluşunuzun, bu konunun ilerleyen bölümlerinde listelenen iş senaryosu boşluklarına denk gelen bir senaryosu varsa işlevi açabilirsiniz.
 
-    -   Bir fiş gerektirmeyen bir iş senaryonuz varsa işlevi açmayın. Başka bir çözüm varken bu işlev kullanılırsa bu konunun ilerleyen bölümlerinde tanımlanan alanlardaki "hataları" düzeltmeyeceğiz.
+  -   Bir fiş gerektirmeyen bir iş senaryonuz varsa işlevi açmayın. Başka bir çözüm varken bu işlev kullanılırsa bu konunun ilerleyen bölümlerinde tanımlanan alanlardaki "hataları" düzeltmeyeceğiz.
 
-    -   İşlevsel boşluklardan biri için gerekli olmadıkça Microsoft Dynamics 365 Finance and Operations tümleştirmelerinde Bir fiş'i kullanmayı bırakın.
+  -   İşlevsel boşluklardan biri için gerekli olmadıkça Microsoft Dynamics 365 Finance and Operations tümleştirmelerinde Bir fiş'i kullanmayı bırakın.
 
--   **2018 Sonbahar ve sonraki sürümler**: İşlevsel boşluklar doldurulacaktır. İşlevsel boşluklar doldurulduktan sonra Bir fiş işlevi kalıcı olarak kapatılacaktır.
+- **2018 Sonbahar ve sonraki sürümler**: İşlevsel boşluklar doldurulacaktır. İşlevsel boşluklar doldurulduktan sonra Bir fiş işlevi kalıcı olarak kapatılacaktır.
+
+- > [!IMPORTANT]
+  > Lütfen **Yalnızca bir fiş numarası** seçeneğinin Günlük adı kurulumundan KALDIRILMAMIŞ olduğunu unutmayın.  Bu seçenek, fiş yalnızca Genel muhasebe hesap türlerini içerdiğinde hala desteklenmektedir.  Müşterilerin bu ayarı kullanırken dikkatli olması gerekir çünkü fiş **Yalnızca tek fiş numarası** kullanıp ardından birden fazla müşteri, satıcı, banka, sabit kıymet veya proje girmeleri durumunda deftere nakledilmez.  Ayrıca, müşteriler Satıcı/Banka hesap türlerini içeren tek bir fiş içindeki bir ödeme gibi yardımcı defter hesap türlerinin bir karışımını da girebilir.  
 
 <a name="why-use-one-voucher"></a>Bir fiş neden kullanılır?
 ====================
@@ -102,13 +108,13 @@ Aşağıdaki senaryolar yalnızca Bir fiş işlevi kullanılarak gerçekleştiri
 
 >   Kuruluşun, bir iş olayına ait muhasebe girişlerini birlikte görüntülemesi gerekiyorsa Bir fiş'i kullanması gerekir. 
 
--   **Ülkeye özgü özellikler**
+- **Ülkeye özgü özellikler**
 
- -   Polonya için Tek İdari Belge (SAD) özelliği şu anda bir fişin kullanılmasını gerektirir. Bu özellik için bir gruplandırma seçeneği yayımlanıncaya kadar Bir fiş işlevini kullanmaya devam etmeniz gerekir. Bir fiş işlevini gerektiren ülkeye özgü başka özellikler olabilir.
+  -   Polonya için Tek İdari Belge (SAD) özelliği şu anda bir fişin kullanılmasını gerektirir. Bu özellik için bir gruplandırma seçeneği yayımlanıncaya kadar Bir fiş işlevini kullanmaya devam etmeniz gerekir. Bir fiş işlevini gerektiren ülkeye özgü başka özellikler olabilir.
 
--   **Birden çok "satırda" vergiler olan müşteri ön ödemesi ödeme günlüğü**
+- **Birden çok "satırda" vergiler olan müşteri ön ödemesi ödeme günlüğü**
 
- -   Müşteri, bir sipariş için ön ödeme yapar ve sipariş satırlarında ön ödeme için kaydedilmesi gereken farklı vergiler vardır. Müşteri ön ödemesi, siparişin satırlarının benzetimini yapan bir işlemdir, böylece her satırdaki tutar için uygun vergi kaydedilebilir.
+  -   Müşteri, bir sipariş için ön ödeme yapar ve sipariş satırlarında ön ödeme için kaydedilmesi gereken farklı vergiler vardır. Müşteri ön ödemesi, siparişin satırlarının benzetimini yapan bir işlemdir, böylece her satırdaki tutar için uygun vergi kaydedilebilir.
 
 Bu senaryoda, tek fişteki müşteriler aynı müşteridir çünkü hareket müşteri siparişinin satırlarının benzetimini yapar. Ön ödeme, tek bir fişe girilmelidir çünkü vergi hesaplamasının, müşterinin yaptığı tek ödemenin "satırlarında" yapılması gerekir.
 

@@ -19,17 +19,16 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1bbd9230219f11407bc7afbd59670c6287b77c02
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 10015952773ce0ae6ab36912df636919b572704d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="posting-definition-examples"></a>Deftere nakil tanım örnekleri
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Bu makale, deftere nakil tanımlarının satınalma siparişleri yükümlülükleri ve bütçe tahsis etme için nasıl kullanılacağına dair örnekler sağlar.
 
@@ -53,11 +52,11 @@ Satınalma emri yükümlülüğüne yönelik tüm fiş hareketleri, bir fiş üz
 
 ### <a name="posting-definition--match-criteria"></a>Nakil tanımı – Eşleşme ölçütleri
 
-| Hesap yapısı       | Hesap numarasını eşleştir | Öncelik |
+| Hesap yapısı       | Hesap numarasını eşleştir | Öncelik  |
 |-------------------------|----------------------|----------|
 | Hesap Yapısı - Kar ve Zarar | \*                   | 1        |
 
-**Hesap numarasını eşleştir** alanında boş bir değer olması, tanımlı hesap yapısındaki tüm eşleşen hesapların eşleştirme kuralının parçası olduğu anlamına gelir.
+<em>**Hesap numarasını</em>* eşleştir alanında boş bir değer olması, tanımlı hesap yapısındaki tüm eşleşen hesapların eşleştirme kuralının parçası olduğu anlamına gelir.
 
 ### <a name="posting-definition--generated-entries"></a>Nakil tanımı – Üretilen girişler
 
@@ -94,11 +93,11 @@ Bütçe tahsisatları ve nakil tanımları etkinleştirildiğinde, bütçe kayd�
 
 ### <a name="posting-definition--match-criteria"></a>Nakil tanımı – Eşleşme ölçütleri
 
-| Hesap yapısı       | Hesap numarasını eşleştir | Öncelik |
+| Hesap yapısı       | Hesap numarasını eşleştir | Öncelik  |
 |-------------------------|----------------------|----------|
 | Hesap Yapısı - Kar ve Zarar | \*                   | 1        |
 
-**Hesap numarasını eşleştir** alanında boş bir değer olması, tanımlı hesap yapısındaki tüm eşleşen hesapların eşleştirme kuralının parçası olduğu anlamına gelir.
+<em>**Hesap numarasını</em>* eşleştir alanında boş bir değer olması, tanımlı hesap yapısındaki tüm eşleşen hesapların eşleştirme kuralının parçası olduğu anlamına gelir.
 
 ### <a name="posting-definition--generated-entries"></a>Nakil tanımı – Üretilen girişler
 

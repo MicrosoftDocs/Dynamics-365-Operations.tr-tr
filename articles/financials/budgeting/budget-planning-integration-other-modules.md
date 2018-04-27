@@ -19,16 +19,18 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: f50e58d63a9db4d6a8b5390174e2c7b87970717d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6db51f9fa180f0b8ce203fd2812c562b0201afa8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning-integration-with-other-modules"></a>Diğer modüllerle bütçe planlama tümleştirmesi
 
-[!include[banner](../includes/banner.md)] Bütçe planları aşağıdaki çeşitli farklı kaynaklardan oluşturulabilir. Periyodik işlemin temel unsurları tüm kaynaklar için aynıdır. 
+[!INCLUDE [banner](../includes/banner.md)]
+
+ Bütçe planları aşağıdaki çeşitli farklı kaynaklardan oluşturulabilir. Periyodik işlemin temel unsurları tüm kaynaklar için aynıdır. 
 
 
 
@@ -66,7 +68,7 @@ Tüm işlemler için **Kaynak** sekmesi veriyi **Filtrele** düğmesini kullanar
 
 Sayfanın üstündeki **Toplama göre toplam** alanı da kullanılan tarihi belirler. Bu alan tutarları toplar ve yürürlük tarihini isteğe bağlı olarak mali yılın veya mali dönemin ilk gününe ayarlar. 
 
-**Hedef** öğesindeki alanların çoğu seçtiğiniz eyleme bağlı olarak düzenlenebilir veya salt okunur olabilir. Yeni bir bütçe planı oluşturmaktan mevcut bir planı güncellemeye geçtiğinizde, **Bütçe planı adı** kullanılamaz olur ve mevcut bir planı seçmekle ilgili alanlar kullanılabilir hale gelir. Hem **Hedef** sekmesinde hem de **Kaynak** sekmesinde, **Genel muhasebe** alanı her zaman kullanılamaz, çünkü değer seçili bütçe planlama süreci ile belirlenir. 
+<strong>Hedef</strong> öğesindeki alanların çoğu seçtiğiniz eyleme bağlı olarak düzenlenebilir veya salt okunur olabilir. Yeni bir bütçe planı oluşturmaktan mevcut bir planı güncellemeye geçtiğinizde, <strong>Bütçe planı adı</strong> kullanılamaz olur ve mevcut bir planı seçmekle ilgili alanlar kullanılabilir hale gelir. Hem <strong>Hedef</strong> sekmesinde hem de <strong>Kaynak **sekmesinde **Genel muhasebe</strong> alanı her zaman kullanılamaz, çünkü değer seçili bütçe planlama süreci ile belirlenir. 
 
 **Bütçe sınıfı** alanı size bütçe planı satırlarını masraf hareketleri veya gelir hareketleri olarak ayarlama olanağı sağlar. Genellikle gelir hareketleri bir genel muhasebe hesabına geçirilir ve bu nedenle negatif tutarlar olarak saklanır. Genellikle, bu hareketler bütçe planında da negatif tutarlar olarak görünür. Ancak, bütçe sınıfını plan düzeninde bir alan olarak ekleyerek, gelirin pozitif tutarlar olarak görünmesini sağlayabilirsiniz.
 
@@ -111,7 +113,7 @@ Kaynakta seçilen bütçe planlama süreci ve bütçe planı senaryosu, hedef se
 
 Proje bütçelerini, proje bütçe tutarlarını içeren tahmin modelini seçerek, bir kaynak olarak kullanabilirsiniz. Proje bütçelerinin onaylanır onaylanmaz proje tahmin girişleri oluşturduğunu unutmayın.
 
-Bütçe planı satırlarına ilişkin olarak yalnızca maliyetleri veya gelirleri seçmek için, **Bütçe güncelleştirmeleri: Tutar türü = Maliyet** seçeneğini seçmek üzere filtreyi kullanın. Yalnızca bir tahmin türü seçmek için, **Bütçe güncelleştirmeleri: Hareket türü = *xxx*** seçeneğini seçmek üzere filtreyi kullanın. 
+Bütçe planı satırlarına ilişkin olarak yalnızca maliyetleri veya gelirleri seçmek için, <strong>Bütçe güncelleştirmeleri: Tutar türü = Maliyet</strong> seçeneğini seçmek üzere filtreyi kullanın. Yalnızca bir tahmin türü seçmek için, <strong>Bütçe güncelleştirmeleri: Hareket türü = *xxx</strong>* seçeneğini seçmek üzere filtreyi kullanın. 
 
 Bir bütçe planı senaryosu oluşturmak için yalnızca bir tahmin modeli kullanılabilir. Bir tahmin modeli sürecini yürütüyorsanız ve daha sonra güncelleştirme yapıp başka bir model belirlemeye çalışırsanız, aynı proje ve genel muhasebe hesapları geçerli olduğu takdirde, ilk modelin üzerine yazılacaktır. Birden fazla tahmin modelinden bir bütçe planı senaryosu oluşturmak için, farklı bütçe planı senaryoları oluşturun ve bunları başka bir senaryoda birbirine eklemek için tahsisat seçeneklerini kullanın. 
 

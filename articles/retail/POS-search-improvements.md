@@ -1,9 +1,9 @@
 ---
 title: "POS içinde ürün ve müşteri arama"
-description: "Bu konu Dynamics 365 for Retail içinde ürün ve müşteri arama özelliğinde yapılmış olan iyileştirmeler hakkında genel bakış sağlar."
+description: "Bu konu Microsoft Dynamics 365 for Retail içinde ürün ve müşteri arama özelliğinde yapılmış olan iyileştirmeler hakkında genel bakış sağlar."
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 08/16/2017
+ms.date: 03/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -19,24 +19,24 @@ ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: bd563610616fa72a610e0b134371765cc1edacc6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b055ae09e87434f9e43c558e2a43d0467d70aaed
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
-# <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Satış noktası içinde ürün ve müşteri arama genel bakışı
+# <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Satış Noktasında ürün ve müşteri aramaya genel bakış
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
-Modern Satış Noktası (MPOS) ve Bulut Satış Noktası (CPOS), kolay kullanımlı arama işlevi sağlar ve mağaza çalışanlarının ürün ve müşterileri hızlıca aramasına olanak sağlar. Arama çubuğu her zaman MPOS ve CPOS'un üstünde mevcuttur, böylece çalışanlar ürünleri ve müşterileri hızla bulabilir.
+Modern Point of Sale (MPOS) ve Cloud Point of Sale (CPOS), ürünler ve müşteriler için kolay kullanımlı arama işlevi sağlar. Arama çubuğu her zaman MPOS ve CPOS pencerelerinin üstünde olduğundan çalışanlar ürünleri ve müşterileri hızla arayabilir.
 
-Çalışanlar ürünleri geçerli mağaza ile ilişkilendirilmiş sınıflamalar ve kataloglar ve şirketteki diğer herhangi bir mağaza ile ilişkilendirilmiş kataloglar ve sınıflandırmalar içerisinde arayabilirler. Bu nedenle, kasiyerler mağaza sınıflandırması dışındaki ürünleri satabilir ve iade alabilir. Benzer şekilde, çalışanlar geçerli mağaza veya şirketle ilişkili herhangi başka bir mağaza ile ilişkili müşterileri arayabilir. Ek olarak, çalışanlar, üst kuruluştaki başka bir şirketle ilişkilendirilmiş müşterileri arayabilirler.
+Çalışanlar geçerli mağazayla ilişkilendirilmiş ürün çeşitleri ve kataloglardaki ürünleri arayabilir. Ayrıca, çalışanlar şirketteki başka bir mağazayla ilişkilendirilmiş ürün çeşitleri ve kataloglardaki ürünleri arayabilir. Bu nedenle, kasiyerler mağaza sınıflandırması dışındaki ürünleri satabilir ve iade alabilir. Benzer şekilde, çalışanlar geçerli mağaza veya şirketle ilişkili herhangi başka bir mağaza ile ilişkili müşterileri arayabilir. Ek olarak, çalışanlar, üst kuruluştaki başka bir şirketle ilişkilendirilmiş müşterileri arayabilirler.
 
-## <a name="product-search"></a>Ürün arama 
+## <a name="product-search"></a>Ürün arama
 
-Varsayılan olarak, ürün arama mağaza sınıflandırmasında yapılır. Bu arama türü *yerel ürün arama* olarak bilinir. Ancak, çalışanlar geçerli mağaza ile ilişkilendirilen herhangi bir kataloğa kolayca geçiş yapabilir veya farklı bir mağazada arama yapabilirler. Bu arama türü *uzak ürün arama* olarak bilinir. Kataloğu değiştirmek için sayfanın sol tarafındaki **Kategoriler** düğmesini seçin. Beliren bölmenin üstünde, **Kataloğu değiştir** düğmesini seçin ve sonra taramak için kullanılabilir kataloglardan birini seçin. Sistem ürünleri seçilen katalogda arar.
+Varsayılan olarak, ürün aramaları mağaza ürün çeşitlerinde yapılır. Bu arama türü *yerel ürün arama* olarak bilinir. Ancak, çalışanlar geçerli mağaza ile ilişkilendirilen herhangi bir kataloğa kolayca geçiş yapabilir veya farklı bir mağazada arama yapabilirler. Bu arama türü *uzak ürün arama* olarak bilinir. Kataloğu değiştirmek için sayfanın sol tarafındaki **Kategoriler** düğmesini seçin. Beliren bölmenin üstünde, **Kataloğu değiştir** düğmesini seçin ve sonra taramak için kullanılabilir kataloglardan birini seçin. Sistem ürünleri seçilen katalogda arar.
 
 **Kataloğu değiştir** sayfasında, çalışanlar kolayca herhangi bir mağazayı seçebilir veya tüm mağazalar arasındaki ürünler arasından arama yapabilir.
 
@@ -53,17 +53,17 @@ Bir yerel ürün arama, aşağıdaki ürün özellikleri içerisinde arar:
 
 ### <a name="enhancements-to-local-product-searches"></a>Yerel ürün aramasındaki geliştirmeler
 
-Yerel ürün arama deneyimi daha kullanıcı dostu yapılmıştır. Aşağıdaki geliştirmeler yapılmıştır:
+Yerel ürün arama deneyimi artık daha kullanıcı dostu. Aşağıdaki geliştirmeler yapılmıştır:
 
 - Ürün ve müşteri açılır menüleri arama çubuğuna eklenmiştir; böylece çalışanlar arama yapmadan önce **Ürün** veya **Müşteri** seçimini yapabilirler. Varsayılan olarak, **Ürün** seçilidir, aşağıdaki şekilde gösterildiği gibi.
-- Çoklu anahtar sözcük aramaları için (yani, arama terimleri kullanan aramalar için) perakendeciler aramanın herhangi bir arama terimi ile mi eşleşen yoksa yalnızca tüm arama terimleriyle mi eşleşen sonuçları dahil edeceğini yapılandırabilir. Bu ayar, POS işlevi profilinde, **Ürün arama** olarak adlandırılan yeni bir grup altında kullanılabilir. Varsayılan ayar **Herhangi bir arama terimi ile eşleş**'tir. Bu ayar aynı zamanda önerilen ayardır. **Herhangi bir arama terimiyle eşleş** ayarı kullanıldığında, bir veya birden fazla arama terimi ile tümüyle veya kısmi olarak eşleşen tüm ürünler sonuç olarak getirilir ve sonuçlar, en fazla anahtar sözcük eşleşmesine (kısmi veya tam) sahip olan ürünler olarak otomatik sıralanır.
+- Çoklu anahtar sözcük aramaları için (yani, arama terimleri kullanan aramalar için) perakendeciler aramanın *herhangi bir* arama terimi ile mi eşleşen yoksa yalnızca *tüm* arama terimleriyle mi eşleşen sonuçları dahil edeceğini yapılandırabilir. Bu ayar, POS işlevi profilinde, **Ürün arama** olarak adlandırılan yeni bir grupta kullanılabilir. Varsayılan ayar **Herhangi bir arama terimi ile eşleş**'tir. Bu ayar aynı zamanda önerilen ayardır. **Herhangi bir arama terimiyle eşleştir** ayarı kullanıldığında, tamamen veya kısmen bir veya daha fazla arama sözcüğüne uyan tüm ürünler sonuç olarak döndürülür. Bu sonuçlar, en çok eşleşen anahtar kelimeye sahip ürünlere göre (tam veya kısmi) artan düzende sıralanır.
 
     **Tüm arama terimleriyle eşleş** ayarı, yalnızca tüm arama terimleriyle (kısmi veya tam) olarak eşleşen ürünleri döndürür. Bu ayar, ürün adları uzunsa ve çalışanlar arama sonuçlarında yalnızca sınırlı ürünleri görmek istiyorlarsa kullanışlıdır. Ancak, bu tür aramanın iki sınırlaması vardır:
 
     - Arama yalnızca tek tek ürün özellikleri üzerinde yapılır. Örneğin, en az bir ürün özelliğinde, yalnızca tüm aranan kelimeleri içeren ürünler döndürülür.
     - Boyutlar aranmaz.
 
-- Perakendeciler şimdi ürün aramayı, kullanıcılar ürün adlarını yazarken arama sonuçlarını gösterecek şekilde yapılandırabilir. Bu işlev için yeni bir ayar, POS işlevi profilinde, **Ürün arama** olarak adlandırılan bir grup altında kullanılabilir. Bu ayarın adı **Yazarken arama önerilerini göster**'dir. Bu işlev, çalışanların aradıkları ürünü hızlıca bulmalarına yardımcı olabilir çünkü tam adını yazmalarına gerek kalmaz.
+- Perakendeciler şimdi ürün aramayı, kullanıcılar ürün adlarını yazarken arama sonuçlarını gösterecek şekilde yapılandırabilir. Bu işlev için yeni bir ayar, POS işlevi profilinde, **Ürün arama** olarak adlandırılan bir grupta kullanılabilir. Bu ayarın adı **Yazarken arama önerilerini göster**'dir. Bu işlev, çalışanların aradıkları ürünü hızlıca bulmalarına yardımcı olabilir çünkü tam adını yazmalarına gerek kalmaz.
 - Ürün arama algoritması şimdi ayrıca aranan terimleri ürünün **Arama adı** özelliğinde de arar.
 
 ![Ürün önerileri](./media/Productsuggestions.png "Ürün önerileri")
@@ -83,7 +83,23 @@ Bir uzak müşteri aramasında, diğer tüzel varlıklardaki müşteriler için 
 
 ![Genel müşteri arama](./media/Globalcustomersearch.png "Genel müşteri arama")
 
-### <a name="enhancements-to-local-customer-searches"></a>Yerel müşteri aramasındaki geliştirmeler
+### <a name="enhancements-to-local-customer-search"></a>Yerel müşteri aramasındaki geliştirmeler
 
-Yerel müşteri aramaları, çalışanların müşterileri telefon numarasına göre hızlıca bulmasına yardımcı olur. Çalışanların, köşeli parantez, tire veya boşluk gibi bir müşterinin telefon numarasını eklenmiş olan özel karakterleri eklemesi gerekmez. Kasiyerlerin telefon numaralarını herhangi bir şekilde saklayabilmelerine rağmen (örneğin köşeli parantez, tire, simgeler ve benzeri içerebilirler), müşterileri telefon numarasının bir kısmını yazarak arayabilirler. Bir kasiyer telefon numarasını girdiğinde bir özel karakter dahil etmişse, diğer kasiyerler müşteriyi, özel karakterden sonra beliren numaraları girerek bulabilirler. Örneğin, bir müşterinin telefon numarası **123-456-7890** olarak girilmişse, bir kasiyer müşteriyi **123**, **456**, **7890** veya **1234567890** arayarak veya telefon numarasının ilk birkaç rakamını kısmen girerek arayabilir.
+Telefon numarasını temel alan aramalar basitleştirilmiştir. Bu aramalar artık müşteri oluşturulurken eklenmiş olabilecek parantez, tire, boşluk gibi özel karakterleri yok sayar. Bu nedenle, kasiyelerin arama yaparken telefon numarası biçimi hakkında endişelenmesi gerekmez. Ayrıca müşteriler için kısmi bir telefon numarası yazarak da arama yapabilirler. Bir telefon numarası özel karakterler içeriyorsa, özel karakterlerden sonra görünen numaralar için arama yaparak da bulunabilir. Örneğin, bir müşterinin telefon numarası **123-456-7890** olarak girilmişse, bir kasiyer müşteriyi **123**, **456**, **7890** veya **1234567890** arayarak veya telefon numarasının ilk birkaç rakamını girerek arayabilir.
+
+Geleneksel müşteri arama birden çok alanda arama yaptığından zaman alabilir. Bunun yerine, kasiyerler artık adı, e-posta adresi veya telefon numarası gibi tek bir özel özellik için arama yapabilir. Müşteri arama algoritmasının kullandığı özellikler topluca *müşteri arama ölçütü* olarak bilinir. Sistem Yöneticisi bir veya daha fazla ölçütü POS'ta görüntülenecek kısayol olarak kolayca yapılandırabilir. Arama tek bir ölçütle sınırlı olduğundan, yalnızca ilgili arama sonuçları gösterilir ve standart müşteri arama performansına göre çok daha iyi performans elde edilir. Aşağıda POS'taki müşteri arama kısayolları gösterilmektedir.
+
+![Müşteri arama kısayolları](./media/SearchShortcutsPOS.png "Müşteri arama kısayolları")
+
+Arama ölçütlerini kısayol olarak belirlemek için yöneticinin Microsoft Dynamics 365 for Finance and Operations'da **Perakende parametreleri** sayfasını açması ve **POS arama ölçütü**, sekmesinde kısayol olarak gösterilecek tüm ölçütleri seçmesi gerekir.
+
+![Arama kısayollarını yapılandırma](./media/ConfigureShortcutsAX.png "Arama kısayollarını yapılandırma")
+
+> [!NOTE]
+> Çok sayıda kısayol eklerseniz, POS arama çubuğundaki açılan menü kalabalık olur ve çalışanın arama deneyimini etkileyebilir. Yalnızca gerektiği kadar kısayol eklemenizi öneririz.
+
+**Görüntüleme sırası** alanı kısayolların POS'ta gösterileceği sırayı belirler. Gösterilen ölçütler müşteri arama algoritmasının müşterileri aramak için kullandığı kullanıma hazır özelliklerdir. Bununla birlikte, iş ortakları arama kısayolu olarak özel özellikleri ekleyebilir. Arama kısayolu olarak özel özellikler eklemek için sistem yöneticisinin müşteri arama ölçütleri için kullanılan genişletilebilir numaralandırmayı (enum) genişletmesi ve ardından iş ortağının özel özelliklerini kısayol olarak işaretlemesi gerekir. İş ortakları kendi özel kısayollarını aramalar için kullanıldığında, sonuçları bulmak için kod yazmaktan sorumludur.
+
+> [!NOTE]
+> Enuma eklenen özel bir özellik standart müşteri arama algoritmasını etkilemez. Başka bir deyişle, müşteri arama algoritması özel özellikte arama yapmaz. Kullanıcılar yalnızca o özel özellik kısayol olarak eklenirse veya varsayılan arama algoritması geçersiz kılınırsa aramalar için özel bir özellik kullanabilir.
 

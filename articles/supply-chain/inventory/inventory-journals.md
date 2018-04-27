@@ -1,9 +1,9 @@
 ---
 title: "Stok günlükleri"
-description: "Bu makalede, çeşitli fiziksel stok hareketi türlerini deftere nakletmek için stok günlüklerini nasıl kullanabileceğiniz açıklanmaktadır."
-author: MarkusFogelberg
+description: "Bu konuda, çeşitli fiziksel stok hareketi türlerini deftere nakletmek için stok günlüklerini nasıl kullanabileceğiniz açıklanmaktadır."
+author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,21 +19,20 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 968bf9a243d0c0cc9f0dfec474cb207ca32f9eeb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7e6ac46cc4d4961cdd76f6127d8900a9b3d13a39
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="inventory-journals"></a>Stok günlükleri
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
-
-Bu makalede, çeşitli fiziksel stok hareketi türlerini deftere nakletmek için stok günlüklerini nasıl kullanabileceğiniz açıklanmaktadır.
+Bu konuda, çeşitli fiziksel stok hareketi türlerini deftere nakletmek için stok günlüklerini nasıl kullanabileceğiniz açıklanmaktadır.
 
 Microsoft Dynamics 365 for Finance and Operations stok günlükleri çeşitli türdeki fiziksel stok hareketlerini deftere nakletmek için kullanılır, örneğin sorunlar ve girişler, stok hareketleri, ürün reçeteleri (BOM) oluşturulması ve fiziksel envanter mutabakatı deftere nakilleri gibi. Tüm stok günlükleri benzer şekilde kullanılır, ancak bunlar farklı türlere ayrılır.
 
@@ -51,7 +50,7 @@ Kullanılabilen stok günlükleri türleri şunlardır:
 
 ### <a name="movement"></a>Hareket
 
-Bir stok hareketi günlük kullandığınızda, stok eklemek, ancak el ile günlüğü oluşturduğunuzda, genel muhasebe mahsup hesabı belirterek belirli bir genel muhasebe hesabı için ek maliyet ayırmalıdır maliyet bir öğeye ekleyebilirsiniz. Bu stok günlüğü türü, öğenin farklı bir bölüme karşı gider olarak göstermek istiyorsanız veya öğeleri gider amacıyla stoktan kaldırmak istiyorsanız yararlıdır.
+Bir stok hareketi günlük kullandığınızda, stok eklemek, ancak el ile günlüğü oluşturduğunuzda, genel muhasebe mahsup hesabı belirterek belirli bir genel muhasebe hesabı için ek maliyet ayırmalıdır maliyet bir öğeye ekleyebilirsiniz. Bu stok günlüğü türü varsayılan deftere nakil hesaplarının üzerine yazmak isterseniz yararlıdır.
 
 ### <a name="inventory-adjustment"></a>Stok düzeltmesi
 
@@ -61,8 +60,8 @@ Bir stok ayarlama günlüğü kullandığınızda, stok eklediğinizde, bir öğ
 
 Transfer günlükleri, herhangi bir maliyet etkileri ilişkilendirme olmadan öğeleri stoklama konumları, toplu işlem veya ürün çeşitleri arasında aktarmak için kullanabilirsiniz. Örneğin, aynı şirket içinde bir ambardan başka bir ambardan öğeleri aktarabilirsiniz. Bir transfer günlüğü kullandığınızda, "kaynak" ve "hedef" stok boyutlarının (örneğin, tesis ve ambar) her ikisini de belirtmelisiniz. Tanımlanan stok boyutları için eldeki stok uygun şekilde değiştirilir. Stok aktarımları, malzemenin hemen hareketlerini yansıtır. Transit stok izlenmez. Transit stok izlenmek zorundaysa, transfer emri kullanmalısınız. Transfer günlüğünü deftere naklettiğinizde, her günlük satırı için iki stok hareketi oluşturulur:
 
--   "Kaynak" konumundaki bir stok çıkışı
--   "Hedef" konumundaki bir stok girişi
+-   "Kaynak" konumundaki bir stok çıkışı.
+-   "Hedef" konumundaki bir stok girişi.
 
 ### <a name="bom"></a>Ürün reçetesi
 
@@ -82,7 +81,7 @@ Sayım günlükleri madde veya madde grupları için eldeki stok miktarını dü
 
 ### <a name="tag-counting"></a>Etiket sayımı
 
-Etiket sayım günlükleri, numaralı bir etiketi lot sayımına atamak için kullanılır. Etiketin bir etiket numarası, madde numarası ve madde miktarı içermesi gerekir. Bir etiketin yalnızca bir kere ve tüm etiketlerin kullanıldığına emin olmaya yardımcı olmak için, her öğe numarasının kendi numara serisi olan bir dizi benzersiz etikete sahip olması gerekir. Her etiket için üç durum değerlerini ayarlayabilirsiniz:
+Etiket sayım günlükleri, numaralı bir etiketi lot sayımına atamak için kullanılır. Etiketin bir etiket numarası, madde numarası ve madde miktarı içermesi gerekir. Bir etiketin yalnızca bir kere ve tüm etiketlerin kullanıldığından emin olmak için, her öğe numarasının kendi numara serisi olan bir dizi benzersiz etikete sahip olması gerekir. Her etiket için üç durum değerlerini ayarlayabilirsiniz:
 
 -   **Kullanılan** – Bu etiket için madde numarası sayılır.
 -   **Hükümsüz** – Bu etiket için madde numarası hükümsüz olur.
@@ -95,4 +94,30 @@ Günlüğe bir defada yalnızca bir kullanıcı tarafından erişebilir. Günlü
 
 ## <a name="posting-journal-lines"></a>Günlük satırlarını deftere nakletmek
 Oluşturduğunuz günlük satırlarını istediğiniz zaman, bir öğe için ek hareketleri kilitleyene kadar deftere nakledebilirsiniz. Günlüğe girdiğiniz veriler günlükte, günlük satırları deftere nakletmeden kapatırsanız bile kalır.
+
+## <a name="data-entity-support-for-inventory-journals"></a>Stok günlükleri için varlık veri desteği
+
+Veri varlıkları aşağıdaki türde tümleştirme senaryolarını destekler:
+-    Zaman uyumlu hizmet (OData)
+-  Zaman uyumsuz tümleştirme
+
+Daha fazla bilgi için bkz. [Veri varlıkları](../../dev-itpro/data-entities/data-entities.md).
+
+> [!NOTE]
+> Tüm stok günlükleri OData özellikli değildir bu nedenle verilerin yayımlanması, güncelleştirilmesi ve yeniden Dynamics 365 for Finance and Operations'a aktarılması için Excel veri bağlayıcısını kullanamazsınız. 
+
+Günlük veri varlıkları arasındaki diğer bir fark, hem satır hem de başlık verilerini içeren bileşik varlıklar kullanabilme olanağıdır. Şu anda bileşik varlıkları aşağıdakiler için kullanabilirsiniz:
+-   Stok düzeltme günlüğü
+-   Stok hareketi günlüğü
+
+Bu iki stok günlüğü yalnızca *Stok başlatma* senaryosunu, veri yönetimi içe aktarma projesinin bir parçası olarak destekler:
+-  Bir günlük başlığı numarası belirtilmediğinde ancak günlük türü için bir numara serisi belirtildiğinde, içe aktarma işi otomatik olarak 1000 satır başına günlük başlıkları oluşturur. Örneğin, 2020 satırın içe aktarılması aşağıdaki üç günlük başlığına neden olur:
+    -  Başlık 1: 1000 satır içerir
+    -  Başlık 2: 1000 satır içerir
+    -  Başlık 3: 20 satır içerir
+-  Benzersiz satır bilgisinin bir ürün, depolama veya izleme boyutu olabilen stok boyutu başına var olduğu varsayılır. Bu nedenle, aynı içe aktarma projesindeki satırlarda yalnızca tarih alanının farklı olduğu günlük satırlarını içe aktarmak mümkün değildir.
+
+## <a name="additional-resources"></a>Ek kaynaklar
+
+[Veri varlıkları](../../dev-itpro/data-entities/data-entities.md)
 
