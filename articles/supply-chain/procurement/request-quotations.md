@@ -57,8 +57,8 @@ Teklifleri e-posta ile aldığınızda, bunları **Teklif talepleri** sayfasınd
 
 Bir satıcıdan gelen yanıtın ikinci defa yinelenmesi gerekirse, **Teklif talebi** sayfasında **İade et**'e tıklayın. İade eylemi yeni bir günlük oluşturur ve Yazdırma ayarlarınıza göre bir rapor yazdırılır, arşivlenir ve gönderilir.
 
-[!NOTE]
-**Teklif talebi** sayfasının adı değiştirilmiştir. Dynamics 365 for Finance and Operations'ın önceki sürümlerinde bu sayfanın adı**Teklif talepleri yanıtı** idi.
+> [!NOTE]
+> **Teklif talebi** sayfasının adı değiştirilmiştir. Dynamics 365 for Finance and Operations'ın önceki sürümlerinde bu sayfanın adı**Teklif talepleri yanıtı** idi.
 
 RFQ servis talebine puanlama ölçütü eklediyseniz, RFQ'da puanlama girebileceğiniz bir puanlama paneli bulunur. **Yanıtları karşılaştır** sayfasında yanıtları karşılaştırdığınızda toplam puanlar RFQ'da görüntülenir. **Yanıtları karşılaştır** sayfasında satır fiyatı, toplam fiyat ve teslimat tarihi gibi diğer yanıt verilerini de karşılaştırabilirsiniz.
 
@@ -126,8 +126,8 @@ Bir teklifte, teklifin neden reddedildiği veya kabul edildiğini belirtmek içi
 
 Tedarik ve kaynak atamadaki **Form ayarı** sayfasında yazdırılan veya depolanan RFQ belgelerinizin görünümünü yapılandırabilirsiniz.
 
-[!NOTE]
-Kamu sektörü yapılandırması için, gönderilen bir RFQ'da değişiklik yapmak için düzeltme işlemini kullanmanız gerekir. Bir RFQ gönderildiğinde alanlar kilitlenir.
+> [!NOTE]
+> Kamu sektörü yapılandırması için, gönderilen bir RFQ'da değişiklik yapmak için düzeltme işlemini kullanmanız gerekir. Bir RFQ gönderildiğinde alanlar kilitlenir.
 Bu nedenle, RFQ'da değişiklik yapmak için daha önce açıklandığı şekilde düzeltme işlemini başlatmak üzere **Oluştur**'u seçmeniz gerekir. Kilitleme davranışı **Tedarik ve kaynak atama parametreleri** sayfasındaki **RFQ'yi gönderildiğinde kilitle** seçeneğiyle kontrol edilir. Varsayılan olarak bu parametre **Evet** olarak ayarlanır ve kamu sektörü yapılandırmasında varsayılan ayar değiştirilemez. Bu nedenle, kamu sektörü dışındaki yapılandırmada düzeltme işlemi el ile gerçekleştirilebilmesine karşın, kamu sektörü yapılandırması için kullanılmak zorundadır.
 
 Bir satınalma sipariş için RFQ servis talebi oluşturduğunuzda ve RFQ'ya bir stok maddesi eklediğinizde, giriş durumu **Teklif girişi** olan bir stok hareketi oluşturulur. Malzemeleri hesaplamak için bir master plan kullandığınızda yalnızca bu duruma sahip RFQ servis talebi satırları göz önünde bulundurulur. Master planın RFQ servis talebi satırlarını beklenen giriş olarak eklemesini istiyorsanız, master plan ayarlama aşamasında bu davranışı yapılandırmanız gerekir.
