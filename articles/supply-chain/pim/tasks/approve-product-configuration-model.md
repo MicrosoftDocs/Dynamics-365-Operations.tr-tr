@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-a-product-configuration-model"></a>Ürün yapılandırma modelini onaylama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordamın çalıştırılması için kullanılabilir en az bir ürün yapılandırma modeli olması gerekir. Bu yordam, USMF demo verisi şirketindeki son teknoloji hoparlör modelini kullanılır. Bu modelin önceden onaylandığını unutmayın; yordam yine de tüm işlemi adım adım açıklar.
 

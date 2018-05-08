@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-management"></a>Stok Yönetimi 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Stok yönetimini şu görevleri gerçekleştirmek için kullanabilirsiniz:
 

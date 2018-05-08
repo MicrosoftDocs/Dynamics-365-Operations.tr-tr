@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a> Donanım istasyonu indirmek için self servis gerçekleştirme
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordamda önceden tanımlanmış bir donanım istasyonu indirme konusu açıklanmaktadır. Bu yordam için kullanılan demo verisi şirketi USRT'dir. Bu göreve başlamadan önce yeni donanım istasyonu profili ve donanım istasyonu oluşturmanız gerekir.
 

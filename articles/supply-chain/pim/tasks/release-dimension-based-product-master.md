@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="release-a-dimension-based-product-master"></a>Boyut tabanlı ana ürünü serbest bırakma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordamda, boyut tabanlı yapılandırmalar için kullanılacak ana ürünün nasıl serbest bırakılacağı gösterilmiştir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu boyut tabanlı yapılandırma teknolojisiyle oluşturulmuş bir ana ürüne sahip olmanız bir önkoşuldur. Bu, boyut tabanlı yapılandırma birleşimlerini nasıl oluşturulacağını açıklayan sekiz yordam arasındaki ikincisidir.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="lean-manufacturing-overview"></a>Yalın imalata genel bakış
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makale Microsoft Dynamics 365 for Finance and Operations içindeki yalın imalat özelliklerinin genel bakışını ve açıklamasını sağlar.
 

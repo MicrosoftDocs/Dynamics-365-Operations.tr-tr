@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-expense-management"></a>Gider yönetimini yapılandır
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 for Finance and Operations'ta Gider yönetimini yapılandırmadan önce planlama sürecinde değerlendirmeniz gereken noktaları ve almanız gereken kararları açıklar. Gider yönetiminde, ödeme yöntemleri, seyahat talepleri, gider raporları, ilkeler vb. hakkındaki bilgileri saklayabilirsiniz.
 

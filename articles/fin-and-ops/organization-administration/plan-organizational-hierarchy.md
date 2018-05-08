@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-your-organizational-hierarchy"></a>Kuruluş hiyerarşinizi planlama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations'da kuruluşlar ve kuruluş hiyerarşilerini ayarlamadan önce işinizin nasıl modellendirileceğini planladığınızdan emin olun. Kuruluş modelinin Finance and Operations'ın uygulanması ve iş süreçleri üzerinde önemli bir etkisi vardır. 
 

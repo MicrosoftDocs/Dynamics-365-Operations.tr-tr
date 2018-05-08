@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-inventory-statement-and-kpi-by-cost-object"></a>Maliyet nesnesine göre stok ekstresi ve KPI görüntüleme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam maliyet denetleyicisi için hazırlanmıştır.
 

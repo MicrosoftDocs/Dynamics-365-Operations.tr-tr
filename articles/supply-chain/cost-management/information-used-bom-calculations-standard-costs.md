@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>Standart maliyetlere sahip ürün reçetesi hesaplamalarında kullanılan bilgiler
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Ürün reçetesi (BOM) hesaplamaları, üretilmiş bir maddenin standart maliyetlerini hesaplamak için birkaç kaynaktan veri kullanır. Bu kaynaklar maddeler, ürün reçetesi rotaları, dolaylı maliyet hesaplama formülleri ve maliyet versiyonu hakkındaki bilgileri içerir.
 

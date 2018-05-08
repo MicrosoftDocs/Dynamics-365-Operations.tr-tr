@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a>Uygulama veri güncelleştirmeleri için gelen belgeleri ayrıştırmak için yapılandırmalar tasarlama (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam gelen elektronik belgeyi ayrıştırmak için Elektronik raporlama (ER) yapılandırmalarının nasıl kullanılacağını açıklar. Bu yordamda, örnek şirket Litware, Inc. için oluşturulan gerekli ER yapılandırmalarını içe aktaracak ve bunları gelen elektronik belgeleri ayrıştırmak için kullanacaksınız. Bu yordamdaki adımları tamamlamak için, ilk olarak "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamını tamamlamanız gerekir.
 

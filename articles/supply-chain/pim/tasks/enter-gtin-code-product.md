@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>Ürünün GTIN kodunu girme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 GTIN kodları GS1 kurumu tarafından atanır. Bu örnekte, USMF demo veri şirketinde M0001 ürün numarası için bir kod girin.
 

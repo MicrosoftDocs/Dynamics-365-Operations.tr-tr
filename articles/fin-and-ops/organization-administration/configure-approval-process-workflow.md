@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Bir onay işlemini bir iş akışında yapılandır
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Onay işleminin özelliklerini yapılandırmak için aşağıdaki yordamı kullanın.
 

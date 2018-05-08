@@ -24,7 +24,7 @@ ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-a-finished-product-february-2016-only"></a>Tamamlanmış ürün oluşturma (yalnızca Şubat 2016)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev, bitmiş bir ürün oluşturmaya odaklanır. Ürün Reçetesi hesaplama serisindeki ilk görevdir. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

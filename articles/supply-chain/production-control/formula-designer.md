@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="formula-designer"></a>Formül tasarımcısı
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, formül tasarımcısının, bir ağaç görünümündeki formülleri analiz etmek ve korumak için nasıl kullanılacağını açıklar.
 

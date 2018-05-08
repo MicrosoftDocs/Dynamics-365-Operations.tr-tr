@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="general-ledger"></a>Genel muhasebe 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Tüzel kişinin mali kayıtlarını tanımlamak ve yönetmek için genel muhasebeyi kullanın. Genel muhasebe, borç ve alacak girişlerinin bir kaydıdır. Bu girişler, hesap planında listelenen hesaplar kullanılarak sınıflandırılır. 
 

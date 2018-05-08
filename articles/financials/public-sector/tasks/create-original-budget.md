@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-original-budget-and-reverse-preliminary-budget-entries-in-the-public-sector"></a>Kamu sektöründe özgün bütçe oluşturma ve ön bütçe girişlerini ters kaydetme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Özgün bir bütçe girişi oluşturduğunuzda ve ön bütçe tutarlarını bütçe modeli ve boyut değerlerini kullandığınızda, ön bütçe tutarları geri alınabilir. Bu yöntem kamu sektörü bölümündeki PSUS demo şirketinin verileri kullanılarak yaratılmıştır.
 

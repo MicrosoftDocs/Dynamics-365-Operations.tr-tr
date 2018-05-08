@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-email-templates"></a>E-posta şablonlarını yönetme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Yeni bir belgeye kuruluşunuzun bilgilerini vertabanından transfer edebilirve bunu başvuranlarla ve adaylarla etkili iletişim kurmak için şablonlarda kullanabilirsiniz. Bunu yapmak için sistem verilerinin ekleneceği standart metin ve yer işaretleri içeren bir şablon oluşturabilirsiniz. Örneğin, bir başvuran için adres ve iletişim bilgilerini içeren, söz konusu başvuranla iletişim kurarken kullanabileceğiniz bir Microsoft Word belgesine ekleyebilirsiniz. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

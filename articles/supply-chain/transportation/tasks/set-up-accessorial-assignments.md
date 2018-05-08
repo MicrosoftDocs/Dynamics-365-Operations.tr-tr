@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-accessorial-assignments"></a>İlave atamaları ayarlama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, bir ilave atama kurmayı göstermektedir. Bu genellikle taşımacılık düzenleyicisi tarafından yapılır. Bu kılavuzu kullanmadan önce "Hub ek giderleri ve ana ilaveleri ayarlama" kılavuzunu çalıştırmanız gerekir.
 

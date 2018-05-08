@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Amortisman profilleri ayarlama ve oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Amortisman profilleri bir varlığın türünü ve amortisman sıklığını belirler.   Bu kayıtta USMF demo şirketi ve muhasebeci rolü kullanılmaktadır.
 

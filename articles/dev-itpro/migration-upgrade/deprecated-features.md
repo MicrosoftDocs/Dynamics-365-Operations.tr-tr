@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="removed-or-deprecated-features"></a>Kaldırılan veya kullanımına son verilen özellikler
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 for Finance and Operations'dan kaldırılmış veya kullanımına son verilmiş özellikler açıklanmaktadır.
 

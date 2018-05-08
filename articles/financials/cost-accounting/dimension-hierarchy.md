@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="dimension-hierarchy"></a>Boyut hiyerarşisi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, boyu hiyerarşileri hakkında bilgiler sağlar. Maliyet muhasebesi içerisinde ayarlanmış raporlama yapısını, maliyet ilkelerini ve güvenlik gruplarını tanımlamak için bir boyut hiyerarşisi kullanırsınız.  
 

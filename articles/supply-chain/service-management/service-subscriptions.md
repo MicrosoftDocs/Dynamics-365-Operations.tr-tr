@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-subscriptions"></a>Servis abonelikleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Abonelikler zaman ve malzemeler projesini temel alır. Abonelikleri bir projeden, **Servis abonelikleri** sayfasından veya bir servis abonelik grubu kullanarak oluşturabilirsiniz.
 

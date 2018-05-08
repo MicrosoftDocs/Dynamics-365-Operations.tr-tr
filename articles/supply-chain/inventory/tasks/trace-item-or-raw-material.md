@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="trace-an-item-or-raw-material"></a>Maddeyi veya hammaddeyi izleme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, ürünlerin veya hammaddelerin kullanılmış veya kullanılmakta olduğunu belirlemek amacıyla ürün izleme işlevinin nasıl kullanılacağını gösterir. Bu yordamı kullanarak, bir ürünü belirleyebilir, kaynağına kadar izleyebilir ve sonra ürünün üretiminden satışına kadar olan ileriye yönelik izleme işlemleri görebilirsiniz. Bu işlem, ilişkili müşterileri, satış siparişlerini ve daha fazlasını araştırmak için kullanılabilir. Bu yordam, USP2 demo verisi şirketini kullanır.
 

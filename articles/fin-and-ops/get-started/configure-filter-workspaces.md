@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-and-filter-workspaces"></a>Çalışma alanlarını yapılandırma ve filtreleme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, çalışma alanlarının nasıl yapılandırılacağı ve filtreleneceğine ilişkin bir genel bakış verilmektedir.
 

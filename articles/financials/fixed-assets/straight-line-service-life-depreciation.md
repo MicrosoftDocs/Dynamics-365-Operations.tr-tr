@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="straight-line-service-life-depreciation"></a>Sabit servis ömrü amortismanı
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede amortismanın Düz çigi hizmet ömrü yöntemine genel bir bakış sunulmuştur.
 

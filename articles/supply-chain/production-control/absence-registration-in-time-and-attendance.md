@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="absence-registration-in-time-and-attendance"></a>Saat ve işe devamda devamsızlık kaydı
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu devamsızlık kavramlarını tanımlar ve devamsızlığın Saat ve işe devamda nasıl ele alınacağını açıklar.
 

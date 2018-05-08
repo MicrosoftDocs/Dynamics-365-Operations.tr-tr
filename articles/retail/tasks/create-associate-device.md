@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-a-device"></a> Cihaz oluşturma ve ilişkilendirme
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam yeni bir aygıt oluşturma ve kayıtla ilişkilendirme konusunda açıklamalar içerir. Kaydın daha önce oluşturulduğu varsayılır.  Bu görev demo verilerdeki USRT şirketini kullanır. Bu görev Yöneticiler, BT Uzmanı veya Perakende BT Uzmanı ve Mağaza Yöneticisi rollerine yöneliktir.
 

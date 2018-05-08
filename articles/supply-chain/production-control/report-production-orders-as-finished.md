@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-production-orders-as-finished"></a>Üretim emirlerini tamamlandı olarak raporlama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Tamamlamdı olarak raporlama bir üretim aşamasıdır. Bu aşamada, bitmiş ürünün rapor edilir ve üretim emrinden stoğa taşınır.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="base-price-and-trade-agreements"></a>Taban fiyat ve ticari sözleşmeler
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam kanala özel bir satış fiyatı ticari anlaşmaları oluşturma sürecini gösterir. Bu yordam, USRT demo veri şirketini kullanır.
 

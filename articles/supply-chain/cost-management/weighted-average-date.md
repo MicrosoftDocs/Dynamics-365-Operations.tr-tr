@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="weighted-average-date"></a>Ağırlıklı ortalama tarihi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Ağırlıklı ortalama tarihi, ağırlıklı ortalama ilkesini temel alan bir stok modelidir. Ağırlıklı ortalama ilkesi için, stoktan yapılan çıkışlar, stok kapanış döneminde her gün stoğa alınan maddelerin ortalama değerinden değerlenir. 
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>Klavye kısayolları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Aşağıdaki klavye kısayolları tüm Dynamics 365 for Finance and Operations genelinde geçerlidir. 
 

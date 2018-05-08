@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-sales-tax-authorities"></a>Vergi dairesi ayarlama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Satış vergisi makamları, toplanan satış vergisinin bildirilip ödenmesi gereken kurumlardır. Satış vergilerini doğrudan bu kuruma ödeyebileceğiniz gibi, satış vergisi kurumu için oluşturduğunuz bir satıcı hesabı aracılığıyla da ödeyebilirsiniz. Bunu yaparsanız, şirket satış vergisi yetkilisine zamanında ödeme yapmak için normal ödeme rutinlerini kullanabilir. Vergi yetkilisini satıcı olarak ayarlamazsanız, birisinin uygun vade tarihinde vergi yetkilisine el ile bir ödeme hazırlaması gerekir. Bu görevde USMF demo şirketi kullanılmaktadır.
 

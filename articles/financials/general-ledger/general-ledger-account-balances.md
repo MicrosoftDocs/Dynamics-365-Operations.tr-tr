@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="general-ledger-account-balances"></a>Genel defter hesap bakiyeleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, genel muhasebe hesabı bakiyelerini görüntülemek için kullanılan iki yöntem açıklanmaktadır -  Mizan listesi sayfası ve mali raporlar. Makalede, boyut kümesi bakiyelerinin nasıl güncelleştirileceği de ele alınmaktadır.
 

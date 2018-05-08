@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016-only"></a>Çok düzeyli yapı kullanarak ürün reçetesini hesaplama (yalnızca Şubat 2016)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, Maliyetlendirme tablosunu temel alan, çok düzeyli açılım kullanarak tamamlanmış bir ürünün maliyetinin nasıl hesaplanacağını gösterir. Ürün reçetesi hesaplaması serisindeki yedinci görevdir. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

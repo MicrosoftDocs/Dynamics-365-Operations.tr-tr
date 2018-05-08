@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="electronic-signature-overview"></a>Elektronik imzalara genel bakış
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makale, elektronik imzalara genel bir bakış sunar ve Microsoft Dynamics 365 for Finance and Operations'da nasıl kullanılabileceklerini açıklar.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="set-up-injury-and-illness-information"></a>Yaralanma ve hastalık bilgilerini ayarla
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 İşverenler, personellerinin başına gelen çalışma alanı kaynaklı hastalık veya yaralanmalardan haberdar olmalıdırlar. Yaralanma ve hastalık sayfasını kullanarak iş yeri kaynaklı yaralanma ve hastalıkların raporlanmasını kolaylaştırabilirsiniz. Yaralanmalar ve hastalıklar için tedaviler, maliyetleri ve sonuçlar de dahil olmak üzere türler ayarlayabilirsiniz. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

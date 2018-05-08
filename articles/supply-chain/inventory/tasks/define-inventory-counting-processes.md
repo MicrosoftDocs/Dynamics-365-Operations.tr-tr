@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-inventory-counting-processes"></a>Stok sayımı işlemlerini tanımlama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu prosedürde, size, bir sayım grubu ve bir sayım günlüğü oluşturarak, temel stok sayım işlemlerini yapılandırma gösterilecek. Ayrıca, ambar ve madde düzeyinde sayım ilkelerinin nasıl etkinleştirileceğini de göreceksiniz. Bu görevler genellikle bir ambar gözetmeni tarafından yerine getirilir. Biraz serbest bırakılmış ürün ve ambar bulundurmak önkoşuldur. Demo veri şirketi kullanıyorsanız, bu prosedürü USMF şirketinde herhangi bir stoklu maddeyle çalıştırabilirsiniz.
 

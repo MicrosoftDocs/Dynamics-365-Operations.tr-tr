@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="intercompany-invoicing"></a>Şirketlerarası faturalama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, Microsoft Dynamics 365 for Finance and Operations'ta projeler için şirketlerarası faturalama hakkında bilgiler ve örnekler verilir.
 

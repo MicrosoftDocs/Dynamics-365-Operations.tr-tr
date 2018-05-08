@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="project-timesheets-on-a-mobile-device"></a>Bir mobil cihazda proje zaman çizelgeleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 # <a name="overview"></a>Özet
 

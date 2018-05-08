@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="analyze-questionnaire-results"></a>Soru formu sonuçlarını analiz etme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Soru formu istatistikleri, ortalamalar, toplamlar ve demografik veri kümesine göre yüzdeler hesaplamak için kullanılabilir. Bu yordamı başlatmak için Soru formu > Sonuçları görüntüle ve analiz et > Soru formu istatistikleri seçeneğine gidin. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

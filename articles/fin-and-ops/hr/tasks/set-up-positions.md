@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="set-up-positions"></a>Pozisyonları ayarlama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Pozisyonlar, organizasyon hiyerarşisinin alt düzeylerinin önemli bir öğesidir. Bir pozisyon, bir işin bireysel eşdüşümüdür. Örneğin "Satış yöneticisi (Doğu)" pozisyonu, "Satış yöneticisi" işiyle ilişkilendirilmiş işlerden biridir. Bu konum bir departman içinde mevcuttur ve yalnızca bir çalışan ile ilişkilendirilmiş olabilir. Bu görev, bir konum oluşturmak için gerekli adımlar hakkında siz yol gösterecektir. Bu yordam, İnsan Kaynakları Uzmanlarına yöneliktir.
 

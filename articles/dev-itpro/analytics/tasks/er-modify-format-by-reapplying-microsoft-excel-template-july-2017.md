@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="modify-a-format-by-reapplying-a-microsoft-excel-template-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için bir Microsoft Excel şablonunu yeniden uygulayarak biçimi değiştirme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordamdaki bu adımı tamamlamak için öncelikle "OPENXML biçiminde raporlar oluşturmak için bir ER yapılandırması tasarlama" yordamındaki adımları tamamlamanız gerekir.
 

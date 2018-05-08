@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-pos-permission-groups"></a> POS izin grupları oluşturma
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam bir POS izni grubunun nasıl oluşturulacağını gösterir. Bu görevi oluşturmak için kullanılan demo verisi şirketi USRT'dir. Bu görev, Perakende operasyonları yöneticisi rolü için hazırlanmıştır.
 

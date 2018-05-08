@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-holds"></a>Sipariş tutmaları
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Bu konu Dynamics 365 for Retail kullanarak siparişlerdeki tutmaları açıklar.
 

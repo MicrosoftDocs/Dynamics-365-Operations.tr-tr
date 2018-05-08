@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Maliyet kontrolü çalışma alanı parametrelerini yapılandırma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordamı Maliyet denetimi çalışma alanını yapılandırmak için kullanarak bir kuruluştaki çeşitli seviyede bulunan yöneticilerin örneğin maliyet merkezleri ve ürün grupları gibi maliyet nesnelerine dair bilgi alabilmelerini sağlayın. USP2 demo şirketi bu kaydı oluşturmak için kullanılmıştır.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="import-and-maintain-credit-card-transactions"></a>Kredi kartı hareketlerini içe aktarma ve yönetme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Giderle ilişkili kredi kartı hareketleri, yinelenen bir zamanlamada otomatik içe aktarılacak şekilde ayarlanabilir. Alternatif olarak, hareketler ihtiyaç duyuldukça el ile içe aktarılabilir. Kredi kartı hareketleri Kredi kartı hareketleri veri varlığı üzerinden içe aktarılır.
 

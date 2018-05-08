@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="bom-designer-functionality"></a>Ürün reçetesi tasarımcısı işlevi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, ürün reçetesi tasarımcısı sayfasını, ürün reçeteleri (BOM) tasarlamak ve ağaç yapıları ile çalışmak için nasıl kullanabileceğinizi açıklar. Farklı yapılandırmaları seçmek için Kurulum'u tıklatabilir ve ağacın satırlarında hangi bilgilerin gösterileceğini belirleyebilirsiniz.
 

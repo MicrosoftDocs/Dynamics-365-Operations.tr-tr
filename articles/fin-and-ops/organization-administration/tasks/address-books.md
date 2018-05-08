@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-address-books"></a>Adres defterlerini yapılandır
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordamı ve genel adres defteri'nin ve ek adres defterlerinin yapılandırmasını planlarken aldığınız kararları, kuruluşunuz için ek adres defterleri oluştururken kullanın.
 

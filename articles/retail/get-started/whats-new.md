@@ -26,11 +26,11 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-retail"></a>Dynamics 365 for Retail'deki yenilikler veya değişiklikler
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Bu sayfa sizi Microsoft Dynamics 365 for Retail'in son sürümlerindeki yeni özellikler ve değişiklikler hakkında bilgi almanıza yardımcı olabilecek kaynaklara yönlendirir.
 
-[!INCLUDE [release notes](../includes/release-notes.md)]
+[!include [release notes](../includes/release-notes.md)]
 
 ## <a name="releases-of-dynamics-365-for-retail"></a>Dynamics 365 for Retail sürümleri
 

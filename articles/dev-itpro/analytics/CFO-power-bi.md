@@ -25,7 +25,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="cfo-overview-power-bi-content"></a>CFO'ya genel bakış Power BI içeriği
 
-[!INCLUDE [banner](../includes/banner.md)] 
+[!include [banner](../includes/banner.md)] 
 
 Bu konu, **CFO'ya genel bakış** Microsoft Power BI içeriğini açıklar. Bu Power BI içeriği, Microsoft Dynamics 365 for Finance and Operations sürüm 7.2 kullananlar için geçerlidir. 7.3 veya üstü sürüm kullanıyorsanız lütfen [Mali Bilgiler](financial-insights.md)'e başvurun.
 

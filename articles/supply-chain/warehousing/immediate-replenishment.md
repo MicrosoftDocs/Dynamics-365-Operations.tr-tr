@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="immediate-replenishment"></a>Anlık stok yenileme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Anlık stok yenileme bir yerleşim yönergesi satırı stok tahsis etmek için başarısız olduktan hemen sonra stoğu yenilemenize olanak tanır. Stok yenileme yerleşim yönergesi kurulumundaki tek bir satırı temel alır. Stok bu satır tarafından belirtilen ölçü biriminde elde yoksa, bu ölçü birimi için stok yenileme anında gerçekleştirilir.
 

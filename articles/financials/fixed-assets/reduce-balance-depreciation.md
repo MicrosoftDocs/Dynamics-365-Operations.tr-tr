@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduce-balance-depreciation"></a>Bakiyeli amortismanı azaltma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makale, amortismanın Azalan bakiye yöntemi hakkında genel bir bakış sağlar.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-boms-as-finished"></a>Ürün reçetelerini tamamlandı olarak raporlama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede ürün reçetelerini tamamlandı olarak raporlama hakkında bilgi verilmektedir.
 

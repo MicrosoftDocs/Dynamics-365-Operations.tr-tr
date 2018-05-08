@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-and-maintain-channel-clients-registers-and-hardware-stations"></a>Kanal istemcilerini, kasaları ve donanım istasyonlarını tanımlama ve koruma
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Bu konu, çevre birimlerinin Perakende POS'unuza nasıl bağlanacağı açıklanır.
 

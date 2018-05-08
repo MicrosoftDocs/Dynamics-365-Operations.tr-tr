@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Tek bir şirket için serbest bırakılan ürün oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, tek bir yasal birim bağlamında yayımlanan tek bir ürün oluşturmayı adım adım anlatılmaktadır. Yayımlanan ürün oluşturulduktan sonra, yalnızca bu birimde hemen kullanılabilir. Bu yordamı, USMF demo verisi şirketi aracılığıyla uygulayabilirsiniz. Bu görev, genellikle bir ürün tasarımcısı tarafından gerçekleştirilir.
 

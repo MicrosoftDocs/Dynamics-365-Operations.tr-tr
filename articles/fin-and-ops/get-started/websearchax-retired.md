@@ -27,7 +27,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="websearchax-retired"></a>WebSearchAX kaldırıldı
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 WebSearchAX sayfasını kaldırdık. Bunun yerine favori arama motorunuzu kullanarak site araması yapmanızı öneririz.  Örneğin: 
 

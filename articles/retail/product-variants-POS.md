@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="inventory-lookup-in-the-point-of-sale"></a>Satış Noktasında stok araması 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Satış notasında (POS) stok araması perakendecilerin gerçek zamanlı işlem başarısına ulaşmasına ve mağazalara, POS'a ve arka ofise bağlanarak öngörüler edinmesine yardımcı olur. Bu işlev, mağazalar ve dağıtım merkezleri arasında ürün stoğunun doğru ve gerçek zamanlı görünümünü sağlar. Ayrıca, stok planlamasını gerçek zamanlı geliştirerek perakendecilerin ek verimlilik ve maliyet tasarrufu sağlamasına yardımcı olur.
 

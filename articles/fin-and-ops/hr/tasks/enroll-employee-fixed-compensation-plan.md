@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>Personeli sabit ücret planına kaydetme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Tazminat ve kazançlar yöneticisi, personelin ödeme oranlarını yönetmek amacıyla, personeli sabit ücret planlarına atayabilir. Bu prosedürde, sabit bir plan oluşturulduğu, planın etkin olduğu ve plan için uygunluk kurallarının ayarlandığı varsayılmaktadır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Prosedüre başlamak için İnsan Kaynakları > Çalışanlar > Personel > Ücret > Sabit plan'a gidin
 

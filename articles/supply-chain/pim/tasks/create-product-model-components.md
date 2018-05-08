@@ -24,7 +24,7 @@ ms.lasthandoff: 11/14/2017
 ---
 # <a name="create-product-model-components"></a>Ürün model bileşenleri oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kısıtlama tabanlı ürün yapılandırması modelleri, ürün modeli yapısı oluşturmak için temel olarak bileşenleri kullanır. Bir ürün modeli oluşturulmadan önce bileşenler oluşturulmalıdır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

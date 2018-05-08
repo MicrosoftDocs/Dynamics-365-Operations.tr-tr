@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Dönemler arasında bir proje bütçesi veya bütçe revizyonu tahsis etme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
  Bir proje bütçesi ya da proje bütçesi revizyonu girdikten sonra ve onay için göndermeden önce, tutarları dönemler arasında tahsis edebilirsiniz. Bütçe veya bütçe revizyonu reddedilirse, tutarları yeniden göndermeden önce de tahsis edebilirsiniz. 
 

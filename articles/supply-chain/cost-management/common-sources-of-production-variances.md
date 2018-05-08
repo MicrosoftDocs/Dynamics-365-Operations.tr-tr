@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="common-sources-of-production-variances"></a>Üretim farklılıklarının ortak kaynakları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makale, üretim farkı türlerinin çeşitli kaynaklarını açıklamaktadır. 
 

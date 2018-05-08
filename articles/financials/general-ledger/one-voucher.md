@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="one-voucher"></a>Bir fiş
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  Bu işlev, 2018 yılı bahar aylarında piyasaya sunulacak olan Dynamics 365 for Finance and Operations sürüm 8.0'da kullanılabilir.   

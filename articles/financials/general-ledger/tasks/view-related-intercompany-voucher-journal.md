@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-a-related-intercompany-voucher-from-a-journal"></a>Günlükten ilgili şirketlerarası fişi görüntüleme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 İlgili fiş penceresi, şirketlerarası hareketleri yevmiye defterinden aktarırken, mahsup şirketten olan fişi gösterir.
 

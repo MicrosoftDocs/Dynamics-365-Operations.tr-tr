@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>Konsolidasyon grupları ve ek konsolidasyon hesapları oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, bir konsolidasyon hesabı grubu oluşturmayı ve gruba hesap eklemeyi gösterir. Bu yordam, USMF demo verisi şirketini kullanır.
 

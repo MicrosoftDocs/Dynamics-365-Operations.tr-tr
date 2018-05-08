@@ -24,7 +24,7 @@ ms.lasthandoff: 11/04/2017
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>Boyut tabanlı ana ürün için ürün reçetesi oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu prosedür için bu sekiz kayıt sırasındaki, önceki 4 kılavuzu tamamlamış olmanız gerekir. İlk 4 kayıtta bu prosedürün tamamlanması için gereken verileri kurulur. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu görev tipik olarak ürün tasarımcısı tarafından ele alınır.
 

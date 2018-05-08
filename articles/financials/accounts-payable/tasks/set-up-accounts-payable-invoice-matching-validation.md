@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Borç hesapları fatura eşleştirme doğrulaması ayarlama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu kayıtta USMF demo şirketi kullanılmaktadır. Bu adımları borç hesapları yöneticisi veya muhasebe müdürü rolü gerçekleştirir. Başlamadan önce Fatura eşleştirme yapılandırma anahtarının seçildiğinden emin olun. Tüzel kişilik navlun vb. gibi masrafları giderleri kullanarak takip ediyorsa, Masraflar yapılandırma anahtarının seçili olduğundan emin olun.  Borç hesapları faturası eşleştirme, satıcı faturasını, satın alma siparişini ve ürün alındı bilgilerini eşleştirme işlemidir. Bu belgelerin aralarındaki farklara eşleştirme uyuşmazlıkları denir. Eşleştirme uyuşmazlıkları, belirtilen toleranslarla karşılaştırılır. Bir eşleştirme uyuşmazlığı tolerans yüzdesini veya tutarını aşarsa, Satıcı faturası formunda ve Fatura eşleştirme ayrıntıları formunda eşleşme farkı simgeleri görüntülenir.
 

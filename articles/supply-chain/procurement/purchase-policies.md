@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchasing-policies"></a>Satınalma ilkeleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makale, satınalma ilkeleri hakkında bilgi sağlar. Satınalma ilkesi talep işlemini denetleyen kurallar topluluğudur. Satınalma ilkeleri satınalma yöneticilerinin kuruluşun stratejik satınalma gereksinimlerine uygun bir ilke yapısı oluşturarak satınalma stratejilerini uygulamalarına yardımcı olur.
 

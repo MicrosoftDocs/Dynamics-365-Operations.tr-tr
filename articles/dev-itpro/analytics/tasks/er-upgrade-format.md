@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için yeni temel sürümünü benimseyerek biçiminizi yükseltme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Aşağıdaki yordam, Sistem Yöneticisi veya Elektronik Raporlama geliştiricisi rolündeki bir kullanıcının, bir Elektronik raporlama (ER) biçim yapılandırmasını nasıl sürdürebileceğini gösterir. Bu yordam, bir yapılandırma sağlayıcısından (CP) alınan biçime dayalı olarak bir biçimin özel bir sürümünün nasıl oluşturulabileceğini açıklar. Ayrıca, bu biçimin yeni bir temel sürümünün nasıl benimseneceğini de açıklar.
 

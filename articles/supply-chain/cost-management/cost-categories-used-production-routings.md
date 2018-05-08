@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>Üretim rotasında kullanılan maliyet kategorileri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, rota kullanan imalat ortamlarına uygulanan maliyet kategorileri hakkında bilgiler sağlanmaktadır.
 

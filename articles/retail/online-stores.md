@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="online-store-overview"></a>Çevrimiçi mağazaya genel bakış
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Bu makalede çevrimiçi Perakende mağazaları ve Microsoft Dynamics 365 for Retail'da bunların nasıl kurulacağı hakkında bilgiler verilmiştir.
 

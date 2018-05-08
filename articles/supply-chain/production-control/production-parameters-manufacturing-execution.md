@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="production-parameters-in-manufacturing-execution"></a>Üretim yürütmede üretim parametreleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu Üretim yürütmeden üretim parametrelerinin ayarlanmasıyla ilgili bilgiler içerir.
 

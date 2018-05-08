@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>Proje faturalarında alacak dekontu oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 1. Proje yönetimi ve muhasebe > Projeler > Tüm projeler'e gidin. 
 2. Listede, istenen kaydı bulun ve seçin. 

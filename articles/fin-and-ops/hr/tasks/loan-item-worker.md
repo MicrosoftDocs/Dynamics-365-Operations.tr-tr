@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="loan-items-to-a-worker"></a>Çalışana ödünç verilen maddeler
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam bir çalışana bir maddeyi ödünç vermeyi ve çalışan bunu geri getirdiğinde kaydını yapmayı gösterir. Çalışanlar ayrıca kendi Personel self servis sayfalarından ödünç almak üzere madde talep edebilirler. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

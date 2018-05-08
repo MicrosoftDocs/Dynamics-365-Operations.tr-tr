@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="warehouse-management"></a>Ambar yönetimi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dynamics 365 for Finance and Operations'taki Ambar yönetimi modülü, üretim, dağıtım ve perakende şirketlerinde ambar işlemlerini yönetmenizi sağlar. Bu modül, ambar tesisini her zaman, en iyi seviyede destekleyen çok çeşitli özelliklere sahiptir. Ambar yönetimi Finance and Operations içindeki diğer iş işlemleri tümüyle entegredir; örneğin taşıma, üretim, kalite kontrol, satınalma, transfer, satış ve iadeler gibi.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="parameter-configurations-for-retail-statements"></a> Perakende ekstreleri için parametre yapılandırmaları
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam, Perakende ekstrelerinin oluşturulması ve nakledilmesini etkileyen Perakende parametrelerine ilişkin yapılandırmaları gösterir. Bu yordam, USRT demo şirketini kullanır.
 

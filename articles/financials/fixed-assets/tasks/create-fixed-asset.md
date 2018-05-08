@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-fixed-asset"></a>Sabit kıymet oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev kılavuzunda USMF demo şirketi kullanılmaktadır.  Sabit kıymet listesi sayfasını kullanarak yeni bir sabit kıymet oluşturur.
 
