@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8c44579df2f844bcd4668a218df2ebdca37fa0cc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d123dac767a8985f6c1a5fef64a9814160f76a8d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-plan-for-a-site"></a><span data-ttu-id="3a095-103">Tesis için plan oluşturma</span><span class="sxs-lookup"><span data-stu-id="3a095-103">Create a plan for a site</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3a095-104">Üretim planlayıcısı, belirli bir maddenin üretim için malzeme ve kapasite gereksinimlerini hesaplar.</span><span class="sxs-lookup"><span data-stu-id="3a095-104">The production planner calculates the material and capacity requirements for the production of a specific item.</span></span> <span data-ttu-id="3a095-105">Kaynak kullanımı önerileri oluşturduktan sonra, acil olanlardan başlanarak, planlama yapılan saha için siparişler ve sipariş tarihleri seçilir.</span><span class="sxs-lookup"><span data-stu-id="3a095-105">After the sourcing suggestions are created, he finds the orders at the site for which he is planning and firms the orders, starting from the urgent ones.</span></span> <span data-ttu-id="3a095-106">En acil siparişler, güncel tarih olarak belirlenmesi gereken siparişlerdir.</span><span class="sxs-lookup"><span data-stu-id="3a095-106">The most urgent orders are the ones that need to be firmed on the current date.</span></span> <span data-ttu-id="3a095-107">Bu görevleri gerçekleştirmek için USMF demo veri şirketini kullanın.</span><span class="sxs-lookup"><span data-stu-id="3a095-107">Use the demo data company USMF to perform these tasks.</span></span>
 

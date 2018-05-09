@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e55622398a7453a6d049697ad01bcf64c50c553b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6a1d946f349f0c8fbb6845a7133e9aecd2225596
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a><span data-ttu-id="5eb01-103">Birden fazla iskonto dönemi olan bir kısmi müşteri ödemesini kapatma</span><span class="sxs-lookup"><span data-stu-id="5eb01-103">Settle a partial customer payment that has multiple discount periods</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="5eb01-104">Bu makale, birden fazla iskonto dönemi olduğunda kısmi müşteri ödemelerinin nasıl kapatıldığını gösterir.</span><span class="sxs-lookup"><span data-stu-id="5eb01-104">This article shows how partial customer payments are settled when there are multiple discount periods.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 162b6d660fb5ec8df79dc44b89dea87d877c6470
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1cecc57bbcac4a8b9d2bfc009499d567d2569c84
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a><span data-ttu-id="666ad-103">Ürün reçetesi ve formül satırlarını ambara serbest bırakma</span><span class="sxs-lookup"><span data-stu-id="666ad-103">Release BOM and formula lines to the warehouse</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="666ad-104">Bu konuda, ürün reçetesi satırları ve formül satırları için ambara hammadde serbest bırakma süreci açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="666ad-104">This topic describes the process for releasing raw material for bill of materials (BOM) lines and formula lines to the warehouse.</span></span> <span data-ttu-id="666ad-105">Bir ürün reçetesi veya formül satırını ambara serbest bıraktığınızda, sistem önce malzemenin üretim sürecinde tüketileceği yer alan atölyedeki ürün girişi konumunda halihazırda kullanılabilir olup olmadığını belirler.</span><span class="sxs-lookup"><span data-stu-id="666ad-105">When you release a BOM or formula line to the warehouse, the system first determines whether material is already available at the production input location on the shop floor where the material will be consumed for the production process.</span></span>
 

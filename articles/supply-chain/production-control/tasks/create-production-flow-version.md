@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0e2e99bc1132f50bca4e6c21abccdc685658a178
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0a241ba056051eccb168b5aa9bfd437b519b2bd9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-production-flow-version"></a><span data-ttu-id="4f600-103">Üretim akışı sürümü oluşturma</span><span class="sxs-lookup"><span data-stu-id="4f600-103">Create a production flow version</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4f600-104">Bu yordam, yeni bir üretim akışı sürümünü oluşturmaya odaklanır.</span><span class="sxs-lookup"><span data-stu-id="4f600-104">This procedure focuses on creating a new production flow version.</span></span> <span data-ttu-id="4f600-105">Bu yordam için yalın üretim ve sınıf zaman ölçümü birimleri için üretim parametreleri tanımlanmalıdır.</span><span class="sxs-lookup"><span data-stu-id="4f600-105">For this procedure, the production parameters for lean manufacturing and the units of measurement for class time must be defined.</span></span> <span data-ttu-id="4f600-106">Ayrıca bir değer akışı ve üretim grubu tanımlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="4f600-106">You also need to define a value stream and a production group.</span></span> <span data-ttu-id="4f600-107">Üretim akışları ve yalın üretim faaliyetleri hakkında daha fazla bilgi için Microsoft Dynamics AX için yalın üretim teknik incelemelerine bakın.</span><span class="sxs-lookup"><span data-stu-id="4f600-107">To learn more about production flows and activities in lean manufacturing, see the white papers on Lean manufacturing for Microsoft Dynamics AX.</span></span> <span data-ttu-id="4f600-108">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="4f600-108">The demo data company used to create this procedure is USMF.</span></span>
 

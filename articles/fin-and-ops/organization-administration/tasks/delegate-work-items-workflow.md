@@ -16,15 +16,15 @@ ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: cd3d09ed12fa4419881910884acefaf1bf5fa0d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 752c52431049093d0d9a1961d8f8bab604621f12
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="delegate-work-items-in-a-workflow"></a><span data-ttu-id="efc21-103">İş akışındaki iş öğelerini devretme</span><span class="sxs-lookup"><span data-stu-id="efc21-103">Delegate work items in a workflow</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="efc21-104">Bir süreliğine ofis dışında olacaksanız ya da iş öğeleri ile ilgili uygulama yapamayacaksanız iş öğelerinizi diğer kullanıcılara devredebilir veya yeniden atayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="efc21-104">If you plan to be out of the office or otherwise unavailable to act on work items, you can delegate, or reassign, your work items to other users.</span></span> <span data-ttu-id="efc21-105">Bu yordam, iş öğelerinizi otomatik olarak bir başka kullanıcıya devretmeniz için sistemi yapılandırmanıza yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="efc21-105">This procedure helps you configure the system to automatically delegate your work items to another user.</span></span>
 

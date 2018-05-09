@@ -20,16 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 933875f56b0f47990cb1cb767f84b23b9c9710d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ff11cf7b23c48675b108d7d03d241fcec2cb792a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="inventory-lookup-in-the-point-of-sale"></a><span data-ttu-id="2135d-103">Satış Noktasında stok araması</span><span class="sxs-lookup"><span data-stu-id="2135d-103">Inventory lookup in the Point of Sale</span></span> 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="2135d-104">Satış notasında (POS) stok araması perakendecilerin gerçek zamanlı işlem başarısına ulaşmasına ve mağazalara, POS'a ve arka ofise bağlanarak öngörüler edinmesine yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="2135d-104">Inventory lookup in the point of sale (POS) helps retailers achieve real-time operational excellence and gain insights by connecting stores, the POS, and the back office.</span></span> <span data-ttu-id="2135d-105">Bu işlev, mağazalar ve dağıtım merkezleri arasında ürün stoğunun doğru ve gerçek zamanlı görünümünü sağlar.</span><span class="sxs-lookup"><span data-stu-id="2135d-105">This functionality provides an accurate real-time view of product inventory across stores and distribution centers.</span></span> <span data-ttu-id="2135d-106">Ayrıca, stok planlamasını gerçek zamanlı geliştirerek perakendecilerin ek verimlilik ve maliyet tasarrufu sağlamasına yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="2135d-106">It also helps retailers drive additional efficiencies and cost savings by improving inventory planning in real time.</span></span>
 

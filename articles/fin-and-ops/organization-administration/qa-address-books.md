@@ -19,16 +19,16 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3c3ba03c95b60102e969596dd94977de636fc090
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a74ad1d2ba7a2078651b7d7d51e610ef2d8d0b95
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="address-books-faq"></a><span data-ttu-id="2bf04-103">Adres defterleri SSS</span><span class="sxs-lookup"><span data-stu-id="2bf04-103">Address books FAQ</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <a name="how-do-i-check-for-duplicate-records"></a><span data-ttu-id="2bf04-104">Tekrarlanan kayıtları nasıl denetlerim?</span><span class="sxs-lookup"><span data-stu-id="2bf04-104">How do I check for duplicate records?</span></span>
 -------------------------------------

@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0c035f73fb35c6390be3c665c2645b1fdc411650
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-collaboration-with-external-vendors"></a><span data-ttu-id="83e90-103">Harici satıcılarla satıcı iş birliği</span><span class="sxs-lookup"><span data-stu-id="83e90-103">Vendor collaboration with external vendors</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="83e90-104">**Satıcı iş birliği** modülü Microsoft Dynamics 365 for Finance and Operations ile elektronik veri alış verişi (EDI) tümleştirmesi olmayan satıcılar için tasarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="83e90-104">The **Vendor collaboration** module is targeted at vendors who don't have electronic data interchange (EDI) integration with Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="83e90-105">Satıcıların satınalma siparişleri (PO'lar), faturalar, konsinye stok bilgileri ve teklif talepleri (RFQ'lar) ile çalışmasına ve satıcı ana verilerinin bir bölümüne erişebilmelerine olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="83e90-105">It lets vendors work with purchase orders (POs), invoices, consignment inventory information, and requests for quotation (RFQs), and also lets them access parts of their vendor master data.</span></span> <span data-ttu-id="83e90-106">Bu konuda PO'lar, RFQ'lar ve konsinye stokla çalışmak için satıcı iş birliği arabirimini kullanan harici satıcılarla nasıl iş birliği yapabileceğiniz açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="83e90-106">This topic explains how you can collaborate with external vendors who use the vendor collaboration interface to work with POs, RFQs, and consignment inventory.</span></span> <span data-ttu-id="83e90-107">Ayrıca belirli bir satıcının satıcı iş birliğini kullanmak üzere nasıl etkinleştirileceği ve tüm satıcıların bir PO'ya yanıt verdiklerinde görecekleri bilgilerin nasıl tanımlanacağı da açıklanır.</span><span class="sxs-lookup"><span data-stu-id="83e90-107">It also explains how to enable a specific vendor to use vendor collaboration, and how to define the information that all vendors see when they respond to a PO.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 57b73c43be6ef4dda82cb919d4eb83eeae9c3633
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8f7d033dd5a79190a2e579837d458f239bae551a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="post-periodic-journals"></a><span data-ttu-id="3478a-103">Periyodik günlükleri deftere nakletme</span><span class="sxs-lookup"><span data-stu-id="3478a-103">Post periodic journals</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3478a-104">Tutar, metin ve diğer bilgiler periyodik günlük her alındığında tekrarlandığından, periyodik günlüklere bazen yinelenen günlükler de denir.</span><span class="sxs-lookup"><span data-stu-id="3478a-104">Periodic journals are sometimes called recurring journals because the amount, text, and other information are repeated each time that the periodic journal is retrieved.</span></span> <span data-ttu-id="3478a-105">Periyodik günlük oluştururken, yineleme için dönem aralığını gün veya ay olarak belirtirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3478a-105">When you create the periodic journal, you specify the period interval for the recurrence, such as days or months.</span></span> <span data-ttu-id="3478a-106">Bu görev kılavuzu, aylık yinelenen bir periyodik günlük oluşturur.</span><span class="sxs-lookup"><span data-stu-id="3478a-106">This task guide will create a periodic journal with a monthly recurrence.</span></span>
 

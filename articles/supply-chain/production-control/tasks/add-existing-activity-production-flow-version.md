@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d151f68de574f362e14001c98655429e82f3b2c0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a04535fcd2bf4141268145e5658c22815c624681
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="add-an-existing-activity-to-a-production-flow-version"></a><span data-ttu-id="f0e14-103">Üretim akışı sürümüne mevcut bir faaliyeti ekleme</span><span class="sxs-lookup"><span data-stu-id="f0e14-103">Add an existing activity to a production flow version</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f0e14-104">Üretim akışlarının yeni sürümlerini oluştururken, daha eski sürümler için oluşturulmuş faaliyetleri yeni sürüme eklemeyi seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="f0e14-104">When creating new versions of production flows, you can choose to add activities created for the older versions, to the new version.</span></span> <span data-ttu-id="f0e14-105">Bu yordam, faaliyetleri kopyalamadan mevcut bir üretim akışı için yeni bir sürüm oluşturmayı gösterir.</span><span class="sxs-lookup"><span data-stu-id="f0e14-105">This procedure shows how a new version is created for an existing production flow, without copying the activities.</span></span> <span data-ttu-id="f0e14-106">Sonraki adımda, mevcut faaliyet yeni sürüme eklenir.</span><span class="sxs-lookup"><span data-stu-id="f0e14-106">In the next step, an existing activity is added to the new version.</span></span> 
 

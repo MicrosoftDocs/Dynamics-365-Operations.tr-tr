@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 62eb0de9b47d755e460c10a6335083b5958b75ed
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2e4bd4b0a1af5292bc68df588ae679457fe77614
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="manage-warehouse-workers"></a><span data-ttu-id="6f4b3-103">Ambar çalışanlarını yönetme</span><span class="sxs-lookup"><span data-stu-id="6f4b3-103">Manage warehouse workers</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6f4b3-104">Bu makale, Microsoft Dynamics 365 for Finance and Operations'u ambarlarınızdaki çalışanlarca yürütülen işi denetlemeye ve izlemeye yardımcı olacak şekilde nasıl kullanabileceğinizi açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="6f4b3-104">This article describes how you can use Microsoft Dynamics 365 for Finance and Operations to help control and monitor the work that's carried out by employees in your warehouses.</span></span>
 

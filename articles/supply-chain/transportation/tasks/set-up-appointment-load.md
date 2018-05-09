@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5be31d9b70f4a2e1edc5f84c3f621058b105090e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: dd3d51d11299818ad547f42c1a99874d9c9033d4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-an-appointment-for-a-load"></a><span data-ttu-id="45ec3-103">Yük için randevu ayarlama</span><span class="sxs-lookup"><span data-stu-id="45ec3-103">Set up an appointment for a load</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="45ec3-104">Bu yordam bir yük için giriş/çıkış noktası randevusunun nasıl ayarlanacağını ve planlanacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="45ec3-104">This procedure shows how to set up and plan a dock appointment for a load.</span></span> <span data-ttu-id="45ec3-105">Bu genellikle taşımacılık düzenleyicisi tarafından yapılır.</span><span class="sxs-lookup"><span data-stu-id="45ec3-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="45ec3-106">Bu yordamı USMF demo veri şirketinde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="45ec3-106">You can use this procedure in the USMF demo data company.</span></span>
 

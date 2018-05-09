@@ -19,16 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58069d79f92ce015fe4b11b50fb3348722bca4f8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 13b47d755a122199608ece386f4f764ee580b2ed
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="number-sequences"></a><span data-ttu-id="4daf2-103">Numara serileri</span><span class="sxs-lookup"><span data-stu-id="4daf2-103">Number sequences</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4daf2-104">Numara serileri, ana veri kayıtları ve tanımlayıcı gerektiren işlem kayıtları için okunabilir ve benzersiz tanımlayıcılar oluşturmada kullanılır.</span><span class="sxs-lookup"><span data-stu-id="4daf2-104">Number sequences are used to generate readable, unique identifiers for master data records and transaction records that require identifiers.</span></span> <span data-ttu-id="4daf2-105">Tanımlayıcı gerektiren bir ana veri kaydı veya hareket kaydı, *referans* olarak adlandırılır.</span><span class="sxs-lookup"><span data-stu-id="4daf2-105">A master data record or transaction record that requires an identifier is referred to as a *reference*.</span></span>
 

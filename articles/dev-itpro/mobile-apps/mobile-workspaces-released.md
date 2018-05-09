@@ -16,16 +16,16 @@ ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c3897b6d25a7c414110d635fdadf812e70601712
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f74cc57e7f6da4e57a5cb5da84a8e74ce6cd64a0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="mobile-workspaces"></a><span data-ttu-id="93732-103">Mobil çalışma alanları</span><span class="sxs-lookup"><span data-stu-id="93732-103">Mobile workspaces</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="93732-104">Bu konu, Dynamics 365 for Unified Operations mobil uygulaması için kullanılmak üzere kullanılabilir olan mobil çalışma alanları listeler.</span><span class="sxs-lookup"><span data-stu-id="93732-104">This topic lists the mobile workspaces that are available for use with the Dynamics 365 for Unified Operations mobile app.</span></span>
 

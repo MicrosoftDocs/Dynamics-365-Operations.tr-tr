@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 101ebe4a2e177a5702a162297e1820598e56a6e5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b0336bcaa7062a9b24079d8491ce426041751ccf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a><span data-ttu-id="c61fb-103">Taşıyıcılı bir yakıt dizinini ilave masraf olarak ilişkilendirme</span><span class="sxs-lookup"><span data-stu-id="c61fb-103">Associate a fuel index with a carrier as an accessorial charge</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c61fb-104">Bu kılavuz ilave atama, taşıyıcı ek giderleri, yakıt ek giderleri için ana ilaveler şablonu oluşturmayı ve taşıyıcı yakıt dizinini bir taşıyıcı ile nasıl ilişkilendirileceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="c61fb-104">This guide shows how to create an accessorial assignment, carrier accessorial charge, accessorial master for fuel surcharge, and associate a carrier fuel index with a carrier.</span></span> <span data-ttu-id="c61fb-105">Bu kılavuzu çalıştırmadan önce bir taşıyıcı yakıt dizini ayarlamış olmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="c61fb-105">You need to have set up a carrier fuel index before you run this guide.</span></span> <span data-ttu-id="c61fb-106">Bunu yapmak için "Taşıyıcı yakıt dizini kurma" kılavuzunu kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c61fb-106">You can use the “Set up a carrier fuel index” guide to do this.</span></span> <span data-ttu-id="c61fb-107">Bu kurulum görevleri genellikle Lojistik Yöneticisi tarafından yapılır.</span><span class="sxs-lookup"><span data-stu-id="c61fb-107">These setup tasks are typically done by a Logistics manager.</span></span> <span data-ttu-id="c61fb-108">Bu yöntemi oluşturmak için kullanılan demo verisi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="c61fb-108">The demo data used to create this procedure is USMF.</span></span>
 

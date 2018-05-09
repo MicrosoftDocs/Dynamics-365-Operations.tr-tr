@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b23c0d1e544a18c72fd1cbf6b2346ae542541177
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7bd38e3763957cd23da5d4a6a4a78b36fa1886ab
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="intercompany-accounting-setup"></a><span data-ttu-id="c99bc-103">Şirketlerarası muhasebeyi ayarlama</span><span class="sxs-lookup"><span data-stu-id="c99bc-103">Intercompany accounting setup</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c99bc-104">Bu konu, defter tahsisatları ve mali günlükleri, örneğin günlük günlükler, satıcı faturası günlükleri ve ödeme günlükleri gibi şirketlerarası günlükleri kullanabilmeniz için şirketlerarası muhasebeyi ayarlamayı açıklar.</span><span class="sxs-lookup"><span data-stu-id="c99bc-104">This topic explains how to set up intercompany accounting so that you can use intercompany journals for ledger allocations and financial journals, such as daily journals, vendor invoice journals, and payment journals.</span></span>
 

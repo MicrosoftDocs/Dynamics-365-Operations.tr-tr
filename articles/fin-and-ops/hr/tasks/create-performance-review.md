@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4675a78b47ae922a570e4975c2cce68ac0d76d5a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8568dd98635e463f48f3ecfb2cead57b9896b126
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-performance-review"></a><span data-ttu-id="2877f-103">Performans incelemesi oluşturma</span><span class="sxs-lookup"><span data-stu-id="2877f-103">Create a performance review</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2877f-104">Bu yordam bir performans gözden geçirmenin nasıl oluşturulacağını ve gözden geçirmenin her bölümünün amacını açıklar.</span><span class="sxs-lookup"><span data-stu-id="2877f-104">This procedure shows how to create a performance review and describes the purpose for each section of the review.</span></span> <span data-ttu-id="2877f-105">Bu yordam, USMF demo veri şirketi kullanılarak oluşturulmuştur.</span><span class="sxs-lookup"><span data-stu-id="2877f-105">This procedure was created using the USMF demo data company.</span></span> <span data-ttu-id="2877f-106">Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik içindir.</span><span class="sxs-lookup"><span data-stu-id="2877f-106">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 

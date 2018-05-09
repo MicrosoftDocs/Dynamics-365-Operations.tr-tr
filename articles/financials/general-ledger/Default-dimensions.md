@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b6a85480948d1280ddb7e588d41dcc09692d823c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: abc16205fbe8cd68f8883b215b3412cdd0c9a5f8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-dimensions-and-posting"></a><span data-ttu-id="c7d87-105">Mali boyutlar ve deftere nakletme</span><span class="sxs-lookup"><span data-stu-id="c7d87-105">Financial dimensions and posting</span></span> 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c7d87-106">Hesap planınızı planladığınızda ve ayarladığınızla, bir belgeyi veya günlüğü deftere naklettiğinizde çeşitli bileşenlerin nasıl çalışacağını dikkate almanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="c7d87-106">When you plan and set up your chart of accounts, you must consider how the various components will work together when you post a document or journal.</span></span> <span data-ttu-id="c7d87-107">Bu bileşenler hesap yapıları, gelişmiş kurallar ve bilanço ve sabit boyutları içerir.</span><span class="sxs-lookup"><span data-stu-id="c7d87-107">These components include account structures, advanced rules, and balancing and fixed dimensions.</span></span> <span data-ttu-id="c7d87-108">Bu konu, her bir bileşenin en olduğunu ve bileşenlerin birlikte nasıl çalıştığını açıklar.</span><span class="sxs-lookup"><span data-stu-id="c7d87-108">This topic explains what each component is and how the components work together.</span></span>
 

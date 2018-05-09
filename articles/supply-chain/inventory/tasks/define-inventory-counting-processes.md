@@ -17,15 +17,15 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 13df47f7b04f5fc4b6c9a28b0c05a2b1bd0fe6a8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3b2eae0b3096473f1cec5e221df19aad60ee37f7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-inventory-counting-processes"></a><span data-ttu-id="ab629-103">Stok sayımı işlemlerini tanımlama</span><span class="sxs-lookup"><span data-stu-id="ab629-103">Define inventory counting processes</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ab629-104">Bu prosedürde, size, bir sayım grubu ve bir sayım günlüğü oluşturarak, temel stok sayım işlemlerini yapılandırma gösterilecek.</span><span class="sxs-lookup"><span data-stu-id="ab629-104">This procedure walks you through the configuration of basic inventory counting processes by creating a counting group and a counting journal.</span></span> <span data-ttu-id="ab629-105">Ayrıca, ambar ve madde düzeyinde sayım ilkelerinin nasıl etkinleştirileceğini de göreceksiniz.</span><span class="sxs-lookup"><span data-stu-id="ab629-105">It also shows you how to enable counting policies on a warehouse and item level.</span></span> <span data-ttu-id="ab629-106">Bu görevler genellikle bir ambar gözetmeni tarafından yerine getirilir.</span><span class="sxs-lookup"><span data-stu-id="ab629-106">These tasks would typically be carried out by a warehouse supervisor.</span></span> <span data-ttu-id="ab629-107">Biraz serbest bırakılmış ürün ve ambar bulundurmak önkoşuldur.</span><span class="sxs-lookup"><span data-stu-id="ab629-107">It is a prerequisite to have some existing released products and warehouses.</span></span> <span data-ttu-id="ab629-108">Demo veri şirketi kullanıyorsanız, bu prosedürü USMF şirketinde herhangi bir stoklu maddeyle çalıştırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="ab629-108">If you're using a demo data company, you can run this procedure in the USMF company with any stocked item.</span></span>
 

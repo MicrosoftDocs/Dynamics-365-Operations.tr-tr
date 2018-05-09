@@ -19,16 +19,16 @@ ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: eb1d4a85c0e522d05c8566ce491ea946a656b35e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e671fe6e7c99bfb6d66f3b00560c3b0c404d2343
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="project-time-entry-mobile-workspace"></a><span data-ttu-id="1d040-104">Proje saati girişi mobil çalışma alanı</span><span class="sxs-lookup"><span data-stu-id="1d040-104">Project time entry mobile workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1d040-105">Bu konu, **Proje saati girişi** mobil çalışma alanı hakkında bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="1d040-105">This topic provides information about the **Project time entry** mobile workspace.</span></span> <span data-ttu-id="1d040-106">Bu çalışma alanı, kullanıcıların bir projeye karşı mobil cihazlarını kullanarak zaman girmelerini ve kaydetmelerine olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="1d040-106">This workspace lets users enter and save time against a project by using their mobile device.</span></span>
 

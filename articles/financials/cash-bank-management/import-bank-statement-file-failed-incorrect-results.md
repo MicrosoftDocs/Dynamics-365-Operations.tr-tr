@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a5f53a76ebd0bd428f791ce8493e9f388eb8e2fa
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4796a440bec7c5c0e77a57beccb9379bd2978df6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="bank-statement-file-import-troubleshooting"></a><span data-ttu-id="c31d8-107">Banka ekstresi dosya alma sorunlarını giderme</span><span class="sxs-lookup"><span data-stu-id="c31d8-107">Bank statement file import troubleshooting</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c31d8-108">Bankadan gelen banka ekstresi dosyasının, Microsoft Dynamics 365 for Finance and Operations tarafından desteklenen düzenle eşleşmesi önemlidir.</span><span class="sxs-lookup"><span data-stu-id="c31d8-108">It's important that the bank statement file from the bank match the layout that Microsoft Dynamics 365 for Finance and Operations supports.</span></span> <span data-ttu-id="c31d8-109">Banka ekstreleri için sıkı standartlar bulunduğundan çoğu tümleştirme doğru şekilde çalışacaktır.</span><span class="sxs-lookup"><span data-stu-id="c31d8-109">Because of strict standards for bank statements, most integrations will work correctly.</span></span> <span data-ttu-id="c31d8-110">Ancak, bazen ekstre dosyası alınamayabilir veya hatalı sonuçlara sahip olabilir.</span><span class="sxs-lookup"><span data-stu-id="c31d8-110">However, sometimes the statement file can't be imported or has incorrect results.</span></span> <span data-ttu-id="c31d8-111">Genellikle, bu sorunlar banka ekstresi dosyasındaki küçük farklılıklar nedeniyle ortaya çıkar.</span><span class="sxs-lookup"><span data-stu-id="c31d8-111">Typically, these issues are caused by small differences in the bank statement file.</span></span> <span data-ttu-id="c31d8-112">Bu makale, bu farklılıkları gidermeyi ve sorunların nasıl çözüleceğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="c31d8-112">This article explains how to fix these differences and resolve the issues.</span></span>
 

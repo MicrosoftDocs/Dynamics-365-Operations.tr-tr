@@ -18,14 +18,14 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8f9d287f5d2134d26296c1302a9c18505c426db3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 52b5362764d95ee3e82bbb5781aa9bc6e4586b0f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="89956-103">Küme çekme için ürün onayı</span><span class="sxs-lookup"><span data-stu-id="89956-103">Product confirmation for cluster picking</span></span>
 <span data-ttu-id="89956-104">Küme malzeme çekme, çok sayıda sipariş için tek seferde malzeme çekmenize olanak sağlar.</span><span class="sxs-lookup"><span data-stu-id="89956-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="89956-105">Küme malzeme çekme uygulandığında, öğe yapılandırması maddelerin kümelere eklendiğinden emin olmak için önemlidir.</span><span class="sxs-lookup"><span data-stu-id="89956-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="89956-106">Küme malzeme çekme işlemi sırasında küme malzeme çekme içerisindeki öğeleri doğrulayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="89956-106">You can verify items in cluster picking during the cluster picking process.</span></span>

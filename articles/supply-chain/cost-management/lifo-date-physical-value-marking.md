@@ -20,18 +20,18 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ba4c7b8ca5da5956340046932cd097ef3c7f0278
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f6d560895e097c7b5a5b106c264f868cf9f98e04
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="lifo-date-with-physical-value-and-marking"></a><span data-ttu-id="a474d-106">Fiziksel değer ve işaretleme ile LIFO Tarihi</span><span class="sxs-lookup"><span data-stu-id="a474d-106">LIFO Date with physical value and marking</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="a474d-107">Son giren ilk çıkar Tarihi (LIFO Tarihi), LIFO ilkesine dayanan bir stok modelidir.</span><span class="sxs-lookup"><span data-stu-id="a474d-107">Last in, First out Date (LIFO Date) is an inventory model based on the LIFO principle.</span></span> <span data-ttu-id="a474d-108">Stok çıkışları, stok hareketinin tarihine dayalı olarak son son girişlerine göre kapatılır.</span><span class="sxs-lookup"><span data-stu-id="a474d-108">Issues from inventory are settled against the last receipts into inventory based on the date of the inventory transaction.</span></span> <span data-ttu-id="a474d-109">LIFO Tarihini kullanarak, çıkıştan önce hiçbir giriş yoksa, çıkış, çıkış tarihinden sonraki tüm girişlere karşılık olarak kapatılır.</span><span class="sxs-lookup"><span data-stu-id="a474d-109">By using LIFO Date, if there is no receipt before the issue, the issue is settled against any receipts that occur after the date of the issue.</span></span> <span data-ttu-id="a474d-110">Aynı tarihteki birkaç çıkış son çıkış, son giriş sırasıyla kapatılabilir.</span><span class="sxs-lookup"><span data-stu-id="a474d-110">Several issues on the same date may be settled in the order of last issue, last receipt.</span></span> 
 

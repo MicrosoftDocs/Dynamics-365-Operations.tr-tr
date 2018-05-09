@@ -19,16 +19,16 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a16fa8741efae860de50947eb0fe3382a43d3d08
-ms.openlocfilehash: 9b35569b2ff24da1649ec1b1e7bfd5faad2a59ae
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 33d12735b58f143242b7b2e3c1b6df01ba091251
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/17/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="personalize-the-user-experience"></a><span data-ttu-id="67cc3-103">Kullanıcı deneyimini kişiselleştirme</span><span class="sxs-lookup"><span data-stu-id="67cc3-103">Personalize the user experience</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="67cc3-104">Bu konuda Microsoft Dynamics 365 for Finance and Operations'ı nasıl kişiselleştirebileceğiniz açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="67cc3-104">This topic explains how you can personalize Microsoft Dynamics 365 for Finance and Operations.</span></span>
 

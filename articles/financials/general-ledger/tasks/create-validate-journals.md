@@ -16,15 +16,15 @@ ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b752c11987c72895a3a11cce7beda2f8528e2246
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a66c49659fdf085e859950781b04ecbd49b487be
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-validate-journals"></a><span data-ttu-id="00dc5-103">Günlükler oluşturma ve doğrulama</span><span class="sxs-lookup"><span data-stu-id="00dc5-103">Create and validate journals</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="00dc5-104">Bu görev kılavuzu günlükler ile günlük satırları oluşturur ve doğrular.</span><span class="sxs-lookup"><span data-stu-id="00dc5-104">This task guide creates and validates journals and journal lines.</span></span> <span data-ttu-id="00dc5-105">Bu kılavuzlar, USMF demo şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="00dc5-105">This tasks uses the USMF demo company.</span></span>  
 

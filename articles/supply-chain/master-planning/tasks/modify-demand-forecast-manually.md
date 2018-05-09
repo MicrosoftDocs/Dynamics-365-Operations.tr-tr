@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6fd59d3f6c3a5926a2191a89dd682154714c9fa1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e655a5ffa44aa06200aabc8c00ee477aaf286290
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="modify-a-demand-forecast-manually"></a><span data-ttu-id="dc923-103">Talep tahminini el ile değiştirme</span><span class="sxs-lookup"><span data-stu-id="dc923-103">Modify a demand forecast manually</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="dc923-104">Bu yordamda, bir madde için tahminin nasıl değiştirileceği gösterilmiştir.</span><span class="sxs-lookup"><span data-stu-id="dc923-104">This procedure shows how to modify the forecast for an item.</span></span> <span data-ttu-id="dc923-105">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="dc923-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="dc923-106">Bu kayıt için üretim planlayıcısı içindir.</span><span class="sxs-lookup"><span data-stu-id="dc923-106">This recording is intended for the production planner.</span></span> 
 

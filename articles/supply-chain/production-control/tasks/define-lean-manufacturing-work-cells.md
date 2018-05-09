@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 953520ec7525d85baee6baf0b70930e52120d6c0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b79362942663583b5f438e0a54fd4960ca7ef919
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-lean-manufacturing-work-cells"></a><span data-ttu-id="715a0-103">Yalın imalat iş hücrelerini tanımlama</span><span class="sxs-lookup"><span data-stu-id="715a0-103">Define lean manufacturing work cells</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="715a0-104">İş hücresi, yalın üretim işlem faaliyetlerinde kullanılabilen kaynak gruplarının belirli bir biçimidir.</span><span class="sxs-lookup"><span data-stu-id="715a0-104">A work cell is a specific form of resource groups that can be used in lean manufacturing process activities.</span></span> <span data-ttu-id="715a0-105">İş hücrelerinde bir üretim akışı modeline dayalı giriş ve çıkış yerleşimleri ve kapasite tanımları vardır.</span><span class="sxs-lookup"><span data-stu-id="715a0-105">Work cells have input and output locations and a capacity definition based on a production flow model.</span></span> <span data-ttu-id="715a0-106">Yalın imalat iş hücreleri ve kapasite hesaplamalarına yönelik temel kavramlar hakkında daha fazla bilgi edinmek için Yalın üretim üzerine teknik incelemelere bakın.</span><span class="sxs-lookup"><span data-stu-id="715a0-106">To learn more about the basic concepts of lean manufacturing work cells and capacity calculations, see the white papers on Lean manufacturing.</span></span> <span data-ttu-id="715a0-107">Bu yordamı oluşturmak için kullanılan demo verisi şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="715a0-107">The demo data company used to create this procedure is USMF</span></span>
 

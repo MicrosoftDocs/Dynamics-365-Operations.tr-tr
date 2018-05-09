@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9d2ce5dd0e9072c0f8430ee5390c8cafed9a6f60
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f92888d4af531f139bcceafb118e212277b9c0e1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="prepayment-invoices-vs-prepayments"></a><span data-ttu-id="a98cc-105">Ön ödeme faturaları ve ön ödemeler karşılaştırması</span><span class="sxs-lookup"><span data-stu-id="a98cc-105">Prepayment invoices vs. prepayments</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="a98cc-106">Bu konuda kuruluşların peşin ödemeler (ön ödemeler) için kullanabileceği iki yöntem açıklanmış ve karşılaştırılmıştır.</span><span class="sxs-lookup"><span data-stu-id="a98cc-106">This topic describes and contrasts the two methods that organizations can use for advance payments (prepayments).</span></span> <span data-ttu-id="a98cc-107">Birinci yöntemde bir satın alma emriyle ilişkilendirilmiş bir ön ödeme faturası oluşturursunuz.</span><span class="sxs-lookup"><span data-stu-id="a98cc-107">In one method, you create a prepayment invoice that is associated with a purchase order.</span></span> <span data-ttu-id="a98cc-108">İkinci yöntemde ise günlük girişleri oluşturup ön ödeme günlüğü fişleri olarak işaretleyerek ön ödeme günlüğü fişleri oluşturursunuz.</span><span class="sxs-lookup"><span data-stu-id="a98cc-108">In the other method, you create prepayment journal vouchers by creating journal entries and marking them as prepayment journal vouchers.</span></span>
 

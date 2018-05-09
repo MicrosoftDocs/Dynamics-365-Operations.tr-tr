@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bcca20889fa0b79a289175ab901167509a908f3f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ade7e55e0568acd7eff3ceead29c3c6d0ca2da1e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-setup-requirements"></a><span data-ttu-id="4a3ee-103">Üretim kurulumu gereksinimleri</span><span class="sxs-lookup"><span data-stu-id="4a3ee-103">Production setup requirements</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4a3ee-104">Bu makalede, Üretim denetimiyle çalışabilmenize ilişkin kurulum gereksinimleri hakkında bilgi verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="4a3ee-104">This article provides information about setup requirements before you can work with Production control.</span></span> 
 

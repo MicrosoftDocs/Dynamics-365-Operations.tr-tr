@@ -18,16 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7e03e5fd1458df56cc6c4de0459135305b1ffc41
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 941b224aad9749a372b8b1176e7021985b024a4f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a><span data-ttu-id="121e7-104">Sabit kıymet değer modeli ve amortisman defteri birleştirme</span><span class="sxs-lookup"><span data-stu-id="121e7-104">Fixed asset value model and depreciation book merge</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="121e7-105">Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri olmak üzere iki değerleme kavramı vardı.</span><span class="sxs-lookup"><span data-stu-id="121e7-105">In previous releases, there were two valuation concepts for fixed assets -  value models and depreciation books.</span></span> <span data-ttu-id="121e7-106">Microsoft Dynamics 365 for Operations (1611) ile, değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir.</span><span class="sxs-lookup"><span data-stu-id="121e7-106">In the Microsoft Dynamics 365 for Operations (1611) release, the value model functionality and depreciation book functionality have been merged into a single concept that is known as a book.</span></span>
 

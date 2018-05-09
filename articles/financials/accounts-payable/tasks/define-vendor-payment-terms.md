@@ -16,15 +16,15 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 387018a757942e5e00cdb82811f81b25165368f8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 28de122f8742e16731387a63beb12ae774d4d9c1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-vendor-payment-terms"></a><span data-ttu-id="af0c4-103">Satıcı ödeme koşullarını tanımlama</span><span class="sxs-lookup"><span data-stu-id="af0c4-103">Define vendor payment terms</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="af0c4-104">Satıcı faturaları için ödeme koşulları ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="af0c4-104">Set up payment terms for vendor invoices.</span></span> <span data-ttu-id="af0c4-105">Bu görevde USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="af0c4-105">This task uses the USMF demo company.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 253794b4eb44cb5fa6f946caa96ec39a477c061e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7211e56f80b085f6a245010e780512e92a52bc57
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="journalize-posted-journal-entries"></a><span data-ttu-id="89e11-103">Nakledilen günlük girişlerini günlüğe aktarma</span><span class="sxs-lookup"><span data-stu-id="89e11-103">Journalize posted journal entries</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="89e11-104">Bu yordamda, günlüğe kaydetme yoluyla günlük girişleri oluşturma gösterilir.</span><span class="sxs-lookup"><span data-stu-id="89e11-104">This procedure shows how to journalize posted journal entries.</span></span> <span data-ttu-id="89e11-105">Bu yordam, USMF demo verisi şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="89e11-105">This procedure uses the USMF demo data company.</span></span>
 

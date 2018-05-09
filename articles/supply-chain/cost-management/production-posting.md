@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7f6b607ef5bf91888e3972de7b1923da6339c170
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e013c5edbf64d2fb2c05d3d0730dc9ea86dec9a8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-posting"></a><span data-ttu-id="cdc67-103">Üretimin deftere nakli</span><span class="sxs-lookup"><span data-stu-id="cdc67-103">Production posting</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="cdc67-104">Bu makale üretim sürecindeki farklı türdeki nakiller hakkında bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="cdc67-104">This article provides information about different types of postings in the production process.</span></span>
 

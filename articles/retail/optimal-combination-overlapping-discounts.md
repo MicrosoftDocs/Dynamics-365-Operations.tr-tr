@@ -20,16 +20,16 @@ ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c094bfa07275c14ba63cae5404156ce72c52d0b5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 633fd6d8bfe9e2b46a899779ad823e5738de7dbe
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a><span data-ttu-id="7af2c-104">Çakışan iskontoları için en uygun birleşimi belirleme</span><span class="sxs-lookup"><span data-stu-id="7af2c-104">Determine the optimal combination of overlapping discounts</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="7af2c-105">İskontolar çakıştığında, en düşük hareket toplamını veya en yüksek toplam iskontoyu oluşturacak çakışan iskonto birleşimi belirlemeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="7af2c-105">When discounts overlap, you must determine the combination of overlapping discounts that will produce the lowest transaction total or the highest total discount.</span></span> <span data-ttu-id="7af2c-106">Yaygın olarak kullanılan "1 satın al, 1 al X yüzdesi" (BOGO) perakende iskontosunda olduğu gibi, iskonto tutarı satın alınan ürünlerin fiyatına göre değişiklik gösterdiğinde, bu işlem birleşimsel iyileştirme konusu durumuna gelir.</span><span class="sxs-lookup"><span data-stu-id="7af2c-106">When the discount amount varies according to the price of the products that are purchased, such as in the common “Buy 1, get 1 X percent off” (BOGO) retail discount, this process becomes an issue of combinatorial optimization.</span></span>
 

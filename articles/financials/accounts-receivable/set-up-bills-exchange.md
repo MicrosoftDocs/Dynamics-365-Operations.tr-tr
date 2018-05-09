@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 914f6685227dc53de0fa2dc7472bb735f98e23b2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 45f252604f905774db67785d311317b73b6c22ce
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-bills-of-exchange"></a><span data-ttu-id="721c7-103">Kambiyo senetlerini ayarlama</span><span class="sxs-lookup"><span data-stu-id="721c7-103">Set up bills of exchange</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="721c7-104">Bu konuda, kambiyo senetlerini ayarlama adımları açıklar.</span><span class="sxs-lookup"><span data-stu-id="721c7-104">This topic describes the steps for setting up bills of exchange.</span></span>
 

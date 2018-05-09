@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 140d9f7a48b6cb06f02d3c4e6440d0a99a9d8161
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 15c9f82bcbac23a7b1737f55676e58377272fc8c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a><span data-ttu-id="3d67b-103">RFQ tekliflerini girip karşılaştırma ve işi verme</span><span class="sxs-lookup"><span data-stu-id="3d67b-103">Enter and compare RFQ bids and award contracts</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3d67b-104">Bu prosedürde bir RFQ'ya yanıtların nasıl girileceği, tekliflerin nasıl puanlandırılacağı ve karşılaştırılacağı ve ardından teklif için satıcılardan birinin nasıl seçileceği gösterilmiştir.</span><span class="sxs-lookup"><span data-stu-id="3d67b-104">This procedure shows you how to enter replies to an RFQ, score and compare bids, and then award the bid to one of the vendors.</span></span> <span data-ttu-id="3d67b-105">Bu prosedürü USMF demo veri şirketinde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3d67b-105">You can use this procedure in demo data company USMF.</span></span> <span data-ttu-id="3d67b-106">Başlamadan önce, en az iki satıcıya gönderilmiş iki satır içeren bir RFQ'ya sahip olmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="3d67b-106">Before you start, you must have an RFQ with two lines that has been sent to at least two vendors.</span></span> <span data-ttu-id="3d67b-107">Bunun oluşturulması için bir ön şart olarak "Teklif için bir talep oluştur" prosedürünü yürütebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="3d67b-107">You can run the "Create a request for quotation" procedure as a prerequisite to create this.</span></span> <span data-ttu-id="3d67b-108">Bu prosedürü yürütmeden önce puanlama ölçütlerini belirlemeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="3d67b-108">You need to have set up scoring criteria before you can run this procedure.</span></span>
 

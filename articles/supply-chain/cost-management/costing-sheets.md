@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6ddba210ced7c7ed5fad818945765528e5b1c1d1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 36b92b7dfacb781c559e3ab39406b709e7ce5c9a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="costing-sheets"></a><span data-ttu-id="e564d-108">Maliyetlendirme tabloları</span><span class="sxs-lookup"><span data-stu-id="e564d-108">Costing sheets</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e564d-109">Maliyetlendirme tablosunun kurulumu için iki hedef gerekir.</span><span class="sxs-lookup"><span data-stu-id="e564d-109">Setting up the costing sheet involves two objectives.</span></span> <span data-ttu-id="e564d-110">İlk hedef olarak, üretilmiş bir madde veya üretim emri hakkındaki satılan malların maliyetini görüntüleme biçimini tanımlarsınız.</span><span class="sxs-lookup"><span data-stu-id="e564d-110">As the first objective, you define the format for displaying cost of goods sold information about a manufactured item or production order.</span></span> <span data-ttu-id="e564d-111">Biçimlendirilmiş görüntüye maliyetlendirme tablosu adı verilir.</span><span class="sxs-lookup"><span data-stu-id="e564d-111">The formatted display is termed a costing sheet.</span></span> <span data-ttu-id="e564d-112">İkinci hedef olarak, dolaylı maliyetleri hesaplama temelini tanımlarsınız.</span><span class="sxs-lookup"><span data-stu-id="e564d-112">As the second objective, you define the basis for calculating indirect costs.</span></span> <span data-ttu-id="e564d-113">Maliyetlendirme tablosu kurulumu, bilgi görüntüleme ve dolaylı maliyet hesaplama formülleri için maliyet grubu özelliğini temel alır.</span><span class="sxs-lookup"><span data-stu-id="e564d-113">The costing sheet setup builds on the cost group feature for displaying information and for the indirect cost calculation formulas.</span></span> <span data-ttu-id="e564d-114">Bu makalede maliyetlendirme tablosu kurulumunun iki hedefi açıklanmıştır.</span><span class="sxs-lookup"><span data-stu-id="e564d-114">The two objectives of costing sheet setup are described in this article.</span></span> 
 

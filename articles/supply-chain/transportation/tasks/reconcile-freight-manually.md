@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c347f8bb0dd36ab4a18cbf6ccd16855efb1bc355
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 48623e53633d00e4c3871d3a0266981b78a2f380
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="reconcile-freight-manually"></a><span data-ttu-id="816ba-103">El ile navlun mutabakatı sağlama</span><span class="sxs-lookup"><span data-stu-id="816ba-103">Reconcile freight manually</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="816ba-104">Bu yordam navlunun el ile nasıl mutabık kılınacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="816ba-104">This procedure shows how to reconcile freight manually.</span></span> <span data-ttu-id="816ba-105">Bu genellikle taşımacılık düzenleyicisi tarafından yapılır.</span><span class="sxs-lookup"><span data-stu-id="816ba-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="816ba-106">Bu yordamı USMF demo veri şirketinde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="816ba-106">You can use this procedure in the USMF demo data company.</span></span>
 

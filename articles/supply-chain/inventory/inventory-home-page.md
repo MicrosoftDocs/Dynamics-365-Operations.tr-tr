@@ -20,16 +20,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: cb1547a6a01164c19632644e6a3dad6dbac9ecc6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ae1fd8b9e1ee008ca09615652603d107bff1e592
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="inventory-management"></a><span data-ttu-id="36a9e-103">Stok Yönetimi</span><span class="sxs-lookup"><span data-stu-id="36a9e-103">Inventory management</span></span> 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="36a9e-104">Stok yönetimini şu görevleri gerçekleştirmek için kullanabilirsiniz:</span><span class="sxs-lookup"><span data-stu-id="36a9e-104">You can use Inventory management to perform the following tasks:</span></span>
 

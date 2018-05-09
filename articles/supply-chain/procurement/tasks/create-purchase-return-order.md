@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bb24cf68912b994842f17df37d01c0046587a5eb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3f4bd0a7765a423fd515058a3615092bcabf1b6a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-purchase-return-order"></a><span data-ttu-id="10210-103">Satınalma iade siparişi oluşturma</span><span class="sxs-lookup"><span data-stu-id="10210-103">Create a purchase return order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="10210-104">Bu yordam, bir satıcı fatura belgesinden satırları yeni bir satınalma siparişine kopyalamak için Alacak dekontu eylemini kullanarak bir satın alma iade siparişini nasıl oluşturacağınızı gösterir.</span><span class="sxs-lookup"><span data-stu-id="10210-104">This procedure shows you how to create a purchase return order by using the Credit note action to copy lines from a vendor invoice document to a new PO.</span></span> <span data-ttu-id="10210-105">Ayrıca siparişi nasıl onaylayacağınızı ve malların satıcıya geri sevkiyatını nasıl işleyeceğinizi gösterir.</span><span class="sxs-lookup"><span data-stu-id="10210-105">It also shows you how to confirm the order and process shipment of the goods back to the vendor.</span></span> <span data-ttu-id="10210-106">Bu yordamda gösterilen örnek, demo verileri şirketi USMF'de kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="10210-106">The example shown in this procedure can be used in the USMF demo data company.</span></span> <span data-ttu-id="10210-107">Bu görev genellikle bir satınalma temsilcisi tarafından gerçekleştirilir.</span><span class="sxs-lookup"><span data-stu-id="10210-107">This task would typically be carried out by a purchasing agent.</span></span>
 

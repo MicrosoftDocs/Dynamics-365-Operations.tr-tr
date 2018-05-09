@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: adecf9b2ea29abaee378f1c02c64551c3aeede6d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e73295698a17b7500db40820dd9603855810ca3a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-process-a-conformance"></a><span data-ttu-id="b3425-103">Uyumluluk oluşturma ve işleme</span><span class="sxs-lookup"><span data-stu-id="b3425-103">Create and process a conformance</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b3425-104">Uygunsuzluk yönetimini var olan bir kalite emrine göre gerçekleştirmek için bu yordamı kullanın.</span><span class="sxs-lookup"><span data-stu-id="b3425-104">Use this procedure to perform nonconformance management, based on an existing quality order.</span></span> <span data-ttu-id="b3425-105">Bu kaydı USMF demo şirketinde çalıştırabilir ve önerilen değerleri kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="b3425-105">You can run this recording in the USMF demo company and can use the suggested values.</span></span> <span data-ttu-id="b3425-106">Tipik olarak, bu yordam kalite görevlisi tarafından gerçekleştirilir.</span><span class="sxs-lookup"><span data-stu-id="b3425-106">Typically, this procedure is performed by a quality clerk.</span></span>  <span data-ttu-id="b3425-107">Bir önkoşul olarak "Malların kalitesini incele" görev kaydını çalıştırın.</span><span class="sxs-lookup"><span data-stu-id="b3425-107">As a prerequisite, run the “Inspect the quality of goods” task recording.</span></span> <span data-ttu-id="b3425-108">Bir uygunsuzluk onayını işlemek için görev kaydını çalıştıran kullanıcının atanmış kullanıcılar sayfasında bir "Ad" değeri olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="b3425-108">To process the approval of a nonconformance, the user who runs the task recording must have a “Name” value assigned on the Users page.</span></span> <span data-ttu-id="b3425-109">Kullanıcının belge notları kullanabilmesi için belge işleme seçeneğinin kullanıcı ayarlarında etkinleştirilmiş olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="b3425-109">To use the document notes, the user must also have Document handling activated in the user options.</span></span>
 

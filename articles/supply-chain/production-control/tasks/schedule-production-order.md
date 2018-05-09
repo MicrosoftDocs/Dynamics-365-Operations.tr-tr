@@ -17,15 +17,15 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 007eae16a2a3c3fd138899f7b8a9ed768cc6600d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cea7310488115953ef4765497f711d7623dd56ec
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="schedule-a-production-order"></a><span data-ttu-id="f2f67-103">Üretim emrini planlama</span><span class="sxs-lookup"><span data-stu-id="f2f67-103">Schedule a production order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f2f67-104">Bu yordam, bir üretim emrini nasıl planlayacağınızı gösterir.</span><span class="sxs-lookup"><span data-stu-id="f2f67-104">This procedure shows how to schedule a production order.</span></span> <span data-ttu-id="f2f67-105">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="f2f67-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="f2f67-106">Bu, üretim emri ömrünü açıklayan yedi yordamın üçüncüsüdür.</span><span class="sxs-lookup"><span data-stu-id="f2f67-106">This is the third procedure out of seven which explains the production order lifecycle.</span></span>
 

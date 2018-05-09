@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9a7901b307cffb81cce351e4e45ac8f73f328b02
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9e4cf2b2d4fe1170c75514a1e554d54dc8c32140
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="report-as-finished-to-a-plate-controlled-location"></a><span data-ttu-id="962d2-103">Plaka denetimli bir yerleşime tamamlandı olarak raporlama </span><span class="sxs-lookup"><span data-stu-id="962d2-103">Report as finished to a plate-controlled location</span></span> 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="962d2-104">Bu görev kılavuzunda, plaka kontrollü olmayan bir konumuna tamamlandı olarak raporlama yapılmasına ilişkin bir örnek gösterilmiştir.</span><span class="sxs-lookup"><span data-stu-id="962d2-104">This task guide shows an example of reporting as finished to a location that isn't license plate–controlled.</span></span> <span data-ttu-id="962d2-105">Geçerli bir iş politikasının olması bu görev için bir ön koşuldur.</span><span class="sxs-lookup"><span data-stu-id="962d2-105">An applicable work policy is the prerequisite for this task.</span></span> <span data-ttu-id="962d2-106">Önceki görev kılavuzunda iş politikasının kurulumu gösterilmiştir.</span><span class="sxs-lookup"><span data-stu-id="962d2-106">A previous task guide showed the setup of the work policy.</span></span> <span data-ttu-id="962d2-107">Bu görev kılavuzu Dynamics AX uygulama 7.0.1 veya sonrasını gerektirir.</span><span class="sxs-lookup"><span data-stu-id="962d2-107">This task guide requires Dynamics AX application 7.0.1 or later.</span></span>
 

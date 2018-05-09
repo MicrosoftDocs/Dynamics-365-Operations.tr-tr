@@ -19,16 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c8af5d3343bf8376dfec5a41cd03e1325b10b978
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 510775079fc5193e243eb251396d79433ce37f4b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budget-planning"></a><span data-ttu-id="08733-105">Bütçe planlama</span><span class="sxs-lookup"><span data-stu-id="08733-105">Budget planning</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="08733-106">Bu laboratuvarın amacı, Bütçe planlama alanındaki Microsoft Dynamics 365 for Finance and Operations işlevi güncelleştirmelerine ilişkin rehber eşlikli bir görünüm sağlamaktır.</span><span class="sxs-lookup"><span data-stu-id="08733-106">The objective of this lab is to provide a guided view of Microsoft Dynamics 365 for Finance and Operations functionality updates in Budget planning area.</span></span> <span data-ttu-id="08733-107">Bu laboratuvarın amacı, bütçe planlama modülü yapılandırmasının hızlı bir örneğini ve bu yapılandırmayla bütçe planlamanın nasıl tamamlanabileceğini göstermektir.</span><span class="sxs-lookup"><span data-stu-id="08733-107">The intent of this lab is to illustrate a quick configuration example of budget planning module and showcase how budget planning can be accomplished using this configuration.</span></span>  <span data-ttu-id="08733-108">Bu laboratuvar özellikle aşağıdaki iş süreçlerine veya görevlere odaklanmaktadır: -    - Bütçe planlama için kuruluş hiyerarşisi oluşturma ve kullanıcı güvenliğini yapılandırma   - Bütçe planı senaryoları, bütçe planı sütunları, yerleşimleri ve Excel şablonları tanımlama   - Bütçe planlama süreci oluşturma ve etkinleştirme   - Genel muhasebeden gerçek değerleri alarak bütçe planı belgesi oluşturma   - Bütçe planı belgesi verilerini ayarlamak için tahsisatları kullanma   - Excel'de bütçe planı belgesi verilerini düzenleme</span><span class="sxs-lookup"><span data-stu-id="08733-108">This lab will focus specifically on the following business processes or tasks -    - Creating organizational hierarchy for budget planning and configuring user security   - Defining budget plan scenarios, budget plan columns, layouts and Excel templates   - Creating and activating budget planning process   - Creating budget plan document by pulling in actuals from General ledger   - Using allocations to adjust budget plan document data   - Editing budget plan document data in Excel</span></span> 
 

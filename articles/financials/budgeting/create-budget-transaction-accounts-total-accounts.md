@@ -19,16 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 85b778caf209c2fb1845665169e08210bfeb45c1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3b7c8031c40cf0ce3072577ac936aecc5de2a810
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a><span data-ttu-id="91d3b-104">İşlem hesapları ve toplam hesaplar için bütçe oluşturma</span><span class="sxs-lookup"><span data-stu-id="91d3b-104">Create a budget from transaction accounts and total accounts</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="91d3b-105">Bu makalede, toplam hesaplara göre bütçe oluşturma işlemine genel bir bakış verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="91d3b-105">This article provides an overview of the process for creating budgets based on total accounts.</span></span> <span data-ttu-id="91d3b-106">Makalede, bütçe kontrolü gerektiği zaman toplam hesaplar için bütçe kontrolünün nasıl etkinleştirileceği de açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="91d3b-106">It also explains how to turn on budget control for total accounts, if budget control is required.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 713e02b6537da0d72b34e796d81ad32a6cb74bc3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: dd5a62dc1459f1768104eeaea3e71780431e8e79
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-purchasing-policies"></a><span data-ttu-id="cfa1c-103">Satınalma ilkeleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="cfa1c-103">Create purchasing policies</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cfa1c-104">Bu prosedür satınalma için iş süreçlerinize uygun olacak şekilde satınalma ilkelerinin nasıl oluşturulacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="cfa1c-104">This procedure shows you how to create purchasing policies to align with your business processes for purchasing.</span></span> <span data-ttu-id="cfa1c-105">Satınalma ilkelerini oluşturmadan önce satın alma ilkesi parametrelerini ayarlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="cfa1c-105">Before you can create purchasing policies, you must set up the purchasing policy parameters.</span></span> <span data-ttu-id="cfa1c-106">Bir satınalma ilkesini oluşturmak, değiştirmek ve çıkarmak mümkündür ancak satınalma ilkesini silemezsiniz.</span><span class="sxs-lookup"><span data-stu-id="cfa1c-106">It’s possible to create, modify, and retire a purchasing policy, but you can’t delete a purchasing policy.</span></span> <span data-ttu-id="cfa1c-107">Bu prosedür genellikle bir satınalma yöneticisi tarafından gerçekleştirilir.</span><span class="sxs-lookup"><span data-stu-id="cfa1c-107">This procedure would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="cfa1c-108">Bu yordamı, demo verileri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cfa1c-108">You can use this procedure in demo data company USMF or on your own data.</span></span>
 

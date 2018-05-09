@@ -18,16 +18,16 @@ ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f19ca5e9642b5a8222ee7bf23fdd228ab75d2ed1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b0ffd313e0f1d50f35235d3a48f8715bb6c8de7b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="display-pages-side-by-side-using-the-open-in-new-window-icon"></a><span data-ttu-id="05b32-103">Yeni Pencerede Aç simgesini kullanarak sayfaları yan yana görüntüleme</span><span class="sxs-lookup"><span data-stu-id="05b32-103">Display pages side-by-side using the Open in New Window icon</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="05b32-104">Bu makale, Microsoft Dynamics 365 for Finance and Operations'da sayfaların yan yana nasıl görüntüleneceğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="05b32-104">This article explains how to display pages side-by-side in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d0d7fbc5f9b928a43870899836ead4f8adbc1a56
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6cbaaf6fcb943089886f60e72f4fbab5029b2f8d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a><span data-ttu-id="4101e-103">Aday seçim araçlarını tanımlama ve dağıtma</span><span class="sxs-lookup"><span data-stu-id="4101e-103">Identify and deploy candidate selection tools</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4101e-104">Boş konumları doldurmak için kalifiye aday havuzu bulmak, özellikle de konum benzersiz beceri grubu gerektirdiğinde zor olabilir.</span><span class="sxs-lookup"><span data-stu-id="4101e-104">Finding a qualified pool of candidates to fill vacancies can be difficult, especially when a position requires a unique set of skills.</span></span>  <span data-ttu-id="4101e-105">Ancak, gereksinim duyduğunuz becerilere sahip adaylar zaten kuruluşunuzda çalışıyor olabilir.</span><span class="sxs-lookup"><span data-stu-id="4101e-105">However, candidates with the skills you need might already be employed in your organization.</span></span> <span data-ttu-id="4101e-106">Mevcut çalışanlar veya yeni başvuranlar arasında belirli bir yetenek kümesi arayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4101e-106">You can search for a specific skill set among existing employees, or new applicants.</span></span> <span data-ttu-id="4101e-107">Bu, işverene açık bir konum için geçmişte veya yeni başvuru yapanları hızlı şekilde toplama ve eleme ya da mevcut çalışan havuzundan olası adayları bulma olanağı sağlar.</span><span class="sxs-lookup"><span data-stu-id="4101e-107">This allows a recruiter to quickly gather and screen applicants who have applied for open position now or in the past, or to find potential candidates from their existing pool of employees.</span></span> <span data-ttu-id="4101e-108">Yetenek eşleme işlevinin açık bir konum için doğru kişiyi bulmanıza nasıl yardımcı olacağını öğrenmek üzere bu görev kaydını kullanın.</span><span class="sxs-lookup"><span data-stu-id="4101e-108">Use this task recording to learn how the skill mapping functionality can help you find the right person for an open position.</span></span> <span data-ttu-id="4101e-109">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="4101e-109">The demo data company used to create this procedure is USMF.</span></span>
 

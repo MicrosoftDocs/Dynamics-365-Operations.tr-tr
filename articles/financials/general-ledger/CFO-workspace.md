@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 04643d4d9e3c0a21f2dac3ce27a7398f7be4f775
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ebe2766976f2c7a88f9b919c8c13e05e36576e45
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a><span data-ttu-id="cbcea-103">CFO çalışma alanına mali boyutlar ekleme</span><span class="sxs-lookup"><span data-stu-id="cbcea-103">Add financial dimensions to the CFO workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="cbcea-104">Bu konu, genel muhasebe ve bütçe raporları için kullanılabilmeleri amacıyla Mali İşler Müdürü (CFO) çalışma alanına mali boyutların nasıl ekleneceğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="cbcea-104">This topic explains how to add financial dimensions to the Chief Financial Officer (CFO) workspace, so that they can be used for the ledger and budget reports.</span></span> <span data-ttu-id="cbcea-105">CFO çalışma alanı bir **Genel bakış** sekmesine ve bir **Mali** sekmesine sahiptir. Bu iki sekmedeki raporlar iki ölçüt tarafından desteklenir: LedgerActivityMeasure ve BudgetActivityMeasure.</span><span class="sxs-lookup"><span data-stu-id="cbcea-105">The CFO workspace has an **Overview** tab and a **Financial** tab. The reports on these two tabs are backed by two measures: LedgerActivityMeasure and BudgetActivityMeasure.</span></span> <span data-ttu-id="cbcea-106">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'da (Temmuz 2017) bu iki ölçü ve DimensionCombinationEntity varlığı arasında bir ilişki vardır.</span><span class="sxs-lookup"><span data-stu-id="cbcea-106">In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017), there is a relation between those two measures and the DimensionCombinationEntity entity.</span></span> <span data-ttu-id="cbcea-107">Bu nedenle, boyutları seçebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="cbcea-107">Therefore, you can select dimensions.</span></span>
 

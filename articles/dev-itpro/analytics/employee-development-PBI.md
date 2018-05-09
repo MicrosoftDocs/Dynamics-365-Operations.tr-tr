@@ -16,16 +16,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c2bd9c7e72f82a5aeeb561292e7406752a32fa6f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="employee-development-power-bi-content"></a><span data-ttu-id="26450-103">Personel gelişimi Power BI içeriği</span><span class="sxs-lookup"><span data-stu-id="26450-103">Employee development Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="26450-104">Bu konu, **Personel gelişimi** Microsoft Power BI içeriğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="26450-104">This topic describes the **Employee development** Microsoft Power BI content.</span></span>
 

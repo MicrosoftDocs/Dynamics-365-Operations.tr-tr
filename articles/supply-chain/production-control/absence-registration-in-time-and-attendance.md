@@ -18,16 +18,16 @@ ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7ccac401b7364006e8ffc229a616bca8e48bf096
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b5cc8d99fa7999b33b5709d691ce56ba28ab9e30
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="absence-registration-in-time-and-attendance"></a><span data-ttu-id="1a5cd-103">Saat ve işe devamda devamsızlık kaydı</span><span class="sxs-lookup"><span data-stu-id="1a5cd-103">Absence registration in Time and attendance</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1a5cd-104">Bu konu devamsızlık kavramlarını tanımlar ve devamsızlığın Saat ve işe devamda nasıl ele alınacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="1a5cd-104">This topic describes the concepts for absence and explains how to handle absence in Time and attendance.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 91b862155d60f297a1278e44f58804ac385be64c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3ec4f8a998364998909171564135ab6133b301b9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-mass-hire-project"></a><span data-ttu-id="978ec-103">Toplu işe alma projesi oluşturma</span><span class="sxs-lookup"><span data-stu-id="978ec-103">Create a mass hire project</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="978ec-104">Bu prosedürde, bir toplu işe alma projesini ayarlama sürecinde size yol gösterilecek.</span><span class="sxs-lookup"><span data-stu-id="978ec-104">This procedure walks through the process of setting up a mass hire project.</span></span> <span data-ttu-id="978ec-105">Bir işveren kolayca çok sayıda pozisyon oluşturmak ve birçok çalışanı bu pozisyonlarda işe almak için toplu işe alma projelerini kullanabilir.</span><span class="sxs-lookup"><span data-stu-id="978ec-105">A recruiter can use mass hire projects to easily create multiple positions and hire a number of workers into those positions.</span></span> <span data-ttu-id="978ec-106">Bu prosedüre başlatmak için İnsan kaynakları > İşe alma > Toplu işe alma projeleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="978ec-106">To begin this procedure, go to Human resources > Recruitment > Mass hire projects.</span></span> <span data-ttu-id="978ec-107">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="978ec-107">The demo data company used to create this procedure is USMF.</span></span>
 

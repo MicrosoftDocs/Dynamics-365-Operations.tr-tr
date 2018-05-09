@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7d00df6263530ba9fff4c246cb3593cd607f6719
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a985651f662fcf381ba73b2446358bfefde48daa
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="batch-balancing"></a><span data-ttu-id="0bd2e-103">Toplu iş dengelemesi</span><span class="sxs-lookup"><span data-stu-id="0bd2e-103">Batch balancing</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="0bd2e-104">Bu konu toplu iş dengeleme işleminin nasıl desteklendiğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="0bd2e-104">This topic describes how the batch balancing process is supported.</span></span> 
 

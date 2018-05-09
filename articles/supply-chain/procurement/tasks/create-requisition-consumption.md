@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bad86a4726ce69015f318d9af98992b36d34b29a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ad2a356c4f6bc2c72898e8b841963e6bee6daac0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-requisition-for-consumption"></a><span data-ttu-id="a499f-103">Tüketim talebi oluşturma</span><span class="sxs-lookup"><span data-stu-id="a499f-103">Create a requisition for consumption</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a499f-104">Bu yordam, bir talep oluşturma işleminde size yol gösterir.</span><span class="sxs-lookup"><span data-stu-id="a499f-104">This procedure walks you through the process of creating a requisition.</span></span> <span data-ttu-id="a499f-105">Ürün tedarik kataloğunuzda bulunan ürünleri arama ve kataloğunuzda bulunmayanları nasıl ekleyeceğiniz hakkında farklı yolları gösterir.</span><span class="sxs-lookup"><span data-stu-id="a499f-105">It shows you different ways to search for products in your procurement catalog and how to add a product that isn’t in your catalog.</span></span> <span data-ttu-id="a499f-106">Bu yordama başlamadan önce Tüketim'in varsayılan talep türü olarak ayarlanmış olduğu bir satın alma ilkeniz olmalıdır.</span><span class="sxs-lookup"><span data-stu-id="a499f-106">Before you start this procedure, you must have a purchasing policy set up with Consumption as the default type of requisition.</span></span> <span data-ttu-id="a499f-107">Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a499f-107">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="a499f-108">Yordam, yalnızca çalışan olarak ayarlanmış bir kullanıcı profili tarafından kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="a499f-108">The procedure can only be carried out by a user profile that is set up as worker.</span></span>  <span data-ttu-id="a499f-109">Bu görev normalde bir personel tarafından yerine getirilir.</span><span class="sxs-lookup"><span data-stu-id="a499f-109">This task would normally be carried out by an employee.</span></span> <span data-ttu-id="a499f-110">Personel işe alma güvenlik rolü, görevleri gerçekleştirmenize izin verir veya USMF kullanıyorsanız, Sibel olarak oturum açabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a499f-110">The Employee employ security role will allow you to carry out the tasks, or if you’re using USMF, you can log in as Alicia.</span></span>
 

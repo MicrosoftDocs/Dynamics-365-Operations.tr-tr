@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e65e3d335c8c05b360e96847b29c7c123f5dfa31
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 760e2e51216d0ed032de11c37167a6adbd07efaf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-value-stream"></a><span data-ttu-id="d3a35-103">Değer akışı oluşturma</span><span class="sxs-lookup"><span data-stu-id="d3a35-103">Create a value stream</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d3a35-104">Değer akışları, bir veya birden çok üretim akışını gruplayan faaliyet birimleridir.</span><span class="sxs-lookup"><span data-stu-id="d3a35-104">Value streams are operating units, that group one or multiple production flows.</span></span> <span data-ttu-id="d3a35-105">Bir üretim akışı tanımlamak için önce bir değer akışı tanımlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="d3a35-105">To define a production flow, you first must define a value stream.</span></span>
 

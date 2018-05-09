@@ -19,16 +19,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5d06f8afd7b7c777062a1e114309154b956a2355
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 202c35194145c1d1f89749e139a0181856f16372
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="workforce-metrics-power-bi-content"></a><span data-ttu-id="72762-104">İşgücü ölçümleri Power BI içeriği</span><span class="sxs-lookup"><span data-stu-id="72762-104">Workforce metrics Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="72762-105">Bu konu, **İşgücü ölçümleri** Microsoft Power BI içeriğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="72762-105">This topic describes the **Workforce metrics** Microsoft Power BI content.</span></span> <span data-ttu-id="72762-106">Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="72762-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span>
 

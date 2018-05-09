@@ -19,16 +19,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4361311be0cf5c33c9b2fa4700b084a7b43f5b65
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fa9c962ffce161365d1a030cf9995cce3ff19934
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="advanced-filtering-and-query-syntax"></a><span data-ttu-id="ed1b5-103">Gelişmiş filtreleme ve sorgu söz dizimi</span><span class="sxs-lookup"><span data-stu-id="ed1b5-103">Advanced filtering and query syntax</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="ed1b5-104">Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusundaki "eşleşmeler" işlecini kullanırken kullanılabilecek filtreleme ve sorgu seçenekleri açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="ed1b5-104">This article describes the filtering and query options that are available when you use the "matches" operator in the Advanced filter/sort dialog.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1fc3ab4f2a4b4604126ff72c570fc9d85e209f3c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6c11b8ccd29e75f33da779c3f4d1d601ee473dbd
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-performance-power-bi-content"></a><span data-ttu-id="eb0f3-103">Mali performans Power BI içeriği</span><span class="sxs-lookup"><span data-stu-id="eb0f3-103">Financial performance Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!Note]
 > <span data-ttu-id="eb0f3-104">Bu içerik paketi [PowerBI.com'da yayımlanan Power BI içerik paketleri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom) bölümünde belirtildiği üzere kullanım dışı bırakılmıştır.</span><span class="sxs-lookup"><span data-stu-id="eb0f3-104">This content pack has been deprecated as documented in [Power BI content packs published to PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).</span></span>

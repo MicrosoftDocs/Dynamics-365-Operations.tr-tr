@@ -16,18 +16,18 @@ ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 07224faabcf2b183d4c8da0ba4588c33ec140d03
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0754b4361f2fe940f6c6d4168ac44f234fd363f8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="embed-powerapps"></a><span data-ttu-id="601c2-103">PowerApps katıştırma</span><span class="sxs-lookup"><span data-stu-id="601c2-103">Embed PowerApps</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 <span data-ttu-id="601c2-104">Platform güncelleştirmesi 14'te, Microsoft Dynamics 365 for Finance and Operations hizmet geliştiricileri ve teknik olmayan kullanıcıların kod yazmadan mobil cihazlar, tabletler ve web için özel iş uygulamaları oluşturmasını sağlayan bir hizmet olan Microsoft PowerApps ile tümleştirmeyi destekler.</span><span class="sxs-lookup"><span data-stu-id="601c2-104">In Platform update 14, Microsoft Dynamics 365 for Finance and Operations supports integration with Microsoft PowerApps, a service for developers and non-technical users to build custom business apps for mobile devices, tablets, and the web without writing code.</span></span> <span data-ttu-id="601c2-105">Size, kuruluşunuz veya daha geniş bir ekosistem tarafından geliştirilmiş PowerApps ürün işlevselliğini artırmak amacıyla Finance and Operations istemcisine katıştırılabilir.</span><span class="sxs-lookup"><span data-stu-id="601c2-105">PowerApps developed by you, your organization, or the broader ecosystem can then be embedded in the Finance and Operations client to augment the product's functionality.</span></span> <span data-ttu-id="601c2-106">Örneğin, başka bir sistemden alınan bilgileri Finance and Operations'a eklemek için bir PowerApp oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="601c2-106">For example, you might build a PowerApp to supplement Finance and Operations with information retrieved from another system.</span></span> 
 

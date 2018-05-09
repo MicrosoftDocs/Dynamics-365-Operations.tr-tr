@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8c425fc66ef8ca761d734c403d36605cc172cee3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e5e8eaa8d0f1097b23e89671b0bd8a20ac9bbc34
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-service-objects"></a><span data-ttu-id="2b20a-103">Servis nesneleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="2b20a-103">Create service objects</span></span>  
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
    
 <span data-ttu-id="2b20a-104">Servis nesneleri, üzerinde servis gerçekleştirebileceğiniz müşteri kıymetleri ve ürünleridir.</span><span class="sxs-lookup"><span data-stu-id="2b20a-104">Service objects are a customer’s assets and products for which you can perform a service.</span></span> 
 

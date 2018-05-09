@@ -16,15 +16,15 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: be973f37273e09640a9df04c80eb554ca0721132
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f9f3fd3f25ba51cd04243de3dcef33475aaea5c6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a><span data-ttu-id="b795b-103">Yinelenen serbest metin faturaları oluşturma ve deftere nakletme</span><span class="sxs-lookup"><span data-stu-id="b795b-103">Generate and post recurring free text invoices</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b795b-104">Yinelenen faturalar, müşterilere düzenli olarak aynı tutarda fatura çıkarmak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="b795b-104">Recurring invoices are used to invoice customers regularly for the same amount.</span></span> <span data-ttu-id="b795b-105">Bu kayıtta USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="b795b-105">This recording uses the USMF demo company.</span></span> <span data-ttu-id="b795b-106">Bu kayıt, alacak hesapları faturalarının yönetiminden ve işlenmesinden sorumlu kişilere yöneliktir.</span><span class="sxs-lookup"><span data-stu-id="b795b-106">The recording is intended for the person responsible for managing and processing A/R invoices.</span></span>
 

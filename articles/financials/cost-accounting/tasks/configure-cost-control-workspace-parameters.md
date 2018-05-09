@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1d2448642b0f60f8c060b3fd3e04b22e269814d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5ac9e23c1453ce3cb286ec4a1acf53a1ff8bb62a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="configure-cost-control-workspace-parameters"></a><span data-ttu-id="8ef37-103">Maliyet kontrolü çalışma alanı parametrelerini yapılandırma</span><span class="sxs-lookup"><span data-stu-id="8ef37-103">Configure cost control workspace parameters</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8ef37-104">Bu yordamı Maliyet denetimi çalışma alanını yapılandırmak için kullanarak bir kuruluştaki çeşitli seviyede bulunan yöneticilerin örneğin maliyet merkezleri ve ürün grupları gibi maliyet nesnelerine dair bilgi alabilmelerini sağlayın.</span><span class="sxs-lookup"><span data-stu-id="8ef37-104">Use this procedure to configure the Cost control workspace so that managers at various levels in an organization can gain insight into their cost objects, such as cost centers and product groups.</span></span> <span data-ttu-id="8ef37-105">USP2 demo şirketi bu kaydı oluşturmak için kullanılmıştır.</span><span class="sxs-lookup"><span data-stu-id="8ef37-105">The USP2 demo company was used to create this recording.</span></span>
 

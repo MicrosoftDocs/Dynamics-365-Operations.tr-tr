@@ -17,15 +17,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9089b9ad773890424a6f73107a26a35a32e988ae
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5610d1fc2adff0d04ea3931de4b1e23225e50ff0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-request-configurations"></a><span data-ttu-id="c9435-103">Satıcı talep konfigürasyonları</span><span class="sxs-lookup"><span data-stu-id="c9435-103">Vendor request configurations</span></span>
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c9435-104">Bir satıcı talebini tamamlamak için satıcı ilgili kişisinin aday satıcı kayıt sihirbazını tamamlaması gerekir.</span><span class="sxs-lookup"><span data-stu-id="c9435-104">To complete a vendor request, a vendor contact person must complete the prospective vendor registration wizard.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6f65b0ea66b4ce876e4a7d1cbf7125b5241c1e20
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e1ee88c916890e26edc1c49aa2337749762a7cc7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="finance-and-operations-client-faq"></a><span data-ttu-id="beac2-103">Finance and Operations istemcisiyle ilgili SSS</span><span class="sxs-lookup"><span data-stu-id="beac2-103">Finance and Operations client FAQ</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="beac2-104">Bu makalede, Microsoft Dynamics 365 for Finance and Operations istemcisi hakkında sık sorulan soruların yanıtlarını verilmektedir.</span><span class="sxs-lookup"><span data-stu-id="beac2-104">This article provides answers to frequently asked questions about the Microsoft Dynamics 365 for Finance and Operations client.</span></span>
 

@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1a32b49e7589113d518ef17a39eecc4c518b362d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d3de34eeef042cb3f283ee53579b199c6a4c9091
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="allocation-bases"></a><span data-ttu-id="37495-104">Tahsisat temelleri</span><span class="sxs-lookup"><span data-stu-id="37495-104">Allocation bases</span></span> 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="37495-105">bir tahsisat tabanı, Maliyet muhasebesinin genel giderleri tahsis ettiği tabandır.</span><span class="sxs-lookup"><span data-stu-id="37495-105">An allocation base is the basis on which Cost accounting allocates overhead costs.</span></span> <span data-ttu-id="37495-106">Bir tahsisat tabanı, kullanılan makine saatleri, tüketilen kilovat saat (kWh) veya doldurulan metrekare alan gibi bir miktar olabilir.</span><span class="sxs-lookup"><span data-stu-id="37495-106">An allocation base can be a quantity, such as machine hours that are used, kilowatt hours (kWh) that are consumed, or square footage that is occupied.</span></span> <span data-ttu-id="37495-107">Tahsisat tabanları, genellikle üretilen stoklara genel giderleri atamak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="37495-107">Allocation bases are mostly used to assign overhead costs to inventory that is produced.</span></span> <span data-ttu-id="37495-108">Örneğin bir BT bölümü, giderlerini her bir bölümün kullandığı bilgisayarların sayısına göre tahsis eder.</span><span class="sxs-lookup"><span data-stu-id="37495-108">For example, an IT department allocates its expenses according to the number of computers that each department uses.</span></span>
 

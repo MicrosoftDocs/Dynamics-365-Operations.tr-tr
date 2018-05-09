@@ -17,15 +17,15 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 734034776e1adb42ee5f131e91b6fd7d28f811ab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4e7a2fde65c8dba8b16c5a87eae0ec2bbebc3388
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-containerization"></a><span data-ttu-id="6b753-103">Konteyner kullanımını ayarlama</span><span class="sxs-lookup"><span data-stu-id="6b753-103">Set up containerization</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="6b753-104">Bu yordam, Ambar yönetimindeki yüklerin konteyner kullanımının nasıl otomatikleştirileceğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="6b753-104">This procedure describes how to automate the containerization of loads in Warehouse management.</span></span> <span data-ttu-id="6b753-105">Otomatik konteyner kullanımı, bir dalga işlendiğinde sevkiyatlar için konteynerleri ve çekme işini oluşturur ve iş satırları, konteynerlere sığacak miktarlara bölünür.</span><span class="sxs-lookup"><span data-stu-id="6b753-105">Automated containerization creates containers and the picking work for shipments when a wave is processed and work lines can be split into quantities that fit the containers.</span></span> <span data-ttu-id="6b753-106">Bu, ambar çalışanlarına, maddeleri doğrudan seçilen konteynere çekmelerine yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="6b753-106">This helps warehouse workers to pick the items directly into the chosen container.</span></span> <span data-ttu-id="6b753-107">El ile yapılan paketleme işlemi ile karşılaştırıldığında, örneğin konteynerler oluşturma, maddeler atama ve konteyner kapanışı gibi işlemler, sistem tarafından otomatikleştirilir.</span><span class="sxs-lookup"><span data-stu-id="6b753-107">Compared to the manual packing process, tasks such as creating containers, assigning items, and closing containers are automated by the system.</span></span> <span data-ttu-id="6b753-108">Bu yordam, USMF demo şirketin kullanır ve Ambar Yöneticisi tarafından gerçekleştirilir.</span><span class="sxs-lookup"><span data-stu-id="6b753-108">This procedure uses the USMF demo company and is performed by a Warehouse manager.</span></span>
 

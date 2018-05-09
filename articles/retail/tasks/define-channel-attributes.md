@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b83ced1e07fe05a5f5804d650addc83fd7a1956a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5f88e68fd40d4b883d447917650c389e78a8a854
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-channel-attributes"></a><span data-ttu-id="effc7-103"> Kanal özniteliklerini tanımlama</span><span class="sxs-lookup"><span data-stu-id="effc7-103">Define channel attributes</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="effc7-104">Kanalı, ürün ve kanal öznitelikleri ekleyerek zenginleştirin.</span><span class="sxs-lookup"><span data-stu-id="effc7-104">Enrich the channel by adding channel and product attributes.</span></span> <span data-ttu-id="effc7-105">Öznitelikleri tanımlamadan önce kanalı varsayılan organizasyon hiyerarşisine eklemeniz gerekir.</span><span class="sxs-lookup"><span data-stu-id="effc7-105">You must add the channel to the organization default hierarchy before you can define the attributes.</span></span>
 

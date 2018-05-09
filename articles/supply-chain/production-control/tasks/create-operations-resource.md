@@ -17,15 +17,15 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 94b1bc306ecbc8bec6beac149001f202c77a9090
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8d87bd2b3f617eab905fa484ee03821a1a44e20b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-an-operations-resource"></a><span data-ttu-id="0123a-103">Operasyon kaynağı oluşturma</span><span class="sxs-lookup"><span data-stu-id="0123a-103">Create an operations resource</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0123a-104">Operasyon kaynağı, bir projenin veya bir üretim işleminin etkinliklerini gerçekleştirir.</span><span class="sxs-lookup"><span data-stu-id="0123a-104">An operations resource performs the activities of a project or a production process.</span></span> <span data-ttu-id="0123a-105">Bu yordam, size bir operasyon kaynağının nasıl tanımlanacağını gösterir.</span><span class="sxs-lookup"><span data-stu-id="0123a-105">This procedure shows you how to define an operations resource.</span></span> <span data-ttu-id="0123a-106">Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="0123a-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 

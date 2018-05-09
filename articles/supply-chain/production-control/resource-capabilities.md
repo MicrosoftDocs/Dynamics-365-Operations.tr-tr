@@ -20,16 +20,16 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d10c8846aa0c996f80206f7f788d772a874886e4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1a56dfce2cca369ca2e28fe9e5c45e2722f16379
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="resource-capabilities"></a><span data-ttu-id="92b76-105">Kaynak yetenekleri</span><span class="sxs-lookup"><span data-stu-id="92b76-105">Resource capabilities</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="92b76-106">Bu makale, kaynak yetenekleri hakkında bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="92b76-106">This article provides information about resource capabilities.</span></span> <span data-ttu-id="92b76-107">Yetenek, bir operasyon kaynağının belirli bir etkinliği gerçekleştirebilme becerisidir.</span><span class="sxs-lookup"><span data-stu-id="92b76-107">A capability is the ability of an operations resource to perform a particular activity.</span></span> <span data-ttu-id="92b76-108">Makale, yeterlilik düzeyi ve öncelik gibi yeteneklerin ve ilgili kavramların bir etkinlik için uygun kaynakların seçilmesinde nasıl kullanıldığını açıklar.</span><span class="sxs-lookup"><span data-stu-id="92b76-108">The article explains how capabilities and related concepts, such as proficiency level and priority, are used to select appropriate resources for an activity.</span></span>
 

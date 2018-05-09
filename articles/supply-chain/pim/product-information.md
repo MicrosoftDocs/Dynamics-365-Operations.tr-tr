@@ -20,18 +20,18 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1f6a0922ebd0d2436715f0d1a1cc5d99876427f1
-ms.openlocfilehash: 5d8a5d080ba4d682e19dfb6a87924663eefe6257
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: acf58d1d203aefbb9f39a387ea1529b43be826c6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/25/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="product-information-overview"></a><span data-ttu-id="6b027-104">Ürün bilgilerine genel bakış</span><span class="sxs-lookup"><span data-stu-id="6b027-104">Product information overview</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="6b027-105">Bu konu ürün bilgileri yönetimi hakkında bilgiler sağlar.</span><span class="sxs-lookup"><span data-stu-id="6b027-105">This topic provides information about product information management.</span></span> <span data-ttu-id="6b027-106">Ürün bilgileri yönetimi paylaşılan ürün tanımı, kategori ve tüm tüzel kişilikler üzerindeki tanımlayıcıların yanı sıra iş süreçlerine uyum sağlamak üzere belirli ürün yapılandırmalarıyla birlikte çalışır.</span><span class="sxs-lookup"><span data-stu-id="6b027-106">Product information management works with a shared product definition, categorization, and identifiers across all legal entities, and also specific configurations of a product, to fit into the business processes.</span></span> 
 

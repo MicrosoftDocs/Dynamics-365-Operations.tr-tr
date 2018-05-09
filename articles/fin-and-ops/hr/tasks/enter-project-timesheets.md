@@ -17,15 +17,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fdc9567040a2ea4e50325c98a2da19da039586bb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b1ccaeffde4c288667fe797d07e08b5a346b4716
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="enter-project-timesheets"></a><span data-ttu-id="c78e7-103">Proje zaman çizelgelerini girme</span><span class="sxs-lookup"><span data-stu-id="c78e7-103">Enter project timesheets</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c78e7-104">Bu yöntem, bir zaman çizelgesini, boş zaman çizelgesi formu kullanarak oluşturmanızı sağlar.</span><span class="sxs-lookup"><span data-stu-id="c78e7-104">This procedure lets you create a timesheet by using an empty timesheet form.</span></span> <span data-ttu-id="c78e7-105">Yeni Zaman Çizelgesi, önceki bir zaman çizelgesi bilgilerini veya Sık Kullanılanlarım sayfasındaki proje ve faaliyet atamalarını baz alabilir.</span><span class="sxs-lookup"><span data-stu-id="c78e7-105">The new timesheet can be based on information from a previous timesheet, or from project and activity assignments in the My favorites page.</span></span> <span data-ttu-id="c78e7-106">Varsayılan olarak, tüm zaman çizelgeleri listesi sayfası, geçerli dönem için tüm zaman çizelgelerini görüntüler.</span><span class="sxs-lookup"><span data-stu-id="c78e7-106">By default, the All timesheets list page displays all your timesheets for the current period.</span></span> <span data-ttu-id="c78e7-107">Çizelgelerim sayfasındaki Göster alanındaki aşağı açılan listeyi, çizelgeleri süre ya da proje zaman çizelgesi listesine göre filtrelemek, veya diğer çalışanlar adına oluşturulan zaman çizelgelerini görüntülemek için kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="c78e7-107">You can use the drop-down list for the Show field in the My timesheets page to filter the timesheet list by time period or project, or to view timesheets that were created on behalf of other workers.</span></span> <span data-ttu-id="c78e7-108">Bu yöntemi oluşturmak için kullanılan demo verisi şirketi USSI'dir.</span><span class="sxs-lookup"><span data-stu-id="c78e7-108">The demo data company used to create this procedure is USSI.</span></span> <span data-ttu-id="c78e7-109">Bu yöntemi başlatmak için: Proje yönetimi ve muhasebe > Zaman çizelgeleri > Çizelgelerim seçeneğine gidin.</span><span class="sxs-lookup"><span data-stu-id="c78e7-109">To begin this procedure, go to Project management and accounting > Timesheets >My timesheets</span></span>
 

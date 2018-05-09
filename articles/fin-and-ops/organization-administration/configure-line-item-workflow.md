@@ -18,16 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 658829ccb79d0b2b4f627a45647ba6076e4384b0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1d36ec599250f62c523e8d538a37cada9b223007
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-a-line-item-workflow"></a><span data-ttu-id="51f39-103">Satır maddesi iş akışı yapılandırma</span><span class="sxs-lookup"><span data-stu-id="51f39-103">Configure a line-item workflow</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="51f39-104">Bu konu, bir satır maddesi iş akışı öğesinin nasıl yapılandırılacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="51f39-104">This topic explains how to configure a line-item workflow element.</span></span>
 

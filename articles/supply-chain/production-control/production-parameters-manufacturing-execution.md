@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a0a28ba5072d55b8133f5458f75befa752a3dcdf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: febd5f956921de837cc0a857a9a518b8d27acac1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-parameters-in-manufacturing-execution"></a><span data-ttu-id="dd3a2-103">Üretim yürütmede üretim parametreleri</span><span class="sxs-lookup"><span data-stu-id="dd3a2-103">Production parameters in Manufacturing execution</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="dd3a2-104">Bu konu Üretim yürütmeden üretim parametrelerinin ayarlanmasıyla ilgili bilgiler içerir.</span><span class="sxs-lookup"><span data-stu-id="dd3a2-104">This topic provides information about the setup of production parameters in Manufacturing execution.</span></span>
 

@@ -18,15 +18,15 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d56eba7b3e33aed49675ae19c8ba78cc92d2c8e3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4410080909cae0242a4c46a8cb7ea8a9574ca3bf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="generate-affordable-care-act-reports"></a><span data-ttu-id="602dc-103">Ekonomik Bakım Yasası raporları oluşturun</span><span class="sxs-lookup"><span data-stu-id="602dc-103">Generate Affordable Care Act reports</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="602dc-104">Ekonomik Bakım Yasası'nın **İşveren Yönergesi** bölümündeki Formlar 1095-B ve 1095-C'den raporlanan bilgileri izlemesi gereken işverenlere destek olmak için işlev mevcuttur. Bu işlevin yalnızca Amerika Birleşik Devletleri'ndeki tüzel varlıklar için etkin olduğunu unutmayın.</span><span class="sxs-lookup"><span data-stu-id="602dc-104">Functionality is available to assist employers that need to track the information reported on forms 1095-B and 1095-C in support of the **Employer Mandate** portion of the Affordable Care Act. Note this functionality is only enabled for legal entities in the United States.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 84ed2bfa708664674af781c575cfab35640e7079
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 890d501bf8b111ccd0698372f9df1dd63c2039a0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a><span data-ttu-id="bd67b-103">Ambardaki stok düzeylerini ayarlama (temel ambarlama)</span><span class="sxs-lookup"><span data-stu-id="bd67b-103">Adjust stock levels in the warehouse (basic warehousing)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="bd67b-104">Bu yordam, ürünlerin ambardaki stok düzeylerini ayarlamak için bir stok ayarlama günlüğünü oluşturma ve deftere nakletme işlemini size gösterecektir.</span><span class="sxs-lookup"><span data-stu-id="bd67b-104">This procedure walks you through the process of creating and posting an inventory adjustment journal in order to adjust stock levels of products in the warehouse.</span></span> <span data-ttu-id="bd67b-105">Buna başlamadan önce stok düzeltmeleri için ayarlanmış bir stok günlüğü adı olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="bd67b-105">You need to have an inventory journal name set up for inventory adjustments before you start this.</span></span> <span data-ttu-id="bd67b-106">Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="bd67b-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="bd67b-107">Bu görevler normalde ambar personeli tarafından yerine getirilir.</span><span class="sxs-lookup"><span data-stu-id="bd67b-107">These tasks would normally be carried out by a warehouse employee.</span></span>
 

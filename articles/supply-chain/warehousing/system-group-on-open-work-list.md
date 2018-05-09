@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d9ca6b0d4a9909d419d6241a044336d7a02aea02
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c9ff5df219c5e8b52e3d64d340fd55be7f51919a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="system-grouping-on-an-open-work-list"></a><span data-ttu-id="a1f16-103">Açık bir iş listesinde sistem gruplama</span><span class="sxs-lookup"><span data-stu-id="a1f16-103">System grouping on an open work list</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="a1f16-104">Sistem gruplandırma alanını kullanarak, mobil cihaz menü öğesini düzenlemek zorunda kalmadan bir açık iş listesini filtreleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="a1f16-104">By using a system grouping field, you can filter an open work list without having to edit the mobile device menu item.</span></span>
 <span data-ttu-id="a1f16-105">Bu geçerli olduğunda, sistem gruplandırma, tek bir iş başlığı alanındaki bir iş listesini filtrelemek üzere çalışır.</span><span class="sxs-lookup"><span data-stu-id="a1f16-105">Where it applies, system grouping works for filtering a work list on a single work header field.</span></span> <span data-ttu-id="a1f16-106">Sistem gruplandırmayı satır düzeyindeki alanlarda filtreleme yapmak için kullanamazsınız.</span><span class="sxs-lookup"><span data-stu-id="a1f16-106">You cannot use system grouping to filter on line level fields.</span></span>

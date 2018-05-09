@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bbbdd697a6a79cd2b483414eeb158fabff48d50b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1d26c4996b548fd5d355581f65f3eb078bb45abe
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="prerequisites-for-a-standard-cost-conversion"></a><span data-ttu-id="e08cf-103">Standart maliyet dönüştürme için önkoşullar</span><span class="sxs-lookup"><span data-stu-id="e08cf-103">Prerequisites for a standard cost conversion</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e08cf-104">Bu konuda, standart maliyet dönüştürme yapmadan önce gerçekleştirilecek görevler açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="e08cf-104">This topic discusses tasks to perform before you run a standard cost conversion.</span></span> 
 

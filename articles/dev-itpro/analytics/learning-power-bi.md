@@ -16,16 +16,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ee0cc2e22609d1a87e7d2b6dcd031606191f879
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6a0c1459da8770a8cc880a48483102494feb38bf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="learning-power-bi-content"></a><span data-ttu-id="94771-103">Öğrenme Power BI içeriği</span><span class="sxs-lookup"><span data-stu-id="94771-103">Learning Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="94771-104">Bu konu, **Öğrenme** Microsoft Power BI içeriğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="94771-104">This topic describes the **Learning** Microsoft Power BI content.</span></span>
 

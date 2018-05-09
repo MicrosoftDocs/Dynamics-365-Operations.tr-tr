@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 091185b7c3c10fa177a3d0c9338ae7950c2f6f47
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 48f7b8a7c1bb081b6cdc012ebe3668655b17f174
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="resolve-discrepancies-during-invoice-totals-matching"></a><span data-ttu-id="aa29a-103">Fatura toplamları eşleştirme sırasında uyuşmazlıkları çözümleme</span><span class="sxs-lookup"><span data-stu-id="aa29a-103">Resolve discrepancies during invoice totals matching</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="aa29a-104">Bir fatura doğrulama karşılaştırma türü eşleşen fatura toplamlarıdır.</span><span class="sxs-lookup"><span data-stu-id="aa29a-104">One type of invoice matching validation is invoice totals matching.</span></span> <span data-ttu-id="aa29a-105">Sistemin eşleşen fatura toplamları gerçekleştirmesi gerektiğini belirtmek için **Borç hesapları parametreleri** sayfası **fatura doğrulama** sekmesinde, **fatura toplamları eşleştir** seçeneğini **Evet** olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="aa29a-105">To specify that the system should perform invoice totals matching, on the **Accounts payable parameters** page, on the **Invoice validation** tab, set the **Match invoice totals** option **Yes**.</span></span> 
 

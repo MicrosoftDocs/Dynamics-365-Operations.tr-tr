@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 403e1d3d4c599050f118ab019288784d7782ac2b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b3d685c6f8fbe8ff42eac739d81b8f5863ad8402
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="develop-and-open-a-job-requisition"></a><span data-ttu-id="32658-103">İş talebi geliştirme ve açma</span><span class="sxs-lookup"><span data-stu-id="32658-103">Develop and open a job requisition</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="32658-104">İşe alma projeleri, işe alma işleminin yönetilmesine yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="32658-104">Recruitment projects help manage the recruiting process.</span></span> <span data-ttu-id="32658-105">Her işe alma projesi için işe alınacak iş, işe alanın adı, projenin durumu ve işin bulunduğu departman gibi bilgileri ayarlayabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="32658-105">For each recruitment project, you can set up information, such as the job that recruiting is for, the name of the recruiter, the status of the project and the department that the job will be located in.</span></span> <span data-ttu-id="32658-106">İşe alma projesini oluşturduktan sonra proje için bir iş ilanını yazabilir, ilanı Çalışan self-servis sayfalarında yayımlayabilir, başvuruları projeyle ilişkilendirebilir ve bu projeyle ilgili etkinlikleri izleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="32658-106">After creating a recruitment project, you can write a job advertisement for the project, publish the ad on Employee self-service pages, associate applications for employment with the project, and track activities for that project.</span></span> <span data-ttu-id="32658-107">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="32658-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="32658-108">Yordamı başlatmak için İnsan kaynakları > İşe alma > İşe alma projeleri > İşe alma projeleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="32658-108">To begin the procedure, go to Human resources > Recruitment > Recruitment projects > Recruitment projects</span></span>
 

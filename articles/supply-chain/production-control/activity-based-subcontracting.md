@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d10f62126b54db362408c120fb215be44a18f676
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9be74afb2187ca8638102f09ea79497e228df906
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="activity-based-subcontracting"></a><span data-ttu-id="93906-103">Etkinlik tabanlı alt sözleşme verme</span><span class="sxs-lookup"><span data-stu-id="93906-103">Activity-based subcontracting</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="93906-104">Bu konu, alt sözleşmeli etkinliklerin yalın imalat için üretim akışında nasıl kullanılacağını ayrıntılarıyla açıklar.</span><span class="sxs-lookup"><span data-stu-id="93906-104">This topic describes, in detail, how to use subcontracted activities in a production flow for lean manufacturing.</span></span>
 

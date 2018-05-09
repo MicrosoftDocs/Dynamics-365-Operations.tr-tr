@@ -19,16 +19,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a11a26df85647aa36cd30c42f81be4ec2af4409b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1f24ffbba0c28b241de66f484546844bc72b90c9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="immediate-replenishment"></a><span data-ttu-id="4e001-103">Anlık stok yenileme</span><span class="sxs-lookup"><span data-stu-id="4e001-103">Immediate replenishment</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4e001-104">Anlık stok yenileme bir yerleşim yönergesi satırı stok tahsis etmek için başarısız olduktan hemen sonra stoğu yenilemenize olanak tanır.</span><span class="sxs-lookup"><span data-stu-id="4e001-104">Immediate replenishment lets you replenish inventory immediately after a location directive line fails to allocate inventory.</span></span> <span data-ttu-id="4e001-105">Stok yenileme yerleşim yönergesi kurulumundaki tek bir satırı temel alır.</span><span class="sxs-lookup"><span data-stu-id="4e001-105">The replenishment is based on a single line in the setup of the location directive.</span></span> <span data-ttu-id="4e001-106">Stok bu satır tarafından belirtilen ölçü biriminde elde yoksa, bu ölçü birimi için stok yenileme anında gerçekleştirilir.</span><span class="sxs-lookup"><span data-stu-id="4e001-106">If inventory isn't on hand in the unit of measure that is specified by that line, replenishment of that unit of measure occurs immediately.</span></span>
 

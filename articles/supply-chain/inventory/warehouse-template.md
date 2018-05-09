@@ -20,16 +20,16 @@ ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d2177ddaff8ff6dcef106a008842149c381c00db
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0b54e7f6f4b0dfb994d271aaeb547e27bf03e294
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a><span data-ttu-id="e7cea-103">Ambar yapılandırma şablonu kullanarak bir ambarı ayarlama</span><span class="sxs-lookup"><span data-stu-id="e7cea-103">Set up a warehouse by using a warehouse configuration template</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e7cea-104">Bu konu ambar yapılandırma şablonu kullanarak bir ambarın nasıl ayarlanacağını açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="e7cea-104">This topic explains how to set up a warehouse by using a warehouse configuration template.</span></span> <span data-ttu-id="e7cea-105">Kullanabileceğiniz çeşitli önceden tanımlanmış yapılandırma şablonları bulunur.</span><span class="sxs-lookup"><span data-stu-id="e7cea-105">There are several predefined configuration templates that you can use.</span></span> <span data-ttu-id="e7cea-106">Bu şablonların nasıl kullanılacağı hakkında bilgi için bkz. [Yapılandırma veri şablonları](../../dev-itpro/data-entities/configuration-data-templates.md).</span><span class="sxs-lookup"><span data-stu-id="e7cea-106">For information about how to use these templates, see [Configuration data templates](../../dev-itpro/data-entities/configuration-data-templates.md).</span></span>
 

@@ -20,17 +20,17 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 84cb1b81d1ab6ac1e38b41f7f3f8629415f92926
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: adc77f632fecebc39e818fa38f78071842ec8de4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a><span data-ttu-id="83fd2-103">Standart maliyetler için maliyetlendirme sürümlerindeki kısıtlamalar</span><span class="sxs-lookup"><span data-stu-id="83fd2-103">Restrictions on costing versions for standard costs</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="83fd2-104">Bu konu standart maliyetler için maliyetlendirme sürümüne uygulanan kısıtlamaları açıklar.</span><span class="sxs-lookup"><span data-stu-id="83fd2-104">This topic describes the restrictions that apply to a costing version for standard costs.</span></span> 
 

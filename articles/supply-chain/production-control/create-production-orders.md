@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c572c15f58f1633fe89a8ad8683075fa6b9de6d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d6b35c347aad64a44e827ecb86273f4767d8afd3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-production-orders"></a><span data-ttu-id="8e39c-105">Üretim emirleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="8e39c-105">Create production orders</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="8e39c-106">Üretim emri oluşturulunca, madde imalatını başlatmak için bir talepte bulunulur.</span><span class="sxs-lookup"><span data-stu-id="8e39c-106">When a production order is created, a request is initiated to start producing an item.</span></span> <span data-ttu-id="8e39c-107">Üretim emri neyin ne kadar üretileceği ve planlanan bitiş tarihi hakkındaki bilgileri içerir.</span><span class="sxs-lookup"><span data-stu-id="8e39c-107">The production order contains information about what will be produced, the quantity to produce, and the planned finish date.</span></span> <span data-ttu-id="8e39c-108">Ayrıca, maddeyi üretmek için tüketilecek malzemeler ve izlenecek süreç hakkında bilgiler de içerir.</span><span class="sxs-lookup"><span data-stu-id="8e39c-108">It also contains information about which materials to consume and which process to follow to produce the item.</span></span>
 

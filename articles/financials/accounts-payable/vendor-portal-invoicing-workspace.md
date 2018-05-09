@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 8af424d1a1ce41316008649472c2b8748806c6d6
-ms.openlocfilehash: 0a76417e01b67b493b320973c14e059850ab772e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 823e370aa9fef27dd256c9831a5119b6cd3b6dcf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/25/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-collaboration-invoicing-workspace"></a><span data-ttu-id="43b22-103">Satıcı iş birliği faturalama çalışma alanı</span><span class="sxs-lookup"><span data-stu-id="43b22-103">Vendor collaboration invoicing workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="43b22-104">Bu konuda, satıcı faturalarını görüntüleme ve satıcı iş birliği faturalama çalışma alanından faturaları gönderme açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="43b22-104">This topic explains how you can view vendor invoices and submit invoices from the vendor collaboration invoicing workspace.</span></span>
 

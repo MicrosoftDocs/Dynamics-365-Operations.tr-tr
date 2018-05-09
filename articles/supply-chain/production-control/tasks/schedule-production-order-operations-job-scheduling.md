@@ -16,15 +16,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c9fda708858adb3eeed9bf479936bc3539fb64a4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 690a0d2db67bc7a13adf186e3e9c3b9238932eb0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a><span data-ttu-id="8dad5-103">İşlemler ve iş planlaması olan bir üretim emri planlama</span><span class="sxs-lookup"><span data-stu-id="8dad5-103">Schedule a production order with operations and job scheduling</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8dad5-104">Bu yordam operasyon planlama ve iş planlama ile bir üretim emri planlamaya odaklanır.</span><span class="sxs-lookup"><span data-stu-id="8dad5-104">This procedure focuses on scheduling a production order with operations scheduling and job scheduling.</span></span> <span data-ttu-id="8dad5-105">İşler iş planlama ile oluşturulurken, operasyon planlama ile iş oluşturulmaz.</span><span class="sxs-lookup"><span data-stu-id="8dad5-105">No jobs are created with operations scheduling whereas jobs are created with job scheduling.</span></span> <span data-ttu-id="8dad5-106">Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="8dad5-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="8dad5-107">Bu yordam üretim müdürü, üretim planlayıcısı veya ayrı bir üretim ortamında çalışan atölye gözetmenine yöneliktir.</span><span class="sxs-lookup"><span data-stu-id="8dad5-107">This procedure is intended for the production manager, production planner, or shop floor supervisor working in a discrete manufacturing environment.</span></span>
 

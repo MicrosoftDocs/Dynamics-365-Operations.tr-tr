@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fde6c2b721fc1fa3f224ecb0c9669b1b861633f1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 550e2de01187d889ef968a4ff6828f93bb44a8a1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="monitor-a-master-planning-run"></a><span data-ttu-id="2d1ee-103">Master planlama çalışmasını izleme</span><span class="sxs-lookup"><span data-stu-id="2d1ee-103">Monitor a master planning run</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2d1ee-104">Üretim planlayıcısı, bir master planlama çalışmasının devam edip etmediğini görmek istiyor.</span><span class="sxs-lookup"><span data-stu-id="2d1ee-104">The production planner wants to see if a master planning run is in progress.</span></span> <span data-ttu-id="2d1ee-105">Bu prosedürü tamamlamak için USMF demo veri şirketini kullanın.</span><span class="sxs-lookup"><span data-stu-id="2d1ee-105">Use the demo data company USMF to complete this procedure.</span></span>
 

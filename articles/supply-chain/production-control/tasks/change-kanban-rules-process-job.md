@@ -16,15 +16,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 55498a68b3f03ed8c360b479c6dcbd607a186e13
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 22423af6396a8845687c279f9992f855f73d036a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="change-kanban-rules-for-a-process-job"></a><span data-ttu-id="663cf-103">Süreç işi için kanban kurallarını değiştirme</span><span class="sxs-lookup"><span data-stu-id="663cf-103">Change kanban rules for a process job</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="663cf-104">Bu yordam, belirli bir kanban için kullanılan kanban kuralını değiştirmeye odaklanır.</span><span class="sxs-lookup"><span data-stu-id="663cf-104">This procedure focuses on changing the used kanban rule for a given kanban.</span></span> <span data-ttu-id="663cf-105">Bu, yük kaynaklarını eşitlemek için veya döküm sırasında yararlıdır.</span><span class="sxs-lookup"><span data-stu-id="663cf-105">This is useful to level load resources or in case of breakdown.</span></span> <span data-ttu-id="663cf-106">Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.</span><span class="sxs-lookup"><span data-stu-id="663cf-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="663cf-107">Bu yordam, bir yalın üretim şirketinde çalışan ve değer akışından sorumlu planlayıcı için tasarlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="663cf-107">This procedure is intended for the planner, working at a lean manufacturing company, responsible for the value stream.</span></span>
 

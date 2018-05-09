@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 08a04b3c80aaac25177f92b250e8dc287ae76c28
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6cd4ef72ff88d58d4d10d3451897100212f4b35a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="physical-and-financial-updates"></a><span data-ttu-id="c2080-103">Fiziksel ve mali güncellemeler</span><span class="sxs-lookup"><span data-stu-id="c2080-103">Physical and financial updates</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c2080-104">Bu konu hangi türdeki hareketlerin miktarları arttırdığı veya azalttığına ilişkin genel bir bakış sağlar.</span><span class="sxs-lookup"><span data-stu-id="c2080-104">This topic provides an overview of which types of transactions increase or decrease inventory quantities.</span></span> 
 

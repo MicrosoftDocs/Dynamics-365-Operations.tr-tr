@@ -16,15 +16,15 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a532bdf052bac60c206e509bd00ef5ba082908a9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4ee037fbf166a64f126ee6ffa3fbb8d749daec02
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-an-interest-code-with-a-range"></a><span data-ttu-id="9b818-103">Aralığa sahip faiz kodu oluşturma</span><span class="sxs-lookup"><span data-stu-id="9b818-103">Create an interest code with a range</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9b818-104">Faiz kodları değer aralığına göre farklı faiz tutarlarını hesaplayacak şekilde ayarlanabilir.</span><span class="sxs-lookup"><span data-stu-id="9b818-104">Interest codes can be set up to calculate different interest amounts based on a range of values.</span></span> <span data-ttu-id="9b818-105">Bu yordam, bir faiz kodunun nasıl ekleneceğini ve ona nasıl bir aralık ekleneceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="9b818-105">This procedure will show you how to add an interest code and add a range to it.</span></span>
 

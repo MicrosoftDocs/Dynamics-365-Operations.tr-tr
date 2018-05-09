@@ -16,16 +16,16 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6cc5c5b8dc60e3807a535b0d40e68200fb4da165
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c0edefb59e656222f08e5db889252a84e40b9839
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a><span data-ttu-id="a1d5a-103">Borç hesapları fatura eşleştirme doğrulaması ayarlama</span><span class="sxs-lookup"><span data-stu-id="a1d5a-103">Set up accounts payable invoice matching validation</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a1d5a-104">Bu kayıtta USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="a1d5a-104">This recording uses the USMF demo company.</span></span> <span data-ttu-id="a1d5a-105">Bu adımları borç hesapları yöneticisi veya muhasebe müdürü rolü gerçekleştirir.</span><span class="sxs-lookup"><span data-stu-id="a1d5a-105">The accounts payable manager or accounting manager role would perform these steps.</span></span> <span data-ttu-id="a1d5a-106">Başlamadan önce Fatura eşleştirme yapılandırma anahtarının seçildiğinden emin olun.</span><span class="sxs-lookup"><span data-stu-id="a1d5a-106">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span> <span data-ttu-id="a1d5a-107">Tüzel kişilik navlun vb. gibi masrafları giderleri kullanarak takip ediyorsa, Masraflar yapılandırma anahtarının seçili olduğundan emin olun.</span><span class="sxs-lookup"><span data-stu-id="a1d5a-107">If your legal entity tracks expenses, such as freight, by using charges, make sure that the Charges configuration key is selected.</span></span>  <span data-ttu-id="a1d5a-108">Borç hesapları faturası eşleştirme, satıcı faturasını, satın alma siparişini ve ürün alındı bilgilerini eşleştirme işlemidir.</span><span class="sxs-lookup"><span data-stu-id="a1d5a-108">Accounts payable invoice matching is the process of matching vendor invoice, purchase order, and product receipt information.</span></span> <span data-ttu-id="a1d5a-109">Bu belgelerin aralarındaki farklara eşleştirme uyuşmazlıkları denir.</span><span class="sxs-lookup"><span data-stu-id="a1d5a-109">Differences among these documents are called matching discrepancies.</span></span> <span data-ttu-id="a1d5a-110">Eşleştirme uyuşmazlıkları, belirtilen toleranslarla karşılaştırılır.</span><span class="sxs-lookup"><span data-stu-id="a1d5a-110">Matching discrepancies are compared with the tolerances that are specified.</span></span> <span data-ttu-id="a1d5a-111">Bir eşleştirme uyuşmazlığı tolerans yüzdesini veya tutarını aşarsa, Satıcı faturası formunda ve Fatura eşleştirme ayrıntıları formunda eşleşme farkı simgeleri görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="a1d5a-111">If a matching discrepancy exceeds the tolerance percentage or amount, match variance icons are displayed in the Vendor invoice form and in the Invoice matching details form.</span></span>
 

@@ -20,16 +20,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 08b513609306bd4604cc910560324d87105afbf9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c52d92b08c2832541fbebe2bf14c942bb79b1540
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="reconcile-freight-in-transportation-management"></a><span data-ttu-id="3bc73-103">Navlun taşımacılık yönetiminde mutabakat sağlama</span><span class="sxs-lookup"><span data-stu-id="3bc73-103">Reconcile freight in transportation management</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="3bc73-104">Bu makalede navlun mutabakatı işlemi anlatılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="3bc73-104">This article describes the freight reconciliation process.</span></span>
 

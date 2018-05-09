@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5885e90786c15542997deb8fcea7038a39bd0bec
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 93af0f064cdabc31a83ca586e731d8c0359b8854
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-journal-entry-using-a-template"></a><span data-ttu-id="4072f-103">Şablon kullanarak yevmiye defteri girişi oluşturma</span><span class="sxs-lookup"><span data-stu-id="4072f-103">Create a journal entry using a template</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4072f-104">Deftere nakledilen günlük fişleri Fiş şablonu olarak kaydedilebilir ve yeni bir günlük fişine uygulanabilir.</span><span class="sxs-lookup"><span data-stu-id="4072f-104">Posted journal vouchers can be saved as Voucher templates and applied in a new journal voucher.</span></span> <span data-ttu-id="4072f-105">Bu yordam, USMF demo şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="4072f-105">This procedure uses the USMF demo company.</span></span>
 

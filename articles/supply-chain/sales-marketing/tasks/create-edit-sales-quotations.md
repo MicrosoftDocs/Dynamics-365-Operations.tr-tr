@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bdb4758c80cb0212f0b58595c99b8fa2f715fecf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 84b67bc0216ca5af61b4d93260ca392a8ffd7209
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-edit-sales-quotations"></a><span data-ttu-id="51ec2-103">Satış teklifleri oluşturma ve düzenleme</span><span class="sxs-lookup"><span data-stu-id="51ec2-103">Create and edit sales quotations</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="51ec2-104">Bu yordam, bir satış teklifinin nasıl oluşturulacağını ve güncelleştirileceğini göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="51ec2-104">This procedure demonstrates how to create and update a sales quotation.</span></span> <span data-ttu-id="51ec2-105">Bu yordamı, kendi verilerinizle veya USMF demo verisi şirketin çalıştırabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="51ec2-105">You can run this procedure on your own data or in demo data company USMF.</span></span>
 

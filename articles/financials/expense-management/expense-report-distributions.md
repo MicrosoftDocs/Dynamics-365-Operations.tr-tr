@@ -18,16 +18,16 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0f3f50061fc5b9b4cfc00000492840061fc3b386
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8c3eccb686f5577cd55d7ed31e6f1adf3456096a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="distributions-on-an-expense-report"></a><span data-ttu-id="de2ea-103">Gider raporundaki dağıtımlar</span><span class="sxs-lookup"><span data-stu-id="de2ea-103">Distributions on an expense report</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="de2ea-104"> Giderler üzerinde bir gider raporunu girdiğinizde, gideri birden fazla proje, mali boyutlar veya kuruluşunuzdaki hesaplara dağıtabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="de2ea-104">When you enter expenses on an expense report, you can distribute the expense across multiple projects, financial dimensions, or accounts in your organization.</span></span>
 

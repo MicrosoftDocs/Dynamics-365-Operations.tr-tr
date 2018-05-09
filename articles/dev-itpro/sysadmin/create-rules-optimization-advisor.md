@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 943239c7d57b4a438c405f1ad0551db29d7a8145
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e78427dacb0d2adfd0334115581d5a5a9cfd2921
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-rules-for-optimization-advisor"></a><span data-ttu-id="1a442-103">En iyi duruma getirme danışmanı için kurallar oluşturma</span><span class="sxs-lookup"><span data-stu-id="1a442-103">Create rules for Optimization advisor</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1a442-104">Bu konu **En iyi duruma getirme danışmanı** için nasıl yeni kurallar oluşturulacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="1a442-104">This topic explains how to create new rules for **Optimization advisor**.</span></span> <span data-ttu-id="1a442-105">Örneğin, hangi Teklif Talebi (RFQ) servis taleplerinin boş bir başlığı olacağını tanımlayan yeni bir kural oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1a442-105">For example, you can create a new rule that identifies which Request for Quotations (RFQ) cases have an empty title.</span></span> <span data-ttu-id="1a442-106">Servis taleplerinde başlıklar kullanmak bunların kolayca tanımlanabilmesini ve aranabilmesini sağlar.</span><span class="sxs-lookup"><span data-stu-id="1a442-106">Using titles on cases makes them easily identifiable and searchable.</span></span> <span data-ttu-id="1a442-107">Bu örnek son derece basit olmakla birlikte en iyi durumu getirme kuralları ile nelerin elde edilebileceğini gösterir.</span><span class="sxs-lookup"><span data-stu-id="1a442-107">While quite simple, this example shows what can be achieved with optimization rules.</span></span> 
 

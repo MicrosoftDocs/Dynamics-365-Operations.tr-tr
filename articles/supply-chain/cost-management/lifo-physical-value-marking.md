@@ -20,18 +20,18 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2ba1919254ffa7d08076379f5e034952d8273328
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5e66335a6cf0e7b7b73033a51b727611e4869d33
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="lifo-with-physical-value-and-marking"></a><span data-ttu-id="a8987-104">Fiziksel değer ve işaretleme ile LIFO</span><span class="sxs-lookup"><span data-stu-id="a8987-104">LIFO with physical value and marking</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="a8987-105">Son Giren İlk Çıkar (LIFO), son (en yeni) girişlerin en önce çıkarıldığı bir stok modelidir.</span><span class="sxs-lookup"><span data-stu-id="a8987-105">Last in, First out (LIFO) is an inventory model in which the last (newest) receipts are issued first.</span></span> <span data-ttu-id="a8987-106">Stok çıkışları, stok hareketinin tarihine dayalı olarak son son girişlerine göre kapatılır.</span><span class="sxs-lookup"><span data-stu-id="a8987-106">Issues from inventory are settled against the last receipts into inventory based on the date of the inventory transaction.</span></span> 
 

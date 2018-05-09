@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: fbd5335f64865dfe6122d88b3bc45ec614fc0677
-ms.openlocfilehash: c01a8f0106ee1181e973da50d428b8fc5e6e5a06
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4befe02a59d0d617f80174e6c7fbcf00db95adb2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="1a252-103">Microsoft Dynamics 365 for Talent işlevselliğini genişletme</span><span class="sxs-lookup"><span data-stu-id="1a252-103">Extend the functionality of Microsoft Dynamics 365 for Talent</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="1a252-104">Herhangi bir Microsoft PowerApps oluşturduysanız, bu uygulamaları Microsoft Dynamics 365 for Talent içindeki bağlantılardan başlatabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="1a252-104">If you’ve created any Microsoft PowerApps, you can start those applications from links within Microsoft Dynamics 365 for Talent.</span></span> <span data-ttu-id="1a252-105">Uygulamalarınıza erişim ayarlamak için, Talent içinde bazı bilgileri **Sistem yönetimi** çalışma alanından açabileceğiniz bir yapılandırma sayfasında ayarlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="1a252-105">To set up access to your applications, you’ll need to set up some information in Talent on a configuration page that you can open from the **System administration** workspace.</span></span>
 

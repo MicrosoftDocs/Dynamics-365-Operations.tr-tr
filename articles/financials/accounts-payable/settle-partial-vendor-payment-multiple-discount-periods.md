@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 605f681a21b769189770d85e4ec938b6708c01b1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 87cc2d65d15a1914550825b9f0e7a4a2db6f31f9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a><span data-ttu-id="fcb0e-103">Birden fazla iskonto dönemi olan bir kısmi satıcı ödemesini kapatma</span><span class="sxs-lookup"><span data-stu-id="fcb0e-103">Settle a partial vendor payment that has multiple discount periods</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="fcb0e-104">Bu makalede, birden fazla nakit indirimi öneren bir satıcıya birden fazla kısmi ödemenin yapıldığı bir senaryo açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="fcb0e-104">This article walks you through a scenario where multiple partial payments are made to a vendor that offers multiple cash discounts.</span></span> 
 

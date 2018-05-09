@@ -18,16 +18,16 @@ ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8724f33176b4ff7730cd9d15e825bab794a10ac6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b6cdb69f32de2118e685c149605d50b78105c098
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-controlling-mobile-workspace"></a><span data-ttu-id="bbee2-104">Mobil çalışma alanının maliyet denetimi</span><span class="sxs-lookup"><span data-stu-id="bbee2-104">Cost controlling mobile workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="bbee2-105">Bu konu, **Maliyet denetleme** mobil çalışma alanı hakkında bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="bbee2-105">This topic provides information about the **Cost controlling** mobile workspace.</span></span> <span data-ttu-id="bbee2-106">Bu çalışma alanı, maliyet merkezi yöneticilerinin maliyet merkezi performansı hakkındaki bilgileri her zaman ve her yerde görebilmelerini sağlar.</span><span class="sxs-lookup"><span data-stu-id="bbee2-106">This workspace lets cost center managers view information about cost center performance anytime and anywhere.</span></span>
 

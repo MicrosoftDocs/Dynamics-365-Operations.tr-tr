@@ -18,16 +18,16 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5e6392091e90b1eaf48ddf61a6328d0863b1a9bd
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 31af0098f67b9528dba3391e15263f5c991da394
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configuration-keys-and-data-entities"></a><span data-ttu-id="140c3-103">Yapılandırma anahtarları ve veri varlıkları</span><span class="sxs-lookup"><span data-stu-id="140c3-103">Configuration keys and data entities</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="140c3-104">Verileri içe veya dışa aktarmak için veri varlıklarını kullanmadan önce öncelikle yapılandırma anahtarlarının kullanmayı planladığınız veri varlıkları üzerindeki etkisini belirlemenizi öneririz.</span><span class="sxs-lookup"><span data-stu-id="140c3-104">Before you use data entities to import or export data, we recommended that you first determine the impact of configuration keys on the data entities that you are planning to use.</span></span> 
 

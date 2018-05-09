@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3571726fd3603371b8e1daec7d6ebe85d72d280d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 10e6e88ca8e03c75896d0b9d43afad129d2cb1c8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-posting-profiles"></a><span data-ttu-id="cab3f-103">Satıcı deftere nakil profilleri</span><span class="sxs-lookup"><span data-stu-id="cab3f-103">Vendor posting profiles</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="cab3f-104">Satıcı deftere nakil profilleri, satıcı hareketlerinin genel muhasebeye naklini kontrol eder.</span><span class="sxs-lookup"><span data-stu-id="cab3f-104">Vendor posting profiles control the posting of vendor transactions to the general ledger.</span></span>
 

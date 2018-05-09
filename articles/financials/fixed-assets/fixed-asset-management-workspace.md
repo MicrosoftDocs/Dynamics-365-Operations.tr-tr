@@ -18,16 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2b07f9d971dc152e9168b9867e70c59481325284
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 70c7f7a9ca119abbfedf8e09e9994b2a904dc421
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fixed-asset-management-workspace"></a><span data-ttu-id="53a1f-105">Sabit kıymet yönetim çalışma alanı</span><span class="sxs-lookup"><span data-stu-id="53a1f-105">Fixed asset management workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="53a1f-106">**Sabit kıymet yönetimi** çalışma alanı, sisteme girilen sabit kıymetlerle ilgili bilgileri gösterir.</span><span class="sxs-lookup"><span data-stu-id="53a1f-106">The **Fixed asset management** workspace shows information that is related to fixed assets that are entered in the system.</span></span> <span data-ttu-id="53a1f-107">Bu çalışma alanı bir özet görünümü ve bir analiz görünümü içerir.</span><span class="sxs-lookup"><span data-stu-id="53a1f-107">This workspace includes a summary view and an analytics view.</span></span> <span data-ttu-id="53a1f-108">**İşim** sekmesi özet kutucuklarını, sabit kıymet ayrıntılarını ve geçerli şirketteki sabit kıymetler ile ilgili bilgileri gösterir.</span><span class="sxs-lookup"><span data-stu-id="53a1f-108">The **My work** tab shows summary tiles, fixed asset details, and related information about fixed assets in the current company.</span></span> <span data-ttu-id="53a1f-109">Ayrıca, Power BI analizler bölümüne analizleri doğrudan çalışma alanı içinden ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="53a1f-109">You can also add analytics to the Power BI analytics section directly in the workspace.</span></span> <span data-ttu-id="53a1f-110">**Analizler – tüm şirketler** sekmesi, tüm şirketlerle ilişkili sabit kıymetlerin görsellerini göstermek için Microsoft Power BI yeterliklerini kullanır.</span><span class="sxs-lookup"><span data-stu-id="53a1f-110">The **Analytics – all companies** tab uses capabilities of Microsoft Power BI to show visuals that are related to fixed assets in all companies.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 11e506c41eb5e8d5bd28db8e6d5ca51ff9e72a62
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ae594d55b1a14ab4e832658aaa12165f1be2b303
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-work-class"></a><span data-ttu-id="d8a25-103">İş sınıfı oluşturma</span><span class="sxs-lookup"><span data-stu-id="d8a25-103">Create a work class</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d8a25-104">Bu yordam, iş sınıfı kurmayı göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="d8a25-104">This procedure shows you how to set up a work class.</span></span> <span data-ttu-id="d8a25-105">İş sınıfları, ambar çalışanı tarafından bir mobil aygıtta işlenebilecek iş emri satırlarının türünü yönetmek ve/veya sınırlamak için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="d8a25-105">Work classes are used to direct and/or limit the type of work order lines that a warehouse worker can process on a mobile device.</span></span> <span data-ttu-id="d8a25-106">Çalışanın işleyebileceği satırlar, çalışanın erişimi olan mobil cihaz menü öğeleri üzerindeki iş sınıfları ve iş satırı üzerinde belirlenen iş sınıfı tarafından belirlenir.</span><span class="sxs-lookup"><span data-stu-id="d8a25-106">The lines that a worker can process are determined from the work classes on the mobile device menu items that the warehouse worker has access to and the work class that’s specified on the work lines.</span></span> <span data-ttu-id="d8a25-107">İş sınıfları, iş emri satırı için yerine koyma konumunu doğrulamak için de kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="d8a25-107">Work classes can also be used to validate the put location for a work order line.</span></span> <span data-ttu-id="d8a25-108">Bu prosedürü demo veri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="d8a25-108">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="d8a25-109">Bu yordam ambar yöneticisi için hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="d8a25-109">This procedure is intended for the warehouse manager.</span></span>
 

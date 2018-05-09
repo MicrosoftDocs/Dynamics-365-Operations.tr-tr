@@ -20,16 +20,16 @@ ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 16c6603ee6b4ed6cdd002adf516eeaf876ce7bb9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4a499c6a83874578a41e1b799a0b5be531987012
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a><span data-ttu-id="60411-103">Retail Modern POS için resimleri ayarlama ve yönetme</span><span class="sxs-lookup"><span data-stu-id="60411-103">Set up and manage images for Retail Modern POS</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="60411-104">Bu makalede, Retail Modern POS'ta (MPOS) görüntülenen çeşitli varlıklar için resimlerin ayarlanmasını ve yönetilmesini sağlayan adımlar açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="60411-104">This article explains the steps that are involved in setting up and managing images for the various entities that appear in Retail Modern POS (MPOS).</span></span>
 

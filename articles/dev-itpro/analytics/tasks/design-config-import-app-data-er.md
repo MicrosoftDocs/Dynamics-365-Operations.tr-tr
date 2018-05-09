@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9da0adc848f334e5044c1629a403b6daac2dc639
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bb8477eba19b536c77296f235fc93280b9982518
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a><span data-ttu-id="ae467-103">Uygulama veri güncelleştirmeleri için gelen belgeleri ayrıştırmak için yapılandırmalar tasarlama (ER)</span><span class="sxs-lookup"><span data-stu-id="ae467-103">Design configurations to parse incoming documents for application data updates (ER)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ae467-104">Bu yordam gelen elektronik belgeyi ayrıştırmak için Elektronik raporlama (ER) yapılandırmalarının nasıl kullanılacağını açıklar.</span><span class="sxs-lookup"><span data-stu-id="ae467-104">This procedure shows how to design Electronic reporting (ER) configurations to parse an incoming electronic document.</span></span> <span data-ttu-id="ae467-105">Bu yordamda, örnek şirket Litware, Inc. için oluşturulan gerekli ER yapılandırmalarını içe aktaracak ve bunları gelen elektronik belgeleri ayrıştırmak için kullanacaksınız.</span><span class="sxs-lookup"><span data-stu-id="ae467-105">In this procedure, you will import the required ER configurations that have been created for the sample company, Litware, Inc. and use them for parsing incoming electronic documents.</span></span> <span data-ttu-id="ae467-106">Bu yordamdaki adımları tamamlamak için, ilk olarak "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamını tamamlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="ae467-106">To complete the steps in this procedure, you must first complete the procedure, “ER Create a configuration provider and mark it as active.”</span></span>
 

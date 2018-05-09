@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6d19c904ca7d974a8f80eebe7d237bede080c8f6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5a514d7d524c055b3fe37df524186c55a26fb233
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="approve-a-product-configuration-model"></a><span data-ttu-id="dbdc1-103">Ürün yapılandırma modelini onaylama</span><span class="sxs-lookup"><span data-stu-id="dbdc1-103">Approve a product configuration model</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="dbdc1-104">Bu yordamın çalıştırılması için kullanılabilir en az bir ürün yapılandırma modeli olması gerekir.</span><span class="sxs-lookup"><span data-stu-id="dbdc1-104">Running this procedure requires that at least one product configuration model is available.</span></span> <span data-ttu-id="dbdc1-105">Bu yordam, USMF demo verisi şirketindeki son teknoloji hoparlör modelini kullanılır.</span><span class="sxs-lookup"><span data-stu-id="dbdc1-105">This procedure uses the High end speaker model in the demo data company USMF.</span></span> <span data-ttu-id="dbdc1-106">Bu modelin önceden onaylandığını unutmayın; yordam yine de tüm işlemi adım adım açıklar.</span><span class="sxs-lookup"><span data-stu-id="dbdc1-106">Note that this model has already been approved, but the procedure walks you through the entire process.</span></span>
 

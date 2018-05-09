@@ -19,16 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ad4212584b0f9062edbd5c13f4c75eaa03c853f7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 28b972720bcc566cf0cd52dc8cb645562c61c2ae
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="postdated-checks"></a><span data-ttu-id="89108-105">İleri tarih atılmış çekler</span><span class="sxs-lookup"><span data-stu-id="89108-105">Postdated checks</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="89108-106">Bu makale, Microsoft Dynamics 365 for Finance and Operations'ta ileri tarih atılmış çeklere verilen destek hakkında bilgiler sağlar.</span><span class="sxs-lookup"><span data-stu-id="89108-106">This article provides information about support for postdated checks in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="89108-107">İleri tarih atılmış çekler, ileri bir tarihte ödeme yapmak veya almak için kesilen çeklerdir.</span><span class="sxs-lookup"><span data-stu-id="89108-107">Postdated checks are checks that are issued to make and receive payments on a future date.</span></span> <span data-ttu-id="89108-108">Bu nedenle, çek belirtilen tarihe kadar nakde çevrilemez.</span><span class="sxs-lookup"><span data-stu-id="89108-108">Therefore, the check can't be cashed until the specified date.</span></span>
 

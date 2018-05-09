@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d67ca0f21388630ca7875b0cb647195a8344b80e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 756fb0df430d8e4139eb266eb6b5776af91eb7fe
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-main-account-categories"></a><span data-ttu-id="026ba-103">Ana hesap kategorilerini ayarlama</span><span class="sxs-lookup"><span data-stu-id="026ba-103">Set up main account categories</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="026ba-104">Ana hesap kategorileri, finansal raporlamada ve Power BI'da varsayılan raporlar için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="026ba-104">Main account categories are used for the default reports in financial reporting and in Power BI.</span></span> <span data-ttu-id="026ba-105">Varsayılan olarak oluşturulan ana hesap kategorileri yeniden adlandırılabilir ancak silinemez.</span><span class="sxs-lookup"><span data-stu-id="026ba-105">Main account categories that are created by default can be renamed but not deleted.</span></span> <span data-ttu-id="026ba-106">Ek hesap kategorileri raporlama ve çözümleme amacıyla oluşturulabilir ve kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="026ba-106">Additional account categories can be created and used for reporting and analysis purposes.</span></span> <span data-ttu-id="026ba-107">Bu görevde USMF demo şirketi kullanılmaktadır.</span><span class="sxs-lookup"><span data-stu-id="026ba-107">This task uses the USMF demo company.</span></span>
 

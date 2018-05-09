@@ -18,16 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: dfba6a237548d962bd3677d20da3745f59638ede
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7093023713a81980010b8254708801b58bc68475
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="depreciation-book-upgrade-overview"></a><span data-ttu-id="9c995-105">Amortisman defteri yükseltme genel bakışı</span><span class="sxs-lookup"><span data-stu-id="9c995-105">Depreciation book upgrade overview</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9c995-106">Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri olmak üzere iki değerleme kavramı vardı.</span><span class="sxs-lookup"><span data-stu-id="9c995-106">In previous releases, there were two valuation concepts for fixed assets -  value models and depreciation books.</span></span> <span data-ttu-id="9c995-107">Microsoft Dynamics 365 for Operations (1611) ile, değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir.</span><span class="sxs-lookup"><span data-stu-id="9c995-107">In Microsoft Dynamics 365 for Operations (1611), the value model functionality and depreciation book functionality have been merged into a single concept that is known as a book.</span></span> <span data-ttu-id="9c995-108">Bu konu yükseltme işleminde dikkate alınması gereken bazı noktaları ele alır.</span><span class="sxs-lookup"><span data-stu-id="9c995-108">This topic provides some things to consider for the upgrade.</span></span> 
 
@@ -62,24 +62,24 @@ ms.lasthandoff: 04/13/2018
 <span data-ttu-id="9c995-145">Parametreler ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans sınıfının başında yer alır.</span><span class="sxs-lookup"><span data-stu-id="9c995-145">The parameters are located at the beginning of the ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans class.</span></span> 
 
 <span data-ttu-id="9c995-146">*// Fiş tahsisatı için tercih edilebilir yaklaşım belirtin* 
-*// true, mevcut bir numara serisi kodu kullanmak istiyorsanız* 
-*// false, sistem tarafından tanımlanan numara serisini (varsayılan) kullanmaya niyetliyseniz* const boolean NumberSequenceUseExistingCode = false;</span><span class="sxs-lookup"><span data-stu-id="9c995-146">*// Specify a preferable approach of vouchers allocation* 
-*// true, if you want to use an existing number sequence code* 
-*// false, if you intend to use the system-defined number sequence (default)* const boolean NumberSequenceUseExistingCode = false;</span></span>  
+ *// true, mevcut bir numara serisi kodu kullanmak istiyorsanız* 
+ *// false, sistem tarafından tanımlanan numara serisini (varsayılan) kullanmaya niyetliyseniz* const boolean NumberSequenceUseExistingCode = false;</span><span class="sxs-lookup"><span data-stu-id="9c995-146">*// Specify a preferable approach of vouchers allocation* 
+ *// true, if you want to use an existing number sequence code* 
+ *// false, if you intend to use the system-defined number sequence (default)* const boolean NumberSequenceUseExistingCode = false;</span></span>  
 
 <span data-ttu-id="9c995-147">*// Sistem tarafından tanımlanan numara serisi yaklaşımını kullanırsanız, numara serisi için parametreleri belirtin.*
-*// Bu parametrelerle yeni bir numara serisi oluşturulur.*</span><span class="sxs-lookup"><span data-stu-id="9c995-147">*// If using the system-defined number sequence approach, specify the parameters for the number sequence.*
-*// A new number sequence will be created with these parameters.*</span></span> <span data-ttu-id="9c995-148">const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;</span><span class="sxs-lookup"><span data-stu-id="9c995-148">const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;</span></span>   
+ *// Bu parametrelerle yeni bir numara serisi oluşturulur.*</span><span class="sxs-lookup"><span data-stu-id="9c995-147">*// If using the system-defined number sequence approach, specify the parameters for the number sequence.*
+ *// A new number sequence will be created with these parameters.*</span></span> <span data-ttu-id="9c995-148">const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;</span><span class="sxs-lookup"><span data-stu-id="9c995-148">const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;</span></span>   
 
 <span data-ttu-id="9c995-149">*// Mevcut numara serisi yaklaşımını kullanıyorsanız, mevcut numara serisi kodunu belirtin.* 
-*// Fiş tahsisatı mevcut numara serileri için satır satır gidecektir.*</span><span class="sxs-lookup"><span data-stu-id="9c995-149">*// If using the existing number sequence approach, specify the existing number sequence code.* 
-*// Voucher allocation will go row-by-row for existing number sequences.*</span></span> <span data-ttu-id="9c995-150">const str NumberSequenceExistingCode = ''; *// Mevcut numara serisi kodunun kapsamını belirtin* 
-*// true, belirtilen numara serisi paylaşımlıysa* 
-*// false, belirtilen numara serisi şirket başına ise* 
-*// Varsayılan sistem tanımlı numara serisi, belirtilen kapsama sahip bir numara serisi kodu bulunmazsa kullanılacaktır.*</span><span class="sxs-lookup"><span data-stu-id="9c995-150">const str NumberSequenceExistingCode = ''; *// Specify the scope of the existing number sequence code* 
-*// true, if the specified number sequence is shared* 
-*// false, if the specified number sequence is per-company* 
-*// The default system-defined number sequence will be used if a number sequence code with the specified scope is not found.*</span></span> <span data-ttu-id="9c995-151">const boolean NumberSequenceExistingIsShared = true;</span><span class="sxs-lookup"><span data-stu-id="9c995-151">const boolean NumberSequenceExistingIsShared = true;</span></span> 
+ *// Fiş tahsisatı mevcut numara serileri için satır satır gidecektir.*</span><span class="sxs-lookup"><span data-stu-id="9c995-149">*// If using the existing number sequence approach, specify the existing number sequence code.* 
+ *// Voucher allocation will go row-by-row for existing number sequences.*</span></span> <span data-ttu-id="9c995-150">const str NumberSequenceExistingCode = ''; *// Mevcut numara serisi kodunun kapsamını belirtin* 
+ *// true, belirtilen numara serisi paylaşımlıysa* 
+ *// false, belirtilen numara serisi şirket başına ise* 
+ *// Varsayılan sistem tanımlı numara serisi, belirtilen kapsama sahip bir numara serisi kodu bulunmazsa kullanılacaktır.*</span><span class="sxs-lookup"><span data-stu-id="9c995-150">const str NumberSequenceExistingCode = ''; *// Specify the scope of the existing number sequence code* 
+ *// true, if the specified number sequence is shared* 
+ *// false, if the specified number sequence is per-company* 
+ *// The default system-defined number sequence will be used if a number sequence code with the specified scope is not found.*</span></span> <span data-ttu-id="9c995-151">const boolean NumberSequenceExistingIsShared = true;</span><span class="sxs-lookup"><span data-stu-id="9c995-151">const boolean NumberSequenceExistingIsShared = true;</span></span> 
 
 <span data-ttu-id="9c995-152">Sabitler değiştirildikten sonra sınıfı içeren projeyi yeniden oluşturun.</span><span class="sxs-lookup"><span data-stu-id="9c995-152">Rebuild the project that contains the class after the constants have been modified.</span></span> 
 
