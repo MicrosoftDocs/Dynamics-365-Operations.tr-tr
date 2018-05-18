@@ -18,29 +18,29 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 881b44f1128e732bc768191088e19efc38552eca
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 19ba20ce16c9916e09b862b0ebedbf68259c7769
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-management-home-page"></a>Mali yönetim giriş sayfası
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 for Finance and Operations'ın mali yönetim özellikleri için yardım konularının ve diğer kaynakların bir listesini sağlar. 
 
 Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
-- [Borç hesapları](accounts-payable\accounts-payable.md) 
-- [Alacak hesapları](accounts-receivable\accounts-receivable.md) 
-- [Nakit ve banka yönetimi](cash-bank-management\cash-bank-management.md)
-- [Maliyet muhasebesi](cost-accounting\cost-accounting-home-page.md)
-- [Sabit kıymetler](fixed-assets\fixed-assets.md)
-- [Genel muhasebe](general-ledger\general-ledger.md) 
-- [Proje yönetimi](project-management\overview-project-management-accounting.md)
-- [Kamu sektörü](public-sector\public-sector-functionality.md) 
-- [Bütçeleme](budgeting\budgeting-overview.md) 
+- [Borç hesapları](accounts-payable/accounts-payable.md) 
+- [Alacak hesapları](accounts-receivable/accounts-receivable.md) 
+- [Nakit ve banka yönetimi](cash-bank-management/cash-bank-management.md)
+- [Maliyet muhasebesi](cost-accounting/cost-accounting-home-page.md)
+- [Sabit kıymetler](fixed-assets/fixed-assets.md)
+- [Genel muhasebe](general-ledger/general-ledger.md) 
+- [Proje yönetimi](project-management/overview-project-management-accounting.md)
+- [Kamu sektörü](public-sector/public-sector-functionality.md) 
+- [Bütçeleme](budgeting/budgeting-overview.md) 
 
 
 

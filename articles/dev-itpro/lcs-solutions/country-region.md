@@ -18,18 +18,18 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c925b2e996f51b8c5d5332217643c3155cfc03c0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Yerelleştirme ve mevzuat özellikleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations'ta, [Uluslararası ürün bulunabilirliği kılavuzu](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf)'nda belirtilen ülkeler/bölgelere yönelik işlevler bulunur. Bu işlev, etkin tüzel kişiliğin birincil adresi esas alınarak etkinleştirilir. 
+Microsoft Dynamics 365 for Finance and Operations'ta, [Uluslararası ürün bulunabilirliği kılavuzu](http://download.microsoft.com/documents/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf)'nda belirtilen ülkeler/bölgelere yönelik işlevler bulunur. Bu işlev, etkin tüzel kişiliğin birincil adresi esas alınarak etkinleştirilir. 
 
 Bu konu, ülkeye/bölgeye özgü çözümler, güncelleştirmeler, uyarılar ve işlevler hakkında daha fazla bilgi edinmenize yardımcı olabilecek kaynakların listesini içerir. 
 
@@ -247,7 +247,7 @@ Aşağıdaki bölümler ülkeye/bölgeye göre kaynaklarını listeler.
 
 -   [DIOT beyanname raporu](../../financials/localizations/latam-mex-diot-declaration-statement.md)
 -   [Elektronik genel muhasebe ekstreleri](../../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md)
--   [Enflasyon ayarlaması beyanname raporu](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
+-   [Enflasyon ayarı beyanname raporu](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
 -   [ISR beyanname raporu](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
 -   [Elektronik faturalar (CFDI)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
 

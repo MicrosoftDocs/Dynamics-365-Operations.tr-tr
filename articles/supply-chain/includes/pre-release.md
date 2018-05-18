@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Bu özellik yalnızca Dynamics 365 for Finance and Operations sürüm 8.0'da ve platform güncelleştirmeleri için Continuous Auto-update Advantage Program (CAAP) kullanmayı tercih eden hedeflenmiş kullanıcılar tarafından kullanılabilir. Standart ve hedeflenen sürümler hakkında daha fazla bilgi için bkz. [Standart ve hedeflenen platform sürümleri](../../fin-and-ops/get-started/public-preview-releases.md).
+> Bu özellik Platform update 15 (7.0.4841) veya üstünde kullanılabilir. Bu güncelleştirme şu anda belirli müşterilere sağlanmaktadır ve Haziran 2018'de tüm kullanıcıların kullanımına sunulacaktır.
