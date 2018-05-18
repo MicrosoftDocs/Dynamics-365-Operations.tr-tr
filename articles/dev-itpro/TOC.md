@@ -10,7 +10,12 @@
 ## [Değerlendirme kopyası alma](dev-tools/get-evaluation-copy.md)
 ## [Bir aboneliğe kaydolma](dev-tools/sign-up-preview-subscription.md)
 ## [Bir geliştirme ortamını dağıtma ve ortama erişme](dev-tools/access-instances.md)
-## [Geliştirme sistemi gereksinimleri](dev-tools/development-system-requirements.md)
+### [Geliştirici VM'si yapılandırma](dev-tools/configure-developer-vm.md)
+### [Bir geliştirme makinesinde yeni kullanıcı oluşturma](dev-tools/enable-development-machine.md)
+### [Yönetici erişimine izin vermeyen VM'lerde geliştirme ve oluşturmaya ilişkin SSS](sysadmin/VMs-no-admin-access.md)
+### [Visual Studio Team Services'a erişim sağlamak için yerel bir ortamı yeniden adlandırma](migration-upgrade/vso-machine-renaming.md)
+### [Geliştirme sistemi gereksinimleri](dev-tools/development-system-requirements.md)
+## [Sürüm denetimi, meta veri arama ve gezinme](dev-tools/version-control-metadata-navigation.md)
 ## Filo Yönetimi örnek uygulaması
 ### [Filo Yönetimi örnek uygulaması](dev-tools/fleet-management-sample.md)
 ### [Filo Yönetimi örnek uygulamasına genel bakış](dev-tools/introduction-fleet-management-sample.md)
@@ -22,7 +27,8 @@
 ### [Oluşturma işlemleri](dev-tools/build-operations.md)
 ### [Kod düzenleyici](dev-tools/code-editor.md)
 ### [Model ve veri modeli öğeleri oluşturma](dev-tools/create-data-model-elements.md)
-### [Bir geliştirme makinesinde yeni kullanıcı oluşturma](dev-tools/enable-development-machine.md)
+#### [Adlandırma yönergeleri](extensibility/NamingGuidelines.md)
+#### [Model özelleştirmeyi kapatma ve işlevi kaldırma](dev-tools/lock-models.md)
 ### [Özelleştirme Analizi Raporu](dev-tools/customization-analysis-report.md)
 ### [Öğe tasarımcıları](dev-tools/element-designers.md)
 ### [Öğe kullanımı](dev-tools/element-usage.md)
@@ -31,9 +37,8 @@
 ### [Modeller](dev-tools/models.md)
 ### [Dynamics 365 for Finance and Operations'da Projeler](dev-tools/projects.md)
 ### [Visual Studio araç eklentileri](dev-tools/developer-tools-add-ins.md)
-### [Model özelleştirmeyi kapatma ve işlevi kaldırma](dev-tools/lock-models.md)
 ### [Visual Studio geliştirme araçlarını güncelleştirme](dev-tools/update-development-tools.md)
-## 'X++ programlama dili
+## X++ programlama dili
 ### [X++ ve hata ayıklayıcı özellikleri ](dev-tools/new-x-debugger-features.md)
 ### [Bir üretim veritabanı kopyası karşısında X++ hatalarını ayıklama](dev-tools/debug-x-issue-against-copy-of-production.md)
 ### [X++ kodu hatalarını ayıklama](dev-tools/debug-xpp.md)
@@ -104,8 +109,8 @@
 #### [W Sınıfları](dev-ref/w-classes.md)
 #### [X Sınıfları](dev-ref/x-classes.md)
 
-## [Genişletilebilirlik ana sayfası](extensibility/extensibility-home-page.md)
-### Giriş ve başlarken
+## [Genişletilebilirlik](extensibility/extensibility-home-page.md)
+### Giriş ve çalışmaya başlama
 #### [Uygulama genişletilebilirliği planları](extensibility/extensibility-roadmap.md)
 #### [Genişletilebilirlik gereksinimleri](extensibility/extensibility-requests.md) 
 #### [SSS](extensibility/app-sealing-faq.md) 
@@ -261,9 +266,9 @@
 ### [Görev Kaydedici kullanarak belgeler veya eğitim oluşturma](user-interface/task-recorder-training-docs.md)
 
 # [Mobil platform](mobile-apps/platform/mobile-platform-home-page.md)
-## Başlarken
-### [Başlarken](mobile-apps/platform/mobile-platform-getting-started.md)
+## [Başlarken](mobile-apps/platform/mobile-platform-getting-started.md)
 ### [Mimari](mobile-apps/platform/mobile-platform-architecture.md)
+### [İş mantığı olaylarına genel bakış](mobile-apps/platform/business-logic-events-overview.md)
 ### [Sayfa tasarımı yönergeleri](mobile-apps/platform/page-design-guidelines.md)
 ### [Eylem tasarımı yönergeleri](mobile-apps/platform/action-design-guidelines.md)
 ### [Form tasarımı gereksinimleri](mobile-apps/platform/form-design-requirements.md)
@@ -407,17 +412,18 @@
 ### [Yapılandırma veri paketleri](data-entities/configuration-data-packages.md)
 ### [Şirketler arasında yapılandırma verilerini kopyalama](data-entities/copy-configuration.md)
 ### [Yapılandırma verisi şablonları](data-entities/configuration-data-templates.md)
-### [Birden çok çalışma sayfasına sahip veri şablonları](data-entities/excel-template-multiple.md)
+### [Veri şablonları ile birden çok çalışma sayfası](data-entities/excel-template-multiple.md)
 ### [Varlık üzerindeki değişiklikleri izleme](data-entities/entity-change-track.md)
-
+### [Yapılandırma anahtarları ve veri varlıkları](data-entities/config-key-entities.md)
 ### [Standart veri varlıkları hakkında bilgileri bulma](data-entities/data-entities-report.md)
 
 
 ## [Veri içe ve dışa aktarma işleri](data-entities/data-import-export-job.md)
 
-### [Yevmiye defteri varlığını kullanarak fişleri içe aktarmaya yönelik en iyi uygulamalar](data-entities/tips-tricks-import-general-journal-entity.md)
+### [Genel günlük varlığını kullanarak fişleri içe aktarmaya yönelik en iyi uygulamalar](data-entities/tips-tricks-import-general-journal-entity.md)
 
 ## Veri varlıkları için geliştirme
+### [Tasarım ilkeleri ve veri varlıkları için en iyi yöntemler](dev-tools/design-best-practices.md)
 ### [Yeni veri varlıkları oluşturma](data-entities/build-consuming-data-entities.md)
 ### [Veri varlığı özellikleri](data-entities/behavioral-properties-data-entities.md)
 ### [Hesaplama sütunları ve sanal alanlar oluşturma](data-entities/data-entity-computed-columns-virtual-fields.md)
@@ -428,6 +434,9 @@
 ### [Meta veri özellikleri](data-entities/behavioral-properties-data-entities.md)
 ### [Doğrulamalar, varsayılanlar ve eşlenmemiş alanlar](data-entities/validations-defaults-unmapped-fields.md)
 ### [Güvenlik ve veri varlıkları](data-entities/security-data-entities.md)
+### [Mali boyutlarını gösteren bir salt okunur varlık oluşturma](financial/read-only-entity-financial.md)
+ 
+
 
 ## [Kendi veritabanınızı getirme](analytics/export-entities-to-your-own-database.md)
 
@@ -435,7 +444,7 @@
 ## [Veri görevi otomasyonu](data-entities/data-task-automation.md)
 
 ## [Bir GDPR veri isteğine yanıt verme için kaynaklar](gdpr/gdpr-home-page.md)
-### [Microsoft Dynamics 365 for Finance and Operations için GDPR kılavuzu](gdpr/gdpr-auditing-sensitive-data.md)
+### [Microsoft Dynamics 365 for Finance and Operations için GDPR kılavuzu](gdpr/gdpr-guide.md)
 ### [Kıymet sınıflandırmaları](gdpr/gdpr-asset-classification-values.md)
 ### [Kişi arama raporunu kullanma](gdpr/gdpr-person-search-report.md)
 ### [Kişi arama raporunu genişletme](gdpr/gdpr-extend-person-search-report.md)
@@ -443,10 +452,11 @@
 ### [Talent kullanarak kişisel veri isteğini yanıtlama](gdpr/respond-dsr-request-talent.md)
 ### [Microsoft Dynamics AX 2012 kullanarak kişisel veri isteğini yanıtlama](gdpr/gdpr-ax2012.md)
 
+## [Veri doğrulama çalışma alanı](user-interface/data-validation-workspace.md)
 
-# [Sürekli teslimat giriş sayfası](dev-tools/continuous-delivery-home-page.md)
+# [Sürekli teslimat](dev-tools/continuous-delivery-home-page.md)
 ## [Geliştirme ve sürekli teslimatla ilgili SSS](dev-tools/continuous-delivery-faq.md)
-## [Test paketlerini yapı çıkışından çıkarma](dev-tools/exclude-test-packages.md)
+## [Test paketlerini yapı çıkışı dışında tutma](dev-tools/exclude-test-packages.md)
 ## [Kaynak kontrolü kullanarak üçüncü taraf modellerini ve çalışma zamanı paketlerini yönetme](dev-tools/manage-runtime-packages.md)
 ## [Otomatik yapıdaki sürüm modelleri](dev-tools/version-models-build.md)
 
@@ -487,6 +497,7 @@
 ## [Bölümlere ayrılmış giriş kontrolü parm yöntemleri](financial/segmented-entry-control-parm-method-specification.md)
 ## [Microsoft Excel şablonlarına mali boyut değerlerini arama özelliği ekleme](financial/add-dimensions-excel-templates.md)
 ## [Döviz kuru sağlayıcıları oluşturma](financial/create-exchange-rate-providers.md)
+## [Microsoft Dynamics Finance and Operations sürüm 8.0'da döviz kuru sağlayıcıları oluşturma](financial/create-exchange-rate-8.md)
 
 # Tedarik zinciri geliştirme
 ## [Gantt geliştirme kılavuzu](user-interface/gantt-development-guide.md)
@@ -579,7 +590,6 @@
 
 # [Sistem yönetimi](sysadmin/system-administration-home-page.md)
 ## [Aylık platform güncelleştirmeleriyle ilgili SSS](sysadmin/faq-platform-monthly-updates.md)
-## [Yönetici erişimine izin vermeyen sanal makinelerle ilgili SSS](sysadmin/VMs-no-admin-access.md)
 ## [Kuruluşunuzun yasal koşullarına ve gizlilik bildirimine bağlantı ekleme](sysadmin/legal-terms-privacy-statement.md)
 ## [Lisans kodları ve yapılandırma anahtarları raporu](sysadmin/license-codes-configuration-keys-report.md)
 ## [Şirketler arası veri paylaşımı](sysadmin/cross-company-data-sharing.md)
