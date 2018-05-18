@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Çakışan iskontoları için en uygun birleşimi belirleme
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 İskontolar çakıştığında, en düşük hareket toplamını veya en yüksek toplam iskontoyu oluşturacak çakışan iskonto birleşimi belirlemeniz gerekir. Yaygın olarak kullanılan "1 satın al, 1 al X yüzdesi" (BOGO) perakende iskontosunda olduğu gibi, iskonto tutarı satın alınan ürünlerin fiyatına göre değişiklik gösterdiğinde, bu işlem birleşimsel iyileştirme konusu durumuna gelir.
 

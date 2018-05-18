@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Yinelenen serbest metin faturaları oluşturma ve deftere nakletme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Yinelenen faturalar, müşterilere düzenli olarak aynı tutarda fatura çıkarmak için kullanılır. Bu kayıtta USMF demo şirketi kullanılmaktadır. Bu kayıt, alacak hesapları faturalarının yönetiminden ve işlenmesinden sorumlu kişilere yöneliktir.
 

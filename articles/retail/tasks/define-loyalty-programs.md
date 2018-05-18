@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-programs"></a> Bağlılık programları tanımlama
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam, iki bağlılık katmanıyla bir bağlılık programı ayarlamayla ilgili açıklamalar içerir. Bu yordam, USRT demo veri şirketini kullanır.
 

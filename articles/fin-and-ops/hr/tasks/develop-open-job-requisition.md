@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="develop-and-open-a-job-requisition"></a>İş talebi geliştirme ve açma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 İşe alma projeleri, işe alma işleminin yönetilmesine yardımcı olur. Her işe alma projesi için işe alınacak iş, işe alanın adı, projenin durumu ve işin bulunduğu departman gibi bilgileri ayarlayabilirsiniz. İşe alma projesini oluşturduktan sonra proje için bir iş ilanını yazabilir, ilanı Çalışan self-servis sayfalarında yayımlayabilir, başvuruları projeyle ilişkilendirebilir ve bu projeyle ilgili etkinlikleri izleyebilirsiniz. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Yordamı başlatmak için İnsan kaynakları > İşe alma > İşe alma projeleri > İşe alma projeleri'ne gidin.
 

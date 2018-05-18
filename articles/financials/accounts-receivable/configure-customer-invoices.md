@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-a-customer-invoice"></a>Müşteri faturası oluşturma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **Satış siparişi için müşteri faturası** kuruluşun bir müşteriye verdiği, satışla ilişkili bir faturadır. Bu türdeki bir satış faturası, satış satırları ve madde numaraları içeren bir satış siparişine dayanarak oluşturulur. Madde numaraları genel muhasebede belirtilir ve deftere kaydedilir. Muavin defteri günlük girişleri, bir satış siparişi için müşteri faturası için kullanılamaz Daha fazla bilgi için bkz. [Satış siparişi faturaları oluşturun](tasks/create-sales-order-invoices.md).
 

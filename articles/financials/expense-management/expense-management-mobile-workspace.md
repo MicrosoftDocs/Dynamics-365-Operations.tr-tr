@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-management-mobile-workspace"></a>Gider yönetimi mobil çalışma alanı
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, **Gider yönetimi** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı kullanıcıların bir girişi yakalamasını ve yüklemesini, böylece daha sonra bir gider raporuna ekleyebilmelerini sağlar. Kullanıcılar ayrıca ekli bir alış irsaliyesi kullanarak bir gider satırını hızla oluşturabilir ve gider raporlarını oluşturup yönetebilirler. Ek olarak, onaylayıcılar **Gider yönetimi** mobil çalışma alanını, onlara atanmış gider raporlarını görüntülemek ve bu gider raporlarını onaylamak veya reddetmek için kullanabilirler.
 

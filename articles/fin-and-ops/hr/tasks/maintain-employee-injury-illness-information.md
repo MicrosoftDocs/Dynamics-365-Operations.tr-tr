@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Personelin yaralanma ve hastalık bilgilerini koruma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bazı ayar bilgileri burada kullanıldığından, 'Yaralanma ve hastalık ayarlama' görevini önce tamamlamanız tavsiye edilir. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-goal"></a>Hedef oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Hedefler oluşturabilir, hedeflere faaliyetler ekleyebilir, ölçümleri izleyebilir ve hedefleri bir gözden geçirmeye bağlayabilirsiniz. Bu yordam, USMF demo veri şirketi kullanılarak oluşturulmuştur. Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik içindir.
 

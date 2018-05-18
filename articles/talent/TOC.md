@@ -6,6 +6,7 @@
 ## [Bir Talent ortamını kaldırma](remove-talent-environment.md)
 ## [Microsoft Dynamics 365 for Talent Modüler Uygulamaları sağlama](modular-app-tech-faq.md)
 ## [Talent işlevini genişletme](extend-talent-functionality.md)
+## [Dynamics 365 for Talent: Attract'taki önizleme özelliklerine erişme](access-preview-feature.md)
 
 # [İnsan kaynakları stratejisi geliştirme](departments-jobs-positions.md)
 ## [İş bileşenlerini ayarlama](create-job.md)

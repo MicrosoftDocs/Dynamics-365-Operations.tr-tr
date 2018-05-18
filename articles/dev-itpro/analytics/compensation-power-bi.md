@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="compensation-power-bi-content"></a>Ücret Power BI içeriği
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, **Ücret** Microsoft Power BI içeriğini açıklar. Bu raporlara nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 

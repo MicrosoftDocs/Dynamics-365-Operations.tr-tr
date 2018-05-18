@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Katıştırılmış Power BI kullanarak çalışma alanlarına analiz ekleme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Bu özellik Dynamics 365 for Finance and Operations (sürüm 7.2 ve sonrası) için desteklenir.

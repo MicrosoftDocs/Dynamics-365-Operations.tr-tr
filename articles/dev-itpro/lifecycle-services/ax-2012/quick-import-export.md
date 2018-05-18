@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Dynamics AX (AX 2012) için Test Veri Aktarım Aracı (beta) çalıştırma
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Hızlı içe aktarma dışa aktarma özelliğinin amacı birkaç adımda içe ve dışa aktarma işlemi yapmanızı sağlamaktır.
 

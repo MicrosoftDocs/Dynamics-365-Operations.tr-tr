@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="determine-the-bom-version"></a>Ürün reçetesi sürümünü belirleme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bir talep açılımı sırasında bir maddenin varsayılan bir Üretim emri varsa, planlama altyapısı tesise göre geçerli bir ürün reçetesi sürümü bulur. 
 

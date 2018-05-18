@@ -28,7 +28,7 @@ ms.lasthandoff: 11/15/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Alacak hesapları, Alacak ve Tahsilatları yapılandır
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Faturaları ve müşterilerden gelen ödemeleri izlemek için Alacak hesaplarını ve Alacak ve Tahsilatları yapılandırın.
 

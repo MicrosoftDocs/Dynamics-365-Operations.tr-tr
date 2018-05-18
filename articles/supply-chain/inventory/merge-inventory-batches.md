@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="merge-inventory-batches"></a>Stok toplu işlerini birleştir
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede iki veya daha fazla stok toplu işinin birleştirilmiş bir toplu iş ile nasıl konsolide edileceği hakkında bilgiler verilmiştir.
 

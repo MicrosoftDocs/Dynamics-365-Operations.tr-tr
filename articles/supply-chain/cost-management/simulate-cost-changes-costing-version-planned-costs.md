@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Planlanan maliyetler için bir maliyetlendirme sürümü kullanarak maliyet değişikliklerinin benzetimini yapın
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, mamul bir maddenin hesaplanan maliyetlerindeki maliyet değişikliklerinin etkisinin benzetimini, planlanan maliyetler için ayrı bir maliyetlendirme sürümüyle nasıl yapabileceğiniz açıklanmaktadır.
 

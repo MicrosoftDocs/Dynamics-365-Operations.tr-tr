@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-registers"></a> Kayıtlar oluşturma ve ilişkilendirme
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam, bir satış noktası (POS) kaydının nasıl oluşturulacağını gösterir. Bu yordam, USRT demo verisi şirketini kullanır.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="create-a-department-and-associate-it-with-the-department-hierarchy"></a>Bir departman yaratın ve onu departman hiyerarşisiyle ilişkilendirin.
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Bir bölüm bir kuruluşun bir kategori veya işlevsel alanını temsil eden işletme bir birimdir. Departman satış, muhasebe veya İnsan kaynakları gibi kuruluşun belirli bir alanından sorumludur. İşlevsel alanlara bildirmek için bölümleri kullanabilirsiniz. Departmanların kâr ve zarar sorumluluğu olabilir.
 

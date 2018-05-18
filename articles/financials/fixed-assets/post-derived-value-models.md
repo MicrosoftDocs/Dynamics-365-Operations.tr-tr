@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="post-with-derived-books"></a>Türetilmiş defterlerle deftere nakletme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makale, türetilmiş defterlerin nasıl kullanılacağını açıklar.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Satınalma siparişinde madde gereksiniminden maddeleri alma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, bir satınalma siparişindeki maddeleri bir madde gereksiniminden almayı gösterir.
 

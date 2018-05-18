@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="distributions-on-an-expense-report"></a>Gider raporundaki dağıtımlar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Giderler üzerinde bir gider raporunu girdiğinizde, gideri birden fazla proje, mali boyutlar veya kuruluşunuzdaki hesaplara dağıtabilirsiniz.
 

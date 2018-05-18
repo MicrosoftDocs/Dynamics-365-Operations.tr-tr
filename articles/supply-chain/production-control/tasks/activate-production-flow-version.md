@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="activate-a-production-flow-version"></a>Üretim akışı sürümünü etkinleştirme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kanban işleri oluşturulmadan ve faaliyetler üretim akışı sürümü için işlenmeden önce sürümü etkinleştirmeniz gerekir. En iyi yöntem olarak, yürürlük başlangıç tarihi ve süresi geçmeden sürümü etkinleştirin. Bu görevi tamamlamak için sürümü etkinleştirmek amacıyla Taslak durumuna sahip üretim akışı sürümüne sahip olmanız gerekir. 
 

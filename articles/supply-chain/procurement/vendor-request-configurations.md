@@ -25,7 +25,7 @@ ms.lasthandoff: 02/08/2018
 ---
 
 # <a name="vendor-request-configurations"></a>Satıcı talep konfigürasyonları
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bir satıcı talebini tamamlamak için satıcı ilgili kişisinin aday satıcı kayıt sihirbazını tamamlaması gerekir.
 

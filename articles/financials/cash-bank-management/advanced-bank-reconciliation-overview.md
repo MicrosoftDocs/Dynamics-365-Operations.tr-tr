@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="advanced-bank-reconciliation-overview"></a>Gelişmiş banka mutabakatına genel bakış
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makale gelişmiş banka mutabakat işleminin akışını açıklar. Gelişmiş banka mutabakatı özelliği, banka hareketleri içinden otomatik olarak mutabakatı alınan banka ekstrelerini içe aktarmanıza izin verir.
 

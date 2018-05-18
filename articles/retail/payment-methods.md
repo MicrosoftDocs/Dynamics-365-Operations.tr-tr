@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="payment-methods"></a>Ödeme yöntemleri
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Perakendecinin kabul edeceği ödeme türlerinin her biri, sistem ayarlandığında mutlaka yapılandırılmalıdır. Bu makale, ayarlayabileceğiniz ödeme türlerini ve bunları ayarlamak için gerekli işlemi açıklamaktadır.
 

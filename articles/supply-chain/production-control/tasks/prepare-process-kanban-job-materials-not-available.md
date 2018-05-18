@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-not-available-for-the-work-cell"></a>Malzemeler iş hücresi için kullanılamadığında bir süreç kanban işi hazırlama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, bazı malzemeler için iş hücre kullanılamadığında bir süreç kanban işi hazırlanmasına odaklanır, bu nedenle ambardan malzeme çekme gerekli. "Malzeme hazır olduğunda bir süreç kanban işi hazırla" yordamı, bu yordamı oluşturmak için bir önkoşuldur. Bu yordam makine operatörü için hazırlanmıştır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

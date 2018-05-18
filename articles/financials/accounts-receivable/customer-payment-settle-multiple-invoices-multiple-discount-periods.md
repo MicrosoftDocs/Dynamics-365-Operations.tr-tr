@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Birden fazla iskonto dönemine yayılan birden fazla faturayı kapatmak için bir müşteri ödemesi kullanma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda, her bir fatura nakit indirimine uygunsa birden fazla faturanın nasıl ödeneceği gösterilmektedir. Bu makaledeki senaryolar, alınan nakit indirimlerinin ödemenin ne zaman yapıldığına bağlı olarak nasıl değiştiğini açıklamaktadır.
 

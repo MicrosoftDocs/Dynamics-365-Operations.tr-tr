@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bom-calculations-groups"></a>Ürün reçetesi hesaplamaları grupları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, ürün reçeteleri için hesaplama grupları ve bunların nasıl ayarlanacağı hakkında bilgi verilmektedir. Bir ürün reçetesi hesaplaması çalıştırmak için ya hesaplama grupları ayarlamalı ve bunları tek tek maddelere atamalısınız ya da varsayılan bir hesaplama grubu ayarlamalısınız. Ardından, hesaplama grubundaki hesaplama ayarları, ürün reçetesi hesaplaması sayfasında ürün reçetesi hesaplamasında varsayılan değerler olarak kullanılır. 
 

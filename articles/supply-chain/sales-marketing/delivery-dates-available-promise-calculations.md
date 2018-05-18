@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-promising"></a>Sipariş taahhüdü
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede sipariş taahhütleri hakkında bilgiler verilmiştir. Sipariş Taahhüdü müşterileriniz için güvenilir teslimat tarihleri taahhüt etmenize yardımcı olur ve böylece bu tarihleri karşılayabilmeniz için esneklik sağlar.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-work-class"></a>İş sınıfı oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, iş sınıfı kurmayı göstermektedir. İş sınıfları, ambar çalışanı tarafından bir mobil aygıtta işlenebilecek iş emri satırlarının türünü yönetmek ve/veya sınırlamak için kullanılır. Çalışanın işleyebileceği satırlar, çalışanın erişimi olan mobil cihaz menü öğeleri üzerindeki iş sınıfları ve iş satırı üzerinde belirlenen iş sınıfı tarafından belirlenir. İş sınıfları, iş emri satırı için yerine koyma konumunu doğrulamak için de kullanılabilir. Bu prosedürü demo veri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz. Bu yordam ambar yöneticisi için hazırlanmıştır.
 

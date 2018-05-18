@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="budget-planning-overview"></a>Bütçe planlama genel bakış
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makale bütçe planlamayı tanıtır ve bütçe planlamayı yapılandırmanıza ve bütçe planlama süreçleri oluşturmanıza yardımcı olacak bilgileri içerir.
 

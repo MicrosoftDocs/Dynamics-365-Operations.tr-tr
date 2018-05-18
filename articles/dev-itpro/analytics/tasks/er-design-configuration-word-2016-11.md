@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için Microsoft Word biçiminde rapor oluşturmak üzere bir yapılandırma tasarlama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Aşağıdaki adımlar, bir Sistem yöneticisi veya Elektronik raporlama geliştirici rolündeki bir kullanıcının, Microsoft Word dosyaları şeklinde raporlar oluşturmak için bir Elektronik raporlama (ER) biçimini nasıl yapılandırabileceğini açıklar. Bu adımlar GBSI şirketinde gerçekleştirilebilir.
 

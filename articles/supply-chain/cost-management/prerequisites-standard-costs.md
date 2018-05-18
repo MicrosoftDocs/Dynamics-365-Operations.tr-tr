@@ -29,7 +29,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="prerequisites-for-standard-costs"></a>Standart maliyetler için önkoşullar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, standart maliyetleri kullanmak için temel adımları açıklar. Sonraki adımlar şirketin işlemlerine bağlıdır. Örneğin, adımlar üretim yapılmayan bir ortam, rotaları kullanmayan bir üretim ortamı ve rotaları kullanan üretim ortamı için farklıdır. 
 

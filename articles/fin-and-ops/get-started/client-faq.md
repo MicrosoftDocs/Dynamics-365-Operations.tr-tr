@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="finance-and-operations-client-faq"></a>Finance and Operations istemcisiyle ilgili SSS
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, Microsoft Dynamics 365 for Finance and Operations istemcisi hakkında sık sorulan soruların yanıtlarını verilmektedir.
 

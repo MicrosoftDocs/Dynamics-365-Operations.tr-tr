@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bills-of-materials-and-formulas"></a>Ürün reçeteleri ve formüller
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, ürün ve ürün çeşitleri tanımlarının merkezi bir parçası olan ürün reçeteleri (BOM'lar) ve formüller hakkında bilgi sağlar. BOM'lar ve formüller, belirli bir ürünün ihtiyaç duyulan malzemelerini veya içerikleri belirtir. Formüller ayrıca belirli üretim bağlamında alınan yan ürünleri ve ortak ürünleri de belirtir. 
 

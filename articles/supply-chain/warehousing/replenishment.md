@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="replenishment"></a>Stok yenileme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda Ambar yönetiminde bulunan işlevi kullanan ambarlarda kullanılabilen stok yenileme stratejileri açıklanmaktadır. Bu konudaki bilgiler Stok yönetiminde bulunan ambar çözümü için geçerli değildir.
 

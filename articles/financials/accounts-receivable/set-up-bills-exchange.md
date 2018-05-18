@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-bills-of-exchange"></a>Kambiyo senetlerini ayarlama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda, kambiyo senetlerini ayarlama adımları açıklar.
 

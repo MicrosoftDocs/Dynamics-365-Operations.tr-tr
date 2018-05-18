@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="configure-a-parallel-activity-in-a-workflow"></a>Bir iş akışında bir paralel etkinlik yapılandırma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Paralel faaliyet yapılandırmak için iş akışı düzenleyicisinde aşağıdaki yordamları tamamlayın.
 

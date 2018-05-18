@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="post-periodic-journals"></a>Periyodik günlükleri deftere nakletme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Tutar, metin ve diğer bilgiler periyodik günlük her alındığında tekrarlandığından, periyodik günlüklere bazen yinelenen günlükler de denir. Periyodik günlük oluştururken, yineleme için dönem aralığını gün veya ay olarak belirtirsiniz. Bu görev kılavuzu, aylık yinelenen bir periyodik günlük oluşturur.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Standart maliyet dönüştürme için önkoşullar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda, standart maliyet dönüştürme yapmadan önce gerçekleştirilecek görevler açıklanmaktadır. 
 

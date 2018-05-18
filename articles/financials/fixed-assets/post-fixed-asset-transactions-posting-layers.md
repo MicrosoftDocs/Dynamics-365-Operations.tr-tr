@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Sabit kıymet hareketlerini deftere nakil katmanlarında deftere nakletme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede sabit kıymet hareketleri için katman işlevlerinin deftere nakline genel bir bakış sunulmuştur.
 

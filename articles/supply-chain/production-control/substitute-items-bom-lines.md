@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="material-substitution-in-manufacturing"></a>Üretimde malzeme değiştirme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda, üretim süreci sırasında malzemelerin nasıl değiştirileceği açıklamaktadır. 
 

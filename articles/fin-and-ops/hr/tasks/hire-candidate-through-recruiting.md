@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-a-candidate-through-recruiting"></a>İşe alma yoluyla adayı işe alma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, bir işverene, belirli bir işe alma projesi aracılığıyla başvuru gönderen bir başvuranı işe almayı sağlar. Bir başvuranı işe alma projesi aracılığıyla işe alırsanız, yeni bir çalışan kaydı oluşturulu ve başvuranın kaydı İşe alındı durumuna sahip olur. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordamı tamamlamak için gidin: İnsan kaynakları > İşe alma > Başvurular > Başvurular seçeneğine gidin 
 

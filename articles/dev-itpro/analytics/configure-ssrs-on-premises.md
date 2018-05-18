@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>Şirket içi bir dağıtım için SQL Server Reporting Services'ı konfigüre etme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konudaki adımları, Microsoft Dynamics 365 for Finance and Operations (şirket içi) dağıtımınız için SQL Server Raporlama Servisleri'ni (SSRS) yapılandırmak için kullanın.
 

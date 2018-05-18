@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Gelişmiş banka mutabakatı içe aktarma sürecini ayarlama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Gelişmiş banka mutabakatı özelliği, elektronik banka ekstrelerini içe aktarmanıza ve bunların Microsoft Dynamics 365 for Finance and Operations uygulamasındaki banka hareketleriyle otomatik olarak mutabakat sağlamasına izin verir. Bu makalede banka ekstreleriniz için içe aktarma işlevinin nasıl ayarlanacağı açıklanmaktadır. 
 

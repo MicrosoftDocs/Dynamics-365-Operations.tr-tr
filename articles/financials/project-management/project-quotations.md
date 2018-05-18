@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-quotations"></a>Proje teklifleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, proje aşamasının ilk adımı olarak müşteriye cazip bir teklif sunmak için kullanabileceğiniz proje teklifleri kavramı tanıtılmaktadır. Proje teklifi, teklif edilecek madde ve hizmetleri, temel iletişim bilgilerini, özel ticari anlaşma ve iskontoları ve olası vergi ve ek talepleri içerebilir. 
 

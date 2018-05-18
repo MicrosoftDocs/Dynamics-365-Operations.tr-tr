@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="import-iso20022-direct-debit-configuration"></a>ISO20022 hesaptan ödeme yapılandırmasını içe aktarma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, müşteri ödemesi elektronik raporlama yapılandırmasının nasıl içe aktarılacağını gösterir. Bu yordam örnek olarak ISO 20022 hesaptan ödeme biçimini kullanır. 
 

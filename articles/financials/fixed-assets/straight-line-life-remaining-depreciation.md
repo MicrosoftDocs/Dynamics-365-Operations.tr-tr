@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="straight-line-life-remaining-depreciation"></a>Sabit kalan ömür amortismanı
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makale, amortismanın Sabit kalan ömür yöntemi hakkında genel bir bakış sağlar.
 

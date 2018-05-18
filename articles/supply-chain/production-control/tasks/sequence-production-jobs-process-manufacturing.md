@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>Süreç üretimi için üretim işlerini sıralama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu prosedürde, planlanan siparişlerin renk ve paket boyutu önceliğine göre nasıl sıralanacağının gösterilmesi için örnek olarak boya ürünleri kullanılmıştır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USPI'dir. Bu yordam için üretim planlayıcısına yöneliktir.
 

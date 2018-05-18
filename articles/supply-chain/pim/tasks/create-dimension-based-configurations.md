@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-dimension-based-configurations"></a>Boyut tabanlı yapılandırmalar oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu prosedürde bir boyut tabanlı ürün için bir yapılandırmanın nasıl tanımlanacağı açıklanmıştır. Bu prosedür, boyut tabanlı yapılandırma kombinasyonlarının nasıl oluşturacağını açıklayan serinin son prosedürüdür. Bu prosedürün uygulanması önceki yedi kayıtta oluşturulan verilere bağlıdır. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

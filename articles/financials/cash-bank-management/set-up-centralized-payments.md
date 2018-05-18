@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-centralized-payments"></a>Merkezi ödemeleri ayarlama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Ödemeleri kuruluşunuzdaki diğer tüzel kişilikler adına tek bir tüzel kişilikten yürütmek üzere hazırlamak için bu adımları kullanın. Başlamadan önce aşağıdaki kurulumun tamamlanması gerekir:
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="dimension-based-product-configuration"></a>Boyuta dayalı ürün yapılandırma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Boyut tabanlı ürün yapılandırması, tek bir ana üründen ve o ürün reçetelerinden çok sayıda ürün çeşidi oluşturmak için basit bir çözümü temsil eder.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="acquire-assets-through-procurement"></a>Kıymetleri tedarik yoluyla alma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda, satınalma emirlerinden veya satıcı faturalarından otomatik olarak sabit kıymetler oluşturmak veya sabit kıymetler için alım ve alım ayar hareketlerini otomatik olarak deftere nakletmek için Sabit kıymetler ile Borç hesapları arasında nasıl entegrasyon kurulacağı açıklanmaktadır.
 

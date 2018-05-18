@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="design-configurations-to-generate-documents-with-application-data"></a>Uygulama verileriyle belgeler oluşturmak için yapılandırmalar tasarlama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordamdaki adımları tamamlamak için ilk önce ER Uygulama veri güncelleştirmesi ile belgeler oluştur (Bölüm 1: Yapılandırmaları içe aktar) yordamını tamamlamalısınız.
 

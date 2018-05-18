@@ -27,7 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="employee-competencies-and-development-power-bi-content"></a>Personel uzmanlıkları ve gelişim Power BI içeriği
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu Finance and Operations - Personel yeterlilikleri ve gelişimi Power BI içeriğini açıklar. 
 

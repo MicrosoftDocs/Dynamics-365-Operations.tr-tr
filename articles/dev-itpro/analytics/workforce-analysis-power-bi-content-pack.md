@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="workforce-metrics-power-bi-content"></a>İşgücü ölçümleri Power BI içeriği
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, **İşgücü ölçümleri** Microsoft Power BI içeriğini açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 

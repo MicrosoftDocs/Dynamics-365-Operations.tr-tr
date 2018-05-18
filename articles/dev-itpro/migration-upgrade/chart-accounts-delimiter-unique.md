@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="chart-of-accounts-delimiter-must-be-unique"></a>Hesap planı sınırlayıcısı benzersiz olmalıdır
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Microsoft Dynamics AX 2012'de, hesap planı ve boyut değerleri için aynı sınırlayıcı kullanabilirsiniz. Dynamics 365 for Finance and Operations'da hesap planı ve boyut değerleri için aynı sınırlayıcıya sahip olamazsınız. Yinelenen bir sınırlayıcı varsa, yükseltme işleminden sonra değiştirebilirsiniz. 
 

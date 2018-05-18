@@ -27,7 +27,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Kısmen rezerve edilen transfer emirleri için toplu iş serbest bırakma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Kısmi rezerve edilmiş transfer emirlerini toplu serbest bırakma işlevi, bir transfer emrini bir ambara, bir toplu iş kullanarak kısmi serbest bırakmanıza olanak sağlar.
 Kısmi bir miktarı serbest bırakma seçeneğine sahip olduğunuz için bir siparişi serbest bırakmadan önce tüm miktarın ambarda kullanılabilir olmasını beklemenize gerek yoktur.

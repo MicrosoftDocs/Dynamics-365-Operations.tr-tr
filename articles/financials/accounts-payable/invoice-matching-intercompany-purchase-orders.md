@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Fatura eşleştirme ve şirketlerarası satınalma siparişleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bir şirketlerarası ticaret hareketinde yer alan satın alma tüzel kişiliği, borç hesapları fatura eşleştirmesini kullanacak şekilde ayarlanabilir. Bu durumda, şirketlerarası satıcı faturalarının deftere nakledilebilmesi için, hem şirketlerarası ticaret için, hem de borç hesapları fatura eşleştirmesi için deftere nakil gereksinimleri karşılanmalıdır.
 

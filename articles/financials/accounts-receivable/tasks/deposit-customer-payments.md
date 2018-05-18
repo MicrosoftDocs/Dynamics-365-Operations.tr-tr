@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="deposit-customer-payments"></a>Müşteri ödemelerini havale etme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Müşteri ödemelerini havale edin. Bu görevde USMF demo şirketi kullanılmaktadır.
 

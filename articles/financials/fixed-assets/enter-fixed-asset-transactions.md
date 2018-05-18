@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-transaction-options"></a>Sabit kıymet hareket seçenekleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, sabit kıymet hareketleri oluşturmak için kullanılabilecek çeşitli yöntemler açıklanmaktadır.
 

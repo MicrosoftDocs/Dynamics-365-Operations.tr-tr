@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-and-run-a-job-to-calculate-statements"></a> Ekstreleri hesaplamak için işi yapılandırma ve çalıştırma
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam, seçili bir mağaza veya mağaza grubuna ilişkin ekstreleri oluşturmak ve hesaplamak için yinelenen toplu işleri çalıştırma ve yapılandırmayla ilgili açıklamalar sağlar. Bu yordam USRT demo veri şirketini kullanır.
 

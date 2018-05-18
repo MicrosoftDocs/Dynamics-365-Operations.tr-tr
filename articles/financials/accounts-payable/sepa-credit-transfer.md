@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="sepa-credit-transfer-overview"></a>SEPA kredi transferine genel bakış
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makale, Tek Euro Ödeme Bölgesi (SEPA) kredi transferleri ve satıcılar için diğer elektronik ödemeleri içeren ISO 20022 kredi transferleri hakkında genel bilgi sağlar. SEPA kredi transferi bir şirketten veya bir bireyden başka bir şirket veya bireye yapılan özel türde bir ödemedir (euro cinsinden). Bu başlık altında, bir kredi transferi ödeme dosyasının nasıl ayarlanacağı ve aktarılacağı da açıklanmaktadır.
 

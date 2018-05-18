@@ -25,7 +25,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="tax-directives-for-europe"></a>Avrupa için vergi yönergeleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 AB Yönergesi, fatura kuralları ve fatura oluşturulurken dahil edilmesi gereken bilgilerle ilgili, tüm Üye Ülkeler tarafından uyulması gereken düzenlemeler sağlar. AB Yönergesi, AB içindeki müşterileri için tedarikçiler tarafından gerektirilen bilgileri listeler. Örneğin, bir fatura bir sıfır KDV derecelendirmesi veya bir muafiyet için yasal sebepleri açıklayan bir referans içerebilir. Bir fatura bir kredi notu gibi daha önceden verilmiş bir faturayı düzenliyorsa, orijinal faturaya açık bir referans yapılması gerekir.
 

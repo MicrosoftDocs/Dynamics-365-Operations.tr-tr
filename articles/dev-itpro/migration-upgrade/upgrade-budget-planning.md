@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="upgrade-budget-planning"></a>Bütçe planlamayı yükselt
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Microsoft Dynamics AX 2012 ve Microsoft Dynamics 365 for Finance and Operations arasında, bütçe planlamada önemli farklar bulunmaktadır. Bazı özellikler yükseltilmemiştir ve bu nedenle yeniden yapılandırma gerektirmektedirler. Bu konu nelerin yeniden yapılandırılması gerektiğin ve yükseltme tamamlandıktan sonra dikkate alınması gereken yeni özellikleri açıklar.  
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>Kredi mektubu için banka hizmet sözleşmesi oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev, bir Kredi mektubunu işlemek için Banka kredi anlaşması oluşturma konusunda açıklama sağlar. Bu görevden önce banka kredileri ve deftere nakil profilleri ayarlamak isteyeceksiniz.  Bu görevde 'USMF' demo şirketi kullanılmaktadır.  
 

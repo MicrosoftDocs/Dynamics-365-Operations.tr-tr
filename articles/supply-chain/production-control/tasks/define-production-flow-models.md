@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-production-flow-models"></a>Üretim akışı modellerini tanımlama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Üretim akışı modelleri, yalın imalat iş hücrelerinin kapasitesinin nasıl hesaplanacağını ve sürdürüleceğini tanımlar. Bu nedenle, bir üretim akışı modelinin tanımı iş hücrelerinin tanımının bir önkoşuludur. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

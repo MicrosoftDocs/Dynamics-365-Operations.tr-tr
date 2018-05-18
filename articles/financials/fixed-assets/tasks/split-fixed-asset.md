@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="split-a-fixed-asset"></a>Sabit kıymeti bölme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev kılavuzu bir kıymet defteri yüzdesini yeni bir kıymet defterine böler.  Kılavuzda Muhasebeci rolü ve USMF demo verileri kullanılmaktadır.
 

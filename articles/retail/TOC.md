@@ -24,6 +24,7 @@
 # Satış vergisi
 ## [Satış vergisine genel bakış](../financials/general-ledger/indirect-taxes-overview.md)
 ## [Kaynak alanında satış vergisi hesaplama yöntemleri](../financials/general-ledger/sales-tax-calculation-methods-origin-field.md)
+## #### [Satış vergisi atama ve geçersiz kılma](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md)
 ## [Satış vergisi kodları için Tam tutar ve Aralık hesaplama seçenekleri](../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md)
 
 # Çağrı merkezi
@@ -167,6 +168,7 @@
 ## [Donanım istasyonu oluşturma ve ilişkilendirme](tasks/create-associate-hardware-station.md)
 ## [Kayıtlar oluşturma ve ilişkilendirme](tasks/create-associate-registers.md)
 ## [Perakende mağazasına yönelik bir ekstre oluşturma, hesaplama ve deftere nakletme](tasks/create-calculate-post-statement-retail-store.md)
+## [Ekstre deftere nakli için geliştirmeler](statement-posting-EOD.md)
 ## [Çağrı merkezi siparişleri oluşturma](tasks/create-call-center-orders.md)
 ## [POS kayıtları için mali boyutlar oluşturma ve kayıtlardaki boyut değerlerini yapılandırma](tasks/create-financial-dimensions-pos.md)
 ## [Perakende kanalları için mali boyutlar oluşturma ve mağazalardaki boyut değerlerini yapılandırma](tasks/create-financial-dimensions-retail-channels.md)
@@ -199,7 +201,7 @@
 
 # [Perakende geliştirme ve yönetimi](dev-itpro/dev-retail-home-page.md)
 
-## Mimarlık
+## Mimari
 ### [Microsoft Dynamics 365 for Finance and Operations bileşenleri - Retail](retail-components.md)
 ### [Retail Server mimarisi](dev-itpro/retail-server-architecture.md)
 ### [Perakende kanalı iletişimleri](dev-itpro/define-retail-channel-communications-cdx.md)
@@ -288,8 +290,7 @@
 ### [POS hareketi kılavuzuna özel sütunlar ekleme](dev-itpro/pos-custom-transaction-column.md)
 ### [POS uzantısından bir POS API'sı veya işlem çağırma](dev-itpro/pos-api-extension.md)
 ### [Retail Modern POS tetikleyicileri ve yazdırma](dev-itpro/pos-trigger-printing.md)
-### [Ekran tasarımcısı tabanlı olmayan bir Retail POS görünümüne özel denetim ekleme](dev-itpro/pos-control-non-screen.md)
-### [POS ve e-Ticaret için Retail proxy'si oluşturma](dev-itpro/pos-generate-retail-proxy.md)
+### [Ekran tasarımcısı tabanlı olmayan bir Retail Modern POS görünümüne özel denetim ekleme](dev-itpro/pos-control-non-screen.md)
 ### [Bulutta barındırılan geliştirme kutuları üzerinde çalışan Retail geliştiricileri için yapılandırma adımları](dev-itpro/cloud-dev-box.md)
 
 ## Ticaret çalışma süresi

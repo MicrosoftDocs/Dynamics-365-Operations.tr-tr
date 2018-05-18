@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-new-users"></a>Yeni kullanıcılar oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kullanıcılar, işlerini yapmak için sistem erişimine sahip olmaları gereken, kendi kuruluşunuzun dahili personelleri veya harici müşteriler veya satıcılardır. Sistem yöneticileri bu yordamı sisteme kullanıcılar eklemek için tamamlayabilir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. 
 

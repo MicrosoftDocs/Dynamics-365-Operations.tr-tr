@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>Satıcı faturasındaki satış vergisini hesaplama ve ayarlama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Orijinal kaynak belgesinde hesaplanandan farklı vergi tutarları görüntüleniyorsa, bu tutarları deftere nakletmeden önce ayarlayabilirsiniz. Bu görevde DEMF demo şirketi kullanılmaktadır.
 

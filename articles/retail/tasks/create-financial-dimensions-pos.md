@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a> POS kayıtları için mali boyutlar oluşturma ve kayıtlardaki boyut değerlerini yapılandırma
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam satış noktası (POS) kayıtları için mali boyutlar oluşturma konusunda açıklama içerir kayıtlarda mali boyut değerlerinin nasıl yapılandırılacağını gösterir. Bu prosedür, boyut kümeleri ve hesap yapıları oluşturma gibi diğer ilgili adımları içermez. Bu konular diğer görevlerde bulunabilir. Bu kayıt, USRT demo şirketini kullanır.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Konsolidasyon hesabı grupları ve ek konsolidasyon hesapları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, konsolidasyon hesap grupları ve ek konsolidasyon hesapları ve bunların Microsoft Dynamics 365 for Finance and Operations içerisinde nasıl kullanıldığı hakkında bilgi sağlar.
 

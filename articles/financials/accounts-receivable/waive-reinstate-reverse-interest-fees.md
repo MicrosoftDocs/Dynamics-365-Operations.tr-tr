@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Faiz ve ücretlerden feragat etme, bunları eski durumuna getirme veya tersine çevirme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makale, faiz ve masraflar için giderlerden nasıl feragat edileceğini, giderlerin nasıl eski durumuna getirileceğini ve tersine çevrileceğini açıklar.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="develop-a-succession-plan"></a>Yedekleme planı geliştirme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Kuruluşunuz büyüdükçe ve ardışık planlama yapmayı düşündüğünüzde, başka bir kişiye benzer yeteneklere sahip olan birini bulmak isteyebilirsiniz.  Yetenek eşleme, mevcut çalışanları ve başvuruları inceleyerek aranan çalışan yeteneklerine uyup uymadıklarını görmenizi sağlar. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

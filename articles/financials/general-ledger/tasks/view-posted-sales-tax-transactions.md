@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Deftere nakledilen satış vergisi hareketlerini görüntüle
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Görüntüleme gereksinimlerinize bağlı olarak, farklı sayfalardaki nakledilmiş satış vergisi hareketlerini de görüntüleyebilirsiniz. Bu görevde USMF demo şirketi kullanılmaktadır.
 

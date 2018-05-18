@@ -24,7 +24,7 @@ ms.lasthandoff: 10/30/2017
 ---
 # <a name="vendor-payment-overview"></a>Satıcı ödemesine genel bakış
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev kılavuzu size satıcı ödemeleri oluşturmak için çeşitli yöntemleri gösterecektir. Bunların arasında ödeme teklifi veya tek seferlik bir ödemeyi elden girmek de bulunmaktadır. Bu yordam, USMF demo şirketini kullanır.
 

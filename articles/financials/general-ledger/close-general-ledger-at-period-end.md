@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="close-the-general-ledger-at-period-end"></a>Genel muhasebeyi dönemi sonunda kapatma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, genellikle bir dönem kapanışı için genel muhasebe gerçekleştirirken tamamlanmış görevleri açıklar. 
 

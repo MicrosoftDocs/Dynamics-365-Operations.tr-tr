@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-working-time-scheduling-properties"></a>Çalışma zamanı planlama özelliklerini oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Çalışma zamanı planlama özellikleri, çalışma zaman aralıklarını kategorilere ayırmak ve operatörlerin dikkate alması gereken ayarları tanımlamak için kullanılır. Bu yordam, bir çalışma zamanı planlama özelliği ile ilişkili özellik değerlerinin nasıl belirleneceğini gösterir. Bu yordamı, USMF demo veri şirketini veya kendi verilerinizi kullanarak uygulayabilirsiniz.
 

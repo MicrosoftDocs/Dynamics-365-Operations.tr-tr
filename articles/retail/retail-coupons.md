@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-coupons-for-retail-sales"></a>Perakende satışlar için kupon oluşturma
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 ## <a name="overview-of-coupons"></a>Kuponlara genel bakış
 

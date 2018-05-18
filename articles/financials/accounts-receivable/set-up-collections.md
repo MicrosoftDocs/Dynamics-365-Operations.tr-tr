@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-credit-and-collections"></a>Alacak ve Tahsilatları ayarlamak
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makale koleksiyonlar işlevselliği ayarlamayı açıklar.
 

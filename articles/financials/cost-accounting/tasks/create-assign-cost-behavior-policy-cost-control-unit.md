@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>Maliyet davranış ilkesi oluşturma ve bir maliyet kontrol birimine atama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Maliyet davranışı, maliyetlerin sabit veya değişken olarak sınıflandırılmasıdır. İlkenin etkin hale gelmesi için bir ilke ve karşılık gelen kurallarının bir maliyet kontrol birimine atanmış olması gerekir. Bu yordamı bir ilke oluşturmak ve sonra ilkeyi bir maliyet kontrol birimine atamak için kullanın.
 

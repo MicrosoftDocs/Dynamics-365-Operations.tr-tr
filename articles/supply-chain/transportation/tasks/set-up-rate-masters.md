@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-rate-masters"></a>Ana oranları ayarlama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, bir ana oran kurmayı göstermektedir. Genellikle Lojistik Yöneticisi, taşıyıcılar ile imzalanmış olan sözleşmelere bağlı olarak ana oranları ayarlar. Bu senaryoda bir hava taşıyıcısı için ana oran ayarlayacaksınız. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

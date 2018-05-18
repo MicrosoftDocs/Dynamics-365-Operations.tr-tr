@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images"></a>Katıştırılmış resimlere sahip Microsoft Office biçimlerinde rapor oluşturmak üzere yapılandırmalar tasarlama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordamdaki adımları tamamlamak için öncelikle "ER Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamını tamamlayın. Bu yordam, katıştırılmış resimler içeren Microsoft Excel veya Word belgeleri oluşturmak üzere Elektronik raporlama (ER) yapılandırmalarının nasıl tasarlanacağını gösterir. Bu yordamda, Litware, Inc. adlı örnek şirket için gerekli ER yapılandırmalarını oluşturacaksınız. Bu adımlar USMF veri kümesi kullanılarak tamamlanabilir. Bu yordam, sistem yöneticisi veya elektronik raporlama geliştiricisi rolüne atanmış kullanıcılar için oluşturulmuştur. Başlamadan önce [Elektronik raporlama aracı kullanılarak oluşturulan iş belgelerine görüntü ve şekil katıştırma](../electronic-reporting-embed-images-shapes.md) Yardım konusunda listelenen dosyaları indirin ve kaydedin. Bu dosyalar şunlardır: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png, and Cheque template Word.docx.
 

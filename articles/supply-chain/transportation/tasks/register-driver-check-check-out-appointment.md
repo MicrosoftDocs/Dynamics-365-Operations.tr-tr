@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Randevu için sürücü girişini ve çıkışını kaydetme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam bir sürücü giriş ve sürücü çıkışının nasıl kaydedileceğini gösterir. Bu, genellikle bir taşıma koordinatörü tarafından yapılır. Bu yordamı USMF demo veri şirketinde kullanabilirsiniz. Başlamadan önce bir yük için bir randevu ayarı olmalıdır. Randevu oluşturmak için önkoşul olarak "Bir yük için randevu ayarlama" yordamını çalıştırabilirsiniz.
 

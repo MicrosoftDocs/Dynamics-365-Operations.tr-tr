@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="retail-price-adjustments"></a> Perakende fiyat ayarlamaları
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam, bir perakende fiyat ayarlaması oluşturma konusunda yol gösterir. Perakende fiyat ayarlaması, maddenin satış fiyatı doğrudan ayarlayabilir veya taban satış fiyatını ya da ticaret anlaşması satış fiyatını değiştirebilir. Bu yordam, USRT demo veri şirketini kullanır.
 

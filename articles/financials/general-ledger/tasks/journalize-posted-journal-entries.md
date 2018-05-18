@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="journalize-posted-journal-entries"></a>Nakledilen günlük girişlerini günlüğe aktarma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordamda, günlüğe kaydetme yoluyla günlük girişleri oluşturma gösterilir. Bu yordam, USMF demo verisi şirketini kullanır.
 

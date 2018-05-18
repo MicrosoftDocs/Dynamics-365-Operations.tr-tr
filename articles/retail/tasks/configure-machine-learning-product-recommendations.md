@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-machine-learning-powered-product-recommendations"></a>Makine öğrenimi destekli ürün önerilerini yapılandırma
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam, ürün önerilerini destekleyen makine öğrenimi sistemi tarafından kullanılan Varlık deposundaki verileri yeniler ve POS istemcileri üzerinde ürün önerilerini etkinleştirir. Bu yordam USRT demo veri şirketini kullanır.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Finansal raporlamada gelişmiş biçimlendirme seçenekleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Finansal raporlamada bir rapor oluşturduğunuzda, ek biçimlendirme işlevleri mevcuttur; boyutlar için filtreler, sütunlar ve raporlama birimleri için kısıtlamalar, yazdırılmayan satırlar ve hesaplamalarda THEN/IF/ELSE deyimleri de dahil olmak üzere. 
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-warehouse-work-policies"></a>Ambar iş ilkelerini ayarlama  
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ambar işlemi her zaman ambar çalışmasını içermezler. Bir çalışma ilkesi tanımlayarak, hammadde çekme ve tamamlanmış malların yerine koyması işlerinin oluşturulmasını, çeşitli bir ürün dizisi veya belirtilen konumlar için engelleyebilirsiniz. USMF demo veri şirketi bu kaydı oluşturmak için kullanılmıştır. Bu görev kılavuzu Dynamics AX uygulama 7.0.1 veya sonrasını gerektirir.
 

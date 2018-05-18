@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Uygulanabilir fiyatları ve iskontoları arama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, bir satış siparişi oluşturmak zorunda kalmadan belirli bir müşteri için geçerli olan ürün fiyat ve iskonto bulmayı gösterir. Bu yordam belirli bir örneği adım adım izler ve örneği takip ederken gerekli değerleri seçebilmek için USMF demo şirketini kullanmanız gereklidir.
 

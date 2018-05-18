@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="workflow-overview"></a>İş akışı özeti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda, Financa and Operations'daki iş akışı sistemi açıklanmaktadır.
 

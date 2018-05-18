@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="employee-development-power-bi-content"></a>Personel gelişimi Power BI içeriği
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, **Personel gelişimi** Microsoft Power BI içeriğini açıklar.
 

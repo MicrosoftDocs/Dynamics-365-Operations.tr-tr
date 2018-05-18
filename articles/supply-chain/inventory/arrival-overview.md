@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="arrival-overview"></a>Varışa genel bakış
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, Varış genel bakış özelliği hakkında bilgi sağlamaktadır. Varış genel bakış sayfası bu özelliğin bir parçasıdır ve gelen maddelere, varması beklenen maddeler olarak genel bir bakış sağlamaktadır.
 

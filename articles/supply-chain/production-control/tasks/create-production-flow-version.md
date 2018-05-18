@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-a-production-flow-version"></a>Üretim akışı sürümü oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, yeni bir üretim akışı sürümünü oluşturmaya odaklanır. Bu yordam için yalın üretim ve sınıf zaman ölçümü birimleri için üretim parametreleri tanımlanmalıdır. Ayrıca bir değer akışı ve üretim grubu tanımlamanız gerekir. Üretim akışları ve yalın üretim faaliyetleri hakkında daha fazla bilgi için Microsoft Dynamics AX için yalın üretim teknik incelemelerine bakın. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

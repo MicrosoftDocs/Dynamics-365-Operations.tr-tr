@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Stok, üretim ve satıştaki maddeleri ve hammaddeleri izleme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda, madde izlemesini kullanarak maddelerin veya hammaddelerin üretim ve satış süreçlerinde nerede kullanılmış, kullanılmakta veya kullanılacak olduklarını belirleyebilirsiniz.
 

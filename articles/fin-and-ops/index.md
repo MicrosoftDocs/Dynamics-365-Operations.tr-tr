@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 
 # <a name="introduction-to-microsoft-dynamics-365-for-finance-and-operations"></a>Microsoft Dynamics 365 for Finance and Operations tanıtımı
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Son kullanıcılar, geliştirmeciler ve BT uzmanları için harika içeriklere ulaşmak isterseniz aşağıdaki kaynakları kullanarak Microsoft Dynamics 365 for Finance and Operations'ı işletmenizde nasıl kullanacağınızı öğrenin. 
 

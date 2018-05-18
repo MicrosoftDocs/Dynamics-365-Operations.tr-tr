@@ -24,7 +24,7 @@ ms.lasthandoff: 11/14/2017
 ---
 # <a name="create-a-product-configuration-model"></a>Ürün yapılandırma modeli oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, bir ürün yapılandırma modelinin nasıl oluşturulacağını ve öznitelikler ve alt bileşenler gibi temel bilgilerin nasıl girileceğini gösterir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="cash-overview-power-bi-content"></a>Nakde genel bakış Power BI içeriği
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, **Nakde genel bakış** Microsoft Power BI içeriğini açıklar. Bu ayrıca, içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 

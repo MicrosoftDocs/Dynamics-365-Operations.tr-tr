@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-time-entry-mobile-workspace"></a>Proje saati girişi mobil çalışma alanı
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, **Proje saati girişi** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, kullanıcıların bir projeye karşı mobil cihazlarını kullanarak zaman girmelerini ve kaydetmelerine olanak sağlar.
 

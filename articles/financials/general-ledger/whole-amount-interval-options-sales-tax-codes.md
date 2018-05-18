@@ -28,9 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Satış vergisi kodları için tüm tutar ve Aralık hesaplaması seçenekleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Bu makalede satış vergisi kodları için Hesaplama yöntemi alanının seçenekleri ve satış vergisinin aralıklar ve tüm tutarlar için nasıl hesaplanacağı açıklanmıştır.
 

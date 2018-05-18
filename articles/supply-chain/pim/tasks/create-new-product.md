@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-new-product"></a>Yeni bir ürün oluştur
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görevde yeni bir paylaşılan ürünün nasıl oluşturulacağı gösterilmiştir. Bu işlem genellikle bir ürün tasarımcısı tarafından gerçekleştirilir. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

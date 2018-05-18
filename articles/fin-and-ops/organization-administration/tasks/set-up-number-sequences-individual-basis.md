@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Bireysel olarak numara serileri ayarlama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Numara serileri, ana veri kayıtları ve bunları gerektiren işlem kayıtları için okunabilir ve benzersiz tanımlayıcılarını oluşturmada kullanılır. Tanımlayıcı gerektiren bir ana veri veya hareket kaydı, referans olarak adlandırılır. Bir referans için yeni kayıtlar oluşturmadan önce, bir numara serisi oluşturmalı ve bunu referans ile ilişkilendirmelisiniz. Tüm gerekli numara serilerini aynı zamanda, Numara serileri ayarla sihirbazını kullanarak ayarlayabilir veya Numara serileri sayfasından tek tek numara serilerini oluşturabilir, değiştirebilirsiniz.
 

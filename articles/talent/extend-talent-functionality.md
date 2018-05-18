@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent işlevselliğini genişletme
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Herhangi bir Microsoft PowerApps oluşturduysanız, bu uygulamaları Microsoft Dynamics 365 for Talent içindeki bağlantılardan başlatabilirsiniz. Uygulamalarınıza erişim ayarlamak için, Talent içinde bazı bilgileri **Sistem yönetimi** çalışma alanından açabileceğiniz bir yapılandırma sayfasında ayarlamanız gerekir.
 

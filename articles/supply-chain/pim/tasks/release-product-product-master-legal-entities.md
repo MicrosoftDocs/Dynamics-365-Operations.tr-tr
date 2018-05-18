@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>Ürünü/ana ürünü tüzel kişiliklere serbest bırakma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam bir ürün veya ana ürünün nasıl bir veya daha fazla tüzel kişiliğe serbest bırakılacağını gösterir. Bu görevi oluşturmak için kullanılan demo veri şirketi USRT'dir ve görev Satış Geliştirme Yöneticisi ve Ürün Tasarımcısı'na yöneliktir.
 

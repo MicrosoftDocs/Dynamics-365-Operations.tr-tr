@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-loads-using-hub-consolidation"></a>Hub konsolidasyonu kullanarak yükleri planlama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede aynı müşteriye farklı ambarlardan ürün teslim ederken veya ürünler farklı satıcılardan aynı ambara teslim edilirken sevkiyatları bir hub'da konsolide etme özelliği açıklanmaktadır.
 

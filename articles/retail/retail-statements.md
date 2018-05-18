@@ -29,7 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="retail-statements"></a>Perakende ekstreleri
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 for Retail içerisinde, ekstre deftere nakletme işlemi, Bulut satış noktası (POS) veya Modern POS (MPOS) içerisinde gerçekleşen hareketlerin muhasebesini yapmak için kullanılır. Beyan deftere nakil işlemi, bir POS hareket kümesini merkez (HQ) istemcisine çekmek için dağıtım planlama kullanılır. **Perakende parametreleri** ve **Mağazalar** sayfalarında tanımlanan parametreler, tek tek ekstrelere çekilecek hareketleri seçmek için kullanılır.  
 

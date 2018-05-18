@@ -24,9 +24,9 @@ ms.lasthandoff: 03/23/2018
 ---
 
 # <a name="batch-processing-for-alerts"></a>Uyarılar için toplu işleme
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 Uyarılar, Microsoft Dynamics 365 for Finance and Operations'ta toplu işleme işlevi tarafından işlenir. Uyarıların teslim edilebilmesi için önce toplu işlemeyi ayarlamanız gerekir.
 

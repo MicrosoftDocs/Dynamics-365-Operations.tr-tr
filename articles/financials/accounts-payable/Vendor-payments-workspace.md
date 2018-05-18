@@ -27,7 +27,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-payments-workspace"></a>Satıcı ödemeleri çalışma alanı
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **Satıcı ödemeleri** çalışma alanı satıcı ödemelerinin işlenmesiyle ilgili bilgileri gösterir. Bu çalışma alanı bir **İşim** görünümü ve bir **Analiz** sayfası içerir. **İşim** görünümü özet kutucuklarını, satıcı hareketi ızgaralarını ve ilgili satıcı bilgilerini gösterir. **Analiz** sayfası, Microsoft Power BI yeteneklerini, satıcı ödemeleriyle ilgili görselleri göstermek için kullanır.
 

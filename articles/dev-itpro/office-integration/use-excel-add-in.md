@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="use-the-excel-add-in"></a>Excel eklentisini kullanma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda, Microsoft Excel'de varlık verilerinin nasıl açılacağı, ardından Excel için Microsoft Dynamics Office eklentisini kullanarak bu verilerin nasıl görüntüleneceği, güncelleştirileceği ve düzenleneceği açıklanmaktadır. Varlık verilerini açmak için Excel veya Microsoft Dynamics 365 Finance and Operations sürümünden başlatabilirsiniz.
 

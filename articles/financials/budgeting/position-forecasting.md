@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="position-forecasting"></a>Pozisyon tahmini
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Çalışanlar ile ilgili giderler sıklıkla bir kuruluşun maliyetlerinin büyük bir kısmını teşkil eder. Pozisyon tahmini bu giderleri planlamanızı ve bunları bütçe planlamasına dahil etmenizi sağlar.
 

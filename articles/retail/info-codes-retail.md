@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="info-codes"></a>Bilgi kodları
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Bu makalede bilgi kodları, bilgi kodu grupları ve bunların nasıl kullanılacağı hakkında genel bir bakış sunulmuştur.
 

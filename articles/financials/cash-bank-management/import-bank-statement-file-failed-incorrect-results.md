@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="bank-statement-file-import-troubleshooting"></a>Banka ekstresi dosya alma sorunlarını giderme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bankadan gelen banka ekstresi dosyasının, Microsoft Dynamics 365 for Finance and Operations tarafından desteklenen düzenle eşleşmesi önemlidir. Banka ekstreleri için sıkı standartlar bulunduğundan çoğu tümleştirme doğru şekilde çalışacaktır. Ancak, bazen ekstre dosyası alınamayabilir veya hatalı sonuçlara sahip olabilir. Genellikle, bu sorunlar banka ekstresi dosyasındaki küçük farklılıklar nedeniyle ortaya çıkar. Bu makale, bu farklılıkları gidermeyi ve sorunların nasıl çözüleceğini açıklar.
 

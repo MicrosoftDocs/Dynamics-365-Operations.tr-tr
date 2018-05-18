@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-value-stream"></a>Değer akışı oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Değer akışları, bir veya birden çok üretim akışını gruplayan faaliyet birimleridir. Bir üretim akışı tanımlamak için önce bir değer akışı tanımlamanız gerekir.
 

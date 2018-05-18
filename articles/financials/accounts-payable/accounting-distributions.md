@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accounting-distributions"></a>Muhasebe dağılımları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, muhasebe dağılımları hakkında bilgiler verilmekte ve muhasebe dağılımlarını işlemek için kullanılabilecek seçenekler açıklanmaktadır. Muhasebe dağılımları, bir kaynak belgenin parasal tutarlarını belirli genel muhasebe hesaplarına tahsis etmek için kullanılır. 
 

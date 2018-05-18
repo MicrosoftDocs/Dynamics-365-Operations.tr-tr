@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-cost-accounting-ledger"></a>Maliyet muhasebesi genel muhasebesi oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bir maliyet muhasebesi defteri, genel raporlama birimini temsil eder. Maliyet öğesi boyutu, istatistiksel boyut, mali takvim ve para birimi tarafından tanımlanır. Tüzel kişiler kavramına agnostiktir. Bir tüzel kişilik ve verisi birden fazla maliyet muhasebesi defteri ile ilişkili olabilir. Bu kayıt USP2 demo veri şirketini kullanır.
 

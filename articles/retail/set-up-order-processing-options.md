@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="set-up-a-call-center-channel"></a>Çağrı merkezi kanalı ayarlama
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 for Retail'de bir şirket birden fazla çağrı merkezi kanalı tanımlayabilir. Çağrı merkezi kanalları **Perakende** \> **Kanallar** \> **Çağrı merkezleri** \> **Tüm çağrı merkezleri**'nde yapılandırılır ve belirli bir tüzel kişiliğe özeldir.
 

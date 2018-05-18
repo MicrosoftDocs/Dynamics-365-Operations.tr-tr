@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components"></a>Diğer bileşenlerden yapılandırmaların bağımlılığını tanımla 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu adımları tamamlamak için önce ER Model eşleme yapılandırmalarını yönet görev kılavuzundaki adımları tamamlamalı ve Microsoft Dynamics Lifecycle Services (LCS) üzerinde erişim sahibi olmanız gerekir.
 

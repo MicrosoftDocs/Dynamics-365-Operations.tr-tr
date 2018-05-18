@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="modify-format-to-generate-documents-with-application-data"></a>Uygulama verileriyle belgeler oluşturmak için biçim değiştirme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordamdaki adımları tamamlamak için ilk önce "ER Uygulama veri güncelleştirmesi ile belgeler oluştur (Bölüm 3: Model ve eşlemeyi değiştir)" yordamını tamamlamalısınız.
 

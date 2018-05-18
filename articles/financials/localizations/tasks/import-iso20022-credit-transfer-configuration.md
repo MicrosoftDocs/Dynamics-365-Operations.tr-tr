@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="import-iso20022-credit-transfer-configuration"></a>ISO20022 alacak transferi yapılandırmasını içe aktarma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, satıcı ödemesi elektronik raporlama yapılandırmasının nasıl içe aktarılacağını gösterir. Örnek olarak Alman ISO 20022 alacak transfer biçimi kullanılır. Bu yordam diğer mevcut elektronik raporlama biçimleri için kullanılabilir. 
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-book-upgrade-overview"></a>Amortisman defteri yükseltme genel bakışı
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri olmak üzere iki değerleme kavramı vardı. Microsoft Dynamics 365 for Operations (1611) ile, değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir. Bu konu yükseltme işleminde dikkate alınması gereken bazı noktaları ele alır. 
 
@@ -62,17 +62,17 @@ Seçenek 2: **Mevcut kullanıcı tarafından belirlenmiş numara serisi** - Bu s
 Parametreler ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans sınıfının başında yer alır. 
 
 *// Fiş tahsisatı için tercih edilebilir yaklaşım belirtin* 
-*// true, mevcut bir numara serisi kodu kullanmak istiyorsanız* 
-*// false, sistem tarafından tanımlanan numara serisini (varsayılan) kullanmaya niyetliyseniz* const boolean NumberSequenceUseExistingCode = false;  
+ *// true, mevcut bir numara serisi kodu kullanmak istiyorsanız* 
+ *// false, sistem tarafından tanımlanan numara serisini (varsayılan) kullanmaya niyetliyseniz* const boolean NumberSequenceUseExistingCode = false;  
 
 *// Sistem tarafından tanımlanan numara serisi yaklaşımını kullanırsanız, numara serisi için parametreleri belirtin.*
-*// Bu parametrelerle yeni bir numara serisi oluşturulur.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
+ *// Bu parametrelerle yeni bir numara serisi oluşturulur.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
 
 *// Mevcut numara serisi yaklaşımını kullanıyorsanız, mevcut numara serisi kodunu belirtin.* 
-*// Fiş tahsisatı mevcut numara serileri için satır satır gidecektir.* const str NumberSequenceExistingCode = ''; *// Mevcut numara serisi kodunun kapsamını belirtin* 
-*// true, belirtilen numara serisi paylaşımlıysa* 
-*// false, belirtilen numara serisi şirket başına ise* 
-*// Varsayılan sistem tanımlı numara serisi, belirtilen kapsama sahip bir numara serisi kodu bulunmazsa kullanılacaktır.* const boolean NumberSequenceExistingIsShared = true; 
+ *// Fiş tahsisatı mevcut numara serileri için satır satır gidecektir.* const str NumberSequenceExistingCode = ''; *// Mevcut numara serisi kodunun kapsamını belirtin* 
+ *// true, belirtilen numara serisi paylaşımlıysa* 
+ *// false, belirtilen numara serisi şirket başına ise* 
+ *// Varsayılan sistem tanımlı numara serisi, belirtilen kapsama sahip bir numara serisi kodu bulunmazsa kullanılacaktır.* const boolean NumberSequenceExistingIsShared = true; 
 
 Sabitler değiştirildikten sonra sınıfı içeren projeyi yeniden oluşturun. 
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Retail Modern POS için resimleri ayarlama ve yönetme
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Bu makalede, Retail Modern POS'ta (MPOS) görüntülenen çeşitli varlıklar için resimlerin ayarlanmasını ve yönetilmesini sağlayan adımlar açıklanmaktadır.
 

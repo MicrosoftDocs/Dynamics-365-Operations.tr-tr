@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-performance-review"></a>Performans incelemesi oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam bir performans gözden geçirmenin nasıl oluşturulacağını ve gözden geçirmenin her bölümünün amacını açıklar. Bu yordam, USMF demo veri şirketi kullanılarak oluşturulmuştur. Bu yordam, Dynamics 365 for Operations sürüm 1611'e eklenen bir özellik içindir.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/22/2018
 
 # <a name="pos-operations-online-and-offline"></a>Çevrimiçi ve çevrimdışı POS işlemleri
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Kullanıcının satış noktasında (POS) gerçekleştirdiği çoğu eylem işlem olarak kabul edilir. İşlemler Microsoft Dynamics 365 for Retail arka ofiste yapılandırılır ve yönetilir. Çoğu işlem POS düğme grubundaki düğmelere eklenebilir. Kullanıcılar daha sonra işlemleri başlatmak ve işlevlerini gerçekleştirmek için düğmeleri seçebilir. Diğer işlemler ana POS uygulamasının parçalarıdır ve ekran düğmeleri veya diğer iş akışları veya süreçleri tarafından başlatılır.
 

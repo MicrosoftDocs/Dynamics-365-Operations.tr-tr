@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reserve-inventory-quantities"></a>Stok miktarlarını rezerve etme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu stok rezervasyonunda kullanılabilen farklı seçenekleri açıklar.
 

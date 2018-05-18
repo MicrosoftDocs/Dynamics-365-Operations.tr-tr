@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="assign-users-to-security-roles"></a>Kullanıcıları güvenlik rollerine atama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations erişimi sağlamak için kullanıcıların güvenlik rollerine atanmış olmaları gerekir. Bu yordam sistem yöneticilerinin kullanıcıları iş verilerine dayalı olarak rollere otomatik olarak nasıl atayabileceklerini açıklar. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

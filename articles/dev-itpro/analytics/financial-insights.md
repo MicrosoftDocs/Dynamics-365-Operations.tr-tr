@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="financial-insights"></a>Mali Bilgiler
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **Mali Bilgiler** mali anahtar performans göstergeleri (KPI'lar), mali tablolar ve grafikleri bir araya getirmek için Microsoft Power BI kullanır. Power BI Microsoft Dynamics 365 Finance and Operations içine katıştırılmıştır.
 **Mali Bilgiler**'in odağı analitik raporlamadır. Bir kuruluştaki kişiler görüntüleyebilir, araştırma yapabilir, anlayabilir ve harekete geçebilir. 

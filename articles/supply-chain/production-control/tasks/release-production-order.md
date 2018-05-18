@@ -24,7 +24,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="release-a-production-order"></a>Üretim emrini serbest bırakma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu prosedürde bir üretim emrinin nasıl verildiği gösterilmektedir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu, üretim emri yaşam döngüsünü açıklayan yedi prosedürün dördüncüsüdür.
 

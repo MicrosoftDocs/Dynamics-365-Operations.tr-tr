@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="costing-sheets"></a>Maliyetlendirme tabloları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Maliyetlendirme tablosunun kurulumu için iki hedef gerekir. İlk hedef olarak, üretilmiş bir madde veya üretim emri hakkındaki satılan malların maliyetini görüntüleme biçimini tanımlarsınız. Biçimlendirilmiş görüntüye maliyetlendirme tablosu adı verilir. İkinci hedef olarak, dolaylı maliyetleri hesaplama temelini tanımlarsınız. Maliyetlendirme tablosu kurulumu, bilgi görüntüleme ve dolaylı maliyet hesaplama formülleri için maliyet grubu özelliğini temel alır. Bu makalede maliyetlendirme tablosu kurulumunun iki hedefi açıklanmıştır. 
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="set-up-a-product-configuration-model"></a>Ürün yapılandırma modelini ayarlama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, bir ürün yapılandırma modelinin ayarlanmasına ve oluşturulmasına yönelik adımlar açıklanmaktadır.
 

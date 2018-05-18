@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Alacak hesaplarında alacak ve tahsilatlar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Alacak hesapları tahsilat bilgileri, Finance and Operations Collections sayfası kullanılarak bir merkezi görünümde yönetilir. Kredi ve tahsilat yöneticileri bu merkezi görünümü kullanarak tahsilatları yönetebilir. Tahsilat temsilcileri, tahsilat işlemine önceden tanımlanmış tahsilat kriterlerini kullanarak oluşturulmuş müşteri listelerinden veya Müşteriler sayfasından başlayabilir.
 

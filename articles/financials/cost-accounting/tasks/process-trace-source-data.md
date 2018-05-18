@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="process-and-trace-source-data"></a>Kaynak verilerini işleme ve izleme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Tüm veri işleme işler tarafından yürütülür. Her bir iş ve veri sağlayıcı için geçerli işin işlendiği girişler ve işlemin çalıştırıldığı belge için bir günlük oluşturulur. Bir veri kaynağı kurmak için bu yordamı kullanın ve belirli maliyet girişinin kaynağını izleyin. Bu kayıt USP2 demo veri şirketini USP2 kullanır. Bu görevi tamamlamadan önce, aşağıdaki görev kılavuzlarını yürüttüğünüzden emin olun: "Bir maliyet muhasebesi defteri oluştur", "Maliyet kontrol birimleri tanımla" ve "Maliyet muhasebesi defteri için veri kaynağını yönet".
 

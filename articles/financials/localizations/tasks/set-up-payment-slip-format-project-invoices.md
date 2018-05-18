@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>Proje faturaları için ödeme makbuzu biçimini ayarlama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 İşletmeler fatura nakli ve ödemeleri için ödeme başvurusu sağlamak ve müşterilere yardımcı olmak amacıyla genellikle ödeme makbuzlarını yazılı şekilde faturaya iliştirirler. Ödeme makbuzu proje veya servis faturaları, tahsilat mektupları, vade farkı dekontları, hesap özetleri, satış faturaları ve serbest metin faturalarının yanı sıra hesap ekstreleri için kullanılabilir. Ödeme makbuzlarınızı işlemek için ilk önce alacaklı kimlik numaranızı ve ödeme makbuzunu iliştirme biçimlerini ayarlayın.
 

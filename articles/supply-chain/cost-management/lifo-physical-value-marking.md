@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="lifo-with-physical-value-and-marking"></a>Fiziksel değer ve işaretleme ile LIFO
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Son Giren İlk Çıkar (LIFO), son (en yeni) girişlerin en önce çıkarıldığı bir stok modelidir. Stok çıkışları, stok hareketinin tarihine dayalı olarak son son girişlerine göre kapatılır. 
 

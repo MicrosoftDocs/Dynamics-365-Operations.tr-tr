@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-rules-for-optimization-advisor"></a>En iyi duruma getirme danışmanı için kurallar oluşturma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu **En iyi duruma getirme danışmanı** için nasıl yeni kurallar oluşturulacağını açıklar. Örneğin, hangi Teklif Talebi (RFQ) servis taleplerinin boş bir başlığı olacağını tanımlayan yeni bir kural oluşturabilirsiniz. Servis taleplerinde başlıklar kullanmak bunların kolayca tanımlanabilmesini ve aranabilmesini sağlar. Bu örnek son derece basit olmakla birlikte en iyi durumu getirme kuralları ile nelerin elde edilebileceğini gösterir. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>RFQ tekliflerini girip karşılaştırma ve işi verme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu prosedürde bir RFQ'ya yanıtların nasıl girileceği, tekliflerin nasıl puanlandırılacağı ve karşılaştırılacağı ve ardından teklif için satıcılardan birinin nasıl seçileceği gösterilmiştir. Bu prosedürü USMF demo veri şirketinde kullanabilirsiniz. Başlamadan önce, en az iki satıcıya gönderilmiş iki satır içeren bir RFQ'ya sahip olmanız gerekir. Bunun oluşturulması için bir ön şart olarak "Teklif için bir talep oluştur" prosedürünü yürütebilirsiniz. Bu prosedürü yürütmeden önce puanlama ölçütlerini belirlemeniz gerekir.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-collection-letter-sequence"></a>Tahsilat mektubu sırası oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Tahsilat mektubu sırası oluşturmak için bu görev kılavuzunu kullanın. Bu görevde USMF demo şirketi kullanılmaktadır.
 

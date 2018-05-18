@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="plan-your-chart-of-accounts"></a>Hesap planınızı planlama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda, kuruluşunuzun hesap planını yapmanıza yardımcı olacak bilgiler verilmektedir.
 

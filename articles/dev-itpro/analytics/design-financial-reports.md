@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-and-design-financial-reports"></a>Mali raporları görüntüleme ve tasarlama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makale, Microsoft Dynamics 365 for Finance and Operations için mali raporları görüntüleme ve oluşturma konusunda size yol gösteren alıştırmalar sağlar. Mali raporlama, Finance and Operations içerisinde bulunan görüntüleme deneyimlerinden ve mali raporları oluşturmanızı ve düzenlemenizi sağlayan tek tıkla rapor tasarlayıcısından oluşur.  
 

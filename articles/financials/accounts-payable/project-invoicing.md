@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="project-invoicing"></a>Proje faturalama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, Zaman ve malzeme projeleri ve Sabit fiyatlı projeler için proje faturalamaya genel bir bakış verilmektedir. Fatura teklifleri (ön faturalar), fatura kontrolü, hesaba mahsup faturalama, satıcı faturalama ve hakkındaki bilgileri içerir ve alacak dekontları hakkında bilgiler içermektedir.
 

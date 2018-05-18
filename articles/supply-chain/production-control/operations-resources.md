@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-resources"></a>Operations kaynakları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Operasyon kaynakları, bir projenin veya bir üretim işleminin etkinliklerini gerçekleştirir. Bunlar farklı türlerde, farklı yeteneklere sahip olabilir. 
 

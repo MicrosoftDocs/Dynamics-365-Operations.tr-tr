@@ -28,9 +28,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="inventory-journals"></a>Stok günlükleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Bu konuda, çeşitli fiziksel stok hareketi türlerini deftere nakletmek için stok günlüklerini nasıl kullanabileceğiniz açıklanmaktadır.
 

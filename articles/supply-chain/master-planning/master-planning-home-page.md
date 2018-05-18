@@ -29,7 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>Master planlama ana sayfası
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Temel olarak master planlama, şirketlerin şirket hedeflerini karşılamak için gelecekteki hammadde ve kapasite gereksinimini belirlemesine ve planlamasına olanak tanır. Master planlama aşağıdakileri değerlendirir: 
 

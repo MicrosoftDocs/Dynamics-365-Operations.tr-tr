@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-and-generate-positive-pay-files"></a>Pozitif ödeme dosyaları kurma ve oluşturma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede pozitif ödemenin nasıl kurulacağı ve pozitif ödeme dosyalarının nasıl oluşturulacağı açıklanmıştır. 
 

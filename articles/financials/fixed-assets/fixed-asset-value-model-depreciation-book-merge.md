@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Sabit kıymet değer modeli ve amortisman defteri birleştirme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Önceki sürümlerde, sabit kıymetler - değer modelleri ve amortisman defterleri olmak üzere iki değerleme kavramı vardı. Microsoft Dynamics 365 for Operations (1611) ile, değer modeli işlevselliği ve amortisman defteri işlevselliği bir defter olarak bilinen tek bir kavramda birleştirilmiştir.
 

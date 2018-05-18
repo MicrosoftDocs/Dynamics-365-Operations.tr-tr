@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="company-directory-mobile-workspace"></a>Şirket dizini mobil çalışma alanı
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, **Şirket dizini** mobil çalışma alanı hakkında bilgi sağlar. Bu çalışma alanı, kullanıcıların kuruluşlarındaki diğer personelleri görmelerine ve onlarla iletişim kurmalarını sağlar.
 

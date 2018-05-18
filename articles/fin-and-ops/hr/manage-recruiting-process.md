@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-a-recruiting-process"></a>Bir işe alma sürecini yönetmek
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu açık pozisyonların ilan edilmesi ve başvuru sahiplerinin işe alınması işlemleri, başvuru sahibinin ve başvuru bilgilerinin takip edilmesi, başvuru sahipleriyle iş görüşmeleri gerçekleştirilmesi ve organizasyonunuzdaki açık pozisyonların doldurulması amacıyla bir veya daha fazla sayıda aday seçilmesi de dahil olmak üzere işe alan kişilerin bir işe alma sürecindeki adımları takip etmek üzere kullanabileceği bir konsept açıklanmıştır.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>Birden çok sabit kıymete yönelik amortisman yöntemlerini değiştirme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev, belirli bir sabit kıymetler grubunun amortisman yöntemini güncelleştirir. Bu görev kılavuzunda USMF demo şirketi kullanılmaktadır.
 

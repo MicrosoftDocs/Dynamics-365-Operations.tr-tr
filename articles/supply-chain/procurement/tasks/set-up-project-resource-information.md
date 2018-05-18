@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-project-resource-information"></a>Proje kaynak bilgilerini ayarlama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, bir proje kaynağı ayarlamayı gösterir. Bu görev, USMF veri kümelerini kullanır.
 

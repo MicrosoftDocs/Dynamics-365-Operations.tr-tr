@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="inspect-the-quality-of-goods"></a>Malların kalitesini denetleme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 ,Bu yordam, bir kalite emrinin nasıl işleneceğini gösterir. Bu kılavuzu USMF demo şirketinde çalıştırabilirsiniz. Bu örnek işleme başlamadan önce "000016" satınalma siparişini onaylamanız ve ürün alış irsaliyesini deftere nakletmeniz gerekir. Bu otomatik olarak bir kalite emri oluşturur. Kalite incelemeleri genellikle bir kalite memuru tarafından gerçekleştirilir.
 

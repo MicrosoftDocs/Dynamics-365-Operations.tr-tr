@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="close-accounts-receivable"></a>Alacak hesaplarını kapatma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Aşağıdaki tabloda, Alacak hesaplarını kapat iş sürecini destekleyen sayfalar listelenmiştir.
 

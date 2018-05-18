@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-a-workflow"></a>İş akışı oluşturma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu bir iş akışının nasıl oluşturulacağını açıklar.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="store-order-fulfillment"></a>Mağaza sipariş karşılama
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Birçok satıcı, mağazaların siparişleri karşılamasını sağlayarak sipariş karşılama yeteneğini en iyi duruma getirmek istemektedir. Mağaza seviyesinde sipariş karşılama belirli bir mağazayla ilgili aşırı stok senaryolarını kolay hale getirmeye yardımcı olabilir ve bir mağazanın ekstra kapasitesi olması veya müşteriye daha yakın bir sevkiyat mesafesinde yer alması durumunda lojistik açıdan gerekli olabilir. Bu ihtiyacı karşılamak için, satış noktasında birleştirilmiş sipariş karşılama işlemi bulunmaktadır.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Ürün reçetesi ve formül satırlarını ambara serbest bırakma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda, ürün reçetesi satırları ve formül satırları için ambara hammadde serbest bırakma süreci açıklanmaktadır. Bir ürün reçetesi veya formül satırını ambara serbest bıraktığınızda, sistem önce malzemenin üretim sürecinde tüketileceği yer alan atölyedeki ürün girişi konumunda halihazırda kullanılabilir olup olmadığını belirler.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advanced-filtering-and-query-syntax"></a>Gelişmiş filtreleme ve sorgu söz dizimi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, Gelişmiş filtreleme/sıralama iletişim kutusundaki "eşleşmeler" işlecini kullanırken kullanılabilecek filtreleme ve sorgu seçenekleri açıklanmaktadır.
 

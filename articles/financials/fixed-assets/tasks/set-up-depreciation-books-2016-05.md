@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-depreciation-books"></a>Amortisman defterleri ayarlama  
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev kılavuzunda yeni bir amortisman defteri oluşturulup bir sabit kıymet grubuyla ilişkilendirilecek.  Kılavuzda Muhasebeci rolü ve USMF adlı tüzel kişilik için demo verileri kullanılmaktadır.
 

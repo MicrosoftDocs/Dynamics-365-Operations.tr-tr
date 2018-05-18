@@ -3,7 +3,7 @@ title: "Tedarik zinciri yönetimi giriş sayfası"
 description: "Bu sayfa, Microsoft Dynamics 365 for Finance and Operations'ın tedarik zinciri yönetim özellikleri için yardım konularının ve diğer kaynakların bir listesini sağlar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 02/15/2018
+ms.date: 05/09/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,16 +19,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9e3551580cc03ebf62ec42283c5a9a885d8c8d8f
+ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
+ms.openlocfilehash: df35f70d8297aa2a832d143217542e3d558040ea
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
 # <a name="supply-chain-management-home-page"></a>Tedarik zinciri yönetimi giriş sayfası
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Bu onu, Microsoft Dynamics 365 for Finance and Operations'ın tedarik zinciri yönetim özellikleri için yardım konularının ve diğer kaynakların bir listesini sağlar. 
 
@@ -47,10 +47,15 @@ Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
 - [Ürün bilgileri yönetimi](pim/product-information.md)
 - [Üretim denetimi](production-control/production-process-overview.md)
 - [Satış ve pazarlama](sales-marketing/overview-sales-marketing.md)
+- [Servis yönetimi](service-management/service-management-home-page.md)
 - [Taşıma yönetimi](transportation/transportation-management-overview.md)
 - [Ambar yönetimi](warehousing/warehouse-configuration.md)
 
 ## <a name="videos"></a>Videolar
+
+Bu kısa videolar, Microsoft Dynamics 365 for Finance and Operations sürüm 8.0'daki (Nisan 2018) yeni özellikleri öğrenmenize yardımcı olur.
+
+- [Field Service ile Finance and Operations arasında bir iş emrini eşitleme](https://youtu.be/hAB4TDVMjxU)
 
 Bu kısa videolar, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3'teki (Aralık 2017) yeni özellikleri öğrenmenize yardımcı olur.
 
@@ -84,7 +89,7 @@ Bu teknik konferans kayıtlarında Finance and Operations'ın önceki sürümün
 
 **Ambar yönetimi** 
 
--  [Ambar yönetiminde gelen ÖSB'leri işleme](https://mix.office.com/watch/wpf78tr7rjuh)  
+<!---  [Process inbound ASNs in Warehouse management](https://mix.office.com/watch/wpf78tr7rjuh)-->  
 -  [Ambar yönetimi sisteminizden en iyi şekilde yararlanma](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
 -  [Gelişmiş R3 Ambar yönetimi: Gelen işleme ve minimum/maksimum stok yenileme](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
 -  [Gelişmiş R3 Ambar yönetimi: Yaşamdan bir gün, giden işleme ve talep stok yenilemesi](https://youtu.be/Og0gLlVp7jA)

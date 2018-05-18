@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-channel-attributes"></a> Kanal özniteliklerini tanımlama
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Kanalı, ürün ve kanal öznitelikleri ekleyerek zenginleştirin. Öznitelikleri tanımlamadan önce kanalı varsayılan organizasyon hiyerarşisine eklemeniz gerekir.
 

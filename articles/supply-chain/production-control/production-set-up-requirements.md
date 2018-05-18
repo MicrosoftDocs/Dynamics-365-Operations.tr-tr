@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-setup-requirements"></a>Üretim kurulumu gereksinimleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, Üretim denetimiyle çalışabilmenize ilişkin kurulum gereksinimleri hakkında bilgi verilmektedir. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-process-customer-rebates"></a>Müşteri indirimlerini oluşturma ve işleme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu prosedür, müşteri indirimlerinin talep oluşturulmasından, alacak hesaplarına tahakkuk edilmesi noktasına kadar nasıl işleneceğini göstermektedir. Belirli bir örnek üzerinden, indirim satırlarındaki çeşitli şartların müşteriye alacak olarak kaydedilecek son tutarları nasıl etkilediğini adım adım gösterecektir. USMF demo verileri şirketini kullanmalısınız ve Rehber başlamadan önce aşağıdaki görevleri gerçekleştirmiş olmanız gerekir: (1) Alacak hesapları parametreleri sayfasına gidin ve Fiyatlar öğesi ve sonra Fiyat yyrıntılar öğesini açın ve Fiyat ayrıntılarını etkinleştir seçeneğinin Evet olarak ayarlanmış olduğundan emin olun. (2) İndirim anlaşmaları sayfasına gidin ve müşteri indirim anlaşması USMF-000001'i seçin. Eğer İş akışı onay durumu alanı Onaylandı olarak ayarlanmamışsa, onaylamak için Eylem Bölmesinde Doğrulama seçeneğine tıklamanız gereklidir.
 

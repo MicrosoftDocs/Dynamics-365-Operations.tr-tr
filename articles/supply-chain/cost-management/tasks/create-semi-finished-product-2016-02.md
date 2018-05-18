@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-semi-finished-product-february-2016-only"></a>Yarı mamul ürün oluşturma (yalnızca Şubat 2016)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev, yarı mamul bir ürün oluşturmaya odaklanır. Ürün Reçetesi hesaplama serisindeki ikinci görevdir. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>Maliyet yönetimi giriş sayfası
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 [Maliyet yönetimi (video)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) hammaddelerin, yarı mamul malların, mamul malların ve süren iş kıymetlerinin değerlemesi ve muhasebesi üzerinde çalışmanızı sağlar. Bu, [Stok muhasebesi](cost-object.md) ve [Üretim muhasebesini](bom-calculations.md) tanımlama, yönetme ve raporlama işlemidir.
 

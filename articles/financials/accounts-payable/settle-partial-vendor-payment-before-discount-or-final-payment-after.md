@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Kısmi satıcı ödemesini iskonto tarihinden önce, iskonto tarihinde nihai bir ödemeyle kapatma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, bazısı nakit iskonto dönemi dahilinde, diğerleri nakit iskonto dönemi haricinde olmak üzere birden fazla kısmi ödemenin yapıldığı bir senaryo boyunca size eşlik edilmektedir.
 

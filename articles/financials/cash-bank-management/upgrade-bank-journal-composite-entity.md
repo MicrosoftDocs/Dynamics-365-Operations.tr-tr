@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-the-bank-journal-composite-entity"></a>Banka günlüğü birleşik varlığını güncelleştirme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Ek BankaHareketTürü alanını birleşik BankaGünlükVarlığı'na eklemek için aşağıdaki adımlar gereklidir.
 

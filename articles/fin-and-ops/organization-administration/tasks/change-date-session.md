@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-date-for-the-session"></a>Oturumun tarihini değiştirme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Varsayılan olarak, günlük girişlerini veya kaynak belgelerini girerken ya da deftere naklederken geçerli tarih kullanılır. Geçerli oturumunuzda kullanılan tarihi değiştirebilirsiniz. Gerektiğinde günlük girişlerini veya kaynak belgelerini geri tarihli işlemek için bu özelliği kullanın.
 

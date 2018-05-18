@@ -24,7 +24,7 @@ ms.lasthandoff: 02/15/2018
 ---
 # <a name="benefit-eligibility-process"></a>Kazanç uygunluğu işlemi
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, kazanç uygunluk işleminin nasıl çalıştığını gösterir. İşlem tamamlandığında sonuçları görüntüleyebilirsiniz. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

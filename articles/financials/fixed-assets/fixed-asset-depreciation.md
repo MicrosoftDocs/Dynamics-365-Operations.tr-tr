@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-depreciation"></a>Sabit kıymet amortismanı
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda sabit kıymetlerin amortismanına genel bir bakış sunulmuştur.
 

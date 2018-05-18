@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-the-relationships-between-organizational-units"></a> Kuruluş birimleri arasındaki ilişkileri tasarlama
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam kuruluş birimleri arasında ilişkiler tasarlamayı adım adım gösterir. İlişkiyi tanımlamadan önce yeni bir kuruluş amacı oluşturmalısınız veya mevcut kuruluş amacını kullanabilirsiniz. Bu prosedürün tamamlanması için veri şirketi USRT demo kullanılır. Bu görev, yöneticiler rolünü hedefler.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="release-production-orders"></a>Üretim emirlerini serbest bırakma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Serbest bırakılmış bir üretim emri, üretim için yetkilendirilmiş bir emirdir. Serbest bırakılmış terimi, üretim emri yaşam döngüsünde, üretim emrinin üretim atölye katında uygulamaya geçirilmeye ve ambar işlemlerine hazır olduğu bir durumu ifade eder. 
 

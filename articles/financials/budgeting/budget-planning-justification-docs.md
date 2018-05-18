@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-justification-documents"></a>Bütçe planlama gerekçe belgeleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Gerekçe belgeleri, belirli bir bütçenin neden gerekli olduğunu açıklamak isteyenler için açıklama sağlar. 
 

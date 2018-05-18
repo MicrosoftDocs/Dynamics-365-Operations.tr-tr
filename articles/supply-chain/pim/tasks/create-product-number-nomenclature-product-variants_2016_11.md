@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-product-number-for-configured-product-variants"></a>Yapılandırılmış ürün çeşitleri için ürün numarası oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, yapılandırılmış ürün çeşitleri için bir ürün numara terminolojisinin nasıl ayarlanacağını ve yapılandırılabilir bir ana ürüne nasıl eklenebileceğini gösterir. Bu yordam ayrıca bir ürün yapılandırma model bileşeni için bir yapılandırma terminolojisini nasıl oluşturabileceğinizi de gösterir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Yeni ürün numarası terminolojisi D0004 ana ürününe atanmıştır. Bu görev genellikle bir ürün tasarımcısı tarafından gerçekleştirilir.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a>Modern POS ile Cloud POS arasında seçim yapma
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Bu konu uygulamacılara, Microsoft Dynamics 365 for Retail dağıtırken dikkate almaları gereken faktörlerle ilgili ek bilgiler, ipuçları ve kılavuzlar sağlar. Dağıtım sürecinin bir parçası olarak bu kılavuzu gözden geçiren ve izleyen uygulamacılar kullanıcı memnuniyetini veya performansı etkileyebilecek sorunları önleyebilir.
 

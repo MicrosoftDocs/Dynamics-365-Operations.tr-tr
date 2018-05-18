@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-application-inbox-records"></a>Uygulama gelen kutusu kayıtlarını onaylama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam personel self servis sayfalarından alınan başvuruların nasıl inceleneceğini gösterir. Uygulamaların gözden geçirilmesinin yanı sıra, seçtiğiniz kutu kayıtlarında uygulamayı onaylayabilirsiniz. Başvuru gelen kayıtları, göz önünde bulundurulmak üzere şirkete gönderilen işe alma başvurularını temsil eder. Bir kaydı onayladıktan sonra, başvuruyu gönderen kişi için bir başvuran kaydı oluşturulur. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

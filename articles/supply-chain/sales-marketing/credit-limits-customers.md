@@ -26,7 +26,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="credit-limits-for-customers"></a>Müşteriler için kredi limitleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bir kredi limiti ayarlamak, müşterilerinize sunacağınız maksimum kredi tutarını belirlemenizi sağlar. Bir kredi limiti belirtilirse, bir kullanıcı bir belgeyi güncelleştirmeye teşebbüs ettiğinde otomatik denetlenir. Kredi limiti aşıldığında, kullanıcıya bir ileti görüntülenir. Bu makale, kredi limitlerinin nasıl çalıştığına genel bir bakış sağlar ve aşağıdaki soruları yanıtlar:
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="process-compensation"></a>Ücret işleme
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Ücret işleme, öz varlık düzenlemeleri, başarı artışı hedefleri ve performansı temel alarak personelinizin yeni taban ücret tutarlarını hesaplamanıza olanak tanır. Bu konu, bir personelin performansını değerlendirmeye katılmadan sabit ücret planları için ücret işleme temel akışını ele almaktadır.
 

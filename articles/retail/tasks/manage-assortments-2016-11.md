@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="manage-assortments"></a> Ürün çeşitlerini yönetme  
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Bu yordam yeni bir ürün sınıfının nasıl oluşturulduğunu ve yayınlandığını gösterir ve tanıtım verisi şirketi USRT'yi kullanır. Bu yordam Dynamics AX uygulaması 7.0.1 veya sonraki bir sürümü ve Dynamics AX platformu 7.1'i gerektirir.  
 

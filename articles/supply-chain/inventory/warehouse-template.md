@@ -29,7 +29,7 @@ ms.lasthandoff: 02/06/2018
 
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Ambar yapılandırma şablonu kullanarak bir ambarı ayarlama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu ambar yapılandırma şablonu kullanarak bir ambarın nasıl ayarlanacağını açıklamaktadır. Kullanabileceğiniz çeşitli önceden tanımlanmış yapılandırma şablonları bulunur. Bu şablonların nasıl kullanılacağı hakkında bilgi için bkz. [Yapılandırma veri şablonları](../../dev-itpro/data-entities/configuration-data-templates.md).
 

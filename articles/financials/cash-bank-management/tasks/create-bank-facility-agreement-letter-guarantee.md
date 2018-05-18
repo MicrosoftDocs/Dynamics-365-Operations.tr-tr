@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>Teminat mektubu için banka hizmet sözleşmesi oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev teminat mektubu işlemek için bir banka tesis sözleşmesi oluşturur. Bu görevde USMF demo şirketi kullanılmaktadır. 
 

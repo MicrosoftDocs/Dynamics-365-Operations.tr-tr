@@ -29,9 +29,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="weighted-average-with-physical-value-and-marking"></a>Fiziksel değer ve işaretleme ile ağırlıklı ortalama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Ağırlıklı ortalama, stoktaki çıkışların stok kapanış dönemi sırasında stokta ve önceki dönemdeki eldeki stoklarda girişi yapılan maddelerin ortalama değeri ile değerlendirildiği ortalama ağırlık ilkesine dayanan bir stok modelidir.
 

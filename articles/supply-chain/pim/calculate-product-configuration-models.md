@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="calculations-for-product-configuration-models-faq"></a>Ürün yapılandırma modeli için hesaplamalar SSS
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu ürün yapılandırma modelleriyle ilgili hesaplamaları açıklar ve hesaplamaların kısıtlamalarla birlikte nasıl kullanılacağını açıklar.
 

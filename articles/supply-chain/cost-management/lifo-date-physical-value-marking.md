@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="lifo-date-with-physical-value-and-marking"></a>Fiziksel değer ve işaretleme ile LIFO Tarihi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Son giren ilk çıkar Tarihi (LIFO Tarihi), LIFO ilkesine dayanan bir stok modelidir. Stok çıkışları, stok hareketinin tarihine dayalı olarak son son girişlerine göre kapatılır. LIFO Tarihini kullanarak, çıkıştan önce hiçbir giriş yoksa, çıkış, çıkış tarihinden sonraki tüm girişlere karşılık olarak kapatılır. Aynı tarihteki birkaç çıkış son çıkış, son giriş sırasıyla kapatılabilir. 
 

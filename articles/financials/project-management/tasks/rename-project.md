@@ -25,7 +25,7 @@ ms.lasthandoff: 11/08/2017
 ---
 # <a name="rename-or-modify-a-project-stage"></a>Proje aşamasını yeniden adlandırma veya değiştirme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Proje aşamaları projenin yaşam döngüsünde kılavuz olarak işlev görebilir. Projelerinize eklemek istediğiniz proje aşamalarını, Proje yönetimi ve muhasebe parametreleri sayfasındaki Proje aşaması alanında tanımlayabilirsiniz. Dynamics 365 for Finance and Operations beş önceden tanımlanmış proje aşaması ve üç kullanıcı tanımlı aşama sağlar. Projelerin ilerlemesini izlemek için kullandığınız bir proje aşaması adını güncelleştirebilirsiniz. Kullanıcı tanımlı durum adları için ad belirleyebilirsiniz. Bu görev bir proje aşamasının nasıl yeniden adlandırılacağını veya değiştirileceğini gösterir ve USSI veri kümesini kullanır.
 

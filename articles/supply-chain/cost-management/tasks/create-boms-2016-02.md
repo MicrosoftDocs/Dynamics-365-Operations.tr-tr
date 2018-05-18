@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-boms-february-2016-only"></a>Ürün reçeteleri oluşturma (yalnızca Şubat 2016)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev, tamamlanmış bir ürün ve yarı mamul bir ürün için ürün reçetesi yapısını oluşturmaya odaklanır. Ürün reçetesi hesaplaması serisindeki dördüncü görevdir. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

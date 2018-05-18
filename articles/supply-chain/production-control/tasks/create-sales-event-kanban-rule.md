@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>Satış olayı kanban kuralı oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, satış siparişi oluşturma sırasında tetiklenecek bir kanban kuralı oluşturmak için gereken ayarlara odaklanır. Olay kanbanı kuralı, satış siparişi satırlarından kaynaklanan gereksinimleri yeniler. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Yeni veya değiştirilmiş bir ürünün üretimine hazırlanırken kullanılması için işlem mühendisi veya değer akışı yöneticisi için hazırlanmıştır.
 

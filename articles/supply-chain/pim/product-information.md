@@ -29,9 +29,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="product-information-overview"></a>Ürün bilgilerine genel bakış
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Bu konu ürün bilgileri yönetimi hakkında bilgiler sağlar. Ürün bilgileri yönetimi paylaşılan ürün tanımı, kategori ve tüm tüzel kişilikler üzerindeki tanımlayıcıların yanı sıra iş süreçlerine uyum sağlamak üzere belirli ürün yapılandırmalarıyla birlikte çalışır. 
 

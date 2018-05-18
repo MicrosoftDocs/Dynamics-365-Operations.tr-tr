@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="personal-expenses-on-an-expense-report"></a>Bir gider raporundaki kişisel giderler
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 İş seyahati sırasında çalışanların bazen kişisel giderlerini şirket kredi kartlarından yaptığı durumlar olabilir. Kişisel giderlerin işlenmesi için bir işlem tanımlamazsanız, çalışanlar madde haline getirilmiş gider raporlarını gönderdiğinde gider raporu onay işlemi kesintiye uğrayabilir. 
 

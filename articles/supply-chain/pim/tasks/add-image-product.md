@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="add-an-image-to-a-product"></a>Ürüne resim ekleme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, bir ürüne bir resmin nasıl ekleneceğini gösterir. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="manage-leave-of-absence"></a>Devamsızlıkları yönetme
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam çalışan izin kayıtlarının oluşturulmasıyla ilgili bilgi içerir. Tıbbi, eğitim veya ebeveynlik etkinliklerini kapsayan nedenler için izin süresini izleyebilirsiniz. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir.
 

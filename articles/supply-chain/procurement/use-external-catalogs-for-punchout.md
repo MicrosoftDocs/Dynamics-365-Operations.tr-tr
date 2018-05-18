@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>PunchOut eProcurement için harici katalogları kullanma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 PunchOut e-tedarik için harici katalogları kullanarak, satıcılarınızın ürünleriyle ilgili bilgileri kendi ana verileriniz içinde korumanız gerekmez. Bunun yerine, satıcının web sitesindeki alışveriş sepeti doğru ürün bilgisine sahip istek satırlarına dönüştürülür. 
 

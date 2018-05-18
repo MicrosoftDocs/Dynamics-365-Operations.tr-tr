@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-access-rights-for-a-cost-object-controller"></a>Maliyet nesnesi denetleyicisi için erişim haklarını yapılandırma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bir maliyet nesnesi denetleyicisi için erişim haklarını yapılandırmak için bu yordamı kullanın. Bu kayıt USP2 demo veri şirketini kullanır.
 

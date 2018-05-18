@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="analyze-sales-trends-and-patterns"></a>Satış eğilimlerini ve modellerini analiz etme
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 for Retail satış eğilimleri ve modellerini gerçek zamanlı inceleyebilirsiniz.
 

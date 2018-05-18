@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prepayment-invoices-vs-prepayments"></a>Ön ödeme faturaları ve ön ödemeler karşılaştırması
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda kuruluşların peşin ödemeler (ön ödemeler) için kullanabileceği iki yöntem açıklanmış ve karşılaştırılmıştır. Birinci yöntemde bir satın alma emriyle ilişkilendirilmiş bir ön ödeme faturası oluşturursunuz. İkinci yöntemde ise günlük girişleri oluşturup ön ödeme günlüğü fişleri olarak işaretleyerek ön ödeme günlüğü fişleri oluşturursunuz.
 

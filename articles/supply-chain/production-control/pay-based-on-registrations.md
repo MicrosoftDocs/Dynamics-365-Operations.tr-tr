@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="pay-based-on-registrations"></a>Kayıtlara dayalı ödeme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu ödemenin çalışan kayıtları temel alınarak nasıl hesaplanacağını ayrıntılarıyla açıklar. Hesaplama için kullanılan çeşitli kurulum seçenekleri kombinasyonlarının sonucu nasıl etkilediğini gösteren örnekler içerir. Ele alınacak alanlardan bazılarını aşağıda bulabilirsiniz:
 

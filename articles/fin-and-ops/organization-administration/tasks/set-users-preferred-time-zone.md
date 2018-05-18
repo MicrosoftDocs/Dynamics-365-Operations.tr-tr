@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-a-users-preferred-time-zone"></a>Bir kullanıcının tercih edilen zaman dilimini ayarlama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Aşağıdaki yordamda Sistem Yöneticisi rolüne sahip olan kullanıcının, bir kullanıcı için saat dilimini nasıl ayarlayacağı açıklanır.
 

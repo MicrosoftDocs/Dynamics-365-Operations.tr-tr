@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocation-bases"></a>Tahsisat temelleri 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 bir tahsisat tabanı, Maliyet muhasebesinin genel giderleri tahsis ettiği tabandır. Bir tahsisat tabanı, kullanılan makine saatleri, tüketilen kilovat saat (kWh) veya doldurulan metrekare alan gibi bir miktar olabilir. Tahsisat tabanları, genellikle üretilen stoklara genel giderleri atamak için kullanılır. Örneğin bir BT bölümü, giderlerini her bir bölümün kullandığı bilgisayarların sayısına göre tahsis eder.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Alınan maddeleri kaydetmek için bir mobil cihaz menü öğesi ayarlama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev, bir mobil cihaz menü öğesinin ayarlanmasına odaklanır. Bu menü öğesi, satınalma siparişleri üzerinden sipariş edilen ürünlerin giriş kaydı için kullanılır. 
 

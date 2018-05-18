@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-data-for-product-models"></a>Ürün modelleri için verileri aktarma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bir ürün yapılandırma modeli için verilerin içe aktarılması kullanılabilir en az bir ürün modeline sahip olunmasını gerektirir. Bu yordam, bu model için verilerin nasıl içe aktarılacağını göstermek amacıyla USMF veri şirketindeki son teknoloji hoparlör modelini kullanır.
 

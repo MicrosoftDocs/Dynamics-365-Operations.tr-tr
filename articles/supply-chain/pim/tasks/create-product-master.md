@@ -24,7 +24,7 @@ ms.lasthandoff: 10/25/2017
 ---
 # <a name="create-a-product-master"></a>Ana ürün oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Önceden tanımlanmış çeşitler için ana ürün oluşturun. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu yordam, ürün tasarımcılarına yöneliktir.
 

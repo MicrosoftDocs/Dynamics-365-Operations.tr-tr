@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-accounts-payable"></a>Borç hesaplarını yapılandırın
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makale, Microsoft Dynamics 365 for Finance and Operations'ta Borç hesapları için temel ve isteğe bağlı işlevleri ayarlamada kullanacağınız sayfaları açıklar. Ayrıca, Borç hesaplarını ayarlamaya başlamadan önce tamamlamanız gereken kurulum adımları da açıklanmaktadır.
 

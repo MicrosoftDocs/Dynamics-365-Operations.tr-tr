@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Satış Noktasında ürün ve müşteri aramaya genel bakış
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Modern Point of Sale (MPOS) ve Cloud Point of Sale (CPOS), ürünler ve müşteriler için kolay kullanımlı arama işlevi sağlar. Arama çubuğu her zaman MPOS ve CPOS pencerelerinin üstünde olduğundan çalışanlar ürünleri ve müşterileri hızla arayabilir.
 

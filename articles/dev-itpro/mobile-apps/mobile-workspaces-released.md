@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mobile-workspaces"></a>Mobil çalışma alanları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, Dynamics 365 for Unified Operations mobil uygulaması için kullanılmak üzere kullanılabilir olan mobil çalışma alanları listeler.
 

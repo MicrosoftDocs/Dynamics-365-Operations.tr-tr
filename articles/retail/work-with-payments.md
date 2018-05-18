@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="payment-methods-in-a-call-center"></a>Bir çağrı merkezindeki ödeme yöntemleri
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 for Retail'deçağrı merkezi kanalı yapılandırması **Sipariş tamamlamayı etkinleştir** adında bir ayar içerir. Bu ayar kanal kullanıcılarının oluşturduğu tüm siparişlerin, yalnızca ön ödeme veya onaylanan tolerans dahilinde ödeme ön onayı olması durumunda sipariş işleme için serbest bırakılmasını sağlamaya yardımcı olur. **Sipariş tamamlamayı etkinleştir** ayarı açık olursa, çağrı merkezi kullanıcıları Çağrı merkezi ödeme işleme özelliklerini kullanarak müşteriler için satış siparişlerine karşı ödemeleri girebilirler. Bu ayar devre dışı bırakılırsa, çağrı merkezi kullanıcıları çağrı merkezi ödeme işleme özelliklerini kullanamaz ancak standart Alacak hesapları işlevini kullanarak satış siparişlerine ön ödemeleri uygulayabilirler.
 

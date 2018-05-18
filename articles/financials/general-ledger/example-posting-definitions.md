@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="posting-definition-examples"></a>Deftere nakil tanım örnekleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makale, deftere nakil tanımlarının satınalma siparişleri yükümlülükleri ve bütçe tahsis etme için nasıl kullanılacağına dair örnekler sağlar.
 

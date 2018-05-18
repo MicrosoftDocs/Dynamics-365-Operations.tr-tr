@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-and-marketing"></a>Satış ve pazarlama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Satış akışında çeşitli veri türlerini elde etmek, depolamak ve kullanmak için Satış ve pazarlamayı kullanabilirsiniz. Bu veriler, özgün satış girişimini, gelecekteki takip eylemini ve ek satışları içerir.
 

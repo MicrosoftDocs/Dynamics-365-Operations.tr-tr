@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="analyze-store-performance"></a>Mağaza performansını analiz etme
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Bu makale, bellek içi ve gerçek zamanlı analizleri Microsoft Dynamics 365 for Retail verilerinizi temel alan mağaza performansına erişmek, keşfetmek ve bunlar hakkında bilgi edinmek için nasıl kullanabileceğinizi açıklar. 
 

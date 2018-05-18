@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="welcome-to-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent'a hoş geldiniz
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 for Talent, pek çok rutin kayıt tutma görevini basitleştirir ve kuruluşunuzun personel ile ilgili bir dizi sürecini otomatikleştirir. Bu işlemler personel tutma, kazanç yönetimi, eğitim, performans değerlendirmeleri ve değişim yönetimi konularını içerir. Ayrıca insan kaynakları personelinin gözetim alanlarını yönetmek için de bir çerçeve sağlar.
 

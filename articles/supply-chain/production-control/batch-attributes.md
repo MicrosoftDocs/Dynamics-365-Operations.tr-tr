@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="batch-attributes"></a>Toplu iş öznitelikleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda toplu iş öznitelikleri hakkında bilgiler verilmiştir. Toplu iş öznitelikleri, stok toplu işlerini oluşturan hammaddelerin ve tamamlanan ürünlerin özellikleridir. Bu konuda ayrıca toplu iş özniteliklerinin nasıl atanacağı ve toplu işleri rezerve ettiğinizde bunları nasıl arayacağınız açıklanmaktadır.
 

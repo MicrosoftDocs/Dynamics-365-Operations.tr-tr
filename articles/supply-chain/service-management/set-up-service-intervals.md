@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="set-up-service-intervals"></a>Servis aralıkları ayarlama  
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Servis aralığı, servis siparişlerini oluşturduğunuzda servis sözleşmesi satırları için servis siparişi satırlarının oluşturulma sıklığını gösterir.
 

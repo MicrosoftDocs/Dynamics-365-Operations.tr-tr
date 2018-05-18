@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="vendor-rebates"></a>Satıcı indirimleri
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Satıcı indirimleri, şirketlerin kendi tedarikçi indirim programlarını daha iyi yönetmelerine, kazanılan indirimleri elde etmelerine, yönetmelerine ve izlemelerinde gerek duyulan otomatik görevleri olanak sağlar.
 

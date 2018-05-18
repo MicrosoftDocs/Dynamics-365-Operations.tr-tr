@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="deliver-an-employee-benefits-program"></a>Personel kazançları programı oluşturma
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu görev, yeni bir kazanç oluştururken kullanılacak kazanç öğelerini nasıl oluşturacağınızı gösterir. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu görev Ücret ve Kazançlar yöneticisine yöneliktir.
 

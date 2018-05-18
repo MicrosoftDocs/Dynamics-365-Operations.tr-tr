@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="warehouse-work-policies"></a>Ambar iş ilkeleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations'taki ambar işi ilkeleri ambar işinin üretimdeki ambar işlemleri tarafından oluşturulup oluşturulmadığını, iş emri türüne, stok yerleşimine ve ürüne dayanarak kontrol eder.
 

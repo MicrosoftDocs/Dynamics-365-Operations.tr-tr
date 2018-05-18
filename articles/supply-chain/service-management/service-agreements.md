@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-agreements"></a>Servis sözleşmeleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Servis sözleşmesi tipik bir servis ziyaretinde kullanılan kaynakları ve bu kaynakların müşteriye ne şekilde faturalandığını tanımlamanızı sağlar.
 

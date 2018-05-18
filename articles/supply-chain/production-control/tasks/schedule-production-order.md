@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="schedule-a-production-order"></a>Üretim emrini planlama
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Bu yordam, bir üretim emrini nasıl planlayacağınızı gösterir. Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir. Bu, üretim emri ömrünü açıklayan yedi yordamın üçüncüsüdür.
 
