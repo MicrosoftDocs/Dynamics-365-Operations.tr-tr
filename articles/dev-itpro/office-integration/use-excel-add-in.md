@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 0b839a4b16095cf5d357b8405baf1a695b1bb955
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: d68ec828f031fcb031dfbaa5aed2020a779d1207
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -37,9 +37,6 @@ ms.lasthandoff: 05/08/2018
 > <span data-ttu-id="79c39-108">Microsoft Azure Active Directory (Azure AD) kiracınız Active Directory Federasyon Hizmetleri (AD FS) kullanmak üzere yapılandırılmışsa, Excel eklentisinin oturumunuzu doğru açabilmesi için Office Mayıs 2016 güncelleştirmesinin uygulandığından emin olmanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="79c39-108">If your Microsoft Azure Active Directory (Azure AD) tenant is configured to use Active Directory Federation Services (AD FS), you must make sure that the May 2016 update for Office has been applied, so that the Excel add-in can correctly sign you in.</span></span>
 
 <span data-ttu-id="79c39-109">Excel eklentisi kullanma hakkında daha fazla bilgi için [Dynamics 365 for Finance and Operations'ta başlık ve satır düzenleri için bir Excel şablonu oluşturma](https://youtu.be/RTicLb-6dbI) kısa videosunu izleyin.</span><span class="sxs-lookup"><span data-stu-id="79c39-109">To learn more about using the Excel add-in, watch the short [Create an Excel template for header and line patterns in Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI) video.</span></span>
-
-> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
-
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a><span data-ttu-id="79c39-110">Finance and Operations'tan başlattığınızda varlık verilerini Excel'de açma</span><span class="sxs-lookup"><span data-stu-id="79c39-110">Open entity data in Excel when you start from Finance and Operations</span></span>
 1. <span data-ttu-id="79c39-111">Finance and Operations'taki bir sayfada **Microsoft Office'te aç**'ı seçin.</span><span class="sxs-lookup"><span data-stu-id="79c39-111">On a page in Finance and Operations, select **Open in Microsoft Office**.</span></span>

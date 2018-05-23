@@ -16,10 +16,10 @@ ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 0754b4361f2fe940f6c6d4168ac44f234fd363f8
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: 58b6b934c2cf65ff1f9362ce948474e374892999
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -32,8 +32,6 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="601c2-104">Platform güncelleştirmesi 14'te, Microsoft Dynamics 365 for Finance and Operations hizmet geliştiricileri ve teknik olmayan kullanıcıların kod yazmadan mobil cihazlar, tabletler ve web için özel iş uygulamaları oluşturmasını sağlayan bir hizmet olan Microsoft PowerApps ile tümleştirmeyi destekler.</span><span class="sxs-lookup"><span data-stu-id="601c2-104">In Platform update 14, Microsoft Dynamics 365 for Finance and Operations supports integration with Microsoft PowerApps, a service for developers and non-technical users to build custom business apps for mobile devices, tablets, and the web without writing code.</span></span> <span data-ttu-id="601c2-105">Size, kuruluşunuz veya daha geniş bir ekosistem tarafından geliştirilmiş PowerApps ürün işlevselliğini artırmak amacıyla Finance and Operations istemcisine katıştırılabilir.</span><span class="sxs-lookup"><span data-stu-id="601c2-105">PowerApps developed by you, your organization, or the broader ecosystem can then be embedded in the Finance and Operations client to augment the product's functionality.</span></span> <span data-ttu-id="601c2-106">Örneğin, başka bir sistemden alınan bilgileri Finance and Operations'a eklemek için bir PowerApp oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="601c2-106">For example, you might build a PowerApp to supplement Finance and Operations with information retrieved from another system.</span></span> 
 
 <span data-ttu-id="601c2-107">Katıştırılmış PowerApps hakkında daha fazla bilgi için [Dynamics 365 for Finance and Operations'a PowerApps katıştırma](https://www.youtube.com/watch?v=x3qyA1bH-NY) kısa videosunu izleyin.</span><span class="sxs-lookup"><span data-stu-id="601c2-107">To learn more about embedding PowerApps, watch the short [How to embed PowerApps in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=x3qyA1bH-NY) video.</span></span>
-
-> [!Video https://www.youtube.com/embed/x3qyA1bH-NY]
 
 ## <a name="adding-an-embedded-powerapp-to-a-page"></a><span data-ttu-id="601c2-108">Bir sayfaya katıştırılmış bir PowerApp ekleme</span><span class="sxs-lookup"><span data-stu-id="601c2-108">Adding an embedded PowerApp to a page</span></span>
 ### <a name="overview"></a><span data-ttu-id="601c2-109">Özet</span><span class="sxs-lookup"><span data-stu-id="601c2-109">Overview</span></span>
