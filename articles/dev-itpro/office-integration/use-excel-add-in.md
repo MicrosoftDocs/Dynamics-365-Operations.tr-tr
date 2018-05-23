@@ -38,9 +38,6 @@ Varlık verilerini Excel'de açarak, Excel eklentisiyle bu verileri hızlı ve k
 
 Excel eklentisi kullanma hakkında daha fazla bilgi için [Dynamics 365 for Finance and Operations'ta başlık ve satır düzenleri için bir Excel şablonu oluşturma](https://youtu.be/RTicLb-6dbI) kısa videosunu izleyin.
 
-> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
-
-
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Finance and Operations'tan başlattığınızda varlık verilerini Excel'de açma
 1. Finance and Operations'taki bir sayfada **Microsoft Office'te aç**'ı seçin.
 
