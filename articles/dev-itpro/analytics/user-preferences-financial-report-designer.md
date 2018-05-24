@@ -19,65 +19,65 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d0307db3a49bcdb62146b815383f744c5b8e0fde
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 78b41010e4ab56675121ab5479cada37645e9ee3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="user-preferences-in-financial-report-designer"></a><span data-ttu-id="d5c3f-104">Finansal rapor tasarımcısında kullanıcı tercihleri</span><span class="sxs-lookup"><span data-stu-id="d5c3f-104">User preferences in financial report designer</span></span>
+# <a name="user-preferences-in-financial-report-designer"></a><span data-ttu-id="5d1ed-104">Finansal rapor tasarımcısında kullanıcı tercihleri</span><span class="sxs-lookup"><span data-stu-id="5d1ed-104">User preferences in financial report designer</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d5c3f-105">Bu makalede, finansal rapor tasarımcısında kullanıcı etkileşimlerinizi özelleştirmek için kullanıcı tercihlerinizi nasıl ayarlayacağınız ve başlangıç oturum açma deneyiminizi nasıl kontrol edeceğiniz açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="d5c3f-105">This article explains how to set user preferences to customize your user interactions in financial report designer and control the initial sign-in experience.</span></span> <span data-ttu-id="d5c3f-106">Ayrıca tek tek raporların, rapor kitaplığının ve varsayılan dosya konumlarının nasıl görüntüleneceği de açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="d5c3f-106">You can also control how individual reports, the report library, and the default file locations are displayed.</span></span> 
+<span data-ttu-id="5d1ed-105">Bu makalede, finansal rapor tasarımcısında kullanıcı etkileşimlerinizi özelleştirmek için kullanıcı tercihlerinizi nasıl ayarlayacağınız ve başlangıç oturum açma deneyiminizi nasıl kontrol edeceğiniz açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="5d1ed-105">This article explains how to set user preferences to customize your user interactions in financial report designer and control the initial sign-in experience.</span></span> <span data-ttu-id="5d1ed-106">Ayrıca tek tek raporların, rapor kitaplığının ve varsayılan dosya konumlarının nasıl görüntüleneceği de açıklanmaktadır.</span><span class="sxs-lookup"><span data-stu-id="5d1ed-106">You can also control how individual reports, the report library, and the default file locations are displayed.</span></span> 
 
-<a name="set-user-preferences"></a><span data-ttu-id="d5c3f-107">Kullanıcı tercihleri ayarlama</span><span class="sxs-lookup"><span data-stu-id="d5c3f-107">Set user preferences</span></span>
+<a name="set-user-preferences"></a><span data-ttu-id="5d1ed-107">Kullanıcı tercihleri ayarlama</span><span class="sxs-lookup"><span data-stu-id="5d1ed-107">Set user preferences</span></span>
 --------------------
 
-1.  <span data-ttu-id="d5c3f-108">Rapor Tasarımcısı'nda **Araçlar** menüsünde **Seçenekler** öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="d5c3f-108">In Report Designer, on the **Tools** menu, click **Options**.</span></span>
-2.  <span data-ttu-id="d5c3f-109">**Seçenekler** iletişim kutusundan tercihlerinizi seçin.</span><span class="sxs-lookup"><span data-stu-id="d5c3f-109">In the **Options** dialog box, select your preferences.</span></span>
-3.  <span data-ttu-id="d5c3f-110">**Tamam** düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="d5c3f-110">Click **OK**.</span></span>
+1.  <span data-ttu-id="5d1ed-108">Rapor Tasarımcısı'nda **Araçlar** menüsünde **Seçenekler** öğesini tıklayın.</span><span class="sxs-lookup"><span data-stu-id="5d1ed-108">In Report Designer, on the **Tools** menu, click **Options**.</span></span>
+2.  <span data-ttu-id="5d1ed-109">**Seçenekler** iletişim kutusundan tercihlerinizi seçin.</span><span class="sxs-lookup"><span data-stu-id="5d1ed-109">In the **Options** dialog box, select your preferences.</span></span>
+3.  <span data-ttu-id="5d1ed-110">**Tamam** düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="5d1ed-110">Click **OK**.</span></span>
 
-## <a name="options-dialog-box-options"></a><span data-ttu-id="d5c3f-111">Seçenekler iletişim kutusu seçenekleri</span><span class="sxs-lookup"><span data-stu-id="d5c3f-111">Options dialog box options</span></span>
+## <a name="options-dialog-box-options"></a><span data-ttu-id="5d1ed-111">Seçenekler iletişim kutusu seçenekleri</span><span class="sxs-lookup"><span data-stu-id="5d1ed-111">Options dialog box options</span></span>
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d5c3f-112">Kullanıcı seçeneği</span><span class="sxs-lookup"><span data-stu-id="d5c3f-112">User option</span></span></th>
-<th><span data-ttu-id="d5c3f-113">Açıklama</span><span class="sxs-lookup"><span data-stu-id="d5c3f-113">Description</span></span></th>
+<th><span data-ttu-id="5d1ed-112">Kullanıcı seçeneği</span><span class="sxs-lookup"><span data-stu-id="5d1ed-112">User option</span></span></th>
+<th><span data-ttu-id="5d1ed-113">Açıklama</span><span class="sxs-lookup"><span data-stu-id="5d1ed-113">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="d5c3f-114">Başlangıçta</span><span class="sxs-lookup"><span data-stu-id="d5c3f-114">At startup</span></span></td>
-<td><span data-ttu-id="d5c3f-115">Rapor Tasarımcısı başladığında gördüklerinizi seçin.</span><span class="sxs-lookup"><span data-stu-id="d5c3f-115">Select what you see when Report Designer starts.</span></span> <span data-ttu-id="d5c3f-116">Aşağıdaki seçeneklerden birini belirleyin:</span><span class="sxs-lookup"><span data-stu-id="d5c3f-116">Select one of the following options:</span></span>
+<td><span data-ttu-id="5d1ed-114">Başlangıçta</span><span class="sxs-lookup"><span data-stu-id="5d1ed-114">At startup</span></span></td>
+<td><span data-ttu-id="5d1ed-115">Rapor Tasarımcısı başladığında gördüklerinizi seçin.</span><span class="sxs-lookup"><span data-stu-id="5d1ed-115">Select what you see when Report Designer starts.</span></span> <span data-ttu-id="5d1ed-116">Aşağıdaki seçeneklerden birini belirleyin:</span><span class="sxs-lookup"><span data-stu-id="5d1ed-116">Select one of the following options:</span></span>
 <ul>
-<li><span data-ttu-id="d5c3f-117"><strong>Son yüklenen raporu yükle</strong>: Görüntülediğiniz en son raporu açın.</span><span class="sxs-lookup"><span data-stu-id="d5c3f-117"><strong>Load last loaded report</strong> – Open the last report that you viewed.</span></span></li>
-<li><span data-ttu-id="d5c3f-118"><strong>Açık pencereyi göster</strong>: <strong>Açık</strong> pencereyi açın.</span><span class="sxs-lookup"><span data-stu-id="d5c3f-118"><strong>Show Open window</strong> – Open the <strong>Open</strong> window.</span></span> <span data-ttu-id="d5c3f-119"><strong>Açık</strong> pencere, yapı taşlarını hızlı bir şekilde bulabileceğiniz bir arama penceresi sunar.</span><span class="sxs-lookup"><span data-stu-id="d5c3f-119">The <strong>Open</strong> window provides a search window that you can use to quickly find building blocks.</span></span></li>
-<li><span data-ttu-id="d5c3f-120"><strong>Boş ortamı göster</strong>: Boş bir tasarımcı penceresi açın.</span><span class="sxs-lookup"><span data-stu-id="d5c3f-120"><strong>Show empty environment</strong> – Open an empty designer window.</span></span></li>
+<li><span data-ttu-id="5d1ed-117"><strong>Son yüklenen raporu yükle</strong>: Görüntülediğiniz en son raporu açın.</span><span class="sxs-lookup"><span data-stu-id="5d1ed-117"><strong>Load last loaded report</strong> – Open the last report that you viewed.</span></span></li>
+<li><span data-ttu-id="5d1ed-118"><strong>Açık pencereyi göster</strong>: <strong>Açık</strong> pencereyi açın.</span><span class="sxs-lookup"><span data-stu-id="5d1ed-118"><strong>Show Open window</strong> – Open the <strong>Open</strong> window.</span></span> <span data-ttu-id="5d1ed-119"><strong>Açık</strong> pencere, yapı taşlarını hızlı bir şekilde bulabileceğiniz bir arama penceresi sunar.</span><span class="sxs-lookup"><span data-stu-id="5d1ed-119">The <strong>Open</strong> window provides a search window that you can use to quickly find building blocks.</span></span></li>
+<li><span data-ttu-id="5d1ed-120"><strong>Boş ortamı göster</strong>: Boş bir tasarımcı penceresi açın.</span><span class="sxs-lookup"><span data-stu-id="5d1ed-120"><strong>Show empty environment</strong> – Open an empty designer window.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="d5c3f-121">Rapor Tasarımcısı'ndan çıkmadan önce onay göster</span><span class="sxs-lookup"><span data-stu-id="d5c3f-121">Display confirmation before exiting Report Designer</span></span></td>
-<td><span data-ttu-id="d5c3f-122">Uygulamadan çıkarken bir uyarı iletisi almak isteyip istemediğinizi seçin.</span><span class="sxs-lookup"><span data-stu-id="d5c3f-122">Select whether to receive a warning message when you exit the application.</span></span> <span data-ttu-id="d5c3f-123">Bu ileti, programdan istemeden çıkmamanızı garantilemeye yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="d5c3f-123">This message helps guarantee that you don&#39;t exit the program unintentionally.</span></span></td>
+<td><span data-ttu-id="5d1ed-121">Rapor Tasarımcısı'ndan çıkmadan önce onay göster</span><span class="sxs-lookup"><span data-stu-id="5d1ed-121">Display confirmation before exiting Report Designer</span></span></td>
+<td><span data-ttu-id="5d1ed-122">Uygulamadan çıkarken bir uyarı iletisi almak isteyip istemediğinizi seçin.</span><span class="sxs-lookup"><span data-stu-id="5d1ed-122">Select whether to receive a warning message when you exit the application.</span></span> <span data-ttu-id="5d1ed-123">Bu ileti, programdan istemeden çıkmamanızı garantilemeye yardımcı olur.</span><span class="sxs-lookup"><span data-stu-id="5d1ed-123">This message helps guarantee that you don&#39;t exit the program unintentionally.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="d5c3f-124">Sütun başlıklarında otomatik olarak hücre alt çizgisi uygula</span><span class="sxs-lookup"><span data-stu-id="d5c3f-124">Automatically apply cell underline in column headers</span></span></td>
-<td><span data-ttu-id="d5c3f-125">Yeni bir sütun başlığının hücresini, altı çizili hale getirip getirmeyeceğinizi seçin.</span><span class="sxs-lookup"><span data-stu-id="d5c3f-125">Select whether to insert an underline in the cell of a new column header.</span></span></td>
+<td><span data-ttu-id="5d1ed-124">Sütun başlıklarında otomatik olarak hücre alt çizgisi uygula</span><span class="sxs-lookup"><span data-stu-id="5d1ed-124">Automatically apply cell underline in column headers</span></span></td>
+<td><span data-ttu-id="5d1ed-125">Yeni bir sütun başlığının hücresini, altı çizili hale getirip getirmeyeceğinizi seçin.</span><span class="sxs-lookup"><span data-stu-id="5d1ed-125">Select whether to insert an underline in the cell of a new column header.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="d5c3f-126">Management Reporter dosyalarının konumu</span><span class="sxs-lookup"><span data-stu-id="d5c3f-126">Management Reporter files location</span></span></td>
-<td><span data-ttu-id="d5c3f-127">Dosyalar için varsayılan konumu belirtin.</span><span class="sxs-lookup"><span data-stu-id="d5c3f-127">Specify the default location for files.</span></span> <span data-ttu-id="d5c3f-128">Uygulama, yapı taşı gruplarını dışa aktarırken varsayılan konumu kullanır.</span><span class="sxs-lookup"><span data-stu-id="d5c3f-128">The application uses the default location when you export building block groups.</span></span></td>
+<td><span data-ttu-id="5d1ed-126">Management Reporter dosyalarının konumu</span><span class="sxs-lookup"><span data-stu-id="5d1ed-126">Management Reporter files location</span></span></td>
+<td><span data-ttu-id="5d1ed-127">Dosyalar için varsayılan konumu belirtin.</span><span class="sxs-lookup"><span data-stu-id="5d1ed-127">Specify the default location for files.</span></span> <span data-ttu-id="5d1ed-128">Uygulama, yapı taşı gruplarını dışa aktarırken varsayılan konumu kullanır.</span><span class="sxs-lookup"><span data-stu-id="5d1ed-128">The application uses the default location when you export building block groups.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
 
-<a name="see-also"></a><span data-ttu-id="d5c3f-129">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="d5c3f-129">See also</span></span>
+<a name="additional-resources"></a><span data-ttu-id="5d1ed-129">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="5d1ed-129">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="d5c3f-130">Mali raporlama</span><span class="sxs-lookup"><span data-stu-id="d5c3f-130">Financial reporting</span></span>](financial-reporting-intro.md)
+[<span data-ttu-id="5d1ed-130">Mali raporlama</span><span class="sxs-lookup"><span data-stu-id="5d1ed-130">Financial reporting</span></span>](financial-reporting-intro.md)
 
 
 

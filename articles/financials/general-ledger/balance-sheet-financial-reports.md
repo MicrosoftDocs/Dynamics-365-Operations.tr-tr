@@ -19,67 +19,67 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e699d92d2e38416928d4386621d176e17b3fa77f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1c92ccb37b62a39e5ab4808454f8c6f84560d917
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="balance-sheet-financial-reports"></a><span data-ttu-id="54e04-104">Bilanço mali raporları</span><span class="sxs-lookup"><span data-stu-id="54e04-104">Balance sheet financial reports</span></span>
+# <a name="balance-sheet-financial-reports"></a><span data-ttu-id="46ed6-104">Bilanço mali raporları</span><span class="sxs-lookup"><span data-stu-id="46ed6-104">Balance sheet financial reports</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="54e04-105">Bu makale, bilançolar için varsayılan raporları açıklar.</span><span class="sxs-lookup"><span data-stu-id="54e04-105">This article describes the default reports for balance sheets.</span></span> <span data-ttu-id="54e04-106">Ayrıca, bu raporlarla ilişkili olan yapı taşlarını açıklar.</span><span class="sxs-lookup"><span data-stu-id="54e04-106">It also describes the building blocks that are associated with these reports.</span></span> 
+<span data-ttu-id="46ed6-105">Bu makale, bilançolar için varsayılan raporları açıklar.</span><span class="sxs-lookup"><span data-stu-id="46ed6-105">This article describes the default reports for balance sheets.</span></span> <span data-ttu-id="46ed6-106">Ayrıca, bu raporlarla ilişkili olan yapı taşlarını açıklar.</span><span class="sxs-lookup"><span data-stu-id="46ed6-106">It also describes the building blocks that are associated with these reports.</span></span> 
 
-<a name="default-balance-sheet-reports"></a><span data-ttu-id="54e04-107">Varsayılan bilanço raporları</span><span class="sxs-lookup"><span data-stu-id="54e04-107">Default balance sheet reports</span></span>
+<a name="default-balance-sheet-reports"></a><span data-ttu-id="46ed6-107">Varsayılan bilanço raporları</span><span class="sxs-lookup"><span data-stu-id="46ed6-107">Default balance sheet reports</span></span>
 -----------------------------
 
-<span data-ttu-id="54e04-108">İki farklı varsayılan bilanço raporu vardır.</span><span class="sxs-lookup"><span data-stu-id="54e04-108">There are two default balance sheet reports.</span></span> <span data-ttu-id="54e04-109">Bir raporda bölümler üst üste yerleştirilir.</span><span class="sxs-lookup"><span data-stu-id="54e04-109">On one report, the sections are stacked.</span></span> <span data-ttu-id="54e04-110">Diğer raporda ise bölümler yan yanadır.</span><span class="sxs-lookup"><span data-stu-id="54e04-110">On the other report, the sections are side by side.</span></span>
+<span data-ttu-id="46ed6-108">İki farklı varsayılan bilanço raporu vardır.</span><span class="sxs-lookup"><span data-stu-id="46ed6-108">There are two default balance sheet reports.</span></span> <span data-ttu-id="46ed6-109">Bir raporda bölümler üst üste yerleştirilir.</span><span class="sxs-lookup"><span data-stu-id="46ed6-109">On one report, the sections are stacked.</span></span> <span data-ttu-id="46ed6-110">Diğer raporda ise bölümler yan yanadır.</span><span class="sxs-lookup"><span data-stu-id="46ed6-110">On the other report, the sections are side by side.</span></span>
 
-| <span data-ttu-id="54e04-111">Varsayılan rapor</span><span class="sxs-lookup"><span data-stu-id="54e04-111">Default report</span></span>                       | <span data-ttu-id="54e04-112">Ne yapar</span><span class="sxs-lookup"><span data-stu-id="54e04-112">What it does</span></span>                                                                                                                           |
+| <span data-ttu-id="46ed6-111">Varsayılan rapor</span><span class="sxs-lookup"><span data-stu-id="46ed6-111">Default report</span></span>                       | <span data-ttu-id="46ed6-112">Ne yapar</span><span class="sxs-lookup"><span data-stu-id="46ed6-112">What it does</span></span>                                                                                                                           |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="54e04-113">Bakiye – Varsayılan</span><span class="sxs-lookup"><span data-stu-id="54e04-113">Balance Sheet – Default</span></span>              | <span data-ttu-id="54e04-114">İlgili yıl için organizasyonun mali pozisyonunun görünümünü sağlar.</span><span class="sxs-lookup"><span data-stu-id="54e04-114">Provides a view of the organization's financial position for the year.</span></span>                                                                 |
-| <span data-ttu-id="54e04-115">Yan Yana Bilanço – Varsayılan</span><span class="sxs-lookup"><span data-stu-id="54e04-115">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="54e04-116">İlgili yıl için organizasyonun mali pozisyonunun görünümünü sağlar.</span><span class="sxs-lookup"><span data-stu-id="54e04-116">Provides a view of the organization's financial position for the year.</span></span> <span data-ttu-id="54e04-117">Kıymetler ve borç ve hissedarın öz varlığı yan yanadır.</span><span class="sxs-lookup"><span data-stu-id="54e04-117">Assets and liability and shareholder’s equity are side by side.</span></span> |
+| <span data-ttu-id="46ed6-113">Bakiye – Varsayılan</span><span class="sxs-lookup"><span data-stu-id="46ed6-113">Balance Sheet – Default</span></span>              | <span data-ttu-id="46ed6-114">İlgili yıl için organizasyonun mali pozisyonunun görünümünü sağlar.</span><span class="sxs-lookup"><span data-stu-id="46ed6-114">Provides a view of the organization's financial position for the year.</span></span>                                                                 |
+| <span data-ttu-id="46ed6-115">Yan Yana Bilanço – Varsayılan</span><span class="sxs-lookup"><span data-stu-id="46ed6-115">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="46ed6-116">İlgili yıl için organizasyonun mali pozisyonunun görünümünü sağlar.</span><span class="sxs-lookup"><span data-stu-id="46ed6-116">Provides a view of the organization's financial position for the year.</span></span> <span data-ttu-id="46ed6-117">Kıymetler ve borç ve hissedarın öz varlığı yan yanadır.</span><span class="sxs-lookup"><span data-stu-id="46ed6-117">Assets and liability and shareholder’s equity are side by side.</span></span> |
 
-## <a name="building-blocks"></a><span data-ttu-id="54e04-118">Yapı taşları</span><span class="sxs-lookup"><span data-stu-id="54e04-118">Building blocks</span></span>
-<span data-ttu-id="54e04-119">Bilanço mali raporları aşağıdaki yapı taşlarını kullanır.</span><span class="sxs-lookup"><span data-stu-id="54e04-119">The balance sheet financial reports use the following building blocks.</span></span>
+## <a name="building-blocks"></a><span data-ttu-id="46ed6-118">Yapı taşları</span><span class="sxs-lookup"><span data-stu-id="46ed6-118">Building blocks</span></span>
+<span data-ttu-id="46ed6-119">Bilanço mali raporları aşağıdaki yapı taşlarını kullanır.</span><span class="sxs-lookup"><span data-stu-id="46ed6-119">The balance sheet financial reports use the following building blocks.</span></span>
 
-| <span data-ttu-id="54e04-120">Varsayılan rapor</span><span class="sxs-lookup"><span data-stu-id="54e04-120">Default report</span></span>                       | <span data-ttu-id="54e04-121">Satır tanımı</span><span class="sxs-lookup"><span data-stu-id="54e04-121">Row definition</span></span>                       | <span data-ttu-id="54e04-122">Sütun tanımı</span><span class="sxs-lookup"><span data-stu-id="54e04-122">Column definition</span></span>             |
+| <span data-ttu-id="46ed6-120">Varsayılan rapor</span><span class="sxs-lookup"><span data-stu-id="46ed6-120">Default report</span></span>                       | <span data-ttu-id="46ed6-121">Satır tanımı</span><span class="sxs-lookup"><span data-stu-id="46ed6-121">Row definition</span></span>                       | <span data-ttu-id="46ed6-122">Sütun tanımı</span><span class="sxs-lookup"><span data-stu-id="46ed6-122">Column definition</span></span>             |
 |--------------------------------------|--------------------------------------|-------------------------------|
-| <span data-ttu-id="54e04-123">Bilanço - Varsayılan</span><span class="sxs-lookup"><span data-stu-id="54e04-123">Balance Sheet - Default</span></span>              | <span data-ttu-id="54e04-124">Bilanço - Varsayılan</span><span class="sxs-lookup"><span data-stu-id="54e04-124">Balance Sheet - Default</span></span>              | <span data-ttu-id="54e04-125">YTD ve Fark - Varsayılan</span><span class="sxs-lookup"><span data-stu-id="54e04-125">YTD and Variance - Default</span></span>    |
-| <span data-ttu-id="54e04-126">Yan Yana Bilanço – Varsayılan</span><span class="sxs-lookup"><span data-stu-id="54e04-126">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="54e04-127">Yan Yana Bilanço – Varsayılan</span><span class="sxs-lookup"><span data-stu-id="54e04-127">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="54e04-128">Yılbaşından Bugüne Sütunu - Varsayılan</span><span class="sxs-lookup"><span data-stu-id="54e04-128">Year to Date Column - Default</span></span> |
+| <span data-ttu-id="46ed6-123">Bilanço - Varsayılan</span><span class="sxs-lookup"><span data-stu-id="46ed6-123">Balance Sheet - Default</span></span>              | <span data-ttu-id="46ed6-124">Bilanço - Varsayılan</span><span class="sxs-lookup"><span data-stu-id="46ed6-124">Balance Sheet - Default</span></span>              | <span data-ttu-id="46ed6-125">YTD ve Fark - Varsayılan</span><span class="sxs-lookup"><span data-stu-id="46ed6-125">YTD and Variance - Default</span></span>    |
+| <span data-ttu-id="46ed6-126">Yan Yana Bilanço – Varsayılan</span><span class="sxs-lookup"><span data-stu-id="46ed6-126">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="46ed6-127">Yan Yana Bilanço – Varsayılan</span><span class="sxs-lookup"><span data-stu-id="46ed6-127">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="46ed6-128">Yılbaşından Bugüne Sütunu - Varsayılan</span><span class="sxs-lookup"><span data-stu-id="46ed6-128">Year to Date Column - Default</span></span> |
 
-### <a name="row-definition"></a><span data-ttu-id="54e04-129">Satır tanımı</span><span class="sxs-lookup"><span data-stu-id="54e04-129">Row definition</span></span>
+### <a name="row-definition"></a><span data-ttu-id="46ed6-129">Satır tanımı</span><span class="sxs-lookup"><span data-stu-id="46ed6-129">Row definition</span></span>
 
-<span data-ttu-id="54e04-130">Her iki bilanço raporu için satır tanımları klasik bir bilançonun her bir parçası için bölümler içerir.</span><span class="sxs-lookup"><span data-stu-id="54e04-130">The row definitions for both balance sheet reports contain sections for each part of a traditional balance sheet.</span></span> <span data-ttu-id="54e04-131">Yan yana rapor bir sütun boşluğu içerir, böylece borç ve şirket sahibinin öz varlığı, kıymetlerin yanında görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="54e04-131">The side-by-side report includes a column break, so that liability and the owner’s equity appear next to assets.</span></span> <span data-ttu-id="54e04-132">Ana Hesap Kategorisi boyutu her iki satır tanımının oluşturulması için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="54e04-132">The Main Account Category dimension is used to build both row definitions.</span></span> <span data-ttu-id="54e04-133">Bu nedenle, herhangi biri hiçbir değişiklik yapmasına gerek kalmadan raporlar oluşturabilir.</span><span class="sxs-lookup"><span data-stu-id="54e04-133">Therefore, anyone can generate the reports without having to make any modifications.</span></span>
+<span data-ttu-id="46ed6-130">Her iki bilanço raporu için satır tanımları klasik bir bilançonun her bir parçası için bölümler içerir.</span><span class="sxs-lookup"><span data-stu-id="46ed6-130">The row definitions for both balance sheet reports contain sections for each part of a traditional balance sheet.</span></span> <span data-ttu-id="46ed6-131">Yan yana rapor bir sütun boşluğu içerir, böylece borç ve şirket sahibinin öz varlığı, kıymetlerin yanında görüntülenir.</span><span class="sxs-lookup"><span data-stu-id="46ed6-131">The side-by-side report includes a column break, so that liability and the owner’s equity appear next to assets.</span></span> <span data-ttu-id="46ed6-132">Ana Hesap Kategorisi boyutu her iki satır tanımının oluşturulması için kullanılır.</span><span class="sxs-lookup"><span data-stu-id="46ed6-132">The Main Account Category dimension is used to build both row definitions.</span></span> <span data-ttu-id="46ed6-133">Bu nedenle, herhangi biri hiçbir değişiklik yapmasına gerek kalmadan raporlar oluşturabilir.</span><span class="sxs-lookup"><span data-stu-id="46ed6-133">Therefore, anyone can generate the reports without having to make any modifications.</span></span>
 
-### <a name="column-definition"></a><span data-ttu-id="54e04-134">Sütun tanımı</span><span class="sxs-lookup"><span data-stu-id="54e04-134">Column definition</span></span>
+### <a name="column-definition"></a><span data-ttu-id="46ed6-134">Sütun tanımı</span><span class="sxs-lookup"><span data-stu-id="46ed6-134">Column definition</span></span>
 
-<span data-ttu-id="54e04-135">Sütun tanımları, farklı ayrıntı ve mali veri düzeyleri sunmak üzere farklı türlerde sütunlar içerir.</span><span class="sxs-lookup"><span data-stu-id="54e04-135">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
+<span data-ttu-id="46ed6-135">Sütun tanımları, farklı ayrıntı ve mali veri düzeyleri sunmak üzere farklı türlerde sütunlar içerir.</span><span class="sxs-lookup"><span data-stu-id="46ed6-135">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
 
--   <span data-ttu-id="54e04-136">**YTD ve Fark – Varsayılan sütun türleri:**</span><span class="sxs-lookup"><span data-stu-id="54e04-136">**YTD and Variance – Default column types:**</span></span>
-    -   <span data-ttu-id="54e04-137">**DESC** – Satır tanımının açıklaması</span><span class="sxs-lookup"><span data-stu-id="54e04-137">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="54e04-138">**FD** – Mevcut yıl için yılbaşından bugüne mali veriler</span><span class="sxs-lookup"><span data-stu-id="54e04-138">**FD** – Year-to-date financial data for the current year</span></span>
-    -   <span data-ttu-id="54e04-139">**FD** – Geçen yıl için yılbaşından bugüne mali veriler</span><span class="sxs-lookup"><span data-stu-id="54e04-139">**FD** – Year-to-date financial data for the last year</span></span>
-    -   <span data-ttu-id="54e04-140">**CALC** – Bu yıldan geçen yılın çıkarılmasıyla elde edilen fark</span><span class="sxs-lookup"><span data-stu-id="54e04-140">**CALC** – The variance from subtracting last year from this year</span></span>
+-   <span data-ttu-id="46ed6-136">**YTD ve Fark – Varsayılan sütun türleri:**</span><span class="sxs-lookup"><span data-stu-id="46ed6-136">**YTD and Variance – Default column types:**</span></span>
+    -   <span data-ttu-id="46ed6-137">**DESC** – Satır tanımının açıklaması</span><span class="sxs-lookup"><span data-stu-id="46ed6-137">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="46ed6-138">**FD** – Mevcut yıl için yılbaşından bugüne mali veriler</span><span class="sxs-lookup"><span data-stu-id="46ed6-138">**FD** – Year-to-date financial data for the current year</span></span>
+    -   <span data-ttu-id="46ed6-139">**FD** – Geçen yıl için yılbaşından bugüne mali veriler</span><span class="sxs-lookup"><span data-stu-id="46ed6-139">**FD** – Year-to-date financial data for the last year</span></span>
+    -   <span data-ttu-id="46ed6-140">**CALC** – Bu yıldan geçen yılın çıkarılmasıyla elde edilen fark</span><span class="sxs-lookup"><span data-stu-id="46ed6-140">**CALC** – The variance from subtracting last year from this year</span></span>
 
 <!-- -->
 
--   <span data-ttu-id="54e04-141">**Yılbaşından Bugüne Sütunu – Varsayılan:**</span><span class="sxs-lookup"><span data-stu-id="54e04-141">**Year to Date Column – Default:**</span></span>
-    -   <span data-ttu-id="54e04-142">**DESC** – Satır tanımının açıklaması</span><span class="sxs-lookup"><span data-stu-id="54e04-142">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="54e04-143">**FD** – Mevcut yıl için yılbaşından bugüne mali veriler</span><span class="sxs-lookup"><span data-stu-id="54e04-143">**FD** – Year-to-date financial data for the current year</span></span>
+-   <span data-ttu-id="46ed6-141">**Yılbaşından Bugüne Sütunu – Varsayılan:**</span><span class="sxs-lookup"><span data-stu-id="46ed6-141">**Year to Date Column – Default:**</span></span>
+    -   <span data-ttu-id="46ed6-142">**DESC** – Satır tanımının açıklaması</span><span class="sxs-lookup"><span data-stu-id="46ed6-142">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="46ed6-143">**FD** – Mevcut yıl için yılbaşından bugüne mali veriler</span><span class="sxs-lookup"><span data-stu-id="46ed6-143">**FD** – Year-to-date financial data for the current year</span></span>
 
 
 
-<a name="see-also"></a><span data-ttu-id="54e04-144">Ayrıca bkz.</span><span class="sxs-lookup"><span data-stu-id="54e04-144">See also</span></span>
+<a name="additional-resources"></a><span data-ttu-id="46ed6-144">Ek kaynaklar</span><span class="sxs-lookup"><span data-stu-id="46ed6-144">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="54e04-145">Mali raporlama</span><span class="sxs-lookup"><span data-stu-id="54e04-145">Financial reporting</span></span>](financial-reporting-getting-started.md)
+[<span data-ttu-id="46ed6-145">Mali raporlama</span><span class="sxs-lookup"><span data-stu-id="46ed6-145">Financial reporting</span></span>](financial-reporting-getting-started.md)
 
-[<span data-ttu-id="54e04-146">Mali raporları görüntüle</span><span class="sxs-lookup"><span data-stu-id="54e04-146">View financial reports</span></span>](view-financial-reports.md)
+[<span data-ttu-id="46ed6-146">Mali raporları görüntüleme</span><span class="sxs-lookup"><span data-stu-id="46ed6-146">View financial reports</span></span>](view-financial-reports.md)
 
-[<span data-ttu-id="54e04-147">Dynamics Mali Raporlama Blogu</span><span class="sxs-lookup"><span data-stu-id="54e04-147">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[<span data-ttu-id="46ed6-147">Dynamics Mali Raporlama Blogu</span><span class="sxs-lookup"><span data-stu-id="46ed6-147">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 
