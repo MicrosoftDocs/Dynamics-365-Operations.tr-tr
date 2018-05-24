@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 46dba3a61cf96b19b5bc4d2956d028bbbeaaa60e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ae4be70058e61cdbc1d2b063b346b45b023eb9e9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="benefit-eligibility-policies"></a>Kazanca uygunluk ilkeleri
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Bu konu, kazanç uygunluk ilkeleri hakkında, belirli kazançlara uygun olan kişileri tanımlamanıza yardımcı olacak bilgiler verilmektedir.
 
@@ -49,7 +49,7 @@ Politika kuralı türleri, belirli politika kuralları geliştirdiğinizde kulla
 
 Kuralın kapsamını politikada tanımlarsınız. Örneğin, **Yönetici** adında bir kazanç uygunluk politikası kural türü tanımlandığınızda hangi kuralın hangi politika kapsamında olduğunu belirtebilirsiniz. Bu örnekte, "yönetici" sözcüğü içeren tüm iş unvanlarının kurala dahil edilmesini belirtebilirsiniz. Politikaya dahil edilen kuralın veya kuralların parametrelerini tanımladıktan sonra kazanca belirli bir kural atayabilirsiniz.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Bir kazanç programı tanımlama ve yönetme](manage-benefit-program.md)

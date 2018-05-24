@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
+ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8a12627db93b131450015539bb92ea4780518ed3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-process-overview"></a>Üretim sürecine genel bakış
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda, üretim işlemleri hakkında genel bir bakış verilmektedir. Bu, sipariş oluşturulmasından mali dönem kapanışına dek üretim emirlerinin, toplu iş emirlerinin ve kanbanların çeşitli aşamalarını açıklamaktadır. 
 
@@ -78,10 +78,10 @@ Belirli bir ürün ve ilişkili pazar için uygun imalat ilkesini seçmek için,
 12. **Dönem kapanışı** – Dönemsel ortalama, geriye dönük maliyetlendirme, FIFO veya LIFO gibi bazı maliyet muhasebesi ilkeleri, stoku veya mali dönemi kapatmak için dönemsel faaliyetler gerektirir. Genellikle, sistem tüm malzeme ve kaynak tüketimini, ayrıca stok ve ıskarta düzeltmelerini, dönemler kapatılmadan önce rapor etmeyi dener. Bu raporlama, genellikle stok hareketi günlükleri veya ayarlama günlükleri kullanılarak yapılır. Amaç, işletme birimlerinin ekonomik performansını dönem başına değerlendirmektir. Bazı durumlarda, mali raporlama dönemlerini kapsayan uzun vadeli üretim emirleri kullanılırken, dönem sonu itibariyle üretimin ilerlemesini ve kaynak tüketimini raporlamak için üretim günlükleri kullanılır.
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Üretim geribildirimi](production-feedback.md)
+[Üretim geri bildirimi](production-feedback.md)
 
 [Ürün yapılandırma modelleri](../pim/product-configuration-models.md)
 

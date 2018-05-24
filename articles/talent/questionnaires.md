@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: fc7194e7f95a6a99587a6f7e8ab8a30957bbbd90
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d5c3e02bf5bc17db7232ccbb56e4dfbc062795b4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="questionnaires"></a>Soru formları
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Bu konu, anketler hakkında genel bilgi ve daha ayrıntılı bilgiler için bağlantılar sağlar. Bir anket çeşitli amaçlarla bilgi toplamak için kullanılan bir soru kümesidir. Soru formları tasarlayabilir, oluşturabilir, dağıtabilir, doldurabilir ve ardından sonuçları çözümleyebilirsiniz. 
 
@@ -50,7 +50,7 @@ Aşağıdaki tablo çekirdek anket görevleri hakkındaki bilgilerin bağlantıl
 
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Soru formları tasarlama](design-questionnaires.md)

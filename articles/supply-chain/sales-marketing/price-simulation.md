@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1db68ea5728cc417f0e70675d9074d5b054883da
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6df840de688975b9fa11b866361d88a730426bd0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="price-simulation"></a>Fiyat benzetimi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, teklifler için fiyat benzetimiyle ilgili bilgiler verilmektedir. Fiyat benzetimi, belirli bir fiyat taahhüdünde bulunmadan önce teklif verme işlemi sırasında gelecekteki satış fiyatı kesintilerinin etkisini değerlendirmenize yardımcı olur.
 
@@ -36,7 +36,7 @@ Bir teklif için fiyat benzetimi, yeni toplam tutarı önerilen yeni bir fiyata 
 
 Bir fiyat benzetimi, teklifteki fiyatı değiştirmez. Fiyat benzetimi bir teklifinin tamamına uygulanırsa, teklif başlığında özel bir indirim olarak kabul edilir. Fiyat benzetimi belirli maddelerle uygulanırsa, teklif satırlarında özel bir indirim olarak kabul edilir. Oluşturulan bir teklif satırındaki birim satış fiyatı, bu fiyat benzetimi uygulandığında değişmez. Bunun yerine, teklif satırındaki fiyat azaltımına karşılık gelen bir iskonto yüzdesi uygulanır. Bir fiyat benzetimi uygulandığında, birim satış fiyatı ve iskonto yüzdesi teklif satırına veya teklif başlığına transfer edilir.  
 
-**Not:** Bir fiyat benzetimini çalıştırırken, yalnızca geçerli satış para birimi benzetim oluşturmak için kullanılır. Ancak teklif toplamlarını görüntülediğinizde, şirket para birimi ve satış para biriminin bir karışımını görürsünüz.  
+>[Not!] Bir fiyat benzetimini çalıştırırken, yalnızca geçerli satış para birimi benzetim oluşturmak için kullanılır. Ancak teklif toplamlarını görüntülediğinizde, şirket para birimi ve satış para biriminin bir karışımını görürsünüz.  
 
 Teklifi satırlarına eklenen ek maddeler, satır iskontoları veya çoklu satırlı iskontolarını tetikleyebilir. Ayrıca teklif satırlarının katkı paylarını ve katkı oranlarını ve tüm iskontoyu değiştirebilecek toplam iskontoları da tetikleyebilirler.  
 

@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3131173e10ff7eefeaca18285054ce2312d7ab57
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 23b8e0b51f63ecabc704a2fc5b3ebafe657b52f6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Satır tanımı hücrelerini değiştirme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede bir finansal raporun satır tanımındaki tüm hücreler için gerekli olan bilgiler ve bu bilgilerin nasıl girileceği açıklanmaktadır. 
 
@@ -488,10 +488,10 @@ Boyut değeri kümesi, adlandırılmış bir boyut değerleri grubudur. Bir boyu
 1.  Rapor Tasarımcısı'nda, değiştirilecek satır, sütun veya ağaç tanımını açın.
 2.  **Düzenle** menüsünde, **Boyut Değeri Kümelerini Yönet**'e tıklayın.
 3.  **Boyut Değeri Kümelerini Yönet** iletişim kutusundaki **Boyut** alanından boyut türünü seçin.
-4.  Silinecek seti seçin ve ardından **Sil** düğmesini tıklayın. Boyut değer setini kalıcı olarak silmek için **Evet** düğmesini tıklayın.
+4.  Silinecek kümeyi seçin ve ardından **Sil**'e tıklayın. Boyut değeri kümesini kalıcı olarak silmek için **Evet**'e tıklayın.
 
 
-## <a name="see-also"></a>Ayrıca bkz.
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlama](financial-reporting-intro.md)
 

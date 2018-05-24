@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 703070ae85f504cf204244b2197732dc6849abd6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 40ac5108216fd6d9eb5cd6e76fefd66828a7da84
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-order-cost-analysis"></a>Üretim emri maliyet analizi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, tamamlanmış ve geçerli üretim emirleri için yapabileceğiniz maliyet analizi hakkında bilgiler sağlanmıştır. Tahmini maliyetleri ve gerçek maliyetleri Fiyat hesaplaması sayfasını veya Maliyet tahminleri ve maliyetlendirmeler raporunu kullanarak analiz edebilirsiniz. Her bir bileşen maddesine, rota operasyonuna ve dolaylı maliyete yönelik tahmini ve gerçek maliyetler (ve miktar) hakkındaki bilgileri görüntüleyebilirsiniz.
 
@@ -59,10 +59,10 @@ Ayrı raporlar, her hareket tipi için bilgi sağlar. Raporlanan üretim faaliye
 -   **Süren bitmiş maddeler** − Bu rapor, belirtilen bir hareket tarihi itibariyle geçerli üretim emirlerini ve bitmiş olarak raporlanan hareketleri listeler.
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Üretim farklılıklarının ortak kaynakları](common-sources-of-production-variances.md)
+[Üretim farklarının ortak kaynakları](common-sources-of-production-variances.md)
 
 
 

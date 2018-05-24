@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7cc6ba50b8df54eadc9a23990a58d1d37365cb6a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 934ab83d45aad32c067e8422c5415d4a0a6481b4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-control-overview"></a>Maliyet denetimi genel bakışı 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **Maliyet denetimi** çalışma alanı, bir maliyet nesnesini veya maliyet nesneleri dizisi bir boyut içinde veya boyutlar arasında (örneğin, maliyet merkezleri ve ürün grupları) denetlemekten sorumlu yöneticiler için raporlara erişebilmeleri amacıyla merkezi bir noktadır. Çalışma alanındaki raporlar, raporlama için kullanılan verinin tüm kuruluş çapında istikrarlı olabilmesi için tümüyle maliyet muhasebecileri tarafından kontrol edilir.
 
@@ -154,7 +154,7 @@ Aşağıdaki örnekte, tahsisat tabanı **Formül tahsisat tabanı** türündedi
 
 ![Maliyet nesnesi başına hesaplamalar](./media/cost-entries-allocation-base.png)
 
-Ayrıca bkz. 
+Ek kaynaklar 
 
 [Maliyet nesnesi denetleyicilerinin erişim haklarını tanımlama](access-rights-cost-object-controller.md)
 

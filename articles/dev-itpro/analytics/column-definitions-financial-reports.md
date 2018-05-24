@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 88570a8dc9da6f6a2b4d3a9499e1ea406f681451
-ms.openlocfilehash: 4608f43a3db9308881d4737e49df949190e3ede2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18ae41c3c1b19edc2d56a7e3480890c8aea28054
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/14/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Finansal raporlarda sütun tanımları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede sütun tanımları hakkında bilgi verilmektedir. Bir sütun tanımı bir rapordaki sütunların içindekileri tanımlayan bir rapor bileşeni veya yapı taşıdır. Satır tanımları gibi, temel sütun tanımları da birden fazla raporda kullanılabilir.
 
@@ -581,9 +581,9 @@ Tüm değerleri belirli bir sütunda temel sayının yüzdesi olarak görüntül
 
 #### <a name="divide-the-amount-in-a-column-by-the-number-of-periods"></a>Bir sütundaki tutarı dönem sayısına bölme
 
-Bir sütundaki tutarı belirtilen bir dönem sayısına bölebilirsiniz. Örneğin, **B/Dönem Sayısı**B sütunundaki değeri B sütunundaki dönem sayısına böler. Hesaplama birden fazla sütuna yayılıyorsa hesaplamada kullanılacak dönem sayısını belirtin. Örneğin, **(B+C)/Dönemler** formülü, B ve C sütunundaki tutarları toplar ve ardından sonucu dönem değerine böler.
+Bir sütundaki tutarı belirtilen bir dönem sayısına bölebilirsiniz. Örneğin, **B/Dönem Sayısı**B sütunundaki değeri B sütunundaki dönem sayısına böler. Hesaplama birden fazla sütuna yayılıyorsa hesaplamada kullanılacak dönem sayısını belirtin. Örneğin, **(B+C)/Dönem Sayısı** formülü B ve C sütunlarındaki tutarları toplar ve ardından sonucu dönem değerine böler.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Finansal raporlamada satır tanımları](row-definitions-financial-reporting.md)

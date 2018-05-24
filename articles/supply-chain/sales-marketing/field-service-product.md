@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 08cfd2cfa24bef0f0c92126f5d1052a12ceba37a
-ms.openlocfilehash: 699830ce6cd993f3dd3fd4ff744ce5a8b9645c32
+ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
+ms.openlocfilehash: bf5de13fee6db1b467c1cf4d5cc65b46c67b29fe
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
@@ -66,4 +66,12 @@ Finance and Operations'da **Satılabilir serbest bırakılmış ürünler** veri
 - **Stok:** Ürün türü = Ürün ve Madde model grubu, Stoğu tutulan ürün = Doğru
 - **NonInventory:** Ürün türü = Ürün ve Madde model grubu, Stoğu tutulan ürün = Yanlış
 - **Hizmet:** Ürün türü = Hizmet
+
+## <a name="template-mapping-in-data-integration"></a>Veri tümleştirmede şablon eşleme
+
+Aşağıdaki görseller, Veri tümleştirmede şablon eşlemeyi gösterir.
+
+### <a name="field-service-products-fin-and-ops-to-field-service-products---products"></a>Field Service Ürünleri (Fin and Ops'tan Field Service'a): Ürünler - Ürünler
+
+[![Veri tümleştirmede şablon eşleme](./media/FSProduct.png)](./media/FSProduct.png)
 

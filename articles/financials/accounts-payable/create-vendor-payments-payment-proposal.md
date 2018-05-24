@@ -1,6 +1,6 @@
 ---
 title: "Ödeme teklifi kullanarak satıcı ödemeleri oluşturma"
-description: "Bu konu, ödeme teklifi seçeneklerine genel bir bakış sağlar ve ödeme tekliflerinin nasıl çalıştığına dair bazı örnekler içerir. Ödeme teklifleri, çoğunlukla satıcı ödemeleri oluşturmak için kullanılır çünkü sorgu ödeme için satıcı faturalarını vade tarihi ve nakit indirimi gibi kriterlere dayalı olarak hızla seçmek için kullanılabilir."
+description: "Bu konu, ödeme teklifi seçeneklerine genel bir bakış sağlar ve ödeme tekliflerinin nasıl çalıştığına dair bazı örnekler içerir."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 04/04/2018
@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1199329f7d669a291249e22e393842673a8907c3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5afdace14d1db4b36027634b3af3df1029ae12a2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Ödeme teklifi kullanarak satıcı ödemeleri oluşturma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, ödeme teklifi seçeneklerine genel bir bakış sağlar ve ödeme tekliflerinin nasıl çalıştığına dair bazı örnekler içerir. Ödeme teklifleri, çoğunlukla satıcı ödemeleri oluşturmak için kullanılır çünkü sorgu ödeme için satıcı faturalarını vade tarihi ve nakit indirimi gibi kriterlere dayalı olarak hızla seçmek için kullanılabilir. 
 
@@ -47,7 +47,7 @@ Bu konu, ödeme teklifi seçeneklerine genel bir bakış sağlar ve ödeme tekli
 - **Satıcı bakiyesini kontrol et** – Bu seçenek **Evet** olarak ayarlanırsa, sistem herhangi bir fatura ödenmeden önce bir satıcının borç bakiyesi bulunmadığını doğrular. Bir satıcının bir borç bakiyesi varsa, hiçbir ödeme oluşturulmaz. Örneğin, faturanın borç uyarları veya nakledilmiş ama henüz kapatılmamış ödemeleri bulunabilir. Bu gibi durumlarda, satıcıya ödeme yapılmaması gerekir. Bunun yerine, alacak makbuzları veya ödemeler bekleyen faturalara karşı kapatılmalıdır.
 - **Negatif ödemeleri sil** – Bu seçenek, ödemelerin ayrı faturalar için yapılıp yapılmadığına veya ödeme ölçütünü karşılayan faturaların toplamına göre farklı şekilde işlev görür. Bu davranış, ödeme yönteminde tanımlanır.
 - **Her fatura için ödeme** – **Negatif ödemeleri sil** seçeneği **Evet** olarak ayarlanırsa ve satıcı için kapatılmamış bir fatura ve ödeme varsa, sadece fatura ödeme için seçilir. Mevcut ödeme faturaya karşılık kapatılmaz. **Negatif ödemeleri sil** seçeneği **Hayır** olarak ayarlanırsa ve bir fatura ile bir ödeme kapatılmadıysa, hem ödeme hem de fatura ödeme için seçilir. Ödeme için bir ödeme ve bir para iadesi (negatif ödeme) oluşturulur.
-- <strong>Faturaların toplamı için ödeme</strong> – <strong>Negatif ödemeleri sil</strong> seçeneği <strong>Evet</strong> olarak ayarlanırsa ve satıcı için kapatılmamış bir fatura ve ödeme varsa, hem kapatılmamış fatura hem de ödeme ödeme için seçilir ve tutarlar toplam ödeme tutarını oluşturmak üzere birlikte eklenir. Tek istisna toplamın bir para iadesine yol açması durumunda söz konusudur. Bu durumda, ne fatura ne de ödeme seçilir. <strong>Negatif ödemeleri sil **seçeneği **Hayır</strong> olarak ayarlanırsa ve bir fatura ve ödeme kapatılmadıysa, hem ödeme hem de fatura ödeme için seçilir ve tutarlar toplam ödeme tutarını oluşturmak için birlikte eklenir.
+- **Faturaların toplamı için ödeme** – **Negatif ödemeleri sil** seçeneği **Evet** olarak ayarlanırsa ve satıcı için kapatılmamış bir fatura ve ödeme varsa, hem kapatılmamış fatura hem de ödeme ödeme için seçilir ve tutarlar toplam ödeme tutarını oluşturmak üzere birlikte eklenir. Tek istisna toplamın bir para iadesine yol açması durumunda söz konusudur. Bu durumda, ne fatura ne de ödeme seçilir. **Negatif ödemeleri sil** seçeneği **Hayır** olarak ayarlanırsa ve bir fatura ve ödeme kapatılmadıysa, hem ödeme hem de fatura ödeme için seçilir ve tutarlar toplam ödeme tutarını oluşturmak için birlikte eklenir.
 - **Yalnızca rapor yazdır** – Ödeme teklifinin sonuçlarını raporda görüntülemek ancak herhangi bir ödeme oluşturmamak istiyorsanız bu seçeneği **Evet** olarak ayarlayın.
 - **Diğer tüzel kişiliklerden satıcı faturaları ekle** – Kuruluşunuz ödeme için merkezi işlem kullanıyorsa ve ödeme teklifinin arama ölçütüne dahil edilen diğer tüzel kişiliklerin faturalarını da içermesi gerekiyorsa bu seçeneği **Evet** olarak ayarlayın.
 - **Her tüzel kişilik için ayrı satıcı ödemesi öner** – Bu seçenek **Evet** olarak ayarlanırsa, satıcı başına her tüzel kişilik için ayrı ödeme oluşturulur. Ödemedeki satıcı, her tüzel kişilikten gelen faturadaki satıcıdır. Bu seçenek **Hayır** olarak ayarlanırsa ve aynı satıcının birden fazla tüzel kişilikte faturası varsa, seçili faturaların toplam tutarı için bir ödeme oluşturulur. Ödemedeki satıcı, geçerli tüzel kişilikteki satıcıdır. Satıcı hesabı geçerli tüzel kişilikte mevcut değilse, ödenmesi gereken ilk faturadaki satıcı hesabı kullanılır.
@@ -115,7 +115,8 @@ Boyut kontrolü, oluşturulan satırları ödeme tekliflerine göre gruplamayı 
 -   **Boyut kontrolü** alanı boyutlar daha ayrıntılı tanımlanmadan etkinleştirilir. Ödeme teklifi, boyutlar dikkate alınmadan oluşturulur. Oluşturulan işlem uygulanan girişten hiçbir boyutu devralmaz.
 -   **Boyut kontrolü** alanı ve ayrıntılı boyutlar etkinleştirilir. Şimdi boyutların günlüğe nasıl kopyalanacağını tanımlarsınız. Örneğin: • **BusinessUnit** onay kutusunu, ödeme yöntemi için bir ödeme teklifi oluşturmak üzere seçin. • **CostCenter** onay kutusunu, ödeme yöntemi için bir ödeme teklifine göre maliyet merkezi oluşturmak için seçin
 
-**Not:** Üçünü seçenekte birden çok boyut seçerseniz boyut birleşimi için bir ödeme teklifi oluşturulur.
+> [[!NOTE]
+> Üçünü seçenekte birden çok boyut seçerseniz boyut birleşimi için bir ödeme teklifi oluşturulur.
 
 #### <a name="bank-account-selection"></a>Banka hesabı seçimi
 

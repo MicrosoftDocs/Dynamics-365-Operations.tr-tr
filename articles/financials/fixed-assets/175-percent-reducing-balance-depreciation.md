@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a61e743898e3e65c0012a7aeb9837e55e9143d01
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8f78eb06930eab26d300fba6fd28333a5ce39cf8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="175-percent-reducing-balance-depreciation"></a>%175 azalan bakiyeli amortisman
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, amortismanın yüzde 175 azalan bakiye yöntemi hakkında genel bir bakış sağlar.
 
@@ -57,7 +57,7 @@ Amortisman yılı olarak **Takvim** seçerseniz, **Dönem sıklığı** alanınd
 
 ### <a name="fiscal"></a>Mali
 
-**Amortisman yılı** alanında **Mali** seçeneğini belirlerseniz, %175 azalan bakiyeli amortisman defter için belirtilen mali takvim için veya **Genel muhasebe** sayfasında seçilen mali takvim için mali yıla dayalı olarak hesaplanır. Mali takvimler, **Mali Takvimler** sayfasında ayarlanır. Daha fazla bilgi için bkz. [Mali takvimler, mali yıllar ve dönemler](..\budgeting\fiscal-calendars-fiscal-years-periods.md).
+**Amortisman yılı** alanında **Mali** seçeneğini belirlerseniz, %175 azalan bakiyeli amortisman defter için belirtilen mali takvim için veya **Genel muhasebe** sayfasında seçilen mali takvim için mali yıla dayalı olarak hesaplanır. Mali takvimler, **Mali Takvimler** sayfasında ayarlanır. Daha fazla bilgi için bkz. [Mali takvimler, mali yıllar ve dönemler](../budgeting/fiscal-calendars-fiscal-years-periods.md).
 
 Örneğin, 1 Temmuz ile 30 Haziran arasındaki mali yıl için amortisman hesaplaması 1 Temmuz'da başlar. Mali yıl 12 aydan daha uzun veya daha kısa olabilir. Amortisman, her mali dönem için otomatik olarak düzeltilir ve bir sonraki mali yılın uzunluğu, **Mali takvimler** sayfasındaki dönem ayarları tarafından belirlenir. 
 

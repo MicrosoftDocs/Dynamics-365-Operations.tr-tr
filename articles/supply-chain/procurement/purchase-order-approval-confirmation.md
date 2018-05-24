@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1c7209c91f3821a77e9b127d767c78df403ff6cc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 475470fa87455e187e0a93148046cb1df634da1f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="approve-and-confirm-purchase-orders"></a>Satınalma siparişlerini onaylama ve doğrulama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Bu makalede oluşturulduktan sonra bir satınalma siparişinin (PO) geçtiği durumlar ve değişiklik yönetiminin etkinleştirilmesinin PO'lara etkisi tanımlanır.
 
@@ -75,14 +75,14 @@ Bir PO satırı için sipariş edilen miktarın bir parçası teslim edilmişse 
 
 Bir sipariş teyit edildikten sonra artık onu silemezsiniz. Ancak, miktarın alınmaması veya faturalanmaması koşuluyla siparişteki toplam miktarı veya kalan miktarı iptal edebilirsiniz.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Satınalma siparişine genel bakış](purchase-order-overview.md)
 
 [Satınalma siparişi oluşturma](purchase-order-creation.md)
 
-[Ürün girişine karşılık satınalma siparişleri](product-receipt-against-purchase-orders.md)
+[Ürün girişi ve satınalma siparişleri karşılaştırması](product-receipt-against-purchase-orders.md)
 
 [Satıcı faturalarına genel bakış](../../financials/accounts-payable/vendor-invoices-overview.md)
 

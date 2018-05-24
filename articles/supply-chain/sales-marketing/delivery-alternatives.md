@@ -20,23 +20,23 @@ ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58c083b2fa76e90d10ec8a197a4743a9e315db46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 855fdd0e57a7001628b715038785379d5a986789
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="delivery-alternatives"></a>Teslimat alternatifleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-Satış siparişi alanlar, Teslimat alternatif sayfasını, alternatif sipariş karşılama seçeneklerini bulmak için kullanabilirler.
+Satış siparişi alanlar, **Teslimat alternatifleri** sayfasını, alternatif sipariş karşılama seçeneklerini bulmak için kullanabilirler.
 
-Microsoft Dynamics 365 for Operations sürüm 1611 (Kasım 2016) içerisinde, satış siparişi alanlar, **Teslimat alternatifleri** sayfasını, alternatif sipariş karşılama seçeneklerini bulmak için kullanabilirler. Yeniden tasarlanan sayfa düzeni, tüm alternatif seçenekler hakkında daha iyi bir görünüm verir. Ayrıca sipariş alanların, geçerli şirketin karşılama fırsatlarının ötesine bakmalarına izin verir. Şimdi hem şirketlerarası fırsatlar hem de harici satıcılardan fırsatları görebilirler. Seçenekleri teslimat tarihine göre dizerek, satış siparişi alanlar teslimat alternatiflerinin akıllı bir listesini görebilirler. Ek olarak, parametreler önerilen teslimatları daha iyi yönetmelerine yardımcı olur. Taşıma süresi teslimat tarihini etkileyebileceğinden, satış siparişi alanlar, taşıyıcının sunduğu çeşitli taşıma seçeneklerini keşfedebilirler. Her bir öneri için ayrıntılı bilgi sunulduğundan, sipariş alanlar **Teslimat alternatifleri** sayfasından doğrudan bilinçli kararlar verebilirler.
+**Teslimat alternatifleri** sayfasının düzeni, tüm alternatif seçenekler hakkında genel bir görünüm verir. Ayrıca sipariş alanların, geçerli şirketin karşılama fırsatlarının ötesine bakmalarına izin verir. Şimdi hem şirketlerarası fırsatlar hem de harici satıcılardan fırsatları görebilirler. Seçenekleri teslimat tarihine göre dizerek, satış siparişi alanlar teslimat alternatiflerinin akıllı bir listesini görebilirler. Ek olarak, parametreler önerilen teslimatları daha iyi yönetmelerine yardımcı olur. Taşıma süresi teslimat tarihini etkileyebileceğinden, satış siparişi alanlar, taşıyıcının sunduğu çeşitli taşıma seçeneklerini keşfedebilirler. Her bir öneri için ayrıntılı bilgi sunulduğundan, sipariş alanlar **Teslimat alternatifleri** sayfasından doğrudan bilinçli kararlar verebilirler.
 
 ## <a name="open-the-delivery-alternatives-page"></a>Teslimat alternatifleri sayfasını aç
-**Teslimat** **alternatifleri** sayfasını satış siparişi satırından açabilirsiniz.
+**Teslimat alternatifleri** sayfasını satış siparişi satırından açabilirsiniz.
 
 1.  **Ürün ve tedarik** &gt; **Teslimat alternatifleri** üzerine tıklayın.
 2.  **Satır ayrıntıları** &gt; **Teslimat** &gt; **Teslimat alternatifleri** üzerine tıklayın.
@@ -146,7 +146,7 @@ Bu sekme üzerindeki bilgi, seçilen teslimat alternatif satırıyla ilişkilidi
 
 Bu sekme, seçili teslimat alternatifinin etkisini vurgular. **Tamam** üzerine tıklarsanız, satış satırı SEÇİLİ sütunlarındaki vurgulanan değerler ile güncelleştirilir. Seçilen teslimat alternatifindeki miktar, satış satırındaki miktardan az ise, bir teslimat planının oluşturulacağını ve sipariş satırının iki satıra ayrılacağını unutmayın: bir satır seçilen miktar için ve bir satır kalan miktar için. Ticari satırı da planlı satırlar ile eşleşecek ve böylece fiyatlandırmayı etkileyecek şekilde güncelleştirebilirsiniz.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Sipariş taahhüdü](delivery-dates-available-promise-calculations.md)

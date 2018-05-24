@@ -19,16 +19,16 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5c92c1ca3f46d80a58ca315f1f695f082d1929ca
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fb7d0dc8b3ff9e8f1e4ade5cacfeed8f1a6871ab
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="electronic-reporting-destinations"></a>Elektronik raporlama hedefleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Her bir Elektronik raporlama (ER) biçimi yapılandırması ve bunun çıkış bileşeni (bir klasör veya bir dosya) için bir hedef yapılandırabilirsiniz. Uygun erişim hakları verilmiş kullanıcılar çalışma zamanında hedef ayarlarını da değiştirebilir. Bu makalede, ER hedef yönetimi, desteklenen hedeflerin türleri ve güvenlik ile ilgili hususlar açıklanır.
 
@@ -51,7 +51,8 @@ Referans oluşturduktan sonra her klasör veya dosya için bir dosya hedefi olu�
 
 [![Bir dosya hedefi oluşturma](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-> ![NOT] Klasör veya dosya gibi **Dosya Adı** alanında seçilen aynı biçimdeki her bir çıkış bileşeni için bir dosya hedefi oluşturabilirsiniz. Sonra dosya için tekil hedefleri **Hedef ayarları** iletişim kutusunda etkinleştirebilir ve devre dışı bırakabilirsiniz. **Ayarlar** düğmesi seçili dosya hedefi için tüm hedefleri denetlemek amacıyla kullanılır. **Hedef ayarları** iletişim kutusunda **Etkin** seçeneğini ayarlayarak her hedefi ayrı olarak denetleyebilirsiniz.
+> [!NOTE] 
+> Klasör veya dosya gibi **Dosya Adı** alanında seçilen aynı biçimdeki her bir çıkış bileşeni için bir dosya hedefi oluşturabilirsiniz. Sonra dosya için tekil hedefleri **Hedef ayarları** iletişim kutusunda etkinleştirebilir ve devre dışı bırakabilirsiniz. **Ayarlar** düğmesi seçili dosya hedefi için tüm hedefleri denetlemek amacıyla kullanılır. **Hedef ayarları** iletişim kutusunda **Etkin** seçeneğini ayarlayarak her hedefi ayrı olarak denetleyebilirsiniz.
 
 [![Hedef ayarları iletişim kutusu](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
 
@@ -130,7 +131,8 @@ ER hedefleri için iki tür ayrıcalık ve görev kullanılır. Bir tüzel kişi
 | PaymAccountsPayablePaymentsClerk    | Borç hesapları ödeme memuru            | ERFormatDestinationRuntimeConfigure | Çalışma zamanında kullanılacak elektronik raporlama biçimi hedefini yapılandır |
 | PaymAccountsReceivablePaymentsClerk | Alacak hesapları ödeme memuru         | ERFormatDestinationRuntimeConfigure | Çalışma zamanında kullanılacak elektronik raporlama biçimi hedefini yapılandır |
 
-> ![NOT] Önceki görevlerde iki ayrıcalık kullanılır. Bu ayrıcalıklar ilgili görevlerle aynı adlara sahiptir: **ERFormatDestinationConfigure** ve **ERFormatDestinationRuntimeConfigure**.
+> [!NOTE]
+> Önceki görevlerde iki ayrıcalık kullanılır. Bu ayrıcalıklar ilgili görevlerle aynı adlara sahiptir: **ERFormatDestinationConfigure** ve **ERFormatDestinationRuntimeConfigure**.
 
 ## <a name="frequently-asked-questions"></a>Sıkça sorulan sorular
 ### <a name="i-have-imported-electronic-configurations-and-i-see-them-on-the-electronic-reporting-configurations-page-but-why-dont-i-see-them-on-the-electronic-reporting-destinations-page"></a>Elektronik yapılandırmaları içe aktardım ve bunları Elektronik raporlama yapılandırmaları sayfasında görüyorum. Ancak bunları neden Elektronik raporlama hedefleri sayfasında görmüyorum?
@@ -153,7 +155,7 @@ Formül ER yapılandırmasına özgüdür. Örneğin, ISO 20022 Borç Transferi 
 
 Biçiminizin ER yapılandırmalarında kullanılması ön koşuldur. Kendi biçiminiz varsa **Elektronik raporlama hedefi** sayfasını açın ve bu yapılandırma için yeni bir referans oluşturun. Sonra her bir çıkış bileşeni için bir adet olmak üzere dört dosya hedefinizin olması gerekir. İlk dosya hedefini oluşturun, buna **Klasör** gibi bir ad verin ve yapılandırmanızda klasörü gösteren bir dosya adı seçin. Sonra **Ayarlar**'a tıklayın ve tüm hedeflerin devre dışı bırakıldığından emin olun. Bu dosya hedefi için klasör oluşturulmayacaktır. Varsayılan olarak, dosyalar ve ana klasörler arasındaki hiyerarşik bağımlılıklar nedeniyle dosyalar aynı şekilde davranmayacaktır. Diğer bir deyişle, bunlar her yere gönderilemeyecektir. Bu varsayılan davranışı geçersiz kılmak için her bir dosya için bir adet olmak üzere üç dosya daha oluşturmanız gerekir. Her biri için hedef ayarlarında dosyanın gönderilmesi gereken hedefi etkinleştirmeniz gerekir.
 
-## <a name="see-also"></a>Ayrıca bkz.
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Elektronik raporlamaya genel bakış](general-electronic-reporting.md)
 

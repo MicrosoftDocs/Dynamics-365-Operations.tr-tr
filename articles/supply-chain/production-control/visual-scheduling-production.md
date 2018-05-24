@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f7001158a498aa28028167a0f76ad610ec09b43c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c3726038d9782891988e16cb98cf04cf47b7e66c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="gantt-chart-for-job-scheduling"></a>İş planlaması için Gantt şeması
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Gantt grafiği üretim planlayıcılarını üretim planını denetleme ve en iyi duruma getirme konusunda desteklemek için tasarlanmıştır. Gantt grafiği işlem akışını saydam hale getirir ve üretim planını malzeme veya kaynak eksikliklerini göz önünde bulundurarak kolaylıkla düzenlemeyi sağlar. Planlayıcıların kullanılabilir kaynaklardan en iyi şekilde yararlanmasına, ilerlemedeki işi en aza indirmesine ve üretim emirleri için çıkış sürelerini optimize etmesine yardımcı olur..
 
@@ -156,7 +156,7 @@ Gantt grafiği aşağıdaki sayfalardan açılabilir.
 |           <strong>Tamamlanacak iş</strong> (<strong>Üretim katı yönetimi</strong> çalışma alanındaki liste)            |                                                                                               <strong>Üretim katı yönetimindeki tamamlanacak iş listesi</strong> çalışma alanı, çalışma alanında seçili kaynaklar için yürütülmekte olan üretim ve toplu iş emirlerindeki işleri gösterir. <strong>Gantt grafiği</strong> menü öğesinde Gantt grafiğini açabilirsiniz; listede seçili tüm işler grafiğe yüklenecektir.                                                                                               |
 | <strong>Serbest bırakılacak üretim emirleri</strong> (<strong>Üretim katı yönetimi</strong> çalışma alanından açılan) |                                                                                                                                         Serbest bırakılacak üretim emirleri sayfası <strong>Üretim katı yönetimi</strong> çalışma alanından açılır. Bu sayfa, serbest bırakma işlemi bekleyen planlanmış üretim ve toplu iş emirlerini gösterir. Bu sayfada, seçili üretim emirleri için Gantt grafiğini açabilirsiniz.                                                                                                                                          |
 
-## <a name="see-also"></a>Ayrıca bkz.  
+## <a name="additional-resources"></a>Ek kaynaklar  
 [Ürün ve toplu siparişler için Gantt şemasıyla görsel planlama (Video)](https://youtu.be/BtbuShkGj4I)
 
 [Üretim için görsel planlama (demo kod)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)

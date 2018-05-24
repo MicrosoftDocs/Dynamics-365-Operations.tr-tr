@@ -19,25 +19,24 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9960af8c4961a42e7e829077da40bcbbf3bc71c2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5ccf41d1184280d3c4a000db13847733fd2cf4d2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cash-discounts"></a>Nakit iskontoları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Nakit iskontoları Borç hesapları ve Alacak hesapları için ayarlanır ve paylaşılır.  Yapılabilecek nakit iskontosu müşteri faturasında veya satıcı faturasında tanımlanabilir ve fatura, nakit iskontosu tarihi geçmeden ödendiği takdirde alınır. 
 
-<a name="cash-discounts"></a>Nakit iskontoları
---------------
+## <a name="cash-discounts"></a>Nakit iskontoları
 
 Hem müşteriler veya hem de satıcılar için nakit iskontoları, Nakit iskontoları sayfasında oluşturulabilir. Ayrıca, önceki nakit iskontosunun vadesi dolduğunda birbirini izleyecek nakit iskontolarını, Sonraki iskonto kodu alanını kullanarak tanımlayabilirsiniz, Daha fazla bilgi için bu konunun devamındaki "Örnek: Nakit iskontoları serileri" başlığına bakınız. Eğer bir fatura, iade hareketi (ödeme veya alacak dekontu) veya her ikisi, tüzel kişiliğin hesap para birimini farklı bir para biriminde girilirse, nakit iskontosu, ödeme veya alacak dekontunun döviz kuru kullanılarak hesaplanır. Fatura ve iade belgesi farklı tüzel kişiliklere girildiye ve tüzel kişiliklerin muhasebe para birimleri farklıysa, döviz kuru faturanın bir tüzel kişiliğinden kredi belgesine göre alınır. Daha fazla bilgi için bu konunun devamındaki "Örnek: Nakit için döviz kurları" başlığına bakınız.
-Nakit iskontosu ana hesabı varsayılan ilkesi
-----------------------------------------------
+
+## <a name="defaulting-order-of-cash-discount-main-account"></a>Nakit iskontosu ana hesabı varsayılan ilkesi
 
 Bir fatura nakit iskontosu elde etmek için zamanında kapatılmışsa, nakit iskontosu aşağıdaki varsayılan ilkesi önceliğine göre otomatik olarak bir nakit iskontosu ana hesabına nakledilir:
 1.  Ana hesap, Açık hareketleri kapat sayfası veya Satıcı açık hareketleri kapat sayfasındaki Alternatif nakit iskontosu hesabı alanda belirtilir.
@@ -65,15 +64,7 @@ Tüzel kişiliğinizin muhasebe para birimi EUR'dur ve aşağıdaki döviz kurla
 
 20D2% nakit iskonto koşullarına sahip 1000 USD'lik bir fatura 15 Şubat'ta nakledilir. Faturanın muhasebe para birimi tutarı 1100 EUR'dur. 980 USD için bir ödeme, fatura ile 1 Mart'ta kapatılır. Nakit iskontosu tutarı 20 USD'dir. Ödemenin muhasebe para birimi tutarı 784 Euro'dur. Nakit iskontosu hesap para miktarı, 1 Mart itibariyle döviz kuru kullanılarak hesaplanır: 20 \* 80 / 100 = 16 EUR.
 
-| **Not**                                                                                                                                                                                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Alacak hesapları parametreleri ya da hesapların borç parametreleri sayfaları hesapla nakit iskontoları için kısmi ödeme seçeneği seçili olduğunda her bir kısmi ödeme tarihinde geçerli olan döviz kuru kullanılır. |
-
- 
-=
-
- 
-
-
+> [!NOTE]
+> Alacak hesapları parametreleri ya da hesapların borç parametreleri sayfaları hesapla nakit iskontoları için kısmi ödeme seçeneği seçili olduğunda her bir kısmi ödeme tarihinde geçerli olan döviz kuru kullanılır. 
 
 

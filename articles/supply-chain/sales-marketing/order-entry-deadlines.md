@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 31308e64d4871a4d09540df16fdcd02cc83bd0be
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4f3905f364ea67eab226323fd3450ebed30e4735
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="order-entry-deadlines"></a>Sipariş son giriş tarihleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede sipariş giriş son tarihleri hakkında bilgiler verilmiştir. Bir sipariş girişi son tarihi, bir müşteri siparişinin o gün ya da ertesi gün alındığının kabul edilip edilmeyeceğini (ve yerine getirilip getirilmediğini) belirleyen bir kesim tarihidir.
 
@@ -103,7 +103,7 @@ Aşağıdaki tabloda A ve B tesisleri için MST saatine dönüştürülmüş son
 
 **Not:** Yaz saati uygulaması devredeyse, son sipariş giriş saati ona göre ayarlanır.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Teslimat zaman çizelgeleri](delivery-schedules.md)

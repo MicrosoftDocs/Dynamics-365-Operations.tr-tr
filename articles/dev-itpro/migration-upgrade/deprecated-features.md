@@ -3,7 +3,7 @@ title: "Kaldırılan özellikler"
 description: "Bu konu kaldırılmış veya kaldırılması planlanan özellikleri açıklar."
 author: sericks007
 manager: AnnBe
-ms.date: 03/22/2018
+ms.date: 05/09/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e629673c3a923ec74809e276ec39464bfacda124
+ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
+ms.openlocfilehash: c935b0c14f09b0a3a738266e4c9c577c96f0ea77
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
@@ -78,13 +78,13 @@ Bu iki rapor artık Finance and Operations'da desteklenmemektedir. Bunun yerine,
 | **Dağıtım seçeneği**        | Tümü|
 | **Durum**                       | Kullanımı sonlandırıldı: Her iki raporun da menü öğeleri 7.3 sürümünde kaldırıldı. Ancak, raporların kodu üründe kaldı. Plan kodu sonraki bir sürümde kaldırmaktır. |
 
-### <a name="power-bi-content-packs-published-to-powerbicom"></a>PowerBI.com'da yayımlanan Power BI içerik paketleri
-PowerBI.com sitesinde yayımlanmış olan **Maliyet yönetimi**, **Mali performans** ve **Perakende kanalı performansı** içerik paketleri, Microsoft Power BI'deki ürün güncelleştirmelerinin sonucu olarak kullanımdan kaldırıldı. PowerBI.com'da bu içerik paketlerini dağıtmak için kullanılan sistem yönetim formlarının kullanımı da Finance and Operations'ta sonlandırıldı.
+### <a name="power-bi-content-packs-available-on-appsource"></a>AppSource'ta bulunan Power BI içerik paketleri
+[Microsoft AppSource](https://appsource.microsoft.com)'ta yayımlanmış olan **Maliyet yönetimi**, **Mali performans** ve **Perakende kanalı performansı** içerik paketleri, Microsoft Power BI'deki ürün güncelleştirmelerinin sonucu olarak kullanımdan kaldırıldı. PowerBI.com'da bu içerik paketlerini dağıtmak için kullanılan sistem yönetim formlarının kullanımı da Finance and Operations'ta sonlandırıldı.
 
 |   |  |
 |------------|--------------------|
 | **Kullanımı sonlandırma/kaldırma nedeni** | Microsoft Power BI'deki ürün güncelleştirmeleri. |
-| **Başka bir özellik ile değiştirildi?**   | Power BI içerik paketleri (PowerBI.com'da yayımlanan) veritabanı düzeyinde çözüm tümleştirmelerine olanak tanıyan analiz uygulamalarıyla değiştirildi. Analiz uygulamaları hakkında daha fazla bilgi için bkz. [Çalışma alanlarına katıştırılmış Power BI](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Başka bir özellik ile değiştirildi?**   | [AppSource](https://appsource.microsoft.com) sitesinde bulunan **Yönetimi maliyet**, **Mali performans** ve **Perakende kanal performansı** içerik paketleri, veritabanı düzeyinde çözüm tümleştirmelerine olanak tanıyan analiz uygulamalarıyla değiştirilmektedir. Analiz uygulamaları hakkında daha fazla bilgi için bkz. [Çalışma alanlarına katıştırılmış Power BI](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Etkilenen ürün alanları**         | Maliyet yönetimi, Finans ve Perakende                                                                                               |
 | **Dağıtım seçeneği**              | Yalnızca bulut(PowerBI.com ile tümleştirme şirket içi dağıtımlarda desteklenmez.)                                                                                                            |
 | **Durum**                         | Kullanımı sonlandırıldı: İşlevin kaldırılması hedeflenen zaman aralığı 2018 yılı 2. çeyreğidir.    |

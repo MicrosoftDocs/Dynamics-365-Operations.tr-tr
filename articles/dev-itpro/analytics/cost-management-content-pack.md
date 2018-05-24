@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a4eacafdf9b9e0eabe7fe599e679fca18c749733
+ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
+ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
@@ -38,8 +38,7 @@ ms.lasthandoff: 04/13/2018
 > [!Note]
 > Bu konuda açıklanan **Maliyet yönetimi** Power BI içeriği Dynamics 365 for Finance and Operations 8.0 için geçerlidir.
 > 
-> PowerBI.com adresinde yayımlanan **Maliyet yönetimi** Power BI içerik paketi kullanımdan kaldırılmıştır. Bu kullanımdan kaldırma hakkında daha fazla bilgi için bkz. [PowerBI.com'da yayımlanan Power BI içerik paketleri](../migration-upgrade/deprecated-features.md#power-bi-content-packs-published-to-powerbicom).
-
+> AppSource sitesinde yayımlanan **Maliyet yönetimi** Power BI içerik paketi kullanımdan kaldırılmıştır. Bu kullanımdan kaldırma hakkında daha fazla bilgi için bkz. [AppSource'da yayımlanan Power BI içerik paketleri](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Bu Power BI içeriği stokların performansını izlemenize ve maliyetin bunlar üzerinde nasıl akış sağladığını görselleştirmenize yardımcı olan kategorilere ayrılmış bir biçim sağlar. Ciro oranı, stoğun elde olduğu gün sayısı, doğruluk, tercih ettiğiniz toplama düzeyinde "ABC sınıflandırması" (şirket, madde, madde grubu veya tesis) gibi yönetimsel öngörüler de elde edebilirsiniz. Kullanıma sunulan bu bilgiler, mali tabloya detaylı bir destekleyici olarak da kullanılabilir.
 

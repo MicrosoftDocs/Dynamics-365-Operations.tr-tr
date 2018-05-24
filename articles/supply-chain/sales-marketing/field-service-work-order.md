@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 08cfd2cfa24bef0f0c92126f5d1052a12ceba37a
-ms.openlocfilehash: 854240bef9d6193c8f0f608687b68e6842fe272c
+ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
+ms.openlocfilehash: 933d9755085d507310dd46d96a492d2124647ec3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
@@ -230,7 +230,47 @@ Field Service ile Finance and Operations arasında tümleştirmeyi desteklemek i
 6. **Satış kaynağı türü** alanını **İş emri tümleştirmesi** olarak ayarlayın.
 7. **Kaydet**'i seçin.
 
-### <a name="template-mapping-in-data-integration"></a>Veri tümleştirmede şablon eşleme
 
-(Yakında)
+### <a name="setup-in-data-integration"></a>Veri tümleştirmesinde kurulum
+
+**msdyn_workorders** için **Tümleştirme anahtarı** bulunduğundan emin olun. 
+1. Veri Tümleştirme'ye gidin
+2. **Bağlantı Kümesi** sekmesini seçin
+3. İş emri eşitlemede kullanılacak Bağlantı kümesini seçin
+4. **Tümleştirme anahtarı** sekmesini seçin
+5. msdyn_workorders öğesini bulun ve **msdyn_name (Work Order Number)** anahtarının eklendiğini kontrol edin. Görünmüyorsa, **Anahtar ekle**'ye tıklayarak ekleyin sayfanın üst kısmındaki **Kaydet**'e tıklayın
+
+## <a name="template-mapping-in-data-integration"></a>Veri tümleştirmede şablon eşleme
+
+Aşağıdaki görseller, Veri tümleştirmede şablon eşlemeyi gösterir.
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderheader"></a>İş emirlerinden Satış siparişlerine (Field Service'tan Fin and Ops'a): WorkOrderHeader
+
+Filtre: (msdyn_systemstatus ne 690970005) ve (msdyn_systemstatus ne 690970000) ve (msdynce_hasexternallymaintainedproductsonly eq true)
+
+[![Veri tümleştirmede şablon eşleme](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineestimate"></a>İş emirlerinden Satış siparişlerine (Field Service'tan Fin and Ops'a): WorkOrderServiceLineEstimate
+
+Filtre: (msdynce_headersystemstatus ne 690970005) ve (msdynce_headersystemstatus ne 690970000) ve (msdynce_orderhasexternalmaintainedproductsonly eq true) ve (msdyn_linestatus eq 690970000) ve (msdynce_headersystemstatus ne 690970004)
+
+[![Veri tümleştirmede şablon eşleme](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineused"></a>İş emirlerinden Satış siparişlerine (Field Service'tan Fin and Ops'a): WorkOrderServiceLineUsed
+
+Filtre: (msdynce_headersystemstatus ne 690970005) ve (msdynce_headersystemstatus ne 690970000) ve (msdynce_orderhasexternalmaintainedproductsonly eq true) ve ((msdyn_linestatus eq 690970001) veya (msdynce_headersystemstatus eq 690970004))
+
+[![Veri tümleştirmede şablon eşleme](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineestimate"></a>İş emirlerinden Satış siparişlerine (Field Service'tan Fin and Ops'a): WorkOrderProductLineEstimate
+
+Filtre: (msdynce_headersystemstatus ne 690970005) ve (msdynce_headersystemstatus ne 690970000) ve (msdynce_orderhasexternalmaintainedproductsonly eq true) ve (msdyn_linestatus eq 690970000) ve (msdynce_headersystemstatus ne 690970004) ve (msdyn_allocated eq true)
+
+[![Veri tümleştirmede şablon eşleme](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineused"></a>İş emirlerinden Satış siparişlerine (Field Service'tan Fin and Ops'a): WorkOrderProductLineUsed
+
+Filtre: (msdynce_headersystemstatus ne 690970005) ve (msdynce_headersystemstatus ne 690970000) ve (msdynce_orderhasexternalmaintainedproductsonly eq true) ve ((msdyn_linestatus eq 690970001) veya (msdynce_headersystemstatus eq 690970004) veya (msdyn_allocated ne true))
+
+[![Veri tümleştirmede şablon eşleme](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 

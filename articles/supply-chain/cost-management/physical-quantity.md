@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 739e998ec0962dba94cfb6d05b9f620852530d29
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 60f39b19a627e9c3288f30872d237b8c0ccd8ac4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="inventory-object-values"></a>Stok nesnesi değerleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, stok nesnesi değerlerinin nasıl hesaplandığı hakkında bilgiler verilmektedir. 
 
@@ -123,7 +123,7 @@ Aşağıdaki tabloda, bir stok nesnesi için yapılan hesaplamanın sonucu göst
 </tr>
 <tr class="even">
 <td>Stok nesnesi</td>
-<td>A:</td>
+<td>A</td>
 <td>1</td>
 <td>11</td>
 <td>B2</td>
@@ -137,7 +137,7 @@ Aşağıdaki tabloda, bir stok nesnesi için yapılan hesaplamanın sonucu göst
 
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Maliyet nesneleri](cost-object.md)

@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 974edd06460df4afe594b0a033a042b8c2763f7f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="demand-forecasting-setup"></a>Talep tahmini kurulumu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu başlığı, talep tahmini için hazırlamak üzere gerçekleştirmeniz gereken kurulum görevlerini açıklar.  
 
@@ -78,7 +78,7 @@ Talep tahminleri oluşturmak için, Machine Learning Studio veya Finance and Ope
 ## <a name="settings-for-the-finance-and-operations-demand-forecasting-machine-learning-service"></a>Finance and Operations talep tahmini makine öğrenimi hizmeti için ayarlar
 Finance and Operations talep tahmini hizmeti için yapılandırılabilecek parametreleri görmek için, **Master planlama** &gt; **Kurulum** &gt; **Talep tahmini** &gt; **Tahmin algoritma parametreleri** konumuna gidin. **Tahmin algoritma parametreleri** sayfası, parametreler için varsayılan değerleri gösterir. Bu parametrelerin üzerine **Talep tahmini parametreleri** sayfasında yazabilirsiniz. Genel olarak parametrelerin üzerine yazmak için **Genel** öğesini kullanın veya her bir madde tahsisat anahtarı için parametrelerin üzerine yazmak istiyorsanız **Madde tahsisat anahtarları** öğesini kullanın. Bir madde tahsisat anahtarı için üzerine yazılan parametreler sadece o madde tahsisat anahtarı ile ilişkilendirilen öğelerin tahminini etkiler.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Talep tahminine giriş](introduction-demand-forecasting.md)

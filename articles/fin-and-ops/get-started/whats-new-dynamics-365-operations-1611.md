@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: be69aff98b1a3a8304461af0f38760988ac28d42
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 53c51ec1be145c72ff5090666399ac4ea113e5df
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Dynamics 365 for Operations sürüm 1611'deki yenilikler veya değişiklikler (Kasım 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda, Dynamics 365 for Operations sürüm 1611'de yeni olan veya değişen özellikler açıklanır.
 
@@ -854,10 +854,10 @@ Mağaza sistemi, perakendeciler için yerinde mağazada, Microsoft genel bulutu 
 
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Yeni veya değişenler nedir](whats-new-changed.md)
+[Yenilikler veya değişenler](whats-new-changed.md)
 
 
 

@@ -19,16 +19,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 493c54105b36e561edf6d5db95eaff442a812905
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1c92ccb37b62a39e5ab4808454f8c6f84560d917
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="balance-sheet-financial-reports"></a>Bilanço mali raporları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makale, bilançolar için varsayılan raporları açıklar. Ayrıca, bu raporlarla ilişkili olan yapı taşlarını açıklar. 
 
@@ -72,12 +72,12 @@ Sütun tanımları, farklı ayrıntı ve mali veri düzeyleri sunmak üzere fark
 
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Mali raporlama](financial-reporting-getting-started.md)
 
-[Mali raporları görüntüle](view-financial-reports.md)
+[Mali raporları görüntüleme](view-financial-reports.md)
 
 [Dynamics Mali Raporlama Blogu](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 

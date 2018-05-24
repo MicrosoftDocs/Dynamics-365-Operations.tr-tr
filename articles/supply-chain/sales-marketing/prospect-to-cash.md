@@ -3,7 +3,7 @@ title: "Müşteri adayından nakde"
 description: "Bu konuda, Microsoft Dynamics 365 for Finance and Operations ile Microsoft Dynamics 365 for Sales arasındaki Müşteri adayından nakde çözümüne genel bakış sunulmaktadır."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 04/03/2018
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,22 +20,24 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bc0fa8fe3e20ae4be3e572932f99ccc54e3b746b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f43b3943ce27c44cc0b4756d1d5f23e3be093273
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="prospect-to-cash"></a>Müşteri adayından nakde
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Müşteri adayından nakde çözümü, Dynamics 365 for Finance and Operations ile Dynamics 365 for Sales arasında doğrudan eşitleme yapılmasını sağlar. Veri Tümleştirme özelliğiyle birlikte kullanılan Müşteri adayından nakde şablonları Finance and Operations ile Sales arasında hesaplar, ürünler, satışlar, satış teklifleri, satış siparişleri ve satış faturaları için veri akışı sağlar. Finance and Operations ile Sales arasında veri akışı sağlanırken, Sales'de satış ve pazarlama faaliyetlerini gerçekleştirebilir ve Finance and Operations'da stok yönetimini kullanarak sipariş karşılamaları işleyebilirsiniz. 
 
 Müşteri adayından nakde tümleştirmesi hakkında daha fazla bilgi için kısa YouTube videosunu izleyin:
 
 > [!Video https://www.youtube.com/embed/AVV9x5x-XCg]
+
+[Müşteriden nakde tümleştirmesi (YouTube videosu)](https://youtu.be/AVV9x5x-XCg) 
 
 Geçerli sürümde, Müşteri adayından nakde çözümü aşağıdaki türlerde doğrudan eşitleme sağlar:
 
@@ -76,7 +78,7 @@ Müşteri adayından nakde tümleştirmesi aşağıdaki sürümlerde desteklenir
   - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** - Veri varlıkları aracılığıyla müşteri adayından nakde tümleştirmesi için destek gereklidir.
     
     > [!NOTE]
-    > Düzeltmeleri yükledikten sonra aşağıdaki toplu işi **SalesPopulateProspectToCash** formundan tetiklemeniz gerekir. Bu form yalnızca bir kez gereksinim duyacağınızdan gizlenmiştir. Forma erişmek için ortamda oturum açın ve şu ifadeyi tarayıcı adresinizdeki URL'ye ekleyin: &mi=action:SalesPopulateProspectToCash. (Örneğin, `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`). Form açıldığında Tamam'a tıklayın. Bu, **SalesLine**, **SalesQuotationLine** ve **CustInvoiceTrans** tablolarında benzersiz değerlere sahip yeni bir **LineCreationSequnceNumber** alanı oluşturur ve ürün listesi yenilenir. Müşteri adayından nakde tümleştirmesinin çalışması için gereklidir.
+    > Düzeltmeleri yükledikten sonra aşağıdaki toplu işi **SalesPopulateProspectToCash** formundan tetiklemeniz gerekir. Bu form yalnızca bir kez gereksinim duyacağınızdan gizlenmiştir. Forma erişmek için ortamda oturum açın ve şu ifadeyi tarayıcı adresinizdeki URL'ye ekleyin: *&mi=action:SalesPopulateProspectToCash*, örneğin `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`. Form açıldığında Tamam'a tıklayın. Bu, **SalesLine**, **SalesQuotationLine** ve **CustInvoiceTrans** tablolarında benzersiz değerlere sahip yeni bir **LineCreationSequnceNumber** alanı oluşturur ve ürün listesi yenilenir. Müşteri adayından nakde tümleştirmesinin çalışması için gereklidir.
 
 
 ## <a name="system-requirements-for-sales"></a>Sales için sistem gereksinimleri

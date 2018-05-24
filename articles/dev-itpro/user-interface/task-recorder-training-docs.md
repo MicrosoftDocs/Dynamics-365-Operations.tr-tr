@@ -19,16 +19,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9550faec1bbbdc233631e149c09b8e4faf25f5ff
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fbf7edbd141f5e94c333b64beedf9126d2900d47
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-documentation-or-training-using-task-recordings"></a>Görev kayıtlarını kullanarak belgeler veya eğitim oluşturma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda, Görev kaydedici ve görev kılavuzlarının neler olduğu, görev kayıtlarının nasıl oluşturulacağı ve Microsoft görev kılavuzlarının özelleştirilip bunların Yardım bölümünüze nasıl ekleneceği açıklanmaktadır.
 
@@ -118,7 +118,7 @@ Microsoft'un görev kayıtlarını kendi Yardım belgeniz veya eğitim malzemele
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Görev kayıtlarınızı Yardım bölmesine ekleme
 Görev kayıtlarınızın görev kılavuzları olarak oynatılabilmesi veya metin olarak görüntülenebilmesi için onları Yardım bölmesinde göstermek için, görev kayıtlarınızı kendi BPM kitaplığınıza kaydetmelisiniz ve sonra Yardım sistemi parametrelerinizi BPM kitaplığınıza işaret edecek şekilde güncelleştirmelisiniz. Daha fazla bilgi için bkz. [Yardım sistemine bağlanma](../../fin-and-ops/get-started/help-connect.md)
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Yardıma genel bakış](../../fin-and-ops/get-started/help-overview.md)

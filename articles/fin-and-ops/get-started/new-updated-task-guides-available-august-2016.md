@@ -18,20 +18,20 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 838dc40fb3fa2b0de7fa131850754c3674266d73
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c7fc274bb9d942e85012211b1a7a14873447e5f3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-august-2016"></a>Yeni veya güncelleştirilmiş görev kılavuzları (Ağustos 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Dynamics AX için Microsoft (Ağustos 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır.
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Microsoft Dynamics AX için (Ağustos 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'ndaki görev kılavuzları
+<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Microsoft Dynamics AX için (Ağustos 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'ndaki görev kılavuzları
 ---------------------------------------------------------------------------------------------------
 
 (Ağustos 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı, Microsoft Dynamics AX platformu güncelleştirmesi 2 (Ağustos 2016), Dynamics AX Mayıs 2016 uygulama güncelleştirmesi ve Microsoft Dynamics AX Şubat 2016 sürümünün Yardım'ı için kullanılması planlanan görev kılavuzlarını içerir. Bu sürümler hakkında daha fazla bilgi için bkz. [Yenilikler veya değişiklikler](whats-new-changed.md). Görev kılavuzlarının yerelleştirilmiş sürümleri bu kitaplıkta mevcuttur. Yardım sistemini bir Görev kılavuzu kitaplığına bağlama hakkında daha fazla bilgi için bkz. [Yardıma Giriş](help-overview.md).
@@ -97,7 +97,7 @@ Bu konu, Microsoft Dynamics AX için Microsoft (Ağustos 2016 - tüm diller) APQ
 
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Yeni Görev kılavuzları (Şubat 2016)](new-task-guides-available-february-2016.md)

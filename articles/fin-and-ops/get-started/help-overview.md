@@ -19,16 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="help-system-overview"></a>Yardım sistemine genel bakış
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 for Finance and Operations Yardım sistemi bileşenlerine genel bir bakış sunar. Makalede, kuruluşunuz için özel belgeleri ve eğitimi nasıl sağlayabileceğiniz açıklanmaktadır. 
 
@@ -60,7 +60,7 @@ docs.microsoft.com sitesi ([docs.microsoft.com/dynamics365/unified-operations](.
 
 -   **En güncel içeriğe erişim** – Site ürün belgeleri oluşturmak, teslim etmek ve güncelleştirmek için daha hızlı ve daha esnek bir yol sunar. Bu nedenle, en son teknik bilgilerin erişimine sahip olduğunuzdan emin olmaya yardımcı olur.
 -   **Uzmanlar tarafından yazılan içerik** – Site Microsoft'un içindeki ve dışındaki topluluk üyeleri tarafından geliştirilebilecek daha zengin bir ürün belgesi kümesi sağlar.
--   **Çeşitli içerik türlerine erişim** – Site, Finance and Operations ile ilgili Microsoft Office Mix sunumları, görev kılavuzları, videolar ve konular gibi farklı türlerde içeriklere hızlı erişim sağlar.
+-   **Çeşitli içerik türlerine erişim** – Site, Finance and Operations ile ilgili görev kılavuzları, videolar ve konular gibi farklı türlerde içeriklere hızlı erişim sağlar.
 -   **İş süreçlerini destekleyen içerik** – Site Microsoft Dynamics Lifecyle Services (LCS)içindeki İş Süreci Modelleyici'den (BPM) yararlanan iş süreci odaklı içeriği içerir.
 
 ### <a name="searching-on-docsmicrosoftcom"></a>docs.microsoft.com adresindeki arama yapmak
@@ -204,7 +204,7 @@ Aşağıdaki tablo web sitelerimizi listeler. İçerik web sitelerimiz müşteri
 
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 [Finance and Operations yardım sistemi (indirilebilir bilgi notu)](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
 

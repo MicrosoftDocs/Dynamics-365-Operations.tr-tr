@@ -3,7 +3,7 @@ title: "Özel alanlar"
 description: "Bu konu Microsoft Dynamics 365 for Finance and Operations'ın bazı kullanıcılara uygulamayı işletmelerine uygun hale getirmek üzere nasıl özel alanlar oluşturma olanağı tanıdığını açıklar."
 author: jasongre
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 04/18/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,18 +17,18 @@ ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 4420eeb249a4d1bdac203e32d017dcebbddf95c3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6f0257d6a16d3d53953e1fbbf023109425fa6844
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="custom-fields"></a>Özel alanlar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 Microsoft Dynamics 365 for Finance and Operations çok sayıda iş sürecini yönetmek için kullanıma hazır kapsamlı bir alan kümesi sunmasına karşın bazen bir şirketin sistemde ilave bilgileri izlemesi gerekebilir. Finance and Operations bu ihtiyacı karşılamak amacıyla, özellik için gerekli izinlere sahip olmanız durumunda, uygulamayı işletmenize uygun hale getirmek üzere özel alanlar oluşturmanıza olanak tanır. 
 

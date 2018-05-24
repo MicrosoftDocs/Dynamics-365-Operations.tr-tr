@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b4b54e97bdebc158adc3bc6d57a6661cd536f5fb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 343e372ad9e29372649e975a5bee16e8913b66c8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent sağlama
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Bu konuda, Microsoft Dynamics 365 for Talent için yeni bir üretim ortamı sağlama işlemi adım adım gösterecektir. Bu konuda, Talent'ı bir Bulut Çözümü Sağlayıcısı (CSP) veya kurumsal mimari (EA) sözleşmesi aracılığıyla aldığınız varsayılır. Zaten Talent hizmet planını içeren mevcut bir Microsoft Dynamics 365 lisansınız varsa ve bu konudaki adımları tamamlayamıyorsanız Destek birimine başvurun.
 
@@ -54,17 +54,18 @@ Bir LCS projesi oluşturduktan sonra, bir ortama Talent sağlayabilirsiniz.
     > Varolan ortamları görüntülemek veya yeni ortamlar oluşturmak için, Talent'ı sağlayan kiracı yöneticisine PowerApps P2 lisansı atanması gerekir. Kuruluşunuzun PowerApps P2 lisansı yoksa, bir CSP'den veya [PowerApps fiyatlandırma sayfasından](https://powerapps.microsoft.com/en-us/pricing/) bir lisans satın alabilirsiniz.
 
 4. **Ekle**'yi ve ardından Talent sağlayacağınız ortamı seçin.
-5. Koşulları kabul etmek için **Evet**'i seçin ve dağıtıma başlayın.
+5. Ortamınızın Talent Test Sürümü deneyiminde kullanılan aynı Tanıtım verileri kümesini içermesini istiyorsanız "Tanıtım Verilerini Ekle" seçeneğini seçin.  Bu uzun vadeli tanıtım veya eğitim ortamları için yararlıdır ve üretim ortamları için hiçbir zaman kullanılmamalıdır.  Bu seçeneği ilk dağıtımda seçmeniz gerektiğini ve mevcut bir dağıtımda sonradan güncelleştiremeyeceğinizi unutmayın.
+6. Koşulları kabul etmek için **Evet**'i seçin ve dağıtıma başlayın.
 
     Yeni ortamınız, soldaki gezinti bölmesinde bulunan ortam listesinde görüntülenir. Bununla birlikte, dağıtım durumunu **Dağıtıldı** olarak güncelleştirilene kadar ortamı kullanmaya başlayamazsınız. Tipik olarak bu işlem birkaç dakika sürebilir. Sağlama işlemi başarısız olursa Desteğe başvurmanız gerekir.
 
-6. Yeni ortamı kullanmak için **Talent'ta oturum aç**'ı seçin.
+7. Yeni ortamı kullanmak için **Talent'ta oturum aç**'ı seçin.
 
 > [!NOTE]
 > Son gereksinimleri henüz yerine getirmediyseniz, projede Talent'ın bir test kurulumunu dağıtabilirsiniz. Ardından imzalayana kadar bu kurulumu kullanarak çözümünüzü test edebilirsiniz. Yeni ortamınızı test için kullanıyorsanız, bir üretim ortamı oluşturmak için bu yordamı yinelemeniz gerekir.
 
 > [!NOTE]
-> LCS aracılığıyla sağlanan Talent ortamları, İnsan Kaynakları (İK) görevleri için yapılandırılmış veya Talent'e özgü olan gösteri verilerini içermez. Demo verileri içeren bir ortama ihtiyaç duyarsanız 60 günlük ücretsiz [Talent deneme ortamına](https://dynamics.microsoft.com/en-us/talent/overview/) kaydolmanızı öneririz. Deneme ortamı, talep eden kullanıcıya ait olmakla birlikte, diğer kullanıcılar Ana İK için sistem yönetimi deneyimi aracılığıyla davet edilebilir. Deneme ortamları, programı güvenli bir şekilde keşfetmek için kullanılabilen hayali veriler içerir. Üretim ortamı olarak kullanılmaları amaçlanmamıştır. Deneme ortamının 60 gün sonra geçersiz olduğunda ortamdaki tüm verilerin silineceğini ve kurtarılamayacağını unutmayın. Mevcut ortam geçersiz olduktan sonra yeni bir deneme ortamına kaydolabilirsiniz.
+> Talent aboneliğinin bir parçası olarak yalnızca iki LCS ortamına izin verildiğinden, ücretsiz 60 günlük [Talent deneme ortamından](https://dynamics.microsoft.com/en-us/talent/overview/) yaralanmayı düşünebilirsiniz. Deneme ortamı, talep eden kullanıcıya ait olmakla birlikte, diğer kullanıcılar Ana İK için sistem yönetimi deneyimi aracılığıyla davet edilebilir. Deneme ortamları, programı güvenli bir şekilde keşfetmek için kullanılabilen hayali veriler içerir. Üretim ortamı olarak kullanılmaları amaçlanmamıştır. Deneme ortamının 60 gün sonra geçersiz olduğunda ortamdaki tüm verilerin silineceğini ve kurtarılamayacağını unutmayın. Mevcut ortam geçersiz olduktan sonra yeni bir deneme ortamına kaydolabilirsiniz.
 
 ## <a name="select-a-powerapps-environment"></a>PowerApps ortamı seçme
 
@@ -104,13 +105,15 @@ Komut dosyasını çalıştırmak için aşağıdaki yönergeleri izleyin:
 
 1. Şu konumdan ProvisionCDSEnvironment.zip dosyasını indirin: [ProvisionCDSEnvironment komut dosyaları](https://go.microsoft.com/fwlink/?linkid=870436)  
 
-2. ProvisionCDSEnviroinment.zip dosyasının tüm içeriğini başka bir klasöre çıkarın.
+2. İndirmeler klasörünüzden, yeni indirilen ProvisionCDSEnvironment.zip dosyana çift tıklayın ve **Özellikler**'i seçin.  İletişim kutusunun altında “Bu dosya başka bir bilgisayardan geldi ve bu bilgisayarı korumak için engellenebilir” şeklinde bir Güvenlik notu varsa, **Kilidi kaldır** onay kutusunu işaretleyin, ardından **Uygula** ve **Tamam**'a tıklayın.
 
-3. Yönetici olarak Windows PowerShell veya Windows PowerShell ISE programını çalıştırın.
+3. ProvisionCDSEnviroinment.zip dosyasının tüm içeriğini kök klasörünüz dışında başka bir klasöre çıkarın.
 
-   Komut dosyasının çalışabilmesi için yürütme ilkesini ayarlama hakkında daha fazla bilgi için [Yürütme İlkesi Ayarlama](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) konusuna bakın.
+4. Yönetici olarak Windows PowerShell veya Windows PowerShell ISE programını çalıştırın.
+
+   Komut dosyasının çalışabilmesi için yürütme ilkesini ayarlama hakkında daha fazla bilgi için [Yürütme İlkesi Ayarlama](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) konusuna bakın. “Ayarla-ExecutionPolicy -ExecutionPolicy Kısıtlamasız -Kapsam İşlemi”ni kullanmanızı öneriyoruz ancak şirketinizin güvenlik ilkelerini izlediğinizden emin olun ve bittiğinde PowerShell penceresini kapatın. 
   
-4. PowerShell içinde, dosyayı çıkardığınız klasöre gidin ve değerleri aşağıda belirtildiği şekilde değiştirerek komutu çalıştırın:
+5. PowerShell içinde, dosyayı çıkardığınız klasöre gidin ve değerleri aşağıda belirtildiği şekilde değiştirerek komutu çalıştırın:
  
    ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
 
@@ -121,18 +124,10 @@ Komut dosyasını çalıştırmak için aşağıdaki yönergeleri izleyin:
 
    **-Verbose** isteğe bağlıdır ve sorunla karşılaşırsanız destek birimine gönderilmek üzere ayrıntılı bilgiler sağlar.
 
-5. Sağlama işlemine devam edin.
+6. Sağlama işlemine devam edin.
  
 
-
 ## <a name="grant-access-to-the-environment"></a>Ortama erişim izni verme
-Varsayılan olarak, ortamı oluşturan genel yöneticinin ortama erişimi vardır. Ancak ek uygulama kullanıcılarına erişim izninin açıkça verilmesi gerekir. Erişim izni vermek için Ana İK ortamında [kullanıcılar ekleyin](../dev-itpro/sysadmin/tasks/create-new-users.md) ve [kullanıcılara uygun roller atayın](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md). Attract ve Onboard uygulamalarına erişebilmeleri için bu kullanıcıları PowerApps ortamına da eklemeniz gerekir. Yordam burada özetlenmiştir. Adımları tamamlamak için yardım gereksiniminiz varsa [PowerApps yönetim merkezine giriş](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/) başlıklı blog gönderisine bakın.
+Varsayılan olarak, ortamı oluşturan genel yöneticinin ortama erişimi vardır. Ancak ek uygulama kullanıcılarına erişim izninin açıkça verilmesi gerekir. Erişim izni vermek için Ana İK ortamında [kullanıcılar ekleyin](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ve [kullanıcılara uygun roller atayın](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). Talent'ı dağıtan genel yönetici, başlatmayı tamamlamak ve diğer kiracı kullanıcılar için erişim sağlamak üzere Attract ve Onboard uygulamalarını da başlatmalıdır.  Bu gerçekleştirilene kadar, diğer kullanıcılar Attract ve Onboard uygulamalarına erişemez ve erişim ihlali hataları alır.
 
-Bu yordam, Talent ortamını dağıtan genel yönetici tarafından tamamlanır.
-
-1. [PowerApps Yönetim merkezi](https://preview.admin.powerapps.com/environments)'ni açın.
-2. İlgili ortamları seçin.
-3. **Güvenlik** sekmesinde gereken kullanıcıları **Ortam Oluşturucu** rolüne ekleyin.
-
-    Kullanıcıların PowerApps ortamına el ile eklendiği bu son adımın geçici olduğunu unutmayın. Sonuçta, kullanıcılar Ana İK'ya eklendiğinde otomatik olarak tamamlanacaktır.
 

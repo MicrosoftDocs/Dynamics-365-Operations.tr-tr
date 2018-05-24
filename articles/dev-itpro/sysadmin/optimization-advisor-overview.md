@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core (Operations, Core)
+ms.search.scope: Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c055c673443255f3e6dda5e1179e1ef28d90e693
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c2a957038bfad065361b46e85b8195214779cc2d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="optimization-advisor-overview"></a>En iyi duruma getirme danışmanına genel bakış
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu Microsoft Dynamics 365 Finance and Operations'ın optimum yapılandırmasını sağlamak üzere En iyi duruma getirme danışmanını nasıl kullanabileceğinizi açıklar.
 
@@ -50,8 +50,6 @@ En iyi duruma getirme fırsatlarına standart güvenlik ilkeleri uygulanır. Ör
 Bazı en iyi durumu getirme fırsatlarıyla ilgili eylem gerçekleştirdiğinizde, sistem iş süreçlerinin çalışma zamanında azalma açısından fırsatın etkisini hesaplar. Ne yazık ki, bu özellik tüm en iyi duruma getirme iş fırsatları için kullanılamaz.
 
 En iyi duruma getirme danışmanı hakkında daha fazla bilgi için [Dynamics 365 for Finance and Operations'taki en iyi duruma getirme danışmanı](https://www.youtube.com/watch?v=MRsAzgFCUSQ) kısa videosunu izleyin.
-
-> [!Video https://www.youtube.com/embed/MRsAzgFCUSQ]
 
 ## <a name="optimization-rules"></a>En iyi duruma getirme kuralları
 
@@ -93,7 +91,7 @@ Fırsat sizin rolünüze uygun değilse, **Listemde gizle**'yi seçebilirsiniz. 
 
 Belirli kuralların değerlendirmesini devre dışı bırakmak için kural tarafından oluşturulan fırsatı seçin ve ardından **Analizi devre dışı bırak**'ı seçin.
 
-## <a name="see-also"></a>Ayrıca bkz.
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Yeni kurallar oluşturma](./create-rules-optimization-advisor.md)
 

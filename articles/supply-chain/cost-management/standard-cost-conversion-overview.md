@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1176ce1fcd406cf363969e60ae388a83d7df210f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2985e58bd308295e1f698c391f57fc3d116835bd
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="standard-cost-conversion-overview"></a>Standart maliyet dönüştürme özeti
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede bir standart maliyet dönüştürme işleminin kurulması ve yürütülmesine yardımcı olacak sürecin genel görünümü verilmiştir. Listelenen adımlar bir standart maliyet dönüştürme işlemi için ön koşulları tamamlamanızdan sonra tamamlanacak şekilde açıklanmıştır. 
 
@@ -96,7 +96,7 @@ Dönüştürme işlemi planlanan geçiş başlangıç tarihinden bir gün önce 
 -   Eski tarihli stok hareketlerini analiz edin. Dönüştürmeden sonra girilen eski tarihli stok hareketlerini görüntülemek için **Stok değeri** raporunu kullanın. Rapor için "Başlangıç tarihi ve bitiş tarihi, bunlar başlangıç tarihine ve dönüştürme tarihine (eksi bir gün) karşılık gelmelidir. Rapor seçim ölçütleri dönüştürülen maddeleri yansıtmalıdır. Bu rapor, geçiş dönemi içinde standart maliyette yapılan stok hareketlerini gösterir.
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Standart maliyet dönüştürme için önkoşullar](prerequisites-standard-cost-conversion.md)

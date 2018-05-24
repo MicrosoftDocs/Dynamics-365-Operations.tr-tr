@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 25dd62081e4a6e196bffaa6cc72ff40ed68c736c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Satıcılarla Satıcı portalını kullanarak işbirliği yapın
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, satın alma aracılarının satın alma sipariş onay sürecinde dış satıcılarla iş birliği yapmak için Satıcı portalının nasıl kullanabileceğini açıklar. Bu bilgiler, Dynamics AX'in yalnızca Şubat 2016 &amp; Mayıs 2016 sürümleri için geçerlidir.
 
@@ -96,7 +96,7 @@ Aşağıdaki tablo, değişim yönetimi etkinleştirildiğinde PO'nun geçebilec
 |                           Satıcı portalına PO'nun yeni sürümünü gönderirsiniz.                            |                                                                                                                                                                    Yeni sürüm Satıcı portalında kaydedilir ve durum <strong>Dış İncelemede</strong> olarak değiştirilir.                                                                                                                                                                     |
 |                                Satıcı PO'nun yeni sürümünü onaylar.                                 |                                                                                                                                                     Durum otomatik olarak veya satıcıdan yanıt alıp PO'yu onayladığınızda <strong>Onaylandı</strong> olarak değişir.                                                                                                                                                     |
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Satıcı iş birliği kullanıcıları için güvenlik yapılandırması](configure-security-vendor-portal-users.md)

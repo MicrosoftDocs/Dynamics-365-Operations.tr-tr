@@ -19,16 +19,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: bc8e606cdc0bc5a45321c67ce9b089059f226df2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8bbec5a0e6b6d9c3001fc36c7bdd053f92112fea
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configuration-rules"></a>Konfigürasyon kuralları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, yapılandırma kuralları hakkında genel bilgiler sağlanmıştır. Yapılandırma kuralları, boyut tabanlı yapılandırma teknolojisini kullanan ürünler için ürün reçetesindeki (BOM) maddeler arasındaki ilişkileri tanımlar.
 
@@ -40,7 +40,7 @@ Yapılandırma kurallarında sonradan yapılan değişiklikler mevcut yapıland�
 
 **Not:** **Seç** yöntemi için, türetilen yapılandırma grubu, madde numarası ve yapılandırma otomatik olarak seçilir. **Seçimi Kaldır** yöntemi için, türetilen yapılandırma grubu, madde numarası ve yapılandırma seçilemez.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Boyuta dayalı ürün yapılandırma](dimension-based-product-configuration.md)

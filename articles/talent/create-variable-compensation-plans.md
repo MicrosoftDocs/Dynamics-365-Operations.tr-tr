@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 338e58522f9b9fba3ce22b22488affbab24b1315
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>Değişken ücret planları oluşturma
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Değişken ücret, çalışanın düzenli almadığı, prim, hisse senedi ikramiyesi gibi ödemeleri ifade eder. Bu makalede, değişken ücret kullanabilmeniz ve çalışanları bir değişken ücret planına kaydedebilmeniz için ayarlanması gereken bileşenler açıklanmaktadır.
 
@@ -100,7 +100,7 @@ Artık, çalışanları değişken ücret planına kaydedebilirsiniz. Bir çalı
 
 **Kuruluş geçersiz kılmaları** bir personelin ikramiyesini bir veya daha fazla bölümlerin performansına temellendirmek için kullanılır. Departmanlar arasında tahsis edilen yüzde, toplamda yüzde 100 olmalıdır. Personelin bireysel performans da dikkate alınır. Bu ayarlar yalnızca dengeleme süreci çalışırken **Performans için ödeme** seçimi yapılırsa kullanılır.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Ücret planları](compensation-plans.md)

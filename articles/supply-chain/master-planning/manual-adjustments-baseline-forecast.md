@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dbc195da36d31e01400fe66a1c02ea49609400eb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 543a88a8df4252e5bf1b6b27b5209650c1ceca0b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Temel tahminde manüel ayarlamalar yapma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda bir temel tahminde manüel ayarlamalar yapma ve tahminin ayrıntılarını görüntüleme yolları açıklanmıştır. 
 
@@ -76,7 +76,7 @@ Tahmin hakkında daha fazla bilgi görüntülemek için **Talep tahmini ayrınt�
 
 Manüel ayarlamaları, **Talep tahmini ayrıntıları** sayfasında, **Tahmin** bölümündeki **Tahmin** satırında belirtilen değerleri değiştirerek de yapabilirsiniz.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Tahmin doğruluğunu izleme](monitor-forecast-accuracy.md)

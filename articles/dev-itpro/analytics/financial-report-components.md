@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3679ccf304a32385c162ba3663eba2300f028817
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5599135eebfcffdedaaadec86beb214c5c04cbaf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-report-components"></a>Mali rapor bileşenleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede rapor tanımlarının bileşenlerinin veya yapı taşlarının finansal raporlamada nasıl kullanıldığı açıklanmaktadır. Bu yapı taşları satır tanımlarını, sütun tanımlarını ve raporlama ağacı tanımlarını içerir. Bu makalede yapı taşlarının nasıl düzenleneceği ve kilitleneceği açıklanmaktadır. 
 
@@ -109,10 +109,10 @@ Bir yapı taşı grubunu mevcut bir yapı taşı grubuna aktarabilirsiniz. İçe
 Bir yapı taşını açtığınızda, diğer kullanıcılar söz konusu yapı taşına salt okunur olarak erişebilir. Bazen, kullanıcılar bir yapı taşını kapatmayı unutur veya yapı taşını kapatmadan sistemlerini kapatır. Bu nedenle, yapı taşı etkin kalır ve diğer kullanıcılar bu yapı taşını açamaz. Böyle durumlarda, bir finansal raporlama yöneticisi **Kullanıma Alınan Maddeler** iletişim kutusunu kullanarak, kullanıcıların kullanıma alınmış bıraktıkları yapı taşlarını görebilirler. **Not:** **Kullanıma Alınan Maddeler** iletişim kutusunu kullanarak yapı taşlarını denetlemek için yönetici rolüne sahip olmanız gerekir.
 1.  Rapor Tasarımcısı'nda, **Araçlar** menüsünde, **Kullanıma Alınan Maddeler**'e tıklayın.
 2.  **Kullanıma Alınan Maddeler** iletişim kutusunda, **Tüm kullanıcılara ait maddeleri göster**'i seçin. Liste kullanıma alının tüm yapı taşlarını ve bunları kullanıma alan kullanıcıları gösterecek şekilde güncelleştirilir.
-3.  Bir yapı taşı seçin ve ardından **Etkinliği Geri Al** öğesini tıklayın.
-4.  Yapı taşını kullanıma sokmak için **Evet** öğesini tıklayın.
+3.  Bir yapı taşı seçin ve ardından **Kullanıma Almayı Geri Al**'a tıklayın.
+4.  Yapı taşı grubunu kullanımdan çıkarmak için **Evet**'e tıklayın.
 
-## <a name="see-also"></a>Ayrıca bkz.
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlama](financial-reporting-intro.md)
 

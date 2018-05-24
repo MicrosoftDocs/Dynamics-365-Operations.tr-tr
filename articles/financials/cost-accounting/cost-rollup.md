@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 044a943eeba91f5dbebd4dcd70bc8152c4109037
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Maliyet yuvarlama ilkesi ve genel gider hesaplaması 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Maliyet muhasebesi, maliyet akışının bir kuruluş içerisinde teslim edilen ürünler ve hizmetlerle nasıl ilişkili olduğu hakkında bilgiler sağlar. Maliyet saydamlığını görmek için, uygun tahsisat tabanına dayalı maliyet nesneleri arasında maliyet tahsisatı elde etmek önemlidir. Varsayılan olarak, maliyet tahsisatı, bazı durumlarda istenilen ancak dikkate alınması gereken birkaç olası etkiye sahip birincil maliyet öğesi için elde edilir.
 
@@ -297,7 +297,7 @@ Kuruluşunuzdaki raporlama ve izlenebilirlik gereksinimlerine bağlı olarak, ik
 
 
 
-## <a name="see-also"></a>Ayrıca bkz.
+## <a name="additional-resources"></a>Ek kaynaklar
 -  [Maliyet nesnesi boyutları](cost-objects.md)
 -  [Maliyet öğesi boyutları](cost-elements.md)
 -  [Boyut hiyerarşileri](dimension-hierarchy.md)

@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 78dd1b5e0a19690ffefdb03de495061ef51f2e16
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ec1286f1f3fb75cefd40f3982ec62d5ed078299c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Mali raporlarda raporlama ağacı tanımları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede raporlama ağacı tanımları hakkında bilgi verilmektedir. Raporlama ağacı tanımı, kuruluşunuzun yapısı ve hiyerarşisini tanımlamaya yardımcı olan bir rapor bileşeni veya yapı taşıdır.
 
@@ -206,7 +206,7 @@ Aşağıdaki örnekler toplanan veriler için bir raporlama ağacı tanımında 
 
 [![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
-# <a name="see-also"></a>Ayrıca bkz.
+# <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlama](financial-reporting-intro.md)
 

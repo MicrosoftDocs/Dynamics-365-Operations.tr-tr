@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6ac4c1afecb72d4007d830a9927bd3171ddd48ec
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5f1044e6731fd757532e34292109b9d81ca38719
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Yalın üretim için Kanban iş planlama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makale, kanban iş planlamaları üzerinde görsel denetim sağlamak ve kanban işlerini planlamak için çeşitli yöntemler hakkında bilgi sağlar.  
 
@@ -69,7 +69,7 @@ Gün veya hafta olarak kullanılabilir kapasite iş hücresine atanan takvime g�
 
 **Kanban iş planlama çizelgeleme** listesi sayfası seçili iş hücre için kullanılabilir ve kitap haline getirilmiş dönem kapasite gösteren bir bilgi içerir. Üretim akışı modeli seçili zamanlama periyotlara bağlı olarak gün veya hafta dönemleri görüntüleyin.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 

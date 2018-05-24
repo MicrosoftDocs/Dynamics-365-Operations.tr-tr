@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: ce9bc42751cf0f537a0ddb5069aca7c9779a6bb1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 75daeed0d0e979165d3669e83e98cf278d7fb736
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="procurement-and-sourcing-workflows"></a>Tedarik ve kaynak atama iş akışları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bazı kuruluşlar satınalma taleplerinin ve satınalma siparişlerinin hareketi giren kişiden başka bir kullanıcı tarafından onaylanmasını gerektirir. Bir onay sürecini ayarlamak için iş akışı oluşturabilirsiniz.
 
@@ -68,7 +68,7 @@ Aşağıdaki katımcı gruplarına bir onay adımı atayabilirsiniz.
 
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Satınalma talepleri için iş süreci iş akışları tanımlama](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)

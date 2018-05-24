@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4252112272e2f86c2c18dc399a713bf652e4228e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6ab1d60839131b3d4bb1782319754ba63d54cfd7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-collaboration-with-customers"></a>Müşterilerle satıcı iş birliği
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Dynamics 365 for Finance and Operations'da müşteriler ile çalışmak için satıcı iş birliğini nasıl kullanabileceğinizi açıklar. Satıcılar bir dizi iş sürecini aşağıdaki çalışma alanlarından gerçekleştirebilir:
 
@@ -141,7 +141,7 @@ Bir satıcı olarak, müşterinin satıcı ana kaydında koruduğu bilgilerin bi
 
 Erişilebilir bilgiler şunlardır: satıcı adı, adresleri, iletişim bilgileri, ilgili kişiler ve bunların iletişim bilgileri, kimlik numaraları, vergi tescil numaraları, satıcının müşteriye satmak üzere onaylandığı tedarik kategorileri ve sertifikalar hakkında bilgiler.
 
-## <a name="see-also"></a>Ayrıca bkz.
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Satıcı iş birliği kullanıcılarını yönetme](manage-vendor-collaboration-users.md)
 

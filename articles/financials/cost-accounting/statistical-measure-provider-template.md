@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: baefad4efd51661c236459493b7f02747593bbab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>İstatistiksel boyut üyeleri ve istatistiksel ölçü sağlayıcısı şablonları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 İstatistiksel bir boyut ve üyeleri Maliyet muhasebesinde parasal olmayan girişleri kaydetmek ve kontrol etmek için kullanılır. İstatistiksel boyut üyeleri iki amaçla kullanılabilir:
 
@@ -344,7 +344,7 @@ Elektrik önceden tanımlanmış boyut üyesi tahsisat temeli maliyet dağıtım
 | CC002       | FI | 4.100,00  | (4.100 ÷ 21.550) × Tutar  |
 | CC003       | ST | 15.000,00 | (15.000 ÷ 21.550) × Tutar |
 
-## <a name="see-also"></a>Ayrıca bkz.
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Tahsisat temelleri](allocation-bases.md)
 

@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 055001c992e70ceacf57cf25a8bf83207d8d7334
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d9c7bcb8cae7b17636ffc0c87bb1147b9d27a6c8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-financial-reports"></a>Mali raporları görüntüle
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makale, Microsoft Dynamics 365 for Finance and Operations'ta mali raporların nasıl görüntüleneceğini ve keşfedileceğini açıklar. Görünümlerini ve içerdikleri veriyi değiştirmek için finansal raporlara uygulayabileceğiniz çeşitli seçenekler hakkında bilgiler içerir.
 
@@ -84,7 +84,7 @@ Yazdırma seçeneklerini ayarlamayı bitirdiğinizde raporu yazdırmak için **Y
 ## <a name="export-a-financial-report"></a>Bir mali raporu dışa aktarma
 Bir mali raporu dışa aktarmak için Eylem Panosundan **Dışa aktar** düğmesini tıklayın. Rapor, Microsoft Excel'e aktarılır ve tarayıcınız dışa aktarılan dosyayı açmak mı, yoksa kaydetmek mi istediğinizi sorar. Rapor tasarımında ayarlanan dışa aktarma ayarları dışa aktarılan rapora uygulanır.    
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Microsoft Dynamics AX için finansal raporlama](../../dev-itpro/analytics/financial-reporting-intro.md)

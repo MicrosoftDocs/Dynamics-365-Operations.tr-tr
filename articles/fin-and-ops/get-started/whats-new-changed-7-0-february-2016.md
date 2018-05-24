@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ab12a55e41cd32c2479eb46796de57926652942f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3ba9025aa5394b29bdba80e589c77fa4bd2bd47f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0'daki yenilikler ve değişiklikler (Şubat 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, Microsoft Dynamics AX 7.0'da yeni olan veya değişen özellikler açıklanır. Bu sürüm, platform ve uygulama özellikleri içerir ve Şubat 2016'da yayımlanmıştır.
 
@@ -536,7 +536,7 @@ Yeni özellik eklenmemiştir.
 </tr>
 <tr class="odd">
 <td>(AB) Birim dönüştürme ayarını kullanarak Intrastat için ilave birimlerdeki miktarı raporlayın.</td>
-<td>Intrastat emtia kodunda ek birimler tanımlamak için bir metin alanı ve **Ürün** kartında ek birimlerin miktarını kilogram cinsinden tanımlayan bir alan vardır.</td>
+<td>Intrastat emtia kodu ilave birimleri tanımlamak için bir metin alanına sahiptir ve<strong> Ürün</strong> kartı ilave birimlerin miktarını kilogram cinsinden tanımlayan bir alana sahiptir.</td>
 <td>Intrastat emtia kodu için ilave birimler, Birimler listesinden seçilir. İlave birimlerin miktarı birim dönüştürme ayarları aracılığıyla hesaplanır.</td>
 <td>Bu hareket birimlerinden ilave birimlere kadar yeniden hesaplama yaklaşımını birleştirir.</td>
 </tr>
@@ -569,7 +569,7 @@ Yeni özellik eklenmemiştir.
 |                                                                                                                            |                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                         |
 |----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Ne yapabilirsiniz?**                                                                                                       | **Dynamics AX 2012**                                                                                                                                                                                                                                                                          | **Dynamics AX 7.0**                                                                                                                                                                                                                                                                                                                                               | **Bu neden önemlidir?**                                                                                                                              |
-| Satış siparişi veya üretim emri planlanan tarihte teslimata hazır değil ise kullanıcıyı uyarın.                         | Master planlama tarafından oluşturulan uyarılar *Vadeli işlem iletileri* adını taşır. *Vadeli işlemler*, teslimat ve ödeme ileri bir tarihte gerçekleşecek olsa da (*teslimat tarihi*), iki taraf arasında bir kıymetin bugünkü fiyatı üzerinden (*vadeli işlem fiyatı*) alım ya da satım yapmayı öngören bir sözleşmedir. | *Vadeli işlem iletileri* ve *vadeli işlem tarihleri*, sırasıyla, *hesaplanan gecikme* ve *gecikmeli tarihler* şeklinde yeniden adlandırılmıştır.                                                                                                                                                                                                                                                   | AX 2012'de kullanılan terminoloji tutarsızdı ve yanlış çevirilere sebep oluyordu.                                                               |
+| Satış siparişi veya üretim emri planlanan tarihte teslimata hazır değil ise kullanıcıyı uyarın.                         | Master planlama tarafından oluşturulan uyarılar *Vadeli işlem iletileri* adını taşır. *Vadeli işlemler*, teslimat ve ödeme ileri bir tarihte gerçekleşecek olsa da (*teslimat tarihi*), iki taraf arasında bir kıymetin bugünkü fiyatı üzerinden (*vadeli işlem fiyatı*) alım ya da satım yapmayı öngören bir sözleşmedir. | *Vadeli işlem iletileri* ve *vadeli işlem tarihleri* sırasıyla *hesaplanan gecikmeler* ve *gecikmeli tarihler* olarak adlandırılmıştır.                                                                                                                                                                                                                                                   | AX 2012'de kullanılan terminoloji tutarsızdı ve yanlış çevirilere sebep oluyordu.                                                               |
 | Master planlama çalışması, acil planlı siparişler ve gecikmelere sebep olan planlı siparişler durumları hakkında hızlı içgörüler kazanın. | Bu bilgi mevcuttur, ancak birden fazla form üzerinde dağılmıştır.                                                                                                                                                                                                                       | **Master planlama** çalışma alanı, son master planlamanın ne zaman tamamlandığı, hata oluşup oluşmadığı, acil planlı siparişlerin neler olduğu ve hangi planlı siparişlerin gecikmelere neden olduğuna dair bilgileri bir bakışta sunar.                                                                                                                                   | Çalışma alanının sağladığı genel bakıştan yararlanırsınız. İlgili bilgiler, master planlamaya kılavuz olmak ve üretkenliği artırmaya yardımcı olmak için bir araya getirilmiştir. |
 | Talep tahminleri güncelleştirmek için Excel kullanın.                                                                                      | Uygun değil                                                                                                                                                                                                                                                                                 | Talep tahminleri girdiğinizde, güncelleştirmeler yaptığınızda ve talep tahminlerini sildiğinizde Excel ile entegrasyonun avantajlarından yararlanırsınız.                                                                                                                                                                                                                             | Bu da verimliliği ve üretkenliği artırmanıza yardımcı olur.                                                                                                          |
 | Gelecekteki talebi tahmin edin ve geçmiş hareket verilerini temel alan talep tahminleri oluşturun.                                  | Microsoft Dynamics AX 2012 R3'de Microsoft SQL Server Çözümleme Hizmeti tahmin modelleri, talep tahmin öngörüleri oluşturmak için kullanılır.                                                                                                                                                | Microsoft Azure makine öğrenme bulut hizmetinin genişleme yeteneği ve gücünü kullanarak gelecekteki talebi tahmin edin. Müşteri gereksinimlerini karşılamak için makine öğrenme tahmin modellerini kullanmak ve genişletmek kolaydır. Hizmet en iyi eşleşme modeli seçimi yapar ve tahmin doğruluk hesaplamak için kullanılabilecek anahtar performans göstergeleri (APG) sunar. | Makine öğrenme tekniklerini kullanarak daha doğru tahminler üretin.                                                                              |
@@ -1081,7 +1081,7 @@ Yeni özellik eklenmemiştir.
 
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Yenilikler veya değişiklikler](whats-new-changed.md)

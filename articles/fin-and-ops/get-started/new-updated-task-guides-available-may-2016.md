@@ -18,20 +18,20 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c301f27504f7f1545608bb214a4f1b4d4cecc47f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 237ff2935ab8e2dee90bd716179b45c5fca455c3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-may-2016"></a>Yeni veya güncelleştirilmiş kılavuzlar (Mayıs 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, Microsoft Dynamics AX için Microsoft (Mayıs 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır. 
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Microsoft Dynamics AX için (Mayıs 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'ndaki görev kılavuzları
+<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Microsoft Dynamics AX için (Mayıs 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'ndaki görev kılavuzları
 ------------------------------------------------------------------------------------------------
 
 (Mayıs 2016) APQC Birleştirilmiş Kitaplığı, Microsoft Dynamics AX Mayıs 2016 güncelleştirmesi ve Microsoft Dynamics AX Şubat 2016 sürümünün Yardım'ı için kullanılması planlanan Görev kılavuzlarını içerir. (Şubat 2016) APQC Birleştirilmiş Kitaplığı'nda yayımlanan Görev kılavuzlarının yerelleştirilmiş sürümleri bu kitaplıkta bulunabilir. Yardım sistemini bir Görev kılavuzu kitaplığına bağlama hakkında daha fazla bilgi için bkz. [Yardıma Giriş](help-overview.md). <strong>Not:</strong> Bir İş süreci modelleyici (BPM) satırı başlığının yanında bulunan yıldız (<strong>\</strong>*) bu iş sürecine ilişkin görev kılavuzunun Dynamics AX Mayıs 2016 güncelleştirmesi için oluşturulduğunu ve Microsoft Dynamics AX uygulamasının önceki sürümlerinde desteklenmediğini gösterir.
@@ -186,7 +186,7 @@ Bu konu, Microsoft Dynamics AX için Microsoft (Mayıs 2016 - tüm diller) APQC 
 |                  Madde için taşıma sınırlamalarını ayarlama                   |     Genel     |
 |                <strong>\</strong>*Ambar iş ilkelerini ayarlama                 |     Genel     |
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Yeni Görev kılavuzları (Şubat 2016)](new-task-guides-available-february-2016.md)
