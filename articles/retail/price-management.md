@@ -3,7 +3,7 @@ title: "Perakende satış fiyatı yönetimi"
 description: "Bu konu Microsoft Dynamics 365 for Retail'de satış fiyatları oluşturma ve yönetme kavramlarını açıklar."
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/27/2018
+ms.date: 04/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-retail
@@ -18,16 +18,16 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a7e6babe1bfec60ece4f84a77bbd838faf7274e0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="retail-sales-price-management"></a>Perakende satış fiyatı yönetimi
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Bu konu Microsoft Dynamics 365 for Retail'de satış fiyatları oluşturma ve yönetme işlemleri hakkında bilgi sağlar. Bu işlemine dahil olan kavramlara ve satış fiyatlarına ilişkin çeşitli yapılandırma seçeneklerinin etkisine odaklanır.
 
@@ -198,32 +198,6 @@ Microsoft SQL Server Express maliyeti nedeniyle (ücretsiz) genellikle kanal ver
 Microsoft Dynamics 365'te satış fiyatlarını ayarlarken, ayarladığınız fiyat değerinin vergi dahil mi hariç mi olduğunu belirtmezsiniz. Değer sadece fiyattır. Bununla birlikte, perakende kanallarındaki **Vergi dahil fiyatlar** ayarı perakende kanallarını vergiyi fiyata dahil edecek veya hariç tutacak şekilde yapılandırmanıza olanak tanır. Bu ayar kanalda ayarlanır ve tek bir şirket içinde bile değişebilir.
 
 Hem vergi dahil hem de vergi hariç türleriyle çalışıyorsanız, fiyatları düzgün şekilde ayarlamanız çok önemlidir çünkü kanaldaki **Satış vergisi dahil fiyat** değiştirilirse müşterinin ödeyeceği toplam fiyat değişecektir.
-
-### <a name="effect-of-the-price-includes-sales-tax-setting-on-financial-postings"></a>Mali deftere nakil işlemlerinde Satış vergisi dahil fiyatlar ayarının etkisi
-Gelir ve iskontolar hesapları için genel muhasebe defterine nakledilen tüm tutarlar **Satış vergisi içeren fiyatlar** ayarından etkilenir. Aşağıdaki örnekte bu ayarın mali deftere nakilleri nasıl etkilediğini gösterir.
-
-Örnek yalnızca satış deftere nakillerini açıklar, çünkü **Satış vergisi dahil fiyatlar** ayarı stok maliyeti deftere nakillerini etkilemez.
-
-#### <a name="example"></a>Örnek
-Bu örnekte, iskonto tutarları deftere gelirden ayrı olarak nakledilecek şekilde yapılandırılmıştır.
-
-Satış vergisi oranı yüzde 10 olan $100 tutarında bir ürün sattınız ve yüzde 5 oranında bir iskonto uygulandı. USRT tanıtım verilerinden alınan aşağıdaki hesaplar kullanılmıştır:
-
-- **Gelir:** 401100
-- **İskonto:** 403200
-- **Vergi:** 202100
-
-**Durum 1: Vergi hariç (satış vergisi olarak da bilinir)**
-
-- **Gelir:** $100
-- **İskonto:** $5
-- **Vergi:** $9,5 (= $95'in %10'u)
-
-**Durum 2: Vergi dahil (katma değer vergisi olarak bilinir \[KDV\])**
-
-- **Gelir:** $90
-- **İskonto:** $4,5 (= $90'ın yüzde 5'i)
-- **Vergi:** $10
 
 ## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Perakende satış fiyatı ve perakende olmayan satış fiyatı arasındaki farklar
 Tüm kanallarda perakende fiyatlarını hesaplamak için tek bir fiyatlandırma altyapısı kullanılır: Çağrı merkezi, Perakende mağazalar ve Çevrimiçi mağazalar. Bu, birleşik ticaret senaryolarının etkinleştirilmesine yardımcı olur. 

@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69766e1bf37955bfd4d7253c1b7881780d491d1c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 683d3de59a427df296bb0d3d644f0ec23b3a8e5e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="report-designer-interface"></a>Rapor Tasarımcısı arayüzü
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, Rapor Tasarımcısı'nda nasıl gezineceğiniz ve belirli gereksinimlerinizi karşılamak için çeşitli seçenekleri nasıl kullanacağınız açıklanmaktadır. 
 
@@ -220,11 +220,11 @@ Rapor tasarımcısı araç çubuğu, rapor tasarımcısı içinde gezinmek için
 | [![Sütun tanımı düğmesi](./media/columnc130389.png)](./media/columnc130389.png)                 | Etkin rapor tanımına atanan sütun tanımını gösterin.                                                                                                 |
 | [![Raporlama ağacı tanımı düğmesi](./media/treec130389.png)](./media/treec130389.png)             | Etkin rapor tanımına atanan raporlama ağacı tanımını gösterin.                                                                                         |
 | [![Rapor Görüntüleyicisi düğmesi](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Rapor Görüntüleyici'yi başlatın ve oluşturulan raporun en yeni sürümünü gösterin. En az bir rapor oluşturduysanız bu düğme bir rapor tanımından kullanılabilir. |
-| [![Rapor oluştur düğmesi](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Aktif rapor tanımından bir rapor oluşturur. Bu düğme bir rapor tanımında kullanılabilir.                                                                      |
+| [![Rapor oluştur düğmesi](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Etkin rapor tanımından rapor oluşturun. Bu düğme bir rapor tanımından kullanılabilir.                                                                      |
 
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Mali raporlama](financial-reporting-intro.md)

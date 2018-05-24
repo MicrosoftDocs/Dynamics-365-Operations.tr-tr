@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a47c631b265262f78e0fb3d956a98a7c9e9f5172
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e4414ead4d2c767ecdd3e631035034b01de55b27
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-agreements"></a>Satınalma sözleşmeleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, satınalma anlaşmalarıyla ilgili bilgiler verilmektedir. Bir satınalma anlaşması, kuruluşun belirli bir süre içinde birden fazla satınalma siparişi kullanarak, belirli bir miktarda veya tutarda alım yapacağını taahhüt eden bir sözleşmedir. Bu taahhüt karşılığında, alıcıya özel fiyatlar ve iskontolar verilir. 
 
@@ -91,7 +91,7 @@ Satınalma siparişlerinin dolaylı olarak oluşturulduğu bazı durumlarda, Fin
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Satınalma sözleşmeleri üzerindeki finansal boyutlar
 Finansal boyutları belge başlıklarına ve satınalma sözleşmelerinin tekil satırlarına kopyalayabilirsiniz. Sözleşme başlığındaki veya sözleşme satırındaki boyutları değiştirirseniz, bu değişiklik serbest bırakılmış siparişlerin hiçbirini etkilemez fakat yeni siparişlerin tümünü etkiler.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Satınalma sözleşmesi oluşturma (Görev kılavuzu)](tasks/create-purchase-agreement.md)

@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 75508af6d6f746b56fc3df3b6b0d730f429161c5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18920dd3490b69e9668e2d023c5ca1cc094c8126
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="quality-management-processes"></a>Kalite yönetimi işlemleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, uyumsuz ürünler için kalite yönetimi süreci hakkında bilgiler verilmektedir. Makale, kalite kontrol işlevlerini nasıl kullanacağınızı, uygunsuzlukların nasıl tanımlanıp korunacağını ve düzeltmelerin nasıl yapılacağını açıklamaktadır.
 
@@ -88,7 +88,7 @@ Uygunsuzluk raporu, uygunsuzluk numarası, madde ve sorun türünü görüntüle
 
 **belge türünü** sayfasını kullanarak düzeltmeler için benzersiz bir dosya türü tanımlamak iyi bir fikirdir. Daha sonra **Rapor Kurulumu** sayfasını kullanarak bu belge türü için yorumların düzeltme raporunda yazdırıldığını tanımlayabilirsiniz. Yazdırılan düzeltme raporu uygunsuzluk ve ilişkili uygunsuzluk notları hakkında bilgi görüntüler. Rapor ayrıca tanı türü ve ilgili düzeltme notları gibi düzeltme bilgileri içerir.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Kalite yönetimi etkinleştirmek](enable-quality-management.md)

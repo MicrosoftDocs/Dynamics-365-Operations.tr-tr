@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 92beae76b35da6e18d1d9b2621b48b9a46dfaad0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d2ead061fe39c3dcb54d697f246c2c826339b699
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Yalın imalat için görsel planlama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, üretim planlayıcısının kanban işleri için üretim planını denetlemek ve en iyi duruma getirmek üzere kullanabileceği Kanban zamanlama panosu hakkında bilgiler sağlar.
 
@@ -91,7 +91,7 @@ Kanban planlama panosunu aşağıdaki sayfalarda yer alan menü öğesini kullan
 -   **Üretim akışı görselleştirme** sayfası
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Yalın üretim – Kanban işi planlama](lean-manufacturing-kanban-job-scheduling.md)

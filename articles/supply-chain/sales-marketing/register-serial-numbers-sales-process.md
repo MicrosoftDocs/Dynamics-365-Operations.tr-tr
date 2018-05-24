@@ -20,24 +20,22 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 23683ff3b232d485d0e4386963b3dcf37cd96c6f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 62f59c857980932f4cf75d928deb0f89fae2f8eb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="register-serial-numbers-in-the-sales-process"></a>Satış işleminde seri numaralarını kaydetme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Bu konuda, satış işlemi sırasında sevk irsaliyeleri veya faturalar üzerine seri numaralarını nasıl kaydedeceğiniz açıklanmaktadır. Bu işlev, bir şirket servis veya garanti amaçlı olarak seri numaralarını tutmak istediğinde ancak seri numaralarını girişten çıkışa stokta tutması gerekmediğinde kullanışlıdır.
 
 Birçok şirket servis ve garanti amacıyla seri numaraları tutmak ister ancak alımdan çıkışa kadar seri numaraları stokta koruması gerekmez. Bu gibi durumlarda, Microsoft Dynamics 365 for Finance and Operations seri numaraları ürünler satıldığında sevk irsaliyeleri veya faturalara kaydetmenize olanak tanır. Ürünler daha sonra iade edilirse, ürünü satıp satmadığınızı ve servis ya da garanti koşullarının geçerli olup olmadığını belirlemek için her ürünü faturadan izleyebilirsiniz.
-Herhangi bir önkoşul var mı?
-----------------------------
 
 **İzleme boyutu grupları** sayfasındaki **Satış işleminde etkinleştir** seçeneğini seçerek satış işlemi için seri numaraları etkinleştirmeniz gerekir. Ardından, Microsoft Dynamics 365 for Finance and Operations'da aşağıdaki olaylar gerçekleşir:
 -   **Seri numaraları** hızlı sekmesinde **Seri numarası denetimi** seçeneği işaretlidir. Bu seçenek seçildiğinde, sevk irsaliyesi veya faturadaki her madde için bir seri numarası kaydetmeniz gerekir.
@@ -71,8 +69,8 @@ Hayır. Seri numaraları maddeler satılana kadar kaydedilmediğinden elinizde b
 
 ## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Fiili ağırlık maddeleri için seri numaralar kaydedebilir miyim?
 Hayır. Satış işlemi sırasında fiili ağırlık maddeleri için seri numaralar kaydedemezsiniz. Ayrıca, bir ürünün fiili ağırlık maddesi olarak ayarlanması durumunda, ürünü yalnızca satış işlemi sırasında seri numaralar kullanmak üzere ayarlanan bir izleme boyutu grubuna atayamazsınız.
-Retail POS'ta seri numaraları kaydedebilir miyim?
-------------------------------------------------
+
+## <a name="can-i-register-serial-numbers-at-the-retail-pos"></a>Retail POS'ta seri numaraları kaydedebilir miyim?
 
 Evet. Kullanıcı yalnızca satış işlemi sırasında seri numaraları kullanmak üzere ayarlanan bir boyut izleme grubuna atanmış bir madde sattığında, Perakende satış noktası (POS) kullanıcıdan bir seri numarası girmesini ister.
 

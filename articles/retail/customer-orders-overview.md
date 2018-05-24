@@ -20,16 +20,16 @@ ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ce6774ede836eb29e6ef2cd8d4baa9efb931020c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f46cf7d4df4a8cb0ad1846882292965aa492239b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="customer-orders-overview"></a>Müşteri siparişlerine genel bakış
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Bu konu, Perakende Modern POS (MPOS) içerisindeki müşteri siparişleri hakkında bilgi sağlar. Müşteri siparişleri, özel siparişler olarak da adlandırılır. Bu konu, ilgili parametreler ve hareket akışları hakkında bir tartışma içerir.
 
@@ -95,7 +95,7 @@ Müşteri siparişleri satış noktası (POS) istemcisinden zaman uyumlu ya da z
 
 **Müşteri siparişlerini zaman uyumsuz moda oluştur** seçeneği **Evet** olarak ayarlanmışsa, müşteri siparişleri her defasında zaman uyumsuz modda oluşturulur, Perakende İşlem Hizmeti (RTS) etkin olsa bile. Bu seçeneği **Hayır** olarak ayarlarsanız, müşteri siparişleri her defasında zaman uyumlu modda RTS kullanarak oluşturulur. Müşteri siparişleri zaman uyumsuz modda oluşturulduklarında, Retail içerisine Çekme (P) işleri ile çekilir ve eklenir. Karşılık gelen satış siparişleri, Retail içerisinde **Senkronizasyon siparişleri** elle veya toplu bir iş aracılığıyla çalıştırıldıklarında oluşturulur.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Karma müşteri siparişleri](hybrid-customer-orders.md)

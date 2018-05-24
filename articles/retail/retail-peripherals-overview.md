@@ -19,16 +19,16 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ba9c828efc39d45a78500d30295e5d1d6c770c99
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 77f475b0937672af268d6da938d5b2a1c9f6448b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="retail-peripherals-overview"></a>Perakende çevre birimlerine genel bakış
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Bu konu, perakende çevre birimleriyle ilgili kavramları açıklar. Bu çevre birimlerinin satış noktasına (POS) bağlanmasıyla ilgili çeşitli yollar ve POS ile bağlantı yönetiminden sorumlu olan bileşenler açıklanmaktadır.
 
@@ -786,7 +786,7 @@ Aşağıdaki çevre birimler Windows için Modern POS ve Bulut POS ile paylaşt�
     -   Ödeme terminali 
 
     Çevre birim aşağıdaki kategorilerden birine ait değilse, donanım istasyonu çevre birimin birden fazla POS cihazı arasında paylaşılmasına olanak tanımak için tasarlanmamıştır.
--   Bazen, cihaz sürücüleri, genel denetim nesnelerinin (CCOs) düzgün çalışmayı durdurmasına neden olabilir. Son zamanlarda bir cihaz yüklendiyse, ancak düzgün çalışmıyorsa veya başka sorunlar fark ediyorsanız, genellikle sorunu CCO'ları yeniden yükleyerek çözebilirsiniz. CCO'ları indirmek için <http://monroecs.com/oposccos_current.htm> adresini ziyaret edin.
+-   Bazen, cihaz sürücüleri, genel denetim nesnelerinin (CCOs) düzgün çalışmayı durdurmasına neden olabilir. Son zamanlarda bir cihaz yüklendiyse, ancak düzgün çalışmıyorsa veya başka sorunlar fark ediyorsanız, genellikle sorunu CCO'ları yeniden yükleyerek çözebilirsiniz. CCO'ları indirmek için şu adrese gidin: <http://monroecs.com/oposccos_current.htm>.
 -   Sınama ve sorun giderme sırasında sık sık çevre birim değişikliği yaparsanız, önbelleğin kendisini yenilemesini beklemek yerine IIS'yi sıfırlamanız gerekebilir. IIS'yi sıfırlamak için şu adımları izleyin:
     1.  **Başlat** menüsüde **CMD** yazın.
     2.  Arama sonuçlarında, **Komut istemi**'ne sağ tıklayın ve **Yönetici olarak çalıştır**'a tıklayın.
@@ -801,7 +801,7 @@ Aşağıdaki çevre birimler Windows için Modern POS ve Bulut POS ile paylaşt�
     6.  DLL ana bilgisayarları kapandıktan sonra Modern POS'u yeniden başlatın.
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Perakende çevre birimi benzeticisi](dev-itpro/retail-peripheral-simulator.md)

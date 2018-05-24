@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4b70f1aee6b0b55a41dbfd33fcd1216579bb78c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 54a3409e7bd0f1c704cf9f7dd1d860100ec83d7f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-reporting-for-finance-and-operations"></a>Finance and Operations için mali raporlama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Finance and Operations için mali raporlama, finans ve şirket profesyonellerinin mali tabloları oluşturmasını, güncelleştirmesini, dağıtmasını ve görüntülemesini sağlar. Geleneksel raporlama kısıtlamalarının ötesine geçerek çeşitli rapor türlerini etkin şekilde oluşturmanıza yardımcı olur.
 
@@ -90,14 +90,14 @@ Mali raporlamanın aşağıdaki bileşenleri raporların oluşturulmasını, gö
 <li>Görüntülediğiniz raporun para birimini değiştirin.</li>
 <li>Raporu özet veya ayrıntılı görünümde görüntüleyin.</li>
 <li>Rapor içeriğini belirli bir boyutla veya boyut birleşimiyle sınırlandırmak için boyut filtreleri ekleyin.</li>
-<li>Rapor içeriğini, belirli bir öznitelik veya öznitelik birleşimleri ile sınırlamak için öznitelik filtreleri ekleyin.</li>
+<li>Rapor içeriğini belirli bir öznitelikle veya öznitelik birleşimiyle sınırlandırmak için öznitelik filtreleri ekleyin.</li>
 </ul>
 </td>
 </tr>
 </tbody>
 </table>
 
-## <a name="see-also"></a>Ayrıca bkz.
+## <a name="additional-resources"></a>Ek kaynaklar
 [Mali rapor oluşturma](generate-financial-report.md)
 
 

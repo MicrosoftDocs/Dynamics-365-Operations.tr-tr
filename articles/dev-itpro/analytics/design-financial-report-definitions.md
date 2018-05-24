@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 58030df8db467f754ec93ecc3f41585b20f03893
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ee130dd357b5ae678f623630165a1ab787d6ae2c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="report-definitions-in-financial-report-designer"></a>Finansal rapor tasarımcısında rapor tanımları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede rapor tanımları hakkında bilgi verilmektedir. Bir rapor tanımı, bir satır tanımı, bir sütun tanımı ve rapor oluşturmak için isteğe bağlı bir raporlama ağacı tanımı kullanılan bir rapor bileşenidir (veya yapı taşıdır). Bir rapor tanımı ayrıca bir raporu özelleştirmek için kullanılan seçenek ve ayarlar sunar. 
 
@@ -79,8 +79,8 @@ Aşağıdaki tabloda bir rapor tanımındaki sekmeler ve bilgilerin nasıl kulla
 <li>Ayrıntı raporlarını biçimlendirme</li>
 <li>Raporlama ağaçlarını biçimlendirme</li>
 <li>Özel durum raporu oluşturma</li>
-<li>Para birimi dönüştürme belirtme</li>
-<li>Alt toplam ve filtre hesap ayrıntıları</li>
+<li>Para birimi dönüşümü belirtme</li>
+<li>Alt toplam ve filtre hesabı ayrıntıları</li>
 </ul></td>
 </tr>
 </tbody>
@@ -88,7 +88,7 @@ Aşağıdaki tabloda bir rapor tanımındaki sekmeler ve bilgilerin nasıl kulla
 
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Mali raporlama](financial-reporting-intro.md)

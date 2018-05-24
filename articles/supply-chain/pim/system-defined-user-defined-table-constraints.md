@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 4da560ca3cce5a28edd2a00506f825d5d88ef0f3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cd5fc329877bbb1f8f4ec26191e66914da29d034
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="system-defined-and-user-defined-table-constraints"></a>Sistem tanımlı ve kullanıcı tanımlı tablo kısıtlamaları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, kullanıcı tanımlı ve sistem tanımlı olmak üzere, bir ürün yapılandırma modelindeki bileşenler için iki tablo sınırlandırma türü açıklanmaktadır. Tablo sınırlandırmaları, her bir satırın bir pozitif öznitelik değeri setine karşılık geldiği, izin verilen öznitelik kombinasyonlarının matrislerini temsil eder.
 
@@ -61,7 +61,7 @@ Sistem tanımlı bir tablo kısıtlaması oluşturduğunuzda, bir tablo seçer, 
 
 Bir ürün yapılandırma modeline bir tablo kısıtlaması getirilebilmesi için, tablo kısıtlamasının model bileşenlerinden birindeki kısıtlamaya dahil edilmesi gerekir. Yeni kısıtlama oluşturmak için prosedür, tablo kısıtlaması türünün seçilmesi ve ardından kullanılacak tablo kısıtlaması tanımının seçilmesidir. Son olarak, tablo kısıtlamasındaki tüm alanlar ürün yapılandırma modelindeki özniteliklerle eşlenmelidir.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Ürün konfigürasyon modellerinde kilit konseptler](product-configuration-models.md)

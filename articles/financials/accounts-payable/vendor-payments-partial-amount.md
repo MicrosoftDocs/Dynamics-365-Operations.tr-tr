@@ -1,6 +1,6 @@
 ---
 title: "Bir kısmi tutar için satıcı ödemeleri"
-description: "Bazen, bir satıcıya bir fatura tutarından daha az ödeme yapabilirsiniz. Bu makalede, bu durumu çözmeye yönelik çeşitli seçenekler açıklanmaktadır. Kullanabileceğiniz seçenekler, iş gereksinimlerinize ve yapılandırmanıza bağlıdır."
+description: "Bazen, bir satıcıya bir fatura tutarından daha az ödeme yapabilirsiniz. Bu makale, bu durumda yapılabilecek çeşitli seçenekleri açıklamaktadır."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: aeef806980665c523f10b373f7662ecf509a8172
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d8c012d3e88f3f4fe2e60f1db59978e326c42681
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-payments-for-a-partial-amount"></a>Bir kısmi tutar için satıcı ödemeleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bazen, bir satıcıya bir fatura tutarından daha az ödeme yapabilirsiniz. Bu makalede, bu durumu çözmeye yönelik çeşitli seçenekler açıklanmaktadır. Kullanabileceğiniz seçenekler, iş gereksinimlerinize ve yapılandırmanıza bağlıdır. 
 
@@ -38,7 +38,7 @@ Bazen, bir satıcıya bir fatura tutarından daha az ödeme yapabilirsiniz. Bu m
 Bir satıcı fatura vade tarihinden önce ödeme yapmanız durumunda size bir nakit iskontosu sunabilir. Örneğin, faturanın 10 gün içinde ödenmesi durumunda yüzde 2 nakit indirimi belirten, 100,00 değerinde bir fatura girebilirsiniz. Vade dönemi 30 gündür. Bir ödeme teklifi, bir faturanın seçiminde ölçüt olarak nakit iskontosu kullanıyorsa ve teklif nakit iskontosu tarihinde veya öncesinde çalışıyorsa, fatura ödeme için seçilir ve 98.00 için ödeme oluşturulur. Bir nakit iskontosu el ile oluşturulan özel bir ödeme için de alınabilir.
 
 ## <a name="partial-payments-with-cash-discounts"></a>Nakit iskontolarıyla kısmi ödemeler
-Bir kısmi ödeme yaptığınızda faturayı tamamen kapatmak için ek bir kısmi ödeme yapmayı planlıyor olabilirsiniz. Bir kısmi ödeme için bir nakit iskontosu almak için, <strong>Borç hesapları parametreleri</strong> sayfasından <strong>Kısmi ödemeler için nakit iskontolarını hesapla **seçeneğini **Evet</strong> konumuna ayarlamanız gerekir. 
+Bir kısmi ödeme yaptığınızda faturayı tamamen kapatmak için ek bir kısmi ödeme yapmayı planlıyor olabilirsiniz. Bir kısmi ödeme için bir nakit iskontosu almak için, **Borç hesapları parametreleri** sayfasından **Kısmi ödemeler için nakit iskontolarını hesapla** seçeneğini **Evet** konumuna ayarlamanız gerekir. 
 
 Örneğin, faturanın hazırlandıktan sonra 10 gün içinde ödenmesi durumunda yüzde 2'lik bir nakit iskontosu alıyorsunuz. 100.00 değerinde bir fatura nakledilir. 10 gün içinde 49,00 tutarında bir ödeme yaparsanız, ödeme defterine 49,00 tutarında bir borç girersiniz. Kısmi ödemeyi **Açık hareketleri kapat** sayfasında kapatırsanız **Alınacak nakit iskonto tutar** alanında **1,00** tutarı görüntülenir. 
 
@@ -46,7 +46,7 @@ Bir kısmi ödeme yaptığınızda faturayı tamamen kapatmak için ek bir kısm
 > Bir kısmi ödeme girer ve **Kapatılacak tutar** alanındaki tam fatura tutarını değiştirmeden bırakırsanız, hareketleri naklettiğinizde **Alınacak nakit iskontosu tutarı** alanı otomatik olarak yeniden hesaplanır.
 
 ## <a name="credit-notes-with-cash-discounts"></a>İskonto indirimleri içeren credit note'lar
-Bir faturadaki ürünlerden bazılarını iade edebilir ve bir credit note hazırlayabilirsiniz. Orijinal faturadan bir nakit iskontosu almışsanız iskonto değerini çıkarabilir ve doğru tutar için bir iade alabilirsiniz. <strong>Borç hesapları parametreleri</strong> sayfasından <strong>Alacak dekontları için nakit iskontolarını hesapla **seçeneğini **Evet</strong> konumuna getirirseniz alacak dekontu için iskonto otomatik olarak hesaplanır. 
+Bir faturadaki ürünlerden bazılarını iade edebilir ve bir credit note hazırlayabilirsiniz. Orijinal faturadan bir nakit iskontosu almışsanız iskonto değerini çıkarabilir ve doğru tutar için bir iade alabilirsiniz. **Credit note'lar için nakit iskontolarını hesapla**seçeneğini **Borç hesapları parametreleri** sayasından **Evet** konumuna getirirseniz credit note üzerinden iskonto otomatik olarak hesaplanır. 
 
 Örneğin, faturanın hazırlandıktan sonra 10 gün içinde ödenmesi durumunda yüzde 2'lik bir nakit iskontosu alıyorsunuz. 100.00 tutarında bir fatura nakledilir. Mal iade edip ve alacak dekontu alırsanız, alacak dekontunda da tanımlanmış olan yüzde 2'lik nakit iskontosuyla birlikte 100,00 orijinal fatura toplam tutarı için alacak dekontu girebilirsiniz.  Alacak dekontunu **Hareketleri kapat** sayfasında görüntülediğinizde **Kapatılacak tutar** alanında **98,00** tutar ve **Nakit iskontosu tutarı** alanında **-2,00** tutar görüntülenir. İskonto tutarı, bir nakit iskontosu hesabına nakledilir.
 

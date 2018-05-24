@@ -33,8 +33,6 @@ Platform güncelleştirmesi 14'te, Microsoft Dynamics 365 for Finance and Operat
 
 Katıştırılmış PowerApps hakkında daha fazla bilgi için [Dynamics 365 for Finance and Operations'a PowerApps katıştırma](https://www.youtube.com/watch?v=x3qyA1bH-NY) kısa videosunu izleyin.
 
-> [!Video https://www.youtube.com/embed/x3qyA1bH-NY]
-
 ## <a name="adding-an-embedded-powerapp-to-a-page"></a>Bir sayfaya katıştırılmış bir PowerApp ekleme
 ### <a name="overview"></a>Özet
 Finance and Operations istemcisine bir PowerApp katıştırmadan önce istediğiniz görsellere ve/veya işleve sahip bir PowerApp bulmanız veya oluşturmanız gerekir. Burada bir PowerApp oluşturma işlemini ayrıntılı şekilde açıklamayacağız. PowerApps'te yeniyseniz [PowerApps'a giriş](https://docs.microsoft.com/en-us/powerapps/getting-started) konusu iyi bir başlangıç noktası olabilir.

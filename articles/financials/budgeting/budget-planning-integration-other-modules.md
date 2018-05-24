@@ -19,16 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6db51f9fa180f0b8ce203fd2812c562b0201afa8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4a18190152b6e5ea520a81f1db2cf67ded652bbe
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budget-planning-integration-with-other-modules"></a>Diğer modüllerle bütçe planlama tümleştirmesi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Bütçe planları aşağıdaki çeşitli farklı kaynaklardan oluşturulabilir. Periyodik işlemin temel unsurları tüm kaynaklar için aynıdır. 
 
@@ -68,7 +68,7 @@ Tüm işlemler için **Kaynak** sekmesi veriyi **Filtrele** düğmesini kullanar
 
 Sayfanın üstündeki **Toplama göre toplam** alanı da kullanılan tarihi belirler. Bu alan tutarları toplar ve yürürlük tarihini isteğe bağlı olarak mali yılın veya mali dönemin ilk gününe ayarlar. 
 
-<strong>Hedef</strong> öğesindeki alanların çoğu seçtiğiniz eyleme bağlı olarak düzenlenebilir veya salt okunur olabilir. Yeni bir bütçe planı oluşturmaktan mevcut bir planı güncellemeye geçtiğinizde, <strong>Bütçe planı adı</strong> kullanılamaz olur ve mevcut bir planı seçmekle ilgili alanlar kullanılabilir hale gelir. Hem <strong>Hedef</strong> sekmesinde hem de <strong>Kaynak **sekmesinde **Genel muhasebe</strong> alanı her zaman kullanılamaz, çünkü değer seçili bütçe planlama süreci ile belirlenir. 
+<strong>Hedef</strong> öğesindeki alanların çoğu seçtiğiniz eyleme bağlı olarak düzenlenebilir veya salt okunur olabilir. Yeni bir bütçe planı oluşturmaktan mevcut bir planı güncellemeye geçtiğinizde, **Bütçe planı adı** kullanılamaz olur ve mevcut bir planı seçmekle ilgili alanlar kullanılabilir hale gelir. Hem **Hedef** öğesinde hem de **Kaynak** öğesinde, **Genel muhasebe** alanı her zaman kullanılamaz, çünkü değer seçili bütçe planlama süreci ile belirlenir. 
 
 **Bütçe sınıfı** alanı size bütçe planı satırlarını masraf hareketleri veya gelir hareketleri olarak ayarlama olanağı sağlar. Genellikle gelir hareketleri bir genel muhasebe hesabına geçirilir ve bu nedenle negatif tutarlar olarak saklanır. Genellikle, bu hareketler bütçe planında da negatif tutarlar olarak görünür. Ancak, bütçe sınıfını plan düzeninde bir alan olarak ekleyerek, gelirin pozitif tutarlar olarak görünmesini sağlayabilirsiniz.
 

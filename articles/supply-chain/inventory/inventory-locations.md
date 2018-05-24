@@ -20,16 +20,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 186ad9fbf2920ce9cc01a686b133a2de568d7fef
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 11be82682fc870cb21959d9e531ff8bf67993fa3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="inventory-locations"></a>Stok konumları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Stok konumları ile temel depolama (WSM I) birlikte kullanılarak maddelerin nerede depolandıkları ve maddelerin bir WMS I ambarında nereden çekildikleri belirlenir.
 
@@ -63,8 +63,8 @@ Konumları bir ambardan diğerine kopyalamak ve sihirbaz üzerinden konum oluşt
 
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Yeni bir ambar düzeni oluştur (Görev kılavuzu)](tasks/create-new-warehouse-layout.md)
+[Yeni bir ambar düzeni oluşturma (Görev kılavuzu)](tasks/create-new-warehouse-layout.md)
 

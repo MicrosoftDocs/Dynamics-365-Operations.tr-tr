@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d6828860d9e56dc8db80a11b4b611b9c0fdc2b62
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a5dcc294b3dde7dc7e0f789d9e7678b75bc699b0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-requisition-workflow"></a>Satınalma talebi iş akışı
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 İş akışı süreci, satın alma talebini, ilk durum olan Taslak durumundan son durum olan Onaylandı durumuna, gözden geçirme sürecine geçirir. Bir satınalma talebi gözden geçirme amacıyla gönderildiğinde iş akışı süreci başlatılır. Bir Satın alma talebi onaylandıktan sonra, satın alma talebi satırları için bir satın alma emri oluşturulabilir ve siparişin gerçekleştirilmesi için satıcıya sunulabilir.
 
@@ -106,7 +106,7 @@ Harcama gözden geçiren yapılandırmalarını tanımlamanız gerekmez. Bunun y
 
 Bir iş akışında ayarladığınız harcama gözden geçirenlerinin birini kullanmak için, ilgili iş akışı öğesinin **Atamalar** özelliklerinde **Katılımcı türü** seçeneğini **Harcama katılımcıları**  olarak ayarlamanız gerekir.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Tüketim için bir talep oluşturma (Görev kılavuzu)](tasks/create-requisition-consumption.md)

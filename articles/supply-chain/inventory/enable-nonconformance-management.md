@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 28037713a51a83f4b792adef8a26f02960fa6b07
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 93a7ed31dcad19a29a85352a2bf200915766036c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="nonconformance-management"></a>Uygunsuzluk yönetimi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, uygunsuzlukları kullanmak için gereken temel kurulum açıklanmaktadır. Kalite emirleri kullanmak istiyorsanız ek kurulum gereklidir.
 
@@ -47,7 +47,7 @@ Uygunsuzluk yönetimini etkinleştirmek için şu adımları izleyin:
 6.  Uygunsuzluğa atanacak ilgili operasyonları tanımlayın. Onaylanan bir uygunsuzluk için gerçekleştirilebilecek işin sınıflandırmasını tanımlamak için **Operasyonlar** sayfasını kullanın. Bir uyumsuzluğa ilgili bir operasyon atadığınızda, operasyonu gerçekleştirmek için gereken ilgili malzemeler hakkında bilgiler, işçilik saatleri ve çeşitli ücretler vb. gibi ayrıntılı bilgiler sağlayabilirsiniz. Bu bilgiler, operasyon için tahmini maliyetini hesaplanmasında kullanılır. Ayrıntılı bilgiler ve tahmini maliyetler bilgi amaçlıdır. Kalite için ilgili operasyonlar, bir üretim rotası için tanımlanabilecek operasyonlardan farklıdır.
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Bir uyumsuzluk oluştur ve işle (Görev kılavuzu)](tasks/create-process-non-conformance.md)

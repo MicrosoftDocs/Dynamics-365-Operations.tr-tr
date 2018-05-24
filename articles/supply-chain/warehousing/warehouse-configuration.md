@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9c2f8fd846181c404492ff32907a3396beb90685
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-configuration"></a>Ambar konfigürasyonu
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, bir ambarın nasıl yapılandırılacağı açıklanmaktadır. Konu, ambar düzeninin ve ambar süreçlerinin nasıl etkinleştirileceği hakkında bilgiler içermektedir.
 
@@ -112,7 +112,7 @@ Adından da anlaşılacağı gibi, konum yönergeleri iş hareketlerini ambardak
 
 Her bir konum yönergesi satırı ile ilişkili eylemleri tanımlamak daha hızlı ve kolaylaştırmak için önceden tanımlanmış stratejilerden birini kullanın. Örneğin **Gelen iş olmayan boş konum** stratejisini ambardaki boş konumları aramak için kullanabilirsiniz veya **FEFO toplu iş rezervasyonu** stratejisini giden satış sevki için kullanabilirsiniz.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [WMS etkin bir ambarda konumları yapılandırma (Görev kılavuzu)](tasks/configure-locations-wms-enabled-warehouse.md)

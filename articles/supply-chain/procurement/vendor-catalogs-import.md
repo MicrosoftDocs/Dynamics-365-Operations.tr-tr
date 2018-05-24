@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a56e6ea0a8470f205b1c74379c887c0cac85a6b4
-ms.openlocfilehash: c290bcd4787144fb4dd4232c06d2fb9e1e67ca3e
+ms.sourcegitcommit: ac7754bd6361ad74f7ab4d564ae3114dd4b9f165
+ms.openlocfilehash: caf801ea27ade63c24bb0907313e7f8294c50702
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/26/2018
 
 ---
 
@@ -53,13 +53,13 @@ Satıcı katalog verilerini içe aktarmak için aşağıdaki görevleri tamamlam
 
 6.  CMR dosyasını yükleyin.
 
-7.  Satıcı kataloğundaki ürünleri gözden geçirin, onaylayın veya reddedin. Ürünler Dynamics 365 for Finance and Operations'daki tedarik kategorileriyle otomatik olarak eşlenir. 
+7.  Satıcı kataloğundaki ürünleri gözden geçirin, onaylayın veya reddedin. Ürünler otomatik olarak Dynamics 365 for Finance and Operations'daki tedarik kategorileriyle eşlenir. 
     
 Onaylana ürünler ana ürüne eklenir ve seçilen tüzel kişiliklere serbest bırakılır. Yalnızca onaylanmış ürünler tedarik kataloğuna eklenebilir.
 
 ## <a name="generate-a-catalog-import-file-template"></a>Katalog içe aktarma dosyası şablonu oluşturma
 
-Katalog içe aktarma dosyası şablonu, satıcı ürünleri için CMR dosyası oluşturmak üzere kullandığınız endüstri standardı XSD dosyasıdır. CMR dosyasını yeni katalog oluşturmak, mevcut bir kataloğu değiştirmek veya mevcut katalogda değişiklik yapmak için kullanabilirsiniz.
+Katalog içe aktarma dosyası şablonu, satıcı ürünleri için CMR dosyası oluşturmak üzere kullandığınız bir XSD dosyasıdır. CMR dosyasını yeni katalog oluşturmak, mevcut bir kataloğu değiştirmek veya mevcut katalogda değişiklik yapmak için kullanabilirsiniz.
 
 1.  **Tedarik ve kaynak atama** \> **Kataloglar** \> **Satıcı katalogları**'nı seçin ve üzerinde çalışmak istediğiniz kataloğa çift tıklayın.
 

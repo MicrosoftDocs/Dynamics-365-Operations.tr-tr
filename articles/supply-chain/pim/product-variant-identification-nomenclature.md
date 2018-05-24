@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 6a620f2a0105d578d419d3aac816c7d78fbf3e46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3baf1d7313d8ff03ae5ece035b6f3641c0f1d707
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Ürün çeşidi numaraları ve adlarının terminolojisi
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, ürün numaraları terminolojisini, sabit [Ana ürün numarası - Yapılandırma - Ebat - Renk - Stil] biçimini değiştirmek için nasıl ayarlayabileceğinizi açıklar. Yeni terminoloji, ana ürün numarası, etkin ürün boyutları ve tercihiniz olan metin ayırıcılarını içeren hedeflenmiş bir biçime sahiptir. Ürün adları için bir terminoloji de oluşturabilirsiniz. Son olarak, kısıtlama tabanlı ürün yapılandırıcısı ile oluşturulan yapılandırmaları belirlemek için bir terminoloji oluşturabilirsiniz. Bu terminolojiler istediğiniz öznitelikleri içerebilir.
 
@@ -192,10 +192,10 @@ Terminolojiye bağlı olarak, sistem, yapılandırmaya benzersiz olmayan bir ür
 
 Yapılandırma işleminin bir adımında, sistem terminolojiye göre bir yapılandırma değeri önerir. Bu adımda, yapılandırma değerini el ile değiştirebilirsiniz. Yapılandırmayı kaydettiğinizde sistem, yapılandırma değerinin benzersiz olduğunu doğrular. Girmiş olduğunuz değer benzersiz değilse, bir hata iletisi alırsınız. Yapılandırmayı kaydetmek için, benzersiz bir yapılandırma değeri girmeniz gerekir.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Önceden tanımlanmış ürün çeşitleri için bir ürün numara terminolojisi oluşturma](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
+[Önceden tanımlanmış ürün çeşitleri için ürün numarası terminolojisi oluşturma](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 
 [Yapılandırılmış ürün çeşitleri için bir ürün numara terminolojisi oluşturma](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 

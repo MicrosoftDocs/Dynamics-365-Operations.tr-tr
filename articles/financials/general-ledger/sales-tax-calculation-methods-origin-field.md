@@ -19,18 +19,18 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b36b290026f384109ccd710a9979892dd5268307
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1473eeb2950296f5ae6250d7a53794af3d9cba81
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Kaynak alanında satış vergisi hesaplama yöntemleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Bu makalede satış vergisi kodları sayfasında Başlangıç alanındaki seçenekler ve satış vergisinin bir satış vergisi kodu için belirlenen seçeneğe göre nasıl hesaplanacağı hakkında bilgiler verilmiştir.
 
@@ -125,7 +125,7 @@ Belge / günlük Satış vergisi içeren tutarlar = Hayır olarak ayarlanır Har
 
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Marjinal taban ve hesaplama yöntemi alanları temel alınarak satış vergisi oranlarını belirleme](marginal-base-field.md)

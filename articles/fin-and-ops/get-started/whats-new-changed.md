@@ -19,23 +19,23 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0936ae3b8d07ef221345bda272170e1482f37cbf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f49c5157294f615b134c9ea0f00b93f70d59f527
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="whats-new-or-changed"></a>Yenilikler veya değişenler
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu sayfa Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition'ın son sürümlerindeki yeni özellikler hakkında bilgi almanıza yardımcı olabilecek konulara sizi yönlendirir.
 
 En son sürüme yükseltme hakkında bilgi için bkz. [En son güncelleştirmeye yükseltme işlemi](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
 
-[!INCLUDE [release notes](../includes/release-notes.md)]
+[!include [release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>Uygulama sürümleri
 
@@ -129,12 +129,12 @@ En son sürüme yükseltme hakkında bilgi için bkz. [En son güncelleştirmeye
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü</td>
 <td>Platform güncelleştirmesi 15</td>
 <td>7.0.4839</td>
-<td>Mart 2018 (Bu yalnızca Sürekli Otomatik Güncelleştirme Avantajı Programına (CAAP) katılmayı seçen kullanıcılara sunulan özel bir sürümdür.) Platform güncelleştirmesi 15 aynı zamanda Dynamics 365 for Finance and Operations sürüm 8.0'da da bulunur.</td>
+<td>Platform güncelleştirmesi 15 hedeflenmiş bir sürümdür; başka bir deyişle bu sürüm Haziran 2018'de tüm kullanıcıların kullanımına sunulacaktır.</td>
 <td><a href="whats-new-platform-update-15.md">Dynamics 365 for Finance and Operations, Enterprise edition platform güncelleştirmesi 15'teki (Mart 2018) yenilikler ve değiştirilenler</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü</td>
 <td>Platform güncelleştirmesi 12</td>
-<td>7.0.4709</td>
+<td>7.0.4841</td>
 <td>Kasım 2017</td>
 <td><a href="whats-new-platform-update-12.md">Dynamics 365 for Finance and Operations, Enterprise edition platform güncelleştirmesi 12'deki (Kasım 2017) yenilikler ve değiştirilenler</a></td>
 <tbody><tr class="odd">

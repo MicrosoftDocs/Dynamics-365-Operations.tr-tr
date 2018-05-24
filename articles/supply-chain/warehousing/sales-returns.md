@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e2125b3616310196b2c5ede0ddcaab24856ddc34
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d4da2ed8d61ffae3a4a4dc24793d82de22e86e59
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-returns"></a>Satış iadeleri
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu için iade siparişlerini işlemi hakkında bilgi sağlar. Müşteri iadeleri ve bu iadelerin maliyetlendirmeye ve eldeki stok miktarlarına etkisi hakkında bilgi içerir.
 
@@ -88,7 +88,7 @@ Müşteri arızalı veya istemediği bir ürünü iade etmek ve/veya alacak kayd
 -   Her iade satırı için madde ayrıntılarını, miktarı ve diğer bilgileri el ile girin.
 -   **Satış siparişi bul** işlevini kullanarak bir iade satırı oluşturun. İade emri oluştururken bu işlevi kullanmanızı öneririz. **Satış siparişi bul** işlevi, iade satırından, faturalanan satış siparişi satırına referans oluşturur ve madde numarası, miktar, fiyat, iskonto ve maliyet değerleri gibi satır ayrıntılarını satış satırından alır. Referans, ürün şirkete iade edildiğinde, satıldığı birim maliyetiyle değerlendirilmesini garantilemeye yardımcı olur. Referans iade emrindeki miktarın, faturadaki satış miktarını aşmadığını da doğrular.
 
-**Not:** Bir satış siparişine referans bulunan iade satırları satışa ilişkin düzeltmeler veya ters kayıtlar olarak işlem görür. Daha fazla bilgi için, bu konuda ileride yer alan "Genel muhasebeye nakletme" bölümüne bakın.
+>[Not!] Bir satış siparişine referans bulunan iade satırları satışa ilişkin düzeltmeler veya ters kayıtlar olarak işlem görür. Daha fazla bilgi için, bu konuda ileride yer alan "Genel muhasebeye nakletme" bölümüne bakın.
 
 ### <a name="charges"></a>Masraflar
 
@@ -193,15 +193,26 @@ Varış işlemi sırasında iadeler ambar varışları için genel işlemle tüm
 
 ### <a name="identify-products-in-the-arrival-overview-list"></a>Varışa genel bakış listesindeki ürünleri belirleme
 
-**Varışa genel bakış** sayfasında tüm planlı gelen varışlar listelenir. **Not:** İade emirlerinden gelen varışlar, diğer türlerdeki varış hareketlerinden ayrı işlenmelidir. **Varışa genel bakış** sayfasında bir gelen paketi belirledikten sonra (örneğin, eşlik eden RMA belgesini kullanarak), Eylem bölmesinde **Varışı başlat**'a tıklayarak, varışla eşleşen bir Varış günlüğü oluşturup başlatın.
+**Varışa genel bakış** sayfasında tüm planlı gelen varışlar listelenir. 
+>[Not!] İade siparişlerinden gelen varışlar, diğer türlerdeki varış hareketlerinden ayrı işlenmelidir. **Varışa genel bakış** sayfasında bir gelen paketi belirledikten sonra (örneğin, eşlik eden RMA belgesini kullanarak), Eylem bölmesinde **Varışı başlat**'a tıklayarak, varışla eşleşen bir Varış günlüğü oluşturup başlatın.
 
 ### <a name="edit-the-arrival-journal"></a>Varış günlüğünü düzenleme
 
-**Karantina yönetimi** seçeneği ayarını **Evet** yaparak, iade satırı için bir karantina emri oluşturabilirsiniz. Bir satır inceleme amacıyla karantinaya gönderildiyse, değerlendirme kodu belirtemezsiniz. **Not:** Malın stok modeli grubunda **Karantina yönetimi** seçeneği ayarını **Evet** yaparsanız, **Günlük satırları** sayfasındaki **Karantina yönetimi** seçeneği Varış günlüğü satırı için işaretlenir ve değiştirilemez. Satır karantinaya gönderilirse, ilgili karantina ambarını belirtmeniz gerekir. Varış satırı incelemeye gönderilmiyorsa, ambar varış memuru değerlendirme kodunu doğrudan Varış günlüğü satırında belirtmeli ve ardından Varış günlüğünü nakletmelidir. Aynı değerlendirme kodu iade satırının tüm miktar atanmayacaksa veya satırın tüm miktarı teslim alınmadıysa satırı bölmeniz gerekir. Bir Varış günlüğü satırını böldüğünüz zaman, iade satırını da (**SatışSatırı**) böler ve yeni bir lot kodu oluşturursunuz. Varış günlüğü satırının miktarını azaltarak satırı bölebilirsiniz. Günlük deftere nakledilince kalan miktar için **Beklenen** durumunda yeni bir iade satırı oluşturulur. Satırı **İşlevler** &gt; **Böl**'e tıklayarak da bölebilirsiniz.
+**Karantina yönetimi** seçeneği ayarını **Evet** yaparak, iade satırı için bir karantina emri oluşturabilirsiniz. Bir satır inceleme amacıyla karantinaya gönderildiyse, değerlendirme kodu belirtemezsiniz. 
+ 
+Malın stok modeli grubunda **Karantina yönetimi** seçeneği ayarını **Evet** yaparsanız, **Günlük satırları** sayfasındaki **Karantina yönetimi** seçeneği Varış günlüğü satırı için işaretlenir ve değiştirilemez. Satır karantinaya gönderilirse, ilgili karantina ambarını belirtmeniz gerekir. 
+
+Varış satırı incelemeye gönderilmiyorsa, ambar varış memuru değerlendirme kodunu doğrudan Varış günlüğü satırında belirtmeli ve ardından Varış günlüğünü nakletmelidir. Aynı değerlendirme kodu iade satırının tüm miktar atanmayacaksa veya satırın tüm miktarı teslim alınmadıysa satırı bölmeniz gerekir. Bir Varış günlüğü satırını böldüğünüz zaman, iade satırını da (**SatışSatırı**) böler ve yeni bir lot kodu oluşturursunuz. Varış günlüğü satırının miktarını azaltarak satırı bölebilirsiniz. Günlük deftere nakledilince kalan miktar için **Beklenen** durumunda yeni bir iade satırı oluşturulur. Satırı **İşlevler** &gt; **Böl**'e tıklayarak da bölebilirsiniz.
 
 ### <a name="process-the-quarantine-order"></a>Karantina emrini işleme
 
-İade edilen ürünler karantina ambarında incelemeye gönderilirse, ek işlemler bir karantina emri dahilinde tamamlanır. Karantinaya gönderilen her varış satırı için bir karantina emri oluşturulur. Değerlendirme kodu inceleme işleminin sonucunu gösterir. Karantina emrini tıpkı Varış günlüğünü böldüğünüz gibi bölebilirsiniz. Karantina emrini bölerseniz, iade satırının da karşılık gelen bir bölme işleminden geçirilmesine neden olursunuz. Değerlendirme kodu girildikten sonra **Son** veya **Tamamlandı olarak bildir** işleviyle karantina emrini tamamlayın. **Tamamlandı olarak bildir**'i seçerseniz, ilgili ambarda yeni bir varış oluşturulur. Bunun ardından bu varışı **Varışa genel bakış** sayfasından işleyebilirsiniz. Varış bir karantina emrinden kaynaklanıyorsa, inceleme sırasında atanan değerlendirme kodunu değiştiremezsiniz. Karantina emrini **Son** işlevini kullanarak tamamlarsanız lot otomatik olarak kaydedilir. Bazen bir mal karantinadan Sevkiyat ve teslim alma departmanına geri gönderilebilir. Örneğin karantina denetçisi malın stokta nerede depolanacağı bilmiyor olabilir. Bu durumda, karantina nedeniyle belirtilen değerlendirme kodunun doğru bir şekilde kaydedilmesi ve gerekli işlemlerin yapılabilmesi için ilgili sevk irsaliyesinin güncellenmesi gerekir. İade satırı kaydedilirken müşteriye alındı onayı gönderilir. **İade onayı** raporu iade emri belgesine benzer. **İade onayı** raporu günlüğe işlenmez ve sisteme başka bir şekilde kaydedilmez ve iade emri işleminde zorunlu bir adım değildir.
+İade edilen ürünler karantina ambarında incelemeye gönderilirse, ek işlemler bir karantina emri dahilinde tamamlanır. Karantinaya gönderilen her varış satırı için bir karantina emri oluşturulur. Değerlendirme kodu inceleme işleminin sonucunu gösterir. 
+
+Karantina emrini tıpkı Varış günlüğünü böldüğünüz gibi bölebilirsiniz. Karantina emrini bölerseniz, iade satırının da karşılık gelen bir bölme işleminden geçirilmesine neden olursunuz. Değerlendirme kodu girildikten sonra **Son** veya **Tamamlandı olarak bildir** işleviyle karantina emrini tamamlayın. **Tamamlandı olarak bildir**'i seçerseniz, ilgili ambarda yeni bir varış oluşturulur. Bunun ardından bu varışı **Varışa genel bakış** sayfasından işleyebilirsiniz. 
+
+Varış bir karantina emrinden kaynaklanıyorsa, inceleme sırasında atanan değerlendirme kodunu değiştiremezsiniz. Karantina emrini **Son** işlevini kullanarak tamamlarsanız lot otomatik olarak kaydedilir. Bazen bir mal karantinadan Sevkiyat ve teslim alma departmanına geri gönderilebilir. Örneğin karantina denetçisi malın stokta nerede depolanacağı bilmiyor olabilir. Bu durumda, karantina nedeniyle belirtilen değerlendirme kodunun doğru bir şekilde kaydedilmesi ve gerekli işlemlerin yapılabilmesi için ilgili sevk irsaliyesinin güncellenmesi gerekir. 
+
+İade satırı kaydedilirken müşteriye alındı onayı gönderilir. **İade onayı** raporu iade emri belgesine benzer. **İade onayı** raporu günlüğe işlenmez ve sisteme başka bir şekilde kaydedilmez ve iade emri işleminde zorunlu bir adım değildir.
 
 ## <a name="replace-a-product"></a>Ürünü değiştirme
 Ürün değişimini yönetmek için iki yöntem vardır:
@@ -223,7 +234,9 @@ Müşteriye bir değiştirme maddesi gönderirseniz ve iade emrinde **Değiştir
 
 ![Değerlendirme kodu kullanıldığında değiştirme işlemi](./media/SalesReturn05.png)
 
-Değiştirilen mal, değiştirme satış siparişi adlı bağımsız bir satış siparişiyle teslim edilir. Bu satış siparişi, iade emri için sevk irsaliyesi hazırlanırken oluşturulur. Sipariş başlığında, iade emri başlığında başvurulan, müşteriden alınmış bilgiler kullanılır. Satır bilgileri, **Yerine koyulacak madde** sayfasına girilen bilgilerden alınır. **Yerine koyulacak madde** sayfası, "değiştir" sözcüğüyle başlayan değerlendirme eylemleri olan satırlar için doldurulmuş olmalıdır. Ancak, değiştirme maddesinin ne miktarı ne de kimliği doğrulanmıştır veya sınırlıdır. Bu davranışa, müşterinin aynı malı farklı bir yapılandırma veya boyutta istediği veya müşterilerin tamamen farklı bir mal istediği durumlarda izin verilir. Varsayılan olarak, **Yerine koyulacak madde** sayfasına aynı mal girilir. Ancak, işlevin ayarlanmış olması koşuluyla, farklı bir mal seçebilirsiniz. **Not:** Değiştirme satış siparişini oluşturulduktan sonra silemez ve düzenleyemezsiniz.
+Değiştirilen mal, değiştirme satış siparişi adlı bağımsız bir satış siparişiyle teslim edilir. Bu satış siparişi, iade emri için sevk irsaliyesi hazırlanırken oluşturulur. Sipariş başlığında, iade emri başlığında başvurulan, müşteriden alınmış bilgiler kullanılır. Satır bilgileri, **Yerine koyulacak madde** sayfasına girilen bilgilerden alınır. **Yerine koyulacak madde** sayfası, "değiştir" sözcüğüyle başlayan değerlendirme eylemleri olan satırlar için doldurulmuş olmalıdır. Ancak, değiştirme maddesinin ne miktarı ne de kimliği doğrulanmıştır veya sınırlıdır. Bu davranışa, müşterinin aynı malı farklı bir yapılandırma veya boyutta istediği veya müşterilerin tamamen farklı bir mal istediği durumlarda izin verilir. Varsayılan olarak, **Yerine koyulacak madde** sayfasına aynı mal girilir. Ancak, işlevin ayarlanmış olması koşuluyla, farklı bir mal seçebilirsiniz. 
+
+>[Not!] Değiştirme satış siparişini oluşturulduktan sonra silemez ve düzenleyemezsiniz.
 
 ## <a name="generate-a-packing-slip"></a>Sevk irsaliyesi oluşturma
 İade edilen malların stoka alınabilmesi için, malların ait olduğu siparişin sevk irsaliyesini güncelleştirmeniz gerekir. Fatura güncelleştirme işlemi nasıl mali hareketin güncelleştirilmesi ise, sevk irsaliyesi güncelleştirme işlemi de stok kaydının fiziksel olarak güncelleştirilmesidir. Diğer bir deyişle, bu işlem, stokta yapılan değişiklikleri kaydeder. İadelerde ise, elden çıkarma eylemine atanan adımlar, sevk irsaliyesinin güncelleştirilmesi sırasında uygulanır. Sevk irsaliyesi oluşturduğunuzda aşağıdaki olaylar gerçekleşir:
@@ -233,14 +246,19 @@ Değiştirilen mal, değiştirme satış siparişi adlı bağımsız bir satış
 -   **Müşteriye iade** değerlendirme eylemiyle işaretlenmiş maddelerin girişi yapılır ve müşteriye teslim edilir. Bu maddelerin stokta net etkisi yoktur.
 -   Bir değiştirme satış siparişi oluşturulur. Bu satış siparişinde **Yerine koyulacak madde** sayfasındaki bilgiler temel alır.
 
-Sevk irsaliyesini yalnızca iade durumu **Kayıtlı** olan satırlar için ve ancak iade satırındaki tüm miktar için oluşturabilirsiniz. İade siparişinde birden fazla satırın durumu **Kayıtlı** ise, **Sevk irsaliyesini deftere kaydet** sayfasındaki diğer satırları silerek bir satırlar alt kümesi için sevk irsaliyesi oluşturabilirsiniz. Kısmi iadeler iade emri sevkiyatlarına göre değil, iade emri satırlarına göre tanımlanır. Bu nedenle, bir iade emri satırındaki tam miktarı alır ancak iade emrindeki diğer satırlardan hiçbir şey almazsanız, teslimat kısmi bir teslimat değildir. Ancak, bir iade emri satırında belirli bir maddeden 10 birimin iade edilmesi isteniyorsa, ancak siz yalnızca 4 birim alırsanız, bu kısmi bir teslimattır. Beklenen maddelerin tümü ulaşmadıysa, sevkiyatı bir kenara bırakıp, iade edilen miktarın geri kalan kısmının ulaşmasını bekleyebilirsiniz. Alternatif olarak, kısmi miktarı kaydedip deftere nakledebilirsiniz. Sevk irsaliyelerini deftere nakletme işleminin bir parçası olarak, müşterinin sevkiyat belgelerindeki sevk irsaliyesi referans numarasını sipariş satırlarıyla ilişkilendirebilirsiniz. Bu ilişkilendirme isteğe bağlıdır ve yalnızca referans amaçlıdır. Bu, herhangi bir hareket güncelleştirmesi oluşturmaz. Genel olarak, sevk irsaliyesi işlemini atlayıp doğrudan faturalamaya geçebilirsiniz. Bu durumda, sevk irsaliyesi oluşturma sırasında uygulamış olacağınız adımlar faturalama sırasında tamamlanır.
+Sevk irsaliyesini yalnızca iade durumu **Kayıtlı** olan satırlar için ve ancak iade satırındaki tüm miktar için oluşturabilirsiniz. İade siparişinde birden fazla satırın durumu **Kayıtlı** ise, **Sevk irsaliyesini deftere kaydet** sayfasındaki diğer satırları silerek bir satırlar alt kümesi için sevk irsaliyesi oluşturabilirsiniz. 
+
+Kısmi iadeler iade emri sevkiyatlarına göre değil, iade emri satırlarına göre tanımlanır. Bu nedenle, bir iade emri satırındaki tam miktarı alır ancak iade emrindeki diğer satırlardan hiçbir şey almazsanız, teslimat kısmi bir teslimat değildir. Ancak, bir iade emri satırında belirli bir maddeden 10 birimin iade edilmesi isteniyorsa, ancak siz yalnızca 4 birim alırsanız, bu kısmi bir teslimattır. Beklenen maddelerin tümü ulaşmadıysa, sevkiyatı bir kenara bırakıp, iade edilen miktarın geri kalan kısmının ulaşmasını bekleyebilirsiniz. Alternatif olarak, kısmi miktarı kaydedip deftere nakledebilirsiniz. Sevk irsaliyelerini deftere nakletme işleminin bir parçası olarak, müşterinin sevkiyat belgelerindeki sevk irsaliyesi referans numarasını sipariş satırlarıyla ilişkilendirebilirsiniz. Bu ilişkilendirme isteğe bağlıdır ve yalnızca referans amaçlıdır. Bu, herhangi bir hareket güncelleştirmesi oluşturmaz. 
+
+Genel olarak, sevk irsaliyesi işlemini atlayıp doğrudan faturalamaya geçebilirsiniz. Bu durumda, sevk irsaliyesi oluşturma sırasında uygulamış olacağınız adımlar faturalama sırasında tamamlanır.
 
 ## <a name="generate-an-invoice"></a>Bir fatura oluştur
 **İade emri** sayfasında iade emrinin özel lojistik yönlerini işlemek için gereken bilgi ve eylemler bulunmasına karşın, faturalama işlemini tamamlamak için **Satış siparişi** sayfasını kullanmanız gerekir. Kuruluşunuz bunun ardından iade emirlerini ve satış siparişlerini aynı anda faturalayabilir ve gerekirse faturalama işlemini aynı kişi tamamlayabilir. İade emrini **Satış siparişi** sayfasında görüntülemek için, satış siparişi numarasının bağlantısına tıklayarak ilgili satış siparişini açın. İade emrini **Tüm satış siparişleri** sayfasında da bulabilirsiniz. İade emirleri, sipariş türü **İade edilen sipariş** olan satış siparişleridir.
 
 ### <a name="credit-correction"></a>Alacak düzeltme
 
-Faturalama işleminin bir parçası olarak, tüm sair giderleri doğrulayın. Genel muhasebe nakillerinin düzeltmeler (Storno) haline gelmesini sağlamak için, faturayı/alacak dekontunu naklederken **Fatura deftere naklediliyor** sayfasının **Diğer** sekmesindeki **Alacak düzeltme** seçeneğini kullanmayı düşünün. **Not:** Varsayılan olarak, **Alacak düzeltmesi** seçeneği, **Alacak hesapları parametreleri** sayfasındaki **Düzeltme olarak alacak dekontu** seçeneği etkinleştirildiği zaman etkinleştirilir. Ancak, iadeleri Storno'yla nakletmemenizi öneririz.
+Faturalama işleminin bir parçası olarak, tüm sair giderleri doğrulayın. Genel muhasebe nakillerinin düzeltmeler (Storno) haline gelmesini sağlamak için, faturayı/alacak dekontunu naklederken **Fatura deftere naklediliyor** sayfasının **Diğer** sekmesindeki **Alacak düzeltme** seçeneğini kullanmayı düşünün. 
+>[Not!] Varsayılan olarak, **Alacak düzeltmesi** seçeneği, **Alacak hesapları parametreleri** sayfasındaki **Düzeltme olarak alacak dekontu** seçeneği etkinleştirildiği zaman etkinleştirilir. Ancak, iadeleri Storno'yla nakletmemenizi öneririz.
 
 ## <a name="create-intercompany-return-orders"></a>Şirketlerarası iade emirleri oluşturma
 İade emirleri kuruluşunuzdaki iki şirket arasında tamamlanabilir. Aşağıdaki senaryolar desteklenir:
@@ -294,7 +312,7 @@ Aşağıdaki örneklerde, iade maliyet fiyatı **Fatura maliyet fiyatı** olarak
 
 ![İade emrinde bir müşteri faturasına referans yok](./media/SalesReturn09.png)  
 
-**Not:** **İade maliyet fiyatı** parametresi için varsayılan değer olarak madde master fiyatı kullanılır. Varsayılan fiyat, stok çıkışı anındaki maliyet fiyatından farklıdır. Bu nedenle, etki, 3 birimlik bir kaybın tahakkuk etmesidir. Ayrıca, iade emri, satış siparişinde müşteriye verilen iskontoyu içermez. Bu nedenle, fazla bir alacak oluşur.
+>[Not!] **İade maliyet fiyatı** parametresi için varsayılan değer olarak madde master fiyatı kullanılır. Varsayılan fiyat, stok çıkışı anındaki maliyet fiyatından farklıdır. Bu nedenle, etki, 3 birimlik bir kaybın tahakkuk etmesidir. Ayrıca, iade emri, satış siparişinde müşteriye verilen iskontoyu içermez. Bu nedenle, fazla bir alacak oluşur.
 
 ### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>Örnek 2: İade emri için alacak düzeltmesi seçiliyor
 
@@ -302,7 +320,7 @@ Aşağıdaki örneklerde, iade maliyet fiyatı **Fatura maliyet fiyatı** olarak
 
 ![İade emri için alacak düzeltmesi seçiliyor ](./media/SalesReturn10.png)  
 
-**Not:** Genel muhasebe nakilleri negatif düzeltmeler olarak girilir.
+>[Not!] Genel muhasebe nakilleri negatif düzeltmeler olarak girilir.
 
 ### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>Örnek 3: İade emri satırı Satış siparişi bul işlevi kullanılarak oluşturuluyor
 
@@ -310,7 +328,7 @@ Bu örnekte iade emri satırı **Satış siparişi bul** işlevi kullanılarak o
 
 ![İade emri satırı Satış siparişi bul işlevi kullanılarak oluşturuluyor ](./media/SalesReturn11.png)  
 
-**Not:** **İskonto** ve **İade maliyet fiyatı** doğru biçimde ayarlanmıştır. Bu nedenle, müşteri faturasının tam ters kaydı gerçekleşir.
+>[Not!] **İskonto** ve **İade maliyet fiyatı** doğru biçimde ayarlanmıştır. Bu nedenle, müşteri faturasının tam ters kaydı gerçekleşir.
 
 
 

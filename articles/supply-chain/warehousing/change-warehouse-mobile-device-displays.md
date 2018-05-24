@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b16f4ea27f406f3d5d5957670bd32a73d2d55529
-ms.openlocfilehash: bb616f8102c67db3f8c3e872101d61657b6b64d1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a1413337888c8e2da95e33ebee6528f228ad3972
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/05/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-mobile-device-display-settings"></a>Ambar mobil cihazı görüntüleme ayarları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makale, mobil cihaz ekranın görünümünün nasıl ayarlandığını ve bu düğmelerin denetimi için klavye kısayollarının nasıl eşleneceğini açıklar. 
 
@@ -93,11 +93,11 @@ Her yükleme için kabul edilen tarih biçimleri listesi genişletebilirsiniz. B
 
 Her alt ifade iki basamaklı gün ve ay, yıl için bir ila dört basamak gerektirir. Örneğin, aşağıdaki alt ifade bir yıl için adlandırılmış bir grup tanımlar ve en az iki basamak veya en çok dört basamak gerektirir:
 
-(? &lt;yıl&gt;\\d{2,4})
+(?&lt;yıl&gt;\\d{2,4})
 
 Aynı dosyada birden çok ifade belirtebilirsiniz. Her deyim, ayrı bir satırda olmalıdır. Eşleşen ilk ifade tarih ayrıştırmak için kullanılır.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Mobil cihazları ambar işi için konfigüre etme](configure-mobile-devices-warehouse.md)

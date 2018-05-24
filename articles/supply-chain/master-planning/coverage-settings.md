@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 591b1cd739bb3be61299f33f180ca7c264d21a35
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 858328ec60e0ffa5ca46a98b365fb0fc599ae1f0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="coverage-settings"></a>Kapsam ayarları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Master planlama, madde gereksinimlerini hesaplamak için karşılama ayarlarını kullanır. 
 
@@ -45,11 +45,11 @@ Karşılama ayarlarını birkaç şekilde belirtebilirsiniz:
 
 <!-- -->
 
-- Boyut grubu için kapsam ayarları belirtin. <strong>Ürün bilgileri yönetimi &gt; Ortak &gt; Serbest bırakılan ürünler</strong>'e tıklayın. <strong>Serbest bırakılan ürün ayrıntısı **sayfasında, **Genel</strong> sekmesinde, <strong>Yönetim</strong> grubunda, <strong>Depolama boyut grubu</strong> bağlantısına tıklayın. <strong>Depolama boyut grubu</strong> sayfasında <strong>Boyuta göre kapsam planı</strong> alanını seçerek depolama boyut grubundaki bir boyut için kapsam ayarları oluşturabilirsiniz. Yapılandırma, renk, boyut, stil gibi tüm ürün boyutlarının <strong>Boyuta göre kapsam planı</strong> alanı seçilmiş olmalıdır.
+- Boyut grubu için kapsam ayarları belirtin. **Ürün bilgileri yönetimi &gt; Ortak &gt; Serbest bırakılan ürünler**'e tıklayın. **Serbest bırakılan ürün ayrıntısı** sayfasında, **Genel** sekmesinde, **Yönetim** grubunda, **Depolama boyut grubu** bağlantısına tıklayın. **Depolama boyut grubu** sayfasında **Boyuta göre kapsam planı** alanını seçerek depolama boyut grubundaki bir boyut için kapsam ayarları oluşturabilirsiniz. Yapılandırma, renk, boyut, stil gibi tüm ürün boyutlarının **Boyuta göre kapsam planı** alanı seçilmiş olmalıdır.
 
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Master planlar](master-plans.md)

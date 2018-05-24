@@ -19,16 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e0033461e7cd2601993c006aba2ec7c8f6ac0c89
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: bb0d6af3a17653ea33e3f84a416bda244a27507c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobil cihazları ambar işi için ayarlama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu makalede, ambar çalışanlarının bir mobil cihazda iş gerçekleştirmek için kullandığı menü öğelerinin nasıl yapılandırılacağı açıklanmaktadır.
 
@@ -407,10 +407,10 @@ Aşağıdaki tabloda, iş doğrulamalarını birlikte kullanabileceğiniz çeşi
 
 **Not:** Ürün doğrulamasını yalnızca çekme ve yerine koyma iş türleri için gerektirebilirsiniz.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Ambar mobil cihazı görüntüleme ayarları](change-warehouse-mobile-device-displays.md)
+[Ambar mobil cihaz görüntüleme ayarları](change-warehouse-mobile-device-displays.md)
 
 [Satınalma siparişi iş türünü tamamlamak için bir mobil cihaz menü öğesi ayarlama (Görev kılavuzu)](tasks/set-up-mobile-device-menu.md)
 

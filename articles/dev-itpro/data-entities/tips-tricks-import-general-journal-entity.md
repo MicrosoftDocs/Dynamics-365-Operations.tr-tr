@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 688fa17072cb340d6d02be31528339fb98601825
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eea226fae902c19d66aff83b7ee2786d1586ef39
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>Yevmiye defteri varlığını kullanarak fişleri içe aktarmak için en iyi uygulamalar
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda, Yevmiye defteri varlığı kullanılarak Yevmiye defterine veri aktarmak için ipuçları verilmektedir.  
 
@@ -57,7 +57,7 @@ Aşağıdaki bölümlerde bu ayarların etkisi ve ayrıca günlük toplu iş num
 
 ### <a name="voucher-number"></a>Fiş numarası
 
--   Yevmiye defteri varlığı üzerindeki **Ayarlama tabanlı işlem** ayarını kullandığınızda fiş numarası içe aktarılan dosyada sağlanmalıdır. Fiş dengeli değilse bile Yevmiye defterindeki her hareket içe aktarılan dosyada sağlanan fiş numarasına atanır. Ayarlama tabanlı işlemi kullanmak istiyor ancak ayrıca fiş numaraları için tanımlanan numara serisini de kullanmak istiyorsanız Şubat 2016 sürümü için bir düzeltme sağlanmıştır. Düzeltme numarası 3170316 olup Lifecycle Services (LCS) altından indirilerek kullanılabilir. Daha fazla bilgi için bkz. [Lifecycle Services'den düzeltmeleri indirme](..\migration-upgrade\download-hotfix-lcs.md).
+-   Yevmiye defteri varlığı üzerindeki **Ayarlama tabanlı işlem** ayarını kullandığınızda fiş numarası içe aktarılan dosyada sağlanmalıdır. Fiş dengeli değilse bile Yevmiye defterindeki her hareket içe aktarılan dosyada sağlanan fiş numarasına atanır. Ayarlama tabanlı işlemi kullanmak istiyor ancak ayrıca fiş numaraları için tanımlanan numara serisini de kullanmak istiyorsanız Şubat 2016 sürümü için bir düzeltme sağlanmıştır. Düzeltme numarası 3170316 olup Lifecycle Services (LCS) altından indirilerek kullanılabilir. Daha fazla bilgi için bkz. [Lifecycle Services'den düzeltmeleri indirme](../migration-upgrade/download-hotfix-lcs.md).
     -   İçe aktarmalar için kullanılan günlük adı üzerinden bu işlevleri etkinleştirmek için **Deftere nakil sırasında numara tahsisi** için **Evet** ayarını yapın.
     -   Fiş numarası yine de içe aktarılan dosyada tanımlanmalıdır. Ancak bu sayı geçicidir ve günlük nakledildiğinde fiş numarası ile üzerine yazılır. Günlük satırlarının geçici fiş numarası ile doğru bir şekilde gruplandırıldığından emin olmanız gerekir. Örneğin, deftere nakil işlemi sırasında geçici fiş numarası 1 olan üç satır bulunur. Üç satırın hepsinin geçici fiş numarası, numara serisindeki sonraki numarayla değiştirilir. Bu üç satır dengeli giriş değilse, fiş nakledilmez. Geçici fiş numarası 2 olan satırlar varsa, daha sonra bu sayı sonraki fiş numarası ile numara serisi vb. üzerine yazılır.
 

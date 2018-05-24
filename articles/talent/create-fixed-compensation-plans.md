@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c5d13024ba15744f81406c4c8f5d5d33de658d63
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cea4aec80bc0b519a6b393724835555b4d0937a8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-fixed-compensation-plans"></a>Sabit ücret planları oluşturma
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Sabit ücret, çalışanın düzenli brüt maaşını veya ücretlerini ifade eder. Bu konuda, sabit maaş planı oluşturabilmeniz veya çalışanları kaydedebilmeniz için ayarlamanız gereken bileşenler açıklanmaktadır.
 
@@ -101,7 +101,7 @@ Uygunluk kuralı ayrıca çalışanla bağlantılı işçi sendikalarını da di
 
 Sistem, derece veya bant türündeki bir ücret planı için belirtilen ücret tutarının çalışanın işinde ilgili ücret düzeyi için minimum ve maksimum referans noktaları içinde olduğunu doğrular. Telafi tutarı izin verilen aralıkta bulunuyorsa, sabit ücret planında ayarlanan tolerans düzeyine dayalı olarak bir uyarı veya hata mesajı görüntülenir.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Ücret planları](compensation-plans.md)

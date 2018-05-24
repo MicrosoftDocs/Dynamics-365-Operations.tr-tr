@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 850a40cc29f51521636c01f6ac1cfa54d3bd7798
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7207febc58dbab1df5551ae0f74ad74d9ced8e56
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="organize-report-components-in-report-designer"></a>Rapor tasarımcısında rapor bileşenlerini düzenlemek
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Yapı taşları tasarlayıp rapor oluşturduktan sonra bu nesneleri düzenlemeniz kullanıcıların bunları bulmasını kolaylaştırmaya yardımcı olur. Bu makalede varolan raporların, yapı taşlarının ve nesnelerin rapor tasarımcısında nasıl düzenleneceği açıklanmaktadır.
 
@@ -145,7 +145,7 @@ Rapor tanımıyla yalnızca varsayılan esas dönem ayarları kaydedilir.</td>
 <ul>
 <li>Rapor grubuna rapor tanımları eklemek için, açmak üzere rapor grubuna çift tıklayın ve ardından <strong>Ekle</strong>'ye tıklayın. Rapor grubuna eklenecek raporları seçin ve ardından <strong>Tamam</strong>'a tıklayın.</li>
 <li>Bir raporu rapor grubundan kaldırmak için, raporu seçin ve ardından <strong>Kaldır</strong>'a tıklayın.</li>
-<li>Raporların üretilme sırasını değiştirmek için listeden bir rapor seçin ve sonra <strong>Yukarı taşı</strong> veya <strong>Aşağıya taşı</strong>'ya tıklayın.</li>
+<li>Raporların oluşturulduğu sırayı değiştirmek için, listeden bir rapor seçin ve ardından <strong>Yukarı taşı</strong>'ya veya <strong>Aşağı taşı</strong>'ya tıklayın.</li>
 </ul></td>
 </tr>
 </tbody>
@@ -153,7 +153,7 @@ Rapor tanımıyla yalnızca varsayılan esas dönem ayarları kaydedilir.</td>
 
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Mali raporlama](financial-reporting-intro.md)

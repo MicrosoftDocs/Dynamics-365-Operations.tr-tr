@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 22264f0d82844e63bc7fc42705184c6ecc27e28d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c71ce3045bd91a136288016cb55b460f7ac787ae
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-purchase-orders"></a>Satınalma siparişleri oluşturma
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Bu makalede bir satınalma siparişini el ile oluşturmak için gereken işlem ve seçenekler tanımlanır.
 
@@ -86,7 +86,7 @@ PO'lar bütçe fonlarının işleme konulmadan önce siparişe atanmasını gere
 
 Bir PO'nun tamamlanmasını geciktirmek zorunda kalabilirsiniz. Örneğin, ürünler veya hizmetlerle ilgili bilgilere ihtiyaç duyabilirsiniz veya harcama için yetki almanız gerekebilir. Bir siparişi durdurmanın birçok yolu vardır. Örneğin, siparişi onaylamak için bekleyebilirsiniz. Alternatif olarak, bir değişiklik yönetimi iş akışı kullanılıyorsa siparişi onaya göndermeyin. Belirli bir satıcı için tüm siparişleri engellemeniz gerekiyorsa satıcı aslı üzerinden işlem yapmak için satıcıyı **Beklemede** olarak da işaretleyebilirsiniz. Siparişin işlenmesini önleyen koşullar da vardır. Örneğin, kredi limitleri aşıldıysa veya gerekli bütçe fonları kullanılamıyorsa işlem önlenebilir.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Satınalma siparişine genel bakış](purchase-order-overview.md)

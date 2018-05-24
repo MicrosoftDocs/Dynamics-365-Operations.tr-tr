@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5d379b034c996cb0eff20a44960ba1e2701af81a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 942693ed3d2d54c6e973e5d3f86454b195f0fdee
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-requisition-overview"></a>Satınalma talebine genel bakış
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konuda, satınalma talebi iş akışı ve satınalma talebinin sahip olabileceği farklı durumlar açıklanmaktadır.
 
@@ -192,7 +192,7 @@ Onaylanan satınalma talep satırlarını birleştirmek için şu adımları izl
 5.  Birleştirilmiş talep satırları veya bir birleştirme fırsatındaki satın alma talebi satırları için satın alma emirleri oluşturun.
 
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Tüketim için bir talep oluşturma (Görev kılavuzu)](tasks/create-requisition-consumption.md)

@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad425ab0848ab04003b7378cb5c488650f01c441
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9082c156fde52aa0c822f8e4753de816f8cc0558
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-screen-layouts-for-pos"></a>POS için ekran düzenini yapılandırma
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Bu konu Microsoft Dynamics 365 for Retail satış noktası (POS) deneyimleri için ekran düzenleri hakkında bilgi sağlar.
 
@@ -89,12 +89,12 @@ Bir ekran düzenindeki her yerleşim boyutu Ekran düzeni tasarımcısı kullan�
 
 **Görüntü** - Görüntü denetimi mağaza logosunu veya diğer marka görüntülerini hareket ekranında göstermek için kullanılabilir. Görüntü denetimi yalnızca tam düzenler için kullanılabilir. 
 
-**Önerilen ürünler** - Ortam için yapılandırılması durumunda önerilen ürünler denetimi makine öğrenimini temel alarak ürün önerileri gösterecektir. Önerilen ürünler denetimi, yalnızca Dynamics 365 for Retail sürüm 1611'de tam düzenler için kullanılabilir. ** Özel denetim **- Özel denetim, kullanıcılara özel içerik için yer sağlamak amacıyla ekran düzeni içindeki bir yer tutucu gibi davranır. Özel denetim yalnızca tam düzenler için kullanılabilir.
+**Önerilen ürünler** - Ortam için yapılandırılması durumunda önerilen ürünler denetimi makine öğrenimini temel alarak ürün önerileri gösterecektir. Önerilen ürünler denetimi, yalnızca Dynamics 365 for Retail sürüm 1611'de tam düzenler için kullanılabilir. **Özel denetim**- Özel denetim, kullanıcılara özel içerik için yer sağlamak amacıyla ekran düzeni içindeki bir yer tutucu gibi davranır. Özel denetim yalnızca tam düzenler için kullanılabilir.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
-[Retail POS Düzen tasarımcısını yükleme](install-pos-layout-designer.md)
+[Retail POS Düzeni tasarımcısını yükleme](install-pos-layout-designer.md)
 
 
 

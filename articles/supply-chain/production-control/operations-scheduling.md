@@ -20,16 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 81dec9d988b22959df5421b7b84ef532a28e1228
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 660d6b2dfb5fbed58a5c28b77aac3bb4604c7d8d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="operations-scheduling"></a>Operasyon planlama çizelgeleme
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu operasyon planlaması hakkındaki bilgileri sağlar. Operasyon planlama çizelgelemesini zaman içinde üretim süresine dair genel bir tahmin yapmak için kullanabilirsiniz.
 
@@ -75,7 +75,7 @@ Operasyon planlamasını çalıştırdığınızda, rotanın belirli kısımlar�
 ## <a name="finite-materials"></a>Sonlu malzemeler
 Sınırlı malzemeyle çalışıyorsanız planlama üretim için gerekli olan malzemelerin kullanılabilirliğine de bağlıdır. Üretim için yeterli kullanılabilir bileşen yoksa üretim ertelenebilir. Planlamada üretim için kullanılabilir olması gereken malzemeleri belirterek malzeme kullanımını temel alabilirsiniz. Kaynak kapasitesini ve malzemelerin kullanılabilirliğini en iyi duruma getirdiğinizde, üretim bu sınırlamalara göre hesaplanır. Üretim emri, kapasite ve malzemeler aynı anda ve gerekli miktarlarda kullanılabilir olduğu anda başlatılacak şekilde planlanabilir.
 
-<a name="see-also"></a>Ayrıca bkz.
+<a name="additional-resources"></a>Ek kaynaklar
 --------
 
 [Operasyon planlama çizelgeleme seçenekleri](operation-scheduling-options.md)

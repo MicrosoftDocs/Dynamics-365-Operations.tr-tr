@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3988c437afda3d57e56a03264d3c1588af497920
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Elektronik raporlamada formül tasarımcısı
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Bu konu, formül tasarımcısının Elektronik raporlamada (ER) nasıl kullanılacağını açıklar. Belirli bir elektronik belge için ER içerisinde bir biçim tasarladığınızda, belgenin gereksinimlerini karşılamak ve biçimlendirmek üzere formülleri veri dönüştürme için kullanabilirsiniz. Bu formüller Microsoft Excel'deki formüllere benzer. Formüllerde farklı türde işlevler desteklenmektedir: metin, tarih ve saat, matematiksel mantıksal, bilgi, veri türü dönüştürme ve diğer (iş etki alanına özel işlevler).
 
@@ -647,7 +647,7 @@ Para birimi adını yazdır bayrağı ve ondalık basamak parametreleri yalnozca
 
 ER, ER ifadelerinde kullanılan işlevlerin listesini genişletmenize olanak sağlar. Bazı mühendislik çabaları gereklidir. Ayrıntılı bilgi için bkz: [Elektronik raporlama işlevlerinin listesini genişletme](general-electronic-reporting-formulas-list-extension.md).
 
-## <a name="see-also"></a>Ayrıca bkz.
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Elektronik Raporlamaya genel bakış](general-electronic-reporting.md)
 

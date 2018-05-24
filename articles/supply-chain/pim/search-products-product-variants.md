@@ -1,6 +1,6 @@
 ---
 title: "Sipariş girişi sırasında ürünleri ve ürün çeşitlerini arama"
-description: "Satış veya satınalma siparişi satırını el ile oluşturduğunuzda ürünleri ve ürün çeşitlerini aramak için <strong>Madde numarası </strong>alanını kullanın.  Bu, yalnızca yapılandırma dizesine sahip olduğunuzda veya ürün boyutlarından biri kullanılabilir olduğunda ürün çeşitlerini hızlı bir şekilde bulmanızı sağlar."
+description: "Satış veya satınalma siparişi satırını el ile oluşturduğunuzda ürünleri ve ürün çeşitlerini aramak için **Madde numarası**alanını kullanın. Bu, yalnızca yapılandırma dizesine sahip olduğunuzda veya ürün boyutlarından biri kullanılabilir olduğunda ürün çeşitlerini hızlı bir şekilde bulmanızı sağlar."
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,20 +20,20 @@ ms.author: conradv
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2441f7cbf95512677f62eb862be99af90f3c4b17
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d6a45d89ba20994c06a77c646fa5099fa34b3b2e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Sipariş girişi sırasında ürünleri ve ürün çeşitlerini arama
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [Retail name](../includes/retail-name.md)]
+[!include [Retail name](../includes/retail-name.md)]
 
-Satış veya satınalma siparişi satırını el ile oluşturduğunuzda ürünleri ve ürün çeşitlerini aramak için <strong>Madde numarası </strong>alanını kullanın.  Bu, yalnızca yapılandırma dizesine sahip olduğunuzda veya ürün boyutlarından biri kullanılabilir olduğunda ürün çeşitlerini hızlı bir şekilde bulmanızı sağlar.
+Satış veya satınalma siparişi satırını el ile oluşturduğunuzda ürünleri ve ürün çeşitlerini aramak için **Madde numarası** alanını kullanın.  Bu, yalnızca yapılandırma dizesine sahip olduğunuzda veya ürün boyutlarından biri kullanılabilir olduğunda ürün çeşitlerini hızlı bir şekilde bulmanızı sağlar.
 
 Bazen belirli bir üründen çok fazla adede sahip olmak bulunulan en iyi durum değildir ve bu özellikle benzer ürünler sattığınızda ve bir satış siparişine yerleştirmek amacıyla doğru ürünü aramak için madde numaraları veya ürün arama adlarını hatırlamaya çalıştığınızda geçerlidir. Bir satış siparişi satırında veya satınalma siparişi satırında arama alanı olarak **Madde numarası** alanını kullanabilirsiniz. Ürün adı, numarası veya boyutunun herhangi bir bölümünü girebilir ve arama kelimesi ile eşleşen tüm maddeleri görüntüleyen bir arama yapabilirsiniz.
 
@@ -47,7 +47,7 @@ Bazen belirli bir üründen çok fazla adede sahip olmak bulunulan en iyi durum 
 
 ### <a name="examples"></a>Örnekler
 
-Aşağıdaki örnekler ürün ve ürün çeşitlerini kullanarak çeşitli senaryolarda arama işleminin nasıl yapıldığını gösterir. **Önkoşul:** **Satış ve pazarlama &gt; Kurulum &gt; Arama &gt; Arama parametreleri** **&gt; Arama türü** altında, **Tam eşleşme** seçeneğini belirleyin.
+Aşağıdaki örnekler ürün ve ürün çeşitlerini kullanarak çeşitli senaryolarda arama işleminin nasıl yapıldığını gösterir. **Önkoşul:** **Satış ve pazarlama &gt; Kurulum &gt; Arama &gt; Arama parametreleri &gt; Arama türü** altında **Tam eşleşme** seçeneğini belirleyin.
 
 | Ürün türü     | Ürün adı    | Görüntülenen ürün numarası | Madde kodu | Yapılandırma |
 |------------------|-----------------|------------------------|-------------|---------------|
@@ -72,7 +72,7 @@ Aşağıdaki örnekler ürün ve ürün çeşitlerini kullanarak çeşitli senar
 
 **Satış ve pazarlama &gt; Kurulum &gt; Arama &gt; Arama ölçütleri** sayfasına gidin. **Arama ölçütleri** sayfası, müşteri, aday müşteri ve ürün araması için ölçütleri tanımlamanıza izin verir. Ürün arama ölçütlerini kullanarak sayfayı filtrelediğinizden emin olun. Bunu, sayfa menüsünde **Ürün**'e değiştirerek yapabilirsiniz.  
 
-Arama ölçütlerine görüntülenecek ürün sayısını eklemek için sayfa menüsündeki <strong>Yeni</strong> öğesine tıklayın. Bu işlem <strong>Arama ölçütleri</strong> kılavuzuna yeni bir kayıt ekler. <strong>Alan adı</strong> arama sütununu açın ve <strong>DisplayProductNumber</strong>'ı seçin. Arama ölçütlerine ürünün yapılandırmasını eklemek için <strong>Arama ölçütleri **kılavuzunda yeni bir kayıt oluşturun ve **configId'yi</strong> <strong>Alan adı</strong> sütununda seçin. Aynı şekilde renk boyutu için <strong>Alan adı</strong> <strong>InventColorId</strong>, ebat boyutu için <strong>InventSizeId</strong> ve stil boyutu için <strong>InventStyleId</strong> olan bir kayıt oluşturun.
+Arama ölçütlerine görüntülenecek ürün sayısını eklemek için sayfa menüsündeki **Yeni** öğesine tıklayın. Bu işlem **Arama ölçütleri** kılavuzuna yeni bir kayıt ekler. **Alan adı** arama sütununu açın ve **DisplayProductNumber**'ı seçin. Arama ölçütlerine ürünün yapılandırmasını eklemek için **Arama ölçütleri** kılavuzunda yeni bir kayıt oluşturun ve **Alan adı** sütununda **configId**'yi seçin. Aynı şekilde renk boyutu için **Alan adı** **InventColorId**, ebat boyutu için **InventSizeId** ve stil boyutu için **InventStyleId** olan bir kayıt oluşturun.
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>Adım 2: Ürün araması için kullanılan veritabanı tablosunu doldurun
 

@@ -18,16 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a44e5d04edf327da2b3ba4676c8b823291801abe
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="mobile-invoice-approvals"></a>Mobil fatura onayları
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations'taki mobil yetenekler işletme kullanıcısının mobil deneyimler tasarlamasına olanak tanır. Gelişmiş senaryolar için platform geliştiricilerin de yeteneklerini istedikleri gibi genişletmesine olanak tanır. Mobildeki yeni kavramlardan bazıları hakkında bilgi edinmek için en etkili yol, bir kaç senaryo tasarlama işleminde ilerlemektir. Bu konu, mobil için satıcı faturası onaylarını bir kullanım durumu olarak kullanarak mobil senaryolar tasarlamak amacıyla partik bir yaklaşım sunmak üzere hazırlanmıştır. Bu konu, senaryoların farklı çeşitlerini tasarlamanıza yardımcı olur ve satıcı faturalarıyla ilgili olmayan diğer senaryolara da uygulanablir.
 
@@ -175,9 +175,9 @@ Mobil için fatura ayrıntıları sayfasını tasarlamak üzere Finance and Oper
 1. Finance and Operations URL'sinde menü öğesinin adını **VendMobileInvoiceHeaderDetails** olarak değiştirerek formu açın.
 2. Mobil tasarımcıyı **Ayarlar** (dişli) düğmesinden açın.
 3. **Düzenle** düğmesine tıklayarak çalışma alanında düzenleme modunu başlatın.
-4. Daha önce oluşturduğunuz <strong>Satıcı faturalarım **sayfasını seçin ve **Düzenle</strong>'ye tıklayın.
+4. Daha önce oluşturduğunuz **Satıcı faturalarım** sayfasını seçin ve **Düzenle**'ye tıklayın.
 5. **Alanlar** ssekmesinde **Izgara** sütun başlığına tıklayın.
-6. **Özellikler** &gt; **Sayfa ekle**'ye tıklayın. **Not:** **Izgara** başlığına tıkladığınızde ve sayfa eklediğinizde, ayrıntılar sayfasıyla ilişki otomatik olarak kurulur.
+6. **Özellikler &gt; Sayfa ekle**'ye tıklayın. **Not:** **Izgara** başlığına tıkladığınızde ve sayfa eklediğinizde, ayrıntılar sayfasıyla ilişki otomatik olarak kurulur.
 7. **Fatura ayrıntıları** gibi bir sayfa başlığı ve **Fatura başlığı ve satır ayrıntılarını görüntüle** gibi bir açıklama ekleyin.
 8. **Alanları seç**'e tıklayın. Ekleme sıranızın alanların son kullanıcıya gösterileceği sıra olduğunu unutmayın. Alanların sıralamasını değiştirmenin tek yolu tüm alanları yeniden seçmektir. 
 9. Bu senaryonın gerekliliklerini temel alarak başlıktan aşağıdaki alanları ekleyin:

@@ -3,27 +3,28 @@ title: "Ürün çeşidi yönetimi"
 description: "Bu konu Microsoft Dynamics 365 for Retail'de ürün çeşidi yönetiminin temel kavramlarını açıklar ve projeniz için uygulamayla ilgili önemli notlar sağlar."
 author: jblucher
 manager: AnnBe
-ms.date: 3/12/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
 ms.translationtype: HT
-ms.sourcegitcommit: 44b0c4e39ac7410d27ce531c898bb8c423af334a
-ms.openlocfilehash: 303f86d6a57e039cb51700744697949845239b10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="assortment-management"></a>Ürün çeşidi yönetimi
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Özet
 Microsoft Dynamics 365 for Retail kanallar arasında ürün kullanılabilirliğini yönetmenizi sağlayan *ürün çeşitleri* sunar. Ürün çeşitleri, belirli mağazalarda ve belirli bir dönemde hangi ürünlerin kullanılabilir olduğunu belirler.
@@ -35,25 +36,25 @@ Bir kanalın genel ürün karışımı kanala atanan yayımlanmış ürün çeş
 ### <a name="basic-assortment-setup"></a>Temel ürün çeşidi kurulumu
 Aşağıdaki örnekte, her mağaza için benzersiz bir sınıflama yapılandırılmıştır. Bu durumda, ürün 1 mağaza 1'de kullanılabilir ve yalnızca ürün 2 mağaza 2'de kullanılabilir.
 
-![Her ürün bir mağazada kullanılabilir](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure1.png?raw=true "Her ürün bir mağazada kullanılabilir")
+![Her ürün bir mağazada kullanılabilir](./media/Managing-assortments-figure1.png)
 
 Ürün 2'yi mağaza 1'de kullanılabilir yapmak için, ürünü ürün çeşidi 1'e ekleyebilirsiniz.
 
-![Ürün 2 ürün çeşidi 1'e eklendi](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure2.png?raw=true "Ürün 2 ürün çeşidi 1'e eklendi")
+![Ürün 2 ürün çeşidi 1'e eklenir](./media/Managing-assortments-figure2.png)
 
 Alternatif olarak, mağaza 1'i ürün çeşidi 2'ye ekleyebilirsiniz.
 
-![Mağaza 1 ürün çeşidi 2'ye eklendi](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure3.png?raw=true "Mağaza 1 ürün çeşidi 2'ye eklendi")
+![Mağaza 1 ürün çeşidi 2'ye eklenir](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Kuruluş hiyerarşileri
 Aynı ürün çeşitlerini paylaşan birden fazla kanal olması durumunda, ürün çeşitlerini Retail ürün çeşidi kuruluş hiyerarşisini kullanarak yapılandırabilirsiniz. Bir hiyerarşiden düğümler eklendiğinde, bu düğümdeki tüm kanallar ve alt düğümleri dahil edilir.
 
-![Kuruluş hiyerarşisi](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure4.png?raw=true "Kuruluş hiyerarşisi")
+![Kuruluş hiyerarşisi](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Ürün kategorileri
 Benzer şekilde, ürün tarafında, ürün kategorisi hiyerarşilerini kullanarak ürün grupları ekleyebilirsiniz. Bir veya daha fazla kategori hiyerarşisi düğümü ekleyerek ürün çeşitlerini yapılandırabilirsiniz. Bu durumda, ürün çeşidi bu kategori düğümündeki ve onun alt düğümlerindeki tüm ürünleri içerir.
 
-![Ürün kategorileri](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure5.png?raw=true "Ürün kategorileri")
+![Ürün kategorileri](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Dışarıda bırakılan ürünler veya kategoriler
 Ürün çeşitlerine ürünler ve kategoriler eklemeye ek olarak, ürün çeşitleri dışında tutulması gereken belirli ürünleri veya kategorileri tanımlamak için Dışarıda tut seçeneğini kullanabilirsiniz. Aşağıdaki örnekte, belirli bir kategorideki ürün 2 dışındaki tüm ürünlerin eklenmesi isteniyor. Bu durumda, ürün çeşidini tek tek ürünler olarak tanımlamanız veya ek kategori düğümleri oluşturmanız gerekmez. Bunun yerine, yalnızca kategoriyi dahil edip ürünü dışarıda tutabilirsiniz.
@@ -61,7 +62,7 @@ Benzer şekilde, ürün tarafında, ürün kategorisi hiyerarşilerini kullanara
 > [!NOTE]
 > Bir ürün tanımına göre bir veya daha fazla ürün çeşidine hem dahil ediliyor hem de dışarıda bırakılıyorsa, ürün daima dışarıda bırakılmış olarak kabul edilir.
 
-![Dışarıda tutulan ürün](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure6.png?raw=true "Dışarıda tutulan ürün")
+![Hariç tutulan ürün](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Genel ve serbest bırakılan ürünler
 Ürün çeşitleri genel düzeyde tanımlanır ve birden fazla tüzel kişiliğe ait kanallar içerebilir. Ürün çeşitlerine dahil edilen ürünler ve kategoriler tüzel kişilikler arasında paylaşılır. Ancak, bir ürünün gerçekte satılabilmesi, sipariş edilebilmesi, sayılabilmesi veya kanalda alınabilmesi için serbest bırakılması gerekir (örneğin, satış noktasında\[POS\]). Bu nedenle, farklı tüzel kişiliklerdeki iki mağaza aynı ürünleri içeren bir ürün çeşidini paylaşabilmesine karşın ürünler yalnızca bu tüzel kişiliklere serbest bırakılmış olması durumunda kullanılabilir.
