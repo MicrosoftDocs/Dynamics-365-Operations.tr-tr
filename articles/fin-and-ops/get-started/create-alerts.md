@@ -3,7 +3,7 @@ title: "Uyarılar oluşturma"
 description: "Bu konu, uyarılar hakkında bilgi sağlar ve bir uyarı kuralının nasıl oluşturulacağını açıklar. Böylece, bir tarih geldiğinde veya meydana gelen belirli bir değişiklik gibi olaylar hakkında bilgilendirilirsiniz."
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 06/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -27,8 +27,6 @@ ms.lasthandoff: 03/23/2018
 # <a name="create-alerts"></a>Uyarılar oluşturma
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 ## <a name="getting-started"></a>Başlarken
 Uyarı kuralını ayarlamadan önce, ne zaman ve hangi durumlarda uyarı almak istediğinize karar verin. Hangi olay hakkında bilgilendirilmek istediğinizi bildiğinizde Microsoft Dynamics 365 for Finance and Operations'ta bu olaya neden olan verilerin göründüğü sayfayı bulun. Olay, gelecek bir tarih veya meydana gelen özel bir değişiklik olabilir. Bu nedenle, tarihin belirtildiği veya değişen alanın bulunduğu ya da oluşturulan yeni kaydın göründüğü sayfayı bulmanız gerekir. Bu bilgilere sahip olduktan sonra uyarı kuralını oluşturabilirsiniz.
