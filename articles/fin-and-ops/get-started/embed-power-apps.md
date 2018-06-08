@@ -3,7 +3,7 @@ title: "PowerApps katıştırma"
 description: "Bu konu ürün işlevselliğini artırmak için PowerApps'ın Finance and Operations istemcisine nasıl katıştırılacağını açıklar."
 author: jasongre
 manager: AnnBe
-ms.date: 04/12/2018
+ms.date: 06/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,18 +16,16 @@ ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 58b6b934c2cf65ff1f9362ce948474e374892999
+ms.sourcegitcommit: aa5eab6dbf2cc604239cac199817ead6bef6f3de
+ms.openlocfilehash: ad9fa08d22b949a61dabbb2abf5d87a612a1db7c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/08/2018
 
 ---
 
 # <a name="embed-powerapps"></a><span data-ttu-id="601c2-103">PowerApps katıştırma</span><span class="sxs-lookup"><span data-stu-id="601c2-103">Embed PowerApps</span></span>
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 <span data-ttu-id="601c2-104">Platform güncelleştirmesi 14'te, Microsoft Dynamics 365 for Finance and Operations hizmet geliştiricileri ve teknik olmayan kullanıcıların kod yazmadan mobil cihazlar, tabletler ve web için özel iş uygulamaları oluşturmasını sağlayan bir hizmet olan Microsoft PowerApps ile tümleştirmeyi destekler.</span><span class="sxs-lookup"><span data-stu-id="601c2-104">In Platform update 14, Microsoft Dynamics 365 for Finance and Operations supports integration with Microsoft PowerApps, a service for developers and non-technical users to build custom business apps for mobile devices, tablets, and the web without writing code.</span></span> <span data-ttu-id="601c2-105">Size, kuruluşunuz veya daha geniş bir ekosistem tarafından geliştirilmiş PowerApps ürün işlevselliğini artırmak amacıyla Finance and Operations istemcisine katıştırılabilir.</span><span class="sxs-lookup"><span data-stu-id="601c2-105">PowerApps developed by you, your organization, or the broader ecosystem can then be embedded in the Finance and Operations client to augment the product's functionality.</span></span> <span data-ttu-id="601c2-106">Örneğin, başka bir sistemden alınan bilgileri Finance and Operations'a eklemek için bir PowerApp oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="601c2-106">For example, you might build a PowerApp to supplement Finance and Operations with information retrieved from another system.</span></span> 
 
