@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c925b2e996f51b8c5d5332217643c3155cfc03c0
+ms.sourcegitcommit: 4c61cb81368251540e0015e155b1cc932bf7b948
+ms.openlocfilehash: 6360bbc8e5abd94cfd1c2853bc384598047eec39
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/16/2018
 
 ---
 
@@ -106,22 +106,9 @@ Aşağıdaki bölümler ülkeye/bölgeye göre kaynaklarını listeler.
 -   [Vergi ödemeleri](../../financials/localizations/latam-bra-tax-payments.md)
 -   [Vergiler](../../financials/localizations/latam-bra-calculate-taxes.md)
 
-### <a name="china"></a>Çin
--   [Ürün reçetesi karşılaştırması](../../financials/localizations/apac-chn-bom-comparison.md)
--   [Çince fişler](../../financials/localizations/apac-chn-vouchers.md)
--   [Vergi tümleştirmesini yapılandırma](../../financials/localizations/apac-chn-tax-integration.md)
-    -   [KDV müşteri faturalarıyla ilgili SSS](../../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
-    -   [Amortisman yöntemleri sabit kıymetler ](../../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md)
--   [Çin Altın Vergisi veri varlığını içe aktarma](../../financials/localizations/apac-chn-import-golden-tax-data-entity.md)
--   [Aylık ortalama maliyet modeli](../../financials/localizations/apac-chn-monthly-average-cost-model.md)
--   [Stok ana hesaplarını tesise göre deftere nakletme](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
--   [Genel muhasebe hesapları için borç ve alacak tutarlarını görüntüleme](../../financials/localizations/apac-chn-negative-debits-credits.md)
-
+### <a name="chinafinancialslocalizationschinamd"></a>[Çin](../../financials/localizations/china.md)
 ### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[Çek Cumhuriyeti](../../financials/localizations/czech-republic.md)
-
-### <a name="estonia"></a>Estonya
--   [Estonya için KDV beyanı ayrıntıları](../../financials/localizations/emea-est-vat-statement-details.md)
--   [Sabit kıymetleri elden çıkarma](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+### <a name="estoniafinancialslocalizationsestoniamd"></a>[Estonya](../../financials/localizations/estonia.md)
 
 ### <a name="europe"></a>Avrupa
 - [Avans sahipleri](../../financials/localizations/emea-advance-holders.md)
