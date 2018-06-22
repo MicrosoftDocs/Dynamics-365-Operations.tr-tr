@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2e5dd8f852ac1a6c2997a50a60f03db6adfd218c
-ms.openlocfilehash: 5500bfc1cdd1949d301ae82fad5506dfdbeb59f3
+ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
+ms.openlocfilehash: 63e0a52919e12c1f497e6809244939c6047826a7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/01/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 
@@ -72,8 +72,6 @@ Bu konu önizleme özelliklerini bir yöneticinin nasıl etkinleştirebileceğin
     > Yayınlanan işler yalnızca bir veya daha fazla LinkedIn iş listeme ürününe abone olan müşteriler tarafından görülebilir. Aksi takdirde, müşteriler yalnızca özellikle aradıkları bir işi görebilirler. İşler LinkedIn'de yayınlandığında bir gecikme olur. Bir işin Attract'tan yayınladıktan sonra görünür olması birkaç saat alabilir.
 
 - **Aday başvurusu** – Hem harici hem de dahili adaylar artık doğrudan kariyer sitesindeki iş sayfasından başvuruda bulunabilir.
-- **Değerlendirmeler** – Yapılandırılabilir işe alım işleminin bir parçası olarak, belirli bir iş için veya bir iş şablonu kullanıldığında, kullanıcılar yeni **Değerlendirme** faaliyet türüne erişebilir. Talent'taki Project: "Gauge" uygulamasını kullanarak adaylara gönderebilecekleri temel değerlendirmeler oluşturabilirler. Project: "Gauge" genel önizlemeye sunulmuştur. Gelecekte ek sağlayıcılar eklenecektir.
-- **Project: "Gauge"** – Proje: "Gauge" Talent'ta yer alan ve kullanıcılara basit değerlendirmeler veya anketler oluşturma olanağı sunan bir uygulamadır.
 - **Teklif yönetimi** – Kullanıcılar artık yer tutucular içeren şablonlardan teklif mektupları oluşturabilir. Adaylar Teklif aşamasında ilerlediğinde, işe alanlar ve işe alım müdürleri aday için şablonlar aracılığıyla bir resmi teklif hazırlamak, teklifi dahili onaylayana gönderme ve son olarak teklifi imzalanmak üzere adaya göndermek için Teklif aracını kullanabilirler. Zaman içinde Teklif aracına birçok yeni özellik eklenecektir ve önizleme için yayımlamaya hazır olduğumuzda önizleme özelliği bu özelliklerle güncelleştirilecektir.
 
 ### <a name="core-hr"></a>Temel İK
@@ -90,7 +88,7 @@ Geribildirimin pozitif veya negatif olmasına bakılmaksızın, önizleme özell
     - [Fikirleri Çekmek](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
     - [Temel İK](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
 
-Kişisel verilerinizi (sizi tanımlamaya yardımcı olabilecek bilgiler) geribildiriminize veya ürün incelemesi gönderimlerinize eklemeyin. Toplanan bilgiler daha ayrıntılı incelenebilir ve yürürlükteki gizlilik yasaları kapsamında talepleri yanıtlamak için kullanılmayacaktır. Bu programlar altında ayrı olarak toplanan kişisel veriler [Microsoft Gizlilik Bildirimi](https://privacy.microsoft.com/en-us/privacystatement)'ne tabidir.
+Kişisel verilerinizi (sizi tanımlamaya yardımcı olabilecek bilgiler) geribildiriminize veya ürün incelemesi gönderimlerinize eklemeyin. Toplanan bilgiler daha ayrıntılı incelenebilir ve yürürlükteki gizlilik yasaları kapsamında talepleri yanıtlamak için kullanılmayacaktır. Bu programlar altında ayrı olarak toplanan kişisel veriler [Microsoft Gizlilik Bildirimi](https://privacy.microsoft.com/privacystatement)'ne tabidir.
 
 > [!TIP]
 > Bu konuyu işaretleyin ve yayımladığımızda yeni önizleme özelliklerinden haberdar olmak için sık sık kontrol edin.

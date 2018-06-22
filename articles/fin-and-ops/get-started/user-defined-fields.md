@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6f0257d6a16d3d53953e1fbbf023109425fa6844
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: f2aa55ae4258f5ef81456b92278415297c194d66
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -34,10 +34,7 @@ Microsoft Dynamics 365 for Finance and Operations çok sayıda iş sürecini yö
 
 Özel alanlar ekleme yeteneği, platform güncelleştirmesi 13 ve sonraki sürümlerde kullanılabilir.
 
-Bu videoda bir sayfaya özel alan eklemenin ne kadar kolay olduğu gösterilmektedir.
-
-
-> [!Video https://www.youtube.com/embed/gWSGZI9Vtnc]
+Bu video, sayfaya özel alan eklemenin ne kadar kolay olduğunu gösteriyor: [Dynamics 365 for Finance and Operations'ta özel alanlar ekleme](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
 ## <a name="creating-custom-fields"></a>Özel alanlar oluşturma
 Uygulamada izlemek istediğiniz ek bilgileri tanımladıktan sonra ilgili tabloda özel alan oluşturabilir ve bu yeni alanı sayfa üzerinde gösterebilirsiniz.   

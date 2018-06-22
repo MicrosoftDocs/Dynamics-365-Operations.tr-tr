@@ -1,16 +1,16 @@
 ---
 title: "Kapatma yapılandırma"
-description: "Hareketlerin neden ve ne zaman kapatıldığı karmaşık konular olabilir. O yüzden, iş gereksinimlerinizi karşılayacak parametreleri doğru bir şekilde anlayıp tanımlamanız çok önemlidir. Bu makalede, hem Borç hesapları hem Alacak hesapları için kapanışta kullanılan parametreler açıklanmaktadır."
+description: "Hareketlerin neden ve ne zaman kapatıldığı karmaşık konular olabilir. O yüzden, iş gereksinimlerinizi karşılayacak parametreleri doğru bir şekilde anlayıp tanımlamanız çok önemlidir. Bu konuda, hem Borç hesapları hem Alacak hesapları için kapanışta kullanılan parametreler açıklanmaktadır."
 author: kweekley
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 05/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ed520ce3a67fab81da24b36b042152f530d75dd
+ms.sourcegitcommit: 66e2fdbf7038a2c15fb373d4f96cd6e6c4c87ea0
+ms.openlocfilehash: 1361bce94f6542112cf29e369f2238f211d0647e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 04/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Hareketlerin neden ve ne zaman kapatıldığı karmaşık konular olabilir. O yüzden, iş gereksinimlerinizi karşılayacak parametreleri doğru bir şekilde anlayıp tanımlamanız çok önemlidir. Bu makalede, hem Borç hesapları hem Alacak hesapları için kapanışta kullanılan parametreler açıklanmaktadır. 
+Hareketlerin neden ve ne zaman kapatıldığı karmaşık konular olabilir. O yüzden, iş gereksinimlerinizi karşılayacak parametreleri doğru bir şekilde anlayıp tanımlamanız çok önemlidir. Bu konuda, hem Borç hesapları hem Alacak hesapları için kapanışta kullanılan parametreler açıklanmaktadır. 
 
 Aşağıdaki parametreler, Microsoft Dynamics 365 for Finance and Operations'ta kapatmaların nasıl işleneceğini etkiler. Kapatma işlemi bir faturanın bir ödemeye veya bir alacak dekontuna karşılık kapatılmasını içerir. Bu parametreler **Alacak hesapları parametreleri** ve **Borç hesapları parametreleri** sayfalarının **Kapatma** alanında bulunur.
 
@@ -58,7 +58,14 @@ Aşağıdaki parametreler, Microsoft Dynamics 365 for Finance and Operations'ta 
 - **Kapatmaya öncelik belirle (yalnızca AR)** – Bu seçeneği **Evet** konumuna getirerek **Müşteri ödemelerini gir** ve **Hareketleri kapat** sayfalarındaki **Önceliğe göre işaretle** düğmesini etkinleştirin. Bu düğme, kullanıcıların önceden belirlenmiş kapama siparişlerini hareketlere atamalarını sağlar.  Bir harekete kapatma siparişi uygulandıktan sonra, sipariş ve ödeme tahsisatı deftere nakilden önce değiştirilebilir.
 - **Otomatik kapatmalar için öncelik kullan** – Hareketler otomatik kapatıldıklarında belirlenmiş önceliği kullanmak için bu seçeneği **Evet** olarak ayarlayın. Bu alan yalnızca **Kapanışa öncelik ver** ve **Otomatik kapanış** seçenekleri **Evet** olarak ayarlanmışsa kullanılabilir.
 
+## <a name="fixed-dimensions-on-accounts-receivableaccounts-payable-main-accounts"></a>Alacak hesapları/borç hesapları ana hesaplarında sabit boyutlar
 
+Sabit boyutlar, hesapları alacak hesapları/borç hesapları ana hesabı ek muhasebe girişlerinde kullanılır ve kapatma işlemiyle iki ek satıcı hareketi nakledilir. Kapatma, hesapları alacak hesapları/borç hesapları genel muhasebe hesabının faturadaki ve ödemedeki değerlerini karşılaştırır.  Ödeme ve kapatma birlikte tamamlandığında (tipik senaryo), ödemenin muhasebe girişi, kapatma işlemi de tamamlanana kadar Genel muhasebeye nakledilmez. İşlem olayları sırası nedeniyle, kapatma, gerçek alacak hesapları/borç hesapları genel muhasebe hesabını, ödemenin muhasebe girişinden belirleyemez. Kapatma, ödeme için genel muhasebe hesabının ne olacağını yeniden oluşturur. Alacak hesapları/borç hesapları ana hesabı için sabit bir boyut kullanıldığında bu bir sorun oluşturur.
 
+Genel muhasebe hesabını yeniden oluşturmak için, alacak hesapları/borç hesapları ana hesabı deftere nakil profilinden ve mali boyutlar, ödeme günlüğünde tanımlandığı gibi, ödeme için satıcı hareketi kaydından alınır. Sabit boyutlar ödeme günlüklerinde varsayılan yapılmaz; bunun yerine, deftere nakil işleminin son adımı olarak ana hesaba uygulanır. Sonuç olarak, sabit boyut değeri, satıcı gibi bir başka kaynaktan varsayılan olarak alınmıyorsa, büyük olasılıkla satıcı hareketinde yer almaz. Yeniden oluşturulan hesap, sabit boyutu içermeyecektir. Kapatma işlemi bir ayarlama girişi oluşturulması gerektiğini belirler çünkü sabit boyut değeriyle nakledilen fatura ve yeniden oluşturulan ödeme hesabı eşleşmemiştir.  Kapatma işlemi, ayarlama girişiyle deftere nakil işlemine geçtiği için, deftere nakilde son adım, uygulanacak sabit boyuta ilişkindir. Ayarlama girişine sabit boyut eklenerek, aynı genel muhasebe hesabına bir borç ve alacakla nakledilir. Kapatma, muhasebe girişini geri alamaz.
 
+Ek muhasebe girişlerini (aynı genel muhasebe hesabına borç ve alacak girişi) önlemek için, iş gereksinimlerinize bağlı olarak aşağıdaki geçici çözümler değerlendirilmelidir. 
+
+-   Kuruluşlar gerekli olmayan bir mali boyutu sıfırla doldurmak için sık sık sabit boyutları kullanılır. Bu genellikle alacak hesapları/borç hesapları gibi bilanço hesapları için geçerlidir. Hesap yapıları tipik olarak sıfırla doldurulmuş mali boyutları izlememek için kullanılabilir.  Bilanço hesapları için mali boyutu kaldırarak, sabit boyutları kullanma gereksinimini ortadan kaldırabilirsiniz.
+-   Kuruluşunuz alacak hesapları/borç hesapları ana hesabında sabit boyutları gerektiriyorsa, sabit boyutu ödemede varsayılan yapmanın bir yolunu bularak, sabit boyut değerinin ödeme için satıcı hareketinde depolanmasını sağlayın. Bu, sistemin, alacak hesapları/borç hesapları ana hesabını yeniden oluşturarak sabit boyutlarının dahil edilmesini sağlamaya olanak sağlayacaktır. Sabit boyut değeri ya satıcılarda veya ödeme günlüğü için günlük adında varsayılan değer olarak tanımlanabilir.
 

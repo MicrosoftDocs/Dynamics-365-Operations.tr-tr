@@ -1,9 +1,9 @@
 ---
-title: "Power BI içeriği"
-description: "Bu konuda kullanılabilir Power BI içeriği listelenmektedir ve bu konuda daha fazla bilgi edinebileceğiniz kaynaklar belirtilmektedir."
+title: "PowerBI.com çözümleri"
+description: "Bu konuda, kullanılabilir PowerBI.com çözümleri listelenmektedir ve çözümler hakkında daha fazla bilgi edinebileceğiniz kaynaklar belirtilmektedir."
 author: sericks007
 manager: AnnBe
-ms.date: 04/02/2018
+ms.date: 05/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,69 +19,49 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2473fa408ae8884b8713198debfff489ff6e6c46
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: 0aa9971226e5aa79cab85f098e098dbb789a1e2d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="power-bi-content"></a>Power BI içeriği
-[!include [banner](../includes/banner.md)]
+# <a name="powerbicom-solutions"></a>PowerBI.com çözümleri
+Dynamics 365 for Finance and Operations ortamları için aşağıdaki PowerBI.com çözümleri kullanılabilir. 
 
-Bu konuda kullanılabilir Microsoft Power BI içeriği listelenmektedir ve bu konuda daha fazla bilgi edinebileceğiniz kaynaklar belirtilmektedir.
+## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a>Lifecycle Services'dan (LCS) temin edilebilecek PowerBI.com çözümleri
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations"></a>Dynamics 365 for Finance and Operations için Power BI içeriği
-Microsoft Dynamics 365 for Finance and Operations kullanıyorsanız, aşağıdaki Power BI içeriğini kullanabilirsiniz:
-
-- [Gerçek ve bütçe karşılaştırması Power BI içeriği](ledger-budgets-power-bi.md)
-- [Avantajlar Power BI içeriği](benefits-power-bi.md)
-- [Nakde genel bakış Power BI içeriği](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
-- [CFO'ya genel bakış Power BI içeriği](CFO-power-bi.md)
-- [Ücret Power BI içeriği](compensation-power-bi.md)
-- [Maliyet muhasebesi analizi Power BI içeriği](cost-accounting-analysis-content-pack.md) 
-- [Maliyet yönetimi Power BI içeriği](cost-management-content-pack.md)    
-- [Kredi ve tahsilatlar yönetimi Power BI içeriği](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [Personel gelişimi Power BI içeriği](employee-development-PBI.md) 
-- [Mali bilgiler Power BI içeriği](financial-insights.md)
-- [Mali performans Power BI içeriği](financial-performance-power-bi-content-pack.md)
-- [Sabit kıymet yönetimi Power BI içeriği](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
-- [Öğrenme Power BI içeriği](learning-power-bi.md)
-- [Uygulama yöneticisi Power BI içeriği](practice-manager-power-bi.md)
-- [Üretim performansı Power BI içeriği](production-performance-power-bi.md)
-- [Satınalma harcaması analizi Power BI içeriği](purchase-content-pack-for-power-bi.md) 
-- [İşe alma Power BI içeriği](recruiting-analysis-power-bi-content-pack.md) 
-- [Satış ve karlılık performansı Power BI içeriği](sales-profitability-performance-content-pack.md)
-- [Satıcı ödemeleri Power BI içeriği](../../financials/accounts-payable/Vendor-payments-workspace.md)
-- [Ambar performansı Power BI içeriği](warehouse-power-bi-content.md)
-- [İşgücü ölçümleri Power BI içeriği](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-dynamics-365-for-operations-version-1611"></a>Dynamics 365 for Operations sürüm 1611 için Power BI içeriği
-Microsoft Dynamics 365 for Operations, 1611 sürümünü kullanıyorsanız, aşağıdaki Power BI içeriğini kullanabilirsiniz:
-
-- [Ücret ve kazançlar Power BI içeriği](compensation-and-benefits-analysis-power-bi-content-pack.md)   
-- [Maliyet muhasebesi analizi Power BI içeriği](cost-accounting-analysis-content-pack.md) 
-- [Kredi ve tahsilatlar yönetimi Power BI içeriği](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [Personel uzmanlıkları ve gelişim Power BI içeriği](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
-- [Mali performans Power BI içeriği](financial-performance-power-bi-content-pack.md)
-- [Kurumsal eğitim Power BI içeriği](organizational-training-analysis-power-bi-content-pack.md) 
-- [Uygulama yöneticisi Power BI içeriği](practice-manager-power-bi.md)
-- [Üretim performansı Power BI içeriği](production-performance-power-bi.md)
-- [Satınalma harcaması analizi Power BI içeriği](purchase-content-pack-for-power-bi.md) 
-- [İşe alma Power BI içeriği](recruiting-analysis-power-bi-content-pack.md) 
-- [Satış ve karlılık performansı Power BI içeriği](sales-profitability-performance-content-pack.md)
-- [Ambar performansı Power BI içeriği](warehouse-power-bi-content.md)
-- [İşgücü ölçümleri Power BI içeriği](workforce-analysis-power-bi-content-pack.md)  
-
-## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>Microsoft Dynamics AX için Power BI içeriği
-Microsoft Dynamics AX 7.0 veya Microsoft Dynamics AX 7.0.1 kullanıyorsanız, aşağıdaki Power BI içeriğini kullanabilirsiniz:
+LCS'nin Paylaşılan varlıklar kitaplığında aşağıdaki PowerBI.com çözümleri mevcuttur. Ortamınıza uygun sürümü indirmek için, Paylaşılan varlıklar kitaplığındaki sürüm bilgilerine bakın. 
 
 > [!Note]
-> Bu içerik paketleri [PowerBI.com'da yayımlanan Power BI içerik paketleri](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom) bölümünde belirtildiği üzere kullanım dışı bırakılmıştır.
+> Aşağıdaki listede yer alan PowerBI.com çözümlerinin çoğu, Dynamics 365 for Finance and Operations'ın en son sürümlerindeki analitik çalışma alanlarına katıştırılmıştır. Analitik çalışma alanlarının kullanımı sayesinde, bu çözümlerin LCS'deki Paylaşılan varlıklar kitaplığından indirilmesine gerek kalmaz. Bu listedeki konular, PowerBI.com çözümlerinin Finance and Operations'ta nereye katıştırıldığını ve nerede kullanılabileceklerini göstermektedir. 
 
-- [Maliyet yönetimi Power BI içeriği](cost-management-content-pack.md)    
-- [Mali performans Power BI içeriği](financial-performance-power-bi-content-pack.md)
-- [Perakende kanalı performansı Power BI içeriği](retail-channel-performance-dashboard-power-bi-data.md) 
+- [Fiili-bütçe karşılaştırması](ledger-budgets-power-bi.md)
+- [Nakde genel bakış](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
+- [Ücret ve kazançlar](compensation-and-benefits-analysis-power-bi-content-pack.md)   
+- [Maliyet muhasebesi analizi](cost-accounting-analysis-content-pack.md) 
+- [Alacak ve tahsilat yönetimi](../../financials/accounts-receivable/credit-collections-power-bi.md)
+- [Personel uzmanlıkları ve gelişimi](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
+- [Mali performans](financial-performance-power-bi-content-pack.md)
+- [Sabit kıymet yönetimi](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
+- [Kurumsal eğitim](organizational-training-analysis-power-bi-content-pack.md) 
+- [Uygulama yöneticisi](practice-manager-power-bi.md)
+- [Üretim performansı](production-performance-power-bi.md)
+- [Satınalma ve harcama analizi](purchase-content-pack-for-power-bi.md) 
+- [İşe alma](recruiting-analysis-power-bi-content-pack.md)
+- [Satış ve karlılık performansı](sales-profitability-performance-content-pack.md)
+- [Satıcı ödemeleri](../../financials/accounts-payable/Vendor-payments-workspace.md)
+- [Ambar performansı](warehouse-power-bi-content.md)
+- [İş gücü ölçümleri](workforce-analysis-power-bi-content-pack.md)  
 
+## <a name="powerbicom-solutions-available-from-appsource"></a>AppSource'tan temin edilebilen PowerBI.com çözümleri
 
+Aşağıdaki PowerBI.com çözümleri [Microsoft AppSource](https://appsource.microsoft.com)'tan temin edilebilir.
+
+> [!Note]
+> Bu çözümler, [AppSource'da bulunan Power BI içerik paketleri](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource) başlıklı konuda belirtildiği üzere, kullanım dışı bırakılmıştır.
+
+- Maliyet yönetimi    
+- [Mali performans](financial-performance-power-bi-content-pack.md)
+- [Perakende kanalı performansı ](retail-channel-performance-dashboard-power-bi-data.md) 
 
