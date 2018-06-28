@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: da48a9eef118a7a369343c986e4b67f53266f7e1
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: 4de2ac36ec13f95c7603d097a0800b317014bbd0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/22/2018
 
 ---
 
@@ -121,6 +121,9 @@ Serbest metin faturası satış siparişiyle ilişkili bir fatura değildir. Gen
 
 Proforma fatura, fatura deftere nakledilmeden önce gerçek fatura tutarının bir tahmini olarak hazırlanan faturadır. Müşteri faturası veya serbest metin faturası için bir proforma fatura yazdırabilirsiniz.
 
+### <a name="additional-resources"></a>Ek kaynaklar
 
+#### <a name="blogs"></a>Bloglar
 
+[Dynamics 365 for Finance and Operations'ta satış nasıl işler?](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations) başlıklı yazıda satış sürecine ilişkin bir genel bakış bulabilirsiniz.
 

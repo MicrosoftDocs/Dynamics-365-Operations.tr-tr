@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: 933d9755085d507310dd46d96a492d2124647ec3
+ms.sourcegitcommit: 8914723f6ef436bfc9e3a98cc82d5486042b0761
+ms.openlocfilehash: 250b7caa1e1495140d0d4f688ecae4acb8814467
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/07/2018
 
 ---
 
@@ -158,7 +158,7 @@ Aşağıdaki tabloda hizmet satılarına ilişkin çeşitli birleşimlere genel 
     - **Ürün satırı:** Tahmini miktar = 5ea, Kullanılan miktar = 6ea, Satır durumu = Kullanıldı, Tahsis edilen = Evet
     - **Hizmet satırı:** Tahmini miktar= 2 s, Kullanılan miktar = 1,5 s, Satır durumu = Kullanıldı
 
-    Bu örnekte, ürünün **6** olan **kullanılan miktar** değeri ve hizmetin **1,5s** olan **Tahmini Miktar** değeri Finance and Operations ile eşitlenir.
+    Bu örnekte, ürünün **6** olan **kullanılan miktar** değeri ve hizmetin **1,5s** olan **Kullanılan Miktar** değeri Finance and Operations ile eşitlenir.
 
 ## <a name="sales-order-origin-and-status"></a>Satış siparişi kaynağı ve durumu
 

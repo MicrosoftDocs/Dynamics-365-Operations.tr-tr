@@ -1,28 +1,28 @@
 ---
 title: "Servis yönetimi"
 description: "Servis Yönetimini servis sözleşmeleri ve servis abonelikleri ayarlamak, servis siparişlerini ve müşteri sorgularını işlemek ve servislerin müşterilere teslimini yönetmek ve incelemek için kullanın."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 05/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMAServiceOrderTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
-ms.openlocfilehash: 236ab21b2d1c5a4e82270e5381d163e97437cb7f
+ms.sourcegitcommit: 80a3cb74279f72e8cb94f3a2c38230f409067a47
+ms.openlocfilehash: 89035687d87c674cca7fa5fd3126100c4c0ad892
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/24/2018
 
 ---
 
@@ -44,7 +44,7 @@ Bir müşterinin tesisine servis teknisyeni tarafından yapılan zamanlanmış v
 
 4.  Onarım veya hizmet ile ilişkili tüm gider ve masraflar
 
-Enterprise Portal kullanarak müşteriler internet üzerinden servis istekleri gönderebilir. Bu talepleri alabilir, işleyebilir ve dağıtabilirsiniz. Bir servis siparişi oluşturduktan sonra ilerlemeyi izlemek için servis aşamalarını kullanabilir ve her aşamada hangi eylemlerin etkinleştirileceğini denetleyen kurallar belirleyebilirsiniz. Bir servis siparişi tamamlandıktan sonra tamamlandığından emin olmak için siparişte oturumu kapatıp fatura işlemini başlatmak üzere sipariş gönderebilirsiniz.
+Servis taleplerini alabilir, işleyebilir ve dağıtabilirsiniz. Bir servis siparişi oluşturduktan sonra ilerlemeyi izlemek için servis aşamalarını kullanabilir ve her aşamada hangi eylemlerin etkinleştirileceğini denetleyen kurallar belirleyebilirsiniz. Bir servis siparişi tamamlandıktan sonra tamamlandığından emin olmak için siparişte oturumu kapatıp fatura işlemini başlatmak üzere sipariş gönderebilirsiniz.
 
 Servis siparişi marjlarını ve abonelik hareketlerini izlemek için raporlama araçlarını kullanın ve iş açıklamaları ile iş girişlerini yazdırın.
 
@@ -56,47 +56,19 @@ Aşağıdaki şemada **Servis yönetimi** için üst düzey iş süreçleri ve s
 
 ## <a name="service-management-at-a-glance"></a>Bir bakışta servis yönetimi
 
-<table>
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Önemli görevler</p></th>
-<th><p>Birincil formlar</p></th>
-<th><p>Sık kullanılan raporlar</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Servis sözleşmelerini karşılama</a></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/aa617823(v=ax.60)">Servis anlaşmaları (form)</a></p></td>
-<td><p><strong>Servis siparişi sınırı</strong></p></td>
-</tr>
-<tr class="even">
-<td><p>Müşteri sorgularını işle</a></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/aa554361(v=ax.60)">Servis siparişleri (form)</a></p></td>
-<td><p><strong>İş açıklaması</strong></p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/hh242789(v=ax.60)">Gönderme panosu (form)</a></p></td>
-<td><p><strong>Hareket - abonelik</strong></p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p></p></td>
-<td><p><strong>Abonelik ücreti hareketleri</strong></p></td>
-</tr>
-</tbody>
-</table>
+|Önemli görevler           | Birincil sayfalar                         |Sık kullanılan raporlar              |
+|--------------------------|---------------------------------------|-----------------------------|
+|Servis sözleşmelerini karşılama|Servis sözleşmeleri                     |Servis siparişi sınırı         |
+|Müşteri sorgularını işle |Servis siparişleri                         |İş açıklaması             |
+|                          |Gönderme panosu                         |Hareket - abonelik   |
+|                          |                                       |Abonelik ücreti hareketleri|
 
 
 ## <a name="integration-of-service-management"></a>Servis yönetimi tümleştirmesi
 
-Servis yönetimi Microsoft Dynamics 365 for Finance and Operations'daki şu modüllerle tümleştirilebilir:
+Servis yönetimi aşağıdaki modüllerle tümleştirilebilir:
 
   - [Satış ve pazarlama](../sales-marketing/overview-sales-marketing.md)
-
   - [İnsan kaynakları](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/index)
 
   

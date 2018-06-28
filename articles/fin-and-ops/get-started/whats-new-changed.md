@@ -3,7 +3,7 @@ title: "Yeni veya değişenler nedir"
 description: "Bu sayfa Microsoft Dynamics 365 for Finance and Operations'ın son sürümlerindeki yeni özellikler hakkında bilgi almanıza yardımcı olabilecek konulara sizi yönlendirir."
 author: josaw1
 manager: AnnBe
-ms.date: 03/25/2018
+ms.date: 05/14/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f49c5157294f615b134c9ea0f00b93f70d59f527
+ms.sourcegitcommit: aa5eab6dbf2cc604239cac199817ead6bef6f3de
+ms.openlocfilehash: 8a6ea271270fd854110a8548ab92cc4ef975ad0a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
 
 ---
 
@@ -128,13 +128,13 @@ En son sürüme yükseltme hakkında bilgi için bkz. [En son güncelleştirmeye
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü</td>
 <td>Platform güncelleştirmesi 15</td>
-<td>7.0.4839</td>
-<td>Platform güncelleştirmesi 15 hedeflenmiş bir sürümdür; başka bir deyişle bu sürüm Haziran 2018'de tüm kullanıcıların kullanımına sunulacaktır.</td>
+<td>7.0.4841</td>
+<td>Mart 2018</td>
 <td><a href="whats-new-platform-update-15.md">Dynamics 365 for Finance and Operations, Enterprise edition platform güncelleştirmesi 15'teki (Mart 2018) yenilikler ve değiştirilenler</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise sürümü</td>
 <td>Platform güncelleştirmesi 12</td>
-<td>7.0.4841</td>
+<td>7.0.4709</td>
 <td>Kasım 2017</td>
 <td><a href="whats-new-platform-update-12.md">Dynamics 365 for Finance and Operations, Enterprise edition platform güncelleştirmesi 12'deki (Kasım 2017) yenilikler ve değiştirilenler</a></td>
 <tbody><tr class="odd">

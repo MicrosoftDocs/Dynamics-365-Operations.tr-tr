@@ -1,9 +1,9 @@
 ---
 title: "Sahtekarlık uyarıları ayarla"
-description: "Bu konu, siparişler işlendiğinde, müşteri hizmetleri temsilcilerini sahte olması olası bilgilere karşı uyarmak için kuralların nasıl ayarlanacağını açıklar. Siparişleri otomatik olarak veya el ile beklemeye almak için kullanılacak belirli kodlar tanımlayabilirsiniz."
+description: "Bu konu, siparişler işlendiğinde, müşteri hizmetleri temsilcilerini sahte olması olası bilgilere karşı uyarmak için kuralların nasıl ayarlanacağını açıklar. Siparişleri otomatik olarak veya el ile beklemeye almak için kullanılan belirli kodlar tanımlayabilirsiniz."
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 05/14/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,33 +20,53 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f57cdb44d5ed3b078478cf47b74d1a79ba10323c
+ms.sourcegitcommit: 6e4f89d86b64e0c8c76c15d3c2c1c00af353e9ca
+ms.openlocfilehash: 2534e687623ab750f349287a762a354bc0fcf12b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/17/2018
 
 ---
 
-# <a name="set-up-fraud-alerts"></a>Sahtekarlık uyarılarını ayarlama
+# <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Çağrı merkezi sahtekarlık uyarılarını ayarlama ve bu uyarılarla çalışma
 
 [!include [banner](includes/banner.md)]
 
-Bu konuda, potansiyel sahte satış siparişlerini daha fazla incelenmek üzere beklemeye almak için nasıl ölçütler ve kurallar ayarlayacağınız açıklanmaktadır. Sahtekarlık inceleme işlevi, bir satış siparişindeki bilgilerin geçerliliğini belirlemek için kullanılır. Satış siparişindeki bilgiler kuruluşun sahtekarlık ölçütlerine ve kurallarına göre şüpheli görünüyorsa, sipariş yönetici tarafından incelenmek üzere beklemeye alınabilir.
+Bu konuda, potansiyel sahte satış siparişlerini daha fazla incelemek üzere beklemeye almak için nasıl ölçütler ve kurallar ayarlayacağınız açıklanmaktadır. Sahte veri denetimi özelliği, bir satış siparişindeki bilgilerin geçerliliğini belirlemek için kullanılır. Satış siparişindeki bilgiler kuruluşun sahtekarlık ölçütlerine ve kurallarına göre şüpheli görünüyorsa, sipariş incelenmek üzere beklemeye alınabilir. Bu durumda, sipariş, bekleme kaldırılana kadar, işlemlerine devam edilmesi için ambara serbest bırakılamaz.
 
 > [!NOTE]
-> Bu özellik yalnızca Retail Çağrı Merkezi kanalı satış siparişi işleme işlemlerinde kullanılabilir. 
+> Bu özellik yalnızca Perakende çağrı merkezi kanalı için satış siparişi işlemiyle birlikte kullanılabilir.
 
-Çağrı Merkezi kanalı tanımlandığında, **Sipariş Tamamlamayı Etkinleştir** **Evet** olarak ayarlanmalıdır. Sipariş tamamlama etkinleştirildiğinde, kullanıcılar sipariş özetini görüntüleyebilir ve siparişi tamamlamak için **Gönder**'e tıklayabilir. Kullanıcılara ayrıca satış siparişini sahtekarlık incelemesine el ile gönderme seçeneği de sunulur. Bir Çağrı Merkezi kullanıcısı tarafından girilen satıl siparişleri, gönderme sırasında sahtekarlık denetimi kuralları ve ölçütlerine göre işlenir.
+## <a name="turning-on-the-fraud-check-feature"></a>Sahte veri denetimi özelliğini etkinleştirme
 
-Siparişin sahtekarlık incelemesi için beklemeye alınıp alınmayacağını belirlemek üzere sistemin başvuracağı iki tür sahtekarlık ölçütü bulunur:
+Sahte veri denetimi özelliğini kullanmak için, çağrı merkezi kanalı [tanımlanırken](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/set-up-order-processing-options) kanaldaki **Sipariş tamamlamayı etkinleştir** seçeneğini **Evet** yapmanız gerekir. Sipariş tamamlama etkin durumdayken, çağrı merkezi kullanıcıları, oluşturulan tüm satış siparişleri için satış siparişi sayfasında **Tamamla**'yı seçmelidir. Tamamlama eylemi, **Satış siparişi özeti** sayfasının açılmasına neden olur. Kullanıcılar gerekli ödeme verilerini **Satış siparişi özeti** sayfasına girdikten sonra **Gönder**'i seçerek siparişi tamamlarlar. Sipariş gönderilince sahte veri denetimi özelliği tetiklenir ve sistemdeki etkin kuralların tümü otomatik olarak doğrulanır.
 
--   **Statik kurallar**, kara listeye alınan bir telefon numarası veya daha önce sahtekarlık hareketleri için kullanıldığı bilinen e-posta adresi gibi statik bir değer kullanır. **Statik Sahtekarlık Verisi** sayfasında, sahtekarlık bilgileri el ile veya veri aktarma yoluyla eklenebilir ve puanlar sahtekarlık bilgilerine iliştirilir. Sahtekarlık denetimi açık olduğunda, girilen her satış siparişi statik veriyle karşılaştırılır. Veriler müşterinin faturalama veya sevkiyat adresinde bulunursa veya veri satış satırındaki teslimat adresinde bulunursa, tüm benzersiz eşleşmelerin puanları toplanır.  
--   **Dinamik kurallar** değişkenlerden ve bu değişkenler için tanımlanan koşullardan oluşur. Dinamik kurallarla, statik kurallarında tanımlanmayan başka ölçütler denetlenebilir. Daha karmaşık "VE/VEYA" ifadeleri, kural ölçütüyle olumlu eşleşme olup olmadığını ve satış siparişinin gönderilip gönderilmeyeceğini belirlemek üzere birden fazla koşulu değerlendirmek amacıyla kullanılabilir. Örneğin, bir kullanıcı belirli bir müşteri grubu değerine bağlı olan ve belirli bir ürünü sipariş eden müşterilerin tüm siparişlerini sahtekarlık incelemesine sokmak isterse, müşteriyi doğrulama ve ürünleri doğrulama koşulları **Kurallar** sayfasında "VE" koşuluyla birlikte tanımlanabilir. Sipariş, yalnızca her iki koşulun da doğru olması ve kurala atanan puan değerinin siparişin toplam sahtekarlık puanını Çağrı Merkezi parametrelerinde tanımlanan minimum sahtekarlık puanı üzerine çıkarması durumunda sahtekarlık incelemesine alınır.
+Çağrı merkezi kullanıcıları **Gönder**'i seçmeden önce satış siparişlerini sahtekarlık incelemesi için el ile de beklemeye alabilirler. Satış siparişini el ile beklemeye almak için, **Satış siparişi özeti** sayfasında **Durduruldu**\> **El ile sahte tutma**'yı seçin. Bunun ardından, siparişi beklemeye alma nedeninizi açıklayan bir yorum girmeniz istenir. Bu yorum [sipariş tutmalar](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-order-holds) workbench'inde görünerek, siparişin serbest bırakılıp bırakılmayacağını belirlemek üzere beklemedeki siparişleri inceleyen kullanıcıya bilgi verir.
 
-Bir çağrı merkezi kullanıcısı bir siparişi el ile sahtekarlık inceleme kuyruğuna yerleştirebilir. Siparişi giren kullanıcı siparişi veren müşterinin şüpheli olabileceğini düşünmesi ve sipariş işlenmeden önce bir başkası tarafından geçerliliğinin incelenmesini istemesi durumunda, siparişi giren kullanıcı **Satış Siparişi Özeti** sayfasındaki **Beklemeye alınanlar** açılır menüsünden **El İle Sahtekarlık İncelemesine alma** seçeneğini seçebilir (bu, **Tamamla** sipariş işlevi çağrıldıktan sonra görüntülenir). Kullanıcıdan, inceleyecek olan kişiye bağlam sağlaması için siparişin neden sahte olabileceğini düşündüğüne ilişkin açıklama girmesi istenecektir.
+Kanalda **Sipariş tamamlamayı etkinleştir** seçeneğini yapılandırmaya ek olarak, Çağrı merkezi parametrelerinde sahte veri denetimi özelliğini yapılandırmanız gerekir. **Perakende** \> **Kanal kurulumu** \> **Çağrı merkezi kurulumu** \> **Çağrı merkezi parametreleri**'ne gidin. **Çağrı merkezi parametreleri** sayfasındaki **Beklemeye alınanlar** sekmesinde **Sahte veri denetimi** seçeneğini **Evet** yapın.
 
-El ile sahtekarlık nedeniyle tutma yoluyla veya sistematik sahtekarlık puanı hesaplaması tarafından beklemeye alınan tüm siparişler **Sipariş Tutma** sayfasında görüntülenir; bu sayfada sipariş gözden geçirilip iptal edilebilir veya işleme devam edilmesi için serbest bırakılabilir.
+**Beklemeye alınanlar** sekmesinde, sahte veri incelemesi için beklemeye el ile veya otomatik olarak alınan siparişe uygulanacak [tutma kodlarını](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-order-holds) da tanımlamanız gerekir. **El ile sahte tutma kodu** ve **Sahte tutma kodu** alanlarında tutma kodlarını ayarlayın. Beklemeye alınanlar workbench'inde çalışan kullanıcıların kolaylıkla filtre uygulayarak otomatik tutmaları el ile tutmalardan ayırt edebilmelerini sağlamak için iki benzersiz tutma kodu oluşturmayı yararlı bulabilirsiniz.
+
+Sahte veri denetimi özelliğinin etkin bir şekilde çalışması için **Minimum puan** alanını da ayarlamanız gerekir. Sistemde tanımlı her sahtekarlık ölçütünün ve kuralının birer puanı vardır. Bir satış siparişi sahte veri eşleme denetimine girince bir veya daha fazla eşleşme bulunduğu takdirde puanlar toplanarak toplam sahte veri puanını verir. Bir siparişin toplam sahte veri puanı **Minimum puan** alanındaki değeri aşarsa, sipariş otomatik olarak bekleme durumuna alınır. İsterseniz, **Beklemeye alınanlar** sekmesinde puanla ilgili diğer alanları kullanarak, e-posta puanı, telefon puanı, posta kod puanı ve genişletilmiş posta kodu puanı tanımlayabilirsiniz. **Statik sahte veri** sayfasında tanımladığınız statik sahtekarlık ölçütlerinden herhangi biri için, tanımlama sırasında puan belirtmezseniz, sistem, **Çağrı merkezi parametreleri** sayfasının **Beklemeye alınanlar** sekmesinde belirttiğiniz varsayılan puanları kullanarak bunlara puan verecektir.
+
+Son olarak, kullanıcılar bir siparişi sahte veri incelemesi amacıyla el ile beklemeye aldıklarında yorum girerken kullanılması gereken belge türünü belirtmek için **Sahte yorum türü** alanını kullanın. Çoğu zaman bu alan ayarı **Not** yapılır.
+
+## <a name="defining-fraud-criteria-and-rules"></a>Sahtekarlık ölçütlerini ve kurallarını tanımlama
+
+Sistem, bir siparişin sahte veri incelemesi amacıyla beklemeye alınması gerekip gerekmediğini belirlemek için iki tür sahtekarlık ölçütüne başvurur.
+
+- **Statik sahte veri**, engellenmiş numaralar listesine koyulmuş bir telefon numarası veya daha önce sahte işlemlerde kullanıldığı bilindiği için işaretlenmiş e-posta adresi gibi özel bir değer kullanır. Statik sahte verilerin ayarını yapmak için **Perakende** \> **Kanal kurulumu** \> **Çağrı merkezi ayarı** \> **Sahte** \> **Statik sahte veri**'ye gidin. **Statik sahte veri** sayfasında, sahtekarlık ölçütlerini el ile veya verileri içe aktararak ekleyebilirsiniz. Puanlar sahtekarlık bilgilerine eklenir. Sahte veri denetimi özelliği etkinse, girilen her satış siparişi, statik verilerle karşılaştırılır. Veriler müşterinin sipariş üst bilgisine bağlı faturalama adresinde veya teslimat adresinde bulunamazsa ya da satış siparişindeki satırlardan herhangi biriyle bağlantılı teslimat adresinde bulunursa, tüm benzersiz eşleşmelerin puanları toplanır ve siparişin beklemeye alınıp alınmayacağını belirlemek için **Minimum puan** değeriyle karşılaştırılır.
+- **Sahtekarlık kuralları** kullanıcı tanımlı değişkenlerden ve bu değişkenler için tanımlanmış koşullardan oluşur. Kuralları oluşturmak için **Perakende** \> **Kanal kurulumu** \> **Çağrı merkezi ayarı** \> **Sahte** \> **Kurallar**'a gidin. Sahtekarlık kuralları, bir şirketin, birden fazla koşulu değerlendirmek için **VE** ya da **VEYA** deyimlerini içerebilen daha karmaşık kural kümesi yapılandırabilmesine olanak sağlar. Örneğin, bir kullanıcı belirli bir müşteri grubuna dahil olan ve belirli bir ürün sipariş etmiş müşterilere ilişkin tüm siparişleri sahte veri incelemesi amacıyla beklemeye almak istiyor. Bu durumda, müşteriyi ve ürünleri doğrulayacak koşullar **Kurallar** sayfasında bir VE koşulu kullanılarak tanımlanır. Bunun ardından, ancak her iki koşul doğru olduğu ve bu kurala atanan puan değeriyle, varsa, siparişin eşleştiği diğer kuralların puan değerlerinin toplamı, siparişin toplam sahtekarlık puanının **Çağrı merkezi parametreleri** sayfasındaki **Minimum puan** değerini aşmasına neden olduğu takdirde sipariş beklemeye alınır.
 
 > [!NOTE]
-> Birden fazla kuralın veya fazla karmaşık kuralların kullanılması, satış siparişleri gönderilirken sistem performansının düşmesine neden olur. Sahtekarlık uyarısı özelliği, büyük hacimli statik sahtekarlık verilerini ve çok fazla etkin kuralı işlemek üzere optimize edilmemiştir. Her kuralın, çağrı merkezi satış siparişi girişindeki gönder işlevi sırasında değerlendirildiğini unutmamanız önemlidir. Kurallar satış siparişi başlıklarında ve tüm sipariş satırlarında değerlendirilir. Ne kadar fazla ve ne kadar karmaşık kural olursa, işlem o kadar uzun sürecektir. Siparişinizde çok sayıda satır maddesi ve çok sayıda etkin kurak ile statik veri girişi varsa, sistematik veri inceleme ve doğrulama işlemi ile sahtekarlık puanını hesaplama işlevinin performans üzerindeki etkisi o kadar büyük olur.  Bu özelliği kullanan kuruluşların, kurallarda veya statik sahtekarlık ölçütünde değişiklik yapmadan önce daima sipariş gönderme işlemi süresinin kabul edilebilir olduğunu üretim ortamında test etmesi ve onaylaması gerekir.
+> Çok sayıda kural veya fazla karmaşık kurallar, satış siparişleri gönderilirken sistem performansını olumsuz etkiler. Sahte veri denetimi özelliği, büyük hacimli statik sahtekarlık verilerini ve çok fazla etkin kuralı işleyecek şekilde optimize edilmemiştir. Çağrı merkezi kullanıcıları satış siparişi girişi sırasında **Gönder**'i seçtiği zaman her kuralın değerlendirileceğini unutmayın. Kurallar satış siparişi başlıklarında ve tüm sipariş satırlarında değerlendirilir. Ne kadar çok kural olursa o kadar karmaşık kural deyimi olacak ve dolayısıyla işlem o kadar uzun sürecektir. Siparişte çok sayıda satır maddesi ve çok sayıda etkin kural ile statik veri girişi varsa, tüm verilerin otomatik olarak incelenip doğrulanması ve sahtekarlık puanının hesaplanması performansa ciddi şekilde olumsuz etkide bulunabilir. Bu özelliği kullanan kuruluşların, kurallarda veya statik sahtekarlık ölçütünde değişiklik yapmadan önce daima sipariş gönderme işlemi süresinin kabul edilebilir olduğunu üretim ortamında test etmesi ve onaylaması gerekir.
+
+## <a name="identifying-orders-that-are-on-hold-for-fraud-review"></a>Sahte veri incelemesi için beklemeye alınmış siparişleri belirleme
+
+Çağrı merkezi kullanıcıları bir satış siparişi gönderirken sipariş sahtekarlık ölçütleriyle veya kurallarıyla eşleşirse ve puan minimum değeri aşarsa, kullanıcılar, siparişin beklemeye alındığını bildiren bir uyarı iletisi alır. Kullanıcılar, yalnızca bilgi amaçlı olduğundan, bu iletiyi kapatabilir. Kullanıcılar isteğe bağlı olarak bu bilgileri müşteriye iletebilir. İşletme, bu durumda kullanıcıların izleyeceği protokolü belirlemelidir.
+
+Sipariş kaydedilir ancak üzerine **İşleme** bayrağı koyulur. Bu bayrak, siparişin ambara serbest bırakılmamasını garantilemeye yardımcı olur. Kullanıcılar istedikleri zaman bir satış siparişinin **İşleme** bayrağı ayarını **Ayrntılı durum** sayfasında görüntüleyebilirler. Bu sayfa**Tüm satış siparişi** ve **Müşteri hizmeti** sayfalarından açılabilir. Sistem, ayrıca, siparişin **Ayrıntılı durum** alanının değerini **Sahte tutma**'ya güncelleştirebilir.
+
+Sahte veri incelemesi için beklemeye alınmış siparişleri görüntülemek ve yönetmek için **Perakende** \> **Müşteriler** \> **Sipariş tutmalar**'a gidin. Tutma nedeni hakkında bilgiler içeren daha ayrıntılı bir görünümü görmek için **Sipariş tutmalar** sayfasında, listeden bir giriş seçin ve ardından **Sipariş tutma**'ya tıklayın. **Sahtekarlık ayrıntıları** hızlı sekmesinde, sipariş için bir eşleşme olduğu saptanan sistematik sahtekarlık ölçütlerini ve uygulanan puanları görüntüleyebilirsiniz. Sipariş el ile tutulursa, siparişi beklemeye alan kullanıcının girdiği yorumları, **Notlar** hızlı sekmesindeki **Sahtecilik notları** bölümüne bakarak inceleyebilirsiniz.
+
+Tutma emirleriyle nasıl çalışılacağı hakkında daha fazla bilgi için bkz. [Sipariş tutmalar](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-order-holds).
 

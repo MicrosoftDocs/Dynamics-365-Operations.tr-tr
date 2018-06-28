@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 03a932652cdd93b2a5917d0fca72809d1648b678
-ms.openlocfilehash: b1acf0b64914a3199fcf44f8377e32b26f0af99e
+ms.sourcegitcommit: a57e23691a6b4d48c6b8dd6d1f61fc9730365b39
+ms.openlocfilehash: 0c1268d2fddcf7b28ecfc3197f21e9d30a5a5855
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/25/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 
@@ -44,11 +44,9 @@ Field Service ile Finance and Operations arasındaki tümleştirmenin birinci a�
 - [Field Service'taki iş emirleri ile Finance and Operations'taki satış siparişleri](field-service-work-order.md)
 - [Field Service'taki faturalar ile Finance and Operations'taki serbest metin faturaları](field-service-invoice.md)
 
-Bir iş emrini Field Service ile Finance and Operations arasında nasıl eşitleyebileceğinize ilişkin bir örnek için şu kısa YouTube videosunu izleyin:
+Bir iş emrini Field Service ile Finance and Operations arasında nasıl eşitleyeceğinize ilişkin bir örnek görmek için YouTube'daki kısa videoyu izleyin: [Dynamics 365 for Field Service ile Finance and Operations arasında bir iş emrini eşitleme](https://www.youtube.com/watch?v=hAB4TDVMjxU).
 
-> [!Video https://www.youtube.com/embed/hAB4TDVMjxU]
-
-[Field Service ile Finance and Operations arasında bir iş emrini eşitleme (YouTube videosu)](https://youtu.be/hAB4TDVMjxU)
+[![](https://img.youtube.com/vi/hAB4TDVMjxU/0.jpg)](https://www.youtube.com/watch?v=hAB4TDVMjxU)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Finance and Operations için sistem gereksinimleri
 Field Service tümleştirmesi aşağıdaki sürümleri destekler:

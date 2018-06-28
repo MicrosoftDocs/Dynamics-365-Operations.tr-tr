@@ -28,6 +28,7 @@ ms.lasthandoff: 05/08/2018
 
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Ambar yönetimini Microsoft Dynamics AX 2012'den Finance and Operations'a yükseltme
 
+
 [!include [banner](../includes/banner.md)]
 
 Bu konu, WMSII modülü çalıştıran Microsoft Dynamics AX 2012 R3'ü Microsoft Dynamics 365 for Finance and Operations'a yükseltme işlemine genel bir bakış sağlar.

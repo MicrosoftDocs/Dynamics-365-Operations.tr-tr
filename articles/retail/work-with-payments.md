@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fe8dd3136f14e182e261a4dce57eef0b1946d304
+ms.sourcegitcommit: d709a7f0e087178c0961c268a78a9206ea656bbc
+ms.openlocfilehash: ca32e74b8b9f35dd9a1a48f942766bce98c5ea4b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 
@@ -41,8 +41,8 @@ Bir ödeme yöntemi oluşturduğunuzda, atayabileceğiniz beş ödeme yöntemi i
 
 | İşlev            | Tanım |
 |---------------------|-------------|
-| Normal              | Nakit veya fiş gibi ödeme yöntemleri tanımlarken ödeme yönteminizde **Normal** işlevini kullanın. Bu tür ödemeler çağrı merkezindeki bir satış siparişine uygulandığında, müşteri hesabında hemen ön ödemeler olarak deftere nakledilir. Ön ödeme fişi müşterinin hareket geçmişinde deftere nakledilir ve burada faturalar oluşturulduğunda satış siparişi faturasına karşı sistematik olarak kapatılacaktır. |
-| Denetle               | Ödeme yöntemi olarak bir banka çeki tanımladığınızda **Çek** işlevini kullanın. Bir satış siparişine bu ödeme türü uygulandığında, kullanıcının ödeme uygulama işleminin bir parçası olarak müşterinin çek numarasını girmesi gerekir. Çek ödemeleri uygulandıklarında daima ön ödeme olarak kabul edilir. **Normal** ödeme işlevinde, bu ön ödeme fişleri sistematik olarak sipariş için oluşturulan faturalara karşı kapatılır. |
+| Normal              | Nakit veya fiş gibi ödeme yöntemleri tanımlarken ödeme yönteminizde **Normal** işlevini kullanın. Çağrı merkezinde bir satış siparişine bu ödeme türleri uygulandığı zaman **Ön ödeme** işareti **Evet** varsayılan değerini alır.  Bu sipariş gönderildiğinde bu müşteri hesabına hemen bir ön ödeme fişi nakleder. Fatura deftere nakledilene kadar ödeme fişi oluşturulmamasını isteyen kullanıcılar **Ön ödeme** işaretini **Hayır**'a çevirebilirler.  Ön ödeme fişi müşterinin hareket geçmişinde deftere nakledilir ve burada satış siparişi faturasına karşı sistematik olarak kapatılır. |
+| Denetle               | Ödeme yöntemi olarak bir banka çeki tanımladığınızda **Çek** işlevini kullanın. Bir satış siparişine bu ödeme türü uygulandığında, kullanıcının ödeme uygulama işleminin bir parçası olarak müşterinin çek numarasını girmesi gerekir. Çek ödemeleri uygulandığı zaman mutlaka ön ödeme olarak işlem görür ve sipariş gönderildikten hemen sonra ödeme fişleri oluşturulur. Bu ön ödeme fişleri sistematik olarak sipariş için oluşturulan faturalara karşı kapatılır. |
 | Kartlar               | Kart ödeme türleri müşterinin ödeme kartı üzerinde tanımlanmış olan bir kart numarasının girilmesini gerektiren herhangi bir ödeme türünü temsil eder. Hediye kartları ve kredi kartları örnek olarak verilebilir. Bu tür ödemeleri yapılandırırken bu ödeme yöntemiyle ilişkilendirilen kart kodlarını tanımlamak için **Kart kurulumu** menüsünü kullanmanız gerekir. Siparişi girerken kullanıcılar kart ödemesinin ön ödeme mi olacağını ödeme girişi sayfasında görüntülenen **Ön ödeme** seçeneğini kullanarak belirtebilir. İşletme ön ödemeleri gerekli kılmadığı sürece, gerçek kredi kartı ödemesinin tipik akışı iki adımlı bir süreçtir; sipariş girişi sırasında yetki alınır ve ardından ödeme kapatılır ve faturalama sırasında müşterinin kartından tahsil edilir. Hediye kartı ödemeleri için, hediye kartı bakiyesinin hemen düşülerek müşterinin aynı değeri başka yerde uygulamasını önlemek gerekli olduğundan, ön ödeme önerilir. |
 | Müşteri            | Bir ödeme yöntemindeki **Müşteri** işlevi ödemenin müşterinin kredi limitine uygulanacağı veya "açık hesaba" konulacağı anlamına gelir Retail'de, bir müşteriye sipariş girişi sırasında doğrulanabilen bir kredi limiti atanabilir. **Müşteri** işlevine bağlı bir ödeme yöntemi kullanılarak yapılan ödemeler müşteri hesabına karşı bir borç oluşturur. Satış siparişi faturalandığında, borç bakiyesi gösterilir. Bu durumlarda, müşteriler verilen koşullara göre tipik olarak bir ödeme gönderir. Alternatif olarak, müşteri hesabında daha önceden açılmış olan bir kredi fişi vadesi gelen bakiyeyi kapatmak için uygulanabilir. Bu ödeme yöntemini tanımlamış olsanız bile, **Hesap üzerinde izin ver** bayrağı üzerinde çalıştığınız müşteri için müşteri kaydında ayarlanmadıkça, çağrı merkezi sipariş girişi ödeme seçenekleri arasında görünmez. Bu bayrak müşteri kaydının **Ödeme varsayılanları** sekmesinde bulunur. |
 | Ödeme Kaldırma/Kaydırma | **Ödeme Kaldırma/Kaydırma** işlevi çağrı merkezi tarafından kullanılmaz. Bu yalnızca satış noktası (POS) uygulamasının mağaza kanalında kullandığı ödeme yöntemlerini tanımladığınızda kullanılır. |

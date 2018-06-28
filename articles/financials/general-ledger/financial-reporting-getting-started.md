@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fecdca72839ef8ce204b62db6e02e8fa809a30d5
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: 613fcf941576b9fb05f5c059699e4cc9c4cabe3e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -117,12 +117,9 @@ Finansal raporlama 22 varsayılan mali rapor sağlar. Her rapor, Finance and Ope
 ## <a name="creating-and-modifying-financial-reports"></a>Mali raporları oluşturma ve değiştirme
 Finansal raporlar listesinden yeni bir rapor oluşturabilir veya varolan bir raporu değiştirebilirsiniz. Uygun izinlere sahipseniz, Eylem Bölmesinde **Yeni** üzerine tıklayarak yeni bir mali rapor oluşturabilirsiniz. Bir rapor tasarımcısı programı cihazınıza indirilir. Rapor tasarımcısı çalıştıktan sonra, yeni raporu oluşturabilirsiniz. Yeni raporu kaydettikten sonra, mali raporlar listesinde görünür. Liste yalnızca Finance and Operations'da kullanmakta olduğunuz şirket için oluşturulan raporları gösterir. Mali raporları Finance and Operations içerisinde oluşturma ve değiştirme süreci hakkında daha fazla bilgi için, bkz. Dynamics mali raporlama blogundaki şu [blog postaları](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/). **Not:** Rapor tasarımcısı istemcisini indirdiğiniz bilgisayarın Microsoft .Net Framework'ün 4.6.2 sürümüne sahip olması gerekir. Microsoft .NET Framework'ün bu sürümünü [buradan](https://www.microsoft.com/en-us/download/details.aspx?id=53345) indirebilir ve kurabilirsiniz. Chrome kullanıyorsanız, rapor tasarımcısı istemcisini indirebilmek için ClickOnce eklentisini yüklemeniz gerekir. İncognito modunda kullanıyorsanız, ClickOnce eklentisinin incognito modu için etkin olduğundan emin olun. Ayrıca mali rapor listesinde görünen bir raporu değiştirebilirsiniz. Rapor adı etrafındaki alan seçildiğinde, Eylem Bölmesinden **Düzenleme** tıklatın. Rapor tasarımcısı programı başlar.
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
-
-[Mali raporları görüntüleme](view-financial-reports.md)
-
-[Dynamics Mali Raporlama blogu](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+## <a name="additional-resources"></a>Ek kaynaklar
+- [Mali raporları görüntüleme](view-financial-reports.md)
+- [Dynamics Mali Raporlama blogu](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

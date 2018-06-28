@@ -1,0 +1,1403 @@
+- name: Dynamics 365 for Finance and Operations için geliştirme ve yönetim
+  href: index.md
+- name: Bulut dağıtımları için sistem gereksinimleri
+  href: ../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json
+- name: Şirket içi dağıtımlar için sistem gereksinimleri
+  href: ../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json
+- name: Tanıtım verileri
+  href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
+  items:
+    - name: Paketler ile tanıtım verileri oluşturma
+      href: data-entities/generate-demo-data-packages.md
+- name: Visual Studio kullanarak geliştirme ve özelleştirme
+  href: dev-tools/developer-home-page.md
+  items:
+    - name: Uygulama yığını ve sunucu mimarisi
+      href: dev-tools/application-stack-server-architecture.md
+    - name: Değerlendirme kopyası alma
+      href: dev-tools/get-evaluation-copy.md
+    - name: Bir aboneliğe kaydolma
+      href: dev-tools/sign-up-preview-subscription.md
+    - name: Bir geliştirme ortamını dağıtma ve ortama erişme
+      href: dev-tools/access-instances.md
+      items:
+        - name: Geliştirici VM'si yapılandırma
+          href: dev-tools/configure-developer-vm.md
+        - name: Bir geliştirme makinesinde yeni kullanıcı oluşturma
+          href: dev-tools/enable-development-machine.md
+        - name: Yönetici erişimine izin vermeyen VM'lerde geliştirme ve oluşturmaya ilişkin SSS
+          href: sysadmin/VMs-no-admin-access.md
+        - name: Visual Studio Team Services'a erişim sağlamak için yerel bir ortamı yeniden adlandırma
+          href: migration-upgrade/vso-machine-renaming.md
+        - name: Geliştirme sistemi gereksinimleri
+          href: dev-tools/development-system-requirements.md
+    - name: 'Sürüm denetimi, meta veri arama ve gezinme'
+      href: dev-tools/version-control-metadata-navigation.md
+    - name: Filo Yönetimi örnek uygulaması
+      items:
+        - name: Filo Yönetimi örnek uygulaması
+          href: dev-tools/fleet-management-sample.md
+        - name: Filo Yönetimi örnek uygulamasına genel bakış
+          href: dev-tools/introduction-fleet-management-sample.md
+    - name: Visual Studio araçları
+      items:
+        - name: Geliştirme araçlarına genel bakış
+          href: dev-tools/development-tools-overview.md
+        - name: Geliştirme araçları eğitimi
+          href: dev-tools/introduction-visual-studio.md
+        - name: Uygulama Gezgini
+          href: dev-tools/application-explorer.md
+        - name: Proje oluşturma ve hatalarını ayıklama
+          href: dev-tools/build-debug-project.md
+        - name: Oluşturma işlemleri
+          href: dev-tools/build-operations.md
+        - name: Kod düzenleyici
+          href: dev-tools/code-editor.md
+        - name: Model ve veri modeli öğeleri oluşturma
+          href: dev-tools/create-data-model-elements.md
+          items:
+            - name: Adlandırma yönergeleri
+              href: extensibility/NamingGuidelines.md
+            - name: Model özelleştirmeyi kapatma ve işlevi kaldırma
+              href: dev-tools/lock-models.md
+        - name: Özelleştirme Analizi Raporu
+          href: dev-tools/customization-analysis-report.md
+        - name: Öğe tasarımcıları
+          href: dev-tools/element-designers.md
+        - name: Öğe kullanımı
+          href: dev-tools/element-usage.md
+        - name: Model dışa ve içe aktarma
+          href: dev-tools/models-export-import.md
+        - name: Visual Studio'da meta veri arama
+          href: dev-tools/metadata-search-visual-studio.md
+        - name: Modeller
+          href: dev-tools/models.md
+        - name: Dynamics 365 for Finance and Operations'da Projeler
+          href: dev-tools/projects.md
+        - name: Visual Studio araç eklentileri
+          href: dev-tools/developer-tools-add-ins.md
+        - name: Visual Studio geliştirme araçlarını güncelleştirme
+          href: dev-tools/update-development-tools.md
+    - name: X++ programlama dili
+      items:
+        - name: 'X++ ve hata ayıklayıcı özellikleri  '
+          href: dev-tools/new-x-debugger-features.md
+        - name: Bir üretim veritabanı kopyası karşısında X++ hatalarını ayıklama
+          href: dev-tools/debug-x-issue-against-copy-of-production.md
+        - name: X++ kodu hatalarını ayıklama
+          href: dev-tools/debug-xpp.md
+        - name: İstek ve yanıt senaryolarında EventHandlerResult sınıfları
+          href: dev-tools/event-handler-result-class.md
+        - name: 'C\# ve X++ kaynak kodu kullanarak iş mantığı yazma'
+          href: dev-tools/write-business-logic.md
+        - name: Programlama dili desteği
+          href: dev-tools/programming-language-support.md
+        - name: 'C\# için LINQ sağlayıcısı'
+          href: dev-tools/linq-provider-c.md
+        - name: En iyi yazma uygulamaları
+          href: dev-tools/author-best-practice-rules.md
+        - name: Uygulama Gezgini özellikleri
+          href: dev-ref/application-explorer-aot-properties.md
+        - name: X++ dil referansı
+          items:
+            - name: X++ dil referansı
+              href: dev-ref/xpp-language-reference.md
+            - name: X++ değişkenleri ve veri türleri
+              href: dev-ref/xpp-variables-data-types.md
+            - name: 'X++ ifadeleri, döngüler ve özel durumları ele alma'
+              href: dev-ref/xpp-statements-loops.md
+            - name: X++ işleçleri
+              href: dev-ref/xpp-operators.md
+            - name: X++ işleci önceliği
+              href: dev-ref/xpp-operator-precedence.md
+            - name: X++ sınıfları ve yöntemleri
+              href: dev-ref/xpp-classes-methods.md
+            - name: X++ verilerini seçme ve değiştirme
+              href: dev-ref/xpp-data-query.md
+            - name: X++ makroları
+              href: dev-ref/xpp-macros.md
+            - name: X++ öznitelik sınıfları
+              href: dev-ref/xpp-attribute-classes.md
+            - name: 'X++ ve C\# karşılaştırması'
+              href: dev-ref/xpp-cs-comparison.md
+            - name: X++ söz dizimi
+              href: dev-ref/xpp-syntax.md
+    - name: 'API, sınıf ve tablo referansı'
+      href: dev-ref/api-reference.md
+      items:
+        - name: X++ derleme zamanı işlevleri
+          href: dev-ref/xpp-compile-time-functions.md
+        - name: X++ çalıştırma zamanı işlevleri
+          href: dev-ref/xpp-run-time-functions.md
+          items:
+            - name: X++ iş çalıştırma zamanı işlevleri
+              href: dev-ref/xpp-business-run-time-functions.md
+            - name: X++ konteyner çalıştırma zamanı işlevleri
+              href: dev-ref/xpp-container-run-time-functions.md
+            - name: X++ dönüştürme çalıştırma zamanı işlevleri
+              href: dev-ref/xpp-conversion-run-time-functions.md
+            - name: X++ tarih çalıştırma zamanı işlevleri
+              href: dev-ref/xpp-date-run-time-functions.md
+            - name: X++ matematik çalıştırma zamanı işlevleri
+              href: dev-ref/xpp-math-run-time-functions.md
+            - name: X++ yansıtma çalıştırma zamanı işlevleri
+              href: dev-ref/xpp-reflection-run-time-functions.md
+            - name: X++ oturum çalıştırma zamanı işlevleri
+              href: dev-ref/xpp-session-run-time-functions.md
+            - name: X++ dize çalıştırma zamanı işlevleri
+              href: dev-ref/xpp-string-run-time-functions.md
+        - name: Sistem tabloları
+          href: dev-ref/system-tables.md
+        - name: Sistem sınıfları
+          items:
+            - name: A Sınıfları
+              href: dev-ref/a-classes.md
+            - name: B Sınıfları
+              href: dev-ref/b-classes.md
+            - name: C Sınıfları
+              href: dev-ref/c-classes.md
+            - name: D Sınıfları
+              href: dev-ref/d-classes.md
+            - name: E Sınıfları
+              href: dev-ref/e-classes.md
+            - name: 'F Sınıfları: FieldBinding-FormBuildAnimateControl'
+              href: dev-ref/fieldbinding-classes.md
+            - name: 'F Sınıfları: FormBuildButtonControl-FormBuildFastTabSummarySeparator'
+              href: dev-ref/formbuildbuttoncontrol-classes.md
+            - name: 'F Sınıfları: FormBuildFilterPaneControl-FormBuildRealControl'
+              href: dev-ref/formbuildfilterpanecontrol-classes.md
+            - name: 'F Sınıfları: FormBuildReferenceControl-FormButtonSeparatorControl'
+              href: dev-ref/formbuildreferencecontrol-classes.md
+            - name: 'F Sınıfları: FormChangeTracker-FormControlEventArgs'
+              href: dev-ref/formchangetracker-classes.md
+            - name: 'F Sınıfları: FormDataObject-FormFastTabHeaderControl'
+              href: dev-ref/formdataobject-classes.md
+            - name: 'F Sınıfları: FormFastTabSummarySeparator-FormGridControl'
+              href: dev-ref/formfasttabsummaryseparator-classes.md
+            - name: 'F Sınıfları: FormGroupControl-FormIntControl'
+              href: dev-ref/formgroupcontrol-classes.md
+            - name: 'F Sınıfları: FormListBoxControl-FormNotifyEventArgs'
+              href: dev-ref/formlistboxcontrol-classes.md
+            - name: 'F Sınıfları: FormObject-FormRealControl'
+              href: dev-ref/formobject-classes.md
+            - name: 'F Sınıfları: FormReferenceControl-FormStringControl'
+              href: dev-ref/formreferencecontrol-classes.md
+            - name: 'F Sınıfları: FormTabControl-FormWindowControl'
+              href: dev-ref/formtabcontrol-classes.md
+            - name: G Sınıfları
+              href: dev-ref/g-classes.md
+            - name: H Sınıfları
+              href: dev-ref/h-classes.md
+            - name: I Sınıfları
+              href: dev-ref/i-classes.md
+            - name: J Sınıfları
+              href: dev-ref/j-classes.md
+            - name: K Sınıfları
+              href: dev-ref/k-classes.md
+            - name: L Sınıfları
+              href: dev-ref/l-classes.md
+            - name: M Sınıfları
+              href: dev-ref/m-classes.md
+            - name: N Sınıfları
+              href: dev-ref/n-classes.md
+            - name: O Sınıfları
+              href: dev-ref/o-classes.md
+            - name: P Sınıfları
+              href: dev-ref/p-classes.md
+            - name: Q Sınıfları
+              href: dev-ref/q-classes.md
+            - name: R Sınıfları
+              href: dev-ref/r-classes.md
+            - name: S Sınıfları
+              href: dev-ref/s-classes.md
+            - name: T Sınıfları
+              href: dev-ref/t-classes.md
+            - name: U Sınıfları
+              href: dev-ref/u-classes.md
+            - name: V Sınıfları
+              href: dev-ref/v-classes.md
+            - name: W Sınıfları
+              href: dev-ref/w-classes.md
+            - name: X Sınıfları
+              href: dev-ref/x-classes.md
+    - name: Genişletilebilirlik
+      href: extensibility/extensibility-home-page.md
+      items:
+        - name: Giriş ve çalışmaya başlama
+          items:
+            - name: Uygulama genişletilebilirliği planları
+              href: extensibility/extensibility-roadmap.md
+            - name: Genişletilebilirlik gereksinimleri
+              href: extensibility/extensibility-requests.md
+            - name: SSS
+              href: extensibility/app-sealing-faq.md
+            - name: Katmanlamadan uzantılara geçirme
+              href: extensibility/migrate-overlayer-extension.md
+            - name: Uzantıları kullanarak model öğelerini özelleştirme (eğitim)
+              href: extensibility/customize-model-elements-extensions.md
+            - name: 'Özelleştirme: katmanlama ve uzantılar'
+              href: extensibility/customization-overlayering-extensions.md
+        - name: Yenilikler
+          items:
+            - name: Genişletilebilirlik değişiklikleri Temmuz 2017
+              href: extensibility/changes-july-2017.md
+            - name: Genişletilebilirlik değişiklikleri sürüm 7.3
+              href: extensibility/extensibility-changes-73.md
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.0
+              href: extensibility/changes-80.md
+        - name: Temel bilgiler
+          items:
+            - name: Kullanışsız özelleştirmeler
+              href: extensibility/intrusive-customizations.md
+            - name: Sınıf uzantıları
+              href: extensibility/class-extensions.md
+            - name: 'Sınıf uzantısı: Yöntem kaydırma ve Komut Zinciri'
+              href: extensibility/method-wrapping-coc.md
+            - name: Adlandırma yönergeleri
+              href: extensibility/naming-guidelines-extensions.md
+            - name: Katmanlamanın uzantılarda yeniden düzenlenmesini sağlamak için model kısıtlamalarını hafifletme
+              href: extensibility/refactoring-over-layering.md
+        - name: Nasıl yaparım?
+          items:
+            - name: Numaralandırma değeri ekleme
+              href: extensibility/add-enum-value.md
+            - name: Genişletilmiş veri türünü değiştirme
+              href: extensibility/modify-edt.md
+            - name: Fabrika yöntemleri için alt sınıf kaydetme
+              href: extensibility/register-subclass-factory-methods.md
+            - name: EventHandlerResult ile yanıtlama
+              href: extensibility/respond-event-handler-result.md
+            - name: RunBase sınıfını genişletme
+              href: extensibility/extend-runbase-class.md
+            - name: Uygulama başlangıcını özelleştirmek için temsilcileri kullanma
+              href: extensibility/startup-customizations.md
+            - name: Tabloda mevcut bir alanı değiştirme
+              href: extensibility/modify-existing-field.md
+            - name: Mevcut bir tabloya yeni alan ekleme
+              href: extensibility/add-field-extension.md
+            - name: Mevcut bir tabloya dizin ekleme
+              href: extensibility/add-index.md
+            - name: Mevcut bir tabloya ilişki ekleme
+              href: extensibility/add-relation.md
+            - name: Mevcut bir tabloda özellikleri değiştirme
+              href: extensibility/modify-properties.md
+            - name: Tabloya yöntem ekleme
+              href: extensibility/add-method-table.md
+            - name: Tablo kaydının iş ömrü boyunca iş eylemleri gerçekleştirme
+              href: extensibility/subscribe-table-events.md
+            - name: Forma yeni bir veri kaynağı ekleme
+              href: extensibility/add-datasource.md
+            - name: Formda başlığı değiştirme
+              href: extensibility/change-caption-form.md
+            - name: Form denetim özelliklerini değiştirme
+              href: extensibility/modify-control-properties.md
+            - name: Etiketi değiştirme
+              href: extensibility/change-label.md
+            - name: Numara sırası kapsamını genişletme
+              href: extensibility/extend-number-sequence-scope.md
+            - name: Yeni bir stok boyutu ekleme
+              href: extensibility/inventory-dimensions.md
+            - name: Fiyat ve iskonto genişletilebilirliğinde yapılan değişiklikler
+              href: extensibility/pricing-app73.md
+            - name: Tablo eşlemesi uzantısı
+              href: extensibility/map-extensions.md
+            - name: Arabirim olarak kullanılan tablo eşlemelerini genişletme
+              href: extensibility/maps-as-interfaces.md
+            - name: Sürüm oluşturma için kullanılan tablo eşlemelerini genişletme
+              href: extensibility/maps-with-versioning.md
+    - name: Performans
+      items:
+        - name: İzleme ayrıştırıcıyı kullanarak izleme yapma
+          href: perf-test/trace-trace-tutorial.md
+        - name: Visual Studio Team Services ile PerfSDK ve çoklu kullanıcı testi
+          href: perf-test/perfsdk-tutorial.md
+        - name: İzleme ayrıştırıcı kullanarak sorunları tanılama ve performans sorunlarını analiz etme
+          href: perf-test/trace-parser.md
+        - name: Performans zamanlayıcısı
+          href: perf-test/performance-timer.md
+    - name: Visual Studio'da test desteği
+      items:
+        - name: Test ve doğrulamalar
+          href: perf-test/testing-validation.md
+        - name: Visual Studio'da test projeleri
+          href: perf-test/testing-support.md
+        - name: Sürekli oluşturma ve test otomasyonuyla dağıtma
+          href: perf-test/continuous-build-test-automation.md
+    - name: Tarih etkililiği
+      href: dev-tools/date-effectivity.md
+    - name: ISV lisanslaması
+      href: dev-tools/isv-licensing.md
+    - name: Şirket içinde ISV lisanslaması
+      href: dev-tools/isv-licensing-on-prem.md
+- name: Kullanıcı arabirimi geliştirme
+  href: user-interface/user-interface-development-home-page.md
+  items:
+    - name: Eğitimler
+      items:
+        - name: Kira Masrafı Türü formu oluşturma
+          href: user-interface/build-rental-charge-type-form.md
+        - name: Müşteri formunu oluşturma
+          href: user-interface/build-customer-form.md
+        - name: Gezinti oluşturma
+          href: user-interface/build-navigation.md
+        - name: Çalışma alanı oluşturma
+          href: user-interface/build-workspace.md
+    - name: Formlar
+      items:
+        - name: Dynamics 365 for Finance and Operations'da Gezinme
+          href: user-interface/page-navigation.md
+        - name: Dynamics 365 for Finance and Operations'da Düzen
+          href: user-interface/page-layout.md
+        - name: Simge yazı tipi
+          href: user-interface/symbol-font.md
+        - name: Özel modellere sahip test formları
+          href: user-interface/testing-forms-custom-patterns.md
+        - name: Derin bağlantılar oluşturma ve kullanma
+          href: user-interface/create-deep-links.md
+        - name: 'Formlar, ürünler ve kontrollerde erişilebilirlik'
+          href: user-interface/enable-accessibility.md
+        - name: Yardım alanını özelleştirme
+          href: user-interface/customize-field-help.md
+    - name: Kontroller
+      items:
+        - name: Eylem kontrolleri
+          href: user-interface/action-controls.md
+        - name: Giriş kontrolleri ve ızgara sütunu boyutları
+          href: user-interface/sizing-input-controls-grid-columns.md
+        - name: Ağaç kontrollerinde onay kutusu desteği
+          href: user-interface/check-box-tree-controls.md
+        - name: Filtreler
+          href: user-interface/filtering.md
+        - name: PowerApps Ana Bilgisayar kontrolü
+          href: user-interface/powerapps-host-control.md
+    - name: Pencere yönetimi
+      items:
+        - name: Bağlam menüsü kodunu taşıma
+          href: migration-upgrade/code-migration-context-menus.md
+        - name: Geçiş fareyle çift tıklama kodu
+          href: migration-upgrade/code-migration-double-click.md
+        - name: Aramalar için bağlamsal veri girişi
+          href: user-interface/contextual-data-entry-lookups.md
+        - name: HierarchyViewer kontrolü
+          href: user-interface/hierarchy-viewer-control.md
+        - name: Arama kontrolleri
+          href: user-interface/lookups-controls.md
+        - name: Dosya yükleme kontrolleri
+          href: user-interface/file-upload-control.md
+        - name: Sistem tanımlı düğmeler
+          href: user-interface/system-defined-buttons.md
+        - name: Resimler
+          href: user-interface/images-form-grid.md
+        - name: 'Giriş, tablo ve ızgara kontrolleri için yazı tipi ve arka plan renkleri'
+          href: user-interface/specify-color-font-background-controls.md
+        - name: Sağdan sola dil desteği ve çift yönlü metin
+          href: user-interface/bidirectional-support.md
+        - name: Çalışma alanı kutucukları için simgeler oluşturma
+          href: user-interface/create-icons-workspace-tiles.md
+        - name: Genişletilebilir kontroller - Genel JavaScript API'ları
+          href: user-interface/public-javascript-apis.md
+        - name: Kontrol listesi
+          href: user-interface/control-checklist.md
+    - name: İletiler
+      items:
+        - name: Kaydırıcı ve İleti Kutusu
+          href: user-interface/slider-messagebox.md
+        - name: 'İleti merkezi, ileti çubuğu ve ileti ayrıntıları API''sı'
+          href: user-interface/messaging-api-center-bar-details.md
+        - name: 'İleti merkezi, ileti çubuğu ve ileti ayrıntıları FAQ''sı'
+          href: user-interface/messaging-user.md
+    - name: Birincil form modeli kuralları
+      items:
+        - name: Form modeli seçme
+          href: user-interface/select-form-pattern.md
+        - name: Form tarzları ve modelleri
+          href: user-interface/form-styles-patterns.md
+        - name: Form modeli eklentileri
+          href: user-interface/form-pattern-add-ins.md
+    - name: Form modelleri
+      items:
+        - name: Genel form kuralları
+          href: user-interface/general-form-guidelines.md
+        - name: Ayrıntılar Ana formu modeli
+          href: user-interface/details-master-form-pattern.md
+        - name: Ayrıntılar İşlem formu modeli
+          href: user-interface/details-transaction-form-pattern.md
+        - name: Form Bölümü Kısım Listesi form modeli
+          href: user-interface/section-list-form-pattern.md
+        - name: Liste Sayfası form modeli
+          href: user-interface/list-page-form-pattern.md
+        - name: Basit Ayrıntılar formu modeli
+          href: user-interface/simple-details-form-pattern.md
+        - name: Basit Liste ve Ayrıntılar formu modeli
+          href: user-interface/simple-list-details-form-pattern.md
+        - name: Basit Liste formu modeli
+          href: user-interface/simple-list-form-pattern.md
+        - name: İçindekiler formu modeli
+          href: user-interface/table-of-contents-form-pattern.md
+        - name: Görev Çift formu modeli
+          href: user-interface/task-double-form-pattern.md
+        - name: Görev Tek formu modeli
+          href: user-interface/task-single-form-pattern.md
+        - name: Sihirbaz formu modeli
+          href: user-interface/wizard-form-pattern.md
+        - name: Çalışma alanı form modeli
+          href: user-interface/workspace-form-pattern.md
+    - name: İkincil form modelleri
+      items:
+        - name: Gelişmiş seçim formu modeli
+          href: user-interface/advanced-selection-form-pattern.md
+        - name: İletişim kutusu formu modeli
+          href: user-interface/dialog-form-pattern.md
+        - name: Açılan İletişim Kutusu formu modeli
+          href: user-interface/drop-dialog-form-pattern.md
+        - name: Form modeli arama
+          href: user-interface/lookup-form-pattern.md
+        - name: FactBox formu modeli
+          href: user-interface/factbox-form-patterns.md
+    - name: Alt modeller
+      items:
+        - name: Özel Filtre Grubu alt modeli
+          href: user-interface/custom-filter-group-subpattern.md
+        - name: Boyut giriş kontrolü alt modeli
+          href: financial/dimension-entry-control-subpattern.md
+        - name: Boyut İfadesi Oluşturucusu alt modeli
+          href: financial/dimension-expression-builder-subpattern.md
+        - name: Alanlar ve Alan Grupları alt modeli
+          href: user-interface/fields-field-groups-subpattern.md
+        - name: Filtreler ve Araç Çubuğu alt modelleri
+          href: user-interface/filters-toolbar-subpattern.md
+        - name: Metin alt modelini doldurma
+          href: user-interface/fill-text-subpattern.md
+        - name: Yatay Alanlar ve Düğme Grubu alt modeli
+          href: user-interface/horizontal-fields-buttons-group-subpattern.md
+        - name: Resim Önizleme alt modeli
+          href: user-interface/image-preview-subpattern.md
+        - name: Liste Paneli alt modeli
+          href: user-interface/list-panel-subpattern.md
+        - name: İç İçe Geçmiş Basit Liste ve Ayrıntılar alt modeli
+          href: user-interface/nested-simple-list-details-subpattern.md
+        - name: Bölüm Tablosu form modeli
+          href: user-interface/section-chart-form-pattern.md
+        - name: Bölüm Power BI alt modeli
+          href: user-interface/section-powerbi-subpattern.md
+        - name: Bölüm İlgili Bağlantılar alt modeli
+          href: user-interface/section-related-links-subpattern.md
+        - name: Bölüm Yığılmış Tablo alt modeli
+          href: user-interface/section-stacked-chart-subpattern.md
+        - name: Bölüm Sekmeli Liste alt modeli
+          href: user-interface/section-tabbed-list-subpattern.md
+        - name: Bölüm Kutucuklar alt modeli
+          href: user-interface/section-tiles-subpattern.md
+        - name: Tablo Halindeki Alanlar alt modeli
+          href: user-interface/tabular-fields-subpattern.md
+        - name: Araç Çubuğu ve Alanlar alt modeli
+          href: user-interface/toolbar-fields-subpattern.md
+        - name: Araç Çubuğu ve Liste alt modeli
+          href: user-interface/toolbar-list-subpattern.md
+        - name: Çalışma Alanı Sayfası Filtre Grubu alt modeli
+          href: user-interface/workspace-filter-group-subpattern.md
+    - name: Kontrol genişletilebilirliği
+      items:
+        - name: Genişletilebilir kontrol oluşturma
+          href: user-interface/build-extensible-control.md
+        - name: Genişletilebilir kontrollerin klavye kısayolları
+          href: user-interface/keyboard-shortcuts-controls.md
+        - name: Genişletilebilir kontrol programlama referansı
+          href: user-interface/extensible-control-programming-reference.md
+        - name: Kontrol genişletilebilirliği
+          href: user-interface/control-extensibility.md
+        - name: Yerelleştirilebilir etiketler oluşturma
+          href: user-interface/create-localizable-labels-client.md
+        - name: Genişletilebilir kontrol düzeni kuralları
+          href: user-interface/extensible-controls-layout.md
+        - name: Görev Kaydedici'nin bir kontrol için oluşturduğu metni kontrol etme
+          href: user-interface/task-recorder-control-text.md
+    - name: Çalışma alanları oluşturma
+      items:
+        - name: Operasyonel çalışma alanları oluşturma
+          href: user-interface/build-workspaces.md
+        - name: Çalışma alanları için kutucuk ve liste önbelleğe alma
+          href: user-interface/tile-list-caching-workspaces.md
+    - name: Görev Kaydedici
+      href: user-interface/task-recorder.md
+      items:
+        - name: Görev Kaydedici hızlı referansı
+          href: user-interface/task-recorder-quick-reference.md
+        - name: Görev Kaydedici kullanarak belgeler veya eğitim oluşturma
+          href: user-interface/task-recorder-training-docs.md
+- name: Mobil platform
+  href: mobile-apps/platform/mobile-platform-home-page.md
+  items:
+    - name: Başlarken
+      href: mobile-apps/platform/mobile-platform-getting-started.md
+      items:
+        - name: Mimari
+          href: mobile-apps/platform/mobile-platform-architecture.md
+        - name: İş mantığı olaylarına genel bakış
+          href: mobile-apps/platform/business-logic-events-overview.md
+        - name: Sayfa tasarımı yönergeleri
+          href: mobile-apps/platform/page-design-guidelines.md
+        - name: Eylem tasarımı yönergeleri
+          href: mobile-apps/platform/action-design-guidelines.md
+        - name: Form tasarımı gereksinimleri
+          href: mobile-apps/platform/form-design-requirements.md
+    - name: Yaygın görevler
+      items:
+        - name: SysAppWorkspace sınıfını kullanarak bir çalışma alanı yapılandırma
+          href: mobile-apps/platform/scenarios/mobile-workspace-configuration.md
+        - name: Alanın görüntüsünü tıklanabilir olacak şekilde özelleştirme
+          href: mobile-apps/platform/scenarios/make-workspace-field-clickable.md
+        - name: Sayımı bir alanda görüntüleme
+          href: mobile-apps/platform/scenarios/display-count-workspace.md
+        - name: Mobil uygulama çalışma alanının güvenliğini sağlama
+          href: mobile-apps/platform/scenarios/secure-mobile-workspace.md
+        - name: Sunucudaki çalışma alanlarını yerelleştirme
+          href: mobile-apps/platform/scenarios/localize-workspaces-on-server.md
+        - name: Çalışma alanı sınıflarını kullanarak bir alanı zorunlu hale getirme
+          href: mobile-apps/platform/scenarios/make-field-mandatory.md
+    - name: Sunucu tarafı geliştirme başvurusu
+      items:
+        - name: Sunucu tarafı geliştirme (çalışma alanı X++ API'ları)
+          href: mobile-apps/platform/mobile-workspace-server-apis.md
+    - name: İstemci tarafı geliştirme başvurusu
+      items:
+        - name: İstemci tarafı tasarım API'larına genel bakış
+          href: mobile-apps/platform/scenarios/client-api-design-overview.md
+        - name: İstemci API'ları
+          href: mobile-apps/platform/client-apis/client-apis-reference.md
+          items:
+            - name: PageState numaralandırması
+              href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
+            - name: Uygulama modülü
+              href: mobile-apps/platform/client-apis/modules/services-application.md
+            - name: Erteleme modülü
+              href: mobile-apps/platform/client-apis/modules/defer.md
+            - name: Olay modülü
+              href: mobile-apps/platform/client-apis/modules/event-ievent.md
+            - name: Denetim modülü
+              href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md
+            - name: Konteyner modülü
+              href: mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md
+            - name: Alan modülü
+              href: mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md
+            - name: Dosya Yükleyici modülü
+              href: mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader.md
+            - name: Grup modülü
+              href: mobile-apps/platform/client-apis/modules/view-model-control-group-igroup.md
+            - name: Köprü modülü
+              href: mobile-apps/platform/client-apis/modules/view-model-control-hyperlink-ihyperlink.md
+            - name: Görüntü modülü
+              href: mobile-apps/platform/client-apis/modules/view-model-control-image-iimage.md
+            - name: Giriş modülü
+              href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-iinputcontrol.md
+            - name: Liste modülü
+              href: mobile-apps/platform/client-apis/modules/view-model-control-list-ilist.md
+            - name: Arama modülü
+              href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-ilookup.md
+            - name: Çoklu Arama modülü
+              href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md
+            - name: Sayfa modülü
+              href: mobile-apps/platform/client-apis/modules/view-model-ipage.md
+            - name: Pagelink modülü
+              href: mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md
+            - name: Bölüm modülü
+              href: mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md
+            - name: Hizmetler modülü
+              href: mobile-apps/platform/client-apis/modules/services-business-logic-services.md
+            - name: Değer modülü
+              href: mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md
+            - name: Uygulama Türü
+              href: mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md
+            - name: ApplicationMetadata Türü
+              href: mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md
+            - name: AsyncService Türü
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-iasyncservice.md
+            - name: CacheService Türü
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-icacheservice.md
+            - name: CompleteEventArgs Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-icompleteeventargs.md
+            - name: ContainerControl Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrol.md
+            - name: ContainerControlDesign Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontroldesign.md
+            - name: ContainerControlMetadata Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrolmetadata.md
+            - name: ControlMetadata Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md
+            - name: DataService Türü
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md
+            - name: Deferred Türü
+              href: mobile-apps/platform/client-apis/interfaces/defer-ideferred.md
+            - name: Design Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md
+            - name: EventHook Türü
+              href: mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md
+            - name: Field Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md
+            - name: FieldDesign Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign.md
+            - name: FieldMetadata Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifieldmetadata.md
+            - name: FileUploader Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploader.md
+            - name: FileUploaderDesign Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploaderdesign.md
+            - name: FileUploaderMetadata Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata.md
+            - name: GenericValue Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md
+            - name: getDataSource
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md
+            - name: Group Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md
+            - name: GroupDesign Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign.md
+            - name: GroupMetadata Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupmetadata.md
+            - name: HyperLink Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlink.md
+            - name: HyperLinkDesign Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign.md
+            - name: HyperLinkMetadata Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata.md
+            - name: Image Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage.md
+            - name: ImageDesign Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign.md
+            - name: ImageMetadata Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagemetadata.md
+            - name: InputControl Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrol.md
+            - name: InputControlDesign Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign.md
+            - name: InputControlMetadata Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata.md
+            - name: List Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist.md
+            - name: ListDesign Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign.md
+            - name: ListMetadata Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata.md
+            - name: Lookup Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup.md
+            - name: LookupDesign Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign.md
+            - name: LookupMetadata Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupmetadata.md
+            - name: MetadataService Türü
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-imetadataservice.md
+            - name: MultiLookup Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookup.md
+            - name: MultiLookupDesign Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupdesign.md
+            - name: MultiLookupMetadata Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupmetadata.md
+            - name: NavigationArgs Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs.md
+            - name: NumberSequenceConfig Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig.md
+            - name: Page Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage.md
+            - name: PageData Türü
+              href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata.md
+            - name: PageLink Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelink.md
+            - name: PageLinkDesign Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkdesign.md
+            - name: PageLinkMetadata Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkmetadata.md
+            - name: PageMetadata Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagemetadata.md
+            - name: PageOptions Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipageoptions.md
+            - name: PageSubmitArgs Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs.md
+            - name: PageTarget Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget.md
+            - name: Part Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart.md
+            - name: PartDesign Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md
+            - name: PartMetadata Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md
+            - name: Row Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md
+            - name: Value Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md
+            - name: ValueDesign Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
+            - name: ValueMetadata Türü
+              href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
+- name: Veri tümleştirme
+  items:
+    - name: Bir veri tümleştirme (içe aktarma/dışa aktarma) stratejisi seçme
+      href: data-entities/integration-overview.md
+    - name: Veri tümleştirme API'ları
+      items:
+        - name: Veri yönetimi paketi API'sı
+          href: data-entities/data-management-api.md
+        - name: Hizmet uç noktaları
+          href: data-entities/services-home-page.md
+          items:
+            - name: Hizmet kimlik doğrulamasıyla ilgili sorun giderme
+              href: data-entities/troubleshoot-service-authentication.md
+        - name: OData
+          href: data-entities/odata.md
+        - name: Özel hizmetler
+          href: data-entities/custom-services.md
+        - name: Yinelenen tümleştirmeler
+          href: data-entities/recurring-integrations.md
+        - name: Hizmetlerle birlikte üçüncü taraf hizmet sınama yardımcı programlarını kullanma
+          href: data-entities/third-party-service-test.md
+    - name: Tümleştirme için geliştirme
+      items:
+        - name: Veri varlıklarını kullanarak veri tümleştirmesi
+          href: data-entities/data-management-integration-data-entity.md
+          items:
+            - name: Veri geçişi için varlık geliştirme
+              href: data-entities/develop-entity-for-data-migration.md
+            - name: Bileşik veri varlıkları geliştirme
+              href: data-entities/develop-composite-data-entities.md
+            - name: Şirketler arası mali veri paylaşımını yapılandırma
+              href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
+            - name: Veri girişini kolaylaştırmak için bir kayıt şablonu oluşturma
+              href: data-entities/tasks/create-record-template-facilitate-data-entry.md
+            - name: Yeni kayıt oluşturmak için kayıt şablonu kullanma
+              href: data-entities/tasks/use-record-template-new-record.md
+        - name: Common Data Service'ı kullanarak veri tümleştirmesi
+          href: data-entities/data-integration-cds.md
+          items:
+            - name: Aday müşteriden nakde senaryosu yapılandırma
+              href: ../supply-chain/sales-marketing/prospect-to-cash.md
+              items:
+                - name: Sales'teki hesapları doğrudan Finance and Operations'taki müşterilerle eşitleme
+                  href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                - name: Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle eşitleme
+                  href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
+                - name: Sales'teki ilgili kişileri doğrudan Finance and Operations'taki ilgili kişilerle veya müşterilerle eşitleme
+                  href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                - name: Sales'teki satış teklifi başlıklarını ve satırlarını doğrudan Finance and Operations ile eşitleme
+                  href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                - name: Satış siparişlerini Sales ile Finance and Operations arasında doğrudan eşitleme
+                  href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                - name: Finance and Operations'daki satış faturası başlıklarını ve satırlarını doğrudan Sales ile eşitleme
+                  href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+            - name: Field Service ile tümleştirmeyi yapılandırma
+              href: ../supply-chain/sales-marketing/field-service.md
+              items:
+                - name: Finance and Operations'taki ürünleri Field Service'daki ürünlerle eşitleme
+                  href: ../supply-chain/sales-marketing/field-service-product.md
+                - name: Field Service'daki iş emirlerini Finance and Operations'taki satış siparişleriyle eşitleme
+                  href: ../supply-chain/sales-marketing/field-service-work-order.md
+                - name: Field Service'daki sözleşme faturalarını Finance and Operations'taki serbest metin faturalarıyla eşitleme
+                  href: ../supply-chain/sales-marketing/field-service-invoice.md
+        - name: Harici web hizmetleri kullanma
+          href: data-entities/consume-external-web-service.md
+- name: Veri yönetimi
+  href: data-entities/data-entities-data-packages.md
+  items:
+    - name: Veri varlıkları
+      href: data-entities/data-entities.md
+      items:
+        - name: Yapılandırma verisi projeleri
+          href: data-entities/configuration-data-projects.md
+        - name: Yapılandırma verisi paketleri
+          href: data-entities/configuration-data-packages.md
+        - name: Şirketler arasında yapılandırma verilerini kopyalama
+          href: data-entities/copy-configuration.md
+        - name: Yapılandırma verisi şablonları
+          href: data-entities/configuration-data-templates.md
+        - name: Veri şablonları ile birden çok çalışma sayfası
+          href: data-entities/excel-template-multiple.md
+        - name: Varlık üzerindeki değişiklikleri izleme
+          href: data-entities/entity-change-track.md
+        - name: Yapılandırma anahtarları ve veri varlıkları
+          href: data-entities/config-key-entities.md
+        - name: Standart veri varlıkları hakkında bilgileri bulma
+          href: data-entities/data-entities-report.md
+    - name: Veri içe ve dışa aktarma işleri
+      href: data-entities/data-import-export-job.md
+      items:
+        - name: Genel günlük varlığını kullanarak fişleri içe aktarmaya yönelik en iyi uygulamalar
+          href: data-entities/tips-tricks-import-general-journal-entity.md
+    - name: Veri varlıkları için geliştirme
+      items:
+        - name: Tasarım ilkeleri ve veri varlıkları için en iyi yöntemler
+          href: dev-tools/design-best-practices.md
+        - name: Yeni veri varlıkları oluşturma
+          href: data-entities/build-consuming-data-entities.md
+        - name: Veri varlığı özellikleri
+          href: data-entities/behavioral-properties-data-entities.md
+        - name: Hesaplama sütunları ve sanal alanlar oluşturma
+          href: data-entities/data-entity-computed-columns-virtual-fields.md
+        - name: Şirketler arası davranış
+          href: data-entities/cross-company-behavior.md
+        - name: Ülke/bölge kodlarını yönetme
+          href: data-entities/countryregion-codes-configuration-keys.md
+        - name: Devralma modelleri
+          href: data-entities/support-super-type-sub-type.md
+        - name: Veri varlığı sihirbazı kuralları
+          href: data-entities/data-entity-wizard-rules.md
+        - name: Mera veri özellikleri
+          href: data-entities/behavioral-properties-data-entities.md
+        - name: 'Doğrulamalar, varsayılanlar ve eşlenmemiş alanlar'
+          href: data-entities/validations-defaults-unmapped-fields.md
+        - name: Güvenlik ve veri varlıkları
+          href: data-entities/security-data-entities.md
+        - name: Mali boyutlarını gösteren bir salt okunur varlık oluşturma
+          href: financial/read-only-entity-financial.md
+    - name: Kendi veritabanınızı getirme
+      href: analytics/export-entities-to-your-own-database.md
+    - name: Veri görevi otomasyonu
+      href: data-entities/data-task-automation.md
+    - name: Bir GDPR veri isteğine yanıt verme için kaynaklar
+      href: gdpr/gdpr-home-page.md
+      items:
+        - name: Microsoft Dynamics 365 for Finance and Operations için GDPR kılavuzu
+          href: gdpr/gdpr-guide.md
+        - name: Kıymet sınıflandırmaları
+          href: gdpr/gdpr-asset-classification-values.md
+        - name: Kişi arama raporunu kullanma
+          href: gdpr/gdpr-person-search-report.md
+        - name: Kişi arama raporunu genişletme
+          href: gdpr/gdpr-extend-person-search-report.md
+        - name: Hassas verilere erişimi yönetme
+          href: gdpr/gdpr-auditing-sensitive-data.md
+        - name: Talent kullanarak kişisel veri isteğini yanıtlama
+          href: gdpr/respond-dsr-request-talent.md
+        - name: Microsoft Dynamics AX 2012 kullanarak kişisel veri isteğini yanıtlama
+          href: gdpr/gdpr-ax2012.md
+        - name: LCS için GDPR veri istekleri
+          href: gdpr/gdpr-lcs.md
+    - name: Veri doğrulama çalışma alanı
+      href: user-interface/data-validation-workspace.md
+- name: Sürekli teslimat
+  href: dev-tools/continuous-delivery-home-page.md
+  items:
+    - name: Geliştirme ve sürekli teslimatla ilgili SSS
+      href: dev-tools/continuous-delivery-faq.md
+    - name: Test paketlerini derleme çıktısından çıkarma
+      href: dev-tools/exclude-test-packages.md
+    - name: Kaynak kontrolü kullanarak üçüncü taraf modellerini ve çalışma zamanı paketlerini yönetme
+      href: dev-tools/manage-runtime-packages.md
+    - name: Otomatik derlemedeki sürüm modelleri
+      href: dev-tools/version-models-build.md
+- name: Lifecycle Services kullanarak çözümler yayımlama
+  items:
+    - name: Geliştirme ve yayımlama
+      href: lcs-solutions/lcs-solutions-app-source.md
+    - name: Aşamalandırma ve yayınlama
+      href: lcs-solutions/marketing-content-lcs-solutions.md
+    - name: Metodoloji ekleme
+      href: lcs-solutions/methodologies-lcs-solutions.md
+    - name: İş süreci modelleyici kitaplıkları ayarlama
+      href: lcs-solutions/business-process-modeler-libraries-lcs-solutions.md
+    - name: Kod taşıma
+      href: lcs-solutions/code-migration-lcs-solutions.md
+    - name: Uygulama doğrulama
+      href: lcs-solutions/app-validation-lcs-solutions.md
+    - name: Veri paketlerini işleme ve tüketme
+      href: lcs-solutions/process-data-packages-lcs-solutions.md
+    - name: Bir çözüm veritabanını yedekleme
+      href: lcs-solutions/database-backup-lcs-solutions.md
+    - name: Yerelleştirmeler
+      href: lcs-solutions/country-region.md
+      items:
+        - name: Yerelleştirme özelliklerini sınıflandırma
+          href: lcs-solutions/classify-localization-features.md
+        - name: Ülke/bölge bağlamı
+          href: lcs-solutions/apply-country-context.md
+        - name: Mevzuat sertifikaları
+          href: lcs-solutions/regulatory-certifications.md
+        - name: Mevzuat güncelleştirmeleri
+          href: lcs-solutions/regulatory-watch-communication.md
+        - name: Yerelleştirme modellerini ayırma
+          href: lcs-solutions/separate-localization-models.md
+        - name: Yasal uyarı gönderme
+          href: lcs-solutions/submit-localization-alerts.md
+- name: Mali öğeleri geliştirme
+  href: financial/financial-dev-home-page.md
+  items:
+    - name: Boyutlar
+      href: financial/dimensions.md
+    - name: Excel şablonuna boyut ekleme
+      href: financial/dimensions-overview.md
+    - name: Boyut Giriş kontrolü iletişim kutusu desteği
+      href: financial/dimension-entry-control-dialog-support.md
+    - name: 'Boyut giriş kontrolü geçişi '
+      href: financial/dimension-entry-control-migration.md
+    - name: Boyut giriş kontrolü düzenleme
+      href: financial/dimension-entry-control-uptake.md
+    - name: Boyut İfadesi Oluşturucusu alt modeli
+      href: financial/dimension-expression-builder-subpattern.md
+    - name: Uygulamaları tümleştirmek için mali boyut konfigürasyonu
+      href: financial/financial-dimension-configuration-integration.md
+    - name: Mali boyutları etkinleştirme
+      href: financial/activate-financial-dimensions.md
+    - name: Sağdan sola doğru okunan bir dilde mali boyutlar ve ana hesaplar
+      href: financial/financial-dimensions-main-accounts-right-left-language.md
+    - name: Bir destekleyici tabloyu Mali boyut olarak tüketilebilir hale getirme
+      href: financial/dimensionable-entities.md
+    - name: 'Bölümlere ayrılmış giriş kontrolü geçişi  '
+      href: financial/segmented-entry-control-conversion.md
+    - name: Bölümlere ayrılmış giriş kontrolü iletişim kutusu desteği
+      href: financial/segmented-entry-control-dialog-support.md
+    - name: Bölümlere ayrılmış giriş kontrolü meta verileri
+      href: financial/segmented-entry-control-metadata-specification.md
+    - name: Bölümlere ayrılmış giriş kontrolü geçişi rehberliği
+      href: financial/segmented-entry-control-migration-guidance.md
+    - name: Bölümlere ayrılmış giriş kontrolü parm yöntemleri
+      href: financial/segmented-entry-control-parm-method-specification.md
+    - name: Microsoft Excel şablonlarına mali boyut değerlerini arama özelliği ekleme
+      href: financial/add-dimensions-excel-templates.md
+    - name: Döviz kuru sağlayıcıları oluşturma
+      href: financial/create-exchange-rate-providers.md
+    - name: Microsoft Dynamics Finance and Operations sürüm 8.0'da döviz kuru sağlayıcıları oluşturma
+      href: financial/create-exchange-rate-8.md
+- name: Tedarik zinciri geliştirme
+  items:
+    - name: Gantt geliştirme kılavuzu
+      href: user-interface/gantt-development-guide.md
+    - name: Yeni bir taşıma yönetimi altyapısı oluşturma
+      href: ../supply-chain/transportation/create-new-transportation-management-engine.md
+- name: Dağıtım
+  items:
+    - name: Tanıtım ortamını dağıtma
+      href: deployment/deploy-demo-environment.md
+    - name: Bulut dağıtımı
+      items:
+        - name: Azure Resource Manager'da işe alım
+          href: deployment/arm-onboarding.md
+        - name: Azure ExpressRoute ve Dynamics 365 for Finance and Operations
+          href: deployment/expressroute.md
+        - name: Finance and Operations mimarisi
+          href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
+    - name: Şirket içi dağıtım
+      href: deployment/on-premises-deployment-landing-page.md
+      items:
+        - name: Şirket içine genel bakış
+          href: deployment/on-premises-overview.md
+        - name: Şirket içi dağıtımınız için planlama
+          href: deployment/plan-onprem-deployment.md
+        - name: Donanım boyutlandırma
+          href: ../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
+        - name: Şirket içi proje oluşturma
+          href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+        - name: Şirket içi ortamları ayarlama ve dağıtma
+          href: deployment/setup-deploy-on-premises-environments.md
+          items:
+            - name: Platform update 12 ile şirket içi ortamlar dağıtma
+              href: deployment/setup-deploy-on-premises-pu12.md
+            - name: Platform update 8 ve 11 ile şirket içi ortamlar dağıtma
+              href: deployment/setup-deploy-on-premises-pu8-pu11.md
+        - name: Özel modelleri geliştirme ve şirket içi ortamlara dağıtma
+          href: deployment/develop-deploy-custom-models-on-premises.md
+        - name: Şirket içi ortamınızda ters proxy yapılandırma
+          href: deployment/onprem-reverseproxy.md
+        - name: Şirket içi dağıtıma güncelleştirmeler uygulama
+          href: deployment/apply-updates-on-premises.md
+        - name: Bir şirket içi dağıtımı yeniden dağıtma
+          href: deployment/redeploy-on-prem.md
+        - name: Yerel aracıyı güncelleştirme
+          href: lifecycle-services/update-local-agent.md
+        - name: Ortamınızı yeniden yapılandırma
+          href: lifecycle-services/reconfigure-environment.md
+        - name: İstemci internet bağlantısı
+          href: user-interface/client-disconnected.md
+        - name: Dynamics 365 for Finance and Operations şirket içinde sorun giderme
+          href: deployment/troubleshoot-on-prem.md
+    - name: Özel kod dağıtma
+      items:
+        - name: Dağıtılabilir paket oluşturma
+          href: deployment/create-apply-deployable-package.md
+        - name: Bulut ortamına güncelleştirmeleri uygulama
+          href: deployment/apply-deployable-package-system.md
+        - name: Dağıtılabilir paket yükleme
+          href: deployment/install-deployable-package.md
+        - name: Paket uygulama sorunlarını giderme
+          href: deployment/deployable-package-troubleshooting.md
+- name: 'Yükseltmeler, güncelleştirmeler ve düzeltmeler'
+  href: migration-upgrade/upgrade-home-page.md
+  items:
+    - name: AX 2012'den Dynamics 365 for Finance and Operations'a yükseltme
+      href: migration-upgrade/upgrade-overview-2012.md
+      items:
+        - name: AX 2012 yükseltmesi - Planlamak için Yükseltme çözümleyicisi aracını kullanma
+          href: migration-upgrade/upgrade-analyzer-tool.md
+        - name: AX 2012 yükseltmesi – Çabayı tahmin etmek için Kod yükseltme hizmetini kullanma
+          href: migration-upgrade/analyze-code-upgrade.md
+        - name: AX 2012 yükseltmesi - Korumalı alan ortamı dağıtma
+          href: migration-upgrade/analysis-sandbox.md
+        - name: AX 2012 yükseltmesi - Geliştirme ortamında veri yükseltme
+          href: migration-upgrade/data-upgrade-2012.md
+        - name: AX 2012 yükseltmesi - AX 2012 veri yükseltme görevleri
+          href: migration-upgrade/prepare-data-upgrade.md
+        - name: AX 2012 yükseltmesi - Korumalı alan ortamında veri yükseltme
+          href: migration-upgrade/upgrade-data-sandbox.md
+        - name: AX 2012 yükseltmesi - Kesin bitiş testi
+          href: migration-upgrade/upgrade-cutover-testing.md
+        - name: AX 2012 yükseltmesi - Yükseltmeden sonra yapmanız gereken görevler
+          href: migration-upgrade/app-validation-process.md
+        - name: AX 2012 yükseltmesi - İşlev testi geçişi
+          href: migration-upgrade/upgrade-functional-validation.md
+        - name: AX 2012 yükseltmesi - Canlı yayın için hazırlanma
+          href: migration-upgrade/upgrade-go-live-prep.md
+        - name: AX 2012 yükseltmesi - Servise alma
+          href: migration-upgrade/2012-upgrade-cutover.md
+        - name: AX 2012'den yükseltmeyi etkileyen değişiklikler
+          items:
+            - name: Hesap planı ayırıcı benzersiz olmalıdır
+              href: migration-upgrade/chart-accounts-delimiter-unique.md
+            - name: Tek fiş ve para birimi yeniden değerleme yükseltmesi
+              href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
+            - name: Proje kaynak planlaması veri modeli
+              href: migration-upgrade/data-model-changes-resource-management.md
+            - name: İş akışı alt sistemi değişiklikleri
+              href: migration-upgrade/workflow-subsystem.md
+            - name: Küplerden toplanan modellere geçme nedenimiz
+              href: migration-upgrade/in-memory-real-time-aggregate-models.md
+            - name: Yükseltilmiş bir satış küpünü varlık deposuna geçirme
+              href: migration-upgrade/migrate-upgraded-cube-entity-store.md
+            - name: Bütçe planlamasını yükseltme
+              href: migration-upgrade/upgrade-budget-planning.md
+    - name: Kod geçişi ve yükseltmesi
+      href: migration-upgrade/code-migration-home-page.md
+      items:
+        - name: Kod taşımaya hazırlanma
+          href: migration-upgrade/prepare-migration.md
+        - name: Kod geçişi sırasında Visual Studio Team Services eşlemesini yapılandırma
+          href: migration-upgrade/configure-vso-solution.md
+        - name: Bölünmüş modeller
+          href: dev-tools/model-split.md
+        - name: Modeller arasındaki bağımlılıkları çözmek için temsilci kullanma
+          href: migration-upgrade/delegates-migration.md
+    - name: En son güncelleştirmeye yükseltme (bulut)
+      items:
+        - name: En son güncelleştirmeye geçme işlemi
+          href: migration-upgrade/upgrade-latest-update.md
+        - name: Yaşam döngüsü ilkesi
+          href: migration-upgrade/versions-update-policy.md
+        - name: Ortamınız için en son platform güncelleştirmesini uygulama
+          href: migration-upgrade/upgrade-latest-platform-update.md
+        - name: Dynamics platformunu Ağustos 2016 sürümüne yükseltme
+          href: migration-upgrade/update-platform-each-release.md
+        - name: Bir korumalı alan ortamını yükseltme
+          href: migration-upgrade/upgrade-sandbox-environment.md
+        - name: Geliştirme veya tanıtım ortamlarındaki verileri yükseltme
+          href: migration-upgrade/upgrade-data-to-latest-update.md
+        - name: Geliştirme araçlarını güncelleştirme
+          href: dev-tools/update-development-tools.md
+    - name: En son güncelleştirmeye yükseltme (şirket içi)
+      items:
+        - name: Şirket içi dağıtıma güncelleştirmeler uygulama
+          href: deployment/apply-updates-on-premises.md
+        - name: Bir şirket içi dağıtımı yeniden dağıtma
+          href: deployment/redeploy-on-prem.md
+    - name: Düzeltmeler
+      items:
+        - name: Lifecycle Services'dan düzeltme indirme
+          href: migration-upgrade/download-hotfix-lcs.md
+        - name: Bulut ortamına güncelleştirmeleri uygulama
+          href: deployment/apply-deployable-package-system.md
+        - name: Meta veri düzeltmesi yükleme
+          href: migration-upgrade/install-metadata-hotfix-package.md
+        - name: Yerleşik ortamda Reporting Services için yama oluşturma
+          href: migration-upgrade/patch-reporting-service-environment.md
+        - name: Visual Studio geliştirme araçlarını güncelleştirme
+          href: dev-tools/update-development-tools.md
+    - name: Kullanımdan kaldırma işlemleri
+      items:
+        - name: Kaldırılan API'lar
+          href: migration-upgrade/deprecated-apis.md
+        - name: Kullanımdan kaldırılan özellikler
+          href: migration-upgrade/deprecated-features.md
+- name: Sistem yönetimi
+  href: sysadmin/system-administration-home-page.md
+  items:
+    - name: Aylık platform güncelleştirmeleriyle ilgili SSS
+      href: sysadmin/faq-platform-monthly-updates.md
+    - name: Kuruluşunuzun yasal koşullarına ve gizlilik bildirimine bağlantı ekleme
+      href: sysadmin/legal-terms-privacy-statement.md
+    - name: Lisans kodları ve yapılandırma anahtarları raporu
+      href: sysadmin/license-codes-configuration-keys-report.md
+    - name: Şirketler arası veri paylaşımı
+      href: sysadmin/cross-company-data-sharing.md
+    - name: Bakım modu
+      href: sysadmin/maintenance-mode.md
+    - name: Önceden yapılandırılmış sistem hesapları
+      href: sysadmin/pre-configured-system-accounts.md
+    - name: B2B kullanıcılarını Azure AD'ye aktarma
+      href: sysadmin/implement-b2b.md
+    - name: Rol tabanlı güvenlik
+      href: sysadmin/role-based-security.md
+      items:
+        - name: Güvenlik mimarisi
+          href: sysadmin/security-architecture.md
+        - name: Güvenlik raporları
+          href: sysadmin/security-reports.md
+        - name: Yeni kullanıcılar oluşturma
+          href: sysadmin/tasks/create-new-users.md
+        - name: Kullanıcıları topluca içe aktarma
+          href: sysadmin/tasks/import-bulk-users.md
+        - name: Görev ayırmayı ayarlama
+          href: sysadmin/tasks/set-up-segregation-duties.md
+        - name: Görev ayrımındaki çakışmaları tanımlama ve çözümleme
+          href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
+        - name: Kullanıcıları güvenlik rollerine atama
+          href: sysadmin/tasks/assign-users-security-roles.md
+    - name: Toplu işleme
+      href: sysadmin/batch-processing-overview.md
+      items:
+        - name: Toplu iş sunucusuna genel bakış
+          href: sysadmin/batch-server-overview.md
+        - name: Toplu iş oluşturma
+          href: sysadmin/tasks/create-batch-job.md
+    - name: En iyi duruma getirme danışmanına genel bakış
+      href: sysadmin/optimization-advisor-overview.md
+      items:
+        - name: En iyi duruma getirme danışmanına ilişkin kurallar oluşturma
+          href: sysadmin/create-rules-optimization-advisor.md
+- name: Lifecycle Services
+  items:
+    - name: Lifecycle Services'a genel bakış
+      href: lifecycle-services/lcs.md
+      items:
+        - name: Müşteriler için LCS
+          href: lifecycle-services/lcs-works-lcs.md
+        - name: İş ortakları için LCS
+          href: lifecycle-services/getting-started-lcs.md
+        - name: Yenilikler
+          href: lifecycle-services/whats-new-lcs.md
+        - name: Bilinen sorunlar
+          href: lifecycle-services/known-issues.md
+    - name: Dynamics Lifecycle Services kullanıcı kılavuzu
+      href: lifecycle-services/lcs-user-guide.md
+    - name: Abonelik tahmin aracı
+      href: lifecycle-services/subscription-estimator.md
+    - name: Güvenliği yapılandırma
+      href: lifecycle-services/configure-lcs-security.md
+    - name: Konu arama
+      href: lifecycle-services/issue-search-lcs.md
+    - name: Yapılandırma yöneticisi
+      href: lifecycle-services/configuration-manager-lcs.md
+      items:
+        - name: Yapılandırma yöneticisini ayarlama
+          href: lifecycle-services/set-up-configuration-manager-lcs.md
+    - name: Kod yükseltme hizmetini konfigüre etme
+      href: lifecycle-services/configure-execute-code-upgrade.md
+    - name: 'Metodoloji oluşturma  '
+      href: lifecycle-services/create-methodology.md
+    - name: İş süreci modelleyici
+      href: lifecycle-services/bpm-overview.md
+    - name: İş süreci modelleyicideki iş süreci kitaplıkları
+      href: lifecycle-services/business-process-libraries-business-process-modeler.md
+    - name: 'BPM kitaplığı oluşturma, düzenleme ve göz atma'
+      href: lifecycle-services/creating-editing-browsing.md
+    - name: BPM kitaplığındaki görevleri tamamlama
+      href: lifecycle-services/complete-tasks-bpm.md
+    - name: Etkinlik şemaları kullanma
+      href: lifecycle-services/using-activity-diagrams.md
+    - name: BPM kitaplığını Visual Studio Team Services (VSTS) ile eşitleme
+      href: lifecycle-services/synchronize-bpm-vsts.md
+    - name: Görev kılavuzları ve BPM kullanarak bir kabul testi paketi oluşturma
+      href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+    - name: İş süreci modelleyici akış tabloları
+      href: lifecycle-services/flowcharts-business-process-modeler.md
+    - name: Özel iş süreçleri yükleme
+      href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+    - name: 'İzleme ve tanılama '
+      href: lifecycle-services/monitoring-diagnostics.md
+    - name: Ortam hizmetlerini yeniden başlatma
+      href: lifecycle-services/restart-environment-services.md
+    - name: Kullanıcı oturum açma bilgilerini izleme
+      href: lifecycle-services/user-logins.md
+    - name: Varlık kitaplığı
+      href: lifecycle-services/asset-library.md
+    - name: Microsoft Dynamics 365 - Çeviri Hizmetine genel bakış
+      href: lifecycle-services/translation-service-overview.md
+      items:
+        - name: 'Microsoft Dynamics 365 Çeviri Hizmeti kullanıcı kılavuzu    '
+          href: lifecycle-services/use-translation-service.md
+        - name: Microsoft Dynamics 365 Çeviri Hizmeti - Belge dosyası çevirisi
+          href: lifecycle-services/use-translation-service-ua.md
+        - name: Microsoft Dynamics 365 Çeviri Hizmeti - Çeviri belleği
+          href: lifecycle-services/use-translation-service-tm.md
+    - name: Dynamics AX 2012 Lifecycle Services özellikleri
+      items:
+        - name: Dağıtım
+          items:
+            - name: Bulutta barındırılan ortamlar
+              href: lifecycle-services/ax-2012/cloud-hosted-environments-lcs.md
+            - name: Konfigürasyon kopyalama
+              href: lifecycle-services/copy-configuration-lcs.md
+            - name: Azure'da Dynamics AX 2012 R3 dağıtımı planlama
+              href: lifecycle-services/ax-2012/plan-2012-r3-deployment-azure.md
+            - name: Azure'da Dynamics AX 2012 R3'ü dağıtma
+              href: lifecycle-services/ax-2012/deploy-2012-r3-azure-lcs.md
+            - name: Dynamics AX 2012 R3 tanıtım ortamı dağıtma
+              href: lifecycle-services/ax-2012/deploy-ax-2012-r3-ax-2012-r3-cu8-demo-environment-azure.md
+            - name: Azure'da dağıtım ortamı dağıtma
+              href: lifecycle-services/ax-2012/deploy-development-environment-azure.md
+            - name: Azure'da kullanılabilirliği yüksek ortam dağıtma
+              href: lifecycle-services/ax-2012/deploy-high-availability-environment-azure.md
+            - name: Azure'da test ortamı dağıtma
+              href: lifecycle-services/ax-2012/deploy-test-environment-azure.md
+            - name: Azure'da Dynamics AX 2012 R3 dağıtımınızı yönetme
+              href: lifecycle-services/ax-2012/manage-2012-r3-deployment-azure.md
+            - name: Kurumsal Portal sunucularını tek bir sunucu grubu halinde birleştirme
+              href: lifecycle-services/ax-2012/join-enterprise-portal-servers-single-server-farm.md
+            - name: Dynamics AX Kurumsal Portal'da giriş noktalarını kaydetme
+              href: lifecycle-services/ax-2012/record-entry-points-enterprise-portal.md
+            - name: Azure'da Perakende e-ticaret geliştirme/test ortamı dağıtma
+              href: lifecycle-services/ax-2012/deploy-retail-ecommerce-devtest-environment-azure.md
+            - name: Azure'da Perakende temel bileşenleri tanıtım ortamı dağıtma
+              href: lifecycle-services/ax-2012/deploy-retail-essentials-demo-environment-azure.md
+            - name: Azure'da Perakende temel bileşenleri geliştirme/test ortamı dağıtma
+              href: lifecycle-services/ax-2012/deploy-retail-essentials-devtest-environment-azure.md
+            - name: Azure'da Perakende hareketlilik geliştirme/test ortamı dağıtma
+              href: lifecycle-services/ax-2012/deploy-retail-mobility-devtest-environment-azure.md
+            - name: Azure'da Dynamics AX 2012 R3 dağıtımınızın sorunlarını giderme
+              href: lifecycle-services/ax-2012/troubleshoot-2012-r3-deployment-azure.md
+            - name: Dynamics AX 2012 R3 güncelleştirmeleri
+              href: lifecycle-services/ax-2012/update-2012-r3-lcs.md
+        - name: Veri içe aktarma/dışa aktarma çerçevesi kullanıcı kılavuzu
+          href: lifecycle-services/ax-2012/user-guide-dixf.md
+          items:
+            - name: Yükleme
+              href: lifecycle-services/ax-2012/install-dixf.md
+              items:
+                - name: AX 2012 R3 yükleme
+                  href: lifecycle-services/ax-2012/install-ax-2012-r3.md
+                - name: SQL Server 2014 için Dynamics AX 2012 R2 CU7 sürümünü yükleme
+                  href: lifecycle-services/ax-2012/install-dixf-ax-2012-r2-cu7-ss-2014.md
+            - name: Veri taşıma
+              href: lifecycle-services/ax-2012/migrate-data-dixf.md
+            - name: SSIS sürümünü konfigüre etme
+              href: lifecycle-services/ax-2012/configure-sql-server-integration-services-multiple-versions-dixf.md
+            - name: Şirketler arasında varlık verilerini kopyalama ve karşılaştırma
+              href: lifecycle-services/ax-2012/copy-compare-entity-data-between-companies-dixf.md
+            - name: Dynamics AX şirketleri arasında verileri kopyalama
+              href: lifecycle-services/ax-2012/copy-data-between-companies-dixf.md
+            - name: Dynamics AX örnekleri arasında verileri kopyalama
+              href: lifecycle-services/ax-2012/copy-data-between-instances-dixf.md
+            - name: Özel bir hedef varlık oluşturma
+              href: lifecycle-services/ax-2012/create-custom-target-entity-dixf.md
+            - name: Veri içe aktarma/dışa aktarma çerçevesi varlıkları
+              href: lifecycle-services/ax-2012/entities-dixf.md
+            - name: Bir CSV veri kaynağından verileri içe aktarma
+              href: lifecycle-services/ax-2012/import-data-csv-data-source-dixf.md
+            - name: Bir ODBC veri kaynağından verileri içe aktarma
+              href: lifecycle-services/ax-2012/import-data-odbc-data-source-dixf.md
+            - name: Tanıtım dosyaları
+              href: lifecycle-services/ax-2012/demo-files-dixf.md
+            - name: Hızlı içe-dışa aktarma
+              href: lifecycle-services/ax-2012/quick-import-export.md
+        - name: Tablolar
+          items:
+            - name: Tablo oluşturma
+              href: lifecycle-services/ax-2012/create-tables.md
+            - name: Tablo özellikleri
+              href: lifecycle-services/ax-2012/table-properties.md
+        - name: Dynamics AX 2012 LCS araçları
+          items:
+            - name: Projeler
+              href: lifecycle-services/ax-2012/projects-lcs.md
+            - name: Metodolojiler
+              href: lifecycle-services/ax-2012/methodologies-lcs.md
+            - name: 'Özelleştirme analizi  '
+              href: lifecycle-services/ax-2012/customization-analysis-lcs.md
+            - name: Altyapı tahmin aracı
+              href: lifecycle-services/ax-2012/infrastructure-estimator-lcs.md
+            - name: Lisans boyutu tahmin aracı
+              href: lifecycle-services/ax-2012/license-sizing-estimator-lcs.md
+            - name: Teklif isteği (lifecycle-services/RFP.md) yanıtları
+              href: lifecycle-services/ax-2012/rfp-responses-lcs.md
+            - name: Sistem tanılama
+              href: lifecycle-services/ax-2012/system-diagnostics-lcs.md
+            - name: Sistem tanılama yükleme ve çalıştırma
+              href: lifecycle-services/ax-2012/install-run-system-diagnostics-lcs.md
+            - name: Yükseltme analizi
+              href: lifecycle-services/ax-2012/upgrade-analysis-lcs.md
+            - name: Kullanım profili oluşturma aracı
+              href: lifecycle-services/ax-2012/usage-profiler-lcs.md
+        - name: İndirilebilir Dynamics AX 2012 araçları
+          items:
+            - name: Kod Yükseltme Aracı Kullanıcı Kılavuzu (kaldırıldı)
+              href: lifecycle-services/ax-2012/code-upgrade-tool-user-guide.md
+            - name: İndirilebilir Lifecycle Services araçları
+              href: lifecycle-services/ax-2012/lcs-downloadable-tools-formerly-informationsource.md
+            - name: Test Verisi Aktarma Aracı (beta)
+              href: lifecycle-services/ax-2012/test-data-transfer-tool-beta-2012.md
+              items:
+                - name: Yükleme
+                  href: lifecycle-services/ax-2012/install-test-data-transfer-tool-beta.md
+                - name: Çalıştırma
+                  href: lifecycle-services/ax-2012/run-test-data-transfer-tool-beta.md
+                - name: AX 2012 R3 tanıtım verilerini içe aktarma
+                  href: lifecycle-services/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool.md
+            - name: Güvenlik Geliştirme Aracı
+              href: lifecycle-services/ax-2012/overview-security-development-tool-user-interface.md
+              items:
+                - name: Yükleme
+                  href: lifecycle-services/ax-2012/install-security-development-tool.md
+                - name: Kullanıcı Kılavuzu
+                  href: lifecycle-services/ax-2012/security-development-tool-user-guide.md
+                - name: Giriş noktası izinlerini tanımlama ve düzenleme
+                  href: lifecycle-services/ax-2012/define-edit-entry-point-permissions.md
+            - name: Performans Karşılaştırma Yazılımı Geliştirme Araç Seti
+              href: lifecycle-services/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012.md
+            - name: Güvenlik Yükseltme Danışmanı Aracı
+              href: lifecycle-services/ax-2012/security-upgrade-advisor-tool-user-guide.md
+            - name: Akıllı Veri Yönetimi Çerçevesi (IDMF)
+              href: lifecycle-services/ax-2012/microsoft-idmf.md
+              items:
+                - name: Genel bakış
+                  href: lifecycle-services/ax-2012/overview-idmf.md
+                - name: Yükleme Kılavuzu
+                  href: lifecycle-services/ax-2012/installation-guide-idmf.md
+                - name: Yapılandırma
+                  href: lifecycle-services/ax-2012/configuration-functionality-idmf-workspace.md
+                - name: Analiz
+                  href: lifecycle-services/ax-2012/analysis-functionality-idmf-workspace.md
+                - name: Nesneleri temizleme ve arşivleme
+                  href: lifecycle-services/ax-2012/work-with-purge-objects-archive-objects.md
+                - name: Arşiv nesneleri oluşturma
+                  href: lifecycle-services/ax-2012/create-archive-objects.md
+                - name: Temizleme nesneleri oluşturma
+                  href: lifecycle-services/ax-2012/create-purge-objects.md
+                - name: Temizleme ve analiz görevleri zamanlama
+                  href: lifecycle-services/ax-2012/schedule-purge-analysis-tasks.md
+                - name: Temizleme ve arşivleme işlerini görüntüleme
+                  href: lifecycle-services/ax-2012/view-status-purge-archive-jobs.md
+                - name: Bakım yapma
+                  href: lifecycle-services/ax-2012/maintain-idmf.md
+                - name: Sorun giderme
+                  href: lifecycle-services/ax-2012/troubleshoot-idmf.md
+- name: Veritabanı yönetimi
+  items:
+    - name: Azure SQL Veritabanından SQL Server ortamına veritabanı kopyalama
+      href: database/copy-database-from-azure-sql-to-sql-server.md
+    - name: SQL Server'dan bir üretim Azure SQL Veritabanı ortamına veritabanı kopyalama
+      href: database/copy-database-from-sql-server-to-azure-sql.md
+    - name: Bir veritabanını üretim dışı bir ortama geri yükleme
+      href: database/request-point-in-time-restore.md
+    - name: Bir veritabanı kopyasını daha sonra geri yüklemek için dışa aktarma
+      href: database/copy-operations-database.md
+    - name: Korumalı alan veritabanı yenilemesi isteme
+      href: database/database-refresh.md
+- name: Destek
+  items:
+    - name: Dynamics 365 for Finance and Operations ve Lifecycle Services için destek alma
+      href: lifecycle-services/lcs-support.md
+    - name: Premier destek bileti kaydetme
+      href: lifecycle-services/premier-support.md
+    - name: Dynamics Servis Mühendisliği takımına istek gönderme
+      href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
+    - name: Dynamics 365 for Finance and Operations için teknik destek ayarlama
+      href: lifecycle-services/support-experience.md
+    - name: Planlı bakım aralığıyla ilgili SSS
+      href: lifecycle-services/planned-maintenance-window-faq.md
+    - name: Bulut işlemleri ve servis
+      href: lifecycle-services/cloud-operations-servicing.md
+    - name: Finance and Operations Destek deneyimlerini yönetme
+      href: lifecycle-services/cloud-powered-support-lcs.md

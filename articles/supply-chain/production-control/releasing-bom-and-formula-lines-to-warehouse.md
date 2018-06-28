@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 838dc1e5867b8380823275aba5fc425003a54523
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: 2bccabb033f5ba142b145e69930ce516aad596f2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -43,8 +43,7 @@ Bu konuda, ürün reçetesi satırları ve formül satırları için ambara hamm
 - **Ürün reçetesi ve formül satırlarını üretim emrini veya toplu siparişi serbest bırakmanın bir parçası olarak serbest bırakma** – Bu yöntemde, bir üretim veya toplu iş emri için ürün reçetesi ve formül satırları siparişi serbest bırakma işleminin bir parçası olarak serbest bırakılır. Genellikle, bir üretim veya toplu iş emrinin serbest bırakılması sırasında, üretim işleri atölye çalışanlarına serbest bırakılır ve üretim belgeleri yazdırılır. Bu işlem sırasında siparişin durumu da **Serbest bırakıldı** olarak değişir.
 - **Ürün reçetesi veya formül satırlarını bir toplu iş aracılığıyla veya el ile etkileşim olarak serbest bırakma** – Bu yöntemde, ürün reçetesi ve formül satırları yalnızca **Ürün reçetesi ve formül satırlarını otomatik serbest bırakma** toplu işi aracılığıyla veya el ile etkileşim olarak serbest bırakılabilir. Ürün reçetesi ve formül satırlarını el ile serbest bırakmak için, Eylem Bölmesindeki üretim emri liste sayfasında veya üretim emri ayrıntıları sayfasında **Ambar için serbest bırak**'ı seçin.
 
-Ürün reçetesi ve formül satırlarının toplu iş kullanılarak üretime serbest bırakılması hakkında hızlı bir tanıtım için bu kısa YouTube videosunu izleyin:
-[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
+Ürün reçetesi ve formül satırlarının toplu iş kullanılarak üretime serbest bırakılması hakkında hızlı bir tanıtım için YouTube'daki şu kısa videoyu izleyin: [Üretim malzeme çekmeyi toplu işte ambara serbest bırakma](https://www.youtube.com/watch?v=8urAJn50dQ8).
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Ürün reçetesi veya formül satırlarını bir toplu iş kullanarak serbest bırakma
 
@@ -85,8 +84,7 @@ Aşağıdaki örnekte 10 ve 20 şeklinde iki işlemi bulunan bir üretim emri g�
 
 ![İşlem numarasına göre malzeme serbest bırakma örneği](media/two-operations.PNG)
 
-Malzemeyi mamul malların tutarıyla orantılı olarak serbest bırakma hakkında hızlı bir tanıtım için bu kısa YouTube videosunu izleyin:
-[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
+Malzemenin, mamul mal miktarına orantılı olarak nasıl serbest bırakılacağı hakkında hızlı bir tanıtım için YouTube'daki şu kısa videoyu izleyin: [Dynamics 365 for Finance and Operations'ta üretim emri serbest bırakma sürecindeki geliştirmeler](https://www.youtube.com/watch?v=Rm3ojAz6Zu0)
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Malzemeyi mamul malların miktarıyla orantılı olarak bırakma
 

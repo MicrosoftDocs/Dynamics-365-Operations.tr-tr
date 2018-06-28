@@ -1,6 +1,6 @@
 ---
-title: "Mali performans Power BI içeriği"
-description: "Bu konu, Mali performans Power BI içeriğini açıklar."
+title: "Mali performans PowerBI.com çözümü"
+description: "Bu konu, Mali performans PowerBI.com çözümünü açıklamaktadır."
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2018
@@ -18,26 +18,26 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: d062937d8d1cb7d8e4f4cc055eb4514fa56b4eab
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: b70d470da2160670848d2dca9c97f6d7a2d6cf60
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="financial-performance-power-bi-content"></a>Mali performans Power BI içeriği
+# <a name="financial-performance-powerbicom-solution"></a>Mali performans PowerBI.com çözümü
 
 [!include [banner](../includes/banner.md)]
 
 > [!Note]
-> Bu içerik paketi [AppSource'da bulunan Power BI içerik paketleri](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource) bölümünde belirtildiği üzere kullanım dışı bırakılmıştır.
+> Bu PowerBI.com çözümü [AppSource'ta bulunan Power BI içerik paketleri](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource) bölümünde belirtildiği üzere kullanım dışı bırakılmıştır.
 
-Bu konu, **Mali performans** Microsoft Power BI içeriğini açıklar. Panoyu ve içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
+Bu konu, **Mali performans** PowerBI.com çözümünü açıklamaktadır. Panoyu ve içeriğe dahil edilen raporların nasıl kullanılacağını açıklar ve çözümü oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
 ## <a name="main-account-setup"></a>Ana hesap kurulumu
 Kuruluşlar borçlar ve gelirlerin raporlarda pozitif tutarlarda görünmesini istedikleri için ana hesapların kurulumu önemlidir. Bu ana hesapların pozitif tutarlarda görünmesi için, ana hesap türü **Pasif** veya **Gelir** olarak ayarlanmalıdır. Bu hesap türleri kullanıldığında, Power BI aracılığıyla gerçekleştirilen raporlama işaretleri ters çevirir ve tutarları pozitif gösterir.
 
-## <a name="dashboard-and-reports-that-are-included-in-the-power-bi-content"></a>Power BI içerik paketinde bulunan panolar ve raporlar
+## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>PowerBI.com çözümüne dahil olan pano ve raporlar
 Pano, altta yatan raporlara dayanan özetlenmiş veri kutucukları içerir. Her bir kutucuk, bir kuruluştaki tüm şirketlerdeki mevcut yılın özetlenmiş bilgilerini içerir. Kutucuklara bir kaç örnek:
 
 - Nakit
@@ -74,7 +74,7 @@ Her bir kutucuk bir destek raporu tarafından desteklenmektedir. Bu raporlar ço
 Tüm bu raporlardaki grafikler ve kutucuklar filtrelenebilir ve panoya sabitlenebilir. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano Oluşturma ve Yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
-**Mali performans** Power BI içeriğinin temeli olarak kullanılan varlıklar aşağıdakilerdir: 
+**Mali performans** PowerBI.com çözümünün temeli olarak aşağıdaki varlıklar kullanılmıştır:
 
 **Toplanan veri varlıkları**
 
