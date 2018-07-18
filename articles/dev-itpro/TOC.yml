@@ -1014,6 +1014,8 @@
           href: deployment/apply-deployable-package-system.md
         - name: Dağıtılabilir paket yükleme
           href: deployment/install-deployable-package.md
+        - name: Paketi kaldırma
+          href: deployment/uninstall-deployable-package.md
         - name: Paket uygulama sorunlarını giderme
           href: deployment/deployable-package-troubleshooting.md
 - name: 'Yükseltmeler, güncelleştirmeler ve düzeltmeler'

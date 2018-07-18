@@ -1,84 +1,87 @@
-- name: Dynamics 365 for Talent'a hoş geldiniz
+- name: Dynamics 365 for Talent
   href: index.md
-- name: Başlarken
-  href: talent-get-started.md
   items:
-    - name: Sistem gereksinimleri ve güncelleştirme ilkesi
-      href: talent-versions-update-policy.md
-    - name: Microsoft Dynamics 365 for Talent sağlama
-      href: provisioning-talent.md
-    - name: Bir Talent ortamını kaldırma
-      href: remove-talent-environment.md
-    - name: Microsoft Dynamics 365 for Talent Modüler Uygulamaları sağlama
-      href: modular-app-tech-faq.md
-    - name: Talent işlevini genişletme
-      href: extend-talent-functionality.md
-    - name: Dynamics 365 for Talent'taki önizleme özelliklerine erişme
-      href: access-preview-feature.md
-- name: İnsan kaynakları stratejisi geliştirme
-  href: departments-jobs-positions.md
-  items:
-    - name: İş bileşenlerini ayarlama
-      href: create-job.md
-    - name: Departman oluşturma ve departman hiyerarşisi ile ilişkilendirme
-      href: create-department-add-department-hierarchy.md
-    - name: Tüzel kişilikler arasında İK parametreleri ayarlama
-      href: set-up-hr-parameters-across-legal-entities.md
-    - name: Şirkete özgü İK parametrelerini ayarlama
-      href: set-up-company-specific-hr-parameters.md
-    - name: Personel eylemleriyle ilgili SSS
-      href: personnel-actions-faq.md
-    - name: İş süreçlerini biçimlendirme
-      href: formalize-business-processes.md
-    - name: Personel bilgilerini yönetmek için iş akışı kullanma
-      href: workflow-manage-employee-information.md
-    - name: İzin ve devamsızlığa genel bakış
-      href: leave-absence-overview.md
-- name: Kuruluşunuzun personelini belirleme
-  items:
-    - name: Attract'e genel bakış
-      href: attract-overview.md
-    - name: Onboard'a genel bakış
-      href: create-onboarding-experience.md
-- name: Personeli motive etme
-  items:
-    - name: Ücret planları
-      href: compensation-plans.md
-    - name: Sabit ücret planları oluşturma
-      href: create-fixed-compensation-plans.md
-    - name: Değişken ücret planları oluşturma
-      href: create-variable-compensation-plans.md
-    - name: İşlem ücreti
-      href: process-compensation.md
-- name: Personeli geliştirme ve eğitme
-  items:
-    - name: Performans yönetimine genel bakış
-      href: performance-management-overview.md
-    - name: İş gücü becerilerini iş ihtiyaçlarına uygun hale getirme
-      href: skills.md
-    - name: Eğitim kursları ayarlama
-      href: courses.md
-- name: Kazançlar oluşturma ve koruma
-  href: manage-benefit-program.md
-- name: Kazanca uygunluk ilkeleri
-  href: benefit-eligibility-policies.md
-  items:
-    - name: Çalışanlara ödünç verilen öğeleri yönetme
-      href: loan-items.md
-- name: Soru formları kullanarak bilgi toplama
-  href: questionnaires.md
-  items:
-    - name: Soru formu tasarlama
-      href: design-questionnaires.md
-    - name: Soru formunu dağıtma ve doldurma
-      href: distribute-questionnaires.md
-    - name: Soru formunun sonuçlarını değerlendirme
-      href: evaluate-questionnaire-results.md
-- name: Çalışma alanı güvenliği ve uyumluluğu (ABD)
-  items:
-    - name: Talent kullanarak kişisel veri isteğini yanıtlama
-      href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
-    - name: Form I-9 istihdamı doğrulama
-      href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
-    - name: ADA ile uyumluluk
-      href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json
+    - name: Başlarken
+      href: talent-get-started.md
+      items:
+        - name: Sistem gereksinimleri ve güncelleştirme ilkesi
+          href: talent-versions-update-policy.md
+        - name: Microsoft Dynamics 365 for Talent sağlama
+          href: provisioning-talent.md
+        - name: Bir Talent ortamını kaldırma
+          href: remove-talent-environment.md
+        - name: Microsoft Dynamics 365 for Talent Modüler Uygulamaları sağlama
+          href: modular-app-tech-faq.md
+        - name: Talent işlevini genişletme
+          href: extend-talent-functionality.md
+        - name: Dynamics 365 for Talent'taki önizleme özelliklerine erişme
+          href: access-preview-feature.md
+        - name: Bordro tümleştirmesini desteklemek üzere Talent'ı yapılandırma
+          href: configure-payroll-integration.md
+    - name: İnsan kaynakları stratejisi geliştirme
+      href: departments-jobs-positions.md
+      items:
+        - name: İş bileşenlerini ayarlama
+          href: create-job.md
+        - name: Departman oluşturma ve departman hiyerarşisi ile ilişkilendirme
+          href: create-department-add-department-hierarchy.md
+        - name: Tüzel kişilikler arasında İK parametreleri ayarlama
+          href: set-up-hr-parameters-across-legal-entities.md
+        - name: Şirkete özgü İK parametrelerini ayarlama
+          href: set-up-company-specific-hr-parameters.md
+        - name: Personel eylemleriyle ilgili SSS
+          href: personnel-actions-faq.md
+        - name: İş süreçlerini biçimlendirme
+          href: formalize-business-processes.md
+        - name: Personel bilgilerini yönetmek için iş akışı kullanma
+          href: workflow-manage-employee-information.md
+        - name: İzin ve devamsızlığa genel bakış
+          href: leave-absence-overview.md
+    - name: Kuruluşunuzun personelini belirleme
+      items:
+        - name: Attract'e genel bakış
+          href: attract-overview.md
+        - name: Onboard'a genel bakış
+          href: create-onboarding-experience.md
+    - name: Personeli motive etme
+      items:
+        - name: Ücret planları
+          href: compensation-plans.md
+        - name: Sabit ücret planları oluşturma
+          href: create-fixed-compensation-plans.md
+        - name: Değişken ücret planları oluşturma
+          href: create-variable-compensation-plans.md
+        - name: İşlem ücreti
+          href: process-compensation.md
+    - name: Personeli geliştirme ve eğitme
+      items:
+        - name: Performans yönetimine genel bakış
+          href: performance-management-overview.md
+        - name: İş gücü becerilerini iş ihtiyaçlarına uygun hale getirme
+          href: skills.md
+        - name: Eğitim kursları ayarlama
+          href: courses.md
+    - name: Kazançlar oluşturma ve koruma
+      href: manage-benefit-program.md
+    - name: Kazanca uygunluk ilkeleri
+      href: benefit-eligibility-policies.md
+      items:
+        - name: Çalışanlara ödünç verilen öğeleri yönetme
+          href: loan-items.md
+    - name: Soru formları kullanarak bilgi toplama
+      href: questionnaires.md
+      items:
+        - name: Soru formu tasarlama
+          href: design-questionnaires.md
+        - name: Soru formunu dağıtma ve doldurma
+          href: distribute-questionnaires.md
+        - name: Soru formunun sonuçlarını değerlendirme
+          href: evaluate-questionnaire-results.md
+    - name: Çalışma alanı güvenliği ve uyumluluğu (ABD)
+      items:
+        - name: Talent kullanarak kişisel veri isteğini yanıtlama
+          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
+        - name: Form I-9 istihdamı doğrulama
+          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
+        - name: ADA ile uyumluluk
+          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json
