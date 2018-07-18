@@ -410,151 +410,6 @@
     - name: Mali yönetim
       href: ../financials/index.md
       items:
-        - name: Genel muhasebe
-          href: ../financials/general-ledger/general-ledger.md
-          items:
-            - name: Hesaplar
-              items:
-                - name: Tahakkuklara genel bakış
-                  href: ../financials/general-ledger/accruals-overview.md
-                - name: Eleme kuralları
-                  href: ../financials/general-ledger/elimination-rules.md
-                - name: Hesap ve boyut birleşimleri
-                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                - name: Birimlerarası muhasebe için dengelenmiş günlükler
-                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
-                - name: Deftere nakil tanımları
-                  href: ../financials/general-ledger/posting-definitions.md
-                - name: 'Deftere nakil tanımı örnekleri '
-                  href: ../financials/general-ledger/example-posting-definitions.md
-                - name: Genel muhasebe hesap bakiyeleri
-                  href: ../financials/general-ledger/general-ledger-account-balances.md
-                - name: Mali boyutları tanımlama
-                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
-                - name: Mali boyut varsayılan şablonlarını koruma
-                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
-                - name: Hesap yapıları oluşturma
-                  href: ../financials/general-ledger/tasks/create-account-structures.md
-                - name: Tahakkuk planları oluşturma
-                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
-                - name: Konsolidasyon grupları ve ek konsolidasyon hesapları oluşturma
-                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
-                - name: Ana hesap türleri
-                  href: ../financials/general-ledger/main-account-types.md
-                - name: Ana hesap oluşturma
-                  href: ../financials/general-ledger/tasks/create-main-account.md
-                - name: Hesap planınızı planlama
-                  href: ../financials/general-ledger/plan-chart-of-accounts.md
-                - name: Genel muhasebe hesapları arasındaki hareketleri kapatma
-                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
-                - name: Genel muhasebe hesabı diğer adlarını ayarlama
-                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
-                - name: Ana hesap kategorilerini ayarlama
-                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
-                - name: Muhasebe kaynağı gezgini
-                  href: ../financials/accounts-payable/accounting-source-explorer.md
-                - name: Muhasebe dağılımları
-                  href: ../financials/accounts-payable/accounting-distributions.md
-                - name: Tahsisatları işleme
-                  href: ../financials/general-ledger/process-allocations.md
-                - name: Mali boyutlar
-                  href: ../financials/general-ledger/financial-dimensions.md
-                - name: Muhasebe veya raporlama para birimlerini dönüştürme
-                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
-                - name: Konsolidasyon hesabı grupları ve hesapları
-                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
-                - name: Konsolidasyon ve elemeye genel bakış
-                  href: ../financials/budgeting/consolidation-elimination-overview.md
-                - name: 'Mali takvimler, mali yıllar ve dönemler'
-                  href: ../financials/general-ledger/configure-account-structures.md
-                - name: Hesap yapılarını yapılandırma
-                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-            - name: Günlükler ve genel muhasebe defterleri
-              items:
-                - name: Genel günlük işleme
-                  href: ../financials/general-ledger/general-journal-processing.md
-                - name: Periyodik günlükleri deftere nakletme
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: Genel muhasebe tahsisat günlüğünü işleme
-                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
-                - name: Şirketlerarası muhasebe ayarı
-                  href: ../financials/general-ledger/intercompany-accounting-setup.md
-                - name: Genel muhasebe tahsisat kuralları
-                  href: ../financials/general-ledger/ledger-allocation-rules.md
-                - name: Günlükler için gelişmiş kurallar oluşturma
-                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
-                - name: Gelişmiş kural yapıları oluşturma ve atama
-                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
-                - name: Genel muhasebe günlük türleri
-                  href: ../financials/general-ledger/ledger-journal-types.md
-                - name: Günlükler oluşturma ve doğrulama
-                  href: ../financials/general-ledger/tasks/create-validate-journals.md
-                - name: Günlük girişlerini veya hareketlerini görüntüleme
-                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
-                - name: Günlükten ilgili şirketlerarası fişi görüntüleme
-                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                - name: Şablon kullanarak günlük girişi oluşturma
-                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
-                - name: Genel muhasebe tahakkuk hareketleri oluşturma
-                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
-                - name: Excel'den günlük satırlarını ve belgeleri yayımlama
-                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
-                - name: Günlük girişlerini ve hareketlerini görüntüleme
-                  href: ../financials/general-ledger/view-journal-entries-transactions.md
-                - name: Deftere nakledilen günlük girişlerini günlüğe aktarma
-                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
-                - name: Konsolidasyon şirketinde para birimi yeniden değerleme
-                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
-                - name: Genel muhasebe için yabancı para birimi yeniden değerleme işlemi
-                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: Para birimi döviz kurlarını içe aktarma
-                  href: ../financials/general-ledger/import-currency-exchange-rates.md
-            - name: Dönem sonu kapanışı
-              items:
-                - name: Genel muhasebeyi dönem sonunda kapatma
-                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
-                - name: Mali dönem kapatma çalışma alanı
-                  href: ../financials/general-ledger/financial-period-close-workspace.md
-                - name: Yıl sonu kapanışı
-                  href: ../financials/general-ledger/year-end-close.md
-                - name: Mali yılı kapatma
-                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
-                - name: Toplu mali dönem kapatma
-                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
-            - name: Satış vergisi
-              items:
-                - name: Satış vergisine genel bakış
-                  href: ../financials/general-ledger/indirect-taxes-overview.md
-                - name: Marjinal taban ve hesaplama yöntemlerine dayalı satış vergisi oranları
-                  href: ../financials/general-ledger/marginal-base-field.md
-                - name: Satış vergisi ödemeleri ve yuvarlama kuralları
-                  href: ../financials/general-ledger/round-sales-tax-payments.md
-                - name: Kaynak alanında satış vergisi hesaplama yöntemleri
-                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: Satış vergisi kodları için tam tutar ve aralık hesaplama seçenekleri
-                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: Satıcı faturasındaki satış vergisini hesaplama ve ayarlama
-                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: Satış vergisi ödemesi oluşturma
-                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
-                - name: Belgelerde satış vergisi hareketleri oluşturma
-                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: Satış vergisi için genel muhasebe deftere nakil grupları ayarlama
-                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: Satış vergisi makamlarını ayarlama
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: Satış vergisi kodlarını ayarlama
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: Satış vergisi gruplarını ve madde satış vergisi gruplarını ayarlama
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: Satış vergisi raporlama kodlarını ayarlama
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: Satış vergisi kapatma dönemlerini ayarlama
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Stopaj vergisini ayarlama
-                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
-                - name: Deftere nakledilen satış vergisi hareketlerini görüntüleme
-                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
         - name: Borç hesapları
           href: ../financials/accounts-payable/accounts-payable.md
           items:
@@ -658,10 +513,14 @@
               href: ../financials/accounts-receivable/customer-posting-profiles.md
             - name: SEPA hesaptan ödemeye genel bakış
               href: ../financials/accounts-receivable/sepa-direct-debit-overview.md
-            - name: SEPA doğrudan hesaptan ödeme talimatı
+            - name: SEPA hesaptan ödeme talimatı
               href: ../financials/accounts-receivable/sepa-direct-debit-mandate.md
             - name: 'Kredi kartı ayarı, onayı ve çekimi'
               href: ../financials/accounts-receivable/credit-card-authorizations.md
+            - name: Serbest metin faturası oluşturma
+              href: ../financials/accounts-receivable/create-free-text-invoice-new.md
+            - name: Serbest metin faturası şablonu oluşturma
+              href: ../financials/accounts-receivable/create-free-text-invoice-template-new.md
             - name: Serbest metin faturasını düzeltme
               href: ../financials/accounts-receivable/correct-free-text-invoice.md
             - name: Faiz kodu için faiz oranları ayarlama
@@ -678,16 +537,10 @@
               href: ../financials/accounts-receivable/close-accounts-receivable.md
             - name: Alacak hesapları görevleri
               items:
-                - name: Müşteriye serbest metin fatura şablonu atama
+                - name: Müşteriye serbest metin faturası şablonu atama
                   href: ../financials/accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
                 - name: Tahsilat mektubu sırası oluşturma
                   href: ../financials/accounts-receivable/tasks/create-collection-letter-sequence.md
-                - name: Müşteri için hesaptan ödeme talimatı oluşturma
-                  href: ../financials/accounts-receivable/tasks/create-direct-debit-mandate-customer.md
-                - name: Serbest metin faturası oluşturma
-                  href: ../financials/accounts-receivable/tasks/create-free-text-invoice.md
-                - name: Serbest metin fatura şablonu oluşturma
-                  href: ../financials/accounts-receivable/tasks/create-free-text-invoice-template.md
                 - name: Aralığa sahip faiz kodu oluşturma
                   href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
                 - name: Satış siparişi faturaları oluşturma
@@ -732,6 +585,31 @@
                   href: ../financials/accounts-receivable/reimburse-customers.md
                 - name: Kısmi tutar için müşteri ödemeleri
                   href: ../financials/accounts-receivable/customer-payments-partial-amount.md
+        - name: Bütçeleme
+          href: ../financials/budgeting/budgeting-overview.md
+          items:
+            - name: 'Bütçe planlamaya genel bakış '
+              href: ../financials/budgeting/budget-planning-overview-configuration.md
+            - name: 'Bütçe denetimine genel bakış '
+              href: ../financials/budgeting/budget-control-overview-configuration.md
+            - name: 'Bütçelemeye genel bakış  '
+              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
+            - name: Pozisyon tahmini
+              href: ../financials/budgeting/position-forecasting.md
+            - name: Bütçe planlama gerekçe belgeleri
+              href: ../financials/budgeting/budget-planning-justification-docs.md
+            - name: Hareket hesaplarından ve toplam hesaplardan bütçe oluşturma
+              href: ../financials/budgeting/create-budget-transaction-accounts-total-accounts.md
+            - name: Excel için bütçe planlama şablonları
+              href: ../financials/budgeting/budget-planning-excel-templates.md
+            - name: Pozisyon bütçeleme sorunlarını giderme
+              href: ../financials/budgeting/position-budgeting-set-up-issues.md
+            - name: Bütçe planlama
+              href: ../financials/budgeting/budget-plan.md
+            - name: Bütçe planlama veri tahsisatı
+              href: ../financials/budgeting/budget-planning-data-allocation.md
+            - name: Diğer modüllerle bütçe planlama tümleştirmesi
+              href: ../financials/budgeting/budget-planning-integration-other-modules.md
         - name: Nakit ve banka yönetimi
           href: ../financials/cash-bank-management/cash-bank-management.md
           items:
@@ -811,6 +689,112 @@
                   href: ../financials/cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: Banka günlüğü bileşik varlığını güncelleştirme
                   href: ../financials/cash-bank-management/upgrade-bank-journal-composite-entity.md
+        - name: Maliyet muhasebesi
+          href: ../financials/cost-accounting/cost-accounting-home-page.md
+          items:
+            - name: Maliyet muhasebesi terminolojisi
+              href: ../financials/cost-accounting/terms-cost-accounting.md
+            - name: 'Mali takvimler, mali yıllar ve dönemler'
+              href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+            - name: Mali boyutlar
+              href: ../financials/general-ledger/financial-dimensions.md
+            - name: Hesap yapıları
+              href: ../financials/general-ledger/Default-dimensions.md
+            - name: Hesap yapıları oluşturma
+              href: ../financials/general-ledger/tasks/create-account-structures.md
+            - name: Bütçelemeye genel bakış
+              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
+            - name: Boyut oluşturma ve boyut üyelerini içe aktarma
+              href: ../financials/cost-accounting/cost-dimension.md
+            - name: Maliyet öğesi boyutları
+              href: ../financials/cost-accounting/cost-elements.md
+            - name: Maliyet öğeleri oluşturma
+              href: ../financials/cost-accounting/tasks/create-cost-elements.md
+            - name: Maliyet nesnesi boyutları
+              href: ../financials/cost-accounting/cost-objects.md
+            - name: Maliyet nesneleri oluşturma
+              href: ../financials/cost-accounting/tasks/create-cost-objects.md
+            - name: Maliyet öğesi boyutu üyelerini ortak bir boyut öğeleri kümesiyle eşleme
+              href: ../financials/cost-accounting/map-cost-elements-dimension-members.md
+            - name: Maliyet öğesi boyutunu eşleştirme
+              href: ../financials/cost-accounting/tasks/map-cost-element-dimension.md
+            - name: Boyut hiyerarşisi
+              href: ../financials/cost-accounting/dimension-hierarchy.md
+            - name: Kuruluş raporu hiyerarşisi oluşturma
+              href: ../financials/cost-accounting/tasks/create-an-organization-report-hierarchy.md
+            - name: Bir maliyet nesnesi denetleyicisinin erişim hakları
+              href: ../financials/cost-accounting/access-rights-cost-object-controller.md
+            - name: Maliyet nesnesi denetleyicisi için erişim haklarını yapılandırma
+              href: ../financials/cost-accounting/tasks/configure-access-rights-cost-object-controller.md
+            - name: Maliyet kontrol birimlerini tanımlama
+              href: ../financials/cost-accounting/tasks/define-cost-control-units.md
+            - name: Maliyet muhasebesi defteri oluşturma
+              href: ../financials/cost-accounting/tasks/create-cost-accounting-ledger.md
+            - name: İstatistiksel boyut üyeleri ve istatistiksel ölçü sağlayıcısı şablonları
+              href: ../financials/cost-accounting/statistical-measure-provider-template.md
+            - name: Tahsisat temelleri
+              href: ../financials/cost-accounting/allocation-bases.md
+            - name: Maliyet tahsisatı ilkesi oluşturma ve bir maliyet kontrol birimine atama
+              href: ../financials/cost-accounting/tasks/create-assign-cost-allocation-policy-cost-control-unit.md
+            - name: Maliyet davranış ilkesi oluşturma ve bir maliyet kontrol birimine atama
+              href: ../financials/cost-accounting/tasks/create-assign-cost-behavior-policy-cost-control-unit.md
+            - name: Maliyet dağıtım ilkesi oluşturma ve bir maliyet kontrol birimine atama
+              href: ../financials/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
+            - name: Maliyet yuvarlama ilkesi oluşturma
+              href: ../financials/cost-accounting/tasks/create-cost-rollup-policy.md
+            - name: Maliyet muhasebesi defteri için veri kaynağını yönetme
+              href: ../financials/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
+            - name: Kaynak verilerini işleme ve izleme
+              href: ../financials/cost-accounting/tasks/process-trace-source-data.md
+            - name: Genel gider hesaplaması
+              href: ../financials/cost-accounting/overhead-calculation.md
+            - name: Maliyet yuvarlama ilkesi ve genel gider hesaplaması
+              href: ../financials/cost-accounting/cost-rollup.md
+            - name: Maliyet kontrolü çalışma alanını yapılandırma
+              href: ../financials/cost-accounting/cost-control-workspace.md
+            - name: Maliyet kontrolü çalışma alanı parametrelerini yapılandırma
+              href: ../financials/cost-accounting/tasks/configure-cost-control-workspace-parameters.md
+            - name: Microsoft Power BI'da erişim listesi güvenliğini ve RLS'yi anlama
+              href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
+            - name: Microsoft Power BI raporlaması için içerik paketi kullanma
+              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
+            - name: Finance and Operations mobil uygulaması için maliyet kontrolü çalışma alanını kullanma
+              href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
+        - name: Gider yönetimi
+          href: ../financials/expense-management/expense-management.md
+          items:
+            - name: Gider yönetimini planlama
+              href: ../financials/expense-management/plan-expense-management.md
+            - name: Gider yönetimi parametreleri
+              href: ../financials/expense-management/Expense-Management-Parameters.md
+            - name: Gider yönetimi mobil çalışma alanı
+              href: ../financials/expense-management/expense-management-mobile-workspace.md
+            - name: Gider yönetimi için iş akışları ayarlama
+              href: ../financials/expense-management/expense-workflows.md
+            - name: Gider yönetimi iş akışı
+              href: ../financials/expense-management/expense-workflow.md
+            - name: Kredi kartı hareketlerini içe aktarma ve yönetme
+              href: ../financials/expense-management/import-credit-card.md
+            - name: Gider raporundaki dağıtımlar
+              href: ../financials/expense-management/expense-report-distributions.md
+            - name: Şirketlerarası giderler
+              href: ../financials/expense-management/intercompany-expense.md
+            - name: Gider ilkeleri
+              href: ../financials/expense-management/travel-expense-policies.md
+            - name: Gider raporu görüntüleme
+              href: ../financials/expense-management/view-expense-report.md
+            - name: Gider raporunu deftere nakletme
+              href: ../financials/expense-management/post-expense.md
+            - name: Gider raporları ve birden çok onaylayan
+              href: ../financials/expense-management/expense-report-multiple-approvers.md
+            - name: Gider yönetiminde KDV kurtarma
+              href: ../financials/expense-management/VAT-expense-report.md
+            - name: Harcırah kuralları
+              href: ../financials/expense-management/per-diem.md
+            - name: Seyahat talepleri
+              href: ../financials/expense-management/travel-req.md
+            - name: Bir gider raporundaki kişisel giderler
+              href: ../financials/expense-management/personal-expenses.md
         - name: Sabit kıymetler
           href: ../financials/fixed-assets/fixed-assets.md
           items:
@@ -916,152 +900,151 @@
                   href: ../financials/fixed-assets/tasks/split-fixed-asset.md
                 - name: Sabit kıymeti transfer etme
                   href: ../financials/fixed-assets/tasks/transfer-fixed-asset.md
-        - name: Gider yönetimi
-          href: ../financials/expense-management/expense-management.md
+        - name: Genel muhasebe
+          href: ../financials/general-ledger/general-ledger.md
           items:
-            - name: Gider yönetimini planlama
-              href: ../financials/expense-management/plan-expense-management.md
-            - name: Gider yönetimi parametreleri
-              href: ../financials/expense-management/Expense-Management-Parameters.md
-            - name: Gider yönetimi mobil çalışma alanı
-              href: ../financials/expense-management/expense-management-mobile-workspace.md
-            - name: Gider yönetimi için iş akışları ayarlama
-              href: ../financials/expense-management/expense-workflows.md
-            - name: Gider yönetimi iş akışı
-              href: ../financials/expense-management/expense-workflow.md
-            - name: Kredi kartı hareketlerini içe aktarma ve yönetme
-              href: ../financials/expense-management/import-credit-card.md
-            - name: Gider raporundaki dağıtımlar
-              href: ../financials/expense-management/expense-report-distributions.md
-            - name: Şirketlerarası giderler
-              href: ../financials/expense-management/intercompany-expense.md
-            - name: Gider ilkeleri
-              href: ../financials/expense-management/travel-expense-policies.md
-            - name: Gider raporu görüntüleme
-              href: ../financials/expense-management/view-expense-report.md
-            - name: Gider raporunu deftere nakletme
-              href: ../financials/expense-management/post-expense.md
-            - name: Gider raporları ve birden çok onaylayan
-              href: ../financials/expense-management/expense-report-multiple-approvers.md
-            - name: Gider yönetiminde KDV kurtarma
-              href: ../financials/expense-management/VAT-expense-report.md
-            - name: Harcırah kuralları
-              href: ../financials/expense-management/per-diem.md
-            - name: Seyahat talepleri
-              href: ../financials/expense-management/travel-req.md
-            - name: Bir gider raporundaki kişisel giderler
-              href: ../financials/expense-management/personal-expenses.md
-        - name: Bütçeleme
-          href: ../financials/budgeting/budgeting-overview.md
-          items:
-            - name: 'Bütçe planlamaya genel bakış '
-              href: ../financials/budgeting/budget-planning-overview-configuration.md
-            - name: 'Bütçe denetimine genel bakış '
-              href: ../financials/budgeting/budget-control-overview-configuration.md
-            - name: 'Bütçelemeye genel bakış  '
-              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
-            - name: Pozisyon tahmini
-              href: ../financials/budgeting/position-forecasting.md
-            - name: Bütçe planlama gerekçe belgeleri
-              href: ../financials/budgeting/budget-planning-justification-docs.md
-            - name: Hareket hesaplarından ve toplam hesaplardan bütçe oluşturma
-              href: ../financials/budgeting/create-budget-transaction-accounts-total-accounts.md
-            - name: Excel için bütçe planlama şablonları
-              href: ../financials/budgeting/budget-planning-excel-templates.md
-            - name: Pozisyon bütçeleme sorunlarını giderme
-              href: ../financials/budgeting/position-budgeting-set-up-issues.md
-            - name: Bütçe planlama
-              href: ../financials/budgeting/budget-plan.md
-            - name: Bütçe planlama veri tahsisatı
-              href: ../financials/budgeting/budget-planning-data-allocation.md
-            - name: Diğer modüllerle bütçe planlama tümleştirmesi
-              href: ../financials/budgeting/budget-planning-integration-other-modules.md
-        - name: Raporlama
-          href: ../financials/general-ledger/financial-reporting-getting-started.md
-          items:
-            - name: Bilanço mali raporları
-              href: ../financials/general-ledger/balance-sheet-financial-reports.md
-            - name: Mali rapor oluşturma
-              href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
-            - name: Gelir tablosu mali raporu
-              href: ../financials/general-ledger/income-statement-financial-report.md
-            - name: Mizan mali raporları
-              href: ../financials/general-ledger/trial-balance-financial-reports.md
-            - name: Mali raporları görüntüleme
-              href: ../financials/general-ledger/view-financial-reports.md
-            - name: Rapor tasarımcısı
-              href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-        - name: Maliyet muhasebesi
-          href: ../financials/cost-accounting/cost-accounting-home-page.md
-          items:
-            - name: Maliyet muhasebesi terminolojisi
-              href: ../financials/cost-accounting/terms-cost-accounting.md
-            - name: 'Mali takvimler, mali yıllar ve dönemler'
-              href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-            - name: Mali boyutlar
-              href: ../financials/general-ledger/financial-dimensions.md
-            - name: Hesap yapıları
-              href: ../financials/general-ledger/Default-dimensions.md
-            - name: Hesap yapıları oluşturma
-              href: ../financials/general-ledger/tasks/create-account-structures.md
-            - name: Bütçelemeye genel bakış
-              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
-            - name: Boyut oluşturma ve boyut üyelerini içe aktarma
-              href: ../financials/cost-accounting/cost-dimension.md
-            - name: Maliyet öğesi boyutları
-              href: ../financials/cost-accounting/cost-elements.md
-            - name: Maliyet öğeleri oluşturma
-              href: ../financials/cost-accounting/tasks/create-cost-elements.md
-            - name: Maliyet nesnesi boyutları
-              href: ../financials/cost-accounting/cost-objects.md
-            - name: Maliyet nesneleri oluşturma
-              href: ../financials/cost-accounting/tasks/create-cost-objects.md
-            - name: Maliyet öğesi boyutu üyelerini ortak bir boyut öğeleri kümesiyle eşleme
-              href: ../financials/cost-accounting/map-cost-elements-dimension-members.md
-            - name: Maliyet öğesi boyutunu eşleştirme
-              href: ../financials/cost-accounting/tasks/map-cost-element-dimension.md
-            - name: Boyut hiyerarşisi
-              href: ../financials/cost-accounting/dimension-hierarchy.md
-            - name: Kuruluş raporu hiyerarşisi oluşturma
-              href: ../financials/cost-accounting/tasks/create-an-organization-report-hierarchy.md
-            - name: Bir maliyet nesnesi denetleyicisinin erişim hakları
-              href: ../financials/cost-accounting/access-rights-cost-object-controller.md
-            - name: Maliyet nesnesi denetleyicisi için erişim haklarını yapılandırma
-              href: ../financials/cost-accounting/tasks/configure-access-rights-cost-object-controller.md
-            - name: Maliyet kontrol birimlerini tanımlama
-              href: ../financials/cost-accounting/tasks/define-cost-control-units.md
-            - name: Maliyet muhasebesi defteri oluşturma
-              href: ../financials/cost-accounting/tasks/create-cost-accounting-ledger.md
-            - name: İstatistiksel boyut üyeleri ve istatistiksel ölçü sağlayıcısı şablonları
-              href: ../financials/cost-accounting/statistical-measure-provider-template.md
-            - name: Tahsisat temelleri
-              href: ../financials/cost-accounting/allocation-bases.md
-            - name: Maliyet tahsisatı ilkesi oluşturma ve bir maliyet kontrol birimine atama
-              href: ../financials/cost-accounting/tasks/create-assign-cost-allocation-policy-cost-control-unit.md
-            - name: Maliyet davranış ilkesi oluşturma ve bir maliyet kontrol birimine atama
-              href: ../financials/cost-accounting/tasks/create-assign-cost-behavior-policy-cost-control-unit.md
-            - name: Maliyet dağıtım ilkesi oluşturma ve bir maliyet kontrol birimine atama
-              href: ../financials/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
-            - name: Maliyet yuvarlama ilkesi oluşturma
-              href: ../financials/cost-accounting/tasks/create-cost-rollup-policy.md
-            - name: Maliyet muhasebesi defteri için veri kaynağını yönetme
-              href: ../financials/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
-            - name: Kaynak verilerini işleme ve izleme
-              href: ../financials/cost-accounting/tasks/process-trace-source-data.md
-            - name: Genel gider hesaplaması
-              href: ../financials/cost-accounting/overhead-calculation.md
-            - name: Maliyet yuvarlama ilkesi ve genel gider hesaplaması
-              href: ../financials/cost-accounting/cost-rollup.md
-            - name: Maliyet kontrolü çalışma alanını yapılandırma
-              href: ../financials/cost-accounting/cost-control-workspace.md
-            - name: Maliyet kontrolü çalışma alanı parametrelerini yapılandırma
-              href: ../financials/cost-accounting/tasks/configure-cost-control-workspace-parameters.md
-            - name: Microsoft Power BI'da erişim listesi güvenliğini ve RLS'yi anlama
-              href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: Microsoft Power BI raporlaması için içerik paketi kullanma
-              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: Finance and Operations mobil uygulaması için maliyet kontrolü çalışma alanını kullanma
-              href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
+            - name: Hesaplar
+              items:
+                - name: Tahakkuklara genel bakış
+                  href: ../financials/general-ledger/accruals-overview.md
+                - name: Eleme kuralları
+                  href: ../financials/general-ledger/elimination-rules.md
+                - name: Hesap ve boyut birleşimleri
+                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: Birimlerarası muhasebe için dengelenmiş günlükler
+                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: Deftere nakil tanımları
+                  href: ../financials/general-ledger/posting-definitions.md
+                - name: 'Deftere nakil tanımı örnekleri '
+                  href: ../financials/general-ledger/example-posting-definitions.md
+                - name: Genel muhasebe hesap bakiyeleri
+                  href: ../financials/general-ledger/general-ledger-account-balances.md
+                - name: Mali boyutları tanımlama
+                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
+                - name: Mali boyut varsayılan şablonlarını koruma
+                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: Hesap yapıları oluşturma
+                  href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: Tahakkuk planları oluşturma
+                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
+                - name: Konsolidasyon grupları ve ek konsolidasyon hesapları oluşturma
+                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
+                - name: Ana hesap türleri
+                  href: ../financials/general-ledger/main-account-types.md
+                - name: Ana hesap oluşturma
+                  href: ../financials/general-ledger/tasks/create-main-account.md
+                - name: Hesap planınızı planlama
+                  href: ../financials/general-ledger/plan-chart-of-accounts.md
+                - name: Genel muhasebe hesapları arasındaki hareketleri kapatma
+                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: Genel muhasebe hesabı diğer adlarını ayarlama
+                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: Ana hesap kategorilerini ayarlama
+                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
+                - name: Muhasebe kaynağı gezgini
+                  href: ../financials/accounts-payable/accounting-source-explorer.md
+                - name: Muhasebe dağılımları
+                  href: ../financials/accounts-payable/accounting-distributions.md
+                - name: Tahsisatları işleme
+                  href: ../financials/general-ledger/process-allocations.md
+                - name: Mali boyutlar
+                  href: ../financials/general-ledger/financial-dimensions.md
+                - name: Muhasebe veya raporlama para birimlerini dönüştürme
+                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
+                - name: Konsolidasyon hesabı grupları ve hesapları
+                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: Konsolidasyon ve elemeye genel bakış
+                  href: ../financials/budgeting/consolidation-elimination-overview.md
+                - name: 'Mali takvimler, mali yıllar ve dönemler'
+                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: Hesap yapılarını yapılandırma
+                  href: ../financials/general-ledger/configure-account-structures.md
+            - name: Günlükler ve genel muhasebe defterleri
+              items:
+                - name: Genel günlük işleme
+                  href: ../financials/general-ledger/general-journal-processing.md
+                - name: Periyodik günlükleri deftere nakletme
+                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
+                - name: Genel muhasebe tahsisat günlüğünü işleme
+                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: Şirketlerarası muhasebe ayarı
+                  href: ../financials/general-ledger/intercompany-accounting-setup.md
+                - name: Genel muhasebe tahsisat kuralları
+                  href: ../financials/general-ledger/ledger-allocation-rules.md
+                - name: Günlükler için gelişmiş kurallar oluşturma
+                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
+                - name: Gelişmiş kural yapıları oluşturma ve atama
+                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: Genel muhasebe günlük türleri
+                  href: ../financials/general-ledger/ledger-journal-types.md
+                - name: Günlükler oluşturma ve doğrulama
+                  href: ../financials/general-ledger/tasks/create-validate-journals.md
+                - name: Günlük girişlerini veya hareketlerini görüntüleme
+                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: Günlükten ilgili şirketlerarası fişi görüntüleme
+                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: Şablon kullanarak günlük girişi oluşturma
+                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
+                - name: Genel muhasebe tahakkuk hareketleri oluşturma
+                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: Excel'den günlük satırlarını ve belgeleri yayımlama
+                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
+                - name: Günlük girişlerini ve hareketlerini görüntüleme
+                  href: ../financials/general-ledger/view-journal-entries-transactions.md
+                - name: Deftere nakledilen günlük girişlerini günlüğe aktarma
+                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: Konsolidasyon şirketinde para birimi yeniden değerleme
+                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
+                - name: Genel muhasebe için yabancı para birimi yeniden değerleme işlemi
+                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: Para birimi döviz kurlarını içe aktarma
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
+            - name: Dönem sonu kapanışı
+              items:
+                - name: Genel muhasebeyi dönem sonunda kapatma
+                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
+                - name: Mali dönem kapatma çalışma alanı
+                  href: ../financials/general-ledger/financial-period-close-workspace.md
+                - name: Yıl sonu kapanışı
+                  href: ../financials/general-ledger/year-end-close.md
+                - name: Mali yılı kapatma
+                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
+                - name: Toplu mali dönem kapatma
+                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
+            - name: Satış vergisi
+              items:
+                - name: Satış vergisine genel bakış
+                  href: ../financials/general-ledger/indirect-taxes-overview.md
+                - name: Marjinal taban ve hesaplama yöntemlerine dayalı satış vergisi oranları
+                  href: ../financials/general-ledger/marginal-base-field.md
+                - name: Satış vergisi ödemeleri ve yuvarlama kuralları
+                  href: ../financials/general-ledger/round-sales-tax-payments.md
+                - name: Kaynak alanında satış vergisi hesaplama yöntemleri
+                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: Satış vergisi kodları için tam tutar ve aralık hesaplama seçenekleri
+                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: Satıcı faturasındaki satış vergisini hesaplama ve ayarlama
+                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: Satış vergisi ödemesi oluşturma
+                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
+                - name: Belgelerde satış vergisi hareketleri oluşturma
+                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: Satış vergisi için genel muhasebe deftere nakil grupları ayarlama
+                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: Satış vergisi makamlarını ayarlama
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: Satış vergisi kodlarını ayarlama
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: Satış vergisi gruplarını ve madde satış vergisi gruplarını ayarlama
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: Satış vergisi raporlama kodlarını ayarlama
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Satış vergisi kapatma dönemlerini ayarlama
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: Stopaj vergisini ayarlama
+                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
+                - name: Deftere nakledilen satış vergisi hareketlerini görüntüleme
+                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
         - name: Kamu sektörü
           href: ../financials/public-sector/public-sector-functionality.md
           items:
@@ -1149,31 +1132,41 @@
                   href: ../financials/public-sector/tasks/set-up-fund-public-sector.md
                 - name: Kamu sektöründe satınalma sözleşmesi sınıflandırmaları ayarlama
                   href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
-    - name: Mali raporlama
-      href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
-      items:
-        - name: Mali rapor oluşturma
-          href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
-        - name: Mali rapor bileşenleri
-          href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
-        - name: Rapor tasarımcısı
-          href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-        - name: Kullanıcı tercihleri
-          href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
-        - name: Gelişmiş biçimlendirme seçenekleri
-          href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Rapor bileşenlerini düzenleme
-          href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
-        - name: Rapor tanımları
-          href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
-        - name: Satır tanımları
-          href: ../dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Sütun tanımları
-          href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
-        - name: Satır tanımı hücrelerini değiştirme
-          href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Bir veritabanını geri yükledikten sonra mali raporlama veri reyonunu sıfırlama
-          href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: Mali raporlama
+          href: ../financials/general-ledger/financial-reporting-getting-started.md
+          items:
+            - name: Mali raporlamaya genel bakış
+              href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
+            - name: Mali rapor bileşenleri
+              href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
+            - name: Bilanço mali raporları
+              href: ../financials/general-ledger/balance-sheet-financial-reports.md
+            - name: Mali rapor oluşturma
+              href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
+            - name: Gelir tablosu mali raporu
+              href: ../financials/general-ledger/income-statement-financial-report.md
+            - name: Mizan mali raporları
+              href: ../financials/general-ledger/trial-balance-financial-reports.md
+            - name: Mali raporları görüntüleme
+              href: ../financials/general-ledger/view-financial-reports.md
+            - name: Rapor tasarımcısı
+              href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
+            - name: Kullanıcı tercihleri
+              href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
+            - name: Gelişmiş biçimlendirme seçenekleri
+              href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Rapor bileşenlerini düzenleme
+              href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
+            - name: Rapor tanımları
+              href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
+            - name: Satır tanımları
+              href: ../dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Sütun tanımları
+              href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
+            - name: Satır tanımı hücrelerini değiştirme
+              href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Bir veritabanını geri yükledikten sonra mali raporlama veri reyonunu sıfırlama
+              href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
     - name: Yerelleştirme ve mevzuat özellikleri
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
@@ -3994,5 +3987,3 @@
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-- name: Dynamics 365 for Talent
-  href: ../talent/toc.yml
