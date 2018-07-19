@@ -1653,6 +1653,7 @@
                 - name: Yıl sonu kapanışı
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: Danimarka
+              href: ../financials/localizations/denmark.md
               items:
                 - name: Müşteri hesabına ödeme makbuzu biçimi atama
                   href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
@@ -1684,6 +1685,7 @@
                 - name: KDV beyanı
                   href: ../financials/localizations/emea-est-vat-statement-details.md
             - name: Fransa
+              href: ../financials/localizations/france.md
               items:
                 - name: Kamu sektörü
                   items:
@@ -1760,6 +1762,7 @@
                 - name: Elektronik vergi beyannamesini ayarlama
                   href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
             - name: Macaristan
+              href: ../financials/localizations/hungary.md
               items:
                 - name: Döviz kuru hesaplaması
                   href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
@@ -1774,6 +1777,7 @@
                 - name: Yıl sonu kapanışı
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: İzlanda
+              href: ../financials/localizations/iceland.md
               items:
                 - name: Satıcı hesabı oluşturma ve fatura beyanı kategorisini iliştirme
                   href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
@@ -1784,6 +1788,7 @@
                 - name: Satıcı fatura beyannamelerini güncelleştirme ve raporu oluşturma
                   href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
             - name: İtalya
+              href: ../financials/localizations/italy.md
               items:
                 - name: KDV beyanı ayrıntıları
                   href: ../financials/localizations/emea-ita-vat-statements-details.md
@@ -1806,6 +1811,7 @@
                 - name: Stopaj vergisi
                   href: ../financials/localizations/emea-ita-withholding-tax.md
             - name: Letonya
+              href: ../financials/localizations/latvia.md
               items:
                 - name: Sabit kıymet muhasebesi
                   href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
@@ -1818,6 +1824,7 @@
                 - name: KDV beyanı ayrıntıları
                   href: ../financials/localizations/emea-lva-vat-statement-details.md
             - name: Litvanya
+              href: ../financials/localizations/lithuania.md
               items:
                 - name: Sabit kıymet onarım raporu
                   href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
@@ -1828,12 +1835,14 @@
                 - name: KDV beyanı ayrıntıları
                   href: ../financials/localizations/emea-ltu-vat-statement-details.md
             - name: Hollanda
+              href: ../financials/localizations/netherlands.md
               items:
                 - name: Elektronik vergi beyannameleri (EVAT)
                   href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL tümleştirmesi
                   href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
             - name: Norveç
+              href: ../financials/localizations/norway.md
               items:
                 - name: Müşteri ve satıcı ödeme biçimleri
                   href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
@@ -1848,6 +1857,7 @@
                 - name: Yazar kasalara ilişkin dağıtım kılavuzları
                   href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: Polonya
+              href: ../financials/localizations/poland.md
               items:
                 - name: Satır iskontolarını birim fiyat üzerinden hesaplama
                   href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
@@ -1870,6 +1880,7 @@
                 - name: Ciro bakiyeleri ekstresi
                   href: ../financials/localizations/emea-pol-turnover-balances-statement.md
             - name: İspanya
+              href: ../financials/localizations/spain.md
               items:
                 - name: Faturada nakit iskontoları uygulama
                   href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
@@ -1898,6 +1909,7 @@
                 - name: Özel girişler ve açılış tabloları
                   href: ../financials/localizations/emea-esp-opening-sheets-spain.md
             - name: İsveç
+              href: ../financials/localizations/sweden.md
               items:
                 - name: İsveç'te denetçiler için mali bilgileri dışa aktarma
                   href: ../financials/localizations/emea-swe-sie-standard-report.md
@@ -1906,10 +1918,12 @@
                 - name: Yazar kasalar
                   href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
             - name: İsviçre
+              href: ../financials/localizations/switzerland.md
               items:
                 - name: ESR'de müşteri ödemelerini içe aktarma
                   href: ../financials/localizations/emea-che-esr-customer-payments-import.md
             - name: Birleşik Krallık
+              href: ../financials/localizations/united-kingdom.md
               items:
                 - name: 'İnşaat Endüstri Şeması '
                   href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
