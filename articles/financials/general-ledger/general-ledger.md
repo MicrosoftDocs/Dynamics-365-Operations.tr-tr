@@ -19,10 +19,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2177110dc16528de7eddedb0667faae553a36b12
+ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
+ms.openlocfilehash: 9ee3f73cd11b38ed2237ea3fe08db18000e55f07
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -54,9 +54,13 @@ Ayrıca, vergi dairesi gereksinimleri değiştirdiğinde kuralların düzenli ol
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 
-### <a name="whats-new-and-in-development"></a>Geliştirmedeki yenilikler
+### <a name="whats-new"></a>Yenilikler
 
-Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microsoft Dynamics 365 Yol Haritası](https://roadmap.dynamics.com/) bölümüne gidin. 
+Kullanıma sunulmuş yeni sürümleri görmek için [Sürüm notları](https://docs.microsoft.com/en-us/business-applications-release-notes/)'na gidin. 
+
+### <a name="videos"></a>Videolar
+
+[Microsoft Dynamics 365 YouTube Kanalında](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) bulunan nasıl yapılır videolarına hemen göz atın.
 
 ### <a name="blogs"></a>Bloglar
 
@@ -66,11 +70,8 @@ Yayımlanmış ve geliştirilmekte olan yeni özellikleri görmek için [Microso
 
 [Microsoft Dynamics Operations İş Ortağı Topluluğu Blogu](https://community.dynamics.com/partner/b/operationspartnercommunityblog), Microsoft Dynamics İş Ortakları'na MBS Operations'daki yenilikler ve eğilimler hakkında bilgi edinebilecekleri tek bir kaynak sunar.
 
-### <a name="task-guides"></a>Görev kılavuzları
-Ek yardıma Finance and Operations içinde görev kılavuzları olarak ulaşılabilir. Görev kılavuzlarına erişmek için herhangi bir sayfada Yardım düğmesine tıklayın.
+#### <a name="community-blogs"></a>Topluluk blogları
 
-### <a name="videos"></a>Videolar
-
-[Microsoft Dynamics 365 YouTube Kanalında](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) bulunan nasıl yapılır videolarına hemen göz atın.
+- [Dynamics 365 for Finance and Operations'ta genel muhasebe hakkında bilmeniz gerekenler](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 
 

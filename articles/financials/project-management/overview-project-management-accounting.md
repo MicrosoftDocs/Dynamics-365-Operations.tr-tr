@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 404f7d2b050aba1532cae0955a9579e1c2f174e3
+ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
+ms.openlocfilehash: 46c8ecf8a6988c32d0202c631bef6901f467bb89
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -80,17 +80,37 @@ Organizasyonunuz bir operasyonel perspektife sahipse ve belirli hareketlerden el
 ### <a name="create-projects"></a>Projeler oluştur
 
 Microsoft Finance and Operations'da altı proje türü oluşturabilirsiniz. Her proje türü farklı maliyetlerin ve gelirin tanınması için farklı şekilde ayarlanır. Seçtiğiniz proje türü, projenin türüne dayalıdır. Aşağıdaki tabloda her bir proje türünün tipik kullanımı açıklanmıştır.
-
-                                                                                                                                                                         |
-
-| Proje türü      | Açıklama                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Zaman ve malzeme | Zamana ve malzemeye dayalı projelerde müşteri, bir projede yapılan tüm maliyetler için faturalandırılır. Bu maliyetler saat, giderler, maddeler ve ücretler için yapılan maliyetleri de içerir.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Sabit fiyat       | Sabit fiyatlı projelerde, faturalar açık hesap hareketlerinden oluşur. Bir sabit fiyatlı proje bir proje sözleşmesine dayanan bir faturalama zamanlamasına göre faturalanır. Sabit fiyatlı bir proje için gelir, tamamlanan yüzde yöntemi kullanılarak hesaplanabilir ve proje genelinde nakledilebilir. Alternatif olarak gelir, proje tamamlandığında tamamlanan sözleşme yöntemi kullanılarak hesaplanabilir ve proje genelinde nakledilebilir. Şirketler sıklıkla bir projenin veya bir grup projenin tamamlanma derecesini hesaplamak üzere süren iş (WIP) değerinin sunduğu avantajlardan yararlanır.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Yatırım        | Yatırım projeleri anlık kazançlar içermeyen projelerdir. Tipik olarak, maliyetlerin mutlaka aktifleştirilmesi gereken, uzun vadeli dahili projeler için kullanılır. Bir yatırım projesi için sadece maddeler, saat ve giderler için yapılan maliyetler kaydedilebilir. Bir Yatırım projesinin maliyeti tahmin işlevi kullanılarak takip ve kontrol edilir. Yatırım projeleri bir opsiyonel maksimum aktifleştirme kullanılarak oluşturulabilir. Bir Yatırım projesi ilerledikçe maliyetlerini WIP hesaplarına kaydedersiniz ve burada maliyetler, proje tamamlanana kadar tutulur. Proje elendiğinde, süren iş değerini sabit bir kıymete, bir genel muhasebe hesabına veya yeni bir projeye transfer edersiniz. Not: Yatırım projelerindeki hareketler **Maliyetleri deftere naklet**, **Gelir tahakkuku** veya **Fatura teklifleri oluştur** sayfasında gösterilmez.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Maliyet projesi      | Yatırım projelerinde olduğu gibi, Maliyet projeleri de tipik olarak dahili projelerin takip edilmesi için kullanılır ve bu projeler için sadece saatler, giderler ve maddeler kaydedilebilir. Ancak, Maliyet projeleri genellikle Yatırım projelerine kıyasla daha kısa sürelidir. Ek olarak, Yatırım projelerinin aksine, Maliyet projeleri, bilanço hesaplarına aktifleştirilemez. Bunun yerine, proje hareketleri yalnızca kar ve zarar hesaplarına nakledilir. **NOT** Maliyet projelerindeki hareketler **Maliyetleri deftere naklet**, **Gelir tahakkuku** veya **Fatura teklifleri oluştur** sayfasında yansıtılmaz. Maliyet projeleri genellikle iç projeleri izlemek için kullanıldığından, genellikle bir müşteri hesabı ile ilişkili olmaları gerekmez. Ancak, kurulumunuz gereği satın alma emirleri için madde gereksinimlerinin oluşturulması gerekiyorsa Maliyet projesini mutlaka bir projeyle ilişkilendirmelisiniz. Bu ilişkilendirme, madde gereksinimlerin satış emri satırları olarak yönetilmesinden ve sistemin bir müşterinin tanımlanmasını gerektirmesinden kaynaklanır. Ancak, bu kurulum, madde gereksinimlerinin otomatik olarak bir satın alma emrinden oluşturulmasına neden olmaz. Maliyet projeleri için **Madde gereksinimi oluştur** ayarı göz ardı edilir. Bir Maliyet projesinde bir madde gereksinimine ihtiyaç duyuyorsanız, projeyle bir müşterinin ilişkilendirilmiş olması şartıyla bunu manuel olarak oluşturabilirsiniz. |
-| İç          | Dahili projeler, kuruluşunuzdaki dahili bir projedeki maliyetleri izlemek için kullanılır. Dahili projeler kaynak tüketimini yönetmek için bir planlama aracı sağlar. **Not:** Dahili projelerdeki hareketler **Gelir tahakkuku** veya **Fatura teklifleri oluştur** sayfasında gösterilmez.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Zaman              | Zaman projeleri örneğin çalışanların hastalık izinlerinin takip edilmesi projesi vb. gibi ücretlendirilmeyen ve üretimle bağlantılı olmayan faaliyetlerle ilişkilendirilen sürelerin takip edilmesi için kullanılır. Zaman projelerindeki hareketler deftere nakledilmez. Bunun yerine, çalışan yararlanım raporlarına dahil edilir. Zaman projelerinde yalnızca saat hareketleri kaydedilebilir. Bu saatleri projeye kaydetmek için bir saat günlüğü veya zaman çizelgesi kullanılır. Saatler kaydedildikten sonra proje hareketleri olarak görünür ancak karşılık gelen fiş hareketleri yoktur. **Not:** Zaman projelerindeki hareketler **Maliyetleri deftere naklet**, **Gelir tahakkuku** veya **Fatura teklifleri oluştur** sayfasında yansıtılmaz.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+                                                                                                            
+<table>
+  <tr>
+    <td>Proje türü</th>
+    <td>Açıklama</th>
+  </tr>
+  <tr>
+    <td>Zaman ve malzeme</td>
+    <td>Zamana ve malzemeye dayalı projelerde müşteri, bir projede yapılan tüm maliyetler için faturalandırılır. Bu maliyetler saat, giderler, maddeler ve ücretler için yapılan maliyetleri de içerir.</td>
+  </tr>
+  <tr>
+    <td>Sabit fiyat</td>
+    <td>Sabit fiyatlı projelerde, faturalar açık hesap hareketlerinden oluşur. Bir sabit fiyatlı proje bir proje sözleşmesine dayanan bir faturalama zamanlamasına göre faturalanır. Sabit fiyatlı bir proje için gelir, tamamlanan yüzde yöntemi kullanılarak hesaplanabilir ve proje genelinde nakledilebilir. Alternatif olarak gelir, proje tamamlandığında tamamlanan sözleşme yöntemi kullanılarak hesaplanabilir ve proje genelinde nakledilebilir. Şirketler sıklıkla bir projenin veya bir grup projenin tamamlanma derecesini hesaplamak üzere süren iş (WIP) değerinin sunduğu avantajlardan yararlanır.</td>
+  </tr>
+  <tr>
+    <td>Yatırım</td>
+    <td>Yatırım projeleri anlık kazançlar içermeyen projelerdir. Tipik olarak, maliyetlerin mutlaka aktifleştirilmesi gereken, uzun vadeli dahili projeler için kullanılır. Bir yatırım projesi için sadece maddeler, saat ve giderler için yapılan maliyetler kaydedilebilir. Bir Yatırım projesinin maliyeti tahmin işlevi kullanılarak takip ve kontrol edilir. Yatırım projeleri bir opsiyonel maksimum aktifleştirme kullanılarak oluşturulabilir. Bir Yatırım projesi ilerledikçe maliyetlerini WIP hesaplarına kaydedersiniz ve burada maliyetler, proje tamamlanana kadar tutulur. Proje elendiğinde, süren iş değerini sabit bir kıymete, bir genel muhasebe hesabına veya yeni bir projeye transfer edersiniz. <br></br> <strong>NOT:</strong> Yatırım projelerindeki hareketler <strong>Maliyetleri deftere naklet<strong>, <strong>Gelir tahakkuku</strong> ve <strong>Fatura teklifleri oluştur</strong> sayfalarında gösterilmez.</td>
+  </tr>
+  <tr>
+    <td>Maliyet projesi</td>
+    <td>Yatırım projelerinde olduğu gibi, Maliyet projeleri de tipik olarak dahili projelerin takip edilmesi için kullanılır ve bu projeler için sadece saatler, giderler ve maddeler kaydedilebilir. Ancak, Maliyet projeleri genellikle Yatırım projelerine kıyasla daha kısa sürelidir. Ek olarak, Yatırım projelerinin aksine, Maliyet projeleri, bilanço hesaplarına aktifleştirilemez. Bunun yerine, proje hareketleri yalnızca kar ve zarar hesaplarına nakledilir. <br></br> <strong>NOT:</strong> Maliyet projelerindeki hareketler <strong>Maliyetleri deftere naklet</strong>, <strong>Gelir tahakkuku</strong> ve <strong>Fatura teklifleri oluştur</strong> sayfalarında yansıtılmaz. Maliyet projeleri genellikle dahili projeleri izlemek için kullanıldığından, genellikle bir müşteri hesabıyla ilişkili olmaları gerekmez. Ancak, kurulumunuz gereği satın alma emirleri için madde gereksinimlerinin oluşturulması gerekiyorsa Maliyet projesini mutlaka bir projeyle ilişkilendirmelisiniz. Bu ilişkilendirme, madde gereksinimlerin satış emri satırları olarak yönetilmesinden ve sistemin bir müşterinin tanımlanmasını gerektirmesinden kaynaklanır. Ancak, bu kurulum, madde gereksinimlerinin otomatik olarak bir satın alma emrinden oluşturulmasına neden olmaz. Maliyet projeleri için <strong>Madde gereksinimi oluştur</strong> ayarı göz ardı edilir. Bir Maliyet projesinde bir madde gereksinimine ihtiyaç duyuyorsanız, projeyle bir müşterinin ilişkilendirilmiş olması şartıyla bunu manuel olarak oluşturabilirsiniz.</td>
+  </tr>
+  <tr>
+    <td>İç</td>
+    <td>Dahili projeler, kuruluşunuzdaki dahili bir projedeki maliyetleri izlemek için kullanılır. Dahili projeler kaynak tüketimini yönetmek için bir planlama aracı sağlar. <br></br><strong>NOT:<strong> Dahili projelerdeki hareketler <strong>Gelir tahakkuku</strong> ve <strong>Fatura teklifleri oluştur</strong> sayfalarına yansıtılmaz.</td>
+  </tr>
+  <tr>
+    <td>Zaman</td>
+    <td>Zaman projeleri örneğin çalışanların hastalık izinlerinin takip edilmesi projesi vb. gibi ücretlendirilmeyen ve üretimle bağlantılı olmayan faaliyetlerle ilişkilendirilen sürelerin takip edilmesi için kullanılır. Zaman projelerindeki hareketler deftere nakledilmez. Bunun yerine, çalışan yararlanım raporlarına dahil edilir. Zaman projelerinde yalnızca saat hareketleri kaydedilebilir. Bu saatleri projeye kaydetmek için bir saat günlüğü veya zaman çizelgesi kullanılır. Saatler kaydedildikten sonra proje hareketleri olarak görünür ancak karşılık gelen fiş hareketleri yoktur. <br></br><strong>NOT:</strong> Zaman projelerindeki hareketler <strong>Maliyetleri deftere naklet</strong>, <strong>Gelir tahakkuku</strong> ve <strong>Fatura teklifleri oluştur</strong> sayfalarında yansıtılmaz.</td>
+  </tr>
+</table>
 
 
 ### <a name="assign-workers-categories-and-resources"></a>Çalışan, kategori ve kaynak atama
@@ -239,11 +259,12 @@ Aşağıdaki tabloda proje tamamlama maliyetinin hesaplanması için kullanılab
 <li>Tahmin hareketleriyle gerçek hareketleri karşılaştırın.</li>
 <li>Sonraki dönem için tahminleri koruyun, azaltın veya artırın.</li>
 </ol>
-Finance and Operations, öngörülen tahminleri otomatik olarak azaltmaz. Bu nedenle, proje tamamlandığında karşılaştırma için bir temel oluşturmak için Sabit fiyatlı projede bir orijinal tahmin modelinin korunması iyi bir fikirdir. &gt; [!NOTE] &gt; Bu yöntemi seçtiğinizde en az iki tahmin modeli kullanın. bir modeli orijinal tahmini içermelidir. Diğer model için, tahmin modellerini başka bir modelden kopyalamanız gerekir. Bu yöntem sadece Sabit fiyatlı projeler ve Yatırım projeleri için geçerlidir.</td>
+Finance and Operations, öngörülen tahminleri otomatik olarak azaltmaz. Bu nedenle, proje tamamlandığında karşılaştırma için bir temel oluşturmak için Sabit fiyatlı projede bir orijinal tahmin modelinin korunması iyi bir fikirdir. 
+<br></br> <strong>NOT:</strong>Bu yöntemi seçtiğinizde en az iki tahmin modeli kullanın. bir modeli orijinal tahmini içermelidir. Diğer model için, tahmin modellerini başka bir modelden kopyalamanız gerekir. Bu yöntem sadece Sabit fiyatlı projeler ve Yatırım projeleri için geçerlidir.</td>
 </tr>
 <tr class="odd">
 <td>Kalan bütçe</td>
-<td>Bu yöntem, projenin tamamlanması için gerekli maliyeti hesaplamak için bir kalan bütçe modeli kullanır. Bu yöntemi kullandığınızda, fiili maliyetler ve kalan bütçe modelindeki tahmin edilen tutarlar toplanır. Sonuç toplam maliyettir. Bu yöntemi kullanmadan önce hareketlerin sisteme kaydettiğiniz gerçek hareketlere dayalı olarak düşürülmesi için mutlaka bir kalan bütçe modeli kurulmalıdır. <strong>Tahmin modelleri</strong> sayfasında, alanların <strong>Otomatik tahmin azaltma</strong> grubunda işaretlendiğinden emin olun. Tipik olarak, bir kalan bütçe bir orijinal bütçeden kopyalanır. Hareketler girildikçe kalan bütçedeki hareketler düşürülür. Proje ilerledikçe kalan bütçenin mutlaka ayarlanması gerektiğine karar verirseniz tahmin hareketlerini kalan bütçeye şarj edersiniz. <strong>Not:</strong> Bu yöntem yalnızca tahmin modeli tahmine eklenmişse uygulanabilir.</td>
+<td>Bu yöntem, projenin tamamlanması için gerekli maliyeti hesaplamak için bir kalan bütçe modeli kullanır. Bu yöntemi kullandığınızda, fiili maliyetler ve kalan bütçe modelindeki tahmin edilen tutarlar toplanır. Sonuç toplam maliyettir. Bu yöntemi kullanmadan önce hareketlerin sisteme kaydettiğiniz gerçek hareketlere dayalı olarak düşürülmesi için mutlaka bir kalan bütçe modeli kurulmalıdır. <strong>Tahmin modelleri</strong> sayfasında, alanların <strong>Otomatik tahmin azaltma</strong> grubunda işaretlendiğinden emin olun. Tipik olarak, bir kalan bütçe bir orijinal bütçeden kopyalanır. Hareketler girildikçe kalan bütçedeki hareketler düşürülür. Proje ilerledikçe kalan bütçenin mutlaka ayarlanması gerektiğine karar verirseniz tahmin hareketlerini kalan bütçeye şarj edersiniz. <br></br> <strong>NOT:</strong> Bu yöntem ancak tahmine bir tahmin modeli eklenmişse uygulanabilir.</td>
 </tr>
 <tr class="even">
 <td>Önceki tahmin gibi</td>
@@ -318,11 +339,19 @@ Maliyet ödeme tarihi tampon günlerine dayalı olarak hesaplanmaz. Bir proje ta
 
 Tüm satışlar ve satıcı faturaları tamamlandığında, **Nakit akışı** sayfasındaki alanlar ile **Proje ifadeleri** sayfasındaki alanlar arasındaki ilişkiyi görüntüleyebilirsiniz.
 
-| Nakit akışı sayfası | Proje bildirimleri sayfası |
-|----------------|-------------------------|
-| Nakit girişleri   | Gelir                 |
-| Nakit çıkışları  | Toplam maliyet              |
-| Net nakit akışları | Brüt kar            |
+:::row::: :::column:::
+        #### Cash flow page
+        - Cash inflows 
+        - Cash outflows
+        - Net cash flows
+    :::column-end:::
+    :::column:::
+        #### Project statements page
+        - Revenue
+        - Total cost
+        - Gross margin
+    :::column-end:::
+:::row-end:::
 
 ### <a name="review-costs"></a>Maliyetleri gözden geçirme
 
@@ -409,8 +438,4 @@ Bildirim hesaplandıktan sonra **Proje bildirimleri** sayfasının çeşitli sek
 -   **Tüketim** – Saat, madde, gider ve bordro hareketleri tüketimi hakkında bilgiler.
 -   **Fatura** – Faturalar ve açık hesap faturalandırma hakkında bilgiler.
 -   **Saat oranı** – Gelir ve maliyet hesaplarına nakledilen saatler için saat oranları.
-
-
-
-
 

@@ -1,9 +1,9 @@
 ---
 title: "Vardiya ve kasa çekmecesi yönetimi"
-description: "Bu makalede paylaşılan ve bağımsız olmak üzere iki perakende satış noktası (POS) vardiyası türünün nasıl ayarlanacağı ve kullanılacağı açıklanmaktadır. Paylaşılan vardiyalar birden fazla yerdeki çok sayıda kullanıcı tarafından kullanılabilir, bağımsız vardiyalar ise aynı anda yalnızca bir çalışan tarafından kullanılabilir."
-author: rubencdelgado
+description: "Bu konu, perakende satış noktasında (POS) vardiyaların nasıl kurulup kullanılacağını açıklamaktadır."
+author: jblucher
 manager: AnnBe
-ms.date: 02/15/2018
+ms.date: 05/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
-ms.openlocfilehash: c1483d3240d266845cea7789b70c038cb98fdfcc
+ms.sourcegitcommit: da5519eb0746347905e3b3d3d81161850c429f57
+ms.openlocfilehash: f0856a3a36ff97773c0fadbe94fe680762c5206b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/22/2018
 
 ---
 
@@ -31,127 +31,109 @@ ms.lasthandoff: 03/22/2018
 
 [!include [banner](includes/banner.md)]
 
-Bu makalede paylaşılan ve bağımsız olmak üzere iki perakende satış noktası (POS) vardiyası türünün nasıl ayarlanacağı ve kullanılacağı açıklanmaktadır. Paylaşılan vardiyalar birden fazla yerdeki çok sayıda kullanıcı tarafından kullanılabilir, bağımsız vardiyalar ise aynı anda yalnızca bir çalışan tarafından kullanılabilir.
+Bu konu, perakende satış noktasında (POS) vardiyaların nasıl kurulup kullanılacağını açıklamaktadır. 
 
-Bağımsız ve paylaşılan olmak üzere iki tür satış noktası (POS) vardiyası bulunmaktadır. Bağımsız vardiyalar bir seferde yalnızca bir çalışan tarafından kullanılabilir. Paylaşılan vardiyalar birden çok yerde birden çok kullanıcı tarafından kullanılabilir. Bu nedenle bir mağazadaki çok sayıda çalışan için tek bir vardiyayı etkin bir şekilde oluştururlar.
+Microsoft Dynamics 365 for Retail'de *vardiya* terimi, zamanda iki nokta arasındaki POS hareket veri ve etkinliklerinin toplamını ifade eder. Her bir vardiya için, beklenen para tutarı, sayılıp bildirilen tutarla karşılaştırılır.
 
-## <a name="standalone-shifts"></a>Bağımsız vardiyalar
-Bağımsız vardiyalar nakit parada her POS yazar kasası için bağımsız olarak mutabakata varılan geleneksel, sabit POS senaryosunda kullanılır. Örneğin bir market ortamında, genelde birkaç adet sabit POS yazar kasası vardır ve her bir yazar kasa için bir kasiyer atanmıştır. Bu durumda büyük olasılıkla her kayıt bağımsız vardiya kullanıyordur ve bu kayda ait kasa çekmecesi veya fiziksel paradan kasiyer sorumludur. Bağımsız bir vardiya kasiyerin çalışma vardiyası sırasında o kasadaki tüm etkinliği kapsar. Etkinlikler kasa çekmecesine eklenen açılış tutarı, bankaya yatırılan paralar ve kasa devri girişleri gibi işlemlerde kasada yapılan para ekleme ve para çekme hareketleri ve vardiyanın sonundaki kasa sayımı gibi işlemleri içerebilir.
+Vardiyalar genellikle iş gününün başlangıcında açılır. Bu noktada, kullanıcı, kasa çekmecesindeki başlangıç tutarını bildirir. Bunun ardından, gün içinde satış hareketleri gerçekleştirilir. Son olarak, günün sonunda çekmece sayılır ve kapanış tutarları bildirilir. Vardiya kapatılır ve bir Z raporu oluşturulur. Z raporu, fazlalık veya eksiklik olup olmadığını gösterir.
 
-### <a name="set-up-a-stand-alone-shift"></a>Bağımsız vardiya ayarlama
+## <a name="typical-shift-scenarios"></a>Tipik vardiya senaryoları
+Retail, POS için geniş bir gün sonu işletme işlemi yelpazesini desteklemek üzere çeşitli yapılandırma seçenekleri ve POS işlemleri sunar. Bu bölümde, bazı tipik vardia senaryoları açıklanmaktadır.
 
-Bağımsız bir vardiya kasa çekmecesi düzeyinde atanır. Bu prosedürde bir POS yazar kasasında bağımsız vardiya ayarlama işlemi açıklanmaktadır.
+### <a name="fixed-till"></a>Sabit kasa çekmecesi
+Geleneksel olarak bu senaryo en sık kullanılan senaryo olmuştur. Halen yaygın olarak kullanılmaktadır Bir "sabit kasa çekmecesinde" vardiya ve kasa çekmecesi belirli bir kasayla ilişkilidir. Bunlar bir kayıttan diğerine geçmez. "Sabit kasa çekmeceli" bir vardiya tek bir kullanıcı tarafından veya birden fazla kullanıcıyla paylaşılarak kullanılabilir. "Sabit kasa çekmeceli" vardiyalarda özel bir yapılandırma gerekmez.
 
-1.  **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım profilleri**'ne tıklayın.
-2.  Bağımsız vardiya için kullanılacak donanım profilini seçin.
-3.  **Çekmece** Hızlı Sekmesinde, **Paylaşılan vardiya çekmecesi** seçeneğinin **Hayır** olarak ayarlandığını doğrulayın.
-4.  **Kaydet**'i tıklatın.
-5.  **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Kayıtlar** üzerine tıklayın.
-6.  Bağımsız vardiya gerektiren yazar kasayı seçin ve **Düzenle**'ye tıklayın.
-7.  **Donanım profili** alanında, 2. adımda belirlediğiniz donanım profilini seçin.
-8.  **Kaydet**'i tıklatın.
-9.  **Perakende** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine tıklayın.
-10. **1090** dağıtım planını seçin ve ardından POS değişikliklerini eşitlemek için **Şimdi çalıştır** seçeneğine tıklayın.
+### <a name="floating-till"></a>Devredilen kasa çekmecesi
+"Devredilen kasa çekmeceli" vardiyada vardiya ve para çekmecesi bir kasadan diğerine geçirilebilir. Bir kasada para çekmecesi başına yalnızca bir etkin vardiya olabilir ancak vardiyalar askıya alınıp daha sonra veya başka bir kasada devam ettirilebilir.
 
-### <a name="use-a-stand-alone-shift"></a>Bağımsız vardiya kullanma
+Diyelim ki bir mağazada iki kasa var. Her kasa günün başlangıcında açılıyor ve o anda kasiyer yeni bir vardiya açıp başlangıç tutarını giriyor. Bir kasiyer mola vermeye hazır olduğu zaman vardiyasını askıya alır ve kasa çekmecesini para çekmecesinden alır. O kasa bundan sonra diğer kasiyerlerin kullanımına uygun hale gelir. Başka bir kasiyer o kasada kendi vardiyasına girip vardiyasını açabilir. İlk kasiyerin molası sona erince, kullanılabilir hale gelen diğer kasalardan birinde vardiyasına devam edebilir. "Devredilen kasa çekmeceli" vardiyalarda özel bir yapılandırma veya izin gerekmez.
 
-1.  POS'ta oturum açın.
-2.  Açık bir vardiya yoksa **Yeni bir vardiya aç** seçeneğini belirleyin.
-3.  **Başlangıç tutarını beyan et** işlemine gidin ve iş gününü başlatmak için çekmeceye eklenen nakit tutarını belirtin.
-4.  Birkaç hareket gerçekleştirin.
-5.  Günün sonunda, kasa çekmecesinde kalan nakit tutarını beyan etmek için **Kasa sayımı beyan et** seçeneğini belirleyin.
-6.  Nakit tutarını girin ve kasa sayımı beyanını kaydetmek için **Kaydet**'e tıklayın.
-7.  Vardiyayı kapatmak için **Vardiyayı kapat** seçeneğini belirleyin.
+### <a name="single-user"></a>Tek kullanıcı
+Birçok perakendeci, para çekmecesindeki nakdin sayılabilirlik düzeyini en yüksekte tutmaya yardımcı olması için vardiya başına bir kullanıcıya izin vermeyi tercih etmektedir. Bir vardiyayla ilişkili kasa çekmecesini yalnızca bir kişinin kullanmasına izin verilirse, o kullanıcı tüm uyuşmazlıkların tek sorumlusu sayılabilir. Bir vardiyayı birden fazla kullanıcı kullanıyorsa, hatayı kimin yaptığını veya kasa çekmecesinden kimin para çalmaya çalıştığını belirlemek güç olur.
 
-**Not:** Kullanılan iş süreçlerine bağlı olarak vardiya sırasında başka işlemler de kullanılabilir. Gün içinde veya vardiya kapatıldıktan sonra çekmeceden para çekmek için **Kasaya para nakli**, **Bankaya para nakli** ve **Ödeme kaldırma** işlemleri kullanılabilir. Kasada nakit azalırsa, kasaya nakit eklemek için **Kasa devri girişi** işlemi kullanılabilir.
+### <a name="multiple-users"></a>Birden çok kullanıcı
+Bazı perakendeciler tek kullanıcılı vardiyaların sağladığı hesaplanabilirlik düzeyinden ödün vererek vardiya başına birden fazla kullanıcıya izin vermeyi tercih ediyor. Bu yaklaşım genellikle mevcut kasa sayısından daha fazla kullanıcı olduğu, esneklik ve hız gereksiniminin olası kayıplardan daha öncelikli olduğu durumlar için geçerlidir. Ayrıca, mağaza yöneticilerinin kendi vardiyalarının olmadığı ve gerektiğinde kasiyerlerinin vardiyalarını kullandıkları durumlarda da yaygındır. Başka bir kullanıcının açtığı vardiyada oturum açıp kullanmak isteyen kullanıcının **Çoklu oturum açmaya izin ver** POS iznine sahip olması gerekir.
 
-## <a name="shared-shifts"></a>Paylaşılan vardiyalar
-Paylaşılan bir vardiya çok sayıda kasiyerin veya iş günü içinde bir grup kasiyerin bir kasa çekmecesini paylaştığı durumlarda kullanılır. Genellikle paylaşılan vardiya mobil POS ortamlarında kullanılır. Mobil ortamda her kasiyer tek bir kasa çekmecesine atanmaz ve tek bir kasa çekmecesinden sorumlu tutulmaz. Bunun yerine tüm kasiyerler bir satış için ödeme alabilmeli ve kendilerine en yakın kasa çekmecesine nakit ekleyebilmelidir. Bu senaryoda, kasiyerler tarafından paylaşılan kasa çekmeceleri paylaşılan bir vardiyaya dahil edilmiştir. Paylaşılan bir vardiyadaki tüm kasa çekmeceleri o vardiyanın nakit yönetimiyle ilgili etkinlikler için aynı vardiyaya dahil edilir. Bu nedenle, vardiyanın başlangıç tutarı paylaşılan vardiya kapsamındaki tüm kasa çekmecelerinde bulunan tüm nakit parayı içermelidir. Aynı şekilde, kasa sayımı beyanı da paylaşılan vardiya kapsamındaki tüm kasa çekmecelerinde bulunan tüm nakit paranın toplamı olmalıdır. **Not:** Her mağazada aynı anda yalnızca bir paylaşılan vardiya açılabilir. Aynı mağazada paylaşılan vardiyalar ve bağımsız vardiyalar kullanılabilir.
+### <a name="shared-shift"></a>Paylaşılan vardiya
+"Paylaşılan vardiya" yapılandırması, perakendecilerin birden fazla kasa, para çekmecesi ve kullanıcı için tek bir vardiyaya sahip olmasına olanak sağlar. Paylaşılan vardiyada, tüm para çekmeceleri genelinde özetlenen tek bir başlangıç tutarı ve tek bir kapanış tutarı vardır. Paylaşılan vardiyalar en çok mobil cihazlarda kullanılır. Bu senaryoda her kasa için ayrı birer para çekmecesi tahsis edilmemiştir. Bunun yerine, tüm kasalar tek bir para çekmecesini paylaşabilir.
 
-### <a name="set-up-a-shared-shift"></a>Paylaşılan vardiya ayarlama
+Bir mağazada paylaşılan vardiyaların kullanılabilmesi için, para çekmecesinin **Perakende \> Kanal kurulumu \> POS kurulumu \> POS profilleri \> Donanım profilleri \> Çekmece**'de bir "paylaşılan vardiya çekmecesi" olarak yapılandırılması gerekir. Ayrıca, kullanıcılar, paylaşılan vardiya izinlerinin ("Paylaşılan vardiyayı yönetmeye izin ver" ve "Paylaşılan vardiyayı kullanmaya izin ver") birine veya her ikisine birden sahip olmalıdır.
 
-1.  **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **POS profilleri** &gt; **Donanım profilleri**'ne tıklayın.
-2.  Paylaşılan vardiya için kullanılacak donanım profilini seçin.
-3.  **Çekmece** Hızlı Sekmesinde, **Paylaşılan vardiya çekmecesi** seçeneğini **Evet** olarak ayarlayın.
-4.  **Kaydet**'i tıklatın.
-5.  **Perakende** &gt; **Kanal kurulumu** &gt; **POS kurulumu** &gt; **Kayıtlar** üzerine tıklayın.
-6.  Paylaşılan vardiya gerektiren yazar kasayı seçin ve **Düzenle**'ye tıklayın.
-7.  **Donanım profili** alanında, 2. adımda belirlediğiniz donanım profilini seçin.
-8.  **Kaydet**'i tıklatın.
-9.  **Perakende** &gt; **Perakende BT** &gt; **Dağıtım planı** öğesine tıklayın.
-10. **1090** dağıtım planını seçin ve ardından POS değişikliklerini eşitlemek için **Şimdi çalıştır** seçeneğine tıklayın.
+> [!NOTE]
+> Her bir mağazada aynı anda yalnızca bir paylaşılan vardiya açılabilir. Aynı mağazada paylaşılan vardiyalar ve bağımsız vardiyalar kullanılabilir.
 
-### <a name="use-a-shared-shift"></a>Paylaşılan vardiya kullanma
+## <a name="shift-and-drawer-operations"></a>Vardiya ve çekmece işlemleri
+Bir vardiyanın durumunu değiştirmek veya para çekmecesindeki para tutarını artırmak ya da azaltmak için çeşitli işlemler yapılabilir. Bu bölümde Microsoft Dynamics 365 for Retail Modern POS ve Cloud POS için bu vardiya işlemleri açıklanmaktadır.
 
-1.  POS'ta oturum açın.
-2.  POS henüz donanım istasyonuna bağlanmadıysa, **Çekmece işlemi olmayan bir işlem** seçeneğini ve ardından paylaşılan vardiya için donanım istasyonunu etkinleştirmek için **Donanım istasyonu seç** öğesini belirleyin. Bu adım yalnızca yazar kasa paylaşılan vardiya ortamına ilk kez eklendiğinde gereklidir.
-3.  POS oturumunu kapatın ve tekrar oturum açın.
-4.  **Yeni vardiya oluştur**'u seçin.
-5.  **Başlangıç tutarını beyan et**'i seçin.
-6.  Mağazada paylaşılan vardiyanın parçası olan tüm kasa çekmecelerindeki başlangıç tutarını girin ve **Kaydet**'e tıklayın.
-    -   Başlangıç tutarının bir kısmını sonraki kasa çekmecelerine eklemek üzere donanım istasyonunu etkinleştirmek için **Donanım istasyonu seç** işlemini kullanın.
-    -   Belirli bir kasa çekmecesine kasa eklemek için **Çekmeceyi aç** işlemini kullanın.
-    -   Paylaşılan vardiyadaki tüm kasa çekmeceleri başlangıç tutarından kendi paylarını alana kadar bu işleme devam edin.
+### <a name="open-shift"></a>Açık vardiya
+POS, kullanıcıların satış, iade veya müşteri siparişi gibi mali bir hareket üretecek herhangi bir işlem gerçekleştirebilmesi için etkin ve açık vardiyasının olmasını gerektirir.
 
-7.  Günün sonunda tüm kasa çekmecelerini açın ve nakit parayı çıkarın.
-8.  Son kasa çekmecesindeki nakit parayı da çıkardıktan sonra tüm kasa çekmecelerinden alınan nakit parayı sayın.
-9.  Paylaşılan vardiya kapsamındaki tüm kasa çekmecelerinden alınan nakit paranın toplam tutarını beyan etmek için **Kasa sayımı beyan et** işlemini kullanın.
-10. Paylaşılan vardiyayı kapatmak için **Vardiyayı kapat** işlemini kullanın.
+Bir kullanıcı POS'ta oturum açtığı zaman sistem ilk olarak mevcut kasada o kullanıcı için etkin bir vardiya olup olmadığını doğrular. Etkin bir vardiya yoksa, kullanıcı, sistem yapılandırmasına ve sahip olduğu izinlere bağlı olarak yeni bir vardiya açabilir, mevcut bir vardiyayı sürdürebilir veya "çekmece yok" modunda oturum açabilir.
 
-## <a name="shift-operations"></a>Vardiya işlemleri
-Bir vardiyanın durumunu değiştirmek ya da para çekmecesindeki para tutarını artırmak veya azaltmak için çeşitli eylemler gerçekleştirilebilir. Aşağıdaki bölüm Dynamics 365 for Retail Modern POS ve Cloud POS için bu vardiya işlemlerini açıklar.
+### <a name="declare-start-amount"></a>Başlangıç tutarını beyan et
+Bu işlem genellikle yeni açılan bir vardiya için yapılan ilk işlemdir. Bu işlem için, kullanıcılar vardiya için para çekmecesindeki başlangıç nakit tutarını belirtir. Bu işlem önemlidir çünkü bir vardiya kapatılırken yapılan fazlalık/eksiklik hesaplamasında başlangıç tutarı dikkate alınır.
 
-**Açık vardiya**
+### <a name="float-entry"></a>Kasa devri girişi
+*Kasa devri girişleri*, para çekmecesindeki nakit tutarını artırmak için etkin bir vardiyada gerçekleştirilen satış dışı hareketlerdir. Kasa devri girişine tipik bir örnek, azalmaya başladığında çekmeceye ilave para ekleme hareketidir.
 
-POS satış, iade veya müşteri siparişi gibi mali bir harekete neden olan herhangi bir işlem gerçekleştirebilmesi için bir kullanıcının etkin, açık vardiyası bulunmasını gerektirir.  
+### <a name="tender-removal"></a>Ödeme kaldırma
+*Ödeme kaldırma işlemleri*, etkin bir vardiyada para çekmecesindeki nakit tutarını azaltmak için gerçekleştirilen satış dışı hareketlerdir. Bu işlem çoğunlukla farklı bir vardiyadaki Kasa devri giriş işlemiyle birlikte kullanılır. Örneğin kasa 1'de para azalmaktadır ve kasa 2'deki kullanıcı para çekmecesinin tutarını azaltmak için bir ödeme kaldırma işlemi gerçekleştirmektedir. Bu durumda kasa 1'deki kullanıcı, para çekmecesindeki tutarı artırmak için bir kasa devri girişi yapar.
 
-POS'ta oturum açtığınızda, sistem öncelikle kullanıcının geçerli kayıtta bulunan etkin vardiyası olup olmadığını kontrol eder. Yoksa, kullanıcı sistem yapılandırmasına ve sahip olduğu izinlere bağlı olarak yeni bir vardiya açma, mevcut vardiyayı sürdürme veya "çekmece yok" modunda oturum açarak devam etme arasından seçim yapar.
+### <a name="suspend-shift"></a>Vardiyayı askıya al
+Kullanıcılar, kasayı başka bir kullanıcıya bırakmak için etkin vardiyalarını askıya alabilir veya vardiyalarını farklı bir kasaya taşıyabilir (bu durumda vardiyaya genellikle "devredilen kasalı" vardiya denir).
 
-**Başlangıç tutarını beyan et**
+Vardiyanın askıya alınması, vardiya yeniden başlatılana kadar yeni hareketleri veya değişiklikleri önler.
 
-Bu işlem genellikle yeni açılan bir vardiya tarafından gerçekleştirilen ilk eylemdir. Kullanıcılar vardiya için çekmecedeki başlangıç nakit tutarını belirtir. Bu tutar için vardiya hesapları kapatılırken fazla/eksik hesaplama olabileceğinden bu önemlidir.
+### <a name="resume-shift"></a>Vardiyayı devam ettir
+Bu işlem, kullanıcılara etkin vardiyası olmayan bir kasada daha önce askıya alınmış bir vardiyayı devam ettirme olanağı sağlar.
 
-**Kasa devri girişi**
+### <a name="tender-declaration"></a>Kasa sayımı
+Bu işlem, para çekmecesindeki mevcut para tutarı toplamını belirtmek için yapılır. Kullanıcılar bu işlemi çoğu zaman bir vardiyayı kapatmadan önce yapar. Belirtilen tutar, beklenen vardiya tutarıyla karşılaştırılarak fazla/eksik tutar hesaplaması yapılır.
 
-Kasa devri girişleri etkin bir vardiyada gerçekleştirilen satış dışı hareketlerdir ve çekmecedeki nakit tutarını artırırlar. Kasa devri girişine genel bir örnek azalmaya başladığında çekmeceye ilave para eklemek olabilir.
+### <a name="safe-drop"></a>Kasaya para nakli
+Kasaya para nakli etkin bir vardiya sırasında istenildiği zaman gerçekleştirilebilir. Bu işlem parayı para çekmecesinden çıkarır ve para böylece arka odadaki bir kasa gibi daha güvenli bir yere aktarılır. Kasaya para nakilleri için kaydedilen toplam tutar vardiya toplamlarına dahil edilir ancak kasa sayımının bir parçası olarak sayılması gerekmez.
 
-**Ödeme kaldırma**
+### <a name="bank-drop"></a>Bankaya para nakli
+Kasaya para nakli gibi, bankaya para nakli de etkin vardiyalarda gerçekleştirilir. Bu işlem bankaya yatırılmak üzere hazırlamak için parayı vardiyadan çıkarır.
 
-Ödeme kaldırma işlemleri etkin bir vardiyada gerçekleştirilen satış dışı hareketlerdir ve çekmecedeki nakit tutarını azaltırlar. Bu genellikle farklı bir vardiyadaki kasa devri girişiyle birlikte kullanılır. Örneğin Kasa 1'de para azalmaktadır ve Kasa 2'deki kullanıcı çekmece tutarını azaltmak için bir ödeme kaldırma işlemi gerçekleştirir. Kasa 1'deki kullanıcı kendi tutarını artırmak için bir kasa devri girişi eylemi gerçekleştirir.
+### <a name="blind-close-shift"></a>Vardiyayı tamamen kapat
+*Tamamen kapalı vardiyalar*, artık etkin olmayan ama tam kapatılmamış vardiyalardır. Askıya alınan vardiyalardan farklı olarak, tamamen kapalı vardiyalar devam ettirilemez. Bununla birlikte, bu vardiyalardaki "Başlangıç tutarını beyan et" ve "Kasa sayımı" gibi işlemler daha sonra veya farklı bir kasada yapılabilir.
 
-**Vardiyayı askıya al**
+Tamamen kapalı vardiyalar genellikle kasayı önce tamamen sayım saymadan, mutabakat sağlamadan veya vardiyayı kapatmadan yeni bir kullanıcıya veya vardiyaya bırakmak için kullanılır.
 
-Kullanıcılar, kasayı başka bir kullanıcıya bırakmak için etkin vardiyalarını beklemeye alabilir veya vardiyalarını farklı bir kasaya taşıyabilir (buna genellikle "devredilen kasa" denir). 
+### <a name="close-shift"></a>Vardiyayı kapat
+Bu işlem vardiya toplamlarını, fazla/eksik tutarları hesaplar ve ardından etkin veya tamamen kapalı vardiyayı sonlandırır. Kullanıcı izinlerine bağlı olarak, vardiya için bir Z raporu da yazdırılır. Kapatılan vardiyalar devam ettirilemez veya değiştirilemez.
 
-Vardiyanın askıya alınması, vardiya tekrar başlatılana kadar yeni hareketleri veya değişiklikleri önler.
+### <a name="print-x"></a>X Yazdır
+Bu işlem, mevcut etkin vardiya için bir X raporu oluşturup yazdırır.
 
-**Vardiyayı devam ettir**
+### <a name="reprint-z"></a>Z'yi yeniden yazdır
+Bu işlem, bir vardiya kapatılırken sistemin oluşturduğu son Z raporunu yeniden yazdırır.
 
-Bu işlem, kullanıcıya etkin vardiyası olmayan bir kasada daha önce askıya alınmış bir vardiyayı devam ettirme olanağı sağlar.
+### <a name="manage-shifts"></a>Vardiyaları yönet
+Bu işlem, kullanıcıların mağazaya ilişkin tüm etkin, askıya alınmış veya tamamen kapalı vardiyaları görmesini sağlar. Kullanıcılar kendi izinlere bağlı olarak, tamamen kapalı vardiyalar için Kasa sayımı ve Vardiyayı kapat gibi işlemleri gibi son kapanış yordamlarını uygulayabilirler. Bu işlem kullanıcıların, çevrimdışı ve çevrimiçi modlar arasında geçiş yapıldıktan sonra vardiyaların kötü durumda bırakıldığı ender durumlarda geçersiz vardiyaları görüntülemesine ve silmesine olanak sağlar. Bu geçersiz vardiyalar mutabakat için gerekli herhangi bir mali bilgi veya hareket verisi içermez.
 
-**Kasa sayımı**
+## <a name="shift-and-drawer-permissions"></a>Vardiya ve çekmece izinleri
+Aşağıdaki POS izinleri, bir kullanıcının çeşitli senaryolarda yapabileceklerini ve yapamayacaklarını belirler:
 
-Kasa sayımı, kullanıcının çekmecede bulunan toplam para tutarını belirlemek için, çoğunlukla vardiyayı kapatmadan önce yaptığı bir işlemdir. Bu, beklenen fazla/eksik tutar hesaplaması için beklenen vardiya ile karşılaştırılan değerdir.
+- **Tamamen kapatmaya izin ver**
+- **X raporu yazdırmaya izin ver**
+- **Z raporu yazdırmaya izin ver**
+- **Kasa sayımına izin ver**
+- **Kasada kalan tutar bildirimine izin ver**
+- **Satış olmadan çekmeceyi aç**
+- **Çoklu oturum açmaya izin ver** – Bu izin, kullanıcının başka bir kullanıcı tarafından açılan bir vardiyada oturum açıp o vardiyayı kullanmasına olanak sağlar. Bu izne sahip olmayan kullanıcılar yalnızca kendi açtıkları vardiyalarda oturum açıp kullanabilir.
+- **Paylaşılan vardiyayı yönetmeye izin ver** – Kullanıcılar, paylaşılan bir vardiyayı açmak veya kapatmak için bu izne sahip olmalıdır.
+- **Paylaşılan vardiyayı kullanmaya izin ver** – Kullanıcılar, paylaşılan bir vardiyada oturum açıp kullanmak için bu izne sahip olmalıdır.
 
-**Kasaya para nakli**
+## <a name="back-office-end-of-day-considerations"></a>Arka ofis gün sonu ile ilgili notlar
+POS'ta vardiyaların ve para çekmecesi mutabakatının kullanılma yöntemi, ekstre hesaplaması sırasında hareket verilerinin özetlenme yönteminden farklıdır. Bu farkı anlamanız önemlidir. Yapılandırmanıza ve iş süreçlerinize bağlı olarak, POS'taki vardiya verileri (Z raporu) ve arka ofisteki hesaplanan bir ekstre size farklı sonuçlar verebilir. Bu fark mutlaka vardiya verilerinden veya hesaplanan ekstreden birinin yanlış olduğu veya verilerle ilgili bir sorun olduğu anlamına gelmez. Bu, yalnızca, belirtilen parametrelerin daha fazla veya daha az hareket içerebileceği ya da hareketlerin farklı özetlendiği anlamına gelir.
 
-Kasaya para nakli etkin bir vardiya sırasında istenildiği zaman gerçekleştirilebilir. Bu işlem parayı çekmeceden çıkarır ve para böylece arka odadaki bir kasa gibi daha güvenli bir yere aktarılır. Kasaya para nakilleri için kaydedilen toplam tutar vardiya toplamlarına dahil edilir ancak kasa sayımının bir parçası olarak sayılması gerekmez.
+Her perakendecinin iş gereksinimleri farklı olmakla birlikte, sisteminizi bu türde farkların oluştuğu durumları önleyecek şekilde kurmanızı tavsiye ederiz:
 
-**Bankaya para nakli**
+**Perakende \> Kanallar \> Perakende mağazaları \> Tüm perakende mağazaları \> Ekstre/kapanış**'a gidin ve her mağaza için hem **Ekstre yöntemi** alanının hem de **Kapatma yöntemi** alanının ayarını **Vardiya** yapın.
 
-Kasaya para nakli gibi bankaya para nakli de etkin vardiyalarda gerçekleştirilir. Bu işlem bankaya yatırılmak üzere hazırlamak için parayı vardiyadan çıkarır.
+Bu kurulum, arka ofis ekstrelerinde POS'taki vardiyalarınkiyle aynı hareketleri içermesinin ve verilerin o vardiyayla özetlenmesinin garanti edilmesine yardımcı olur.
 
-**Vardiyayı tamamen kapat**
-
-Tamamen kapalı vardiya, artık etkin olmayan ancak tamamen kapatılmamış olan vardiyadır. Tamamen kapatılmış vardiyalar askıya alınan vardiya gibi sürdürülemez ancak başlangıç tutarını bildirme ve kasa sayımları gibi yordamlar daha sonra veya farklı bir kasadan gerçekleştirilebilir.
-
-Tamamen kapalı vardiyalar genellikle kasayı tamamen sayım saymadan, mutabakat sağlamadan veya önce vardiyayı kapatmadan yeni bir kullanıcıya veya vardiyaya bırakmak için kullanılır. 
-
-**Vardiyayı kapat**
-
-Bu işlem vardiya toplamlarını, fazla/eksik tutarları hesaplar ve ardından etkin veya tamamen kapalı vardiyayı sonlandırır. Kapatılan vardiyalar devam ettirilemez veya değiştirilemez.  
-
-**Vardiyaları yönet**
-
-Bu işlem, kullanıcıların mağazaya ilişkin tüm etkin, askıya alınmış veya tamamen kapalı vardiyaları görmesini sağlar. Kullanıcılar kendi izinlere bağlı olarak, kasa sayımı gibi son kapanış işlemlerini gerçekleştirebilir ve tamamen kapalı vardiyalar için vardiyaları kapatabilir. Bu işlem kullanıcıların, çevrimdışı ve çevrimiçi modlar arasında geçiş yapıldıktan sonra vardiyanın kötü durumda bırakıldığı ender durumlarda geçersiz vardiyaları görmesine ve silmesine olanak tanır. Bu geçersiz vardiyalar mutabakat için gerekli herhangi bir mali bilgi veya hareket verisi içermez. 
+Ekstre ve kapatma yöntemleri hakkında daha fazla bilgi için bkz. [Perakende ekstreleri için mağaza yapılandırmaları](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
 

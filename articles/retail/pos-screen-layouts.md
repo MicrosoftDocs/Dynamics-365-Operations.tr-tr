@@ -1,5 +1,5 @@
 ---
-title: "POS için ekran düzenleri yapılandırma"
+title: "POS için ekran düzenlerini yapılandırma"
 description: "Bu konu Microsoft Dynamics 365 for Retail satış noktası (POS) deneyimleri için ekran düzenleri hakkında bilgi sağlar."
 author: jblucher
 manager: AnnBe
@@ -20,82 +20,172 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9082c156fde52aa0c822f8e4753de816f8cc0558
+ms.sourcegitcommit: e6d5cb4c5744f843ea2b877103f55f327d371eee
+ms.openlocfilehash: e8606c149db4e821bed02d28c607546ec6ce6956
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/23/2018
 
 ---
 
-# <a name="configure-screen-layouts-for-pos"></a>POS için ekran düzenini yapılandırma
+# <a name="configure-screen-layouts-for-pos"></a>POS için ekran düzenlerini yapılandırma
 
 [!include [banner](includes/banner.md)]
 
 Bu konu Microsoft Dynamics 365 for Retail satış noktası (POS) deneyimleri için ekran düzenleri hakkında bilgi sağlar.
 
-Microsoft Dynamics 365 for Retail satış noktası (POS) kullanıcı arabirimi, mağazalara, kasalara ve/veya kullanıcılara atanan görsel profiller ve ekran düzenleri birleşimi kullanılarak yapılandırılabilir.
+Retail satış noktası (POS) kullanıcı arabirimi (UI), mağazalara, kasalara ve/veya kullanıcılara atanan görsel profiller ve ekran düzenleri birleşimi kullanılarak yapılandırılabilir.
+
+Aşağıdaki çizimde, yapılandırılabilir POS kullanıcı arabirimi özelliklerini oluşturan çeşitli varlıklar arasındaki ilişkiler gösterilmektedir.
+
+![POS ekran düzeni varlıkları](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>Görsel profil
-Görsel profiller kasalara atanır ve kasaya ve kullanıcılar arasında paylaşılan görsel öğeleri belirlemek için kullanılır. Kasada oturum açan herhangi bir kullanıcı, aynı tema, renkler ve resimlere sahip olacaktır. 
+Görsel profiller kasalara atanır ve kasaya özel ve kullanıcılar arasında paylaşılan görsel öğeleri belirtir. Kasada oturum açan her kullanıcı aynı temayı, renkleri ve resimleri görür.
 
-**Profil numarası** - Profil numarası Görsel profilin benzersiz tanımlayıcısıdır. 
+![POS hoş geldiniz ekranı - Açık tema](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
 
-**Açıklama** - Açıklama, durumunuz için doğru profili tanımlamaya yardımcı olacak anlamlı bir ad belirtmenizi sağlar.
+![POS Hareket ekranı - Koyu tema](../retail/media/POS-Transaction-Screen-with-Dark-theme.png)
 
-**Tema** - Kullanıcılar Açık veya Koyu uygulama temaları arasından seçim yapabilir. Bu ayarlar, uygulamanın tamamındaki yazı tipi ve arka plan renklerini etkiler.
-
-**Vurgu rengi** - Vurgu rengi POS boyunca kutular, komut düğmeleri veya köprüler gibi bazı görsel öğeleri farklılaştırmak veya vurgulamak için kullanılır. Bu genellikle işlem yapılabilecek öğelerdir.
-
-**Başlık rengi** - Başlık rengi kullanıcıya perakendecinin markalama ihtiyaçlarını karşılamak üzere sayfa başlık rengini yapılandırma olanağı sağlar. Bu özellik yalnızca Dynamics 365 for Retail sürüm 1611'de bulunur.
-
-**Oturum açma arkaplanları** - Kullanıcılar oturum açma ekranı için bir arka plan resmi belirleyebilir. Büyük dosyaları depolama ve yükleme uygulama davranışı ve performansı üzerinde etkili olabileceğinden arka plan resimlerinin dosya boyutu olabildiğince küçük tutulmalıdır.
-
-**Uygulama arkaplanı** - POS uygulamada düz tema rengi yerine arkaplan olarak bir görüntü de kullanabilir. Oturum açma arka planlarında olduğu gibi, bu dosya boyutunun da mümkün olduğunca küçük olması önerilir.
+- **Profil numarası** – Profil numarası, görsel profilin benzersiz tanımlayıcısıdır.
+- **Açıklama** – Durumunuz için doğru profili tanımlamaya yardımcı olacak anlamlı bir ad belirtebilirsiniz.
+- **Tema** – Açık veya Koyu uygulama temaları arasından seçim yapabilirsiniz. Tema, uygulamanın tümünde yazı tipini ve arka plan renklerini etkiler.
+- **Vurgu rengi** – Vurgu rengi tüm POS genelinde kutucuk, komut düğmesi ve köprü gibi belirli görsel öğeleri ayırt etmek veya vurgulamak için kullanılır. Bunlar genellikle işlem yapılabilecek öğelerdir.
+- **Başlık rengi** – Sayfa başlığının rengini, perakendecinin marka gereksinimlerini karşılayacak şekilde yapılandırabilirsiniz. Bu özellik yalnızca Microsoft Dynamics 365 for Retail sürüm 1611'de bulunur.
+- **Oturum açma arka planları** – Oturum açma ekranı için bir arka plan resmi belirtebilirsiniz. Büyük dosyaların depolanması ve yüklenmesi, uygulama davranışını ve performansını olumsuz etkileyebileceği için, arka plan resimlerinin dosya boyutu olabildiğince küçük tutulmalıdır.
+- **Uygulama arka planı** – Uygulama genelinde düz tema rengi yerine kullanılacak bir arka plan resmi belirtebilirsiniz. Oturum açma arka planlarında olduğu gibi, dosya boyutu mümkün olduğunca küçük tutulmalıdır.
 
 ## <a name="screen-layouts"></a>Ekran düzenleri
-Ekran düzeni yapılandırması POS Hoş geldiniz ekranındaki ve Hareket ekranındaki eylemleri, içeriği ve UI denetimlerinin yerleşimini belirler. 
+Ekran düzeni yapılandırmaları POS hoş geldiniz ekranındaki ve **Hareket** ekranındaki eylemleri, içeriği ve kullanıcı arabirimi denetimlerinin yerleşimini belirler.
 
-**Hoş Geldiniz ekranı**- Çoğu durumda, Hoş Geldiniz ekranı, kullanıcıların POS'ta ilk oturum açtıklarında göreceği sayfadır. Hoş Geldiniz ekranı bir marka görüntüsü ve POS işlemlerine erişim sağlayan düğme gruplarını kapsayabilir. Genellikle, geçerli harekete özgü olmayan işlemler buraya yerleştirilir. 
+![POS Ekranı düzeninin görünümü](../retail/media/POS-Screen-Layout-View.png)
 
-**Hareket ekranı** - Hareket ekranı, POS'ta satış hareketlerinin ve siparişlerin işlendiği ana ekrandır. Hareket ekranı, Ekran düzeni tasarımcısı kullanılarak yapılandırılabilir. 
+- **Hoş Geldiniz ekranı** – Çoğu durumda, hoş geldiniz ekranı, kullanıcıların POS'ta ilk oturum açtıklarında gördüğü sayfadır. Hoş geldiniz ekranı bir marka görüntüsünden ve POS işlemlerine erişim sağlayan düğme gruplarından oluşabilir. Genellikle, geçerli harekete özgü olmayan işlemler bu ekrana yerleştirilir.
 
-**Varsayılan başlangıç ekranı** - Bazı perakendeciler kasiyerin oturum açtıktan sonra doğrudan Hareket ekranına gitmesini tercih eder. Varsayılan başlangıç ekran ayarı, kullanıcıların bunu her ekran düzeni için ayarlamasına olanak tanır.
+    ![POS hoş geldiniz ekranı](../retail/media/POS-Welcome-Screen.png)
+
+- **Hareket ekranı** – **Hareket** ekranı, POS'ta satış hareketlerinin ve siparişlerin işlendiği ana ekrandır. İçerik ve düzen, ekran düzeni tasarımcısıyla yapılandırılır.
+
+    ![POS Hareket ekranı](../retail/media/POS-Transaction-Screen.png)
+
+- **Varsayılan başlangıç ekranı** – Bazı perakendeciler kasiyerlerin oturum açtıktan sonra doğrudan **Hareket** ekranına gitmesini tercih eder. **Varsayılan başlangıç ekranı** ayarı, oturum açıldıktan sonra, her ekran düzeni için varsayılan ekranı belirtmenize olanak sağlar.
 
 ### <a name="assignment"></a>Atama
 
-Ekran düzenleri mağaza, kasa veya kullanıcı düzeyinde atanabilir. Kullanıcı ataması kasa ve mağaza atamasını geçersiz kılar ve kasa ataması mağaza atamasını geçersiz kılar. Tüm kullanıcıların kayıt veya rol ne olursa olsun aynı düzeni kullandığı basit bir senaryoda, ekran düzeni yalnızca mağazadan ayarlanabilir. Belirli kasaların veya kullanıcıların özelleştirilmiş düzenler gerektirdiği durumlarda, bunlar uygun şekilde atanabilirler.
+Ekran düzenleri mağaza, kasa veya kullanıcı düzeyinde atanabilir. Kullanıcı ataması kasa ve mağaza atamalarını geçersiz kılar; kasa ataması ise mağaza atamasını geçersiz kılar. Tüm kullanıcıların, kasa veya rol ne olursa olsun, aynı düzeni kullandığı basit bir senaryoda ekran düzeni yalnızca mağaza düzeyinde ayarlanabilir. Belirli kasalar veya kullanıcılar için özelleştirilmiş düzenlerin gerektiği senaryolarda, bu düzenler atanabilir.
 
 ### <a name="layout-sizes"></a>Düzen boyutları
 
-Bu özellik yalnızca Dynamics 365 for Retail sürüm 1611 için geçerlidir. Çoğu zaman ekran düzenleri birden çok ekran boyutunda ve çözünürlüğünde kullanılabildiğinden, her kullanıcı kendi düzenini ve içeriğini yapılandırabilir. POS uygulaması, cihaz için başlangıç zamanındaki en yakın düzen boyutunu otomatik olarak seçecektir. Ekran düzeni hem tam hem de kompakt cihazlar için yapılandırmaları içerebilir. Bu yapılandırma, kullanıcının mağaza içindeki farklı boyutlar ve form faktörlerinde çalışacak tek bir ekran düzenine atanmasına olanak tanır. 
+POS kullanıcı arabiriminin çoğu özelliği duyarlı olduğu için, düzen, ekran boyutuna ve yönüne göre otomatik olarak yeniden boyutlandırılır ve ayarlanır. Bununla birlikte, POS **Hareket** ekranı, beklenen her ekran çözünürlüğü için yapılandırılmalıdır.
 
-**Modern POS - Tam** - Tam düzenler genellikle en iyi PC ekranları veya tabletler gibi geniş ekranlarda kullanılır. Kullanıcılar eklenecek UI öğelerini seçebilir, kendi boyut ve yerleşimlerini belirleyebilir ve ayrıntılı özellikleri yapılandırabilirler. Tam düzenler hem dikey hem de yatay yapılandırmaları destekler. 
+POS uygulaması, başlangıçta, cihaz için yapılandırılmış en yakın düzen boyutunu otomatik olarak seçer. Bir ekran düzeni hem yatay hem de dikey modlara ve hem en büyük hem de küçük cihazlara yönelik yapılandırmalar da içerebilir. Bu sayede, kullanıcılar mağazada kullanılan farklı boyutlarda ve form faktörlerinde çalışan tek bir ekran düzenine atanabilir.
 
-**Modern POS - Kompakt** - Kompakt düzenler genellikle telefonlar veya küçük tabletler için uygundur. Küçük cihazlar için tasarım olanakları sınırlıdır. Kullanıcılar giriş ve toplam bölmeleri için sütunları ve alanları yapılandırabilir.
+![POS düzen boyutları](../retail/media/POS-Screen-Layout-Sizes.png)
+
+- **Ad** – Ekran boyutunu bildiren bir ad girebilirsiniz.
+- **Düzen türü** – POS uygulaması, belirli bir cihazda en iyi kullanıcı deneyimi sağlamak için, kendi kullanıcı arabirimini çeşitli modlarda gösterebilir.
+
+    - **Modern POS - Tam** – Tam düzenler genellikle masaüstü monitör veya tablet gibi daha geniş ekranlar için en uygun düzendir. Dahil edilecek kullanıcı arabirimi öğelerini seçebilir, bu öğelerin boyutunu ve yerleşimini belirtebilir ve ayrıntılı özelliklerini yapılandırabilirsiniz. Tam düzenler hem dikey hem de yatay yapılandırmaları destekler.
+    - **Modern POS – Kompakt** – Kompakt düzenler, genellikle telefonlar veya küçük tabletler için en uygun düzenlerdir. Küçük cihazlar için tasarım olanakları sınırlıdır. Giriş ve toplam panelleri için sütunları ve alanları yapılandırabilirsiniz.
+
+- **Genişlik/Yükseklik** – Bu değerler, düzen için beklenen geçerli ekran boyutunu piksel cinsinden gösterir. Bazı işletim sistemlerinin yüksek çözünürlüklü ekranlar için ölçekleme kullandığını unutmayın.
+
+> [!TIP]
+> Uygulamada çözünürlüğü görüntüleyerek, POS ekranı için gereken düzen boyutunu öğrenebilirsiniz. POS'u başlatın ve **Ayarlar \> Oturum bilgileri**'ne gidin. POS, o anda yüklü olan ekran düzenini, düzen boyutunu ve uygulama penceresinin çözünürlüğünü gösterir.
+
+![POS düzen boyutları](../retail/media/POS-Session-Information.png)
+
+### <a name="button-grids"></a>Düğme grupları
+Bir ekran düzenindeki her düzen boyutu için, POS hoş geldiniz ekranına ve **Hareket** ekranına ilişkin düğme grupları yapılandırıp atayabilirsiniz. Hoş geldiniz ekranının düğme grupları otomatik olarak soldan sağa ve en düşük numaradan (Hoş geldiniz ekranı 1) en yüksek numaraya doğru yerleştirilir.
+
+Tam POS düzenlerinde düğme gruplarının yerleşimi, ekran düzeni tasarımcısında belirtilir.
+
+Kompakt POS düzenlerinde düğme grupları otomatik olarak yukarıdan aşağıya ve en düşük numaradan (Hareket ekranı 1) en yüksek numaraya doğru yerleştirilir. Bunlara **Eylemler** menüsünden erişilebilir.
+
+![Kompakt düzen düğme grupları](../retail/media/Compact-View-Button-Grids.png)
+
+### <a name="images"></a>Resimler
+Bir ekran düzenindeki her bir düzen boyutu için, POS kullanıcı arabirimine eklenecek resimleri belirtebilirsiniz. Tam POS düzenlerinde, hoş geldiniz ekranı için tek bir resim belirtilebilir. Bu resim, soldaki ilk kullanıcı arabirimi öğesi olarak görünür. **Hareket** ekranında resimler sekme resmi veya logo olarak kullanılabilir. Kompakt POS düzenleri bu resimleri kullanmaz.
 
 ### <a name="screen-layout-designer"></a>Ekran düzeni tasarımcısı
 
-Bir ekran düzenindeki her yerleşim boyutu Ekran düzeni tasarımcısı kullanılarak yapılandırılmalıdır. Tasarımcı kullanıcılara Hareket ekranındaki UI öğelerini belirleme ve yapılandırma olanağı sağlar. Ekran düzeni tasarımcısı, kullanıcı her eriştiğinde uygulamanın en son sürümünü indirmek, yüklemek ve başlatmak için ClickOnce'ı kullanır. ClickOnce kullanmak için tarayıcı gereksinimlerini kontrol ettiğinizden emin olun — Chrome gibi bazı tarayıcılar uzantılar gerektirebilir. 
+Ekran düzeni tasarımcısıyla, POS **Hareket** ekranının çeşitli özelliklerini her düzen boyutu için hem dikey hem de yatay modlarda ve hem Tam hem de Kompakt düzenler için yapılandırabilirsiniz. Ekran düzeni tasarımcısı, kullanıcı tarafından her erişildiğinde, uygulamanın en son sürümünü indirmek, yüklemek ve başlatmak için ClickOnce dağıtım teknolojisini kullanır. ClickOnce için tarayıcı gereksinimlerini kontrol ettiğinizden emin olun. Google Chrome gibi bazı tarayıcılar için uzantılar gerekir.
 
-**Sayı takımı** - Sayı takımı POS Hareket ekranındaki ana kullanıcı girişidir. Dokunmatik ekranlar için ideal olan tam ekran dokunmatik sayı takımını göstermek veya fiziksel bir klavyeyle kullanılabilen yalnızca giriş alanını göstermek üzere yapılandırılabilir. Sayı paneli ayarları yalnızca tam düzen görünümde kullanılabilir. Dynamics 365 for Retail sürüm 1611'de, kompakt düzenler için daima Hareket ekranından tam sayı takımı kullanılabilir.
+> [!IMPORTANT]
+> Tanımlanan ve POS tarafından kullanılan Her düzen boyutu için bir ekran düzeni yapılandırmanız gerekir.
 
-**Toplamlar panel** - Toplamlar paneli satır sayısı, indirim tutarı, giderler, alt toplam ve vergi gibi alanları göstermek üzere bir veya iki sütunda yapılandırılabilir. Dynamics 365 for Retail sürüm 1611'de, kompakt düzenleri yalnızca tek bir toplam sütununu destekler. 
+### <a name="full-layout-designer"></a>Tam düzen tasarımcısı
 
-**Giriş** - Giriş paneli satış satırlarını, ödeme satırlarını ve POS'ta işlenen ürünler ve hizmetler için teslimat bilgilerini içerir. Kullanıcılar sütunları, genişlikleri ve yerleşimi belirtebilir. Dynamics 365 for Retail sürüm 1611'de kompakt düzenlerde, ana satırın altındaki satırda görüntülenecek ek bilgileri de yapılandırabilirsiniz. 
+Tam düzen tasarımcısı, POS **Hareket** ekranına kullanıcı arabirimi denetimlerini sürüklemenize ve bu denetimlerin ayarlarını yapılandırmanıza olanak sağlar.
 
-**Müşteri kartı** - Müşteri kartı hareketle ilşkili olan müşteriyle ilgili bilgileri gösterir. Müşteri kartı, ek bilgileri göstermek veya gizlemek üzere yapılandırılabilir. 
+![POS Tam düzen tasarımcısı (yatay mod)](../retail/media/POS-Full-Layout-Designer-Landscape.png)
 
-**Sekme denetimi** - Sekme denetimi ekran düzenine ve sayı takımı, müşteri kartı veya sekme içine yerleştirilebilen düğme grubları gibi diğer denetimlere yerleştirilebilir. Sekme denetimi, kullanıcıların ekrana daha fazla içerik sığdırmasına yardımcı olan bir kapsayıcıdır. Sekme denetimi yalnızca tam düzenler için kullanılabilir. 
+- **Düzeni içe aktar/Düzeni dışa aktar** – POS ekran düzeni tasarımlarını XML dosyaları halinde içe veya dışa aktarabilir ve bu sayede kolaylıkla yeniden kullanabilir ve ortamlar arasında paylaşabilirsiniz. Doğru düzen boyutları için düzen tasarımlarını içe aktarmanız önemlidir. Aksi takdirde, kullanıcı arabirimi öğeleri ekrana doğru bir şekilde sığmayabilir.
+- **Yatay/Dikey** – POS cihazı, kullanıcıların yatay ve dikey modlar arasında geçiş yapmasına izin veriyorsa, her mod için bir ekran düzeni tanımlamanız gerekir. POS ekran yönünü otomatik olarak algılar ve doğru düzeni gösterir.
+- **Düzen kılavuzu** – POS düzen tasarımcısı 4 piksellik kılavuz kullanır. Kullanıcı arabirimi denetimleri kılavuza "tutunarak," içeriği doğru hizalamanıza yardımcı olur.
+- **Tasarımcı yakınlaştırma** – Tasarımcı görünümünü yakınlaştırıp uzaklaştırarak POS ekranında içeriği daha iyi görüntüleyebilirsiniz. POS'taki ekran çözünürlüğü, tasarımcıda kullanılan ekranın çözünürlüğünden çok farklıysa bu özellik yararlı olur.
+- **Gezinme çubuğunu göster/gizle** – Tam POS düzenleri için, soldaki gezinme çubuğunun **Hareket** ekranında görünüp görünmeyeceğini seçebilirsiniz. Bu özellik, düşük çözünürlüklü ekranlar için yararlıdır. Görünürlüğü ayarlamak için, tasarımcıdaki gezinti çubuğuna sağ tıklayıp **Her zaman görünür** onay kutusunu işaretleyin veya kutudaki işareti kaldırın. Gezinti çubuğu gizliyse, POS kullanıcıları yine de sol üstteki menüden çubuğa erişebilir.
 
-**Görüntü** - Görüntü denetimi mağaza logosunu veya diğer marka görüntülerini hareket ekranında göstermek için kullanılabilir. Görüntü denetimi yalnızca tam düzenler için kullanılabilir. 
+    ![Gezinti çubuğunu gösterme/gizleme](../retail/media/Navigation-Bar.PNG)
 
-**Önerilen ürünler** - Ortam için yapılandırılması durumunda önerilen ürünler denetimi makine öğrenimini temel alarak ürün önerileri gösterecektir. Önerilen ürünler denetimi, yalnızca Dynamics 365 for Retail sürüm 1611'de tam düzenler için kullanılabilir. **Özel denetim**- Özel denetim, kullanıcılara özel içerik için yer sağlamak amacıyla ekran düzeni içindeki bir yer tutucu gibi davranır. Özel denetim yalnızca tam düzenler için kullanılabilir.
+- **POS denetimleri** – POS düzeni tasarımcısı aşağıdaki denetimleri destekler. Birçok denetimi, üstlerine sağ tıklayıp kısayol menüsünü kullanarak yapılandırabilirsiniz.
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+    ![POS kullanıcı arabirimi denetimleri](../retail/media/POS-UI-Controls.png)
+
+    - **Rakam takımı** - Rakam takımı, POS **Hareket** ekranında kullanıcı girişi için ana mekanizmadır. Denetimi yapılandırarak rakam takımının tamamen gösterilmesini sağlayabilirsiniz. Bu seçenek dokunmatik ekranlı cihazlar için idealdir. Alternatif olarak, bu denetimi yalnızca giriş alanı gösterilecek şekilde yapılandırabilirsiniz. Bu durumda, giriş için fiziksel bir klavye kullanılır. Rakam takımı ayarları yalnızca Tam düzenlerde kullanılabilir. Kompakt düzenler için, **Hareket** alanında tam rakam takımı her zaman tam olarak gösterilir.
+    - **Toplamlar paneli** - Toplamlar panelini satır sayısı, indirim tutarı, giderler, alt toplam ve vergi gibi değerleri göstermek üzere bir veya iki sütun halinde yapılandırabilirsiniz. Kompakt düzenler yalnızca bir sütunu destekler.
+    - **Giriş paneli** - Giriş paneli, POS'ta işlenen ürünler ve hizmetler için satış satırlarını, ödeme satırlarını ve teslimat bilgilerini içerir. Sütunları, genişlikleri ve yerleşimi belirtebilirsiniz. Kompakt düzenlerde ana satır altındaki satırda görünen ek bilgileri de yapılandırabilirsiniz.
+    - **Müşteri kartı** – Müşteri kartı, mevcut hareketle ilişkili müşteri hakkındaki bilgileri gösterir. Müşteri kartını, ek bilgiler gösterecek veya gizleyecek şekilde yapılandırılabilirsiniz.
+    - **Sekme denetimi** - Bir ekran düzenine sekme denetimi ekleyebilir ve ardından rakam takımı, müşteri kartı, düğme grupları gibi başka denetimleri içine yerleştirebilirsiniz. Sekme denetimi, ekrana daha fazla içerik sığdırmanıza yardımcı olan bir kapsayıcıdır. Sekme denetimi yalnızca Tam düzenler için kullanılabilir.
+    - **Görüntü** - **Hareket** ekranında mağaza logosunu veya diğer marka görüntülerini göstermek için görüntü denetimini kullanabilirsiniz. Görüntü denetimi yalnızca Tam düzenler için kullanılabilir.
+    - **Önerilen ürünler** - Ortam için yapılandırılması durumunda, önerilen ürünler denetimi makine öğrenimini temel alarak ürün önerileri gösterir.
+    - **Özel denetim** – Özel denetim, ekran düzeni içinde bir yer tutucu gibi davranarak, özel içerik için yer ayırmanıza olanak sağlar. Özel denetim yalnızca Tam düzenler için kullanılabilir.
+
+### <a name="compact-layout-designer"></a>Kompakt düzen tasarımcısı
+Tam düzen tasarımcısı gibi, Kompakt düzen tasarımcısı da telefonlar ve küçük tabletler için POS ekran düzenini yapılandırmanıza olanak sağlar. Ancak bu durumda düzenin kendisi sabittir. Düzendeki denetimleri, üstlerine sağ tıklayıp kısayol menüsünü kullanarak yapılandırabilirsiniz. Bununla birlikte, ek içerik için sürükle-bırak işlemlerini kullanamazsınız.
+
+![Kompakt düzen tasarımcısı](../retail/media/Compact-Layout-Designer.png)
+
+### <a name="button-grid-designer"></a>Düğme grubu tasarımcısı
+Düğme grubu tasarımcısı, POS hoş geldiniz ekranında ve **Hareket** ekranında Tam ve Kompakt düzenler için kullanılabilecek düğme grupları yapılandırmanıza olanak sağlar. Aynı düğme grubu, farklı düzenlerde ve düzen türlerinde kullanılabilir. Ekran düzeni tasarımcısı gibi, düğme grubu tasarımcısı, kullanıcı tarafından her erişildiğinde, uygulamanın en son sürümünü indirmek, yüklemek ve başlatmak için ClickOnce dağıtım teknolojisini kullanır. ClickOnce için tarayıcı gereksinimlerini kontrol ettiğinizden emin olun. Google Chrome gibi bazı tarayıcılar için uzantılar gerekir.
+
+![Düğme grubu tasarımcısı](../retail/media/Button-Grid-Designer.png)
+
+- **Yeni düğme** – Düğme grubuna yeni bir düğme eklemek için tıklayın. Varsayılan olarak, yeni düğmeler kılavuzun sol üst köşesinde görünür. Bununla birlikte, düğmeleri sürükleyerek düzende yerleştirebilirsiniz.
+
+    > [!IMPORTANT]
+    > Düğmeg grubunun içerikleri çakışabilir. Düğmelerin yerleşimini düzenlerken diğer düğmeleri örtmediklerinden emin olun.
+
+- **Yeni tasarım** – Satır ve sütun başına düğme sayısını belirterek bir düğme grubu düzenini otomatik şekilde ayarlamak için tıklayın.
+- **Düğme özellikleri** – Düğme özelliklerini, düğmeye sağ tıklayıp kısayol menüsünü kullanarak yapılandırabilirsiniz.
+
+    > [!IMPORTANT]
+    > Bazı düğme grubu ayarları Retail Modern POS'ta veya Cloud POS'ta değil, yalnızca Enterprise POS'ta geçerlidir.
+
+    ![Düğme grubu düğme özellikleri](../retail/media/Button-grid-button-properties.png)
+
+    - **Eylem** – İlgili POS işlemleri listesinde, POS'ta düğme tıklanınca çağrılacak işlemi seçin.
+
+        Desteklenen POS işlemlerinin listesi için bkz. [POS işlemleri, çevrimiçi ve çevrimdışı](pos-operations.md).
+
+    - **Eylem parametreleri** – Bazı POS işlemleri, çağrıldıkları zaman ek parametreler kullanır. Örneğin, Ürün ekle işlemi için, kullanıcılar eklenecek ürünü belirtebilir.
+    - **Düğme metni** – POS'taki düğmede görüntülenecek metni belirtin.
+    - **Düğme metnini gizle** – Düğme metnini göstermek veya gizlemek için bu onay kutusunu kullanın. Yalnızca bir simge gösteren küçük düğmelerde düğme metni çoğu zaman gizlidir.
+    - **Araç ipucu** – Kullanıcılar fareyi düğme üzerine getirdiği zaman görünecek ek Yardım metni belirtin.
+    - **Sütun olarak boyut/Satır olarak boyut** – Düğmenin yüksekliğini ve genişliğini belirtebilirsiniz.
+
+        ![Satır ve sütun olarak POS düğme boyutları](../retail/media/POS-Button-Sizes-In-Rows-And-Columns.png)
+
+    - **Özel yazı tipi** – **POS için özel yazı tipini etkinleştir** onay kutusunu işaretlediğiniz zaman, POS için varsayılan sistem yazı tipinden farklı bir yazı tipi belirtebilirsiniz.
+    - **Özel tema** – Varsayılan olarak, POS düğmeleri görsel profilden alınan vurgu rengini kullanır. **Özel tema kullan** onay kutusunu işaretlediğiniz zaman, ek renkler belirtebilirsiniz.
+
+        > [!NOTE]
+        > Retail Modern POS ve Cloud POS yalnızca **Arka plan rengi** ve **Yazı tipi rengi** değerlerini kullanır.
+
+    - **Düğme görüntüsünü** – Düğmeler görüntü veya simgeler içerebilir. **Perakende \> Kanal kurulumu \> POS kurulumu \> POS \> Resimler**'de belirtilen kullanılabilir görüntülerden seçim yapın.
+
+![POS'ta düğme grubu örneği](../retail/media/Example-Button-Grid-In-POS.png)
+
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Retail POS Düzeni tasarımcısını yükleme](install-pos-layout-designer.md)
-
-
-
 

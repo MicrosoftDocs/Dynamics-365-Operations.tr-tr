@@ -1,16 +1,16 @@
 ---
 title: "Bütçe planlama"
-description: "Bu laboratuvarın amacı, Bütçe planlama alanındaki Microsoft Dynamics 365 for Finance and Operations işlevi güncelleştirmelerine ilişkin rehber eşlikli bir görünüm sağlamaktır. Bu laboratuvarın amacı, bütçe planlama modülü yapılandırmasının hızlı bir örneğini ve bu yapılandırmayla bütçe planlamanın nasıl tamamlanabileceğini göstermektir.  Bu laboratuvar özellikle aşağıdaki iş süreçlerine veya görevlere odaklanmaktadır: -    - Bütçe planlama için kuruluş hiyerarşisi oluşturma ve kullanıcı güvenliğini yapılandırma   - Bütçe planı senaryoları, bütçe planı sütunları, yerleşimleri ve Excel şablonları tanımlama   - Bütçe planlama süreci oluşturma ve etkinleştirme   - Genel muhasebeden gerçek değerleri alarak bütçe planı belgesi oluşturma   - Bütçe planı belgesi verilerini ayarlamak için tahsisatları kullanma   - Excel'de bütçe planı belgesi verilerini düzenleme"
-author: twheeloc
+description: "Bu laboratuvarın amacı, Bütçe planlama alanındaki Microsoft Dynamics 365 for Finance and Operations işlevi güncelleştirmelerine ilişkin rehber eşlikli bir görünüm sağlamaktır. Bu laboratuvarın amacı, bütçe planlama modülü yapılandırmasının hızlı bir örneğini ve bu yapılandırmayla bütçe planlamanın nasıl tamamlanabileceğini göstermektir."
+author: ShylaThompson
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 59781da7681ece1c0c013f59e0d1a5d7efc51c3a
+ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
+ms.openlocfilehash: ac2e98dbbd45becf06e28b6ea4eb9d0ec15e30f6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -30,7 +30,13 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-Bu laboratuvarın amacı, Bütçe planlama alanındaki Microsoft Dynamics 365 for Finance and Operations işlevi güncelleştirmelerine ilişkin rehber eşlikli bir görünüm sağlamaktır. Bu laboratuvarın amacı, bütçe planlama modülü yapılandırmasının hızlı bir örneğini ve bu yapılandırmayla bütçe planlamanın nasıl tamamlanabileceğini göstermektir.  Bu laboratuvar özellikle aşağıdaki iş süreçlerine veya görevlere odaklanmaktadır: -    - Bütçe planlama için kuruluş hiyerarşisi oluşturma ve kullanıcı güvenliğini yapılandırma   - Bütçe planı senaryoları, bütçe planı sütunları, yerleşimleri ve Excel şablonları tanımlama   - Bütçe planlama süreci oluşturma ve etkinleştirme   - Genel muhasebeden gerçek değerleri alarak bütçe planı belgesi oluşturma   - Bütçe planı belgesi verilerini ayarlamak için tahsisatları kullanma   - Excel'de bütçe planı belgesi verilerini düzenleme 
+Bu laboratuvarın amacı, Bütçe planlama alanındaki Microsoft Dynamics 365 for Finance and Operations işlevi güncelleştirmelerine ilişkin rehber eşlikli bir görünüm sağlamaktır. Bu laboratuvarın amacı, bütçe planlama modülü yapılandırmasının hızlı bir örneğini ve bu yapılandırmayla bütçe planlamanın nasıl tamamlanabileceğini göstermektir.  Bu laboratuar özellikle şu iş süreçleriyle veya görevlerle ilgilidir:
+- Bütçe planlama için organizasyon hiyerarşisi oluşturma ve kullanıcı güvenliğini yapılandırma
+- Bütçe planı senaryoları, bütçe planı sütunları, düzenler ve Excel şablonları tanımlama
+- Bütçe planlama süreci oluşturma ve etkinleştirme
+- Genel muhasebeden fiili değerleri çekerek bütçe planı belgesi oluşturma
+- Bütçe planı belge verilerini ayarlamak için tahsisatları kullanma
+- Excel'de bütçe planı belge verilerini düzenleme 
 
 <a name="prerequisites"></a>Ön koşullar 
 ------------------
@@ -104,8 +110,6 @@ Bütçe planlama, bütçe plan verilerine erişim yapılandırmak için özel g�
 2.5. “Belirli organizasyonlara erişim izni ver” öğesini seçin. İlk adımda oluşturulan Organizasyon hiyerarşisini seçin. Finans düğümünü seçin ve Alt birimlerle birlikte ver düğmesine tıklayın 
 
 ***Önemli!*** *Organizasyon güvenliği tüzel kişilik için uygulandığından bu görev gerçekleştirilirken DMF tüzel kişilik içeriğinde olduğunuzdan emin olun* 
-
-[![Erişime izin ver](./media/screenshot14.png)](./media/screenshot14.png)
 
 ### <a name="task-3-create-scenarios"></a>Görev 3: Senaryo oluşturma
 3.1. Bütçeleme&gt;Kur &gt; Bütçe planlama &gt; Bütçe planlama yapılandırma seçimlerini yapın. Senaryolar sayfasında, bu laboratuvarda kullanacağımız senaryolara dikkat edin: Önceki yılın fiili tutarları ve bütçelenen tutarları. 

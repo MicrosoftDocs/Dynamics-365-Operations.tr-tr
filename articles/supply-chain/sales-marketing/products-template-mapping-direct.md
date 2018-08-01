@@ -3,7 +3,7 @@ title: "Finance and Operations'taki ürünleri doğrudan Sales'teki ürünlerle 
 description: "Bu konu, ürünleri Microsoft Dynamics 365 for Finance and Operations'tan Microsoft Dynamics 365 for Sales'e eşitlemek için altta yatan görevleri ve şablonları açıklar."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3ae50372edcd473f2288f8172b71eac33e24b636
+ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
+ms.openlocfilehash: 66506953790fd77c2105591d3211c76991eced08
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -78,7 +78,8 @@ Sales'ta ürünlere, ürünün dışarıda tutulduğunu belirten yeni bir **Dı�
 Dışarıda tutulan ürünler otomatik olarak aynı para birimine sahip ilk geçerli fiyat listesine eklenir. Fiyat listeleri ada göre alfabetik olarak düzenlenir. Finance and Operations'taki ürün satış fiyatı, fiyat listesindeki fiyat olarak kullanılır. Bu nedenle, Sales içerisinde, Finance and Operations içindeki her bir ürün satış para birimi için bir fiyat listesi olmalıdır. Serbest bırakılmış satılabilir ürünler üzerindeki para birimi, ürünün dışa aktarıldığı tüzel kişiliğin muhasebe para birimine uygun olarak ayarlanır.
 
 > [!NOTE]
-> Eşleşen para birimine sahip bir fiyat listesi olmadığı sürece ürün eşitleme başarılı olmaz.
+> - Eşleşen para birimine sahip bir fiyat listesi olmadığı sürece ürün eşitleme başarılı olmaz.
+> - Tümleştirmeyle kullanılan fiyat listesini, Veri Tümleştirme projesindeki pricelevelid.name [Varsayılan Fiyat Listesi (Ad)] ile eşleştirerek denetleyebilirsiniz. Girişin tamamen küçük harflerden oluşması gerekir. Örneğin Satışta "Standard" adlı bir fiyat listesi varsayılanı şöyle olur: Hedef alan: pricelevelid.name [Varsayılan Fiyat Listesi (Ad)] ve Eşleşme türü: [ { "transformType": "Default", "defaultValue": "standard" } ].
 
 ## <a name="preconditions-and-mapping-setup"></a>Önkoşullar ve eşleme kurulumu
 

@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 86b301833f3655f7172e2d38ddca4239be71760c
-ms.openlocfilehash: bcb4af426e5967643a1c438bb19495576ce51b63
+ms.sourcegitcommit: 4961ee7fcc56af0646e421c9e040e2129cc322c4
+ms.openlocfilehash: e6d6ede65764c0b35c9ce0985af0d9f2cd6653c0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/12/2018
 
 ---
 
@@ -58,6 +58,8 @@ Ekstre deftere nakli özelliğinde yapılan geliştirmelerin bir parçası olara
 - **Sayımın devre dışı bırakılması gerekli** – Bu seçenek **Evet** olarak ayarlandığında, sayılan tutar ile hareket tutarı arasındaki fark Perakende mağazaları için **Ekstre** hızlı sekmesinde belirtilen eşiğin dışında olsa bile ekstre deftere nakil işlemi devam eder.
 
 Ayrıca, **Paralel ekstre deftere nakil işlemi için maksimum sayı** alanı **Toplu işlem** hızlı sekmesinde sunulmuştur. Bu alan aynı anda çalışması gereken toplu iş görevlerinin sayısını tanımlar. Şu anda, bu alanın değerini el ile ayarlamanız gerekir.
+
+Ayrıca, yeni deftere nakil işleminde **Perakende parametreleri** sayfasının **Deftere nakil** sekmesindeki **Hediye kartı** hızlı sekmesinde bir **Hediye kartı ürünü** tanımlamak gerekiyor. Kuruluş Hediye kartları kullanmasa bile bu geçerlidir. 
 
 Ekstre deftere nakilleriyle ilgili olan ve Perakende mağazaları ile **perakende parametreleri** sayfasında tanımlanan tüm ayarların ve parametrelerin, geliştirilmiş ekstre deftere nakil özelliğine uygulanabilir olduğunu unutmayın.
 

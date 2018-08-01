@@ -3,7 +3,7 @@ title: "Uyarılara genel bakış"
 description: "Bu konu, Microsoft Dynamics 365 for Finance and Operations'ta uyarılar hakkında genel bilgi sağlar. Uyarıları, iş günü sırasında izlemek istediğiniz olaylardan haberdar olmak için kullanabilirsiniz."
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -27,8 +27,6 @@ ms.lasthandoff: 04/13/2018
 # <a name="alerts-overview"></a>Uyarılara genel bakış
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a>Uyarılar hakkında
 Uyarılar, Microsoft Dynamics 365 for Finance and Operations'ta kritik olaylar için bir bildirim sistemi oluşturur. Uyarıları, iş günü sırasında izlemek istediğiniz olaylardan haberdar olmak için kullanabilirsiniz. Vadesi geçen teslimatlar, silinmiş siparişler, değişen fiyatlar veya yanıtlamanız gereken diğer olaylar hakkında uyarılar almak için kendi kurallarınızı kolaylıkla oluşturabilirsiniz.
