@@ -3,7 +3,7 @@ title: "Serbest metin fatura şablonu oluşturma"
 description: "Bu prosedürde, serbest metin faturası şablonunun nasıl oluşturulduğu gösterilmektedir."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 05/29/2019
+ms.date: 05/29/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f69505f0c6137121cae92d42d052b244326c8436
-ms.openlocfilehash: 9b7ce8ba180f67c4a52439f4e03b59f07a71323d
+ms.sourcegitcommit: d617302e020c21a7a7fb077e4ce9481b6c80b796
+ms.openlocfilehash: 80eb886c70e3bfde3a9eff87be48498aa48d7234
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="create-a-free-text-invoice-template"></a><span data-ttu-id="ebfb1-103">Serbest metin fatura şablonu oluşturma</span><span class="sxs-lookup"><span data-stu-id="ebfb1-103">Create a free text invoice template</span></span>
