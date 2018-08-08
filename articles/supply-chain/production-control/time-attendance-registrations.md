@@ -1,7 +1,7 @@
 ---
 title: "Saat ve işe devam durumu kaydı"
 description: "Zaman kayıt çalışanları, örneğin giriş saati, çıkış saati, dolaylı faaliyetlerin kaydı ve devamsızlık kaydı gibi farklı türlerde zaman kayıtları girebilirler. Bu konuda kayıtlar, bunların hesaplanması, onaylanması ve zaman çizelgelerinin onaylanması sürecine yapı ve otomatik onay eklenmesi için iş akışının kullanımı hakkında bilgiler verilmiştir."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,14 +16,14 @@ ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c085b40298663fad50df93034e1e1a684e0de54b
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 7ec008cd65fe7c11eb24ae8c5088d53f11dc2c88
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

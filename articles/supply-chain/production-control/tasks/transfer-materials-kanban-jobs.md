@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -17,10 +17,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e28ed504a945c162635c414bd156571a41faffe9
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: a28755873cda431077c74ac8ac96061a986e55dd
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="transfer-materials-with-kanban-jobs-february-2016-only"></a><span data-ttu-id="546c2-103">Malzemeleri kanban işleriyle transfer etme (yalnızca Şubat 2016)</span><span class="sxs-lookup"><span data-stu-id="546c2-103">Transfer materials with kanban jobs (February 2016 only)</span></span>

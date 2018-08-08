@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -17,10 +17,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 71fbbaf645f8e8ac4cf406f67c59a9ec4cfe5ca2
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: bab99189fdd1980600612aaca9c6eb70cd976e2d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="add-a-predecessor-to-a-production-flow-activity"></a><span data-ttu-id="b8770-103">Üretim akışı faaliyetine bir öncel ekleme</span><span class="sxs-lookup"><span data-stu-id="b8770-103">Add a predecessor to a production flow activity</span></span>

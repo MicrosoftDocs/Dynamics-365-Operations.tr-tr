@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c423af5e78a37527fad2290708a2e6e36d971f26
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 05f3abf7359a9bfb3c708739551498333802dd0c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="sales-tax-assignment-and-overrides"></a><span data-ttu-id="14d6d-103">Satış vergisi atama ve geçersiz kılma</span><span class="sxs-lookup"><span data-stu-id="14d6d-103">Sales tax assignment and overrides</span></span>

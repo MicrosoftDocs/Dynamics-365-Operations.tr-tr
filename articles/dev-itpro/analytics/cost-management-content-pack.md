@@ -1,7 +1,7 @@
 ---
 title: "Power BI maliyet yönetimi içeriği"
 description: "Bu konu, Power BI Maliyet Yönetimi'nde nelerin bulunduğunu açıklar."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
@@ -16,14 +16,14 @@ ms.custom: 270314
 ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 660fdc578052c318f589cf1ae0ce67751b544293
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

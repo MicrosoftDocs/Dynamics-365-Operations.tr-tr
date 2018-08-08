@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4ee037fbf166a64f126ee6ffa3fbb8d749daec02
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: e7b6cbc70058c9b9a8edaf3c3303fa7ba0e9da44
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-an-interest-code-with-a-range"></a><span data-ttu-id="9b818-103">Aralığa sahip faiz kodu oluşturma</span><span class="sxs-lookup"><span data-stu-id="9b818-103">Create an interest code with a range</span></span>

@@ -1,7 +1,7 @@
 --- 
 title: "Tek bir şirket için serbest bırakılan ürün oluşturma"
 description: "Bu yordam, tek bir yasal birim bağlamında yayımlanan tek bir ürün oluşturmayı adım adım anlatılmaktadır."
-author: BibiSp
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f23ddf59d986f16c350e9e978333cd7c9b47389a
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 3449952684d557f410f9b5b9410f94197e12c897
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-a-released-product-for-a-single-company"></a><span data-ttu-id="d8f6e-103">Tek bir şirket için serbest bırakılan ürün oluşturma</span><span class="sxs-lookup"><span data-stu-id="d8f6e-103">Create a released product for a single company</span></span>

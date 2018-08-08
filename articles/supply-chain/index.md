@@ -1,7 +1,7 @@
 ---
 title: "Tedarik zinciri yönetimi giriş sayfası"
 description: "Bu sayfa, Microsoft Dynamics 365 for Finance and Operations'ın tedarik zinciri yönetim özellikleri için yardım konularının ve diğer kaynakların bir listesini sağlar."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: index-page
@@ -9,20 +9,20 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: 
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
-ms.openlocfilehash: df35f70d8297aa2a832d143217542e3d558040ea
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

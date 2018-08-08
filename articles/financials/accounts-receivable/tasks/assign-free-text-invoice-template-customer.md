@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: ea5f1ddd8f6be8a1dd2cee47b7746c4764ba28a4
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: e29122fa775385ca4d407ddbe190626d743da69b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a><span data-ttu-id="f673d-103">Müşteriye serbest metin fatura şablonu atama</span><span class="sxs-lookup"><span data-stu-id="f673d-103">Assign a free text invoice template to a customer</span></span>

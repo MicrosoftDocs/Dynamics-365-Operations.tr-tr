@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: JmgShopSupervisorWorkspace
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 365445a29afedceedd001fa283e624d3a9eef2cc
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 88ca0d3c3803e1fc6ebe3fd827aa3884b02f4de2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="visibility-into-material-exceptions"></a><span data-ttu-id="32340-103">Malzeme özel durumlarının görülebilirliği</span><span class="sxs-lookup"><span data-stu-id="32340-103">Visibility into material exceptions</span></span>

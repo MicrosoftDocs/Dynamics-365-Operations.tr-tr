@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e4da27f7a7d03da91bada9ea99befa864f00e87b
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 94ef09c8906c793b0187d82cef259122c91a8e01
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product"></a><span data-ttu-id="4ef18-103">Ürün yaşam döngüsü durumunu serbest bırakılan bir ürüne atama</span><span class="sxs-lookup"><span data-stu-id="4ef18-103">Assign a product lifecycle state to a released product</span></span>

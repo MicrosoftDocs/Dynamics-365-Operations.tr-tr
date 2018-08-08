@@ -1,7 +1,7 @@
 ---
 title: "Gider yönetimi"
 description: "Gider yönetimi içinde ödeme yöntemi bilgilerini saklayabileceğiniz, kredi kartı hareketlerini içe aktarabileceğiniz ve işiniz için masraf yaptıklarında çalışanların harcadığı para miktarını izleyebileceğiniz tümleşik bir iş akışı kullanın."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 15001
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 56ceba3d3a2495079f621148476cc70ac694834a
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 1cd637f1b74056db89520b762255d03afa3855ba
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

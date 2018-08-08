@@ -1,7 +1,7 @@
 ---
 title: "Ambar yönetimi"
 description: "Ambar yönetimini ambar işlemlerini izlemek ve otomatikleştirmek için kullanın."
-author: BibiSp
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,17 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSParameters
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a569d9264097d7a0b742bc7bf47c2504c58cdb4e
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 7c9613070e077bced4b272b136985de5f4ddbdd0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="warehouse-management"></a><span data-ttu-id="e27a1-103">Ambar yönetimi</span><span class="sxs-lookup"><span data-stu-id="e27a1-103">Warehouse management</span></span>

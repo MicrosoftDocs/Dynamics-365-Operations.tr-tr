@@ -1,7 +1,7 @@
 --- 
 title: "Maliyet nesneleri oluşturma  "
 description: "Bu yordam, Microsoft Dynamics 365 for Finance and Operations maliyet merkezi mali boyutunu bir veri bağlayıcı aracılığıyla Maliyet muhasebesine içe aktararak maliyet nesneleri oluşturmayı gösterir."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/25/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2c76a26ea63d1fd44c20fbee271d2767b8ea68b1
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 571406164236c7c079e059367e5d757cc4cefb1f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-cost-objects"></a><span data-ttu-id="85347-103">Maliyet nesneleri oluşturma  </span><span class="sxs-lookup"><span data-stu-id="85347-103">Create cost objects</span></span> 

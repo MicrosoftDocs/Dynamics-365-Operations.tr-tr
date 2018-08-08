@@ -1,7 +1,7 @@
 --- 
 title: "Satınalma siparişini yerine koyma için yerleşim yönergesi ayarlama"
 description: "Bu yordam, bir basit konum yönergesini kurmayı göstermektedir."
-author: BibiSp
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
@@ -9,18 +9,18 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c868265b7a5b5e057b3f1354a81a472f1d6a5d4d
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 9ca4b3c2598a268c065011daff31296521faa918
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a><span data-ttu-id="247a7-103">Satınalma siparişini yerine koyma için yerleşim yönergesi ayarlama</span><span class="sxs-lookup"><span data-stu-id="247a7-103">Set up a location directive for purchase order put-away</span></span>

@@ -1,7 +1,7 @@
 --- 
 title: Vergi dairesi ayarlama
 description: "Satış vergisi makamları, toplanan satış vergisinin bildirilip ödenmesi gereken kurumlardır."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2ba2412d81fa6b0a60ff18c9fe065882c864f01c
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: b1ebd65bcf3950c0f2a91d198fec22b92209de48
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="set-up-sales-tax-authorities"></a><span data-ttu-id="de380-103">Vergi dairesi ayarlama</span><span class="sxs-lookup"><span data-stu-id="de380-103">Set up sales tax authorities</span></span>

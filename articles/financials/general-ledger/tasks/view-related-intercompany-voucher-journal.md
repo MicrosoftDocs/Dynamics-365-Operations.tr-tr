@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 067f0d211330d0b85d2836556f43495a1e378e44
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 7a3b373699973a94d16027ed7356aa6d1c8f2646
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="view-a-related-intercompany-voucher-from-a-journal"></a><span data-ttu-id="618c3-103">Günlükten ilgili şirketlerarası fişi görüntüleme</span><span class="sxs-lookup"><span data-stu-id="618c3-103">View a related intercompany voucher from a journal</span></span>

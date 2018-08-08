@@ -1,7 +1,7 @@
 --- 
 title: "Ürün reçeteleri oluşturma (yalnızca Şubat 2016)"
 description: "Bu görev, tamamlanmış bir ürün ve yarı mamul bir ürün için ürün reçetesi yapısını oluşturmaya odaklanır."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6c5473a0786ba0348701e8e106de46f811571f07
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: f132a3865b180a74d328ebc76ca29b2fc8aee85f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-boms-february-2016-only"></a><span data-ttu-id="340f5-103">Ürün reçeteleri oluşturma (yalnızca Şubat 2016)</span><span class="sxs-lookup"><span data-stu-id="340f5-103">Create BOMs (February 2016 only)</span></span>

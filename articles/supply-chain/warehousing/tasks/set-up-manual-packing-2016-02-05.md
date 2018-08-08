@@ -1,7 +1,7 @@
 --- 
 title: "El ile ambalajlamayı ayarlama (yalnızca Şubat ve Mayıs 2016)"
 description: "Paketleme işlemi, doğrulamanıza ve ürünleri konteynerlere yerleştirmenize izin verir."
-author: BibiSp
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/04/2016
 ms.topic: business-process
@@ -9,18 +9,18 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 714fd4762ae54f8f6638e81dd19fdd636091b88e
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 7e776a08ec2adc48b77c86c16e1f291e524a8d00
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="set-up-manual-packing-february--may-2016-only"></a><span data-ttu-id="f7d2e-103">El ile ambalajlamayı ayarlama (yalnızca Şubat ve Mayıs 2016)</span><span class="sxs-lookup"><span data-stu-id="f7d2e-103">Set up manual packing (February & May 2016 only)</span></span>

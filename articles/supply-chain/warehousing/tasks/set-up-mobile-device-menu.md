@@ -1,7 +1,7 @@
 --- 
 title: "Satınalma siparişindeki işin tamamlanması için bir mobil cihazı menü öğesi ayarlama"
 description: "Bu yordam bir Mobil cihaz menü öğesinin nasıl kurulacağını gösterir."
-author: BibiSp
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/25/2016
 ms.topic: business-process
@@ -9,18 +9,18 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c3c048a18ee8150880ed9df139cd498f2ec52852
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 31007031b761cfed6b5a97ebb829be4d200bc82d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a><span data-ttu-id="cadce-103">Satınalma siparişindeki işin tamamlanması için bir mobil cihazı menü öğesi ayarlama</span><span class="sxs-lookup"><span data-stu-id="cadce-103">Set up a mobile device menu item for completing work in a purchase order</span></span>
