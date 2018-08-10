@@ -1,7 +1,7 @@
 ---
 title: "Satış ve karlılık performansı Power BI içeriği"
 description: "Bu konu, Satış ve karlılık performansı Power BI içeriğinde nelerin bulunduğunu açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılan veri modeli ve varlıklar hakkında bilgi sağlar."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article

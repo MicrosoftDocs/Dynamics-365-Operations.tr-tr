@@ -1,7 +1,7 @@
 ---
 title: "Ambar yönetimi"
 description: "Ambar yönetimini ambar işlemlerini izlemek ve otomatikleştirmek için kullanın."
-author: BibiSp
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,10 +10,10 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSParameters
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
