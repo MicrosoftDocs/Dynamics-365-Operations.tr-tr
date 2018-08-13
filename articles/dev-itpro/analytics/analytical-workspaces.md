@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
 ms.openlocfilehash: 7e2a9297a417fb25384341dcabcafa41c50f8c84
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/22/2018
 - [CFO'ya genel bakış Power BI içeriği](CFO-power-bi.md)
 - [Ücret Power BI içeriği](compensation-power-bi.md)
 - [Maliyet muhasebesi analizi Power BI içeriği](cost-accounting-analysis-content-pack.md) 
-- [Maliyet yönetimi Power BI içeriği](cost-management-content-pack.md)    
+- [Maliyet yönetimi Power BI içeriği](cost-management-content-pack.md)
 - [Kredi ve tahsilatlar yönetimi Power BI içeriği](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [Personel gelişimi Power BI içeriği](employee-development-PBI.md) 
 - [Mali bilgiler Power BI içeriği](financial-insights.md)
@@ -46,5 +46,5 @@ ms.lasthandoff: 05/22/2018
 - [Satış ve karlılık performansı Power BI içeriği](sales-profitability-performance-content-pack.md)
 - [Satıcı ödemeleri Power BI içeriği](../../financials/accounts-payable/Vendor-payments-workspace.md)
 - [Ambar performansı Power BI içeriği](warehouse-power-bi-content.md)
-- [İşgücü ölçümleri Power BI içeriği](workforce-analysis-power-bi-content-pack.md)  
+- [İşgücü ölçümleri Power BI içeriği](workforce-analysis-power-bi-content-pack.md)
 

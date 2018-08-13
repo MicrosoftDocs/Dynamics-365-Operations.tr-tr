@@ -65,5 +65,3 @@ Aşağıdaki veriler **Öğrenme** Power BI içeriğindeki raporları doldurmak 
 | Personel Adı    | Adı, ikinci ad ve tam adı                             | Kurs Katılımcıları |
 | Personel Unvanı   | Başlık ve kıdem tarihi                                         | Kurs Katılımcıları |
 
-
-
