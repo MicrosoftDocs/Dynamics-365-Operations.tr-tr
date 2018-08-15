@@ -1,7 +1,7 @@
 ---
 title: "Ürün tanımlayıcıları"
 description: "Bu konu çeşitli ürün tanımlayıcısı türleri hakkında bilgi sağlar ve ürün tanımlayıcılarını ürün verilerine nasıl ekleyebileceğinizi açıklar."
-auhor: cvocph
+author: cvocph
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article

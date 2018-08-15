@@ -1,7 +1,7 @@
 ---
 title: "Şirketlerarası giderler"
 description: "Bir kuruluştaki bir tüzel kişilikte çalışan bir çalışan, aynı kuruluştaki başka bir tüzel kişilik için iş yapabilir. Bu durumda, şirketlerarası gider özelliğini, çalışanın giderini işin gerçekleştirildiği tüzel kişiliğe atamak için kullanabilirsiniz."
-author: saraschi2
+author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
@@ -13,10 +13,8 @@ audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
-ms.search.validFrom:
-- month/year of release that feature was introduced in
-- in format yyyy-mm-dd
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
