@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6a0c1459da8770a8cc880a48483102494feb38bf
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: a4ea4606f9987bc08565d43a1f05243acf88883c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -64,6 +64,4 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="94771-162">Bölme</span><span class="sxs-lookup"><span data-stu-id="94771-162">Position</span></span>         | <span data-ttu-id="94771-163">Pozisyon, unvan ve tam zamanlı eşdeğeri (FTE)</span><span class="sxs-lookup"><span data-stu-id="94771-163">Position, title, and full-time equivalent (FTE)</span></span>                  | <span data-ttu-id="94771-164">Kurs Ajandası, Kurs Katılımcıları</span><span class="sxs-lookup"><span data-stu-id="94771-164">Course Agenda, Course Attendees</span></span> |
 | <span data-ttu-id="94771-165">Personel Adı</span><span class="sxs-lookup"><span data-stu-id="94771-165">Employee Name</span></span>    | <span data-ttu-id="94771-166">Adı, ikinci ad ve tam adı</span><span class="sxs-lookup"><span data-stu-id="94771-166">First name, last name, and full name</span></span>                             | <span data-ttu-id="94771-167">Kurs Katılımcıları</span><span class="sxs-lookup"><span data-stu-id="94771-167">Course Attendees</span></span> |
 | <span data-ttu-id="94771-168">Personel Unvanı</span><span class="sxs-lookup"><span data-stu-id="94771-168">Employee Title</span></span>   | <span data-ttu-id="94771-169">Başlık ve kıdem tarihi</span><span class="sxs-lookup"><span data-stu-id="94771-169">Title and seniority date</span></span>                                         | <span data-ttu-id="94771-170">Kurs Katılımcıları</span><span class="sxs-lookup"><span data-stu-id="94771-170">Course Attendees</span></span> |
-
-
 

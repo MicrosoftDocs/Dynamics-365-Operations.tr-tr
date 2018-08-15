@@ -1,7 +1,7 @@
 ---
 title: "Ürün tanımlayıcıları"
 description: "Bu konu çeşitli ürün tanımlayıcısı türleri hakkında bilgi sağlar ve ürün tanımlayıcılarını ürün verilerine nasıl ekleyebileceğinizi açıklar."
-auhor: cvocph
+author: cvocph
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: e5920297d3e988b84d8fd59ae2e13e7350dd2b59
+ms.sourcegitcommit: 384c38f3e154495c882434d1c85cef63396cd897
+ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 08/15/2018
 
 ---
 

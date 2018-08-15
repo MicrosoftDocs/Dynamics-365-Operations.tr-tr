@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 63432fe5fe98b2c20ddbf9ebec6ac14b981f0106
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 2d8c0e0e52a8dba2a1ea5bf330cdea01e3cfb60d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="04278-105">Bu konu, **İşe alma** Microsoft Power BI içeriğini açıklar.</span><span class="sxs-lookup"><span data-stu-id="04278-105">This topic describes the **Recruiting** Microsoft Power BI content.</span></span> <span data-ttu-id="04278-106">Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.</span><span class="sxs-lookup"><span data-stu-id="04278-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span>
 
 ## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="04278-107">Power BI içeriğine erişmek</span><span class="sxs-lookup"><span data-stu-id="04278-107">Accessing the Power BI content</span></span>
-<span data-ttu-id="04278-108">**İşe alma** Power BI içeriği **İşe alma yönetimi** çalışma alanında gösterilir.</span><span class="sxs-lookup"><span data-stu-id="04278-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span> 
+<span data-ttu-id="04278-108">**İşe alma** Power BI içeriği **İşe alma yönetimi** çalışma alanında gösterilir.</span><span class="sxs-lookup"><span data-stu-id="04278-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span>
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a><span data-ttu-id="04278-109">İşe alma yönetimi çalışma alanındaki raporlar ve görseller</span><span class="sxs-lookup"><span data-stu-id="04278-109">Reports and visuals in the Recruitment management workspace</span></span>
 <span data-ttu-id="04278-110">**İşe alma yönetimi** çalışma alanı bir **Analitik** sekmesi içerir. Bu sekme, işe alma için gömülü Power BI içeriğini barındırır.</span><span class="sxs-lookup"><span data-stu-id="04278-110">The **Recruitment management** workspace contains an **Analytics** tab. This tab contains the embedded Power BI content for recruiting.</span></span> <span data-ttu-id="04278-111">İçerik bir genel bakış sekmesinden ve ayrıntıları içeren ek sekmelerden oluşur.</span><span class="sxs-lookup"><span data-stu-id="04278-111">The content consists of an overview tab and additional tabs that contain details.</span></span> <span data-ttu-id="04278-112">Aşağıdaki tablo her sekmedeki raporları açıklar.</span><span class="sxs-lookup"><span data-stu-id="04278-112">The following table describes the reports on each tab.</span></span>
@@ -66,6 +66,4 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="04278-163">Performans</span><span class="sxs-lookup"><span data-stu-id="04278-163">Performance</span></span>          | <span data-ttu-id="04278-164">Değerlendirme, açıklama ve derecelendirme modeli</span><span class="sxs-lookup"><span data-stu-id="04278-164">Rating, description, and rating model</span></span>                            | <span data-ttu-id="04278-165">Başvuran, İstihdam Edilen Başvuran, Sonlandırılan Başvuran</span><span class="sxs-lookup"><span data-stu-id="04278-165">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="04278-166">İşe Alma Projesi</span><span class="sxs-lookup"><span data-stu-id="04278-166">Recruitment Project</span></span>  | <span data-ttu-id="04278-167">Proje açıklaması, proje durumu ve açılan yerler</span><span class="sxs-lookup"><span data-stu-id="04278-167">Project description, project status, and openings</span></span>                | <span data-ttu-id="04278-168">Başvuran, İstihdam Edilen Başvuran, Sonlandırılan Başvuran</span><span class="sxs-lookup"><span data-stu-id="04278-168">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="04278-169">İşten Çıkarılan Başvuran</span><span class="sxs-lookup"><span data-stu-id="04278-169">Terminated Applicant</span></span> | <span data-ttu-id="04278-170">Sonlandırılan başvuranlar, neden, performans ve sonlandırma tarihi</span><span class="sxs-lookup"><span data-stu-id="04278-170">Terminated applicants, reason, performance, and termination date</span></span> | <span data-ttu-id="04278-171">Şirket, Takvim Kaydırma, Tarih, Coğrafi Konum, Performans, Demografi, İstihdam, Ortam, İşe Alma Projesi, Başvuranın Adı</span><span class="sxs-lookup"><span data-stu-id="04278-171">Company, Calendar Offset, Date, Geographic Location, Performance, Demographics, Employment, Media, Recruitment Project, Applicant Name</span></span> |
-
-
 
