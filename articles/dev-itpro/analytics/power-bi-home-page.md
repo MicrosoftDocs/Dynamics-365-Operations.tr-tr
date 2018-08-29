@@ -1,5 +1,5 @@
 ---
-title: "PowerBI.com çözümleri"
+title: "PowerBI.com çözümleri giriş sayfası"
 description: "Bu konuda, kullanılabilir PowerBI.com çözümleri listelenmektedir ve çözümler hakkında daha fazla bilgi edinebileceğiniz kaynaklar belirtilmektedir."
 author: sericks007
 manager: AnnBe
@@ -19,49 +19,49 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
-ms.openlocfilehash: 0aa9971226e5aa79cab85f098e098dbb789a1e2d
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 6e2e32f6d80ba1484bbe9eeed4da41ab70863c5a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
-# <a name="powerbicom-solutions"></a><span data-ttu-id="8020b-103">PowerBI.com çözümleri</span><span class="sxs-lookup"><span data-stu-id="8020b-103">PowerBI.com solutions</span></span>
-<span data-ttu-id="8020b-104">Dynamics 365 for Finance and Operations ortamları için aşağıdaki PowerBI.com çözümleri kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="8020b-104">The following PowerBI.com solutions are available for Dynamics 365 for Finance and Operations environments.</span></span> 
+# <a name="powerbicom-solutions-home-page"></a><span data-ttu-id="04990-103">PowerBI.com çözümleri giriş sayfası</span><span class="sxs-lookup"><span data-stu-id="04990-103">PowerBI.com solutions home page</span></span>
+<span data-ttu-id="04990-104">Dynamics 365 for Finance and Operations ortamları için aşağıdaki PowerBI.com çözümleri kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="04990-104">The following PowerBI.com solutions are available for Dynamics 365 for Finance and Operations environments.</span></span>
 
-## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a><span data-ttu-id="8020b-105">Lifecycle Services'dan (LCS) temin edilebilecek PowerBI.com çözümleri</span><span class="sxs-lookup"><span data-stu-id="8020b-105">PowerBI.com solutions available from Lifecycle Services (LCS)</span></span>
+## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a><span data-ttu-id="04990-105">Lifecycle Services'dan (LCS) temin edilebilecek PowerBI.com çözümleri</span><span class="sxs-lookup"><span data-stu-id="04990-105">PowerBI.com solutions available from Lifecycle Services (LCS)</span></span>
 
-<span data-ttu-id="8020b-106">LCS'nin Paylaşılan varlıklar kitaplığında aşağıdaki PowerBI.com çözümleri mevcuttur.</span><span class="sxs-lookup"><span data-stu-id="8020b-106">The following PowerBI.com solutions are available in the Shared assets library of LCS.</span></span> <span data-ttu-id="8020b-107">Ortamınıza uygun sürümü indirmek için, Paylaşılan varlıklar kitaplığındaki sürüm bilgilerine bakın.</span><span class="sxs-lookup"><span data-stu-id="8020b-107">Refer to the version information in the Shared assets library to download the correct version for your environment.</span></span> 
+<span data-ttu-id="04990-106">LCS'nin Paylaşılan varlıklar kitaplığında aşağıdaki PowerBI.com çözümleri mevcuttur.</span><span class="sxs-lookup"><span data-stu-id="04990-106">The following PowerBI.com solutions are available in the Shared assets library of LCS.</span></span> <span data-ttu-id="04990-107">Ortamınıza uygun sürümü indirmek için, Paylaşılan varlıklar kitaplığındaki sürüm bilgilerine bakın.</span><span class="sxs-lookup"><span data-stu-id="04990-107">Refer to the version information in the Shared assets library to download the correct version for your environment.</span></span>
 
-> [!Note]
-> <span data-ttu-id="8020b-108">Aşağıdaki listede yer alan PowerBI.com çözümlerinin çoğu, Dynamics 365 for Finance and Operations'ın en son sürümlerindeki analitik çalışma alanlarına katıştırılmıştır.</span><span class="sxs-lookup"><span data-stu-id="8020b-108">Most of the PowerBI.com solutions in the following list have been embedded in analytical workspaces in recent versions of Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="8020b-109">Analitik çalışma alanlarının kullanımı sayesinde, bu çözümlerin LCS'deki Paylaşılan varlıklar kitaplığından indirilmesine gerek kalmaz.</span><span class="sxs-lookup"><span data-stu-id="8020b-109">Using analytical workspaces eliminates the need to download these solutions from the Shared assets library in LCS.</span></span> <span data-ttu-id="8020b-110">Bu listedeki konular, PowerBI.com çözümlerinin Finance and Operations'ta nereye katıştırıldığını ve nerede kullanılabileceklerini göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="8020b-110">The topics in this list indicate where these PowerBI.com solutions have been embedded in Finance and Operations, where applicable.</span></span> 
+> [!NOTE]
+> <span data-ttu-id="04990-108">Aşağıdaki listede yer alan PowerBI.com çözümlerinin çoğu, Dynamics 365 for Finance and Operations'ın en son sürümlerindeki analitik çalışma alanlarına katıştırılmıştır.</span><span class="sxs-lookup"><span data-stu-id="04990-108">Most of the PowerBI.com solutions in the following list have been embedded in analytical workspaces in recent versions of Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="04990-109">Analitik çalışma alanlarının kullanımı sayesinde, bu çözümlerin LCS'deki Paylaşılan varlıklar kitaplığından indirilmesine gerek kalmaz.</span><span class="sxs-lookup"><span data-stu-id="04990-109">Using analytical workspaces eliminates the need to download these solutions from the Shared assets library in LCS.</span></span> <span data-ttu-id="04990-110">Bu listedeki konular, PowerBI.com çözümlerinin Finance and Operations'ta nereye katıştırıldığını ve nerede kullanılabileceklerini göstermektedir.</span><span class="sxs-lookup"><span data-stu-id="04990-110">The topics in this list indicate where these PowerBI.com solutions have been embedded in Finance and Operations, where applicable.</span></span>
 
-- [<span data-ttu-id="8020b-111">Fiili-bütçe karşılaştırması</span><span class="sxs-lookup"><span data-stu-id="8020b-111">Actual vs budget</span></span>](ledger-budgets-power-bi.md)
-- [<span data-ttu-id="8020b-112">Nakde genel bakış</span><span class="sxs-lookup"><span data-stu-id="8020b-112">Cash overview</span></span>](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
-- [<span data-ttu-id="8020b-113">Ücret ve kazançlar</span><span class="sxs-lookup"><span data-stu-id="8020b-113">Compensation and benefits</span></span>](compensation-and-benefits-analysis-power-bi-content-pack.md)   
-- [<span data-ttu-id="8020b-114">Maliyet muhasebesi analizi</span><span class="sxs-lookup"><span data-stu-id="8020b-114">Cost accounting analysis</span></span>](cost-accounting-analysis-content-pack.md) 
-- [<span data-ttu-id="8020b-115">Alacak ve tahsilat yönetimi</span><span class="sxs-lookup"><span data-stu-id="8020b-115">Credit and collections management</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md)
-- [<span data-ttu-id="8020b-116">Personel uzmanlıkları ve gelişimi</span><span class="sxs-lookup"><span data-stu-id="8020b-116">Employee competencies and development</span></span>](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
-- [<span data-ttu-id="8020b-117">Mali performans</span><span class="sxs-lookup"><span data-stu-id="8020b-117">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="8020b-118">Sabit kıymet yönetimi</span><span class="sxs-lookup"><span data-stu-id="8020b-118">Fixed asset management</span></span>](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
-- [<span data-ttu-id="8020b-119">Kurumsal eğitim</span><span class="sxs-lookup"><span data-stu-id="8020b-119">Organizational training</span></span>](organizational-training-analysis-power-bi-content-pack.md) 
-- [<span data-ttu-id="8020b-120">Uygulama yöneticisi</span><span class="sxs-lookup"><span data-stu-id="8020b-120">Practice manager</span></span>](practice-manager-power-bi.md)
-- [<span data-ttu-id="8020b-121">Üretim performansı</span><span class="sxs-lookup"><span data-stu-id="8020b-121">Production performance</span></span>](production-performance-power-bi.md)
-- [<span data-ttu-id="8020b-122">Satınalma ve harcama analizi</span><span class="sxs-lookup"><span data-stu-id="8020b-122">Purchase spend analysis</span></span>](purchase-content-pack-for-power-bi.md) 
-- [<span data-ttu-id="8020b-123">İşe alma</span><span class="sxs-lookup"><span data-stu-id="8020b-123">Recruiting</span></span>](recruiting-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="8020b-124">Satış ve karlılık performansı</span><span class="sxs-lookup"><span data-stu-id="8020b-124">Sales and profitability performance</span></span>](sales-profitability-performance-content-pack.md)
-- [<span data-ttu-id="8020b-125">Satıcı ödemeleri</span><span class="sxs-lookup"><span data-stu-id="8020b-125">Vendor payments</span></span>](../../financials/accounts-payable/Vendor-payments-workspace.md)
-- [<span data-ttu-id="8020b-126">Ambar performansı</span><span class="sxs-lookup"><span data-stu-id="8020b-126">Warehouse performance</span></span>](warehouse-power-bi-content.md)
-- [<span data-ttu-id="8020b-127">İş gücü ölçümleri</span><span class="sxs-lookup"><span data-stu-id="8020b-127">Workforce metrics</span></span>](workforce-analysis-power-bi-content-pack.md)  
+- [<span data-ttu-id="04990-111">Fiili-bütçe karşılaştırması</span><span class="sxs-lookup"><span data-stu-id="04990-111">Actual vs budget</span></span>](ledger-budgets-power-bi.md)
+- [<span data-ttu-id="04990-112">Nakde genel bakış</span><span class="sxs-lookup"><span data-stu-id="04990-112">Cash overview</span></span>](../../financials/cash-bank-management/Cash-Overview-Power-BI-content.md)
+- [<span data-ttu-id="04990-113">Ücret ve kazançlar</span><span class="sxs-lookup"><span data-stu-id="04990-113">Compensation and benefits</span></span>](compensation-and-benefits-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="04990-114">Maliyet muhasebesi analizi</span><span class="sxs-lookup"><span data-stu-id="04990-114">Cost accounting analysis</span></span>](cost-accounting-analysis-content-pack.md)
+- [<span data-ttu-id="04990-115">Alacak ve tahsilat yönetimi</span><span class="sxs-lookup"><span data-stu-id="04990-115">Credit and collections management</span></span>](../../financials/accounts-receivable/credit-collections-power-bi.md)
+- [<span data-ttu-id="04990-116">Personel uzmanlıkları ve gelişimi</span><span class="sxs-lookup"><span data-stu-id="04990-116">Employee competencies and development</span></span>](employee-competencies-and-development-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="04990-117">Mali performans</span><span class="sxs-lookup"><span data-stu-id="04990-117">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
+- [<span data-ttu-id="04990-118">Sabit kıymet yönetimi</span><span class="sxs-lookup"><span data-stu-id="04990-118">Fixed asset management</span></span>](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
+- [<span data-ttu-id="04990-119">Kurumsal eğitim</span><span class="sxs-lookup"><span data-stu-id="04990-119">Organizational training</span></span>](organizational-training-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="04990-120">Uygulama yöneticisi</span><span class="sxs-lookup"><span data-stu-id="04990-120">Practice manager</span></span>](practice-manager-power-bi.md)
+- [<span data-ttu-id="04990-121">Üretim performansı</span><span class="sxs-lookup"><span data-stu-id="04990-121">Production performance</span></span>](production-performance-power-bi.md)
+- [<span data-ttu-id="04990-122">Satınalma ve harcama analizi</span><span class="sxs-lookup"><span data-stu-id="04990-122">Purchase spend analysis</span></span>](purchase-content-pack-for-power-bi.md)
+- [<span data-ttu-id="04990-123">İşe alma</span><span class="sxs-lookup"><span data-stu-id="04990-123">Recruiting</span></span>](recruiting-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="04990-124">Satış ve karlılık performansı</span><span class="sxs-lookup"><span data-stu-id="04990-124">Sales and profitability performance</span></span>](sales-profitability-performance-content-pack.md)
+- [<span data-ttu-id="04990-125">Satıcı ödemeleri</span><span class="sxs-lookup"><span data-stu-id="04990-125">Vendor payments</span></span>](../../financials/accounts-payable/Vendor-payments-workspace.md)
+- [<span data-ttu-id="04990-126">Ambar performansı</span><span class="sxs-lookup"><span data-stu-id="04990-126">Warehouse performance</span></span>](warehouse-power-bi-content.md)
+- [<span data-ttu-id="04990-127">İş gücü ölçümleri</span><span class="sxs-lookup"><span data-stu-id="04990-127">Workforce metrics</span></span>](workforce-analysis-power-bi-content-pack.md)
 
-## <a name="powerbicom-solutions-available-from-appsource"></a><span data-ttu-id="8020b-128">AppSource'tan temin edilebilen PowerBI.com çözümleri</span><span class="sxs-lookup"><span data-stu-id="8020b-128">PowerBI.com solutions available from AppSource</span></span>
+## <a name="powerbicom-solutions-available-from-appsource"></a><span data-ttu-id="04990-128">AppSource'tan temin edilebilen PowerBI.com çözümleri</span><span class="sxs-lookup"><span data-stu-id="04990-128">PowerBI.com solutions available from AppSource</span></span>
 
-<span data-ttu-id="8020b-129">Aşağıdaki PowerBI.com çözümleri [Microsoft AppSource](https://appsource.microsoft.com)'tan temin edilebilir.</span><span class="sxs-lookup"><span data-stu-id="8020b-129">The following PowerBI.com solutions are available from [Microsoft AppSource](https://appsource.microsoft.com).</span></span>
+<span data-ttu-id="04990-129">Aşağıdaki PowerBI.com çözümleri [Microsoft AppSource](https://appsource.microsoft.com)'tan temin edilebilir.</span><span class="sxs-lookup"><span data-stu-id="04990-129">The following PowerBI.com solutions are available from [Microsoft AppSource](https://appsource.microsoft.com).</span></span>
 
-> [!Note]
-> <span data-ttu-id="8020b-130">Bu çözümler, [AppSource'da bulunan Power BI içerik paketleri](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource) başlıklı konuda belirtildiği üzere, kullanım dışı bırakılmıştır.</span><span class="sxs-lookup"><span data-stu-id="8020b-130">These solutions have been deprecated as documented in [Power BI content packs available on AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span></span>
+> [!NOTE]
+> <span data-ttu-id="04990-130">Bu çözümler, [AppSource'da bulunan Power BI içerik paketleri](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource) başlıklı konuda belirtildiği üzere, kullanım dışı bırakılmıştır.</span><span class="sxs-lookup"><span data-stu-id="04990-130">These solutions have been deprecated as documented in [Power BI content packs available on AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span></span>
 
-- <span data-ttu-id="8020b-131">Maliyet yönetimi</span><span class="sxs-lookup"><span data-stu-id="8020b-131">Cost management</span></span>    
-- [<span data-ttu-id="8020b-132">Mali performans</span><span class="sxs-lookup"><span data-stu-id="8020b-132">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="8020b-133">Perakende kanalı performansı </span><span class="sxs-lookup"><span data-stu-id="8020b-133">Retail channel performance</span></span>](retail-channel-performance-dashboard-power-bi-data.md) 
+- <span data-ttu-id="04990-131">Maliyet yönetimi</span><span class="sxs-lookup"><span data-stu-id="04990-131">Cost management</span></span>
+- [<span data-ttu-id="04990-132">Mali performans</span><span class="sxs-lookup"><span data-stu-id="04990-132">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
+- [<span data-ttu-id="04990-133">Perakende kanalı performansı </span><span class="sxs-lookup"><span data-stu-id="04990-133">Retail channel performance</span></span>](retail-channel-performance-dashboard-power-bi-data.md)
 

@@ -1,5 +1,5 @@
 --- 
-title: "Mali boyutları bir veri kaynağı olarak kullanmak için veri modeli tasarlama"
+title: "Mali boyutları veri kaynağı olarak kullanmak için veri modelleri tasarlama"
 description: "Aşağıdaki adımlar, bir sistem yöneticisinin veya elektronik raporlama geliştiricisinin bir Elektronik raporlama (ER) modelini ER raporları için veri kaynağı olarak mali boyutları kullanacak şekilde nasıl yapılandıracağını açıklamaktadır."
 author: NickSelin
 manager: AnnBe
@@ -16,94 +16,94 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8b951546cb0cc0d0415f48c49e8b53c5f4720f9e
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9b33d78b60ca4e4813dd4b158febee2323cea476
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-data-model-to-use-financial-dimensions-as-a-data-source"></a><span data-ttu-id="af21d-103">Mali boyutları bir veri kaynağı olarak kullanmak için veri modeli tasarlama</span><span class="sxs-lookup"><span data-stu-id="af21d-103">Design data model to use financial dimensions as a data source</span></span> 
+# <a name="design-data-models-to-use-financial-dimensions-as-data-sources"></a><span data-ttu-id="9c565-103">Mali boyutları veri kaynağı olarak kullanmak için veri modelleri tasarlama</span><span class="sxs-lookup"><span data-stu-id="9c565-103">Design data models to use financial dimensions as data sources</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="af21d-104">Aşağıdaki adımlar, bir sistem yöneticisinin veya elektronik raporlama geliştiricisinin bir Elektronik raporlama (ER) modelini ER raporları için veri kaynağı olarak mali boyutları kullanacak şekilde nasıl yapılandıracağını açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="af21d-104">The following steps explain how either a system administrator or electronic reporting developer can configure an Electronic reporting (ER) model to use financial dimensions as a data source for ER reports.</span></span> <span data-ttu-id="af21d-105">Bu adımlar tüm şirketlerde gerçekleştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="af21d-105">These steps can be performed in any company.</span></span>
+<span data-ttu-id="9c565-104">Aşağıdaki adımlar, bir sistem yöneticisinin veya elektronik raporlama geliştiricisinin bir Elektronik raporlama (ER) modelini ER raporları için veri kaynağı olarak mali boyutları kullanacak şekilde nasıl yapılandıracağını açıklamaktadır.</span><span class="sxs-lookup"><span data-stu-id="9c565-104">The following steps explain how either a system administrator or electronic reporting developer can configure an Electronic reporting (ER) model to use financial dimensions as a data source for ER reports.</span></span> <span data-ttu-id="9c565-105">Bu adımlar tüm şirketlerde gerçekleştirilebilir.</span><span class="sxs-lookup"><span data-stu-id="9c565-105">These steps can be performed in any company.</span></span>
 
-<span data-ttu-id="af21d-106">Bu adımları tamamlamak için öncelikle "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="af21d-106">To complete these steps, you must first complete the steps in the procedure, “Create a configuration provider and mark it as active”.</span></span>
+<span data-ttu-id="9c565-106">Bu adımları tamamlamak için öncelikle "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlamanız gerekir.</span><span class="sxs-lookup"><span data-stu-id="9c565-106">To complete these steps, you must first complete the steps in the procedure, “Create a configuration provider and mark it as active”.</span></span>
 
 
-## <a name="create-a-new-data-model"></a><span data-ttu-id="af21d-107">Yeni bir veri modeli oluşturma</span><span class="sxs-lookup"><span data-stu-id="af21d-107">Create a new data model</span></span>
-1. <span data-ttu-id="af21d-108">Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="af21d-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-    * <span data-ttu-id="af21d-109">"Litware, Inc." emin olun</span><span class="sxs-lookup"><span data-stu-id="af21d-109">Make sure that the “Litware, Inc.”</span></span> <span data-ttu-id="af21d-110">sağlayıcısının kullanılabilir ve etkin olarak işaretlendiğinden emin olun.</span><span class="sxs-lookup"><span data-stu-id="af21d-110">provider is available and marked as active.</span></span>  
-2. <span data-ttu-id="af21d-111">Raporlama konfigürasyonları'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-111">Click Reporting configurations.</span></span>
-3. <span data-ttu-id="af21d-112">İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-112">Click Create configuration to open the drop dialog.</span></span>
-4. <span data-ttu-id="af21d-113">Ad alanına 'Mali boyutlar örnek modeli' yazın.</span><span class="sxs-lookup"><span data-stu-id="af21d-113">In the Name field, type 'Financial dimensions sample model'.</span></span>
-5. <span data-ttu-id="af21d-114">Konfigürasyon oluştur'u tıklatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-114">Click Create configuration.</span></span>
-6. <span data-ttu-id="af21d-115">Tasarımcı'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-115">Click Designer.</span></span>
-7. <span data-ttu-id="af21d-116">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-116">Click New to open the drop dialog.</span></span>
-8. <span data-ttu-id="af21d-117">Ad alanına 'Giriş' yazın.</span><span class="sxs-lookup"><span data-stu-id="af21d-117">In the Name field, type 'Entry'.</span></span>
-9. <span data-ttu-id="af21d-118">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-118">Click Add.</span></span>
-10. <span data-ttu-id="af21d-119">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-119">Click New to open the drop dialog.</span></span>
-11. <span data-ttu-id="af21d-120">İsim alanına 'Şirket' yazın.</span><span class="sxs-lookup"><span data-stu-id="af21d-120">In the Name field, type 'Company'.</span></span>
-12. <span data-ttu-id="af21d-121">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-121">Click Add.</span></span>
-    * <span data-ttu-id="af21d-122">Modelimize yeni bir kayıt listesi ekleyeceğiz.</span><span class="sxs-lookup"><span data-stu-id="af21d-122">We will add to our model a new record list.</span></span> <span data-ttu-id="af21d-123">Bu liste (bu modeli veri kaynağı olarak kullanan tüm ER raporları için) seçili mali boyutların ayarlarını gösterir.</span><span class="sxs-lookup"><span data-stu-id="af21d-123">This list will expose (for any ER reports using this model as data source) the settings of selected financial dimensions.</span></span> <span data-ttu-id="af21d-124">Tüm mali boyutlar bu listede boyutun ayarını temsil eden uygun alanlarla birlikte bir kayıt olarak sunulur.</span><span class="sxs-lookup"><span data-stu-id="af21d-124">Each financial dimension will be presented in this list as a record with appropriate fields representing dimension’s setting.</span></span>  
-13. <span data-ttu-id="af21d-125">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-125">Click New to open the drop dialog.</span></span>
-14. <span data-ttu-id="af21d-126">Ad alanına 'Boyutlar ayarı' yazın.</span><span class="sxs-lookup"><span data-stu-id="af21d-126">In the Name field, type 'Dimensions setting'.</span></span>
-15. <span data-ttu-id="af21d-127">Madde türü alanında 'Kayıt listesi'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="af21d-127">In the Item type field, select 'Record list'.</span></span>
-16. <span data-ttu-id="af21d-128">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-128">Click Add.</span></span>
-17. <span data-ttu-id="af21d-129">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-129">Click New to open the drop dialog.</span></span>
-18. <span data-ttu-id="af21d-130">Ad alanına 'Kod' yazın.</span><span class="sxs-lookup"><span data-stu-id="af21d-130">In the Name field, type 'Code'.</span></span>
-19. <span data-ttu-id="af21d-131">Madde türü alanında 'Dize' seçin.</span><span class="sxs-lookup"><span data-stu-id="af21d-131">In the Item type field, select 'String'.</span></span>
-20. <span data-ttu-id="af21d-132">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-132">Click Add.</span></span>
-21. <span data-ttu-id="af21d-133">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-133">Click New to open the drop dialog.</span></span>
-22. <span data-ttu-id="af21d-134">İsim alanında 'İsim' yazın.</span><span class="sxs-lookup"><span data-stu-id="af21d-134">In the Name field, type 'Name'.</span></span>
-23. <span data-ttu-id="af21d-135">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-135">Click Add.</span></span>
-24. <span data-ttu-id="af21d-136">Ağaçta, 'Giriş'i seçin.</span><span class="sxs-lookup"><span data-stu-id="af21d-136">In the tree, select 'Entry'.</span></span>
-25. <span data-ttu-id="af21d-137">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-137">Click New to open the drop dialog.</span></span>
-26. <span data-ttu-id="af21d-138">Ad alanına 'Günlük' yazın.</span><span class="sxs-lookup"><span data-stu-id="af21d-138">In the Name field, type 'Journal'.</span></span>
-27. <span data-ttu-id="af21d-139">Madde türü alanında 'Kayıt listesi'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="af21d-139">In the Item type field, select 'Record list'.</span></span>
-28. <span data-ttu-id="af21d-140">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-140">Click Add.</span></span>
-29. <span data-ttu-id="af21d-141">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-141">Click New to open the drop dialog.</span></span>
-30. <span data-ttu-id="af21d-142">Ad alanına, 'Toplu İş' yazın.</span><span class="sxs-lookup"><span data-stu-id="af21d-142">In the Name field, type 'Batch'.</span></span>
-31. <span data-ttu-id="af21d-143">Madde türü alanında 'Dize' seçin.</span><span class="sxs-lookup"><span data-stu-id="af21d-143">In the Item type field, select 'String'.</span></span>
-32. <span data-ttu-id="af21d-144">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-144">Click Add.</span></span>
-33. <span data-ttu-id="af21d-145">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-145">Click New to open the drop dialog.</span></span>
-34. <span data-ttu-id="af21d-146">Ad alanına 'Hareket' yazın.</span><span class="sxs-lookup"><span data-stu-id="af21d-146">In the Name field, type 'Transaction'.</span></span>
-35. <span data-ttu-id="af21d-147">Madde türü alanında 'Kayıt listesi'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="af21d-147">In the Item type field, select 'Record list'.</span></span>
-36. <span data-ttu-id="af21d-148">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-148">Click Add.</span></span>
-37. <span data-ttu-id="af21d-149">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-149">Click New to open the drop dialog.</span></span>
-38. <span data-ttu-id="af21d-150">Ad alanına 'Tarih' yazın.</span><span class="sxs-lookup"><span data-stu-id="af21d-150">In the Name field, type 'Date'.</span></span>
-39. <span data-ttu-id="af21d-151">Madde türü alanında 'Tarih' seçin.</span><span class="sxs-lookup"><span data-stu-id="af21d-151">In the Item type field, select 'Date'.</span></span>
-40. <span data-ttu-id="af21d-152">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-152">Click Add.</span></span>
-41. <span data-ttu-id="af21d-153">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-153">Click New to open the drop dialog.</span></span>
-42. <span data-ttu-id="af21d-154">Ad alanına 'Borç' yazın.</span><span class="sxs-lookup"><span data-stu-id="af21d-154">In the Name field, type 'Debit'.</span></span>
-43. <span data-ttu-id="af21d-155">Madde türü alanında 'Gerçek' seçin.</span><span class="sxs-lookup"><span data-stu-id="af21d-155">In the Item type field, select 'Real'.</span></span>
-44. <span data-ttu-id="af21d-156">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-156">Click Add.</span></span>
-45. <span data-ttu-id="af21d-157">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-157">Click New to open the drop dialog.</span></span>
-46. <span data-ttu-id="af21d-158">Ad alanına 'Alacak' yazın.</span><span class="sxs-lookup"><span data-stu-id="af21d-158">In the Name field, type 'Credit'.</span></span>
-47. <span data-ttu-id="af21d-159">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-159">Click Add.</span></span>
-48. <span data-ttu-id="af21d-160">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-160">Click New to open the drop dialog.</span></span>
-49. <span data-ttu-id="af21d-161">İsim alanına 'Para birimi' yazın.</span><span class="sxs-lookup"><span data-stu-id="af21d-161">In the Name field, type 'Currency'.</span></span>
-50. <span data-ttu-id="af21d-162">Madde türü alanında 'Dize' seçin.</span><span class="sxs-lookup"><span data-stu-id="af21d-162">In the Item type field, select 'String'.</span></span>
-51. <span data-ttu-id="af21d-163">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-163">Click Add.</span></span>
-52. <span data-ttu-id="af21d-164">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-164">Click New to open the drop dialog.</span></span>
-53. <span data-ttu-id="af21d-165">Ad alanına 'Fiş' yazın.</span><span class="sxs-lookup"><span data-stu-id="af21d-165">In the Name field, type 'Voucher'.</span></span>
-54. <span data-ttu-id="af21d-166">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-166">Click Add.</span></span>
-55. <span data-ttu-id="af21d-167">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-167">Click New to open the drop dialog.</span></span>
-56. <span data-ttu-id="af21d-168">Ad alanına 'Boyut verileri' yazın.</span><span class="sxs-lookup"><span data-stu-id="af21d-168">In the Name field, type 'Dimensions data'.</span></span>
-57. <span data-ttu-id="af21d-169">Madde türü alanında 'Kayıt listesi'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="af21d-169">In the Item type field, select 'Record list'.</span></span>
-58. <span data-ttu-id="af21d-170">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-170">Click Add.</span></span>
-    * <span data-ttu-id="af21d-171">Modelimize yeni bir kayıt listesi ekledik.</span><span class="sxs-lookup"><span data-stu-id="af21d-171">We added to our model a new record list.</span></span> <span data-ttu-id="af21d-172">Bu liste (bu modeli veri kaynağı olarak kullanan tüm ER raporları için) seçili mali boyutların değerlerini gösterir.</span><span class="sxs-lookup"><span data-stu-id="af21d-172">This list will expose (for any ER reports using this model as data source) the values of selected financial dimensions.</span></span> <span data-ttu-id="af21d-173">Tüm mali boyutlar bu listede boyutun değerlerini temsil eden uygun alanlarla birlikte bir kayıt olarak sunulur.</span><span class="sxs-lookup"><span data-stu-id="af21d-173">Each financial dimension will be presented in this list as a record with appropriate fields representing dimension’s values.</span></span> <span data-ttu-id="af21d-174">Boyut adı da bu kayıtta gerekirse seçim amacıyla kullanılmak üzere bir alan olarak sunulur.</span><span class="sxs-lookup"><span data-stu-id="af21d-174">Dimension name will be also presented in this record as a field to be used, if needed, for selection purposes.</span></span>  
-59. <span data-ttu-id="af21d-175">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-175">Click New to open the drop dialog.</span></span>
-60. <span data-ttu-id="af21d-176">Ad alanına 'Kod' yazın.</span><span class="sxs-lookup"><span data-stu-id="af21d-176">In the Name field, type 'Code'.</span></span>
-61. <span data-ttu-id="af21d-177">Madde türü alanında 'Dize' seçin.</span><span class="sxs-lookup"><span data-stu-id="af21d-177">In the Item type field, select 'String'.</span></span>
-62. <span data-ttu-id="af21d-178">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-178">Click Add.</span></span>
-63. <span data-ttu-id="af21d-179">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-179">Click New to open the drop dialog.</span></span>
-64. <span data-ttu-id="af21d-180">İsim alanına 'Açıklama' yazın.</span><span class="sxs-lookup"><span data-stu-id="af21d-180">In the Name field, type 'Description'.</span></span>
-65. <span data-ttu-id="af21d-181">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-181">Click Add.</span></span>
-66. <span data-ttu-id="af21d-182">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-182">Click New to open the drop dialog.</span></span>
-67. <span data-ttu-id="af21d-183">İsim alanında 'İsim' yazın.</span><span class="sxs-lookup"><span data-stu-id="af21d-183">In the Name field, type 'Name'.</span></span>
-68. <span data-ttu-id="af21d-184">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-184">Click Add.</span></span>
-69. <span data-ttu-id="af21d-185">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="af21d-185">Click Save.</span></span>
-70. <span data-ttu-id="af21d-186">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="af21d-186">Close the page.</span></span>
+## <a name="create-a-new-data-model"></a><span data-ttu-id="9c565-107">Yeni bir veri modeli oluşturma</span><span class="sxs-lookup"><span data-stu-id="9c565-107">Create a new data model</span></span>
+1. <span data-ttu-id="9c565-108">Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.</span><span class="sxs-lookup"><span data-stu-id="9c565-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="9c565-109">"Litware, Inc." emin olun</span><span class="sxs-lookup"><span data-stu-id="9c565-109">Make sure that the “Litware, Inc.”</span></span> <span data-ttu-id="9c565-110">sağlayıcısının kullanılabilir ve etkin olarak işaretlendiğinden emin olun.</span><span class="sxs-lookup"><span data-stu-id="9c565-110">provider is available and marked as active.</span></span>  
+2. <span data-ttu-id="9c565-111">Raporlama konfigürasyonları'na tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-111">Click Reporting configurations.</span></span>
+3. <span data-ttu-id="9c565-112">İletişim kutusu formunu açmak için Yapılandırma oluştur'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-112">Click Create configuration to open the drop dialog.</span></span>
+4. <span data-ttu-id="9c565-113">Ad alanına 'Mali boyutlar örnek modeli' yazın.</span><span class="sxs-lookup"><span data-stu-id="9c565-113">In the Name field, type 'Financial dimensions sample model'.</span></span>
+5. <span data-ttu-id="9c565-114">Konfigürasyon oluştur'u tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-114">Click Create configuration.</span></span>
+6. <span data-ttu-id="9c565-115">Tasarımcı'yı tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-115">Click Designer.</span></span>
+7. <span data-ttu-id="9c565-116">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-116">Click New to open the drop dialog.</span></span>
+8. <span data-ttu-id="9c565-117">Ad alanına 'Giriş' yazın.</span><span class="sxs-lookup"><span data-stu-id="9c565-117">In the Name field, type 'Entry'.</span></span>
+9. <span data-ttu-id="9c565-118">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-118">Click Add.</span></span>
+10. <span data-ttu-id="9c565-119">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-119">Click New to open the drop dialog.</span></span>
+11. <span data-ttu-id="9c565-120">İsim alanına 'Şirket' yazın.</span><span class="sxs-lookup"><span data-stu-id="9c565-120">In the Name field, type 'Company'.</span></span>
+12. <span data-ttu-id="9c565-121">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-121">Click Add.</span></span>
+    * <span data-ttu-id="9c565-122">Modelimize yeni bir kayıt listesi ekleyeceğiz.</span><span class="sxs-lookup"><span data-stu-id="9c565-122">We will add to our model a new record list.</span></span> <span data-ttu-id="9c565-123">Bu liste (bu modeli veri kaynağı olarak kullanan tüm ER raporları için) seçili mali boyutların ayarlarını gösterir.</span><span class="sxs-lookup"><span data-stu-id="9c565-123">This list will expose (for any ER reports using this model as data source) the settings of selected financial dimensions.</span></span> <span data-ttu-id="9c565-124">Tüm mali boyutlar bu listede boyutun ayarını temsil eden uygun alanlarla birlikte bir kayıt olarak sunulur.</span><span class="sxs-lookup"><span data-stu-id="9c565-124">Each financial dimension will be presented in this list as a record with appropriate fields representing dimension’s setting.</span></span>  
+13. <span data-ttu-id="9c565-125">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-125">Click New to open the drop dialog.</span></span>
+14. <span data-ttu-id="9c565-126">Ad alanına 'Boyutlar ayarı' yazın.</span><span class="sxs-lookup"><span data-stu-id="9c565-126">In the Name field, type 'Dimensions setting'.</span></span>
+15. <span data-ttu-id="9c565-127">Madde türü alanında 'Kayıt listesi'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="9c565-127">In the Item type field, select 'Record list'.</span></span>
+16. <span data-ttu-id="9c565-128">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-128">Click Add.</span></span>
+17. <span data-ttu-id="9c565-129">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-129">Click New to open the drop dialog.</span></span>
+18. <span data-ttu-id="9c565-130">Ad alanına 'Kod' yazın.</span><span class="sxs-lookup"><span data-stu-id="9c565-130">In the Name field, type 'Code'.</span></span>
+19. <span data-ttu-id="9c565-131">Madde türü alanında 'Dize' seçin.</span><span class="sxs-lookup"><span data-stu-id="9c565-131">In the Item type field, select 'String'.</span></span>
+20. <span data-ttu-id="9c565-132">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-132">Click Add.</span></span>
+21. <span data-ttu-id="9c565-133">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-133">Click New to open the drop dialog.</span></span>
+22. <span data-ttu-id="9c565-134">İsim alanında 'İsim' yazın.</span><span class="sxs-lookup"><span data-stu-id="9c565-134">In the Name field, type 'Name'.</span></span>
+23. <span data-ttu-id="9c565-135">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-135">Click Add.</span></span>
+24. <span data-ttu-id="9c565-136">Ağaçta, 'Giriş'i seçin.</span><span class="sxs-lookup"><span data-stu-id="9c565-136">In the tree, select 'Entry'.</span></span>
+25. <span data-ttu-id="9c565-137">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-137">Click New to open the drop dialog.</span></span>
+26. <span data-ttu-id="9c565-138">Ad alanına 'Günlük' yazın.</span><span class="sxs-lookup"><span data-stu-id="9c565-138">In the Name field, type 'Journal'.</span></span>
+27. <span data-ttu-id="9c565-139">Madde türü alanında 'Kayıt listesi'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="9c565-139">In the Item type field, select 'Record list'.</span></span>
+28. <span data-ttu-id="9c565-140">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-140">Click Add.</span></span>
+29. <span data-ttu-id="9c565-141">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-141">Click New to open the drop dialog.</span></span>
+30. <span data-ttu-id="9c565-142">Ad alanına, 'Toplu İş' yazın.</span><span class="sxs-lookup"><span data-stu-id="9c565-142">In the Name field, type 'Batch'.</span></span>
+31. <span data-ttu-id="9c565-143">Madde türü alanında 'Dize' seçin.</span><span class="sxs-lookup"><span data-stu-id="9c565-143">In the Item type field, select 'String'.</span></span>
+32. <span data-ttu-id="9c565-144">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-144">Click Add.</span></span>
+33. <span data-ttu-id="9c565-145">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-145">Click New to open the drop dialog.</span></span>
+34. <span data-ttu-id="9c565-146">Ad alanına 'Hareket' yazın.</span><span class="sxs-lookup"><span data-stu-id="9c565-146">In the Name field, type 'Transaction'.</span></span>
+35. <span data-ttu-id="9c565-147">Madde türü alanında 'Kayıt listesi'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="9c565-147">In the Item type field, select 'Record list'.</span></span>
+36. <span data-ttu-id="9c565-148">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-148">Click Add.</span></span>
+37. <span data-ttu-id="9c565-149">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-149">Click New to open the drop dialog.</span></span>
+38. <span data-ttu-id="9c565-150">Ad alanına 'Tarih' yazın.</span><span class="sxs-lookup"><span data-stu-id="9c565-150">In the Name field, type 'Date'.</span></span>
+39. <span data-ttu-id="9c565-151">Madde türü alanında 'Tarih' seçin.</span><span class="sxs-lookup"><span data-stu-id="9c565-151">In the Item type field, select 'Date'.</span></span>
+40. <span data-ttu-id="9c565-152">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-152">Click Add.</span></span>
+41. <span data-ttu-id="9c565-153">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-153">Click New to open the drop dialog.</span></span>
+42. <span data-ttu-id="9c565-154">Ad alanına 'Borç' yazın.</span><span class="sxs-lookup"><span data-stu-id="9c565-154">In the Name field, type 'Debit'.</span></span>
+43. <span data-ttu-id="9c565-155">Madde türü alanında 'Gerçek' seçin.</span><span class="sxs-lookup"><span data-stu-id="9c565-155">In the Item type field, select 'Real'.</span></span>
+44. <span data-ttu-id="9c565-156">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-156">Click Add.</span></span>
+45. <span data-ttu-id="9c565-157">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-157">Click New to open the drop dialog.</span></span>
+46. <span data-ttu-id="9c565-158">Ad alanına 'Alacak' yazın.</span><span class="sxs-lookup"><span data-stu-id="9c565-158">In the Name field, type 'Credit'.</span></span>
+47. <span data-ttu-id="9c565-159">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-159">Click Add.</span></span>
+48. <span data-ttu-id="9c565-160">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-160">Click New to open the drop dialog.</span></span>
+49. <span data-ttu-id="9c565-161">İsim alanına 'Para birimi' yazın.</span><span class="sxs-lookup"><span data-stu-id="9c565-161">In the Name field, type 'Currency'.</span></span>
+50. <span data-ttu-id="9c565-162">Madde türü alanında 'Dize' seçin.</span><span class="sxs-lookup"><span data-stu-id="9c565-162">In the Item type field, select 'String'.</span></span>
+51. <span data-ttu-id="9c565-163">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-163">Click Add.</span></span>
+52. <span data-ttu-id="9c565-164">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-164">Click New to open the drop dialog.</span></span>
+53. <span data-ttu-id="9c565-165">Ad alanına 'Fiş' yazın.</span><span class="sxs-lookup"><span data-stu-id="9c565-165">In the Name field, type 'Voucher'.</span></span>
+54. <span data-ttu-id="9c565-166">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-166">Click Add.</span></span>
+55. <span data-ttu-id="9c565-167">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-167">Click New to open the drop dialog.</span></span>
+56. <span data-ttu-id="9c565-168">Ad alanına 'Boyut verileri' yazın.</span><span class="sxs-lookup"><span data-stu-id="9c565-168">In the Name field, type 'Dimensions data'.</span></span>
+57. <span data-ttu-id="9c565-169">Madde türü alanında 'Kayıt listesi'ni seçin.</span><span class="sxs-lookup"><span data-stu-id="9c565-169">In the Item type field, select 'Record list'.</span></span>
+58. <span data-ttu-id="9c565-170">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-170">Click Add.</span></span>
+    * <span data-ttu-id="9c565-171">Modelimize yeni bir kayıt listesi ekledik.</span><span class="sxs-lookup"><span data-stu-id="9c565-171">We added to our model a new record list.</span></span> <span data-ttu-id="9c565-172">Bu liste (bu modeli veri kaynağı olarak kullanan tüm ER raporları için) seçili mali boyutların değerlerini gösterir.</span><span class="sxs-lookup"><span data-stu-id="9c565-172">This list will expose (for any ER reports using this model as data source) the values of selected financial dimensions.</span></span> <span data-ttu-id="9c565-173">Tüm mali boyutlar bu listede boyutun değerlerini temsil eden uygun alanlarla birlikte bir kayıt olarak sunulur.</span><span class="sxs-lookup"><span data-stu-id="9c565-173">Each financial dimension will be presented in this list as a record with appropriate fields representing dimension’s values.</span></span> <span data-ttu-id="9c565-174">Boyut adı da bu kayıtta gerekirse seçim amacıyla kullanılmak üzere bir alan olarak sunulur.</span><span class="sxs-lookup"><span data-stu-id="9c565-174">Dimension name will be also presented in this record as a field to be used, if needed, for selection purposes.</span></span>  
+59. <span data-ttu-id="9c565-175">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-175">Click New to open the drop dialog.</span></span>
+60. <span data-ttu-id="9c565-176">Ad alanına 'Kod' yazın.</span><span class="sxs-lookup"><span data-stu-id="9c565-176">In the Name field, type 'Code'.</span></span>
+61. <span data-ttu-id="9c565-177">Madde türü alanında 'Dize' seçin.</span><span class="sxs-lookup"><span data-stu-id="9c565-177">In the Item type field, select 'String'.</span></span>
+62. <span data-ttu-id="9c565-178">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-178">Click Add.</span></span>
+63. <span data-ttu-id="9c565-179">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-179">Click New to open the drop dialog.</span></span>
+64. <span data-ttu-id="9c565-180">İsim alanına 'Açıklama' yazın.</span><span class="sxs-lookup"><span data-stu-id="9c565-180">In the Name field, type 'Description'.</span></span>
+65. <span data-ttu-id="9c565-181">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-181">Click Add.</span></span>
+66. <span data-ttu-id="9c565-182">Açılır iletişim kutusunu açmak için Yeni öğesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-182">Click New to open the drop dialog.</span></span>
+67. <span data-ttu-id="9c565-183">İsim alanında 'İsim' yazın.</span><span class="sxs-lookup"><span data-stu-id="9c565-183">In the Name field, type 'Name'.</span></span>
+68. <span data-ttu-id="9c565-184">Ekle öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-184">Click Add.</span></span>
+69. <span data-ttu-id="9c565-185">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9c565-185">Click Save.</span></span>
+70. <span data-ttu-id="9c565-186">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="9c565-186">Close the page.</span></span>
 
 
