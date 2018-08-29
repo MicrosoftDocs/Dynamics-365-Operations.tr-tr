@@ -3,7 +3,7 @@ title: "Yerelleştirme ve mevzuat özellikleri"
 description: "Bu konu, ülkeye/bölgeye özgü işlevler hakkında daha fazla bilgi edinmenize yardımcı olabilecek kaynakların listesini içerir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/12/2018
+ms.date: 07/18/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4485bd6442d186e5a6bac90e0a9041566e2e26d0
-ms.openlocfilehash: efa82abcd25101fc7be772c32e6c4fee7976d4bb
+ms.sourcegitcommit: 46165351f3c9048cfbecf25a1c49d8aeac1f3e1e
+ms.openlocfilehash: 787ce11701a9df951b38af5209206902d7c98019
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -147,33 +147,9 @@ Aşağıdaki bölümler ülkeye/bölgeye göre kaynaklarını listeler.
 - [KDV raporlama](../../financials/localizations/emea-vat-reporting.md)
 - [Kapatma hareketlerini görüntüleme](../../financials/localizations/emea-transactions-settlement-form.md)
 
-### <a name="france"></a>Fransa
--   [Kronolojik fatura ve fiş numaraları](../../financials/localizations/emea-fra-chronological-invoices-vouchers.md)
--   [Fransa için negatif amortisman](../../financials/localizations/emea-fra-derogatory-depreciation.md)
--   [NAF kodları ve siret numaraları](../../financials/localizations/emea-fra-naf-codes-siret-numbers.md)
--   [Fransa'da vadesi gecikmiş müşteri ödemeleri için cezalar](../../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md)
--   [Müşteri faturasında peşin ödeme kurtarma metnini yazdırma](../../financials/localizations/emea-fra-print-lump-sum-recovery-text.md)
--   [RB/SL amortismanı](../../financials/localizations/emea-fra-rbsl-depreciation.md)
-
-#### <a name="public-sector"></a>Kamu sektörü
-   -   [Kamu sektöründe taahhütler](../../financials/localizations/emea-fra-commitments-public-sector.md)
-   -   [Kamu sektöründe ödeme koşulları](../../financials/localizations/emea-fra-mandats-de-paiement.md)
-   -   [Tedarik ve kaynak atama](../../financials/localizations/emea-fra-procurement-sourcing-public-sector.md)
-   -   [Kamu sektörü muhasebesi](../../financials/localizations/emea-fra-public-sector-accounting.md)
-   -   [Titres de recette](../../financials/localizations/emea-fra-titres-de-recette-public-sector.md)
-   -   [Satıcı faturası ödeme tutmaları](../../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md)
-
-### <a name="germany"></a>Almanya
--   [Ek alım amortismanı](../../financials/localizations/emea-deu-additional-acquisition-depreciation.md)
--   [Alman denetim dosyası (GDPdU/GoBD)](../../financials/localizations/emea-deu-gdpdu-audit-data-export.md)
--   [Alman günlük listesi raporu](../../financials/localizations/emea-deu-journal-list-report.md)
--   [Satışlardan kaynaklanan alacak faturaları için ayrı bir etiket yazdırma](../../financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md)
-
-### <a name="hungary"></a>Macaristan
-
--   [Sabit kıymet amortisman yöntemleri](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
--   [Sabit kıymeti stoğa taşıma](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
--   [Düşük maliyetli sabit kıymetler](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+### <a name="francefinancialslocalizationsfrancemd"></a>[Fransa](../../financials/localizations/france.md)
+### <a name="germanyfinancialslocalizationsgermanymd"></a>[Almanya](../../financials/localizations/germany.md)
+### <a name="hungaryfinancialslocalizationshungarymd"></a>[Macaristan](../../financials/localizations/hungary.md)
 
 ### <a name="india"></a>Hindistan
 
@@ -190,18 +166,7 @@ Aşağıdaki bölümler ülkeye/bölgeye göre kaynaklarını listeler.
     - [Vergi eşikleriyle ilgili SSS](../../financials/localizations/apac-ind-tax-thresholds.md)
     - [Vergi altyapısını genişletme](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
-### <a name="italy"></a>İtalya
-
--   [İtalya kara liste raporu](../../financials/localizations/emea-ita-black-list-report.md)
--   [KDV beyanı ayrıntıları](../../financials/localizations/emea-ita-vat-statements-details.md)
--   [Hareketler için yetki tarihi](../../financials/localizations/emea-ita-competence-date.md)
--   [Sabit kıymetlerde el ile amortisman](../../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
--   [Modello 770](../../financials/localizations/emea-ita-modello770.md)
--   [İtalya için faturalarda sevk irsaliyesi tarihi doğrulama](../../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
--   [İtalya satış vergisi defterleri](../../financials/localizations/emea-ita-fiscal-books.md)
--   [Kamu İdaresi için düzenlenen faturalarda bölünmüş ödeme](../../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
--   [Stopaj vergisi](../../financials/localizations/emea-ita-withholding-tax.md)
-
+### <a name="italyfinancialslocalizationsitalymd"></a>[İtalya](../../financials/localizations/italy.md)
 ### <a name="japan"></a>Japonya
 
 -  [Satıcılar tarafından karşılanan banka ödemesi masrafları](../../financials/localizations/apac-jpn-bank-payment-fees-vendors.md)
@@ -216,19 +181,8 @@ Aşağıdaki bölümler ülkeye/bölgeye göre kaynaklarını listeler.
 -  [Satıcıya kambiyo senedi vererek ödeme yapma](../../financials/localizations/apac-jpn-endorse-bill-of-exchange.md)
 -  [Aşamalı stopaj vergisi hesaplama](../../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md)
 
-### <a name="latvia"></a>Letonya
-
--   [Vergi amaçlı sabit kıymet muhasebesi](../../financials/localizations/emea-lva-fixed-assets-accounting.md)
--   [Sabit kıymetlerin konum değişikliğini izleme](../../financials/localizations/emea-lva-fixed-assets-location-fields-change.md)
--   [Fatura ve sevk irsaliyesi numaralandırma](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
--   [Doğal kaynak raporu vergisi](../../financials/localizations/emea-lva-tax-natural-resources.md)
--   [KDV beyanı ayrıntıları](../../financials/localizations/emea-lva-vat-statement-details.md)
-
-### <a name="lithuania"></a>Litvanya
-
--   [Sabit kıymet onarım raporu](../../financials/localizations/emea-ltu-fixed-asset-repair-statement.md)
--   [Fatura ve sevk irsaliyesi numaralandırma](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
--   [KDV beyanı ayrıntıları](../../financials/localizations/emea-ltu-vat-statement-details.md)
+### <a name="latviafinancialslocalizationslatviamd"></a>[Letonya](../../financials/localizations/latvia.md)
+### <a name="lithuaniafinancialslocalizationslithuaniamd"></a>[Litvanya](../../financials/localizations/lithuania.md)
 
 ### <a name="mexico"></a>Meksika
 
@@ -242,60 +196,20 @@ Aşağıdaki bölümler ülkeye/bölgeye göre kaynaklarını listeler.
 
 -   [Ürün ve hizmet vergisi (GST)](../../financials/localizations/apac-mys-gst.md)
 
-### <a name="netherlands"></a>Hollanda
-
--   [Fatura düzenleme son tarihi](../../financials/localizations/emea-invoice-issue-deadline.md)
-
-### <a name="norway"></a>Norveç
-
--   [Norveç için yazar kasalar](../../retail/localizations/emea-nor-cash-registers.md)
--   [Norveç için yazar kasalara ilişkin dağıtım kılavuzları](../../retail/localizations/emea-nor-loc-deployment-guidelines.md)
--   [Nets içe aktarma biçimi](../../financials/localizations/emea-nor-nets-import-format.md)
--   [KDV beyanı](../../financials/localizations/emea-nor-sales-tax-payment-report.md)
-
-### <a name="poland"></a>Polonya
-
--   [Satır iskontolarını birim fiyatı üzerinden hesaplama](../../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
--   [Düzeltme notları](../../financials/localizations/emea-pol-correction-notes.md)
--   [Satış faturası numaralandırmasını çoğaltma](../../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md)
--   [Sabit kıymetler amortismanı](../../financials/localizations/emea-pol-fixed-assets-depreciation.md)
--   [Sabit kıymetleri elden çıkarma](../../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md)
--   [İade edilebilir ambalaj](../../financials/localizations/emea-pol-returnable-packages.md)
--   [Satış vergisi raporları](../../financials/localizations/emea-pol-sales-tax-reports.md)
--   [Standart denetim dosyası (SAF)](../../financials/localizations/emea-pol-standard-audit-file-saf.md)
--   [Ciro ve bakiye ekstresi](../../financials/localizations/emea-pol-turnover-balances-statement.md)
-
+### <a name="netherlandsfinancialslocalizationsnetherlandsmd"></a>[Hollanda](../../financials/localizations/netherlands.md)
+### <a name="norwayfinancialslocalizationsnorwaymd"></a>[Norveç](../../financials/localizations/norway.md)
+### <a name="polandfinancialslocalizationspolandmd"></a>[Polonya](../../financials/localizations/poland.md)
 ### <a name="saudi-arabia"></a>Suudi Arabistan
 
--   [Zekat raporlama](../../financials/localizations/emea-sau-zakat-reporting.md)
+-   [Zakat raporlama](../../financials/localizations/emea-sau-zakat-reporting.md)
 
 ### <a name="singapore"></a>Singapur
 
 -   [Singapur GST-05 raporunu oluşturma](../../financials/localizations/apac-sgp-generate-gst-05-report.md)
 
-### <a name="spain"></a>İspanya
-
--   [İspanya kambiyo senedi seçenekleri](../../financials/localizations/emea-esp-bill-of-exchange-options.md)
--   [Nakit iskontosu fatura parametresine uygulandı](../../financials/localizations/emea-esp-cash-discount-applied-invoice.md)
--   [Koşullu satış vergisi](../../financials/localizations/emea-esp-conditional-sales-tax.md)
--   [Sabit kıymet yeniden değerleme grupları](../../financials/localizations/emea-esp-fixed-asset-group-revaluation.md)
--   [Topluluk içi KDV](../../financials/localizations/emea-esp-intra-community-vat.md)
--   [Tek seferlik müşteriler](../../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md)
--   [İspanya düzenini kullanarak çekleri yazdırma](../../financials/localizations/emea-esp-print-checks-with-spanish-layout.md)
--   [İspanya senet seçenekleri](../../financials/localizations/emea-esp-promissory-note-options.md)
--   [Satış ve satınalma döngüleri](../../financials/localizations/emea-esp-sales-purchase-cycle.md)
--   [Özel girişler ve açılış tabloları](../../financials/localizations/emea-esp-opening-sheets-spain.md)
--   [Fatura hesabındaki mali verileri kullanma](../../financials/localizations/emea-esp-fiscal-data-invoice-account.md)
-
-### <a name="sweden"></a>İsveç
-
--   [İsveç için ödeme biçimlerini içe aktarma](../../financials/localizations/emea-swe-payment-formats-import.md)
--   [İsveç için yazar kasalar](../../retail/localizations/emea-swe-cash-registers.md)
-
-### <a name="switzerland"></a>İsviçre
-
--   [ESR müşteri ödemelerini içe aktarma](../../financials/localizations/emea-che-esr-customer-payments-import.md)
-
+### <a name="spainfinancialslocalizationsspainmd"></a>[İspanya](../../financials/localizations/spain.md)
+### <a name="swedenfinancialslocalizationsswedenmd"></a>[İsveç](../../financials/localizations/sweden.md)
+### <a name="switzerlandfinancialslocalizationsswitzerlandmd"></a>[İsviçre](../../financials/localizations/switzerland.md)
 ### <a name="thailand"></a>Tayland
 
 -   [Stok kartı raporları](../../financials/localizations/apac-tha-stock-card-reports.md)
@@ -303,10 +217,7 @@ Aşağıdaki bölümler ülkeye/bölgeye göre kaynaklarını listeler.
 -   [Gerçekleşmemiş KDV](../../financials/localizations/apac-tha-unrealized-vat.md)
 -   [Stopaj vergisi](../../financials/localizations/apac-tha-withholding-tax.md)
 
-### <a name="united-kingdom"></a>Birleşik Krallık
-
--   [Birleşik Krallık için İnşaat Endüstrisi Şeması](../../financials/localizations/emea-gbr-cis-construction-industry-scheme.md)
-
+### <a name="united-kingdomfinancialslocalizationsunited-kingdommd"></a>[Birleşik Krallık](../../financials/localizations/united-kingdom.md)
 ### <a name="united-states"></a>Amerika Birleşik Devletleri
 
 -   [Kamu sektöründe Form 1099](../../financials/localizations/noam-usa-form-1099-public-sector.md)   

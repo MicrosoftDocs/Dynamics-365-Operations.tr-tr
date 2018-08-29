@@ -1,5 +1,5 @@
 --- 
-title: "CSV biçiminde bir harici dosyadan veri aktarmak için yapılandırma tasarlama (ER)"
+title: "CSV dosyalarından veri almak için ER yapılandırmaları tasarlama"
 description: "Dynamics 365 for Finance and Operations'a CSV biçimindeki bir dış dosyadan veri aktarmak üzere Elektronik raporlama (ER) yapılandırmalarını tasarlamak için bu yordamı kullanın."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f6bfa9f7c0638b0eaacf1a49bcd7d84ffab3acbf
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 8d3ea3d797de154979eae112658cf05d1914feeb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a>CSV biçiminde bir harici dosyadan veri aktarmak için yapılandırma tasarlama (ER)
+# <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>CSV dosyalarından veri almak için ER yapılandırmaları tasarlama
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

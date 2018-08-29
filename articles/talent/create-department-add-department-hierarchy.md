@@ -1,5 +1,5 @@
 ---
-title: "Bir departman yaratın ve onu departman hiyerarşisiyle ilişkilendirin."
+title: "Departmanlar oluşturma ve bunları departman hiyerarşisine dahil etme"
 description: "Bir bölüm bir kuruluşun bir kategori veya işlevsel alanını temsil eden işletme bir birimdir. Departman satış, muhasebe veya İnsan kaynakları gibi kuruluşun belirli bir alanından sorumludur. İşlevsel alanlara bildirmek için bölümleri kullanabilirsiniz. Departmanların kâr ve zarar sorumluluğu olabilir."
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
-ms.openlocfilehash: 3fc30669bf7a16616484bf7115cb121ce463840f
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 14e0acb2ea16641eecb81bcf23c8b7d778b2b208
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="create-a-department-and-associate-it-with-the-department-hierarchy"></a>Bir departman yaratın ve onu departman hiyerarşisiyle ilişkilendirin.
+# <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Departmanlar oluşturma ve bunları departman hiyerarşisine dahil etme
 
 [!include [banner](includes/banner.md)]
 

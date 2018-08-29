@@ -1,5 +1,5 @@
 --- 
-title: " Donanım istasyonu indirmek için self servis gerçekleştirme"
+title: "Self servisi kullanarak donanım istasyonları indirme"
 description: "Bu yordamda önceden tanımlanmış bir donanım istasyonu indirme konusu açıklanmaktadır."
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: a896ff1f2bf60a12b415a270853ae25f8af0f813
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 6b44f1360977fd0c224d009cc8ca3c1b54f092a1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="perform-self-service-to-download-hardware-station"></a> Donanım istasyonu indirmek için self servis gerçekleştirme
+# <a name="download-hardware-stations-by-using-self-service"></a>Self servisi kullanarak donanım istasyonları indirme
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

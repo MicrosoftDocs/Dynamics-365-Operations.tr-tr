@@ -1,5 +1,5 @@
 --- 
-title: "Mevcut bir personeli işe alma yoluyla istihdam etme"
+title: "Mevcut personeli işe alma yoluyla istihdam etme"
 description: "Bazen açık pozisyonlar, kuruluşunuzda halihazırda personel konumunda olan olan adaylar tarafından doldurulabilir."
 author: rschloma
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: rschloma
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5dfe5c25b299284267bed91d58e0acefb7250570
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 71793ce48142b19b288e2315dcd44a07d8e39f90
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="hire-an-existing-employee-through-recruiting"></a>Mevcut bir personeli işe alma yoluyla istihdam etme
+# <a name="hire-existing-employees-through-recruitment"></a>Mevcut personeli işe alma yoluyla istihdam etme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

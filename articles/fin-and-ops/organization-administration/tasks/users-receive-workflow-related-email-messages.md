@@ -1,5 +1,5 @@
 --- 
-title: "Kullanıcıların iş akışı ile ilgili e-posta iletileri almasını etkinleştirme"
+title: "Sistemi iş akışıyla ilgili e-postayı kullanıcılara gönderecek şekilde yapılandırma"
 description: "İş akışı ile ilgili olaylar gerçekleştiğinde, sistem kullanıcılara e-posta iletileri gönderecek şekilde yapılandırabilirsiniz."
 author: jasongre
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1ff7de584631563939104c87b00fdc26bdb1a3cb
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 04d90c9ded1ba7fb1ceac4ff1d54f54f6c43f9e9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="enable-users-to-receive-workflow-related-email-messages"></a>Kullanıcıların iş akışı ile ilgili e-posta iletileri almasını etkinleştirme
+# <a name="configure-the-system-to-send-workflow-related-email-to-users"></a>Sistemi iş akışıyla ilgili e-postayı kullanıcılara gönderecek şekilde yapılandırma
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

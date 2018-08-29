@@ -1,5 +1,5 @@
 --- 
-title: "Elektronik raporlama (ER) için hedefleri yapılandırma"
+title: "Elektronik raporlama (ER) çıktısı için hedefleri yapılandırma"
 description: "Bu yordamda bir klasör veya bir dosya gibi Elektronik raporlama (ER) çıkış bileşenleri için farklı hedeflerin nasıl ayarlanacağı ve kullanılacağı gösterilmiştir."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: afe9d397872b9328b59f4036049ab53b3bba2aec
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 7c84464f426d6bedff092fd918fcabbc35600f3c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="configure-destinations-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için hedefleri yapılandırma
+# <a name="configure-destinations-for-electronic-reporting-er-output"></a>Elektronik raporlama (ER) çıktısı için hedefleri yapılandırma
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

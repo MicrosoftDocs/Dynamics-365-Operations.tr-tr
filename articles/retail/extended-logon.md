@@ -1,5 +1,5 @@
 ---
-title: "Bulut POS ve MPOS için genişletilmiş oturum açma işlevselliğinin ayarlaması"
+title: "MPOS ve Cloud POS için genişletilmiş oturum açma işlevini ayarlama"
 description: "Bu konu Bulut POS ve Perakende Modern POS (MPOS) için genişletilmiş oturum açma seçeneğini ayarlamada kullanabileceğiniz seçenekleri ele alır."
 author: rubencdelgado
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3e9ce03dfdc5dc027344186e0334b2ac2bc9341e
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 4e3f8042871e5e423b559bb0e0dae0006af00194
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Bulut POS ve MPOS için genişletilmiş oturum açma işlevselliğinin ayarlaması
+# <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>MPOS ve Cloud POS için genişletilmiş oturum açma işlevini ayarlama
 
 [!include [banner](includes/banner.md)]
 

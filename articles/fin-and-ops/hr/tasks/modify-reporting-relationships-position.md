@@ -1,5 +1,5 @@
 --- 
-title: "Pozisyonun raporlama ilişkilerini değiştirme"
+title: "Pozisyonların raporlama ilişkilerini değiştirme"
 description: "Bu yordam, bir personel için raporlama ilişkisinin nasıl değiştirileceğini gösterir."
 author: ShielaSogge
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4d8c82998e6b19adbd67b6b5ea3d68d2fbd08d8b
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 2e52552ec5bce957ac43c2e34ac9a0e42829accd
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="modify-reporting-relationships-for-a-position"></a>Pozisyonun raporlama ilişkilerini değiştirme
+# <a name="modify-the-reporting-relationships-for-positions"></a>Pozisyonların raporlama ilişkilerini değiştirme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "Bir iş akışında bir el ile kararı yapılandırma"
+title: "İş akışında el ile girilen kararları yapılandırma"
 description: "Bu konu, el ile bir kararın özelliklerini yapılandırmayı açıklar."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 245d1fd9e5489a5f996a385979d2e5aaf891846a
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: e942942aac5e9973ebd0a4e3f3a134b0c667ff5b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="configure-a-manual-decision-in-a-workflow"></a>Bir iş akışında bir el ile kararı yapılandırma
+# <a name="configure-manual-decisions-in-a-workflow"></a>İş akışında el ile girilen kararları yapılandırma
 
 [!include [banner](../includes/banner.md)]
 

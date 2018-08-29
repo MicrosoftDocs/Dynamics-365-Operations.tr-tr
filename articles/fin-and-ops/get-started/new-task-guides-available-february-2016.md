@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: eeb56ec9697447ebd2385f3a0a516fcc9dc1bd3e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -596,7 +596,7 @@ Bu konu Microsoft BPM kitaplıklarına Şubat 2016 itibariyle yayımlanan Görev
 | Bir aygıt oluştur ve ilişkilendir                                                             | Genel             |
 | Bir donanım istasyonu oluştur ve ilişkilendir                                                   | Genel             |
 | POS kayıtları için mali boyut oluştur ve kayıtlardaki boyut değerlerini yapılandır | Genel             |
-| Perakende kanalları için mali boyutlar oluştur ve mağazalardaki boyut değerlerini yapılandır  | Genel             |
+| Perakende kanalları için mali boyutlar oluşturma ve mağazalardaki boyut değerlerini yapılandırma  | Genel             |
 | Çevrimiçi kanal oluştur ve kanal özniteliklerini tanımla                                       | Genel             |
 | POS izin grupları oluşturma                                                              | Genel             |
 | Ürün paketleri oluştur ve satınalma siparişinde kullan                                         | Genel             |

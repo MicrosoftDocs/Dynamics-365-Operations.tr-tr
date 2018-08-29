@@ -1,5 +1,5 @@
 --- 
-title: " Süreklilik programı kullanma"
+title: "Süreklilik programlarını satma ve ilgili satış siparişlerini işleme"
 description: "Bu yordam, süreklilik programının satılmasını ve ilgili satış siparişlerinin işlenmesini gösterir."
 author: scott-tucker
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: d2642d922fc1fa03644be8195a8c9dd3edfc3483
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 5fe1823c9b684bbc5ac5bd0871cc5c0a0e6ce678
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="use-a-continuity-program"></a> Süreklilik programı kullanma
+# <a name="selling-continuity-programs-and-processing-related-sales-orders"></a>Süreklilik programlarını satma ve ilgili satış siparişlerini işleme
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

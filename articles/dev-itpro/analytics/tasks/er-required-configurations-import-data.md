@@ -1,5 +1,5 @@
 --- 
-title: "Elektronik raporlama (ER) için harici bir dosyadan verileri içe aktarmak üzere gerekli yapılandırmaları oluşturma"
+title: "Verileri harici dosyalardan içeri aktarmak için ER yapılandırmaları oluşturma"
 description: "Aşağıdaki adımlar, Sistem yöneticisi veya Elektronik raporlama geliştirici rolüne sahip bir kullanıcının harici bir dosyadan Dynamics 365 for Finance and Operations uygulamasına verileri içeri aktarmak için Elektronik raporlama (ER) yapılandırmalarını nasıl tasarlayabileceğini açıklar."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 999c6da306ff713521ce3bb5750bd7e65dc5daaf
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 70bf788b5924e382ab927fcff4c86908923e09d7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-required-configurations-to-import-data-from-an-external-file-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için harici bir dosyadan verileri içe aktarmak üzere gerekli yapılandırmaları oluşturma
+# <a name="create-er-configurations-to-import-data-from-external-files"></a>Verileri harici dosyalardan içeri aktarmak için ER yapılandırmaları oluşturma
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

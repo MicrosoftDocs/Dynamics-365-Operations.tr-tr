@@ -1,5 +1,5 @@
 ---
-title: "Bir işin bileşenlerini ayarlamak"
+title: "İşin bileşenlerini ayarlama"
 description: "Bu konu, bir işin içerebileceği konsept öğelerini açıklar ve bu öğeleri kuruluşunuzda nasıl kullanabileceğiniz hakkında örnekler sağlar."
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 88e8c1ae98ad5618feff3d2bb88d8f8cfe2ff9ba
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="setting-up-the-components-of-a-job"></a>Bir işin bileşenlerini ayarlamak
+# <a name="set-up-the-components-of-a-job"></a>İşin bileşenlerini ayarlama
 
 [!include [banner](includes/banner.md)]
 

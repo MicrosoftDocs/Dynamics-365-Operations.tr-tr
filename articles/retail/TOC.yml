@@ -4,7 +4,7 @@
   items:
     - name: Yenilikler veya değişenler
       href: get-started/whats-new.md
-    - name: Dynamics 365 for Retail'i satın almadan önce
+    - name: Retail satın almadan önce
       href: get-started/before-you-buy.md
     - name: Önizleme aboneliğine kaydolma
       href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
@@ -12,13 +12,44 @@
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: Dağıtım seçenekleri
       href: dev-itpro/choose-deployment.md
+- name: Uygulama yaşam döngüsünü anlama
+  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+  items:
+    - name: Dynamics 365 için Microsoft FastTrack
+      href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
+    - name: İşe alım süreci
+      href: ../fin-and-ops/imp-lifecycle/onboard.md
+    - name: Servise almak için hazırlama
+      href: ../fin-and-ops/imp-lifecycle/prepare-go-live.md
+    - name: Servise almayla ilgili SSS
+      href: ../fin-and-ops/imp-lifecycle/go-live-faq.md
+    - name: Servis isteği gönderme
+      href: ../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/fin-and-ops/toc.json
+    - name: 'Abonelikler, LCS projeleri ve Azure Active Directory kiracılarıyla ilgili SSS'
+      href: ../fin-and-ops/get-started/subscription-overview.md
+    - name: Ortamları veri merkezleri arasında taşıma
+      href: ../fin-and-ops/get-started/move-environments-data-center.md
+    - name: Lisansları sözleşme türleri arasında taşıma
+      href: ../fin-and-ops/get-started/move-licenses-between-agreement-types.md
+    - name: LCS Uygulama projesini başka bir Azure Active Directory kiracısına taşıma
+      href: ../fin-and-ops/get-started/move-lcs-implementation-project-tenant.md
+    - name: Aynı Azure Active Directory kiracısında birden fazla LCS projesi ve üretim ortamı uygulama
+      href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
+    - name: Finance and Operations Retail projeleri uygulama
+      href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+    - name: 'Retail projeleri için yeni ortamlar, VSTS ve dallar ayarlama'
+      href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+    - name: Retail projeleri için kodu ve ortamları güncelleştirme
+      href: dev-itpro/updating-environments.md
+    - name: Sınama ve performans sorunları
+      href: dev-itpro/retail-implementation-testing-performance.md
 - name: Ödemeler
   items:
     - name: Ödeme yöntemleri
       href: payment-methods.md
     - name: 'Kredi kartı ayarı, onayı ve çekimi'
       href: ../financials/accounts-receivable/credit-card-authorizations.md
-    - name: POS için ödeme yöntemlerini yapılandırma
+    - name: POS için nakit kupürlerini yapılandırma
       href: cash-denominations.md
     - name: Ödemeler ile ilgili SSS
       href: dev-itpro/payments-retail.md
@@ -36,21 +67,21 @@
       href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
 - name: Ekstreler
   items:
-    - name: Perakende ekstrelerine genel bakış
+    - name: Perakende ekstreleri
       href: retail-statements.md
-    - name: 'Perakende mağazasına yönelik bir ekstre oluşturma, hesaplama ve deftere nakletme'
+    - name: 'Perakende mağazasına yönelik ekstreler oluşturma, hesaplama ve deftere nakletme'
       href: tasks/create-calculate-post-statement-retail-store.md
-    - name: Ekstre deftere nakli için geliştirmeler
+    - name: Ekstre deftere nakil işlevine yönelik geliştirmeler
       href: statement-posting-EOD.md
-    - name: Perakende ekstreleri için parametre yapılandırmaları
+    - name: Perakende ekstrelerini etkileyen Retail parametrelerini yapılandırma
       href: tasks/parameter-configurations-retail-statements.md
-    - name: Perakende ekstreleri için ödeme yapılandırmaları
+    - name: Perakende ekstrelerini etkileyen ödeme yöntemi ayarlarını yapılandırma
       href: tasks/payment-configurations-retail-statements.md
     - name: Ekstreleri hesaplamak için işi yapılandırma ve çalıştırma
       href: tasks/run-job-calculate-statements.md
     - name: Ekstreleri deftere nakletmek için işi yapılandırma ve çalıştırma
       href: tasks/run-job-post-statements.md
-    - name: Perakende ekstreleri için mağaza yapılandırmaları
+    - name: Perakende ekstrelerini etkileyen mağaza ayarlarını yapılandırma
       href: tasks/store-configurations-retail-statements.md
 - name: Satış vergisi
   items:
@@ -64,7 +95,7 @@
       href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
 - name: Çağrı merkezi
   items:
-    - name: Çağrı merkezine genel bakış
+    - name: Çağrı merkezi satış işlevi
       href: call-center-functionality.md
     - name: Çağrı merkezi katalogları
       href: call-center-catalogs.md
@@ -72,73 +103,73 @@
       href: create-call-center-catalogs.md
     - name: Teslimat şekillerini ve masrafları yapılandırma
       href: configure-call-center-delivery.md
-    - name: Sahtekarlık uyarılarını ayarlama
+    - name: Sahtekarlık uyarılarını ayarlama ve bunlarla çalışma
       href: set-up-fraud-alerts.md
-    - name: Çağrı merkezi ayarlama
+    - name: Çağrı merkezi kanalları ayarlama
       href: set-up-order-processing-options.md
-    - name: Çağrı merkezi için bir süreklilik programı kurma
+    - name: Çağrı merkezleri için süreklilik programları ayarlama
       href: set-up-continuity-program.md
-    - name: Çağrı merkezi sipariş tutmaları
+    - name: Çağrı merkezi sipariş tutmalarını yapılandırma ve bunlarla çalışma
       href: work-with-order-holds.md
-    - name: Ödeme seçenekleri
+    - name: Ödeme yöntemleri
       href: work-with-payments.md
 - name: Kanal kurulumu ve yönetimi
   items:
-    - name: Retail ortamında çekirdek verileri başlatma
+    - name: Yeni Retail ortamlarında çekirdek verileri başlatma
       href: enable-configure-retail-functionality.md
-    - name: Perakende kanallarını tanımlama
+    - name: Perakende kanallarını tanımlama ve koruma
       href: define-maintain-retail-channels.md
     - name: Ürün çeşidi yönetimi
       href: assortments.md
-    - name: Çevrimiçi mağazaya genel bakış
+    - name: Çevrimiçi mağazalar ayarlama
       href: online-stores.md
     - name: Retail hardware station'ı yapılandırma ve yükleme
       href: retail-hardware-station-configuration-installation.md
-    - name: Retail saat ve işe devam
+    - name: Retail'de saat ve işe devam
       href: retail-time-attendance.md
 - name: Modern Point of Sale (MPOS) ve Cloud POS
   items:
-    - name: Modern POS ile Cloud POS arasında seçim yapma
+    - name: MPOS ile Cloud POS arasında seçim yapma
       href: MPOS-or-CPOS.md
-    - name: 'POS işlemleri, çevrimiçi ve çevrimdışı'
+    - name: Çevrimiçi ve çevrimdışı POS işlemleri
       href: pos-operations.md
-    - name: MPOS/CPOS'taki tanıtım verileri ekranı düzenleri
+    - name: MPOS ve Cloud POS'taki tanıtım verileri ekranı düzenleri
       href: demo-data.md
-    - name: Satış Noktası içinde ürün ve müşteri aramaya genel bakış
+    - name: POS'ta ürün ve müşteri arama
       href: POS-search-improvements.md
-    - name: Satış Noktasında stok araması
+    - name: POS'ta stok araması
       href: product-variants-POS.md
     - name: Donanım çevre birimleri
       items:
-        - name: Perakende çevre birimlerine genel bakış
+        - name: Perakende çevre birimleri
           href: retail-peripherals-overview.md
-        - name: Microsoft tarafından test edilen POS donanımı çevre birimleri
+        - name: Microsoft tarafından test edilen POS donanım çevre birimleri
           href: microsoft-tested-pos-hardware-peripherals.md
         - name: Perakende çevre birimi benzeticisi
           href: dev-itpro/retail-peripheral-simulator.md
-        - name: 'Kanal istemcilerini, kasaları ve donanım istasyonlarını tanımlama ve koruma'
+        - name: Çevre birimlerini POS'a bağlama
           href: define-maintain-channel-clients-registers-hw-stations.md
-    - name: Ekran düzeni
+    - name: Ekran düzenleri
       items:
-        - name: POS için ekran düzenlerini yapılandırma
+        - name: POS için ekran düzenleri
           href: pos-screen-layouts.md
-        - name: Retail POS Düzeni tasarımcısını yükleme
+        - name: Retail POS düzeni tasarımcısını yükleme
           href: install-pos-layout-designer.md
         - name: Bildirim ayarlarını seçme
           href: Notifications-POS.md
         - name: POS uygulaması ve kullanıcı dili ayarları
           href: pos-application-user-language-settings.md
-        - name: MPOS için resimleri ayarlama
+        - name: MPOS için resimleri ayarlama ve yönetme
           href: set-up-manage-images-retail-mpos.md
-    - name: Bilgi kodlarına genel bakış
+    - name: Bilgi kodları ve bilgi kodu grupları
       href: info-codes-retail.md
     - name: Serileştirilen ürünler için POS geliştirmeleri
       href: serialized-inventory.md
     - name: Ürün önerileri
       items:
-        - name: Kişiselleştirilmiş ürün önerilerine genel bakış
+        - name: Kişiselleştirilmiş ürün önerileri
           href: personalized-product-recommendations.md
-        - name: POS cihazına öneriler denetimi ekleme
+        - name: POS cihazlarına öneriler denetimi ekleme
           href: add-recommendations-control-pos-screen.md
     - name: Çevrimdışı POS işlevi
       href: pos-offline-functionality.md
@@ -146,39 +177,39 @@
       href: shift-drawer-management.md
     - name: Müşteri siparişleri
       items:
-        - name: Müşteri siparişlerine genel bakış
+        - name: MPOS'taki müşteri siparişleri
           href: customer-orders-overview.md
         - name: Karma müşteri siparişleri
           href: hybrid-customer-orders.md
-    - name: Satış ilişkileri
+    - name: Satış yetkilileri
       items:
         - name: Satış gruplarını kullanarak POS'taki komisyonları izleme
           href: pos-sales-groups-track-commissions.md
-    - name: Siparişi farklı bir mağazadan sevk etme
+    - name: Siparişleri başka bir mağazadan sevk etme
       href: charge-send.md
     - name: Cihaz etkinleştirme
       items:
-        - name: MPOS yapılandırması ve kurulumu
+        - name: 'MPOS''u yapılandırma, yükleme ve etkinleştirme'
           href: retail-modern-pos-device-activation.md
-        - name: Cloud POS ve MPOS için genişletilmiş oturum açma ayarlama
+        - name: MPOS ve Cloud POS için genişletilmiş oturum açma işlevini ayarlama
           href: extended-logon.md
-        - name: Retail hesapları ve cihazları genel merkezden yönetme
+        - name: Retail etkinleştirme hesaplarını yönetme ve cihazları doğrulama
           href: set-up-activation-accounts-validate-devices-hq.md
-    - name: Girişler
+    - name: Makbuzlar
       items:
-        - name: Makbuz şablonlarını ayarlama
+        - name: Makbuz biçimleri ayarlama ve tasarlama
           href: receipt-templates-printing.md
         - name: MPOS'tan e-posta makbuzları gönderme
           href: email-receipts.md
-    - name: POS için Görev kaydedici ve Yardım
+    - name: MPOS ve Cloud POS için görev kaydedici ve Yardım
       href: task-recorder-retail-pos.md
 - name: Sipariş karşılama
   items:
-    - name: Mağaza sipariş karşılamaya genel bakış
+    - name: Mağaza sipariş karşılama
       href: Order-fulfillment-overview.md
-    - name: Mağazada karşılamayı ayarlama
+    - name: Mağazalar için sipariş karşılamayı ayarlama
       href: Order-fulfillment-POS-setup.md
-    - name: Satış noktasında bildirimleri etkinleştirme
+    - name: POs'ta sipariş bildirimlerini gösterme
       href: Notifications-POS.md
 - name: İzleme ve analiz
   items:
@@ -192,11 +223,11 @@
       href: assess-customer-product-profitability.md
     - name: Mağaza performansını analiz etme
       href: store-performance-information.md
-    - name: RFM analizi ayarlama
+    - name: 'Yenilik, Sıklık ve Parasal (RFM) analiz ayarlama'
       href: set-up-rfm-analysis.md
 - name: İskontolar ve fiyat ayarlamaları
   items:
-    - name: Perakende satış fiyatı yönetimi
+    - name: Retail satış fiyatı yönetimi
       href: price-management.md
     - name: Fiyat ayarlamaları ve iskontolar
       href: price-adjustments-discounts.md
@@ -204,9 +235,9 @@
       href: optimal-combination-overlapping-discounts.md
     - name: Kanala özel iskontolar tanımlama
       href: define-channel-specific-discounts.md
-    - name: Perakende ürünler için iskontoları engelleme
+    - name: Perakende ürün iskontolarını önlemek için seçenekler
       href: prevent-discounts.md
-    - name: Perakende satışlar için kupon oluşturma
+    - name: Perakende satışlar için kupon ayarlama
       href: retail-coupons.md
 - name: Ürünler ve alım satım
   items:
@@ -214,13 +245,13 @@
       href: ../supply-chain/pim/product-information.md
     - name: Perakende hiyerarşileri
       href: retail-hierarchies.md
-    - name: Özniteliklere ve öznitelik gruplarına genel bakış
+    - name: Öznitelikler ve öznitelik grupları
       href: attribute-attributegroups-lifecycle.md
     - name: Öznitelikler oluşturma ve yönetme
       href: create-manage-attributes.md
     - name: Perakende ürünleri ayarlama
       href: set-up-retail-products.md
-    - name: Gelişmiş ürün ve kategori yönetimi
+    - name: Retail ürün kategorilerini ve ürünleri yönetme
       href: category-management-product-creation.md
     - name: Ürün boyutları
       href: ../supply-chain/pim/product-dimensions.md
@@ -230,7 +261,7 @@
       href: set-up-bar-code-masks.md
     - name: Ürün çeşitleri ayarlama
       href: set-up-assortments.md
-    - name: Ürünleri bir çeşit dışında satma ve iade etme
+    - name: Mağazanın ürün çeşitlerine dahil olamayan ürünleri satma ve iade etme
       href: sell-return-outside-assortments.md
     - name: Boyutlar ve ürün çeşitleri için varsayılan sipariş ayarları
       href: ../supply-chain/production-control/default-order-settings.md
@@ -238,11 +269,11 @@
       href: ../supply-chain/pim/search-products-product-variants.md
 - name: Bağlılık
   items:
-    - name: Müşteri bağlılık programı ayarlama
+    - name: Müşteri bağlılık programları ayarlama
       href: set-up-customer-loyalty-program.md
 - name: Stok
   items:
-    - name: Mağaza stokunu yönetme
+    - name: Mağaza stok yönetimi
       href: work-with-store-inventory.md
     - name: Satış işleminde seri numaralarını kaydetme
       href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md
@@ -276,25 +307,25 @@
   items:
     - name: Fransa
       items:
-        - name: Fransa için yazar kasalar
+        - name: Yazar kasa işlevi
           href: localizations/emea-fra-cash-registers.md
-        - name: Fransa için yazar kasalara ilişkin dağıtım kılavuzları
+        - name: Yazar kasalara ilişkin dağıtım kılavuzları
           href: localizations/emea-fra-deployment.md
     - name: Hindistan
       items:
-        - name: Yazar kasalara ilişkin GST tümleştirmesi
+        - name: Yazar kasalar için Mal ve Hizmet Vergisi (GST) tümleştirmesi
           href: localizations/apac-ind-cash-registers.md
-        - name: Hindistan için yazar kasalara ilişkin dağıtım kılavuzları
+        - name: Yazar kasalara ilişkin dağıtım kılavuzları
           href: localizations/apac-ind-loc-deployment-guidelines.md
     - name: Norveç
       items:
-        - name: Norveç için yazar kasalar
+        - name: Yazar kasa işlevi
           href: localizations/emea-nor-cash-registers.md
-        - name: Norveç için yazar kasalara ilişkin dağıtım kılavuzları
+        - name: Yazar kasalara ilişkin dağıtım kılavuzları
           href: localizations/emea-nor-loc-deployment-guidelines.md
     - name: İsveç
       items:
-        - name: İsveç için yazar kasalar
+        - name: Yazar kasa işlevi
           href: localizations/emea-swe-cash-registers.md
         - name: Kontrol birimleriyle Retail POS tümleştirmesi örneği
           href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
@@ -306,21 +337,21 @@
       href: ../supply-chain/pim/tasks/configure-linked-products.md
     - name: Ürünü/ana ürünü tüzel kişiliklere serbest bırakma
       href: ../supply-chain/pim/tasks/release-product-product-master-legal-entities.md
-    - name: Taban fiyat ve ticari sözleşmeler
+    - name: Kanala özel ticari sözleşmeler oluşturma
       href: tasks/base-price-trade-agreements.md
-    - name: Ticari sözleşmeler oluşturmak için kategori fiyatlandırma kuralları
+    - name: Kategori fiyatlandırma kuralları kullanarak ticaret sözleşmeleri oluşturma
       href: tasks/category-pricing-rules-trade-agreements.md
     - name: Kredi kartı işlemlerini yapılandırma
       href: tasks/configure-credit-card-processing.md
-    - name: Satış temsilcisi için işlevsellik profilini yapılandırma
+    - name: Satış temsilcileri için işlevsellik profillerini yapılandırma
       href: tasks/configure-functionality-profile-sales-representative.md
     - name: Makine öğrenimi destekli ürün önerilerini yapılandırma
       href: tasks/configure-machine-learning-product-recommendations.md
-    - name: ' Cihaz oluşturma ve ilişkilendirme'
+    - name: Cihazlar oluşturma ve bunları kayıtlarla ilişkilendirme
       href: tasks/create-associate-device.md
-    - name: Donanım istasyonu oluşturma ve ilişkilendirme
+    - name: Donanım istasyonları oluşturma
       href: tasks/create-associate-hardware-station.md
-    - name: Kayıtlar oluşturma ve ilişkilendirme
+    - name: POS kayıtları oluşturma
       href: tasks/create-associate-registers.md
     - name: Çağrı merkezi siparişleri oluşturma
       href: tasks/create-call-center-orders.md
@@ -332,11 +363,11 @@
       href: tasks/create-online-channel-define-channel-attributes.md
     - name: POS izin grupları oluşturma
       href: tasks/create-pos-permission-groups.md
-    - name: 'POS görsel profili oluşturma  '
+    - name: POS görsel profilleri oluşturma
       href: tasks/create-pos-visual-profile-2016-02.md
     - name: Satınalma siparişleri için ürün paketleri oluşturma
       href: tasks/create-product-packages-purchase-orders.md
-    - name: Çağrı merkezi kanalı ve kanal özniteliklerini tanımlama
+    - name: Çağrı merkezi kanalları oluşturma ve kanal öznitelikleri tanımlama
       href: tasks/define-call-center-channel-channel-attributes.md
     - name: Kanal özniteliklerini tanımlama
       href: tasks/define-channel-attributes.md
@@ -352,60 +383,60 @@
       href: tasks/design-relationships-between-organizational-units.md
     - name: Ürün çeşitlerini yönetme
       href: tasks/manage-assortments-2016-11.md
-    - name: Donanım istasyonu indirmek için self servis gerçekleştirme
+    - name: Self servis kullanarak donanım istasyonları indirme
       href: tasks/perform-self-service-download-hardware-station.md
     - name: Çevrimiçi satışları ve ödemeleri deftere nakletme
       href: tasks/posting-online-sales-payments.md
     - name: Bağlılık ödül puanı ayarlamalarını işleme
       href: tasks/process-loyalty-reward-point-adjustments.md
-    - name: Merkezi alım kullanarak ürünleri dağıtım merkezinden mağazaya gönderme
+    - name: Merkezi alım kullanarak ürünleri dağıtım merkezlerinden mağazalara gönderme
       href: tasks/push-products-distribution-center-store-buyers-push.md
-    - name: Perakende fiyat ayarlamaları
+    - name: Perakende fiyat ayarlamaları oluşturma
       href: tasks/retail-price-adjustments.md
     - name: Hazır raporlar oluşturma ve çalıştırma
       href: tasks/run-out-box-reports.md
     - name: Çapraz sevk ve merkezi alım için kurallar ve parametreler ayarlama
       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
-    - name: Süreklilik programı kullanma
+    - name: Süreklilik programları satma ve satış siparişlerini işleme
       href: tasks/use-continuity-program.md
-    - name: Çalışanı yapılandırma
+    - name: Perakende çalışanlarını yapılandırma
       href: tasks/worker.md
 - name: Perakende geliştirme ve yönetimi
   href: dev-itpro/dev-retail-home-page.md
   items:
     - name: Mimari
       items:
-        - name: Microsoft Dynamics 365 for Finance and Operations bileşenleri - Retail
+        - name: Retail bileşenleri
           href: retail-components.md
         - name: Retail Server mimarisi
           href: dev-itpro/retail-server-architecture.md
-        - name: Perakende kanalı iletişimleri
+        - name: Commerce Data Exchange ve perakende kanalı iletişimleri
           href: dev-itpro/define-retail-channel-communications-cdx.md
-        - name: MPOS mimarisi
+        - name: Retail Modern POS mimarisi
           href: dev-itpro/retail-modern-pos-architecture.md
-        - name: Çevrimiçi perakende mağazası yayınlama mimarisi
+        - name: Retail çevrimiçi mağaza yayımlama mimarisi
           href: dev-itpro/retail-online-store-publishing-architecture.md
-        - name: Perakende Kanalı Performansı Power BI içeriği
+        - name: Retail Channel Performance Power BI içeriği
           href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json
         - name: Ödeme Uygulaması Veri Güvenliği Standartları (PA-DSS) sertifikası
           href: dev-itpro/PA-DSS-Certification.md
-        - name: Şirket içi dağıtımlarda kullanılabilen perakende özellikleri
+        - name: Şirket içi dağıtımlarda kullanılabilen Retail özellikleri
           href: retail-onprem.md
     - name: Dağıtım ve düzeltmeler
       items:
-        - name: Retail Store Scale Unit'e genel bakış
+        - name: Retail Store Scale Unit
           href: dev-itpro/retail-store-system-begin.md
-        - name: Retail Store Scale Unit yapılandırması ve yüklemesi
+        - name: Retail Store Scale Unit yapılandırma ve yükleme
           href: dev-itpro/retail-store-scale-unit-configuration-installation.md
-        - name: Retail Modern POS yapılandırması ve yüklemesi
+        - name: Retail Modern POS yapılandırma ve yükleme
           href: retail-modern-pos-device-activation.md
         - name: Retail hesaplarını ve cihazlarını genel merkezden yönetme
           href: set-up-activation-accounts-validate-devices-hq.md
         - name: Retail POS cihazını etkinleştirme
           href: dev-itpro/retail-device-activation.md
-        - name: Güvenli Retail Cloud POS
+        - name: Paylaşılan ortamlarda Cloud POS güvenliğini sağlamaya yardımcı olma
           href: dev-itpro/secure-retail-cloud-pos.md
-        - name: Retail Hardware Station yapılandırması ve yüklemesi
+        - name: Retail Hardware Station yapılandırma ve yükleme
           href: retail-hardware-station-configuration-installation.md
         - name: Retail self servis bileşenlerinin toplu dağıtımı
           href: dev-itpro/retail-mass-deployment.md
@@ -415,9 +446,9 @@
           href: ../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json
     - name: Yükseltme ve N-1 desteği
       items:
-        - name: Yükseltme ve N-1 desteğine genel bakış
+        - name: Retail için yükseltme ve N-1 desteği
           href: dev-itpro/overview-upgrade-n-minus1.md
-        - name: N-1 bileşenlerini yükleme
+        - name: 'Aşamalı Kullanıma Sunma (N-1) yüklemesi, yapılandırması ve kesin bitişi'
           href: dev-itpro/n-1-installation-configuration.md
     - name: Uygulama kılavuzu
       items:
@@ -437,117 +468,119 @@
           href: pos-screen-layouts.md
         - name: POS Düzeni tasarımcısını yükleme
           href: install-pos-layout-designer.md
-        - name: MPOS'u çevrimdışı mod için yapılandırma
+        - name: Çevrimdışı modda Retail Modern POS
           href: dev-itpro/retail-modern-pos-offline.md
         - name: POS Dual ekran görünümünü genişletme
           href: dev-itpro/pos-dual-display-extension.md
-        - name: MPOS ve Cloud POS tetikleyici genişletilebilirliği
+        - name: Retail Modern POS ve Cloud POS tetikleyici genişletilebilirliği
           href: dev-itpro/modern-pos-trigger-extensibility.md
-        - name: POS görünümüne özel denetim ekleme
+        - name: POS görünümlerine özel denetimler ekleme
           href: dev-itpro/pos-custom-control.md
-        - name: POS düzenine yeni bir POS işlemi ekleme
+        - name: Düğme grubu tasarımcısını kullanarak POS düzenlerine POS işlemleri ekleme
           href: dev-itpro/add-POS-operations.md
         - name: POS ödemesi uzantısı
           href: dev-itpro/pos-payment-extension.md
-        - name: Harici hediye kartı desteği
+        - name: Harici hediye kartları için destek
           href: dev-itpro/gift-card.md
-        - name: Retail Experience uygulaması oluşturma
+        - name: Markalama oluşturma ve Retail Experience uygulamasına uygulama
           href: dev-itpro/create-retail-experience-app.md
-    - name: Hardware Station'a genel bakış ve genişletilebilirlik
+    - name: Hardware Station ve genişletilebilirlik
       href: dev-itpro/hardware-station-extensibility.md
     - name: Retail Server genişletilebilirliği
       items:
-        - name: Bir Retail Server OData denetleyicisini genişletme
+        - name: Retail Server OData denetleyicisini genişletme
           href: dev-itpro/extend-retail-server-odata-controller.md
-        - name: Web API'sı ve OData denetleyicileri
+        - name: Retail Server için Web API'sı denetleyici oluşturma
           href: dev-itpro/odata-controllers-api.md
         - name: Retail Server müşteri ve tüketici API'ları
           href: dev-itpro/retail-server-customer-consumer-api.md
-        - name: Meta verileri genişletme
+        - name: Varsayılan Retail Server meta veri denetleyicisini genişletme
           href: dev-itpro/extend-metadata.md
-        - name: POS çevrimdışı modunu desteklemek için ticaret çalışma süresini uzatma
+        - name: Çevrimdışı modda CRT hizmetini çağırma
           href: dev-itpro/call-crt-service-offline.md
-    - name: Ticaret çalışma süresi genişletilebilirliği
+    - name: Commerce runtime (CRT) genişletilebilirliği
       items:
-        - name: Ticaret çalışma süresine genel bakış
+        - name: CRT mimarisi ve yapılandırması
           href: dev-itpro/commerce-runtime-overview.md
-        - name: Ticaret çalışma süresi hizmetleri
+        - name: CRT hizmetleri
           href: dev-itpro/crt-services.md
-        - name: Ticaret çalışma süresi ve Retail Server genişletilebilirliği
+        - name: CRT ve Retail Server genişletilebilirliği
           href: dev-itpro/commerce-runtime-extensibility.md
-        - name: Müşteri tercihi verilerini bir kanal veritabanına ekleme
+        - name: Müşteri tercihi verilerini bir kanal veritabanlarına ekleme
           href: dev-itpro/add-customer-preference-channel.md
-        - name: Bir satış siparişine özellik ekleme
+        - name: Satış siparişlerine özellik ekleme
           href: dev-itpro/add-properties-sales-order.md
-        - name: Ticaret çalışma süresi genişletilebilirliği ve tetikleyiciler
+        - name: CRT genişletilebilirliği ve tetikleyiciler
           href: dev-itpro/commerce-runtime-extensibility-trigger.md
-        - name: 'Tetikleyici örneği: Hareketi durdurma'
+        - name: Tetikleyicileri kullanarak hareketleri engelleme
           href: dev-itpro/trigger-example-blocking-transaction.md
-        - name: 'Tetikleyici örneği: İade ilkesi'
+        - name: Tetikleyicileri kullanarak bir iade ilkesi uygulama
           href: dev-itpro/trigger-example-return-policy.md
     - name: e-Ticaret genişletilebilirliği
       items:
-        - name: Çevrimiçi mağaza yapılandırma
+        - name: Çevrimiçi mağazaları yapılandırma
           href: dev-itpro/configure-online-store.md
         - name: Kimlik doğrulama sağlayıcılarını yapılandırma
           href: dev-itpro/configure-authentication-providers.md
         - name: e-Ticaret platformu
           href: dev-itpro/ecommerce-platform.md
-        - name: e-ticaret platformu SDK'sı
+        - name: e-Ticaret platformu SDK'sı
           href: dev-itpro/ecommerce-platform-sdk.md
     - name: Ödeme bağlayıcısı genişletilebilirliği
       items:
-        - name: Bir ödeme terminaliyle ödeme tümleştirmesi
+        - name: Ödeme terminali için ödeme tümleştirmesi oluşturma
           href: dev-itpro/end-to-end-payment-extension.md
         - name: Ödeme bağlayıcısı ve ödeme cihazı uygulama (teknik rapor)
           href: 'http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx'
-        - name: Ödeme bağlayıcısı dağıtma
+        - name: Ödeme bağlayıcıları dağıtma
           href: dev-itpro/deploy-payment-connector.md
-        - name: Ödeme bağlayıcısı için Windows yükleyicisi oluşturma
+        - name: Ödeme terminali uzantıları için yerelleştirilmiş özel hata iletileri oluşturma
+          href: dev-itpro/payment-custom-error-messages.md
+        - name: Ödeme bağlayıcıları için Windows yükleyicileri oluşturma
           href: dev-itpro/create-windows-installer-payment-connector.md
     - name: Retail SDK
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
-        - name: Retail SDK'yı sürekli oluşturma sistemiyle tümleştirme
+        - name: Retail ve Finance and Operations için oluşturma sistemlerini birleştirme
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
         - name: Retail SDK genişletilebilirlik örnekleri
           href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
-        - name: Retail SDK paketleme
+        - name: Perakende dağıtılabilir paketleri oluşturma
           href: dev-itpro/retail-sdk/retail-sdk-packaging.md
-        - name: 'Retail SDK örnekleri '
+        - name: Retail SDK örnekleri
           href: dev-itpro/retail-sdk/retail-sdk-samples.md
           items:
             - name: Sevk irsaliyeleri için genişletme noktaları
               href: dev-itpro/extensions-shipping-carrier-integration.md
-        - name: Kanal veritabanı (DB) genişletmeleri
+        - name: Kanal veritabanı uzantıları
           href: dev-itpro/channel-db-extensions.md
-        - name: CDX genişletilebilirliği
+        - name: Uzantıyla özel CDX eşitlemesini etkinleştirme
           href: dev-itpro/cdx-extensibility.md
-        - name: POS paneline özel alanlar ekleme
+        - name: POS Toplamlar paneline özel alanlar ekleme
           href: dev-itpro/custom-field-pos-totals.md
-        - name: Diğer öznitelikler
+        - name: Sipariş özniteliklerini tanımlama ve ayarlama
           href: dev-itpro/order-attributes.md
         - name: Müşteri öznitelikleri
           href: dev-itpro/customer-attributes.md
-        - name: 'Retail Typescript ve C# proxy'
+        - name: 'Retail Typescript ve C# proxy''leri'
           href: dev-itpro/typescript-proxy-retail-pos.md
         - name: Retail POS örnekleri çalıştırma
           href: dev-itpro/pos-run-samples.md
-        - name: Özel sütunlar ve uygulama çubuğu düğmeleri eklemek için mevcut POS görünümleri genişletme
+        - name: Özel sütunlar ve uygulama çubuğu düğmeleri eklemek için POS görünümleri genişletme
           href: dev-itpro/pos-view-extension.md
         - name: Retail Modern POS hareket sayfalarına özel denetimler ekleme
           href: dev-itpro/pos-custom-transaction.md
         - name: POS hareketi kılavuzuna özel sütunlar ekleme
           href: dev-itpro/pos-custom-transaction-column.md
-        - name: POS uzantısından bir POS API'sı veya işlem çağırma
+        - name: POS uzantılarından POS API'larını veya işlemlerini çağırma
           href: dev-itpro/pos-api-extension.md
         - name: Retail Modern POS tetikleyicileri ve yazdırma
           href: dev-itpro/pos-trigger-printing.md
-        - name: Ekran tasarımcısı tabanlı olmayan bir Retail Modern POS görünümüne özel denetim ekleme
+        - name: Ekran tasarımcısı tabanlı olmayan POS görünümlerine özel denetimler ekleme
           href: dev-itpro/pos-control-non-screen.md
-        - name: Bulutta barındırılan geliştirme kutuları üzerinde çalışan Retail geliştiricileri için yapılandırma adımları
+        - name: Yönetici erişimi olmadan bulutta barındırılan geliştirme ortamlarında geliştirme
           href: dev-itpro/cloud-dev-box.md
-    - name: Ticaret çalışma süresi
+    - name: Commerce runtime
       items:
         - name: Bağlılık genişletme
           href: dev-itpro/retail-sdk/loyalty-extension-sample.md

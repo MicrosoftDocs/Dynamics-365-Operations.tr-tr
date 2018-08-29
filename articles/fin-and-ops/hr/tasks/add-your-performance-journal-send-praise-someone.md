@@ -1,5 +1,5 @@
 --- 
-title: "Performans günlüğüne ekleme ve birine övgü gönderme"
+title: "Performans günlüğünüze bilgi ekleme ve övgü gönderme"
 description: "Performans günlüğü hedeflerinizi nasıl gerçekleştirdiğinizle veya bir dönem içinde nasıl performans gösterdiğinizle ilgili bilgileri içerir."
 author: ShielaSogge
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9b898a5ab5ad2837ef1d9ef8ebf88aaa05f56b3a
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 92cbb25839b8f202ba37a19ad88a54194a73c179
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Performans günlüğüne ekleme ve birine övgü gönderme
+# <a name="add-information-to-your-performance-journal-and-send-praise"></a>Performans günlüğünüze bilgi ekleme ve övgü gönderme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "İş akışı eylemleri"
+title: "İş akışı onay işlemlerindeki eylemler"
 description: "Bu makalede, onay bir iş akışı onay sürecindeki her katılımcının gerçekleştirebileceği eylemler açıklanmaktadır."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2a4717accfa7e5879ee757820c39f000fa7d3e95
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 07f1ca7db8580041c412361a710d4ec97b3d0fd8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="workflow-actions"></a>İş akışı eylemleri
+# <a name="actions-in-workflow-approval-processes"></a>İş akışı onay işlemlerindeki eylemler
 
 [!include [banner](../includes/banner.md)]
 

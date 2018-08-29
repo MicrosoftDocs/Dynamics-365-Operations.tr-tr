@@ -1,5 +1,5 @@
 ---
-title: "Perakende süresi ve işe devam"
+title: "Retail'de saat ve işe devam yönetimi"
 description: "Bu konuda, Microsoft Dynamics 365 for Retail'de süre ve işe devam yönetimi için desteklenen senaryolar açıklanmaktadır."
 author: aamirallaqaband
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d5672579c1e2d51e4b6494a1e86e3606c09a93a2
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 21c29c3c37dfacdd98f5c3ec7698f07623da2285
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="retail-time-and-attendance"></a>Perakende saati ve işe devam
+# <a name="time-and-attendance-management-in-retail"></a>Retail'de saat ve işe devam yönetimi
 
 [!include [banner](includes/banner.md)]
 
@@ -43,9 +43,9 @@ Bu konuda, Microsoft Dynamics 365 for Retail'de süre ve işe devam yönetimi i�
 
 ### <a name="plan-worker-schedules"></a>Çalışan zaman cetvelini planlayın
 
--   İş planlayıcısını kullanarak profilleri uygulayın. Daha fazla bilgi için, bkz. <https://technet.microsoft.com/en-us/library/aa551234.aspx>.
+-   İş planlayıcısını kullanarak profilleri uygulayın. Daha fazla bilgi için <https://technet.microsoft.com/en-us/library/aa551234.aspx> konusuna bakın.
 
-Yapılandırma adımları hakkında bilgi için, bkz. <https://technet.microsoft.com/en-us/library/aa496971.aspx>.
+Yapılandırma adımları hakkında daha fazla bilgi için bkz. <https://technet.microsoft.com/en-us/library/aa496971.aspx>.
 
 ### <a name="retail-specific-configuration"></a>Perakendeye özel yapılandırma
 
@@ -135,7 +135,7 @@ Dynamics 365 for Retail kullanıcısı, zaman kayıtlarını hesaplamak, onaylam
 -   Toplu Çıkış
 -   Devamsızlığı Kaydet
 
-Zaman ve işe devam kayıtlarını işleme yolları hakkında daha fazla bilgi için, bkz. <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
+Saat ve işe devam kayıtlarını işleme hakkında daha fazla bilgi için bkz. <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Çekirdek verileri yeni bir perakende ortamında başlatılamıyor"
+title: "Yeni Retail ortamlarında çekirdek verileri başlatma"
 description: "Bu makale Microsoft Dynamics 365 for Retail için başlatma işleminin bir parçasını oluşturulan veriyi açıklar."
 author: josaw1
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7388324fe8a9abc8fc3d723b7c8df2c73d76a2ae
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 80fa443fc235496a111a8a866d2e703202721268
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="initialize-seed-data-in-a-new-retail-environment"></a>Çekirdek verileri yeni bir perakende ortamında başlatılamıyor
+# <a name="initialize-seed-data-in-new-retail-environments"></a>Yeni Retail ortamlarında çekirdek verileri başlatma
 
 [!include [banner](includes/banner.md)]
 

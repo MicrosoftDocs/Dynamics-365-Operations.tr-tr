@@ -1,5 +1,5 @@
 --- 
-title: "Biçim çıktılarında Belge Yönetimi dosyalarını kullanmak için biçim çalıştırma"
+title: "ER çıktısında Belge Yönetimi dosyalarını kullanmak için biçimleri çalıştırma"
 description: "Aşağıdaki adımlar, bir sistem yöneticisi veya elektronik raporlama geliştiricisi rolü atanan bir kullanıcının, ER çıktısında Belge Yönetimi belgelerini (eklerini) kullanmak amacıyla bir Elektronik raporlama (ER) biçimini nasıl yapılandırabileceğini açıklar."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 554de60fb8d2b6cb03cac5dc8d01df98390ad844
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: e0c01a44bde47860b3ad587da73dc2760e9ef4fc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="run-format-to-use-document-management-files-in-format-outputs"></a>Biçim çıktılarında Belge Yönetimi dosyalarını kullanmak için biçim çalıştırma 
+# <a name="run-formats-to-use-document-management-files-in-er-output"></a>ER çıktısında Belge Yönetimi dosyalarını kullanmak için biçimleri çalıştırma
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

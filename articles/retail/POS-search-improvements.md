@@ -1,5 +1,5 @@
 ---
-title: "POS içinde ürün ve müşteri arama"
+title: "Satış noktasında (POS) ürün arama ve müşteri arama"
 description: "Bu konu Microsoft Dynamics 365 for Retail içinde ürün ve müşteri arama özelliğinde yapılmış olan iyileştirmeler hakkında genel bakış sağlar."
 author: ShalabhjainMSFT
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b055ae09e87434f9e43c558e2a43d0467d70aaed
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 50b0cec27e343b3b6aba464a04c9883160ab263a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Satış Noktasında ürün ve müşteri aramaya genel bakış
+# <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Satış noktasında (POS) ürün arama ve müşteri arama
 
 [!include [banner](includes/banner.md)]
 

@@ -1,5 +1,5 @@
 --- 
-title: "Uygulama veri güncelleştirmeleri için gelen belgeleri ayrıştırmak için yapılandırmalar tasarlama (ER)"
+title: "Gelen belgeleri ayrıştırmak için ER yapılandırmaları tasarlama"
 description: "Bu yordam gelen elektronik belgeyi ayrıştırmak için Elektronik raporlama (ER) yapılandırmalarının nasıl kullanılacağını açıklar."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 96c9397c6a83d61b679492f66f4aa6661f1f8621
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a>Uygulama veri güncelleştirmeleri için gelen belgeleri ayrıştırmak için yapılandırmalar tasarlama (ER)
+# <a name="design-er-configurations-to-parse-incoming-documents"></a>Gelen belgeleri ayrıştırmak için ER yapılandırmaları tasarlama
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -30,7 +30,7 @@ Bu yordam gelen elektronik belgeyi ayrıştırmak için Elektronik raporlama (ER
 
 Bu yordam, Sistem yöneticisi veya Elektronik raporlama geliştiricisi rolüne atanmış kullanıcılar için oluşturulmuştur. 
 
-Bu adımlar herhangi bir veri kümesi kullanılarak tamamlanabilir. Başlamadan önce "Uygulama verisini güncelleştirmek için gelen belgeleri ayrıştırma" başlığında (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents) listelenen dosyaları indirin ve kaydedin. Dosyalar: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
+Bu adımlar herhangi bir veri kümesi kullanılarak tamamlanabilir. Başlamadan önce "Uygulama verilerini güncelleştirmek için gelen belgeleri ayrıştırma" (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents) başlıklı konuda listelenen dosyaları indirip kaydedin. Dosyalar: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
 
 1. Organizasyon yönetimi > Çalışma alanları > Elektronik raporlama'ya gidin.
     * Örnek şirket ‘Litware, Inc.’ için yapılandırma sağlayıcısının kullanılabilir olduğunu ve etkin olarak işaretlemiş olduğundan emin olun. Bu yapılandırma sağlayıcısını göremiyorsanız "Yapılandırma sağlayıcısı oluşturma ve etkin olarak işaretleme" yordamındaki adımları tamamlayın.  

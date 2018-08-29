@@ -1,5 +1,5 @@
 --- 
-title: "Elektronik raporlama (ER) için biçim yapılandırması kullanarak ödemelere ilişkin elektronik belgeler oluşturma"
+title: "Biçim yapılandırmalarını kullanarak ödemeler için elektronik belgeler oluşturma"
 description: "Aşağıdaki yordamlar Sistem Yöneticisi veya Elektronik Raporlama Geliştiricisi rolündeki bir kullanıcının yeni bir Elektronik Raporlama (ER) biçim yapılandırmasını kullanarak, ödemeleri işlemek için elektronik belgeleri nasıl oluşturabileceğini açıklar."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a5d958d3b55bfa76f3cfbb3c1a289e4e89c49146
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 805e6f377d452e9c50240c8c9fc2ea6f5cb487e6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="generate-electronic-documents-for-payments-using-a-format-configuration-for-electronic-reporting-er"></a>Elektronik raporlama (ER) için biçim yapılandırması kullanarak ödemelere ilişkin elektronik belgeler oluşturma
+# <a name="generate-electronic-documents-for-payments-by-using-format-configurations"></a>Biçim yapılandırmalarını kullanarak ödemeler için elektronik belgeler oluşturma
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

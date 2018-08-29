@@ -1,5 +1,5 @@
 ---
-title: "Müşteri siparişlerine genel bakış"
+title: "Retail Modern POS'ta (MPOS) müşteri siparişleri"
 description: "Bu konu, Perakende Modern POS (MPOS) içerisindeki müşteri siparişleri hakkında bilgi sağlar. Müşteri siparişleri, özel siparişler olarak da adlandırılır. Bu konu, ilgili parametreler ve hareket akışları hakkında bir tartışma içerir."
 author: josaw1
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f46cf7d4df4a8cb0ad1846882292965aa492239b
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 8025df4f8498efa867f71892b253f71631b731c7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="customer-orders-overview"></a>Müşteri siparişlerine genel bakış
+# <a name="customer-orders-in-retail-modern-pos-mpos"></a>Retail Modern POS'ta (MPOS) müşteri siparişleri
 
 [!include [banner](includes/banner.md)]
 

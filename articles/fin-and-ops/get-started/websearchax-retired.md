@@ -1,5 +1,5 @@
 ---
-title: "WebSearchAX kaldırıldı"
+title: "WebSearchAX sayfası kullanımdan kaldırıldı"
 description: "WebSearchAX sayfasını kaldırdık. Bunun yerine favori arama motorunuzu kullanarak site araması yapmanızı öneririz."
 author: margoc
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 0a863d1826a5f1d19c7ab51c046e3b0137e24eeb
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 8c2375ee1dec3e816dbec19130733ebb2aac0fc3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="websearchax-retired"></a>WebSearchAX kaldırıldı
+# <a name="websearchax-page-has-been-retired"></a>WebSearchAX sayfası kullanımdan kaldırıldı
 
 [!include [banner](../includes/banner.md)]
 
