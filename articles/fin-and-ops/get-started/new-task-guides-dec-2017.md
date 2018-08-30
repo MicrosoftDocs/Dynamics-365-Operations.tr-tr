@@ -1,5 +1,5 @@
 ---
-title: "Yeni veya güncelleştirilmiş Görev kılavuzları (Aralık 2017)"
+title: "Yeni veya güncelleştirilmiş görev kılavuzları (Aralık 2017)"
 description: "Bu konu, Microsoft Dynamics 365 for Operations için Microsoft (Aralık 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler. Başlangıç Kitaplığı yayımlanmamıştır."
 author: josaw1
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a6bec9c0e9b591f99a0c00e554c18a5ebe440859
-ms.openlocfilehash: 25ee17c98d1071129e212512d75883dccd32791f
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: fbf99e6c01101209bf9e2a213c8008f50e67ad68
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="new-or-updated-task-guides-december-2017"></a>Yeni veya güncelleştirilmiş Görev kılavuzları (Aralık 2017)
+# <a name="new-or-updated-task-guides-december-2017"></a>Yeni veya güncelleştirilmiş görev kılavuzları (Aralık 2017)
 
 Bu konu, Microsoft Dynamics 365 for Operations için Microsoft (Aralık 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler.
 
@@ -213,7 +213,7 @@ Bu konu, Microsoft Dynamics 365 for Operations için Microsoft (Aralık 2016 - t
 <td align="left">Merkezi alım kullanarak ürünleri dağıtım merkezinden mağazaya gönderme (Şubat 2016)</td>
 </tr>
 <tr class="even">
-<td align="left">Çapraz sevk ve merkezi alım için kurallar ve parametreler ayarlama (Şubat 2016)</td>
+<td align="left">Çapraz sevk ve merkezi alım için kuralları ve parametreleri ayarlama (Şubat 2016)</td>
 </tr>
 <tr class="odd">
 <td align="left">Perakende fiyat ayarlamaları (Şubat 2016)</td>

@@ -1,5 +1,5 @@
 ---
-title: "Bir Talent ortamını kaldırma"
+title: "Talent ortamlarını kaldırma"
 description: "Bu konuda, Microsoft Dynamics 365 for Talent için bir test ortamını veya üretim ortamı kaldırma işlemini adım adım gösterir."
 author: rschloma
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d1870c84d4d5e7402bae44d192ce7587c2f67fe7
-ms.openlocfilehash: 0e7748b079b1cd5c069917d46e05cd281ea6aa01
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 5080f1ec182b8cbdf281967185a1afeb9887f682
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="remove-a-talent-environment"></a>Bir Talent ortamını kaldırma
+# <a name="remove-talent-environments"></a>Talent ortamlarını kaldırma
 
 Bu konuda, Microsoft Dynamics 365 for Talent için bir test ortamını veya üretim ortamı kaldırma işlemini adım adım gösterir.
 

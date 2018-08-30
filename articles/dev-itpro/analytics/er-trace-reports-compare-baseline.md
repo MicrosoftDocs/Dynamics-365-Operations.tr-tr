@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
 ms.openlocfilehash: 1a598d0bd053c60c3f8df6b05ecb7ff15addfaa3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2018
 Giden elektronik belgeler oluşturan ER biçimlerinin sonuçlarını izleyebilirsiniz. İzleme oluşturma açıldığı zaman (ER kullanıcı parametresi **Hata ayıklama modunda çalıştır**), her ER raporu çalıştırıldığında ER biçimi yürütme günlüğünde yeni bir izleme kaydı oluşturulur. Oluşturulan her izlemede aşağıdaki ayrıntılar depolanır:
 
 - Doğrulama kurallarıyla oluşturulan tüm uyarılar
-- Doğrulama kurallarıyla oluşturulan tüm hatalar 
+- Doğrulama kurallarıyla oluşturulan tüm hatalar
 - İzleme kaydının ekleri olarak depolanan tüm oluşturulan dosyalar
 
 Her ER biçimi için ayrı ayrı temel uygulama dosyaları depolayabilirsiniz. Dosyalar, çalıştırılan raporların beklenen sonuçlarını açıklıyorsa temel dosya olarak nitelendirilir. İzleme oluşturma açıkken çalıştırılmış bir ER biçimine ilişkin bir temel dosya varsa, izleme, daha önce sözü edilen ayrıntıların yanı sıra, oluşturulan elektronik belgeyi temel dosyayla karşılaştırma sonucunu depolar. Oluşturulan elektronik belgeyi ve temel dosyasını tek tıklamayla bir zip dosyasına alabilirsiniz. Bunun ardından, Windiff gibi harici bir araç kullanarak ayrıntılı bir karşılaştırma yapabilirsiniz.

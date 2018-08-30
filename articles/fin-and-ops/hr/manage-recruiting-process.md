@@ -1,5 +1,5 @@
 ---
-title: "Bir işe alma sürecini yönetmek"
+title: "İşe alma süreçlerini yönetme"
 description: "Bu makalede açık pozisyonların ilan edilmesi ve başvuru sahiplerinin işe alınması işlemleri, başvuru sahibinin ve başvuru bilgilerinin takip edilmesi, başvuru sahipleriyle iş görüşmeleri gerçekleştirilmesi ve organizasyonunuzdaki açık pozisyonların doldurulması amacıyla bir veya daha fazla sayıda aday seçilmesi de dahil olmak üzere işe alan kişilerin bir işe alma sürecindeki adımları takip etmek üzere kullanabileceği bir konsept açıklanmıştır."
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4a7dba99c08d4dfc6afd1047130cea51b6bdab1d
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 80072aebe99b0a7f244c9475dc9ba586bc697893
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="manage-a-recruiting-process"></a>Bir işe alma sürecini yönetmek
+# <a name="manage-recruiting-processes"></a>İşe alma süreçlerini yönetme
 
 [!include [banner](../includes/banner.md)]
 

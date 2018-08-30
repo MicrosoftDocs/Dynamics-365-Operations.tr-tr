@@ -1,6 +1,6 @@
 ---
-title: "Mobil uygulama giriş sayfası"
-description: "Bu konu, Microsoft Dynamics 365 for Unified Operations mobil uygulamasını açıklar ve kuruluşunuz içerisinde uygulamanıza yardımcı olacak kaynaklara bağlantılar sağlar."
+title: "Dynamics 365 for Unified Operations Mobile uygulama giriş sayfası"
+description: "Bu konu, Microsoft Dynamics 365 for Unified Operations Mobile uygulamasını açıklar ve kuruluşunuz içerisinde uygulamanıza yardımcı olacak kaynaklara bağlantılar sağlar."
 author: sericks007
 manager: AnnBe
 ms.date: 06/16/2017
@@ -18,18 +18,18 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4736a7041c746350fa073bd58929c840f7689bf
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: b9cdb2b2c2b5aaf7743cd2cd0dbfee6c602a5a46
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="mobile-app-home-page"></a>Mobil uygulama giriş sayfası
+# <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a>Dynamics 365 for Unified Operations Mobile uygulama giriş sayfası
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Microsoft Dynamics 365 for Unified Operations mobil uygulamasını açıklar ve kuruluşunuz içerisinde uygulamanıza yardımcı olacak kaynaklara bağlantılar sağlar.
+Bu konu, Microsoft Dynamics 365 for Unified Operations Mobile uygulamasını açıklar ve kuruluşunuz içerisinde uygulamanıza yardımcı olacak kaynaklara bağlantılar sağlar.
 
 > [!NOTE]
 > Mobil uygulamanın adı daha önce *Microsoft Dynamics 365 for Finance and Operations* idi.

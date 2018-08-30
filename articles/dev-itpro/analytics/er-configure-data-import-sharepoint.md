@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
 ms.openlocfilehash: 4285db9c71208bce45d64933e692a25ef3f46b26
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 # <a name="configure-data-import-from-sharepoint"></a>SharePoint'ten veri aktarımını yapılandırma

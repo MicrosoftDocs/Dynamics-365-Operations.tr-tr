@@ -1,5 +1,5 @@
 --- 
-title: "Başlığı veya logoyu değiştirme"
+title: "Tüzel kişilikler için başlıkları veya logo resimlerini değiştirme"
 description: "Aşağıdaki yordam, tüzel kişilik için görüntülenen logo ya da başlık resmini güncelleştirmek için sistem yöneticilerinin atabileceği adımları listelemektedir."
 author: aneesmsft
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d2dac4d1799a958b6eff4c7aa134fe0b136089ca
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 33be31a8806b5db265fbb45d180997623d475a87
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="change-the-banner-or-logo"></a>Başlığı veya logoyu değiştirme
+# <a name="change-the-banners-or-logo-images-for-legal-entities"></a>Tüzel kişilikler için başlıkları veya logo resimlerini değiştirme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

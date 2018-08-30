@@ -16,13 +16,13 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ec30fc5e4d3289264da0e40dc981c597c04f4c15
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: fc16d2aefcb52493e72e78def5b86b9da9673914
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="manage-leave-of-absence"></a>Devamsızlıkları yönetme
+# <a name="manage-leaves-of-absence"></a>Devamsızlıkları yönetme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

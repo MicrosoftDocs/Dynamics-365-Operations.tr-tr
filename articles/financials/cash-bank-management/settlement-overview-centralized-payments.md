@@ -1,16 +1,16 @@
 ---
 title: "Merkezi ödemeler için kapatmaya genel bakış"
-description: "Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten bir tüzel kişilik kullanarak ödemeleri oluşturabilir ve yönetebilirler. Bu, aynı hareketi birden fazla tüzel kişiliğe girme gereksinimini ortadan kaldırır ve merkezi ödemeler için ödeme teklifi işlemi, kapatma işlemi, açık hareket düzenleme ve kapalı hareket düzenleme akışını sağlayarak zaman kazandırır."
+description: "Bu konuda Microsoft Dynamics 365 for Finance and Operations için merkezi ödeme kapatma işlemi açıklanmaktadır."
 author: abruer
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 222414
 ms.assetid: 610f6858-0f37-4d0f-8c68-bab5a971ef4a
@@ -19,10 +19,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b76b141531acfc2d1d7553a3e7a13f165373921b
+ms.sourcegitcommit: fc5a65c299adbf86fb2f38dff1a9aaa36f7367fa
+ms.openlocfilehash: 1fecc9027d0df7b268a3241ea0f1797849db2d90
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -35,8 +35,8 @@ Birden çok tüzel kişilik içeren kuruluşlar tüm ödemeleri yöneten bir tü
 Bir tüzel kişiliğe müşteri veya satıcı ödemesi girildiğinde ve başka bir tüzel kişilik için girilen bir faturayla kapatıldığında, uygulanabilen kapatma, vade sonu ve vade başlangıç hareketleri her tüzel kişilik için otomatik olarak oluşturulur. Hareketteki her fatura ve ödeme birleşimi için bir kapatma kaydı oluşturulur. Her kapatma kaydına, müşteriler için **Alacak hesapları parametreleri** sayfasında ve satıcılar için **Borç hesapları parametreleri** sayfasında belirtilen ödeme fişi numara serisini temel alan yeni bir fiş numarası atanır. 
 
 Nakit iskontoları, yabancı para birimi yeniden değerleme işlemleri, kuruş farkları, fazla ödemeler veya eksik ödemeler için ek kapatma kayıtları oluşturulursa, bunlar ödeme veya fatura hareketinin daha sonraki tarihine atanır. Kapatma, ödeme deftere nakledildikten sonra gerçekleşirse, kapatma kayıtları **Açık hareketleri kapat** sayfasında belirtilen kapatma deftere nakil tarihini kullanır.
-Deftere nakil türleri, hareket türleri ve varsayılan açıklamalar
-----------------------------------------------------------
+
+## <a name="posting-types-transaction-types-and-default-descriptions"></a>Deftere nakil türleri, hareket türleri ve varsayılan açıklamalar
 
 Şirketlerarası kapatma fişi hareketleri şirketlerarası kapatma deftere nakil türünü, şirketlerarası müşteri kapatmayı ve şirketlerarası satıcı kapatma hareket türlerini kullanır. Hareket türüne yönelik bilgileri **Varsayılan açıklamalar** sayfasında ayarlayabilirsiniz. 
 
@@ -50,8 +50,7 @@ Aşağıdaki hareket tipleri tek bir şirket veya şirketlerarası kapatma işle
 
 Ayrıca şirketlerarası kapanış fişleri için varsayılan açıklamalar da oluşturabilirsiniz.
 
-<a name="currency-exchange-gains-or-losses"></a>Döviz kuru kazançları veya kayıpları
----------------------------------
+## <a name="currency-exchange-gains-or-losses"></a>Döviz kuru kazançları veya kayıpları
 
 Müşteri veya satıcı hareketleri için kullanılan döviz kuru, hareketle birlikte depolanır. Döviz kuruyla ilgili olarak gerçekleşen kazançlar veya kayıplar ödemenin tüzel kişiliğine ait **Şirketlerarası muhasebe** sayfasındaki **Döviz kuru kazancını veya kaybını deftere naklet** alanında belirlenmiş olan seçeneğe bağlı olarak, faturanın tüzel kişiliğine veya ödemenin tüzel kişiliğine nakledilir. Aşağıdaki örneklerde bu para birimleri kullanılır:
 -   Ödeme muhasebe para birimi: Euro
@@ -59,7 +58,7 @@ Müşteri veya satıcı hareketleri için kullanılan döviz kuru, hareketle bir
 -   Ödeme hareketi para birimi: DKK
 -   Fatura hareketi para birimi: Kanada Doları
 
-#### <a name="currency-calculations"></a>Para birimi hesaplamaları
+### <a name="currency-calculations"></a>Para birimi hesaplamaları
 
 Bir tüzel kişiliğe girilen fatura, başka bir tüzel kişiliğe girilen ödemeyle kapatılıyorsa, ödemenin hareket para birimi (DKK) üç adımda dönüştürülür:
 1.  Ödeme tüzel kişiliğinin döviz kurları kullanılarak, ödemenin muhasebe para birimine dönüştürülür (Euro).
@@ -75,17 +74,15 @@ Dönüştürme işlemi ödeme tarihindeki döviz kurlarını kullanır. İşlem 
 
 Sonuç olarak elde edilen ödeme tutarı, **Açık hareketleri kapat** sayfasını kapattığınızda ödeme günlüğü satırına transfer edilir.
 
-#### <a name="posting-for-gain-or-loss-because-of-different-accounting-currencies"></a>Farklı muhasebe para birimleri nedeniyle oluşan kazancı veya kaybı deftere nakletme
+### <a name="posting-for-gain-or-loss-because-of-different-accounting-currencies"></a>Farklı muhasebe para birimleri nedeniyle oluşan kazancı veya kaybı deftere nakletme
 
 Döviz kuru kazancı veya kaybı oluşursa, kazanç ya da kayıp ödemenin tüzel kişiliğine ait **Şirketlerarası muhasebe** sayfasındaki **Döviz kuru kazancını veya kaybını deftere naklet** alanı için belirtilen tüzel kişiliğe nakledilir. Kazanç veya kayıp, nakledildiği tüzel kişiliğin muhasebe para birimine, söz konusu tüzel kişilik için tanımlanan döviz kuru kullanılarak dönüştürülür.
 
-<a name="cash-discounts"></a>Nakit iskontoları
---------------
+## <a name="cash-discounts"></a>Nakit iskontoları
 
 Şirketlerarası kapatma işlemi sırasında oluşturulan nakit iskontoları, ödemenin tüzel kişiliğine ait **Şirketlerarası muhasebe** sayfasındaki **Nakit iskontosunu deftere naklet** alanı için belirtilen seçeneğe bağlı olarak, faturanın tüzel kişiliğine veya ödemenin tüzel kişiliğine nakledilir. Faturanın tüzel kişiliğinde, buna karşılık gelen kapatma hareketi oluşturulur.
 
-<a name="overpayments-and-underpayments"></a>Fazla ödemeler ve eksik ödemeler
-------------------------------
+## <a name="overpayments-and-underpayments"></a>Fazla ödemeler ve eksik ödemeler
 
 Fazla ödeme, eksik ödeme ve kuruş farkı toleransları, fazla ödemeler için ödemenin tüzel kişiliğine, eksik ödemeler için faturanın tüzel kişiliğine göre belirlenir. Kullanılan deftere nakil hesabı, müşterinin **Alacak hesapları parametreleri** sayfasındaki **Nakit iskontosu yönetimi** alanında ve satıcının **Borç hesapları parametreleri** sayfasındaki **Nakit iskontosu yönetimi** alanındaki ayara göre belirlenir.
 
@@ -112,9 +109,4 @@ Satıcı ödemelerinde, ödemenin tüzel kişiliğindeki vade sonu ve vade başl
 
 ## <a name="withholding-tax"></a>Stopaj vergisi
 Fatura ile ilişkili satıcı hesabı stopaj vergisinin hesaplanmasının gerekip gerekmediğini belirlemek için kullanılır. Stopaj vergisi varsa, faturayla ilişkilendirilmiş tüzel kişilikte hesaplanır. Tüzel kişilikler farklı para birimleri kullanıyorsa fatura ile ilişkilendirilmiş tüzel kişiliğin döviz kuru kullanılır.
-
-
-
-
-
 

@@ -1,6 +1,6 @@
 --- 
-title: " Merkezi alım kullanarak ürünleri dağıtım merkezinden mağazaya gönderme"
-description: "Bu yordam, ürünleri bir konumundan bir veya daha fazla mağazaya dağıtmak için Merkezi Alım oluşturma ve işleme konusunda kılavuzluk sağlar."
+title: "Merkezi alım aracılığıyla ürünleri dağıtım merkezlerinden mağazalara gönderme"
+description: "Bu yordam, ürünleri bir konumdan bir veya daha fazla mağazaya dağıtmak için Merkezi Alım oluşturma ve işleme konusunda kılavuzluk sağlar."
 author: rubencdelgado
 manager: AnnBe
 ms.date: 02/17/2016
@@ -17,17 +17,17 @@ ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9d9a5d4fdece1cfb573224bd54d96ccd281c0f09
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: ed47b4f052dab99dec058910e4b8558481b34e59
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a> Merkezi alım kullanarak ürünleri dağıtım merkezinden mağazaya gönderme
+# <a name="push-products-from-distribution-centers-to-stores-via-buyers-push"></a>Merkezi alım aracılığıyla ürünleri dağıtım merkezlerinden mağazalara gönderme
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 
-Bu yordam, ürünleri bir konumundan bir veya daha fazla mağazaya dağıtmak için Merkezi Alım oluşturma ve işleme konusunda kılavuzluk sağlar. Kullanıcı birden çok yapılandırmalar tanımlayabilir ve ürünlerin nasıl dağıtılacağını sistemin önermesini isteyebilir ya da ürünlerin nereye dağıtılacağını ve her mağazaya ne kadar dağıtım yapılacağını el ile girebilir. Bu yordam Merkezi Alımda kullanılabilecek stok yenileme kuralları, kuruluş hiyerarşileri ve mağaza ağırlıkları gibi verilerin ayarlanmasını kapsamaz. Bu yordam, USRT demo şirketini kullanır.
+Bu yordam, ürünleri bir konumdan bir veya daha fazla mağazaya dağıtmak için Merkezi Alım oluşturma ve işleme konusunda kılavuzluk sağlar. Kullanıcı birden çok yapılandırmalar tanımlayabilir ve ürünlerin nasıl dağıtılacağını sistemin önermesini isteyebilir ya da ürünlerin nereye dağıtılacağını ve her mağazaya ne kadar dağıtım yapılacağını el ile girebilir. Bu yordam, Merkezi Alımda kullanılabilecek stok yenileme kuralları, kuruluş hiyerarşileri ve mağaza ağırlıkları gibi verilerin ayarlanmasını kapsamaz. Bu yordam, USRT demo şirketini kullanır.
 
 1. Merkezi alım'a gidin.
 2. Yeni'ye tıklayın.

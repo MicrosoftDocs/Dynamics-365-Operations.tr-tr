@@ -1,5 +1,5 @@
 ---
-title: "POS için görev kaydedici ve Yardım"
+title: "Retail Modern POS (MPOS) ve Cloud POS için görev kaydedici ve Yardım"
 description: "Bu konu, Görev kaydedicinin Retail Modern POS ve Bulut POS içerisinde nasıl kullanılacağını açıklar."
 author: mugunthanm
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 12aa71843fa8b22eb7ae688ed3600168760d90da
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 0077bac6eef5c4b4925c9464d47a1297aa1177e4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="task-recorder-and-help-for-pos"></a>POS için görev kaydedici ve Yardım
+# <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) ve Cloud POS için görev kaydedici ve Yardım
 
 [!include [banner](includes/banner.md)]
 
@@ -36,7 +36,7 @@ Bu konu, Görev kaydedicinin Retail Modern POS ve Bulut POS içerisinde nasıl k
 <a name="overview"></a>Özet
 --------
 
-Perakende Modern POS veya Bulut POS içerisindeki görev kaydedici, yüksek cevap verebilirliğe odaklı oluşturulmuş yeni bir çözümdür. Genişletilebilirlik ve iş işlemi kayıtlarının müşterileri ile sorunsuz tümleştirme sağlayan esnek bir uygulama programlama arabirimi (API) sağlar. Ek olarak, Microsoft Lifecycle Services üzerinde İş süreci modelleyici (BPM) aracı ile Görev kaydedici tümleştirmesi ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) ileri getirilmiştir. Bu sayede kullanıcılar, kendi uygulamalarını analiz etmek ve tasarlamak için zengin iş işlemi diyagramlarını kayıtlardan üretebilirler.
+Perakende Modern POS veya Bulut POS içerisindeki görev kaydedici, yüksek cevap verebilirliğe odaklı oluşturulmuş yeni bir çözümdür. Genişletilebilirlik ve iş işlemi kayıtlarının müşterileri ile sorunsuz tümleştirme sağlayan esnek bir uygulama programlama arabirimi (API) sağlar. Ek olarak, Microsoft Dynamics Lifecycle Services üzerinde İş süreci modelleyici (BPM) aracı ile Görev kaydedici tümleştirmesi ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) öne çıkarılmıştır. Bu sayede kullanıcılar, kendi uygulamalarını analiz etmek ve tasarlamak için zengin iş işlemi diyagramlarını kayıtlardan üretebilirler.
 
 ## <a name="architecture"></a>Mimari
 Görev kaydedici, kullanıcı eylemlerini istemcide tam doğrulukla kaydedebilir. Her bir denetim, bir kullanıcı eyleminin gerçekleştirilmesi hakkında Görev kaydediciye bildirilmek üzere belirtilmiştir. Denetim, Görev kaydediciye bir eylemin gerçekleştiğini bildirir ve kullanıcı eylemi ile ilgili tüm geçerli bilgileri gerçek zamanlı olarak aktarır. Görev kaydedicisi, bu bilgilerden kullanıcı eyleminin türünü (örneğin düğme tıklaması, değer girişi veya gezinti) ve kullanıcı eylemiyle ilişkili tüm verileri (örneğin giriş veri değeri ve türü, form içeriği veya kayıt bağlamı) yakalayabilir. Görev kaydedici, kaydın oynatımın kaydedilen eylemleri, aynı kullanıcının yaptığı gibi oynatılmasını garanti edecek ayrıntıyla üstlenir. (Yürütme özelliği henüz Perakende modern POS veya Bulut POS'da uygulanmamıştır.)

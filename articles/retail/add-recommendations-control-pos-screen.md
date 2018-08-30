@@ -1,5 +1,5 @@
 ---
-title: "POS aygıt hareket sayfasında önerileri denetimi ekleyin"
+title: "POS cihazlarında hareket ekranına öneriler denetimi ekleme"
 description: "Bu konu, öneri denetiminin bir satış noktası (POST) cihazına, ekran düzeni tasarımcısını Microsoft Dynamics 365 for Retail kullanarak nasıl ekleneceğini açıklar."
 author: ashishmsft
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: eac70614770189d1e45f347b282c94e645e95b00
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 26b03b6712c97b12e1221598de308813c7986179
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>POS aygıt hareket sayfasında önerileri denetimi ekleyin
+# <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>POS cihazlarında hareket ekranına öneriler denetimi ekleme
 
 [!include [banner](includes/banner.md)]
 

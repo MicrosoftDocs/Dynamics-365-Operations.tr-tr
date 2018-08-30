@@ -18,14 +18,14 @@ ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 32b0d71d98c64ce998acbf5cdc03645401a2be7b
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 269eb1f1c59ef52ce14da11c99fd6d292b9c0b4f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="hardware-sizing-for-on-premises-environments"></a>Şirket içi ortamlar için donanım boyutlandırma
+# <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Şirket içi ortamlar için donanım boyutlandırma gereksinimleri
 
 [!include [banner](../includes/banner.md)]
 

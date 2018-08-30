@@ -1,5 +1,5 @@
 ---
-title: "Öznitelikler, öznitelik grupları ve bunların Finance and Operations'da çeşitli Retail varlıklarıyla ilişkileri"
+title: "Öznitelikler ve öznitelik grupları"
 description: "Bu konu, bir ürünü veya özelliklerini kullanıcı tanımlı alanlar aracılığıyla açıklamak için özniteliklerin nasıl kullanılacağını açıklar."
 author: ashishmsft
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5e04b1f6ef58836eeac85be074e295e6d1f42c52
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 918f8555bc3d2e4a79262b428d5c7ba278fa7409
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a>Öznitelikler, öznitelik grupları ve bunların Finance and Operations'da çeşitli Retail varlıklarıyla ilişkileri
+# <a name="attributes-and-attribute-groups"></a>Öznitelikler ve öznitelik grupları
 
 [!include [banner](includes/banner.md)]
 

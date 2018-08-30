@@ -1,5 +1,5 @@
 ---
-title: "Retail Modern POS için resimleri ayarlama ve yönetme"
+title: "Retail Modern POS (MPOS) için resimleri ayarlama ve yönetme"
 description: "Bu makalede, Retail Modern POS'ta (MPOS) görüntülenen çeşitli varlıklar için resimlerin ayarlanmasını ve yönetilmesini sağlayan adımlar açıklanmaktadır."
 author: athinesh99
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ed4a7044b577ed6af86f6803f6abd4f9b500b4e7
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: e364cf988cc80d53605fe88bf0dc1be6021c52e7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Retail Modern POS için resimleri ayarlama ve yönetme
+# <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Retail Modern POS (MPOS) için resimleri ayarlama ve yönetme
 
 [!include [banner](includes/banner.md)]
 
@@ -48,11 +48,11 @@ Perakende Modern POS (MPOS) içinde görünen resimlerin Microsoft Dynamics 365 
 
 1.  **Perakende** &gt; **Katalog Yönetimi** &gt; **Katalog resimleri**'ne tıklayın.
 2.  **katalog resimleri** sayfasında eylem bölmesinde **medya şablon tanımla**'ya tıklayın. **medya şablon tanımla** iletişim kutusunda **varlık** alanında, **katalog** varsayılan olarak seçili olmalıdır.
-3.  **medya yolu** hızlı sekmesinde, görüntü konumu kalan yolunu girin. Medya yolunu **LanguageID** değişken olarak destekler. Demo verileri için örneğin, medya sunucunuz için medya temel URL altındaki tüm katalog görüntüleri için bir **katalog** klasörü oluşturabilirsiniz (https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer). Sonra her dil için bir klasörünüz olabilir, en-US, fr-FR gibi ve her klasörün altında uygun görüntüleri kopyalayın. Çeşitli diller için farklı resimler yoksa **LanguageID** değişkenini klasör yapısında atlayabilir ve katalog görüntüleri içeren kataloglar klasörüne doğrudan işaret edebilirsiniz. **Not:**  Dynamics 365 for Retail geçerli sürümü katalog, ürün ve kategori varlıklar için **{LanguageId}** belirtecini destekler. ( **{LanguageID}** belirteci müşteri ve Çalışan varlıkları için Microsoft Dynamics AX 6.x'den bu yana etkili varolan standarda göre desteklenmez.)
+3.  **medya yolu** hızlı sekmesinde, görüntü konumu kalan yolunu girin. Medya yolunu **LanguageID** değişken olarak destekler. Örneğin demo verilerinde medya sunucunuz için medya temel URL'si altındaki tüm katalog resimlerine ait bir **Kataloglar** klasörü oluşturabilirsiniz (https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer). Sonra her dil için bir klasörünüz olabilir, en-US, fr-FR gibi ve her klasörün altında uygun görüntüleri kopyalayın. Çeşitli diller için farklı resimler yoksa **LanguageID** değişkenini klasör yapısında atlayabilir ve katalog görüntüleri içeren kataloglar klasörüne doğrudan işaret edebilirsiniz. **Not:**  Dynamics 365 for Retail geçerli sürümü katalog, ürün ve kategori varlıklar için **{LanguageId}** belirtecini destekler. ( **{LanguageID}** belirteci müşteri ve Çalışan varlıkları için Microsoft Dynamics AX 6.x'den bu yana etkili varolan standarda göre desteklenmez.)
 4.  Görüntüler için dosya adı biçimi için katalog adı sabit kodlanmış hale getirilir ve değiştirilemez. Bu nedenle, MPOS bunları düzgün işleme sağlanmasına yardımcı olmak için uygun katalog adları olacak şekilde resimlerinizi yeniden adlandırın.
 5.  **dosya uzantısı** alanında, sahip olduğunuz görüntülerin türüne bağlı olarak beklenen dosya adı uzantısı seçin. Örneğin, demo verileri için katalog resimler .jpg uzantısı olarak ayarlanır. (Resim adları Katalog adları sahip olacak biçimde de yeniden adlandırılır.)
 6.  **Tamam**'a tıklayın.
-7.  Resimler için ortam şablonunun doğru kaydedildiğini doğrulamak için **katalog resimleri** sayfasında, **medya şablonu tanımla**'yı yeniden tıklayın. Şablonu **medya şablon tanımla** iletişim kutusunu kapatmadan doğrulamak için **Excel için Resim URL'leri oluştur** hızlı sekmesini kullanabilirsiniz. Resim URL'si görünümünü denetleyin ve URL yukarıda belirtilen şablon standardıyla uyumlu olduğunu doğrulayın. **medya şablonu tanımla** iletişim kutusunda bu ortak URL yolunu kullanan tüm katalog görüntüleri için görüntü yolu artık örtülü olarak ayarlanmıştır. Bu URL yolu üzerine yazılmadığı sürece tüm katalog görüntüleri için geçerlidir. Kanal profilde tanımladığınız ortam temel URL'den görüntü yolunun ilk bölümü alınır. Yolun geri kalan bölümü medya şablonda tanımlanan yoldan alınır. Görüntü konumu tam URL'sini sağlamak üzere iki bölümden birleşir. Örneğin, demo verileri kataloğunda Fabrikam Temel katalog adı verilir. Bu nedenle, katalog adı ve şablonunda yapılandırılmış .jpg dosya adı uzantısı kullanır, böylece görüntü adı Fabrikam Bankası Catalog.jpg olması gerekir. Bu durumda, birleştirme sonrasında URL https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer/Catalogs/en-US/Fabrikam Bankası Catalog.jpg olacaktır.
+7.  Resimler için ortam şablonunun doğru kaydedildiğini doğrulamak için **katalog resimleri** sayfasında, **medya şablonu tanımla**'yı yeniden tıklayın. Şablonu **medya şablon tanımla** iletişim kutusunu kapatmadan doğrulamak için **Excel için Resim URL'leri oluştur** hızlı sekmesini kullanabilirsiniz. Resim URL'si görünümünü denetleyin ve URL yukarıda belirtilen şablon standardıyla uyumlu olduğunu doğrulayın. **medya şablonu tanımla** iletişim kutusunda bu ortak URL yolunu kullanan tüm katalog görüntüleri için görüntü yolu artık örtülü olarak ayarlanmıştır. Bu URL yolu üzerine yazılmadığı sürece tüm katalog görüntüleri için geçerlidir. Kanal profilde tanımladığınız ortam temel URL'den görüntü yolunun ilk bölümü alınır. Yolun geri kalan bölümü medya şablonda tanımlanan yoldan alınır. Görüntü konumu tam URL'sini sağlamak üzere iki bölümden birleşir. Örneğin, demo verileri kataloğunda Fabrikam Temel katalog adı verilir. Bu nedenle, katalog adı ve şablonunda yapılandırılmış .jpg dosya adı uzantısı kullanır, böylece görüntü adı Fabrikam Bankası Catalog.jpg olması gerekir. Bu durumda birleştirmeden sonra URL https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer/Catalogs/en-US/Fabrikam Base Catalog.jpg olarak değişir.
 8.  MPOS görüntülere erişmek için bir şablon kullanabilecek şekilde kanal veritabanına yeni şablon itmek için Eşitleme işleri çalıştırın.
 9.  Kanal tarafında katalog görüntülerde medya şablonunu güncelleştirmek için **Perakende BT** &gt; **Dağıtım planı**'nda **Katalog İşi 1150**'yi çalıştırdığınızdan emin olun.[![katalog1](./media/catalog1.png)](./media/catalog1.png)
 

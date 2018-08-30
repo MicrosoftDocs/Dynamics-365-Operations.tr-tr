@@ -1,9 +1,9 @@
 ---
-title: "Yardıma genel bakış"
+title: "Finance and Operations Yardım sistemi"
 description: "Bu konu, Microsoft Dynamics 365 for Finance and Operations Yardım sistemi bileşenlerine genel bir bakış sunar. Makalede, kuruluşunuz için özel belgeleri ve eğitimi nasıl sağlayabileceğiniz açıklanmaktadır."
 author: margoc
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 07/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,14 +19,14 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="help-system-overview"></a>Yardım sistemine genel bakış
+# <a name="finance-and-operations-help-system"></a>Finance and Operations Yardım sistemi
 
 [!include [banner](../includes/banner.md)]
 
@@ -82,27 +82,19 @@ Unified Operations içeriği için tüm güncelleştirmelerin RSS akışına abo
 [RSS akışı](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="give-feedback"></a>Görüş bildirin 
-Müşteri geri bildirimlerinden gerçekten memnuniyet duyuyoruz. GitHub aracılığıyla yorum yapabilir veya içeriğimizle ilgili değişiklikler önerebilirsiniz.
+Müşteri geri bildirimlerinden gerçekten memnuniyet duyuyoruz. GitHub aracılığıyla yorum yapabilir veya içeriğimizle ilgili değişiklikler önerebilirsiniz. Geri bildirim sistemimiz hakkında daha fazla bilgi için [bu blog gönderisine](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs) bakın.
 
-##### <a name="leave-us-a-comment"></a>Bize bir yorum yazın 
+##### <a name="leave-us-feedback"></a>Geri bildirim bırakın 
 Bir konuyla ilgili geri bildiriminiz veya sorunuz varsa, sayfanın alt kısmından bize yorum bırakın.  
 
-1 Sayfanın altındaki yorumlara ulaşmak için **Yorumlar** üzerine tıklayın.
+1. Sayfanın altındaki yorumlara ulaşmak için **Geri Bildirim**'e ve ardından **Ürün geri bildirimi** veya **Belge geri bildirimi bırakmak için oturum açın**'a tıklayın.
 
-![Yorumlar](./media/comments.png)
+![Geribildirim](./media/comments.png)
 
-2 Yorumlarınızı yazmaya başlayın ve sonra **Yorumu gönder** üzerine tıklayın.
+2. Yorumlarınızı yazmaya başlayın ve sonra **Geri bildirim gönder**'e tıklayın.
 
-![Yorumu gönderin](./media/before-signin.png)
+![Yorumu gönderin](./media/feedback.png)
 
-3 Oturum açmak istediğiniz hesap türünü seçin:  
-Bu siteyi mevcut bir hesapla, örneğin Twitter, Facebook veya Microsoft hesabıyla ilişkilendirmek için soldaki simgelerden birine tıklayın. 
-
-Veya 
-
-Site için yeni bir hesap oluşturmak için sağda, bir e-posta adresi ve yeni bir parola girin. 
-
-![Oturum açma seçenekleri](./media/signin-options.png)
 
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>GitHub aracılığıyla değişiklik önerin veya içeriğe katkıda bulunun
@@ -115,7 +107,6 @@ Daha fazla bilgi için lütfen katılımcı kılavuzumuza başvurun: https://git
 
 > [!NOTE]
 > Şu anda yalnızca İngilizce havuzlarımıza katılımları kabul edebiliyoruz.  
-> GitHub üzerinden bildirilen Sorunları kabul etmiyoruz. Lütfen içerik önerileri için çekme talebi kullandığınızdan emin olun. Ürün ve özellik geribildirimleri için en uygun yer Dynamics 365 Fikirler Portalıdır: https://experience.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Görev kılavuzları

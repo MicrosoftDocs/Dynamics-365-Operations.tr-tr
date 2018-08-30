@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventStdCostConv, CostingVersion
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
@@ -20,10 +20,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 338e0847ea91ee2582df0aab3e31a97c4f24113e
-ms.openlocfilehash: 016eec12c31398beede7fdddc4548ec196ebd704
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: d5a4a4e49ef1cee923011ddab24497c65f85c1e3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -75,4 +75,10 @@ Varolan maddelerini standart bir maliyet stok modeline değiştirmek isteyen mü
 
 [Standart maliyet dönüştürmeye genel bakış](standard-cost-conversion-overview.md)
 
+### <a name="blogs"></a>Bloglar
+
+#### <a name="community-blogs"></a>Topluluk blogları
+
+- [Dynamics 365 for Finance and Operations'ta doğrudan malzemeler için standart maliyetleri ayarlama](https://financefunction.tech/2018/06/07/how-to-set-up-standard-costs-for-direct-materials-in-dynamics-365-for-finance-and-operations)
+- [Dynamics 365 for Finance and Operations'ta standart doğrudan işgücü maliyetleri](https://financefunction.tech/2018/07/16/standard-direct-labor-cost-in-dynamics-365-for-finance-and-operations)
 

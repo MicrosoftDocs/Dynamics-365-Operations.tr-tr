@@ -1,5 +1,5 @@
 ---
-title: "Çağrı merkezi kanalı ayarlama"
+title: "Çağrı merkezi kanalları ayarlama"
 description: "Bu konuda, çağrı merkezleri için siparişlerin Microsoft Dynamics 365 for Retail kullanarak nasıl işleneceği hakkında bilgi verilmektedir."
 author: josaw1
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0d64a27aa8aed10c210ca3c2956dce67f8d634b8
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: d849279a642363d9cb591cd7a3b20c2883bb4a3b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="set-up-a-call-center-channel"></a>Çağrı merkezi kanalı ayarlama
+# <a name="set-up-call-center-channels"></a>Çağrı merkezi kanalları ayarlama
 
 [!include [banner](includes/banner.md)]
 

@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
 ms.openlocfilehash: a64621c5310e5f68b9d6f1545bb39ce1519d71cf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -33,16 +33,23 @@ Bu konu, Microsoft Dynamics 365 for Finance and Operations'ın mali yönetim öz
 
 Bir özellik alanı seçerek hakkında daha fazla bilgi edinebilirsiniz.
 
-:::row::: :::column::: - [Borç hesapları](accounts-payable/accounts-payable.md) 
+:::row:::
+    :::column:::
+        - [Borç hesapları](accounts-payable/accounts-payable.md) 
         - [Alacak hesapları](accounts-receivable/accounts-receivable.md)
         - [Bütçeleme](budgeting/budgeting-overview.md) 
         - [Nakit ve banka yönetimi](cash-bank-management/cash-bank-management.md)
-        - [Maliyet muhasebesi](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [Gider yönetimi](expense-management/expense-management.md)
+        - [Maliyet muhasebesi](cost-accounting/cost-accounting-home-page.md)
+    :::column-end:::
+    :::column:::
+        - [Gider yönetimi](expense-management/expense-management.md)
         - [Mali raporlama](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Sabit kıymetler](fixed-assets/fixed-assets.md)
         - [Genel muhasebe](general-ledger/general-ledger.md) 
         - [Proje yönetimi](project-management/overview-project-management-accounting.md)
-        - [Kamu sektörü](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::
+        - [Kamu sektörü](public-sector/public-sector-functionality.md) 
+    :::column-end:::
+:::row-end:::
 
 
 ## <a name="additional-resources"></a>Ek kaynaklar

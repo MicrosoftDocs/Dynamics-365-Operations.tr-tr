@@ -1,5 +1,5 @@
 ---
-title: "Finance and Operations uygulamalarında yazdırma"
+title: "Belge yazdırma"
 description: "Microsoft Dynamics 365 for Finance and Operations'da belgeleri yerel bir yazıcı veya ağa bağlı bir yazıcı kullanarak yazdırabilirsiniz. Bu makale belgelerin nasıl yazdırılacağına genel bir bakış sağlar."
 author: TJVass
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 30a418e6c49849369f0a0e3ffa28f31b9b88b7e7
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 5d52568ce49b85f6215ed2835a95e2e016c9c879
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="printing-in-finance-and-operations-applications"></a>Finance and Operations uygulamalarında yazdırma
+# <a name="document-printing"></a>Belge yazdırma
 
 [!include [banner](../includes/banner.md)]
 

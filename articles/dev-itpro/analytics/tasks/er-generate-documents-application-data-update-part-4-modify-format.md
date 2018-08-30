@@ -1,5 +1,5 @@
 --- 
-title: "Uygulama verileriyle belgeler oluşturmak için biçim değiştirme"
+title: "Uygulama verileri içeren belgeler oluşturmak için biçimleri değiştirme"
 description: "Bu yordamdaki adımları tamamlamak için ilk önce \"ER Uygulama veri güncelleştirmesi ile belgeler oluştur (Bölüm 3 - Model ve eşlemeyi değiştir)\" yordamını tamamlamalısınız."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6c7455e4293993f297aeede4d9d6a50f25ca6c07
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: a095d0326835b0ae7322d5d58307216ee828649e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="modify-format-to-generate-documents-with-application-data"></a>Uygulama verileriyle belgeler oluşturmak için biçim değiştirme
+# <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Uygulama verileri içeren belgeler oluşturmak için biçimleri değiştirme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

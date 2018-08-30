@@ -1,5 +1,5 @@
 ---
-title: "Elektronik raporlama (Kural Yöneticisi) içinde Formül Tasarımcısı"
+title: "Elektronik raporlamada (ER) formül tasarımcısı"
 description: "Bu konu, formül tasarımcısının Elektronik raporlamada (ER) nasıl kullanılacağını açıklar."
 author: NickSelin
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: 8d8ab61b7aea84332120e6de9fc29a2a4c9598ca
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="formula-designer-in-electronic-reporting"></a>Elektronik raporlamada formül tasarımcısı
+# <a name="formula-designer-in-electronic-reporting-er"></a>Elektronik raporlamada (ER) formül tasarımcısı
 
 [!include [banner](../includes/banner.md)]
 
@@ -385,7 +385,7 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 <p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
 <p>Aşağıdaki örnekte tasarlanan biçim çalıştırıldığında elde edilen sonuç gösterilir.</p>
 <p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
-<blockquote>[!NOTE]<br>Ana DOSYA ve KLASÖR biçim öğelerinin dil ayarlarına uygun olarak, etiketler ve açıklamalar için çevrilen metin ER biçiminin çıktısına girilir.</blockquote>
+<blockquote>[!NOTE] Ana DOSYA ve KLASÖR biçim öğelerinin dil ayarlarına uygun olarak, etiketler ve açıklamalar için çevrilen metin ER biçiminin çıktısına girilir.</blockquote>
 </td>
 </tr>
 <tr>
@@ -426,7 +426,7 @@ Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma de�
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>Aşağıdaki örnekte düzeltilen biçim çalıştırıldığında elde edilen sonuç gösterilir.</p>
 <p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
-<blockquote>[!NOTE]<br>Sınırının kaynak (ağırlık) değeri (11) tanımlanan sınırı (9) geçtiğinden sınır, kaynak listedeki son maddeye uygulanmaz. Rapor oluştururken gerekirse alt listeleri yok saymak (atlamak) için <strong>WHERE</strong> işlevini veya ilgili biçim öğesinin <strong>Etkinleştirildi</strong> ifadesini kullanın.</blockquote>
+<blockquote>[!NOTE] Sınırının kaynak (ağırlık) değeri (11) tanımlanan sınırı (9) geçtiğinden sınır, kaynak listedeki son maddeye uygulanmaz. Rapor oluştururken gerekirse alt listeleri yok saymak (atlamak) için <strong>WHERE</strong> işlevini veya ilgili biçim öğesinin <strong>Etkinleştirildi</strong> ifadesini kullanın.</blockquote>
 </td>
 </tr>
 <tr>
@@ -456,8 +456,8 @@ Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma de�
 | NUMBERVALUE (dize, ondalık ayırıcı, basamak gruplandırma ayırıcı) | Belirtilen dizeyi sayıya dönüştürün. Belirtilen ondalık basamak ayırıcısı ondalık sayısının tam sayısı ile kesirli sayıları arasında kullanılır. Belirtilen basamak gruplandırma ayırıcısı binler basamağı ayırıcısı olarak kullanılır. | **NUMBERVALUE("1 234,56", ",", " ")**, **1234.56** değerini döndürür. |
 | VALUE (dize) | Belirtilen dizeyi sayıya dönüştürün. Virgül ve nokta karakterleri (.) ondalık ayırıcı olarak kabul edilir ve önde gelen bir tire (-), bir eksi işareti olarak kullanılır. Belirtilen dizenin sayısal olmayan karakterler içermesi durumunda bir özel durum oluşturur. | **DEĞER ("1 234,56")** bir istisna oluşturur. |
 | ROUND (sayı, ondalık basamak) | Belirtilen sayıyı, ondalık basamağındaki sayısı yuvarladıktan sonra döndürür.<ul><li>**Ondalık** parametresinin değeri 0'dan (sıfır) büyükse, belirtilen sayı birçok ondalık basamağa yuvarlanır.</li><li>**Ondalık** parametresinin değeri **0** (sıfır) ise, belirtilen sayı en yakın tamsayıya yuvarlanır.</li><li>**Ondalık** parametresinin değeri 0'dan (sıfır) küçükse, belirtilen sayı ondalık basamağın soluna yuvarlanır.</li></ul> | **ROUND (1200.767, 2)** iki ondalık basamağa yuvarlar ve **1200.77** sonucunu döndürür. **ROUND (1200.767, -3)** 1.000'in en yakın katına yuvarlar ve **1000** döndürür. |
-| ROUNDDOWN (sayı, ondalık basamak) | Belirtilen sayıyı, ondalık basamağındaki sayısı aşağı yuvarladıktan sonra döndürür.<blockquote>[!NOTE]<br>Bu işlev **YUVARLA** işlevi gibi davranır ancak belirtilen sayıyı daima aşağı doğru (sıfıra doğru) yuvarlar.</blockquote> | **ROUNDDOWN (1200.767, 2)** iki ondalık basamağa aşağı yuvarlar ve **1200.76** sonucunu döndürür. **ROUNDDOWN (1700.767, -3)** 1.000'in en yakın katına aşağı yuvarlar ve **1000** döndürür. |
-| ROUNDUP (sayı, ondalık basamak) | Belirtilen sayıyı, ondalık basamağındaki sayı yukarı yuvarladıktan sonra döndürür.<blockquote>[!NOTE]<br>Bu işlev **YUVARLA** işlevi gibi davranır ancak belirtilen sayıyı daima yukarı doğru (sıfırdan uzağa doğru) yuvarlar.</blockquote> | **ROUNDUP (1200.763, 2)** iki ondalık basamağa yukarı yuvarlar ve **1200.77** sonucunu döndürür. **ROUNDUP (1200.767, -3)** 1.000'in en yakın katına yukarı yuvarlar ve **2000** döndürür. |
+| ROUNDDOWN (sayı, ondalık basamak) | Belirtilen sayıyı, ondalık basamağındaki sayısı aşağı yuvarladıktan sonra döndürür.<blockquote>[!NOTE] Bu işlev **YUVARLA** işlevi gibi davranır ancak belirtilen sayıyı daima aşağı doğru (sıfıra doğru) yuvarlar.</blockquote> | **ROUNDDOWN (1200.767, 2)** iki ondalık basamağa aşağı yuvarlar ve **1200.76** sonucunu döndürür. **ROUNDDOWN (1700.767, -3)** 1.000'in en yakın katına aşağı yuvarlar ve **1000** döndürür. |
+| ROUNDUP (sayı, ondalık basamak) | Belirtilen sayıyı, ondalık basamağındaki sayı yukarı yuvarladıktan sonra döndürür.<blockquote>[!NOTE] Bu işlev **YUVARLA** işlevi gibi davranır ancak belirtilen sayıyı daima yukarı doğru (sıfırdan uzağa doğru) yuvarlar.</blockquote> | **ROUNDUP (1200.763, 2)** iki ondalık basamağa yukarı yuvarlar ve **1200.77** sonucunu döndürür. **ROUNDUP (1200.767, -3)** 1.000'in en yakın katına yukarı yuvarlar ve **2000** döndürür. |
 
 ### <a name="data-conversion-functions"></a>Veri dönüştürme işlemleri
 
@@ -474,8 +474,8 @@ Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma de�
 
 | İşlev | Açıklama | Örnek |
 |----------|-------------|---------|
-| NULLCONTAINER (liste) | Belirtilen kayıt listesi veya kayıt ile aynı yapıya sahip bir **null** kaydı döndürür.<blockquote>[!NOTE]<br>Bu işlev artık kullanılmamaktadır. Bunun yerine **EMPTYRECORD** kullanın.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))**, **SPLIT** işlevi tarafından döndürülen listeyle aynı yapıya sahip, boş yeni bir kayıt döndürür. |
-| EMPTYRECORD (kayıt) | Belirtilen kayıt listesi veya kayıt ile aynı yapıya sahip bir **null** kaydı döndürür.<blockquote>[!NOTE]<br>**Boş** kayıt, tüm alanlarda boş değeri bulunan kayıttır. Boş değer sayılar için **0** (sıfır), dizeler için boş bir dize vb.'dir.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))**, **SPLIT** işlevi tarafından döndürülen listeyle aynı yapıya sahip, boş yeni bir kayıt döndürür. |
+| NULLCONTAINER (liste) | Belirtilen kayıt listesi veya kayıt ile aynı yapıya sahip bir **null** kaydı döndürür.<blockquote>[!NOTE] Bu işlev artık kullanılmamaktadır. Bunun yerine **EMPTYRECORD** kullanın.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))**, **SPLIT** işlevi tarafından döndürülen listeyle aynı yapıya sahip, boş yeni bir kayıt döndürür. |
+| EMPTYRECORD (kayıt) | Belirtilen kayıt listesi veya kayıt ile aynı yapıya sahip bir **null** kaydı döndürür.<blockquote>[!NOTE] **Boş** kayıt, tüm alanlarda boş değeri bulunan kayıttır. Boş değer sayılar için **0** (sıfır), dizeler için boş bir dize vb.'dir.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))**, **SPLIT** işlevi tarafından döndürülen listeyle aynı yapıya sahip, boş yeni bir kayıt döndürür. |
 
 ### <a name="text-functions"></a>Metin işlevleri
 
@@ -522,14 +522,14 @@ Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma de�
 <td>CHAR (numara)</td>
 <td>Belirtilen Unicode numarası tarafından başvuruda bulunulan karakter dizesini döndürür.</td>
 <td><strong>CHAR (255)</strong>, <strong>&quot;ÿ&quot;</strong> döndürür.
-<blockquote>[!NOTE]<br>Bu işlevin döndürdüğü dize DOSYA biçimi üst öğesinde seçtiğiniz kodlamaya bağlıdır. Desteklenen kodlamalar listesi için bkz. <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Kodlama sınıfı</a>.</blockquote>
+<blockquote>[!NOTE] Bu işlevin döndürdüğü dize DOSYA biçimi üst öğesinde seçtiğiniz kodlamaya bağlıdır. Desteklenen kodlamalar listesi için bkz. <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Kodlama sınıfı</a>.</blockquote>
 </td>
 </tr>
 <tr>
 <td>CONCATENATE (dize 1 [, dize 2, …])</td>
 <td>Tüm belirtilen metin dizelerini bir dizeye bağlandıktan sonra döndürür.</td>
 <td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong>, <strong>&quot;abcdef&quot;</strong>döndürür.
-<blockquote>[!NOTE]<br><strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> ifadesi ayrıca <strong>&quot;abcdef&quot;</strong> döndürür.</blockquote>
+<blockquote>[!NOTE] <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> ifadesi ayrıca <strong>&quot;abcdef&quot;</strong> döndürür.</blockquote>
 </td>
 </tr>
 <tr>
@@ -571,7 +571,7 @@ Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma de�
 <p>&quot;Yazdırılacak hiçbir şey yok. Müşteri Litware perakende 17/12/2015 için durduruldu.&quot;</p>
 <p>Aynı rapor <strong>Litware Retail</strong> müşterisi için Aralık 17, 2015 tarihinde <strong>DE</strong> kültürü ve <strong>DE</strong> dilinde işlenmişse, formül başka bir tarih biçimini kullanan aşağıdaki metni döndürür:</p>
 <p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
-<blockquote>[!NOTE]<br>Aşağıdaki sözdizimi, etiketler için ER formüllerinde kullanılır:
+<blockquote>[!NOTE] Aşağıdaki sözdizimi, etiketler için ER formüllerinde kullanılır:
 <ul>
 <li><strong>Finance and Operations kaynaklarından etiketler için:</strong> <strong>@&quot;X&quot;</strong>, burada X Uygulama Nesne Ağacı (AOT) etiket kimliğidir.</li>
 <li><strong>ER yapılandırmaları içinde bulunan etiketler için:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, burada X, ER yapılandırma etiket kimliğidir.</li>
@@ -587,7 +587,7 @@ Bu durumda, bu çevirinin kullanılabilir olması durumunda, numaralandırma de�
 <tr>
 <td>NUMERALSTOTEXT (sayı, dil, para birimi, para birimi adını yazdır bayrağı, ondalık basamaklar)</td>
 <td>Belirtilen sayıyı, belirtilen dilde yazıldıktan (metin dizelerine dönüştürüldükten) sonra döndürür. Dil kodu isteğe bağlıdır. Boş dize olarak tanımlandığında, çalışma bağlamının dil kodu kullanılır. (Çalışılan bağlamın dil kodu oluşturulan klasör veya dosya için tanımlanır.) Para birimi kodu da isteğe bağlıdır. Boş dize olarak tanımlandığında, şirket para birimi kullanılır.
-<blockquote>[!NOTE]<br><strong>Para birimi adını yazdır bayrağı</strong> ve <strong>ondalık basamak</strong> parametreleri yalnızca şu dil kodları için analiz edilir: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> ve <strong>RU</strong>. Ek olarak, <strong>para birimi adını yazdır bayrağı</strong> parametresi yalnızca ülke veya bölge bağlamının para birimi adlarının gerilemesini destekleyen Finance and Operations şirketleri için analiz edilir.</blockquote>
+<blockquote>[!NOTE] <strong>Para birimi adını yazdır bayrağı</strong> ve <strong>ondalık basamak</strong> parametreleri yalnızca şu dil kodları için analiz edilir: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> ve <strong>RU</strong>. Ek olarak, <strong>para birimi adını yazdır bayrağı</strong> parametresi yalnızca ülke veya bölge bağlamının para birimi adlarının gerilemesini destekleyen Finance and Operations şirketleri için analiz edilir.</blockquote>
 </td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> <strong>&quot;One Thousand Two Hundred Thirty Four and 56&quot;</strong> döndürür. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0)</strong> <strong>&quot;Sto dwadzieścia&quot;</strong> döndürür. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong> döndürür.</td>
 </tr>
@@ -656,10 +656,10 @@ Bu veri kaynakları tanımlandığında, UserInfo tablosunu <strong>GUID</strong
 | İşlev | Açıklama | Örnek |
 |----------|-------------|---------|
 | CONVERTCURRENCY (tutar, kaynak para birimi, hedef para birimi, tarih, şirket) | Belirtilen parasal tutarı kaynak para biriminden, belirtilen tarihte belirtilen Finance and Operations şirketinin ayarlarını kullanarak belirtilen hedef para birimine dönüştürür. | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")**, şimdiki oturum tarihinde, DEMF şirket ayarlarına dayalı olarak bir euro'nun ABD doları olarak karşılığını döndürür. |
-| ROUNDAMOUNT (sayı, ondalık, yuvarlama kuralı) | Belirtilen yuvarlama kuralına göre belirtilen tutarı belirtilen ondalık basamak sayısına yuvarlar.<blockquote>[!NOTE]<br>Yuvarlama kuralı Finance and Operations **RoundOffType** numaralandırmasının bir değeri olarak belirtilmelidir.</blockquote> | **model.RoundOff** parametresi **Aşağıya** olarak ayarlanırsa, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** **1000.78** değerini döndürür. Eğer **model.RoundOff** parametresi **Normal** ya da **Yukarıya yuvarla** olarak ayarlanmışsa, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)**, **1000,79** değerini döndürür. |
+| ROUNDAMOUNT (sayı, ondalık, yuvarlama kuralı) | Belirtilen yuvarlama kuralına göre belirtilen tutarı belirtilen ondalık basamak sayısına yuvarlar.<blockquote>[!NOTE] Yuvarlama kuralı Finance and Operations **RoundOffType** numaralandırmasının bir değeri olarak belirtilmelidir.</blockquote> | **model.RoundOff** parametresi **Aşağıya** olarak ayarlanırsa, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** **1000.78** değerini döndürür. Eğer **model.RoundOff** parametresi **Normal** ya da **Yukarıya yuvarla** olarak ayarlanmışsa, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)**, **1000,79** değerini döndürür. |
 | CURCredRef (basamak) | Belirtilen fatura numarasının basamaklarına dayalı olarak bir alacaklı başvurusu döndür. | **CURCredRef ("Satıcı-200002")**, **"2200002"** döndürür. |
 | MOD\_97 (basamak) | Belirtilen fatura numarasının basamaklarına dayalı olarak bir alacaklı başvurusunu bir MOD97 ifadesi olarak döndür. | **MOD\_97 ("VEND-200002")**, **"20000285"** döndürür. |
-| ISOCredRef (basamak) | Bir Uluslararası Standartlar Kuruluşu (ISO) alacaklı başvurusunu, belirtilen fatura numarasının basamakları ve alfabetik sembollerine dayalı olarak döndürür.<blockquote>[!NOTE]<br>ISO uyumlu olmayan alfabelerden sembolleri elemek için, giriş parametresinin işleve gönderilmeden önce çevrilmesi gerekir.</blockquote> | **ISOCredRef ("VEND-200002")**, **"RF23VEND-200002"** döndürür. |
+| ISOCredRef (basamak) | Bir Uluslararası Standartlar Kuruluşu (ISO) alacaklı başvurusunu, belirtilen fatura numarasının basamakları ve alfabetik sembollerine dayalı olarak döndürür.<blockquote>[!NOTE] ISO uyumlu olmayan alfabelerden sembolleri elemek için, giriş parametresinin işleve gönderilmeden önce çevrilmesi gerekir.</blockquote> | **ISOCredRef ("VEND-200002")**, **"RF23VEND-200002"** döndürür. |
 | CN\_GBT\_AdditionalDimensionID (dize, sayı) | Belirtilen ek mali boyut kodunu alın. **Dize** parametresinde, boyutlar virgülle ayrılmış kodlar olarak gösterilir. **Sayı** parametresi, dizedeki istenen boyutun sıra kodunu tanımlar. | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** **"CC"** döndürür. |
 | GetCurrentCompany () | Bir kullanıcının oturum açmış olduğu tüzel kişiliğin (şirket) kodunun metin olarak gösterimini döndürür. | **GETCURRENTCOMPANY ()**, Finance and Operations'da **Contoso Entertainment System USA** şirketinde oturum açmış bir kullanıcı için **USMF** döndürür. |
 | CH\_BANK\_MOD\_10 (basamaklar) | Belirtilen fatura numarasının basamaklarına dayalı olarak bir alacaklı başvurusunu bir MOD10 ifadesi olarak döndürür. | **CH\_BANK\_MOD\_10 ("VEND-200002")** **3** döndürür. |

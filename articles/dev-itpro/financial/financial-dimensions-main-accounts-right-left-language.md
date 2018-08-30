@@ -1,5 +1,5 @@
 ---
-title: "Sağdan sola doğru okunan dilde mali boyutlar ve ana hesaplar"
+title: "Sağdan sola doğru okunan dillerde mali boyutlar ve ana hesaplar"
 description: "Bu konu, sağdan sola doğru okunan bir dil kullandığınızda ve finansal boyutlar ve ana hesaplar ayarlamanız gerektiğinde değerlendirmeniz gereken bazı uygulama kararlarını açıklar."
 author: aprilolson
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 222564
 ms.assetid: 875dcebb-1bbb-4841-a8c6-9e134da07e96
@@ -18,14 +18,14 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9859023853b235aa2695ee5c595627571a4d746c
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 9609c052083dc3157618584da9311211ea036eba
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="financial-dimensions-and-main-accounts-in-a-right-to-left-language"></a>Sağdan sola doğru okunan dilde mali boyutlar ve ana hesaplar
+# <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>Sağdan sola doğru okunan dillerde mali boyutlar ve ana hesaplar
 
 [!include [banner](../includes/banner.md)]
 

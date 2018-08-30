@@ -33,7 +33,7 @@ ms.lasthandoff: 12/19/2017
 Bu konu, **İşe alma** Microsoft Power BI içeriğini açıklar. Power BI raporlarına nasıl erişileceğini açıklar ve içeriği oluşturmakta kullanılmış olan veri modeli ve varlıklar hakkında bilgi sağlar.
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
-**İşe alma** Power BI içeriği **İşe alma yönetimi** çalışma alanında gösterilir. 
+**İşe alma** Power BI içeriği **İşe alma yönetimi** çalışma alanında gösterilir.
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>İşe alma yönetimi çalışma alanındaki raporlar ve görseller
 **İşe alma yönetimi** çalışma alanı bir **Analitik** sekmesi içerir. Bu sekme, işe alma için gömülü Power BI içeriğini barındırır. İçerik bir genel bakış sekmesinden ve ayrıntıları içeren ek sekmelerden oluşur. Aşağıdaki tablo her sekmedeki raporları açıklar.
@@ -66,6 +66,4 @@ Aşağıdaki tablo, **İşe Alma** Power BI içeriğinin temel aldığı varlık
 | Performans          | Değerlendirme, açıklama ve derecelendirme modeli                            | Başvuran, İstihdam Edilen Başvuran, Sonlandırılan Başvuran |
 | İşe Alma Projesi  | Proje açıklaması, proje durumu ve açılan yerler                | Başvuran, İstihdam Edilen Başvuran, Sonlandırılan Başvuran |
 | İşten Çıkarılan Başvuran | Sonlandırılan başvuranlar, neden, performans ve sonlandırma tarihi | Şirket, Takvim Kaydırma, Tarih, Coğrafi Konum, Performans, Demografi, İstihdam, Ortam, İşe Alma Projesi, Başvuranın Adı |
-
-
 

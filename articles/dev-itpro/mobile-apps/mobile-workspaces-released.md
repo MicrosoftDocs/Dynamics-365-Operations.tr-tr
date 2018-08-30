@@ -1,5 +1,5 @@
 ---
-title: "Mobil çalışma alanları"
+title: "Kullanılabilir mobil çalışma alanları"
 description: "Bu konuda kullanılabilecek mobil çalışma alanlarını belirtilmektedir."
 author: sericks007
 manager: AnnBe
@@ -16,18 +16,18 @@ ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ccc5d488d07159981c753c83fdb1d4644b31c8ac
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 75f7df4ca3b675d720eb46395118529d09f2f9d4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="mobile-workspaces"></a>Mobil çalışma alanları
+# <a name="available-mobile-workspaces"></a>Kullanılabilir mobil çalışma alanları
 
 [!include [banner](../includes/banner.md)]
 
-Bu konu, Dynamics 365 for Unified Operations mobil uygulaması için kullanılmak üzere kullanılabilir olan mobil çalışma alanları listeler.
+Bu konu, Dynamics 365 for Unified Operations Mobile uygulaması için kullanılmak üzere kullanılabilir olan mobil çalışma alanları listeler.
 
 > [!NOTE]
 > Mobil uygulamanın adı daha önce *Microsoft Dynamics 365 for Finance and Operations* idi.

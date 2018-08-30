@@ -1,5 +1,5 @@
 ---
-title: "Bir çağrı merkezindeki ödeme yöntemleri"
+title: "Çağrı merkezlerinde ödeme yöntemleri"
 description: "Bu konu Microsoft Dynamics 365 for Retail'de bir çağrı merkezinde kullanabileceğiniz farklı ödeme yöntemlerini ele alır."
 author: josaw1
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d709a7f0e087178c0961c268a78a9206ea656bbc
-ms.openlocfilehash: ca32e74b8b9f35dd9a1a48f942766bce98c5ea4b
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 0b86388efab113af605d62c6ad76c8169d9c4643
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="payment-methods-in-a-call-center"></a>Bir çağrı merkezindeki ödeme yöntemleri
+# <a name="payment-methods-in-call-centers"></a>Çağrı merkezlerinde ödeme yöntemleri
 
 [!include [banner](includes/banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 for Retail
+title: "Dynamics 365 for Retail'e hoş geldiniz"
 description: "Dynamics 365 for Retail giriş sayfası"
 author: josaw1
 manager: AnnBe
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 164932ac3bc701696f5c0b08c5e2d585d9a8ba6a
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: fbdcfc747186e2d8f55ff294a477226a83fbe1b2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -48,7 +48,7 @@ Müşteriler sürekli olarak değişime ihtiyaç duyar. Satın alma alışkanlı
 Ayrıca, müşteriler istediklerini, ne zaman isterlerse ve istedikleri fiyata almak için birçok seçeneğe sahiptir. Müşteri bağlılığını sürdürmek için, alışverişi kolaylaştıran kişiselleştirilmiş bildirimler ve teklifler kullanabilirsiniz.
 
 ## <a name="hardware-and-peripherals"></a>Donanım ve çevre birimleri
-Retail Modern satış noktası (MPOS) ve Bulut POS'ta geniş bir donanım çevre birimleri yelpazesi kullanılabilir. Hem MPOS hem de Bulut POS birden fazla arabirim ve dağıtım seçeneği sunarak size çeşitli iş senaryolarınızda yardımcı olur.
+Retail Modern point of sale (MPOS) ve Cloud POS'ta geniş bir donanım çevre birimleri yelpazesi kullanılabilir. Hem MPOS hem de Bulut POS birden fazla arabirim ve dağıtım seçeneği sunarak size çeşitli iş senaryolarınızda yardımcı olur.
 
 Retail için Çevre birimi benzeticisi sanal bir çevre birimi benzeticisi ile bir POS benzeticisi içerir. Sanal çevre birimi benzeticisi genellikle fiziksel POS çevre birimi cihazlarını gerektiren senaryoların test edilmesini özellikle destekler. POS benzeticisi Retail ile fiziksel çevre birimi cihazlarının uyumluluğunu POS istemcisini dağıtmak zorunda kalmadan test etmenizi sağlar.
 

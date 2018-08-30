@@ -46,8 +46,6 @@ Field Service ile Finance and Operations arasındaki tümleştirmenin birinci a�
 
 Bir iş emrini Field Service ile Finance and Operations arasında nasıl eşitleyeceğinize ilişkin bir örnek görmek için YouTube'daki kısa videoyu izleyin: [Dynamics 365 for Field Service ile Finance and Operations arasında bir iş emrini eşitleme](https://www.youtube.com/watch?v=hAB4TDVMjxU).
 
-[![](https://img.youtube.com/vi/hAB4TDVMjxU/0.jpg)](https://www.youtube.com/watch?v=hAB4TDVMjxU)
-
 ## <a name="system-requirements-for-finance-and-operations"></a>Finance and Operations için sistem gereksinimleri
 Field Service tümleştirmesi aşağıdaki sürümleri destekler:
 

@@ -22,7 +22,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: ee130dd357b5ae678f623630165a1ab787d6ae2c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -34,44 +34,40 @@ Bu makalede rapor tanımları hakkında bilgi verilmektedir. Bir rapor tanımı,
 
 Bir rapor tanımı bir rapor oluşturmak üzere bir satır tanımı, bir sütun tanımı ve bir opsiyonel raporlama ağacı tanımı kullanan bir rapor bileşenidir (veya yapı taşıdır). Ayrıca bir rapor tanımı, bir raporu özelleştirmek için kullanabileceğiniz seçenekler ve ayarlar sağlar. Satır tanımları ile sütun tanımlarını belirlemenizin ardından, bunları bir rapor tanımında birleştirmeniz gerekir. Bu noktada, ayrıntı düzeyi ve rapor tarihi gibi diğer tanım yönlerini de tanımlarsınız. Ardından kaydedebilir ve rapor oluşturabilirsiniz. Mali raporlama aşağıdaki ayrıntı düzeylerini sunar:
 
--   Mali
--   Finans ve Hesap
--   Finans, Hesap ve İşlem
+- Mali
+- Finans ve Hesap
+- Finans, Hesap ve İşlem
 
 Ancak, verilerin Microsoft Dynamics ERP sisteminde nasıl saklandığına bağlı olarak, hareket ayrıntıları raporlarda kullanılamayabilir.
 
 ## <a name="create-a-report-definition"></a>Rapor tanımı oluşturma
-1.  Rapor Tasarımcısı'ndaki **Dosya** menüsünde, **Yeni**'ye tıklayın ve ardından **Rapor Tanımı**'nı seçin.
-2.  **Rapor**, **Çıkış ve Dağıtım**, **Üst Bilgiler ve Alt Bilgiler** ve **Ayarlar** sekmelerinde ilgili bilgileri belirtin.
+1. Rapor Tasarımcısı'ndaki **Dosya** menüsünde, **Yeni**'ye tıklayın ve ardından **Rapor Tanımı**'nı seçin.
+2. **Rapor**, **Çıkış ve Dağıtım**, **Üst Bilgiler ve Alt Bilgiler** ve **Ayarlar** sekmelerinde ilgili bilgileri belirtin.
 
 ## <a name="contents-of-a-report-definition"></a>Bir rapor tanımının içerikleri
 Aşağıdaki tabloda bir rapor tanımındaki sekmeler ve bilgilerin nasıl kullanıldığı açıklanmaktadır.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Sekme</th>
 <th>Açıklama</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Rapor</td>
 <td>Rapor oluşturun, rapor yapılandırın veya var olan bir raporu değiştirin.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Çıkış ve Dağıtım</td>
 <td>Raporun çıkış türünü ve hedefini değiştirin.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Üst Bilgiler ve Alt Bilgiler</td>
 <td>Raporun üst bilgilerini ve alt bilgilerini tanımlayıp biçimlendirin. Örneğin, üstbilgiye veya altbilgiye metin veya resim ekleyebilirsiniz. Mali raporlama görüntülerde .bmp, .jpg ve .png dosyalarını destekler. Şirket adı, rapor adı veya sayfa numarası gibi diğer bilgileri eklemek için otomatik metin kodlarını da ekleyebilirsiniz.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Ayarlar</td>
 <td>Aşağıdaki ayarlar gibi rapor tanımı ayarlarını belirtin:
 <ul>
@@ -81,18 +77,13 @@ Aşağıdaki tabloda bir rapor tanımındaki sekmeler ve bilgilerin nasıl kulla
 <li>Özel durum raporu oluşturma</li>
 <li>Para birimi dönüşümü belirtme</li>
 <li>Alt toplam ve filtre hesabı ayrıntıları</li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlama](financial-reporting-intro.md)
-
-
-
 

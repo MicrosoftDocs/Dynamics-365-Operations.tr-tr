@@ -1,5 +1,5 @@
 ---
-title: "Bir Microsoft şablonunu yeniden uygulayarak bir Elektronik raporlama biçimini değiştirme"
+title: "Excel şablonlarını yeniden uygulayarak Elektronik raporlama biçimlerini değiştirme"
 description: "Bu konu, değiştirilen bir Excel şablonunu yeniden uygulayarak iş belgeleri oluşturmak için kullanılan Elektronik raporlama (ER) biçimini nasıl değiştirebileceğiniz konusunda bilgiler sağlar."
 author: NickSelin
 manager: AnnBe
@@ -19,13 +19,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: fca7fb75b965886c2ebc06b12940434f2ffc2543
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 8707f7b184bb66648edd0e48672c5514a0a5caf1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="modify-an-electronic-reporting-format-by-reapplying-a-microsoft-excel-template"></a>Bir Microsoft şablonunu yeniden uygulayarak bir Elektronik raporlama biçimini değiştirme
+# <a name="modify-electronic-reporting-formats-by-reapplying-excel-templates"></a>Excel şablonlarını yeniden uygulayarak Elektronik raporlama biçimlerini değiştirme
 
 [!include [banner](../includes/banner.md)]
 

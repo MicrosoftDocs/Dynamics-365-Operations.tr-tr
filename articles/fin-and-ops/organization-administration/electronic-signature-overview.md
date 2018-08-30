@@ -1,5 +1,5 @@
 ---
-title: "Elektronik imzalara genel bakış"
+title: Elektronik imzalar
 description: "Bu makale, elektronik imzalara genel bir bakış sunar ve Microsoft Dynamics 365 for Finance and Operations'da nasıl kullanılabileceklerini açıklar."
 author: maertenm
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 698b938e515ff4755c2f111279cda244577ac9f3
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 374fd017a86fa7da6f78c287ba099d904cce64c4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="electronic-signature-overview"></a>Elektronik imzalara genel bakış
+# <a name="electronic-signatures"></a>Elektronik imzalar
 
 [!include [banner](../includes/banner.md)]
 
