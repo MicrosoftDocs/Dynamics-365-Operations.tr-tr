@@ -3,23 +3,24 @@ title: "Bir sihirbaz kullanarak satınalma için numara serilerini ayarla"
 description: "Numara serileri, ana veri kayıtları ve bunları gerektiren işlem kayıtları için okunabilir ve benzersiz tanımlayıcılarını oluşturmada kullanılır."
 author: sericks007
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: NumberSequenceTableListPage, NumberSequenceWizard
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e8f3227f231ffc287bd6ea6204ed50f8b684e5fb
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 1aaea94678e9ddfa771c21063f53aefa172b5e97
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-number-sequences-by-using-a-wizard"></a><span data-ttu-id="a704f-103">Bir sihirbaz kullanarak satınalma için numara serilerini ayarla</span><span class="sxs-lookup"><span data-stu-id="a704f-103">Set up number sequences by using a wizard</span></span>

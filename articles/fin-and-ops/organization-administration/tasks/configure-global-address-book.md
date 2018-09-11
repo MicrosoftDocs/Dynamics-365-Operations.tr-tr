@@ -3,23 +3,24 @@ title: "Genel adres defterini yapılandır"
 description: "Genel adres defteri için güvenlik ilkeleri ve varsayılan değerleri ayarlamak için bu yordamı kullanın."
 author: kfend
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DirParameters
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c5736c503fff1f0c4587bd4c70472716959af2d9
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 6fdeff748c0de1e4305c4c53cbcd6c4f43173bb2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="configure-the-global-address-book"></a><span data-ttu-id="4e16d-103">Genel adres defterini yapılandır</span><span class="sxs-lookup"><span data-stu-id="4e16d-103">Configure the global address book</span></span>

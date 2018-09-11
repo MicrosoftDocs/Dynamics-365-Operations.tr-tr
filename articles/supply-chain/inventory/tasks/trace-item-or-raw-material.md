@@ -1,26 +1,27 @@
----
+--- 
 title: Maddeyi veya hammaddeyi izleme
 description: "Bu yordam, ürünlerin veya hammaddelerin kullanılmış veya kullanılmakta olduğunu belirlemek amacıyla ürün izleme işlevinin nasıl kullanılacağını gösterir."
 author: pjacobse
 manager: AnnBe
-ms.date: 06/21/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria, InventTrackingItemIdLookup, InventBatchIdLookup, CustTable, SalesLine
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: bc68fe6e6b87075c5406b5b6a8e89f4da8bd1166
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 3597091d62b9a6c0fc41d47e66490ff61c0226ec
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="trace-an-item-or-raw-material"></a><span data-ttu-id="fc73d-103">Maddeyi veya hammaddeyi izleme</span><span class="sxs-lookup"><span data-stu-id="fc73d-103">Trace an item or raw material</span></span>
@@ -54,4 +55,5 @@ ms.lasthandoff: 08/07/2018
 8. <span data-ttu-id="fc73d-129">Eylem Bölmesinde İzleme öğesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="fc73d-129">On the Action Pane, click Tracing.</span></span>
 9. <span data-ttu-id="fc73d-130">Sevk edilmiş satış siparişleri'ni tıklatın.</span><span class="sxs-lookup"><span data-stu-id="fc73d-130">Click Shipped sales orders.</span></span>
 10. <span data-ttu-id="fc73d-131">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="fc73d-131">Close the page.</span></span>
+
 

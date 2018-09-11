@@ -3,24 +3,25 @@ title: "Kanban durumunu güncelleştirme"
 description: "Yanlışlıkla bir kanban boşaltılırsa veya alınan bir kanbanın boşaltılması gerekiyorsa, kanban durumunu güncelleştirmeniz gerekir."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 06/20/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: Kanban, KanbanResetEmpty
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 413f53a9ecc58439d4094d141bab4b510725b76e
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: ab16376f00ba327f3f69b4b07479490d31809b38
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="update-kanban-status"></a><span data-ttu-id="ab043-103">Kanban durumunu güncelleştirme</span><span class="sxs-lookup"><span data-stu-id="ab043-103">Update kanban status</span></span>

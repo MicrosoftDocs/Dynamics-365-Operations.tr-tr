@@ -3,23 +3,24 @@ title: "Satış siparişi faturaları oluşturma"
 description: "Bu görev kılavuzunda fatura birleştirme ve toplu işlem dahil bir satış siparişini faturalama açıklanmaktadır."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SalesTableListPage, SalesEditLines,  SysQueryForm, SysRecurrence
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 7b5c7419e1f8a775ce4b5b9ba46f582c9be23ad0
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 6f687816fc6393de2a587273a5350858b3503945
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-sales-order-invoices"></a><span data-ttu-id="6bb7a-103">Satış siparişi faturaları oluşturma</span><span class="sxs-lookup"><span data-stu-id="6bb7a-103">Create sales order invoices</span></span>

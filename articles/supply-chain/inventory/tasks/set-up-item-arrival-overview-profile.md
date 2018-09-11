@@ -1,26 +1,27 @@
----
+--- 
 title: "Madde varışı genel bakış profili ayarlama"
 description: "Bu görev bir varış genel bakış profili kurulumu üzerinde odaklanır."
-author: perlynne
+author: ShylaThompson
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WMSArrivalOverviewProfile
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 4b4b89f39008218721ef092ee01a93522d1461b1
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 2f5176ddbf9a28f76b37d20c7b354f3c3939e1e8
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a><span data-ttu-id="3deb8-103">Madde varışı genel bakış profili ayarlama</span><span class="sxs-lookup"><span data-stu-id="3deb8-103">Set up an item arrival overview profile</span></span>
@@ -62,4 +63,5 @@ ms.lasthandoff: 08/07/2018
     * <span data-ttu-id="3deb8-138">Transfer emirlerinden alış irsaliyesi satırlarını seçin.</span><span class="sxs-lookup"><span data-stu-id="3deb8-138">Select receipt lines from transfer orders.</span></span>  
 17. <span data-ttu-id="3deb8-139">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3deb8-139">Click Save.</span></span>
 18. <span data-ttu-id="3deb8-140">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="3deb8-140">Close the page.</span></span>
+
 

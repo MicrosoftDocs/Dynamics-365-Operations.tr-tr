@@ -3,23 +3,24 @@ title: Ana hesap kategorilerini ayarlama
 description: "Ana hesap kategorileri, finansal raporlamada ve Power BI'da varsayılan raporlar için kullanılır."
 author: aprilolson
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: MainAccountCategory, MainAccountCategoryLink
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 9c1c6448967cfaf194abbe9540e309b671b61a6d
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: fbb1dee3d88c97a0b5496c4c5350585be0aad57a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-main-account-categories"></a><span data-ttu-id="026ba-103">Ana hesap kategorilerini ayarlama</span><span class="sxs-lookup"><span data-stu-id="026ba-103">Set up main account categories</span></span>

@@ -3,23 +3,24 @@ title: "Yeni departmanlar tanımlama"
 description: "Departmanlar bir işin, işlevsel bir bölümünü temsil eden bir faaliyet birimleridir, örneğin satış ve muhasebe gibi."
 author: kherr75
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: OMOperatingUnit, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 29256eccc0b188f49256ed64f248bbd7d61afc0d
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 689d7d3fca4f48448b240b7561bbde26118bce54
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="define-new-departments"></a><span data-ttu-id="d4675-103">Yeni departmanlar tanımlama</span><span class="sxs-lookup"><span data-stu-id="d4675-103">Define new departments</span></span>

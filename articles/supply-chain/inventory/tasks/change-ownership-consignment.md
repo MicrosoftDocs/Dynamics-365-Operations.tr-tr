@@ -1,26 +1,27 @@
----
+--- 
 title: "Üretim talebine bağlı olarak konsinye stok sahipliğini değiştirme"
 description: "Bu yordam üretimde stok için bir talep olduğunda, konsinye stoğun sahibini satıcıdan tüzel kişiliğinize değiştirmeyi gösterir."
 author: perlynne
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalOwnershipChange, InventJournalCreate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: a665387244c571907afab24a54bc88580eca093e
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 5dd00e6f53d13305949d225e73223ab54947c804
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a><span data-ttu-id="72a98-103">Üretim talebine bağlı olarak konsinye stok sahipliğini değiştirme</span><span class="sxs-lookup"><span data-stu-id="72a98-103">Change the ownership of consignment inventory based on production demand</span></span>
@@ -51,4 +52,5 @@ ms.lasthandoff: 08/07/2018
     * <span data-ttu-id="72a98-131">Günlük deftere nakledildiğinde, satıcıya ait stok bir "Sahiplik değişikliği" referansı kullanılarak yayımlanır.</span><span class="sxs-lookup"><span data-stu-id="72a98-131">When the journal is posted, the vendor-owned inventory is released by using an "Ownership change" reference.</span></span> <span data-ttu-id="72a98-132">Daha sonra stok satınalma siparişi ürün girişi ile güncelleştirilen bir stok hareket kullanılarak elde olarak alınır.</span><span class="sxs-lookup"><span data-stu-id="72a98-132">The inventory is then received as on-hand by using an inventory transaction that is updated with a purchase order product receipt.</span></span> <span data-ttu-id="72a98-133">Yalnızca deftere nakledilen günlükle ilgili hareketlerin oluşturulduğuna dikkat edin.</span><span class="sxs-lookup"><span data-stu-id="72a98-133">Note that only transactions that are related to the posted journal are created.</span></span> <span data-ttu-id="72a98-134">Beklenen stok hareketleri oluşturulmaz.</span><span class="sxs-lookup"><span data-stu-id="72a98-134">No expected inventory transactions are created.</span></span>  
 2. <span data-ttu-id="72a98-135">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="72a98-135">Click OK.</span></span>
 3. <span data-ttu-id="72a98-136">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="72a98-136">Close the page.</span></span>
+
 

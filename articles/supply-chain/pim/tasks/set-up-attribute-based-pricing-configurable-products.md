@@ -3,23 +3,24 @@ title: "Yapılandırılabilir ürünler için öznitelik tabanlı fiyatlandırma
 description: "Bu yordam, öznitelik tabanlı fiyatlandırmanın nasıl ayarlanacağını gösterir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/12/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCPriceModelList, PCPriceModel, PCConstraintEditor
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: f1eaa53a652a59d4d970781f734e1332aa762ca2
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 84c14288f1ee72c8db6221f9d1f90cc5001f62ed
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a><span data-ttu-id="0a7b7-103">Yapılandırılabilir ürünler için öznitelik tabanlı fiyatlandırmayı ayarlama</span><span class="sxs-lookup"><span data-stu-id="0a7b7-103">Set up attribute-based pricing for configurable products</span></span>

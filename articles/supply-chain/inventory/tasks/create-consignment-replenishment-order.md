@@ -1,26 +1,27 @@
----
+--- 
 title: "Konsinye stok yenileme siparişi oluşturma"
 description: "Bu yordam bir satıcıdan beklenen teslimatı konsinye stoğunuzda izleyebildiğiniz bir konsinye stok yenileme siparişi oluşturmayı gösterir."
 author: mkirknel
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 6366d6188d97ca54ba65c11699140be9ae2d4002
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 686a4bc1e9d752cc6d33354d03ba3c536c0854dc
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-consignment-replenishment-order"></a><span data-ttu-id="9163b-103">Konsinye stok yenileme siparişi oluşturma</span><span class="sxs-lookup"><span data-stu-id="9163b-103">Create a consignment replenishment order</span></span>
@@ -60,7 +61,7 @@ ms.lasthandoff: 08/07/2018
 ## <a name="receive-items"></a><span data-ttu-id="9163b-132">Maddeleri al</span><span class="sxs-lookup"><span data-stu-id="9163b-132">Receive items</span></span>
 1. <span data-ttu-id="9163b-133">Ürün girişi seçeneğine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9163b-133">Click Product receipt.</span></span>
 2. <span data-ttu-id="9163b-134">Harici ürün girişi alanına bir değer yazın.</span><span class="sxs-lookup"><span data-stu-id="9163b-134">In the External product receipt field, type a value.</span></span>
-3. <span data-ttu-id="9163b-135">Miktar alanına, burada gösterilenden daha küçük bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="9163b-135">In the Quantity field, enter a number that’s lower than the number that’s shown there.</span></span>
+3. <span data-ttu-id="9163b-135">Miktar alanına, burada gösterilenden daha küçük bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="9163b-135">In the Quantity field, enter a number that’s lower than the number that’s shown there.</span></span> 
 4. <span data-ttu-id="9163b-136">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9163b-136">Click OK.</span></span>
 
 ## <a name="check-the-on-hand-inventory"></a><span data-ttu-id="9163b-137">Eldeki stoğu denetleme</span><span class="sxs-lookup"><span data-stu-id="9163b-137">Check the on-hand inventory</span></span>
@@ -70,4 +71,5 @@ ms.lasthandoff: 08/07/2018
     * <span data-ttu-id="9163b-141">Satıcının sahip olduğu konsinye, stok olarak alınan maddelerin elde kullanılabilirdir.</span><span class="sxs-lookup"><span data-stu-id="9163b-141">The items that have been received as consignment inventory owned by the vendor are available on-hand.</span></span> <span data-ttu-id="9163b-142">Konsinye stok yenileme siparişinde kalan miktar Toplam sipariş edilen alanında gösterilir.</span><span class="sxs-lookup"><span data-stu-id="9163b-142">The remaining quantity on the consignment replenishment order is shown in the Ordered in total field.</span></span>  
 4. <span data-ttu-id="9163b-143">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="9163b-143">Close the page.</span></span>
 5. <span data-ttu-id="9163b-144">Kapat’a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="9163b-144">Click Close.</span></span>
+
 

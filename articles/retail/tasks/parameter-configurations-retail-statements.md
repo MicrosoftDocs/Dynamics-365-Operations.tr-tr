@@ -1,45 +1,46 @@
 --- 
-title: "Perakende ekstrelerini etkileyen Perakende parametrelerini yapılandırma"
+title: " Perakende ekstreleri için parametre yapılandırmaları"
 description: "Bu yordam, Perakende ekstrelerinin oluşturulması ve nakledilmesini etkileyen Perakende parametrelerine ilişkin yapılandırmaları gösterir."
 author: josaw1
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: ff12587d8332801131d5b0cac84e0db38f8f6142
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 94a54dddae341febf1568369545477780c176019
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/11/2018
 
 ---
-# <a name="configure-retail-parameters-that-affect-retail-statements"></a><span data-ttu-id="4c184-103">Perakende ekstrelerini etkileyen Perakende parametrelerini yapılandırma</span><span class="sxs-lookup"><span data-stu-id="4c184-103">Configure Retail parameters that affect retail statements</span></span>
+# <a name="parameter-configurations-for-retail-statements"></a><span data-ttu-id="6a80b-103"> Perakende ekstreleri için parametre yapılandırmaları</span><span class="sxs-lookup"><span data-stu-id="6a80b-103">Parameter configurations for Retail statements</span></span>
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="4c184-104">Bu yordam, Perakende ekstrelerinin oluşturulması ve nakledilmesini etkileyen Perakende parametrelerine ilişkin yapılandırmaları gösterir.</span><span class="sxs-lookup"><span data-stu-id="4c184-104">This procedure demonstrates configurations for Retail parameters that affect how Retail statements get created and posted.</span></span> <span data-ttu-id="4c184-105">Bu yordam, USRT demo şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="4c184-105">This procedure uses the USRT demo company.</span></span>
+<span data-ttu-id="6a80b-104">Bu yordam, Perakende ekstrelerinin oluşturulması ve nakledilmesini etkileyen Perakende parametrelerine ilişkin yapılandırmaları gösterir.</span><span class="sxs-lookup"><span data-stu-id="6a80b-104">This procedure demonstrates configurations for Retail parameters that affect how Retail statements get created and posted.</span></span> <span data-ttu-id="6a80b-105">Bu yordam, USRT demo şirketini kullanır.</span><span class="sxs-lookup"><span data-stu-id="6a80b-105">This procedure uses the USRT demo company.</span></span>
 
-1. <span data-ttu-id="4c184-106">Perakende ve ticaret > Genel merkez kurulumu  > Parametreler > Perakende parametreleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="4c184-106">Go to Retail and commerce > Headquarters setup  > Parameters > Retail parameters.</span></span>
-2. <span data-ttu-id="4c184-107">Deftere nakil sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4c184-107">Click the Posting tab.</span></span>
-    * <span data-ttu-id="4c184-108">Özellikle periyodik iskonto tutarlarını deftere nakletmek istiyorsanız "Evet"i seçin.</span><span class="sxs-lookup"><span data-stu-id="4c184-108">Select "Yes" if you want to post the periodic discount amounts specifically.</span></span>  
-    * <span data-ttu-id="4c184-109">Varsayılan hesapları kullanmak için "Standart", her periyodik iskonto için hangi hesabın kullanılacağını belirlemek istiyorsanız "Periyodik" seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="4c184-109">Select "Standard" to use default accounts, or select "Periodic" if you want to define which account to use for each periodic discount.</span></span>  
-    * <span data-ttu-id="4c184-110">Mümkün olduğunda stok satırlarının toplanması için "Özet"i seçin.</span><span class="sxs-lookup"><span data-stu-id="4c184-110">Select "Summary" if inventory lines should get aggregated whenever possible.</span></span>  
-    * <span data-ttu-id="4c184-111">Ekstre deftere nakil işleminin bir parçası olarak Faturaların ve Ödemelerin otomatik kapatılmasını istiyorsanız "Evet"i seçin.</span><span class="sxs-lookup"><span data-stu-id="4c184-111">Select "Yes" if Invoices and Payments should get automatically settled as part of the Statement posting process.</span></span>  
-    * <span data-ttu-id="4c184-112">Kasaya para nakli hareketlerinin toplanması gerekiyorsa "Evet"i seçin.</span><span class="sxs-lookup"><span data-stu-id="4c184-112">Select "Yes" if Safe drop transactions should get aggregated.</span></span>  
-    * <span data-ttu-id="4c184-113">Bankaya para nakli hareketlerinin toplanması gerekiyorsa "Evet"i seçin.</span><span class="sxs-lookup"><span data-stu-id="4c184-113">Select "Yes" if Bank drop transactions should get aggregated.</span></span>  
-    * <span data-ttu-id="4c184-114">Ekstre deftere nakil işleminde toplamı açmak için "Evet" seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="4c184-114">Select "Yes" to turn aggregation on for Statement posting.</span></span>  
-    * <span data-ttu-id="4c184-115">Siparişleri ekstreler deftere nakledilirken oluşturmak ve işlemek için "Evet" seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="4c184-115">Select "Yes" to create and process orders in parallel when statements are posted.</span></span>  
-    * <span data-ttu-id="4c184-116">Her toplu iş görevinde işlenecek maksimum sipariş sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="4c184-116">Enter the maximum orders to be processed in each batch job task.</span></span>  
-3. <span data-ttu-id="4c184-117">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="4c184-117">Click Save.</span></span>
+1. <span data-ttu-id="6a80b-106">Perakende ve ticaret > Genel merkez kurulumu  > Parametreler > Perakende parametreleri'ne gidin.</span><span class="sxs-lookup"><span data-stu-id="6a80b-106">Go to Retail and commerce > Headquarters setup  > Parameters > Retail parameters.</span></span>
+2. <span data-ttu-id="6a80b-107">Deftere nakil sekmesine tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6a80b-107">Click the Posting tab.</span></span>
+    * <span data-ttu-id="6a80b-108">Özellikle periyodik iskonto tutarlarını deftere nakletmek istiyorsanız "Evet"i seçin.</span><span class="sxs-lookup"><span data-stu-id="6a80b-108">Select "Yes" if you want to post the periodic discount amounts specifically.</span></span>  
+    * <span data-ttu-id="6a80b-109">Varsayılan hesapları kullanmak için "Standart", her periyodik iskonto için hangi hesabın kullanılacağını belirlemek istiyorsanız "Periyodik" seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="6a80b-109">Select "Standard" to use default accounts, or select "Periodic" if you want to define which account to use for each periodic discount.</span></span>  
+    * <span data-ttu-id="6a80b-110">Mümkün olduğunda stok satırlarının toplanması için "Özet"i seçin.</span><span class="sxs-lookup"><span data-stu-id="6a80b-110">Select "Summary" if inventory lines should get aggregated whenever possible.</span></span>  
+    * <span data-ttu-id="6a80b-111">Ekstre deftere nakil işleminin bir parçası olarak Faturaların ve Ödemelerin otomatik kapatılmasını istiyorsanız "Evet"i seçin.</span><span class="sxs-lookup"><span data-stu-id="6a80b-111">Select "Yes" if Invoices and Payments should get automatically settled as part of the Statement posting process.</span></span>  
+    * <span data-ttu-id="6a80b-112">Kasaya para nakli hareketlerinin toplanması gerekiyorsa "Evet"i seçin.</span><span class="sxs-lookup"><span data-stu-id="6a80b-112">Select "Yes" if Safe drop transactions should get aggregated.</span></span>  
+    * <span data-ttu-id="6a80b-113">Bankaya para nakli hareketlerinin toplanması gerekiyorsa "Evet"i seçin.</span><span class="sxs-lookup"><span data-stu-id="6a80b-113">Select "Yes" if Bank drop transactions should get aggregated.</span></span>  
+    * <span data-ttu-id="6a80b-114">Ekstre deftere nakil işleminde toplamı açmak için "Evet" seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="6a80b-114">Select "Yes" to turn aggregation on for Statement posting.</span></span>  
+    * <span data-ttu-id="6a80b-115">Siparişleri ekstreler deftere nakledilirken oluşturmak ve işlemek için "Evet" seçeneğini seçin.</span><span class="sxs-lookup"><span data-stu-id="6a80b-115">Select "Yes" to create and process orders in parallel when statements are posted.</span></span>  
+    * <span data-ttu-id="6a80b-116">Her toplu iş görevinde işlenecek maksimum sipariş sayısını girin.</span><span class="sxs-lookup"><span data-stu-id="6a80b-116">Enter the maximum orders to be processed in each batch job task.</span></span>  
+3. <span data-ttu-id="6a80b-117">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="6a80b-117">Click Save.</span></span>
 
 

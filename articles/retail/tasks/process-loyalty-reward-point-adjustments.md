@@ -1,52 +1,53 @@
 --- 
-title: "Bağlılık programı ödül puanı ayarlamalarını işleme"
+title: " Bağlılık ödül puanı ayarlamalarını işleme"
 description: "Bu yordam ile, Bağlılık kartı bilgilerini aramak ve bağlılık programı Ödül puanları ayarlamak gösterilmiştir."
 author: scott-tucker
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailLoyaltyCards, RetailLoyaltyCardRewardPointTrans, RetailLoyaltyCardRewardPointAdjustment, RetailAffiliationLookup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 3ec914b1e51f238c4f319dd6b71c2992fb5a6247
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: e6ed175991f1a694254c25d031575c51e4d6d0f6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/11/2018
 
 ---
-# <a name="process-adjustments-of-loyalty-reward-points"></a><span data-ttu-id="fc8ea-103">Bağlılık programı ödül puanı ayarlamalarını işleme</span><span class="sxs-lookup"><span data-stu-id="fc8ea-103">Process adjustments of loyalty reward points</span></span>
+# <a name="process-loyalty-reward-point-adjustments"></a><span data-ttu-id="e608a-103"> Bağlılık ödül puanı ayarlamalarını işleme</span><span class="sxs-lookup"><span data-stu-id="e608a-103">Process loyalty reward point adjustments</span></span>
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="fc8ea-104">Bu yordam ile, Bağlılık kartı bilgilerini aramak ve bağlılık programı Ödül puanları ayarlamak gösterilmiştir.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-104">This procedure demonstrates how to look up loyalty card information and adjust loyalty reward points.</span></span> <span data-ttu-id="fc8ea-105">Bu görevi oluşturmak için kullanılan demo verisi şirketi USRT'dir.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="fc8ea-106">Bu görev, perakende işlem yöneticisi rolü veya bir müşteri Hizmet Yöneticisi rolü olarak hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-106">This task is intended for the Retail operations manager role or a Customer service manager role.</span></span>
+<span data-ttu-id="e608a-104">Bu yordam ile, Bağlılık kartı bilgilerini aramak ve bağlılık programı Ödül puanları ayarlamak gösterilmiştir.</span><span class="sxs-lookup"><span data-stu-id="e608a-104">This procedure demonstrates how to look up loyalty card information and adjust loyalty reward points.</span></span> <span data-ttu-id="e608a-105">Bu görevi oluşturmak için kullanılan demo verisi şirketi USRT'dir.</span><span class="sxs-lookup"><span data-stu-id="e608a-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="e608a-106">Bu görev, perakende işlem yöneticisi rolü veya bir müşteri Hizmet Yöneticisi rolü olarak hazırlanmıştır.</span><span class="sxs-lookup"><span data-stu-id="e608a-106">This task is intended for the Retail operations manager role or a Customer service manager role.</span></span>
 
-1. <span data-ttu-id="fc8ea-107">Bağlılık kartına git.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-107">Go to Loyalty cards.</span></span>
-2. <span data-ttu-id="fc8ea-108">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-108">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="fc8ea-109">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-109">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="fc8ea-110">Kart hareketlerine tıkla.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-110">Click Card transactions.</span></span>
-    * <span data-ttu-id="fc8ea-111">Bu sayfada seçilen bağlılık programı kartının tüm bağlılık hareketleri görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-111">On this page you can view all loyalty transactions for the selected loyalty card.</span></span>  
-5. <span data-ttu-id="fc8ea-112">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-112">Close the page.</span></span>
-6. <span data-ttu-id="fc8ea-113">Kart düzeltmelerine tıkla.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-113">Click Card adjustments.</span></span>
-7. <span data-ttu-id="fc8ea-114">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-114">Click New.</span></span>
-8. <span data-ttu-id="fc8ea-115">Ödül puanı alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-115">In the Reward point field, enter or select a value.</span></span>
-9. <span data-ttu-id="fc8ea-116">Tutar veya miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-116">In the Amount or quantity field, enter a number.</span></span>
-    * <span data-ttu-id="fc8ea-117">Pozitif veya negatif tutarlar kullanılarak bağlılık kartından puanlar ekleyebilir veya azaltabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-117">You can add or remove points from the loyalty card by using positive or negative amounts.</span></span>  
-10. <span data-ttu-id="fc8ea-118">Bağlılık programı alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-118">In the Loyalty program field, enter or select a value.</span></span>
-11. <span data-ttu-id="fc8ea-119">Açıklama alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-119">In the Comment field, type a value.</span></span>
-12. <span data-ttu-id="fc8ea-120">Düzeltmeyi gönder'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-120">Click Post adjustment.</span></span>
-13. <span data-ttu-id="fc8ea-121">Evet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-121">Click Yes.</span></span>
-14. <span data-ttu-id="fc8ea-122">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-122">Close the page.</span></span>
-    * <span data-ttu-id="fc8ea-123">Normalde bu noktada ödül puanları özet sekmesinde ödül puanları ayarlaması sonucunu görmek için sayfayı yenilemeniz gerekir. Ancak bunu görev kılavuzu olarak çalıştırıyorsanız, şimdi yenilemeyin çünkü bunu yaparsanız, görev duracaktır.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-123">Normally at this point you'd refresh the page to see the result of the reward points adjustment in the Reward point summary tab. But if you are running this as a task guide, don't refresh now because if you do, the task guide will stop.</span></span>  
-15. <span data-ttu-id="fc8ea-124">Kart hareketlerine tıkla.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-124">Click Card transactions.</span></span>
-16. <span data-ttu-id="fc8ea-125">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="fc8ea-125">Close the page.</span></span>
+1. <span data-ttu-id="e608a-107">Bağlılık kartına git.</span><span class="sxs-lookup"><span data-stu-id="e608a-107">Go to Loyalty cards.</span></span>
+2. <span data-ttu-id="e608a-108">Listede, istenen kaydı bulun ve seçin.</span><span class="sxs-lookup"><span data-stu-id="e608a-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="e608a-109">Listede, seçili satırdaki bağlantıya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e608a-109">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="e608a-110">Kart hareketlerine tıkla.</span><span class="sxs-lookup"><span data-stu-id="e608a-110">Click Card transactions.</span></span>
+    * <span data-ttu-id="e608a-111">Bu sayfada seçilen bağlılık programı kartının tüm bağlılık hareketleri görüntüleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e608a-111">On this page you can view all loyalty transactions for the selected loyalty card.</span></span>  
+5. <span data-ttu-id="e608a-112">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="e608a-112">Close the page.</span></span>
+6. <span data-ttu-id="e608a-113">Kart düzeltmelerine tıkla.</span><span class="sxs-lookup"><span data-stu-id="e608a-113">Click Card adjustments.</span></span>
+7. <span data-ttu-id="e608a-114">Yeni'ye tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e608a-114">Click New.</span></span>
+8. <span data-ttu-id="e608a-115">Ödül puanı alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="e608a-115">In the Reward point field, enter or select a value.</span></span>
+9. <span data-ttu-id="e608a-116">Tutar veya miktar alanına bir sayı girin.</span><span class="sxs-lookup"><span data-stu-id="e608a-116">In the Amount or quantity field, enter a number.</span></span>
+    * <span data-ttu-id="e608a-117">Pozitif veya negatif tutarlar kullanılarak bağlılık kartından puanlar ekleyebilir veya azaltabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="e608a-117">You can add or remove points from the loyalty card by using positive or negative amounts.</span></span>  
+10. <span data-ttu-id="e608a-118">Bağlılık programı alanına bir değer girin veya buradan bir değer seçin.</span><span class="sxs-lookup"><span data-stu-id="e608a-118">In the Loyalty program field, enter or select a value.</span></span>
+11. <span data-ttu-id="e608a-119">Açıklama alanında bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="e608a-119">In the Comment field, type a value.</span></span>
+12. <span data-ttu-id="e608a-120">Düzeltmeyi gönder'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="e608a-120">Click Post adjustment.</span></span>
+13. <span data-ttu-id="e608a-121">Evet'i tıklatın.</span><span class="sxs-lookup"><span data-stu-id="e608a-121">Click Yes.</span></span>
+14. <span data-ttu-id="e608a-122">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="e608a-122">Close the page.</span></span>
+    * <span data-ttu-id="e608a-123">Normalde bu noktada ödül puanları özet sekmesinde ödül puanları ayarlaması sonucunu görmek için sayfayı yenilemeniz gerekir. Ancak bunu görev kılavuzu olarak çalıştırıyorsanız, şimdi yenilemeyin çünkü bunu yaparsanız, görev duracaktır.</span><span class="sxs-lookup"><span data-stu-id="e608a-123">Normally at this point you'd refresh the page to see the result of the reward points adjustment in the Reward point summary tab. But if you are running this as a task guide, don't refresh now because if you do, the task guide will stop.</span></span>  
+15. <span data-ttu-id="e608a-124">Kart hareketlerine tıkla.</span><span class="sxs-lookup"><span data-stu-id="e608a-124">Click Card transactions.</span></span>
+16. <span data-ttu-id="e608a-125">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="e608a-125">Close the page.</span></span>
 
 

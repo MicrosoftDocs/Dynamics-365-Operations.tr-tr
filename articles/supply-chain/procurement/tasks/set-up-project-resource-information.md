@@ -3,24 +3,25 @@ title: Proje kaynak bilgilerini ayarlama
 description: "Bu yordam, bir proje kaynağı ayarlamayı gösterir."
 author: mkirknel
 manager: AnnBe
-ms.date: 02/09/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ResResourcesListPage, ResAddResourceForm, ProjCostPriceHour, ProjSalesPriceHour
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 232c68c6e0b099d45cfd22e8aab17c9042f1665b
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 98a683e8dcb101393a91f66281578c2e0a2bc3e4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-project-resource-information"></a><span data-ttu-id="c06b9-103">Proje kaynak bilgilerini ayarlama</span><span class="sxs-lookup"><span data-stu-id="c06b9-103">Set up project resource information</span></span>

@@ -3,24 +3,25 @@ title: "Maliyet nesnesine göre stok ekstresi ve KPI görüntüleme"
 description: "Bu yöntemi oluşturmak için kullanılan demo veri şirketi USMF'dir."
 author: AndersGirke
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, EcoResProductDetailsExtended, InventCostOnhandItem, CostStatement, CostInventoryFlowChart, CostInventoryTurnCard, CostInventoryAccuracyCard
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: c1a0d1faccfede160f46ccf1be792e12539df532
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: dee7cfd4a24673e9ca1067d2aa54eee5188a3f44
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="view-inventory-statement-and-kpi-by-cost-object"></a><span data-ttu-id="e3596-103">Maliyet nesnesine göre stok ekstresi ve KPI görüntüleme</span><span class="sxs-lookup"><span data-stu-id="e3596-103">View inventory statement and KPI by cost object</span></span>

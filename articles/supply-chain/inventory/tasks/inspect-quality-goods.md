@@ -1,26 +1,27 @@
----
+--- 
 title: "Malların kalitesini denetleme"
 description: ",Bu yordam, bir kalite emrinin nasıl işleneceğini gösterir."
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventQualityOrderTable, InventQualityOrderLineResults, HcmWorkerLookUp
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: b38a3c938117e5cfbb92ce30434ff2a2c9f6d099
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: c2313ba26eac8abf6e603f0230f06103802536c4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="inspect-the-quality-of-goods"></a><span data-ttu-id="3abe0-103">Malların kalitesini denetleme</span><span class="sxs-lookup"><span data-stu-id="3abe0-103">Inspect the quality of goods</span></span>
@@ -55,4 +56,5 @@ ms.lasthandoff: 08/07/2018
 4. <span data-ttu-id="3abe0-130">Seç'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3abe0-130">Click Select.</span></span>
 5. <span data-ttu-id="3abe0-131">Tamam'a tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3abe0-131">Click OK.</span></span>
 6. <span data-ttu-id="3abe0-132">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="3abe0-132">Close the page.</span></span>
+
 

@@ -1,26 +1,27 @@
----
+--- 
 title: "Yeni ambar düzeni oluşturma"
 description: "Bu yordam, ambardaki konumlarla ilgili bilgilerin nasıl ayarlanacağını gösterir."
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 11ad27e68e8eb499b2cf8e477d3dbf51d930b736
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 7db15eb5d80291641f0d0398d236b5e883cafcaf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-new-warehouse-layout"></a><span data-ttu-id="ad391-103">Yeni ambar düzeni oluşturma</span><span class="sxs-lookup"><span data-stu-id="ad391-103">Create a new warehouse layout</span></span>
@@ -49,7 +50,7 @@ ms.lasthandoff: 08/07/2018
 7. <span data-ttu-id="ad391-122">Konum adları bölümünün genişletilmiş görünümüne geçin.</span><span class="sxs-lookup"><span data-stu-id="ad391-122">Toggle the expansion of the Location names section.</span></span>
     * <span data-ttu-id="ad391-123">Bu bölümdeki seçenekler, konum adları için varsayılan biçimi belirler.</span><span class="sxs-lookup"><span data-stu-id="ad391-123">The options in this section define the default format for location names.</span></span> <span data-ttu-id="ad391-124">Örneğimizde, koridor numarasını, dolap numarasını ve raf numarasını ekleyeceğiz.</span><span class="sxs-lookup"><span data-stu-id="ad391-124">In our example, we'll include the aisle number, rack number and shelf number.</span></span>  
 8. <span data-ttu-id="ad391-125">Koridoru dahil et seçeneğini Evet olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="ad391-125">Set the Include aisle option to Yes.</span></span>
-9. <span data-ttu-id="ad391-126">Dolabı dahil et seçeneğini Evet olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="ad391-126">Set the Include rack option to Yes.</span></span>
+9. <span data-ttu-id="ad391-126">Dolabı dahil et seçeneğini Evet olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="ad391-126">Set the Include rack option to Yes.</span></span> 
 10. <span data-ttu-id="ad391-127">Biçin alanına, dolap için bir değer girin.</span><span class="sxs-lookup"><span data-stu-id="ad391-127">In the Format field, for the rack, type a value.</span></span>
     * <span data-ttu-id="ad391-128">Örneğin: -##</span><span class="sxs-lookup"><span data-stu-id="ad391-128">For example: -##</span></span>  
 11. <span data-ttu-id="ad391-129">Raf dahil et seçeneğini Evet olarak ayarlayın.</span><span class="sxs-lookup"><span data-stu-id="ad391-129">Set the Include shelf option to Yes.</span></span>
@@ -74,4 +75,5 @@ ms.lasthandoff: 08/07/2018
 14. <span data-ttu-id="ad391-147">Son düğmesini tıklatın.</span><span class="sxs-lookup"><span data-stu-id="ad391-147">Click Finish.</span></span>
 15. <span data-ttu-id="ad391-148">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="ad391-148">Close the page.</span></span>
 16. <span data-ttu-id="ad391-149">Sayfayı yenileyin.</span><span class="sxs-lookup"><span data-stu-id="ad391-149">Refresh the page.</span></span>
+
 

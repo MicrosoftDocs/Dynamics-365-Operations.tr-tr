@@ -1,25 +1,26 @@
 --- 
 title: "Şirket içi stok transferi için bir transfer belgesi oluşturma"
 description: "Bu yordam, bir şirket içinde malların taşınması için transfer belgeleri oluşturmayı gösterir."
-author: EvgenyPopovMBS
+author: ShylaThompson
 manager: AnnBe
-ms.date: 10/27/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventTransferOrders, InventLocationIdLookup, TransportationDocument, HcmWorkerLookUp, SrsReportViewerForm, InventTransferParmShip
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 699f7562f3b3a91f6544f85b892a55d371f4137f
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 1dc48b3d8761f72bbdf2c611c9280960f7ee119b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="generate-a-transfer-document-for-an-internal-inventory-transfer"></a><span data-ttu-id="85932-103">Şirket içi stok transferi için bir transfer belgesi oluşturma</span><span class="sxs-lookup"><span data-stu-id="85932-103">Generate a transfer document for an internal inventory transfer</span></span>

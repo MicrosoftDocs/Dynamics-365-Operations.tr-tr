@@ -3,23 +3,24 @@ title: "Tekrar eden satınalma siparişi oluşturma"
 description: "Bu prosedür önceki satınalma siparişi belgesinden yeni bir PO veya mevcut PO'ya satırları kopyalayarak tekrar eden bir satınalma siparişinin (PO) nasıl oluşturulacağını gösterir."
 author: FrankDahl
 manager: AnnBe
-ms.date: 08/23/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchTable, PurchCreateOrder, PurchCopying
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 22715b87e0dc774571c75befb46f0474cd4d89a5
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: bf5f6f4fd6f4d418edbf4f23cb4092495b801ab9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-repeat-purchase-order"></a><span data-ttu-id="fada0-103">Tekrar eden satınalma siparişi oluşturma</span><span class="sxs-lookup"><span data-stu-id="fada0-103">Create a repeat purchase order</span></span>

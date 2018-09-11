@@ -3,23 +3,24 @@ title: "Sabit kıymeti transfer etme"
 description: "Bu görev kılavuzu, bir mali boyut kümesinden alınan sabit kıymet defterine ait mali bilgileri yeni bir mali boyut kümesine transfer eder."
 author: saraschi2
 manager: AnnBe
-ms.date: 02/23/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetTable, AssetTransfer, DimensionLookup, AssetTransferConfirmation
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: ea0e54dad6d8a48d628fc831b3fdbe7c0f68e892
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 3eb00df127ed87cadde2b0fc7001d80a7fcc6e43
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="transfer-a-fixed-asset"></a><span data-ttu-id="d827a-103">Sabit kıymeti transfer etme</span><span class="sxs-lookup"><span data-stu-id="d827a-103">Transfer a fixed asset</span></span>

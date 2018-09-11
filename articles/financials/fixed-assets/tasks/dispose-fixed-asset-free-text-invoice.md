@@ -3,23 +3,24 @@ title: "Serbest metin faturası kullanarak sabit kıymeti elden çıkarma"
 description: "Bu yordam, Sabit kıymetler günlüğündeki alım teklifi kullanılarak bir sabit kıymetin nasıl alındığını gösterir."
 author: saraschi2
 manager: AnnBe
-ms.date: 10/11/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 715b7057b48b14145f49d5f83e7d0008ce9146ca
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: bf449be5f9b79c1e6bf7d9a5dd6d7cdede20eea9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a><span data-ttu-id="ba441-103">Serbest metin faturası kullanarak sabit kıymeti elden çıkarma</span><span class="sxs-lookup"><span data-stu-id="ba441-103">Dispose of a fixed asset using a free text invoice</span></span>

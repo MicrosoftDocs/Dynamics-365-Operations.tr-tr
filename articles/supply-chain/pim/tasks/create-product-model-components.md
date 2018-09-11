@@ -3,23 +3,24 @@ title: "Ürün model bileşenleri oluşturma"
 description: "Kısıtlama tabanlı ürün yapılandırması modelleri, ürün modeli yapısı oluşturmak için temel olarak bileşenleri kullanır."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCComponentList
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 33b9131c4608b1d6cc709e822310a5eb81a3e3a9
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: e3caac880ad892eccccde5a42680631a522a7d5b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-product-model-components"></a><span data-ttu-id="f0b5b-103">Ürün model bileşenleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="f0b5b-103">Create product model components</span></span>

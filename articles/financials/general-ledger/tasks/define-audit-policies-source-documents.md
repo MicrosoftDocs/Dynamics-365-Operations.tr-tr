@@ -3,23 +3,24 @@ title: "Kaynak belgeler için denetim ilkeleri tanımlama"
 description: "Bu prosedür, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını gösterir."
 author: ryansandness
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SysPolicySourceDocumentRuleType, SysFieldLookUp, SysPolicyListPage, SysPolicy, AuditPolicyRule, SysQueryForm, SysQueryFieldLookUp, AuditPolicyDateSelection, AuditPolicyAdditionalOption, BatchJob, CaseDetail
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 1bcea6257447cc1d1532f30acc2fb6bb4d524810
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 10a3823e6d444b20c756890389400b58c080a01f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="define-audit-policies-for-source-documents"></a><span data-ttu-id="dd2fa-103">Kaynak belgeler için denetim ilkeleri tanımlama</span><span class="sxs-lookup"><span data-stu-id="dd2fa-103">Define audit policies for source documents</span></span>

@@ -1,25 +1,26 @@
 --- 
 title: "Satış vergisi raporlama kodlarını ayarla"
 description: "Satış vergisi raporlama kodları, satış vergisi raporundaki bir alan numarasına karşılık gelir."
-author: ShylaThompson
+author: twheeloc
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: TaxReportCollection
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 8937e6df85a506e47f28f7b2bcfaec1650260581
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 4c3a0c6b03dc5b5c1c7c038f9cbfaa673503bd91
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a><span data-ttu-id="f44d7-103">Satış vergisi raporlama kodlarını ayarla</span><span class="sxs-lookup"><span data-stu-id="f44d7-103">Set up sales tax reporting codes</span></span>

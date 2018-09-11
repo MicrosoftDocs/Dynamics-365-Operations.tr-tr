@@ -3,23 +3,24 @@ title: "Teslimat planı olan satınalma siparişi oluşturma"
 description: "Bu prosedür, satınalma siparişi için teslimat oluşturmayı göstermektedir."
 author: FrankDahl
 manager: AnnBe
-ms.date: 08/23/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchDeliverySchedule, PurchEditLines
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 2504024d05156067af6cf04b777c30d96cf5d01c
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: ae57d8e64b4888e6ff4678437d0b3da8eb05867d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a><span data-ttu-id="9ef38-103">Teslimat planı olan satınalma siparişi oluşturma</span><span class="sxs-lookup"><span data-stu-id="9ef38-103">Create a purchase order with a delivery schedule</span></span>

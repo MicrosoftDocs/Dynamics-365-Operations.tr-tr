@@ -3,23 +3,24 @@ title: "Master planlama çalışmasını izleme"
 description: "Üretim planlayıcısı, bir master planlama çalışmasının devam edip etmediğini görmek istiyor."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/10/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, InventItemIdLookupSimple, ReqLog, ReqProcessTaskTrace
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 94a78d79d86cd480528e96bde70b84f870e0e59c
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: b85366534e12bbeb0dc4d41c898ffe0317d77cc0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="monitor-a-master-planning-run"></a><span data-ttu-id="2d1ee-103">Master planlama çalışmasını izleme</span><span class="sxs-lookup"><span data-stu-id="2d1ee-103">Monitor a master planning run</span></span>

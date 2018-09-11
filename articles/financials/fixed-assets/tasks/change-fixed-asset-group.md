@@ -3,23 +3,24 @@ title: "Sabit kıymet grubunu değiştirme"
 description: "Sabit kıymetlerin doğru sabit kıymetler grubuna atanması gerekir."
 author: saraschi2
 manager: AnnBe
-ms.date: 11/15/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetTable, AssetChangeGroup
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 194129f15fe16f1d6582b9c5c3a9c8ee9f8bdd75
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 15e725d409addd46973c2b6a4615c1a50ab75f4d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="change-a-fixed-asset-group"></a><span data-ttu-id="4340d-103">Sabit kıymet grubunu değiştirme</span><span class="sxs-lookup"><span data-stu-id="4340d-103">Change a fixed asset group</span></span>

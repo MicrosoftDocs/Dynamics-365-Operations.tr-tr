@@ -1,26 +1,27 @@
----
+--- 
 title: "Üretim emri oluşturma"
 description: "Bu prosedür, bir üretim emrinin nasıl oluşturulacağını gösterir."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ProdTableListPage, ProdTableCreate, ProdTable, ProdBOM, ProdRoute
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 929864a22db2e9fbfcdbeb8f963bac2293612cfb
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: fa2327f7162ac32daaf96b00a335eda34871ec46
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-production-order"></a><span data-ttu-id="3b715-103">Üretim emri oluşturma</span><span class="sxs-lookup"><span data-stu-id="3b715-103">Create a production order</span></span>
@@ -69,4 +70,5 @@ ms.lasthandoff: 08/07/2018
     * <span data-ttu-id="3b715-146">İşlem süresini değiştirmek tahmini rota tüketimini ve üretim emri maliyetini etkiler.</span><span class="sxs-lookup"><span data-stu-id="3b715-146">Changing the process time affects the estimated route consumption and the cost of the production order.</span></span>  
 6. <span data-ttu-id="3b715-147">Kaydet'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="3b715-147">Click Save.</span></span>
 7. <span data-ttu-id="3b715-148">Sayfayı kapatın.</span><span class="sxs-lookup"><span data-stu-id="3b715-148">Close the page.</span></span>
+
 

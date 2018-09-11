@@ -3,23 +3,24 @@ title: "Tahakkuk planları oluşturma"
 description: "Bu görev kılavuzu, hesap tahakkuk düzeni oluşturmayı adım adım açıklar."
 author: aprilolson
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerAccrualTable
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 10f585577c094bfedcd0f0835ed08e1f73c6e476
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: b08f441d0dadf8ac33197188ba8aaf85db730e8f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-accrual-schemes"></a><span data-ttu-id="12b53-103">Tahakkuk planları oluşturma</span><span class="sxs-lookup"><span data-stu-id="12b53-103">Create accrual schemes</span></span>

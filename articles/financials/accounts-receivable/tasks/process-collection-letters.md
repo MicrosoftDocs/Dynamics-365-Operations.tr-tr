@@ -3,23 +3,24 @@ title: "Tahsilat mektuplarını işleme"
 description: "Bu yordam, tahsilat mektuplarının nasıl oluşturulacağını, yazdırılacağını ve deftere nakledileceğini gösterir."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/23/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustPosting, SysQueryForm, CustCollectionLetterNote
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 6ef5916f16cec8e536523192f2d0d234f75de277
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: fe76f2934360580c4015ea13225b9228cc2780b9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="process-collection-letters"></a><span data-ttu-id="77fd0-103">Tahsilat mektuplarını işleme</span><span class="sxs-lookup"><span data-stu-id="77fd0-103">Process collection letters</span></span>

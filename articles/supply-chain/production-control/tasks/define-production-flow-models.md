@@ -3,24 +3,25 @@ title: "Üretim akışı modellerini tanımlama"
 description: "Üretim akışı modelleri, yalın imalat iş hücrelerinin kapasitesinin nasıl hesaplanacağını ve sürdürüleceğini tanımlar."
 author: cvocph
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LeanProductionFlowModel
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 6c6a9bd867a0cf6f90dabfb195d6c2f715c09356
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 54a027533d5889563bd375646e6dac3301546724
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="define-production-flow-models"></a><span data-ttu-id="75a08-103">Üretim akışı modellerini tanımlama</span><span class="sxs-lookup"><span data-stu-id="75a08-103">Define production flow models</span></span>

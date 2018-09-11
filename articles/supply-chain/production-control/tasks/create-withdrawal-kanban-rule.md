@@ -3,24 +3,25 @@ title: "Çekme kanbanı kuralı oluşturma"
 description: "Bu prosedürde, yalın bir ortamda malzeme aktarılması için bir çekme kanban kuralının oluşturulmasında gerekli kurulum açıklanmıştır."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 06/20/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, UnitOfMeasureLookup, KanbanCreate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 5c1dbd8e19e2910ad2d1a7ea94ea8ab8ac1cf220
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: b0c1f0f4ea3035ffb7c5a12c83c12a132cc65fd5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-withdrawal-kanban-rule"></a><span data-ttu-id="dc633-103">Çekme kanbanı kuralı oluşturma</span><span class="sxs-lookup"><span data-stu-id="dc633-103">Create a withdrawal kanban rule</span></span>

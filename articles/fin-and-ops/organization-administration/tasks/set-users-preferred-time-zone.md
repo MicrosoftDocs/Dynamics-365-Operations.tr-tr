@@ -3,23 +3,24 @@ title: "Bir kullanıcının tercih edilen zaman dilimini ayarlama"
 description: "Aşağıdaki yordamda Sistem Yöneticisi rolüne sahip olan kullanıcının, bir kullanıcı için saat dilimini nasıl ayarlayacağı açıklanır."
 author: pvillads
 manager: AnnBe
-ms.date: 02/22/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SysUserManagement, SysUserSetup
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9b1354a96cad9104375fe9ae7364da80015f943e
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 3d5fd3ca3c1039c67bc65865a307506ce3427f84
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-a-users-preferred-time-zone"></a><span data-ttu-id="44247-103">Bir kullanıcının tercih edilen zaman dilimini ayarlama</span><span class="sxs-lookup"><span data-stu-id="44247-103">Set a user's preferred time zone</span></span>

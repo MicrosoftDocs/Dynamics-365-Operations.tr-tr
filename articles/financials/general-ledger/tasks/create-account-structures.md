@@ -3,23 +3,24 @@ title: "Hesap yapıları oluşturma"
 description: "Bu görev kılavuzu, hesap yapısı oluşturmayı adım adım açıklar."
 author: aprilolson
 manager: AnnBe
-ms.date: 11/08/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DimensionConfigureAccountStructure, DimensionCreateAccountStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 101482c32ad95f24059ae43a806777267f8dbf6b
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 5c8ebdd9ac0fb834e57cd192baa0675a3e66caa3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-account-structures"></a><span data-ttu-id="552f4-103">Hesap yapıları oluşturma</span><span class="sxs-lookup"><span data-stu-id="552f4-103">Create account structures</span></span>

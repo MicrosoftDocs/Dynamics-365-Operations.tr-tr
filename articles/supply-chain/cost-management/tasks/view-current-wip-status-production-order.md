@@ -3,24 +3,25 @@ title: "Üretim emrindeki geçerli süren iş durumunu görüntüleme"
 description: "Bu yordam, bir üretim emrinde Süren İş bildirimini nasıl görüntüleyeceğinizi gösterir."
 author: AndersGirke
 manager: AnnBe
-ms.date: 02/12/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, ProdTable, CostStatement
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 4411c5ace24035174d44fbdff5053dd30e4ff77c
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 87c8a030c89f81e41ab6d39f112ad47576af4143
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="view-current-wip-status-on-a-production-order"></a><span data-ttu-id="f9251-103">Üretim emrindeki geçerli süren iş durumunu görüntüleme</span><span class="sxs-lookup"><span data-stu-id="f9251-103">View current WIP status on a production order</span></span>

@@ -3,24 +3,25 @@ title: "Kanban iş durumu geri al"
 description: "Bu yordam, yanlış bir kanban iş durumunun geri alınması üzerinde odaklanır."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: KanbanBoardWorkCell, KanbanJobStatusUpdate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: a99da84d8c2343e10c656d13aa9eb0bf9b7ec41d
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: da37e9fdfdadeb727bbd123896cc5adfca9f2a59
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="revert-kanban-job-status"></a><span data-ttu-id="a8bde-103">Kanban iş durumu geri al</span><span class="sxs-lookup"><span data-stu-id="a8bde-103">Revert kanban job status</span></span>

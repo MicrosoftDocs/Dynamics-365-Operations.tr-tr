@@ -3,23 +3,24 @@ title: "Yeni kullanıcılar oluşturma"
 description: "Kullanıcılar, işlerini yapmak için sistem erişimine sahip olmaları gereken, kendi kuruluşunuzun dahili personelleri veya harici müşteriler veya satıcılardır."
 author: maertenm
 manager: AnnBe
-ms.date: 11/15/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SysUserManagement, SysDataAreaSelectLookup, SysSecUserAddRoles, SysUserMSODSUserImport
 audience: Application User
-ms.reviewer: sericks
-ms.search.scope: Operations
+ms.reviewer: margoc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 521ad80d12391d697e3234b0856cb2cb02f58e94
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 295c355286b3d2df39cf1144ba7bfecdca25f9cb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-new-users"></a><span data-ttu-id="2ee89-103">Yeni kullanıcılar oluşturma</span><span class="sxs-lookup"><span data-stu-id="2ee89-103">Create new users</span></span>

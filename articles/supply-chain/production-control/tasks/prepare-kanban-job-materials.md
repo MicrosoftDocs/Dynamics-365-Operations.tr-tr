@@ -1,26 +1,27 @@
----
+--- 
 title: "Malzemeler iş hücresi için kullanılabilir olduğunda bir süreç kanban işi hazırlama"
 description: "Bu görev, tüm malzemeler iş hücresi için kullanılabilir olduğunda bir kanban işi hazırlamaya odaklanır."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: KanbanBoardWorkCell
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: b774179d3c29a6009c37dea491e07f629740027e
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 34665fe0fe7e1f7989433b31aafcc4fe203141c2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a><span data-ttu-id="16c78-103">Malzemeler iş hücresi için kullanılabilir olduğunda bir süreç kanban işi hazırlama</span><span class="sxs-lookup"><span data-stu-id="16c78-103">Prepare a process kanban job when materials are available for the work cell</span></span>
@@ -40,4 +41,5 @@ ms.lasthandoff: 08/07/2018
     * <span data-ttu-id="16c78-115">Eğer birden fazla işi seçtiyseniz, malzeme çekme listesi, seçili projeler için gerekli tüm maddelerin toplamını gösterir.</span><span class="sxs-lookup"><span data-stu-id="16c78-115">If multiple jobs are selected, the picking list will show the sum of all items needed for the selected jobs.</span></span>  
 6. <span data-ttu-id="16c78-116">Hazırla'ya tıklayın.</span><span class="sxs-lookup"><span data-stu-id="16c78-116">Click Prepare.</span></span>
     * <span data-ttu-id="16c78-117">Hazırlama işlemi şimdi tamamlandı.</span><span class="sxs-lookup"><span data-stu-id="16c78-117">The preparation process is now completed.</span></span> <span data-ttu-id="16c78-118">Seçili malzeme çekme listesindeki tüm satırlar için seçili onay kutusu, tedarik durumunun çekilmiş olduğunu gösterir.</span><span class="sxs-lookup"><span data-stu-id="16c78-118">The selected check box for all rows in the picking list indicates that the supply status is picked.</span></span>  
+
 

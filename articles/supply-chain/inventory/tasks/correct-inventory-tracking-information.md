@@ -1,26 +1,27 @@
----
+--- 
 title: "Stok izleme bilgilerini düzeltme"
 description: "Bu yordam, stok izleme bilgilerini düzeltmek için bir stok transfer günlüğü oluşturma ve deftere nakletme işlemini adım adım açıklar."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalTransfer, InventJournalCreate, InventItemIdLookupSimple, InventBatchIdLookup, InventLocationIdLookup, InventDimTracking, InventTrans
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 8647ae47000d2f035c84cb3f9447e090a8be0360
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: c78743239b5d98f4c5d1b1ed00617b11196983f5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="correct-inventory-tracking-information"></a><span data-ttu-id="7d793-103">Stok izleme bilgilerini düzeltme</span><span class="sxs-lookup"><span data-stu-id="7d793-103">Correct inventory tracking information</span></span>
@@ -62,4 +63,5 @@ ms.lasthandoff: 08/07/2018
 1. <span data-ttu-id="7d793-136">Stok'u tıklatın.</span><span class="sxs-lookup"><span data-stu-id="7d793-136">Click Inventory.</span></span>
 2. <span data-ttu-id="7d793-137">Hareketler'e tıklayın.</span><span class="sxs-lookup"><span data-stu-id="7d793-137">Click Transactions.</span></span>
     * <span data-ttu-id="7d793-138">Burada, günlüğünüzü deftere naklettiğinizde oluşturulan hareketleri görebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="7d793-138">Here you can see the transactions that were created when you posted your journal.</span></span>   
+
 
