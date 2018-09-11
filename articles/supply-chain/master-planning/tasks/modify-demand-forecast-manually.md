@@ -3,23 +3,24 @@ title: "Talep tahminini el ile değiştirme"
 description: "Bu yordamda, bir madde için tahminin nasıl değiştirileceği gösterilmiştir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/15/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: EcoResProductDetailsExtended, ForecastSales
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 799dd89433ff561fd8a5cc5c082165ef9bb74923
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 2e269ef7b33b4d7e171d284d68d28c825c2fe86c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Talep tahminini el ile değiştirme
@@ -44,6 +45,6 @@ Bu yordamda, bir madde için tahminin nasıl değiştirileceği gösterilmiştir
 ## <a name="modify-the-forecast-in-excel"></a>Tahmini Excel'de değiştirin
 1. Microsoft Office'te aç seçeneğine tıklayın.
 2. Tahmin talebini Excel'de düzenle'yi tıklatın.
-    * Excel'de talep tahmin satırlarını ekleyebilir, silebilir ve düzenleyebilirsiniz. Excel'deki verileri göremiyorsanız, Microsoft Dynamics 365 for Finance and Operations'a "oturumu koru" seçeneği etkin olarak oturum açmanız ve veri bağlantısı uygulamasına güvenmeniz gerekir.  
+    * Excel'de talep tahmin satırlarını ekleyebilir, silebilir ve düzenleyebilirsiniz. Excel'deki verileri göremiyorsanız, Microsoft Dynamics 365 for Finance and Operations, Enterprise edition'a "oturumu koru" seçeneği etkin olarak oturum açmanız ve veri bağlantısı uygulamasına güvenmeniz gerekir.  
 
 

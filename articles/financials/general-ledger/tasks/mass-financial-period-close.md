@@ -3,23 +3,24 @@ title: "Toplu mali dönem kapatma"
 description: "Bu yordamda, bir dönemin nasıl beklemeye alındığı veya bir kerede bir dönemin ya da birden fazla tüzel kişiliğin nasıl kalıcı olarak kapatıldığı gösterilir."
 author: aprilolson
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerCalendar, LedgerPeriodModuleAccessControlUpdate, SysLookupPicklist, LedgerFiscalCalendarPeriodStatus
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
-ms.openlocfilehash: 1954bfdf4807e91d275e3a1ba80f959bdf9464a8
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 8d7151cbcd02f9312ca6b0de5e27231a0b0dc9d6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="mass-financial-period-close"></a>Toplu mali dönem kapatma
@@ -41,7 +42,7 @@ Bu yordamda, bir dönemin nasıl beklemeye alındığı veya bir kerede bir dön
     * Tümü, dönem açıksa, deftere nakil yapabilecek modülü düzenleme erişimi olan tüm kullanıcıları gösterir. Dönem açıksa, hiçbiri modülde deftere nakil yapamayacak tüm kullanıcıları göstermez. Belirli bir kullanıcı grubu, dönem açıksa, yalnızca gruptaki modülde deftere nakil yapabilecek kullanıcıları gösterir.  
 8. Güncelleştir'i tıklatın.
 9. Durumu güncelleştirmek için başka bir dönem seçin.
-10. Dönem durumunu güncelleştirmek istediğiniz tüzel kişilikleri seçin.
+10. Durumunu güncelleştirmek istediğiniz tüzel kişilikleri seçin.
 11. Dönem durumunu güncelleştir'i seçin ve durumu Beklemede, Açık veya Kalıcı olarak kapatıldı şeklinde ayarlayın.
     * Açık, dönem içinde erişimi olan kullanıcılar tarafından deftere nakil yapılabileceğini gösterir. Beklemede dönemin nakledilemeyeceği ancak yeniden açılabileceği anlamına gelir. Kalıcı olarak kapatıldı, dönemin tamamen kapatıldığı ve bir daha açılamayacağı anlamına gelir. Ayarlamalar nakledilemezler. Tüm ayarlamalar ve denetimler tamamlanana kadar bir dönemin Kalıcı olarak kapatıldı şeklinde ayarlanması önerilmez.  
 12. Güncelleştir'i tıklatın.

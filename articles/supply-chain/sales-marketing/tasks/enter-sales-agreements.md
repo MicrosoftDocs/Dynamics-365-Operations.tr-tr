@@ -3,31 +3,34 @@ title: "Satış sözleşmelerini girme"
 description: "Bu yöntem, müşterilerinizden birini üzerinde anlaşılan belirli bir zaman zarfı içinde ürün satın alması karşılığında özel indirimlere hak kazanmasını sağlayacak bir satış anlaşmasını nasıl yaratacağınızı gösterir."
 author: omulvad
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SalesAgreementListPage, SalesAgreementCreate, SalesAgreement, InventItemIdLookupSimple, AgreementConfirmRunForm, SrsReportViewerForm
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
-ms.openlocfilehash: a0d49068d2c6a62bf7912c2fd7cccd53308bd196
+ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
+ms.openlocfilehash: 8c11164f7edb8e05b93f3c58b9707c0bf2482228
 ms.contentlocale: tr-tr
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="enter-sales-agreements"></a>Satış sözleşmelerini girme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Bu yöntem, müşterilerinizden birini üzerinde anlaşılan belirli bir zaman zarfı içinde ürün satın alması karşılığında özel indirimlere hak kazanmasını sağlayacak bir satış anlaşmasını nasıl yaratacağınızı gösterir. Bu prosedürü demo veri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.
+Bu yordam, müşterilerinizden birini onaylanan bir süre için, özel indirimler karşılığında bir ürünü satın almaya
+
+özel bir tutar ile anlaşmasını gösterir. Bu prosedürü demo veri şirketi USMF'de veya kendi verilerinizde kullanabilirsiniz.
 
 
 ## <a name="set-up-sales-agreement-header"></a>Satış sözleşmesi üstbilgisi ayarla

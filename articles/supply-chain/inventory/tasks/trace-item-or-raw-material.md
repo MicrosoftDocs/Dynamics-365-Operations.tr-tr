@@ -1,21 +1,22 @@
----
+--- 
 title: Maddeyi veya hammaddeyi izleme
 description: "Bu yordam, ürünlerin veya hammaddelerin kullanılmış veya kullanılmakta olduğunu belirlemek amacıyla ürün izleme işlevinin nasıl kullanılacağını gösterir."
 author: pjacobse
 manager: AnnBe
-ms.date: 06/21/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria, InventTrackingItemIdLookup, InventBatchIdLookup, CustTable, SalesLine
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: d7eb282ddf9597385d6660a3fc0ef73f403ab898
@@ -54,4 +55,5 @@ Bu yordam, ürünlerin veya hammaddelerin kullanılmış veya kullanılmakta old
 8. Eylem Bölmesinde İzleme öğesini tıklatın.
 9. Sevk edilmiş satış siparişleri'ni tıklatın.
 10. Sayfayı kapatın.
+
 

@@ -1,28 +1,29 @@
 --- 
-title: "Sistemi iş akışıyla ilgili e-postayı kullanıcılara gönderecek şekilde yapılandırma"
+title: "Kullanıcıların iş akışı ile ilgili e-posta iletileri almasını etkinleştirme"
 description: "İş akışı ile ilgili olaylar gerçekleştiğinde, sistem kullanıcılara e-posta iletileri gönderecek şekilde yapılandırabilirsiniz."
 author: jasongre
 manager: AnnBe
-ms.date: 02/21/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SysUserManagement, SysUserSetup
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 04d90c9ded1ba7fb1ceac4ff1d54f54f6c43f9e9
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1ff7de584631563939104c87b00fdc26bdb1a3cb
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="configure-the-system-to-send-workflow-related-email-to-users"></a>Sistemi iş akışıyla ilgili e-postayı kullanıcılara gönderecek şekilde yapılandırma
+# <a name="enable-users-to-receive-workflow-related-email-messages"></a>Kullanıcıların iş akışı ile ilgili e-posta iletileri almasını etkinleştirme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

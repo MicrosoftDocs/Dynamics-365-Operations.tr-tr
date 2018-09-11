@@ -1,28 +1,29 @@
 --- 
-title: "Çalışanları sabit ücret planına kaydet"
+title: "Personeli sabit ücret planına kaydetme"
 description: "Tazminat ve kazançlar yöneticisi, personelin ödeme oranlarını yönetmek amacıyla, personeli sabit ücret planlarına atayabilir."
 author: kherr75
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HRMCompFixedEmpl, HRMCompFixedEmplActionDialog, HcmPositionLookup, HRMCompRefPointLookup
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: d84567f0d74b2ab0078eaeda622768e241332043
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b8701c42f2477055eae9dba69da30cce1a122f71
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="enroll-employees-in-a-fixed-compensation-plan"></a>Çalışanları sabit ücret planına kaydet
+# <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>Personeli sabit ücret planına kaydetme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
