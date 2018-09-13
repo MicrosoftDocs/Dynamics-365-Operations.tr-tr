@@ -3,7 +3,7 @@ title: "Bir çalışma birimi oluşturun"
 description: "Bir işletme birimi bir işletmenin ekonomik kaynaklarının ve yönetimsel işlemlerinin kontrolünü bölmek için kullanılan bir kuruluştur."
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: d501ee4bf66ff4b93becd4c1847d8e354890a7aa
+ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
+ms.openlocfilehash: 9c49000b09fdbac10dfa952718453bf82cbb1498
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/13/2018
 
 ---
 # <a name="create-an-operating-unit"></a><span data-ttu-id="f7cb8-103">Bir çalışma birimi oluşturun</span><span class="sxs-lookup"><span data-stu-id="f7cb8-103">Create an operating unit</span></span>
