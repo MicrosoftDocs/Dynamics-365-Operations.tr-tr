@@ -3,7 +3,7 @@ title: "Bir tüzel kişilik oluşturma"
 description: "Bir tüzel kişilik, yasal bir yetkiliye kayıt yoluyla tanımlanmış bir kuruluştur."
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

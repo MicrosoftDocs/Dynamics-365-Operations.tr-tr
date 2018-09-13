@@ -3,7 +3,7 @@ title: "Hedef oluşturma"
 description: "Hedefler oluşturabilir, hedeflere faaliyetler ekleyebilir, ölçümleri izleyebilir ve hedefleri bir gözden geçirmeye bağlayabilirsiniz."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "İş akışı geçmişini görüntüle"
 description: "İşlenmesi ve onaylanması için iş akışı sistemine gönderilen bir belgenin durumunu görüntülemek için bu adımları kullanın."
 author: jasongre
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
