@@ -44,11 +44,13 @@ Kredi kartlarını kullanmak için, Ödeme hizmetleri sayfasından bir ödeme hi
 
 ## <a name="adding-a-new-credit-card"></a>Yeni kredi kartı ekleme
 Müşteri, Ayar, Kredi kartı öğelerini kullanarak Müşteriler sayfasında yeni kredi kartı kayıtları oluşturabilirsiniz. Ayrıca, Satış siparişi sayfasında siparişleri girerken Yönet, Müşteri, Kredi kartı, Kaydet öğelerini kullanarak da kredi kartı kayıtları oluşturabilirsiniz.
-Bir satış siparişine kredi kartı ekleme
+
+<a name="adding-a-credit-card-to-a-sales-order"></a>Bir satış siparişine kredi kartı ekleme
 -------------------------------------
 
 Satış siparişi sayfasındaki Fiyat ve iskontolar hızlı sekmesindeki kredi kartı arama alanından bir kredi kartı seçerek satış siparişine kredi kartı ekleyebilirsiniz. Onay işlemini başlatmak için, Eylem Bölmesindeki Yönet sekmesinde Kredi kartı ve Onay öğelerini seçin.
-Kredi kartını onaylama
+
+<a name="authorizing-a-credit-card"></a>Kredi kartını onaylama
 -------------------------
 
 Bir kredi kartı onaylanırken, kart numarası ve kart sahibinin adı doğrulanır ve kullanılabilir kredi bakiyesi onaylanır. İsteğe bağlı olarak, kart doğrulama değeri ve kart sahibinin adresi de doğrulanabilir. Ardından, müşterinin kullanılabilir kredi bakiyesinden fatura tutarı düşülür. Ödeme hizmeti, kredi kartının onaylandığı ya da reddedildiği bilgisini gönderir. Satış siparişi faturalandırıldığında, kredi kartı fatura tutarı ile borçlandırılır (tutulan).
