@@ -3,7 +3,7 @@ title: "Oluşturmadan başlangıca toplu iş emri yaşam döngüsü"
 description: "Bu yordam, bir toplu iş emrinin yaşam döngüsünün ilk kısmını adım adım açıklar."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

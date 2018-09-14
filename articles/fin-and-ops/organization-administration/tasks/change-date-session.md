@@ -3,7 +3,7 @@ title: "Oturumun tarihini değiştirme"
 description: "Varsayılan olarak, günlük girişlerini veya kaynak belgelerini girerken ya da deftere naklederken geçerli tarih kullanılır."
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

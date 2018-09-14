@@ -3,7 +3,7 @@ title: " Perakende mağazasına yönelik bir ekstre oluşturma, hesaplama ve def
 description: "Bu yordam bir mağaza için el ile ekstre oluşturma, hesaplama ve deftere nakletme adımlarını açıklar."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

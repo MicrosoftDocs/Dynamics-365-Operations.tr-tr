@@ -3,7 +3,7 @@ title: "Veri girişini kolaylaştırmak için bir kayıt şablonu oluşturma"
 description: "Bu yordam, sıklıkla kullanılan alan değerlerinin her yeni kayıt için açık olarak girilmesi gerekmeden bir kayıt şablonunun nasıl oluşturulacağını gösterir."
 author: margoc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Malların kalitesini denetleme"
 description: ",Bu yordam, bir kalite emrinin nasıl işleneceğini gösterir."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

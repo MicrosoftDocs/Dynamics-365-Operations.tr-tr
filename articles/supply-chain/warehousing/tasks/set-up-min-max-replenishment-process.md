@@ -3,7 +3,7 @@ title: "Minimum-maksimum stok yenileme işlemini ayarlama"
 description: "Bu yordam, minimum/maksimum stok yenileme stratejisini kullanan yeni bir stok yenileme işlemini nasıl ayarlayacağınızı gösterir."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

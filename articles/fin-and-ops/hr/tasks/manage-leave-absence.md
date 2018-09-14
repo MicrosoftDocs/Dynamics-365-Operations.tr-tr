@@ -3,7 +3,7 @@ title: "Devamsızlıkları yönetme"
 description: "Bu yordam çalışan izin kayıtlarının oluşturulmasıyla ilgili bilgi içerir."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

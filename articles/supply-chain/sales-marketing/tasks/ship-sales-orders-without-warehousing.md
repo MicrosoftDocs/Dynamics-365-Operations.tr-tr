@@ -3,7 +3,7 @@ title: "Satış siparişlerini ambarlama olmadan sevk etme"
 description: "Bu kılavuz, ürünler müşteriye sevk edildiğinde bir satış siparişinin nasıl güncelleştireceğini açıklamaktadır."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

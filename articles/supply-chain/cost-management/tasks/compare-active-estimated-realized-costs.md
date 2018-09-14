@@ -3,7 +3,7 @@ title: "Üretim emrindeki etkin, tahmini ve gerçekleşen maliyetleri karşıla�
 description: "Bu yordam, bir üretim emri için yüksek üretim farkının nedenlerinin nasıl görüntüleneceğini açıklar."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

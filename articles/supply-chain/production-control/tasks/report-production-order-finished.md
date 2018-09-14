@@ -3,7 +3,7 @@ title: "Üretim emrinin bittiğini rapor etme"
 description: "Bu yordam, bir üretim emrinin nasıl tamamlanmış olarak bildirileceğini gösterir."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

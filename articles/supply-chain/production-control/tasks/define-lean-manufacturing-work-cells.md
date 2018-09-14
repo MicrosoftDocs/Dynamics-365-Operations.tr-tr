@@ -3,7 +3,7 @@ title: "Yalın imalat iş hücrelerini tanımlama"
 description: "İş hücresi, yalın üretim işlem faaliyetlerinde kullanılabilen kaynak gruplarının belirli bir biçimidir."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

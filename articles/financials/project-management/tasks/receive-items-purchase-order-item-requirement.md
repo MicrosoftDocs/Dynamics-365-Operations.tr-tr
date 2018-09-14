@@ -3,7 +3,7 @@ title: "Satınalma siparişinde madde gereksiniminden maddeleri alma"
 description: "Bu yordam, bir satınalma siparişindeki maddeleri bir madde gereksiniminden almayı gösterir."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

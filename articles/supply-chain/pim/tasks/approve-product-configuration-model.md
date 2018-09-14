@@ -3,7 +3,7 @@ title: "Ürün yapılandırma modelini onaylama"
 description: "Bu yordamın çalıştırılması için kullanılabilir en az bir ürün yapılandırma modeli olması gerekir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Müşterinin ileri tarih atılmış çekini kapatma"
 description: "Çek, banka tarafından tahsil edildikten sonra vadeli çek kapatılabilir."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

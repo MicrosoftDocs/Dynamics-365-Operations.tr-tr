@@ -3,7 +3,7 @@ title: "Stok sayımı işlemlerini tanımlama"
 description: "Bu prosedürde, size, bir sayım grubu ve bir sayım günlüğü oluşturarak, temel stok sayım işlemlerini yapılandırma gösterilecek."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

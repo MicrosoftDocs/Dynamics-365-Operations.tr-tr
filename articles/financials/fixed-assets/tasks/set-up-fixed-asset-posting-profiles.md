@@ -3,7 +3,7 @@ title: "Sabit kıymet deftere nakil profilleri ayarlama"
 description: "Bu görev kılavuzunda Sabit kıymet deftere nakil profilleri ayarlanacak."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

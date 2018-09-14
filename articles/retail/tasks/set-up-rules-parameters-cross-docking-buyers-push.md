@@ -3,7 +3,7 @@ title: " Çapraz sevk ve merkezi alım için kurallar ve parametreler ayarlama"
 description: "Bu yordam, Stok yenileme kuralları oluşturmak için gereken adımları gösterir."
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

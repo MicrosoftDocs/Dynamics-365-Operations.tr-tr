@@ -3,7 +3,7 @@ title: "Kaynak belgeler için denetim ilkeleri tanımlama"
 description: "Bu prosedür, denetim ilkesi kurallarının nasıl belirlenip uygulanacağını gösterir."
 author: ryansandness
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

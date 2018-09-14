@@ -3,7 +3,7 @@ title: "Ürün için barkod oluşturma"
 description: "Bu yordam, örnek olarak M0001 madde numarasını kullanarak el ile nasıl bir barkod oluşturulacağını gösterir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Tedarik kataloğu oluşturma"
 description: "Bu kılavuzda bir tedarik kataloğunu nasıl oluşturacağınız gösterilir."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

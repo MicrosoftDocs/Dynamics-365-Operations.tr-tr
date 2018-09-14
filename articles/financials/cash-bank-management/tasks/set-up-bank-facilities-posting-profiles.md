@@ -3,7 +3,7 @@ title: "Teminat mektupları için banka hizmetlerini ve banka deftere nakil prof
 description: "Bu görev, garanti mektubu işlemek için gereken banka tesisi ve deftere nakil profilini oluşturur."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

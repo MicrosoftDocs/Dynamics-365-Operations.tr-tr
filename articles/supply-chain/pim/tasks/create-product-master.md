@@ -3,7 +3,7 @@ title: "Ana ürün oluşturma"
 description: "Önceden tanımlanmış çeşitler için ana ürün oluşturun."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Talep tahminini el ile değiştirme"
 description: "Bu yordamda, bir madde için tahminin nasıl değiştirileceği gösterilmiştir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

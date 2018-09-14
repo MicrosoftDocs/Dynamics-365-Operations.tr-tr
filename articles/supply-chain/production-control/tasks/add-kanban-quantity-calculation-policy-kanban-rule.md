@@ -3,7 +3,7 @@ title: "Kanban kuralına kanban miktarı hesaplama ilkesi ekleme"
 description: "Bu yordam, kanban miktarı hesaplama ilkesi oluşturma ve miktarları ve kanban boyutunu en iyi duruma getirmek için kanban kuralına eklemeye odaklanır."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

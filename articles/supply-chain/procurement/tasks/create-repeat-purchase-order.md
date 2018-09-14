@@ -3,7 +3,7 @@ title: "Tekrar eden satınalma siparişi oluşturma"
 description: "Bu prosedür önceki satınalma siparişi belgesinden yeni bir PO veya mevcut PO'ya satırları kopyalayarak tekrar eden bir satınalma siparişinin (PO) nasıl oluşturulacağını gösterir."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

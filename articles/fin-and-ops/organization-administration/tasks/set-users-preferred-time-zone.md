@@ -3,7 +3,7 @@ title: "Bir kullanıcının tercih edilen zaman dilimini ayarlama"
 description: "Aşağıdaki yordamda Sistem Yöneticisi rolüne sahip olan kullanıcının, bir kullanıcı için saat dilimini nasıl ayarlayacağı açıklanır."
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

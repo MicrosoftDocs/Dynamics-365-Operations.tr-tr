@@ -3,7 +3,7 @@ title: "Genel muhasebe hesabı diğer adlarını ayarlama"
 description: "Bu yordam, bir hesap numarası girmek için kısayol sağlayan bir hesap diğer adı oluşturmayı gösterir."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

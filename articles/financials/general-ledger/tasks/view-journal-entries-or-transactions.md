@@ -3,7 +3,7 @@ title: "Günlük girişlerini veya hareketlerini görüntüleme"
 description: "Bu yordam, günlük girişlerini veya hareketlerini aramak için Fiş hareketleri sorgusunun nasıl kullanılacağını gösterir."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

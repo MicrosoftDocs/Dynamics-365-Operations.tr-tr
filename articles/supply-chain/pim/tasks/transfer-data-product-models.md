@@ -3,7 +3,7 @@ title: "Ürün modelleri için verileri aktarma"
 description: "Bir ürün yapılandırma modeli için verilerin içe aktarılması kullanılabilir en az bir ürün modeline sahip olunmasını gerektirir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

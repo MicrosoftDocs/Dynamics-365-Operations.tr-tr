@@ -3,7 +3,7 @@ title: "Aralığa sahip faiz kodu oluşturma"
 description: "Faiz kodları değer aralığına göre farklı faiz tutarlarını hesaplayacak şekilde ayarlanabilir."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

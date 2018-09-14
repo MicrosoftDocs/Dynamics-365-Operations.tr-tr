@@ -3,7 +3,7 @@ title: "Satış siparişleri oluşturma"
 description: "Bu prosedür, size bir satış siparişinin nasıl oluşturulacağını göstermektedir."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

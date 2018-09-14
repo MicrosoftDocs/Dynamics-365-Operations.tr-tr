@@ -3,7 +3,7 @@ title: "İşlemler ve iş planlaması olan bir üretim emri planlama"
 description: "Bu yordam operasyon planlama ve iş planlama ile bir üretim emri planlamaya odaklanır."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

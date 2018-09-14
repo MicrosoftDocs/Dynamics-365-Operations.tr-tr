@@ -3,7 +3,7 @@ title: "Yalın imalat için işlem faaliyetleri oluşturma"
 description: "Yalın imalat için bir işlem faaliyeti oluşturun."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

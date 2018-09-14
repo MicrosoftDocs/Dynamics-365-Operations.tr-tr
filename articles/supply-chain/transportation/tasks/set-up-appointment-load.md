@@ -3,7 +3,7 @@ title: "Yük için randevu ayarlama"
 description: "Bu yordam bir yük için giriş/çıkış noktası randevusunun nasıl ayarlanacağını ve planlanacağını gösterir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

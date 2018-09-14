@@ -3,7 +3,7 @@ title: "Gelişmiş kural yapıları oluşturma ve atama"
 description: "Bu görev kılavuzu, gelişmiş kural yapısı oluşturmayı ve bir hesap yapısına atamayı adım adım açıklar."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

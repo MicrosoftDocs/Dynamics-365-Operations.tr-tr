@@ -3,7 +3,7 @@ title: "Üretim emrindeki geçerli süren iş durumunu görüntüleme"
 description: "Bu yordam, bir üretim emrinde Süren İş bildirimini nasıl görüntüleyeceğinizi gösterir."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

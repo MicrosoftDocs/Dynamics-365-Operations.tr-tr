@@ -3,7 +3,7 @@ title: "Yeni departmanlar tanımlama"
 description: "Departmanlar bir işin, işlevsel bir bölümünü temsil eden bir faaliyet birimleridir, örneğin satış ve muhasebe gibi."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

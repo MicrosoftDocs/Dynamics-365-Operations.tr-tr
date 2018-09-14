@@ -3,7 +3,7 @@ title: "Adres defterlerini yapılandır"
 description: "Bu yordamı ve genel adres defteri'nin ve ek adres defterlerinin yapılandırmasını planlarken aldığınız kararları, kuruluşunuz için ek adres defterleri oluştururken kullanın."
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

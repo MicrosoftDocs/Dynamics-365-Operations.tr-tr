@@ -3,7 +3,7 @@ title: "Boyut tabanlı ana ürün oluşturma"
 description: "Bu yordam, boyut tabanlı yapılandırma teknolojisi ile yeni bir ürün şablonunun nasıl oluşturulacağını gösterir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Çalışma zamanı planlama özelliklerini oluşturma"
 description: "Çalışma zamanı planlama özellikleri, çalışma zaman aralıklarını kategorilere ayırmak ve operatörlerin dikkate alması gereken ayarları tanımlamak için kullanılır."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

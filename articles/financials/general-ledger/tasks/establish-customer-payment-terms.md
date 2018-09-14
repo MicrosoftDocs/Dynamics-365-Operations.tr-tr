@@ -3,7 +3,7 @@ title: "Müşteri ödeme koşulları oluşturma"
 description: "Bu prosedürde bir nakit iskontosu ve vade tarihi kurulumu tanımlanmaktadır."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

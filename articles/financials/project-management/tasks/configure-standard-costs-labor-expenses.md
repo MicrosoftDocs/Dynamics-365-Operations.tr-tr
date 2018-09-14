@@ -3,7 +3,7 @@ title: "İşçilik ve masraflar için standart maliyetleri yapılandırma"
 description: "Bu yordam, bir projenin işgücü ve giderleri için standart maliyetleri ayarlamayı gösterir."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

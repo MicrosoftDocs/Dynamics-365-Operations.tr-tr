@@ -3,7 +3,7 @@ title: "Başlığı veya logoyu değiştirme"
 description: "Aşağıdaki yordam, tüzel kişilik için görüntülenen logo ya da başlık resmini güncelleştirmek için sistem yöneticilerinin atabileceği adımları listelemektedir."
 author: aneesmsft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

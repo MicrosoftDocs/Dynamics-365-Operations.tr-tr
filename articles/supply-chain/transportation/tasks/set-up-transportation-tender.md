@@ -3,7 +3,7 @@ title: "Taşıma ödemesini ayarlama"
 description: "Bu yordam, bir taşıma ödemesinin nasıl ayarlanacağını gösterir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

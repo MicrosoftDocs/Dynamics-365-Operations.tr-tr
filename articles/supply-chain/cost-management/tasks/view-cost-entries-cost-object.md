@@ -3,7 +3,7 @@ title: "Maliyet nesnesi için maliyet girişlerini görüntüleme"
 description: "Bu yordam, bir maliyet nesnesi için maliyet girişlerinin nasıl görüntüleneceğini gösterir."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

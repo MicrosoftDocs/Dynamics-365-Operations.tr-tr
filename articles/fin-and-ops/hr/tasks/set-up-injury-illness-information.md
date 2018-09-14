@@ -3,7 +3,7 @@ title: "Yaralanma ve hastalık bilgilerini ayarla"
 description: "İşverenler, personellerinin başına gelen çalışma alanı kaynaklı hastalık veya yaralanmalardan haberdar olmalıdırlar."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

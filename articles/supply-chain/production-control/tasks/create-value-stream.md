@@ -3,7 +3,7 @@ title: "Değer akışı oluşturma"
 description: "Değer akışları, bir veya birden çok üretim akışını gruplayan faaliyet birimleridir."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

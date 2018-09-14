@@ -3,7 +3,7 @@ title: "Mevcut bir formülden kopyalayarak formül oluşturma"
 description: "Bu yordam, mevcut bir formülden kopyalayarak yeni bir formülün nasıl hızlıca oluşturulacağını gösterir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

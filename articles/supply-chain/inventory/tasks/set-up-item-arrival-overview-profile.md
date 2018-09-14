@@ -3,7 +3,7 @@ title: "Madde varışı genel bakış profili ayarlama"
 description: "Bu görev bir varış genel bakış profili kurulumu üzerinde odaklanır."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

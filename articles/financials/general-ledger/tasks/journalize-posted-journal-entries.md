@@ -3,7 +3,7 @@ title: "Nakledilen günlük girişlerini günlüğe aktarma"
 description: "Bu yordamda, günlüğe kaydetme yoluyla günlük girişleri oluşturma gösterilir."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

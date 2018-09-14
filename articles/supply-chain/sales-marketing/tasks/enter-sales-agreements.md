@@ -3,7 +3,7 @@ title: "Satış sözleşmelerini girme"
 description: "Bu yöntem, müşterilerinizden birini üzerinde anlaşılan belirli bir zaman zarfı içinde ürün satın alması karşılığında özel indirimlere hak kazanmasını sağlayacak bir satış anlaşmasını nasıl yaratacağınızı gösterir."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Mevcut bir kuralı çoğaltarak yeni bir kanban kuralı oluşturma"
 description: "Bu yordam, varolan bir kanban kuralının kopyasını oluşturmaya odaklanır."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

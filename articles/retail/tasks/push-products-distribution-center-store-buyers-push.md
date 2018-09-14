@@ -3,7 +3,7 @@ title: " Merkezi alım kullanarak ürünleri dağıtım merkezinden mağazaya g�
 description: "Bu yordam, ürünleri bir konumundan bir veya daha fazla mağazaya dağıtmak için Merkezi Alım oluşturma ve işleme konusunda kılavuzluk sağlar."
 author: rubencdelgado
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

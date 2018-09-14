@@ -3,7 +3,7 @@ title: "Satış siparişinden satınalma siparişi oluşturma"
 description: "Bu yordam, bir satış siparişine göre nasıl satınalma siparişi oluşturulacağını gösterir."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

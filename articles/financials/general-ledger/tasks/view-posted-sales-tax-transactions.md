@@ -3,7 +3,7 @@ title: "Deftere nakledilen satış vergisi hareketlerini görüntüle"
 description: "Görüntüleme gereksinimlerinize bağlı olarak, farklı sayfalardaki nakledilmiş satış vergisi hareketlerini de görüntüleyebilirsiniz."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

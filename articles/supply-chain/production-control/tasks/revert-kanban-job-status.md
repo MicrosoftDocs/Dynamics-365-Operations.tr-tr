@@ -3,7 +3,7 @@ title: "Kanban iş durumu geri al"
 description: "Bu yordam, yanlış bir kanban iş durumunun geri alınması üzerinde odaklanır."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

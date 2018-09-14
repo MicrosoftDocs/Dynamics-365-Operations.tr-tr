@@ -3,7 +3,7 @@ title: "Müşteri indirimlerini oluşturma ve işleme"
 description: "Bu prosedür, müşteri indirimlerinin talep oluşturulmasından, alacak hesaplarına tahakkuk edilmesi noktasına kadar nasıl işleneceğini göstermektedir."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

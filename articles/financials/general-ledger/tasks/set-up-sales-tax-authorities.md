@@ -3,7 +3,7 @@ title: Vergi dairesi ayarlama
 description: "Satış vergisi makamları, toplanan satış vergisinin bildirilip ödenmesi gereken kurumlardır."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Satıcı için ileri tarih atılmış çeki kaydetme ve deftere nakletme
 description: "Günlük fişi kullanarak bir satıcıya çek kesmeden önce vadeli çekin ayrıntılarını kaydedebilirsiniz."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Tahsilat bilgilerini gözden geçirme"
 description: "Bu yordam, tahsilat bilgilerini gözden geçirmenin yanı sıra çeşitli seçenekleri ve tahsilat hareketlerini ayarlamayı adım adım açıklar."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

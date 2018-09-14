@@ -3,7 +3,7 @@ title: "Amortisman profilleri ayarlama ve oluşturma"
 description: "Amortisman profilleri bir varlığın türünü ve amortisman sıklığını belirler."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

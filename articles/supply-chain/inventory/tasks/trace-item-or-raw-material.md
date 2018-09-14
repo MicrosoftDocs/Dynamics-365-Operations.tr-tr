@@ -3,7 +3,7 @@ title: Maddeyi veya hammaddeyi izleme
 description: "Bu yordam, ürünlerin veya hammaddelerin kullanılmış veya kullanılmakta olduğunu belirlemek amacıyla ürün izleme işlevinin nasıl kullanılacağını gösterir."
 author: pjacobse
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

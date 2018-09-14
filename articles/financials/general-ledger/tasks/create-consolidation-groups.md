@@ -3,7 +3,7 @@ title: "Konsolidasyon grupları ve ek konsolidasyon hesapları oluşturma"
 description: "Bu yordam, bir konsolidasyon hesabı grubu oluşturmayı ve gruba hesap eklemeyi gösterir."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

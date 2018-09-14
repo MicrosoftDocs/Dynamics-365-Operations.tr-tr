@@ -3,7 +3,7 @@ title: "Malların şirket içinde taşınması için transfer belgelerini ayarla
 description: "Bu yordam, bir şirket içinde malların taşınması için transfer belgeleri oluşturmayı gösterir."
 author: v-oloski
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

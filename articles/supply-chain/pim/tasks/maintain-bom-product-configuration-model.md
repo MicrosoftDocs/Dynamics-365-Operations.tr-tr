@@ -3,7 +3,7 @@ title: "Ürün yapılandırma modeli için ürün reçetesini koruma"
 description: "Bu yordamın çalıştırılması için mevcut bir ürün yapılandırma modeli olması gerekir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

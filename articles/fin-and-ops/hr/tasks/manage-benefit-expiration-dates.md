@@ -3,7 +3,7 @@ title: "Kazanç geçerlilik bitiş tarihlerini yönetme"
 description: "Bu yordam bir yararın süresini uzatmayı veya bitirmeyi, ve bu yarara kaydedilmiş çalışanların kayıt tarihlerini yönetmeyi gösterir."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

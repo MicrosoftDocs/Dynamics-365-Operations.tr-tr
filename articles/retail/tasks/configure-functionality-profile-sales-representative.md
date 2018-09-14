@@ -3,7 +3,7 @@ title: "Satış temsilcisi için işlevsellik profilini yapılandırma"
 description: "Bu yordam bir mağazanın satış temsilcileri için geçerli olan işlevsellik profil ayarlarının nasıl yapılandırılacağını gösterir."
 author: jblucher
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

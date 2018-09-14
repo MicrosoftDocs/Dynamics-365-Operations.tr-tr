@@ -3,7 +3,7 @@ title: "Yinelenen serbest metin faturaları oluşturma ve deftere nakletme"
 description: "Yinelenen faturalar, müşterilere düzenli olarak aynı tutarda fatura çıkarmak için kullanılır."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

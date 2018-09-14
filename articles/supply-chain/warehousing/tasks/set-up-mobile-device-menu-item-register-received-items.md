@@ -3,7 +3,7 @@ title: "Alınan maddeleri kaydetmek için bir mobil cihaz menü öğesi ayarlama
 description: "Bu görev, bir mobil cihaz menü öğesinin ayarlanmasına odaklanır."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

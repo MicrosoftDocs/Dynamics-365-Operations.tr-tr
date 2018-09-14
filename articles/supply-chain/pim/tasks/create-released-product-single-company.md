@@ -3,7 +3,7 @@ title: "Tek bir şirket için serbest bırakılan ürün oluşturma"
 description: "Bu yordam, tek bir yasal birim bağlamında yayımlanan tek bir ürün oluşturmayı adım adım anlatılmaktadır."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

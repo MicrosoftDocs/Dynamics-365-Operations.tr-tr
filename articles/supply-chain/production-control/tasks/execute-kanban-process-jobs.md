@@ -3,7 +3,7 @@ title: "Kanban işlem işlerini yürütme"
 description: "Bu prosedür, kanban proses işlerinin yürütülmesiyle ilgilidir."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

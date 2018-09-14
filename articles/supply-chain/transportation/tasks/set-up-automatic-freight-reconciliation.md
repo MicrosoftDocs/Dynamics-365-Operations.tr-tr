@@ -3,7 +3,7 @@ title: "Otomatik navlun mutabakatını ayarlama"
 description: "Bu yordam, otomatik navlun mutabakatı için verilerin nasıl ayarlanacağını gösterir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Konfigürasyon grupları tanımlama"
 description: "Bu yordam, demo verileri şirket USMF'de iki grup oluşturarak ürün konfigürasyon gruplarının nasıl tanımlanacağını gösterir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

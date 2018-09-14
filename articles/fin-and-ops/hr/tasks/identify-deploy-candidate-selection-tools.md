@@ -3,7 +3,7 @@ title: "Aday seçim araçlarını tanımlama ve dağıtma"
 description: "Boş konumları doldurmak için kalifiye aday havuzu bulmak, özellikle de konum benzersiz beceri grubu gerektirdiğinde zor olabilir."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

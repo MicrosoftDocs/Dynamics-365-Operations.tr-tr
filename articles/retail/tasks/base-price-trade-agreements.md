@@ -3,7 +3,7 @@ title: "Taban fiyat ve ticari sözleşmeler"
 description: "Bu yordam kanala özel bir satış fiyatı ticari anlaşmaları oluşturma sürecini gösterir."
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

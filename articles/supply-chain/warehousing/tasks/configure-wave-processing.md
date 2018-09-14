@@ -3,7 +3,7 @@ title: "Dalga işlemeyi yapılandırma"
 description: "Bu kılavuz bir dalga işlendiğinde bir ambar için hangi işin oluşturulacağını belirlemek için ölçütleri ayarlamayı ve dalgaların manuel mi yoksa otomatik olarak mı işlemden geçirileceğini açıklar."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

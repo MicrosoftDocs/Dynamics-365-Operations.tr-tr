@@ -3,7 +3,7 @@ title: "Personel saat ve işe devam için bordro işlemini etkinleştirme"
 description: "Bu yordamda, saat ve işe devam için bordro işleminin nasıl etkinleştirileceği gösterilir."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "RFQ'lar için puanlama yöntemi oluşturma"
 description: "Bu prosedür, size bir puanlama yönteminin nasıl oluşturulacağını göstermektedir."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

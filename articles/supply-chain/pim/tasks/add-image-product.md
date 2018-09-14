@@ -3,7 +3,7 @@ title: "Ürüne resim ekleme"
 description: "Bu yordam, bir ürüne bir resmin nasıl ekleneceğini gösterir. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

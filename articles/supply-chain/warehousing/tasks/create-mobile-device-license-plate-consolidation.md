@@ -3,7 +3,7 @@ title: "Plaka birleştirme işlemi için bir mobil cihaz menü öğesi oluşturm
 description: "Bu yordam, plaka birleştirme işi için mobil cihaz menüsü öğesi oluşturmayı gösterir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

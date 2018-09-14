@@ -3,7 +3,7 @@ title: "Ürün oluşturma"
 description: "Bu yordam perakende ürün hiyerarşisinde nasıl yeni ürün oluşturulacağını gösterir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

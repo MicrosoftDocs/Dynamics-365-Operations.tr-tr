@@ -3,7 +3,7 @@ title: " Perakende fiyat ayarlamaları"
 description: "Bu yordam, bir perakende fiyat ayarlaması oluşturma konusunda yol gösterir."
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

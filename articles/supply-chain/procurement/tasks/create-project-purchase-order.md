@@ -3,7 +3,7 @@ title: "Proje satınalma siparişi oluşturma"
 description: "Bu yordam, size bir proje satınalma siparişi oluşturmayı gösterir."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
