@@ -99,8 +99,6 @@
       href: call-center-functionality.md
     - name: Çağrı merkezi katalogları
       href: call-center-catalogs.md
-    - name: Çağrı merkezi kataloğu oluşturma
-      href: create-call-center-catalogs.md
     - name: Teslimat şekillerini ve masrafları yapılandırma
       href: configure-call-center-delivery.md
     - name: Sahtekarlık uyarılarını ayarlama ve bunlarla çalışma
@@ -133,6 +131,8 @@
       href: MPOS-or-CPOS.md
     - name: Çevrimiçi ve çevrimdışı POS işlemleri
       href: pos-operations.md
+    - name: Özelleştirilmiş Retail Modern POS için cihaz etkinleştirme
+      href: dev-itpro/retail-POS-activation-changes.md
     - name: MPOS ve Cloud POS'taki tanıtım verileri ekranı düzenleri
       href: demo-data.md
     - name: POS'ta ürün ve müşteri arama
