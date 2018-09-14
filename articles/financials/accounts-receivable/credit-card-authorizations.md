@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 5a950a100fd5e9026300ea08eb1a6311a8e63129
+ms.sourcegitcommit: 033c9bdfce0840e1af1c63708905aec6829bbe90
+ms.openlocfilehash: 7a1d3c73e4305375ddf356b93b9502b0255df99b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/13/2018
 
 ---
 
@@ -44,11 +44,13 @@ ms.lasthandoff: 08/07/2018
 
 ## <a name="adding-a-new-credit-card"></a><span data-ttu-id="4db2a-117">Yeni kredi kartı ekleme</span><span class="sxs-lookup"><span data-stu-id="4db2a-117">Adding a new credit card</span></span>
 <span data-ttu-id="4db2a-118">Müşteri, Ayar, Kredi kartı öğelerini kullanarak Müşteriler sayfasında yeni kredi kartı kayıtları oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4db2a-118">You can create new credit card records on the Customers page by using Customer, Set up, Credit card.</span></span> <span data-ttu-id="4db2a-119">Ayrıca, Satış siparişi sayfasında siparişleri girerken Yönet, Müşteri, Kredi kartı, Kaydet öğelerini kullanarak da kredi kartı kayıtları oluşturabilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4db2a-119">You can also create credit card records when you enter sales orders on the Sales order page, by using Manage, Customer, Credit card, Register.</span></span>
-<span data-ttu-id="4db2a-120">Bir satış siparişine kredi kartı ekleme</span><span class="sxs-lookup"><span data-stu-id="4db2a-120">Adding a credit card to a sales order</span></span>
+
+<a name="adding-a-credit-card-to-a-sales-order"></a><span data-ttu-id="4db2a-120">Bir satış siparişine kredi kartı ekleme</span><span class="sxs-lookup"><span data-stu-id="4db2a-120">Adding a credit card to a sales order</span></span>
 -------------------------------------
 
 <span data-ttu-id="4db2a-121">Satış siparişi sayfasındaki Fiyat ve iskontolar hızlı sekmesindeki kredi kartı arama alanından bir kredi kartı seçerek satış siparişine kredi kartı ekleyebilirsiniz.</span><span class="sxs-lookup"><span data-stu-id="4db2a-121">You can add a credit card to a sales order by selecting a credit card in the credit card lookup on the Price and discounts FastTab on the Sales order page.</span></span> <span data-ttu-id="4db2a-122">Onay işlemini başlatmak için, Eylem Bölmesindeki Yönet sekmesinde Kredi kartı ve Onay öğelerini seçin.</span><span class="sxs-lookup"><span data-stu-id="4db2a-122">To start the authorization process, on the Action Pane, on the Manage tab, select Credit card and Authorize.</span></span>
-<span data-ttu-id="4db2a-123">Kredi kartını onaylama</span><span class="sxs-lookup"><span data-stu-id="4db2a-123">Authorizing a credit card</span></span>
+
+<a name="authorizing-a-credit-card"></a><span data-ttu-id="4db2a-123">Kredi kartını onaylama</span><span class="sxs-lookup"><span data-stu-id="4db2a-123">Authorizing a credit card</span></span>
 -------------------------
 
 <span data-ttu-id="4db2a-124">Bir kredi kartı onaylanırken, kart numarası ve kart sahibinin adı doğrulanır ve kullanılabilir kredi bakiyesi onaylanır.</span><span class="sxs-lookup"><span data-stu-id="4db2a-124">When a credit card is authorized, the card number and cardholder's name are verified, and the available credit balance is confirmed.</span></span> <span data-ttu-id="4db2a-125">İsteğe bağlı olarak, kart doğrulama değeri ve kart sahibinin adresi de doğrulanabilir.</span><span class="sxs-lookup"><span data-stu-id="4db2a-125">Optionally, the card verification value and the cardholder’s address are verified.</span></span> <span data-ttu-id="4db2a-126">Ardından, müşterinin kullanılabilir kredi bakiyesinden fatura tutarı düşülür.</span><span class="sxs-lookup"><span data-stu-id="4db2a-126">The customer's available credit balance is then reduced by the amount of the invoice.</span></span> <span data-ttu-id="4db2a-127">Ödeme hizmeti, kredi kartının onaylandığı ya da reddedildiği bilgisini gönderir.</span><span class="sxs-lookup"><span data-stu-id="4db2a-127">The payment service sends information that the credit card has been approved or declined.</span></span> <span data-ttu-id="4db2a-128">Satış siparişi faturalandırıldığında, kredi kartı fatura tutarı ile borçlandırılır (tutulan).</span><span class="sxs-lookup"><span data-stu-id="4db2a-128">When the sales order is invoiced, the credit card is charged (captured) for the invoice amount.</span></span>
