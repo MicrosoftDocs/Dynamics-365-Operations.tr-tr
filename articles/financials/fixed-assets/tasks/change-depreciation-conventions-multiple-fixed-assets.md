@@ -3,7 +3,7 @@ title: "Birden çok sabit kıymete yönelik amortisman yöntemlerini değiştirm
 description: "Bu görev, belirli bir sabit kıymetler grubunun amortisman yöntemini güncelleştirir."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 6804a8a6b94149efb001c4a62f09b473ede8367b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: a7a79b2edf64f0063253d3f2a23b0020eceb87c0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a><span data-ttu-id="a2e97-103">Birden çok sabit kıymete yönelik amortisman yöntemlerini değiştirme</span><span class="sxs-lookup"><span data-stu-id="a2e97-103">Change depreciation conventions for multiple fixed assets</span></span>

@@ -3,7 +3,7 @@ title: "Maliyet nesnesi için maliyet girişlerini görüntüleme"
 description: "Bu yordam, bir maliyet nesnesi için maliyet girişlerinin nasıl görüntüleneceğini gösterir."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 3dd55f30baae62082a2ba560e0aff6802708382b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 9c67ac7dd06219b9521e4832b18204bcf8662a81
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="view-cost-entries-for-a-cost-object"></a><span data-ttu-id="291a4-103">Maliyet nesnesi için maliyet girişlerini görüntüleme</span><span class="sxs-lookup"><span data-stu-id="291a4-103">View cost entries for a cost object</span></span>

@@ -3,7 +3,7 @@ title: "Talep tahminini el ile değiştirme"
 description: "Bu yordamda, bir madde için tahminin nasıl değiştirileceği gösterilmiştir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 911245eea967126686564b24bdccba48de075929
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 063554c98b8a6261ebe69073f214a8e45850c623
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="modify-a-demand-forecast-manually"></a><span data-ttu-id="a5104-103">Talep tahminini el ile değiştirme</span><span class="sxs-lookup"><span data-stu-id="a5104-103">Modify a demand forecast manually</span></span>

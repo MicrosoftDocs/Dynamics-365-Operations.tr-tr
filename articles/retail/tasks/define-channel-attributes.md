@@ -3,7 +3,7 @@ title: " Kanal özniteliklerini tanımlama"
 description: "Kanalı, ürün ve kanal öznitelikleri ekleyerek zenginleştirin."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 1ed22579eecef0f8d218f5e58cef521f6072c442
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 5115cc0a902fc23f943700c245fbf08cdb10060c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="define-channel-attributes"></a><span data-ttu-id="effc7-103"> Kanal özniteliklerini tanımlama</span><span class="sxs-lookup"><span data-stu-id="effc7-103">Define channel attributes</span></span>

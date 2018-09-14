@@ -3,7 +3,7 @@ title: "Ürün için barkod oluşturma"
 description: "Bu yordam, örnek olarak M0001 madde numarasını kullanarak el ile nasıl bir barkod oluşturulacağını gösterir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 45cb605423a5e1015dbb0d275b5e2d4cc6801262
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 2ae2765a125045d60566267d01e380069d5d527c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-bar-code-for-a-product"></a><span data-ttu-id="dd4fb-103">Ürün için barkod oluşturma</span><span class="sxs-lookup"><span data-stu-id="dd4fb-103">Create a bar code for a product</span></span>

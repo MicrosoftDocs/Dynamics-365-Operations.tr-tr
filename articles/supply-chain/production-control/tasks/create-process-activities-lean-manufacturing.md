@@ -3,7 +3,7 @@ title: "Yalın imalat için işlem faaliyetleri oluşturma"
 description: "Yalın imalat için bir işlem faaliyeti oluşturun."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 4ac3c0e69d05148de338c79c8a4c786f243b4cd4
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: fa4d7fe2345d54faf405086a1e1bef599265470b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-process-activities-for-lean-manufacturing"></a><span data-ttu-id="cc1e4-103">Yalın imalat için işlem faaliyetleri oluşturma</span><span class="sxs-lookup"><span data-stu-id="cc1e4-103">Create process activities for lean manufacturing</span></span>

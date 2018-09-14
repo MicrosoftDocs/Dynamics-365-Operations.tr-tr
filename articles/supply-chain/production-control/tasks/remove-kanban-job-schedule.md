@@ -3,7 +3,7 @@ title: "Kanban işini planlamadan kaldırma"
 description: "Bu prosedür, bir planlanan işlem kanban işini, durumu Planlanmadı'ya döndürerek planlamadan kaldırmaya odaklanmaktadır."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 6d68ca9e6bf85b9a3d75e61448a1a97aca7128d3
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: b4d994be5c6bb1edc6f0fc64494a19a5babf72ae
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="remove-a-kanban-job-from-the-schedule"></a><span data-ttu-id="e8e71-103">Kanban işini planlamadan kaldırma</span><span class="sxs-lookup"><span data-stu-id="e8e71-103">Remove a kanban job from the schedule</span></span>

@@ -3,7 +3,7 @@ title: "Ücreti kademeleri ayarlama"
 description: "Ücret kılavuzları, sabit ücret planları için ödeme yapıları tanımlamak ve sağlamak için kullanılır."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 781d8efeb336ae5b15c9c2df22789e0502f8935f
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 139c4e2adbf5029f8084c7c934a05def04cd31ca
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-compensation-grids"></a><span data-ttu-id="4bedd-103">Ücreti kademeleri ayarlama</span><span class="sxs-lookup"><span data-stu-id="4bedd-103">Set up compensation grids</span></span>

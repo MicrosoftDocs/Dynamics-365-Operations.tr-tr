@@ -3,7 +3,7 @@ title: "Yinelenen serbest metin faturaları oluşturma ve deftere nakletme"
 description: "Yinelenen faturalar, müşterilere düzenli olarak aynı tutarda fatura çıkarmak için kullanılır."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 817da36aebb4a8e7cbd986734ef9d5028982cbb6
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 8352b32b1a3c950bed6dd5f0c18c00173e725e69
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a><span data-ttu-id="b795b-103">Yinelenen serbest metin faturaları oluşturma ve deftere nakletme</span><span class="sxs-lookup"><span data-stu-id="b795b-103">Generate and post recurring free text invoices</span></span>

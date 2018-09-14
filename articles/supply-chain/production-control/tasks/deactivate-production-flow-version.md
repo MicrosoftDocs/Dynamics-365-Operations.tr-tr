@@ -3,7 +3,7 @@ title: "Üretim akışı sürümünü devre dışı bırakma"
 description: "Etkin bir üretim akışı sürümüne artık ihtiyaç duyulmuyorsa devre dışı bırakılabilir."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 04ed71ab3501be7c9670748d4c7001843ed96c81
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 091cafd02bd568323e586373fc8b0f983afee343
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="deactivate-a-production-flow-version"></a><span data-ttu-id="1d892-103">Üretim akışı sürümünü devre dışı bırakma</span><span class="sxs-lookup"><span data-stu-id="1d892-103">Deactivate a production flow version</span></span>

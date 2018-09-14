@@ -3,7 +3,7 @@ title: "İmalat için sabit miktarlı kanban kuralı oluşturma"
 description: "Bu yordam, bir iş hücresinde, yalın bir imalat ortamında dönüşen etkinlikleri tetiklemek üzere sabit üretim oluşturmak için gereken ayarlara odaklanır."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: c21373c27f7cc1590790b297e98bc36d94386797
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 9e0f58d1e265fb001474eb572b9bc325cf08790c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-fixed-quantity-kanban-rule-for-manufacturing"></a><span data-ttu-id="e551d-103">İmalat için sabit miktarlı kanban kuralı oluşturma</span><span class="sxs-lookup"><span data-stu-id="e551d-103">Create a fixed quantity kanban rule for manufacturing</span></span>

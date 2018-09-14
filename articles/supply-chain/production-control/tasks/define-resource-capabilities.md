@@ -3,7 +3,7 @@ title: "Kaynak yeteneklerini tanımlama"
 description: "Kaynak yetenekleri, kaynağın hangi işlemleri yapabileceğini açıklar."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 3b5eb0fbfe217fbfbd29cb6cd5a436b36cd78ecb
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 0940883d0e9edf56e61b5ecd817062aac5e0f8a6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="define-resource-capabilities"></a><span data-ttu-id="8f0eb-103">Kaynak yeteneklerini tanımlama</span><span class="sxs-lookup"><span data-stu-id="8f0eb-103">Define resource capabilities</span></span>

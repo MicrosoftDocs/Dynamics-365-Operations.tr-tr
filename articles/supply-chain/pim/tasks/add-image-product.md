@@ -3,7 +3,7 @@ title: "Ürüne resim ekleme"
 description: "Bu yordam, bir ürüne bir resmin nasıl ekleneceğini gösterir. Bu görevi oluşturmak için kullanılan demo veri şirketi USMF'dir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 87822afd38c39bcde3506bc4126da2abfa8e5918
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: c663c9f6b4f74ea20f0481632af9eef303ba27ed
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="add-an-image-to-a-product"></a><span data-ttu-id="6e8d1-103">Ürüne resim ekleme</span><span class="sxs-lookup"><span data-stu-id="6e8d1-103">Add an image to a product</span></span>

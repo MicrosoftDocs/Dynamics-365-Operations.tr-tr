@@ -3,7 +3,7 @@ title: "Satınalma iade siparişi oluşturma"
 description: "Bu yordam, bir satıcı fatura belgesinden satırları yeni bir satınalma siparişine kopyalamak için Alacak dekontu eylemini kullanarak bir satın alma iade siparişini nasıl oluşturacağınızı gösterir."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: f07593159255ca7984661fc11278e2ac2ca3322b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: e080252006d889e2f27db2bccb7b541f3ee4cf9e
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-purchase-return-order"></a><span data-ttu-id="10210-103">Satınalma iade siparişi oluşturma</span><span class="sxs-lookup"><span data-stu-id="10210-103">Create a purchase return order</span></span>

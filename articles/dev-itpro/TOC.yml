@@ -263,9 +263,9 @@
               href: extensibility/naming-guidelines-extensions.md
             - name: Katmanlamanın uzantılarda yeniden düzenlenmesi için model kısıtlamalarını hafifletme
               href: extensibility/refactoring-over-layering.md
-        - name: Nasıl yaparım?
+        - name: Uzantılar oluşturma
           items:
-            - name: enums için değer ekleme
+            - name: Sabit listelerine değer ekleme
               href: extensibility/add-enum-value.md
             - name: Genişletilmiş veri türlerini değiştirme
               href: extensibility/modify-edt.md
@@ -311,15 +311,37 @@
               href: extensibility/maps-as-interfaces.md
             - name: Sürüm oluşturma için kullanılan tablo eşlemelerini genişletme
               href: extensibility/maps-with-versioning.md
+        - name: Genişletilebilir çözümler oluşturma
+          items:
+            - name: Genişletilebilir kod yazma
+              href: extensibility/writing-extensible-code.md
+            - name: Sınıflar
+              href: extensibility/extensible-classes.md
+            - name: Yöntemler
+              href: extensibility/extensible-methods.md
+            - name: Formlar
+              href: extensibility/extensible-forms.md
+            - name: Genişletilmiş veri türleri
+              href: extensibility/extensible-edts.md
+            - name: Genişletilebilir sabit listeleri
+              href: extensibility/extensible-enums.md
+            - name: Temsilciler
+              href: extensibility/extensible-code-delegates.md
+            - name: Tablolar
+              href: extensibility/extensible-tables.md
+            - name: Yöntemler için genişletilebilirlik öznitelikleri
+              href: extensibility/extensibility-attributes.md
+            - name: Değişiklikleri bozma
+              href: extensibility/breaking-changes.md
     - name: Performans
       items:
-        - name: İzleme ayrıştırıcıyı kullanarak izlemeler yapma
+        - name: Trace ayrıştırıcısını kullanarak izlemeler yapma
           href: perf-test/trace-trace-tutorial.md
         - name: Visual Studio Online ile Performans SDK ve çoklu kullanıcı testi
           href: perf-test/perfsdk-tutorial.md
         - name: Şirket içi ortamlarda Performans SDK ve çoklu kullanıcı testi
           href: perf-test/perfsdk-tutorial-lbd.md
-        - name: İzleme ayrıştırıcı kullanarak sorunları tanılama ve performansı analiz etme
+        - name: Trace ayrıştırıcısını kullanarak sorunları tanılama ve performansı analiz etme
           href: perf-test/trace-parser.md
         - name: Performans zamanlayıcısı
           href: perf-test/performance-timer.md
@@ -1184,6 +1206,8 @@
       items:
         - name: En iyi duruma getirme danışmanı için kurallar oluşturma
           href: sysadmin/create-rules-optimization-advisor.md
+    - name: Üretim kesintisini raporlama
+      href: lifecycle-services/report-production-outage.md
 - name: Lifecycle Services
   items:
     - name: Lifecycle Services için kaynaklar
@@ -1236,11 +1260,13 @@
       href: lifecycle-services/monitoring-diagnostics.md
     - name: Ortam hizmetlerini yeniden başlatma
       href: lifecycle-services/restart-environment-services.md
+    - name: Üretim kesintisini raporlama
+      href: lifecycle-services/report-production-outage.md
     - name: Kullanıcı oturum açma bilgilerini izleme
       href: lifecycle-services/user-logins.md
     - name: Varlık kitaplığı
       href: lifecycle-services/asset-library.md
-    - name: Microsoft Dynamics 365 Çeviri Hizmeti
+    - name: Microsoft Dynamics 365 Translation Service
       href: lifecycle-services/translation-service-overview.md
       items:
         - name: Kullanıcı arabirimi dosyalarını çevirme

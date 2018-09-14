@@ -3,7 +3,7 @@ title: "Kısıtlanmış plan oluşturma"
 description: "Bu yordam, hem malzeme hem de kapasite kısıtlamalarını dikkate alan bir planın nasıl oluşturulacağını gösterir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 6dfda1664e487bb4d31cf3e9aaee191dc69d699a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 0e2265f7788fd2a4a37f6fb96d7562649dbc5b1c
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="generate-a-constrained-plan"></a><span data-ttu-id="c6d67-103">Kısıtlanmış plan oluşturma</span><span class="sxs-lookup"><span data-stu-id="c6d67-103">Generate a constrained plan</span></span>

@@ -3,7 +3,7 @@ title: "Satış vergisi atama ve geçersiz kılma"
 description: "Bu yordam perakende kanallarına satış vergisi gruplarının nasıl atanacağını gösterir."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 2420dceeb321ed11dbf6d7d9c09e3a579d65134c
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: a1907b0d0266eaa405ac2b92b40d6a2d310cf07b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="sales-tax-assignment-and-overrides"></a><span data-ttu-id="14d6d-103">Satış vergisi atama ve geçersiz kılma</span><span class="sxs-lookup"><span data-stu-id="14d6d-103">Sales tax assignment and overrides</span></span>

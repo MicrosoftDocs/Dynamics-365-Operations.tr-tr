@@ -3,7 +3,7 @@ title: "Yük için randevu ayarlama"
 description: "Bu yordam bir yük için giriş/çıkış noktası randevusunun nasıl ayarlanacağını ve planlanacağını gösterir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: f704b399b1ea24cd1393f1c81e83aa0627047f61
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: f5ede4ab29b5d0c3fcb057049e2abbb9f2bf16f0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-an-appointment-for-a-load"></a><span data-ttu-id="45ec3-103">Yük için randevu ayarlama</span><span class="sxs-lookup"><span data-stu-id="45ec3-103">Set up an appointment for a load</span></span>
