@@ -1,7 +1,7 @@
 --- 
 title: "Stok uygunluğu denetleme"
 description: "Bu prosedürde size belirli bir madde numarası için eldeki ve fiziksel stoğun nasıl kontrol edileceği gösterilmektedir."
-author: 
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
