@@ -1,21 +1,22 @@
----
+--- 
 title: "Personel saat ve işe devam için bordro işlemini etkinleştirme"
 description: "Bu yordamda, saat ve işe devam için bordro işleminin nasıl etkinleştirileceği gösterilir."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 02/12/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: JmgPayTable, JmgPayRate, JmgPayAgreementTable, JmgPayAgreementLine, HcmWorker
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
 ms.openlocfilehash: 16d8fc2120dfb7b356b238957019a29d05963f9a
@@ -68,4 +69,5 @@ Bu yordamda, saat ve işe devam için bordro işleminin nasıl etkinleştirilece
 6. Zaman kaydı bölümünü genişletin.
 7. Düzenle öğesine tıklayın.
 8. Ödeme anlaşması alanına bir değer girin veya buradan bir değer seçin.
+
 

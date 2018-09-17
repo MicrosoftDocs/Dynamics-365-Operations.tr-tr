@@ -55,11 +55,13 @@ Bir müşteri, farklı sıklıklara sahip, birden fazla şablona sahip olabilir.
 
 ## <a name="generate-the-recurring-invoices"></a>Yinelenen faturalar oluşturma
 **Yinelenen faturalar** sayfasında, yinelenen fatura şablonlarının işlenmesi için bir görev mevcuttur. Fatura tarihini ve faturaların oluşturulacağı şablonu belirtirsiniz. Faturalar oluşturulur ve işlenen her bir fatura grubu için tek bir yineleme kimlik numarası atanır.
-Yinelenen serbest metin faturalarını nakletme
+
+<a name="post-recurring-free-text-invoices"></a>Yinelenen serbest metin faturalarını nakletme
 ---------------------------------
 
 Yinelenen faturalar oluşturulduktan sonra fatura yineleme kimlikleri **Yinelenen faturalar** sayfasındaki bir nakil görevinde görüntülenir. Bağlantıyı tıklayarak bir yineleme kimliği için faturaların tümünü görüntüleyebilirsiniz. Yineleme kimliği için faturaları gözden geçirerek faturaları ayrı ayrı silebilirsiniz. Müşterinin yineleme ayarları o şablon için sıfırlanır ve böylece daha sonra yeniden oluşturulabilir. Bir yineleme kimliği için faturaların biri, birden fazlası veya tümü nakledilebilir. İş akışları etkinleştirilirse, faturaları nakletmeden önce mutlaka **Gönder** düğmesini tıklamalısınız.
-Yinelenen serbest metin faturalarını yazdırma
+
+<a name="print-recurring-free-text-invoices"></a>Yinelenen serbest metin faturalarını yazdırma
 ----------------------------------
 
 Yinelenen faturalar nakledildikten sonra serbest metin faturası listesi sayfasından faturaları yazdırabilirsiniz. Seçili faturaları yazdırabilirsiniz veya yazdırmak üzere bir seri fatura seçebilirsiniz.

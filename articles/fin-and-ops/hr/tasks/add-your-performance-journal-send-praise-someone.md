@@ -1,28 +1,29 @@
 --- 
-title: "Performans günlüğünüze bilgi ekleme ve övgü gönderme"
+title: "Performans günlüğüne ekleme ve birine övgü gönderme"
 description: "Performans günlüğü hedeflerinizi nasıl gerçekleştirdiğinizle veya bir dönem içinde nasıl performans gösterdiğinizle ilgili bilgileri içerir."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 92cbb25839b8f202ba37a19ad88a54194a73c179
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="add-information-to-your-performance-journal-and-send-praise"></a>Performans günlüğünüze bilgi ekleme ve övgü gönderme
+# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Performans günlüğüne ekleme ve birine övgü gönderme
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -42,7 +43,7 @@ Performans günlüğü hedeflerinizi nasıl gerçekleştirdiğinizle veya bir d�
 9. Anahtar sözcükler alanına bir değer yazın.
 10. Harici bağlantı ekle'ye tıklayın.
 11. Açıklama alanına "Envision" yazın.
-12. İnternet adresi alanına '<https://www.microsoft.com/en/envision/default>' yazın.
+12. Internet adresi alanına "https://www.microsoft.com/tr/envision/default" yazın.
 13. Kılavuza dönmek için Kaydet düğmesinin altındaki "Performans günlüğü" başlığına tıklayın.
     * Seçilen günlük veya günlükleri bir hedefe ekleyebilirsiniz, böylece hedefi açtığınızda görünür. Bağlantılar hızı sekmesine bir bağlantı eklenir.    Bir hedefe bir günlük eklerseniz ve ardından hedefi bir gözden geçirmeye eklerseniz günlük otomatik olarak gözden geçirmede görünür.  
     * Seçilen günlük veya günlükleri bir gözden geçirmeye ekleyebilirsiniz, böylece gözden geçirmeyi açtığınızda görünür.    Bağlantılar hızı sekmesine bir bağlantı eklenir.  

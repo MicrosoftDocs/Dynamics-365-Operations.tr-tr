@@ -1,21 +1,22 @@
----
+--- 
 title: "Yeni ambar düzeni oluşturma"
 description: "Bu yordam, ambardaki konumlarla ilgili bilgilerin nasıl ayarlanacağını gösterir."
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 253440d81edd6f71b52ae349398e3c6a895bf05c
@@ -49,7 +50,7 @@ Bu yordam, ambardaki konumlarla ilgili bilgilerin nasıl ayarlanacağını göst
 7. Konum adları bölümünün genişletilmiş görünümüne geçin.
     * Bu bölümdeki seçenekler, konum adları için varsayılan biçimi belirler. Örneğimizde, koridor numarasını, dolap numarasını ve raf numarasını ekleyeceğiz.  
 8. Koridoru dahil et seçeneğini Evet olarak ayarlayın.
-9. Dolabı dahil et seçeneğini Evet olarak ayarlayın.
+9. Dolabı dahil et seçeneğini Evet olarak ayarlayın. 
 10. Biçin alanına, dolap için bir değer girin.
     * Örneğin: -##  
 11. Raf dahil et seçeneğini Evet olarak ayarlayın.
@@ -74,4 +75,5 @@ Bu yordam, ambardaki konumlarla ilgili bilgilerin nasıl ayarlanacağını göst
 14. Son düğmesini tıklatın.
 15. Sayfayı kapatın.
 16. Sayfayı yenileyin.
+
 

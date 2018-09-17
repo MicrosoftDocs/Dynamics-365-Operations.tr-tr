@@ -3,24 +3,25 @@ title: "Yalın imalat iş hücrelerini tanımlama"
 description: "İş hücresi, yalın üretim işlem faaliyetlerinde kullanılabilen kaynak gruplarının belirli bir biçimidir."
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WrkCtrResourceGroup, InventLocationIdLookup, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f060f084baab055a51e390f488ca2553bd997b92
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1d2381c045f9f0f98b35912fa732f3627b038785
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>Yalın imalat iş hücrelerini tanımlama
@@ -75,7 +76,7 @@ ms.lasthandoff: 11/03/2017
 30. Ekle öğesini tıklatın.
 31. Üretim akışı modeli alanında, aramayı açmak için açılır menü düğmesini tıklatın.
 32. Listede, istenen kaydı bulun ve seçin.
-    * Bu yordam, iş çıkarma kapasitesinin tanımını gösterebilmek için İş çıkarma yeteneği üretim akışı modeli türünün kullanılmasını gerektirir.  
+    * Bu yordamlar, iş çıkarma kapasitesinin tanımını gösterebilmek için İş çıkarma yeteneği üretim akışı modeli türünün kullanılmasını gerektirir.  
 33. Listede, seçili satırdaki bağlantıya tıklayın.
 34. Kapasite dönemi alanında bir seçenek belirtin.
     * Seçenekler şunlardır:   Standart iş günü - Kapasite, iş hücresi için çalışma zamanı takviminin standart çalışma gününün uzunluğuyla ifade edilir. Her gün için, fiili çalışma süresi takvimden belirlenir ve etkin kullanılabilir kapasite bu temel alınarak hesaplanır.   Hafta - Bir haftalık kapasite sağlar. Fiili çalışma zamanına göre yapılan bir ayarlama yoktur.   Ay - Bir aylık kapasite sağlar. Fiili kapasiteye göre yapılan bir ayarlama yoktur.   Genellikle, standart iş günü günlük dönemler için kullanılırken haftalık kapasite haftalık kapasite dönemleri için kullanılır.  

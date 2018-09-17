@@ -3,24 +3,25 @@ title: "Mobil iş cihazında ilerlemeyi rapor etme"
 description: "Bu yordam, iş cihazı kayıt formundaki üretim işiyle ilgili ilerlemenin nasıl başlatılacağını ve raporlanacağını gösterir."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: JmgRegistrationTouch, JmgRegistrationTouchUserConfiguration, JmgRegistrationTouchStart, JmgRegistrationTouchReportFeedback, JmgRegistrationTouchAssignedJobs, JmgRegistrationTouchBreak, JmgRegistrationTouchLeave, JmgRegistrationTouchIndirectActivity, JmgDialogForm
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8a0432b5ff01bf88b9c18de0cac0661618c654ba
+ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
+ms.openlocfilehash: acbedc6d27624d9a8d1e6fb9bb0d9abed1b4377f
 ms.contentlocale: tr-tr
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>Mobil iş cihazında ilerlemeyi rapor etme
@@ -31,10 +32,10 @@ Bu yordam, iş cihazı kayıt formundaki üretim işiyle ilgili ilerlemenin nas�
 
 
 
-Bu yordamı çalıştırabilmek için kullanıcı hesabı ile ilişkili Sistem yöneticisi veya Makine Operatörü rolünüz olmalıdır.
+Bu yordamı çalıştırabilmek için kullanıcı hesabı ile ilişkili Sistem yöneticisi veya Makine operatörü rolünüz olmalıdır.
 
 1. Üretim denetimi > Üretim yürütme > İş kartı cihazı'na gidin.
-2. WorkerTextField alanında çalışanın unvanını girin. USMF demo verisinde Canan Yılmaz için '123' yazın.
+2. WorkerTextField alanında çalışanın unvanını girin. USMF demo verisinde Canan Yılmaz için '123' yazın...
 3. Oturum aç'ı tıklatın.
 4. Filtre düğmesini tıklatın.
 5. Yapılandırma filtresi uygula onay kutusunu işaretleyin veya işaretini kaldırın. Bir filtre ayarlarsanız, USMF'de 110 üretim birimini kullanabilirsiniz.

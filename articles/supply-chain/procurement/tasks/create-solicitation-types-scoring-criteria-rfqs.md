@@ -3,18 +3,19 @@ title: "RFQ'lar için talep türleri ve puanlama ölçütleri oluşturma"
 description: "Bu kılavuzda bir talep türünün nasıl oluşturulacağı ve bunun puanlama yöntemi ile nasıl ilişkilendirileceği gösterilir."
 author: mkirknel
 manager: AnnBe
-ms.date: 08/23/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchRFQSolicitationType, PurchRFQCaseTableListPage, PurchCreateRFQCase, PurchRFQCaseTable, PurchRFQScoringRFQCaseCriteria, PurchRFQScoringCriteriaCopy
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 095855d552d228375635bdbaa9fca37c47a3b952
@@ -42,6 +43,7 @@ Bu kılavuzda bir talep türünün nasıl oluşturulacağı ve bunun puanlama y�
 1. Tedarik ve kaynak atama > Teklif talepleri > Tüm teklif talepleri öğesine gidin.
 2. Yeni'ye tıklayın.
 3. Talep türü alanında yeni oluşturduğunuz talep türünü seçin. 
+    *   
 4. Tamam'a tıklayın.
 5. Puanlama ölçütü'ne tıklayın.
     * Gösterilen puanlama ölçütü, talep türüyle ilişkili puanlama yönteminden olanlardır. Bu sayfadan ölçüt ekleyebilir veya silebilirsiniz. Diğer puanlama yöntemlerinden kopyalayarak yeni ölçüt eklemek de mümkündür.  

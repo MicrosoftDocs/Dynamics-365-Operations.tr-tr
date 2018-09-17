@@ -3,7 +3,7 @@ title: "Kapatmaya genel bakış"
 description: "Bu makalede kapatma süreci hakkında genel bilgiler verilmiştir. Kapatılabilecek hareketlerin türleri, hareketlerin ne zaman ve nasıl kapatılabileceği ve kapatma sürecinin sonuçları açıklanmıştır."
 author: kweekley
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,8 +16,8 @@ ms.custom: 14551
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.search.validFrom: 2018-10-31
+ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
 ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
 ms.openlocfilehash: 2f1f11a7f1340d408374e658ae616ffa99f3c911
@@ -51,7 +51,6 @@ Hareketler kapatıldıkça, her bir hareketin devreden bakiyesi uygun şekilde a
 -   Ödeme tutarı fatura tutarına eşitse, hem ödeme hem de fatura kapatılır ve her ikisinin de bakiyesi 0,00 olur.
 
 Bir [ödeme fatura tutarından düşükse](../accounts-payable/vendor-payments-partial-amount.md) (nakit iskontosu, ücret silme veya eksik ödeme yüzünden), fatura ve ödeme, Borç hesapları parametreleri ve Alacak hesapları parametreleri içinde kapatmanın kurulumuna bağlı olarak halen kapatılabilir. Kapatma, hareketler de üretebilir. Örneğin, bir faturanın ve ödemenin kapatılması, nakit iskontosu, gerçekleşmiş kar veya zarar, satış vergisi düzeltmeleri, ücret silme veya kuruş farkları doğurabilir.
-
 
 
 

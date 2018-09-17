@@ -3,23 +3,24 @@ title: "Müşteri ödeme koşulları oluşturma"
 description: "Bu prosedürde bir nakit iskontosu ve vade tarihi kurulumu tanımlanmaktadır."
 author: aprilolson
 manager: AnnBe
-ms.date: 10/26/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
-ms.openlocfilehash: 04b45508047d26ef7c08ede5862be75835783ef5
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 4e0e43962bea3ff1c3adafa73da4ce3862963a51
 ms.contentlocale: tr-tr
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="establish-customer-payment-terms"></a>Müşteri ödeme koşulları oluşturma

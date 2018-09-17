@@ -1,28 +1,29 @@
 --- 
-title: "Önceki sorunun yanıtına bağımlı sorular hazırlama"
+title: "Önceki sorunun yanıtına bağımlı bir soru hazırlama"
 description: "Koşullu sorular, yanıtlayan kişinin önceki soruya verdiği cevaba göre hangi sorunun bir sonra sorulacağını belirlemenize olanak sağlar."
-author: ShylaThompson
+author: twheeloc
 manager: AnnBe
-ms.date: 02/12/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 3e0a6d63a266bf49764c8cdcfd407ff0733ea27c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d3221a62079e719c1d9d6f2df8edf8c5ed5584b7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="make-questions-dependent-on-the-answer-of-the-previous-question"></a>Önceki sorunun yanıtına bağımlı sorular hazırlama
+# <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Önceki sorunun yanıtına bağımlı bir soru hazırlama
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
