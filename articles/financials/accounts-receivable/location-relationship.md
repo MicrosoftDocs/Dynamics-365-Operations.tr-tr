@@ -28,6 +28,8 @@ ms.lasthandoff: 06/12/2018
 
 # <a name="add-location-roles-and-party-relationship-types"></a>Konum rolleri ve taraf ilişkisi türleri ekleme 
 
+[!include [banner](../includes/banner.md)]
+
 ## <a name="add-location-roles"></a>Konum rolleri ekleme
 
 Adres ve iletişim bilgileri için yeni konum rolleri eklemenin iki yolu vardır:

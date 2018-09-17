@@ -26,6 +26,8 @@ ms.lasthandoff: 08/09/2018
 ---
 # <a name="remove-talent-environments"></a>Talent ortamlarını kaldırma
 
+[!include [banner](includes/banner.md)]
+
 Bu konuda, Microsoft Dynamics 365 for Talent için bir test ortamını veya üretim ortamı kaldırma işlemini adım adım gösterir.
 
 ## <a name="removing-a-test-drive-environment"></a>Bir test ortamını kaldırma
