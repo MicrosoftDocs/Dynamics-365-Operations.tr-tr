@@ -18,13 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 5080f1ec182b8cbdf281967185a1afeb9887f682
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: e0422a5b7ac227ad03ccafb4e34e614dc770a363
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 # <a name="remove-talent-environments"></a><span data-ttu-id="abd40-103">Talent ortamlarını kaldırma</span><span class="sxs-lookup"><span data-stu-id="abd40-103">Remove Talent environments</span></span>
+
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="abd40-104">Bu konuda, Microsoft Dynamics 365 for Talent için bir test ortamını veya üretim ortamı kaldırma işlemini adım adım gösterir.</span><span class="sxs-lookup"><span data-stu-id="abd40-104">This topic walks you through the process of removing a test drive or production environment for Microsoft Dynamics 365 for Talent.</span></span>
 

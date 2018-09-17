@@ -16,14 +16,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: fbf99e6c01101209bf9e2a213c8008f50e67ad68
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 2e7b62de678788325534b351e17d95002590e963
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-december-2017"></a><span data-ttu-id="da252-104">Yeni veya güncelleştirilmiş görev kılavuzları (Aralık 2017)</span><span class="sxs-lookup"><span data-stu-id="da252-104">New or updated task guides (December 2017)</span></span>
+
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="da252-105">Bu konu, Microsoft Dynamics 365 for Operations için Microsoft (Aralık 2016 - tüm diller) APQC Birleştirilmiş Kitaplığı'nda yayımlanan yeni veya güncelleştirilmiş görev kılavuzlarını listeler.</span><span class="sxs-lookup"><span data-stu-id="da252-105">This topic lists the new or updated Task guides that were released to the Microsoft (December 2016 - all languages) APQC Unified Library for Microsoft Dynamics 365 for Operations.</span></span>
 
