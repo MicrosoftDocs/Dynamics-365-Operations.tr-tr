@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: e927e45511c5e6c232457a76b2d1fab160fe0f5a
+ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
+ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -35,7 +35,9 @@ ms.lasthandoff: 08/09/2018
 <span data-ttu-id="3639a-105">Proje, bir servis sağlamak, bir ürün üretmek veya bir sonuç elde etmek üzere tasarlanmış etkinlikler grubudur.</span><span class="sxs-lookup"><span data-stu-id="3639a-105">A project is a group of activities that is designed to provide a service, produce a product, or achieve a result.</span></span> <span data-ttu-id="3639a-106">Proje kaynakları kullanır ve gelirler veya kıymetler biçiminde finansal sonuçlar üretir.</span><span class="sxs-lookup"><span data-stu-id="3639a-106">Projects consume resources and generate financial results in the form of revenues or assets.</span></span>
 
 ## <a name="projects-across-industries"></a><span data-ttu-id="3639a-107">Endüstrilerdeki projeler</span><span class="sxs-lookup"><span data-stu-id="3639a-107">Projects across industries</span></span>
-<span data-ttu-id="3639a-108">Proje yönetimi ve muhasebe işlevi, aşağıdaki şekilde gösterildiği gibi birden fazla endüstride kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="3639a-108">The project management and accounting functionality can be used in multiple industries, as shown in the following illustration.</span></span> <span data-ttu-id="3639a-109">[![Endüstriler arasındaki projeler](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span><span class="sxs-lookup"><span data-stu-id="3639a-109">[![Projects accross industries](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span></span> 
+<span data-ttu-id="3639a-108">Proje yönetimi ve muhasebe işlevi, aşağıdaki şekilde gösterildiği gibi birden fazla endüstride kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="3639a-108">The project management and accounting functionality can be used in multiple industries, as shown in the following illustration.</span></span>
+
+<span data-ttu-id="3639a-109">[![Endüstriler arasındaki projeler](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span><span class="sxs-lookup"><span data-stu-id="3639a-109">[![Projects accross industries](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span></span> 
 
 <span data-ttu-id="3639a-110">Çağrı merkezinde bir bilet, bir çağrının çözülmesi için gerekli eylemlerin tanımlanması için kullanılabilir.</span><span class="sxs-lookup"><span data-stu-id="3639a-110">In a call center, a ticket can be used to describe the set of actions that are required to resolve a call.</span></span> <span data-ttu-id="3639a-111">Yönetim veya teknik danışmanlık kuruluşları veya reklam acenteleri gibi danışmanlık şirketleri projeler olarak bu etkinliklere bakar.</span><span class="sxs-lookup"><span data-stu-id="3639a-111">Consulting companies, such as management or technical consulting organizations or advertising agencies, refer to their activities as projects.</span></span> <span data-ttu-id="3639a-112">Pazarlamada, kampanya temsil edilmesi gereken iş kümesini temsil eder.</span><span class="sxs-lookup"><span data-stu-id="3639a-112">In marketing, a campaign represents a set of work that must be delivered.</span></span> <span data-ttu-id="3639a-113">Projeye dayalı üretimlerde bir üretim emri, hedeflenen nihai ürünlerin üretilmesi için gerçekleştirilmesi gereken çeşitli çalışmaları kapsar.</span><span class="sxs-lookup"><span data-stu-id="3639a-113">In project-based manufacturing, a production order relates the various work that must be done to produce some finished goods.</span></span> <span data-ttu-id="3639a-114">Bu projeler nasıl adlandırılırsa adlandırılsın kaynaklar, planlar ve maliyetler içerir ve Microsoft Dynamics 365 for Finance and Operations'taki proje yönetimi ve muhasebe işlevi bu projelerin planlanması, uygulanması ve analiz edilmesine yardımcı olabilir.</span><span class="sxs-lookup"><span data-stu-id="3639a-114">Whatever name is used for them, these projects involve resources, schedules, and costs, and the project management and accounting functionality in Microsoft Dynamics 365 for Finance and Operations can help with the planning, execution, and analysis of these projects.</span></span>
 
