@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 368468a1c1cd023862f1405dddf3a90574edce22
+ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
+ms.openlocfilehash: 7925a37c595f5ffa040747462d3ea60a3da41858
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/29/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 08/09/2018
 [!include [banner](includes/banner.md)]
 
 > [!NOTE]
-> Bu özelliği daha iyi bir algoritma ve daha yeni perakende odaklı yeteneklerle yeniden tasarladığımızdan ürün öneri hizmetinin geçerli sürümünü kaldırıyoruz. Daha fazla bilgi için bkz. [Kaldırılan veya artık kullanılmayan özellikler](../dev-itpro/migration-upgrade/deprecated-features.md). Ortamınız için zaten etkin ürün önerileri ile ilgili sorunlarla karşılaşırsanız sayfanın alt kısmına gidin. 
+> Bu özelliği daha iyi bir algoritma ve daha yeni perakende odaklı yeteneklerle yeniden tasarladığımızdan ürün öneri hizmetinin geçerli sürümünü kaldırıyoruz. Daha fazla bilgi için bkz. [Kaldırılan veya artık kullanılmayan özellikler](../dev-itpro/migration-upgrade/deprecated-features.md). 
 
 Dynamics 365 for Retail'da, ürün önerileri satış noktası cihazında (POS) görüntülenebilir. Öneriler satınalma geçmişi, istek listelerindeki maddeler ve diğer müşterilerin çevrimiçi ve fiziksel mağazalardan aldıkları maddelere dayanarak müşterilerin ilgi duyabilecekleri maddelerdir. Büyük kataloglara sahip perakendeciler için öneriler müşterinin ürün bulmasına yardımcı olur. Müşterinin ilgi alanlarını ve satın alma alışkanlıklarını hedefleyen ürünleri sunarak , ürün önerileri perakendecilere çapraz satış ve yukarı satış konusunda yardımı olabilir ve müşteri tutmayı geliştirebilir. Dynamics 365 for Retail'de ürün önerileri bilişsel hizmetler ve Microsoft Azure makine öğrenimiyle desteklenir.
 

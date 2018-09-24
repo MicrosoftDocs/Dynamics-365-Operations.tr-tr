@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 07b6f433a8355d7f9ed6dce8e26f78d38a86a713
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,32 +36,27 @@ Bu konu, Power BI **Satınalma harcaması** analizinde nelerin bulunduğunu aç�
 
 **Satınalma harcaması analizi** Power BI içeriği satınalma yöneticilerine ve bütçelerden sorumlu yöneticilere satınalma harcamalarını izleme konusunda yardımcı olmak üzere tasarlanmıştır. Yöneticiler satınalma harcamasını aşağıdaki şekillerde analiz edebilirler:
 
--   Yılbaşından bugüne satınalma (satıcı grubu ve tek tek satıcılara, tedarik kategorisine ve bireysel ürünlere ve satıcı konumuna göre)
--   Yıldan yıla satınalma değişikliği (satıcı grubu ve tedarik kategorisine göre)
+- Yılbaşından bugüne satınalma (satıcı grubu ve tek tek satıcılara, tedarik kategorisine ve bireysel ürünlere ve satıcı konumuna göre)
+- Yıldan yıla satınalma değişikliği (satıcı grubu ve tedarik kategorisine göre)
 
 İçerik, alınan satınalma hareketi verilerini kullanır ve hem şirket çapında satınalma rakamlarının toplam görünümünü hem de satıcı ve ürünler için satınalma harcamasının dağılımını verir. Raporlar satınalma harcamalarında zaman içindeki değişiklikleri öne çıkarır. Bu nedenle, raporlar yöneticileri ayrı satıcılar ve ürünlerle ilgili olarak pozitif ve negatif harcama eğilimleri hakkında uyarmak için kullanılabilir. Ek olarak grafikler farklı tedarik kategorileri ve satıcı grupları için satınalma harcamasını gösterir. Bu nedenle, kategori ve bölgesel yöneticiler, harcama davranışındaki değişiklikleri tanımlamaya yardımcı olması açısından bu grafikleri kullanabilirler.
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
-**Satınalma harcaması analizi** Power BI içeriği **Satın alma ve harcama analizi** sayfasında gösterilir (**Tedarik ve kaynak atama** > **Sorgulamalar ve raporlar** > **Satın alma performansı analizi** > **Satın alma ve harcama analizi**). 
+**Satınalma ve harcama analizi** Power BI içeriği **Satın alma ve harcama analizi** sayfasında gösterilir (**Tedarik ve kaynak atama** \> **Sorgular ve raporlar** \> **Satın alma performansı analizi** \> **Satın alma ve harcama analizi**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan ölçümler
 **Satın alma harcaması analizi** Power BI içeriği bir dizi ölçümden oluşan bir rapor içerir. Bu ölçümler grafikler, kutucuklar ve tablolar şeklinde görüntülenir. Aşağıdaki tabloda, görsellere yönelik genel bakış sunulur.
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Rapor sayfası</th>
 <th>Grafikler</th>
 <th>Kutucuklar</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Satıcıya göre satınalma</td>
 <td><ul>
 <li>Satınalmaya göre en iyi 10 satıcı (yığılmış çubuk grafik)</li>
@@ -76,7 +71,7 @@ Bu konu, Power BI **Satınalma harcaması** analizinde nelerin bulunduğunu aç�
 <li>Toplam etkin satıcı sayısı</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Ürüne göre satın alma</td>
 <td><ul>
 <li>Tedarik kategorisine / ürün adına göre satınalma (sütun grafiği)</li>
@@ -89,7 +84,7 @@ Bu konu, Power BI **Satınalma harcaması** analizinde nelerin bulunduğunu aç�
 <li>Satınalmanın %80'ini oluşturan ürünlerin sayısı</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Döneme göre satınalma*</td>
 <td><ul>
 <li>Aya / güne göre satınalma (sütun grafiği)</li>
@@ -102,7 +97,7 @@ Bu konu, Power BI **Satınalma harcaması** analizinde nelerin bulunduğunu aç�
 <li>Yıllara göre satınalmadaki büyüme yüzdesi</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Satıcı konumuna göre satınalma</td>
 <td><ul>
 <li>Şehre göre satınalma</li>
@@ -111,7 +106,7 @@ Bu konu, Power BI **Satınalma harcaması** analizinde nelerin bulunduğunu aç�
 </ul></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Zaman göre satınalma harcaması analizi</td>
 <td><ul>
 <li>Aya / güne göre geçerli yıldaki satın alma (çizgi grafiği)</li>
@@ -119,7 +114,7 @@ Bu konu, Power BI **Satınalma harcaması** analizinde nelerin bulunduğunu aç�
 </ul></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Satıcıya göre satınalma harcaması analizi</td>
 <td><ul>
 <li>İlk 10 satıcı satınalmanın satınalmaya göre yüzdesi (huni)</li>
@@ -148,7 +143,7 @@ Aşağıdaki tablo içerikte Fatura satırları varlığından hesaplanan anahta
 |-----------------------|-----------------------------------------------------------------------------------------------------|
 | Geçerli yıldaki satınalma | Geçerli yıldaki satınalma = TOPLA('Fatura satırları'\[Satınalma\])                                            |
 | Geçen yılki satınalma    | Geçen yılki satınalma = HESAPLA(TOPLA('Fatura satırları'\[Satınalma\]), SAMEPERIODLASTYEAR (Tarihler\[Tarih\]) |
-| Yıllara göre satınalmadaki büyüme   | Yıllara göre satınalmadaki büyüme = \[Geçerli yıldaki satınalma\] – \[Geçen yıldaki satınalma\]                            |
+| Yıllara göre satınalmadaki büyüme   | Yıllara göre satınalmadaki büyüme = \[Geçerli yıldaki satınalma\]: \[Geçen yıldaki satınalma\]                            |
 
 İçerikte bulunan aşağıdaki temel boyutları, daha büyük hassasiyet ve daha derin analiz bilgileri elde edebilmeniz amacıyla toplama ölçümlerini bölmek üzere filtre olarak kullanılır.
 

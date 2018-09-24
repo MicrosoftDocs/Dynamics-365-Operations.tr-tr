@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 476b53d7e5a5ee764c23034344f375fff5db47e8
+ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
+ms.openlocfilehash: 8021e54fdd5c4c71c016e52801d3f2f627de761b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/29/2018
 
 ---
 
@@ -38,7 +38,7 @@ Videolar içeriğe göre sıralanmıştır. Bu nedenle tüm video içeriği list
 
 #### <a name="data-integration"></a>Veri tümleştirme
 - [Müşteriden nakde tümleştirmesi](https://youtu.be/AVV9x5x-XCg) 
-- [Dynamics 365 Field Service ile Finance and Operations arasında bir iş emrini eşitleme](https://www.youtube.com/watch?v=hAB4TDVMjxU&t=2s)
+- [Dynamics 365 Field Service ile Finance and Operations arasında bir iş emrini eşitleme](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>Veri yönetimi
 - [Dynamics 365 for Finance and Operations'da veri varlıklarını ve veri paketlerini kullanma](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
@@ -61,6 +61,7 @@ Videolar içeriğe göre sıralanmıştır. Bu nedenle tüm video içeriği list
 
 #### <a name="intelligence"></a>Zeka
 - [Dynamics 365 for Finance and Operations'a kendi veritabanınızı getirin (BYOD)](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Dynamics 365'te maliyet yönetimi Power BI içeriğini kullanma](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 #### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
 - [Lifecycle Services'da varlık kitaplığı](https://www.youtube.com/watch?v=z-2xMRa1nOs)
@@ -93,6 +94,9 @@ Videolar içeriğe göre sıralanmıştır. Bu nedenle tüm video içeriği list
 - [Toplu iş dengelemesi](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
 - [Üretim emri serbest bırakma sürecindeki geliştirmeler](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
 - [Ürün ve toplu siparişler için Gantt grafiğiyle görsel planlama](https://youtu.be/BtbuShkGj4I)
+
+#### <a name="tax-engine"></a>Vergi altyapısı
+- [Vergi altyapısına genel bakış](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 
 #### <a name="warehouse-management"></a>Ambar yönetimi
 - [Üretim malzeme çekmeyi toplu işte ambara serbest bırakma](https://youtu.be/8urAJn50dQ8)

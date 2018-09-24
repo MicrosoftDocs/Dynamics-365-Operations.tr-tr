@@ -16,10 +16,10 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -54,7 +54,7 @@ Başlamadan önce, çalışma alanına katıştıracağınız Power BI raporunu 
 Bir .pbix doyasını bir Visual Studio yapıtı olarak eklemek için şu adımları izleyin.
 
 1. Uygun modelde yeni bir proje oluşturun.
-2. Çözüm Gezgini'nde projeye sağ tıklayın ve sonra **Ekle** > **Yeni Madde**'yi seçin.
+2. Çözüm Gezgini'nde projeyi seçip sağ tıklayın ve ardından **Ekle** \> **Yeni Öğe**'yi seçin.
 3. **Yeni Madde Ekle** iletişim kutusunda, **Operasyonlar Yapıları** altında **Kaynak** şablonunu seçin.
 4. X++ meta verisindeki raporu referans olarak kullanacak bir ad girin ve **Ekle**'yi tıklatın.
 
@@ -77,7 +77,7 @@ Aşağıdaki görsel, **FMClerkWorkspace** formunun Microsoft Visual Studio tasa
 
 1. Tasarım tanımını genişletmek için form tasarımcısını açın.
 2. Tasarım tanımında, **Tasarım | Desen: Çalışma Alanı Operasyonel** olarak etiketlenmiş üst öğeyi seçin.
-3. Sağ tıklayın ve daha sonra **FormTabControl1** adında yeni bir denetim eklemek için **Yeni** > **Sekme**'yi seçin.
+3. Sağ tıklayın ve ardından **FormTabControl1** adında yeni bir denetim eklemek için **Yeni** \> **Sekme**'yi seçin.
 4. Form tasarımcısında **FormTabControl1**'i seçin.
 5. Sağ tıklayın ve daha sonra yeni bir sekme sayfası eklemek için **Yeni Sekme Sayfası**'nı seçin.
 6. Sekme sayfasının adını **Çalışma alanı** gibi anlamlı bir şeye değiştirin.
@@ -86,12 +86,12 @@ Aşağıdaki görsel, **FMClerkWorkspace** formunun Microsoft Visual Studio tasa
 9. Sekme sayfasının adını **Analizler** gibi anlamlı bir şeye değiştirin.
 10. Form tasarımcısında **Analizler (Sekme Sayfası)**'nı seçin.
 11. **Başlık** özelliğin **Analizler** olarak ayarlayın.
-12. Kontrole sağ tıklayın ve daha sonra yeni bir form grup denetimi eklemek için **Yeni** > **Grup**'u seçin.
+12. Denetime sağ tıklayın ve ardından yeni bir form grubu denetimi eklemek için **Yeni** \> **Grup**'u seçin.
 13. Form grubunun adını **powerBIReportGroup** gibi anlamlı bir şeye değiştirin.
 14. Form tasarımcısında **PanoramaBody (Sekme)** seçin. ve denetimi **Çalışma alanı** sekmesine sürükleyin.
 15. Tasarım tanımında, **Tasarım | Desen: Çalışma Alanı Operasyonel** olarak etiketlenmiş üst öğeyi seçin.
 16. Sağ tıklayın ve daha sonra **Deseni sil**'i seçin.
-17. Yeniden sağ tıklayın ve **Desen ekle** > **Sekmeli Çalışma Alanı**'nı seçin.
+17. Yeniden sağ tıklayın ve ardından **Desen ekle** \> **Sekmeli Çalışma Alanı**'nı seçin.
 18. Yaptığınız değişiklikleri doğrulamak için bir yapı gerçekleştirin.
 
 Aşağıdaki görsel, bu değişiklikler uygulandıktan sonra tasarımın nasıl görüneceğini gösterir.
@@ -103,7 +103,7 @@ Aşağıdaki görsel, bu değişiklikler uygulandıktan sonra tasarımın nasıl
 > [!NOTE]
 > Katıştırılmış çalışma alanları için tutarlılık amacıyla hem **Filtrelre Bölmesi** hem de **Sekme** sayfasını gizleyecek uzantılar kullanmanızı öneririz.
 
-Şimdi uygulama form tanımını genişletme görevini tamamladınız. Uzantıların nasıl kullanılacağı ve özelleştirmelerin nasıl yapılacağına dair daha fazla bilgi için bkz.  [Özelleştirme: Katmanlama ve uzantılar](../extensibility/customization-overlayering-extensions.md).
+Şimdi uygulama form tanımını genişletme görevini tamamladınız. Uzantıların nasıl kullanılacağı ve özelleştirmelerin nasıl yapılacağıyla ilgili daha fazla bilgi için bkz. [Özelleştirme: Yer paylaşımı ve uzantılar](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Bir görüntüleyici denetimi katıştırmak için X++ iş mantığı ekleyin
 **Rezervasyon yönetimi** çalışma alanına katıştırılmış olan rapor görüntüleyici denetimini başlatan bir iş mantığı eklemek için bu adımları izleyin.
@@ -116,7 +116,7 @@ Aşağıdaki görsel, bu değişiklikler uygulandıktan sonra tasarımın nasıl
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
-        private boolean initReportControl = true;     
+        private boolean initReportControl = true;
         protected void initAnalyticalReport()
         {
             if (!initReportControl)
@@ -126,11 +126,11 @@ Aşağıdaki görsel, bu değişiklikler uygulandıktan sonra tasarımın nasıl
             // Note: secure entry point into the Workspace's Analytics report
             if (Global::hasMenuItemAccess(menuItemDisplayStr(FMClerkWorkspace), MenuItemType::Display))
             {
-                FMPBIWorkspaceController controller = new FMPBIWorkspaceController();
+                // initialize the PBI report control using shared helper
                 PBIReportHelper::initializeReportControl('FMPBIWorkspaces', powerBIReportGroup);
             }
             initReportControl = false;
-    }
+        }
         /// <summary>
         /// Initializes the form.
         /// </summary>
@@ -159,23 +159,22 @@ Bu bölüm, bir Power BI raporunu (.pbix kaynağı) bir form grubu denetimine ek
 #### <a name="syntax"></a>Sözdizimi
 ```
 public static void initializeReportControl(
-     str                 _resourceName,
-     FormGroupControl    _formGroupControl,
-     str                 _defaultPageName = '',
-     boolean             _showFilterPane = false,
-     boolean             _showNavPane = false,
-     List                _defaultFilters = new List(Types::Class))
+    str                 _resourceName,
+    FormGroupControl    _formGroupControl,
+    str                 _defaultPageName = '',
+    boolean             _showFilterPane = false,
+    boolean             _showNavPane = false,
+    List                _defaultFilters = new List(Types::Class))
 ```
 
 #### <a name="parameters"></a>Parametreler
 
-|       Dosya Adı       |                                                              Açıklama                                                               |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-|   resourceName   |                                                    .pbix kaynağının adı.                                                     |
-| formGroupControl |                                    Power BI rapor denetiminin uygulanacağı form grup denetimi.                                     |
-| defaultPageName  |                                                         Varsayılan sayfa adı.                                                         |
-|  showFilterPane  |   Bir Boole değeri, filtre panosunun gösterilip (<strong>doğru</strong>) gösterilmeyeceğini (<strong>yanlış</strong>) belirtir.   |
-|   showNavPane    | Bir Boole değeri, gezinti panosunun gösterilip (<strong>doğru</strong>) gösterilmeyeceğini (<strong>yanlış</strong>) belirtir. |
-|  defaultFilters  |                                              Power BI raporu için varsayılan filtreler.                                              |
-
+| Dosya Adı             | Açıklama                                                                                                  |
+|------------------|--------------------------------------------------------------------------------------------------------------|
+| resourceName     | .pbix kaynağının adı.                                                                              |
+| formGroupControl | Power BI rapor denetiminin uygulanacağı form grup denetimi.                                              |
+| defaultPageName  | Varsayılan sayfa adı.                                                                                       |
+| showFilterPane   | Bir Boole değeri, filtre panosunun gösterilip (**doğru**) gösterilmeyeceğini (**yanlış**) belirtir.     |
+| showNavPane      | Bir Boole değeri, gezinti panosunun gösterilip (**doğru**) gösterilmeyeceğini (**yanlış**) belirtir. |
+| defaultFilters   | Power BI raporu için varsayılan filtreler.                                                                 |
 

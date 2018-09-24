@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -39,7 +39,7 @@ Bu konu, **Personel gelişimi** Microsoft Power BI içeriğini açıklar.
 | Personel Yetenek Seviyesi Analizi | Bölüme göre personel yetenek seviyeleri, yetenek seviyesine ve yetenek türüne göre ve en düşük ve en yüksek seviyelere göre personeller |
 | Yetenek Profili                 | Seçilen personelin yetenek profili |
 | Yetenek Analizi                | Tür ve derecelendirmeye göre yetenekler |
-| Performans Derecelendirme Analizi   | İşe göre en yüksek ve en düşük dereceli personeller, bölüme göre personel derecelendirmeleri, derecelendirme ve pozisyon türüne göre ve en yüksek ve en düşük pozisyonlara göre personeller  |
+| Performans Derecelendirme Analizi   | İşe göre en yüksek ve en düşük dereceli personeller, bölüme göre personel derecelendirmeleri, derecelendirme ve pozisyon türüne göre ve en yüksek ve en düşük pozisyonlara göre personeller |
 | Personel Performans Analizi | Yöneticiye göre seçili derecelendirme için personel derecelendirmeleri |
 
 Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve kutuları panoya sabitleyebilirsiniz. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir Pano Oluşturma ve Yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
@@ -48,10 +48,10 @@ Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve ku
 
 | Varlık                   | İçindekiler                                                                                                   | Diğer varlıklarla ilişkiler |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| Takvim Kaydırma          | Raporları dilimlemek için takvim kaydırmaları                                                                          | Geçmiş Pozisyon Ataması, Pozisyon Eğilimi, Personel Eğilimi, Sonlandırılan Personel 
+| Takvim Kaydırma          | Raporları dilimlemek için takvim kaydırmaları                                                                          | Geçmiş Pozisyon Ataması, Pozisyon Eğilimi, Personel Eğilimi, Sonlandırılan Personel |
 | Şirket                  | Raporların filtreleneceği şirketler                                                                             | Geçerli Personel, Sonlandırılan Personel, Personel Eğilimi |
 | Geçerli Pozisyon         | Günün tarihine göre konumlar, tam zaman eşdeği (FTE), açık konumlar ve açıktan doldurulana konumlar | İş, Pozisyon |
-| Geçerli Personel         | Günün tarihi, ya ve insan sayısına göre çalışanlar                                                         | Şirket, Coğrafi Konum,  Personel Adı, Kime Rapor Verdiği, Personel Unvanı, Demografi, İş, Çalışma, Pozisyon |
+| Geçerli Personel         | Günün tarihi, ya ve insan sayısına göre çalışanlar                                                         | Şirket, Coğrafi Konum, Personel Adı, Bağlı Olduğu Kişi, Personel Unvanı, Demografi, İş, İstihdam, Pozisyon |
 | Tarih                     | Günler, haftalar, aylar ve yıllar                                                                             | Geçmiş Pozisyon Ataması, Pozisyon Eğilimi, Sonlandırılan Personel, Personel Eğilimi |
 | Demografi             | Doğum tarihi, cinsiyet, etnik köken ve medeni hal                                                   | Geçerli Personel, Sonlandırılan, Personel, Personel Eğilimi |
 | İstihdam               | Başlangıç tarihi, bitiş tarihi ve geçiş tarihi                                                                  | Geçerli Personel, Sonlandırılan Personel, Personel Eğilimi |
@@ -65,10 +65,9 @@ Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve ku
 | Personel Adı            | Adı, ikinci ad ve tam adı                                                                       | Geçerli Çalışan, Sonlandırılan Personel, Personel Eğilimi |
 | Personel Unvanı           | Başlık ve kıdem tarihi                                                                                   | Geçerli Personel, Sonlandırılan Personel, Personel Eğilimi |
 | Personel Eğilimi           | Zaman içerisinde çalışanlar, çalışan sayısı, şirket ve konum                                                        | Şirket, Coğrafi Konum, Personel Adı, Kime Rapor Verdiği, Takvim Kaydırma, Tarih, Personel Unvanı, Demografi, Çalışma, İş |
-| İş                      | İşlev, tür ve başlık                                                                                      | Geçerli Personel, Geçerli Pozisyon, Personel Eğilimi, İş Tercih Edilen Yetenek, Geçmiş Pozisyon Ataması, Pozisyon Eğilimi, Sonlandırılan Personel |
+| İş                      | İşlev, tür ve başlık                                                                                  | Geçerli Personel, Geçerli Pozisyon, Personel Eğilimi, İş Tercih Edilen Yetenek, Geçmiş Pozisyon Ataması, Pozisyon Eğilimi, Sonlandırılan Personel |
 | İş Tercih Edilen Yetenek      | Önem, derecelendirme, yetenek ve beceri düzeyi                                                                 | İş |
-| Personel Yetenek Analizi  | Sertifikalı, seviye, seviye tarihi ve yetenek                                                                    | Personel Ad, Yetenek |  
+| Personel Yetenek Analizi  | Sertifikalı, seviye, seviye tarihi ve yetenek                                                                    | Personel Ad, Yetenek |
 | Performans              | Değerlendirme, açıklama ve derecelendirme modeli                                                                      | Geçerli Personel, Geçerli Pozisyon, Personel Eğilimi, İş Tercih Edilen Yetenek, Geçmiş Pozisyon Ataması, Pozisyon Eğilimi, Sonlandırılan Personel |
-|  Yetenek                   | Beceri, beceri türü ve derecelendirme                                                                              | Personel Yetenek Analizi, İş Tercih Edilen Yetenek |                                                                                                                        
-
+| Yetenek                    | Beceri, beceri türü ve derecelendirme                                                                              | Personel Yetenek Analizi, İş Tercih Edilen Yetenek |
 

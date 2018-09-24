@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 78b41010e4ab56675121ab5479cada37645e9ee3
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 5483a1d40907fab3ed3da8174f1dfb8a5bc86960
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -30,25 +30,24 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](../includes/banner.md)]
 
-Bu makalede, finansal rapor tasarımcısında kullanıcı etkileşimlerinizi özelleştirmek için kullanıcı tercihlerinizi nasıl ayarlayacağınız ve başlangıç oturum açma deneyiminizi nasıl kontrol edeceğiniz açıklanmaktadır. Ayrıca tek tek raporların, rapor kitaplığının ve varsayılan dosya konumlarının nasıl görüntüleneceği de açıklanmaktadır. 
+Bu makalede, finansal rapor tasarımcısında kullanıcı etkileşimlerinizi özelleştirmek için kullanıcı tercihlerinizi nasıl ayarlayacağınız ve başlangıç oturum açma deneyiminizi nasıl kontrol edeceğiniz açıklanmaktadır. Ayrıca tek tek raporların, rapor kitaplığının ve varsayılan dosya konumlarının nasıl görüntüleneceği de açıklanmaktadır.
 
-<a name="set-user-preferences"></a>Kullanıcı tercihleri ayarlama
---------------------
+## <a name="set-user-preferences"></a>Kullanıcı tercihleri ayarlama
 
-1.  Rapor Tasarımcısı'nda **Araçlar** menüsünde **Seçenekler** öğesini tıklayın.
-2.  **Seçenekler** iletişim kutusundan tercihlerinizi seçin.
-3.  **Tamam** düğmesini tıklatın.
+1. Rapor Tasarımcısı'nda **Araçlar** menüsünde **Seçenekler** öğesini tıklayın.
+2. **Seçenekler** iletişim kutusundan tercihlerinizi seçin.
+3. **Tamam** düğmesini tıklatın.
 
 ## <a name="options-dialog-box-options"></a>Seçenekler iletişim kutusu seçenekleri
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Kullanıcı seçeneği</th>
 <th>Açıklama</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Başlangıçta</td>
 <td>Rapor Tasarımcısı başladığında gördüklerinizi seçin. Aşağıdaki seçeneklerden birini belirleyin:
 <ul>
@@ -57,28 +56,22 @@ Bu makalede, finansal rapor tasarımcısında kullanıcı etkileşimlerinizi öz
 <li><strong>Boş ortamı göster</strong>: Boş bir tasarımcı penceresi açın.</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Rapor Tasarımcısı'ndan çıkmadan önce onay göster</td>
 <td>Uygulamadan çıkarken bir uyarı iletisi almak isteyip istemediğinizi seçin. Bu ileti, programdan istemeden çıkmamanızı garantilemeye yardımcı olur.</td>
 </tr>
-<tr class="odd">
-<td>Sütun başlıklarında otomatik olarak hücre alt çizgisi uygula</td>
+<tr>
+<td>Sütun başlığı hücrelerini otomatik olarak altı çizili yap</td>
 <td>Yeni bir sütun başlığının hücresini, altı çizili hale getirip getirmeyeceğinizi seçin.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Management Reporter dosyalarının konumu</td>
 <td>Dosyalar için varsayılan konumu belirtin. Uygulama, yapı taşı gruplarını dışa aktarırken varsayılan konumu kullanır.</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Mali raporlama](financial-reporting-intro.md)
-
-
-
 

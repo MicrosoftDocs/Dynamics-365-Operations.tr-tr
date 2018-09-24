@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
-ms.openlocfilehash: d58bab48c65bb891155af95c79738b019e5760bf
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -66,13 +66,11 @@ Belirli varlıkları bir içe veya dışa aktarma işine ekleyin veya uygulanaca
 ### <a name="set-the-data-format-for-the-job"></a>İş için veri biçimlerini ayarlayın
 Bir varlık seçtiğinizde, içe veya dışa aktarılacak verinin biçimini seçmelisiniz. **Veri kaynakları kurulumu** kutucuğunu kullanarak biçimleri tanımlayabilirsiniz. Bir veri kaynağı biçimi **Tür**, **Dosya biçimi**, **Satır sınırlayıcı** ve **Sütun sınırlayıcı**'nin birleşimidir. Başka öznitelikler de vardır, ancak bunlar anlamanız gereken temel özniteliklerdir. Aşağıdaki tabloda geçerli bileşimler listelenmiştir.
 
-| **Dosya Biçimi**        | **Satır/Sütun sınırlayıcı**                   | **XML Stili**             |
+| Dosya Biçimi            | Satır/Sütun sınırlayıcı                       | XML Stili                 |
 |------------------------|--------------------------------------------|---------------------------|
 | Excel                  | Excel                                      | \-Yok-                     |
 | XML                    | \-Yok-                                      | XML- XML Öğesi-Öznitelik |
 | Sınırlandırılmış, sabit genişlik | Virgül, noktalı virgül, sekme, dikey çubuk, iki nokta üst üste | \-Yok-                     |
-
-
 
 ### <a name="sequence-the-entities"></a>Varlıkları sıralayın
 Varlıklar bir veri şablonunda veya içe veya dışa aktarma işlerinde sıralanabilir. Birden fazla veri varlığı içeren bir iş çalıştırdığınızda, veri varlıklarının doğru sıralandığından emin olmanız gerekir. Öncelikli olarka, varlıklar arasında işlevsel bağımlılıkları adreslendirebilmek için varlıkları sıralarsınız. Varlıklar işlevsel bağımlılıklara sahip değilse, paralel içe veya dışa aktarma için zamanlanabilirler.
@@ -155,9 +153,9 @@ Yürütme ayrıntılarından yürütme kaydını da açabilirsiniz.
 ## <a name="clean-up-the-staging-tables"></a>Hazırlama tablolarını temizleyin
 Hazırlama tablolarını **Veri yönetimi** çalışma alanındaki **Hazırlama temizleme** özelliğini kullanarak temizleyebilirsiniz. Aşağıdaki seçenekleri, hangi kayıtların hangi hazırlama tablosundan silineceğini seçmek için kullanabilirsiniz:
 
-- **Varlık** – Yalnızca bir varlık sağlandıysa, o varlığın hazırlama tablosundaki tüm kayıtlar silinir. Varlık için tüm veri projeleri ve tüm işler için tüm veriyi silmek için bu seçeneği işaretleyin.
-- **İş Kodu** – Yalnızca bir iş kodu sağlandıysa, seçilen işteki tüm varlıklar için tüm kayıtlar uygun hazırlama tablolarından silinir.
-- **Veri projeleri** – Yalnızca bir veri projesi seçiliyse, seçilen veri projesi için tüm işler arasındaki tüm varlıklar için tüm kayıtlar silinir.
+- **Varlık**: Yalnızca bir varlık sağlandıysa, o varlığın hazırlama tablosundaki tüm kayıtlar silinir. Varlık için tüm veri projeleri ve tüm işler için tüm veriyi silmek için bu seçeneği işaretleyin.
+- **İş Kodu**: Yalnızca bir iş kodu sağlandıysa, seçilen işteki tüm varlıklar için tüm kayıtlar uygun hazırlama tablolarından silinir.
+- **Veri projeleri**: Yalnızca bir veri projesi seçiliyse, seçilen veri projesi için tüm işler arasındaki tüm varlıklar için tüm kayıtlar silinir.
 
 Silinen kayıt kümesini daha da kısıtlamak için seçenekleri birleştirebilirsiniz.
 

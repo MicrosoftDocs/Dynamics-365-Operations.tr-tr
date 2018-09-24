@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 17b42ae7e177a42b732654f2952ec5fe35acb1a9
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
 ms.contentlocale: tr-tr
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,34 +35,34 @@ Bu konu, **İşgücü ölçümleri** Microsoft Power BI içeriğini açıklar. P
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
 **İşgücü ölçümleri** Power BI içeriği **Personel yönetimi** çalışma alanında, aşağıdaki ürünlerden birini kullanıyorsanız görünür:
 
-- Microsoft Dynamics 365 for Finance and Operations 
+- Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan ölçümler
 Aşağıdaki tablo, her bir rapor sayfasında gösterilen ölçümleri listeler.
 
-| Rapor                                           | Ölçümler                                                                                                                                                                                                            |
-|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Kişilerin Ölçümleri                                   | Diğer raporların özeti                                                                                                                           |
-| Çalışan Sayısı Analizi Şirket, Departman, Konum | Şirkete, departmana, konuma göre çalışan sayısı ve toplam çalışan sayısı.                                                                                                                           |
-| Çalışan sayısı Analiz İşi, Adım, Yönetici            | İşe, Adıma, Yöneticiye göre çalışan sayısı ve toplam çalışan sayısı.                                                                                                                                      |
-| Çalışan sayısı Trend Analizi                         | Şirkete göre bu yılki ve geçen yılki çalışan sayısı karşılaştırması ve geçmiş 12 ay için dönen çalışan sayısı                                                                                                                        |
+| Rapor                                           | Ölçümler |
+|--------------------------------------------------|---------|
+| Kişilerin Ölçümleri                                   | Diğer raporların özeti |
+| Çalışan Sayısı Analizi Şirket, Departman, Konum | Şirkete, departmana, konuma göre çalışan sayısı ve toplam çalışan sayısı. |
+| Çalışan sayısı Analiz İşi, Adım, Yönetici            | İşe, Adıma, Yöneticiye göre çalışan sayısı ve toplam çalışan sayısı. |
+| Çalışan sayısı Trend Analizi                         | Şirkete göre bu yılki ve geçen yılki çalışan sayısı karşılaştırması ve geçmiş 12 ay için dönen çalışan sayısı |
 | FTE Analizi                                     | Toplam tam zamanlı Eşdeğer (FTE), toplan atanmış FTE, bölüme göre FTE, son 12 ay için FTE, işe göre FTE |
 | İşgücü Demografikleri                           | Yaş ve cinsiyet, etnik köken, kıdem ve medeni hale göre çalışan sayısı, tam zamanlı öğrencilerin sayısı, ortalama görev süresi, ortalma yaş ve kadın - erkek çalışan oranı ve personel tarafından konuşulan diller |
-| Pozisyon Analizi                                | Departmana göre açık pozisyonlar, kapatılacak açık pozisyonlar, etkin - devre dışı pozisyonlar ve deparatmana göre pozisyonlar                                                                                                   |
-| Yıpranma Analizi                               | Bu yıl ve geçen yılki kayıp, kayıp, yaşa ve cinsiyete göre mevcut personeller, ayrılan personellerin ortalama kıdemi, bu ay ayrılan personeller, sebebe göre ayrılan personeller                                                                   |
-| Departmana göre kişiler                             | Departmana, pozisyona ve atama başlama ve bitiş tarihlerine göre personel sayısına sahip çalışanlar                                                                                                                       |
-| Kıdemlilik Analizi                               | Ortalama kıdem, şirkete göre ortalama hizmet yılı ve kıdem listesi                                                                                                                                                              |
-| Personel Yıldönümlerini                           | Bu aydaki yıldönümleri, önümüzdeki aydaki yıldönümleri, hizmet yılına ve yıldönümlerine göre personeller, bölüme göre hizmet yılları                                                                                                                                                                    |
-| Çalışan Doğum günleri                               | Bu aydaki doğum günleri, önümüzdeki aydaki doğum günleri, personel doğum günleri, bölüm ve aya göre doğum günleri                                                                                                                                                                    |
-| Toplu İşe Alma Projeleri                               | Toplam toplu işe alma projeleri, duruma göre toplu işe alma projeleri, bölüm ve sahibine göre toplu işe alma projeleri, işe göre toplu işe alma projeleri ve toplu işe alma projeleri                                                                                                                                                                    |
+| Pozisyon Analizi                                | Departmana göre açık pozisyonlar, kapatılacak açık pozisyonlar, etkin - devre dışı pozisyonlar ve deparatmana göre pozisyonlar |
+| Yıpranma Analizi                               | Bu yıl ve geçen yılki kayıp, kayıp, yaşa ve cinsiyete göre mevcut personeller, ayrılan personellerin ortalama kıdemi, bu ay ayrılan personeller, sebebe göre ayrılan personeller |
+| Departmana göre kişiler                             | Departmana, pozisyona ve atama başlama ve bitiş tarihlerine göre personel sayısına sahip çalışanlar |
+| Kıdemlilik Analizi                               | Ortalama kıdem, şirkete göre ortalama hizmet yılı ve kıdem listesi |
+| Personel Yıldönümlerini                           | Bu aydaki yıldönümleri, önümüzdeki aydaki yıldönümleri, hizmet yılına ve yıldönümlerine göre personeller, bölüme göre hizmet yılları |
+| Çalışan Doğum günleri                               | Bu aydaki doğum günleri, önümüzdeki aydaki doğum günleri, personel doğum günleri, bölüm ve aya göre doğum günleri |
+| Toplu İşe Alma Projeleri                               | Toplam toplu işe alma projeleri, duruma göre toplu işe alma projeleri, bölüm ve sahibine göre toplu işe alma projeleri, işe göre toplu işe alma projeleri ve toplu işe alma projeleri |
 
 Bu raporlardaki grafikleri ve kutuları filtreleyebilirsiniz ve grafikleri ve kutuları panoya sabitleyebilirsiniz. Power BI'da filtreleme ve sabitleme hakkında daha fazla bilgi için bkz. [Bir pano oluşturma ve yapılandırma](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 Kullanmakta olduğunuz Microsoft Dynamics 365 sürümü için geçerli **İşgücü ölçümleri** Power BI içeriğini indirdiğinizden emin olun.
 
->[!NOTE]
->Lifecycle Services içerisinde bulunan .pbix dosyaları Finance and Operations'a uygulanır.
+> [!NOTE]
+> Lifecycle Services içerisinde bulunan .pbix dosyaları Finance and Operations'a uygulanır.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
 Aşağıdaki tablo, içeriğin üzerine dayandırıldığı varlıkları gösterir.
@@ -72,7 +72,7 @@ Aşağıdaki tablo, içeriğin üzerine dayandırıldığı varlıkları göster
 | Takvim Kaydırma          | Raporları dilimlemek için takvim kaydırmaları                                                   | Geçmiş Pozisyon Ataması, Pozisyon Eğilimi, Personel Eğilimi, Sonlandırılan Personel |
 | Şirket                  | Raporların filtreleneceği şirketler                                                      | Geçerli Personel, Sonlandırılan Personel, Personel Eğilimi |
 | Geçerli Pozisyon         | Günün tarihine göre konumlar, FTE, açık konumlar ve açıktan doldurulana konumlar | İş, Pozisyon |
-| Geçerli Personel         | Günün tarihi, ya ve insan sayısına göre çalışanlar                                  | Şirket, Coğrafi Konum,  Personel Adı, Kime Rapor Verdiği, Personel Unvanı, Demografi, İş, Çalışma, Pozisyon |
+| Geçerli Personel         | Günün tarihi, ya ve insan sayısına göre çalışanlar                                  | Şirket, Coğrafi Konum, Personel Adı, Bağlı Olduğu Kişi, Personel Unvanı, Demografi, İş, İstihdam, Pozisyon |
 | Tarih                     | Günler, haftalar, aylar ve yıllar                                                      | Geçmiş Pozisyon Ataması, Pozisyon Eğilimi, Sonlandırılan Personel, Personel Eğilimi |
 | Demografi             | Doğum tarihi, cinsiyet, etnik köken ve medeni hal                            | Geçerli Personel, Sonlandırılan Personel, Personel Eğilimi |
 | İstihdam               | Başlangıç tarihi, bitiş tarihi ve geçiş tarihi                                           | Geçerli Personel, Sonlandırılan Personel, Personel Eğilimi |
@@ -88,6 +88,4 @@ Aşağıdaki tablo, içeriğin üzerine dayandırıldığı varlıkları göster
 | Personel Eğilimi           | Zaman içerisinde çalışanlar, çalışan sayısı, şirket ve konum                                 | Şirket, Coğrafi Konum, Personel Adı, Kime Rapor Verdiği, Takvim Kaydırma, Tarih, Personel Unvanı, Demografi, Çalışma, İş |
 | Toplu İşe Alma Projesi        | Toplu işe alma projelerinin, proje sahibinin ve proje durumunun sayısı                     | Şirket, Toplu İşe Alma Satırı |
 | Toplu İşe Alma Satırı           | Departman, iş türü ve pozisyon                                           | Tarih, İş, Toplu İşe Alma Projesi |
-
-
 

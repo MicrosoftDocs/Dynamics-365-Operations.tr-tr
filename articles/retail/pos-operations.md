@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 58653d6e991f1896673a07e3057bd516c74edd76
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -38,9 +38,9 @@ Bazı işlemler Dynamics 365 for Retail için Retail Modern POS veya Cloud POS't
 
 Aşağıdaki sütunlar işlemlerin nereden çağrılabileceğini belirtir:
 
-- **Düğme grubu** – İşlem POS ekran düzeninin bir parçası olan POS düğme grubundaki düğmelere atanabilir.
-- **Hareket ekranı** – İşlem POS hareket ekranı üzerinde yapılandırılmış olan POS düğme gruplarından çağrılabilir.
-- **Karşılama ekranı** – İşlem POS karşılama ekranı üzerinde yapılandırılmış olan POS düğme gruplarından çağrılabilir.
+- **Düğme grubu**: İşlem POS ekran düzeninin bir parçası olan POS düğme grubundaki düğmelere atanabilir.
+- **Hareket ekranı**: İşlem POS hareket ekranı üzerinde yapılandırılmış olan POS düğme gruplarından çağrılabilir.
+- **Karşılama ekranı**: İşlem POS karşılama ekranı üzerinde yapılandırılmış olan POS düğme gruplarından çağrılabilir.
 
 Not: Aşağıda listelenen işlemler Dynamics 365 for Retail'in en son sürümü için geçerlidir. Bazı işlemler değişmiş veya önceki sürümlerde bulunmuyor olabilir.
 
@@ -49,6 +49,8 @@ Not: Aşağıda listelenen işlemler Dynamics 365 for Retail'in en son sürümü
 | 707 | Aygıtı etkinleştir | Kimliği doğrulanmış kullanıcının bağlantı bilgilerini sağlamasına izin vererek geçerli cihazı etkinleştirin, bir cihaz ve kayıt kimliği atayın. | Hayır | Hayır | Hayır | Hayır | Hayır |
 | 134 | İlişki ekle | Bir harekete önceden seçilmiş bir ilişki ekleyin. İlişkiyi **Düğme özellikleri** sayfasından seçin. | Evet | Evet | Hayır | Evet | Hayır |
 | 135 | Listeden ilişki ekle | Bir listeden seçerek bir harekete bir ilişki ekleyin. | Evet | Evet | Evet | Evet | Hayır |
+| 137 | Müşteriye ilişki ekleme | Müşteriye bir ilişkiyi **Müşteri ayrıntıları** sayfasından ekleyin. | Hayır | Hayır | Hayır | Evet | Hayır |
+| 138 | Müşteriden ilişkiyi kaldırma | İlişkiyi **Müşteri ayrıntıları** sayfasından kaldırın. | Hayır | Hayır | Hayır | Evet | Hayır |
 | 643 | Kupon kodunu ekle | POS'ta kodunu girerek bir kupon ekleyin. | Evet | Evet | Hayır | Evet | Hayır |
 | 117 | Bağlılık programı kartı ekle | Kullanıcıdan geçerli harekete eklenecek olan bir bağlılık kartı numarası girmesini isteyin. | Evet | Evet | Hayır | Evet | Hayır |
 | 136 | Seri numarası ekle | Bu işlem kullanıcının seçili ürün için bir seri numarası belirtmesine izin verir. | Evet | Evet | Hayır | Evet | Hayır |

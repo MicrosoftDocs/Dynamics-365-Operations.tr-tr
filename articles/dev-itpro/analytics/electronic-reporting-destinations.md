@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 3aa27b3ac263c6c952de7e4b508f48f21ba489ad
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 301dccaf154c3c12bcc4d611a147cdef03b8f851
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -37,21 +37,21 @@ Elektronik raporlama (ER) biçim yapılandırmaları genellikle en az bir çık�
 ## <a name="availability-and-general-prerequisites"></a>Kullanılabilirlik ve genel önkoşulları
 ER hedeflerinin işlevselliği Microsoft Dynamics AX 7.0 (Şubat 2016) sürümünde kullanılamaz. Bu nedenle, bu konuda açıklanan tüm işlevleri kullanabilmek için Microsoft Dynamics 365 for Operations sürüm 1611'i (Kasım 2016) yüklemeniz gerekir. Alternatif olarak, aşağıdaki önkoşullardan birini de yükleyebilirsiniz. Ancak, bu alternatifin daha sınırlı bir ER hedef deneyimi sağladığını unutmayın.
 
--   Microsoft Dynamics AX uygulama sürümü 7.0.1 (Mayıs 2016)
--   ER hedef yönetimi [uygulama düzeltmesi](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
+- Microsoft Dynamics AX uygulama sürümü 7.0.1 (Mayıs 2016)
+- ER hedef yönetimi [uygulama düzeltmesi](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
 Yalnızca içe aktarılan ER yapılandırmaları ve **Elektronik raporlama yapılandırmaları** sayfasında kullanılabilen biçimler için hedefleri ayarlayabilirsiniz.
 
 ## <a name="overview"></a>Genel Bakış
 ER hedef yönetimi işlevselliği, **Organizasyon yönetimi** &gt; **Elektronik raporlama**'da kullanılabilir. Burada, bir yapılandırma için varsayılan davranışı geçersiz kılabilirsiniz. **Yeni** ve sonra **Referans** alanına tıklayıncaya kadar içe aktarılan yapılandırmalar gösterilmez, hedef ayarlarını oluşturmak için bir yapılandırma seçin.
 
-[![Referans alanında bir yapılandırma seçmek](./media/ger-destinations-2-1611-1024x574.jpg)](./media/ger-destinations-2-1611.jpg) 
+[![Referans alanında bir yapılandırma seçmek](./media/ger-destinations-2-1611-1024x574.jpg)](./media/ger-destinations-2-1611.jpg)
 
-Referans oluşturduktan sonra her klasör veya dosya için bir dosya hedefi oluşturabilirsiniz. 
+Referans oluşturduktan sonra her klasör veya dosya için bir dosya hedefi oluşturabilirsiniz.
 
 [![Bir dosya hedefi oluşturma](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-> [!NOTE] 
+> [!NOTE]
 > Klasör veya dosya gibi **Dosya Adı** alanında seçilen aynı biçimdeki her bir çıkış bileşeni için bir dosya hedefi oluşturabilirsiniz. Sonra dosya için tekil hedefleri **Hedef ayarları** iletişim kutusunda etkinleştirebilir ve devre dışı bırakabilirsiniz. **Ayarlar** düğmesi seçili dosya hedefi için tüm hedefleri denetlemek amacıyla kullanılır. **Hedef ayarları** iletişim kutusunda **Etkin** seçeneğini ayarlayarak her hedefi ayrı olarak denetleyebilirsiniz.
 
 [![Hedef ayarları iletişim kutusu](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
@@ -73,7 +73,7 @@ E-posta ile bir çıkış dosyası göndermek için **Etkin** değerini **Evet**
 
 **Yazdırma Yönetimi e-postası** türünü seçerseniz, **Giden** alanına sabit bir e-posta adresi girebilirsiniz. Sabit olmayan e-posta adreslerini kullanmak amacıyla bir dosya hedefi için e-posta kaynak türünü seçmelisiniz. Aşağıdaki değerler desteklenir: **Müşteri**, **Satıcı**, **Müşteri Adayı**, **İlgili kişi**, **Rakip**, **Çalışan**, **Başvuran**, **Satıcı adayı** ve **Onaylanmamış satıcı**. Bir e-posta kaynak türü seçtikten sonra **Formül tasarımcısı** formunu açmak için **E-posta kaynak hesabı** alanının yanındaki düğmeyi kullanın. Bu formu kullanarak seçilen tarafın hesabını temsil eden bir formülü, e-posta hedefine ekleyebilirsiniz.
 
-[![Yazdırma yönetimi e-posta türünü yapılandırma](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg) 
+[![Yazdırma yönetimi e-posta türünü yapılandırma](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg)
 
 Formüllerin ER yapılandırmasına özgü olduğunu unutmayın. **Formül** alanında bir müşteri veya satıcı tarafı türü için belgeye özgü bir referans girin. Yazmak yerine, müşteri veya satıcı hesabını temsil eden bir veri kaynağı düğümünü bulabilir ve sonra formülü güncelleştirmek için **Veri kaynağı ekle** 'ye tıklayabilirsiniz. Örneğin, ISO 20022 Borç Transferi yapılandırmasını kullanıyorsanız bir satıcı hesabını temsil eden düğüm **'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID** olur. Aksi takdirde, bir formül kaydetmek için **DE-001** gibi herhangi bir dize değeri girin.
 
@@ -87,23 +87,27 @@ Formüllerin ER yapılandırmasına özgü olduğunu unutmayın. **Formül** ala
 
 Kullandığınız yapılandırma, veri kaynaklarında bir e-posta adresini temsil eden bir düğüme sahipse bu e-posta türünü kullanın. Formül tasarımcısında veri kaynaklarını ve fonksiyonları, doğru şekilde biçimlendirilmiş bir e-posta adresi elde etmek için kullanabilirsiniz.
 
-[![Bir e-posta hedefi için bir e-posta adresi veri kaynağı atamak](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg) 
+[![Bir e-posta hedefi için bir e-posta adresi veri kaynağı atamak](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg)
 
-**Not:** Basit Posta Aktarım Protokolü (SMTP) sunucusu yapılandırılmalı ve kullanılmalıdır. SMTP sunucunuzu Finance and Operations içinde, **Sistem yönetimi** &gt; **Kurulum** &gt; **E-posta** &gt; **E-posta parametreleri** içerisinde belirtebilirsiniz.
+> [!NOTE]
+> Basit Posta Aktarım Protokolü (SMTP) sunucusu yapılandırılmalı ve kullanılmalıdır. SMTP sunucunuzu Finance and Operations içinde, **Sistem yönetimi** &gt; **Kurulum** &gt; **E-posta** &gt; **E-posta parametreleri** içerisinde belirtebilirsiniz.
 
 ### <a name="archive-destination"></a>Arşiv hedefi
 
 Microsoft SharePoint klasörü veya Microsoft Azure Depolamaya çıktı göndermek için bu seçeneği kullanabilirsiniz. Seçili belge türü ile tanımlanan bir hedefe çıktı göndermek için **Etkin** değerini **Evet** olarak ayarlayın. Yalnızca grubun **Dosya** olarak ayarlandığı belge türleri seçim için kullanılabilir. Belge türlerini **Kuruluş yönetimi** &gt; **Belge yönetimi** &gt; **Belge türleri** altından tanımlarsınız. ER hedefleri için yapılandırma, belge yönetim sistemi için yapılandırma ile aynıdır.
 
-[![Belge türleri sayfası](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
+[![Belge türleri sayfası](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg)
 
-Konum dosyanın kaydedildiği yeri belirler. **Arşiv** hedefi etkinleştirildikten sonra, yapılandırma yürütme sonuçları İş arşivinde kaydedilebilir. Sonuçları **Kuruluş yönetimi** &gt; **Elektronik raporlama** &gt; **Elektronik raporlama arşivlenmiş işler** içerisinde görebilirsiniz. **Not:** Finance and Operations içinde İş arşivi için bir belge türünü **Kuruluş yönetimi** &gt; **Çalışma alanları** &gt; **Elektronik raporlama** &gt; **Elektronik raporlama parametreleri** içerisinde seçebilirsiniz.
+Konum dosyanın kaydedildiği yeri belirler. **Arşiv** hedefi etkinleştirildikten sonra, yapılandırma yürütme sonuçları İş arşivinde kaydedilebilir. Sonuçları **Kuruluş yönetimi** &gt; **Elektronik raporlama** &gt; **Elektronik raporlama arşivlenmiş işler** içerisinde görebilirsiniz.
+
+> [!NOTE]
+> Finance and Operations içinde İş arşivi için belge türünü **Kuruluş yönetimi** &gt; **Çalışma alanları** &gt; **Elektronik raporlama** &gt; **Elektronik raporlama parametreleri** altından seçebilirsiniz.
 
 #### <a name="sharepoint"></a>SharePoint
 
-Dosyayı belirlenen bir SharePoint klasörüne kaydedebilirsiniz. Varsayılan SharePoint sunucusunu **Kuruluş yönetimi** &gt; **Belge yönetimi** &gt; **Belge yönetim parametreleri** üzerinde, **SharePoint** sekmesinde tanımlarsınız. SharePoint klasörü yapılandırıldıktan sonra, ER çıkışının belge türü için kaydedileceği klasör olarak seçebilirsiniz. 
+Dosyayı belirlenen bir SharePoint klasörüne kaydedebilirsiniz. Varsayılan SharePoint sunucusunu **Kuruluş yönetimi** &gt; **Belge yönetimi** &gt; **Belge yönetim parametreleri** üzerinde, **SharePoint** sekmesinde tanımlarsınız. SharePoint klasörü yapılandırıldıktan sonra, ER çıkışının belge türü için kaydedileceği klasör olarak seçebilirsiniz.
 
-[![Bir SharePoint klasörünü seçme](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg) 
+[![Bir SharePoint klasörünü seçme](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg)
 
 #### <a name="azure-storage"></a>Azure Depolama
 
@@ -119,7 +123,10 @@ Belge türü **Arşiv dizini** olarak ayarlandığında bir dosyayı Azure Depol
 
 ### <a name="power-bi-destination"></a>Power BI hedefi
 
-Verilerinizi Finance and Operations kurulumunuzdan Microsoft Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı kullanmak için **Etkin**'i **Evet** olarak ayarlayın. Aktarılan dosyalar bu amaçla yapılandırılmış bir Microsoft SharePoint Server örneği üzerinde depolanmalıdır. Daha fazla bilgi için bkz. [Power BI'ya Finance and Operations'dan gelen verileri sağlamak için Elektronik raporlama yapılandırması kullanma](general-electronic-reporting-report-configuration-get-data-powerbi.md). **İpucu:** Varsayılan davranışı geçersiz kılmak amacıyla (bir yapılandırma için iletişim kutusu) ana çıkış bileşeni için bir hedef referansı ve bir dosya hedefi oluşturabilir ve sonra tüm hedefleri devre dışı bırakabilirsiniz.
+Verilerinizi Finance and Operations kurulumunuzdan Microsoft Power BI hizmetlerine aktarmak amacıyla düzenlemek için Elektronik raporlama (ER) yapılandırmanızı kullanmak için **Etkin**'i **Evet** olarak ayarlayın. Aktarılan dosyalar bu amaçla yapılandırılmış bir Microsoft SharePoint Server örneği üzerinde depolanmalıdır. Daha fazla bilgi için bkz. [Power BI'ya Finance and Operations'dan gelen verileri sağlamak için Elektronik raporlama yapılandırması kullanma](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+
+> [!TIP]
+> Varsayılan davranışı geçersiz kılmak amacıyla (bir yapılandırma için iletişim kutusu) ana çıkış bileşeni için bir hedef referansı ve bir dosya hedefi oluşturabilir ve sonra tüm hedefleri devre dışı bırakabilirsiniz.
 
 ## <a name="security-considerations"></a>Güvenlik ile ilgili hususlar
 ER hedefleri için iki tür ayrıcalık ve görev kullanılır. Bir tüzel kişilik için yapılandırılan genel hedefleri koruma özelliğini bir tür denetler (yani, **Elektronik raporlama hedefleri** sayfasına erişimi denetler). Diğer tür çalışma zamanında bir uygulama kullanıcısının ER geliştirici veya ER işlev danışmanı ile yapılandırılan hedef ayarlarını geçersiz kılma yeteneğini denetler.
@@ -158,7 +165,4 @@ Biçiminizin ER yapılandırmalarında kullanılması ön koşuldur. Kendi biçi
 ## <a name="additional-resources"></a>Ek kaynaklar
 
 [Elektronik raporlamaya genel bakış](general-electronic-reporting.md)
-
-
-
 

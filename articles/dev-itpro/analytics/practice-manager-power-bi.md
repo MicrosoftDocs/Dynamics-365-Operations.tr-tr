@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 44f017fc3460b83b730f2f7c909c6b88480dd918
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -42,7 +42,6 @@ Bu konu, Microsoft Power BI **Uygulama yöneticisi** nelerin bulunduğunu açık
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
 
 **Uygulama yöneticisi** Power BI içeriği **Proje yönetimi** çalışma alanında gösterilir.
-
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan raporlar
 
@@ -85,8 +84,7 @@ Aşağıdaki bölümler, her bir varlıkta kullanılan toplanan ölçümleri aç
 
 | Kilit toplam ölçüm | Alan                                             | Tanım |
 |---------------------------|---------------------------------------------------|-------------|
-| Projelerin sayısı        | COUNTA(ProjectAccountingCube\_Projects[PROJECTS]) | Kullanılabilir projelerin sayısı. |
-
+| Projelerin sayısı        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | Kullanılabilir projelerin sayısı. |
 
 ### <a name="entity-projectaccountingcubeforecasts"></a>Varlık: ProjectAccountingCube\_Forecasts
 **Veri kaynağı:** ProjTransBudget
@@ -109,18 +107,16 @@ Aşağıdaki bölümler, her bir varlıkta kullanılan toplanan ölçümleri aç
 
 | Kilit toplam ölçüm    | Alan | Tanım |
 |------------------------------|-------|-------------|
-| Maliyet performansı endeksi       | ProjectAccountingCube\_Projects[Kazanılan değer] ÷ ProjectAccountingCube\_Projects[Tamamlanan görevlerin toplam fiili maliyeti] | Toplam kazanılan değerin toplam fiili maliyete bölümünün hesaplanması. |
-| Performans planla endeksi   | ProjectAccountingCube\_Projects[Kazanılan değer] ÷ ProjectAccountingCube\_Projects[Tamamlanan görevlerin toplam planlanan maliyeti] | Toplam kazanılan değerin toplam planlanan maliyete bölümünün hesaplanması. |
-| Tamamlanan iş yüzdesi | Tamamlanan görev yüzdesi = ProjectAccountingCube\_Projects[Tamamlanan görevlerin toplam fiili maliyeti] ÷ (ProjectAccountingCube\_Projects[Tamamlanan görevlerin toplam fiili maliyeti] + ProjectAccountingCube\_Projects[Projenin toplam planlanan maliyeti] – ProjectAccountingCube\_Projects[Tamamlanan görevlerin toplam planlanan maliyeti]) | Tamamlanan görevler ve projenin planlanan maliyetinin toplam fiili maliyetine dayalı olarak tamamlanan işin toplam yüzdesi. |
-| Fiili faturalanabilir saat oranı  | ProjectAccountingCube\_Projects[Projedeki toplam fiili faturalanabilir çalışılan saat sayısı] ÷ (ProjectAccountingCube\_Projects[Projedeki toplam fiili faturalanabilir çalışılan saat sayısı] + ProjectAccountingCube\_Projects[Projedeki toplam fiili faturalanabilir yük saati sayısı]) | Çalışılan saat ve yük saati sayısını temel alan toplam fiili faturalanabilir saat. |
-| Kazanılan değer                 | ProjectAccountingCube\_Projects[Projenin toplam planlanan maliyeti] × ProjectAccountingCube\_Projects[Tamamlanan işin yüzdesi] | Tamamlanan işin yüzdesiyle çarpılan toplam planlanan maliyet. |
+| Maliyet performansı endeksi       | ProjectAccountingCube\_Projects\[Kazanılan değer\] ÷ ProjectAccountingCube\_Projects\[Tamamlanan görevlerin toplam fiili maliyeti\] | Toplam kazanılan değerin toplam fiili maliyete bölümünün hesaplanması. |
+| Performans planla endeksi   | ProjectAccountingCube\_Projects\[Kazanılan değer\] ÷ ProjectAccountingCube\_Projects\[Tamamlanan görevlerin toplam planlanan maliyeti\] | Toplam kazanılan değerin toplam planlanan maliyete bölümünün hesaplanması. |
+| Tamamlanan iş yüzdesi | Tamamlanan görev yüzdesi = ProjectAccountingCube\_Projects\[Tamamlanan görevlerin toplam fiili maliyeti\] ÷ (ProjectAccountingCube\_Projects\[Tamamlanan görevlerin toplam fiili maliyeti\] + ProjectAccountingCube\_Projects\[Projenin toplam planlanan maliyeti\]: ProjectAccountingCube\_Projects\[Tamamlanan görevlerin toplam planlanan maliyeti\]) | Tamamlanan görevler ve projenin planlanan maliyetinin toplam fiili maliyetine dayalı olarak tamamlanan işin toplam yüzdesi. |
+| Fiili faturalanabilir saat oranı  | ProjectAccountingCube\_Projects\[Projedeki toplam fiili faturalanabilir çalışılan saat sayısı\] ÷ (ProjectAccountingCube\_Projects\[Projedeki toplam fiili faturalanabilir çalışılan saat sayısı\] + ProjectAccountingCube\_Projects\[Projedeki toplam fiili faturalanabilir yük saati sayısı\]) | Çalışılan saat ve yük saati sayısını temel alan toplam fiili faturalanabilir saat. |
+| Kazanılan değer                 | ProjectAccountingCube\_Projects\[Projenin toplam planlanan maliyeti\] × ProjectAccountingCube\_Projects\[Tamamlanan işin yüzdesi\] | Tamamlanan işin yüzdesiyle çarpılan toplam planlanan maliyet. |
 
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Varlık: ProjectAccountingCube\_TotalEstimatedCosts 
 **Veri kaynağı:** ProjTable
 
-
-|    Kilit toplam ölçüm    |        Alan        |                                          Açıklama                                           |
-|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
+| Kilit toplam ölçüm       | Alan               | Açıklama |
+|---------------------------------|---------------------|-------------|
 | Tamamlanan faaliyetin planlanan maliyeti | Sum(TotalCostPrice) | Tamamlanan görevlere sahip tüm proje hareket türleri için toplam maliyet fiyatı tahmini. |
-
 

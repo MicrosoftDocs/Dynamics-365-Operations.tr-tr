@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f08131e01fddb259d3bb537b1625ea2615a1e958
+ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
+ms.openlocfilehash: 6d7c9a61f935503b74ac27b354c875df095d84b4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/14/2018
 
 ---
 
@@ -36,9 +36,9 @@ Bir **serbest metin faturası** satış siparişiyle ilişkili değildir. Genel 
 
 Daha fazla bilgi için bkz.:
 
-[Serbest metin faturası oluşturma](tasks/create-free-text-invoice.md)
+[Serbest metin faturası oluşturma](../accounts-receivable/create-free-text-invoice-new.md)
 
-[Serbest metin şablonu oluşturma](tasks/create-free-text-invoice-template.md)
+[Serbest metin şablonu oluşturma](../accounts-receivable/create-free-text-invoice-template-new.md)
 
 [Müşteriye serbest metin fatura şablonu atama](tasks/assign-free-text-invoice-template-customer.md)
 
@@ -89,11 +89,11 @@ Aşağıdaki alanlar deftere nakil işleminin davranışını değiştirir.
 <td>Miktar</td>
 <td>Belgenin deftere naklinde temel alınacak miktarları seçin. Kullanılabilecek seçenekler, hangi türde bir belgeyi naklettiğinize göre, örneğin sevk irsaliyesi veya fatura gibi, değişmektedir.
 <ul>
-<li><strong>Şimdi teslim et</strong> – <strong>Şimdi teslim et</strong> alanına girilen tüm miktarları seçin. Bu seçeneği kısmi bir siparişi onaylamak veya teslim etmek için kullanın.</li>
-<li><strong>Çekilen</strong> – Çekilen tüm miktarları seçin.</li>
-<li><strong>Tümü</strong> – Geçerli belge türü ile henüz güncelleştirilmeyen satış siparişlerindeki tüm miktarları seçmek için kullanılır.</li>
-<li><strong>Sevk irsaliyesi</strong> – Sevk irsaliyesiyle güncelleştirilen tüm miktarları seçin.</li>
-<li><strong>Çekilen miktar ve stoklanmayan ürünler</strong> – Çekilen tüm miktarları ve stoklanmamış tüm ürün miktarlarını seçin.</li>
+<li><strong>Şimdi teslim et</strong>: <strong>Şimdi teslim et</strong> alanına girilen tüm miktarları seçin. Bu seçeneği kısmi bir siparişi onaylamak veya teslim etmek için kullanın.</li>
+<li><strong>Çekilen</strong>: Çekilen tüm miktarları seçin.</li>
+<li><strong>Tümü</strong>: Geçerli belge türü ile henüz güncelleştirilmeyen satış siparişlerindeki tüm miktarları seçmek için kullanılır.</li>
+<li><strong>Sevk irsaliyesi</strong>: Sevk irsaliyesiyle güncelleştirilen tüm miktarları seçin.</li>
+<li><strong>Çekilen miktar ve stoklanmayan ürünler</strong>: Çekilen tüm miktarları ve stoklanmamış tüm ürün miktarlarını seçin.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -116,7 +116,7 @@ Aşağıdaki alanlar deftere nakil işleminin davranışını değiştirir.
 <td>Belgelerin ne zaman yazdırılacağını seçin:
 <ul>
 <li><strong>Cari</strong> - Belgeleri her bir faturayı güncelleştirildikten sonra yazdırın.</li>
-<li><strong>Sonra</strong> – Tüm faturalar güncelleştirildikten sonra belgeleri yazdırın.</li>
+<li><strong>Sonra</strong>: Tüm faturalar güncelleştirildikten sonra belgeleri yazdırın.</li>
 </ul>
 <strong>Not:</strong> <strong>Yazdır alanı</strong> yalnızca, <strong>Faturayı yazdır</strong>, <strong>Onayı yazdır</strong>, <strong>Malzeme çekme listesini yazdır</strong> veya <strong>Sevk irsaliyesi yazdır</strong> seçeneğini seçerseniz kullanılabilir. Örneğin, <strong>Form sıralaması</strong> sayfasında, sistemi bilgileri fatura hesabına göre sıralayacak şekilde ayarlarsınız. Fatura hesabı tarafından sıralanan toplu işteki belgeleri yazdırmak için <strong>Sonra</strong>'yı seçebilirsiniz. Aksi halde, belgeler işleme tamamlanmadan önce yazdırılır ve belgeler <strong>Form sıralama</strong> sayfasında belirtilen sırada sıralanmaz.</td>
 </tr>
@@ -136,9 +136,9 @@ Aşağıdaki alanlar deftere nakil işleminin davranışını değiştirir.
 <td>Kredi limitini denetle</td>
 <td>Kredi limiti denetimi gerçekleştirilirken analiz edilmesi gereken bilgileri seçin.
 <ul>
-<li><strong>Yok</strong> – Kredi limiti kontrolü için bir gereksinim mevcut değildir.</li>
+<li><strong>Yok</strong>: Kredi limiti kontrolü için bir gereksinim mevcut değildir.</li>
 <li><strong>Bakiye</strong> - Kredi limiti müşteri bakiyesine karşı denetlenir.</li>
-<li><strong>Bakiye + sevk irsaliyesi veya ürün girişi</strong> – Kredi limiti müşteri bakiyesi ve teslimatlara göre denetlenir.</li>
+<li><strong>Bakiye + sevk irsaliyesi veya ürün girişi</strong>: Kredi limiti müşteri bakiyesi ve teslimatlara göre denetlenir.</li>
 <li><strong>Bakiye + Tümü</strong> - Kredi limiti müşteri bakiyesiyle, teslimatlarla ve açık siparişlerle karşılaştırılır.</li>
 </ul></td>
 </tr>
@@ -154,11 +154,11 @@ Aşağıdaki alanlar deftere nakil işleminin davranışını değiştirir.
 <td>Özet güncelleştirme kapsamı</td>
 <td>Birden fazla satış siparişinin nasıl özetlenmesi gerektiğini seçin:
 <ul>
-<li><strong>Hiçbiri</strong> – Satış siparişlerini özetlemez. Örneğin, her satış siparişi için ayrı bir fatura oluşturulur.</li>
-<li><strong>Fatura hesabı</strong> – Seçilen tüm siparişleri <strong>Özet güncelleştirme parametreleri</strong> sayfasında ayarlanmış olan ölçüte göre özetleyin.</li>
-<li><strong>Sipariş</strong> – Seçilen aralıktaki siparişlerin tek bir sipariş olarak özetler. Siparişler, <strong>Özet güncelleştirme parametreleri</strong> sayfasında ayarlanan ölçütlere göre özetlenir. Bu seçenek işaretlerseniz, <strong>Satış siparişi</strong> alanında bir değer işaretlemeniz gerekir.</li>
-<li><strong>Otomatik özet</strong> – Eğer özet güncelleştirmeleri <strong>Özet güncelleştirme</strong> sayfasında belirtildiyse, <strong>Özet güncelleştirme parametreleri</strong> sayfasında belirlenen kriterlere dayanarak tüm siparişleri özetleyin. Eğer Özet güncelleştirmeleri belirlemezseniz, sipariş ayrı olarak deftere nakledilir.</li>
-<li><strong>Sevk irsaliyesi</strong> – Seçilen aralıktaki siparişleri sevk irsaliyesi başına bir fatura şeklinde özetler. Bu seçenek yalnızca, <strong>Miktar</strong> alanında <strong>Sevk irsaliyesi</strong> seçiliyse kullanılabilir.</li>
+<li><strong>Hiçbiri</strong>: Satış siparişlerini özetlemez. Örneğin, her satış siparişi için ayrı bir fatura oluşturulur.</li>
+<li><strong>Fatura hesabı</strong>: Seçilen tüm siparişleri <strong>Özet güncelleştirme parametreleri</strong> sayfasında ayarlanmış olan ölçüte göre özetleyin.</li>
+<li><strong>Sipariş</strong>: Seçilen aralıktaki siparişlerin tek bir sipariş olarak özetler. Siparişler, <strong>Özet güncelleştirme parametreleri</strong> sayfasında ayarlanan ölçütlere göre özetlenir. Bu seçenek işaretlerseniz, <strong>Satış siparişi</strong> alanında bir değer işaretlemeniz gerekir.</li>
+<li><strong>Otomatik özet</strong>: Eğer özet güncelleştirmeleri <strong>Özet güncelleştirme</strong> sayfasında belirtildiyse, <strong>Özet güncelleştirme parametreleri</strong> sayfasında belirlenen kriterlere dayanarak tüm siparişleri özetleyin. Eğer Özet güncelleştirmeleri belirlemezseniz, sipariş ayrı olarak deftere nakledilir.</li>
+<li><strong>Sevk irsaliyesi</strong>: Seçilen aralıktaki siparişleri sevk irsaliyesi başına bir fatura şeklinde özetler. Bu seçenek yalnızca, <strong>Miktar</strong> alanında <strong>Sevk irsaliyesi</strong> seçiliyse kullanılabilir.</li>
 </ul></td>
 </tr>
 </tbody>

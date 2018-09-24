@@ -17,10 +17,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: d59a7aef90ecef0cd947b833f1cce1e2372f3033
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
 ms.contentlocale: tr-tr
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -43,7 +43,7 @@ Bu Power BI içeriği aynı zamanda üretimdeki farkları analiz etmenizi sağla
 **Üretim performansı** Power BI içeriği üretim emirlerinden ve toplu iş emirlerden gelen verileri içerir. Raporlar kanban üretimlerle ilgili verileri içermez.
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
-**Üretim performansı** Power BI içeriği **Üretim performans** sayfasında gösterilir (**Üretim denetimi** > **Sorgulamalar ve raporlar** > **Üretim performansı analizi** > **Üretim performansı**). 
+**Üretim performansı** Power BI içeriği, **Üretim performansı** sayfasında gösterilir (**Üretim denetimi** \> **Sorgulamalar ve raporlar** \> **Üretim performansı analizi** \> **Üretim performansı**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan ölçümler
 
@@ -51,9 +51,9 @@ Bu Power BI içeriği aynı zamanda üretimdeki farkları analiz etmenizi sağla
 
 Aşağıdaki tabloda, dahil edilen görsellere yönelik genel bakış sunulur.
 
-| Rapor sayfası                                | Grafikler                                               | Kutucuklar |
-|--------------------------------------------|------------------------------------------------------|-------|
-| Üretim performansı                     | <ul><li>Tarihe göre üretim sayısı</li><li>Ürün ve madde grubuna göre üretim sayısı</li><li>Tarihe göre planlı üretim sayısı</li><li>Zamanında ve tam olarak ölçütüne göre en alttaki 10 ürün</li></ul> | <ul><li>Toplam sipariş</li><li>Zamanında ve tam olarak yüzdesi</li><li>Eksik yüzdesi</li><li>Erken yüzdesi</li><li>Geç yüzdesi</li></ul> |
+| Rapor sayfası                                | Grafikler | Kutucuklar |
+|--------------------------------------------|--------|-------|
+| Üretim performansı                     | <ul><li>Tarihe göre üretim sayısı</li><li>Ürün ve madde grubuna göre üretim sayısı</li><li>Tarihe göre planlı üretim sayısı</li><li>Zamanında &amp; tam olarak ölçütüne göre en alttaki 10 ürün</li></ul> | <ul><li>Toplam sipariş</li><li>Zamanında &amp; tam olarak yüzdesi</li><li>Eksik yüzdesi</li><li>Erken yüzdesi</li><li>Geç yüzdesi</li></ul> |
 | Ürüne göre hatalar                         | <ul><li>Tarihe göre hasar oranı (ppm)</li><li>Ürün ve madde grubuna göre hasar oranı (ppm)</li><li>Tarihe göre üretilen miktar</li><li>Geçerli orana göre ilk 10 ürün</li></ul> | <ul><li>Hasar oranı (ppm)</li><li>Bozuk miktar</li><li>Toplam miktar</li></ul> |
 | Ürüne göre hasar eğilimi                   | Üretilen miktara göre hasar oranı (ppm) | Hasar oranı (ppm) |
 | Kaynağa göre hasarlar                        | <ul><li>Tarihe göre hasar oranı (ppm)</li><li>Kaynak ve tesise göre hasar oranı (ppm)</li><li>Operasyona göre hasar oranı (ppm)</li><li>Hasar oranına göre en iyi 10 kaynak</li></ul> | Bozuk miktar |
@@ -88,35 +88,35 @@ Aşağıdaki tablo önemli toplam ölçümlerin çok sayıda hesaplanmış ölç
 
 | Ölçü                  | Ölçümün hesaplanması |
 |--------------------------|-------------------------------|
-| Üretim farkı, %   | TOPLA('Üretim farkı'[Üretim farkı]) / TOPLA('Üretim farkı'[Tahmini maliyet]) |
+| Üretim farkı, %   | TOPLA('Üretim farkı'\[Üretim farkı\]) / TOPLA('Üretim farkı'\[Tahmini maliyet\]) |
 | Tüm planlanan siparişler       | COUNTROWS('Planlanan üretim emri') |
-| Erken                    | COUNTROWS (FİLTRE('Planlanan üretim emri', 'Planlanan üretim emri'[Planlanan bitiş tarihi] \< 'Planlanan üretim emri'[Gereksinim tarihi])) |
-| Geç                     | COUNTROWS (FİLTRE('Planlanan üretim emri', 'Planlanan üretim emri'[Planlanan bitiş tarihi] \> 'Planlanan üretim emri'[Gereksinim tarihi])) |
-| Zamanında                  | COUNTROWS(FİLTRE('Planlanan üretim emri', 'Planlanan üretim emri'[Planlanan bitiş tarihi] = 'Planlanan üretim emri'[Gereksinim tarihi])) |
-| Zamanında %                | IF ('Planlanan üretim emri'[Zamanında] \<\>0, 'Planlanan üretim emri'[Zamanında], IF ('Planlanan üretim emri'[Tüm planlanan siparişler] \<\>0, 0, BLANK())) / 'Planlanan üretim emri'[Tüm planlanan siparişler] |
-| Tamamlandı                | COUNTROWS(FILTER('Üretim emri', 'Üretim emri'[Is RAF'ed] = TRUE)) |
-| Hasar oranı (ppm)     | IF('Üretim emri'[Toplam miktar] = 0, BLANK(), (SUM('Üretim emri'[Hasarlı miktar]) / 'Üretim emri'[Toplam miktar]) \*1000000) |
-| Ertelenen üretim oranı  | 'Üretim emri'[Geç \#] / 'Üretim emri'[Tamamlandı] |
-| Erken ve tam          | COUNTROWS(FILTER('Üretim emri', 'Üretim emri'[Tam] = TRUE && 'Üretim emri'[Erken] = TRUE)) |
-| Erken \#                 | COUNTROWS(FILTER('Üretim emri', 'Üretim emri'[Erken] = TRUE)) |
-| Erken yüzdesi                  | IFERROR( IF('Üretim emri'[Erken \#] \<\> 0, 'Üretim emri'[Erken \#], IF('Üretim emri'[Toplam sipariş] = 0, BLANK(), 0)) / 'Üretim emri'[Toplam sipariş], BLANK()) |
-| Eksik               | COUNTROWS(FILTER('Üretim emri', 'Üretim emri'[Tam] = FALSE && 'Üretim emri'[Is RAF'ed] = TRUE)) |
-| Eksik yüzdesi             | IFERROR( IF('Üretim emri'[Eksik] \<\> 0, 'Üretim emri'[Eksik], IF('Üretim emri'[Toplam sipariş] = 0, BLANK(), 0)) / 'Üretim emri'[Toplam sipariş], BLANK()) |
-| Gecikmiş               | 'Üretim emri'[Is RAF'ed] = TRUE && 'Üretim emri'[Gecikmiş değer] = 1 |
-| Erken                 | 'Üretim emri'[Is RAF'ed] = TRUE && 'Üretim emri'[Geciken gün] \< 0 |
-| Tam               | 'Üretim emri' [Sağlam miktar] \>= 'Üretim emri' [Planlanan miktar] |
-| RAF'ed                | 'Üretim emri'[Üretim durumu değeri] = 5 \|\| 'Üretim emri'[Üretim durumu değeri] = 7 |
-| Geç ve tam           | COUNTROWS(FILTER('Üretim emri', 'Üretim emri'[Tam] = TRUE && 'Üretim emri'[Gecikmiş] = TRUE)) |
-| Geç \#                  | COUNTROWS(FILTER('Üretim emri', 'Üretim emri'[Gecikmiş] = TRUE)) |
-| Geç yüzdesi                   | IFERROR( IF('Üretim emri'[Geç \#] \<\> 0, 'Üretim emri'[Geç \#], IF('Üretim emri'[Toplam sipariş] = 0, BLANK(), 0)) / 'Üretim emri'[Toplam sipariş], BLANK()) |
-| Zamanında ve tam        | COUNTROWS(FILTER('Üretim emri', 'Üretim emri'[Tam] = TRUE && 'Üretim emri'[Gecikmiş] = FALSE && 'Üretim emri'[Erken] = FALSE)) |
-| Zamanında ve tam olarak yüzdesi      | IFERROR( IF('Üretim emri'[Zamanında ve tam] \<\> 0, 'Üretim emri'[Zamanında ve tam], IF('Üretim emri'[Tamamlandı] = 0, BLANK(), 0)) / 'Üretim emri'[Tamamlandı], BLANK()) |
+| Erken                    | COUNTROWS(FILTER('Planlanan üretim emri', 'Planlanan üretim emri'\[Planlanan bitiş tarihi\] \< 'Planlanan üretim emri'\[Gereksinim tarihi\])) |
+| Geç                     | COUNTROWS(FILTER('Planlanan üretim emri', 'Planlanan üretim emri'\[Planlanan bitiş tarihi\] \> 'Planlanan üretim emri'\[Gereksinim tarihi\])) |
+| Zamanında                  | COUNTROWS(FILTER('Planlanan üretim emri', Planlanan üretim emri'\[Planlanan bitiş tarihi\] = 'Planlanan üretim emri'\[Gereksinim tarihi\])) |
+| Zamanında %                | IF ('Planlanan üretim emri'\[Zamanında\] \<\> 0, 'Planlanan üretim emri'\[Zamanında\], IF ('Planlanan üretim emri'\[Tüm planlanan siparişler\] \<\> 0, 0, BLANK()) ) / 'Planlanan üretim emri'\[Tüm planlanan siparişler\] |
+| Tamamlandı                | COUNTROWS(FILTER('Üretim emri', 'Üretim emri'\[Is RAF'ed\] = TRUE)) |
+| Hasar oranı (ppm)     | IF( 'Üretim emri'\[Toplam miktar\] = 0, BLANK(), (SUM('Üretim emri'\[Hasarlı miktar\]) / 'Üretim emri'\[Toplam miktar\]) \* 1000000) |
+| Ertelenen üretim oranı  | 'Üretim emri'\[Geç \#\] / 'Üretim emri'\[Tamamlandı\] |
+| Erken ve tam          | COUNTROWS(FILTER('Üretim emri', 'Üretim emri'\[Tam\] = TRUE && 'Üretim emri'\[Erken\] = TRUE)) |
+| Erken \#                 | COUNTROWS(FILTER('Üretim emri', 'Üretim emri'\[Erken\] = TRUE)) |
+| Erken yüzdesi                  | IFERROR( IF('Üretim emri'\[Early \#\] \<\> 0, 'Üretim emri'\[Erken \#\], IF('Üretim emri'\[Toplam sipariş\] = 0, BLANK(), 0)) / 'Üretim emri'\[Toplam sipariş\], BLANK()) |
+| Eksik               | COUNTROWS(FILTER('Üretim emri', 'Üretim emri'\[Tam\] = FALSE && 'Üretim emri'\[Is RAF'ed\] = TRUE)) |
+| Eksik yüzdesi             | IFERROR( IF('Üretim emri'\[Incomplete\] \<\> 0, 'Üretim emri'\[Incomplete\], IF('Üretim emri'\[Toplam sipariş\] = 0, BLANK(), 0)) / 'Üretim emri'\[Toplam sipariş\], BLANK()) |
+| Gecikmiş               | 'Üretim emri'\[Is RAF'ed\] = TRUE && 'Üretim emri'\[Gecikmiş değer\] = 1 |
+| Erken                 | 'Üreim emri'\[Is RAF'ed\] = TRUE && 'Üretim emri'\[Geciken gün\] \< 0 |
+| Tam               | 'Üretim emri'\[Sağlam miktar\] \>= 'Üretim emri'\[Planlanan miktar\] |
+| RAF'ed                | 'Üretim emri'\[Üretim durumu değeri\] = 5 \|\| 'Üretim emri'\[Üretim durumu değeri\] = 7 |
+| Geç ve tam           | COUNTROWS(FILTER('Üretim emri', 'Üretim emri'\[Tam\] = TRUE && 'Üretim emri'\[Gecikmiş\] = TRUE)) |
+| Geç \#                  | COUNTROWS(FILTER('Üretim emri', 'Üretim emri'\[Gecikmiş\] = TRUE)) |
+| Geç yüzdesi                   | IFERROR( IF('Üretim emri'\[Geç \#\] \<\> 0, 'Üretim emri'\[Geç \#\], IF('Üretim emri'\[Toplam sipariş\] = 0, BLANK(), 0)) / 'Üretim emri'\[Toplam sipariş\], BLANK()) |
+| Zamanında ve tam        | COUNTROWS(FILTER('Üretim emri', 'Üretim emri'\[Tam\] = TRUE && 'Üretim emri'\[Gecikmiş\] = FALSE && 'Üretim emri'\[Erken\] = FALSE)) |
+| Zamanında ve tam olarak yüzdesi      | IFERROR( IF('Üretim emri'\[Zamanında ve tam\] \<\> 0, 'Üretim emri'\[Zamanında ve tam\], IF('Üretim emri'\[Tamamlandı\] = 0, BLANK(), 0)) / 'Üretim emri'\[Tamamlandı\], BLANK()) |
 | Toplam sipariş             | COUNTROWS('Üretim emri') |
-| Toplam miktar           | SUM('Üretim emri'[Sağlam miktar]) + SUM('Üretim emri'[Hasarlı miktar]) |
-| Hasar oranı (ppm)        | IF( 'Rota hareketleri'[İşlenen miktar] = 0, BLANK(), (SUM('Rota hareketleri'[Hasarlı miktar]) / 'Rota hareketleri'[İşlenen miktar]) \* 1000000) |
-| Hata oranı karma (ppm) | IF( 'Rota hareketleri'[Toplam karışım miktar] = 0, BLANK(), (SUM('Rota hareketleri'[Hasarlı miktar]) / 'Rota hareketleri'[Toplam karışık miktar]) \* 1000000) |
-| İşlenen miktar       | SUM('Rota hareketleri'[Sağlam miktar]) + SUM('Rota hareketleri'[Hasarlı miktar]) |
-| Toplam karışık miktar     | SUM('Üretim emri'[Sağlam miktar]) + SUM('Rota hereketleri'[Hasarlı miktar]) |
+| Toplam miktar           | SUM('Üretim emri'\[Sağlam miktar\]) + SUM('Üretim emri'\[Hasarlı miktar\]) |
+| Hasar oranı (ppm)        | IF( 'Rota hareketleri'\[İşlenen miktar\] = 0, BLANK(), (SUM('Rota hareketleri'\[Hasarlı miktar\]) / 'Rota hareketleri'\[İşlenen miktar\]) \* 1000000) |
+| Hata oranı karma (ppm) | IF( 'Rota hareketleri'\[Toplam karışım miktarı\] = 0, BLANK(), (SUM('Rota hareketleri'\[Hasarlı miktar\]) / 'Rota hareketleri'\[Toplam karışık miktarı\]) \* 1000000) |
+| İşlenen miktar       | SUM('Rota hareketleri'\[Sağlam miktar\]) + SUM('Rota hareketleri'\[Hasarlı miktar\]) |
+| Toplam karışık miktar     | SUM('Üretim emri'\[Sağlam miktar\]) + SUM('Rota hareketleri'\[Hasarlı miktar\]) |
 
 Aşağıdaki tablo, daha büyük hassasiyet ve daha derin analiz bilgileri elde edebilmeniz amacıyla toplama ölçümlerini bölmek üzere filtre olarak kullanılan temel boyutları gösterir.
 
@@ -130,6 +130,4 @@ Aşağıdaki tablo, daha büyük hassasiyet ve daha derin analiz bilgileri elde 
 | Varlıklar                  | Kimlik ve Ad                                                   |
 | Kaynaklar                 | Kaynak Kodu, Kaynak adı, Kaynak türü ve Kaynak grubu |
 | Ürünler                  | Ürün numarası, Ürün adı, Madde Kodu ve Madde grubu         |
-
-
 

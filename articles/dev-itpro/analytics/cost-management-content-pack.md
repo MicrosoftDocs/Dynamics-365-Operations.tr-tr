@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/09/2018
 
 **Maliyet yönetimi** Microsoft Power BI içeriği stok muhasebecileri veya kuruluş içinde stok durumundan veya süren işten (WIP) sorumlu olan veya bunlarla ilgilenen veya standart maliyet farklarından sorumlu kişilere yöneliktir.
 
-> [!Note]
+> [!NOTE]
 > Bu konuda açıklanan **Maliyet yönetimi** Power BI içeriği Dynamics 365 for Finance and Operations 8.0 için geçerlidir.
 > 
 > AppSource sitesinde yayımlanan **Maliyet yönetimi** Power BI içerik paketi kullanımdan kaldırılmıştır. Bu kullanımdan kaldırma hakkında daha fazla bilgi için bkz. [AppSource'da yayımlanan Power BI içerik paketleri](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
@@ -52,16 +52,16 @@ Power BI içeriği birincil veri kaynağı olarak **CostObjectStatementCache** t
 
 **Maliyet yönetimi** çalışma alanı aşağıdaki sekmeleri içerir:
 
-- **Genel Bakış** – Bu sekme, uygulama verilerini gösterir.
-- **Stok muhasebesi durumu** – Bu sekme Power BI içeriğini gösterir.
-- **Üretim muhasebesi durumu** – Bu sekme Power BI içeriğini gösterir.
+- **Genel Bakış**: Bu sekme, uygulama verilerini gösterir.
+- **Stok muhasebesi durumu**: Bu sekme Power BI içeriğini gösterir.
+- **Üretim muhasebesi durumu**: Bu sekme Power BI içeriğini gösterir.
 
 **Maliyet analizi** çalışma alanı aşağıdaki sekmeleri içerir:
 
-- **Genel Bakış** – Bu sekme, uygulama verilerini gösterir.
-- **Stok muhasebesi analizi** – Bu sekme Power BI içeriğini gösterir.
-- **Üretim muhasebesi analizi** – Bu sekme Power BI içeriğini gösterir.
-- **Standart maliyet farkı analizi** – Bu sekme Power BI içeriğini gösterir.
+- **Genel Bakış**: Bu sekme, uygulama verilerini gösterir.
+- **Stok muhasebesi analizi**: Bu sekme Power BI içeriğini gösterir.
+- **Üretim muhasebesi analizi**: Bu sekme Power BI içeriğini gösterir.
+- **Standart maliyet farkı analizi**: Bu sekme Power BI içeriğini gösterir.
 
 ## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan rapor sayfaları
 
@@ -171,7 +171,7 @@ Aşağıdaki tablolar **Yönetim maliyeti** Power BI içeriğindeki görselleşt
 |                                         | Uygun olmayan üretim farkına göre en iyi 10 kaynak  |
 |                                         | Uygun üretim farkına göre en iyi 10 kaynak    |
 
-### <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
+## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
 
 Microsoft Dynamics 365 for Finance and Operations'dan alınan veriler **Maliyet yönetimi** Power BI içeriğindeki rapor sayfalarını doldurmak için kullanılır. Bu veri, analiz için en iyi duruma getirilen bir Microsoft SQL Server veritabanı olan varlık mağazasında hazırlanmış toplam ölçümler olarak temsil edilir. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesi](power-bi-integration-entity-store.md).
 
@@ -188,26 +188,25 @@ Aşağıdaki tabloda Power BI içeriğinde hesaplanan temel ölçümler gösteri
 
 | Ölçü                            | Hesaplama |
 |------------------------------------|-------------|
-| Başlangıç bakiyesi                  | Başlangıç bakiyesi = [Bitiş bakiyesi]-[Net değişiklik] |
-| Başlangıç bakiyesi miktarı             | Başlangıç bakiyesi miktarı = [Bitiş bakiyesi miktarı]-[Net değişiklik miktarı] |
-| Kapanış bakiyesi                     | Bitiş bakiyesi = (CALCULATE(SUM([Amount]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE])))) |
-| Bitiş bakiyesi miktarı                | Bitiş bakiyesi miktarı = CALCULATE(SUM([QTY]), FILTER(ALL(FiscalCalendar),FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE]))) |
-| Net değişiklik                         | Net değişiklik = SUM([AMOUNT]) |
-| Net değişiklik miktarı                    | Net değişiklik miktarı = SUM([QTY]) |
-| Tutara göre stok ciro oranı | Tutara göre stok ciro oranı = if(OR([Stok ortalama bakiyesi] \<= 0, [Stok satılan veya tüketilen çıkışlar] \>= 0), 0, ABS([Stok satılan veya tüketilen çıkışlar])/[Stok ortalama bakiyesi]) |
-| Stok ortalama bakiye          | Stok ortalama bakiyesi = (([Bitiş bakiyesi] + [Başlangıç bakiyesi]) / 2) |
-| Eldeki stok günleri             | Eldeki stok günleri = 365 / CostObjectStatementEntries [Tutara göre stok ciro oranı] |
-| Stok doğruluğu                 | Tutara göre stok doğruluğu = IF([Bitiş bakiyesi] \<= 0, IF(OR([Stok sayılan tutarı] \<\> 0, [Bitiş bakiyesi] \< 0), 0, 1), MAX(0, ([Bitiş bakiyesi] - ABS([Stok sayılan tutarı]))/[Bitiş bakiyesi])) |
+| Başlangıç bakiyesi                  | Başlangıç bakiyesi = \[Bitiş bakiyesi\]-\[Net değişiklik\] |
+| Başlangıç bakiyesi miktarı             | Başlangıç bakiyesi miktarı = \[Bitiş bakiyesi miktarı\]-\[Net değişiklik miktarı\] |
+| Kapanış bakiyesi                     | Bitiş bakiyesi = (CALCULATE(SUM(\[Tutar\]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\])))) |
+| Bitiş bakiyesi miktarı                | Bitiş bakiyesi miktarı = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
+| Net değişiklik                         | Net değişiklik = SUM(\[AMOUNT\]) |
+| Net değişiklik miktarı                    | Net değişiklik miktarı = SUM(\[QTY\]) |
+| Tutara göre stok ciro oranı | Tutara göre stok ciro oranı = if(OR(\[Stok ortalama bakiyesi\] \<= 0, \[Stok satılan veya tüketilen çıkışlar\] \>= 0), 0, ABS(\[Stok satılan veya tüketilen çıkışlar\])/\[Stok ortalama bakiyesi\]) |
+| Stok ortalama bakiye          | Stok ortalama bakiyesi = ((\[Bitiş bakiyesi\] + \[Başlangıç bakiyesi\]) / 2) |
+| Eldeki stok günleri             | Eldeki stok günleri = 365 / CostObjectStatementEntries\[Tutara göre stok ciro oranı\] |
+| Stok doğruluğu                 | Tutara göre stok doğruluğu = IF(\[Bitiş bakiyesi\] \<= 0, IF(OR(\[Stok sayılan tutarı\] \<\> 0, \[Bitiş bakiyesi\] \< 0), 0, 1), MAX(0, (\[Bitiş bakiyesi\] - ABS(\[Stok sayılan tutarı\]))/\[Bitiş bakiyesi\])) |
 
 Aşağıda belirtilen temel boyutlar daha büyük hassasiyet ve daha derin analiz bilgileri elde edebilmeniz amacıyla toplama ölçümlerini bölmek üzere filtre olarak kullanılır.
 
 
-|                         Varlık                          |             Öznitelik örnekleri              |
+| Varlık                                                  | Öznitelik örnekleri                          |
 |---------------------------------------------------------|-------------------------------------------------|
-|                        Ürünler                         | Ürün numarası, Ürün adı, Birim, Madde grupları |
-| Kategori hiyerarşileri (Maliyet yönetimi rolüne atanan) |       Kategori hiyerarşisi, Kategori düzeyi        |
-|                     Tüzel kişilikler                      |               Tüzel kişilik adları                |
-|                    Mali takvimler                     |  Mali yıl, Yıl, Üç aylık dönem, Dönem, Ay  |
-|                          Tesis                           |        Kod, Ad, Adres, Eyalet, Ülke        |
-
+| Ürünler                                                | Ürün numarası, Ürün adı, Birim, Madde grupları |
+| Kategori hiyerarşileri (Maliyet yönetimi rolüne atanan) | Kategori hiyerarşisi, Kategori düzeyi              |
+| Tüzel kişilikler                                          | Tüzel kişilik adları                              |
+| Mali takvimler                                        | Mali yıl, Yıl, Üç aylık dönem, Dönem, Ay   |
+| Tesis                                                    | Kod, Ad, Adres, Eyalet, Ülke               |
 

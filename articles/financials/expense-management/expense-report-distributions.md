@@ -1,7 +1,7 @@
 ---
 title: "Gider raporundaki dağıtımlar"
 description: "Giderler üzerinde bir gider raporunu girdiğinizde, gideri birden fazla proje, tüzel kişilikler veya kuruluşunuzdaki hesaplara dağıtabilirsiniz."
-author: saraschi2
+author: ShylaThompson
 manager: AnnBe
 ms.date: 09/19/2017
 ms.topic: article
@@ -12,16 +12,14 @@ audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
-ms.search.validFrom:
-- month/year of release that feature was introduced in
-- in format yyyy-mm-dd
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0f3f50061fc5b9b4cfc00000492840061fc3b386
+ms.sourcegitcommit: 384c38f3e154495c882434d1c85cef63396cd897
+ms.openlocfilehash: 00d051a8f644a6a0bedb0acc3eaac9a3dd1109e7
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/15/2018
 
 ---
 
@@ -36,10 +34,10 @@ ms.lasthandoff: 04/13/2018
 Gamze Frankfurt'ta bulunduğunda iki farklı proje üzerinde çalıştığı için, gider raporunu girdiğinde giderlerini her bir projeye uygun olarak dağıtır. Aşağıdaki tablo Gamze'nin giderlerini nasıl dağıttığını göstermektedir.
 
 
-| <strong>Gider türü</strong> | <strong>Toplam gider tutarı</strong> | <strong>Proje A'ya dağıtılan tutar</strong> | <strong>Proje B'ye dağıtılan tutar</strong> |
-|-------------------------------|---------------------------------------|--------------------------------------------------|--------------------------------------------------|
-|          Tren ücreti           |                DKK 578                |                     DKK 405                      |                     DKK 173                      |
-|             Otel             |                725 Euro                |                     557 Euro                      |                     168 Euro                      |
-|             Yemekler             |                346 Euro                |                     284 Euro                      |                      62 Euro                      |
+| Gider türü | Toplam gider tutarı|Proje A'ya dağıtılan tutar| Proje B'ye dağıtılan tutar |
+|--------------|---------------------|-------------------------------|---------------------------------|
+|Tren ücreti   |DKK 578              |DKK 405                        |DKK 173                          |
+|Otel         |725 Euro              |557 Euro                        |168 Euro                          |
+|Yemekler         |346 Euro              |284 Euro                        |62 Euro                           |
 
 
