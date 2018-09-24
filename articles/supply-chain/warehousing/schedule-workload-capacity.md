@@ -1,6 +1,6 @@
 ---
 title: "İş yükü kapasitesini zamanlama"
-description: "Bu konu bir ambardaki çalışanlar veya tüm ambar için iş yükü kapasitesini ayarlamayı ve zamanlamayı açıklar."
+description: "Bu konuda, bir ambardaki çalışanlar veya tüm ambar için iş yükü kapasitesinin nasıl ayarlanacağı ve zamanlanacağı açıklanmaktadır."
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 05/26/2017
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69b9c5590e6f9311696bbbed2e63a6eeba2a90bf
-ms.openlocfilehash: 1b93cfaf098b4cff3e72ee9bb599eadfdac2a9b9
+ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
+ms.openlocfilehash: 1b1334dcba7d12f2da301f70e21a08fceb88e2b4
 ms.contentlocale: tr-tr
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 08/29/2018
 
 ---
 

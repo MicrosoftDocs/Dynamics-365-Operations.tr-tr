@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: 3f18a5d7b7f7639b864f579b758005c7a30803a2
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -58,10 +58,10 @@ Bu konu, Yardım sistemini anlatır ve kuruluşunuz için özel belgeleri ve eğ
 
 docs.microsoft.com sitesi ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) Finance and Operations için birincil ürün belgelendirme kaynağıdır. Sitede aşağıdaki özellikler sunulmaktadır:
 
--   **En güncel içeriğe erişim** – Site ürün belgeleri oluşturmak, teslim etmek ve güncelleştirmek için daha hızlı ve daha esnek bir yol sunar. Bu nedenle, en son teknik bilgilerin erişimine sahip olduğunuzdan emin olmaya yardımcı olur.
--   **Uzmanlar tarafından yazılan içerik** – Site Microsoft'un içindeki ve dışındaki topluluk üyeleri tarafından geliştirilebilecek daha zengin bir ürün belgesi kümesi sağlar.
--   **Çeşitli içerik türlerine erişim** – Site, Finance and Operations ile ilgili görev kılavuzları, videolar ve konular gibi farklı türlerde içeriklere hızlı erişim sağlar.
--   **İş süreçlerini destekleyen içerik** – Site Microsoft Dynamics Lifecyle Services (LCS)içindeki İş Süreci Modelleyici'den (BPM) yararlanan iş süreci odaklı içeriği içerir.
+-   **En güncel içeriğe erişim**: Site ürün belgeleri oluşturmak, teslim etmek ve güncelleştirmek için daha hızlı ve daha esnek bir yol sunar. Bu nedenle, en son teknik bilgilerin erişimine sahip olduğunuzdan emin olmaya yardımcı olur.
+-   **Uzmanlar tarafından yazılan içerik**: Site Microsoft'un içindeki ve dışındaki topluluk üyeleri tarafından geliştirilebilecek daha zengin bir ürün belgesi kümesi sağlar.
+-   **Çeşitli içerik türlerine erişim**: Site, Finance and Operations ile ilgili görev kılavuzları, videolar ve konular gibi farklı türlerde içeriklere hızlı erişim sağlar.
+-   **İş süreçlerini destekleyen içerik**: Site Microsoft Dynamics Lifecyle Services (LCS)içindeki İş Süreci Modelleyici'den (BPM) yararlanan iş süreci odaklı içeriği içerir.
 
 ### <a name="searching-on-docsmicrosoftcom"></a>docs.microsoft.com adresindeki arama yapmak
 İçeriğimizin nasıl aranabileceği hakkında çok fazla soru alıyoruz. Sitemizde, Finance and Operations hakkında bir sayfadan başlarsanız, aramanızı yalnızca Finance and Operations kapsamına alırız. Bu kapsamayı, arama kutusundaki Operations'ın yanındaki X'e basarak kaldırabilirsiniz. 
@@ -74,7 +74,7 @@ docs.microsoft.com sitesi ([docs.microsoft.com/dynamics365/unified-operations](.
 Finance and Operations, Retail ve Talent, belgeler sitesinde tek bir içindekiler tablosunu paylaşır ve bu da müşterilerin içinde bulundukları konu hakkındaki bağlamı görmelerine olanak sağlar. Ayrıca, aradığınız konuları bulmak için içindekiler bölümünün üstünde bulunan Filtre denetimini kullanmanıza olanak sağlar.
 
 ### <a name="follow-a-topic"></a>Bir konuyu izleme
-Bir konuyu izlemek için açıklama kutusunun altındaki +İzle düğmesine tıklayın. Konuyu izlemek için oturum açmanız gerekir. Ayrıntılar için bkz. [Bize bir yorum yazın](#leave-us-a-comment).  
+Bir konuyu izlemek için açıklama kutusunun altındaki +İzle düğmesine tıklayın. Konuyu izlemek için oturum açmanız gerekir. Ayrıntılar için bkz. [Geri bildirim bırakın](#leave-us-feedback).  
 
 ### <a name="use-an-rss-feed"></a>RSS akışı kullanma
 Unified Operations içeriği için tüm güncelleştirmelerin RSS akışına abone olmak üzere RSS akışlarını destekleyen Internet Explorer gibi bir tarayıcıda veya bir RSS akışı yöneticisinde aşağıda bağlantıyı kullanın: 
@@ -126,8 +126,8 @@ Yönlendirmeli, etkileşimli deneyime başlamak için, Yardım bölmesinin altı
 
 Görev kılavuzları Görev Kaydedici kullanarak oluşturulur. Görev Kaydedici'yi kullanırken, Finance and Operations Kullanıcı Arabiriminde yaptığınız tüm eylemler (menülere tıklamak, ayarları değiştirmek ve veri girmek gibi) kaydedilir. Kaydettiğiniz tüm adımlar toplu olarak görev kaydı olarak adlandırılır. Bir önceki bölümde açıklandığı gibi görev kayıtları Yardım bölmesinde görüntülenebilir ve görev kılavuzları olarak oynatılır. Ancak, görev kayıtlarını kullanmanın farklı yolları vardır:
 
--   **Görev kayıtlarını BPM'ye kaydetme** – Bir görev kaydını LCS'deki BPM kitaplığında bir hiyerarşi sırasına kaydedebilirsiniz. BPM'ye bir görev kaydını kaydettiğinizde, akış diyagramı oluşturulur ve kayıt adımları ile birlikte görüntülenir. **Not:** Finance and Operations Yardım bölmesinde bir görev kaydetmeyi görüntülemek ve görev kılavuz olarak yürütmek için kaydı bir BPM kitaplığına kaydetmeniz gerekir.
--   **Görev kayıtlarını Word belgesi olarak kaydet** – Görev kaydını bir Microsoft Word belgesi olarak kaydederek, kuruluşunuz için yazdırılabilir eğitim kılavuzlarını kolaylıkla üretebilirsiniz.
+-   **Görev kayıtlarını BPM'ye kaydetme**: Bir görev kaydını LCS'deki BPM kitaplığında bir hiyerarşi sırasına kaydedebilirsiniz. BPM'ye bir görev kaydını kaydettiğinizde, akış diyagramı oluşturulur ve kayıt adımları ile birlikte görüntülenir. **Not:** Finance and Operations Yardım bölmesinde bir görev kaydetmeyi görüntülemek ve görev kılavuz olarak yürütmek için kaydı bir BPM kitaplığına kaydetmeniz gerekir.
+-   **Görev kayıtlarını Word belgesi olarak kaydet**: Görev kaydını bir Microsoft Word belgesi olarak kaydederek, kuruluşunuz için yazdırılabilir eğitim kılavuzlarını kolaylıkla üretebilirsiniz.
 
 Görev Kaydedici hakkında daha fazla bilgi için bkz. [Finance and Operations'da görev kaydedici.](../../dev-itpro/user-interface/task-recorder.md).
 

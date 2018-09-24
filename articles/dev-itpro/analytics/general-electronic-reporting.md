@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: a271887c4d2cfe4d0ee6518482dc4ebe407ebe56
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 185d1adc88a29bc3ae722ae2c6f0a2769428bce3
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -63,8 +63,8 @@ Bir iş varlık veri modeli (kayıt) kapsayıcı olarak temsil edilir. İş varl
 
 Tek bir veri modeli bileşeni, birden fazla etki alanı iş varlığı hiyerarşisi içerebilir. Çalışma zamanında rapora özel veri akışı destekleyen bir model eşleştirmesi içerebilir. Hiyerarşiler eşleme modeli kökü olarak seçilen tek bir kayıt tarafından ayrıştırılır. Örneğin, ödeme etki alanının veri modeli aşağıdaki eşlemeleri destekliyor olabilir:
 
-- Şirket > Satıcı > AP etki alanının ödeme hareketleri
-- Müşteri > Şirket > AR etki alanının ödeme hareketleri
+- Şirket \> Satıcı \> AP etki alanının ödeme hareketleri
+- Müşteri \> Şirket \> AR etki alanının ödeme hareketleri
 
 Şirket ve ödeme hareketleri gibi iş varlıklarının bir defa tasarlandığını unutmayın. Daha sonra farklı eşleşmeler bunları yeniden kullanır.
 
@@ -74,7 +74,7 @@ Giden elektronik belgeleri destekleyen bir model eşleştirmesi aşağıdaki öz
 - Bazı verilerin çalışma zamanında belirtilmesi gerekiyorsa bir veri modeli için veri kaynağı olarak tanımlanabilen kullanıcı giriş parametrelerini destekler.
 - Finance and Operations verisinin gerekli gruplara dönüştürülmesini destekler. Veriyi filtrelemenize, sıralamanıza, toplamanıza ve Microsoft Excel formüllerine benzerlik gösteren, formüller aracılığıyla tasarlanmış mantıksal hesaplanan alanları mantıksal olarak hesaplanmış alanlar eklemenize, aşağıda gösterildiği gibi olanak sağlar. Daha fazla bilgi için [Elektronik raporlamada formül tasarımcısı](general-electronic-reporting-formula-designer.md) konusuna bakın.
 
-[![Formül tasarımcısı](./media/ER-overview-01.png)](./media/ER-overview-01.png) 
+[![Formül tasarımcısı](./media/ER-overview-01.png)](./media/ER-overview-01.png)
 
 Gelen elektronik belgeleri destekleyen bir model eşleştirmesi aşağıdaki özellikleri içerir:
 
@@ -175,7 +175,7 @@ Gerekli **LCS projesi** depoları her bir geçerli Finance and Operations kurulu
 ## <a name="supported-scenarios"></a>Desteklenen senaryolar
 ### <a name="building-a-data-model"></a>Bir veri modeli oluşturma
 
-ER, belirli bir iş etki alanı için bir veri modeli oluşturmak amacıyla kullanabileceğiniz bir model tasarımcısı sağlar. Tüm etki alanına özgü iş varlıkları ve aralarındaki ilişkiler hiyerarşik olarak yapılandırılmış bir veri modelinde sunulabilir. Aşağıdaki çizim bu tür bir veri modeli örneğini (ödeme etki alanı veri modeli) gösterir. 
+ER, belirli bir iş etki alanı için bir veri modeli oluşturmak amacıyla kullanabileceğiniz bir model tasarımcısı sağlar. Tüm etki alanına özgü iş varlıkları ve aralarındaki ilişkiler hiyerarşik olarak yapılandırılmış bir veri modelinde sunulabilir. Aşağıdaki çizim, bu tür bir veri modeli örneğini (ödeme etki alanı veri modeli) gösterir.
 
 [![Ödeme etki alanı veri modeli](./media/ER-overview-04.png)](./media/ER-overview-04.png)
 
@@ -185,38 +185,37 @@ Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Tasarım etki al
 
 Veri modeli içeriği (etiketler ve tanımlar) Finance and Operations'ın desteklediği diğer dillere çevrilebilir. Aşağıdaki nedenlerden dolayı veri modeli içeriğini çevirmek isteyebilirsiniz:
 
--   Veri modelini biçim bileşenlerinin eşlemesi için kullanacak yabancı dilleri konuşan biçim tasarımcıları için tasarım zamanında daha anlaşılır yapmak için.
--   O anda oturum açmış kullanıcı tarafından tercih edilen dildeki yapılandırılmış doğrulama iletilerinin (hatalar ve uyarılar) yanı sıra çalıştırma zamanı parametreleri için komutları ve yardımları sunan daha kullanıcı dostu içerik oluşturmak için.
+- Veri modelini biçim bileşenlerinin eşlemesi için kullanacak yabancı dilleri konuşan biçim tasarımcıları için tasarım zamanında daha anlaşılır yapmak için.
+- O anda oturum açmış kullanıcı tarafından tercih edilen dildeki yapılandırılmış doğrulama iletilerinin (hatalar ve uyarılar) yanı sıra çalıştırma zamanı parametreleri için komutları ve yardımları sunan daha kullanıcı dostu içerik oluşturmak için.
 
-Aşağıdaki çizim veri modeli içeriğinin İngilizceden Japoncaya nerede çevrildiğine dair bir örneği göstermektedir. 
+Aşağıdaki çizim, veri modeli içeriğinin İngilizceden Japoncaya nerede çevrildiğine dair bir örneği göstermektedir.
 
 [![İngilizce veri modeli içeriği](./media/ER-overview-05.png)](./media/ER-overview-05.png)
 
 [![Japonca'ya çevrilen veri modeli içeriği](./media/ER-overview-06.png)](./media/ER-overview-06.png)
 
-
 ### <a name="configuring-data-model-mappings-for-outgoing-documents"></a>Giden belgeler için veri modeli eşlemeleri yapılandırmak
 
-ER, kullanıcılara belirli Finance and Operations veri kaynakları için tasarlanan veri modellerini eşleme imkanı veren bir model eşleme tasarımcısı sağlar. Veri, eşleşmeye bağlı olarak çalışma zamanında seçilen veri kaynaklarından modele alınacaktır. Veri modeli daha sonra giden elektronik belgeler oluşturan ER biçimlerinin soyut bir veri kaynağı kullanılır. Aşağıdaki çizim bu tür veri model eşleşmesinin bir örneğini göstermektedir (**SEPA Alacak Transferi** ödeme etki alanı veri modelinin model eşlemesi). 
+ER, kullanıcılara belirli Finance and Operations veri kaynakları için tasarlanan veri modellerini eşleme imkanı veren bir model eşleme tasarımcısı sağlar. Veri, eşleşmeye bağlı olarak çalışma zamanında seçilen veri kaynaklarından modele alınacaktır. Veri modeli daha sonra giden elektronik belgeler oluşturan ER biçimlerinin soyut bir veri kaynağı kullanılır. Aşağıdaki çizim, bu tür veri model eşleşmesinin bir örneğini göstermektedir (**SEPA Alacak Transferi** ödeme etki alanı veri modelinin model eşlemesi).
 
 [![Veri modeli eşleme örneği ](./media/ER-overview-07.png)](./media/ER-overview-07.png)
 
 Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER model eşleme tanımla ve veri kaynakları seç** ve **ER seçili veri kaynaklarına veri modeli eşle** görev kılavuzlarını ( **7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677)** iş sürecinin parçası) oynatın.
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Gelen belgeler için veri modeli eşlemeleri yapılandırmak
-ER, kullanıcılara belirli hedefler için tasarlanan veri modellerini eşleme imkanı veren bir model eşleme tasarımcısı sağlar. Örneğin, veri modelleri Finance and Operations güncelleştirilebilir veri bileşenlerine (tablolalar, veri varlıkları ve görünümler) eşlenebilir. Eşlemeye bağlı olarak, Finance and Operations verisi çalışma zamanında, veri modelinden veriyi kullanarak güncelleştirilir. ER biçiminin soyut depolaması olarak veri modeli, gelen bir elektronik belgeden içe aktarılan verilerle doldurulur. Aşağıdaki çizim bu tür bir veri modeli eşlemesinin örneğini gösterir. Bu örnekte ödeme etki alanı veri modelinin **NETS için içe aktarma eşleme** modeli eşlemesi, Norveç için NETS banka biçimindeki banka ekstrelerinin içe aktarılması için kullanılır.
+ER, kullanıcılara belirli hedefler için tasarlanan veri modellerini eşleme imkanı veren bir model eşleme tasarımcısı sağlar. Örneğin, veri modelleri Finance and Operations güncelleştirilebilir veri bileşenlerine (tablolalar, veri varlıkları ve görünümler) eşlenebilir. Eşlemeye bağlı olarak, Finance and Operations verisi çalışma zamanında, veri modelinden veriyi kullanarak güncelleştirilir. ER biçiminin soyut depolaması olarak veri modeli, gelen bir elektronik belgeden içe aktarılan verilerle doldurulur. Aşağıdaki çizim, bu tür bir veri modeli eşlemesinin örneğini gösterir. Bu örnekte ödeme etki alanı veri modelinin **NETS için içe aktarma eşleme** modeli eşlemesi, Norveç için NETS banka biçimindeki banka ekstrelerinin içe aktarılması için kullanılır.
 
 [![NET veri modeli örneği için içe aktarma eşlemesi](./media/ER-overview-08.png)](./media/ER-overview-08.png)
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Tasarlanmış model bileşenini model konfigürasyonu olarak depolama
 
-ER, geçerli Finance and Operations örneğinin model konfigürasyonu olarak ilgili veri eşleşmeleriyle birlikte tasarlanmış veri modelini saklayabilir. Aşağıdaki çizim bu tür bir veri modeli konfigürasyonu örneğini (ödeme etki alanı model konfigürasyonu) gösterir. 
+ER, geçerli Finance and Operations örneğinin model konfigürasyonu olarak ilgili veri eşleşmeleriyle birlikte tasarlanmış veri modelini saklayabilir. Aşağıdaki çizim, bu tür bir veri modeli konfigürasyonu örneğini (ödeme etki alanı model konfigürasyonu) gösterir.
 
 Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER seçili veri kaynaklarına veri modeli eşle** görev kılavuzunu (**7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677)** iş sürecinin parçası) oynatın.
 
 ### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>Temel olarak bir veri modelini kullanan bir biçim oluşturma
 
-ER, model bileşenini temel olarak seçerek seçili bir iş etki alanı için bir elektronik belge biçimini oluşturmak için kullanabileceğiniz bir biçim tasarımcısını destekler. Aynı ER biçimi tasarımcısı veri kaynağı olarak seçili etki alanı veri modeli eşlemesi için oluşturduğunuz bir biçimde eşleme yapmanızı sağlar. Aşağıdaki çizim bu tür biçim örneğini (İngiltere için **BACS** ödeme biçimini destekleyen biçim konfigürasyonu) göstermektedir. 
+ER, model bileşenini temel olarak seçerek seçili bir iş etki alanı için bir elektronik belge biçimini oluşturmak için kullanabileceğiniz bir biçim tasarımcısını destekler. Aynı ER biçimi tasarımcısı, veri kaynağı olarak seçili etki alanı veri modeli eşlemesi için oluşturduğunuz bir biçimde eşleme yapmanızı sağlar. Aşağıdaki çizim, bu tür biçim örneğini (İngiltere için **BACS** ödeme biçimini destekleyen biçim konfigürasyonu) göstermektedir.
 
 [![Temel olarak bir veri modeline sahip biçim örneği](./media/ER-overview-09.png)](./media/ER-overview-09.png)
 
@@ -224,14 +223,14 @@ Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Tasarım etki al
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-openxml-worksheet-format"></a>OPENXML çalışma sayfası biçiminde elektronik belgeler oluşturmak için bir konfigürasyon oluşturma
 
-ER biçim tasarımcısı, bir elektronik belgeyi OPENXML çalışma sayfası biçiminde oluşturmak için kullanılabilir. Aşağıdaki çizim bu tür bir biçim (Seçili ödeme günlüğü ayrıntılarını içeren OPENXML çalışma sayfası oluşturmak için biçim konfigürasyonu) örneğini göstermektedir.
+ER biçim tasarımcısı, bir elektronik belgeyi OPENXML çalışma sayfası biçiminde oluşturmak için kullanılabilir. Aşağıdaki çizim, bu tür bir biçim (Seçili ödeme günlüğü ayrıntılarını içeren OPENXML çalışma sayfası oluşturmak için biçim konfigürasyonu) örneğini göstermektedir.
 
 [![ER biçimi Excel resmi](./media/ER-overview-10.png)](./media/ER-overview-10.png)
 
 Bu senaryonun ayrıntıları hakkında bilgi edinmek için **Raporlar için OPENXML biçiminde bir konfigürasyon oluştur** görev kılavuzunu (**7.5.4.3 BT hizmeti/çözüm bileşenleri Al/Geliştir (10677)** iş sürecinin parçası) oynatın. Bir şablonun içe aktarılamsı görev kılavuzunun bir parçası olarak, [Ödeme Raporu Şablonu (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) Excel dosyasını şablon olarak kullanın.
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Bir Word belgesi biçiminde elektronik belgeler oluşturmak için bir konfigürasyon oluşturma
-ER biçim tasarımcısı, bir elektronik belgeyi bir Word belgesi biçiminde oluşturmak için kullanılabilir. Aşağıdaki çizim bu tür bir biçimin örneğini gösterir. Bu biçimin, rapor çıktısını OPENXML biçiminde oluşturmak için özgün olarak tasarlanmış olan mevcut ER yapılandırmasını yeniden kullandığını unutmayın.
+ER biçim tasarımcısı, bir elektronik belgeyi bir Word belgesi biçiminde oluşturmak için kullanılabilir. Aşağıdaki çizim, bu tür bir biçimin örneğini gösterir. Bu biçimin, rapor çıktısını OPENXML biçiminde oluşturmak için özgün olarak tasarlanmış olan mevcut ER yapılandırmasını yeniden kullandığını unutmayın.
 
 [![ER biçimi Word resmi](./media/ER-overview-11.png)](./media/ER-overview-11.png)
 
@@ -240,7 +239,7 @@ Bu senaryonun ayrıntıları hakkında bilgi edinmek için ER Microsoft WORD bi�
 - [Ödeme Raporu Şablonu (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 - [Ödeme Raporunun bağlı şablonu (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
-### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Gelen elektronik belgelerden veri aktarmak için bir yapılandırma oluşturmak  
+### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Gelen elektronik belgelerden veri aktarmak için bir yapılandırma oluşturmak
 ER biçim tasarımcısı, XML ya da metin biçiminde veri içe aktarma için planlanan bir elektronik belgeyi tanımlamak için kullanılabilir. Tasarlanan biçim, gelen bir belgeyi ayrıştırmak için kullanılır. ER biçimi eşleme tasarımcısı, tasarlanan biçimin öğelerinin veri modeline bağlamasını tanımlamak için kullanılabilir. Aşağıdaki çizimler, bu tür bir biçim ve biçim eşlemesinin örneğini gösterir. Bu örnekte, satıcı ödeme ayrıntılarını metin biçiminde içeren NETS banka ekstreleri içe aktarılır.
 
 [![ER Biçim tasarımcısı](./media/ER-overview-12.png)](./media/ER-overview-12.png)
@@ -260,7 +259,7 @@ ER, geçerli Finance and Operations kurulumunun biçim konfigürasyonu olarak ya
 
 ### <a name="configuring-finance-and-operations-to-start-to-use-a-created-format-internally"></a>Oluşturulan biçimi dahili olarak kullanmaya başlamak için Finance and Operations'ı yapılandırma
 
-Finance and Operations elektronik raporları oluşturmak için oluşturulan biçimi kullanmaya başlamak için yapılandırılabilir. Oluşturulmuş biçim konfigürasyonu başvurusu belirli bir etki alanı ayarları içinde tanımlanmalıdır. Örneğin, elektronik satıcı ödemeleri için BACS biçiminde ER biçim konfigürasyonu kullanmaya başlamak için biçim konfigürasyonu aşağıdaki çizimlerde gösterildiği gibi belirli ödeme yöntemlerinde referans olarak verilmelidir: 
+Finance and Operations elektronik raporları oluşturmak için oluşturulan biçimi kullanmaya başlamak için yapılandırılabilir. Oluşturulmuş biçim konfigürasyonu başvurusu belirli bir etki alanı ayarları içinde tanımlanmalıdır. Örneğin, elektronik satıcı ödemeleri için BACS biçiminde ER biçim konfigürasyonu kullanmaya başlamak için biçim konfigürasyonu aşağıdaki çizimlerde gösterildiği gibi belirli ödeme yöntemlerinde referans olarak verilmelidir:
 
 [![BACS (UK) biçim konfigürasyonu](./media/ER-overview-14.png)](./media/ER-overview-14.png)
 
@@ -283,7 +282,7 @@ ER, LCS'den aktarıla bir bileşenin güncel sürümünden (temel) yeni bir bile
 
 ### <a name="upgrading-a-format-selecting-a-new-version-of-base-format-rebase"></a>Temel biçimin yeni sürümünü seçerek bir biçim yükseltme (rebase)
 
-ER, türetilen bileşenin geçerli taslak sürümünde temel bileşenin en son sürümünün değişikliklerini otomatik olarak benimsemenizi sağlar. Bu işlem *yeniden temelleme*olarak bilinmektedir. Örneğin, LCS'den aktarılan biçimin en son sürümünde kullanılan yeni yasal değişiklik elektronik belgenin bu biçiminin özelleştirilmiş sürümüyle otomatik olarak birleştirilebilir. Otomatik olarak birleştirilemeyen herhangi bir değişiklik çakışma olarak kabul edilir. Bu çakışmalar uygun bileşen için tasarımcı aracında elle çözüm için sunulur. Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Bu biçimin yeni temel sürüm benimsenerek biçimi yükselt** görev kılavuzunu (**7.5.5.3 Al/Değiştirilmiş BT servisi geliştir/çözüm bileşeni (10683)** iş işlemi parçası) oynatın.
+ER, türetilen bileşenin geçerli taslak sürümünde temel bileşenin en son sürümünün değişikliklerini otomatik olarak benimsemenizi sağlar. Bu işlem *yeniden temelleme*olarak bilinmektedir. Örneğin, LCS'den aktarılan biçimin en son sürümünde kullanılan yeni yasal değişiklik elektronik belgenin bu biçiminin özelleştirilmiş sürümüyle otomatik olarak birleştirilebilir. Otomatik olarak birleştirilemeyen her değişiklik bir çakışma olarak kabul edilir. Bu çakışmalar uygun bileşen için tasarımcı aracında elle çözüm için sunulur. Bu senaryonun ayrıntıları hakkında bilgi edinmek için **ER Bu biçimin yeni temel sürüm benimsenerek biçimi yükselt** görev kılavuzunu (**7.5.5.3 Al/Değiştirilmiş BT servisi geliştir/çözüm bileşeni (10683)** iş işlemi parçası) oynatın.
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a>Finance and Operations çözümüne teslim edilen ER konfigürasyonları listesi
 
@@ -367,15 +366,9 @@ ER, türetilen bileşenin geçerli taslak sürümünde temel bileşenin en son s
 |                                                  |                       | Satıcı faturası bildirimi (IS)                   | İzlanda için Satıcı fatura bildirimi biçimi                      |
 |                                                  |                       | Satıcı fatura bildirimi raporu (IS)            | İzlanda için Satıcı fatura bildirimi raporu                      |
 
-
-
-<a name="additional-resources"></a>Ek kaynaklar
---------
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Yerelleştirme gereksinimleri: Elektronik raporlama konfigürasyon oluştur](electronic-reporting-configuration.md)
 
 [Elektronik raporlama yapılandırma yaşam döngüsünü yönetin](general-electronic-reporting-manage-configuration-lifecycle.md)
-
-
-
 

@@ -27,6 +27,8 @@ ms.lasthandoff: 08/09/2018
 
 # <a name="axerd-page-has-been-retired"></a>AxErd sayfası kullanımdan kaldırıldı
 
+[!include [banner](../includes/banner.md)]
+
 Ne yazık ki bir çok Microsoft Dynamics AX 2012 tablosu için Varlık ilişkisi şemaları (ERD'ler) sağlayan AxErd web sayfasını kaldırmak zorunda kaldık. Projenin kaynak kodunu ve web sayfasının HTML dosyalarını GitHub havuzuna nakledebildik: https://github.com/Microsoft/ax-2012-doc-tools
 
 HTML sayfaları [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm) adresindeki havuzdadır.

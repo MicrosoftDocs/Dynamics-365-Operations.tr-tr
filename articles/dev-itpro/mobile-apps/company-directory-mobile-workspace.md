@@ -1,6 +1,6 @@
 ---
 title: "Şirket dizini mobil çalışma alanı"
-description: "Bu konu, kullanıcıların kuruluşları içindeki diğer personelleri görmelerine ve iletişim kurmalarına sağlayan Şirket dizini mobil çalışma alanı hakkında bilgi sağlar."
+description: "Bu konuda, kullanıcıların kuruluşları içindeki diğer personeli görmesini ve iletişim kurmasını sağlayan Şirket dizini mobil çalışma alanı hakkında bilgi verilmektedir."
 author: jcart1106
 manager: AnnBe
 ms.date: 06/16/2017
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0b27c5c0ed2cd380819c5208c57fa2a3de1d5aaa
+ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
+ms.openlocfilehash: 527d40452bcf52875e3f7b04d328110147417072
 ms.contentlocale: tr-tr
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/29/2018
 
 ---
 

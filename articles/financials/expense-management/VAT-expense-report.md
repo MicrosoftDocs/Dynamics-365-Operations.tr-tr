@@ -26,6 +26,8 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="vat-recovery-in-expense-management"></a>Gider yönetiminde KDV kurtarma
 
+[!include [banner](../includes/banner.md)]
+
 Uygun katma değer vergisi (KDV) hareketlerinde para iadesi almak için bir şirket veya kuruluşun gerçek bilgileri tanımlaması, toplaması, doğrulaması ve göndermesi gerekir. Bu işlem birden çok görevi içerir ve şirketinizin boyutuna bağlı olarak bunlar çeşitli çalışanları veya rolleri içerebilir.
 
 Gider yönetimi kullanarak KDV iadesi almak için aşağıdaki önkoşulların tamamlanmış olması gerekir:

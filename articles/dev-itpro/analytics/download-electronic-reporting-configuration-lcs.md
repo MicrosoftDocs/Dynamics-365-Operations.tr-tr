@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1a4e8c25fb65b35a52a0d1bc0f1a745c06ca53ab
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 8686d2639a3ab7f2e79944cc5eed51571d463261
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -34,35 +34,45 @@ Bu konu, Elektronik raporlama (ER) yapılandırmalarını Microsoft Dynamics Lif
 
 Bu eğitim size Elektronik Raporlama (ER) yapılandırmalarının en yeni sürümlerinin, Microsoft Dynamics Lifecycle Services'dan (LCS) indirme sürecini öğretir.
 
-1.  Aşağıdaki rollerden birini kullanarak Finance and Operations'da oturum açın:
-    -   Elektronik raporlama geliştirici
-    -   Elektronik raporlama işlev danışmanı
-    -   Sistem yöneticisi
+1. Aşağıdaki rollerden birini kullanarak Finance and Operations'da oturum açın:
 
-2.  **Organizasyon yönetimi** &gt; **Elektronik raporlama**'ya gidin.
-3.  **Yapılandırma sağlayıcıları** bölümünde, **Microsoft** kutucuğunu seçin.
-4.  **Microsoft** kutucuğunda, **Depolar**'a tıklayın. [![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
-5.  **Yapılandırma depoları** sayfasında, kılavuz içerisinde, mevcut **LCS** türünün deposunu seçin. Bu depo kılavuzda görünmüyorsa, aşağıdaki adımları izleyin:
-    1.  Yeni bir depo eklemek için **Ekle**'ye tıklayın.
-    2.  Havuz türü olarak **LCS**'yi seçin.
-    3.  **Depo oluştur**'a tıklayın.
+    - Elektronik raporlama geliştirici
+    - Elektronik raporlama işlev danışmanı
+    - Sistem yöneticisi
+
+2. **Organizasyon yönetimi** &gt; **Elektronik raporlama**'ya gidin.
+3. **Yapılandırma sağlayıcıları** bölümünde, **Microsoft** kutucuğunu seçin.
+4. **Microsoft** kutucuğunda, **Depolar**'a tıklayın.
+
+    [![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+
+5. **Yapılandırma depoları** sayfasında, kılavuz içerisinde, mevcut **LCS** türünün deposunu seçin. Bu depo kılavuzda görünmüyorsa, aşağıdaki adımları izleyin:
+
+    1. Yeni bir depo eklemek için **Ekle**'ye tıklayın.
+    2. Havuz türü olarak **LCS**'yi seçin.
+    3. **Depo oluştur**'a tıklayın.
     4. İstenirse, yetkilendirme yönergelerini izleyin.
-    5.  Depo için bir ad ve açıklama girin.
-    6.  Yeni depo girişini onaylamak için **Tamam**'a tıklayın.
-    7.  Kılavuzda **LCS** türündeki yeni depoyu seçin.
+    5. Depo için bir ad ve açıklama girin.
+    6. Yeni depo girişini onaylamak için **Tamam**'a tıklayın.
+    7. Kılavuzda **LCS** türündeki yeni depoyu seçin.
 
-6.  Seçilmiş depo için ER yapılandırmalarını görüntülemek için **Aç**'a tıklayın. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
-7.  Sol bölmedeki yapılandırmalar ağacında, gereksinim duyduğunuz ER yapılandırmalarını seçin.
-8.  **Sürümler** FastTab üzerinde, seçili ER yapılandırmasının gerekli sürümünü seçin.
-9.  Seçili sürümü LCS'den mevcut Finance and Operations örneğine indirmek için **İçe Aktarma**'ya tıklayın. **Not:** Mevcut Finance and Operations örneğinde bulunan ER yapılandırma sürümleri için **İçe Aktarma** düğmesi kullanılamaz. [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+6. Seçilmiş depo için ER yapılandırmalarını görüntülemek için **Aç**'a tıklayın.
 
-**Not:** ER ayarlarına bağlı olarak, yapılandırmalar içe aktarıldıktan sonra doğrulanır. Bulunan tutarsızlık sorunları hakkında haberdar edileceksiniz. İçe aktarılmış yapılandırma sürümünü kullanmadan önce bu sorunları çözümlemeniz gerekir. Daha fazla bilgi için bu konunun ilgili makaleleri listesine göz atın.
+    [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 
-<a name="additional-resources"></a>Ek kaynaklar
---------
+7. Sol bölmedeki yapılandırmalar ağacında, gereksinim duyduğunuz ER yapılandırmalarını seçin.
+8. **Sürümler** FastTab üzerinde, seçili ER yapılandırmasının gerekli sürümünü seçin.
+9. Seçili sürümü LCS'den mevcut Finance and Operations örneğine indirmek için **İçe Aktarma**'ya tıklayın.
+
+    > [!NOTE]
+    > Mevcut Finance and Operations örneğinde bulunan ER yapılandırma sürümleri için **İçeri Aktar** düğmesi kullanılamaz.
+
+    [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+
+> [!NOTE]
+> ER ayarlarına bağlı olarak yapılandırmalar içeri aktarıldıktan sonra doğrulanır. Bulunan tutarsızlık sorunları hakkında haberdar edileceksiniz. İçe aktarılmış yapılandırma sürümünü kullanmadan önce bu sorunları çözümlemeniz gerekir. Daha fazla bilgi için bu konunun ilgili makaleleri listesine göz atın.
+
+## <a name="additional-resources"></a>Ek kaynaklar
 
 [Elektronik raporlamaya genel bakış](general-electronic-reporting.md)
-
-
-
 

@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 55699cb41c712b49954f9ad6b03c2e7813a3a98a
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: cf4d3e12d33b67158ff4f96580b4ac2eb903bb93
 ms.contentlocale: tr-tr
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,21 +36,21 @@ Bu konu, **Satış ve karlılık performansı** Microsoft Power BI içeriğinde 
 
 **Satış ve karlılık performansı** Power BI içeriği, satış yöneticilerinin gelir, brüt kar ve kar marjları temel satış ölçümlerini izleyebilmesi için oluşturulmuştur. Satış hareketi verilerini kullanır ve hem şirket çapında satış rakamlarının toplam görünümünü hem de müşteriler ve ürünler için satış performansının dağılımını verir.
 
-Rapor zaman içinde gelirdeki değişiklikleri ve kar artışını vurgular. Bu nedenle, raporlar yöneticileri ayrı müşteriler ve ürünlerle ilgili olarak pozitif ve negatif eğilimleri hakkında uyarmak için kullanılabilir. Ayrıca, grafik farklı ürün kategorilerinin gelirini ve karlılığını ve müşteri gruplarını birbiriyle karşılaştırır. Bu nedenle, kategori ve bölge yöneticileri geride kalanları ve liderleri tanımlayabilir. Son olarak, kapsamlı bir rapor tek tek müşteri gelirinin kar marjıyla karşılaştırmasını sunar. Böylece, hesap yöneticileri her müşteri profiline yönelik satış ve pazarlama çalışmalarını ayarlamak için kullanabilecekleri verilere dayanan bir temele sahip olur. 
+Rapor zaman içinde gelirdeki değişiklikleri ve kar artışını vurgular. Bu nedenle, raporlar yöneticileri ayrı müşteriler ve ürünlerle ilgili olarak pozitif ve negatif eğilimleri hakkında uyarmak için kullanılabilir. Ayrıca, grafik farklı ürün kategorilerinin gelirini ve karlılığını ve müşteri gruplarını birbiriyle karşılaştırır. Bu nedenle, kategori ve bölge yöneticileri geride kalanları ve liderleri tanımlayabilir. Son olarak, kapsamlı bir rapor tek tek müşteri gelirinin kar marjıyla karşılaştırmasını sunar. Bu nedenle hesap yöneticileri her müşteri profiline yönelik satış ve pazarlama çalışmalarını ayarlamak için kullanabilecekleri verilere dayanan bir temele sahip olur.
 
 **Satış ve karlılık performansı** içeriği satış yöneticilerinin satış performansını aşağıdaki şekillerde analiz etmesini sağlar:
 
--   Gelir, yılbaşından bugüne (müşteri grubu ve bireysel müşteriler, satış kategorileri ve bireysel ürünler ve coğrafyalara göre)
--   Gelir değişimi, yıldan yıla (müşteri bölgelerine ve satışları kategorilerine göre)
+- Gelir, yılbaşından bugüne (müşteri grubu ve bireysel müşteriler, satış kategorileri ve bireysel ürünler ve coğrafyalara göre)
+- Gelir değişimi, yıldan yıla (müşteri bölgelerine ve satışları kategorilerine göre)
 
 Karlılık analiz aşağıdaki şekillerde analiz edilebilir:
 
--   Brüt kar ve kar marjı (müşteri gruplarına ve ürün satış kategorilerine göre)
--   Brüt kar değişikliği, yıldan yıla
--   Müşteri karlılığı (gelir - brüt kar marjı karşılaştırması)
+- Brüt kar ve kar marjı (müşteri gruplarına ve ürün satış kategorilerine göre)
+- Brüt kar değişikliği, yıldan yıla
+- Müşteri karlılığı (gelir - brüt kar marjı karşılaştırması)
 
 ## <a name="accessing-the-power-bi-content"></a>Power BI içeriğine erişmek
-**Satış ve karlılık performansı** Power BI içeriği **Satış ve karlılık performansı** sayfasında gösterilir (**Satış ve pazarlama** > **Sorgulamalar ve raporlar** > **Satış performansı analizi** > **Satış ve karlılık performansı**). 
+**Satış ve karlılık performansı** Power BI içeriği, **Satış ve karlılık performansı** sayfasında gösterilir (**Satış ve pazarlama** \> **Sorgular ve raporlar** \> **Satış performansı analizi** \> **Satış ve karlılık performansı**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI içeriğine dahil olan ölçümler
 **Satış ve karlılık performansı** Power BI içeriği bir dizi ölçümden oluşan bir rapor içerir. Bu ölçümler grafikler, kutucuklar ve tablolar şeklinde görüntülenir. Aşağıdaki tabloda içerikteki görselleştirmelere genel bakış sunulmaktadır.
@@ -77,26 +77,25 @@ Karlılık analiz aşağıdaki şekillerde analiz edilebilir:
 
 \* Bu yılki ve geçen yılki gelir ve büyüme, satış kategorisine göre.
 
-
 ## <a name="understanding-the-data-model-and-entities"></a>Veri modellerini ve varlıklarını anlama
-Aşağıdaki veriler **Satış ve karlılık performansı** Power BI içeriğindeki raporu doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Sunucu veritabanıdır. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesine genel bakış](power-bi-integration-entity-store.md). 
+Aşağıdaki veriler **Satış ve karlılık performansı** Power BI içeriğindeki raporu doldurmak için kullanılır. Bu veri, Varlık mağazasında hazırlanan toplam ölçümler olarak sunulur. Varlık mağazası, analizler için en iyi duruma getirilmiş bir Microsoft SQL Sunucu veritabanıdır. Daha fazla bilgi için, bkz. [Varlık mağazası ile Power BI tümleştirmesine genel bakış](power-bi-integration-entity-store.md).
 
-Bu içerikteki toplam ölçümleri, Microsoft Dynamics AX 2012 ve Microsoft Dynamics AX 2012 R3'teki Satış Küpü'nde bulunan toplama ölçümlerin alt kümesidir. Varlık deposundaki küpün toplama ölçülerini hazırlamak için bu ölçümleri dağıtılabilir yapmanız gerekir. Daha fazla bilgi için, şu blog yazısındaki toplama ölçümlerini Varlık Deposuna ekleme yordamına bakın: [Dynamics'te Power BI ile Varlık deposu tümleştirmesi](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). 
+Bu içerikteki toplam ölçümleri, Microsoft Dynamics AX 2012 ve Microsoft Dynamics AX 2012 R3'teki Satış Küpü'nde bulunan toplama ölçümlerin alt kümesidir. Varlık deposundaki küpün toplama ölçülerini hazırlamak için bu ölçümleri dağıtılabilir yapmanız gerekir. Daha fazla bilgi için, şu blog yazısındaki toplama ölçümlerini Varlık Deposuna ekleme yordamına bakın: [Dynamics'te Power BI ile Varlık deposu tümleştirmesi](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/).
 
 Fatura satırları varlığının aşağıda verilen önemli toplama ölçümleri, içeriğin temeli olarak kullanılır.
 
-| Varlık        | Önemli toplam ölçümler                   | Dynamics 365 için Veri kaynağı                    | Alan                                        | Açıklama                                   |
-|---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|----------------------------------------------|
-| Fatura satırları | Gelir                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Muhasebe para birimi cinsinden tutar.            |
-|               | Satılan malların maliyeti                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | Maliyet tutarı toplamı ve ayarlama.    |
-|               | Komisyon satırı tutarı – muhasebe para birimi | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Muhasebe para birimi cinsinden komisyon tutarı. |
+| Varlık        | Önemli toplam ölçümler                   | Dynamics 365 için Veri kaynağı | Alan                                        | Açıklama                                       |
+|---------------|----------------------------------------------|------------------------------|----------------------------------------------|---------------------------------------------------|
+| Fatura satırları | Gelir                                      | CustInvoiceTrans             | SUM(LineAmountMST)                           | Muhasebe para birimi cinsinden tutar.            |
+|               | Satılan malların maliyeti                           | InventTrans                  | SUM(CostAmountPosted + CostAmountAdjustment) | Maliyet tutarı toplamı ve ayarlama.    |
+|               | Komisyon satırı tutarı: muhasebe para birimi | CustInvoiceTrans             | SUM(CommissAmountMST)                        | Muhasebe para birimi cinsinden komisyon tutarı. |
 
-Aşağıdaki tabloda, içerikte veri kümesini oluşturmak için kullanılan Fatura satırları varlığı önemli toplama ölçümleri gösterilmektedir.
+Aşağıdaki tabloda, içeriğin veri kümesinde çeşitli hesaplanan ölçümler oluşturmak için kullanılan Fatura satırları varlığının önemli toplama ölçümleri gösterilmektedir.
 
 | Ölçü           | Hesaplama                                                                                      |
 |-------------------|--------------------------------------------------------------------------------------------------|
-| Brüt kar      | SUM(Gelir – SMM – Komisyon – Satış vergisi (müşteri faturası satır tutarı dahil))          |
-| Brüt kar      | SUM(Brüt kar / (Gelir – Satış vergisi (müşteri faturası satır tutarı dahil)))             |
+| Brüt kar      | SUM(Gelir: SMM: Komisyon: Satış vergisi (müşteri faturası satır tutarı dahil))          |
+| Brüt kar      | SUM(Brüt kar / (Gelir: Satış vergisi (müşteri faturası satır tutarı dahil)))             |
 | Geçen yılın geliri | Geçen yılın geliri = CALCULATE(SUM('Fatura satırları'\[Gelir\]), SAMEPERIODLASTYEAR (Tarihler\[Tarih\]) |
 
 Satış Küpündeki aşağıda belirtilen temel boyutlar daha büyük hassasiyet ve daha derin analiz bilgileri elde edebilmeniz amacıyla toplama ölçümlerini bölmek üzere filtre olarak kullanılır.

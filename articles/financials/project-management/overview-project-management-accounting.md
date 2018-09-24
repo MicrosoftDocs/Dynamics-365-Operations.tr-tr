@@ -35,7 +35,9 @@ Proje yönetimi ve muhasebe işlevi, birden çok sektörde hizmet almak, ürün 
 Proje, bir servis sağlamak, bir ürün üretmek veya bir sonuç elde etmek üzere tasarlanmış etkinlikler grubudur. Proje kaynakları kullanır ve gelirler veya kıymetler biçiminde finansal sonuçlar üretir.
 
 ## <a name="projects-across-industries"></a>Endüstrilerdeki projeler
-Proje yönetimi ve muhasebe işlevi, aşağıdaki şekilde gösterildiği gibi birden fazla endüstride kullanılabilir. [![Endüstriler arasındaki projeler](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+Proje yönetimi ve muhasebe işlevi, aşağıdaki şekilde gösterildiği gibi birden fazla endüstride kullanılabilir.
+
+[![Endüstriler arasındaki projeler](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Çağrı merkezinde bir bilet, bir çağrının çözülmesi için gerekli eylemlerin tanımlanması için kullanılabilir. Yönetim veya teknik danışmanlık kuruluşları veya reklam acenteleri gibi danışmanlık şirketleri projeler olarak bu etkinliklere bakar. Pazarlamada, kampanya temsil edilmesi gereken iş kümesini temsil eder. Projeye dayalı üretimlerde bir üretim emri, hedeflenen nihai ürünlerin üretilmesi için gerçekleştirilmesi gereken çeşitli çalışmaları kapsar. Bu projeler nasıl adlandırılırsa adlandırılsın kaynaklar, planlar ve maliyetler içerir ve Microsoft Dynamics 365 for Finance and Operations'taki proje yönetimi ve muhasebe işlevi bu projelerin planlanması, uygulanması ve analiz edilmesine yardımcı olabilir.
 

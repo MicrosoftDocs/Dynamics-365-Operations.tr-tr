@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 3e12037f14e7e01764fd6d18f52854c35a09d196
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: ae2087cf142fc2670bda3c542b336f12978178a6
 ms.contentlocale: tr-tr
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,34 +35,31 @@ Finance and Operations için mali raporlama, finans ve şirket profesyonellerini
 Mali raporlama boyut desteği içerir. Bu nedenle, hesap segmentleri veya boyutları derhal kullanılabilir hale gelir Ek araçlar veya yapılandırma adımları gerekli değildir.
 
 ## <a name="financial-reporting-setup"></a>Mali raporlama ayarı
-**Mali raporlama kurulumu** sayfası sistemdeki tüm finansal boyutların listesini içerir. **Genel muhasebe** > **Genel muhasebe kurulumu** > **Mali raporlama kurulumu**. 
+**Mali raporlama kurulumu** sayfası sistemdeki tüm finansal boyutların listesini içerir. **Genel muhasebe** \> **Genel muhasebe ayarı** \> **Mali raporlama ayarı**.
 
 **Mali raporlama kurulumu** sayfası, Mali raporda bildirdiğiniz verileri belirleyen iki bölüm içerir:
 
-• **Boyutlar sekmesi** - Farklı şirketler farklı boyutlar ve hesap yapıları kullandığından, kullanıcıların raporlarda tüm mali boyutları görüntülemek istediği sırayı belirlemenin bir yolu yoktur. Bu sayfa, Mali raporlamada bir rapor oluşturduğunuzda ve görüntülediğinizde mali boyutların görünmesini istediğiniz sırayı ayarlamanıza olanak tanır.
-
-• **Öznitelikler sekmesi**, **Aatıcılar** ve **Müşteriler**'i filtreleme ve rapor tasarımı için öznitelik olarak kullanmayı isteyip istemediğiniz belirleyeceğiniz alandır. Satıcı ve Müşteri üzerinde raporlama yapmak ancak hareketleri deftere naklederken birden çok müşteri veya satıcıyı tek bir fişe girmiyor olmanız durumunda değerlidir. Müşteri ve/veya Satıcı seçme tümleştirmeye ek süre ekler.
-
-
+- **Boyutlar sekmesi**: Farklı şirketler farklı boyutlar ve hesap yapıları kullandığından, kullanıcıların raporlarda tüm mali boyutları görüntülemek istediği sırayı belirlemenin bir yolu yoktur. Bu sayfa, Mali raporlamada bir rapor oluşturduğunuzda ve görüntülediğinizde mali boyutların görünmesini istediğiniz sırayı ayarlamanıza olanak tanır.
+- **Öznitelikler sekmesi**, **Satıcılar** ve **Müşteriler**'i filtreleme ve rapor tasarımı için öznitelik olarak kullanmayı isteyip istemediğinizi seçebileceğiniz alandır. Satıcı ve Müşteri üzerinde raporlama yapmak ancak hareketleri deftere naklederken birden çok müşteri veya satıcıyı tek bir fişe girmiyor olmanız durumunda değerlidir. Müşteri ve/veya Satıcı seçme tümleştirmeye ek süre ekler.
 
 ## <a name="financial-reporting-components"></a>Mali raporlama bileşenleri
 Mali raporlamanın aşağıdaki bileşenleri raporların oluşturulmasını, görüntülenmesini ve programlanmasını kolaylaştırır.
 
-| Bileşen        | İşlevler                                                                                                                                                                                                                                                                           | Ek bilgiler                                                                          |
-|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| Rapor Tasarımcısı  | Bir rapor tanımlamak ve oluşturmak için birleştirilebilecek rapor yapı taşları oluşturun. Rapor sihirbazı daha az deneyimli kullanıcılara tasarım süreci boyunca rehberlik eder. İleri düzey kullanıcılar, yeni rapor yapı taşları oluşturabilir veya mevcut yapı taşlarını gereksinimlerini karşılayacak şekilde değiştirebilirler. |                                                                                                 |
-| Rapor programları | Düzenli aralıklarla oluşturulması için tek bir raporu veya bir raporlar grubu planlayın.                                                                                                                                                                                          | [Mali rapor oluşturma](generate-financial-report.md) |
+| Bileşen        | İşlevler | Ek bilgiler |
+|------------------|-----------|------------------------|
+| Rapor Tasarımcısı  | Bir rapor tanımlamak ve oluşturmak için birleştirilebilecek rapor yapı taşları oluşturun. Rapor sihirbazı daha az deneyimli kullanıcılara tasarım süreci boyunca rehberlik eder. İleri düzey kullanıcılar, yeni rapor yapı taşları oluşturabilir veya mevcut yapı taşlarını gereksinimlerini karşılayacak şekilde değiştirebilirler. | |
+| Rapor programları | Düzenli aralıklarla oluşturulması için tek bir raporu veya bir raporlar grubu planlayın. | [Mali rapor oluşturma](generate-financial-report.md) |
 
 ## <a name="features"></a>Özellikler
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Özellik</th>
 <th>Açıklama</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Rapor tasarım esnekliği</td>
 <td>Rapor Tasarımcısı, bir rapor tasarlarken size şu raporlama seçeneklerini sağlar:
 <ul>
@@ -70,9 +67,10 @@ Mali raporlamanın aşağıdaki bileşenleri raporların oluşturulmasını, gö
 <li>Boyut açıklamalarının nasıl biçimlendirilip görüntülendiğini kontrol edin.</li>
 <li>Rapor yapı taşlarında atlanan hesapları veya boyutları belirleyin.</li>
 <li>Toplanan tahminler için başlıkları biçimlendirin.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Mali rapor işbirliği</td>
 <td>Aşağıdaki özellikler raporların oluşturulmasını ve dağıtılmasını yönetmenize yardımcı olur:
 <ul>
@@ -80,9 +78,10 @@ Mali raporlamanın aşağıdaki bileşenleri raporların oluşturulmasını, gö
 <li>Dijital imzalarla daha iyi belge güvenliği sunan salt okunur XPS biçiminde dışa aktarın.</li>
 <li>Microsoft Excel çalışma sayfası olarak dışa aktarın.</li>
 <li>Raporları paylaşmak için, raporlara ait bağlantılar içeren e-posta iletileri oluşturabilirsiniz.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Etkileşimli rapor görüntüleme</td>
 <td>Etkileşimli özellikler aşağıdaki görevleri yerine getirmenizi sağlar:
 <ul>
@@ -99,8 +98,4 @@ Mali raporlamanın aşağıdaki bileşenleri raporların oluşturulmasını, gö
 
 ## <a name="additional-resources"></a>Ek kaynaklar
 [Mali rapor oluşturma](generate-financial-report.md)
-
-
-
-
 
