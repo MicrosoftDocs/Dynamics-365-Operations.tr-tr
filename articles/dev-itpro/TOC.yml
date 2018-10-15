@@ -9,7 +9,7 @@
   items:
     - name: Veri paketleri kullanarak tanıtım verileri oluşturma
       href: data-entities/generate-demo-data-packages.md
-- name: Visual Studio kullanarak geliştirme ve özelleştirme
+- name: Geliştirme ve özelleştirme
   href: dev-tools/developer-home-page.md
   items:
     - name: Uygulama yığını ve sunucu mimarisi
@@ -25,9 +25,9 @@
           href: dev-tools/configure-developer-vm.md
         - name: Geliştirme makinelerinde yeni kullanıcılar oluşturma
           href: dev-tools/enable-development-machine.md
-        - name: Yönetici erişimine izin vermeyen VM'lerde geliştirme ve oluşturmaya ilişkin SSS
+        - name: Yönetici erişimine izin vermeyen VM'ler geliştirme ve oluşturmaya ilişkin SSS
           href: sysadmin/VMs-no-admin-access.md
-        - name: Visual Studio Team Services'a erişim sağlamak için yerel ortamları yeniden adlandırma
+        - name: Azure DevOps'a erişmek için yerel ortamları yeniden adlandırma
           href: migration-upgrade/vso-machine-renaming.md
         - name: Geliştirme sistemi gereksinimleri
           href: dev-tools/development-system-requirements.md
@@ -106,6 +106,8 @@
               href: dev-ref/xpp-variables-data-types.md
             - name: 'X++ ifadeleri, döngüler ve özel durumları ele alma'
               href: dev-ref/xpp-statements-loops.md
+            - name: SQL bağlantı hatası X++ özel durumu
+              href: dev-ref/sql-connection-error.md
             - name: X++ işleçleri
               href: dev-ref/xpp-operators.md
             - name: X++ işleci önceliği
@@ -251,6 +253,10 @@
               href: extensibility/extensibility-changes-802.md
             - name: Genişletilebilirlik değişiklikleri sürüm 8.0.3
               href: extensibility/extensibility-changes-803.md
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.0.4
+              href: extensibility/extensibility-changes-804.md
+            - name: Genişletilebilirlik değişiklikleri sürüm 8.1
+              href: extensibility/extensibility-changes-81.md
         - name: Temel bilgiler
           items:
             - name: Kullanışsız özelleştirmeler
@@ -916,6 +922,8 @@
           href: gdpr/gdpr-lcs.md
     - name: Veri doğrulama denetim listesi çalışma alanı
       href: user-interface/data-validation-workspace.md
+    - name: Veri yönetimi hata açıklamaları
+      href: data-entities/dm-error-descriptions.md
 - name: Sürekli teslimat
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1109,12 +1117,27 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: Bütçe planlamasını yükseltme
               href: migration-upgrade/upgrade-budget-planning.md
+    - name: AX 2009'dan Finance and Operations'a verileri taşıma
+      href: migration-upgrade/data-migration-tool.md
+      items:
+        - name: 'AX 2009 geçişi: Veri geçişi aracını yükleme'
+          href: migration-upgrade/install-dmt.md
+        - name: 'AX 2009 geçişi: Haritalar oluşturma'
+          href: migration-upgrade/generate-maps.md
+        - name: 'AX 2009 geçişi: Şablonlar oluşturma'
+          href: migration-upgrade/create-package-templates-dmt.md
+        - name: 'AX 2009 geçişi: Geçiş grupları oluşturma'
+          href: migration-upgrade/create-definition.md
+        - name: 'AX 2009 geçişi: Paketleri dışa aktarma'
+          href: migration-upgrade/ax2009-upgrade-export-package.md
+        - name: 'AX 2009 geçişi: Paketleri içe aktarma'
+          href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: Kod geçişi ve yükseltmesi
       href: migration-upgrade/code-migration-home-page.md
       items:
         - name: Kod geçişine hazırlanma
           href: migration-upgrade/prepare-migration.md
-        - name: Visual Studio Team Services eşlemesini yapılandırma
+        - name: Azure DevOps eşlemesini yapılandırma
           href: migration-upgrade/configure-vso-solution.md
         - name: Model bölme
           href: dev-tools/model-split.md
@@ -1124,6 +1147,8 @@
       items:
         - name: En son güncelleştirmeye geçme işlemi
           href: migration-upgrade/upgrade-latest-update.md
+        - name: Ortamları sürüm 8.0'dan 8.1'e yükseltme
+          href: migration-upgrade/appupdate-80-81.md
         - name: Yazılım yaşam döngüsü ilkesi ve bulut sürümleri
           href: migration-upgrade/versions-update-policy.md
         - name: Ortamlar için en son platform güncelleştirmesini uygulama
@@ -1248,7 +1273,7 @@
       href: lifecycle-services/complete-tasks-bpm.md
     - name: BPM kitaplıklarında etkinlik şemalarıyla çalışma
       href: lifecycle-services/using-activity-diagrams.md
-    - name: BPM kitaplıklarını Visual Studio Team Services ile eşitleme
+    - name: BPM kitaplıklarını Azure DevOps ile eşitleme
       href: lifecycle-services/synchronize-bpm-vsts.md
     - name: Görev kılavuzları ve BPM kullanarak kullanıcı kabul testi kitaplıkları oluşturma
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
@@ -1266,6 +1291,10 @@
       href: lifecycle-services/user-logins.md
     - name: Varlık kitaplığı
       href: lifecycle-services/asset-library.md
+    - name: LCS'deki araçları kullanarak performans sorunlarını giderme
+      href: lifecycle-services/performancetroubleshooting.md
+    - name: Sorgu başvuru rehberi
+      href: lifecycle-services/querycookbook.md
     - name: Microsoft Dynamics 365 Translation Service
       href: lifecycle-services/translation-service-overview.md
       items:
